@@ -1,0 +1,42 @@
+{
+	title: "§b梅开二度",
+	x: -8.5d,
+	y: 5.5d,
+	description: "合成高级工作台，可以5x5合成",
+	text: [
+		""
+	],
+	dependencies: [
+		"5c3e551a",
+		"ae295542"
+	],
+	tasks: [{
+		uid: "d4e8e033",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_advanced"
+		}]
+	}],
+	rewards: [{
+		uid: "44615265",
+		type: "item",
+		item: "extendedcrafting:material",
+		count: 16
+	},
+	{
+		uid: "c0bc3f98",
+		type: "item",
+		item: "tconevo:material",
+		count: 4
+	},
+	{
+		uid: "ea90cc22",
+		type: "xp",
+		xp: 8000
+	},
+	{
+		uid: "4bc645f9",
+		type: "random",
+		table: 3
+	}]
+}

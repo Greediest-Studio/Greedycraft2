@@ -1,0 +1,14 @@
+{
+	x: -6.0d,
+	y: 9.5d,
+	dependencies: [
+		"1280667e"
+	],
+	tasks: [{
+		uid: "f61b6836",
+		type: "item",
+		items: [{
+			item: "projectex:personal_link"
+		}]
+	}]
+}

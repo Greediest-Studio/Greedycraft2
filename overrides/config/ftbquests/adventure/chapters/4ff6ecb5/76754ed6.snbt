@@ -1,0 +1,26 @@
+{
+	title: "§b真正的冶炼！",
+	x: 1.5d,
+	y: -4.0d,
+	description: "制作源质治练厂",
+	dependencies: [
+		"2e83a821"
+	],
+	tasks: [{
+		uid: "5e68fadd",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_basic"
+		}]
+	}],
+	rewards: [{
+		uid: "15bbacd7",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "dfc02a39",
+		type: "loot",
+		table: 0
+	}]
+}

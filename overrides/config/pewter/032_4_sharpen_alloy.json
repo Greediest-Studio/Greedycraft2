@@ -1,0 +1,94 @@
+{
+  "name": "sharpen_alloy",
+  "tool": {
+    "head": {
+      "attackDamage": 36.2,
+      "speed": 6.7,
+      "durability": 8100,
+      "harvestLevel": 9
+    },
+    "handle": {
+      "modifier": 1.7,
+      "durability": 2400
+    },
+    "extra": {
+      "durability": 2080
+    },
+    "bow": {
+      "speed": 0.8,
+      "range": 1.4,
+      "bonusDamage": 16.0
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 345.0,
+      "defense": 62.0
+    },
+    "plates": {
+      "modifier": 8.0,
+      "durability": 140.0,
+      "toughness": 5.8
+    },
+    "trim": {
+      "extraDurability": 99.0
+    }
+  },
+  "color": "#adb2af",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Sharpen Alloy",
+    "zh_cn": "锐化合金"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:eioaddon-sharpen_alloy_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["overrun","stonebound"],
+    "HANDLE": ["overrun","stonebound"],
+    "EXTRA": ["overrun","stonebound"],
+    "BOW": ["overrun","stonebound"],
+    "CORE": ["comfort_armor","shielding_armor"],
+    "PLATES": ["comfort_armor","shielding_armor"],
+    "TRIM": ["comfort_armor","shielding_armor"]
+  }
+}

@@ -1,0 +1,29 @@
+{
+	title: "§b这不是深渊国度！",
+	x: -6.5d,
+	y: 1.0d,
+	description: "召唤并击杀异变珊瑚",
+	text: [
+		""
+	],
+	dependencies: [
+		"99d17aa7"
+	],
+	tasks: [{
+		uid: "66f818dd",
+		type: "item",
+		items: [{
+			item: "journey:trophycor"
+		}]
+	}],
+	rewards: [{
+		uid: "3b5db280",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "f817fc64",
+		type: "random",
+		table: 2
+	}]
+}

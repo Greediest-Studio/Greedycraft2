@@ -1,0 +1,38 @@
+{
+	title: "§b遗失古城",
+	x: -10.5d,
+	y: -7.5d,
+	description: "使用嬗变器还原恐惧浸染门钥匙，获得查伽洛斯的拉莱耶门钥匙，使用并进入奥穆索",
+	text: [
+		""
+	],
+	dependencies: [
+		"ecc95796"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "1fd44d91",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:gatewaykeyjzh"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "77ecb814",
+		type: "item",
+		item: "abyssalcraft:dreadiumingot",
+		count: 4
+	},
+	{
+		uid: "5577f5af",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "42ce2c9b",
+		type: "xp",
+		xp: 1000
+	}]
+}

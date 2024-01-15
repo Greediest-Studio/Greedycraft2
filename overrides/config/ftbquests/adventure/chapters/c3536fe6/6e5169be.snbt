@@ -1,0 +1,24 @@
+{
+	title: "§b古代青铜",
+	x: -3.0d,
+	y: -6.5d,
+	description: "在梦魇世界挖掘梦魇青铜残骸",
+	text: [
+		""
+	],
+	dependencies: [
+		"9a090295"
+	],
+	tasks: [{
+		uid: "0e8756e4",
+		type: "item",
+		items: [{
+			item: "additions:vethea-vethea_bronze_debris"
+		}]
+	}],
+	rewards: [{
+		uid: "9808ec53",
+		type: "random",
+		table: 5
+	}]
+}

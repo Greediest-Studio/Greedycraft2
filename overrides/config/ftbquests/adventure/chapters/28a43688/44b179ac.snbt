@@ -1,0 +1,72 @@
+{
+	title: "§b神龙觉醒",
+	x: -11.0d,
+	y: 7.0d,
+	shape: "gear",
+	description: "合成觉醒核心与复活核心",
+	text: [
+		"你终于可以飞行了！",
+		"不过，在某些维度，你的飞行可能不会起效哦……"
+	],
+	dependencies: [
+		"14262308"
+	],
+	tasks: [{
+		uid: "722fbeff",
+		type: "item",
+		items: [{
+			item: "draconicevolution:awakened_core"
+		}]
+	},
+	{
+		uid: "187ebe52",
+		type: "item",
+		items: [{
+			item: "gct_ores:relifed_core"
+		}]
+	}],
+	rewards: [{
+		uid: "c02dd2a0",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "awakened"
+	},
+	{
+		uid: "b58578fb",
+		type: "item",
+		item: "draconicevolution:awakened_core"
+	},
+	{
+		uid: "999fbe30",
+		type: "item",
+		item: "gct_ores:relifed_core"
+	},
+	{
+		uid: "06533ab4",
+		type: "item",
+		item: "draconicevolution:draconium_ingot",
+		count: 64
+	},
+	{
+		uid: "c9cb4dde",
+		type: "item",
+		item: "draconicevolution:dragon_heart",
+		count: 16
+	},
+	{
+		uid: "4993d09e",
+		type: "item",
+		item: "minecraft:nether_star",
+		count: 16
+	},
+	{
+		uid: "88147c76",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "15d23f97",
+		type: "xp",
+		xp: 10000
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "§b清洁能源VIII",
+	x: -14.5d,
+	y: -5.0d,
+	description: "制作指定的太阳能电池板",
+	text: [
+		""
+	],
+	dependencies: [
+		"3ed3e1b7",
+		"4b2964ac"
+	],
+	tasks: [{
+		uid: "107ca455",
+		type: "item",
+		items: [{
+			item: "solarflux:solar_panel_8"
+		}]
+	}],
+	rewards: [{
+		uid: "9eb826c0",
+		type: "item",
+		team_reward: true,
+		item: "solarflux:solar_panel_8"
+	},
+	{
+		uid: "85d22ebb",
+		type: "xp",
+		xp: 3200
+	}]
+}

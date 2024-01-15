@@ -1,0 +1,94 @@
+{
+  "name": "flamium",
+  "tool": {
+    "head": {
+      "attackDamage": 12,
+      "speed": 6,
+      "durability": 1000,
+      "harvestLevel": 5
+    },
+    "handle": {
+      "modifier": 0.9,
+      "durability": 320
+    },
+    "extra": {
+      "durability": 400
+    },
+    "bow": {
+      "speed": 1.6,
+      "range": 2,
+      "bonusDamage": 12
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 19,
+      "defense": 38
+    },
+    "plates": {
+      "modifier": 4,
+      "durability": 23,
+      "toughness": 3.6
+    },
+    "trim": {
+      "extraDurability": 32
+    }
+  },
+  "color": "#ffad37",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Flamium",
+    "zh_cn": "炎心铁"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:greedycraft-flamium_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["flammable", "lighting3", "melting"],
+    "HANDLE": ["flammable", "lighting3", "melting"],
+    "EXTRA": ["flammable", "lighting3", "melting"],
+    "BOW": ["flammable", "lighting3", "melting"],
+    "CORE": ["tconevo.hearth_embrace_armor", "lighting3_armor", "autoforge_armor"],
+    "PLATES": ["tconevo.hearth_embrace_armor", "lighting3_armor", "autoforge_armor"],
+    "TRIM": ["tconevo.hearth_embrace_armor", "lighting3_armor", "autoforge_armor"]
+  }
+}

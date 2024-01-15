@@ -1,0 +1,30 @@
+{
+	title: "§b创世神",
+	x: 10.0d,
+	y: -4.5d,
+	description: "制作一个创世合金锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"a51247dd"
+	],
+	tasks: [{
+		uid: "47f12b94",
+		type: "item",
+		items: [{
+			item: "additions:eioaddon-creative_alloy_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "b11339a5",
+		type: "item",
+		item: "additions:eioaddon-creative_alloy_ingot",
+		count: 4
+	},
+	{
+		uid: "81a5492d",
+		type: "xp",
+		xp: 6000
+	}]
+}

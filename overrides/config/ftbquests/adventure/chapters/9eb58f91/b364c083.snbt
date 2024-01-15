@@ -1,0 +1,40 @@
+{
+	title: "§b实用榜第一！",
+	x: -17.5d,
+	y: -6.0d,
+	description: "制作无线合成终端",
+	text: [
+		""
+	],
+	dependencies: [
+		"b5314b30"
+	],
+	tasks: [{
+		uid: "ab1376bb",
+		type: "item",
+		items: [{
+			id: "wct:wct",
+			tag: {
+				InfinityEnergy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c75a4128",
+		type: "item",
+		item: "ae2wtlib:infinity_booster_card",
+		count: 4
+	},
+	{
+		uid: "8014be1b",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "15ed08c3",
+		type: "xp",
+		xp: 2000
+	}]
+}

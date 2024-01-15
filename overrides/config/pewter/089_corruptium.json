@@ -1,0 +1,124 @@
+{
+    "name": "corruptium",
+    "tool": {
+      "head": {
+        "attackDamage": 20,
+        "speed": 16.9,
+        "durability": 1000,
+        "harvestLevel": 8
+      },
+      "handle": {
+        "modifier": 2.6,
+        "durability": 650
+      },
+      "extra": {
+        "durability": 800
+      },
+      "bow": {
+        "speed": 1.2,
+        "range": 0.8,
+        "bonusDamage": 15
+      }
+    },
+    "color": "#2c0a59",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 720,
+    "looks": {
+      "shininess": 0.8,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Corruptium",
+      "zh_cn": "腐化金属"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "additions:greedycraft-corruptium_ingot"
+      ],
+      "block": [
+      ],
+      "nugget": [
+      ],
+      "ore": [
+      ],
+      "dust": [
+      ],
+      "plate": [
+      ],
+      "gear": [
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "defense": 55,
+        "durability": 180
+      },
+      "plates": {
+        "toughness": 4.5,
+        "modifier": 3.2,
+        "durability": 130
+      },
+      "trim": {
+        "extraDurability": 130
+      }
+    },
+    "specificTraits": {
+      "HEAD": [
+        "moretcon.voidic",
+        "tconevo.warping"
+      ],
+      "HANDLE": [
+        "moretcon.voidic",
+        "tconevo.warping"
+      ],
+      "EXTRA": [
+        "moretcon.voidic",
+        "tconevo.warping"
+      ],
+      "BOW": [
+        "moretcon.voidic",
+        "tconevo.warping"
+      ],
+      "CORE": [
+        "tconevo.warping_armor",
+        "moretcon.voidic"
+      ],
+      "PLATES": [
+        "tconevo.warping_armor",
+        "moretcon.voidic"
+      ],
+      "TRIM": [
+        "tconevo.warping_armor",
+        "moretcon.voidic"
+      ]
+    }
+}
+  

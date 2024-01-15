@@ -1,0 +1,32 @@
+{
+	title: "§b海洋之石",
+	x: 3.5d,
+	y: 9.0d,
+	description: "挖掘珊瑚矿石，得到珊瑚宝石",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "5144e719",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:coralium"
+		}]
+	}],
+	rewards: [{
+		uid: "322344d0",
+		type: "item",
+		item: "abyssalcraft:ccluster9",
+		count: 2
+	},
+	{
+		uid: "3b967e09",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "c24f04a5",
+		type: "random",
+		table: 1
+	}]
+}

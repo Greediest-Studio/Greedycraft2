@@ -1,0 +1,49 @@
+{
+	title: "§b燃烧殆尽",
+	x: -8.0d,
+	y: 4.5d,
+	description: "使用召唤台合成诅咒：燃烧",
+	text: [
+		""
+	],
+	dependencies: [
+		"35619de1"
+	],
+	tasks: [{
+		uid: "6c2da600",
+		type: "item",
+		items: [{
+			item: "journey:blazierorb"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c8ad1c9a",
+		type: "item",
+		item: "journey:boilpowder",
+		count: 16
+	},
+	{
+		uid: "1539f5ca",
+		type: "item",
+		item: {
+			id: "thermalexpansion:florb",
+			Damage: 1s,
+			tag: {
+				Fluid: "pyrotheum"
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "952722a2",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "d0bea451",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,59 @@
+{
+	title: "§b找矿神器？",
+	x: 5.5d,
+	y: -3.0d,
+	description: "制作晶金座星斗披风",
+	text: [
+		"装备晶金座星斗披风时，可以显示出附近你手持的方块，找稀有矿很方便！不过要注意耐久哦~"
+	],
+	dependencies: [
+		"fd7ee13f"
+	],
+	tasks: [{
+		uid: "13aeae81",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemcape",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.mineralis"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "191a44aa",
+		type: "item",
+		item: "minecraft:iron_ore"
+	},
+	{
+		uid: "9c9c474f",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					id: 34,
+					lvl: 3s
+				}]
+			}
+		}
+	},
+	{
+		uid: "c8716979",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "6e706f00",
+		type: "item",
+		item: {
+			id: "astralsorcery:itemcape",
+			tag: {
+				astralsorcery: {}
+			}
+		}
+	}]
+}

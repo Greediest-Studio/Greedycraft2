@@ -1,0 +1,27 @@
+{
+	title: "§b更高一级的治练厂",
+	x: 5.5d,
+	y: -2.0d,
+	description: "制作秘银源质治练厂",
+	dependencies: [
+		"5df0146b",
+		"3c67df78"
+	],
+	tasks: [{
+		uid: "e4b7be85",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithrillium_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "43299025",
+		type: "xp",
+		xp: 1500
+	},
+	{
+		uid: "b97a80aa",
+		type: "loot",
+		table: 2
+	}]
+}

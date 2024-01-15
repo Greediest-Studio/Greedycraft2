@@ -1,0 +1,33 @@
+{
+	title: "§b女王家就是我家",
+	x: 9.0d,
+	y: 12.0d,
+	description: "提交20480个极光方块",
+	text: [
+		"@原罪Suntre"
+	],
+	tasks: [{
+		uid: "988a36b5",
+		type: "item",
+		items: [{
+			item: "twilightforest:aurora_block"
+		}],
+		count: 20480L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "25e4af29",
+		type: "item",
+		item: "additions:greedycraft-aurora_heart"
+	},
+	{
+		uid: "9a07b8c8",
+		type: "xp",
+		xp: 2048
+	},
+	{
+		uid: "efe6f3a6",
+		type: "random",
+		table: 3
+	}]
+}

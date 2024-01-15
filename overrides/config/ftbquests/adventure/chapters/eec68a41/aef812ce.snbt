@@ -1,0 +1,36 @@
+{
+	title: "§b填海造陆",
+	x: -1.0d,
+	y: -4.5d,
+	description: "制作大地法杖",
+	text: [
+		""
+	],
+	dependencies: [
+		"bb25425b"
+	],
+	tasks: [{
+		uid: "e8dbb3df",
+		type: "item",
+		items: [{
+			item: "botania:dirtrod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "31b43b7b",
+		type: "item",
+		item: "botania:rune 1 2"
+	},
+	{
+		uid: "2b7e5b23",
+		type: "xp",
+		xp: 350
+	},
+	{
+		uid: "b57213b4",
+		type: "random",
+		table: 1
+	}]
+}

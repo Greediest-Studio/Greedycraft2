@@ -1,0 +1,45 @@
+{
+	title: "§b空岛生存！",
+	x: -22.0d,
+	y: -17.0d,
+	description: "制作造石机",
+	text: [
+		""
+	],
+	dependencies: [
+		"56ae2c57"
+	],
+	tasks: [{
+		uid: "28fdb465",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 15s,
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f2409c9a",
+		type: "xp",
+		xp: 450
+	},
+	{
+		uid: "a9e2460c",
+		type: "random",
+		table: 1
+	}]
+}

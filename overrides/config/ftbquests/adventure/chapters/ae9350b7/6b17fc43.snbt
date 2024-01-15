@@ -1,0 +1,32 @@
+{
+	title: "§b芜湖，起飞",
+	x: 13.5d,
+	y: 16.5d,
+	description: "获得炫光飞天果",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "60d21d4f",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:glowing_chorus"
+		}]
+	}],
+	rewards: [{
+		uid: "543dfb98",
+		type: "item",
+		item: "cyclicmagic:glowing_chorus",
+		count: 32
+	},
+	{
+		uid: "1f1b875d",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "6961991d",
+		type: "xp",
+		xp: 1000
+	}]
+}

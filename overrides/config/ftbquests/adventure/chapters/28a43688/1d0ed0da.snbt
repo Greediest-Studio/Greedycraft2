@@ -1,0 +1,34 @@
+{
+	title: "§b初始之兽",
+	x: -16.0d,
+	y: -8.0d,
+	description: "合成灵神台座",
+	text: [
+		""
+	],
+	dependencies: [
+		"1c50c9e3"
+	],
+	tasks: [{
+		uid: "26dbc6c5",
+		type: "item",
+		items: [{
+			item: "gct_aby:sanity_altar"
+		}]
+	}],
+	rewards: [{
+		uid: "c5e8b196",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "7661b32a",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "31d8edf6",
+		type: "xp",
+		xp: 2000
+	}]
+}

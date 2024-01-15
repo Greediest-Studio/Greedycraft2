@@ -1,0 +1,46 @@
+{
+	title: "§b矩阵聚合",
+	x: 3.0d,
+	y: 2.5d,
+	description: "获得聚合矩阵",
+	text: [
+		""
+	],
+	dependencies: [
+		"a29a289d"
+	],
+	tasks: [{
+		uid: "cdfe3bfb",
+		type: "item",
+		items: [{
+			item: "tconevo:material"
+		}]
+	}],
+	rewards: [{
+		uid: "e03e6dc0",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "fusion_matrix"
+	},
+	{
+		uid: "be232f7f",
+		type: "item",
+		item: "tconevo:material",
+		count: 4
+	},
+	{
+		uid: "9bf140ab",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "1c224fc2",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "a81c6fe8",
+		type: "xp",
+		xp: 10000
+	}]
+}

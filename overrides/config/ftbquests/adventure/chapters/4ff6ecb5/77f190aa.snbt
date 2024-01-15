@@ -1,0 +1,34 @@
+{
+	title: "§b扭曲到极致",
+	x: 11.5d,
+	y: 0.0d,
+	description: "制作咒缚锭",
+	dependencies: [
+		"d2cc9351",
+		"03d4a389",
+		"b675e82f"
+	],
+	tasks: [{
+		uid: "6ea976cd",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-cursium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "83c0aba1",
+		type: "item",
+		item: "additions:greedycraft-cursium_ingot",
+		count: 4
+	},
+	{
+		uid: "41f39bf2",
+		type: "xp",
+		xp: 22222
+	},
+	{
+		uid: "d46267d2",
+		type: "random",
+		table: 4
+	}]
+}

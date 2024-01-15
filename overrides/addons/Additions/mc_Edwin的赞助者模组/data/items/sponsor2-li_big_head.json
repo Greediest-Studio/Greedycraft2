@@ -1,0 +1,19 @@
+{
+  "name": "§3李大头之组成头部",
+  "tooltip": [
+    "§b这是只有0.00001几率开出来的，快带上试试吧",
+    "§7§o赞助者物品 by 李大头头不大"
+  ],
+  "max_stack": 1,
+  "attribute_modifiers": [
+    {
+      "attribute_name": "generic.maxHealth",
+      "amount": 100.0,
+      "slot": "head",
+      "uuid": "f5df60e9-76d5-44f0-a4ff-23c92ef50115"
+    }
+  ],
+  "material": "LEATHER",
+  "slot": "HEAD",
+  "type": "additions:armor"
+}

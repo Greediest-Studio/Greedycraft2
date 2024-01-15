@@ -1,0 +1,35 @@
+{
+	title: "§b蕴含魔力的树叶",
+	x: -9.5d,
+	y: 2.0d,
+	description: "获得金叶",
+	text: [
+		"破坏闪耀之树的金树叶有一定概率掉落"
+	],
+	dependencies: [
+		"32b4fc93"
+	],
+	tasks: [{
+		uid: "3ae424a4",
+		type: "item",
+		items: [{
+			item: "naturesaura:gold_leaf"
+		}]
+	}],
+	rewards: [{
+		uid: "b5bf4608",
+		type: "item",
+		item: "naturesaura:gold_leaf",
+		count: 12
+	},
+	{
+		uid: "a015aa61",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "1b309152",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "§b嗖",
+	x: 7.5d,
+	y: 16.5d,
+	description: "获得脱离魔杖",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "47361768",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:tool_elevate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ff478449",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "6a73a2c1",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "b3cf6966",
+		type: "xp",
+		xp: 850
+	}]
+}

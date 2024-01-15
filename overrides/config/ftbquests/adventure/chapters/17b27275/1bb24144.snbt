@@ -1,0 +1,40 @@
+{
+	title: "§b秩序合金",
+	x: -10.0d,
+	y: -5.0d,
+	description: "获得秩序金属",
+	text: [
+		""
+	],
+	dependencies: [
+		"b197945d"
+	],
+	tasks: [{
+		uid: "9bc0db4b",
+		type: "item",
+		items: [{
+			item: "gct_ores:ordered_metal_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "ebb3e569",
+		type: "item",
+		item: {
+			id: "gct_ores:ordered_metal_ingot",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "258fbaeb",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "84f587d6",
+		type: "xp",
+		xp: 12000
+	}]
+}

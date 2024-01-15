@@ -1,0 +1,31 @@
+{
+	title: "§b照亮周围的一切",
+	x: 6.0d,
+	y: 3.0d,
+	description: "制作巨型火把",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "eb06afb2",
+		type: "item",
+		items: [{
+			item: "torchmaster:mega_torch"
+		}]
+	}],
+	rewards: [{
+		uid: "3a3420a3",
+		type: "item",
+		item: "torchmaster:terrain_lighter"
+	},
+	{
+		uid: "7c85be89",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "73ddd5ec",
+		type: "random",
+		table: 0
+	}]
+}

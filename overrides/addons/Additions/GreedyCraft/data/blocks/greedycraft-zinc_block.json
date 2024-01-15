@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "锌块",
+    "ore_dict": "blockZinc",
+    "type": "additions:block_simple"
+  },
+  "name": "锌块",
+  "material": "minecraft:metal",
+  "hardness": 4.0,
+  "resistance": 10.0,
+  "harvest_level": 2,
+  "harvest_tool": "pickaxe",
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

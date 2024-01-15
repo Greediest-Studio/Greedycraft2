@@ -1,0 +1,36 @@
+{
+	title: "§b这玩意没水槽好用！",
+	x: -2.0d,
+	y: -14.0d,
+	description: "制作蓄水器",
+	text: [
+		""
+	],
+	dependencies: [
+		"244b3be7"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "fbc72e29",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:device",
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					0b,
+					1b,
+					0b,
+					0b,
+					0b,
+					0b
+				],
+				RSControl: 0b,
+				Energy: 0
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}]
+}

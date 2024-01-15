@@ -1,0 +1,46 @@
+{
+	title: "§b黑暗能捕抓到吗？",
+	x: -7.0d,
+	y: -2.5d,
+	description: "获得瓶装黑暗",
+	dependencies: [
+		"c22401e6"
+	],
+	tasks: [{
+		uid: "5a1dc97a",
+		type: "item",
+		items: [{
+			id: "naturesaura:aura_bottle",
+			tag: {
+				stored_type: "naturesaura:end"
+			},
+			ForgeCaps: {
+				"distinctdamagedescriptions:dmgdistribution": [{
+					type: "ddd_bludgeoning",
+					weight: 1.0f
+				}]
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "26a5d46a",
+		type: "item",
+		item: {
+			id: "naturesaura:aura_bottle",
+			tag: {
+				stored_type: "naturesaura:end"
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "9b1c8af2",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "2ea55987",
+		type: "random",
+		table: 2
+	}]
+}

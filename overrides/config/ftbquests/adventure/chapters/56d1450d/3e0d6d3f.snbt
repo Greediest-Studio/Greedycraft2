@@ -1,0 +1,36 @@
+{
+	title: "§b浸润",
+	x: -15.0d,
+	y: 1.5d,
+	description: "获得浸渍部件",
+	text: [
+		""
+	],
+	dependencies: [
+		"920e3f1c",
+		"02709d76"
+	],
+	tasks: [{
+		uid: "cb5854f1",
+		type: "item",
+		items: [{
+			item: "forestry:impregnated_casing"
+		}]
+	}],
+	rewards: [{
+		uid: "3ed59277",
+		type: "item",
+		item: "forestry:impregnated_casing",
+		count: 4
+	},
+	{
+		uid: "129e5858",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "8ad9729b",
+		type: "random",
+		table: 2
+	}]
+}

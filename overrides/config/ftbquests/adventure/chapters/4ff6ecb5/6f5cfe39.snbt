@@ -1,0 +1,35 @@
+{
+	title: "§b扭曲值归零",
+	x: -2.5d,
+	y: 6.0d,
+	description: "修仙灵丹？",
+	dependencies: [
+		"eb7dc631"
+	],
+	tasks: [{
+		uid: "202fc9a3",
+		type: "item",
+		items: [{
+			id: "additions:greedycraft-purifying_pill",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "03219ba2",
+		type: "item",
+		item: "additions:greedycraft-purifying_pill",
+		count: 6
+	},
+	{
+		uid: "080bd053",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "eaa9e889",
+		type: "xp",
+		xp: 2400
+	}]
+}

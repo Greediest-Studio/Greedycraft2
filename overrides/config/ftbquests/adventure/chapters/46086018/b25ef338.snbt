@@ -1,0 +1,35 @@
+{
+	title: "§b远近交攻",
+	x: 4.5d,
+	y: -16.0d,
+	description: "进入符石地牢，击杀符石守卫！",
+	text: [
+		""
+	],
+	dependencies: [
+		"0519d9cb"
+	],
+	tasks: [{
+		uid: "2e2d0d0b",
+		type: "item",
+		items: [{
+			item: "theaurorian:trophykeeper"
+		}]
+	}],
+	rewards: [{
+		uid: "ae622f9f",
+		type: "item",
+		item: "theaurorian:umbraingot",
+		count: 8
+	},
+	{
+		uid: "e8629bdb",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "cb30362e",
+		type: "xp",
+		xp: 5000
+	}]
+}

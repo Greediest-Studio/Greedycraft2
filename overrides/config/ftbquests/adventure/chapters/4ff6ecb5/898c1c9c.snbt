@@ -1,0 +1,26 @@
+{
+	title: "§b咒波蒸发了",
+	x: 1.5d,
+	y: 6.0d,
+	description: "制作咒波蒸馏器",
+	dependencies: [
+		"d432450f"
+	],
+	tasks: [{
+		uid: "9ba10441",
+		type: "item",
+		items: [{
+			item: "thaumicwonders:flux_distiller"
+		}]
+	}],
+	rewards: [{
+		uid: "1f99a790",
+		type: "xp",
+		xp: 1680
+	},
+	{
+		uid: "74595eec",
+		type: "random",
+		table: 2
+	}]
+}

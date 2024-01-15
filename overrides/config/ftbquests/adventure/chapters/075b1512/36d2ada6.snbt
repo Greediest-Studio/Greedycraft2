@@ -1,0 +1,39 @@
+{
+	title: "§b倍矿狂魔 V",
+	x: 7.0d,
+	y: 7.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"17d2cee7"
+	],
+	tasks: [{
+		uid: "cc9d02fd",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 6"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "80942ba7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "9e96c1b7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	}]
+}

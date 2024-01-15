@@ -1,0 +1,30 @@
+{
+	title: "§b高级法杖",
+	x: -9.0d,
+	y: -11.0d,
+	description: "获得奥穆索撕裂法杖",
+	text: [
+		""
+	],
+	dependencies: [
+		"5d80cdc8"
+	],
+	tasks: [{
+		uid: "a7ca976d",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:drainstaff 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4778934f",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "d192bb58",
+		type: "xp",
+		xp: 3000
+	}]
+}

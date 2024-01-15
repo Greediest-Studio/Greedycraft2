@@ -1,0 +1,26 @@
+{
+	title: "§b灵气牌充电器，你值得拥有",
+	x: -6.5d,
+	y: 4.0d,
+	description: "制作充能底座",
+	dependencies: [
+		"6e750877"
+	],
+	tasks: [{
+		uid: "15738ca3",
+		type: "item",
+		items: [{
+			item: "thaumcraft:recharge_pedestal"
+		}]
+	}],
+	rewards: [{
+		uid: "fd9fb284",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "c833e553",
+		type: "xp",
+		xp: 500
+	}]
+}

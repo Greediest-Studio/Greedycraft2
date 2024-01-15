@@ -1,0 +1,32 @@
+{
+	title: "§b提取大地的力量的仪器",
+	x: 5.5d,
+	y: 6.0d,
+	description: "获得地缚接收器",
+	dependencies: [
+		"e1041d61"
+	],
+	tasks: [{
+		uid: "e91980eb",
+		type: "item",
+		items: [{
+			item: "gct_mobs:earthbound_receiver"
+		}]
+	}],
+	rewards: [{
+		uid: "922e8b63",
+		type: "item",
+		item: "gct_mobs:earth_orb",
+		count: 4
+	},
+	{
+		uid: "e1423415",
+		type: "xp",
+		xp: 4000
+	},
+	{
+		uid: "28f9a811",
+		type: "random",
+		table: 3
+	}]
+}

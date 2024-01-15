@@ -1,0 +1,38 @@
+{
+	title: "§b飞一样的感觉",
+	x: 0.0d,
+	y: 16.5d,
+	description: "获得末影钩爪",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "deeb5fdc",
+		type: "item",
+		items: [{
+			item: "hooked:hook 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bf169e21",
+		type: "item",
+		item: "minecraft:ender_pearl",
+		count: 32
+	},
+	{
+		uid: "6e476a7a",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "5be578f8",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "10a0b7d7",
+		type: "xp",
+		xp: 2500
+	}]
+}

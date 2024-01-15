@@ -1,0 +1,37 @@
+{
+	title: "§b或许它比锇还要重？",
+	x: -11.0d,
+	y: -5.5d,
+	description: "获得极密合金",
+	text: [
+		""
+	],
+	dependencies: [
+		"0a506c28",
+		"72c71645",
+		"297c4e23"
+	],
+	tasks: [{
+		uid: "6d150a6f",
+		type: "item",
+		items: [{
+			item: "additions:taigaddon-compressite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "e6daf011",
+		type: "item",
+		item: "additions:taigaddon-compressite_ingot",
+		count: 2
+	},
+	{
+		uid: "490638fd",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "6ddb09c3",
+		type: "xp",
+		xp: 5000
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "§b苍白水晶",
+	x: -3.5d,
+	y: -5.0d,
+	description: "在秩序之地挖掘秩序神晶",
+	text: [
+		"不受时运影响，真的，不骗你"
+	],
+	dependencies: [
+		"2094eeae"
+	],
+	tasks: [{
+		uid: "d81044f3",
+		type: "item",
+		items: [{
+			item: "gct_ores:order_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "6a7369e8",
+		type: "item",
+		item: {
+			id: "gct_ores:order_crystal",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 3
+	},
+	{
+		uid: "5fa585c7",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "bfccc935",
+		type: "xp",
+		xp: 15000
+	}]
+}

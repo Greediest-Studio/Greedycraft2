@@ -1,0 +1,29 @@
+{
+	title: "§b这种石头是？",
+	x: 5.5d,
+	y: 8.0d,
+	description: "获得虚空石",
+	text: [
+		"使用裂缝定位仪定位至维度裂隙，获取虚空石以用于研究"
+	],
+	dependencies: [
+		"48b4b30c"
+	],
+	tasks: [{
+		uid: "7678294c",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:stone"
+		}]
+	}],
+	rewards: [{
+		uid: "2867113b",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "332a6eeb",
+		type: "random",
+		table: 2
+	}]
+}

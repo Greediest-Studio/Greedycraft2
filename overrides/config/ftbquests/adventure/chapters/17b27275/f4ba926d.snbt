@@ -1,0 +1,35 @@
+{
+	title: "§b据说可以吃",
+	x: -2.0d,
+	y: 2.5d,
+	description: "获得藤壶幼虫",
+	text: [
+		""
+	],
+	dependencies: [
+		"00327d8a"
+	],
+	tasks: [{
+		uid: "5e8e6948",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:barnacle_1_2"
+		}]
+	}],
+	rewards: [{
+		uid: "edaeaa00",
+		type: "item",
+		item: "thebetweenlands:barnacle_1_2",
+		count: 4
+	},
+	{
+		uid: "1235d3a3",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "4cc07452",
+		type: "xp",
+		xp: 3500
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "【魔法·贰】璀璨星辉",
+	icon: "astralsorcery:itemcraftingcomponent 1 1",
+	always_invisible: false,
+	group: -277029338,
+	default_quest_shape: "",
+	images: [{
+		x: -8.5d,
+		y: 0.0d,
+		width: 10.5d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/mag2.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

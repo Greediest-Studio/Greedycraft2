@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "§5末晶矿石",
+    "ore_dict": "oreHarcadium",
+    "type": "additions:block_simple"
+  },
+  "name": "§5末晶矿石",
+  "material": "minecraft:stone",
+  "hardness": 50.0,
+  "resistance": 4000.0,
+  "harvest_level": 9,
+  "harvest_tool": "pickaxe",
+  "light_level": 3,
+  "type": "additions:simple"
+}

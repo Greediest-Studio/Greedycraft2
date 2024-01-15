@@ -1,0 +1,34 @@
+{
+	title: "§b扫尽世间万物",
+	x: -2.5d,
+	y: 0.0d,
+	description: "制作魔导透镜",
+	dependencies: [
+		"2b2f5f2a"
+	],
+	tasks: [{
+		uid: "c48501d7",
+		type: "item",
+		items: [{
+			item: "thaumcraft:thaumometer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a44d4145",
+		type: "item",
+		item: "thaumcraft:thaumometer",
+		count: 4
+	},
+	{
+		uid: "c980650a",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "985fa6f5",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "§b白花花的世界",
+	x: 9.0d,
+	y: 4.5d,
+	description: "制作豆腐魔杖，进入豆腐世界",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "d6d36619",
+		type: "item",
+		items: [{
+			item: "tofucraft:tofustick"
+		}]
+	}],
+	rewards: [{
+		uid: "726190d5",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "0c683b6c",
+		type: "item",
+		item: "tofucraft:blocktofudiamond",
+		count: 2
+	},
+	{
+		uid: "6dab564a",
+		type: "random",
+		table: 1
+	}]
+}

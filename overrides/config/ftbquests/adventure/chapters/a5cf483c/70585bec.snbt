@@ -1,0 +1,33 @@
+{
+	title: "§b星空力量的载体",
+	x: 1.5d,
+	y: 5.0d,
+	description: "制作空白共鸣水晶",
+	dependencies: [
+		"d933b90a",
+		"1e42800c"
+	],
+	tasks: [{
+		uid: "743bfa4d",
+		type: "item",
+		items: [{
+			item: "additions:astral-astral_gem_00"
+		}]
+	}],
+	rewards: [{
+		uid: "8661b21e",
+		type: "item",
+		item: "additions:astral-astral_gem_00",
+		count: 12
+	},
+	{
+		uid: "c9e25b72",
+		type: "xp",
+		xp: 4000
+	},
+	{
+		uid: "4976e569",
+		type: "random",
+		table: 2
+	}]
+}

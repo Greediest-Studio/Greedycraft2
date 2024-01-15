@@ -1,0 +1,91 @@
+{
+	title: "§b时间洪流？",
+	icon: {
+		id: "astralsorcery:itemtunedcelestialcrystal",
+		tag: {
+			astralsorcery: {
+				crystalProperties: {
+					size: 900,
+					purity: 100,
+					collectiveCapability: 100,
+					fract: 0,
+					sizeOverride: -1
+				},
+				constellationName: "astralsorcery.constellation.horologium"
+			}
+		}
+	},
+	x: 5.5d,
+	y: -1.0d,
+	description: "利用时钟座进行时间控制",
+	text: [
+		"时钟座本体效果为加速一定范围内机器",
+		"但经过避役/振变后变成了全星辉魔法最变态的星座",
+		"避役-时钟座可以极大增加小片区域内方块的运行速度",
+		"振变-时钟座则可以对范围内的所有单位进行“时停”",
+		"",
+		"任务需要检测三围900 100 100的原始时钟座共鸣水晶石和天体聚能水晶"
+	],
+	dependencies: [
+		"63ebed9c"
+	],
+	tasks: [{
+		uid: "9c6260e3",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockcelestialcollectorcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.horologium",
+					collectorType: 1,
+					crystalProperties: {
+						size: 900,
+						purity: 100,
+						collectiveCapability: 100,
+						fract: 0,
+						sizeOverride: -1
+					}
+				}
+			}
+		}]
+	},
+	{
+		uid: "2a5892a8",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemtunedcelestialcrystal",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						size: 900,
+						purity: 100,
+						collectiveCapability: 100,
+						fract: 0,
+						sizeOverride: -1
+					},
+					constellationName: "astralsorcery.constellation.horologium"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d3c003d3",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "de288813",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "8c39e24b",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "4345be39",
+		type: "xp",
+		xp: 12800
+	}]
+}

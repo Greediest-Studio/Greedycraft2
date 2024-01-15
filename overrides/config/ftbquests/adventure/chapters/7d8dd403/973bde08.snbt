@@ -1,0 +1,35 @@
+{
+	title: "§bC₅H₅N₅O",
+	x: 4.0d,
+	y: 0.0d,
+	description: "在深渊荒原泥土层挖掘鸟嘌呤晶",
+	text: [
+		""
+	],
+	dependencies: [
+		"9329a5dd"
+	],
+	tasks: [{
+		uid: "e05aeaf9",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-guaninite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "a8b40beb",
+		type: "item",
+		item: "additions:greedycraft-guaninite_ingot",
+		count: 8
+	},
+	{
+		uid: "de284024",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "9491e5f4",
+		type: "random",
+		table: 1
+	}]
+}

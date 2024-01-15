@@ -1,0 +1,33 @@
+{
+	title: "§b寻找遗迹？检查结构？",
+	x: -4.5d,
+	y: -5.0d,
+	description: "制作一个六分仪",
+	text: [
+		"对着多方快结构的核心方块（比如天辉祭坛，星能聚合器等）shift+右键来检查结构是否正确！当然在夜晚对着天空右键可以发现彩色的星星，",
+		"将右侧对应的神殿图标拖拽到与其颜色相对应的星星上，成功后关闭六分仪，天空中会出现彩色星星来指引你到达对应的神殿（PS：增益型的六分仪可以寻找的神殿更多哦）"
+	],
+	dependencies: [
+		"5cc3003c"
+	],
+	tasks: [{
+		uid: "27cbbd4a",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemsextant",
+			tag: {
+				astralsorcery: {
+					advanced: 1b
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6ae50f53",
+		type: "item",
+		item: "astralsorcery:itemcraftingcomponent 1 1",
+		count: 16
+	}]
+}

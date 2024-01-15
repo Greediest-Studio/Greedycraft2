@@ -1,0 +1,30 @@
+{
+	title: "§b化学清洗",
+	x: 1.5d,
+	y: -3.5d,
+	description: "制作一个化学清洗机",
+	text: [
+		""
+	],
+	dependencies: [
+		"1abe2523"
+	],
+	tasks: [{
+		uid: "3d1c6cfa",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 7"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1f3c9775",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "da3540a2",
+		type: "loot",
+		table: 0
+	}]
+}

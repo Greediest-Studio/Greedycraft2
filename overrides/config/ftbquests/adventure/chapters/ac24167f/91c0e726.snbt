@@ -1,0 +1,32 @@
+{
+	title: "§b天空和大地和为一体，回归混沌",
+	x: 8.5d,
+	y: 2.0d,
+	description: "获得灵蕴金属锭",
+	dependencies: [
+		"9a3cf525"
+	],
+	tasks: [{
+		uid: "7cea21aa",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-aurune_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "00d3d72e",
+		type: "item",
+		item: "additions:greedycraft-aurune_ingot",
+		count: 4
+	},
+	{
+		uid: "26b16c6b",
+		type: "xp",
+		xp: 12000
+	},
+	{
+		uid: "33de31ed",
+		type: "random",
+		table: 3
+	}]
+}

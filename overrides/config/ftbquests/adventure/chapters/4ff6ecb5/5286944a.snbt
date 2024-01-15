@@ -1,0 +1,41 @@
+{
+	title: "§b邪术的最终产物",
+	x: 13.5d,
+	y: 3.0d,
+	description: "获得腐烂金属锭或邪术黏胶",
+	dependencies: [
+		"5d85ff08"
+	],
+	tasks: [{
+		uid: "66626237",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-corruptium_ingot"
+		},
+		{
+			item: "additions:greedycraft-eldritch_slime"
+		}]
+	}],
+	rewards: [{
+		uid: "8c3ce5a5",
+		type: "item",
+		item: "additions:greedycraft-corruptium_ingot",
+		count: 4
+	},
+	{
+		uid: "99cae24f",
+		type: "item",
+		item: "additions:greedycraft-eldritch_slime",
+		count: 4
+	},
+	{
+		uid: "ae67b122",
+		type: "xp",
+		xp: 4800
+	},
+	{
+		uid: "3c60dd99",
+		type: "random",
+		table: 3
+	}]
+}

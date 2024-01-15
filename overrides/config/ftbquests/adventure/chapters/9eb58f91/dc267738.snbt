@@ -1,0 +1,35 @@
+{
+	title: "§b更方便的自动化",
+	x: -10.0d,
+	y: -4.0d,
+	description: "制作脉冲离心机",
+	text: [
+		"这将大大方便你的合成"
+	],
+	dependencies: [
+		"2da05cc3",
+		"74908c7f"
+	],
+	tasks: [{
+		uid: "e7f6c05d",
+		type: "item",
+		items: [{
+			item: "threng:machine 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "ed47f8b9",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "d0cdfb2d",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "d74890b0",
+		type: "xp",
+		xp: 1200
+	}]
+}

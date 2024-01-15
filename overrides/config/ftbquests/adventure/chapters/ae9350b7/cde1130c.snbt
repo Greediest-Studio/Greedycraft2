@@ -1,0 +1,26 @@
+{
+	title: "§b封包合成",
+	x: 12.0d,
+	y: 10.5d,
+	description: "合成打包机，用于进行复杂的AE自动化合成",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "f4738897",
+		type: "item",
+		items: [{
+			item: "packagedauto:packager"
+		}]
+	}],
+	rewards: [{
+		uid: "a255556f",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "15d139b8",
+		type: "xp",
+		xp: 400
+	}]
+}

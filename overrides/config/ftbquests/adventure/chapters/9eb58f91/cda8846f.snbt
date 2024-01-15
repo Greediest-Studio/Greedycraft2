@@ -1,0 +1,19 @@
+{
+	title: "§b改造头颅？",
+	x: 2.5d,
+	y: 4.5d,
+	description: "制作头颅装配机",
+	text: [
+		""
+	],
+	dependencies: [
+		"ba088ac9"
+	],
+	tasks: [{
+		uid: "96f287c9",
+		type: "item",
+		items: [{
+			item: "enderio:block_slice_and_splice"
+		}]
+	}]
+}

@@ -1,0 +1,133 @@
+{
+  "name": "creative_alloy",
+  "tool": {
+    "head": {
+      "attackDamage": 128,
+      "speed": 31.05,
+      "durability": 14000,
+      "harvestLevel": 12
+    },
+    "handle": {
+      "modifier": 2.6,
+      "durability": 1600
+    },
+    "extra": {
+        "durability": 1280
+    },
+    "bow": {
+        "speed": 0.3,
+        "range": 2,
+        "bonusDamage": 89
+    }
+  },
+  "color": "#f25b6e",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 6000,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Creative Alloy",
+    "zh_cn": "创世合金"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:eioaddon-creative_alloy_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 136,
+      "durability": 1160
+    },
+    "plates": {
+      "toughness": 12,
+      "modifier": 19,
+      "durability": 218
+    },
+    "trim": {
+      "extraDurability": 300
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "fortified",
+      "tconevo.energized2",
+      "spartan"
+    ],
+    "HANDLE": [
+      "fortified",
+      "tconevo.energized2",
+      "spartan"
+    ],
+    "EXTRA": [
+      "fortified",
+      "tconevo.energized2",
+      "spartan"
+    ],
+    "BOW": [
+      "fortified",
+      "tconevo.energized2",
+      "spartan"
+    ],
+    "CORE": [
+      "shielding_armor",
+      "tconevo.energized2_armor",
+      "spartan_armor",
+      "anticorrosion_armor"
+    ],
+    "PLATES": [
+      "shielding_armor",
+      "tconevo.energized2_armor",
+      "spartan_armor",
+      "anticorrosion_armor"
+    ],
+    "TRIM": [
+      "shielding_armor",
+      "tconevo.energized2_armor",
+      "spartan_armor",
+      "anticorrosion_armor"
+    ]
+  }
+}

@@ -1,0 +1,252 @@
+
+{
+  "ID": 232,
+  "Name": "Defiled Hills",
+  "Resource Location": "defiledlands:hills_defiled",
+  "Class": "lykrast.defiledlands.common.world.biome.BiomeHillsDefiled",
+  "Root Height": 1.0,
+  "Height Variation": 0.5,
+  "Top Block": "defiledlands:grass_defiled[snowy\u003dfalse]",
+  "Filler Block": "defiledlands:dirt_defiled",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "7035752",
+  "Temperature": 0.2,
+  "Humidity": 0.3,
+  "Water Tint": 7035752,
+  "Enable Rain": true,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "MOUNTAIN",
+    "HILLS",
+    "SPOOKY"
+  ],
+  "BiomeManager Entries": {
+    "COOL Weights": [
+      2
+    ]
+  },
+  "Spawnable Creatures": [
+    {
+      "Entity Class": "lykrast.defiledlands.common.entity.passive.EntityBookWyrm",
+      "Weight": 16,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "vibrantjourneys.entities.passive.EntityDuck",
+      "Weight": 3,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    }
+  ],
+  "Spawnable Monsters": [
+    {
+      "Entity Class": "lykrast.defiledlands.common.entity.monster.EntityShambler",
+      "Weight": 80,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "lykrast.defiledlands.common.entity.monster.EntityShamblerTwisted",
+      "Weight": 80,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "lykrast.defiledlands.common.entity.monster.EntityScuttler",
+      "Weight": 100,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "lykrast.defiledlands.common.entity.monster.EntityHost",
+      "Weight": 100,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "vibrantjourneys.entities.neutral.EntityGhost",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "vibrantjourneys.entities.monster.EntityShade",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "vibrantjourneys.entities.monster.EntitySkeletalKnight",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "thaumcraft.common.entities.monster.EntityBrainyZombie",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "divinerpg.objects.entities.entity.vanilla.EntityMiner",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "divinerpg.objects.entities.entity.npc.EntityJackOMan",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "divinerpg.objects.entities.entity.vanilla.EntityCaveCrawler",
+      "Weight": 70,
+      "Min Group Count": 2,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "divinerpg.objects.entities.entity.vanilla.EntityRotatick",
+      "Weight": 70,
+      "Min Group Count": 3,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "divinerpg.objects.entities.entity.vanilla.EntityEnthralledDramcryx",
+      "Weight": 70,
+      "Min Group Count": 3,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "divinerpg.objects.entities.entity.vanilla.EntityTheEye",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "divinerpg.objects.entities.entity.vanilla.EntityTheGrue",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "divinerpg.objects.entities.entity.vanilla.EntityCaveclops",
+      "Weight": 70,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "divinerpg.objects.entities.entity.end.EntityEnderSpider",
+      "Weight": 4,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "divinerpg.objects.entities.entity.vanilla.EntityCyclops",
+      "Weight": 10,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "crazypants.enderio.zoo.entity.EntityConcussionCreeper",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 3
+    },
+    {
+      "Entity Class": "crazypants.enderio.zoo.entity.EntityWitherWitch",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "crazypants.enderio.zoo.entity.EntityLoveChild",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "crazypants.enderio.zoo.entity.EntityVoidSlime",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "com.bobmowzie.mowziesmobs.server.entity.grottol.EntityGrottol",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Water Creatures": [
+    {
+      "Entity Class": "crazypants.enderio.zoo.entity.EntityEpicSquid",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawnable Cave Creatures": [
+    {
+      "Entity Class": "vibrantjourneys.entities.passive.EntitySnail",
+      "Weight": 4,
+      "Min Group Count": 2,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "vibrantjourneys.entities.passive.EntityFirefly",
+      "Weight": 6,
+      "Min Group Count": 4,
+      "Max Group Count": 9
+    },
+    {
+      "Entity Class": "vibrantjourneys.entities.passive.EntitySmallSpider",
+      "Weight": 2,
+      "Min Group Count": 1,
+      "Max Group Count": 6
+    },
+    {
+      "Entity Class": "divinerpg.objects.entities.entity.vanilla.EntityRainbour",
+      "Weight": 1,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    }
+  ],
+  "Spawn Biome": false,
+  "Tweaked": false,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {
+    "BOREAL": [
+      2
+    ],
+    "COLD_SWAMP": [
+      2
+    ],
+    "COOL_TEMPERATE": [
+      2
+    ]
+  },
+  "BOP Island Weight": 0
+}

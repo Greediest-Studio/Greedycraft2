@@ -1,0 +1,15 @@
+[
+  {
+    "item" : "oreDark",
+    "color" : 15,
+    "rarity" : [
+      {
+        "whitelist": "",
+        "blacklist": "minecraft:hell, minecraft:sky",
+        "depth_min": 6,
+        "depth_max": 66,
+        "weight": 2
+      }
+    ]
+  }
+]

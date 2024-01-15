@@ -1,0 +1,30 @@
+{
+	title: "§b还在跳",
+	x: 1.0d,
+	y: 7.5d,
+	description: "合成木乃伊诱饵",
+	text: [
+		""
+	],
+	dependencies: [
+		"736de29c",
+		"ccf160a3"
+	],
+	tasks: [{
+		uid: "31246194",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:mummy_bait"
+		}]
+	}],
+	rewards: [{
+		uid: "01a09212",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "05e43643",
+		type: "xp",
+		xp: 9800
+	}]
+}

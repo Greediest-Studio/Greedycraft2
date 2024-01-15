@@ -1,0 +1,39 @@
+{
+	title: "§b万恶之源！",
+	x: -6.5d,
+	y: 0.0d,
+	description: "抽卡时代的开始",
+	text: [
+		"世界盐怎么做？"
+	],
+	dependencies: [
+		"522dda8b"
+	],
+	tasks: [{
+		uid: "d5f049de",
+		type: "item",
+		items: [{
+			id: "thaumcraft:salis_mundus",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ae3dcfd6",
+		type: "item",
+		item: "thaumcraft:salis_mundus",
+		count: 10
+	},
+	{
+		uid: "eb99933c",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "f448eb44",
+		type: "command",
+		title: "自动获得最初的进度",
+		command: "/thaumcraft research @p FIRSTSTEPS"
+	}]
+}

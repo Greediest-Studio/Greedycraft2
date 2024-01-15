@@ -1,0 +1,68 @@
+{
+	title: "§b复制成双！",
+	x: -2.5d,
+	y: -6.0d,
+	description: "合成炼造催化器，可以将粉末物品在魔力池中由一个复制为两个",
+	text: [
+		""
+	],
+	dependencies: [
+		"afe9840b"
+	],
+	tasks: [{
+		uid: "4139a5a9",
+		type: "item",
+		items: [{
+			item: "botania:conjurationcatalyst"
+		}]
+	}],
+	rewards: [{
+		uid: "f0038394",
+		type: "item",
+		item: {
+			id: "minecraft:glowstone_dust",
+			tag: {
+				display: {
+					Name: "试试看"
+				}
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "2897e979",
+		type: "item",
+		item: {
+			id: "minecraft:redstone",
+			tag: {
+				display: {
+					Name: "试试看"
+				}
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "2e32e5e4",
+		type: "item",
+		item: {
+			id: "minecraft:gunpowder",
+			tag: {
+				display: {
+					Name: "再试试"
+				}
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "82f59b0c",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "879539c1",
+		type: "xp",
+		xp: 1000
+	}]
+}

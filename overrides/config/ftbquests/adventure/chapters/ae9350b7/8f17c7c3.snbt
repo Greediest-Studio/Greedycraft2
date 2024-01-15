@@ -1,0 +1,34 @@
+{
+	title: "§b种田人，种田魂",
+	x: 6.0d,
+	y: 16.5d,
+	description: "合成花园镰刀",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "d35d4109",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:tool_harvest_crops"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4461d87c",
+		type: "item",
+		item: "minecraft:wheat_seeds",
+		count: 64
+	},
+	{
+		uid: "f7717b69",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "54e40bc7",
+		type: "xp",
+		xp: 1000
+	}]
+}

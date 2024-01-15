@@ -1,0 +1,131 @@
+{
+  "name": "cthulhurite",
+  "tool": {
+    "head": {
+      "attackDamage": 52.5,
+      "speed": 10.5,
+      "durability": 2800,
+      "harvestLevel": 11
+    },
+    "handle": {
+      "modifier": 3.6,
+      "durability": 2000
+    },
+    "extra": {
+        "durability": 2000
+    },
+    "bow": {
+        "speed": 4.8,
+        "range": 2,
+        "bonusDamage": 57
+    }
+  },
+  "color": "#196a6f",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 3200,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Cthulhurite",
+    "zh_cn": "克苏鲁"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "gct_mobs:cthulhurite_ingot"
+    ],
+    "block": [
+      "gct_mobs:cthulhurite_block"
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 107,
+      "defense": 60.5
+    },
+    "plates": {
+      "modifier": 10.4,
+      "durability": 91,
+      "toughness": 4
+    },
+    "trim": {
+      "extraDurability": 89
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "tidal_force",
+      "superknockback",
+      "abysscalling"
+    ],
+    "HANDLE": [
+      "tidal_force",
+      "demon_hunter",
+      "abysscalling"
+    ],
+    "EXTRA": [
+      "tidal_force",
+      "demon_hunter",
+      "abysscalling"
+    ],
+    "BOW": [
+      "tidal_force",
+      "superknockback",
+      "abysscalling"
+    ],
+    "CORE": [
+      "tidal_force_armor",
+      "permanent_antibody_armor",
+      "second_life_armor"
+    ],
+    "PLATES": [
+      "tidal_force_armor",
+      "old_ones_barrier_armor",
+      "second_life_armor"
+    ],
+    "TRIM": [
+      "tidal_force_armor",
+      "permanent_antibody_armor",
+      "second_life_armor"
+    ]
+  }
+}

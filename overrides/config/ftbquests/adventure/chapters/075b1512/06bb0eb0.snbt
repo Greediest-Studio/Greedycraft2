@@ -1,0 +1,68 @@
+{
+	title: "§b怪物杀手 VIII",
+	x: -5.0d,
+	y: 11.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"57f16a47"
+	],
+	tasks: [{
+		uid: "ba3b9096",
+		type: "stat",
+		icon: "abyssalcraft:dreadiumsword",
+		stat: "stat.mobKills",
+		value: 25000
+	}],
+	rewards: [{
+		uid: "768cebbe",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "bb8d7e1e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "13f92dbe",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "624f65c1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "5b89d4f5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	}]
+}

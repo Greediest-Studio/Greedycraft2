@@ -1,0 +1,26 @@
+{
+	title: "§b虚空的召唤",
+	x: 5.5d,
+	y: 3.0d,
+	description: "制作虚空信标",
+	dependencies: [
+		"aaa91c72"
+	],
+	tasks: [{
+		uid: "e01cc62c",
+		type: "item",
+		items: [{
+			item: "thaumicwonders:void_beacon"
+		}]
+	}],
+	rewards: [{
+		uid: "f29a12c5",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "6b7868c4",
+		type: "random",
+		table: 3
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	title: "§b资本主义",
+	x: 3.0d,
+	y: 7.5d,
+	description: "获得一个绿宝石",
+	text: [
+		"@yagoo"
+	],
+	tasks: [{
+		uid: "ee00f69f",
+		type: "item",
+		items: [{
+			item: "minecraft:emerald"
+		}]
+	}],
+	rewards: [{
+		uid: "aa1c6247",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 3
+	},
+	{
+		uid: "6331dcd6",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "9c3c553a",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:villager"
+				}
+			}
+		}
+	},
+	{
+		uid: "aed6ff30",
+		type: "random",
+		table: 0
+	}]
+}

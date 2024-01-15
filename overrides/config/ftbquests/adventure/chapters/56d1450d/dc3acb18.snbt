@@ -1,0 +1,41 @@
+{
+	title: "§b土豪之管",
+	x: -16.5d,
+	y: -3.0d,
+	description: "获得金电子管",
+	text: [
+		""
+	],
+	dependencies: [
+		"a303ae77"
+	],
+	tasks: [{
+		uid: "be20462d",
+		type: "item",
+		items: [{
+			item: "forestry:thermionic_tubes 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "604db082",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 16
+	},
+	{
+		uid: "80563f57",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "5d19a921",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "0f46cd28",
+		type: "item",
+		item: "forestry:thermionic_tubes 1 4",
+		count: 3
+	}]
+}

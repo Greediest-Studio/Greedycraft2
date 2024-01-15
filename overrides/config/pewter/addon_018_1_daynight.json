@@ -1,0 +1,147 @@
+{
+  "name": "daynight",
+  "tool": {
+    "bow": {
+      "speed": 0.9,
+      "range": 1,
+      "bonusDamage": 12
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 21,
+      "speed": 20,
+      "durability": 1500,
+      "harvestLevel": 8
+    },
+    "handle": {
+      "modifier": 2.8,
+      "durability": 800
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 1.1
+    },
+    "extra": {
+      "durability": 600
+    }
+  },
+  "color": "#2240A0",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 650,
+  "looks": {
+    "shininess": 0.6,
+    "brightness": 0.1,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Daynight",
+    "zh_cn": "昼夜合金"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:greedycraft-daynight_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 200,
+      "defense": 48
+    },
+    "plates": {
+      "modifier": 12,
+      "durability": 96,
+      "toughness": 5
+    },
+    "trim": {
+      "extraDurability": 96
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "sun_power",
+      "moon_power",
+      "time_turn"
+    ],
+    "HEAD": [
+      "sun_power",
+      "moon_power",
+      "time_turn"
+    ],
+    "HANDLE": [
+      "sun_power",
+      "moon_power",
+      "time_turn"
+    ],
+    "BOW": [
+      "sun_power",
+      "moon_power",
+      "time_turn"
+    ],
+    "PROJECTILE": [
+      "sun_power",
+      "moon_power",
+      "time_turn"
+    ],
+    "CORE": [
+      "sun_power_armor",
+      "moon_power_armor",
+      "time_turn_armor"
+    ],
+    "PLATES": [
+      "sun_power_armor",
+      "moon_power_armor",
+      "time_turn_armor"
+    ],
+    "TRIM": [
+      "sun_power_armor",
+      "moon_power_armor",
+      "time_turn_armor"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+	title: "§b华而不实",
+	x: 2.5d,
+	y: 7.0d,
+	description: "制作不死图腾电容",
+	text: [
+		""
+	],
+	dependencies: [
+		"cda8846f"
+	],
+	tasks: [{
+		uid: "dde89043",
+		type: "item",
+		items: [{
+			item: "enderio:item_capacitor_totemic"
+		}]
+	}]
+}

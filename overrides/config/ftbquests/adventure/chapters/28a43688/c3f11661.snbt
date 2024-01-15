@@ -1,0 +1,41 @@
+{
+	title: "§b聚合！",
+	x: -11.0d,
+	y: 15.5d,
+	description: "制作觉醒龙块",
+	text: [
+		""
+	],
+	dependencies: [
+		"3fdc52b8"
+	],
+	tasks: [{
+		uid: "2dbbe7a6",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_block"
+		}]
+	}],
+	rewards: [{
+		uid: "4b59d8b8",
+		type: "item",
+		item: "draconicevolution:draconium_ingot",
+		count: 64
+	},
+	{
+		uid: "41af8f70",
+		type: "item",
+		item: "draconicevolution:dragon_heart",
+		count: 16
+	},
+	{
+		uid: "e6f37a94",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "7943c844",
+		type: "xp",
+		xp: 10000
+	}]
+}

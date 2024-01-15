@@ -1,0 +1,77 @@
+{
+	title: "【科技】",
+	icon: {
+		id: "plustic:laser_gun",
+		tag: {
+			TinkerData: {
+				Materials: [
+					"infinity_metal",
+					"infinity_metal",
+					"prismarine",
+					"manyullyn"
+				],
+				Modifiers: [
+					"toolleveling"
+				]
+			},
+			Stats: {
+				Durability: 80394,
+				HarvestLevel: 127,
+				Attack: 2.5f,
+				MiningSpeed: 666.0f,
+				AttackSpeedMultiplier: 1.0f,
+				FreeModifiers: 5,
+				LaserGunEnergy: 120000,
+				LaserGunPower: 2.5f,
+				LaserGunRange: 20.0f
+			},
+			StatsOriginal: {
+				Durability: 80394,
+				HarvestLevel: 127,
+				Attack: 2.5f,
+				MiningSpeed: 666.0f,
+				AttackSpeedMultiplier: 1.0f,
+				FreeModifiers: 3,
+				LaserGunEnergy: 120000,
+				LaserGunPower: 2.5f,
+				LaserGunRange: 20.0f
+			},
+			Special: {
+				Categories: [
+					"weapon",
+					"tool"
+				]
+			},
+			Modifiers: [{
+				identifier: "tconevo.infinitum",
+				color: -11757164,
+				level: 1
+			},
+			{
+				identifier: "tconevo.omnipotence",
+				color: -11757164,
+				level: 1
+			},
+			{
+				identifier: "coldblooded",
+				color: -6202120,
+				level: 1
+			},
+			{
+				identifier: "toolleveling",
+				color: 16777215,
+				level: 1
+			}],
+			Traits: [
+				"tconevo.infinitum",
+				"tconevo.omnipotence",
+				"coldblooded",
+				"toolleveling"
+			],
+			Unbreakable: 1b
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

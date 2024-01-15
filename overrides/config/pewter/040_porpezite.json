@@ -1,0 +1,130 @@
+{
+  "name": "porpezite",
+  "tool": {
+    "head": {
+      "attackDamage": 68,
+      "speed": 13.5,
+      "durability": 2000,
+      "harvestLevel": 9
+    },
+    "handle": {
+      "modifier": 0.9,
+      "durability": 1000
+    },
+    "extra": {
+        "durability": 1200
+    },
+    "bow": {
+        "speed": 1,
+        "range": 2.5,
+        "bonusDamage": 53
+    }
+  },
+  "color": "#fff886",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1600,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Porpezite",
+    "zh_cn": "钯金"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:mekaddon-porpezite_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 68,
+      "durability": 150
+    },
+    "plates": {
+      "toughness": 6,
+      "modifier": 11,
+      "durability": 120
+    },
+    "trim": {
+      "extraDurability": 110
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "strong_shock",
+      "luxury",
+      "tconevo.energized2"
+    ],
+    "HANDLE": [
+      "strong_shock",
+      "crumbling",
+      "tconevo.energized"
+    ],
+    "EXTRA": [
+      "strong_shock",
+      "crumbling",
+      "tconevo.energized"
+    ],
+    "BOW": [
+      "strong_shock",
+      "luxury",
+      "tconevo.energized2"
+    ],
+    "CORE": [
+      "tconevo.energized2_armor",
+      "steady_armor",
+      "electric_shock_armor"
+    ],
+    "PLATES": [
+      "tconevo.energized_armor",
+      "steady_armor",
+      "electric_shock_armor"
+    ],
+    "TRIM": [
+      "tconevo.energized_armor",
+      "steady_armor",
+      "electric_shock_armor"
+    ]
+  }
+}

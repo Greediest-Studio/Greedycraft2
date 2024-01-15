@@ -1,0 +1,28 @@
+{
+	title: "§b接触疯狂",
+	x: 3.5d,
+	y: 3.5d,
+	description: "进入深渊荒原维度",
+	text: [
+		""
+	],
+	dependencies: [
+		"e8761599"
+	],
+	tasks: [{
+		uid: "0b244ee2",
+		type: "dimension",
+		icon: "abyssalcraft:essence",
+		dim: 50
+	}],
+	rewards: [{
+		uid: "0dc427b2",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "bf2c7c0b",
+		type: "xp",
+		xp: 1000
+	}]
+}

@@ -1,0 +1,175 @@
+{
+	title: "§b一键升级",
+	x: -6.0d,
+	y: 3.0d,
+	description: "获得敬业蜂后",
+	text: [
+		""
+	],
+	dependencies: [
+		"7c9f4c5f",
+		"96045c5a"
+	],
+	tasks: [{
+		uid: "ae41240d",
+		type: "item",
+		items: [{
+			id: "forestry:bee_queen_ge",
+			tag: {
+				IsAnalyzed: 0b,
+				Health: 40,
+				MaxH: 40,
+				Genome: {
+					Chromosomes: [{
+						Slot: 0b,
+						UID0: "forestry.speciesIndustrious",
+						UID1: "forestry.speciesIndustrious"
+					},
+					{
+						Slot: 1b,
+						UID0: "forestry.speedSlower",
+						UID1: "forestry.speedSlower"
+					},
+					{
+						Slot: 2b,
+						UID0: "forestry.lifespanNormal",
+						UID1: "forestry.lifespanNormal"
+					},
+					{
+						Slot: 3b,
+						UID0: "forestry.fertilityNormal",
+						UID1: "forestry.fertilityNormal"
+					},
+					{
+						Slot: 4b,
+						UID0: "forestry.toleranceNone",
+						UID1: "forestry.toleranceNone"
+					},
+					{
+						Slot: 5b,
+						UID0: "forestry.boolFalse",
+						UID1: "forestry.boolFalse"
+					},
+					{
+						Slot: 6b,
+						UID0: "forestry.toleranceNone",
+						UID1: "forestry.toleranceNone"
+					},
+					{
+						Slot: 7b,
+						UID0: "forestry.boolFalse",
+						UID1: "forestry.boolFalse"
+					},
+					{
+						Slot: 8b,
+						UID0: "forestry.boolFalse",
+						UID1: "forestry.boolFalse"
+					},
+					{
+						Slot: 9b,
+						UID0: "forestry.flowersVanilla",
+						UID1: "forestry.flowersVanilla"
+					},
+					{
+						Slot: 10b,
+						UID0: "forestry.floweringFast",
+						UID1: "forestry.floweringFast"
+					},
+					{
+						Slot: 11b,
+						UID0: "forestry.territoryAverage",
+						UID1: "forestry.territoryAverage"
+					},
+					{
+						Slot: 12b,
+						UID0: "forestry.effectNone",
+						UID1: "forestry.effectNone"
+					}]
+				},
+				Mate: {
+					Chromosomes: [{
+						Slot: 0b,
+						UID0: "forestry.speciesIndustrious",
+						UID1: "forestry.speciesIndustrious"
+					},
+					{
+						Slot: 1b,
+						UID0: "forestry.speedSlower",
+						UID1: "forestry.speedSlower"
+					},
+					{
+						Slot: 2b,
+						UID0: "forestry.lifespanNormal",
+						UID1: "forestry.lifespanNormal"
+					},
+					{
+						Slot: 3b,
+						UID0: "forestry.fertilityNormal",
+						UID1: "forestry.fertilityNormal"
+					},
+					{
+						Slot: 4b,
+						UID0: "forestry.toleranceNone",
+						UID1: "forestry.toleranceNone"
+					},
+					{
+						Slot: 5b,
+						UID0: "forestry.boolFalse",
+						UID1: "forestry.boolFalse"
+					},
+					{
+						Slot: 6b,
+						UID0: "forestry.toleranceNone",
+						UID1: "forestry.toleranceNone"
+					},
+					{
+						Slot: 7b,
+						UID0: "forestry.boolFalse",
+						UID1: "forestry.boolFalse"
+					},
+					{
+						Slot: 8b,
+						UID0: "forestry.boolFalse",
+						UID1: "forestry.boolFalse"
+					},
+					{
+						Slot: 9b,
+						UID0: "forestry.flowersVanilla",
+						UID1: "forestry.flowersVanilla"
+					},
+					{
+						Slot: 10b,
+						UID0: "forestry.floweringFast",
+						UID1: "forestry.floweringFast"
+					},
+					{
+						Slot: 11b,
+						UID0: "forestry.territoryAverage",
+						UID1: "forestry.territoryAverage"
+					},
+					{
+						Slot: 12b,
+						UID0: "forestry.effectNone",
+						UID1: "forestry.effectNone"
+					}]
+				}
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "c30558df",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "2cfb16ed",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "cc0a62d8",
+		type: "item",
+		item: "tinymobfarm:diamond_farm"
+	}]
+}

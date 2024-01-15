@@ -1,0 +1,14 @@
+{
+	x: -27.0d,
+	y: 0.0d,
+	dependencies: [
+		"f109121d"
+	],
+	tasks: [{
+		uid: "cc5816d5",
+		type: "item",
+		items: [{
+			item: "gct_mac:atomic_decayer"
+		}]
+	}]
+}

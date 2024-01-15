@@ -1,0 +1,27 @@
+{
+	title: "§b星座共鸣",
+	x: 1.5d,
+	y: -1.0d,
+	description: "获得共鸣祭坛",
+	dependencies: [
+		"20d93dfc",
+		"170a7274"
+	],
+	tasks: [{
+		uid: "39642e34",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockattunementaltar"
+		}]
+	}],
+	rewards: [{
+		uid: "5b9da332",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "1fe205e1",
+		type: "xp",
+		xp: 1200
+	}]
+}

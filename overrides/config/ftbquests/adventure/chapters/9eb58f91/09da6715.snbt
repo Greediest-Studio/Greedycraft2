@@ -1,0 +1,29 @@
+{
+	title: "§b是否正常工作？",
+	x: -17.5d,
+	y: -2.0d,
+	description: "制作ME接口终端",
+	text: [
+		""
+	],
+	dependencies: [
+		"9ad09ce0"
+	],
+	tasks: [{
+		uid: "554feb1c",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 480"
+		}]
+	}],
+	rewards: [{
+		uid: "07753e32",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "6298e997",
+		type: "random",
+		table: 1
+	}]
+}

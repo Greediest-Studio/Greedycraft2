@@ -1,0 +1,128 @@
+{
+  "name": "rhodium",
+  "tool": {
+    "head": {
+      "attackDamage": 46,
+      "speed": 12,
+      "durability": 1800,
+      "harvestLevel": 9
+    },
+    "handle": {
+      "modifier": 1.3,
+      "durability": 800
+    },
+    "extra": {
+        "durability": 600
+    },
+    "bow": {
+        "speed": 1,
+        "range": 2.4,
+        "bonusDamage": 50
+    }
+  },
+  "color": "#da635e",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 2000,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Rhodium",
+    "zh_cn": "铑"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:mekaddon-rhodium_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 64,
+      "durability": 130
+    },
+    "plates": {
+      "toughness": 5.5,
+      "modifier": 12,
+      "durability": 100
+    },
+    "trim": {
+      "extraDurability": 95
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "luxurious",
+      "luxury",
+      "superposition_state"
+    ],
+    "HANDLE": [
+      "luxurious",
+      "luxury"
+    ],
+    "EXTRA": [
+      "luxurious",
+      "luxury"
+    ],
+    "BOW": [
+      "luxurious",
+      "luxury",
+      "superposition_state"
+    ],
+    "CORE": [
+      "luxurious_armor",
+      "steady_armor",
+      "tconevo.energized2_armor"
+    ],
+    "PLATES": [
+      "luxurious_armor",
+      "steady_armor",
+      "electric_shock_armor"
+    ],
+    "TRIM": [
+      "luxurious_armor",
+      "steady_armor",
+      "electric_shock_armor"
+    ]
+  }
+}

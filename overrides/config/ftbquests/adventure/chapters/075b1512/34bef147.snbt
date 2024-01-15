@@ -1,0 +1,38 @@
+{
+	title: "§b血流成河 IX",
+	x: 2.5d,
+	y: 13.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"0639aff1"
+	],
+	tasks: [{
+		uid: "43a9367a",
+		type: "stat",
+		icon: "abyssalcraft:ethaxiumplate",
+		stat: "stat.damageTaken",
+		value: 7500000
+	}],
+	rewards: [{
+		uid: "e0132921",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "57d2e69f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	}]
+}

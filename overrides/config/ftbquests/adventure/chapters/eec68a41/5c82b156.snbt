@@ -1,0 +1,29 @@
+{
+	title: "§b魔力液化",
+	x: 24.0d,
+	y: -4.0d,
+	description: "获得魔力液化机控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"2cf71e97"
+	],
+	tasks: [{
+		uid: "018610de",
+		type: "item",
+		items: [{
+			item: "modularmachinery:mana_liquefactor_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "dd882cee",
+		type: "xp",
+		xp: 8000
+	},
+	{
+		uid: "213efbac",
+		type: "random",
+		table: 3
+	}]
+}

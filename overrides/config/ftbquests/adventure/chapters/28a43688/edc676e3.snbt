@@ -1,0 +1,40 @@
+{
+	title: "§b海洋涡流",
+	x: -12.0d,
+	y: 11.0d,
+	description: "合成蓝冰图腾，用于召唤克拉肯",
+	text: [
+		""
+	],
+	dependencies: [
+		"3fdc52b8"
+	],
+	tasks: [{
+		uid: "68f9d64f",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-ice_totem"
+		}]
+	}],
+	rewards: [{
+		uid: "e79723fd",
+		type: "item",
+		item: "minecraft:nether_star",
+		count: 4
+	},
+	{
+		uid: "6fa4899c",
+		type: "item",
+		item: "minecraft:totem_of_undying"
+	},
+	{
+		uid: "d9f041e3",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "db7166c7",
+		type: "random",
+		table: 3
+	}]
+}

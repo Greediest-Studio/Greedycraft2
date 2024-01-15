@@ -1,0 +1,32 @@
+{
+	title: "§b挖掘秘金的全部潜力",
+	x: 9.5d,
+	y: 0.0d,
+	description: "制作秘金锭",
+	dependencies: [
+		"43ab4306"
+	],
+	tasks: [{
+		uid: "360196ed",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithminite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "226da947",
+		type: "item",
+		item: "thaumadditions:mithminite_ingot",
+		count: 2
+	},
+	{
+		uid: "177f1850",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "eb45f16a",
+		type: "loot",
+		table: 2
+	}]
+}

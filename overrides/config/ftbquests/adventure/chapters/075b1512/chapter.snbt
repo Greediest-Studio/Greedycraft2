@@ -1,0 +1,18 @@
+{
+	title: "【里程碑】",
+	icon: "waystones:waystone",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -0.5d,
+		y: -2.0d,
+		width: 10.5d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/milestones.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

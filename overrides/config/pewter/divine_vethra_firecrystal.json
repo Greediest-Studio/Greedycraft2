@@ -1,0 +1,77 @@
+{
+  "name": "vethra_firecrystal",
+  "tool": {
+    "fletching": {
+      "accuracy": 1,
+      "modifier": 1.2
+    },
+    "arrowShaft": {
+      "modifier": 1.5,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 1.2
+    }
+  },
+  "color": "#3e0000",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 820,
+  "looks": {
+    "shininess": 0.2,
+    "brightness": 0.1,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "BOWSTRING",
+    "SHAFT",
+    "FLETCHING"
+  ],
+  "nameLocales": {
+    "en_us": "[Vethea]Fire Crystal",
+    "zh_cn": "[梦魇世界]火焰晶体"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "divinerpg:fire_crystal"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "BOWSTRING": [
+    ],
+    "SHAFT": [
+      "hovering"
+    ],
+    "FLETCHING": [
+    ]
+  }
+}

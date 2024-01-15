@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "深红金属矿石",
+    "ore_dict": "oreRubium",
+    "type": "additions:block_simple"
+  },
+  "name": "深红金属矿石",
+  "material": "minecraft:stone",
+  "hardness": 28.0,
+  "resistance": 4000.0,
+  "harvest_level": 11,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

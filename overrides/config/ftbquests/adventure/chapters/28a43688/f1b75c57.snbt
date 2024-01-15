@@ -1,0 +1,34 @@
+{
+	title: "§b收集器MK2",
+	x: -3.5d,
+	y: 11.5d,
+	description: "合成聚合中子素收集器，用于收集中子素粒",
+	text: [
+		""
+	],
+	dependencies: [
+		"2103bcb6"
+	],
+	tasks: [{
+		uid: "9e9cbf9e",
+		type: "item",
+		items: [{
+			item: "denseneutroncollectors:compressed_neutron_collector"
+		}]
+	}],
+	rewards: [{
+		uid: "b1a707c5",
+		type: "item",
+		item: "denseneutroncollectors:compressed_neutron_collector"
+	},
+	{
+		uid: "00ef254c",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "efe28cb3",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "§b腐化与邪术的结合",
+	x: 15.5d,
+	y: 3.0d,
+	description: "制作邪术钢锭",
+	dependencies: [
+		"5286944a"
+	],
+	tasks: [{
+		uid: "0a536b3c",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-eldritch_steel_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "82ab4b2c",
+		type: "item",
+		item: "additions:greedycraft-eldritch_steel_ingot",
+		count: 4
+	},
+	{
+		uid: "d31044b0",
+		type: "xp",
+		xp: 6666
+	},
+	{
+		uid: "1f74c261",
+		type: "random",
+		table: 3
+	}]
+}

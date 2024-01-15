@@ -1,0 +1,47 @@
+{
+  "recipe": {
+    "type": "forge:ore_shapeless",
+    "result": {
+      "item": "jaopca:block_blockadamantium"
+    },
+    "ingredients": [
+      {
+        "ore_name": "ingotAdamantium",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      {
+        "ore_name": "ingotAdamantium",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      {
+        "ore_name": "ingotAdamantium",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      {
+        "ore_name": "ingotAdamantium",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      {
+        "ore_name": "ingotAdamantium",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      {
+        "ore_name": "ingotAdamantium",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      {
+        "ore_name": "ingotAdamantium",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      {
+        "ore_name": "ingotAdamantium",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      {
+        "ore_name": "ingotAdamantium",
+        "type": "additions:ingredient_ore_nbt"
+      }
+    ]
+  },
+  "type": "additions:crafting_shapeless"
+}

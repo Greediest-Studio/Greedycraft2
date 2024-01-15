@@ -1,0 +1,32 @@
+{
+	title: "§b汇聚了七种情绪的徽章",
+	x: -5.5d,
+	y: 4.0d,
+	description: "获得情绪徽章",
+	dependencies: [
+		"5908adab"
+	],
+	tasks: [{
+		uid: "1c5af6a1",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-token_emotion"
+		}]
+	}],
+	rewards: [{
+		uid: "ef5593e1",
+		type: "item",
+		item: "additions:greedycraft-token_emotion",
+		count: 4
+	},
+	{
+		uid: "ddce3de2",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "59210fbd",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "§b人工史莱姆区块",
+	x: 10.5d,
+	y: 12.0d,
+	description: "获得粘液立方体，可以将一个区块变为史莱姆区块",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "c0dfb47c",
+		type: "item",
+		items: [{
+			item: "randomthings:slimecube"
+		}]
+	}],
+	rewards: [{
+		uid: "b59d7365",
+		type: "item",
+		item: "randomthings:slimecube"
+	},
+	{
+		uid: "771de1ef",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "64b7a4be",
+		type: "random",
+		table: 0
+	}]
+}

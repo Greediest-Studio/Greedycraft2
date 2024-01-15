@@ -1,0 +1,29 @@
+{
+	title: "§b咕嘟咕嘟",
+	x: 10.5d,
+	y: 5.5d,
+	description: "合成炼药器，用于制作交错次元的药剂",
+	text: [
+		""
+	],
+	dependencies: [
+		"0c5bb7b9"
+	],
+	tasks: [{
+		uid: "f7f450a8",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:infuser"
+		}]
+	}],
+	rewards: [{
+		uid: "826f2d12",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "795c94d7",
+		type: "xp",
+		xp: 6000
+	}]
+}

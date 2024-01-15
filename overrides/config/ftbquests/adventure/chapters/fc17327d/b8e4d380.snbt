@@ -1,0 +1,47 @@
+{
+	title: "§b批量烧制？",
+	x: -19.5d,
+	y: 1.0d,
+	description: "制作焦黑熔炉控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"b5940a15"
+	],
+	tasks: [{
+		uid: "62d55453",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_furnace_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "190af5bf",
+		type: "item",
+		item: "tconstruct:materials",
+		count: 512
+	},
+	{
+		uid: "2eea3a27",
+		type: "item",
+		item: "tinker_io:solidfuel",
+		count: 8
+	},
+	{
+		uid: "8403d505",
+		type: "item",
+		item: "minecraft:lava_bucket",
+		count: 8
+	},
+	{
+		uid: "6411e329",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "18eb22a6",
+		type: "xp",
+		xp: 50
+	}]
+}

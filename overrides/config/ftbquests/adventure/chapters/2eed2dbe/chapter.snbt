@@ -1,0 +1,69 @@
+{
+	title: "【休闲】",
+	icon: {
+		id: "tconstruct:shuriken",
+		tag: {
+			TinkerData: {
+				Materials: [
+					"infinity_metal",
+					"infinity_metal",
+					"infinity_metal",
+					"infinity_metal"
+				],
+				Modifiers: [
+					"toolleveling"
+				]
+			},
+			Stats: {
+				Durability: 23050,
+				HarvestLevel: 127,
+				Attack: 32768.0f,
+				MiningSpeed: 666.0f,
+				AttackSpeedMultiplier: 1.0f,
+				FreeModifiers: 5,
+				Accuracy: 1.0f
+			},
+			StatsOriginal: {
+				Durability: 23050,
+				HarvestLevel: 127,
+				Attack: 32768.0f,
+				MiningSpeed: 666.0f,
+				AttackSpeedMultiplier: 1.0f,
+				FreeModifiers: 3,
+				Accuracy: 1.0f
+			},
+			Special: {
+				Categories: [
+					"no_melee",
+					"projectile",
+					"tool"
+				]
+			},
+			Modifiers: [{
+				identifier: "tconevo.infinitum",
+				color: -11757164,
+				level: 1
+			},
+			{
+				identifier: "tconevo.omnipotence",
+				color: -11757164,
+				level: 1
+			},
+			{
+				identifier: "toolleveling",
+				color: 16777215,
+				level: 1
+			}],
+			Traits: [
+				"tconevo.infinitum",
+				"tconevo.omnipotence",
+				"toolleveling"
+			],
+			Unbreakable: 1b
+		}
+	},
+	disable_toast: true,
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

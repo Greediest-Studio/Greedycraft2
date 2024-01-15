@@ -1,0 +1,254 @@
+{
+	title: "§b疯狂蘑菇学家",
+	x: 0.0d,
+	y: 1.5d,
+	description: "收集所有种类的蘑菇",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "736f5f83",
+		type: "item",
+		items: [{
+			item: "mist:mushrooms_food 1 27"
+		}]
+	},
+	{
+		uid: "2a8d3f26",
+		type: "item",
+		items: [{
+			item: "mist:mushrooms_food 1 26"
+		}]
+	},
+	{
+		uid: "b9578330",
+		type: "item",
+		items: [{
+			item: "mist:mushrooms_food 1 25"
+		}]
+	},
+	{
+		uid: "da9eeafd",
+		type: "item",
+		items: [{
+			item: "mist:mushrooms_food 1 24"
+		}]
+	},
+	{
+		uid: "1637d7d2",
+		type: "item",
+		items: [{
+			item: "mist:mushrooms_food 1 23"
+		}]
+	},
+	{
+		uid: "5b6f38dd",
+		type: "item",
+		items: [{
+			item: "mist:mushrooms_food 1 22"
+		}]
+	},
+	{
+		uid: "35a0cb7a",
+		type: "item",
+		items: [{
+			item: "mist:mushrooms_food 1 21"
+		}]
+	},
+	{
+		uid: "2f3fd00b",
+		type: "item",
+		items: [{
+			item: "mist:mushrooms_food 1 20"
+		}]
+	},
+	{
+		uid: "446f57bd",
+		type: "item",
+		items: [{
+			item: "mist:mushrooms_food 1 19"
+		}]
+	},
+	{
+		uid: "16806ec0",
+		type: "item",
+		items: [{
+			item: "mist:mushrooms_food 1 17"
+		}]
+	},
+	{
+		uid: "f7ce8f6f",
+		type: "item",
+		items: [{
+			item: "mist:mushrooms_food 1 18"
+		}]
+	},
+	{
+		uid: "0857eb5b",
+		type: "item",
+		items: [{
+			item: "mist:mushrooms_food 1 16"
+		}]
+	},
+	{
+		uid: "269f3f88",
+		type: "item",
+		items: [{
+			item: "mist:mushrooms_food 1 12"
+		}]
+	},
+	{
+		uid: "3e3bb27c",
+		type: "item",
+		items: [{
+			item: "mist:mushrooms_food 1 10"
+		}]
+	},
+	{
+		uid: "c5639236",
+		type: "item",
+		items: [{
+			item: "mist:mushrooms_food 1 9"
+		}]
+	},
+	{
+		uid: "2ebf41f1",
+		type: "item",
+		items: [{
+			item: "mist:mushrooms_food 1 8"
+		}]
+	},
+	{
+		uid: "68de850e",
+		type: "item",
+		items: [{
+			item: "mist:mushrooms_food 1 7"
+		}]
+	},
+	{
+		uid: "6d167807",
+		type: "item",
+		items: [{
+			item: "mist:mushrooms_food 1 6"
+		}]
+	},
+	{
+		uid: "186d27d0",
+		type: "item",
+		items: [{
+			item: "mist:mushrooms_food 1 5"
+		}]
+	},
+	{
+		uid: "6456ce66",
+		type: "item",
+		items: [{
+			item: "mist:mushrooms_food 1 4"
+		}]
+	},
+	{
+		uid: "6149db3b",
+		type: "item",
+		items: [{
+			item: "mist:mushrooms_food 1 3"
+		}]
+	},
+	{
+		uid: "663f9000",
+		type: "item",
+		items: [{
+			item: "mist:mushrooms_food 1 2"
+		}]
+	},
+	{
+		uid: "37300ce7",
+		type: "item",
+		items: [{
+			item: "mist:mushrooms_food 1 1"
+		}]
+	},
+	{
+		uid: "3063337b",
+		type: "item",
+		items: [{
+			item: "mist:mushrooms_food"
+		}]
+	},
+	{
+		uid: "03d8871d",
+		type: "item",
+		items: [{
+			item: "minecraft:red_mushroom"
+		}]
+	},
+	{
+		uid: "c50f95f7",
+		type: "item",
+		items: [{
+			item: "minecraft:brown_mushroom"
+		}]
+	},
+	{
+		uid: "8251ca5e",
+		type: "item",
+		items: [{
+			item: "twilightforest:twilight_plant 1 4"
+		}]
+	},
+	{
+		uid: "fc6ea2ca",
+		type: "item",
+		items: [{
+			item: "randomthings:glowingmushroom"
+		}]
+	},
+	{
+		uid: "5777b553",
+		type: "item",
+		items: [{
+			item: "natura:nether_glowshroom"
+		}]
+	},
+	{
+		uid: "192bab30",
+		type: "item",
+		items: [{
+			item: "natura:nether_glowshroom 1 1"
+		}]
+	},
+	{
+		uid: "e9a2f132",
+		type: "item",
+		items: [{
+			item: "natura:nether_glowshroom 1 2"
+		}]
+	},
+	{
+		uid: "a0c430d3",
+		type: "item",
+		items: [{
+			item: "divinerpg:white_mushroom"
+		}]
+	},
+	{
+		uid: "e622b6dd",
+		type: "item",
+		items: [{
+			item: "defiledlands:scuronotte"
+		}]
+	},
+	{
+		uid: "78d3ee03",
+		type: "item",
+		items: [{
+			item: "quark:glowshroom"
+		}]
+	},
+	{
+		uid: "6d51654a",
+		type: "item",
+		items: [{
+			item: "harvestcraft:whitemushroomitem"
+		}]
+	}]
+}

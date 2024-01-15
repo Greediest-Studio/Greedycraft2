@@ -1,0 +1,27 @@
+{
+	title: "§b这是治练炉吗？",
+	x: 9.5d,
+	y: 3.0d,
+	description: "制作元动治练炉控制器",
+	dependencies: [
+		"5ddf9c2a",
+		"2b12b14d"
+	],
+	tasks: [{
+		uid: "e68b25fb",
+		type: "item",
+		items: [{
+			item: "gct_mac:impetus_forge"
+		}]
+	}],
+	rewards: [{
+		uid: "ae16c071",
+		type: "xp",
+		xp: 3200
+	},
+	{
+		uid: "8240d9af",
+		type: "random",
+		table: 2
+	}]
+}

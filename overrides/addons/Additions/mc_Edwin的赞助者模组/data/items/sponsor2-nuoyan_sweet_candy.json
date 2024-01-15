@@ -1,0 +1,43 @@
+{
+  "name": "§2诺言牌口香糖",
+  "tooltip": [
+    "§a特别丝滑，入口即化",
+    "§f§l§o开发者物品 by 诺言"
+  ],
+  "hunger": 12,
+  "saturation": 0.33333334,
+  "always_edible": true,
+  "eaten_effects": [
+    {
+      "potion": {
+        "name": "minecraft:health_boost",
+        "duration": 6000,
+        "amplifier": 1,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:haste",
+        "duration": 6000,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:speed",
+        "duration": 6000,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ],
+  "type": "additions:food"
+}

@@ -1,0 +1,32 @@
+{
+	title: "§b黑到名称都看不到的金属",
+	x: 4.5d,
+	y: 5.5d,
+	description: "制作至暗锭",
+	dependencies: [
+		"ad0c9b2e"
+	],
+	tasks: [{
+		uid: "c56eb561",
+		type: "item",
+		items: [{
+			item: "additions:bloody-darkest_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "c5247061",
+		type: "item",
+		item: "additions:bloody-darkest_ingot",
+		count: 4
+	},
+	{
+		uid: "ada47b0f",
+		type: "xp",
+		xp: 6666
+	},
+	{
+		uid: "a37d73a9",
+		type: "random",
+		table: 3
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "§b实现炼金自动化！",
+	x: -4.5d,
+	y: -4.0d,
+	description: "越来越科技化了",
+	dependencies: [
+		"75992ca5"
+	],
+	tasks: [{
+		uid: "63d5b428",
+		type: "item",
+		items: [{
+			item: "thaumcraft:essentia_input"
+		}]
+	},
+	{
+		uid: "75e4f31e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:essentia_output"
+		}]
+	}],
+	rewards: [{
+		uid: "22660ed6",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "f6577366",
+		type: "loot",
+		table: 1
+	}]
+}

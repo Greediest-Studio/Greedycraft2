@@ -1,0 +1,37 @@
+{
+	title: "§b星辉之力",
+	x: -0.5d,
+	y: -7.0d,
+	description: "使用工作台在浮动水晶下吸收星能制作星辉合成台",
+	text: [
+		""
+	],
+	dependencies: [
+		"6962ac70",
+		"daeb8a38"
+	],
+	tasks: [{
+		uid: "7a2654e0",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockaltar"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "45d11d85",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "60cebf78",
+		type: "xp",
+		xp: 320
+	},
+	{
+		uid: "edf6d641",
+		type: "item",
+		item: "astralsorcery:blockmarble 1 6",
+		count: 32
+	}]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "§2自然灵气",
+    "icon": "patchouli:guide_book",
+    "category": "patchouli:guide_category",
+    "pages": [
+        {
+            "type":"crafting",
+            "recipe":"naturesaura:book",
+            "text":"具体操作请移步至上述手册-$(6)自然灵气之书$()"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+	title: "§b络合矿的转化",
+	x: -8.5d,
+	y: 6.0d,
+	description: "将络合矿石在窥视祭坛上转化为正常矿石",
+	text: [
+		"络合矿的转化步骤",
+		"1：在四个角的窥视定位仪放置固化位能块",
+		"2：把络合矿放置在窥视祭坛上",
+		"3：空手右键祭坛，等待一段时间转化完毕"
+	],
+	dependencies: [
+		"e64e68e7",
+		"a41f76ee"
+	],
+	tasks: [{
+		uid: "0c2b9e04",
+		type: "item",
+		items: [{
+			item: "gct_mobs:azathothium_ingot"
+		}]
+	},
+	{
+		uid: "9d0e3eb0",
+		type: "item",
+		items: [{
+			item: "gct_mobs:nyarlathotepium_ingot"
+		}]
+	},
+	{
+		uid: "957b9a8d",
+		type: "item",
+		items: [{
+			item: "gct_mobs:yogsothothium_ingot"
+		}]
+	},
+	{
+		uid: "8d28a178",
+		type: "item",
+		items: [{
+			item: "gct_mobs:shubniggurathium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "fe2ed872",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "2d34ffc7",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "07087cc1",
+		type: "item",
+		item: "gct_aby:solid_pot_energy",
+		count: 4
+	},
+	{
+		uid: "1989ab48",
+		type: "xp",
+		xp: 10000
+	}]
+}

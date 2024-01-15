@@ -1,0 +1,57 @@
+{
+  "name": "§c草莓蛋糕",
+  "tooltip": [
+    "§6§o谁不爱吃草莓蛋糕呢？",
+    "§7§o赞助者物品 by 婉"
+  ],
+  "hunger": 16,
+  "saturation": 0.375,
+  "eaten_effects": [
+    {
+      "potion": {
+        "name": "minecraft:regeneration",
+        "duration": 600,
+        "amplifier": 3,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:luck",
+        "duration": 600,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "potioncore:slow_fall",
+        "duration": 600,
+        "amplifier": 1,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:fire_resistance",
+        "duration": 600,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "command": "tellraw @p {\"text\":\"休息好了吗，接着肝叭！\",\"color\":\"yellow\"}",
+      "command_sender_name": "@p",
+      "type": "additions:command"
+    }
+  ],
+  "type": "additions:food"
+}

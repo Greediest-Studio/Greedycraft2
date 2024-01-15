@@ -1,0 +1,38 @@
+{
+	title: "§b自由落体 V",
+	x: 5.5d,
+	y: 7.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"1fead29e"
+	],
+	tasks: [{
+		uid: "00a56da8",
+		type: "stat",
+		icon: "minecraft:diamond_boots",
+		stat: "stat.fallOneCm",
+		value: 16000000
+	}],
+	rewards: [{
+		uid: "92f0b6e1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "b7a61300",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "§b精灵金属",
+	x: 5.0d,
+	y: -1.5d,
+	description: "通过精灵门交易获得源质钢",
+	text: [
+		""
+	],
+	dependencies: [
+		"096d48b0",
+		"ba4d82ae"
+	],
+	tasks: [{
+		uid: "9f7f5a71",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "f0ea5b57",
+		type: "item",
+		item: "botania:manaresource 1 7",
+		count: 6
+	},
+	{
+		uid: "138529ec",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "634c4734",
+		type: "item",
+		item: "mysticalagriculture:terrasteel_seeds",
+		count: 2
+	},
+	{
+		uid: "c2e78bee",
+		type: "xp",
+		xp: 1000
+	}]
+}

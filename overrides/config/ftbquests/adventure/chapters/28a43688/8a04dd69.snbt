@@ -1,0 +1,29 @@
+{
+	title: "§b方向找到了",
+	x: -20.0d,
+	y: 7.5d,
+	description: "召唤并击杀迷雾丛林卫士",
+	text: [
+		""
+	],
+	dependencies: [
+		"2791d5a6"
+	],
+	tasks: [{
+		uid: "76449305",
+		type: "item",
+		items: [{
+			item: "journey:trophyterra"
+		}]
+	}],
+	rewards: [{
+		uid: "308f216c",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "7149ecea",
+		type: "xp",
+		xp: 20000
+	}]
+}

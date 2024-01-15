@@ -1,0 +1,16 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:sponsor2-pure_bone_nail",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "command": "tellraw @p {\"text\":\"为什么不能下劈呢？\",\"color\":\"red\"}",
+      "command_sender_name": "@p",
+      "type": "additions:command"
+    }
+  ]
+}

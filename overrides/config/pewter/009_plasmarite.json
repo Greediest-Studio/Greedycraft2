@@ -1,0 +1,148 @@
+{
+    "name": "plasmarite",
+    "tool": {
+      "bow": {
+        "speed": 1.5,
+        "range": 1.0,
+        "bonusDamage": 30
+      },
+      "fletching": {
+        "accuracy": 0.5,
+        "modifier": 0.0
+      },
+      "head": {
+        "attackDamage": 27.1,
+        "speed": 18.8,
+        "durability": 11400,
+        "harvestLevel": 9
+      },
+      "handle": {
+        "modifier": 2.8,
+        "durability": 975
+      },
+      "arrowShaft": {
+        "modifier": 1.1,
+        "bonusAmmo": 5
+      },
+      "bowstring": {
+        "modifier": 1.1
+      },
+      "extra": {
+        "durability": 1000
+      }
+    },
+    "color": "#AB6BFF",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 2620,
+    "looks": {
+      "shininess": 0.6,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "PROJECTILE",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Plasmarite",
+      "zh_cn": "等离子"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "additions:greedycraft-plasmarite_ingot"
+      ],
+      "block": [
+        "additions:greedycraft-plasmarite_block"
+      ],
+      "nugget": [
+        "gct_ores:plasmarite_nugget"
+      ],
+      "ore": [
+        "additions:greedycraft-plasmarite_ore"
+      ],
+      "dust": [
+        "jaopca:item_dustplasmarite"
+      ],
+      "plate": [
+        "jaopca:item_plateplasmarite"
+      ],
+      "gear": [
+        "jaopca:item_gearplasmarite"
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "durability": 465,
+        "defense": 73
+      },
+      "plates": {
+        "modifier": 9.2,
+        "durability": 127,
+        "toughness": 5.5
+      },
+      "trim": {
+        "extraDurability": 116
+      }
+    },
+    "specificTraits": {
+      "EXTRA": [
+        "plasmafusion",
+        "heavy"
+      ],
+      "HEAD": [
+        "plasmafusion",
+        "heavy",
+        "superheat"
+      ],
+      "HANDLE": [
+        "plasmafusion",
+        "heavy"
+      ],
+      "BOW": [
+        "plasmafusion",
+        "heavy",
+        "superheat"
+      ],
+      "PROJECTILE": [
+        "plasmafusion",
+        "heavy",
+        "superheat"
+      ],
+      "CORE": [
+        "overrestrain_armor",
+        "autoforge_armor"
+      ],
+      "PLATES": [
+        "overrestrain_armor",
+        "autoforge_armor"
+      ],
+      "TRIM": [
+        "overrestrain_armor",
+        "autoforge_armor"
+      ]
+    }
+  }

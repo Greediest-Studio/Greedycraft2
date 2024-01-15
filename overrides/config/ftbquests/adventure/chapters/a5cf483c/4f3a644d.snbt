@@ -1,0 +1,38 @@
+{
+	title: "§b天神祭坛",
+	x: -0.5d,
+	y: -1.0d,
+	shape: "gear",
+	description: "获得天辉祭坛",
+	text: [
+		""
+	],
+	dependencies: [
+		"20d93dfc",
+		"019a77ed"
+	],
+	tasks: [{
+		uid: "5148999b",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockaltar 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0a018121",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "ccbe4378",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "da94ad8e",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "novice_wizard"
+	}]
+}

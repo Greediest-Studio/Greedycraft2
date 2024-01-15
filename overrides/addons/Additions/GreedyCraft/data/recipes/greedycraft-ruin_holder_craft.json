@@ -1,0 +1,38 @@
+{
+  "recipe": {
+    "type": "forge:ore_shaped",
+    "result": {
+      "item": "gct_mobs:ruin_holder"
+    },
+    "key": {
+      "0": {
+        "stack_list": [
+          {
+            "item": "minecraft:end_rod",
+            "damage": "any"
+          }
+        ],
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "1": {
+        "stack_list": [
+          {
+            "item": "thaumcraft:stone_arcane",
+            "damage": "any"
+          }
+        ],
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "2": {
+        "ore_name": "ingotVoid",
+        "type": "additions:ingredient_ore_nbt"
+      }
+    },
+    "pattern": [
+      "0 0",
+      "1 1",
+      " 2 "
+    ]
+  },
+  "type": "additions:crafting_shaped"
+}

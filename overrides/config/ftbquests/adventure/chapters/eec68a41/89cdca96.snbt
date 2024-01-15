@@ -1,0 +1,31 @@
+{
+	title: "§b五颜六色",
+	x: 3.5d,
+	y: 1.0d,
+	description: "制作彩虹桥法杖",
+	text: [
+		""
+	],
+	dependencies: [
+		"ba4d82ae"
+	],
+	tasks: [{
+		uid: "f1eed396",
+		type: "item",
+		items: [{
+			item: "botania:rainbowrod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0667a876",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "7b481097",
+		type: "xp",
+		xp: 500
+	}]
+}

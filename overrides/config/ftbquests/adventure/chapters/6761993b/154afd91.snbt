@@ -1,0 +1,26 @@
+{
+	title: "§b血魔法的工作台",
+	x: -3.5d,
+	y: -2.5d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"e33ac341"
+	],
+	tasks: [{
+		uid: "601eea51",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_forge"
+		}]
+	}],
+	rewards: [{
+		uid: "6758baf0",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "9d387fb0",
+		type: "xp",
+		xp: 500
+	}]
+}

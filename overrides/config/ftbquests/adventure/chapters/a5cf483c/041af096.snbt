@@ -1,0 +1,30 @@
+{
+	title: "§b收集星空的力量",
+	x: 5.5d,
+	y: 3.0d,
+	description: "合成星芒收集器控制器",
+	dependencies: [
+		"1e42800c",
+		"63ebed9c"
+	],
+	tasks: [{
+		uid: "7852e9d9",
+		type: "item",
+		items: [{
+			id: "modularmachinery:astral_collector_controller",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "366a4b80",
+		type: "xp",
+		xp: 4000
+	},
+	{
+		uid: "a93fc2ad",
+		type: "random",
+		table: 2
+	}]
+}

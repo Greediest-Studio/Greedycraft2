@@ -1,0 +1,32 @@
+{
+	title: "§b虚空的种子",
+	x: 3.5d,
+	y: 2.0d,
+	description: "获得虚空种子",
+	dependencies: [
+		"996d223b"
+	],
+	tasks: [{
+		uid: "b0cf93ff",
+		type: "item",
+		items: [{
+			item: "thaumcraft:void_seed"
+		}]
+	}],
+	rewards: [{
+		uid: "959d6ff5",
+		type: "item",
+		item: "thaumcraft:void_seed",
+		count: 10
+	},
+	{
+		uid: "b2dfe2af",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "aa6d844a",
+		type: "loot",
+		table: 2
+	}]
+}

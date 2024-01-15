@@ -1,0 +1,27 @@
+{
+	title: "§b迷失沼泽",
+	x: 5.5d,
+	y: 2.5d,
+	description: "使用恶魔之眼激活传送门，进入尘泥沼泽",
+	text: [
+		""
+	],
+	dependencies: [
+		"d76bd689"
+	],
+	tasks: [{
+		uid: "e114448d",
+		type: "dimension",
+		dim: 824
+	}],
+	rewards: [{
+		uid: "5bfcb24a",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "9629a778",
+		type: "xp",
+		xp: 5000
+	}]
+}

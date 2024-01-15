@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "§c暗红纹石",
+    "ore_dict": "stoneLerdite",
+    "type": "additions:block_simple"
+  },
+  "name": "§c暗红纹石",
+  "material": "minecraft:stone",
+  "hardness": 20.0,
+  "resistance": 4000.0,
+  "harvest_level": 10,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

@@ -1,0 +1,31 @@
+{
+	title: "§b神殿征服者",
+	x: 13.5d,
+	y: 6.0d,
+	description: "击杀3只远古守卫者",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "eb161a69",
+		type: "kill",
+		entity: "minecraft:elder_guardian",
+		value: 3L
+	}],
+	rewards: [{
+		uid: "8c7971a9",
+		type: "xp",
+		xp: 7500
+	},
+	{
+		uid: "254bdaa8",
+		type: "item",
+		item: "minecraft:sea_lantern",
+		count: 64
+	},
+	{
+		uid: "ef9b37d6",
+		type: "random",
+		table: 2
+	}]
+}

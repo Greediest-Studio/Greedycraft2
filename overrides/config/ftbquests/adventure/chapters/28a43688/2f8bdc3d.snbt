@@ -1,0 +1,27 @@
+{
+	title: "§b天空之城",
+	x: -20.0d,
+	y: 1.5d,
+	description: "进入苍穹之城维度",
+	text: [
+		""
+	],
+	dependencies: [
+		"b2871486"
+	],
+	tasks: [{
+		uid: "d551213a",
+		type: "dimension",
+		dim: 826
+	}],
+	rewards: [{
+		uid: "3c73fc17",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "04fb6b01",
+		type: "random",
+		table: 2
+	}]
+}

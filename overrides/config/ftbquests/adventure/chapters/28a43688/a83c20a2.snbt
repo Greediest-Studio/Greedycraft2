@@ -1,0 +1,32 @@
+{
+	title: "§b水晶矩阵",
+	x: -8.5d,
+	y: 14.5d,
+	description: "合成水晶矩阵锭，无尽贪婪的开始",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "1a14ff71",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "5f542815",
+		type: "item",
+		item: "avaritia:resource 1 1",
+		count: 16
+	},
+	{
+		uid: "0bf58747",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "1d6729e8",
+		type: "xp",
+		xp: 2000
+	}]
+}

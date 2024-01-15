@@ -1,0 +1,73 @@
+{
+	title: "§b混沌分裂者",
+	x: -11.0d,
+	y: 5.0d,
+	shape: "gear",
+	description: "击杀混沌守卫，获得混沌碎片",
+	text: [
+		"混沌守卫位于混沌之岛，该结构位于末地维度x,z轴5000的整数倍坐标上。",
+		"如果打不过混沌守卫，可以尝试匠魂的混沌防护强化。",
+		"建议带上一把好的弓箭用于对付混沌水晶，带一把镐子去挖掘混沌水晶。",
+		"当击杀混沌龙后，你的冒险旅程终于抵达了一个全新的阶段！"
+	],
+	dependencies: [
+		"44b179ac"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "45a313f1",
+		type: "kill",
+		icon: "ageofminecraft:chaosguardian",
+		entity: "draconicevolution:chaosguardian",
+		value: 1L
+	},
+	{
+		uid: "ecbea910",
+		type: "item",
+		items: [{
+			item: "draconicevolution:chaos_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "9974eed5",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "chaotic_dominator"
+	},
+	{
+		uid: "c51d8a1d",
+		type: "item",
+		item: "draconicevolution:chaos_shard",
+		count: 5
+	},
+	{
+		uid: "1bda5462",
+		type: "item",
+		item: "draconicevolution:awakened_core",
+		count: 4
+	},
+	{
+		uid: "c00696b1",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "abbc5733",
+		type: "xp",
+		xp: 20000
+	},
+	{
+		uid: "842b5fa5",
+		type: "item",
+		item: {
+			id: "draconicevolution:draconium_capacitor",
+			Damage: 1s,
+			tag: {
+				DEUpgrades: {
+					rfCap: 4b
+				},
+				Energy: 768000000
+			}
+		}
+	}]
+}

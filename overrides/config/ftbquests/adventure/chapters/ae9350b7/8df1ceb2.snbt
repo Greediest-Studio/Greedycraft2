@@ -1,0 +1,26 @@
+{
+	title: "§b不卡吗",
+	x: 12.0d,
+	y: 18.0d,
+	description: "在末地巨大的冰霜之星中寻找黑冰团簇",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "2ae92a71",
+		type: "item",
+		items: [{
+			item: "betterendforge:darkice_cluster"
+		}]
+	}],
+	rewards: [{
+		uid: "4958f9de",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "8464089e",
+		type: "xp",
+		xp: 1000
+	}]
+}

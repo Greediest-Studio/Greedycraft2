@@ -1,0 +1,36 @@
+{
+	title: "§b最快的框架",
+	x: -12.0d,
+	y: -4.5d,
+	description: "获得湮灭框架",
+	text: [
+		""
+	],
+	dependencies: [
+		"9e241cdb"
+	],
+	tasks: [{
+		uid: "d3fe26fc",
+		type: "item",
+		items: [{
+			item: "magicbees:frames.oblivion"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c2fedaf2",
+		type: "item",
+		item: "magicbees:frames.oblivion"
+	},
+	{
+		uid: "24a74bbd",
+		type: "xp",
+		xp: 1600
+	},
+	{
+		uid: "c48da378",
+		type: "loot",
+		table: 3
+	}]
+}

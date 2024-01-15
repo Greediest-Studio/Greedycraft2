@@ -1,0 +1,42 @@
+{
+	title: "§b沼泽之息",
+	x: 9.5d,
+	y: 8.5d,
+	description: "收集一瓶沼泽之息",
+	text: [
+		""
+	],
+	dependencies: [
+		"d9db7475"
+	],
+	tasks: [{
+		uid: "74ac02f8",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:dentrothyst_fluid_vial",
+			Damage: 1s,
+			tag: {
+				Fluid: {
+					FluidName: "shallowbreath",
+					Amount: 1000
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b7a20737",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "97896117",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "a69d5e05",
+		type: "xp",
+		xp: 5000
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "§b蒸发结晶？",
+	x: -13.5d,
+	y: -2.5d,
+	description: "制作结晶器",
+	text: [
+		""
+	],
+	dependencies: [
+		"fe1392a6"
+	],
+	tasks: [{
+		uid: "3817cece",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:crystallizer"
+		}]
+	}],
+	rewards: [{
+		uid: "d5106eab",
+		type: "item",
+		item: "abyssalcraft:dreadiumingot",
+		count: 16
+	},
+	{
+		uid: "d7842193",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "4501edd2",
+		type: "xp",
+		xp: 2000
+	}]
+}

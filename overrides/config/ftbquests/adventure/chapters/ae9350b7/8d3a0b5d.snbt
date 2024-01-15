@@ -1,0 +1,38 @@
+{
+	title: "§b守卫你的家园",
+	x: 13.5d,
+	y: 7.5d,
+	description: "制作最高等级的炮塔基座",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "10b16013",
+		type: "item",
+		items: [{
+			item: "openmodularturrets:turret_base 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "3b0093ac",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "7915d5b7",
+		type: "item",
+		item: "openmodularturrets:machine_gun_turret",
+		count: 2
+	},
+	{
+		uid: "e33070e1",
+		type: "item",
+		item: "openmodularturrets:ammo_meta 1 1",
+		count: 1280
+	},
+	{
+		uid: "b3ca7df7",
+		type: "random",
+		table: 1
+	}]
+}

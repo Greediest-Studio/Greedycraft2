@@ -1,0 +1,31 @@
+{
+	title: "§b黑岩构建",
+	x: -17.0d,
+	y: -10.5d,
+	description: "合成黑岩实验室建造器",
+	text: [
+		"在副塔击杀灭世守护者，获得钥匙并且开启副塔的黑岩锁，获得对应卸载面板，",
+		"在主塔顶端使用卸载面板拆除改造装置，再用毁灭扳手破坏改造装置，",
+		"而后哨兵之心会生成"
+	],
+	dependencies: [
+		"c82e8f85"
+	],
+	tasks: [{
+		uid: "e27ea147",
+		type: "item",
+		items: [{
+			item: "gct_ores:senterian_builder_lab"
+		}]
+	}],
+	rewards: [{
+		uid: "d0d41342",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "36c30695",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "§bPowerful！",
+	x: -5.0d,
+	y: -1.5d,
+	description: "通过挖掘或者充能的方式得到充能赛特斯石英水晶",
+	text: [
+		""
+	],
+	dependencies: [
+		"f68b4b13"
+	],
+	tasks: [{
+		uid: "81ed12d9",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "84262882",
+		type: "item",
+		item: "appliedenergistics2:material",
+		count: 32
+	},
+	{
+		uid: "8b84f63e",
+		type: "item",
+		item: "appliedenergistics2:material 1 1",
+		count: 16,
+		random_bonus: 16
+	},
+	{
+		uid: "26f6fe18",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "178fe693",
+		type: "xp",
+		xp: 400
+	}]
+}

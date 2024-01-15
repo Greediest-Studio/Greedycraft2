@@ -1,0 +1,34 @@
+{
+	title: "§bGodhead",
+	x: 15.5d,
+	y: -3.0d,
+	description: "制作奥利哈钢",
+	text: [
+		""
+	],
+	dependencies: [
+		"2ea7003d"
+	],
+	tasks: [{
+		uid: "72e78549",
+		type: "item",
+		items: [{
+			item: "extrabotany:material 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "a68be64a",
+		type: "item",
+		item: "extrabotany:material 1 6"
+	},
+	{
+		uid: "541710b9",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "e2ba6a7b",
+		type: "random",
+		table: 3
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: -7.0d,
+	y: -4.5d,
+	dependencies: [
+		"65122906",
+		"87ebd1cb"
+	],
+	tasks: [{
+		uid: "b6d6a769",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 19"
+		}]
+	}]
+}

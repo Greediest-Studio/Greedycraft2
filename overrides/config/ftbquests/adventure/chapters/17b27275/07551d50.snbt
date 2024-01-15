@@ -1,0 +1,30 @@
+{
+	title: "§b神之果",
+	x: -5.0d,
+	y: 3.0d,
+	description: "获得禁忌果实",
+	text: [
+		"看起来没什么用呢，说不定以后就派上用场了"
+	],
+	dependencies: [
+		"1848a9ae",
+		"4e9ec024"
+	],
+	tasks: [{
+		uid: "4e1762d9",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:forbidden_fig"
+		}]
+	}],
+	rewards: [{
+		uid: "3d135d41",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "0575a552",
+		type: "xp",
+		xp: 8000
+	}]
+}

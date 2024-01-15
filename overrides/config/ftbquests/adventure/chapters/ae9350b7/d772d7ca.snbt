@@ -1,0 +1,33 @@
+{
+	title: "§b围绕信标盘旋",
+	x: 13.5d,
+	y: 4.5d,
+	description: "获得魔法羽毛，允许你在信标范围内飞行",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "e8487fb1",
+		type: "item",
+		items: [{
+			item: "magicfeather:magicfeather"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e5d025f",
+		type: "xp",
+		xp: 4000
+	},
+	{
+		uid: "87ca535f",
+		type: "item",
+		item: "minecraft:elytra"
+	},
+	{
+		uid: "70d06528",
+		type: "random",
+		table: 2
+	}]
+}

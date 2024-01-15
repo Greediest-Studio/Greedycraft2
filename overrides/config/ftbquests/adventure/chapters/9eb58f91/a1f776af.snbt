@@ -1,0 +1,39 @@
+{
+	title: "§b隔空操控……",
+	x: -17.5d,
+	y: -7.0d,
+	description: "制作无线样板终端",
+	text: [
+		""
+	],
+	dependencies: [
+		"b5314b30"
+	],
+	tasks: [{
+		uid: "119f5d8a",
+		type: "item",
+		items: [{
+			id: "wpt:wpt",
+			tag: {
+				InfinityEnergy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2227eea3",
+		type: "item",
+		item: "appliedenergistics2:material 1 42"
+	},
+	{
+		uid: "4a248074",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "3c9cea8f",
+		type: "random",
+		table: 1
+	}]
+}

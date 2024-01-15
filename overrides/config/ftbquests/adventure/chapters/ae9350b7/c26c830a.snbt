@@ -1,0 +1,37 @@
+{
+	title: "§b不得不做",
+	x: 13.5d,
+	y: 15.0d,
+	description: "制作熔炉模块化蓝图",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "5c36f7d2",
+		type: "item",
+		items: [{
+			item: "gct_ores:blue_print_forge"
+		}]
+	}],
+	rewards: [{
+		uid: "a7ceeb42",
+		type: "item",
+		item: "nuclearcraft:ingot 1 8",
+		count: 16
+	},
+	{
+		uid: "0abe62b8",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "849425f1",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "c6e13285",
+		type: "xp",
+		xp: 1100
+	}]
+}

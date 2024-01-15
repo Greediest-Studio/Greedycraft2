@@ -1,0 +1,41 @@
+{
+	title: "§b炫目冰花",
+	x: 3.5d,
+	y: -3.5d,
+	description: "在冰晶雪原挖掘冰纹金矿石",
+	text: [
+		""
+	],
+	dependencies: [
+		"6a4b2479"
+	],
+	tasks: [{
+		uid: "a7d47377",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-iciricium_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "d4bdd9ca",
+		type: "item",
+		item: "additions:greedycraft-iciricium_ingot",
+		count: 6
+	},
+	{
+		uid: "cdcd11e5",
+		type: "item",
+		item: "divinerpg:ice_stone",
+		count: 8
+	},
+	{
+		uid: "420f0c65",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "c7d6243c",
+		type: "xp",
+		xp: 800
+	}]
+}

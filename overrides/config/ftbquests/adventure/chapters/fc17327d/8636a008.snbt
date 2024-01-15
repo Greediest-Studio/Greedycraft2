@@ -1,0 +1,76 @@
+{
+	title: "§bFe2O3",
+	icon: "minecraft:iron_ore",
+	x: -14.0d,
+	y: 7.5d,
+	description: "挖掘一个铁矿石",
+	text: [
+		""
+	],
+	dependencies: [
+		"c30665c8"
+	],
+	tasks: [{
+		uid: "2fdf02de",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreIron"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreIron"
+				}
+			}
+		},
+		{
+			item: "sakura:iron_sand"
+		}]
+	}],
+	rewards: [{
+		uid: "550dfc7d",
+		type: "item",
+		item: "minecraft:iron_ore",
+		count: 5,
+		random_bonus: 4
+	},
+	{
+		uid: "f6712650",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "7b5f057a",
+		type: "item",
+		item: "minecraft:iron_pickaxe"
+	},
+	{
+		uid: "e6b4296a",
+		type: "item",
+		item: "danknull:dank_null_2"
+	},
+	{
+		uid: "5d528324",
+		type: "item",
+		item: "minecraft:leather_helmet"
+	},
+	{
+		uid: "02fb4b3b",
+		type: "item",
+		item: "minecraft:leather_chestplate"
+	},
+	{
+		uid: "5cb4c5f1",
+		type: "item",
+		item: "minecraft:leather_leggings"
+	},
+	{
+		uid: "0a8cf6d3",
+		type: "item",
+		item: "minecraft:leather_boots"
+	}]
+}

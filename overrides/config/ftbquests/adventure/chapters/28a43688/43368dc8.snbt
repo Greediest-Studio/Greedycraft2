@@ -1,0 +1,40 @@
+{
+	title: "§b苍穹之立方",
+	x: -10.0d,
+	y: 11.0d,
+	description: "合成自然图腾，用于召唤钢铁史莱姆",
+	text: [
+		"请带上一把原版的镐子！（不是匠魂的）"
+	],
+	dependencies: [
+		"3fdc52b8"
+	],
+	tasks: [{
+		uid: "f3b05499",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-canopy_totem"
+		}]
+	}],
+	rewards: [{
+		uid: "5cd766d2",
+		type: "item",
+		item: "minecraft:nether_star",
+		count: 4
+	},
+	{
+		uid: "09b89722",
+		type: "item",
+		item: "minecraft:totem_of_undying"
+	},
+	{
+		uid: "b4ae9876",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "6e6d686c",
+		type: "random",
+		table: 3
+	}]
+}

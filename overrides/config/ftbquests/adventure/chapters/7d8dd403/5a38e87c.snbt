@@ -1,0 +1,35 @@
+{
+	title: "§b生命起源",
+	x: 3.0d,
+	y: -4.0d,
+	description: "制作基因金属锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"9baf1829"
+	],
+	tasks: [{
+		uid: "ab610add",
+		type: "item",
+		items: [{
+			item: "gct_ores:genite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "dc89b0e4",
+		type: "item",
+		item: "gct_ores:genite_ingot",
+		count: 4
+	},
+	{
+		uid: "a4988fda",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "a68101cd",
+		type: "xp",
+		xp: 4000
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "【冒险·陆】终焉呼唤",
+	icon: "gct_ores:finallium_ingot",
+	always_invisible: false,
+	group: 689139086,
+	default_quest_shape: "",
+	images: [{
+		x: -15.5d,
+		y: 6.0d,
+		width: 10.5d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/adv6.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "§b无尽变动",
+	x: 1.0d,
+	y: -6.5d,
+	description: "在梦魇世界三层击杀远古",
+	text: [
+		"使用梦魇打火石在四相祭坛上召唤"
+	],
+	dependencies: [
+		"1ae37f0b"
+	],
+	tasks: [{
+		uid: "68f4b791",
+		type: "kill",
+		entity: "divinerpg:quadro",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "f10131f8",
+		type: "random",
+		table: 5
+	}]
+}

@@ -1,0 +1,134 @@
+{
+  "name": "vethra_log",
+  "tool": {
+    "bow": {
+      "speed": 2.5,
+      "range": 1.0,
+      "bonusDamage": 0
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 4,
+      "speed": 4,
+      "durability": 100,
+      "harvestLevel": 0
+    },
+    "handle": {
+      "modifier": 1,
+      "durability": 0
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 1.1
+    },
+    "extra": {
+      "durability": 0
+    }
+  },
+  "color": "#2d2fb3",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 820,
+  "looks": {
+    "shininess": 0.2,
+    "brightness": 0.1,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "[Vethea]Wood",
+    "zh_cn": "[梦魇世界]木"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "divinerpg:firewood_log",
+      "divinerpg:hyrewood_log",
+      "divinerpg:dreamwood_log",
+      "divinerpg:mintwood_log"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 2.5,
+      "defense": 4
+    },
+    "plates": {
+      "modifier": 1,
+      "durability": 1.5,
+      "toughness": 1
+    },
+    "trim": {
+      "extraDurability": 1.5
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "ecological"
+    ],
+    "HEAD": [
+      "ecological"
+    ],
+    "HANDLE": [
+      "ecological"
+    ],
+    "BOW": [
+      "ecological"
+    ],
+    "PROJECTILE": [
+      "ecological"
+    ],
+    "CORE": [
+      "ecological_armor"
+    ],
+    "PLATES": [
+      "ecological_armor"
+    ],
+    "TRIM": [
+      "ecological_armor"
+    ]
+  }
+}

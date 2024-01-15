@@ -1,0 +1,28 @@
+{
+	title: "§b变贵了",
+	x: 4.5d,
+	y: 12.0d,
+	description: "制作魔法蘑菇，用于提升工具挖掘等级",
+	text: [
+		"当然，它的最主要作用是把贪婪镐升级为25级镐子"
+	],
+	tasks: [{
+		uid: "0cdb1711",
+		type: "item",
+		items: [{
+			item: "toolprogression:magic_mushroom"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "085868c1",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "4c5153e9",
+		type: "xp",
+		xp: 6000
+	}]
+}

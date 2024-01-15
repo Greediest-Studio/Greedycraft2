@@ -1,0 +1,27 @@
+{
+	x: 3.0d,
+	y: 5.0d,
+	dependencies: [
+		"518ac07a"
+	],
+	tasks: [{
+		uid: "e63b8c41",
+		type: "item",
+		items: [{
+			id: "tinkertoolcasts:tank_advanced",
+			tag: {}
+		},
+		{
+			id: "tinkertoolcasts:tank_reinforced",
+			tag: {}
+		},
+		{
+			id: "tinkertoolcasts:tank_iridium",
+			tag: {}
+		},
+		{
+			id: "tinkertoolcasts:tank_ultimate",
+			tag: {}
+		}]
+	}]
+}

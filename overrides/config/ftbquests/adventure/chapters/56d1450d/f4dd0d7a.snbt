@@ -1,0 +1,34 @@
+{
+	title: "§b别乱套了！",
+	x: -18.0d,
+	y: -3.0d,
+	description: "获得基因稳定升级",
+	text: [
+		""
+	],
+	dependencies: [
+		"2bafc3d8"
+	],
+	tasks: [{
+		uid: "1d68c8df",
+		type: "item",
+		items: [{
+			item: "gendustry:apiary.upgrade 1 19"
+		}]
+	}],
+	rewards: [{
+		uid: "a5fec394",
+		type: "item",
+		item: "gendustry:apiary.upgrade 1 19"
+	},
+	{
+		uid: "c22884cf",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "cfc04edb",
+		type: "loot",
+		table: 1
+	}]
+}

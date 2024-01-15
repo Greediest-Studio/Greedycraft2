@@ -1,0 +1,147 @@
+{
+  "name": "thyminite",
+  "tool": {
+    "bow": {
+      "speed": 0.8,
+      "range": 1.1,
+      "bonusDamage": 7.8
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 14.2,
+      "speed": 14.6,
+      "durability": 6000,
+      "harvestLevel": 6
+    },
+    "handle": {
+      "modifier": 1.3,
+      "durability": 600
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 1.1
+    },
+    "extra": {
+      "durability": 500
+    }
+  },
+  "color": "#F8F826",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 583,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Thyminite",
+    "zh_cn": "胸腺嘧"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:greedycraft-thyminite_ingot"
+    ],
+    "block": [
+      "additions:greedycraft-thyminite_block"
+    ],
+    "nugget": [
+      "gct_ores:thyminite_nugget"
+    ],
+    "ore": [
+      "additions:greedycraft-thyminite_ore"
+    ],
+    "dust": [
+      "jaopca:item_dustthyminite"
+    ],
+    "plate": [
+      "jaopca:item_platethyminite"
+    ],
+    "gear": [
+      "jaopca:item_gearthyminite"
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 300,
+      "defense": 44.2
+    },
+    "plates": {
+      "modifier": 4.2,
+      "durability": 70,
+      "toughness": 2.5
+    },
+    "trim": {
+      "extraDurability": 50
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "ecological",
+      "tconevo.fertilizing"
+    ],
+    "HEAD": [
+      "naturespower",
+      "naturesblessing",
+      "natureswrath",
+      "ecological"
+    ],
+    "HANDLE": [
+      "ecological",
+      "tconevo.fertilizing"
+    ],
+    "BOW": [
+      "ecological",
+      "tconevo.fertilizing"
+    ],
+    "PROJECTILE": [
+      "ecological",
+      "tconevo.fertilizing"
+    ],
+    "CORE": [
+      "vengeful_armor",
+      "second_life_armor"
+    ],
+    "PLATES": [
+      "vengeful_armor",
+      "second_life_armor"
+    ],
+    "TRIM": [
+      "vengeful_armor",
+      "second_life_armor"
+    ]
+  }
+}

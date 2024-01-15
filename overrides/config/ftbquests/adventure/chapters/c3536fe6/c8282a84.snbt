@@ -1,0 +1,29 @@
+{
+	title: "§b王座毁灭者",
+	x: -6.5d,
+	y: 4.0d,
+	description: "召唤并击杀桉域国王",
+	text: [
+		""
+	],
+	dependencies: [
+		"6305e642"
+	],
+	tasks: [{
+		uid: "4a36247f",
+		type: "item",
+		items: [{
+			item: "journey:trophyeudor"
+		}]
+	}],
+	rewards: [{
+		uid: "6e6fe762",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "da4f1c4f",
+		type: "random",
+		table: 2
+	}]
+}

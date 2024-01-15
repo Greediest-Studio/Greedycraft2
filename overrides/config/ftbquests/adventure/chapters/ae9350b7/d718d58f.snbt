@@ -1,0 +1,32 @@
+{
+	title: "§b完美主义",
+	x: 6.0d,
+	y: 15.0d,
+	description: "获得完美通用物品",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "e397d8be",
+		type: "item",
+		items: [{
+			item: "additions:perfectly_generic_item"
+		}]
+	}],
+	rewards: [{
+		uid: "7957b2c4",
+		type: "item",
+		item: "additions:perfectly_generic_item",
+		count: 4
+	},
+	{
+		uid: "d01ef226",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "3e36c428",
+		type: "xp",
+		xp: 1000
+	}]
+}

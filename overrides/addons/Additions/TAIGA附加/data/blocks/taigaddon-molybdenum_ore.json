@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "钼矿石",
+    "ore_dict": "oreMolybdenum",
+    "type": "additions:block_simple"
+  },
+  "name": "钼矿石",
+  "material": "minecraft:stone",
+  "hardness": 45.0,
+  "resistance": 4000.0,
+  "harvest_level": 9,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

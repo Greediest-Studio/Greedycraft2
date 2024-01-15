@@ -1,0 +1,26 @@
+{
+	title: "§b星空版本的催化剂",
+	x: 5.5d,
+	y: 9.0d,
+	description: "制作璀璨结晶",
+	dependencies: [
+		"2ccdf939"
+	],
+	tasks: [{
+		uid: "da1552c1",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-brightine"
+		}]
+	}],
+	rewards: [{
+		uid: "0fde925b",
+		type: "xp",
+		xp: 6666
+	},
+	{
+		uid: "ea658728",
+		type: "random",
+		table: 3
+	}]
+}

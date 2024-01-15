@@ -1,0 +1,35 @@
+{
+	title: "§b致密金属",
+	x: -6.0d,
+	y: 8.0d,
+	description: "合成黑铁锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"93e55418"
+	],
+	tasks: [{
+		uid: "09170c6c",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material"
+		}]
+	}],
+	rewards: [{
+		uid: "1cb0d861",
+		type: "item",
+		item: "extendedcrafting:material",
+		count: 16
+	},
+	{
+		uid: "f79cf4a7",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "fbd1beb1",
+		type: "xp",
+		xp: 2000
+	}]
+}

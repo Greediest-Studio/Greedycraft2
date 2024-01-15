@@ -1,0 +1,29 @@
+{
+	title: "§b星能聚合",
+	x: -0.5d,
+	y: 1.0d,
+	description: "获得星能聚合器",
+	text: [
+		""
+	],
+	dependencies: [
+		"4f3a644d"
+	],
+	tasks: [{
+		uid: "1b895c9a",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockstarlightinfuser"
+		}]
+	}],
+	rewards: [{
+		uid: "08aa8869",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "fcb5afcf",
+		type: "xp",
+		xp: 2400
+	}]
+}

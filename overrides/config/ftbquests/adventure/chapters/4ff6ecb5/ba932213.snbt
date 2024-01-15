@@ -1,0 +1,46 @@
+{
+	title: "§b神秘与科技的碰撞",
+	x: 5.5d,
+	y: 1.5d,
+	description: "制作元始加速器",
+	dependencies: [
+		"aaa91c72"
+	],
+	tasks: [{
+		uid: "f8140984",
+		type: "item",
+		items: [{
+			item: "thaumicwonders:primordial_accelerator"
+		}]
+	},
+	{
+		uid: "8094c7cf",
+		type: "item",
+		items: [{
+			item: "thaumicwonders:primordial_accelerator_tunnel"
+		}]
+	},
+	{
+		uid: "dd5d859b",
+		type: "item",
+		items: [{
+			item: "thaumicwonders:primordial_accelerator_terminus"
+		}]
+	}],
+	rewards: [{
+		uid: "3fc8b6e3",
+		type: "item",
+		item: "thaumicwonders:primordial_accelerator_tunnel",
+		count: 2
+	},
+	{
+		uid: "08bda89c",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "b19ad6d0",
+		type: "random",
+		table: 3
+	}]
+}

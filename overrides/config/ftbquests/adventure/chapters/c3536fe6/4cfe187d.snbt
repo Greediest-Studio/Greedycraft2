@@ -1,0 +1,35 @@
+{
+	title: "§b一个名字很好听的元素",
+	x: -16.0d,
+	y: -4.5d,
+	description: "在朦胧世界挖掘铌矿石",
+	text: [
+		""
+	],
+	dependencies: [
+		"20d59d5f"
+	],
+	tasks: [{
+		uid: "a3603324",
+		type: "item",
+		items: [{
+			item: "mist:niobium_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "50a5031c",
+		type: "item",
+		item: "mist:niobium_ingot",
+		count: 12
+	},
+	{
+		uid: "b12454bf",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "d1c49e72",
+		type: "xp",
+		xp: 4000
+	}]
+}

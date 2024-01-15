@@ -1,0 +1,31 @@
+{
+	title: "§b白银之心",
+	x: -8.5d,
+	y: 1.0d,
+	description: "合成奇怪的机械宝石",
+	text: [
+		""
+	],
+	dependencies: [
+		"42baff69"
+	],
+	tasks: [{
+		uid: "72496cf3",
+		type: "item",
+		items: [{
+			item: "journey:corallatororb"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f340e789",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "300b6e02",
+		type: "xp",
+		xp: 5000
+	}]
+}

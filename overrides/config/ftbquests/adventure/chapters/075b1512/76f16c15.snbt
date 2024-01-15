@@ -1,0 +1,38 @@
+{
+	title: "§b航天员 VII",
+	x: 4.0d,
+	y: 10.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"10b1b243"
+	],
+	tasks: [{
+		uid: "959ef0de",
+		type: "stat",
+		icon: "minecraft:elytra",
+		stat: "stat.flyOneCm",
+		value: 140000000
+	}],
+	rewards: [{
+		uid: "2e8fd353",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "0d16c900",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	}]
+}

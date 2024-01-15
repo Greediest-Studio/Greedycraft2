@@ -1,0 +1,27 @@
+{
+	title: "§b最后一把钥匙？",
+	x: 13.5d,
+	y: 6.0d,
+	description: "获得凶险剑刃",
+	dependencies: [
+		"53894eca"
+	],
+	tasks: [{
+		uid: "715aac56",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:eldritch_lock_key 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e164673",
+		type: "xp",
+		xp: 4888
+	},
+	{
+		uid: "88da2245",
+		type: "random",
+		table: 2
+	}]
+}

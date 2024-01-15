@@ -1,0 +1,31 @@
+{
+	title: "§b黄金之心",
+	x: -8.5d,
+	y: 4.0d,
+	description: "合成高贵的皇冠",
+	text: [
+		""
+	],
+	dependencies: [
+		"42baff69"
+	],
+	tasks: [{
+		uid: "6fdfed00",
+		type: "item",
+		items: [{
+			item: "journey:eudororb"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "26afe9c2",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "49bbb0b4",
+		type: "xp",
+		xp: 5000
+	}]
+}

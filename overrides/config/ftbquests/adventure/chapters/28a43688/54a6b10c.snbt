@@ -1,0 +1,35 @@
+{
+	title: "§b增强版",
+	x: -13.5d,
+	y: 1.0d,
+	description: "合成增强末影锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"687afb12"
+	],
+	tasks: [{
+		uid: "aa3183a1",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 48"
+		}]
+	}],
+	rewards: [{
+		uid: "5aeb4d36",
+		type: "item",
+		item: "extendedcrafting:material 1 40",
+		count: 4
+	},
+	{
+		uid: "6f76bd72",
+		type: "xp",
+		xp: 8000
+	},
+	{
+		uid: "337e8a07",
+		type: "random",
+		table: 2
+	}]
+}

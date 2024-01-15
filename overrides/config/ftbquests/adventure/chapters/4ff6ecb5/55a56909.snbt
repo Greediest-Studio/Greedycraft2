@@ -1,0 +1,110 @@
+{
+	title: "§b神秘的工作台",
+	x: -4.5d,
+	y: 0.0d,
+	description: "制作奥术工作台",
+	dependencies: [
+		"2b2f5f2a"
+	],
+	tasks: [{
+		uid: "b771f391",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench"
+		}]
+	}],
+	rewards: [{
+		uid: "ff8ded09",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					key: "aer",
+					amount: 1
+				}]
+			}
+		},
+		count: 32
+	},
+	{
+		uid: "6d887f68",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					key: "terra",
+					amount: 1
+				}]
+			}
+		},
+		count: 32
+	},
+	{
+		uid: "64f3f483",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					key: "ignis",
+					amount: 1
+				}]
+			}
+		},
+		count: 32
+	},
+	{
+		uid: "c0a6905a",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					key: "aqua",
+					amount: 1
+				}]
+			}
+		},
+		count: 32
+	},
+	{
+		uid: "737e5608",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					key: "ordo",
+					amount: 1
+				}]
+			}
+		},
+		count: 32
+	},
+	{
+		uid: "155c5001",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					key: "perditio",
+					amount: 1
+				}]
+			}
+		},
+		count: 32
+	},
+	{
+		uid: "750431ee",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "cffffad5",
+		type: "loot",
+		table: 0
+	}]
+}

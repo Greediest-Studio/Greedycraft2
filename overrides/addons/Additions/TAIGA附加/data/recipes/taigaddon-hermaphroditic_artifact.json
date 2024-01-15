@@ -1,0 +1,97 @@
+{
+  "recipe": {
+    "type": "forge:ore_shaped",
+    "result": {
+      "item": "gct_ores:hermaphroditic_artifact"
+    },
+    "key": {
+      "0": {
+        "stack_list": [
+          {
+            "item": "tiths:redins",
+            "damage": "any"
+          }
+        ],
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "1": {
+        "stack_list": [
+          {
+            "item": "tiths:corundum",
+            "damage": "any"
+          }
+        ],
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "2": {
+        "stack_list": [
+          {
+            "item": "tiths:pyrophyllite",
+            "damage": "any"
+          }
+        ],
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "3": {
+        "stack_list": [
+          {
+            "item": "tiths:lizanite",
+            "damage": "any"
+          }
+        ],
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "4": {
+        "stack_list": [
+          {
+            "item": "tiths:spinel",
+            "damage": "any"
+          }
+        ],
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "5": {
+        "stack_list": [
+          {
+            "item": "tiths:tourmaline",
+            "damage": "any"
+          }
+        ],
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "6": {
+        "stack_list": [
+          {
+            "item": "tiths:opal",
+            "damage": "any"
+          }
+        ],
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "7": {
+        "stack_list": [
+          {
+            "item": "tiths:cordierite",
+            "damage": "any"
+          }
+        ],
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "8": {
+        "stack_list": [
+          {
+            "item": "tiths:prehnite",
+            "damage": "any"
+          }
+        ],
+        "type": "additions:ingredient_ore_nbt"
+      }
+    },
+    "pattern": [
+      "012",
+      "345",
+      "678"
+    ]
+  },
+  "type": "additions:crafting_shaped"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "plutonium",
+  "tool": {
+    "head": {
+      "attackDamage": 56.0,
+      "speed": 16.0,
+      "durability": 4500,
+      "harvestLevel": 10
+    },
+    "handle": {
+      "modifier": 1.3,
+      "durability": 2400
+    },
+    "extra": {
+      "durability": 3000
+    },
+    "bow": {
+      "drawspeed": 4.0,
+      "range": 2.4,
+      "bonusDamage": 20.0
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 700.0,
+      "defense": 66.0
+    },
+    "plates": {
+      "modifier": 5.5,
+      "durability": 240.0,
+      "toughness": 6.4
+    },
+    "trim": {
+      "extraDurability": 215.0
+    }
+  },
+  "color": "#cacaca",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Plutonium",
+    "zh_cn": "钚"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:elements-plutonium_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["criticality","active_source3"],
+    "HANDLE": ["radiated","active_source3"],
+    "EXTRA": ["radiated","active_source3"],
+    "BOW": ["criticality","active_source3"],
+    "CORE": ["void_radiation_armor","active_source3_armor"],
+    "PLATES": ["tconevo.radiant_armor","active_source3_armor"],
+    "TRIM": ["tconevo.radiant_armor","active_source3_armor"]
+  }
+}

@@ -1,0 +1,38 @@
+{
+	title: "§b医 疗 箱",
+	x: 1.5d,
+	y: 7.5d,
+	description: "获得超级医疗包",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "4825e797",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-medkit_super"
+		}]
+	}],
+	rewards: [{
+		uid: "f02d6537",
+		type: "item",
+		item: "scalinghealth:heartcontainer",
+		count: 3
+	},
+	{
+		uid: "ddf8d521",
+		type: "item",
+		item: "additions:greedycraft-medkit_super",
+		count: 2
+	},
+	{
+		uid: "eb47986d",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "d247885d",
+		type: "random",
+		table: 1
+	}]
+}

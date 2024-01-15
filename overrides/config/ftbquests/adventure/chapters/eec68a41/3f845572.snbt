@@ -1,0 +1,32 @@
+{
+	title: "§b魔力释放",
+	x: 25.5d,
+	y: -5.0d,
+	description: "获得魔力释能机控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"5c82b156"
+	],
+	tasks: [{
+		uid: "2bd148ce",
+		type: "item",
+		items: [{
+			id: "modularmachinery:mana_powereducer_controller",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "bea9cbb9",
+		type: "xp",
+		xp: 8000
+	},
+	{
+		uid: "1cd0a546",
+		type: "random",
+		table: 3
+	}]
+}

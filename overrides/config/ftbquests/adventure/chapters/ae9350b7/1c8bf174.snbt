@@ -1,0 +1,37 @@
+{
+	title: "§b它可以提供无限水诶",
+	x: 0.0d,
+	y: 0.0d,
+	description: "获得水槽！",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "d4d0745b",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:sink"
+		}]
+	}],
+	rewards: [{
+		uid: "9658446c",
+		type: "item",
+		item: "minecraft:water_bucket",
+		count: 16
+	},
+	{
+		uid: "5509b0a6",
+		type: "item",
+		item: "cookingforblockheads:sink"
+	},
+	{
+		uid: "b144a506",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "a84df09f",
+		type: "xp",
+		xp: 500
+	}]
+}

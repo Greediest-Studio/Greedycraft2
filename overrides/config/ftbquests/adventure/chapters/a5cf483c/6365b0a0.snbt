@@ -1,0 +1,32 @@
+{
+	title: "§b蕴含了星空所有力量的金属",
+	x: 7.5d,
+	y: 7.0d,
+	description: "制作星灵锭",
+	dependencies: [
+		"cf537efb"
+	],
+	tasks: [{
+		uid: "7b7d9958",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-zodiacite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "6892305f",
+		type: "item",
+		item: "additions:greedycraft-zodiacite_ingot",
+		count: 4
+	},
+	{
+		uid: "aafe065b",
+		type: "xp",
+		xp: 22222
+	},
+	{
+		uid: "cca1a01a",
+		type: "random",
+		table: 4
+	}]
+}

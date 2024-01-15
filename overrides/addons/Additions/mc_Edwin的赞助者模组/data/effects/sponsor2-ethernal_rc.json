@@ -1,0 +1,45 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:sponsor2-eternal_harbor",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "type": "additions:consume_item"
+    },
+    {
+      "potion": {
+        "name": "minecraft:regeneration",
+        "duration": 240,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:resistance",
+        "duration": 2400,
+        "amplifier": 3,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "gct_mobs:world_end",
+        "duration": 1,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "reapplication_delay": 2401,
+      "type": "additions:potion"
+    }
+  ]
+}

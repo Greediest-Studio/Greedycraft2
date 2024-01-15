@@ -1,0 +1,31 @@
+{
+	title: "§b锚升级",
+	x: 0.0d,
+	y: 4.0d,
+	description: "制作一个锚升级",
+	text: [
+		"可以让机器自动加载所在区块"
+	],
+	dependencies: [
+		"9b34a8ff"
+	],
+	tasks: [{
+		uid: "47a4ab43",
+		type: "item",
+		items: [{
+			item: "mekanism:anchorupgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3d125d85",
+		type: "item",
+		item: "mekanism:anchorupgrade"
+	},
+	{
+		uid: "6c587509",
+		type: "xp",
+		xp: 500
+	}]
+}

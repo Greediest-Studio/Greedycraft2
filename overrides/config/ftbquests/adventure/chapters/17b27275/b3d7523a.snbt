@@ -1,0 +1,35 @@
+{
+	title: "§bRGB？",
+	x: -2.5d,
+	y: 8.5d,
+	description: "制作三色合金",
+	text: [
+		"@神话魔力池"
+	],
+	dependencies: [
+		"dc475564"
+	],
+	tasks: [{
+		uid: "57f9f135",
+		type: "item",
+		items: [{
+			item: "moretcon:ingottrichromadentium"
+		}]
+	}],
+	rewards: [{
+		uid: "6b4876be",
+		type: "item",
+		item: "moretcon:ingottrichromadentium",
+		count: 2
+	},
+	{
+		uid: "3da4c75c",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "1cb13422",
+		type: "xp",
+		xp: 5000
+	}]
+}

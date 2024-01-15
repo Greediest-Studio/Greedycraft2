@@ -1,0 +1,29 @@
+{
+	title: "§b富有生机",
+	x: -2.0d,
+	y: 4.0d,
+	description: "合成蟹笼",
+	text: [
+		""
+	],
+	dependencies: [
+		"eab18a2c"
+	],
+	tasks: [{
+		uid: "5cb4ffe7",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:crab_pot"
+		}]
+	}],
+	rewards: [{
+		uid: "a8d88117",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "5c4e54bb",
+		type: "xp",
+		xp: 6000
+	}]
+}

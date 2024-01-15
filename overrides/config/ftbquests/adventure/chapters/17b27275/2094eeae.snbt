@@ -1,0 +1,65 @@
+{
+	title: "§b守则成型",
+	x: -1.0d,
+	y: -5.0d,
+	description: "合成秩序之地门钥匙",
+	text: [
+		""
+	],
+	dependencies: [
+		"ff9c2648",
+		"375519c2"
+	],
+	tasks: [{
+		uid: "22737aae",
+		type: "item",
+		items: [{
+			item: "gct_ores:door_key_of_orderland"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6b78a3a7",
+		type: "item",
+		item: {
+			id: "gct_ores:ruled_draconium_ingot",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 24
+	},
+	{
+		uid: "930cfef0",
+		type: "item",
+		item: {
+			id: "gct_ores:equipment_witherium_ingot",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 24
+	},
+	{
+		uid: "2f25149b",
+		type: "item",
+		item: {
+			id: "additions:cosmilite_ingot",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "8530178b",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "98440bda",
+		type: "xp",
+		xp: 20000
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "§b经验+100，告辞",
+	x: 3.0d,
+	y: 1.5d,
+	description: "提交100级经验",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "17e70424",
+		type: "xp",
+		value: 100L,
+		points: false
+	}],
+	rewards: [{
+		uid: "f0c28f69",
+		type: "item",
+		item: "additions:greedycraft-experience_block",
+		count: 4
+	},
+	{
+		uid: "33899302",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "216e86c8",
+		type: "random",
+		table: 0
+	}]
+}

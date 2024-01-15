@@ -1,0 +1,36 @@
+{
+	title: "§b强力框架",
+	x: -9.0d,
+	y: -4.5d,
+	description: "获得治愈框架",
+	text: [
+		""
+	],
+	dependencies: [
+		"946d5e30"
+	],
+	tasks: [{
+		uid: "97a0529c",
+		type: "item",
+		items: [{
+			item: "extrabees:hive_frame.clay"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f19e1161",
+		type: "item",
+		item: "extrabees:hive_frame.clay"
+	},
+	{
+		uid: "09e1f928",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "ed6b0c81",
+		type: "loot",
+		table: 1
+	}]
+}

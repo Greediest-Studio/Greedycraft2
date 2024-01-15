@@ -1,0 +1,35 @@
+{
+	title: "§b灵魂凝胶",
+	x: 1.5d,
+	y: 0.0d,
+	description: "击杀小型灵魂树脸，获得凝胶液",
+	text: [
+		""
+	],
+	dependencies: [
+		"c637c294"
+	],
+	tasks: [{
+		uid: "c769f4dc",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sap_spit"
+		}]
+	}],
+	rewards: [{
+		uid: "583c952c",
+		type: "item",
+		item: "thebetweenlands:sap_spit",
+		count: 5
+	},
+	{
+		uid: "53366e5f",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "9b1f6833",
+		type: "xp",
+		xp: 3200
+	}]
+}

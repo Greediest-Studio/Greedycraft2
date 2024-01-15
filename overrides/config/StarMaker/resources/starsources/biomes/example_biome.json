@@ -1,0 +1,54 @@
+{
+  "persistance": 2.2,
+  "octaves": 4,
+  "height": 130,
+  "intquility": 10,
+  "biomeSize": 2.0,
+  "water_color": [
+    255,
+    255,
+    0
+  ],
+  "foliage_color": [
+    0,
+    100,
+    0
+  ],
+  "grass_color": [
+    0,
+    100,
+    100
+  ],
+  "surface_block": "minecraft:grass",
+  "subsurface_block": "minecraft:dirt",
+  "oregen": [
+    {
+      "ore_block": "minecraft:dirt",
+      "replaced_block": "minecraft:cobblestone",
+      "block_count": 5,
+      "minY": 80,
+      "maxY": 90,
+      "amount_per_chunk": 20
+    }
+  ],
+  "treegen": {
+    "log_block": "minecraft:log",
+    "leaves_block": "minecraft:leaves",
+    "sapling_block": "minecraft:sapling",
+    "minTreeHeight": 8,
+    "vines_gen": false,
+    "quantity": 3
+  },
+  "grassgen": [
+    {
+      "grass_block": "minecraft:tallgrass:1",
+      "ground_block": "minecraft:grass",
+      "grass_count": 5,
+      "onWater": false
+    }
+  ],
+  "lakesgen": {
+    "liquid_block": "minecraft:lava",
+    "quantity": 20
+  }
+}

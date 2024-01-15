@@ -1,0 +1,34 @@
+{
+	title: "§b灵气版本的电池？",
+	x: -1.5d,
+	y: 0.0d,
+	description: "获得灵气缓存",
+	dependencies: [
+		"1c43f13e"
+	],
+	tasks: [{
+		uid: "df6ac571",
+		type: "item",
+		items: [{
+			id: "naturesaura:aura_cache",
+			ForgeCaps: {
+				"distinctdamagedescriptions:dmgdistribution": [{
+					type: "ddd_bludgeoning",
+					weight: 1.0f
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "816f1408",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "5895c1cd",
+		type: "random",
+		table: 2
+	}]
+}

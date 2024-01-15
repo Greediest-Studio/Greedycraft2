@@ -1,0 +1,30 @@
+{
+	title: "§b窥望天空",
+	x: -8.5d,
+	y: 4.0d,
+	description: "在扭曲遗址找到窥视祭坛",
+	text: [
+		""
+	],
+	dependencies: [
+		"02eb78b1"
+	],
+	tasks: [{
+		uid: "3a60e24c",
+		type: "observation",
+		icon: "gct_aby:seek_altar",
+		match_type: "block_id",
+		match: "gct_aby:seek_altar",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "5825c28f",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "30503ac0",
+		type: "xp",
+		xp: 5600
+	}]
+}

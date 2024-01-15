@@ -1,0 +1,130 @@
+{
+  "name": "blackhole_alloy",
+  "tool": {
+    "head": {
+      "attackDamage": 23.6,
+      "speed": 28.5,
+      "durability": 7000,
+      "harvestLevel": 10
+    },
+    "handle": {
+      "modifier": 1.5,
+      "durability": 800
+    },
+    "extra": {
+        "durability": 640
+    },
+    "bow": {
+        "speed": 0.7,
+        "range": 1.9,
+        "bonusDamage": 20
+    }
+  },
+  "color": "#000000",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1560,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Blackhole Alloy",
+    "zh_cn": "黑洞合金"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:eioaddon-blackhole_alloy_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 56.4,
+      "durability": 400
+    },
+    "plates": {
+      "toughness": 8,
+      "modifier": 4,
+      "durability": 100
+    },
+    "trim": {
+      "extraDurability": 80
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "dark",
+      "tconevo.energized2",
+      "spartan"
+    ],
+    "HANDLE": [
+      "dark",
+      "tconevo.energized2",
+      "spartan"
+    ],
+    "EXTRA": [
+      "dark",
+      "tconevo.energized2",
+      "spartan"
+    ],
+    "BOW": [
+      "dark",
+      "tconevo.energized2",
+      "spartan"
+    ],
+    "CORE": [
+      "shielding_armor",
+      "tconevo.energized2_armor",
+      "spartan_armor"
+    ],
+    "PLATES": [
+      "shielding_armor",
+      "tconevo.energized2_armor",
+      "spartan_armor"
+    ],
+    "TRIM": [
+      "shielding_armor",
+      "tconevo.energized2_armor",
+      "spartan_armor"
+    ]
+  }
+}

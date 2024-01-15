@@ -1,0 +1,334 @@
+{
+  "version": 2,
+  "location": "gct_mac:pe_collector",
+  "traits": {
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 59,
+      "y": 52,
+      "width": 18,
+      "height": 60,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": 3
+    },
+    "background": "multiblocked:textures/pe_collector.png",
+    "fluid": [
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "x": 79,
+        "y": 75,
+        "autoIO": false,
+        "tC": 100000,
+        "w": 18,
+        "h": 18,
+        "fillDir": "DOWN_TO_UP"
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 10.0,
+    "explosionResistance": 4000.0,
+    "harvestLevel": 8,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "abyssalcraft:darkethaxiumbrick",
+          "meta": 1
+        },
+        "type": "blockstate"
+      },
+      "lightEmissive": 0
+    },
+    "idle": {
+      "lightEmissive": 2,
+      "parent": "unformed"
+    },
+    "working": {
+      "lightEmissive": 15,
+      "parent": "idle"
+    },
+    "suspend": {
+      "lightEmissive": 10,
+      "parent": "working"
+    }
+  },
+  "recipeMap": "pe_collector",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "  AAA  ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       "
+      ],
+      [
+        " ABABA ",
+        "  C C  ",
+        "  C C  ",
+        "  C C  ",
+        "  C C  ",
+        "  C C  ",
+        "  C C  ",
+        "  C C  ",
+        "  C C  ",
+        "  C C  ",
+        " DB BD ",
+        " B   B ",
+        " B   B ",
+        "       ",
+        "       ",
+        "       ",
+        "       "
+      ],
+      [
+        "ABBBBBA",
+        " CBBBC ",
+        " CBBBC ",
+        " CBBBC ",
+        " CBDBC ",
+        " CBDBC ",
+        " CBDBC ",
+        " CBDBC ",
+        " CBBBC ",
+        " CBBBC ",
+        " BBBBB ",
+        "       ",
+        "       ",
+        "  B B  ",
+        "  B B  ",
+        "       ",
+        "       "
+      ],
+      [
+        "AABBBAA",
+        "  BEB  ",
+        "  BEB  ",
+        "  BEB  ",
+        "  DED  ",
+        "  DED  ",
+        "  DED  ",
+        "  DED  ",
+        "  BEB  ",
+        "  BEB  ",
+        "  BEB  ",
+        "       ",
+        "       ",
+        "   F   ",
+        "       ",
+        "   B   ",
+        "   @   "
+      ],
+      [
+        "ABBBBBA",
+        " CBBBC ",
+        " CBBBC ",
+        " CBBBC ",
+        " CBDBC ",
+        " CBDBC ",
+        " CBDBC ",
+        " CBDBC ",
+        " CBBBC ",
+        " CBBBC ",
+        " BBBBB ",
+        "       ",
+        "       ",
+        "  B B  ",
+        "  B B  ",
+        "       ",
+        "       "
+      ],
+      [
+        " ABABA ",
+        "  C C  ",
+        "  C C  ",
+        "  C C  ",
+        "  C C  ",
+        "  C C  ",
+        "  C C  ",
+        "  C C  ",
+        "  C C  ",
+        "  C C  ",
+        " DB BD ",
+        " B   B ",
+        " B   B ",
+        "       ",
+        "       ",
+        "       ",
+        "       "
+      ],
+      [
+        "  AAA  ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "abyssalcraft:darkethaxiumbrickslab1",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "gct_mac:pe_collector",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "abyssalcraft:darkethaxiumbrick",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "abyssalcraft:darkethaxiumbrickfence",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "abyssalcraft:ethaxiumbrick",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "abyssalcraft:ethaxiumfence",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "gct_mobs:sanite_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

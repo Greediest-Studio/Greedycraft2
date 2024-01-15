@@ -1,0 +1,94 @@
+{
+  "name": "strontium",
+  "tool": {
+    "head": {
+      "attackDamage": 14,
+      "speed": 14,
+      "durability": 80,
+      "harvestLevel": 5
+    },
+    "handle": {
+      "modifier": 0.1,
+      "durability": -50
+    },
+    "extra": {
+      "durability": 20
+    },
+    "bow": {
+      "speed": 0.3,
+      "range": 1.6,
+      "bonusDamage": 14
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 6,
+      "defense": 23
+    },
+    "plates": {
+      "modifier": 0.2,
+      "durability": 2,
+      "toughness": 4
+    },
+    "trim": {
+      "extraDurability": 2
+    }
+  },
+  "color": "#cbd1a3",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Strontium",
+    "zh_cn": "锶"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:elements-strontium_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["alkalinity", "chemical_instable", "crystalyst"],
+    "HANDLE": ["alkalinity", "unstable", "flammable"],
+    "EXTRA": ["alkalinity", "unstable", "flammable"],
+    "BOW": ["alkalinity", "unstable", "flammable"],
+    "CORE": ["bouncy_armor", "unstable_armor", "oxyless_armor"],
+    "PLATES": ["bouncy_armor", "unstable_armor", "oxyless_armor"],
+    "TRIM": ["bouncy_armor", "unstable_armor", "oxyless_armor"]
+  }
+}

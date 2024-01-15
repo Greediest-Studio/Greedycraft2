@@ -1,0 +1,15 @@
+{
+	title: "§b起源",
+	x: -11.5d,
+	y: -4.5d,
+	text: [
+		"获得活化水晶碎片"
+	],
+	tasks: [{
+		uid: "a5531b53",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 5"
+		}]
+	}]
+}

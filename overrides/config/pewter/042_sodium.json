@@ -1,0 +1,130 @@
+{
+  "name": "sodium",
+  "tool": {
+    "head": {
+      "attackDamage": 11,
+      "speed": 32,
+      "durability": 60,
+      "harvestLevel": 5
+    },
+    "handle": {
+      "modifier": 0.1,
+      "durability": -100
+    },
+    "extra": {
+        "durability": 50
+    },
+    "bow": {
+        "speed": 0.1,
+        "range": 1.4,
+        "bonusDamage": 15
+    }
+  },
+  "color": "#ffffff",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 500,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Sodium",
+    "zh_cn": "钠"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:mekaddon-sodium_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 17,
+      "durability": 4
+    },
+    "plates": {
+      "toughness": 5,
+      "modifier": 0.1,
+      "durability": 2
+    },
+    "trim": {
+      "extraDurability": 1.5
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "unstable",
+      "alkalinity",
+      "ia_metals"
+    ],
+    "HANDLE": [
+      "unstable",
+      "alkalinity",
+      "ia_metals"
+    ],
+    "EXTRA": [
+      "unstable",
+      "alkalinity",
+      "ia_metals"
+    ],
+    "BOW": [
+      "unstable",
+      "alkalinity",
+      "ia_metals"
+    ],
+    "CORE": [
+      "unstable_armor",
+      "smooth_armor",
+      "ia_metals_armor"
+    ],
+    "PLATES": [
+      "unstable_armor",
+      "smooth_armor",
+      "ia_metals_armor"
+    ],
+    "TRIM": [
+      "unstable_armor",
+      "smooth_armor",
+      "ia_metals_armor"
+    ]
+  }
+}

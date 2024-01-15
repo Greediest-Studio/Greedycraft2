@@ -1,0 +1,40 @@
+{
+	title: "§b精灵之水晶",
+	x: 3.5d,
+	y: -2.5d,
+	description: "合成自然水晶",
+	text: [
+		""
+	],
+	dependencies: [
+		"510e562b"
+	],
+	tasks: [{
+		uid: "64873dad",
+		type: "item",
+		items: [{
+			item: "botania:pylon 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "c03bdc9f",
+		type: "item",
+		item: "botania:pylon 1 1"
+	},
+	{
+		uid: "4f6cf2e5",
+		type: "item",
+		item: "botania:pylon",
+		count: 2
+	},
+	{
+		uid: "c9fd834b",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "2f235bb5",
+		type: "xp",
+		xp: 600
+	}]
+}

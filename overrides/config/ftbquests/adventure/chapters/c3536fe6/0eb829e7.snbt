@@ -1,0 +1,31 @@
+{
+	title: "§bReverse",
+	x: -0.5d,
+	y: 1.0d,
+	description: "合成诅咒：绝望",
+	text: [
+		""
+	],
+	dependencies: [
+		"b74b35dc"
+	],
+	tasks: [{
+		uid: "7782908e",
+		type: "item",
+		items: [{
+			item: "journey:scaleorb"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3d6ac607",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "dfbbf0f2",
+		type: "xp",
+		xp: 3000
+	}]
+}

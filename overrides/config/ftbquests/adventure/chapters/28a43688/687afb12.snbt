@@ -1,0 +1,36 @@
+{
+	title: "§b外星合成？",
+	x: -14.5d,
+	y: -1.0d,
+	description: "合成末影工作台和末影发电机",
+	text: [
+		""
+	],
+	dependencies: [
+		"82e28994"
+	],
+	tasks: [{
+		uid: "1b612d62",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:ender_crafter"
+		}]
+	},
+	{
+		uid: "e68b81e5",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:ender_alternator"
+		}]
+	}],
+	rewards: [{
+		uid: "f1800685",
+		type: "xp",
+		xp: 4000
+	},
+	{
+		uid: "ef260c75",
+		type: "random",
+		table: 1
+	}]
+}

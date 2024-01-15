@@ -1,0 +1,44 @@
+{
+	title: "§b注魔失败？不如增加一下周期增益",
+	x: -2.5d,
+	y: 4.0d,
+	description: "制作白色蜡烛",
+	dependencies: [
+		"c11fbfe1"
+	],
+	tasks: [{
+		uid: "ed85dc4b",
+		type: "item",
+		items: [{
+			item: "thaumcraft:candle_white"
+		}]
+	}],
+	rewards: [{
+		uid: "d39ee25e",
+		type: "item",
+		item: "minecraft:dye 1 12",
+		count: 16
+	},
+	{
+		uid: "769c1267",
+		type: "item",
+		item: "minecraft:dye 1 14",
+		count: 16
+	},
+	{
+		uid: "53999997",
+		type: "item",
+		item: "minecraft:dye 1 10",
+		count: 16
+	},
+	{
+		uid: "6cd53a0f",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "896d9b9a",
+		type: "loot",
+		table: 0
+	}]
+}

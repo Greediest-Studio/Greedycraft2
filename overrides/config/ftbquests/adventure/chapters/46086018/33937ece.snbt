@@ -1,0 +1,42 @@
+{
+	title: "§b我乃极光",
+	x: 3.5d,
+	y: -22.0d,
+	description: "制作极光钢锭，极光幽境的终极合金",
+	text: [
+		""
+	],
+	dependencies: [
+		"d39ab3f7",
+		"f594be35",
+		"fddaae38"
+	],
+	tasks: [{
+		uid: "b89df92d",
+		type: "item",
+		items: [{
+			item: "theaurorian:auroriansteel"
+		}]
+	}],
+	rewards: [{
+		uid: "5ecc896d",
+		type: "item",
+		item: "theaurorian:auroriansteel",
+		count: 8
+	},
+	{
+		uid: "e5d20ee5",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "0dc5fba0",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "ec648243",
+		type: "xp",
+		xp: 1800
+	}]
+}

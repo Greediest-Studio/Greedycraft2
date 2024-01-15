@@ -1,0 +1,32 @@
+{
+	title: "§b科技与魔法的首次结合",
+	x: 0.0d,
+	y: 21.0d,
+	description: "合成魔力反应堆控制器",
+	text: [
+		"可以高速还原魔力物品并产出更多的魔力！"
+	],
+	tasks: [{
+		uid: "9cbc3862",
+		type: "item",
+		items: [{
+			item: "gct_mac:mana_reactor"
+		}]
+	}],
+	rewards: [{
+		uid: "f57ca023",
+		type: "item",
+		item: "additions:botaniaddon-holium_ingot",
+		count: 16
+	},
+	{
+		uid: "35473973",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "038fb135",
+		type: "xp",
+		xp: 2500
+	}]
+}

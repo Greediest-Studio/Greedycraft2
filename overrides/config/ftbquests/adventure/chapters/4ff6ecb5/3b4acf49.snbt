@@ -1,0 +1,31 @@
+{
+	title: "§b真的确定好用吗？",
+	x: -0.5d,
+	y: -8.0d,
+	description: "制作神秘太阳能板",
+	dependencies: [
+		"410072eb"
+	],
+	tasks: [{
+		uid: "022afc0e",
+		type: "item",
+		items: [{
+			item: "solarflux:solar_panel_thaumium"
+		}]
+	}],
+	rewards: [{
+		uid: "ad5aa2a5",
+		type: "item",
+		item: "solarflux:solar_panel_thaumium"
+	},
+	{
+		uid: "b7270e77",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "116b2639",
+		type: "loot",
+		table: 1
+	}]
+}

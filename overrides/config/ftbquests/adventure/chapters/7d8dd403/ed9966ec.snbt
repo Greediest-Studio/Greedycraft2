@@ -1,0 +1,29 @@
+{
+	title: "§b地牢守卫者I",
+	x: -15.0d,
+	y: 11.5d,
+	description: "使用巫师之书在秘界（奎密克斯祭坛）上召唤并击杀奎密克斯",
+	text: [
+		""
+	],
+	dependencies: [
+		"b3c1d12b"
+	],
+	tasks: [{
+		uid: "e3d7e171",
+		type: "item",
+		items: [{
+			item: "divinerpg:dramix_statue"
+		}]
+	}],
+	rewards: [{
+		uid: "0bf22556",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "fb5a0a7c",
+		type: "random",
+		table: 3
+	}]
+}

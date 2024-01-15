@@ -1,0 +1,37 @@
+{
+	title: "§b倍矿狂魔",
+	x: -17.5d,
+	y: -8.0d,
+	description: "制作无线气体终端",
+	text: [
+		""
+	],
+	dependencies: [
+		"b5314b30"
+	],
+	tasks: [{
+		uid: "74328403",
+		type: "item",
+		items: [{
+			id: "aeadditions:terminal.gas.wireless",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "710eec18",
+		type: "item",
+		item: "appliedenergistics2:material 1 42"
+	},
+	{
+		uid: "22859fa3",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "35718458",
+		type: "random",
+		table: 1
+	}]
+}

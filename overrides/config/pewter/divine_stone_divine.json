@@ -1,0 +1,139 @@
+{
+  "name": "holy_stone",
+  "tool": {
+    "bow": {
+      "speed": 2.6,
+      "range": 1.0,
+      "bonusDamage": 6
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 8,
+      "speed": 4.5,
+      "durability": 550,
+      "harvestLevel": 3
+    },
+    "handle": {
+      "modifier": 1.0,
+      "durability": 470
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 1.1
+    },
+    "extra": {
+      "durability": 440
+    }
+  },
+  "color": "#faf7c6",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 820,
+  "looks": {
+    "shininess": 0.2,
+    "brightness": 0.1,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Divine Stone",
+    "zh_cn": "神圣石"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "divinerpg:divine_stone"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 89,
+      "defense": 18
+    },
+    "plates": {
+      "modifier": 1.2,
+      "durability": 30,
+      "toughness": 1.0
+    },
+    "trim": {
+      "extraDurability": 20
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "holy",
+      "luxurious"
+    ],
+    "HEAD": [
+      "holy",
+      "luxurious"
+    ],
+    "HANDLE": [
+      "holy",
+      "luxurious"
+    ],
+    "BOW": [
+      "holy",
+      "luxurious"
+    ],
+    "PROJECTILE": [
+      "holy",
+      "luxurious"
+    ],
+    "CORE": [
+      "blessed_armor",
+      "diffuse_reflecting_armor"
+    ],
+    "PLATES": [
+      "blessed_armor",
+      "diffuse_reflecting_armor"
+    ],
+    "TRIM": [
+      "blessed_armor",
+      "diffuse_reflecting_armor"
+    ]
+  }
+}

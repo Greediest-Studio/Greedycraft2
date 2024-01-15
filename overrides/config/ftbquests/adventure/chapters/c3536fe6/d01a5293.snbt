@@ -1,0 +1,31 @@
+{
+	title: "§b吞噬灵魂",
+	x: -0.5d,
+	y: 4.0d,
+	description: "合成诅咒：噬魂",
+	text: [
+		""
+	],
+	dependencies: [
+		"b74b35dc"
+	],
+	tasks: [{
+		uid: "8d414a0e",
+		type: "item",
+		items: [{
+			item: "journey:thunderbirdorb"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5bd3bc90",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "67446733",
+		type: "xp",
+		xp: 3000
+	}]
+}

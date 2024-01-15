@@ -1,0 +1,29 @@
+{
+	title: "§b充分烘烤",
+	x: 0.0d,
+	y: 4.0d,
+	description: "合成烟熏架",
+	text: [
+		""
+	],
+	dependencies: [
+		"bcde6ec3"
+	],
+	tasks: [{
+		uid: "a6d7317e",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:smoking_rack"
+		}]
+	}],
+	rewards: [{
+		uid: "4c6636a0",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "6e99cb6e",
+		type: "xp",
+		xp: 5000
+	}]
+}

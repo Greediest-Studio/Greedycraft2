@@ -1,0 +1,35 @@
+{
+	title: "§b盐塔核心",
+	x: -0.5d,
+	y: -2.0d,
+	description: "制作热力蒸馏控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"3851128c"
+	],
+	tasks: [{
+		uid: "c520cebd",
+		type: "item",
+		items: [{
+			item: "mekanism:basicblock 1 14"
+		}]
+	}],
+	rewards: [{
+		uid: "06ec578c",
+		type: "item",
+		item: "mekanism:basicblock2",
+		count: 32
+	},
+	{
+		uid: "e0f7115f",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "cab21e11",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "§b开始套娃了？",
+	x: 3.5d,
+	y: -2.0d,
+	description: "制作虚空金属源质治练厂",
+	dependencies: [
+		"32da997a",
+		"d1d09aad"
+	],
+	tasks: [{
+		uid: "77f459a0",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_void"
+		}]
+	}],
+	rewards: [{
+		uid: "23553333",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "47a4b2de",
+		type: "loot",
+		table: 1
+	}]
+}

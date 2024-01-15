@@ -1,0 +1,35 @@
+{
+	title: "§b来自鲜血的意志",
+	x: -13.5d,
+	y: 1.5d,
+	description: "合成原始投网",
+	text: [
+		""
+	],
+	dependencies: [
+		"b3ba1cde"
+	],
+	tasks: [{
+		uid: "8ea75fc4",
+		type: "item",
+		items: [{
+			item: "bloodmagic:soul_snare"
+		}]
+	}],
+	rewards: [{
+		uid: "b661f1ad",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "57f56512",
+		type: "item",
+		item: "bloodmagic:soul_snare",
+		count: 16
+	},
+	{
+		uid: "4c94a0af",
+		type: "xp",
+		xp: 500
+	}]
+}

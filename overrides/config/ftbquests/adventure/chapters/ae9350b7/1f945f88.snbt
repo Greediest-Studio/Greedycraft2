@@ -1,0 +1,38 @@
+{
+	title: "§b古老者的愤怒",
+	x: 12.0d,
+	y: 15.0d,
+	description: "击杀20个小型修格斯",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "1d561424",
+		type: "kill",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "abyssalcraft:lessershoggoth"
+				}
+			}
+		},
+		entity: "abyssalcraft:lessershoggoth",
+		value: 20L
+	}],
+	rewards: [{
+		uid: "2060e10b",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "4bb7aa81",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "b2b160a3",
+		type: "xp",
+		xp: 900
+	}]
+}

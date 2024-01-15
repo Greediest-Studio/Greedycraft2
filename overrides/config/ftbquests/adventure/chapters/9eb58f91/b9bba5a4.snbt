@@ -1,0 +1,35 @@
+{
+	title: "§b黝黑框架",
+	x: 11.5d,
+	y: 0.0d,
+	shape: "gear",
+	description: "获得强化机器框架",
+	text: [
+		""
+	],
+	dependencies: [
+		"2c574f3f",
+		"8f5896e2",
+		"7b441dcf",
+		"736f80c3"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "047339b3",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 54"
+		}]
+	}],
+	rewards: [{
+		uid: "bd4881c5",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "skilled_engineer"
+	},
+	{
+		uid: "b6984e68",
+		type: "xp",
+		xp: 3000
+	}]
+}

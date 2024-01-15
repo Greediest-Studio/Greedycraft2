@@ -1,0 +1,34 @@
+{
+	title: "§b神器之镜",
+	x: 9.0d,
+	y: 9.0d,
+	description: "制作虫洞镜",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "92d4ade4",
+		type: "item",
+		items: [{
+			item: "bountifulbaubles:wormholemirror"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "47132dd5",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "a358645b",
+		type: "xp",
+		xp: 2500
+	},
+	{
+		uid: "05eddd4f",
+		type: "item",
+		item: "waystones:waystone",
+		count: 10
+	}]
+}

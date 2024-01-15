@@ -1,0 +1,32 @@
+{
+	title: "§b神秘的金属",
+	x: 1.5d,
+	y: -2.0d,
+	description: "制作神秘锭",
+	dependencies: [
+		"dcf9393e"
+	],
+	tasks: [{
+		uid: "be7e02aa",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "d52c56b1",
+		type: "item",
+		item: "thaumcraft:ingot",
+		count: 3
+	},
+	{
+		uid: "85ed7d7a",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "011e5b7b",
+		type: "loot",
+		table: 0
+	}]
+}

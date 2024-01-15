@@ -1,0 +1,27 @@
+{
+	title: "§b清洁能源I",
+	x: -25.0d,
+	y: -5.0d,
+	description: "制作指定的太阳能电池板",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "f0db00db",
+		type: "item",
+		items: [{
+			item: "solarflux:solar_panel_1"
+		}]
+	}],
+	rewards: [{
+		uid: "10015372",
+		type: "item",
+		team_reward: true,
+		item: "solarflux:solar_panel_1"
+	},
+	{
+		uid: "e7fb1c51",
+		type: "xp",
+		xp: 100
+	}]
+}

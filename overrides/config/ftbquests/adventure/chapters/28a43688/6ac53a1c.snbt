@@ -1,0 +1,73 @@
+{
+	title: "§b风暴残余",
+	x: -4.5d,
+	y: -6.75d,
+	description: "击败凋灵风暴，获得风暴碎片",
+	text: [
+		"使用恐怖的凋灵风暴玩偶召唤凋灵风暴",
+		"一定要带上一把附有“命令删除”附魔的原版武器！",
+		"凋灵风暴成长需要一段时间，请耐心等待",
+		"记得带上你的磁铁，避免掉落物被凋灵风暴的死亡爆炸炸到"
+	],
+	dependencies: [
+		"0b8258e7"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "57b4340f",
+		type: "item",
+		items: [{
+			item: "gct_ores:stormy_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "e950eb7b",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "storm_breaker"
+	},
+	{
+		uid: "323eb329",
+		type: "item",
+		item: "gct_ores:stormy_shard",
+		count: 10
+	},
+	{
+		uid: "eff92a89",
+		type: "item",
+		item: "gct_ores:relifed_core",
+		count: 10
+	},
+	{
+		uid: "c9a59b3c",
+		type: "item",
+		item: {
+			id: "minecraft:command_block",
+			tag: {
+				display: {
+					Name: "再来一次？"
+				}
+			}
+		}
+	},
+	{
+		uid: "578cbc2a",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "e64de2e5",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "80466e4d",
+		type: "xp",
+		xp: 50000
+	},
+	{
+		uid: "de49e5fe",
+		type: "item",
+		item: "additions:greedycraft-storm_kicker"
+	}]
+}

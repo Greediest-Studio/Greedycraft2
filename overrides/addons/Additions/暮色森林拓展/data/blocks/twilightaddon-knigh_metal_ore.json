@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "§b骑士金属矿石",
+    "tooltip": "§b坚不可摧！",
+    "ore_dict": "oreKnightmetal",
+    "type": "additions:block_simple"
+  },
+  "name": "§b骑士金属矿石",
+  "material": "minecraft:stone",
+  "hardness": 3.0,
+  "resistance": 3.0,
+  "harvest_level": 3,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

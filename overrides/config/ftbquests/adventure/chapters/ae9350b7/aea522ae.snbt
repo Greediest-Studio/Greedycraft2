@@ -1,0 +1,39 @@
+{
+	title: "§b神力豆腐",
+	x: 10.5d,
+	y: 4.5d,
+	description: "击杀豆腐战神，获得豆腐能核心",
+	text: [
+		""
+	],
+	dependencies: [
+		"f09ad08f"
+	],
+	tasks: [{
+		uid: "314fecaa",
+		type: "item",
+		items: [{
+			id: "tofucraft:tofuforce_core",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3185ee2f",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "33501e69",
+		type: "item",
+		item: "tofucraft:tofuforce_core"
+	},
+	{
+		uid: "1793884e",
+		type: "random",
+		table: 2
+	}]
+}

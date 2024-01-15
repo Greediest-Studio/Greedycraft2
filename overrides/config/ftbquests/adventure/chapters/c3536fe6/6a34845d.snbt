@@ -1,0 +1,32 @@
+{
+	title: "§b你今天测核酸了吗？",
+	x: -17.5d,
+	y: -6.5d,
+	description: "获得皮革空气过滤器，搭配滤芯可以抵御朦胧世界低地毒雾的侵袭",
+	text: [
+		""
+	],
+	dependencies: [
+		"4cfe187d"
+	],
+	tasks: [{
+		uid: "ec1da0f9",
+		type: "item",
+		items: [{
+			id: "mist:respirator_single",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f13dcf65",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "1b88fe68",
+		type: "xp",
+		xp: 3000
+	}]
+}

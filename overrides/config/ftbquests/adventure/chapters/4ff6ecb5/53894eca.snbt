@@ -1,0 +1,27 @@
+{
+	title: "§b还是需要钥匙？",
+	x: 11.5d,
+	y: 4.5d,
+	description: "获得禁忌知识",
+	dependencies: [
+		"bd1954cd"
+	],
+	tasks: [{
+		uid: "72c7bd90",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:eldritch_lock_key 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "25d4aadd",
+		type: "xp",
+		xp: 3888
+	},
+	{
+		uid: "9f25afb4",
+		type: "random",
+		table: 2
+	}]
+}

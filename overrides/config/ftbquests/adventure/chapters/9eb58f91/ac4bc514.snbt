@@ -1,0 +1,59 @@
+{
+	title: "§b一横二送三直立，全落底",
+	x: -5.5d,
+	y: -3.0d,
+	description: "制作下界石英粉，赛特斯石英粉与福鲁伊克斯水晶粉",
+	text: [
+		""
+	],
+	dependencies: [
+		"1b2f4905"
+	],
+	tasks: [{
+		uid: "7f1bd153",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 8"
+		}]
+	},
+	{
+		uid: "adb4f963",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 2"
+		}]
+	},
+	{
+		uid: "30b67034",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:gem_dust 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "37b5c291",
+		type: "item",
+		item: "appliedenergistics2:part 1 56",
+		count: 32
+	},
+	{
+		uid: "77cda050",
+		type: "item",
+		item: "appliedenergistics2:grindstone"
+	},
+	{
+		uid: "58622d92",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "a05528f8",
+		type: "xp",
+		xp: 750
+	},
+	{
+		uid: "5d14cbf9",
+		type: "item",
+		item: "appliedenergistics2:quartz_growth_accelerator"
+	}]
+}

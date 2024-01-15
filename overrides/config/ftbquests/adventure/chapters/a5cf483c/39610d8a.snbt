@@ -1,0 +1,40 @@
+{
+	title: "§b万象聚于一汪泉",
+	x: -2.5d,
+	y: 5.0d,
+	description: "制作万象泉与其喷口",
+	text: [
+		""
+	],
+	dependencies: [
+		"470b67b1"
+	],
+	tasks: [{
+		uid: "41aed855",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockbore"
+		}]
+	},
+	{
+		uid: "6135e7c0",
+		type: "item",
+		title: "任一喷口",
+		items: [{
+			item: "astralsorcery:blockborehead"
+		},
+		{
+			item: "astralsorcery:blockborehead 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "75ed7003",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "6e8d2f81",
+		type: "xp",
+		xp: 7777
+	}]
+}

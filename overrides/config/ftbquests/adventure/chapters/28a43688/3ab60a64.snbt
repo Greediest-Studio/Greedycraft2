@@ -1,0 +1,51 @@
+{
+	title: "§c【可重复】 黑岩肃清",
+	x: -8.0d,
+	y: -10.5d,
+	description: "再次攻克黑岩实验塔",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"b83f74dc"
+	],
+	tasks: [{
+		uid: "fdcfdd9a",
+		type: "kill",
+		entity: "journey:guardianofdestruction",
+		value: 8L
+	},
+	{
+		uid: "d73ba070",
+		type: "kill",
+		entity: "journey:sentryheart",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "17630b48",
+		type: "item",
+		item: {
+			id: "jaopca:block_blockdullium",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "d99cfd97",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "856ab1e1",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "2c2a6e3a",
+		type: "xp",
+		xp: 4000
+	}]
+}

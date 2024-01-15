@@ -1,0 +1,26 @@
+{
+	title: "§b禁忌之物",
+	x: 4.5d,
+	y: 13.5d,
+	description: "获得禁忌秘典",
+	text: [
+		"“这个TC就是逊啦！”"
+	],
+	tasks: [{
+		uid: "5c91d61e",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-forbidden_bible"
+		}]
+	}],
+	rewards: [{
+		uid: "a2409db6",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "547e60d0",
+		type: "xp",
+		xp: 2200
+	}]
+}

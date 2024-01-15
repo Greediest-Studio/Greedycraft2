@@ -1,0 +1,94 @@
+{
+  "name": "sorrowium",
+  "tool": {
+    "head": {
+      "attackDamage": 11.0,
+      "speed": 8.7,
+      "durability": 1000,
+      "harvestLevel": 5
+    },
+    "handle": {
+      "modifier": 1.5,
+      "durability": 700
+    },
+    "extra": {
+      "durability": 700
+    },
+    "bow": {
+      "speed": 4.4,
+      "range": 0.6,
+      "bonusDamage": 8.0
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 220.0,
+      "defense": 28
+    },
+    "plates": {
+      "modifier": 4.1,
+      "durability": 100.0,
+      "toughness": 3.5
+    },
+    "trim": {
+      "extraDurability": 85.0
+    }
+  },
+  "color": "#e16422",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Sorrowium",
+    "zh_cn": "殇魂"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:greedycraft-sorrowium_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["defiled","sacrificial","suicide"],
+    "HANDLE": ["defiled","sacrificial","suicide"],
+    "EXTRA": ["defiled","sacrificial","suicide"],
+    "BOW": ["defiled","sacrificial","suicide"],
+    "CORE": ["defiled","tconevo.hearth_embrace_armor","soul_calling_armor"],
+    "PLATES": ["defiled","tconevo.hearth_embrace_armor","soul_calling_armor"],
+    "TRIM": ["defiled","tconevo.hearth_embrace_armor","soul_calling_armor"]
+  }
+}

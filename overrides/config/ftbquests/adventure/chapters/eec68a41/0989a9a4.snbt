@@ -1,0 +1,35 @@
+{
+	title: "§b紫色凝聚板",
+	x: 6.5d,
+	y: -3.0d,
+	description: "制作盖亚凝聚板，更强大的凝聚装置",
+	text: [
+		""
+	],
+	dependencies: [
+		"f5b9401b"
+	],
+	tasks: [{
+		uid: "469703b0",
+		type: "item",
+		items: [{
+			item: "botanicadds:gaia_plate"
+		}]
+	}],
+	rewards: [{
+		uid: "2cc3a22d",
+		type: "item",
+		item: "botanicadds:elven_lapis",
+		count: 16
+	},
+	{
+		uid: "214420ba",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "1341ee4f",
+		type: "xp",
+		xp: 800
+	}]
+}

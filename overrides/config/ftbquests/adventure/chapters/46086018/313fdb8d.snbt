@@ -1,0 +1,71 @@
+{
+	title: "§b无上荣耀",
+	icon: {
+		id: "ageofminecraft:witherboss",
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
+	x: 6.0d,
+	y: -3.0d,
+	shape: "gear",
+	description: "召唤并击杀凋灵，获得下界之星！",
+	text: [
+		"提示：建议试试硬化玻璃，真的很有效"
+	],
+	dependencies: [
+		"3aaeba7e"
+	],
+	tasks: [{
+		uid: "27c00b22",
+		type: "item",
+		items: [{
+			item: "minecraft:nether_star"
+		}]
+	},
+	{
+		uid: "9948b3ed",
+		type: "kill",
+		icon: "ageofminecraft:witherboss",
+		entity: "minecraft:wither",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "dceb850a",
+		type: "item",
+		item: "minecraft:nether_star",
+		count: 4
+	},
+	{
+		uid: "4aeb91e1",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "f306dd2b",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "45d34ea2",
+		type: "item",
+		item: "additions:tcsponsors-sponsors_chest"
+	},
+	{
+		uid: "0dc61709",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "ed6d2fca",
+		type: "item",
+		item: "mysticalagriculture:wither_skeleton_seeds",
+		count: 4
+	},
+	{
+		uid: "e91e12ad",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "wither_slayer"
+	}]
+}

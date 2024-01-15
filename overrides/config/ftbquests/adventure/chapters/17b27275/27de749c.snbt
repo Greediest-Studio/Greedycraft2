@@ -1,0 +1,51 @@
+{
+	title: "§b交错次元独有的",
+	x: 4.0d,
+	y: 3.5d,
+	description: "在交错次元挖掘本维度的专属矿石",
+	text: [
+		""
+	],
+	dependencies: [
+		"bae35f19",
+		"c6ceb454"
+	],
+	tasks: [{
+		uid: "0d89e631",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:octine_ore"
+		}]
+	},
+	{
+		uid: "59c52f8c",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:syrmorite_ore"
+		}]
+	},
+	{
+		uid: "b1bec075",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 19"
+		}]
+	},
+	{
+		uid: "1b2f249b",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 39"
+		}]
+	}],
+	rewards: [{
+		uid: "96a012a7",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "e4795d14",
+		type: "xp",
+		xp: 7000
+	}]
+}

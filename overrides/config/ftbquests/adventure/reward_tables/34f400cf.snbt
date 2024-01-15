@@ -1,0 +1,21 @@
+{
+	title: "随机奖励 §e[无双]",
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: "additions:greedycraft-creative_shard",
+		count: 4
+	}],
+	loot_crate: {
+		string_id: "loot_level_6",
+		item_name: "奖励箱 §e[无双]",
+		color: 16771899,
+		glow: true,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

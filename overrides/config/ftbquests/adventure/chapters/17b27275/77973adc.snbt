@@ -1,0 +1,36 @@
+{
+	title: "§b沼泽入口",
+	x: 4.0d,
+	y: -3.5d,
+	description: "合成沼泽护身符",
+	text: [
+		"护身符碎片可以击杀沼泽的黑暗德鲁伊获得，也可以合成获得，",
+		"使用护身符右键原版树苗生成交错次元传送门。"
+	],
+	dependencies: [
+		"3ffc2f5f"
+	],
+	tasks: [{
+		uid: "36398030",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:swamp_talisman"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d3021e1a",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "56e98c18",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "fc3ab8fe",
+		type: "xp",
+		xp: 5000
+	}]
+}

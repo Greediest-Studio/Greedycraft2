@@ -1,0 +1,31 @@
+{
+	title: "§b绝对的永恒！",
+	x: 18.5d,
+	y: 1.0d,
+	description: "制作亚空之矛，获得一丝永恒的力量",
+	text: [
+		""
+	],
+	dependencies: [
+		"76e34a47"
+	],
+	tasks: [{
+		uid: "9be708db",
+		type: "item",
+		items: [{
+			item: "extrabotany:spearsubspace"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6fafea1f",
+		type: "xp",
+		xp: 9000
+	},
+	{
+		uid: "ba3d71eb",
+		type: "random",
+		table: 3
+	}]
+}

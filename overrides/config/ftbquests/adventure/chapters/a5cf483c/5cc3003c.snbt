@@ -1,0 +1,35 @@
+{
+	title: "§b海蓝宝石",
+	x: -4.5d,
+	y: -7.0d,
+	description: "获得海蓝宝石，它可以在海岸或河边中找到，用铲子挖",
+	text: [
+		""
+	],
+	dependencies: [
+		"9ba0e7cf"
+	],
+	tasks: [{
+		uid: "7644b80f",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcraftingcomponent"
+		}]
+	}],
+	rewards: [{
+		uid: "0969ae39",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "39fc21c3",
+		type: "xp",
+		xp: 160
+	},
+	{
+		uid: "4ac305ff",
+		type: "item",
+		item: "minecraft:glass",
+		count: 320
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "§b折磨的开始",
+	x: -6.0d,
+	y: 5.5d,
+	description: "合成基础工作台",
+	text: [
+		""
+	],
+	dependencies: [
+		"e83057f5"
+	],
+	tasks: [{
+		uid: "492474ad",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_basic"
+		}]
+	}],
+	rewards: [{
+		uid: "40c3e7bb",
+		type: "item",
+		item: "extendedcrafting:material",
+		count: 16
+	},
+	{
+		uid: "8ea46b25",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "f9d3c0bf",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	title: "§b烫烫烫",
+	x: -15.0d,
+	y: -1.5d,
+	description: "获得电烙铁",
+	text: [
+		""
+	],
+	dependencies: [
+		"02709d76"
+	],
+	tasks: [{
+		uid: "c49bfa3d",
+		type: "item",
+		items: [{
+			item: "forestry:soldering_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "994bdb16",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 16
+	},
+	{
+		uid: "71ab54b8",
+		type: "item",
+		item: "thermalfoundation:material 1 163",
+		count: 8
+	},
+	{
+		uid: "f0e92d99",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "472bc62c",
+		type: "loot",
+		table: 1
+	}]
+}

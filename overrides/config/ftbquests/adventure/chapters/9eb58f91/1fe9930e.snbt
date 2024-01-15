@@ -1,0 +1,30 @@
+{
+	title: "§b更好的合金",
+	x: 0.5d,
+	y: -4.0d,
+	description: "制作一个末影钢锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"1f47e43b"
+	],
+	tasks: [{
+		uid: "b6d22ac9",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "a16c63a2",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 8",
+		count: 16
+	},
+	{
+		uid: "0b32b1ba",
+		type: "xp",
+		xp: 3000
+	}]
+}

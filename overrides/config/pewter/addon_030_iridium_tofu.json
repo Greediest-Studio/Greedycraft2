@@ -1,0 +1,83 @@
+{
+  "name": "iridium_tofu",
+  "tool": {
+    "head": {
+      "attackDamage": 14.5,
+      "speed": 12.2,
+      "durability": 2000,
+      "harvestLevel": 4
+    },
+    "bow": {
+      "speed": 0.9,
+      "range": 1.4,
+      "bonusDamage": 10.0
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 160.0,
+      "defense": 25.5
+    },
+    "plates": {
+      "modifier": 1.5,
+      "durability": 40.0,
+      "toughness": 3.0
+    },
+    "trim": {
+      "extraDurability": 32.0
+    }
+  },
+  "color": "#eff2ff",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Iridium Tofu",
+    "zh_cn": "铱豆腐"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:greedycraft-iridium_tofu"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["tasty","soul_eater_refined"],
+    "BOW": ["tasty","soul_eater_refined"],
+    "CORE": ["kungfu_armor","tasty_armor","purifying_armor"],
+    "PLATES": ["kungfu_armor","tasty_armor","purifying_armor"],
+    "TRIM": ["kungfu_armor","tasty_armor","purifying_armor"]
+  }
+}

@@ -1,0 +1,31 @@
+{
+	title: "§b进击深渊",
+	x: 5.5d,
+	y: 2.5d,
+	description: "合成门钥匙，用于打开荒原传送门",
+	text: [
+		""
+	],
+	dependencies: [
+		"1480d879"
+	],
+	tasks: [{
+		uid: "0bdde6bf",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:gatewaykey"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "30dcabe4",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "b32a7d2f",
+		type: "xp",
+		xp: 1200
+	}]
+}

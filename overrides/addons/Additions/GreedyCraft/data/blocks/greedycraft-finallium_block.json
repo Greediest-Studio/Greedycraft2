@@ -1,0 +1,16 @@
+{
+  "item_block": {
+    "name": "§f终§7焉§8块",
+    "ore_dict": "blockFinallium",
+    "type": "additions:block_simple"
+  },
+  "name": "§f终§7焉§8块",
+  "material": "minecraft:metal",
+  "hardness": 40.0,
+  "resistance": 10000.0,
+  "harvest_level": 13,
+  "harvest_tool": "pickaxe",
+  "light_level": 15,
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

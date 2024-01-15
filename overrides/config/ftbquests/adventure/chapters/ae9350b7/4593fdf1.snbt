@@ -1,0 +1,194 @@
+{
+	title: "§b蚌埠住了",
+	x: 6.0d,
+	y: 13.5d,
+	description: "制作药水停顿指环",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "8ca444e9",
+		type: "item",
+		items: [{
+			id: "redstonerepository:ring_effect",
+			tag: {
+				Energy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "40acabd3",
+		type: "item",
+		item: {
+			id: "minecraft:splash_potion",
+			tag: {
+				CustomPotionEffects: [{
+					Duration: 2400,
+					Id: 1,
+					Amplifier: 49
+				},
+				{
+					Duration: 2400,
+					Id: 3,
+					Amplifier: 49
+				},
+				{
+					Duration: 2400,
+					Id: 5,
+					Amplifier: 49
+				},
+				{
+					Id: 6,
+					Amplifier: 28
+				},
+				{
+					Duration: 2400,
+					Id: 8,
+					Amplifier: 49
+				},
+				{
+					Duration: 2400,
+					Id: 10,
+					Amplifier: 31
+				},
+				{
+					Duration: 2400,
+					Id: 11,
+					Amplifier: 4
+				},
+				{
+					Duration: 2400,
+					Id: 12
+				},
+				{
+					Duration: 2400,
+					Id: 13
+				},
+				{
+					Duration: 2400,
+					Id: 14
+				},
+				{
+					Duration: 2400,
+					Id: 16
+				},
+				{
+					Duration: 2400,
+					Id: 21,
+					Amplifier: 49
+				},
+				{
+					Duration: 2400,
+					Id: 22,
+					Amplifier: 49
+				},
+				{
+					Id: 23,
+					Amplifier: 119
+				},
+				{
+					Duration: 2400,
+					Id: 26,
+					Amplifier: 49
+				},
+				{
+					Duration: 2400,
+					Id: 28
+				}],
+				CustomPotionColor: 16648959,
+				display: {
+					Lore: [
+						"§d蕴含了世间强大力量的药剂"
+					],
+					Name: "§5§l巨龙药剂"
+				}
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "2078fafa",
+		type: "item",
+		item: {
+			id: "minecraft:splash_potion",
+			tag: {
+				CustomPotionEffects: [{
+					Duration: 2400,
+					Id: 2,
+					Amplifier: 49
+				},
+				{
+					Duration: 2400,
+					Id: 4,
+					Amplifier: 49
+				},
+				{
+					Id: 7,
+					Amplifier: 28
+				},
+				{
+					Duration: 2400,
+					Id: 9
+				},
+				{
+					Duration: 2400,
+					Id: 15
+				},
+				{
+					Duration: 2400,
+					Id: 17,
+					Amplifier: 49
+				},
+				{
+					Duration: 2400,
+					Id: 18,
+					Amplifier: 49
+				},
+				{
+					Duration: 2400,
+					Id: 19,
+					Amplifier: 4
+				},
+				{
+					Duration: 2400,
+					Id: 20,
+					Amplifier: 2
+				},
+				{
+					Duration: 2400,
+					Id: 24
+				},
+				{
+					Duration: 2400,
+					Id: 25,
+					Amplifier: 49
+				},
+				{
+					Duration: 2400,
+					Id: 27,
+					Amplifier: 49
+				}],
+				CustomPotionColor: 0,
+				display: {
+					Lore: [
+						"蕴含了世间枯萎力量的药剂"
+					],
+					Name: "§8§l枯萎药剂"
+				}
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "0afdd7ae",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "3c494dfa",
+		type: "xp",
+		xp: 10000
+	}]
+}

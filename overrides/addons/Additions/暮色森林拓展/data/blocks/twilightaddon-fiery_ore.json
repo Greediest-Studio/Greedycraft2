@@ -1,0 +1,16 @@
+{
+  "item_block": {
+    "name": "§6炽铁矿石",
+    "tooltip": "§6天然的，吸收了炽热的精华……",
+    "ore_dict": "oreFierymetal",
+    "type": "additions:block_simple"
+  },
+  "name": "§6炽铁矿石",
+  "material": "minecraft:stone",
+  "hardness": 3.0,
+  "resistance": 3.0,
+  "harvest_level": 3,
+  "harvest_tool": "pickaxe",
+  "light_level": 8,
+  "type": "additions:simple"
+}

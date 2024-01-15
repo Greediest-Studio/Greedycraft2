@@ -1,0 +1,47 @@
+{
+	title: "§b大树",
+	x: 5.5d,
+	y: -3.0d,
+	description: "在一棵巨大的杂草树附近获得白梨种子",
+	text: [
+		"巨型杂草树上会生成带有白梨种子的藤蔓"
+	],
+	dependencies: [
+		"81216f69"
+	],
+	tasks: [{
+		uid: "7da9d236",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:middle_fruit_bush_seeds"
+		}]
+	},
+	{
+		uid: "301d932e",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:pyrad_flame"
+		}]
+	}],
+	rewards: [{
+		uid: "007b23a9",
+		type: "item",
+		item: {
+			id: "thebetweenlands:middle_fruit_bush_seeds",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "3344d1cd",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "bc421418",
+		type: "xp",
+		xp: 2000
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "§b裁决之光",
+	x: 6.5d,
+	y: -5.0d,
+	description: "在匠魂冶炼炉中制作神光合金",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "43927449",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-eugardite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "3d8ca74c",
+		type: "item",
+		item: {
+			id: "additions:greedycraft-eugardite_ingot",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 16
+	},
+	{
+		uid: "bf3a249a",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "da0b6109",
+		type: "random",
+		table: 3
+	}]
+}

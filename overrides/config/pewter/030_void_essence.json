@@ -1,0 +1,130 @@
+{
+  "name": "void_essence",
+  "tool": {
+    "head": {
+      "attackDamage": 71.2,
+      "speed": 25,
+      "durability": 1000000,
+      "harvestLevel": 11
+    },
+    "handle": {
+      "modifier": 3.7,
+      "durability": 500000
+    },
+    "extra": {
+        "durability": 500000
+    },
+    "bow": {
+        "speed": 8,
+        "range": 6.5,
+        "bonusDamage": 70
+    }
+  },
+  "color": "#000000",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1960,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Void Essence",
+    "zh_cn": "虚空精华"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:taigaddon-void_essence"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 30000,
+      "defense": 66
+    },
+    "plates": {
+      "modifier": 30,
+      "durability": 10000,
+      "toughness": 5
+    },
+    "trim": {
+      "extraDurability": 12000
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "decay",
+      "tconevo.deadly_precision",
+      "giantslayer"
+    ],
+    "HANDLE": [
+      "decay",
+      "tconevo.deadly_precision",
+      "giantslayer"
+    ],
+    "EXTRA": [
+      "decay",
+      "tconevo.deadly_precision",
+      "giantslayer"
+    ],
+    "BOW": [
+      "decay",
+      "tconevo.deadly_precision",
+      "giantslayer"
+    ],
+    "CORE": [
+      "decay",
+      "void_walk_armor",
+      "void_radiation_armor"
+    ],
+    "PLATES": [
+      "decay",
+      "void_walk_armor",
+      "void_radiation_armor"
+    ],
+    "TRIM": [
+      "decay",
+      "void_walk_armor",
+      "void_radiation_armor"
+    ]
+  }
+}

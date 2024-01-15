@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "炎心铁矿石",
+    "ore_dict": "oreFlamium",
+    "type": "additions:block_simple"
+  },
+  "name": "炎心铁矿石",
+  "material": "minecraft:stone",
+  "hardness": 10.0,
+  "harvest_level": 5,
+  "harvest_tool": "pickaxe",
+  "light_level": 4,
+  "type": "additions:simple"
+}

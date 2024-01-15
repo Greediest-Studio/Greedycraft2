@@ -1,0 +1,37 @@
+{
+	title: "§b诡异又可怕的玩偶",
+	x: -8.5d,
+	y: 3.0d,
+	description: "合成可怕的凋零玩偶",
+	text: [
+		"在末地原点使用可怕的凋零玩偶，进入虚空之地"
+	],
+	dependencies: [
+		"5c3e551a"
+	],
+	tasks: [{
+		uid: "c6794275",
+		type: "item",
+		items: [{
+			item: "gct_ores:creepy_wither_doll"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "67941e00",
+		type: "item",
+		item: "additions:taigaddon-harcadium_ingot",
+		count: 4
+	},
+	{
+		uid: "412ac690",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "24f3c31f",
+		type: "random",
+		table: 2
+	}]
+}

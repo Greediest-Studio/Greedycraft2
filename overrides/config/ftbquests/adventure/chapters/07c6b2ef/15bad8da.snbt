@@ -1,0 +1,29 @@
+{
+	title: "§b只产岩浆？",
+	x: -17.0d,
+	y: -17.0d,
+	description: "制作升级：热量对流循环",
+	text: [
+		"再也不用外出盛岩浆了"
+	],
+	dependencies: [
+		"d9fa327e"
+	],
+	tasks: [{
+		uid: "f6a65523",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 352"
+		}]
+	}],
+	rewards: [{
+		uid: "88752248",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "c6b344ce",
+		type: "random",
+		table: 0
+	}]
+}

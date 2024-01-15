@@ -1,0 +1,175 @@
+{
+	title: "§b且听龙吟",
+	x: -7.5d,
+	y: -3.0d,
+	description: "获得恶龙蜂后",
+	text: [
+		""
+	],
+	dependencies: [
+		"67cb2bf1"
+	],
+	tasks: [{
+		uid: "2d79e7ee",
+		type: "item",
+		items: [{
+			id: "forestry:bee_queen_ge",
+			tag: {
+				IsAnalyzed: 0b,
+				Health: 70,
+				MaxH: 70,
+				Genome: {
+					Chromosomes: [{
+						Slot: 0b,
+						UID0: "magicbees.speciesDraconic",
+						UID1: "magicbees.speciesDraconic"
+					},
+					{
+						Slot: 1b,
+						UID0: "forestry.speedSlowest",
+						UID1: "forestry.speedSlowest"
+					},
+					{
+						Slot: 2b,
+						UID0: "forestry.lifespanLongest",
+						UID1: "forestry.lifespanLongest"
+					},
+					{
+						Slot: 3b,
+						UID0: "forestry.fertilityLow",
+						UID1: "forestry.fertilityLow"
+					},
+					{
+						Slot: 4b,
+						UID0: "forestry.toleranceUp2",
+						UID1: "forestry.toleranceUp2"
+					},
+					{
+						Slot: 5b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 6b,
+						UID0: "forestry.toleranceBoth1",
+						UID1: "forestry.toleranceBoth1"
+					},
+					{
+						Slot: 7b,
+						UID0: "forestry.boolFalse",
+						UID1: "forestry.boolFalse"
+					},
+					{
+						Slot: 8b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 9b,
+						UID0: "forestry.flowersEnd",
+						UID1: "forestry.flowersEnd"
+					},
+					{
+						Slot: 10b,
+						UID0: "forestry.floweringSlowest",
+						UID1: "forestry.floweringSlowest"
+					},
+					{
+						Slot: 11b,
+						UID0: "forestry.territoryAverage",
+						UID1: "forestry.territoryAverage"
+					},
+					{
+						Slot: 12b,
+						UID0: "forestry.effectMisanthrope",
+						UID1: "forestry.effectMisanthrope"
+					}]
+				},
+				Mate: {
+					Chromosomes: [{
+						Slot: 0b,
+						UID0: "magicbees.speciesDraconic",
+						UID1: "magicbees.speciesDraconic"
+					},
+					{
+						Slot: 1b,
+						UID0: "forestry.speedSlowest",
+						UID1: "forestry.speedSlowest"
+					},
+					{
+						Slot: 2b,
+						UID0: "forestry.lifespanLongest",
+						UID1: "forestry.lifespanLongest"
+					},
+					{
+						Slot: 3b,
+						UID0: "forestry.fertilityLow",
+						UID1: "forestry.fertilityLow"
+					},
+					{
+						Slot: 4b,
+						UID0: "forestry.toleranceUp2",
+						UID1: "forestry.toleranceUp2"
+					},
+					{
+						Slot: 5b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 6b,
+						UID0: "forestry.toleranceBoth1",
+						UID1: "forestry.toleranceBoth1"
+					},
+					{
+						Slot: 7b,
+						UID0: "forestry.boolFalse",
+						UID1: "forestry.boolFalse"
+					},
+					{
+						Slot: 8b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 9b,
+						UID0: "forestry.flowersEnd",
+						UID1: "forestry.flowersEnd"
+					},
+					{
+						Slot: 10b,
+						UID0: "forestry.floweringSlowest",
+						UID1: "forestry.floweringSlowest"
+					},
+					{
+						Slot: 11b,
+						UID0: "forestry.territoryAverage",
+						UID1: "forestry.territoryAverage"
+					},
+					{
+						Slot: 12b,
+						UID0: "forestry.effectMisanthrope",
+						UID1: "forestry.effectMisanthrope"
+					}]
+				}
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "6f1cfc26",
+		type: "item",
+		item: "minecraft:dragon_egg",
+		count: 64
+	},
+	{
+		uid: "3ca7a602",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "7399ce7f",
+		type: "random",
+		table: 3
+	}]
+}

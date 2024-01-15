@@ -1,0 +1,94 @@
+{
+  "name": "radium",
+  "tool": {
+    "head": {
+      "attackDamage": 45,
+      "speed": 24.5,
+      "durability": 30,
+      "harvestLevel": 9
+    },
+    "handle": {
+      "modifier": 0.06,
+      "durability": -220
+    },
+    "extra": {
+      "durability": 8
+    },
+    "bow": {
+      "speed": 0.3,
+      "range": 2.1,
+      "bonusDamage": 25
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 3,
+      "defense": 54
+    },
+    "plates": {
+      "modifier": 0.11,
+      "durability": 1,
+      "toughness": 6.5
+    },
+    "trim": {
+      "extraDurability": 0.6
+    }
+  },
+  "color": "#5ff5f5",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Radium",
+    "zh_cn": "镭"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:elements-radium_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["alkalinity", "chemical_instable", "active_source4"],
+    "HANDLE": ["alkalinity", "moretcon.helpful_radiation", "active_source4"],
+    "EXTRA": ["alkalinity", "moretcon.helpful_radiation", "active_source4"],
+    "BOW": ["alkalinity", "moretcon.helpful_radiation", "active_source4"],
+    "CORE": ["bouncy_armor", "helpful_radiation_armor", "oxyless_armor", "active_source4_armor"],
+    "PLATES": ["bouncy_armor", "helpful_radiation_armor", "oxyless_armor", "active_source4_armor"],
+    "TRIM": ["bouncy_armor", "helpful_radiation_armor", "oxyless_armor", "active_source4_armor"]
+  }
+}

@@ -1,0 +1,31 @@
+{
+	title: "§b痛，太痛了！",
+	x: -11.5d,
+	y: -0.5d,
+	description: "合成献祭刀，用于血之祭坛的充能",
+	text: [
+		""
+	],
+	dependencies: [
+		"30e20165"
+	],
+	tasks: [{
+		uid: "e369b157",
+		type: "item",
+		items: [{
+			item: "bloodmagic:dagger_of_sacrifice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7b3b87da",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "a6b34c24",
+		type: "xp",
+		xp: 500
+	}]
+}

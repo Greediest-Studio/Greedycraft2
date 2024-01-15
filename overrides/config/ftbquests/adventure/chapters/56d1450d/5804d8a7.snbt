@@ -1,0 +1,37 @@
+{
+	title: "§b滴答",
+	x: -4.5d,
+	y: -3.0d,
+	description: "获得滴水蜂窝",
+	text: [
+		""
+	],
+	dependencies: [
+		"67cb2bf1",
+		"871ddd17"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "09fa2f68",
+		type: "item",
+		items: [{
+			item: "forestry:bee_combs 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "d97f1ea4",
+		type: "item",
+		item: "forestry:bee_combs 1 5",
+		count: 16
+	},
+	{
+		uid: "7991f4df",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "8036b6e1",
+		type: "loot",
+		table: 2
+	}]
+}

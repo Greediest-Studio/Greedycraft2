@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "灵神钢矿石",
+    "tooltip": "§f在此刻，所有人都陷入了疯狂。",
+    "ore_dict": "oreSanite",
+    "type": "additions:block_simple"
+  },
+  "name": "灵神钢矿石",
+  "material": "minecraft:stone",
+  "hardness": 8.0,
+  "harvest_level": 11,
+  "harvest_tool": "pickaxe",
+  "light_opacity": 0,
+  "type": "additions:simple"
+}

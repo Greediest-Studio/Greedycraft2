@@ -1,0 +1,36 @@
+{
+	title: "§b都别想跑",
+	x: -0.5d,
+	y: 0.0d,
+	description: "钓鱼的装备……",
+	text: [
+		""
+	],
+	dependencies: [
+		"bcde6ec3"
+	],
+	tasks: [{
+		uid: "948024ba",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:silt_glass_jar"
+		}]
+	},
+	{
+		uid: "7f370647",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:fishing_tackle_box"
+		}]
+	}],
+	rewards: [{
+		uid: "d41f4a03",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "ec53b7b8",
+		type: "xp",
+		xp: 3000
+	}]
+}

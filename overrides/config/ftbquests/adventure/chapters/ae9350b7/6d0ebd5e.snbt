@@ -1,0 +1,36 @@
+{
+	title: "§b建筑废的福音",
+	x: 3.0d,
+	y: 0.0d,
+	description: "获得初始小屋蓝图",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "e0d8f063",
+		type: "item",
+		items: [{
+			item: "prefab:item_start_house"
+		}]
+	}],
+	rewards: [{
+		uid: "07d7b379",
+		type: "item",
+		item: "prefab:item_moderate_house"
+	},
+	{
+		uid: "e178bfa3",
+		type: "item",
+		item: "prefab:item_structure_part"
+	},
+	{
+		uid: "862b21a7",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "6d6c62aa",
+		type: "xp",
+		xp: 500
+	}]
+}

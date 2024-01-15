@@ -1,0 +1,175 @@
+{
+	title: "§b苍白之蜂",
+	x: -4.5d,
+	y: -1.5d,
+	description: "获得石英蜂后",
+	text: [
+		""
+	],
+	dependencies: [
+		"26bd081f"
+	],
+	tasks: [{
+		uid: "94b726d4",
+		type: "item",
+		items: [{
+			id: "forestry:bee_queen_ge",
+			tag: {
+				IsAnalyzed: 0b,
+				Health: 50,
+				MaxH: 50,
+				Genome: {
+					Chromosomes: [{
+						Slot: 0b,
+						UID0: "morebees.species.quartz",
+						UID1: "morebees.species.quartz"
+					},
+					{
+						Slot: 1b,
+						UID0: "forestry.speedSlow",
+						UID1: "forestry.speedSlow"
+					},
+					{
+						Slot: 2b,
+						UID0: "forestry.lifespanLong",
+						UID1: "forestry.lifespanLong"
+					},
+					{
+						Slot: 3b,
+						UID0: "forestry.fertilityLow",
+						UID1: "forestry.fertilityLow"
+					},
+					{
+						Slot: 4b,
+						UID0: "forestry.toleranceUp1",
+						UID1: "forestry.toleranceUp1"
+					},
+					{
+						Slot: 5b,
+						UID0: "forestry.boolFalse",
+						UID1: "forestry.boolFalse"
+					},
+					{
+						Slot: 6b,
+						UID0: "forestry.toleranceBoth2",
+						UID1: "forestry.toleranceBoth2"
+					},
+					{
+						Slot: 7b,
+						UID0: "forestry.boolFalse",
+						UID1: "forestry.boolFalse"
+					},
+					{
+						Slot: 8b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 9b,
+						UID0: "morebees.flowersRedstone",
+						UID1: "morebees.flowersRedstone"
+					},
+					{
+						Slot: 10b,
+						UID0: "forestry.floweringSlowest",
+						UID1: "forestry.floweringSlowest"
+					},
+					{
+						Slot: 11b,
+						UID0: "forestry.territoryAverage",
+						UID1: "forestry.territoryAverage"
+					},
+					{
+						Slot: 12b,
+						UID0: "forestry.effectNone",
+						UID1: "forestry.effectNone"
+					}]
+				},
+				Mate: {
+					Chromosomes: [{
+						Slot: 0b,
+						UID0: "morebees.species.quartz",
+						UID1: "morebees.species.quartz"
+					},
+					{
+						Slot: 1b,
+						UID0: "forestry.speedSlow",
+						UID1: "forestry.speedSlow"
+					},
+					{
+						Slot: 2b,
+						UID0: "forestry.lifespanLong",
+						UID1: "forestry.lifespanLong"
+					},
+					{
+						Slot: 3b,
+						UID0: "forestry.fertilityLow",
+						UID1: "forestry.fertilityLow"
+					},
+					{
+						Slot: 4b,
+						UID0: "forestry.toleranceUp1",
+						UID1: "forestry.toleranceUp1"
+					},
+					{
+						Slot: 5b,
+						UID0: "forestry.boolFalse",
+						UID1: "forestry.boolFalse"
+					},
+					{
+						Slot: 6b,
+						UID0: "forestry.toleranceBoth2",
+						UID1: "forestry.toleranceBoth2"
+					},
+					{
+						Slot: 7b,
+						UID0: "forestry.boolFalse",
+						UID1: "forestry.boolFalse"
+					},
+					{
+						Slot: 8b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 9b,
+						UID0: "morebees.flowersRedstone",
+						UID1: "morebees.flowersRedstone"
+					},
+					{
+						Slot: 10b,
+						UID0: "forestry.floweringSlowest",
+						UID1: "forestry.floweringSlowest"
+					},
+					{
+						Slot: 11b,
+						UID0: "forestry.territoryAverage",
+						UID1: "forestry.territoryAverage"
+					},
+					{
+						Slot: 12b,
+						UID0: "forestry.effectNone",
+						UID1: "forestry.effectNone"
+					}]
+				}
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "99077f9b",
+		type: "item",
+		item: "minecraft:quartz_block",
+		count: 256
+	},
+	{
+		uid: "c030b8b6",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "bc2e48f2",
+		type: "random",
+		table: 3
+	}]
+}

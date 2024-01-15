@@ -1,0 +1,46 @@
+{
+  "name": "§5花花棒棒糖",
+  "tooltip": [
+    "§d好吃吧~",
+    "§7§o赞助者物品 by 花以寒"
+  ],
+  "hunger": 18,
+  "saturation": 0.11111111,
+  "always_edible": true,
+  "eat_time": 64,
+  "eaten_effects": [
+    {
+      "potion": {
+        "name": "gct_mobs:world_end",
+        "duration": 1,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:absorption",
+        "duration": 1200,
+        "amplifier": 4,
+        "ambient": false,
+        "show_particles": true
+      },
+      "reapplication_delay": 2,
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:regeneration",
+        "duration": 100,
+        "amplifier": 9,
+        "ambient": false,
+        "show_particles": true
+      },
+      "reapplication_delay": 2,
+      "type": "additions:potion"
+    }
+  ],
+  "type": "additions:food"
+}

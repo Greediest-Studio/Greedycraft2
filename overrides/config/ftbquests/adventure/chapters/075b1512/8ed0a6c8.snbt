@@ -1,0 +1,35 @@
+{
+	title: "§b凋灵杀手 IX",
+	icon: "minecraft:skull 1 1",
+	x: -0.5d,
+	y: 13.0d,
+	dependencies: [
+		"2d59ec08"
+	],
+	tasks: [{
+		uid: "b8b465c2",
+		type: "kill",
+		entity: "minecraft:wither",
+		value: 150L
+	}],
+	rewards: [{
+		uid: "6b6dd6a9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "15b6097e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	}]
+}

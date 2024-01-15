@@ -1,0 +1,29 @@
+{
+	title: "§b闪电五连鞭",
+	x: 13.5d,
+	y: 12.0d,
+	description: "制作镌刻闪电之杖",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "f3c2b67a",
+		type: "item",
+		items: [{
+			id: "cyclicmagic:ender_lightning",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5cec2615",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "8c3f053d",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "§b强化版本？",
+	x: 7.5d,
+	y: 3.0d,
+	description: "制作增强元金锭",
+	dependencies: [
+		"29eb121f"
+	],
+	tasks: [{
+		uid: "52c53881",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-extended_primal_metal_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "197ffbaa",
+		type: "item",
+		item: "additions:greedycraft-extended_primal_metal_ingot",
+		count: 2
+	},
+	{
+		uid: "bd08caa4",
+		type: "xp",
+		xp: 2400
+	},
+	{
+		uid: "2dd067bd",
+		type: "random",
+		table: 2
+	}]
+}

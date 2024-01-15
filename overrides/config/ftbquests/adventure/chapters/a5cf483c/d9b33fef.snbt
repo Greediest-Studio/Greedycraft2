@@ -1,0 +1,43 @@
+{
+	title: "§b遏制？增强！",
+	x: -2.5d,
+	y: 3.0d,
+	description: "制作遏制圣杯",
+	text: [
+		""
+	],
+	dependencies: [
+		"470b67b1"
+	],
+	tasks: [{
+		uid: "25da6c98",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockchalice"
+		}]
+	}],
+	rewards: [{
+		uid: "8488df04",
+		type: "item",
+		item: "astralsorcery:itemcraftingcomponent 1 4",
+		count: 64
+	},
+	{
+		uid: "39e68493",
+		type: "item",
+		item: {
+			id: "openblocks:tank",
+			tag: {
+				tank: {
+					FluidName: "astralsorcery.liquidstarlight",
+					Amount: 16000
+				}
+			}
+		}
+	},
+	{
+		uid: "a32c4c12",
+		type: "xp",
+		xp: 5555
+	}]
+}

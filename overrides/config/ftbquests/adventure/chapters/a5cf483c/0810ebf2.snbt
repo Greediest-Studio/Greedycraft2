@@ -1,0 +1,26 @@
+{
+	title: "§b永恒星域",
+	x: 1.5d,
+	y: 9.0d,
+	description: "访问永恒星域",
+	dependencies: [
+		"9df31eb7",
+		"1fb8340d"
+	],
+	tasks: [{
+		uid: "f5d355f8",
+		type: "dimension",
+		icon: "additions:greedycraft-astral_projector_2",
+		dim: 80
+	}],
+	rewards: [{
+		uid: "2de86a0e",
+		type: "xp",
+		xp: 4800
+	},
+	{
+		uid: "b41a4a23",
+		type: "random",
+		table: 3
+	}]
+}

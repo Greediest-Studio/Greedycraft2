@@ -1,0 +1,37 @@
+{
+	title: "§b话痨的烈焰巨灵",
+	x: 11.0d,
+	y: -11.0d,
+	description: "制作极寒圣物",
+	text: [
+		"使用极寒圣物右击，即可将烈阳巨灵的血量设置为1"
+	],
+	dependencies: [
+		"879b4bb7"
+	],
+	tasks: [{
+		uid: "ee432af4",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-cryonic_artifact"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3cfbce16",
+		type: "item",
+		item: "thermalfoundation:material 1 1025",
+		count: 32
+	},
+	{
+		uid: "173cd9bd",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "ac1884ec",
+		type: "xp",
+		xp: 1000
+	}]
+}

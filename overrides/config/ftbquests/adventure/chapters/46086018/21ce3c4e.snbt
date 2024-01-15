@@ -1,0 +1,39 @@
+{
+	title: "§c【可重复】 烈日落幕",
+	x: 11.0d,
+	y: -13.5d,
+	shape: "gear",
+	description: "击杀烈阳巨灵，获得日轮祭坛",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"fe753cdf"
+	],
+	tasks: [{
+		uid: "ffe05ea4",
+		type: "item",
+		items: [{
+			item: "aether_legacy:sun_altar"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "292f43f6",
+		type: "item",
+		item: "additions:greedycraft-sun_crystal",
+		count: 12,
+		random_bonus: 28
+	},
+	{
+		uid: "76af3aa5",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "25105bc1",
+		type: "xp",
+		xp: 1000
+	}]
+}

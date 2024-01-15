@@ -1,0 +1,37 @@
+{
+	title: "§b维度的套娃开始了？",
+	x: -14.0d,
+	y: 4.5d,
+	description: "合成火焰纹章",
+	text: [
+		""
+	],
+	dependencies: [
+		"64b213db"
+	],
+	tasks: [{
+		uid: "fdbc77f1",
+		type: "item",
+		items: [{
+			item: "journey:flamecoin"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2b7642aa",
+		type: "item",
+		item: "additions:durasteel_ingot",
+		count: 2
+	},
+	{
+		uid: "dbe9ef44",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "833d17a0",
+		type: "xp",
+		xp: 1200
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "§b再熟悉不过了",
+	x: -3.0d,
+	y: 1.0d,
+	description: "挖掘石英矿石，获得下界石英",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "90a10432",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz"
+		}]
+	}],
+	rewards: [{
+		uid: "9c5df126",
+		type: "item",
+		item: "minecraft:quartz_block",
+		count: 8,
+		random_bonus: 8
+	},
+	{
+		uid: "f12e1e7e",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "d3917cee",
+		type: "xp",
+		xp: 500
+	}]
+}

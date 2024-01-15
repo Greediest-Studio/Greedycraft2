@@ -1,0 +1,57 @@
+
+{
+  "ID": 259,
+  "Name": "Emptiness Highlands",
+  "Resource Location": "thaumicaugmentation:emptiness_highlands",
+  "Class": "thecodex6824.thaumicaugmentation.common.world.biome.BiomeEmptinessHighlands",
+  "Root Height": 0.75,
+  "Height Variation": 0.3,
+  "Top Block": "thaumicaugmentation:stone[ta_stone_type\u003dstone_void]",
+  "Filler Block": "thaumicaugmentation:stone[ta_stone_type\u003dstone_void]",
+  "Ocean Top Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Ocean Filler Block": "Disabled. Activate in BiomeTweakerCore.",
+  "Actual Filler Blocks": "Disabled. Activate in BiomeTweakerCore.",
+  "Grass Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Foliage Color": "Disabled. Activate in BiomeTweakerCore.",
+  "Water Color": "1835170",
+  "Temperature": 0.25,
+  "Humidity": 0.5,
+  "Water Tint": 1835170,
+  "Enable Rain": false,
+  "Enable Snow": false,
+  "Dictionary Types": [
+    "HILLS",
+    "MOUNTAIN",
+    "SPARSE",
+    "SPOOKY",
+    "COLD",
+    "VOID"
+  ],
+  "BiomeManager Entries": {},
+  "Spawnable Creatures": [],
+  "Spawnable Monsters": [],
+  "Spawnable Water Creatures": [],
+  "Spawnable Cave Creatures": [],
+  "Spawn Biome": false,
+  "Tweaked": false,
+  "BOP Generators": {
+    "FLOWERS Generators": [
+      {
+        "ID": "flora",
+        "Name": "glowshrooms"
+      },
+      {
+        "ID": "flora",
+        "Name": "miners_delight"
+      },
+      {
+        "ID": "flora",
+        "Name": "roots"
+      }
+    ]
+  },
+  "BOP Owner": "OTHER",
+  "BOP Weight Map": {},
+  "BOP Climate Weights": {},
+  "BOP Island Weight": 0
+}

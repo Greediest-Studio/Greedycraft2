@@ -1,0 +1,23 @@
+{
+	x: 3.0d,
+	y: 8.0d,
+	dependencies: [
+		"518ac07a"
+	],
+	tasks: [{
+		uid: "e180b5a5",
+		type: "item",
+		items: [{
+			item: "tinkertoolcasts:upgrade_advanced"
+		},
+		{
+			item: "tinkertoolcasts:upgrade_reinforced"
+		},
+		{
+			item: "tinkertoolcasts:upgrade_iridium"
+		},
+		{
+			item: "tinkertoolcasts:upgrade_ultimate"
+		}]
+	}]
+}

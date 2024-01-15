@@ -1,0 +1,28 @@
+{
+	title: "§b妈妈再也不担心我污染高了",
+	x: -0.5d,
+	y: 6.0d,
+	description: "制作咒波清理海绵",
+	dependencies: [
+		"898c1c9c"
+	],
+	tasks: [{
+		uid: "c359782a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:creative_flux_sponge"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1cf3349d",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "f97a9073",
+		type: "loot",
+		table: 2
+	}]
+}

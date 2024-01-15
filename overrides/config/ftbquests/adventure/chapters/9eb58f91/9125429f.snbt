@@ -1,0 +1,24 @@
+{
+	title: "§b排除异己",
+	x: 0.5d,
+	y: 4.0d,
+	description: "制作排除方尖碑",
+	text: [
+		""
+	],
+	dependencies: [
+		"cda8846f"
+	],
+	tasks: [{
+		uid: "03c17684",
+		type: "item",
+		items: [{
+			item: "enderio:block_aversion_obelisk"
+		}]
+	}],
+	rewards: [{
+		uid: "32918fad",
+		type: "xp",
+		xp: 2000
+	}]
+}

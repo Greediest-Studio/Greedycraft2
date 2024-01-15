@@ -1,0 +1,34 @@
+{
+	title: "§bMEK支持",
+	x: -5.5d,
+	y: 3.0d,
+	description: "制作基础的ME气体存储组件",
+	text: [
+		""
+	],
+	dependencies: [
+		"73220e86"
+	],
+	tasks: [{
+		uid: "0e3c2d7d",
+		type: "item",
+		items: [{
+			item: "aeadditions:storage.component 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "f79eba72",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "3eded293",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "236cca95",
+		type: "xp",
+		xp: 500
+	}]
+}

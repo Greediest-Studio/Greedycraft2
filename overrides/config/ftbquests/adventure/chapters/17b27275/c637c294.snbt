@@ -1,0 +1,53 @@
+{
+	title: "§b灵魂裁决",
+	x: 2.5d,
+	y: -1.0d,
+	description: "在灵魂树岛上击杀大型灵魂树脸",
+	text: [
+		"似乎可以通过改变树桩上的鬼火数量来控制灵魂树脸的难度……？"
+	],
+	dependencies: [
+		"81216f69"
+	],
+	tasks: [{
+		uid: "800e41df",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sapling_spirit_tree"
+		}]
+	}],
+	rewards: [{
+		uid: "7a6d25a7",
+		type: "item",
+		item: "thebetweenlands:octine_ingot",
+		count: 16
+	},
+	{
+		uid: "d23b8545",
+		type: "item",
+		item: "thebetweenlands:items_misc 1 11",
+		count: 16
+	},
+	{
+		uid: "2c5a9038",
+		type: "item",
+		item: "thebetweenlands:items_misc 1 19",
+		count: 16
+	},
+	{
+		uid: "b752ced7",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "2d2f6767",
+		type: "xp",
+		xp: 20000
+	},
+	{
+		uid: "191a7222",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "warped"
+	}]
+}

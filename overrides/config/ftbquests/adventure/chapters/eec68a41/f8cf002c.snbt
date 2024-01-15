@@ -1,0 +1,35 @@
+{
+	title: "§b大自然的馈赠",
+	x: 21.5d,
+	y: -3.0d,
+	description: "合成植物魂锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"e7f9cd83"
+	],
+	tasks: [{
+		uid: "efd6f9eb",
+		type: "item",
+		items: [{
+			item: "gct_mobs:botanical_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "22b41b92",
+		type: "item",
+		item: "gct_mobs:botanical_ingot",
+		count: 4
+	},
+	{
+		uid: "61525326",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "0af5dd56",
+		type: "random",
+		table: 3
+	}]
+}

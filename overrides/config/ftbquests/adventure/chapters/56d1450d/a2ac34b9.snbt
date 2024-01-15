@@ -1,0 +1,36 @@
+{
+	title: "§b蜜蜂灵魂",
+	x: -10.5d,
+	y: -4.5d,
+	description: "获得灵魂框架",
+	text: [
+		""
+	],
+	dependencies: [
+		"946d5e30"
+	],
+	tasks: [{
+		uid: "db01de79",
+		type: "item",
+		items: [{
+			item: "extrabees:hive_frame.soul"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "97cdc3a2",
+		type: "item",
+		item: "extrabees:hive_frame.soul"
+	},
+	{
+		uid: "c554cdfe",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "fbe8bb6b",
+		type: "loot",
+		table: 1
+	}]
+}

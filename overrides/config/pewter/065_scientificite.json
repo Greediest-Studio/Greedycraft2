@@ -1,0 +1,131 @@
+{
+    "name": "scientificite",
+    "tool": {
+      "head": {
+        "attackDamage": 131,
+        "speed": 22,
+        "durability": 11200,
+        "harvestLevel": 12
+      },
+      "handle": {
+        "modifier": 5,
+        "durability": 5800
+      },
+      "extra": {
+        "durability": 5800
+      },
+      "bow": {
+        "speed": 1.2,
+        "range": 2,
+        "bonusDamage": 100
+      }
+    },
+    "color": "#caafff",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 4850,
+    "looks": {
+      "shininess": 0.8,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Scientificite",
+      "zh_cn": "科幻"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "additions:mekaddon-scientificite_ingot"
+      ],
+      "block": [
+      ],
+      "nugget": [
+      ],
+      "ore": [
+      ],
+      "dust": [
+      ],
+      "plate": [
+      ],
+      "gear": [
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "defense": 156,
+        "durability": 580
+      },
+      "plates": {
+        "toughness": 9.5,
+        "modifier": 11.6,
+        "durability": 259
+      },
+      "trim": {
+        "extraDurability": 241
+      }
+    },
+    "specificTraits": {
+      "HEAD": [
+        "state_addition",
+        "overrun",
+        "moretcon.trichromatic"
+      ],
+      "HANDLE": [
+        "state_addition",
+        "tconevo.sundering",
+        "moretcon.trichromatic"
+      ],
+      "EXTRA": [
+        "state_addition",
+        "imagine",
+        "moretcon.trichromatic"
+      ],
+      "BOW": [
+        "state_addition",
+        "overrun",
+        "moretcon.trichromatic"
+      ],
+      "CORE": [
+        "indomitable_armor",
+        "geneticevolution_armor",
+        "hold_ground_armor"
+      ],
+      "PLATES": [
+        "tconevo.second_wind_armor",
+        "geneticevolution_armor",
+        "hold_ground_armor"
+      ],
+      "TRIM": [
+        "dunanstransport_armor",
+        "geneticevolution_armor",
+        "hold_ground_armor"
+      ]
+    }
+}
+  

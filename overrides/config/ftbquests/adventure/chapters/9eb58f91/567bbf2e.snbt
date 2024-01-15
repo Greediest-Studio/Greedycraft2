@@ -1,0 +1,29 @@
+{
+	title: "§b没了这个还能活吗",
+	x: -17.5d,
+	y: 0.0d,
+	description: "制作ME合成终端",
+	text: [
+		""
+	],
+	dependencies: [
+		"9ad09ce0"
+	],
+	tasks: [{
+		uid: "0d058e50",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 360"
+		}]
+	}],
+	rewards: [{
+		uid: "347013d9",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "28faec78",
+		type: "random",
+		table: 1
+	}]
+}

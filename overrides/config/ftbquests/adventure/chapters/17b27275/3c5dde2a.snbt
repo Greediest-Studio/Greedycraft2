@@ -1,0 +1,58 @@
+{
+	title: "§b为时未晚",
+	x: -6.75d,
+	y: 9.5d,
+	description: "合成终焉锭！",
+	text: [
+		""
+	],
+	dependencies: [
+		"68abcc25",
+		"702fcf51"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "d7b2d84b",
+		type: "item",
+		items: [{
+			item: "gct_ores:finallium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "88a4e7ce",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "final"
+	},
+	{
+		uid: "18cc7262",
+		type: "item",
+		item: "gct_ores:finallium_ingot",
+		count: 2
+	},
+	{
+		uid: "a2571c38",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "470b2166",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "fe2d3fd5",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "7fdedc80",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "3b5b94d3",
+		type: "xp",
+		xp: 300000
+	}]
+}

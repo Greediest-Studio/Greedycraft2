@@ -1,0 +1,137 @@
+{
+    "name": "shadow_bar",
+    "tool": {
+      "bow": {
+        "speed": 1.32,
+        "range": 1.0,
+        "bonusDamage": 3.5
+      },
+      "fletching": {
+        "accuracy": 0.5,
+        "modifier": 0.0
+      },
+      "head": {
+        "attackDamage": 7.2,
+        "speed": 6.3,
+        "durability": 735,
+        "harvestLevel": 4
+      },
+      "handle": {
+        "modifier": 1.1,
+        "durability": 95
+      },
+      "arrowShaft": {
+        "modifier": 1.1,
+        "bonusAmmo": 5
+      },
+      "bowstring": {
+        "modifier": 1.1
+      },
+      "extra": {
+        "durability": 220
+      }
+    },
+    "color": "#b4b4b4",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 625,
+    "looks": {
+      "shininess": 0.6,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "PROJECTILE",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Shadow",
+      "zh_cn": "阴影"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "divinerpg:shadow_bar"
+      ],
+      "block": [
+        
+      ],
+      "nugget": [
+        
+      ],
+      "ore": [
+        
+      ],
+      "dust": [
+        
+      ],
+      "plate": [
+       
+      ],
+      "gear": [
+        
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "durability": 31,
+        "defense": 23
+      },
+      "plates": {
+        "modifier": 1.6,
+        "durability": 9,
+        "toughness": 4
+      },
+      "trim": {
+        "extraDurability": 3
+      }
+    },
+    "specificTraits": {
+      "EXTRA": [
+        "bane_of_night"
+      ],
+      "HEAD": [
+        "disappearing"
+      ],
+      "HANDLE": [
+        "bane_of_night"
+      ],
+      "BOW": [
+        "disappearing"
+      ],
+      "PROJECTILE": [
+        "bane_of_night"
+      ],
+      "CORE": [
+        "disappearing_armor"
+      ],
+      "PLATES": [
+        "stamina_focusing_armor"
+      ],
+      "TRIM": [
+        "stamina_focusing_armor"
+      ]
+    }
+  }

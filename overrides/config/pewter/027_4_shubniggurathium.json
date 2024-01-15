@@ -1,0 +1,131 @@
+{
+  "name": "shubniggurathium",
+  "tool": {
+    "head": {
+      "attackDamage": 68.8,
+      "speed": 25.17,
+      "durability": 12560,
+      "harvestLevel": 11
+    },
+    "handle": {
+      "modifier": 2.65,
+      "durability": 2875
+    },
+    "extra": {
+        "durability": 2620
+    },
+    "bow": {
+        "speed": 2.5,
+        "range": 3.2,
+        "bonusDamage": 69.5
+    }
+  },
+  "color": "#798188",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 3650,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Shubniggurathium",
+    "zh_cn": "莎布·尼古拉丝"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "gct_mobs:shubniggurathium_ingot"
+    ],
+    "block": [
+      "gct_mobs:shubniggurathium_block"
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 95.5,
+      "durability": 562
+    },
+    "plates": {
+      "toughness": 9.5,
+      "modifier": 8,
+      "durability": 223
+    },
+    "trim": {
+      "extraDurability": 265
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "shub",
+      "demon_hunter",
+      "tasty"
+    ],
+    "HANDLE": [
+      "bane_of_night",
+      "demon_hunter",
+      "tasty"
+    ],
+    "EXTRA": [
+      "bane_of_night",
+      "demon_hunter",
+      "tasty"
+    ],
+    "BOW": [
+      "shub",
+      "demon_hunter",
+      "tasty"
+    ],
+    "CORE": [
+      "specific_immunity_armor",
+      "old_ones_barrier_armor",
+      "bellyful_armor"
+    ],
+    "PLATES": [
+      "specific_immunity_armor",
+      "old_ones_barrier_armor",
+      "bellyful_armor"
+    ],
+    "TRIM": [
+      "specific_immunity_armor",
+      "old_ones_barrier_armor",
+      "bellyful_armor"
+    ]
+  }
+}

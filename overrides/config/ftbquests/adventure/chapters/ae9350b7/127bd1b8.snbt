@@ -1,0 +1,51 @@
+{
+	title: "§b无限创造之力！",
+	x: 12.0d,
+	y: 7.5d,
+	description: "制作一个创造之魂！",
+	text: [
+		"事实上，还有生存之魂来着……"
+	],
+	tasks: [{
+		uid: "3f9481c2",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-creative_soul"
+		}]
+	}],
+	rewards: [{
+		uid: "43169f9b",
+		type: "xp",
+		xp: 50000
+	},
+	{
+		uid: "e909c69d",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "6d5ac587",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "84c5a0e8",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "8530cb71",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "3aaf5444",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "5af8bd02",
+		type: "random",
+		table: 4
+	}]
+}

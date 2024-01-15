@@ -1,0 +1,30 @@
+{
+	title: "§b钥匙？",
+	x: 9.5d,
+	y: 4.5d,
+	description: "使用元动能量打开邪术旋塔入口，进入第一层",
+	text: [
+		""
+	],
+	dependencies: [
+		"8d7fb581"
+	],
+	tasks: [{
+		uid: "a2a6eded",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:eldritch_lock_key"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5a897659",
+		type: "xp",
+		xp: 2888
+	},
+	{
+		uid: "dfe5951b",
+		type: "random",
+		table: 2
+	}]
+}

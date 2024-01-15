@@ -1,0 +1,19 @@
+{
+	title: "§b涂抹",
+	x: 6.5d,
+	y: 0.0d,
+	description: "获得工业涂料",
+	text: [
+		""
+	],
+	dependencies: [
+		"65376d4f"
+	],
+	tasks: [{
+		uid: "74db4551",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 51"
+		}]
+	}]
+}

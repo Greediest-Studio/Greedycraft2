@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "§c褐铁矿石",
+    "tooltip": "§7仅在失落城市生成",
+    "ore_dict": "oreLimonite",
+    "type": "additions:block_simple"
+  },
+  "name": "§c褐铁矿石",
+  "material": "minecraft:stone",
+  "hardness": 8.0,
+  "resistance": 10.0,
+  "harvest_level": 4,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

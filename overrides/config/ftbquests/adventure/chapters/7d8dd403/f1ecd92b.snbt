@@ -1,0 +1,34 @@
+{
+	title: "§b冰河世纪",
+	x: -13.0d,
+	y: 6.0d,
+	description: "使用遗忘冰川结界石搭建传送门，用火焰铸币激活并进入遗忘冰川",
+	text: [
+		""
+	],
+	dependencies: [
+		"47237c8f"
+	],
+	tasks: [{
+		uid: "2d0f09af",
+		type: "dimension",
+		icon: "journey:frozenportal",
+		dim: 823
+	}],
+	rewards: [{
+		uid: "3f7101a7",
+		type: "item",
+		item: "additions:greedycraft-iciricium_ingot",
+		count: 32
+	},
+	{
+		uid: "a83b5b65",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "ccd0613d",
+		type: "random",
+		table: 2
+	}]
+}

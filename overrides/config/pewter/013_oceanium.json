@@ -1,0 +1,153 @@
+{
+    "name": "oceanium",
+    "tool": {
+      "bow": {
+        "speed": 1.2,
+        "range": 1.0,
+        "bonusDamage": 32
+      },
+      "fletching": {
+        "accuracy": 0.5,
+        "modifier": 0.0
+      },
+      "head": {
+        "attackDamage": 33.3,
+        "speed": 19.96,
+        "durability": 27100,
+        "harvestLevel": 10
+      },
+      "handle": {
+        "modifier": 3.1,
+        "durability": 2850
+      },
+      "arrowShaft": {
+        "modifier": 1.1,
+        "bonusAmmo": 5
+      },
+      "bowstring": {
+        "modifier": 1.1
+      },
+      "extra": {
+        "durability": 2600
+      }
+    },
+    "color": "#57BCFF",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 760,
+    "looks": {
+      "shininess": 0.4,
+      "brightness": 0.1,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "PROJECTILE",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Oceanium",
+      "zh_cn": "浩瀚"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "additions:greedycraft-oceanium_ingot"
+      ],
+      "block": [
+        "additions:greedycraft-oceanium_block"
+      ],
+      "nugget": [
+        "gct_ores:oceanium_nugget"
+      ],
+      "ore": [
+        "additions:greedycraft-oceanium_ore"
+      ],
+      "dust": [
+        "jaopca:item_dustoceanium"
+      ],
+      "plate": [
+        "jaopca:item_plateoceanium"
+      ],
+      "gear": [
+        "jaopca:item_gearoceanium"
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "durability": 411,
+        "defense": 74.5
+      },
+      "plates": {
+        "modifier": 12,
+        "durability": 277,
+        "toughness": 11
+      },
+      "trim": {
+        "extraDurability": 222
+      }
+    },
+    "specificTraits": {
+      "EXTRA": [
+        "aquadynamic",
+        "tidal_force",
+        "torrential"
+      ],
+      "HEAD": [
+        "aquadynamic",
+        "tidal_force",
+        "torrential"
+      ],
+      "HANDLE": [
+        "aquadynamic",
+        "tidal_force",
+        "torrential"
+      ],
+      "BOW": [
+        "aquadynamic",
+        "tidal_force",
+        "torrential"
+      ],
+      "PROJECTILE": [
+        "aquadynamic",
+        "tidal_force",
+        "torrential"
+      ],
+      "CORE": [
+        "absorbent_armor",
+        "aquaspeed_armor",
+        "widening_armor"
+      ],
+      "PLATES": [
+        "absorbent_armor",
+        "aquaspeed_armor",
+        "widening_armor"
+      ],
+      "TRIM": [
+        "absorbent_armor",
+        "aquaspeed_armor",
+        "widening_armor"
+      ]
+    }
+  }

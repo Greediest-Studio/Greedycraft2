@@ -1,0 +1,58 @@
+{
+	title: "§b卡巴拉の核心",
+	x: 18.5d,
+	y: -4.5d,
+	description: "合成生命树构建器",
+	text: [
+		"机器GUI文字说明：",
+		"左侧3个槽位(Ain Soph Aur):放置对应能量环,绝大部分合成需要对应的能量环支持",
+		"1——Kether——王冠",
+		"2——Chokmah——智慧",
+		"3——Binah——理解",
+		"4——Chesed——慈悲",
+		"5——Gevurah——严格",
+		"6——Tiphareth——美丽",
+		"7——Netzach——胜利",
+		"8——Hod——光辉",
+		"9——Yesod——基础",
+		"10——Malkuth——王国"
+	],
+	dependencies: [
+		"cdb6d00e"
+	],
+	tasks: [{
+		uid: "dacfb745",
+		type: "item",
+		items: [{
+			item: "gct_mobs:kabalah_builder_block"
+		}]
+	}],
+	rewards: [{
+		uid: "ca5cfe95",
+		type: "item",
+		item: "additions:botaniaddon-elfsteel_ingot",
+		count: 4
+	},
+	{
+		uid: "bfbc2bc9",
+		type: "item",
+		item: "additions:shadowium_ingot",
+		count: 10
+	},
+	{
+		uid: "26067a4d",
+		type: "item",
+		item: "extrabotany:material 1 8",
+		count: 10
+	},
+	{
+		uid: "de6043ad",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "802e8f6f",
+		type: "xp",
+		xp: 8000
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "§b怎么就成锭了",
+	x: -10.0d,
+	y: 6.5d,
+	description: "合成聚影铁锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"518ac07a"
+	],
+	tasks: [{
+		uid: "2a14cfea",
+		type: "item",
+		items: [{
+			item: "additions:link-endusium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "70f6ecd0",
+		type: "item",
+		item: "additions:link-endusium_ingot",
+		count: 2
+	},
+	{
+		uid: "5b785949",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "a727d133",
+		type: "xp",
+		xp: 10000
+	}]
+}

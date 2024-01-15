@@ -1,0 +1,32 @@
+{
+	title: "§b和eio的不一样",
+	x: -13.5d,
+	y: -4.0d,
+	description: "合成末影锭",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "55a8c43c",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 36"
+		}]
+	}],
+	rewards: [{
+		uid: "0451658b",
+		type: "item",
+		item: "minecraft:ender_pearl",
+		count: 32
+	},
+	{
+		uid: "bce1ee81",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "f8c4b2d0",
+		type: "random",
+		table: 1
+	}]
+}

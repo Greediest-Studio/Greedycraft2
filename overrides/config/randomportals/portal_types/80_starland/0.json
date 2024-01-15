@@ -1,0 +1,111 @@
+{
+	"frame": {
+		"type": "VERTICAL",
+		"size": {
+			"lateral": {
+				"minWidth": 3,
+				"maxWidth": 30,
+				"minHeight": 3,
+				"maxHeight": 30
+			},
+			"verticalX": {
+				"minWidth": 5,
+				"maxWidth": 2147483647,
+				"minHeight": 5,
+				"maxHeight": 2147483647
+			},
+			"verticalZ": {
+				"minWidth": 5,
+				"maxWidth": 2147483647,
+				"minHeight": 5,
+				"maxHeight": 2147483647
+			}
+		},
+		"blocks": [
+			{
+				"registryName": "astralsorcery:blockmarble",
+				"meta": 6,
+				"minimumAmount": 8
+			},
+			{
+				"registryName": "gct_mac:astral_portal",
+				"meta": 32767,
+				"minimumAmount": 1
+			},
+			{
+				"registryName": "gct_mobs:astral_portal_core",
+				"meta": 32767,
+				"minimumAmount": 3
+			},
+			{
+				"registryName": "astralsorcery:blockblackmarble",
+				"meta": 32767,
+				"minimumAmount": 4
+			}
+		],
+		"requiredCorner": "SAME",
+		"cornerBlocksContributeToMinimumAmount": true,
+		"doGeneratedFramesDrop": false
+	},
+	"activation": {
+		"canBeActivatedByFire": false,
+		"activators": [
+			{
+				"registryName": "astralsorcery:itemwand",
+				"meta": 32767
+			}
+		],
+		"activatorConsumeBehavior": "DO_NOTHING",
+		"spawnFireBeforeActivating": false,
+		"activationSounds": []
+	},
+	"color": {
+		"colors": [
+			"PURPLE"
+		],
+		"dyeBehavior": "DISABLE"
+	},
+	"destination": {
+		"dimensionID": 80,
+		"locationDetectionBehavior": "FORCE_INITIAL",
+		"initialLocation": {
+			"x": 0,
+			"y": 0,
+			"z": 0,
+			"useTopSolidY": false
+		},
+		"coordinateMultiplier": 1.0,
+		"teleportToPortal": true,
+		"oneWay": true,
+		"ensureReturnToSameDimension": true,
+		"generatePortalIfNotFound": false,
+		"portalGenerationBehavior": "RANDOMIZE",
+		"generatedFrameType": "VERTICAL",
+		"generatedFrameSize": {
+			"lateral": {
+				"minWidth": 0,
+				"maxWidth": 3,
+				"minHeight": 0,
+				"maxHeight": 3
+			},
+			"verticalX": {
+				"minWidth": 4,
+				"maxWidth": 4,
+				"minHeight": 5,
+				"maxHeight": 5
+			},
+			"verticalZ": {
+				"minWidth": 4,
+				"maxWidth": 4,
+				"minHeight": 5,
+				"maxHeight": 5
+			}
+		}
+	},
+	"teleportationDelay": {
+		"lateral": 1,
+		"verticalX": 0,
+		"verticalZ": 0
+	},
+	"decorative": false
+}

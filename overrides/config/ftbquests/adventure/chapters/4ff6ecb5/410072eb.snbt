@@ -1,0 +1,31 @@
+{
+	title: "§b真的好用吗？",
+	x: -0.5d,
+	y: -6.0d,
+	description: "制作黄铜太阳能板",
+	dependencies: [
+		"8e4db582"
+	],
+	tasks: [{
+		uid: "a37b6f07",
+		type: "item",
+		items: [{
+			item: "solarflux:solar_panel_alchemical_brass"
+		}]
+	}],
+	rewards: [{
+		uid: "e06a515e",
+		type: "item",
+		item: "solarflux:solar_panel_alchemical_brass"
+	},
+	{
+		uid: "d48effc2",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "c73ac557",
+		type: "loot",
+		table: 1
+	}]
+}

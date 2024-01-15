@@ -1,0 +1,94 @@
+{
+  "name": "uracilite",
+  "tool": {
+    "head": {
+      "attackDamage": 24,
+      "speed": 20.7,
+      "durability": 10000,
+      "harvestLevel": 7
+    },
+    "handle": {
+      "modifier": 1.7,
+      "durability": 1000
+    },
+    "extra": {
+      "durability": 800
+    },
+    "bow": {
+      "speed": 1.25,
+      "range": 1.4,
+      "bonusDamage": 16
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 500,
+      "defense": 49.4
+    },
+    "plates": {
+      "modifier": 5.8,
+      "durability": 90,
+      "toughness": 3.6
+    },
+    "trim": {
+      "extraDurability": 65
+    }
+  },
+  "color": "#092cd9",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Uracilite",
+    "zh_cn": "尿嘧"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:greedycraft-uracilite_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["naturespower", "natureswrath", "naturesblessing", "unnatural"],
+    "HANDLE": ["unnatural", "dnaengineering", "unnamed"],
+    "EXTRA": ["unnatural", "dnaengineering", "unnamed"],
+    "BOW": ["unnatural", "dnaengineering", "unnamed"],
+    "CORE": ["second_life_armor", "vengeful_armor", "geneticevolution2_armor"],
+    "PLATES": ["second_life_armor", "vengeful_armor", "geneticevolution2_armor"],
+    "TRIM": ["second_life_armor", "vengeful_armor", "geneticevolution2_armor"]
+  }
+}

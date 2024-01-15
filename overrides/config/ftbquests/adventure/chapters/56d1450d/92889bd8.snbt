@@ -1,0 +1,38 @@
+{
+	title: "§b出货率真高啊！",
+	x: -13.5d,
+	y: -6.0d,
+	description: "获得农场出货箱",
+	text: [
+		""
+	],
+	dependencies: [
+		"e4e83c3f"
+	],
+	tasks: [{
+		uid: "5efa7437",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			Damage: 3s,
+			tag: {
+				FarmBlock: 0
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "73b1153c",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "8dc62405",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "2dd45f53",
+		type: "item",
+		item: "additions:greedycraft-food_bag"
+	}]
+}

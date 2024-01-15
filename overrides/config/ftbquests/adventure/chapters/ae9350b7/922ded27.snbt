@@ -1,0 +1,36 @@
+{
+	title: "§b奇点即为永恒",
+	x: 7.5d,
+	y: 15.0d,
+	description: "获得黑洞残骸，用于复制永恒奇点",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "aa26c95c",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-black_hole_remnant"
+		}]
+	}],
+	rewards: [{
+		uid: "ddc40007",
+		type: "item",
+		item: "lootbags:itemlootbag 1 13"
+	},
+	{
+		uid: "97e205d0",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "1d75e235",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "7ef70dae",
+		type: "xp",
+		xp: 32767
+	}]
+}

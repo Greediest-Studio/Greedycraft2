@@ -1,0 +1,44 @@
+{
+	title: "§b纯白色",
+	x: -5.5d,
+	y: -1.5d,
+	description: "在花药台中制作白雏菊",
+	text: [
+		""
+	],
+	dependencies: [
+		"64242d07"
+	],
+	tasks: [{
+		uid: "6b704bce",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "42a568fb",
+		type: "item",
+		item: "minecraft:cobblestone",
+		count: 8
+	},
+	{
+		uid: "6191c5e5",
+		type: "item",
+		item: "minecraft:log",
+		count: 8
+	},
+	{
+		uid: "80105347",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "990db72b",
+		type: "random",
+		table: 0
+	}]
+}

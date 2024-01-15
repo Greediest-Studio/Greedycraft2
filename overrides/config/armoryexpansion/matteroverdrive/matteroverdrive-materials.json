@@ -1,0 +1,106 @@
+[
+  {
+    "bowMaterialStats": {
+      "drawspeed": 1.0,
+      "range": 1.0,
+      "bonusDamage": 0.0,
+      "materialType": "bow"
+    },
+    "arrowShaftMaterialStats": {
+      "modifier": 1.0,
+      "bonusAmmo": 0,
+      "materialType": "arrowshaft"
+    },
+    "projectileMaterialStats": {
+      "materialType": "projectile"
+    },
+    "headMaterialStats": {
+      "durability": 160,
+      "harvestLevel": 3,
+      "attack": -1.0,
+      "miningspeed": 3.8999999,
+      "materialType": "head"
+    },
+    "handleMaterialStats": {
+      "modifier": 2.6,
+      "durability": 28,
+      "materialType": "handle"
+    },
+    "extraMaterialStats": {
+      "extraDurability": 100,
+      "materialType": "extra"
+    },
+    "coreMaterialStats": {
+      "durability": 20.0,
+      "defense": 14.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 20.0,
+      "modifier": 1.875,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 2.5,
+      "materialType": "trim"
+    },
+    "identifier": "dilithium",
+    "color": 11184810,
+    "type": "METAL",
+    "castable": false,
+    "craftable": false
+  },
+  {
+    "bowMaterialStats": {
+      "drawspeed": 1.0,
+      "range": 1.0,
+      "bonusDamage": 0.0,
+      "materialType": "bow"
+    },
+    "arrowShaftMaterialStats": {
+      "modifier": 1.0,
+      "bonusAmmo": 0,
+      "materialType": "arrowshaft"
+    },
+    "projectileMaterialStats": {
+      "materialType": "projectile"
+    },
+    "headMaterialStats": {
+      "durability": 160,
+      "harvestLevel": 3,
+      "attack": -1.0,
+      "miningspeed": 3.8999999,
+      "materialType": "head"
+    },
+    "handleMaterialStats": {
+      "modifier": 2.6,
+      "durability": 28,
+      "materialType": "handle"
+    },
+    "extraMaterialStats": {
+      "extraDurability": 100,
+      "materialType": "extra"
+    },
+    "coreMaterialStats": {
+      "durability": 20.0,
+      "defense": 14.0,
+      "materialType": "core"
+    },
+    "platesMaterialStats": {
+      "durability": 20.0,
+      "modifier": 1.875,
+      "toughness": 0.0,
+      "materialType": "plates"
+    },
+    "trimMaterialStats": {
+      "extraDurability": 2.5,
+      "materialType": "trim"
+    },
+    "identifier": "tritanium",
+    "color": 11184810,
+    "type": "METAL",
+    "castable": false,
+    "craftable": false
+  }
+]

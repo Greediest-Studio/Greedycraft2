@@ -1,0 +1,38 @@
+{
+	title: "§b白银地牢",
+	x: 11.0d,
+	y: -9.0d,
+	description: "击杀武神女王，获得武神宝石",
+	text: [
+		""
+	],
+	dependencies: [
+		"879b4bb7"
+	],
+	tasks: [{
+		uid: "c1b93e4b",
+		type: "item",
+		items: [{
+			id: "additions:greedycraft-gem_of_valkyrie",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "902345cb",
+		type: "item",
+		item: "tinkersaether:valkyrie_ingot",
+		count: 24
+	},
+	{
+		uid: "2ba0adf5",
+		type: "xp",
+		xp: 1500
+	},
+	{
+		uid: "3315a9a2",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,50 @@
+{
+	title: "§b其他的小生物",
+	x: 4.0d,
+	y: 7.5d,
+	description: "捕捉泥潭蜗牛和洞螈",
+	text: [
+		""
+	],
+	dependencies: [
+		"37b7277d"
+	],
+	tasks: [{
+		uid: "0ec185c6",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:critter",
+			tag: {
+				Entity: {
+					id: "thebetweenlands:olm"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "564375e1",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:critter",
+			tag: {
+				Entity: {
+					id: "thebetweenlands:mire_snail"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1824eea6",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "248293b0",
+		type: "xp",
+		xp: 7000
+	}]
+}

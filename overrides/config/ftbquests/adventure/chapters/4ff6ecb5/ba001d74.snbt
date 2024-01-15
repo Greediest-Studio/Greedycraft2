@@ -1,0 +1,33 @@
+{
+	title: "§b掺杂了魔力的油脂",
+	x: -2.5d,
+	y: -4.0d,
+	description: "制作魔力油脂",
+	dependencies: [
+		"75992ca5"
+	],
+	tasks: [{
+		uid: "79165d1a",
+		type: "item",
+		items: [{
+			item: "thaumcraft:tallow"
+		}]
+	}],
+	rewards: [{
+		uid: "0a07de16",
+		type: "item",
+		item: "thaumcraft:tallow",
+		count: 16
+	},
+	{
+		uid: "f706471c",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "aa59efa4",
+		type: "command",
+		title: "这个指令是为了修复炼金杂项无法完成",
+		command: "/thaumcraft research @p HEDGEALCHEMY"
+	}]
+}

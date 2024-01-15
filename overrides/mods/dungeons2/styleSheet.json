@@ -1,0 +1,947 @@
+{
+	"styles": {
+		"default": {
+			"block": "minecraft:stonebrick@0",
+			"category": "default",
+			"decay": 15.0,
+			"decayBlocks": [
+				"minecraft:stonebrick@1",
+				"minecraft:stonebrick@2",
+				"minecraft:cobblestone@0",
+				"minecraft:gravel@0",
+				"minecraft:air@0"
+			]
+		},
+		"default-column": {
+			"block": "dungeons2:basic_facade_stonebrick@0",
+			"category": "default",
+			"decay": 15.0,
+			"decayBlocks": [
+				"dungeons2:basic_facade_stonebrick_mossy@0",
+				"dungeons2:basic_facade_stonebrick_cracked@0",
+				"dungeons2:basic_facade_cobblestone_mossy@0",
+				"minecraft:air@0"
+			]
+		},
+		"default-trim": {
+			"block": "minecraft:stone_brick_stairs@0",
+			"category": "default",
+			"decay": 15.0,
+			"decayBlocks": [
+				"minecraft:stone_brick_stairs@0",
+				"minecraft:stone_brick_stairs@0",
+				"minecraft:air@0"
+			]
+		},
+		"default-pilaster-base": {
+			"block": "minecraft:stonebrick@0",
+			"category": "default",
+			"decay": 5.0,
+			"decayBlocks": [
+				"minecraft:stonebrick@1",
+				"minecraft:air@0"
+			]
+		},
+		"default-plinth": {
+			"block": "minecraft:stone_brick_stairs@0",
+			"category": "default",
+			"decay": 15.0,
+			"decayBlocks": [
+				"minecraft:stone_brick_stairs@0",
+				"minecraft:stone_brick_stairs@0",
+				"minecraft:air@0"
+			]
+		},
+		"default-pilaster-capital": {
+			"block": "minecraft:stonebrick@0",
+			"category": "default",
+			"decay": 5.0,
+			"decayBlocks": [
+				"minecraft:stonebrick@1",
+				"minecraft:air@0"
+			]
+		},
+		"default-merlon": {
+			"block": "minecraft:stonebrick@0",
+			"category": "default",
+			"decay": 5.0,
+			"decayBlocks": [
+				"minecraft:stonebrick@1",
+				"minecraft:stonebrick@2",
+				"minecraft:cobblestone@0",
+				"minecraft:gravel@0",
+				"minecraft:air@0"
+			]
+		},
+		"default-coffered-crossbeam": {
+			"block": "dungeons2:coffer_stonebrick@0",
+			"category": "default",
+			"decay": 15.0,
+			"decayBlocks": [
+				"dungeons2:coffer_stonebrick_mossy@0",
+				"dungeons2:coffer_stonebrick_cracked@0",
+				"dungeons2:coffer_cobblestone@0",
+				"dungeons2:coffer_cobblestone_mossy@0",
+				"minecraft:air@0"
+			]
+		},
+		"default-grate": {
+			"block": "dungeons2:grate@1",
+			"category": "default",
+			"decay": 0.0,
+			"decayBlocks": []
+		},
+		"default-pilaster": {
+			"block": "dungeons2:basic_facade_stonebrick@0",
+			"category": "default",
+			"decay": 5.0,
+			"decayBlocks": [
+				"dungeons2:basic_facade_stonebrick_mossy@0",
+				"minecraft:air@0"
+			]
+		},
+		"default-coffered-midbeam": {
+			"block": "dungeons2:coffer_middle_stonebrick@0",
+			"category": "default",
+			"decay": 15.0,
+			"decayBlocks": [
+				"dungeons2:coffer_middle_stonebrick_mossy@0",
+				"dungeons2:coffer_middle_stonebrick_cracked@0",
+				"dungeons2:coffer_middle_cobblestone@0",
+				"dungeons2:coffer_middle_cobblestone_mossy@0",
+				"minecraft:air@0"
+			]
+		},
+		"default-ceiling": {
+			"block": "minecraft:stonebrick@0",
+			"category": "default",
+			"decay": 25.0,
+			"decayBlocks": [
+				"minecraft:stonebrick@1",
+				"minecraft:stonebrick@2",
+				"minecraft:cobblestone@0",
+				"minecraft:air@0",
+				"minecraft:gravel@0"
+			]
+		},
+		"default-capital": {
+			"block": "minecraft:stone_brick_stairs@4",
+			"category": "default",
+			"decay": 5.0,
+			"decayBlocks": [
+				"minecraft:stone_brick_stairs@4",
+				"minecraft:air@0"
+			]
+		},
+		"default-ladder-pillar": {
+			"block": "minecraft:stonebrick@0",
+			"category": "default",
+			"decay": 10.0,
+			"decayBlocks": [
+				"minecraft:stonebrick@1",
+				"minecraft:stonebrick@2",
+				"minecraft:cobblestone@0",
+				"minecraft:gravel@0",
+				"minecraft:air@0"
+			]
+		},
+		"default-wall": {
+			"block": "minecraft:stonebrick@0",
+			"category": "default",
+			"decay": 25.0,
+			"decayBlocks": [
+				"minecraft:stonebrick@1",
+				"minecraft:stonebrick@2",
+				"minecraft:cobblestone@0",
+				"minecraft:air@0",
+				"minecraft:gravel@0"
+			]
+		},
+		"default-wall-base": {
+			"block": "minecraft:stone@6",
+			"category": "default",
+			"decay": 5.0,
+			"decayBlocks": [
+				"minecraft:stonebrick@0",
+				"minecraft:gravel@0",
+				"minecraft:air@0"
+			]
+		},
+		"default-wall-capital": {
+			"block": "minecraft:stone@6",
+			"category": "default",
+			"decay": 5.0,
+			"decayBlocks": [
+				"minecraft:stonebrick@0",
+				"minecraft:gravel@0",
+				"minecraft:air@0"
+			]
+		},
+		"default-crown": {
+			"block": "dungeons2:crown_molding_stonebrick@0",
+			"category": "default",
+			"decay": 15.0,
+			"decayBlocks": [
+				"dungeons2:crown_molding_stonebrick_mossy@0",
+				"dungeons2:crown_molding_stonebrick_cracked@0",
+				"minecraft:air@0"
+			]
+		},
+		"default-cornice": {
+			"block": "dungeons2:cornice_stonebrick@0",
+			"category": "default",
+			"decay": 15.0,
+			"decayBlocks": [
+				"dungeons2:cornice_stonebrick_mossy@0",
+				"dungeons2:cornice_stonebrick_cracked@0",
+				"minecraft:air@0"
+			]
+		},
+		"default-base": {
+			"block": "minecraft:stone_brick_stairs@0",
+			"category": "default",
+			"decay": 5.0,
+			"decayBlocks": [
+				"minecraft:stone_brick_stairs@0",
+				"minecraft:air@0"
+			]
+		},
+		"default-floor": {
+			"block": "minecraft:stonebrick@0",
+			"category": "default",
+			"decay": 25.0,
+			"decayBlocks": [
+				"minecraft:stonebrick@1",
+				"minecraft:stonebrick@2",
+				"minecraft:cobblestone@0",
+				"minecraft:air@0",
+				"minecraft:gravel@0"
+			]
+		},
+		"default-floor-alt": {
+			"block": "minecraft:stone@6",
+			"category": "default",
+			"decay": 5.0,
+			"decayBlocks": [
+				"minecraft:gravel@0",
+				"minecraft:air@0"
+			]
+		},
+		"default-ladder": {
+			"block": "minecraft:ladder@0",
+			"category": "default",
+			"decay": 0.0,
+			"decayBlocks": []
+		},
+		"default-pillar": {
+			"block": "dungeons2:seven_eights_pillar_stonebrick@0",
+			"category": "default",
+			"decay": 15.0,
+			"decayBlocks": [
+				"dungeons2:seven_eights_pillar_stonebrick_mossy@0",
+				"dungeons2:seven_eights_pillar_stonebrick_cracked@0",
+				"dungeons2:seven_eights_pillar_cobblestone@0",
+				"dungeons2:seven_eights_pillar_cobblestone_mossy@0",
+				"minecraft:air@0"
+			]
+		},
+		"default-pillar-base": {
+			"block": "minecraft:stonebrick@0",
+			"category": "default",
+			"decay": 5.0,
+			"decayBlocks": [
+				"minecraft:stonebrick@1",
+				"minecraft:stonebrick@2",
+				"minecraft:cobblestone@0",
+				"minecraft:gravel@0",
+				"minecraft:air@0"
+			]
+		},
+		"default-pillar-capital": {
+			"block": "minecraft:stonebrick@0",
+			"category": "default",
+			"decay": 5.0,
+			"decayBlocks": [
+				"minecraft:stonebrick@1",
+				"minecraft:stonebrick@2",
+				"minecraft:cobblestone@0",
+				"minecraft:gravel@0",
+				"minecraft:air@0"
+			]
+		},
+		"default-parapet": {
+			"block": "minecraft:stonebrick@0",
+			"category": "default",
+			"decay": 5.0,
+			"decayBlocks": [
+				"minecraft:stonebrick@1",
+				"minecraft:stonebrick@2",
+				"minecraft:cobblestone@0",
+				"minecraft:gravel@0",
+				"minecraft:air@0"
+			]
+		},
+		"default-gutter": {
+			"block": "dungeons2:sill_stonebrick@0",
+			"category": "default",
+			"decay": 10.0,
+			"decayBlocks": [
+				"dungeons2:sill_stonebrick_mossy@0",
+				"dungeons2:sill_stonebrick_cracked@0",
+				"minecraft:air@0"
+			]
+		},
+		"default-window": {
+			"block": "minecraft:glass_pane@0",
+			"category": "default",
+			"decay": 0.0,
+			"decayBlocks": []
+		},
+		"bar-window": {
+			"block": "minecraft:iron_bars@0",
+			"category": "default",
+			"decay": 0.0,
+			"decayBlocks": []
+		},
+		"basic-stonebrick": {
+			"block": "minecraft:stonebrick@0",
+			"category": "basic",
+			"decay": 15.0,
+			"decayBlocks": [
+				"minecraft:stonebrick@1",
+				"minecraft:stonebrick@2",
+				"minecraft:cobblestone@0",
+				"minecraft:gravel@0",
+				"minecraft:air@0"
+			]
+		},
+		"basic-pilaster-base-stonebrick": {
+			"block": "minecraft:stonebrick@0",
+			"category": "basic",
+			"decay": 25.0,
+			"decayBlocks": [
+				"minecraft:stonebrick@1",
+				"minecraft:stonebrick@2",
+				"minecraft:cobblestone@0",
+				"minecraft:gravel@0",
+				"minecraft:air@0"
+			]
+		},
+		"basic-pilaster-capital-stonebrick": {
+			"block": "minecraft:stonebrick@0",
+			"category": "basic",
+			"decay": 25.0,
+			"decayBlocks": [
+				"minecraft:stonebrick@1",
+				"minecraft:stonebrick@2",
+				"minecraft:cobblestone@0",
+				"minecraft:gravel@0",
+				"minecraft:air@0"
+			]
+		},
+		"basic-pilaster-stonebrick": {
+			"block": "dungeons2:basic_facade_stonebrick@0",
+			"category": "basic",
+			"decay": 25.0,
+			"decayBlocks": [
+				"dungeons2:basic_facade_stonebrick_mossy@0",
+				"dungeons2:basic_facade_stonebrick_cracked@0",
+				"dungeons2:basic_facade_cobblestone@0",
+				"dungeons2:basic_facade_cobblestone_mossy@0",
+				"minecraft:air@0"
+			]
+		},
+		"half-pillar-base-stonebrick": {
+			"block": "dungeons2:half_pillar_base_stonebrick@1",
+			"category": "default",
+			"decay": 15.0,
+			"decayBlocks": [
+				"dungeons2:half_pillar_base_stonebrick@1",
+				"dungeons2:half_pillar_base_stonebrick_mossy@1",
+				"dungeons2:half_pillar_base_stonebrick_cracked@1",
+				"dungeons2:half_pillar_base_cobblestone@1",
+				"minecraft:air@0"
+			]
+		},
+		"trim-stonebrick": {
+			"block": "minecraft:stone_brick_stairs@0",
+			"category": "stonebrick",
+			"decay": 15.0,
+			"decayBlocks": [
+				"minecraft:stone_brick_stairs@0",
+				"minecraft:stone_brick_stairs@0",
+				"minecraft:air@0"
+			]
+		},
+		"cobblestone-hallway-floor": {
+			"block": "minecraft:cobblestone@0",
+			"category": "cobblestone",
+			"decay": 20.0,
+			"decayBlocks": [
+				"minecraft:mossy_cobblestone@0",
+				"minecraft:gravel@0",
+				"minecraft:dirt@0",
+				"minecraft:air@0"
+			]
+		},
+		"crown-stonebrick": {
+			"block": "minecraft:stone_brick_stairs@4",
+			"category": "stonebrick",
+			"decay": 15.0,
+			"decayBlocks": [
+				"minecraft:stone_brick_stairs@4",
+				"minecraft:stone_brick_stairs@4",
+				"minecraft:air@0"
+			]
+		},
+		"se-pilaster-stonebrick": {
+			"block": "dungeons2:seven_eights_pillar_stonebrick@0",
+			"category": "pilaster",
+			"decay": 25.0,
+			"decayBlocks": [
+				"dungeons2:seven_eights_pillar_stonebrick_mossy@0",
+				"dungeons2:seven_eights_pillar_stonebrick_cracked@0",
+				"dungeons2:seven_eights_pillar_cobblestone@0",
+				"dungeons2:seven_eights_pillar_cobblestone_mossy@0",
+				"minecraft:air@0"
+			]
+		},
+		"half-pillar-stonebrick": {
+			"block": "dungeons2:half_pillar_stonebrick@0",
+			"category": "default",
+			"decay": 15.0,
+			"decayBlocks": [
+				"dungeons2:half_pillar_stonebrick@0",
+				"dungeons2:half_pillar_stonebrick_mossy@0",
+				"dungeons2:half_pillar_stonebrick_cracked@0",
+				"dungeons2:half_pillar_cobblestone@0",
+				"minecraft:air@0"
+			]
+		},
+		"half-pillar-capital-stonebrick": {
+			"block": "dungeons2:half_pillar_base_stonebrick@0",
+			"category": "pillar",
+			"decay": 15.0,
+			"decayBlocks": [
+				"dungeons2:half_pillar_base_stonebrick@0",
+				"dungeons2:half_pillar_base_stonebrick_mossy@0",
+				"dungeons2:half_pillar_base_stonebrick_cracked@0",
+				"dungeons2:half_pillar_base_cobblestone@0",
+				"minecraft:air@0"
+			]
+		},
+		"entrance-wall-stonebrick": {
+			"block": "minecraft:stonebrick@0",
+			"category": "entrance",
+			"decay": 25.0,
+			"decayBlocks": [
+				"minecraft:stonebrick@1",
+				"minecraft:stonebrick@2",
+				"minecraft:mossy_cobblestone@0",
+				"minecraft:air@0",
+				"minecraft:leaves@0"
+			]
+		},
+		"se-pilaster-capital-stonebrick": {
+			"block": "minecraft:stonebrick@0",
+			"category": "pilaster",
+			"decay": 25.0,
+			"decayBlocks": [
+				"minecraft:stonebrick@1",
+				"minecraft:stonebrick@2",
+				"minecraft:cobblestone@0",
+				"minecraft:gravel@0",
+				"minecraft:air@0"
+			]
+		},
+		"se-pilaster-base-stonebrick": {
+			"block": "minecraft:stonebrick@0",
+			"category": "pilaster",
+			"decay": 25.0,
+			"decayBlocks": [
+				"minecraft:stonebrick@1",
+				"minecraft:stonebrick@2",
+				"minecraft:cobblestone@0",
+				"minecraft:gravel@0",
+				"minecraft:air@0"
+			]
+		},
+		"slab-trim": {
+			"block": "minecraft:stone_slab@5",
+			"category": "default",
+			"decay": 15.0,
+			"decayBlocks": [
+				"minecraft:stone_slab@3",
+				"minecraft:air@0"
+			]
+		},
+		"slab-crown": {
+			"block": "minecraft:stone_slab@13",
+			"category": "default",
+			"decay": 15.0,
+			"decayBlocks": [
+				"minecraft:stone_slab@11",
+				"minecraft:air@0"
+			]
+		},
+		"facade-trim": {
+			"block": "dungeons2:basic_facade_stonebrick@0",
+			"category": "default",
+			"decay": 15.0,
+			"decayBlocks": [
+				"dungeons2:basic_facade_stonebrick_mossy@0",
+				"dungeons2:basic_facade_stonebrick_cracked@0",
+				"dungeons2:basic_facade_cobblestone_mossy@0",
+				"minecraft:air@0"
+			]
+		},
+		"facade-crown": {
+			"block": "dungeons2:basic_facade_stonebrick@0",
+			"category": "default",
+			"decay": 15.0,
+			"decayBlocks": [
+				"dungeons2:basic_facade_stonebrick_mossy@0",
+				"dungeons2:basic_facade_stonebrick_cracked@0",
+				"dungeons2:basic_facade_cobblestone_mossy@0",
+				"minecraft:air@0"
+			]
+		},
+		"stairs-crown": {
+			"block": "minecraft:stone_brick_stairs@4",
+			"category": "default",
+			"decay": 15.0,
+			"decayBlocks": [
+				"minecraft:stone_brick_stairs@4",
+				"minecraft:stone_stairs@4",
+				"minecraft:air@0"
+			]
+		},
+		"t-pilaster": {
+			"block": "dungeons2:tee_pillar_stonebrick@0",
+			"category": "default",
+			"decay": 20.0,
+			"decayBlocks": [
+				"dungeons2:tee_pillar_stonebrick_mossy@0",
+				"dungeons2:tee_pillar_stonebrick_cracked@0",
+				"dungeons2:tee_pillar_cobblestone_mossy@0",
+				"minecraft:air@0"
+			]
+		},
+		"thin-t-pilaster": {
+			"block": "dungeons2:tee_thin_pillar_stonebrick@0",
+			"category": "default",
+			"decay": 20.0,
+			"decayBlocks": [
+				"dungeons2:tee_thin_pillar_stonebrick_mossy@0",
+				"dungeons2:tee_thin_pillar_stonebrick_cracked@0",
+				"dungeons2:tee_thin_pillar_cobblestone_mossy@0",
+				"minecraft:air@0"
+			]
+		}
+	},
+	"layouts": {
+		"default": {
+			"useAll": false,
+			"frames": {
+				"PLINTH": {
+					"style": "default-plinth"
+				},
+				"CROWN": {
+					"style": "default-crown"
+				},
+				"TRIM": {
+					"style": "default-trim"
+				},
+				"LADDER": {
+					"style": "default-ladder"
+				},
+				"PILLAR": {
+					"style": "default-pillar"
+				},
+				"COLUMN": {
+					"style": "default-column"
+				},
+				"PILLAR_BASE": {
+					"style": "default-pillar-base"
+				},
+				"PILASTER": {
+					"style": "default-pilaster"
+				},
+				"COFFERED_CROSSBEAM": {
+					"style": "default-coffered-crossbeam"
+				},
+				"BASE": {
+					"style": "default-base"
+				},
+				"FLOOR": {
+					"style": "default-floor"
+				},
+				"FLOOR_ALT": {
+					"style": "default-floor-alt"
+				},
+				"PILLAR_CAPITAL": {
+					"style": "default-pillar-capital"
+				},
+				"LADDER_PILLAR": {
+					"style": "default-ladder-pillar"
+				},
+				"PARAPET": {
+					"style": "default-parapet"
+				},
+				"WALL": {
+					"style": "default-wall"
+				},
+				"WALL_BASE": {
+					"style": "default-wall-base"
+				},
+				"WALL_CAPITAL": {
+					"style": "default-wall-capital"
+				},
+				"COFFERED_MIDBEAM": {
+					"style": "default-coffered-midbeam"
+				},
+				"PILASTER_CAPITAL": {
+					"style": "default-pilaster-capital"
+				},
+				"MERLON": {
+					"style": "default-merlon"
+				},
+				"GUTTER": {
+					"style": "default-gutter"
+				},
+				"GRATE": {
+					"style": "default-grate"
+				},
+				"WINDOW": {
+					"style": "default-window"
+				},
+				"FACADE_SUPPORT": {
+					"style": "default-wall"
+				},
+				"CEILING": {
+					"style": "default-ceiling"
+				},
+				"PILASTER_BASE": {
+					"style": "default-pilaster-base"
+				},
+				"CORNICE": {
+					"style": "default-cornice"
+				},
+				"CAPITAL": {
+					"style": "default-capital"
+				}
+			}
+		},
+		"hallway": {
+			"category": "hallway",
+			"useAll": false,
+			"frames": {
+				"FLOOR": {
+					"alias": "basic-hallway-floor"
+				},
+				"WALL": {
+					"alias": "basic"
+				},
+				"CEILING": {
+					"alias": "basic"
+				}
+			}
+		},
+		"end-room": {
+			"ref": "base",
+			"category": "end",
+			"useAll": false,
+			"frames": {
+				"FLOOR": {
+					"style": "default-floor"
+				},
+				"PILASTER_BASE": {
+					"alias": "pilaster-base-1"
+				},
+				"PILASTER": {
+					"alias": "pilaster-2"
+				}
+			}
+		},
+		"boss-room": {
+			"ref": "base",
+			"category": "boss",
+			"useAll": false,
+			"frames": {
+				"FLOOR": {
+					"style": "default-floor"
+				},
+				"WALL": {
+					"style": "default-wall"
+				},
+				"CEILING": {
+					"style": "default-ceiling"
+				}
+			}
+		},
+		"entrance": {
+			"ref": "base",
+			"category": "entrance",
+			"useAll": false,
+			"frames": {
+				"WALL": {
+					"alias": "entrance-wall"
+				}
+			}
+		},
+		"entrance2": {
+			"ref": "entrance1",
+			"category": "entrance",
+			"useAll": false,
+			"frames": {
+				"WINDOW": {
+					"alias": "entrance-window"
+				}
+			}
+		},
+		"room1": {
+			"ref": "base",
+			"category": "room",
+			"useAll": false,
+			"frames": {
+				"PILLAR": {
+					"alias": "pillar-1"
+				},
+				"PILLAR_CAPITAL": {
+					"alias": "pillar-capital-1"
+				},
+				"PILASTER_CAPITAL": {
+					"alias": "pilaster-capital-1"
+				},
+				"PILASTER_BASE": {
+					"alias": "pilaster-base-1"
+				},
+				"PILLAR_BASE": {
+					"alias": "pillar-base-1"
+				},
+				"PILASTER": {
+					"alias": "pilaster-1"
+				}
+			}
+		},
+		"start-room": {
+			"ref": "base",
+			"category": "start",
+			"useAll": false,
+			"frames": {
+				"PILASTER_CAPITAL": {
+					"alias": "pilaster-capital-1"
+				},
+				"PILASTER_BASE": {
+					"alias": "pilaster-base-1"
+				},
+				"PILASTER": {
+					"alias": "pilaster-1"
+				}
+			}
+		},
+		"room2": {
+			"ref": "base",
+			"category": "room",
+			"useAll": false,
+			"frames": {
+				"PILASTER_CAPITAL": {
+					"alias": "pilaster-capital-2"
+				},
+				"PILASTER_BASE": {
+					"alias": "pilaster-base-2"
+				},
+				"PILASTER": {
+					"alias": "pilaster-2"
+				}
+			}
+		},
+		"base": {
+			"ref": "default",
+			"category": "default",
+			"useAll": false,
+			"frames": {}
+		},
+		"room3": {
+			"ref": "room1",
+			"category": "room",
+			"useAll": false,
+			"frames": {
+				"CROWN": {
+					"alias": "crown-2"
+				},
+				"TRIM": {
+					"alias": "trim-2"
+				}
+			}
+		},
+		"room4": {
+			"ref": "room2",
+			"category": "room",
+			"useAll": false,
+			"frames": {
+				"CROWN": {
+					"alias": "crown-2"
+				},
+				"TRIM": {
+					"alias": "trim-2"
+				}
+			}
+		},
+		"room5": {
+			"ref": "room1",
+			"category": "room",
+			"useAll": false,
+			"frames": {
+				"CROWN": {
+					"alias": "crown-3"
+				},
+				"TRIM": {
+					"alias": "trim-3"
+				}
+			}
+		},
+		"room6": {
+			"ref": "room2",
+			"category": "room",
+			"useAll": false,
+			"frames": {
+				"CROWN": {
+					"alias": "crown-3"
+				},
+				"TRIM": {
+					"alias": "trim-3"
+				}
+			}
+		},
+		"room7": {
+			"ref": "base",
+			"category": "room",
+			"useAll": false,
+			"frames": {
+				"CROWN": {
+					"alias": "crown-4"
+				}
+			}
+		},
+		"room8": {
+			"ref": "base",
+			"category": "room",
+			"useAll": false,
+			"frames": {
+				"PILASTER_CAPITAL": {
+					"alias": "pilaster-capital-3"
+				},
+				"PILASTER_BASE": {
+					"alias": "pilaster-base-3"
+				},
+				"PILASTER": {
+					"alias": "pilaster-3"
+				}
+			}
+		},
+		"room9": {
+			"ref": "room1",
+			"category": "room",
+			"useAll": false,
+			"frames": {
+				"PILASTER_CAPITAL": {
+					"alias": "pilaster-capital-4"
+				},
+				"PILASTER_BASE": {
+					"alias": "pilaster-base-4"
+				},
+				"PILASTER": {
+					"alias": "pilaster-4"
+				}
+			}
+		}
+	},
+	"themes": {
+		"standard": {
+			"aliases": {
+				"pillar-base-1": {
+					"style": "half-pillar-base-stonebrick"
+				},
+				"hallway": {
+					"style": "basic-stonebrick"
+				},
+				"pilaster-base-2": {
+					"style": "basic-pilaster-base-stonebrick"
+				},
+				"pilaster-base-1": {
+					"style": "se-pilaster-base-stonebrick"
+				},
+				"pillar-1": {
+					"style": "half-pillar-stonebrick"
+				},
+				"trim": {
+					"style": "trim-stonebrick"
+				},
+				"pilaster-capital-1": {
+					"style": "se-pilaster-capital-stonebrick"
+				},
+				"pilaster-2": {
+					"style": "basic-pilaster-stonebrick"
+				},
+				"basic": {
+					"style": "basic-stonebrick"
+				},
+				"pilaster-1": {
+					"style": "se-pilaster-stonebrick"
+				},
+				"pillar-capital-1": {
+					"style": "half-pillar-capital-stonebrick"
+				},
+				"basic-hallway-floor": {
+					"style": "basic-stonebrick"
+				},
+				"entrance-wall": {
+					"style": "entrance-wall-stonebrick"
+				},
+				"entrance-window": {
+					"style": "bar-window"
+				},
+				"pilaster-capital-2": {
+					"style": "basic-pilaster-capital-stonebrick"
+				},
+				"crown": {
+					"style": "crown-stonebrick"
+				},
+				"crown-2": {
+					"style": "slab-crown"
+				},
+				"trim-2": {
+					"style": "slab-trim"
+				},
+				"crown-3": {
+					"style": "facade-crown"
+				},
+				"trim-3": {
+					"style": "facade-trim"
+				},
+				"crown-4": {
+					"style": "stairs-crown"
+				},
+				"pilaster-base-3": {
+					"style": "default-pillar-base"
+				},
+				"pilaster-capital-3": {
+					"style": "default-pillar-base"
+				},
+				"pilaster-3": {
+					"style": "t-pilaster"
+				},
+				"pilaster-base-4": {
+					"style": "default-pillar-base"
+				},
+				"pilaster-capital-4": {
+					"style": "default-pillar-base"
+				},
+				"pilaster-4": {
+					"style": "thin-t-pilaster"
+				}
+			}
+		}
+	}
+}

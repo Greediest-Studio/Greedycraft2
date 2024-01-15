@@ -1,0 +1,87 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:sponsor2-bald",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "potion": {
+        "name": "minecraft:resistance",
+        "duration": 600,
+        "amplifier": 3,
+        "ambient": false,
+        "show_particles": false
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:strength",
+        "duration": 600,
+        "amplifier": 9,
+        "ambient": false,
+        "show_particles": false
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:speed",
+        "duration": 600,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": false
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:jump_boost",
+        "duration": 600,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": false
+      },
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:nausea",
+        "duration": 1200,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": false
+      },
+      "reapplication_delay": 600,
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:poison",
+        "duration": 1200,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": false
+      },
+      "reapplication_delay": 600,
+      "type": "additions:potion"
+    },
+    {
+      "potion": {
+        "name": "minecraft:wither",
+        "duration": 1200,
+        "amplifier": 2,
+        "ambient": false,
+        "show_particles": false
+      },
+      "reapplication_delay": 600,
+      "type": "additions:potion"
+    },
+    {
+      "type": "additions:consume_item"
+    }
+  ]
+}

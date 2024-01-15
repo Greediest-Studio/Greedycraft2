@@ -1,0 +1,38 @@
+{
+	title: "§b怪物杀手 III",
+	x: -5.0d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"ad4540d0"
+	],
+	tasks: [{
+		uid: "71b6afd0",
+		type: "stat",
+		icon: "minecraft:iron_sword",
+		stat: "stat.mobKills",
+		value: 1500
+	}],
+	rewards: [{
+		uid: "3aa4f40b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "e61e1dd5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "§b未来的命运！",
+	x: 2.5d,
+	y: 9.0d,
+	description: "获得泥潭蜗牛蛋",
+	text: [
+		""
+	],
+	dependencies: [
+		"a50d8053"
+	],
+	tasks: [{
+		uid: "a15aed8d",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:mire_snail_egg"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3d77724c",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "01f845a2",
+		type: "xp",
+		xp: 5000
+	}]
+}

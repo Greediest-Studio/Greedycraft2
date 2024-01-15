@@ -1,0 +1,16 @@
+{
+	title: "§b套娃终于结束了？",
+	x: 8.5d,
+	y: 1.5d,
+	description: "该物品是未完成物品",
+	dependencies: [
+		"0208662b"
+	],
+	tasks: [{
+		uid: "0db39de5",
+		type: "item",
+		items: [{
+			item: "additions:bloody-slate_9"
+		}]
+	}]
+}

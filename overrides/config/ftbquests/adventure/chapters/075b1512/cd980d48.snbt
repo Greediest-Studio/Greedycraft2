@@ -1,0 +1,68 @@
+{
+	title: "§b旅行家 II",
+	x: -3.5d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"c78579dc"
+	],
+	tasks: [{
+		uid: "6f4cf8f9",
+		type: "stat",
+		icon: "minecraft:chainmail_leggings",
+		stat: "stat.walkOneCm",
+		value: 800000
+	}],
+	rewards: [{
+		uid: "eb9bee2d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "9c0b63fb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "1c61b4d3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "1b999492",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "70d130d1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	}]
+}

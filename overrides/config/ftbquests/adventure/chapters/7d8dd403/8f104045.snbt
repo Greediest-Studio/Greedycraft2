@@ -1,0 +1,35 @@
+{
+	title: "§b鲜血宝石",
+	x: -18.5d,
+	y: 4.5d,
+	description: "在下界的顶端挖掘渗血晶矿",
+	text: [
+		""
+	],
+	dependencies: [
+		"64b213db"
+	],
+	tasks: [{
+		uid: "1b121917",
+		type: "item",
+		items: [{
+			item: "journey:bleedstoneore"
+		}]
+	}],
+	rewards: [{
+		uid: "1d57797a",
+		type: "item",
+		item: "journey:bleedstone",
+		count: 16
+	},
+	{
+		uid: "3516298d",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "c4e47604",
+		type: "xp",
+		xp: 1000
+	}]
+}

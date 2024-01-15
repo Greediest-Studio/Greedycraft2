@@ -1,0 +1,94 @@
+{
+  "name": "darkice",
+  "tool": {
+    "head": {
+      "attackDamage": 19.0,
+      "speed": 16.0,
+      "durability": 200,
+      "harvestLevel": 7
+    },
+    "handle": {
+      "modifier": 1.9,
+      "durability": 80
+    },
+    "extra": {
+      "durability": 100
+    },
+    "bow": {
+      "speed": 0.8,
+      "range": 0.6,
+      "bonusDamage": 10
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 60.0,
+      "defense": 32
+    },
+    "plates": {
+      "modifier": 3.2,
+      "durability": 45.0,
+      "toughness": 1.5
+    },
+    "trim": {
+      "extraDurability": 40.0
+    }
+  },
+  "color": "#0707a9",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 200,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 2000,
+    "density": 1000,
+    "temperature": 200,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Darkice",
+    "zh_cn": "黑冰"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:greedycraft-darkice_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["dark","freezed"],
+    "HANDLE": ["dark","freezed"],
+    "EXTRA": ["dark","freezed"],
+    "BOW": ["dark","freezed"],
+    "CORE": ["undefeatable_armor","cryonic_armor"],
+    "PLATES": ["undefeatable_armor","cryonic_armor"],
+    "TRIM": ["undefeatable_armor","cryonic_armor"]
+  }
+}

@@ -1,0 +1,29 @@
+{
+	title: "§b又来了，光明之旅的最后一程",
+	x: -14.0d,
+	y: 13.5d,
+	description: "合成迷雾丛林结界石",
+	text: [
+		""
+	],
+	dependencies: [
+		"3fdc52b8"
+	],
+	tasks: [{
+		uid: "842217aa",
+		type: "item",
+		items: [{
+			item: "journey:terraniaportalframe"
+		}]
+	}],
+	rewards: [{
+		uid: "fc12bf40",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "edb5888d",
+		type: "xp",
+		xp: 5000
+	}]
+}

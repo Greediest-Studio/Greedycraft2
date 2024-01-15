@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "重晶石矿石",
+    "tooltip": "§3§o在噬渊的上层出现。",
+    "ore_dict": "oreBarite",
+    "type": "additions:block_simple"
+  },
+  "name": "重晶石矿石",
+  "material": "minecraft:stone",
+  "hardness": 50.0,
+  "harvest_level": 8,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

@@ -1,0 +1,19 @@
+{
+	title: "§b黄金地牢",
+	x: 14.0d,
+	y: -12.0d,
+	description: "击杀烈阳巨灵，获得烈阳神晶",
+	text: [
+		""
+	],
+	dependencies: [
+		"fe753cdf"
+	],
+	tasks: [{
+		uid: "91c19d05",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-sun_crystal"
+		}]
+	}]
+}

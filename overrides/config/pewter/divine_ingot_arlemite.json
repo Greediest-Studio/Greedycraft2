@@ -1,0 +1,134 @@
+{
+    "name": "arlemite",
+    "tool": {
+      "bow": {
+        "speed": 1.64,
+        "range": 1.1,
+        "bonusDamage": 2
+      },
+      "fletching": {
+        "accuracy": 0.5,
+        "modifier": 0.0
+      },
+      "head": {
+        "attackDamage": 8.8,
+        "speed": 4.4,
+        "durability": 660,
+        "harvestLevel": 4
+      },
+      "handle": {
+        "modifier": 1.0,
+        "durability": 120
+      },
+      "arrowShaft": {
+        "modifier": 1.1,
+        "bonusAmmo": 5
+      },
+      "bowstring": {
+        "modifier": 1.1
+      },
+      "extra": {
+        "durability": 80
+      }
+    },
+    "color": "#a7ff72",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 625,
+    "looks": {
+      "shininess": 0.6,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "PROJECTILE",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Arlemite",
+      "zh_cn": "阿勒米特"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "divinerpg:arlemite_ingot"
+      ],
+      "block": [
+        "divinerpg:arlemite_block"
+      ],
+      "nugget": [
+        "divinerpg:arlemite_nugget"
+      ],
+      "ore": [
+        "divinerpg:arlemite_ore"
+      ],
+      "dust": [
+      ],
+      "plate": [
+      ],
+      "gear": [
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "durability": 19.7,
+        "defense": 20
+      },
+      "plates": {
+        "modifier": 1.6,
+        "durability": 10,
+        "toughness": 1
+      },
+      "trim": {
+        "extraDurability": 10
+      }
+    },
+    "specificTraits": {
+      "EXTRA": [
+        "sovereign"
+      ],
+      "HEAD": [
+        "insatiable"
+      ],
+      "HANDLE": [
+        "sovereign"
+      ],
+      "BOW": [
+        "insatiable"
+      ],
+      "PROJECTILE": [
+        "sovereign"
+      ],
+      "CORE": [
+        "vengeful_armor"
+      ],
+      "PLATES": [
+        "skeletal_armor"
+      ],
+      "TRIM": [
+        "skeletal_armor"
+      ]
+    }
+  }

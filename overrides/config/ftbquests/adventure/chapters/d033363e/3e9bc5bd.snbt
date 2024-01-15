@@ -1,0 +1,14 @@
+{
+	x: -9.5d,
+	y: 5.0d,
+	dependencies: [
+		"e6cb5274"
+	],
+	tasks: [{
+		uid: "22704780",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_covalence_dust"
+		}]
+	}]
+}

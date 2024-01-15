@@ -1,0 +1,43 @@
+{
+  "name": "valonite_cluster",
+  "color": "#c8b2c8",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Valonite Cluster",
+    "zh_cn": "法罗钠晶簇"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:greedycraft-valonitedruse"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  }
+}

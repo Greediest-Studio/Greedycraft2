@@ -1,0 +1,33 @@
+{
+	title: "§b仪式入门",
+	x: -3.5d,
+	y: -0.5d,
+	dependencies: [
+		"4c9da309"
+	],
+	tasks: [{
+		uid: "e6a5466a",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_diviner"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ae184ef6",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "021407b2",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "67e73e4e",
+		type: "xp",
+		xp: 1000
+	}]
+}

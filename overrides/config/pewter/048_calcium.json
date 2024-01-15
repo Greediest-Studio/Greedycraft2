@@ -1,0 +1,94 @@
+{
+  "name": "calcium",
+  "tool": {
+    "head": {
+      "attackDamage": 12,
+      "speed": 11,
+      "durability": 100,
+      "harvestLevel": 5
+    },
+    "handle": {
+      "modifier": 0.4,
+      "durability": 20
+    },
+    "extra": {
+      "durability": 30
+    },
+    "bow": {
+      "speed": 0.3,
+      "range": 1.4,
+      "bonusDamage": 8
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 8,
+      "defense": 18
+    },
+    "plates": {
+      "modifier": 0.4,
+      "durability": 3,
+      "toughness": 4
+    },
+    "trim": {
+      "extraDurability": 3
+    }
+  },
+  "color": "#f4f3ea",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Calcium",
+    "zh_cn": "钙"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:elements-calcium_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["alkalinity", "lightweight"],
+    "HANDLE": ["alkalinity", "lightweight"],
+    "EXTRA": ["alkalinity", "lightweight"],
+    "BOW": ["alkalinity", "lightweight"],
+    "CORE": ["bouncy_armor", "featherweight_armor"],
+    "PLATES": ["bouncy_armor", "featherweight_armor"],
+    "TRIM": ["bouncy_armor", "featherweight_armor"]
+  }
+}

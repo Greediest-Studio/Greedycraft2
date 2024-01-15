@@ -1,0 +1,35 @@
+{
+	title: "§b相容相斥",
+	x: -8.0d,
+	y: 10.0d,
+	description: "合成黑檀木与白象牙",
+	text: [
+		""
+	],
+	dependencies: [
+		"518ac07a"
+	],
+	tasks: [{
+		uid: "574e16b3",
+		type: "item",
+		items: [{
+			item: "additions:link-ebony_and_lvory"
+		}]
+	}],
+	rewards: [{
+		uid: "00990efc",
+		type: "item",
+		item: "additions:link-ebony_and_lvory",
+		count: 2
+	},
+	{
+		uid: "3d121430",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "7f64bad4",
+		type: "xp",
+		xp: 10000
+	}]
+}

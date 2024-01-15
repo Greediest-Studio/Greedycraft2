@@ -1,0 +1,32 @@
+{
+	title: "§b蕴含了各种意志的金属",
+	x: 0.5d,
+	y: 5.5d,
+	description: "制作猩红锭",
+	dependencies: [
+		"cb767f8b"
+	],
+	tasks: [{
+		uid: "57191092",
+		type: "item",
+		items: [{
+			item: "additions:crimsonite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "9235aa2b",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "b91baa82",
+		type: "item",
+		item: "additions:crimsonite_ingot",
+		count: 3
+	},
+	{
+		uid: "0b8e55cc",
+		type: "xp",
+		xp: 3000
+	}]
+}

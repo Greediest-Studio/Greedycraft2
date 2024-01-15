@@ -1,0 +1,40 @@
+{
+	title: "§b吹响暮光的号角",
+	x: 3.0d,
+	y: 11.0d,
+	description: "合成暮光之钟",
+	text: [
+		"用于激活五个暮光维度传送门",
+		"1：用神圣岩石搭建传送门的样子（伊甸维度）",
+		"2：用伊甸块搭建传送门的样子（原始维度）",
+		"3：用原始块搭建传送门的样子（阿帕拉契亚维度）",
+		"4：用阿帕拉契亚块搭建传送门的样子（冰刺维度）",
+		"5：用冰刺块搭建传送门的样子（黑金维度）",
+		"§b温馨提示：黑金维度的boos不需要找祭坛召唤",
+		"§b只需要制作相对应的召唤水晶，在黑金维度召唤就行"
+	],
+	dependencies: [
+		"5a26917f",
+		"1c50552b",
+		"11df9bdc"
+	],
+	tasks: [{
+		uid: "718f827c",
+		type: "item",
+		items: [{
+			item: "divinerpg:twilight_clock"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fed87371",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "a16fa515",
+		type: "xp",
+		xp: 2000
+	}]
+}

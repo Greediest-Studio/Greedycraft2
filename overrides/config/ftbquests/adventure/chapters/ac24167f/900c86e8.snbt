@@ -1,0 +1,32 @@
+{
+	title: "§b森林仪式的符文",
+	x: -7.5d,
+	y: 3.0d,
+	description: "获得金叶粉",
+	dependencies: [
+		"76a1d5fc"
+	],
+	tasks: [{
+		uid: "f2aba3e3",
+		type: "item",
+		items: [{
+			item: "naturesaura:gold_powder"
+		}]
+	}],
+	rewards: [{
+		uid: "c8010e49",
+		type: "item",
+		item: "naturesaura:gold_powder",
+		count: 8
+	},
+	{
+		uid: "9b7b4fe7",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "5e450ed7",
+		type: "random",
+		table: 2
+	}]
+}

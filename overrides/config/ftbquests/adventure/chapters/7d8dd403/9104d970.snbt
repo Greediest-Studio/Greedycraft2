@@ -1,0 +1,49 @@
+{
+	title: "§b观察一切",
+	x: 3.0d,
+	y: 6.5d,
+	description: "合成观察者之呼唤",
+	text: [
+		""
+	],
+	dependencies: [
+		"a29a289d"
+	],
+	tasks: [{
+		uid: "0f4a827f",
+		type: "item",
+		items: [{
+			item: "divinerpg:call_of_the_watcher"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ee9d13c8",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "divinerpg:ender_watcher"
+				}
+			}
+		}
+	},
+	{
+		uid: "8f4fef23",
+		type: "item",
+		item: "minecraft:ender_eye",
+		count: 16
+	},
+	{
+		uid: "206c2498",
+		type: "xp",
+		xp: 1500
+	},
+	{
+		uid: "4dcb3485",
+		type: "random",
+		table: 1
+	}]
+}

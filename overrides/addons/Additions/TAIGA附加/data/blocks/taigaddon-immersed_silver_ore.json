@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "沉银矿石",
+    "ore_dict": "oreSilverImmersed",
+    "type": "additions:block_simple"
+  },
+  "name": "沉银矿石",
+  "material": "minecraft:stone",
+  "hardness": 30.0,
+  "resistance": 2.0,
+  "harvest_level": 10,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

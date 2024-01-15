@@ -1,0 +1,29 @@
+{
+	title: "§b能够证明自己的发电机器",
+	x: -19.5d,
+	y: 3.0d,
+	description: "获得发条引擎",
+	text: [
+		""
+	],
+	dependencies: [
+		"0159b611"
+	],
+	tasks: [{
+		uid: "145ea06c",
+		type: "item",
+		items: [{
+			item: "forestry:engine_clockwork"
+		}]
+	}],
+	rewards: [{
+		uid: "3e0544e3",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "232f1413",
+		type: "loot",
+		table: 2
+	}]
+}

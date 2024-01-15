@@ -1,0 +1,46 @@
+{
+	title: "§b我来自黑暗深处",
+	icon: "twilightforest:miniature_structure",
+	x: -8.0d,
+	y: 9.5d,
+	description: "前往暮色森林维度",
+	text: [
+		""
+	],
+	dependencies: [
+		"132f819d"
+	],
+	tasks: [{
+		uid: "a0fd71fd",
+		type: "dimension",
+		dim: 7
+	}],
+	rewards: [{
+		uid: "ae7492f7",
+		type: "advancement",
+		auto: "no_toast",
+		advancement: "twilightforest:root",
+		criterion: ""
+	},
+	{
+		uid: "fd8f4b51",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "twilight_forest"
+	},
+	{
+		uid: "2ad327c3",
+		type: "item",
+		item: "twilightforest:magic_map_empty"
+	},
+	{
+		uid: "824476ad",
+		type: "xp",
+		xp: 150
+	},
+	{
+		uid: "dc7c54f5",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "§b简易粉碎",
+	x: 6.5d,
+	y: 2.5d,
+	description: "合成简易SAG磨粉机",
+	text: [
+		""
+	],
+	dependencies: [
+		"65376d4f"
+	],
+	tasks: [{
+		uid: "912c1bdc",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_sag_mill"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d5581702",
+		type: "item",
+		item: "minecraft:piston",
+		count: 16
+	},
+	{
+		uid: "5e30d55b",
+		type: "xp",
+		xp: 2000
+	}]
+}

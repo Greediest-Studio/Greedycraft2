@@ -1,0 +1,88 @@
+{
+	title: "§b色彩斑斓",
+	x: 5.5d,
+	y: -5.0d,
+	description: "也没那么斑斓",
+	text: [
+		""
+	],
+	dependencies: [
+		"e8404979"
+	],
+	tasks: [{
+		uid: "ba5f09fa",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcoloredlens"
+		}]
+	},
+	{
+		uid: "27c001b2",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcoloredlens 1 1"
+		}]
+	},
+	{
+		uid: "364a77fd",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcoloredlens 1 2"
+		}]
+	},
+	{
+		uid: "8b75f773",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcoloredlens 1 3"
+		}]
+	},
+	{
+		uid: "948bd75a",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcoloredlens 1 4"
+		}]
+	},
+	{
+		uid: "82e001f3",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcoloredlens 1 5"
+		}]
+	},
+	{
+		uid: "67f6c686",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemcoloredlens 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "362892d2",
+		type: "item",
+		item: "astralsorcery:blockattunementrelay",
+		count: 8
+	},
+	{
+		uid: "1826357d",
+		type: "item",
+		item: "astralsorcery:itemcraftingcomponent 1 3",
+		count: 16
+	},
+	{
+		uid: "b53cd8d8",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "3d4eed99",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "06d17147",
+		type: "xp",
+		xp: 8888
+	}]
+}

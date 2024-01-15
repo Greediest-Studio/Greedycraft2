@@ -1,0 +1,38 @@
+{
+	title: "§b量子网桥",
+	x: -13.5d,
+	y: -8.0d,
+	text: [
+		"量子网桥的搭建：",
+		"1：由8个ME量子环围绕一个ME量子链接仓构成",
+		"2：放置方向不限量，即：可以是1x3x3，3x1x3，3x3x1。"
+	],
+	dependencies: [
+		"a19315fc"
+	],
+	tasks: [{
+		uid: "4a34f108",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:quantum_ring"
+		}],
+		count: 8L
+	},
+	{
+		uid: "229742ec",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:quantum_link"
+		}]
+	}],
+	rewards: [{
+		uid: "75319a79",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "f8a3d12a",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

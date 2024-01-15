@@ -1,0 +1,27 @@
+{
+	title: "§b加油！快完了！",
+	x: 7.5d,
+	y: -2.0d,
+	description: "制作铿金源质治练厂",
+	dependencies: [
+		"43ab4306",
+		"ac1955d7"
+	],
+	tasks: [{
+		uid: "0de2a4a2",
+		type: "item",
+		items: [{
+			item: "thaumadditions:adaminite_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "d273d468",
+		type: "xp",
+		xp: 1800
+	},
+	{
+		uid: "73f4101e",
+		type: "loot",
+		table: 2
+	}]
+}

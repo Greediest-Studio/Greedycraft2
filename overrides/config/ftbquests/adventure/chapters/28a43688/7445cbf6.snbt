@@ -1,0 +1,49 @@
+{
+	title: "§b目标近在咫尺",
+	x: -13.5d,
+	y: 7.0d,
+	description: "合成神龙金属锭或者重生金属锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"44b179ac"
+	],
+	tasks: [{
+		uid: "fe1fcd6b",
+		type: "item",
+		items: [{
+			item: "tconevo:metal 1 5"
+		},
+		{
+			item: "gct_ores:relifed_metal_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "e19e0fab",
+		type: "item",
+		item: "draconicevolution:wyvern_core",
+		count: 2
+	},
+	{
+		uid: "2829b9f0",
+		type: "item",
+		item: "draconicevolution:awakened_core"
+	},
+	{
+		uid: "a34f75c2",
+		type: "item",
+		item: "tconevo:metal 1 5",
+		count: 2
+	},
+	{
+		uid: "1526f63e",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "095bbcf7",
+		type: "xp",
+		xp: 5000
+	}]
+}

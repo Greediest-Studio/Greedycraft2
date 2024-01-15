@@ -1,0 +1,39 @@
+{
+	title: "§b闹眼睛的世界？",
+	x: -16.5d,
+	y: 1.5d,
+	description: "使用阿索拉的恐惧之门钥匙，进入恐惧之地",
+	text: [
+		"你需要制作出勇气之证，方能前往恐惧之地"
+	],
+	dependencies: [
+		"64b213db",
+		"313fdb8d"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "258dd736",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:gatewaykeydl"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4aafc72d",
+		type: "item",
+		item: "abyssalcraft:abyingot",
+		count: 16
+	},
+	{
+		uid: "c02f015f",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "7effedb2",
+		type: "random",
+		table: 1
+	}]
+}

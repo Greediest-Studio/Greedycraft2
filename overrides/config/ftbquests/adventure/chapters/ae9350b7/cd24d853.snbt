@@ -1,0 +1,34 @@
+{
+	title: "§b我的很长，你忍一下",
+	x: 12.0d,
+	y: 13.5d,
+	description: "制作触物指环",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "2d024afa",
+		type: "item",
+		items: [{
+			item: "botania:reachring"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "31033172",
+		type: "item",
+		item: "botania:manaresource 1 7",
+		count: 16
+	},
+	{
+		uid: "04172be5",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "7bc69417",
+		type: "random",
+		table: 1
+	}]
+}

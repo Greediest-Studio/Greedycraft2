@@ -1,0 +1,31 @@
+{
+	title: "§b踏平高塔",
+	x: 6.0d,
+	y: 0.0d,
+	description: "击杀一只战斗高塔傀儡",
+	text: [
+		"听说这东西掉钻石？"
+	],
+	tasks: [{
+		uid: "67265e70",
+		type: "kill",
+		entity: "battletowers:golem",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "9c7f25bd",
+		type: "item",
+		item: "additions:greedycraft-tower_chest_unlocked",
+		count: 4
+	},
+	{
+		uid: "80b26c33",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "a384b232",
+		type: "xp",
+		xp: 1000
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "§b深紫之晶格",
+	x: -2.0d,
+	y: 7.5d,
+	description: "使用组合合成合成暮晶",
+	text: [
+		"暮晶锭无法直接合成，需要合成暮晶块"
+	],
+	dependencies: [
+		"d136297d"
+	],
+	tasks: [{
+		uid: "128704c9",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-twilit_ingot"
+		}]
+	}]
+}

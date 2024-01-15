@@ -1,0 +1,158 @@
+{
+    "name": "叠金",
+    "icon": "additions:overlaite_ingot",
+    "category": "patchouli:ore_category",
+    "priority": true,
+    "pages": [
+        {
+            "type":"spotlight",
+            "item":"taiga:osram_ore",
+            "text":"主要生成在$(2)下界$()($(c)the nether$())$(br)主要生成在$(5)熔岩湖表面$()"
+        },
+        {
+            "type":"spotlight",
+            "item":"taiga:valyrium_ore",
+            "text":"主要生成在$(2)下界$()($(c)the nether$())$(br)$(9)0≤Y≤127$()$(br)最佳生成层数：16"
+        },
+        {
+            "type":"spotlight",
+            "item":"taiga:prometheum_ore",
+            "text":"主要生成在$(2)下界$()($(c)the nether$())$(br)$(9)0≤Y≤127$()$(br)最佳生成层数：8"
+        },
+        {
+            "type":"spotlight",
+            "item":"taiga:abyssum_ore",
+            "text":"主要生成在$(2)末地$()($(c)the end$())$(br)$(9)4≤Y≤64$()$(br)最佳生成层数：19"
+        },
+        {
+            "type":"spotlight",
+            "item":"taiga:palladium_ore",
+            "text":"主要生成在$(2)末地$()($(c)the end$())$(br)$(9)4≤Y≤64$()$(br)最佳生成层数：52"
+        },
+        {
+            "type":"spotlight",
+            "item":"taiga:vibranium_ore",
+            "text":"主要生成在$(2)主世界$()($(c)overworld$())$(br)$(9)0≤Y≤64$()的$(5)沙漠$()Desert与$(5)峭壁$()Mountains生物群系处权重是8$(br)次要生成在$(2)主世界$()($(c)overworld$())$(9)0≤Y≤128$()处，无生物群系限制，权重是1$(br)最佳层数：17"
+        },
+        {
+            "type":"spotlight",
+            "item":"taiga:uru_ore",
+            "text":"主要生成在$(2)末地$()($(c)the end$())$(br)末地空岛$(9)0≤Y≤96$()之间的由$(6)黑陨铁块$()组成的正方形体内生成$(br)最佳生成层数：72"
+        },
+        {
+            "type":"spotlight",
+            "item":"taiga:obsidiorite_block",
+            "text":"主要生成在$(2)末地$()($(c)the end$())$(br)自然生成于末地的虚空中，呈现边长为3到7的正方体，核心可能存在$(6)雾金矿石$()"
+        },
+        {
+            "type":"spotlight",
+            "item":"taiga:eezo_ore",
+            "text":"生成在$(2)主世界$()($(c)overworld$())$(br)$(5)底部基岩层$()处"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:taigaddon-rapesesium_ore",
+            "text":"生成在$(2)下界$()($(c)the nether$())$(br)$(9)0≤Y≤64$()"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:taigaddon-lighteum_ore",
+            "text":"生成在$(2)下界$()($(c)the nether$())$(br)$(9)0≤Y≤60$()"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:taigaddon-xenidium_ore",
+            "text":"生成在$(2)下界$()($(c)the nether$())$(br)$(9)100≤Y≤128$()"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:taigaddon-ttwo_ore",
+            "text":"生成在$(2)下界$()($(c)the nether$())$(br)$(5)顶部基岩层$()处"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:taigaddon-sissidium_ore",
+            "text":"生成在$(2)末地$()($(c)the end$())$(br)$(9)0≤Y≤60$()"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:taigaddon-technetium_ore",
+            "text":"生成在$(2)末地$()($(c)the end$())$(br)$(9)0≤Y≤128$()"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:taigaddon-fenzium_ore",
+            "text":"生成在$(2)末地$()($(c)the end$())$(br)$(9)0≤Y≤128$()"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:taigaddon-dimesium_ore",
+            "text":"生成在$(2)奥穆索$()($(c)Omothol$())$(br)$(9)0≤Y≤255$()的$(6)奥穆索之石$()中"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:taigaddon-yoggleseum_ore",
+            "text":"生成在$(2)奥穆索$()($(c)Omothol$())$(br)$(9)0≤Y≤128$()"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:taigaddon-circlium_ore",
+            "text":"生成在$(2)奥穆索$()($(c)Omothol$())$(br)$(9)0≤Y≤128$()"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:taigaddon-stripium_ore",
+            "text":"生成在$(2)深渊荒原$()($(c)The Abyssal Wastland$())$(br)$(9)0≤Y≤50$()"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:taigaddon-togrium_ore",
+            "text":"生成在$(2)恐惧之地$()($(c)The Dreadlands$())$(br)$(9)0≤Y≤128$()"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:taigaddon-losessium_ore",
+            "text":"生成在$(2)血腥裂隙$()($(c)beside void$())$(br)$(9)0≤Y≤128$()"
+        },
+        {
+            "type":"spotlight",
+            "item":"taiga:karmesine_ore",
+            "text":"生成在$(2)主世界$()($(c)overworld$())$(br)$(9)0≤Y≤78$()的$(6)安山岩$()内"
+        },
+        {
+            "type":"spotlight",
+            "item":"taiga:jauxum_ore",
+            "text":"生成在$(2)主世界$()($(c)overworld$())$(br)$(9)0≤Y≤78$()的$(6)花岗岩$()内"
+        },
+        {
+            "type":"spotlight",
+            "item":"taiga:ovium_ore",
+            "text":"生成在$(2)主世界$()($(c)overworld$())$(br)$(9)0≤Y≤78$()的$(6)闪长岩$()内"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:taigaddon-gallium_ore",
+            "text":"生成于$(2)主世界$()($(c)overworld$())$(br)$(9)0≤Y≤80$()的$(5)雪$()(snowy)群系"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:taigaddon-indium_ore",
+            "text":"生成于$(2)主世界$()($(c)overworld$())$(br)$(9)0≤Y≤25$()"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:taigaddon-vanadium_ore",
+            "text":"生成于$(2)主世界$()($(c)overworld$())$(br)$(9)0≤Y≤55$()"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:taigaddon-cestium_ore",
+            "text":"生成于$(2)主世界$()($(c)overworld$())$(br)$(9)0≤Y≤36$()"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:taigaddon-molybdenum_ore",
+            "text":"生成于$(2)天境$()($(c)Aether$())$(br)$(9)0≤Y≤128$()"
+        }
+    ]
+}

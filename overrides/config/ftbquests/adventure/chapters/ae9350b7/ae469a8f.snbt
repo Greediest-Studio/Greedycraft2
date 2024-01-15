@@ -1,0 +1,32 @@
+{
+	title: "§b超级存储",
+	x: 3.0d,
+	y: 3.0d,
+	description: "合成一个钻石箱子",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "d4908b4c",
+		type: "item",
+		items: [{
+			item: "ironchest:iron_chest 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "0f190bfb",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "ec53eaa8",
+		type: "item",
+		item: "ironchest:iron_chest 1 2",
+		count: 3
+	},
+	{
+		uid: "b0b03ef1",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "§b它的密度有多大？！",
+	x: -6.0d,
+	y: 10.5d,
+	description: "合成中子素锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"2103bcb6"
+	],
+	tasks: [{
+		uid: "cecfa269",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "b82fc864",
+		type: "item",
+		item: "avaritia:resource 1 4",
+		count: 8
+	},
+	{
+		uid: "dc07a033",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "54774d1b",
+		type: "random",
+		table: 2
+	}]
+}

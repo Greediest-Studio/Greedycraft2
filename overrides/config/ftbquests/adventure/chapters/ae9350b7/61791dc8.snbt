@@ -1,0 +1,32 @@
+{
+	title: "§b浓缩才是精华",
+	x: 0.0d,
+	y: 12.0d,
+	description: "用黑曜石挤压红石粉，得到通量粉尘",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "d8102e34",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:flux"
+		}]
+	}],
+	rewards: [{
+		uid: "d96ff754",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "fae5e20f",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "23d0c2b3",
+		type: "item",
+		item: "fluxnetworks:flux",
+		count: 48
+	}]
+}

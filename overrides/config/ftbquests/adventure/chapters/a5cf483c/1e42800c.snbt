@@ -1,0 +1,32 @@
+{
+	title: "§b艺术品？",
+	x: 3.5d,
+	y: 5.0d,
+	description: "获得已雕琢的辉耀石英",
+	dependencies: [
+		"3dc895e1"
+	],
+	tasks: [{
+		uid: "2c9c4bd1",
+		type: "item",
+		items: [{
+			item: "arcanearchives:shaped_quartz"
+		}]
+	}],
+	rewards: [{
+		uid: "afb2a0a6",
+		type: "item",
+		item: "arcanearchives:shaped_quartz",
+		count: 8
+	},
+	{
+		uid: "33c498be",
+		type: "xp",
+		xp: 4000
+	},
+	{
+		uid: "ad7d1426",
+		type: "random",
+		table: 2
+	}]
+}

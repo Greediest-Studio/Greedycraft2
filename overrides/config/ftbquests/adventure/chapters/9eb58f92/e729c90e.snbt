@@ -1,0 +1,35 @@
+{
+	title: "§b过于昂贵",
+	x: -8.0d,
+	y: 10.0d,
+	description: "制作奥法控制电路",
+	text: [
+		""
+	],
+	dependencies: [
+		"a9fb61df",
+		"1f2d7a78"
+	],
+	tasks: [{
+		uid: "132351fe",
+		type: "item",
+		items: [{
+			item: "additions:mekaddon-arcane_control_circuit"
+		}]
+	}],
+	rewards: [{
+		uid: "f3ce0490",
+		type: "item",
+		item: "additions:mekaddon-arcane_control_circuit"
+	},
+	{
+		uid: "2ac2f60c",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "ed0acf1d",
+		type: "random",
+		table: 1
+	}]
+}

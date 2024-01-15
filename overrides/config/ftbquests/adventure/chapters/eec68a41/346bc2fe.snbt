@@ -1,0 +1,37 @@
+{
+	title: "§b金黄的",
+	x: 12.5d,
+	y: -3.0d,
+	description: "获得精神燃料",
+	text: [
+		"吃掉梦魇燃料可以获得精神燃料",
+		"将其放置于活石祭坛上并用植物魔法辞典右键便可解锁额外学知识",
+		"使用魔力工具-锤便可粉碎为精神碎片"
+	],
+	dependencies: [
+		"dc4d53b2"
+	],
+	tasks: [{
+		uid: "f5eb80e1",
+		type: "item",
+		items: [{
+			item: "extrabotany:spiritfuel"
+		}]
+	}],
+	rewards: [{
+		uid: "5e91ff34",
+		type: "item",
+		item: "extrabotany:spiritfuel",
+		count: 4
+	},
+	{
+		uid: "ca3bab92",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "43824dfc",
+		type: "random",
+		table: 1
+	}]
+}

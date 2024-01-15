@@ -1,0 +1,137 @@
+{
+    "name": "lava_solid",
+    "tool": {
+      "bow": {
+        "speed": 1.1,
+        "range": 1.5,
+        "bonusDamage": -1.5
+      },
+      "fletching": {
+        "accuracy": 0.5,
+        "modifier": 0.0
+      },
+      "head": {
+        "attackDamage": 8.5,
+        "speed": 4,
+        "durability": 620,
+        "harvestLevel": 3
+      },
+      "handle": {
+        "modifier": 1.6,
+        "durability": 70
+      },
+      "arrowShaft": {
+        "modifier": 1.1,
+        "bonusAmmo": 5
+      },
+      "bowstring": {
+        "modifier": 1.1
+      },
+      "extra": {
+        "durability": 60
+      }
+    },
+    "color": "#eb5754",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 1080,
+    "looks": {
+      "shininess": 0.6,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "PROJECTILE",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Solid Lava",
+      "zh_cn": "固态熔岩"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "divinerpg:netherite_ingot"
+      ],
+      "block": [
+        "divinerpg:netherite_block"
+      ],
+      "nugget": [
+        "divinerpg:netherite_nugget"
+      ],
+      "ore": [
+        "divinerpg:netherite_ore"
+      ],
+      "dust": [
+        "jaopca:item_dustlavasolid"
+      ],
+      "plate": [
+        "jaopca:item_platelavasolid"
+      ],
+      "gear": [
+        "jaopca:item_gearlavasolid"
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "durability": 35,
+        "defense": 17
+      },
+      "plates": {
+        "modifier": 1.0,
+        "durability": 10,
+        "toughness": 3.5
+      },
+      "trim": {
+        "extraDurability": 4
+      }
+    },
+    "specificTraits": {
+      "EXTRA": [
+        "hellish"
+      ],
+      "HEAD": [
+        "radiant"
+      ],
+      "HANDLE": [
+        "hellish"
+      ],
+      "BOW": [
+        "radiant"
+      ],
+      "PROJECTILE": [
+        "hellish"
+      ],
+      "CORE": [
+        "star_dashing_armor"
+      ],
+      "PLATES": [
+        "star_dashing_armor"
+      ],
+      "TRIM": [
+        "star_dashing_armor"
+      ]
+    }
+}

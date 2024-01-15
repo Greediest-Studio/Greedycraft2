@@ -1,0 +1,133 @@
+{
+    "name": "vethea_karosium",
+    "tool": {
+    "bow": {
+    "speed": 1.3,
+    "range": 1.4,
+    "bonusDamage": 21
+         },
+    "fletching": {
+    "accuracy": 0.5,
+    "modifier": 0.0
+         },
+    "head": {
+    "attackDamage": 25,
+    "speed": 11,
+    "durability": 1400,
+    "harvestLevel": 3
+         },
+    "handle": {
+    "modifier": 1.7,
+    "durability": 700
+         },
+    "arrowShaft": {
+    "modifier": 1.1,
+    "bonusAmmo": 5
+         },
+    "bowstring": {
+    "modifier": 1.1
+         },
+    "extra": {
+    "durability": 700
+         }
+      },
+    "color": "#881421",
+    "craftable": true,
+    "madeInToolForge": false,
+    "createMeltingRecipes": false,
+    "meltingTemperature": 820,
+    "looks": {
+    "shininess": 0.2,
+    "brightness": 0.1,
+    "hueshift": 0
+      },
+    "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+      },
+    "oreDictSuffixes": [],
+    "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+      ],
+    "nameLocales": {
+    "en_us": "[Vethea]Karosium",
+    "zh_cn": "[梦魇世界]黑暗"
+      },
+    "smeltingItems": {
+    "ingot": [
+    "additions:vethea-vethea_ingot_mk7"
+         ],
+    "block": [
+         ],
+    "nugget": [
+         ],
+    "ore": [
+         ],
+    "dust": [
+         ],
+    "plate": [
+         ],
+    "gear": [
+         ]
+      },
+    "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+      },
+    "armor": {
+    "core": {
+    "durability": 140,
+    "defense": 24
+         },
+    "plates": {
+    "modifier": 3.0,
+    "durability": 70,
+    "toughness": 8
+         },
+    "trim": {
+    "extraDurability": 70
+         }
+      },
+    "specificTraits": {
+    "EXTRA": [
+    "nightmare"
+         ],
+    "HEAD": [
+    "nightmare"
+         ],
+    "HANDLE": [
+    "nightmare"
+         ],
+    "BOW": [
+    "nightmare"
+         ],
+    "PROJECTILE": [
+    "nightmare"
+         ],
+    "CORE": [
+    "nightmare_armor"
+         ],
+    "PLATES": [
+    "nightmare_armor"
+         ],
+    "TRIM": [
+    "nightmare_armor"
+         ]
+      }
+   }
+   
+   

@@ -1,0 +1,51 @@
+{
+	title: "§b来吧！钻石！",
+	x: -12.0d,
+	y: 7.5d,
+	description: "获得一颗钻石",
+	text: [
+		""
+	],
+	dependencies: [
+		"8636a008"
+	],
+	tasks: [{
+		uid: "1d7de97d",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	}],
+	rewards: [{
+		uid: "a405c0a4",
+		type: "item",
+		item: "minecraft:diamond"
+	},
+	{
+		uid: "3cca85c1",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "47211b29",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "25fdd6f3",
+		type: "item",
+		item: "additions:greedycraft-medkit_small",
+		count: 5
+	},
+	{
+		uid: "6cc12ba0",
+		type: "item",
+		item: "prefab:item_start_house"
+	},
+	{
+		uid: "7eef2c41",
+		type: "item",
+		item: "minecraft:bread",
+		count: 16
+	}]
+}

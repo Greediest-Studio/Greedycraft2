@@ -1,0 +1,44 @@
+{
+	title: "§b变变变！",
+	x: 3.5d,
+	y: 6.5d,
+	description: "合成嬗变宝石",
+	text: [
+		""
+	],
+	dependencies: [
+		"5315ce19",
+		"822ac88f",
+		"245e74f5"
+	],
+	tasks: [{
+		uid: "564557df",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:transmutationgem"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a981c80b",
+		type: "item",
+		item: "abyssalcraft:transmutationgem"
+	},
+	{
+		uid: "8d2c1d9d",
+		type: "item",
+		item: "abyssalcraft:statue 1 4",
+		count: 2
+	},
+	{
+		uid: "9d85c6de",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "5fc22c70",
+		type: "random",
+		table: 1
+	}]
+}

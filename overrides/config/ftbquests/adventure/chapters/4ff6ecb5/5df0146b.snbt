@@ -1,0 +1,32 @@
+{
+	title: "§b研究的优秀材料",
+	x: 5.5d,
+	y: 0.0d,
+	description: "制作秘银锭",
+	dependencies: [
+		"d1d09aad"
+	],
+	tasks: [{
+		uid: "1706bda0",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithrillium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "c754bedf",
+		type: "item",
+		item: "thaumadditions:mithrillium_ingot",
+		count: 2
+	},
+	{
+		uid: "0272bcd0",
+		type: "xp",
+		xp: 1300
+	},
+	{
+		uid: "64f698a1",
+		type: "loot",
+		table: 2
+	}]
+}

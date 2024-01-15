@@ -1,0 +1,35 @@
+{
+	title: "§b巨龙杀手 IX",
+	icon: "minecraft:skull 1 5",
+	x: 1.0d,
+	y: 13.0d,
+	dependencies: [
+		"2a4a7f3b"
+	],
+	tasks: [{
+		uid: "270777fb",
+		type: "kill",
+		entity: "minecraft:ender_dragon",
+		value: 150L
+	}],
+	rewards: [{
+		uid: "eda72e07",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "606bdc26",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	}]
+}

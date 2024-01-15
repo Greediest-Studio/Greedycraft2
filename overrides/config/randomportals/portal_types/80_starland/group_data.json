@@ -1,0 +1,16 @@
+{
+	"blacklistAllUndefinedDimensions": true,
+	"activationDimensionIDBlacklist": [],
+	"defaultDimensionID": 0,
+	"entitySpawns": {
+		"0": {
+			"rate": 2000,
+			"entities": {
+				"astralsorcery:entityflare": {
+					"nbt": "{}",
+					"weight": 100.0
+				}
+			}
+		}
+	}
+}

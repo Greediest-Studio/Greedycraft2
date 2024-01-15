@@ -1,0 +1,26 @@
+{
+	title: "§b什么？vis不够用？",
+	x: -4.5d,
+	y: -2.0d,
+	description: "制作奥术工作台充能器",
+	dependencies: [
+		"55a56909"
+	],
+	tasks: [{
+		uid: "5bcf51b6",
+		type: "item",
+		items: [{
+			item: "thaumcraft:arcane_workbench_charger"
+		}]
+	}],
+	rewards: [{
+		uid: "768963ac",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "24125adc",
+		type: "loot",
+		table: 1
+	}]
+}

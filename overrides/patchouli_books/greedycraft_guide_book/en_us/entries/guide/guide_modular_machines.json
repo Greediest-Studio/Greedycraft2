@@ -1,0 +1,341 @@
+{
+    "name": "§9模块化机械",
+    "icon": "modularmachinery:blockcontroller",
+    "category": "patchouli:guide_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(9)模块化机械$()是一种由整合包自定义的多方块结构，每种机器都有不同的功能。你可以在JEI中搜索$(5)@modularmachinery$()来获取所有模块化机械的蓝图和部件。每种模块化机械的搭建方法可以通过在JEI里点击对应的$(9)机械蓝图$()看到，在这里不再赘述。你可以点击模块化机械预览界面右下角的按钮来看到每一层都有哪些方块，以便搭建其内部结构。$(br)使用$(6)蓝图$()点击$(2)左下角$()并$(4)shift+右键$()$(6)控制器$()即可预览结构$(br)使用$(6)木棍$()$(5)右键$()$(6)控制器$()即可一键搭建"
+        },
+        {
+            "type": "text",
+            "text": "$(5)如何添加输入/输出$()： 你可以在模块化机械的预览结构上看到一些不断变化的方块，只要这些方块包含输入/输出仓，你就可以把任何输入/输出仓放到这个位置（当然如果你不想在这个位置上有输入/输出接口的话可以用$(c)普通$()的模块化$(6)机械外壳$()代替）。也就是说，你可以在这些位置上任意安排输入/输出接口，只要接口的数量和种类满足机械所用配方的要求。"
+        },
+        {
+            "type": "text",
+            "text": "当你搭建好一个模块化机械时，通常它会$(5)变色$()，这说明你的机器搭建正确。如果没有变色，请仔细检查结构是否完整。注意：模块化机械中需要的水方块和其他流体均为$(2)静止水源$()，流动水是不会被识别的，请着重检查流体部分。$(br)$(c)注意：$()模块化机器$(5)需要蓝图$()，JEI中的蓝图可供查询合成配方和多方块结构。$(br)$(1)搭建多方块结构时，请确保你的物品输出仓大的足以容纳所有可能的输出。如果已有物品输入却提示”缺少物品输入”，请尝试增加物品输出仓的数量或升级输出仓。$()"
+        },
+        {
+            "type": "text",
+            "text": "$(c)模块化机械升级：$()你可以将机器上的特定方块替换为另一方块以提升机器性能。具体的替换位置可以在JEI中查看。用于升级的方块主要有机械通风口、燃烧室外壳、机械齿轮箱和机械电路板这几种，这些都可以在JEI中搜索@ModularMachinery看到。"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:builder_1\"}",
+			"title": "基础装配室",
+            "text": "$(2)基础装配室$()是你的第一个装配室，用来制作模块化机械的$(6)蓝图$()与$(6)控制器$()"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:builder_2\"}",
+			"title": "强化装配室",
+            "text": "$(2)强化装配室$()是比$(2)基础装配室$()$(5)更高$()一级的装配室，能制作$(5)更多$()模块化机械的$(6)蓝图$()与$(6)控制器$()"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:builder_3\"}",
+			"title": "进阶装配室",
+            "text": "$(2)进阶装配室$()是比$(2)强化装配室$()$(5)更更高$()一级的装配室，能制作$(5)更更多$()模块化机械的$(6)蓝图$()与$(6)控制器$()"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:builder_4\"}",
+			"title": "炫光装配室",
+            "text": "$(2)炫光装配室$()是比$(2)强化装配室$()$(5)更更更高$()一级的装配室，能制作$(5)更更更多$()模块化机械的$(6)蓝图$()与$(6)控制器$()"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:builder_5\"}",
+			"title": "终极装配室",
+            "text": "$(2)终极装配室$()是比$(2)炫光装配室$()$(5)更更更更高$()一级的装配室，能制作$(5)更更更更多$()模块化机械的$(6)蓝图$()与$(6)控制器$()"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:builder_6\"}",
+			"title": "原罪装配室",
+            "text": "$(2)原罪装配室$()未实现，尽情期待~"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:miner_basic\"}",
+			"title": "基础矿机",
+            "text": "$(9)基础矿机$()可以放在$(5)主世界$()通过消耗$(c)电力$()挖掘$(3)基础$()$(6)矿物$()，十分的方便~"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:miner_advanced\"}",
+			"title": "一阶矿机",
+            "text": "$(9)一阶矿机$()可以放在$(5)主世界$()通过消耗$(c)电力$()挖掘$(5)初级$()$(6)矿物$()，十分的方便~"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:miner_hardened\"}",
+			"title": "二阶矿机",
+            "text": "$(9)二阶矿机$()可以放在$(5)主世界$()通过消耗$(c)电力$()挖掘$(7)中级$()$(6)矿物$()，十分的方便~"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:miner_excellent\"}",
+			"title": "三阶矿机",
+            "text": "$(9)三阶矿机$()可以放在$(5)主世界$()通过消耗$(c)电力$()挖掘$(4)高级$()$(6)矿物$()，十分的方便~"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:miner_nether\"}",
+			"title": "下界矿机",
+            "text": "$(9)下界矿机$()可以放在$(5)下界$()通过消耗$(c)电力$()挖掘$(5)下届$()里的$(6)矿物$()，十分的方便~"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:miner_molten\"}",
+			"title": "熔融矿机",
+            "text": "$(9)熔融矿机$()可以放在$(5)下界$()通过消耗$(c)电力$()挖掘$(5)下届$()里的$(c)高级$()$(6)矿物$()，十分的方便~"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:miner_twilight\"}",
+			"title": "暮色矿机",
+            "text": "$(9)暮色矿机$()可以放在$(5)暮色森林$()通过消耗$(c)电力$()挖掘$(5)暮色森林$()里的$(6)矿物$()，十分的方便~$(br2)$(2)暮色矿物自由喽~$()$(br2)$(7)还可以用巨型方块搭火柴盒~(bushi)"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:miner_aether\"}",
+			"title": "天境矿机",
+            "text": "$(9)天境矿机$()可以放在$(5)天境$()通过消耗$(c)电力$()挖掘$(5)天境$()里的$(6)矿物$()，十分的方便~$(br2)$(2)天境矿物自由喽~$()"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:miner_aurorian\"}",
+			"title": "极光矿机",
+            "text": "$(9)极光矿机$()可以在$(5)极光幽境$()通过消耗$(c)电力$()挖掘$(6)矿物$()，十分的方便~$(br)$(7)再也不用翻地牢拿武器了$()$(br2)$(2)极光幽境矿物自由喽~"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:miner_mana\"}",
+			"title": "魔力矿机",
+            "text": "暂时没法用~尽请期待"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:miner_dread\"}",
+			"title": "恐惧矿机",
+            "text": "$(9)恐惧矿机$()可以在$(5)恐惧之地$()通过消耗$(c)电力$()挖掘$(6)矿物$()，十分的方便~$(br2)$(2)恐惧之地矿物自由喽~"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:miner_abyss\"}",
+			"title": "深渊矿机",
+            "text": "$(9)深渊矿机$()可以在$(5)深渊荒原$()通过消耗$(c)电力$()挖掘$(6)矿物$()，十分的方便~$(br2)$(2)深渊荒原矿物自由喽~"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:miner_omothol\"}",
+			"title": "奥穆索矿机",
+            "text": "$(9)奥穆索矿机$()可以在$(5)奥穆索$()通过消耗$(c)电力$()挖掘$(6)矿物$()，十分的方便~$(br2)$(2)奥穆索矿物自由喽~"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:miner_dark\"}",
+			"title": "黑暗矿机",
+            "text": "$(9)黑暗矿机$()可以在$(5)黑暗领域$()通过消耗$(c)电力$()挖掘$(6)矿物$()，十分的方便~$(br2)$(2)黑暗领域矿物自由喽~"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:miner_end\"}",
+			"title": "末地矿机",
+            "text": "$(9)末地矿机$()可以在$(5)末地$()通过消耗$(c)电力$()挖掘$(6)矿物$()，十分的方便~$(br2)$(2)末地矿物自由喽~"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:miner_chrome\"}",
+			"title": "共鸣矿机",
+            "text": "$(9)共鸣矿机$()可以在$(5)末地$()通过消耗$(c)电力$()挖掘$(c)高级$()$(6)矿物$()，十分的方便~$(br2)$(2)末地高级矿物自由喽~"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:miner_warped\"}",
+			"title": "扭曲矿机",
+            "text": "$(9)扭曲矿机$()可以在$(5)扭曲之地$()通过消耗$(c)电力$()挖掘$(6)矿物$()，十分的方便~$(br2)$(2)扭曲之地矿物自由喽~"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:miner_foggy\"}",
+			"title": "雾霭矿机",
+            "text": "$(9)雾霭矿机$()可以在$(5)朦胧世界$()通过消耗$(c)电力$()挖掘$(6)矿物$()，十分的方便~$(br2)$(2)朦胧世界矿物自由喽~"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:miner_frozen\"}",
+			"title": "冰封矿机",
+            "text": "$(9)冰封矿机$()可以在$(5)冰晶血原/遗忘冰川$()通过消耗$(c)电力$()挖掘$(6)矿物$()，十分的方便~$(br2)$(2)冰晶雪原/遗忘冰川矿物自由喽~"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:stainlesssteel_forge\"}",
+			"title": "不锈钢熔炉",
+            "text": "$(c)不锈钢熔炉$()是合成前期$(5)重要$()金属$(6)不锈钢$()所需要用到的重要的模块化机器"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:durasteel_forge\"}",
+			"title": "耐钢熔合机",
+            "text": "$(c)耐钢熔合机$()是合成前期$(5)重要$()材料之一$(6)耐钢$()的$(2)必备机器$()！$(br2)$(4)注：八钢融合机可以公用多方块结构$()$(br)$(f)但不尽量不要同时运行"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:aeonsteel_forge\"}",
+			"title": "恒钢熔合机",
+            "text": "$(c)恒钢熔合机$()是合成中期$(5)重要$()材料之一$(6)恒钢$()的$(2)必备机器$()！该机器的工作方式与$(c)耐钢熔炉$()$(5)相同$()$(br2)$(4)注：八钢融合机可以公用多方块结构$()$(br)$(f)但不尽量不要同时运行"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:chromasteel_forge\"}",
+			"title": "炫钢熔合机",
+            "text": "$(c)炫钢熔合机$()是合成中期$(5)重要$()材料之一$(6)炫钢$()的$(2)必备机器$()！该机器的工作方式与$(c)耐钢熔炉$()$(5)相同$()$(br2)$(4)注：八钢融合机可以公用多方块结构$()$(br)$(f)但不尽量不要同时运行"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:cosmic_forge\"}",
+			"title": "寰宇熔合机",
+            "text": "$(c)寰宇熔合机$()是合成后期$(5)重要$()材料之一$(6)寰宇锭$()的$(2)必备机器$()！该机器的工作方式与$(c)耐钢熔炉$()$(5)相同$()$(br2)$(4)注：八钢融合机可以公用多方块结构$()$(br)$(f)但不尽量不要同时运行"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:final_forge\"}",
+			"title": "终焉熔合机",
+            "text": "$(c)终焉熔合机$()是合成后期$(5)重要$()材料之一$(6)终焉锭$()的$(2)必备机器$()！该机器的工作方式与$(c)耐钢熔炉$()$(5)相同$()$(br2)$(4)注：八钢融合机可以公用多方块结构$()$(br)$(f)但不尽量不要同时运行"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:gene_builder\"}",
+			"title": "基因构造机",
+            "text": "$(c)基因构造机$()是合成$(6)恒钢$()的子材料之一$(6)基因金属锭$()的$(2)必备机器$()！"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:solid_centrifuge\"}",
+			"title": "固体离心机",
+            "text": "$(c)固体离心机$()能够从塞满你箱子的大批没用的$(6)方块$()中提取出有用的物质。你需要给它提供$(6)水$()、$(6)电力$()和需要$(4)离心的$(6)方块$()。另外有些$(6)方块$()能够提取出$(c)极其稀有$()且$(c)非常宝贵$()的$(6)物品$()。"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:liquid_centrifuge\"}",
+			"title": "液体离心机",
+            "text": "$(c)液体离心机$()可以从一些$(6)液体$()中分离出$(5)有用的$()$(6)物品$()。$(br)$(c)注意：虽然液体离心机看上去可能和固体离心机一模一样，但是内部的搅拌棒使用琥珀金块做的（固体离心机用的是钢块），请留意！"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:gas_centrifuge\"}",
+			"title": "气体离心机",
+            "text": "$(c)气体离心机$()可以分离$(6)空气$()以获得各种$(5)特殊$()$(6)气体$()。$(br)$(c)注意：虽然气体离心机看上去可能和固体离心机一模一样，但是内部的搅拌棒使用耐钢块做的（固体离心机用的是钢块），请留意！"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:condensation_solidificator\"}",
+			"title": "冷凝固化机",
+            "text": "$(b)冷凝固化机$()是合成$(6)常温非固态材料$()的$(2)必备机器$()!"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:organic_infuser\"}",
+			"title": "有机灌注机",
+            "text": "$(b)有机灌注机$()可以消耗$(6)有机液$()与$(6)电量$()让$(d)种子$()产出其$(d)矿物精华$()，并有极小概率产出$(6)肥料精华$()并复制出$(4)第二个$()$(d)种子$()"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:air_collector\"}",
+			"title": "空气收集器",
+            "text": "$(b)空气收集器$()能在$(2)主世界$()、$(2)下界$()、$(2)末地$()、$(2)深渊荒原$()、$(2)恐惧之地$()、$(2)奥穆索$()、$(2)深渊-黑暗领域$()收集其维度中的$(d)空气$()$(br)$(2)主世界$()-$(6)空气（气）$()$(br)$(2)下届/地狱$()-$(6)下届空气（气）$(br)$(2)末地$()-$(6)末地空气（气）$()$(br)$(2)深渊荒原$()+$(2)恐惧之地$()+$(2)奥穆索$()+$(2)黑暗领域$()-$(6)深渊空气（气）$()"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:condensation_liquefactor\"}",
+			"title": "冷凝液化机",
+            "text": "$(b)冷凝液化机$()是合成$(6)常温非液态材料$()的$(2)必备机器$()!"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:liquid_converter\"}",
+			"title": "流体转换机",
+            "text": "$(b)流体转换机$()可以将$(4)不同模组$()的流体进行$(4)相互转换$()更加便利~"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:mek_changer\"}",
+			"title": "MEK气液转换机",
+            "text": "$(b)MEK气液转换机$()可以将MEK中的$(4)气体$()与$(4)液体$(d)相互转换$()，更加便利~"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:matrix_balancer\"}",
+			"title": "矩阵稳定机",
+            "text": "$(c)矩阵稳定机$()是合成后期$(5)重要$()材料之一$(6)平衡矩阵$()的$(2)必备机器$()！!"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:order_fusioner\"}",
+			"title": "秩序注入器",
+            "text": "$(c)秩序注入器$()是合成后期$(5)重要$()材料之一$(6)秩序核心$()与$(6)秩序金属$()的$(2)必备机器$()！!"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:loot_power_generator\"}",
+			"title": "战利品发电机",
+            "text": "$(a)战利品发电机$()可以将一些$(f)你认为$()没有用的战利品丢进去$(c)发电$(br)$(9)分担一些电力~"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:exp_power_generator\"}",
+			"title": "经验发电机",
+            "text": "$(a)经验发电机$()可以将$(6)知识精华$()转换为$(4)电量$()$(br)$(2)Konwledge is power!$()$(br)$(9)分担一些电力~"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:mana_powereducer\"}",
+			"title": "魔力释能机",
+            "text": "$(a)魔力释能机$()可以将$(6)元始魔力$()转换成$(6)mana魔力$()$(br)$(e)魔法~因我而存在！$(br)$(9)分担一些魔力~"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:blood_altar_mk7\"}",
+			"title": "血灵祭坛",
+            "text": "$(c)血灵祭坛$()是$(2)血魔法$()的多方块结构，是合成$(6)冥灵石板$()、$(6)恶灵锭$()、$(6)大至暗砖$()的重要多方块结构！"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:blood_altar_mk8\"}",
+			"title": "血浴祭坛",
+            "text": "$(c)血浴祭坛$()是$(2)血魔法$()的多方块结构，比$(c)血灵祭坛$()$(d)更高级的多方块结构$()相比于$(c)血灵祭坛$()还能多制作$(6)亡魂石板$()与$(6)血渊锭$()，是$(2)血魔法$()的重要多方块结构"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:bright_altar\"}",
+			"title": "璀璨祭坛",
+            "text": "$(c)璀璨祭坛$()是$(2)星辉魔法$()的多方块结构，是合成$(6)星灵锭$()所$(d)必需$()的多方块结构"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:astral_collector\"}",
+			"title": "星芒收集器",
+            "text": "$(c)星芒收集器$()是$(2)星辉魔法$()的多方块结构，可以放在$(2)永恒星域$()通过收集$(9)星座$()将$(6)空白共鸣水晶$()变成$(c)某个星座的$()$(6)共鸣水晶$()"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:vethea_enchanter\"}",
+			"title": "梦魇附魔机",
+            "text": "$(c)梦魇附魔机$()是$(2)梦魇世界$()中的多方块结构，需要在$(2)梦魇世界$()找到$(4)相关结构$()$(d)才$()能够使用，可以使用$(2)梦魇世界$()的各种$(6)球$()合成$(2)梦魇世界$()的专属$(6)锭$()"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:mana_liquefactor\"}",
+			"title": "魔力液化机",
+            "text": "$(c)魔力液化机$()可以把$(6)mana魔力$()转换为$(6)元始魔力$()$(br)$(9)分担一些魔力~"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:mechanical_blast_furnace\"}",
+			"title": "机械高炉",
+            "text": "$(c)机械高炉$()是获取钢$(6)的另一种手段所需要的$(9)重要机器$()这种方法$(4)更省材料$()"
+        }
+    ]
+}

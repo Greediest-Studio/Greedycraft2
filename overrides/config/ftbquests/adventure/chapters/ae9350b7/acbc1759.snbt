@@ -1,0 +1,32 @@
+{
+	title: "§b粘度最强红石",
+	x: 10.5d,
+	y: 6.0d,
+	description: "制作爬墙红石",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "ec4fe571",
+		type: "item",
+		items: [{
+			item: "redstonepaste:redstonepaste"
+		}]
+	}],
+	rewards: [{
+		uid: "0383a965",
+		type: "item",
+		item: "redstonepaste:redstonepaste",
+		count: 320
+	},
+	{
+		uid: "54ce11dd",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "149a9094",
+		type: "random",
+		table: 0
+	}]
+}

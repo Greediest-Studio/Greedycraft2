@@ -1,0 +1,24 @@
+{
+	title: "§b机关任我掌控",
+	x: 1.0d,
+	y: -2.5d,
+	description: "在梦魇世界第三层击杀卡洛斯",
+	text: [
+		"使用梦魇打火石在卡洛斯祭坛上召唤"
+	],
+	dependencies: [
+		"1ae37f0b"
+	],
+	tasks: [{
+		uid: "5353cd56",
+		type: "item",
+		items: [{
+			item: "divinerpg:rock_chunks"
+		}]
+	}],
+	rewards: [{
+		uid: "c3b4ed8f",
+		type: "random",
+		table: 5
+	}]
+}

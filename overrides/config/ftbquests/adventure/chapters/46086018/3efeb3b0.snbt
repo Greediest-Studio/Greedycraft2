@@ -1,0 +1,40 @@
+{
+	title: "§b耐心到达极限",
+	x: 3.5d,
+	y: -24.75d,
+	description: "万恶的开头：耐钢！",
+	text: [
+		"耐钢锭需要多方块结构——耐钢熔合机制作",
+		"在JEI中搜索机械蓝图即可查看耐钢熔合机的搭建方法",
+		"当背包里有足够物品时，将耐钢熔合机蓝图放入机械控制器，木棍右击即可迅速搭建",
+		"机器工作必须需要蓝图支持，否则将不会工作",
+		"若显示缺少输入仓等问题，有可能是输入仓不够大"
+	],
+	dependencies: [
+		"33937ece"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "86fad416",
+		type: "item",
+		items: [{
+			item: "additions:durasteel_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "31e95565",
+		type: "item",
+		item: "additions:durasteel_ingot",
+		count: 4
+	},
+	{
+		uid: "f8a38e9e",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "01eec306",
+		type: "xp",
+		xp: 3000
+	}]
+}

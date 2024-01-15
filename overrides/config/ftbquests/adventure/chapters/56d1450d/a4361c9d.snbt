@@ -1,0 +1,35 @@
+{
+	title: "§b金黄部件",
+	x: -18.0d,
+	y: 0.0d,
+	description: "获得青铜机器部件",
+	text: [
+		""
+	],
+	dependencies: [
+		"8dbd83c6"
+	],
+	tasks: [{
+		uid: "caf41c7a",
+		type: "item",
+		items: [{
+			item: "forestry:sturdy_machine"
+		}]
+	}],
+	rewards: [{
+		uid: "8f066355",
+		type: "item",
+		item: "forestry:sturdy_machine",
+		count: 3
+	},
+	{
+		uid: "86e5f32f",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "9b65ed04",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "§b一尘不染",
+	x: -2.0d,
+	y: 5.5d,
+	description: "获得净化的沼泽土",
+	text: [
+		""
+	],
+	dependencies: [
+		"1df79aa4"
+	],
+	tasks: [{
+		uid: "114f1968",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:purified_swamp_dirt"
+		}]
+	}],
+	rewards: [{
+		uid: "42f54ffe",
+		type: "item",
+		item: "thebetweenlands:purified_swamp_dirt",
+		count: 32
+	},
+	{
+		uid: "40ed7c4a",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "f49119a0",
+		type: "random",
+		table: 2
+	}]
+}

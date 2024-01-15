@@ -1,0 +1,35 @@
+{
+	title: "§b神秘学的开端",
+	x: -6.5d,
+	y: 2.0d,
+	description: "终于开始学法术",
+	dependencies: [
+		"2b2f5f2a"
+	],
+	tasks: [{
+		uid: "cc96f90d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:wand_workbench"
+		}]
+	},
+	{
+		uid: "ef920f5d",
+		type: "item",
+		items: [{
+			item: "thaumcraft:focus_1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "45196d16",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "77ec4fea",
+		type: "xp",
+		xp: 500
+	}]
+}

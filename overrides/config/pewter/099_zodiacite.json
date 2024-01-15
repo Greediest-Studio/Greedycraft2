@@ -1,0 +1,147 @@
+{
+  "name": "zodiacite",
+  "tool": {
+    "bow": {
+      "speed": 0.6,
+      "range": 1.4,
+      "bonusDamage": 65
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 109.7,
+      "speed": 36.5,
+      "durability": 49270,
+      "harvestLevel": 12
+    },
+    "handle": {
+      "modifier": 4.8,
+      "durability": 21650
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 1.1
+    },
+    "extra": {
+      "durability": 20500
+    }
+  },
+  "color": "#3cffff",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 3280,
+  "looks": {
+    "shininess": 0.1,
+    "brightness": 0.3,
+    "hueshift": 0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 6000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Zodiacite",
+    "zh_cn": "星灵"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:greedycraft-zodiacite_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 780,
+      "defense": 112
+    },
+    "plates": {
+      "modifier": 19.8,
+      "durability": 180,
+      "toughness": 15
+    },
+    "trim": {
+      "extraDurability": 260
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "knowledgeful",
+      "bane_of_night",
+      "astraling"
+    ],
+    "HEAD": [
+      "knowledgeful",
+      "bane_of_night",
+      "astraling"
+    ],
+    "HANDLE": [
+      "knowledgeful",
+      "bane_of_night",
+      "astraling"
+    ],
+    "BOW": [
+      "knowledgeful",
+      "bane_of_night",
+      "astraling"
+    ],
+    "PROJECTILE": [
+      "knowledgeful",
+      "bane_of_night",
+      "astraling"
+    ],
+    "CORE": [
+      "knowledgeful_armor",
+      "terrafirma2",
+      "astraling_armor"
+    ],
+    "PLATES": [
+      "knowledgeful_armor",
+      "terrafirma2",
+      "astraling_armor"
+    ],
+    "TRIM": [
+      "knowledgeful_armor",
+      "terrafirma2",
+      "astraling_armor"
+    ]
+  }
+}

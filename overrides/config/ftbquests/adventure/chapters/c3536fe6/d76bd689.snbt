@@ -1,0 +1,30 @@
+{
+	title: "§b又一个沼泽",
+	x: 3.5d,
+	y: 2.5d,
+	description: "合成尘泥沼泽结界石,使用恶魔之眼激活传送门",
+	text: [
+		""
+	],
+	dependencies: [
+		"f639bef8",
+		"696c8192"
+	],
+	tasks: [{
+		uid: "4bef5796",
+		type: "item",
+		items: [{
+			item: "journey:corbaportalframe"
+		}]
+	}],
+	rewards: [{
+		uid: "b510fe7f",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "debab7b3",
+		type: "xp",
+		xp: 5000
+	}]
+}

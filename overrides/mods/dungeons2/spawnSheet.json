@@ -1,0 +1,60 @@
+{
+	"groups": {
+		"common-mobs1": {
+			"name": "common-mobs1",
+			"category": "common",
+			"mobs": [
+				"Skeleton",
+				"Zombie"
+			],
+			"level": {
+				"min": 1.0,
+				"max": 10.0
+			},
+			"chance": 50.0,
+			"weight": 50.0
+		},
+		"common-mobs2": {
+			"name": "common-mobs1",
+			"category": "common",
+			"mobs": [
+				"Spider",
+				"Zombie"
+			],
+			"level": {
+				"min": 1.0,
+				"max": 10.0
+			},
+			"chance": 50.0,
+			"weight": 50.0
+		},
+		"uncommon-mobs1": {
+			"name": "uncommon-mobs1",
+			"category": "common",
+			"mobs": [
+				"Silverfish",
+				"Slime"
+			],
+			"level": {
+				"min": 5.0,
+				"max": 10.0
+			},
+			"chance": 50.0,
+			"weight": 35.0
+		},
+		"uncommon-mobs2": {
+			"name": "uncommon-mobs2",
+			"category": "common",
+			"mobs": [
+				"Creeper",
+				"Witch"
+			],
+			"level": {
+				"min": 5.0,
+				"max": 10.0
+			},
+			"chance": 50.0,
+			"weight": 35.0
+		}
+	}
+}

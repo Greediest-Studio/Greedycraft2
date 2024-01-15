@@ -1,0 +1,58 @@
+// Mod Version: 1.4.2
+{
+    //the name of this damage type. Internally, this will be prepended with "ddd_". 
+    //So here, the damage source is actually named ddd_example. If you use a preexisting damage type name here, DDD will register the damageTypes field for that preexisting type, and ignore everything else.
+    "name": "example",
+    
+    //The name to display on tooltips. If omitted, will use name instead.
+    "displayName": "Example",
+    
+    //The colour of the name in tooltips. Must be a valid HEX colour as a string
+    "displayColour": "00aa00",
+    
+    //A list of damage sources that cause this damage type
+    "damageTypes": [
+        {
+            //The type of damage source.
+            "dmgSource": "indirectMagic",
+            //a quick flag to indicate if ALL instances of this damage source should be counted as this damage type.
+            "includeAll": false,
+            //A list of strings of the form <modid>:<entityid> of all the entities 
+            //that should count as this damage type when attacking with the specified damage source indirectly.
+            //Here, any time a Witch indirectly causes indirectMagic damage (This would happen via splash potions of harming)
+            //it would count as ddd_example damage
+            //Some damage sources don't have an indirect source, like a physical attack from a Skeleton.
+            //However a ranged attack from a Skeleton would list the Skeleton as an indirect source.
+            "indirectSources": [
+                "minecraft:witch"
+            ],
+            //All the entities that should count as this damage type when attacking with the specified damage source directly.
+            //Not all damage sources have a direct source.
+            "directSources": [
+            ]
+        },
+        {
+            //one last example
+            "dmgSource": "fireball",
+            "includeAll": false,
+            "indirectSources": [
+            ],
+            //Here, we list a small fire ball. This is fired from Blazes and from dispensers dispensing Fire Charges. Now BOTH of those sources count
+            //since we listed the fireball they shot.
+            "directSources": [
+                "minecraft:small_fireball"
+            ]
+        }
+    ],
+    
+    //A set of format strings for displaying custom death messages.
+    "deathMessages": {
+        //A string for when an entity is killed by another entity using this damage type.
+        //Place #attacker for where you want the attacker's name to go.
+        //Place #defender for where you want the defender's name to go.
+        "deathHasAttacker": "#attacker made an example of #defender",
+        //A string for when an entity is killed by this damage type, but no attacker was found.
+        //Place #defender for where you want the defender's name to go.
+        "deathHasNoAttacker": "The world made an example of #defender"
+    }
+}

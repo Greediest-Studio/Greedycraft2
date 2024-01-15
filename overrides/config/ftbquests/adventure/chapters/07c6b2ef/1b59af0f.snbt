@@ -1,0 +1,29 @@
+{
+	title: "§b大烤炉",
+	x: -18.0d,
+	y: -10.0d,
+	description: "制作升级：混合烹饪仓室",
+	text: [
+		"只能烹饪，不能干别的"
+	],
+	dependencies: [
+		"1c4f2b80"
+	],
+	tasks: [{
+		uid: "0d65cf6a",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 256"
+		}]
+	}],
+	rewards: [{
+		uid: "33d7ecb9",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "568a65f5",
+		type: "random",
+		table: 0
+	}]
+}

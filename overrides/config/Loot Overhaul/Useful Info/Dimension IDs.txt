@@ -1,0 +1,551 @@
+## Dimension IDs                                                      ##
+########################################################################
+## In the form:                                                       ##
+## <dimension name>                                                   ##
+##    - Id: <dimension id>                                            ##
+##    - Height: <dimension height>                                    ##
+##    - Has Sky? <true if dimension has a sky>                        ##
+##    - Cloud Height: <height of dimension's clouds (only on client)> ##
+##    - Can Respawn Here? <true if players can respawn here>          ##
+##    - Terrain Scale: <distance travelled per block (nether is 8)>   ##
+########################################################################
+overworld
+	- Id: 0
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+the_nether
+	- Id: -1
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 8.0
+
+
+the_end
+	- Id: 1
+	- Height: 256
+	- Has Sky? false
+	- Cloud Height: 8.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+dimdarkerrealm
+	- Id: 54
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+warped_ruin
+	- Id: 55
+	- Height: 256
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+beside_void
+	- Id: 41
+	- Height: 256
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+everheaven
+	- Id: 78
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+alfheim
+	- Id: 42
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+atlantis
+	- Id: 324987
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+starland
+	- Id: 80
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+the_void
+	- Id: 100
+	- Height: 256
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+the_nowhere
+	- Id: 101
+	- Height: 256
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+orderland
+	- Id: 102
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+The Abyssal Wasteland
+	- Id: 50
+	- Height: 256
+	- Has Sky? false
+	- Cloud Height: 8.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+The Dreadlands
+	- Id: 51
+	- Height: 256
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+Omothol
+	- Id: 52
+	- Height: 256
+	- Has Sky? false
+	- Cloud Height: 8.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+The Dark Realm
+	- Id: 53
+	- Height: 256
+	- Has Sky? false
+	- Cloud Height: 8.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+Tofu World
+	- Id: 56
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+betweenlands
+	- Id: 20
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+CompactMachines
+	- Id: 144
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: -5.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+divinerpg:eden
+	- Id: 420
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+divinerpg:wildwood
+	- Id: 421
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+divinerpg:apalachia
+	- Id: 422
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+divinerpg:skythern
+	- Id: 423
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+divinerpg:mortum
+	- Id: 424
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+divinerpg:iceika
+	- Id: 425
+	- Height: 256
+	- Has Sky? false
+	- Cloud Height: 8.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+divinerpg:arcana
+	- Id: 426
+	- Height: 256
+	- Has Sky? false
+	- Cloud Height: 8.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+divinerpg:vethea
+	- Id: 427
+	- Height: 256
+	- Has Sky? false
+	- Cloud Height: 8.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+euca
+	- Id: 820
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 5.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+boiling_point
+	- Id: 822
+	- Height: 128
+	- Has Sky? true
+	- Cloud Height: 64.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+cloudia
+	- Id: 826
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 8.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+corba
+	- Id: 824
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+depths
+	- Id: 821
+	- Height: 128
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+frozen_lands
+	- Id: 823
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 100.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+terrania
+	- Id: 827
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+senterian
+	- Id: 829
+	- Height: 128
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+lostcities
+	- Id: 111
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+emptiness
+	- Id: 14676
+	- Height: 256
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 16.0
+
+
+keletupack
+	- Id: 31871
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 0.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+theaurorian
+	- Id: 645
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 255.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+candymod
+	- Id: 23
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+midnight
+	- Id: -23
+	- Height: 255
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+AetherI
+	- Id: 173
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: -5.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+everbright
+	- Id: 76
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 180.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+everdawn
+	- Id: 77
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 180.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+Deep Dark
+	- Id: -11325
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+ExtraUtils2_Quarry_Dim
+	- Id: -9999
+	- Height: 128
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+nc_wasteland
+	- Id: 4598
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 0.125
+
+
+misty_world
+	- Id: 69
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 192.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+The Void
+	- Id: -2
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+???
+	- Id: -3
+	- Height: 128
+	- Has Sky? false
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+Dal Quor
+	- Id: -4
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+Spectre
+	- Id: -343800852
+	- Height: 256
+	- Has Sky? false
+	- Cloud Height: -5.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+twilight_forest
+	- Id: 7
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 161.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+Storage Cell
+	- Id: 741
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+uw_garden_world
+	- Id: 2
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+uw_mining_world
+	- Id: 6
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+uw_void_world
+	- Id: 5
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+uw_void_world
+	- Id: 8
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+uw_void_world
+	- Id: 9
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+

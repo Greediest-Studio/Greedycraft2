@@ -1,0 +1,71 @@
+{
+	title: "§b污泥终末",
+	x: 10.5d,
+	y: 0.5d,
+	description: "获得古代装备",
+	text: [
+		""
+	],
+	dependencies: [
+		"082f2a8c"
+	],
+	tasks: [{
+		uid: "0e214878",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:ancient_helmet",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a2086d59",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:ancient_chestplate",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ac24bceb",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:ancient_leggings",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d81a4388",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:ancient_boots",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "49cce134",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:ancient_greatsword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a7368c23",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "b6b5ed2d",
+		type: "xp",
+		xp: 10000
+	}]
+}

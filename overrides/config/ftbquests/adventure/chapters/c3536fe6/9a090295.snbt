@@ -1,0 +1,33 @@
+{
+	title: "§b新生",
+	x: -5.0d,
+	y: -4.5d,
+	description: "在梦魇世界获得任意一种原木",
+	text: [
+		"小心树精！"
+	],
+	dependencies: [
+		"481df1a6"
+	],
+	tasks: [{
+		uid: "fd7a9b7c",
+		type: "item",
+		items: [{
+			item: "divinerpg:hyrewood_log"
+		},
+		{
+			item: "divinerpg:mintwood_log"
+		},
+		{
+			item: "divinerpg:firewood_log"
+		},
+		{
+			item: "divinerpg:dreamwood_log"
+		}]
+	}],
+	rewards: [{
+		uid: "bb34d696",
+		type: "random",
+		table: 5
+	}]
+}

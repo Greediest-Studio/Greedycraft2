@@ -1,0 +1,56 @@
+{
+	title: "§b飞龙之力",
+	x: 9.5d,
+	y: 2.5d,
+	shape: "gear",
+	description: "制作飞龙核心以及堕落核心！",
+	text: [
+		""
+	],
+	dependencies: [
+		"6b11e765"
+	],
+	tasks: [{
+		uid: "9cb4d285",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_core"
+		}]
+	},
+	{
+		uid: "e5971dba",
+		type: "item",
+		items: [{
+			item: "gct_ores:fallen_core"
+		}]
+	}],
+	rewards: [{
+		uid: "9b583931",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "wyvern"
+	},
+	{
+		uid: "b513f569",
+		type: "item",
+		item: "draconicevolution:wyvern_core",
+		count: 2
+	},
+	{
+		uid: "950e363a",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "32b3f25a",
+		type: "item",
+		item: "minecraft:end_crystal",
+		count: 16
+	},
+	{
+		uid: "d9449bab",
+		type: "item",
+		item: "draconicevolution:dragon_heart",
+		count: 5
+	}]
+}

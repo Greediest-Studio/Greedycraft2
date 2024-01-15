@@ -1,0 +1,29 @@
+{
+	title: "§b机器种树",
+	x: -20.5d,
+	y: -19.0d,
+	description: "制作升级：树苗灌注基底",
+	text: [
+		"可以种树（不过为什么不用漏式盆栽盆呢？）"
+	],
+	dependencies: [
+		"26355b4d"
+	],
+	tasks: [{
+		uid: "c50daec5",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 323"
+		}]
+	}],
+	rewards: [{
+		uid: "8567afc4",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "47cea1ca",
+		type: "random",
+		table: 0
+	}]
+}

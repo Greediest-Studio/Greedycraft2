@@ -1,0 +1,32 @@
+{
+	title: "§b真石更啊",
+	x: 3.0d,
+	y: 13.5d,
+	description: "挖掘基岩",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "3a646038",
+		type: "item",
+		items: [{
+			item: "minecraft:bedrock"
+		}]
+	}],
+	rewards: [{
+		uid: "0f1c5d73",
+		type: "item",
+		item: "minecraft:bedrock",
+		count: 256
+	},
+	{
+		uid: "fd6e8f77",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "86a16a44",
+		type: "random",
+		table: 3
+	}]
+}

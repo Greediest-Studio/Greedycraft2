@@ -1,0 +1,35 @@
+{
+	title: "§b并非原创！",
+	x: 9.0d,
+	y: 18.0d,
+	description: "合成末影合金",
+	text: [
+		""
+	],
+	dependencies: [
+		"e1a75e56"
+	],
+	tasks: [{
+		uid: "b658d05f",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-enderite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "da441922",
+		type: "item",
+		item: "gct_mobs:resonated_scrap",
+		count: 4
+	},
+	{
+		uid: "9b96a8c2",
+		type: "xp",
+		xp: 4000
+	},
+	{
+		uid: "124c9a7a",
+		type: "random",
+		table: 3
+	}]
+}

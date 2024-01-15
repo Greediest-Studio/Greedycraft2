@@ -1,0 +1,37 @@
+{
+	title: "§b盖亚终结者",
+	x: 4.5d,
+	y: 21.0d,
+	description: "击杀20只盖亚守护者I或II",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "9a1d2f17",
+		type: "kill",
+		icon: "botania:gaiahead",
+		entity: "botania:doppleganger",
+		value: 20L
+	}],
+	rewards: [{
+		uid: "1f89df1a",
+		type: "item",
+		item: "botania:manaresource 1 5",
+		count: 32
+	},
+	{
+		uid: "f33e8eef",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "eaa6938e",
+		type: "xp",
+		xp: 3200
+	},
+	{
+		uid: "52f34936",
+		type: "random",
+		table: 3
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "§b迷雾丛林！",
+	x: -16.0d,
+	y: 11.5d,
+	description: "进入迷雾丛林维度",
+	text: [
+		""
+	],
+	dependencies: [
+		"a9574030"
+	],
+	tasks: [{
+		uid: "9b46794f",
+		type: "dimension",
+		dim: 827
+	}],
+	rewards: [{
+		uid: "6cf5eab4",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "07513c57",
+		type: "xp",
+		xp: 5000
+	}]
+}

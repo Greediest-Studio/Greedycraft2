@@ -1,0 +1,32 @@
+{
+	title: "§b青铜地牢",
+	x: 11.0d,
+	y: -7.0d,
+	description: "击杀青铜地牢中的滑行魔石，获得滑行之魂",
+	text: [
+		""
+	],
+	dependencies: [
+		"879b4bb7"
+	],
+	tasks: [{
+		uid: "609d8c67",
+		type: "item",
+		items: [{
+			id: "additions:greedycraft-soul_of_slider",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "3079c127",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "24adea84",
+		type: "random",
+		table: 2
+	}]
+}

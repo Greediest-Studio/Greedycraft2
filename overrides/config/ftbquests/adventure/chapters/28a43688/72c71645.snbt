@@ -1,0 +1,38 @@
+{
+	title: "§b皆为虚幻",
+	x: -8.5d,
+	y: -5.5d,
+	description: "在亚特兰蒂斯挖掘拟素",
+	text: [
+		""
+	],
+	dependencies: [
+		"be19f546"
+	],
+	tasks: [{
+		uid: "e6a50241",
+		type: "item",
+		items: [{
+			id: "tiths:ingot_imitatium",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5fdcc1a9",
+		type: "item",
+		item: "tiths:ingot_imitatium",
+		count: 8
+	},
+	{
+		uid: "483ec236",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "0d0247aa",
+		type: "xp",
+		xp: 3000
+	}]
+}

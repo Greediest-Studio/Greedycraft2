@@ -1,0 +1,24 @@
+{
+	title: "§b增益型六分仪",
+	x: -4.5d,
+	y: -3.0d,
+	description: "结构定位大师",
+	text: [
+		""
+	],
+	dependencies: [
+		"c4852840"
+	],
+	tasks: [{
+		uid: "a92b9068",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemsextant",
+			tag: {
+				astralsorcery: {
+					advanced: 1b
+				}
+			}
+		}]
+	}]
+}

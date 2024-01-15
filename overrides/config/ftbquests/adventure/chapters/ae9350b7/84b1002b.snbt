@@ -1,0 +1,32 @@
+{
+	title: "§b需要压缩空间合成？",
+	x: 12.0d,
+	y: 4.5d,
+	description: "制作信标",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "5936c98f",
+		type: "item",
+		items: [{
+			item: "minecraft:beacon"
+		}]
+	}],
+	rewards: [{
+		uid: "17e2600e",
+		type: "item",
+		item: "minecraft:gold_block",
+		count: 9
+	},
+	{
+		uid: "67936df6",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "a6d53e70",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,33 @@
+{
+  "recipe": {
+    "type": "forge:ore_shaped",
+    "result": {
+      "item": "draconicevolution:crafting_injector",
+      "data": 0
+    },
+    "key": {
+      "0": {
+        "ore_name": "gemDiamond",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "1": {
+        "ore_name": "coreWitherium",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "2": {
+        "ore_name": "stone",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "3": {
+        "ore_name": "blockIron",
+        "type": "additions:ingredient_ore_nbt"
+      }
+    },
+    "pattern": [
+      "010",
+      "232",
+      "222"
+    ]
+  },
+  "type": "additions:crafting_shaped"
+}

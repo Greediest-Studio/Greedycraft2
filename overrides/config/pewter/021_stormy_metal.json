@@ -1,0 +1,141 @@
+{
+  "name": "stormy_metal",
+  "tool": {
+    "bow": {
+      "speed": 0.6,
+      "range": 1.0,
+      "bonusDamage": 40
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 65.5,
+      "speed": 23.8,
+      "durability": 6400,
+      "harvestLevel": 11
+    },
+    "handle": {
+      "modifier": 3.8,
+      "durability": 2400
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 1.1
+    },
+    "extra": {
+      "durability": 1950
+    }
+  },
+  "color": "#5C008A",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 820,
+  "looks": {
+    "shininess": 0.1,
+    "brightness": 0.05,
+    "hueshift": 0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Stormy Metal",
+    "zh_cn": "风暴"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "gct_ores:stormy_metal_ingot"
+    ],
+    "block": [
+      "gct_ores:stormy_metal_block"
+    ],
+    "nugget": [
+      "gct_ores:stormy_metal_nugget"
+    ],
+    "ore": [
+    ],
+    "dust": [
+      "gct_ores:stormy_metal_dust"
+    ],
+    "plate": [
+      "gct_ores:stormy_metal_plate"
+    ],
+    "gear": [
+      "gct_ores:stormy_metal_gear"
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 700,
+      "defense": 110
+    },
+    "plates": {
+      "modifier": 25,
+      "durability": 156,
+      "toughness": 8
+    },
+    "trim": {
+      "extraDurability": 256
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "tconevo.soul_rend3"
+    ],
+    "HEAD": [
+      "tconevo.soul_rend3",
+      "tconevo.evolved"
+    ],
+    "HANDLE": [
+      "tconevo.soul_rend3"
+    ],
+    "BOW": [
+      "tconevo.soul_rend3",
+      "tconevo.evolved"
+    ],
+    "PROJECTILE": [
+      "tconevo.soul_rend3",
+      "tconevo.evolved"
+    ],
+    "CORE": [
+      "tconevo.evolved_armor"
+    ],
+    "PLATES": [
+      "heavy_armor",
+      "tconevo.celestial_armor"
+    ],
+    "TRIM": [
+      "heavy_armor",
+      "tconevo.gale_force2_armor"
+    ]
+  }
+}

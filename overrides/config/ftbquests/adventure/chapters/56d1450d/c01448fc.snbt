@@ -1,0 +1,29 @@
+{
+	title: "§b给个刺激",
+	x: -7.5d,
+	y: 7.0d,
+	description: "获得电刺激器",
+	text: [
+		""
+	],
+	dependencies: [
+		"61895969"
+	],
+	tasks: [{
+		uid: "4280601f",
+		type: "item",
+		items: [{
+			item: "extrabees:alveary 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "cf322e52",
+		type: "xp",
+		xp: 1600
+	},
+	{
+		uid: "507c1b8f",
+		type: "loot",
+		table: 3
+	}]
+}

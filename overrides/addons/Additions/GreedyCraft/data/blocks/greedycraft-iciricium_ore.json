@@ -1,0 +1,13 @@
+{
+  "item_block": {
+    "name": "冰纹金矿石",
+    "ore_dict": "oreIciricium",
+    "type": "additions:block_simple"
+  },
+  "name": "冰纹金矿石",
+  "material": "minecraft:stone",
+  "hardness": 15.0,
+  "harvest_level": 4,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

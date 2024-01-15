@@ -1,0 +1,40 @@
+{
+	title: "§b秩序源泉",
+	x: -5.5d,
+	y: -6.5d,
+	description: "合成秩序注入核心，用于搭建秩序注入器",
+	text: [
+		"请注意！秩序注入核心的挖掘等级为13级，当前的阶段下被放置后将无法重新采集！"
+	],
+	dependencies: [
+		"37208d1b"
+	],
+	tasks: [{
+		uid: "1d7460b1",
+		type: "item",
+		items: [{
+			item: "gct_ores:ordered_fusion_core"
+		}]
+	}],
+	rewards: [{
+		uid: "483f38a0",
+		type: "item",
+		item: {
+			id: "draconicevolution:chaotic_core",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "5cfd378f",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "e1a472ad",
+		type: "xp",
+		xp: 15000
+	}]
+}

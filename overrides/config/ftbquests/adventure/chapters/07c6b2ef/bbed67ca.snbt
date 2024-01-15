@@ -1,0 +1,29 @@
+{
+	title: "§b药水精炼",
+	x: -17.0d,
+	y: -11.0d,
+	description: "制作升级：炼金术反应釜",
+	text: [
+		"可以提升药水等级，但有些好像不行？(比如抗性4）"
+	],
+	dependencies: [
+		"f1ed4344"
+	],
+	tasks: [{
+		uid: "4d0692ba",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 369"
+		}]
+	}],
+	rewards: [{
+		uid: "af8e3568",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "1170728f",
+		type: "xp",
+		xp: 1000
+	}]
+}

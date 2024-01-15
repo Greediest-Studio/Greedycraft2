@@ -1,0 +1,31 @@
+{
+	title: "§b烦人的血条",
+	x: 7.5d,
+	y: 4.5d,
+	description: "击杀一个血卫士",
+	text: [
+		"位于主世界自然生成的黑色地牢中"
+	],
+	tasks: [{
+		uid: "4d948eb6",
+		type: "kill",
+		icon: {
+			id: "journey:purplegem",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		entity: "journey:templeguardian",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "174dbed4",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "edbd32ef",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "§b过滤器？",
+	x: 3.5d,
+	y: -6.0d,
+	description: "制作辅助排放口",
+	dependencies: [
+		"f379fdfd"
+	],
+	tasks: [{
+		uid: "14ad8e9e",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_vent"
+		}]
+	}],
+	rewards: [{
+		uid: "6759cff7",
+		type: "xp",
+		xp: 480
+	},
+	{
+		uid: "2499bb9c",
+		type: "random",
+		table: 1
+	}]
+}

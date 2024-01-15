@@ -1,0 +1,33 @@
+{
+	title: "§b里面蕴含了亡灵吗？",
+	x: 6.5d,
+	y: 1.5d,
+	description: "制作亡灵石板",
+	dependencies: [
+		"b4fdc649",
+		"5687dd61"
+	],
+	tasks: [{
+		uid: "b74afb5a",
+		type: "item",
+		items: [{
+			item: "additions:bloody-slate_8"
+		}]
+	}],
+	rewards: [{
+		uid: "e4f34a20",
+		type: "item",
+		item: "additions:bloody-slate_8",
+		count: 4
+	},
+	{
+		uid: "58c73989",
+		type: "xp",
+		xp: 12000
+	},
+	{
+		uid: "18aa670e",
+		type: "random",
+		table: 3
+	}]
+}

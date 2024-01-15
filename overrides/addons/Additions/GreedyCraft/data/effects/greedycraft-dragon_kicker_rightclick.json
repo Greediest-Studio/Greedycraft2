@@ -1,0 +1,23 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:greedycraft-dragon_kicker",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "command": "/kill @e[type\u003diceandfire:firedragon]",
+      "type": "additions:command"
+    },
+    {
+      "command": "/kill @e[type\u003diceandfire:icedragon]",
+      "type": "additions:command"
+    },
+    {
+      "command": "/tellraw @a {\"text\": \"§c§c已清除所有龙。\"}",
+      "type": "additions:command"
+    }
+  ]
+}

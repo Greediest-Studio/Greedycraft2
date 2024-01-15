@@ -1,0 +1,32 @@
+{
+	title: "§b跨越时空",
+	x: 7.5d,
+	y: 12.0d,
+	description: "获得超时空快递订单",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "e2b262e8",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-delivery_order"
+		}]
+	}],
+	rewards: [{
+		uid: "120c9e4d",
+		type: "item",
+		item: "additions:greedycraft-delivery_order",
+		count: 3
+	},
+	{
+		uid: "6f0f0a22",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "4b340747",
+		type: "xp",
+		xp: 200
+	}]
+}

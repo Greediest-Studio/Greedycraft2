@@ -1,0 +1,62 @@
+{
+	title: "§c【可重复】 灵魂苏醒",
+	x: 1.5d,
+	y: -2.0d,
+	description: "击杀高难度下的灵魂树，获得灵魂之果",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"c637c294"
+	],
+	tasks: [{
+		uid: "14a3f934",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:spirit_fruit"
+		}]
+	},
+	{
+		uid: "dd383dfb",
+		type: "kill",
+		entity: "thebetweenlands:spirit_tree_face_large",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "b72366b7",
+		type: "item",
+		item: {
+			id: "thebetweenlands:spirit_fruit",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	},
+	{
+		uid: "8b698956",
+		type: "item",
+		item: {
+			id: "thebetweenlands:valonite_block",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "6fe3624a",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "65e3dba7",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "cf3f1c2b",
+		type: "xp",
+		xp: 10000
+	}]
+}

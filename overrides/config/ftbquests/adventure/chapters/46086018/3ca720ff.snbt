@@ -1,0 +1,35 @@
+{
+	title: "§b晶体？",
+	x: 5.0d,
+	y: -14.5d,
+	description: "在极光幽境挖掘水晶",
+	text: [
+		""
+	],
+	dependencies: [
+		"0519d9cb"
+	],
+	tasks: [{
+		uid: "b28f0325",
+		type: "item",
+		items: [{
+			item: "theaurorian:crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "39aca140",
+		type: "item",
+		item: "theaurorian:crystal",
+		count: 16
+	},
+	{
+		uid: "7a996a37",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "05f960ab",
+		type: "random",
+		table: 1
+	}]
+}

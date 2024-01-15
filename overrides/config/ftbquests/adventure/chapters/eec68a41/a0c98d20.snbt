@@ -1,0 +1,30 @@
+{
+	title: "§b神灵聚合",
+	x: 23.5d,
+	y: -2.5d,
+	description: "将盖亚凝聚板升级为神灵凝聚板",
+	text: [
+		""
+	],
+	dependencies: [
+		"962ed213",
+		"f8cf002c"
+	],
+	tasks: [{
+		uid: "0cd2296d",
+		type: "item",
+		items: [{
+			item: "gct_mac:mythsteel_plate"
+		}]
+	}],
+	rewards: [{
+		uid: "6b9e00d4",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "5da996ff",
+		type: "random",
+		table: 3
+	}]
+}

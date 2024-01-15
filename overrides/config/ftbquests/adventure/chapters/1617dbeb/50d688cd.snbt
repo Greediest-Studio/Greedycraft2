@@ -1,0 +1,14 @@
+{
+	x: -2.5d,
+	y: -7.5d,
+	dependencies: [
+		"100783fd"
+	],
+	tasks: [{
+		uid: "51c8056b",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:tier6_inferium_seeds"
+		}]
+	}]
+}

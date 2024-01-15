@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "§8虚无虚空矿石",
+    "ore_dict": "oreVoidEssence",
+    "type": "additions:block_simple"
+  },
+  "name": "§8虚无虚空矿石",
+  "material": "minecraft:stone",
+  "hardness": 100.0,
+  "resistance": 1600000.0,
+  "harvest_level": 11,
+  "harvest_tool": "pickaxe",
+  "can_pistons_push": false,
+  "type": "additions:simple"
+}

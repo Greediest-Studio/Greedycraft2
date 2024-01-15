@@ -1,0 +1,93 @@
+{
+    "name": "§e神光合金",
+    "icon": "additions:greedycraft-eugardite_ingot",
+    "category": "patchouli:ore_category",
+    "priority": true,
+    "pages": [
+        {
+            "type":"spotlight",
+            "item":"minecraft:gold_ore",
+            "text":"$(f)不会吧不会吧，不会真的有人不知道金矿石生成在哪吧"
+        },
+        {
+            "type":"spotlight",
+            "item":"minecraft:soul_sand",
+            "text":"$(f)不会吧不会吧，不会真的有人不知道灵魂沙生成在哪吧"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:greedycraft-dullium_ingot",
+            "text":"通过击杀位于$(2)黑岩迷宫$()的$(c)哨兵之心$()或完成可重复任务$(4)黑岩肃清$()获得"
+        },
+        {
+            "type":"spotlight",
+            "item":"thaumadditions:adaminite_ingot",
+            "text":"通过$(5)奥数注魔合成$()获得$(br)具体请查询JEI"
+        },
+        {
+            "type":"spotlight",
+            "item":"extrabotany:material:8",
+            "text":"通过$(5)符文祭坛$()合成$(br)具体请查询JEI"
+        },
+        {
+            "type":"spotlight",
+            "item":"journey:celestiumore",
+            "text":"生成在$(2)桉域$()($(c)(euca)$())$(br)$(9)8≤Y≤110$()$(br)最佳生成层数:27$(br)$(7)也可在桉域维度中的一些机构生成的箱子中找到"
+        },
+        {
+            "type":"spotlight",
+            "item":"journey:mekyumore",
+            "text":"生成在$(2)桉域$()($(c)(euca)$())$(br)$(9)7≤Y≤111$()$(br)最佳生成层数:37$(br)$(7)也可在桉域维度中的一些机构生成的箱子中找到"
+        },
+        {
+            "type":"spotlight",
+            "item":"journey:storonore",
+            "text":"生成在$(2)桉域$()($(c)(euca)$())$(br)$(9)8≤Y≤110$()$(br)最佳生成层数:39$(br)$(7)也可在桉域维度中的一些机构生成的箱子中找到"
+        },
+        {
+            "type":"spotlight",
+            "item":"journey:koriteore",
+            "text":"生成在$(2)桉域$()($(c)(euca)$())$(br)$(9)7≤Y≤110$()$(br)最佳生成层数:24$(br)$(7)也可在桉域维度中的一些机构生成的箱子中找到"
+        },
+        {
+            "type":"spotlight",
+            "item":"journey:flairiumore",
+            "text":"生成在$(2)噬渊$()($(c)(depths)$())$(br)$(9)53≤Y≤79$()$(br)最佳生成层数:61$(br)$(8)可在此维度天花板上大量找到"
+        },
+        {
+            "type":"spotlight",
+            "item":"journey:desore",
+            "text":"生成在$(2)噬渊$()($(c)(depths)$())$(br)$(9)53≤Y≤79$()$(br)最佳生成层数:61$(br)$(8)可在此维度天花板上大量找到"
+        },
+        {
+            "type":"spotlight",
+            "item":"journey:orbaditeore",
+            "text":"生成在$(2)尘泥沼泽$()($(c)(corba)$())$(br)$(9)1≤Y≤86$()$(br)最佳生成层数:8"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:greedycraft-chloroplast_ore",
+            "text":"生成在$(2)迷雾丛林$()($(c)(terrania)$())$(br)$(9)0≤Y≤64$()"
+        },
+        {
+            "type":"spotlight",
+            "item":"journey:shadiumore",
+            "text":"生成在$(2)主世界$()($(c)overworld$())$(br)$(9)Y≤13"
+        },
+        {
+            "type":"spotlight",
+            "item":"divinerpg:rupee_ore",
+            "text":"生成在$(2)主世界$()($(c)overworld$())"
+        },
+        {
+            "type":"spotlight",
+            "item":"divinerpg:realmite_ore",
+            "text":"生成在$(2)主世界$()($(c)overworld$())"
+        },
+        {
+            "type":"spotlight",
+            "item":"gct_ores:reditrite_block",
+            "text":"生成于$(2)无名之地$()($(c)the nowhere$())$(br)空中的球状体"
+        }
+    ]
+}

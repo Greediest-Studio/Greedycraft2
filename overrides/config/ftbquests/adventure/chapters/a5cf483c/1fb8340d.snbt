@@ -1,0 +1,26 @@
+{
+	title: "§b星空力量的投影",
+	x: 1.5d,
+	y: 7.0d,
+	description: "制作星辉投影仪",
+	dependencies: [
+		"d933b90a"
+	],
+	tasks: [{
+		uid: "df6105ca",
+		type: "item",
+		items: [{
+			item: "gct_mac:astral_portal"
+		}]
+	}],
+	rewards: [{
+		uid: "610873b1",
+		type: "xp",
+		xp: 4800
+	},
+	{
+		uid: "dc2ce1cc",
+		type: "random",
+		table: 3
+	}]
+}

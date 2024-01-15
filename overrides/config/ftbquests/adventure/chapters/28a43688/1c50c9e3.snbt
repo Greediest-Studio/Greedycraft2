@@ -1,0 +1,32 @@
+{
+	title: "§b五位一体",
+	x: -13.5d,
+	y: -8.0d,
+	description: "获得克苏鲁锭",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "cebbc20b",
+		type: "item",
+		items: [{
+			item: "gct_mobs:cthulhurite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "542c845d",
+		type: "item",
+		item: "gct_mobs:cthulhurite_ingot",
+		count: 2
+	},
+	{
+		uid: "1194cf33",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "4e95eb92",
+		type: "xp",
+		xp: 2000
+	}]
+}

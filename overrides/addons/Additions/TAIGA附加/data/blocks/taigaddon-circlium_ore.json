@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "环金矿石",
+    "ore_dict": "oreCirclium",
+    "type": "additions:block_simple"
+  },
+  "name": "环金矿石",
+  "material": "minecraft:stone",
+  "hardness": 55.0,
+  "resistance": 4000.0,
+  "harvest_level": 11,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

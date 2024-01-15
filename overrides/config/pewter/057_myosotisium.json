@@ -1,0 +1,124 @@
+{
+    "name": "myosotisium",
+    "tool": {
+      "head": {
+        "attackDamage": 38,
+        "speed": 6.7,
+        "durability": 5000,
+        "harvestLevel": 10
+      },
+      "handle": {
+        "modifier": 1.8,
+        "durability": 2300
+      },
+      "extra": {
+        "durability": 2510
+      },
+      "bow": {
+        "speed": 0.3,
+        "range": 1.7,
+        "bonusDamage": 48
+      }
+    },
+    "color": "#7731d6",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 850,
+    "looks": {
+      "shininess": 0.8,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Myosotisium",
+      "zh_cn": "勿忘我"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "gct_mobs:myosotisium_ingot"
+      ],
+      "block": [
+      ],
+      "nugget": [
+      ],
+      "ore": [
+      ],
+      "dust": [
+      ],
+      "plate": [
+      ],
+      "gear": [
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "defense": 71,
+        "durability": 385
+      },
+      "plates": {
+        "toughness": 3.5,
+        "modifier": 4.7,
+        "durability": 282
+      },
+      "trim": {
+        "extraDurability": 282
+      }
+    },
+    "specificTraits": {
+      "HEAD": [
+        "tconevo.mana_infused",
+        "congenial"
+      ],
+      "HANDLE": [
+        "tconevo.mana_infused",
+        "congenial"
+      ],
+      "EXTRA": [
+        "tconevo.mana_infused",
+        "congenial"
+      ],
+      "BOW": [
+        "tconevo.mana_infused",
+        "congenial"
+      ],
+      "CORE": [
+        "tconevo.mana_infused_armor",
+        "hyper_armor"
+      ],
+      "PLATES": [
+        "tconevo.mana_infused_armor",
+        "hyper_armor"
+      ],
+      "TRIM": [
+        "tconevo.mana_infused_armor",
+        "hyper_armor"
+      ]
+    }
+}
+  

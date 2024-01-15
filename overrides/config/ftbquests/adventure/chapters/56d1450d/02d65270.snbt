@@ -1,0 +1,31 @@
+{
+	title: "§b小树不修不直溜",
+	x: -21.0d,
+	y: 0.0d,
+	description: "获得剪枝器",
+	text: [
+		""
+	],
+	dependencies: [
+		"8dbd83c6"
+	],
+	tasks: [{
+		uid: "05a795d0",
+		type: "item",
+		items: [{
+			item: "forestry:grafter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "62894b16",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "0d3a1e6f",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "塔拉特妮姆矿石",
+    "ore_dict": "oreTanatonium",
+    "type": "additions:block_simple"
+  },
+  "name": "塔拉特妮姆矿石",
+  "material": "minecraft:stone",
+  "hardness": 40.0,
+  "resistance": 4000.0,
+  "harvest_level": 11,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

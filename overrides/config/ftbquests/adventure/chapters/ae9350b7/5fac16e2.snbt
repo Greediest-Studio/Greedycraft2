@@ -1,0 +1,26 @@
+{
+	title: "§b水，蜡烛？",
+	x: 12.0d,
+	y: 3.0d,
+	description: "制作水蜡烛，可以提升某些生物的生成率",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "dcf22524",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:water_candle"
+		}]
+	}],
+	rewards: [{
+		uid: "4a15d78c",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "a8dab6a0",
+		type: "random",
+		table: 0
+	}]
+}

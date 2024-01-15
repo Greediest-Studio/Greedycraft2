@@ -1,0 +1,39 @@
+{
+	title: "§b风暴之力，化为一锭",
+	x: -8.5d,
+	y: -8.0d,
+	description: "合成风暴金属锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"33f1b759"
+	],
+	tasks: [{
+		uid: "9e6b3ac7",
+		type: "item",
+		items: [{
+			item: "gct_ores:stormy_metal_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "d44521c9",
+		type: "item",
+		item: "gct_ores:stormy_metal_ingot"
+	},
+	{
+		uid: "4b295037",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "f89ba2bc",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "acfe0f73",
+		type: "xp",
+		xp: 10000
+	}]
+}

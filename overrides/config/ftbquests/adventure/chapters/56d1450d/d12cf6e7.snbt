@@ -1,0 +1,175 @@
+{
+	title: "§bFluix能量蜂",
+	x: -4.5d,
+	y: 1.5d,
+	description: "获得末元蜂后",
+	text: [
+		""
+	],
+	dependencies: [
+		"26bd081f"
+	],
+	tasks: [{
+		uid: "a5c65beb",
+		type: "item",
+		items: [{
+			id: "forestry:bee_queen_ge",
+			tag: {
+				IsAnalyzed: 0b,
+				Health: 20,
+				MaxH: 20,
+				Genome: {
+					Chromosomes: [{
+						Slot: 0b,
+						UID0: "magicbees.speciesFluix",
+						UID1: "magicbees.speciesFluix"
+					},
+					{
+						Slot: 1b,
+						UID0: "forestry.speedSlowest",
+						UID1: "forestry.speedSlowest"
+					},
+					{
+						Slot: 2b,
+						UID0: "forestry.lifespanShorter",
+						UID1: "forestry.lifespanShorter"
+					},
+					{
+						Slot: 3b,
+						UID0: "forestry.fertilityLow",
+						UID1: "forestry.fertilityLow"
+					},
+					{
+						Slot: 4b,
+						UID0: "forestry.toleranceNone",
+						UID1: "forestry.toleranceNone"
+					},
+					{
+						Slot: 5b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 6b,
+						UID0: "forestry.toleranceNone",
+						UID1: "forestry.toleranceNone"
+					},
+					{
+						Slot: 7b,
+						UID0: "forestry.boolFalse",
+						UID1: "forestry.boolFalse"
+					},
+					{
+						Slot: 8b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 9b,
+						UID0: "forestry.flowersVanilla",
+						UID1: "forestry.flowersVanilla"
+					},
+					{
+						Slot: 10b,
+						UID0: "forestry.floweringSlowest",
+						UID1: "forestry.floweringSlowest"
+					},
+					{
+						Slot: 11b,
+						UID0: "forestry.territoryAverage",
+						UID1: "forestry.territoryAverage"
+					},
+					{
+						Slot: 12b,
+						UID0: "forestry.effectNone",
+						UID1: "forestry.effectNone"
+					}]
+				},
+				Mate: {
+					Chromosomes: [{
+						Slot: 0b,
+						UID0: "magicbees.speciesFluix",
+						UID1: "magicbees.speciesFluix"
+					},
+					{
+						Slot: 1b,
+						UID0: "forestry.speedSlowest",
+						UID1: "forestry.speedSlowest"
+					},
+					{
+						Slot: 2b,
+						UID0: "forestry.lifespanShorter",
+						UID1: "forestry.lifespanShorter"
+					},
+					{
+						Slot: 3b,
+						UID0: "forestry.fertilityLow",
+						UID1: "forestry.fertilityLow"
+					},
+					{
+						Slot: 4b,
+						UID0: "forestry.toleranceNone",
+						UID1: "forestry.toleranceNone"
+					},
+					{
+						Slot: 5b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 6b,
+						UID0: "forestry.toleranceNone",
+						UID1: "forestry.toleranceNone"
+					},
+					{
+						Slot: 7b,
+						UID0: "forestry.boolFalse",
+						UID1: "forestry.boolFalse"
+					},
+					{
+						Slot: 8b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 9b,
+						UID0: "forestry.flowersVanilla",
+						UID1: "forestry.flowersVanilla"
+					},
+					{
+						Slot: 10b,
+						UID0: "forestry.floweringSlowest",
+						UID1: "forestry.floweringSlowest"
+					},
+					{
+						Slot: 11b,
+						UID0: "forestry.territoryAverage",
+						UID1: "forestry.territoryAverage"
+					},
+					{
+						Slot: 12b,
+						UID0: "forestry.effectNone",
+						UID1: "forestry.effectNone"
+					}]
+				}
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "1de84047",
+		type: "item",
+		item: "appliedenergistics2:material 1 7",
+		count: 256
+	},
+	{
+		uid: "fe4f5b03",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "119d395c",
+		type: "random",
+		table: 3
+	}]
+}

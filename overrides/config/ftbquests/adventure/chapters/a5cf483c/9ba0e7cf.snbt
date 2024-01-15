@@ -1,0 +1,28 @@
+{
+	title: "§b来自黑夜",
+	x: -4.5d,
+	y: -9.0d,
+	description: "合成并使用暗辉之星，开启你的星辉之旅吧！",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "ee5244eb",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-astral_star"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c5a6f0bd",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "73a2ed55",
+		type: "random",
+		table: 0
+	}]
+}

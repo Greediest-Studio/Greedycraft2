@@ -1,0 +1,41 @@
+{
+	title: "§b紫色诱惑",
+	x: -9.5d,
+	y: -9.0d,
+	description: "使用地狱之火召唤并击杀紫焰王",
+	text: [
+		""
+	],
+	dependencies: [
+		"a39d54c4",
+		"0ca318b1"
+	],
+	tasks: [{
+		uid: "dcfba764",
+		type: "item",
+		items: [{
+			item: "divinerpg:king_of_scorchers_statue"
+		}]
+	}],
+	rewards: [{
+		uid: "042f2bf6",
+		type: "item",
+		item: "divinerpg:bluefire_stone",
+		count: 8
+	},
+	{
+		uid: "94cfbf7a",
+		type: "item",
+		item: "divinerpg:fury_fire"
+	},
+	{
+		uid: "58c626b1",
+		type: "xp",
+		xp: 1400
+	},
+	{
+		uid: "5ea28fff",
+		type: "random",
+		table: 1
+	}]
+}

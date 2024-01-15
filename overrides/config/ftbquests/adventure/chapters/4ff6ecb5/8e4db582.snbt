@@ -1,0 +1,31 @@
+{
+	title: "§b尝试神秘的太阳能？",
+	x: -0.5d,
+	y: -4.0d,
+	description: "制作炼金太阳能电池板",
+	dependencies: [
+		"75992ca5"
+	],
+	tasks: [{
+		uid: "7fa2e334",
+		type: "item",
+		items: [{
+			item: "solarflux:solar_panel_alchemical"
+		}]
+	}],
+	rewards: [{
+		uid: "2321983b",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "134c6989",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "b2cd0a50",
+		type: "item",
+		item: "solarflux:solar_panel_alchemical"
+	}]
+}

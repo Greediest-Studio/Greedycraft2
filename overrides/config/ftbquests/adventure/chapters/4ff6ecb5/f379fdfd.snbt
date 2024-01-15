@@ -1,0 +1,26 @@
+{
+	title: "§b治练的科技化",
+	x: 1.5d,
+	y: -6.0d,
+	description: "制作附属粘浆泵",
+	dependencies: [
+		"76754ed6"
+	],
+	tasks: [{
+		uid: "33636742",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_aux"
+		}]
+	}],
+	rewards: [{
+		uid: "653d7559",
+		type: "xp",
+		xp: 480
+	},
+	{
+		uid: "d7bd6731",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,67 @@
+{
+  "name": "naturalline",
+  "tool": {
+    "head": {
+      "attackDamage": 16,
+      "speed": 20,
+      "durability": 1000,
+      "harvestLevel": 8
+    }
+  },
+  "color": "#a7cefa",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 300,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD"
+  ],
+  "nameLocales": {
+    "en_us": "Naturalline",
+    "zh_cn": "自然结晶"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "gct_mobs:naturalline"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": [
+      "tconevo.mana_infused",
+      "natural_refiner"
+    ]
+  }
+}

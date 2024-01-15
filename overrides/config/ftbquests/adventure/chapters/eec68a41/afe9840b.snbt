@@ -1,0 +1,41 @@
+{
+	title: "§b当做熔炉？",
+	x: -2.5d,
+	y: -4.5d,
+	description: "合成炼金催化器",
+	text: [
+		""
+	],
+	dependencies: [
+		"757c75bf"
+	],
+	tasks: [{
+		uid: "da7beca7",
+		type: "item",
+		items: [{
+			item: "botania:alchemycatalyst"
+		}]
+	}],
+	rewards: [{
+		uid: "077531f5",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 32
+	},
+	{
+		uid: "96c1535c",
+		type: "item",
+		item: "botania:livingrock",
+		count: 16
+	},
+	{
+		uid: "dec234bb",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "f42169da",
+		type: "xp",
+		xp: 500
+	}]
+}

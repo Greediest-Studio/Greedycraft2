@@ -1,0 +1,52 @@
+{
+	title: "§b神奇的机器",
+	x: -24.0d,
+	y: -14.0d,
+	shape: "gear",
+	description: "制作感应炉",
+	text: [
+		""
+	],
+	dependencies: [
+		"56ae2c57"
+	],
+	tasks: [{
+		uid: "53b58155",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 3s,
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "925a3afa",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "58af6364",
+		type: "xp",
+		xp: 450
+	},
+	{
+		uid: "45d0fb4d",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "novice_engineer"
+	}]
+}

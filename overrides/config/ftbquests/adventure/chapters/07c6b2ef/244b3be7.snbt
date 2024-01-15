@@ -1,0 +1,16 @@
+{
+	title: "§b开始你的工业之旅吧！",
+	x: -11.5d,
+	y: -14.0d,
+	description: "最简单的科技开始了",
+	size: 1.5d,
+	tasks: [{
+		uid: "7db8f7f2",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-conduct_gear"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

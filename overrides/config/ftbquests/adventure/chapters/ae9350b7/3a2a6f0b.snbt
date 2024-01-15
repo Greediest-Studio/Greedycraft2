@@ -1,0 +1,32 @@
+{
+	title: "§b1 Up",
+	x: 4.5d,
+	y: 1.5d,
+	description: "合成心之容器，用于提升血量上限",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "2fa3ab6e",
+		type: "item",
+		items: [{
+			item: "scalinghealth:heartcontainer"
+		}]
+	}],
+	rewards: [{
+		uid: "63bec114",
+		type: "item",
+		item: "cyclicmagic:heart_food",
+		count: 2
+	},
+	{
+		uid: "7f3d82ac",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "d7acc345",
+		type: "random",
+		table: 1
+	}]
+}

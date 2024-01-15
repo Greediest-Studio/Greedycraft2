@@ -1,0 +1,126 @@
+{
+  "name": "mercury",
+  "tool": {
+    "head": {
+      "attackDamage": 1,
+      "speed": 3,
+      "durability": 5000,
+      "harvestLevel": 4
+    },
+    "handle": {
+      "modifier": 5,
+      "durability": 2000
+    },
+    "extra": {
+        "durability": 3000
+    },
+    "bow": {
+        "speed": 12,
+        "range": 4,
+        "bonusDamage": 0
+    }
+  },
+  "color": "#6c7786",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 300,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Mercury",
+    "zh_cn": "汞"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:greedycraft-mercury_ingot",
+      "thaumcraft:quicksilver",
+      "tiths:cinnabar"
+    ],
+    "block": [
+      "tiths:block_cinnabar"
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 8,
+      "durability": 100
+    },
+    "plates": {
+      "toughness": 6,
+      "modifier": 5,
+      "durability": 60
+    },
+    "trim": {
+      "extraDurability": 60
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "polluted",
+      "self_poison"
+    ],
+    "HANDLE": [
+      "polluted",
+      "self_poison"
+    ],
+    "EXTRA": [
+      "polluted",
+      "self_poison"
+    ],
+    "BOW": [
+      "polluted",
+      "self_poison"
+    ],
+    "CORE": [
+      "heavy_armor",
+      "self_poison_armor"
+    ],
+    "PLATES": [
+      "heavy_armor",
+      "self_poison_armor"
+    ],
+    "TRIM": [
+      "heavy_armor",
+      "self_poison_armor"
+    ]
+  }
+}

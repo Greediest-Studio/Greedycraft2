@@ -1,0 +1,57 @@
+{
+	title: "§b大号的电池",
+	x: -11.5d,
+	y: -9.5d,
+	description: "制作能量单元",
+	text: [
+		""
+	],
+	dependencies: [
+		"244b3be7"
+	],
+	tasks: [{
+		uid: "e5fa02cb",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:cell",
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					2b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				],
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b,
+				Send: 1000,
+				Recv: 1000
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f689b560",
+		type: "item",
+		item: {
+			id: "thermalexpansion:capacitor",
+			Damage: 1s,
+			tag: {
+				Energy: 4000000
+			}
+		}
+	},
+	{
+		uid: "498f7027",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "c9f2706a",
+		type: "random",
+		table: 0
+	}]
+}

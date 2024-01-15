@@ -1,0 +1,36 @@
+{
+	title: "§b星能探测",
+	x: -6.5d,
+	y: -5.0d,
+	description: "获得法斯刻共振器，用它来探测星能场的强度",
+	text: [
+		""
+	],
+	dependencies: [
+		"5cc3003c"
+	],
+	tasks: [{
+		uid: "3a5fe54b",
+		type: "item",
+		items: [{
+			item: "astralsorcery:itemskyresonator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2c459617",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "be03ecdf",
+		type: "xp",
+		xp: 420
+	},
+	{
+		uid: "cdac9a05",
+		type: "item",
+		item: "astralsorcery:itemusabledust",
+		count: 16
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	title: "§b锡锡锡",
+	x: -15.0d,
+	y: -3.0d,
+	description: "获得锡电子管",
+	text: [
+		""
+	],
+	dependencies: [
+		"a303ae77"
+	],
+	tasks: [{
+		uid: "1d1c8982",
+		type: "item",
+		items: [{
+			item: "forestry:thermionic_tubes 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "5031c4d0",
+		type: "item",
+		item: "thermalfoundation:material 1 129",
+		count: 16
+	},
+	{
+		uid: "ec861e49",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "866c38a2",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "6e3ee7d6",
+		type: "item",
+		item: "forestry:thermionic_tubes 1 1",
+		count: 3
+	}]
+}

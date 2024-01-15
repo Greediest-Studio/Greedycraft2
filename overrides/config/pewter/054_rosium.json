@@ -1,0 +1,124 @@
+{
+    "name": "rosium",
+    "tool": {
+      "head": {
+        "attackDamage": 42,
+        "speed": 8.8,
+        "durability": 2800,
+        "harvestLevel": 10
+      },
+      "handle": {
+        "modifier": 1.3,
+        "durability": 1200
+      },
+      "extra": {
+        "durability": 1380
+      },
+      "bow": {
+        "speed": 3,
+        "range": 1.8,
+        "bonusDamage": 58
+      }
+    },
+    "color": "#ff2642",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 850,
+    "looks": {
+      "shininess": 0.8,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Rosium",
+      "zh_cn": "血玫瑰"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "gct_mobs:rosium_ingot"
+      ],
+      "block": [
+      ],
+      "nugget": [
+      ],
+      "ore": [
+      ],
+      "dust": [
+      ],
+      "plate": [
+      ],
+      "gear": [
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "defense": 60,
+        "durability": 314
+      },
+      "plates": {
+        "toughness": 2.75,
+        "modifier": 4.8,
+        "durability": 256
+      },
+      "trim": {
+        "extraDurability": 256
+      }
+    },
+    "specificTraits": {
+      "HEAD": [
+        "tconevo.mana_infused",
+        "tconevo.juggernaut"
+      ],
+      "HANDLE": [
+        "tconevo.mana_infused",
+        "tconevo.juggernaut"
+      ],
+      "EXTRA": [
+        "tconevo.mana_infused",
+        "tconevo.juggernaut"
+      ],
+      "BOW": [
+        "tconevo.mana_infused",
+        "tconevo.juggernaut"
+      ],
+      "CORE": [
+        "tconevo.mana_infused_armor",
+        "prideful_armor"
+      ],
+      "PLATES": [
+        "tconevo.mana_infused_armor",
+        "prideful_armor"
+      ],
+      "TRIM": [
+        "tconevo.mana_infused_armor",
+        "prideful_armor"
+      ]
+    }
+}
+  

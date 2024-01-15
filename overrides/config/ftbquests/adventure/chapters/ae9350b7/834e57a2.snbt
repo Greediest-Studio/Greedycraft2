@@ -1,0 +1,32 @@
+{
+	title: "§b坑人用的",
+	x: 3.0d,
+	y: 21.0d,
+	description: "合成尖竹钉",
+	text: [
+		"或许有奇效"
+	],
+	tasks: [{
+		uid: "08eb1e8a",
+		type: "item",
+		items: [{
+			item: "tconstruct:punji"
+		}]
+	}],
+	rewards: [{
+		uid: "e379ebbf",
+		type: "item",
+		item: "tconstruct:punji",
+		count: 32
+	},
+	{
+		uid: "56b50a2a",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "d3bfb055",
+		type: "xp",
+		xp: 900
+	}]
+}

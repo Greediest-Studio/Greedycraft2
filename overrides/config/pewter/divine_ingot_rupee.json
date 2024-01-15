@@ -1,0 +1,134 @@
+{
+    "name": "rupee",
+    "tool": {
+      "bow": {
+        "speed": 1.44,
+        "range": 1.3,
+        "bonusDamage": 1
+      },
+      "fletching": {
+        "accuracy": 0.5,
+        "modifier": 0.0
+      },
+      "head": {
+        "attackDamage": 3.8,
+        "speed": 3.2,
+        "durability": 800,
+        "harvestLevel": 4
+      },
+      "handle": {
+        "modifier": 0.8,
+        "durability": 80
+      },
+      "arrowShaft": {
+        "modifier": 1.1,
+        "bonusAmmo": 5
+      },
+      "bowstring": {
+        "modifier": 1.1
+      },
+      "extra": {
+        "durability": 200
+      }
+    },
+    "color": "#72c0ff",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 625,
+    "looks": {
+      "shininess": 0.6,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "PROJECTILE",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Rupee",
+      "zh_cn": "卢比"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "divinerpg:rupee_ingot"
+      ],
+      "block": [
+        "divinerpg:rupee_block"
+      ],
+      "nugget": [
+        "divinerpg:rupee_nugget"
+      ],
+      "ore": [
+        "divinerpg:rupee_ore"
+      ],
+      "dust": [
+      ],
+      "plate": [
+      ],
+      "gear": [
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "durability": 20,
+        "defense": 14.8
+      },
+      "plates": {
+        "modifier": 1.6,
+        "durability": 5,
+        "toughness": 2
+      },
+      "trim": {
+        "extraDurability": 20
+      }
+    },
+    "specificTraits": {
+      "EXTRA": [
+        "maiming"
+      ],
+      "HEAD": [
+        "shocking"
+      ],
+      "HANDLE": [
+        "maiming"
+      ],
+      "BOW": [
+        "shocking"
+      ],
+      "PROJECTILE": [
+        "maiming"
+      ],
+      "CORE": [
+        "invigorating_armor"
+      ],
+      "PLATES": [
+        "motion_armor"
+      ],
+      "TRIM": [
+        "motion_armor"
+      ]
+    }
+  }

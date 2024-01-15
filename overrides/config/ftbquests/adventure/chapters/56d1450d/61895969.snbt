@@ -1,0 +1,45 @@
+{
+	title: "§b大蜂箱（嘿嘿",
+	x: -9.0d,
+	y: 6.0d,
+	description: "获得16x 蜂箱组",
+	text: [
+		""
+	],
+	dependencies: [
+		"e1adb5b4"
+	],
+	tasks: [{
+		uid: "bdc08662",
+		type: "item",
+		items: [{
+			item: "forestry:alveary.plain"
+		}],
+		count: 16L,
+		consume_items: false
+	},
+	{
+		uid: "0a91b968",
+		type: "item",
+		items: [{
+			item: "minecraft:wooden_slab"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "4d049abc",
+		type: "item",
+		item: "forestry:alveary.plain",
+		count: 11
+	},
+	{
+		uid: "5f16ff74",
+		type: "xp",
+		xp: 1600
+	},
+	{
+		uid: "5dbb3616",
+		type: "loot",
+		table: 3
+	}]
+}

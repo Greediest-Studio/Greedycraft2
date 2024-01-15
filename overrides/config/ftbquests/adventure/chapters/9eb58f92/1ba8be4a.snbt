@@ -1,0 +1,40 @@
+{
+	title: "§b矿物自由，解放双手！",
+	x: 5.5d,
+	y: -2.0d,
+	description: "制作数字型采矿机！",
+	text: [
+		"想要做这个，需要完成其他mek支线哦"
+	],
+	dependencies: [
+		"00914ae3"
+	],
+	tasks: [{
+		uid: "1b47b39a",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 4"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "075f6ab5",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "88a66997",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "405c79ef",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "28a06ef7",
+		type: "random",
+		table: 3
+	}]
+}

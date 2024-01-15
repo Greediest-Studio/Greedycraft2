@@ -1,0 +1,67 @@
+{
+	title: "§c【可重复】 混沌清除",
+	icon: {
+		id: "draconicadditions:chaos_heart",
+		ForgeCaps: {
+			"customnpcs:itemscripteddata": {}
+		}
+	},
+	x: -13.5d,
+	y: 5.0d,
+	description: "再次击杀混沌守卫",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"fee88de8"
+	],
+	tasks: [{
+		uid: "a2a142c1",
+		type: "kill",
+		entity: "draconicevolution:chaosguardian",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "5935f70e",
+		type: "item",
+		item: {
+			id: "draconicevolution:chaos_shard",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 5
+	},
+	{
+		uid: "23e13a91",
+		type: "item",
+		item: {
+			id: "draconicadditions:chaos_heart",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 3
+	},
+	{
+		uid: "0d25f0d2",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "51eef5d6",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "c74eead3",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "55b286a8",
+		type: "xp",
+		xp: 10000
+	}]
+}

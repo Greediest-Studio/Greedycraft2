@@ -1,0 +1,26 @@
+{
+	title: "§b新家？",
+	x: 3.0d,
+	y: 18.0d,
+	description: "这是一个不受外界干扰的地方……",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "ddda5340",
+		type: "item",
+		items: [{
+			item: "utilityworlds:portal_void"
+		}]
+	}],
+	rewards: [{
+		uid: "44bab54f",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "d625137a",
+		type: "xp",
+		xp: 3000
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "§b消逝之心",
+	x: -11.0d,
+	y: -10.5d,
+	description: "击杀哨兵之心，获得沉黯锭",
+	dependencies: [
+		"9e36de53"
+	],
+	tasks: [{
+		uid: "5f48b099",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-dullium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "8134afb3",
+		type: "item",
+		item: "additions:greedycraft-dullium_ingot",
+		count: 16,
+		random_bonus: 8
+	},
+	{
+		uid: "3c6d6437",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "a1fce3d1",
+		type: "xp",
+		xp: 10000
+	}]
+}

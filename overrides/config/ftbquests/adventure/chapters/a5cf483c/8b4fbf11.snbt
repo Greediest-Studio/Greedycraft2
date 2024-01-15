@@ -1,0 +1,31 @@
+{
+	title: "§b顶尖共振器",
+	x: -6.5d,
+	y: -3.0d,
+	description: "本源窥视与星能引流",
+	text: [
+		""
+	],
+	dependencies: [
+		"da8714fb"
+	],
+	tasks: [{
+		uid: "6ef9f767",
+		type: "item",
+		items: [{
+			id: "astralsorcery:itemskyresonator",
+			tag: {
+				astralsorcery: {
+					enhanced: 1b,
+					upgrades: [
+						0,
+						1,
+						2
+					]
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

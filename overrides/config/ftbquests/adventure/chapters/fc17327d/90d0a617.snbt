@@ -1,0 +1,46 @@
+{
+	title: "§c【可重复】 启示录",
+	x: -2.0d,
+	y: 9.5d,
+	description: "击杀天启骑士，获得天启锭",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"56c7ea3e"
+	],
+	tasks: [{
+		uid: "0f6ce3df",
+		type: "kill",
+		entity: "gct_mobs:apocalypse_cube",
+		value: 1L
+	},
+	{
+		uid: "d4758895",
+		type: "kill",
+		entity: "gct_mobs:apocalypse_knight",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "20e24a61",
+		type: "item",
+		item: "gct_mobs:apocalypsium_ingot",
+		count: 24
+	},
+	{
+		uid: "afae37ba",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "588687f2",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "9facca17",
+		type: "random",
+		table: 2
+	}]
+}

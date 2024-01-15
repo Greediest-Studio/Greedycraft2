@@ -1,0 +1,32 @@
+{
+	title: "§b神秘与匠魂的碰撞",
+	x: 5.5d,
+	y: 4.5d,
+	description: "制作元金锭",
+	dependencies: [
+		"aaa91c72"
+	],
+	tasks: [{
+		uid: "56dd17bf",
+		type: "item",
+		items: [{
+			item: "tconevo:metal 1 20"
+		}]
+	}],
+	rewards: [{
+		uid: "af50f279",
+		type: "item",
+		item: "tconevo:metal 1 20",
+		count: 3
+	},
+	{
+		uid: "56913587",
+		type: "xp",
+		xp: 1500
+	},
+	{
+		uid: "6dddebb4",
+		type: "loot",
+		table: 2
+	}]
+}

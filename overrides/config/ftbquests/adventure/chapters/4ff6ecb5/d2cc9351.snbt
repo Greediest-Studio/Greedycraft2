@@ -1,0 +1,32 @@
+{
+	title: "§b元金的另一个样子",
+	x: 11.5d,
+	y: 3.0d,
+	description: "制作元动金属锭",
+	dependencies: [
+		"7d0affe4"
+	],
+	tasks: [{
+		uid: "3fffd78a",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-impetusite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "c4e3fa50",
+		type: "item",
+		item: "additions:greedycraft-impetusite_ingot",
+		count: 4
+	},
+	{
+		uid: "4784acc1",
+		type: "xp",
+		xp: 4800
+	},
+	{
+		uid: "de62c11c",
+		type: "random",
+		table: 3
+	}]
+}

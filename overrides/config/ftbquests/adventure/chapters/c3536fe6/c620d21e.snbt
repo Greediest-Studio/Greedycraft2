@@ -1,0 +1,29 @@
+{
+	title: "§b凝视的终结",
+	x: 9.5d,
+	y: 4.0d,
+	description: "使用诅咒：凝视召唤并击杀守备官",
+	text: [
+		""
+	],
+	dependencies: [
+		"491ca84c"
+	],
+	tasks: [{
+		uid: "e8bebf61",
+		type: "item",
+		items: [{
+			item: "journey:trophysentry"
+		}]
+	}],
+	rewards: [{
+		uid: "7106221d",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "8d45d959",
+		type: "xp",
+		xp: 10000
+	}]
+}

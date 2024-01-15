@@ -1,0 +1,31 @@
+{
+	title: "§b拆除一切",
+	x: -14.0d,
+	y: -10.5d,
+	description: "获得毁灭扳手",
+	text: [
+		"材料可以在黑岩世界的箱子中找到"
+	],
+	dependencies: [
+		"d7ea5b92"
+	],
+	tasks: [{
+		uid: "76ccf1ce",
+		type: "item",
+		items: [{
+			item: "gct_ores:senterian_wrench"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d09c124c",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "82e2752b",
+		type: "xp",
+		xp: 8500
+	}]
+}

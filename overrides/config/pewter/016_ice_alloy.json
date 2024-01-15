@@ -1,0 +1,158 @@
+{
+    "name": "ice_alloy",
+    "tool": {
+      "bow": {
+        "speed": 1.4,
+        "range": 1.9,
+        "bonusDamage": 6
+      },
+      "fletching": {
+        "accuracy": 0.5,
+        "modifier": 0.0
+      },
+      "head": {
+        "attackDamage": 33.2,
+        "speed": 22.8,
+        "durability": 6200,
+        "harvestLevel": 10
+      },
+      "handle": {
+        "modifier": 3.5,
+        "durability": 3750
+      },
+      "arrowShaft": {
+        "modifier": 1.1,
+        "bonusAmmo": 5
+      },
+      "bowstring": {
+        "modifier": 1.1
+      },
+      "extra": {
+        "durability": 3750
+      }
+    },
+    "color": "#353dbc",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 625,
+    "looks": {
+      "shininess": 0.6,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "PROJECTILE",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Ice_alloy",
+      "zh_cn": "玄冰合金"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "gct_ores:ice_alloy_ingot"
+      ],
+      "block": [
+        "gct_ores:ice_alloy_block"
+      ],
+      "nugget": [
+        "gct_ores:ice_alloy_nugget"
+      ],
+      "ore": [
+       
+      ],
+      "dust": [
+        "gct_ores:ice_alloy_dust"
+      ],
+      "plate": [
+        "gct_ores:ice_alloy_plate"
+      ],
+      "gear": [
+        "gct_ores:ice_alloy_gear"
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "durability": 860,
+        "defense": 80
+      },
+      "plates": {
+        "modifier": 8,
+        "durability": 106,
+        "toughness": 9
+      },
+      "trim": {
+        "extraDurability": 101
+      }
+    },
+    "specificTraits": {
+      "EXTRA": [
+        "terrafirma2",
+        "icy",
+        "freezing",
+        "tidal_force"
+      ],
+      "HEAD": [
+        "terrafirma2",
+        "icy",
+        "freezing",
+        "tidal_force"
+      ],
+      "HANDLE": [
+        "terrafirma2",
+        "icy",
+        "freezing",
+        "tidal_force"
+      ],
+      "BOW": [
+        "terrafirma2",
+        "icy",
+        "freezing",
+        "tidal_force"
+      ],
+      "PROJECTILE": [
+        "terrafirma2",
+        "icy",
+        "freezing",
+        "tidal_force"
+      ],
+      "CORE": [
+        "second_life_armor",
+        "extreme_freezing",
+        "tconevo.chilling_touch_armor"
+      ],
+      "PLATES": [
+        "cryonic_armor",
+        "aquaspeed_armor",
+        "widening_armor"
+      ],
+      "TRIM": [
+        "cryonic_armor",
+        "momentum",
+        "absorbent_armor"
+      ]
+    }
+  }

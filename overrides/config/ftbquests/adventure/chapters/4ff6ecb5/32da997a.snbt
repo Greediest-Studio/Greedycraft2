@@ -1,0 +1,26 @@
+{
+	title: "§b治练厂升级了",
+	x: 3.5d,
+	y: -4.0d,
+	description: "制作神秘源质治练厂",
+	dependencies: [
+		"76754ed6"
+	],
+	tasks: [{
+		uid: "24edf9e2",
+		type: "item",
+		items: [{
+			item: "thaumcraft:smelter_thaumium"
+		}]
+	}],
+	rewards: [{
+		uid: "f84fbc6e",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "4cb987a4",
+		type: "loot",
+		table: 1
+	}]
+}

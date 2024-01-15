@@ -1,0 +1,18 @@
+{
+  "item_block": {
+    "name": "铑矿石",
+    "tooltip": [
+      "§c稀有无比",
+      "§c伴生在钌矿中"
+    ],
+    "ore_dict": "oreRhodium",
+    "type": "additions:block_simple"
+  },
+  "name": "铑矿石",
+  "material": "minecraft:stone",
+  "hardness": 60.0,
+  "resistance": 4000.0,
+  "harvest_level": 11,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

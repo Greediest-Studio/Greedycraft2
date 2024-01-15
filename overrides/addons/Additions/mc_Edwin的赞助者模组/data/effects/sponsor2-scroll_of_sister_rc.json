@@ -1,0 +1,25 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:sponsor2-scroll_of_sister",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "potion": {
+        "name": "minecraft:health_boost",
+        "duration": 6000,
+        "amplifier": 1,
+        "ambient": false,
+        "show_particles": false
+      },
+      "reapplication_delay": 6000,
+      "type": "additions:potion"
+    },
+    {
+      "type": "additions:consume_item"
+    }
+  ]
+}

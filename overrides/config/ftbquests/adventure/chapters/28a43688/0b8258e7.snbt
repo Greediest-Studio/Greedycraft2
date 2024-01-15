@@ -1,0 +1,35 @@
+{
+	title: "§b这玩意儿还能合成？！",
+	x: -3.5d,
+	y: -5.5d,
+	description: "合成命令方块，迎战凋零风暴！",
+	text: [
+		""
+	],
+	dependencies: [
+		"7d2d0cd5"
+	],
+	tasks: [{
+		uid: "81a59d65",
+		type: "item",
+		items: [{
+			item: "minecraft:command_block"
+		}]
+	}],
+	rewards: [{
+		uid: "6c02fbad",
+		type: "item",
+		item: "draconicevolution:chaotic_core",
+		count: 2
+	},
+	{
+		uid: "3a6de847",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "634f70f5",
+		type: "xp",
+		xp: 5000
+	}]
+}

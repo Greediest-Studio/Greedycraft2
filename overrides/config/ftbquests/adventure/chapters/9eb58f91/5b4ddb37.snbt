@@ -1,0 +1,26 @@
+{
+	title: "§b无线终端的福音",
+	x: -11.5d,
+	y: -8.0d,
+	description: "将无线卡放进量子环，无线终端就可以不限距离和维度使用",
+	dependencies: [
+		"29b1605b"
+	],
+	tasks: [{
+		uid: "b3f30146",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 59"
+		}]
+	}],
+	rewards: [{
+		uid: "f77b706f",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "a921f998",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

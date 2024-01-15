@@ -1,0 +1,30 @@
+{
+	title: "§b净化",
+	x: 21.5d,
+	y: -1.5d,
+	description: "将反·反相嬗变仪使用净化之尘进行净化",
+	text: [
+		""
+	],
+	dependencies: [
+		"650c4492"
+	],
+	tasks: [{
+		uid: "569370f1",
+		type: "observation",
+		icon: "gct_mac:reverser",
+		match_type: "block_id",
+		match: "gct_mac:reverser",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "aa61fe2a",
+		type: "xp",
+		xp: 8000
+	},
+	{
+		uid: "2f4f58f3",
+		type: "random",
+		table: 3
+	}]
+}

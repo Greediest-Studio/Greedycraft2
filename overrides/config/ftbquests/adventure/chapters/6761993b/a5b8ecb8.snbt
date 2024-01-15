@@ -1,0 +1,29 @@
+{
+	title: "§b另一种……祭坛？",
+	x: -9.5d,
+	y: -0.5d,
+	description: "合成熏香祭坛",
+	text: [
+		""
+	],
+	dependencies: [
+		"30e20165"
+	],
+	tasks: [{
+		uid: "f0a208cd",
+		type: "item",
+		items: [{
+			item: "bloodmagic:incense_altar"
+		}]
+	}],
+	rewards: [{
+		uid: "d4a6816b",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "fbe4600d",
+		type: "xp",
+		xp: 500
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "§b从宝箱里找到的？",
+	x: -5.0d,
+	y: 1.5d,
+	description: "制作基础的ME存储组件",
+	text: [
+		""
+	],
+	dependencies: [
+		"5610ff8c"
+	],
+	tasks: [{
+		uid: "c6e05a40",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 35"
+		}]
+	}],
+	rewards: [{
+		uid: "540fd0e9",
+		type: "item",
+		item: "appliedenergistics2:material 1 38",
+		count: 2
+	},
+	{
+		uid: "f1e2e911",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "7a8c7fb2",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "bae695c9",
+		type: "xp",
+		xp: 400
+	}]
+}

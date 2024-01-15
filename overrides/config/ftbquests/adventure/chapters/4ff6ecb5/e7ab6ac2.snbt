@@ -1,0 +1,31 @@
+{
+	title: "§b腐烂的尸体？？？",
+	x: 9.5d,
+	y: 1.5d,
+	description: "击杀boss：腐化之尸",
+	dependencies: [
+		"161ee64c"
+	],
+	tasks: [{
+		uid: "732201fc",
+		type: "kill",
+		icon: "minecraft:diamond_sword",
+		entity: "thaumicwonders:corruption_avatar",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "2f6d8fe4",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "03ca0d47",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "80ab44ec",
+		type: "xp",
+		xp: 5000
+	}]
+}

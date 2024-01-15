@@ -1,0 +1,15 @@
+{
+	x: -2.0d,
+	y: 3.5d,
+	dependencies: [
+		"1d3a0afa",
+		"12930aca"
+	],
+	tasks: [{
+		uid: "37adf8f4",
+		type: "item",
+		items: [{
+			item: "additions:protonium_ingot"
+		}]
+	}]
+}

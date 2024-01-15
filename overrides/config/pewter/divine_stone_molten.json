@@ -1,0 +1,139 @@
+{
+  "name": "molten_stone",
+  "tool": {
+    "bow": {
+      "speed": 3.0,
+      "range": 1.1,
+      "bonusDamage": 8
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 9,
+      "speed": 3,
+      "durability": 650,
+      "harvestLevel": 3
+    },
+    "handle": {
+      "modifier": 1.25,
+      "durability": 470
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 1.1
+    },
+    "extra": {
+      "durability": 470
+    }
+  },
+  "color": "#cd2c35",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 820,
+  "looks": {
+    "shininess": 0.2,
+    "brightness": 0.1,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Molten Stone",
+    "zh_cn": "熔融石"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "divinerpg:molten_stone"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 88,
+      "defense": 18
+    },
+    "plates": {
+      "modifier": 0.9,
+      "durability": 29,
+      "toughness": 1.5
+    },
+    "trim": {
+      "extraDurability": 20
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "radiant",
+      "flammable"
+    ],
+    "HEAD": [
+      "radiant",
+      "flammable"
+    ],
+    "HANDLE": [
+      "radiant",
+      "flammable"
+    ],
+    "BOW": [
+      "radiant",
+      "flammable"
+    ],
+    "PROJECTILE": [
+      "radiant",
+      "flammable"
+    ],
+    "CORE": [
+      "endothermic_armor",
+      "autoforge_armor"
+    ],
+    "PLATES": [
+      "endothermic_armor",
+      "autoforge_armor"
+    ],
+    "TRIM": [
+      "endothermic_armor",
+      "autoforge_armor"
+    ]
+  }
+}

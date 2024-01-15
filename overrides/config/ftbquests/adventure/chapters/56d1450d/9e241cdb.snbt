@@ -1,0 +1,36 @@
+{
+	title: "§b固定",
+	x: -12.0d,
+	y: -3.0d,
+	description: "获得标定框架",
+	text: [
+		""
+	],
+	dependencies: [
+		"22251fc9"
+	],
+	tasks: [{
+		uid: "70340d1b",
+		type: "item",
+		items: [{
+			item: "forestry:frame_proven"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ca8d5e1e",
+		type: "item",
+		item: "forestry:frame_proven"
+	},
+	{
+		uid: "bead29c8",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "b889703f",
+		type: "loot",
+		table: 1
+	}]
+}

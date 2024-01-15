@@ -1,0 +1,30 @@
+{
+	title: "§b奥术的开始",
+	x: 3.5d,
+	y: 1.0d,
+	shape: "circle",
+	description: "合成辉耀谐振台",
+	tasks: [{
+		uid: "7824d6da",
+		type: "item",
+		items: [{
+			item: "arcanearchives:radiant_resonator"
+		}]
+	}],
+	rewards: [{
+		uid: "4e89eac2",
+		type: "item",
+		item: "arcanearchives:radiant_resonator",
+		count: 2
+	},
+	{
+		uid: "f16ed63e",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "7e6df322",
+		type: "random",
+		table: 2
+	}]
+}

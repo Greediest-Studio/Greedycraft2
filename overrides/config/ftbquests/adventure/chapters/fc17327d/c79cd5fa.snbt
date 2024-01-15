@@ -1,0 +1,28 @@
+{
+	title: "§b不是用来打人的！",
+	icon: "additions:greedycraft-pebble",
+	x: -25.0d,
+	y: 9.5d,
+	description: "右键地面上的小石子以获得鹅卵石，或者挖掘沙砾得到燧石",
+	text: [
+		""
+	],
+	dependencies: [
+		"5c93e631"
+	],
+	tasks: [{
+		uid: "d29d5f57",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-pebble"
+		},
+		{
+			item: "minecraft:flint"
+		}]
+	}],
+	rewards: [{
+		uid: "f41b1ad4",
+		type: "xp",
+		xp: 20
+	}]
+}

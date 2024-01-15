@@ -1,0 +1,35 @@
+{
+	title: "§b世界树觉醒",
+	x: 27.5d,
+	y: -2.5d,
+	description: "合成觉醒植物魂锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"311f1d0d"
+	],
+	tasks: [{
+		uid: "19c057ac",
+		type: "item",
+		items: [{
+			item: "gct_mobs:botanical_ingot_awakened"
+		}]
+	}],
+	rewards: [{
+		uid: "f7185bcc",
+		type: "item",
+		item: "gct_mobs:botanical_ingot_awakened",
+		count: 4
+	},
+	{
+		uid: "09f24149",
+		type: "xp",
+		xp: 12000
+	},
+	{
+		uid: "895a4147",
+		type: "random",
+		table: 4
+	}]
+}

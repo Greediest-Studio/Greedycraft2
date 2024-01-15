@@ -1,0 +1,57 @@
+{
+	title: "§c【可重复】 关于我转生成……",
+	icon: "additions:greedycraft-slime_crown",
+	x: -6.5d,
+	y: -9.0d,
+	shape: "gear",
+	description: "使用史莱姆皇冠召唤并击杀史莱姆之神",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"bf9fcb24"
+	],
+	tasks: [{
+		uid: "3d11c7c1",
+		type: "kill",
+		entity: "betterslimes:quazar",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "4ad3c5dd",
+		type: "item",
+		item: "minecraft:slime_ball",
+		count: 32
+	},
+	{
+		uid: "1e88d67a",
+		type: "item",
+		item: "additions:greedycraft-royal_gel",
+		count: 16
+	},
+	{
+		uid: "e87fae1e",
+		type: "item",
+		item: "torchmaster:feral_flare_lantern",
+		count: 3,
+		random_bonus: 1
+	},
+	{
+		uid: "3ff6525b",
+		type: "item",
+		item: "torchmaster:mega_torch",
+		count: 3,
+		random_bonus: 1
+	},
+	{
+		uid: "9337f7e2",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "30b262f3",
+		type: "random",
+		table: 1
+	}]
+}

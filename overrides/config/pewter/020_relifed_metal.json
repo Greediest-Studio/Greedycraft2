@@ -1,0 +1,141 @@
+{
+  "name": "relifed_metal",
+  "tool": {
+    "bow": {
+      "speed": 0.9,
+      "range": 1.0,
+      "bonusDamage": 30
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 33.2,
+      "speed": 19.7,
+      "durability": 7500,
+      "harvestLevel": 10
+    },
+    "handle": {
+      "modifier": 2.6,
+      "durability": 1700
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 1.1
+    },
+    "extra": {
+      "durability": 1260
+    }
+  },
+  "color": "#B7FFFF",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 820,
+  "looks": {
+    "shininess": 0.1,
+    "brightness": 0.05,
+    "hueshift": 0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Relifed Metal",
+    "zh_cn": "重生"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "gct_ores:relifed_metal_ingot"
+    ],
+    "block": [
+      "gct_ores:relifed_metal_block"
+    ],
+    "nugget": [
+      "gct_ores:relifed_metal_nugget"
+    ],
+    "ore": [
+    ],
+    "dust": [
+      "gct_ores:relifed_metal_dust"
+    ],
+    "plate": [
+      "gct_ores:relifed_metal_plate"
+    ],
+    "gear": [
+      "gct_ores:relifed_metal_gear"
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 480,
+      "defense": 76
+    },
+    "plates": {
+      "modifier": 17,
+      "durability": 124,
+      "toughness": 3.6
+    },
+    "trim": {
+      "extraDurability": 140
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "tconevo.soul_rend2"
+    ],
+    "HEAD": [
+      "tconevo.soul_rend2",
+      "tconevo.evolved"
+    ],
+    "HANDLE": [
+      "tconevo.soul_rend2"
+    ],
+    "BOW": [
+      "tconevo.soul_rend2",
+      "tconevo.evolved"
+    ],
+    "PROJECTILE": [
+      "tconevo.soul_rend2",
+      "tconevo.evolved"
+    ],
+    "CORE": [
+      "tconevo.evolved_armor"
+    ],
+    "PLATES": [
+      "heavy_armor",
+      "tconevo.celestial_armor"
+    ],
+    "TRIM": [
+      "heavy_armor",
+      "tconevo.gale_force1_armor"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+	x: -26.5d,
+	y: -2.0d,
+	dependencies: [
+		"02c8a87a",
+		"ef65449f"
+	],
+	tasks: [{
+		uid: "c5af87d9",
+		type: "item",
+		items: [{
+			item: "additions:mekaddon-scientificite_ingot"
+		}]
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "§b充实人生",
+	x: 13.5d,
+	y: 0.0d,
+	description: "与一个村民生宝宝",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "1a9010c5",
+		type: "item",
+		items: [{
+			item: "mca:baby_boy"
+		},
+		{
+			item: "mca:baby_girl"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ae33bca6",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 6,
+		random_bonus: 4
+	},
+	{
+		uid: "da043e08",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "a1857a2d",
+		type: "random",
+		table: 0
+	}]
+}

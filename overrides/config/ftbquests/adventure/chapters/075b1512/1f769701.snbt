@@ -1,0 +1,38 @@
+{
+	title: "§b旅行家 IX",
+	x: -3.5d,
+	y: 13.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"e3d22337"
+	],
+	tasks: [{
+		uid: "20ed7e44",
+		type: "stat",
+		icon: "abyssalcraft:ethaxiumlegs",
+		stat: "stat.walkOneCm",
+		value: 75000000
+	}],
+	rewards: [{
+		uid: "3a949e61",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "d076589c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	}]
+}

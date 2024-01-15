@@ -1,0 +1,370 @@
+[
+	{
+		"_comments": [
+			"*******",
+			"** Pyramids is a style of dungeon where each successive level increases in size.",
+			"*******"
+		],
+		"name": "small-pyramid",
+		"version": "1.1.0",
+		"biomeWhiteList": [
+			"*"
+		],
+		"biomeBlackList": [
+			""
+		],
+		"size": "SMALL",
+		"numLevels": {
+			"min": 2,
+			"max": 4
+		},
+		"levelConfigs": [
+			{
+				"boundaryFactor": 0.5,
+				"spawnBoundaryFactor": 0.2,
+				"numRooms": {
+					"min": 5,
+					"max": 9
+				},
+				"width": {
+					"min": 5,
+					"max": 9
+				},
+				"depth": {
+					"min": 5,
+					"max": 9
+				},
+				"height": {
+					"min": 5,
+					"max": 8
+				},
+				"chestConfig": {
+					"rarity": [
+						"COMMON"
+					]
+				}
+			},
+			{
+				"spawnBoundaryFactor": 0.25,
+				"numRooms": {
+					"min": 7,
+					"max": 10
+				},
+				"width": {
+					"min": 5,
+					"max": 10
+				},
+				"depth": {
+					"min": 5,
+					"max": 10
+				},
+				"height": {
+					"min": 5,
+					"max": 9
+				}		
+			},
+			{
+				"spawnBoundaryFactor": 0.3,
+				"numRooms": {
+					"min": 9,
+					"max": 15
+				},
+				"width": {
+					"min": 5,
+					"max": 12
+				},
+				"depth": {
+					"min": 5,
+					"max": 12
+				},
+				"height": {
+					"min": 5,
+					"max": 10
+				},
+				"chestConfig": {
+					"rarity": [
+						"COMMON", "UNCOMMON"
+					]
+				}				
+			},
+			{
+				"spawnBoundaryFactor": 0.4,
+				"numRooms": {
+					"min": 11,
+					"max": 20
+				},
+				"width": {
+					"min": 5,
+					"max": 15
+				},
+				"depth": {
+					"min": 5,
+					"max": 15
+				},
+				"height": {
+					"min": 5,
+					"max": 10
+				}
+			}
+		],
+		"surfaceConfig": null
+	},
+	{
+		"name": "medium-pyramid",
+		"version": "1.0.0",
+		"biomeWhiteList": [
+			"*"
+		],
+		"biomeBlackList": [
+			""
+		],
+		"size": "MEDIUM",
+		"numLevels": {
+			"min": 3,
+			"max": 5
+		},
+		"levelConfigs": [
+			{
+				"boundaryFactor": 0.5,
+				"spawnBoundaryFactor": 0.2,
+				"numRooms": {
+					"min": 7,
+					"max": 10
+				},
+				"width": {
+					"min": 5,
+					"max": 9
+				},
+				"depth": {
+					"min": 5,
+					"max": 9
+				},
+				"height": {
+					"min": 5,
+					"max": 9
+				},
+				"chestConfig": {
+					"rarity": [
+						"COMMON"
+					]
+				}				
+			},
+			{
+				"spawnBoundaryFactor": 0.25,
+				"numRooms": {
+					"min": 10,
+					"max": 15
+				},
+				"width": {
+					"min": 5,
+					"max": 10
+				},
+				"depth": {
+					"min": 5,
+					"max": 10
+				},
+				"height": {
+					"min": 5,
+					"max": 9
+				}
+			},
+			{
+				"spawnBoundaryFactor": 0.3,
+				"numRooms": {
+					"min": 12,
+					"max": 20
+				},
+				"width": {
+					"min": 5,
+					"max": 12
+				},
+				"depth": {
+					"min": 5,
+					"max": 12
+				},
+				"height": {
+					"min": 5,
+					"max": 10
+				},
+				"chestConfig": {
+					"rarity": [
+						"COMMON", "UNCOMMON"
+					]
+				}				
+			},
+			{
+				"spawnBoundaryFactor": 0.4,
+				"numRooms": {
+					"min": 15,
+					"max": 25
+				},
+				"width": {
+					"min": 5,
+					"max": 15
+				},
+				"depth": {
+					"min": 5,
+					"max": 15
+				},
+				"height": {
+					"min": 5,
+					"max": 10
+				}
+			},
+			{
+				"spawnBoundaryFactor": 0.5,
+				"numRooms": {
+					"min": 15,
+					"max": 30
+				},
+				"width": {
+					"min": 5,
+					"max": 15
+				},
+				"depth": {
+					"min": 5,
+					"max": 15
+				}
+			}
+		],
+		"surfaceConfig": null
+	},
+	{
+		"name": "large-pyramid",
+		"version": "1.0.0",
+		"biomeWhiteList": [
+			"*"
+		],
+		"biomeBlackList": [
+			""
+		],
+		"size": "LARGE",
+		"numLevels": {
+			"min": 6,
+			"max": 9
+		},
+		"levelConfigs": [
+			{
+				"boundaryFactor": 0.6,
+				"spawnBoundaryFactor": 0.2,
+				"numRooms": {
+					"min": 7,
+					"max": 10
+				},
+				"width": {
+					"min": 5,
+					"max": 9
+				},
+				"depth": {
+					"min": 5,
+					"max": 9
+				},
+				"height": {
+					"min": 5,
+					"max": 8
+				},
+				"chestConfig": {
+					"rarity": [
+						"COMMON"
+					]
+				}				
+			},
+			{
+				"spawnBoundaryFactor": 0.25,
+				"numRooms": {
+					"min": 10,
+					"max": 15
+				},
+				"width": {
+					"min": 5,
+					"max": 10
+				},
+				"depth": {
+					"min": 5,
+					"max": 10
+				},
+				"height": {
+					"min": 5,
+					"max": 9
+				}
+			},
+			{
+				"spawnBoundaryFactor": 0.3,
+				"numRooms": {
+					"min": 12,
+					"max": 21
+				},
+				"width": {
+					"min": 5,
+					"max": 12
+				},
+				"depth": {
+					"min": 5,
+					"max": 12
+				},
+				"height": {
+					"min": 5,
+					"max": 10
+				},
+				"chestConfig": {
+					"rarity": [
+						"COMMON", "UNCOMMON"
+					]
+				}				
+			},
+			{
+				"spawnBoundaryFactor": 0.4,
+				"numRooms": {
+					"min": 15,
+					"max": 28
+				},
+				"width": {
+					"min": 5,
+					"max": 15
+				},
+				"depth": {
+					"min": 5,
+					"max": 15
+				},
+				"height": {
+					"min": 5,
+					"max": 10
+				}
+			},
+			{
+				"spawnBoundaryFactor": 0.5,
+				"numRooms": {
+					"min": 18,
+					"max": 35
+				},
+				"width": {
+					"min": 5,
+					"max": 15
+				},
+				"depth": {
+					"min": 5,
+					"max": 15
+				},
+				"chestConfig": {
+					"rarity": [
+						"UNCOMMON", "SCARCE"
+					]
+				}				
+			},
+			{
+				"numRooms": {
+					"min": 20,
+					"max": 40
+				}
+			},
+			{
+				"chestConfig": {
+					"rarity": [
+						"UNCOMMON", "SCARCE", "RARE"
+					]
+				}			
+			}
+		],
+		"surfaceConfig": null
+	}
+]

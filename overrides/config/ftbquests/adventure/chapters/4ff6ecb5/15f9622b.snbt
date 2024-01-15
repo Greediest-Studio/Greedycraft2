@@ -1,0 +1,68 @@
+{
+	title: "§b护手模块的研究",
+	x: 7.5d,
+	y: 6.0d,
+	description: "制作神秘法师护手",
+	dependencies: [
+		"48b4b30c"
+	],
+	tasks: [{
+		uid: "1bc38085",
+		type: "item",
+		items: [{
+			id: "thaumicaugmentation:augment_builder_effect",
+			tag: {
+				id: "thaumicaugmentation:effect_power"
+			}
+		},
+		{
+			id: "thaumicaugmentation:augment_builder_effect",
+			tag: {
+				id: "thaumicaugmentation:effect_cast_speed"
+			}
+		},
+		{
+			id: "thaumicaugmentation:augment_builder_effect",
+			tag: {
+				id: "thaumicaugmentation:effect_cost"
+			}
+		}]
+	},
+	{
+		uid: "c65a70ff",
+		type: "item",
+		items: [{
+			id: "thaumicaugmentation:augment_builder_power",
+			tag: {
+				id: "thaumicaugmentation:strength_elemental"
+			}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3c2d28f5",
+		type: "item",
+		items: [{
+			id: "thaumicaugmentation:gauntlet",
+			tag: {
+				color: 8022208
+			},
+			ForgeCaps: {
+				Parent: {
+					slots: 3
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8decdd9d",
+		type: "xp",
+		xp: 2400
+	},
+	{
+		uid: "63b57616",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "§b处理自动化",
+	x: -19.5d,
+	y: 0.0d,
+	description: "制作ME样板终端",
+	text: [
+		""
+	],
+	dependencies: [
+		"567bbf2e"
+	],
+	tasks: [{
+		uid: "8e7c1bbb",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 340"
+		}]
+	}],
+	rewards: [{
+		uid: "28ce47a7",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "ae7b0f27",
+		type: "random",
+		table: 1
+	}]
+}

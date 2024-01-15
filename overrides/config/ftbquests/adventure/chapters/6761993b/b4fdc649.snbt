@@ -1,0 +1,33 @@
+{
+	title: "§b套娃快结束了？",
+	x: 4.5d,
+	y: 1.5d,
+	description: "制作冥灵石板",
+	dependencies: [
+		"fa6d4089",
+		"e418f863"
+	],
+	tasks: [{
+		uid: "b07f418f",
+		type: "item",
+		items: [{
+			item: "additions:bloody-slate_7"
+		}]
+	}],
+	rewards: [{
+		uid: "3f300575",
+		type: "item",
+		item: "additions:bloody-slate_7",
+		count: 4
+	},
+	{
+		uid: "ebc8890e",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "941a4081",
+		type: "random",
+		table: 3
+	}]
+}

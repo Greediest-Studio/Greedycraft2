@@ -1,0 +1,27 @@
+{
+	title: "§b屠龙者之崛起",
+	x: 7.5d,
+	y: 7.5d,
+	description: "在2400难度以上击败末影龙，获得巨龙之魂",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "7ef0c964",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-dragon_soul"
+		}]
+	}],
+	rewards: [{
+		uid: "a1556adc",
+		type: "item",
+		item: "additions:greedycraft-reward_ticket_legendary",
+		count: 5
+	},
+	{
+		uid: "00d1c227",
+		type: "xp",
+		xp: 200000
+	}]
+}

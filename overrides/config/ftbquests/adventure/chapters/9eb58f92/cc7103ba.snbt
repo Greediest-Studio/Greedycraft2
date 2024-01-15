@@ -1,0 +1,32 @@
+{
+	title: "§bRh",
+	x: -3.0d,
+	y: 9.5d,
+	description: "在朦胧世界挖掘铑矿石",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "653b1f4e",
+		type: "item",
+		items: [{
+			item: "additions:mekaddon-rhodium_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "6f641ee0",
+		type: "item",
+		item: "additions:mekaddon-rhodium_ore",
+		count: 20
+	},
+	{
+		uid: "fed8e20d",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "c25e8ce9",
+		type: "random",
+		table: 0
+	}]
+}

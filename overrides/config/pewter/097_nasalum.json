@@ -1,0 +1,125 @@
+{
+    "name": "nasalum",
+    "tool": {
+      "head": {
+        "attackDamage": 41.5,
+        "speed": 10.2,
+        "durability": 2000,
+        "harvestLevel": 9
+      },
+      "handle": {
+        "modifier": 0.95,
+        "durability": 620
+      },
+      "extra": {
+        "durability": 450
+      },
+      "bow": {
+        "speed": 1.7,
+        "range": 1.8,
+        "bonusDamage": 50
+      }
+    },
+    "color": "#0080ff",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 850,
+    "looks": {
+      "shininess": 0.8,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Nasalum",
+      "zh_cn": "星空"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "additions:greedycraft-nasalum_ingot"
+      ],
+      "block": [
+      ],
+      "nugget": [
+      ],
+      "ore": [
+        "additions:greedycraft-nasalum_ore"
+      ],
+      "dust": [
+      ],
+      "plate": [
+      ],
+      "gear": [
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "defense": 64,
+        "durability": 700
+      },
+      "plates": {
+        "toughness": 6.1,
+        "modifier": 6.8,
+        "durability": 560
+      },
+      "trim": {
+        "extraDurability": 500
+      }
+    },
+    "specificTraits": {
+      "HEAD": [
+        "starsky",
+        "bane_of_night"
+      ],
+      "HANDLE": [
+        "starsky",
+        "penetration"
+      ],
+      "EXTRA": [
+        "starsky",
+        "penetration"
+      ],
+      "BOW": [
+        "starsky",
+        "bane_of_night"
+      ],
+      "CORE": [
+        "indomitable_armor",
+        "second_life_armor"
+      ],
+      "PLATES": [
+        "indomitable_armor",
+        "second_life_armor"
+      ],
+      "TRIM": [
+        "indomitable_armor",
+        "second_life_armor"
+      ]
+    }
+}
+  

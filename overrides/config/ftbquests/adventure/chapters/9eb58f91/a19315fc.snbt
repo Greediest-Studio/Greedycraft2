@@ -1,0 +1,42 @@
+{
+	title: "§b信号发射器",
+	x: -13.5d,
+	y: -6.0d,
+	description: "制作ME无线访问点",
+	text: [
+		"放在ME安全终端上即可绑定无线终端"
+	],
+	dependencies: [
+		"6f8b667f",
+		"98840b2a"
+	],
+	tasks: [{
+		uid: "c9ba7868",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:wireless_access_point"
+		}]
+	}],
+	rewards: [{
+		uid: "2aa45737",
+		type: "item",
+		item: "appliedenergistics2:material 1 42",
+		count: 16,
+		random_bonus: 8
+	},
+	{
+		uid: "1129365c",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "135ed4e7",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "92caa076",
+		type: "random",
+		table: 1
+	}]
+}

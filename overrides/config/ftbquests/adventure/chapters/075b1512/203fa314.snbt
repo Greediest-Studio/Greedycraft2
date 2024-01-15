@@ -1,0 +1,68 @@
+{
+	title: "§b疯狂输出 IV",
+	x: -2.0d,
+	y: 5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"0852cd25"
+	],
+	tasks: [{
+		uid: "7c5cdf37",
+		type: "stat",
+		icon: "minecraft:golden_axe",
+		stat: "stat.damageDealt",
+		value: 100000000
+	}],
+	rewards: [{
+		uid: "a825d5b1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "20e9ab40",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "8bb40eca",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "ca63d799",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "7fe58751",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	}]
+}

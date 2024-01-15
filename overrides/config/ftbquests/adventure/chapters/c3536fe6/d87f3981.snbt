@@ -1,0 +1,24 @@
+{
+	title: "§b极寒与永昼",
+	x: -17.5d,
+	y: 4.0d,
+	description: "访问永昼之地",
+	dependencies: [
+		"2dc6889d"
+	],
+	tasks: [{
+		uid: "8f80c43c",
+		type: "dimension",
+		dim: 76
+	}],
+	rewards: [{
+		uid: "0a3bb6dd",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "22dd725b",
+		type: "random",
+		table: 2
+	}]
+}

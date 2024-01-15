@@ -1,0 +1,152 @@
+{
+  "name": "finallium",
+  "tool": {
+    "bow": {
+      "speed": 0.1,
+      "range": 2.0,
+      "bonusDamage": 109
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 210.5,
+      "speed": 49,
+      "durability": 131072,
+      "harvestLevel": 13
+    },
+    "handle": {
+      "modifier": 4.8,
+      "durability": 8192
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 1.1
+    },
+    "extra": {
+      "durability": 8192
+    }
+  },
+  "color": "#888888",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 5000,
+  "looks": {
+    "shininess": 0.1,
+    "brightness": 0.05,
+    "hueshift": 0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 50000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Finallium",
+    "zh_cn": "终焉"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "gct_ores:finallium_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 25600,
+      "defense": 198
+    },
+    "plates": {
+      "modifier": 32,
+      "durability": 42949.67,
+      "toughness": 22
+    },
+    "trim": {
+      "extraDurability": 42949.67
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "tconevo.infinitum",
+      "tconevo.soul_rend3",
+      "insatiable",
+      "world_end"
+    ],
+    "HEAD": [
+      "tconevo.infinitum",
+      "tconevo.soul_rend3",
+      "insatiable",
+      "world_end"
+    ],
+    "HANDLE": [
+      "tconevo.infinitum",
+      "tconevo.soul_rend3",
+      "insatiable",
+      "world_end"
+    ],
+    "BOW": [
+      "tconevo.infinitum",
+      "tconevo.soul_rend3",
+      "insatiable",
+      "world_end"
+    ],
+    "PROJECTILE": [
+      "tconevo.infinitum",
+      "tconevo.soul_rend3",
+      "insatiable",
+      "world_end"
+    ],
+    "CORE": [
+      "tconevo.gale_force3_armor",
+      "tconevo.infinitum",
+      "tconevo.celestial_armor"
+    ],
+    "PLATES": [
+      "tconevo.gale_force3_armor",
+      "tconevo.infinitum",
+      "tconevo.celestial_armor"    
+    ],
+    "TRIM": [
+      "tconevo.gale_force3_armor",
+      "tconevo.infinitum",
+      "tconevo.celestial_armor"    
+    ]
+  }
+}

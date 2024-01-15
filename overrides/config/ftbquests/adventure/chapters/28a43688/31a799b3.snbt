@@ -1,0 +1,43 @@
+{
+	title: "§b归于暗淡",
+	x: -15.5d,
+	y: 2.5d,
+	description: "合成萨多斯的灵魂堕落之匙",
+	text: [
+		""
+	],
+	dependencies: [
+		"dc405f54"
+	],
+	tasks: [{
+		uid: "37dc85d7",
+		type: "item",
+		items: [{
+			item: "gct_aby:keyofdark"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c25124c0",
+		type: "item",
+		item: "abyssalcraft:shadowgem",
+		count: 16
+	},
+	{
+		uid: "45f8acf7",
+		type: "item",
+		item: "abyssalcraft:ethaxiumingot",
+		count: 8
+	},
+	{
+		uid: "5f51a4e1",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "33445c05",
+		type: "xp",
+		xp: 1000
+	}]
+}

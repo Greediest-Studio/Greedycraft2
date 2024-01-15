@@ -1,0 +1,40 @@
+{
+	title: "§b炽热之光",
+	x: -14.0d,
+	y: 11.0d,
+	description: "合成太阳图腾，用于召唤太阳酋长",
+	text: [
+		""
+	],
+	dependencies: [
+		"3fdc52b8"
+	],
+	tasks: [{
+		uid: "f3d6ad51",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-sun_totem"
+		}]
+	}],
+	rewards: [{
+		uid: "d7139a21",
+		type: "item",
+		item: "minecraft:nether_star",
+		count: 4
+	},
+	{
+		uid: "246e6a5c",
+		type: "item",
+		item: "minecraft:totem_of_undying"
+	},
+	{
+		uid: "5205beef",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "ae7588ee",
+		type: "random",
+		table: 3
+	}]
+}

@@ -1,0 +1,1261 @@
+{
+    "name": "§2游戏维度图鉴",
+    "icon": "minecraft:portal",
+    "category": "patchouli:gamestages_category",
+    "pages":[
+    {
+        "type":"text",
+        "text":"$(c)overworld$(): $(2)主世界$()(dim 0)$(li)$()你一出生就在这里"
+    },
+    {
+        "type":"spotlight",
+        "item":"extrautils2:teleporter:1",
+        "link_recipe":true,
+        "text":"$(c)deep dark$(): $(2)漆黑世界$()(dim -11325)$(li)$()一个全是黑暗的世界，你需要踩在$(6)漆黑之门$()上才能进入，你必须身处光源附近，否则将会受到伤害"
+    },
+    {
+        "type":"spotlight",
+        "item":"gct_aby:key_of_warped_active",
+        "link_recipe":true,
+        "text":"$(c)warped ruin$(): $(2)扭曲遗址$()(Dim 55)$(li)$()你需要用到$(6)激活的深暗之扭曲遗址门钥匙$()右键任意方块即可召唤传送门"
+    },
+    {
+        "type":"spotlight",
+        "item":"gct_ores:creepy_wither_doll",
+        "link_recipe":true,
+        "text":"$(c)the void$(): $(2)虚空之地$()(Dim 100)$(li)$()你需要用到$(6)可怕的凋零玩偶$()，在末地原点（0 0 0 ）处右键，即可直接传送至虚空之地"
+    },
+    {
+        "type":"spotlight",
+        "item":"gct_ores:rng_relinquisher",
+        "link_recipe":true,
+        "text":"$(c)the nowhere$(): $(2)无名之地$()(Dim 101)$(li)你需要用到$(6)随机遗弃器$()在末地原点(0 0 0)右键即可传送至无名之地"
+    },
+    {
+        "type":"spotlight",
+        "item":"minecraft:ender_eye",
+        "link_recipe":true,
+        "text":"$(c)the end$(): $()$(2)末地$()(Dim 1)$(li)$()拿着$(6)末影之眼$()右键，跟着末影之眼，找到末地要塞，用末影之眼塞满$(6)末地传送门$()即可开启末地传送门"
+    },
+    {
+            "type":"multiblock",
+			"text": "如图，你需要$(6)奥数魔力接收器$()*4$(6)元始魔力接收器$()*1$(6)符文托浮架$()*4$(6)虚空种子容器$()*4$(6)元始稳定仪（向上）$()*1$(6)元始稳定仪（向下）$()*1$(6)元始石材$()*12",
+			"symmertrical": true,
+            "multiblock": {
+                "mapping":{
+                    "0":"gct_mobs:primordial_vis_receiver",
+                    "A":"gct_mobs:primordial_stone",
+                    "B":"gct_mobs:primordial_portal_holder_up",
+                    "C":"gct_mobs:primordial_portal_holder_down",
+                    "D":"gct_mobs:void_seed_container",
+                    "E":"gct_mobs:arcane_vis_receiver",
+                    "F":"gct_mobs:ruin_holder"
+                },
+                "pattern":[
+                    [
+                        "       ",
+                        "       ",
+                        "       ",
+                        "   C   ",
+                        "       ",
+                        "       ",
+                        "       "
+                    ],
+                    [
+                        "       ",
+                        "       ",
+                        "       ",
+                        "       ",
+                        "       ",
+                        "       ",
+                        "       "
+                    ],
+                    [
+                        "       ",
+                        "       ",
+                        "       ",
+                        "       ",
+                        "       ",
+                        "       ",
+                        "       "
+                    ],
+                    [
+                        "   D   ",
+                        "       ",
+                        "       ",
+                        "D     D",
+                        "       ",
+                        "       ",
+                        "   D   "
+                    ],
+                    [
+                        "   F   ",
+                        "       ",
+                        "       ",
+                        "F  B  F",
+                        "       ",
+                        "       ",
+                        "   F   "
+                    ],
+                    [
+                        "   E   ",
+                        "   A   ",
+                        "  AAA  ",
+                        "EAA0AAE",
+                        "  AAA  ",
+                        "   A   ",
+                        "   E   "
+                    ]
+                ]
+            }
+    },
+    {
+        "type":"text",
+        "text":"$(c)beside void$()$(2)血腥裂隙$()(Dim 41)$(li)如左图所示，搭建如图所示的多方块结构，完事后，空手右键$(6)元始稳定仪（向上）$()即可开启血腥裂隙"
+    },
+    {
+        "type":"multiblock",
+        "text": "如图，你需要$(6)深空纹石$()*14$(6)深空核心$()*1",
+        "symmertrical": true,
+        "multiblock": {
+            "mapping":{
+                "0":"gct_mobs:heavite",
+                "A":"gct_mobs:heavite"
+            },
+            "pattern":[
+                [
+                    "0AAA"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "AAAA"
+                ]
+            ]
+        }
+    },
+    {
+        "type":"spotlight",
+        "item":"gct_mobs:everheaven",
+        "link_recipe":true,
+        "text":"$(c)everheaven$()$(2)深空之域$()(Dim 78)$(li)搭建出左图结构，手拿$(6)深空核心$()右键此多方块结构（跟打开地狱门一样）即可激活深之域传送门"
+    },
+    {
+        "type":"multiblock",
+        "text":"如图，你需要$(6)镶嵌奥里哈刚的梦之木$()*14与$(6)精灵法杖$()*1",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"gct_mobs:orichalcos_dreamwood",
+                "A":"gct_mobs:orichalcos_dreamwood"
+            },
+            "pattern":[
+                [
+                "0AAA"
+                ],
+                [
+                "A  A"
+                ],
+                [
+                "A  A"
+                ],
+                [
+                "A  A"
+                ],
+                [
+                "AAAA"
+                ]   
+            ]
+        }
+    },
+    {
+        "type":"spotlight",
+        "item":"gct_mobs:alfheim",
+        "link_recipe":true,
+        "text":"$(c)alfheim$()$(2)亚尔夫海姆$()(Dim 42)$(li)搭建出左图结构，手拿$(6)精灵法杖$()右键此多方块结构（跟开地狱门一样）即可激活传送门"
+    },
+    {
+        "type":"multiblock",
+        "text":"如图，你需要$(6)海晶石砖$()*14$(6)亚特兰蒂斯核心$()*1",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"minecraft:prismarine[note=1]",
+                "A":"minecraft:prismarine[note=1]"
+            },
+            "pattern":[
+                [
+                    "0AAA"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "AAAA"
+                ]
+            ]
+        }
+    },
+    {
+        "type":"spotlight",
+        "item":"gct_mobs:atlantis",
+        "link_recipe":true,
+        "text":"$(c)atlantis$()$(2)亚特兰蒂斯$()(Dim 324987)$(li)搭建出左图结构，手拿$(6)亚特兰蒂斯核心$()右键此多方块结构（跟开地狱门一样）即可激活传送门$()$(br)$(6)亚特兰蒂斯核心$()由$(2)玩家$()击杀$(5)海洋神殿$()的$(c)远古守卫者$()掉落$(br)$(c)传送门结构必须使用海晶石砖，此多方快结构仍能识别！请注意"
+    },
+    {
+        "type":"multiblock",
+        "text":"如图你需要$(6)星辉投影仪$()*1$(6)熏黑大理石$()*53$(6)大理石砖$()*68$(6)精致大理石$()*13$(6)大理石$()*12$(6)大理石柱$()*8$(6)雕纹大理石$()*4$(6)星映大理石$()*3$(6)共鸣星杖$()*1",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"gct_mac:astral_portal",
+                "A":"astralsorcery:blockblackmarble",
+                "B":"astralsorcery:blockmarble[note=1]",
+                "C":"astralsorcery:blockmarble[note=6]",
+                "D":"astralsorcery:blockmarble[note=0]",
+                "E":"astralsorcery:blockmarble[note=2]",
+                "F":"astralsorcery:blockmarble[note=4]",
+                "H":"gct_mobs:astral_portal_core"
+            },
+            "pattern":[
+                [
+                    "           ",
+                    "           ",
+                    "  BBB BBB  ",
+                    "  B     B  ",
+                    "  B     B  ",
+                    "   ACHCA   ",
+                    "  B     B  ",
+                    "  B     B  ",
+                    "  BBB BBB  ",
+                    "           ",
+                    "           "
+                ],
+                [
+                    "           ",
+                    " FB     BF ",
+                    " B       B ",
+                    "           ",
+                    "           ",
+                    "   C   C   ",
+                    "           ",
+                    "           ",
+                    " B       B ",
+                    " FB     BF ",
+                    "           "
+                ],
+                [
+                    "           ",
+                    " E       E ",
+                    "           ",
+                    "           ",
+                    "           ",
+                    "   H   H   ",
+                    "           ",
+                    "           ",
+                    "           ",
+                    " E       E ",
+                    "           "
+                ],
+                [
+                    "           ",
+                    " E       E ",
+                    "           ",
+                    "           ",
+                    "           ",
+                    "   C   C   ",
+                    "           ",
+                    "           ",
+                    "           ",
+                    " E       E ",
+                    "           "
+                ],
+                [
+                    "           ",
+                    " C       C ",
+                    "           ",
+                    "           ",
+                    "           ",
+                    "   AC0CA   ",
+                    "           ",
+                    "           ",
+                    "           ",
+                    " C       C ",
+                    "           "
+                ],
+                [
+                    "BBB     BBB",
+                    "BDDBBBBBDDB",
+                    "BDAAAAAAADB",
+                    " BAAAAAAAB ",
+                    " BAAAAAAAB ",
+                    " BAAAAAAAB ",
+                    " BAAAAAAAB ",
+                    " BAAAAAAAB ",
+                    "BDAAAAAAADB",
+                    "BDDBBBBBDDB",
+                    "BBB     BBB"
+                ]
+            ]
+        }
+    },
+    {
+        "type":"spotlight",
+        "item":"astralsorcery:itemwand",
+        "link_recipe":true,
+        "text":"$(c)starland$()$(2)永恒星域$()(Dim 80)$(li)搭建如左图所示的多方块结构，在晚上手持$(6)共鸣星杖$()右击中间的$(c)传送门方块$()方可开启传送门$(li)注在白天进入会直接将玩家传送回主世界，且，此传送门为单向传送$(li)PS:现在星辉的矿辞有BUG无法完全显示多方块结构，你可以右击$(6)星辉投影仪$()来查看如何搭建多方块结构"
+    },
+    {
+        "type":"spotlight",
+        "item":"minecraft:flint_and_steel",
+        "link_recipe":true,
+        "text":"$(c)the nether$()$(2)下界$()(Dim -1)$(li)用$(6)黑曜石$()搭建一个像门的结构，站着躺着都行，确保你能钻进去，然后再用$(6)打火石$()右击门中间，即可开启传送门"
+    },
+    {
+        "type":"spotlight",
+        "item":"gct_ores:door_key_of_orderland",
+        "link_recipe":true,
+        "text":"$(c)orderland$()$(2)秩序之地$()(Dim 102)$(li)使用$(6)守则破坏之秩序之门钥匙$()右键任意方块即可召唤出秩序之地传送门"
+    },
+    {
+        "type":"spotlight",
+        "item":"randomthings:spectrekey",
+        "link_recipe":true,
+        "text":"$(c)spectre$()$(2)通灵口袋$()(Dim -343800852)$(li)使用$(6)通灵之钥$()长按右键即可传送至通灵口袋，这是一个只属于你的口袋空间，你可以随心所欲的做一切你想做的事"
+    },
+    {
+        "type":"text",
+        "text":"$(c)ExtraYtils2 Quarry_Dim$()(Dim -9999)$(li)这是量子采矿机采矿用的虚拟维度，不用想，你进不去   $(br)$(c)Storage Cell$()(Dim 741)$(li)这是储存元件的虚拟维度，跟前面那个一样，你进不去  "
+    },
+    {
+        "type":"multiblock",
+        "text":"如图，你需要$(6)烤豆腐块$()*14$(6)豆腐魔杖$()*1",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"tofucraft:blocktofugrilled",
+                "A":"tofucraft:blocktofugrilled"
+    },
+        "pattern":[
+            [
+                "0AAA"
+            ],
+            [
+                "A  A"
+            ],
+            [
+                "A  A"
+            ],
+            [
+                "A  A"
+            ],
+            [
+                "AAAA"
+            ]
+        ]
+        }
+    },
+    {
+        "type":"spotlight",
+        "item":"tofucraft:tofustick",
+        "link_recipe":true,
+        "text":"$(c)tofu world$()$(2)豆腐世界$()(Dim 56)$(li)手持$(6)豆腐魔杖$()右键此多方块结构即可开启豆腐世界传送门"
+    },
+    {
+        "type":"multiblock",
+        "text":"如图，你需要$(6)极光传送门框架$()*14$(6)打火石$()*1",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"theaurorian:aurorianportalframebricks",
+                "A":"theaurorian:aurorianportalframebricks"
+            },
+            "pattern":[
+                [
+                    "0AAA"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "AAAA"
+                ]
+            ]
+        }
+
+    },
+    {
+        "type":"spotlight",
+        "item":"theaurorian:aurorianportalframebricks",
+        "link_recipe":true,
+        "text":"$(c)theaurorian$()$(2)极光幽境$()(Dim 645)$(li)你需要搭建如图所示多方块结构，再使用$(6)打火石$()右键此多方块结构即可激活传送门"
+    },
+    {
+        "type":"multiblock",
+        "text":"如图所示，你需要$(6)萤石$()*14$(6)水桶$()*1",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"minecraft:glowstone",
+                "A":"minecraft:glowstone"
+            },
+            "pattern":[
+                [
+                    "0AAA"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "AAAA"
+                ]
+            ]
+        }
+    },
+    {
+        "type":"spotlight",
+        "item":"minecraft:glowstone",
+        "link_recipe":true,
+        "text":"$(c)Aetherl$()$(2)天境$()(Dim 173)$(li)你需要搭建如图所示多方块结构，再使用$(6)水桶$()右键此多方块结构，即可开启天境/以太/天堂传送门"
+    },
+    {
+        "type":"multiblock",
+        "text":"如图，你需要$(6)雪$()*14$(6)雪花球$()*1",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"minecraft:snow",
+                "A":"minecraft:snow"
+            },
+            "pattern":[
+                [
+                    "0AAA"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "AAAA"
+                ]
+            ]
+        }
+
+    },
+    {
+        "type":"spotlight",
+        "item":"divinerpg:snow_globe",
+        "link_recipe":true,
+        "text":"$(c)divinerpg:iceka$()$(2)冰晶雪原$()(Dim 425)$(li)你需要搭建如图所示多方块结构，再使用$(6)雪花球$()右键此多方块结构（跟开地狱门一样），即可打开传送门"
+    },
+    {
+        "type":"multiblock",
+        "text":"如图，你需要$(6)紫月石砖$()*14$(6)热烈点火器$()*1",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"blue_skies:lunar_stonebrick",
+                "A":"blue_skies:lunar_stonebrick"
+            },
+            "pattern":[
+                [
+                    "0AAA"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "AAAA"
+                ]
+            ]
+        }
+
+    },
+    {
+        "type":"spotlight",
+        "item":"blue_skies:zeal_lighter",
+        "link_recipe":true,
+        "text":"$(c)everdawn$()$(2)恒晓之地$()(Dim 77)$(li)你需要搭建如图所示多方块结构，再使用$(6)热烈点火器$()右键此多方块结构（跟开地狱门一样），即可打开传送门"
+    },
+    {
+        "type":"multiblock",
+        "text":"如图，你需要$(6)天蓝石砖$()*14$(6)热烈点火器$()*1",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"blue_skies:turquoise_stonebrick",
+                "A":"blue_skies:turquoise_stonebrick"
+            },
+            "pattern":[
+                [
+                    "0AAA"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "AAAA"
+                ]
+            ]
+        }
+
+    },
+    {
+        "type":"spotlight",
+        "item":"blue_skies:zeal_lighter",
+        "link_recipe":true,
+        "text":"$(c)everdawn$()$(2)永昼之地$()(Dim 77)$(li)你需要搭建如图所示多方块结构，再使用$(6)热烈点火器$()右键此多方块结构（跟开地狱门一样），即可打开传送门"
+    },
+    {
+        "type":"multiblock",
+        "text":"如图，你需要$(6)秘界传送框架$()*12",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"divinerpg:arcana_portal_frame",
+                "A":"divinerpg:arcana_portal_frame"
+            },
+            "pattern":[
+                [
+                    " 0AA ",
+                    "A   A",
+                    "A   A",
+                    "A   A",
+                    " AAA "
+                ]
+            ]
+        }
+    },
+    {
+        "type":"spotlight",
+        "item":"divinerpg:arcana_portal_frame",
+        "link_recipe":true,
+        "text":"$(c)divinerpg:arcana$()$(2)秘界$()(Dim 426)你需要搭建如图所示多方块结构即可开启秘界传送门$(c)$(li)注：因为方块有方向，多以你必须站在该多方块结构的正中心才可以开始搭建多方块结构，否则很有可能无法开启传送门$()$(li)PS图中的方向是错的，但可视化仍然可以识别，不用担心出现问题，什么？你问我为什么是错的，我也不明白，我要是知道就不会错了......."
+    },
+    {
+        "type":"multiblock",
+        "text":"如图你需要$(6)苔石$()*1$(6)风化石$()*1$(6)金块$()*1",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"minecraft:gold_block",
+                "A":"mist:portal_base[note=3]",
+                "B":"mist:portal_base[note=2]"
+            },
+            "pattern":[
+                [
+                    "A"
+                ],
+                [
+                    "0"
+                ],
+                [
+                    "B"
+                ]
+            ]
+        }
+        
+    },
+    {
+        "type":"entity",
+        "entity":"minecraft:enderman",
+        "scale":0.8,
+        "offset":1,
+        "text":"$(c)misty world$()$(2)朦胧世界$()(Dim 69) $(li)搭建如图结构即可开启朦胧世界传送门，注：该传送门所需的苔石与风化石只有第一次击杀末影人才能掉落"
+    },
+    {
+        "type":"multiblock",
+        "text":"如图，你需要$(6)桉域结界石$()*14$(6)火焰铸币$()*1",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"journey:eucaportalframe",
+                "A":"journey:eucaportalframe"
+            },
+            "pattern":[
+                [
+                    "0AAA"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "AAAA"
+                ]
+            ]
+        }
+    },
+    {
+        "type":"spotlight",
+        "item":"journey:flamecoin",
+        "link_recipe":true,
+        "text":"$(c)euca$()$(2)桉域$()(Dim 820)$(li)搭建如图所示多方块结构，使用$(6)火焰铸币$()右键多方块结构即可激活桉域传送门"
+    },
+    {
+        "type":"multiblock",
+        "text":"如图，你需要$(6)噬渊结界石$()*12$(6)阴暗宝石$()*12",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"journey:depthsportalframe",
+                "A":"journey:depthsportalframe"
+            },
+            "pattern":[
+                [
+                    " 0AA ",
+                    "A   A",
+                    "A   A",
+                    "A   A",
+                    " AAA "
+                ]
+            ]
+        }
+
+    },
+    {
+        "type":"spotlight",
+        "item":"journey:darkgem",
+        "link_recipe":true,
+        "text":"$(c)depths$()$(2)噬渊$()(Dim 821)$(li)搭建如图所示多方块结构，再使用$(6)阴暗宝石$()嵌入每个$(6)噬渊结界石$()中即可开启噬渊传送门$(c)$(li)注：因为方块有方向，多以你必须站在该多方块结构的正中心才可以开始搭建多方块结构，否则很有可能无法开启传送门$()$(li)PS图中的方向是错的，但可视化仍然可以识别，不用担心出现问题，什么？你问我为什么是错的，我也不明白，我要是知道就不会错了......."
+    },
+    {
+        "type":"multiblock",
+        "text":"如图，你需要$(6)尘泥沼泽结界石$()*12$(6)恶魔之眼$()*12",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"journey:corbaportalframe",
+                "A":"journey:corbaportalframe"
+            },
+            "pattern":[
+                [
+                    " 0AA ",
+                    "A   A",
+                    "A   A",
+                    "A   A",
+                    " AAA "
+                ]
+            ]
+        }
+
+    },
+    {
+        "type":"spotlight",
+        "item":"journey:demoniceye",
+        "link_recipe":true,
+        "text":"$(c)corba$()$(2)尘泥沼泽$()(Dim 824)$(li)搭建如图所示多方块结构，再使用$(6)恶魔之眼$()嵌入每个$(6)尘泥沼泽结界石$()中即可开启尘泥沼泽传送门$(c)$(li)注：因为方块有方向，多以你必须站在该多方块结构的正中心才可以开始搭建多方块结构，否则很有可能无法开启传送门$()$(li)PS图中的方向是错的，但可视化仍然可以识别，不用担心出现问题，什么？你问我为什么是错的，我也不明白，我要是知道就不会错了......."
+    },
+    {
+        "type":"multiblock",
+        "text":"如图，你需要$(6)迷雾丛林结界石$()*14$(6)火焰铸币$()*1",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"journey:terraniaportalframe",
+                "A":"journey:terraniaportalframe"
+            },
+            "pattern":[
+                [
+                    "0AAA"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "AAAA"
+                ]
+            ]
+        }
+    },
+    {
+        "type":"spotlight",
+        "item":"journey:flamecoin",
+        "link_recipe":true,
+        "text":"$(c)terrania$()$(2)迷雾丛林$()(Dim 827)$(li)搭建如图所示多方块结构，使用$(6)火焰铸币$()右键多方块结构即可激活传送门"
+    },
+    {
+        "type":"multiblock",
+        "text":"如图，你需要$(6)怒焰石林姐姐石$()*14$(6)火焰铸币$()*1",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"journey:boilingportalframe",
+                "A":"journey:boilingportalframe"
+            },
+            "pattern":[
+                [
+                    "0AAA"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "AAAA"
+                ]
+            ]
+        }
+    },
+    {
+        "type":"spotlight",
+        "item":"journey:flamecoin",
+        "link_recipe":true,
+        "text":"$(c)Charred Fields$()$(2)怒焰石林$()(Dim 822)$(li)搭建如图所示多方块结构，使用$(6)火焰铸币$()右键多方块结构即可激活传送门"
+    },
+    {
+        "type":"multiblock",
+        "text":"如图，你需要$(6)苍穹之城结界石$()*14$(6)火焰铸币$()*1",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"journey:cloudiaportalframe",
+                "A":"journey:cloudiaportalframe"
+            },
+            "pattern":[
+                [
+                    "0AAA"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "AAAA"
+                ]
+            ]
+        }
+    },
+    {
+        "type":"spotlight",
+        "item":"journey:flamecoin",
+        "link_recipe":true,
+        "text":"$(c)cloudia$()$(2)苍穹之城$()(Dim 826)$(li)搭建如图所示多方块结构，使用$(6)火焰铸币$()右键多方块结构即可激活传送门"
+    },
+    {
+        "type":"multiblock",
+        "text":"如图，你需要$(6)遗忘冰川结界石$()*14$(6)火焰铸币$()*1",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"journey:frozenportalframe",
+                "A":"journey:frozenportalframe"
+            },
+            "pattern":[
+                [
+                    "0AAA"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "AAAA"
+                ]
+            ]
+        }
+    },
+    {
+        "type":"spotlight",
+        "item":"journey:flamecoin",
+        "link_recipe":true,
+        "text":"$(c)Frozen Lands$()$(2)遗忘冰川$()(Dim 823)$(li)搭建如图所示多方块结构，使用$(6)火焰铸币$()右键多方块结构即可激活传送门"
+    },
+    {
+        "type":"multiblock",
+        "text":"如图，你需要$(6)神圣岩石$()*14$(6)暮光之钟$()*1",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"divinerpg:divine_rock",
+                "A":"divinerpg:divine_rock"
+            },
+            "pattern":[
+                [
+                    "0AAA"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "AAAA"
+                ]
+            ]
+        }
+    },
+    {
+        "type":"spotlight",
+        "item":"divinerpg:twilight_clock",
+        "link_recipe":true,
+        "text":"$(c)divinerpg:eden$()$(2)伊甸$()(Dim 420)$(li)搭建如图所示多方块结构，使用$(6)暮光之钟$()右键多方块结构即可激活传送门"
+    },
+    {
+        "type":"multiblock",
+        "text":"如图，你需要$(6)伊甸块$()*14$(6)暮光之钟$()*1",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"divinerpg:eden_block",
+                "A":"divinerpg:eden_block"
+            },
+            "pattern":[
+                [
+                    "0AAA"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "AAAA"
+                ]
+            ]
+        }
+    },
+    {
+        "type":"spotlight",
+        "item":"divinerpg:twilight_clock",
+        "link_recipe":true,
+        "text":"$(c)divinerpg:wildwood$()$(2)原始$()(Dim 421)$(li)搭建如图所示多方块结构，使用$(6)暮光之钟$()右键多方块结构即可激活传送门"
+    },
+    {
+        "type":"multiblock",
+        "text":"如图，你需要$(6)原始块$()*14$(6)暮光之钟$()*1",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"divinerpg:wildwood_block",
+                "A":"divinerpg:wildwood_block"
+            },
+            "pattern":[
+                [
+                    "0AAA"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "AAAA"
+                ]
+            ]
+        }
+    },
+    {
+        "type":"spotlight",
+        "item":"divinerpg:twilight_clock",
+        "link_recipe":true,
+        "text":"$(c)divinerpg:apalachia$()$(2)阿帕拉契亚$()(Dim 422)$(li)搭建如图所示多方块结构，使用$(6)暮光之钟$()右键多方块结构即可激活传送门"
+    },
+    {
+        "type":"multiblock",
+        "text":"如图，你需要$(6)阿帕拉契亚块$()*14$(6)暮光之钟$()*1",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"divinerpg:apalachia_block",
+                "A":"divinerpg:apalachia_block"
+            },
+            "pattern":[
+                [
+                    "0AAA"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "AAAA"
+                ]
+            ]
+        }
+    },
+    {
+        "type":"spotlight",
+        "item":"divinerpg:twilight_clock",
+        "link_recipe":true,
+        "text":"$(c)divinerpg:skythern$()$(2)冰刺$()(Dim 423)$(li)搭建如图所示多方块结构，使用$(6)暮光之钟$()右键多方块结构即可激活传送门"
+    },
+    {
+        "type":"multiblock",
+        "text":"如图，你需要$(6)冰刺块$()*14$(6)暮光之钟$()*1",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"divinerpg:skythern_block",
+                "A":"divinerpg:skythern_block"
+            },
+            "pattern":[
+                [
+                    "0AAA"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "AAAA"
+                ]
+            ]
+        }
+    },
+    {
+        "type":"spotlight",
+        "item":"divinerpg:twilight_clock",
+        "link_recipe":true,
+        "text":"$(c)divinerpg:mortum$()$(2)黑金$()(Dim 424)$(li)搭建如图所示多方块结构，使用$(6)暮光之钟$()右键多方块结构即可激活传送门$(li)进来啦，发现这里是基岩层，下不去吧。还想着怎么破基岩？你把传送门挖了看看"
+    },
+    {
+        "type":"multiblock",
+        "text":"如图，你需要$(6)黑岩迷宫结界石$()*12$(6)觉醒之眼$()*12",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"journey:senterianportalframe",
+                "A":"journey:senterianportalframe"
+            },
+            "pattern":[
+                [
+                    " 0AA ",
+                    "A   A",
+                    "A   A",
+                    "A   A",
+                    " AAA "
+                ]
+            ]
+        }
+
+    },
+    {
+        "type":"spotlight",
+        "item":"journey:sentryeye",
+        "link_recipe":true,
+        "text":"$(c)senterian$()$(2)黑岩迷宫$()(Dim 829)$(li)搭建如图所示多方块结构，再使用$(6)觉醒之眼$()嵌入每个$(6)黑岩迷宫结界石$()中即可开启黑岩迷宫传送门$(c)$(li)注：因为方块有方向，多以你必须站在该多方块结构的正中心才可以开始搭建多方块结构，否则很有可能无法开启传送门$()$(li)PS图中的方向是错的，但可视化仍然可以识别，不用担心出现问题，什么？你问我为什么是错的，我也不明白，我要是知道就不会错了......."
+    },
+    {
+        "type": "multiblock",
+        "text": "搭建完成后右键床即可进入！骷髅头颅可以换成任意头颅。玻璃可以换成任意方块。$(8)(那两个红色的东西是床)",
+         "multiblock": {
+             "mapping": {
+                 "D": "minecraft:diamond_block",
+                 "S": "minecraft:skull[facing=up]",
+                 "B": "minecraft:bed[facing=west,occupied=false,part=head]",
+                 "0": "minecraft:bed[facing=west,occupied=false,part=foot]",
+                 "G": "minecraft:glass"
+             },
+             "pattern": [
+                [
+                 " SS ",
+                 "SB0S",
+                 " SS "
+                ],
+                [
+                 " GG ",
+                 "GDDG",
+                 " GG "
+                ]
+             ]
+         }
+     },
+     {
+        "type": "text",
+        "text": "$(c)lostcities$()$(2)失落的城市$()（Dim 111）是一个由废弃城市组成的维度，也是获得$(6)城市保卫者勋章$()的最快方法。下面是前往失落的城市维度的方法。$(br2)$(c)如果你创建世界时是选择的是“失落的城市”或其他带有城市的预设则无法前往！$()$(br2)$(5)请在前往该维度之前准备好搭建返回传送门的材料，返回传送门也是右图但是不会自动生成！$()"
+    },
+    {
+        "type":"spotlight",
+        "item":"gct_aby:keyofdark",
+        "link_recipe":true,
+        "text":"$(c)dimdarkerrealm$()$(2)深暗领域$()(Dim 54)$(li)手持$(6)萨多斯的灵魂陨落之钥$()右击任意方块即可召唤深暗领域传送门"
+    },
+    {
+        "type":"spotlight",
+        "item":"divinerpg:nightmare_bed",
+        "link_recipe":true,
+        "text":"$(c)divingnerpg:vethea$()$(2)梦魇世界$()(Dim 427)$(li)在黑暗环境下右击$(6)梦魇床$()即可进入梦魇世界"
+    },
+    {
+        "type":"spotlight",
+        "item":"thebetweenlands:swamp_talisman",
+        "link_recipe":true,
+        "text":"$(c)betweenlands$()$(2)交错次元$()(Dim 20)$(li)使用$(6)沼泽护身符$()右击“任意原版树木树苗”即可召唤一颗大树，进入东西南北任意一个传送门即可进入交错次元"
+    },
+    {
+        "type":"spotlight",
+        "item":"abyssalcraft:gatewaykey",
+        "link_recipe":true,
+        "text":"$(c)The Abyssal Wastland$()$(2)深渊荒原$()(Dim 50)$(li)使用$(6)门钥匙$()右键任意方块即可召唤深渊荒原传送门"
+    },
+    {
+        "type":"spotlight",
+        "item":"abyssalcraft:gatewaykeydl",
+        "link_recipe":true,
+        "text":"$(c)The Dreadlands$()$(2)恐惧之地$()(Dim 51)$(li)使用$(6)阿索拉的恐惧之门钥匙$()右键任意方块即可召唤恐惧之地传送门"
+    },
+    {
+        "type":"spotlight",
+        "item":"abyssalcraft:gatewaykeyjzh",
+        "link_recipe":true,
+        "text":"$(c)Omothol$()$(2)奥穆索$()(Dim 52)$(li)使用$(6)查伽洛斯的拉莱耶门钥匙$()右键任意方块即可召唤深渊奥穆索的传送门"
+    },
+    {
+        "type":"text",
+        "text":"$(c)The Dark Realm$()$(2)黑暗领域$()(Dim 53)$(li)于奥穆索进行一次$(8)信仰之跃$()跳入虚空，即可进入黑暗领域"
+    },
+    {
+        "type":"spotlight",
+        "item":"candymod:teleporter",
+        "text":"$(c)candymod$()$(2)糖果世界$()Dim(23)$(br)吃下$(6)魔法糖果$()即可直接进入糖果世界$()$(br2)$(7)吃货的世界~$()"
+    },
+    {
+        "type":"image",
+        "images":["patchouli_books:xuyu.png"],
+        "title":"虚域",
+        "text":"$(c)emptiness$()$(2)虚域$()Dim(14676)"
+    },
+    {
+        "type":"spotlight",
+        "item":"thaumicaugmentation:augment_caster_rift_energy_storage",
+        "text":"使用一个安装了($(c)充能的$())$(6)元动能量电池$()的$(6)法师护手$()对左图所示的$(2)维度裂缝$()释放$(4)元动能量$()即可打开$(2)虚域$()传送门"
+    },
+    {
+        "type":"image",
+        "images":["patchouli_books:nc_wastedland.png"],
+        "title":"辐射废土",
+        "text":"$(c)nc_wasteland$()$(2)辐射废土$()Dim(4598)"
+    },
+    {
+        "type":"spotlight",
+        "item":"nuclearcraft:wasteland_portal",
+        "text":"找到如左图所示的传送门，站在传送门方块上，即可进入$(2)辐射废土$()世界"
+    },
+    {
+        "type":"image",
+        "images":["patchouli_books:midnight.png"],
+        "text":"$(c)midnight$()$(2)午夜世界$()Dim(-23)"
+    },
+    {
+        "type":"spotlight",
+        "item":"midnight:midnight_grass",
+        "text":"$(2)每当夜晚来临，午夜的大门即将开启~$()$(br2)$(5)他们喜欢抓不睡觉的孩子们进入午夜的世界"
+    },
+    {
+        "type":"spotlight",
+        "item":"utilityworlds:portal_garden",
+        "text":"$(c)uw_garden_wordl$()Dim(4)$(br)右击如上方块即可进入类似于超平坦地形的维度"
+    },
+    {
+        "type":"spotlight",
+        "item":"utilityworlds:portal_void",
+        "text":"$(c)uw_void_wordl$()Dim(5)$(br)右击如上方块即可进入一个周围全是虚空的维度"
+    },
+    {
+        "type":"spotlight",
+        "item":"compactmachines3:machine:5",
+        "text":"$(c)CompactMachines$()$(2)压缩空间$()Dim(144)$(br)使用$(6)传送器$()右键$(5)任意大小$()$(6)压缩空间机械$()进入，再次右键即可离开压缩空间"
+    },
+    {
+        "type":"spotlight",
+        "item":"keletupack:ichorium_pick_adv",
+        "text":"$(c)keletupack$()$(2)基岩世界$()Dim(31871)$(br)使用$(6)觉醒灵宝镐$()左键主世界 Y ≤ 6 高度的基岩打开$(6)基岩世界传送门$()"
+    },
+    {
+        "type":"multiblock",
+        "text":"如图，你需要$(6)虚空水晶块$()*14$(6)装满的黑曜石烧瓶$()*1",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"voidcraft:blockvoidcrystal",
+                "A":"voidcraft:blockvoidcrystal"
+            },
+            "pattern":[
+                [
+                    "0AAA"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "AAAA"
+                ]
+            ]
+        }
+    },
+    {
+        "type":"spotlight",
+        "item":"voidcraft:obsidianflask",
+        "link_recipe":true,
+        "text":"$(c)The Void$()$(2)幽邃虚空$()(Dim -2)$(li)搭建如图所示多方块结构，使用$(6)装满的黑曜石烧瓶$()右键多方块结构即可激活传送门$(br)在Y≤5的方块上，手持$(6)空的黑曜石烧瓶$()右键，可得到$(6)装满的黑曜石烧瓶$()"
+    },
+    {
+        "type":"multiblock",
+        "text":"如图，你需要$(6)软基岩$()*17$(6)虚空之星$()*1",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"voidcraft:blockfakebedrock",
+                "A":"voidcraft:blockfakebedrock"
+            },
+            "pattern":[
+               [
+                    "0AA",
+                    "A A",
+                    "AAA"
+               ],
+               [
+                    "AAA",
+                    "AAA",
+                    "AAA"
+               ]
+            ]
+        }
+    },
+    {
+        "type":"spotlight",
+        "item":"voidcraft:voidstar",
+        "text":"$(c)???$()$(2)夏之殿堂$()(Dim -3)搭建如左图所示的多方块结构，再将$(6)虚空之星$()扔进中心的空缺位置，即可开启$(6)到夏的传门$()$(br)$(6)虚空之星$()由击杀$(c)锁链头颅$()掉落$(br)$(6)烧焦的骨头$()由击杀$(5)虚空的愤怒$()掉落$(br)$(6)虚空锁链$()由击杀$(5)束缚幽灵$()掉落$(br)$(6)虚空布匹$()由击杀$(5)虚空巫妖$()掉落$(br)$(6)灵气$()由击杀$(5)虚空幽灵$()掉落"
+    },
+    {
+        "type":"multiblock",
+        "text":"如图，你需要$(6)泥土$()*16$(6)水$()*4$(6)暮光宝石$()*1$(6)花$()*12",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"minecraft:dirt",
+                "A":"minecraft:dirt",
+                "B":"minecraft:red_flower",
+                "C":"minecraft:concrete"
+            },
+            "pattern":[
+                [
+                    "BBBB",
+                    "B  B",
+                    "B  B",
+                    "BBBB"
+                ],
+               [
+                    "0AAA",
+                    "ACCA",
+                    "ACCA",
+                    "AAAA"
+               ],
+               [
+                    "    ",
+                    " AA ",
+                    " AA ",
+                    "    "
+               ]
+            ]
+        }
+    },
+    {
+        "type":"spotlight",
+        "item":"additions:greedycraft-twilight_gem",
+        "text":"搭建如左图所示多方块结构,将$(6)暮光宝石$()扔进$(6)水$()中即可激活暮色森林传送门$(br)$(c)图中的花可以替换任意种类的花$()$(br)$(c)图中白色不明物体是水$()(确信~被漂白了)"
+    },
+    {
+        "type":"spotlight",
+        "item":"voidcraft:dreambed",
+        "text":"$(c)Dal Quor$()$(2)梦境世界$()(Dim -4)可以通过在$(6)虚空床？？？$()上睡觉进入,为空岛状"
+    }
+]
+        }

@@ -1,0 +1,94 @@
+{
+  "name": "curse_alloy",
+  "tool": {
+    "head": {
+      "attackDamage": 46.0,
+      "speed": 14.0,
+      "durability": 7375,
+      "harvestLevel": 9
+    },
+    "handle": {
+      "modifier": 2.9,
+      "durability": 1695
+    },
+    "extra": {
+      "durability": 1425
+    },
+    "bow": {
+      "speed": 6.0,
+      "range": 1.9,
+      "bonusDamage": 30.0
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 316.0,
+      "defense": 60.0
+    },
+    "plates": {
+      "modifier": 6.5,
+      "durability": 122.0,
+      "toughness": 5.9
+    },
+    "trim": {
+      "extraDurability": 96.0
+    }
+  },
+  "color": "#896f63",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Curse Alloy",
+    "zh_cn": "灾祸合金"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:eioaddon-curse_alloy_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["final_wound","sacrificial"],
+    "HANDLE": ["final_wound","sacrificial"],
+    "EXTRA": ["final_wound","sacrificial"],
+    "BOW": ["final_wound","sacrificial"],
+    "CORE": ["defiled","shielding_armor"],
+    "PLATES": ["defiled","shielding_armor"],
+    "TRIM": ["defiled","shielding_armor"]
+  }
+}

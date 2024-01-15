@@ -1,0 +1,80 @@
+{
+	title: "§b反色的混沌，秩序确立",
+	x: -7.5d,
+	y: -5.0d,
+	description: "使用秩序注入器合成秩序核心",
+	text: [
+		""
+	],
+	dependencies: [
+		"cf5df877",
+		"b820a4df"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "54805cb9",
+		type: "item",
+		items: [{
+			item: "gct_ores:ordered_core"
+		}]
+	}],
+	rewards: [{
+		uid: "a9a7772b",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "order"
+	},
+	{
+		uid: "41f8448c",
+		type: "item",
+		item: {
+			id: "gct_ores:ordered_core",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	},
+	{
+		uid: "a864d1f1",
+		type: "item",
+		item: {
+			id: "gct_ores:order_crystal",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "9697829a",
+		type: "item",
+		item: {
+			id: "draconicadditions:chaos_heart",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 10
+	},
+	{
+		uid: "240c4f67",
+		type: "item",
+		item: {
+			id: "ageofminecraft:withered_nether_star",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 10
+	},
+	{
+		uid: "211b147a",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "caa3d2da",
+		type: "xp",
+		xp: 25000
+	}]
+}

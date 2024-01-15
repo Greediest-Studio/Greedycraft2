@@ -1,0 +1,159 @@
+{
+  "general": {
+    "compatibility_mode": false,
+    "double_fume_filter_chance": false,
+    "world_gen_distance": 12,
+    "goddess_statue_recipe": false,
+    "hell_on_earth_fires": true,
+    "void_bramble_recipe": false,
+    "restricted_poppet_shelves": true,
+    "deaths_hood_freezing": true,
+    "occluded_summons_radius": 32,
+    "broken_curses_radius": 32,
+    "no_pvp_taglock": false,
+    "no_op_taglock": false,
+    "mutandis_extra_blocks": [
+      "witchery:glint_weed",
+      "minecraft:tallgrass[type\u003dfern]"
+    ],
+    "goblin_god_spawn_chance": 10,
+    "mantrap_opacity": 30.0,
+    "volatility_brew_damage": true,
+    "disease_removal_chance": 10,
+    "vampire_items_despawn_time": 12.0,
+    "vampire_blood_text": false,
+    "fairest_spawn_chance": 1.0,
+    "player_wolf_infection": true,
+    "allow_chat_masquerading": true,
+    "allow_nameplate_masquerading": true,
+    "forced_fulfillment_probability": 5.0,
+    "fulfillment_probability": 1.0,
+    "shrink_mirror_world": false,
+    "generation_dimensions": [
+      "twilight_forest",
+      "overworld"
+    ]
+  },
+  "towns": {
+    "garden_house": {
+      "groups": 3,
+      "weight": 20,
+      "min": 3,
+      "max": 5
+    },
+    "library": {
+      "groups": 3,
+      "weight": 20,
+      "min": 3,
+      "max": 5
+    },
+    "wood_hut": {
+      "groups": 3,
+      "weight": 20,
+      "min": 3,
+      "max": 5
+    },
+    "hall": {
+      "groups": 3,
+      "weight": 20,
+      "min": 3,
+      "max": 5
+    },
+    "house": {
+      "groups": 3,
+      "weight": 20,
+      "min": 3,
+      "max": 5
+    },
+    "single_field": {
+      "groups": 3,
+      "weight": 20,
+      "min": 3,
+      "max": 5
+    },
+    "double_field": {
+      "groups": 3,
+      "weight": 20,
+      "min": 3,
+      "max": 5
+    },
+    "blacksmith": {
+      "groups": 1,
+      "weight": 5,
+      "min": 0,
+      "max": 5
+    },
+    "church": {
+      "groups": 0,
+      "weight": 10,
+      "min": 0,
+      "max": 1
+    },
+    "guard_tower": {
+      "groups": 4,
+      "weight": 20,
+      "min": 0,
+      "max": 1
+    },
+    "town_wall_mode": 1,
+    "town_wall_weight": 100,
+    "town_keep_mode": 1,
+    "town_keep_weight": 100,
+    "sandy_villages": true,
+    "plain_villages": true,
+    "mountain_villages": true,
+    "hill_villages": true,
+    "forest_villages": true,
+    "snowy_villages": true,
+    "mesa_villages": true,
+    "jungle_villages": false,
+    "extra_bookshop_items": [
+      "thaumcraft:thaumonomicon",
+      "tconstruct:book"
+    ],
+    "natures_power_blocks": [
+      {
+        "block": "minecraft:stone"
+      },
+      {
+        "block": "minecraft:sand"
+      },
+      {
+        "block": "minecraft:gravel"
+      },
+      {
+        "block": "minecraft:mycelium"
+      }
+    ],
+    "vampire_quests": true,
+    "vampire_ritual": true
+  },
+  "entities": {
+    "coven_witch_spawn_chance": 2,
+    "goblin_despawns": false,
+    "sleeping_buff_requirement": 100,
+    "straw_man_spawner_mobs": [
+      {
+        "weight": 2,
+        "element": "minecraft:zombie"
+      },
+      {
+        "weight": 1,
+        "element": "minecraft:skeleton"
+      }
+    ],
+    "exploding_creeper_hearts": true,
+    "vampire_hunter_spawn_chance": 1.0,
+    "town_zombie_attack_reduction_mode": 1,
+    "hybrids": true,
+    "vampire_staking": true,
+    "coven_witch_visits": true,
+    "disallowed_dream_entities": [
+      "minecraft:enderman"
+    ],
+    "extra_werewolf_entities": [],
+    "night_biomes": [
+      "biomesoplenty:ominous_woods"
+    ]
+  }
+}

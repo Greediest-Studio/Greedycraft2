@@ -1,0 +1,35 @@
+{
+	title: "§b收集尘埃",
+	x: -6.0d,
+	y: 13.0d,
+	description: "制作中子素收集器，用于收集中子素尘埃",
+	text: [
+		""
+	],
+	dependencies: [
+		"a83c20a2"
+	],
+	tasks: [{
+		uid: "c5c62c9c",
+		type: "item",
+		items: [{
+			item: "avaritia:neutron_collector"
+		}]
+	}],
+	rewards: [{
+		uid: "6a217977",
+		type: "item",
+		item: "avaritia:neutron_collector",
+		count: 2
+	},
+	{
+		uid: "839b4c50",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "a7fcaf73",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "§b另一种晶体",
+	x: 1.5d,
+	y: 19.5d,
+	description: "合成风暴共晶宝石，用于复制风暴碎片",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "17322060",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-stormy_crystal_gem"
+		}]
+	}],
+	rewards: [{
+		uid: "0038e25a",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "bd5f0db8",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "d9ccebb9",
+		type: "xp",
+		xp: 4000
+	}]
+}

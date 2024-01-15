@@ -1,0 +1,88 @@
+{
+  "name": "photonium",
+  "tool": {
+    "head": {
+      "attackDamage": 14.4,
+      "speed": 20,
+      "durability": 600,
+      "harvestLevel": 7
+    },
+    "handle": {
+      "modifier": 1.1,
+      "durability": 710
+    },
+    "extra": {
+      "durability": 1060
+    },
+    "bow": {
+      "speed": 1.4,
+      "range": 1.2,
+      "bonusDamage": 10
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 250,
+      "defense": 49.6
+    },
+    "plates": {
+      "modifier": 4,
+      "durability": 60,
+      "toughness": 4.4
+    },
+    "trim": {
+      "extraDurability": 45
+    }
+  },
+  "color": "#fdfdfd",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 2000,
+  "looks": {
+    "shininess": 1.0,
+    "brightness": 1.0,
+    "hueshift": -0.1
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Photonium",
+    "zh_cn": "光子"
+  },
+  "smeltingItems": {
+    "ingot": ["extrabotany:material:8"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["tconevo.luminiferous", "dichroic"],
+    "HANDLE": ["tconevo.luminiferous", "dichroic"],
+    "EXTRA": ["tconevo.luminiferous", "dichroic"],
+    "BOW": ["tconevo.luminiferous", "dichroic"],
+    "CORE": ["light_mark1_armor", "dichroic1_armor"],
+    "PLATES": ["light_mark1_armor", "dichroic1_armor"],
+    "TRIM": ["light_mark1_armor", "dichroic1_armor"]
+  }
+}

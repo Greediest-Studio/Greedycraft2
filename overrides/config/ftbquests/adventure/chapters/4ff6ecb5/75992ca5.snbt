@@ -1,0 +1,32 @@
+{
+	title: "§b炼金术的开端",
+	x: -2.5d,
+	y: -2.0d,
+	description: "终于开始学习炼金",
+	dependencies: [
+		"55a56909"
+	],
+	tasks: [{
+		uid: "8c5a987f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:crucible"
+		}]
+	}],
+	rewards: [{
+		uid: "ac2aad6e",
+		type: "item",
+		item: "thaumcraft:nugget 1 9",
+		count: 64
+	},
+	{
+		uid: "3ad9d503",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "6ef021b6",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "§b地牢守卫者II",
+	x: -18.0d,
+	y: 11.5d,
+	description: "使用巫师之书在秘界（佩拉塞尔塔祭坛）上召唤并击杀泰瑞瑟顿",
+	text: [
+		""
+	],
+	dependencies: [
+		"b3c1d12b"
+	],
+	tasks: [{
+		uid: "e0d8b238",
+		type: "item",
+		items: [{
+			item: "divinerpg:parasecta_statue"
+		}]
+	}],
+	rewards: [{
+		uid: "9d4986a8",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "925b168d",
+		type: "random",
+		table: 3
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "§b永恒之力",
+	x: 5.25d,
+	y: -4.5d,
+	shape: "circle",
+	description: "在梦魇世界四层击杀月光女神",
+	text: [
+		"使用原始之钟在亡魂祭坛上召唤",
+		"原始之钟可以与梦魇商人交易得到"
+	],
+	dependencies: [
+		"37813a2d",
+		"ceefd2a5"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "3c5825d2",
+		type: "item",
+		items: [{
+			item: "divinerpg:everbright"
+		},
+		{
+			item: "divinerpg:everlight"
+		},
+		{
+			item: "divinerpg:everfright"
+		},
+		{
+			item: "divinerpg:evernight"
+		},
+		{
+			item: "divinerpg:eversight"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "693d0165",
+		type: "item",
+		item: "additions:greedycraft-vethea_token"
+	}]
+}

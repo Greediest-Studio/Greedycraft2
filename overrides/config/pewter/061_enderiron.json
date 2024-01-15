@@ -1,0 +1,125 @@
+{
+  "name": "enderiron",
+  "tool": {
+    "head": {
+      "attackDamage": 6,
+      "speed": 10,
+      "durability": 600,
+      "harvestLevel": 3
+    },
+    "handle": {
+      "modifier": 0.6,
+      "durability": 100
+    },
+    "extra": {
+        "durability": 80
+    },
+    "bow": {
+        "speed": 4,
+        "range": 1.4,
+        "bonusDamage": 2
+    }
+  },
+  "color": "#1b7b6b",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 800,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Enderiron",
+    "zh_cn": "末影镀层铁"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "extendedcrafting:material:36"
+    ],
+    "block": [
+      "extendedcrafting:storage:5"
+    ],
+    "nugget": [
+      "extendedcrafting:material:37"
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 14,
+      "durability": 8
+    },
+    "plates": {
+      "toughness": 1.5,
+      "modifier": 1.3,
+      "durability": 6
+    },
+    "trim": {
+      "extraDurability": 6
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "enderport-3",
+      "magnetic2"
+    ],
+    "HANDLE": [
+      "enderference",
+      "magnetic1"
+    ],
+    "EXTRA": [
+      "enderference",
+      "magnetic1"
+    ],
+    "BOW": [
+      "enderport-3",
+      "magnetic2"
+    ],
+    "CORE": [
+      "enderport_armor",
+      "magnetic2_armor"
+    ],
+    "PLATES": [
+      "enderport_armor",
+      "magnetic1_armor"
+    ],
+    "TRIM": [
+      "enderport_armor",
+      "magnetic1_armor"
+    ]
+  }
+}

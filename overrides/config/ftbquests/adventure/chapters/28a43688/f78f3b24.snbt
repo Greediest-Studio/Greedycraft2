@@ -1,0 +1,35 @@
+{
+	title: "§b凝聚虚空之力",
+	x: -6.0d,
+	y: 2.5d,
+	description: "在虚空之地挖掘虚空精华",
+	text: [
+		""
+	],
+	dependencies: [
+		"18ebf04b"
+	],
+	tasks: [{
+		uid: "02ed2a11",
+		type: "item",
+		items: [{
+			item: "additions:taigaddon-void_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "67c5da5c",
+		type: "item",
+		item: "additions:taigaddon-void_essence",
+		count: 4
+	},
+	{
+		uid: "5ba8aaac",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "199b5d13",
+		type: "xp",
+		xp: 3000
+	}]
+}

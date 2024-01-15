@@ -1,0 +1,26 @@
+{
+	title: "§b藏匿着混沌的晶体？",
+	x: 0.0d,
+	y: 19.5d,
+	description: "合成混沌共晶宝石，可以复制混沌碎片",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "8426def7",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-chaotic_crystal_gem"
+		}]
+	}],
+	rewards: [{
+		uid: "444123ba",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "143db9b1",
+		type: "xp",
+		xp: 2000
+	}]
+}

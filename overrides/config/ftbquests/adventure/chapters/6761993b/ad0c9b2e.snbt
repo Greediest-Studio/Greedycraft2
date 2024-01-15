@@ -1,0 +1,41 @@
+{
+	title: "§b现在是黑夜时间",
+	x: 4.5d,
+	y: 7.5d,
+	description: "获得至暗之日的掉落物",
+	dependencies: [
+		"7c005016"
+	],
+	tasks: [{
+		uid: "c4bd8aa6",
+		type: "item",
+		items: [{
+			item: "additions:bloody-darkest_core"
+		}]
+	},
+	{
+		uid: "99e8f155",
+		type: "item",
+		items: [{
+			item: "dungeonsmod:sun_overdrive"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "faf69f9e",
+		type: "item",
+		item: "additions:bloody-darkest_core",
+		count: 8
+	},
+	{
+		uid: "639e7476",
+		type: "xp",
+		xp: 6666
+	},
+	{
+		uid: "f81e3196",
+		type: "random",
+		table: 3
+	}]
+}

@@ -1,0 +1,94 @@
+{
+  "name": "holysteel",
+  "tool": {
+    "head": {
+      "attackDamage": 11.0,
+      "speed": 14.5,
+      "durability": 800,
+      "harvestLevel": 5
+    },
+    "handle": {
+      "modifier": 0.9,
+      "durability": 300
+    },
+    "extra": {
+      "durability": 300
+    },
+    "bow": {
+      "speed": 3.2,
+      "range": 1.2,
+      "bonusDamage": 2.5
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 350.0,
+      "defense": 23.0
+    },
+    "plates": {
+      "modifier": 0.9,
+      "durability": 120.0,
+      "toughness": 1.5
+    },
+    "trim": {
+      "extraDurability": 100.0
+    }
+  },
+  "color": "#fefeb5",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Holysteel",
+    "zh_cn": "神圣钢"
+  },
+  "smeltingItems": {
+    "ingot": ["gct_mobs:holysteel_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["tconevo.mana_infused","holy"],
+    "HANDLE": ["tconevo.mana_infused","holy"],
+    "EXTRA": ["tconevo.mana_infused","holy"],
+    "BOW": ["tconevo.mana_infused","holy"],
+    "CORE": ["tconevo.mana_infused_armor","blessed_armor"],
+    "PLATES": ["tconevo.mana_infused_armor","blessed_armor"],
+    "TRIM": ["tconevo.mana_infused_armor","blessed_armor"]
+  }
+}

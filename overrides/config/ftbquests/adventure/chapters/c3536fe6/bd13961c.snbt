@@ -1,0 +1,24 @@
+{
+	title: "§b这里曾拥有文明",
+	x: -3.0d,
+	y: -2.5d,
+	description: "在梦魇世界地下挖掘梦魇导电铁残骸",
+	text: [
+		""
+	],
+	dependencies: [
+		"9a090295"
+	],
+	tasks: [{
+		uid: "5a270b28",
+		type: "item",
+		items: [{
+			item: "additions:vethea-vethea_conductive_iron_debris"
+		}]
+	}],
+	rewards: [{
+		uid: "80b4873b",
+		type: "random",
+		table: 5
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "§b自动化狂魔",
+	x: -21.0d,
+	y: -1.5d,
+	description: "获得自动化升级",
+	text: [
+		""
+	],
+	dependencies: [
+		"2bafc3d8"
+	],
+	tasks: [{
+		uid: "66f7c382",
+		type: "item",
+		items: [{
+			item: "gendustry:apiary.upgrade 1 14"
+		}]
+	}],
+	rewards: [{
+		uid: "cf73046f",
+		type: "item",
+		item: "gendustry:apiary.upgrade 1 14"
+	},
+	{
+		uid: "9468328d",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "fbc219b5",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "§b炽热与致密",
+	x: 4.5d,
+	y: 6.0d,
+	description: "获得红物质",
+	text: [
+		""
+	],
+	dependencies: [
+		"303e4e0c"
+	],
+	tasks: [{
+		uid: "7dbd16ad",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_matter 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "37184e4f",
+		type: "item",
+		item: "projecte:item.pe_matter 1 1",
+		count: 2
+	},
+	{
+		uid: "a8127578",
+		type: "xp",
+		xp: 3500
+	},
+	{
+		uid: "5e5b2ded",
+		type: "random",
+		table: 2
+	}]
+}

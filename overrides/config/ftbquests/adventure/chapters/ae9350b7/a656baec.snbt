@@ -1,0 +1,39 @@
+{
+	title: "§b小黑子油饼食不食",
+	x: 6.0d,
+	y: 18.0d,
+	description: "击杀250只“只因”",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "aaca713d",
+		type: "kill",
+		entity: "minecraft:chicken",
+		value: 250L
+	}],
+	rewards: [{
+		uid: "ad35e1ad",
+		type: "item",
+		item: {
+			id: "minecraft:wool",
+			Damage: 1s,
+			tag: {
+				display: {
+					Name: "篮球"
+				}
+			}
+		},
+		count: 64
+	},
+	{
+		uid: "dbb168e3",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "974c0bdf",
+		type: "xp",
+		xp: 250
+	}]
+}

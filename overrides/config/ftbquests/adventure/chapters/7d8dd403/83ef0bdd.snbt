@@ -1,0 +1,35 @@
+{
+	title: "§b末影护符",
+	icon: "additions:greedycraft-ender_charm",
+	x: -1.0d,
+	y: 4.5d,
+	description: "合成末影护符以解锁末地阶段",
+	text: [
+		""
+	],
+	dependencies: [
+		"39f9c490"
+	],
+	tasks: [{
+		uid: "a7e601c5",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-ender_charm"
+		}]
+	},
+	{
+		uid: "1dbd505f",
+		type: "gamestage",
+		stage: "ender_charm"
+	}],
+	rewards: [{
+		uid: "7146c82f",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "1264b6ff",
+		type: "random",
+		table: 2
+	}]
+}

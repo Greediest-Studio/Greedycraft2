@@ -1,0 +1,22 @@
+{
+	title: "§b还要钥匙？",
+	x: 11.5d,
+	y: 6.0d,
+	description: "获得镶尖符咒",
+	dependencies: [
+		"5673aa32"
+	],
+	tasks: [{
+		uid: "663f2f7d",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:eldritch_lock_key 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3d3c2637",
+		type: "xp",
+		xp: 2888
+	}]
+}

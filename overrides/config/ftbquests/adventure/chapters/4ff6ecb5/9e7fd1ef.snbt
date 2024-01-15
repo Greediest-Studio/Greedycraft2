@@ -1,0 +1,26 @@
+{
+	title: "§b无尽灵气？",
+	x: -4.5d,
+	y: -6.0d,
+	description: "制作万能溶剂之锅",
+	text: [
+		"将具有大量源质的物品投入以恢复灵气"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"75992ca5"
+	],
+	tasks: [{
+		uid: "c6b8850d",
+		type: "item",
+		items: [{
+			item: "thaumicwonders:alkahest_vat"
+		}]
+	}],
+	rewards: [{
+		uid: "8f271b8d",
+		type: "item",
+		item: "thermalfoundation:material 1 22",
+		count: 64
+	}]
+}

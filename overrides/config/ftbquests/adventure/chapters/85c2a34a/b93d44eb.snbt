@@ -1,0 +1,19 @@
+{
+	title: "§b还在想念一代的合金分解机吗？",
+	x: 1.5d,
+	y: 4.0d,
+	description: "合成离心核心，可以将合金分解为单体金属，并输出到其上方的离心槽中",
+	text: [
+		""
+	],
+	dependencies: [
+		"518ac07a"
+	],
+	tasks: [{
+		uid: "5111d001",
+		type: "item",
+		items: [{
+			item: "plustic:centrifuge 1 1"
+		}]
+	}]
+}

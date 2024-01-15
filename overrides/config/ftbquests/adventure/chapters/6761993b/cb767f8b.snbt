@@ -1,0 +1,26 @@
+{
+	title: "§b结晶仪式的开始",
+	x: -1.5d,
+	y: 5.5d,
+	description: "获得恶魔意志晶体",
+	dependencies: [
+		"5418c36f"
+	],
+	tasks: [{
+		uid: "f7f73be0",
+		type: "item",
+		items: [{
+			item: "bloodmagic:item_demon_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "5ba8bc17",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "148352ad",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "§b啊......这一点也不热烈",
+	x: -13.0d,
+	y: 2.5d,
+	description: "合成热烈点火器",
+	text: [
+		"用于打开蔚蓝模组的传送门"
+	],
+	dependencies: [
+		"42baff69"
+	],
+	tasks: [{
+		uid: "e39649ac",
+		type: "item",
+		items: [{
+			item: "blue_skies:zeal_lighter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "caf2608b",
+		type: "item",
+		item: "minecraft:clock",
+		count: 16
+	},
+	{
+		uid: "4494ebb4",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "ac834653",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,53 @@
+{
+    "name": "§7阴阳宝晶",
+    "icon": "gct_ores:hermaphroditic_artifact",
+    "category": "patchouli:ore_category",
+    "priority": true,
+    "pages": [
+       {
+            "type":"spotlight",
+            "item":"tiths:ore_redins",
+            "text":"采集在$(2)主世界$()($(c)overworld$())$(5)恶地生物群系$()(Mesa)"
+       },
+       {
+             "type":"spotlight",
+             "item":"tiths:ore_corundum",
+            "text":"采集在$(2)主世界$()($(c)overworld$())$(5)深海生物群系$()(Deep Ocean)"
+        },
+        {
+            "type":"spotlight",
+            "item":"tiths:ore_pyrophyllite",
+            "text":"采集在$(2)主世界$()($(c)overworld$())$(5)荒地生物群系$()(Wasteland)"
+        },
+        {
+            "type":"spotlight",
+            "item":"tiths:ore_spinel",
+            "text":"采集在$(2)主世界$()($(c)overworld$())$(5)阿尔卑斯山$()(Alps)"
+        },
+        {
+            "type":"spotlight",
+            "item":"tiths:ore_tourmaline",
+            "text":"采集在$(2)主世界$()($(c)overworld$())$(5)黑暗之地$()(Darklands)"
+        },
+        {
+            "type":"spotlight",
+            "item":"tiths:ore_opal",
+            "text":"采集在$(2)主世界$()($(c)overworld$())$(5)沙漠$()(Desert)"
+        },
+        {
+            "type":"spotlight",
+            "item":"tiths:ore_cordierite",
+            "text":"采集在$(2)主世界$()($(c)overworld$())$(5)蘑菇岛$()(MushroomIsland)"
+        },
+        {
+            "type":"spotlight",
+            "item":"tiths:ore_prehnite",
+            "text":"采集在$(2)主世界$()($(c)overworld$())$(5)丛林生物群系$()(Jungle)"
+        },
+        {
+            "type":"spotlight",
+            "item":"tiths:ore_lizanite",
+            "text":"采集在$(2)下界$()($(c)the nether$())"
+        }
+    ]
+}

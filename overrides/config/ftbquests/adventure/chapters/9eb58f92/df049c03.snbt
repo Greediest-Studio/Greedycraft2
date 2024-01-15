@@ -1,0 +1,17 @@
+{
+	x: -29.0d,
+	y: -2.0d,
+	dependencies: [
+		"1db8c19b"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "1bce8e8e",
+		type: "item",
+		items: [{
+			item: "additions:mekaddon-scientificite_mirror"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "§b末地？末影。",
+	x: -8.0d,
+	y: 11.0d,
+	description: "合成末影图腾，用于召唤末地术士巴克莱",
+	text: [
+		""
+	],
+	dependencies: [
+		"3fdc52b8"
+	],
+	tasks: [{
+		uid: "9ded265e",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-end_totem"
+		}]
+	}],
+	rewards: [{
+		uid: "55f6ad82",
+		type: "item",
+		item: "minecraft:nether_star",
+		count: 4
+	},
+	{
+		uid: "8c6b56b5",
+		type: "item",
+		item: "minecraft:totem_of_undying"
+	},
+	{
+		uid: "050493c6",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "d4878798",
+		type: "random",
+		table: 3
+	}]
+}

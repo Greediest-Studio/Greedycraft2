@@ -1,0 +1,52 @@
+{
+	title: "§b这是珍珠吗？",
+	x: 3.5d,
+	y: 4.0d,
+	description: "制作元始珍珠",
+	dependencies: [
+		"4500422a"
+	],
+	tasks: [{
+		uid: "0e36eec8",
+		type: "item",
+		items: [{
+			item: "thaumcraft:primordial_pearl"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c0058ece",
+		type: "item",
+		item: "thaumcraft:void_seed",
+		count: 5
+	},
+	{
+		uid: "1933c087",
+		type: "xp",
+		xp: 1300
+	},
+	{
+		uid: "1c29c1b7",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "ae06b4dc",
+		type: "command",
+		auto: "enabled",
+		command: "/thaumcraft research @p TCONEVO_BASE"
+	},
+	{
+		uid: "af520920",
+		type: "command",
+		auto: "enabled",
+		command: "/thaumcraft research @p TCONEVO_TCONINFUSIONENCH"
+	},
+	{
+		uid: "5018798d",
+		type: "command",
+		auto: "enabled",
+		command: "/thaumcraft research @p TCONEVO_PRIMALMETAL"
+	}]
+}

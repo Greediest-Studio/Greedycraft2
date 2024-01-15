@@ -1,0 +1,46 @@
+{
+	title: "§b空岛生存噩梦！",
+	x: -12.0d,
+	y: 9.5d,
+	description: "挖掘一块黑曜石",
+	text: [
+		""
+	],
+	dependencies: [
+		"002596c6"
+	],
+	tasks: [{
+		uid: "19d57278",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}]
+	}],
+	rewards: [{
+		uid: "963c9a32",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 6
+	},
+	{
+		uid: "53d5524c",
+		type: "item",
+		item: "minecraft:obsidian",
+		count: 14
+	},
+	{
+		uid: "4836cdf9",
+		type: "item",
+		item: "minecraft:fire_charge"
+	},
+	{
+		uid: "406f1601",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "65221b1d",
+		type: "random",
+		table: 0
+	}]
+}

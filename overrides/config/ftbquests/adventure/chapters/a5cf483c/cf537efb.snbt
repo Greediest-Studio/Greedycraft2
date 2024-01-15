@@ -1,0 +1,30 @@
+{
+	title: "§b蕴含了十二星座的控制器",
+	x: 5.5d,
+	y: 7.0d,
+	description: "制作璀璨祭坛控制器",
+	dependencies: [
+		"2ccdf939",
+		"12163e6b"
+	],
+	tasks: [{
+		uid: "4d7f7486",
+		type: "item",
+		items: [{
+			id: "modularmachinery:bright_altar_controller",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7cf47724",
+		type: "xp",
+		xp: 6666
+	},
+	{
+		uid: "5530ed3e",
+		type: "random",
+		table: 3
+	}]
+}

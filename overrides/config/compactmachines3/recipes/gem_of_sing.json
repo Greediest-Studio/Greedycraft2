@@ -1,0 +1,75 @@
+{
+  "name": "compactmachines3:gem_of_sing",
+  "target-item": "additions:greedycraft-gem_of_sing",
+  "target-count": 1,
+
+  "catalyst": "additions:greedycraft-iciricium_scroll",
+  
+  "input-types": {
+    "a": {
+      "id": "quark:snow_bricks",
+      "meta": 0
+    },
+    "b": {
+      "id": "minecraft:snow",
+      "meta": 0
+    },
+    "c": {
+      "id": "jaopca:block_blockiciricium",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "_",
+        "a"
+      ],
+      [
+        "_",
+        "b",
+        "_"
+      ],
+      [
+        "a",
+        "_",
+        "a"
+      ]
+    ],
+    [
+      [
+        "_",
+        "b",
+        "_"
+      ],
+      [
+        "b",
+        "c",
+        "b"
+      ],
+      [
+        "_",
+        "b",
+        "_"
+      ]
+    ],
+    [
+      [
+        "a",
+        "_",
+        "a"
+      ],
+      [
+        "_",
+        "b",
+        "_"
+      ],
+      [
+        "a",
+        "_",
+        "a"
+      ]
+    ]
+  ]
+}

@@ -1,0 +1,40 @@
+{
+	title: "§b安全，防诈骗？",
+	x: -13.5d,
+	y: -4.0d,
+	description: "制作ME安全终端，用于绑定ME网络",
+	text: [
+		""
+	],
+	dependencies: [
+		"6d99bc62"
+	],
+	tasks: [{
+		uid: "c230d8eb",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:security_station"
+		}]
+	}],
+	rewards: [{
+		uid: "492d67d8",
+		type: "item",
+		item: "appliedenergistics2:part 1 56",
+		count: 128
+	},
+	{
+		uid: "fc3a51e0",
+		type: "item",
+		item: "appliedenergistics2:fluix_block"
+	},
+	{
+		uid: "2a5fd1ff",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "993b3c33",
+		type: "xp",
+		xp: 1000
+	}]
+}

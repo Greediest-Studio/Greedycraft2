@@ -1,0 +1,265 @@
+{
+  "version": 2,
+  "location": "gct_mac:endest_steel_forge",
+  "traits": {
+    "background": "multiblocked:textures/ender_forge.png",
+    "fuel_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 99,
+      "y": 59,
+      "width": 8,
+      "height": 52,
+      "texture": "multiblocked:textures/ender_energy.png",
+      "fillDirection": 3
+    },
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 115,
+      "y": 60,
+      "width": 8,
+      "height": 51,
+      "texture": "multiblocked:textures/ender_energy.png",
+      "fillDirection": 3
+    },
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "x": 25,
+        "y": 83,
+        "autoIO": false,
+        "valid": [
+          "\"{id:\\\"jaopca:item_dustendusium\\\",Count:1,Damage:0s}\""
+        ]
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "x": 43,
+        "y": 83,
+        "autoIO": false,
+        "valid": [
+          "\"{id:\\\"jaopca:item_dustendorium\\\",Count:1,Damage:0s}\""
+        ]
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "x": 61,
+        "y": 83,
+        "autoIO": false,
+        "valid": [
+          "\"{id:\\\"thermalfoundation:material\\\",Count:1,Damage:103s}\""
+        ]
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "x": 94,
+        "y": 112,
+        "autoIO": false,
+        "valid": [
+          "\"{id:\\\"thermalfoundation:material\\\",Count:1,Damage:770s}\"",
+          "\"{id:\\\"minecraft:ender_pearl\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"tiths:ender_crevice_shard\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"divinerpg:ender_shards\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"divinerpg:ender_stone\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"avaritia:endest_pearl\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"additions:taigaddon-harcadium_ingot\\\",Count:1,Damage:0s}\"",
+          "\"{id:\\\"additions:taigaddon-harcadium_block\\\",Count:1,Damage:0s}\""
+        ]
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "x": 130,
+        "y": 83,
+        "autoIO": false
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 8.0,
+    "explosionResistance": 4000.0,
+    "harvestLevel": 6,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "gct_mac:model_ender_forge",
+          "meta": 2
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "ender_forge",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "ABA",
+        "BCB",
+        "DED"
+      ],
+      [
+        "@EB",
+        "CFC",
+        "EGE"
+      ],
+      [
+        "ABA",
+        "BCB",
+        "DED"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "stygian:endobsidian",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "gct_mac:endest_steel_forge",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "endreborn:block_endorium",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "abyssalcraft:abyssalsandglass",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "minecraft:purpur_slab",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "minecraft:purpur_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "thermalfoundation:fluid_ender",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "enderio:block_end_iron_bars",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

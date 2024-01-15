@@ -1,0 +1,37 @@
+{
+	title: "§b远程信号接收器",
+	x: -15.5d,
+	y: -6.0d,
+	description: "制作无线终端！",
+	text: [
+		""
+	],
+	dependencies: [
+		"a19315fc"
+	],
+	tasks: [{
+		uid: "54b59b08",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:wireless_terminal",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4ecaa005",
+		type: "item",
+		item: "appliedenergistics2:material 1 42"
+	},
+	{
+		uid: "e322ad4f",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "965aa3b9",
+		type: "xp",
+		xp: 1000
+	}]
+}

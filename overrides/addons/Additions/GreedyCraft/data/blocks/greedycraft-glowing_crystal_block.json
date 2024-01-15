@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "§e荧光水晶块",
+    "ore_dict": "blockGlowingGem",
+    "type": "additions:block_simple"
+  },
+  "name": "§e荧光水晶块",
+  "material": "minecraft:metal",
+  "hardness": 3.0,
+  "resistance": 10.0,
+  "harvest_tool": "pickaxe",
+  "light_level": 15,
+  "type": "additions:simple"
+}

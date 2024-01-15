@@ -1,0 +1,40 @@
+{
+	title: "§b人造的水晶",
+	x: 3.5d,
+	y: -1.0d,
+	description: "制作浮动水晶",
+	dependencies: [
+		"fd7ee13f"
+	],
+	tasks: [{
+		uid: "ab7150d7",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blockcelestialcollectorcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.discidia",
+					collectorType: 1,
+					crystalProperties: {
+						size: 900,
+						purity: 100,
+						collectiveCapability: 100,
+						fract: 0,
+						sizeOverride: -1
+					}
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8d6ab834",
+		type: "xp",
+		xp: 2400
+	},
+	{
+		uid: "7621b514",
+		type: "random",
+		table: 2
+	}]
+}

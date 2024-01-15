@@ -1,0 +1,28 @@
+{
+	title: "§b魔导透镜 pro max",
+	x: 1.5d,
+	y: 0.0d,
+	description: "制作虚空魔导透镜",
+	dependencies: [
+		"2dd36ca8"
+	],
+	tasks: [{
+		uid: "1fd702ca",
+		type: "item",
+		items: [{
+			item: "thaumadditions:void_thaumometer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "614b8dfc",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "7a538567",
+		type: "loot",
+		table: 1
+	}]
+}

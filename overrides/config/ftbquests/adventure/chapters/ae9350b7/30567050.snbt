@@ -1,0 +1,31 @@
+{
+	title: "§bDeep Dark……",
+	x: 0.0d,
+	y: 9.0d,
+	description: "合成漆黑之门，进入漆黑世界",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "da8473cb",
+		type: "item",
+		items: [{
+			item: "extrautils2:teleporter 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "1ed3329d",
+		type: "item",
+		item: "extrautils2:compressedcobblestone 1 4"
+	},
+	{
+		uid: "66b73999",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "69346806",
+		type: "xp",
+		xp: 300
+	}]
+}

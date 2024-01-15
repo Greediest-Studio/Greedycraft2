@@ -1,0 +1,32 @@
+{
+	title: "§b恢复区块的灵气",
+	x: 7.5d,
+	y: -4.0d,
+	description: "制作灵气补充器",
+	dependencies: [
+		"8e7755f7"
+	],
+	tasks: [{
+		uid: "23a51011",
+		type: "item",
+		items: [{
+			item: "thaumadditions:aura_charger"
+		}]
+	}],
+	rewards: [{
+		uid: "fafb42e7",
+		type: "item",
+		item: "thaumadditions:adaminite_ingot",
+		count: 2
+	},
+	{
+		uid: "c4db1c7a",
+		type: "xp",
+		xp: 1250
+	},
+	{
+		uid: "5d5b8b0a",
+		type: "random",
+		table: 3
+	}]
+}

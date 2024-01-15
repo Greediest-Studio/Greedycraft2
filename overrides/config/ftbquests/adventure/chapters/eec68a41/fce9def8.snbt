@@ -1,0 +1,31 @@
+{
+	title: "§b深入黑暗",
+	x: 12.5d,
+	y: 0.0d,
+	description: "进入漆黑世界",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "c81cca88",
+		type: "dimension",
+		icon: "extrautils2:teleporter 1 1",
+		dim: -11325
+	}],
+	rewards: [{
+		uid: "7c1e9295",
+		type: "item",
+		item: "taiga:nihilite_ingot",
+		count: 4
+	},
+	{
+		uid: "fea9ba23",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "b6470b55",
+		type: "random",
+		table: 2
+	}]
+}

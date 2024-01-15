@@ -1,0 +1,90 @@
+{
+	title: "§b风暴重现",
+	x: -6.0d,
+	y: -8.0d,
+	description: "合成风暴核心",
+	text: [
+		""
+	],
+	dependencies: [
+		"6ac53a1c"
+	],
+	tasks: [{
+		uid: "8464ae62",
+		type: "item",
+		items: [{
+			item: "gct_ores:stormy_core"
+		}]
+	}],
+	rewards: [{
+		uid: "c0de0cb0",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "stormy"
+	},
+	{
+		uid: "0ff82daf",
+		type: "item",
+		item: "gct_ores:stormy_core"
+	},
+	{
+		uid: "df265b03",
+		type: "item",
+		item: "gct_ores:stormy_shard",
+		count: 10
+	},
+	{
+		uid: "de92f533",
+		type: "item",
+		item: "ageofminecraft:withered_nether_star",
+		count: 2
+	},
+	{
+		uid: "34bce7de",
+		type: "item",
+		item: "minecraft:nether_star",
+		count: 64
+	},
+	{
+		uid: "15cf7dee",
+		type: "item",
+		item: "draconicadditions:chaos_heart",
+		count: 2
+	},
+	{
+		uid: "f3183f8b",
+		type: "item",
+		item: "draconicevolution:dragon_heart",
+		count: 64
+	},
+	{
+		uid: "3426aff1",
+		type: "item",
+		item: "additions:greedycraft-creative_shard"
+	},
+	{
+		uid: "8b16c4bf",
+		type: "item",
+		item: "additions:tcsponsors-sponsors_chest"
+	},
+	{
+		uid: "bf08dd96",
+		type: "xp",
+		xp: 40000
+	},
+	{
+		uid: "1dc1c19e",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "c7553296",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "89fcadc6",
+		type: "item",
+		item: "additions:sponsor2-chest"
+	}]
+}

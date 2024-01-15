@@ -1,0 +1,125 @@
+{
+    "name": "lunarine",
+    "tool": {
+      "head": {
+        "attackDamage": 34,
+        "speed": 12.5,
+        "durability": 3600,
+        "harvestLevel": 9
+      },
+      "handle": {
+        "modifier": 1.6,
+        "durability": 850
+      },
+      "extra": {
+        "durability": 600
+      },
+      "bow": {
+        "speed": 2.2,
+        "range": 1.9,
+        "bonusDamage": 65
+      }
+    },
+    "color": "#f0f0f0",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 850,
+    "looks": {
+      "shininess": 0.8,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Lunarine",
+      "zh_cn": "月华"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "additions:greedycraft-lunarine_ingot"
+      ],
+      "block": [
+      ],
+      "nugget": [
+      ],
+      "ore": [
+        "additions:greedycraft-lunarine_ore"
+      ],
+      "dust": [
+      ],
+      "plate": [
+      ],
+      "gear": [
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "defense": 66,
+        "durability": 900
+      },
+      "plates": {
+        "toughness": 5.5,
+        "modifier": 7,
+        "durability": 830
+      },
+      "trim": {
+        "extraDurability": 750
+      }
+    },
+    "specificTraits": {
+      "HEAD": [
+        "strong_moon",
+        "bane_of_night"
+      ],
+      "HANDLE": [
+        "strong_moon",
+        "tconevo.overwhelm"
+      ],
+      "EXTRA": [
+        "strong_moon",
+        "tconevo.overwhelm"
+      ],
+      "BOW": [
+        "strong_moon",
+        "bane_of_night"
+      ],
+      "CORE": [
+        "changeable_armor",
+        "ambitious_armor"
+      ],
+      "PLATES": [
+        "changeable_armor",
+        "ambitious_armor"
+      ],
+      "TRIM": [
+        "changeable_armor",
+        "ambitious_armor"
+      ]
+    }
+}
+  

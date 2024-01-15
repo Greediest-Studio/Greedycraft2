@@ -1,0 +1,35 @@
+{
+	title: "§b金刚狼？",
+	x: -3.5d,
+	y: -0.5d,
+	description: "在无名之地挖掘艾德曼合金",
+	text: [
+		""
+	],
+	dependencies: [
+		"a1066a29"
+	],
+	tasks: [{
+		uid: "c388fbfc",
+		type: "item",
+		items: [{
+			item: "additions:taigaddon-adamantium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "6262f430",
+		type: "item",
+		item: "additions:taigaddon-adamantium_ingot",
+		count: 4
+	},
+	{
+		uid: "abd7de13",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "5a54edfd",
+		type: "random",
+		table: 3
+	}]
+}

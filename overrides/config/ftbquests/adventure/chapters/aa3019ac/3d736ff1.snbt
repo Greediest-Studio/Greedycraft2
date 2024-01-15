@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: 9.5d,
+	dependencies: [
+		"54050e05"
+	],
+	tasks: [{
+		uid: "71fd3a47",
+		type: "item",
+		items: [{
+			item: "additions:mekaddon-chloroplatinic_acid"
+		}]
+	}]
+}

@@ -1,0 +1,44 @@
+{
+	title: "§b昼夜合一",
+	x: -11.0d,
+	y: 1.0d,
+	description: "获得深空纹石，进入深空之域",
+	text: [
+		"使用深空核心开启传送门"
+	],
+	dependencies: [
+		"5c3e551a",
+		"54a6b10c"
+	],
+	tasks: [{
+		uid: "d3ef0dd6",
+		type: "item",
+		items: [{
+			item: "gct_mobs:heavite"
+		}]
+	},
+	{
+		uid: "3b0bb36e",
+		type: "dimension",
+		dim: 78
+	},
+	{
+		uid: "325bc714",
+		type: "item",
+		items: [{
+			item: "gct_mobs:everheaven"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c2cb6d8f",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "b30b777c",
+		type: "xp",
+		xp: 2000
+	}]
+}

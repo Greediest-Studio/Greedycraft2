@@ -1,0 +1,34 @@
+{
+	title: "§bsecond life",
+	x: 12.0d,
+	y: 6.0d,
+	description: "获得不死图腾",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "fb35c5d7",
+		type: "item",
+		items: [{
+			item: "minecraft:totem_of_undying"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0661aab7",
+		type: "xp",
+		xp: 7500
+	},
+	{
+		uid: "ee685d1f",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 64
+	},
+	{
+		uid: "69bff113",
+		type: "random",
+		table: 2
+	}]
+}

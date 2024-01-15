@@ -1,0 +1,93 @@
+{
+  "name": "ebony_ivory",
+  "tool": {
+    "head": {
+      "attackDamage": 49.5,
+      "speed": 15.38,
+      "durability": 859,
+      "harvestLevel": 10
+    },
+    "handle": {
+      "modifier": 1.3,
+      "durability": 86
+    },
+    "extra": {
+      "durability": 86
+    },
+    "bow": {
+      "drawspeed": 2.6,
+      "range": 2.8,
+      "bonusDamage": 16
+    }
+  },
+  "armor": {
+    "core": {
+      "defense": 49.25,
+      "durability": 859
+    },
+    "plates": {
+      "toughness": 10.5,
+      "modifier": 1.2,
+      "durability": 86
+    },
+    "trim": {
+      "extraDurability": 86
+    }
+  },
+  "color": "#999999",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 500,
+  "looks": {
+    "shininess": 0.0,
+    "brightness": 0.0,
+    "hueshift": 0.0
+  },
+  "fluid": {
+    "viscosity": 6000,
+    "density": 2000,
+    "temperature": 500,
+    "luminosity": 10
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Ebony And Ivory",
+    "zh_cn": "黑檀木与白象牙"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:link-ebony_and_lvory"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["solemnlament", "soul1", "flying_butterfly", "parasitism"],
+    "HANDLE": ["flying_butterfly", "parasitism"],
+    "EXTRA": ["soul1", "parasitism"],
+    "CORE": ["funeral_armor", "soul1", "rest_lament_armor", "parasitism_armor"],
+    "PLATES": ["soul1", "rest_lament_armor", "parasitism_armor"],
+    "TRIM": ["funeral_armor", "parasitism_armor"]
+  }
+}

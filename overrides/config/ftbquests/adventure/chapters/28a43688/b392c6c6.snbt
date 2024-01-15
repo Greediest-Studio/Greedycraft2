@@ -1,0 +1,35 @@
+{
+	title: "§b阴影之源",
+	x: -18.5d,
+	y: 0.5d,
+	description: "获得阴影之核",
+	text: [
+		""
+	],
+	dependencies: [
+		"31a799b3"
+	],
+	tasks: [{
+		uid: "f61d12bd",
+		type: "item",
+		items: [{
+			item: "gct_aby:shadownuclear"
+		}]
+	}],
+	rewards: [{
+		uid: "097aced7",
+		type: "item",
+		item: "gct_aby:shadownuclear",
+		count: 2
+	},
+	{
+		uid: "c7fea2ce",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "d3ab60bb",
+		type: "xp",
+		xp: 1200
+	}]
+}

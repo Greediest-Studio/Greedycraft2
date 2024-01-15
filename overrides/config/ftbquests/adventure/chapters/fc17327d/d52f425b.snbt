@@ -1,0 +1,42 @@
+{
+	title: "§b黑曜石墙之后的秘密",
+	x: -12.0d,
+	y: 15.5d,
+	description: "击败幻影骑士军团",
+	text: [
+		""
+	],
+	dependencies: [
+		"0f52c58d"
+	],
+	tasks: [{
+		uid: "51de08b7",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "3bd2e8d1",
+		type: "item",
+		item: "twilightforest:knightmetal_ingot",
+		count: 16
+	},
+	{
+		uid: "e719baa0",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "6e902565",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "9ba3bdbd",
+		type: "advancement",
+		auto: "no_toast",
+		advancement: "twilightforest:progress_knights",
+		criterion: ""
+	}]
+}

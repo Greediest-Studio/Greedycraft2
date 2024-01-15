@@ -1,0 +1,32 @@
+{
+	title: "§b无限提取",
+	x: 1.5d,
+	y: 10.5d,
+	description: "合成创造模式取出升级强化配件",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "c5f2af3d",
+		type: "item",
+		items: [{
+			item: "storagedrawers:upgrade_creative 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "add3d8f2",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "46cfa0ab",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "70e477e4",
+		type: "item",
+		item: "storagedrawers:upgrade_creative",
+		count: 4
+	}]
+}

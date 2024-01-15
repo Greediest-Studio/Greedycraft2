@@ -1,0 +1,48 @@
+{
+	title: "§b月と星空",
+	x: 3.5d,
+	y: 9.0d,
+	description: "在永恒星域挖掘月华、星空两种金属",
+	text: [
+		""
+	],
+	dependencies: [
+		"0810ebf2"
+	],
+	tasks: [{
+		uid: "abe3111d",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-nasalum_ore"
+		}]
+	},
+	{
+		uid: "6b0d12fd",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-lunarine_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "f81fa597",
+		type: "item",
+		item: "additions:greedycraft-nasalum_ore",
+		count: 8
+	},
+	{
+		uid: "97d8a3b6",
+		type: "item",
+		item: "additions:greedycraft-lunarine_ore",
+		count: 8
+	},
+	{
+		uid: "7f15039c",
+		type: "xp",
+		xp: 4800
+	},
+	{
+		uid: "bce9ab01",
+		type: "random",
+		table: 3
+	}]
+}

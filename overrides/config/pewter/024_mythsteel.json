@@ -1,0 +1,140 @@
+{
+  "name": "mythsteel",
+  "tool": {
+    "head": {
+      "attackDamage": 20,
+      "speed": 16.9,
+      "durability": 3500,
+      "harvestLevel": 7
+    },
+    "handle": {
+      "modifier": 1.2,
+      "durability": 2000
+    },
+    "extra": {
+        "durability": 1600
+    },
+    "bow": {
+        "speed": 0.8,
+        "range": 1.4,
+        "bonusDamage": 25.0
+    }
+  },
+  "color": "#FCBD35",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 980,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Mythsteel",
+    "zh_cn": "神话钢"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:botaniaddon-mythsteel_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 160,
+      "defense": 38
+    },
+    "plates": {
+      "modifier": 3.7,
+      "durability": 104,
+      "toughness": 4.25
+    },
+    "trim": {
+      "extraDurability": 112
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "tconevo.mana_infused",
+      "tconevo.gaia_wrath",
+      "tconevo.mortal_wounds",
+      "apocalypse"
+    ],
+    "HANDLE": [
+      "tconevo.mana_infused",
+      "tconevo.gaia_wrath",
+      "tconevo.mortal_wounds",
+      "apocalypse"
+    ],
+    "EXTRA": [
+      "tconevo.mana_infused",
+      "tconevo.gaia_wrath",
+      "tconevo.mortal_wounds",
+      "apocalypse"
+    ],
+    "BOW": [
+      "tconevo.mana_infused",
+      "tconevo.gaia_wrath",
+      "tconevo.mortal_wounds",
+      "apocalypse"
+    ],
+    "CORE": [
+      "heavy_armor",
+      "tconevo.mana_infused_armor",
+      "tconevo.mana_affinity2_armor",
+      "tconevo.second_wind_armor",
+      "body"
+    ],
+    "PLATES": [
+      "heavy_armor",
+      "tconevo.mana_infused_armor",
+      "tconevo.mana_affinity2_armor",
+      "tconevo.second_wind_armor",
+      "body"
+    ],
+    "TRIM": [
+      "heavy_armor",
+      "tconevo.mana_infused_armor",
+      "tconevo.mana_affinity2_armor",
+      "tconevo.second_wind_armor",
+      "body"
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+{
+	title: "§b洗洗更健康",
+	x: -14.5d,
+	y: -6.5d,
+	description: "制作肥皂,可以在水中洗澡来降低中毒程度",
+	text: [
+		""
+	],
+	dependencies: [
+		"4cfe187d"
+	],
+	tasks: [{
+		uid: "a54c52bc",
+		type: "item",
+		items: [{
+			item: "mist:soap"
+		}]
+	}],
+	rewards: [{
+		uid: "eadd016c",
+		type: "item",
+		item: "mist:soap"
+	},
+	{
+		uid: "d65d53d6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "7d7f51eb",
+		type: "xp",
+		xp: 4200
+	}]
+}

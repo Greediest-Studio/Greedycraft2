@@ -1,0 +1,24 @@
+{
+	title: "§b自动种植！",
+	x: -0.5d,
+	y: 2.0d,
+	description: "制作种植站",
+	text: [
+		""
+	],
+	dependencies: [
+		"cda8846f"
+	],
+	tasks: [{
+		uid: "01d6fe29",
+		type: "item",
+		items: [{
+			item: "enderio:block_farm_station"
+		}]
+	}],
+	rewards: [{
+		uid: "33eea92e",
+		type: "xp",
+		xp: 2000
+	}]
+}

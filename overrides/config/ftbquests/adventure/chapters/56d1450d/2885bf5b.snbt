@@ -1,0 +1,34 @@
+{
+	title: "§b媒介",
+	x: -21.0d,
+	y: -4.5d,
+	description: "获得授粉升级",
+	text: [
+		""
+	],
+	dependencies: [
+		"2bafc3d8"
+	],
+	tasks: [{
+		uid: "7858edb9",
+		type: "item",
+		items: [{
+			item: "gendustry:apiary.upgrade 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "709f299f",
+		type: "item",
+		item: "gendustry:apiary.upgrade 1 2"
+	},
+	{
+		uid: "536347bd",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "8d15321d",
+		type: "loot",
+		table: 1
+	}]
+}

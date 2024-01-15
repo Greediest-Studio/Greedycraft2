@@ -1,0 +1,35 @@
+{
+	title: "§b唯一一个有任务的齿轮",
+	x: -19.5d,
+	y: 1.5d,
+	description: "获得青铜齿轮",
+	text: [
+		""
+	],
+	dependencies: [
+		"8dbd83c6"
+	],
+	tasks: [{
+		uid: "02bed274",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 291"
+		}]
+	}],
+	rewards: [{
+		uid: "44b4f00a",
+		type: "item",
+		item: "thermalfoundation:material 1 291",
+		count: 8
+	},
+	{
+		uid: "eb2290ba",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "d45458c1",
+		type: "loot",
+		table: 1
+	}]
+}

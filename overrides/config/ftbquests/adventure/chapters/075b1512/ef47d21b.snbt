@@ -1,0 +1,38 @@
+{
+	title: "§b旅行家 VII",
+	x: -3.5d,
+	y: 10.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4c976c52"
+	],
+	tasks: [{
+		uid: "61c0a4d8",
+		type: "stat",
+		icon: "abyssalcraft:corlegs",
+		stat: "stat.walkOneCm",
+		value: 35000000
+	}],
+	rewards: [{
+		uid: "5dcbb9f0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "67dadeab",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	}]
+}

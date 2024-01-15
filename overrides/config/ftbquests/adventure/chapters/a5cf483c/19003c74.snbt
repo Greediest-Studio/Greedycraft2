@@ -1,0 +1,40 @@
+{
+	title: "§b苍穹尽收眼底",
+	x: 1.5d,
+	y: 3.0d,
+	description: "制作瞭望台",
+	text: [
+		""
+	],
+	dependencies: [
+		"470b67b1"
+	],
+	tasks: [{
+		uid: "60f5a66d",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockobservatory"
+		}]
+	}],
+	rewards: [{
+		uid: "e34ea44e",
+		type: "item",
+		item: "astralsorcery:itemcraftingcomponent 1 3",
+		count: 32
+	},
+	{
+		uid: "5f6bcb17",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "856b5a40",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "d1a2490b",
+		type: "xp",
+		xp: 5555
+	}]
+}

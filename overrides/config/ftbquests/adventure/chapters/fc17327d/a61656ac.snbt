@@ -1,0 +1,46 @@
+{
+	title: "§b你需要这个众生平等的输出端",
+	x: -15.0d,
+	y: 1.0d,
+	description: "制作匠魂智能输出端，可以快速浇筑！",
+	text: [
+		""
+	],
+	dependencies: [
+		"b5940a15"
+	],
+	tasks: [{
+		uid: "2a8b210d",
+		type: "item",
+		items: [{
+			item: "tinker_io:smart_output"
+		}]
+	}],
+	rewards: [{
+		uid: "af4f45a9",
+		type: "item",
+		item: "tinker_io:smart_output",
+		count: 3
+	},
+	{
+		uid: "31d843ce",
+		type: "item",
+		item: "tconstruct:materials",
+		count: 128
+	},
+	{
+		uid: "8ef6c301",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "79ba961e",
+		type: "xp",
+		xp: 60
+	},
+	{
+		uid: "74debc46",
+		type: "item",
+		item: "tconevo:material 1 2"
+	}]
+}

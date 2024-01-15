@@ -1,0 +1,36 @@
+{
+	title: "§b大地守护者III",
+	x: 15.5d,
+	y: -1.5d,
+	description: "击败盖亚守护者III，打开潘多拉魔盒获得英雄勋章",
+	text: [
+		""
+	],
+	dependencies: [
+		"3d85e814"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "a3315563",
+		type: "item",
+		items: [{
+			item: "extrabotany:material 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "9c412b1e",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "gaia_deleter"
+	},
+	{
+		uid: "ae498288",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "559542f4",
+		type: "random",
+		table: 3
+	}]
+}

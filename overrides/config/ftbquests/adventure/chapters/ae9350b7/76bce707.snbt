@@ -1,0 +1,45 @@
+{
+	title: "§b什么都能种",
+	x: 7.5d,
+	y: 0.0d,
+	description: "获得究极精华",
+	text: [
+		"1究极精华=46656下级精华",
+		"其实并不是什么都能种……"
+	],
+	tasks: [{
+		uid: "6ad84128",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:insanium"
+		}]
+	}],
+	rewards: [{
+		uid: "eb8ca046",
+		type: "item",
+		item: "mysticalagriculture:crafting 1 3",
+		count: 16
+	},
+	{
+		uid: "ddf9f10b",
+		type: "item",
+		item: "mysticalagriculture:crafting 1 4",
+		count: 4
+	},
+	{
+		uid: "76d8c92f",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "db3ffa26",
+		type: "item",
+		item: "mysticalagriculture:crafting 1 21",
+		count: 4
+	},
+	{
+		uid: "2cac3be9",
+		type: "xp",
+		xp: 2000
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "§b最强的套娃电容！",
+	x: 5.0d,
+	y: -7.0d,
+	description: "制作一个恒星合金电容",
+	text: [
+		""
+	],
+	dependencies: [
+		"533ded67"
+	],
+	tasks: [{
+		uid: "226ad828",
+		type: "item",
+		items: [{
+			item: "enderio:item_capacitor_stellar"
+		}]
+	}],
+	rewards: [{
+		uid: "b8bd9db4",
+		type: "item",
+		item: "enderio:item_capacitor_stellar"
+	},
+	{
+		uid: "ebb8c963",
+		type: "xp",
+		xp: 3000
+	}]
+}

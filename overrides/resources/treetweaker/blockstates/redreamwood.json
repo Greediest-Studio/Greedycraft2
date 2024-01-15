@@ -1,0 +1,16 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "cross": "treetweaker:blocks/redreamwood"
+        }
+    },
+    "variants": {
+        "normal": {
+            "model": "tinted_cross"
+        },
+        "inventory": {
+            "model": "treetweaker:redreamwood"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "§1交错次元",
+    "icon": "thebetweenlands:swamp_talisman",
+    "category": "patchouli:guide_category",
+    "pages": [
+        {
+            "type":"spotlight",
+            "item":"moretcon:mummysludge",
+            "text":"在$(2)交错次元$()建筑一个$(c)7*7$()的$(b)巨型匠魂炉$(),然后在巨型匠魂炉里面召唤$(c)木乃伊$()这个大小是确保$(c)BOSS$()$(2)不会在炉子外面召唤出来$(),高度随意，确保$(c)BOSS$()不会逃离;召唤完立马吃下$(6)潜地果$(),否则$(c)BOSS$()会$(c)破坏$()匠魂炉；$(c)请务必确保匠魂炉保持加载$()，一段时间后过去匠魂炉那边开和平清除$(c)BOSS$()，这样子就获得了$(6)木乃伊粘液$()"
+        },
+        {
+            "type":"text",
+            "text":"吃$(6)潜地果$()的原因：可以获得短暂的旁观者模式，有助于逃出$(c)BOSS$()视野$(br)PS:可以在进入交错次元前将食物放进午餐盒以防止腐烂"
+        },
+        {
+            "type":"text",
+            "text":"$(br)更多详情请前往百科搜索$(br)$(9)$(l:https://www.mcmod.cn/class/499.html)§n$(br)$(7)交错次元 百科传送门"
+        }
+    ]
+}

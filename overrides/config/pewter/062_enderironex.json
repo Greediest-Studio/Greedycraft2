@@ -1,0 +1,125 @@
+{
+  "name": "enderironex",
+  "tool": {
+    "head": {
+      "attackDamage": 63,
+      "speed": 18,
+      "durability": 4000,
+      "harvestLevel": 9
+    },
+    "handle": {
+      "modifier": 1.4,
+      "durability": 400
+    },
+    "extra": {
+        "durability": 480
+    },
+    "bow": {
+        "speed": 0.8,
+        "range": 1.9,
+        "bonusDamage": 25
+    }
+  },
+  "color": "#1b4470",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 800,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Enderiron Extended",
+    "zh_cn": "增强末影"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "extendedcrafting:material:48"
+    ],
+    "block": [
+      "extendedcrafting:storage:7"
+    ],
+    "nugget": [
+      "extendedcrafting:material:49"
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 61.5,
+      "durability": 70
+    },
+    "plates": {
+      "toughness": 6,
+      "modifier": 5,
+      "durability": 48
+    },
+    "trim": {
+      "extraDurability": 43
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "tconevo.mortal_wounds",
+      "lionheart"
+    ],
+    "HANDLE": [
+      "enderference",
+      "lionheart"
+    ],
+    "EXTRA": [
+      "enderference",
+      "lionheart"
+    ],
+    "BOW": [
+      "tconevo.mortal_wounds",
+      "lionheart"
+    ],
+    "CORE": [
+      "vengeful_armor",
+      "threshold_limiting_armor"
+    ],
+    "PLATES": [
+      "enderport_armor",
+      "threshold_limiting_armor"
+    ],
+    "TRIM": [
+      "enderport_armor",
+      "threshold_limiting_armor"
+    ]
+  }
+}

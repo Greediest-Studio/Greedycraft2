@@ -1,0 +1,35 @@
+{
+	title: "§b最好的收集器",
+	x: -3.5d,
+	y: 6.5d,
+	description: "制作平衡中子素收集器，用于收集中子素块！",
+	text: [
+		""
+	],
+	dependencies: [
+		"57f62fd4",
+		"65a6ec91"
+	],
+	tasks: [{
+		uid: "83e43c11",
+		type: "item",
+		items: [{
+			item: "denseneutroncollectors:triple_compressed_neutron_collector"
+		}]
+	}],
+	rewards: [{
+		uid: "884fedd4",
+		type: "item",
+		item: "denseneutroncollectors:triple_compressed_neutron_collector"
+	},
+	{
+		uid: "51115cbc",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "179c1503",
+		type: "random",
+		table: 3
+	}]
+}

@@ -1,0 +1,46 @@
+{
+	title: "§b朦胧国度",
+	x: -13.0d,
+	y: -4.5d,
+	description: "搭建朦胧世界传送门，进入朦胧世界",
+	text: [
+		"搭建指南：",
+		"首先，你需要通过合成§f来获得§e苔石§f和§e风化石",
+		"§f（苔石并不是原版的苔石，同样需要击杀末影人获得）",
+		"将两者放在金块的一上一下两个面，便可激活传送门"
+	],
+	dependencies: [
+		"ecc95796"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "7d193d30",
+		type: "dimension",
+		icon: {
+			id: "mist:stone",
+			ForgeCaps: {
+				"distinctdamagedescriptions:dmgdistribution": [{
+					type: "ddd_bludgeoning",
+					weight: 1.0f
+				}]
+			}
+		},
+		dim: 69
+	}],
+	rewards: [{
+		uid: "cdad8c1d",
+		type: "item",
+		item: "minecraft:gold_block",
+		count: 2
+	},
+	{
+		uid: "12d637fe",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "295b9307",
+		type: "xp",
+		xp: 4000
+	}]
+}

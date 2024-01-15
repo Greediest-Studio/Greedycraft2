@@ -1,0 +1,39 @@
+{
+	title: "§b种植业还是林业？",
+	x: -15.0d,
+	y: -6.0d,
+	description: "获得农场齿轮箱",
+	text: [
+		""
+	],
+	dependencies: [
+		"e4e83c3f"
+	],
+	tasks: [{
+		uid: "1924c50e",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			Damage: 2s,
+			tag: {
+				FarmBlock: 0
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7aa26729",
+		type: "item",
+		item: "additions:greedycraft-delivery_order",
+		count: 2
+	},
+	{
+		uid: "9f373c9e",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "28a9b874",
+		type: "loot",
+		table: 2
+	}]
+}

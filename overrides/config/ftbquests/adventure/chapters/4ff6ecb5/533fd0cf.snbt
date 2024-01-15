@@ -1,0 +1,26 @@
+{
+	title: "§b电池居然有了灵气",
+	x: -6.5d,
+	y: 6.0d,
+	description: "制作灵气电池",
+	dependencies: [
+		"762a1a79"
+	],
+	tasks: [{
+		uid: "2c8fc679",
+		type: "item",
+		items: [{
+			item: "thaumcraft:vis_battery"
+		}]
+	}],
+	rewards: [{
+		uid: "a7e8f7a7",
+		type: "xp",
+		xp: 750
+	},
+	{
+		uid: "a216565b",
+		type: "random",
+		table: 1
+	}]
+}

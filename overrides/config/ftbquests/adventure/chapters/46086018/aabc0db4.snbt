@@ -1,0 +1,41 @@
+{
+	title: "§b变异烈焰人",
+	x: -4.5d,
+	y: -7.0d,
+	description: "击杀紫焰人，获得紫焰粉",
+	text: [
+		""
+	],
+	dependencies: [
+		"b0907c42"
+	],
+	tasks: [{
+		uid: "6fa86b25",
+		type: "item",
+		items: [{
+			item: "divinerpg:purple_blaze"
+		}]
+	}],
+	rewards: [{
+		uid: "0c2a2324",
+		type: "item",
+		item: "divinerpg:purple_blaze",
+		count: 3
+	},
+	{
+		uid: "90ba9c15",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 8
+	},
+	{
+		uid: "72381656",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "07a5d795",
+		type: "random",
+		table: 1
+	}]
+}

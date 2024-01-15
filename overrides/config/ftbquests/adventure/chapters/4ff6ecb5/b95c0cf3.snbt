@@ -1,0 +1,32 @@
+{
+	title: "§b源质合成的科技化",
+	x: 5.5d,
+	y: -4.0d,
+	description: "制作源质合成器",
+	dependencies: [
+		"5df0146b"
+	],
+	tasks: [{
+		uid: "d9612f7c",
+		type: "item",
+		items: [{
+			item: "thaumadditions:aspect_combiner"
+		}]
+	}],
+	rewards: [{
+		uid: "41ecd65b",
+		type: "item",
+		item: "thaumadditions:mithrillium_ingot",
+		count: 2
+	},
+	{
+		uid: "240b6384",
+		type: "xp",
+		xp: 1250
+	},
+	{
+		uid: "a4a71b13",
+		type: "random",
+		table: 2
+	}]
+}

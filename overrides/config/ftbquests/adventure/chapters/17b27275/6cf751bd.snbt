@@ -1,0 +1,37 @@
+{
+	title: "§b氤氲",
+	x: 8.5d,
+	y: -0.5d,
+	description: "在污泥地牢的雾气中使用木晶瓶盛取雾气",
+	text: [
+		""
+	],
+	dependencies: [
+		"5bcf2e54"
+	],
+	tasks: [{
+		uid: "31a7fff5",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:dentrothyst_fluid_vial",
+			Damage: 1s,
+			tag: {
+				Fluid: {
+					FluidName: "fog",
+					Amount: 1000
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6889b515",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "4301370b",
+		type: "xp",
+		xp: 5000
+	}]
+}

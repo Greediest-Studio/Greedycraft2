@@ -1,0 +1,24 @@
+{
+	title: "§b自我燃烧",
+	x: -3.0d,
+	y: -4.5d,
+	description: "合成恶魔熔炉",
+	text: [
+		""
+	],
+	dependencies: [
+		"9a090295"
+	],
+	tasks: [{
+		uid: "d91260c6",
+		type: "item",
+		items: [{
+			item: "divinerpg:demon_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "9771dda2",
+		type: "random",
+		table: 5
+	}]
+}

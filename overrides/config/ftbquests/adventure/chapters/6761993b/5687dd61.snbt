@@ -1,0 +1,29 @@
+{
+	title: "§b八级血魔法祭坛？",
+	x: 6.5d,
+	y: 3.5d,
+	description: "制作血浴祭坛控制器",
+	dependencies: [
+		"10ef16ac"
+	],
+	tasks: [{
+		uid: "9ac62bf1",
+		type: "item",
+		items: [{
+			id: "modularmachinery:blood_altar_mk8_controller",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "8a0f3c82",
+		type: "xp",
+		xp: 8000
+	},
+	{
+		uid: "a8eb0d2d",
+		type: "random",
+		table: 3
+	}]
+}

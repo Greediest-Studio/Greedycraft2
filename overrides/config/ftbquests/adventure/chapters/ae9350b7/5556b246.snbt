@@ -1,0 +1,32 @@
+{
+	title: "§b只是一种致敬罢了",
+	x: 13.5d,
+	y: 18.0d,
+	description: "合成虚无合金锭",
+	text: [
+		"提示：褐铁和玫石可以在失落城市找到"
+	],
+	tasks: [{
+		uid: "2f2028c3",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-ascensionite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "5c0d7236",
+		type: "item",
+		item: "additions:greedycraft-ascensionite_ingot",
+		count: 4
+	},
+	{
+		uid: "1f3fe42e",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "c6effd9f",
+		type: "xp",
+		xp: 800
+	}]
+}

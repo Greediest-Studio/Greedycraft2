@@ -1,0 +1,24 @@
+{
+	title: "§b节省材料？",
+	x: -26.0d,
+	y: -13.5d,
+	description: "制作升级：冶金元素自持",
+	text: [
+		"概率不消耗炉渣，妈妈再也不用担心炉渣消耗快了！"
+	],
+	dependencies: [
+		"d1c9c63d"
+	],
+	tasks: [{
+		uid: "dc03eb96",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 303"
+		}]
+	}],
+	rewards: [{
+		uid: "b90c00a5",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,33 @@
+{
+	title: "§b来着虚空的金属",
+	x: 3.5d,
+	y: 0.0d,
+	description: "制作虚空金属锭",
+	dependencies: [
+		"2e83a821",
+		"4500422a"
+	],
+	tasks: [{
+		uid: "80359b84",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "51baa3bc",
+		type: "item",
+		item: "thaumcraft:ingot 1 1",
+		count: 3
+	},
+	{
+		uid: "b4dded07",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "983a3ae1",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,54 @@
+{
+	title: "§b我有水晶初长成",
+	x: -4.5d,
+	y: -4.0d,
+	description: "制作三种高纯水晶",
+	text: [
+		""
+	],
+	dependencies: [
+		"ac4bc514"
+	],
+	tasks: [{
+		uid: "055f9b52",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 11"
+		}]
+	},
+	{
+		uid: "40834134",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 10"
+		}]
+	},
+	{
+		uid: "08448d9e",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 12"
+		}]
+	}],
+	rewards: [{
+		uid: "a49b603a",
+		type: "item",
+		item: "appliedenergistics2:quartz_growth_accelerator"
+	},
+	{
+		uid: "2c7d2ef1",
+		type: "item",
+		item: "appliedenergistics2:part 1 56",
+		count: 32
+	},
+	{
+		uid: "f38bb734",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "2f31d682",
+		type: "xp",
+		xp: 1000
+	}]
+}

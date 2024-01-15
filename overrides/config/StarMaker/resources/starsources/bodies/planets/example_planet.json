@@ -1,0 +1,58 @@
+{
+  "parent_system": "example_system",
+  "orbit_data": {
+    "phase": 3.140000104904175,
+    "size": 1.2000000476837158,
+    "distance_from_center": 2.5,
+    "relative_time": 3.9000000953674316,
+    "eccentricityX": 0.0,
+    "eccentricityY": 0.0
+  },
+  "gravity": 0.058,
+  "atmosphere_pressure": 1,
+  "temperature": [
+    -1.0,
+    1.0
+  ],
+  "wind": 0.0,
+  "day_lenght": 24000,
+  "breathable": false,
+  "solar_radiation": false,
+  "corrosive_atmo": false,
+  "sun_brightness": 0.5,
+  "star_brightness": 0.5,
+  "sky": [
+    78,
+    38,
+    137
+  ],
+  "fog": [
+    78,
+    38,
+    137
+  ],
+  "cloud": [
+    150,
+    150,
+    150,
+    180
+  ],
+  "world_data": {
+    "tier": 6,
+    "genCave": true,
+    "genRavine": false,
+    "crateProb": 0,
+    "stone_block": "minecraft:concrete:11",
+    "mapSize": 1000.0,
+    "water_block": "",
+    "waterY": 64,
+    "lander_type": -1,
+    "throwMeteors": true
+  },
+  "biomes": [
+    "example_biome"
+  ],
+  "sun_size": 5.0,
+  "precipitation": false,
+  "unreachable": false
+}

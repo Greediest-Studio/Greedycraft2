@@ -1,0 +1,78 @@
+{
+	title: "§c【可重复】 命令撕裂者",
+	x: -3.5d,
+	y: -8.0d,
+	description: "再次击杀凋灵风暴",
+	text: [
+		"你再次解救了世界",
+		"温馨提示：在主世界坐标为0,0的位置会有几率生成一只野生的凋灵风暴"
+	],
+	can_repeat: true,
+	dependencies: [
+		"6ac53a1c"
+	],
+	tasks: [{
+		uid: "d2f8815a",
+		type: "kill",
+		icon: {
+			id: "ageofminecraft:witherstorm",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		entity: "ageofminecraft:witherstormbosshelpful",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "4ee5f160",
+		type: "item",
+		item: {
+			id: "gct_ores:stormy_shard",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 5
+	},
+	{
+		uid: "aa90a4f1",
+		type: "item",
+		item: {
+			id: "ageofminecraft:withered_nether_star",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 3
+	},
+	{
+		uid: "5d6a26e4",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "2361b014",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "da2cd709",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "d1a903f4",
+		type: "xp",
+		xp: 20000
+	},
+	{
+		uid: "35439cf4",
+		type: "item",
+		item: {
+			id: "additions:greedycraft-storm_kicker",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	}]
+}

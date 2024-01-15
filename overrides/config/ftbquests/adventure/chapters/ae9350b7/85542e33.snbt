@@ -1,0 +1,31 @@
+{
+	title: "§b往事如云烟",
+	x: 10.5d,
+	y: 7.5d,
+	description: "合成远古书卷",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "426ac008",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-ancient_tome"
+		}]
+	}],
+	rewards: [{
+		uid: "9c7935e3",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "64e3e2ed",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "9d68c530",
+		type: "xp",
+		xp: 10000
+	}]
+}

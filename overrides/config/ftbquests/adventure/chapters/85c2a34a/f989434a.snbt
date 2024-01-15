@@ -1,0 +1,35 @@
+{
+	title: "§b收下吧，来自异界的灾难",
+	x: -9.5d,
+	y: 4.5d,
+	description: "合成天灾金属锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"518ac07a"
+	],
+	tasks: [{
+		uid: "455301ee",
+		type: "item",
+		items: [{
+			item: "additions:link-disaster_metal_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "a17e9336",
+		type: "item",
+		item: "additions:link-disaster_metal_ingot",
+		count: 2
+	},
+	{
+		uid: "ad70ea53",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "ae49c596",
+		type: "xp",
+		xp: 10000
+	}]
+}

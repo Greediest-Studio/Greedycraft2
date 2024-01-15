@@ -1,0 +1,40 @@
+{
+	title: "§b暗黑岗哨",
+	x: -18.5d,
+	y: -9.0d,
+	description: "在黑岩迷宫的箱子中获得追踪器",
+	text: [
+		"使用追踪器右键黑岩圣坛可召唤掉落“破损机械碎片”的怪物"
+	],
+	dependencies: [
+		"b3a44183"
+	],
+	tasks: [{
+		uid: "6a7f42ed",
+		type: "item",
+		items: [{
+			item: "journey:sentry_observer"
+		}]
+	}],
+	rewards: [{
+		uid: "9129f097",
+		type: "item",
+		item: "journey:sentry_observer",
+		count: 4
+	},
+	{
+		uid: "f70ffd96",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "0f032d09",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "58da7b44",
+		type: "xp",
+		xp: 5000
+	}]
+}

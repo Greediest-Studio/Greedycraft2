@@ -1,0 +1,37 @@
+{
+	title: "§b恒心笃定",
+	x: 8.25d,
+	y: 4.5d,
+	description: "使用恒钢熔炉制作恒钢！",
+	text: [
+		""
+	],
+	dependencies: [
+		"7d572f6a",
+		"89ff4eb4"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "bd8af430",
+		type: "item",
+		items: [{
+			item: "additions:aeonsteel_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "874979fe",
+		type: "item",
+		item: "additions:aeonsteel_ingot",
+		count: 4
+	},
+	{
+		uid: "c6e622c4",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "c92836ac",
+		type: "xp",
+		xp: 10000
+	}]
+}

@@ -1,0 +1,257 @@
+[
+	{
+		"_comments": [
+		"*******",
+		"** Note that default and/or the previous level's values will populate subsequent levels",
+		"**  (within a single dungeon parent config) removing the need to populate every property.",
+		"** If the property doesn't require a new value, simply exclude it from",
+		"** the definition. I have added every property to the default definitions only to display",
+		"** the properties and default values.",
+		"*******"
+		],
+		"name": "small",		
+		"version": "1.1.0",
+		"biomeWhiteList": ["*"],
+		"biomeBlackList": [""],
+		"size": "SMALL",
+		"numLevels": {
+			"min": 2,
+			"max": 5
+		},
+		"levelConfigs": [
+			{
+				"boundaryFactor": 0.5,
+				"spawnBoundaryFactor": 0.2,			
+				"numRooms": {
+					"min":	10,
+					"max": 20	
+					},
+				"width": {
+					"min":	5,
+					"max": 12	
+				},
+				"depth": {
+					"min":	5,
+					"max": 12
+				},
+				"height": {
+					"min":	5,
+					"max": 8	
+				},
+			"degrees": {
+				"min":	2,
+				"max": 4	
+			},
+			"decayMultiplier": 5,
+			"spawnerFrequency": {
+				"min":	5,
+				"max": 10				
+			},
+			"chestFrequency": {
+				"min":	5,
+				"max": 10				
+			},
+			"webFrequency": {
+				"min":	10,
+				"max": 20				
+			},
+			"numberOfWebs": {
+				"min":	10,
+				"max": 10		
+			},
+			"vineFrequency": {
+				"min":	10,
+				"max": 20				
+			},
+			"numberOfVines": {
+				"min":	10,
+				"max": 10		
+			},			
+			"support": true,
+			"decorations": true,
+			"theme": "",
+			"chestConfig": {
+				"lootTableMethod": "CUSTOM",
+				"rarity": ["COMMON"],
+				"probability": {
+					"min":	5,
+					"max": 10		
+					}
+			}
+		},
+		{
+			"chestConfig": {
+				"rarity": ["COMMON", "UNCOMMON"]
+			}
+		},
+		{
+			"chestConfig": {
+				"rarity": ["COMMON", "UNCOMMON", "SCARCE"]
+			}
+		}
+		],
+		"surfaceConfig": null
+	},
+	{
+		"name": "medium",
+		"version": "1.0.0",
+		"biomeWhiteList": ["*"],
+		"biomeBlackList": [""],		
+		"size": "MEDIUM",
+		"numLevels": {
+			"min": 4,
+			"max": 7
+		},
+		"levelConfigs": [
+			{
+				"boundaryFactor": 0.5,
+				"spawnBoundaryFactor": 0.25,		
+				"numRooms": {
+					"min":	15,
+					"max": 30	
+					},
+				"width": {
+					"min":	5,
+					"max": 15
+				},
+				"depth": {
+					"min":	5,
+					"max": 15
+				},
+				"height": {
+					"min":	5,
+					"max": 9
+				},
+				"chestConfig": {
+					"rarity": ["COMMON"]
+				}	
+			},
+			{
+				"chestConfig": {
+					"rarity": ["COMMON", "UNCOMMON"]
+				}
+			},	
+			{
+				"chestConfig": {
+					"rarity": ["COMMON", "UNCOMMON"]
+				}
+			},
+			{
+				"chestConfig": {
+					"rarity": ["COMMON", "UNCOMMON", "SCARCE"]
+				}
+			}			
+		],
+		"surfaceConfig": null
+	},	
+	{
+		"name": "large",
+		"version": "1.0.0",
+		"biomeWhiteList": ["*"],
+		"biomeBlackList": [""],		
+		"size": "LARGE",
+		"numLevels": {
+			"min": 6,
+			"max": 9
+		},
+		"levelConfigs": [
+			{
+				"boundaryFactor": 0.5,
+				"spawnBoundaryFactor": 0.4,					
+				"numRooms": {
+					"min":	20,
+					"max": 40	
+					},
+				"width": {
+					"min":	5,
+					"max": 15
+				},
+				"depth": {
+					"min":	5,
+					"max": 15
+				},
+				"height": {
+					"min":	5,
+					"max": 9
+				},
+				"chestConfig": {
+					"rarity": ["COMMON"]
+				}				
+			},
+			{
+				"chestConfig": {
+					"rarity": ["COMMON", "UNCOMMON"]
+				}
+			},
+			{},
+			{},
+			{},
+			{
+				"chestConfig": {
+					"rarity": ["UNCOMMON", "SCARCE"]
+				}
+			},
+			{
+				"chestConfig": {
+					"rarity": ["UNCOMMON", "SCARCE", "RARE"]
+				}
+			}	
+		],
+		"surfaceConfig": null
+	},
+	{
+		"name": "vast",
+		"version": "1.0.0",
+		"biomeWhiteList": ["*"],
+		"biomeBlackList": [""],		
+		"size": "VAST",
+		"numLevels": {
+			"min": 8,
+			"max": 11
+		},
+		"levelConfigs": [
+			{
+				"boundaryFactor": 0.5,
+				"spawnBoundaryFactor": 0.5,					
+				"numRooms": {
+					"min":	20,
+					"max": 40	
+					},
+				"width": {
+					"min":	5,
+					"max": 15
+				},
+				"depth": {
+					"min":	5,
+					"max": 15
+				},
+				"height": {
+					"min":	5,
+					"max": 9
+				},
+				"chestConfig": {
+					"rarity": ["COMMON"]
+				}				
+			},
+			{
+				"chestConfig": {
+					"rarity": ["COMMON", "UNCOMMON"]
+				}
+			},
+			{},
+			{},
+			{},
+			{
+				"chestConfig": {
+					"rarity": ["UNCOMMON", "SCARCE"]
+				}
+			},
+			{
+				"chestConfig": {
+					"rarity": ["UNCOMMON", "SCARCE", "RARE"]
+				}
+			}				
+		],
+		"surfaceConfig": null
+	}	
+]

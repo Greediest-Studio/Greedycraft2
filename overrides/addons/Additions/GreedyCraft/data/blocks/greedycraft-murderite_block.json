@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "§4血渊块",
+    "ore_dict": "blockMurderite",
+    "type": "additions:block_simple"
+  },
+  "name": "§4血渊块",
+  "material": "minecraft:metal",
+  "hardness": 10.0,
+  "resistance": 4000.0,
+  "harvest_level": 12,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

@@ -1,0 +1,139 @@
+{
+  "name": "ender_stone",
+  "tool": {
+    "bow": {
+      "speed": 4.5,
+      "range": 1.2,
+      "bonusDamage": 10
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 6,
+      "speed": 10,
+      "durability": 830,
+      "harvestLevel": 4
+    },
+    "handle": {
+      "modifier": 0.5,
+      "durability": 550
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 1.1
+    },
+    "extra": {
+      "durability": 580
+    }
+  },
+  "color": "#f900bb",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 820,
+  "looks": {
+    "shininess": 0.2,
+    "brightness": 0.1,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Ender Stone",
+    "zh_cn": "末影石"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "divinerpg:ender_stone"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 96,
+      "defense": 18
+    },
+    "plates": {
+      "modifier": 1.6,
+      "durability": 32,
+      "toughness": 3
+    },
+    "trim": {
+      "extraDurability": 30
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "enderference",
+      "switching"
+    ],
+    "HEAD": [
+      "enderference",
+      "switching"
+    ],
+    "HANDLE": [
+      "enderference",
+      "switching"
+    ],
+    "BOW": [
+      "enderference",
+      "switching"
+    ],
+    "PROJECTILE": [
+      "enderference",
+      "switching"
+    ],
+    "CORE": [
+      "lifting_armor",
+      "switching_armor"
+    ],
+    "PLATES": [
+      "lifting_armor",
+      "switching_armor"
+    ],
+    "TRIM": [
+      "lifting_armor",
+      "switching_armor"
+    ]
+  }
+}

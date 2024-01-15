@@ -1,0 +1,24 @@
+{
+	title: "§b无尽深海",
+	x: -7.5d,
+	y: -3.0d,
+	description: "进入亚特兰蒂斯",
+	text: [
+		"击杀一个远古守卫者，会掉落一个亚特兰蒂斯核心，使用海晶石砖搭建框架并使用核心点击即可激活传送门"
+	],
+	tasks: [{
+		uid: "ed8d328a",
+		type: "dimension",
+		dim: 324987
+	}],
+	rewards: [{
+		uid: "4d777d43",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "a827c9bf",
+		type: "xp",
+		xp: 1000
+	}]
+}

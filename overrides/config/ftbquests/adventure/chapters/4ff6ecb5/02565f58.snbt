@@ -1,0 +1,32 @@
+{
+	title: "§b新的催熟手段",
+	x: -6.5d,
+	y: -6.0d,
+	description: "制作催生灯",
+	dependencies: [
+		"d5f049de"
+	],
+	tasks: [{
+		uid: "45cc0a6f",
+		type: "item",
+		items: [{
+			item: "thaumcraft:lamp_growth"
+		}]
+	}],
+	rewards: [{
+		uid: "753b7152",
+		type: "item",
+		item: "thaumcraft:lamp_growth",
+		count: 3
+	},
+	{
+		uid: "73877ecf",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "73072297",
+		type: "loot",
+		table: 0
+	}]
+}

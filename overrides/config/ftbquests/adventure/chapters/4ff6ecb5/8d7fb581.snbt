@@ -1,0 +1,39 @@
+{
+	title: "§b是时候了",
+	x: 9.5d,
+	y: 6.0d,
+	description: "打开维度裂隙，进入虚域",
+	text: [
+		""
+	],
+	dependencies: [
+		"2b12b14d"
+	],
+	tasks: [{
+		uid: "317e2c53",
+		type: "dimension",
+		icon: {
+			id: "thaumicaugmentation:gauntlet",
+			Damage: 1s,
+			tag: {
+				color: 2498903
+			},
+			ForgeCaps: {
+				Parent: {
+					slots: 3
+				}
+			}
+		},
+		dim: 14676
+	}],
+	rewards: [{
+		uid: "63e49d1e",
+		type: "xp",
+		xp: 2480
+	},
+	{
+		uid: "f098b201",
+		type: "random",
+		table: 2
+	}]
+}

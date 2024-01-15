@@ -1,0 +1,27 @@
+{
+	title: "§b哦不，我最讨厌这种维度了",
+	x: -20.0d,
+	y: -7.5d,
+	description: "进入黑岩迷宫维度",
+	text: [
+		"使用觉醒之眼激活传送门"
+	],
+	dependencies: [
+		"5b260a58"
+	],
+	tasks: [{
+		uid: "7accd72e",
+		type: "dimension",
+		dim: 829
+	}],
+	rewards: [{
+		uid: "bee7b4d8",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "ded7b4c8",
+		type: "xp",
+		xp: 10000
+	}]
+}

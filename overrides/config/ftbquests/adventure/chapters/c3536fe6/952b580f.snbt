@@ -1,0 +1,28 @@
+{
+	title: "§b唤魔者？",
+	x: -20.0d,
+	y: 4.0d,
+	description: "在永昼之地寻找惑乱高塔击杀召唤术士",
+	text: [
+		"如果找不到惑乱高塔，可以使用永昼之地宝石召唤"
+	],
+	dependencies: [
+		"d87f3981"
+	],
+	tasks: [{
+		uid: "5ca9a20b",
+		type: "kill",
+		entity: "blue_skies:summoner_illager",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "09bda68c",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "40c374f3",
+		type: "random",
+		table: 3
+	}]
+}

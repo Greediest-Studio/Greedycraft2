@@ -1,0 +1,35 @@
+{
+	title: "§b怪物杀手 I",
+	x: -5.0d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "f1e613c3",
+		type: "stat",
+		icon: "minecraft:wooden_sword",
+		stat: "stat.mobKills",
+		value: 100
+	}],
+	rewards: [{
+		uid: "0cbfc015",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "a957428a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	}]
+}

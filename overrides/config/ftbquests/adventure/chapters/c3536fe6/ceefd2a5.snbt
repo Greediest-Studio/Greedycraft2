@@ -1,0 +1,23 @@
+{
+	title: "§b梦魇将军",
+	x: 3.0d,
+	y: -2.5d,
+	description: "在梦魇世界第四层击杀瓦格纳",
+	text: [
+		"使用梦魇打火石在炎魔祭坛上召唤"
+	],
+	dependencies: [
+		"d259408c"
+	],
+	tasks: [{
+		uid: "fdd1736b",
+		type: "kill",
+		entity: "divinerpg:raglok",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "47fdb45e",
+		type: "random",
+		table: 5
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "§b奥法能源",
+	icon: "additions:greedycraft-arcane_crystal_ball",
+	x: -0.5d,
+	y: 7.0d,
+	shape: "gear",
+	description: "制作奥术水晶球",
+	text: [
+		""
+	],
+	dependencies: [
+		"d933b90a"
+	],
+	tasks: [{
+		uid: "9fe5fca1",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-arcane_crystal_ball"
+		}]
+	},
+	{
+		uid: "b622f672",
+		type: "gamestage",
+		stage: "master_wizard"
+	}],
+	rewards: [{
+		uid: "fcaa522b",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "8ab8b969",
+		type: "xp",
+		xp: 9999
+	}]
+}

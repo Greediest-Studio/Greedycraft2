@@ -1,0 +1,35 @@
+{
+	title: "§b自然之石",
+	x: -4.0d,
+	y: -2.5d,
+	description: "使用白雏菊转换圆石，得到活石",
+	text: [
+		""
+	],
+	dependencies: [
+		"9dfd6030"
+	],
+	tasks: [{
+		uid: "44e256a6",
+		type: "item",
+		items: [{
+			item: "botania:livingrock"
+		}]
+	}],
+	rewards: [{
+		uid: "0ff03fb9",
+		type: "item",
+		item: "botania:livingrock",
+		count: 16
+	},
+	{
+		uid: "e2f285b7",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "16af7d89",
+		type: "random",
+		table: 0
+	}]
+}

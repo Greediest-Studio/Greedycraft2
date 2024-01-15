@@ -1,0 +1,35 @@
+{
+	title: "§b你可以试试把残骸暴露在空气中……",
+	x: 10.5d,
+	y: 18.0d,
+	description: "合成天境合金",
+	text: [
+		""
+	],
+	dependencies: [
+		"81d053a7"
+	],
+	tasks: [{
+		uid: "fce4ce85",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-aetherite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "5ba10ee8",
+		type: "item",
+		item: "gct_mobs:gravity_scrap",
+		count: 4
+	},
+	{
+		uid: "ecf685b2",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "a81210cd",
+		type: "xp",
+		xp: 8000
+	}]
+}

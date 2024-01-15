@@ -1,0 +1,28 @@
+{
+  "recipe": {
+    "type": "forge:ore_shaped",
+    "result": {
+      "item": "draconicevolution:fusion_crafting_core"
+    },
+    "key": {
+      "0": {
+        "ore_name": "ingotFusionMatrix",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "1": {
+        "ore_name": "ingotDurasteel",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "2": {
+        "ore_name": "coreWitherium",
+        "type": "additions:ingredient_ore_nbt"
+      }
+    },
+    "pattern": [
+      "010",
+      "121",
+      "010"
+    ]
+  },
+  "type": "additions:crafting_shaped"
+}

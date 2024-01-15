@@ -1,0 +1,30 @@
+{
+	title: "§b血魔法：真实开端",
+	x: -9.5d,
+	y: 1.5d,
+	description: "合成血之祭坛",
+	text: [
+		"要成为一个合格的卖血奴"
+	],
+	dependencies: [
+		"3f924e0c",
+		"e33ac341"
+	],
+	tasks: [{
+		uid: "bbb17079",
+		type: "item",
+		items: [{
+			item: "bloodmagic:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "1ad8b2d8",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "f5047b83",
+		type: "xp",
+		xp: 500
+	}]
+}

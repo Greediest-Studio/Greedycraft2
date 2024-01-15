@@ -1,0 +1,35 @@
+{
+	title: "§b跨越万米的联系！",
+	x: -11.5d,
+	y: -6.0d,
+	description: "获得无限增幅卡",
+	text: [
+		""
+	],
+	dependencies: [
+		"a19315fc"
+	],
+	tasks: [{
+		uid: "0b274905",
+		type: "item",
+		items: [{
+			item: "ae2wtlib:infinity_booster_card"
+		}]
+	}],
+	rewards: [{
+		uid: "f099d0d1",
+		type: "item",
+		item: "ae2wtlib:infinity_booster_card",
+		count: 16
+	},
+	{
+		uid: "1d7ee6f0",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "9f25e271",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

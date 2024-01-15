@@ -1,0 +1,92 @@
+{
+	title: "§b天外足迹",
+	x: -9.5d,
+	y: -1.0d,
+	description: "获得哈雷、河鼓、勾陈、霍斯、钝金，五种生成在陨石中的金属",
+	text: [
+		"我要目害了"
+	],
+	dependencies: [
+		"ba0c7b88"
+	],
+	tasks: [{
+		uid: "05146186",
+		type: "item",
+		items: [{
+			item: "tiths:ingot_halleium"
+		}]
+	},
+	{
+		uid: "4cdbef04",
+		type: "item",
+		items: [{
+			item: "tiths:ingot_altairium"
+		}]
+	},
+	{
+		uid: "a760de47",
+		type: "item",
+		items: [{
+			item: "tiths:ingot_polarium"
+		}]
+	},
+	{
+		uid: "431e3d6a",
+		type: "item",
+		items: [{
+			item: "tiths:ingot_hothium"
+		}]
+	},
+	{
+		uid: "bd5256c3",
+		type: "item",
+		items: [{
+			item: "tiths:ingot_tonium"
+		}]
+	}],
+	rewards: [{
+		uid: "400280c5",
+		type: "item",
+		item: "tiths:ingot_halleium",
+		count: 12
+	},
+	{
+		uid: "d61a193e",
+		type: "item",
+		item: "tiths:ingot_altairium",
+		count: 12
+	},
+	{
+		uid: "728416be",
+		type: "item",
+		item: "tiths:ingot_polarium",
+		count: 12
+	},
+	{
+		uid: "1576a56e",
+		type: "item",
+		item: "tiths:ingot_hothium",
+		count: 12
+	},
+	{
+		uid: "9b88ac69",
+		type: "item",
+		item: "tiths:ingot_tonium",
+		count: 12
+	},
+	{
+		uid: "8f876c56",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "6c535672",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "2cd6859c",
+		type: "xp",
+		xp: 4000
+	}]
+}

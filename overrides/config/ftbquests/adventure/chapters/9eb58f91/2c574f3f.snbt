@@ -1,0 +1,26 @@
+{
+	title: "§b更好的机器框架",
+	x: 14.0d,
+	y: -2.5d,
+	description: "制作一个末影钢机器框架",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "b5dfcc80",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 66"
+		}]
+	}],
+	rewards: [{
+		uid: "5ed5c795",
+		type: "item",
+		item: "enderio:item_material 1 66"
+	},
+	{
+		uid: "78a6e364",
+		type: "xp",
+		xp: 3000
+	}]
+}

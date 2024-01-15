@@ -1,0 +1,129 @@
+{
+    "name": "ghost_metal",
+    "tool": {
+      "head": {
+        "attackDamage": 100.5,
+        "speed": 25.6,
+        "durability": 2660,
+        "harvestLevel": 12
+      },
+      "handle": {
+        "modifier": 2.45,
+        "durability": 880
+      },
+      "extra": {
+        "durability": 840
+      },
+      "bow": {
+        "speed": 2,
+        "range": 2.2,
+        "bonusDamage": 72
+      }
+    },
+    "color": "#013148",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 2100,
+    "looks": {
+      "shininess": 0.8,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Ghost Metal",
+      "zh_cn": "恶灵"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "additions:bloody-ghost_metal"
+      ],
+      "block": [
+        "jaopca:block_blockghostmetal"
+      ],
+      "nugget": [
+        "jaopca:item_nuggetghostmetal"
+      ],
+      "ore": [
+      ],
+      "dust": [
+      ],
+      "plate": [
+      ],
+      "gear": [
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "defense": 126,
+        "durability": 830
+      },
+      "plates": {
+        "toughness": 10,
+        "modifier": 8.5,
+        "durability": 680
+      },
+      "trim": {
+        "extraDurability": 650
+      }
+    },
+    "specificTraits": {
+      "HEAD": [
+        "tconevo.bloodbound",
+        "tconevo.crystalys",
+        "executioner"
+      ],
+      "HANDLE": [
+        "tconevo.bloodbound",
+        "executioner"
+      ],
+      "EXTRA": [
+        "tconevo.bloodbound",
+        "executioner"
+      ],
+      "BOW": [
+        "tconevo.bloodbound",
+        "tconevo.crystalys",
+        "executioner"
+      ],
+      "CORE": [
+        "tconevo.soul_guard_armor",
+        "tconevo.bloodbound_armor",
+        "health_shield_armor"
+      ],
+      "PLATES": [
+        "tconevo.bloodbound_armor",
+        "health_shield_armor"
+      ],
+      "TRIM": [
+        "tconevo.bloodbound_armor",
+        "health_shield_armor"
+      ]
+    }
+}
+  

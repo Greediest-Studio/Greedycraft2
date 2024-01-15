@@ -1,0 +1,31 @@
+{
+	title: "§b假的，根本不好用",
+	x: 1.5d,
+	y: -8.0d,
+	description: "制作虚空金属太阳能板",
+	dependencies: [
+		"3b4acf49"
+	],
+	tasks: [{
+		uid: "32f5c895",
+		type: "item",
+		items: [{
+			item: "solarflux:solar_panel_void_metal"
+		}]
+	}],
+	rewards: [{
+		uid: "a8e11930",
+		type: "item",
+		item: "solarflux:solar_panel_void_metal"
+	},
+	{
+		uid: "6a5169e1",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "8d1705c0",
+		type: "loot",
+		table: 2
+	}]
+}

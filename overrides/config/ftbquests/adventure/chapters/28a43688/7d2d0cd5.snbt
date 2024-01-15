@@ -1,0 +1,34 @@
+{
+	title: "§b管理员权限？",
+	x: -3.5d,
+	y: -3.0d,
+	description: "合成权限核心",
+	text: [
+		""
+	],
+	dependencies: [
+		"1c0d49f1"
+	],
+	tasks: [{
+		uid: "7d854b18",
+		type: "item",
+		items: [{
+			item: "gct_ores:command_core"
+		}]
+	}],
+	rewards: [{
+		uid: "a5f54d69",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "977bbe98",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "b4d12cb7",
+		type: "xp",
+		xp: 10000
+	}]
+}

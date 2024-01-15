@@ -1,0 +1,39 @@
+{
+	title: "§b无底深渊",
+	x: 9.0d,
+	y: 1.5d,
+	description: "合成最高等级的无底之箱",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "b91382c7",
+		type: "item",
+		items: [{
+			item: "danknull:dank_null_5"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0260824a",
+		type: "item",
+		item: "danknull:danknull_dock"
+	},
+	{
+		uid: "741be5f4",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 9
+	},
+	{
+		uid: "d470f9f5",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "a4c009ec",
+		type: "random",
+		table: 1
+	}]
+}

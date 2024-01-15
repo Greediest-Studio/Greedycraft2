@@ -1,0 +1,26 @@
+{
+	title: "【魔法·伍】余烬之灵",
+	icon: {
+		id: "naturesaura:sky_ingot",
+		ForgeCaps: {
+			"distinctdamagedescriptions:dmgdistribution": [{
+				type: "ddd_bludgeoning",
+				weight: 1.0f
+			}]
+		}
+	},
+	always_invisible: false,
+	group: -277029338,
+	default_quest_shape: "",
+	images: [{
+		x: -2.5d,
+		y: -7.0d,
+		width: 10.5d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/mag5.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

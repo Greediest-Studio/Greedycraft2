@@ -1,0 +1,35 @@
+{
+	title: "§b干巴巴的，一点都不圆润",
+	x: 0.0d,
+	y: 5.5d,
+	description: "获取一块干树皮",
+	text: [
+		""
+	],
+	dependencies: [
+		"8086fb19"
+	],
+	tasks: [{
+		uid: "09c4d757",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "12b7902e",
+		type: "item",
+		item: "thebetweenlands:items_misc 1 13",
+		count: 2
+	},
+	{
+		uid: "e4af89b2",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "bdbd8e23",
+		type: "xp",
+		xp: 2000
+	}]
+}

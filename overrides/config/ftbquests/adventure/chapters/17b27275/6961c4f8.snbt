@@ -1,0 +1,42 @@
+{
+	title: "§b必要的，必须的",
+	x: 8.5d,
+	y: 4.0d,
+	description: "合成壁虎笼子",
+	text: [
+		""
+	],
+	dependencies: [
+		"527a574f"
+	],
+	tasks: [{
+		uid: "002d8159",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:gecko_cage"
+		}]
+	}],
+	rewards: [{
+		uid: "4315e469",
+		type: "item",
+		item: {
+			id: "thebetweenlands:critter",
+			tag: {
+				Entity: {
+					id: "thebetweenlands:gecko"
+				}
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "92a01a74",
+		type: "xp",
+		xp: 8000
+	},
+	{
+		uid: "dbb6abe9",
+		type: "random",
+		table: 2
+	}]
+}

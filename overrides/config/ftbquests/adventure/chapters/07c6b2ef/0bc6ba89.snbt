@@ -1,0 +1,29 @@
+{
+	title: "§b只有燃油",
+	x: -4.0d,
+	y: -11.0d,
+	description: "制作升级：缸内喷射点火",
+	text: [
+		"只能使用燃油，效率大大提升"
+	],
+	dependencies: [
+		"53e272c8"
+	],
+	tasks: [{
+		uid: "63b5ff48",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 673"
+		}]
+	}],
+	rewards: [{
+		uid: "f20ba7c5",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "af25203c",
+		type: "xp",
+		xp: 1000
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "§b红色的注魔宝石",
+	x: -8.0d,
+	y: 7.5d,
+	description: "合成暮光宝石，由世界盐、树苗、花肥和魔力钻石合成",
+	text: [
+		""
+	],
+	dependencies: [
+		"49587b5e"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "19ba7a4f",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-twilight_gem"
+		}]
+	}],
+	rewards: [{
+		uid: "9b7e2f9f",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "6ab7c3a8",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "e4653956",
+		type: "item",
+		item: "minecraft:red_flower",
+		count: 12
+	}]
+}

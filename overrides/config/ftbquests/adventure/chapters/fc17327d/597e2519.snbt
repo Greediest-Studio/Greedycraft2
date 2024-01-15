@@ -1,0 +1,27 @@
+{
+	title: "§b应该可以勉强用……",
+	x: -22.0d,
+	y: 7.5d,
+	description: "制作简易手斧，用来劈砍树木",
+	text: [
+		""
+	],
+	dependencies: [
+		"d140a345",
+		"c79cd5fa"
+	],
+	tasks: [{
+		uid: "7a10adbc",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-crude_hatchet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "be67e789",
+		type: "xp",
+		xp: 20
+	}]
+}

@@ -1,0 +1,92 @@
+{
+	title: "§b四相归一",
+	x: -11.0d,
+	y: 9.0d,
+	description: "击杀太阳酋长、巴克莱、克拉肯、钢铁史莱姆王，合成四相之星",
+	text: [
+		""
+	],
+	dependencies: [
+		"2bf7e11b",
+		"5f7f8d0a",
+		"edc676e3",
+		"43368dc8"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "b3b9e778",
+		type: "kill",
+		entity: "mowziesmobs:barako",
+		value: 1L
+	},
+	{
+		uid: "1ae022cc",
+		type: "kill",
+		entity: "endreborn:endlord",
+		value: 1L
+	},
+	{
+		uid: "ffeab01b",
+		type: "kill",
+		entity: "dungeonsmod:kraken",
+		value: 1L
+	},
+	{
+		uid: "058d7a52",
+		type: "kill",
+		entity: "dungeonsmod:ironslime",
+		value: 1L
+	},
+	{
+		uid: "3dfcee30",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-quardstate_star"
+		}]
+	}],
+	rewards: [{
+		uid: "291439a4",
+		type: "item",
+		item: "taiga:nihilite_ingot",
+		count: 8
+	},
+	{
+		uid: "b3785bb4",
+		type: "xp",
+		xp: 15000
+	},
+	{
+		uid: "9c0c162c",
+		type: "item",
+		item: "additions:infernium_ingot",
+		count: 8
+	},
+	{
+		uid: "0b541a5b",
+		type: "item",
+		item: "additions:greedycraft-plasmarite_ingot",
+		count: 8
+	},
+	{
+		uid: "06cc6cc8",
+		type: "item",
+		item: "additions:greedycraft-freezite_ingot",
+		count: 8
+	},
+	{
+		uid: "ff3a3bb0",
+		type: "item",
+		item: "additions:greedycraft-canopium_ingot",
+		count: 8
+	},
+	{
+		uid: "0d1cc94e",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "762bac0a",
+		type: "random",
+		table: 3
+	}]
+}

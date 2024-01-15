@@ -1,0 +1,72 @@
+{
+	title: "【魔法】",
+	icon: {
+		id: "tconevo:tool_sceptre",
+		tag: {
+			TinkerData: {
+				Materials: [
+					"infinity_metal",
+					"infinity_metal",
+					"infinity_metal",
+					"infinity_metal"
+				],
+				Modifiers: [
+					"toolleveling"
+				]
+			},
+			Stats: {
+				Durability: 97533,
+				HarvestLevel: 127,
+				Attack: 20884.0f,
+				MiningSpeed: 333.0f,
+				AttackSpeedMultiplier: 1.0f,
+				FreeModifiers: 5,
+				DrawSpeed: 1.0f,
+				Range: 2.0f,
+				ProjectileBonusDamage: 0.0f
+			},
+			StatsOriginal: {
+				Durability: 97533,
+				HarvestLevel: 127,
+				Attack: 20884.0f,
+				MiningSpeed: 333.0f,
+				AttackSpeedMultiplier: 1.0f,
+				FreeModifiers: 3,
+				DrawSpeed: 1.0f,
+				Range: 2.0f,
+				ProjectileBonusDamage: 0.0f
+			},
+			Special: {
+				Categories: [
+					"launcher",
+					"weapon",
+					"tool"
+				]
+			},
+			Modifiers: [{
+				identifier: "tconevo.infinitum",
+				color: -11757164,
+				level: 1
+			},
+			{
+				identifier: "tconevo.omnipotence",
+				color: -11757164,
+				level: 1
+			},
+			{
+				identifier: "toolleveling",
+				color: 16777215,
+				level: 1
+			}],
+			Traits: [
+				"tconevo.infinitum",
+				"tconevo.omnipotence",
+				"toolleveling"
+			],
+			Unbreakable: 1b
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

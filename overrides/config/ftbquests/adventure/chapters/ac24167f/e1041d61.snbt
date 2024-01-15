@@ -1,0 +1,26 @@
+{
+	title: "§b提取大地的力量为自己使用",
+	x: 4.5d,
+	y: 4.0d,
+	description: "获得地缚祭坛",
+	dependencies: [
+		"956cbb61"
+	],
+	tasks: [{
+		uid: "8aaa884f",
+		type: "item",
+		items: [{
+			item: "gct_mobs:earthbound_altar"
+		}]
+	}],
+	rewards: [{
+		uid: "847f0ad4",
+		type: "xp",
+		xp: 4000
+	},
+	{
+		uid: "4dc36df6",
+		type: "random",
+		table: 3
+	}]
+}

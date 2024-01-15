@@ -1,0 +1,32 @@
+{
+	title: "§b未加工的艺术品",
+	x: 3.5d,
+	y: 3.0d,
+	description: "获得未加工的辉耀石英",
+	dependencies: [
+		"65279c47"
+	],
+	tasks: [{
+		uid: "60ffd18b",
+		type: "item",
+		items: [{
+			item: "arcanearchives:raw_quartz"
+		}]
+	}],
+	rewards: [{
+		uid: "d138f246",
+		type: "item",
+		item: "arcanearchives:raw_quartz",
+		count: 8
+	},
+	{
+		uid: "a465f3f4",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "b54529b9",
+		type: "random",
+		table: 2
+	}]
+}

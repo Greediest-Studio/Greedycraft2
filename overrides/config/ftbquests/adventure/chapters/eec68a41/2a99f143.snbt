@@ -1,0 +1,41 @@
+{
+	title: "§b超导透镜",
+	x: 17.0d,
+	y: 0.0d,
+	description: "小心被秒",
+	text: [
+		""
+	],
+	dependencies: [
+		"76e34a47"
+	],
+	tasks: [{
+		uid: "f3b44ac5",
+		type: "item",
+		items: [{
+			id: "extrabotany:lens",
+			Damage: 6s,
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "90de1841",
+		type: "item",
+		item: {
+			id: "extrabotany:lens",
+			Damage: 6s,
+			tag: {}
+		}
+	},
+	{
+		uid: "bf9cb853",
+		type: "xp",
+		xp: 7000
+	},
+	{
+		uid: "f20eaf80",
+		type: "random",
+		table: 2
+	}]
+}

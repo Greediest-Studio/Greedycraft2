@@ -1,0 +1,45 @@
+{
+	title: "§b古老者的呼唤",
+	x: -11.5d,
+	y: -12.5d,
+	description: "获得深渊之书，最高级的死灵之书",
+	text: [
+		""
+	],
+	dependencies: [
+		"866fed5b"
+	],
+	tasks: [{
+		uid: "da3d6650",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:abyssalnomicon",
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b64525a2",
+		type: "item",
+		item: "abyssalcraft:ethaxiumingot",
+		count: 4
+	},
+	{
+		uid: "50e40b36",
+		type: "item",
+		item: "abyssalcraft:gatekeeperessence"
+	},
+	{
+		uid: "183f3170",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "571b7d64",
+		type: "xp",
+		xp: 3000
+	}]
+}

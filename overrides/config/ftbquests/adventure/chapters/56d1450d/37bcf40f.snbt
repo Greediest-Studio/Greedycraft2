@@ -1,0 +1,175 @@
+{
+	title: "§b衰变凋零",
+	x: -4.5d,
+	y: 0.0d,
+	description: "获得凋亡蜂后",
+	text: [
+		""
+	],
+	dependencies: [
+		"26bd081f"
+	],
+	tasks: [{
+		uid: "33426107",
+		type: "item",
+		items: [{
+			id: "forestry:bee_queen_ge",
+			tag: {
+				IsAnalyzed: 0b,
+				Health: 60,
+				MaxH: 60,
+				Genome: {
+					Chromosomes: [{
+						Slot: 0b,
+						UID0: "morebees.species.wither",
+						UID1: "morebees.species.wither"
+					},
+					{
+						Slot: 1b,
+						UID0: "forestry.speedSlower",
+						UID1: "forestry.speedSlower"
+					},
+					{
+						Slot: 2b,
+						UID0: "forestry.lifespanLonger",
+						UID1: "forestry.lifespanLonger"
+					},
+					{
+						Slot: 3b,
+						UID0: "forestry.fertilityLow",
+						UID1: "forestry.fertilityLow"
+					},
+					{
+						Slot: 4b,
+						UID0: "forestry.toleranceUp3",
+						UID1: "forestry.toleranceUp3"
+					},
+					{
+						Slot: 5b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 6b,
+						UID0: "forestry.toleranceUp1",
+						UID1: "forestry.toleranceUp1"
+					},
+					{
+						Slot: 7b,
+						UID0: "forestry.boolFalse",
+						UID1: "forestry.boolFalse"
+					},
+					{
+						Slot: 8b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 9b,
+						UID0: "forestry.flowersNether",
+						UID1: "forestry.flowersNether"
+					},
+					{
+						Slot: 10b,
+						UID0: "forestry.floweringSlowest",
+						UID1: "forestry.floweringSlowest"
+					},
+					{
+						Slot: 11b,
+						UID0: "forestry.territoryLargest",
+						UID1: "forestry.territoryLargest"
+					},
+					{
+						Slot: 12b,
+						UID0: "forestry.effectWither",
+						UID1: "forestry.effectWither"
+					}]
+				},
+				Mate: {
+					Chromosomes: [{
+						Slot: 0b,
+						UID0: "morebees.species.wither",
+						UID1: "morebees.species.wither"
+					},
+					{
+						Slot: 1b,
+						UID0: "forestry.speedSlower",
+						UID1: "forestry.speedSlower"
+					},
+					{
+						Slot: 2b,
+						UID0: "forestry.lifespanLonger",
+						UID1: "forestry.lifespanLonger"
+					},
+					{
+						Slot: 3b,
+						UID0: "forestry.fertilityLow",
+						UID1: "forestry.fertilityLow"
+					},
+					{
+						Slot: 4b,
+						UID0: "forestry.toleranceUp3",
+						UID1: "forestry.toleranceUp3"
+					},
+					{
+						Slot: 5b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 6b,
+						UID0: "forestry.toleranceUp1",
+						UID1: "forestry.toleranceUp1"
+					},
+					{
+						Slot: 7b,
+						UID0: "forestry.boolFalse",
+						UID1: "forestry.boolFalse"
+					},
+					{
+						Slot: 8b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 9b,
+						UID0: "forestry.flowersNether",
+						UID1: "forestry.flowersNether"
+					},
+					{
+						Slot: 10b,
+						UID0: "forestry.floweringSlowest",
+						UID1: "forestry.floweringSlowest"
+					},
+					{
+						Slot: 11b,
+						UID0: "forestry.territoryLargest",
+						UID1: "forestry.territoryLargest"
+					},
+					{
+						Slot: 12b,
+						UID0: "forestry.effectWither",
+						UID1: "forestry.effectWither"
+					}]
+				}
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "fa9a91ef",
+		type: "item",
+		item: "minecraft:skull 1 1",
+		count: 256
+	},
+	{
+		uid: "219f5f95",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "11238593",
+		type: "random",
+		table: 3
+	}]
+}

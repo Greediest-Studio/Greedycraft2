@@ -1,0 +1,35 @@
+{
+	title: "§b通天锁链",
+	x: 1.5d,
+	y: 0.5d,
+	description: "挖掘通天锁链上的珊瑚石",
+	text: [
+		""
+	],
+	dependencies: [
+		"6746b3a4"
+	],
+	tasks: [{
+		uid: "4f44841c",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:cobblestone 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "37cd0299",
+		type: "item",
+		item: "abyssalcraft:cobblestone 1 4",
+		count: 32
+	},
+	{
+		uid: "0e7fd36b",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "deffe35e",
+		type: "xp",
+		xp: 500
+	}]
+}

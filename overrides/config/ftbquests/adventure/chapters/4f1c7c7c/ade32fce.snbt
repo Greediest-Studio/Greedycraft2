@@ -1,0 +1,17 @@
+{
+	title: "§4暂不支持",
+	icon: "minecraft:barrier",
+	x: 13.0d,
+	y: -0.62d,
+	shape: "circle",
+	text: [
+		""
+	],
+	can_repeat: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "0dcc7905",
+		type: "checkmark",
+		title: "§c点击以切换为专家模式"
+	}]
+}

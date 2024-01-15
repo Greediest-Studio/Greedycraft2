@@ -1,0 +1,32 @@
+{
+	title: "§b并未脱氧",
+	x: 0.0d,
+	y: 18.0d,
+	description: "制作尿嘧锭",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "95ef77a5",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-uracilite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "84d5ed82",
+		type: "item",
+		item: "additions:greedycraft-uracilite_ingot",
+		count: 4
+	},
+	{
+		uid: "817e7585",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "62fde272",
+		type: "xp",
+		xp: 2000
+	}]
+}

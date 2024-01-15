@@ -1,0 +1,70 @@
+{
+	title: "§b每一个都有不同效果！",
+	x: -10.0d,
+	y: 4.0d,
+	description: "挖掘四种古神络合矿石",
+	text: [
+		"小心DEBUFF！"
+	],
+	dependencies: [
+		"02eb78b1"
+	],
+	tasks: [{
+		uid: "ec7af3a3",
+		type: "item",
+		items: [{
+			item: "gct_aby:azathothium_ore_complex"
+		}]
+	},
+	{
+		uid: "f7d282e9",
+		type: "item",
+		items: [{
+			item: "gct_aby:nyralathotepium_ore_complex"
+		}]
+	},
+	{
+		uid: "c3d68ffb",
+		type: "item",
+		items: [{
+			item: "gct_aby:yogsothothium_ore_complex"
+		}]
+	},
+	{
+		uid: "2bd22ac8",
+		type: "item",
+		items: [{
+			item: "gct_aby:shubniggurathium_ore_complex"
+		}]
+	}],
+	rewards: [{
+		uid: "53bf21ec",
+		type: "item",
+		item: "gct_aby:azathothium_ore_complex"
+	},
+	{
+		uid: "7f0e82cc",
+		type: "item",
+		item: "gct_aby:nyralathotepium_ore_complex"
+	},
+	{
+		uid: "07d48547",
+		type: "item",
+		item: "gct_aby:yogsothothium_ore_complex"
+	},
+	{
+		uid: "0c5f50a0",
+		type: "item",
+		item: "gct_aby:shubniggurathium_ore_complex"
+	},
+	{
+		uid: "9a451666",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "746b1329",
+		type: "xp",
+		xp: 9000
+	}]
+}

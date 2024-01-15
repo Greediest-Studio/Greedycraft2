@@ -1,0 +1,34 @@
+{
+	title: "§b太强了",
+	x: -19.5d,
+	y: -1.5d,
+	description: "获得工业蜂箱",
+	text: [
+		""
+	],
+	dependencies: [
+		"a4361c9d"
+	],
+	tasks: [{
+		uid: "07b29e68",
+		type: "item",
+		items: [{
+			item: "gendustry:industrial_apiary"
+		}]
+	}],
+	rewards: [{
+		uid: "931ab9ef",
+		type: "item",
+		item: "gendustry:industrial_apiary"
+	},
+	{
+		uid: "2a070555",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "788b2f75",
+		type: "loot",
+		table: 2
+	}]
+}

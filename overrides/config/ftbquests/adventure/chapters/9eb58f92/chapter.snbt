@@ -1,0 +1,18 @@
+{
+	title: "【科技·叁】核能机械",
+	icon: "mekanism:ingot",
+	always_invisible: false,
+	group: -647796496,
+	default_quest_shape: "",
+	images: [{
+		x: -19.5d,
+		y: 5.0d,
+		width: 10.5d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/tec3.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

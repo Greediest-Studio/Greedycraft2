@@ -1,0 +1,41 @@
+{
+	title: "§b进击终焉城堡！",
+	x: -4.0d,
+	y: 9.5d,
+	description: "制作天启符文",
+	text: [
+		""
+	],
+	dependencies: [
+		"f77b7bff",
+		"d136297d"
+	],
+	tasks: [{
+		uid: "f33923d6",
+		type: "item",
+		items: [{
+			item: "gct_mobs:apocalypse_ruin"
+		}]
+	}],
+	rewards: [{
+		uid: "ac587ee4",
+		type: "item",
+		item: "additions:twilightaddon-refined_twilight_gem",
+		count: 8
+	},
+	{
+		uid: "d3316592",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "a69d9ade",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "92af35fd",
+		type: "xp",
+		xp: 1000
+	}]
+}

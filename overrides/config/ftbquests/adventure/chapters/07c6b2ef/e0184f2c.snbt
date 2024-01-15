@@ -1,0 +1,31 @@
+{
+	title: "§b清洁能源V",
+	x: -19.0d,
+	y: -5.0d,
+	description: "制作指定的太阳能电池板",
+	text: [
+		""
+	],
+	dependencies: [
+		"1b1fa5da",
+		"0b252d0b"
+	],
+	tasks: [{
+		uid: "d58a9d43",
+		type: "item",
+		items: [{
+			item: "solarflux:solar_panel_5"
+		}]
+	}],
+	rewards: [{
+		uid: "13b6eb6c",
+		type: "item",
+		team_reward: true,
+		item: "solarflux:solar_panel_5"
+	},
+	{
+		uid: "54a81111",
+		type: "xp",
+		xp: 1250
+	}]
+}

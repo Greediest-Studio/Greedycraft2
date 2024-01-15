@@ -1,0 +1,35 @@
+{
+	title: "§bC₅H₅N₅",
+	x: 2.0d,
+	y: 0.0d,
+	description: "在恐惧之地挖掘腺嘌呤晶",
+	text: [
+		""
+	],
+	dependencies: [
+		"9329a5dd"
+	],
+	tasks: [{
+		uid: "141e90b0",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-adeninite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "266ceaee",
+		type: "item",
+		item: "additions:greedycraft-adeninite_ingot",
+		count: 8
+	},
+	{
+		uid: "de372e38",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "1bfd58ec",
+		type: "random",
+		table: 1
+	}]
+}

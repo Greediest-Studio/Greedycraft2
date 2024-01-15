@@ -1,0 +1,39 @@
+{
+	title: "§b存储元动能量的电池",
+	x: 7.5d,
+	y: 4.5d,
+	description: "制作元动能量电池",
+	text: [
+		"将元动模块安装至护手后靠近裂隙便可汲取裂隙的元动能量"
+	],
+	dependencies: [
+		"15f9622b"
+	],
+	tasks: [{
+		uid: "de8124b9",
+		type: "item",
+		items: [{
+			id: "thaumicaugmentation:augment_caster_rift_energy_storage",
+			ForgeCaps: {
+				Parent: {
+					augment: {},
+					energy: {
+						energy: 0L
+					}
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "937638d4",
+		type: "xp",
+		xp: 2400
+	},
+	{
+		uid: "eec599a6",
+		type: "random",
+		table: 2
+	}]
+}

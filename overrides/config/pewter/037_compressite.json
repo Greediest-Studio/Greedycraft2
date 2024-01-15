@@ -1,0 +1,130 @@
+{
+  "name": "compressite",
+  "tool": {
+    "head": {
+      "attackDamage": 90,
+      "speed": 16,
+      "durability": 4500,
+      "harvestLevel": 11
+    },
+    "handle": {
+      "modifier": 2.2,
+      "durability": 1500
+    },
+    "extra": {
+        "durability": 2000
+    },
+    "bow": {
+        "speed": 0.9,
+        "range": 2,
+        "bonusDamage": 70
+    }
+  },
+  "color": "#241b32",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 600,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Compressite",
+    "zh_cn": "极密合金"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:taigaddon-compressite_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 114,
+      "durability": 514
+    },
+    "plates": {
+      "toughness": 10,
+      "modifier": 19,
+      "durability": 198
+    },
+    "trim": {
+      "extraDurability": 260
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "dense",
+      "superknockback",
+      "superheavy"
+    ],
+    "HANDLE": [
+      "dense",
+      "superknockback",
+      "superheavy"
+    ],
+    "EXTRA": [
+      "dense",
+      "superknockback",
+      "superheavy"
+    ],
+    "BOW": [
+      "dense",
+      "superknockback",
+      "superheavy"
+    ],
+    "CORE": [
+      "heavy_armor",
+      "throny_armor",
+      "indomitable_armor"
+    ],
+    "PLATES": [
+      "heavy_armor",
+      "throny_armor",
+      "indomitable_armor"
+    ],
+    "TRIM": [
+      "heavy_armor",
+      "throny_armor",
+      "indomitable_armor"
+    ]
+  }
+}

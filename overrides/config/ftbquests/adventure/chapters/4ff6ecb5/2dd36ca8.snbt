@@ -1,0 +1,28 @@
+{
+	title: "§b看清万物本源",
+	x: -0.5d,
+	y: 0.0d,
+	description: "制作揭示之护目镜",
+	dependencies: [
+		"e82bcb02"
+	],
+	tasks: [{
+		uid: "b3e01288",
+		type: "item",
+		items: [{
+			item: "thaumcraft:goggles"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3c1654de",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "d38cbc75",
+		type: "loot",
+		table: 0
+	}]
+}

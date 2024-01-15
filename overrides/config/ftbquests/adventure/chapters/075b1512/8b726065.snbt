@@ -1,0 +1,68 @@
+{
+	title: "§b巨龙杀手 VI",
+	icon: "minecraft:skull 1 5",
+	x: 1.0d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"c757bfb1"
+	],
+	tasks: [{
+		uid: "62a3209b",
+		type: "kill",
+		entity: "minecraft:ender_dragon",
+		value: 50L
+	}],
+	rewards: [{
+		uid: "1065d93e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "ae62010a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "80650c24",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "19d865c3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "13f5b85d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	}]
+}

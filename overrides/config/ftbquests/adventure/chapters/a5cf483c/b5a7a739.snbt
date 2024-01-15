@@ -1,0 +1,35 @@
+{
+	title: "§b太变态了",
+	x: -2.5d,
+	y: -3.0d,
+	description: "一个根据共鸣水晶星座来工作的多方块结构",
+	text: [
+		""
+	],
+	dependencies: [
+		"20d93dfc"
+	],
+	tasks: [{
+		uid: "9891f8f5",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockritualpedestal"
+		}]
+	}],
+	rewards: [{
+		uid: "ea043652",
+		type: "item",
+		item: "astralsorcery:blockrituallink",
+		count: 2
+	},
+	{
+		uid: "5b8f60cf",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "07358bdd",
+		type: "xp",
+		xp: 1600
+	}]
+}

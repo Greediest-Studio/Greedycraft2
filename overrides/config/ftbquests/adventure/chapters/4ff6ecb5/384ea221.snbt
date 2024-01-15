@@ -1,0 +1,30 @@
+{
+	title: "§b检查检查脑子？",
+	icon: "thaumcraft:brain",
+	x: -6.5d,
+	y: -4.0d,
+	description: "脑子是什么东西？",
+	hide_dependency_lines: true,
+	dependencies: [
+		"2b2f5f2a"
+	],
+	tasks: [{
+		uid: "f88c0da0",
+		type: "item",
+		items: [{
+			item: "thaumcraft:sanity_checker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b1b35087",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "687267ba",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "§b眼之觉醒",
+	x: 3.5d,
+	y: -2.0d,
+	description: "制作觉醒之眼，解锁深渊征服者阶段",
+	text: [
+		""
+	],
+	dependencies: [
+		"f4a1f1b8",
+		"bcc4a97a"
+	],
+	tasks: [{
+		uid: "f9232a7a",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-awakened_eye"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9a3455ff",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "de299166",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -0.5d,
+	y: 8.5d,
+	dependencies: [
+		"647bd285"
+	],
+	tasks: [{
+		uid: "c8d375ba",
+		type: "item",
+		items: [{
+			item: "projectex:arcane_tablet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

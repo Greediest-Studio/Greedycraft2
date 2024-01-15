@@ -1,0 +1,40 @@
+{
+	title: "§b不是恒星合金？",
+	x: -12.5d,
+	y: -1.0d,
+	description: "获得恒星金属，一种在深空之域生成的，极其稀有的矿物",
+	text: [
+		""
+	],
+	dependencies: [
+		"ba0c7b88"
+	],
+	tasks: [{
+		uid: "d56d38a3",
+		type: "item",
+		items: [{
+			item: "tiths:ingot_stellarium"
+		}]
+	}],
+	rewards: [{
+		uid: "669b1bc4",
+		type: "item",
+		item: "tiths:ingot_stellarium",
+		count: 4
+	},
+	{
+		uid: "296022b9",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "9b08f979",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "444e69eb",
+		type: "xp",
+		xp: 4000
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "§b七级血魔法祭坛？",
+	x: 2.5d,
+	y: 3.5d,
+	description: "制作血灵祭坛控制器",
+	dependencies: [
+		"7aa18b43"
+	],
+	tasks: [{
+		uid: "c7f60003",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blood_altar_mk7_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "6fa79e53",
+		type: "xp",
+		xp: 8000
+	},
+	{
+		uid: "0670b863",
+		type: "random",
+		table: 3
+	}]
+}

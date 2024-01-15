@@ -1,0 +1,31 @@
+{
+	title: "§b末影至宝",
+	x: 3.0d,
+	y: 19.5d,
+	description: "使用末影锻造炉合成终影钢",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "1e918ad2",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-endest_steel_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "2b0456c1",
+		type: "item",
+		item: "additions:greedycraft-endest_steel_ingot"
+	},
+	{
+		uid: "573ca1cb",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "a1dca3ba",
+		type: "xp",
+		xp: 1500
+	}]
+}

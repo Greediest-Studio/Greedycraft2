@@ -1,0 +1,37 @@
+{
+	title: "§b大地守护者II",
+	x: 11.0d,
+	y: -1.5d,
+	description: "击败盖亚守护者II",
+	text: [
+		""
+	],
+	dependencies: [
+		"2cb88975"
+	],
+	tasks: [{
+		uid: "7682e4d6",
+		type: "item",
+		items: [{
+			item: "botania:dice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eebdcf1c",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "4633b46e",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "16fb337f",
+		type: "item",
+		item: "botania:blacklotus 1 1",
+		count: 5
+	}]
+}

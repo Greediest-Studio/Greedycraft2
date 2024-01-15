@@ -1,0 +1,94 @@
+{
+  "name": "zinc",
+  "tool": {
+    "head": {
+      "attackDamage": 5,
+      "speed": 8,
+      "durability": 300,
+      "harvestLevel": 2
+    },
+    "handle": {
+      "modifier": 1.1,
+      "durability": 60
+    },
+    "extra": {
+      "durability": 45
+    },
+    "bow": {
+      "speed": 2.1,
+      "range": 1.1,
+      "bonusDamage": 0
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 10,
+      "defense": 11
+    },
+    "plates": {
+      "modifier": 1,
+      "durability": 4,
+      "toughness": 1.6
+    },
+    "trim": {
+      "extraDurability": 9
+    }
+  },
+  "color": "#8cacc3",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Zinc",
+    "zh_cn": "锌"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:greedycraft-zinc_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["hyper", "motion"],
+    "HANDLE": ["hyper", "motion"],
+    "EXTRA": ["hyper", "motion"],
+    "BOW": ["hyper", "motion"],
+    "CORE": ["hyper_armor"],
+    "PLATES": ["motion_armor"],
+    "TRIM": ["motion_armor"]
+  }
+}

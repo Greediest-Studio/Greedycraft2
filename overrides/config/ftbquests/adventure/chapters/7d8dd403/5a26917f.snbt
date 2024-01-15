@@ -1,0 +1,35 @@
+{
+	title: "§b金黄岩石",
+	x: 5.0d,
+	y: 8.5d,
+	description: "合成神圣岩石",
+	text: [
+		""
+	],
+	dependencies: [
+		"a29a289d"
+	],
+	tasks: [{
+		uid: "68f37702",
+		type: "item",
+		items: [{
+			item: "divinerpg:divine_rock"
+		}]
+	}],
+	rewards: [{
+		uid: "a82f92ed",
+		type: "item",
+		item: "divinerpg:divine_rock",
+		count: 8
+	},
+	{
+		uid: "448004a9",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "0757941b",
+		type: "random",
+		table: 1
+	}]
+}

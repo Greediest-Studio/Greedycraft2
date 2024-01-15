@@ -1,0 +1,15 @@
+{
+	x: -17.5d,
+	y: -2.0d,
+	dependencies: [
+		"c2402025",
+		"0b7d1407"
+	],
+	tasks: [{
+		uid: "c5abaf09",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:alloy 1 1"
+		}]
+	}]
+}

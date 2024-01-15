@@ -1,0 +1,38 @@
+{
+	title: "§b我要毁灭一切",
+	x: 0.0d,
+	y: 4.5d,
+	description: "使用招魂石召唤并击杀毁灭者，获得毁灭精华",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "67806b93",
+		type: "item",
+		items: [{
+			item: "defiledlands:essence_destroyer"
+		}]
+	}],
+	rewards: [{
+		uid: "f67bd99a",
+		type: "item",
+		item: "defiledlands:umbrium_ingot",
+		count: 20
+	},
+	{
+		uid: "daad8e4a",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "7a3c1432",
+		type: "item",
+		item: "defiledlands:scarlite_block",
+		count: 2
+	},
+	{
+		uid: "4c76cdc8",
+		type: "random",
+		table: 1
+	}]
+}

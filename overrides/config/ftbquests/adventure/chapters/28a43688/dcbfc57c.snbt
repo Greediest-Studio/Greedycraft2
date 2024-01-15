@@ -1,0 +1,30 @@
+{
+	title: "§b暗之深渊",
+	x: -18.5d,
+	y: -3.0d,
+	description: "合成深暗领域精华",
+	text: [
+		""
+	],
+	dependencies: [
+		"9f741a2c",
+		"b392c6c6"
+	],
+	tasks: [{
+		uid: "bdf464db",
+		type: "item",
+		items: [{
+			item: "gct_aby:essenceofdarkerrealm"
+		}]
+	}],
+	rewards: [{
+		uid: "11c71423",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "feb44b15",
+		type: "xp",
+		xp: 1600
+	}]
+}

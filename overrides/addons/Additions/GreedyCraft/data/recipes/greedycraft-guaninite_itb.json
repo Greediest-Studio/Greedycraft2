@@ -1,0 +1,47 @@
+{
+  "recipe": {
+    "type": "forge:ore_shapeless",
+    "result": {
+      "item": "additions:greedycraft-guaninite_block"
+    },
+    "ingredients": [
+      {
+        "ore_name": "ingotGuaninite",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      {
+        "ore_name": "ingotGuaninite",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      {
+        "ore_name": "ingotGuaninite",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      {
+        "ore_name": "ingotGuaninite",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      {
+        "ore_name": "ingotGuaninite",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      {
+        "ore_name": "ingotGuaninite",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      {
+        "ore_name": "ingotGuaninite",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      {
+        "ore_name": "ingotGuaninite",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      {
+        "ore_name": "ingotGuaninite",
+        "type": "additions:ingredient_ore_nbt"
+      }
+    ]
+  },
+  "type": "additions:crafting_shapeless"
+}

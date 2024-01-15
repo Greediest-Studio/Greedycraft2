@@ -1,0 +1,3761 @@
+{
+    "entities": {
+        "defiledlands:the_mourner": {
+            "[1000, 2147483647]": [
+                {
+                    "amount": "[4,10]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-undead_essence"
+                }
+            ]
+        },
+        "journey:guardianofdestruction": {
+            "[320, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 1.0,
+                    "item": "gct_ores:senterian_key"
+                }
+            ]
+        },
+        "journey:sentryheart": {
+            "[320, 2147483647]": [
+                {
+                    "amount": "[24,48]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-dullium_ingot"
+                }
+            ]
+        },
+        "ageofminecraft:witherstormbosshelpful": {
+            "[0, 2147483647]": [
+                {
+                    "amount": "[5,5]",
+                    "chance": 1.0,
+                    "item": "gct_ores:stormy_shard"
+                },
+                {
+                    "amount": "[8,32]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-withered_nether_star_shard"
+                }
+            ]
+        },
+        "thebetweenlands:sludge_menace": {
+            "[1200, 2147483647]": [
+                {
+                    "amount": "[56,72]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-dirtshape"
+                }
+            ]
+        },
+        "thebetweenlands:dreadful_mummy": {
+            "[1200, 2147483647]": [
+                {
+                    "amount": "[16,24]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-bone_shard"
+                }
+            ]
+        },
+        "thebetweenlands:fortress_boss": {
+            "[1200, 2147483647]": [
+                {
+                    "amount": "[56,72]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-demon_shard"
+                }
+            ]
+        },
+        "thaumicaugmentation:eldritch_warden": {
+            "[640, 1200]": [
+                {
+                    "amount": "[4,16]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-eldritch_slime"
+                }
+            ],
+            "[1200, 1800]": [
+                {
+                    "amount": "[12,28]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-eldritch_slime"
+                }
+            ],
+            "[1800, 2147483647]": [
+                {
+                    "amount": "[20,40]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-eldritch_slime"
+                }
+            ]
+        },
+        "thaumicaugmentation:eldritch_golem": {
+            "[640, 1200]": [
+                {
+                    "amount": "[1,4]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-corruptium_ingot"
+                }
+            ],
+            "[1200, 1800]": [
+                {
+                    "amount": "[3,7]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-corruptium_ingot"
+                }
+            ],
+            "[1800, 2147483647]": [
+                {
+                    "amount": "[5,10]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-corruptium_ingot"
+                }
+            ]
+        },
+        "dungeonsmod:sun": {
+            "[1000, 2147483647]": [
+                {
+                    "amount": "[4,12]",
+                    "chance": 1.0,
+                    "item": "additions:bloody-darkest_core"
+                }
+            ]
+        },
+        "mutantbeasts:mutant_enderman": {
+            "[128, 2147483647]": [
+                {
+                    "amount": "[4,8]",
+                    "chance": 1.0,
+                    "item": "additions:link-endusium_ore"
+                }
+            ]
+        },
+        "tofucraft:tofugandlem": {
+            "[0, 2147483647]": [
+                {
+                    "amount": "[3,6]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-iridium_tofu"
+                }
+            ]
+        },
+        "minecraft:zombie": {
+            "[0, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0015,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                }
+            ],
+            "[128, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "minecraft:rotten_flesh"
+                },
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[256, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "minecraft:rotten_flesh"
+                },
+                {
+                    "amount": "[2,3]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[384, 2147483647]": [
+                {
+                    "amount": "[1,3]",
+                    "chance": 1.0,
+                    "item": "minecraft:rotten_flesh"
+                },
+                {
+                    "amount": "[2,4]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.002,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[500, 2147483647]": [
+                {
+                    "amount": "[2,4]",
+                    "chance": 1.0,
+                    "item": "minecraft:rotten_flesh"
+                },
+                {
+                    "amount": "[3,4]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.002,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[750, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:rotten_flesh"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.004,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[1000, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:rotten_flesh"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.016,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[1250, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:rotten_flesh"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.032,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.032,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[1500, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:rotten_flesh"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.16,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ]
+        },
+        "minecraft:skeleton": {
+            "[0, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0015,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                }
+            ],
+            "[128, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "minecraft:bone"
+                },
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[256, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "minecraft:bone"
+                },
+                {
+                    "amount": "[2,3]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[384, 2147483647]": [
+                {
+                    "amount": "[1,3]",
+                    "chance": 1.0,
+                    "item": "minecraft:bone"
+                },
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.002,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[500, 2147483647]": [
+                {
+                    "amount": "[2,6]",
+                    "chance": 1.0,
+                    "item": "minecraft:bone"
+                },
+                {
+                    "amount": "[5,7]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.002,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[750, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:bone"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[1000, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:bone"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.008,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.05,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[1250, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:bone"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.016,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                }
+            ],
+            "[1500, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:bone"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.16,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ]
+        },
+        "pvj:pvj_skeletal_knight": {
+            "[0, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0015,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                }
+            ],
+            "[128, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "minecraft:bone"
+                },
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[256, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "minecraft:bone"
+                },
+                {
+                    "amount": "[2,3]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[384, 2147483647]": [
+                {
+                    "amount": "[1,3]",
+                    "chance": 1.0,
+                    "item": "minecraft:bone"
+                },
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.002,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[500, 2147483647]": [
+                {
+                    "amount": "[2,6]",
+                    "chance": 1.0,
+                    "item": "minecraft:bone"
+                },
+                {
+                    "amount": "[5,7]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.002,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[750, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:bone"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[1000, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:bone"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.008,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[1250, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:bone"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.016,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.05,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[1500, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:bone"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.16,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ]
+        },
+        "minecraft:spider": {
+            "[0, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0015,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                }
+            ],
+            "[128, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "minecraft:string"
+                },
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[256, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "minecraft:string"
+                },
+                {
+                    "amount": "[2,3]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[384, 2147483647]": [
+                {
+                    "amount": "[1,3]",
+                    "chance": 1.0,
+                    "item": "minecraft:string"
+                },
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.002,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[500, 2147483647]": [
+                {
+                    "amount": "[2,6]",
+                    "chance": 1.0,
+                    "item": "minecraft:string"
+                },
+                {
+                    "amount": "[5,7]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.002,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[750, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:string"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.004,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[1000, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:string"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.016,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[1250, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:string"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.032,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[1500, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:string"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.16,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ]
+        },
+        "minecraft:zombie_pigman": {
+            "[0, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0015,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                }
+            ],
+            "[128, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "minecraft:rotten_flesh"
+                },
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[256, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "minecraft:rotten_flesh"
+                },
+                {
+                    "amount": "[2,3]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[384, 2147483647]": [
+                {
+                    "amount": "[1,3]",
+                    "chance": 1.0,
+                    "item": "minecraft:rotten_flesh"
+                },
+                {
+                    "amount": "[2,4]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.002,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[500, 2147483647]": [
+                {
+                    "amount": "[2,4]",
+                    "chance": 1.0,
+                    "item": "minecraft:rotten_flesh"
+                },
+                {
+                    "amount": "[3,4]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.002,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[750, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:rotten_flesh"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.004,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[1000, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:rotten_flesh"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.016,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[1250, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:rotten_flesh"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.032,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[1500, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:rotten_flesh"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.16,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ]
+        },
+        "minecraft:enderman": {
+            "[0, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0015,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                }
+            ],
+            "[128, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "minecraft:ender_pearl"
+                },
+                {
+                    "amount": "[2,3]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[256, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "minecraft:ender_pearl"
+                },
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[384, 2147483647]": [
+                {
+                    "amount": "[1,3]",
+                    "chance": 1.0,
+                    "item": "minecraft:ender_pearl"
+                },
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.002,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[500, 2147483647]": [
+                {
+                    "amount": "[2,6]",
+                    "chance": 1.0,
+                    "item": "minecraft:ender_pearl"
+                },
+                {
+                    "amount": "[5,9]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.002,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[750, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:ender_pearl"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.004,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[1000, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:ender_pearl"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.016,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[1250, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:ender_pearl"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.032,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[1500, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:ender_pearl"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.16,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ]
+        },
+        "minecraft:creeper": {
+            "[0, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0015,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                }
+            ],
+            "[128, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "minecraft:gunpowder"
+                },
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[256, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "minecraft:gunpowder"
+                },
+                {
+                    "amount": "[2,3]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[384, 2147483647]": [
+                {
+                    "amount": "[1,3]",
+                    "chance": 1.0,
+                    "item": "minecraft:gunpowder"
+                },
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.002,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[500, 2147483647]": [
+                {
+                    "amount": "[2,6]",
+                    "chance": 1.0,
+                    "item": "minecraft:gunpowder"
+                },
+                {
+                    "amount": "[5,7]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.002,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[750, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:gunpowder"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.004,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[1000, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:gunpowder"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.016,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[1250, 2147483647]": [
+                {
+                    "amount": "[4,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:gunpowder"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.032,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[1500, 2147483647]": [
+                {
+                    "amount": "[4,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:gunpowder"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.16,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ]
+        },
+        "bouncy_creepers:bouncy_creeper": {
+            "[0, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0015,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                }
+            ],
+            "[128, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "minecraft:gunpowder"
+                },
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[256, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "minecraft:gunpowder"
+                },
+                {
+                    "amount": "[2,3]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[384, 2147483647]": [
+                {
+                    "amount": "[1,3]",
+                    "chance": 1.0,
+                    "item": "minecraft:gunpowder"
+                },
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.002,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[500, 2147483647]": [
+                {
+                    "amount": "[2,6]",
+                    "chance": 1.0,
+                    "item": "minecraft:gunpowder"
+                },
+                {
+                    "amount": "[5,7]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.002,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[750, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:gunpowder"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.004,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[1000, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:gunpowder"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.016,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[1250, 2147483647]": [
+                {
+                    "amount": "[4,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:gunpowder"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.032,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[1500, 2147483647]": [
+                {
+                    "amount": "[4,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:gunpowder"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.16,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ]
+        },
+        "minecraft:wither": {
+            "[110, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 1.0,
+                    "item": "minecraft:nether_star"
+                }
+            ],
+            "[128, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "progressivebosses:nether_star_shard"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 1.0,
+                    "item": "ae2wtlib:infinity_booster_card"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.2,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.6,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[256, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "progressivebosses:nether_star_shard"
+                },
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "ae2wtlib:infinity_booster_card"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.3,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.05,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.002,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,2]",
+                    "chance": 0.4,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[384, 2147483647]": [
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "progressivebosses:nether_star_shard"
+                },
+                {
+                    "amount": "[2,3]",
+                    "chance": 1.0,
+                    "item": "ae2wtlib:infinity_booster_card"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.1,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.016,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[2,2]",
+                    "chance": 0.5,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[500, 2147483647]": [
+                {
+                    "amount": "[2,4]",
+                    "chance": 1.0,
+                    "item": "progressivebosses:nether_star_shard"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "ae2wtlib:infinity_booster_card"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.2,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_legendary"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.032,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.75,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[650, 2147483647]": [
+                {
+                    "amount": "[8,14]",
+                    "chance": 1.0,
+                    "item": "progressivebosses:nether_star_shard"
+                },
+                {
+                    "amount": "[5,8]",
+                    "chance": 1.0,
+                    "item": "ae2wtlib:infinity_booster_card"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.2,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_legendary"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.032,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[800, 2147483647]": [
+                {
+                    "amount": "[1,3]",
+                    "chance": 1.0,
+                    "item": "minecraft:nether_star"
+                },
+                {
+                    "amount": "[6,9]",
+                    "chance": 1.0,
+                    "item": "ae2wtlib:infinity_booster_card"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.015,
+                    "item": "additions:greedycraft-reward_ticket_legendary"
+                },
+                {
+                    "amount": "[1,3]",
+                    "chance": 0.05,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[900, 2147483647]": [
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:nether_star"
+                },
+                {
+                    "amount": "[7,11]",
+                    "chance": 1.0,
+                    "item": "ae2wtlib:infinity_booster_card"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "additions:greedycraft-reward_ticket_legendary"
+                },
+                {
+                    "amount": "[1,4]",
+                    "chance": 0.088,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[1100, 2147483647]": [
+                {
+                    "amount": "[1,3]",
+                    "chance": 1.0,
+                    "item": "minecraft:nether_star"
+                },
+                {
+                    "amount": "[4,5]",
+                    "chance": 1.0,
+                    "item": "ae2wtlib:infinity_booster_card"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "additions:greedycraft-reward_ticket_legendary"
+                },
+                {
+                    "amount": "[1,6]",
+                    "chance": 0.004,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[1250, 2147483647]": [
+                {
+                    "amount": "[1,3]",
+                    "chance": 1.0,
+                    "item": "minecraft:nether_star"
+                },
+                {
+                    "amount": "[9,13]",
+                    "chance": 1.0,
+                    "item": "ae2wtlib:infinity_booster_card"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "additions:greedycraft-reward_ticket_legendary"
+                },
+                {
+                    "amount": "[1,8]",
+                    "chance": 0.12,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[1400, 2147483647]": [
+                {
+                    "amount": "[1,3]",
+                    "chance": 1.0,
+                    "item": "minecraft:nether_star"
+                },
+                {
+                    "amount": "[10,14]",
+                    "chance": 1.0,
+                    "item": "ae2wtlib:infinity_booster_card"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "additions:greedycraft-reward_ticket_legendary"
+                },
+                {
+                    "amount": "[1,8]",
+                    "chance": 0.4,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[1550, 2147483647]": [
+                {
+                    "amount": "[1,3]",
+                    "chance": 1.0,
+                    "item": "minecraft:nether_star"
+                },
+                {
+                    "amount": "[5,9]",
+                    "chance": 1.0,
+                    "item": "ae2wtlib:infinity_booster_card"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "additions:greedycraft-reward_ticket_legendary"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-wither_soul"
+                },
+                {
+                    "amount": "[1,8]",
+                    "chance": 0.8,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ]
+        },
+        "minecraft:ender_dragon": {
+            "[128, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.2,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                }
+            ],
+            "[256, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.3,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.1,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.004,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[384, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.2,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_legendary"
+                },
+                {
+                    "amount": "[1,2]",
+                    "chance": 0.016,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[500, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.5,
+                    "item": "draconicevolution:dragon_heart"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.3,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_legendary"
+                },
+                {
+                    "amount": "[1,2]",
+                    "chance": 0.0016,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[650, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 1.0,
+                    "item": "minecraft:dragon_egg"
+                },
+                {
+                    "amount": "[10,20]",
+                    "chance": 1.0,
+                    "item": "draconicevolution:draconium_dust"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 1.0,
+                    "item": "draconicevolution:dragon_heart"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.015,
+                    "item": "additions:greedycraft-reward_ticket_legendary"
+                },
+                {
+                    "amount": "[1,2]",
+                    "chance": 0.024,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[800, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 1.0,
+                    "item": "minecraft:dragon_egg"
+                },
+                {
+                    "amount": "[20,30]",
+                    "chance": 1.0,
+                    "item": "draconicevolution:draconium_dust"
+                },
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "draconicevolution:dragon_heart"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "additions:greedycraft-reward_ticket_legendary"
+                },
+                {
+                    "amount": "[1,3]",
+                    "chance": 0.048,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[900, 2147483647]": [
+                {
+                    "amount": "[3,6]",
+                    "chance": 1.0,
+                    "item": "minecraft:dragon_egg"
+                },
+                {
+                    "amount": "[30,40]",
+                    "chance": 1.0,
+                    "item": "draconicevolution:draconium_dust"
+                },
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "draconicevolution:dragon_heart"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.025,
+                    "item": "additions:greedycraft-reward_ticket_legendary"
+                },
+                {
+                    "amount": "[1,4]",
+                    "chance": 0.004,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[1100, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "minecraft:dragon_egg"
+                },
+                {
+                    "amount": "[40,60]",
+                    "chance": 1.0,
+                    "item": "draconicevolution:draconium_dust"
+                },
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "draconicevolution:dragon_heart"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.025,
+                    "item": "additions:greedycraft-reward_ticket_legendary"
+                },
+                {
+                    "amount": "[1,5]",
+                    "chance": 0.12,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[1250, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "minecraft:dragon_egg"
+                },
+                {
+                    "amount": "[60,100]",
+                    "chance": 1.0,
+                    "item": "draconicevolution:draconium_dust"
+                },
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "draconicevolution:dragon_heart"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.025,
+                    "item": "additions:greedycraft-reward_ticket_legendary"
+                },
+                {
+                    "amount": "[1,6]",
+                    "chance": 0.16,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[1400, 2147483647]": [
+                {
+                    "amount": "[1,3]",
+                    "chance": 1.0,
+                    "item": "minecraft:dragon_egg"
+                },
+                {
+                    "amount": "[100,200]",
+                    "chance": 1.0,
+                    "item": "draconicevolution:draconium_dust"
+                },
+                {
+                    "amount": "[2,3]",
+                    "chance": 1.0,
+                    "item": "draconicevolution:dragon_heart"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.025,
+                    "item": "additions:greedycraft-reward_ticket_legendary"
+                },
+                {
+                    "amount": "[1,8]",
+                    "chance": 0.4,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[1550, 2147483647]": [
+                {
+                    "amount": "[1,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:dragon_egg"
+                },
+                {
+                    "amount": "[100,200]",
+                    "chance": 1.0,
+                    "item": "draconicevolution:draconium_dust"
+                },
+                {
+                    "amount": "[3,4]",
+                    "chance": 1.0,
+                    "item": "draconicevolution:dragon_heart"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.025,
+                    "item": "additions:greedycraft-reward_ticket_legendary"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-dragon_soul"
+                },
+                {
+                    "amount": "[1,6]",
+                    "chance": 0.8,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ]
+        },
+        "headcrumbs:human": {
+            "[0, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0015,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.6,
+                    "item": "additions:greedycraft-raw_human_meat"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-city_defender_medal"
+                }
+            ],
+            "[128, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-raw_human_meat"
+                },
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "scalinghealth:crystalshard"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-city_defender_medal"
+                }
+            ],
+            "[256, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-raw_human_meat"
+                },
+                {
+                    "amount": "[2,3]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "scalinghealth:crystalshard"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-city_defender_medal"
+                }
+            ],
+            "[384, 2147483647]": [
+                {
+                    "amount": "[1,3]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-raw_human_meat"
+                },
+                {
+                    "amount": "[2,4]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.002,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "scalinghealth:crystalshard"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "additions:greedycraft-city_defender_medal"
+                }
+            ],
+            "[500, 2147483647]": [
+                {
+                    "amount": "[2,4]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-raw_human_meat"
+                },
+                {
+                    "amount": "[3,4]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.002,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "additions:greedycraft-city_defender_medal"
+                }
+            ],
+            "[750, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-raw_human_meat"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.004,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[1000, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-raw_human_meat"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.016,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[1250, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-raw_human_meat"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.032,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.032,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[1500, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-raw_human_meat"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.16,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ]
+        },
+        "minecraft:witch": {
+            "[0, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0015,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.6,
+                    "item": "minecraft:sugar"
+                }
+            ],
+            "[128, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "minecraft:sugar"
+                },
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[256, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "minecraft:sugar"
+                },
+                {
+                    "amount": "[2,3]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[384, 2147483647]": [
+                {
+                    "amount": "[1,3]",
+                    "chance": 1.0,
+                    "item": "minecraft:sugar"
+                },
+                {
+                    "amount": "[2,4]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.002,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[500, 2147483647]": [
+                {
+                    "amount": "[2,4]",
+                    "chance": 1.0,
+                    "item": "minecraft:sugar"
+                },
+                {
+                    "amount": "[3,4]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.002,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[750, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:sugar"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.004,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[1000, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:sugar"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.016,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[1250, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:sugar"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.032,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.032,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[1500, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "minecraft:sugar"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.16,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ]
+        },
+        "battletowers:golem": {
+            "[0, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-tower_chest_key"
+                }
+            ]
+        },
+        "mowziesmobs:barako": {
+            "[690, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-broken_solarium_star"
+                },
+                {
+                    "amount": "[3,8]",
+                    "chance": 1.0,
+                    "item": "additions:infernium_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[790, 2147483647]": [
+                {
+                    "amount": "[4,12]",
+                    "chance": 1.0,
+                    "item": "additions:infernium_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[890, 2147483647]": [
+                {
+                    "amount": "[8,24]",
+                    "chance": 1.0,
+                    "item": "additions:infernium_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[990, 2147483647]": [
+                {
+                    "amount": "[4,12]",
+                    "chance": 1.0,
+                    "item": "additions:infernium_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ]
+        },
+        "endreborn:endlord": {
+            "[690, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-broken_end_star"
+                },
+                {
+                    "amount": "[3,8]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-plasmarite_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[790, 2147483647]": [
+                {
+                    "amount": "[4,12]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-plasmarite_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[890, 2147483647]": [
+                {
+                    "amount": "[8,24]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-plasmarite_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[990, 2147483647]": [
+                {
+                    "amount": "[4,12]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-plasmarite_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ]
+        },
+        "dungeonsmod:ironslime": {
+            "[690, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-broken_canopy_star"
+                },
+                {
+                    "amount": "[3,8]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-canopium_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[790, 2147483647]": [
+                {
+                    "amount": "[4,12]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-canopium_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[890, 2147483647]": [
+                {
+                    "amount": "[8,24]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-canopium_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[990, 2147483647]": [
+                {
+                    "amount": "[4,12]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-canopium_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ]
+        },
+        "dungeonsmod:kraken": {
+            "[690, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-broken_ice_star"
+                },
+                {
+                    "amount": "[3,8]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-freezite_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[790, 2147483647]": [
+                {
+                    "amount": "[4,12]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-freezite_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[890, 2147483647]": [
+                {
+                    "amount": "[8,24]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-freezite_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[990, 2147483647]": [
+                {
+                    "amount": "[4,12]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-freezite_ingot"
+                },
+                {
+                    "amount": "[4,6]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ]
+        },
+        "mowziesmobs:frostmaw": {
+            "[0, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 1.0,
+                    "item": "mowziesmobs:ice_crystal"
+                }
+            ],
+            "[590, 2147483647]": [
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "additions:cryonium_ingot"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[690, 2147483647]": [
+                {
+                    "amount": "[2,4]",
+                    "chance": 1.0,
+                    "item": "additions:cryonium_ingot"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[790, 2147483647]": [
+                {
+                    "amount": "[4,5]",
+                    "chance": 1.0,
+                    "item": "additions:cryonium_ingot"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ],
+            "[890, 2147483647]": [
+                {
+                    "amount": "[10,14]",
+                    "chance": 1.0,
+                    "item": "additions:cryonium_ingot"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "botania:manaresource:5"
+                }
+            ]
+        },
+        "blue_skies:alchemist_illager": {
+            "[0, 2147483647]": [
+                {
+                    "amount": "[16,16]",
+                    "chance": 1.0,
+                    "item": "additions:taigaddon-heaven_gem_shard1"
+                }
+            ]
+        },
+        "blue_skies:summoner_illager": {
+            "[0, 2147483647]": [
+                {
+                    "amount": "[16,16]",
+                    "chance": 1.0,
+                    "item": "additions:taigaddon-heaven_gem_shard2"
+                }
+            ]
+        },
+        "touhou_little_maid:entity.monster.rinnosuke": {
+            "[0, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0015,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.6,
+                    "item": "additions:greedycraft-raw_human_meat"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-loli_lolipop"
+                }
+            ],
+            "[128, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-raw_human_meat"
+                },
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "scalinghealth:crystalshard"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-loli_lolipop"
+                }
+            ],
+            "[256, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-raw_human_meat"
+                },
+                {
+                    "amount": "[2,3]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "scalinghealth:crystalshard"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-loli_lolipop"
+                }
+            ],
+            "[384, 2147483647]": [
+                {
+                    "amount": "[1,3]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-raw_human_meat"
+                },
+                {
+                    "amount": "[2,4]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.002,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "scalinghealth:crystalshard"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "additions:greedycraft-loli_lolipop"
+                }
+            ],
+            "[500, 2147483647]": [
+                {
+                    "amount": "[2,4]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-raw_human_meat"
+                },
+                {
+                    "amount": "[3,4]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.002,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-loli_lolipop"
+                }
+            ],
+            "[750, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-raw_human_meat"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.004,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[1000, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-raw_human_meat"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.016,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[1250, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-raw_human_meat"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.032,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.032,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[1500, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-raw_human_meat"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.16,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ]
+        },
+        "extrabotany:gaiaiii": {
+            "[2000, 2147483647]": [
+                {
+                    "amount": "[1,3]",
+                    "chance": 1,
+                    "item": "gct_mobs:gaia_heart"
+                }
+            ]
+        },
+        "extrabotany:voidherrscher": {
+            "[2000, 2147483647]": [
+                {
+                    "amount": "[8,24]",
+                    "chance": 1,
+                    "item": "additions:botaniaddon-kianate_ingot"
+                }
+            ]
+        },
+        "touhou_little_maid:entity.monster.fairy": {
+            "[0, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0015,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.6,
+                    "item": "additions:greedycraft-raw_human_meat"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-loli_lolipop"
+                }
+            ],
+            "[128, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-raw_human_meat"
+                },
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "scalinghealth:crystalshard"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-loli_lolipop"
+                }
+            ],
+            "[256, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-raw_human_meat"
+                },
+                {
+                    "amount": "[2,3]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "scalinghealth:crystalshard"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-loli_lolipop"
+                }
+            ],
+            "[384, 2147483647]": [
+                {
+                    "amount": "[1,3]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-raw_human_meat"
+                },
+                {
+                    "amount": "[2,4]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_common"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.002,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "scalinghealth:crystalshard"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "additions:greedycraft-loli_lolipop"
+                }
+            ],
+            "[500, 2147483647]": [
+                {
+                    "amount": "[2,4]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-raw_human_meat"
+                },
+                {
+                    "amount": "[3,4]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.002,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "additions:greedycraft-loli_lolipop"
+                }
+            ],
+            "[750, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-raw_human_meat"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.004,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[1000, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-raw_human_meat"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.01,
+                    "item": "additions:greedycraft-reward_ticket_rare"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.0025,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.016,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.02,
+                    "item": "scalinghealth:crystalshard"
+                }
+            ],
+            "[1250, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-raw_human_meat"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.032,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.032,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ],
+            "[1500, 2147483647]": [
+                {
+                    "amount": "[2,5]",
+                    "chance": 1.0,
+                    "item": "additions:greedycraft-raw_human_meat"
+                },
+                {
+                    "amount": "[3,5]",
+                    "chance": 1.0,
+                    "item": "mysticalagriculture:crafting"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.005,
+                    "item": "additions:greedycraft-reward_ticket_epic"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.16,
+                    "item": "additions:greedycraft-ancient_tome_fragment"
+                }
+            ]
+        },
+        "abyssalcraft:jzahar": {
+            "[0, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 1.0,
+                    "item": "abyssalcraft:gatekeeperessence"
+                }
+            ]
+        }
+    }
+}

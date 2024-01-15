@@ -1,0 +1,134 @@
+{
+  "name": "star_alloy",
+  "tool": {
+    "head": {
+      "attackDamage": 38,
+      "speed": 16,
+      "durability": 2000,
+      "harvestLevel": 8
+    },
+    "handle": {
+      "modifier": 2,
+      "durability": 300
+    },
+    "extra": {
+      "durability": 400
+    }
+  },
+  "color": "#ffd8b4",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 980,
+  "looks": {
+    "shininess": 0.1,
+    "brightness": 0.3,
+    "hueshift": 0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 6000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Starlink Alloy",
+    "zh_cn": "星链合金"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:link-starchain_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 100,
+      "defense": 64
+    },
+    "plates": {
+      "modifier": 2,
+      "durability": 100,
+      "toughness": 8
+    },
+    "trim": {
+      "extraDurability": 100
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "tinkers_heartwork",
+      "tconevo.mortal_wounds",
+      "tconevo.willful",
+      "tconevo.sentient"
+    ],
+    "HEAD": [
+      "tinkers_heartwork",
+      "starsky",
+      "tconevo.crystalys",
+      "tconevo.aura_siphon"
+    ],
+    "HANDLE": [
+      "tinkers_heartwork",
+      "tconevo.mortal_wounds",
+      "tconevo.willful",
+      "tconevo.sentient"
+    ],
+    "BOW": [
+      "tinkers_heartwork",
+      "starsky",
+      "tconevo.crystalys",
+      "tconevo.aura_siphon"
+    ],
+    "PROJECTILE": [
+      "tinkers_heartwork",
+      "tconevo.mortal_wounds",
+      "tconevo.willful",
+      "tconevo.sentient"
+    ],
+    "CORE": [
+      "tinkers_heartwork_armor",
+      "tconevo.mana_infused_armor",
+      "tconevo.soul_guard_armor"
+    ],
+    "PLATES": [
+      "tinkers_heartwork_armor",
+      "tconevo.mana_infused_armor",
+      "tconevo.soul_guard_armor"
+    ],
+    "TRIM": [
+      "tinkers_heartwork_armor",
+      "tconevo.mana_infused_armor",
+      "tconevo.soul_guard_armor"
+    ]
+  }
+}

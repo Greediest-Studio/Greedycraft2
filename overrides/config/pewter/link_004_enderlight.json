@@ -1,0 +1,94 @@
+{
+  "name": "ender_light",
+  "tool": {
+    "head": {
+      "attackDamage": 18,
+      "speed": 7.88,
+      "durability": 8588,
+      "harvestLevel": 6
+    },
+    "handle": {
+      "modifier": 1.5,
+      "durability": 86
+    },
+    "extra": {
+      "durability": 86
+    },
+    "bow": {
+      "drawspeed": 0.75,
+      "range": 2,
+      "bonusDamage": 12
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 859.0,
+      "defense": 21.75
+    },
+    "plates": {
+      "modifier": 1.2,
+      "durability": 86.0,
+      "toughness": 9
+    },
+    "trim": {
+      "extraDurability": 86.0
+    }
+  },
+  "color": "#ff66ff",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 500,
+  "looks": {
+    "shininess": 0.0,
+    "brightness": 0.0,
+    "hueshift": 0.0
+  },
+  "fluid": {
+    "viscosity": 6000,
+    "density": 2000,
+    "temperature": 500,
+    "luminosity": 10
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Ender Light",
+    "zh_cn": "终末辉光"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:link-ender_light"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["radiance", "ender_lord", "ethernal", "parasitism"],
+    "HANDLE": ["ender_lord", "enderference", "parasitism"],
+    "EXTRA": ["radiance", "parasitism"],
+    "BOW": ["radiance", "ender_lord", "ethernal", "parasitism"],
+    "CORE": ["ender_shell_armor", "land_of_illusion_armor", "ethernal_armor", "parasitism_armor"],
+    "PLATES": ["ender_shell_armor", "parasitism_armor"],
+    "TRIM": ["ender_shell_armor", "tconevo.celestial_armor", "parasitism_armor"]
+  }
+}

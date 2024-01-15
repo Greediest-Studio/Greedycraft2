@@ -1,0 +1,131 @@
+{
+    "name": "thermallite",
+    "tool": {
+      "head": {
+        "attackDamage": 99,
+        "speed": 33,
+        "durability": 31625,
+        "harvestLevel": 12
+      },
+      "handle": {
+        "modifier": 3.4,
+        "durability": 8280
+      },
+      "extra": {
+        "durability": 9045
+      },
+      "bow": {
+        "speed": 0.95,
+        "range": 1.9,
+        "bonusDamage": 68
+      }
+    },
+    "color": "#b9ffff",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 5850,
+    "looks": {
+      "shininess": 0.8,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Thermallite",
+      "zh_cn": "热极金属"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "additions:mekaddon-thermallite_ingot"
+      ],
+      "block": [
+      ],
+      "nugget": [
+      ],
+      "ore": [
+      ],
+      "dust": [
+      ],
+      "plate": [
+      ],
+      "gear": [
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "defense": 129,
+        "durability": 752
+      },
+      "plates": {
+        "toughness": 8,
+        "modifier": 16.2,
+        "durability": 276
+      },
+      "trim": {
+        "extraDurability": 324
+      }
+    },
+    "specificTraits": {
+      "HEAD": [
+        "pyroelectric",
+        "elementfriendly",
+        "stellar_falling"
+      ],
+      "HANDLE": [
+        "pyroelectric",
+        "elementfriendly",
+        "tconevo.deadly_precision"
+      ],
+      "EXTRA": [
+        "pyroelectric",
+        "elementfriendly",
+        "star_dashing"
+      ],
+      "BOW": [
+        "pyroelectric",
+        "elementfriendly",
+        "stellar_falling"
+      ],
+      "CORE": [
+        "thermal_gathering_armor",
+        "elementfriendly_armor",
+        "inferno_armor"
+      ],
+      "PLATES": [
+        "thermal_gathering_armor",
+        "elementfriendly_armor",
+        "inferno_armor"
+      ],
+      "TRIM": [
+        "thermal_gathering_armor",
+        "elementfriendly_armor",
+        "inferno_armor"
+      ]
+    }
+}
+  

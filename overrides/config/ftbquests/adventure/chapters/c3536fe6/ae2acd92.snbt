@@ -1,0 +1,31 @@
+{
+	title: "§b浸染一切",
+	x: 7.5d,
+	y: 1.0d,
+	description: "合成诅咒：腐蚀",
+	text: [
+		""
+	],
+	dependencies: [
+		"7bd9b0fd"
+	],
+	tasks: [{
+		uid: "e79661c3",
+		type: "item",
+		items: [{
+			item: "journey:loggerorb"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0a49bc27",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "bb22a604",
+		type: "xp",
+		xp: 7000
+	}]
+}

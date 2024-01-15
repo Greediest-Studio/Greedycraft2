@@ -1,0 +1,32 @@
+{
+	title: "§b我为传说",
+	x: 12.0d,
+	y: 9.0d,
+	description: "完成悬赏任务，获得赏金猎人奖章",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "e797560e",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-bounty_hunter_medal"
+		},
+		{
+			item: "additions:greedycraft-bounty_hunter_medal_silver"
+		},
+		{
+			item: "additions:greedycraft-bounty_hunter_medal_bronze"
+		}]
+	}],
+	rewards: [{
+		uid: "c768ca3c",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "663cbbaf",
+		type: "xp",
+		xp: 1200
+	}]
+}

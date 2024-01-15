@@ -1,0 +1,29 @@
+{
+	title: "§b无线网络的到来",
+	x: -15.5d,
+	y: -4.0d,
+	description: "该矿物生成在遗忘冰川",
+	tasks: [{
+		uid: "6c82c5ed",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-germanium_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "58c4d3d7",
+		type: "item",
+		item: "additions:greedycraft-germanium_ore",
+		count: 8
+	},
+	{
+		uid: "9a700869",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "f504a059",
+		type: "xp",
+		xp: 1000
+	}]
+}

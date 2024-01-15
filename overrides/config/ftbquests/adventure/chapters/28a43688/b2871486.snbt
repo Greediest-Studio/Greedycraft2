@@ -1,0 +1,29 @@
+{
+	title: "§b又是浮岛",
+	x: -20.0d,
+	y: 4.5d,
+	description: "合成苍穹之城结界石",
+	text: [
+		""
+	],
+	dependencies: [
+		"8a04dd69"
+	],
+	tasks: [{
+		uid: "e973effc",
+		type: "item",
+		items: [{
+			item: "journey:cloudiaportalframe"
+		}]
+	}],
+	rewards: [{
+		uid: "77b5167a",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "a6561336",
+		type: "xp",
+		xp: 5000
+	}]
+}

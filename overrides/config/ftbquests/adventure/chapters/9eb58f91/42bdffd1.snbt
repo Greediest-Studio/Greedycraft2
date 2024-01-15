@@ -1,0 +1,39 @@
+{
+	title: "§b随时随地查看状态",
+	x: -17.5d,
+	y: -5.0d,
+	description: "制作无线接口终端",
+	text: [
+		""
+	],
+	dependencies: [
+		"b5314b30"
+	],
+	tasks: [{
+		uid: "beda5614",
+		type: "item",
+		items: [{
+			id: "wit:wit",
+			tag: {
+				InfinityEnergy: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b88e2a75",
+		type: "item",
+		item: "appliedenergistics2:material 1 42"
+	},
+	{
+		uid: "f46a094f",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "df5ee265",
+		type: "xp",
+		xp: 1000
+	}]
+}

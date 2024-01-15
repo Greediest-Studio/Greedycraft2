@@ -1,0 +1,19 @@
+// Mod Version: 1.4.2
+{
+    //Name of the creature type. Will be converted to lowercase internally. "unknown" is not allowed (as it is used internally)
+    "name": "example",
+    //Whether or not creature with this type are immune to critical hits.
+    "critical_hit_immunity": true,
+    //A list of potion effects of the form <modid>:<effect_name> that mobs of this type should be immune to. Works for main and sub types (dual typed mobs inherit all potion immunities from both types).
+    //As you'd expect, modded potion effects work.
+    "potion_immunities": [
+        "minecraft:poison",
+        "potioncore:weight",
+        "scalingfeast:softstomach"
+    ],
+    //A list of mobs of the form <modid>:<mobid> of mobs that get this type. Works with modded mobs, as you'd expect. Mobs with multiple types inherit everything from all types.
+    "mobs": [
+        "minecraft:creeper",
+        "quark:dweller"
+    ]
+}

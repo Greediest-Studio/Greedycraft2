@@ -1,0 +1,38 @@
+{
+	title: "§b天然暗黑色",
+	x: 14.0d,
+	y: 0.0d,
+	description: "在漆黑世界挖掘暗影矿石，获得暗影锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"fce9def8"
+	],
+	tasks: [{
+		uid: "eff83ffe",
+		type: "item",
+		items: [{
+			id: "additions:shadowium_ingot",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "5a151596",
+		type: "item",
+		item: "additions:shadowium_ingot",
+		count: 4
+	},
+	{
+		uid: "dce8382b",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "1b98502e",
+		type: "random",
+		table: 2
+	}]
+}

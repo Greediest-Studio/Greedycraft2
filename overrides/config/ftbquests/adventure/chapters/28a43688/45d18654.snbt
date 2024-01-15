@@ -1,0 +1,49 @@
+{
+	title: "§b灵之主",
+	x: -17.25d,
+	y: -6.75d,
+	description: "召唤并击杀远古修格斯",
+	text: [
+		""
+	],
+	dependencies: [
+		"23a595e1",
+		"1d0ed0da"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "57ac11f6",
+		type: "kill",
+		icon: "minecraft:diamond_sword",
+		entity: "gct_aby:ancientshoggoth",
+		value: 1L
+	},
+	{
+		uid: "f94f17d3",
+		type: "item",
+		items: [{
+			item: "gct_aby:shoggothtooth"
+		}]
+	}],
+	rewards: [{
+		uid: "fddaedbf",
+		type: "item",
+		item: "gct_mobs:sanite_ingot",
+		count: 16
+	},
+	{
+		uid: "354c1323",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "764330f1",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "10d5656a",
+		type: "xp",
+		xp: 20000
+	}]
+}

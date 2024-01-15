@@ -1,0 +1,32 @@
+{
+	title: "§b更高一级的容量？",
+	x: -5.5d,
+	y: -2.5d,
+	description: "制作超容符文",
+	dependencies: [
+		"1ca32822"
+	],
+	tasks: [{
+		uid: "2e4addd9",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "8a675292",
+		type: "item",
+		item: "bloodmagic:blood_rune 1 7",
+		count: 4
+	},
+	{
+		uid: "d8bff29b",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "4d83fa50",
+		type: "random",
+		table: 2
+	}]
+}

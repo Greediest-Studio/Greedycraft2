@@ -1,0 +1,35 @@
+{
+	title: "§b不是用来给金属打粉的……",
+	x: 8.5d,
+	y: 2.5d,
+	description: "合成研磨器",
+	text: [
+		""
+	],
+	dependencies: [
+		"527a574f"
+	],
+	tasks: [{
+		uid: "7a224868",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:mortar"
+		}]
+	}],
+	rewards: [{
+		uid: "87b08080",
+		type: "item",
+		item: "thebetweenlands:items_misc 1 39",
+		count: 16
+	},
+	{
+		uid: "38ed2385",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "09ed2f46",
+		type: "xp",
+		xp: 3000
+	}]
+}

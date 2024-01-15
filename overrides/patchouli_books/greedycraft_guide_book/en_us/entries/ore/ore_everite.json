@@ -1,0 +1,89 @@
+{
+    "name": "§e万§c化§b锭",
+    "icon": "gct_ores:everite_ingot",
+    "category": "patchouli:ore_category",
+    "priority": true,
+    "pages": [
+        {
+            "type":"spotlight",
+            "item":"additions:greedycraft-cytosinite_ore",
+            "text":"生成在$(9)5≤Y≤55$()的$(5)丛林$()(jungle)和$(5)繁茂$()(dense/lush)和$(5)沼泽$()(swamp)的生物群系$(br)大部分生成与$(6)泥巴$()中$(br)权重是95$(br)小部分生成在任意方块中$(br)权重是5"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:greedycraft-cryonium_ore",
+            "text":"生成在$(9)5≤Y≤32$()的$(5)寒冷$()(cold)与$(5)积雪$()(snowy)的生物群系"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:greedycraft-infernium_ore",
+            "text":"生成在$(2)下界$()($(c)the nether$())$(br)$(9)5≤Y≤120$()的所有群系中$(br)大部分生成在$(4)quark$()的$(6)玄武岩$()中权重是86$(br)小部分生成在其他方块中，权重是14"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:greedycraft-titanium_ore",
+            "text":"生成在$(2)末地$()($(c)the end$())$(br)$(9)5≤Y≤80"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:greedycraft-aetherium_ore",
+            "text":"生成在$(2)天境$()($(c)Aether$())$(br)$(9)15≤Y≤65$()$(br)大部分生成在$(6)速沙$()中权重是97$(br)小部分生成在其他方块中，权重是3"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:greedycraft-mistium_ore",
+            "text":"生成在$(2)奥穆索$()($(c)Omothol$())$(br)$(9)10≤Y≤70$()"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:greedycraft-canopium_ore",
+            "text":"生成在$(2)暮色森林$()($(c)twilight_forest$())$(br)$(9)31≤Y≤75$()的$(5)终焉高原$()(Final Plateau)群系中"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:greedycraft-thyminite_ore",
+            "text":"生成在$(2)下界$()($(c)the nether$())$(br)$(9)25≤Y≤105$()的$(5)下界幽魂之地$()(Phantasmagoric Inferno)生物群系"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:greedycraft-lavarite_ore",
+            "text":"生成在$(2)下界$()($(c)the nether$())$(br)$(9)2≤Y≤40$()的$(6)岩浆块$()中"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:greedycraft-plasmarite_ore",
+            "text":"生成在$(2)末地$()($(c)the end$())$(br)$(9)10≤Y≤128$()的$(6)末地石$()中"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:greedycraft-bnightium_ore",
+            "text":"生成在$(2)黑暗领域$()($(c)the dark realm$())$(br)$(9)3≤Y≤65$()"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:greedycraft-guaninite_ore",
+            "text":"生成在$(2)深渊荒原$()($(c)the abyssal wasteland$())$(br)$(9)57≤Y≤78$()"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:greedycraft-snowingium_ore",
+            "text":"生成在$(2)主世界$()($(c)overworld$())$(br)$(9)100≤Y≤255$()的$(5)阿尔卑斯山脉$()(Alps)的$(6)雪$()中"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:greedycraft-freezite_ore",
+            "text":"生成在$(2)下界$()($(c)the nether$())$(br)$(9)15≤Y≤95$()的$(5)寒冰炼狱$()(Arctic Abyss)中"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:greedycraft-oceanium_ore",
+            "text":"生成在$(2)主世界$()($(c)overworld$())$(br)$(9)10≤Y≤40$()的$(6)老化海晶石$()中"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:greedycraft-adeninite_ore",
+            "text":"生成在$(2)恐惧之地$()($(c)the dreadlands$())$(br)$(9)5≤Y≤60$()的$(6)渊素石$()中"
+        }
+        
+    ]
+}

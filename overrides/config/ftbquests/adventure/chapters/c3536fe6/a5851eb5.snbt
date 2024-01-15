@@ -1,0 +1,19 @@
+{
+	title: "§bAqua",
+	x: 5.5d,
+	y: 1.0d,
+	description: "获得炫青宝石",
+	text: [
+		""
+	],
+	dependencies: [
+		"7bd9b0fd"
+	],
+	tasks: [{
+		uid: "84747c20",
+		type: "item",
+		items: [{
+			item: "journey:gorbitegem"
+		}]
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "§b血流成河 V",
+	x: 2.5d,
+	y: 7.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"f9301235"
+	],
+	tasks: [{
+		uid: "4019ad0a",
+		type: "stat",
+		icon: "minecraft:diamond_chestplate",
+		stat: "stat.damageTaken",
+		value: 1600000
+	}],
+	rewards: [{
+		uid: "9ddad362",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "323bc597",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	}]
+}

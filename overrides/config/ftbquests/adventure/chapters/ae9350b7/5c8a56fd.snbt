@@ -1,0 +1,28 @@
+{
+	title: "§b雕凿工具",
+	x: 13.5d,
+	y: 3.0d,
+	description: "制作凿子",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "5499cb5b",
+		type: "item",
+		items: [{
+			item: "chisel:chisel_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cfec304c",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "f1cd9a92",
+		type: "random",
+		table: 0
+	}]
+}

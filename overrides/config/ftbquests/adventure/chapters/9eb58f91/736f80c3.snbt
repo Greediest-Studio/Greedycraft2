@@ -1,0 +1,29 @@
+{
+	title: "§b来源",
+	x: 9.0d,
+	y: 0.0d,
+	description: "获得工业机器框架",
+	text: [
+		""
+	],
+	dependencies: [
+		"00651a9f"
+	],
+	tasks: [{
+		uid: "32c140d2",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "106f777f",
+		type: "item",
+		item: "enderio:item_material 1 1"
+	},
+	{
+		uid: "79fbf6f2",
+		type: "xp",
+		xp: 2000
+	}]
+}

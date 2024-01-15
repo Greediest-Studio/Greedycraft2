@@ -1,0 +1,26 @@
+{
+	title: "§b这玩意就是碳？",
+	x: 3.0d,
+	y: 6.0d,
+	description: "获得暗物质",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "9e775883",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_matter"
+		}]
+	}],
+	rewards: [{
+		uid: "1c6ac4b0",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "7628babc",
+		type: "random",
+		table: 1
+	}]
+}

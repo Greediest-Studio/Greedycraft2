@@ -1,0 +1,31 @@
+{
+	title: "§b又渗入一种东西，灵魂",
+	x: 2.5d,
+	y: -2.5d,
+	description: "制作恶灵注血钻石",
+	dependencies: [
+		"cf69ca7e"
+	],
+	tasks: [{
+		uid: "d15badd2",
+		type: "item",
+		items: [{
+			item: "additions:bloody-infused_diamond_ghost"
+		}]
+	}],
+	rewards: [{
+		uid: "ab158198",
+		type: "item",
+		item: "additions:bloody-infused_diamond_ghost"
+	},
+	{
+		uid: "9cff54d6",
+		type: "xp",
+		xp: 4800
+	},
+	{
+		uid: "5b34a6ce",
+		type: "random",
+		table: 2
+	}]
+}

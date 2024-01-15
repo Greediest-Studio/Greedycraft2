@@ -1,0 +1,29 @@
+{
+	title: "§b神秘的指南针",
+	x: 5.5d,
+	y: 6.0d,
+	description: "制作裂缝定位器，寻找维度裂隙",
+	text: [
+		"此后的任务均属于神秘进阶等附属"
+	],
+	dependencies: [
+		"aaa91c72"
+	],
+	tasks: [{
+		uid: "fe7d2c51",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:fracture_locator"
+		}]
+	}],
+	rewards: [{
+		uid: "eebfb36d",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "8679ba8f",
+		type: "random",
+		table: 2
+	}]
+}

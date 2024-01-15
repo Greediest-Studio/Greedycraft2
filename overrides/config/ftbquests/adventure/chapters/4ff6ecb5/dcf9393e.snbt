@@ -1,0 +1,32 @@
+{
+	title: "§b我炼的第一种金！",
+	x: -0.5d,
+	y: -2.0d,
+	description: "制作炼金黄铜锭",
+	dependencies: [
+		"75992ca5"
+	],
+	tasks: [{
+		uid: "0b639be6",
+		type: "item",
+		items: [{
+			item: "thaumcraft:ingot 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "53027721",
+		type: "item",
+		item: "thaumcraft:ingot 1 2",
+		count: 3
+	},
+	{
+		uid: "09e3d840",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "2629e8a9",
+		type: "loot",
+		table: 0
+	}]
+}

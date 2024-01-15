@@ -1,0 +1,27 @@
+{
+	title: "§b最好的冶炼厂",
+	x: 9.5d,
+	y: -2.0d,
+	description: "套娃结束了？",
+	dependencies: [
+		"8e7755f7",
+		"b675e82f"
+	],
+	tasks: [{
+		uid: "69367f47",
+		type: "item",
+		items: [{
+			item: "thaumadditions:mithminite_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "c9001144",
+		type: "xp",
+		xp: 2500
+	},
+	{
+		uid: "43296fac",
+		type: "loot",
+		table: 3
+	}]
+}

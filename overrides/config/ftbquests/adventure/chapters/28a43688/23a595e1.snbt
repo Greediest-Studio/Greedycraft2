@@ -1,0 +1,29 @@
+{
+	title: "§b带着光环的一坨...",
+	x: -18.5d,
+	y: -5.5d,
+	description: "合成远古污泥",
+	text: [
+		""
+	],
+	dependencies: [
+		"dcbfc57c"
+	],
+	tasks: [{
+		uid: "4dca618f",
+		type: "item",
+		items: [{
+			item: "gct_aby:ancientmud"
+		}]
+	}],
+	rewards: [{
+		uid: "140cec34",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "ad7a7f40",
+		type: "xp",
+		xp: 2000
+	}]
+}

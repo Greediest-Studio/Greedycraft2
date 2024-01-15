@@ -1,0 +1,17 @@
+{
+  "recipe": {
+    "type": "forge:ore_shapeless",
+    "result": {
+      "item": "astralsorcery:itemcraftingcomponent",
+      "count": 9,
+      "data": 1
+    },
+    "ingredients": [
+      {
+        "ore_name": "blockAstralStarmetal",
+        "type": "additions:ingredient_ore_nbt"
+      }
+    ]
+  },
+  "type": "additions:crafting_shapeless"
+}

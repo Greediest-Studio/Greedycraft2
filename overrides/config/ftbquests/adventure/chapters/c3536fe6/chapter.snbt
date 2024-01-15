@@ -1,0 +1,18 @@
+{
+	title: "【冒险·肆】炫彩缤纷",
+	icon: "additions:chromasteel_ingot",
+	always_invisible: false,
+	group: 689139086,
+	default_quest_shape: "",
+	images: [{
+		x: 0.0d,
+		y: -10.5d,
+		width: 10.5d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/adv4.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "§b真的有人会用吗？",
+	x: 12.0d,
+	y: 19.5d,
+	description: "合成经验发电机控制器",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "73b4386b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:exp_power_generator_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "d314526f",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "0949e28e",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "a86d556f",
+		type: "item",
+		item: "additions:greedycraft-experience_block",
+		count: 32
+	}]
+}

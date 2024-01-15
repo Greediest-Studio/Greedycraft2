@@ -1,0 +1,29 @@
+{
+	title: "§b黑色的？无法挖掘？",
+	x: -20.0d,
+	y: -4.5d,
+	description: "合成黑岩迷宫结界石",
+	text: [
+		""
+	],
+	dependencies: [
+		"0618c1c5"
+	],
+	tasks: [{
+		uid: "9f8ed105",
+		type: "item",
+		items: [{
+			item: "journey:senterianportalframe"
+		}]
+	}],
+	rewards: [{
+		uid: "a8679029",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "922aab97",
+		type: "xp",
+		xp: 10000
+	}]
+}

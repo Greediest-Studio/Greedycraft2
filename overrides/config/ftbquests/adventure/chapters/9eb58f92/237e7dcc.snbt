@@ -1,0 +1,35 @@
+{
+	title: "§b终极，但不是套娃的终点",
+	x: -8.0d,
+	y: 6.0d,
+	description: "制作终极控制电路",
+	text: [
+		""
+	],
+	dependencies: [
+		"8d3e858f",
+		"2178c34e"
+	],
+	tasks: [{
+		uid: "6103e67f",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "51e54b05",
+		type: "item",
+		item: "mekanism:controlcircuit 1 3"
+	},
+	{
+		uid: "7a3f6994",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "de1d8eb7",
+		type: "random",
+		table: 0
+	}]
+}

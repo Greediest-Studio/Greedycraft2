@@ -1,0 +1,73 @@
+{
+	title: "§b混沌之力",
+	x: -11.0d,
+	y: 3.0d,
+	description: "合成混沌核心",
+	text: [
+		""
+	],
+	dependencies: [
+		"fee88de8"
+	],
+	tasks: [{
+		uid: "24cb29cc",
+		type: "item",
+		items: [{
+			item: "draconicevolution:chaotic_core"
+		}]
+	}],
+	rewards: [{
+		uid: "7ef00873",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "chaotic"
+	},
+	{
+		uid: "591ea904",
+		type: "item",
+		item: "draconicevolution:chaotic_core"
+	},
+	{
+		uid: "4319c1c9",
+		type: "item",
+		item: "draconicevolution:chaos_shard",
+		count: 10
+	},
+	{
+		uid: "e96a4fc2",
+		type: "item",
+		item: "additions:greedycraft-creative_shard"
+	},
+	{
+		uid: "4af83508",
+		type: "item",
+		item: "additions:tcsponsors-sponsors_chest"
+	},
+	{
+		uid: "ffb18b8c",
+		type: "item",
+		item: "minecraft:nether_star",
+		count: 32
+	},
+	{
+		uid: "4175fa6a",
+		type: "item",
+		item: "draconicevolution:dragon_heart",
+		count: 32
+	},
+	{
+		uid: "5193a2c0",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "f4e8f5f3",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "5472ecf2",
+		type: "item",
+		item: "additions:sponsor2-chest"
+	}]
+}

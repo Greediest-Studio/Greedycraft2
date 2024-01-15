@@ -1,0 +1,35 @@
+{
+	title: "§b一日之劳（真的）",
+	x: -9.5d,
+	y: 8.5d,
+	description: "合成终末辉光",
+	text: [
+		"你知道我捏这个材料废了多长时间吗？RNM，退钱！"
+	],
+	dependencies: [
+		"518ac07a"
+	],
+	tasks: [{
+		uid: "81b11049",
+		type: "item",
+		items: [{
+			item: "additions:link-ender_light"
+		}]
+	}],
+	rewards: [{
+		uid: "e5100279",
+		type: "item",
+		item: "additions:link-ender_light",
+		count: 2
+	},
+	{
+		uid: "c1662514",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "4ab5e8ed",
+		type: "xp",
+		xp: 10000
+	}]
+}

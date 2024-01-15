@@ -1,0 +1,35 @@
+{
+	title: "§b蜜蜂之家",
+	x: -10.5d,
+	y: 0.0d,
+	description: "获得简易蜂房",
+	text: [
+		""
+	],
+	dependencies: [
+		"11d59c73"
+	],
+	tasks: [{
+		uid: "edbf27a2",
+		type: "item",
+		items: [{
+			item: "forestry:bee_house"
+		}]
+	}],
+	rewards: [{
+		uid: "0dad20c5",
+		type: "item",
+		item: "forestry:bee_house",
+		count: 3
+	},
+	{
+		uid: "83431b9d",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "faf8efa5",
+		type: "loot",
+		table: 1
+	}]
+}

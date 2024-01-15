@@ -1,0 +1,18 @@
+{
+  "item_block": {
+    "name": "§6聚影铁矿石",
+    "tooltip": [
+      "§d从突变末影人的手中抢夺。",
+      "§7§o失重 by MisterPlus：联动材料"
+    ],
+    "ore_dict": "oreEndusium",
+    "type": "additions:block_simple"
+  },
+  "name": "§6聚影铁矿石",
+  "material": "minecraft:stone",
+  "hardness": 50.0,
+  "resistance": 2000.0,
+  "harvest_level": 6,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

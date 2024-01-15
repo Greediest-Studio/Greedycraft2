@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "弗拉克矿石",
+    "ore_dict": "oreFraxinium",
+    "type": "additions:block_simple"
+  },
+  "name": "弗拉克矿石",
+  "material": "minecraft:stone",
+  "hardness": 30.0,
+  "resistance": 4000.0,
+  "harvest_level": 12,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

@@ -1,0 +1,37 @@
+{
+	title: "§b时间加速",
+	x: 13.5d,
+	y: 13.5d,
+	description: "制作时间之瓶",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "6cf54b9f",
+		type: "item",
+		items: [{
+			id: "randomthings:timeinabottle",
+			tag: {
+				timeData: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "45d9ecf2",
+		type: "item",
+		item: "additions:greedycraft-time_shard",
+		count: 4
+	},
+	{
+		uid: "d846b00a",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "244dbcd5",
+		type: "xp",
+		xp: 1800
+	}]
+}

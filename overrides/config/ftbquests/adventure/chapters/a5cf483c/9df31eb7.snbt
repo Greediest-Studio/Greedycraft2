@@ -1,0 +1,29 @@
+{
+	title: "§b§b蕴含星空力量的大理石",
+	x: -0.5d,
+	y: 9.0d,
+	description: "制作星映大理石",
+	tasks: [{
+		uid: "c85777a6",
+		type: "item",
+		items: [{
+			item: "gct_mobs:astral_portal_core"
+		}]
+	}],
+	rewards: [{
+		uid: "a9ddb73a",
+		type: "item",
+		item: "gct_mobs:astral_portal_core",
+		count: 8
+	},
+	{
+		uid: "47db22b6",
+		type: "xp",
+		xp: 2400
+	},
+	{
+		uid: "0b9082ce",
+		type: "random",
+		table: 2
+	}]
+}

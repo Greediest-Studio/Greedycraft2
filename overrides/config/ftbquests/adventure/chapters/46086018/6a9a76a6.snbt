@@ -1,0 +1,51 @@
+{
+	title: "§c【可重复】 凋谢",
+	x: 7.0d,
+	y: -4.0d,
+	description: "反复折磨小凋零",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"313fdb8d"
+	],
+	tasks: [{
+		uid: "7b5bee17",
+		type: "kill",
+		icon: {
+			id: "minecraft:nether_star",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		entity: "minecraft:wither",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "e8346808",
+		type: "item",
+		item: {
+			id: "minecraft:nether_star",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "74a5e164",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "e35337f4",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "5617a98a",
+		type: "xp",
+		xp: 2000
+	}]
+}

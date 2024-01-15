@@ -1,0 +1,50 @@
+{
+	title: "§b交出你的灵魂！",
+	x: 7.5d,
+	y: 3.0d,
+	description: "获得离魂锭",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "63312615",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 38"
+		}]
+	}],
+	rewards: [{
+		uid: "1db5f55c",
+		type: "item",
+		item: "mysticalagriculture:crafting 1 38",
+		count: 9
+	},
+	{
+		uid: "6c36ef15",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "c44ff7c7",
+		type: "item",
+		item: "mysticalagriculture:chunk 1 21",
+		count: 4
+	},
+	{
+		uid: "d5cf94ff",
+		type: "item",
+		item: "mysticalagriculture:chunk 1 20",
+		count: 4
+	},
+	{
+		uid: "4e43c7ce",
+		type: "item",
+		item: "mysticalagriculture:chunk 1 18",
+		count: 4
+	},
+	{
+		uid: "2322ea3a",
+		type: "random",
+		table: 1
+	}]
+}

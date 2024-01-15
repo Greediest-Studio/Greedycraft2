@@ -1,0 +1,35 @@
+{
+	title: "§b触动灵神",
+	x: -16.5d,
+	y: -0.5d,
+	description: "挖掘灵神钢矿石",
+	text: [
+		""
+	],
+	dependencies: [
+		"31a799b3"
+	],
+	tasks: [{
+		uid: "ee1796e5",
+		type: "item",
+		items: [{
+			item: "gct_mobs:sanite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "2c23a76b",
+		type: "item",
+		item: "gct_mobs:sanite_ingot",
+		count: 4
+	},
+	{
+		uid: "1bd0407b",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "21894414",
+		type: "xp",
+		xp: 3000
+	}]
+}

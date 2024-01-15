@@ -1,0 +1,13 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "jaopca:cube_overlayed",
+        "textures": {
+            "base": "jaopca:blocks/glass_hardened",
+            "overlay": "jaopca:blocks/glass_hardened_overlay"
+        }
+    },
+    "variants": {
+        "normal": [{}]
+    }
+}

@@ -1,0 +1,29 @@
+{
+	title: "§b最深的深渊",
+	icon: "gct_aby:warprack",
+	x: -8.5d,
+	y: 2.0d,
+	description: "前往扭曲遗址",
+	text: [
+		""
+	],
+	dependencies: [
+		"f89ebdde"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "7d022357",
+		type: "dimension",
+		dim: 55
+	}],
+	rewards: [{
+		uid: "5fb4c0ab",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "bc459829",
+		type: "xp",
+		xp: 5000
+	}]
+}

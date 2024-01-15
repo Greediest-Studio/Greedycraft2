@@ -1,0 +1,29 @@
+{
+	title: "§b收集乳胶",
+	x: -17.5d,
+	y: -2.5d,
+	description: "制作乳胶桶,将其置于橡胶树上便可收集乳胶",
+	text: [
+		""
+	],
+	dependencies: [
+		"4cfe187d"
+	],
+	tasks: [{
+		uid: "6ec567ac",
+		type: "item",
+		items: [{
+			item: "mist:latex_pot"
+		}]
+	}],
+	rewards: [{
+		uid: "1dd91bb1",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "be4c2931",
+		type: "xp",
+		xp: 600
+	}]
+}

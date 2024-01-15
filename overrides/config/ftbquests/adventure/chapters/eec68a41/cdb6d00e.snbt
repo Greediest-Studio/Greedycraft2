@@ -1,0 +1,29 @@
+{
+	title: "§b世界树的枝干",
+	x: 18.5d,
+	y: -3.0d,
+	description: "造访亚尔夫海姆",
+	text: [
+		"使用奥利哈刚梦之木搭建框架，使用精灵法杖激活"
+	],
+	dependencies: [
+		"fb4e8d06",
+		"7fbf62c1"
+	],
+	tasks: [{
+		uid: "960c20b1",
+		type: "dimension",
+		icon: "botania:alfheimportal",
+		dim: 42
+	}],
+	rewards: [{
+		uid: "709a0e36",
+		type: "xp",
+		xp: 6000
+	},
+	{
+		uid: "fa3d3794",
+		type: "random",
+		table: 3
+	}]
+}

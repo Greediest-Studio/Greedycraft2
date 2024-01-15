@@ -1,0 +1,46 @@
+{
+	title: "§b存在于云玩家心中之物",
+	x: 3.0d,
+	y: 9.0d,
+	description: "制作黑曜石船",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "5c4d5427",
+		type: "item",
+		items: [{
+			item: "netherex:obsidian_boat"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "71cf76bb",
+		type: "item",
+		item: "minecraft:obsidian",
+		count: 16
+	},
+	{
+		uid: "dae95bcc",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "ff6d380d",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "df3877b3",
+		type: "item",
+		item: {
+			id: "thermalexpansion:florb",
+			Damage: 1s,
+			tag: {
+				Fluid: "lava"
+			}
+		},
+		count: 4
+	}]
+}

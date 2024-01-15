@@ -1,0 +1,64 @@
+{
+	title: "§b这只恶魂好大",
+	x: -16.0d,
+	y: 15.5d,
+	description: "击杀暮色恶魂",
+	text: [
+		""
+	],
+	dependencies: [
+		"d52f425b"
+	],
+	tasks: [{
+		uid: "92a5caea",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "9be54257",
+		type: "item",
+		item: "twilightforest:carminite",
+		count: 16
+	},
+	{
+		uid: "bf0ce25b",
+		type: "item",
+		item: "twilightforest:twilight_sapling 1 8"
+	},
+	{
+		uid: "f3b7525b",
+		type: "xp",
+		xp: 2500
+	},
+	{
+		uid: "05bad1bc",
+		type: "item",
+		item: "mysticalagriculture:ghast_seeds",
+		count: 2
+	},
+	{
+		uid: "8097eb62",
+		type: "item",
+		item: "twilightforest:twilight_sapling 1 9"
+	},
+	{
+		uid: "8dcfb7bd",
+		type: "item",
+		item: "thermalfoundation:material 1 2051",
+		count: 64
+	},
+	{
+		uid: "3a24668e",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "9e84df50",
+		type: "advancement",
+		auto: "no_toast",
+		advancement: "twilightforest:progress_ur_ghast",
+		criterion: ""
+	}]
+}

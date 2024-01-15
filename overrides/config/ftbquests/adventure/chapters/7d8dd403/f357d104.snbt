@@ -1,0 +1,20 @@
+{
+	title: "§b战胜恐惧……",
+	x: -18.5d,
+	y: -4.5d,
+	description: "击杀查伽洛斯，获得恐惧疫染的门钥匙",
+	text: [
+		""
+	],
+	dependencies: [
+		"a663698a",
+		"2b6bf191"
+	],
+	tasks: [{
+		uid: "457c62af",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:dreadkey"
+		}]
+	}]
+}

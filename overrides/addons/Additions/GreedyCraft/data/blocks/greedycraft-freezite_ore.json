@@ -1,0 +1,21 @@
+{
+  "item_block": {
+    "name": "§b封晶矿石",
+    "ore_dict": "oreFreezite",
+    "type": "additions:block_simple"
+  },
+  "name": "§b封晶矿石",
+  "material": "minecraft:stone",
+  "place_sound": "minecraft:block.glass.place",
+  "break_sound": "minecraft:block.glass.break",
+  "hit_sound": "minecraft:block.glass.hit",
+  "step_sound": "minecraft:block.glass.step",
+  "fall_sound": "minecraft:block.glass.fall",
+  "hardness": 50.0,
+  "resistance": 2000.0,
+  "harvest_level": 9,
+  "harvest_tool": "pickaxe",
+  "light_opacity": 3,
+  "semi_transparent": true,
+  "type": "additions:simple"
+}

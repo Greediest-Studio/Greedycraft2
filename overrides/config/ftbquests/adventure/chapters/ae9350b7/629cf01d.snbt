@@ -1,0 +1,32 @@
+{
+	title: "§b恶臭无比",
+	x: 12.0d,
+	y: 12.0d,
+	description: "获得便便",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "0a7a1e66",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-poop"
+		}]
+	}],
+	rewards: [{
+		uid: "3954731b",
+		type: "item",
+		item: "additions:greedycraft-poop",
+		count: 15
+	},
+	{
+		uid: "7de4b9c4",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "a9a454c8",
+		type: "xp",
+		xp: 300
+	}]
+}

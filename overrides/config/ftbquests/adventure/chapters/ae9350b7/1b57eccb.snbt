@@ -1,0 +1,32 @@
+{
+	title: "§b逆辐射",
+	x: 13.5d,
+	y: 21.0d,
+	description: "合成铱镭合金",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "15b1888f",
+		type: "item",
+		items: [{
+			item: "moretcon:ingotirradium"
+		}]
+	}],
+	rewards: [{
+		uid: "d9589618",
+		type: "item",
+		item: "moretcon:ingotirradium",
+		count: 3
+	},
+	{
+		uid: "3010ee86",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "24937a5f",
+		type: "xp",
+		xp: 3600
+	}]
+}

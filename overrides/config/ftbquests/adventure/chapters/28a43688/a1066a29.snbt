@@ -1,0 +1,31 @@
+{
+	title: "§b随机遗弃",
+	x: -3.5d,
+	y: 2.0d,
+	description: "制作随机遗弃器",
+	text: [
+		"在末地原点使用随机遗弃器，进入无名之地"
+	],
+	dependencies: [
+		"f78f3b24"
+	],
+	tasks: [{
+		uid: "dc016232",
+		type: "item",
+		items: [{
+			item: "gct_ores:rng_relinquisher"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eb7aaab9",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "da29fc04",
+		type: "random",
+		table: 3
+	}]
+}

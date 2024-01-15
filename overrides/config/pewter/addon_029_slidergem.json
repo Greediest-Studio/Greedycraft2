@@ -1,0 +1,88 @@
+{
+  "name": "slidergem",
+  "tool": {
+    "head": {
+      "attackDamage": 11,
+      "speed": 17,
+      "durability": 450,
+      "harvestLevel": 4
+    },
+    "handle": {
+      "modifier": 1.2,
+      "durability": 130
+    },
+    "extra": {
+      "durability": 120
+    },
+    "bow": {
+      "speed": 4,
+      "range": 1.6,
+      "bonusDamage": 30
+    }
+  },
+  "armor": {
+    "core": {
+      "defense": 19,
+      "durability": 24
+    },
+    "plates": {
+      "modifier": 1,
+      "durability": 2.7,
+      "toughness": 7.5
+    },
+    "trim": {
+      "extraDurability": 10
+    }
+  },
+  "color": "#787693",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 2000,
+  "looks": {
+    "shininess": 1.0,
+    "brightness": 1.0,
+    "hueshift": -0.1
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Refined Slider Gem",
+    "zh_cn": "滑行精炼宝石"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:greedycraft-slider_gem"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["sharper_harvesting", "gilded", "moretcon.aetheric"],
+    "HANDLE": ["sharper_harvesting", "gilded", "moretcon.aetheric"],
+    "EXTRA": ["sharper_harvesting", "gilded", "moretcon.aetheric"],
+    "BOW": ["sharper_harvesting", "gilded", "moretcon.aetheric"],
+    "CORE": ["turtle_defense_armor", "subterranean_armor", "aetheric_armor"],
+    "PLATES": ["turtle_defense_armor", "subterranean_armor", "aetheric_armor"],
+    "TRIM": ["turtle_defense_armor", "subterranean_armor", "aetheric_armor"]
+  }
+}

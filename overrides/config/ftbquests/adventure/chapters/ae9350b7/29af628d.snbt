@@ -1,0 +1,36 @@
+{
+	title: "§b声音传遍世界",
+	x: 10.5d,
+	y: 10.5d,
+	description: "制作播音器，可以在一个区域内播放音乐",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "07e83cfc",
+		type: "item",
+		items: [{
+			item: "ambience:soundnizer"
+		}]
+	}],
+	rewards: [{
+		uid: "7c99917c",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "ca0316c1",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "1d8c682a",
+		type: "item",
+		item: "ambience:alarm_pink"
+	},
+	{
+		uid: "d02eff67",
+		type: "item",
+		item: "ambience:bell"
+	}]
+}

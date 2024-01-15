@@ -1,0 +1,40 @@
+{
+	title: "§b桶也是物品！",
+	x: -4.5d,
+	y: 4.0d,
+	description: "制作基础的ME流体存储组件",
+	text: [
+		""
+	],
+	dependencies: [
+		"73220e86"
+	],
+	tasks: [{
+		uid: "43b445c2",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 54"
+		}]
+	}],
+	rewards: [{
+		uid: "8bdc3e56",
+		type: "item",
+		item: "appliedenergistics2:material 1 57",
+		count: 2
+	},
+	{
+		uid: "d980d89a",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "b2174f80",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "158fe6d7",
+		type: "xp",
+		xp: 500
+	}]
+}

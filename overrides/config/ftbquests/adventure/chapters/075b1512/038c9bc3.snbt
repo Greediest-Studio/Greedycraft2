@@ -1,0 +1,68 @@
+{
+	title: "§b持之以恒 IV",
+	x: -6.5d,
+	y: 5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"76185aa9"
+	],
+	tasks: [{
+		uid: "2e728fa9",
+		type: "stat",
+		icon: "minecraft:golden_helmet",
+		stat: "stat.playOneMinute",
+		value: 5760000
+	}],
+	rewards: [{
+		uid: "bef4acfb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "8f0be8d0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "3b8a7d39",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "32a007fa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "f97d0adb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	}]
+}

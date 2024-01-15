@@ -1,0 +1,35 @@
+{
+	title: "§b收集器MK3",
+	x: -3.5d,
+	y: 9.0d,
+	description: "合成质子中子素收集器，用于收集中子素锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"f1b75c57",
+		"620e262f"
+	],
+	tasks: [{
+		uid: "7218ab7e",
+		type: "item",
+		items: [{
+			item: "denseneutroncollectors:double_compressed_neutron_collector"
+		}]
+	}],
+	rewards: [{
+		uid: "d64e0c17",
+		type: "item",
+		item: "denseneutroncollectors:double_compressed_neutron_collector"
+	},
+	{
+		uid: "2c2e4a7c",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "16ae42fe",
+		type: "random",
+		table: 3
+	}]
+}

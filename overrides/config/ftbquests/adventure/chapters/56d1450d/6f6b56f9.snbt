@@ -1,0 +1,36 @@
+{
+	title: "§b讨厌，快拿开",
+	x: -12.0d,
+	y: 3.0d,
+	description: "获得驱蜂烟雾",
+	text: [
+		""
+	],
+	dependencies: [
+		"11d59c73"
+	],
+	tasks: [{
+		uid: "d463e4d6",
+		type: "item",
+		items: [{
+			item: "forestry:smoker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b380a9a1",
+		type: "item",
+		item: "forestry:smoker"
+	},
+	{
+		uid: "e4449307",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "6317a809",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,145 @@
+{
+    "name": "iciricium",
+    "tool": {
+      "bow": {
+        "speed": 1.9,
+        "range": 3.5,
+        "bonusDamage": -4
+      },
+      "fletching": {
+        "accuracy": 0.5,
+        "modifier": 0.0
+      },
+      "head": {
+        "attackDamage": 8.5,
+        "speed": 7.0,
+        "durability": 800,
+        "harvestLevel": 4
+      },
+      "handle": {
+        "modifier": 0.75,
+        "durability": 420
+      },
+      "arrowShaft": {
+        "modifier": 1.1,
+        "bonusAmmo": 5
+      },
+      "bowstring": {
+        "modifier": 1.1
+      },
+      "extra": {
+        "durability": 350
+      }
+    },
+    "color": "#3c4e41",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 600,
+    "looks": {
+      "shininess": 0.6,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "PROJECTILE",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Iciricium",
+      "zh_cn": "冰纹金"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "additions:greedycraft-iciricium_ingot"
+      ],
+      "block": [
+        "jaopca:block_blockiciricium"
+      ],
+      "nugget": [
+        "jaopca:item_nuggeticiricium"
+      ],
+      "ore": [
+        "additions:greedycraft-iciricium_ore"
+      ],
+      "dust": [
+        "jaopca:item_dusticiricium"
+      ],
+      "plate": [
+        "jaopca:item_geariciricium"
+      ],
+      "gear": [
+        "jaopca:item_geariciricium"
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "durability": 26,
+        "defense": 19
+      },
+      "plates": {
+        "modifier": 2.1,
+        "durability": 30,
+        "toughness": 4.5
+      },
+      "trim": {
+        "extraDurability": 21
+      }
+    },
+    "specificTraits": {
+      "EXTRA": [
+        "icy",
+        "shocking"
+      ],
+      "HEAD": [
+        "freezing",
+        "shocking"
+      ],
+      "HANDLE": [
+        "icy",
+        "shocking"
+      ],
+      "BOW": [
+        "freezing",
+        "shocking"
+      ],
+      "PROJECTILE": [
+        "icy",
+        "shocking"
+      ],
+      "CORE": [
+        "extreme_freezing_armor",
+        "motion_armor"
+      ],
+      "PLATES": [
+        "extreme_freezing_armor",
+        "motion_armor"
+      ],
+      "TRIM": [
+        "extreme_freezing_armor",
+        "motion_armor"
+      ]
+    }
+  }

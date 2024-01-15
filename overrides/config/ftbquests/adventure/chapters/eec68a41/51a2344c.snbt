@@ -1,0 +1,36 @@
+{
+	x: -2.5d,
+	y: -1.5d,
+	dependencies: [
+		"15d81249",
+		"9d38c9af"
+	],
+	tasks: [{
+		uid: "db3b13e4",
+		type: "item",
+		items: [{
+			item: "botanianeedsit:mana_charger"
+		}]
+	}],
+	rewards: [{
+		uid: "e28a06e9",
+		type: "item",
+		item: "botania:livingwood 1 1",
+		count: 32
+	},
+	{
+		uid: "e5092c1a",
+		type: "item",
+		item: "botania:pool 1 2"
+	},
+	{
+		uid: "ee894461",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "da74385b",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "§8虚空精华块",
+    "ore_dict": "blockVoidEssence",
+    "type": "additions:block_simple"
+  },
+  "name": "§8虚空精华块",
+  "material": "minecraft:metal",
+  "hardness": 35.0,
+  "resistance": 4000.0,
+  "harvest_level": 11,
+  "harvest_tool": "pickaxe",
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

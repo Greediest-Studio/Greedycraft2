@@ -1,0 +1,31 @@
+{
+	title: "§b神奇诅咒",
+	x: -4.5d,
+	y: 2.0d,
+	description: "合成诅咒：吞噬",
+	text: [
+		""
+	],
+	dependencies: [
+		"d727497d"
+	],
+	tasks: [{
+		uid: "0e8c8932",
+		type: "item",
+		items: [{
+			item: "journey:soulwatcherorb"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ea6a7536",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "d6f3913a",
+		type: "random",
+		table: 2
+	}]
+}

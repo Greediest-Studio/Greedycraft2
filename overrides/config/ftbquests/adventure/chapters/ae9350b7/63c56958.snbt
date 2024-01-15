@@ -1,0 +1,31 @@
+{
+	title: "§b探索的时光",
+	x: 4.5d,
+	y: 18.0d,
+	description: "完成原版成就“探索的时光”",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "71728fd6",
+		type: "advancement",
+		title: "完成进度“探索的时光”",
+		advancement: "minecraft:adventure/adventuring_time",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "fcce5284",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "da5f9e90",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "9157c38f",
+		type: "xp",
+		xp: 10000
+	}]
+}

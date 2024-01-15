@@ -1,0 +1,30 @@
+{
+	title: "§b做导管很好哦",
+	x: 2.5d,
+	y: -4.5d,
+	description: "制作一个旋律合金锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"1fe9930e"
+	],
+	tasks: [{
+		uid: "d290a09b",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_endergy_ingot 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "9dff792c",
+		type: "item",
+		item: "enderio:item_alloy_endergy_ingot 1 2",
+		count: 16
+	},
+	{
+		uid: "ae5603b8",
+		type: "xp",
+		xp: 3000
+	}]
+}

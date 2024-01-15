@@ -1,0 +1,32 @@
+{
+	title: "§b至纯蜂蜜",
+	x: -10.5d,
+	y: 4.5d,
+	description: "获得蜂王浆",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "6c80eb0c",
+		type: "item",
+		items: [{
+			item: "forestry:royal_jelly"
+		}]
+	}],
+	rewards: [{
+		uid: "cbcb310a",
+		type: "item",
+		item: "forestry:royal_jelly",
+		count: 16
+	},
+	{
+		uid: "fb34cfe1",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "12ab8b0d",
+		type: "loot",
+		table: 2
+	}]
+}

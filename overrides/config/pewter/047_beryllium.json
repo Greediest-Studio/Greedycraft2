@@ -1,0 +1,94 @@
+{
+  "name": "beryllium",
+  "tool": {
+    "head": {
+      "attackDamage": 15.5,
+      "speed": 4,
+      "durability": 650,
+      "harvestLevel": 4
+    },
+    "handle": {
+      "modifier": 0.7,
+      "durability": 100
+    },
+    "extra": {
+      "durability": 140
+    },
+    "bow": {
+      "speed": 0.4,
+      "range": 0.9,
+      "bonusDamage": 1
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 45,
+      "defense": 10
+    },
+    "plates": {
+      "modifier": 0.9,
+      "durability": 20,
+      "toughness": 0.5
+    },
+    "trim": {
+      "extraDurability": 20
+    }
+  },
+  "color": "#e6ecdd",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 900,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Beryllium",
+    "zh_cn": "铍"
+  },
+  "smeltingItems": {
+    "ingot": ["nuclearcraft:ingot:9"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["poisonous", "lightweight"],
+    "HANDLE": ["alkalinity", "lightweight"],
+    "EXTRA": ["alkalinity", "lightweight"],
+    "BOW": ["poisonous", "lightweight"],
+    "CORE": ["poisonous_armor", "featherweight_armor"],
+    "PLATES": ["poisonous_armor", "featherweight_armor"],
+    "TRIM": ["poisonous_armor", "featherweight_armor"]
+  }
+}
