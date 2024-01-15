@@ -8,6 +8,14 @@
 		"example_fluid_2": {
 			"model": "forge:fluid",
 			"custom": { "fluid": "example_fluid_2" }
-		}
+        },
+        "dirty_ore_slurry_gas": {
+            "model": "forge:fluid",
+            "custom": { "fluid": "dirty_ore_slurry_gas" }
+        },
+        "clean_ore_slurry_gas": {
+            "model": "forge:fluid",
+            "custom": { "fluid": "clean_ore_slurry_gas" }
+        }
 	}
 }
