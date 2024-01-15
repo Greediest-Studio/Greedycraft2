@@ -1,1 +1,1 @@
-# GC2
+# Greedycraft2
