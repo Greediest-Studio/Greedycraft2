@@ -145,7 +145,6 @@ val tooltipMap as string[][IIngredient] = {
     <comforts:hammock:*> : [cant_set_spawn],
     <theoneprobe:probenote> : [game.localize("greedycraft.tooltip.theoneprobe.probenote.1")],
     <scalinghealth:heartcontainer> : [game.localize("greedycraft.tooltip.scalinghealth.heartcontainer.1"), game.localize("greedycraft.tooltip.scalinghealth.heartcontainer.2")],
-    <redstonerepository:ring_mining> : [game.localize("greedycraft.tooltip.redstonerepository.ring_mining.1")],
     <tconstruct:materials:19> : [game.localize("greedycraft.tooltip.tconstruct.materials.1")],
     <harvestcraft:hamandpineapplepizzaitem> : [game.localize("greedycraft.tooltip.harvestcraft.hamandpineapplepizzaitem.1")],
     <bloodmagic:bound_sword> : [bound_disabled],
