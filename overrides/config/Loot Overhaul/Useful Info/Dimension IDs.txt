@@ -171,20 +171,20 @@ Tofu World
 	- Terrain Scale: 1.0
 
 
-betweenlands
-	- Id: 20
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 128.0
-	- Can Respawn Here? true
-	- Terrain Scale: 1.0
-
-
 CompactMachines
 	- Id: 144
 	- Height: 256
 	- Has Sky? true
 	- Cloud Height: -5.0
+	- Can Respawn Here? true
+	- Terrain Scale: 1.0
+
+
+betweenlands
+	- Id: 20
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
 	- Can Respawn Here? true
 	- Terrain Scale: 1.0
 
@@ -351,15 +351,6 @@ emptiness
 	- Terrain Scale: 16.0
 
 
-keletupack
-	- Id: 31871
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 0.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
 theaurorian
 	- Id: 645
 	- Height: 256
@@ -373,15 +364,6 @@ candymod
 	- Id: 23
 	- Height: 256
 	- Has Sky? true
-	- Cloud Height: 128.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
-midnight
-	- Id: -23
-	- Height: 255
-	- Has Sky? false
 	- Cloud Height: 128.0
 	- Can Respawn Here? false
 	- Terrain Scale: 1.0
@@ -432,15 +414,6 @@ ExtraUtils2_Quarry_Dim
 	- Terrain Scale: 1.0
 
 
-nc_wasteland
-	- Id: 4598
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 128.0
-	- Can Respawn Here? false
-	- Terrain Scale: 0.125
-
-
 misty_world
 	- Id: 69
 	- Height: 256
@@ -477,6 +450,15 @@ Dal Quor
 	- Terrain Scale: 1.0
 
 
+nc_wasteland
+	- Id: 4598
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 0.125
+
+
 Spectre
 	- Id: -343800852
 	- Height: 256
@@ -501,51 +483,6 @@ Storage Cell
 	- Has Sky? true
 	- Cloud Height: 128.0
 	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
-uw_garden_world
-	- Id: 2
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 128.0
-	- Can Respawn Here? true
-	- Terrain Scale: 1.0
-
-
-uw_mining_world
-	- Id: 6
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 128.0
-	- Can Respawn Here? true
-	- Terrain Scale: 1.0
-
-
-uw_void_world
-	- Id: 5
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 128.0
-	- Can Respawn Here? true
-	- Terrain Scale: 1.0
-
-
-uw_void_world
-	- Id: 8
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 128.0
-	- Can Respawn Here? true
-	- Terrain Scale: 1.0
-
-
-uw_void_world
-	- Id: 9
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 128.0
-	- Can Respawn Here? true
 	- Terrain Scale: 1.0
 
 

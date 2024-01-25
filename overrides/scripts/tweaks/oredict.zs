@@ -136,7 +136,6 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:ingotFusionMatrix> : [<tconevo:material>],
     <ore:ingotCoalescenceMatrix> : [<tconevo:material>],
     <ore:blockCoalescenceMatrix> : [<ore:blockFusionMatrix>],
-    <ore:blockBasalt> : [<netherex:basalt>],
     <ore:blockBasalt> : [<ore:stoneBasalt>],
     <ore:stoneBasalt> : [<taiga:basalt_block>],
     <ore:foodChocolate> : [<actuallyadditions:item_food:9>, <foodexpansion:itemchocolatebar>, <ore:foodChocolateBar>],
@@ -388,7 +387,6 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:spiderEye> : [<minecraft:spider_eye>],
     <ore:mycelium> : [
         <quark:glowcelium>,
-        <netherex:hyphae>,
         <biomesoplenty:grass:8>,
         <betternether:nether_mycelium>
     ],
@@ -399,8 +397,6 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:blockDiamondSakura> : [<sakura:sakura_diamond_block>],
     <ore:blockQuartzBlack> : [<ore:blockQuartzDark>],
     <ore:blockQuartzDark> : [<ore:blockQuartzBlack>],
-    <ore:rodBlizz> : [<netherex:frost_rod>],
-    <ore:dustBlizz> : [<netherex:frost_powder>],
     <ore:netherrack> : [<betternether:nether_mycelium>],
     <ore:ingotSpectre> : [<randomthings:ingredient:3>],
     <ore:stringSpectre> : [<randomthings:ingredient:12>],

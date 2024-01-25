@@ -1,0 +1,17 @@
+
+[general]
+	#The material blacklist of this module.
+	materialBlacklist = []
+
+[recipes]
+	#The materials that should not have crystallizer block to crystal recipes added.
+	blockToCrystalMaterialBlacklist = []
+	#The materials that should not have crystallizer material to crystal recipes added.
+	materialToCrystalMaterialBlacklist = []
+	#The materials that should not have crystallizer nugget to crystal recipes added.
+	nuggetToCrystalMaterialBlacklist = []
+	#The materials that should not have crystallizer dust to crystal recipes added.
+	dustToCrystalMaterialBlacklist = []
+	#The materials that should not have transmutator to nugget recipes added.
+	transmuteToNuggetMaterialBlacklist = []
+

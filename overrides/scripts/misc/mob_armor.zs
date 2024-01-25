@@ -244,8 +244,6 @@ addGroup("post_nether", (0.2 * MOB_ARMOR_MULTIPLIER as double) as double, [{
     feet: <abyssalcraft:corboots> % 5,
     mainhand: <abyssalcraft:corsword>.withTag({ench: [{lvl: 1 as short, id: 16}]}) % 5
 }, {
-    mainhand: <netherex:blazed_amedian_sword> % 5
-}, {
     head: <tofucraft:armordiamondhelmet> % 5,
     chest: <tofucraft:armordiamondchestplate> % 5,
     legs: <tofucraft:armordiamondleggins> % 5,

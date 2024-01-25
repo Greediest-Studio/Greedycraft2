@@ -450,20 +450,6 @@ cincinnasite.addBowMaterialStats(getDrawSpeed(1.8) as float, 1.4, 1.5);
 cincinnasite.addProjectileMaterialStats();
 cincinnasite.register();
 
-val rime = MaterialBuilder.create("rime");
-rime.color = Color.fromHex("8c9eff").getIntColor(); 
-rime.craftable = true;
-rime.castable = false;
-rime.representativeItem = <item:netherex:rime_crystal>;
-rime.addItem(<ore:gemRime>);
-rime.localizedName = game.localize("greedycraft.tconstruct.material.rime.name");
-rime.addHeadMaterialStats(540, 10.5, 9.2, 4);
-rime.addHandleMaterialStats(1.25, 200);
-rime.addExtraMaterialStats(400);
-rime.addBowMaterialStats(getDrawSpeed(1.2) as float, 2.0, 3.5);
-rime.addProjectileMaterialStats();
-rime.register();
-
 val ender_biotite = MaterialBuilder.create("ender_biotite");
 ender_biotite.color = Color.fromHex("212121").getIntColor(); 
 ender_biotite.craftable = true;

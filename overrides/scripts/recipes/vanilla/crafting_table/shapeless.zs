@@ -303,18 +303,6 @@ RecipeUtil.addShapeless("auto_gen_2033568330", <enderio:item_material:63>,
 RecipeUtil.addShapeless("auto_gen_254615916", <quark:black_ash>,
     [<enderio:item_material:63>]
 );
-RecipeUtil.addShapeless("auto_gen_-2112645397", <quark:black_ash>,
-    [<netherex:wither_dust>]
-);
-RecipeUtil.addShapeless("auto_gen_1194975689", <netherex:wither_dust>,
-    [<quark:black_ash>]
-);
-RecipeUtil.addShapeless("auto_gen_-1387251411", <netherex:wither_dust>,
-    [<darkutils:material>]
-);
-RecipeUtil.addShapeless("auto_gen_932948151", <netherex:wither_dust>,
-    [<enderio:item_material:63>]
-);
 RecipeUtil.addShapeless("auto_gen_455125292", <tconevo:material> * 9,
     [<ore:blockFusionMatrix>]
 );
@@ -446,9 +434,6 @@ RecipeUtil.addShapeless("black_quartz_block", <actuallyadditions:block_misc:2>,
 );
 RecipeUtil.addShapeless("forestry_resource_2", <magicbees:resource:2> * 4,
     [<ore:itemBiomassRich>, <ore:itemBiomassRich>, <ore:itemBiomassRich>, <ore:itemBiomassRich>]
-);
-RecipeUtil.addShapeless("eternal_singularity_dupe", <eternalsingularity:eternal_singularity> * 2,
-    [<eternalsingularity:eternal_singularity>, <additions:greedycraft-black_hole_remnant>, <additions:greedycraft-black_hole_remnant>]
 );
 RecipeUtil.addShapeless("advanced_coil", <actuallyadditions:item_misc:8>,
     [<actuallyadditions:item_misc:7>, <ore:ingotDurasteel>]

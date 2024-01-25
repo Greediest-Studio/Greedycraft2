@@ -148,7 +148,6 @@ val emcMapping as long[IIngredient] = {
     <fluxnetworks:flux:0> : 80 as long,
     <minecraft:name_tag:0> : 1038 as long,
     <quark:biotite:0> : 600 as long,
-    <netherex:amethyst_crystal:0> : 500 as long,
     <actuallyadditions:item_misc:5> : 256 as long,
     <cyclicmagic:heart_food:0> : 0 as long,
     <taiga:basalt_block:0> : 128 as long,

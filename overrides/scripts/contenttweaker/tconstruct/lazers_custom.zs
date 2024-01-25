@@ -49,7 +49,6 @@ addLaser(<ticmat:ender_biotite>, 9.5, 30);
 addLaser(<ticmat:valkyrie>, 10, 28);
 addLaser(<ticmat:chocolate>, 0.5, 50);
 addLaser(<ticmat:holystone>, 2, 24);
-addLaser(<ticmat:rime>, 9, 19);
 addLaser(<ticmat:crystal_matrix>, 16, 29);
 addLaser(<ticmat:heart_crystal>, 4, 30);
 addLaser(<ticmat:tiberium>, 12, 40);

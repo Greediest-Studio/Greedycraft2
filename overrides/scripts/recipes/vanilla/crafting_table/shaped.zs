@@ -144,11 +144,6 @@ recipes.addShaped(<gct_mobs:earth_orb>, [[<ore:obsidian>, <ore:ingotTerrasteel>,
 recipes.addShaped(<gct_mobs:earthbound_receiver>, [[<ore:livingwoodTwig>, <ore:ingotSky>, <ore:livingwoodTwig>],[<ore:livingwoodTwig>, <gct_mobs:earthbound_core>, <ore:livingwoodTwig>], [<ore:blockMud>, <ore:blockMud>, <ore:blockMud>]]);
 recipes.addShaped(<gct_mobs:earthbound_core>, [[<ore:livingwoodTwig>, <ore:ingotAuraIron>, <ore:livingwoodTwig>],[<ore:livingwoodTwig>, <gct_mobs:holysteel_ingot>, <ore:livingwoodTwig>], [<naturesaura:infused_brick>, <naturesaura:infused_brick>, <naturesaura:infused_brick>]]);
 recipes.addShaped(<gugu-utils:aurainputhatch>, [[<ore:ingotModularium>, <ore:ingotSky>, <ore:ingotModularium>],[<ore:ingotAuraIron>, <modularmachinery:blockcasing>, <ore:ingotAuraIron>], [<ore:ingotModularium>, <ore:ingotEarth>, <ore:ingotModularium>]]);
-recipes.addShaped(<minecraft:end_portal_frame>, [[null, null, null],[null, <randomportals:upside_down_end_portal_frame>, null], [null, null, null]]);
-recipes.addShaped(<randomportals:upside_down_end_portal_frame>, [[null, null, null],[null, <randomportals:vertical_end_portal_frame>, null], [null, null, null]]);
-recipes.addShaped(<randomportals:vertical_end_portal_frame>, [[null, null, null],[null, <minecraft:end_portal_frame>, null], [null, null, null]]);
-recipes.addShaped(<randomportals:upside_down_end_portal_frame>, [[<ore:endstone>, <ore:endstone>, <ore:endstone>],[<ore:endstone>, <ore:endstone>, <ore:endstone>], [<minecraft:ender_eye>, <ore:netherStar>, <minecraft:ender_eye>]]);
-recipes.addShaped(<randomportals:vertical_end_portal_frame>, [[<ore:endstone>, <ore:endstone>, <minecraft:ender_eye>],[<ore:endstone>, <ore:endstone>, <ore:netherStar>], [<ore:endstone>, <ore:endstone>, <minecraft:ender_eye>]]);
 recipes.addShaped(<gct_mac:endest_steel_forge>, [[<ore:ingotEndorium>, <ore:ingotEndorium>, <ore:ingotEndorium>],[<ore:pearlEnderEye>, <ore:ingotEnderite>, <ore:pearlEnderEye>], [<ore:ingotEndorium>, <ore:ingotEndorium>, <ore:ingotEndorium>]]);
 
 
@@ -281,11 +276,6 @@ RecipeUtil.addShaped("difficultychanger_up_2", <scalinghealth:difficultychanger:
     [null, <tconstruct:materials:17>, null],
     [<tconstruct:materials:17>, <scalinghealth:heartcontainer>, <tconstruct:materials:17>],
     [<tconstruct:materials:17>, <tconstruct:materials:17>, <tconstruct:materials:17>]
-]);
-RecipeUtil.addShaped("difficultychanger_up", <scalinghealth:difficultychanger:1>, [
-    [null, <netherex:wither_bone>, null],
-    [<netherex:wither_bone>, <scalinghealth:heartcontainer>, <netherex:wither_bone>],
-    [<netherex:wither_bone>, <netherex:wither_bone>, <netherex:wither_bone>]
 ]);
 RecipeUtil.addShaped("difficultychanger_down", <scalinghealth:difficultychanger:0>, [
     [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>],
@@ -431,11 +421,6 @@ RecipeUtil.addShaped("auto_gen_-295393253", <additions:greedycraft-poopburger>, 
     [<minecraft:wheat>, <minecraft:wheat>, <minecraft:wheat>],
     [<additions:greedycraft-poop>, <additions:greedycraft-poop>, <additions:greedycraft-poop>],
     [<minecraft:wheat>, <minecraft:wheat>, <minecraft:wheat>]
-]);
-RecipeUtil.addShaped("auto_gen_-1478408197", <netherex:wither_bone>, [
-    [null, <netherex:wither_dust>, null],
-    [<netherex:wither_dust>, <ore:bone>, <netherex:wither_dust>],
-    [null, <netherex:wither_dust>, null]
 ]);
 RecipeUtil.addShaped("auto_gen_1124990531", <projecte:item.pe_harvest_god>, [
     [<ore:soulCreative>, <minecraft:vine>, <ore:soulCreative>],

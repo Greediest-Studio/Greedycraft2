@@ -37,8 +37,6 @@ RecipeBuilder.newBuilder("miner_basic", "miner_basic", speed, 0)//这两个"mine
     .setChance(0.4f / 10.0f)
     .addItemOutput(<astralsorcery:blockmarble>)
     .setChance(0.5f / 10.0f)
-    .addItemOutput(<netherex:basalt>)
-    .setChance(0.5f / 10.0f)
     .addItemOutput(<minecraft:obsidian>)
     .setChance(0.4f / 10.0f)
     .addItemOutput(<astralsorcery:blockcustomore:1>)

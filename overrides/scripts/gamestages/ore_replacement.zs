@@ -19,7 +19,6 @@ import scripts.util.gamestages as GameStagesUtil;
 GameStagesUtil.stageDescendantOfTheSun.addOreReplacement(<additions:greedycraft-infernium_ore>, <quark:basalt>, false);
 GameStagesUtil.stageDescendantOfTheSun.addOreReplacement(<additions:greedycraft-plasmarite_ore>, <minecraft:end_stone>, false);
 GameStagesUtil.stageDescendantOfTheSun.addOreReplacement(<additions:greedycraft-canopium_ore>, <twilightforest:deadrock:2>, false);
-GameStagesUtil.stageDescendantOfTheSun.addOreReplacement(<additions:greedycraft-freezite_ore>, <netherex:frostburn_ice>, false);
 
 GameStagesUtil.stageEnderCharm.addOreReplacement(<minecraft:end_portal_frame:*>, <additions:greedycraft-unknown_block>, false);
 
@@ -32,7 +31,6 @@ GameStagesUtil.stageHardmode.addOreReplacement(<biomesoplenty:gem_ore:0>, <minec
 GameStagesUtil.stageHardmode.addOreReplacement(<draconicevolution:draconium_ore:1>, <minecraft:netherrack>, false);
 GameStagesUtil.stageHardmode.addOreReplacement(<draconicevolution:draconium_ore:2>, <minecraft:end_stone>, false);
 GameStagesUtil.stageHardmode.addOreReplacement(<draconicevolution:draconium_ore>, <minecraft:stone>, false);
-GameStagesUtil.stageHardmode.addOreReplacement(<netherex:amethyst_ore>, <minecraft:netherrack>, false);
 GameStagesUtil.stageHardmode.addOreReplacement(<ore:oreCryonium>, <minecraft:stone>, false);
 GameStagesUtil.stageHardmode.addOreReplacement(<ore:oreTitanium>, <minecraft:end_stone>, false);
 GameStagesUtil.stageHardmode.addOreReplacement(<taiga:abyssum_ore:*>, <minecraft:end_stone>, false);
