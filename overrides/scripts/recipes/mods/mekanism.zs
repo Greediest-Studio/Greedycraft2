@@ -63,5 +63,4 @@ mods.mekanism.chemical.infuser.addRecipe(<gas:oxygen>, <gas:carbonoxide> * 2, <g
 mods.mekanism.chemical.infuser.addRecipe(<gas:hydrogenchloride> * 1, <gas:water> * 1, <gas:hydrochloricacid> * 1);
 mods.mekanism.chemical.infuser.addRecipe(<gas:nitrogenoxide> * 2, <gas:oxygen> * 1, <gas:nitrogendioxide> * 2);
 mods.mekanism.chemical.infuser.addRecipe(<gas:hydrogen> * 3, <gas:nitrogen>, <gas:ammonia> * 2);
-mods.mekanism.chemical.infuser.addRecipe(<gas:hydrogenfluoride> * 1, <gas:water> * 1, <gas:hydrofluoricacid> * 1);
 mods.mekanism.chemical.infuser.addRecipe(<gas:hydrogen> * 1, <gas:fluorine> * 1, <gas:hydrogenfluoride> * 2);

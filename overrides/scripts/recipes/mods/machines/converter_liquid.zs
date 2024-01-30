@@ -35,7 +35,6 @@ val converterRecipes as ILiquidStack[][] = [
     [<liquid:sulfuric_acid> * 100, <liquid:sulfuricacid> * 100],
     [<liquid:fluid_quicksilver> * 125, <liquid:mercury> * 144],
     [<liquid:coal> * 400, <liquid:carbon> * 144],
-    [<liquid:hydrofluoric_acid> * 100, <liquid:liquidhydrofluoricacid> * 100],
 ];
 
 for row in converterRecipes {
