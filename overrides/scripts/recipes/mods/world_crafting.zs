@@ -36,6 +36,6 @@ FluidToItem.transform(<additions:greedycraft-pruified_matter>, <liquid:unshapabl
 FluidToItem.transform(<moretcon:repitem:5> * 3, <liquid:fierymetal> * 1000, [<twilightforest:steeleaf_ingot> * 4, <twilightforest:ironwood_raw> * 6, <twilightforest:knightmetal_ingot> * 2], true);
 FluidToItem.transform(<moretcon:repitem:2> * 3, <liquid:endacid> * 1000, [<endreborn:item_ingot_endorium> * 6, <moretcon:gemenderal> * 5, <tiths:ender_crevice_shard> * 5, <gct_mobs:resonated_scrap>], true);
 FluidToItem.transform(<moretcon:repitem:4> * 3, <liquid:liquidgoldenamber> * 1000, [<aether_legacy:aether_log> * 16, <aether_legacy:golden_amber> * 4, <additions:asgardium_ingot> * 2, <extrabotany:material:8> * 2], true);
-FluidToItem.transform(<moretcon:repitem:3> * 3, <liquid:darkest> * 1000, [<abyssalcraft:shadowgem> * 8, <voidcraft:voidcrystal> * 16, <gct_ores:stormy_witherium_ingot> * 3, <additions:shadowium_ingot> * 4], true);
+FluidToItem.transform(<moretcon:repitem:3> * 3, <liquid:darkest> * 1000, [<abyssalcraft:shadowgem> * 8, <gct_ores:stormy_witherium_ingot> * 3, <additions:shadowium_ingot> * 4], true);
 
 ExplosionCrafting.explodeBlockRecipe(<moretcon:oreenderal>, <biomesoplenty:crystal>, 10);
