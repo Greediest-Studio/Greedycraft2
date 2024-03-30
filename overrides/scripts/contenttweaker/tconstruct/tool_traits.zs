@@ -293,7 +293,7 @@ sacrificialTrait.calcDamage = function(trait, tool, attacker, target, originalDa
         var source as IDamageSource = crafttweaker.damage.IDamageSource.OUT_OF_WORLD();
         source.setDamageIsAbsolute();
         attacker.attackEntityFrom(source, sacrifice);
-        return newDamage + sacrifice * 3 as float; 
+        return newDamage + sacrifice * 3 as float;
     }
     return newDamage;
 };
@@ -1145,7 +1145,11 @@ active_sourceTrait.localizedDescription = game.localize("greedycraft.tconstruct.
 active_sourceTrait.onUpdate = function(thisTrait, tool, world, entity, itemSlot, isSelected) {
     if (entity instanceof IPlayer) {
         val player as IPlayer = entity;
-        player.addRadiation(0.00000012d * 1 as double, true);
+        var slowdown as float = 1.0f;
+        if (CotTicTraitLib.hasTicTrait(tool, "slowdown")) {
+            slowdown = 0.5f;
+        }
+        player.addRadiation(0.00000012d * 1 * slowdown as double, true);
     }
 };
 active_sourceTrait.register();
@@ -1156,7 +1160,11 @@ active_source2Trait.localizedDescription = game.localize("greedycraft.tconstruct
 active_source2Trait.onUpdate = function(thisTrait, tool, world, entity, itemSlot, isSelected) {
     if (entity instanceof IPlayer) {
         val player as IPlayer = entity;
-        player.addRadiation(0.00000012d * 20 as double, true);
+        var slowdown as float = 1.0f;
+        if (CotTicTraitLib.hasTicTrait(tool, "slowdown")) {
+            slowdown = 0.5f;
+        }
+        player.addRadiation(0.00000012d * 20 * slowdown as double, true);
     }
 };
 active_source2Trait.register();
@@ -1167,7 +1175,11 @@ active_source3Trait.localizedDescription = game.localize("greedycraft.tconstruct
 active_source3Trait.onUpdate = function(thisTrait, tool, world, entity, itemSlot, isSelected) {
     if (entity instanceof IPlayer) {
         val player as IPlayer = entity;
-        player.addRadiation(0.00000012d * 400 as double, true);
+        var slowdown as float = 1.0f;
+        if (CotTicTraitLib.hasTicTrait(tool, "slowdown")) {
+            slowdown = 0.5f;
+        }
+        player.addRadiation(0.00000012d * 400 * slowdown as double, true);
     }
 };
 active_source3Trait.register();
@@ -1178,7 +1190,11 @@ active_source4Trait.localizedDescription = game.localize("greedycraft.tconstruct
 active_source4Trait.onUpdate = function(thisTrait, tool, world, entity, itemSlot, isSelected) {
     if (entity instanceof IPlayer) {
         val player as IPlayer = entity;
-        player.addRadiation(0.00000012d * 8000 as double, true);
+        var slowdown as float = 1.0f;
+        if (CotTicTraitLib.hasTicTrait(tool, "slowdown")) {
+            slowdown = 0.5f;
+        }
+        player.addRadiation(0.00000012d * 8000 * slowdown as double, true);
     }
 };
 active_source4Trait.register();
@@ -1189,7 +1205,11 @@ active_source5Trait.localizedDescription = game.localize("greedycraft.tconstruct
 active_source5Trait.onUpdate = function(thisTrait, tool, world, entity, itemSlot, isSelected) {
     if (entity instanceof IPlayer) {
         val player as IPlayer = entity;
-        player.addRadiation(0.00000012d * 160000 as double, true);
+        var slowdown as float = 1.0f;
+        if (CotTicTraitLib.hasTicTrait(tool, "slowdown")) {
+            slowdown = 0.5f;
+        }
+        player.addRadiation(0.00000012d * 160000 * slowdown as double, true);
     }
 };
 active_source5Trait.register();
@@ -1200,7 +1220,11 @@ active_source6Trait.localizedDescription = game.localize("greedycraft.tconstruct
 active_source6Trait.onUpdate = function(thisTrait, tool, world, entity, itemSlot, isSelected) {
     if (entity instanceof IPlayer) {
         val player as IPlayer = entity;
-        player.addRadiation(0.00000012d * 3200000 as double, true);
+        var slowdown as float = 1.0f;
+        if (CotTicTraitLib.hasTicTrait(tool, "slowdown")) {
+            slowdown = 0.5f;
+        }
+        player.addRadiation(0.00000012d * 3200000 * slowdown as double, true);
     }
 };
 active_source6Trait.register();
@@ -1579,7 +1603,7 @@ cutdownTrait.afterHit = function(trait, tool, attacker, target, damageDealt, was
     }
 };
 cutdownTrait.register();
-
+/*
 val choice_of_godsTrait = TraitBuilder.create("choice_of_gods");
 choice_of_godsTrait.color = Color.fromHex("ffffff").getIntColor(); 
 choice_of_godsTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.choice_of_godsTrait.name");
@@ -1593,7 +1617,7 @@ choice_of_godsTrait.getMiningSpeed = function(thisTrait, tool, event) {
     }
 };
 choice_of_godsTrait.register();
-
+*/
 val weatherturnTrait = TraitBuilder.create("weatherturn");
 weatherturnTrait.color = Color.fromHex("ffffff").getIntColor(); 
 weatherturnTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.weatherturnTrait.name");
@@ -1641,7 +1665,7 @@ relifeTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_tr
 relifeTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     val player as IPlayer = attacker;
     val entity as IEntityMob = target;
-    if(player.health < player.health * 0.15f){
+    if(player.health < 15){
         player.addPotionEffect(<potion:minecraft:fire_resistance>.makePotionEffect(20, 0, false, false));
         entity.setFire(10);
         if(entity.isBurning){
@@ -1888,7 +1912,7 @@ thadTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, n
                         break;
                     }
                 }
-                multiplier = counter / 2; 
+                multiplier = counter / 2;
             }
         }
         if (tool.definition.id == "tconstruct:shuriken") {
@@ -2607,16 +2631,26 @@ levitatedTrait.calcDamage = function(trait, tool, attacker, target, originalDama
 levitatedTrait.register();
 
 val amaratsuTrait = TraitBuilder.create("amaratsu");
-amaratsuTrait.color = Color.fromHex("ffffff").getIntColor(); 
+amaratsuTrait.color = Color.fromHex("ffffff").getIntColor();
 amaratsuTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.amaratsuTrait.name");
 amaratsuTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.amaratsuTrait.desc");
 amaratsuTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer) {
         var player as IPlayer = attacker;
-        var mtp as int = ((attacker.world.time + 6000 as long) % 24000 as long) as int;
-        if (Math.abs(mtp - 12000) < 5000) {
-            return newDamage * ((5000.0f - Math.abs(mtp as float - 12000.0f) / 20000.0f) + 1.0f) as float;
-        }
+            var time = player.world.getProvider().worldTime % 24000 as long;
+            if(time == 6000){
+                return newDamage * 3;
+            }else if(time>=5000 && time < 6000 || time >= 6000 && time < 7000){
+                return newDamage * 2.5;
+            }else if(time >= 7000 && time < 8000 || time >= 4000 && time < 5000){
+                return newDamage * 2;
+            }else if(time >= 8000 && time < 9000 || time >= 3000 && time < 4000){
+                return newDamage * 1.5;
+            }else if(time >= 9000 && time < 10000 || time >= 2000 && time < 3000){
+                return newDamage;
+            }else if(time >= 10000 && time < 11000 || time >= 1000 && time < 2000){
+                return newDamage * 0.5;;
+            }
     }
     return newDamage;
 };
@@ -3073,3 +3107,9 @@ maze_breakerTrait.onBlockHarvestDrops = function(thisTrait, tool, event) {
     }
 };
 maze_breakerTrait.register();
+
+val slowdownTrait = TraitBuilder.create("slowdown");
+slowdownTrait.color = Color.fromHex("ffffff").getIntColor(); 
+slowdownTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.slowdownTrait.name");
+slowdownTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.slowdownTrait.desc");
+slowdownTrait.register();
