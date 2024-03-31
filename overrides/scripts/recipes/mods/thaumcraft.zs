@@ -16,14 +16,6 @@ import mods.thaumcraft.ArcaneWorkbench;
 import mods.thaumcraft.Crucible;
 
 var removedRecipes as IItemStack[] = [
-    <thaumadditions:adaminite_hood>,
-    <thaumadditions:adaminite_robe>,
-    <thaumadditions:adaminite_belt>,
-    <thaumadditions:adaminite_boots>,
-    <thaumadditions:mithminite_hood>,
-    <thaumadditions:mithminite_robe>,
-    <thaumadditions:mithminite_belt>,
-    <thaumadditions:mithminite_boots>,
     <thaumcraft:fortress_helm>,
     <thaumcraft:fortress_chest>,
     <thaumcraft:fortress_legs>,
@@ -34,7 +26,6 @@ var removedRecipes as IItemStack[] = [
     <thaumadditions:mithminite_scythe>,
     <thaumadditions:mithminite_blade>,
     <thaumadditions:mithminite_handle>,
-    <thaumadditions:mithminite_fabric>,
     <thaumadditions:entity_summoner>,
     <thaumadditions:dna_sample>
 ];
@@ -43,6 +34,13 @@ for removedItem in removedRecipes {
     Infusion.removeRecipe(removedItem);
     ArcaneWorkbench.removeRecipe(removedItem);
 }
+
+mods.thaumcraft.Crucible.registerRecipe("salis_mundus",
+"",
+<thaumcraft:salis_mundus>*2,
+<thaumcraft:salis_mundus>,
+[<aspect:praecantatio>*3,<aspect:auram>*3]);
+
 
 Infusion.removeRecipe(<thaumicaugmentation:thaumostatic_harness>);
 Infusion.removeRecipe(<thaumadditions:mithminite_ingot>);
@@ -157,18 +155,18 @@ Infusion.registerRecipe("extended_primordial_metal_ingot", "", <additions:greedy
 ]);
 
 Infusion.registerRecipe("cursium_ingot", "", <additions:greedycraft-cursium_ingot>, 30, [
-    <aspect:alkimia> * 2000,
-    <aspect:alienis> * 2000,
-    <aspect:auram> * 2000,
-    <aspect:aversio> * 2000,
-    <aspect:cognitio> * 2000,
-    <aspect:desiderium> * 2000,
-    <aspect:fabrico> * 2000,
-    <aspect:humanus> * 2000,
-    <aspect:machina> * 2000,
-    <aspect:praemunio> * 2000,
-    <aspect:sensus> * 2000,
-    <aspect:vitium> * 2000
+    <aspect:alkimia> * 750,
+    <aspect:alienis> * 750,
+    <aspect:auram> * 750,
+    <aspect:aversio> * 750,
+    <aspect:cognitio> * 750,
+    <aspect:desiderium> * 750,
+    <aspect:fabrico> * 750,
+    <aspect:humanus> * 750,
+    <aspect:machina> * 750,
+    <aspect:praemunio> * 750,
+    <aspect:sensus> * 750,
+    <aspect:vitium> * 750
 ], <gct_ores:balanced_matrix_ingot>, [
     <additions:greedycraft-impetusite_ingot>,
     <additions:greedycraft-impetusite_ingot>,
