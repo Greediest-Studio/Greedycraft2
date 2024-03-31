@@ -1,0 +1,33 @@
+{
+	title: "§b前期神器，真的，不骗你",
+	x: 3.0d,
+	y: 15.0d,
+	description: "获得幸运马蹄",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "6aead106",
+		type: "item",
+		items: [{
+			item: "bountifulbaubles:trinketluckyhorseshoe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "86c73c75",
+		type: "item",
+		item: "tconstruct:slime_boots"
+	},
+	{
+		uid: "04bb3d05",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "3e1c6d6e",
+		type: "xp",
+		xp: 800
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "§b嗡嗡蜂群",
+	x: -9.0d,
+	y: 1.5d,
+	description: "获得蜜蜂蜂窝",
+	text: [
+		""
+	],
+	dependencies: [
+		"bebee385"
+	],
+	tasks: [{
+		uid: "c90fcc0c",
+		type: "item",
+		items: [{
+			item: "forestry:bee_combs"
+		}]
+	}],
+	rewards: [{
+		uid: "6abfa95d",
+		type: "item",
+		item: "forestry:bee_combs",
+		count: 16
+	},
+	{
+		uid: "d414104a",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "2c16571a",
+		type: "loot",
+		table: 1
+	}]
+}

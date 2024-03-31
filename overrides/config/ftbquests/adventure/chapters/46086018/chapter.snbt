@@ -1,0 +1,18 @@
+{
+	title: "【冒险·贰】保持耐心",
+	icon: "additions:durasteel_ingot",
+	always_invisible: false,
+	group: 689139086,
+	default_quest_shape: "",
+	images: [{
+		x: -6.5d,
+		y: -2.5d,
+		width: 10.5d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/adv2.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

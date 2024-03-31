@@ -1,0 +1,16 @@
+{
+	title: "§4暂不支持",
+	icon: "minecraft:barrier",
+	x: -2.125d,
+	y: -0.625d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "b6245f0a",
+		type: "checkmark",
+		title: "§a点击以切换为休闲模式"
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "§b充分洗涤",
+	x: -10.5d,
+	y: -3.0d,
+	description: "获得浸渍框架",
+	text: [
+		""
+	],
+	dependencies: [
+		"22251fc9"
+	],
+	tasks: [{
+		uid: "1f70cc6e",
+		type: "item",
+		items: [{
+			item: "forestry:frame_impregnated"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c5e401d7",
+		type: "item",
+		item: "forestry:frame_impregnated"
+	},
+	{
+		uid: "1c28cb5a",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "017899cf",
+		type: "loot",
+		table: 1
+	}]
+}

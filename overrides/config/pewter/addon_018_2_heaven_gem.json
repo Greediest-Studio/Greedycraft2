@@ -1,0 +1,88 @@
+{
+  "name": "heaven_gem",
+  "tool": {
+    "head": {
+      "attackDamage": 41,
+      "speed": 18,
+      "durability": 2460,
+      "harvestLevel": 11
+    },
+    "handle": {
+      "modifier": 1.8,
+      "durability": 500
+    },
+    "extra": {
+      "durability": 425
+    },
+    "bow": {
+      "speed": 1.6,
+      "range": 1.9,
+      "bonusDamage": 16
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 200,
+      "defense": 75
+    },
+    "plates": {
+      "modifier": 7,
+      "durability": 164,
+      "toughness": 11.2
+    },
+    "trim": {
+      "extraDurability": 155
+    }
+  },
+  "color": "#703ddb",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 0,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Heaven Gem",
+    "zh_cn": "深空宝石"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:taigaddon-heaven_gem"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["time_turn", "air_control"],
+    "HANDLE": ["time_turn", "air_control"],
+    "EXTRA": ["time_turn", "air_control"],
+    "BOW": ["time_turn", "air_control"],
+    "CORE": ["time_turn_armor", "tconevo.gale_force1_armor"],
+    "PLATES": ["time_turn_armor", "tconevo.gale_force1_armor"],
+    "TRIM": ["time_turn_armor", "tconevo.gale_force1_armor"]
+  }
+}

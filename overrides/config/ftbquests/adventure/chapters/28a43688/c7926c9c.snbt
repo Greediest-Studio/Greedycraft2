@@ -1,0 +1,16 @@
+{
+	title: "定位任务",
+	x: 5.5d,
+	y: 49.5d,
+	text: [
+		""
+	],
+	can_repeat: true,
+	tasks: [{
+		uid: "a86013bd",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}]
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	title: "§b把它们都打成粉！",
+	x: -23.5d,
+	y: -16.0d,
+	description: "制作磨粉机",
+	text: [
+		""
+	],
+	dependencies: [
+		"56ae2c57"
+	],
+	tasks: [{
+		uid: "b255818f",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 1s,
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d15b4d50",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "8e878e47",
+		type: "xp",
+		xp: 450
+	}]
+}

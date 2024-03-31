@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "钌矿石",
+    "tooltip": "§7朦胧世界的一种罕见矿石",
+    "ore_dict": "oreRuthenium",
+    "type": "additions:block_simple"
+  },
+  "name": "钌矿石",
+  "material": "minecraft:stone",
+  "hardness": 30.0,
+  "resistance": 4000.0,
+  "harvest_level": 10,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

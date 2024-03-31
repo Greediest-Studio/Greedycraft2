@@ -1,0 +1,147 @@
+{
+    "name": "refined_twilight_gem",
+    "tool": {
+      "bow": {
+        "speed": 2.0,
+        "range": 1.4,
+        "bonusDamage": 12
+      },
+      "fletching": {
+        "accuracy": 0.5,
+        "modifier": 0.0
+      },
+      "head": {
+        "attackDamage": 11,
+        "speed": 10,
+        "durability": 1400,
+        "harvestLevel": 4
+      },
+      "handle": {
+        "modifier": 1.3,
+        "durability": 350
+      },
+      "arrowShaft": {
+        "modifier": 1.1,
+        "bonusAmmo": 5
+      },
+      "bowstring": {
+        "modifier": 1.1
+      },
+      "extra": {
+        "durability": 200
+      }
+    },
+    "color": "#b804a0",
+    "craftable": true,
+    "madeInToolForge": false,
+    "createMeltingRecipes": false,
+    "meltingTemperature": 600,
+    "looks": {
+      "shininess": 0.3,
+      "brightness": 0.1,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "PROJECTILE",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Refined Twilight Gem",
+      "zh_cn": "强化暮光宝石"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "additions:twilightaddon-refined_twilight_gem"
+      ],
+      "block": [
+      ],
+      "nugget": [
+      ],
+      "ore": [
+      ],
+      "dust": [
+      ],
+      "plate": [
+      ],
+      "gear": [
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "durability": 28,
+        "defense": 22
+      },
+      "plates": {
+        "modifier": 2,
+        "durability": 24,
+        "toughness": 3.5
+      },
+      "trim": {
+        "extraDurability": 20
+      }
+    },
+    "specificTraits": {
+      "EXTRA": [
+        "twilit",
+        "tconevo.mana_infused",
+        "insatiable"
+      ],
+      "HEAD": [
+        "twilit",
+        "crystal_force",
+        "insatiable"
+      ],
+      "HANDLE": [
+        "twilit",
+        "tconevo.mana_infused",
+        "insatiable"
+      ],
+      "BOW": [
+        "twilit",
+        "crystal_force",
+        "insatiable"
+      ],
+      "PROJECTILE": [
+        "twilit",
+        "tconevo.mana_infused",
+        "insatiable"
+      ],
+      "CORE": [
+        "lucky_armor",
+        "crystal_force_armor",
+        "vengeful_armor"
+      ],
+      "PLATES": [
+        "lucky_armor",
+        "tconevo.mana_infused_armor",
+        "vengeful_armor"
+      ],
+      "TRIM": [
+        "lucky_armor",
+        "tconevo.mana_infused_armor",
+        "vengeful_armor"
+      ]
+    }
+  }

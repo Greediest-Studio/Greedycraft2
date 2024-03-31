@@ -1,0 +1,39 @@
+{
+	title: "§bmek的开端",
+	x: -6.5d,
+	y: -2.0d,
+	description: "制作一个冶金灌注机",
+	text: [
+		"当你做出这台机器的时候，恭喜你解锁更多的mek机器"
+	],
+	dependencies: [
+		"6a87ef7f",
+		"5e3cee1d",
+		"b85fdb21"
+	],
+	tasks: [{
+		uid: "9b34a8ff",
+		type: "item",
+		title: "mek的开端",
+		items: [{
+			item: "mekanism:machineblock 1 8"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0d5e276a",
+		type: "item",
+		item: "mekanism:ingot 1 1",
+		count: 32
+	},
+	{
+		uid: "a9cba4ad",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "9a45cb0b",
+		type: "loot",
+		table: 0
+	}]
+}

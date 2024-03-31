@@ -1,0 +1,65 @@
+{
+	title: "§b八位一体",
+	x: 3.0d,
+	y: 16.5d,
+	description: "提交八种热力元素液各一桶",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "bd885d42",
+		type: "fluid",
+		fluid: "pyrotheum"
+	},
+	{
+		uid: "507d1049",
+		type: "fluid",
+		fluid: "cryotheum"
+	},
+	{
+		uid: "7b8e7acd",
+		type: "fluid",
+		fluid: "aerotheum"
+	},
+	{
+		uid: "c79956e2",
+		type: "fluid",
+		fluid: "petrotheum"
+	},
+	{
+		uid: "144812c1",
+		type: "fluid",
+		fluid: "lumixeium"
+	},
+	{
+		uid: "b2d7e6e2",
+		type: "fluid",
+		fluid: "noxexeum"
+	},
+	{
+		uid: "ca954d6b",
+		type: "fluid",
+		fluid: "tonitruium"
+	},
+	{
+		uid: "07cfcde8",
+		type: "fluid",
+		fluid: "naturaeum"
+	}],
+	rewards: [{
+		uid: "c7d55f5b",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "6aa7cc81",
+		type: "item",
+		item: "tconevo:material",
+		count: 4
+	},
+	{
+		uid: "cc1da0d0",
+		type: "xp",
+		xp: 1500
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "【科技·壹】初始科技",
+	icon: "redstonearsenal:material 1 32",
+	always_invisible: false,
+	group: -647796496,
+	default_quest_shape: "",
+	images: [{
+		x: -11.5d,
+		y: -32.5d,
+		width: 10.5d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/tec1.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

@@ -1,0 +1,20 @@
+{
+  "item_block": {
+    "name": "§d鸟嘌呤晶矿石",
+    "ore_dict": "oreGuaninite",
+    "type": "additions:block_simple"
+  },
+  "name": "§d鸟嘌呤晶矿石",
+  "material": "minecraft:stone",
+  "place_sound": "minecraft:block.sand.place",
+  "break_sound": "minecraft:block.sand.break",
+  "hit_sound": "minecraft:block.sand.hit",
+  "step_sound": "minecraft:block.sand.step",
+  "fall_sound": "minecraft:block.sand.fall",
+  "hardness": 8.0,
+  "resistance": 2000.0,
+  "harvest_level": 6,
+  "harvest_tool": "shovel",
+  "light_level": 1,
+  "type": "additions:simple"
+}

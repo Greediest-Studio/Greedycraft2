@@ -1,0 +1,124 @@
+{
+    "name": "darkest",
+    "tool": {
+      "head": {
+        "attackDamage": 65.4,
+        "speed": 20.9,
+        "durability": 3450,
+        "harvestLevel": 10
+      },
+      "handle": {
+        "modifier": 1.62,
+        "durability": 1400
+      },
+      "extra": {
+        "durability": 1400
+      },
+      "bow": {
+        "speed": 4,
+        "range": 0.9,
+        "bonusDamage": 106
+      }
+    },
+    "color": "#000000",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 1540,
+    "looks": {
+      "shininess": 0.8,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Darkest",
+      "zh_cn": "至暗"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "additions:bloody-darkest_ingot"
+      ],
+      "block": [
+      ],
+      "nugget": [
+      ],
+      "ore": [
+      ],
+      "dust": [
+      ],
+      "plate": [
+      ],
+      "gear": [
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "defense": 70,
+        "durability": 1106
+      },
+      "plates": {
+        "toughness": 6.4,
+        "modifier": 6.4,
+        "durability": 725
+      },
+      "trim": {
+        "extraDurability": 684
+      }
+    },
+    "specificTraits": {
+      "HEAD": [
+        "gamble2",
+        "dark"
+      ],
+      "HANDLE": [
+        "gamble",
+        "dark"
+      ],
+      "EXTRA": [
+        "gamble",
+        "dark"
+      ],
+      "BOW": [
+        "gamble2",
+        "dark"
+      ],
+      "CORE": [
+        "tconevo.warping_armor",
+        "invigorating_armor"
+      ],
+      "PLATES": [
+        "tconevo.warping_armor",
+        "invigorating_armor"
+      ],
+      "TRIM": [
+        "tconevo.warping_armor",
+        "invigorating_armor"
+      ]
+    }
+}
+  

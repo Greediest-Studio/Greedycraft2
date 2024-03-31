@@ -1,0 +1,50 @@
+{
+	title: "§b世界底端",
+	x: -16.0d,
+	y: 9.5d,
+	description: "到达世界底层",
+	text: [
+		""
+	],
+	dependencies: [
+		"c30665c8"
+	],
+	tasks: [{
+		uid: "d774b0c6",
+		type: "observation",
+		icon: "minecraft:bedrock",
+		match_type: "block_id",
+		match: "minecraft:bedrock",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "8d78ea47",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "e4198ca2",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "a0acafb0",
+		type: "xp",
+		xp: 60
+	},
+	{
+		uid: "239d278d",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "cofhcore:haste4"
+			}
+		}
+	},
+	{
+		uid: "dfb3112c",
+		type: "item",
+		item: "minecraft:iron_pickaxe"
+	}]
+}

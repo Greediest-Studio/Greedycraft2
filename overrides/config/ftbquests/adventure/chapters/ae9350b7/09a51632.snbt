@@ -1,0 +1,52 @@
+{
+	title: "§b谁还用原版的迷宫破坏者啊！",
+	x: 1.5d,
+	y: 21.0d,
+	description: "熔化迷宫破坏者，进而得到解构金属",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "bae251db",
+		type: "item",
+		items: [{
+			item: "additions:link-fracturite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "1b272bac",
+		type: "item",
+		item: {
+			id: "twilightforest:mazebreaker_pickaxe",
+			tag: {
+				ench: [{
+					id: 32,
+					lvl: 4s
+				},
+				{
+					id: 34,
+					lvl: 3s
+				},
+				{
+					id: 35,
+					lvl: 2s
+				}]
+			}
+		}
+	},
+	{
+		uid: "66815654",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "49752b48",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "9c1f5e3f",
+		type: "item",
+		item: "additions:link-fracturite_ingot"
+	}]
+}

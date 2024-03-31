@@ -1,0 +1,39 @@
+{
+	title: "§b天空才是开始",
+	x: 6.0d,
+	y: 9.0d,
+	description: "获得鞘翅",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "75a2409a",
+		type: "item",
+		items: [{
+			item: "minecraft:elytra"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "76556f02",
+		type: "item",
+		item: "minecraft:shulker_shell",
+		count: 10
+	},
+	{
+		uid: "ff7c3477",
+		type: "item",
+		item: "minecraft:elytra"
+	},
+	{
+		uid: "3d43d0b1",
+		type: "xp",
+		xp: 6000
+	},
+	{
+		uid: "b9d1577f",
+		type: "random",
+		table: 2
+	}]
+}

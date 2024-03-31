@@ -1,0 +1,37 @@
+{
+	title: "§b最密堆积问题",
+	x: 12.0d,
+	y: 21.0d,
+	description: "合成压缩空间制作器",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "0e914f9a",
+		type: "item",
+		items: [{
+			item: "compactmachines3:fieldprojector"
+		}]
+	}],
+	rewards: [{
+		uid: "4fc4254f",
+		type: "item",
+		item: "compactmachines3:wallbreakable",
+		count: 64
+	},
+	{
+		uid: "2cf1467c",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "ce4e3459",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "00b4a778",
+		type: "random",
+		table: 1
+	}]
+}

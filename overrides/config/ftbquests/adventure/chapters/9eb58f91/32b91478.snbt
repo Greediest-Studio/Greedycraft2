@@ -1,0 +1,35 @@
+{
+	title: "§b自动化的开始",
+	x: -15.5d,
+	y: 6.0d,
+	description: "制作空白样板",
+	text: [
+		"在样板终端内标记合成表放入与分子装配室相邻的ME接口即可自动合成"
+	],
+	dependencies: [
+		"663562f7"
+	],
+	tasks: [{
+		uid: "b1ef2bba",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 52"
+		}]
+	}],
+	rewards: [{
+		uid: "5efa79c5",
+		type: "item",
+		item: "appliedenergistics2:material 1 52",
+		count: 8
+	},
+	{
+		uid: "9184e9bf",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "ea26056c",
+		type: "random",
+		table: 1
+	}]
+}

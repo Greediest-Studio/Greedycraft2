@@ -1,0 +1,130 @@
+{
+  "name": "husturite",
+  "tool": {
+    "head": {
+      "attackDamage": 55,
+      "speed": 19.5,
+      "durability": 6000,
+      "harvestLevel": 11
+    },
+    "handle": {
+      "modifier": 3.1,
+      "durability": 2750
+    },
+    "extra": {
+        "durability": 2550
+    },
+    "bow": {
+        "speed": 1.4,
+        "range": 2,
+        "bonusDamage": 41
+    }
+  },
+  "color": "#de980d",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1670,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Husturite",
+    "zh_cn": "哈斯塔"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:taigaddon-husturite_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 49.8,
+      "durability": 245
+    },
+    "plates": {
+      "toughness": 5.9,
+      "modifier": 8.9,
+      "durability": 106
+    },
+    "trim": {
+      "extraDurability": 100
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "demon_hunter",
+      "whirl",
+      "sweep"
+    ],
+    "HANDLE": [
+      "demon_hunter",
+      "global",
+      "sweep"
+    ],
+    "EXTRA": [
+      "demon_hunter",
+      "global",
+      "sweep"
+    ],
+    "BOW": [
+      "demon_hunter",
+      "whirl",
+      "sweep"
+    ],
+    "CORE": [
+      "permanent_antibody_armor",
+      "windy_armor",
+      "lightweight_armor"
+    ],
+    "PLATES": [
+      "permanent_antibody_armor",
+      "windy_armor",
+      "lightweight_armor"
+    ],
+    "TRIM": [
+      "permanent_antibody_armor",
+      "windy_armor",
+      "lightweight_armor"
+    ]
+  }
+}

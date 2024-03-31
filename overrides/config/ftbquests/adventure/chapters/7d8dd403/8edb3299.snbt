@@ -1,0 +1,35 @@
+{
+	title: "§b五合一",
+	x: 3.0d,
+	y: 13.5d,
+	description: "使用五种暮光维度的金属合金为暮光结晶锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"9fc01909"
+	],
+	tasks: [{
+		uid: "27f91b8c",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-twilight_crystal_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "ae7ad1fc",
+		type: "item",
+		item: "additions:greedycraft-twilight_crystal_ingot",
+		count: 16
+	},
+	{
+		uid: "66b7b5ec",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "33797fa4",
+		type: "xp",
+		xp: 4000
+	}]
+}

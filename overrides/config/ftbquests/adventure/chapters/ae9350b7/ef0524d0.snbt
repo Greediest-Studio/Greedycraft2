@@ -1,0 +1,35 @@
+{
+	title: "§b深切悼念",
+	x: 1.5d,
+	y: 4.5d,
+	description: "使用悲伤人偶召唤并击杀悼亡者，获得忏悔精华",
+	text: [
+		""
+	],
+	dependencies: [
+		"5e5d38e6"
+	],
+	tasks: [{
+		uid: "6d264d62",
+		type: "item",
+		items: [{
+			item: "defiledlands:essence_mourner"
+		}]
+	}],
+	rewards: [{
+		uid: "0e30f0f9",
+		type: "xp",
+		xp: 2300
+	},
+	{
+		uid: "813e6467",
+		type: "item",
+		item: "defiledlands:ravaging_ingot",
+		count: 10
+	},
+	{
+		uid: "12a9c492",
+		type: "random",
+		table: 2
+	}]
+}

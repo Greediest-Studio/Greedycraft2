@@ -1,0 +1,35 @@
+{
+	title: "§b暮色盾牌",
+	icon: "additions:greedycraft-twilight_shield",
+	x: -6.0d,
+	y: 7.5d,
+	description: "制作暮色之庇护，解锁下界阶段！",
+	text: [
+		""
+	],
+	dependencies: [
+		"132f819d"
+	],
+	tasks: [{
+		uid: "42730d99",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-twilight_shield"
+		}]
+	},
+	{
+		uid: "1a80d0e1",
+		type: "gamestage",
+		stage: "twilight_shield"
+	}],
+	rewards: [{
+		uid: "e9eee206",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "d6e3ae4c",
+		type: "random",
+		table: 1
+	}]
+}

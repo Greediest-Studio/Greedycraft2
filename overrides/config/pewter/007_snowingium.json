@@ -1,0 +1,148 @@
+{
+    "name": "snowingium",
+    "tool": {
+      "bow": {
+        "speed": 1.2,
+        "range": 0.9,
+        "bonusDamage": 9.5
+      },
+      "fletching": {
+        "accuracy": 0.5,
+        "modifier": 0.0
+      },
+      "head": {
+        "attackDamage": 17.3,
+        "speed": 15.25,
+        "durability": 7240,
+        "harvestLevel": 8
+      },
+      "handle": {
+        "modifier": 1.6,
+        "durability": 900
+      },
+      "arrowShaft": {
+        "modifier": 1.1,
+        "bonusAmmo": 5
+      },
+      "bowstring": {
+        "modifier": 1.1
+      },
+      "extra": {
+        "durability": 835
+      }
+    },
+    "color": "#FFFFFF",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 360,
+    "looks": {
+      "shininess": 0.6,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "PROJECTILE",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Snowingium",
+      "zh_cn": "碎雪"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "additions:greedycraft-snowingium_ingot"
+      ],
+      "block": [
+        "additions:greedycraft-snowingium_block"
+      ],
+      "nugget": [
+        "gct_ores:snowingium_nugget"
+      ],
+      "ore": [
+        "additions:greedycraft-snowingium_ore"
+      ],
+      "dust": [
+        "jaopca:item_dustsnowingium"
+      ],
+      "plate": [
+        "jaopca:item_platesnowingium"
+      ],
+      "gear": [
+        "jaopca:item_gearsnowingium"
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "durability": 320,
+        "defense": 50
+      },
+      "plates": {
+        "modifier": 5.2,
+        "durability": 71,
+        "toughness": 5
+      },
+      "trim": {
+        "extraDurability": 42
+      }
+    },
+    "specificTraits": {
+      "EXTRA": [
+        "icy",
+        "dissolving"
+      ],
+      "HEAD": [
+        "icy",
+        "dissolving",
+        "momentum"
+      ],
+      "HANDLE": [
+        "icy",
+        "dissolving"
+      ],
+      "BOW": [
+        "icy",
+        "dissolving",
+        "momentum"
+      ],
+      "PROJECTILE": [
+        "icy",
+        "dissolving",
+        "momentum"
+      ],
+      "CORE": [
+        "extreme_freezing_armor",
+        "dissolving"
+      ],
+      "PLATES": [
+        "extreme_freezing_armor",
+        "dissolving"
+      ],
+      "TRIM": [
+        "extreme_freezing_armor",
+        "dissolving"
+      ]
+    }
+  }

@@ -1,0 +1,126 @@
+{
+  "name": "adamantium",
+  "tool": {
+    "head": {
+      "attackDamage": 62.8,
+      "speed": 19,
+      "durability": 200000,
+      "harvestLevel": 11
+    },
+    "handle": {
+      "modifier": 2.8,
+      "durability": 100000
+    },
+    "extra": {
+        "durability": 100000
+    },
+    "bow": {
+        "speed": 8,
+        "range": 4,
+        "bonusDamage": 50
+    }
+  },
+  "color": "#c5c5c6",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 2560,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Adamantium",
+    "zh_cn": "艾德曼合金"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:taigaddon-adamantium_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 10000,
+      "defense": 72
+    },
+    "plates": {
+      "modifier": 25,
+      "durability": 4000,
+      "toughness": 7
+    },
+    "trim": {
+      "extraDurability": 5000
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "executioner",
+      "magnetic2"
+    ],
+    "HANDLE": [
+      "magnetic2",
+      "giantslayer"
+    ],
+    "EXTRA": [
+      "magnetic2",
+      "giantslayer"
+    ],
+    "BOW": [
+      "executioner",
+      "magnetic2"
+    ],
+    "CORE": [
+      "hold_ground_armor",
+      "fortified_armor",
+      "indomitable_armor"
+    ],
+    "PLATES": [
+      "hold_ground_armor",
+      "fortified_armor",
+      "indomitable_armor"
+    ],
+    "TRIM": [
+      "hold_ground_armor",
+      "fortified_armor",
+      "indomitable_armor"
+    ]
+  }
+}

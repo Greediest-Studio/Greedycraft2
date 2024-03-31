@@ -1,0 +1,25 @@
+{
+	title: "§b充电桩",
+	x: 1.5d,
+	y: 2.5d,
+	description: "合成简易有线充能器",
+	text: [
+		""
+	],
+	dependencies: [
+		"65376d4f"
+	],
+	tasks: [{
+		uid: "6cfaf1b2",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_wired_charger"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f6bf40e4",
+		type: "xp",
+		xp: 2000
+	}]
+}

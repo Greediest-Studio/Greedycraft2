@@ -1,0 +1,33 @@
+{
+	title: "§b抓住了！",
+	x: 12.0d,
+	y: 0.0d,
+	description: "制作钻石勾爪",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "28388fe6",
+		type: "item",
+		items: [{
+			item: "hooked:hook 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f016b5cd",
+		type: "item",
+		item: "minecraft:diamond",
+		count: 4
+	},
+	{
+		uid: "5291692d",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "10f9c1cd",
+		type: "xp",
+		xp: 500
+	}]
+}

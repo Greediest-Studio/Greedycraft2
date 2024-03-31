@@ -1,0 +1,40 @@
+{
+  "recipe": {
+    "type": "forge:ore_shaped",
+    "result": {
+      "item": "gct_ores:photovoltaic_cell_vii"
+    },
+    "key": {
+      "0": {
+        "ore_name": "crystalEmeraldic",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "1": {
+        "ore_name": "ingotRefinedGlowstone",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "2": {
+        "ore_name": "blockManaDiamond",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "3": {
+        "ore_name": "netherStar",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "4": {
+        "stack_list": [
+          {
+            "item": "solarflux:photovoltaic_cell_6"
+          }
+        ],
+        "type": "additions:ingredient_ore_nbt"
+      }
+    },
+    "pattern": [
+      "000",
+      "121",
+      "343"
+    ]
+  },
+  "type": "additions:crafting_shaped"
+}

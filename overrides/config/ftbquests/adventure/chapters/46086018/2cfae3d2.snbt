@@ -1,0 +1,35 @@
+{
+	title: "§b阴影藏于心中",
+	x: 1.5d,
+	y: 4.5d,
+	description: "合成或者击杀怪物获得阴影宝石",
+	text: [
+		""
+	],
+	dependencies: [
+		"c445a7d8"
+	],
+	tasks: [{
+		uid: "a5ed6c72",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:shadowgem"
+		}]
+	}],
+	rewards: [{
+		uid: "241a70f3",
+		type: "item",
+		item: "abyssalcraft:shadowgem",
+		count: 4
+	},
+	{
+		uid: "1fe13dac",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "7e77213a",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "【休闲·壹】嗡嗡蜂群",
+	icon: "thermalfoundation:material 1 163",
+	always_invisible: false,
+	group: 787295678,
+	default_quest_shape: "",
+	images: [{
+		x: -7.5d,
+		y: -9.5d,
+		width: 10.5d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/cau1.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

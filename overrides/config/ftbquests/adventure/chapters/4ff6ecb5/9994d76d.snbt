@@ -1,0 +1,39 @@
+{
+	title: "§b什么！想要把源质存储在ae里面？",
+	x: -4.5d,
+	y: 2.0d,
+	description: "逐渐科技化",
+	dependencies: [
+		"55a56909"
+	],
+	tasks: [{
+		uid: "f999c5e2",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:essentia_import"
+		}]
+	},
+	{
+		uid: "bb524566",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:essentia_export"
+		}]
+	}],
+	rewards: [{
+		uid: "2bf45a89",
+		type: "item",
+		item: "thaumicenergistics:essentia_component_16k",
+		count: 2
+	},
+	{
+		uid: "b6b162e3",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "ae367663",
+		type: "loot",
+		table: 1
+	}]
+}

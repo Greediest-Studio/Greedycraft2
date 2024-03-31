@@ -1,0 +1,69 @@
+{
+	title: "§b给我变！！",
+	x: 10.5d,
+	y: 3.0d,
+	description: "制作变形工具",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "b7c844aa",
+		type: "item",
+		items: [{
+			item: "morphtool:tool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "73dd80df",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "a4ddc019",
+		type: "item",
+		item: "enderio:item_yeta_wrench"
+	},
+	{
+		uid: "7e2f6180",
+		type: "item",
+		item: "actuallyadditions:item_laser_wrench"
+	},
+	{
+		uid: "e29df58d",
+		type: "item",
+		item: "appliedenergistics2:certus_quartz_wrench"
+	},
+	{
+		uid: "f63effe0",
+		type: "item",
+		item: "forestry:wrench"
+	},
+	{
+		uid: "f18f7334",
+		type: "item",
+		item: {
+			id: "botania:twigwand",
+			tag: {
+				color1: 0,
+				color2: 0
+			}
+		}
+	},
+	{
+		uid: "bef6ff31",
+		type: "item",
+		item: "extrabitmanipulation:bit_wrench"
+	},
+	{
+		uid: "c402704b",
+		type: "item",
+		item: "draconicevolution:crystal_binder"
+	},
+	{
+		uid: "bf44806b",
+		type: "random",
+		table: 0
+	}]
+}

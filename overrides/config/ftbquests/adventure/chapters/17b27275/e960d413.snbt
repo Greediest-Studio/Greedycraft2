@@ -1,0 +1,37 @@
+{
+	title: "§b窃取",
+	x: -13.0d,
+	y: -2.5d,
+	description: "合成窃魂者卷轴，用于召唤扎鲁格",
+	text: [
+		"BOSS的召唤仪式：",
+		"1：四个角的窥视定位仪放置固化位能块",
+		"2：用窃魂者卷轴右键窥视祭坛"
+	],
+	dependencies: [
+		"5dd11f8c"
+	],
+	tasks: [{
+		uid: "eb402b9e",
+		type: "item",
+		items: [{
+			item: "gct_aby:soul_stealer_scroll"
+		}]
+	}],
+	rewards: [{
+		uid: "d1ae845e",
+		type: "item",
+		item: "gct_aby:solid_pot_energy",
+		count: 2
+	},
+	{
+		uid: "113ecbbc",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "11aa5216",
+		type: "xp",
+		xp: 11000
+	}]
+}

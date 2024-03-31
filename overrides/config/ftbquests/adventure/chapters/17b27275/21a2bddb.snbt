@@ -1,0 +1,79 @@
+{
+	title: "§c【可重复】 遥远呼唤",
+	x: -13.0d,
+	y: -4.5d,
+	description: "召唤并击杀扎鲁格，深渊的监视者",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"e960d413"
+	],
+	tasks: [{
+		uid: "c337db21",
+		type: "item",
+		items: [{
+			item: "gct_aby:further_soul"
+		}]
+	}],
+	rewards: [{
+		uid: "9a44d0bf",
+		type: "item",
+		item: {
+			id: "gct_mobs:azathothium_ingot",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "a9a73828",
+		type: "item",
+		item: {
+			id: "gct_mobs:nyarlathotepium_ingot",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "ebf14b75",
+		type: "item",
+		item: {
+			id: "gct_mobs:yogsothothium_ingot",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "736a3e7e",
+		type: "item",
+		item: {
+			id: "gct_mobs:shubniggurathium_ingot",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "31bd3dce",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "c7be1f22",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "171f01e7",
+		type: "xp",
+		xp: 40000
+	}]
+}

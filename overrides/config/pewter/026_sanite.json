@@ -1,0 +1,131 @@
+{
+  "name": "sanite",
+  "tool": {
+    "head": {
+      "attackDamage": 24,
+      "speed": 17.7,
+      "durability": 10000,
+      "harvestLevel": 9
+    },
+    "handle": {
+      "modifier": 2,
+      "durability": 3000
+    },
+    "extra": {
+        "durability": 2500
+    },
+    "bow": {
+        "speed": 1.2,
+        "range": 2,
+        "bonusDamage": 20.0
+    }
+  },
+  "color": "#cccccc",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 2500,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Sanite",
+    "zh_cn": "灵神钢"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "gct_mobs:sanite_ingot"
+    ],
+    "block": [
+      "gct_mobs:sanite_block"
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 495,
+      "defense": 58
+    },
+    "plates": {
+      "modifier": 10.5,
+      "durability": 300,
+      "toughness": 7
+    },
+    "trim": {
+      "extraDurability": 320
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "soul_absorb",
+      "dreadpurity",
+      "abysscalling"
+    ],
+    "HANDLE": [
+      "soul_absorb",
+      "dreadpurity",
+      "dark"
+    ],
+    "EXTRA": [
+      "soul_absorb",
+      "dreadpurity",
+      "dark"
+    ],
+    "BOW": [
+      "soul_absorb",
+      "dreadpurity",
+      "abysscalling"
+    ],
+    "CORE": [
+      "soul_absource_armor",
+      "strong_vaccine_armor",
+      "vision_armor"
+    ],
+    "PLATES": [
+      "soul_absource_armor",
+      "strong_vaccine_armor",
+      "vision_armor"
+    ],
+    "TRIM": [
+      "soul_absource_armor",
+      "strong_vaccine_armor",
+      "vision_armor"
+    ]
+  }
+}

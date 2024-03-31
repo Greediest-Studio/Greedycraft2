@@ -1,0 +1,35 @@
+{
+	x: 2.0d,
+	y: -14.5d,
+	dependencies: [
+		"0519d9cb"
+	],
+	tasks: [{
+		uid: "7748a008",
+		type: "item",
+		items: [{
+			item: "theaurorian:ceruleaningot"
+		}]
+	}],
+	rewards: [{
+		uid: "ae9457bc",
+		type: "item",
+		item: {
+			id: "theaurorian:ceruleaningot",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 24
+	},
+	{
+		uid: "9388dc6a",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "62da2cc0",
+		type: "xp",
+		xp: 1000
+	}]
+}

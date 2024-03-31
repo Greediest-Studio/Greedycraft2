@@ -1,0 +1,35 @@
+{
+	title: "§b头上长草了",
+	x: -2.5d,
+	y: 10.5d,
+	description: "合成沼泽钢锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"4c6291da"
+	],
+	tasks: [{
+		uid: "f41d9826",
+		type: "item",
+		items: [{
+			item: "moretcon:ingotswampsteel"
+		}]
+	}],
+	rewards: [{
+		uid: "d8ebcdf0",
+		type: "item",
+		item: "moretcon:ingotswampsteel",
+		count: 5
+	},
+	{
+		uid: "8e0e3761",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "a9388343",
+		type: "xp",
+		xp: 6780
+	}]
+}

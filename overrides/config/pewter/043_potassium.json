@@ -1,0 +1,137 @@
+{
+  "name": "potassium",
+  "tool": {
+    "head": {
+      "attackDamage": 13,
+      "speed": 36,
+      "durability": 50,
+      "harvestLevel": 5
+    },
+    "handle": {
+      "modifier": 0.1,
+      "durability": -140
+    },
+    "extra": {
+        "durability": 42
+    },
+    "bow": {
+        "speed": 0.3,
+        "range": 1.8,
+        "bonusDamage": 17
+    }
+  },
+  "color": "#dddddd",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 470,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Potassium",
+    "zh_cn": "钾"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:mekaddon-potassium_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 16,
+      "durability": 3.5
+    },
+    "plates": {
+      "toughness": 5,
+      "modifier": 0.08,
+      "durability": 1.8
+    },
+    "trim": {
+      "extraDurability": 1.4
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "unstable",
+      "chemical_instable",
+      "alkalinity",
+      "ia_metals"
+    ],
+    "HANDLE": [
+      "unstable",
+      "chemical_instable",
+      "alkalinity",
+      "ia_metals"
+    ],
+    "EXTRA": [
+      "unstable",
+      "chemical_instable",
+      "alkalinity",
+      "ia_metals"
+    ],
+    "BOW": [
+      "unstable",
+      "chemical_instable",
+      "alkalinity",
+      "ia_metals"
+    ],
+    "CORE": [
+      "unstable_armor",
+      "smooth_armor",
+      "invigorating_armor",
+      "ia_metals_armor"
+    ],
+    "PLATES": [
+      "unstable_armor",
+      "smooth_armor",
+      "invigorating_armor",
+      "ia_metals_armor"
+    ],
+    "TRIM": [
+      "unstable_armor",
+      "smooth_armor",
+      "invigorating_armor",
+      "ia_metals_armor"
+    ]
+  }
+}

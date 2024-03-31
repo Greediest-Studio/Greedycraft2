@@ -1,0 +1,15 @@
+{
+	x: -2.0d,
+	y: 11.0d,
+	dependencies: [
+		"3d736ff1",
+		"0d90c4f7"
+	],
+	tasks: [{
+		uid: "d278a40a",
+		type: "item",
+		items: [{
+			item: "gct_mac:stratified_precipitator"
+		}]
+	}]
+}

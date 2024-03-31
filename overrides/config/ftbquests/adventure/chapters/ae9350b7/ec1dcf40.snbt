@@ -1,0 +1,56 @@
+{
+	title: "§b完美金属",
+	x: 9.0d,
+	y: 0.0d,
+	description: "制作终极精华锭",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "48b123fc",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting 1 37"
+		}]
+	}],
+	rewards: [{
+		uid: "17be33ff",
+		type: "item",
+		item: "mysticalagriculture:crafting 1 36",
+		count: 4
+	},
+	{
+		uid: "db5fc179",
+		type: "item",
+		item: "mysticalagriculture:crafting 1 35",
+		count: 4
+	},
+	{
+		uid: "154de839",
+		type: "item",
+		item: "mysticalagriculture:crafting 1 34",
+		count: 4
+	},
+	{
+		uid: "484ac82a",
+		type: "item",
+		item: "mysticalagriculture:crafting 1 33",
+		count: 4
+	},
+	{
+		uid: "7403a527",
+		type: "item",
+		item: "mysticalagriculture:crafting 1 32",
+		count: 8
+	},
+	{
+		uid: "b42290bb",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "ccd36b6d",
+		type: "xp",
+		xp: 2000
+	}]
+}

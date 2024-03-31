@@ -1,0 +1,68 @@
+{
+	title: "§b持之以恒 VI",
+	x: -6.5d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"255d127a"
+	],
+	tasks: [{
+		uid: "b36eb997",
+		type: "stat",
+		icon: "abyssalcraft:ahelmet",
+		stat: "stat.playOneMinute",
+		value: 14400000
+	}],
+	rewards: [{
+		uid: "dc6cfdd5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "de1837e6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "5a2a9975",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "2d75b324",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "8fec2254",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	}]
+}

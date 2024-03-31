@@ -1,0 +1,36 @@
+{
+	title: "§b仅仅是一个接口罢了",
+	x: -13.5d,
+	y: 4.0d,
+	description: "制作ME接口",
+	text: [
+		"注：me接口本身每个面只能传输8个频道"
+	],
+	dependencies: [
+		"cb35094b"
+	],
+	tasks: [{
+		uid: "39e2e3a2",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:interface"
+		}]
+	}],
+	rewards: [{
+		uid: "6f0d1e57",
+		type: "item",
+		item: "appliedenergistics2:interface",
+		count: 2,
+		random_bonus: 4
+	},
+	{
+		uid: "16ffec9c",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "ba290e4d",
+		type: "random",
+		table: 1
+	}]
+}

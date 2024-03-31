@@ -1,0 +1,80 @@
+{
+	title: "§b天空袭击者",
+	x: 1.0d,
+	y: 8.5d,
+	description: "使用部落号角召唤并击杀五色艾瓦卡",
+	text: [
+		"此BOSS较为强大，记得做好补给！"
+	],
+	dependencies: [
+		"69298fca"
+	],
+	tasks: [{
+		uid: "d8812e3d",
+		type: "item",
+		items: [{
+			item: "divinerpg:ayeraco_statue_red"
+		}]
+	},
+	{
+		uid: "ecc5008d",
+		type: "item",
+		items: [{
+			item: "divinerpg:ayeraco_statue_yellow"
+		}]
+	},
+	{
+		uid: "da3672f7",
+		type: "item",
+		items: [{
+			item: "divinerpg:ayeraco_statue_blue"
+		}]
+	},
+	{
+		uid: "0e76e998",
+		type: "item",
+		items: [{
+			item: "divinerpg:ayeraco_statue_green"
+		}]
+	},
+	{
+		uid: "97791244",
+		type: "item",
+		items: [{
+			item: "divinerpg:ayeraco_statue_purple"
+		}]
+	}],
+	rewards: [{
+		uid: "94ec7e31",
+		type: "item",
+		item: {
+			id: "divinerpg:horde_horn",
+			tag: {
+				display: {
+					Name: "介意再打一次吗"
+				}
+			}
+		}
+	},
+	{
+		uid: "7ee91f08",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "d0351b38",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "48a97dfb",
+		type: "item",
+		item: "minecraft:elytra"
+	},
+	{
+		uid: "3af405ea",
+		type: "item",
+		item: "cyclicmagic:glowing_chorus",
+		count: 64
+	}]
+}

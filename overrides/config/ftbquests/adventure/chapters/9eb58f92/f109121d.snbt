@@ -1,0 +1,14 @@
+{
+	x: -25.0d,
+	y: 0.0d,
+	dependencies: [
+		"ef65449f"
+	],
+	tasks: [{
+		uid: "32c6e48a",
+		type: "item",
+		items: [{
+			item: "gct_mac:atomic_viberator"
+		}]
+	}]
+}

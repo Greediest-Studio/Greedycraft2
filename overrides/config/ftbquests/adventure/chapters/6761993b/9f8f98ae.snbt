@@ -1,0 +1,27 @@
+{
+	title: "§b激活仪式的水晶",
+	x: -1.5d,
+	y: -0.5d,
+	description: "制作[虚弱]激活水晶",
+	dependencies: [
+		"79c1a617"
+	],
+	tasks: [{
+		uid: "b8f26d65",
+		type: "item",
+		items: [{
+			item: "bloodmagic:activation_crystal"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ae224ad7",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "c1caa2ae",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "§b知识就是力量",
+	x: 1.5d,
+	y: 6.0d,
+	description: "合成一个知识宝珠",
+	text: [
+		""
+	],
+	dependencies: [
+		"f89b346e"
+	],
+	tasks: [{
+		uid: "90b83d52",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-pearl_of_knowledge"
+		}]
+	}],
+	rewards: [{
+		uid: "2558d601",
+		type: "item",
+		item: "additions:greedycraft-pearl_of_knowledge"
+	},
+	{
+		uid: "b536b0da",
+		type: "xp",
+		xp: 6000
+	},
+	{
+		uid: "ca2e4a37",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "§6精灵钢块",
+    "ore_dict": "blockElfsteel",
+    "type": "additions:block_simple"
+  },
+  "name": "§6精灵钢块",
+  "material": "minecraft:metal",
+  "hardness": 4.5,
+  "resistance": 2000.0,
+  "harvest_level": 4,
+  "harvest_tool": "pickaxe",
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "twilit_alloy",
+  "tool": {
+    "head": {
+      "attackDamage": 46.5,
+      "speed": 8.8,
+      "durability": 10600,
+      "harvestLevel": 9
+    },
+    "handle": {
+      "modifier": 2.4,
+      "durability": 3250
+    },
+    "extra": {
+      "durability": 2860
+    },
+    "bow": {
+      "speed": 1.6,
+      "range": 2.1,
+      "bonusDamage": 25.0
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 425.0,
+      "defense": 66.0
+    },
+    "plates": {
+      "modifier": 7.4,
+      "durability": 785.0,
+      "toughness": 7.1
+    },
+    "trim": {
+      "extraDurability": 120.0
+    }
+  },
+  "color": "#8b2700",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Twilit Alloy",
+    "zh_cn": "黄昏合金"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:eioaddon-twilit_alloy_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["twilit","depth_abyss"],
+    "HANDLE": ["twilit","depth_abyss"],
+    "EXTRA": ["twilit","depth_abyss"],
+    "BOW": ["twilit","depth_abyss"],
+    "CORE": ["strongdefense_armor","shielding_armor"],
+    "PLATES": ["strongdefense_armor","shielding_armor"],
+    "TRIM": ["strongdefense_armor","shielding_armor"]
+  }
+}

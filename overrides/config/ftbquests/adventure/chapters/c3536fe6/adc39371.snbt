@@ -1,0 +1,33 @@
+{
+	title: "§bN95",
+	x: -19.0d,
+	y: -4.5d,
+	description: "合成橡胶空气过滤器，更好的“口罩”",
+	text: [
+		""
+	],
+	dependencies: [
+		"6a34845d",
+		"22a8e706"
+	],
+	tasks: [{
+		uid: "f9425215",
+		type: "item",
+		items: [{
+			id: "mist:respirator_rubber",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6852f27f",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "fda452d3",
+		type: "xp",
+		xp: 4000
+	}]
+}

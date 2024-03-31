@@ -1,0 +1,122 @@
+{
+	title: "§b真的有人去做这个吗",
+	x: 1.5d,
+	y: 16.5d,
+	description: "获得谜题羊战利品",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "7736171f",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "6d3aa4ed",
+		type: "item",
+		item: "minecraft:wool",
+		count: 16
+	},
+	{
+		uid: "37c40a81",
+		type: "item",
+		item: "minecraft:wool 1 1",
+		count: 16
+	},
+	{
+		uid: "54ad3f30",
+		type: "item",
+		item: "minecraft:wool 1 2",
+		count: 16
+	},
+	{
+		uid: "6e6ab589",
+		type: "item",
+		item: "minecraft:wool 1 3",
+		count: 16
+	},
+	{
+		uid: "9f3f4705",
+		type: "item",
+		item: "minecraft:wool 1 4",
+		count: 16
+	},
+	{
+		uid: "dbb1defd",
+		type: "item",
+		item: "minecraft:wool 1 5",
+		count: 16
+	},
+	{
+		uid: "41c9dca6",
+		type: "item",
+		item: "minecraft:wool 1 6",
+		count: 16
+	},
+	{
+		uid: "d56ba1f6",
+		type: "item",
+		item: "minecraft:wool 1 7",
+		count: 16
+	},
+	{
+		uid: "4083985c",
+		type: "item",
+		item: "minecraft:wool 1 8",
+		count: 16
+	},
+	{
+		uid: "b3f68405",
+		type: "item",
+		item: "minecraft:wool 1 9",
+		count: 16
+	},
+	{
+		uid: "e70d87f1",
+		type: "item",
+		item: "minecraft:wool 1 10",
+		count: 16
+	},
+	{
+		uid: "3dcee76a",
+		type: "item",
+		item: "minecraft:wool 1 11",
+		count: 16
+	},
+	{
+		uid: "0b1963b1",
+		type: "item",
+		item: "minecraft:wool 1 12",
+		count: 16
+	},
+	{
+		uid: "b1a905ba",
+		type: "item",
+		item: "minecraft:wool 1 13",
+		count: 16
+	},
+	{
+		uid: "3ff36186",
+		type: "item",
+		item: "minecraft:wool 1 14",
+		count: 16
+	},
+	{
+		uid: "ca3f4ae4",
+		type: "item",
+		item: "minecraft:wool 1 15",
+		count: 16
+	},
+	{
+		uid: "6a750402",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "ee3faeac",
+		type: "xp",
+		xp: 2500
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "§b速度升级",
+	x: 0.0d,
+	y: 2.0d,
+	description: "制作一个速度升级",
+	text: [
+		"一个机器最多放8个，可以加速，但是会提高耗能"
+	],
+	dependencies: [
+		"9b34a8ff"
+	],
+	tasks: [{
+		uid: "6efc3970",
+		type: "item",
+		items: [{
+			item: "mekanism:speedupgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "03a14fe0",
+		type: "item",
+		item: "mekanism:speedupgrade",
+		count: 5
+	},
+	{
+		uid: "92f65063",
+		type: "xp",
+		xp: 250
+	}]
+}

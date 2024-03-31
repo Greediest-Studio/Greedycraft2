@@ -1,0 +1,148 @@
+{
+  "name": "genite",
+  "tool": {
+    "bow": {
+      "speed": 1,
+      "range": 1.0,
+      "bonusDamage": 14
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 16,
+      "speed": 16.7,
+      "durability": 24000,
+      "harvestLevel": 7
+    },
+    "handle": {
+      "modifier": 1.5,
+      "durability": 2400
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 1.1
+    },
+    "extra": {
+      "durability": 2000
+    }
+  },
+  "color": "#C25BBE",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1080,
+  "looks": {
+    "shininess": 0.2,
+    "brightness": 0.1,
+    "hueshift": 0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Genite",
+    "zh_cn": "基因金属"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "gct_ores:genite_ingot"
+    ],
+    "block": [
+      "gct_ores:genite_block"
+    ],
+    "nugget": [
+      "gct_ores:genite_nugget"
+    ],
+    "ore": [
+      "gct_ores:genite_ore"
+    ],
+    "dust": [
+      "gct_ores:genite_dust"
+    ],
+    "plate": [
+      "gct_ores:genite_plate"
+    ],
+    "gear": [
+      "gct_ores:genite_gear"
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 660,
+      "defense": 50.5
+    },
+    "plates": {
+      "modifier": 5,
+      "durability": 140,
+      "toughness": 3.5
+    },
+    "trim": {
+      "extraDurability": 100
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "dnaengineering",
+      "ecological"
+    ],
+    "HEAD": [
+      "dnaengineering",
+      "elemental",
+      "ecological"
+    ],
+    "HANDLE": [
+      "dnaengineering",
+      "ecological"
+    ],
+    "BOW": [
+      "dnaengineering",
+      "elemental",
+      "ecological"
+    ],
+    "PROJECTILE": [
+      "dnaengineering",
+      "elemental",
+      "ecological"
+    ],
+    "CORE": [
+      "geneticevolution_armor",
+      "second_life_armor"
+    ],
+    "PLATES": [
+      "geneticevolution_armor",
+      "second_life_armor"
+    ],
+    "TRIM": [
+      "geneticevolution_armor",
+      "second_life_armor"
+    ]
+  }
+}

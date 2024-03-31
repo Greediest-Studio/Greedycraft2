@@ -1,0 +1,57 @@
+{
+	title: "§c【可重复】 重生仪式",
+	x: -10.5d,
+	y: -14.0d,
+	description: "使用复活仪式重新召唤扎哈尔，并将其击杀",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"cf499e28",
+		"681a5114"
+	],
+	tasks: [{
+		uid: "85b50825",
+		type: "kill",
+		icon: {
+			id: "ageofminecraft:jzahar",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		entity: "abyssalcraft:jzahar",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "07e8d262",
+		type: "item",
+		item: {
+			id: "abyssalcraft:ethaxiumingot",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 16
+	},
+	{
+		uid: "4804e67f",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "33bef48b",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "6b9ee339",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "101f506a",
+		type: "xp",
+		xp: 5000
+	}]
+}

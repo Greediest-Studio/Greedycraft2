@@ -1,0 +1,43 @@
+{
+	title: "§b一种一个？我全都要！",
+	x: -19.5d,
+	y: -6.5d,
+	description: "制作终极无线终端，一个由多种终端复合的终端",
+	text: [
+		""
+	],
+	dependencies: [
+		"a1f776af",
+		"5a594454",
+		"43d7922a",
+		"b364c083"
+	],
+	tasks: [{
+		uid: "fe857ba5",
+		type: "item",
+		items: [{
+			id: "aeadditions:terminal.universal.wireless",
+			tag: {
+				modules: 23b,
+				type: 0b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eaf12c29",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "8d8c48f1",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "1a55b224",
+		type: "random",
+		table: 2
+	}]
+}

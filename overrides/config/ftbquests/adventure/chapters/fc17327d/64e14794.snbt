@@ -1,0 +1,109 @@
+{
+	title: "§b一段的开始，另一段的结束！",
+	x: -22.0d,
+	y: 13.5d,
+	description: "使用巨人之镐破坏巨型黑曜石，得到余烬之灯",
+	text: [
+		""
+	],
+	dependencies: [
+		"2b80e945"
+	],
+	tasks: [{
+		uid: "09f5e023",
+		type: "item",
+		items: [{
+			item: "twilightforest:lamp_of_cinders"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "94d9163f",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "f0c286af",
+		type: "item",
+		item: "tconstruct:materials 1 12",
+		count: 8
+	},
+	{
+		uid: "8a99b52a",
+		type: "item",
+		item: "tconstruct:materials 1 13",
+		count: 8
+	},
+	{
+		uid: "e0249a55",
+		type: "item",
+		item: {
+			id: "thermalinnovation:magnet",
+			Damage: 4s,
+			tag: {
+				Energy: 600000
+			}
+		}
+	},
+	{
+		uid: "90587ffc",
+		type: "item",
+		item: {
+			id: "thermalinnovation:saw",
+			Damage: 4s,
+			tag: {
+				Energy: 600000,
+				Mode: 4
+			}
+		}
+	},
+	{
+		uid: "a7edfa1d",
+		type: "item",
+		item: {
+			id: "thermalinnovation:drill",
+			Damage: 4s,
+			tag: {
+				Energy: 600000,
+				Mode: 4
+			}
+		}
+	},
+	{
+		uid: "1eb9fccd",
+		type: "item",
+		item: {
+			id: "thermalexpansion:capacitor",
+			Damage: 4s,
+			tag: {
+				Energy: 25000000
+			}
+		},
+		count: 3
+	},
+	{
+		uid: "d97bef81",
+		type: "item",
+		item: "thermalfoundation:material 1 1027",
+		count: 64
+	},
+	{
+		uid: "d100d27a",
+		type: "item",
+		item: "cyclicmagic:glowing_chorus",
+		count: 32
+	},
+	{
+		uid: "981d6b06",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "95ca36a8",
+		type: "advancement",
+		auto: "no_toast",
+		advancement: "twilightforest:progress_troll",
+		criterion: ""
+	}]
+}

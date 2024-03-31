@@ -1,0 +1,34 @@
+{
+	title: "§b强力升级套件",
+	x: -14.5d,
+	y: -27.5d,
+	description: "制作信素升级套件",
+	text: [
+		"在强化机器上使用可以升级为信素"
+	],
+	dependencies: [
+		"34df0402"
+	],
+	tasks: [{
+		uid: "d4831143",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "891a5672",
+		type: "item",
+		item: "thermalfoundation:upgrade 1 34"
+	},
+	{
+		uid: "d5c91f53",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "c031b465",
+		type: "xp",
+		xp: 800
+	}]
+}

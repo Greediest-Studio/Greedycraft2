@@ -1,0 +1,130 @@
+{
+  "name": "corbite",
+  "tool": {
+    "head": {
+      "attackDamage": 23.7,
+      "speed": 8,
+      "durability": 2100,
+      "harvestLevel": 8
+    },
+    "handle": {
+      "modifier": 2.15,
+      "durability": 1400
+    },
+    "extra": {
+        "durability": 1520
+    },
+    "bow": {
+        "speed": 2.8,
+        "range": 1.5,
+        "bonusDamage": 20
+    }
+  },
+  "color": "#00510f",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1315,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Corbite",
+    "zh_cn": "尘金"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:greedycraft-corbite_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 48,
+      "durability": 177
+    },
+    "plates": {
+      "toughness": 4.5,
+      "modifier": 9,
+      "durability": 90
+    },
+    "trim": {
+      "extraDurability": 128
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "clustering",
+      "maiming",
+      "lighting7"
+    ],
+    "HANDLE": [
+      "clustering",
+      "blowing",
+      "lighting7"
+    ],
+    "EXTRA": [
+      "clustering",
+      "blowing",
+      "lighting7"
+    ],
+    "BOW": [
+      "clustering",
+      "maiming",
+      "lighting7"
+    ],
+    "CORE": [
+      "vengeful_armor",
+      "gorgeous_armor",
+      "lighting7_armor"
+    ],
+    "PLATES": [
+      "vengeful_armor",
+      "subterranean_armor",
+      "lighting7_armor"
+    ],
+    "TRIM": [
+      "vengeful_armor",
+      "subterranean_armor",
+      "lighting7_armor"
+    ]
+  }
+}

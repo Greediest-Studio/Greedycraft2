@@ -1,0 +1,44 @@
+{
+	title: "§b搬家！",
+	x: 4.5d,
+	y: 7.5d,
+	description: "制作木质搬箱器",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "295dd21e",
+		type: "item",
+		items: [{
+			id: "chesttransporter:chesttransporter",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f658be9e",
+		type: "item",
+		item: "minecraft:leather",
+		count: 10
+	},
+	{
+		uid: "d365af84",
+		type: "item",
+		item: {
+			id: "chesttransporter:chesttransporter_obsidian",
+			tag: {}
+		},
+		count: 4
+	},
+	{
+		uid: "f3e3ec80",
+		type: "xp",
+		xp: 70
+	},
+	{
+		uid: "d264116c",
+		type: "random",
+		table: 0
+	}]
+}

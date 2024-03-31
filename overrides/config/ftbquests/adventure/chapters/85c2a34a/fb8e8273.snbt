@@ -1,0 +1,14 @@
+{
+	x: 4.5d,
+	y: 4.0d,
+	dependencies: [
+		"b5ab2c55"
+	],
+	tasks: [{
+		uid: "c1a025ba",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-blueprint_laser_gun"
+		}]
+	}]
+}

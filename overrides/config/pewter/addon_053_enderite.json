@@ -1,0 +1,131 @@
+{
+  "name": "enderite",
+  "tool": {
+    "head": {
+      "attackDamage": 30.5,
+      "speed": 21.5,
+      "durability": 8000,
+      "harvestLevel": 9
+    },
+    "handle": {
+      "modifier": 5.2,
+      "durability": 4000
+    },
+    "extra": {
+        "durability": 4000
+    },
+    "bow": {
+        "speed": 0.2,
+        "range": 1.8,
+        "bonusDamage": 48
+    }
+  },
+  "color": "#133e36",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 2100,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Enderite",
+    "zh_cn": "末影合金"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:greedycraft-enderite_ingot"
+    ],
+    "block": [
+      "additions:greedycraft-enderite_block"
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 72,
+      "durability": 540
+    },
+    "plates": {
+      "toughness": 9,
+      "modifier": 4.8,
+      "durability": 200
+    },
+    "trim": {
+      "extraDurability": 135
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "enderference",
+      "tconevo.deadly_precision",
+      "world_end"
+    ],
+    "HANDLE": [
+      "enderference",
+      "tconevo.deadly_precision",
+      "world_end"
+    ],
+    "EXTRA": [
+      "enderference",
+      "tconevo.deadly_precision",
+      "world_end"
+    ],
+    "BOW": [
+      "enderference",
+      "tconevo.deadly_precision",
+      "world_end"
+    ],
+    "CORE": [
+      "enderport_armor",
+      "fortified_armor",
+      "ender_shell_armor"
+    ],
+    "PLATES": [
+      "enderport_armor",
+      "fortified_armor",
+      "ender_shell_armor"
+    ],
+    "TRIM": [
+      "enderport_armor",
+      "fortified_armor",
+      "ender_shell_armor"
+    ]
+  }
+}

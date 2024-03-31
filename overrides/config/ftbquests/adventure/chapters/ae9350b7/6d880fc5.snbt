@@ -1,0 +1,64 @@
+{
+	title: "§b便当盒",
+	x: 7.5d,
+	y: 1.5d,
+	description: "合成午餐盒，用于存储食物",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "5f34f035",
+		type: "item",
+		items: [{
+			item: "spiceoflife:lunchbox"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ff3fb4f4",
+		type: "item",
+		item: "minecraft:cooked_beef",
+		count: 8
+	},
+	{
+		uid: "91a00b38",
+		type: "item",
+		item: "minecraft:cooked_mutton",
+		count: 8
+	},
+	{
+		uid: "6843d64f",
+		type: "item",
+		item: "minecraft:cooked_porkchop",
+		count: 8
+	},
+	{
+		uid: "377a1985",
+		type: "item",
+		item: "minecraft:cooked_rabbit",
+		count: 8
+	},
+	{
+		uid: "eeb95178",
+		type: "item",
+		item: "minecraft:cooked_chicken",
+		count: 8
+	},
+	{
+		uid: "a4fec1d5",
+		type: "item",
+		item: "pvj:cooked_duck",
+		count: 8
+	},
+	{
+		uid: "5c586170",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "c9faa413",
+		type: "xp",
+		xp: 600
+	}]
+}

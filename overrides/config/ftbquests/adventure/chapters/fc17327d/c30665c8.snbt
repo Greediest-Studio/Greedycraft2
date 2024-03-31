@@ -1,0 +1,69 @@
+{
+	title: "§b石器时代",
+	icon: "minecraft:cobblestone",
+	x: -16.0d,
+	y: 7.5d,
+	description: "用镐子挖掘一块圆石！",
+	text: [
+		""
+	],
+	dependencies: [
+		"8ec7c5a0"
+	],
+	tasks: [{
+		uid: "98ca4d45",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any cobblestone"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "cobblestone"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "43a9c112",
+		type: "item",
+		item: "minecraft:cobblestone",
+		count: 32
+	},
+	{
+		uid: "5cea86af",
+		type: "item",
+		item: "minecraft:stone_pickaxe"
+	},
+	{
+		uid: "1952ae51",
+		type: "item",
+		item: "minecraft:baked_potato",
+		count: 16
+	},
+	{
+		uid: "6e42359e",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "eb471cc7",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "66ae6ab2",
+		type: "item",
+		item: "additions:greedycraft-death_counter"
+	},
+	{
+		uid: "02cce3ea",
+		type: "item",
+		item: "minecraft:torch",
+		count: 32
+	}]
+}

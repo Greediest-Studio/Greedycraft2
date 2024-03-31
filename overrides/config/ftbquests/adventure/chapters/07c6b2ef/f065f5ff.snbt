@@ -1,0 +1,34 @@
+{
+	title: "§b闪亮！",
+	x: -11.5d,
+	y: -29.0d,
+	description: "合成荧光信素锭？",
+	text: [
+		""
+	],
+	dependencies: [
+		"34df0402"
+	],
+	tasks: [{
+		uid: "75f05eb2",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-glowing_signalum_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "e079fabd",
+		type: "item",
+		item: "additions:greedycraft-glowing_signalum_block"
+	},
+	{
+		uid: "f4286583",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "e339e0e1",
+		type: "xp",
+		xp: 750
+	}]
+}

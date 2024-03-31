@@ -1,0 +1,34 @@
+{
+	title: "§b威胁消散",
+	x: 8.5d,
+	y: 1.5d,
+	description: "在污泥地牢的底层击败污泥威胁，获取其残片",
+	text: [
+		""
+	],
+	dependencies: [
+		"5bcf2e54"
+	],
+	tasks: [{
+		uid: "0c02b702",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-dirtshape"
+		}]
+	}],
+	rewards: [{
+		uid: "3f4e5236",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "66c13c4a",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "78f632c4",
+		type: "xp",
+		xp: 15000
+	}]
+}

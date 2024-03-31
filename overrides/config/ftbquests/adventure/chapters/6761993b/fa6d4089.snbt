@@ -1,0 +1,33 @@
+{
+	title: "§b血居然腐蚀了石板",
+	x: 2.5d,
+	y: 1.5d,
+	description: "制作血蚀石板",
+	dependencies: [
+		"26799044",
+		"c5f4a913"
+	],
+	tasks: [{
+		uid: "43c20817",
+		type: "item",
+		items: [{
+			item: "additions:bloody-slate_6"
+		}]
+	}],
+	rewards: [{
+		uid: "5634c335",
+		type: "item",
+		item: "additions:bloody-slate_6",
+		count: 4
+	},
+	{
+		uid: "d24109e5",
+		type: "xp",
+		xp: 3600
+	},
+	{
+		uid: "21b8086b",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "§b钓鱼都是人上人",
+	x: 1.0d,
+	y: 2.5d,
+	description: "获取一套在交错次元钓鱼的装备……？",
+	text: [
+		""
+	],
+	dependencies: [
+		"27de749c"
+	],
+	tasks: [{
+		uid: "42640e87",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weedwood_fishing_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b6a2d5d5",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 60"
+		}]
+	}],
+	rewards: [{
+		uid: "c3a4bd75",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "7fff0945",
+		type: "xp",
+		xp: 5000
+	}]
+}

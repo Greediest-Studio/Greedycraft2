@@ -1,0 +1,89 @@
+{
+    "name": "bismuth",
+    "tool": {
+      "head": {
+        "attackDamage": 94,
+        "speed": 2,
+        "durability": 1100,
+        "harvestLevel": 12
+      },
+      "handle": {
+        "modifier": 1.25,
+        "durability": 425
+      },
+      "extra": {
+        "durability": 600
+      },
+      "bow": {
+        "speed": 4.4,
+        "range": 2.1,
+        "bonusDamage": 52
+      }
+    },
+    "armor": {
+      "core": {
+        "durability": 165,
+        "defense": 63
+      },
+      "plates": {
+        "modifier": 8.5,
+        "durability": 85,
+        "toughness": 2.1
+      },
+      "trim": {
+        "extraDurability": 85
+      }
+    },
+    "color": "#9f6dc4",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 600,
+    "looks": {
+      "shininess": 0.5,
+      "brightness": 0.5,
+      "hueshift": -0.05
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Bismuth",
+      "zh_cn": "铋"
+    },
+    "smeltingItems": {
+      "ingot": ["additions:elements-bismuth_ingot"],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "specificTraits": {
+      "HEAD": ["moretcon.trichromatic", "fog_light"],
+      "HANDLE": ["moretcon.trichromatic", "fog_light"],
+      "EXTRA": ["moretcon.trichromatic", "fog_light"],
+      "BOW": ["moretcon.trichromatic", "fog_light"],
+      "CORE": ["oxyless_armor", "fog_light_armor"],
+      "PLATES": ["oxyless_armor", "fog_light_armor"],
+      "TRIM": ["oxyless_armor", "fog_light_armor"]
+    }
+  }
+  

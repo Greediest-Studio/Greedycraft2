@@ -1,0 +1,38 @@
+{
+	title: "§b疯狂输出 VII",
+	x: -2.0d,
+	y: 10.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"ddd2edce"
+	],
+	tasks: [{
+		uid: "919fde67",
+		type: "stat",
+		icon: "abyssalcraft:coraxe",
+		stat: "stat.damageDealt",
+		value: 350000000
+	}],
+	rewards: [{
+		uid: "5c6f8d4e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "08851e7b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	}]
+}

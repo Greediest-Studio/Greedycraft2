@@ -1,0 +1,16 @@
+{
+  "preset_block": "additions:greedycraft-astral_projector",
+  "pools": [
+    {
+      "name": "block_itself_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:greedycraft-astral_projector"
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_itself"
+}

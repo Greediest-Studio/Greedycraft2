@@ -1,0 +1,59 @@
+{
+	title: "§b炽热的心……",
+	x: -16.0d,
+	y: 13.5d,
+	description: "击杀九头蛇",
+	text: [
+		"说是九头蛇，但其实只有三个头"
+	],
+	dependencies: [
+		"50b2dec7"
+	],
+	tasks: [{
+		uid: "2040d6b1",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "b255ad75",
+		type: "item",
+		item: "twilightforest:fiery_ingot",
+		count: 12
+	},
+	{
+		uid: "fbf79687",
+		type: "xp",
+		xp: 2500
+	},
+	{
+		uid: "fad5ecf3",
+		type: "item",
+		item: "twilightforest:twilight_sapling 1 6"
+	},
+	{
+		uid: "475c7907",
+		type: "item",
+		item: "twilightforest:hydra_chop",
+		count: 12
+	},
+	{
+		uid: "1e202e52",
+		type: "advancement",
+		auto: "no_toast",
+		advancement: "twilightforest:progress_hydra",
+		criterion: ""
+	},
+	{
+		uid: "06561f8f",
+		type: "item",
+		item: "thermalfoundation:material 1 1024",
+		count: 32
+	},
+	{
+		uid: "14f44dc4",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "§b坚硬如心",
+	x: -11.0d,
+	y: 6.0d,
+	description: "在遗忘冰川挖掘寒心铁矿石",
+	text: [
+		""
+	],
+	dependencies: [
+		"f1ecd92b"
+	],
+	tasks: [{
+		uid: "c81036a6",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-chillinium_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "d7802c69",
+		type: "item",
+		item: "additions:greedycraft-chillinium_ingot",
+		count: 4
+	},
+	{
+		uid: "e57df14b",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "9adf0371",
+		type: "random",
+		table: 2
+	}]
+}

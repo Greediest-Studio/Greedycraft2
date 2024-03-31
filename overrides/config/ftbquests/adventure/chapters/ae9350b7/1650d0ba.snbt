@@ -1,0 +1,38 @@
+{
+	title: "§bDuang！",
+	x: 12.0d,
+	y: 16.5d,
+	description: "击杀突变僵尸，获得巨人之锤",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "f797a3be",
+		type: "item",
+		items: [{
+			item: "mutantbeasts:hulk_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "49ba1c00",
+		type: "item",
+		item: "mutantbeasts:chemical_x"
+	},
+	{
+		uid: "1d9a73dc",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "bfa81413",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "d9441967",
+		type: "xp",
+		xp: 850
+	}]
+}

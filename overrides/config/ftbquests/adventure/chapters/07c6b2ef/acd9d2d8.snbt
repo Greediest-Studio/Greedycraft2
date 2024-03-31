@@ -1,0 +1,49 @@
+{
+	title: "§b经典的岩浆发电？",
+	x: -2.0d,
+	y: -12.0d,
+	description: "制作热力能源炉",
+	text: [
+		""
+	],
+	dependencies: [
+		"21e1125d"
+	],
+	tasks: [{
+		uid: "c4ce6814",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			Damage: 1s,
+			tag: {
+				Facing: 1b,
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6d1892bf",
+		type: "item",
+		item: {
+			id: "thermalexpansion:florb",
+			Damage: 1s,
+			tag: {
+				Fluid: "lava"
+			}
+		},
+		count: 16
+	},
+	{
+		uid: "b2c960ad",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "8c23105e",
+		type: "random",
+		table: 1
+	}]
+}

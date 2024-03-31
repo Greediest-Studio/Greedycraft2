@@ -1,0 +1,48 @@
+{
+	title: "§b深渊沉睡者",
+	x: 3.5d,
+	y: 0.0d,
+	description: "召唤并击杀堕落者阿索拉",
+	text: [
+		""
+	],
+	dependencies: [
+		"2354beba"
+	],
+	tasks: [{
+		uid: "e4681cde",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:eoa"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "51aecf33",
+		type: "item",
+		title: "一个用来制作觉醒之眼，一个用来做恐惧之地门钥匙",
+		item: "abyssalcraft:eoa"
+	},
+	{
+		uid: "bab1e904",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "d243596a",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "4d3d212e",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "cf838907",
+		type: "item",
+		item: "abyssalcraft:ingotblock 1 1",
+		count: 4
+	}]
+}

@@ -1,0 +1,355 @@
+{
+  "name": "ender_forge",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/ender_energy.png",
+  "recipes": [
+    {
+      "uid": "3e80584f-7d66-404b-b422-54a2020c652f",
+      "duration": 400,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"jaopca:item_dustendusium\",Count:2,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"jaopca:item_dustendorium\",Count:2,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:2,Damage:103s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"additions:greedycraft-endest_steel_ingot\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "dimension",
+          "condition": {
+            "dim": "the_end"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "ada3da56-4acc-496b-a55c-099dab9026eb",
+      "duration": 600,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"moretcon:repitem\",Count:2,Damage:2s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 2,
+              "matches": [
+                "{id:\"jaopca:item_dustchromasteel\",Count:2,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 9,
+              "matches": [
+                "{id:\"gct_ores:chaotic_draconium_dust\",Count:9,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"additions:link-ender_light\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "dimension",
+          "condition": {
+            "dim": "the_end"
+          }
+        }
+      ]
+    },
+    {
+      "uid": "f81af75a-fd3e-4257-b8b8-b76d9917abcf",
+      "duration": 80,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 3,
+              "matches": [
+                "{id:\"gct_mobs:resonated_scrap\",Count:3,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:4,Damage:71s}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"additions:greedycraft-enderite_ingot\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      },
+      "conditions": [
+        {
+          "type": "dimension",
+          "condition": {
+            "dim": "the_end"
+          }
+        }
+      ]
+    }
+  ],
+  "fuelRecipes": [
+    {
+      "uid": "54327adf-8a1b-4b25-aae6-578291e631c8",
+      "duration": 2,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thermalfoundation:material\",Count:1,Damage:770s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "5c0f81b8-6660-4310-9561-5483532be4f0",
+      "duration": 8,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"minecraft:ender_pearl\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "e09e60e6-bffb-4090-af49-b50bdbba6d46",
+      "duration": 12,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"tiths:ender_crevice_shard\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "b972a461-7d51-440e-944d-e04bbda7ee6f",
+      "duration": 4,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:ender_shards\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "8d9ad146-b625-4db4-846a-70278fcb5ba9",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"divinerpg:ender_stone\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "6d52b99a-fc0e-4b98-b51d-6d4c4b5d3cf5",
+      "duration": 800,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"avaritia:endest_pearl\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "4eccfa3d-7313-4255-843f-3e06aa6ee4d2",
+      "duration": 32,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"additions:taigaddon-harcadium_ingot\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "ac8316e6-851e-4a3d-945a-6d6353138a76",
+      "duration": 320,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"additions:taigaddon-harcadium_block\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "3f56f2b9-f910-4225-bea1-83c9a818d3f3",
+      "duration": 8,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"endreborn:item_end_essence\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "6e49b2b8-77dd-4c9b-b78a-3ce024e3b492",
+      "duration": 80,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"charm:ender_pearl_block\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "48581deb-4bb0-4f19-9771-4c5d9804ef66",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"actuallyadditions:block_misc\",Count:1,Damage:6s}"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

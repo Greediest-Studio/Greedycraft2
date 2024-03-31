@@ -1,0 +1,46 @@
+{
+	title: "§b控制农场",
+	x: -16.5d,
+	y: -4.5d,
+	description: "获得农场控制盒",
+	text: [
+		""
+	],
+	dependencies: [
+		"389756d6",
+		"dc3acb18",
+		"e4e83c3f"
+	],
+	tasks: [{
+		uid: "4e8733a0",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			Damage: 5s,
+			tag: {
+				FarmBlock: 0
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "6ed3c521",
+		type: "item",
+		item: "forestry:thermionic_tubes 1 4"
+	},
+	{
+		uid: "d1d21621",
+		type: "item",
+		item: "minecraft:wooden_slab",
+		count: 64
+	},
+	{
+		uid: "064bd8e1",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "54e722de",
+		type: "loot",
+		table: 2
+	}]
+}

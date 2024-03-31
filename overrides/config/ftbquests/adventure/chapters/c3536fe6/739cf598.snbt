@@ -1,0 +1,32 @@
+{
+	title: "§b梦魇将至",
+	x: -1.0d,
+	y: -4.5d,
+	description: "制作梦魇附魔机控制器",
+	text: [
+		"你需要在地下挖掘梦魇黏土矿石，烧制黏土球获得焦黑砖。",
+		"使用焦黑砖、火焰晶体、梦魇石、青铜等材料制作微缩冶炼炉，焦黑加热器，合金储罐。",
+		"使用微缩冶炼炉熔化青铜和导电铁，将合金储罐放在两个微缩冶炼炉之间。",
+		"使用合金储罐将青铜和导电铁合金为模块化合金，之后再浇筑为块导出。"
+	],
+	dependencies: [
+		"6e5169be",
+		"bd13961c"
+	],
+	tasks: [{
+		uid: "71f8c311",
+		type: "item",
+		items: [{
+			id: "modularmachinery:vethea_enchanter_controller",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e51645a9",
+		type: "random",
+		table: 5
+	}]
+}

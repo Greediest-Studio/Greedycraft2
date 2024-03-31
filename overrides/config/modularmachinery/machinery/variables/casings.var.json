@@ -1,0 +1,67 @@
+{
+    "casings_all": [
+        "modularmachinery:blockcasing",
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockenergyinputhatch",
+        "modularmachinery:blockfluidinputhatch",
+        "modularmachinery:blockoutputbus",
+        "modularmachinery:blockenergyoutputhatch",
+        "modularmachinery:blockfluidoutputhatch",
+        "gugu-utils:environmenthatch",
+        "gugu-utils:energyoutputport",
+        "gugu-utils:sparkmanahatch",
+        "gugu-utils:aspecthatch",
+        "gugu-utils:starlightinputhatch",
+        "gugu-utils:emberinputhatch",
+        "gugu-utils:aurainputhatch",
+        "modularmachinery:blocksmartinterface",
+        "modularmachinery:blockparallelcontroller@0"
+    ],
+    "casings_decorative": [
+        "modularmachinery:blockcasing"
+    ],
+    "casings_fluid": [
+        "modularmachinery:blockfluidinputhatch",
+        "modularmachinery:blockfluidoutputhatch"
+    ],
+    "casings_energy": [
+        "modularmachinery:blockenergyinputhatch",
+        "modularmachinery:blockenergyoutputhatch"
+    ],
+    "casings_item": [
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockoutputbus"
+    ],
+    "casings_tofu": [
+        "tofucraft:tf_machine_case"
+    ],
+	"casings_seared": [
+        "tconstruct:seared",
+		"tconstruct:seared_glass"
+    ],
+    "iron_bars": [
+        "minecraft:iron_bars",
+		"chisel:ironpane"
+    ],
+    "casings_upgrade": [
+        "modularmachinery:blockcasing@1",
+        "modularmachinery:blockcasing@2",
+        "modularmachinery:blockcasing@3",
+        "modularmachinery:blockcasing@4",
+        "modularmachinery:blockcasing@5",
+        "modularmachinery:blockparallelcontroller"
+    ],
+    "bloody_rune": [
+        "bloodmagic:blood_rune@0",
+        "bloodmagic:blood_rune@1",
+        "bloodmagic:blood_rune@2",
+        "bloodmagic:blood_rune@3",
+        "bloodmagic:blood_rune@4",
+        "bloodmagic:blood_rune@5",
+        "bloodmagic:blood_rune@6",
+        "bloodmagic:blood_rune@7",
+        "bloodmagic:blood_rune@8",
+        "bloodmagic:blood_rune@9",
+        "bloodmagic:blood_rune@10"        
+    ]
+}

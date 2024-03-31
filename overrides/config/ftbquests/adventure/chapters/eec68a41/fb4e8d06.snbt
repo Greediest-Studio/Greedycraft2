@@ -1,0 +1,31 @@
+{
+	title: "§b空之律者：？？？",
+	x: 20.0d,
+	y: -1.5d,
+	description: "使用柠檬和森林法杖交易精灵法杖",
+	text: [
+		""
+	],
+	dependencies: [
+		"76e34a47"
+	],
+	tasks: [{
+		uid: "b2223409",
+		type: "item",
+		items: [{
+			item: "gct_mobs:alfheim"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "81336df6",
+		type: "xp",
+		xp: 8000
+	},
+	{
+		uid: "d47f6fea",
+		type: "random",
+		table: 3
+	}]
+}

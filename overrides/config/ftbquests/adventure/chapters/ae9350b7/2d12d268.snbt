@@ -1,0 +1,39 @@
+{
+	title: "§b建筑天才",
+	x: 7.5d,
+	y: 13.5d,
+	description: "制作建筑小帮手",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "53d4f3b6",
+		type: "item",
+		items: [{
+			id: "buildinggadgets:buildingtool",
+			tag: {
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "594851f0",
+		type: "item",
+		item: "minecraft:stone",
+		count: 6400
+	},
+	{
+		uid: "683ac91c",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "fcf7b9d2",
+		type: "xp",
+		xp: 2000
+	}]
+}

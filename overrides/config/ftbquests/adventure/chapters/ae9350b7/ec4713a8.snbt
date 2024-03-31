@@ -1,0 +1,46 @@
+{
+	title: "§b四季分明",
+	x: 1.5d,
+	y: 18.0d,
+	description: "获得季节指示器！",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "7dc2e97b",
+		type: "item",
+		items: [{
+			item: "sereneseasons:season_clock"
+		}]
+	}],
+	rewards: [{
+		uid: "4fd7e565",
+		type: "item",
+		item: "sereneseasons:season_sensor_spring"
+	},
+	{
+		uid: "429ab842",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "fd34917a",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "798d3a9f",
+		type: "item",
+		item: "sereneseasons:season_sensor_summer"
+	},
+	{
+		uid: "4715426d",
+		type: "item",
+		item: "sereneseasons:season_sensor_autumn"
+	},
+	{
+		uid: "90fea62e",
+		type: "item",
+		item: "sereneseasons:season_sensor_winter"
+	}]
+}

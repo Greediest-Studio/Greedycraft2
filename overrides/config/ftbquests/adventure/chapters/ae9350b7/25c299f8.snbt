@@ -1,0 +1,32 @@
+{
+	title: "§b有点像是抠下来的一块碎片……",
+	x: 10.5d,
+	y: 19.5d,
+	description: "合成滑行精炼宝石",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "ed9608fc",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-slider_gem"
+		}]
+	}],
+	rewards: [{
+		uid: "8d3e683d",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "8939495a",
+		type: "item",
+		item: "additions:greedycraft-slider_gem",
+		count: 3
+	},
+	{
+		uid: "8ce2e9fc",
+		type: "xp",
+		xp: 1500
+	}]
+}

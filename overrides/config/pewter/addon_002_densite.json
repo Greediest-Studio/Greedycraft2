@@ -1,0 +1,137 @@
+{
+    "name": "densite",
+    "tool": {
+      "bow": {
+        "speed": 3.2,
+        "range": 0.9,
+        "bonusDamage": 7
+      },
+      "fletching": {
+        "accuracy": 0.5,
+        "modifier": 0.0
+      },
+      "head": {
+        "attackDamage": 6,
+        "speed": 6.75,
+        "durability": 895,
+        "harvestLevel": 5
+      },
+      "handle": {
+        "modifier": 0.7,
+        "durability": 322
+      },
+      "arrowShaft": {
+        "modifier": 1.1,
+        "bonusAmmo": 5
+      },
+      "bowstring": {
+        "modifier": 1.1
+      },
+      "extra": {
+        "durability": 260
+      }
+    },
+    "color": "#bf00fe",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 625,
+    "looks": {
+      "shininess": 0.6,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "PROJECTILE",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Densite",
+      "zh_cn": "密度合金"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "gct_ores:densite_ingot"
+      ],
+      "block": [
+        "gct_ores:densite_block"
+      ],
+      "nugget": [
+        "gct_ores:densite_nugget"
+      ],
+      "ore": [
+       
+      ],
+      "dust": [
+        "gct_ores:densite_dust"
+      ],
+      "plate": [
+        "gct_ores:densite_plate"
+      ],
+      "gear": [
+        "gct_ores:densite_gear"
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "durability": 30,
+        "defense": 21
+      },
+      "plates": {
+        "modifier": 1.6,
+        "durability": 60,
+        "toughness": 1
+      },
+      "trim": {
+        "extraDurability": 36
+      }
+    },
+    "specificTraits": {
+      "EXTRA": [
+        "heavy"
+      ],
+      "HEAD": [
+        "dense"
+      ],
+      "HANDLE": [
+        "heavy"
+      ],
+      "BOW": [
+        "dense"
+      ],
+      "PROJECTILE": [
+        "heavy"
+      ],
+      "CORE": [
+        "duritos"
+      ],
+      "PLATES": [
+        "duritos"
+      ],
+      "TRIM": [
+        "duritos"
+      ]
+    }
+  }

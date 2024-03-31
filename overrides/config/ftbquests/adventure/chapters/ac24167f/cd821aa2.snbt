@@ -1,0 +1,35 @@
+{
+	title: "§b我能看到灵气了",
+	x: -3.5d,
+	y: 4.0d,
+	description: "获得环境之眼",
+	dependencies: [
+		"aa265353"
+	],
+	tasks: [{
+		uid: "fec373ec",
+		type: "item",
+		items: [{
+			id: "naturesaura:eye",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"distinctdamagedescriptions:dmgdistribution": [{
+					type: "ddd_bludgeoning",
+					weight: 1.0f
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e6a52912",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "a8e443a6",
+		type: "random",
+		table: 2
+	}]
+}

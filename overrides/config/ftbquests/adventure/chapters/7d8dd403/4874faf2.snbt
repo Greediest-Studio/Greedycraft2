@@ -1,0 +1,31 @@
+{
+	title: "§bNether Beast",
+	x: -4.5d,
+	y: 7.0d,
+	description: "合成诅咒：野蛮",
+	text: [
+		""
+	],
+	dependencies: [
+		"d727497d"
+	],
+	tasks: [{
+		uid: "c90ace52",
+		type: "item",
+		items: [{
+			item: "journey:netherbeastorb"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "af1805c9",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "909b55ef",
+		type: "random",
+		table: 2
+	}]
+}

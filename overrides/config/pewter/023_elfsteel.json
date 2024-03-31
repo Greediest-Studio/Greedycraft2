@@ -1,0 +1,139 @@
+{
+  "name": "elfsteel",
+  "tool": {
+    "head": {
+      "attackDamage": 10.5,
+      "speed": 14.4,
+      "durability": 1580,
+      "harvestLevel": 5
+    },
+    "handle": {
+      "modifier": 1.5,
+      "durability": 800
+    },
+    "extra": {
+        "durability": 600
+    },
+    "bow": {
+        "speed": 1.0,
+        "range": 1.5,
+        "bonusDamage": 8.0
+    }
+  },
+  "color": "#FFA600",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 583,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Elfsteel",
+    "zh_cn": "精灵钢"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:botaniaddon-elfsteel_ingot"
+    ],
+    "block": [
+      "additions:botaniaddon-elfsteel_block"
+    ],
+    "nugget": [
+      "additions:botaniaddon-elfsteel_nugget"
+    ],
+    "ore": [
+
+    ],
+    "dust": [
+      "jaopca:item_dustelfsteel"
+    ],
+    "plate": [
+      "jaopca:item_plateelfsteel"
+    ],
+    "gear": [
+      "jaopca:item_gearelfsteel"
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 100,
+      "defense": 29
+    },
+    "plates": {
+      "modifier": 2.0,
+      "durability": 80,
+      "toughness": 3.25
+    },
+    "trim": {
+      "extraDurability": 95
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "tconevo.gaia_wrath",
+      "tconevo.mana_infused",
+      "spartan"
+    ],
+    "HANDLE": [
+      "tconevo.gaia_wrath",
+      "tconevo.mana_infused",
+      "spartan"
+    ],
+    "EXTRA": [
+      "tconevo.gaia_wrath",
+      "tconevo.mana_infused",
+      "spartan"
+    ],
+    "BOW": [
+      "tconevo.gaia_wrath",
+      "tconevo.mana_infused",
+      "spartan"
+    ],
+    "CORE": [
+      "heavy_armor",
+      "tconevo.mana_infused_armor",
+      "tconevo.mana_affinity2_armor",
+      "tconevo.second_wind_armor"
+    ],
+    "PLATES": [
+      "heavy_armor",
+      "tconevo.mana_infused_armor",
+      "tconevo.mana_affinity2_armor",
+      "tconevo.second_wind_armor"
+    ],
+    "TRIM": [
+      "heavy_armor",
+      "tconevo.mana_infused_armor",
+      "tconevo.mana_affinity2_armor",
+      "tconevo.second_wind_armor"
+    ]
+  }
+}

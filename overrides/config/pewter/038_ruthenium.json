@@ -1,0 +1,123 @@
+{
+  "name": "ruthenium",
+  "tool": {
+    "head": {
+      "attackDamage": 59,
+      "speed": 10,
+      "durability": 1400,
+      "harvestLevel": 8
+    },
+    "handle": {
+      "modifier": 1.6,
+      "durability": 600
+    },
+    "extra": {
+        "durability": 400
+    },
+    "bow": {
+        "speed": 1.2,
+        "range": 2,
+        "bonusDamage": 40
+    }
+  },
+  "color": "#595959",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1800,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Ruthenium",
+    "zh_cn": "钌"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:mekaddon-ruthenium_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 57,
+      "durability": 90
+    },
+    "plates": {
+      "toughness": 5,
+      "modifier": 8.4,
+      "durability": 70
+    },
+    "trim": {
+      "extraDurability": 65
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "crumbling",
+      "pack_light"
+    ],
+    "HANDLE": [
+      "gamble",
+      "pack_light"
+    ],
+    "EXTRA": [
+      "gamble",
+      "pack_light"
+    ],
+    "BOW": [
+      "crumbling",
+      "pack_light"
+    ],
+    "CORE": [
+      "steady_armor",
+      "tconevo.reactive_armor"
+    ],
+    "PLATES": [
+      "steady_armor",
+      "tconevo.reactive_armor"
+    ],
+    "TRIM": [
+      "steady_armor",
+      "tconevo.reactive_armor"
+    ]
+  }
+}

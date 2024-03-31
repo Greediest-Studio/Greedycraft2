@@ -1,0 +1,19 @@
+{
+	title: "§b基础反应",
+	x: 0.0d,
+	y: -11.0d,
+	description: "制作升级：基础反应催化",
+	text: [
+		"可以进行基础反应"
+	],
+	dependencies: [
+		"d2252f4a"
+	],
+	tasks: [{
+		uid: "926ab805",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 688"
+		}]
+	}]
+}

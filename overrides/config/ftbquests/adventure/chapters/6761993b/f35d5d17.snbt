@@ -1,0 +1,32 @@
+{
+	title: "§b增加容量？",
+	x: -9.5d,
+	y: -2.5d,
+	description: "制作增容符文",
+	dependencies: [
+		"1ca32822"
+	],
+	tasks: [{
+		uid: "5eb25abe",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "fd5f5d24",
+		type: "item",
+		item: "bloodmagic:blood_rune 1 6",
+		count: 8
+	},
+	{
+		uid: "22dfeda4",
+		type: "xp",
+		xp: 640
+	},
+	{
+		uid: "28124369",
+		type: "random",
+		table: 1
+	}]
+}

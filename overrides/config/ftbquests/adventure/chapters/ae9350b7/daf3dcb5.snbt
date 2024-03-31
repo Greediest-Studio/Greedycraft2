@@ -1,0 +1,32 @@
+{
+	title: "§bP点好像有用了诶",
+	x: 13.5d,
+	y: 19.5d,
+	description: "合成战利品发电机控制器",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "80243055",
+		type: "item",
+		items: [{
+			item: "modularmachinery:loot_power_generator_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "a66ce23d",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "42fffcb4",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "7a64a99e",
+		type: "item",
+		item: "touhou_little_maid:power_point",
+		count: 256
+	}]
+}

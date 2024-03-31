@@ -1,0 +1,29 @@
+{
+	title: "§b附魔发电",
+	x: 0.0d,
+	y: -17.0d,
+	description: "制作升级：魔力弱化分离",
+	text: [
+		"附魔物品可以发电，效率大大提高，但是物品会被破坏"
+	],
+	dependencies: [
+		"3f785ebe"
+	],
+	tasks: [{
+		uid: "7599b4d2",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 704"
+		}]
+	}],
+	rewards: [{
+		uid: "541b5845",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "ce77977b",
+		type: "xp",
+		xp: 1000
+	}]
+}

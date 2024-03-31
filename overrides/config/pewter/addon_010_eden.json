@@ -1,0 +1,139 @@
+{
+    "name": "eden",
+    "tool": {
+      "bow": {
+        "speed": 1.9,
+        "range": 1.3,
+        "bonusDamage": 4
+      },
+      "fletching": {
+        "accuracy": 0.5,
+        "modifier": 0.0
+      },
+      "head": {
+        "attackDamage": 10,
+        "speed": 6,
+        "durability": 3000,
+        "harvestLevel": 5
+      },
+      "handle": {
+        "modifier": 0.8,
+        "durability": 400
+      },
+      "arrowShaft": {
+        "modifier": 1.1,
+        "bonusAmmo": 5
+      },
+      "bowstring": {
+        "modifier": 1.1
+      },
+      "extra": {
+        "durability": 200
+      }
+    },
+    "color": "#a6463c",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 600,
+    "looks": {
+      "shininess": 0.6,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "PROJECTILE",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Eden",
+      "zh_cn": "伊甸"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "additions:greedycraft-eden_ingot"
+      ],
+      "block": [
+      ],
+      "nugget": [
+      ],
+      "ore": [
+      ],
+      "dust": [
+      ],
+      "plate": [
+      ],
+      "gear": [
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "durability": 200,
+        "defense": 24
+      },
+      "plates": {
+        "modifier": 2,
+        "durability": 80,
+        "toughness": 4
+      },
+      "trim": {
+        "extraDurability": 50
+      }
+    },
+    "specificTraits": {
+      "EXTRA": [
+        "tconevo.juggernaut",
+        "twilight_hand1"
+      ],
+      "HEAD": [
+        "tconevo.juggernaut",
+        "twilight_hand1"
+      ],
+      "HANDLE": [
+        "tconevo.juggernaut",
+        "twilight_hand1"
+      ],
+      "BOW": [
+        "tconevo.juggernaut",
+        "twilight_hand1"
+      ],
+      "PROJECTILE": [
+        "tconevo.juggernaut",
+        "twilight_hand1"
+      ],
+      "CORE": [
+        "throny_armor",
+        "twilight_armor1_armor"
+      ],
+      "PLATES": [
+        "throny_armor",
+        "twilight_armor1_armor"
+      ],
+      "TRIM": [
+        "throny_armor",
+        "twilight_armor1_armor"
+      ]
+    }
+  }

@@ -1,0 +1,136 @@
+{
+    "name": "cursium",
+    "tool": {
+      "head": {
+        "attackDamage": 121.5,
+        "speed": 32,
+        "durability": 36900,
+        "harvestLevel": 12
+      },
+      "handle": {
+        "modifier": 3.5,
+        "durability": 21400
+      },
+      "extra": {
+        "durability": 20800
+      },
+      "bow": {
+        "speed": 0.79,
+        "range": 2.6,
+        "bonusDamage": 98
+      }
+    },
+    "color": "#c126a8",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 1920,
+    "looks": {
+      "shininess": 0.8,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Cursium",
+      "zh_cn": "咒缚"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "additions:greedycraft-cursium_ingot"
+      ],
+      "block": [
+      ],
+      "nugget": [
+      ],
+      "ore": [
+      ],
+      "dust": [
+      ],
+      "plate": [
+      ],
+      "gear": [
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "defense": 136,
+        "durability": 890
+      },
+      "plates": {
+        "toughness": 16.5,
+        "modifier": 19,
+        "durability": 712
+      },
+      "trim": {
+        "extraDurability": 726
+      }
+    },
+    "specificTraits": {
+      "HEAD": [
+        "knowledgeful",
+        "madness2",
+        "elementfriendly",
+        "killall"
+      ],
+      "HANDLE": [
+        "knowledgeful",
+        "dark",
+        "elementfriendly"
+      ],
+      "EXTRA": [
+        "knowledgeful",
+        "dark",
+        "elementfriendly"
+      ],
+      "BOW": [
+        "knowledgeful",
+        "madness2",
+        "elementfriendly",
+        "killall"
+      ],
+      "CORE": [
+        "knowledgeful_armor",
+        "shielding_armor",
+        "tconevo.modifiable2",
+        "tconevo.warping_armor"
+      ],
+      "PLATES": [
+        "knowledgeful_armor",
+        "shielding_armor",
+        "tconevo.modifiable",
+        "tconevo.warping_armor"
+      ],
+      "TRIM": [
+        "knowledgeful_armor",
+        "shielding_armor",
+        "tconevo.modifiable",
+        "tconevo.warping_armor"
+      ]
+    }
+}
+  

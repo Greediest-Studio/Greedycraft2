@@ -1,0 +1,39 @@
+{
+	title: "§b终极欧皇",
+	x: 1.5d,
+	y: 15.0d,
+	description: "获得源初造物|虚空万藏",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "962703c9",
+		type: "item",
+		items: [{
+			id: "extrabotany:buddhistrelics",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a391cd10",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "ad818e86",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "17364e15",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "b25af949",
+		type: "xp",
+		xp: 62450
+	}]
+}

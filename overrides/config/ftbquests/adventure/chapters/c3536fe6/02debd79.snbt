@@ -1,0 +1,34 @@
+{
+	title: "§b天气邪眼",
+	x: -12.0d,
+	y: -2.0d,
+	description: "使用天气之息召唤并击杀天气之眼",
+	text: [
+		""
+	],
+	dependencies: [
+		"ecc95796"
+	],
+	tasks: [{
+		uid: "114478d6",
+		type: "kill",
+		entity: "gct_mobs:weather_eyevil",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "8983df0b",
+		type: "item",
+		item: "additions:greedycraft-snowingium_ingot",
+		count: 8
+	},
+	{
+		uid: "1872428a",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "0bf66d73",
+		type: "xp",
+		xp: 10000
+	}]
+}

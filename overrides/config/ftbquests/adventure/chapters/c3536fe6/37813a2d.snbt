@@ -1,0 +1,24 @@
+{
+	title: "§b原力！",
+	x: 3.0d,
+	y: -6.5d,
+	description: "在梦魇世界第四层击杀毁灭者",
+	text: [
+		"使用梦魇打火石在毁灭者祭坛上召唤",
+		"注：毁灭者所在结构的岩浆下某处有一个隐藏房间，内有大量战利品"
+	],
+	dependencies: [
+		"e8c29a84"
+	],
+	tasks: [{
+		uid: "694cd451",
+		type: "kill",
+		entity: "divinerpg:wreck",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "0e41a9aa",
+		type: "random",
+		table: 5
+	}]
+}

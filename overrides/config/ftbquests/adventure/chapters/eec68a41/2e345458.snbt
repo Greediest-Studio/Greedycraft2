@@ -1,0 +1,37 @@
+{
+	title: "§b魔力蓄电池",
+	x: 0.0d,
+	y: 1.0d,
+	description: "制作魔力石板",
+	text: [
+		""
+	],
+	dependencies: [
+		"1ea09821"
+	],
+	tasks: [{
+		uid: "4c1c4b7c",
+		type: "item",
+		items: [{
+			id: "botania:manatablet",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b3ef04fc",
+		type: "item",
+		item: "botania:blacklotus 1 1"
+	},
+	{
+		uid: "f014d759",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "0930d59e",
+		type: "xp",
+		xp: 800
+	}]
+}

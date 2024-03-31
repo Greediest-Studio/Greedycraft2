@@ -1,0 +1,133 @@
+{
+    "name": "botanical_awakened",
+    "tool": {
+      "head": {
+        "attackDamage": 129,
+        "speed": 23.4,
+        "durability": 14645,
+        "harvestLevel": 12
+      },
+      "handle": {
+        "modifier": 2.6,
+        "durability": 6883
+      },
+      "extra": {
+        "durability": 8320
+      },
+      "bow": {
+        "speed": 0.5,
+        "range": 2,
+        "bonusDamage": 96
+      }
+    },
+    "color": "#8bb57a",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 2850,
+    "looks": {
+      "shininess": 0.8,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Awakened Botanical Spirit",
+      "zh_cn": "觉醒植物魂"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "gct_mobs:botanical_ingot_awakened"
+      ],
+      "block": [
+        "jaopca:block_blockbotanicalawakened"
+      ],
+      "nugget": [
+        "jaopca:item_nuggetbotanicalawakened"
+      ],
+      "ore": [
+      ],
+      "dust": [
+      ],
+      "plate": [
+      ],
+      "gear": [
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "defense": 108,
+        "durability": 670
+      },
+      "plates": {
+        "toughness": 14.25,
+        "modifier": 10.9,
+        "durability": 490
+      },
+      "trim": {
+        "extraDurability": 490
+      }
+    },
+    "specificTraits": {
+      "HEAD": [
+        "tconevo.mana_infused",
+        "tconevo.gaia_wrath",
+        "soul1"
+      ],
+      "HANDLE": [
+        "tconevo.mana_infused",
+        "tconevo.gaia_wrath",
+        "body"
+      ],
+      "EXTRA": [
+        "tconevo.mana_infused",
+        "tconevo.gaia_wrath",
+        "mind"
+      ],
+      "BOW": [
+        "tconevo.mana_infused",
+        "tconevo.gaia_wrath",
+        "soul1"
+      ],
+      "CORE": [
+        "tconevo.mana_infused_armor",
+        "tconevo.will_strength_armor",
+        "soul1"
+      ],
+      "PLATES": [
+        "tconevo.mana_infused_armor",
+        "tconevo.will_strength_armor",
+        "body"
+      ],
+      "TRIM": [
+        "tconevo.mana_infused_armor",
+        "tconevo.will_strength_armor",
+        "mind"
+      ]
+    }
+}
+  

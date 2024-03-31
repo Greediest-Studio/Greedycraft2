@@ -1,0 +1,65 @@
+{
+	title: "§b凋灵杀手 X",
+	icon: "minecraft:skull 1 1",
+	x: -0.5d,
+	y: 14.5d,
+	dependencies: [
+		"8ed0a6c8"
+	],
+	tasks: [{
+		uid: "a8ea209a",
+		type: "kill",
+		entity: "minecraft:wither",
+		value: 200L
+	}],
+	rewards: [{
+		uid: "5b171eb4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "1cdcb170",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "6770e221",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "53200419",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "8bc4d526",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	}]
+}

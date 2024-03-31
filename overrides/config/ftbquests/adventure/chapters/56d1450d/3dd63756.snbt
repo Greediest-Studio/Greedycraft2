@@ -1,0 +1,29 @@
+{
+	title: "§b隔空穿物",
+	x: -8.5d,
+	y: 7.5d,
+	description: "获得空中传输",
+	text: [
+		""
+	],
+	dependencies: [
+		"61895969"
+	],
+	tasks: [{
+		uid: "c451f76f",
+		type: "item",
+		items: [{
+			item: "extrabees:alveary 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "1ffa0f3e",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "3c81265d",
+		type: "loot",
+		table: 2
+	}]
+}

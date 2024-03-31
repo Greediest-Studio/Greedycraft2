@@ -1,0 +1,41 @@
+{
+	title: "§b万能指环",
+	x: 1.5d,
+	y: 3.0d,
+	description: "合成精灵王指环",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "5725b57e",
+		type: "item",
+		items: [{
+			item: "extrabotany:elvenking"
+		}]
+	}],
+	rewards: [{
+		uid: "d76e2d86",
+		type: "item",
+		item: "bountifulbaubles:disintegrationtablet"
+	},
+	{
+		uid: "4d5e1b46",
+		type: "item",
+		item: "bountifulbaubles:phantomprism"
+	},
+	{
+		uid: "c2fcd6b3",
+		type: "item",
+		item: "bountifulbaubles:spectralsilt"
+	},
+	{
+		uid: "48d53d0a",
+		type: "xp",
+		xp: 230
+	},
+	{
+		uid: "3a7e791e",
+		type: "random",
+		table: 1
+	}]
+}

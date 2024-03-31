@@ -1,0 +1,136 @@
+{
+  "name": "lithium",
+  "tool": {
+    "head": {
+      "attackDamage": 16,
+      "speed": 28,
+      "durability": 110,
+      "harvestLevel": 5
+    },
+    "handle": {
+      "modifier": 0.5,
+      "durability": 0
+    },
+    "extra": {
+        "durability": 80
+    },
+    "bow": {
+        "speed": 1.1,
+        "range": 1.1,
+        "bonusDamage": 6
+    }
+  },
+  "color": "#eeeeee",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 650,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Lithium",
+    "zh_cn": "锂"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "nuclearcraft:ingot:6"
+    ],
+    "block": [
+      "nuclearcraft:ingot_block:6"
+    ],
+    "nugget": [
+      "jaopca:item_nuggetlithium"
+    ],
+    "ore": [
+      "nuclearcraft:ore:6"
+    ],
+    "dust": [
+      "mekanism:otherdust:4"
+    ],
+    "plate": [
+      "jaopca:item_platelithium"
+    ],
+    "gear": [
+      "jaopca:item_gearlithium"
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 22,
+      "durability": 8
+    },
+    "plates": {
+      "toughness": 4,
+      "modifier": 0.3,
+      "durability": 5
+    },
+    "trim": {
+      "extraDurability": 4
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "unstable",
+      "alkalinity",
+      "ia_metals"
+    ],
+    "HANDLE": [
+      "unstable",
+      "alkalinity",
+      "ia_metals"
+    ],
+    "EXTRA": [
+      "unstable",
+      "alkalinity",
+      "ia_metals"
+    ],
+    "BOW": [
+      "unstable",
+      "alkalinity",
+      "ia_metals"
+    ],
+    "CORE": [
+      "unstable_armor",
+      "voltatic_armor",
+      "ia_metals_armor"
+    ],
+    "PLATES": [
+      "unstable_armor",
+      "voltatic_armor",
+      "ia_metals_armor"
+    ],
+    "TRIM": [
+      "unstable_armor",
+      "voltatic_armor",
+      "ia_metals_armor"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "recipe": {
+    "type": "forge:ore_shapeless",
+    "result": {
+      "item": "additions:taigaddon-void_essence",
+      "count": 9
+    },
+    "ingredients": [
+      {
+        "ore_name": "blockVoidEssence",
+        "type": "additions:ingredient_ore_nbt"
+      }
+    ]
+  },
+  "type": "additions:crafting_shapeless"
+}

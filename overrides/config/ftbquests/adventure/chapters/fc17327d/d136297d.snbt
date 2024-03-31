@@ -1,0 +1,41 @@
+{
+	title: "§b暮色的精华，凝聚于此",
+	x: -4.0d,
+	y: 7.5d,
+	description: "合成强化暮光宝石",
+	text: [
+		""
+	],
+	dependencies: [
+		"e252e6f5"
+	],
+	tasks: [{
+		uid: "632a2490",
+		type: "item",
+		items: [{
+			item: "additions:twilightaddon-refined_twilight_gem"
+		}]
+	}],
+	rewards: [{
+		uid: "2c1feecd",
+		type: "item",
+		item: "additions:greedycraft-twilight_gem",
+		count: 4
+	},
+	{
+		uid: "d9c30e3e",
+		type: "item",
+		item: "additions:greedycraft-twilight_shield",
+		count: 2
+	},
+	{
+		uid: "3040a8dd",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "11fbd96a",
+		type: "random",
+		table: 1
+	}]
+}

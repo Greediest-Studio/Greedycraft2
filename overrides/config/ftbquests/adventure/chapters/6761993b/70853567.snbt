@@ -1,0 +1,29 @@
+{
+	title: "§b这是熔炉吗？",
+	x: -7.5d,
+	y: 7.5d,
+	description: "制作血液注入器",
+	dependencies: [
+		"00fcf1c7"
+	],
+	tasks: [{
+		uid: "6dd52731",
+		type: "item",
+		items: [{
+			id: "evilcraft:blood_infuser",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2f48a87e",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "330d9e58",
+		type: "random",
+		table: 1
+	}]
+}

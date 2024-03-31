@@ -1,0 +1,31 @@
+{
+	title: "§b似乎……差了一点什么？",
+	x: -8.5d,
+	y: -3.5d,
+	description: "合成扭曲遗址门钥匙",
+	text: [
+		""
+	],
+	dependencies: [
+		"7165be1f"
+	],
+	tasks: [{
+		uid: "e5d4c031",
+		type: "item",
+		items: [{
+			item: "gct_aby:key_of_warped"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5864e83a",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "f61d0658",
+		type: "xp",
+		xp: 6400
+	}]
+}

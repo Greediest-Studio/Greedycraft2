@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "§3星空矿石",
+    "ore_dict": "oreNasalum",
+    "type": "additions:block_simple"
+  },
+  "name": "§3星空矿石",
+  "material": "minecraft:stone",
+  "hardness": 60.0,
+  "resistance": 4000.0,
+  "harvest_level": 12,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

@@ -1,0 +1,37 @@
+{
+	title: "§b无限白嫖？？",
+	x: 11.0d,
+	y: -3.0d,
+	description: "多出来的骰子就请做成袋子吧！",
+	text: [
+		""
+	],
+	dependencies: [
+		"ef72cb25"
+	],
+	tasks: [{
+		uid: "9b4950fd",
+		type: "item",
+		items: [{
+			id: "extrabotany:rewardbag943",
+			tag: {
+				weight: 171
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "ba1d14f6",
+		type: "item",
+		item: "botania:manaresource 1 14"
+	},
+	{
+		uid: "53cc7fb7",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "9314ea64",
+		type: "xp",
+		xp: 1000
+	}]
+}

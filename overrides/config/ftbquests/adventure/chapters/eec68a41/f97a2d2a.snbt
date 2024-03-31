@@ -1,0 +1,35 @@
+{
+	title: "§b兑换券",
+	x: 20.0d,
+	y: -6.0d,
+	description: "使用生命树构建器合成精灵通行证",
+	text: [
+		""
+	],
+	dependencies: [
+		"a627960c"
+	],
+	tasks: [{
+		uid: "13a6af91",
+		type: "item",
+		items: [{
+			item: "gct_mobs:elf_passes"
+		}]
+	}],
+	rewards: [{
+		uid: "b06b0c28",
+		type: "item",
+		item: "gct_mobs:elf_passes",
+		count: 4
+	},
+	{
+		uid: "304382da",
+		type: "xp",
+		xp: 8000
+	},
+	{
+		uid: "32112d1c",
+		type: "random",
+		table: 3
+	}]
+}

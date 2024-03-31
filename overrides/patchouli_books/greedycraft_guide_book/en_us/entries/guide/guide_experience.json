@@ -1,0 +1,32 @@
+{
+    "name": "§5经验存储及使用",
+    "icon": "minecraft:experience_bottle",
+    "category": "patchouli:guide_category",
+    "pages": [
+       {
+            "type":"spotlight",
+            "item":"enderio:block_experience_obelisk",
+            "text":"$(6)经验方尖碑$()-$(c)novice_engineer$()解锁$(br)非常好用的用于存储经验的装置，经验可以以$(2)液态XP$()的形式存取，可通过$(4)管道$()来存取或用容器来存取，也可以直接通过$(5)GUI交互(配置IO)$()"
+       },
+       {
+            "type":"spotlight",
+            "item":"bloodmagic:experience_tome",
+            "text":"$(6)经验手册$()无阶段限制$(br)可以随身携带的存储经验的物品$(5)shift+右键$()用于存储经验,$(5)右键$()可提取$(6)经验手册$()内的经验"
+       },
+       {
+            "type":"spotlight",
+            "item":"openblocks:xp_drain",
+            "text":"$(6)经验地漏$()可搭配$(6)蓄水槽$()将自身的经验存入蓄水槽内化为$(2)流体经验$()$(br)将$(6)经验地漏$()放置在$(6)蓄水槽$()$(5)上方$()，使用时站在$(6)经验地漏$()上即可将经验存入$(6)蓄水槽$()"
+       },
+       {
+            "type":"spotlight",
+            "item":"openblocks:auto_enchantment_table",
+            "text":"可搭配$(6)经验蓄水槽$()使用-使用方法与$(c)原版$()$(6)附魔台$()一致$(br)配置GUI即可提取$(6)经验蓄水槽$()内的经验$(br2)$(2)较为节省经验"
+       },
+       {
+            "type":"spotlight",
+            "item":"openblocks:auto_anvil",
+            "text":"可搭配$(6)经验蓄水槽$()使用-使用方法与$(c)原版$()$(6)铁砧$()一致$(br)配置GUI即可提取$(6)经验蓄水槽$()内的经验$(br2)$(2)较为节省经验"
+       }
+    ]
+}

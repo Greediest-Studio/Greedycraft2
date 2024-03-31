@@ -1,0 +1,25 @@
+{
+	title: "§b击穿",
+	x: 6.0d,
+	y: 21.0d,
+	description: "通关梦魇世界",
+	text: [
+		"唯一的好处就是那个红色的星星了吧……"
+	],
+	tasks: [{
+		uid: "d9f15c0c",
+		type: "gamestage",
+		icon: "additions:greedycraft-vethea_token",
+		stage: "vethea_breaker"
+	}],
+	rewards: [{
+		uid: "e7ada7ee",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "86c85718",
+		type: "random",
+		table: 2
+	}]
+}

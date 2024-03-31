@@ -1,0 +1,35 @@
+{
+	title: "§b强大滤芯",
+	x: -16.0d,
+	y: -8.5d,
+	description: "获得雾朦海绵纤维，过滤效果极佳",
+	text: [
+		""
+	],
+	dependencies: [
+		"6a34845d"
+	],
+	tasks: [{
+		uid: "d13f3cd1",
+		type: "item",
+		items: [{
+			item: "mist:sponge_fibre_clear"
+		}]
+	}],
+	rewards: [{
+		uid: "2494f990",
+		type: "item",
+		item: "mist:sponge_fibre_clear",
+		count: 2
+	},
+	{
+		uid: "c11df6c5",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "dd4a77d6",
+		type: "xp",
+		xp: 5000
+	}]
+}

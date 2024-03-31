@@ -1,0 +1,49 @@
+{
+	title: "§b最大的背包",
+	x: 10.5d,
+	y: 0.0d,
+	description: "合成史诗背包！",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "36afe597",
+		type: "item",
+		items: [{
+			id: "simplybackpacks:epicbackpack",
+			tag: {
+				inv: {
+					Items: [],
+					Size: 99
+				},
+				filter: {
+					Items: [],
+					Size: 16
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					Inventory: [],
+					Filter: []
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f9b9a9d3",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "e654f38d",
+		type: "xp",
+		xp: 950
+	},
+	{
+		uid: "5d12e8b3",
+		type: "random",
+		table: 2
+	}]
+}

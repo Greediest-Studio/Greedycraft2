@@ -1,0 +1,125 @@
+{
+  "name": "blackiron",
+  "tool": {
+    "head": {
+      "attackDamage": 20,
+      "speed": 4,
+      "durability": 1200,
+      "harvestLevel": 6
+    },
+    "handle": {
+      "modifier": 1.7,
+      "durability": 0
+    },
+    "extra": {
+        "durability": 300
+    },
+    "bow": {
+        "speed": 3.2,
+        "range": 1.7,
+        "bonusDamage": 20
+    }
+  },
+  "color": "#101010",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 600,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Blackiron",
+    "zh_cn": "黑铁"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "extendedcrafting:material"
+    ],
+    "block": [
+      "extendedcrafting:storage"
+    ],
+    "nugget": [
+      "extendedcrafting:material:1"
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 30,
+      "durability": 40
+    },
+    "plates": {
+      "toughness": 6,
+      "modifier": 2.4,
+      "durability": 16
+    },
+    "trim": {
+      "extraDurability": 18
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "duritos",
+      "dense"
+    ],
+    "HANDLE": [
+      "duritos",
+      "depthdigger"
+    ],
+    "EXTRA": [
+      "duritos",
+      "depthdigger"
+    ],
+    "BOW": [
+      "duritos",
+      "dense"
+    ],
+    "CORE": [
+      "duritos_ranch_armor",
+      "subterranean_armor"
+    ],
+    "PLATES": [
+      "duritos_ranch_armor",
+      "dense_armor"
+    ],
+    "TRIM": [
+      "duritos_ranch_armor",
+      "dense_armor"
+    ]
+  }
+}

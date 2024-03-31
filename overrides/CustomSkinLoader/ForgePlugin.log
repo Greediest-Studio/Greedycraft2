@@ -1,0 +1,53 @@
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.FakeInterfacesTransformer$MinecraftTransformer
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING CLASS net.minecraft.client.Minecraft
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.FakeInterfacesTransformer$ThreadDownloadImageDataTransformer
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING CLASS net.minecraft.client.renderer.ThreadDownloadImageData
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.FakeInterfacesTransformer$ClientIResourceTransformer
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING CLASS net.minecraft.client.resources.IResource
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.FakeInterfacesTransformer$ClientIResourceManagerTransformer
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING CLASS net.minecraft.client.resources.IResourceManager
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.FakeInterfacesTransformer$IResourceTransformer
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING CLASS net.minecraft.resources.IResource
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.FakeInterfacesTransformer$IResourceManagerTransformer
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING CLASS net.minecraft.resources.IResourceManager
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$InitTransformer
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING SRG METHOD net.minecraft.client.resources.SkinManager::<init>(Lnet/minecraft/client/renderer/texture/TextureManager;Ljava/io/File;Lcom/mojang/authlib/minecraft/MinecraftSessionService;)V
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$LoadSkinTransformer
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING SRG METHOD net.minecraft.client.resources.SkinManager::func_152789_a(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;)Lnet/minecraft/util/ResourceLocation;
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager::loadSkin(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;)Lnet/minecraft/util/ResourceLocation;
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$LoadProfileTexturesTransformer
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING SRG METHOD net.minecraft.client.resources.SkinManager::func_152790_a(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;Z)V
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager::loadProfileTextures(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;Z)V
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$LoadSkinFromCacheTransformer
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING SRG METHOD net.minecraft.client.resources.SkinManager::func_152788_a(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map;
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager::loadSkinFromCache(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map;
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$Run0Transformer
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING SRG METHOD net.minecraft.client.resources.SkinManager$3::run()V
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager$3::run()V
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$Run1Transformer
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING SRG METHOD net.minecraft.client.resources.SkinManager$3$1::run()V
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager$3$1::run()V
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.PlayerTabTransformer$ScoreObjectiveTransformer
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING SRG METHOD net.minecraft.client.gui.GuiPlayerTabOverlay::func_175249_a(ILnet/minecraft/scoreboard/Scoreboard;Lnet/minecraft/scoreboard/ScoreObjective;)V
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING METHOD net.minecraft.client.gui.GuiPlayerTabOverlay::renderPlayerlist(ILnet/minecraft/scoreboard/Scoreboard;Lnet/minecraft/scoreboard/ScoreObjective;)V
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SpectatorMenuTransformer$PlayerMenuObjectTransformer
+[2024-03-31 21:01:30] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] REGISTERING SRG METHOD net.minecraft.client.gui.spectator.PlayerMenuObject::<init>(Lcom/mojang/authlib/GameProfile;)V
+[2024-03-31 21:01:34] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] Successfully transformed class net.minecraft.client.Minecraft
+[2024-03-31 21:01:36] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] Successfully transformed method <init> in class net.minecraft.client.gui.spectator.PlayerMenuObject
+[2024-03-31 21:01:37] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] Successfully transformed class net.minecraft.client.renderer.ThreadDownloadImageData
+[2024-03-31 21:01:37] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] Successfully transformed class net.minecraft.client.Minecraft
+[2024-03-31 21:01:37] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] Successfully transformed class net.minecraft.client.resources.IResourceManager
+[2024-03-31 21:01:37] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] Successfully transformed class net.minecraft.resources.IResourceManager
+[2024-03-31 21:01:38] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] Successfully transformed class net.minecraft.client.resources.IResourceManager
+[2024-03-31 21:01:38] [main/INFO] [CustomSkinLoader]: [CSL DEBUG] Successfully transformed class net.minecraft.resources.IResourceManager
+[2024-03-31 21:02:02] [Thread-5/INFO] [CustomSkinLoader]: [CSL DEBUG] Successfully transformed class net.minecraft.client.resources.IResource
+[2024-03-31 21:02:02] [Thread-5/INFO] [CustomSkinLoader]: [CSL DEBUG] Successfully transformed class net.minecraft.resources.IResource
+[2024-03-31 21:02:29] [Client thread/INFO] [CustomSkinLoader]: [CSL DEBUG] Successfully transformed class net.minecraft.client.resources.IResource
+[2024-03-31 21:02:30] [Client thread/INFO] [CustomSkinLoader]: [CSL DEBUG] Successfully transformed method <init> in class net.minecraft.client.resources.SkinManager
+[2024-03-31 21:02:30] [Client thread/INFO] [CustomSkinLoader]: [CSL DEBUG] Successfully transformed method func_152789_a in class net.minecraft.client.resources.SkinManager
+[2024-03-31 21:02:30] [Client thread/INFO] [CustomSkinLoader]: [CSL DEBUG] Successfully transformed method func_152790_a in class net.minecraft.client.resources.SkinManager
+[2024-03-31 21:02:30] [Client thread/INFO] [CustomSkinLoader]: [CSL DEBUG] Successfully transformed method func_152788_a in class net.minecraft.client.resources.SkinManager
+[2024-03-31 21:18:21] [Client thread/INFO] [CustomSkinLoader]: [CSL DEBUG] Successfully transformed method func_175249_a in class net.minecraft.client.gui.GuiPlayerTabOverlay
+[2024-03-31 21:20:35] [Client thread/INFO] [CustomSkinLoader]: [CSL DEBUG] Successfully transformed class net.minecraft.client.renderer.ThreadDownloadImageData
+[2024-03-31 21:21:09] [Client thread/INFO] [CustomSkinLoader]: [CSL DEBUG] Successfully transformed method run in class net.minecraft.client.resources.SkinManager$3
+[2024-03-31 21:21:25] [YL_kkx/INFO] [CustomSkinLoader]: [CSL DEBUG] Successfully transformed method run in class net.minecraft.client.resources.SkinManager$3$1

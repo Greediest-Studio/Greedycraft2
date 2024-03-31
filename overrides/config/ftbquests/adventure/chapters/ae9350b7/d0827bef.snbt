@@ -1,0 +1,32 @@
+{
+	title: "§b不一样的奖章",
+	x: 13.5d,
+	y: 9.0d,
+	description: "获得绿宝石赏金猎人奖章",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "05dba7fa",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-bounty_hunter_medal_emerald"
+		}]
+	}],
+	rewards: [{
+		uid: "f68ef97f",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "dad9591d",
+		type: "item",
+		item: "additions:greedycraft-bounty_hunter_medal_silver",
+		count: 3
+	},
+	{
+		uid: "2afd8cc3",
+		type: "xp",
+		xp: 5000
+	}]
+}

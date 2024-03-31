@@ -1,0 +1,39 @@
+{
+	title: "§b开门！",
+	x: 6.0d,
+	y: 0.5d,
+	description: "进入污泥地牢",
+	text: [
+		"使用炽炎铁锭点燃放置苔藓后的火盆并进行解密，进入污泥地牢"
+	],
+	dependencies: [
+		"27de749c"
+	],
+	tasks: [{
+		uid: "17a3df3e",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:octine_ingot"
+		}]
+	},
+	{
+		uid: "8cc72370",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:moss"
+		},
+		{
+			item: "thebetweenlands:items_plant_drop 1 30"
+		}]
+	}],
+	rewards: [{
+		uid: "f8697ded",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "37c2d2ed",
+		type: "xp",
+		xp: 3000
+	}]
+}

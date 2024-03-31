@@ -1,0 +1,31 @@
+{
+	title: "§b扭曲遗址，启动！",
+	x: -8.5d,
+	y: -1.0d,
+	description: "合成激活的深暗扭曲遗址门钥匙",
+	text: [
+		""
+	],
+	dependencies: [
+		"86a424f2"
+	],
+	tasks: [{
+		uid: "558250f5",
+		type: "item",
+		items: [{
+			item: "gct_aby:key_of_warped_active"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c88ce6a5",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "70cf6968",
+		type: "xp",
+		xp: 8400
+	}]
+}

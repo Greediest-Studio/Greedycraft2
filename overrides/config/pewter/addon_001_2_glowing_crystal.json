@@ -1,0 +1,115 @@
+{
+  "name": "glowing_crystal",
+  "tool": {
+    "head": {
+      "durability": 825,
+      "attackDamage": 8,
+      "speed": 6.525,
+      "harvestLevel": 4
+    },
+    "handle": {
+      "durability": 120,
+      "modifier": 1.025
+    },
+    "extra": {
+      "durability": 145
+    },
+    "bow": {
+      "attackDamage": 5.5,
+      "speed": 1.25,
+      "range": 1.3
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 61,
+      "defense": 23.25
+    },
+    "plates": {
+      "durability": 13.25,
+      "toughness": 2.75,
+      "modifier": 1.3
+    },
+    "trim": {
+      "durability": 13.5
+    }
+  },
+  "color": "#fefe4e",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 0,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Glowing Crystal",
+    "zh_cn": "荧光水晶"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:greedycraft-glowing_crystal"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": [
+      "tconevo.energized2",
+      "hellish"
+    ],
+    "HANDLE": [
+      "tconevo.energized2",
+      "hellish"
+    ],
+    "EXTRA": [
+      "tconevo.energized2",
+      "hellish"
+    ],
+    "BOW": [
+      "tconevo.energized2",
+      "hellish"
+    ],
+    "CORE": [
+      "tconevo.energized2_armor",
+      "hellish_armor"
+    ],
+    "PLATES": [
+      "tconevo.energized2_armor",
+      "hellish_armor"
+    ],
+    "TRIM": [
+      "tconevo.energized2_armor",
+      "hellish_armor"
+    ]
+  }
+}

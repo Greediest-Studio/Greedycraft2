@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: 6.5d,
+	dependencies: [
+		"518ac07a"
+	],
+	tasks: [{
+		uid: "3173b2b4",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-blueprint"
+		}]
+	}]
+}

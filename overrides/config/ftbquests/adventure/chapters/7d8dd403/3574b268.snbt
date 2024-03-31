@@ -1,0 +1,31 @@
+{
+	title: "§b凋零者的狂欢",
+	x: -4.5d,
+	y: 3.5d,
+	description: "合成诅咒：凋零",
+	text: [
+		""
+	],
+	dependencies: [
+		"d727497d"
+	],
+	tasks: [{
+		uid: "0e66a40d",
+		type: "item",
+		items: [{
+			item: "journey:witheringbeastorb"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b6f52780",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "47e32477",
+		type: "random",
+		table: 2
+	}]
+}

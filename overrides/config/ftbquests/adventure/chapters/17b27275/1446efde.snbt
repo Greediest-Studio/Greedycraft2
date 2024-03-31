@@ -1,0 +1,35 @@
+{
+	title: "§b坚硬而具有韧性",
+	x: 6.0d,
+	y: 4.5d,
+	description: "获得潜尾鳄的皮",
+	text: [
+		""
+	],
+	dependencies: [
+		"27de749c"
+	],
+	tasks: [{
+		uid: "f9da94c3",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "85715c7c",
+		type: "item",
+		item: "thebetweenlands:items_misc 1 4",
+		count: 4
+	},
+	{
+		uid: "e7d604ab",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "1fd42ead",
+		type: "random",
+		table: 2
+	}]
+}

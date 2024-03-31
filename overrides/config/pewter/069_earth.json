@@ -1,0 +1,94 @@
+{
+  "name": "earth",
+  "tool": {
+    "head": {
+      "attackDamage": 26.5,
+      "speed": 12.0,
+      "durability": 1000,
+      "harvestLevel": 8
+    },
+    "handle": {
+      "modifier": 2.0,
+      "durability": 420
+    },
+    "extra": {
+      "durability": 720
+    },
+    "bow": {
+      "speed": 2.0,
+      "range": 2.0,
+      "bonusDamage": 0.0
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 620.0,
+      "defense": 75
+    },
+    "plates": {
+      "modifier": 6.0,
+      "durability": 240.0,
+      "toughness": 3.5
+    },
+    "trim": {
+      "extraDurability": 310.0
+    }
+  },
+  "color": "#edbf6f",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Earth",
+    "zh_cn": "大地"
+  },
+  "smeltingItems": {
+    "ingot": ["gct_mobs:earth_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["aura_infused","wounded"],
+    "HANDLE": ["aura_infused","congenial"],
+    "EXTRA": ["aura_infused","congenial"],
+    "BOW": ["aura_infused","wounded"],
+    "CORE": ["aura_infused_armor","terrafirma1"],
+    "PLATES": ["aura_infused_armor","terrafirma1"],
+    "TRIM": ["aura_infused_armor","terrafirma1"]
+  }
+}

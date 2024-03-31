@@ -1,0 +1,14 @@
+{
+	x: 4.0d,
+	y: 8.5d,
+	dependencies: [
+		"b5405543"
+	],
+	tasks: [{
+		uid: "f65cac8a",
+		type: "item",
+		items: [{
+			item: "additions:taigaddon-cesium_ingot"
+		}]
+	}]
+}

@@ -1,0 +1,52 @@
+{
+	title: "§b晶蓝的碳单质",
+	x: -10.0d,
+	y: 7.5d,
+	description: "获得魔力钻石，你需要先发展【魔法·壹】",
+	text: [
+		""
+	],
+	dependencies: [
+		"002596c6"
+	],
+	tasks: [{
+		uid: "b8d8fe70",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "f4cd5ab6",
+		type: "item",
+		item: "botania:manaresource 1 2",
+		count: 2
+	},
+	{
+		uid: "a7102c81",
+		type: "item",
+		item: "botania:blacklotus"
+	},
+	{
+		uid: "b51cf541",
+		type: "item",
+		item: "botania:livingrock",
+		count: 16
+	},
+	{
+		uid: "fe793dfa",
+		type: "item",
+		item: "botania:livingwood",
+		count: 16
+	},
+	{
+		uid: "41f229f6",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "2a19f27e",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "§b沉浸工程？",
+	x: -19.0d,
+	y: -9.0d,
+	description: "制作升级：高温热解转化",
+	text: [
+		"可以产生杂酚油，不过可以分解的数量极少，速度大大降低"
+	],
+	dependencies: [
+		"1c4f2b80"
+	],
+	tasks: [{
+		uid: "79a144db",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 258"
+		}]
+	}],
+	rewards: [{
+		uid: "65065839",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "2f9ed0cc",
+		type: "xp",
+		xp: 1000
+	}]
+}

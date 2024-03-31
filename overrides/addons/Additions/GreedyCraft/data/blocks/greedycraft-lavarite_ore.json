@@ -1,0 +1,20 @@
+{
+  "item_block": {
+    "name": "§c熔浆矿石",
+    "ore_dict": "oreLavarite",
+    "type": "additions:block_simple"
+  },
+  "name": "§c熔浆矿石",
+  "material": "minecraft:stone",
+  "place_sound": "minecraft:block.stone.place",
+  "break_sound": "minecraft:block.stone.break",
+  "hit_sound": "minecraft:block.stone.hit",
+  "step_sound": "minecraft:block.stone.step",
+  "fall_sound": "minecraft:block.stone.fall",
+  "hardness": 50.0,
+  "resistance": 2000.0,
+  "harvest_level": 9,
+  "harvest_tool": "pickaxe",
+  "light_level": 13,
+  "type": "additions:simple"
+}

@@ -1,0 +1,36 @@
+{
+	title: "§b最高产的框架",
+	x: -9.0d,
+	y: -3.0d,
+	description: "获得极寒框架！",
+	text: [
+		"它不是用极寒锭做的……"
+	],
+	dependencies: [
+		"22251fc9"
+	],
+	tasks: [{
+		uid: "bfd51f6d",
+		type: "item",
+		items: [{
+			item: "morebees:framecooled"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9630ff93",
+		type: "item",
+		item: "morebees:framecooled"
+	},
+	{
+		uid: "8c262c2a",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "c5391938",
+		type: "loot",
+		table: 2
+	}]
+}

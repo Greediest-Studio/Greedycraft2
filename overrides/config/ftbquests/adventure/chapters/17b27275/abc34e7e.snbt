@@ -1,0 +1,35 @@
+{
+	title: "§b极限之魂",
+	x: -10.0d,
+	y: 0.5d,
+	description: "击杀扭曲遗址的生物，获得扭曲精魄",
+	text: [
+		""
+	],
+	dependencies: [
+		"02eb78b1"
+	],
+	tasks: [{
+		uid: "e6d4a414",
+		type: "item",
+		items: [{
+			item: "gct_aby:warped_soul"
+		}]
+	}],
+	rewards: [{
+		uid: "a4c24c54",
+		type: "item",
+		item: "gct_aby:warped_soul",
+		count: 4
+	},
+	{
+		uid: "387104c2",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "5d55b4d4",
+		type: "xp",
+		xp: 4000
+	}]
+}

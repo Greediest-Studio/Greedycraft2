@@ -1,0 +1,94 @@
+{
+  "name": "killer_alloy",
+  "tool": {
+    "head": {
+      "attackDamage": 50.0,
+      "speed": 3.0,
+      "durability": 3650,
+      "harvestLevel": 8
+    },
+    "handle": {
+      "modifier": 0.9,
+      "durability": 885
+    },
+    "extra": {
+      "durability": 725
+    },
+    "bow": {
+      "speed": 3.6,
+      "range": 0.9,
+      "bonusDamage": 8.0
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 246.0,
+      "defense": 59.0
+    },
+    "plates": {
+      "modifier": 2.0,
+      "durability": 86.0,
+      "toughness": 1.6
+    },
+    "trim": {
+      "extraDurability": 71.0
+    }
+  },
+  "color": "#550000",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Killer Alloy",
+    "zh_cn": "杀戮合金"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:eioaddon-killer_alloy_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["murder","adjustment_of_places"],
+    "HANDLE": ["murder","adjustment_of_places"],
+    "EXTRA": ["murder","adjustment_of_places"],
+    "BOW": ["murder","adjustment_of_places"],
+    "CORE": ["tconevo.reactive_armor","shielding_armor"],
+    "PLATES": ["tconevo.reactive_armor","shielding_armor"],
+    "TRIM": ["tconevo.reactive_armor","shielding_armor"]
+  }
+}

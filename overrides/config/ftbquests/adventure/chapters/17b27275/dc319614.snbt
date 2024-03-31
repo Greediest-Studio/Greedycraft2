@@ -1,0 +1,51 @@
+{
+	title: "§b这一切的前提",
+	x: 3.0d,
+	y: -7.0d,
+	description: "合成矩阵稳定机控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"bc81a549"
+	],
+	tasks: [{
+		uid: "b8e04f44",
+		type: "item",
+		items: [{
+			item: "modularmachinery:matrix_balancer_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "9ff18f3a",
+		type: "item",
+		item: {
+			id: "avaritia:block_resource",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "a51461cd",
+		type: "item",
+		item: {
+			id: "additions:greedycraft-protonium_block",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 4
+	},
+	{
+		uid: "cb25ccf7",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "29b990ca",
+		type: "xp",
+		xp: 10000
+	}]
+}

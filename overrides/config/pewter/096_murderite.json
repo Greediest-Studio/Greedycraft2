@@ -1,0 +1,140 @@
+{
+    "name": "murderite",
+    "tool": {
+      "head": {
+        "attackDamage": 136.6,
+        "speed": 12.2,
+        "durability": 21250,
+        "harvestLevel": 12
+      },
+      "handle": {
+        "modifier": 4.2,
+        "durability": 11975
+      },
+      "extra": {
+        "durability": 13800
+      },
+      "bow": {
+        "speed": 3.5,
+        "range": 3.2,
+        "bonusDamage": 192.5
+      }
+    },
+    "color": "#8e2b73",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 2950,
+    "looks": {
+      "shininess": 0.8,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Murderite",
+      "zh_cn": "血渊"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "additions:greedycraft-murderite_ingot"
+      ],
+      "block": [
+      ],
+      "nugget": [
+      ],
+      "ore": [
+      ],
+      "dust": [
+      ],
+      "plate": [
+      ],
+      "gear": [
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "defense": 149.5,
+        "durability": 628
+      },
+      "plates": {
+        "toughness": 13,
+        "modifier": 13.3,
+        "durability": 498
+      },
+      "trim": {
+        "extraDurability": 475
+      }
+    },
+    "specificTraits": {
+      "HEAD": [
+        "tconevo.bloodbound",
+        "tconevo.crystalys",
+        "living2",
+        "moretcon.bloody_arc",
+        "blood_reaper"
+      ],
+      "HANDLE": [
+        "tconevo.bloodbound",
+        "living",
+        "moretcon.bloody_arc",
+        "blood_reaper"
+      ],
+      "EXTRA": [
+        "tconevo.bloodbound",
+        "living",
+        "moretcon.bloody_arc",
+        "blood_reaper"
+      ],
+      "BOW": [
+        "tconevo.bloodbound",
+        "tconevo.crystalys",
+        "living2",
+        "moretcon.bloody_arc",
+        "blood_reaper"
+      ],
+      "CORE": [
+        "tconevo.soul_guard_armor",
+        "tconevo.sentient_armor",
+        "health_shield_armor",
+        "living2"
+      ],
+      "PLATES": [
+        "tconevo.soul_guard_armor",
+        "tconevo.sentient_armor",
+        "health_shield_armor",
+        "living"
+      ],
+      "TRIM": [
+        "tconevo.soul_guard_armor",
+        "tconevo.sentient_armor",
+        "health_shield_armor",
+        "living"
+      ]
+    }
+}
+  

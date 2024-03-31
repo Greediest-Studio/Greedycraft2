@@ -1,0 +1,29 @@
+{
+	title: "§b注入灵魂的机器框架",
+	x: 5.0d,
+	y: 4.5d,
+	description: "制作灵魂机器框架",
+	text: [
+		""
+	],
+	dependencies: [
+		"bbdde8fa"
+	],
+	tasks: [{
+		uid: "6e1acdc2",
+		type: "item",
+		items: [{
+			item: "enderio:item_material 1 53"
+		}]
+	}],
+	rewards: [{
+		uid: "eaa097dc",
+		type: "item",
+		item: "enderio:item_material 1 53"
+	},
+	{
+		uid: "4c845142",
+		type: "xp",
+		xp: 3000
+	}]
+}

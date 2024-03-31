@@ -1,0 +1,32 @@
+{
+	title: "§b第五周期第VIII族",
+	x: -3.0d,
+	y: 6.5d,
+	description: "在朦胧世界挖掘钌矿石",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "ae9759e8",
+		type: "item",
+		items: [{
+			item: "additions:mekaddon-ruthenium_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "301ff937",
+		type: "item",
+		item: "additions:mekaddon-ruthenium_ore",
+		count: 20
+	},
+	{
+		uid: "d603d0d7",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "3d250a9f",
+		type: "random",
+		table: 0
+	}]
+}

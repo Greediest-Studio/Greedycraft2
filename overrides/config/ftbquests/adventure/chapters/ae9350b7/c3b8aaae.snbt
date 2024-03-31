@@ -1,0 +1,26 @@
+{
+	title: "§b草药学合金",
+	x: 9.0d,
+	y: 19.5d,
+	description: "合成钢叶合金",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "c7434058",
+		type: "item",
+		items: [{
+			item: "moretcon:repitem 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "743a1805",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "7a9bd0ca",
+		type: "xp",
+		xp: 800
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "§bMAX",
+	x: 4.5d,
+	y: 3.0d,
+	description: "合成大型板条箱",
+	text: [
+		""
+	],
+	dependencies: [
+		"ae469a8f"
+	],
+	tasks: [{
+		uid: "a8670bea",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_giant_chest_large"
+		}]
+	}],
+	rewards: [{
+		uid: "0dc269a9",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "0c15ead4",
+		type: "item",
+		item: "actuallyadditions:block_giant_chest_large"
+	},
+	{
+		uid: "4759f55d",
+		type: "item",
+		item: "rftools:storage_scanner"
+	},
+	{
+		uid: "47eed377",
+		type: "random",
+		table: 1
+	}]
+}

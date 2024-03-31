@@ -1,0 +1,32 @@
+{
+	title: "§b水晶渗入了血液，发生了变化",
+	x: 0.5d,
+	y: 3.5d,
+	description: "制作晶簇块",
+	dependencies: [
+		"ef0c5794"
+	],
+	tasks: [{
+		uid: "74f9667c",
+		type: "item",
+		items: [{
+			item: "bloodmagic:decorative_brick 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "8b3230d0",
+		type: "item",
+		item: "bloodmagic:decorative_brick 1 2",
+		count: 4
+	},
+	{
+		uid: "c4291134",
+		type: "xp",
+		xp: 4800
+	},
+	{
+		uid: "268cf338",
+		type: "random",
+		table: 2
+	}]
+}

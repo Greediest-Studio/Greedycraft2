@@ -1,0 +1,45 @@
+{
+	title: "§b压力山大",
+	x: -22.0d,
+	y: -11.0d,
+	description: "制作压缩机",
+	text: [
+		""
+	],
+	dependencies: [
+		"56ae2c57"
+	],
+	tasks: [{
+		uid: "31ca7cd6",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 5s,
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "374564d0",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "71e8291c",
+		type: "xp",
+		xp: 450
+	}]
+}

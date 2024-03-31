@@ -1,0 +1,131 @@
+{
+    "name": "impetusite",
+    "tool": {
+      "head": {
+        "attackDamage": 30.1,
+        "speed": 10.6,
+        "durability": 12600,
+        "harvestLevel": 8
+      },
+      "handle": {
+        "modifier": 3.0,
+        "durability": 1520
+      },
+      "extra": {
+        "durability": 940
+      },
+      "bow": {
+        "speed": 0.88,
+        "range": 1.1,
+        "bonusDamage": 25
+      }
+    },
+    "color": "#eeeeee",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 920,
+    "looks": {
+      "shininess": 0.8,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Impetusite",
+      "zh_cn": "元动金属"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "additions:greedycraft-impetusite_ingot"
+      ],
+      "block": [
+      ],
+      "nugget": [
+      ],
+      "ore": [
+      ],
+      "dust": [
+      ],
+      "plate": [
+      ],
+      "gear": [
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "defense": 65,
+        "durability": 360
+      },
+      "plates": {
+        "toughness": 2.75,
+        "modifier": 5.5,
+        "durability": 87
+      },
+      "trim": {
+        "extraDurability": 111
+      }
+    },
+    "specificTraits": {
+      "HEAD": [
+        "moretcon.voidic",
+        "mirabile",
+        "diffuse"
+      ],
+      "HANDLE": [
+        "moretcon.voidic",
+        "mirabile",
+        "diffuse"
+      ],
+      "EXTRA": [
+        "moretcon.voidic",
+        "mirabile",
+        "diffuse"
+      ],
+      "BOW": [
+        "moretcon.voidic",
+        "mirabile",
+        "diffuse"
+      ],
+      "CORE": [
+        "visbarrier_armor",
+        "tconevo.gale_force1_armor",
+        "moretcon.voidic"
+      ],
+      "PLATES": [
+        "visbarrier_armor",
+        "tconevo.gale_force1_armor",
+        "moretcon.voidic"
+      ],
+      "TRIM": [
+        "visbarrier_armor",
+        "tconevo.gale_force1_armor",
+        "moretcon.voidic"
+      ]
+    }
+}
+  

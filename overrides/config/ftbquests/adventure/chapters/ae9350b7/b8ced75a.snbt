@@ -1,0 +1,34 @@
+{
+	title: "§b感谢你的贡献",
+	x: 4.5d,
+	y: 9.0d,
+	description: "击杀未辨认实体，获得城市保卫者勋章",
+	text: [
+		"城市保卫者勋章可以通过击杀未辨认实体获得，",
+		"在失落的城市维度会大量生成未辨认实体，",
+		"可以查看整合包手册以前往失落城市。"
+	],
+	tasks: [{
+		uid: "3ccbb191",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-city_defender_medal"
+		}]
+	}],
+	rewards: [{
+		uid: "7586a6f6",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "7ebdf4e6",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "5a81f263",
+		type: "item",
+		item: "additions:greedycraft-experience_ingot",
+		count: 30
+	}]
+}

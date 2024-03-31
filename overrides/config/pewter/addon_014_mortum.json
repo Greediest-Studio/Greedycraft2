@@ -1,0 +1,139 @@
+{
+  "name": "mortum",
+  "tool": {
+    "bow": {
+      "speed": 1.9,
+      "range": 1.4,
+      "bonusDamage": 8
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 18,
+      "speed": 11,
+      "durability": 5600,
+      "harvestLevel": 7
+    },
+    "handle": {
+      "modifier": 1.2,
+      "durability": 900
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 1.1
+    },
+    "extra": {
+      "durability": 450
+    }
+  },
+  "color": "#3f3f3f",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 600,
+  "looks": {
+    "shininess": 0.6,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Mortum",
+    "zh_cn": "黑金"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:greedycraft-mortum_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 250,
+      "defense": 35
+    },
+    "plates": {
+      "modifier": 2.8,
+      "durability": 100,
+      "toughness": 4
+    },
+    "trim": {
+      "extraDurability": 64
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "tconevo.juggernaut",
+      "twilight_hand5"
+    ],
+    "HEAD": [
+      "tconevo.juggernaut",
+      "twilight_hand5"
+    ],
+    "HANDLE": [
+      "tconevo.juggernaut",
+      "twilight_hand5"
+    ],
+    "BOW": [
+      "tconevo.juggernaut",
+      "twilight_hand5"
+    ],
+    "PROJECTILE": [
+      "tconevo.juggernaut",
+      "twilight_hand5"
+    ],
+    "CORE": [
+      "throny_armor",
+      "twilight_armor5_armor"
+    ],
+    "PLATES": [
+      "throny_armor",
+      "twilight_armor5_armor"
+    ],
+    "TRIM": [
+      "throny_armor",
+      "twilight_armor5_armor"
+    ]
+  }
+}

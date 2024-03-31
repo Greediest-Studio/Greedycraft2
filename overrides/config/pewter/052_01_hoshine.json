@@ -1,0 +1,69 @@
+{
+  "name": "hoshine",
+  "tool": {
+    "head": {
+      "attackDamage": 25,
+      "speed": 16,
+      "durability": 3500,
+      "harvestLevel": 7
+    }
+  },
+  "color": "#dc5dec",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 300,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD"
+  ],
+  "nameLocales": {
+    "en_us": "Hoshine",
+    "zh_cn": "璀璨结晶"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:greedycraft-brightine"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": [
+      "starlight_refined",
+      "make_believe",
+      "pinky",
+      "astraling"
+    ]
+  }
+}

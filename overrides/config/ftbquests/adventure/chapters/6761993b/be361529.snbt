@@ -1,0 +1,34 @@
+{
+	title: "§b炼金的开始",
+	x: -1.5d,
+	y: -2.5d,
+	description: "制作奥术粉尘",
+	dependencies: [
+		"154afd91"
+	],
+	tasks: [{
+		uid: "bfa1062b",
+		type: "item",
+		items: [{
+			item: "bloodmagic:arcane_ashes"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4c7ae86b",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "a3227211",
+		type: "item",
+		item: "bloodmagic:arcane_ashes",
+		count: 3
+	},
+	{
+		uid: "ec71b672",
+		type: "xp",
+		xp: 500
+	}]
+}

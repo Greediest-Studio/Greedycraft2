@@ -1,0 +1,41 @@
+{
+	title: "§b第一生产力",
+	x: -21.0d,
+	y: 1.5d,
+	description: "制作工业剪枝器",
+	text: [
+		""
+	],
+	dependencies: [
+		"02d65270"
+	],
+	tasks: [{
+		uid: "64feb8f8",
+		type: "item",
+		items: [{
+			id: "gendustry:industrial_grafter",
+			Damage: 100s,
+			tag: {
+				charge: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "654ff6d5",
+		type: "item",
+		item: "thermalfoundation:material 1 163",
+		count: 32
+	},
+	{
+		uid: "2c727ac7",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "60faefe7",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "§b生死置之度外",
+	x: 6.0d,
+	y: 7.5d,
+	description: "合成安赫护符，可阻挡大部分负面效果",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "ff16273c",
+		type: "item",
+		items: [{
+			item: "bountifulbaubles:trinketankhcharm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5a941ae5",
+		type: "item",
+		item: "bountifulbaubles:spectralsilt",
+		count: 10
+	},
+	{
+		uid: "0260b37e",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "4b474ec0",
+		type: "random",
+		table: 2
+	}]
+}

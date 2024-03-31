@@ -1,0 +1,312 @@
+{
+  "version": 2,
+  "location": "gct_mac:astral_portal",
+  "traits": {
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 0,
+        "mIO": 0,
+        "x": 52,
+        "y": 83,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 2,
+        "x": 106,
+        "y": 83,
+        "autoIO": false
+      }
+    ],
+    "background": "multiblocked:textures/astral_rejector.png",
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 77,
+      "y": 84,
+      "width": 23,
+      "height": 16,
+      "texture": "multiblocked:textures/arrow_1.png",
+      "fillDirection": 0
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "additions:greedycraft-astral_projector",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "renderer": {
+        "state": {
+          "id": "additions:greedycraft-astral_projector_2",
+          "meta": 0
+        },
+        "type": "blockstate"
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "astral_portal",
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "AAA     AAA",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           "
+      ],
+      [
+        "ABBAAAAABBA",
+        " C       C ",
+        " D       D ",
+        " D       D ",
+        " EA     AE ",
+        "           "
+      ],
+      [
+        "ABFFFFFFFBA",
+        "           ",
+        "           ",
+        "           ",
+        " A       A ",
+        "  AAA AAA  "
+      ],
+      [
+        " AFFFFFFFA ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "  A     A  "
+      ],
+      [
+        " AFFFFFFFA ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "  A     A  "
+      ],
+      [
+        " AFFFFFFFA ",
+        "   FC@CF   ",
+        "   C   C   ",
+        "   C   C   ",
+        "   C   C   ",
+        "   FCCCF   "
+      ],
+      [
+        " AFFFFFFFA ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "  A     A  "
+      ],
+      [
+        " AFFFFFFFA ",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "  A     A  "
+      ],
+      [
+        "ABFFFFFFFBA",
+        "           ",
+        "           ",
+        "           ",
+        " A       A ",
+        "  AAA AAA  "
+      ],
+      [
+        "ABBAAAAABBA",
+        " C       C ",
+        " D       D ",
+        " D       D ",
+        " EA     AE ",
+        "           "
+      ],
+      [
+        "AAA     AAA",
+        "           ",
+        "           ",
+        "           ",
+        "           ",
+        "           "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "gct_mac:astral_portal",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 6
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "astralsorcery:blockmarble",
+            "meta": 4
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "astralsorcery:blockblackmarble",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

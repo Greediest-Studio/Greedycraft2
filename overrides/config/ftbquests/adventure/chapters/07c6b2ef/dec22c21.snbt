@@ -1,0 +1,29 @@
+{
+	title: "§b冷却剂",
+	x: -2.0d,
+	y: -9.5d,
+	description: "制作升级：熵增抑制容器",
+	text: [
+		"工作需要消耗冷却剂，但是效率大大提高"
+	],
+	dependencies: [
+		"acd9d2d8"
+	],
+	tasks: [{
+		uid: "899ac5da",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 656"
+		}]
+	}],
+	rewards: [{
+		uid: "106a2f34",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "31aa4942",
+		type: "xp",
+		xp: 1000
+	}]
+}

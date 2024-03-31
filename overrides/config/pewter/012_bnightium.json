@@ -1,0 +1,153 @@
+{
+    "name": "bnightium",
+    "tool": {
+      "bow": {
+        "speed": 1.4,
+        "range": 1.0,
+        "bonusDamage": 36
+      },
+      "fletching": {
+        "accuracy": 0.5,
+        "modifier": 0.0
+      },
+      "head": {
+        "attackDamage": 31.1,
+        "speed": 26.7,
+        "durability": 39600,
+        "harvestLevel": 10
+      },
+      "handle": {
+        "modifier": 2.45,
+        "durability": 2600
+      },
+      "arrowShaft": {
+        "modifier": 1.1,
+        "bonusAmmo": 5
+      },
+      "bowstring": {
+        "modifier": 1.1
+      },
+      "extra": {
+        "durability": 2475
+      }
+    },
+    "color": "#C8A04D",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 1000,
+    "looks": {
+      "shininess": 0.6,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "PROJECTILE",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Bnightium",
+      "zh_cn": "夜明"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "additions:greedycraft-bnightium_ingot"
+      ],
+      "block": [
+        "additions:greedycraft-bnightium_block"
+      ],
+      "nugget": [
+        "gct_ores:bnightium_nugget"
+      ],
+      "ore": [
+        "additions:greedycraft-bnightium_ore"
+      ],
+      "dust": [
+        "jaopca:item_dustbnightium"
+      ],
+      "plate": [
+        "jaopca:item_platebnightium"
+      ],
+      "gear": [
+        "jaopca:item_gearbnightium"
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "durability": 782,
+        "defense": 72
+      },
+      "plates": {
+        "modifier": 11,
+        "durability": 265,
+        "toughness": 9.5
+      },
+      "trim": {
+        "extraDurability": 234
+      }
+    },
+    "specificTraits": {
+      "EXTRA": [
+        "bright",
+        "glimmer",
+        "bane_of_night"
+      ],
+      "HEAD": [
+        "bright",
+        "glimmer",
+        "bane_of_night"
+      ],
+      "HANDLE": [
+        "bright",
+        "glimmer",
+        "bane_of_night"
+      ],
+      "BOW": [
+        "bright",
+        "glimmer",
+        "bane_of_night"
+      ],
+      "PROJECTILE": [
+        "bright",
+        "glimmer",
+        "bane_of_night"
+      ],
+      "CORE": [
+        "mundane1_armor",
+        "invigorating_armor",
+        "vision_armor"
+      ],
+      "PLATES": [
+        "mundane1_armor",
+        "invigorating_armor",
+        "vision_armor"
+      ],
+      "TRIM": [
+        "mundane1_armor",
+        "invigorating_armor",
+        "vision_armor"
+      ]
+    }
+  }

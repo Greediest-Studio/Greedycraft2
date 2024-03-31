@@ -1,0 +1,19 @@
+{
+  "item_block": {
+    "name": "曼切斯特矿石",
+    "ore_dict": "oreMangisite",
+    "type": "additions:block_simple"
+  },
+  "name": "曼切斯特矿石",
+  "material": "minecraft:stone",
+  "place_sound": "minecraft:block.slime.place",
+  "break_sound": "minecraft:block.slime.break",
+  "hit_sound": "minecraft:block.slime.hit",
+  "step_sound": "minecraft:block.slime.step",
+  "fall_sound": "minecraft:block.slime.fall",
+  "hardness": 30.0,
+  "resistance": 4000.0,
+  "harvest_level": 7,
+  "harvest_tool": "shovel",
+  "type": "additions:simple"
+}

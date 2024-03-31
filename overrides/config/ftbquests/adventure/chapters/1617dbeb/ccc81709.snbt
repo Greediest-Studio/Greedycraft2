@@ -1,0 +1,20 @@
+{
+	title: "§b魂魄出窍",
+	x: -11.5d,
+	y: -3.0d,
+	text: [
+		"合成离魂匕首，击杀怪物有概率掉落对应的灵魂碎片"
+	],
+	dependencies: [
+		"dc53619a"
+	],
+	tasks: [{
+		uid: "445cda94",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:soulium_dagger"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

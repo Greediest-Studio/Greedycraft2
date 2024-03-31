@@ -1,0 +1,133 @@
+{
+  "name": "hermaphroditic",
+  "tool": {
+    "head": {
+      "attackDamage": 68,
+      "speed": 36,
+      "durability": 8400,
+      "harvestLevel": 11
+    },
+    "handle": {
+      "modifier": 3,
+      "durability": 4000
+    },
+    "extra": {
+        "durability": 3600
+    },
+    "bow": {
+        "speed": 0.1,
+        "range": 1.6,
+        "bonusDamage": 46
+    }
+  },
+  "color": "#8f4d4a",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 6000,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Hermaphroditic Artifact",
+    "zh_cn": "阴阳宝晶"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "gct_ores:hermaphroditic_artifact"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 108,
+      "durability": 600
+    },
+    "plates": {
+      "toughness": 8,
+      "modifier": 10,
+      "durability": 240
+    },
+    "trim": {
+      "extraDurability": 140
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "natureswrath",
+      "naturesblessing",
+      "naturespower"
+    ],
+    "HANDLE": [
+      "natureswrath",
+      "naturesblessing",
+      "naturespower"
+    ],
+    "EXTRA": [
+      "natureswrath",
+      "naturesblessing",
+      "naturespower"
+    ],
+    "BOW": [
+      "natureswrath",
+      "naturesblessing",
+      "naturespower"
+    ],
+    "CORE": [
+      "second_life_armor",
+      "terrafirma1",
+      "warp_drain_armor",
+      "crystal_force_armor"
+    ],
+    "PLATES": [
+      "second_life_armor",
+      "terrafirma1",
+      "warp_drain_armor",
+      "crystal_force_armor"
+    ],
+    "TRIM": [
+      "second_life_armor",
+      "terrafirma1",
+      "warp_drain_armor",
+      "crystal_force_armor"
+    ]
+  }
+}

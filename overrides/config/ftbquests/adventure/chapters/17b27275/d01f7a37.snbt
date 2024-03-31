@@ -1,0 +1,34 @@
+{
+	title: "§b培养的理由",
+	x: 4.0d,
+	y: 10.5d,
+	description: "获得一桶木桶装植物营养剂",
+	text: [
+		""
+	],
+	dependencies: [
+		"7f253db5",
+		"3ffe3291"
+	],
+	tasks: [{
+		uid: "1a5eb852",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:bl_bucket_plant_tonic",
+			tag: {
+				usages: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c55ca3ac",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "ca01e7f9",
+		type: "xp",
+		xp: 8000
+	}]
+}

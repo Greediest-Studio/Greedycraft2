@@ -1,0 +1,16 @@
+{
+  "preset_block": "additions:taigaddon-xenidium_ore",
+  "pools": [
+    {
+      "name": "block_itself_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:taigaddon-xenidium_ore"
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_itself"
+}

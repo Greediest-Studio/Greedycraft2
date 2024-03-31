@@ -1,0 +1,35 @@
+{
+	title: "§b闪耀着微光的方块",
+	x: 3.5d,
+	y: -0.5d,
+	description: "制作精灵门核心",
+	text: [
+		""
+	],
+	dependencies: [
+		"510e562b"
+	],
+	tasks: [{
+		uid: "c8184089",
+		type: "item",
+		items: [{
+			item: "botania:alfheimportal"
+		}]
+	}],
+	rewards: [{
+		uid: "bac9bcb1",
+		type: "item",
+		item: "botania:livingwood",
+		count: 16
+	},
+	{
+		uid: "e59976a7",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "eb9aa8df",
+		type: "xp",
+		xp: 800
+	}]
+}

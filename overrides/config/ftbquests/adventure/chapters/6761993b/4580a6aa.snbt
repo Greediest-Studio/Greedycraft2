@@ -1,0 +1,34 @@
+{
+	title: "§b这看起来不太像石板？",
+	x: -7.5d,
+	y: 1.5d,
+	description: "使用一级血之祭坛制作空白石板",
+	text: [
+		""
+	],
+	dependencies: [
+		"30e20165"
+	],
+	tasks: [{
+		uid: "21383252",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate"
+		}]
+	}],
+	rewards: [{
+		uid: "75138517",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "f2c0c6f7",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "3e95c826",
+		type: "item",
+		item: "extrautils2:compressedcobblestone 1 2"
+	}]
+}

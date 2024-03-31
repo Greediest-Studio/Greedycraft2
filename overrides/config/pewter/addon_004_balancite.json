@@ -1,0 +1,156 @@
+{
+    "name": "balancite",
+    "tool": {
+      "bow": {
+        "speed": 0.85,
+        "range": 1,
+        "bonusDamage": 10
+      },
+      "fletching": {
+        "accuracy": 0.5,
+        "modifier": 0.0
+      },
+      "head": {
+        "attackDamage": 10.85,
+        "speed": 10.1,
+        "durability": 1600,
+        "harvestLevel": 5
+      },
+      "handle": {
+        "modifier": 1.2,
+        "durability": 505
+      },
+      "arrowShaft": {
+        "modifier": 1.1,
+        "bonusAmmo": 5
+      },
+      "bowstring": {
+        "modifier": 1.1
+      },
+      "extra": {
+        "durability": 500
+      }
+    },
+    "color": "#01737f",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 800,
+    "looks": {
+      "shininess": 0.6,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "PROJECTILE",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Balancite",
+      "zh_cn": "守恒合金"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "additions:greedycraft-balancite_ingot"
+      ],
+      "block": [
+        "additions:greedycraft-balancite_block"
+      ],
+      "nugget": [
+      ],
+      "ore": [
+      ],
+      "dust": [
+      ],
+      "plate": [
+      ],
+      "gear": [
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "durability": 260,
+        "defense": 25.6
+      },
+      "plates": {
+        "modifier": 2.9,
+        "durability": 260,
+        "toughness": 3.5
+      },
+      "trim": {
+        "extraDurability": 260
+      }
+    },
+    "specificTraits": {
+      "EXTRA": [
+        "lightweight",
+        "tidal_force",
+        "superknockback",
+        "vision"
+      ],
+      "HEAD": [
+        "lightweight",
+        "tidal_force",
+        "superknockback",
+        "vision"
+      ],
+      "HANDLE": [
+        "lightweight",
+        "tidal_force",
+        "superknockback",
+        "vision"
+      ],
+      "BOW": [
+        "lightweight",
+        "tidal_force",
+        "superknockback",
+        "vision"
+      ],
+      "PROJECTILE": [
+        "lightweight",
+        "tidal_force",
+        "superknockback",
+        "vision"
+      ],
+      "CORE": [
+        "lightweight_armor",
+        "tidal_force_armor",
+        "skeletal_armor",
+        "vision_armor"
+      ],
+      "PLATES": [
+        "lightweight_armor",
+        "tidal_force_armor",
+        "skeletal_armor",
+        "vision_armor"
+      ],
+      "TRIM": [
+        "lightweight_armor",
+        "tidal_force_armor",
+        "skeletal_armor",
+        "vision_armor"
+      ]
+    }
+  }

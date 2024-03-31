@@ -1,0 +1,44 @@
+{
+	title: "§b什么都能烧",
+	x: 0.0d,
+	y: -15.0d,
+	description: "制作弱化能源炉",
+	text: [
+		""
+	],
+	dependencies: [
+		"21e1125d"
+	],
+	tasks: [{
+		uid: "15c53fcc",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			Damage: 4s,
+			tag: {
+				Facing: 1b,
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7385783d",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 32,
+		random_bonus: 32
+	},
+	{
+		uid: "e92bcff2",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "52239248",
+		type: "random",
+		table: 1
+	}]
+}

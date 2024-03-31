@@ -1,0 +1,143 @@
+{
+  "name": "rubidium",
+  "tool": {
+    "head": {
+      "attackDamage": 16,
+      "speed": 39,
+      "durability": 30,
+      "harvestLevel": 5
+    },
+    "handle": {
+      "modifier": 0.08,
+      "durability": -200
+    },
+    "extra": {
+        "durability": 20
+    },
+    "bow": {
+        "speed": 0.8,
+        "range": 2,
+        "bonusDamage": 20
+    }
+  },
+  "color": "#aa0000",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 400,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Rubidium",
+    "zh_cn": "铷"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:taigaddon-rubidium_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 21,
+      "durability": 3
+    },
+    "plates": {
+      "toughness": 5,
+      "modifier": 0.07,
+      "durability": 1.4
+    },
+    "trim": {
+      "extraDurability": 0.9
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "unstable",
+      "chemical_instable",
+      "alkalinity",
+      "ia_metals2"
+    ],
+    "HANDLE": [
+      "unstable",
+      "chemical_instable",
+      "alkalinity",
+      "moretcon.liquid",
+      "ia_metals2"
+    ],
+    "EXTRA": [
+      "unstable",
+      "chemical_instable",
+      "alkalinity",
+      "moretcon.liquid",
+      "ia_metals2"
+    ],
+    "BOW": [
+      "unstable",
+      "chemical_instable",
+      "alkalinity",
+      "moretcon.liquid",
+      "ia_metals2"
+    ],
+    "CORE": [
+      "unstable_armor",
+      "smooth_armor",
+      "invigorating_armor",
+      "moretcon.liquid",
+      "ia_metals2_armor"
+    ],
+    "PLATES": [
+      "unstable_armor",
+      "smooth_armor",
+      "invigorating_armor",
+      "moretcon.liquid",
+      "ia_metals2_armor"
+    ],
+    "TRIM": [
+      "unstable_armor",
+      "smooth_armor",
+      "invigorating_armor",
+      "moretcon.liquid",
+      "ia_metals2_armor"
+    ]
+  }
+}

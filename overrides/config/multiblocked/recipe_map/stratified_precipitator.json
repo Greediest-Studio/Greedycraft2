@@ -1,0 +1,61 @@
+{
+  "name": "stratified_precipitator",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "fuelThreshold": 100,
+  "recipes": [
+    {
+      "uid": "poor_brine",
+      "duration": 200,
+      "inputs": {
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"poor_brine\",Amount:10000}"
+          },
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"sodium_chloroplatinate_solution\",Amount:666}"
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 4,
+              "matches": [
+                "{id:\"additions:mekaddon-potassium_chloroplatinate\",Count:4,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"additions:mekaddon-rubidium_chloroplatinate\",Count:1,Damage:0s}"
+              ]
+            }
+          },
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"additions:mekaddon-cesium_chloroplatinate\",Count:1,Damage:0s}"
+              ]
+            }
+          }
+        ],
+        "fluid": [
+          {
+            "chance": 1.0,
+            "content": "{FluidName:\"water\",Amount:10000}"
+          }
+        ]
+      }
+    }
+  ]
+}

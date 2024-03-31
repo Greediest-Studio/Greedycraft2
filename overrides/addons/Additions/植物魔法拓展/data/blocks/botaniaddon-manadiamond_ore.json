@@ -1,0 +1,17 @@
+{
+  "item_block": {
+    "name": "魔力钻石矿石",
+    "ore_dict": "oreManaDiamond",
+    "type": "additions:block_simple"
+  },
+  "name": "魔力钻石矿石",
+  "material": "minecraft:stone",
+  "hardness": 3.0,
+  "resistance": 10.0,
+  "harvest_level": 4,
+  "harvest_tool": "pickaxe",
+  "light_level": 5,
+  "xp_dropped_min": 6,
+  "xp_dropped_max": 14,
+  "type": "additions:simple"
+}

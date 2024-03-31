@@ -1,0 +1,45 @@
+{
+	title: "§b只能起一点作用吧……",
+	x: -20.0d,
+	y: -17.0d,
+	description: "制作有机灌注器",
+	text: [
+		""
+	],
+	dependencies: [
+		"56ae2c57"
+	],
+	tasks: [{
+		uid: "b07ecf9b",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 4s,
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1e6c6042",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "8723e01b",
+		type: "xp",
+		xp: 450
+	}]
+}

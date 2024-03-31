@@ -1,0 +1,293 @@
+{
+  "version": 2,
+  "location": "gct_mac:stratified_precipitator",
+  "traits": {
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 12,
+      "y": 47,
+      "width": 155,
+      "height": 77,
+      "texture": "multiblocked:textures/stratified_precipitator.png",
+      "fillDirection": 2
+    },
+    "forge_energy": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 15,
+      "y": 161,
+      "width": 145,
+      "height": 8,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": 0,
+      "capacity": 10000,
+      "maxReceive": 500,
+      "maxExtract": 500
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10000.0,
+    "harvestLevel": 8,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "actuallyadditions:block_misc",
+          "meta": 9
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "stratified_precipitator",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "AAAAA",
+        "ABBBA",
+        "ACCCA",
+        "ACCCA",
+        "ACCCA",
+        "ACCCA",
+        "ACCCA",
+        "ACCCA",
+        "ACCCA",
+        "ABBBA",
+        "ABBBA",
+        "AAAAA"
+      ],
+      [
+        "AAAAA",
+        "BDDDB",
+        "CEEEC",
+        "CEEEC",
+        "CEEEC",
+        "CEEEC",
+        "CEEEC",
+        "CEEEC",
+        "CEEEC",
+        "BEEEB",
+        "BAAAB",
+        "A   A"
+      ],
+      [
+        "AAAAA",
+        "BDDDB",
+        "CEAEC",
+        "CEAEC",
+        "CEAEC",
+        "CFAEC",
+        "CEAEC",
+        "CEAEC",
+        "CEAEC",
+        "BEAEB",
+        "BAAAB",
+        "A @ A"
+      ],
+      [
+        "AAAAA",
+        "BDDDB",
+        "CEEEC",
+        "CEEEC",
+        "CEEEC",
+        "CFFEC",
+        "CEEEC",
+        "CEEEC",
+        "CEEEC",
+        "BEEEB",
+        "BAAAB",
+        "A   A"
+      ],
+      [
+        "AAAAA",
+        "AGHGA",
+        "ACCCA",
+        "ACCCA",
+        "ACCCA",
+        "ACCCA",
+        "ACCCA",
+        "ACCCA",
+        "ACCCA",
+        "AIIIA",
+        "ABBBA",
+        "AAAAA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "actuallyadditions:block_misc",
+            "meta": 9
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "gct_mac:stratified_precipitator",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "jaopca:block_blockzirconiummolybdenum",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "appliedenergistics2:quartz_glass",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "thebetweenlands:filtered_silt",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "minecraft:water",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "minecraft:water",
+            "meta": 8
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "multiblocked:item_output",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_output",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_input",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

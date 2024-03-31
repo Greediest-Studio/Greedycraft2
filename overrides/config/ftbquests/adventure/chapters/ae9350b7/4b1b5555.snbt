@@ -1,0 +1,32 @@
+{
+	title: "§b全自动农场",
+	x: 9.0d,
+	y: 16.5d,
+	description: "获得收割机",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "e871d890",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:harvester_block"
+		}]
+	}],
+	rewards: [{
+		uid: "2cbc6118",
+		type: "item",
+		item: "additions:aeonsteel_ingot",
+		count: 2
+	},
+	{
+		uid: "8052760b",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "f9ebb42f",
+		type: "xp",
+		xp: 2000
+	}]
+}

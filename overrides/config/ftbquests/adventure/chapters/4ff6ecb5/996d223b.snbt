@@ -1,0 +1,44 @@
+{
+	title: "§b腐化裂隙？超逊的啦！",
+	x: 1.5d,
+	y: 2.0d,
+	description: "制作悖论物质",
+	text: [
+		"解锁悖论物质的研究需要多个前置",
+		"分别是;",
+		"结晶农场:扫描野生水晶簇;",
+		"vis电池:结晶农场解锁后出现于神秘学;",
+		"注魔:在制作源质冶炼厂后可解锁;",
+		"血腥仪式:先扫描血腥教徒,然后提交血腥仪式;",
+		"咒波与腐化裂隙:当区块内咒波高于一定值变可解锁咒波的研究,而咒波过多则会出现腐化裂缝",
+		"",
+		"注魔悖论物质需要一定稳定，如果有需要可以在解锁稳定器之后再进行注魔"
+	],
+	dependencies: [
+		"7920117c",
+		"577b454a"
+	],
+	tasks: [{
+		uid: "8beaf9fc",
+		type: "item",
+		items: [{
+			item: "thaumcraft:causality_collapser"
+		}]
+	}],
+	rewards: [{
+		uid: "bce36e4d",
+		type: "item",
+		item: "thaumcraft:causality_collapser",
+		count: 3
+	},
+	{
+		uid: "14617b49",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "d16c0eab",
+		type: "loot",
+		table: 2
+	}]
+}

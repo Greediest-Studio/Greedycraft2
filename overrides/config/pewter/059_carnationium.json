@@ -1,0 +1,124 @@
+{
+    "name": "carnationium",
+    "tool": {
+      "head": {
+        "attackDamage": 40,
+        "speed": 8.9,
+        "durability": 3100,
+        "harvestLevel": 10
+      },
+      "handle": {
+        "modifier": 1.6,
+        "durability": 1300
+      },
+      "extra": {
+        "durability": 1480
+      },
+      "bow": {
+        "speed": 1.7,
+        "range": 0.9,
+        "bonusDamage": 50
+      }
+    },
+    "color": "#fadcf9",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 850,
+    "looks": {
+      "shininess": 0.8,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Carnationium",
+      "zh_cn": "康乃馨"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "gct_mobs:carnationium_ingot"
+      ],
+      "block": [
+      ],
+      "nugget": [
+      ],
+      "ore": [
+      ],
+      "dust": [
+      ],
+      "plate": [
+      ],
+      "gear": [
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "defense": 69,
+        "durability": 360
+      },
+      "plates": {
+        "toughness": 4,
+        "modifier": 3.8,
+        "durability": 278
+      },
+      "trim": {
+        "extraDurability": 278
+      }
+    },
+    "specificTraits": {
+      "HEAD": [
+        "tconevo.mana_infused",
+        "star_dashing"
+      ],
+      "HANDLE": [
+        "tconevo.mana_infused",
+        "star_dashing"
+      ],
+      "EXTRA": [
+        "tconevo.mana_infused",
+        "star_dashing"
+      ],
+      "BOW": [
+        "tconevo.mana_infused",
+        "star_dashing"
+      ],
+      "CORE": [
+        "tconevo.mana_infused_armor",
+        "overrestrain_armor"
+      ],
+      "PLATES": [
+        "tconevo.mana_infused_armor",
+        "overrestrain_armor"
+      ],
+      "TRIM": [
+        "tconevo.mana_infused_armor",
+        "overrestrain_armor"
+      ]
+    }
+}
+  

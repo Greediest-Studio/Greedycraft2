@@ -1,0 +1,139 @@
+{
+  "name": "corrupted_stone",
+  "tool": {
+    "bow": {
+      "speed": 3.0,
+      "range": 1.0,
+      "bonusDamage": 5
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 7.25,
+      "speed": 4,
+      "durability": 850,
+      "harvestLevel": 3
+    },
+    "handle": {
+      "modifier": 1.2,
+      "durability": 600
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 1.1
+    },
+    "extra": {
+      "durability": 600
+    }
+  },
+  "color": "#081D43",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 820,
+  "looks": {
+    "shininess": 0.2,
+    "brightness": 0.1,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Corrupted Stone",
+    "zh_cn": "堕落石"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "divinerpg:corrupted_stone"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 100,
+      "defense": 14
+    },
+    "plates": {
+      "modifier": 1.1,
+      "durability": 35,
+      "toughness": 1.0
+    },
+    "trim": {
+      "extraDurability": 25
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "tconevo.corrupting",
+      "dark"
+    ],
+    "HEAD": [
+      "tconevo.corrupting",
+      "dark"
+    ],
+    "HANDLE": [
+      "tconevo.corrupting",
+      "dark"
+    ],
+    "BOW": [
+      "tconevo.corrupting",
+      "dark"
+    ],
+    "PROJECTILE": [
+      "tconevo.corrupting",
+      "dark"
+    ],
+    "CORE": [
+      "over_heavy_armor",
+      "petravidity_armor"
+    ],
+    "PLATES": [
+      "over_heavy_armor",
+      "petravidity_armor"
+    ],
+    "TRIM": [
+      "over_heavy_armor",
+      "petravidity_armor"
+    ]
+  }
+}

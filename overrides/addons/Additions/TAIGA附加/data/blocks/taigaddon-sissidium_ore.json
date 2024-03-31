@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "希斯蒂姆矿石",
+    "ore_dict": "oreSissidium",
+    "type": "additions:block_simple"
+  },
+  "name": "希斯蒂姆矿石",
+  "material": "minecraft:stone",
+  "hardness": 50.0,
+  "resistance": 4000.0,
+  "harvest_level": 10,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

@@ -1,0 +1,124 @@
+{
+    "name": "chrysanthemium",
+    "tool": {
+      "head": {
+        "attackDamage": 36,
+        "speed": 11.4,
+        "durability": 3900,
+        "harvestLevel": 10
+      },
+      "handle": {
+        "modifier": 1.4,
+        "durability": 1700
+      },
+      "extra": {
+        "durability": 1960
+      },
+      "bow": {
+        "speed": 0.4,
+        "range": 0.9,
+        "bonusDamage": 46
+      }
+    },
+    "color": "#ffa201",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 850,
+    "looks": {
+      "shininess": 0.8,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Chrysanthemium",
+      "zh_cn": "金雏菊"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "gct_mobs:chrysanthemium_ingot"
+      ],
+      "block": [
+      ],
+      "nugget": [
+      ],
+      "ore": [
+      ],
+      "dust": [
+      ],
+      "plate": [
+      ],
+      "gear": [
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "defense": 76,
+        "durability": 336
+      },
+      "plates": {
+        "toughness": 3,
+        "modifier": 3.6,
+        "durability": 272
+      },
+      "trim": {
+        "extraDurability": 272
+      }
+    },
+    "specificTraits": {
+      "HEAD": [
+        "tconevo.mana_infused",
+        "hold_ground"
+      ],
+      "HANDLE": [
+        "tconevo.mana_infused",
+        "hold_ground"
+      ],
+      "EXTRA": [
+        "tconevo.mana_infused",
+        "hold_ground"
+      ],
+      "BOW": [
+        "tconevo.mana_infused",
+        "hold_ground"
+      ],
+      "CORE": [
+        "tconevo.mana_infused_armor",
+        "first_guard_armor"
+      ],
+      "PLATES": [
+        "tconevo.mana_infused_armor",
+        "first_guard_armor"
+      ],
+      "TRIM": [
+        "tconevo.mana_infused_armor",
+        "first_guard_armor"
+      ]
+    }
+}
+  

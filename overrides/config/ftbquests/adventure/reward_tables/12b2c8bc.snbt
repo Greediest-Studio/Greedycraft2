@@ -1,0 +1,350 @@
+{
+	title: "随机奖励 §4[神话]",
+	loot_size: 1,
+	hide_tooltip: true,
+	use_title: true,
+	rewards: [{
+		item: "minecraft:bedrock",
+		count: 32
+	},
+	{
+		item: "tconevo:material",
+		count: 4
+	},
+	{
+		item: "additions:stainless_steel_ingot",
+		count: 32
+	},
+	{
+		item: "mysticalcreations:fusion_matrix_seeds",
+		count: 2
+	},
+	{
+		item: "gct_ores:everite_ingot",
+		count: 12
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		},
+		count: 4
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		},
+		count: 25
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		},
+		count: 40
+	},
+	{
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		},
+		count: 64
+	},
+	{
+		item: "taiga:adamant_ingot",
+		count: 4
+	},
+	{
+		item: "taiga:nihilite_ingot",
+		count: 16
+	},
+	{
+		item: "enderio:item_alloy_endergy_ingot 1 3",
+		count: 16
+	},
+	{
+		item: "additions:eioaddon-blackhole_alloy_ingot",
+		count: 8
+	},
+	{
+		item: "additions:greedycraft-creative_shard",
+		count: 2
+	},
+	{
+		item: {
+			id: "tconstruct:ingots",
+			Damage: 2s,
+			tag: {
+				display: {
+					Name: "\"玛灵玉\"锭"
+				}
+			}
+		},
+		count: 64
+	},
+	{
+		item: {
+			id: "draconicevolution:draconium_capacitor",
+			Damage: 1s,
+			tag: {
+				DEUpgrades: {
+					rfCap: 4b
+				},
+				Energy: 768000000
+			}
+		},
+		count: 2,
+		random_bonus: 1
+	},
+	{
+		item: "additions:tcsponsors-sponsors_chest",
+		count: 4
+	},
+	{
+		item: "projectex:matter 1 6"
+	},
+	{
+		item: "projectex:matter 1 5"
+	},
+	{
+		item: "projectex:matter 1 4",
+		count: 2
+	},
+	{
+		item: "projectex:matter 1 3",
+		count: 3
+	},
+	{
+		item: "projectex:matter 1 2",
+		count: 5
+	},
+	{
+		item: "projectex:matter 1 1",
+		count: 8
+	},
+	{
+		item: "minecraft:command_block"
+	},
+	{
+		item: "minecraft:barrier",
+		count: 4
+	},
+	{
+		item: "bountifulbaubles:trinketankhcharm"
+	},
+	{
+		item: "draconicevolution:chaotic_core",
+		count: 4
+	},
+	{
+		item: "gct_ores:stormy_core",
+		count: 4
+	},
+	{
+		item: "abyssalcraft:ethaxiumingot",
+		count: 16
+	},
+	{
+		item: "gct_mobs:sanite_ingot",
+		count: 4
+	},
+	{
+		item: "additions:greedycraft-extremium_essence",
+		count: 4
+	},
+	{
+		item: "additions:greedycraft-godlikeum_essence",
+		count: 2
+	},
+	{
+		item: "draconicevolution:draconium_ingot",
+		count: 32
+	},
+	{
+		item: "tiths:ingot_witherium",
+		count: 32
+	},
+	{
+		item: "thebetweenlands:syrmorite_block",
+		count: 4
+	},
+	{
+		item: "thebetweenlands:octine_block",
+		count: 4
+	},
+	{
+		item: "thebetweenlands:valonite_block",
+		count: 3
+	},
+	{
+		item: "botania:manaresource 1 5",
+		count: 24
+	},
+	{
+		item: "botania:manaresource 1 5",
+		count: 32
+	},
+	{
+		item: "gct_mobs:botanical_stone",
+		count: 2
+	},
+	{
+		item: "nyx:fallen_star",
+		count: 16
+	},
+	{
+		item: "mysticalagradditions:special 1 4",
+		count: 2
+	},
+	{
+		item: "mysticalagradditions:awakened_draconium_seeds",
+		count: 2
+	},
+	{
+		item: "bloodmagic:blood_rune 1 7",
+		count: 6
+	},
+	{
+		item: "bloodmagic:blood_rune 1 6",
+		count: 9
+	},
+	{
+		item: "bloodmagic:blood_rune 1 1",
+		count: 8
+	},
+	{
+		item: "gct_mobs:naturalline_scrap",
+		count: 2
+	},
+	{
+		item: "extendedcrafting:storage 1 2",
+		count: 16
+	},
+	{
+		item: "extendedcrafting:material 1 48",
+		count: 8
+	},
+	{
+		item: "extendedcrafting:material 1 36",
+		count: 35
+	},
+	{
+		item: "draconicevolution:wyvern_core",
+		count: 9
+	},
+	{
+		item: "gct_ores:fallen_core",
+		count: 9
+	},
+	{
+		item: "draconicevolution:awakened_core",
+		count: 4
+	},
+	{
+		item: "gct_ores:relifed_core",
+		count: 4
+	},
+	{
+		item: "tiths:ingot_stellarium",
+		count: 12
+	},
+	{
+		item: "additions:greedycraft-ordinary_medal"
+	},
+	{
+		item: "additions:greedycraft-creative_shard"
+	},
+	{
+		item: "additions:greedycraft-eugardite_ingot",
+		count: 5
+	},
+	{
+		item: "additions:greedycraft-pearl_of_knowledge",
+		count: 3
+	},
+	{
+		item: "additions:greedycraft-medkit_super",
+		count: 16
+	},
+	{
+		item: "additions:greedycraft-compressed_experience_block",
+		count: 64
+	},
+	{
+		item: "additions:taigaddon-void_essence",
+		count: 32
+	},
+	{
+		item: "additions:taigaddon-harcadium_ingot",
+		count: 64
+	},
+	{
+		item: "additions:taigaddon-adamantium_ingot",
+		count: 32
+	},
+	{
+		item: "additions:titanium_ingot",
+		count: 16
+	},
+	{
+		item: "additions:greedycraft-oceanium_ingot",
+		count: 16
+	},
+	{
+		item: "additions:greedycraft-mistium_ingot",
+		count: 16
+	},
+	{
+		item: "additions:greedycraft-bnightium_ingot",
+		count: 16
+	},
+	{
+		item: "tconstruct:materials 1 50",
+		count: 4
+	},
+	{
+		item: "avaritiatweaks:infinitato"
+	},
+	{
+		item: "botania_tweaks:compressed_tiny_potato_8"
+	},
+	{
+		item: "thaumcraft:primordial_pearl"
+	},
+	{
+		item: "additions:tcsponsors-sponsors_chest"
+	},
+	{
+		item: "additions:greedycraft-ancient_tome_page",
+		count: 3
+	},
+	{
+		item: "additions:greedycraft-ancient_tome"
+	},
+	{
+		item: "additions:sponsor2-chest"
+	},
+	{
+		item: "additions:greedycraft-blueprint_ring"
+	}],
+	loot_crate: {
+		string_id: "loot_level_5",
+		item_name: "奖励箱 §4[神话]",
+		color: 16711680,
+		glow: true,
+		drops: {
+			passive: 0,
+			monster: 0,
+			boss: 0
+		}
+	}
+}

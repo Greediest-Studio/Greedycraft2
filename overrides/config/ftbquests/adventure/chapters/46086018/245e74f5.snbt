@@ -1,0 +1,37 @@
+{
+	title: "§b欢迎来到洛式世界",
+	x: 6.5d,
+	y: 6.5d,
+	description: "获得一本深渊死灵之书",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "67169381",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:necronomicon",
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "191c3e48",
+		type: "item",
+		item: "abyssalcraft:statue",
+		count: 2
+	},
+	{
+		uid: "0ddfaf10",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "83c854b7",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,153 @@
+{
+    "name": "mistium",
+    "tool": {
+      "bow": {
+        "speed": 1.1,
+        "range": 1.0,
+        "bonusDamage": 19
+      },
+      "fletching": {
+        "accuracy": 0.5,
+        "modifier": 0.0
+      },
+      "head": {
+        "attackDamage": 34.7,
+        "speed": 21.9,
+        "durability": 21000,
+        "harvestLevel": 10
+      },
+      "handle": {
+        "modifier": 2.6,
+        "durability": 3400
+      },
+      "arrowShaft": {
+        "modifier": 1.1,
+        "bonusAmmo": 5
+      },
+      "bowstring": {
+        "modifier": 1.1
+      },
+      "extra": {
+        "durability": 3250
+      }
+    },
+    "color": "#FFFEFE",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 980,
+    "looks": {
+      "shininess": 0.6,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "PROJECTILE",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Mistium",
+      "zh_cn": "缥缈"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "additions:greedycraft-mistium_ingot"
+      ],
+      "block": [
+        "additions:greedycraft-mistium_block"
+      ],
+      "nugget": [
+        "gct_ores:mistium_nugget"
+      ],
+      "ore": [
+        "additions:greedycraft-mistium_ore"
+      ],
+      "dust": [
+        "jaopca:item_dustmistium"
+      ],
+      "plate": [
+        "jaopca:item_platemistium"
+      ],
+      "gear": [
+        "jaopca:item_gearmistium"
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "durability": 826,
+        "defense": 76
+      },
+      "plates": {
+        "modifier": 12,
+        "durability": 280,
+        "toughness": 9
+      },
+      "trim": {
+        "extraDurability": 218
+      }
+    },
+    "specificTraits": {
+      "EXTRA": [
+        "dreadpurity",
+        "dark",
+        "abysscalling"
+      ],
+      "HEAD": [
+        "dreadpurity",
+        "dark",
+        "abysscalling"
+      ],
+      "HANDLE": [
+        "dreadpurity",
+        "dark",
+        "abysscalling"
+      ],
+      "BOW": [
+        "dreadpurity",
+        "dark",
+        "abysscalling"
+      ],
+      "PROJECTILE": [
+        "dreadpurity",
+        "dark",
+        "abysscalling"
+      ],
+      "CORE": [
+        "dreadpurity",
+        "strong_vaccine_armor",
+        "vengeful_armor"
+      ],
+      "PLATES": [
+        "dreadpurity",
+        "strong_vaccine_armor",
+        "vengeful_armor"
+      ],
+      "TRIM": [
+        "dreadpurity",
+        "strong_vaccine_armor",
+        "vengeful_armor"
+      ]
+    }
+  }

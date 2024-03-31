@@ -1,0 +1,63 @@
+{
+  "preset_block": "additions:botaniaddon-manadiamond_ore",
+  "preset_dropStack": {
+    "item": "botania:manaresource",
+    "damage": 2
+  },
+  "preset_dropMin": 1,
+  "preset_fortunable": true,
+  "preset_silkTouchable": true,
+  "pools": [
+    {
+      "name": "item_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "botania:manaresource",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_data",
+              "data": 2
+            },
+            {
+              "function": "lootoverhaul:fortune_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "lootoverhaul:not",
+          "conditions": [
+            {
+              "condition": "lootoverhaul:silk_touch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "silk_touch_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:botaniaddon-manadiamond_ore",
+          "weight": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "lootoverhaul:silk_touch"
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_item_drop"
+}

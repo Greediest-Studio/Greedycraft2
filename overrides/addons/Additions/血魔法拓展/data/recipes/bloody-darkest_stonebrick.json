@@ -1,0 +1,25 @@
+{
+  "recipe": {
+    "type": "forge:ore_shaped",
+    "result": {
+      "item": "additions:bloody-darkest_stonebrick",
+      "count": 4
+    },
+    "key": {
+      "0": {
+        "stack_list": [
+          {
+            "item": "additions:bloody-darkest_stonebrick_large",
+            "damage": "any"
+          }
+        ],
+        "type": "additions:ingredient_ore_nbt"
+      }
+    },
+    "pattern": [
+      "00",
+      "00"
+    ]
+  },
+  "type": "additions:crafting_shaped"
+}

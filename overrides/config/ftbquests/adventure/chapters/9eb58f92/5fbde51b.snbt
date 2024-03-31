@@ -1,0 +1,35 @@
+{
+	title: "§b恭喜你，成功做出了一小步",
+	x: -5.0d,
+	y: 0.0d,
+	description: "制作富集合金",
+	text: [
+		""
+	],
+	dependencies: [
+		"f432f2f5"
+	],
+	tasks: [{
+		uid: "3c449037",
+		type: "item",
+		items: [{
+			item: "mekanism:enrichedalloy"
+		}]
+	}],
+	rewards: [{
+		uid: "61b0039c",
+		type: "item",
+		item: "mekanism:enrichedalloy",
+		count: 5
+	},
+	{
+		uid: "470925a1",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "d15e71d9",
+		type: "xp",
+		xp: 1000
+	}]
+}

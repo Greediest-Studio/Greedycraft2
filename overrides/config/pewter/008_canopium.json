@@ -1,0 +1,150 @@
+{
+    "name": "canopium",
+    "tool": {
+      "bow": {
+        "speed": 1.7,
+        "range": 1.0,
+        "bonusDamage": 30
+      },
+      "fletching": {
+        "accuracy": 0.5,
+        "modifier": 0.0
+      },
+      "head": {
+        "attackDamage": 22.2,
+        "speed": 19.7,
+        "durability": 10000,
+        "harvestLevel": 9
+      },
+      "handle": {
+        "modifier": 2.45,
+        "durability": 1000
+      },
+      "arrowShaft": {
+        "modifier": 1.1,
+        "bonusAmmo": 5
+      },
+      "bowstring": {
+        "modifier": 1.1
+      },
+      "extra": {
+        "durability": 1120
+      }
+    },
+    "color": "#82B1DC",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 820,
+    "looks": {
+      "shininess": 0.2,
+      "brightness": 0.1,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "PROJECTILE",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Canopium",
+      "zh_cn": "苍穹"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "additions:greedycraft-canopium_ingot"
+      ],
+      "block": [
+        "additions:greedycraft-canopium_block"
+      ],
+      "nugget": [
+        "gct_ores:canopium_nugget"
+      ],
+      "ore": [
+        "additions:greedycraft-canopium_ore"
+      ],
+      "dust": [
+        "jaopca:item_dustcanopium"
+      ],
+      "plate": [
+        "jaopca:item_platecanopium"
+      ],
+      "gear": [
+        "jaopca:item_gearcanopium"
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "durability": 400,
+        "defense": 69.7
+      },
+      "plates": {
+        "modifier": 9.2,
+        "durability": 102,
+        "toughness": 6
+      },
+      "trim": {
+        "extraDurability": 118
+      }
+    },
+    "specificTraits": {
+      "EXTRA": [
+        "twilit",
+        "synergy",
+        "shaking"
+      ],
+      "HEAD": [
+        "twilit",
+        "synergy",
+        "shaking"
+      ],
+      "HANDLE": [
+        "twilit",
+        "synergy",
+        "shaking"
+      ],
+      "BOW": [
+        "twilit",
+        "synergy",
+        "shaking"
+      ],
+      "PROJECTILE": [
+        "twilit",
+        "synergy",
+        "shaking"
+      ],
+      "CORE": [
+        "synergy",
+        "hyper_armor"
+      ],
+      "PLATES": [
+        "synergy",
+        "hyper_armor"
+      ],
+      "TRIM": [
+        "synergy",
+        "hyper_armor"
+      ]
+    }
+  }

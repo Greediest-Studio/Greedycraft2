@@ -1,0 +1,19 @@
+{
+  "item_block": {
+    "name": "§f碎雪矿石",
+    "ore_dict": "oreSnowingium",
+    "type": "additions:block_simple"
+  },
+  "name": "§f碎雪矿石",
+  "material": "minecraft:stone",
+  "place_sound": "minecraft:block.snow.place",
+  "break_sound": "minecraft:block.snow.break",
+  "hit_sound": "minecraft:block.snow.hit",
+  "step_sound": "minecraft:block.snow.step",
+  "fall_sound": "minecraft:block.snow.fall",
+  "hardness": 50.0,
+  "resistance": 2000.0,
+  "harvest_level": 9,
+  "harvest_tool": "shovel",
+  "type": "additions:simple"
+}

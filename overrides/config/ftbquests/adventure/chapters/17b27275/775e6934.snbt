@@ -1,0 +1,53 @@
+{
+	title: "§c【可重复】 暗黑终结",
+	x: 1.0d,
+	y: 11.5d,
+	description: "再次击杀恐怖的泥炭木乃伊",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"433f8f7f"
+	],
+	tasks: [{
+		uid: "4663ecaf",
+		type: "kill",
+		entity: "thebetweenlands:dreadful_mummy",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "d0381ce0",
+		type: "item",
+		item: "additions:greedycraft-bone_shard",
+		count: 8
+	},
+	{
+		uid: "e8abfeb6",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "2905de72",
+		type: "item",
+		item: "thebetweenlands:octine_block",
+		count: 4
+	},
+	{
+		uid: "7a9b6850",
+		type: "item",
+		item: "thebetweenlands:syrmorite_block",
+		count: 4
+	},
+	{
+		uid: "9fb4d641",
+		type: "item",
+		item: "thebetweenlands:scabyst_block",
+		count: 8
+	},
+	{
+		uid: "7038c1b8",
+		type: "xp",
+		xp: 10000
+	}]
+}

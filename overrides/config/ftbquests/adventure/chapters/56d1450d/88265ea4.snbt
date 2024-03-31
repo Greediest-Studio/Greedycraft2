@@ -1,0 +1,35 @@
+{
+	title: "§b授粉",
+	x: -7.5d,
+	y: 4.5d,
+	description: "获得花粉",
+	text: [
+		""
+	],
+	dependencies: [
+		"276f72e1"
+	],
+	tasks: [{
+		uid: "28fe982d",
+		type: "item",
+		items: [{
+			item: "forestry:pollen"
+		}]
+	}],
+	rewards: [{
+		uid: "d5fa6843",
+		type: "item",
+		item: "forestry:pollen",
+		count: 16
+	},
+	{
+		uid: "237fc247",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "6a109d76",
+		type: "xp",
+		xp: 800
+	}]
+}

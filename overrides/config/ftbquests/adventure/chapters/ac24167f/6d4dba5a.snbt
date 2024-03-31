@@ -1,0 +1,36 @@
+{
+	title: "§b自然帷幕",
+	x: 2.5d,
+	y: 0.0d,
+	description: "获得自然帷幕",
+	text: [
+		""
+	],
+	dependencies: [
+		"2fbf7ac5"
+	],
+	tasks: [{
+		uid: "fa150b1e",
+		type: "item",
+		items: [{
+			id: "additions:greedycraft-fabric_of_nature",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"distinctdamagedescriptions:dmgdistribution": [{
+					type: "ddd_bludgeoning",
+					weight: 1.0f
+				}]
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "bda3e405",
+		type: "xp",
+		xp: 8000
+	},
+	{
+		uid: "67bfd870",
+		type: "random",
+		table: 3
+	}]
+}

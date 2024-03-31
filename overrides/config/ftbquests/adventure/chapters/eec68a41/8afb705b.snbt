@@ -1,0 +1,35 @@
+{
+	title: "§b交易达成",
+	x: 20.0d,
+	y: -4.5d,
+	description: "使用精灵通行证与亚尔夫海姆的精灵换取自然结晶碎片，进而合成自然结晶",
+	text: [
+		""
+	],
+	dependencies: [
+		"f97a2d2a"
+	],
+	tasks: [{
+		uid: "4cc587e5",
+		type: "item",
+		items: [{
+			item: "gct_mobs:naturalline"
+		}]
+	}],
+	rewards: [{
+		uid: "325e5dcf",
+		type: "item",
+		item: "gct_mobs:naturalline",
+		count: 4
+	},
+	{
+		uid: "58087d27",
+		type: "xp",
+		xp: 8000
+	},
+	{
+		uid: "1112ab66",
+		type: "random",
+		table: 3
+	}]
+}

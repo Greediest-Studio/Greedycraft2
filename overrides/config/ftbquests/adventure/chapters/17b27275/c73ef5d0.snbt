@@ -1,0 +1,58 @@
+{
+	title: "§b重重叠叠：续章",
+	x: 0.0d,
+	y: -7.0d,
+	description: "获得叠金锭、闪金锭",
+	text: [
+		"两个最讨厌的金属"
+	],
+	dependencies: [
+		"bc81a549"
+	],
+	tasks: [{
+		uid: "2c823774",
+		type: "item",
+		items: [{
+			item: "additions:overlaite_ingot"
+		}]
+	},
+	{
+		uid: "1e2159a3",
+		type: "item",
+		items: [{
+			item: "additions:flashite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "d83ef314",
+		type: "item",
+		item: {
+			id: "additions:overlaite_ingot",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 12
+	},
+	{
+		uid: "7db42617",
+		type: "item",
+		item: {
+			id: "additions:flashite_ingot",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 12
+	},
+	{
+		uid: "fbc5cfa2",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "750e6228",
+		type: "xp",
+		xp: 10000
+	}]
+}

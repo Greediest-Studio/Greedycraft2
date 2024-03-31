@@ -1,0 +1,130 @@
+{
+  "name": "eucite",
+  "tool": {
+    "head": {
+      "attackDamage": 19,
+      "speed": 10.4,
+      "durability": 1400,
+      "harvestLevel": 8
+    },
+    "handle": {
+      "modifier": 1.8,
+      "durability": 1000
+    },
+    "extra": {
+        "durability": 1050
+    },
+    "bow": {
+        "speed": 3,
+        "range": 1.6,
+        "bonusDamage": 18
+    }
+  },
+  "color": "#ffffc5",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1315,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Eucite",
+    "zh_cn": "桉金"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:greedycraft-eucite_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 42,
+      "durability": 132
+    },
+    "plates": {
+      "toughness": 3,
+      "modifier": 7.5,
+      "durability": 65
+    },
+    "trim": {
+      "extraDurability": 90
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "diffuse",
+      "gamble",
+      "lighting5"
+    ],
+    "HANDLE": [
+      "diffuse",
+      "naturebound",
+      "lighting5"
+    ],
+    "EXTRA": [
+      "diffuse",
+      "naturebound",
+      "lighting5"
+    ],
+    "BOW": [
+      "diffuse",
+      "gamble",
+      "lighting5"
+    ],
+    "CORE": [
+      "reach",
+      "gamble_armor",
+      "lighting5_armor"
+    ],
+    "PLATES": [
+      "reach",
+      "tconevo.divine_grace_armor",
+      "lighting5_armor"
+    ],
+    "TRIM": [
+      "reach",
+      "tconevo.divine_grace_armor",
+      "lighting5_armor"
+    ]
+  }
+}

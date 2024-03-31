@@ -1,0 +1,41 @@
+{
+	title: "§b血库？",
+	x: -5.5d,
+	y: 9.5d,
+	description: "制作暗黑流体罐",
+	dependencies: [
+		"00fcf1c7"
+	],
+	tasks: [{
+		uid: "124702f3",
+		type: "item",
+		items: [{
+			id: "evilcraft:dark_tank",
+			tag: {
+				capacity: 16000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "068ceaaf",
+		type: "item",
+		item: {
+			id: "evilcraft:dark_tank",
+			tag: {
+				capacity: 64000
+			}
+		}
+	},
+	{
+		uid: "facb2946",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "b26dd56c",
+		type: "random",
+		table: 1
+	}]
+}

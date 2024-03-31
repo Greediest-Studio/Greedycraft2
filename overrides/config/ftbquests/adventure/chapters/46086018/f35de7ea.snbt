@@ -1,0 +1,41 @@
+{
+	title: "§b一锁开万物",
+	x: 6.0d,
+	y: -13.0d,
+	description: "合成极光幽境开锁器，用于开启符石地牢的大门",
+	text: [
+		""
+	],
+	dependencies: [
+		"0519d9cb"
+	],
+	tasks: [{
+		uid: "8df0280e",
+		type: "item",
+		items: [{
+			item: "theaurorian:lockpicks"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5f8c74eb",
+		type: "item",
+		item: {
+			id: "theaurorian:lockpicks",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	},
+	{
+		uid: "b6066d55",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "74c8bb68",
+		type: "random",
+		table: 1
+	}]
+}

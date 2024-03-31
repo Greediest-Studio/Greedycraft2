@@ -1,0 +1,26 @@
+{
+	title: "§b末影，完结……了吗？",
+	x: 7.5d,
+	y: 19.5d,
+	description: "合成终末合金",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "04f5a63e",
+		type: "item",
+		items: [{
+			item: "moretcon:repitem 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "d552bb07",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "1b8c2f7f",
+		type: "xp",
+		xp: 1000
+	}]
+}

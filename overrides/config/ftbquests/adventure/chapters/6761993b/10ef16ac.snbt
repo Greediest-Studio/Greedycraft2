@@ -1,0 +1,32 @@
+{
+	title: "§b里面蕴含了黑暗",
+	x: 4.5d,
+	y: 3.5d,
+	description: "制作大至暗砖",
+	dependencies: [
+		"bbe5c29a"
+	],
+	tasks: [{
+		uid: "7d92c8e9",
+		type: "item",
+		items: [{
+			item: "additions:bloody-darkest_stonebrick_large"
+		}]
+	}],
+	rewards: [{
+		uid: "a97833ff",
+		type: "item",
+		item: "additions:bloody-darkest_stonebrick_large",
+		count: 4
+	},
+	{
+		uid: "44555e7f",
+		type: "xp",
+		xp: 7200
+	},
+	{
+		uid: "c92afbe0",
+		type: "random",
+		table: 3
+	}]
+}

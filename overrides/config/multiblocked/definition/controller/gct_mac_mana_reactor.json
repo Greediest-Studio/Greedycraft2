@@ -1,0 +1,512 @@
+{
+  "version": 2,
+  "location": "gct_mac:mana_reactor",
+  "traits": {
+    "background": "multiblocked:textures/mana_reactor.png",
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "rune",
+        "x": 79,
+        "y": 47,
+        "autoIO": false,
+        "valid": [
+          "\"{id:\\\"additions:botaniaddon-chamael_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:botaniaddon-gabriel_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:botaniaddon-haniel_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:botaniaddon-metatron_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:botaniaddon-michael_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:botaniaddon-raphael_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:botaniaddon-ratziel_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:botaniaddon-sandalphon_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:botaniaddon-zadkiel_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:botaniaddon-zaphkiel_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\""
+        ]
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "rune",
+        "x": 43,
+        "y": 110,
+        "autoIO": false,
+        "valid": [
+          "\"{id:\\\"additions:botaniaddon-chamael_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:botaniaddon-gabriel_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:botaniaddon-haniel_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:botaniaddon-metatron_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:botaniaddon-michael_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:botaniaddon-raphael_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:botaniaddon-ratziel_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:botaniaddon-sandalphon_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:botaniaddon-zadkiel_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:botaniaddon-zaphkiel_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\""
+        ]
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "rune",
+        "x": 115,
+        "y": 110,
+        "autoIO": false,
+        "valid": [
+          "\"{id:\\\"additions:botaniaddon-chamael_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:botaniaddon-gabriel_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:botaniaddon-haniel_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:botaniaddon-metatron_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:botaniaddon-michael_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:botaniaddon-raphael_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:botaniaddon-ratziel_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:botaniaddon-sandalphon_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:botaniaddon-zadkiel_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:botaniaddon-zaphkiel_rune\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\""
+        ]
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "slotName": "fuel",
+        "x": 79,
+        "y": 86,
+        "autoIO": false,
+        "valid": [
+          "\"{id:\\\"aether_legacy:ambrosium_shard\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"divinerpg:ice_shards\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"divinerpg:molten_shards\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:experience_ingot_image\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"thermalfoundation:material\\\",Count:1,Damage:772s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"astralsorcery:itemcraftingcomponent\\\",Count:1,Damage:1s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"taiga:dilithium_ingot\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"journey:firestoneclump\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"astralsorcery:itemcraftingcomponent\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"biomesoplenty:gem\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"taiga:triberium_ingot\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"thermalfoundation:material\\\",Count:1,Damage:133s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"appliedenergistics2:material\\\",Count:1,Damage:7s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"tofucraft:material\\\",Count:1,Damage:18s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\"",
+          "\"{id:\\\"additions:titanium_ingot\\\",Count:1,Damage:0s,ForgeCaps:{\\\"customnpcs:itemscripteddata\\\":{}}}\""
+        ]
+      }
+    ],
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 61,
+      "y": 66,
+      "width": 53,
+      "height": 49,
+      "texture": "multiblocked:textures/reactor_arrow.png",
+      "fillDirection": 2
+    },
+    "forge_energy": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 6,
+      "y": 138,
+      "width": 167,
+      "height": 10,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": 0,
+      "capacity": 2147483647,
+      "maxReceive": 4194304,
+      "maxExtract": 4194304
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 3.0,
+    "explosionResistance": 4000.0,
+    "harvestLevel": 5,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "additions:additions-mana_reactor_controller",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "renderer": {
+        "state": {
+          "id": "additions:additions-mana_reactor_controller",
+          "meta": 0
+        },
+        "type": "blockstate"
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "renderer": {
+        "state": {
+          "id": "additions:additions-mana_reactor_controller_active",
+          "meta": 0
+        },
+        "type": "blockstate"
+      },
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "mana_reactor",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "  AAAABAAAA  ",
+        "     AAA     ",
+        "  CAAADAAAC  ",
+        "     AAA     ",
+        "             "
+      ],
+      [
+        " AEEEEBEEEEA ",
+        "  CAAA AAAC  ",
+        " C         C ",
+        "  CAAAFAAAC  ",
+        "             "
+      ],
+      [
+        "AEEEEEBEEEEEA",
+        " CC  AAA  CC ",
+        "C  AAA AAA  C",
+        " CC  AAA  CC ",
+        "             "
+      ],
+      [
+        "AEEEGGBGGEEEA",
+        " A    A    A ",
+        "A A  A A  A A",
+        " A    A    A ",
+        "             "
+      ],
+      [
+        "AEEGEEBEEGEEA",
+        " A  AAAAA  A ",
+        "A A AHIHA A A",
+        " A  AHHHA  A ",
+        "    AAAAA    "
+      ],
+      [
+        "AEEGEEBEEGEEA",
+        "AAA AHHHA AAA",
+        "A AAHJJJHAA A",
+        "AAA HJJJH AAA",
+        "    AHHHA    "
+      ],
+      [
+        "BBBBBBKBBBBBB",
+        "A AAAHHHAAA A",
+        "@   IJLJI   D",
+        "AMAAHJLJHAANA",
+        "    AHHHA    "
+      ],
+      [
+        "AEEGEEBEEGEEA",
+        "AAA AHHHA AAA",
+        "A AAHJJJHAA A",
+        "AAA HJJJH AAA",
+        "    AHHHA    "
+      ],
+      [
+        "AEEGEEBEEGEEA",
+        " A  AAAAA  A ",
+        "A A AHIHA A A",
+        " A  AHHHA  A ",
+        "    AAAAA    "
+      ],
+      [
+        "AEEEGGBGGEEEA",
+        " A    A    A ",
+        "A A  A A  A A",
+        " A    A    A ",
+        "             "
+      ],
+      [
+        "AEEEEEBEEEEEA",
+        " CC  AAA  CC ",
+        "C  AAA AAA  C",
+        " CC  AAA  CC ",
+        "             "
+      ],
+      [
+        " AEEEEBEEEEA ",
+        "  CAAA AAAC  ",
+        " C         C ",
+        "  CAAANAAAC  ",
+        "             "
+      ],
+      [
+        "  AAAABAAAA  ",
+        "     AAA     ",
+        "  CAAADAAAC  ",
+        "     AAA     ",
+        "             "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "additions:greedycraft-stainless_steel_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "gct_mac:mana_reactor",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "botania:storage",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "botania:livingrock",
+            "meta": 1
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "additions:greedycraft-durasteel_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "minecraft:iron_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "multiblocked:fluid_output",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "botania:storage",
+            "meta": 2
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "thermalfoundation:glass",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "I": {
+        "states": [
+          {
+            "id": "jaopca:block_fencemanasteel",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "J": {
+        "states": [
+          {
+            "id": "thermalfoundation:fluid_mana",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "air": {
+        "type": "air"
+      },
+      "K": {
+        "states": [
+          {
+            "id": "extrabotany:blockorichalcos",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "L": {
+        "states": [
+          {
+            "id": "jaopca:block_blockmythsteel",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "any": {
+        "type": "any"
+      },
+      "M": {
+        "states": [
+          {
+            "id": "multiblocked:item_input",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "N": {
+        "states": [
+          {
+            "id": "multiblocked:item_output",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "I": [
+        "I"
+      ],
+      "J": [
+        "J"
+      ],
+      "K": [
+        "K"
+      ],
+      "L": [
+        "L"
+      ],
+      "M": [
+        "M"
+      ],
+      "-": [
+        "air"
+      ],
+      "N": [
+        "N"
+      ]
+    }
+  }
+}

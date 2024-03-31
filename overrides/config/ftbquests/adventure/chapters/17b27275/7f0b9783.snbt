@@ -1,0 +1,34 @@
+{
+	title: "§b交错化",
+	x: 5.5d,
+	y: -1.0d,
+	description: "合成交错化强化核心，强化普通匠魂武器后可以使其在交错次元的发挥效果更出色",
+	text: [
+		""
+	],
+	dependencies: [
+		"81216f69"
+	],
+	tasks: [{
+		uid: "00347e04",
+		type: "item",
+		items: [{
+			item: "moretcon:betweenifiedmodifier"
+		}]
+	}],
+	rewards: [{
+		uid: "1cd80157",
+		type: "item",
+		item: "moretcon:betweenifiedmodifier"
+	},
+	{
+		uid: "4430eee1",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "6fd1d146",
+		type: "xp",
+		xp: 2000
+	}]
+}

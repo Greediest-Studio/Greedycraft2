@@ -1,0 +1,68 @@
+{
+	title: "§b自由落体 II",
+	x: 5.5d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"27a45168"
+	],
+	tasks: [{
+		uid: "10d52d12",
+		type: "stat",
+		icon: "minecraft:chainmail_boots",
+		stat: "stat.fallOneCm",
+		value: 800000
+	}],
+	rewards: [{
+		uid: "ec6e242e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "b81a32cd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "a6763de0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "241631eb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "e0130b35",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "§b谢谢惠顾",
+	x: 9.0d,
+	y: 6.0d,
+	description: "合成小市场，用于快速购买种子",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "e49e14c8",
+		type: "item",
+		items: [{
+			item: "farmingforblockheads:market"
+		}]
+	}],
+	rewards: [{
+		uid: "967e9a19",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "16140313",
+		type: "item",
+		item: "minecraft:emerald",
+		count: 8
+	},
+	{
+		uid: "26823242",
+		type: "random",
+		table: 1
+	}]
+}

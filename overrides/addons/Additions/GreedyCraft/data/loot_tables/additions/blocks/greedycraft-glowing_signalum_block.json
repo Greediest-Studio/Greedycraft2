@@ -1,0 +1,16 @@
+{
+  "preset_block": "additions:greedycraft-glowing_signalum_block",
+  "pools": [
+    {
+      "name": "block_itself_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:greedycraft-glowing_signalum_block"
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_itself"
+}

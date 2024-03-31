@@ -1,0 +1,17 @@
+{
+	x: 5.0d,
+	y: 1.0d,
+	dependencies: [
+		"64eaeda6"
+	],
+	tasks: [{
+		uid: "e7a584c9",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_time_watch",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

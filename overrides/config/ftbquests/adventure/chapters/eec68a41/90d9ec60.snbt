@@ -1,0 +1,37 @@
+{
+	title: "§b更替小帮手",
+	x: 0.5d,
+	y: -3.5d,
+	description: "制作移壳杖",
+	text: [
+		""
+	],
+	dependencies: [
+		"bb25425b"
+	],
+	tasks: [{
+		uid: "f71ee674",
+		type: "item",
+		items: [{
+			id: "botania:exchangerod",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ee2bb91d",
+		type: "item",
+		item: "botania:rune 1 12"
+	},
+	{
+		uid: "9f369f55",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "674acbd4",
+		type: "xp",
+		xp: 700
+	}]
+}

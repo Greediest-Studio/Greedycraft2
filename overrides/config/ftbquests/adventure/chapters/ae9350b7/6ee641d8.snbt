@@ -1,0 +1,26 @@
+{
+	title: "§b变幻苍穹",
+	x: 0.0d,
+	y: 15.0d,
+	description: "合成苍穹变换器",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "733a7f21",
+		type: "item",
+		items: [{
+			item: "draconicevolution:celestial_manipulator"
+		}]
+	}],
+	rewards: [{
+		uid: "ad4bf37f",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "fe55be27",
+		type: "xp",
+		xp: 10000
+	}]
+}

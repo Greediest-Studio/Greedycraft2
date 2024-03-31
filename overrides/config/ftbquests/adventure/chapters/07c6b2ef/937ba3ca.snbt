@@ -1,0 +1,35 @@
+{
+	title: "§b末影之殇",
+	x: -9.5d,
+	y: -24.5d,
+	description: "合成末影锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"34df0402"
+	],
+	tasks: [{
+		uid: "5bc840cb",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 167"
+		}]
+	}],
+	rewards: [{
+		uid: "5642421f",
+		type: "item",
+		item: "thermalfoundation:material 1 167",
+		count: 16
+	},
+	{
+		uid: "6e9a04c5",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "d08085fb",
+		type: "xp",
+		xp: 1000
+	}]
+}

@@ -1,0 +1,29 @@
+{
+	title: "【冒险·壹】初入世界",
+	icon: "additions:stainless_steel_ingot",
+	always_invisible: false,
+	group: 689139086,
+	default_quest_shape: "",
+	images: [{
+		x: -28.0d,
+		y: 13.0d,
+		width: 10.5d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/adv1.png",
+		hover: [],
+		click: "",
+		dev: false
+	},
+	{
+		x: -26.0d,
+		y: 7.0d,
+		width: 2.0d,
+		height: 2.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/start.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

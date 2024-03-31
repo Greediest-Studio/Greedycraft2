@@ -1,0 +1,46 @@
+{
+	title: "§b快，一，点！",
+	x: -16.5d,
+	y: 1.0d,
+	description: "制作冶炼炉加速器，放在控制器上方即可完成加速",
+	text: [
+		""
+	],
+	dependencies: [
+		"b5940a15"
+	],
+	tasks: [{
+		uid: "51caff8f",
+		type: "item",
+		items: [{
+			item: "simplesmelteryaccelerator:smeltery_accelerator"
+		}]
+	}],
+	rewards: [{
+		uid: "8ddc27a4",
+		type: "item",
+		item: "additions:greedycraft-time_shard"
+	},
+	{
+		uid: "bf883fac",
+		type: "item",
+		item: "tconstruct:materials",
+		count: 256
+	},
+	{
+		uid: "53d746d8",
+		type: "item",
+		item: "tconstruct:seared_glass",
+		count: 64
+	},
+	{
+		uid: "4d39404f",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "44a26ff1",
+		type: "random",
+		table: 1
+	}]
+}

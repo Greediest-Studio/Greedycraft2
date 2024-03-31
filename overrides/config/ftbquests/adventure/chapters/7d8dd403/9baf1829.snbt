@@ -1,0 +1,47 @@
+{
+	title: "§b基因四合一",
+	x: 3.0d,
+	y: -2.0d,
+	description: "合成基因构造机的机械蓝图",
+	text: [
+		""
+	],
+	dependencies: [
+		"973bde08",
+		"048417d0",
+		"db997b24",
+		"34f81496"
+	],
+	tasks: [{
+		uid: "f5986983",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:gene_builder"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "4397aa11",
+		type: "item",
+		item: "abyssalcraft:ingotblock 1 2",
+		count: 2
+	},
+	{
+		uid: "661e9fc3",
+		type: "item",
+		item: "tconevo:material",
+		count: 2
+	},
+	{
+		uid: "f60b5942",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "7257f9fe",
+		type: "xp",
+		xp: 3000
+	}]
+}

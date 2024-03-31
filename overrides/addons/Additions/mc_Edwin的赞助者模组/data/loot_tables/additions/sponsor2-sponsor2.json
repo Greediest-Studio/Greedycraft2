@@ -1,0 +1,96 @@
+{
+  "preset_type": "additions:empty",
+  "pools": [
+    {
+      "name": "sponsor_loot_pool",
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "additions:sponsor2-ae_mirror",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "additions:sponsor2-bald",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "additions:sponsor2-frozen_ring",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "additions:sponsor2-pure_bone_nail",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "additions:sponsor2-scroll_of_sister",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "additions:sponsor2-pandoras_box",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "additions:sponsor2-nuoyan_sweet_candy",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "additions:sponsor2-meatsoup_infuser",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "additions:sponsor2-li_big_head",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "additions:sponsor2-flower_lolipop",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "additions:sponsor2-strawberry_cake",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "additions:sponsor2-biscuit_of_vanch",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "additions:sponsor2-eternal_harbor",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "additions:sponsor2-let_it_rot",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "additions:sponsor2-cynical",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "additions:sponsor2-bill_of_yagoo",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "additions:sponsor2-speeder_torch",
+            "weight": 1
+          }
+        ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+	title: "§b极限回复",
+	x: 20.0d,
+	y: 0.0d,
+	description: "我能站撸吗？",
+	text: [
+		""
+	],
+	dependencies: [
+		"76e34a47"
+	],
+	tasks: [{
+		uid: "42a9ed28",
+		type: "item",
+		items: [{
+			id: "extrabotany:silenteternity",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "80d68035",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "34244e12",
+		type: "random",
+		table: 3
+	}]
+}

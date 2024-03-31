@@ -1,0 +1,139 @@
+{
+  "name": "jungle_stone",
+  "tool": {
+    "bow": {
+      "speed": 1.8,
+      "range": 0.6,
+      "bonusDamage": 3
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 5.75,
+      "speed": 12,
+      "durability": 1250,
+      "harvestLevel": 4
+    },
+    "handle": {
+      "modifier": 1.5,
+      "durability": 890
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 1.1
+    },
+    "extra": {
+      "durability": 880
+    }
+  },
+  "color": "#37cd2c",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 820,
+  "looks": {
+    "shininess": 0.2,
+    "brightness": 0.1,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Jungle Stone",
+    "zh_cn": "丛林石"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "divinerpg:jungle_stone"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 146,
+      "defense": 10
+    },
+    "plates": {
+      "modifier": 1.5,
+      "durability": 39,
+      "toughness": 0.5
+    },
+    "trim": {
+      "extraDurability": 38
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "gorgeous",
+      "nature_blessing"
+    ],
+    "HEAD": [
+      "gorgeous",
+      "nature_blessing"
+    ],
+    "HANDLE": [
+      "gorgeous",
+      "nature_blessing"
+    ],
+    "BOW": [
+      "gorgeous",
+      "nature_blessing"
+    ],
+    "PROJECTILE": [
+      "gorgeous",
+      "nature_blessing"
+    ],
+    "CORE": [
+      "gorgeous_armor",
+      "arsenic_poisonous_armor"
+    ],
+    "PLATES": [
+      "gorgeous_armor",
+      "arsenic_poisonous_armor"
+    ],
+    "TRIM": [
+      "gorgeous_armor",
+      "arsenic_poisonous_armor"
+    ]
+  }
+}

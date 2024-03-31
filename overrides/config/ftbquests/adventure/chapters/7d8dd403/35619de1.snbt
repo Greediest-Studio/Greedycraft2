@@ -1,0 +1,37 @@
+{
+	title: "§b聚合召唤",
+	x: -10.0d,
+	y: 4.5d,
+	description: "合成光明之旅召唤台",
+	text: [
+		"召唤台为多方块结构，想要使其工作，请查阅贪婪整合包指南中【模组/光明之旅·神之本质:召唤台】一章"
+	],
+	dependencies: [
+		"40a88168",
+		"0569750c",
+		"21145802"
+	],
+	tasks: [{
+		uid: "7700332c",
+		type: "item",
+		items: [{
+			item: "journey:summoningtable"
+		}]
+	}],
+	rewards: [{
+		uid: "1b782c4b",
+		type: "item",
+		item: "journey:bloodrock",
+		count: 64
+	},
+	{
+		uid: "8817757f",
+		type: "xp",
+		xp: 12000
+	},
+	{
+		uid: "baf95c3a",
+		type: "random",
+		table: 3
+	}]
+}

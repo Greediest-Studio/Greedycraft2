@@ -1,0 +1,68 @@
+{
+	title: "§b疯狂输出 X",
+	x: -2.0d,
+	y: 14.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9cc09c67"
+	],
+	tasks: [{
+		uid: "379490be",
+		type: "stat",
+		icon: "avaritia:infinity_axe",
+		stat: "stat.damageDealt",
+		value: 1000000000
+	}],
+	rewards: [{
+		uid: "a5e9306d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "9a76a89c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "d0566c1e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "45e6f6b1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "b442830c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	}]
+}

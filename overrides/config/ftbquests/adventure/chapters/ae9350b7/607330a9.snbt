@@ -1,0 +1,26 @@
+{
+	title: "§b之后的天境……一如既往",
+	x: 6.0d,
+	y: 19.5d,
+	description: "合成琥珀木合金",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "7a043bca",
+		type: "item",
+		items: [{
+			item: "moretcon:repitem 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "8de9b138",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "763325f2",
+		type: "xp",
+		xp: 1000
+	}]
+}

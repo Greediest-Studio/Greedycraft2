@@ -1,0 +1,35 @@
+{
+	title: "§b神灵",
+	x: 8.0d,
+	y: -4.5d,
+	description: "获得神话钢锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"424e1f9c",
+		"67169fcd"
+	],
+	tasks: [{
+		uid: "ceb92eae",
+		type: "item",
+		items: [{
+			item: "additions:botaniaddon-mythsteel_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "9a8753e7",
+		type: "item",
+		item: "additions:botaniaddon-mythsteel_ingot"
+	},
+	{
+		uid: "e320d4ff",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "30dae788",
+		type: "random",
+		table: 3
+	}]
+}

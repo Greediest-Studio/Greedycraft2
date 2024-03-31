@@ -1,0 +1,18 @@
+{
+	title: "【魔法·叁】血液律动",
+	icon: "tconevo:metal 1 25",
+	always_invisible: false,
+	group: -277029338,
+	default_quest_shape: "",
+	images: [{
+		x: 11.5d,
+		y: 6.5d,
+		width: 10.5d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/mag3.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

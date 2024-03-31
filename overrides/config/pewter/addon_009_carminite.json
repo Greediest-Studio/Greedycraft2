@@ -1,0 +1,129 @@
+{
+  "name": "carminite",
+  "tool": {
+    "head": {
+      "attackDamage": 6.4,
+      "speed": 7.25,
+      "durability": 210,
+      "harvestLevel": 2
+    },
+    "handle": {
+      "modifier": 1.25,
+      "durability": 0
+    },
+    "extra": {
+        "durability": 100
+    },
+    "bow": {
+        "speed": 2.3,
+        "range": 1.8,
+        "bonusDamage": -6.0
+    }
+  },
+  "color": "#FF0000",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 583,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Carminite",
+    "zh_cn": "砷铅铁"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "twilightforest:carminite"
+    ],
+    "block": [
+      "twilightforest:block_storage:4"
+    ],
+    "nugget": [
+     
+    ],
+    "ore": [
+
+    ],
+    "dust": [
+   
+    ],
+    "plate": [
+     
+    ],
+    "gear": [
+      
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 70,
+      "defense": 14
+    },
+    "plates": {
+      "modifier": 1.7,
+      "durability": 45,
+      "toughness": 1.5
+    },
+    "trim": {
+      "extraDurability": 14
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "tconevo.energized2",
+      "twilit"
+    ],
+    "HANDLE": [
+      "twilit",
+      "magnetic2"
+    ],
+    "EXTRA": [
+      "twilit",
+      "magnetic2"
+    ],
+    "BOW": [
+      "tconevo.energized2",
+      "twilit"
+    ],
+    "CORE": [
+      "subterranean_armor",
+      "tconevo.energized2_armor"
+    ],
+    "PLATES": [
+    "subterranean_armor",
+      "tconevo.energized2_armor"
+    ],
+    "TRIM": [
+      "subterranean_armor",
+      "tconevo.energized2_armor"
+    ]
+  }
+}

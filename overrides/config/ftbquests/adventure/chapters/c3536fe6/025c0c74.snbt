@@ -1,0 +1,36 @@
+{
+	title: "§b阴影领主",
+	x: -14.5d,
+	y: -12.5d,
+	description: "召唤并击杀末日先驱萨托斯",
+	text: [
+		""
+	],
+	dependencies: [
+		"130b754c"
+	],
+	tasks: [{
+		uid: "3655d759",
+		type: "kill",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "abyssalcraft:shadowboss"
+				}
+			}
+		},
+		entity: "abyssalcraft:shadowboss",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "9305a2ff",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "94a3aecf",
+		type: "xp",
+		xp: 10000
+	}]
+}

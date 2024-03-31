@@ -1,0 +1,45 @@
+{
+  "recipe": {
+    "type": "forge:ore_shaped",
+    "result": {
+      "item": "modularmachinery:mek_changer_controller"
+    },
+    "key": {
+      "0": {
+        "ore_name": "ingotPorpezite",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "1": {
+        "stack_list": [
+          {
+            "item": "minecraft:bucket",
+            "damage": "any"
+          }
+        ],
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "2": {
+        "stack_list": [
+          {
+            "item": "modularmachinery:blockcontroller"
+          }
+        ],
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "3": {
+        "stack_list": [
+          {
+            "item": "mekanism:machineblock2"
+          }
+        ],
+        "type": "additions:ingredient_ore_nbt"
+      }
+    },
+    "pattern": [
+      "010",
+      "020",
+      "030"
+    ]
+  },
+  "type": "additions:crafting_shaped"
+}

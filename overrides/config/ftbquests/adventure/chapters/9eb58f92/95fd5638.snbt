@@ -1,0 +1,14 @@
+{
+	x: -11.5d,
+	y: 0.0d,
+	dependencies: [
+		"b85fdb21"
+	],
+	tasks: [{
+		uid: "6bf01fa8",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 10"
+		}]
+	}]
+}

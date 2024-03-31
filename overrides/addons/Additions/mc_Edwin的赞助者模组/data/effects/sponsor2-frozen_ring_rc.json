@@ -1,0 +1,19 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:sponsor2-frozen_ring",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "command": "effect @e[r\u003d5,type\u003d!player] minecraft:slowness 300 2",
+      "command_sender_name": "@p",
+      "type": "additions:command"
+    },
+    {
+      "type": "additions:damage_item"
+    }
+  ]
+}

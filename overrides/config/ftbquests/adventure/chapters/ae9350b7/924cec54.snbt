@@ -1,0 +1,32 @@
+{
+	title: "§b经验方尖碑",
+	x: 1.5d,
+	y: 0.0d,
+	description: "合成一个经验方尖碑，用于存储大量经验",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "be1332e1",
+		type: "item",
+		items: [{
+			item: "enderio:block_experience_obelisk"
+		}]
+	}],
+	rewards: [{
+		uid: "c8e467f8",
+		type: "item",
+		item: "additions:greedycraft-experience_block",
+		count: 8
+	},
+	{
+		uid: "cb1ace55",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "0abe2ab1",
+		type: "xp",
+		xp: 500
+	}]
+}

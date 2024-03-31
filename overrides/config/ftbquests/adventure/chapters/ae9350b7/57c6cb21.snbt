@@ -1,0 +1,29 @@
+{
+	title: "§b无线“电”",
+	x: 1.5d,
+	y: 12.0d,
+	description: "合成通量控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"61791dc8"
+	],
+	tasks: [{
+		uid: "e28a3da5",
+		type: "item",
+		items: [{
+			item: "fluxnetworks:fluxcontroller"
+		}]
+	}],
+	rewards: [{
+		uid: "fc92084f",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "0c67d3dd",
+		type: "xp",
+		xp: 200
+	}]
+}

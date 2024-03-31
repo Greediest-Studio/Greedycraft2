@@ -1,0 +1,27 @@
+{
+	title: "§b最基础的eio合金",
+	x: -0.5d,
+	y: -2.0d,
+	description: "制作一个玄钢锭",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "c2752793",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "6c061c6e",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 6",
+		count: 32
+	},
+	{
+		uid: "0c07d937",
+		type: "xp",
+		xp: 2000
+	}]
+}

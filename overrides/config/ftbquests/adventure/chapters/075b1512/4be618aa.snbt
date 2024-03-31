@@ -1,0 +1,35 @@
+{
+	title: "§b凋灵杀手 V",
+	icon: "minecraft:skull 1 1",
+	x: -0.5d,
+	y: 7.0d,
+	dependencies: [
+		"33dfcc48"
+	],
+	tasks: [{
+		uid: "e99cfb2c",
+		type: "kill",
+		entity: "minecraft:wither",
+		value: 32L
+	}],
+	rewards: [{
+		uid: "b1fda368",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "98ceb44c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	}]
+}

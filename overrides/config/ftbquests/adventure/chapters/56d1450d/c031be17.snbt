@@ -1,0 +1,40 @@
+{
+	title: "§b涡轮增压捕蜂网",
+	x: -13.5d,
+	y: 1.5d,
+	description: "获得MX200涡轮捕蜂网",
+	text: [
+		""
+	],
+	dependencies: [
+		"11d59c73"
+	],
+	tasks: [{
+		uid: "cd78f320",
+		type: "item",
+		items: [{
+			id: "gendustry:industrial_scoop",
+			Damage: 100s,
+			tag: {
+				charge: 0
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "95efd855",
+		type: "item",
+		item: "ironchest:iron_chest 1 5"
+	},
+	{
+		uid: "f2a563cc",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "e22a0dea",
+		type: "loot",
+		table: 1
+	}]
+}

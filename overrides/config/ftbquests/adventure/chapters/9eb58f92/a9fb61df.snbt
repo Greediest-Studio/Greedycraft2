@@ -1,0 +1,36 @@
+{
+	title: "§b好贵",
+	x: -5.0d,
+	y: 8.0d,
+	description: "制作魅影合金",
+	text: [
+		""
+	],
+	dependencies: [
+		"25a94761",
+		"67776410"
+	],
+	tasks: [{
+		uid: "5c6267ce",
+		type: "item",
+		items: [{
+			item: "additions:mekaddon-shadowing_alloy"
+		}]
+	}],
+	rewards: [{
+		uid: "e47bd900",
+		type: "item",
+		item: "additions:mekaddon-shadowing_alloy",
+		count: 5
+	},
+	{
+		uid: "40868bc7",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "e451da0d",
+		type: "random",
+		table: 1
+	}]
+}

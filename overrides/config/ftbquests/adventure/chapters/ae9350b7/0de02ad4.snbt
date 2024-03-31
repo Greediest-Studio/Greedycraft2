@@ -1,0 +1,34 @@
+{
+	title: "§b看起来丝毫没有用途",
+	x: 10.5d,
+	y: 15.0d,
+	description: "制作命令拆除扳手",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "77fac290",
+		type: "item",
+		items: [{
+			item: "gct_ores:command_dismantler"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6381bda5",
+		type: "item",
+		item: "gct_ores:everite_ingot",
+		count: 8
+	},
+	{
+		uid: "ffb7e2b2",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "3f204c6b",
+		type: "xp",
+		xp: 6000
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "§b泥沼中的秘宝",
+	x: 8.5d,
+	y: 0.5d,
+	description: "在污泥地牢迷宫中获得符文门钥匙与远古巨斧",
+	text: [
+		""
+	],
+	dependencies: [
+		"5bcf2e54"
+	],
+	tasks: [{
+		uid: "7d007f15",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:rune_door_key"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7be9e965",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:ancient_battle_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3ac44dee",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "db5cf5f7",
+		type: "xp",
+		xp: 5000
+	}]
+}

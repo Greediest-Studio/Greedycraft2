@@ -1,0 +1,32 @@
+{
+	title: "§b鸡汤来喽",
+	x: 0.0d,
+	y: 13.5d,
+	description: "制作鸡汤",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "a61027cf",
+		type: "item",
+		items: [{
+			item: "xlfoodmod:chicken_soup"
+		}]
+	}],
+	rewards: [{
+		uid: "ad5b578f",
+		type: "item",
+		item: "minecraft:chicken",
+		count: 16
+	},
+	{
+		uid: "fe99b220",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "f83cd312",
+		type: "xp",
+		xp: 300
+	}]
+}

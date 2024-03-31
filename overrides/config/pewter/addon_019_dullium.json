@@ -1,0 +1,147 @@
+{
+  "name": "dullium",
+  "tool": {
+    "bow": {
+      "speed": 1.4,
+      "range": 1.8,
+      "bonusDamage": 30
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 29.9,
+      "speed": 17.5,
+      "durability": 4800,
+      "harvestLevel": 8
+    },
+    "handle": {
+      "modifier": 3.5,
+      "durability": 2000
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 1.1
+    },
+    "extra": {
+      "durability": 2000
+    }
+  },
+  "color": "#150305",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 750,
+  "looks": {
+    "shininess": 0.6,
+    "brightness": 0.1,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Dullium",
+    "zh_cn": "沉黯"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:greedycraft-dullium_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 256,
+      "defense": 64
+    },
+    "plates": {
+      "modifier": 10.8,
+      "durability": 128,
+      "toughness": 6.5
+    },
+    "trim": {
+      "extraDurability": 196
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "bane_of_night",
+      "lighting9",
+      "tconevo.deadly_precision"
+    ],
+    "HEAD": [
+      "bane_of_night",
+      "lighting9",
+      "tconevo.deadly_precision"
+    ],
+    "HANDLE": [
+      "bane_of_night",
+      "lighting9",
+      "tconevo.deadly_precision"
+    ],
+    "BOW": [
+      "bane_of_night",
+      "lighting9",
+      "tconevo.deadly_precision"
+    ],
+    "PROJECTILE": [
+      "bane_of_night",
+      "lighting9",
+      "tconevo.deadly_precision"
+    ],
+    "CORE": [
+      "lighting9_armor",
+      "invigorating_armor",
+      "dense_armor"
+    ],
+    "PLATES": [
+      "lighting9_armor",
+      "invigorating_armor",
+      "dense_armor"
+    ],
+    "TRIM": [
+      "lighting9_armor",
+      "invigorating_armor",
+      "dense_armor"
+    ]
+  }
+}

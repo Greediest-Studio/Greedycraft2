@@ -1,0 +1,60 @@
+{
+	title: "§b保护他人首先要保护自己",
+	x: -18.0d,
+	y: 1.0d,
+	description: "使用任意金属块升级你的盔甲制造台为盔甲装配台！",
+	text: [
+		""
+	],
+	dependencies: [
+		"b5940a15"
+	],
+	tasks: [{
+		uid: "08c80b33",
+		type: "item",
+		items: [{
+			id: "conarm:armorforge",
+			tag: {
+				textureBlock: {
+					id: "tconevo:metal_block",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1f784bb6",
+		type: "item",
+		item: "tconstruct:materials 1 14"
+	},
+	{
+		uid: "4ee6e300",
+		type: "item",
+		item: "conarm:resist_mat"
+	},
+	{
+		uid: "c0cae689",
+		type: "item",
+		item: "oeintegration:excavatemodifier",
+		random_bonus: 1
+	},
+	{
+		uid: "408d213a",
+		type: "item",
+		item: "tconstruct:materials",
+		count: 512
+	},
+	{
+		uid: "b8f3f1e0",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "db1258c7",
+		type: "xp",
+		xp: 50
+	}]
+}

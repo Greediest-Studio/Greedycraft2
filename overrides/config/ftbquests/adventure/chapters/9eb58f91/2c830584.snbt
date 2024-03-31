@@ -1,0 +1,29 @@
+{
+	title: "§b化工产业链",
+	x: -17.5d,
+	y: -1.0d,
+	description: "制作ME气体终端",
+	text: [
+		""
+	],
+	dependencies: [
+		"9ad09ce0"
+	],
+	tasks: [{
+		uid: "8b0277ad",
+		type: "item",
+		items: [{
+			item: "aeadditions:part.base 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "2f3f58f0",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "06bcfa76",
+		type: "random",
+		table: 1
+	}]
+}

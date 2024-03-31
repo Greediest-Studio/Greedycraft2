@@ -1,0 +1,94 @@
+{
+  "name": "endest_steel",
+  "tool": {
+    "head": {
+      "attackDamage": 19,
+      "speed": 14,
+      "durability": 2500,
+      "harvestLevel": 7
+    },
+    "handle": {
+      "modifier": 1.4,
+      "durability": 800
+    },
+    "extra": {
+      "durability": 750
+    },
+    "bow": {
+      "drawspeed": 2.5,
+      "range": 2.0,
+      "bonusDamage": 14.0
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 200.0,
+      "defense": 32.2
+    },
+    "plates": {
+      "modifier": 3.5,
+      "durability": 140.0,
+      "toughness": 5.0
+    },
+    "trim": {
+      "extraDurability": 111.0
+    }
+  },
+  "color": "#072204",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1506,
+  "looks": {
+    "shininess": 0.0,
+    "brightness": 0.0,
+    "hueshift": 0.0
+  },
+  "fluid": {
+    "viscosity": 6000,
+    "density": 2000,
+    "temperature": 500,
+    "luminosity": 10
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Endest Steel",
+    "zh_cn": "终影钢"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:greedycraft-endest_steel_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["enderference", "tconevo.juggernaut", "murder"],
+    "HANDLE": ["enderference", "tconevo.juggernaut", "murder"],
+    "EXTRA": ["enderference", "tconevo.juggernaut", "murder"],
+    "BOW": ["enderference", "tconevo.juggernaut", "murder"],
+    "CORE": ["void_walk_armor", "vengeful_armor", "fading_armor"],
+    "PLATES": ["void_walk_armor", "vengeful_armor", "fading_armor"],
+    "TRIM": ["void_walk_armor", "vengeful_armor", "fading_armor"]
+  }
+}

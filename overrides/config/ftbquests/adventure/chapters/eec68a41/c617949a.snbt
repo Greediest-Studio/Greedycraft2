@@ -1,0 +1,36 @@
+{
+	title: "§b我要画个圆",
+	x: 1.5d,
+	y: 2.0d,
+	description: "制作盖世六分仪",
+	text: [
+		""
+	],
+	dependencies: [
+		"2e345458"
+	],
+	tasks: [{
+		uid: "8758945e",
+		type: "item",
+		items: [{
+			item: "botania:sextant"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "68ebdf01",
+		type: "item",
+		item: "botania:rune 1 8"
+	},
+	{
+		uid: "fb6ca5f5",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "db183d1d",
+		type: "xp",
+		xp: 300
+	}]
+}

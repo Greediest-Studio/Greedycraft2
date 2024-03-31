@@ -1,0 +1,131 @@
+{
+  "name": "azathothium",
+  "tool": {
+    "head": {
+      "attackDamage": 78,
+      "speed": 23.55,
+      "durability": 7999,
+      "harvestLevel": 11
+    },
+    "handle": {
+      "modifier": 3.05,
+      "durability": 2560
+    },
+    "extra": {
+        "durability": 2040
+    },
+    "bow": {
+        "speed": 2,
+        "range": 3,
+        "bonusDamage": 85
+    }
+  },
+  "color": "#506d61",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 3650,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Azathothium",
+    "zh_cn": "阿撒托斯"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "gct_mobs:azathothium_ingot"
+    ],
+    "block": [
+      "gct_mobs:azathothium_block"
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 98.5,
+      "durability": 580
+    },
+    "plates": {
+      "toughness": 11,
+      "modifier": 12.5,
+      "durability": 275
+    },
+    "trim": {
+      "extraDurability": 320
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "moronism",
+      "demon_hunter",
+      "cursed"
+    ],
+    "HANDLE": [
+      "tconevo.deadly_precision",
+      "demon_hunter",
+      "cursed"
+    ],
+    "EXTRA": [
+      "tconevo.deadly_precision",
+      "demon_hunter",
+      "cursed"
+    ],
+    "BOW": [
+      "moronism",
+      "demon_hunter",
+      "cursed"
+    ],
+    "CORE": [
+      "specific_immunity_armor",
+      "old_ones_barrier_armor",
+      "dramatic_armor"
+    ],
+    "PLATES": [
+      "specific_immunity_armor",
+      "old_ones_barrier_armor",
+      "dramatic_armor"
+    ],
+    "TRIM": [
+      "specific_immunity_armor",
+      "old_ones_barrier_armor",
+      "dramatic_armor"
+    ]
+  }
+}

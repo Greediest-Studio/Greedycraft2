@@ -1,0 +1,16 @@
+{
+  "preset_block": "additions:additions-mana_reactor_controller_active",
+  "pools": [
+    {
+      "name": "block_itself_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:additions-mana_reactor_controller_active"
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_itself"
+}

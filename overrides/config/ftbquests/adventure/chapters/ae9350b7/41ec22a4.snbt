@@ -1,0 +1,31 @@
+{
+	title: "§b自我繁殖",
+	x: 7.5d,
+	y: 21.0d,
+	description: "获得增殖之星",
+	text: [
+		"试试全新的催化剂？"
+	],
+	tasks: [{
+		uid: "55aafd3c",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-proliferation_star"
+		}]
+	}],
+	rewards: [{
+		uid: "482f866a",
+		type: "item",
+		item: "additions:greedycraft-proliferation_star"
+	},
+	{
+		uid: "96842648",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "59a2cfa4",
+		type: "xp",
+		xp: 1500
+	}]
+}

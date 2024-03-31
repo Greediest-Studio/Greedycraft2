@@ -1,0 +1,14 @@
+{
+	x: 0.5d,
+	y: 7.5d,
+	dependencies: [
+		"b5405543"
+	],
+	tasks: [{
+		uid: "8353f4b8",
+		type: "item",
+		items: [{
+			item: "additions:mekaddon-potassium_ingot"
+		}]
+	}]
+}

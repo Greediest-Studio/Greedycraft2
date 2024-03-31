@@ -1,0 +1,41 @@
+{
+	title: "§b自然合金",
+	x: 2.0d,
+	y: -1.5d,
+	description: "使用泰拉凝聚板制作泰拉钢",
+	text: [
+		""
+	],
+	dependencies: [
+		"20897b55"
+	],
+	tasks: [{
+		uid: "b45355c4",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "3fefa420",
+		type: "item",
+		item: "mysticalagriculture:terrasteel_seeds",
+		count: 2
+	},
+	{
+		uid: "b9811843",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "7673928e",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "43404e8c",
+		type: "item",
+		item: "botania:blacklotus 1 1",
+		count: 2
+	}]
+}

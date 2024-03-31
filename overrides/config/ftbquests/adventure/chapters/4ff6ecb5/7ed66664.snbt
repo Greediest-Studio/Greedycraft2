@@ -1,0 +1,26 @@
+{
+	title: "§b你还在为稳定性烦恼吗？",
+	x: -0.5d,
+	y: 4.0d,
+	description: "制作稳定器",
+	dependencies: [
+		"c11fbfe1"
+	],
+	tasks: [{
+		uid: "3f71fa64",
+		type: "item",
+		items: [{
+			item: "thaumcraft:stabilizer"
+		}]
+	}],
+	rewards: [{
+		uid: "49e1b0f1",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "d4bbf935",
+		type: "loot",
+		table: 1
+	}]
+}

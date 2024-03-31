@@ -1,0 +1,128 @@
+{
+  "name": "abyssine",
+  "tool": {
+    "head": {
+      "attackDamage": 108,
+      "speed": 28,
+      "durability": 17640,
+      "harvestLevel": 12
+    },
+    "handle": {
+      "modifier": 4.15,
+      "durability": 7510
+    },
+    "extra": {
+        "durability": 7125
+    },
+    "bow": {
+        "speed": 1.6,
+        "range": 2.6,
+        "bonusDamage": 114
+    }
+  },
+  "color": "#1c1c20",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 3542,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Abyssine",
+    "zh_cn": "渊晶"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:greedycraft-abyssine_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 108,
+      "durability": 609
+    },
+    "plates": {
+      "toughness": 11,
+      "modifier": 10.7,
+      "durability": 320
+    },
+    "trim": {
+      "extraDurability": 365
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "demon_hunter",
+      "soul_eater_refined3",
+      "abysscalling2"
+    ],
+    "HANDLE": [
+      "demon_hunter",
+      "abysscalling2"
+    ],
+    "EXTRA": [
+      "demon_hunter",
+      "abysscalling2"
+    ],
+    "BOW": [
+      "demon_hunter",
+      "soul_eater_refined3",
+      "abysscalling2"
+    ],
+    "CORE": [
+      "specific_immunity_armor",
+      "magic_fusion_armor",
+      "pe_infusion_armor"
+    ],
+    "PLATES": [
+      "specific_immunity_armor",
+      "magic_fusion_armor",
+      "pe_infusion_armor"
+    ],
+    "TRIM": [
+      "specific_immunity_armor",
+      "magic_fusion_armor",
+      "pe_infusion_armor"
+    ]
+  }
+}

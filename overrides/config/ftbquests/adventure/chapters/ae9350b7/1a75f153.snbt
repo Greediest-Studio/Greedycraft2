@@ -1,0 +1,32 @@
+{
+	title: "§b拯救苍生",
+	x: 9.0d,
+	y: 13.5d,
+	description: "合成模糊卡",
+	text: [
+		"“啊，我的无底掉在AE里了！”"
+	],
+	tasks: [{
+		uid: "c93fc87d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 29"
+		}]
+	}],
+	rewards: [{
+		uid: "ae3f91db",
+		type: "item",
+		item: "appliedenergistics2:material 1 12",
+		count: 32
+	},
+	{
+		uid: "748675ea",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "cb7ef858",
+		type: "xp",
+		xp: 800
+	}]
+}

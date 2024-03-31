@@ -1,0 +1,150 @@
+{
+  "name": "shadium",
+  "tool": {
+    "bow": {
+      "speed": 2.4,
+      "range": 1.3,
+      "bonusDamage": 4
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 7.0,
+      "speed": 5.5,
+      "durability": 600,
+      "harvestLevel": 4
+    },
+    "handle": {
+      "modifier": 1.1,
+      "durability": 400
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 1.1
+    },
+    "extra": {
+      "durability": 400
+    }
+  },
+  "color": "#2c5be2",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 900,
+  "looks": {
+    "shininess": 0.6,
+    "brightness": 0.1,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Shadium",
+    "zh_cn": "阴祟"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "journey:shadiumingot"
+    ],
+    "block": [
+      "journey:shadiumblock"
+    ],
+    "nugget": [
+    ],
+    "ore": [
+      "journey:shadiumore"
+    ],
+    "dust": [
+      "journey:shadiumdust"
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 80,
+      "defense": 19
+    },
+    "plates": {
+      "modifier": 1.0,
+      "durability": 25,
+      "toughness": 2
+    },
+    "trim": {
+      "extraDurability": 15
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "bane_of_night",
+      "eroding",
+      "lighting2"
+    ],
+    "HEAD": [
+      "bane_of_night",
+      "eroding",
+      "lighting2"
+    ],
+    "HANDLE": [
+      "bane_of_night",
+      "eroding",
+      "lighting2"
+    ],
+    "BOW": [
+      "bane_of_night",
+      "eroding",
+      "lighting2"
+    ],
+    "PROJECTILE": [
+      "bane_of_night",
+      "eroding",
+      "lighting2"
+    ],
+    "CORE": [
+      "lingering_armor",
+      "motion_armor",
+      "lighting2_armor"
+    ],
+    "PLATES": [
+      "lingering_armor",
+      "motion_armor",
+      "lighting2_armor"
+    ],
+    "TRIM": [
+      "lingering_armor",
+      "motion_armor",
+      "lighting2_armor"
+    ]
+  }
+}

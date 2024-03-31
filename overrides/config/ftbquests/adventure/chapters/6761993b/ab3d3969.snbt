@@ -1,0 +1,32 @@
+{
+	title: "§b血被榨干了！！！",
+	x: 6.5d,
+	y: -0.5d,
+	description: "制作血渊锭",
+	dependencies: [
+		"3088b490"
+	],
+	tasks: [{
+		uid: "48ed520d",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-murderite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "44079a2d",
+		type: "item",
+		item: "additions:greedycraft-murderite_ingot",
+		count: 4
+	},
+	{
+		uid: "5a293c50",
+		type: "xp",
+		xp: 22222
+	},
+	{
+		uid: "3d9ec659",
+		type: "random",
+		table: 4
+	}]
+}

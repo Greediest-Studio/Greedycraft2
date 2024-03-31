@@ -1,0 +1,36 @@
+{
+  "recipe": {
+    "type": "forge:ore_shaped",
+    "result": {
+      "item": "solarflux:custom_solar_panel_solar_panel_11"
+    },
+    "key": {
+      "0": {
+        "stack_list": [
+          {
+            "item": "gct_ores:photovoltaic_cell_ix"
+          }
+        ],
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "1": {
+        "ore_name": "ingotBalancedMatrix",
+        "type": "additions:ingredient_ore_nbt"
+      },
+      "2": {
+        "stack_list": [
+          {
+            "item": "solarflux:custom_solar_panel_solar_panel_10"
+          }
+        ],
+        "type": "additions:ingredient_ore_nbt"
+      }
+    },
+    "pattern": [
+      "000",
+      "121",
+      "111"
+    ]
+  },
+  "type": "additions:crafting_shaped"
+}

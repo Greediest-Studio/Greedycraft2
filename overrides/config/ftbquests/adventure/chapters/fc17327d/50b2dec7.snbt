@@ -1,0 +1,77 @@
+{
+	title: "§b建档以后，禁止蘑菇成精！",
+	x: -12.0d,
+	y: 13.5d,
+	description: "击杀米诺菇",
+	text: [
+		""
+	],
+	dependencies: [
+		"0f52c58d"
+	],
+	tasks: [{
+		uid: "91643e98",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "f840358f",
+		type: "item",
+		item: {
+			id: "twilightforest:mazebreaker_pickaxe",
+			tag: {
+				ench: [{
+					id: 32,
+					lvl: 4s
+				},
+				{
+					id: 34,
+					lvl: 3s
+				},
+				{
+					id: 35,
+					lvl: 2s
+				}]
+			}
+		}
+	},
+	{
+		uid: "97a04792",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:mooshroom"
+				}
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "660ca2c9",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "53fab438",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "8739d501",
+		type: "advancement",
+		auto: "no_toast",
+		advancement: "twilightforest:progress_labyrinth",
+		criterion: ""
+	},
+	{
+		uid: "c44d39db",
+		type: "advancement",
+		auto: "no_toast",
+		advancement: "twilightforest:mazebreaker",
+		criterion: ""
+	}]
+}

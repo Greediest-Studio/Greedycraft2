@@ -1,0 +1,24 @@
+{
+	title: "§b蜂之主",
+	x: 1.0d,
+	y: -4.5d,
+	description: "在梦魇世界二层的蜂巢中击杀蜂后",
+	text: [
+		""
+	],
+	dependencies: [
+		"739cf598"
+	],
+	tasks: [{
+		uid: "5f2c9bf7",
+		type: "item",
+		items: [{
+			item: "divinerpg:honeychunk"
+		}]
+	}],
+	rewards: [{
+		uid: "5e284222",
+		type: "random",
+		table: 5
+	}]
+}

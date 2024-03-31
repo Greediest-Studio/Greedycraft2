@@ -1,0 +1,267 @@
+{
+  "version": 2,
+  "location": "gct_mac:impetus_forge",
+  "traits": {
+    "background": "multiblocked:textures/impetus_forge.png",
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 0,
+        "x": 79,
+        "y": 66,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 2,
+        "x": 79,
+        "y": 111,
+        "autoIO": false
+      }
+    ],
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 80,
+      "y": 89,
+      "width": 16,
+      "height": 16,
+      "texture": "multiblocked:textures/impetus_arrow.png",
+      "fillDirection": 2
+    },
+    "ta_impetus": {
+      "cIO": 2,
+      "gIO": 2,
+      "x": 80,
+      "y": 89,
+      "width": 16,
+      "height": 16,
+      "texture": "multiblocked:textures/impetus_arrow.png",
+      "fillDirection": 2,
+      "capacity": 10000,
+      "maxReceive": 10000,
+      "maxExtract": 10000,
+      "maxInputs": 10,
+      "maxOutputs": 10,
+      "beamEndpointXOffset": 0.5,
+      "beamEndpointYOffset": 0.5,
+      "beamEndpointZOffset": 0.5
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "thaumcraft:metal_void",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "renderer": {
+        "state": {
+          "id": "additions:additions-impetus_forge_completed",
+          "meta": 0
+        },
+        "type": "blockstate"
+      },
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "impetus_forge",
+  "basePattern": {
+    "structureDir": [
+      "BACK",
+      "UP",
+      "RIGHT"
+    ],
+    "pattern": [
+      [
+        "ABA",
+        "ABA",
+        " B "
+      ],
+      [
+        "BDB",
+        "B B",
+        "BDB"
+      ],
+      [
+        "DDD",
+        "@FG",
+        "DHD"
+      ],
+      [
+        "BDB",
+        "B B",
+        "BDB"
+      ],
+      [
+        "ABA",
+        "ABA",
+        " B "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "states": [
+          {
+            "id": "thaumicaugmentation:fortified_glass_pane",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "gct_mac:impetus_forge",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "thaumcraft:stone_arcane",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "thaumcraft:slab_arcane_stone",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "gct_mobs:primordial_stone",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "E": {
+        "states": [
+          {
+            "id": "thaumcraft:slab_arcane_stone",
+            "meta": 8
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "minecraft:netherrack",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "thaumcraft:metal_void",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "H": {
+        "states": [
+          {
+            "id": "minecraft:fire",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

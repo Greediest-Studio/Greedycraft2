@@ -1,0 +1,29 @@
+{
+	title: "§b最后一个深渊精华……似乎？",
+	x: -11.5d,
+	y: -1.0d,
+	description: "获得扭曲遗址精华",
+	text: [
+		""
+	],
+	dependencies: [
+		"abc34e7e"
+	],
+	tasks: [{
+		uid: "8585a2df",
+		type: "item",
+		items: [{
+			item: "gct_aby:essence_of_warped_ruin"
+		}]
+	}],
+	rewards: [{
+		uid: "f5d94b52",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "51416521",
+		type: "xp",
+		xp: 8000
+	}]
+}

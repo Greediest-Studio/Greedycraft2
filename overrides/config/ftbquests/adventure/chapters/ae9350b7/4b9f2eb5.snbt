@@ -1,0 +1,38 @@
+{
+	title: "§b轻功火上漂",
+	x: 10.5d,
+	y: 1.5d,
+	description: "获得熔岩魔靴，可以在岩浆上方行走",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "5ab1d82d",
+		type: "item",
+		items: [{
+			item: "randomthings:lavawader"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d0dd0c75",
+		type: "item",
+		item: "conarm:frosty_soles"
+	},
+	{
+		uid: "97827e1b",
+		type: "item",
+		item: "randomthings:lavacharm"
+	},
+	{
+		uid: "4f4b6e80",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "8366adad",
+		type: "random",
+		table: 1
+	}]
+}

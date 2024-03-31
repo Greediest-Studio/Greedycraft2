@@ -1,0 +1,35 @@
+{
+	title: "§bLight in the sky",
+	x: -10.5d,
+	y: 7.0d,
+	description: "获得空中照明",
+	text: [
+		""
+	],
+	dependencies: [
+		"61895969"
+	],
+	tasks: [{
+		uid: "314e03ef",
+		type: "item",
+		items: [{
+			item: "extrabees:alveary 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "f7eea1aa",
+		type: "item",
+		item: "minecraft:glowstone",
+		count: 64
+	},
+	{
+		uid: "9f8b1f09",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "b44d2185",
+		type: "loot",
+		table: 2
+	}]
+}

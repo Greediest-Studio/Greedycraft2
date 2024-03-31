@@ -1,0 +1,35 @@
+{
+	title: "§b愤怒之炎",
+	x: -6.0d,
+	y: 4.5d,
+	description: "在怒焰石林召唤并击杀怒焰领主",
+	text: [
+		""
+	],
+	dependencies: [
+		"3c550c4a"
+	],
+	tasks: [{
+		uid: "26f7831c",
+		type: "item",
+		items: [{
+			item: "journey:trophyblaze"
+		}]
+	}],
+	rewards: [{
+		uid: "cf2b5e4e",
+		type: "item",
+		item: "journey:hellshards",
+		count: 16
+	},
+	{
+		uid: "e97d8fd2",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "dbc3c721",
+		type: "random",
+		table: 3
+	}]
+}

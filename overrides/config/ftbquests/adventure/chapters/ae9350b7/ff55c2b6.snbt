@@ -1,0 +1,31 @@
+{
+	title: "§b重金也需要欧皇",
+	x: 10.5d,
+	y: 9.0d,
+	description: "获得悬赏榜，用于领取悬赏任务",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "5fb0d702",
+		type: "item",
+		items: [{
+			item: "bountiful:bountyboarditem"
+		}]
+	}],
+	rewards: [{
+		uid: "4be09d24",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "9eb63bf5",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "4294924c",
+		type: "item",
+		item: "bountiful:bountyboarditem"
+	}]
+}

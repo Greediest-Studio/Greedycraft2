@@ -1,0 +1,88 @@
+{
+  "name": "eugardite",
+  "tool": {
+    "head": {
+      "attackDamage": 32,
+      "speed": 13,
+      "durability": 5000,
+      "harvestLevel": 8
+    },
+    "handle": {
+      "modifier": 3.2,
+      "durability": 1000
+    },
+    "extra": {
+      "durability": 1000
+    },
+    "bow": {
+      "speed": 2.5,
+      "range": 2.2,
+      "bonusDamage": 10
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 275,
+      "defense": 60
+    },
+    "plates": {
+      "modifier": 7,
+      "durability": 144,
+      "toughness": 9.5
+    },
+    "trim": {
+      "extraDurability": 201
+    }
+  },
+  "color": "#a9ab6b",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 0,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Eugardite",
+    "zh_cn": "神光合金"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:greedycraft-eugardite_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["lighting10", "crushing", "battle_and_braver"],
+    "HANDLE": ["lighting10", "crushing", "light_discovery"],
+    "EXTRA": ["lighting10", "crushing", "light_discovery"],
+    "BOW": ["lighting10", "crushing", "light_discovery"],
+    "CORE": ["lighting10_armor", "first_guard_armor", "light_mark_armor"],
+    "PLATES": ["lighting10_armor", "first_guard_armor", "light_mark_armor"],
+    "TRIM": ["lighting10_armor", "first_guard_armor", "light_mark_armor"]
+  }
+}

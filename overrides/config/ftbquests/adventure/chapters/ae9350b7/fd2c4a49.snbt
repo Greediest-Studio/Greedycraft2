@@ -1,0 +1,37 @@
+{
+	title: "§b幸运儿",
+	x: 6.0d,
+	y: 4.5d,
+	description: "破坏草以有小几率获得幸运四叶草",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "947fe67d",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-lucky_clover"
+		}]
+	}],
+	rewards: [{
+		uid: "ac7f4fd2",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "119d55c9",
+		type: "item",
+		item: "additions:greedycraft-lucky_clover",
+		count: 3
+	},
+	{
+		uid: "49ec247e",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "6002d886",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,48 @@
+{
+	title: "§b藏宝室？不不，是奖励罢了",
+	x: 4.5d,
+	y: 16.5d,
+	description: "获得迷宫破坏者",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "d3887727",
+		type: "item",
+		items: [{
+			id: "twilightforest:mazebreaker_pickaxe",
+			tag: {
+				ench: [{
+					id: 32,
+					lvl: 4s
+				},
+				{
+					id: 34,
+					lvl: 3s
+				},
+				{
+					id: 35,
+					lvl: 2s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "73be2c4b",
+		type: "item",
+		item: "twilightforest:block_storage 1 2",
+		count: 3
+	},
+	{
+		uid: "d3407b1c",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "16bce142",
+		type: "xp",
+		xp: 1500
+	}]
+}

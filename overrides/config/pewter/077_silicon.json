@@ -1,0 +1,94 @@
+{
+  "name": "silicon",
+  "tool": {
+    "head": {
+      "attackDamage": 5,
+      "speed": 9,
+      "durability": 200,
+      "harvestLevel": 3
+    },
+    "handle": {
+      "modifier": 0.8,
+      "durability": 150
+    },
+    "extra": {
+      "durability": 180
+    },
+    "bow": {
+      "speed": 6.4,
+      "range": 2.5,
+      "bonusDamage": 6
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 8,
+      "defense": 14
+    },
+    "plates": {
+      "modifier": 1.25,
+      "durability": 6,
+      "toughness": 1
+    },
+    "trim": {
+      "extraDurability": 9
+    }
+  },
+  "color": "#333344",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Silicon",
+    "zh_cn": "硅"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:greedycraft-silicon_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["crystal_force", "shocking"],
+    "HANDLE": ["crystal_force", "shocking"],
+    "EXTRA": ["crystal_force", "shocking"],
+    "BOW": ["crystal_force", "shocking"],
+    "CORE": ["lightweight_armor", "electric_shock_armor"],
+    "PLATES": ["lightweight_armor", "electric_shock_armor"],
+    "TRIM": ["lightweight_armor", "electric_shock_armor"]
+  }
+}

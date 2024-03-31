@@ -1,0 +1,29 @@
+{
+	title: "§b热力的4倍矿？",
+	x: -26.0d,
+	y: -14.5d,
+	description: "制作升级：炽焱高温裂解",
+	text: [
+		"可以4倍矿，不过合成方式直接劝退。。。（话说为什么不用mek呢？）"
+	],
+	dependencies: [
+		"d1c9c63d"
+	],
+	tasks: [{
+		uid: "f266e312",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 304"
+		}]
+	}],
+	rewards: [{
+		uid: "93d3e6cb",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "c74c4df3",
+		type: "random",
+		table: 0
+	}]
+}

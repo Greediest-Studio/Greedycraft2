@@ -1,0 +1,27 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:greedycraft-storm_kicker",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "command": "/kill @e[type\u003dageofminecraft:witherstormbosstentaclehelpful]",
+      "type": "additions:command"
+    },
+    {
+      "command": "/kill @e[type\u003dageofminecraft:witherstormbosstentacledevourerhelpful]",
+      "type": "additions:command"
+    },
+    {
+      "command": "/kill @e[type\u003dageofminecraft:witherstormbossheadhelpful]",
+      "type": "additions:command"
+    },
+    {
+      "command": "/tellraw @a {\"text\": \"§c§5已清除所有凋灵风暴遗骸。\"}",
+      "type": "additions:command"
+    }
+  ]
+}

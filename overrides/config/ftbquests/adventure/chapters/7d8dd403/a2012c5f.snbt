@@ -1,0 +1,35 @@
+{
+	title: "§b怒焰",
+	x: -13.0d,
+	y: 3.0d,
+	description: "合成怒焰石林结界石",
+	text: [
+		""
+	],
+	dependencies: [
+		"47237c8f"
+	],
+	tasks: [{
+		uid: "315fc4f4",
+		type: "item",
+		items: [{
+			item: "journey:boilingportalframe"
+		}]
+	}],
+	rewards: [{
+		uid: "b9f95428",
+		type: "item",
+		item: "journey:boilingportalframe",
+		count: 4
+	},
+	{
+		uid: "cdeee411",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "83d904be",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,94 @@
+{
+  "name": "mist_alloy",
+  "tool": {
+    "head": {
+      "attackDamage": 12.0,
+      "speed": 6.5,
+      "durability": 1600,
+      "harvestLevel": 5
+    },
+    "handle": {
+      "modifier": 1.2,
+      "durability": 525
+    },
+    "extra": {
+      "durability": 410
+    },
+    "bow": {
+      "speed": 1.2,
+      "range": 0.8,
+      "bonusDamage": 3.0
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 172.0,
+      "defense": 24.0
+    },
+    "plates": {
+      "modifier": 5.5,
+      "durability": 66.0,
+      "toughness": 2.0
+    },
+    "trim": {
+      "extraDurability": 44.0
+    }
+  },
+  "color": "#244631",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Mist Alloy",
+    "zh_cn": "迷踪合金"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:eioaddon-mist_alloy_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["diffuse", "xu_withering"],
+    "HANDLE": ["diffuse", "xu_withering"],
+    "EXTRA": ["diffuse", "xu_withering"],
+    "BOW": ["diffuse", "xu_withering"],
+    "CORE": ["disappearing_armor","shielding_armor"],
+    "PLATES": ["disappearing_armor","shielding_armor"],
+    "TRIM": ["disappearing_armor","shielding_armor"]
+  }
+}

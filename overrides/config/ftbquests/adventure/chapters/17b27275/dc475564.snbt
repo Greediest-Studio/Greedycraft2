@@ -1,0 +1,32 @@
+{
+	title: "§b灌注基础",
+	x: -1.0d,
+	y: 7.5d,
+	description: "获得重力金锭",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "13eda2db",
+		type: "item",
+		items: [{
+			item: "moretcon:ingotgravitonium"
+		}]
+	}],
+	rewards: [{
+		uid: "130323f3",
+		type: "item",
+		item: "moretcon:ingotgravitonium",
+		count: 16
+	},
+	{
+		uid: "e811a040",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "b0171ad0",
+		type: "xp",
+		xp: 3000
+	}]
+}

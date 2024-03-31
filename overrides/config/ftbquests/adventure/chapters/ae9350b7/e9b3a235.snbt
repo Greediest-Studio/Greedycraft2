@@ -1,0 +1,33 @@
+{
+	title: "§b俯首甘为孺子牛",
+	x: 10.5d,
+	y: 13.5d,
+	description: "制作反向马镫",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "b24013ec",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:tool_mount_inverse"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0cd1eb89",
+		type: "item",
+		item: "cyclicmagic:tool_mount"
+	},
+	{
+		uid: "a824db20",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "05aac790",
+		type: "xp",
+		xp: 2000
+	}]
+}

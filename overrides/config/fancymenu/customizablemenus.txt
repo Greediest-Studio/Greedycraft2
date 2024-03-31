@@ -1,0 +1,26 @@
+type = customizablemenus
+
+net.journey.client.render.gui.menu.JourneyMainMenu {
+}
+
+net.minecraft.client.gui.inventory.GuiContainerCreative {
+}
+
+hellfirepvp.modularmachinery.client.gui.GuiMachineController {
+}
+
+net.minecraft.client.gui.GuiWorldSelection {
+}
+
+net.minecraft.client.gui.GuiMainMenu {
+}
+
+net.minecraft.client.gui.inventory.GuiChest {
+}
+
+com.feed_the_beast.ftblib.lib.gui.GuiWrapper {
+}
+
+com.github.alexthe666.iceandfire.client.gui.IceAndFireMainMenu {
+}
+

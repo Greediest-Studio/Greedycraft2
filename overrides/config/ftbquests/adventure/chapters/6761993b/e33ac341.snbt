@@ -1,0 +1,30 @@
+{
+	title: "§b噢耶！终于掉了！",
+	x: -11.5d,
+	y: 1.5d,
+	description: "击杀被原始投网击中的生物，获得[原生]恶魔意志",
+	text: [
+		"似乎使用感知金属制作的工具能够快速收割恶魔意志？不过那都是后话了。"
+	],
+	dependencies: [
+		"1c5509e5"
+	],
+	tasks: [{
+		uid: "4894df0a",
+		type: "item",
+		items: [{
+			item: "bloodmagic:monster_soul"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bf13f9d4",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "50e87587",
+		type: "xp",
+		xp: 500
+	}]
+}

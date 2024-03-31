@@ -1,0 +1,35 @@
+{
+	title: "§bC₅H₆N₂O₂",
+	x: 5.5d,
+	y: 0.0d,
+	description: "在下界的灰烬中挖掘胸腺嘧",
+	text: [
+		""
+	],
+	dependencies: [
+		"9329a5dd"
+	],
+	tasks: [{
+		uid: "14ae325f",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-thyminite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "b7411c83",
+		type: "item",
+		item: "additions:greedycraft-thyminite_ingot",
+		count: 8
+	},
+	{
+		uid: "f6c2c7ea",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "b252a544",
+		type: "random",
+		table: 1
+	}]
+}

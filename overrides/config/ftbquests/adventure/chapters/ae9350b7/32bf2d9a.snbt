@@ -1,0 +1,26 @@
+{
+	title: "§b快捷提交",
+	x: 4.5d,
+	y: 4.5d,
+	description: "制作任务显示器",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "f3945673",
+		type: "item",
+		items: [{
+			item: "ftbquests:screen"
+		}]
+	}],
+	rewards: [{
+		uid: "3f5b2433",
+		type: "xp",
+		xp: 450
+	},
+	{
+		uid: "7bf6e8b1",
+		type: "random",
+		table: 1
+	}]
+}

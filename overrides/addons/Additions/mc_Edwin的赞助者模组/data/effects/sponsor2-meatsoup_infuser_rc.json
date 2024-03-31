@@ -1,0 +1,24 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:sponsor2-meatsoup_infuser",
+      "damage": "any"
+    },
+    "type": "additions:item_right_click"
+  },
+  "effects": [
+    {
+      "type": "additions:consume_item"
+    },
+    {
+      "potion": {
+        "name": "minecraft:saturation",
+        "duration": 2400,
+        "amplifier": 0,
+        "ambient": false,
+        "show_particles": true
+      },
+      "type": "additions:potion"
+    }
+  ]
+}

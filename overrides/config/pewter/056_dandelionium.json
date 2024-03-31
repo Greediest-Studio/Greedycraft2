@@ -1,0 +1,124 @@
+{
+    "name": "dandelionium",
+    "tool": {
+      "head": {
+        "attackDamage": 34,
+        "speed": 19.9,
+        "durability": 3500,
+        "harvestLevel": 10
+      },
+      "handle": {
+        "modifier": 1,
+        "durability": 1500
+      },
+      "extra": {
+        "durability": 1690
+      },
+      "bow": {
+        "speed": 0.9,
+        "range": 1.6,
+        "bonusDamage": 44
+      }
+    },
+    "color": "#ffffff",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 850,
+    "looks": {
+      "shininess": 0.8,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Dandelionium",
+      "zh_cn": "蒲公英"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "gct_mobs:dandelionium_ingot"
+      ],
+      "block": [
+      ],
+      "nugget": [
+      ],
+      "ore": [
+      ],
+      "dust": [
+      ],
+      "plate": [
+      ],
+      "gear": [
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "defense": 65,
+        "durability": 392
+      },
+      "plates": {
+        "toughness": 2.75,
+        "modifier": 4.2,
+        "durability": 289
+      },
+      "trim": {
+        "extraDurability": 289
+      }
+    },
+    "specificTraits": {
+      "HEAD": [
+        "tconevo.mana_infused",
+        "baconlicious"
+      ],
+      "HANDLE": [
+        "tconevo.mana_infused",
+        "baconlicious"
+      ],
+      "EXTRA": [
+        "tconevo.mana_infused",
+        "baconlicious"
+      ],
+      "BOW": [
+        "tconevo.mana_infused",
+        "baconlicious"
+      ],
+      "CORE": [
+        "tconevo.mana_infused_armor",
+        "bellyful_armor"
+      ],
+      "PLATES": [
+        "tconevo.mana_infused_armor",
+        "bellyful_armor"
+      ],
+      "TRIM": [
+        "tconevo.mana_infused_armor",
+        "bellyful_armor"
+      ]
+    }
+}
+  

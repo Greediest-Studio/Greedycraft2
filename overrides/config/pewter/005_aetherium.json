@@ -1,0 +1,156 @@
+{
+  "name": "aetherium",
+  "tool": {
+    "bow": {
+      "speed": 1.8,
+      "range": 1.0,
+      "bonusDamage": 16
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 17.2,
+      "speed": 17.2,
+      "durability": 6500,
+      "harvestLevel": 8
+    },
+    "handle": {
+      "modifier": 1.8,
+      "durability": 900
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 1.1
+    },
+    "extra": {
+      "durability": 850
+    }
+  },
+  "color": "#FEFEFE",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 710,
+  "looks": {
+    "shininess": 0.6,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Aetherium",
+    "zh_cn": "以太"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:greedycraft-aetherium_ingot"
+    ],
+    "block": [
+      "additions:greedycraft-aetherium_block"
+    ],
+    "nugget": [
+      "gct_ores:aetherium_nugget"
+    ],
+    "ore": [
+      "additions:greedycraft-aetherium_ore"
+    ],
+    "dust": [
+      "jaopca:item_dustaetherium"
+    ],
+    "plate": [
+      "jaopca:item_plateaetherium"
+    ],
+    "gear": [
+      "jaopca:item_gearaetherium"
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 280,
+      "defense": 56.5
+    },
+    "plates": {
+      "modifier": 5.2,
+      "durability": 71,
+      "toughness": 5
+    },
+    "trim": {
+      "extraDurability": 37
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "launching",
+      "repressing",
+      "moretcon.aetheric"
+    ],
+    "HEAD": [
+      "launching",
+      "antigrav",
+      "repressing",
+      "moretcon.aetheric"
+    ],
+    "HANDLE": [
+      "launching",
+      "repressing",
+      "moretcon.aetheric"
+    ],
+    "BOW": [
+      "launching",
+      "antigrav",
+      "repressing",
+      "moretcon.aetheric"
+    ],
+    "PROJECTILE": [
+      "launching",
+      "antigrav",
+      "repressing",
+      "moretcon.aetheric"
+    ],
+    "CORE": [
+      "lightweight_armor",
+      "tconevo.gale_force_armor",
+      "aetheric_armor"
+    ],
+    "PLATES": [
+      "lightweight_armor",
+      "tconevo.gale_force_armor",
+      "aetheric_armor"
+    ],
+    "TRIM": [
+      "lightweight_armor",
+      "tconevo.gale_force_armor",
+      "aetheric_armor"
+    ]
+  }
+}

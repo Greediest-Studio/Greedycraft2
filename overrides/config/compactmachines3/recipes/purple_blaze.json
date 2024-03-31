@@ -1,0 +1,71 @@
+{
+    "name": "compactmachines3:purple_blaze",
+    "target-item": "divinerpg:purple_blaze",
+    "target-count": 4,
+  
+    "catalyst": "minecraft:blaze_powder",
+    
+    "input-types": {
+    "a": {
+      "id": "botania:blazeblock",
+      "meta": 0
+    },
+    "b": {
+      "id": "minecraft:lapis_block",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "b",
+        "a"
+      ],
+      [
+        "b",
+        "_",
+        "b"
+      ],
+      [
+        "a",
+        "b",
+        "a"
+      ]
+    ],
+    [
+      [
+        "b",
+        "_",
+        "b"
+      ],
+      [
+        "_",
+        "_",
+        "_"
+      ],
+      [
+        "b",
+        "_",
+        "b"
+      ]
+    ],
+    [
+      [
+        "a",
+        "b",
+        "a"
+      ],
+      [
+        "b",
+        "_",
+        "b"
+      ],
+      [
+        "a",
+        "b",
+        "a"
+      ]
+    ]
+  ]
+}

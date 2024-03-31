@@ -1,0 +1,26 @@
+{
+  "weight": 500,
+  "type": "tconevo:tool",
+  "name": "Erudita之刃",
+  "lore": [
+    "只是为了防止有人嫉妒我的研究。",
+    "- 特别鸣谢ChromaPIE -"
+  ],
+  "tool": "rapier",
+  "materials": [
+    "refined_obsidian",
+    "durasteel",
+    "polyethylene"
+  ],
+  "free_mods": 2,
+  "mods": [
+    {
+      "id": "sharpness",
+      "level": 72
+    },
+    "tconevo.fluxed"
+  ],
+  "data_tag": {
+    "FluxedEnergyMax": 20000
+  }
+}

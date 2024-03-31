@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "星域星辉矿石",
+    "ore_dict": "oreAstralStarmetal",
+    "type": "additions:block_simple"
+  },
+  "name": "星域星辉矿石",
+  "material": "minecraft:stone",
+  "hardness": 50.0,
+  "harvest_level": 9,
+  "harvest_tool": "pickaxe",
+  "light_level": 10,
+  "type": "additions:simple"
+}

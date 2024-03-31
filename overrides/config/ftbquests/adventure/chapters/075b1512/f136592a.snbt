@@ -1,0 +1,68 @@
+{
+	title: "§b自由落体 X",
+	x: 5.5d,
+	y: 14.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"86abb09d"
+	],
+	tasks: [{
+		uid: "904c0f57",
+		type: "stat",
+		icon: "avaritia:infinity_boots",
+		stat: "stat.fallOneCm",
+		value: 100000000
+	}],
+	rewards: [{
+		uid: "e47776bb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "4893d5a5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "70248818",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "46bca733",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "05053e1c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	}]
+}

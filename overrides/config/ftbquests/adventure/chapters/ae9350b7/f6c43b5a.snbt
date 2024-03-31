@@ -1,0 +1,41 @@
+{
+	title: "§b不死者之殇",
+	x: 3.0d,
+	y: 4.5d,
+	description: "在1000难度以上再次击杀悼亡者，获得不死精华",
+	text: [
+		""
+	],
+	dependencies: [
+		"ef0524d0"
+	],
+	tasks: [{
+		uid: "c11c2694",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-undead_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "5e57d944",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "28ad81c1",
+		type: "item",
+		item: "additions:greedycraft-sorrowium_ingot",
+		count: 8
+	},
+	{
+		uid: "f66ba8fe",
+		type: "item",
+		item: "defiledlands:remorseful_gem",
+		count: 2
+	},
+	{
+		uid: "413a861c",
+		type: "random",
+		table: 3
+	}]
+}

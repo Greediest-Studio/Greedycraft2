@@ -1,0 +1,55 @@
+{
+	title: "§b进军黑暗沼泽",
+	x: 4.0d,
+	y: -5.0d,
+	description: "制作交错咒符，解锁交错旅行家阶段",
+	text: [
+		""
+	],
+	dependencies: [
+		"375519c2",
+		"e6d9657e"
+	],
+	tasks: [{
+		uid: "8c63f1c3",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-betweenland_rune"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e9d8f82c",
+		type: "item",
+		item: {
+			id: "extrabotany:material",
+			Damage: 1s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "154b1bef",
+		type: "item",
+		item: {
+			id: "additions:greedycraft-eugardite_ingot",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 6
+	},
+	{
+		uid: "f82a975d",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "6176a8ee",
+		type: "xp",
+		xp: 8000
+	}]
+}

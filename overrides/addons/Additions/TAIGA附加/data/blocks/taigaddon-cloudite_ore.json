@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "云银矿石",
+    "ore_dict": "oreCloudite",
+    "type": "additions:block_simple"
+  },
+  "name": "云银矿石",
+  "material": "minecraft:stone",
+  "hardness": 30.0,
+  "resistance": 4000.0,
+  "harvest_level": 7,
+  "harvest_tool": "pickaxe",
+  "light_level": 2,
+  "type": "additions:simple"
+}

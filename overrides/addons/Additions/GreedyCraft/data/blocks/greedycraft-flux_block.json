@@ -1,0 +1,17 @@
+{
+  "item_block": {
+    "name": "§c拟态通量块",
+    "tooltip": "§41块\u003d1,296,000,000,000RF",
+    "ore_dict": "blockFlux",
+    "type": "additions:block_simple"
+  },
+  "name": "§c拟态通量块",
+  "material": "minecraft:stone",
+  "hardness": 4.0,
+  "resistance": 3.0,
+  "harvest_level": 2,
+  "harvest_tool": "pickaxe",
+  "light_level": 15,
+  "bookshelf_strength": 20,
+  "type": "additions:simple"
+}

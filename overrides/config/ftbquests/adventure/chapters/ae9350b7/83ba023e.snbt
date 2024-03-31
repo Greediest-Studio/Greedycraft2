@@ -1,0 +1,27 @@
+{
+	title: "§b于瓮得利",
+	x: 4.5d,
+	y: 10.5d,
+	description: "找到一个瓦瓮",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "45326971",
+		type: "observation",
+		icon: "pyramidplunder:urn",
+		match_type: "block_id",
+		match: "pyramidplunder:urn",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "9b7b05fc",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "c8888438",
+		type: "random",
+		table: 0
+	}]
+}

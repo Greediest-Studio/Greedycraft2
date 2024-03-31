@@ -1,0 +1,130 @@
+{
+  "name": "cthughate",
+  "tool": {
+    "head": {
+      "attackDamage": 70,
+      "speed": 11.525,
+      "durability": 8160,
+      "harvestLevel": 11
+    },
+    "handle": {
+      "modifier": 3.24,
+      "durability": 3820
+    },
+    "extra": {
+        "durability": 3355
+    },
+    "bow": {
+        "speed": 2.2,
+        "range": 2.3,
+        "bonusDamage": 58
+    }
+  },
+  "color": "#cc0d0d",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 4020,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Cthughate",
+    "zh_cn": "克图格亚"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:taigaddon-cthughate_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 58.9,
+      "durability": 301
+    },
+    "plates": {
+      "toughness": 6.4,
+      "modifier": 9.5,
+      "durability": 165
+    },
+    "trim": {
+      "extraDurability": 148
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "demon_hunter",
+      "flammable",
+      "igniting"
+    ],
+    "HANDLE": [
+      "demon_hunter",
+      "flammable",
+      "burnt"
+    ],
+    "EXTRA": [
+      "demon_hunter",
+      "flammable",
+      "burnt"
+    ],
+    "BOW": [
+      "demon_hunter",
+      "flammable",
+      "igniting"
+    ],
+    "CORE": [
+      "permanent_antibody_armor",
+      "tconevo.hearth_embrace_armor",
+      "pyrophoric_armor"
+    ],
+    "PLATES": [
+      "permanent_antibody_armor",
+      "tconevo.hearth_embrace_armor",
+      "pyrophoric_armor"
+    ],
+    "TRIM": [
+      "permanent_antibody_armor",
+      "tconevo.hearth_embrace_armor",
+      "pyrophoric_armor"
+    ]
+  }
+}

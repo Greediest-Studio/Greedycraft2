@@ -1,0 +1,28 @@
+{
+	title: "§b盖革一响，（）",
+	x: 10.5d,
+	y: 21.0d,
+	description: "合成便携式盖革计数器，可以实时监测玩家辐射",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "e7190cb4",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:geiger_counter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "948632df",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "696f616c",
+		type: "xp",
+		xp: 2000
+	}]
+}

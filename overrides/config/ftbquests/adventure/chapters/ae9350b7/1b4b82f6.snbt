@@ -1,0 +1,38 @@
+{
+	title: "§b储物掌管",
+	x: 0.0d,
+	y: 10.5d,
+	description: "制作抽屉管理器",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "8fd13806",
+		type: "item",
+		items: [{
+			item: "storagedrawers:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "6c68a754",
+		type: "item",
+		item: "storagedrawers:compdrawers",
+		count: 4
+	},
+	{
+		uid: "5b9dd328",
+		type: "item",
+		item: "storagedrawers:upgrade_storage 1 4",
+		count: 4
+	},
+	{
+		uid: "e6c0650a",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "280b3fa2",
+		type: "random",
+		table: 0
+	}]
+}

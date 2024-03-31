@@ -1,0 +1,40 @@
+{
+	title: "§b千钧之力",
+	x: 10.5d,
+	y: 16.5d,
+	description: "击杀钢铁守护者，获得千锻巨斧",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "45b567db",
+		type: "item",
+		items: [{
+			item: "mowziesmobs:wrought_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "75922c72",
+		type: "item",
+		item: "additions:stainless_steel_ingot",
+		count: 16
+	},
+	{
+		uid: "33144f8a",
+		type: "item",
+		item: "thermalfoundation:material 1 160",
+		count: 32
+	},
+	{
+		uid: "59eb5e0c",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "ace169f6",
+		type: "xp",
+		xp: 1000
+	}]
+}

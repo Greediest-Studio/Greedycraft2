@@ -1,0 +1,23 @@
+{
+  "cause": {
+    "item": {
+      "item": "additions:sponsor2-speeder_torch",
+      "damage": "any"
+    },
+    "target_self": true,
+    "except_replaceable": true,
+    "type": "additions:item_right_click_block"
+  },
+  "effects": [
+    {
+      "command": "/tellraw @p {\"text\":\"啊~**爽了~\",\"color\":\"dark_purple\"}",
+      "command_sender_name": "@p",
+      "type": "additions:command"
+    },
+    {
+      "command": "kill @p",
+      "command_sender_name": "@p",
+      "type": "additions:command"
+    }
+  ]
+}

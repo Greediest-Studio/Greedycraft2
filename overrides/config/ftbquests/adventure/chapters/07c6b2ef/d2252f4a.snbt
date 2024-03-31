@@ -1,0 +1,58 @@
+{
+	title: "§b冰火同源！",
+	x: 0.0d,
+	y: -13.0d,
+	description: "制作反应能源炉",
+	text: [
+		""
+	],
+	dependencies: [
+		"21e1125d"
+	],
+	tasks: [{
+		uid: "44d6992e",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			Damage: 3s,
+			tag: {
+				Facing: 1b,
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d4e24203",
+		type: "item",
+		item: {
+			id: "thermalexpansion:florb",
+			tag: {
+				Fluid: "cryotheum"
+			}
+		}
+	},
+	{
+		uid: "1bc45248",
+		type: "item",
+		item: {
+			id: "thermalexpansion:florb",
+			Damage: 1s,
+			tag: {
+				Fluid: "pyrotheum"
+			}
+		}
+	},
+	{
+		uid: "32e3a60c",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "e7b77855",
+		type: "random",
+		table: 1
+	}]
+}

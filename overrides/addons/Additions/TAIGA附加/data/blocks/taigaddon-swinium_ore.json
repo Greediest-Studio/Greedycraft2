@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "辉铜矿石",
+    "ore_dict": "oreSwinium",
+    "type": "additions:block_simple"
+  },
+  "name": "辉铜矿石",
+  "material": "minecraft:stone",
+  "hardness": 30.0,
+  "resistance": 4000.0,
+  "harvest_level": 6,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

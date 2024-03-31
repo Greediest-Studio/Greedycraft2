@@ -1,0 +1,65 @@
+{
+	title: "§b巨龙杀手 IV",
+	icon: "minecraft:skull 1 5",
+	x: 1.0d,
+	y: 5.5d,
+	dependencies: [
+		"5f7a4b74"
+	],
+	tasks: [{
+		uid: "7a0b8f89",
+		type: "kill",
+		entity: "minecraft:ender_dragon",
+		value: 20L
+	}],
+	rewards: [{
+		uid: "9db1ca26",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "36ddaa68",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "dfb7cc4e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "e077e5c5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "2e2fb64f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	}]
+}

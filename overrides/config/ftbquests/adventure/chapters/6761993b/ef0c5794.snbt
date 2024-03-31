@@ -1,0 +1,32 @@
+{
+	title: "§b渗入血液的石砖",
+	x: -1.5d,
+	y: 3.5d,
+	description: "制作大血石砖",
+	dependencies: [
+		"4ffc5ecf"
+	],
+	tasks: [{
+		uid: "cde08f8f",
+		type: "item",
+		items: [{
+			item: "bloodmagic:decorative_brick"
+		}]
+	}],
+	rewards: [{
+		uid: "2190631a",
+		type: "item",
+		item: "bloodmagic:decorative_brick",
+		count: 16
+	},
+	{
+		uid: "3f6ab100",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "31ab0aec",
+		type: "xp",
+		xp: 2000
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "§b这玩意很稀有，不是吗？",
+	x: -10.5d,
+	y: 6.0d,
+	description: "挖掘一块铬矿石",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"8636a008"
+	],
+	tasks: [{
+		uid: "3af0c8f2",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-chromium_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "c80acd51",
+		type: "item",
+		item: "additions:greedycraft-chromium_ore",
+		count: 4
+	},
+	{
+		uid: "5ca0c887",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "9aa84328",
+		type: "random",
+		table: 1
+	}]
+}

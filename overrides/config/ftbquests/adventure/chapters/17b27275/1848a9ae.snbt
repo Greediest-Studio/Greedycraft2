@@ -1,0 +1,77 @@
+{
+	title: "§b不留全尸是吧",
+	x: -3.5d,
+	y: 0.0d,
+	description: "阿纳迪亚鱼……的零部件？",
+	text: [
+		""
+	],
+	dependencies: [
+		"00327d8a"
+	],
+	tasks: [{
+		uid: "ecc275a2",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 55"
+		}]
+	},
+	{
+		uid: "da792a40",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 57"
+		}]
+	},
+	{
+		uid: "9a78190c",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 52"
+		}]
+	},
+	{
+		uid: "7e506415",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 53"
+		}]
+	},
+	{
+		uid: "fcc641ee",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 54"
+		}]
+	},
+	{
+		uid: "e28b9927",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:anadia_meat_raw"
+		}]
+	},
+	{
+		uid: "1818db82",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 56"
+		}]
+	}],
+	rewards: [{
+		uid: "31774f17",
+		type: "item",
+		item: "thebetweenlands:anadia_meat_smoked",
+		count: 16
+	},
+	{
+		uid: "d33e9b3c",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "21af3713",
+		type: "random",
+		table: 2
+	}]
+}

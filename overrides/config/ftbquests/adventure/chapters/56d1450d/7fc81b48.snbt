@@ -1,0 +1,34 @@
+{
+	title: "§b长生不老",
+	x: -19.5d,
+	y: -3.0d,
+	description: "获得寿命升级",
+	text: [
+		""
+	],
+	dependencies: [
+		"2bafc3d8"
+	],
+	tasks: [{
+		uid: "89fe04b1",
+		type: "item",
+		items: [{
+			item: "gendustry:apiary.upgrade 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "6d42e417",
+		type: "item",
+		item: "gendustry:apiary.upgrade 1 1"
+	},
+	{
+		uid: "462971c0",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "845480ca",
+		type: "loot",
+		table: 2
+	}]
+}

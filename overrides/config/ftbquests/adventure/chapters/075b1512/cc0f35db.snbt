@@ -1,0 +1,35 @@
+{
+	title: "§b航天员 I",
+	x: 4.0d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "484199b6",
+		type: "stat",
+		icon: "minecraft:elytra",
+		stat: "stat.flyOneCm",
+		value: 800000
+	}],
+	rewards: [{
+		uid: "37e80c3d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "ae3fbd03",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	}]
+}

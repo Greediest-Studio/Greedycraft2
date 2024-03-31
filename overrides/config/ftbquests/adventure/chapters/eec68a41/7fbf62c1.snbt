@@ -1,0 +1,35 @@
+{
+	title: "§b更强大的精灵门",
+	x: 17.0d,
+	y: -3.0d,
+	description: "合成镶嵌奥利哈刚的梦之木",
+	text: [
+		""
+	],
+	dependencies: [
+		"10f04329"
+	],
+	tasks: [{
+		uid: "d72401c2",
+		type: "item",
+		items: [{
+			item: "gct_mobs:orichalcos_dreamwood"
+		}]
+	}],
+	rewards: [{
+		uid: "c268d268",
+		type: "item",
+		item: "gct_mobs:orichalcos_dreamwood",
+		count: 4
+	},
+	{
+		uid: "5f31e42f",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "c5e0c67d",
+		type: "random",
+		table: 3
+	}]
+}

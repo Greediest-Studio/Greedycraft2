@@ -1,0 +1,31 @@
+{
+	title: "§b似乎有点恶心",
+	x: -0.5d,
+	y: 2.5d,
+	description: "获得微型烂泥蠕虫",
+	text: [
+		""
+	],
+	dependencies: [
+		"bcde6ec3"
+	],
+	tasks: [{
+		uid: "bd550fd5",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:tiny_sludge_worm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ac62df3d",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "758764df",
+		type: "xp",
+		xp: 4000
+	}]
+}

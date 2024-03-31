@@ -1,0 +1,127 @@
+{
+  "name": "harcadium",
+  "tool": {
+    "head": {
+      "attackDamage": 40,
+      "speed": 18,
+      "durability": 124000,
+      "harvestLevel": 10
+    },
+    "handle": {
+      "modifier": 2.7,
+      "durability": 80000
+    },
+    "extra": {
+        "durability": 64000
+    },
+    "bow": {
+        "speed": 8,
+        "range": 3.5,
+        "bonusDamage": 48
+    }
+  },
+  "color": "#867476",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 960,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Harcadium",
+    "zh_cn": "末晶"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:taigaddon-harcadium_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 5000,
+      "defense": 45
+    },
+    "plates": {
+      "modifier": 22,
+      "durability": 2800,
+      "toughness": 3
+    },
+    "trim": {
+      "extraDurability": 3000
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "launching",
+      "spartan",
+      "giantslayer"
+    ],
+    "HANDLE": [
+      "launching",
+      "spartan",
+      "giantslayer"
+    ],
+    "EXTRA": [
+      "launching",
+      "spartan",
+      "giantslayer"
+    ],
+    "BOW": [
+      "launching",
+      "spartan",
+      "giantslayer"
+    ],
+    "CORE": [
+      "indomitable_armor",
+      "crystal_force_armor"
+    ],
+    "PLATES": [
+      "indomitable_armor",
+      "crystal_force_armor"
+    ],
+    "TRIM": [
+      "indomitable_armor",
+      "crystal_force_armor"
+    ]
+  }
+}

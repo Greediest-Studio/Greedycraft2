@@ -1,0 +1,47 @@
+{
+	title: "§b不不不，我不想炼药",
+	x: 12.5d,
+	y: 5.5d,
+	description: "收集一瓶Byrginaz要素",
+	text: [
+		""
+	],
+	dependencies: [
+		"cb75c573",
+		"d9db7475",
+		"197f800c"
+	],
+	tasks: [{
+		uid: "99012d6e",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:aspect_vial",
+			Damage: 1s,
+			tag: {
+				blHerbloreAspects: {
+					container: [{
+						aspect: {
+							type: "Byrginaz"
+						},
+						storage: {
+							dynamic: 1000,
+							storedStatic: 0,
+							hasStoredStatic: 0b
+						}
+					}]
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a6b6b1c5",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "deace0f5",
+		type: "xp",
+		xp: 10000
+	}]
+}

@@ -1,0 +1,94 @@
+{
+  "name": "barium",
+  "tool": {
+    "head": {
+      "attackDamage": 17,
+      "speed": 19.5,
+      "durability": 40,
+      "harvestLevel": 5
+    },
+    "handle": {
+      "modifier": 0.08,
+      "durability": -160
+    },
+    "extra": {
+      "durability": 12
+    },
+    "bow": {
+      "speed": 0.3,
+      "range": 1.9,
+      "bonusDamage": 18
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 4.5,
+      "defense": 27.5
+    },
+    "plates": {
+      "modifier": 0.15,
+      "durability": 1.5,
+      "toughness": 4
+    },
+    "trim": {
+      "extraDurability": 1.2
+    }
+  },
+  "color": "#6f6e40",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Barium",
+    "zh_cn": "钡"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:elements-barium_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["alkalinity", "chemical_instable", "crystalyst"],
+    "HANDLE": ["alkalinity", "unstable", "flammable"],
+    "EXTRA": ["alkalinity", "unstable", "flammable"],
+    "BOW": ["alkalinity", "unstable", "flammable"],
+    "CORE": ["bouncy_armor", "unstable_armor", "oxyless_armor"],
+    "PLATES": ["bouncy_armor", "unstable_armor", "oxyless_armor"],
+    "TRIM": ["bouncy_armor", "unstable_armor", "oxyless_armor"]
+  }
+}

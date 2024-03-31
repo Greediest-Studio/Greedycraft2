@@ -1,0 +1,18 @@
+{
+  "item_block": {
+    "name": "§d星辉投影仪（开启）",
+    "tooltip": "§5§o投射星芒",
+    "type": "additions:block_simple"
+  },
+  "name": "§d星辉投影仪（开启）",
+  "material": "minecraft:stone",
+  "hardness": 30.0,
+  "resistance": 20.0,
+  "harvest_level": 7,
+  "harvest_tool": "pickaxe",
+  "light_opacity": 14,
+  "light_level": 15,
+  "semi_transparent": true,
+  "bounding_box_max_y": 0.5,
+  "type": "additions:simple"
+}

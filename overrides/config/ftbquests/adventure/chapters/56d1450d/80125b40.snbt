@@ -1,0 +1,35 @@
+{
+	title: "§b不太好用的分析仪",
+	x: -13.5d,
+	y: -1.5d,
+	description: "获得分析仪",
+	text: [
+		""
+	],
+	dependencies: [
+		"6a9a04dd"
+	],
+	tasks: [{
+		uid: "0756f4cb",
+		type: "item",
+		items: [{
+			item: "forestry:analyzer"
+		}]
+	}],
+	rewards: [{
+		uid: "bb087180",
+		type: "item",
+		item: "forestry:honey_drop",
+		count: 64
+	},
+	{
+		uid: "d07399d2",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "a11b6fed",
+		type: "loot",
+		table: 2
+	}]
+}

@@ -1,0 +1,150 @@
+{
+  "name": "francium",
+  "tool": {
+    "head": {
+      "attackDamage": 89,
+      "speed": 26,
+      "durability": 12,
+      "harvestLevel": 11
+    },
+    "handle": {
+      "modifier": 0.05,
+      "durability": -280
+    },
+    "extra": {
+        "durability": 5
+    },
+    "bow": {
+        "speed": 0.9,
+        "range": 2.3,
+        "bonusDamage": 60
+    }
+  },
+  "color": "#00eb00",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 300,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Francium",
+    "zh_cn": "钫"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:taigaddon-francium_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 88,
+      "durability": 2.4
+    },
+    "plates": {
+      "toughness": 8,
+      "modifier": 0.062,
+      "durability": 0.5
+    },
+    "trim": {
+      "extraDurability": 0.2
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "unstable",
+      "chemical_instable",
+      "alkalinity",
+      "ia_metals2",
+      "active_source3"
+    ],
+    "HANDLE": [
+      "unstable",
+      "chemical_instable",
+      "alkalinity",
+      "moretcon.liquid",
+      "ia_metals2",
+      "active_source3"
+    ],
+    "EXTRA": [
+      "unstable",
+      "chemical_instable",
+      "alkalinity",
+      "moretcon.liquid",
+      "ia_metals2",
+      "active_source3"
+    ],
+    "BOW": [
+      "unstable",
+      "chemical_instable",
+      "alkalinity",
+      "moretcon.liquid",
+      "ia_metals2",
+      "active_source3"
+    ],
+    "CORE": [
+      "unstable_armor",
+      "smooth_armor",
+      "invigorating_armor",
+      "moretcon.liquid",
+      "ia_metals2_armor",
+      "active_source3_armor"
+    ],
+    "PLATES": [
+      "unstable_armor",
+      "smooth_armor",
+      "invigorating_armor",
+      "moretcon.liquid",
+      "ia_metals2_armor",
+      "active_source3_armor"
+    ],
+    "TRIM": [
+      "unstable_armor",
+      "smooth_armor",
+      "invigorating_armor",
+      "moretcon.liquid",
+      "ia_metals2_armor",
+      "active_source3_armor"
+    ]
+  }
+}

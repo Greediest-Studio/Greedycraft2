@@ -1,0 +1,35 @@
+{
+	title: "§b地狱之心",
+	x: -12.0d,
+	y: 4.5d,
+	description: "在下界挖掘狱石矿石，获得狱石锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"47237c8f"
+	],
+	tasks: [{
+		uid: "49af065f",
+		type: "item",
+		items: [{
+			item: "journey:hellstoneingot"
+		}]
+	}],
+	rewards: [{
+		uid: "449c63f6",
+		type: "item",
+		item: "journey:hellstoneingot",
+		count: 16
+	},
+	{
+		uid: "3d20560f",
+		type: "xp",
+		xp: 1500
+	},
+	{
+		uid: "e97db263",
+		type: "random",
+		table: 2
+	}]
+}

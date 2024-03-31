@@ -1,0 +1,35 @@
+{
+	title: "§b未来的命运，没有了",
+	x: 4.0d,
+	y: 9.0d,
+	description: "制作蛋卷",
+	text: [
+		""
+	],
+	dependencies: [
+		"7f253db5"
+	],
+	tasks: [{
+		uid: "4f858ce0",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:olmlette"
+		}]
+	}],
+	rewards: [{
+		uid: "46c14e37",
+		type: "item",
+		item: "thebetweenlands:olmlette",
+		count: 16
+	},
+	{
+		uid: "286185db",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "d06473ba",
+		type: "xp",
+		xp: 6000
+	}]
+}

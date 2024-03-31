@@ -1,0 +1,42 @@
+{
+	title: "§b皮毛贸易！",
+	x: -12.0d,
+	y: 11.5d,
+	description: "击败雪怪首领",
+	text: [
+		""
+	],
+	dependencies: [
+		"0f52c58d"
+	],
+	tasks: [{
+		uid: "2f6a5a03",
+		type: "item",
+		items: [{
+			item: "twilightforest:alpha_fur"
+		}]
+	}],
+	rewards: [{
+		uid: "786a44d0",
+		type: "item",
+		item: "twilightforest:alpha_fur",
+		count: 12
+	},
+	{
+		uid: "4ed5ef24",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "9365267e",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "f2afc5b1",
+		type: "advancement",
+		auto: "no_toast",
+		advancement: "twilightforest:progress_yeti",
+		criterion: ""
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	title: "§b冰雪飘零卷轴",
+	x: 1.0d,
+	y: -4.0d,
+	description: "合成冰纹卷轴",
+	text: [
+		""
+	],
+	dependencies: [
+		"f4a1f1b8"
+	],
+	tasks: [{
+		uid: "c40eddd0",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-iciricium_scroll"
+		}]
+	}],
+	rewards: [{
+		uid: "6e05914f",
+		type: "item",
+		item: "additions:greedycraft-iciricium_ingot",
+		count: 4
+	},
+	{
+		uid: "9e500bb9",
+		type: "item",
+		item: "minecraft:paper",
+		count: 16
+	},
+	{
+		uid: "a502e85d",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "1d28ce13",
+		type: "xp",
+		xp: 950
+	}]
+}

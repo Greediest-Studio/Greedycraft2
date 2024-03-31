@@ -1,0 +1,47 @@
+{
+	title: "§b纯净花瓣",
+	icon: "botania:petal",
+	x: -7.0d,
+	y: -1.5d,
+	description: "收集一朵白色神秘花，将其合成为2个花瓣",
+	text: [
+		""
+	],
+	dependencies: [
+		"6fdf8df0"
+	],
+	tasks: [{
+		uid: "a4f44517",
+		type: "item",
+		items: [{
+			item: "botania:petal"
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "26bffd50",
+		type: "item",
+		item: "botania:fertilizer",
+		count: 16
+	},
+	{
+		uid: "f0a78b50",
+		type: "item",
+		item: {
+			id: "botania:flowerbag",
+			ForgeCaps: {
+				Parent: []
+			}
+		}
+	},
+	{
+		uid: "bfd1bfc7",
+		type: "xp",
+		xp: 30
+	},
+	{
+		uid: "255ea473",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "§b五倍产矿",
+	x: 3.5d,
+	y: -2.0d,
+	description: "制作一个化学溶解室",
+	text: [
+		""
+	],
+	dependencies: [
+		"e6c96740",
+		"ca529e24"
+	],
+	tasks: [{
+		uid: "7454136b",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 6"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e92a8d8",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "38401340",
+		type: "loot",
+		table: 0
+	}]
+}

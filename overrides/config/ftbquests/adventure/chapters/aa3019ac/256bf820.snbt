@@ -1,0 +1,14 @@
+{
+	x: 2.5d,
+	y: 7.5d,
+	dependencies: [
+		"b5405543"
+	],
+	tasks: [{
+		uid: "d2d3b8c4",
+		type: "item",
+		items: [{
+			item: "additions:taigaddon-rubidium_ingot"
+		}]
+	}]
+}

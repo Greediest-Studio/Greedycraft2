@@ -1,0 +1,42 @@
+{
+	title: "§b小的完全不够！",
+	x: -11.5d,
+	y: 6.0d,
+	description: "制作大型分子装配室控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"663562f7"
+	],
+	tasks: [{
+		uid: "6143d453",
+		type: "item",
+		items: [{
+			item: "threng:big_assembler 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "58a40903",
+		type: "item",
+		item: "threng:big_assembler 1 1",
+		count: 4
+	},
+	{
+		uid: "b2c9dd1c",
+		type: "item",
+		item: "threng:big_assembler",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		uid: "67285b17",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "7cf4a1e0",
+		type: "random",
+		table: 1
+	}]
+}

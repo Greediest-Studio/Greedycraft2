@@ -1,0 +1,158 @@
+{
+    "name": "fire_alloy",
+    "tool": {
+      "bow": {
+        "speed": 2.6,
+        "range": 1.2,
+        "bonusDamage": 40
+      },
+      "fletching": {
+        "accuracy": 0.5,
+        "modifier": 0.0
+      },
+      "head": {
+        "attackDamage": 34.4,
+        "speed": 17.3,
+        "durability": 11050,
+        "harvestLevel": 10
+      },
+      "handle": {
+        "modifier": 1.1,
+        "durability": 6125
+      },
+      "arrowShaft": {
+        "modifier": 1.1,
+        "bonusAmmo": 5
+      },
+      "bowstring": {
+        "modifier": 1.1
+      },
+      "extra": {
+        "durability": 6125
+      }
+    },
+    "color": "#ff0000",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 625,
+    "looks": {
+      "shininess": 0.6,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "PROJECTILE",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Fire_alloy",
+      "zh_cn": "炽炎合金"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "gct_ores:fire_alloy_ingot"
+      ],
+      "block": [
+        "gct_ores:fire_alloy_block"
+      ],
+      "nugget": [
+        "gct_ores:fire_alloy_nugget"
+      ],
+      "ore": [
+       
+      ],
+      "dust": [
+        "gct_ores:fire_alloy_dust"
+      ],
+      "plate": [
+        "gct_ores:fire_alloy_plate"
+      ],
+      "gear": [
+        "gct_ores:fire_alloy_gear"
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "durability": 810,
+        "defense": 82.5
+      },
+      "plates": {
+        "modifier": 7.6,
+        "durability": 115,
+        "toughness": 9
+      },
+      "trim": {
+        "extraDurability": 84
+      }
+    },
+    "specificTraits": {
+      "EXTRA": [
+        "terrafirma2",
+        "aridiculous_armor",
+        "superheat",
+        "bane_of_night"
+      ],
+      "HEAD": [
+        "terrafirma2",
+        "aridiculous_armor",
+        "superheat",
+        "ban_of_night"
+      ],
+      "HANDLE": [
+        "terrafirma2",
+        "aridiculous_armor",
+        "superheat",
+        "ban_of_night"
+      ],
+      "BOW": [
+        "terrafirma2",
+        "aridiculous_armor",
+        "superheat",
+        "ban_of_night"
+      ],
+      "PROJECTILE": [
+        "terrafirma2",
+        "aridiculous_armor",
+        "superheat",
+        "ban_of_night"
+      ],
+      "CORE": [
+        "second_life_armor",
+        "autoforge_armor",
+        "inferno_armor"
+      ],
+      "PLATES": [
+        "aridiculous_armor",
+        "overrestrain_armor",
+        "vision_armor"
+      ],
+      "TRIM": [
+        "aridiculous_armor",
+        "infernal_armor",
+        "vengeful_armor"
+      ]
+    }
+  }

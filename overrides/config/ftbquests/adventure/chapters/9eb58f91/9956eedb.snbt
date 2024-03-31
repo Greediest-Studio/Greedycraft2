@@ -1,0 +1,31 @@
+{
+	title: "§b制造合金",
+	x: 6.5d,
+	y: -2.5d,
+	description: "获得简易合金炉",
+	text: [
+		""
+	],
+	dependencies: [
+		"65376d4f"
+	],
+	tasks: [{
+		uid: "aeb040fb",
+		type: "item",
+		items: [{
+			item: "enderio:block_simple_alloy_smelter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9466294c",
+		type: "item",
+		item: "minecraft:furnace",
+		count: 16
+	},
+	{
+		uid: "e821ff4d",
+		type: "xp",
+		xp: 2000
+	}]
+}

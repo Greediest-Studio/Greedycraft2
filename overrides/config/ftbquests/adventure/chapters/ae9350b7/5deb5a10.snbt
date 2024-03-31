@@ -1,0 +1,37 @@
+{
+	title: "§b白日梦",
+	x: 0.0d,
+	y: 3.0d,
+	description: "制作吊床，可以在白天睡觉",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "e9052d07",
+		type: "item",
+		items: [{
+			item: "comforts:hammock"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cdf8f0d8",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "a3d7ff57",
+		type: "item",
+		item: "minecraft:bed"
+	},
+	{
+		uid: "46a04889",
+		type: "item",
+		item: "prefab:item_villager_houses"
+	},
+	{
+		uid: "8ae93b44",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,152 @@
+{
+  "name": "everite",
+  "tool": {
+    "bow": {
+      "speed": 0.4,
+      "range": 1.1,
+      "bonusDamage": 12
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 39,
+      "speed": 26.7,
+      "durability": 30000,
+      "harvestLevel": 10
+    },
+    "handle": {
+      "modifier": 2.8,
+      "durability": 3000
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 1.1
+    },
+    "extra": {
+      "durability": 4000
+    }
+  },
+  "color": "#612D86",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1500,
+  "looks": {
+    "shininess": 0.2,
+    "brightness": 0.0,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Everite",
+    "zh_cn": "万化"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "gct_ores:everite_ingot"
+    ],
+    "block": [
+      "gct_ores:everite_block"
+    ],
+    "nugget": [
+      "gct_ores:everite_nugget"
+    ],
+    "ore": [
+    ],
+    "dust": [
+      "gct_ores:everite_dust"
+    ],
+    "plate": [
+      "gct_ores:everite_plate"
+    ],
+    "gear": [
+      "gct_ores:everite_gear"
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 1000,
+      "defense": 90
+    },
+    "plates": {
+      "modifier": 10,
+      "durability": 300,
+      "toughness": 8
+    },
+    "trim": {
+      "extraDurability": 255
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "ecological",
+      "elementfriendly",
+      "terrafirma2"
+    ],
+    "HEAD": [
+      "ecological",
+      "elementfriendly",
+      "terrafirma2"
+    ],
+    "HANDLE": [
+      "ecological",
+      "elementfriendly",
+      "terrafirma2"
+    ],
+    "BOW": [
+      "ecological",
+      "elementfriendly",
+      "terrafirma2"
+    ],
+    "PROJECTILE": [
+      "ecological",
+      "elementfriendly",
+      "terrafirma2"
+    ],
+    "CORE": [
+      "fortified_armor",
+      "true_defense_armor",
+      "elementfriendly_armor"
+    ],
+    "PLATES": [
+      "fortified_armor",
+      "true_defense_armor",
+      "elementfriendly_armor"
+    ],
+    "TRIM": [
+      "fortified_armor",
+      "true_defense_armor",
+      "elementfriendly_armor"
+    ]
+  }
+}

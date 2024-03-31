@@ -1,0 +1,35 @@
+{
+	title: "§b蓝色妖只因plus",
+	x: -8.0d,
+	y: 4.0d,
+	description: "制作精英控制电路",
+	text: [
+		""
+	],
+	dependencies: [
+		"4529fb20",
+		"8f67f376"
+	],
+	tasks: [{
+		uid: "fd0ec9aa",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "777d1982",
+		type: "item",
+		item: "mekanism:controlcircuit 1 2"
+	},
+	{
+		uid: "97413e75",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "5e2b4c72",
+		type: "random",
+		table: 0
+	}]
+}

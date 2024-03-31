@@ -1,0 +1,32 @@
+{
+	title: "§b黄金与白银",
+	x: -10.5d,
+	y: 0.0d,
+	description: "获得桉域结界石,使用火焰铸币激活传送门",
+	text: [
+		""
+	],
+	dependencies: [
+		"1b8da535",
+		"fcc46f35",
+		"c575a24e",
+		"02debd79"
+	],
+	tasks: [{
+		uid: "30768ba7",
+		type: "item",
+		items: [{
+			item: "journey:eucaportalframe"
+		}]
+	}],
+	rewards: [{
+		uid: "d444b0ad",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "32462d65",
+		type: "xp",
+		xp: 1000
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "§b这是宝石吗？",
+	x: -9.5d,
+	y: 7.5d,
+	description: "制作暗黑充能宝石",
+	dependencies: [
+		"7742328f"
+	],
+	tasks: [{
+		uid: "ed24e1e7",
+		type: "item",
+		items: [{
+			item: "evilcraft:dark_power_gem"
+		}]
+	}],
+	rewards: [{
+		uid: "5c30438d",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "59ffefc2",
+		type: "random",
+		table: 1
+	}]
+}

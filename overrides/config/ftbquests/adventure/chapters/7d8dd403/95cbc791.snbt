@@ -1,0 +1,34 @@
+{
+	title: "§b二次升级？",
+	x: -17.5d,
+	y: -0.5d,
+	description: "升级死灵之书至恐惧之地级别",
+	text: [
+		""
+	],
+	dependencies: [
+		"c3fabed7"
+	],
+	tasks: [{
+		uid: "77782a7f",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:necronomicon_dre",
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3970fa7b",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "9f177a60",
+		type: "xp",
+		xp: 1200
+	}]
+}

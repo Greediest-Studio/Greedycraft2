@@ -1,0 +1,94 @@
+{
+  "name": "germanium",
+  "tool": {
+    "head": {
+      "attackDamage": 6.5,
+      "speed": 13,
+      "durability": 800,
+      "harvestLevel": 5
+    },
+    "handle": {
+      "modifier": 0.9,
+      "durability": 250
+    },
+    "extra": {
+      "durability": 300
+    },
+    "bow": {
+      "speed": 3.5,
+      "range": 2.2,
+      "bonusDamage": 1
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 12,
+      "defense": 17.5
+    },
+    "plates": {
+      "modifier": 1.1,
+      "durability": 8,
+      "toughness": 2
+    },
+    "trim": {
+      "extraDurability": 6
+    }
+  },
+  "color": "#a1a59f",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Germanium",
+    "zh_cn": "锗"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:elements-germanium_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["crystal_force", "global"],
+    "HANDLE": ["crystal_force", "global"],
+    "EXTRA": ["crystal_force", "global"],
+    "BOW": ["crystal_force", "global"],
+    "CORE": ["capacitor_armor", "electric_shock_armor"],
+    "PLATES": ["capacitor_armor", "electric_shock_armor"],
+    "TRIM": ["capacitor_armor", "electric_shock_armor"]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "preset_block": "additions:vethea-vethea_conductive_iron_debris",
+  "pools": [
+    {
+      "name": "block_itself_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:vethea-vethea_conductive_iron_debris"
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_itself"
+}

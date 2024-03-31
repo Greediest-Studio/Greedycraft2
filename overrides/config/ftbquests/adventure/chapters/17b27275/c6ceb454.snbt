@@ -1,0 +1,29 @@
+{
+	title: "§b这是……甘蔗？",
+	x: 4.0d,
+	y: 1.0d,
+	description: "获得沼泽芦苇",
+	text: [
+		""
+	],
+	dependencies: [
+		"81216f69"
+	],
+	tasks: [{
+		uid: "05024a26",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:swamp_reed_item"
+		}]
+	}],
+	rewards: [{
+		uid: "76f1f1cb",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "f03b2b5c",
+		type: "xp",
+		xp: 1000
+	}]
+}

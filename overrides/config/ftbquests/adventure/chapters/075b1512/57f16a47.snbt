@@ -1,0 +1,38 @@
+{
+	title: "§b怪物杀手 VII",
+	x: -5.0d,
+	y: 10.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3bf800df"
+	],
+	tasks: [{
+		uid: "264ed3a3",
+		type: "stat",
+		icon: "abyssalcraft:corsword",
+		stat: "stat.mobKills",
+		value: 17500
+	}],
+	rewards: [{
+		uid: "ba6142fb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "2889c613",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	}]
+}

@@ -1,0 +1,65 @@
+{
+	title: "§b巨龙杀手 VIII",
+	icon: "minecraft:skull 1 5",
+	x: 1.0d,
+	y: 11.5d,
+	dependencies: [
+		"d84220b2"
+	],
+	tasks: [{
+		uid: "80d9ce4e",
+		type: "kill",
+		entity: "minecraft:ender_dragon",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "5dd950b1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "91c3e081",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "b128f455",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "c49cef9f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "cc0e0787",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	}]
+}

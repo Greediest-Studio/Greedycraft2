@@ -1,0 +1,27 @@
+{
+	title: "§b凋落者之狂欢",
+	x: 9.0d,
+	y: 7.5d,
+	description: "在2400难度以上击败凋灵，获得枯萎之魂",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "fb63462d",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-wither_soul"
+		}]
+	}],
+	rewards: [{
+		uid: "3ca2d3b3",
+		type: "item",
+		item: "additions:greedycraft-reward_ticket_legendary",
+		count: 5
+	},
+	{
+		uid: "a88e4487",
+		type: "xp",
+		xp: 200000
+	}]
+}

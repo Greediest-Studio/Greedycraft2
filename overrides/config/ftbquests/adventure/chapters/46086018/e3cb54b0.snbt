@@ -1,0 +1,45 @@
+{
+	title: "§bLocater！",
+	x: -0.5d,
+	y: -16.0d,
+	description: "获得地牢定位器，用于定位极光幽境地牢",
+	text: [
+		""
+	],
+	dependencies: [
+		"ab052681",
+		"12771dfa"
+	],
+	tasks: [{
+		uid: "9d63906b",
+		type: "item",
+		items: [{
+			id: "theaurorian:locator",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0c215c21",
+		type: "item",
+		item: "theaurorian:moonstoneingot",
+		count: 2
+	},
+	{
+		uid: "a63283ab",
+		type: "item",
+		item: "theaurorian:ceruleaningot",
+		count: 4
+	},
+	{
+		uid: "e12cd4c4",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "fcf9f492",
+		type: "xp",
+		xp: 1000
+	}]
+}

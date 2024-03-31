@@ -1,0 +1,37 @@
+{
+	title: "§b天空轰炸机",
+	x: 1.0d,
+	y: 6.5d,
+	description: "合成部落号角",
+	text: [
+		""
+	],
+	dependencies: [
+		"a29a289d"
+	],
+	tasks: [{
+		uid: "b6d7a407",
+		type: "item",
+		items: [{
+			item: "divinerpg:horde_horn"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1ae83517",
+		type: "item",
+		item: "minecraft:ender_eye",
+		count: 32
+	},
+	{
+		uid: "abd5a3a9",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "b6cc69d9",
+		type: "xp",
+		xp: 1000
+	}]
+}

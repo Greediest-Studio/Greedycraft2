@@ -1,0 +1,35 @@
+{
+	title: "§b最快传输",
+	x: 8.0d,
+	y: 0.0d,
+	description: "合成盖亚魔力发射器",
+	text: [
+		""
+	],
+	dependencies: [
+		"b89e0c1f"
+	],
+	tasks: [{
+		uid: "8a316046",
+		type: "item",
+		items: [{
+			item: "botania:spreader 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "c12ef6a9",
+		type: "item",
+		item: "botania:manaresource 1 5",
+		count: 8
+	},
+	{
+		uid: "e63f5785",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "22dbbda5",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "§b装满血的碗",
+	x: -7.5d,
+	y: 5.5d,
+	description: "制作血能碗",
+	dependencies: [
+		"70853567"
+	],
+	tasks: [{
+		uid: "23c46664",
+		type: "item",
+		items: [{
+			item: "evilcraft:bowl_of_promises 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "930cee9c",
+		type: "xp",
+		xp: 480
+	},
+	{
+		uid: "0b9aa663",
+		type: "random",
+		table: 1
+	}]
+}

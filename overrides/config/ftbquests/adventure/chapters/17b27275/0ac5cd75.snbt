@@ -1,0 +1,40 @@
+{
+	title: "§b奇特的东西……",
+	x: 2.5d,
+	y: -3.0d,
+	description: "获得可以吃的奇趣棒",
+	text: [
+		""
+	],
+	dependencies: [
+		"81216f69"
+	],
+	tasks: [{
+		uid: "26a70992",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:nibblestick"
+		}]
+	}],
+	rewards: [{
+		uid: "f571d0dd",
+		type: "item",
+		item: {
+			id: "thebetweenlands:log_nibbletwig",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 32
+	},
+	{
+		uid: "ba7404e4",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "8c4e0d0f",
+		type: "xp",
+		xp: 4000
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "§b恐怖之地",
+	x: -15.5d,
+	y: -2.5d,
+	description: "升级撕裂法杖至恐惧之地级别",
+	text: [
+		""
+	],
+	dependencies: [
+		"95cbc791"
+	],
+	tasks: [{
+		uid: "744dc621",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:drainstaff 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5c1fb55b",
+		type: "item",
+		item: "abyssalcraft:essence 1 1",
+		count: 2
+	},
+	{
+		uid: "70b1cb6c",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "0e22bfaf",
+		type: "random",
+		table: 2
+	}]
+}

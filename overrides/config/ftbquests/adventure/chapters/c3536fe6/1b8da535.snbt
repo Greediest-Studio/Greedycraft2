@@ -1,0 +1,34 @@
+{
+	title: "§b泪之终结",
+	x: -10.0d,
+	y: -2.0d,
+	description: "使用泣血之泪召唤并击杀三面恶魂",
+	text: [
+		""
+	],
+	dependencies: [
+		"ecc95796"
+	],
+	tasks: [{
+		uid: "54ea7d76",
+		type: "kill",
+		entity: "ageofminecraft:ghastherhelpful",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "1c56e66b",
+		type: "item",
+		item: "additions:greedycraft-lavarite_ingot",
+		count: 8
+	},
+	{
+		uid: "1bd04cea",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "c8640476",
+		type: "xp",
+		xp: 10000
+	}]
+}

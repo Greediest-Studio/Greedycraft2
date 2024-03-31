@@ -1,0 +1,124 @@
+{
+    "name": "wigthium",
+    "tool": {
+      "head": {
+        "attackDamage": 30.8,
+        "speed": 16.9,
+        "durability": 1500,
+        "harvestLevel": 8
+      },
+      "handle": {
+        "modifier": 2,
+        "durability": 1000
+      },
+      "extra": {
+        "durability": 800
+      },
+      "bow": {
+        "speed": 3.1,
+        "range": 1.5,
+        "bonusDamage": 36
+      }
+    },
+    "color": "#a2a2a2",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 1280,
+    "looks": {
+      "shininess": 0.8,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Wigthium",
+      "zh_cn": "阴魂"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "additions:bloody-wigthium_ingot"
+      ],
+      "block": [
+      ],
+      "nugget": [
+      ],
+      "ore": [
+      ],
+      "dust": [
+      ],
+      "plate": [
+      ],
+      "gear": [
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "defense": 55,
+        "durability": 200
+      },
+      "plates": {
+        "toughness": 7,
+        "modifier": 3.5,
+        "durability": 180
+      },
+      "trim": {
+        "extraDurability": 180
+      }
+    },
+    "specificTraits": {
+      "HEAD": [
+        "bloodlust",
+        "soul_absorb"
+      ],
+      "HANDLE": [
+        "bloodlust",
+        "tconevo.bloodbound"
+      ],
+      "EXTRA": [
+        "bloodlust",
+        "tconevo.crystalys"
+      ],
+      "BOW": [
+        "bloodlust",
+        "soul_absorb"
+      ],
+      "CORE": [
+        "tconevo.soul_guard_armor",
+        "soul_absource_armor"
+      ],
+      "PLATES": [
+        "tconevo.soul_guard_armor",
+        "tconevo.sentient_armor"
+      ],
+      "TRIM": [
+        "tconevo.soul_guard_armor",
+        "living"
+      ]
+    }
+}
+  

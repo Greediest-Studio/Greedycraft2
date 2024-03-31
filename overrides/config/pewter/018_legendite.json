@@ -1,0 +1,123 @@
+{
+  "name": "legendite",
+  "tool": {
+    "head": {
+      "attackDamage": 58,
+      "speed": 14,
+      "durability": 1850,
+      "harvestLevel": 10
+    },
+    "handle": {
+      "modifier": 2.4,
+      "durability": 625
+    },
+    "extra": {
+      "durability": 600
+    },
+    "bow": {
+      "speed": 0.9,
+      "range": 1.7,
+      "bonusDamage": 50
+    }
+  },
+  "color": "#ffc02d",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 650,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Legendite",
+    "zh_cn": "荣耀合金"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:greedycraft-legendite_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 60,
+      "durability": 180
+    },
+    "plates": {
+      "toughness": 8,
+      "modifier": 7.5,
+      "durability": 108
+    },
+    "trim": {
+      "extraDurability": 94
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "crystal_force",
+      "soul_absorb"
+    ],
+    "HANDLE": [
+      "crystal_force",
+      "soul_absorb"
+    ],
+    "EXTRA": [
+      "crystal_force",
+      "soul_absorb"
+    ],
+    "BOW": [
+      "crystal_force",
+      "soul_absorb"
+    ],
+    "CORE": [
+      "crystal_force_armor",
+      "soul_absource_armor"
+    ],
+    "PLATES": [
+      "crystal_force_armor",
+      "soul_absource_armor"
+    ],
+    "TRIM": [
+      "crystal_force_armor",
+      "soul_absource_armor"
+    ]
+  }
+}

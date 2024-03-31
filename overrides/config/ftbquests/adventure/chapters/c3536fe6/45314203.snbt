@@ -1,0 +1,42 @@
+{
+	title: "§b走到了这一步，就不能再回头",
+	x: 13.5d,
+	y: 2.5d,
+	shape: "circle",
+	description: "制作炫钢锭！",
+	text: [
+		""
+	],
+	dependencies: [
+		"030d6cdf"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "8796e023",
+		type: "item",
+		items: [{
+			item: "additions:chromasteel_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "f7c133d8",
+		type: "item",
+		item: "additions:chromasteel_ingot",
+		count: 4
+	},
+	{
+		uid: "fe5c7f46",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "1f6c44f0",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "052f2d5a",
+		type: "xp",
+		xp: 50000
+	}]
+}

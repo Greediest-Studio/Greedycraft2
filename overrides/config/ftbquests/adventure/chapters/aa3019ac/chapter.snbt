@@ -1,0 +1,18 @@
+{
+	title: "【科技·肆】量子先锋",
+	icon: "additions:mekaddon-sodium_ingot",
+	always_invisible: false,
+	group: -647796496,
+	default_quest_shape: "",
+	images: [{
+		x: -5.0d,
+		y: 1.0d,
+		width: 10.5d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/tec4.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

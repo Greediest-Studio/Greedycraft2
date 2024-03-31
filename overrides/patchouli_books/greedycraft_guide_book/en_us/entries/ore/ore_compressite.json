@@ -1,0 +1,78 @@
+{
+    "name": "§8极密合金",
+    "icon": "additions:taigaddon-compressite_ingot",
+    "category": "patchouli:ore_category",
+    "priority": true,
+    "pages": [
+        {
+            "type":"spotlight",
+            "item":"minecraft:iron_ore",
+            "text":"$(f)不会吧不会吧，不会真的有人不知道铁矿石生成在哪吧"
+        },
+        {
+            "type":"spotlight",
+            "item":"minecraft:gold_ore",
+            "text":"$(f)不会吧不会吧，不会真的有人不知道金矿石生成在哪吧"
+        },
+        {
+            "type":"spotlight",
+            "item":"thermalfoundation:material:160",
+            "text":""
+        },
+        {
+            "type":"spotlight",
+            "item":"forge:bucketfilled",
+            "text":"通过$(5)冷凝液化机$()将$(6)空气（气）$()转换而来$(br)具体请查阅JEI"
+        },
+        {
+            "type":"spotlight",
+            "item":"tconstruct:ore:1",
+            "text":"主要生成在$(2)下界$()($(c)the nether$())$(br)$(9)0≤Y≤127$()$(br)最佳生成层数：47"
+        },
+        {
+            "type":"spotlight",
+            "item":"tconstruct:ore:0",
+            "text":"主要生成在$(2)下界$()($(c)the nether$())$(br)$(9)0≤Y≤127$()$(br)最佳生成层数：69"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:taigaddon-imitatium_ore",
+            "text":"生成在$(2)亚特兰蒂斯$()($(c)atlantis$())$(br)$(9)1≤Y≤64$()"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:taigaddon-tanatonium_ore",
+            "text":"生成在$(2)亚特兰蒂斯$()($(c)atlantis$())$(br)$(9)1≤Y≤64$()"
+        },
+        {
+            "type":"spotlight",
+            "item":"tiths:ore_stellarium",
+            "text":"生成在$(2)深空之域$()($(c)everheaven$())$(br)$(9)1≤Y≤255$()"
+        },
+        {
+            "type":"spotlight",
+            "item":"tiths:ore_tonium",
+            "text":"生成在$(2)深空之域$()($(c)everheaven$())$(br)$(9)1≤Y≤255$()"
+        },
+        {
+            "type":"spotlight",
+            "item":"tiths:ore_polarium",
+            "text":"生成在$(2)深空之域$()($(c)everheaven$())$(br)$(9)1≤Y≤255$()"
+        },
+        {
+            "type":"spotlight",
+            "item":"tiths:ore_hothium",
+            "text":"生成在$(2)深空之域$()($(c)everheaven$())$(br)$(9)1≤Y≤255$()"
+        },
+        {
+            "type":"spotlight",
+            "item":"tiths:ore_halleium",
+            "text":"生成在$(2)深空之域$()($(c)everheaven$())$(br)$(9)1≤Y≤255$()"
+        },
+        {
+            "type":"spotlight",
+            "item":"tiths:ore_altairium",
+            "text":"生成在$(2)深空之域$()($(c)everheaven$())$(br)$(9)1≤Y≤255$()"
+        }
+    ]
+}

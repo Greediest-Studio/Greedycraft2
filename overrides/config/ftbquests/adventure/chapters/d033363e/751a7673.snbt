@@ -1,0 +1,16 @@
+{
+	x: 5.0d,
+	y: 7.0d,
+	dependencies: [
+		"6dece191"
+	],
+	tasks: [{
+		uid: "ef973129",
+		type: "item",
+		items: [{
+			item: "projectex:final_star"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

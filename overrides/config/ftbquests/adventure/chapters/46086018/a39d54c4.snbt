@@ -1,0 +1,42 @@
+{
+	title: "§b乌 鸦 坐 飞 机",
+	x: -7.0d,
+	y: -10.0d,
+	description: "使用神秘之钟召唤并击杀远古之力",
+	text: [
+		"记得带上你的史莱姆靴子！"
+	],
+	dependencies: [
+		"d80bbebb"
+	],
+	tasks: [{
+		uid: "4e65c49f",
+		type: "item",
+		items: [{
+			item: "divinerpg:ancient_entity_statue"
+		}]
+	}],
+	rewards: [{
+		uid: "e4cd503e",
+		type: "item",
+		item: "divinerpg:divine_shards",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		uid: "aa38d15a",
+		type: "item",
+		item: "divinerpg:divine_stone",
+		count: 2
+	},
+	{
+		uid: "21a16648",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "f232d893",
+		type: "xp",
+		xp: 1000
+	}]
+}

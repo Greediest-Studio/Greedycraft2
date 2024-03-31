@@ -1,0 +1,38 @@
+{
+	title: "§b旅行家 V",
+	x: -3.5d,
+	y: 7.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"bd557477"
+	],
+	tasks: [{
+		uid: "abd4cb31",
+		type: "stat",
+		icon: "minecraft:diamond_leggings",
+		stat: "stat.walkOneCm",
+		value: 16000000
+	}],
+	rewards: [{
+		uid: "97f4c347",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "5169a4f2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	}]
+}

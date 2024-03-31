@@ -1,0 +1,29 @@
+{
+	title: "§b更好的自动化",
+	x: -18.0d,
+	y: -18.0d,
+	description: "制作升级：自动轮作循环",
+	text: [
+		"不产生副产物，减少了循环种子的过程，便于自动化"
+	],
+	dependencies: [
+		"26355b4d"
+	],
+	tasks: [{
+		uid: "1809b092",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 324"
+		}]
+	}],
+	rewards: [{
+		uid: "b40d9eb7",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "125638f2",
+		type: "random",
+		table: 0
+	}]
+}

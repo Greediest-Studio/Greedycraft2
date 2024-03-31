@@ -1,0 +1,148 @@
+{
+    "name": "freezite",
+    "tool": {
+      "bow": {
+        "speed": 0.9,
+        "range": 1.0,
+        "bonusDamage": 20
+      },
+      "fletching": {
+        "accuracy": 0.5,
+        "modifier": 0.0
+      },
+      "head": {
+        "attackDamage": 20.35,
+        "speed": 22.8,
+        "durability": 12800,
+        "harvestLevel": 9
+      },
+      "handle": {
+        "modifier": 2.1,
+        "durability": 1300
+      },
+      "arrowShaft": {
+        "modifier": 1.1,
+        "bonusAmmo": 5
+      },
+      "bowstring": {
+        "modifier": 1.1
+      },
+      "extra": {
+        "durability": 1420
+      }
+    },
+    "color": "#65E0FF",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 640,
+    "looks": {
+      "shininess": 0.6,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "PROJECTILE",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Freezite",
+      "zh_cn": "封晶"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "additions:greedycraft-freezite_ingot"
+      ],
+      "block": [
+        "additions:greedycraft-freezite_block"
+      ],
+      "nugget": [
+        "gct_ores:freezite_nugget"
+      ],
+      "ore": [
+        "additions:greedycraft-freezite_ore"
+      ],
+      "dust": [
+        "jaopca:item_dustfreezite"
+      ],
+      "plate": [
+        "jaopca:item_platefreezite"
+      ],
+      "gear": [
+        "jaopca:item_gearfreezite"
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "durability": 411,
+        "defense": 74.5
+      },
+      "plates": {
+        "modifier": 8.6,
+        "durability": 116,
+        "toughness": 5
+      },
+      "trim": {
+        "extraDurability": 125
+      }
+    },
+    "specificTraits": {
+      "EXTRA": [
+        "freezing",
+        "crystal_force"
+      ],
+      "HEAD": [
+        "freezing",
+        "crystal_force",
+        "shocking"
+      ],
+      "HANDLE": [
+        "freezing",
+        "crystal_force"
+      ],
+      "BOW": [
+        "freezing",
+        "crystal_force",
+        "shocking"
+      ],
+      "PROJECTILE": [
+        "freezing",
+        "crystal_force",
+        "shocking"
+      ],
+      "CORE": [
+        "cryonic_armor",
+        "tconevo.chilling_touch_armor"
+      ],
+      "PLATES": [
+        "cryonic_armor",
+        "tconevo.chilling_touch_armor"
+      ],
+      "TRIM": [
+        "cryonic_armor",
+        "tconevo.chilling_touch_armor"
+      ]
+    }
+  }

@@ -1,0 +1,73 @@
+{
+	title: "§c【可重复】屠龙者",
+	x: 1.0d,
+	y: 2.5d,
+	description: "反复折磨小龙龙",
+	text: [
+		""
+	],
+	can_repeat: true,
+	dependencies: [
+		"a29a289d"
+	],
+	tasks: [{
+		uid: "388ae33a",
+		type: "kill",
+		icon: {
+			id: "minecraft:end_crystal",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		entity: "minecraft:ender_dragon",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "3078b566",
+		type: "item",
+		item: {
+			id: "draconicevolution:draconium_ingot",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 64
+	},
+	{
+		uid: "2baa65e2",
+		type: "item",
+		item: {
+			id: "draconicevolution:dragon_heart",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 5
+	},
+	{
+		uid: "44a9c40c",
+		type: "item",
+		item: {
+			id: "minecraft:ender_eye",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 32
+	},
+	{
+		uid: "ca35b384",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "98a36a87",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "8d037494",
+		type: "xp",
+		xp: 4000
+	}]
+}

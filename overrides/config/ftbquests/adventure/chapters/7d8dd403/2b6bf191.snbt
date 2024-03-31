@@ -1,0 +1,35 @@
+{
+	title: "§b查伽洛斯I",
+	x: -19.5d,
+	y: -2.5d,
+	description: "制作查伽洛斯祭坛（底部）",
+	text: [
+		""
+	],
+	dependencies: [
+		"95cbc791"
+	],
+	tasks: [{
+		uid: "840a6d66",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:dreadaltarbottom"
+		}]
+	}],
+	rewards: [{
+		uid: "9d471271",
+		type: "item",
+		item: "abyssalcraft:dreadiumingot",
+		count: 4
+	},
+	{
+		uid: "1a817168",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "890f7ce8",
+		type: "xp",
+		xp: 1000
+	}]
+}

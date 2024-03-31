@@ -1,0 +1,32 @@
+{
+	title: "§b聚合万物",
+	x: -5.5d,
+	y: -3.5d,
+	description: "合成秩序注入器控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"37208d1b"
+	],
+	tasks: [{
+		uid: "90603a29",
+		type: "item",
+		items: [{
+			id: "modularmachinery:order_fusioner_controller",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "6bb159a1",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "525a97ed",
+		type: "xp",
+		xp: 10000
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "§b真男人都是啃牌子的",
+	x: 1.5d,
+	y: 13.5d,
+	description: "制作生铁锭",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "2792a2f3",
+		type: "item",
+		items: [{
+			item: "tconstruct:ingots 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "619e435a",
+		type: "item",
+		item: "tconstruct:metal 1 4"
+	},
+	{
+		uid: "15fee05d",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "72e94c16",
+		type: "xp",
+		xp: 700
+	}]
+}

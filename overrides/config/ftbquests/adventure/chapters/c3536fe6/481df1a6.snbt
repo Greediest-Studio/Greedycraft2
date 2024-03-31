@@ -1,0 +1,28 @@
+{
+	title: "§b世界重开",
+	x: -8.0d,
+	y: -4.5d,
+	description: "合成梦魇床，进入梦魇维度",
+	text: [
+		"注意：",
+		"梦魇维度的玩家数据与其他世界的玩家数据互不干扰，",
+		"在梦魇世界玩家的饰品、物品、装备等均会被清空，",
+		"离开维度后身上的物品会恢复"
+	],
+	dependencies: [
+		"ecc95796"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "26c9507b",
+		type: "item",
+		items: [{
+			item: "divinerpg:nightmare_bed"
+		}]
+	}],
+	rewards: [{
+		uid: "73bcf278",
+		type: "random",
+		table: 5
+	}]
+}

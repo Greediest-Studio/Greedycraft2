@@ -1,0 +1,133 @@
+{
+  "name": "apocalypsium",
+  "tool": {
+    "head": {
+      "attackDamage": 14.2,
+      "speed": 12.45,
+      "durability": 3830,
+      "harvestLevel": 6
+    },
+    "handle": {
+      "modifier": 0.95,
+      "durability": 500
+    },
+    "extra": {
+        "durability": 500
+    },
+    "bow": {
+        "speed": 4.2,
+        "range": 2.1,
+        "bonusDamage": 24.0
+    }
+  },
+  "color": "#8B0000",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1300,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Apocalypsium",
+    "zh_cn": "天启"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "gct_mobs:apocalypsium_ingot"
+    ],
+    "block": [
+      "gct_mobs:apocalypsium_block"
+    ],
+    "nugget": [
+      "gct_mobs:apocalypsium_nugget"
+    ],
+    "ore": [
+
+    ],
+    "dust": [
+      "gct_mobs:apocalypsium_dust"
+    ],
+    "plate": [
+      "gct_mobs:apocalypsium_plate"
+    ],
+    "gear": [
+      "gct_mobs:apocalypsium_gear"
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 60,
+      "defense": 32.5
+    },
+    "plates": {
+      "modifier": 3,
+      "durability": 40,
+      "toughness": 3
+    },
+    "trim": {
+      "extraDurability": 30
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "twilit",
+      "dark",
+      "blind",
+      "insatiable"
+    ],
+    "HANDLE": [
+      "twilit",
+      "dark"
+    ],
+    "EXTRA": [
+      "twilit",
+      "dark"
+    ],
+    "BOW": [
+      "twilit",
+      "dark",
+      "blind",
+      "insatiable"
+    ],
+    "CORE": [
+      "dark",
+      "spartan_armor"
+    ],
+    "PLATES": [
+      "dark",
+      "spartan_armor"
+    ],
+    "TRIM": [
+      "dark",
+      "spartan_armor"
+    ]
+  }
+}

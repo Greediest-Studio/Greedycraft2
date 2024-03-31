@@ -1,0 +1,37 @@
+{
+	title: "§b谁不喜欢呢？",
+	x: 6.0d,
+	y: 6.0d,
+	description: "获得一个附魔台",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "8cb55fdd",
+		type: "item",
+		items: [{
+			item: "minecraft:enchanting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "ff23d528",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "4d2ccf2e",
+		type: "item",
+		item: "actuallyadditions:item_solidified_experience",
+		count: 32
+	},
+	{
+		uid: "f374881c",
+		type: "item",
+		item: "minecraft:anvil"
+	},
+	{
+		uid: "b4c478ff",
+		type: "random",
+		table: 0
+	}]
+}

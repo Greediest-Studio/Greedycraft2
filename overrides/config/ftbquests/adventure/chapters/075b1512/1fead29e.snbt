@@ -1,0 +1,68 @@
+{
+	title: "§b自由落体 IV",
+	x: 5.5d,
+	y: 5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"16415a90"
+	],
+	tasks: [{
+		uid: "448068a9",
+		type: "stat",
+		icon: "minecraft:golden_boots",
+		stat: "stat.fallOneCm",
+		value: 10000000
+	}],
+	rewards: [{
+		uid: "905791a1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "6c9a6845",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "586650c2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "8d29a676",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "21f49ed6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	}]
+}

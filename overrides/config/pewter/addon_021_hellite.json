@@ -1,0 +1,125 @@
+{
+  "name": "hellite",
+  "tool": {
+    "head": {
+      "attackDamage": 12,
+      "speed": 6,
+      "durability": 1000,
+      "harvestLevel": 5
+    },
+    "handle": {
+      "modifier": 0.9,
+      "durability": 800
+    },
+    "extra": {
+        "durability": 600
+    },
+    "bow": {
+        "speed": 2.1,
+        "range": 1.6,
+        "bonusDamage": 17
+    }
+  },
+  "color": "#673535",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 720,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Hellite",
+    "zh_cn": "炼狱金属"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:greedycraft-hellite_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 22,
+      "durability": 42
+    },
+    "plates": {
+      "toughness": 4.7,
+      "modifier": 5.3,
+      "durability": 32
+    },
+    "trim": {
+      "extraDurability": 40
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "hellish",
+      "autosmelt",
+      "igniting"
+    ],
+    "HANDLE": [
+      "autosmelt",
+      "igniting"
+    ],
+    "EXTRA": [
+      "hellish",
+      "igniting"
+    ],
+    "BOW": [
+      "hellish",
+      "autosmelt",
+      "igniting"
+    ],
+    "CORE": [
+      "hellish_armor",
+      "autoforge_armor"
+    ],
+    "PLATES": [
+      "hellish_armor",
+      "autoforge_armor"
+    ],
+    "TRIM": [
+      "hellish_armor",
+      "autoforge_armor"
+    ]
+  }
+}

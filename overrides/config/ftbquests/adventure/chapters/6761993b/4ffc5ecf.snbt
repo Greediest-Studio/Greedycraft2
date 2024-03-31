@@ -1,0 +1,38 @@
+{
+	title: "§b束缚万物？",
+	x: -3.5d,
+	y: 3.5d,
+	description: "制作束缚锭",
+	dependencies: [
+		"0713e465"
+	],
+	tasks: [{
+		uid: "180832e2",
+		type: "item",
+		items: [{
+			item: "tconevo:metal 1 25"
+		}]
+	}],
+	rewards: [{
+		uid: "b169bb45",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "skilled_wizard"
+	},
+	{
+		uid: "5313f654",
+		type: "item",
+		item: "tconevo:metal 1 25",
+		count: 3
+	},
+	{
+		uid: "d0aaf309",
+		type: "xp",
+		xp: 1500
+	},
+	{
+		uid: "e879588f",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "§b固定装置？",
+	x: -7.0d,
+	y: 4.0d,
+	description: "将位能固化为固化位能块，用于净化古神矿石",
+	text: [
+		""
+	],
+	dependencies: [
+		"02eb78b1"
+	],
+	tasks: [{
+		uid: "c52ab018",
+		type: "item",
+		items: [{
+			item: "gct_aby:solid_pot_energy"
+		}]
+	}],
+	rewards: [{
+		uid: "4382001f",
+		type: "item",
+		item: "gct_aby:solid_pot_energy",
+		count: 2
+	},
+	{
+		uid: "5768157e",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "8e572a70",
+		type: "xp",
+		xp: 8000
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "§b这真的是恶灵吗？",
+	x: 2.5d,
+	y: 5.5d,
+	description: "制作恶灵锭",
+	dependencies: [
+		"e418f863"
+	],
+	tasks: [{
+		uid: "56f1dcd6",
+		type: "item",
+		items: [{
+			item: "additions:bloody-ghost_metal"
+		}]
+	}],
+	rewards: [{
+		uid: "2d3b9dd5",
+		type: "item",
+		item: "additions:bloody-ghost_metal",
+		count: 4
+	},
+	{
+		uid: "19ad0ef5",
+		type: "xp",
+		xp: 6666
+	},
+	{
+		uid: "07fa1b31",
+		type: "random",
+		table: 3
+	}]
+}

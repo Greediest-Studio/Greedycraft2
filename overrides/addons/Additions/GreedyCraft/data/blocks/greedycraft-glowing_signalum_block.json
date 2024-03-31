@@ -1,0 +1,16 @@
+{
+  "item_block": {
+    "name": "§6荧光信素块",
+    "ore_dict": "blockGlowingSignalum",
+    "type": "additions:block_simple"
+  },
+  "name": "§6荧光信素块",
+  "material": "minecraft:metal",
+  "hardness": 25.0,
+  "resistance": 120.0,
+  "harvest_level": 2,
+  "harvest_tool": "pickaxe",
+  "light_level": 15,
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

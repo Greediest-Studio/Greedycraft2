@@ -1,0 +1,36 @@
+{
+	title: "§b我有大勇气",
+	x: 15.0d,
+	y: -9.0d,
+	description: "制作勇气之证！",
+	text: [
+		""
+	],
+	dependencies: [
+		"52fb328b",
+		"654ddba3",
+		"44c0d397"
+	],
+	tasks: [{
+		uid: "ebd0acf2",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-bravery_certificate"
+		}]
+	}],
+	rewards: [{
+		uid: "0e4170da",
+		type: "xp",
+		xp: 1500
+	},
+	{
+		uid: "b8dd90b2",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "70f0e31e",
+		type: "random",
+		table: 2
+	}]
+}

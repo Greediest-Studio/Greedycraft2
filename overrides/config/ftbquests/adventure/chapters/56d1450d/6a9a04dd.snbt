@@ -1,0 +1,38 @@
+{
+	title: "§b小蜜蜂让杰哥康康",
+	x: -13.5d,
+	y: 0.0d,
+	description: "获得便携式分析仪",
+	text: [
+		""
+	],
+	dependencies: [
+		"ebd7f83b",
+		"02709d76"
+	],
+	tasks: [{
+		uid: "3684f83d",
+		type: "item",
+		items: [{
+			item: "forestry:portable_alyzer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bdf81e1e",
+		type: "item",
+		item: "forestry:honey_drop",
+		count: 64
+	},
+	{
+		uid: "6a84e248",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "57e74595",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "§b所以……这又有什么用呢？",
+	x: 11.5d,
+	y: 8.5d,
+	description: "合成木晶盾",
+	text: [
+		""
+	],
+	dependencies: [
+		"d9db7475"
+	],
+	tasks: [{
+		uid: "43472f91",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:dentrothyst_shield_green"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "01e703b2",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:dentrothyst_shield_orange"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "20e6aa6d",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "bb491408",
+		type: "xp",
+		xp: 3000
+	}]
+}

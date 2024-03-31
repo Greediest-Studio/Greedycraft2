@@ -1,0 +1,27 @@
+{
+	title: "§b算算需要什么东西？",
+	x: 3.0d,
+	y: 10.5d,
+	description: "合成合成计算器",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "c3e87c6e",
+		type: "item",
+		items: [{
+			item: "jecalculation:item_calculator"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "71cf2c0d",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "528f8288",
+		type: "xp",
+		xp: 250
+	}]
+}

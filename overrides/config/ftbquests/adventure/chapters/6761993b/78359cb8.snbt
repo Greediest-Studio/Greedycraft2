@@ -1,0 +1,32 @@
+{
+	title: "§b提升速度？",
+	x: -7.5d,
+	y: -2.5d,
+	description: "制作速度符文",
+	dependencies: [
+		"1ca32822"
+	],
+	tasks: [{
+		uid: "3b820133",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "636020db",
+		type: "item",
+		item: "bloodmagic:blood_rune 1 1",
+		count: 8
+	},
+	{
+		uid: "068261dd",
+		type: "xp",
+		xp: 640
+	},
+	{
+		uid: "e4921fba",
+		type: "random",
+		table: 1
+	}]
+}

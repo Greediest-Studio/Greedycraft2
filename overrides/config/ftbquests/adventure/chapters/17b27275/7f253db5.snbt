@@ -1,0 +1,29 @@
+{
+	title: "§b未来的命运？",
+	x: 5.5d,
+	y: 9.0d,
+	description: "获得洞螈蛋簇",
+	text: [
+		""
+	],
+	dependencies: [
+		"a50d8053"
+	],
+	tasks: [{
+		uid: "41453021",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:olm_egg_raw"
+		}]
+	}],
+	rewards: [{
+		uid: "387c3d9c",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "33c874f1",
+		type: "xp",
+		xp: 4000
+	}]
+}

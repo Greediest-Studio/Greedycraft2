@@ -1,0 +1,94 @@
+{
+  "name": "carbon",
+  "tool": {
+    "head": {
+      "attackDamage": 3,
+      "speed": 5,
+      "durability": 300,
+      "harvestLevel": 1
+    },
+    "handle": {
+      "modifier": 1,
+      "durability": 250
+    },
+    "extra": {
+      "durability": 260
+    },
+    "bow": {
+      "speed": 4.4,
+      "range": 1.9,
+      "bonusDamage": 2
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 10,
+      "defense": 10
+    },
+    "plates": {
+      "modifier": 1,
+      "durability": 7,
+      "toughness": 0
+    },
+    "trim": {
+      "extraDurability": 9.5
+    }
+  },
+  "color": "#000000",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Carbon",
+    "zh_cn": "碳"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:greedycraft-carbon_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["depthdigger", "inky"],
+    "HANDLE": ["depthdigger", "inky"],
+    "EXTRA": ["depthdigger", "inky"],
+    "BOW": ["depthdigger", "inky"],
+    "CORE": ["subterranean_armor"],
+    "PLATES": ["subterranean_armor"],
+    "TRIM": ["subterranean_armor"]
+  }
+}

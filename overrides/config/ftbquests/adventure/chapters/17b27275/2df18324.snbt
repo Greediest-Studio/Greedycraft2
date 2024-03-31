@@ -1,0 +1,35 @@
+{
+	title: "§b交错的红石",
+	x: 10.5d,
+	y: 2.5d,
+	description: "合成痂壳晶蓝石粉末，可以充当交错次元的红石",
+	text: [
+		""
+	],
+	dependencies: [
+		"3e7f837c"
+	],
+	tasks: [{
+		uid: "7d850067",
+		type: "item",
+		items: [{
+			item: "betweenlandsredstone:scabyst_dust"
+		}]
+	}],
+	rewards: [{
+		uid: "cb5533cf",
+		type: "item",
+		item: "betweenlandsredstone:scabyst_dust",
+		count: 256
+	},
+	{
+		uid: "c021aa85",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "88738697",
+		type: "random",
+		table: 2
+	}]
+}

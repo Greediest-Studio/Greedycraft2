@@ -1,0 +1,42 @@
+{
+	title: "§b高炉炼铁，焦炭的作用？",
+	x: -16.0d,
+	y: 4.5d,
+	description: "制作高炉控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"5d0a6239"
+	],
+	tasks: [{
+		uid: "2ea43bfd",
+		type: "item",
+		items: [{
+			item: "tcomplement:high_oven_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "04311634",
+		type: "item",
+		item: "tcomplement:materials 1 1",
+		count: 64
+	},
+	{
+		uid: "69389488",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "4cad96dc",
+		type: "xp",
+		xp: 60
+	},
+	{
+		uid: "ea03ef8d",
+		type: "item",
+		item: "thermalfoundation:storage_resource",
+		count: 8,
+		random_bonus: 8
+	}]
+}

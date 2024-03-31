@@ -1,0 +1,40 @@
+{
+	title: "§b翠绿之书",
+	x: 5.5d,
+	y: 0.5d,
+	description: "升级死灵之书为深渊荒原级别",
+	text: [
+		""
+	],
+	dependencies: [
+		"6746b3a4"
+	],
+	tasks: [{
+		uid: "7aeb31dd",
+		type: "item",
+		items: [{
+			id: "abyssalcraft:necronomicon_cor",
+			tag: {
+				PotEnergy: 0.0f
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "936b2a37",
+		type: "item",
+		item: "abyssalcraft:statue 1 3",
+		count: 4
+	},
+	{
+		uid: "b2a38be7",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "1ebb382d",
+		type: "xp",
+		xp: 1000
+	}]
+}

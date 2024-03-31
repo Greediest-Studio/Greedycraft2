@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: 9.0d,
+	dependencies: [
+		"518ac07a"
+	],
+	tasks: [{
+		uid: "8b8f5b80",
+		type: "item",
+		items: [{
+			item: "moretcon:blockgravitoniumfaucet"
+		}]
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "§b深渊合金",
+	x: -8.5d,
+	y: 8.0d,
+	description: "制作渊晶",
+	text: [
+		""
+	],
+	dependencies: [
+		"cc609866"
+	],
+	tasks: [{
+		uid: "683c80c4",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-abyssine_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "d3753144",
+		type: "item",
+		item: "additions:greedycraft-abyssine_ingot",
+		random_bonus: 1
+	},
+	{
+		uid: "b55192f2",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "5f00ec3c",
+		type: "xp",
+		xp: 20000
+	}]
+}

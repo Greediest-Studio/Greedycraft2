@@ -1,0 +1,16 @@
+{
+  "item_block": {
+    "name": "§f星辉块",
+    "ore_dict": "blockAstralStarmetal",
+    "type": "additions:block_simple"
+  },
+  "name": "§f星辉块",
+  "material": "minecraft:metal",
+  "map_color": "minecraft:water",
+  "hardness": 8.0,
+  "resistance": 1000.0,
+  "harvest_level": 4,
+  "harvest_tool": "pickaxe",
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

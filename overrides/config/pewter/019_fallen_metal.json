@@ -1,0 +1,139 @@
+{
+  "name": "fallen_metal",
+  "tool": {
+    "bow": {
+      "speed": 1.2,
+      "range": 1.0,
+      "bonusDamage": 20
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 21,
+      "speed": 14.6,
+      "durability": 10400,
+      "harvestLevel": 9
+    },
+    "handle": {
+      "modifier": 2,
+      "durability": 820
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 1.1
+    },
+    "extra": {
+      "durability": 780
+    }
+  },
+  "color": "#680000",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 820,
+  "looks": {
+    "shininess": 0.1,
+    "brightness": 0.05,
+    "hueshift": 0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Fallen Metal",
+    "zh_cn": "堕落"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "gct_ores:fallen_metal_ingot"
+    ],
+    "block": [
+      "gct_ores:fallen_metal_block"
+    ],
+    "nugget": [
+      "gct_ores:fallen_metal_nugget"
+    ],
+    "ore": [
+    ],
+    "dust": [
+      "gct_ores:fallen_metal_dust"
+    ],
+    "plate": [
+      "gct_ores:fallen_metal_plate"
+    ],
+    "gear": [
+      "gct_ores:fallen_metal_gear"
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 332,
+      "defense": 58
+    },
+    "plates": {
+      "modifier": 10.5,
+      "durability": 94,
+      "toughness": 2.4
+    },
+    "trim": {
+      "extraDurability": 104
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "tconevo.soul_rend1"
+    ],
+    "HEAD": [
+      "tconevo.soul_rend1",
+      "tconevo.evolved"
+    ],
+    "HANDLE": [
+      "tconevo.soul_rend1"
+    ],
+    "BOW": [
+      "tconevo.soul_rend1",
+      "tconevo.evolved"
+    ],
+    "PROJECTILE": [
+      "tconevo.soul_rend1",
+      "tconevo.evolved"
+    ],
+    "CORE": [
+      "tconevo.evolved_armor"
+    ],
+    "PLATES": [
+      "heavy_armor"
+    ],
+    "TRIM": [
+      "heavy_armor"
+    ]
+  }
+}

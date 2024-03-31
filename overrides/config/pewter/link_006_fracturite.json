@@ -1,0 +1,74 @@
+{
+  "name": "fracturite",
+  "tool": {
+    "head": {
+      "attackDamage": 6,
+      "speed": 24,
+      "durability": 290,
+      "harvestLevel": 3
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 0,
+      "defense": 0,
+      "toughness": 0
+    },
+    "plates": {
+      "modifier": 0,
+      "durability": 0,
+      "toughness": 0
+    },
+    "trim": {
+      "extraDurability": 0
+    }
+  },
+  "color": "#adc7ad",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 3200,
+  "looks": {
+    "shininess": 0.0,
+    "brightness": 0.0,
+    "hueshift": 0.0
+  },
+  "fluid": {
+    "viscosity": 6000,
+    "density": 2000,
+    "temperature": 500,
+    "luminosity": 10
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Fracturite",
+    "zh_cn": "解构金属"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:link-fracturite_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["momentum", "fracture2", "maze_breaker"]
+  }
+}

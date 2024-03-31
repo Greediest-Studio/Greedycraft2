@@ -1,0 +1,23 @@
+{
+  "item_block": {
+    "name": "§6夜明块",
+    "burn_time": 600000,
+    "ore_dict": "blockBnightium",
+    "type": "additions:block_simple"
+  },
+  "name": "§6夜明块",
+  "material": "minecraft:metal",
+  "place_sound": "minecraft:block.metal.place",
+  "break_sound": "minecraft:block.metal.break",
+  "hit_sound": "chisel:metal_hit",
+  "step_sound": "minecraft:block.metal.step",
+  "fall_sound": "minecraft:block.metal.fall",
+  "map_color": "minecraft:light_gray",
+  "hardness": 46.0,
+  "resistance": 4000.0,
+  "harvest_level": 10,
+  "harvest_tool": "pickaxe",
+  "light_level": 15,
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

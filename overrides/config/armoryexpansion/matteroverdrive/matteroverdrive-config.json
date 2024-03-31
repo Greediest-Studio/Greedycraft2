@@ -1,0 +1,54 @@
+[
+  {
+    "toolOptions": {
+      "enableTool": true,
+      "enableHead": true,
+      "enableHandle": true,
+      "enableExtra": true
+    },
+    "rangedOptions": {
+      "enableRanged": true,
+      "enableBow": true,
+      "enableBowString": true,
+      "enableShaft": true,
+      "enableFletching": true,
+      "enableProjectile": true
+    },
+    "name": "dilithium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": true,
+      "enableCore": true,
+      "enablePlates": true,
+      "enableTrim": true
+    }
+  },
+  {
+    "toolOptions": {
+      "enableTool": true,
+      "enableHead": true,
+      "enableHandle": true,
+      "enableExtra": true
+    },
+    "rangedOptions": {
+      "enableRanged": true,
+      "enableBow": true,
+      "enableBowString": true,
+      "enableShaft": true,
+      "enableFletching": true,
+      "enableProjectile": true
+    },
+    "name": "tritanium",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": true,
+      "enableCore": true,
+      "enablePlates": true,
+      "enableTrim": true
+    }
+  }
+]

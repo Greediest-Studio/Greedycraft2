@@ -1,0 +1,35 @@
+{
+	title: "§b凋灵杀手 VII",
+	icon: "minecraft:skull 1 1",
+	x: -0.5d,
+	y: 10.0d,
+	dependencies: [
+		"58014350"
+	],
+	tasks: [{
+		uid: "f2b36e36",
+		type: "kill",
+		entity: "minecraft:wither",
+		value: 70L
+	}],
+	rewards: [{
+		uid: "ac0367f0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "6cca88e8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	}]
+}

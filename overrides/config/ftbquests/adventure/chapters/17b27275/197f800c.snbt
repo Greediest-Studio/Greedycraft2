@@ -1,0 +1,35 @@
+{
+	title: "§b你需要直形冷凝管",
+	x: 10.5d,
+	y: 4.0d,
+	description: "合成蒸馏器",
+	text: [
+		""
+	],
+	dependencies: [
+		"0c5bb7b9"
+	],
+	tasks: [{
+		uid: "9e05910a",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:alembic"
+		}]
+	}],
+	rewards: [{
+		uid: "912dab6f",
+		type: "item",
+		item: "thebetweenlands:dentrothyst_vial",
+		count: 4
+	},
+	{
+		uid: "30665882",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "88f2c089",
+		type: "xp",
+		xp: 6000
+	}]
+}

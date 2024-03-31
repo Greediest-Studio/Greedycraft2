@@ -1,0 +1,26 @@
+{
+	title: "§b黑夜的王者",
+	x: 2.5d,
+	y: 7.5d,
+	description: "击杀boss：至暗之日",
+	dependencies: [
+		"8cab50b3"
+	],
+	tasks: [{
+		uid: "cb5b4239",
+		type: "item",
+		items: [{
+			item: "additions:bloody-gloomy_passport"
+		}]
+	}],
+	rewards: [{
+		uid: "08c22395",
+		type: "xp",
+		xp: 6666
+	},
+	{
+		uid: "5a827744",
+		type: "random",
+		table: 3
+	}]
+}

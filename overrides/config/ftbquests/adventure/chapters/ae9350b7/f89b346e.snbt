@@ -1,0 +1,32 @@
+{
+	title: "§b极度压缩",
+	x: 0.0d,
+	y: 6.0d,
+	description: "制作一个压缩知识精华块",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "2c26958e",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-compressed_experience_block"
+		}]
+	}],
+	rewards: [{
+		uid: "5a8b1593",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "2c451c84",
+		type: "item",
+		item: "additions:greedycraft-compressed_experience_block",
+		count: 3
+	},
+	{
+		uid: "bb839727",
+		type: "random",
+		table: 1
+	}]
+}

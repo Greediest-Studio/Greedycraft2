@@ -1,0 +1,53 @@
+{
+	title: "§b第二种途径",
+	x: 2.0d,
+	y: 5.5d,
+	description: "击杀泥炭木乃伊以获取或合成闪光石",
+	text: [
+		""
+	],
+	dependencies: [
+		"d3832f3e"
+	],
+	tasks: [{
+		uid: "1918a8e3",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:shimmer_stone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "45f5d66c",
+		type: "item",
+		item: {
+			id: "thebetweenlands:shimmer_stone",
+			tag: {}
+		},
+		count: 5
+	},
+	{
+		uid: "64cb1459",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "thebetweenlands:peat_mummy"
+				}
+			}
+		}
+	},
+	{
+		uid: "c9ebf651",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "0c9e58e9",
+		type: "xp",
+		xp: 8000
+	}]
+}

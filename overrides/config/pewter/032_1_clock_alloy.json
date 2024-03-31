@@ -1,0 +1,94 @@
+{
+  "name": "clock_alloy",
+  "tool": {
+    "head": {
+      "attackDamage": 9.9,
+      "speed": 11.2,
+      "durability": 3200,
+      "harvestLevel": 5
+    },
+    "handle": {
+      "modifier": 2.1,
+      "durability": 650
+    },
+    "extra": {
+      "durability": 520
+    },
+    "bow": {
+      "speed": 2.0,
+      "range": 1.5,
+      "bonusDamage": -4.0
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 215.0,
+      "defense": 28.8
+    },
+    "plates": {
+      "modifier": 1.8,
+      "durability": 75.0,
+      "toughness": 5.0
+    },
+    "trim": {
+      "extraDurability": 45.0
+    }
+  },
+  "color": "#f1ed00",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Clock Alloy",
+    "zh_cn": "时钟合金"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:eioaddon-clock_alloy_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["reach","dissolving"],
+    "HANDLE": ["reach","dissolving"],
+    "EXTRA": ["reach","dissolving"],
+    "BOW": ["reach","dissolving"],
+    "CORE": ["prideful_armor","shielding_armor"],
+    "PLATES": ["prideful_armor","shielding_armor"],
+    "TRIM": ["prideful_armor","shielding_armor"]
+  }
+}

@@ -1,0 +1,65 @@
+{
+	title: "§b凋灵杀手 IV",
+	icon: "minecraft:skull 1 1",
+	x: -0.5d,
+	y: 5.5d,
+	dependencies: [
+		"988107aa"
+	],
+	tasks: [{
+		uid: "0c6318f9",
+		type: "kill",
+		entity: "minecraft:wither",
+		value: 20L
+	}],
+	rewards: [{
+		uid: "19fdf641",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "ecb9ecca",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "208581ad",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "603f393e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "b47b3986",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	}]
+}

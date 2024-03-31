@@ -1,0 +1,20 @@
+{
+  "recipe": {
+    "type": "forge:ore_shaped",
+    "result": {
+      "item": "gct_ores:plasmarite_nugget"
+    },
+    "key": {
+      "0": {
+        "ore_name": "tinyNuggetPlasmarite",
+        "type": "additions:ingredient_ore_nbt"
+      }
+    },
+    "pattern": [
+      "000",
+      "000",
+      "000"
+    ]
+  },
+  "type": "additions:crafting_shaped"
+}

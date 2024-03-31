@@ -1,0 +1,68 @@
+{
+	title: "§b交错次元",
+	icon: "thebetweenlands:betweenstone",
+	x: 4.0d,
+	y: -1.0d,
+	description: "进入交错次元维度",
+	text: [
+		"提示：你可以制作匠魂的交错次元工具系列"
+	],
+	dependencies: [
+		"77973adc"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "bd588f55",
+		type: "dimension",
+		dim: 20
+	}],
+	rewards: [{
+		uid: "f407bad4",
+		type: "item",
+		item: {
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "moretcon:blswordblade"
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	},
+	{
+		uid: "36ffc528",
+		type: "item",
+		item: {
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "moretcon:blpickhead"
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	},
+	{
+		uid: "81c6e285",
+		type: "item",
+		item: {
+			id: "tconstruct:pattern",
+			tag: {
+				PartType: "moretcon:blbowlimb"
+			},
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}
+	},
+	{
+		uid: "2385fdb1",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "5b362549",
+		type: "xp",
+		xp: 5000
+	}]
+}

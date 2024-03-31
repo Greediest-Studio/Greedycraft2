@@ -1,0 +1,36 @@
+{
+	title: "§b壁虎：6",
+	x: 6.0d,
+	y: 6.5d,
+	description: "捕获一只壁虎",
+	text: [
+		""
+	],
+	dependencies: [
+		"37b7277d"
+	],
+	tasks: [{
+		uid: "ec531bee",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:critter",
+			tag: {
+				Entity: {
+					id: "thebetweenlands:gecko"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9df7b66a",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "9f9a39d3",
+		type: "xp",
+		xp: 5000
+	}]
+}

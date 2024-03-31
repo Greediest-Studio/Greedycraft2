@@ -1,0 +1,26 @@
+{
+	title: "§b扛米牌小红书，你值得拥有",
+	x: -20.0d,
+	y: 8.5d,
+	description: "小红书虽不是万能的，但没有小红书是万万不能的--扛米仔",
+	dependencies: [
+		"597e2519"
+	],
+	tasks: [{
+		uid: "5c22e94f",
+		type: "item",
+		items: [{
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "patchouli:greedycraft_guide_book"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d990bce2",
+		type: "xp",
+		xp: 50
+	}]
+}

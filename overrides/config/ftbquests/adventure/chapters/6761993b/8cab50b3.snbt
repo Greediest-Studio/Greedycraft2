@@ -1,0 +1,32 @@
+{
+	title: "§b这是里面真的有阴魂吗？",
+	x: 0.5d,
+	y: 7.5d,
+	description: "制作阴魂锭",
+	dependencies: [
+		"101f940c"
+	],
+	tasks: [{
+		uid: "83c91763",
+		type: "item",
+		items: [{
+			item: "additions:bloody-wigthium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "dfe81c8a",
+		type: "item",
+		item: "additions:bloody-wigthium_ingot",
+		count: 4
+	},
+	{
+		uid: "d364c0c3",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "c6e44d46",
+		type: "random",
+		table: 2
+	}]
+}

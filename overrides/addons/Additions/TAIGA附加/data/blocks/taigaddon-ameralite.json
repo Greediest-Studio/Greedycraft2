@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "§a翠绿纹石",
+    "ore_dict": "stoneAmeralite",
+    "type": "additions:block_simple"
+  },
+  "name": "§a翠绿纹石",
+  "material": "minecraft:stone",
+  "hardness": 20.0,
+  "resistance": 4000.0,
+  "harvest_level": 10,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

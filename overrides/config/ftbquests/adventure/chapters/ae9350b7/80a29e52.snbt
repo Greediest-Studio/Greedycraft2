@@ -1,0 +1,32 @@
+{
+	title: "§b我的征途是星辰大海",
+	x: 9.0d,
+	y: 15.0d,
+	description: "制作星空制造器",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "69481e9a",
+		type: "item",
+		items: [{
+			item: "botania:starfield"
+		}]
+	}],
+	rewards: [{
+		uid: "47d9769a",
+		type: "item",
+		item: "botania:manaresource 1 7",
+		count: 10
+	},
+	{
+		uid: "e64ac93b",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "73dd1059",
+		type: "xp",
+		xp: 800
+	}]
+}

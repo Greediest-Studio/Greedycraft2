@@ -1,0 +1,31 @@
+{
+	title: "§b不是收割的那个",
+	x: 6.0d,
+	y: 2.5d,
+	description: "合成交错次元的镰刀",
+	text: [
+		""
+	],
+	dependencies: [
+		"27de749c"
+	],
+	tasks: [{
+		uid: "c53d756f",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:sickle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7cd2d655",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "3ea4984e",
+		type: "xp",
+		xp: 3000
+	}]
+}

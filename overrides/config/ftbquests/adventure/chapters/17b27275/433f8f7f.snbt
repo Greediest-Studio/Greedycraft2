@@ -1,0 +1,47 @@
+{
+	title: "§b大抵是烂了",
+	x: 1.0d,
+	y: 9.5d,
+	description: "击杀恐怖的泥炭木乃伊",
+	text: [
+		""
+	],
+	dependencies: [
+		"4090ae84"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "b9784e82",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-bone_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "2a47bdd2",
+		type: "item",
+		item: "additions:greedycraft-bone_shard",
+		count: 32
+	},
+	{
+		uid: "4635d2bc",
+		type: "item",
+		item: "thebetweenlands:items_misc 1 19",
+		count: 32
+	},
+	{
+		uid: "4c8a8167",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "9479e71a",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "d5546056",
+		type: "xp",
+		xp: 30000
+	}]
+}

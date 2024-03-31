@@ -1,0 +1,130 @@
+{
+  "name": "balanced_matrix",
+  "tool": {
+    "head": {
+      "attackDamage": 110.6,
+      "speed": 29.95,
+      "durability": 15000,
+      "harvestLevel": 12
+    },
+    "handle": {
+      "modifier": 3,
+      "durability": 4000
+    },
+    "extra": {
+        "durability": 4000
+    },
+    "bow": {
+        "speed": 2,
+        "range": 2.2,
+        "bonusDamage": 85
+    }
+  },
+  "color": "#bcc2b8",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 3200,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Balanced Matrix",
+    "zh_cn": "平衡矩阵"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "gct_ores:balanced_matrix_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 900,
+      "defense": 130
+    },
+    "plates": {
+      "modifier": 17.8,
+      "durability": 425,
+      "toughness": 13
+    },
+    "trim": {
+      "extraDurability": 440
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "tconevo.overwhelm",
+      "dense",
+      "repressing"
+    ],
+    "HANDLE": [
+      "tconevo.overwhelm",
+      "dense",
+      "repressing"
+    ],
+    "EXTRA": [
+      "tconevo.overwhelm",
+      "dense",
+      "repressing"
+    ],
+    "BOW": [
+      "tconevo.overwhelm",
+      "dense",
+      "repressing"
+    ],
+    "CORE": [
+      "fortified_armor",
+      "first_guard_armor",
+      "heavy_armor"
+    ],
+    "PLATES": [
+      "fortified_armor",
+      "first_guard_armor",
+      "heavy_armor"
+    ],
+    "TRIM": [
+      "fortified_armor",
+      "first_guard_armor",
+      "heavy_armor"
+    ]
+  }
+}

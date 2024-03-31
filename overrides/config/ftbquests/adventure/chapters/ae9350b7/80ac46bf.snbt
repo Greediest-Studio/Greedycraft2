@@ -1,0 +1,26 @@
+{
+	title: "§b匿藏之影",
+	x: 4.5d,
+	y: 19.5d,
+	description: "合成影晶合金",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "7e0ba8be",
+		type: "item",
+		items: [{
+			item: "moretcon:repitem 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "28a86692",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "7f7e5924",
+		type: "xp",
+		xp: 1000
+	}]
+}

@@ -1,0 +1,130 @@
+{
+  "name": "chillinium",
+  "tool": {
+    "head": {
+      "attackDamage": 11,
+      "speed": 8,
+      "durability": 1200,
+      "harvestLevel": 5
+    },
+    "handle": {
+      "modifier": 1.2,
+      "durability": 500
+    },
+    "extra": {
+        "durability": 600
+    },
+    "bow": {
+        "speed": 1.4,
+        "range": 1.8,
+        "bonusDamage": 5
+    }
+  },
+  "color": "#79f2ff",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 560,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Chillinium",
+    "zh_cn": "寒心铁"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:greedycraft-chillinium_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 17,
+      "durability": 40
+    },
+    "plates": {
+      "toughness": 3.5,
+      "modifier": 4.2,
+      "durability": 25
+    },
+    "trim": {
+      "extraDurability": 35
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "freezed",
+      "lighting3",
+      "crystal_force"
+    ],
+    "HANDLE": [
+      "freezed",
+      "lighting3",
+      "crystal_force"
+    ],
+    "EXTRA": [
+      "freezed",
+      "lighting3",
+      "crystal_force"
+    ],
+    "BOW": [
+      "freezed",
+      "lighting3",
+      "crystal_force"
+    ],
+    "CORE": [
+      "cryonic_armor",
+      "lighting3_armor",
+      "cryonic_armor"
+    ],
+    "PLATES": [
+      "cryonic_armor",
+      "lighting3_armor",
+      "cryonic_armor"
+    ],
+    "TRIM": [
+      "cryonic_armor",
+      "lighting3_armor",
+      "cryonic_armor"
+    ]
+  }
+}

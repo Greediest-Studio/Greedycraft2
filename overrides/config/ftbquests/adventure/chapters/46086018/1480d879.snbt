@@ -1,0 +1,40 @@
+{
+	title: "§b神奇之物",
+	x: 5.5d,
+	y: 4.5d,
+	description: "制作湮灭媒介",
+	text: [
+		""
+	],
+	dependencies: [
+		"2cfae3d2"
+	],
+	tasks: [{
+		uid: "24d0b522",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:oc"
+		}]
+	}],
+	rewards: [{
+		uid: "2245c737",
+		type: "item",
+		item: "abyssalcraft:oc"
+	},
+	{
+		uid: "c8cace85",
+		type: "item",
+		item: "abyssalcraft:shadowgem",
+		count: 8
+	},
+	{
+		uid: "8cf49c0e",
+		type: "xp",
+		xp: 850
+	},
+	{
+		uid: "8f257994",
+		type: "random",
+		table: 1
+	}]
+}

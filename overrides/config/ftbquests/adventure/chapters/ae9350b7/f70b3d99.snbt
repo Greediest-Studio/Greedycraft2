@@ -1,0 +1,26 @@
+{
+	title: "§b熊猫出没",
+	x: 13.5d,
+	y: 10.5d,
+	description: "在竹林收集竹子",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "9662aeeb",
+		type: "item",
+		items: [{
+			item: "sakura:bamboo"
+		}]
+	}],
+	rewards: [{
+		uid: "aa875915",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "2f4ffd95",
+		type: "xp",
+		xp: 200
+	}]
+}

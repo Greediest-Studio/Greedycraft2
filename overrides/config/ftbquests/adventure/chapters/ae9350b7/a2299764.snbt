@@ -1,0 +1,42 @@
+{
+	title: "§b我看到了一个奇迹",
+	x: 0.0d,
+	y: 7.5d,
+	description: "制作盆栽盆，用于种植树木",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "c8d2002f",
+		type: "item",
+		items: [{
+			item: "bonsaitrees:bonsaipot"
+		}]
+	}],
+	rewards: [{
+		uid: "ef96b79d",
+		type: "item",
+		item: "bonsaitrees:bonsaipot 1 1"
+	},
+	{
+		uid: "e5c7415a",
+		type: "item",
+		item: "thermalexpansion:augment 1 323"
+	},
+	{
+		uid: "8828016d",
+		type: "item",
+		item: "minecraft:log",
+		count: 128
+	},
+	{
+		uid: "b5be57a6",
+		type: "xp",
+		xp: 120
+	},
+	{
+		uid: "d8367edb",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "§b疯狂输出 III",
+	x: -2.0d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"b611e462"
+	],
+	tasks: [{
+		uid: "071ef8ec",
+		type: "stat",
+		icon: "minecraft:iron_axe",
+		stat: "stat.damageDealt",
+		value: 30000000
+	}],
+	rewards: [{
+		uid: "15cba4d2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "88d142d1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	}]
+}

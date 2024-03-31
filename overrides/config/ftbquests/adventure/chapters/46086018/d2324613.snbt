@@ -1,0 +1,35 @@
+{
+	title: "§b狡兔三窟",
+	x: 2.5d,
+	y: -16.0d,
+	description: "进入月宫，击杀皎月女王",
+	text: [
+		""
+	],
+	dependencies: [
+		"699b6d00"
+	],
+	tasks: [{
+		uid: "9089a102",
+		type: "item",
+		items: [{
+			item: "theaurorian:trophymoonqueen"
+		}]
+	}],
+	rewards: [{
+		uid: "c7af5831",
+		type: "item",
+		item: "theaurorian:auroriansteelblock",
+		count: 2
+	},
+	{
+		uid: "0b55686a",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "3eb6d60d",
+		type: "xp",
+		xp: 10000
+	}]
+}

@@ -1,0 +1,16 @@
+{
+  "item_block": {
+    "name": "§f圣金块",
+    "ore_dict": "blockHolium",
+    "type": "additions:block_simple"
+  },
+  "name": "§f圣金块",
+  "material": "minecraft:metal",
+  "hardness": 2.0,
+  "resistance": 40.0,
+  "harvest_level": 2,
+  "harvest_tool": "pickaxe",
+  "light_level": 5,
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

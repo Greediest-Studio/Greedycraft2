@@ -1,0 +1,20 @@
+{
+  "item_block": {
+    "name": "锗矿石",
+    "tooltip": "§7请使用铲子挖掘",
+    "ore_dict": "oreGermanium",
+    "type": "additions:block_simple"
+  },
+  "name": "锗矿石",
+  "material": "minecraft:stone",
+  "place_sound": "minecraft:block.gravel.place",
+  "break_sound": "minecraft:block.gravel.break",
+  "hit_sound": "minecraft:block.gravel.hit",
+  "step_sound": "minecraft:block.gravel.step",
+  "fall_sound": "minecraft:block.gravel.fall",
+  "hardness": 8.0,
+  "resistance": 4000.0,
+  "harvest_level": 6,
+  "harvest_tool": "shovel",
+  "type": "additions:simple"
+}

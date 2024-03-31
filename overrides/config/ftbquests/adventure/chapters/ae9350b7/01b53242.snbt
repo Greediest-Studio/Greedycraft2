@@ -1,0 +1,32 @@
+{
+	title: "§b昂贵的食物",
+	x: 7.5d,
+	y: 10.5d,
+	description: "制作下界之星吐司",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "6a2b614b",
+		type: "item",
+		items: [{
+			item: "harvestcraft:netherstartoastitem"
+		}]
+	}],
+	rewards: [{
+		uid: "f5b633c3",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "e9f2d6b1",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "0f92b5fb",
+		type: "item",
+		item: "harvestcraft:netherstartoastitem",
+		count: 4
+	}]
+}

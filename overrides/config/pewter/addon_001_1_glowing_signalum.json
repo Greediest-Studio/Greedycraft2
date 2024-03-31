@@ -1,0 +1,144 @@
+{
+  "name": "glowing_signalum",
+  "tool": {
+    "bow": {
+      "speed": 1.4,
+      "range": 1.4,
+      "bonusDamage": 5.5
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 8,
+      "speed": 10.4,
+      "durability": 1150,
+      "harvestLevel": 4
+    },
+    "handle": {
+      "modifier": 1.15,
+      "durability": 200
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 1.1
+    },
+    "extra": {
+      "durability": 210
+    }
+  },
+  "color": "#B23C16",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 570,
+  "looks": {
+    "shininess": 0.4,
+    "brightness": 0.3,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 15
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Glowing Signalum",
+    "zh_cn": "荧光信素"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:greedycraft-glowing_signalum_ingot"
+    ],
+    "block": [
+      "additions:greedycraft-glowing_signalum_block"
+    ],
+    "nugget": [
+      "additions:greedycraft-glowing_signalum_nugget"
+    ],
+    "ore": [
+    ],
+    "dust": [
+      "additions:greedycraft-glowing_signalum_dust"
+    ],
+    "plate": [
+      "additions:greedycraft-glowing_signalum_plate"
+    ],
+    "gear": [
+      "additions:greedycraft-glowing_signalum_gear"
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 108,
+      "defense": 24
+    },
+    "plates": {
+      "modifier": 1.6,
+      "durability": 14,
+      "toughness": 3
+    },
+    "trim": {
+      "extraDurability": 17
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "tconevo.energized2",
+      "pyroelectric"
+    ],
+    "HEAD": [
+      "tconevo.energized2",
+      "pyroelectric"
+    ],
+    "HANDLE": [
+      "tconevo.energized2",
+      "pyroelectric"
+    ],
+    "BOW": [
+      "tconevo.energized2",
+      "pyroelectric"
+    ],
+    "PROJECTILE": [
+      "tconevo.energized2",
+      "pyroelectric"
+    ],
+    "CORE": [
+      "tconevo.energized2_armor",
+      "thermal_gathering_armor"
+    ],
+    "PLATES": [
+      "tconevo.energized2_armor",
+      "thermal_gathering_armor"
+    ],
+    "TRIM": [
+      "tconevo.energized2_armor",
+      "thermal_gathering_armor"
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+	title: "§b天气之子？",
+	x: 7.5d,
+	y: 7.0d,
+	description: "制作天气方尖碑",
+	text: [
+		""
+	],
+	dependencies: [
+		"c99b29c6"
+	],
+	tasks: [{
+		uid: "52375b62",
+		type: "item",
+		items: [{
+			item: "enderio:block_weather_obelisk"
+		}]
+	}],
+	rewards: [{
+		uid: "838a204c",
+		type: "xp",
+		xp: 2000
+	}]
+}

@@ -1,0 +1,41 @@
+{
+	title: "§b自动聚合",
+	x: -11.5d,
+	y: -2.0d,
+	description: "制作福鲁伊克斯聚合器",
+	text: [
+		""
+	],
+	dependencies: [
+		"bb69a736"
+	],
+	tasks: [{
+		uid: "407021a7",
+		type: "item",
+		items: [{
+			item: "threng:machine"
+		}]
+	}],
+	rewards: [{
+		uid: "38a52527",
+		type: "item",
+		item: "threng:material",
+		count: 2
+	},
+	{
+		uid: "ba00fef1",
+		type: "item",
+		item: "appliedenergistics2:material 1 7",
+		count: 16
+	},
+	{
+		uid: "ee1f0ffd",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "009aa222",
+		type: "xp",
+		xp: 1000
+	}]
+}

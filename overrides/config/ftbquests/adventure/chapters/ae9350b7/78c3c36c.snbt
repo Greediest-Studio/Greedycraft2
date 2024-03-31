@@ -1,0 +1,32 @@
+{
+	title: "§b小星星坠落",
+	x: 9.0d,
+	y: 10.5d,
+	description: "获得落星",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "f5d22155",
+		type: "item",
+		items: [{
+			item: "nyx:fallen_star"
+		}]
+	}],
+	rewards: [{
+		uid: "6567360e",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "b063bb08",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "da06f1ba",
+		type: "item",
+		item: "nyx:fallen_star",
+		count: 4
+	}]
+}

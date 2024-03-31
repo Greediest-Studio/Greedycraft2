@@ -1,0 +1,41 @@
+{
+	title: "§b相信不少人会爱上它！",
+	x: -8.5d,
+	y: -2.0d,
+	description: "制作ME电路板蚀刻器",
+	text: [
+		""
+	],
+	dependencies: [
+		"ddad20c5"
+	],
+	tasks: [{
+		uid: "ed783d4e",
+		type: "item",
+		items: [{
+			item: "threng:machine 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "94112b39",
+		type: "item",
+		item: "threng:material",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		uid: "4a74b7a1",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "58fb4d36",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "11d614f4",
+		type: "random",
+		table: 1
+	}]
+}

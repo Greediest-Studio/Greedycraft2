@@ -1,0 +1,27 @@
+{
+	title: "§b诺言 pro max",
+	x: -1.5d,
+	y: 7.5d,
+	description: "制作坚韧的诺言III",
+	dependencies: [
+		"ea55bcf0"
+	],
+	tasks: [{
+		uid: "ff75338d",
+		type: "item",
+		items: [{
+			item: "evilcraft:promise 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "774d8d55",
+		type: "xp",
+		xp: 700
+	},
+	{
+		uid: "ab30cc10",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "§b入门教程",
+	x: 8.5d,
+	y: 5.5d,
+	description: "获得药学手册",
+	text: [
+		""
+	],
+	dependencies: [
+		"1446efde",
+		"6961c4f8",
+		"393e51bc",
+		"3e7f837c"
+	],
+	tasks: [{
+		uid: "71d85593",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:manual_hl"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f53c0aa0",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "f3945d75",
+		type: "xp",
+		xp: 3000
+	}]
+}

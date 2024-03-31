@@ -1,0 +1,35 @@
+{
+	title: "§b意志凝聚结晶",
+	x: -3.5d,
+	y: 5.5d,
+	text: [
+		"使用恶魔灵域制取意志碎片"
+	],
+	dependencies: [
+		"0713e465"
+	],
+	tasks: [{
+		uid: "5c238108",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_crystallizer"
+		}]
+	},
+	{
+		uid: "34c5fad8",
+		type: "item",
+		items: [{
+			item: "bloodmagic:demon_crucible"
+		}]
+	}],
+	rewards: [{
+		uid: "9fb23c1a",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "31f63dc2",
+		type: "random",
+		table: 1
+	}]
+}

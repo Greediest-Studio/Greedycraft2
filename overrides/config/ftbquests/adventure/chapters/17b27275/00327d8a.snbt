@@ -1,0 +1,29 @@
+{
+	title: "§b真的是太残忍了~",
+	x: -2.0d,
+	y: 0.0d,
+	description: "合成鱼肉加工台",
+	text: [
+		""
+	],
+	dependencies: [
+		"b9f4450b"
+	],
+	tasks: [{
+		uid: "e60016a7",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:fish_trimming_table"
+		}]
+	}],
+	rewards: [{
+		uid: "ae3825d3",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "fe024496",
+		type: "xp",
+		xp: 2000
+	}]
+}

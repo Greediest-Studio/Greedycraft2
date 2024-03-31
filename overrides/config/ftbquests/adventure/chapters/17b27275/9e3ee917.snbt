@@ -1,0 +1,35 @@
+{
+	title: "§b光洁",
+	x: -3.5d,
+	y: 4.0d,
+	description: "获得岩吻珍珠",
+	text: [
+		""
+	],
+	dependencies: [
+		"f4ba926d"
+	],
+	tasks: [{
+		uid: "396f6df3",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:rock_snot_pearl"
+		}]
+	}],
+	rewards: [{
+		uid: "2f2df688",
+		type: "item",
+		item: "thebetweenlands:rock_snot_pearl",
+		count: 8
+	},
+	{
+		uid: "272de089",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "83af1140",
+		type: "xp",
+		xp: 4000
+	}]
+}

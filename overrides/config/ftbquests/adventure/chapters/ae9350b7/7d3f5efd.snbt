@@ -1,0 +1,32 @@
+{
+	title: "§b村庄毁灭者",
+	icon: "minecraft:iron_block",
+	x: 1.5d,
+	y: 1.5d,
+	description: "击杀3只铁傀儡",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "8b64a025",
+		type: "kill",
+		entity: "minecraft:villager_golem",
+		value: 3L
+	}],
+	rewards: [{
+		uid: "e03d1f9b",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 16
+	},
+	{
+		uid: "56256614",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "0e820639",
+		type: "xp",
+		xp: 1000
+	}]
+}

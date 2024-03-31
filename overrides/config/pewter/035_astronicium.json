@@ -1,0 +1,123 @@
+{
+  "name": "astronicium",
+  "tool": {
+    "head": {
+      "attackDamage": 60,
+      "speed": 16,
+      "durability": 4655,
+      "harvestLevel": 10
+    },
+    "handle": {
+      "modifier": 1.4,
+      "durability": 985
+    },
+    "extra": {
+        "durability": 1005
+    },
+    "bow": {
+        "speed": 1.35,
+        "range": 1.7,
+        "bonusDamage": 45
+    }
+  },
+  "color": "#4e0a7b",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 600,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Astronicium",
+    "zh_cn": "太空合金"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:taigaddon-astronicium_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 70,
+      "durability": 166
+    },
+    "plates": {
+      "toughness": 6,
+      "modifier": 10,
+      "durability": 112
+    },
+    "trim": {
+      "extraDurability": 117
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "alien",
+      "starsky"
+    ],
+    "HANDLE": [
+      "tconevo.juggernaut",
+      "starsky"
+    ],
+    "EXTRA": [
+      "tconevo.juggernaut",
+      "starsky"
+    ],
+    "BOW": [
+      "alien",
+      "starsky"
+    ],
+    "CORE": [
+      "tconevo.reactive_armor",
+      "shielding_armor"
+    ],
+    "PLATES": [
+      "tconevo.reactive_armor",
+      "shielding_armor"
+    ],
+    "TRIM": [
+      "tconevo.reactive_armor",
+      "shielding_armor"
+    ]
+  }
+}

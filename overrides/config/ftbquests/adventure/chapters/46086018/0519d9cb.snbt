@@ -1,0 +1,35 @@
+{
+	title: "§b造访极光",
+	icon: "theaurorian:aurorianstone",
+	x: 3.5d,
+	y: -12.5d,
+	description: "进入极光幽境维度",
+	text: [
+		"使用极光幽境传送门框架搭建传送门，使用打火石激活"
+	],
+	dependencies: [
+		"4c400631"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "b94e0b77",
+		type: "dimension",
+		icon: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "theaurorian:the_aurorian_guide"
+			}
+		},
+		dim: 645
+	}],
+	rewards: [{
+		uid: "8a1ebcb2",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "bce40fe4",
+		type: "xp",
+		xp: 1000
+	}]
+}

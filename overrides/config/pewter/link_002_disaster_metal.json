@@ -1,0 +1,130 @@
+{
+  "name": "disaster_metal",
+  "tool": {
+    "head": {
+      "attackDamage": 50,
+      "speed": 8,
+      "durability": 4000,
+      "harvestLevel": 10
+    },
+    "handle": {
+      "modifier": 2,
+      "durability": 120
+    },
+    "extra": {
+      "durability": 300
+    }
+  },
+  "color": "#6a9dcc",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 2720,
+  "looks": {
+    "shininess": 0.1,
+    "brightness": 0.3,
+    "hueshift": 0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 6000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Disaster Metal",
+    "zh_cn": "天灾金属"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:link-disaster_metal_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 2000,
+      "defense": 40
+    },
+    "plates": {
+      "modifier": 2,
+      "durability": 150,
+      "toughness": 20
+    },
+    "trim": {
+      "extraDurability": 150
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "tinkers_heartwork",
+      "crystal_force",
+      "soul_eater_refined2"
+    ],
+    "EXTRA": [
+      "tinkers_heartwork",
+      "crystal_force",
+      "coraliumplague",
+      "dreadplague"
+    ],
+    "HANDLE": [
+      "tinkers_heartwork",
+      "crystal_force",
+      "coraliumplague",
+      "dreadplague"
+    ],
+    "BOW": [
+      "tinkers_heartwork",
+      "crystal_force",
+      "madness",
+      "soul_eater_refined3"
+    ],
+    "CORE": [
+      "tinkers_heartwork_armor",
+      "asleep_armor",
+      "tconevo.warping_armor",
+      "tconevo.gale_force1_armor"
+    ],
+    "PLATES": [
+      "tinkers_heartwork_armor",
+      "asleep_armor",
+      "tconevo.warping_armor",
+      "second_life_armor"
+    ],
+    "TRIM": [
+      "tinkers_heartwork_armor",
+      "asleep_armor",
+      "tconevo.warping_armor",
+      "second_life_armor"
+    ]
+  }
+}

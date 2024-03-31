@@ -1,0 +1,45 @@
+{
+	title: "§b向暮色高原进军？",
+	x: -19.5d,
+	y: 13.5d,
+	description: "击杀云顶巨人矿工，得到巨人之镐",
+	text: [
+		""
+	],
+	dependencies: [
+		"514ac42b",
+		"a04065c3",
+		"7afb0274"
+	],
+	tasks: [{
+		uid: "f51f6cdd",
+		type: "item",
+		items: [{
+			item: "twilightforest:giant_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7d074434",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "ba0b0c62",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "8008b91f",
+		type: "advancement",
+		auto: "no_toast",
+		advancement: "twilightforest:progress_merge",
+		criterion: ""
+	},
+	{
+		uid: "8fb4aacf",
+		type: "random",
+		table: 1
+	}]
+}

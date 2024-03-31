@@ -1,0 +1,94 @@
+{
+  "name": "holium",
+  "tool": {
+    "head": {
+      "attackDamage": 7.6,
+      "speed": 22,
+      "durability": 35,
+      "harvestLevel": 2
+    },
+    "handle": {
+      "modifier": 0.2,
+      "durability": 40
+    },
+    "extra": {
+      "durability": 52
+    },
+    "bow": {
+      "speed": 2.7,
+      "range": 0.9,
+      "bonusDamage": 4
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 40,
+      "defense": 19
+    },
+    "plates": {
+      "modifier": 1,
+      "durability": 9,
+      "toughness": 0.3
+    },
+    "trim": {
+      "extraDurability": 12
+    }
+  },
+  "color": "#cb6268",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Holium",
+    "zh_cn": "圣金"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:botaniaddon-holium_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["holy", "tconevo.mana_infused"],
+    "HANDLE": ["holy", "tconevo.mana_infused"],
+    "EXTRA": ["holy", "tconevo.mana_infused"],
+    "BOW": ["holy", "tconevo.mana_infused"],
+    "CORE": ["blessed_armor", "tconevo.mana_infused_armor"],
+    "PLATES": ["blessed_armor", "tconevo.mana_infused_armor"],
+    "TRIM": ["blessed_armor", "tconevo.mana_infused_armor"]
+  }
+}

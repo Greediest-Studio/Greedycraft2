@@ -1,0 +1,39 @@
+{
+	title: "§b变幻莫测之金属",
+	x: 9.5d,
+	y: -1.5d,
+	description: "合成盖亚魂锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"01988e6d"
+	],
+	tasks: [{
+		uid: "0ae56eb1",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 14"
+		}]
+	}],
+	rewards: [{
+		uid: "bd5bb319",
+		type: "item",
+		item: "botania:manaresource 1 14"
+	},
+	{
+		uid: "0326c359",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "c293e596",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "34ba53b4",
+		type: "item",
+		item: "botania:blacklotus 1 1"
+	}]
+}

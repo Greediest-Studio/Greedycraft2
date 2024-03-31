@@ -1,0 +1,55 @@
+{
+	title: "§b最后的龙",
+	x: -1.0d,
+	y: -3.5d,
+	description: "使用聚合装置合成守则龙块",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "79b4ace6",
+		type: "item",
+		items: [{
+			item: "gct_ores:ruled_draconium_block"
+		}]
+	},
+	{
+		uid: "570e1c30",
+		type: "item",
+		items: [{
+			item: "gct_ores:equipment_witherium_block"
+		}]
+	}],
+	rewards: [{
+		uid: "15521d16",
+		type: "item",
+		item: {
+			id: "gct_ores:ruled_draconium_ingot",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 24
+	},
+	{
+		uid: "9ea2062f",
+		type: "item",
+		item: {
+			id: "gct_ores:equipment_witherium_ingot",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 24
+	},
+	{
+		uid: "268498fd",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "9b225155",
+		type: "xp",
+		xp: 10000
+	}]
+}

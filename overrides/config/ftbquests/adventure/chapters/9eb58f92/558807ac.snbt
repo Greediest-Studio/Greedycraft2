@@ -1,0 +1,30 @@
+{
+	title: "§b锂——氚？",
+	x: -13.5d,
+	y: -4.0d,
+	description: "制作太阳能中子活化器",
+	text: [
+		""
+	],
+	dependencies: [
+		"c2402025"
+	],
+	tasks: [{
+		uid: "072fe25b",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock3 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "60fe4be0",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "9784ae1a",
+		type: "loot",
+		table: 2
+	}]
+}

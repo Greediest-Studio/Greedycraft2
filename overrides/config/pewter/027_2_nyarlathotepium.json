@@ -1,0 +1,131 @@
+{
+  "name": "nyarlathotepium",
+  "tool": {
+    "head": {
+      "attackDamage": 72.9,
+      "speed": 28.85,
+      "durability": 13270,
+      "harvestLevel": 11
+    },
+    "handle": {
+      "modifier": 2.9,
+      "durability": 3850
+    },
+    "extra": {
+        "durability": 3505
+    },
+    "bow": {
+        "speed": 3.2,
+        "range": 2.4,
+        "bonusDamage": 74
+    }
+  },
+  "color": "#5a4b44",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 3650,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Nyarlathotepium",
+    "zh_cn": "奈亚拉托提普"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "gct_mobs:nyarlathotepium_ingot"
+    ],
+    "block": [
+      "gct_mobs:nyarlathotepium_block"
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 100,
+      "durability": 500
+    },
+    "plates": {
+      "toughness": 9.2,
+      "modifier": 10,
+      "durability": 246
+    },
+    "trim": {
+      "extraDurability": 294
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "thousand_face",
+      "demon_hunter",
+      "gamble"
+    ],
+    "HANDLE": [
+      "mirabile",
+      "demon_hunter",
+      "gamble"
+    ],
+    "EXTRA": [
+      "mirabile",
+      "demon_hunter",
+      "gamble"
+    ],
+    "BOW": [
+      "thousand_face",
+      "demon_hunter",
+      "gamble"
+    ],
+    "CORE": [
+      "specific_immunity_armor",
+      "old_ones_barrier_armor",
+      "changeable_armor"
+    ],
+    "PLATES": [
+      "specific_immunity_armor",
+      "old_ones_barrier_armor",
+      "changeable_armor"
+    ],
+    "TRIM": [
+      "specific_immunity_armor",
+      "old_ones_barrier_armor",
+      "changeable_armor"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+	title: "§b高炉的第二用途",
+	x: -4.0d,
+	y: 9.5d,
+	description: "合成交错钢锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"b3d7523a",
+		"c4030be8"
+	],
+	tasks: [{
+		uid: "cc6ee480",
+		type: "item",
+		items: [{
+			item: "additions:betwnite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "cbeba247",
+		type: "item",
+		item: "additions:betwnite_ingot",
+		count: 2
+	},
+	{
+		uid: "fcecca7c",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "36228976",
+		type: "xp",
+		xp: 14400
+	}]
+}

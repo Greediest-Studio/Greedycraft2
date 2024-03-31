@@ -1,0 +1,60 @@
+{
+	title: "§b我猜你是要做战斗牌子吧！",
+	x: -21.0d,
+	y: 1.0d,
+	description: "使用任意金属块升级你的工具组装台为工具锻造台！",
+	text: [
+		""
+	],
+	dependencies: [
+		"b5940a15"
+	],
+	tasks: [{
+		uid: "20fd2f2a",
+		type: "item",
+		items: [{
+			id: "tconstruct:toolforge",
+			tag: {
+				textureBlock: {
+					id: "tconevo:metal_block",
+					Count: 1b,
+					Damage: 0s
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5cb63701",
+		type: "item",
+		item: "conarm:resist_mat"
+	},
+	{
+		uid: "69194c39",
+		type: "item",
+		item: "tconstruct:materials 1 14"
+	},
+	{
+		uid: "32525bfd",
+		type: "item",
+		item: "oeintegration:excavatemodifier",
+		random_bonus: 1
+	},
+	{
+		uid: "e3439776",
+		type: "item",
+		item: "tconstruct:materials",
+		count: 512
+	},
+	{
+		uid: "cc132a8c",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "fb92e67e",
+		type: "xp",
+		xp: 50
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "§b可以叠加！",
+	x: 3.0d,
+	y: 12.0d,
+	description: "合成或得到一个生长加速器",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "1a934384",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:growth_accelerator"
+		}]
+	}],
+	rewards: [{
+		uid: "2e62825a",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "c58319a2",
+		type: "xp",
+		xp: 750
+	},
+	{
+		uid: "5b786673",
+		type: "item",
+		item: "mysticalagriculture:growth_accelerator",
+		count: 6
+	}]
+}

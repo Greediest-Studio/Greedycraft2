@@ -1,0 +1,18 @@
+{
+	title: "【魔法·壹】初识魔力",
+	icon: "botania:manaresource 1 7",
+	always_invisible: false,
+	group: -277029338,
+	default_quest_shape: "",
+	images: [{
+		x: 4.5d,
+		y: -8.0d,
+		width: 10.5d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/mag1.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

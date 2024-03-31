@@ -1,0 +1,20 @@
+{
+	x: -5.5d,
+	y: 3.5d,
+	dependencies: [
+		"e6cb5274"
+	],
+	tasks: [{
+		uid: "f5e5a414",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-energy_matter_core"
+		}]
+	}],
+	rewards: [{
+		uid: "be56b601",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "energy_matter_core"
+	}]
+}

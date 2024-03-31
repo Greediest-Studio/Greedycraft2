@@ -1,0 +1,16 @@
+{
+  "item_block": {
+    "name": "星域海蓝宝石砂岩",
+    "ore_dict": "oreAquamarine",
+    "type": "additions:block_simple"
+  },
+  "name": "星域海蓝宝石砂岩",
+  "material": "minecraft:stone",
+  "hardness": 15.0,
+  "harvest_level": 6,
+  "harvest_tool": "pickaxe",
+  "light_level": 15,
+  "xp_dropped_min": 5,
+  "xp_dropped_max": 10,
+  "type": "additions:simple"
+}

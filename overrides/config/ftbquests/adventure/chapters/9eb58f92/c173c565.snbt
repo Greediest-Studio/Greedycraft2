@@ -1,0 +1,35 @@
+{
+	title: "§b反应堆的核心！",
+	x: -11.5d,
+	y: -8.0d,
+	description: "制作反应控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"34ac5158"
+	],
+	tasks: [{
+		uid: "a1a72878",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactor"
+		}]
+	}],
+	rewards: [{
+		uid: "e1dac738",
+		type: "item",
+		item: "mekanismgenerators:reactor 1 1",
+		count: 8
+	},
+	{
+		uid: "be9a85b6",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "9ade412a",
+		type: "loot",
+		table: 2
+	}]
+}

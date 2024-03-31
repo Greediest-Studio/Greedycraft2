@@ -1,0 +1,32 @@
+{
+	title: "§b等等，这不是1.12吗？",
+	x: 7.5d,
+	y: 18.0d,
+	description: "合成下界合金",
+	text: [
+		"《论Additions的作用》"
+	],
+	tasks: [{
+		uid: "a533a9e4",
+		type: "item",
+		items: [{
+			item: "additions:netherite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "138c8dae",
+		type: "item",
+		item: "additions:netherite_scrap",
+		count: 4
+	},
+	{
+		uid: "ad435828",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "18577c81",
+		type: "random",
+		table: 2
+	}]
+}

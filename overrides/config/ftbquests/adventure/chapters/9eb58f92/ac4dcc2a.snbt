@@ -1,0 +1,33 @@
+{
+	title: "§b液化？汽化？",
+	x: -2.5d,
+	y: 4.0d,
+	description: "制作一个回旋式气液转换机",
+	text: [
+		""
+	],
+	dependencies: [
+		"cd7aa078"
+	],
+	tasks: [{
+		uid: "6ebac8f4",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock2",
+			tag: {
+				mekData: {}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d2fbdb18",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "771120b2",
+		type: "xp",
+		xp: 500
+	}]
+}

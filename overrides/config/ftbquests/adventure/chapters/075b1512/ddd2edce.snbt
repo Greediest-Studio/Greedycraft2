@@ -1,0 +1,68 @@
+{
+	title: "§b疯狂输出 VI",
+	x: -2.0d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"0a3d731a"
+	],
+	tasks: [{
+		uid: "9607c849",
+		type: "stat",
+		icon: "abyssalcraft:aaxe",
+		stat: "stat.damageDealt",
+		value: 250000000
+	}],
+	rewards: [{
+		uid: "10ad5e64",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "d1266cf6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "46ee1873",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "647f5429",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "f1c9a870",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	}]
+}

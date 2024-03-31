@@ -1,0 +1,35 @@
+{
+	title: "§b黏黏糊糊的……",
+	x: 2.0d,
+	y: 4.0d,
+	description: "从焦油怪身上获取焦油滴",
+	text: [
+		""
+	],
+	dependencies: [
+		"27de749c"
+	],
+	tasks: [{
+		uid: "35521029",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 26"
+		}]
+	}],
+	rewards: [{
+		uid: "64af3377",
+		type: "item",
+		item: "thebetweenlands:items_misc 1 26",
+		count: 3
+	},
+	{
+		uid: "11e3e3c7",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "3f11c1a8",
+		type: "xp",
+		xp: 8000
+	}]
+}

@@ -1,0 +1,65 @@
+{
+    "name": "§9召唤台",
+    "icon": "journey:summoningtable",
+    "category": "patchouli:guide_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(li)$(2)召唤台$()是光明之旅·神之本质模组的多方块结构，用于制作本模组的$(c)BOSS召唤物。$(li)$()你会在冒险·叁一章首次搭建此结构。"
+        },
+        {
+            "type": "multiblock",
+			"text": "如图为必需的召唤台结构，组成方块有血岩、符文血岩、血岩柱、血岩砖、錾制血岩砖、方尖碑、召唤台",
+			"symmertrical": true,
+            "multiblock": {
+                "mapping": {
+                    "B": "journey:bloodrock",
+					"R": "journey:bloodrune",
+                    "P": "journey:bloodpillar",
+                    "0": "journey:summoningtable",
+                    "I": "journey:bloodbricks",
+                    "C": "journey:obelisk",
+                    "O": "journey:carvedbloodrock"
+                },
+                "pattern": [
+                    [
+                    "     ",
+                    " III ",
+                    " III ",
+                    " III ",
+                    "     "
+                    ],
+                    [
+                    "OI IO",
+                    "II II",
+                    "  C  ",
+                    "II II",
+                    "OI IO"
+                    ],
+                    [
+                    "P   P",
+                    "     ",
+                    "     ",
+                    "     ",
+                    "P   P"
+                    ],
+                    [
+                    "P   P",
+                    "     ",
+                    "  0  ",
+                    "     ",
+                    "P   P"
+                    ],
+                    [
+					" BRB ",
+					"B B B",
+					"RBBBR",
+					"B B B",
+					" BRB "
+                    ]
+                ]
+            }
+
+        }
+    ]
+}

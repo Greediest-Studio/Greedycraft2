@@ -1,0 +1,139 @@
+{
+  "name": "terran_stone",
+  "tool": {
+    "bow": {
+      "speed": 3.2,
+      "range": 1.0,
+      "bonusDamage": 4
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 6.5,
+      "speed": 8,
+      "durability": 1000,
+      "harvestLevel": 4
+    },
+    "handle": {
+      "modifier": 1.2,
+      "durability": 700
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 1.1
+    },
+    "extra": {
+      "durability": 700
+    }
+  },
+  "color": "#41522a",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 820,
+  "looks": {
+    "shininess": 0.2,
+    "brightness": 0.1,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Terran Stone",
+    "zh_cn": "特兰石"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "divinerpg:terran_stone"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 104,
+      "defense": 13
+    },
+    "plates": {
+      "modifier": 1.2,
+      "durability": 37,
+      "toughness": 1.2
+    },
+    "trim": {
+      "extraDurability": 27
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "ecological",
+      "naturespower"
+    ],
+    "HEAD": [
+      "ecological",
+      "naturespower"
+    ],
+    "HANDLE": [
+      "ecological",
+      "naturespower"
+    ],
+    "BOW": [
+      "ecological",
+      "naturespower"
+    ],
+    "PROJECTILE": [
+      "ecological",
+      "naturespower"
+    ],
+    "CORE": [
+      "ecological_armor",
+      "deep_parasitic_armor"
+    ],
+    "PLATES": [
+      "ecological_armor",
+      "deep_parasitic_armor"
+    ],
+    "TRIM": [
+      "ecological_armor",
+      "deep_parasitic_armor"
+    ]
+  }
+}

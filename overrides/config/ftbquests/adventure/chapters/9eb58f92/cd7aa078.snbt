@@ -1,0 +1,30 @@
+{
+	title: "§bH2+Cl2=2HCl",
+	x: -2.5d,
+	y: 2.0d,
+	description: "制作化学灌注器",
+	text: [
+		""
+	],
+	dependencies: [
+		"ce2114e7"
+	],
+	tasks: [{
+		uid: "5df51525",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 2"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "781bdf59",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "8400fd50",
+		type: "loot",
+		table: 0
+	}]
+}

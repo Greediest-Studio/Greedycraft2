@@ -1,0 +1,38 @@
+{
+	title: "§b怪物杀手 IX",
+	x: -5.0d,
+	y: 13.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"06bb0eb0"
+	],
+	tasks: [{
+		uid: "842f91ab",
+		type: "stat",
+		icon: "abyssalcraft:ethaxiumsword",
+		stat: "stat.mobKills",
+		value: 37500
+	}],
+	rewards: [{
+		uid: "d21db7e8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "eb69a76b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	}]
+}

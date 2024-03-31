@@ -1,0 +1,36 @@
+{
+	title: "§b独特的晶体",
+	x: 10.5d,
+	y: 7.0d,
+	description: "获得木晶",
+	text: [
+		""
+	],
+	dependencies: [
+		"0c5bb7b9"
+	],
+	tasks: [{
+		uid: "ff8cebfc",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:dentrothyst 1 1"
+		}]
+	},
+	{
+		uid: "1cfd7b0f",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:dentrothyst"
+		}]
+	}],
+	rewards: [{
+		uid: "e1a86b46",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "1aacdf46",
+		type: "xp",
+		xp: 4000
+	}]
+}

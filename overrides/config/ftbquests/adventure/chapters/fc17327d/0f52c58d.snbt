@@ -1,0 +1,57 @@
+{
+	title: "§b最难打的暮色BOSS",
+	x: -8.0d,
+	y: 13.5d,
+	description: "击败巫妖",
+	text: [
+		""
+	],
+	dependencies: [
+		"975e02e0"
+	],
+	tasks: [{
+		uid: "396c1d37",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "73c1ec67",
+		type: "item",
+		item: "twilightforest:ironwood_raw",
+		count: 20
+	},
+	{
+		uid: "3ce5c3c7",
+		type: "item",
+		item: "twilightforest:steeleaf_ingot",
+		count: 16
+	},
+	{
+		uid: "233fab0d",
+		type: "item",
+		item: {
+			id: "thermalinnovation:injector",
+			Damage: 2s,
+			tag: {}
+		}
+	},
+	{
+		uid: "54d76a54",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "c606321d",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "76689484",
+		type: "advancement",
+		auto: "no_toast",
+		advancement: "twilightforest:progress_lich",
+		criterion: ""
+	}]
+}

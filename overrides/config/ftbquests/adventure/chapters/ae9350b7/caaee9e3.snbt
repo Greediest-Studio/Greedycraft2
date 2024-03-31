@@ -1,0 +1,26 @@
+{
+	title: "§b亿点都不难",
+	x: 6.0d,
+	y: 10.5d,
+	description: "合成死亡金币，开启超级困难模式",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "fd1653b0",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-death_coin"
+		}]
+	}],
+	rewards: [{
+		uid: "c21db00a",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "786818f9",
+		type: "random",
+		table: 3
+	}]
+}

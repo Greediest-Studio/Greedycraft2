@@ -1,0 +1,150 @@
+{
+  "name": "lunium",
+  "tool": {
+    "bow": {
+      "speed": 2.2,
+      "range": 1.4,
+      "bonusDamage": 3
+    },
+    "fletching": {
+      "accuracy": 0.5,
+      "modifier": 0.0
+    },
+    "head": {
+      "attackDamage": 9.0,
+      "speed": 6.0,
+      "durability": 200,
+      "harvestLevel": 4
+    },
+    "handle": {
+      "modifier": 1.5,
+      "durability": 0
+    },
+    "arrowShaft": {
+      "modifier": 1.1,
+      "bonusAmmo": 5
+    },
+    "bowstring": {
+      "modifier": 1.1
+    },
+    "extra": {
+      "durability": 50
+    }
+  },
+  "color": "#abad18",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 900,
+  "looks": {
+    "shininess": 0.6,
+    "brightness": 0.1,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Lunium",
+    "zh_cn": "錀"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "journey:luniumingot"
+    ],
+    "block": [
+      "journey:luniumblock"
+    ],
+    "nugget": [
+    ],
+    "ore": [
+      "journey:luniumore"
+    ],
+    "dust": [
+      "journey:luniumdust"
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 50,
+      "defense": 21
+    },
+    "plates": {
+      "modifier": 1.4,
+      "durability": 10,
+      "toughness": 3
+    },
+    "trim": {
+      "extraDurability": 5
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "heavy",
+      "momentum",
+      "lighting2"
+    ],
+    "HEAD": [
+      "heavy",
+      "momentum",
+      "lighting2"
+    ],
+    "HANDLE": [
+      "heavy",
+      "momentum",
+      "lighting2"
+    ],
+    "BOW": [
+      "heavy",
+      "momentum",
+      "lighting2"
+    ],
+    "PROJECTILE": [
+      "heavy",
+      "momentum",
+      "lighting2"
+    ],
+    "CORE": [
+      "steady_armor",
+      "heavy_armor",
+      "lighting2_armor"
+    ],
+    "PLATES": [
+      "steady_armor",
+      "heavy_armor",
+      "lighting2_armor"
+    ],
+    "TRIM": [
+      "steady_armor",
+      "heavy_armor",
+      "lighting2_armor"
+    ]
+  }
+}

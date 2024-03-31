@@ -1,0 +1,68 @@
+{
+	title: "§b怪物杀手 IV",
+	x: -5.0d,
+	y: 5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"fe181dca"
+	],
+	tasks: [{
+		uid: "7cc32516",
+		type: "stat",
+		icon: "minecraft:golden_sword",
+		stat: "stat.mobKills",
+		value: 5000
+	}],
+	rewards: [{
+		uid: "39c751f5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "1e67ad8c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "3c8b178c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "64e6298b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "bf915d33",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	}]
+}

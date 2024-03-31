@@ -1,0 +1,29 @@
+{
+	title: "§b越来越看得清灵气了",
+	x: -3.5d,
+	y: 6.0d,
+	description: "获得环境目镜",
+	dependencies: [
+		"19b1c641",
+		"cd821aa2"
+	],
+	tasks: [{
+		uid: "034eabd5",
+		type: "item",
+		items: [{
+			item: "naturesaura:eye_improved"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1fc50006",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "ca89b770",
+		type: "random",
+		table: 2
+	}]
+}

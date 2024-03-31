@@ -1,0 +1,38 @@
+{
+	title: "§b怪物杀手 V",
+	x: -5.0d,
+	y: 7.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"45fef71f"
+	],
+	tasks: [{
+		uid: "37245a19",
+		type: "stat",
+		icon: "minecraft:diamond_sword",
+		stat: "stat.mobKills",
+		value: 8000
+	}],
+	rewards: [{
+		uid: "0ccd910a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "3e0c90f2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	}]
+}

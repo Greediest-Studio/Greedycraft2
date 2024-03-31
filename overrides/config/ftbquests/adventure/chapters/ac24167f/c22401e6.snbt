@@ -1,0 +1,38 @@
+{
+	title: "§b瓶子收集灵气？",
+	x: -5.5d,
+	y: -1.5d,
+	description: "手持瓶与塞右键空气可以收集到肉眼可见的灵气",
+	text: [
+		"在主世界会收集到瓶装阳光",
+		"在下界会收集到瓶装鬼魂",
+		"在末地会收集到瓶装黑暗"
+	],
+	tasks: [{
+		uid: "30f794ea",
+		type: "item",
+		items: [{
+			item: "naturesaura:bottle_two_the_rebottling"
+		}]
+	}],
+	rewards: [{
+		uid: "07710bac",
+		type: "item",
+		item: {
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "naturesaura:book"
+			}
+		}
+	},
+	{
+		uid: "cef59e2f",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "3166891c",
+		type: "random",
+		table: 1
+	}]
+}

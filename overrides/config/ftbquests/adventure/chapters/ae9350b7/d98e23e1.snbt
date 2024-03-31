@@ -1,0 +1,32 @@
+{
+	title: "§b生物学奇迹",
+	x: 9.0d,
+	y: 3.0d,
+	description: "获得罐中奶牛，可以提供无限牛奶",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "20756664",
+		type: "item",
+		items: [{
+			item: "cookingforblockheads:cow_jar"
+		}]
+	}],
+	rewards: [{
+		uid: "9bcba370",
+		type: "item",
+		item: "minecraft:leather",
+		count: 30
+	},
+	{
+		uid: "1d90f2ac",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "e28d0690",
+		type: "random",
+		table: 1
+	}]
+}

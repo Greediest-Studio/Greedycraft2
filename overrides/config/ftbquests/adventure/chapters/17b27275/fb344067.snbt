@@ -1,0 +1,35 @@
+{
+	title: "§b特殊的火把",
+	x: -3.5d,
+	y: 2.5d,
+	description: "获得荧光粘液",
+	text: [
+		"或许可以这么说吧……"
+	],
+	dependencies: [
+		"00327d8a"
+	],
+	tasks: [{
+		uid: "a71af90d",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:glowing_goop"
+		}]
+	}],
+	rewards: [{
+		uid: "b65615b2",
+		type: "item",
+		item: "thebetweenlands:glowing_goop",
+		count: 64
+	},
+	{
+		uid: "ed916a24",
+		type: "xp",
+		xp: 6000
+	},
+	{
+		uid: "2f6f4a8a",
+		type: "random",
+		table: 2
+	}]
+}

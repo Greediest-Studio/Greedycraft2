@@ -1,0 +1,94 @@
+{
+  "name": "aurune",
+  "tool": {
+    "head": {
+      "attackDamage": 30.0,
+      "speed": 30.0,
+      "durability": 1600,
+      "harvestLevel": 10
+    },
+    "handle": {
+      "modifier": 2.6,
+      "durability": 500
+    },
+    "extra": {
+      "durability": 950
+    },
+    "bow": {
+      "speed": 1.8,
+      "range": 1.7,
+      "bonusDamage": 15.0
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 700.0,
+      "defense": 77
+    },
+    "plates": {
+      "modifier": 5.0,
+      "durability": 255.0,
+      "toughness": 4.0
+    },
+    "trim": {
+      "extraDurability": 332.0
+    }
+  },
+  "color": "#35eb34",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Aurune",
+    "zh_cn": "灵蕴金属"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:greedycraft-aurune_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["aura_infused","full_of_aura","elementfriendly"],
+    "HANDLE": ["aura_infused","full_of_aura","elementfriendly"],
+    "EXTRA": ["aura_infused","full_of_aura","elementfriendly"],
+    "BOW": ["aura_infused","full_of_aura","elementfriendly"],
+    "CORE": ["aura_infused_armor","full_of_aura_armor","elementfriendly_armor"],
+    "PLATES": ["aura_infused_armor","full_of_aura_armor","elementfriendly_armor"],
+    "TRIM": ["aura_infused_armor","full_of_aura_armor","elementfriendly_armor"]
+  }
+}

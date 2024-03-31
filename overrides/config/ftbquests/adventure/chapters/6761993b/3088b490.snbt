@@ -1,0 +1,32 @@
+{
+	title: "§b蕴含有一个你最讨厌的金属",
+	x: 4.5d,
+	y: -0.5d,
+	description: "制作平衡石板",
+	dependencies: [
+		"b4fdc649"
+	],
+	tasks: [{
+		uid: "fcdcf6e1",
+		type: "item",
+		items: [{
+			item: "additions:bloody-balanced_slate"
+		}]
+	}],
+	rewards: [{
+		uid: "4a86eee7",
+		type: "item",
+		item: "additions:bloody-balanced_slate",
+		count: 4
+	},
+	{
+		uid: "9eada5a4",
+		type: "xp",
+		xp: 12000
+	},
+	{
+		uid: "09e009d8",
+		type: "random",
+		table: 3
+	}]
+}

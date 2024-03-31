@@ -1,0 +1,125 @@
+{
+  "name": "crystaltine",
+  "tool": {
+    "head": {
+      "attackDamage": 57.5,
+      "speed": 7.9,
+      "durability": 2350,
+      "harvestLevel": 8
+    },
+    "handle": {
+      "modifier": 1.2,
+      "durability": 800
+    },
+    "extra": {
+        "durability": 600
+    },
+    "bow": {
+        "speed": 0.3,
+        "range": 0.9,
+        "bonusDamage": 30
+    }
+  },
+  "color": "#8fcde9",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 400,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Crystaltine",
+    "zh_cn": "晶素"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "extendedcrafting:material:24"
+    ],
+    "block": [
+      "extendedcrafting:storage:3"
+    ],
+    "nugget": [
+      "extendedcrafting:material:25"
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "defense": 49.7,
+      "durability": 63
+    },
+    "plates": {
+      "toughness": 4,
+      "modifier": 6.3,
+      "durability": 55
+    },
+    "trim": {
+      "extraDurability": 53
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "crystal_force",
+      "tconevo.deadly_precision"
+    ],
+    "HANDLE": [
+      "crystal_force",
+      "crystalyst"
+    ],
+    "EXTRA": [
+      "crystal_force",
+      "tconevo.deadly_precision"
+    ],
+    "BOW": [
+      "crystal_force",
+      "tconevo.deadly_precision"
+    ],
+    "CORE": [
+      "crystal_force_armor",
+      "diffuse_reflecting_armor"
+    ],
+    "PLATES": [
+      "crystal_force_armor",
+      "mundane1_armor"
+    ],
+    "TRIM": [
+      "crystal_force_armor",
+      "mundane1_armor"
+    ]
+  }
+}

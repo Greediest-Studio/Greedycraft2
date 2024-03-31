@@ -1,0 +1,50 @@
+{
+	title: "§b血液浸染",
+	x: 4.5d,
+	y: 0.0d,
+	description: "获得可以控制血月的物品",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "7382ef8e",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-blood_sigil"
+		}]
+	},
+	{
+		uid: "5c1dfdec",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-bloody_sacrifice"
+		}]
+	}],
+	rewards: [{
+		uid: "e677028d",
+		type: "item",
+		item: "additions:greedycraft-blood_sigil",
+		count: 4
+	},
+	{
+		uid: "56191a23",
+		type: "item",
+		item: "additions:greedycraft-bloody_sacrifice",
+		count: 4
+	},
+	{
+		uid: "45a338e0",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "debba9f1",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "e5687415",
+		type: "xp",
+		xp: 800
+	}]
+}

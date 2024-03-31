@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "§6余烬石矿石",
+    "ore_dict": "oreEmberstone",
+    "type": "additions:block_simple"
+  },
+  "name": "§6余烬石矿石",
+  "material": "minecraft:stone",
+  "hardness": 16.0,
+  "resistance": 4000.0,
+  "harvest_level": 5,
+  "harvest_tool": "pickaxe",
+  "light_level": 12,
+  "type": "additions:simple"
+}

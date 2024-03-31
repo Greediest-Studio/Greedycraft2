@@ -1,0 +1,39 @@
+{
+	title: "§b合成？多vis？存储更多源质？我全都要！！",
+	x: -4.5d,
+	y: 4.0d,
+	description: "神秘版本的ae",
+	dependencies: [
+		"9994d76d"
+	],
+	tasks: [{
+		uid: "246fd11c",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:upgrade_arcane"
+		}]
+	},
+	{
+		uid: "f32828b5",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:essentia_terminal"
+		}]
+	}],
+	rewards: [{
+		uid: "dbd05108",
+		type: "item",
+		item: "thaumicenergistics:essentia_component_16k",
+		count: 4
+	},
+	{
+		uid: "97d0d28e",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "be515e17",
+		type: "loot",
+		table: 1
+	}]
+}

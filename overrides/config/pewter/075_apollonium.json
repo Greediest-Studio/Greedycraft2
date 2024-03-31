@@ -1,0 +1,94 @@
+{
+  "name": "apollonium",
+  "tool": {
+    "head": {
+      "attackDamage": 9.8,
+      "speed": 10,
+      "durability": 1400,
+      "harvestLevel": 4
+    },
+    "handle": {
+      "modifier": 0.8,
+      "durability": 120
+    },
+    "extra": {
+      "durability": 100
+    },
+    "bow": {
+      "speed": 0.85,
+      "range": 1.3,
+      "bonusDamage": -2
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 180,
+      "defense": 25.4
+    },
+    "plates": {
+      "modifier": 3,
+      "durability": 95,
+      "toughness": 4.5
+    },
+    "trim": {
+      "extraDurability": 80
+    }
+  },
+  "color": "#e37121",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Apollonium",
+    "zh_cn": "太阳神"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:greedycraft-apollonium_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["gilded", "sun_power", "amaratsu", "moretcon.aetheric"],
+    "HANDLE": ["gilded", "amaratsu", "moretcon.aetheric"],
+    "EXTRA": ["gilded", "amaratsu", "moretcon.aetheric"],
+    "BOW": ["gilded", "amaratsu", "moretcon.aetheric"],
+    "CORE": ["sun_power_armor", "light_mark_armor", "aetheric_armor"],
+    "PLATES": ["sun_power_armor", "light_mark_armor", "aetheric_armor"],
+    "TRIM": ["sun_power_armor", "light_mark_armor", "aetheric_armor"]
+  }
+}

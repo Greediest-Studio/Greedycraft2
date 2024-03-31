@@ -1,0 +1,31 @@
+{
+	title: "§b盲人摸象",
+	x: -4.5d,
+	y: 5.5d,
+	description: "合成诅咒：致盲",
+	text: [
+		""
+	],
+	dependencies: [
+		"d727497d"
+	],
+	tasks: [{
+		uid: "6e437406",
+		type: "item",
+		items: [{
+			item: "journey:calciaorb"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "813a5858",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "050b243d",
+		type: "random",
+		table: 2
+	}]
+}

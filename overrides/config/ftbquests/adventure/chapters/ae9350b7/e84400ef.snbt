@@ -1,0 +1,38 @@
+{
+	title: "§b阻止吸取",
+	x: 7.5d,
+	y: 6.0d,
+	description: "制作一个消磁器，用于抵消某些物品对掉落物的吸引",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "4da17c19",
+		type: "item",
+		items: [{
+			item: "draconicevolution:item_dislocation_inhibitor"
+		}]
+	}],
+	rewards: [{
+		uid: "2a72807c",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "a7f31d80",
+		type: "item",
+		item: "minecraft:dye 1 4",
+		count: 64
+	},
+	{
+		uid: "5b60d12e",
+		type: "item",
+		item: "minecraft:book",
+		count: 64
+	},
+	{
+		uid: "d93815d6",
+		type: "random",
+		table: 1
+	}]
+}

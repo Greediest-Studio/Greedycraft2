@@ -1,0 +1,39 @@
+{
+	title: "§b过滤煤",
+	x: -14.5d,
+	y: -2.5d,
+	description: "使用铌镐挖掘过滤煤矿,获取过滤煤",
+	text: [
+		"注：只能使用铌制的普通工具"
+	],
+	dependencies: [
+		"4cfe187d"
+	],
+	tasks: [{
+		uid: "bc1e35ac",
+		type: "item",
+		items: [{
+			item: "mist:filter_coal"
+		}]
+	}],
+	rewards: [{
+		uid: "0f2de76e",
+		type: "item",
+		item: "mist:filter_coal_block"
+	},
+	{
+		uid: "14ed11c9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "b5fc775e",
+		type: "xp",
+		xp: 3500
+	}]
+}

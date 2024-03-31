@@ -1,0 +1,19 @@
+{
+	title: "§b更强大的诱变机",
+	x: -18.0d,
+	y: 3.0d,
+	description: "获得高级诱变机",
+	text: [
+		""
+	],
+	dependencies: [
+		"013636a1"
+	],
+	tasks: [{
+		uid: "20df29c6",
+		type: "item",
+		items: [{
+			item: "gendustry:mutatron_advanced"
+		}]
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "§b感觉不如精华锭",
+	x: -3.5d,
+	y: 5.5d,
+	description: "获得珍珠梨",
+	text: [
+		""
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"e785869d"
+	],
+	tasks: [{
+		uid: "b1b71f9d",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:pearled_pear"
+		}]
+	}],
+	rewards: [{
+		uid: "f98fa7af",
+		type: "item",
+		item: "thebetweenlands:pearled_pear",
+		count: 4
+	},
+	{
+		uid: "15c51082",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "1ffd2d79",
+		type: "xp",
+		xp: 5000
+	}]
+}

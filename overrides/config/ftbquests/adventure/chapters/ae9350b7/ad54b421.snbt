@@ -1,0 +1,43 @@
+{
+	title: "§b原点，§b§m正方向，单位长度",
+	x: 6.0d,
+	y: 1.5d,
+	description: "抵达主世界（0,0）",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "46148be4",
+		type: "location",
+		location: [I;
+			0,
+			0,
+			0,
+			0,
+			2,
+			255,
+			2
+		]
+	}],
+	rewards: [{
+		uid: "7e72dccf",
+		type: "item",
+		item: "waystones:waystone",
+		count: 4
+	},
+	{
+		uid: "d1942d67",
+		type: "item",
+		item: "waystones:warp_stone"
+	},
+	{
+		uid: "3cbb4c40",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "db51c3bb",
+		type: "random",
+		table: 0
+	}]
+}

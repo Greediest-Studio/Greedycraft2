@@ -1,0 +1,25 @@
+{
+  "cause": {
+    "equipment": [
+      {
+        "slot": "head",
+        "item": {
+          "item": "additions:sponsor2-li_big_head",
+          "damage": "any"
+        }
+      }
+    ],
+    "pieces_required": 1,
+    "type": "additions:item_equipped"
+  },
+  "effects": [
+    {
+      "command": "kill @p",
+      "command_sender_name": "@p",
+      "type": "additions:command"
+    },
+    {
+      "type": "additions:consume_item"
+    }
+  ]
+}

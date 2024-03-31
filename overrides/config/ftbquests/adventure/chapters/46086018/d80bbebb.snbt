@@ -1,0 +1,48 @@
+{
+	title: "§b敲响神圣RPG之门",
+	x: -4.5d,
+	y: -11.0d,
+	description: "制作神秘之钟，用于召唤远古之力",
+	text: [
+		""
+	],
+	dependencies: [
+		"feae1cad"
+	],
+	tasks: [{
+		uid: "de559575",
+		type: "item",
+		items: [{
+			item: "divinerpg:mysterious_clock"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4d325f47",
+		type: "item",
+		item: "divinerpg:divine_shards",
+		count: 8
+	},
+	{
+		uid: "281ec116",
+		type: "item",
+		item: "divinerpg:netherite_ingot",
+		count: 16
+	},
+	{
+		uid: "5c55699b",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "f783edcd",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "a71175f5",
+		type: "random",
+		table: 0
+	}]
+}

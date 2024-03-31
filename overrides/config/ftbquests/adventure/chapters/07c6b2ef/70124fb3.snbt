@@ -1,0 +1,19 @@
+{
+	title: "§b蒸汽锅炉",
+	x: -6.5d,
+	y: -15.0d,
+	description: "制作升级：蒸汽锅炉转化",
+	text: [
+		"变成真正的蒸汽锅炉，只产生蒸汽而不是RF"
+	],
+	dependencies: [
+		"f7c47ee5"
+	],
+	tasks: [{
+		uid: "b12a7e1e",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 576"
+		}]
+	}]
+}

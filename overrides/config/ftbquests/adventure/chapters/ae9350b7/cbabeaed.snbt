@@ -1,0 +1,32 @@
+{
+	title: "§b吃货天堂",
+	x: 13.5d,
+	y: 1.5d,
+	description: "食用魔法糖果，进入糖果世界",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "af88cc70",
+		type: "item",
+		items: [{
+			item: "candymod:teleporter"
+		}]
+	}],
+	rewards: [{
+		uid: "4a2d021d",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "b7b88bb6",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "6a3e2209",
+		type: "item",
+		item: "candymod:chocolate_bar 1 1",
+		count: 16
+	}]
+}

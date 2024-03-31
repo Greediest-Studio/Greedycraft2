@@ -1,0 +1,382 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = background
+  action = setbackgroundslideshow
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=1%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = top-left
+  x = 291
+  action = movebutton
+  y = 194
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 160
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = top-left
+  x = 291
+  action = movebutton
+  y = 218
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 160
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 游戏选项
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = top-left
+  x = 291
+  action = movebutton
+  y = 290
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 160
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = top-left
+  x = 291
+  action = movebutton
+  y = 170
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 160
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = top-left
+  x = 162
+  action = movebutton
+  y = 250
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  orientation = top-left
+  x = 210
+  action = movebutton
+  y = 176
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 127
+  width = 172
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 624b2ce1-d916-4d95-bfa0-d0a70e44fdf11697020112462
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 113
+  action = deep_customization_element:title_screen_branding
+  actionid = 201038ce-bf44-4146-a1e8-7e7a60b90b6a1697020112463
+  y = 188
+  height = 50
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 276
+  width = 150
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 626f3b79-5606-4a75-8e8f-5f1aa122fdb51697020112463
+  y = 220
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 316
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = a66eaa2b-ac07-46e0-9cf9-7d5151a040631697020112463
+  y = 160
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 103
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 95acabd3-53dd-4bff-8d62-78d882bfa7871697020112463
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = top-left
+  splash_color = #ffff00
+  hidden = false
+  x = 457
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 98852167-5752-422b-9181-09901558fd601697020112463
+  y = 124
+  splash_file_path = resources/greedycraft/mainmenu/splashes.txt
+  height = 30
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = §b你的名字：§e{"placeholder":"playername"}%n%§b整合包版本：§e2.5.0 fix3%n%§b游戏版本：§e{"placeholder":"mcversion"}%n%§b模组数量：§e共计{"placeholder":"totalmods"}个/启用{"placeholder":"loadedmods"}个%n%§b当前时间：§e{"placeholder":"realtimeyear"}年{"placeholder":"realtimemonth"}月{"placeholder":"realtimeday"}日 {"placeholder":"realtimehour"}:{"placeholder":"realtimeminute"}:{"placeholder":"realtimesecond"}%n%§b内存占用：§e{"placeholder":"usedram"}MB/{"placeholder":"maxram"}MB ({"placeholder":"percentram"}%)
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 140
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 95d12ca8-efbe-4e66-ba33-e57b8f284de71709113023489
+  y = 247
+  alignment = left
+  height = 79
+}
+
+customization {
+  path = resources/greedycraft/mainmenu/banner.png
+  orientation = top-centered
+  x = -159
+  width = 318
+  actionid = e0d9a185-7e18-4692-881c-e0b5fc7f7ae61709111761179
+  action = addtexture
+  y = 20
+  height = 100
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.mcmod.cn/modpack/484.html%btnaction_splitter_fm%
+  x = 291
+  width = 75
+  action = addbutton
+  actionid = 522e63ad-6bc8-4290-b23e-90f45d3a1ef81709111897182
+  y = 242
+  label = MC百科
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = join_last_world%btnaction_splitter_fm%
+  x = 291
+  width = 160
+  action = addbutton
+  actionid = 80e1919c-78af-4be1-b142-95920aee82681709111899774
+  y = 146
+  label = 继续游戏
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://github.com/Greediest-Studio/GreedyCraft-II-Modpack-test%btnaction_splitter_fm%
+  x = 376
+  width = 75
+  action = addbutton
+  actionid = 47c07593-f2c9-4c35-b980-ee76daca25671709112716424
+  y = 242
+  label = GitHub
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.mcmod.cn/modpack/version/484.html%btnaction_splitter_fm%
+  x = 291
+  width = 75
+  action = addbutton
+  actionid = a5760942-35fe-4f57-83d0-c7587eca72dc1709112725874
+  y = 266
+  label = 更新日志
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://afdian.net/a/eys2008lu493992%btnaction_splitter_fm%
+  x = 376
+  width = 75
+  action = addbutton
+  actionid = 85cb2cff-e30e-43b4-bb8b-3070cad743c51709112737024
+  y = 266
+  label = 赞助一下
+  height = 20
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 267
+  slim = false
+  actionid = dc4ca495-2bb7-4cd7-880b-c6ef166ef6b61709112929916
+  action = addentity
+  y = 264
+  scale = 35
+  playername = %playername%
+  parrot = false
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.2
+  source = §b欢迎来到 §e§l贪婪整合包2：重生！
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 140
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 4f94613a-96d7-416e-bbf8-2ac9c730dce51709113303675
+  y = 141
+  alignment = left
+  base_color = 00d9ec
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.1
+  source = §b原作者：§e§lTCreopargh%n%§b续作者：§e§lmc_Edwin%n%§b作者团队：§e§lGreediest  Studio%n%
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 140
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = b4dca2d9-b028-4c12-bb7f-4eeb056bdccb1709113517676
+  y = 152
+  alignment = left
+  base_color = 00ffff
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.1
+  source = §bQQ1群：§e595887137%n%§bQQ2群：§e962523950%n%§bQQ3群：§e584548646%n%§bQQ4群：§e805806545%n%§bQQ5群：§e860344583%n%§bQQ测试群：§e806391388
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 140
+  width = 102
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = dd0a5ee1-e326-430c-abd1-849d37dbf8681709113770725
+  y = 182
+  alignment = left
+  base_color = 00ffff
+  height = 64
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = reloadmenu%btnaction_splitter_fm%
+  backgroundhovered = resources/greedycraft/mainmenu/refreshlarge.png
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel = 刷新主菜单
+  x = 553
+  width = 20
+  action = addbutton
+  actionid = 5e50ec22-ba82-4df7-b709-244d0f33d9c91709114462526
+  y = 20
+  backgroundnormal = resources/greedycraft/mainmenu/refreshlarge.png
+  height = 20
+}
+

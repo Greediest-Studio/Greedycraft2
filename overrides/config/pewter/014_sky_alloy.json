@@ -1,0 +1,157 @@
+{
+    "name": "sky_alloy",
+    "tool": {
+      "bow": {
+        "speed": 1.8,
+        "range": 1.4,
+        "bonusDamage": 25
+      },
+      "fletching": {
+        "accuracy": 0.5,
+        "modifier": 0.0
+      },
+      "head": {
+        "attackDamage": 30.15,
+        "speed": 20.2,
+        "durability": 8000,
+        "harvestLevel": 10
+      },
+      "handle": {
+        "modifier": 2.4,
+        "durability": 5000
+      },
+      "arrowShaft": {
+        "modifier": 1.1,
+        "bonusAmmo": 5
+      },
+      "bowstring": {
+        "modifier": 1.1
+      },
+      "extra": {
+        "durability": 5000
+      }
+    },
+    "color": "#00cda4",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 760,
+    "looks": {
+      "shininess": 0.4,
+      "brightness": 0.2,
+      "hueshift": 0.0
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "PROJECTILE",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Sky Alloy",
+      "zh_cn": "天空合金"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "gct_ores:sky_alloy_ingot"
+      ],
+      "block": [
+        "gct_ores:sky_alloy_block"
+      ],
+      "nugget": [
+        "gct_ores:sky_alloy_nugget"
+      ],
+      "ore": [
+      ],
+      "dust": [
+        "gct_ores:sky_alloy_dust"
+      ],
+      "plate": [
+        "gct_ores:sky_alloy_plate"
+      ],
+      "gear": [
+        "gct_ores:sky_alloy_gear"
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "durability": 780,
+        "defense": 79.6
+      },
+      "plates": {
+        "modifier": 8.5,
+        "durability": 124,
+        "toughness": 7.5
+      },
+      "trim": {
+        "extraDurability": 90
+      }
+    },
+    "specificTraits": {
+      "EXTRA": [
+        "terrafirma2",
+        "repressing",
+        "shaking",
+        "dreadpurity"
+      ],
+      "HEAD": [
+        "terrafirma2",
+        "repressing",
+        "shaking",
+        "dreadpurity"
+      ],
+      "HANDLE": [
+        "terrafirma2",
+        "repressing",
+        "shaking",
+        "dreadpurity"
+      ],
+      "BOW": [
+        "terrafirma2",
+        "repressing",
+        "shaking",
+        "dreadpurity"
+      ],
+      "PROJECTILE": [
+        "terrafirma2",
+        "repressing",
+        "shaking",
+        "dreadpurity"
+      ],
+      "CORE": [
+        "second_life_armor",
+        "tconevo.celestial_armor",
+        "strong_vaccine_armor"
+      ],
+      "PLATES": [
+        "tconevo.gale_force1_armor",
+        "hyper_armor",
+        "ecological_armor"
+      ],
+      "TRIM": [
+        "lightweight_armor",
+        "dreadpurity",
+        "vengeful_armor"
+      ]
+    }
+  }

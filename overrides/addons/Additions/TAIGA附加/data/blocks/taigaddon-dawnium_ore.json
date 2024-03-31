@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "陨灵金矿石",
+    "ore_dict": "oreDawnium",
+    "type": "additions:block_simple"
+  },
+  "name": "陨灵金矿石",
+  "material": "minecraft:stone",
+  "hardness": 45.0,
+  "resistance": 4000.0,
+  "harvest_level": 9,
+  "harvest_tool": "pickaxe",
+  "light_level": 5,
+  "type": "additions:simple"
+}

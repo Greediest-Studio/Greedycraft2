@@ -1,0 +1,45 @@
+{
+	title: "§b力量三变力量四！",
+	x: -18.5d,
+	y: -12.0d,
+	description: "制作流体精炼机",
+	text: [
+		""
+	],
+	dependencies: [
+		"56ae2c57"
+	],
+	tasks: [{
+		uid: "56616af5",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 7s,
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					1b,
+					2b,
+					3b,
+					3b,
+					3b,
+					3b
+				],
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e9daed02",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "94e3da3f",
+		type: "xp",
+		xp: 450
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "§b大量的财力",
+	x: 8.0d,
+	y: -3.0d,
+	description: "使用盖亚凝聚板制作盖亚钢",
+	text: [
+		""
+	],
+	dependencies: [
+		"0989a9a4"
+	],
+	tasks: [{
+		uid: "4f45c039",
+		type: "item",
+		items: [{
+			item: "botanicadds:gaiasteel_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "2bfdd3da",
+		type: "item",
+		item: "botanicadds:gaiasteel_ingot",
+		count: 2
+	},
+	{
+		uid: "6a0345cf",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "fefeccd2",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "cc8e3dbf",
+		type: "xp",
+		xp: 1500
+	}]
+}

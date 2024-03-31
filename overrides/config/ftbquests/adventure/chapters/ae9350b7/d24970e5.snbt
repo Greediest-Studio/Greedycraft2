@@ -1,0 +1,26 @@
+{
+	title: "§b都什么年代了，还在用一倍机器？",
+	x: 9.0d,
+	y: 21.0d,
+	description: "合成并行控制器",
+	text: [
+		"注：只有四倍速控制器可以替换普通模块化外壳！并行数更高的控制器只能在少部分机器的强化框架上使用"
+	],
+	tasks: [{
+		uid: "dd8a1131",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockparallelcontroller"
+		}]
+	}],
+	rewards: [{
+		uid: "f5f8176a",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "3d8671ba",
+		type: "xp",
+		xp: 1500
+	}]
+}
