@@ -1,6 +1,7 @@
 {
-	x: 6.0d,
-	y: 8.5d,
+	x: 5.5d,
+	y: 8.0d,
+	description: "制作一个匠艺蓝图",
 	dependencies: [
 		"b5ab2c55"
 	],
@@ -10,5 +11,15 @@
 		items: [{
 			item: "additions:greedycraft-blueprint_tinkering"
 		}]
+	}],
+	rewards: [{
+		uid: "5c7f1aa2",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "a4dc995a",
+		type: "xp",
+		xp: 5000
 	}]
 }

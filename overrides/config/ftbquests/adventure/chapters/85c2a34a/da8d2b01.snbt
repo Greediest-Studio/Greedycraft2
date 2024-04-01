@@ -1,6 +1,7 @@
 {
-	x: 7.0d,
-	y: 5.5d,
+	x: 5.5d,
+	y: 6.0d,
+	description: "制作一个法杖蓝图",
 	dependencies: [
 		"b5ab2c55"
 	],
@@ -10,5 +11,15 @@
 		items: [{
 			item: "additions:greedycraft-blueprint_wand"
 		}]
+	}],
+	rewards: [{
+		uid: "9632e97d",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "46d60f56",
+		type: "xp",
+		xp: 5000
 	}]
 }

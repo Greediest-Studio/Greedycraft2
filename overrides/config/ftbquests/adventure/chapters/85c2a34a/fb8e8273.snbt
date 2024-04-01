@@ -1,6 +1,7 @@
 {
-	x: 4.5d,
+	x: 5.5d,
 	y: 4.0d,
+	description: "制作一个镭射枪蓝图",
 	dependencies: [
 		"b5ab2c55"
 	],
@@ -10,5 +11,15 @@
 		items: [{
 			item: "additions:greedycraft-blueprint_laser_gun"
 		}]
+	}],
+	rewards: [{
+		uid: "9f2e792b",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "c363a7af",
+		type: "xp",
+		xp: 5000
 	}]
 }

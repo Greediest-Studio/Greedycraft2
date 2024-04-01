@@ -1,6 +1,7 @@
 {
 	x: -11.5d,
 	y: -4.0d,
+	description: "制作一个电动泵",
 	dependencies: [
 		"b85fdb21"
 	],
@@ -11,5 +12,15 @@
 			item: "mekanism:machineblock 1 12"
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "da68cf0e",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "e408deb3",
+		type: "xp",
+		xp: 500
 	}]
 }

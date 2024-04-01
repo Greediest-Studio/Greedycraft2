@@ -1,6 +1,7 @@
 {
 	x: -18.5d,
 	y: -4.0d,
+	description: "制作压缩机",
 	dependencies: [
 		"2c6906dc"
 	],
@@ -17,5 +18,15 @@
 				}]
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "78b7c8c2",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "adc23dd1",
+		type: "xp",
+		xp: 500
 	}]
 }

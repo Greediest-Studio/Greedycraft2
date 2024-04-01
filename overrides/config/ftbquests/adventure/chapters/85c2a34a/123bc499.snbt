@@ -1,6 +1,7 @@
 {
-	x: 7.0d,
-	y: 7.5d,
+	x: 5.5d,
+	y: 7.0d,
+	description: "制作一个饰品蓝图",
 	dependencies: [
 		"b5ab2c55"
 	],
@@ -10,5 +11,15 @@
 		items: [{
 			item: "additions:greedycraft-blueprint_ring"
 		}]
+	}],
+	rewards: [{
+		uid: "1e3fbace",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "47f3ebdc",
+		type: "xp",
+		xp: 5000
 	}]
 }

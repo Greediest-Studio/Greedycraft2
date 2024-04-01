@@ -1,6 +1,8 @@
 {
+	title: "§b五彩斑斓的升级组件",
 	x: 3.0d,
 	y: 8.0d,
+	description: "制作任意一个升级组件",
 	dependencies: [
 		"518ac07a"
 	],
@@ -19,5 +21,15 @@
 		{
 			item: "tinkertoolcasts:upgrade_ultimate"
 		}]
+	}],
+	rewards: [{
+		uid: "d0983f29",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "ccbba7d6",
+		type: "xp",
+		xp: 5000
 	}]
 }

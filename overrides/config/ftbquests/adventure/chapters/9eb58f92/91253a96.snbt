@@ -1,6 +1,7 @@
 {
 	x: -20.5d,
 	y: -5.0d,
+	description: "制作离心机",
 	dependencies: [
 		"2c6906dc"
 	],
@@ -10,5 +11,15 @@
 		items: [{
 			item: "nuclearcraft:centrifuge"
 		}]
+	}],
+	rewards: [{
+		uid: "d8988694",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "9a79e509",
+		type: "xp",
+		xp: 500
 	}]
 }

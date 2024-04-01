@@ -1,6 +1,7 @@
 {
 	x: -11.5d,
 	y: 4.0d,
+	description: "制作涡轮叶片",
 	dependencies: [
 		"c44423d9"
 	],
@@ -10,5 +11,15 @@
 		items: [{
 			item: "mekanismgenerators:turbineblade"
 		}]
+	}],
+	rewards: [{
+		uid: "c142c16f",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "0e066969",
+		type: "xp",
+		xp: 500
 	}]
 }

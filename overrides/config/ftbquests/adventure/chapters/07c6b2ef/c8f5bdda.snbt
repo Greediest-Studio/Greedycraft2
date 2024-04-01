@@ -15,5 +15,15 @@
 		items: [{
 			item: "thermalexpansion:augment 1 688"
 		}]
+	}],
+	rewards: [{
+		uid: "1181db1b",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "051f9992",
+		type: "xp",
+		xp: 1000
 	}]
 }

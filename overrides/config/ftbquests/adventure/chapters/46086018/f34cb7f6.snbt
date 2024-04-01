@@ -15,5 +15,15 @@
 		items: [{
 			item: "additions:greedycraft-sun_crystal"
 		}]
+	}],
+	rewards: [{
+		uid: "1ca008da",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "cbc77373",
+		type: "xp",
+		xp: 1000
 	}]
 }

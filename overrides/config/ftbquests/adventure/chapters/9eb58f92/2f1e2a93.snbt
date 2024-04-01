@@ -1,6 +1,7 @@
 {
 	x: -20.5d,
 	y: 1.0d,
+	description: "制作结晶机",
 	dependencies: [
 		"2c6906dc"
 	],
@@ -10,5 +11,15 @@
 		items: [{
 			item: "nuclearcraft:crystallizer"
 		}]
+	}],
+	rewards: [{
+		uid: "ca427a0d",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "e90dd5df",
+		type: "xp",
+		xp: 500
 	}]
 }

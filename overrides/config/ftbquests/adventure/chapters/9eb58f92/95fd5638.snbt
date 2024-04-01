@@ -1,6 +1,8 @@
 {
+	title: "§b这是涡轮增鸭吗？",
 	x: -11.5d,
 	y: 0.0d,
+	description: "制作涡轮外壳",
 	dependencies: [
 		"b85fdb21"
 	],
@@ -10,5 +12,22 @@
 		items: [{
 			item: "mekanismgenerators:generator 1 10"
 		}]
+	}],
+	rewards: [{
+		uid: "29d0cc5e",
+		type: "item",
+		item: "mekanismgenerators:generator 1 10",
+		count: 8,
+		random_bonus: 8
+	},
+	{
+		uid: "6deed5bd",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "02580148",
+		type: "xp",
+		xp: 500
 	}]
 }

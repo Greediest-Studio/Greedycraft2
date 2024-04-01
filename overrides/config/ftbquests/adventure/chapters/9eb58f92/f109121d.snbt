@@ -1,6 +1,7 @@
 {
 	x: -25.0d,
 	y: 0.0d,
+	description: "制作原子振荡机",
 	dependencies: [
 		"ef65449f"
 	],
@@ -10,5 +11,15 @@
 		items: [{
 			item: "gct_mac:atomic_viberator"
 		}]
+	}],
+	rewards: [{
+		uid: "9ea663c7",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "b56b564f",
+		type: "xp",
+		xp: 1000
 	}]
 }

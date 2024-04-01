@@ -1,6 +1,7 @@
 {
-	x: 6.0d,
-	y: 4.5d,
+	x: 5.5d,
+	y: 5.0d,
+	description: "制作一个战术蓝图",
 	dependencies: [
 		"b5ab2c55"
 	],
@@ -10,5 +11,15 @@
 		items: [{
 			item: "additions:greedycraft-blueprint_tactic"
 		}]
+	}],
+	rewards: [{
+		uid: "9e6c0470",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "a6586f4c",
+		type: "xp",
+		xp: 5000
 	}]
 }

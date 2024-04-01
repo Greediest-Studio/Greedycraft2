@@ -1,6 +1,7 @@
 {
 	x: -29.0d,
 	y: -2.0d,
+	description: "制作一个科幻之镜",
 	dependencies: [
 		"1db8c19b"
 	],
@@ -13,5 +14,15 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1654888b",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "8539e7aa",
+		type: "xp",
+		xp: 10000
 	}]
 }

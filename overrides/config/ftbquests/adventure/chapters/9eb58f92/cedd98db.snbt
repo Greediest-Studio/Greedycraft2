@@ -1,6 +1,7 @@
 {
 	x: -22.5d,
 	y: -4.0d,
+	description: "制作电解机",
 	dependencies: [
 		"2c6906dc"
 	],
@@ -10,5 +11,15 @@
 		items: [{
 			item: "nuclearcraft:electrolyzer"
 		}]
+	}],
+	rewards: [{
+		uid: "280d9da1",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "d305505f",
+		type: "xp",
+		xp: 500
 	}]
 }

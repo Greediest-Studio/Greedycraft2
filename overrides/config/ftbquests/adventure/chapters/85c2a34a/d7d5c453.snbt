@@ -1,6 +1,7 @@
 {
-	x: 4.5d,
+	x: 5.5d,
 	y: 9.0d,
+	description: "制作一个回旋镖蓝图",
 	dependencies: [
 		"b5ab2c55"
 	],
@@ -10,5 +11,15 @@
 		items: [{
 			item: "additions:greedycraft-blueprint_shuriken"
 		}]
+	}],
+	rewards: [{
+		uid: "0f513e6a",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "00e7435c",
+		type: "xp",
+		xp: 5000
 	}]
 }

@@ -16,5 +16,15 @@
 		items: [{
 			item: "abyssalcraft:dreadkey"
 		}]
+	}],
+	rewards: [{
+		uid: "62dd6aad",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "d85ff9c0",
+		type: "xp",
+		xp: 2000
 	}]
 }

@@ -15,5 +15,17 @@
 		items: [{
 			item: "enderio:item_material 1 51"
 		}]
+	}],
+	rewards: [{
+		uid: "58781d05",
+		type: "item",
+		item: "enderio:item_material 1 51",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		uid: "6a72f0bd",
+		type: "xp",
+		xp: 2000
 	}]
 }

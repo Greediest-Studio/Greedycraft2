@@ -1,6 +1,8 @@
 {
+	title: "§b怎么又是机器框架",
 	x: -20.5d,
 	y: -2.0d,
+	description: "制作机器框架",
 	dependencies: [
 		"43ed32c2"
 	],
@@ -11,5 +13,22 @@
 		items: [{
 			item: "nuclearcraft:part 1 10"
 		}]
+	}],
+	rewards: [{
+		uid: "1130992a",
+		type: "item",
+		item: "nuclearcraft:part 1 10",
+		count: 2,
+		random_bonus: 6
+	},
+	{
+		uid: "885038c2",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "327dc894",
+		type: "xp",
+		xp: 300
 	}]
 }

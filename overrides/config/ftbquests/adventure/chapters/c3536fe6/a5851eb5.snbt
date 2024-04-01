@@ -15,5 +15,15 @@
 		items: [{
 			item: "journey:gorbitegem"
 		}]
+	}],
+	rewards: [{
+		uid: "7c212b25",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "8218f315",
+		type: "xp",
+		xp: 2000
 	}]
 }

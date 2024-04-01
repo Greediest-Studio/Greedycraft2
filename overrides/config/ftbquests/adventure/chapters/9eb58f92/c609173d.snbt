@@ -1,6 +1,7 @@
 {
 	x: -27.0d,
 	y: 0.0d,
+	description: "制作原子衰变机",
 	dependencies: [
 		"f109121d"
 	],
@@ -10,5 +11,15 @@
 		items: [{
 			item: "gct_mac:atomic_decayer"
 		}]
+	}],
+	rewards: [{
+		uid: "2366ad6c",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "97094f88",
+		type: "xp",
+		xp: 1000
 	}]
 }

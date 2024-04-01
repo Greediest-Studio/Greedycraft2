@@ -15,5 +15,15 @@
 		items: [{
 			item: "enderio:item_capacitor_totemic"
 		}]
+	}],
+	rewards: [{
+		uid: "e0b213af",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "0174e23f",
+		type: "random",
+		table: 1
 	}]
 }

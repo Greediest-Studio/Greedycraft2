@@ -15,5 +15,15 @@
 		items: [{
 			item: "enderio:block_slice_and_splice"
 		}]
+	}],
+	rewards: [{
+		uid: "0d1c6c40",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "b90c2f63",
+		type: "random",
+		table: 1
 	}]
 }
