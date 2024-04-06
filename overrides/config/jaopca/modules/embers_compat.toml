@@ -1,0 +1,19 @@
+
+[general]
+	#The material blacklist of this module.
+	materialBlacklist = []
+
+[recipes]
+	#Should the module only add recipes for materials with JAOPCA molten fluids.
+	jaopcaOnly = false
+	#The materials that should not have material melting recipes added.
+	materialToMoltenMaterialBlacklist = []
+	#The materials that should not have nugget melting recipes added.
+	nuggetToMoltenMaterialBlacklist = []
+	#The materials that should not have plate melting recipes added.
+	plateToMoltenMaterialBlacklist = []
+	#The materials that should not have material stamping recipes added.
+	toMaterialMaterialBlacklist = []
+	#The materials that should not have plate stamping recipes added.
+	toPlateMaterialBlacklist = []
+

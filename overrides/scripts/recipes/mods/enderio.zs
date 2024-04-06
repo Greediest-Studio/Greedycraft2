@@ -109,5 +109,4 @@ AlloySmelter.addRecipe(<additions:greedycraft-blueprint_ring>, [<ore:ingotValkyr
 AlloySmelter.addRecipe(<additions:greedycraft-ascensionite_ingot> * 2, [<ore:ingotLimonite> * 4, <ore:ingotRosite> * 2, <ore:ingotEmberstone> * 1], 4000, 10.0f);
 
 SagMill.removeRecipe(<minecraft:coal>);
-SagMill.removeRecipe(<actuallyadditions:block_misc:2>);
 SagMill.addRecipe([<actuallyadditions:item_dust:7> * 4], [100 as float], <ore:blockQuartzBlack> as IIngredient, "CHANCE_ONLY", 400, [100 as float]);

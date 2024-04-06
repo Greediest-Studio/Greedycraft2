@@ -108,7 +108,7 @@ ChemicalReactor.addRecipe(<liquid:strontium_sulfide_solution> * 333, <liquid:hyd
 ChemicalReactor.addRecipe(<liquid:barium_sulfide_solution> * 333, <liquid:hydrochloric_acid> * 1000, <liquid:barium_chloride_solution> * 333, <liquid:hydrogen_sulfide> * 500);
 ChemicalReactor.addRecipe(<liquid:hydrogen_sulfide> * 250, <liquid:oxygen> * 375, <liquid:water> * 250, <liquid:sulfur_dioxide> * 250);
 
-Crystallizer.addRecipe(<liquid:iodine_carbon_tetrachloride_solution> * 200, <jaopca:item_dustiodine>);
+Crystallizer.addRecipe(<liquid:iodine_carbon_tetrachloride_solution> * 200, <jaopca:dust.iodine>);
 Crystallizer.addRecipe(<liquid:chloroplatinic_acid_solution> * 666, <additions:mekaddon-chloroplatinic_acid>);
 Crystallizer.addRecipe(<liquid:sodium_chloroplatinate_solution> * 666, <additions:mekaddon-sodium_chloroplatinate>);
 Crystallizer.addRecipe(<liquid:calcium_hydroxide_solution> * 666, <additions:mekaddon-calcium_hydroxide>);

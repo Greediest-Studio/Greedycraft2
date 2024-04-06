@@ -22,9 +22,9 @@ for item in <ore:string>.items {
 TartaricForge.removeRecipe([<bloodmagic:soul_gem>, <tconevo:material>]);
 TartaricForge.addRecipe(<tconevo:metal:30>, [<bloodmagic:soul_gem>, <additions:stainless_steel_ingot>], 2.0, 2.0);
 TartaricForge.addRecipe(<additions:bloody-darkest_ingot> * 2, [<additions:bloody-darkest_core>, <evilcraft:promise:2>, <tconevo:metal:25>, <tconevo:metal:25>], 6400.0, 1600.0);
-TartaricForge.addRecipe(<additions:bloody-reagent_ghost>, [<jaopca:item_dustwigthium>, <jaopca:item_dustdarkest>, <tconevo:metal:32>, <minecraft:gunpowder>], 4000.0, 1000.0);
+TartaricForge.addRecipe(<additions:bloody-reagent_ghost>, [<jaopca:dust.wigthium>, <jaopca:dust.darkest>, <tconevo:metal:32>, <minecraft:gunpowder>], 4000.0, 1000.0);
 TartaricForge.addRecipe(<additions:bloody-balanced_slate> * 2, [<additions:bloody-slate_7>, <gct_ores:balanced_matrix_ingot>], 7200.0, 1800.0);
-TartaricForge.addRecipe(<additions:bloody-reagent_godness>, [<jaopca:item_dustcosmilite>, <jaopca:item_dustscientificite>, <jaopca:item_dusteugardite>, <gct_ores:everite_ingot>], 6400.0, 1600.0);
+TartaricForge.addRecipe(<additions:bloody-reagent_godness>, [<jaopca:dust.cosmilite>, <jaopca:dust.scientificite>, <jaopca:dust.eugardite>, <gct_ores:everite_ingot>], 6400.0, 1600.0);
 
 BloodAltar.removeRecipe(<minecraft:redstone_block>);
 BloodAltar.removeRecipe(<minecraft:diamond>);

@@ -33,5 +33,3 @@ CompressionCrafting.addRecipe(<avaritia:singularity:12>, <redstonearsenal:storag
 CompressionCrafting.addRecipe(<avaritia:singularity:13>, <thermalfoundation:storage:6>, 400, gj, 100000000, 500000);
 CompressionCrafting.addRecipe(<avaritia:singularity:14>, <thermalfoundation:storage:7>, 400, gj, 100000000, 500000);
 
-//JAOPCA提供奇点：
-

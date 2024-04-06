@@ -24,19 +24,19 @@ var atacct = atac as ControllerDefinition;
 for EntryItem in Entries {
     if (EntryItem.oreName != JAOPCA.getOre("CosmicNeutronium").oreName) {
         if (EntryItem.oreName == JAOPCA.getOre("Gold").oreName) {
-            dissolution.addRecipe(<jaopca:item_compoundgold>, <gas:gold> * 200);
+            dissolution.addRecipe(<jaopca:compound.gold>, <gas:gold> * 200);
         } else if (EntryItem.oreName == JAOPCA.getOre("Iron").oreName) {
-            dissolution.addRecipe(<jaopca:item_compoundiron>, <gas:iron> * 200);
+            dissolution.addRecipe(<jaopca:compound.iron>, <gas:iron> * 200);
         } else if (EntryItem.oreName == JAOPCA.getOre("Copper").oreName) {
-            dissolution.addRecipe(<jaopca:item_compoundcopper>, <gas:copper> * 200);
+            dissolution.addRecipe(<jaopca:compound.copper>, <gas:copper> * 200);
         } else if (EntryItem.oreName == JAOPCA.getOre("Silver").oreName) {
-            dissolution.addRecipe(<jaopca:item_compoundsilver>, <gas:silver> * 200);
+            dissolution.addRecipe(<jaopca:compound.silver>, <gas:silver> * 200);
         } else if (EntryItem.oreName == JAOPCA.getOre("Osmium").oreName) {
-            dissolution.addRecipe(<jaopca:item_compoundosmium>, <gas:osmium> * 200);
+            dissolution.addRecipe(<jaopca:compound.osmium>, <gas:osmium> * 200);
         } else if (EntryItem.oreName == JAOPCA.getOre("Tin").oreName) {
-            dissolution.addRecipe(<jaopca:item_compoundtin>, <gas:tin> * 200);
+            dissolution.addRecipe(<jaopca:compound.tin>, <gas:tin> * 200);
         } else if (EntryItem.oreName == JAOPCA.getOre("Lead").oreName) {
-            dissolution.addRecipe(<jaopca:item_compoundlead>, <gas:lead> * 200);
+            dissolution.addRecipe(<jaopca:compound.lead>, <gas:lead> * 200);
         } else {
             dissolution.addRecipe(EntryItem.getItemStack("compound"), mods.mekanism.MekanismHelper.getGas("slurry" + EntryItem.oreName) * 200);
         }

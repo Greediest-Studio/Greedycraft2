@@ -9,8 +9,6 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
-import mods.jaopca.JAOPCA;
-
 import scripts.util.recipes as RecipeUtil;
 
 val removedRecipes as IIngredient[] = [
@@ -524,10 +522,6 @@ val removedRecipeNames as string[] = [
     "thebetweenlands:amate_map_aqua",
     "thebetweenlands:amate_map_crimson"
 ];
-
-for itemOredict in JAOPCA.getOresForType("INGOT") {
-    RecipeUtil.remove(itemOredict.getOreDictEntry("crystalCluster"));
-}
 
 for ingredient in removedRecipes {
     RecipeUtil.remove(ingredient);
