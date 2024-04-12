@@ -13,7 +13,7 @@ import mods.multiblocked.definition.ControllerDefinition;
 import mods.multiblocked.definition.ComponentDefinition;
 import mods.multiblocked.recipe.RecipeMap;
 
-var Entries = JAOPCA.getOresForType("INGOT");
+var Entries = JAOPCA.getMaterialsForType("INGOT");
 var atvi as ComponentDefinition = MBDRegistry.getDefinition("gct_mac:atomic_viberator");
 var atvict = atvi as ControllerDefinition;
 var atdc as ComponentDefinition = MBDRegistry.getDefinition("gct_mac:atomic_decayer");
@@ -22,23 +22,23 @@ var atac as ComponentDefinition = MBDRegistry.getDefinition("gct_mac:atomic_acid
 var atacct = atac as ControllerDefinition;
 
 for EntryItem in Entries {
-    if (EntryItem.oreName != JAOPCA.getOre("CosmicNeutronium").oreName) {
-        if (EntryItem.oreName == JAOPCA.getOre("Gold").oreName) {
+    if (EntryItem.name != JAOPCA.getMaterial("CosmicNeutronium").name) {
+        if (EntryItem.name == JAOPCA.getMaterial("Gold").name) {
             dissolution.addRecipe(<jaopca:compound.gold>, <gas:gold> * 200);
-        } else if (EntryItem.oreName == JAOPCA.getOre("Iron").oreName) {
+        } else if (EntryItem.name == JAOPCA.getMaterial("Iron").name) {
             dissolution.addRecipe(<jaopca:compound.iron>, <gas:iron> * 200);
-        } else if (EntryItem.oreName == JAOPCA.getOre("Copper").oreName) {
+        } else if (EntryItem.name == JAOPCA.getMaterial("Copper").name) {
             dissolution.addRecipe(<jaopca:compound.copper>, <gas:copper> * 200);
-        } else if (EntryItem.oreName == JAOPCA.getOre("Silver").oreName) {
+        } else if (EntryItem.name == JAOPCA.getMaterial("Silver").name) {
             dissolution.addRecipe(<jaopca:compound.silver>, <gas:silver> * 200);
-        } else if (EntryItem.oreName == JAOPCA.getOre("Osmium").oreName) {
+        } else if (EntryItem.name == JAOPCA.getMaterial("Osmium").name) {
             dissolution.addRecipe(<jaopca:compound.osmium>, <gas:osmium> * 200);
-        } else if (EntryItem.oreName == JAOPCA.getOre("Tin").oreName) {
+        } else if (EntryItem.name == JAOPCA.getMaterial("Tin").name) {
             dissolution.addRecipe(<jaopca:compound.tin>, <gas:tin> * 200);
-        } else if (EntryItem.oreName == JAOPCA.getOre("Lead").oreName) {
+        } else if (EntryItem.name == JAOPCA.getMaterial("Lead").name) {
             dissolution.addRecipe(<jaopca:compound.lead>, <gas:lead> * 200);
         } else {
-            dissolution.addRecipe(EntryItem.getItemStack("compound"), mods.mekanism.MekanismHelper.getGas("slurry" + EntryItem.oreName) * 200);
+            dissolution.addRecipe(EntryItem.getItemStack("compound"), mods.mekanism.MekanismHelper.getGas("slurry_" + EntryItem.name) * 200);
         }
         atvict.recipeMap.start()
             .duration(40)

@@ -18,9 +18,6 @@ val VOLUME_BLOCK = 1296;
 val VOLUME_INGOT = 144;
 val VOLUME_NUGGET = 16;
 
-//Alloy.removeRecipe(<liquid:mirion> * 72, [<liquid:terrasteel> * 18, <liquid:manasteel> * 18, <liquid:elementium> * 18, <liquid:cobalt> * 18, <liquid:glass> * 125]);
-//Alloy.removeRecipe(<liquid:mirion>);
-
 Alloy.removeRecipe(<liquid:yrdeen_fluid>);
 Alloy.removeRecipe(<liquid:decurrium>);
 Alloy.removeRecipe(<liquid:liquidrotiron>);
@@ -45,7 +42,6 @@ Alloy.addRecipe(<liquid:scorched> * VOLUME_INGOT, [<liquid:lava> * VOLUME_INGOT,
 Alloy.addRecipe(<liquid:stainless_steel> * (VOLUME_INGOT * 4), [<liquid:manganese_steel> * (VOLUME_INGOT * 4), <liquid:nickel> * VOLUME_INGOT, <liquid:chromium> * VOLUME_INGOT]);
 Alloy.addRecipe(<liquid:manganese_steel> * (VOLUME_INGOT * 2), [<liquid:steel> * (VOLUME_INGOT * 2), <liquid:manganese> * VOLUME_INGOT]);
 Alloy.addRecipe(<liquid:terra_alloy> * 2, [<liquid:cytosinite> * 1, <liquid:cryonium> * 1, <liquid:infernium> * 1, <liquid:titanium> * 1]);
-//Alloy.addRecipe(<liquid:mirion> * 72, [<liquid:terrasteel> * 18, <liquid:manasteel> * 18, <liquid:elementium> * 18, <liquid:gaia> * 18]);
 Alloy.addRecipe(<liquid:gelid_enderium> * 144, [<liquid:enderium> * 144, <liquid:cryotheum> * 1000]);
 Alloy.addRecipe(<liquid:reditrite> * 4, [<liquid:obsidiorite_fluid> * 9, <liquid:osram_fluid> * 2]);
 Alloy.addRecipe(<liquid:densite> * 1, [<liquid:osram_fluid> * 1, <liquid:seismum_fluid> * 1]); 
@@ -106,18 +102,18 @@ Alloy.addRecipe(<liquid:shallowbreath> * 100, [<liquid:betweensludge> * 10, <liq
 Alloy.addRecipe(<liquid:zirconium_molybdenum> * 2, [<liquid:zirconium> * 1, <liquid:molybdenum> * 1]);
 Alloy.addRecipe(<liquid:enderite> * 144, [<liquid:iridium> * 576, <liquid:resonant_debris> * 576]);
 Alloy.addRecipe(<liquid:aetherite> * 144, [<liquid:asgardium> * 576, <liquid:gravity_debris> * 576]);
-Alloy.addRecipe(<liquid:zircaloy> * 2, [<liquid:zirconium> * 2, <liquid:tin>]);
 Alloy.addRecipe(<liquid:liquidirradium> * 2, [<liquid:iridium> * 1, <liquid:radium> * 1]);
 Alloy.addRecipe(<liquid:ascensionite> * 2, [<liquid:limonite> * 4, <liquid:rosite> * 2, <liquid:emberstone> * 1]);
-Alloy.addRecipe(<liquid:pruified> * 144, [<liquid:pruified_liquid> * 13, <liquid:betwnite> * 144, <liquid:xu_demonic_metal> * 144, <liquid:mithrillium> * 144]);
 
 Casting.removeBasinRecipe(<tcomplement:scorched_block:10>);
 Casting.removeBasinRecipe(<tcomplement:scorched_block:1>);
 Casting.removeBasinRecipe(<tcomplement:scorched_block>);
 Casting.removeBasinRecipe(<tiths:block_titanium>);
+Casting.removeBasinRecipe(<moretcon:itemtrichromadentiumsponge:0>);
 Casting.removeBasinRecipe(<moretcon:itemtrichromadentiumsponge:1>);
 Casting.removeBasinRecipe(<moretcon:itemtrichromadentiumsponge:2>);
 Casting.removeBasinRecipe(<moretcon:itemtrichromadentiumsponge:3>);
+Casting.removeBasinRecipe(<moretcon:itemtrichromadentiumsponge:4>);
 Casting.removeBasinRecipe(<journey:hellstoneblock>);
 
 Casting.removeTableRecipe(<tcomplement:materials:1>);

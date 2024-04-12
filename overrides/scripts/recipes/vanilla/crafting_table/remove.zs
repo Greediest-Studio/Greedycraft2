@@ -477,7 +477,6 @@ val removedRecipes as IIngredient[] = [
     <mekanism:machineblock:8>,
     <naturalpledge:spell_focus>,
     <enderio:item_material:66>,
-    <moretcon:itemtrichromadentiumsponge:1>
 ];
 
 val removedRecipeNames as string[] = [

@@ -3,6 +3,7 @@
  */
 
 #priority 50
+#ikwid
 
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
