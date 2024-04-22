@@ -276,3 +276,46 @@ mod移除
 3.修复了奖励箱的未知物品
 4.修复了一些任务奖励的未知物品
 5.补齐了休闲三-工匠之心，科技三-核能机械，还有一些零散任务的任务描述和任务奖励
+
+新mod：
+cfm-legacy-1.12.2-6.4.1代替了furniture-6.3.2-1.12.2，大量的bug修复和新功能
+xnet-1.12-1.8.3-ynet修复了崩溃bug并提供了正确的碰撞箱
+timeinabottled-2.0让模块化也能被正确加速
+thaumictinkerer_funnel-1.12.2-0.1提供了神秘工匠的自动化兼容
+rockytweaks-1.12.2-0.6.1提供了村民交易和铁砧配方的修改
+Reskillable-1.12.2-1.13.1，CompatSkills-1.12.2-1.17.1 bug修复和新的兼容
+Patchouli-1.0-26打开书以后会暂停游戏
+Nyx-1.6.1优化了陨星掉落的逻辑
+homoium-1.0.4，生物ai，矿车碰撞，数字运算的优化
+BTFixes-1.12.2-1.2.2自定义高塔，修改战利品，高塔傀儡不会消失，更快的加载
+BedBugs-1.12-1.0.1修复卡床
+Baubles-1.12-pre2.0-2-bubbles提供类似于高版本的饰品栏体验
+antighost-1.12-forge14.21.1.2387-1.1.1修复卡幽灵方块的问题
+!mod-director-launchwrapper-1.8.2-all提供外置资源的下载
+
+mod更新：
+!configanytime 2.0 → 3.0
+Alfheim 1.3 → 1.4-Dev-1
+BetterHurtTimer 1.12.2-1.5.0.5 → 1.12.2-1.5.0.6
+censoredasm 5.19 → 5.20
+EnderCore-1.12.2-0.5.76 → 1.12.2-0.5.78
+Fluid Craft for AE2-2.5.8-r → 2.5.11-r
+ForgeEndertech-1.12.2-4.5.5.0-build.0561 → 1.12.2-4.5.6.1-build.0648 
+HadEnoughItems_1.12.2-4.25.2 → 1.12.2-4.25.4
+IceAndFireRotN-1.9.1-1.3.2 → 1.9.1-1.3.3
+justenoughdimensions-1.12.2-1.6.0-dev.20200416.184714 → 1.12.2-1.6.0-dev.20211009.214847
+ModularMachinery-CE-2.0.0-pre2 → 2.0.0-pre3
+mowziesmobs-1.5.8 → 1.12.2_1.5.8
+OpenComputers-MC1.12.2-1.8.3+274990f → 1.12.2-1.8.4+99b9e3e
+particleculling-1.12.2-v1.4.1 → 1.12.2-v1.4.2
+RandomTweaker-1.4.4 → 1.4.5
+roughmobsrevamped-1.12.2-2.3.21 → 1.12.2-2.3.23
+VillageNames-1.12.2-4.3.0 → 1.12.2-4.4.8
+XaeroPlus-Forge-1.12.2-158-WM1.38.1-MM24.0.1 → 1.12.2-160-WM1.38.4-MM24.1.1
+Xaeros_Minimap_24.0.1_Forge_1.12 → 24.1.1_Forge_1.12
+XaerosWorldMap_1.38.1_Forge_1.12 → 1.38.4_Forge_1.12
+zenrecipereloading-1.2.2 → 1.3.1
+zenutils-1.17.1 → 1.17.2
+
+jaopca整体重写，适配非官方版的余烬三件套，修复了一些存在的小问题
+整体完全转为cf格式，大幅度压缩打包体积
