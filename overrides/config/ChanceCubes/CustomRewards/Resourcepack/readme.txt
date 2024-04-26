@@ -1,1 +1,0 @@
-This is the resource pack for loading in custom sounds to chance cubes. Feel free to ignore this file and folder.
