@@ -11,7 +11,8 @@
 		type: "item",
 		items: [{
 			item: "extrabotany:elvenking"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "d76e2d86",
