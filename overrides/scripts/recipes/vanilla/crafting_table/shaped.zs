@@ -771,7 +771,7 @@ RecipeUtil.addShaped("auto_gen_-138403773", <additions:greedycraft-cryonium_bloc
     [<ore:ingotCryonium>, <ore:ingotCryonium>, <ore:ingotCryonium>]
 ]);
 RecipeUtil.addShaped("auto_gen_100207823", <additions:greedycraft-beast_hand>, [
-    [<ore:ingotAeonsteel>, <ore:blockSnow>, <ore:ingotAeonsteel>],
+    [<ore:ingotAeonsteel>, <minecraft:snow>, <ore:ingotAeonsteel>],
     [<twilightforest:alpha_fur>, <ore:dustDraconium>, <twilightforest:alpha_fur>],
     [null, <twilightforest:alpha_fur>, null]
 ]);

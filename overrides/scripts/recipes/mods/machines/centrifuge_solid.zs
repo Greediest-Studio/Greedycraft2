@@ -380,7 +380,7 @@ RecipeBuilder.newBuilder(regName + "_grass", regName, speed, 0)
     .build();
     
 RecipeBuilder.newBuilder(regName + "_snow", regName, speed, 0)
-    .addItemInput(<ore:blockSnow>)
+    .addItemInput(<minecraft:snow>)
     .addEnergyPerTickInput(energy)
     .addFluidInput(<liquid:water> * 50)
     .addItemOutput(<minecraft:snowball>)
