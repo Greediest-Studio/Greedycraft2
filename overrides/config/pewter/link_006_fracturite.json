@@ -8,21 +8,6 @@
       "harvestLevel": 3
     }
   },
-  "armor": {
-    "core": {
-      "durability": 0,
-      "defense": 0,
-      "toughness": 0
-    },
-    "plates": {
-      "modifier": 0,
-      "durability": 0,
-      "toughness": 0
-    },
-    "trim": {
-      "extraDurability": 0
-    }
-  },
   "color": "#adc7ad",
   "craftable": false,
   "madeInToolForge": true,
@@ -41,10 +26,7 @@
   },
   "oreDictSuffixes": [],
   "matParts": [
-    "HEAD",
-    "CORE",
-    "PLATES",
-    "TRIM"
+    "HEAD"
   ],
   "nameLocales": {
     "en_us": "Fracturite",

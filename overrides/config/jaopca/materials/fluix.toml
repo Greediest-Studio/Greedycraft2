@@ -6,7 +6,7 @@
 	#The byproducts of this material.
 	extras = []
 	#Is the storage block of this material small (2x2).
-	isSmallStorageBlock = false
+	isSmallStorageBlock = true
 	#The module blacklist of this material.
 	moduleBlacklist = []
 	#Should items of this material have the enchanted glow.

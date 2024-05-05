@@ -1,6 +1,74 @@
 [
-    {"name": "compound","type": "item"},
-    {"name": "infused","type": "item"},
-    {"name": "pured","type": "item"},
-    {"name": "radiation","type": "item"}
+	{
+		"name": "radiation",
+		"type": "item",
+        "prefix": "radiation",
+		"ore_types": [
+			"ingot"
+		],
+		"properties": {
+			"rarity": "common",
+			"max_stack_size": 64
+		}
+	},
+    {
+		"name": "pured",
+		"type": "item",
+        "prefix": "pured",
+		"ore_types": [
+			"ingot"
+		],
+		"properties": {
+			"rarity": "common",
+			"max_stack_size": 64
+		}
+	},
+    {
+		"name": "compound",
+		"type": "item",
+        "prefix": "compound",
+		"ore_types": [
+			"ingot"
+		],
+		"properties": {
+			"rarity": "common",
+			"max_stack_size": 64
+		}
+	},
+    {
+		"name": "infused",
+		"type": "item",
+        "prefix": "infused",
+		"ore_types": [
+			"ingot"
+		],
+		"properties": {
+			"rarity": "common",
+			"max_stack_size": 64
+		}
+	},
+	{
+		"name": "brewed",
+		"type": "item",
+		"prefix": "brewed",
+		"ore_types": [
+			"ingot"
+		],
+		"properties": {
+			"rarity": "common",
+			"max_stack_size": 64
+		}
+	},
+	{
+		"name": "reduced",
+		"type": "item",
+		"prefix": "reduced",
+		"ore_types": [
+			"ingot"
+		],
+		"properties": {
+			"rarity": "common",
+			"max_stack_size": 64
+		}
+	}
 ]

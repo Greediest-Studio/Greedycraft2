@@ -4,15 +4,15 @@
     "head": {
       "attackDamage": 62.8,
       "speed": 19,
-      "durability": 200000,
+      "durability": 20000,
       "harvestLevel": 11
     },
     "handle": {
       "modifier": 2.8,
-      "durability": 100000
+      "durability": 7000
     },
     "extra": {
-        "durability": 100000
+        "durability": 7000
     },
     "bow": {
         "speed": 8,
@@ -78,16 +78,16 @@
   },
   "armor": {
     "core": {
-      "durability": 10000,
+      "durability": 400,
       "defense": 72
     },
     "plates": {
       "modifier": 25,
-      "durability": 4000,
+      "durability": 800,
       "toughness": 7
     },
     "trim": {
-      "extraDurability": 5000
+      "extraDurability": 500
     }
   },
   "specificTraits": {

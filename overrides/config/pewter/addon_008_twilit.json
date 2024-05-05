@@ -1,0 +1,127 @@
+{
+    "name": "twilit",
+    "tool": {
+      "bow": {
+        "speed": 0.95,
+        "range": 3.1,
+        "bonusDamage": 52
+      },
+      "head": {
+        "attackDamage": 80,
+        "speed": 24,
+        "durability": 6380,
+        "harvestLevel": 12
+      },
+      "handle": {
+        "modifier": 2.4,
+        "durability": 1120
+      },
+      "extra": {
+        "durability": 1680
+      }
+    },
+    "color": "#8560a4",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 3150,
+    "looks": {
+      "shininess": 0.3,
+      "brightness": 0.1,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "PROJECTILE",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Twilit",
+      "zh_cn": "暮晶"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "additions:greedycraft-twilit_ingot"
+      ],
+      "block": [
+      ],
+      "nugget": [
+      ],
+      "ore": [
+      ],
+      "dust": [
+      ],
+      "plate": [
+      ],
+      "gear": [
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "durability": 770,
+        "defense": 94
+      },
+      "plates": {
+        "modifier": 5.5,
+        "durability": 220,
+        "toughness": 10
+      },
+      "trim": {
+        "extraDurability": 220
+      }
+    },
+    "specificTraits": {
+      "HEAD": [
+        "twilit",
+        "synergy",
+        "crystal_force",
+        "killall"
+      ],
+      "EXTRA": [
+        "twilit",
+        "synergy",
+        "crystal_force"
+      ],
+      "HANDLE": [
+        "twilit",
+        "synergy",
+        "crystal_force"
+      ],
+      "CORE": [
+        "lucky_armor",
+        "synergy",
+        "crystal_force_armor"
+      ],
+      "PLATES": [
+        "lucky_armor",
+        "synergy",
+        "crystal_force_armor"
+      ],
+      "TRIM": [
+        "lucky_armor",
+        "synergy",
+        "crystal_force_armor"
+      ]
+    }
+  }

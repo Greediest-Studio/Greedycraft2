@@ -13,7 +13,7 @@
     "head": {
       "attackDamage": 210.5,
       "speed": 49,
-      "durability": 131072,
+      "durability": 25600,
       "harvestLevel": 13
     },
     "handle": {
@@ -28,7 +28,7 @@
       "modifier": 1.1
     },
     "extra": {
-      "durability": 8192
+      "durability": 5040
     }
   },
   "color": "#888888",
@@ -90,16 +90,16 @@
   },
   "armor": {
     "core": {
-      "durability": 25600,
+      "durability": 2560,
       "defense": 198
     },
     "plates": {
-      "modifier": 32,
-      "durability": 42949.67,
+      "modifier": 24,
+      "durability": 859,
       "toughness": 22
     },
     "trim": {
-      "extraDurability": 42949.67
+      "extraDurability": 859
     }
   },
   "specificTraits": {

@@ -178,7 +178,7 @@ helper.creator.editlayout.popup.layouts = 布局
 helper.creator.editlayout.popup.cancel = 取消
 helper.creator.editlayout.popup.actionscount = {} 个自定义操作
 helper.creator.editlayout.nolayouts.msg = §c§l未找到任何布局！%n%%n%%n%此菜单不包含任何布局！%n%%n%如果你想自定义这个菜单，请使用“创建布局”按钮！
-helper.creator.editlayout.popup.msg = 有复数个自定义文件是关于此菜单的！%n%%n%你想要加载全部布局并组合它们，%n%还是仅想加载指定的一个？%n%%n%§c自定义的元值会在组合数个布局时丢失！
+helper.creator.editlayout.popup.msg = 有多个自定义文件是关于此菜单的！%n%%n%你想要加载全部布局并组合它们，%n%还是仅想加载指定的一个？%n%%n%§c自定义的元值会在组合数个布局时丢失！
 
 helper.creator.editlayout.single.override = 重写已有布局
 helper.creator.editlayout.single.asnew.keep = 保存为新布局并保持其他布局启用
@@ -298,7 +298,7 @@ helper.creator.custombutton.config.actiontype.unpackzip.desc.value.example = con
 helper.creator.custombutton.config.actiontype.runscript.desc.value.example = coolscript
 
 helper.creator.rightclick.scale = GUI 尺寸
-helper.creator.rightclick.scale.invalid = §c§l无效的尺寸！%n%%n%%n%尺寸值需要大于 0！
+helper.creator.rightclick.scale.invalid = §c§l无效的尺寸！%n%%n%%n%尺寸值需要大于 0 ！
 
 helper.creator.custombutton.config.actiontype.mutebackgroundsounds.desc = 静音或取消静音 FancyMenu 添加的菜单的背景音效。
 helper.creator.custombutton.config.actiontype.mutebackgroundsounds.desc.value = 是/否
@@ -604,8 +604,8 @@ helper.ui.dynamicvariabletextfield.variables.playeruuid = 玩家 UUID
 helper.ui.dynamicvariabletextfield.variables.playeruuid.desc = 获取玩家 UUID。
 helper.ui.dynamicvariabletextfield.variables.mcversion = Minecraft 版本
 helper.ui.dynamicvariabletextfield.variables.mcversion.desc = 获取 Minecraft 版本。
-helper.ui.dynamicvariabletextfield.variables.forgeversion = Forge 版本
-helper.ui.dynamicvariabletextfield.variables.forgeversion.desc = 获取 Forge 版本。
+helper.ui.dynamicvariabletextfield.variables.forgeversion = Mod加载器 版本
+helper.ui.dynamicvariabletextfield.variables.forgeversion.desc = 获取 Mod加载器 版本。
 helper.ui.dynamicvariabletextfield.variables.modversion = 模组版本
 helper.ui.dynamicvariabletextfield.variables.modversion.desc = 通过 MODID 获取对应模组版本。%n%%n%将占位符中的 '<modid>' 替换成存在的 MODID 即可。
 helper.ui.dynamicvariabletextfield.variables.totalmods = 全部模组计数
@@ -735,3 +735,49 @@ fancymenu.helper.creator.backgroundoptions.backgroundanimation.set = 设置背�
 fancymenu.helper.creator.backgroundoptions.backgroundanimation.set.desc = 将选中的动画设置为启用的背景动画。
 fancymenu.helper.creator.backgroundoptions.backgroundanimation.clear = 清除
 fancymenu.helper.creator.backgroundoptions.backgroundanimation.clear.desc = 将选中的动画从启用的背景动画中移除。
+
+fancymenu.helper.editor.items.buttons.buttonbackground = 按钮背景
+fancymenu.helper.editor.items.buttons.buttonbackground.normalbackground = 按钮正常背景
+fancymenu.helper.editor.items.buttons.buttonbackground.hoverbackground = 按钮接触时背景
+fancymenu.helper.editor.items.buttons.buttonbackground.type.image = 图片
+fancymenu.helper.editor.items.buttons.buttonbackground.type.image.chooseimage = 选择图片
+fancymenu.helper.editor.items.buttons.buttonbackground.type.animation = 动画
+fancymenu.helper.editor.items.buttons.buttonbackground.type.animation.none = 无
+fancymenu.helper.editor.items.buttons.buttonbackground.loopanimation.on = 循环播放背景: §a开
+fancymenu.helper.editor.items.buttons.buttonbackground.loopanimation.off = 循环播放背景: §c关
+fancymenu.helper.editor.items.buttons.buttonbackground.loopanimation.btn.desc = 修改背景的循环设定。
+fancymenu.helper.editor.items.buttons.buttonbackground.restartonhover.on = 当鼠标越过时重新播放: §a开
+fancymenu.helper.editor.items.buttons.buttonbackground.restartonhover.off = 当鼠标越过时重新播放: §c关
+fancymenu.helper.editor.items.buttons.buttonbackground.restartonhover.btn.desc = 当鼠标越过后重新播放背景动画
+
+fancymenu.helper.editor.items.visibilityrequirements = 显示条件
+fancymenu.helper.editor.items.visibilityrequirements.btn.desc = 当符合条件时显示部件
+fancymenu.helper.editor.items.visibilityrequirements.enabled = {}: §a开启
+fancymenu.helper.editor.items.visibilityrequirements.disabled = {}: §c关闭
+fancymenu.helper.editor.items.visibilityrequirements.toggle.btn.desc = §o左键来启用条件
+fancymenu.helper.editor.items.visibilityrequirements.showif = 显示如果
+fancymenu.helper.editor.items.visibilityrequirements.showif.btn.desc = 显示如果符合条件
+fancymenu.helper.editor.items.visibilityrequirements.showifnot = 显示如果不是
+fancymenu.helper.editor.items.visibilityrequirements.showifnot.btn.desc = 显示如果不符合条件
+fancymenu.helper.editor.items.visibilityrequirements.requirement = 条件
+
+fancymenu.helper.editor.items.visibilityrequirements.singleplayer = 是否在单人游戏
+fancymenu.helper.editor.items.visibilityrequirements.singleplayer.desc = 检查是否在单人游戏
+
+fancymenu.helper.editor.items.visibilityrequirements.multiplayer = 是否在多人游戏
+fancymenu.helper.editor.items.visibilityrequirements.multiplayer.desc = 检查是否在多人游戏
+
+fancymenu.helper.editor.items.visibilityrequirements.worldloaded = 是否在游戏中
+fancymenu.helper.editor.items.visibilityrequirements.worldloaded.desc = 检查是否在游戏中%n%%n%该条件为真如果玩家r%n%在一个单人或多人世界中
+
+fancymenu.helper.editor.items.visibilityrequirements.realtimehour = 现在的时间的小时数是否为
+fancymenu.helper.editor.items.visibilityrequirements.realtimehour.desc = 检查现在的小时数是否为 X.%n%%n%你可以用逗号分隔多个数字,%n%用来一次检查多个%n%小时。
+fancymenu.helper.editor.items.visibilityrequirements.realtimehour.valuename = 真实时间小时 (用逗号分隔)
+
+fancymenu.helper.editor.items.visibilityrequirements.realtimeminute = 现在的时间的分钟数是否为
+fancymenu.helper.editor.items.visibilityrequirements.realtimeminute.desc = 检查现在的分钟数是否为 X.%n%%n%你可以用逗号分隔多个数字,%n%用来一次检查多个%n%分钟数
+fancymenu.helper.editor.items.visibilityrequirements.realtimeminute.valuename = 真实时间分钟数 (用逗号风格)
+
+fancymenu.helper.editor.items.visibilityrequirements.realtimesecond = 现在的时间的秒数是否为
+fancymenu.helper.editor.items.visibilityrequirements.realtimesecond.desc = 检查现在的秒数是否为 X.%n%%n%你可以用逗号分隔多个数字,%n%用来一次检查多个%n%秒数.
+fancymenu.helper.editor.items.visibilityrequirements.realtimesecond.valuename = 真实事件秒数 (用逗号分隔)

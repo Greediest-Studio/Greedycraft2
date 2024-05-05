@@ -78,16 +78,16 @@
   },
   "armor": {
     "core": {
-      "durability": 30000,
+      "durability": 3000,
       "defense": 66
     },
     "plates": {
       "modifier": 30,
-      "durability": 10000,
+      "durability": 1000,
       "toughness": 5
     },
     "trim": {
-      "extraDurability": 12000
+      "extraDurability": 1200
     }
   },
   "specificTraits": {

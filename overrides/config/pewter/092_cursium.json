@@ -4,15 +4,15 @@
       "head": {
         "attackDamage": 121.5,
         "speed": 32,
-        "durability": 36900,
+        "durability": 26900,
         "harvestLevel": 12
       },
       "handle": {
         "modifier": 3.5,
-        "durability": 21400
+        "durability": 11400
       },
       "extra": {
-        "durability": 20800
+        "durability": 10400
       },
       "bow": {
         "speed": 0.79,
@@ -94,8 +94,7 @@
       "HEAD": [
         "knowledgeful",
         "madness2",
-        "elementfriendly",
-        "killall"
+        "elementfriendly"
       ],
       "HANDLE": [
         "knowledgeful",
