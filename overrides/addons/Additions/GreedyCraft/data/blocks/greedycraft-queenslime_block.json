@@ -1,0 +1,21 @@
+{
+  "item_block": {
+    "name": "皇后史莱姆块",
+    "tooltip": "§7可以作为信标基座使用",
+    "ore_dict": "blockQueenslime",
+    "type": "additions:block_simple"
+  },
+  "name": "皇后史莱姆块",
+  "material": "minecraft:metal",
+  "place_sound": "minecraft:block.metal.place",
+  "break_sound": "chisel:metal_break",
+  "hit_sound": "chisel:metal_hit",
+  "step_sound": "chisel:metal_step",
+  "fall_sound": "minecraft:block.metal.fall",
+  "hardness": 6.0,
+  "resistance": 20.0,
+  "harvest_level": 4,
+  "harvest_tool": "pickaxe",
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}
