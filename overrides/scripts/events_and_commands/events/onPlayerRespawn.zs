@@ -29,7 +29,20 @@ val killEntities as string[] = [
     "mowziesmobs:barakoaya",
     "mowziesmobs:barakoana",
     "mowziesmobs:frostmaw",
-    "twilightforest:yeti"
+    "twilightforest:yeti",
+    "dungeonsmod:kraken",
+    "gct_mobs:zethur",
+    "gct_mobs:weather_eyevil",
+    "aether_legacy:zephyr",
+    "gct_mobs:weather_water_rod",
+    "endreborn:endlord",
+    "endreborn:endguard",
+    "minecraft:ghast",
+    "ageofminecraft:ghastherhelpful",
+    "dungeonsmod:ironslime",
+    "minecraft:slime",
+    "dungeonsmod:kraken",
+    "minecraft:guardian"
 ];
 
 events.onPlayerRespawn(function (event as crafttweaker.event.PlayerRespawnEvent) {

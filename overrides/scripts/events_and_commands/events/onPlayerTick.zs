@@ -198,4 +198,29 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
     if (player.isPotionActive(<potion:minecraft:night_vision>) && player.dimension == 20) {
         player.removePotionEffect(<potion:minecraft:night_vision>);
     }
+
+    // Add Leveling Durability traits to Tic armors and traits
+    if (!isNull(player.armorInventory)) {
+        for armor in player.armorInventory {
+            if (!isNull(armor)) {
+                if (TicLib.isTicArmor(armor)) {
+                    if (!(TicTraitLib.hasTicTrait(armor, "leveling_durability_armor"))) {
+                        TicTraitLib.addTicTrait(armor, "leveling_durability_armor", 0xffffff, 1);
+                    }
+                }
+            }
+        }
+    }
+    if (!isNull(player.currentItem)) {
+        var item = player.currentItem;
+        if (TicLib.isTicTool(item)) {
+            if (!(TicTraitLib.hasTicTrait(item, "leveling_durability"))) {
+                TicTraitLib.addTicTrait(item, "leveling_durability", 0xffffff, 1);
+            }
+        } else if (TicLib.isTicArmor(item)) {
+            if (!(TicTraitLib.hasTicTrait(item, "leveling_durability_armor"))) {
+                TicTraitLib.addTicTrait(item, "leveling_durability_armor", 0xffffff, 1);
+            }
+        }
+    }
 });

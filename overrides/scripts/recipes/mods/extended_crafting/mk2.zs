@@ -243,13 +243,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:naturalline>, [
 	[<gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>], 
 	[<gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 25}]}), [
-	[null, <ore:blockEverite>, <ore:blockEverite>, <ore:blockEverite>, <ore:blockEverite>],
-	[<ore:blockEverite>, <minecraft:leather>, <minecraft:leather>, <minecraft:leather>, <ore:blockEverite>],
-	[<ore:blockEverite>, <minecraft:leather>, <ore:coreCommand>, <minecraft:leather>, <ore:blockEverite>],
-	[<ore:blockEverite>, <minecraft:leather>, <minecraft:leather>, <minecraft:leather>, <ore:blockEverite>],
-	[<ore:blockEverite>, <ore:blockEverite>, <ore:blockEverite>, <ore:blockEverite>, null]
-]);
 mods.extendedcrafting.TableCrafting.addShaped(0, <naturalpledge:holy_symbol>, [
 	[null, <ore:ingotBotanical>, <ore:ingotBotanical>, <ore:ingotBotanical>, null], 
 	[<ore:ingotBotanical>, <ore:manaString>, <ore:ingotBotanical>, <ore:manaString>, <ore:ingotBotanical>], 

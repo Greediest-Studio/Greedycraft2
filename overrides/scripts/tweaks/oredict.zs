@@ -810,7 +810,15 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:blockCoalMobius> : [<projecte:fuel_block:1>],
     <ore:blockCoalAeternalis> : [<projecte:fuel_block:2>],
     <ore:oreFalsite> : [<blue_skies:falsite_ore>],
-    <ore:oreVentium> : [<blue_skies:ventium_ore>]
+    <ore:oreVentium> : [<blue_skies:ventium_ore>],
+    <ore:eioGearIron> : [<enderio:item_material:11>],
+    <ore:eioGearEnergeticAlloy> : [<enderio:item_material:12>],
+    <ore:eioGearVibrantAlloy> : [<enderio:item_material:13>],
+    <ore:eioGearDarkSteel> : [<enderio:item_material:73>],
+    <ore:blockEnderBiotite> : [<quark:biotite_block>],
+    <ore:blockEndBiotite> : [<quark:biotite_block>],
+    <ore:blockFluix> : [<appliedenergistics2:fluix_block>],
+    <ore:blockCertusQuartz> : [<appliedenergistics2:quartz_block>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {

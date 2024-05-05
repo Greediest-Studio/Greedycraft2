@@ -19,6 +19,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.game.IGame;
 import crafttweaker.world.IBlockPos;
+import crafttweaker.world.IBiome;
 import crafttweaker.enchantments.IEnchantment;
 import crafttweaker.item.WeightedItemStack;
 import crafttweaker.world.IWorld;
@@ -44,6 +45,7 @@ import mods.zenutils.DataUpdateOperation.REMOVE;
 import mods.zenutils.DataUpdateOperation.BUMP;
 import mods.zenutils.StaticString;
 import mods.nuclearcraft.RadiationScrubber;
+import mods.ctintegration.scalinghealth.DifficultyManager;
 
 
 function lognum(a as int, b as int) as float {
@@ -1912,7 +1914,7 @@ thadTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, n
                         break;
                     }
                 }
-                multiplier = counter / 2; 
+                multiplier = counter / 2 - 2; 
             }
         }
         if (tool.definition.id == "tconstruct:shuriken") {
@@ -2639,7 +2641,7 @@ amaratsuTrait.calcDamage = function(trait, tool, attacker, target, originalDamag
         var player as IPlayer = attacker;
         var mtp as int = ((attacker.world.time + 6000 as long) % 24000 as long) as int;
         if (Math.abs(mtp - 12000) < 5000) {
-            return newDamage * ((5000.0f - Math.abs(mtp as float - 12000.0f) / 20000.0f) + 1.0f) as float;
+            return newDamage * (((5000.0f - Math.abs(mtp as float - 12000.0f)) / 20000.0f) + 1.0f) as float;
         }
     }
     return newDamage;
@@ -2939,7 +2941,7 @@ parasitismTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelec
             var traitcounts as int = traits.length as int;
             var count as int = Math.floor((Math.random() as float * traitcounts as float)) as int;
             var choice as string = traits[count];
-            if ((CotTicTraitLib.getTraitColor(tool, "parasitism") != CotTicTraitLib.getTraitColor(tool, choice)) && (choice != "tool_leveling") && (choice != "parasitism")) {
+            if ((CotTicTraitLib.getTraitColor(tool, "parasitism") != CotTicTraitLib.getTraitColor(tool, choice)) && (choice != "tool_leveling") && (choice != "parasitism") && (choice != "leveling_durability")) {
                 var pass as bool = true;
                 if (!isNull(tool.tag.parasitismTraits)) {
                     for i in 0 to tool.tag.parasitismTraits.length {
@@ -3103,3 +3105,387 @@ slowdownTrait.color = Color.fromHex("ffffff").getIntColor();
 slowdownTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.slowdownTrait.name");
 slowdownTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.slowdownTrait.desc");
 slowdownTrait.register();
+
+
+function getOverslime(tool as IItemStack) as int {
+    if (!isNull(tool.tag."moretcon.overslime".remaining)) {
+        return tool.tag."moretcon.overslime".remaining as int;
+    }
+    return 0;
+}
+
+val overdominateTrait = TraitBuilder.create("overdominate");
+overdominateTrait.color = Color.fromHex("ffa000").getIntColor(); 
+overdominateTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.overdominateTrait.name");
+overdominateTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.overdominateTrait.desc");
+overdominateTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        var overslime as int = getOverslime(tool) as int;
+        if (overslime <= 10000) {
+            var mutiplier as float = (Math.sqrt(overslime) / 100) as float;
+            return newDamage * (1.0f + mutiplier) as float;
+        } else {
+            return newDamage * 2.0f;
+        }
+    }
+    return newDamage;
+};
+overdominateTrait.register();
+
+val erase_commandTrait = TraitBuilder.create("erase_command");
+erase_commandTrait.color = Color.fromHex("f64700").getIntColor(); 
+erase_commandTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.erase_commandTrait.name");
+erase_commandTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.erase_commandTrait.desc");
+erase_commandTrait.maxLevel = 5;
+erase_commandTrait.countPerLevel = 1;
+erase_commandTrait.addItem(<item:gct_ores:command_core>);
+erase_commandTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
+    if (attacker instanceof IPlayer && target instanceof IEntityLivingBase) {
+        var entity as IEntityLivingBase = target;
+        var player as IPlayer = attacker;
+        if (entity.definition.id has "witherstorm") {
+            var level as int = trait.getData(tool).level as int;
+            if (!isNull(<ticontrait:stormy>.getData(tool))) {
+                if (<ticontrait:stormy>.getData(tool).level == 1) {
+                    level *= 2;
+                }
+            }
+            if (entity.health > 100 * level as float) {
+                entity.health -= (100 * level as float);
+            } else {
+                var dmg as IDamageSource = IDamageSource.createPlayerDamage(player);
+                entity.attackEntityFrom(dmg, 2147483647.0f);
+            }
+        }
+    }
+};
+erase_commandTrait.register();
+
+val wyvernTrait = TraitBuilder.create("wyvern");
+wyvernTrait.color = Color.fromHex("ffa000").getIntColor(); 
+wyvernTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.wyvernTrait.name");
+wyvernTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.wyvernTrait.desc");
+wyvernTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer && target instanceof IEntityLivingBase) {
+        var entity as IEntityLivingBase = target;
+        if (entity.definition.id has "ender_dragon") {
+            return newDamage * 2.0f;
+        }
+    }
+    return newDamage;
+};
+wyvernTrait.register();
+
+val fallenTrait = TraitBuilder.create("fallen");
+fallenTrait.color = Color.fromHex("ffa000").getIntColor(); 
+fallenTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.fallenTrait.name");
+fallenTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.fallenTrait.desc");
+fallenTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer && target instanceof IEntityLivingBase) {
+        var entity as IEntityLivingBase = target;
+        if (entity.definition.id has "minecraft:wither") {
+            return newDamage * 2.0f;
+        }
+    }
+    return newDamage;
+};
+fallenTrait.register();
+
+val draconicTrait = TraitBuilder.create("draconic");
+draconicTrait.color = Color.fromHex("ffa000").getIntColor(); 
+draconicTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.draconicTrait.name");
+draconicTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.draconicTrait.desc");
+draconicTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer && target instanceof IEntityLivingBase) {
+        var entity as IEntityLivingBase = target;
+        if (entity.definition.id has "ender_dragon") {
+            return newDamage * 3.0f;
+        }
+    }
+    return newDamage;
+};
+draconicTrait.register();
+
+val relifedTrait = TraitBuilder.create("relifed");
+relifedTrait.color = Color.fromHex("ffa000").getIntColor(); 
+relifedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.relifedTrait.name");
+relifedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.relifedTrait.desc");
+relifedTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer && target instanceof IEntityLivingBase) {
+        var entity as IEntityLivingBase = target;
+        if (entity.definition.id has "minecraft:wither") {
+            return newDamage * 3.0f;
+        }
+    }
+    return newDamage;
+};
+relifedTrait.register();
+
+val chaoticTrait = TraitBuilder.create("chaotic");
+chaoticTrait.color = Color.fromHex("ffa000").getIntColor(); 
+chaoticTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.chaoticTrait.name");
+chaoticTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.chaoticTrait.desc");
+chaoticTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer && target instanceof IEntityLivingBase) {
+        var entity as IEntityLivingBase = target;
+        if (entity.definition.id has "minecraft:ender_dragon") {
+            return newDamage * 4.0f;
+        } else if (entity.definition.id has "draconicevolution") {
+            return newDamage * 2.0f;
+        }
+    }
+    return newDamage;
+};
+chaoticTrait.register();
+
+val stormyTrait = TraitBuilder.create("stormy");
+stormyTrait.color = Color.fromHex("ffa000").getIntColor(); 
+stormyTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.stormyTrait.name");
+stormyTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.stormyTrait.desc");
+stormyTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer && target instanceof IEntityLivingBase) {
+        var entity as IEntityLivingBase = target;
+        if (entity.definition.id has "minecraft:wither") {
+            return newDamage * 4.0f;
+        }
+    }
+    return newDamage;
+};
+stormyTrait.register();
+
+val orderedTrait = TraitBuilder.create("ordered");
+orderedTrait.color = Color.fromHex("ffa000").getIntColor(); 
+orderedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.orderedTrait.name");
+orderedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.orderedTrait.desc");
+orderedTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer && target instanceof IEntityLivingBase) {
+        var entity as IEntityLivingBase = target;
+        if (entity.isBoss) {
+            return newDamage * 1.5f;
+        }
+    }
+    return newDamage;
+};
+orderedTrait.register();
+
+function getEntityBiome(entity as IEntity) as IBiome {
+    return entity.world.getBiome(entity.getPosition3f()) as IBiome;
+}
+
+//寰球
+//§o探索的时光proooooo\n§r你走过的生物群系将强化你的工具！
+val globiomeTrait = TraitBuilder.create("globiome");
+globiomeTrait.color = Color.fromHex("ffffff").getIntColor(); 
+globiomeTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.globiomeTrait.name");
+globiomeTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.globiomeTrait.desc");
+globiomeTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    if (owner instanceof IPlayer) {
+        var player as IPlayer = owner;
+        var biome as IBiome = getEntityBiome(player);
+        if (isNull(tool.tag.globiome)) {
+            var newBiomeSet as IData = [biome.name as string] as IData;
+            tool.mutable().updateTag(
+                {globiome : newBiomeSet}
+            );
+        } else {
+            var biomesTag as IData = tool.tag.globiome as IData;
+            var isNewBiome as bool = true;
+            for i in 0 to (biomesTag.length as int) {
+                if (biomesTag[i] as string == biome.name) isNewBiome = false;             
+            }
+            if (isNewBiome) {
+                var newBiomeSet as IData = [biome.name as string];
+                biomesTag = biomesTag.deepUpdate(newBiomeSet, MERGE);
+                tool.mutable().updateTag(
+                    {globiome: biomesTag}
+                );
+            }
+        }
+    }
+};
+globiomeTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer && !isNull(tool.tag.globiome)) {
+        var length as int = (tool.tag.globiome as IData).length as int;
+        return newDamage * (1.0f + lognum(10, length)) as float;
+    }
+    return newDamage;
+};
+globiomeTrait.register();
+
+//游戏难度
+//§o快说：谢谢ED！\n§r工具耐久损耗将受到游戏难度加成。
+val leveling_durabilityTrait = TraitBuilder.create("leveling_durability");
+leveling_durabilityTrait.color = Color.fromHex("ffffff").getIntColor(); 
+leveling_durabilityTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.leveling_durabilityTrait.name");
+leveling_durabilityTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.leveling_durabilityTrait.desc");
+leveling_durabilityTrait.hidden = true;
+leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, newAmount, holder) {
+    if (holder instanceof IPlayer) {
+        var player as IPlayer = holder;
+        var difficulty as int = DifficultyManager.getDifficulty(player) as int;
+        var mtp as float = 1.0f;
+        if (difficulty < 256) {
+            mtp = (1.0f / 640.0f) * difficulty as float + 1.0f;
+        } else {
+            mtp = (93.0f / 4160.0f) * difficulty as float - (43.0f / 13.0f) as float;
+        }
+        return newAmount * mtp as int;
+    }
+    return newAmount;
+};
+leveling_durabilityTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    if (!isNull(tool.tag.Unbreakable)) {
+        if (tool.tag.Unbreakable as byte == 1 as byte) {
+            tool.mutable().updateTag({Unbreakable : 0 as byte});
+        }
+    }
+};
+leveling_durabilityTrait.register();
+
+//倒置
+//§o啊？彩蛋！\n§r攻击时使敌人翻转，对翻转的目标造成更高伤害！
+val turning_downTrait = TraitBuilder.create("turning_down");
+turning_downTrait.color = Color.fromHex("ffffff").getIntColor(); 
+turning_downTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.turning_downTrait.name");
+turning_downTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.turning_downTrait.desc");
+turning_downTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
+    if (attacker instanceof IPlayer && !(target instanceof IPlayer)) {
+        var player as IPlayer = attacker;
+        if (Math.random() < 0.1f && !target.hasCustomName) {
+            target.setCustomName("Dinnerbone");
+        }
+        if (Math.random() < 0.05f && target.hasCustomName) {
+            if (target.customName as string == "Dinnerbone") target.setCustomName("");
+        }
+    }
+};
+turning_downTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer && !(target instanceof IPlayer) && target instanceof IEntityLivingBase) {
+        var entity as IEntityLivingBase = target;
+        var player as IPlayer = attacker;
+        if (target.hasCustomName) {
+            if (target.customName as string == "Dinnerbone") {
+                return newDamage * 1.65f;
+            }
+        }
+    }
+    return newDamage;
+};
+turning_downTrait.register();
+
+//终了结束
+//§o都停下来！\n§r削减对手的护甲！
+val finiteTrait = TraitBuilder.create("finite");
+finiteTrait.color = Color.fromHex("ffffff").getIntColor(); 
+finiteTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.finiteTrait.name");
+finiteTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.finiteTrait.desc");
+finiteTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
+    if (attacker instanceof IPlayer && !(target instanceof IPlayer)) {
+        var player as IPlayer = attacker;
+        var maxArmorBase as int = target.getAttribute("generic.armor").getBaseValue() as int;
+        if (maxArmorBase >= 10) {
+            mods.contenttweaker.Commands.call("execute @p " + target.x as string + " " + target.y as string + " " + target.z as string + " entitydata @e[type=" + target.definition.id + ",r=1] {Attributes:[{Name:\"generic.armor\",Base:" + (maxArmorBase * 9 / 10) as int + "}]}", player, player.world, false, false);
+        }
+    }
+};
+finiteTrait.register();
+
+function harvestBlockIfSame(blockposHarvest as IBlockPos, blockposCompare as IBlockPos, tool as IItemStack, player as IPlayer) {
+    var block1 as IBlock = player.world.getBlock(blockposHarvest);
+    var block2 as IBlock = player.world.getBlock(blockposCompare);
+    if (block1.definition.id == block2.definition.id) {
+        harvestBlock(blockposHarvest, tool, player);
+    }
+}
+
+//并联
+//§o啥？你故意的吧？\n§r挖掘方块时，可以挖掉其周围的同种方块。
+val parallelingTrait = TraitBuilder.create("paralleling");
+parallelingTrait.color = Color.fromHex("ffffff").getIntColor(); 
+parallelingTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.parallelingTrait.name");
+parallelingTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.parallelingTrait.desc");
+parallelingTrait.afterBlockBreak = function(trait, tool, world, blockstate, blockPos, miner, wasEffective) {
+    if (miner instanceof IPlayer) {
+        var player as IPlayer = miner;
+        if (!(world.isRemote())) {
+            harvestBlockIfSame(blockPos.getOffset(IFacing.north(), 1), blockPos, tool, player);
+            harvestBlockIfSame(blockPos.getOffset(IFacing.south(), 1), blockPos, tool, player);
+            harvestBlockIfSame(blockPos.getOffset(IFacing.east(), 1), blockPos, tool, player);
+            harvestBlockIfSame(blockPos.getOffset(IFacing.west(), 1), blockPos, tool, player);
+            harvestBlockIfSame(blockPos.getOffset(IFacing.up(), 1), blockPos, tool, player);
+            harvestBlockIfSame(blockPos.getOffset(IFacing.down(), 1), blockPos, tool, player);            
+        }
+    }
+};
+parallelingTrait.register();
+
+//万象
+//§o兼收并蓄。\n§r对于非原版的生物和方块作用效果更好。
+val panoramaTrait = TraitBuilder.create("panorama");
+panoramaTrait.color = Color.fromHex("ffffff").getIntColor(); 
+panoramaTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.panoramaTrait.name");
+panoramaTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.panoramaTrait.desc");
+panoramaTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (target.definition.id.split(":")[0] != "minecraft") {
+            return newDamage * 1.3f;
+        }
+    }
+    return newDamage;
+};
+panoramaTrait.getMiningSpeed = function(trait, tool, event) {
+    val player as IPlayer = event.player;
+    if (event.block.definition.id.split(":")[0] != "minecraft") {
+        event.newSpeed = event.originalSpeed * 1.5f;
+    }
+};
+panoramaTrait.register();
+
+//基石
+//§o它如基岩一般！\n§r你的工具仅会有20%几率消耗耐久。
+val bedrockTrait = TraitBuilder.create("bedrock");
+bedrockTrait.color = Color.fromHex("ffffff").getIntColor(); 
+bedrockTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.bedrockTrait.name");
+bedrockTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.bedrockTrait.desc");
+bedrockTrait.onToolDamage = function(trait, tool, unmodifiedAmount, newAmount, holder) {
+    if (Math.random() < 0.8f) {
+        return 0;
+    }
+    return newAmount;
+};
+bedrockTrait.register();
+
+val pureTrait = TraitBuilder.create("pure");
+pureTrait.color = Color.fromHex("ffffff").getIntColor(); 
+pureTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.pureTrait.name");
+pureTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.pureTrait.desc");
+pureTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        return newDamage * 2.5f;
+    }
+    return newDamage;
+};
+pureTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    if (owner instanceof IPlayer && isSelected) {
+        var player as IPlayer = owner;
+        if (player.health > 1.0f) player.health = 1.0f;
+        player.addPotionEffect(<potion:contenttweaker:pure>.makePotionEffect(5, 0, false, false));
+    }
+};
+pureTrait.register();
+
+val unshapedTrait = TraitBuilder.create("unshaped");
+unshapedTrait.color = Color.fromHex("ffffff").getIntColor(); 
+unshapedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.unshapedTrait.name");
+unshapedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.unshapedTrait.desc");
+unshapedTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    if (owner instanceof IPlayer) {
+        var player as IPlayer = owner;
+        if (player.getDimension() == 20) {
+            tool.mutable().damageItem(-1, player);
+        }
+    }
+};
+unshapedTrait.register();

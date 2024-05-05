@@ -3,6 +3,7 @@
  * You may NOT use this script in any other publicly distributed modpack without my permission.
  */
 
+#reloadable
 #priority 90
 
 import crafttweaker.event.PlayerLoggedInEvent;
@@ -23,9 +24,6 @@ import crafttweaker.command.ICommandSender;
 import crafttweaker.event.EntityLivingUpdateEvent;
 import crafttweaker.item.IItemStack;
 
-import mods.ctutils.utils.Math;
-import mods.ctutils.world.IGameRules;
-
 
 events.onEntityLivingUpdate(function(event as EntityLivingUpdateEvent) {
     var entity as IEntityLivingBase = event.entityLivingBase;
@@ -40,7 +38,7 @@ events.onEntityLivingUpdate(function(event as EntityLivingUpdateEvent) {
         entity.motionZ = 8.0;
     }
 
-    // Prevent ur ghast from despawning
+    // Prevent ghasts from despawning
     if (entity.world.getWorldTime() % 20 == 0) {
         if (entity.isBoss) {
             if (entity.y > 255.0) {

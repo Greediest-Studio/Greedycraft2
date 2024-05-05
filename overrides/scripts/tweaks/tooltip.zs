@@ -219,7 +219,9 @@ val tooltipMap as string[][IIngredient] = {
     <modularmachinery:astral_collector_controller> : [game.localize("greedycraft.tooltip.modularmachinery.not_need_blueprints")],
     <modularmachinery:mek_changer_controller> : [game.localize("greedycraft.tooltip.modularmachinery.not_need_blueprints")],
     <modularmachinery:bright_altar_controller> : [game.localize("greedycraft.tooltip.modularmachinery.not_need_blueprints")],
-    <modularmachinery:vethea_enchanter_controller> : [game.localize("greedycraft.tooltip.modularmachinery.not_need_blueprints")]
+    <modularmachinery:vethea_enchanter_controller> : [game.localize("greedycraft.tooltip.modularmachinery.not_need_blueprints")],
+    <tconstruct:sharpening_kit> : [game.localize("greedycraft.tooltip.fixing_kit")],
+    <conarm:polishing_kit> : [game.localize("greedycraft.tooltip.fixing_kit")]
 } as string[][IIngredient];
 
 for ingredient in tooltipMap {

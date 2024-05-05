@@ -21,6 +21,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.game.IGame;
 import crafttweaker.world.IExplosion;
+import crafttweaker.world.IBiome;
 import crafttweaker.entity.AttributeModifier;
 import crafttweaker.entity.AttributeInstance;
 import crafttweaker.entity.Attribute;
@@ -44,6 +45,11 @@ import mods.zenutils.DataUpdateOperation.REMOVE;
 import mods.zenutils.DataUpdateOperation.BUMP;
 import mods.zenutils.StaticString;
 import mods.nuclearcraft.RadiationScrubber;
+import mods.ctintegration.scalinghealth.DifficultyManager;
+
+function lognum(a as int, b as int) as float {
+    return (Math.log(b) as float / Math.log(a) as float) as float;
+}
 
 // Calculates what the effect of one piece of armor should be
 // Many traits are implemented to bethe effect of 4 pieces of armor stacked together; This turns them into what the effect of a single armor piece should be.
@@ -1368,7 +1374,7 @@ thadTrait.onDamaged = function(trait, armor, player, source, damage, newDamage, 
                         counter += 1;
                     }
                 }
-                multiplier = counter / 2; 
+                multiplier = counter / 2 - 2;
             }
         }
         return newDamage / (pow(1.05, multiplier) - 1) as float;
@@ -1455,9 +1461,7 @@ val aura_infusedTrait = ArmorTraitBuilder.create("aura_infused");
 aura_infusedTrait.color = Color.fromHex("ffeb3b").getIntColor();
 aura_infusedTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.aura_infusedTrait.name");
 aura_infusedTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.aura_infusedTrait.desc");
-aura_infusedTrait.onUpdate = function(trait, armor, world, owner, itemSlot, isSelected) {
-    if (owner instanceof IPlayer) {
-        var player as IPlayer = owner;
+aura_infusedTrait.onArmorTick = function(trait, armor, world, player) {
         if (!isNull(armor.tag.aura)) {
             var auraBefore as int = armor.tag.aura.asInt();
             if (!(player.isPotionActive(<potion:naturesaura:breathless>))) {
@@ -1475,7 +1479,6 @@ aura_infusedTrait.onUpdate = function(trait, armor, world, owner, itemSlot, isSe
         } else {
             armor.mutable().updateTag({aura : 0 as int});
         }
-    }
 };
 aura_infusedTrait.register();
 
@@ -1574,9 +1577,7 @@ val windyTrait = ArmorTraitBuilder.create("windy");
 windyTrait.color = Color.fromHex("ffffff").getIntColor();
 windyTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.windyTrait.name");
 windyTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.windyTrait.desc");
-windyTrait.onUpdate = function(trait, armor, world, owner, itemSlot, isSelected) {
-    if (owner instanceof IPlayer) {
-        var player as IPlayer = owner;
+windyTrait.onArmorTick = function(trait, armor, world, player) {
         if (player.isSprinting) {
             if (player.isPotionActive(<potion:minecraft:speed>)) {
                 if (Math.random() < (1.0f / pow(2, player.getActivePotionEffect(<potion:minecraft:speed>).amplifier)) as float) {
@@ -1586,7 +1587,6 @@ windyTrait.onUpdate = function(trait, armor, world, owner, itemSlot, isSelected)
                 player.addPotionEffect(<potion:minecraft:speed>.makePotionEffect(50, 0, false, false));
             }
         }
-    }
 };
 windyTrait.register();
 
@@ -1594,9 +1594,7 @@ val pe_infusionTrait = ArmorTraitBuilder.create("pe_infusion");
 pe_infusionTrait.color = Color.fromHex("ffffff").getIntColor();
 pe_infusionTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.pe_infusionTrait.name");
 pe_infusionTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.pe_infusionTrait.desc");
-pe_infusionTrait.onUpdate = function(trait, armor, world, owner, itemSlot, isSelected) {
-    if (owner instanceof IPlayer) {
-        var player as IPlayer = owner;
+pe_infusionTrait.onArmorTick = function(trait, armor, world, player) {
         var abyss as int[] = [50,51,52,53,54,55];
         if (abyss has world.getDimension() as int) {
             if (isNull(armor.tag.peinfuse)) {
@@ -1611,7 +1609,6 @@ pe_infusionTrait.onUpdate = function(trait, armor, world, owner, itemSlot, isSel
                 }
             }
         }
-    }
 };
 pe_infusionTrait.register();
 
@@ -1619,13 +1616,10 @@ val floatingTrait = ArmorTraitBuilder.create("floating");
 floatingTrait.color = Color.fromHex("ffffff").getIntColor();
 floatingTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.floatingTrait.name");
 floatingTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.floatingTrait.desc");
-floatingTrait.onUpdate = function(trait, armor, world, owner, itemSlot, isSelected) {
-    if (owner instanceof IPlayer) {
-        var player as IPlayer = owner;
+floatingTrait.onArmorTick = function(trait, armor, world, player) {
         if (player.isSneaking) {
             player.addPotionEffect(<potion:minecraft:levitation>.makePotionEffect(10, 2, false, false));
         }
-    }
 };
 floatingTrait.register();
 
@@ -1761,9 +1755,7 @@ val oxylessTrait = ArmorTraitBuilder.create("oxyless");
 oxylessTrait.color = Color.fromHex("ffffff").getIntColor();
 oxylessTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.oxylessTrait.name");
 oxylessTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.oxylessTrait.desc");
-oxylessTrait.onUpdate = function(trait, armor, world, owner, itemSlot, isSelected) {
-    if (owner instanceof IPlayer) {
-        var player as IPlayer = owner;
+oxylessTrait.onArmorTick = function(trait, armor, world, player) {
         if (isNull(armor.tag.oxide)) {
             armor.mutable().updateTag(
                 {
@@ -1796,7 +1788,6 @@ oxylessTrait.onUpdate = function(trait, armor, world, owner, itemSlot, isSelecte
                 }
             }
         }
-    }
 };
 oxylessTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player) && !isNull(armor.tag.oxide)) {
@@ -1858,9 +1849,7 @@ val erosionTrait = ArmorTraitBuilder.create("erosion");
 erosionTrait.color = Color.fromHex("ffffff").getIntColor();
 erosionTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.erosionTrait.name");
 erosionTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.erosionTrait.desc");
-erosionTrait.onUpdate = function(trait, armor, world, owner, itemSlot, isSelected) {
-    if (owner instanceof IPlayer) {
-        var player as IPlayer = owner;
+erosionTrait.onArmorTick = function(trait, armor, world, player) {
         if (Math.random() < 0.01) {
             if (Math.random() < 0.005) {
                 armor.mutable().damageItem(10000, player);
@@ -1886,7 +1875,6 @@ erosionTrait.onUpdate = function(trait, armor, world, owner, itemSlot, isSelecte
                 }
             }
         }
-    }
 };
 erosionTrait.register();
 
@@ -1894,9 +1882,8 @@ val nucleus_of_betweenlandTrait = ArmorTraitBuilder.create("nucleus_of_betweenla
 nucleus_of_betweenlandTrait.color = Color.fromHex("ffffff").getIntColor();
 nucleus_of_betweenlandTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.nucleus_of_betweenlandTrait.name");
 nucleus_of_betweenlandTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.nucleus_of_betweenlandTrait.desc");
-nucleus_of_betweenlandTrait.onUpdate = function(trait, armor, world, owner, itemSlot, isSelected) {
-    if ((owner instanceof IPlayer) && (owner.getDimension() == 20)) {
-        var player as IPlayer = owner;
+nucleus_of_betweenlandTrait.onArmorTick = function(trait, armor, world, player) {
+    if (player.getDimension() == 20) {
         player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(1, 0, false, false));
         player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(1, 0, false, false));
         player.addPotionEffect(<potion:minecraft:health_boost>.makePotionEffect(20, 7, false, false));
@@ -1908,9 +1895,8 @@ val nucleus_of_betweenland2Trait = ArmorTraitBuilder.create("nucleus_of_betweenl
 nucleus_of_betweenland2Trait.color = Color.fromHex("ffffff").getIntColor();
 nucleus_of_betweenland2Trait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.nucleus_of_betweenland2Trait.name");
 nucleus_of_betweenland2Trait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.nucleus_of_betweenland2Trait.desc");
-nucleus_of_betweenland2Trait.onUpdate = function(trait, armor, world, owner, itemSlot, isSelected) {
-    if ((owner instanceof IPlayer) && (owner.getDimension() == 20)) {
-        var player as IPlayer = owner;
+nucleus_of_betweenland2Trait.onArmorTick = function(trait, armor, world, player) {
+    if (player.getDimension() == 20) {
         player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(1, 0, false, false));
         player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(1, 1, false, false));
         player.addPotionEffect(<potion:minecraft:health_boost>.makePotionEffect(20, 9, false, false));
@@ -1957,9 +1943,7 @@ fascicledTrait.onHurt = function(trait, armor, player, source, damage, newDamage
     }
     return newDamage;
 };
-fascicledTrait.onUpdate = function(trait, armor, world, owner, itemSlot, isSelected) {
-    if (owner instanceof IPlayer) {
-        var player as IPlayer = owner;
+fascicledTrait.onArmorTick = function(trait, armor, world, player) {
         if (!isNull(armor.tag.fascicled)) {
             var level as int = armor.tag.fascicled as int;
             var mtp as float = 0.1f * (level as float);
@@ -1967,7 +1951,6 @@ fascicledTrait.onUpdate = function(trait, armor, world, owner, itemSlot, isSelec
             CotTicLib.addTicToughness(armor, mtp / 10.0f, "fascicled_toughness");
             armor.mutable().updateTag({display : {Lore : ["簇生：" + level as string + "枚"]}});
         }
-    }
 };
 fascicledTrait.register();
 
@@ -2176,9 +2159,7 @@ val parasitismTrait = ArmorTraitBuilder.create("parasitism");
 parasitismTrait.color = Color.fromHex("ffffff").getIntColor();
 parasitismTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.parasitismTrait.name");
 parasitismTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.parasitismTrait.desc");
-parasitismTrait.onUpdate = function(trait, armor, world, owner, itemSlot, isSelected) {
-    if (owner instanceof IPlayer) {
-        var player as IPlayer = owner;
+parasitismTrait.onArmorTick = function(trait, armor, world, player) {
         if (isNull(armor.tag.parasitism)) {
             armor.mutable().updateTag({parasitism : 0 as int});
         }
@@ -2187,7 +2168,7 @@ parasitismTrait.onUpdate = function(trait, armor, world, owner, itemSlot, isSele
             var traitcounts as int = traits.length as int;
             var count as int = Math.floor((Math.random() as float * traitcounts as float)) as int;
             var choice as string = traits[count];
-            if ((CotTicTraitLib.getTraitColor(armor, "parasitism_armor") != CotTicTraitLib.getTraitColor(armor, choice)) && (choice != "leveling_armor") && (choice != "parasitism_armor")) {
+            if ((CotTicTraitLib.getTraitColor(armor, "parasitism_armor") != CotTicTraitLib.getTraitColor(armor, choice)) && (choice != "leveling_armor") && (choice != "parasitism_armor") && (choice != "leveling_durability_armor")) {
                 var pass as bool = true;
                 if (!isNull(armor.tag.parasitismTraits)) {
                     for i in 0 to armor.tag.parasitismTraits.length {
@@ -2222,7 +2203,6 @@ parasitismTrait.onUpdate = function(trait, armor, world, owner, itemSlot, isSele
         if (isNull(armor.tag.parasitismMats)) {
             armor.mutable().updateTag({parasitismMats : materials});
         }
-    }
 };
 parasitismTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player)) {
@@ -2323,3 +2303,607 @@ antiterrorismTrait.onHurt = function(trait, armor, player, source, damage, newDa
     return newDamage;
 };
 antiterrorismTrait.register();
+
+function getOverslime(tool as IItemStack) as int {
+    if (!isNull(tool.tag."moretcon.overslime".remaining)) {
+        return tool.tag."moretcon.overslime".remaining as int;
+    }
+    return 0;
+}
+
+val overdominateTrait = ArmorTraitBuilder.create("overdominate");
+overdominateTrait.color = Color.fromHex("ffffff").getIntColor();
+overdominateTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.overdominateTrait.name");
+overdominateTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.overdominateTrait.desc");
+overdominateTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        var overslime as int = getOverslime(armor) as int;
+        if (overslime <= 10000) {
+            var mutiplier as float = (Math.sqrt(overslime) / 250) as float;
+            return newDamage * (1.0f - mutiplier) as float;
+        } else {
+            return newDamage * 0.6f;
+        }
+    }
+    return newDamage;
+};
+overdominateTrait.register();
+
+//飞龙之怒
+//§o根据末影龙动力学研究！\n§r末影龙对自己的伤害减免30%
+val wyvernTrait = ArmorTraitBuilder.create("wyvern");
+wyvernTrait.color = Color.fromHex("ffffff").getIntColor();
+wyvernTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.wyvernTrait.name");
+wyvernTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.wyvernTrait.desc");
+wyvernTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !isNull(source.getTrueSource())) {
+        if (source.getTrueSource() instanceof IEntityLivingBase) {
+            var entity as IEntityLivingBase = source.getTrueSource();
+            if (entity.definition.id == "minecraft:ender_dragon") {
+                return newDamage * 0.7f;
+            }
+        }
+    }
+    return newDamage;
+};
+wyvernTrait.register();
+
+//堕落之心
+//§o根据凋灵生物学研究！\n§r凋灵对自己的伤害减免30%
+val fallenTrait = ArmorTraitBuilder.create("fallen");
+fallenTrait.color = Color.fromHex("ffffff").getIntColor();
+fallenTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.fallenTrait.name");
+fallenTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.fallenTrait.desc");
+fallenTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !isNull(source.getTrueSource())) {
+        if (source.getTrueSource() instanceof IEntityLivingBase) {
+            var entity as IEntityLivingBase = source.getTrueSource();
+            if (entity.definition.id == "minecraft:wither") {
+                return newDamage * 0.7f;
+            }
+        }
+    }
+    return newDamage;
+};
+fallenTrait.register();
+
+//神龙之啸
+//§o根据末影龙动力学研究！2.0？\n§r末影龙对自己的伤害减免50%
+val draconicTrait = ArmorTraitBuilder.create("draconic");
+draconicTrait.color = Color.fromHex("ffffff").getIntColor();
+draconicTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.draconicTrait.name");
+draconicTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.draconicTrait.desc");
+draconicTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !isNull(source.getTrueSource())) {
+        if (source.getTrueSource() instanceof IEntityLivingBase) {
+            var entity as IEntityLivingBase = source.getTrueSource();
+            if (entity.definition.id == "minecraft:ender_dragon") {
+                return newDamage * 0.5f;
+            }
+        }
+    }
+    return newDamage;
+};
+draconicTrait.register();
+
+//重生之罚
+//§o根据凋灵生物学研究！2.0？\n§r凋灵对自己的伤害减免50%
+val relifedTrait = ArmorTraitBuilder.create("relifed");
+relifedTrait.color = Color.fromHex("ffffff").getIntColor();
+relifedTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.relifedTrait.name");
+relifedTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.relifedTrait.desc");
+relifedTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !isNull(source.getTrueSource())) {
+        if (source.getTrueSource() instanceof IEntityLivingBase) {
+            var entity as IEntityLivingBase = source.getTrueSource();
+            if (entity.definition.id == "minecraft:wither") {
+                return newDamage * 0.5f;
+            }
+        }
+    }
+    return newDamage;
+};
+relifedTrait.register();
+
+//混沌之劫
+//§o多了一个，一起算上！\n§r末影龙对自己的伤害减免60%，混沌守卫对自己的伤害减免50%
+val chaoticTrait = ArmorTraitBuilder.create("chaotic");
+chaoticTrait.color = Color.fromHex("ffffff").getIntColor();
+chaoticTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.chaoticTrait.name");
+chaoticTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.chaoticTrait.desc");
+chaoticTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !isNull(source.getTrueSource())) {
+        if (source.getTrueSource() instanceof IEntityLivingBase) {
+            var entity as IEntityLivingBase = source.getTrueSource();
+            if (entity.definition.id == "minecraft:ender_dragon") {
+                return newDamage * 0.4f;
+            }
+            if (entity.definition.id has "draconicevolution") {
+                return newDamage * 0.5f;
+            }
+        }
+    }
+    return newDamage;
+};
+chaoticTrait.register();
+
+//风暴之触
+//§o多了一个，一起算上！2.0\n§r凋灵对自己的伤害减免60%，凋灵风暴对自己的伤害减免50%
+val stormyTrait = ArmorTraitBuilder.create("stormy");
+stormyTrait.color = Color.fromHex("ffffff").getIntColor();
+stormyTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.stormyTrait.name");
+stormyTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.stormyTrait.desc");
+stormyTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !isNull(source.getTrueSource())) {
+        if (source.getTrueSource() instanceof IEntityLivingBase) {
+            var entity as IEntityLivingBase = source.getTrueSource();
+            if (entity.definition.id == "minecraft:wither") {
+                return newDamage * 0.4f;
+            }
+            if (entity.definition.id has "ageofminecraft:witherstorm") {
+                return newDamage * 0.5f;
+            }
+        }
+    }
+    return newDamage;
+};
+stormyTrait.register();
+
+//秩序之灵
+//§o很棒，很平衡。\n§rBOSS对自己的伤害减少40%!
+val orderedTrait = ArmorTraitBuilder.create("ordered");
+orderedTrait.color = Color.fromHex("ffffff").getIntColor();
+orderedTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.orderedTrait.name");
+orderedTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.orderedTrait.desc");
+orderedTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !isNull(source.getTrueSource())) {
+        if (source.getTrueSource() instanceof IEntityLivingBase) {
+            var entity as IEntityLivingBase = source.getTrueSource();
+            if (entity.isBoss) {
+                return newDamage * 0.6f;
+            }
+        }
+    }
+    return newDamage;
+};
+orderedTrait.register();
+
+function getEntityBiome(entity as IEntity) as IBiome {
+    return entity.world.getBiome(entity.getPosition3f()) as IBiome;
+}
+
+//寰球
+//§o探索的时光proooooo\n§r你走过的生物群系将强化你的护甲！
+val globiomeTrait = ArmorTraitBuilder.create("globiome");
+globiomeTrait.color = Color.fromHex("ffffff").getIntColor();
+globiomeTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.globiomeTrait.name");
+globiomeTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.globiomeTrait.desc");
+globiomeTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        var biome as IBiome = getEntityBiome(player);
+        if (isNull(armor.tag.globiome)) {
+            var newBiomeSet as IData = [biome.name as string] as IData;
+            armor.mutable().updateTag(
+                {globiome : newBiomeSet}
+            );
+        } else {
+            var biomesTag as IData = armor.tag.globiome as IData;
+            var isNewBiome as bool = true;
+            for i in 0 to (biomesTag.length as int) {
+                if (biomesTag[i] as string == biome.name) isNewBiome = false;             
+            }
+            if (isNewBiome) {
+                var newBiomeSet as IData = [biome.name as string];
+                biomesTag = biomesTag.deepUpdate(newBiomeSet, MERGE);
+                armor.mutable().updateTag(
+                    {globiome: biomesTag}
+                );
+            }
+        }        
+    }
+};
+globiomeTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        var length as int = (armor.tag.globiome as IData).length as int;
+        return newDamage * 2.0f / (2.0f + lognum(10, length)) as float;
+    }
+    return newDamage;
+};
+globiomeTrait.register();
+
+//游戏难度
+//§o快说：谢谢ED！\n§r护甲耐久损耗将受到游戏难度加成。
+val leveling_durabilityTrait = ArmorTraitBuilder.create("leveling_durability");
+leveling_durabilityTrait.color = Color.fromHex("ffffff").getIntColor();
+leveling_durabilityTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.leveling_durabilityTrait.name");
+leveling_durabilityTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.leveling_durabilityTrait.desc");
+leveling_durabilityTrait.hidden = true;
+leveling_durabilityTrait.onArmorDamaged = function(trait, armor, damageSource, amount, newAmount, player, index) {
+    if (!isNull(player)) {
+        var difficulty as int = DifficultyManager.getDifficulty(player) as int;
+        var mtp as float = 1.0f;
+        if (difficulty < 256) {
+            mtp = (1.0f / 640.0f) * difficulty as float + 1.0f;
+        } else {
+            mtp = (93.0f / 4160.0f) * difficulty as float - (43.0f / 13.0f) as float;
+        }
+        if ((amount * mtp) as int >= armor.maxDamage / 25) {
+            return armor.maxDamage / 25 as int;
+        } else {
+            return newAmount * mtp as int;
+        }
+    }
+    return newAmount;
+};
+leveling_durabilityTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(armor.tag.Unbreakable)) {
+        if (armor.tag.Unbreakable as byte == 1 as byte) {
+            armor.mutable().updateTag({Unbreakable : 0 as byte});
+        }
+    }
+};
+leveling_durabilityTrait.register();
+
+//破镜重圆
+//§o大难不死，必有后福。\n§r受击时，若你还能活上几秒……恢复一些生命。
+val recureTrait = ArmorTraitBuilder.create("recure");
+recureTrait.color = Color.fromHex("ffffff").getIntColor();
+recureTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.recureTrait.name");
+recureTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.recureTrait.desc");
+recureTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        if (damage >= player.maxHealth * 0.5f) {
+            player.world.catenation()
+                .run(function(world, context) {})
+                .sleep(1)
+                .then(function(world, context) {
+                    if (player.isAlive()) {
+                        armor.mutable().updateTag({recure : true});
+                    } else {
+                        armor.mutable().updateTag({recure : false});
+                    }
+                })
+                .sleep(4)
+                .then(function(world, context) {
+                    if (!player.isAlive()) {
+                        armor.mutable().updateTag({recure : false});
+                    }
+                })
+                .sleep(5)
+                .then(function(world, context) {
+                    if (!player.isAlive()) {
+                        armor.mutable().updateTag({recure : false});
+                    }
+                })
+                .sleep(5)
+                .then(function(world, context) {
+                    if (!player.isAlive()) {
+                        armor.mutable().updateTag({recure : false});
+                    }
+                })
+                .sleep(4)
+                .then(function(world, context) {
+                    if (!player.isAlive()) {
+                        armor.mutable().updateTag({recure : false});
+                    }
+                })
+                .sleep(1)
+                .then(function(world, context) {
+                    if (!isNull(armor.tag.recure)) {
+                        if (armor.tag.recure as bool == true) {
+                            player.heal(damage * 0.2f as float);
+                        }
+                    }
+                })
+                .onStop(function(world, context) {})
+                .start();
+        }
+    }
+    return newDamage;
+};
+recureTrait.register();
+
+//暗夜馈赠
+//§o古怪……\n§r夜晚对护甲的耐久有点好处。
+val arcaneTrait = ArmorTraitBuilder.create("arcane");
+arcaneTrait.color = Color.fromHex("ffffff").getIntColor();
+arcaneTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.arcaneTrait.name");
+arcaneTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.arcaneTrait.desc");
+arcaneTrait.onArmorHealed = function(trait, armor, healSource, amount, newAmount, player, index) {
+    if (!isNull(player)) {
+        if (!player.world.isDayTime()) {
+            return newAmount * 2.0f;
+        }
+    }
+    return newAmount;
+};
+arcaneTrait.register();
+
+//失明
+//§o一个漆黑的夜晚，我甚至看不见！\n§r黑暗带给你虚弱及失明。
+val blindTrait = ArmorTraitBuilder.create("blind");
+blindTrait.color = Color.fromHex("ffffff").getIntColor();
+blindTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.blindTrait.name");
+blindTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.blindTrait.desc");
+blindTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        if (Math.random() < 0.01f) {
+            if (Math.random() < 0.1f) {
+                if (Math.random() <= 0.5f) {
+                    player.addPotionEffect(<potion:minecraft:blindness>.makePotionEffect(100, 0, false, false));
+                } else {
+                    player.addPotionEffect(<potion:minecraft:weakness>.makePotionEffect(100, 1, false, false));
+                }
+            }
+        }
+    }
+};
+blindTrait.register();
+
+//复刻
+//§oCtrl+C！\n§r获得经验时回复耐久。
+val copyTrait = ArmorTraitBuilder.create("copy");
+copyTrait.color = Color.fromHex("ffffff").getIntColor();
+copyTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.copyTrait.name");
+copyTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.copyTrait.desc");
+copyTrait.onArmorTick = function(trait, armor, world, player) {
+    if (isNull(armor.tag.copy)) {
+        armor.mutable().updateTag({copy : true});
+    }
+};
+copyTrait.register();
+
+//黑暗
+//§o夜晚使你更具战斗力。\n§r在晚上增加护甲值。
+val darkTrait = ArmorTraitBuilder.create("dark");
+darkTrait.color = Color.fromHex("ffffff").getIntColor();
+darkTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.darkTrait.name");
+darkTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.darkTrait.desc");
+darkTrait.getModifications = function(trait, player, mods, armor, damageSource, damage, index) {
+    if (!isNull(player)) {
+        if (!player.world.isDayTime()) {
+            var modsNew as IArmorModifications = mods;
+            modsNew.addArmor(8.0f);
+            return modsNew;
+        }
+    }
+    return mods;
+};
+darkTrait.register();
+
+//吸氢
+//§o并非催化剂！\n§r可以作为燃料电池！
+val hydrogen_absorbTrait = ArmorTraitBuilder.create("hydrogen_absorb");
+hydrogen_absorbTrait.color = Color.fromHex("ffffff").getIntColor();
+hydrogen_absorbTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.hydrogen_absorbTrait.name");
+hydrogen_absorbTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.hydrogen_absorbTrait.desc");
+hydrogen_absorbTrait.onArmorTick = function(trait, armor, world, player) {
+    if (Math.random() < 0.01f && !isNull(player)) {
+        if (Math.random() < 0.01f) {
+            armor.mutable().attemptDamageItem(10, player);
+            var itemId as string = <ore:ingotHydrogen>.firstItem.definition.id as string;
+            player.give(itemUtils.getItem(itemId));
+        }
+    }
+};
+hydrogen_absorbTrait.register();
+
+//消溶
+//§o我不在乎失去的经验。\n§r这下可不是冒险模式了:(
+val dissolvingTrait = ArmorTraitBuilder.create("dissolving");
+dissolvingTrait.color = Color.fromHex("ffffff").getIntColor();
+dissolvingTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.dissolvingTrait.name");
+dissolvingTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.dissolvingTrait.desc");
+dissolvingTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        player.world.catenation()
+            .run(function(world, context) {})
+            .sleep(1)
+            .then(function(world, context) {
+                if (!player.isAlive()) {
+                    player.removeXP(player.xp);
+                }
+            })
+            .onStop(function(world, context) {})
+            .start();
+    }
+    return newDamage;
+};
+dissolvingTrait.register();
+
+//千斤沉重
+//§o好沉……快喘不过气来了……\n§r你的跳跃能力下降了，但你变得更坚韧了。
+val superheavyTrait = ArmorTraitBuilder.create("superheavy");
+superheavyTrait.color = Color.fromHex("ffffff").getIntColor();
+superheavyTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.superheavyTrait.name");
+superheavyTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.superheavyTrait.desc");
+superheavyTrait.getModifications = function(trait, player, mods, armor, damageSource, damage, index) {
+    if (!isNull(player)) {
+        var modsNew as IArmorModifications = mods;
+        modsNew.armorMod = 2.0f;
+        return modsNew;
+    }
+    return mods;
+};
+superheavyTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        player.addPotionEffect(<potion:potioncore:weight>.makePotionEffect(20, 2, false, false));
+    }
+};
+superheavyTrait.register();
+
+//断层
+//§o这不是落井下石！\n§r当你的护甲耐久较低时，你的防御力会更高……但是耐久消耗的也越快。
+val sectionalTrait = ArmorTraitBuilder.create("sectional");
+sectionalTrait.color = Color.fromHex("ffffff").getIntColor();
+sectionalTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.sectionalTrait.name");
+sectionalTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.sectionalTrait.desc");
+sectionalTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        if (armor.damage >= 0.5f * armor.maxDamage) {
+            return newDamage * 0.7f;
+        }
+    }
+    return newDamage;
+};
+sectionalTrait.onArmorDamaged = function(trait, armor, damageSource, amount, newAmount, player, index) {
+    if (!isNull(player)) {
+        if (armor.damage >= 0.5f * armor.maxDamage) {
+            return newAmount * 2;
+        }
+    }
+    return newAmount;
+};
+sectionalTrait.register();
+
+//特化
+//§o简称：拆东墙补西墙。\n§r削弱其他抗性以增强物理抗性！
+val specializationTrait = ArmorTraitBuilder.create("specialization");
+specializationTrait.color = Color.fromHex("ffffff").getIntColor();
+specializationTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.specializationTrait.name");
+specializationTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.specializationTrait.desc");
+specializationTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        if (source.damageType == "generic") {
+            return newDamage * 0.7f;
+        } else {
+            return newDamage * 1.5f;
+        }
+    }
+    return newDamage;
+};
+specializationTrait.register();
+
+//帝皇
+//§oI am the king!\n§r增加20%护甲和护甲韧性。
+val emperoricTrait = ArmorTraitBuilder.create("emperoric");
+emperoricTrait.color = Color.fromHex("ffffff").getIntColor();
+emperoricTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.emperoricTrait.name");
+emperoricTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.emperoricTrait.desc");
+emperoricTrait.getModifications = function(trait, player, mods, armor, damageSource, damage, index) {
+    if (!isNull(player)) {
+        var modsNew as IArmorModifications = mods;
+        modsNew.armorMod = 1.2f;
+        modsNew.toughnessMod = 1.2f;
+        return modsNew;
+    }
+    return mods;
+};
+emperoricTrait.register();
+
+//热烈
+//§o我现在high到不行啦~~~~\n§r令你周围的所有目标更加活跃（指力量）。
+val enthusiasticTrait = ArmorTraitBuilder.create("enthusiastic");
+enthusiasticTrait.color = Color.fromHex("ffffff").getIntColor();
+enthusiasticTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.enthusiasticTrait.name");
+enthusiasticTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.enthusiasticTrait.desc");
+enthusiasticTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        for entity in world.getEntitiesInArea(crafttweaker.util.Position3f.create(((player.x)- 3),((player.y)- 3),((player.z)- 3)),crafttweaker.util.Position3f.create(((player.x)+ 3),((player.y)+ 3),((player.z)+ 3))){
+            if (entity instanceof IEntityLivingBase) {
+                val en as IEntityLivingBase = entity;
+                if (!en.isPotionActive(<potion:minecraft:strength>)) {
+                    en.addPotionEffect(<potion:minecraft:strength>.makePotionEffect(100, 1, false, false));
+                }
+            }
+        }
+    }
+};
+enthusiasticTrait.register();
+
+//复苏
+//§o一视同仁？\n§r行走的治愈药水！
+val revivalingTrait = ArmorTraitBuilder.create("revivaling");
+revivalingTrait.color = Color.fromHex("ffffff").getIntColor();
+revivalingTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.revivalingTrait.name");
+revivalingTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.revivalingTrait.desc");
+revivalingTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !isNull(source.getTrueSource())) {
+        if (source.getTrueSource() instanceof IEntityLivingBase) {
+            var entity as IEntityLivingBase = source.getTrueSource();
+            player.heal(player.maxHealth as float * 0.02f as float);
+            entity.heal(entity.maxHealth as float * 0.02f as float); 
+        }
+    }
+    return newDamage;
+};
+revivalingTrait.register();
+
+//自然之束
+//§o你与自然融为一体！\n§r以自然之名复原。
+val natureboundTrait = ArmorTraitBuilder.create("naturebound");
+natureboundTrait.color = Color.fromHex("ffffff").getIntColor();
+natureboundTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.natureboundTrait.name");
+natureboundTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.natureboundTrait.desc");
+natureboundTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        if ((player.world.getBlock(player.x as int, player.y as int - 1, player.z as int)).definition.id has "dirt") {
+            if (Math.random() <= 0.01f) {
+                armor.mutable().attemptDamageItem(-1, player);
+            }
+        }
+    }
+};
+natureboundTrait.register();
+
+//交互
+//§o有些过于保守了……\n§r受到致命伤害时将玩家传送至地面（冷却时间5min）
+val portedTrait = ArmorTraitBuilder.create("ported");
+portedTrait.color = Color.fromHex("ffffff").getIntColor();
+portedTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.portedTrait.name");
+portedTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.portedTrait.desc");
+portedTrait.onDamaged = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        if (!isNull(armor.tag.ported) && damage >= player.health) {
+            if (armor.tag.ported.timer as int > 6000) {
+                player.addPotionEffect(<potion:potioncore:teleport_surface>.makePotionEffect(5, 0, false, false));
+                armor.mutable().updateTag({ported : {timer : 0 as int}});
+                return 0.0f;
+            }
+        }
+    }
+    return newDamage;
+};
+portedTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        if (isNull(armor.tag.ported)) {
+            armor.mutable().updateTag({ported : {timer : 0 as int}});
+        } else {
+            var timerNew as int = armor.tag.ported.timer as int + 1;
+            armor.mutable().updateTag({ported : {timer : timerNew as int}});
+        }
+    }
+};
+portedTrait.register();
+
+//万象
+//§o兼收并蓄。\n§r非原版生物对你的伤害会被削弱。
+val panoramaTrait = ArmorTraitBuilder.create("panorama");
+panoramaTrait.color = Color.fromHex("ffffff").getIntColor();
+panoramaTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.panoramaTrait.name");
+panoramaTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.panoramaTrait.desc");
+panoramaTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !isNull(source.getTrueSource())) {
+        var entity as IEntityLivingBase = source.getTrueSource();
+        if (entity.definition.name.split(":")[0] != "minecraft") {
+            return newDamage * 0.75f;
+        }
+    }
+    return newDamage;
+};
+panoramaTrait.register();
+
+//基石
+//§o它如基岩一般！\n§r你的护甲仅会有20%几率消耗耐久。
+val bedrockTrait = ArmorTraitBuilder.create("bedrock");
+bedrockTrait.color = Color.fromHex("ffffff").getIntColor();
+bedrockTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.bedrockTrait.name");
+bedrockTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.bedrockTrait.desc");
+bedrockTrait.onArmorDamaged = function(trait, armor, damageSource, amount, newAmount, player, index) {
+    if (Math.random() < 0.8f) {
+        return 0;
+    }
+    return newAmount;
+};
+bedrockTrait.register();
+

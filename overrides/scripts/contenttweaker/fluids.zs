@@ -2349,6 +2349,103 @@ molten_fracturite.stillLocation = "base:fluids/molten";
 molten_fracturite.flowingLocation = "base:fluids/molten_flowing";
 molten_fracturite.register();
 
+val molten_queenslime = mods.contenttweaker.VanillaFactory.createFluid("queenslime", Color.fromHex("5d2718").getIntColor());
+molten_queenslime.material = <blockmaterial:lava>;
+molten_queenslime.viscosity = 3000;
+molten_queenslime.density = 6500;
+molten_queenslime.colorize = true;
+molten_queenslime.temperature = 1000;
+molten_queenslime.luminosity = 10;
+molten_queenslime.color = Color.fromHex("5d2718").getIntColor();
+molten_queenslime.stillLocation = "base:fluids/molten";
+molten_queenslime.flowingLocation = "base:fluids/molten_flowing";
+molten_queenslime.register();
+
+val molten_emperorslime = mods.contenttweaker.VanillaFactory.createFluid("emperorslime", Color.fromHex("e19e28").getIntColor());
+molten_emperorslime.material = <blockmaterial:lava>;
+molten_emperorslime.viscosity = 3000;
+molten_emperorslime.density = 6500;
+molten_emperorslime.colorize = true;
+molten_emperorslime.temperature = 1000;
+molten_emperorslime.luminosity = 10;
+molten_emperorslime.color = Color.fromHex("e19e28").getIntColor();
+molten_emperorslime.stillLocation = "base:fluids/molten";
+molten_emperorslime.flowingLocation = "base:fluids/molten_flowing";
+molten_emperorslime.register();
+
+val molten_godslime = mods.contenttweaker.VanillaFactory.createFluid("godslime", Color.fromHex("f8dffe").getIntColor());
+molten_godslime.material = <blockmaterial:lava>;
+molten_godslime.viscosity = 3000;
+molten_godslime.density = 6500;
+molten_godslime.colorize = true;
+molten_godslime.temperature = 1000;
+molten_godslime.luminosity = 10;
+molten_godslime.color = Color.fromHex("f8dffe").getIntColor();
+molten_godslime.stillLocation = "base:fluids/molten";
+molten_godslime.flowingLocation = "base:fluids/molten_flowing";
+molten_godslime.register();
+
+val molten_twilit = mods.contenttweaker.VanillaFactory.createFluid("twilit", Color.fromHex("8560a4").getIntColor());
+molten_twilit.material = <blockmaterial:lava>;
+molten_twilit.viscosity = 3000;
+molten_twilit.density = 6500;
+molten_twilit.colorize = true;
+molten_twilit.temperature = 4500;
+molten_twilit.luminosity = 10;
+molten_twilit.color = Color.fromHex("8560a4").getIntColor();
+molten_twilit.stillLocation = "base:fluids/molten";
+molten_twilit.flowingLocation = "base:fluids/molten_flowing";
+molten_twilit.register();
+
+val molten_betwnite = mods.contenttweaker.VanillaFactory.createFluid("betwnite", Color.fromHex("005b18").getIntColor());
+molten_betwnite.material = <blockmaterial:lava>;
+molten_betwnite.viscosity = 3000;
+molten_betwnite.density = 6500;
+molten_betwnite.colorize = true;
+molten_betwnite.temperature = 1000;
+molten_betwnite.luminosity = 10;
+molten_betwnite.color = Color.fromHex("005b18").getIntColor();
+molten_betwnite.stillLocation = "base:fluids/molten";
+molten_betwnite.flowingLocation = "base:fluids/molten_flowing";
+molten_betwnite.register();
+
+val molten_ascensionite = mods.contenttweaker.VanillaFactory.createFluid("ascensionite", Color.fromHex("616c97").getIntColor());
+molten_ascensionite.material = <blockmaterial:lava>;
+molten_ascensionite.viscosity = 3000;
+molten_ascensionite.density = 6500;
+molten_ascensionite.colorize = true;
+molten_ascensionite.temperature = 1000;
+molten_ascensionite.luminosity = 10;
+molten_ascensionite.color = Color.fromHex("616c97").getIntColor();
+molten_ascensionite.stillLocation = "base:fluids/molten";
+molten_ascensionite.flowingLocation = "base:fluids/molten_flowing";
+molten_ascensionite.register();
+
+val molten_iodine = mods.contenttweaker.VanillaFactory.createFluid("iodine", Color.fromHex("2b2b2b").getIntColor());
+molten_iodine.material = <blockmaterial:lava>;
+molten_iodine.viscosity = 3000;
+molten_iodine.density = 6500;
+molten_iodine.colorize = true;
+molten_iodine.temperature = 1000;
+molten_iodine.luminosity = 10;
+molten_iodine.color = Color.fromHex("2b2b2b").getIntColor();
+molten_iodine.stillLocation = "base:fluids/molten";
+molten_iodine.flowingLocation = "base:fluids/molten_flowing";
+molten_iodine.register();
+
+val molten_pruified = mods.contenttweaker.VanillaFactory.createFluid("pruified", Color.fromHex("ffffff").getIntColor());
+molten_pruified.material = <blockmaterial:lava>;
+molten_pruified.viscosity = 3000;
+molten_pruified.density = 6500;
+molten_pruified.colorize = true;
+molten_pruified.temperature = 1000;
+molten_pruified.luminosity = 10;
+molten_pruified.color = Color.fromHex("ffffff").getIntColor();
+molten_pruified.stillLocation = "base:fluids/molten";
+molten_pruified.flowingLocation = "base:fluids/molten_flowing";
+molten_pruified.register();
+
+
 //液化类
 val liquid_air = mods.contenttweaker.VanillaFactory.createFluid("liquid_air", Color.fromHex("ffffff").getIntColor());
 liquid_air.material = <blockmaterial:water>;

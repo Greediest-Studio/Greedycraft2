@@ -3,6 +3,7 @@
  * You may NOT use this script in any other publicly distributed modpack without my permission.
  */
 
+#reloadable
 #priority 90
 
 import crafttweaker.event.PlayerLoggedInEvent;
@@ -22,9 +23,6 @@ import crafttweaker.world.IFacing;
 import crafttweaker.command.ICommandSender;
 import crafttweaker.event.EntityLivingSpawnEvent;
 import crafttweaker.event.EntityLivingExtendedSpawnEvent;
-
-import mods.ctutils.utils.Math;
-import mods.ctutils.world.IGameRules;
 
 events.onCheckSpawn(function(event as EntityLivingExtendedSpawnEvent) {
     var living = event.entityLivingBase;

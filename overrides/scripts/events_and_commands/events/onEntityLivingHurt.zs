@@ -137,5 +137,10 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
         }
     }
 
+    // Potion effect: Pure
+    if (player.isPotionActive(<potion:contenttweaker:pure>)) {
+        dmg *= 5.0f;
+    }
+    
     event.amount = dmg;
 });

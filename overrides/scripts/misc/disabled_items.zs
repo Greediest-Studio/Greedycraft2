@@ -1604,6 +1604,7 @@ val disabledRecipeRegex as string[] = [
     "^extrabotany:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick)|(chest))$",
     "^enderio:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet))$",
     "^thermalfoundation:tool.fishing_rod_(.*)$",
+    "^jaopca:block_crystalcluster(.*)$",
     "^actuallyadditions:recipes24[3456789]$",
     "^actuallyadditions:recipes2[56789].$",
     "^actuallyadditions:recipes3[012].$",
@@ -1656,4 +1657,17 @@ for recipe in recipes.all {
         }
     }
 
+}
+
+for item in loadedMods["jaopca"].items {
+    if(item.definition.id.startsWith("jaopca:block_crystalcluster")) {
+        recipes.remove(item);
+        val entryName = item.definition.id.substring("jaopca:block_crystalcluster".length());
+        val oreName = "jaopca:item_crystalabyss" + entryName;
+        val crystalItem = itemUtils.getItem(oreName);
+        if(!isNull(crystalItem)) {
+            recipes.addShapeless("jaopca_fix_" + entryName, item, [crystalItem, crystalItem, crystalItem, crystalItem, crystalItem, crystalItem, crystalItem, crystalItem, crystalItem]);
+        }
+        print("Removing broken JAOPCA recipe: " + item.definition.id + " Replacing with " + oreName);
+    }
 }
