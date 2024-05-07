@@ -31,7 +31,4 @@ setMaterialHead(<ticmat:moretcon.shockwave>, 90, 24, 6400, 10);
 <conmat:moretcon.shockwave>.durabilityCore = 0;
 <conmat:moretcon.shockwave>.durabilityPlates = 0;
 <conmat:moretcon.shockwave>.durabilityTrim = 0;
-<conmat:moretcon.shockwave>.modifier = 0;
-<conmat:moretcon.shockwave>.defense = 0;
-<conmat:moretcon.shockwave>.toughness = 0;
 
