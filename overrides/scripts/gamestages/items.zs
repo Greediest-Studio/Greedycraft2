@@ -713,7 +713,6 @@ GameStagesUtil.stageChaotic.addIngredients([
     <additions:greedycraft-experience_singularity>,
     <additions:greedycraft-matter_singularity>,
     <additions:greedycraft-anti_entropy_matter>,
-    <eternalsingularity:eternal_singularity>,
     <gct_ores:chaotic_draconium_ingot>,
     <gct_ores:chaotic_draconium_block>,
     <gct_ores:chaotic_draconium_dust>,
