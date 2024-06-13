@@ -4,7 +4,6 @@
  */ 
 
 #priority 40
-#packmode casual adventure
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;

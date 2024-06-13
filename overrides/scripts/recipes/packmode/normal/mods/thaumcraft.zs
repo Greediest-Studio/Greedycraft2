@@ -4,7 +4,6 @@
  */ 
 
 #priority 30
-#packmode casual adventure
 
 import thaumcraft.aspect.CTAspect;
 

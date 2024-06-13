@@ -3,7 +3,6 @@
  * You may NOT use this script in any other publicly distributed modpack without my permission.
  */
 
-#packmode casual adventure
 #priority 30
 
 import mods.astralsorcery.Altar;

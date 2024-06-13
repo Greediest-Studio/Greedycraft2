@@ -4,7 +4,6 @@
  */ 
 
 #priority 1
-#packmode casual adventure
 
 import moretweaker.draconicevolution.FusionCrafting;
 
