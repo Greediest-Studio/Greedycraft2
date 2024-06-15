@@ -59,6 +59,13 @@ item.catalyst.name=黑曜石触媒
 tile.block_wolframium_ore.name=钨矿石
 tile.block_essence_ore.name=末影精华矿石
 
+upgrade.level.5=秩序
+upgrade.level.6=霜炙
+upgrade.level.7=悚怖
+upgrade.level.8=超元
+upgrade.level.9=贪婪
+upgrade.level.10=无尽
+
 effect.contenttweaker.pure=纯净
 
 greedycraft.language=zh_cn
@@ -673,7 +680,7 @@ greedycraft.tconstruct.armor_trait.extra_healthTrait.desc=§o真是妙手回春�
 greedycraft.tconstruct.armor_trait.land_of_illusionTrait.name=太虚幻境
 greedycraft.tconstruct.armor_trait.land_of_illusionTrait.desc=§o让我们步入这幻境中的世界吧。§r\n每次受到攻击有一定几率免疫该次攻击，进入虚幻状态。
 greedycraft.tconstruct.armor_trait.parasitismTrait.name=寄生之眼
-greedycraft.tconstruct.armor_trait.parasitismTrait.desc=§o侵蚀你的护甲！\n§b寄生科技-联动词条\n§r它会占据其他匠魂特性的位置……以补充自身\n§o当任意部件被替换后，这个词条会失效，请谨慎搭配。
+greedycraft.tconstruct.armor_trait.parasitismTrait.desc=§o侵蚀你的护甲！\n§b寄生科技-联动词条\n§r它会占据其他匠魂特性的位置……以补充自身\n§o会吃掉其他词条，当任意部件被替换后，这个词条会失效，请谨慎搭配。
 greedycraft.tconstruct.armor_trait.aethericTrait.name=天境
 greedycraft.tconstruct.armor_trait.aethericTrait.desc=§o天空之力！\n§r在天境时，增加防御力。
 greedycraft.tconstruct.armor_trait.turtle_defenseTrait.name=龟缩
@@ -742,6 +749,8 @@ greedycraft.tconstruct.armor_trait.bedrockTrait.name=基石
 greedycraft.tconstruct.armor_trait.bedrockTrait.desc=§o它如基岩一般！\n§r你的护甲仅会有20%几率消耗耐久。
 
 #工具词条
+greedycraft.tconstruct.tool_trait.overattackTrait.name=攻心
+greedycraft.tconstruct.tool_trait.overattackTrait.desc=§o摧毁防线！\n§r消耗黏液覆层，将一部分伤害转为法术伤害。
 greedycraft.tconstruct.tool_trait.unshapedTrait.name=无形
 greedycraft.tconstruct.tool_trait.unshapedTrait.desc=§o给予我，重生……\n§r极速恢复耐久，但必须是交错次元。
 greedycraft.tconstruct.tool_trait.pureTrait.name=纯净
@@ -792,7 +801,7 @@ greedycraft.tconstruct.tool_trait.solemnlamentTrait.desc=§o庄严宣悼！§r\n
 greedycraft.tconstruct.tool_trait.sharper_harvestingTrait.name=掘进三尺
 greedycraft.tconstruct.tool_trait.sharper_harvestingTrait.desc=§o镐击？不止这些！\n§r增加挖掘工具的伤害。
 greedycraft.tconstruct.tool_trait.parasitismTrait.name=寄生之眼
-greedycraft.tconstruct.tool_trait.parasitismTrait.desc=§o侵蚀你的工具！\n§b寄生科技-联动词条\n§r它会占据其他匠魂特性的位置……以补充自身\n§o当任意部件被替换后，这个词条会失效，请谨慎搭配。会吃掉其他词条，
+greedycraft.tconstruct.tool_trait.parasitismTrait.desc=§o侵蚀你的工具！\n§b寄生科技-联动词条\n§r它会占据其他匠魂特性的位置……以补充自身\n§o会吃掉其他词条，当任意部件被替换后，这个词条会失效，请谨慎搭配。
 greedycraft.tconstruct.tool_trait.ender_lordTrait.name=终末之主
 greedycraft.tconstruct.tool_trait.ender_lordTrait.desc=§o你必将支配末影。\n§r对末影类生物造成高额伤害！
 greedycraft.tconstruct.tool_trait.radianceTrait.name=辐辉
