@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "锐化合金块",
+    "tooltip": "§7可用于建造信标基座",
+    "ore_dict": "blockSharpenAlloy",
+    "type": "additions:block_simple"
+  },
+  "name": "锐化合金块",
+  "material": "minecraft:metal",
+  "hardness": 4.0,
+  "resistance": 20.0,
+  "harvest_tool": "pickaxe",
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

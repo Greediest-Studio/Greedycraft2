@@ -1,0 +1,17 @@
+{
+  "item_block": {
+    "name": "§b星灵块",
+    "ore_dict": "blockZodiacite",
+    "type": "additions:block_simple"
+  },
+  "name": "§b星灵块",
+  "material": "minecraft:metal",
+  "hardness": 10.0,
+  "resistance": 4000.0,
+  "harvest_level": 10,
+  "harvest_tool": "pickaxe",
+  "light_level": 15,
+  "bookshelf_strength": 10,
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}
