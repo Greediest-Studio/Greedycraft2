@@ -62,8 +62,16 @@ RuneAltar.addRecipe(<additions:botaniaddon-raphael_rune> * 2, [<botania:rune:15>
 RuneAltar.addRecipe(<additions:botaniaddon-gabriel_rune> * 2, [<botania:rune:13>, <botania:rune:14>, <botania:rune:12>, <ore:ingotOrichalcos>, <ore:ingotAurorianSteel>, <ore:ingotManyullyn>], 50000);
 RuneAltar.addRecipe(<additions:botaniaddon-sandalphon_rune> * 2, [<botania:rune:11>, <botania:rune:10>, <botania:rune:14>, <ore:ingotOrichalcos>, <ore:ingotEezo>, <ore:ingotTerrax>], 50000);
 RuneAltar.addRecipe(<gct_mobs:orichalcos_dreamwood>, [<botania:dreamwood:5>, <ore:ingotOrichalcos>, <ore:ingotEugardite>, <ore:nuggetCosmilite>], 100000);
+RuneAltar.addRecipe(<botaniverse:morerune> * 2, [<ore:runeWaterB>, <ore:runeAirB>, <ore:runeFireB>, <ore:runeEarthB>, <ore:ingotShadowium>], 100000);
+RuneAltar.addRecipe(<botaniverse:morerune:1> * 2, [<ore:runeSpringB>, <ore:runeSummerB>, <ore:runeAutumnB>, <ore:runeWinterB>, <ore:ingotLavarite>], 200000);
+RuneAltar.addRecipe(<botaniverse:morerune:2> * 3, [<ore:runeGreedB>, <ore:runePrideB>, <ore:runeWrathB>, <ore:runeEnvyB>, <ore:runeSlothB>, <ore:runeLustB>, <ore:runeGluttonyB>, <ore:ingotBnightium>], 400000);
+RuneAltar.addRecipe(<botaniverse:morerune:3> * 4, [<ore:runeMetatronB>, <ore:runeRatzielB>, <ore:runeZaphkielB>, <ore:runeZadkielB>, <ore:runeChamaelB>, <ore:runeMichaelB>, <ore:runeHanielB>, <ore:runeRaphaelB>, <ore:runeGabrielB>, <ore:runeSandalphonB>, <ore:ingotEverite>], 750000);
 
 RuneAltar.removeRecipe(<extrabotany:material:5>);
+RuneAltar.removeRecipe(<botaniverse:morerune>);
+RuneAltar.removeRecipe(<botaniverse:morerune:1>);
+RuneAltar.removeRecipe(<botaniverse:morerune:2>);
+RuneAltar.removeRecipe(<botaniverse:morerune:3>);
 
 PureDaisy.removeRecipe(<botania:livingwood>);
 PureDaisy.removeRecipe(<botania:livingrock>);
@@ -102,34 +110,3 @@ for input in pureDaisyTransmutations {
     var output as IItemStack = pureDaisyTransmutations[input];
     PureDaisy.addRecipe(input, output);
 }
-
-JEI.addDescription(<gct_mobs:kabalah_ring_aur>,
-    "§f使用§c生命树构建器§f合成：",
-    "§b需求能量环：§e无",
-    "§b王冠位：§e激活的王冠符文",
-    "§b智慧位：§e激活的智慧符文",
-    "§b理解位：§e激活的理解符文",
-    "§b慈悲位：§e激活的慈悲符文",
-    "§b严格位：§e激活的严格符文",
-    "§b美丽位：§e激活的美丽符文",
-    "§b胜利位：§e激活的胜利符文",
-    "§b光辉位：§e激活的光辉符文",
-    "§b基础位：§e激活的基础符文",
-    "§b王国位：§e激活的王国符文"
-);
-JEI.addDescription(<gct_mobs:elf_passes>,
-    "§f使用§c生命树构建器§f合成：",
-    "§b需求能量环：§eAur",
-    "§b王冠位：§e源质钢聚合板",
-    "§b智慧位：§e源质钢聚合板",
-    "§b理解位：§e源质钢聚合板",
-    "§b慈悲位：§e源质钢聚合板",
-    "§b严格位：§e源质钢聚合板",
-    "§b美丽位：§e奥利哈刚聚合板",
-    "§b胜利位：§e源质钢聚合板",
-    "§b光辉位：§e源质钢聚合板",
-    "§b基础位：§e源质钢聚合板",
-    "§b王国位：§e空"
-);
-JEI.addDescription(<additions:greedycraft-twilit_ingot>, "§f合成方式请查询§c暮晶块");
-JEI.addDescription(<gct_mobs:earth_ingot>, "§f使用§c神圣钢锭§f右击激活的地缚祭坛结构以合成§c大地之锭");

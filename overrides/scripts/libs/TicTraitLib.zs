@@ -61,6 +61,10 @@ zenClass ticTraitLib {
     zenConstructor() {
     }
 
+    function getAllTicItem() as IItemStack[] {
+        return allticitem;
+    }
+
     function getTraitColor(itemStack as IItemStack, trait as string) as int {
         var pass as bool = false;
 
@@ -216,7 +220,6 @@ zenClass ticTraitLib {
 
         return itemStack.updateTag({Modifiers : modifiers.deepUpdate(addmodifier, APPEND), Traits : traits.deepUpdate(addtrait, APPEND)});
     }
-
 
     function getTicTrait(itemStack as IItemStack) as string[] {
         var traits as string[] = [];

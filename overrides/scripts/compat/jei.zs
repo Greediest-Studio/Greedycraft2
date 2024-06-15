@@ -55,9 +55,7 @@ val descriptions as string[][IIngredient] = {
     <tofucraft:blocktofukinu> : [game.localize("greedycraft.jei.tofucraft.tofukinu.desc.0")],
     <tofucraft:blocktofumomen> : [game.localize("greedycraft.jei.tofucraft.tofumomen.desc.0")],
     <tofucraft:blocktofuishi> : [game.localize("greedycraft.jei.tofucraft.tofuishi.desc.0")],
-    <tofucraft:blocktofumetal> : [game.localize("greedycraft.jei.tofucraft.tofumetal.desc.0")],
-    <botanicadds:gaiasteel_ingot> : [game.localize("greedycraft.jei.botanicadds.gaiasteel_ingot.desc.0")],
-    <botanicadds:gaia_plate> : [game.localize("greedycraft.jei.botanicadds.gaia_plate.desc.0")]
+    <tofucraft:blocktofumetal> : [game.localize("greedycraft.jei.tofucraft.tofumetal.desc.0")]
 };
 
 val hides as IIngredient[] = [

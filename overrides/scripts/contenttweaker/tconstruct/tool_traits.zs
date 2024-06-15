@@ -14,6 +14,7 @@ import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.damage.IDamageSource;
 import crafttweaker.entity.IEntityMob;
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IMutableItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
@@ -47,6 +48,39 @@ import mods.zenutils.StaticString;
 import mods.nuclearcraft.RadiationScrubber;
 import mods.ctintegration.scalinghealth.DifficultyManager;
 
+$expand IItemStack$hasTicTrait(traitid as string) as bool {
+    return CotTicTraitLib.hasTicTrait(this, traitid);
+}
+$expand IItemStack$isTicTool() as bool {
+    return CotTicLib.isTicTool(this);
+}
+$expand IItemStack$isTicArmor() as bool {
+    return CotTicLib.isTicArmor(this);
+}
+$expand IItemStack$getOverslime() as int {
+    if (this.isTicTool() || this.isTicArmor()) {
+        if (!isNull(this.tag."moretcon.overslime".remaining)) {
+            return this.tag."moretcon.overslime".remaining as int;
+        }
+    } else {
+        return 0;
+    }
+}
+$expand IMutableItemStack$setOverslime(num as int) as void {
+    if (this.hasTicTrait("moretcon.overslime")) {
+        this.updateTag({"moretcon.overslime" : {remaining : num as int}});
+    }
+}
+$expand IMutableItemStack$addOverslime(num as int) as void {
+    this.setOverslime(this.getOverslime() + num);
+}
+$expand IMutableItemStack$removeOverslime(num as int) as void {
+    if (num >= this.getOverslime()) {
+        this.setOverslime(0);
+    } else {
+        this.setOverslime(this.getOverslime() - num);
+    }
+}
 
 function lognum(a as int, b as int) as float {
     return (Math.log(b) as float / Math.log(a) as float) as float;
@@ -886,7 +920,7 @@ foglightTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.f
 foglightTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.foglightTrait.desc");
 foglightTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected){
       if (owner instanceof IEntityLivingBase) {
-        val player as IPlayer = owner;//所有工具基本都需要声明对象，
+        val player as IPlayer = owner;//\u6240\u6709\u5DE5\u5177\u57FA\u672C\u90FD\u9700\u8981\u58F0\u660E\u5BF9\u8C61\uFF0C
         if (isSelected){
               if (player.getDimension() == 69){
                 if(player.getY() < 80 ){
@@ -2043,7 +2077,7 @@ test_damageTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trai
 test_damageTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.test_damageTrait.desc");
 test_damageTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
     if (attacker instanceof IPlayer) {
-        client.player.sendChat("§b你造成了" + damageDealt as string + "点伤害");
+        client.player.sendChat("\u00A7b\u4F60\u9020\u6210\u4E86" + damageDealt as string + "\u70B9\u4F24\u5BB3");
     }
 };
 test_damageTrait.register();
@@ -2080,7 +2114,7 @@ soul_eaterTrait.afterHit = function(trait, tool, attacker, target, damageDealt, 
             }
             if (!isNull(tool.tag.killcount)) {
                 var mtp as float = 0.1f * tool.tag.killcount as float;
-                tool.mutable().updateTag({display : {Lore : ["§f击杀数：" + tool.tag.killcount as string, "§f伤害加成：" + mtp as string]}});
+                tool.mutable().updateTag({display : {Lore : ["\u00A7f\u51FB\u6740\u6570\uFF1A" + tool.tag.killcount as string, "\u00A7f\u4F24\u5BB3\u52A0\u6210\uFF1A" + mtp as string]}});
             }
         }
     }
@@ -2113,7 +2147,7 @@ soul_eater2Trait.afterHit = function(trait, tool, attacker, target, damageDealt,
             }
             if (!isNull(tool.tag.killcount)) {
                 var mtp as float = 0.1f * tool.tag.killcount as float;
-                tool.mutable().updateTag({display : {Lore : ["§f击杀数：" + tool.tag.killcount as string, "§f伤害加成：" + mtp as string]}});
+                tool.mutable().updateTag({display : {Lore : ["\u00A7f\u51FB\u6740\u6570\uFF1A" + tool.tag.killcount as string, "\u00A7f\u4F24\u5BB3\u52A0\u6210\uFF1A" + mtp as string]}});
             }
         }
     }
@@ -2146,7 +2180,7 @@ soul_eater3Trait.afterHit = function(trait, tool, attacker, target, damageDealt,
             }
             if (!isNull(tool.tag.killcount)) {
                 var mtp as float = 0.1f * tool.tag.killcount as float;
-                tool.mutable().updateTag({display : {Lore : ["§f击杀数：" + tool.tag.killcount as string, "§f伤害加成：" + mtp as string]}});
+                tool.mutable().updateTag({display : {Lore : ["\u00A7f\u51FB\u6740\u6570\uFF1A" + tool.tag.killcount as string, "\u00A7f\u4F24\u5BB3\u52A0\u6210\uFF1A" + mtp as string]}});
             }
         }
     }
@@ -2179,7 +2213,7 @@ soul_eater4Trait.afterHit = function(trait, tool, attacker, target, damageDealt,
             }
             if (!isNull(tool.tag.killcount)) {
                 var mtp as float = 0.1f * tool.tag.killcount as float;
-                tool.mutable().updateTag({display : {Lore : ["§f击杀数：" + tool.tag.killcount as string, "§f伤害加成：" + mtp as string]}});
+                tool.mutable().updateTag({display : {Lore : ["\u00A7f\u51FB\u6740\u6570\uFF1A" + tool.tag.killcount as string, "\u00A7f\u4F24\u5BB3\u52A0\u6210\uFF1A" + mtp as string]}});
             }
         }
     }
@@ -2212,7 +2246,7 @@ soul_eater5Trait.afterHit = function(trait, tool, attacker, target, damageDealt,
             }
             if (!isNull(tool.tag.killcount)) {
                 var mtp as float = 0.1f * tool.tag.killcount as float;
-                tool.mutable().updateTag({display : {Lore : ["§f击杀数：" + tool.tag.killcount as string, "§f伤害加成：" + mtp as string]}});
+                tool.mutable().updateTag({display : {Lore : ["\u00A7f\u51FB\u6740\u6570\uFF1A" + tool.tag.killcount as string, "\u00A7f\u4F24\u5BB3\u52A0\u6210\uFF1A" + mtp as string]}});
             }
         }
     }
@@ -2777,7 +2811,7 @@ fascicledTrait.calcDamage = function(trait, tool, attacker, target, originalDama
                 if (isNull(tool.tag.fascicled)) {
                     player.getItemInSlot(offhand).mutable().shrink(1);
                     tool.mutable().updateTag({fascicled : 1 as int}); 
-                    client.player.sendChat("§f你的工具已经附着了 1 枚法罗钠晶簇！");  
+                    client.player.sendChat("\u00A7f\u4F60\u7684\u5DE5\u5177\u5DF2\u7ECF\u9644\u7740\u4E86 1 \u679A\u6CD5\u7F57\u94A0\u6676\u7C07\uFF01");  
                 } else {
                     var new as int = tool.tag.fascicled as int + 1;
                     var pass as bool = true;
@@ -2785,9 +2819,9 @@ fascicledTrait.calcDamage = function(trait, tool, attacker, target, originalDama
                     if (pass) {
                         player.getItemInSlot(offhand).mutable().shrink(1);
                         tool.mutable().updateTag({fascicled : new as int});
-                        client.player.sendChat("§f你的工具已经附着了 " + new as string + " 枚法罗钠晶簇！");
+                        client.player.sendChat("\u00A7f\u4F60\u7684\u5DE5\u5177\u5DF2\u7ECF\u9644\u7740\u4E86 " + new as string + " \u679A\u6CD5\u7F57\u94A0\u6676\u7C07\uFF01");
                     } else {
-                        client.player.sendChat("§f你的工具附着的法罗钠晶簇数量已达到上限！");
+                        client.player.sendChat("\u00A7f\u4F60\u7684\u5DE5\u5177\u9644\u7740\u7684\u6CD5\u7F57\u94A0\u6676\u7C07\u6570\u91CF\u5DF2\u8FBE\u5230\u4E0A\u9650\uFF01");
                     }
                 }
             }
@@ -2803,7 +2837,7 @@ fascicledTrait.calcDamage = function(trait, tool, attacker, target, originalDama
 fascicledTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
     if (!isNull(tool.tag.fascicled)) {
         var level as int = tool.tag.fascicled as int;
-        tool.mutable().updateTag({display : {Lore : ["簇生：" + level as string + "枚"]}});
+        tool.mutable().updateTag({display : {Lore : ["\u7C07\u751F\uFF1A" + level as string + "\u679A"]}});
     }
 };
 fascicledTrait.register();
@@ -2961,7 +2995,7 @@ parasitismTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelec
                 tool.mutable().updateTag({parasitism : 20});
             }
             var level as int = tool.tag.parasitism as int;
-            tool.mutable().updateTag({display : {Lore : ["§f寄生：" + level as string + "级"]}});
+            tool.mutable().updateTag({display : {Lore : ["\u00A7f\u5BC4\u751F\uFF1A" + level as string + "\u7EA7"]}});
         }
         if (!isNull(tool.tag.parasitismTraits)) {
             for i in 0 to tool.tag.parasitismTraits.length {
@@ -3313,6 +3347,16 @@ globiomeTrait.calcDamage = function(trait, tool, attacker, target, originalDamag
 };
 globiomeTrait.register();
 
+var EvolvedTiersMap as int[][string] = {
+    "wyvern_metal" : [1],
+    "fallen_metal" : [1],
+    "draconic_metal" : [2],
+    "relifed_metal": [2],
+    "chaotic_metal" : [3],
+    "stormy_metal" : [3],
+    "ordered_metal" : [4]
+};
+
 //游戏难度
 //§o快说：谢谢ED！\n§r工具耐久损耗将受到游戏难度加成。
 val leveling_durabilityTrait = TraitBuilder.create("leveling_durability");
@@ -3338,6 +3382,26 @@ leveling_durabilityTrait.onUpdate = function(trait, tool, world, owner, itemSlot
     if (!isNull(tool.tag.Unbreakable)) {
         if (tool.tag.Unbreakable as byte == 1 as byte) {
             tool.mutable().updateTag({Unbreakable : 0 as byte});
+        }
+    }
+    //\u5320\u9B42\u8FDB\u5316\u7B49\u7EA7\u4FEE\u6B63
+    if (!isNull(tool.tag.EvolvedTier)) {
+        var materialId as string = "";
+        if (CotTicLib.getTicMaterial(tool).length != 0) {
+            materialId = (CotTicLib.getTicMaterial(tool) as string[])[0] as string;
+        }
+        for metal in EvolvedTiersMap {
+            if (materialId == metal) {
+                var tier as int = EvolvedTiersMap[metal][0] as int;
+                if (tool.tag.EvolvedTier as int != tier) {
+                    if (tier >= 3) {
+                        tool.mutable().updateTag({EvolvedTier: 3, EvolvedTierExtra: tier as int});
+                    } else {
+                        tool.mutable().updateTag({EvolvedTier: tier as int, EvolvedTierExtra: tier as int});
+                    }
+                }
+                break;
+            }
         }
     }
 };
@@ -3489,3 +3553,40 @@ unshapedTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelecte
     }
 };
 unshapedTrait.register();
+
+
+val overattackTrait = TraitBuilder.create("overattack");
+overattackTrait.color = Color.fromHex("ffffff").getIntColor(); 
+overattackTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.overattackTrait.name");
+overattackTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.overattackTrait.desc");
+overattackTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (tool.getOverslime() >= 15 && Math.random() < 0.2f && !target.isBoss) {
+            tool.mutable().removeOverslime(15);
+            var dmg as float = originalDamage * 0.1f;
+            var source as IDamageSource = IDamageSource.createIndirectMagicDamage(player);
+            target.attackEntityFrom(source, dmg);
+            return newDamage * 0.9f;
+        }
+    }
+    return newDamage;
+};
+overattackTrait.register();
+
+val overarmyTrait = TraitBuilder.create("overarmy");
+overarmyTrait.color = Color.fromHex("ffffff").getIntColor(); 
+overarmyTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.overarmyTrait.name");
+overarmyTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.overarmyTrait.desc");
+overarmyTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        var count as int = 0;
+        for counter in CotTicTraitLib.getPlayerTicArmorTrait(player) {
+            if (counter == "moretcon.overslime") count += 1;
+        }
+        return newDamage * (1.0f + 0.3f * count as float) as float;
+    }
+    return newDamage;
+};
+overarmyTrait.register();

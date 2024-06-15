@@ -183,6 +183,10 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
         player.currentItem.mutable().shrink(64);
         player.sendStatusMessage("此物品已经在梦魇世界被禁用！");
     }
+    if (<ore:vetheaDisabled> in player.offHandHeldItem && player.getDimension() == 427) {
+        player.offHandHeldItem.mutable().shrink(64);
+        player.sendStatusMessage("此物品已经在梦魇世界被禁用！");
+    }
 
     // Remove radiation if the stage is locked
     if (!(player.hasGameStage("epic_engineer"))) {

@@ -16,6 +16,7 @@ import crafttweaker.damage.IDamageSource;
 import crafttweaker.entity.IEntityMob;
 import crafttweaker.entity.IEntity;
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IMutableItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
@@ -46,6 +47,40 @@ import mods.zenutils.DataUpdateOperation.BUMP;
 import mods.zenutils.StaticString;
 import mods.nuclearcraft.RadiationScrubber;
 import mods.ctintegration.scalinghealth.DifficultyManager;
+
+$expand IItemStack$hasTicTrait(traitid as string) as bool {
+    return CotTicTraitLib.hasTicTrait(this, traitid);
+}
+$expand IItemStack$isTicTool() as bool {
+    return CotTicLib.isTicTool(this);
+}
+$expand IItemStack$isTicArmor() as bool {
+    return CotTicLib.isTicArmor(this);
+}
+$expand IItemStack$getOverslime() as int {
+    if (this.isTicTool() || this.isTicArmor()) {
+        if (!isNull(this.tag."moretcon.overslime".remaining)) {
+            return this.tag."moretcon.overslime".remaining as int;
+        }
+    } else {
+        return 0;
+    }
+}
+$expand IMutableItemStack$setOverslime(num as int) as void {
+    if (this.hasTicTrait("moretcon.overslime")) {
+        this.updateTag({"moretcon.overslime" : {remaining : num as int}});
+    }
+}
+$expand IMutableItemStack$addOverslime(num as int) as void {
+    this.setOverslime(this.getOverslime() + num);
+}
+$expand IMutableItemStack$removeOverslime(num as int) as void {
+    if (num >= this.getOverslime()) {
+        this.setOverslime(0);
+    } else {
+        this.setOverslime(this.getOverslime() - num);
+    }
+}
 
 function lognum(a as int, b as int) as float {
     return (Math.log(b) as float / Math.log(a) as float) as float;
@@ -2511,6 +2546,16 @@ globiomeTrait.onHurt = function(trait, armor, player, source, damage, newDamage,
 };
 globiomeTrait.register();
 
+var EvolvedTiersMap as int[][string] = {
+    "wyvern_metal" : [1],
+    "fallen_metal" : [1],
+    "draconic_metal" : [2],
+    "relifed_metal": [2],
+    "chaotic_metal" : [3],
+    "stormy_metal" : [3],
+    "ordered_metal" : [4]
+};
+
 //游戏难度
 //§o快说：谢谢ED！\n§r护甲耐久损耗将受到游戏难度加成。
 val leveling_durabilityTrait = ArmorTraitBuilder.create("leveling_durability");
@@ -2539,6 +2584,26 @@ leveling_durabilityTrait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(armor.tag.Unbreakable)) {
         if (armor.tag.Unbreakable as byte == 1 as byte) {
             armor.mutable().updateTag({Unbreakable : 0 as byte});
+        }
+    }
+    //匠魂进化等级修正
+    if (!isNull(armor.tag.EvolvedTier)) {
+        var materialId as string = "";
+        if (CotTicLib.getTicMaterial(armor).length != 0) {
+            materialId = (CotTicLib.getTicMaterial(armor) as string[])[0] as string;
+        }
+        for metal in EvolvedTiersMap {
+            if (materialId == metal) {
+                var tier as int = EvolvedTiersMap[metal][0] as int;
+                if (armor.tag.EvolvedTier as int != tier) {
+                    if (tier >= 3) {
+                        armor.mutable().updateTag({EvolvedTier: 3, EvolvedTierExtra: tier as int});
+                    } else {
+                        armor.mutable().updateTag({EvolvedTier: tier as int, EvolvedTierExtra: tier as int});
+                    }
+                }
+                break;
+            }
         }
     }
 };

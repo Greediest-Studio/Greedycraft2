@@ -8,8 +8,49 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
 
 import scripts.util.recipes as RecipeUtil;
+
+val compressingOreDict as string[] = [
+    "BlackholeAlloy",
+    "ClockAlloy",
+    "CreativeAlloy",
+    "CurseAlloy",
+    "KillerAlloy",
+    "MistAlloy",
+    "SharpenAlloy",
+    "TwilitAlloy",
+    "Zodiacite"
+];
+
+for od in compressingOreDict {
+    var ingotOd as IOreDictEntry = oreDict.get("ingot" + od);
+    var blockOd as IOreDictEntry = oreDict.get("block" + od);
+    var nuggetOd as IOreDictEntry = oreDict.get("nugget" + od);
+    if (ingotOd.items.length != 0 && blockOd.items.length != 0) {
+        var ingotItem as IItemStack = ingotOd.firstItem;
+        var blockItem as IItemStack = blockOd.firstItem;
+        recipes.addShapeless(blockItem, [
+            ingotOd, ingotOd, ingotOd,
+            ingotOd, ingotOd, ingotOd,
+            ingotOd, ingotOd, ingotOd
+        ]);
+        recipes.addShapeless(ingotItem * 9, [blockOd]);
+    }
+    if (ingotOd.items.length != 0 && nuggetOd.items.length != 0) {
+        var ingotItem as IItemStack = ingotOd.firstItem;
+        var nuggetItem as IItemStack = nuggetOd.firstItem;
+        recipes.addShapeless(ingotItem, [
+            nuggetOd, nuggetOd, nuggetOd,
+            nuggetOd, nuggetOd, nuggetOd,
+            nuggetOd, nuggetOd, nuggetOd
+        ]);
+        recipes.addShapeless(nuggetItem * 9, [ingotOd]);
+    }
+}
+
 
 val compressingRecipes as IItemStack[IItemStack] = {
     <additions:aqualite_ingot> : <additions:greedycraft-aqualite_block>,
@@ -103,7 +144,14 @@ val compressingRecipes as IItemStack[IItemStack] = {
     <gct_ores:ordered_metal_nugget> : <gct_ores:ordered_metal_ingot>,
     <additions:greedycraft-flux_nugget> : <additions:greedycraft-flux_ingot>,
     <additions:greedycraft-flux_ingot> : <additions:greedycraft-flux_block>,
-    <gct_ores:finallium_ingot> : <additions:greedycraft-finallium_block>
+    <gct_ores:finallium_ingot> : <additions:greedycraft-finallium_block>,
+    <additions:greedycraft-queenslime_ingot> : <additions:greedycraft-queenslime_block>,
+    <additions:greedycraft-queenslime_nugget> : <additions:greedycraft-queenslime_ingot>,
+    <additions:greedycraft-godslime_ingot> : <additions:greedycraft-godslime_block>,
+    <additions:greedycraft-godslime_nugget> : <additions:greedycraft-godslime_ingot>,
+    <additions:greedycraft-emperorslime_ingot> : <additions:greedycraft-emperorslime_block>,
+    <additions:greedycraft-emperorslime_nugget> : <additions:greedycraft-emperorslime_ingot>,
+    <additions:mekaddon-scientificite_ingot> : <additions:greedycraft-scientificite_block>
 } as IItemStack[IItemStack];
 
 for original in compressingRecipes {

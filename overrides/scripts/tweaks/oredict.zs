@@ -818,7 +818,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:blockEnderBiotite> : [<quark:biotite_block>],
     <ore:blockEndBiotite> : [<quark:biotite_block>],
     <ore:blockFluix> : [<appliedenergistics2:fluix_block>],
-    <ore:blockCertusQuartz> : [<appliedenergistics2:quartz_block>]
+    <ore:blockCertusQuartz> : [<appliedenergistics2:quartz_block>],
+    <ore:blockHorizonite> : [<blue_skies:horizonite_block>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {
