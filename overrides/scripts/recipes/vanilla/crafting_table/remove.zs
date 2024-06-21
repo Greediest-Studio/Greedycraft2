@@ -139,7 +139,6 @@ val removedRecipes as IIngredient[] = [
     <danknull:dank_null_3>,
     <danknull:dank_null_4>,
     <danknull:dank_null_5>,
-    <thermalexpansion:satchel:*>,
     <cyclicmagic:cyclic_wand_build>,
     <cyclicmagic:block_vacuum>,
     <thermalexpansion:cache>,

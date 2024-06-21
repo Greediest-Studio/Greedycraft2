@@ -73,11 +73,8 @@ GameStagesUtil.stageHardmode.addOreReplacement(<iceandfire:sapphire_ore:*>, <min
 GameStagesUtil.stageNether.addOreReplacement(<minecraft:anvil:*>, <additions:greedycraft-unknown_block>, false);
 GameStagesUtil.stageNether.addOreReplacement(<minecraft:beacon:*>, <additions:greedycraft-unknown_block>, false);
 GameStagesUtil.stageNether.addOreReplacement(<minecraft:enchanting_table:*>, <additions:greedycraft-unknown_block>, false);
-GameStagesUtil.stageNether.addOreReplacement(<minecraft:quartz_ore>, <minecraft:netherrack>, false);
 GameStagesUtil.stageNether.addOreReplacement(<netherendingores:ore_other_1>, <minecraft:stone>, false);
 GameStagesUtil.stageNether.addOreReplacement(<ore:oreAeroite>, <aether_legacy:aercloud>, false);
-GameStagesUtil.stageNether.addOreReplacement(<ore:oreAqualite>, <minecraft:prismarine>, false);
-GameStagesUtil.stageNether.addOreReplacement(<thaumcraft:ore_quartz>, <minecraft:stone>, false);
 GameStagesUtil.stageNether.addOreReplacement(<divinerpg:rupee_ore>, <minecraft:stone>, false);
 GameStagesUtil.stageNether.addOreReplacement(<divinerpg:arlemite_ore>, <minecraft:stone>, false);
 GameStagesUtil.stageNether.addOreReplacement(<divinerpg:realmite_ore>, <minecraft:stone>, false);
