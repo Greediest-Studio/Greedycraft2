@@ -22,7 +22,6 @@ val mobStages as string[string] = {
     "enderiozoo:witherwitch": "hardmode",
     "touhou_little_maid:entity.monster.fairy": "nether",
     "touhou_little_maid:entity.monster.rinnosuke": "nether",
-    "minecraft:blaze": "twilight_shield",
     "minecraft:wither_skeleton": "twilight_shield",
     "thaumcraft:eldritchguardian": "novice_wizard",
     "thaumcraft:cultistportallesser": "novice_wizard",

@@ -33,8 +33,8 @@ recipes.addShaped("auto_gen_-1971544957", <additions:greedycraft-blueprint>, [
 
 recipes.addShaped("auto_gen_-226107769", <additions:greedycraft-twilight_gem>, [
     [<ore:treeSapling>, <botania:fertilizer>, <ore:treeSapling>],
-    [<thaumcraft:salis_mundus>, <ore:manaDiamond>, <thaumcraft:salis_mundus>],
-    [<ore:treeSapling>, <botania:fertilizer>, <ore:treeSapling>]
+    [<ore:dustDiamond>, <thaumcraft:salis_mundus>, <ore:dustDiamond>],
+    [<ore:treeSapling>, <ore:manaDiamond>, <ore:treeSapling>]
 ]);
 
 recipes.addShaped("auto_gen_-1473452503", <additions:greedycraft-twilight_shield>, [

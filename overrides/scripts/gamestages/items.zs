@@ -354,7 +354,6 @@ GameStagesUtil.stageNether.addIngredients([
     <ore:blockNetherite>,
     <ore:gemAncientDebris>,
     <ore:oreAncientDebris>,
-    <minecraft:beacon>,
     <ore:oreArdite>,
     <ore:ingotArdite>,
     <ore:dustArdite>,

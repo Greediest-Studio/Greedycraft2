@@ -86,8 +86,8 @@ AlloySmelter.addRecipe(<additions:numbereum_ingot> * 2, [<ore:ingotRapesesium> *
 AlloySmelter.addRecipe(<additions:babyrite_ingot> * 3, [<ore:ingotGold> * 7, <ore:ingotRubium> * 2, <ore:ingotClearite>], 2000, 10.0f);
 AlloySmelter.addRecipe(<additions:leadite_ingot> * 3, [<ore:ingotCirclium> * 2, <ore:ingotTechnetium>, <ore:ingotFallenium> * 6], 2000, 10.0f);
 AlloySmelter.addRecipe(<additions:martisite_ingot> * 3, [<ore:ingotCestium> * 4, <ore:ingotLeadite> * 3, <ore:ingotNumbereum> * 3], 2000, 10.0f);
-AlloySmelter.addRecipe(<additions:flashite_ingot> * 3, [<ore:ingotFraxinium> * 2, <ore:ingotTreasurite> * 2, <ore:ingotErrorite> * 2], 2000, 10.0f);
-AlloySmelter.addRecipe(<additions:overlaite_ingot>, [<ore:ingotMartisite>, <ore:ingotClearite>], 2000, 10.0f);
+AlloySmelter.addRecipe(<additions:flashite_ingot> * 6, [<ore:ingotFraxinium> * 2, <ore:ingotTreasurite> * 2, <ore:ingotErrorite> * 2], 2000, 10.0f);
+AlloySmelter.addRecipe(<additions:overlaite_ingot> * 3, [<ore:ingotMartisite>, <ore:ingotClearite>], 2000, 10.0f);
 AlloySmelter.addRecipe(<plustic:osgloglasingot>, [<ore:ingotOsmium>, <ore:ingotRefinedGlowstone>, <ore:ingotRefinedObsidian>], 2000, 10.0f);
 AlloySmelter.addRecipe(<nuclearcraft:alloy:16> * 2, [<ore:ingotZirconium>, <ore:ingotMolybdenum>], 2000, 10.0f);
 AlloySmelter.addRecipe(<additions:eioaddon-clock_alloy_ingot> * 2, [<ore:dustTime>, <ore:ingotMelodicAlloy> * 2, <divinerpg:mysterious_clock>], 10000, 60.0f);

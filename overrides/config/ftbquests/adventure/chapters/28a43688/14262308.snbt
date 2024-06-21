@@ -14,30 +14,6 @@
 	],
 	size: 1.5d,
 	tasks: [{
-		uid: "b3b9e778",
-		type: "kill",
-		entity: "mowziesmobs:barako",
-		value: 1L
-	},
-	{
-		uid: "1ae022cc",
-		type: "kill",
-		entity: "endreborn:endlord",
-		value: 1L
-	},
-	{
-		uid: "ffeab01b",
-		type: "kill",
-		entity: "dungeonsmod:kraken",
-		value: 1L
-	},
-	{
-		uid: "058d7a52",
-		type: "kill",
-		entity: "dungeonsmod:ironslime",
-		value: 1L
-	},
-	{
 		uid: "3dfcee30",
 		type: "item",
 		items: [{
