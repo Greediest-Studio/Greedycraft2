@@ -108,69 +108,6 @@ addGroup("pre_nether", (0.25 * MOB_ARMOR_MULTIPLIER as double) as double, [{
     legs: <minecraft:chainmail_leggings> % 15,
     feet: <minecraft:chainmail_boots> % 15
 }, {
-    head: <thermalfoundation:armor.helmet_copper> % 10,
-    chest: <thermalfoundation:armor.plate_copper> % 10,
-    legs: <thermalfoundation:armor.legs_copper> % 10,
-    feet: <thermalfoundation:armor.boots_copper> % 10,
-    mainhand: <thermalfoundation:tool.sword_copper> % 5,
-    offhand: <thermalfoundation:tool.shield_copper> % 5
-}, {
-    head: <thermalfoundation:armor.helmet_tin> % 10,
-    chest: <thermalfoundation:armor.plate_tin> % 10,
-    legs: <thermalfoundation:armor.legs_tin> % 10,
-    feet: <thermalfoundation:armor.boots_tin> % 10,
-    mainhand: <thermalfoundation:tool.sword_tin> % 5,
-    offhand: <thermalfoundation:tool.shield_tin> % 5
-}, {
-    head: <thermalfoundation:armor.helmet_silver> % 5,
-    chest: <thermalfoundation:armor.plate_silver> % 5,
-    legs: <thermalfoundation:armor.legs_silver> % 5,
-    feet: <thermalfoundation:armor.boots_silver> % 5,
-    mainhand: <thermalfoundation:tool.sword_silver> % 5,
-    offhand: <thermalfoundation:tool.shield_silver> % 5
-}, {
-    head: <thermalfoundation:armor.helmet_nickel> % 5,
-    chest: <thermalfoundation:armor.plate_nickel> % 5,
-    legs: <thermalfoundation:armor.legs_nickel> % 5,
-    feet: <thermalfoundation:armor.boots_nickel> % 5,
-    mainhand: <thermalfoundation:tool.sword_nickel> % 5,
-    offhand: <thermalfoundation:tool.shield_nickel> % 5
-}, {
-    head: <thermalfoundation:armor.helmet_lead> % 5,
-    chest: <thermalfoundation:armor.plate_lead> % 5,
-    legs: <thermalfoundation:armor.legs_lead> % 5,
-    feet: <thermalfoundation:armor.boots_lead> % 5,
-    mainhand: <thermalfoundation:tool.sword_lead> % 5,
-    offhand: <thermalfoundation:tool.shield_lead> % 5
-}, {
-    head: <thermalfoundation:armor.helmet_aluminum> % 5,
-    chest: <thermalfoundation:armor.plate_aluminum> % 5,
-    legs: <thermalfoundation:armor.legs_aluminum> % 5,
-    feet: <thermalfoundation:armor.boots_aluminum> % 5,
-    mainhand: <thermalfoundation:tool.sword_aluminum> % 5,
-    offhand: <thermalfoundation:tool.shield_aluminum> % 5
-}, {
-    head: <thermalfoundation:armor.helmet_bronze> % 10,
-    chest: <thermalfoundation:armor.plate_bronze> % 10,
-    legs: <thermalfoundation:armor.legs_bronze> % 10,
-    feet: <thermalfoundation:armor.boots_bronze> % 10,
-    mainhand: <thermalfoundation:tool.sword_bronze> % 5,
-    offhand: <thermalfoundation:tool.shield_bronze> % 5
-}, {
-    head: <thermalfoundation:armor.helmet_constantan> % 5,
-    chest: <thermalfoundation:armor.plate_constantan> % 5,
-    legs: <thermalfoundation:armor.legs_constantan> % 5,
-    feet: <thermalfoundation:armor.boots_constantan> % 5,
-    mainhand: <thermalfoundation:tool.sword_constantan> % 3,
-    offhand: <thermalfoundation:tool.shield_constantan> % 3
-}, {
-    head: <thermalfoundation:armor.helmet_electrum> % 5,
-    chest: <thermalfoundation:armor.plate_electrum> % 5,
-    legs: <thermalfoundation:armor.legs_electrum> % 5,
-    feet: <thermalfoundation:armor.boots_electrum> % 5,
-    mainhand: <thermalfoundation:tool.sword_electrum> % 3,
-    offhand: <thermalfoundation:tool.shield_electrum> % 3
-}, {
     offhand: <minecraft:shield> % 20
 }, {
     offhand: <tconstruct:battlesign>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0f, MiningSpeed: 2.5f, FreeModifiers: 3, Durability: 91, HarvestLevel: 0, Attack: 2.0f}, Stats: {AttackSpeedMultiplier: 1.0f, MiningSpeed: 2.5f, FreeModifiers: 5, Durability: 91, HarvestLevel: 0, Attack: 2.0f}, Special: {Categories: ["weapon", "tool"]}, TinkerData: {Materials: ["wood", "wood"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "ecological", color: -7444965, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["ecological", "toolleveling"]}) % 10
@@ -252,27 +189,6 @@ addGroup("post_nether", (0.2 * MOB_ARMOR_MULTIPLIER as double) as double, [{
     feet: <tofucraft:armordiamondboots> % 5,
     mainhand: <tofucraft:sworddiamond>.withTag({ench: [{lvl: 2 as short, id: 16}, {lvl: 1 as short, id: 19}]}) % 5
 }, {
-    head: <thermalfoundation:armor.helmet_steel> % 10,
-    chest: <thermalfoundation:armor.plate_steel> % 10,
-    legs: <thermalfoundation:armor.legs_steel> % 10,
-    feet: <thermalfoundation:armor.boots_steel> % 10,
-    mainhand: <thermalfoundation:tool.sword_steel> % 5,
-    mainhand: <thermalfoundation:tool.shield_steel> % 5
-}, {
-    head: <thermalfoundation:armor.helmet_platinum> % 10,
-    chest: <thermalfoundation:armor.plate_platinum> % 10,
-    legs: <thermalfoundation:armor.legs_platinum> % 10,
-    feet: <thermalfoundation:armor.boots_platinum> % 10,
-    mainhand: <thermalfoundation:tool.sword_platinum> % 5,
-    mainhand: <thermalfoundation:tool.shield_platinum> % 5
-}, {
-    head: <thermalfoundation:armor.helmet_invar> % 5,
-    chest: <thermalfoundation:armor.plate_invar> % 5,
-    legs: <thermalfoundation:armor.legs_invar> % 5,
-    feet: <thermalfoundation:armor.boots_invar> % 5,
-    mainhand: <thermalfoundation:tool.sword_invar> % 3,
-    mainhand: <thermalfoundation:tool.shield_invar> % 3
-}, {
     head: <actuallyadditions:item_helm_crystal_green> % 3,
     chest: <actuallyadditions:item_chest_crystal_green> % 3,
     legs: <actuallyadditions:item_pants_crystal_green> % 3,
@@ -297,8 +213,6 @@ addGroup("post_nether", (0.2 * MOB_ARMOR_MULTIPLIER as double) as double, [{
     feet: <tcomplement:knightslime_boots> % 10,
     mainhand: <tconstruct:broadsword>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0f, MiningSpeed: 7.25f, FreeModifiers: 3, Durability: 1630, HarvestLevel: 3, Attack: 6.1f}, Stats: {AttackSpeedMultiplier: 1.0f, MiningSpeed: 7.25f, FreeModifiers: 5, Durability: 1630, HarvestLevel: 3, Attack: 6.1f}, Special: {Categories: ["weapon", "tool"]}, TinkerData: {Materials: ["knightslime", "knightslime", "knightslime"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "unnatural", color: -946192, level: 1}, {identifier: "crumbling", color: -946192, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["unnatural", "crumbling", "toolleveling"]}) % 5,
     mainhand: <tconstruct:hammer>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0f, MiningSpeed: 7.25f, FreeModifiers: 3, Durability: 3470, HarvestLevel: 3, Attack: 5.1f}, Stats: {AttackSpeedMultiplier: 1.0f, MiningSpeed: 7.25f, FreeModifiers: 5, Durability: 3470, HarvestLevel: 3, Attack: 5.1f}, Special: {Categories: ["aoe", "weapon", "harvest", "tool"]}, TinkerData: {Materials: ["knightslime", "knightslime", "knightslime", "knightslime"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "unnatural", color: -946192, level: 1}, {identifier: "crumbling", color: -946192, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["unnatural", "crumbling", "toolleveling"]}) % 5
-}, {
-    offhand: <thermalfoundation:tool.shield_diamond> % 20
 }, {
     offhand: <tconstruct:battlesign>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0f, MiningSpeed: 8.75f, FreeModifiers: 3, Durability: 366, HarvestLevel: 2, Attack: 6.0f}, Stats: {AttackSpeedMultiplier: 1.0f, MiningSpeed: 8.75f, FreeModifiers: 5, Durability: 366, HarvestLevel: 2, Attack: 6.0f}, Special: {Categories: ["weapon", "tool"]}, TinkerData: {Materials: ["steeleaf", "steeleaf"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "twilit", color: -11368646, level: 1}, {identifier: "synergy", color: -11368646, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["twilit", "synergy", "toolleveling"]}) % 20
 }, {
@@ -385,8 +299,6 @@ addGroup("post_hardmode", (0.2 * MOB_ARMOR_MULTIPLIER as double) as double, [{
     legs: <twilightforest:yeti_leggings>.withTag({ench: [{lvl: 2 as short, id: 0}]}) % 5,
     feet: <twilightforest:yeti_boots>.withTag({ench: [{lvl: 2 as short, id: 0}, {lvl: 4 as short, id: 2}]}) % 5,
     mainhand: <twilightforest:fiery_sword>.withTag({ench: [{lvl: 2 as short, id: 20}, {lvl: 2 as short, id: 19}]})
-}, {
-    offhand: <thermalfoundation:tool.shield_platinum> % 20
 }, {
     offhand: <tconstruct:battlesign>.withTag({StatsOriginal: {AttackSpeedMultiplier: 1.0f, MiningSpeed: 20.0f, FreeModifiers: 3, Durability: 8960, HarvestLevel: 4, Attack: 8.5f}, Stats: {AttackSpeedMultiplier: 1.0f, MiningSpeed: 20.0f, FreeModifiers: 5, Durability: 8960, HarvestLevel: 4, Attack: 8.5f}, Special: {Categories: ["weapon", "tool"]}, TinkerData: {Materials: ["stainless_steel", "stainless_steel"], Modifiers: ["toolleveling"]}, Modifiers: [{identifier: "anticorrosion", color: -9079435, level: 1}, {identifier: "fortified", color: -9079435, level: 1}, {identifier: "reliable", color: -9079435, level: 1}, {identifier: "toolleveling", color: 16777215, level: 1}], Traits: ["anticorrosion", "fortified", "reliable", "toolleveling"]}) % 20
 }, {
