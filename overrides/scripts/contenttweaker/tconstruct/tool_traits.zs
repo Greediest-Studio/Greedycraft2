@@ -1938,7 +1938,7 @@ thadTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, n
     if (attacker instanceof IPlayer) {
         var multiplier as int = 0;
         for str in tool.tag.asString().split("Traits: ") {
-            if (!(str has "Durability")) {
+            if (str has "Durability") {
                 var counter as int = 0;
                 for i in 1 to str.length {
                     if (str[i] == "\"") {
