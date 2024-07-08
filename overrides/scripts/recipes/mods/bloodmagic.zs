@@ -46,16 +46,7 @@ BloodAltar.addRecipe(<additions:greedycraft-pearl_of_knowledge>, <botania:manare
 BloodAltar.addRecipe(<additions:greedycraft-creative_shard>, <additions:greedycraft-cosmilite_block>, 5, 850000, 700, 700);
 BloodAltar.addRecipe(<additions:bloody-slate_6>, <bloodmagic:slate:4>, 5, 200000, 400, 400);
 
-AlchemyArray.removeRecipe(<bloodmagic:component:8>, <minecraft:iron_helmet>);
-AlchemyArray.removeRecipe(<bloodmagic:component:8>, <minecraft:iron_chestplate>);
-AlchemyArray.removeRecipe(<bloodmagic:component:8>, <minecraft:iron_leggings>);
-AlchemyArray.removeRecipe(<bloodmagic:component:8>, <minecraft:iron_boots>);
-AlchemyArray.removeRecipe(<bloodmagic:component:8>, <minecraft:diamond_sword>);
-AlchemyArray.removeRecipe(<bloodmagic:component:8>, <minecraft:diamond_pickaxe>);
-AlchemyArray.removeRecipe(<bloodmagic:component:8>, <minecraft:diamond_axe>);
-AlchemyArray.removeRecipe(<bloodmagic:component:8>, <minecraft:diamond_shovel>);
-AlchemyArray.removeRecipe(<bloodmagic:component:8>, <minecraft:diamond_hoe>);
-AlchemyArray.removeRecipe(<bloodmagic:component:8>, <animus:kama_bound>);
+AlchemyArray.removeRecipe(<bloodmagic:component:8>, <animus:kama_diamond>);
 
 AlchemyArray.addRecipe(<bloodarsenal:blood_diamond:3>, <bloodmagic:component:8>, <bloodarsenal:blood_diamond:2>, "bloodmagic:textures/models/AlchemyArrays/bindingarray.png");
 AlchemyArray.addRecipe(<bloodmagic:blood_shard:1>, <bloodmagic:slate:3>, <bloodmagic:blood_shard>, "bloodmagic:textures/models/AlchemyArrays/bindingarray.png");
