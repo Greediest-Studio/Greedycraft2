@@ -868,7 +868,7 @@ GameStagesUtil.stageHardmode.addIngredients([
     <actuallyadditions:block_phantom_redstoneface>,
     <actuallyadditions:item_disenchanting_lens>,
     <additions:greedycraft-forbidden_bible>,
-    <extrautils2:machine>.withTag({Type: "extrautils2:generator_enchant"}),,
+    <extrautils2:machine>.withTag({Type: "extrautils2:generator_enchant"}),
     <additions:greedycraft-true_blood_sigil>,
     <additions:greedycraft-ordinary_medal>,
     <abyssalcraft:gatewaykeyjzh>,
