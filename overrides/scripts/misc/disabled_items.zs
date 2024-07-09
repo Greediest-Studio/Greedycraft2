@@ -50,7 +50,6 @@ val disabledItems as IIngredient[] = [
     <astralsorcery:itemenchantmentamulet>,
     <lootbags:loot_recycler>,
     <lootbags:loot_storage>,
-    <bloodarsenal:base_item:9>,
     <tconstruct:spaghetti>,
     <tconstruct:moms_spaghetti>,
     <abyssalcraft:abyssalniteu>,
@@ -1537,12 +1536,10 @@ val disabledRecipeRegex as string[] = [
     "^extrabotany:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet)|(legs)|(helm)|(pick)|(chest))$",
     "^enderio:(.*)((pickaxe)|(paxel)|(bow)|(hoe)|(sword)|(axe)|(shovel)|(boots)|(leggings)|(chestplate)|(helmet))$",
     "^thermalfoundation:tool.fishing_rod_(.*)$",
-    "^jaopca:block_crystalcluster(.*)$",
     "^actuallyadditions:recipes24[3456789]$",
     "^actuallyadditions:recipes2[56789].$",
     "^actuallyadditions:recipes3[012].$",
     "^actuallyadditions:recipes33[01234567]$",
-    "^thermalfoundation:((tool)|(armor))(.*)$",
     "^redstonearsenal:((tool)|(armor))(.*)$",
     "^redstonerepository:((tool)|(armor))(.*)$"
 ];

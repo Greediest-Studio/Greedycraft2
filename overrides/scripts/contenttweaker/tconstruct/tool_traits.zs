@@ -2642,7 +2642,7 @@ radiatedTrait.calcDamage = function(trait, tool, attacker, target, originalDamag
     if (attacker instanceof IPlayer) {
         var player as IPlayer = attacker;
         var radiation as double = player.getRadiation() as double;
-        var mtp as float = radiation as float / 100.0f;
+        var mtp as float = radiation as float / 5000.0f;
         return newDamage * (1.0f + mtp as float);
     }
     return newDamage;

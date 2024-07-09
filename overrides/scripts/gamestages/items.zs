@@ -829,7 +829,6 @@ GameStagesUtil.stageNoviceEngineer.addIngredients([
     <actuallyadditions:block_canola_press>,
     <actuallyadditions:block_coffee_machine>,
     <actuallyadditions:block_atomic_reconstructor>,
-    <enderio:item_dark_steel_sword>,
     <ore:ingotClockAlloy>,
     <ore:nuggetClockAlloy>,
     <ore:blockClockAlloy>,
@@ -869,8 +868,7 @@ GameStagesUtil.stageHardmode.addIngredients([
     <actuallyadditions:block_phantom_redstoneface>,
     <actuallyadditions:item_disenchanting_lens>,
     <additions:greedycraft-forbidden_bible>,
-    <extrautils2:machine>.withTag({Type: "extrautils2:generator_enchant"}),
-    <extrabotany:bottledflame>,
+    <extrautils2:machine>.withTag({Type: "extrautils2:generator_enchant"}),,
     <additions:greedycraft-true_blood_sigil>,
     <additions:greedycraft-ordinary_medal>,
     <abyssalcraft:gatewaykeyjzh>,
@@ -1121,25 +1119,16 @@ GameStagesUtil.stageInfinity.addIngredients([
 ], true);
 
 GameStagesUtil.stageGraduated.addIngredients([
-    <extrautils2:creativeenergy>,
-    <extrautils2:passivegenerator:6>,
     <extrautils2:itemcreativedestructionwand>,
     <extrautils2:itemcreativebuilderswand>,
     <extrautils2:creativeharvest>,
     <draconicevolution:draconium_capacitor:2>,
     <appliedenergistics2:creative_storage_cell>,
-    <thermalcultivation:watering_can:32000>,
-    <thermalinnovation:injector:32000>,
     <botania:pool:1>,
     <mysticalagradditions:stuff:69>,
     <additions:greedycraft-creative_controller>,
-    <danknull:dank_null_6>,
-    <projecte:item.pe_time_watch>,
-    <projecte:item.pe_tome>,
     <thermalfoundation:upgrade:256>,
     <storagedrawers:upgrade_creative:1>,
-    <extrautils2:spike_creative>,
-    <extrautils2:creativechest>,
     <thaumicwonders:creative_essentia_jar>,
     <randomthings:creativeplayerinterface>,
     <draconicevolution:creative_exchanger>,
@@ -1370,13 +1359,6 @@ GameStagesUtil.stageEpicWizard.addIngredients([
     <gct_mobs:arcane_vis_receiver>,
     <gct_mobs:primordial_vis_receiver>,
     <gct_mobs:primordial_stone>,
-    <gct_mobs:primordial_stonebrick>,
-    <gct_mobs:primordial_stone_stairs>,
-    <gct_mobs:primordial_stonebrick_stairs>,
-    <gct_mobs:primordial_stone_slab>,
-    <gct_mobs:primordial_stonebrick_slab>,
-    <gct_mobs:primordial_stone_wall>,
-    <gct_mobs:primordial_stonebrick_wall>,
     <ore:ingotCorruptium>,
     <ore:nuggetCorruptium>,
     <ore:dustCorruptium>,
@@ -1458,7 +1440,6 @@ GameStagesUtil.stageSkilledEngineer.addIngredients([
     <randomthings:imbuingstation>,
     <randomthings:spectreblock>,
     <randomthings:analogemitter>,
-    <randomthings:fluiddisplay>,
     <randomthings:advancedredstoneinterface>,
     <randomthings:fertilizeddirt>,
     <randomthings:playerinterface>,
@@ -1611,8 +1592,7 @@ GameStagesUtil.stageChallenger6.addIngredients([
 ], true);
 
 GameStagesUtil.stageChallenger7.addIngredients([
-    <ore:seedsTier6>,
-    <tinymobfarm:ultimate_farm>
+    <ore:seedsTier6>
 ], true);
 
 GameStagesUtil.stageFearlessMan.addIngredients([
@@ -1658,10 +1638,6 @@ GameStagesUtil.stageGatekeeper.addIngredients([
 
 GameStagesUtil.stageFinal.addIngredients([
     <gct_ores:shalloite>,
-    <gct_ores:shalloite_block>,
-    <gct_ores:shalloite_slab>,
-    <gct_ores:shalloite_stair>,
-    <gct_ores:shalloite_block_chiseled>,
     <ore:oreArimite>,
     <ore:ingotArimite>,
     <ore:nuggetArimite>,

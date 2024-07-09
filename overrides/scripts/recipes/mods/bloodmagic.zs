@@ -47,6 +47,7 @@ BloodAltar.addRecipe(<additions:greedycraft-creative_shard>, <additions:greedycr
 BloodAltar.addRecipe(<additions:bloody-slate_6>, <bloodmagic:slate:4>, 5, 200000, 400, 400);
 
 AlchemyArray.removeRecipe(<bloodmagic:component:8>, <animus:kama_diamond>);
+AlchemyArray.removeRecipe(<bloodarsenal:base_item:9>, <bloodmagic:slate:4>);
 
 AlchemyArray.addRecipe(<bloodarsenal:blood_diamond:3>, <bloodmagic:component:8>, <bloodarsenal:blood_diamond:2>, "bloodmagic:textures/models/AlchemyArrays/bindingarray.png");
 AlchemyArray.addRecipe(<bloodmagic:blood_shard:1>, <bloodmagic:slate:3>, <bloodmagic:blood_shard>, "bloodmagic:textures/models/AlchemyArrays/bindingarray.png");
