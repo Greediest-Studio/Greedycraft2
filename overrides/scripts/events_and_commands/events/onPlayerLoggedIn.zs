@@ -23,6 +23,7 @@ import crafttweaker.command.ICommandSender;
 import crafttweaker.text.ITextComponent;
 import crafttweaker.chat.IChatMessage;
 
+import mods.contenttweaker.Commands;
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
 import mods.ctintegration.data.DataUtil;
@@ -90,4 +91,9 @@ events.onPlayerLoggedIn(function (event as PlayerLoggedInEvent) {
     server.commandManager.executeCommand(server, "/difficulty hard");
 
     server.commandManager.executeCommand(server, "/advancement revoke " + player.name + " through greedycraft:elysia/root");
+});
+
+events.onPlayerLoggedIn(function(event) {
+    var player as IPlayer = event.player;
+	call("solarflux reload",player,world, false, true);
 });
