@@ -187,6 +187,13 @@
 		random_bonus: 1
 	},
 	{
+		item: "solarflux:solar_panel_7"
+	},
+	{
+		item: "solarflux:solar_panel_6",
+		random_bonus: 1
+	},
+	{
 		item: {
 			id: "ftbquests:lootcrate",
 			tag: {
@@ -557,6 +564,19 @@
 		random_bonus: 30
 	},
 	{
+		item: {
+			id: "minecraft:written_book",
+			tag: {
+				pages: [
+					"{\"text\":\"§c实验记录 §6#-2147483647\\n\\n§k//// HELP US!\\n§d§k//// OOUR SPECIES IS IN GREAT DANGER\\n§k§4§c§k//// HALF OF OUR PEOPLE WERE ERASED IN THE PAST FEW HOURS\\n§2§k//// SEEK FOR COMMUNICATION WITH THE INTRUDER IMMEDIATELY\\n\\n§k§4§k - UNITED GOVERNMENT\\n§k§9§k§9§k- OPERATO\"}"
+				],
+				author: "J",
+				title: "§b§kEMERGENCY!§6",
+				resolved: 1b
+			}
+		}
+	},
+	{
 		item: "mekanismgenerators:generator 1 6",
 		random_bonus: 3
 	},
@@ -624,8 +644,10 @@
 		item: "additions:greedycraft-true_eye_of_ender"
 	},
 	{
-		item: "additions:sponsor2-chest",
-		weight: 2
+		item: "additions:sponsor2-chest"
+	},
+	{
+		item: "additions:sponsor2-chest"
 	}],
 	loot_crate: {
 		string_id: "loot_level_3",
