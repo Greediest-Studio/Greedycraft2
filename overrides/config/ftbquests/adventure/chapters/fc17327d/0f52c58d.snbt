@@ -20,7 +20,7 @@
 		uid: "73c1ec67",
 		type: "item",
 		item: "twilightforest:ironwood_raw",
-		count: 10
+		count: 20
 	},
 	{
 		uid: "3ce5c3c7",
@@ -53,10 +53,5 @@
 		auto: "no_toast",
 		advancement: "twilightforest:progress_lich",
 		criterion: ""
-	},
-	{
-		uid: "055538bf",
-		type: "item",
-		item: "twilightforest:twilight_scepter"
 	}]
 }

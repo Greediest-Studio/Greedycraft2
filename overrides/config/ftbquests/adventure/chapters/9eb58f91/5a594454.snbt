@@ -7,13 +7,13 @@
 		""
 	],
 	dependencies: [
-		"a19315fc"
+		"b5314b30"
 	],
 	tasks: [{
 		uid: "74328403",
 		type: "item",
 		items: [{
-			id: "mekeng:wireless_gas_terminal",
+			id: "aeadditions:terminal.gas.wireless",
 			tag: {}
 		}],
 		ignore_damage: true,
