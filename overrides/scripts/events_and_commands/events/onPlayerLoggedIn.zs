@@ -93,7 +93,7 @@ events.onPlayerLoggedIn(function (event as PlayerLoggedInEvent) {
     server.commandManager.executeCommand(server, "/advancement revoke " + player.name + " through greedycraft:elysia/root");
 });
 
-events.onPlayerLoggedIn(function(event) {
+events.onPlayerLoggedIn(function(event as PlayerLoggedInEvent) {
     var player as IPlayer = event.player;
-	call("solarflux reload",player,world, false, true);
+	mods.contenttweaker.Commands.call("solarflux reload",player,player.world, false, true);
 });
