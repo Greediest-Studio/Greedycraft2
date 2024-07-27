@@ -23,7 +23,6 @@ import crafttweaker.command.ICommandSender;
 import crafttweaker.text.ITextComponent;
 import crafttweaker.chat.IChatMessage;
 
-import mods.contenttweaker.Commands;
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
 import mods.ctintegration.data.DataUtil;
