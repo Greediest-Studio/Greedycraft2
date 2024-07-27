@@ -177,7 +177,7 @@ for i in 1 to 7 {
         .addFluidInput(<liquid:redstone> * 6000)
         .addItemInput(<ore:plateIron> * 8)
         .addItemInput(<ore:plateCopper> * 8)
-        .addItemInput(<ore:plateAluminium> * 8)
+        .addItemInput(<ore:plateAluminum> * 8)
         .addItemInput(<ore:plateTin> * 8)
         .addItemInput(<ore:plateNickel> * 8)
         .addItemInput(<ore:plateLead> * 8)
