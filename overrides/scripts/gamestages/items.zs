@@ -46,15 +46,6 @@ GameStagesUtil.stageDescendantOfTheSun.addIngredients([
     <gct_ores:relifed_core>
 ], true);
 
-GameStagesUtil.stageExpert.addIngredients([
-    <additions:greedycraft-fake_philosopher_stone>,
-    <additions:greedycraft-undead_medkit>,
-    <additions:greedycraft-strange_lolipop>,
-    <additions:greedycraft-adrenaline>,
-    <additions:greedycraft-shield_gum>,
-    <additions:greedycraft-goodie_bag>
-], true);
-
 GameStagesUtil.stageVetheaBreaker.addIngredients([
     <additions:greedycraft-proliferation_star>
 ], true);
@@ -478,15 +469,10 @@ GameStagesUtil.stageNether.addIngredients([
     <abyssalcraft:ingotnugget:1>,
     <acintegration:dust:1>,
     <additions:twilightaddon-refined_twilight_gem>,
-    <tconstruct:ingots:2>,
-    <tconstruct:metal:2>,
-    <tconstruct:nuggets:2>,
     <additions:greedycraft-iciricium_scroll>,
     <additions:greedycraft-gem_of_sing>,
     <additions:greedycraft-balancite_ingot>,
-    <additions:greedycraft-balancite_block>,
-    <additions:twilightaddon-fiery_ore>,
-    <additions:twilightaddon-knigh_metal_ore>
+    <additions:greedycraft-balancite_block>
 ], true);
 
 GameStagesUtil.stageNether.addIngredients([
@@ -936,14 +922,6 @@ GameStagesUtil.stageHardmode.addIngredients([
     <ore:nuggetEthaxium>,
     <ore:ingotEthaxiumBrick>,
     <ore:gemEnderBiotite>,
-    <tofucraft:swordkinu>,
-    <tofucraft:swordmomen>,
-    <tofucraft:swordsolid>,
-    <tofucraft:swordmetal>,
-    <tofucraft:sworddiamond>,
-    <netherex:amethyst_ore>,
-    <netherex:amethyst_crystal>,
-    <netherex:amethyst_block>,
     <modularmachinery:blockcasing:3>,
     <ore:ingotAeonsteel>,
     <ore:blockAeonsteel>,
@@ -1156,14 +1134,11 @@ GameStagesUtil.stageWitherSlayer.addIngredients([
     <ore:blockEvilMetal>,
     <rftools:shield_template_block:*>,
     <rftools:shield_block1>,
-    <rftools:shield_block2>,
     <minecraft:end_crystal>,
     <ore:ingotStellarAlloy>,
     <ore:blockStellarAlloy>,
     <ore:nuggetStellarAlloy>,
     <abyssalcraft:soulreaper>,
-    <additions:greedycraft-soul_of_slider>,
-    <additions:greedycraft-gem_of_valkyrie>,
     <additions:greedycraft-sun_crystal>,
     <journey:flamecoin>,
     <additions:greedycraft-chillinium_ingot>,
@@ -1196,8 +1171,7 @@ GameStagesUtil.stageWitherSlayer.addIngredients([
     <ore:blockApollonium>,
     <ore:dustApollonium>,
     <additions:greedycraft-apollonium_overheat_ingot>,
-    <ore:gemSliderRefined>,
-    <additions:greedycraft-slider_gem_unforked>
+    <ore:gemSliderRefined>
 ], true);
 
 GameStagesUtil.stageGaiaDeleter.addIngredients([
@@ -1290,7 +1264,6 @@ GameStagesUtil.stageMasterWizard.addIngredients([
     <astralsorcery:blockprism>,
     <astralsorcery:itemshiftingstar>,
     <astralsorcery:itemcraftingcomponent:4>,
-    <additions:greedycraft-arcane_crystal_ball>,
     <ore:blockAstralMetal>,
     <ore:ingotAstralMetal>,
     <gct_mac:astral_portal>,
@@ -1344,7 +1317,6 @@ GameStagesUtil.stageEpicWizard.addIngredients([
     <thaumadditions:mithrillium_nugget>,
     <thaumadditions:adaminite_nugget>,
     <thaumadditions:mithminite_nugget>,
-    <thaumadditions:mithminite_smelter>,
     <thaumadditions:adaminite_smelter>,
     <thaumadditions:mithrillium_smelter>,
     <thaumadditions:void_anvil>,
