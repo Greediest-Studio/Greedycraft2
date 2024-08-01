@@ -125,3 +125,16 @@ Dropt.list("lucky_clover")
           .items([<additions:greedycraft-lucky_clover>])
     )
 );
+
+Dropt.list("grass_drop")
+    .add(Dropt.rule()
+    .matchBlocks(["minecraft:tallgrass:*","minecraft:grass:*"])
+    .replaceStrategy("ADD")
+    .addDrop(Dropt.drop()
+        .selector(Dropt.weight(70))
+    )
+    .addDrop(Dropt.drop()
+        .selector(Dropt.weight(30))
+        .items([<contenttweaker:kusa>])
+    )
+);
