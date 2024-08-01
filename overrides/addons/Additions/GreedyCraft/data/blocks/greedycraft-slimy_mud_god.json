@@ -1,0 +1,17 @@
+{
+  "item_block": {
+    "name": "§b创神黏滑泥泞",
+    "shines": true,
+    "tooltip": "§7要我说，你真是疯了。",
+    "type": "additions:block_simple"
+  },
+  "name": "§b创神黏滑泥泞",
+  "material": "minecraft:dirt",
+  "hardness": 3.0,
+  "resistance": 500.0,
+  "harvest_tool": "shovel",
+  "light_level": 5,
+  "slipperiness": 1.0,
+  "is_slime": true,
+  "type": "additions:simple"
+}

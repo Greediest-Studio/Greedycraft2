@@ -1,14 +1,14 @@
 {
   "item_block": {
-    "name": "§f终§7焉§8块",
-    "ore_dict": "blockFinallium",
+    "name": "§a波§b动§e块",
+    "ore_dict": "blockWavite",
     "type": "additions:block_simple"
   },
-  "name": "§f终§7焉§8块",
+  "name": "§a波§b动§e块",
   "material": "minecraft:metal",
-  "hardness": 40.0,
-  "resistance": 10000.0,
-  "harvest_level": 13,
+  "hardness": 65.0,
+  "resistance": 30000.0,
+  "harvest_level": 17,
   "harvest_tool": "pickaxe",
   "light_level": 3,
   "is_beacon_base": true,
