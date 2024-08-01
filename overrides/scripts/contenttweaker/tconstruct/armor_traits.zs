@@ -26,7 +26,7 @@ import crafttweaker.world.IBiome;
 import crafttweaker.entity.AttributeModifier;
 import crafttweaker.entity.AttributeInstance;
 import crafttweaker.entity.Attribute;
-
+import crafttweaker.potions.IPotionEffect;
 
 import mods.ctutils.utils.Math;
 import mods.contenttweaker.tconstruct.Material;
@@ -79,6 +79,13 @@ $expand IMutableItemStack$removeOverslime(num as int) as void {
         this.setOverslime(0);
     } else {
         this.setOverslime(this.getOverslime() - num);
+    }
+}
+$expand IItemStack$hasOverslime() as bool {
+    if (CotTicTraitLib.hasTicTrait(this, "moretcon.overslime") && this.getOverslime() != 0) {
+        return true;
+    } else {
+        return false;
     }
 }
 
@@ -2972,3 +2979,149 @@ bedrockTrait.onArmorDamaged = function(trait, armor, damageSource, amount, newAm
 };
 bedrockTrait.register();
 
+val overbreakTrait = ArmorTraitBuilder.create("overbreak");
+overbreakTrait.color = Color.fromHex("ffffff").getIntColor();
+overbreakTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.overbreakTrait.name");
+overbreakTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.overbreakTrait.desc");
+overbreakTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player) && armor.hasOverslime()) {
+        if (!isNull(armor.tag.Stats.Broken) && isNull(armor.tag.overbreak)) {
+            if (armor.tag.Stats.Broken as byte == 0 as byte) {
+                armor.mutable().updateTag({overbreak : 1 as byte});
+                CotTicLib.addTicFreeModifiers(armor, 2, "overbreak");
+            }
+        }
+    }
+};
+overbreakTrait.register();
+
+val overbounceTrait = ArmorTraitBuilder.create("overbounce");
+overbounceTrait.color = Color.fromHex("ffffff").getIntColor();
+overbounceTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.overbounceTrait.name");
+overbounceTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.overbounceTrait.desc");
+overbounceTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player) && armor.hasOverslime()) {
+        player.addPotionEffect(<potion:minecraft:jump_boost>.makePotionEffect(5, 3, false, false));
+    }
+};
+overbounceTrait.onJumping = function(trait, armor, player, evt) {
+    if (!isNull(player) && armor.hasOverslime()) {
+        armor.mutable().removeOverslime(Math.ceil(Math.random() * 8.0f) as int);
+    }
+};
+overbounceTrait.register();
+
+val overdefenseTrait = ArmorTraitBuilder.create("overdefense");
+overdefenseTrait.color = Color.fromHex("ffffff").getIntColor();
+overdefenseTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.overdefenseTrait.name");
+overdefenseTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.overdefenseTrait.desc");
+overdefenseTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player) && armor.hasOverslime()) {
+        if (armor.getOverslime() <= (armor.maxDamage / 20)) {
+            CotTicLib.addTicDefense(armor, 4, "overdefense");
+        }
+    }
+};
+overdefenseTrait.register();
+
+val overreflectTrait = ArmorTraitBuilder.create("overreflect");
+overreflectTrait.color = Color.fromHex("ffffff").getIntColor();
+overreflectTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.overreflectTrait.name");
+overreflectTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.overreflectTrait.desc");
+overreflectTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !isNull(source.getTrueSource()) && armor.hasOverslime()) {
+        if (source.getTrueSource() instanceof IEntityLivingBase) {
+            var entity as IEntityLivingBase = source.getTrueSource();
+            for potion in player.activePotionEffects {
+                if (potion.potion.badEffect) {
+                    entity.addPotionEffect(potion);
+                }
+            }
+        }
+    }
+    return newDamage;
+};
+overreflectTrait.register();
+
+val overfusedTrait = ArmorTraitBuilder.create("overfused");
+overfusedTrait.color = Color.fromHex("ffffff").getIntColor();
+overfusedTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.overfusedTrait.name");
+overfusedTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.overfusedTrait.desc");
+overfusedTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !isNull(source.getTrueSource()) && armor.hasOverslime()) {
+        if (source.getTrueSource() instanceof IEntityLivingBase) {
+            var entity as IEntityLivingBase = source.getTrueSource();
+            if (entity.definition.id.toLowerCase() has "slime") {
+                armor.mutable().removeOverslime(2);
+                return newDamage * 0.15f;
+            }
+        }
+    }
+    return newDamage;
+};
+overfusedTrait.register();
+
+val enhancedTrait = ArmorTraitBuilder.create("enhanced");
+enhancedTrait.color = Color.fromHex("ffffff").getIntColor();
+enhancedTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.enhancedTrait.name");
+enhancedTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.enhancedTrait.desc");
+enhancedTrait.onArmorTick = function(trait, armor, world, player) {
+    CotTicLib.addTicFreeModifiers(armor, 2, "enhanced");
+};
+enhancedTrait.register();
+
+val loveTrait = ArmorTraitBuilder.create("love");
+loveTrait.color = Color.fromHex("ffffff").getIntColor();
+loveTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.loveTrait.name");
+loveTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.loveTrait.desc");
+loveTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        player.addPotionEffect(<potion:potioncore:love>.makePotionEffect(5, 0, false, false));
+    }
+};
+loveTrait.register();
+
+val orthogonalityTrait = ArmorTraitBuilder.create("orthogonality");
+orthogonalityTrait.color = Color.fromHex("ffffff").getIntColor();
+orthogonalityTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.orthogonalityTrait.name");
+orthogonalityTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.orthogonalityTrait.desc");
+orthogonalityTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !isNull(source.getTrueSource())) {
+        if (source.getTrueSource() instanceof IEntityLivingBase) {
+            var entity as IEntityLivingBase = source.getTrueSource();
+            if (Math.abs(player.x - entity.x) as float < 1.0f && Math.abs(player.z - entity.z) as float < 1.0f) {
+                if (entity.getPassengers() has player || player.getPassengers() has entity) {
+                    return newDamage;
+                } else {
+                    return 0.0f;
+                }
+            }
+        }
+    }
+    return newDamage;
+};
+orthogonalityTrait.register();
+
+val diffractionTrait = ArmorTraitBuilder.create("diffraction");
+diffractionTrait.color = Color.fromHex("ffffff").getIntColor();
+diffractionTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.diffractionTrait.name");
+diffractionTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.diffractionTrait.desc");
+diffractionTrait.onDamaged = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        player.world.catenation()
+        .run(function(world, context) {
+            var health as float = player.health;
+            armor.mutable().updateTag({diffraction : health as float});
+        })
+        .sleep(40)
+        .then(function(world, context) {
+            var health as float = player.health;
+            if (Math.abs(armor.tag.diffraction as float - health) <= 1) {
+                player.heal(player.maxHealth * 0.1f);
+            }
+        })
+        .start();
+    }
+    return newDamage;
+};
+diffractionTrait.register();

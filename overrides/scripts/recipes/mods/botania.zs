@@ -38,6 +38,7 @@ ElvenTrade.addRecipe([<gct_mobs:alf_dirt>], [<ore:dirtMana>]);
 ElvenTrade.addRecipe([<gct_mobs:alf_grass>], [<ore:grassMana>]);
 ElvenTrade.addRecipe([<gct_mobs:elementium_ore>], [<ore:oreManasteel>, <ore:oreManasteel>]);
 ElvenTrade.addRecipe([<treetweaker:dreamwood>], [<treetweaker:livingwood>]);
+ElvenTrade.addRecipe([<gct_mobs:alf_sand>], [<ore:sand>]);
 
 Apothecary.addRecipe(<additions:greedycraft-bag_of_dyes>, [<ore:petalGreen>, <ore:petalRed>, <ore:petalBlue>, <ore:petalYellow>, <ore:petalGreen>, <ore:petalRed>, <ore:petalBlue>, <ore:petalYellow>]);
 

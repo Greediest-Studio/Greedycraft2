@@ -69,6 +69,7 @@ val removedRecipes as IIngredient[] = [
     <extrautils2:crafter>,
     <actuallyadditions:block_greenhouse_glass>,
     <mysticalagriculture:growth_accelerator>,
+    <lazymystical:accelerator1>,
     <mekanismgenerators:generator:12>,
     <mekanism:machineblock:4>,
     <actuallyadditions:block_giant_chest>,
@@ -476,6 +477,8 @@ val removedRecipes as IIngredient[] = [
     <mekanism:machineblock:8>,
     <naturalpledge:spell_focus>,
     <enderio:item_material:66>,
+    <mca:rose_gold_dust>,
+    <mca:rose_gold_ingot>
 ];
 
 val removedRecipeNames as string[] = [

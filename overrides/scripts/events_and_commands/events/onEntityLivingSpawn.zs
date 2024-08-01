@@ -24,9 +24,17 @@ import crafttweaker.command.ICommandSender;
 import crafttweaker.event.EntityLivingSpawnEvent;
 import crafttweaker.event.EntityLivingExtendedSpawnEvent;
 
+import mods.ctutils.utils.Math;
+
 events.onCheckSpawn(function(event as EntityLivingExtendedSpawnEvent) {
     var living = event.entityLivingBase;
     if (living.maxHealth >= 2147483647.0f) {
         event.deny();
+    }
+
+    if (living.definition.id has "kraken") {
+        if (Math.abs(living.maxHealth - BARAKO_HP) >= 500.0f) {
+            event.deny();
+        }
     }
 });

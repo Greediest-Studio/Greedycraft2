@@ -185,6 +185,20 @@ gold.addBowMaterialStats(getDrawSpeed(1.65) as float, 1.3, 6.2);
 gold.addProjectileMaterialStats();
 gold.register();
 
+val rose_gold = mods.contenttweaker.tconstruct.MaterialBuilder.create("rose_gold");
+rose_gold.color = Color.fromHex("ffa21d").getIntColor();
+rose_gold.craftable = false;
+rose_gold.castable = true;
+rose_gold.representativeItem = <item:mca:rose_gold_ingot>;
+rose_gold.addItem(<item:mca:rose_gold_ingot>);
+rose_gold.liquid = <liquid:rose_gold>;
+rose_gold.localizedName = game.localize("greedycraft.tconstruct.material.rose_gold.name");
+rose_gold.addHeadMaterialStats(80,24,3.5,2);
+rose_gold.addHandleMaterialStats(0.3,40);
+rose_gold.addExtraMaterialStats(45);
+rose_gold.addBowMaterialStats(getDrawSpeed(1.65) as float, 1.5, 5.5);
+rose_gold.register();
+
 val coal = MaterialBuilder.create("coal");
 coal.color = Color.fromHex("212121").getIntColor(); 
 coal.craftable = true;
@@ -2373,3 +2387,4 @@ zirconium.addHandleMaterialStats(2.4,3000);//系数 耐久
 zirconium.addExtraMaterialStats(1850);//耐久
 zirconium.addBowMaterialStats(getDrawSpeed(0.7) as float, 1.1, 25);//速度 射程 伤害
 zirconium.register();
+

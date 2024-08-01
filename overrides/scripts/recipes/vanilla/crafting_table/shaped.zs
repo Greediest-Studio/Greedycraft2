@@ -477,10 +477,10 @@ RecipeUtil.addShaped("auto_gen_-1873046907", <additions:greedycraft-medkit_super
     [<scalinghealth:heartcontainer>, <additions:greedycraft-medkit_big>, <scalinghealth:heartcontainer>],
     [null, <scalinghealth:heartcontainer>, null]
 ]);
-RecipeUtil.addShaped("auto_gen_1179581625", <mysticalagriculture:growth_accelerator> * 2, [
-    [<mysticalagriculture:storage:3>, <mysticalagriculture:storage:4>, <mysticalagriculture:storage:3>],
-    [<mysticalagriculture:storage:4>, <ore:blockCytosinite>, <mysticalagriculture:storage:4>],
-    [<mysticalagriculture:storage:3>, <mysticalagriculture:storage:4>, <mysticalagriculture:storage:3>]
+RecipeUtil.addShaped("auto_gen_1179581625", <lazymystical:accelerator1> * 1, [
+    [<mysticalagriculture:storage:3>, <mysticalagriculture:storage:1>, <mysticalagriculture:storage:3>],
+    [<mysticalagriculture:storage:1>, <ore:metalGene>, <mysticalagriculture:storage:1>],
+    [<mysticalagriculture:storage:3>, <mysticalagriculture:storage:1>, <mysticalagriculture:storage:3>]
 ]);
 RecipeUtil.addShaped("page0", <additions:greedycraft-ancient_tome_page> , [
     [<additions:greedycraft-ancient_tome_fragment>, <additions:greedycraft-ancient_tome_fragment>, <additions:greedycraft-ancient_tome_fragment>],

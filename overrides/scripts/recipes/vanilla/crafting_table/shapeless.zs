@@ -42,6 +42,11 @@ recipes.addShapeless(<additions:greedycraft-extremium_essence>, [<ore:essenceIns
 
 recipes.addShapeless(<thebetweenlands:slimy_dirt>, [<thebetweenlands:swamp_dirt>,<thebetweenlands:sludge_ball>,<minecraft:slime>,<thebetweenlands:items_plant_drop:1>]);
 
+recipes.addShapeless(<additions:greedycraft-godslime_slimeball>, [<minecraft:slime_ball>,<betterslimes:blue_slime>,<betterslimes:red_slime>,<betterslimes:yellow_slime>,<betterslimes:purple_slime>,<betterslimes:black_slime>,<tconstruct:edible:1>,<tconstruct:edible:2>,<tconstruct:edible:4>]);
+
+RecipeUtil.addShapeless("godslime_mud", <additions:greedycraft-slimy_mud_god>, 
+    [<ore:slimeballGod>, <ore:slimeballGod>, <ore:slimeballGod>, <ore:slimeballGod>, <ore:sandAlf>, <ore:dirtAlf>]
+);
 RecipeUtil.addShapeless("silicon_gem_1to4", <appliedenergistics2:material:5> * 4,
     [<ore:ingotSilicon>]
 );
@@ -338,9 +343,6 @@ RecipeUtil.addShapeless("auto_gen_-689226972", <additions:greedycraft-crude_hatc
 );
 RecipeUtil.addShapeless("auto_gen_-1342866062", <twilightforest:magic_map_focus>,
     [<twilightforest:raven_feather>, <twilightforest:torchberries>]
-);
-RecipeUtil.addShapeless("rose_gold_dust", <mca:rose_gold_dust> * 3,
-    [<ore:dustGold>, <ore:dustCopper>, <ore:dustSilver>]
 );
 RecipeUtil.addShapeless("sand_to_glass", <minecraft:glass>,
     [<ore:sand>, <additions:greedycraft-fake_philosopher_stone>.transformReplace(<additions:greedycraft-fake_philosopher_stone>)]

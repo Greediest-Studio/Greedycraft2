@@ -81,6 +81,13 @@ $expand IMutableItemStack$removeOverslime(num as int) as void {
         this.setOverslime(this.getOverslime() - num);
     }
 }
+$expand IItemStack$hasOverslime() as bool {
+    if (CotTicTraitLib.hasTicTrait(this, "moretcon.overslime") && this.getOverslime() != 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
 function lognum(a as int, b as int) as float {
     return (Math.log(b) as float / Math.log(a) as float) as float;
@@ -2515,9 +2522,9 @@ final_woundTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trai
 final_woundTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.final_woundTrait.desc");
 final_woundTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
     if (attacker instanceof IPlayer && target instanceof IEntityLivingBase && !(target instanceof IPlayer) && !target.isBoss && Math.random() < 0.1f) {
-       var player as IPlayer = attacker;
-       var maxHealthBase as double = target.getAttribute("generic.maxHealth").getBaseValue();
-       mods.contenttweaker.Commands.call("execute @p " + target.x as string + " " + target.y as string + " " + target.z as string + " entitydata @e[type=" + target.definition.id + ",r=1] {Attributes:[{Name:\"generic.maxHealth\",Base:" + (maxHealthBase * 0.98d) as string + "}]}", player, player.world, false, true);
+        var player as IPlayer = attacker;
+        var maxHealthBase as double = target.getAttribute("generic.maxHealth").getBaseValue();
+        target.getAttribute("generic.maxHealth").setBaseValue(maxHealthBase * 0.95d);
     }
 };
 final_woundTrait.register();
@@ -3449,7 +3456,7 @@ finiteTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasC
         var player as IPlayer = attacker;
         var maxArmorBase as int = target.getAttribute("generic.armor").getBaseValue() as int;
         if (maxArmorBase >= 10) {
-            mods.contenttweaker.Commands.call("execute @p " + target.x as string + " " + target.y as string + " " + target.z as string + " entitydata @e[type=" + target.definition.id + ",r=1] {Attributes:[{Name:\"generic.armor\",Base:" + (maxArmorBase * 9 / 10) as int + "}]}", player, player.world, false, false);
+            target.getAttribute("generic.armor").setBaseValue(0.85d * maxArmorBase as double);
         }
     }
 };
@@ -3560,7 +3567,7 @@ overattackTrait.color = Color.fromHex("ffffff").getIntColor();
 overattackTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.overattackTrait.name");
 overattackTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.overattackTrait.desc");
 overattackTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
-    if (attacker instanceof IPlayer) {
+    if (attacker instanceof IPlayer && tool.hasOverslime()) {
         var player as IPlayer = attacker;
         if (tool.getOverslime() >= 15 && Math.random() < 0.2f && !target.isBoss) {
             tool.mutable().removeOverslime(15);
@@ -3579,7 +3586,7 @@ overarmyTrait.color = Color.fromHex("ffffff").getIntColor();
 overarmyTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.overarmyTrait.name");
 overarmyTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.overarmyTrait.desc");
 overarmyTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
-    if (attacker instanceof IPlayer) {
+    if (attacker instanceof IPlayer && tool.hasOverslime()) {
         var player as IPlayer = attacker;
         var count as int = 0;
         for counter in CotTicTraitLib.getPlayerTicArmorTrait(player) {
@@ -3590,3 +3597,157 @@ overarmyTrait.calcDamage = function(trait, tool, attacker, target, originalDamag
     return newDamage;
 };
 overarmyTrait.register();
+
+val overbreakTrait = TraitBuilder.create("overbreak");
+overbreakTrait.color = Color.fromHex("ffffff").getIntColor(); 
+overbreakTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.overbreakTrait.name");
+overbreakTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.overbreakTrait.desc");
+overbreakTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    if (owner instanceof IPlayer && tool.hasOverslime()) {
+        var player as IPlayer = owner;
+        if (!isNull(tool.tag.Stats.Broken) && isNull(tool.tag.overbreak)) {
+            if (tool.tag.Stats.Broken as byte == 0 as byte) {
+                tool.mutable().updateTag({overbreak : 1 as byte});
+                CotTicLib.addTicFreeModifiers(tool, 2, "overbreak");
+            }
+        }
+    }
+};
+overbreakTrait.register();
+
+val overmeltTrait = TraitBuilder.create("overmelt");
+overmeltTrait.color = Color.fromHex("ffffff").getIntColor(); 
+overmeltTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.overmeltTrait.name");
+overmeltTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.overmeltTrait.desc");
+overmeltTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer && tool.hasOverslime()) {
+        var player as IPlayer = attacker;
+        if (target.definition.id.toLowerCase() has "slime") {
+            tool.mutable().removeOverslime(2);
+            return newDamage * 2.5f;
+        }
+    }
+    return newDamage;
+};
+overmeltTrait.register();
+
+val overglueTrait = TraitBuilder.create("overglue");
+overglueTrait.color = Color.fromHex("ffffff").getIntColor(); 
+overglueTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.overglueTrait.name");
+overglueTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.overglueTrait.desc");
+overglueTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
+    if (attacker instanceof IPlayer && tool.hasOverslime()) {
+        var player as IPlayer = attacker;
+        tool.mutable().removeOverslime(8);
+        target.addPotionEffect(<potion:potioncore:strong_weight>.makePotionEffect(100, 4, false, false));
+    }
+};
+overglueTrait.register();
+
+val enhancedTrait = TraitBuilder.create("enhanced");
+enhancedTrait.color = Color.fromHex("ffffff").getIntColor(); 
+enhancedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.enhancedTrait.name");
+enhancedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.enhancedTrait.desc");
+enhancedTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    CotTicLib.addTicFreeModifiers(tool, 2, "enhanced");
+};
+enhancedTrait.register();
+
+val loveTrait = TraitBuilder.create("love");
+loveTrait.color = Color.fromHex("ffffff").getIntColor(); 
+loveTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.loveTrait.name");
+loveTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.loveTrait.desc");
+loveTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    if (owner instanceof IPlayer && isSelected) {
+        var player as IPlayer = owner;
+        player.addPotionEffect(<potion:potioncore:love>.makePotionEffect(5, 0, false, false));
+    }
+};
+loveTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
+    if (attacker instanceof IPlayer && target instanceof IEntityLivingBase) {
+        target.addPotionEffect(<potion:potioncore:love>.makePotionEffect(200, 0, false, false));
+    }
+};
+loveTrait.register();
+
+val wavecrestTrait = TraitBuilder.create("wavecrest");
+wavecrestTrait.color = Color.fromHex("ffffff").getIntColor(); 
+wavecrestTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.wavecrestTrait.name");
+wavecrestTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.wavecrestTrait.desc");
+wavecrestTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        var traits as string[] = CotTicTraitLib.getTicTrait(tool);
+        var maxCounter as int = 0;
+        for id in traits {
+            var counter as int = 0;
+            for checker in traits {
+                if (id == checker) counter += 1;
+            }
+            if (counter > maxCounter) maxCounter = counter;
+        }
+        if (maxCounter == 1) maxCounter = 0;
+        return newDamage * (pow(1.7, maxCounter) as float) as float;
+    }
+    return newDamage;
+};
+wavecrestTrait.register();
+
+val wavetroughTrait = TraitBuilder.create("wavetrough");
+wavetroughTrait.color = Color.fromHex("ffffff").getIntColor(); 
+wavetroughTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.wavetroughTrait.name");
+wavetroughTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.wavetroughTrait.desc");
+wavetroughTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer && target instanceof IEntityLivingBase) {
+        var player as IPlayer = attacker;
+        var entity as IEntityLivingBase = target;
+        if (target.health >= target.maxHealth * 0.5f) {
+            return newDamage * 1.5f;
+        }
+    }
+    return newDamage;
+};
+wavetroughTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
+    if (attacker instanceof IPlayer && target instanceof IEntityLivingBase) {
+        var player as IPlayer = attacker;
+        var entity as IEntityLivingBase = target;
+        if (target.health == 0 && player.health <= target.maxHealth * 0.5f) {
+            player.heal(8.0f);
+        }
+    }
+};
+wavetroughTrait.register();
+
+val polarizationTrait = TraitBuilder.create("polarization");
+polarizationTrait.color = Color.fromHex("ffffff").getIntColor(); 
+polarizationTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.polarizationTrait.name");
+polarizationTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.polarizationTrait.desc");
+polarizationTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        var mtp as float = 1.0f;
+        if (Math.random() < 0.05f) {
+            mtp -= 0.15f;
+            target.attackEntityFrom(crafttweaker.damage.IDamageSource.FALL(), originalDamage * 0.15f);
+        }
+        if (Math.random() < 0.05f) {
+            mtp -= 0.15f;
+            target.attackEntityFrom(crafttweaker.damage.IDamageSource.IN_FIRE(), originalDamage * 0.15f);
+        }
+        if (Math.random() < 0.05f) {
+            mtp -= 0.15f;
+            target.attackEntityFrom(crafttweaker.damage.IDamageSource.MAGIC(), originalDamage * 0.15f);
+        }
+        if (Math.random() < 0.05f) {
+            mtp -= 0.15f;
+            target.attackEntityFrom(crafttweaker.damage.IDamageSource.OUT_OF_WORLD(), originalDamage * 0.15f);
+        }
+        if (Math.random() < 0.05f) {
+            mtp -= 0.15f;
+            target.attackEntityFrom(crafttweaker.damage.IDamageSource.FIREWORKS(), originalDamage * 0.15f);
+        }
+        return newDamage * mtp as float;
+    }
+    return newDamage;
+};
+polarizationTrait.register();

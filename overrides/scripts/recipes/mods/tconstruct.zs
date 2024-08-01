@@ -104,6 +104,8 @@ Alloy.addRecipe(<liquid:enderite> * 144, [<liquid:iridium> * 576, <liquid:resona
 Alloy.addRecipe(<liquid:aetherite> * 144, [<liquid:asgardium> * 576, <liquid:gravity_debris> * 576]);
 Alloy.addRecipe(<liquid:liquidirradium> * 2, [<liquid:iridium> * 1, <liquid:radium> * 1]);
 Alloy.addRecipe(<liquid:ascensionite> * 2, [<liquid:limonite> * 4, <liquid:rosite> * 2, <liquid:emberstone> * 1]);
+Alloy.addRecipe(<liquid:rose_gold> * 3, [<liquid:electrum> * 2, <liquid:copper> * 1]);
+Alloy.addRecipe(<liquid:rose_gold> * 3, [<liquid:gold> * 1, <liquid:silver> * 1, <liquid:copper> * 1]);
 
 Casting.removeBasinRecipe(<tcomplement:scorched_block:10>);
 Casting.removeBasinRecipe(<tcomplement:scorched_block:1>);
@@ -153,6 +155,7 @@ Casting.addBasinRecipe(<additions:greedycraft-titanium_block>, null, <liquid:tit
 Casting.addBasinRecipe(<tiths:block_decurrium>, null, <liquid:decurrium>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<tiths:block_oraclium>, null, <liquid:oraclium>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<journey:hellstoneblock>, null, <liquid:bloodcrust>, VOLUME_BLOCK, false, 300);
+Casting.addBasinRecipe(<mca:rose_gold_block>, null, <liquid:rose_gold>, VOLUME_BLOCK, false, 300);
 
 Casting.addTableRecipe(<abyssalcraft:ethaxiumingot>, <tconstruct:cast_custom>, <liquid:ethaxium>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<additions:astral_metal_ingot>, <tconstruct:cast_custom>, <liquid:astral_metal>, VOLUME_INGOT, false, 200);
@@ -212,6 +215,7 @@ Casting.addTableRecipe(<abyssalcraft:necronomicon_cor>.withTag({PotEnergy: 10000
 Casting.addTableRecipe(<abyssalcraft:necronomicon_dre>.withTag({PotEnergy: 20000.0 as float}), <ore:necronomiconDreadland>, <liquid:pe>, 288, true, 288);
 Casting.addTableRecipe(<abyssalcraft:necronomicon_omt>.withTag({PotEnergy: 40000.0 as float}), <ore:necronomiconOmothol>, <liquid:pe>, 576, true, 576);
 Casting.addTableRecipe(<abyssalcraft:abyssalnomicon>.withTag({PotEnergy: 100000.0 as float}), <ore:necronomiconAbyss>, <liquid:pe>, 1440, true, 1440);
+Casting.addTableRecipe(<mca:rose_gold_ingot>, <tconstruct:cast_custom>, <liquid:rose_gold>, VOLUME_INGOT, false, 200);
 
 Melting.removeRecipe(<liquid:gold>, <minecraft:golden_rail>);
 Melting.removeRecipe(<liquid:iron>, <minecraft:activator_rail>);
@@ -460,6 +464,29 @@ betwnite.addOxidizer(<additions:greedycraft-valonitedruse>, 100);
 betwnite.addReducer(<additions:greedycraft-gemundyingember>, 100);
 betwnite.addPurifier(<ore:dustSwampsteel>, 100);
 betwnite.register();
+
+var queenslime = HighOven.newMixRecipe(<liquid:queenslime> * 72, <liquid:cobalt> * 144, 850);
+queenslime.addOxidizer(<ore:dustGold>, 80);
+queenslime.addOxidizer(<ore:dustRoseGold>, 50);
+queenslime.addReducer(<ore:blockMagma>, 100);
+queenslime.addReducer(<minecraft:magma_cream>, 50);
+queenslime.addPurifier(<ore:slimecrystal>, 60);
+queenslime.register();
+
+var emperorslime = HighOven.newMixRecipe(<liquid:emperorslime> * 72, <liquid:ardite> * 144, 910);
+emperorslime.addOxidizer(<additions:greedycraft-royal_gel>, 80);
+emperorslime.addReducer(<ore:dustDiamond>, 90);
+emperorslime.addReducer(<ore:dustManaDiamond>, 60);
+emperorslime.addReducer(<actuallyadditions:item_crystal:2>, 70);
+emperorslime.addReducer(<actuallyadditions:item_crystal_empowered:2>, 40);
+emperorslime.addPurifier(<ore:dustAsgardium>, 90);
+emperorslime.register();
+
+var godslime = HighOven.newMixRecipe(<liquid:godslime> * 72, <liquid:knightslime> * 144, 1980);
+godslime.addOxidizer(<ore:dustQueenslime>, 100);
+godslime.addReducer(<ore:dustEmperorslime>, 100);
+godslime.addPurifier(<ore:slimecrystalGod>, 100);
+godslime.register();
 
 val removeToolPartCrafting as IItemStack[] = [
     <moretcon:blshovelblade>.withTag({Material: "moretcon.ferroherb"}),

@@ -847,6 +847,18 @@ molten_finallium.stillLocation = "base:fluids/molten";
 molten_finallium.flowingLocation = "base:fluids/molten_flowing";
 molten_finallium.register();
 
+val molten_wavite = mods.contenttweaker.VanillaFactory.createFluid("wavite", Color.fromHex("fed9f9").getIntColor()); 
+molten_wavite.material = <blockmaterial:lava>;
+molten_wavite.viscosity = 3000;
+molten_wavite.density = 6500;
+molten_wavite.colorize = true;
+molten_wavite.temperature = 75000;
+molten_wavite.luminosity = 10;
+molten_wavite.color = Color.fromHex("fed9f9").getIntColor();
+molten_wavite.stillLocation = "base:fluids/molten";
+molten_wavite.flowingLocation = "base:fluids/molten_flowing";
+molten_wavite.register();
+
 val molten_eden = mods.contenttweaker.VanillaFactory.createFluid("eden", Color.fromHex("a6463c").getIntColor()); 
 molten_eden.material = <blockmaterial:lava>;
 molten_eden.viscosity = 3000;
@@ -2445,6 +2457,17 @@ molten_pruified.stillLocation = "base:fluids/molten";
 molten_pruified.flowingLocation = "base:fluids/molten_flowing";
 molten_pruified.register();
 
+val molten_rose_gold = mods.contenttweaker.VanillaFactory.createFluid("rose_gold", Color.fromHex("ffa21d").getIntColor());
+molten_rose_gold.material = <blockmaterial:lava>;
+molten_rose_gold.viscosity = 3000;
+molten_rose_gold.density = 6500;
+molten_rose_gold.colorize = true;
+molten_rose_gold.temperature = 1000;
+molten_rose_gold.luminosity = 10;
+molten_rose_gold.color = Color.fromHex("ffa21d").getIntColor();
+molten_rose_gold.stillLocation = "base:fluids/molten";
+molten_rose_gold.flowingLocation = "base:fluids/molten_flowing";
+molten_rose_gold.register();
 
 //液化类
 val liquid_air = mods.contenttweaker.VanillaFactory.createFluid("liquid_air", Color.fromHex("ffffff").getIntColor());
