@@ -25,13 +25,7 @@
 	rewards: [{
 		uid: "17630b48",
 		type: "item",
-		item: {
-			id: "jaopca:block_blockdullium",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			Count: 1b
-		},
+		item: "jaopca:block.dullium",
 		count: 4
 	},
 	{

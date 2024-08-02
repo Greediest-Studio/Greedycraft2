@@ -1,0 +1,87 @@
+{
+  "name": "emperorslime",
+  "tool": {
+    "head": {
+      "attackDamage": 8.5,
+      "speed": 6,
+      "durability": 960,
+      "harvestLevel": 6
+    },
+    "handle": {
+      "modifier": 1.4,
+      "durability": 490
+    },
+    "extra": {
+      "durability": 235
+    },
+    "bow": {
+      "speed": 2.3,
+      "range": 2.1,
+      "bonusDamage": 12
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 28,
+      "defense": 22.6
+    },
+    "plates": {
+      "modifier": 1.4,
+      "durability": 20.7,
+      "toughness": 1.2
+    },
+    "trim": {
+      "extraDurability": 16
+    }
+  },
+  "color": "#f8e535",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 900,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Emperorslime",
+    "zh_cn": "帝皇史莱姆"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:greedycraft-emperorslime_ingot"],
+    "block": ["additions:greedycraft-emperorslime_block"],
+    "nugget": ["additions:greedycraft-emperorslime_nugget"],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["moretcon.overslime", "overattack", "overbreak"],
+    "HANDLE": ["moretcon.overslime", "overattack", "overbreak"],
+    "EXTRA": ["moretcon.overslime", "overattack", "overbreak"],
+    "CORE": ["moretcon.overslime", "overreflect_armor", "overbreak_armor"],
+    "PLATES": ["moretcon.overslime", "overreflect_armor", "overbreak_armor"],
+    "TRIM": ["moretcon.overslime", "overreflect_armor", "overbreak_armor"]
+  }
+}

@@ -15,5 +15,21 @@
 		items: [{
 			item: "additions:greedycraft-twilit_ingot"
 		}]
+	}],
+	rewards: [{
+		uid: "fbaee6fc",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "f3b94249",
+		type: "xp",
+		xp: 8500
+	},
+	{
+		uid: "591540dc",
+		type: "item",
+		item: "additions:greedycraft-twilit_ingot",
+		count: 2
 	}]
 }

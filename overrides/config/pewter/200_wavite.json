@@ -1,0 +1,128 @@
+{
+  "name": "wavite",
+  "tool": {
+    "bow": {
+      "speed": 0.88,
+      "range": 2.5,
+      "bonusDamage": 288
+    },
+    "head": {
+      "attackDamage": 492,
+      "speed": 51.5,
+      "durability": 43200,
+      "harvestLevel": 17
+    },
+    "handle": {
+      "modifier": 5.5,
+      "durability": 13270
+    },
+    "extra": {
+      "durability": 9690
+    }
+  },
+  "color": "#ffe4ff",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 8000,
+  "looks": {
+    "shininess": 0.1,
+    "brightness": 0.05,
+    "hueshift": 0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 75000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Wavite",
+    "zh_cn": "波动"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "gct_mobs:wavite_ingot"
+    ],
+    "block": [
+      "additions:greedycraft-wavite_block"
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 4695,
+      "defense": 350
+    },
+    "plates": {
+      "modifier": 26,
+      "durability": 2650,
+      "toughness": 34
+    },
+    "trim": {
+      "extraDurability": 2650
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "wavetrough",
+      "polarization",
+      "strong_shock"
+    ],
+    "HEAD": [
+      "wavecrest",
+      "wavetrough",
+      "polarization",
+      "strong_shock"
+    ],
+    "HANDLE": [
+      "wavecrest",
+      "polarization",
+      "strong_shock"
+    ],
+    "CORE": [
+      "orthogonality_armor",
+      "tconevo.celestial_armor",
+      "tconevo.gale_force_armor"
+    ],
+    "PLATES": [
+      "diffraction_armor",
+      "tconevo.celestial_armor",
+      "tconevo.gale_force_armor"
+    ],
+    "TRIM": [
+      "diffraction_armor",
+      "tconevo.celestial_armor",
+      "tconevo.gale_force_armor"
+    ]
+  }
+}

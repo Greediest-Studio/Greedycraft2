@@ -1,0 +1,87 @@
+{
+  "name": "godslime",
+  "tool": {
+    "head": {
+      "attackDamage": 7.3,
+      "speed": 6.95,
+      "durability": 1000,
+      "harvestLevel": 5
+    },
+    "handle": {
+      "modifier": 1.3,
+      "durability": 500
+    },
+    "extra": {
+      "durability": 300
+    },
+    "bow": {
+      "speed": 1.9,
+      "range": 1.95,
+      "bonusDamage": 10
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 35,
+      "defense": 18.9
+    },
+    "plates": {
+      "modifier": 1.1,
+      "durability": 24,
+      "toughness": 2.1
+    },
+    "trim": {
+      "extraDurability": 18.5
+    }
+  },
+  "color": "#eb73ff",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1500,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Godslime",
+    "zh_cn": "创神史莱姆"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:greedycraft-godslime_ingot"],
+    "block": ["additions:greedycraft-godslime_block"],
+    "nugget": ["additions:greedycraft-godslime_nugget"],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["moretcon.overslime", "overmelt", "overglue"],
+    "HANDLE": ["moretcon.overslime", "overmelt", "overglue"],
+    "EXTRA": ["moretcon.overslime", "overmelt", "overglue"],
+    "CORE": ["moretcon.overslime", "overbounce_armor", "overfused_armor"],
+    "PLATES": ["moretcon.overslime", "overbounce_armor", "overfused_armor"],
+    "TRIM": ["moretcon.overslime", "overbounce_armor", "overfused_armor"]
+  }
+}

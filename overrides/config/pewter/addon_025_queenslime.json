@@ -1,0 +1,87 @@
+{
+  "name": "queenslime",
+  "tool": {
+    "head": {
+      "attackDamage": 9.5,
+      "speed": 3.5,
+      "durability": 660,
+      "harvestLevel": 4
+    },
+    "handle": {
+      "modifier": 0.9,
+      "durability": 385
+    },
+    "extra": {
+      "durability": 100
+    },
+    "bow": {
+      "speed": 0.5,
+      "range": 1.7,
+      "bonusDamage": 8
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 16,
+      "defense": 21.5
+    },
+    "plates": {
+      "modifier": 0.9,
+      "durability": 13.4,
+      "toughness": 1.5
+    },
+    "trim": {
+      "extraDurability": 8
+    }
+  },
+  "color": "#7b6610",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 850,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Queenslime",
+    "zh_cn": "皇后史莱姆"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:greedycraft-queenslime_ingot"],
+    "block": ["additions:greedycraft-queenslime_block"],
+    "nugget": ["additions:greedycraft-queenslime_nugget"],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["moretcon.overslime", "overdominate"],
+    "HANDLE": ["moretcon.overslime", "overdominate"],
+    "EXTRA": ["moretcon.overslime", "overdominate"],
+    "CORE": ["moretcon.overslime", "overdefense_armor"],
+    "PLATES": ["moretcon.overslime", "overdefense_armor"],
+    "TRIM": ["moretcon.overslime", "overdefense_armor"]
+  }
+}

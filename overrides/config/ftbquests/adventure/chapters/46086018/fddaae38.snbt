@@ -1,6 +1,11 @@
 {
+	title: "§b攻陷极光",
 	x: 5.5d,
 	y: -19.0d,
+	description: "获得极光锭",
+	text: [
+		""
+	],
 	dependencies: [
 		"b25ef338"
 	],
