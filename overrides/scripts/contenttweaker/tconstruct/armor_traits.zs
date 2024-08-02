@@ -1407,18 +1407,7 @@ thadTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.thad
 thadTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.thadTrait.desc");
 thadTrait.onDamaged = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player)) {
-        var multiplier as int = 0;
-        for str in armor.tag.asString().split("Traits: ") {
-            if (!(str has "{")) {
-                var counter as int = 0;
-                for i in 1 to str.length {
-                    if (str[i] == "\"") {
-                        counter += 1;
-                    }
-                }
-                multiplier = counter / 2 - 2;
-            }
-        }
+        var multiplier as int = CotTicTraitLib.getTicTrait(armor).length - 2 as int;
         return newDamage / (pow(1.05, multiplier) - 1) as float;
     }
     return newDamage;
@@ -3125,3 +3114,30 @@ diffractionTrait.onDamaged = function(trait, armor, player, source, damage, newD
     return newDamage;
 };
 diffractionTrait.register();
+
+val emberTrait = ArmorTraitBuilder.create("ember");
+emberTrait.color = Color.fromHex("ffffff").getIntColor();
+emberTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.emberTrait.name");
+emberTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.emberTrait.desc");
+emberTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        var mtp as float = (armor.damage as float / armor.maxDamage as float) as float / 5.0f;
+        return newDamage * (1.0f - mtp);
+    }
+    return newDamage;
+};
+emberTrait.register();
+
+val rekindledTrait = ArmorTraitBuilder.create("rekindled");
+rekindledTrait.color = Color.fromHex("ffffff").getIntColor();
+rekindledTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.rekindledTrait.name");
+rekindledTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.rekindledTrait.desc");
+rekindledTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        if (player.isBurning) {
+            var dura as int = armor.maxDamage / 100 as int; 
+            armor.mutable().attemptDamageItem(- dura, player);
+        }
+    }
+};
+rekindledTrait.register();

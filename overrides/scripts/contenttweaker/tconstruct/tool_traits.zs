@@ -1943,21 +1943,7 @@ thadTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.thadT
 thadTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.thadTrait.desc");
 thadTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer) {
-        var multiplier as int = 0;
-        for str in tool.tag.asString().split("Traits: ") {
-            if (str has "Durability") {
-                var counter as int = 0;
-                for i in 1 to str.length {
-                    if (str[i] == "\"") {
-                        counter += 1;
-                    }
-                    if (str[i] == "]") {
-                        break;
-                    }
-                }
-                multiplier = counter / 2 - 2; 
-            }
-        }
+        var multiplier as int = CotTicTraitLib.getTicTrait(tool).length - 2 as int;
         if (tool.definition.id == "tconstruct:shuriken") {
             if (multiplier <= 28) {
                 return newDamage * (pow(1.05, multiplier) - 1) * 0.5f as float;
@@ -3751,3 +3737,32 @@ polarizationTrait.calcDamage = function(trait, tool, attacker, target, originalD
     return newDamage;
 };
 polarizationTrait.register();
+
+val emberTrait = TraitBuilder.create("ember");
+emberTrait.color = Color.fromHex("ffffff").getIntColor(); 
+emberTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.emberTrait.name");
+emberTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.emberTrait.desc");
+emberTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        var mtp as float = (tool.damage as float / tool.maxDamage as float) as float / 2.0f;
+        return newDamage * (1.0f + mtp);
+    }
+    return newDamage;
+};
+emberTrait.register();
+
+val rekindledTrait = TraitBuilder.create("rekindled");
+rekindledTrait.color = Color.fromHex("ffffff").getIntColor(); 
+rekindledTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.rekindledTrait.name");
+rekindledTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.rekindledTrait.desc");
+rekindledTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    if (owner instanceof IPlayer && isSelected) {
+        var player as IPlayer = owner;
+        if (player.isBurning) {
+            var dura as int = tool.maxDamage / 100 as int; 
+            tool.mutable().attemptDamageItem(- dura, player);
+        }
+    }
+};
+rekindledTrait.register();
