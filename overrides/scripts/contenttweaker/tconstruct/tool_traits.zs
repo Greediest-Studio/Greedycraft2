@@ -3520,7 +3520,7 @@ pureTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.pureT
 pureTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.pureTrait.desc");
 pureTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer) {
-        return newDamage * 2.5f;
+        return newDamage * 5.0f;
     }
     return newDamage;
 };
