@@ -1,0 +1,45 @@
+{
+  "name": "nitrogen",
+  "color": "#dadada",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Nitrogen",
+    "zh_cn": "氮"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:mekaddon-nitrogen_ingot"
+    ],
+    "block": [
+      "jaopca:block.nitrogen"
+    ],
+    "nugget": [
+      "jaopca:nugget.nitrogen"
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  }
+}

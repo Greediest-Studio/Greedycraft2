@@ -9,10 +9,7 @@
 	tasks: [{
 		uid: "f973d43c",
 		type: "stat",
-		icon: {
-			id: "tconstruct:slime_boots",
-			tag: {}
-		},
+		icon: "thermalfoundation:armor.boots_copper",
 		stat: "stat.fallOneCm",
 		value: 80000
 	}],

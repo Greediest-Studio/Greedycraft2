@@ -1,7 +1,7 @@
 {
 	title: "§b手握星辰",
-	x: -13.0d,
-	y: -14.0d,
+	x: -11.0d,
+	y: -0.5d,
 	description: "获得寰宇锭！",
 	text: [
 		""
@@ -12,6 +12,7 @@
 		"b83f74dc",
 		"1c50c9e3"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "6eab84b4",
 		type: "item",

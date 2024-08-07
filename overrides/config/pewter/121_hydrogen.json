@@ -1,0 +1,45 @@
+{
+  "name": "hydrogen",
+  "color": "#ffffff",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Hydrogen",
+    "zh_cn": "氢"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:mekaddon-hydrogen_ingot"
+    ],
+    "block": [
+      "jaopca:block.hydrogen"
+    ],
+    "nugget": [
+      "jaopca:nugget.hydrogen"
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  }
+}

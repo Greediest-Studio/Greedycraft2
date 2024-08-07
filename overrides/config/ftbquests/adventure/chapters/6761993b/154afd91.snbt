@@ -1,7 +1,11 @@
 {
-	title: "§b血魔法的工作台",
+	title: "§b血魔工作台",
 	x: -3.5d,
 	y: -2.5d,
+	description: "合成狱火熔炉",
+	text: [
+		""
+	],
 	hide_dependency_lines: true,
 	dependencies: [
 		"e33ac341"

@@ -1,0 +1,45 @@
+{
+  "name": "radon",
+  "color": "#5ba664",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Radon",
+    "zh_cn": "氡"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:mekaddon-radon_ingot"
+    ],
+    "block": [
+      "jaopca:block.radon"
+    ],
+    "nugget": [
+      "jaopca:nugget.radon"
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  }
+}

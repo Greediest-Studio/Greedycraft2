@@ -1,13 +1,16 @@
 {
-	title: "§b来着虚空的金属",
+	title: "§b源自虚空",
 	x: 0.0d,
 	y: -2.0d,
 	description: "制作虚空金属锭",
+	text: [
+		""
+	],
 	dependencies: [
 		"2e83a821",
 		"4500422a"
 	],
-	size: 2.0d,
+	size: 1.5d,
 	tasks: [{
 		uid: "80359b84",
 		type: "item",

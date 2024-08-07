@@ -1,8 +1,11 @@
 {
-	title: "§b更高一级的治练厂",
+	title: "§b更高一级的冶炼厂",
 	x: 3.5d,
 	y: -4.0d,
-	description: "制作秘银源质治练厂",
+	description: "制作秘银源质冶炼厂",
+	text: [
+		""
+	],
 	dependencies: [
 		"5df0146b",
 		"3c67df78"

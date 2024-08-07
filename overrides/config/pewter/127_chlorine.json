@@ -1,0 +1,45 @@
+{
+  "name": "chlorine",
+  "color": "#ffffd7",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Chlorine",
+    "zh_cn": "氯"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:mekaddon-chlorine_ingot"
+    ],
+    "block": [
+      "jaopca:block.chlorine"
+    ],
+    "nugget": [
+      "jaopca:nugget.chlorine"
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  }
+}

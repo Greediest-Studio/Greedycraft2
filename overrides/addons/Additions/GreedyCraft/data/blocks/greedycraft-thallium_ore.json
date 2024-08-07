@@ -1,0 +1,21 @@
+{
+  "item_block": {
+    "name": "§f铊矿石",
+    "tooltip": "§2§o剧毒的稀散矿石。",
+    "ore_dict": "oreThallium",
+    "type": "additions:block_simple"
+  },
+  "name": "§f铊矿石",
+  "material": "minecraft:stone",
+  "place_sound": "minecraft:block.stone.place",
+  "break_sound": "minecraft:block.stone.break",
+  "hit_sound": "minecraft:block.stone.hit",
+  "step_sound": "minecraft:block.stone.step",
+  "fall_sound": "minecraft:block.stone.fall",
+  "map_color": "minecraft:light_gray",
+  "hardness": 81.0,
+  "resistance": 8100.0,
+  "harvest_level": 13,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

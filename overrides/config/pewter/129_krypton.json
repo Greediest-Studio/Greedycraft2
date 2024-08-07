@@ -1,0 +1,45 @@
+{
+  "name": "krypton",
+  "color": "#66cb66",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Krypton",
+    "zh_cn": "氪"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:mekaddon-krypton_ingot"
+    ],
+    "block": [
+      "jaopca:block.krypton"
+    ],
+    "nugget": [
+      "jaopca:nugget.krypton"
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  }
+}

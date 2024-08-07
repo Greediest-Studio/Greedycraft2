@@ -1,8 +1,11 @@
 {
-	title: "§b星空力量的投影",
+	title: "§b星空投影",
 	x: -4.5d,
 	y: 9.0d,
 	description: "制作星辉投影仪",
+	text: [
+		""
+	],
 	dependencies: [
 		"d933b90a"
 	],

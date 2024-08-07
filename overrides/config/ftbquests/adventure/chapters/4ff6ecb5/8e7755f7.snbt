@@ -2,7 +2,10 @@
 	title: "§b加油！快完了！",
 	x: 5.5d,
 	y: -6.0d,
-	description: "制作铿金源质治练厂",
+	description: "制作铿金源质冶炼厂",
+	text: [
+		""
+	],
 	dependencies: [
 		"43ab4306",
 		"ac1955d7"

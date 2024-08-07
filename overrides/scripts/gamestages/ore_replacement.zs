@@ -123,6 +123,9 @@ GameStagesUtil.stageEpicEngineer.addOreReplacement(<netherendingores:ore_end_mod
 GameStagesUtil.stageEpicEngineer.addOreReplacement(<netherendingores:ore_nether_modded_1:12>, <minecraft:netherrack>, false);
 GameStagesUtil.stageEpicEngineer.addOreReplacement(<netherendingores:ore_nether_modded_1:13>, <minecraft:netherrack>, false);
 GameStagesUtil.stageEpicEngineer.addOreReplacement(<mekanism:oreblock:5>, <minecraft:stone>, false);
+GameStagesUtil.stageEpicEngineer.addOreReplacement(<additions:greedycraft-bismuth_ore>, <mist:stone_basic>, false);
+GameStagesUtil.stageEpicEngineer.addOreReplacement(<additions:elements-bismuth_block>, <mist:stone_basic>, false);
+GameStagesUtil.stageEpicEngineer.addOreReplacement(<additions:greedycraft-thallium_ore>, <minecraft:end_stone>, false);
 
 GameStagesUtil.stageMasterEngineer.addOreReplacement(<nuclearcraft:ore:5>, <minecraft:stone>, false);
 GameStagesUtil.stageMasterEngineer.addOreReplacement(<nuclearcraft:ore:6>, <minecraft:stone>, false);

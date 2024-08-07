@@ -2,7 +2,10 @@
 	title: "§b真正的冶炼！",
 	x: -2.5d,
 	y: -4.0d,
-	description: "制作源质治练厂",
+	description: "制作源质冶炼厂",
+	text: [
+		""
+	],
 	dependencies: [
 		"2e83a821"
 	],

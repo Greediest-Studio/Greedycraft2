@@ -2825,7 +2825,7 @@ specializationTrait.localizedName = game.localize("greedycraft.tconstruct.armor_
 specializationTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.specializationTrait.desc");
 specializationTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player)) {
-        if (source.damageType == "generic") {
+        if (source.damageType == "GENERIC") {
             return newDamage * 0.7f;
         } else {
             return newDamage * 1.5f;
@@ -3141,3 +3141,152 @@ rekindledTrait.onArmorTick = function(trait, armor, world, player) {
     }
 };
 rekindledTrait.register();
+
+val sutureTrait = ArmorTraitBuilder.create("suture");
+sutureTrait.color = Color.fromHex("ffffff").getIntColor();
+sutureTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.sutureTrait.name");
+sutureTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.sutureTrait.desc");
+sutureTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        var jumpBoost as AttributeModifier = AttributeModifier.createModifier("potioncore.jumpHeight", 1, 0, "7f6d3a59-b3e4-4c7a-b7a8-53412a929a0e");
+        var speed as AttributeModifier = AttributeModifier.createModifier("generic.movementSpeed", 0.15f, 2, "7f6d3a59-b3e4-4c7a-b7a8-53412a929a0f");
+        if (!(player.getAttribute("potioncore.jumpHeight").hasModifier(jumpBoost))) {
+            player.getAttribute("potioncore.jumpHeight").applyModifier(jumpBoost);
+        }
+        if (!(player.getAttribute("generic.movementSpeed").hasModifier(speed))) {
+            player.getAttribute("generic.movementSpeed").applyModifier(speed);
+        }
+    }
+};
+sutureTrait.onArmorRemove = function(trait, armor, player, index) {
+    if (!isNull(player)) {
+        player.getAttribute("potioncore.jumpHeight").removeModifier("7f6d3a59-b3e4-4c7a-b7a8-53412a929a0e");
+        player.getAttribute("generic.movementSpeed").removeModifier("7f6d3a59-b3e4-4c7a-b7a8-53412a929a0f");
+    }
+};
+sutureTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        if (Math.random() < 0.1f) {
+            armor.mutable().attemptDamageItem(armor.maxDamage * 0.1f as int, player);
+        }
+    }
+    return newDamage;
+};
+sutureTrait.register();
+
+val ripeningTrait = ArmorTraitBuilder.create("ripening");
+ripeningTrait.color = Color.fromHex("ffffff").getIntColor();
+ripeningTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.ripeningTrait.name");
+ripeningTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.ripeningTrait.desc");
+ripeningTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        if (player.getDimension() == 20) {
+            if (!isNull(world.getBlock(player.x as int, player.y as int, player.z as int).fluid)) {
+                if (world.getBlock(player.x as int, player.y as int, player.z as int).fluid.name has "swamp_water") {
+                    player.addPotionEffect(<potion:thebetweenlands:effect_ripening>.makePotionEffect(1, 2, false, false));
+                }
+            }
+        }
+    }
+};
+ripeningTrait.register();
+
+val underwaterregenTrait = ArmorTraitBuilder.create("underwaterregen");
+underwaterregenTrait.color = Color.fromHex("ffffff").getIntColor();
+underwaterregenTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.underwaterregenTrait.name");
+underwaterregenTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.underwaterregenTrait.desc");
+underwaterregenTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        if (armor.isEnchanted) {
+            var successful as bool = true;
+            for enchant in armor.enchantments {
+                if (enchant.definition.name == <enchantment:minecraft:depth_strider>.name) {
+                    successful = false;                    
+                    break;
+                }
+            }
+            if (successful) {
+                armor.mutable().addEnchantment(<enchantment:minecraft:depth_strider>.makeEnchantment(2));
+            }
+        } else {
+            armor.mutable().addEnchantment(<enchantment:minecraft:depth_strider>.makeEnchantment(2));
+        }
+        if (player.isInWater) {
+            player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(1, 3, false, false));
+        }
+    }
+};
+underwaterregenTrait.register();
+
+val collapseTrait = ArmorTraitBuilder.create("collapse");
+collapseTrait.color = Color.fromHex("ffffff").getIntColor();
+collapseTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.collapseTrait.name");
+collapseTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.collapseTrait.desc");
+collapseTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        var dura as int = (armor.maxDamage * 0.002f) as int;
+        armor.mutable().attemptDamageItem(dura, player);
+    }
+};
+collapseTrait.register();
+
+val scalesTrait = ArmorTraitBuilder.create("scales");
+scalesTrait.color = Color.fromHex("ffffff").getIntColor();
+scalesTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.scalesTrait.name");
+scalesTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.scalesTrait.desc");
+scalesTrait.getModifications = function(trait, player, mods, armor, damageSource, damage, index) {
+    if (!isNull(player)) {
+        var modsNew as IArmorModifications = mods;
+        modsNew.armor += 3.0f;
+        modsNew.toughness += 1.0f;
+        return modsNew;
+    }
+    return mods;
+};
+scalesTrait.register();
+
+val primordial_malevolenceTrait = ArmorTraitBuilder.create("malevolence");
+primordial_malevolenceTrait.color = Color.fromHex("ffffff").getIntColor();
+primordial_malevolenceTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.primordial_malevolenceTrait.name");
+primordial_malevolenceTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.primordial_malevolenceTrait.desc");
+primordial_malevolenceTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        if (Math.random() < 0.15f) {
+            var dmg as float = player.maxHealth * 0.13f;
+            var source as IDamageSource = IDamageSource.createEntityDamage("chaos", player);
+            player.attackEntityFrom(source, dmg);
+        }
+    }
+    return newDamage;
+};
+primordial_malevolenceTrait.register();
+
+val watcherTrait = ArmorTraitBuilder.create("watcher");
+watcherTrait.color = Color.fromHex("ffffff").getIntColor();
+watcherTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.watcherTrait.name");
+watcherTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.watcherTrait.desc");
+watcherTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        if (source.damageType == "GENERIC") {
+            return newDamage * 0.9f;
+        } else if (source.damageType == "MAGIC") {
+            return newDamage * 0.93f;
+        }
+    }
+    return newDamage;
+};
+watcherTrait.register();
+
+val world_beginningTrait = ArmorTraitBuilder.create("world_beginning");
+world_beginningTrait.color = Color.fromHex("ffffff").getIntColor();
+world_beginningTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.world_beginningTrait.name");
+world_beginningTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.world_beginningTrait.desc");
+world_beginningTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        if (player.isPotionActive(<potion:contenttweaker:worldguard>)) {
+            return newDamage * 0.6f;
+        }
+    }
+    return newDamage;
+};
+world_beginningTrait.register();

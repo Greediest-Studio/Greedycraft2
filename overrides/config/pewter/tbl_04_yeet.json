@@ -1,0 +1,89 @@
+{
+  "name": "yeet",
+  "color": "#753c3c",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 9000,
+  "looks": {
+    "shininess": 1.0,
+    "brightness": 1.0,
+    "hueshift": 0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 50000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Yeet",
+    "zh_cn": "烂肉团块"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:greedycraft-yeet"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 100,
+      "defense": 104
+    },
+    "plates": {
+      "modifier": 8,
+      "durability": 92,
+      "toughness": 9
+    },
+    "trim": {
+      "extraDurability": 85
+    }
+  },
+  "specificTraits": {
+    "CORE": [
+      "throny_armor",
+      "electric_shock_armor",
+      "suture_armor",
+      "corrosive_armor"
+    ],
+    "PLATES": [
+      "ripening_armor",
+      "underwaterregen_armor",
+      "collapse_armor",
+      "corrosive_armor"
+    ],
+    "TRIM": [
+      "scales_armor",
+      "malevolence_armor",
+      "watcher_armor",
+      "corrosive_armor"
+    ]
+  }
+}

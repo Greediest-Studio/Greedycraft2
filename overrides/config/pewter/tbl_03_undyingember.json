@@ -1,0 +1,131 @@
+{
+  "name": "undying_ember",
+  "tool": {
+    "bow": {
+      "speed": 3,
+      "range": 2.3,
+      "bonusDamage": 49
+    },
+    "head": {
+      "attackDamage": 52,
+      "speed": 36,
+      "durability": 1000,
+      "harvestLevel": 12
+    },
+    "handle": {
+      "modifier": 0.5,
+      "durability": 3000
+    },
+    "extra": {
+      "durability": 400
+    }
+  },
+  "color": "#ff7c8e",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 9000,
+  "looks": {
+    "shininess": 1.0,
+    "brightness": 1.0,
+    "hueshift": 0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 50000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Undying Ember Gem",
+    "zh_cn": "余烬宝石"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:greedycraft-gemundyingember"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 60,
+      "defense": 84
+    },
+    "plates": {
+      "modifier": 9,
+      "durability": 56,
+      "toughness": 10.5
+    },
+    "trim": {
+      "extraDurability": 48
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "ember",
+      "rekindled",
+      "crystal_force",
+      "corrosive"
+    ],
+    "HEAD": [
+      "ember",
+      "rekindled",
+      "crystal_force",
+      "corrosive"
+    ],
+    "HANDLE": [
+      "ember",
+      "rekindled",
+      "crystal_force",
+      "corrosive"
+    ],
+    "CORE": [
+      "ember_armor",
+      "rekindled_armor",
+      "crystal_force_armor",
+      "corrosive_armor"
+    ],
+    "PLATES": [
+      "ember_armor",
+      "rekindled_armor",
+      "crystal_force_armor",
+      "corrosive_armor"
+    ],
+    "TRIM": [
+      "ember_armor",
+      "rekindled_armor",
+      "crystal_force_armor",
+      "corrosive_armor"
+    ]
+  }
+}

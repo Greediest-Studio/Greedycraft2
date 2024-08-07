@@ -1384,6 +1384,7 @@ naturalrefinerTrait.localizedDescription = game.localize("greedycraft.tconstruct
 naturalrefinerTrait.onBlockHarvestDrops = function(trait, tool, event) {
     if (event.block.definition.id == "gct_mobs:botanical_stone") {
         mods.contenttweaker.Commands.call("give @p gct_mobs:botanical_soul 1 0", event.player, event.player.world, false, true);
+        event.drops = [];
     }
 };
 naturalrefinerTrait.register();
@@ -2418,6 +2419,47 @@ transitionTrait.calcDamage = function(trait, tool, attacker, target, originalDam
     return newDamage;
 };
 transitionTrait.register();
+
+val transition2Trait = TraitBuilder.create("transition2");
+transition2Trait.color = Color.fromHex("ffffff").getIntColor(); 
+transition2Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.transition2Trait.name");
+transition2Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.transitionTrait.desc");
+transition2Trait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    if (owner instanceof IPlayer) {
+        var player as IPlayer = owner;
+        if (isSelected) {
+            if (!(player.isPotionActive(<potion:gct_tcon:excited_state>))) {
+                player.addPotionEffect(<potion:gct_tcon:ground_state>.makePotionEffect(1, 0, false, false));
+            } else {
+                player.addPotionEffect(<potion:gct_tcon:excited_state>.makePotionEffect(1, 0, false, false));
+            }
+        }
+    }
+};
+transition2Trait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (player.isPotionActive(<potion:gct_tcon:excited_state>)) {
+            if (Math.random() < 0.0375f) {
+                player.removePotionEffect(<potion:gct_tcon:excited_state>);
+                player.addPotionEffect(<potion:gct_tcon:ground_state>.makePotionEffect(1, 0, false, false));
+                return newDamage * 1.4f;
+            } else {
+                return newDamage * 1.4f;
+            }
+        } else {
+            if (Math.random() < 0.285714f) {
+                player.removePotionEffect(<potion:gct_tcon:ground_state>);
+                player.addPotionEffect(<potion:gct_tcon:excited_state>.makePotionEffect(1, 0, false, false));
+                return newDamage * 0.85f;
+            } else {
+                return newDamage * 0.85f;
+            }
+        }
+    }
+    return newDamage;
+};
+transition2Trait.register();
 
 val tiredTrait = TraitBuilder.create("tired");
 tiredTrait.color = Color.fromHex("ffffff").getIntColor(); 
@@ -3766,3 +3808,33 @@ rekindledTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelect
     }
 };
 rekindledTrait.register();
+
+val burn_bridgesTrait = TraitBuilder.create("burn_bridges");
+burn_bridgesTrait.color = Color.fromHex("ffffff").getIntColor(); 
+burn_bridgesTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.burn_bridgesTrait.name");
+burn_bridgesTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.burn_bridgesTrait.desc");
+burn_bridgesTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if ((player.health / player.maxHealth) <= (target.health / target.maxHealth)) {
+            return newDamage * 1.4f;
+        }
+    }
+    return newDamage;
+};
+burn_bridgesTrait.register();
+
+val world_beginningTrait = TraitBuilder.create("world_beginning");
+world_beginningTrait.color = Color.fromHex("ffffff").getIntColor(); 
+world_beginningTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.world_beginningTrait.name");
+world_beginningTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.world_beginningTrait.desc");
+world_beginningTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (player.isPotionActive(<potion:contenttweaker:worldguard>)) {
+            return newDamage * 1.35f;
+        }
+    }
+    return newDamage;
+};
+world_beginningTrait.register();

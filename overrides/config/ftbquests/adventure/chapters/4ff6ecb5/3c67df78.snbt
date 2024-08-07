@@ -2,7 +2,10 @@
 	title: "§b开始套娃了？",
 	x: 1.5d,
 	y: -4.0d,
-	description: "制作虚空金属源质治练厂",
+	description: "制作虚空金属源质冶炼厂",
+	text: [
+		""
+	],
 	dependencies: [
 		"32da997a",
 		"d1d09aad"

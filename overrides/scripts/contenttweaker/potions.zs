@@ -22,8 +22,15 @@ import mods.randomtweaker.cote.IPotion;
 import mods.zenutils.I18n;
 
 var pure as IPotion = VanillaFactory.createPotion("pure", 0xFFFFFF);
-pure.shouldRender = true;
-pure.shouldRenderHUD = true;
+pure.shouldRender = false;
+pure.shouldRenderHUD = false;
 pure.badEffectIn = false;
 pure.beneficial = true;
 pure.register();
+
+var worldguard as IPotion = VanillaFactory.createPotion("worldguard", 0xA3DAF8);
+worldguard.shouldRender = false;
+worldguard.shouldRenderHUD = false;
+worldguard.badEffectIn = false;
+worldguard.beneficial = true;
+worldguard.register();

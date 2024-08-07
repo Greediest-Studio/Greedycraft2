@@ -23,7 +23,8 @@ val compressingOreDict as string[] = [
     "SharpenAlloy",
     "TwilitAlloy",
     "Zodiacite",
-    "Wavite"
+    "Wavite",
+    "Dreamium"
 ];
 
 for od in compressingOreDict {

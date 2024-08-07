@@ -1519,7 +1519,16 @@ GameStagesUtil.stageEpicEngineer.addIngredients([
     <moretcon:dustirradium>,
     <moretcon:ingotirradium>,
     <moretcon:nuggetirradium>,
-    <moretcon:blockirradium>    
+    <moretcon:blockirradium>,
+    <ore:ingotThallium>,
+    <ore:blockThallium>,
+    <ore:nuggetThallium>,
+    <ore:dustThallium>,
+    <ore:oreThallium>,
+    <ore:ingotHeavyalloy>,
+    <ore:blockHeavyalloy>,
+    <ore:nuggetHeavyalloy>,
+    <ore:dustHeavyalloy>
 ], true);
 
 GameStagesUtil.stageChallenger1.addIngredients([

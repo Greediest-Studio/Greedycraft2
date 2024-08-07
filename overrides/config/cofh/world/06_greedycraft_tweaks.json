@@ -1929,6 +1929,27 @@
                 "value": [173]
             }
         },
+        "thallium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:greedycraft-thallium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:end_stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 6,
+            "min-height": 20,
+            "max-height": 80,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [1]
+            }
+        },
         "ebonite": {
             "enabled": "true",
             "distribution": "uniform",

@@ -1,0 +1,45 @@
+{
+  "name": "neon",
+  "color": "#ff6666",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Neon",
+    "zh_cn": "氖"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:mekaddon-neon_ingot"
+    ],
+    "block": [
+      "jaopca:block.neon"
+    ],
+    "nugget": [
+      "jaopca:nugget.neon"
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  }
+}

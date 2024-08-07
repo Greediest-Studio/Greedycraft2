@@ -1,0 +1,45 @@
+{
+  "name": "fluorine",
+  "color": "#fffd66",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.8,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Fluorine",
+    "zh_cn": "氟"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:mekaddon-fluorine_ingot"
+    ],
+    "block": [
+      "jaopca:block.fluorine"
+    ],
+    "nugget": [
+      "jaopca:nugget.fluorine"
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  }
+}

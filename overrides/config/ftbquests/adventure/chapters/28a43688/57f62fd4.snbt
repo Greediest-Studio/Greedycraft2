@@ -1,14 +1,13 @@
 {
 	title: "§b收集器MK3",
-	x: -24.0d,
-	y: 11.5d,
+	x: -20.0d,
+	y: 7.0d,
 	description: "合成质子中子素收集器，用于收集中子素锭",
 	text: [
 		""
 	],
 	dependencies: [
-		"f1b75c57",
-		"620e262f"
+		"f1b75c57"
 	],
 	tasks: [{
 		uid: "7218ab7e",

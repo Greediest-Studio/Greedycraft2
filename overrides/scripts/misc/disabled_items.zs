@@ -1517,7 +1517,8 @@ val disabledItems as IIngredient[] = [
     <draconicadditions:wyvern_shield_necklace>,
     <evilcraft:spirit_furnace>,
     <tiths:ore_tanatonium>,
-    <additions:greedycraft-sanite_ore>
+    <additions:greedycraft-sanite_ore>,
+    <botanicadds:mana_tesseract>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [

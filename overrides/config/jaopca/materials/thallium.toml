@@ -16,3 +16,15 @@
 	#The color of this material.
 	color = 8356478
 
+[molten]
+	#The temperature of this molten fluid.
+	temperature = 1000
+
+[enderio]
+	#The default byproduct material to output in Ender IO's sagmill.
+	byproduct = "minecraft:cobblestone"
+
+[mekanism]
+	#The default base to use in Mekanism's Combiner to recreate ores.
+	oreBase = "minecraft:cobblestone"
+

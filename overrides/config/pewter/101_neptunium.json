@@ -1,0 +1,94 @@
+{
+  "name": "neptunium",
+  "tool": {
+    "head": {
+      "attackDamage": 166,
+      "speed": 13,
+      "durability": 3200,
+      "harvestLevel": 13
+    },
+    "handle": {
+      "modifier": 1.4,
+      "durability": 1170
+    },
+    "extra": {
+      "durability": 1480
+    },
+    "bow": {
+      "drawspeed": 4.5,
+      "range": 3.8,
+      "bonusDamage": 121.0
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 309,
+      "defense": 172
+    },
+    "plates": {
+      "modifier": 3.4,
+      "durability": 217.0,
+      "toughness": 12.5
+    },
+    "trim": {
+      "extraDurability": 195.0
+    }
+  },
+  "color": "#1b1184",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Neptunium",
+    "zh_cn": "镎"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:elements-neptunium_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["burn_bridges","active_source3"],
+    "HANDLE": ["world_beginning","active_source3"],
+    "EXTRA": ["world_beginning","active_source3"],
+    "BOW": ["burn_bridges","active_source3"],
+    "CORE": ["world_beginning_armor","active_source3_armor"],
+    "PLATES": ["world_beginning_armor","active_source3_armor"],
+    "TRIM": ["world_beginning_armor","active_source3_armor"]
+  }
+}
