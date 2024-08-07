@@ -193,11 +193,30 @@
         "result": "deny"
     },
     {
+        "onjoin": true,
         "mob": [
             "divinerpg:whale", 
             "divinerpg:shark", 
             "divinerpg:liopleurodon", 
-            "divinerpg:rainbour"
+            "divinerpg:rainbour",
+            "forestry:butterflyge",
+            "botania:pixie",
+            "randomthings:playersoul",
+            "ageofminecraft:enderdragonhelpful",
+            "ageofminecraft:manaorb",
+            "ageofminecraft:ghasthelpful",
+            "ageofmutants:mutantzombiehelpful",
+            "ageofmutants:mutantcreeperhelpful",
+            "ageofmutants:mutantskeletonhelpful",
+            "ageofmutants:mutantendermanhelpful",
+            "ageofchaos:chaosguardianhelpful",
+            "ageofabyssalcraft:dragonminionhelpful",
+            "thaumcraft:mindspider",
+            "journey:magma_giant",
+            "dungeonsmod:anthermite",
+            "dungeonsmod:piranha",
+            "aether_legacy:swet",
+            "iceandfire:seaserpent"
         ],
         "result" : "deny"
     }
