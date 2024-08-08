@@ -100,8 +100,7 @@
                     <str>$bMSPT: $2{mspt}</str>
                     <str>$bMSPT: $a{mspt}</str>
         </operation>
-        <str>$7丨</str>
-            <str>$9内存: $9$l</str>
+            <str>$7丨$9内存: $9$l</str>
             <str>$9$l$7</str>
             <op>
                 <str>le</str>

@@ -1,5 +1,5 @@
 
-#Configurations for material Ash.
+#Configurations for material TelekillMetal.
 [general]
 	#The alternative names of this material.
 	alternativeNames = []
@@ -12,7 +12,11 @@
 	#Should items of this material have the enchanted glow.
 	hasEffect = false
 	#The model type of the material.
-	modelType = "dust"
+	modelType = "metallic"
 	#The color of this material.
-	color = 7960953
+	color = 4552822
+
+[molten]
+	#The temperature of this molten fluid.
+	temperature = 1000
 
