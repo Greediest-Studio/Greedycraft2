@@ -1518,7 +1518,18 @@ val disabledItems as IIngredient[] = [
     <evilcraft:spirit_furnace>,
     <tiths:ore_tanatonium>,
     <additions:greedycraft-sanite_ore>,
-    <botanicadds:mana_tesseract>
+    <botanicadds:mana_tesseract>,
+    <modularmachinery:blocklifeessenceproviderinput>,
+    <modularmachinery:blocklifeessenceprovideroutput>,
+    <modularmachinery:blockaspectproviderinput>,
+    <modularmachinery:blockaspectprovideroutput>,
+    <modularmachinery:blockstarlightproviderinput>,
+    <modularmachinery:blockstarlightprovideroutput>,
+    <modularmachinery:blockconstellationprovider>,
+    <modularmachinery:blockauraproviderinput>,
+    <modularmachinery:blockauraprovideroutput>,
+    <modularmachinery:blockmanaproviderinput>,
+    <modularmachinery:blockmanaprovideroutput>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [
