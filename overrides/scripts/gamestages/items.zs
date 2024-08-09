@@ -1636,7 +1636,7 @@ GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators"])
 GameStagesUtil.stageHardmode.addModId(["avaritia", "draconicevolution", "extrabotany", "projecte", "projectex", "taiga"]);
 GameStagesUtil.stageNether.addModId(["aether_legacy", "cyclicmagic", "touhou_little_maid", "aeble", "theaurorian"]);
 GameStagesUtil.stageNoobWizard.addModId(["astralsorcery"]);
-GameStagesUtil.stageNoviceWizard.addModId(["bloodmagic", "bloodarsenal", "animus", "evilcraft"]);
+GameStagesUtil.stageNoviceWizard.addModId(["bloodmagic", "bloodarsenal", "animus", "evilcraft", "thaumicrestoration"]);
 GameStagesUtil.stageSkilledWizard.addModId(["naturesaura", "naturesdestruction", "auraddons"]);
 GameStagesUtil.stageNoobEngineer.addModId(["thermaldynamics", "thermalexpansion", "appliedenergistics2"]);
 GameStagesUtil.stageNoviceEngineer.addModId(["enderio"]);

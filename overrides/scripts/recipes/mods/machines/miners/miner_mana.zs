@@ -16,7 +16,7 @@ val energy = 100;
 RecipeBuilder.newBuilder("miner_mana", "miner_mana", speed, 0)//这两个"miner_basic"是机器的ID与配方ID，保持相同即可
     .addEnergyPerTickInput(energy)
     .setDimension([0])//定义维度
-    .setBiome([<biome:mana_forest>])
+    .addManaInput(100, true)
 
     //接下来每两行为一组，一组对应一个物品
     .addItemOutput(<gct_mobs:mana_cobble_stone>)//定义物品ID

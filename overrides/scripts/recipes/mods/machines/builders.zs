@@ -774,3 +774,19 @@ for i in 4 to 7 {
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:flux_reducer"})) 
         .build();
 }
+//奥术凝聚台
+for i in 5 to 7 {
+    RecipeBuilder.newBuilder("controller_arcane_compressor" + i, "builder_" + i, 1600)
+        .addFluidInput(<liquid:redstone> * 432000)
+        .addItemInput(<thaumcraft:stone_arcane> * 64)
+        .addItemInput(<gct_mobs:primordial_stone> * 32)
+        .addItemInput(<ore:plateVoid> * 24)
+        .addItemInput(<ore:plateEldritchSteel> * 12)
+        .addItemInput(<ore:plateCursium> * 3)
+        .addItemInput(<ore:platePrimordial> * 16)
+        .addItemInput(<ore:gearEverite> * 16)
+        .addEnergyPerTickInput(3200)
+        .addItemOutput(<modularmachinery:arcane_compressor_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:arcane_compressor"}))
+        .build();
+}
