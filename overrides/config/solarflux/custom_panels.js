@@ -123,5 +123,16 @@ func init()
     .langBuilder()
       .put("en_us", "Solar Panel XIV")
       .put("zh_cn", "太阳能电池板 XIV")
-      .build();    
+      .build();
+ panel()
+    .name("solar_panel_order")
+    .height(6 / 16.0)
+    .capacity("2621440000")
+    .generation("262144")
+    .transfer("524288")
+  .buildAndRegister()
+    .langBuilder()
+      .put("en_us", "Ordered Solar Panel")
+      .put("zh_cn", "秩序太阳能电池板")
+      .build();
 }

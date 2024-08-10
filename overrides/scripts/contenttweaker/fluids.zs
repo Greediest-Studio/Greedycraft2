@@ -2325,18 +2325,6 @@ unshapable_liquid.stillLocation = "base:fluids/liquid";
 unshapable_liquid.flowingLocation = "base:fluids/liquid_flow";
 unshapable_liquid.register();
 
-val pruified_liquid = mods.contenttweaker.VanillaFactory.createFluid("pruified_liquid", Color.fromHex("ffffff").getIntColor());
-pruified_liquid.material = <blockmaterial:lava>;
-pruified_liquid.viscosity = 3000;
-pruified_liquid.density = 6500;
-pruified_liquid.colorize = true;
-pruified_liquid.temperature = 1000;
-pruified_liquid.luminosity = 10;
-pruified_liquid.color = Color.fromHex("ffffff").getIntColor();
-pruified_liquid.stillLocation = "base:fluids/liquid";
-pruified_liquid.flowingLocation = "base:fluids/liquid_flow";
-pruified_liquid.register();
-
 val molten_endest_steel = mods.contenttweaker.VanillaFactory.createFluid("endest_steel", Color.fromHex("072a10").getIntColor());
 molten_endest_steel.material = <blockmaterial:lava>;
 molten_endest_steel.viscosity = 3000;
@@ -2468,6 +2456,8 @@ molten_rose_gold.color = Color.fromHex("ffa21d").getIntColor();
 molten_rose_gold.stillLocation = "base:fluids/molten";
 molten_rose_gold.flowingLocation = "base:fluids/molten_flowing";
 molten_rose_gold.register();
+
+
 
 //液化类
 val liquid_air = mods.contenttweaker.VanillaFactory.createFluid("liquid_air", Color.fromHex("ffffff").getIntColor());
@@ -3021,3 +3011,4 @@ hecryo_liquid.color = Color.fromHex("3e1461").getIntColor();
 hecryo_liquid.stillLocation = "base:fluids/liquid";
 hecryo_liquid.flowingLocation = "base:fluids/liquid_flow";
 hecryo_liquid.register();
+

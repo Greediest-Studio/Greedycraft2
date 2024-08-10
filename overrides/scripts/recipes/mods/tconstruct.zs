@@ -418,7 +418,7 @@ Melting.addRecipe(<liquid:horizonite> * VOLUME_BLOCK, <ore:blockHorizonite>, 105
 Melting.addRecipe(<liquid:ventium> * VOLUME_BLOCK, <ore:blockVentium>, 1050);
 Melting.addRecipe(<liquid:darkice> * 36, <betterendforge:darkice_cluster>, 900);
 Melting.addRecipe(<liquid:unshapable_liquid> * 1000, <additions:bloody-unshapable_matter>, 200);
-Melting.addRecipe(<liquid:pruified_liquid> * 13, <additions:greedycraft-pruified_matter>, 1250);
+Melting.addRecipe(<liquid:pruified> * 13, <additions:greedycraft-pruified_matter>, 1250);
 Melting.addRecipe(<liquid:fracturite> * 432, <twilightforest:mazebreaker_pickaxe>, 2500);
 
 Fuel.registerFuel(<liquid:infernium> * 1, 600);
