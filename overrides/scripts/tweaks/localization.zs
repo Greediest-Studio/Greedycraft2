@@ -97,6 +97,7 @@ val localizationMap as string[string][string] = {
         "death.attack.cinderSpark": "%s被%s的火球烧成了灰烬。",
         "botania_tweaks.entrodupe.nicetry": "TNT复制机？给爷爪巴。爷不吃这套。",
         "item.withered_nether_star.name": "暗黑下界之星",
+        "entity.ChaosGuardianHelpful.name": "秩序守护使",
         "fluid.fusion_matrix": "熔融聚合矩阵",
         "fluid.insanium": "熔融究极精华",
         "jaopca.entry.Infernium": "永燃",
