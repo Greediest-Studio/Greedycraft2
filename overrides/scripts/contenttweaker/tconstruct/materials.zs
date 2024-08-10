@@ -1251,7 +1251,6 @@ hardfoggystone.craftable = true;
 hardfoggystone.castable = false;
 hardfoggystone.representativeItem = <item:mist:stone_basic>;
 hardfoggystone.addItem(<item:mist:stone_basic>);
-hardfoggystone.liquid = <liquid:hardfoggystone>;
 hardfoggystone.localizedName = game.localize("greedycraft.tconstruct.material.hardfoggystone.name");
 hardfoggystone.addHeadMaterialStats(1900, 15, 14, 4);
 hardfoggystone.addHandleMaterialStats(1.6, 1000);
