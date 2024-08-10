@@ -15,7 +15,21 @@
         "gugu-utils:emberinputhatch",
         "gugu-utils:aurainputhatch",
         "modularmachinery:blocksmartinterface",
-        "modularmachinery:blockparallelcontroller"
+        "modularmachinery:blockparallelcontroller",
+        "modularmachinery:blockmeitemoutputbus",
+        "modularmachinery:blockmeiteminputbus",
+        "modularmachinery:blockmefluidoutputbus",
+        "modularmachinery:blockmefluidinputbus",
+        "modularmachinery:blockmegasoutputbus",
+        "modularmachinery:blockmegasinputbus",
+        "modularmachinery:blockmepatternprovider",
+        "modularmachinery:blockwillproviderinput",
+        "modularmachinery:blockwillprovideroutput",
+        "modularmachinery:blockimpetusproviderinput",
+        "modularmachinery:blockimpetusprovideroutput",
+        "modularmachinery:blockgridproviderinput",
+        "modularmachinery:blockgridprovideroutput",
+        "modularmachinery:blockrainbowprovider"
     ],
     "casings_decorative": [
         "modularmachinery:blockcasing"
