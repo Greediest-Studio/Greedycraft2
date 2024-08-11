@@ -1,7 +1,6 @@
 #priority 7
 import crafttweaker.item.IItemStack;
 import crafttweaker.player.IPlayer;
-import mods.eventtweaker.Minecraft;
 
 var Tooltipitem as string[IItemStack] = {
     <contenttweaker:laurus> : "每隔10秒获得一层充能，每层充能可以阻止一次生命值损失，至多获得2层充能",
