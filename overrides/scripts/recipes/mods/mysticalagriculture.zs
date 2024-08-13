@@ -26,7 +26,7 @@ registerSeedRecipe(<mysticalcreations:cake_seeds>, <minecraft:cake>, 3, 2, <myst
 registerSeedRecipe(<mysticalcreations:witch_seeds>, <mysticalcreations:witch_chunk>, 4, 1, <mysticalcreations:witch_essence>, null);
 registerSeedRecipe(<mysticalcreations:stainless_steel_seeds>, <additions:stainless_steel_ingot>, 5, 1, <mysticalcreations:stainless_steel_essence>, null);
 registerSeedRecipe(<mysticalcreations:fusion_matrix_seeds>, <tconevo:material>, 6, 1, <mysticalcreations:fusion_matrix_essence>, <tconevo:material>);
-registerSeedRecipe(<mysticalcreations:meteor_seeds>, <nyx:meteor_ingot>, 5, 1, <mysticalcreations:meteor_essence>, <nyx:meteor_ingot>);
+registerSeedRecipe(<mysticalcreations:ignite_seeds>, <additions:ignite_ingot>, 5, 1, <mysticalcreations:ignite_essence>, <additions:ignite_ingot>);
 registerSeedRecipe(<mysticalcreations:aetherium_seeds>, <additions:greedycraft-aetherium_ingot>, 6, 3, <mysticalcreations:aetherium_essence>, <gct_ores:aetherium_nugget>);
 registerSeedRecipe(<mysticalcreations:canopium_seeds>, <additions:greedycraft-canopium_ingot>, 6, 3, <mysticalcreations:canopium_essence>, <gct_ores:canopium_nugget>);
 registerSeedRecipe(<mysticalcreations:mistium_seeds>, <additions:greedycraft-mistium_ingot>, 6, 1, <mysticalcreations:mistium_essence>, <gct_ores:mistium_nugget>);

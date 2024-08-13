@@ -128,7 +128,7 @@ val localizationMap as string[string][string] = {
         "fluid.organic_fluid": "有机液",
         "fluid.poison": "毒液",
         "fluid.modularium": "熔融模块化合金",
-        "fluid.meteor": "熔融陨星",
+        "fluid.ignite": "熔融炽星",
         "fluid.stainless_steel": "熔融不锈钢",
         "fluid.protonium": "极密质子流体",
         "fluid.electronium": "粘性电子流质",

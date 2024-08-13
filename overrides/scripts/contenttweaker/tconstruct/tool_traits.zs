@@ -1682,7 +1682,7 @@ meteor_fallTrait.onHit = function(trait, tool, attacker, target, damage, isCriti
     if (attacker instanceof IPlayer && target instanceof IEntityMob) {
         if (Math.random() < 0.02) {
             val player as IPlayer = attacker;
-            player.give(itemUtils.getItem("nyx:fallen_star"));
+            player.give(itemUtils.getItem("additions:ignite_ingot"));
         }
     }
 };

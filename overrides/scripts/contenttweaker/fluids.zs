@@ -232,17 +232,17 @@ molten_modularium.stillLocation = "base:fluids/molten";
 molten_modularium.flowingLocation = "base:fluids/molten_flowing";
 molten_modularium.register();
 
-val molten_meteor = mods.contenttweaker.VanillaFactory.createFluid("meteor", Color.fromHex("c62828").getIntColor());
-molten_meteor.material = <blockmaterial:lava>;
-molten_meteor.viscosity = 2400;
-molten_meteor.density = 10000;
-molten_meteor.colorize = true;
-molten_meteor.temperature = 1400;
-molten_meteor.luminosity = 15;
-molten_meteor.color = Color.fromHex("c62828").getIntColor();
-molten_meteor.stillLocation = "base:fluids/molten";
-molten_meteor.flowingLocation = "base:fluids/molten_flowing";
-molten_meteor.register();
+val molten_ignite = mods.contenttweaker.VanillaFactory.createFluid("ignite", Color.fromHex("c62828").getIntColor());
+molten_ignite.material = <blockmaterial:lava>;
+molten_ignite.viscosity = 2400;
+molten_ignite.density = 10000;
+molten_ignite.colorize = true;
+molten_ignite.temperature = 1400;
+molten_ignite.luminosity = 15;
+molten_ignite.color = Color.fromHex("c62828").getIntColor();
+molten_ignite.stillLocation = "base:fluids/molten";
+molten_ignite.flowingLocation = "base:fluids/molten_flowing";
+molten_ignite.register();
 
 val molten_stainless_steel = mods.contenttweaker.VanillaFactory.createFluid("stainless_steel", Color.fromHex("757575").getIntColor());
 molten_stainless_steel.material = <blockmaterial:lava>;

@@ -24,7 +24,8 @@ val compressingOreDict as string[] = [
     "TwilitAlloy",
     "Zodiacite",
     "Wavite",
-    "Dreamium"
+    "Dreamium",
+    "Ignite"
 ];
 
 for od in compressingOreDict {

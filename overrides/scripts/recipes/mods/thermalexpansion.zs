@@ -33,9 +33,6 @@ Insolator.removeRecipe(<appliedenergistics2:crystal_seed>, <minecraft:glowstone_
 Insolator.removeRecipe(<appliedenergistics2:crystal_seed:600>, <minecraft:glowstone_dust>);
 Insolator.removeRecipe(<appliedenergistics2:crystal_seed:1200>, <minecraft:glowstone_dust>);
 
-Pulverizer.addRecipe(<nyx:meteor_dust>, <nyx:meteor_ingot>, 600);
-Pulverizer.addRecipe(<nyx:meteor_dust> * 9, <nyx:meteor_block>, 600);
-Pulverizer.addRecipe(<nyx:meteor_dust>, <nyx:meteor_shard>, 600);
 Pulverizer.addRecipe(<additions:greedycraft-purifying_dust> * 8, <botania:specialflower>.withTag({type: "puredaisy"}), 600);
 
 InductionSmelter.addRecipe(<additions:greedycraft-glowing_signalum_ingot>, <additions:greedycraft-glowing_signalum_dust>, <minecraft:sand>, 4000);

@@ -1,0 +1,18 @@
+{
+  "item_block": {
+    "name": "§4炽星块",
+    "ore_dict": "blockIgnite",
+    "type": "additions:block_simple"
+  },
+  "name": "§4炽星块",
+  "material": "minecraft:metal",
+  "map_color": "minecraft:red",
+  "hardness": 5.0,
+  "resistance": 3000.0,
+  "harvest_level": 4,
+  "harvest_tool": "pickaxe",
+  "light_level": 3,
+  "slipperiness": 0.99,
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

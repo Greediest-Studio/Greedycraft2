@@ -252,7 +252,7 @@ for i in 3 to 7 {
         .addFluidInput(<liquid:redstone> * 30600)
         .addItemInput(<tconstruct:pick_head>.withTag({Material: "cobalt"}) * 2)
         .addItemInput(<tconstruct:pick_head>.withTag({Material: "aqualite"}) * 1)
-        .addItemInput(<tconstruct:pick_head>.withTag({Material: "meteor"}) * 1)
+        .addItemInput(<tconstruct:pick_head>.withTag({Material: "ignite"}) * 1)
         .addItemInput(<tconstruct:binding>.withTag({Material: "durasteel"}) * 4)
         .addItemInput(<tconstruct:tool_rod>.withTag({Material: "asgardium"}) * 2)
         .addItemInput(<tconstruct:tool_rod>.withTag({Material: "manganese_steel"}) * 2)

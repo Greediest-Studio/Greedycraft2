@@ -954,7 +954,7 @@ RecipeUtil.addShaped("sol_flux_panel_7", <solarflux:solar_panel_8>, [
 ]);
 RecipeUtil.addShaped("bottledstar", <extrabotany:bottledstar>, [
     [<ore:petalYellow>, <ore:petalYellow>, <ore:petalYellow>],
-    [<ore:blockGlass>, <ore:fallenStar>, <ore:blockGlass>],
+    [<ore:blockGlass>, <additions:greedycraft-astral_star>, <ore:blockGlass>],
     [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]
 ]);
 RecipeUtil.addShaped("end_portal_frame", <minecraft:end_portal_frame>, [
@@ -1496,7 +1496,7 @@ RecipeUtil.addShaped("growth_ring", <actuallyadditions:item_growth_ring>, [
 ]);
 RecipeUtil.addShaped("efln", <tconstruct:throwball:1> * 4, [
     [<ore:gunpowder>, <ore:dustSulfur>, <ore:gunpowder>],
-    [<ore:dustSulfur>, <ore:ingotMeteor>, <ore:dustSulfur>],
+    [<ore:dustSulfur>, <ore:ingotIgnite>, <ore:dustSulfur>],
     [<ore:gunpowder>, <ore:dustSulfur>, <ore:gunpowder>]
 ]);
 RecipeUtil.addShaped("heal_block", <openblocks:heal>, [

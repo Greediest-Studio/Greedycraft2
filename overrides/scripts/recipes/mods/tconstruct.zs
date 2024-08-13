@@ -78,7 +78,7 @@ Alloy.addRecipe(<liquid:leadite> * 3, [<liquid:circlium> * 2, <liquid:technetium
 Alloy.addRecipe(<liquid:martisite> * 3, [<liquid:cestium> * 4, <liquid:leadite> * 3, <liquid:numbereum> * 3]);
 Alloy.addRecipe(<liquid:flashite> * 3, [<liquid:fraxinium> * 2, <liquid:treasurite> * 2, <liquid:errorite> * 2]);
 Alloy.addRecipe(<liquid:overlaite>, [<liquid:martisite>, <liquid:clearite>]);
-Alloy.addRecipe(<liquid:balancite> * 2, [<liquid:aqualite>, <liquid:aeroite>, <liquid:asgardium>, <liquid:meteor>]);
+Alloy.addRecipe(<liquid:balancite> * 2, [<liquid:aqualite>, <liquid:aeroite>, <liquid:asgardium>, <liquid:ignite>]);
 Alloy.addRecipe(<liquid:shadow_bar>, [<liquid:rupee>, <liquid:realmite>]);
 Alloy.addRecipe(<liquid:glowing_signalum> * 144, [<liquid:signalum> * 144, <liquid:glowstone> * 1000]);
 Alloy.addRecipe(<liquid:twilight_crystal>, [<liquid:eden>, <liquid:wildwood>, <liquid:apalachia>, <liquid:skythern>, <liquid:mortum>]);
@@ -140,7 +140,6 @@ Casting.addBasinRecipe(<additions:greedycraft-terra_alloy_block>, null, <liquid:
 Casting.addBasinRecipe(<additions:greedycraft-manganese_steel_block>, null, <liquid:manganese_steel>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<candymod:chocolate_block>, null, <liquid:liquid_chocolate>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<extrabotany:blockorichalcos>, null, <liquid:orichalcos>, VOLUME_BLOCK, false, 300);
-Casting.addBasinRecipe(<nyx:meteor_block>, null, <liquid:meteor>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<tcomplement:scorched_block>, null, <liquid:scorched>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<additions:greedycraft-durasteel_block>, null, <liquid:durasteel>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<additions:greedycraft-aeonsteel_block>, null, <liquid:aeonsteel>, VOLUME_BLOCK, false, 300);
@@ -182,7 +181,6 @@ Casting.addTableRecipe(<harvestcraft:cheeseitem>, null, <liquid:milk>, 20, false
 Casting.addTableRecipe(<harvestcraft:cheeseitem>, null, <liquid:milk>, 200, false);
 Casting.addTableRecipe(<minecraft:coal>, <tconstruct:cast_custom:2>, <liquid:coal>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<modularmachinery:itemmodularium>, <tconstruct:cast_custom>, <liquid:modularium>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<nyx:meteor_ingot>, <tconstruct:cast_custom>, <liquid:meteor>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<tcomplement:materials:1>, <tconstruct:cast_custom>, <liquid:scorched>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<tconevo:material>, <tconstruct:cast_custom>, <liquid:fusion_matrix>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<thaumadditions:adaminite_ingot>, <tconstruct:cast_custom>, <liquid:adaminite>, VOLUME_INGOT, false, 200);
@@ -269,10 +267,6 @@ Melting.addRecipe(<liquid:iron> * (VOLUME_INGOT * 2), <actuallyadditions:item_mi
 Melting.addRecipe(<liquid:lava> * 200, <ore:netherrack>, 800);
 Melting.addRecipe(<liquid:liquid_chocolate> * VOLUME_BLOCK, <ore:blockChocolate>, 300);
 Melting.addRecipe(<liquid:liquid_chocolate> * VOLUME_INGOT, <ore:foodChocolate>, 300);
-Melting.addRecipe(<liquid:meteor> * VOLUME_BLOCK, <ore:blockMeteor>, 900);
-Melting.addRecipe(<liquid:meteor> * VOLUME_INGOT, <ore:dustMeteor>, 900);
-Melting.addRecipe(<liquid:meteor> * VOLUME_INGOT, <ore:ingotMeteor>, 900);
-Melting.addRecipe(<liquid:meteor> * VOLUME_INGOT, <ore:shardMeteor>, 900);
 Melting.addRecipe(<liquid:mithminite> * VOLUME_INGOT, <ore:ingotMithminite>, 1100);
 Melting.addRecipe(<liquid:mithrillium> * VOLUME_INGOT, <ore:ingotMithrillium>, 1500);
 Melting.addRecipe(<liquid:modularium> * VOLUME_INGOT, <ore:ingotModularium>, 900);
@@ -440,7 +434,6 @@ Fuel.registerFuel(<liquid:terra_alloy> * 1, 200);
 Fuel.registerFuel(<liquid:fierymetal> * 1, 200);
 Fuel.registerFuel(<liquid:insanium> * 1, 200);
 Fuel.registerFuel(<liquid:fusion_matrix> * 1, 200);
-Fuel.registerFuel(<liquid:meteor> * 1, 200);
 Fuel.registerFuel(<liquid:crimsonite> * 1, 200);
 Fuel.registerFuel(<liquid:reditrite> * 1, 200);
 Fuel.registerFuel(<liquid:lavarite> * 1, 200);

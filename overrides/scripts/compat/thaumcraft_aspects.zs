@@ -68,7 +68,7 @@ var aspectMap as CTAspectStack[][IIngredient] = {
     <additions:crimsonite_ingot> : [<aspect:victus> * 100],
     <additions:protonium_ingot> : [<aspect:ordo> * 100],
     <additions:electronium_ingot> : [<aspect:lux> * 100],
-    <nyx:meteor_ingot> : [<aspect:visum> * 100, <aspect:alienis> * 50],
+    <additions:ignite_ingot> : [<aspect:visum> * 100, <aspect:alienis> * 50],
     <additions:greedycraft-experience_ingot> : [<aspect:praecantatio> * 100],
     <additions:titanium_ingot> : [<aspect:metallum> * 100],
     <aether_legacy:ambrosium_shard> : [<aspect:caeles> * 20],

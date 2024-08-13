@@ -21,9 +21,6 @@
 <item:quark:monster_box>.asBlock().definition.hardness = 150.0f;
 <item:quark:monster_box>.asBlock().definition.setHarvestLevel("pickaxe", 4);
 
-<item:nyx:meteor_rock>.asBlock().definition.hardness = 32.0f;
-<item:nyx:meteor_rock>.asBlock().definition.setHarvestLevel("pickaxe", 4);
-
 <item:minecraft:mob_spawner>.asBlock().definition.hardness = 100.0f;
 
 <item:astralsorcery:blockcustomore:1>.asBlock().definition.hardness = 12.0f;

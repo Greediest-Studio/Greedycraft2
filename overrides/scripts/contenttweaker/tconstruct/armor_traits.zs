@@ -1296,7 +1296,7 @@ meteor_fallTrait.localizedName = game.localize("greedycraft.tconstruct.armor_tra
 meteor_fallTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.meteor_fallTrait.desc");
 meteor_fallTrait.onDamaged = function(trait, armor, player, source, damage, newDamage, evt) {
     if(Math.random() < 0.04){
-        player.give(itemUtils.getItem("nyx:fallen_star"));
+        player.give(itemUtils.getItem("additions:ignite_ingot"));
     }
     return newDamage;
 };

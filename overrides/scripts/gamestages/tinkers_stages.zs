@@ -24,7 +24,7 @@ val materialStages as string[string] = {
     "ardite": "nether",
     "cobalt": "nether",
     "manyullyn": "nether",
-    "meteor": "nether",
+    "ignite": "nether",
     "titanium": "awakened",
     "cryonium": "hardmode",
     "cytosinite": "hardmode",

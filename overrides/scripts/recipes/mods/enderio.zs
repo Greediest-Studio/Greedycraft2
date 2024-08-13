@@ -19,9 +19,6 @@ SagMill.addRecipe([<additions:greedycraft-time_fragment>, <additions:greedycraft
 SagMill.addRecipe([<additions:greedycraft-time_fragment> * 2, <additions:greedycraft-time_fragment>, <additions:greedycraft-time_fragment>, <additions:greedycraft-experience_ingot> * 3], [10 as float, 30 as float, 30 as float, 50 as float], <ore:dungeonLootTier2> as IIngredient, "CHANCE_ONLY", 30000, [25 as float, 25 as float, 25 as float, 25 as float]);
 SagMill.addRecipe([<additions:greedycraft-time_fragment> * 6, <additions:greedycraft-time_fragment> * 4, <additions:greedycraft-time_fragment> * 3, <additions:greedycraft-experience_ingot> * 16], [30 as float, 40 as float, 50 as float, 60 as float], <ore:dungeonLootTier3> as IIngredient, "CHANCE_ONLY", 100000, [100 as float, 100 as float, 100 as float, 100 as float]);
 
-SagMill.addRecipe([<nyx:meteor_dust>], [100 as float], <ore:ingotMeteor> as IIngredient, "CHANCE_ONLY", 600, [100 as float]);
-SagMill.addRecipe([<nyx:meteor_dust>], [100 as float], <ore:shardMeteor> as IIngredient, "CHANCE_ONLY", 600, [100 as float]);
-SagMill.addRecipe([<nyx:meteor_dust> * 9], [100 as float], <ore:blockMeteor> as IIngredient, "CHANCE_ONLY", 5400, [100 as float]);
 SagMill.addRecipe([<additions:greedycraft-purifying_dust> * 8], [100 as float], <botania:specialflower>.withTag({type: "puredaisy"}) as IIngredient, "CHANCE_ONLY", 600, [100 as float]);
 
 AlloySmelter.addRecipe(<modularmachinery:itemmodularium> * 2, [<ore:ingotIron>, <ore:ingotBronze>, <ore:dustRedstone>], 2000, 10.0f);
@@ -59,7 +56,7 @@ AlloySmelter.addRecipe(<taiga:yrdeen_ingot> * 3, [<ore:ingotUru> * 3, <ore:ingot
 AlloySmelter.addRecipe(<gct_ores:reditrite_ingot> * 4, [<ore:ingotOsram> * 2, <ore:ingotObsidiorite> * 9], 2000, 10.0f);
 AlloySmelter.addRecipe(<gct_ores:reditrite_ingot> * 4, [<ore:ingotOsram> * 2, <ore:blockObsidiorite>], 2000, 10.0f);
 AlloySmelter.addRecipe(<taiga:iox_ingot> * 1, [<ore:ingotEezo> * 2, <ore:ingotAbyssum> * 2, <ore:ingotReditrite> * 4], 2000, 10.0f);
-AlloySmelter.addRecipe(<taiga:obsidiorite_ingot>, [<ore:blockObsidian>, <ore:ingotMeteorite>], 2000, 10.0f);
+AlloySmelter.addRecipe(<taiga:obsidiorite_ingot>, [<ore:blockObsidian>, <ore:ingotIgniteite>], 2000, 10.0f);
 AlloySmelter.addRecipe(<extendedcrafting:material> * 1, [<ore:ingotIron>, <ore:ingotCosmicNeutronium>], 1000, 10.0f);
 AlloySmelter.addRecipe(<divinerpg:shadow_bar>, [<ore:ingotRupee>, <ore:ingotRealmite>], 2000, 10.0f);
 AlloySmelter.addRecipe(<additions:heavenite_ingot>, [<ore:ingotUru> * 3, <ore:ingotLighteum> * 2, <ore:ingotStripium> * 3], 2000, 10.0f);
@@ -107,6 +104,7 @@ AlloySmelter.addRecipe(<moretcon:ingotirradium> * 2, [<ore:ingotIridium>, <ore:i
 AlloySmelter.addRecipe(<additions:greedycraft-blueprint_laser_gun>, [<ore:ingotPhotonium>, <additions:greedycraft-blueprint>, <ore:ingotCrystalMatrix>], 800000, 400.0f);
 AlloySmelter.addRecipe(<additions:greedycraft-blueprint_ring>, [<ore:ingotValkyrie>, <additions:greedycraft-blueprint>, <ore:ingotEverite>], 1600000, 600.0f);
 AlloySmelter.addRecipe(<additions:greedycraft-ascensionite_ingot> * 2, [<ore:ingotLimonite> * 4, <ore:ingotRosite> * 2, <ore:ingotEmberstone> * 1], 4000, 10.0f);
+AlloySmelter.addRecipe(<additions:greedycraft-heavyalloy_ingot> * 2, [<ore:ingotLead> * 9, <ore:ingotThallium> * 2, <ore:ingotBismuth> * 4], 3000, 10.0f);
 
 SagMill.removeRecipe(<minecraft:coal>);
 SagMill.addRecipe([<actuallyadditions:item_dust:7> * 4], [100 as float], <ore:blockQuartzBlack> as IIngredient, "CHANCE_ONLY", 400, [100 as float]);

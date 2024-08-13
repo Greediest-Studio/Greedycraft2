@@ -232,7 +232,7 @@ addEnergy(<ticmat:yrdeen>, 510000);
 addEnergy(<ticmat:elementium>, 70000);
 addEnergy(<ticmat:aeroite>, 150000);
 addEnergy(<ticmat:meteorite>, 200000);
-addEnergy(<ticmat:meteor>, 170000);
+addEnergy(<ticmat:ignite>, 170000);
 addEnergy(<ticmat:mirion>, 215000);
 addEnergy(<ticmat:mithril>, 100000);
 addEnergy(<ticmat:vibranium>, 650000);

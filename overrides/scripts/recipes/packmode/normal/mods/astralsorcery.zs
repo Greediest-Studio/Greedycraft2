@@ -35,7 +35,7 @@ Altar.addTraitAltarRecipe("astral_metal", <additions:astral_metal_ingot> * 4, 30
 <ore:ingotAstralStarmetal>, <astralsorcery:itemusabledust>, <ore:ingotAstralStarmetal>,
 <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>,
 null, null, null, null, null, null, null, null, 
-<ore:ingotMeteor>, <ore:ingotMeteor>, <ore:ingotMeteor>, <ore:ingotMeteor>,
-<ore:fallenStar>, <ore:fallenStar>, <ore:fallenStar>, <ore:fallenStar>
+<ore:ingotIgnite>, <ore:ingotIgnite>, <ore:ingotIgnite>, <ore:ingotIgnite>,
+<additions:greedycraft-astral_star>, <additions:greedycraft-astral_star>, <additions:greedycraft-astral_star>, <additions:greedycraft-astral_star>
 ], "astralsorcery.constellation.aevitas");
 
