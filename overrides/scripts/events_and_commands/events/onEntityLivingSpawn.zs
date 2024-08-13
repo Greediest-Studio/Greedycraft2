@@ -36,4 +36,8 @@ events.onCheckSpawn(function(event as EntityLivingExtendedSpawnEvent) {
             event.deny();
         }
     }
+
+    if (living.customName.toLowerCase() == "darkness") {
+        event.deny();
+    }
 });
