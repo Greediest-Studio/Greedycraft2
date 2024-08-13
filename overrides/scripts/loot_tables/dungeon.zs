@@ -198,7 +198,6 @@ LootUtil.addItem(<natura:edibles:9>, 1, 1, 1, 4);
 LootUtil.addItem(<additions:greedycraft-catalyst_star>, 2, 1, 1, 1);
 LootUtil.addItem(<charm:suspicious_soup>, 10, 1, 1, 1);
 LootUtil.addItem(<additions:greedycraft-slime_crown>, 2, 1, 1, 1);
-LootUtil.addItem(<additions:greedycraft-shining_star>, 2, 1, 1, 1);
 LootUtil.addItem(<extrabotany:rewardbag:3>.withTag({weight: 189}), 2, 1, 1, 2);
 LootUtil.addItem(<extrabotany:rewardbag:1>.withTag({weight: 76}), 2, 1, 1, 2);
 LootUtil.addItem(<extrabotany:rewardbag>.withTag({weight: 96}), 4, 1, 1, 2);

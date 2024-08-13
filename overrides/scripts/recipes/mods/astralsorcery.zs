@@ -26,21 +26,10 @@ Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/enchantment_amulet_
 
 Altar.addDiscoveryAltarRecipe("shinydust", <astralsorcery:itemusabledust> * 16, 100, 100, [
     null, <ore:dustGlowstone>, null,
-    <ore:dustGlowstone>, <ore:fallenStar>, <ore:dustGlowstone>,
+    <ore:dustGlowstone>, <additions:greedycraft-astral_star>, <ore:dustGlowstone>,
     null, <ore:dustGlowstone>, null
 ]);
             
-Altar.addConstellationAltarRecipe("shining_star", <additions:greedycraft-shining_star>, 1000, 200, [
-    <astralsorcery:itemusabledust>, <ore:dustAstralStarmetal>, <astralsorcery:itemusabledust>,
-    <ore:dustAstralStarmetal>, <ore:blockGold>, <ore:dustAstralStarmetal>,
-    <astralsorcery:itemusabledust>, <ore:dustAstralStarmetal>, <astralsorcery:itemusabledust>,
-    <ore:fallenStar>, <ore:fallenStar>, <ore:fallenStar>, <ore:fallenStar>,
-    <ore:fallenStar>, <ore:fallenStar>,
-    <ore:fallenStar>, <ore:fallenStar>,
-    <ore:fallenStar>, <ore:fallenStar>,
-    <ore:fallenStar>, <ore:fallenStar>
-]);
-
 Altar.addTraitAltarRecipe("heavite", <gct_mobs:heavite> * 14, 4000, 100, [
     <ore:stoneLerdite>, <ore:stoneAmeralite>, <ore:stoneLerdite>,
     <ore:stoneAmeralite>, <ore:blockDaynight>, <ore:stoneAmeralite>,
@@ -49,7 +38,7 @@ Altar.addTraitAltarRecipe("heavite", <gct_mobs:heavite> * 14, 4000, 100, [
     <ore:stoneAmeralite>, <ore:stoneAmeralite>, <ore:stoneAmeralite>, <ore:stoneAmeralite>, 
     <ore:stoneAmeralite>, <ore:stoneAmeralite>, <ore:stoneAmeralite>, <ore:stoneAmeralite>, 
     <ore:stoneLerdite>, <ore:stoneLerdite>, <ore:stoneLerdite>, <ore:stoneLerdite>,
-    <ore:fallenStar>, <ore:fallenStar>, <ore:fallenStar>, <ore:fallenStar>
+    <additions:greedycraft-astral_star>, <additions:greedycraft-astral_star>, <additions:greedycraft-astral_star>, <additions:greedycraft-astral_star>
 ], "astralsorcery.constellation.mineralis");
 
 Altar.addTraitAltarRecipe("controller_altar", <modularmachinery:bright_altar_controller>, 7000, 140, [

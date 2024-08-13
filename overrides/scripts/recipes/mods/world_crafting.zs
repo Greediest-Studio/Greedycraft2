@@ -33,6 +33,7 @@ FluidToItem.transform(<additions:greedycraft-slider_gem_unforked>, <liquid:water
 FluidToItem.transform(<additions:greedycraft-apollonium_overheat_ingot>, <liquid:lava> * 1000, [<additions:botaniaddon-holium_ingot> * 4, <additions:greedycraft-sun_crystal> * 4, <aether_legacy:golden_amber>], true);
 FluidToItem.transform(<additions:greedycraft-brightine>, <liquid:astralsorcery.liquidstarlight> * 9000, [<astralsorcery:itemcraftingcomponent:4>, <additions:greedycraft-resonating_ruby>, <avaritia:block_resource:2>, <additions:greedycraft-nasalum_ingot>], true);
 FluidToItem.transform(<additions:greedycraft-pruified_matter>, <liquid:unshapable_liquid> * 1000, [<draconicevolution:chaos_shard>, <gct_ores:stormy_shard>, <thaumicaugmentation:material:5>, <additions:greedycraft-malevolence_core>], true);
+FluidToItem.transform(<additions:ignite_ingot>, <liquid:lava_solid> * 1000, [<appliedenergistics2:sky_stone_block> * 8, <astralsorcery:itemcraftingcomponent:1> * 4], false);
 
 FluidToItem.transform(<moretcon:repitem:5> * 3, <liquid:fierymetal> * 1000, [<twilightforest:steeleaf_ingot> * 4, <twilightforest:ironwood_raw> * 6, <twilightforest:knightmetal_ingot> * 2], true);
 FluidToItem.transform(<moretcon:repitem:2> * 3, <liquid:endacid> * 1000, [<endreborn:item_ingot_endorium> * 6, <moretcon:gemenderal> * 5, <tiths:ender_crevice_shard> * 5, <gct_mobs:resonated_scrap>], true);
