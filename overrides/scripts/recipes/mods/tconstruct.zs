@@ -6,6 +6,9 @@
 #priority 1000
 
 import crafttweaker.item.IItemStack;
+import crafttweaker.oredict.IOreDict;
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.liquid.ILiquidStack;
 
 import mods.tconstruct.Melting;
 import mods.tconstruct.Casting;
@@ -17,6 +20,23 @@ import mods.tcomplement.highoven.MixRecipeBuilder;
 val VOLUME_BLOCK = 1296;
 val VOLUME_INGOT = 144;
 val VOLUME_NUGGET = 16;
+
+function addBasicTicMetalRecipe(od as string, liquid as ILiquidStack, temperature as int) {
+    var ingotOd as IOreDictEntry = oreDict.get("ingot" + od);
+    var blockOd as IOreDictEntry = oreDict.get("block" + od);
+    var nuggetOd as IOreDictEntry = oreDict.get("nugget" + od);
+    var dustOd as IOreDictEntry = oreDict.get("dust" + od);
+    var gearOd as IOreDictEntry = oreDict.get("gear" + od);
+    Melting.addRecipe(liquid * 144, ingotOd, temperature);
+    Melting.addRecipe(liquid * 1296, blockOd, (temperature * 1.4f) as int);
+    Melting.addRecipe(liquid * 16, nuggetOd, (temperature * 0.7f) as int);
+    Melting.addRecipe(liquid * 144, dustOd, temperature);
+    Melting.addRecipe(liquid * (144 * 4), gearOd, (temperature * 1.15f) as int);
+    if (!isNull(ingotOd.firstItem)) Casting.addTableRecipe(ingotOd.firstItem, <tconstruct:cast_custom>, liquid, 144, false, 200);
+    if (!isNull(blockOd.firstItem)) Casting.addBasinRecipe(blockOd.firstItem, null, liquid, 1296, false, 300);
+}
+
+addBasicTicMetalRecipe("Ignite", <liquid:ignite>, 850);
 
 Alloy.removeRecipe(<liquid:yrdeen_fluid>);
 Alloy.removeRecipe(<liquid:decurrium>);

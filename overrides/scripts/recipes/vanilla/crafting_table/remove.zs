@@ -12,6 +12,7 @@ import crafttweaker.item.IIngredient;
 import scripts.util.recipes as RecipeUtil;
 
 val removedRecipes as IIngredient[] = [
+    <embers:blend_caminite>,
     <thebetweenlands:bl_bucket_plant_tonic>.withTag({usages: 0}),
     <endreborn:item_raw_endorium>,
     <appliedenergistics2:material:41>,
