@@ -170,6 +170,12 @@ Casting.addBasinRecipe(<draconicevolution:draconic_block>, null, <liquid:awakene
 Casting.addBasinRecipe(<gct_ores:chaotic_draconium_block>, null, <liquid:chaotic_draconium>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<gct_ores:genite_machine_frame>, <thermalexpansion:frame>, <liquid:genite>, 576, false, 100);
 Casting.addBasinRecipe(<gct_ores:everite_machine_frame>, <thermalexpansion:frame>, <liquid:everite>, 576, false, 100);
+Casting.addBasinRecipe(<gct_ores:manasteel_machine_frame>, <thermalexpansion:frame>, <liquid:manasteel>, 576, false, 100);
+Casting.addBasinRecipe(<gct_ores:elemetiumsteel_machine_frame>, <thermalexpansion:frame>, <liquid:elementium>, 576, false, 100);
+Casting.addBasinRecipe(<gct_ores:terrasteel_machine_frame>, <thermalexpansion:frame>, <liquid:terrasteel>, 576, false, 100);
+Casting.addBasinRecipe(<gct_ores:gaia_spirit_machine_frame>, <thermalexpansion:frame>, <liquid:gaia>, 576, false, 100);
+Casting.addBasinRecipe(<gct_ores:gaia_steel_machine_frame>, <thermalexpansion:frame>, <liquid:gaiasteel>, 576, false, 100);
+Casting.addBasinRecipe(<gct_ores:orichalcos_machine_frame>, <thermalexpansion:frame>, <liquid:orichalcos>, 576, false, 100);
 Casting.addBasinRecipe(<gct_ores:balanced_matrix_block>, null, <liquid:balanced_matrix>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<additions:greedycraft-titanium_block>, null, <liquid:titanium>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<tiths:block_decurrium>, null, <liquid:decurrium>, VOLUME_BLOCK, false, 300);
