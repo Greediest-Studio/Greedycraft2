@@ -813,7 +813,14 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:blockEndBiotite> : [<quark:biotite_block>],
     <ore:blockFluix> : [<appliedenergistics2:fluix_block>],
     <ore:blockCertusQuartz> : [<appliedenergistics2:quartz_block>],
-    <ore:blockHorizonite> : [<blue_skies:horizonite_block>]
+    <ore:blockHorizonite> : [<blue_skies:horizonite_block>],
+    <ore:frameManasteel> : [<gct_ores:manasteel_machine_frame>],
+    <ore:frameElementium> : [<gct_ores:elemetiumsteel_machine_frame>],
+    <ore:frameElvenElementium> : [<gct_ores:elemetiumsteel_machine_frame>],
+    <ore:frameTerrasteel> : [<gct_ores:terrasteel_machine_frame>],
+    <ore:frameGaia> : [<gct_ores:gaia_spirit_machine_frame>],
+    <ore:frameGaiasteel> : [<gct_ores:gaia_steel_machine_frame>],
+    <ore:frameOrichalcos> : [<gct_ores:orichalcos_machine_frame>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {
