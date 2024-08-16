@@ -12,6 +12,8 @@ import crafttweaker.item.IIngredient;
 import mods.abyssalcraft.Transmutator;
 import mods.abyssalcraft.CreationRitual;
 import mods.abyssalcraft.InfusionRitual;
+import mods.abyssalcraft.Rituals;
+import mods.abyssalcraft.necronomicon.internal;
 
 Transmutator.removeTransmutationOutput(<abyssalcraft:solidlava>);
 
@@ -159,3 +161,6 @@ InfusionRitual.removeRitual(<ageofminecraft:fusionasorah>);
 InfusionRitual.removeRitual(<ageofminecraft:fusionchagaroth>);
 InfusionRitual.removeRitual(<ageofminecraft:fusionjzahar>);
 InfusionRitual.removeRitual(<ageofminecraft:fusionsacthoth>);
+
+Rituals.removeRitual("changeRitual");
+
