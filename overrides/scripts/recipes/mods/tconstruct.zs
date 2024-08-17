@@ -37,6 +37,7 @@ function addBasicTicMetalRecipe(od as string, liquid as ILiquidStack, temperatur
 }
 
 addBasicTicMetalRecipe("Ignite", <liquid:ignite>, 850);
+addBasicTicMetalRecipe("RoseGold", <liquid:rose_gold>, 600);
 
 Alloy.removeRecipe(<liquid:yrdeen_fluid>);
 Alloy.removeRecipe(<liquid:decurrium>);

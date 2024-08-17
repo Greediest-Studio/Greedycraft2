@@ -305,6 +305,7 @@ val localizationMap as string[string][string] = {
         "fluid.iodine": "熔融碘",
         "fluid.pruified": "纯净流体",
         "fluid.wavite": "波动熔胶",
+        "fluid.rose_gold": "熔融玫瑰金",
         //化工相关液体
         "fluid.liquid_air": "液态空气",
         "fluid.hydrochloric_acid": "盐酸",
