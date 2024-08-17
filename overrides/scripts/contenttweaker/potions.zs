@@ -37,7 +37,7 @@ worldguard.register();
 
 var blood as IPotion = VanillaFactory.createPotion("blood", 0x820000);
 blood.shouldRender = false;
-blood.shouldRenderHUB = false;
+blood.shouldRenderHUD = false;
 blood.badEffectIn = true;
 blood.beneficial = false;
 blood.isReady = function(duration, amplifier) {
