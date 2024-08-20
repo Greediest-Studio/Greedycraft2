@@ -35,6 +35,15 @@ recipes.remove(<journey:boilingportalframe>);
 recipes.remove(<divinerpg:horde_horn>);
 recipes.remove(<divinerpg:call_of_the_watcher>);
 recipes.remove(<naturesaura:gold_fiber>);
+recipes.remove(<storagedrawers:upgrade_redstone>);
+recipes.remove(<storagedrawers:upgrade_redstone:1>);
+recipes.remove(<storagedrawers:upgrade_redstone:2>);
+recipes.remove(<naturalpledge:apple_immortality>);
+recipes.remove(<iceandfire:chain>);
+recipes.remove(<iceandfire:chain_sticky>);
+recipes.remove(<naturalpledge:fate_horn>);
+
+
 
 recipes.addShaped(<gugu-utils:starlightinputhatch:2>, [[<modularmachinery:itemmodularium>, <ore:ingotAstralMetal>, <modularmachinery:itemmodularium>],[<ore:ingotAstralMetal>, <gugu-utils:starlightinputhatch:1>, <ore:ingotAstralMetal>], [<modularmachinery:itemmodularium>, <ore:ingotAstralMetal>, <modularmachinery:itemmodularium>]]);
 recipes.addShaped(<additions:botaniaddon-elfsteel_block>, [[<ore:ingotElfsteel>, <ore:ingotElfsteel>, <ore:ingotElfsteel>],[<ore:ingotElfsteel>, <ore:ingotElfsteel>, <ore:ingotElfsteel>], [<ore:ingotElfsteel>, <ore:ingotElfsteel>, <ore:ingotElfsteel>]]);

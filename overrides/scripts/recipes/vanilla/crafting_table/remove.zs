@@ -510,7 +510,8 @@ val removedRecipeNames as string[] = [
     "thebetweenlands:recipe_plant_tonic_weedwood",
     "thebetweenlands:amate_map_green",
     "thebetweenlands:amate_map_aqua",
-    "thebetweenlands:amate_map_crimson"
+    "thebetweenlands:amate_map_crimson",
+    "theaurorian:items/stringfromplantfiber"
 ];
 
 for ingredient in removedRecipes {
