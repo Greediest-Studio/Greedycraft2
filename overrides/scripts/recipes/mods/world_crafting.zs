@@ -24,7 +24,7 @@ FluidToItem.transform(<thebetweenlands:forbidden_fig> * 16, <liquid:flux_goo> * 
 FluidToItem.transform(<moretcon:itemtrichromadentiumsponge:1>, <liquid:burningsulfurflow> * 1000, [<moretcon:gravitoniumsponge>], true); 
 FluidToItem.transform(<moretcon:itemtrichromadentiumsponge:2>, <liquid:ichor> * 1000, [<moretcon:itemtrichromadentiumsponge:1>], true); 
 FluidToItem.transform(<moretcon:itemtrichromadentiumsponge:3>, <liquid:tamoltencerulean> * 1000, [<moretcon:itemtrichromadentiumsponge:2>], true); 
-FluidToItem.transform(<moretcon:itemtrichromadentiumsponge:4>, <liquid:liquified_coralium> * 1000, [<moretcon:itemtrichromadentiumsponge:3>], true); 
+FluidToItem.transform(<moretcon:itemtrichromadentiumsponge:4>, <liquid:moltenrefinedcoralium> * 1000, [<moretcon:itemtrichromadentiumsponge:3>], true); 
 FluidToItem.transform(<moretcon:itemtrichromadentiumsponge:0>, <liquid:balanced_matrix> * 1000, [<moretcon:itemtrichromadentiumsponge:4>], false); 
 FluidToItem.transform(<additions:greedycraft-gemundyingember>, <liquid:liquidember> * 1000, [<moretcon:dustoctine>, <thebetweenlands:wisp>, <thebetweenlands:items_misc:46>, <thebetweenlands:items_crushed:21>], true); 
 FluidToItem.transform(<additions:greedycraft-valonitedruse> * 2, <liquid:rubber> * 1000, [<thebetweenlands:items_misc:19> * 16,<thebetweenlands:items_misc:39> * 24,<thebetweenlands:sap_spit> * 12,<additions:greedycraft-dirtshape>], true); 
