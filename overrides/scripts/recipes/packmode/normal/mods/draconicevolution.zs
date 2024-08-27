@@ -11,26 +11,6 @@ FusionCrafting.remove(<draconicevolution:chaos_shard>);
 FusionCrafting.remove(<minecraft:nether_star>);
 FusionCrafting.remove(<draconicevolution:draconic_pick>);
 
-FusionCrafting.add(<projecte:transmutation_table>, <additions:greedycraft-energy_matter_core>, 1, 2147483647, [ 
-    <avaritia:extreme_crafting_table>,
-    <projectex:matter:7>,
-    <tconevo:metal_block>,
-    <draconicevolution:dragon_heart>,
-    <additions:greedycraft-ancient_tome_page>,
-    <additions:greedycraft-pearl_of_knowledge>,
-    <additions:greedycraft-bounty_hunter_medal>,
-    <additions:greedycraft-city_defender_medal>
-]);
-FusionCrafting.add(<projecte:item.pe_transmutation_tablet>, <projecte:transmutation_table>, 2, 400000000, [ 
-    <ore:coreExcellent>,
-    <ore:coreExcellent>,
-    <ore:coreExcellent>,
-    <ore:coreExcellent>,
-    <ore:coreSuperior>,
-    <ore:coreSuperior>,
-    <ore:coreSuperior>,
-    <ore:coreSuperior>
-]);
 FusionCrafting.add(<draconicevolution:draconic_staff_of_power>, <avaritia:resource:5>, 2, 17179869184, [ 
     <tconevo:metal_block:1>,
     <tconevo:metal_block:1>,
@@ -50,16 +30,6 @@ FusionCrafting.add(<avaritia:extreme_crafting_table>, <extendedcrafting:table_ul
     <ore:coreExcellent>,
     <additions:greedycraft-ancient_tome_fragment>,
     <additions:greedycraft-ancient_tome_fragment>
-]);
-FusionCrafting.add(<projectex:arcane_tablet>, <projecte:item.pe_transmutation_tablet>, 3, 17179869184, [ 
-    <projectex:matter:8>,
-    <projectex:matter:8>,
-    <projectex:matter:9>,
-    <projectex:matter:9>,
-    <ore:coreEpic>,
-    <ore:coreEpic>,
-    <additions:greedycraft-ancient_tome>,
-    <projectex:matter:2>
 ]);
 FusionCrafting.add(<projecte:condenser_mk2>, <projecte:condenser_mk1>, 1, 640000000, [ 
     <projecte:matter_block:1>,

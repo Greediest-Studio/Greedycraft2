@@ -164,9 +164,6 @@ RecipeUtil.addShapeless("auto_gen_198647556", <additions:greedycraft-experience_
 RecipeUtil.addShapeless("auto_gen_1353175347", <additions:greedycraft-experience_nugget>,
     [<mysticalagriculture:xp_droplet>]
 );
-RecipeUtil.addShapeless("auto_gen_244244256", <projecte:transmutation_table>,
-    [<projectex:stone_table>]
-);
 RecipeUtil.addShapeless("auto_gen_-1011385798", <minecraft:crafting_table>,
     [<tconstruct:tooltables>]
 );
@@ -404,9 +401,6 @@ RecipeUtil.addShapeless("tofu_gem_1", <tofucraft:material:26>,
 RecipeUtil.addShapeless("tofu_gem_2", <tofucraft:material:27>,
     [<tofucraft:mineral_soymilk>, <tofucraft:mineral_soymilk>, <tofucraft:nigari>, <forge:bucketfilled>.withTag({FluidName: "soymilk_hell", Amount: 1000})]
 );
-RecipeUtil.addShapeless("stone_table", <projectex:stone_table>,
-    [<projecte:transmutation_table>, <ore:stone>]
-);
 RecipeUtil.addShapeless("stainless_steel_rev", <additions:stainless_steel_ingot> * 9,
     [<ore:blockStainlessSteel>]
 );
@@ -436,9 +430,6 @@ RecipeUtil.addShapeless("maid_token", <touhou_little_maid:gashapon_coin>,
 );
 RecipeUtil.addShapeless("crimsonite_rev", <additions:crimsonite_ingot> * 9,
     [<ore:blockCrimsonite>]
-);
-RecipeUtil.addShapeless("emc_tablet_clear_nbt", <projecte:item.pe_transmutation_tablet>,
-    [<projecte:item.pe_transmutation_tablet>]
 );
 RecipeUtil.addShapeless("black_quartz_block", <actuallyadditions:block_misc:2>,
     [<ore:gemQuartzBlack>, <ore:gemQuartzBlack>, <ore:gemQuartzBlack>, <ore:gemQuartzBlack>]
