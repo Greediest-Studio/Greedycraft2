@@ -93,6 +93,11 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
         player.removePotionEffect(<potion:minecraft:night_vision>);
     }
 
+    // Prevent Resistance 16 BUFF
+    if (player.isPotionActive(<potion:minecraft:resistance>) && player.getActivePotionEffect(<potion:minecraft:resistance>).amplifier == 15) {
+        player.removePotionEffect(<potion:minecraft:resistance>);
+    }
+
     //Check for story advancement
     if (player.world.getWorldTime() as long % 40 == 0) {
         grantAdvancement(player, "greedycraft:elysia/root");
