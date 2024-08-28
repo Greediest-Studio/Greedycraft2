@@ -3409,7 +3409,7 @@ leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, 
         } else {
             mtp = (93.0f / 4160.0f) * difficulty as float - (43.0f / 13.0f) as float;
         }
-        return newAmount * mtp as int;
+        return newAmount * mtp * 0.75f as int;
     }
     return newAmount;
 };

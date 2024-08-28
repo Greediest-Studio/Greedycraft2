@@ -2568,8 +2568,8 @@ leveling_durabilityTrait.onArmorDamaged = function(trait, armor, damageSource, a
         } else {
             mtp = (93.0f / 4160.0f) * difficulty as float - (43.0f / 13.0f) as float;
         }
-        if ((amount * mtp) as int >= armor.maxDamage / 25) {
-            return armor.maxDamage / 25 as int;
+        if ((amount * mtp) as int >= armor.maxDamage / 200) {
+            return armor.maxDamage / 200 as int;
         } else {
             return newAmount * mtp as int;
         }
