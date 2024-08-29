@@ -2,8 +2,8 @@
 mods.thaumcraft.aspect.aspectBuilder()
     .tag('abyss')
     .chatColor(2894892)
-    .component('dreadia')
-    .component('coralos')
+    .component('exanimis')
+    .component('vacuos')
     .image(resource('thaumcraft:textures/aspects/abyss.png'))
     .register()
 
