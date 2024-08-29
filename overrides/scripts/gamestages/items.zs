@@ -1509,6 +1509,7 @@ GameStagesUtil.stageEpicEngineer.addIngredients([
     <solarflux:custom_solar_panel_solar_panel_12>,
     <solarflux:custom_solar_panel_solar_panel_13>,
     <solarflux:custom_solar_panel_solar_panel_14>,
+    <solarflux:custom_solar_panel_solar_panel_order>,
     <gct_ores:photovoltaic_cell_ix>,
     <gct_ores:photovoltaic_cell_x>,
     <gct_ores:photovoltaic_cell_xi>,

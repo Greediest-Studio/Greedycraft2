@@ -61,6 +61,15 @@ RecipeBuilder.newBuilder("fusion_stormy_shard", "order_fusioner", 256)
     .addItemOutput(<additions:greedycraft-stormy_crystal_gem>)
     .build();
 
+RecipeBuilder.newBuilder("fusion_solar_panel_order", "order_fusioner", 256)
+    .addItemInput(<solarflux:solar_panel_chaotic> * 3)
+    .addItemInput(<solarflux:custom_solar_panel_solar_panel_11>)
+    .addItemInput(<gct_ores:ordered_core> * 2)
+    .addItemInput(<gct_ores:order_crystal> * 4)
+    .addEnergyPerTickInput(160000000)
+    .addItemOutput(<solarflux:custom_solar_panel_solar_panel_order> * 4)
+    .build();
+
 //攻击伤害
 var evolvedUpdatableAttackDamage as IItemStack[] = [
     <moretcon:blaxe>,
