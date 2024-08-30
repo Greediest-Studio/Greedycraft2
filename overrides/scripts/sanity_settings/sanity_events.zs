@@ -7,6 +7,7 @@ import crafttweaker.event.EntityLivingDamageEvent;
 import crafttweaker.event.PlayerBreakSpeedEvent;
 import crafttweaker.event.EntityLivingUpdateEvent;
 import crafttweaker.event.PlayerInteractBlockEvent;
+import crafttweaker.event.EntityLivingUseItemEvent.Finish;
 import crafttweaker.entity.AttributeModifier;
 import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.entity.IEntityLiving;
@@ -27,6 +28,7 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
     if (player.hasGameStage("final") == false) {
         SanityHelper.setSanity(player, 100.0f);
     }
+
 });
 
 events.onEntityLivingDamage(function(event as EntityLivingDamageEvent) {
@@ -115,3 +117,20 @@ events.onPlayerAttackEntity(function(event as PlayerAttackEntityEvent) {
     }
 });
 
+events.onEntityLivingUseItemFinish(function(event as Finish) {
+    
+    if (event.isPlayer) {
+        if (event.item.definition.id == "gct_aby:shoggothtancale") {
+            SanityHelper.removeSanity(event.player, 10);
+        } else if (event.item.definition.id == "gct_aby:shoggoth_tancale_soup") {
+            SanityHelper.removeSanity(event.player, 20);
+        } else if (event.item.definition.id == "gct_aby:remnant_cookie") {
+            SanityHelper.removeSanity(event.player, 5);
+        } else if (event.item.definition.id == "gct_aby:fruit_of_mind") {
+            SanityHelper.addSanity(event.player, 20);
+        } else if (event.item.definition.id == "gct_aby:fruit_of_mind_enchanted") {
+            SanityHelper.addSanity(event.player, 200);
+        }
+    }
+
+});
