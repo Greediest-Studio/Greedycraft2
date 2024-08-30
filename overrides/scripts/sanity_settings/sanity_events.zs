@@ -24,8 +24,9 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
         player.getAttribute("generic.movementSpeed").applyModifier(AttributeModifier.createModifier("generic.movementSpeed", mtp as double, 2, "f47ac10b-58cc-4372-a567-0e02b2c3d47e"));
     }
 
-    //SanityHelper.setSanity(player, 100.0f);
-
+    if (player.hasGameStage("final") == false) {
+        SanityHelper.setSanity(player, 100.0f);
+    }
 });
 
 events.onEntityLivingDamage(function(event as EntityLivingDamageEvent) {
@@ -113,3 +114,4 @@ events.onPlayerAttackEntity(function(event as PlayerAttackEntityEvent) {
         }
     }
 });
+
