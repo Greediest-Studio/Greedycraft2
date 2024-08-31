@@ -57,6 +57,20 @@
             ]
         },
         {
+            "key": "MINDFRUIT",
+            "name": "tc.research.MINDFRUIT.name",
+            "icons": ["gct_aby:fruit_of_mind"],
+            "category": "ABYSSISM",
+            "location": [-2, 5],
+            "parents": ["SANCHECK"],
+            "stages": [
+                {
+                    "text": "tc.research.MINDFRUIT.stage.1",
+                    "required_item": ["gct_aby:fruit_of_mind_enchanted"]
+                }
+            ]
+        },
+        {
             "key": "SHOGGOTH_COMPLEX_CRYSTAL",
             "name": "tc.research.SHOGGOTH_COMPLEX_CRYSTAL.name",
             "icons": ["gct_aby:shoggoth_complex_crystal"],
@@ -118,6 +132,19 @@
                 {
                     "text": "tc.research.ABYSSISM_MOBS.stage.2",
                     "warp": 10
+                }
+            ]
+        },
+        {
+            "key": "ABYSSISM_MOBS_SHOGGOTH",
+            "name": "tc.research.ABYSSISM_MOBS_SHOGGOTH.name",
+            "icons": ["ageofminecraft:shoggoth"],
+            "category": "ABYSSISM",
+            "location": [-6, 0],
+            "parents": ["ABYSSISM_MOBS"],
+            "stages": [
+                {
+                    "text": "tc.research.ABYSSISM_MOBS_SHOGGOTH.stage.1"
                 }
             ]
         }
