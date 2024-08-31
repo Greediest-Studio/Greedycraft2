@@ -4,6 +4,7 @@
  */
 
 #priority 32767
+#reloadable
 
 global commonStages as string[] = [
     "getting_started",

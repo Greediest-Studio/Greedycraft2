@@ -77,7 +77,23 @@ var aspectMap as CTAspectStack[][IIngredient] = {
     <tinkersaether:valkyrie_ingot> : [<aspect:caeles> * 20],
     <additions:asgardium_ingot> : [<aspect:caeles> * 50, <aspect:lux> * 20],
     <minecraft:clock> : [<aspect:metallum> * 20, <aspect:machina> * 10, <aspect:tempus> * 20],
-    <minecraft:repeater> : [<aspect:metallum> * 10, <aspect:machina> * 20, <aspect:tempus> * 10]
+    <minecraft:repeater> : [<aspect:metallum> * 10, <aspect:machina> * 20, <aspect:tempus> * 10],
+    <gct_aby:warprack> : [<aspect:terra> * 5, <aspect:abyss> * 3],
+    <gct_aby:seek_brick> : [<aspect:terra> * 10, <aspect:alienis> * 20, <aspect:bestia> * 10, <aspect:abyss> * 10],
+    <gct_aby:densedarkstone> : [<aspect:tenebrae> * 5, <aspect:abyss> * 2],
+    <gct_aby:shoggothtancale> : [<aspect:tenebrae> * 12, <aspect:alienis> * 12, <aspect:abyss> * 8],
+    <gct_aby:shoggothtooth> : [<aspect:tenebrae> * 30, <aspect:alienis> * 30, <aspect:bestia> * 15, <aspect:vacuos> * 10, <aspect:abyss> * 25],
+    <gct_aby:shadownuclear> : [<aspect:tenebrae> * 32, <aspect:abyss> * 10],
+    <gct_mobs:sanite_ingot> : [<aspect:spiritus> * 48, <aspect:tenebrae> * 16, <aspect:potentia> * 16, <aspect:abyss> * 20],
+    <gct_aby:warped_soul> : [<aspect:praecantatio> * 10, <aspect:primitivus> * 5, <aspect:tempus> * 5, <aspect:abyss> * 5],
+    <gct_aby:further_soul> : [<aspect:praecantatio> * 25, <aspect:victus> * 25, <aspect:primitivus> * 25, <aspect:tempus> * 20, <aspect:abyss> * 30],
+    <gct_mobs:cthulhurite_ingot> : [<aspect:aqua> * 60, <aspect:terra> * 20, <aspect:abyss> * 25, <aspect:perditio> * 15],
+    <gct_mobs:azathothium_ingot> : [<aspect:tenebrae> * 40, <aspect:abyss> * 40, <aspect:tempus> * 30, <aspect:ordo> * 30, <aspect:perditio> * 30],
+    <gct_mobs:nyarlathotepium_ingot> : [<aspect:tenebrae> * 40, <aspect:abyss> * 40, <aspect:tempus> * 30, <aspect:ordo> * 30, <aspect:perditio> * 30],
+    <gct_mobs:yogsothothium_ingot> : [<aspect:tenebrae> * 40, <aspect:abyss> * 40, <aspect:tempus> * 30, <aspect:ordo> * 30, <aspect:perditio> * 30],
+    <gct_mobs:shubniggurathium_ingot> : [<aspect:tenebrae> * 40, <aspect:abyss> * 40, <aspect:tempus> * 30, <aspect:ordo> * 30, <aspect:perditio> * 30],
+    <additions:taigaddon-cthughate_ingot> : [<aspect:ignis> * 60, <aspect:lux> * 20, <aspect:abyss> * 25, <aspect:perditio> * 15],
+    <additions:taigaddon-husturite_ingot> : [<aspect:vacuos> * 20, <aspect:aer> * 40, <aspect:tempestas> * 20, <aspect:abyss> * 25, <aspect:perditio> * 15]
 };
 
 for ingredient in aspectMap {

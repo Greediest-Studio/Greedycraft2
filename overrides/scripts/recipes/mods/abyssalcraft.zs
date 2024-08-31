@@ -158,6 +158,24 @@ InfusionRitual.addRitual("abyssine_ingot", 4, -1, 50000, true, <jaopca:block.aby
     <gct_ores:balanced_matrix_ingot>
 ] as IIngredient[], false);
 
+InfusionRitual.addRitual("eye_of_abyss", 4, -1, 100000, true, <gct_aby:eye_of_abyss>, <additions:greedycraft-awakened_eye>, [
+    <abyssalcraft:essence>,
+    <abyssalcraft:essence:1>,
+    <abyssalcraft:essence:2>,
+    <gct_aby:essenceofdarkrealm>,
+    <gct_aby:essenceofdarkerrealm>,
+    <gct_aby:essence_of_warped_ruin>,
+    <gct_ores:finallium_ingot>,
+    <thaumadditions:adaminite_fabric>
+] as IIngredient[], false);
+
+InfusionRitual.removeRitual(<ageofminecraft:fusionasorah>);
+InfusionRitual.removeRitual(<ageofminecraft:fusionchagaroth>);
+InfusionRitual.removeRitual(<ageofminecraft:fusionjzahar>);
+InfusionRitual.removeRitual(<ageofminecraft:fusionsacthoth>);
+
+Rituals.removeRitual("changeRitual");
+
 InfusionRitual.removeRitual(<ageofminecraft:fusionasorah>);
 InfusionRitual.removeRitual(<ageofminecraft:fusionchagaroth>);
 InfusionRitual.removeRitual(<ageofminecraft:fusionjzahar>);
