@@ -254,7 +254,6 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <cyclicmagic:evoker_fang>,
         <cyclicmagic:ender_lightning>,
         <cyclicmagic:tool_auto_torch>,
-        <advanced-fishing:blazing_fishing_pole>,
         <bountifulbaubles:amuletcross>,
         <bountifulbaubles:flaregun>,
         <randomthings:slimecube>,

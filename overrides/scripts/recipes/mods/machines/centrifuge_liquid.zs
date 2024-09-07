@@ -71,8 +71,6 @@ RecipeBuilder.newBuilder(regName + "_lava", regName, speed, 0)
     .setChance(0.025f / 10.0f)
     .addItemOutput(<mysticalagriculture:fire_essence>)
     .setChance(0.125f / 10.0f)
-    .addItemOutput(<advanced-fishing:blazing_fishing_pole>)
-    .setChance(0.00075f / 10.0f)
     .addFluidOutput(<liquid:iron> * 5)
     .addFluidOutput(<liquid:gold> * 2)
     .build();
