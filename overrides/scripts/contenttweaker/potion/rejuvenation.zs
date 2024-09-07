@@ -16,6 +16,6 @@ events.onEntityLivingHeal(function(event as crafttweaker.event.EntityLivingHealE
     var health = event.amount;
     if (!entity.world.remote && entity.isPotionActive(<potion:contenttweaker:rejuvenation>)){
         var number = entity.getActivePotionEffect(<potion:contenttweaker:rejuvenation>).amplifier;
-            event.amount *= number;
+            event.amount = event.amount * (number + 2);
     }
   });
