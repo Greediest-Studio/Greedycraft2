@@ -31,26 +31,6 @@ FusionCrafting.add(<avaritia:extreme_crafting_table>, <extendedcrafting:table_ul
     <additions:greedycraft-ancient_tome_fragment>,
     <additions:greedycraft-ancient_tome_fragment>
 ]);
-FusionCrafting.add(<projecte:condenser_mk2>, <projecte:condenser_mk1>, 1, 640000000, [ 
-    <projecte:matter_block:1>,
-    <projecte:matter_block:1>,
-    <projecte:matter_block:1>,
-    <projecte:matter_block:1>,
-    <ore:coreExcellent>,
-    <additions:greedycraft-energy_matter_core>,
-    <additions:greedycraft-city_defender_medal>,
-    <additions:greedycraft-ancient_tome_fragment>
-]);
-FusionCrafting.add(<projecte:condenser_mk1>, <projecte:alchemical_chest>, 0, 80000000, [ 
-    <projecte:item.pe_matter>,
-    <projecte:item.pe_matter>,
-    <projecte:item.pe_matter>,
-    <projecte:item.pe_matter>,
-    <ore:coreBasic>,
-    <ore:coreBasic>,
-    <ore:coreExcellent>,
-    <additions:greedycraft-energy_matter_core>
-]);
 FusionCrafting.add(<draconicevolution:awakened_core>, <minecraft:nether_star>, 1, 393216000, [ 
     <ore:coreExcellent>,
     <ore:coreExcellent>,

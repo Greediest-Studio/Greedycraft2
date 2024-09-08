@@ -95,7 +95,7 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
                     attribute.applyModifier(modifier);
                 } else if (skillName == "attack") {
                     var attribute as AttributeInstance = player.getAttribute("generic.attackDamage");
-                    var amount as double = 0.01 * getLevel(level);
+                    var amount as double = 0.03 * getLevel(level);
                     var modifier as AttributeModifier = AttributeModifier.createModifier("reskillable_skill_boost_" + skillName, amount, 1, uuid);
                     if (!isNull(attribute.getModifier(uuid))) {
                         attribute.removeModifier(uuid);
@@ -103,7 +103,7 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
                     attribute.applyModifier(modifier);
                 } else if (skillName == "building") {
                     var attribute as AttributeInstance = player.getAttribute("generic.armorToughness");
-                    var amount as double = 0.2 * getLevel(level);
+                    var amount as double = 0.1 * getLevel(level);
                     var modifier as AttributeModifier = AttributeModifier.createModifier("reskillable_skill_boost_" + skillName, amount, 0, uuid);
                     if (!isNull(attribute.getModifier(uuid))) {
                         attribute.removeModifier(uuid);
