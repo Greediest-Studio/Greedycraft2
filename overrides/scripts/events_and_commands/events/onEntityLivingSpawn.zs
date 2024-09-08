@@ -30,13 +30,6 @@ events.onCheckSpawn(function(event as EntityLivingExtendedSpawnEvent) {
     if (living.maxHealth >= 2147483647.0f) {
         event.deny();
     }
-
-    if (living.definition.id has "kraken") {
-        if (Math.abs(living.maxHealth - BARAKO_HP) >= 500.0f) {
-            event.deny();
-        }
-    }
-
     if (living.customName.toLowerCase() == "darkness") {
         event.deny();
     }
