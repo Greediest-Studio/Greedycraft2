@@ -42,6 +42,11 @@ recipes.remove(<naturalpledge:apple_immortality>);
 recipes.remove(<iceandfire:chain>);
 recipes.remove(<iceandfire:chain_sticky>);
 recipes.remove(<naturalpledge:fate_horn>);
+recipes.remove(<cyclicmagic:beacon_potion>);
+recipes.remove(<extrautils2:spike_iron>*4);
+recipes.remove(<extrautils2:spike_wood>*4);
+recipes.remove(<extrautils2:spike_stone>*4);
+recipes.remove(<divinerpg:serenade_of_health>);
 
 
 
@@ -1198,23 +1203,6 @@ RecipeUtil.addShaped("auto_gen_2008269634", <buildinggadgets:buildingtool>, [
     [<ore:ingotBronze>, <ore:gemDiamond>, <ore:ingotBronze>],
     [<ore:ingotStainlessSteel>, <ore:dustRedstone>, <ore:ingotStainlessSteel>]
 ]);
-RecipeUtil.addShaped("auto_gen_352019415", <buildinggadgets:exchangertool>, [
-    [<ore:ingotStainlessSteel>, <ore:dustRedstone>, <ore:ingotStainlessSteel>],
-    [<ore:pearlEnderEye>, <ore:gemDiamond>, <ore:pearlEnderEye>],
-    [<ore:ingotStainlessSteel>, <ore:dustRedstone>, <ore:ingotStainlessSteel>]
-]);
-/* Disabled
-RecipeUtil.addShaped("auto_gen_-1071431898", <buildinggadgets:copypastetool>, [
-    [<ore:ingotStainlessSteel>, <ore:dustRedstone>, <ore:ingotStainlessSteel>],
-    [<ore:slimeball>, <ore:gemDiamond>, <ore:slimeball>],
-    [<ore:ingotStainlessSteel>, <ore:dustRedstone>, <ore:ingotStainlessSteel>]
-]); */
-/* Disabled
-RecipeUtil.addShaped("auto_gen_12241914", <buildinggadgets:destructiontool>, [
-    [<ore:ingotAeonsteel>, <minecraft:bedrock>, <ore:ingotAeonsteel>],
-    [<ore:ingotRavaging>, <ore:netherStar>, <ore:ingotRavaging>],
-    [<ore:ingotAeonsteel>, <minecraft:bedrock>, <ore:ingotAeonsteel>]
-]); */
 RecipeUtil.addShaped("witch_essence", <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:witch"}}), [
     [null, <ore:essenceWitch>, null],
     [<ore:essenceWitch>, <ore:egg>, <ore:essenceWitch>],
@@ -1262,7 +1250,7 @@ RecipeUtil.addShaped("demagnetizer_advanced", <demagnetize:demagnetizer_advanced
     [<ore:ingotStainlessSteel>, <ore:ingotConductiveIron>, <ore:ingotStainlessSteel>]
 ]);// 
 RecipeUtil.addShaped("chunk_analyzer", <randomthings:chunkanalyzer>, [
-    [<ore:stickIron>, null, <ore:stickIron>],
+    [<additions:aeonsteel_ingot>, null, <additions:aeonsteel_ingot>],
     [<ore:ingotStainlessSteel>, <ore:gemTerrestrial>, <ore:ingotStainlessSteel>],
     [<ore:ingotChromium>, <ore:ingotStainlessSteel>, <ore:ingotChromium>]
 ]);

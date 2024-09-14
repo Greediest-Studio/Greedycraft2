@@ -30,12 +30,6 @@ brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), [<min
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "potioncore:extension"}), [<ore:dustGlowstone>], <minecraft:potion>.withTag({Potion: "potioncore:strong_extension"}));
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "potioncore:extension"}), [<ore:dustRedstone>], <minecraft:potion>.withTag({Potion: "potioncore:long_extension"}));
 
-/*
-brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), [<minecraft:cactus>], <minecraft:potion>.withTag({Potion: "potioncore:recoil"}));
-brewing.addBrew(<minecraft:potion>.withTag({Potion: "potioncore:recoil"}), [<ore:dustGlowstone>], <minecraft:potion>.withTag({Potion: "potioncore:strong_recoil"}));
-brewing.addBrew(<minecraft:potion>.withTag({Potion: "potioncore:recoil"}), [<ore:dustRedstone>], <minecraft:potion>.withTag({Potion: "potioncore:long_recoil"}));
-*/
-
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), [<ore:ingotIron>], <minecraft:potion>.withTag({Potion: "potioncore:iron_skin"}));
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "potioncore:iron_skin"}), [<ore:dustGlowstone>], <minecraft:potion>.withTag({Potion: "potioncore:strong_iron_skin"}));
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "potioncore:iron_skin"}), [<ore:dustRedstone>], <minecraft:potion>.withTag({Potion: "potioncore:long_iron_skin"}));
@@ -106,3 +100,6 @@ brewing.addBrew(<minecraft:potion>.withTag({Potion: "potioncore:archery"}), [<or
 
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), [<cyclicmagic:ender_tnt_1>], <minecraft:potion>.withTag({Potion: "potioncore:burst"}));
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "potioncore:burst"}), [<ore:dustGlowstone>], <minecraft:potion>.withTag({Potion: "potioncore:strong_burst"}));
+
+//brewing.removeRecipe(IItemStack input, IItemStack ingredient);
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:clock>.withTag({"quark:clock_calculated": 1 as byte}));

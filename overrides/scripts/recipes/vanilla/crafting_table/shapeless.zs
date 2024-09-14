@@ -167,9 +167,6 @@ RecipeUtil.addShapeless("auto_gen_1353175347", <additions:greedycraft-experience
 RecipeUtil.addShapeless("auto_gen_-1011385798", <minecraft:crafting_table>,
     [<tconstruct:tooltables>]
 );
-RecipeUtil.addShapeless("auto_gen_-1139630037", <scalinghealth:heartcontainer>,
-    [<bountifulbaubles:trinketbrokenheart>, <scalinghealth:crystalshard>]
-);
 RecipeUtil.addShapeless("auto_gen_741775353", <thermalfoundation:material:135>,
     [<projecte:item.pe_philosophers_stone>.transformReplace(<projecte:item.pe_philosophers_stone>), <ore:ingotPlatinum>, <ore:ingotPlatinum>, <ore:ingotPlatinum>, <ore:ingotPlatinum>]
 );
@@ -286,9 +283,6 @@ RecipeUtil.addShapeless("auto_gen_-1168410344", <appliedenergistics2:material:37
 );
 RecipeUtil.addShapeless("auto_gen_-1308565577", <appliedenergistics2:material:38>,
     [<appliedenergistics2:material:37>, <appliedenergistics2:material:37>, <appliedenergistics2:material:37>, <appliedenergistics2:material:37>]
-);
-RecipeUtil.addShapeless("auto_gen_462958864", <projectex:energy_link>,
-    [<additions:greedycraft-matter_block>, <rftools:machine_frame>, <ore:ingotProtonium>, <ore:ingotElectronium>]
 );
 RecipeUtil.addShapeless("pack_guide_book", <patchouli:guide_book>.withTag({"patchouli:book":"patchouli:greedycraft_guide_book"}),
     [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]

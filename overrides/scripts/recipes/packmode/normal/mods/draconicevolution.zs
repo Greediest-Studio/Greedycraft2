@@ -11,16 +11,6 @@ FusionCrafting.remove(<draconicevolution:chaos_shard>);
 FusionCrafting.remove(<minecraft:nether_star>);
 FusionCrafting.remove(<draconicevolution:draconic_pick>);
 
-FusionCrafting.add(<draconicevolution:draconic_staff_of_power>, <avaritia:resource:5>, 2, 17179869184, [ 
-    <tconevo:metal_block:1>,
-    <tconevo:metal_block:1>,
-    <tconevo:metal_block:1>,
-    <tconevo:metal_block:1>,
-    <tconevo:metal_block:1>,
-    <tconevo:metal_block:1>,
-    <additions:greedycraft-creative_soul>,
-    <additions:greedycraft-ancient_tome>
-]);
 FusionCrafting.add(<avaritia:extreme_crafting_table>, <extendedcrafting:table_ultimate>, 1, 800000000, [ 
     <avaritia:block_resource:2>,
     <avaritia:block_resource:2>,
