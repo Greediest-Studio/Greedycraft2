@@ -28,9 +28,7 @@ val mobStages as string[string] = {
     "mowziesmobs:barako": "wyvern",
     "mowziesmobs:frostmaw": "hardmode",
     "minecraft:wither": "abyssal_conquerer",
-    "ageofminecraft:enderdragonhelpful": "disabled",
-    "iceandfire:icedragon" : "final",
-    "iceandfire:firedragon" : "final"
+    "ageofminecraft:enderdragonhelpful": "disabled"
 } as string[string];
 
 val mobReplacements as string[string] = {
@@ -42,9 +40,7 @@ val mobReplacements as string[string] = {
     "enderiozoo:epicsquid": "minecraft:squid",
     "enderiozoo:enderminy": "minecraft:enderman",
     "enderiozoo:direwolf": "minecraft:wolf",
-    "enderiozoo:concussioncreeper": "minecraft:creeper",
-    "iceandfire:icedragon" : "minecraft:zombie",
-    "iceandfire:firedragon" : "minecraft:zombie"
+    "enderiozoo:concussioncreeper": "minecraft:creeper"
 } as string[string];
 
 for mob, stage in mobStages {

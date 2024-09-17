@@ -243,13 +243,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:naturalline>, [
 	[<gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>], 
 	[<gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>, <gct_mobs:naturalline_scrap>]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <naturalpledge:holy_symbol>, [
-	[null, <ore:ingotBotanical>, <ore:ingotBotanical>, <ore:ingotBotanical>, null], 
-	[<ore:ingotBotanical>, <ore:manaString>, <ore:ingotBotanical>, <ore:manaString>, <ore:ingotBotanical>], 
-	[null, <ore:ingotOrichalcosReversed>, null, <ore:ingotBotanical>, null], 
-	[<ore:ingotOrichalcosReversed>, <gct_mobs:kabalah_ring_aur>, <ore:ingotOrichalcosReversed>, null, null], 
-	[null, <ore:ingotOrichalcosReversed>, null, null, null]
-]);
 mods.extendedcrafting.TableCrafting.addShaped(0, <additions:greedycraft-sanite_ethaxium_capsule> * 16, [
 	[null, null, null, null, null], 
 	[null, <ore:ingotSanite>, <ore:ingotEthaxium>, <ore:ingotEthaxium>, null], 

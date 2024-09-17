@@ -147,16 +147,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:greedycraft-betweenl
 	[null, <ore:ingotBalancedMatrix>, <ore:ingotOrichalcos>, null, null, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <naturalpledge:spell_focus>, [
-	[null, null, <ore:blockMana>, <ore:blockTerrasteel>, <ore:blockMana>, null, null], 
-	[null, <ore:blockMana>, <ore:ingotBotanicalAwakened>, <ore:ingotBotanicalAwakened>, <ore:ingotBotanicalAwakened>, <ore:blockMana>, null], 
-	[null, <ore:blockTerrasteel>, <ore:ingotBotanicalAwakened>, <ore:ingotBotanicalAwakened>, <ore:ingotBotanicalAwakened>, <ore:blockTerrasteel>, null], 
-	[null, <ore:blockMana>, <ore:ingotBotanicalAwakened>, <ore:ingotBotanicalAwakened>, <ore:ingotBotanicalAwakened>, <ore:blockMana>, null], 
-	[null, null, <ore:blockMana>, <ore:blockTerrasteel>, <ore:blockMana>, null, null], 
-	[null, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, null], 
-	[null, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, null]
-]);
-
 mods.extendedcrafting.TableCrafting.addShaped(0, <additions:bloody-gloomy_passport>, [
 	[null, null, <ore:ingotDullium>, <ore:ingotDullium>, <ore:ingotDullium>, null, null], 
 	[<ore:ingotDullium>, <ore:ingotDullium>, <ore:ingotWigthium>, <ore:dustDark>, <ore:dustDark>, <ore:ingotDullium>, <ore:ingotDullium>], 

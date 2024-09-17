@@ -54,13 +54,6 @@ RecipeBuilder.newBuilder("finallium_forge", "final_forge", 96000, 1)
         ]
     ).setChance(0.5f)
     .addCatalystInput(
-        <naturalpledge:resource:1>, ["§e加工时间减少到90%", "§e能量消耗减少到85%", "§e材料产出增加到103%"], [
-            RecipeModifierBuilder.create(TIME, "input", 0.90f, 1, false).build(),
-            RecipeModifierBuilder.create(RF, "input", 0.85f, 1, false).build(),
-            RecipeModifierBuilder.create(ITEM, "output", 1.03f, 1, false).build(),
-        ]
-    ).setChance(0.75f)
-    .addCatalystInput(
         <additions:greedycraft-flux_ingot>, ["§e能量消耗减少到85%", "§e材料产出增加到103%"], [
             RecipeModifierBuilder.create(RF, "input", 0.85f, 1, false).build(),
             RecipeModifierBuilder.create(ITEM, "output", 1.03f, 1, false).build(),

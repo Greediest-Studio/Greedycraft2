@@ -11,16 +11,6 @@ import crafttweaker.item.IIngredient;
 
 import scripts.util.recipes as RecipeUtil;
 
-RecipeUtil.addModeRecipe("blood_altar", <bloodmagic:altar>, [
-    [<ore:planksBloodwood>, null, <ore:planksBloodwood>],
-    [<ore:planksBloodwood>, <additions:greedycraft-bloody_sacrifice>, <ore:planksBloodwood>],
-    [<ore:ingotStainlessSteel>, <bloodmagic:monster_soul>, <ore:ingotStainlessSteel>]
-], [
-    [<ore:planksBloodwood>, null, <ore:planksBloodwood>],
-    [<ore:blockManyullyn>, <additions:greedycraft-bloody_sacrifice>, <ore:blockManyullyn>],
-    [<ore:ingotStainlessSteel>, <bloodmagic:monster_soul>, <ore:ingotStainlessSteel>]
-]);
-
 RecipeUtil.addModeRecipe("mm_upgrade_t4", <modularmachinery:blockcasing:5>, [
     [<ore:ingotChromasteel>, <ore:ingotModularium>, <ore:ingotChromasteel>],
     [<ore:ingotModularium>, <modularmachinery:blockcasing:3>, <ore:ingotModularium>], 

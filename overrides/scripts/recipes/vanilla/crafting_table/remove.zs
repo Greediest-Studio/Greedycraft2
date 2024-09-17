@@ -12,14 +12,12 @@ import crafttweaker.item.IIngredient;
 import scripts.util.recipes as RecipeUtil;
 
 val removedRecipes as IIngredient[] = [
-    <embers:blend_caminite>,
     <thebetweenlands:bl_bucket_plant_tonic>.withTag({usages: 0}),
     <endreborn:item_raw_endorium>,
     <appliedenergistics2:material:41>,
     <moretcon:carbonpile>,
     <moretcon:spacetimedisruptionpowder>,
     <journey:reinforcedcrystalingot>,
-    <naturalpledge:holy_symbol>,
     <evilcraft:primed_pendant>,
     <extendedcrafting:compressor>,
     <oeintegration:excavatemodifier>,
@@ -464,7 +462,6 @@ val removedRecipes as IIngredient[] = [
     <mekanism:machineblock:6>,
     <mekanism:machineblock:7>,
     <mekanism:machineblock:8>,
-    <naturalpledge:spell_focus>,
     <enderio:item_material:66>,
     <mca:rose_gold_dust>,
     <mca:rose_gold_ingot>

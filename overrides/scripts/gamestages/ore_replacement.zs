@@ -68,7 +68,6 @@ GameStagesUtil.stageHardmode.addOreReplacement(<additions:greedycraft-adeninite_
 GameStagesUtil.stageHardmode.addOreReplacement(<gct_ores:witherium_ore_overworld:*>, <minecraft:stone>, false);
 GameStagesUtil.stageHardmode.addOreReplacement(<gct_ores:witherium_ore_nether:*>, <minecraft:netherrack>, false);
 GameStagesUtil.stageHardmode.addOreReplacement(<gct_ores:witherium_ore_end:*>, <minecraft:end_stone>, false);
-GameStagesUtil.stageHardmode.addOreReplacement(<iceandfire:sapphire_ore:*>, <minecraft:stone>, false);
 
 GameStagesUtil.stageNether.addOreReplacement(<minecraft:anvil:*>, <additions:greedycraft-unknown_block>, false);
 GameStagesUtil.stageNether.addOreReplacement(<minecraft:beacon:*>, <additions:greedycraft-unknown_block>, false);

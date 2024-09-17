@@ -1068,7 +1068,6 @@ val disabledItems as IIngredient[] = [
     <gct_mac:model_atomic_viberator>,
     <gct_mobs:reserver>,
     <gct_mobs:god_agglomeration_plate>,
-    <embers:block_furnace>,
     <cfm:item_package>,
     <cfm:item_envelope_signed>,
     <cfm:present>,

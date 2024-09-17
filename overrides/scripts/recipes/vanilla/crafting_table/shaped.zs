@@ -38,10 +38,6 @@ recipes.remove(<naturesaura:gold_fiber>);
 recipes.remove(<storagedrawers:upgrade_redstone>);
 recipes.remove(<storagedrawers:upgrade_redstone:1>);
 recipes.remove(<storagedrawers:upgrade_redstone:2>);
-recipes.remove(<naturalpledge:apple_immortality>);
-recipes.remove(<iceandfire:chain>);
-recipes.remove(<iceandfire:chain_sticky>);
-recipes.remove(<naturalpledge:fate_horn>);
 recipes.remove(<cyclicmagic:beacon_potion>);
 recipes.remove(<extrautils2:spike_iron>*4);
 recipes.remove(<extrautils2:spike_wood>*4);
@@ -680,6 +676,11 @@ RecipeUtil.addShaped("auto_gen_695406342", <projecte:item.pe_repair_talisman>, [
     [<ore:shardCreative>, <ore:shardCreative>, <ore:shardCreative>],
     [<tconstruct:materials:19>, <projecte:item.pe_matter:1>, <tconstruct:materials:19>],
     [<projecte:item.pe_covalence_dust>, <projecte:item.pe_covalence_dust:2>, <projecte:item.pe_covalence_dust:1>]
+]);
+RecipeUtil.addShaped("blood", <bloodmagic:altar>, [
+    [<astralsorcery:itemcoloredlens:3>, null, <astralsorcery:itemcoloredlens:3>],
+    [<astralsorcery:itemcoloredlens:3>, <additions:greedycraft-bloody_sacrifice>, <astralsorcery:itemcoloredlens:3>],
+    [<additions:stainless_steel_ingot>, <bloodmagic:monster_soul>, <additions:stainless_steel_ingot>]
 ]);
 RecipeUtil.addShaped("bh_medal_upgrade0", <additions:greedycraft-bounty_hunter_medal_silver>, [
     [<additions:greedycraft-bounty_hunter_medal_bronze>, <additions:greedycraft-bounty_hunter_medal_bronze>, <additions:greedycraft-bounty_hunter_medal_bronze>],

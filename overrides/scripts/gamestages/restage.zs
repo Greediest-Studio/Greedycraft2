@@ -132,10 +132,7 @@ GameStagesUtil.restageItems("wyvern", [
 GameStagesUtil.restageItem("awakened", <avaritia:neutronium_compressor>);
 GameStagesUtil.restageItems("hardmode", [
     <cyclicmagic:block_disenchanter>,
-    <extendedcrafting:storage:2>,
-    <iceandfire:sapphire_ore>,
-    <iceandfire:sapphire_block>,
-    <iceandfire:sapphire_gem>
+    <extendedcrafting:storage:2>
 ]);
 GameStagesUtil.restageItem("fusion_matrix", <cyclicmagic:ender_lightning>);
 GameStagesUtil.restageItems("graduated", [
