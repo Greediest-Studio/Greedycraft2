@@ -9,10 +9,6 @@ import mods.inworldcrafting.FluidToItem;
 import mods.inworldcrafting.FluidToFluid;
 import mods.inworldcrafting.ExplosionCrafting;
 
-FluidToItem.transform(<thebetweenlands:swamp_talisman:1>, <liquid:blackhole_alloy> * 1000, [<gct_aby:shadownuclear>, <additions:cosmilite_ingot>], false); 
-FluidToItem.transform(<thebetweenlands:swamp_talisman:2>, <liquid:blackhole_alloy> * 1000, [<aether_legacy:dungeon_key:2>, <aether_legacy:dungeon_key:1>, <aether_legacy:dungeon_key>, <additions:cosmilite_ingot>], false); 
-FluidToItem.transform(<thebetweenlands:swamp_talisman:3>, <liquid:blackhole_alloy> * 1000, [<gct_aby:ancientmud>, <additions:cosmilite_ingot>], false); 
-FluidToItem.transform(<thebetweenlands:swamp_talisman:4>, <liquid:blackhole_alloy> * 1000, [<gct_aby:shoggothtancale>, <additions:cosmilite_ingot>], false); 
 FluidToItem.transform(<moretcon:ingotrotiron>, <liquid:cosmilite> * 1000, [<additions:greedycraft-rotiron_scrap> * 9,<additions:greedycraft-bone_shard>], false); 
 FluidToItem.transform(<thebetweenlands:bl_bucket_plant_tonic>, <liquid:stagnant_water> * 1000, [<thebetweenlands:mire_scramble>, <thebetweenlands:items_misc:61>, <thebetweenlands:weeping_blue_petal_salad>, <thebetweenlands:sushi>], false); 
 FluidToItem.transform(<minecraft:spawn_egg>.withTag({EntityTag: {id: "thebetweenlands:olm"}}), <liquid:cosmilite> * 1000, [<thebetweenlands:mire_snail_egg>], true); 
@@ -34,10 +30,3 @@ FluidToItem.transform(<additions:greedycraft-apollonium_overheat_ingot>, <liquid
 FluidToItem.transform(<additions:greedycraft-brightine>, <liquid:astralsorcery.liquidstarlight> * 9000, [<astralsorcery:itemcraftingcomponent:4>, <additions:greedycraft-resonating_ruby>, <avaritia:block_resource:2>, <additions:greedycraft-nasalum_ingot>], true);
 FluidToItem.transform(<additions:greedycraft-pruified_matter>, <liquid:unshapable_liquid> * 1000, [<draconicevolution:chaos_shard>, <gct_ores:stormy_shard>, <thaumicaugmentation:material:5>, <additions:greedycraft-malevolence_core>], true);
 FluidToItem.transform(<additions:ignite_ingot>, <liquid:lava_solid> * 1000, [<appliedenergistics2:sky_stone_block> * 8, <astralsorcery:itemcraftingcomponent:1> * 4], false);
-
-FluidToItem.transform(<moretcon:repitem:5> * 3, <liquid:fierymetal> * 1000, [<twilightforest:steeleaf_ingot> * 4, <twilightforest:ironwood_raw> * 6, <twilightforest:knightmetal_ingot> * 2], true);
-FluidToItem.transform(<moretcon:repitem:2> * 3, <liquid:endacid> * 1000, [<endreborn:item_ingot_endorium> * 6, <moretcon:gemenderal> * 5, <tiths:ender_crevice_shard> * 5, <gct_mobs:resonated_scrap>], true);
-FluidToItem.transform(<moretcon:repitem:4> * 3, <liquid:liquidgoldenamber> * 1000, [<aether_legacy:aether_log> * 16, <aether_legacy:golden_amber> * 4, <additions:asgardium_ingot> * 2, <extrabotany:material:8> * 2], true);
-FluidToItem.transform(<moretcon:repitem:3> * 3, <liquid:darkest> * 1000, [<abyssalcraft:shadowgem> * 8, <thaumcraft:void_seed> * 16, <gct_ores:stormy_witherium_ingot> * 3, <additions:shadowium_ingot> * 4], true);
-
-ExplosionCrafting.explodeBlockRecipe(<moretcon:oreenderal>, <biomesoplenty:crystal>, 10);
