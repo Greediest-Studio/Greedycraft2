@@ -131,7 +131,7 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
     }
     
     // Prevents damage overflow from Eldrich Guardian
-    if (!isNull(event.damageSource.getTrueSource()) && event.damageSource.getTrueSource() instanceof IEntityLivingBase && event.damageSource.getTrueSource().definition.id == <entity:thaumcraft:eldritchguardian>.id) {
+    if (!isNull(event.damageSource.getTrueSource()) && event.damageSource.getTrueSource() instanceof IEntityLivingBase && !isNull(event.damageSource.getTrueSource().definition) && event.damageSource.getTrueSource().definition.id == <entity:thaumcraft:eldritchguardian>.id) {
         if (dmg > player.maxHealth * 0.15) {
             dmg = player.maxHealth * 0.15;
         }
