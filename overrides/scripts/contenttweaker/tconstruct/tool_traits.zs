@@ -3238,7 +3238,7 @@ wyvernTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_tr
 wyvernTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer && target instanceof IEntityLivingBase) {
         var entity as IEntityLivingBase = target;
-        if (entity.definition.id has "ender_dragon") {
+        if (!isNull(entity.definition) && entity.definition.id has "ender_dragon") {
             return newDamage * 2.0f;
         }
     }
@@ -3253,7 +3253,7 @@ fallenTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_tr
 fallenTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer && target instanceof IEntityLivingBase) {
         var entity as IEntityLivingBase = target;
-        if (entity.definition.id has "minecraft:wither") {
+        if (!isNull(entity.definition) && entity.definition.id has "minecraft:wither") {
             return newDamage * 2.0f;
         }
     }
@@ -3268,7 +3268,7 @@ draconicTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_
 draconicTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer && target instanceof IEntityLivingBase) {
         var entity as IEntityLivingBase = target;
-        if (entity.definition.id has "ender_dragon") {
+        if (!isNull(entity.definition) && entity.definition.id has "ender_dragon") {
             return newDamage * 3.0f;
         }
     }
@@ -3283,7 +3283,7 @@ relifedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_t
 relifedTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer && target instanceof IEntityLivingBase) {
         var entity as IEntityLivingBase = target;
-        if (entity.definition.id has "minecraft:wither") {
+        if (!isNull(entity.definition) && entity.definition.id has "minecraft:wither") {
             return newDamage * 3.0f;
         }
     }
@@ -3298,9 +3298,9 @@ chaoticTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_t
 chaoticTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer && target instanceof IEntityLivingBase) {
         var entity as IEntityLivingBase = target;
-        if (entity.definition.id has "minecraft:ender_dragon") {
+        if (!isNull(entity.definition) && entity.definition.id has "minecraft:ender_dragon") {
             return newDamage * 4.0f;
-        } else if (entity.definition.id has "draconicevolution") {
+        } else if (!isNull(entity.definition) && entity.definition.id has "draconicevolution") {
             return newDamage * 2.0f;
         }
     }
@@ -3315,7 +3315,7 @@ stormyTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_tr
 stormyTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer && target instanceof IEntityLivingBase) {
         var entity as IEntityLivingBase = target;
-        if (entity.definition.id has "minecraft:wither") {
+        if (!isNull(entity.definition) && entity.definition.id has "minecraft:wither") {
             return newDamage * 4.0f;
         }
     }
