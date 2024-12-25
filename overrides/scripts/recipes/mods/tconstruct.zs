@@ -237,6 +237,7 @@ Casting.addTableRecipe(<journey:hellstoneingot>, <tconstruct:cast_custom>, <liqu
 Casting.addTableRecipe(<divinerpg:hellstone_ingot>, <tconstruct:cast_custom>, <liquid:hellstone>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<blue_skies:falsite_ingot>, <tconstruct:cast_custom>, <liquid:falsite>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<blue_skies:ventium_ingot>, <tconstruct:cast_custom>, <liquid:ventium>, VOLUME_INGOT, false, 200);
+Casting.addTableRecipe(<additions:betwnite_ingot>, <tconstruct:cast_custom>, <liquid:betwnite>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<blue_skies:horizonite_ingot>, <tconstruct:cast_custom>, <liquid:horizonite>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<endreborn:item_raw_endorium>, <ore:ingotTungsten>, <liquid:enderium>, 72, true, 80);
 Casting.addTableRecipe(<abyssalcraft:necronomicon>.withTag({PotEnergy: 5000.0 as float}), <ore:necronomiconOverworld>, <liquid:pe>, 72, true, 72);
