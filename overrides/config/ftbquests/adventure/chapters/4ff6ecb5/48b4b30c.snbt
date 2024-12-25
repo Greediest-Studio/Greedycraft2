@@ -1,13 +1,13 @@
 {
 	title: "§b神秘的指南针",
-	x: 5.5d,
+	x: 9.5d,
 	y: 2.0d,
 	description: "制作裂缝定位器，寻找维度裂隙",
 	text: [
 		"此后的任务均属于神秘进阶等附属"
 	],
 	dependencies: [
-		"aaa91c72"
+		"2b12b14d"
 	],
 	tasks: [{
 		uid: "fe7d2c51",
