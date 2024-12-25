@@ -790,3 +790,16 @@ for i in 5 to 7 {
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:arcane_compressor"}))
         .build();
 }
+//深渊仪式执行者
+for i in 3 to 7 {
+    RecipeBuilder.newBuilder("abyss_ceremony_executant" + i, "builder_" + i, 800)
+        .addFluidInput(<liquid:redstone> * 128000)
+        .addItemInput(<ore:gearSanite> * 8)
+        .addItemInput(<ore:gearEthaxium> * 8)
+        .addItemInput(<abyssalcraft:transmutationgem> * 1)
+        .addItemInput(<abyssalcraft:energypedestal> * 1)
+        .addEnergyPerTickInput(1000)
+        .addItemOutput(<modularmachinery:abyss_ceremony_executant_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:abyss_ceremony_executant"}))
+        .build();
+}
