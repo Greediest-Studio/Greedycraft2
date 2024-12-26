@@ -1,0 +1,19 @@
+{
+	x: 7.0d,
+	y: 7.0d,
+	description: "种植孢子获得黄点蘑菇",
+	text: [
+		"种植方法详见禁忌之种任务",
+		"ps：不能像禁忌之种一样右键获得产物"
+	],
+	dependencies: [
+		"8222fa63"
+	],
+	tasks: [{
+		uid: "86c3ea24",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:yellow_dotted_fungus"
+		}]
+	}]
+}

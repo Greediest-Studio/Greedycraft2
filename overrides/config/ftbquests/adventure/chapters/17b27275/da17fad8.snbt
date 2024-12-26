@@ -1,0 +1,25 @@
+{
+	title: "动物朋友们",
+	icon: {
+		id: "minecraft:spawn_egg",
+		tag: {
+			EntityTag: {
+				id: "thebetweenlands:olm"
+			}
+		}
+	},
+	x: 7.0d,
+	y: 4.0d,
+	description: "洞螈：生成在洞穴湖泊层，喂食岩吻掉落物可获得洞螈蛋",
+	text: [
+		"泥沼蜗牛：使用泥浆球喂食，两只交配后产卵，卵可右键捡起"
+	],
+	dependencies: [
+		"27de749c"
+	],
+	tasks: [{
+		uid: "62b0c60e",
+		type: "checkmark",
+		title: "洞螈"
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: -4.0d,
+	y: 7.0d,
+	tasks: [{
+		uid: "324f708a",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-gemundyingember"
+		}]
+	}],
+	rewards: [{
+		uid: "6eb32178",
+		type: "item",
+		item: "additions:greedycraft-gemundyingember"
+	},
+	{
+		uid: "81835d69",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "7ed5e668",
+		type: "loot",
+		table: 1
+	}]
+}

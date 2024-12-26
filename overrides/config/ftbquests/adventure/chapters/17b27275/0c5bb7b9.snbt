@@ -1,7 +1,7 @@
 {
 	title: "§b入门教程",
-	x: 8.5d,
-	y: 5.5d,
+	x: 10.5d,
+	y: 2.5d,
 	description: "获得药学手册",
 	text: [
 		""
@@ -9,8 +9,7 @@
 	dependencies: [
 		"1446efde",
 		"6961c4f8",
-		"393e51bc",
-		"3e7f837c"
+		"393e51bc"
 	],
 	tasks: [{
 		uid: "71d85593",

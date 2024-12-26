@@ -1,10 +1,10 @@
 {
 	title: "§b头上长草了",
-	x: -2.5d,
-	y: 10.5d,
+	x: 0.0d,
+	y: 9.5d,
 	description: "合成沼泽钢锭",
 	text: [
-		""
+		"使用活化器处理腐化铜获得沼泽钢粒"
 	],
 	dependencies: [
 		"4c6291da"

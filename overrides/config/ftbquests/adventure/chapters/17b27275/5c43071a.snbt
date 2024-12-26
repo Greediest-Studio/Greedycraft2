@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: 2.5d,
+	dependencies: [
+		"cb82ddcd"
+	],
+	tasks: [{
+		uid: "1c44820e",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:fallen_leaves"
+		}]
+	}]
+}

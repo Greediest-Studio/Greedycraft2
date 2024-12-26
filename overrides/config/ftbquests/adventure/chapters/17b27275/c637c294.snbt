@@ -2,6 +2,7 @@
 	title: "§b灵魂裁决",
 	x: 2.5d,
 	y: -1.0d,
+	shape: "gear",
 	description: "在灵魂树岛上击杀大型灵魂树脸",
 	text: [
 		"似乎可以通过改变树桩上的鬼火数量来控制灵魂树脸的难度……？"
@@ -9,6 +10,7 @@
 	dependencies: [
 		"81216f69"
 	],
+	size: 1.4d,
 	tasks: [{
 		uid: "800e41df",
 		type: "item",

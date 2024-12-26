@@ -2,6 +2,7 @@
 	title: "§b为时未晚",
 	x: -6.75d,
 	y: 9.5d,
+	shape: "gear",
 	description: "合成终焉锭！",
 	text: [
 		""
@@ -10,7 +11,7 @@
 		"68abcc25",
 		"702fcf51"
 	],
-	size: 1.5d,
+	size: 1.7d,
 	tasks: [{
 		uid: "d7b2d84b",
 		type: "item",

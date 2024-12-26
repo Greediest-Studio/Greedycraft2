@@ -1,0 +1,17 @@
+{
+	x: 5.0d,
+	y: 4.0d,
+	description: "生成于洞穴水下钟乳石上",
+	dependencies: [
+		"27de749c"
+	],
+	tasks: [{
+		uid: "df509d5a",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:life_crystal"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

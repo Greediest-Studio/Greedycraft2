@@ -1,0 +1,15 @@
+{
+	x: 6.0d,
+	y: 7.0d,
+	dependencies: [
+		"263cbc1a",
+		"3ffe3291"
+	],
+	tasks: [{
+		uid: "01a25b13",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:mire_scramble"
+		}]
+	}]
+}

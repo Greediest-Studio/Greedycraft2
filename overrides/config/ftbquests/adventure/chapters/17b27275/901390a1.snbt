@@ -1,0 +1,15 @@
+{
+	x: 8.0d,
+	y: 5.5d,
+	description: "顾名思义",
+	dependencies: [
+		"3e7f837c"
+	],
+	tasks: [{
+		uid: "74248bbe",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_crushed 1 34"
+		}]
+	}]
+}

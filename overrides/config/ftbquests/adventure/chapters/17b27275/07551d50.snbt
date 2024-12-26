@@ -8,8 +8,10 @@
 	],
 	dependencies: [
 		"1848a9ae",
-		"4e9ec024"
+		"4e9ec024",
+		"d6c4d917"
 	],
+	dependency_requirement: "one_completed",
 	tasks: [{
 		uid: "4e1762d9",
 		type: "item",

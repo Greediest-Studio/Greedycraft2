@@ -1,13 +1,13 @@
 {
 	title: "§b不是用来给金属打粉的……",
-	x: 8.5d,
-	y: 2.5d,
+	x: 8.0d,
+	y: 4.0d,
 	description: "合成研磨器",
 	text: [
 		""
 	],
 	dependencies: [
-		"527a574f"
+		"e9c83a00"
 	],
 	tasks: [{
 		uid: "7a224868",

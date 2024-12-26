@@ -1,13 +1,14 @@
 {
 	title: "§b你能看出它和黑铁的区别吗？",
-	x: -1.0d,
+	x: 3.0d,
 	y: 9.5d,
 	description: "制作腐化铜锭",
 	text: [
 		""
 	],
 	dependencies: [
-		"433f8f7f"
+		"433f8f7f",
+		"d01f7a37"
 	],
 	tasks: [{
 		uid: "18f70c36",
