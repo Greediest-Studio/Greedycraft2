@@ -1,10 +1,11 @@
 {
 	title: "§b这是治练炉吗？",
-	x: 9.5d,
+	x: 7.5d,
 	y: 0.0d,
 	description: "制作元动治练炉控制器",
 	dependencies: [
 		"5ddf9c2a",
+		"bf814a1f",
 		"2b12b14d"
 	],
 	tasks: [{

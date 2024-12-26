@@ -3,6 +3,9 @@
 	x: 0.5d,
 	y: 5.5d,
 	description: "制作猩红锭",
+	text: [
+		"各种意识碎片可由结晶共鸣仪式获取"
+	],
 	dependencies: [
 		"cb767f8b"
 	],

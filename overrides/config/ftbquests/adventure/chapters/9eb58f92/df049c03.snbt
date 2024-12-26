@@ -1,6 +1,7 @@
 {
 	x: -29.0d,
 	y: -2.0d,
+	shape: "gear",
 	description: "制作一个科幻之镜",
 	dependencies: [
 		"1db8c19b"
@@ -14,6 +15,11 @@
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
+	},
+	{
+		uid: "3cb698c9",
+		type: "gamestage",
+		stage: "epic_engineer"
 	}],
 	rewards: [{
 		uid: "1654888b",

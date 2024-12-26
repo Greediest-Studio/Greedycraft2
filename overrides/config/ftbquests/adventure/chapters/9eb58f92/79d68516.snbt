@@ -1,9 +1,12 @@
 {
-	x: -26.5d,
-	y: -6.0d,
+	x: -29.0d,
+	y: -4.0d,
 	description: "制作氮收集器",
+	text: [
+		"更简单的氮气收集"
+	],
 	dependencies: [
-		"02c8a87a"
+		"df049c03"
 	],
 	tasks: [{
 		uid: "d76faaf5",

@@ -1,0 +1,46 @@
+{
+	title: "封包的基础",
+	x: -13.5d,
+	y: 4.0d,
+	dependencies: [
+		"cb35094b"
+	],
+	tasks: [{
+		uid: "04d97c82",
+		type: "item",
+		items: [{
+			item: "packagedauto:packager"
+		}]
+	},
+	{
+		uid: "b7d80e44",
+		type: "item",
+		items: [{
+			item: "packagedauto:unpackager"
+		}]
+	},
+	{
+		uid: "345689c7",
+		type: "item",
+		items: [{
+			item: "packagedauto:encoder"
+		}]
+	},
+	{
+		uid: "0af1371f",
+		type: "item",
+		items: [{
+			item: "packagedauto:recipe_holder"
+		}]
+	}],
+	rewards: [{
+		uid: "8396ed45",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "474092ec",
+		type: "xp",
+		xp: 100
+	}]
+}

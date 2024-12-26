@@ -1,0 +1,24 @@
+{
+	title: "诺言 upgrade",
+	x: -3.5d,
+	y: 9.5d,
+	description: "每格最多放4个",
+	dependencies: [
+		"35dbd306"
+	],
+	tasks: [{
+		uid: "9b3daf7a",
+		type: "item",
+		items: [{
+			item: "evilcraft:promise 1 3"
+		},
+		{
+			item: "evilcraft:promise 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "8dfddf93",
+		type: "loot",
+		table: 2
+	}]
+}

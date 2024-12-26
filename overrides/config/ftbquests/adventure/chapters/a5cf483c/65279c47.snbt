@@ -4,6 +4,9 @@
 	y: 5.0d,
 	shape: "circle",
 	description: "合成辉耀谐振台",
+	text: [
+		"最多放3个"
+	],
 	tasks: [{
 		uid: "7824d6da",
 		type: "item",

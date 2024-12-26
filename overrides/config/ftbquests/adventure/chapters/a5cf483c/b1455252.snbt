@@ -1,0 +1,19 @@
+{
+	x: -6.5d,
+	y: 5.0d,
+	dependencies: [
+		"16215947"
+	],
+	tasks: [{
+		uid: "ded28a0d",
+		type: "item",
+		items: [{
+			item: "packagedastral:trait_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "45cd27bb",
+		type: "loot",
+		table: 3
+	}]
+}

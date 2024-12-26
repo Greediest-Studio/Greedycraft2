@@ -1,0 +1,35 @@
+{
+	title: "创造LP来源？",
+	x: -7.5d,
+	y: -6.0d,
+	description: "你猜猜为什么任务奖励还你四个创造之魂碎片（笑",
+	text: [
+		"bad apple"
+	],
+	dependencies: [
+		"1ef3ae48"
+	],
+	tasks: [{
+		uid: "7d80e09c",
+		type: "item",
+		items: [{
+			item: "variegated:blood_apple"
+		}]
+	}],
+	rewards: [{
+		uid: "73897c6d",
+		type: "item",
+		item: "additions:greedycraft-creative_shard",
+		count: 4
+	},
+	{
+		uid: "93d3f4ff",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "507184df",
+		type: "xp",
+		xp: 2333
+	}]
+}

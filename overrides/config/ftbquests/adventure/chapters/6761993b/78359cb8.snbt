@@ -1,8 +1,11 @@
 {
 	title: "§b提升速度？",
-	x: -7.5d,
+	x: -5.5d,
 	y: -2.5d,
 	description: "制作速度符文",
+	text: [
+		"每个增加0.2倍合成效率(加算)"
+	],
 	dependencies: [
 		"1ca32822"
 	],
@@ -18,11 +21,6 @@
 		type: "item",
 		item: "bloodmagic:blood_rune 1 1",
 		count: 8
-	},
-	{
-		uid: "068261dd",
-		type: "xp",
-		xp: 640
 	},
 	{
 		uid: "e4921fba",

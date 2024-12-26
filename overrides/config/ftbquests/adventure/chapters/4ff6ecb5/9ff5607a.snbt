@@ -1,0 +1,28 @@
+{
+	title: "注魔的最终解决方案",
+	x: -3.5d,
+	y: 5.0d,
+	text: [
+		"科技与魔法的终极成果"
+	],
+	dependencies: [
+		"7bbe1740"
+	],
+	tasks: [{
+		uid: "57141257",
+		type: "item",
+		items: [{
+			item: "packagedthaumic:infusion_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "659b6db2",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "cf327d9c",
+		type: "xp",
+		xp: 100
+	}]
+}

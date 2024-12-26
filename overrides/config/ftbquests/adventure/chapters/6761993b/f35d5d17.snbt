@@ -3,6 +3,9 @@
 	x: -9.5d,
 	y: -2.5d,
 	description: "制作增容符文",
+	text: [
+		"每个增加2000LP存储上限"
+	],
 	dependencies: [
 		"1ca32822"
 	],
@@ -18,11 +21,6 @@
 		type: "item",
 		item: "bloodmagic:blood_rune 1 6",
 		count: 8
-	},
-	{
-		uid: "22dfeda4",
-		type: "xp",
-		xp: 640
 	},
 	{
 		uid: "28124369",

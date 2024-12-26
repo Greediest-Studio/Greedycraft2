@@ -1,0 +1,37 @@
+{
+	title: "相信我你会需要他的",
+	x: -11.5d,
+	y: 2.0d,
+	description: "使用内存卡标记",
+	dependencies: [
+		"cb35094b"
+	],
+	tasks: [{
+		uid: "84890c3e",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 460"
+		}]
+	},
+	{
+		uid: "4a4adb02",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:memory_card",
+			tag: {}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2c4c6890",
+		type: "item",
+		item: "appliedenergistics2:part 1 460",
+		count: 5
+	},
+	{
+		uid: "1ea564e7",
+		type: "xp",
+		xp: 100
+	}]
+}

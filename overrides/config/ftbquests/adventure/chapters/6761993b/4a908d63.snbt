@@ -1,0 +1,30 @@
+{
+	title: "提升转移速度？",
+	x: -6.5d,
+	y: -2.5d,
+	description: "制作转位符文",
+	text: [
+		"双祭坛必备"
+	],
+	dependencies: [
+		"1ca32822"
+	],
+	tasks: [{
+		uid: "329bc15f",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "4fd07b2f",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "42a81b26",
+		type: "item",
+		item: "bloodmagic:blood_rune 1 9",
+		count: 4
+	}]
+}

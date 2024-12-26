@@ -1,8 +1,8 @@
 {
 	title: "随机奖励 §6[传说]",
 	loot_size: 1,
-	hide_tooltip: true,
-	use_title: true,
+	hide_tooltip: 1b,
+	use_title: 1b,
 	rewards: [{
 		item: "tconstruct:materials 1 50"
 	},
@@ -477,7 +477,7 @@
 		string_id: "loot_level_4",
 		item_name: "奖励箱 §6[传说]",
 		color: 16755200,
-		glow: true,
+		glow: 1b,
 		drops: {
 			passive: 0,
 			monster: 0,

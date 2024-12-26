@@ -1,8 +1,8 @@
 {
 	title: "随机奖励 §4[神话]",
 	loot_size: 1,
-	hide_tooltip: true,
-	use_title: true,
+	hide_tooltip: 1b,
+	use_title: 1b,
 	rewards: [{
 		item: "minecraft:bedrock",
 		count: 32
@@ -336,7 +336,7 @@
 		string_id: "loot_level_5",
 		item_name: "奖励箱 §4[神话]",
 		color: 16711680,
-		glow: true,
+		glow: 1b,
 		drops: {
 			passive: 0,
 			monster: 0,
