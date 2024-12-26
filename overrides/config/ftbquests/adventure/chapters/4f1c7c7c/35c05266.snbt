@@ -3,7 +3,7 @@
 	icon: "minecraft:diamond_sword",
 	x: 5.5d,
 	y: -0.625d,
-	can_repeat: true,
+	can_repeat: 1b,
 	size: 2.5d,
 	tasks: [{
 		uid: "666dc188",
@@ -15,6 +15,6 @@
 		type: "command",
 		auto: "no_toast",
 		command: "/packmode adventure",
-		player_command: true
+		player_command: 1b
 	}]
 }

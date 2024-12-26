@@ -1,7 +1,7 @@
 {
 	title: "整合包模式",
 	icon: "minecraft:golden_apple 1 1",
-	always_invisible: false,
+	always_invisible: 0b,
 	group: 0,
 	default_quest_shape: "",
 	images: [{
@@ -13,7 +13,7 @@
 		image: "greedycraft:quests/adventure.png",
 		hover: [],
 		click: "",
-		dev: false
+		dev: 0b
 	},
 	{
 		x: -2.0d,
@@ -24,7 +24,7 @@
 		image: "greedycraft:quests/casual.png",
 		hover: [],
 		click: "",
-		dev: false
+		dev: 0b
 	},
 	{
 		x: 13.0d,
@@ -35,7 +35,7 @@
 		image: "greedycraft:quests/expert.png",
 		hover: [],
 		click: "",
-		dev: false
+		dev: 0b
 	},
 	{
 		x: 2.0d,
@@ -46,7 +46,7 @@
 		image: "greedycraft:quests/packmodes.png",
 		hover: [],
 		click: "",
-		dev: false
+		dev: 0b
 	},
 	{
 		x: 13.5d,
@@ -57,6 +57,6 @@
 		image: "greedycraft:quests/adventure_mode.png",
 		hover: [],
 		click: "",
-		dev: false
+		dev: 0b
 	}]
 }

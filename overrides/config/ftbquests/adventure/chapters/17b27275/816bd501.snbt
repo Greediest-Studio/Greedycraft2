@@ -16,7 +16,7 @@
 			id: "thebetweenlands:ancient_helmet",
 			tag: {}
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -26,7 +26,7 @@
 			id: "thebetweenlands:ancient_chestplate",
 			tag: {}
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -36,7 +36,7 @@
 			id: "thebetweenlands:ancient_leggings",
 			tag: {}
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -46,7 +46,7 @@
 			id: "thebetweenlands:ancient_boots",
 			tag: {}
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -55,7 +55,7 @@
 		items: [{
 			item: "thebetweenlands:ancient_greatsword"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

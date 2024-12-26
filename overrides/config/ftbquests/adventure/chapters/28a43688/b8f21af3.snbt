@@ -7,7 +7,7 @@
 		"你再次解救了世界",
 		"温馨提示：在主世界坐标为0,0的位置会有几率生成一只野生的凋灵风暴"
 	],
-	can_repeat: true,
+	can_repeat: 1b,
 	dependencies: [
 		"6ac53a1c"
 	],
@@ -26,24 +26,14 @@
 	rewards: [{
 		uid: "4ee5f160",
 		type: "item",
-		item: {
-			id: "gct_ores:stormy_shard",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
-		},
-		count: 5
+		item: "gct_ores:stormy_shard",
+		count: 15
 	},
 	{
 		uid: "aa90a4f1",
 		type: "item",
-		item: {
-			id: "ageofminecraft:withered_nether_star",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
-		},
-		count: 3
+		item: "ageofminecraft:withered_nether_star",
+		count: 7
 	},
 	{
 		uid: "5d6a26e4",

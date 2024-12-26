@@ -12,7 +12,7 @@
 		items: [{
 			item: "gct_ores:command_dismantler"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

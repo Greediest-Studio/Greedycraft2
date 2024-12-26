@@ -19,7 +19,7 @@
 		items: [{
 			item: "dungeonsmod:sun_overdrive"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

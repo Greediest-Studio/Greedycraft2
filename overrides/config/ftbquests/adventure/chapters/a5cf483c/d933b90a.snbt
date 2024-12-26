@@ -16,7 +16,7 @@
 		items: [{
 			item: "additions:astral_metal_ingot"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

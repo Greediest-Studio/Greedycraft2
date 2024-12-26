@@ -16,7 +16,7 @@
 		items: [{
 			item: "gct_ores:door_key_of_orderland"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

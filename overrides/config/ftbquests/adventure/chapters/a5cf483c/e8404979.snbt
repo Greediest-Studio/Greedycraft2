@@ -27,7 +27,7 @@
 			}
 		}],
 		ignore_nbt: 1b,
-		only_from_crafting: false
+		only_from_crafting: 0b
 	}],
 	rewards: [{
 		uid: "9618fe54",

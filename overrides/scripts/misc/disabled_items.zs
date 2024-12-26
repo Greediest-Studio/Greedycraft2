@@ -1528,7 +1528,8 @@ val disabledItems as IIngredient[] = [
     <modularmachinery:blockauraproviderinput>,
     <modularmachinery:blockauraprovideroutput>,
     <modularmachinery:blockmanaproviderinput>,
-    <modularmachinery:blockmanaprovideroutput>
+    <modularmachinery:blockmanaprovideroutput>,
+    <spiceoflife:bookfoodjournal>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [

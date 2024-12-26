@@ -1,7 +1,7 @@
 {
 	title: "【休闲·伍】等价交换",
 	icon: "additions:protonium_ingot",
-	always_invisible: true,
+	always_invisible: 1b,
 	group: 787295678,
 	default_quest_shape: "",
 	images: [{
@@ -13,6 +13,6 @@
 		image: "greedycraft:quests/cau5.png",
 		hover: [],
 		click: "",
-		dev: false
+		dev: 0b
 	}]
 }

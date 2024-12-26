@@ -4,7 +4,7 @@
 	x: -8.5d,
 	y: -4.0d,
 	description: "脑子是什么东西？",
-	hide_dependency_lines: true,
+	hide_dependency_lines: 1b,
 	dependencies: [
 		"2b2f5f2a"
 	],
@@ -14,7 +14,7 @@
 		items: [{
 			item: "thaumcraft:sanity_checker"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{

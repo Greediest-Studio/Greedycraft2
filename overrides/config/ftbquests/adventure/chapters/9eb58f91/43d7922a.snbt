@@ -16,7 +16,7 @@
 			id: "appliedenergistics2:wireless_fluid_terminal",
 			tag: {}
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 2b
 	}],
 	rewards: [{

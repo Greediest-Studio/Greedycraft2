@@ -1,7 +1,7 @@
 {
 	title: "【科技·贰】末影网络",
 	icon: "enderio:item_alloy_endergy_ingot 1 3",
-	always_invisible: false,
+	always_invisible: 0b,
 	group: -647796496,
 	default_quest_shape: "",
 	images: [{
@@ -13,6 +13,6 @@
 		image: "greedycraft:quests/tec2.png",
 		hover: [],
 		click: "",
-		dev: false
+		dev: 0b
 	}]
 }

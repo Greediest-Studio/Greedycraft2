@@ -15,7 +15,7 @@
 		items: [{
 			item: "thebetweenlands:rune_door_key"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	},
 	{
@@ -24,7 +24,7 @@
 		items: [{
 			item: "thebetweenlands:ancient_battle_axe"
 		}],
-		ignore_damage: true,
+		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{
