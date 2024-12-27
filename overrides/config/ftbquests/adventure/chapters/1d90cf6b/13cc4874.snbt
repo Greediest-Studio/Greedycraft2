@@ -13,5 +13,21 @@
 		items: [{
 			item: "modularmachinery:exp_power_generator_controller"
 		}]
+	}],
+	rewards: [{
+		uid: "796d0bac",
+		type: "item",
+		item: "additions:greedycraft-compressed_experience_block",
+		count: 32
+	},
+	{
+		uid: "045e7344",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "5984db14",
+		type: "loot",
+		table: 2
 	}]
 }

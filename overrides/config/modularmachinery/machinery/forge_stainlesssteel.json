@@ -59,428 +59,204 @@
         }
     ],
     "parts": [
-        {
-            "x": -2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "enderio:block_alloy@8"
-            ]
-        },
-        {
+       {
             "x": -1,
             "y": 0,
-            "z": 0,
-            "elements": [
-                "botania:storage@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "minecraft:lava@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "enderio:block_alloy@8"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
             "z": 1,
             "elements": [
                 "casings_all"
             ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "botania:storage@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "botania:storage@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "botania:storage@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "enderio:block_alloy@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "botania:storage@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "enderio:block_alloy@8"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "sakura:bamboo_charcoal_block@8"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass_alloy@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "sakura:bamboo_charcoal_block@8"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "sakura:bamboo_charcoal_block@8"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass_alloy@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:glass_alloy@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass_alloy@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:glass_alloy@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:glass_alloy@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "additions:greedycraft-modularium_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass_alloy@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass_alloy@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "additions:greedycraft-modularium_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "botania:storage@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:glass_alloy@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:glass_alloy@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:glass_alloy@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "additions:greedycraft-modularium_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "sakura:bamboo_charcoal_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "sakura:bamboo_charcoal_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:glass_alloy@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "additions:greedycraft-modularium_block@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "sakura:bamboo_charcoal_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "botania:storage@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "minecraft:lava@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:storage_alloy@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "minecraft:lava@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "minecraft:lava@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "minecraft:lava@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "minecraft:lava@0"
-            ]
-        }
-    ]}
+         },
+            {
+                "x": 0,
+                "y": -1,
+                "z": 2,
+                "elements": [
+                    "minecraft:iron_block@0"
+                ]
+            },
+            {
+                "x": -1,
+                "y": 1,
+                "z": 0,
+                "elements": [
+                    "casings_all"
+                ]
+            },
+            {
+                "x": 0,
+                "y": 1,
+                "z": 2,
+                "elements": [
+                    "casings_all"
+                ]
+            },
+            {
+                "x": 1,
+                "y": 0,
+                "z": 1,
+                "elements": [
+                    "casings_all"
+                ]
+            },
+            {
+                "x": 1,
+                "y": -1,
+                "z": 1,
+                "elements": [
+                    "minecraft:iron_block@0"
+                ]
+            },
+            {
+                "x": 0,
+                "y": -1,
+                "z": 0,
+                "elements": [
+                    "minecraft:iron_block@0"
+                ]
+            },
+            {
+                "x": -1,
+                "y": -1,
+                "z": 1,
+                "elements": [
+                    "minecraft:iron_block@0"
+                ]
+            },
+            {
+                "x": 1,
+                "y": 1,
+                "z": 0,
+                "elements": [
+                    "casings_all"
+                ]
+            },
+            {
+                "x": 1,
+                "y": 1,
+                "z": 1,
+                "elements": [
+                    "casings_all"
+                ]
+            },
+            {
+                "x": -1,
+                "y": 1,
+                "z": 1,
+                "elements": [
+                    "casings_all"
+                ]
+            },
+            {
+                "x": 0,
+                "y": 0,
+                "z": 2,
+                "elements": [
+                    "casings_all"
+                ]
+            },
+            {
+                "x": -1,
+                "y": 0,
+                "z": 0,
+                "elements": [
+                    "casings_all"
+                ]
+            },
+            {
+                "x": 1,
+                "y": 0,
+                "z": 0,
+                "elements": [
+                    "casings_all"
+                ]
+            },
+            {
+                "x": 1,
+                "y": 1,
+                "z": 2,
+                "elements": [
+                    "casings_all"
+                ]
+            },
+            {
+                "x": 1,
+                "y": -1,
+                "z": 2,
+                "elements": [
+                    "minecraft:iron_block@0"
+                ]
+            },
+            {
+                "x": -1,
+                "y": -1,
+                "z": 0,
+                "elements": [
+                    "minecraft:iron_block@0"
+                ]
+            },
+            {
+                "x": -1,
+                "y": 1,
+                "z": 2,
+                "elements": [
+                    "casings_all"
+                ]
+            },
+            {
+                "x": 1,
+                "y": -1,
+                "z": 0,
+                "elements": [
+                    "minecraft:iron_block@0"
+                ]
+            },
+            {
+                "x": 0,
+                "y": -1,
+                "z": 1,
+                "elements": [
+                    "thermalfoundation:storage_resource@1"
+                ]
+            },
+            {
+                "x": -1,
+                "y": -1,
+                "z": 2,
+                "elements": [
+                    "minecraft:iron_block@0"
+                ]
+            },
+            {
+                "x": 0,
+                "y": 1,
+                "z": 0,
+                "elements": [
+                    "casings_all"
+                ]
+            },
+            {
+                "x": -1,
+                "y": 0,
+                "z": 2,
+                "elements": [
+                    "casings_all"
+                ]
+            },
+            {
+                "x": 0,
+                "y": 1,
+                "z": 1,
+                "elements": [
+                    "casings_all"
+                ]
+            },
+            {
+                "x": 1,
+                "y": 0,
+                "z": 2,
+                "elements": [
+                    "casings_all"
+                ]
+            }
+        ]}

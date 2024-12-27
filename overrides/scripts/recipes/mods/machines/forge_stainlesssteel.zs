@@ -18,12 +18,18 @@ import mods.jei.JEI;
 
 import scripts.util.machines as MMUtil;
 
-RecipeBuilder.newBuilder("stainlesssteel", "stainlesssteel_forge", 40, 0)
-    .addItemInput(<ore:ingotIron> * 8)
-    .addItemInput(<ore:gemCoal> * 8)
-    .addItemInput(<ore:ingotManganese> * 4)
-    .addItemInput(<ore:ingotChromium> * 2)
-    .addItemInput(<ore:ingotNickel> * 2)
-    .addEnergyPerTickInput(100)
-    .addItemOutput(<additions:stainless_steel_ingot> * 8)
+RecipeBuilder.newBuilder("stainlesssteel", "stainlesssteel_forge", 10, 0)
+    .addItemInput(<ore:ingotIron> * 4)
+    .addItemInput(<ore:gemCoal> * 4)
+    .addItemInput(<ore:ingotManganese> * 2)
+    .addItemInput(<ore:ingotChromium> * 1)
+    .addItemInput(<ore:ingotNickel> * 1)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<additions:stainless_steel_ingot> * 12)
+    .build();
+
+RecipeBuilder.newBuilder("coke", "stainlesssteel_forge", 10, 0)
+    .addItemInput(<ore:coal> * 8)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<thermalfoundation:material:802> * 12)
     .build();

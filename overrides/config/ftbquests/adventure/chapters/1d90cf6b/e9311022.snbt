@@ -9,6 +9,9 @@
 		"请确保每t供电量大于等于每t需求量",
 		"随着工业水平的进步，单方块机器已经不能满足你了"
 	],
+	dependencies: [
+		"c26c830a"
+	],
 	size: 2.0d,
 	tasks: [{
 		uid: "ca7d097f",
@@ -16,5 +19,10 @@
 		items: [{
 			item: "modularmachinery:builder_1_controller"
 		}]
+	}],
+	rewards: [{
+		uid: "b00d4db2",
+		type: "loot",
+		table: 2
 	}]
 }
