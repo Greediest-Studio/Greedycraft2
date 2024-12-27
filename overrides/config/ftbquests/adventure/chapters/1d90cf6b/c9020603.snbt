@@ -1,0 +1,17 @@
+{
+	title: "秩序注入器",
+	icon: "gct_ores:ordered_metal_ingot",
+	x: 5.0d,
+	y: -1.5d,
+	description: "我是前往地狱的黑，我是来自天堂的白，我要将乾坤倒转，令秩序重归人间",
+	dependencies: [
+		"2e3ef671"
+	],
+	tasks: [{
+		uid: "5cdf7b83",
+		type: "item",
+		items: [{
+			item: "modularmachinery:order_fusioner_controller"
+		}]
+	}]
+}

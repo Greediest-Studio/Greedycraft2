@@ -7,8 +7,10 @@
 		"需要3个强化槽"
 	],
 	dependencies: [
-		"81216f69"
+		"81216f69",
+		"446b1087"
 	],
+	dependency_requirement: "one_completed",
 	tasks: [{
 		uid: "00347e04",
 		type: "item",

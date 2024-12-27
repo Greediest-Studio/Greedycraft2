@@ -1,0 +1,25 @@
+{
+	title: "全自动仪式",
+	icon: {
+		id: "abyssalcraft:abyssalnomicon",
+		tag: {
+			PotEnergy: 100000.0f
+		}
+	},
+	x: 0.0d,
+	y: 5.0d,
+	description: "用于自动化生产湮灭碎片，渊晶，活火焰等",
+	text: [
+		"写到进阶装配室里是为了提前让你知道有办法自动化，绝对不是写错了哼哼"
+	],
+	dependencies: [
+		"5f02df0f"
+	],
+	tasks: [{
+		uid: "a3424ae8",
+		type: "item",
+		items: [{
+			item: "modularmachinery:abyss_ceremony_executant_controller"
+		}]
+	}]
+}

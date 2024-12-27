@@ -1,0 +1,17 @@
+{
+	title: "雾霭矿机",
+	icon: "mist:filter_coal",
+	x: 3.0d,
+	y: 4.0d,
+	description: "钯金自由！",
+	dependencies: [
+		"2e3ef671"
+	],
+	tasks: [{
+		uid: "365081dd",
+		type: "item",
+		items: [{
+			item: "modularmachinery:miner_foggy_controller"
+		}]
+	}]
+}

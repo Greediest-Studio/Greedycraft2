@@ -1,0 +1,17 @@
+{
+	title: "矩阵稳定器",
+	icon: "gct_ores:balanced_matrix_ingot",
+	x: 6.0d,
+	y: -1.0d,
+	description: "无限制衡",
+	dependencies: [
+		"2e3ef671"
+	],
+	tasks: [{
+		uid: "051da1d6",
+		type: "item",
+		items: [{
+			item: "modularmachinery:matrix_balancer_controller"
+		}]
+	}]
+}

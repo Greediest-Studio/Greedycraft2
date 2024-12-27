@@ -1,0 +1,24 @@
+{
+	title: "耐钢炉",
+	icon: "additions:durasteel_ingot",
+	x: -9.0d,
+	y: -3.0d,
+	description: "让我猜猜你还在凑不锈钢对吧（笑",
+	text: [
+		"催化剂是可选项",
+		"催化剂是可选项",
+		"催化剂是可选项",
+		"不要再问为什么材料没解锁了！！！",
+		"异世界的材料有着特殊的性质，你尝试将它们混合在一起"
+	],
+	dependencies: [
+		"e9311022"
+	],
+	tasks: [{
+		uid: "b781419c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:durasteel_forge_controller"
+		}]
+	}]
+}

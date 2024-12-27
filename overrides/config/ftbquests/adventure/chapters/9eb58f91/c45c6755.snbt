@@ -8,5 +8,15 @@
 		items: [{
 			item: "threng:machine 1 4"
 		}]
+	}],
+	rewards: [{
+		uid: "147f0f3a",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "6528789b",
+		type: "xp",
+		xp: 100
 	}]
 }

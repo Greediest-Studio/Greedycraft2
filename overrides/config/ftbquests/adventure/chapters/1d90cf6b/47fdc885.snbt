@@ -1,0 +1,83 @@
+{
+	title: "一阶矿机",
+	icon: {
+		id: "tconstruct:pickaxe",
+		tag: {
+			TinkerData: {
+				Materials: [
+					"durasteel",
+					"durasteel",
+					"durasteel"
+				],
+				Modifiers: [
+					"toolleveling"
+				]
+			},
+			Stats: {
+				Durability: 7280,
+				HarvestLevel: 5,
+				Attack: 11.5f,
+				MiningSpeed: 15.3f,
+				AttackSpeedMultiplier: 1.0f,
+				FreeModifiers: 5
+			},
+			StatsOriginal: {
+				Durability: 7280,
+				HarvestLevel: 5,
+				Attack: 11.5f,
+				MiningSpeed: 15.3f,
+				AttackSpeedMultiplier: 1.0f,
+				FreeModifiers: 3
+			},
+			Special: {
+				Categories: [
+					"harvest",
+					"tool",
+					"aoe"
+				]
+			},
+			Modifiers: [{
+				identifier: "coldblooded",
+				color: -13615201,
+				level: 1
+			},
+			{
+				identifier: "duritos",
+				color: -13615201,
+				level: 1
+			},
+			{
+				identifier: "fortified",
+				color: -13615201,
+				level: 1
+			},
+			{
+				identifier: "toolleveling",
+				color: 16777215,
+				level: 1
+			}],
+			Traits: [
+				"coldblooded",
+				"duritos",
+				"fortified",
+				"toolleveling"
+			]
+		}
+	},
+	x: -1.0d,
+	y: 4.0d,
+	description: "不锈钢自由！耐钢半自由！",
+	text: [
+		""
+	],
+	dependencies: [
+		"5f02df0f"
+	],
+	tasks: [{
+		uid: "a1d0e71a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:miner_advanced_controller"
+		}]
+	}]
+}

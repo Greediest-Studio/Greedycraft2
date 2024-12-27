@@ -1,0 +1,20 @@
+{
+	title: "流体转换机",
+	icon: "minecraft:bucket",
+	x: -8.0d,
+	y: 3.0d,
+	description: "不出意外的话前期用不到",
+	text: [
+		"我猜你科技第三章还要来"
+	],
+	dependencies: [
+		"e9311022"
+	],
+	tasks: [{
+		uid: "879d0918",
+		type: "item",
+		items: [{
+			item: "modularmachinery:liquid_converter_controller"
+		}]
+	}]
+}

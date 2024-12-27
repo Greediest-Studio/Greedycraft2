@@ -1,0 +1,21 @@
+{
+	title: "寰宇锻炉",
+	icon: "additions:cosmilite_ingot",
+	x: 3.0d,
+	y: -3.0d,
+	description: "终点.....吗？",
+	text: [
+		"旅途的中点，终焉的基底"
+	],
+	dependencies: [
+		"3a77e7f1",
+		"2e3ef671"
+	],
+	tasks: [{
+		uid: "373c3080",
+		type: "item",
+		items: [{
+			item: "modularmachinery:cosmic_forge_controller"
+		}]
+	}]
+}

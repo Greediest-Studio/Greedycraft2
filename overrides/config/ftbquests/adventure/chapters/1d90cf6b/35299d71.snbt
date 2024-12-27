@@ -1,0 +1,20 @@
+{
+	title: "暮色矿机",
+	icon: "additions:twilightaddon-refined_twilight_gem",
+	x: -9.0d,
+	y: -2.0d,
+	description: "想要自动产耐钢不得不做",
+	text: [
+		"为了批量制造强化暮光宝石，你决定建造矿机"
+	],
+	dependencies: [
+		"e9311022"
+	],
+	tasks: [{
+		uid: "24da0727",
+		type: "item",
+		items: [{
+			item: "modularmachinery:miner_twilight_controller"
+		}]
+	}]
+}

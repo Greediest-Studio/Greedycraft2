@@ -1,0 +1,17 @@
+{
+	title: "末地矿机",
+	icon: "draconicevolution:draconium_ingot",
+	x: 3.0d,
+	y: 2.0d,
+	description: "龙矿凋零矿自由！",
+	dependencies: [
+		"2e3ef671"
+	],
+	tasks: [{
+		uid: "9b92bd23",
+		type: "item",
+		items: [{
+			item: "modularmachinery:miner_end_controller"
+		}]
+	}]
+}

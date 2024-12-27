@@ -1,0 +1,34 @@
+{
+	title: "大型有机灌注机",
+	icon: {
+		id: "thermalexpansion:machine",
+		Damage: 4s,
+		tag: {
+			Facing: 3b,
+			SideCache: [B;
+				3b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			],
+			RSControl: 0b,
+			Energy: 0,
+			Level: 0b
+		}
+	},
+	x: -1.0d,
+	y: 2.0d,
+	description: "不好用QAQ",
+	dependencies: [
+		"5f02df0f"
+	],
+	tasks: [{
+		uid: "ff843d4e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:organic_infuser_controller"
+		}]
+	}]
+}

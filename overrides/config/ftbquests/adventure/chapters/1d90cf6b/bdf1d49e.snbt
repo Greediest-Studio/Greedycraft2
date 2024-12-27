@@ -1,0 +1,17 @@
+{
+	title: "三阶矿机",
+	icon: "additions:taigaddon-gallium_ore",
+	x: 7.0d,
+	y: 6.0d,
+	description: "闪叠自由的一小步",
+	dependencies: [
+		"169361aa"
+	],
+	tasks: [{
+		uid: "b81d4ab5",
+		type: "item",
+		items: [{
+			item: "modularmachinery:miner_excellent_controller"
+		}]
+	}]
+}

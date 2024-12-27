@@ -1,0 +1,17 @@
+{
+	title: "魔力矿机",
+	icon: "botania:manaresource",
+	x: -5.0d,
+	y: 2.0d,
+	description: "可能...有用？",
+	dependencies: [
+		"0789f3f5"
+	],
+	tasks: [{
+		uid: "fbe5afc7",
+		type: "item",
+		items: [{
+			item: "modularmachinery:miner_mana_controller"
+		}]
+	}]
+}

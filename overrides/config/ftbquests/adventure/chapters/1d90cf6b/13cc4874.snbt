@@ -1,0 +1,17 @@
+{
+	title: "经验发电机",
+	icon: "actuallyadditions:item_solidified_experience",
+	x: -4.0d,
+	y: 2.0d,
+	description: "感觉不如战利品发电机",
+	dependencies: [
+		"0789f3f5"
+	],
+	tasks: [{
+		uid: "251ae4a7",
+		type: "item",
+		items: [{
+			item: "modularmachinery:exp_power_generator_controller"
+		}]
+	}]
+}

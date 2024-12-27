@@ -1,0 +1,17 @@
+{
+	title: "黑暗矿机",
+	icon: "gct_aby:essenceofdarkrealm",
+	x: 7.0d,
+	y: 2.0d,
+	description: "伊桑斯，灵神钢，惧质自由！",
+	dependencies: [
+		"169361aa"
+	],
+	tasks: [{
+		uid: "c76eaada",
+		type: "item",
+		items: [{
+			item: "modularmachinery:miner_dark_controller"
+		}]
+	}]
+}

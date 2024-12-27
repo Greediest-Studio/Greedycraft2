@@ -28,13 +28,8 @@
 	{
 		uid: "21df6b20",
 		type: "item",
-		item: {
-			id: "gct_ores:balanced_matrix_ingot",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
-		},
-		count: 4
+		item: "gct_ores:balanced_matrix_ingot",
+		count: 12
 	},
 	{
 		uid: "f8178ca6",

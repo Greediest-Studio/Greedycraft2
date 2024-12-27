@@ -26,24 +26,14 @@
 	rewards: [{
 		uid: "d83ef314",
 		type: "item",
-		item: {
-			id: "additions:overlaite_ingot",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
-		},
-		count: 12
+		item: "additions:overlaite_ingot",
+		count: 24
 	},
 	{
 		uid: "7db42617",
 		type: "item",
-		item: {
-			id: "additions:flashite_ingot",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
-		},
-		count: 12
+		item: "additions:flashite_ingot",
+		count: 24
 	},
 	{
 		uid: "fbc5cfa2",

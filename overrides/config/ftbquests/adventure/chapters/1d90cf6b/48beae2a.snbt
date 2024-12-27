@@ -1,0 +1,16 @@
+{
+	title: "战利品发电机",
+	x: -4.0d,
+	y: 3.0d,
+	description: "感觉不如经验发电机",
+	dependencies: [
+		"0789f3f5"
+	],
+	tasks: [{
+		uid: "6de40ad7",
+		type: "item",
+		items: [{
+			item: "modularmachinery:loot_power_generator_controller"
+		}]
+	}]
+}

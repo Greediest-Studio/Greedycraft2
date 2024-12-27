@@ -1,0 +1,21 @@
+{
+	title: "A对T，C对G",
+	icon: "gct_ores:genite_ingot",
+	x: -5.0d,
+	y: -2.0d,
+	description: "加油快到恒钢了QWQ",
+	text: [
+		"我恨不得把自己碱基拆下来，懒得找矿（恼",
+		"深渊独特的环境造就了独特的生物，它们的残骸化作矿物，如果把它们融合在一起呢？"
+	],
+	dependencies: [
+		"0789f3f5"
+	],
+	tasks: [{
+		uid: "6fa720f6",
+		type: "item",
+		items: [{
+			item: "modularmachinery:gene_builder_controller"
+		}]
+	}]
+}

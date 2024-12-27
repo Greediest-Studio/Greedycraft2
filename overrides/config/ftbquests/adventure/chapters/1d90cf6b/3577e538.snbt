@@ -1,0 +1,17 @@
+{
+	title: "深渊矿机",
+	icon: "abyssalcraft:essence",
+	x: 8.0d,
+	y: 3.0d,
+	description: "闪叠自由的一小步",
+	dependencies: [
+		"169361aa"
+	],
+	tasks: [{
+		uid: "64019f89",
+		type: "item",
+		items: [{
+			item: "modularmachinery:miner_abyss_controller"
+		}]
+	}]
+}

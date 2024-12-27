@@ -1,0 +1,17 @@
+{
+	title: "炫光装配室",
+	x: 3.0d,
+	y: 0.0d,
+	description: "利用炫钢的强大力量，你得以再次升级装配室",
+	dependencies: [
+		"5f02df0f"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "665e3623",
+		type: "item",
+		items: [{
+			item: "modularmachinery:builder_4_controller"
+		}]
+	}]
+}
