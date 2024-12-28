@@ -27,7 +27,8 @@ var removedRecipes as IItemStack[] = [
     <thaumadditions:mithminite_blade>,
     <thaumadditions:mithminite_handle>,
     <thaumadditions:entity_summoner>,
-    <thaumadditions:dna_sample>
+    <thaumadditions:dna_sample>,
+    <thaumicenergistics:essentia_component_256k>
 ];
 
 for removedItem in removedRecipes {
@@ -48,6 +49,8 @@ Infusion.removeRecipe(<thaumicaugmentation:thaumostatic_harness>);
 Infusion.removeRecipe(<thaumadditions:mithminite_ingot>);
 Infusion.removeRecipe(<thaumadditions:adaminite_ingot>);
 Infusion.removeRecipe(<thaumadditions:mithrillium_ingot>);
+Infusion.removeRecipe(<thaumicenergistics:essentia_component_4096k>);
+
 
 Infusion.registerRecipe("quardstate", "", <additions:greedycraft-quardstate_star>, 15, [
     <aspect:aversio> * 500, 
@@ -283,6 +286,22 @@ Infusion.registerRecipe("sanite_siphon", "ABYSSISM_MOBS", <gct_aby:sanite_siphon
     <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: 1000}),
     <appliedenergistics2:material:47>,
     <additions:eioaddon-blackhole_alloy_block>    
+]);
+
+Infusion.registerRecipe("essentia_component", "", <thaumicenergistics:essentia_cell_1048576k>, 10, [
+    <aspect:caeles> * 100000, 
+    <aspect:praecantatio> * 500000, 
+    <aspect:desiderium> * 500000, 
+    <aspect:machina> * 500000
+], <thaumicenergistics:essentia_component_64k>, [
+    <additions:greedycraft-creative_shard>, 
+    <additions:mekaddon-arcane_control_circuit>, 
+    <additions:greedycraft-creative_shard>,
+    <additions:greedycraft-extended_primal_metal_ingot>, 
+    <additions:greedycraft-creative_shard>,
+    <thaumicaugmentation:material:3>,
+    <additions:greedycraft-creative_shard>,
+    <gct_ores:order_crystal>
 ]);
 
 //Infusion.registerRecipe("");

@@ -1,4 +1,10 @@
 {
+  "manifestType": "minecraftModpack",
+  "manifestVersion": 1,
+  "name": "GC2",
+  "version": "1.0",
+  "author": "",
+  "overrides": "overrides",
   "minecraft": {
     "version": "1.12.2",
     "modLoaders": [
@@ -8,2437 +14,3415 @@
       }
     ]
   },
-  "manifestType": "minecraftModpack",
-  "manifestVersion": 1,
-  "name": "gc2",
-  "version": "",
-  "author": "",
   "files": [
-    {
-      "projectID": 75598,
-      "fileID": 2957213,
-      "required": true
-    },
-    {
-      "projectID": 223628,
-      "fileID": 2629023,
-      "required": true
-    },
-    {
-      "projectID": 247217,
-      "fileID": 2740774,
-      "required": true
-    },
-    {
-      "projectID": 65764,
-      "fileID": 2855061,
-      "required": true
-    },
-    {
-      "projectID": 1085598,
-      "fileID": 5833515,
-      "required": true
-    },
-    {
-      "projectID": 359619,
-      "fileID": 3435076,
-      "required": true
-    },
-    {
-      "projectID": 281657,
-      "fileID": 3474317,
-      "required": true
-    },
-    {
-      "projectID": 248027,
-      "fileID": 2816920,
-      "required": true
-    },
-    {
-      "projectID": 409087,
-      "fileID": 5096144,
-      "required": true
-    },
-    {
-      "projectID": 321720,
-      "fileID": 2711427,
-      "required": true
-    },
-    {
-      "projectID": 1012168,
-      "fileID": 5309537,
-      "required": true
-    },
-    {
-      "projectID": 224791,
-      "fileID": 2822288,
-      "required": true
-    },
-    {
-      "projectID": 317780,
-      "fileID": 5987126,
-      "required": true
-    },
-    {
-      "projectID": 554387,
-      "fileID": 3556105,
-      "required": true
-    },
-    {
-      "projectID": 293110,
-      "fileID": 2781748,
-      "required": true
-    },
-    {
-      "projectID": 227443,
-      "fileID": 2920505,
-      "required": true
-    },
-    {
-      "projectID": 295222,
-      "fileID": 3139264,
-      "required": true
-    },
-    {
-      "projectID": 250398,
-      "fileID": 5408385,
-      "required": true
-    },
-    {
-      "projectID": 623955,
-      "fileID": 5751930,
-      "required": true
-    },
-    {
-      "projectID": 556777,
-      "fileID": 5543551,
-      "required": true
-    },
-    {
-      "projectID": 293602,
-      "fileID": 2925155,
-      "required": true
-    },
-    {
-      "projectID": 238891,
-      "fileID": 2922489,
-      "required": true
-    },
-    {
-      "projectID": 333079,
-      "fileID": 3254753,
-      "required": true
-    },
-    {
-      "projectID": 316304,
-      "fileID": 2687139,
-      "required": true
-    },
-    {
-      "projectID": 252848,
-      "fileID": 2893527,
-      "required": true
-    },
-    {
-      "projectID": 272806,
-      "fileID": 2576570,
-      "required": true
-    },
-    {
-      "projectID": 319382,
-      "fileID": 2836777,
-      "required": true
-    },
-    {
-      "projectID": 403303,
-      "fileID": 3191544,
-      "required": true
-    },
-    {
-      "projectID": 274341,
-      "fileID": 2991671,
-      "required": true
-    },
-    {
-      "projectID": 244844,
-      "fileID": 4402062,
-      "required": true
-    },
-    {
-      "projectID": 324598,
-      "fileID": 2973180,
-      "required": true
-    },
-    {
-      "projectID": 277136,
-      "fileID": 3270601,
-      "required": true
-    },
-    {
-      "projectID": 234851,
-      "fileID": 3425537,
-      "required": true
-    },
-    {
-      "projectID": 230497,
-      "fileID": 2450900,
-      "required": true
-    },
-    {
-      "projectID": 297209,
-      "fileID": 2607310,
-      "required": true
-    },
-    {
-      "projectID": 222378,
-      "fileID": 2756790,
-      "required": true
-    },
-    {
-      "projectID": 228895,
-      "fileID": 3112142,
-      "required": true
-    },
-    {
-      "projectID": 301364,
-      "fileID": 2609434,
-      "required": true
-    },
-    {
-      "projectID": 259957,
-      "fileID": 2440182,
-      "required": true
-    },
-    {
-      "projectID": 250702,
-      "fileID": 4692184,
-      "required": true
-    },
-    {
-      "projectID": 261029,
-      "fileID": 3124866,
-      "required": true
-    },
-    {
-      "projectID": 246550,
-      "fileID": 4423036,
-      "required": true
-    },
-    {
-      "projectID": 224472,
-      "fileID": 2969118,
-      "required": true
-    },
-    {
-      "projectID": 290844,
-      "fileID": 2859709,
-      "required": true
-    },
-    {
-      "projectID": 272335,
-      "fileID": 2645867,
-      "required": true
-    },
-    {
-      "projectID": 286098,
-      "fileID": 2524514,
-      "required": true
-    },
-    {
-      "projectID": 944656,
-      "fileID": 4945200,
-      "required": true
-    },
-    {
-      "projectID": 240494,
-      "fileID": 2782064,
-      "required": true
-    },
-    {
-      "projectID": 976391,
-      "fileID": 5117948,
-      "required": true
-    },
-    {
-      "projectID": 402836,
-      "fileID": 3319071,
-      "required": true
-    },
-    {
-      "projectID": 291786,
-      "fileID": 2701203,
-      "required": true
-    },
-    {
-      "projectID": 268324,
-      "fileID": 2460821,
-      "required": true
-    },
-    {
-      "projectID": 350757,
-      "fileID": 2823687,
-      "required": true
-    },
-    {
-      "projectID": 261348,
-      "fileID": 3143349,
-      "required": true
-    },
-    {
-      "projectID": 299080,
-      "fileID": 2632834,
-      "required": true
-    },
-    {
-      "projectID": 303001,
-      "fileID": 4674239,
-      "required": true
-    },
-    {
-      "projectID": 298747,
-      "fileID": 2677608,
-      "required": true
-    },
-    {
-      "projectID": 282988,
-      "fileID": 2598021,
-      "required": true
-    },
-    {
-      "projectID": 399377,
-      "fileID": 3113274,
-      "required": true
-    },
-    {
-      "projectID": 337001,
-      "fileID": 2768009,
-      "required": true
-    },
-    {
-      "projectID": 911152,
-      "fileID": 5833599,
-      "required": true
-    },
-    {
-      "projectID": 908613,
-      "fileID": 5931719,
-      "required": true
-    },
-    {
-      "projectID": 238747,
-      "fileID": 2739582,
-      "required": true
-    },
-    {
-      "projectID": 410295,
-      "fileID": 4514895,
-      "required": true
-    },
-    {
-      "projectID": 233258,
-      "fileID": 2810152,
-      "required": true
-    },
-    {
-      "projectID": 303367,
-      "fileID": 2624759,
-      "required": true
-    },
-    {
-      "projectID": 711714,
-      "fileID": 5073101,
-      "required": true
-    },
-    {
-      "projectID": 257356,
-      "fileID": 3101719,
-      "required": true
-    },
-    {
-      "projectID": 239286,
-      "fileID": 4075832,
-      "required": true
-    },
-    {
-      "projectID": 223852,
-      "fileID": 5981297,
-      "required": true
-    },
-    {
-      "projectID": 280316,
-      "fileID": 2810185,
-      "required": true
-    },
-    {
-      "projectID": 309878,
-      "fileID": 2653339,
-      "required": true
-    },
-    {
-      "projectID": 1091948,
-      "fileID": 5990901,
-      "required": true
-    },
-    {
-      "projectID": 70631,
-      "fileID": 2939416,
-      "required": true
-    },
-    {
-      "projectID": 290881,
-      "fileID": 2545640,
-      "required": true
-    },
-    {
-      "projectID": 384589,
-      "fileID": 4941753,
-      "required": true
-    },
-    {
-      "projectID": 231453,
-      "fileID": 2436360,
-      "required": true
-    },
-    {
-      "projectID": 319264,
-      "fileID": 2698971,
-      "required": true
-    },
-    {
-      "projectID": 396545,
-      "fileID": 5512567,
-      "required": true
-    },
-    {
-      "projectID": 228823,
-      "fileID": 2904183,
-      "required": true
-    },
-    {
-      "projectID": 74924,
-      "fileID": 2713386,
-      "required": true
-    },
-    {
-      "projectID": 358711,
-      "fileID": 3221155,
-      "required": true
-    },
-    {
-      "projectID": 225643,
-      "fileID": 3330934,
-      "required": true
-    },
-    {
-      "projectID": 74610,
-      "fileID": 2811267,
-      "required": true
-    },
-    {
-      "projectID": 238551,
-      "fileID": 2744766,
-      "required": true
-    },
-    {
-      "projectID": 309756,
-      "fileID": 4674242,
-      "required": true
-    },
-    {
-      "projectID": 292613,
-      "fileID": 2554559,
-      "required": true
-    },
-    {
-      "projectID": 235328,
-      "fileID": 2573308,
-      "required": true
-    },
-    {
-      "projectID": 245755,
-      "fileID": 2859589,
-      "required": true
-    },
-    {
-      "projectID": 228262,
-      "fileID": 2700983,
-      "required": true
-    },
-    {
-      "projectID": 344030,
-      "fileID": 2799921,
-      "required": true
-    },
-    {
-      "projectID": 316632,
-      "fileID": 3009422,
-      "required": true
-    },
-    {
-      "projectID": 280200,
-      "fileID": 2828877,
-      "required": true
-    },
-    {
-      "projectID": 905159,
-      "fileID": 5981115,
-      "required": true
-    },
-    {
-      "projectID": 285492,
-      "fileID": 5646810,
-      "required": true
-    },
-    {
-      "projectID": 376903,
-      "fileID": 4703532,
-      "required": true
-    },
-    {
-      "projectID": 225928,
-      "fileID": 2445809,
-      "required": true
-    },
-    {
-      "projectID": 225606,
-      "fileID": 2489553,
-      "required": true
-    },
-    {
-      "projectID": 313146,
-      "fileID": 2668213,
-      "required": true
-    },
-    {
-      "projectID": 460609,
-      "fileID": 5257348,
-      "required": true
-    },
-    {
-      "projectID": 436513,
-      "fileID": 3378132,
-      "required": true
-    },
-    {
-      "projectID": 319656,
-      "fileID": 5150678,
-      "required": true
-    },
-    {
-      "projectID": 1019865,
-      "fileID": 5355213,
-      "required": true
-    },
-    {
-      "projectID": 277616,
-      "fileID": 2959847,
-      "required": true
-    },
-    {
-      "projectID": 309318,
-      "fileID": 2820653,
-      "required": true
-    },
-    {
-      "projectID": 309516,
-      "fileID": 3570157,
-      "required": true
-    },
-    {
-      "projectID": 237701,
-      "fileID": 4408001,
-      "required": true
-    },
-    {
-      "projectID": 229587,
-      "fileID": 2698688,
-      "required": true
-    },
-    {
-      "projectID": 291737,
-      "fileID": 2920441,
-      "required": true
-    },
-    {
-      "projectID": 255255,
-      "fileID": 2517254,
-      "required": true
-    },
-    {
-      "projectID": 285201,
-      "fileID": 2981289,
-      "required": true
-    },
-    {
-      "projectID": 246320,
-      "fileID": 2851525,
-      "required": true
-    },
-    {
-      "projectID": 311595,
-      "fileID": 3028832,
-      "required": true
-    },
-    {
-      "projectID": 383630,
-      "fileID": 3418574,
-      "required": true
-    },
-    {
-      "projectID": 656866,
-      "fileID": 4076539,
-      "required": true
-    },
-    {
-      "projectID": 330472,
-      "fileID": 2779313,
-      "required": true
-    },
-    {
-      "projectID": 321506,
-      "fileID": 2997046,
-      "required": true
-    },
-    {
-      "projectID": 340583,
-      "fileID": 3003242,
-      "required": true
-    },
-    {
-      "projectID": 307663,
-      "fileID": 2696186,
-      "required": true
-    },
-    {
-      "projectID": 246640,
-      "fileID": 2704562,
-      "required": true
-    },
-    {
-      "projectID": 258205,
-      "fileID": 3204340,
-      "required": true
-    },
-    {
-      "projectID": 232564,
-      "fileID": 5394706,
-      "required": true
-    },
-    {
-      "projectID": 356646,
-      "fileID": 3168863,
-      "required": true
-    },
-    {
-      "projectID": 222908,
-      "fileID": 2525823,
-      "required": true
-    },
-    {
-      "projectID": 312149,
-      "fileID": 2800346,
-      "required": true
-    },
-    {
-      "projectID": 390992,
-      "fileID": 3023870,
-      "required": true
-    },
-    {
-      "projectID": 336272,
-      "fileID": 3225395,
-      "required": true
-    },
-    {
-      "projectID": 235577,
-      "fileID": 2722385,
-      "required": true
-    },
-    {
-      "projectID": 629017,
-      "fileID": 5502915,
-      "required": true
-    },
-    {
-      "projectID": 294269,
-      "fileID": 3070803,
-      "required": true
-    },
-    {
-      "projectID": 231484,
-      "fileID": 2862651,
-      "required": true
-    },
-    {
-      "projectID": 826353,
-      "fileID": 5129360,
-      "required": true
-    },
-    {
-      "projectID": 1063334,
-      "fileID": 5951510,
-      "required": true
-    },
-    {
-      "projectID": 907559,
-      "fileID": 5680741,
-      "required": true
-    },
-    {
-      "projectID": 322347,
-      "fileID": 3254160,
-      "required": true
-    },
-    {
-      "projectID": 273430,
-      "fileID": 2459131,
-      "required": true
-    },
-    {
-      "projectID": 245287,
-      "fileID": 2658176,
-      "required": true
-    },
-    {
-      "projectID": 380260,
-      "fileID": 3098533,
-      "required": true
-    },
-    {
-      "projectID": 243190,
-      "fileID": 5183202,
-      "required": true
-    },
-    {
-      "projectID": 316704,
-      "fileID": 5364955,
-      "required": true
-    },
-    {
-      "projectID": 265461,
-      "fileID": 3591441,
-      "required": true
-    },
-    {
-      "projectID": 299389,
-      "fileID": 2711740,
-      "required": true
-    },
-    {
-      "projectID": 570795,
-      "fileID": 3780587,
-      "required": true
-    },
-    {
-      "projectID": 308137,
-      "fileID": 3136488,
-      "required": true
-    },
-    {
-      "projectID": 296384,
-      "fileID": 2974926,
-      "required": true
-    },
-    {
-      "projectID": 687577,
-      "fileID": 5789690,
-      "required": true
-    },
-    {
-      "projectID": 839336,
-      "fileID": 5241774,
-      "required": true
-    },
-    {
-      "projectID": 308839,
-      "fileID": 2703153,
-      "required": true
-    },
-    {
-      "projectID": 1027681,
-      "fileID": 5775101,
-      "required": true
-    },
-    {
-      "projectID": 299086,
-      "fileID": 3112313,
-      "required": true
-    },
-    {
-      "projectID": 225738,
-      "fileID": 2503041,
-      "required": true
-    },
-    {
-      "projectID": 246974,
-      "fileID": 3050838,
-      "required": true
-    },
-    {
-      "projectID": 322338,
-      "fileID": 2714725,
-      "required": true
-    },
-    {
-      "projectID": 308383,
-      "fileID": 5846813,
-      "required": true
-    },
-    {
-      "projectID": 312778,
-      "fileID": 2688799,
-      "required": true
-    },
-    {
-      "projectID": 318143,
-      "fileID": 2692309,
-      "required": true
-    },
-    {
-      "projectID": 285968,
-      "fileID": 2700901,
-      "required": true
-    },
-    {
-      "projectID": 273502,
-      "fileID": 2835318,
-      "required": true
-    },
-    {
-      "projectID": 287550,
-      "fileID": 2557875,
-      "required": true
-    },
-    {
-      "projectID": 250328,
-      "fileID": 2549047,
-      "required": true
-    },
-    {
-      "projectID": 367706,
-      "fileID": 4655936,
-      "required": true
-    },
-    {
-      "projectID": 255308,
-      "fileID": 5035622,
-      "required": true
-    },
-    {
-      "projectID": 302020,
-      "fileID": 2702097,
-      "required": true
-    },
-    {
-      "projectID": 402338,
-      "fileID": 3373954,
-      "required": true
-    },
-    {
-      "projectID": 322861,
-      "fileID": 5846793,
-      "required": true
-    },
-    {
-      "projectID": 395269,
-      "fileID": 3003367,
-      "required": true
-    },
-    {
-      "projectID": 300297,
-      "fileID": 2775566,
-      "required": true
-    },
-    {
-      "projectID": 267602,
-      "fileID": 2915363,
-      "required": true
-    },
-    {
-      "projectID": 303213,
-      "fileID": 3084399,
-      "required": true
-    },
-    {
-      "projectID": 275343,
-      "fileID": 2632938,
-      "required": true
-    },
-    {
-      "projectID": 231868,
-      "fileID": 4671384,
-      "required": true
-    },
-    {
-      "projectID": 311378,
-      "fileID": 3014173,
-      "required": true
-    },
-    {
-      "projectID": 291936,
-      "fileID": 2682853,
-      "required": true
-    },
-    {
-      "projectID": 321315,
-      "fileID": 2792370,
-      "required": true
-    },
-    {
-      "projectID": 237167,
-      "fileID": 2985811,
-      "required": true
-    },
-    {
-      "projectID": 313536,
-      "fileID": 3568240,
-      "required": true
-    },
-    {
-      "projectID": 435298,
-      "fileID": 3311656,
-      "required": true
-    },
-    {
-      "projectID": 943734,
-      "fileID": 4928154,
-      "required": true
-    },
-    {
-      "projectID": 250577,
-      "fileID": 2648656,
-      "required": true
-    },
-    {
-      "projectID": 254508,
-      "fileID": 2443328,
-      "required": true
-    },
-    {
-      "projectID": 1058274,
-      "fileID": 5531643,
-      "required": true
-    },
-    {
-      "projectID": 237903,
-      "fileID": 3330308,
-      "required": true
-    },
-    {
-      "projectID": 297680,
-      "fileID": 3636518,
-      "required": true
-    },
-    {
-      "projectID": 53686,
-      "fileID": 3087689,
-      "required": true
-    },
-    {
-      "projectID": 300750,
-      "fileID": 3483422,
-      "required": true
-    },
-    {
-      "projectID": 313477,
-      "fileID": 3002646,
-      "required": true
-    },
-    {
-      "projectID": 633806,
-      "fileID": 4098359,
-      "required": true
-    },
-    {
-      "projectID": 401178,
-      "fileID": 5962106,
-      "required": true
-    },
-    {
-      "projectID": 241895,
-      "fileID": 2733525,
-      "required": true
-    },
-    {
-      "projectID": 238123,
-      "fileID": 2671230,
-      "required": true
-    },
-    {
-      "projectID": 1121489,
-      "fileID": 5814089,
-      "required": true
-    },
-    {
-      "projectID": 228979,
-      "fileID": 2640380,
-      "required": true
-    },
-    {
-      "projectID": 289466,
-      "fileID": 2821822,
-      "required": true
-    },
-    {
-      "projectID": 238003,
-      "fileID": 2559089,
-      "required": true
-    },
-    {
-      "projectID": 999559,
-      "fileID": 5665405,
-      "required": true
-    },
-    {
-      "projectID": 304346,
-      "fileID": 4674241,
-      "required": true
-    },
-    {
-      "projectID": 266550,
-      "fileID": 3270468,
-      "required": true
-    },
-    {
-      "projectID": 910715,
-      "fileID": 6003953,
-      "required": true
-    },
-    {
-      "projectID": 384460,
-      "fileID": 3128479,
-      "required": true
-    },
-    {
-      "projectID": 355044,
-      "fileID": 3576415,
-      "required": true
-    },
-    {
-      "projectID": 308380,
-      "fileID": 5975649,
-      "required": true
-    },
-    {
-      "projectID": 1085014,
-      "fileID": 5644169,
-      "required": true
-    },
-    {
-      "projectID": 231382,
-      "fileID": 3408276,
-      "required": true
-    },
-    {
-      "projectID": 248787,
-      "fileID": 2987247,
-      "required": true
-    },
-    {
-      "projectID": 368098,
-      "fileID": 3254750,
-      "required": true
-    },
-    {
-      "projectID": 256247,
-      "fileID": 2704832,
-      "required": true
-    },
-    {
-      "projectID": 414215,
-      "fileID": 3210348,
-      "required": true
-    },
-    {
-      "projectID": 285612,
-      "fileID": 3133651,
-      "required": true
-    },
-    {
-      "projectID": 1005815,
-      "fileID": 6007189,
-      "required": true
-    },
-    {
-      "projectID": 241344,
-      "fileID": 2480458,
-      "required": true
-    },
-    {
-      "projectID": 240630,
-      "fileID": 2728585,
-      "required": true
-    },
-    {
-      "projectID": 320903,
-      "fileID": 3243998,
-      "required": true
-    },
-    {
-      "projectID": 242195,
-      "fileID": 2813586,
-      "required": true
-    },
-    {
-      "projectID": 634242,
-      "fileID": 5591161,
-      "required": true
-    },
-    {
-      "projectID": 321781,
-      "fileID": 3000908,
-      "required": true
-    },
-    {
-      "projectID": 278359,
-      "fileID": 2644034,
-      "required": true
-    },
-    {
-      "projectID": 389665,
-      "fileID": 3247154,
-      "required": true
-    },
-    {
-      "projectID": 284754,
-      "fileID": 2725062,
-      "required": true
-    },
-    {
-      "projectID": 253735,
-      "fileID": 2514705,
-      "required": true
-    },
-    {
-      "projectID": 235279,
-      "fileID": 2915375,
-      "required": true
-    },
-    {
-      "projectID": 390497,
-      "fileID": 5280806,
-      "required": true
-    },
-    {
-      "projectID": 248370,
-      "fileID": 2490058,
-      "required": true
-    },
-    {
-      "projectID": 705000,
-      "fileID": 5860191,
-      "required": true
-    },
-    {
-      "projectID": 293938,
-      "fileID": 2652196,
-      "required": true
-    },
-    {
-      "projectID": 350675,
-      "fileID": 2997188,
-      "required": true
-    },
-    {
-      "projectID": 227873,
-      "fileID": 2721268,
-      "required": true
-    },
-    {
-      "projectID": 226410,
-      "fileID": 2702991,
-      "required": true
-    },
-    {
-      "projectID": 417392,
-      "fileID": 5594720,
-      "required": true
-    },
-    {
-      "projectID": 220954,
-      "fileID": 3840577,
-      "required": true
-    },
-    {
-      "projectID": 421605,
-      "fileID": 3576661,
-      "required": true
-    },
-    {
-      "projectID": 221914,
-      "fileID": 2445431,
-      "required": true
-    },
-    {
-      "projectID": 270789,
-      "fileID": 2920436,
-      "required": true
-    },
-    {
-      "projectID": 310029,
-      "fileID": 2898177,
-      "required": true
-    },
-    {
-      "projectID": 307469,
-      "fileID": 2640779,
-      "required": true
-    },
-    {
-      "projectID": 224535,
-      "fileID": 2443253,
-      "required": true
-    },
-    {
-      "projectID": 227083,
-      "fileID": 2518667,
-      "required": true
-    },
-    {
-      "projectID": 307700,
-      "fileID": 2669545,
-      "required": true
-    },
-    {
-      "projectID": 266936,
-      "fileID": 5853364,
-      "required": true
-    },
-    {
-      "projectID": 314515,
-      "fileID": 3514704,
-      "required": true
-    },
-    {
-      "projectID": 229664,
-      "fileID": 3496560,
-      "required": true
-    },
-    {
-      "projectID": 228525,
-      "fileID": 2836960,
-      "required": true
-    },
-    {
-      "projectID": 1104150,
-      "fileID": 5750561,
-      "required": true
-    },
-    {
-      "projectID": 318833,
-      "fileID": 2961524,
-      "required": true
-    },
-    {
-      "projectID": 309674,
-      "fileID": 3003364,
-      "required": true
-    },
-    {
-      "projectID": 1086841,
-      "fileID": 5643297,
-      "required": true
-    },
-    {
-      "projectID": 232391,
-      "fileID": 2602660,
-      "required": true
-    },
-    {
-      "projectID": 229068,
-      "fileID": 2801351,
-      "required": true
-    },
-    {
-      "projectID": 301356,
-      "fileID": 3091010,
-      "required": true
-    },
-    {
-      "projectID": 225605,
-      "fileID": 2489549,
-      "required": true
-    },
-    {
-      "projectID": 840735,
-      "fileID": 5946841,
-      "required": true
-    },
-    {
-      "projectID": 59751,
-      "fileID": 5903382,
-      "required": true
-    },
-    {
-      "projectID": 240959,
-      "fileID": 2630081,
-      "required": true
-    },
-    {
-      "projectID": 224218,
-      "fileID": 2707509,
-      "required": true
-    },
-    {
-      "projectID": 250226,
-      "fileID": 2574459,
-      "required": true
-    },
-    {
-      "projectID": 247843,
-      "fileID": 2511850,
-      "required": true
-    },
-    {
-      "projectID": 870276,
-      "fileID": 5212709,
-      "required": true
-    },
-    {
-      "projectID": 69162,
-      "fileID": 2920433,
-      "required": true
-    },
-    {
-      "projectID": 313657,
-      "fileID": 3191890,
-      "required": true
-    },
-    {
-      "projectID": 261924,
-      "fileID": 2733508,
-      "required": true
-    },
     {
       "projectID": 306549,
       "fileID": 2906537,
-      "required": true
-    },
-    {
-      "projectID": 248020,
-      "fileID": 3178199,
-      "required": true
-    },
-    {
-      "projectID": 253211,
-      "fileID": 3308160,
-      "required": true
-    },
-    {
-      "projectID": 684750,
-      "fileID": 5215696,
-      "required": true
-    },
-    {
-      "projectID": 461660,
-      "fileID": 5876158,
-      "required": true
-    },
-    {
-      "projectID": 228832,
-      "fileID": 2645992,
-      "required": true
-    },
-    {
-      "projectID": 283589,
-      "fileID": 2708030,
-      "required": true
-    },
-    {
-      "projectID": 284973,
-      "fileID": 5405050,
-      "required": true
-    },
-    {
-      "projectID": 884359,
-      "fileID": 5380800,
-      "required": true
-    },
-    {
-      "projectID": 377007,
-      "fileID": 3013011,
-      "required": true
-    },
-    {
-      "projectID": 271835,
-      "fileID": 2920437,
-      "required": true
-    },
-    {
-      "projectID": 253043,
-      "fileID": 4623135,
-      "required": true
-    },
-    {
-      "projectID": 734347,
-      "fileID": 5486599,
-      "required": true
-    },
-    {
-      "projectID": 287683,
-      "fileID": 3174535,
-      "required": true
-    },
-    {
-      "projectID": 226779,
-      "fileID": 2563292,
-      "required": true
-    },
-    {
-      "projectID": 254317,
-      "fileID": 3840727,
-      "required": true
-    },
-    {
-      "projectID": 342913,
-      "fileID": 2795933,
-      "required": true
-    },
-    {
-      "projectID": 1042062,
-      "fileID": 5452777,
-      "required": true
-    },
-    {
-      "projectID": 242998,
-      "fileID": 2851111,
-      "required": true
-    },
-    {
-      "projectID": 434344,
-      "fileID": 3626352,
-      "required": true
-    },
-    {
-      "projectID": 247111,
-      "fileID": 2887479,
-      "required": true
-    },
-    {
-      "projectID": 291874,
-      "fileID": 2799213,
-      "required": true
-    },
-    {
-      "projectID": 312195,
-      "fileID": 3474382,
-      "required": true
-    },
-    {
-      "projectID": 256141,
-      "fileID": 3107974,
-      "required": true
-    },
-    {
-      "projectID": 303541,
-      "fileID": 2636803,
-      "required": true
-    },
-    {
-      "projectID": 289412,
-      "fileID": 3156637,
-      "required": true
-    },
-    {
-      "projectID": 228404,
-      "fileID": 3117927,
-      "required": true
-    },
-    {
-      "projectID": 360795,
-      "fileID": 3634226,
-      "required": true
-    },
-    {
-      "projectID": 243298,
-      "fileID": 3116493,
-      "required": true
-    },
-    {
-      "projectID": 228816,
-      "fileID": 2699056,
-      "required": true
-    },
-    {
-      "projectID": 226447,
-      "fileID": 2477566,
-      "required": true
-    },
-    {
-      "projectID": 274863,
-      "fileID": 2876208,
-      "required": true
-    },
-    {
-      "projectID": 402085,
-      "fileID": 3227029,
-      "required": true
-    },
-    {
-      "projectID": 363543,
-      "fileID": 3081433,
-      "required": true
-    },
-    {
-      "projectID": 228815,
-      "fileID": 2699055,
-      "required": true
-    },
-    {
-      "projectID": 221857,
-      "fileID": 2904825,
-      "required": true
-    },
-    {
-      "projectID": 377088,
-      "fileID": 2972692,
-      "required": true
-    },
-    {
-      "projectID": 322344,
-      "fileID": 3509087,
-      "required": true
-    },
-    {
-      "projectID": 350806,
-      "fileID": 3002827,
-      "required": true
-    },
-    {
-      "projectID": 514170,
-      "fileID": 5528753,
-      "required": true
-    },
-    {
-      "projectID": 419286,
-      "fileID": 5906634,
-      "required": true
-    },
-    {
-      "projectID": 336569,
-      "fileID": 3226142,
-      "required": true
-    },
-    {
-      "projectID": 232758,
-      "fileID": 3159497,
-      "required": true
-    },
-    {
-      "projectID": 277064,
-      "fileID": 3483816,
-      "required": true
-    },
-    {
-      "projectID": 306626,
-      "fileID": 2882138,
-      "required": true
-    },
-    {
-      "projectID": 312918,
-      "fileID": 2827455,
-      "required": true
-    },
-    {
-      "projectID": 455383,
-      "fileID": 3257397,
-      "required": true
-    },
-    {
-      "projectID": 255232,
-      "fileID": 2830265,
-      "required": true
-    },
-    {
-      "projectID": 300928,
-      "fileID": 2604143,
-      "required": true
-    },
-    {
-      "projectID": 1064321,
-      "fileID": 5952608,
-      "required": true
-    },
-    {
-      "projectID": 278398,
-      "fileID": 2567799,
-      "required": true
-    },
-    {
-      "projectID": 296769,
-      "fileID": 2576706,
-      "required": true
-    },
-    {
-      "projectID": 633720,
-      "fileID": 3852709,
-      "required": true
-    },
-    {
-      "projectID": 284745,
-      "fileID": 2857348,
-      "required": true
-    },
-    {
-      "projectID": 409880,
-      "fileID": 3614638,
-      "required": true
-    },
-    {
-      "projectID": 312139,
-      "fileID": 2664852,
-      "required": true
-    },
-    {
-      "projectID": 244464,
-      "fileID": 2580523,
-      "required": true
-    },
-    {
-      "projectID": 336895,
-      "fileID": 3862197,
-      "required": true
-    },
-    {
-      "projectID": 1153317,
-      "fileID": 6009045,
-      "required": true
-    },
-    {
-      "projectID": 298965,
-      "fileID": 3374254,
-      "required": true
-    },
-    {
-      "projectID": 951159,
-      "fileID": 5967242,
-      "required": true
-    },
-    {
-      "projectID": 1018962,
-      "fileID": 5657580,
-      "required": true
-    },
-    {
-      "projectID": 238361,
-      "fileID": 2845522,
-      "required": true
-    },
-    {
-      "projectID": 262137,
-      "fileID": 2810142,
-      "required": true
-    },
-    {
-      "projectID": 290659,
-      "fileID": 3067807,
-      "required": true
-    },
-    {
-      "projectID": 310637,
-      "fileID": 2939405,
-      "required": true
-    },
-    {
-      "projectID": 283644,
-      "fileID": 4629597,
-      "required": true
-    },
-    {
-      "projectID": 298832,
-      "fileID": 2746713,
-      "required": true
-    },
-    {
-      "projectID": 267934,
-      "fileID": 2566522,
-      "required": true
-    },
-    {
-      "projectID": 236784,
-      "fileID": 2580706,
-      "required": true
-    },
-    {
-      "projectID": 319441,
-      "fileID": 5129455,
-      "required": true
-    },
-    {
-      "projectID": 271384,
-      "fileID": 2920434,
-      "required": true
-    },
-    {
-      "projectID": 267939,
-      "fileID": 2997129,
-      "required": true
-    },
-    {
-      "projectID": 833931,
-      "fileID": 5846825,
-      "required": true
-    },
-    {
-      "projectID": 278494,
-      "fileID": 3973967,
-      "required": true
-    },
-    {
-      "projectID": 318872,
-      "fileID": 3146596,
-      "required": true
-    },
-    {
-      "projectID": 231095,
-      "fileID": 2720655,
-      "required": true
-    },
-    {
-      "projectID": 268643,
-      "fileID": 2573789,
-      "required": true
-    },
-    {
-      "projectID": 326155,
-      "fileID": 3151006,
-      "required": true
-    },
-    {
-      "projectID": 228756,
-      "fileID": 2747935,
-      "required": true
-    },
-    {
-      "projectID": 650242,
-      "fileID": 5272359,
-      "required": true
-    },
-    {
-      "projectID": 422669,
-      "fileID": 3200622,
-      "required": true
-    },
-    {
-      "projectID": 303122,
-      "fileID": 2919936,
-      "required": true
-    },
-    {
-      "projectID": 307843,
-      "fileID": 2642103,
-      "required": true
-    },
-    {
-      "projectID": 239197,
-      "fileID": 5486112,
-      "required": true
-    },
-    {
-      "projectID": 246996,
-      "fileID": 3440963,
-      "required": true
-    },
-    {
-      "projectID": 285684,
-      "fileID": 2810131,
-      "required": true
-    },
-    {
-      "projectID": 243363,
-      "fileID": 4479688,
-      "required": true
-    },
-    {
-      "projectID": 270116,
-      "fileID": 2527645,
-      "required": true
-    },
-    {
-      "projectID": 624967,
-      "fileID": 5421689,
-      "required": true
-    },
-    {
-      "projectID": 253887,
-      "fileID": 2432679,
-      "required": true
-    },
-    {
-      "projectID": 915177,
-      "fileID": 4761039,
-      "required": true
-    },
-    {
-      "projectID": 657388,
-      "fileID": 5224386,
-      "required": true
-    },
-    {
-      "projectID": 64578,
-      "fileID": 4674244,
-      "required": true
-    },
-    {
-      "projectID": 408853,
-      "fileID": 5337217,
-      "required": true
-    },
-    {
-      "projectID": 220811,
-      "fileID": 2571951,
-      "required": true
-    },
-    {
-      "projectID": 290201,
-      "fileID": 2640414,
-      "required": true
-    },
-    {
-      "projectID": 270558,
-      "fileID": 2452858,
-      "required": true
-    },
-    {
-      "projectID": 223150,
-      "fileID": 5615733,
-      "required": true
-    },
-    {
-      "projectID": 311453,
-      "fileID": 2664856,
-      "required": true
-    },
-    {
-      "projectID": 254268,
-      "fileID": 3529742,
-      "required": true
-    },
-    {
-      "projectID": 286652,
-      "fileID": 4511183,
-      "required": true
-    },
-    {
-      "projectID": 250363,
-      "fileID": 2746011,
-      "required": true
-    },
-    {
-      "projectID": 280423,
-      "fileID": 2563001,
-      "required": true
-    },
-    {
-      "projectID": 272671,
-      "fileID": 2843439,
-      "required": true
-    },
-    {
-      "projectID": 899182,
-      "fileID": 5492997,
+      "fileName": "Tips-1.12.2-1.0.9.jar",
+      "url": "https://edge.forgecdn.net/files/2906/537/Tips-1.12.2-1.0.9.jar",
       "required": true
     },
     {
       "projectID": 269036,
       "fileID": 2504109,
+      "fileName": "pamscookables-1.1.jar",
+      "url": "https://edge.forgecdn.net/files/2504/109/pamscookables-1.1.jar",
       "required": true
     },
     {
-      "projectID": 307416,
-      "fileID": 2640024,
+      "projectID": 302020,
+      "fileID": 2702097,
+      "fileName": "Rustic Thaumaturgy-4.4a.jar",
+      "url": "https://edge.forgecdn.net/files/2702/97/Rustic%20Thaumaturgy-4.4a.jar",
       "required": true
     },
     {
-      "projectID": 306935,
-      "fileID": 3357967,
+      "projectID": 258205,
+      "fileID": 3204340,
+      "fileName": "randomtweaks-1.12.2-2.8.3.1.jar",
+      "url": "https://edge.forgecdn.net/files/3204/340/randomtweaks-1.12.2-2.8.3.1.jar",
       "required": true
     },
     {
-      "projectID": 67508,
-      "fileID": 2477676,
+      "projectID": 287550,
+      "fileID": 2557875,
+      "fileName": "TieredTooltips-2.0.0.jar",
+      "url": "https://edge.forgecdn.net/files/2557/875/TieredTooltips-2.0.0.jar",
       "required": true
     },
     {
-      "projectID": 317469,
-      "fileID": 3115668,
-      "required": true
-    },
-    {
-      "projectID": 849939,
-      "fileID": 4490974,
-      "required": true
-    },
-    {
-      "projectID": 262420,
-      "fileID": 2460171,
-      "required": true
-    },
-    {
-      "projectID": 971802,
-      "fileID": 5086860,
-      "required": true
-    },
-    {
-      "projectID": 250763,
-      "fileID": 2705813,
-      "required": true
-    },
-    {
-      "projectID": 245028,
-      "fileID": 2876841,
-      "required": true
-    },
-    {
-      "projectID": 885670,
-      "fileID": 5868069,
-      "required": true
-    },
-    {
-      "projectID": 628618,
-      "fileID": 3813089,
-      "required": true
-    },
-    {
-      "projectID": 604054,
-      "fileID": 5576739,
-      "required": true
-    },
-    {
-      "projectID": 355649,
-      "fileID": 2933013,
-      "required": true
-    },
-    {
-      "projectID": 1092271,
-      "fileID": 5671051,
-      "required": true
-    },
-    {
-      "projectID": 414508,
-      "fileID": 3539751,
-      "required": true
-    },
-    {
-      "projectID": 244258,
-      "fileID": 3553627,
-      "required": true
-    },
-    {
-      "projectID": 221910,
-      "fileID": 2520678,
-      "required": true
-    },
-    {
-      "projectID": 293968,
-      "fileID": 2816085,
-      "required": true
-    },
-    {
-      "projectID": 286924,
-      "fileID": 4365983,
+      "projectID": 220954,
+      "fileID": 3840577,
+      "fileName": "modtweaker-4.0.20.11.jar",
+      "url": "https://edge.forgecdn.net/files/3840/577/modtweaker-4.0.20.11.jar",
       "required": true
     },
     {
       "projectID": 241721,
       "fileID": 3044416,
-      "required": true
-    },
-    {
-      "projectID": 225658,
-      "fileID": 3070947,
-      "required": true
-    },
-    {
-      "projectID": 367831,
-      "fileID": 3543884,
-      "required": true
-    },
-    {
-      "projectID": 220318,
-      "fileID": 3558882,
-      "required": true
-    },
-    {
-      "projectID": 247401,
-      "fileID": 5655181,
-      "required": true
-    },
-    {
-      "projectID": 276951,
-      "fileID": 2880613,
-      "required": true
-    },
-    {
-      "projectID": 293704,
-      "fileID": 3247511,
-      "required": true
-    },
-    {
-      "projectID": 242223,
-      "fileID": 3524685,
-      "required": true
-    },
-    {
-      "projectID": 237065,
-      "fileID": 3331364,
-      "required": true
-    },
-    {
-      "projectID": 313340,
-      "fileID": 2884937,
-      "required": true
-    },
-    {
-      "projectID": 255257,
-      "fileID": 3334690,
-      "required": true
-    },
-    {
-      "projectID": 530919,
-      "fileID": 3652765,
-      "required": true
-    },
-    {
-      "projectID": 294233,
-      "fileID": 2563200,
-      "required": true
-    },
-    {
-      "projectID": 237102,
-      "fileID": 3157548,
-      "required": true
-    },
-    {
-      "projectID": 616190,
-      "fileID": 4630499,
-      "required": true
-    },
-    {
-      "projectID": 263420,
-      "fileID": 6012809,
+      "fileName": "astralsorcery-1.12.2-1.10.27.jar",
+      "url": "https://edge.forgecdn.net/files/3044/416/astralsorcery-1.12.2-1.10.27.jar",
       "required": true
     },
     {
       "projectID": 69163,
       "fileID": 2926431,
+      "fileName": "ThermalExpansion-1.12.2-5.5.7.1-universal.jar",
+      "url": "https://edge.forgecdn.net/files/2926/431/ThermalExpansion-1.12.2-5.5.7.1-universal.jar",
       "required": true
     },
     {
-      "projectID": 287321,
-      "fileID": 3808153,
+      "projectID": 312918,
+      "fileID": 2827455,
+      "fileName": "blue_skies-1.12.2-v1.1.3.jar",
+      "url": "https://edge.forgecdn.net/files/2827/455/blue_skies-1.12.2-v1.1.3.jar",
       "required": true
     },
     {
-      "projectID": 1006856,
-      "fileID": 5315636,
-      "required": true
-    },
-    {
-      "projectID": 295114,
-      "fileID": 3092102,
-      "required": true
-    },
-    {
-      "projectID": 307152,
-      "fileID": 3177947,
-      "required": true
-    },
-    {
-      "projectID": 930157,
-      "fileID": 4859494,
-      "required": true
-    },
-    {
-      "projectID": 271605,
-      "fileID": 3176964,
-      "required": true
-    },
-    {
-      "projectID": 241140,
-      "fileID": 2499252,
-      "required": true
-    },
-    {
-      "projectID": 286231,
-      "fileID": 3006659,
-      "required": true
-    },
-    {
-      "projectID": 292992,
-      "fileID": 2976522,
-      "required": true
-    },
-    {
-      "projectID": 311880,
-      "fileID": 2681454,
-      "required": true
-    },
-    {
-      "projectID": 285742,
-      "fileID": 3944565,
-      "required": true
-    },
-    {
-      "projectID": 997328,
-      "fileID": 5954355,
-      "required": true
-    },
-    {
-      "projectID": 261251,
-      "fileID": 3045651,
-      "required": true
-    },
-    {
-      "projectID": 227441,
-      "fileID": 2456007,
-      "required": true
-    },
-    {
-      "projectID": 289953,
-      "fileID": 2680269,
-      "required": true
-    },
-    {
-      "projectID": 383632,
-      "fileID": 3056455,
-      "required": true
-    },
-    {
-      "projectID": 326874,
-      "fileID": 2746674,
-      "required": true
-    },
-    {
-      "projectID": 223735,
-      "fileID": 2914062,
-      "required": true
-    },
-    {
-      "projectID": 250498,
-      "fileID": 5218945,
-      "required": true
-    },
-    {
-      "projectID": 557549,
-      "fileID": 5906628,
-      "required": true
-    },
-    {
-      "projectID": 248451,
-      "fileID": 2878496,
-      "required": true
-    },
-    {
-      "projectID": 225604,
-      "fileID": 2489566,
-      "required": true
-    },
-    {
-      "projectID": 223094,
-      "fileID": 2923460,
-      "required": true
-    },
-    {
-      "projectID": 70496,
-      "fileID": 4675629,
-      "required": true
-    },
-    {
-      "projectID": 1081085,
-      "fileID": 5955607,
-      "required": true
-    },
-    {
-      "projectID": 268655,
-      "fileID": 2951840,
-      "required": true
-    },
-    {
-      "projectID": 274807,
-      "fileID": 3048077,
-      "required": true
-    },
-    {
-      "projectID": 59693,
-      "fileID": 2824328,
-      "required": true
-    },
-    {
-      "projectID": 284350,
-      "fileID": 4633750,
-      "required": true
-    },
-    {
-      "projectID": 311383,
-      "fileID": 2853945,
-      "required": true
-    },
-    {
-      "projectID": 311357,
-      "fileID": 3057332,
-      "required": true
-    },
-    {
-      "projectID": 70492,
-      "fileID": 2516215,
-      "required": true
-    },
-    {
-      "projectID": 1016395,
-      "fileID": 5332230,
-      "required": true
-    },
-    {
-      "projectID": 272514,
-      "fileID": 2962052,
-      "required": true
-    },
-    {
-      "projectID": 398267,
-      "fileID": 5778512,
-      "required": true
-    },
-    {
-      "projectID": 222880,
-      "fileID": 2926428,
-      "required": true
-    },
-    {
-      "projectID": 873867,
-      "fileID": 5892019,
-      "required": true
-    },
-    {
-      "projectID": 298985,
-      "fileID": 2590271,
-      "required": true
-    },
-    {
-      "projectID": 257814,
-      "fileID": 4722163,
-      "required": true
-    },
-    {
-      "projectID": 222838,
-      "fileID": 2645020,
-      "required": true
-    },
-    {
-      "projectID": 282623,
-      "fileID": 3280750,
-      "required": true
-    },
-    {
-      "projectID": 278993,
-      "fileID": 2846217,
-      "required": true
-    },
-    {
-      "projectID": 270305,
-      "fileID": 2617198,
-      "required": true
-    },
-    {
-      "projectID": 951064,
-      "fileID": 5002181,
-      "required": true
-    },
-    {
-      "projectID": 235492,
-      "fileID": 2825547,
-      "required": true
-    },
-    {
-      "projectID": 225561,
-      "fileID": 2678374,
-      "required": true
-    },
-    {
-      "projectID": 319227,
-      "fileID": 2789273,
-      "required": true
-    },
-    {
-      "projectID": 281316,
-      "fileID": 2696448,
-      "required": true
-    },
-    {
-      "projectID": 456403,
-      "fileID": 5946402,
-      "required": true
-    },
-    {
-      "projectID": 250957,
-      "fileID": 2630860,
-      "required": true
-    },
-    {
-      "projectID": 811828,
-      "fileID": 5846836,
-      "required": true
-    },
-    {
-      "projectID": 251407,
-      "fileID": 2624712,
-      "required": true
-    },
-    {
-      "projectID": 419003,
-      "fileID": 3215120,
-      "required": true
-    },
-    {
-      "projectID": 242818,
-      "fileID": 2779848,
-      "required": true
-    },
-    {
-      "projectID": 299045,
-      "fileID": 2650681,
-      "required": true
-    },
-    {
-      "projectID": 248039,
-      "fileID": 3374256,
-      "required": true
-    },
-    {
-      "projectID": 269398,
-      "fileID": 2643976,
-      "required": true
-    },
-    {
-      "projectID": 280554,
-      "fileID": 3405071,
-      "required": true
-    },
-    {
-      "projectID": 229302,
-      "fileID": 5825891,
-      "required": true
-    },
-    {
-      "projectID": 817377,
-      "fileID": 5952626,
-      "required": true
-    },
-    {
-      "projectID": 227877,
-      "fileID": 2817288,
-      "required": true
-    },
-    {
-      "projectID": 227657,
-      "fileID": 2654852,
-      "required": true
-    },
-    {
-      "projectID": 354673,
-      "fileID": 3449157,
-      "required": true
-    },
-    {
-      "projectID": 1116420,
-      "fileID": 5788723,
-      "required": true
-    },
-    {
-      "projectID": 298187,
-      "fileID": 3005950,
-      "required": true
-    },
-    {
-      "projectID": 78778,
-      "fileID": 2524058,
-      "required": true
-    },
-    {
-      "projectID": 388172,
-      "fileID": 4020277,
-      "required": true
-    },
-    {
-      "projectID": 291788,
-      "fileID": 2798112,
-      "required": true
-    },
-    {
-      "projectID": 849094,
-      "fileID": 5512421,
-      "required": true
-    },
-    {
-      "projectID": 640802,
-      "fileID": 4874506,
-      "required": true
-    },
-    {
-      "projectID": 307806,
-      "fileID": 2820815,
-      "required": true
-    },
-    {
-      "projectID": 321792,
-      "fileID": 5225456,
+      "projectID": 319441,
+      "fileID": 5129455,
+      "fileName": "ThaumicAugmentation-1.12.2-2.1.13.jar",
+      "url": "https://edge.forgecdn.net/files/5129/455/ThaumicAugmentation-1.12.2-2.1.13.jar",
       "required": true
     },
     {
       "projectID": 250898,
       "fileID": 2897369,
+      "fileName": "OreExcavation-1.4.150.jar",
+      "url": "https://edge.forgecdn.net/files/2897/369/OreExcavation-1.4.150.jar",
       "required": true
     },
     {
-      "projectID": 976405,
-      "fileID": 5656530,
+      "projectID": 238003,
+      "fileID": 2559089,
+      "fileName": "ThaumicInventoryScanning_1.12.2-2.0.10.jar",
+      "url": "https://edge.forgecdn.net/files/2559/89/ThaumicInventoryScanning_1.12.2-2.0.10.jar",
       "required": true
     },
     {
-      "projectID": 280294,
-      "fileID": 3362160,
+      "projectID": 317469,
+      "fileID": 3115668,
+      "fileName": "TofuCraftReload-0.1.0.9.jar",
+      "url": "https://edge.forgecdn.net/files/3115/668/TofuCraftReload-0.1.0.9.jar",
       "required": true
     },
     {
-      "projectID": 314093,
-      "fileID": 2674335,
+      "projectID": 70496,
+      "fileID": 4675629,
+      "fileName": "bdlib-1.14.4.1-mc1.12.2.jar",
+      "url": "https://edge.forgecdn.net/files/4675/629/bdlib-1.14.4.1-mc1.12.2.jar",
       "required": true
     },
     {
-      "projectID": 225946,
-      "fileID": 2680883,
+      "projectID": 285742,
+      "fileID": 3944565,
+      "fileName": "SmoothFont-mc1.12.2-2.1.4.jar",
+      "url": "https://edge.forgecdn.net/files/3944/565/SmoothFont-mc1.12.2-2.1.4.jar",
       "required": true
     },
     {
-      "projectID": 275153,
-      "fileID": 2486198,
+      "projectID": 253887,
+      "fileID": 2432679,
+      "fileName": "moreloottables-1.12.0-0.1.0.jar",
+      "url": "https://edge.forgecdn.net/files/2432/679/moreloottables-1.12.0-0.1.0.jar",
       "required": true
     },
     {
-      "projectID": 319192,
-      "fileID": 2704066,
+      "projectID": 272806,
+      "fileID": 2576570,
+      "fileName": "TerraCore-1.12-2.1.13.jar",
+      "url": "https://edge.forgecdn.net/files/2576/570/TerraCore-1.12-2.1.13.jar",
+      "required": true
+    },
+    {
+      "projectID": 930157,
+      "fileID": 4859494,
+      "fileName": "PassiveSearchBar+Forge+1.12.2-1.0.0.jar",
+      "url": "https://edge.forgecdn.net/files/4859/494/PassiveSearchBar%2bForge%2b1.12.2-1.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 390497,
+      "fileID": 5280806,
+      "fileName": "BetterHurtTimer-1.12.2-1.5.0.6.jar",
+      "url": "https://edge.forgecdn.net/files/5280/806/BetterHurtTimer-1.12.2-1.5.0.6.jar",
+      "required": true
+    },
+    {
+      "projectID": 232758,
+      "fileID": 3159497,
+      "fileName": "CyclopsCore-1.12.2-1.6.7.jar",
+      "url": "https://edge.forgecdn.net/files/3159/497/CyclopsCore-1.12.2-1.6.7.jar",
+      "required": true
+    },
+    {
+      "projectID": 556777,
+      "fileID": 5543551,
+      "fileName": "ReachFix-1.12.2-1.0.10.jar",
+      "url": "https://edge.forgecdn.net/files/5543/551/ReachFix-1.12.2-1.0.10.jar",
+      "required": true
+    },
+    {
+      "projectID": 318833,
+      "fileID": 2961524,
+      "fileName": "AdLods-1.12.2-1.0.8.0-build.0504.jar",
+      "url": "https://edge.forgecdn.net/files/2961/524/AdLods-1.12.2-1.0.8.0-build.0504.jar",
+      "required": true
+    },
+    {
+      "projectID": 870276,
+      "fileID": 5212709,
+      "fileName": "!configanytime-3.0.jar",
+      "url": "https://edge.forgecdn.net/files/5212/709/!configanytime-3.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 321792,
+      "fileID": 5225456,
+      "fileName": "AquaAcrobatics-1.15.4.jar",
+      "url": "https://edge.forgecdn.net/files/5225/456/AquaAcrobatics-1.15.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 230497,
+      "fileID": 2450900,
+      "fileName": "Chameleon-1.12-4.1.3.jar",
+      "url": "https://edge.forgecdn.net/files/2450/900/Chameleon-1.12-4.1.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 309878,
+      "fileID": 2653339,
+      "fileName": "BringMeTheRings-0.4.jar",
+      "url": "https://edge.forgecdn.net/files/2653/339/BringMeTheRings-0.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 254268,
+      "fileID": 3529742,
+      "fileName": "torchmaster_1.12.2-1.8.5.0.jar",
+      "url": "https://edge.forgecdn.net/files/3529/742/torchmaster_1.12.2-1.8.5.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 78778,
+      "fileID": 2524058,
+      "fileName": "ChestTransporter-1.12.2-2.8.8.jar",
+      "url": "https://edge.forgecdn.net/files/2524/58/ChestTransporter-1.12.2-2.8.8.jar",
+      "required": true
+    },
+    {
+      "projectID": 267939,
+      "fileID": 2997129,
+      "fileName": "just-enough-harvestcraft-1.12.2-1.7.2.jar",
+      "url": "https://edge.forgecdn.net/files/2997/129/just-enough-harvestcraft-1.12.2-1.7.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 1018962,
+      "fileID": 5657580,
+      "fileName": "tc_integration-1.1-1.12.2.jar",
+      "url": "https://edge.forgecdn.net/files/5657/580/tc_integration-1.1-1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 344030,
+      "fileID": 2799921,
+      "fileName": "BacoDifficulty-1.0.3.jar",
+      "url": "https://edge.forgecdn.net/files/2799/921/BacoDifficulty-1.0.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 254317,
+      "fileID": 3840727,
+      "fileName": "justenoughdimensions-1.12.2-1.6.0-dev.20211009.214847.jar",
+      "url": "https://edge.forgecdn.net/files/3840/727/justenoughdimensions-1.12.2-1.6.0-dev.20211009.214847.jar",
+      "required": true
+    },
+    {
+      "projectID": 303001,
+      "fileID": 4674239,
+      "fileName": "EnderIO-zoo-1.12.2-5.3.72.jar",
+      "url": "https://edge.forgecdn.net/files/4674/239/EnderIO-zoo-1.12.2-5.3.72.jar",
+      "required": true
+    },
+    {
+      "projectID": 656866,
+      "fileID": 4076539,
+      "fileName": "IGIExtended-1.12.2-1.1.jar",
+      "url": "https://edge.forgecdn.net/files/4076/539/IGIExtended-1.12.2-1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 276951,
+      "fileID": 2880613,
+      "fileName": "comforts-1.12.2-1.4.1.3.jar",
+      "url": "https://edge.forgecdn.net/files/2880/613/comforts-1.12.2-1.4.1.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 368098,
+      "fileID": 3254750,
+      "fileName": "MMLib-2.3.0.jar",
+      "url": "https://edge.forgecdn.net/files/3254/750/MMLib-2.3.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 261251,
+      "fileID": 3045651,
+      "fileName": "badwithernocookiereloaded-1.12.2-3.4.18.jar",
+      "url": "https://edge.forgecdn.net/files/3045/651/badwithernocookiereloaded-1.12.2-3.4.18.jar",
+      "required": true
+    },
+    {
+      "projectID": 320903,
+      "fileID": 3243998,
+      "fileName": "totaltinkers-0.6.0.jar",
+      "url": "https://edge.forgecdn.net/files/3243/998/totaltinkers-0.6.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 297209,
+      "fileID": 2607310,
+      "fileName": "hooked-1.0.3.jar",
+      "url": "https://edge.forgecdn.net/files/2607/310/hooked-1.0.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 298985,
+      "fileID": 2590271,
+      "fileName": "IonChests-1.0.0.jar",
+      "url": "https://edge.forgecdn.net/files/2590/271/IonChests-1.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 711714,
+      "fileID": 5073101,
+      "fileName": "RLCombat-1.12.2-2.1.0.jar",
+      "url": "https://edge.forgecdn.net/files/5073/101/RLCombat-1.12.2-2.1.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 248787,
+      "fileID": 2987247,
+      "fileName": "AppleSkin-mc1.12-1.0.14.jar",
+      "url": "https://edge.forgecdn.net/files/2987/247/AppleSkin-mc1.12-1.0.14.jar",
+      "required": true
+    },
+    {
+      "projectID": 1019865,
+      "fileID": 5355213,
+      "fileName": "AvaritiaItem-1.0.3-beta.jar",
+      "url": "https://edge.forgecdn.net/files/5355/213/AvaritiaItem-1.0.3-beta.jar",
+      "required": true
+    },
+    {
+      "projectID": 237102,
+      "fileID": 3157548,
+      "fileName": "FTBUtilities-5.4.1.131.jar",
+      "url": "https://edge.forgecdn.net/files/3157/548/FTBUtilities-5.4.1.131.jar",
       "required": true
     },
     {
       "projectID": 258587,
       "fileID": 2959712,
+      "fileName": "ItemPhysic_Full_1.4.34_mc1.12.2.jar",
+      "url": "https://edge.forgecdn.net/files/2959/712/ItemPhysic_Full_1.4.34_mc1.12.2.jar",
       "required": true
     },
     {
-      "projectID": 59816,
-      "fileID": 2905241,
+      "projectID": 849939,
+      "fileID": 4490974,
+      "fileName": "betterDrawHoveringText-1.0.1.jar",
+      "url": "https://edge.forgecdn.net/files/4490/974/betterDrawHoveringText-1.0.1.jar",
       "required": true
     },
     {
-      "projectID": 242872,
-      "fileID": 2905184,
+      "projectID": 295114,
+      "fileID": 3092102,
+      "fileName": "botaniatweaks-1.9.1.jar",
+      "url": "https://edge.forgecdn.net/files/3092/102/botaniatweaks-1.9.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 257356,
+      "fileID": 3101719,
+      "fileName": "incontrol-1.12-3.9.18.jar",
+      "url": "https://edge.forgecdn.net/files/3101/719/incontrol-1.12-3.9.18.jar",
+      "required": true
+    },
+    {
+      "projectID": 225561,
+      "fileID": 2678374,
+      "fileName": "extrautils2-1.12-1.9.9.jar",
+      "url": "https://edge.forgecdn.net/files/2678/374/extrautils2-1.12-1.9.9.jar",
+      "required": true
+    },
+    {
+      "projectID": 422669,
+      "fileID": 3200622,
+      "fileName": "memorycleaner-1.4.jar",
+      "url": "https://edge.forgecdn.net/files/3200/622/memorycleaner-1.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 388172,
+      "fileID": 4020277,
+      "fileName": "geckolib-forge-1.12.2-3.0.31.jar",
+      "url": "https://edge.forgecdn.net/files/4020/277/geckolib-forge-1.12.2-3.0.31.jar",
+      "required": true
+    },
+    {
+      "projectID": 734347,
+      "fileID": 5486599,
+      "fileName": "RLTweaker-1.12.2-0.6.2.jar",
+      "url": "https://edge.forgecdn.net/files/5486/599/RLTweaker-1.12.2-0.6.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 228979,
+      "fileID": 2640380,
+      "fileName": "UtilityWorlds-1.12.2_1.1.0.jar",
+      "url": "https://edge.forgecdn.net/files/2640/380/UtilityWorlds-1.12.2_1.1.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 657388,
+      "fileID": 5224386,
+      "fileName": "BTFixes-1.12.2-1.2.2.jar",
+      "url": "https://edge.forgecdn.net/files/5224/386/BTFixes-1.12.2-1.2.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 1006856,
+      "fileID": 5315636,
+      "fileName": "thaumictinkerer_funnel-1.12.2-0.5.jar",
+      "url": "https://edge.forgecdn.net/files/5315/636/thaumictinkerer_funnel-1.12.2-0.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 377088,
+      "fileID": 2972692,
+      "fileName": "armorcurve-1.2.9.jar",
+      "url": "https://edge.forgecdn.net/files/2972/692/armorcurve-1.2.9.jar",
+      "required": true
+    },
+    {
+      "projectID": 308380,
+      "fileID": 5846672,
+      "fileName": "PackagedAuto-1.12.2-1.0.15.56.jar",
+      "url": "https://edge.forgecdn.net/files/5846/672/PackagedAuto-1.12.2-1.0.15.56.jar",
+      "required": true
+    },
+    {
+      "projectID": 250398,
+      "fileID": 5408385,
+      "fileName": "Controlling-3.0.12.4.jar",
+      "url": "https://edge.forgecdn.net/files/5408/385/Controlling-3.0.12.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 291737,
+      "fileID": 2920441,
+      "fileName": "ThermalInnovation-1.12.2-0.3.6.1-universal.jar",
+      "url": "https://edge.forgecdn.net/files/2920/441/ThermalInnovation-1.12.2-0.3.6.1-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 235577,
+      "fileID": 2722385,
+      "fileName": "TrashSlot_1.12.2-8.4.10.jar",
+      "url": "https://edge.forgecdn.net/files/2722/385/TrashSlot_1.12.2-8.4.10.jar",
+      "required": true
+    },
+    {
+      "projectID": 326874,
+      "fileID": 2746674,
+      "fileName": "SimpleSmelteryAccelerator-1.0.1.jar",
+      "url": "https://edge.forgecdn.net/files/2746/674/SimpleSmelteryAccelerator-1.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 233258,
+      "fileID": 2810152,
+      "fileName": "BadMobs-1.12.2-1.1.40.jar",
+      "url": "https://edge.forgecdn.net/files/2810/152/BadMobs-1.12.2-1.1.40.jar",
+      "required": true
+    },
+    {
+      "projectID": 910715,
+      "fileID": 5650399,
+      "fileName": "Alfheim-1.4.jar",
+      "url": "https://edge.forgecdn.net/files/5650/399/Alfheim-1.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 255255,
+      "fileID": 2517254,
+      "fileName": "birdsfoods-1.12 - 3.1.jar",
+      "url": "https://edge.forgecdn.net/files/2517/254/birdsfoods-1.12%20-%203.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 287321,
+      "fileID": 3808153,
+      "fileName": "WorldGen-Block-Replacer-2.3.3+1.12.2.jar",
+      "url": "https://edge.forgecdn.net/files/3808/153/WorldGen-Block-Replacer-2.3.3%2b1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 259957,
+      "fileID": 2440182,
+      "fileName": "ColorUtility-universal-1.0.4.jar",
+      "url": "https://edge.forgecdn.net/files/2440/182/ColorUtility-universal-1.0.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 324598,
+      "fileID": 2973180,
+      "fileName": "hardcoreitemstages-1.12.2-1.0.1.jar",
+      "url": "https://edge.forgecdn.net/files/2973/180/hardcoreitemstages-1.12.2-1.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 309756,
+      "fileID": 4674242,
+      "fileName": "EnderIO-conduits-mekanism-1.12.2-5.3.72.jar",
+      "url": "https://edge.forgecdn.net/files/4674/242/EnderIO-conduits-mekanism-1.12.2-5.3.72.jar",
+      "required": true
+    },
+    {
+      "projectID": 291786,
+      "fileID": 2701203,
+      "fileName": "tinkersjei-1.2.jar",
+      "url": "https://edge.forgecdn.net/files/2701/203/tinkersjei-1.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 228525,
+      "fileID": 2836960,
+      "fileName": "Bookshelf-1.12.2-2.3.590.jar",
+      "url": "https://edge.forgecdn.net/files/2836/960/Bookshelf-1.12.2-2.3.590.jar",
+      "required": true
+    },
+    {
+      "projectID": 951159,
+      "fileID": 5461056,
+      "fileName": "Sound-Physics-1.12.2-1.1.3.jar",
+      "url": "https://edge.forgecdn.net/files/5461/56/Sound-Physics-1.12.2-1.1.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 240959,
+      "fileID": 2630081,
+      "fileName": "ExtraBitManipulation-1.12.2-3.4.1.jar",
+      "url": "https://edge.forgecdn.net/files/2630/81/ExtraBitManipulation-1.12.2-3.4.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 228895,
+      "fileID": 3112142,
+      "fileName": "BiomeTweaker-1.12.2-3.2.369.jar",
+      "url": "https://edge.forgecdn.net/files/3112/142/BiomeTweaker-1.12.2-3.2.369.jar",
+      "required": true
+    },
+    {
+      "projectID": 833931,
+      "fileID": 5846825,
+      "fileName": "PackagedDraconic-1.12.2-1.0.2.18.jar",
+      "url": "https://edge.forgecdn.net/files/5846/825/PackagedDraconic-1.12.2-1.0.2.18.jar",
+      "required": true
+    },
+    {
+      "projectID": 222880,
+      "fileID": 2926428,
+      "fileName": "ThermalFoundation-1.12.2-2.6.7.1-universal.jar",
+      "url": "https://edge.forgecdn.net/files/2926/428/ThermalFoundation-1.12.2-2.6.7.1-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 402085,
+      "fileID": 3227029,
+      "fileName": "BetterSlimes-1.12.2-1.3.4.jar",
+      "url": "https://edge.forgecdn.net/files/3227/29/BetterSlimes-1.12.2-1.3.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 885670,
+      "fileID": 5868069,
+      "fileName": "TheOneProbe-CE-1.12-1.3.1.jar",
+      "url": "https://edge.forgecdn.net/files/5868/69/TheOneProbe-CE-1.12-1.3.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 1116420,
+      "fileID": 5788723,
+      "fileName": "natura-1.12.2-4.3.3.jar",
+      "url": "https://edge.forgecdn.net/files/5788/723/natura-1.12.2-4.3.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 226410,
+      "fileID": 2702991,
+      "fileName": "ProjectE-1.12.2-PE1.4.1.jar",
+      "url": "https://edge.forgecdn.net/files/2702/991/ProjectE-1.12.2-PE1.4.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 231382,
+      "fileID": 3408276,
+      "fileName": "BrandonsCore-1.12.2-2.4.20.162-universal.jar",
+      "url": "https://edge.forgecdn.net/files/3408/276/BrandonsCore-1.12.2-2.4.20.162-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 390992,
+      "fileID": 3023870,
+      "fileName": "InvMove-1.12.2-0.4.6.jar",
+      "url": "https://edge.forgecdn.net/files/3023/870/InvMove-1.12.2-0.4.6.jar",
+      "required": true
+    },
+    {
+      "projectID": 401178,
+      "fileID": 5865295,
+      "fileName": "zenutils-1.20.12.jar",
+      "url": "https://edge.forgecdn.net/files/5865/295/zenutils-1.20.12.jar",
+      "required": true
+    },
+    {
+      "projectID": 261924,
+      "fileID": 2733508,
+      "fileName": "FarmingForBlockheads_1.12.2-3.1.28.jar",
+      "url": "https://edge.forgecdn.net/files/2733/508/FarmingForBlockheads_1.12.2-3.1.28.jar",
+      "required": true
+    },
+    {
+      "projectID": 244844,
+      "fileID": 4402062,
+      "fileName": "ForgeEndertech-1.12.2-4.5.6.1-build.0648.jar",
+      "url": "https://edge.forgecdn.net/files/4402/62/ForgeEndertech-1.12.2-4.5.6.1-build.0648.jar",
+      "required": true
+    },
+    {
+      "projectID": 294233,
+      "fileID": 2563200,
+      "fileName": "RecipesForAll-1.0.0.jar",
+      "url": "https://edge.forgecdn.net/files/2563/200/RecipesForAll-1.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 310029,
+      "fileID": 2898177,
+      "fileName": "Zen Summoning-1.12-1.1.0.jar",
+      "url": "https://edge.forgecdn.net/files/2898/177/Zen%20Summoning-1.12-1.1.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 817377,
+      "fileID": 5775203,
+      "fileName": "ModularMachinery-CE-2.0.3.jar",
+      "url": "https://edge.forgecdn.net/files/5775/203/ModularMachinery-CE-2.0.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 811828,
+      "fileID": 5846836,
+      "fileName": "PackagedAstral-1.12.2-1.0.2.16.jar",
+      "url": "https://edge.forgecdn.net/files/5846/836/PackagedAstral-1.12.2-1.0.2.16.jar",
+      "required": true
+    },
+    {
+      "projectID": 261348,
+      "fileID": 3143349,
+      "fileName": "Avaritia-1.12.2-3.3.0.37-universal.jar",
+      "url": "https://edge.forgecdn.net/files/3143/349/Avaritia-1.12.2-3.3.0.37-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 242998,
+      "fileID": 2851111,
+      "fileName": "SilentLib-1.12.2-3.0.14+168.jar",
+      "url": "https://edge.forgecdn.net/files/2851/111/SilentLib-1.12.2-3.0.14%2b168.jar",
+      "required": true
+    },
+    {
+      "projectID": 224218,
+      "fileID": 2707509,
+      "fileName": "compactmachines3-1.12.2-3.0.18-b278.jar",
+      "url": "https://edge.forgecdn.net/files/2707/509/compactmachines3-1.12.2-3.0.18-b278.jar",
+      "required": true
+    },
+    {
+      "projectID": 222908,
+      "fileID": 2525823,
+      "fileName": "cookiecore-1.12-2.0.0.jar",
+      "url": "https://edge.forgecdn.net/files/2525/823/cookiecore-1.12-2.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 229587,
+      "fileID": 2698688,
+      "fileName": "BNBGamingLib-1.12.2-2.17.6.jar",
+      "url": "https://edge.forgecdn.net/files/2698/688/BNBGamingLib-1.12.2-2.17.6.jar",
+      "required": true
+    },
+    {
+      "projectID": 1104150,
+      "fileID": 5750561,
+      "fileName": "mist-1.2.6.2.jar",
+      "url": "https://edge.forgecdn.net/files/5750/561/mist-1.2.6.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 266936,
+      "fileID": 5601294,
+      "fileName": "JAOPCA-1.12.2-2.3.11.27.jar",
+      "url": "https://edge.forgecdn.net/files/5601/294/JAOPCA-1.12.2-2.3.11.27.jar",
+      "required": true
+    },
+    {
+      "projectID": 235492,
+      "fileID": 2825547,
+      "fileName": "Triumph-1.12.2-3.19.2.jar",
+      "url": "https://edge.forgecdn.net/files/2825/547/Triumph-1.12.2-3.19.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 280554,
+      "fileID": 3405071,
+      "fileName": "RecipeStages-1.1.3.8.jar",
+      "url": "https://edge.forgecdn.net/files/3405/71/RecipeStages-1.1.3.8.jar",
+      "required": true
+    },
+    {
+      "projectID": 884359,
+      "fileID": 5380800,
+      "fileName": "nae2-1.6.4.jar",
+      "url": "https://edge.forgecdn.net/files/5380/800/nae2-1.6.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 274863,
+      "fileID": 2876208,
+      "fileName": "UnforgivingVoid-1.12.2-1.0.5.jar",
+      "url": "https://edge.forgecdn.net/files/2876/208/UnforgivingVoid-1.12.2-1.0.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 293602,
+      "fileID": 2925155,
+      "fileName": "armoryexpansion-2.0.0-alpha.jar",
+      "url": "https://edge.forgecdn.net/files/2925/155/armoryexpansion-2.0.0-alpha.jar",
+      "required": true
+    },
+    {
+      "projectID": 277136,
+      "fileID": 3270601,
+      "fileName": "spatialservermod-1.3.1.jar",
+      "url": "https://edge.forgecdn.net/files/3270/601/spatialservermod-1.3.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 1005815,
+      "fileID": 5667350,
+      "fileName": "+Fugue-1.12.2-0.16.3.jar",
+      "url": "https://edge.forgecdn.net/files/5667/350/%2bFugue-1.12.2-0.16.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 270116,
+      "fileID": 2527645,
+      "fileName": "BiomeTweakerCore-1.12.2-1.0.39.jar",
+      "url": "https://edge.forgecdn.net/files/2527/645/BiomeTweakerCore-1.12.2-1.0.39.jar",
+      "required": true
+    },
+    {
+      "projectID": 237903,
+      "fileID": 3330308,
+      "fileName": "RebornCore-1.12.2-3.19.5-universal.jar",
+      "url": "https://edge.forgecdn.net/files/3330/308/RebornCore-1.12.2-3.19.5-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 263420,
+      "fileID": 5688821,
+      "fileName": "Xaeros_Minimap_24.4.1_Forge_1.12.jar",
+      "url": "https://edge.forgecdn.net/files/5688/821/Xaeros_Minimap_24.4.1_Forge_1.12.jar",
+      "required": true
+    },
+    {
+      "projectID": 256247,
+      "fileID": 2704832,
+      "fileName": "MysticalAgradditions-1.12.2-1.3.2.jar",
+      "url": "https://edge.forgecdn.net/files/2704/832/MysticalAgradditions-1.12.2-1.3.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 234851,
+      "fileID": 3425537,
+      "fileName": "AbyssalCraft Integration-1.12.2-1.11.3.jar",
+      "url": "https://edge.forgecdn.net/files/3425/537/AbyssalCraft%20Integration-1.12.2-1.11.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 277616,
+      "fileID": 2959847,
+      "fileName": "solcarrot-1.12.2-1.8.4.jar",
+      "url": "https://edge.forgecdn.net/files/2959/847/solcarrot-1.12.2-1.8.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 291874,
+      "fileID": 2799213,
+      "fileName": "SereneSeasons-1.12.2-1.2.18-universal.jar",
+      "url": "https://edge.forgecdn.net/files/2799/213/SereneSeasons-1.12.2-1.2.18-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 1042062,
+      "fileID": 5452777,
+      "fileName": "lostcities-1.12-3.0.0.jar",
+      "url": "https://edge.forgecdn.net/files/5452/777/lostcities-1.12-3.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 301356,
+      "fileID": 3091010,
+      "fileName": "demagnetize-1.12.2-1.1.2.jar",
+      "url": "https://edge.forgecdn.net/files/3091/10/demagnetize-1.12.2-1.1.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 275343,
+      "fileID": 2632938,
+      "fileName": "TinkerStages-1.12.2-2.0.17.jar",
+      "url": "https://edge.forgecdn.net/files/2632/938/TinkerStages-1.12.2-2.0.17.jar",
+      "required": true
+    },
+    {
+      "projectID": 270305,
+      "fileID": 2617198,
+      "fileName": "oeintegration-2.3.4.jar",
+      "url": "https://edge.forgecdn.net/files/2617/198/oeintegration-2.3.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 312149,
+      "fileID": 2800346,
+      "fileName": "avaritiaio-1.4.jar",
+      "url": "https://edge.forgecdn.net/files/2800/346/avaritiaio-1.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 350806,
+      "fileID": 3002827,
+      "fileName": "just-enough-brewcraft-1.12.2-1.0.2.jar",
+      "url": "https://edge.forgecdn.net/files/3002/827/just-enough-brewcraft-1.12.2-1.0.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 250363,
+      "fileID": 2746011,
+      "fileName": "AutoRegLib-1.3-32.jar",
+      "url": "https://edge.forgecdn.net/files/2746/11/AutoRegLib-1.3-32.jar",
+      "required": true
+    },
+    {
+      "projectID": 336895,
+      "fileID": 3862197,
+      "fileName": "NuclearCraft-2o.6.2-1.12.2.jar",
+      "url": "https://edge.forgecdn.net/files/3862/197/NuclearCraft-2o.6.2-1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 272335,
+      "fileID": 2645867,
+      "fileName": "Cucumber-1.12.2-1.1.3.jar",
+      "url": "https://edge.forgecdn.net/files/2645/867/Cucumber-1.12.2-1.1.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 274341,
+      "fileID": 2991671,
+      "fileName": "BNBGamingCore-1.12.2-0.12.0.jar",
+      "url": "https://edge.forgecdn.net/files/2991/671/BNBGamingCore-1.12.2-0.12.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 270558,
+      "fileID": 2452858,
+      "fileName": "externaltweaker-1.12-0.3.jar",
+      "url": "https://edge.forgecdn.net/files/2452/858/externaltweaker-1.12-0.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 557549,
+      "fileID": 5815590,
+      "fileName": "HadEnoughItems_1.12.2-4.26.1.jar",
+      "url": "https://edge.forgecdn.net/files/5815/590/HadEnoughItems_1.12.2-4.26.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 243190,
+      "fileID": 5183202,
+      "fileName": "ShoulderSurfing-1.12.2-2.9.6.jar",
+      "url": "https://edge.forgecdn.net/files/5183/202/ShoulderSurfing-1.12.2-2.9.6.jar",
+      "required": true
+    },
+    {
+      "projectID": 222838,
+      "fileID": 2645020,
+      "fileName": "Headcrumbs-1.12.2-2.0.5.17.jar",
+      "url": "https://edge.forgecdn.net/files/2645/20/Headcrumbs-1.12.2-2.0.5.17.jar",
+      "required": true
+    },
+    {
+      "projectID": 317642,
+      "fileID": 2861996,
+      "fileName": "classicbar-0.5.4.jar",
+      "url": "https://edge.forgecdn.net/files/2861/996/classicbar-0.5.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 399377,
+      "fileID": 3113274,
+      "fileName": "YungsLaw-1.12.2-1.0.4.jar",
+      "url": "https://edge.forgecdn.net/files/3113/274/YungsLaw-1.12.2-1.0.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 53686,
+      "fileID": 3087689,
+      "fileName": "AbyssalCraft-1.12.2-1.10.3.jar",
+      "url": "https://edge.forgecdn.net/files/3087/689/AbyssalCraft-1.12.2-1.10.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 312778,
+      "fileID": 2688799,
+      "fileName": "BotanicBonsai-1.0.0.5.jar",
+      "url": "https://edge.forgecdn.net/files/2688/799/BotanicBonsai-1.0.0.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 245287,
+      "fileID": 2658176,
+      "fileName": "Morph-o-Tool-1.2-21.jar",
+      "url": "https://edge.forgecdn.net/files/2658/176/Morph-o-Tool-1.2-21.jar",
+      "required": true
+    },
+    {
+      "projectID": 307152,
+      "fileID": 3177947,
+      "fileName": "champions-1.12.2-1.0.11.10.jar",
+      "url": "https://edge.forgecdn.net/files/3177/947/champions-1.12.2-1.0.11.10.jar",
+      "required": true
+    },
+    {
+      "projectID": 242818,
+      "fileID": 2779848,
+      "fileName": "CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
+      "url": "https://edge.forgecdn.net/files/2779/848/CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 235279,
+      "fileID": 2915375,
+      "fileName": "Chisel-MC1.12.2-1.0.2.45.jar",
+      "url": "https://edge.forgecdn.net/files/2915/375/Chisel-MC1.12.2-1.0.2.45.jar",
+      "required": true
+    },
+    {
+      "projectID": 284745,
+      "fileID": 2857348,
+      "fileName": "magicfeather-1.12.2-2.2.0.jar",
+      "url": "https://edge.forgecdn.net/files/2857/348/magicfeather-1.12.2-2.2.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 650242,
+      "fileID": 5272359,
+      "fileName": "!mod-director-launchwrapper-1.8.3.jar",
+      "url": "https://edge.forgecdn.net/files/5272/359/!mod-director-launchwrapper-1.8.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 228823,
+      "fileID": 2904183,
+      "fileName": "BloodArsenal-1.12.2-2.2.2-31.jar",
+      "url": "https://edge.forgecdn.net/files/2904/183/BloodArsenal-1.12.2-2.2.2-31.jar",
+      "required": true
+    },
+    {
+      "projectID": 240494,
+      "fileID": 2782064,
+      "fileName": "unifier-3.0.4.jar",
+      "url": "https://edge.forgecdn.net/files/2782/64/unifier-3.0.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 228404,
+      "fileID": 3117927,
+      "fileName": "ActuallyAdditions-1.12.2-r152.jar",
+      "url": "https://edge.forgecdn.net/files/3117/927/ActuallyAdditions-1.12.2-r152.jar",
+      "required": true
+    },
+    {
+      "projectID": 232391,
+      "fileID": 2602660,
+      "fileName": "eiorteis-3.1.jar",
+      "url": "https://edge.forgecdn.net/files/2602/660/eiorteis-3.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 633806,
+      "fileID": 4098359,
+      "fileName": "XPOrbClump-1.2.jar",
+      "url": "https://edge.forgecdn.net/files/4098/359/XPOrbClump-1.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 1081085,
+      "fileID": 5716574,
+      "fileName": "minieffects-2.1.0.jar",
+      "url": "https://edge.forgecdn.net/files/5716/574/minieffects-2.1.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 1086841,
+      "fileID": 5643297,
+      "fileName": "mcjtylib-refilmed-3.5.5.jar",
+      "url": "https://edge.forgecdn.net/files/5643/297/mcjtylib-refilmed-3.5.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 278359,
+      "fileID": 2644034,
+      "fileName": "MobStages-1.12.2-2.0.13.jar",
+      "url": "https://edge.forgecdn.net/files/2644/34/MobStages-1.12.2-2.0.13.jar",
+      "required": true
+    },
+    {
+      "projectID": 826353,
+      "fileID": 5129360,
+      "fileName": "timeinabottled-2.0.jar",
+      "url": "https://edge.forgecdn.net/files/5129/360/timeinabottled-2.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 224791,
+      "fileID": 2822288,
+      "fileName": "BloodMagic-1.12.2-2.4.3-105.jar",
+      "url": "https://edge.forgecdn.net/files/2822/288/BloodMagic-1.12.2-2.4.3-105.jar",
+      "required": true
+    },
+    {
+      "projectID": 250957,
+      "fileID": 2630860,
+      "fileName": "TinkerToolLeveling-1.12.2-1.1.0.jar",
+      "url": "https://edge.forgecdn.net/files/2630/860/TinkerToolLeveling-1.12.2-1.1.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 255308,
+      "fileID": 5035622,
+      "fileName": "aether-1.12.2-v1.5.4.0.jar",
+      "url": "https://edge.forgecdn.net/files/5035/622/aether-1.12.2-v1.5.4.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 75598,
+      "fileID": 2957213,
+      "fileName": "thaumictinkerer-1.12.2-5.0-620a0c5.jar",
+      "url": "https://edge.forgecdn.net/files/2957/213/thaumictinkerer-1.12.2-5.0-620a0c5.jar",
+      "required": true
+    },
+    {
+      "projectID": 460609,
+      "fileID": 5257348,
+      "fileName": "censoredasm5.20.jar",
+      "url": "https://edge.forgecdn.net/files/5257/348/censoredasm5.20.jar",
+      "required": true
+    },
+    {
+      "projectID": 455383,
+      "fileID": 3257397,
+      "fileName": "versioner-1.0.3.jar",
+      "url": "https://edge.forgecdn.net/files/3257/397/versioner-1.0.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 286652,
+      "fileID": 4511183,
+      "fileName": "AvaritiaTweaks-1.12.2-1.3.1.jar",
+      "url": "https://edge.forgecdn.net/files/4511/183/AvaritiaTweaks-1.12.2-1.3.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 246320,
+      "fileID": 2851525,
+      "fileName": "environmentalcreepers-1.12.2-1.6.0.jar",
+      "url": "https://edge.forgecdn.net/files/2851/525/environmentalcreepers-1.12.2-1.6.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 403303,
+      "fileID": 3191544,
+      "fileName": "potiondescriptions-1.12.2-1.2.4.jar",
+      "url": "https://edge.forgecdn.net/files/3191/544/potiondescriptions-1.12.2-1.2.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 285684,
+      "fileID": 2810131,
+      "fileName": "ColouredTooltips-1.12.2-1.0.9.jar",
+      "url": "https://edge.forgecdn.net/files/2810/131/ColouredTooltips-1.12.2-1.0.9.jar",
+      "required": true
+    },
+    {
+      "projectID": 242223,
+      "fileID": 3524685,
+      "fileName": "JustEnoughCalculation-1.12.2-3.2.7.jar",
+      "url": "https://edge.forgecdn.net/files/3524/685/JustEnoughCalculation-1.12.2-3.2.7.jar",
+      "required": true
+    },
+    {
+      "projectID": 225946,
+      "fileID": 2680883,
+      "fileName": "LootBags-1.12.2-2.5.8.5.jar",
+      "url": "https://edge.forgecdn.net/files/2680/883/LootBags-1.12.2-2.5.8.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 616190,
+      "fileID": 4630499,
+      "fileName": "JEI-Utilities-1.12.2-0.2.12.jar",
+      "url": "https://edge.forgecdn.net/files/4630/499/JEI-Utilities-1.12.2-0.2.12.jar",
+      "required": true
+    },
+    {
+      "projectID": 270789,
+      "fileID": 2920436,
+      "fileName": "RedstoneFlux-1.12-2.1.1.1-universal.jar",
+      "url": "https://edge.forgecdn.net/files/2920/436/RedstoneFlux-1.12-2.1.1.1-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 383630,
+      "fileID": 3418574,
+      "fileName": "enderiofluxified-1.12.2-1.0.3.jar",
+      "url": "https://edge.forgecdn.net/files/3418/574/enderiofluxified-1.12.2-1.0.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 306626,
+      "fileID": 2882138,
+      "fileName": "NaturesAura-18.1.jar",
+      "url": "https://edge.forgecdn.net/files/2882/138/NaturesAura-18.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 313536,
+      "fileID": 3568240,
+      "fileName": "Bountiful Baubles-1.12.2-0.1.8.jar",
+      "url": "https://edge.forgecdn.net/files/3568/240/Bountiful%20Baubles-1.12.2-0.1.8.jar",
+      "required": true
+    },
+    {
+      "projectID": 244464,
+      "fileID": 2580523,
+      "fileName": "WorldSelectionAdvanced-1.12.2-02.jar",
+      "url": "https://edge.forgecdn.net/files/2580/523/WorldSelectionAdvanced-1.12.2-02.jar",
+      "required": true
+    },
+    {
+      "projectID": 300297,
+      "fileID": 2775566,
+      "fileName": "ProjectVibrantJourneys-1.12.2-1.6.4.jar",
+      "url": "https://edge.forgecdn.net/files/2775/566/ProjectVibrantJourneys-1.12.2-1.6.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 299080,
+      "fileID": 2632834,
+      "fileName": "ProportionalDestructionParticles-1.12.2-1.2.4.jar",
+      "url": "https://edge.forgecdn.net/files/2632/834/ProportionalDestructionParticles-1.12.2-1.2.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 261029,
+      "fileID": 3124866,
+      "fileName": "uniq-2.1.jar",
+      "url": "https://edge.forgecdn.net/files/3124/866/uniq-2.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 530919,
+      "fileID": 3652765,
+      "fileName": "gugu-utils-0.8.3.2.jar",
+      "url": "https://edge.forgecdn.net/files/3652/765/gugu-utils-0.8.3.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 246996,
+      "fileID": 3440963,
+      "fileName": "base-1.12.2-3.14.0.jar",
+      "url": "https://edge.forgecdn.net/files/3440/963/base-1.12.2-3.14.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 943734,
+      "fileID": 4928154,
+      "fileName": "betterp2p-1.12.2-1.3.2.jar",
+      "url": "https://edge.forgecdn.net/files/4928/154/betterp2p-1.12.2-1.3.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 1058274,
+      "fileID": 5531643,
+      "fileName": "LibrarianLib-Continuous-1.12.2-4.22-2.0-1.jar",
+      "url": "https://edge.forgecdn.net/files/5531/643/LibrarianLib-Continuous-1.12.2-4.22-2.0-1.jar",
+      "required": true
+    },
+    {
+      "projectID": 360795,
+      "fileID": 3634226,
+      "fileName": "roughmobsrevamped-1.12.2-2.3.23.jar",
+      "url": "https://edge.forgecdn.net/files/3634/226/roughmobsrevamped-1.12.2-2.3.23.jar",
+      "required": true
+    },
+    {
+      "projectID": 272671,
+      "fileID": 2843439,
+      "fileName": "TinkersComplement-1.12.2-0.4.3.jar",
+      "url": "https://edge.forgecdn.net/files/2843/439/TinkersComplement-1.12.2-0.4.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 1092271,
+      "fileID": 5671051,
+      "fileName": "bmj-1.0.2.jar",
+      "url": "https://edge.forgecdn.net/files/5671/51/bmj-1.0.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 246640,
+      "fileID": 2704562,
+      "fileName": "MysticalAgriculture-1.12.2-1.7.5.jar",
+      "url": "https://edge.forgecdn.net/files/2704/562/MysticalAgriculture-1.12.2-1.7.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 298965,
+      "fileID": 3374254,
+      "fileName": "LibraryEx-1.12.2-1.2.2.jar",
+      "url": "https://edge.forgecdn.net/files/3374/254/LibraryEx-1.12.2-1.2.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 318872,
+      "fileID": 3146596,
+      "fileName": "Charm-1.12.2-1.4.1.jar",
+      "url": "https://edge.forgecdn.net/files/3146/596/Charm-1.12.2-1.4.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 905159,
+      "fileID": 5201041,
+      "fileName": "Patchouli-1.0-26.jar",
+      "url": "https://edge.forgecdn.net/files/5201/41/Patchouli-1.0-26.jar",
+      "required": true
+    },
+    {
+      "projectID": 944656,
+      "fileID": 4945200,
+      "fileName": "Botaniverse 1.1-1.jar",
+      "url": "https://edge.forgecdn.net/files/4945/200/Botaniverse%201.1-1.jar",
+      "required": true
+    },
+    {
+      "projectID": 554387,
+      "fileID": 3556105,
+      "fileName": "persistency-1.2.0.jar",
+      "url": "https://edge.forgecdn.net/files/3556/105/persistency-1.2.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 248027,
+      "fileID": 2816920,
+      "fileName": "ScalingHealth-1.12.2-1.3.42+147.jar",
+      "url": "https://edge.forgecdn.net/files/2816/920/ScalingHealth-1.12.2-1.3.42%2b147.jar",
+      "required": true
+    },
+    {
+      "projectID": 248451,
+      "fileID": 2878496,
+      "fileName": "RealFirstPerson2-1.12.2-1.3.2.jar",
+      "url": "https://edge.forgecdn.net/files/2878/496/RealFirstPerson2-1.12.2-1.3.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 221857,
+      "fileID": 2904825,
+      "fileName": "Pam\u0027s HarvestCraft 1.12.2zg.jar",
+      "url": "https://edge.forgecdn.net/files/2904/825/Pam%27s%20HarvestCraft%201.12.2zg.jar",
+      "required": true
+    },
+    {
+      "projectID": 70492,
+      "fileID": 2516215,
+      "fileName": "gendustry-1.6.5.8-mc1.12.2.jar",
+      "url": "https://edge.forgecdn.net/files/2516/215/gendustry-1.6.5.8-mc1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 299389,
+      "fileID": 2711740,
+      "fileName": "LootOverhaul-1.2.jar",
+      "url": "https://edge.forgecdn.net/files/2711/740/LootOverhaul-1.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 223094,
+      "fileID": 2923460,
+      "fileName": "InventoryTweaks-1.64+dev.151.jar",
+      "url": "https://edge.forgecdn.net/files/2923/460/InventoryTweaks-1.64%2bdev.151.jar",
+      "required": true
+    },
+    {
+      "projectID": 624967,
+      "fileID": 5421689,
+      "fileName": "RenderLib-1.12.2-1.3.5.jar",
+      "url": "https://edge.forgecdn.net/files/5421/689/RenderLib-1.12.2-1.3.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 289953,
+      "fileID": 2680269,
+      "fileName": "SplashAnimation-0.2.1.jar",
+      "url": "https://edge.forgecdn.net/files/2680/269/SplashAnimation-0.2.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 303122,
+      "fileID": 2919936,
+      "fileName": "jetif-1.12.2-1.5.2.jar",
+      "url": "https://edge.forgecdn.net/files/2919/936/jetif-1.12.2-1.5.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 296384,
+      "fileID": 2974926,
+      "fileName": "zenstages-0.5.0.jar",
+      "url": "https://edge.forgecdn.net/files/2974/926/zenstages-0.5.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 70631,
+      "fileID": 2939416,
+      "fileName": "RedstoneArsenal-1.12.2-2.6.6.1-universal.jar",
+      "url": "https://edge.forgecdn.net/files/2939/416/RedstoneArsenal-1.12.2-2.6.6.1-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 322338,
+      "fileID": 2714725,
+      "fileName": "ScalingWealth-1.0.1.jar",
+      "url": "https://edge.forgecdn.net/files/2714/725/ScalingWealth-1.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 252848,
+      "fileID": 2893527,
+      "fileName": "NaturesCompass-1.12.2-1.8.5.jar",
+      "url": "https://edge.forgecdn.net/files/2893/527/NaturesCompass-1.12.2-1.8.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 236784,
+      "fileID": 2580706,
+      "fileName": "ThaumicEquivalence-1.12.2-1.0.5.jar",
+      "url": "https://edge.forgecdn.net/files/2580/706/ThaumicEquivalence-1.12.2-1.0.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 306935,
+      "fileID": 3357967,
+      "fileName": "SuperFactoryManager-1.12.2-2.0.25.jar",
+      "url": "https://edge.forgecdn.net/files/3357/967/SuperFactoryManager-1.12.2-2.0.25.jar",
+      "required": true
+    },
+    {
+      "projectID": 307700,
+      "fileID": 2669545,
+      "fileName": "naturesdestruction-1.1.2.r10-141.jar",
+      "url": "https://edge.forgecdn.net/files/2669/545/naturesdestruction-1.1.2.r10-141.jar",
+      "required": true
+    },
+    {
+      "projectID": 414508,
+      "fileID": 3539751,
+      "fileName": "zentraits-1.1.jar",
+      "url": "https://edge.forgecdn.net/files/3539/751/zentraits-1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 228262,
+      "fileID": 2700983,
+      "fileName": "fastflyblockbreaking-MC1.9.4-MC1.12.2-1.1.jar",
+      "url": "https://edge.forgecdn.net/files/2700/983/fastflyblockbreaking-MC1.9.4-MC1.12.2-1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 999559,
+      "fileID": 5665405,
+      "fileName": "xnet-1.12-1.8.4-ynet.jar",
+      "url": "https://edge.forgecdn.net/files/5665/405/xnet-1.12-1.8.4-ynet.jar",
+      "required": true
+    },
+    {
+      "projectID": 303213,
+      "fileID": 3084399,
+      "fileName": "crafttweakerutils-0.7.jar",
+      "url": "https://edge.forgecdn.net/files/3084/399/crafttweakerutils-0.7.jar",
+      "required": true
+    },
+    {
+      "projectID": 951064,
+      "fileID": 5002181,
+      "fileName": "ae2stuff-1.12.2-0.9.jar",
+      "url": "https://edge.forgecdn.net/files/5002/181/ae2stuff-1.12.2-0.9.jar",
+      "required": true
+    },
+    {
+      "projectID": 244258,
+      "fileID": 3553627,
+      "fileName": "UniDict-1.12.2-3.0.10.jar",
+      "url": "https://edge.forgecdn.net/files/3553/627/UniDict-1.12.2-3.0.10.jar",
+      "required": true
+    },
+    {
+      "projectID": 231484,
+      "fileID": 2862651,
+      "fileName": "CookingForBlockheads_1.12.2-6.5.0.jar",
+      "url": "https://edge.forgecdn.net/files/2862/651/CookingForBlockheads_1.12.2-6.5.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 434344,
+      "fileID": 3626352,
+      "fileName": "_bansoukou-4.3.1.jar",
+      "url": "https://edge.forgecdn.net/files/3626/352/_bansoukou-4.3.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 290659,
+      "fileID": 3067807,
+      "fileName": "PrettyBeaches_1.12.2-1.1.0.jar",
+      "url": "https://edge.forgecdn.net/files/3067/807/PrettyBeaches_1.12.2-1.1.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 229302,
+      "fileID": 5825891,
+      "fileName": "CustomLoadingScreen-1.12.2-1.5.8.jar",
+      "url": "https://edge.forgecdn.net/files/5825/891/CustomLoadingScreen-1.12.2-1.5.8.jar",
+      "required": true
+    },
+    {
+      "projectID": 247401,
+      "fileID": 5655181,
+      "fileName": "HammerLib-1.12.2-12.2.56.jar",
+      "url": "https://edge.forgecdn.net/files/5655/181/HammerLib-1.12.2-12.2.56.jar",
+      "required": true
+    },
+    {
+      "projectID": 253735,
+      "fileID": 2514705,
+      "fileName": "CustomStartingGear-1.12-1.2.0.9-universal.jar",
+      "url": "https://edge.forgecdn.net/files/2514/705/CustomStartingGear-1.12-1.2.0.9-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 250328,
+      "fileID": 2549047,
+      "fileName": "IGI-BloodMagic-1.2.jar",
+      "url": "https://edge.forgecdn.net/files/2549/47/IGI-BloodMagic-1.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 229068,
+      "fileID": 2801351,
+      "fileName": "DeathCounter-1.12.2-1.1.0.jar",
+      "url": "https://edge.forgecdn.net/files/2801/351/DeathCounter-1.12.2-1.1.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 274807,
+      "fileID": 3048077,
+      "fileName": "Netherending-Ores-1.12.2-1.4.2.jar",
+      "url": "https://edge.forgecdn.net/files/3048/77/Netherending-Ores-1.12.2-1.4.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 342913,
+      "fileID": 2795933,
+      "fileName": "BetterSigns-1.0_v1.12.2.jar",
+      "url": "https://edge.forgecdn.net/files/2795/933/BetterSigns-1.0_v1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 316632,
+      "fileID": 3009422,
+      "fileName": "w2w-1.2.1.jar",
+      "url": "https://edge.forgecdn.net/files/3009/422/w2w-1.2.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 300928,
+      "fileID": 2604143,
+      "fileName": "ChiseledAdditions-1.0.0.jar",
+      "url": "https://edge.forgecdn.net/files/2604/143/ChiseledAdditions-1.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 67508,
+      "fileID": 2477676,
+      "fileName": "redstonepaste-mc1.12-1.7.5.jar",
+      "url": "https://edge.forgecdn.net/files/2477/676/redstonepaste-mc1.12-1.7.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 456403,
+      "fileID": 5712862,
+      "fileName": "Forgelin-Continuous-2.0.20.0.jar",
+      "url": "https://edge.forgecdn.net/files/5712/862/Forgelin-Continuous-2.0.20.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 402338,
+      "fileID": 3373954,
+      "fileName": "fluiddrawers-1.12.2-1.0.7.jar",
+      "url": "https://edge.forgecdn.net/files/3373/954/fluiddrawers-1.12.2-1.0.7.jar",
+      "required": true
+    },
+    {
+      "projectID": 283589,
+      "fileID": 2708030,
+      "fileName": "YNot-0.2.4.jar",
+      "url": "https://edge.forgecdn.net/files/2708/30/YNot-0.2.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 286098,
+      "fileID": 2524514,
+      "fileName": "clearwater-1.2.jar",
+      "url": "https://edge.forgecdn.net/files/2524/514/clearwater-1.2.jar",
       "required": true
     },
     {
       "projectID": 352137,
       "fileID": 4981736,
+      "fileName": "theaurorian-1.12.2-1.2.jar",
+      "url": "https://edge.forgecdn.net/files/4981/736/theaurorian-1.12.2-1.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 224472,
+      "fileID": 2969118,
+      "fileName": "AppleCore-mc1.12.2-3.4.0.jar",
+      "url": "https://edge.forgecdn.net/files/2969/118/AppleCore-mc1.12.2-3.4.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 911152,
+      "fileID": 5833599,
+      "fileName": "zenrecipereloading-1.4.4.jar",
+      "url": "https://edge.forgecdn.net/files/5833/599/zenrecipereloading-1.4.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 421605,
+      "fileID": 3576661,
+      "fileName": "PackModeMenu-1.0.6.jar",
+      "url": "https://edge.forgecdn.net/files/3576/661/PackModeMenu-1.0.6.jar",
+      "required": true
+    },
+    {
+      "projectID": 307663,
+      "fileID": 2696186,
+      "fileName": "Auraddons-1.7.2-NAr14.jar",
+      "url": "https://edge.forgecdn.net/files/2696/186/Auraddons-1.7.2-NAr14.jar",
+      "required": true
+    },
+    {
+      "projectID": 241895,
+      "fileID": 2733525,
+      "fileName": "KleeSlabs_1.12.2-5.4.12.jar",
+      "url": "https://edge.forgecdn.net/files/2733/525/KleeSlabs_1.12.2-5.4.12.jar",
+      "required": true
+    },
+    {
+      "projectID": 319656,
+      "fileID": 5150678,
+      "fileName": "scalingguis-1.12.2-1.0.3.1.jar",
+      "url": "https://edge.forgecdn.net/files/5150/678/scalingguis-1.12.2-1.0.3.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 380260,
+      "fileID": 3098533,
+      "fileName": "fluidict-1.2.jar",
+      "url": "https://edge.forgecdn.net/files/3098/533/fluidict-1.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 289466,
+      "fileID": 2821822,
+      "fileName": "ProgressiveBosses-1.5.4-mc1.12.x.jar",
+      "url": "https://edge.forgecdn.net/files/2821/822/ProgressiveBosses-1.5.4-mc1.12.x.jar",
+      "required": true
+    },
+    {
+      "projectID": 355044,
+      "fileID": 3576415,
+      "fileName": "touhoulittlemaid-1.12.2-1.2.5-release.jar",
+      "url": "https://edge.forgecdn.net/files/3576/415/touhoulittlemaid-1.12.2-1.2.5-release.jar",
+      "required": true
+    },
+    {
+      "projectID": 314515,
+      "fileID": 3514704,
+      "fileName": "Draconic-Additions-1.12.2-1.17.0.45-universal.jar",
+      "url": "https://edge.forgecdn.net/files/3514/704/Draconic-Additions-1.12.2-1.17.0.45-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 377007,
+      "fileID": 2957762,
+      "fileName": "Multiblock mobs 1.5.jar",
+      "url": "https://edge.forgecdn.net/files/2957/762/Multiblock%20mobs%201.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 225658,
+      "fileID": 3070947,
+      "fileName": "AromaBackup-1.12.2-3.0.0.0.b135.jar",
+      "url": "https://edge.forgecdn.net/files/3070/947/AromaBackup-1.12.2-3.0.0.0.b135.jar",
+      "required": true
+    },
+    {
+      "projectID": 514170,
+      "fileID": 5528753,
+      "fileName": "RandomTweaker-1.4.7.jar",
+      "url": "https://edge.forgecdn.net/files/5528/753/RandomTweaker-1.4.7.jar",
+      "required": true
+    },
+    {
+      "projectID": 316304,
+      "fileID": 2687139,
+      "fileName": "lootcapacitortooltips-1.3.jar",
+      "url": "https://edge.forgecdn.net/files/2687/139/lootcapacitortooltips-1.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 285201,
+      "fileID": 2981289,
+      "fileName": "commandomatic-1.4.jar",
+      "url": "https://edge.forgecdn.net/files/2981/289/commandomatic-1.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 336569,
+      "fileID": 3226142,
+      "fileName": "MoreTweaker-1.0.19.jar",
+      "url": "https://edge.forgecdn.net/files/3226/142/MoreTweaker-1.0.19.jar",
+      "required": true
+    },
+    {
+      "projectID": 227443,
+      "fileID": 2920505,
+      "fileName": "ThermalDynamics-1.12.2-2.5.6.1-universal.jar",
+      "url": "https://edge.forgecdn.net/files/2920/505/ThermalDynamics-1.12.2-2.5.6.1-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 408853,
+      "fileID": 5337217,
+      "fileName": "particleculling-1.12.2-v1.4.3.jar",
+      "url": "https://edge.forgecdn.net/files/5337/217/particleculling-1.12.2-v1.4.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 309318,
+      "fileID": 2820653,
+      "fileName": "DynamicSurroundingsHuds-1.12.2-3.6.0.0.jar",
+      "url": "https://edge.forgecdn.net/files/2820/653/DynamicSurroundingsHuds-1.12.2-3.6.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 311357,
+      "fileID": 3057332,
+      "fileName": "arcanearchives-0.2.0.25-mixins8.jar",
+      "url": "https://edge.forgecdn.net/files/3057/332/arcanearchives-0.2.0.25-mixins8.jar",
+      "required": true
+    },
+    {
+      "projectID": 250577,
+      "fileID": 2648656,
+      "fileName": "AkashicTome-1.2-12.jar",
+      "url": "https://edge.forgecdn.net/files/2648/656/AkashicTome-1.2-12.jar",
+      "required": true
+    },
+    {
+      "projectID": 419003,
+      "fileID": 3215120,
+      "fileName": "tinkersaether-1.4.1.jar",
+      "url": "https://edge.forgecdn.net/files/3215/120/tinkersaether-1.4.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 356646,
+      "fileID": 3168863,
+      "fileName": "GunpowderLib-1.12.2-1.1.jar",
+      "url": "https://edge.forgecdn.net/files/3168/863/GunpowderLib-1.12.2-1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 359619,
+      "fileID": 3435076,
+      "fileName": "DungeonsMod-1.12.2-1.0.8.jar",
+      "url": "https://edge.forgecdn.net/files/3435/76/DungeonsMod-1.12.2-1.0.8.jar",
+      "required": true
+    },
+    {
+      "projectID": 286924,
+      "fileID": 4365983,
+      "fileName": "CustomSkinLoader_ForgeLegacy-14.15.2.jar",
+      "url": "https://edge.forgecdn.net/files/4365/983/CustomSkinLoader_ForgeLegacy-14.15.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 629017,
+      "fileID": 5502915,
+      "fileName": "RoughlyEnoughIDs-2.2.1.jar",
+      "url": "https://edge.forgecdn.net/files/5502/915/RoughlyEnoughIDs-2.2.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 231095,
+      "fileID": 2720655,
+      "fileName": "chiselsandbits-14.33.jar",
+      "url": "https://edge.forgecdn.net/files/2720/655/chiselsandbits-14.33.jar",
+      "required": true
+    },
+    {
+      "projectID": 271835,
+      "fileID": 2920437,
+      "fileName": "ThermalCultivation-1.12.2-0.3.6.1-universal.jar",
+      "url": "https://edge.forgecdn.net/files/2920/437/ThermalCultivation-1.12.2-0.3.6.1-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 309674,
+      "fileID": 3003364,
+      "fileName": "ItemFilters-1.0.4.2.jar",
+      "url": "https://edge.forgecdn.net/files/3003/364/ItemFilters-1.0.4.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 291788,
+      "fileID": 2798112,
+      "fileName": "ServerTabInfo-1.12.2-1.2.6.jar",
+      "url": "https://edge.forgecdn.net/files/2798/112/ServerTabInfo-1.12.2-1.2.6.jar",
+      "required": true
+    },
+    {
+      "projectID": 228815,
+      "fileID": 2699055,
+      "fileName": "OpenModsLib-1.12.2-0.12.2.jar",
+      "url": "https://edge.forgecdn.net/files/2699/55/OpenModsLib-1.12.2-0.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 293704,
+      "fileID": 3247511,
+      "fileName": "brokenwings-3.0.0.jar",
+      "url": "https://edge.forgecdn.net/files/3247/511/brokenwings-3.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 242872,
+      "fileID": 2905184,
+      "fileName": "PotionCore-1.9_for_1.12.2.jar",
+      "url": "https://edge.forgecdn.net/files/2905/184/PotionCore-1.9_for_1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 225604,
+      "fileID": 2489566,
+      "fileName": "InGameInfoXML-1.12.2-2.8.2.94-universal.jar",
+      "url": "https://edge.forgecdn.net/files/2489/566/InGameInfoXML-1.12.2-2.8.2.94-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 59816,
+      "fileID": 2905241,
+      "fileName": "RandomThings-MC1.12.2-4.2.7.4.jar",
+      "url": "https://edge.forgecdn.net/files/2905/241/RandomThings-MC1.12.2-4.2.7.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 240630,
+      "fileID": 2728585,
+      "fileName": "JustEnoughResources-1.12.2-0.9.2.60.jar",
+      "url": "https://edge.forgecdn.net/files/2728/585/JustEnoughResources-1.12.2-0.9.2.60.jar",
+      "required": true
+    },
+    {
+      "projectID": 873867,
+      "fileID": 5618189,
+      "fileName": "!Red-Core-MC-1.8-1.12-0.6-Dev-7.jar",
+      "url": "https://edge.forgecdn.net/files/5618/189/!Red-Core-MC-1.8-1.12-0.6-Dev-7.jar",
+      "required": true
+    },
+    {
+      "projectID": 250498,
+      "fileID": 5218945,
+      "fileName": "mowziesmobs_1.12.2_1.5.8.jar",
+      "url": "https://edge.forgecdn.net/files/5218/945/mowziesmobs_1.12.2_1.5.8.jar",
+      "required": true
+    },
+    {
+      "projectID": 299045,
+      "fileID": 2650681,
+      "fileName": "matc-1.0.1-hotfix.jar",
+      "url": "https://edge.forgecdn.net/files/2650/681/matc-1.0.1-hotfix.jar",
+      "required": true
+    },
+    {
+      "projectID": 367831,
+      "fileID": 3543884,
+      "fileName": "AIReducer-1.12.2-0.3.0.jar",
+      "url": "https://edge.forgecdn.net/files/3543/884/AIReducer-1.12.2-0.3.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 908613,
+      "fileID": 5846840,
+      "fileName": "PackagedThaumic-1.12.2-1.0.2.12.jar",
+      "url": "https://edge.forgecdn.net/files/5846/840/PackagedThaumic-1.12.2-1.0.2.12.jar",
+      "required": true
+    },
+    {
+      "projectID": 282988,
+      "fileID": 2598021,
+      "fileName": "Scavenge V1.12-1.8.3.2.jar",
+      "url": "https://edge.forgecdn.net/files/2598/21/Scavenge%20V1.12-1.8.3.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 243363,
+      "fileID": 4479688,
+      "fileName": "TheBetweenlands-3.9.6-universal.jar",
+      "url": "https://edge.forgecdn.net/files/4479/688/TheBetweenlands-3.9.6-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 285968,
+      "fileID": 2700901,
+      "fileName": "togetherforever-1.12.2-1.0.12-22.jar",
+      "url": "https://edge.forgecdn.net/files/2700/901/togetherforever-1.12.2-1.0.12-22.jar",
+      "required": true
+    },
+    {
+      "projectID": 268655,
+      "fileID": 2951840,
+      "fileName": "GameStages-1.12.2-2.0.123.jar",
+      "url": "https://edge.forgecdn.net/files/2951/840/GameStages-1.12.2-2.0.123.jar",
+      "required": true
+    },
+    {
+      "projectID": 839336,
+      "fileID": 5241774,
+      "fileName": "GraduatedCylinders-1.12.2-3.1.0.jar",
+      "url": "https://edge.forgecdn.net/files/5241/774/GraduatedCylinders-1.12.2-3.1.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 322347,
+      "fileID": 3254160,
+      "fileName": "lazy-ae2-1.12.2-1.1.26.jar",
+      "url": "https://edge.forgecdn.net/files/3254/160/lazy-ae2-1.12.2-1.1.26.jar",
+      "required": true
+    },
+    {
+      "projectID": 628618,
+      "fileID": 3813089,
+      "fileName": "topextras-1.12.2-1.0.1.jar",
+      "url": "https://edge.forgecdn.net/files/3813/89/topextras-1.12.2-1.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 623955,
+      "fileID": 5741514,
+      "fileName": "Fluid Craft for AE2-2.6.5-r.jar",
+      "url": "https://edge.forgecdn.net/files/5741/514/Fluid%20Craft%20for%20AE2-2.6.5-r.jar",
+      "required": true
+    },
+    {
+      "projectID": 298747,
+      "fileID": 2677608,
+      "fileName": "treetweaker-1.6.1.jar",
+      "url": "https://edge.forgecdn.net/files/2677/608/treetweaker-1.6.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 295222,
+      "fileID": 3139264,
+      "fileName": "ExpandedEquivalence-1.12.2-12.3.17.jar",
+      "url": "https://edge.forgecdn.net/files/3139/264/ExpandedEquivalence-1.12.2-12.3.17.jar",
+      "required": true
+    },
+    {
+      "projectID": 247111,
+      "fileID": 2887479,
+      "fileName": "topaddons-1.12.2-1.13.0.jar",
+      "url": "https://edge.forgecdn.net/files/2887/479/topaddons-1.12.2-1.13.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 248020,
+      "fileID": 3178199,
+      "fileName": "FluxNetworks-1.12.2-4.1.1.34.jar",
+      "url": "https://edge.forgecdn.net/files/3178/199/FluxNetworks-1.12.2-4.1.1.34.jar",
+      "required": true
+    },
+    {
+      "projectID": 235328,
+      "fileID": 2573308,
+      "fileName": "FoodExpansion1.3.3-1.12.2.jar",
+      "url": "https://edge.forgecdn.net/files/2573/308/FoodExpansion1.3.3-1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 307416,
+      "fileID": 2640024,
+      "fileName": "JustSleep-1.0.0.1.jar",
+      "url": "https://edge.forgecdn.net/files/2640/24/JustSleep-1.0.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 225643,
+      "fileID": 3330934,
+      "fileName": "Botania r1.10-364.4.jar",
+      "url": "https://edge.forgecdn.net/files/3330/934/Botania%20r1.10-364.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 238361,
+      "fileID": 2845522,
+      "fileName": "bettermobgriefinggamerule-1.12.2-7.1.0.jar",
+      "url": "https://edge.forgecdn.net/files/2845/522/bettermobgriefinggamerule-1.12.2-7.1.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 237701,
+      "fileID": 4408001,
+      "fileName": "ReAuth-1.12-Forge-4.0.7.jar",
+      "url": "https://edge.forgecdn.net/files/4408/1/ReAuth-1.12-Forge-4.0.7.jar",
+      "required": true
+    },
+    {
+      "projectID": 313340,
+      "fileID": 2884937,
+      "fileName": "mekores-2.0.13.jar",
+      "url": "https://edge.forgecdn.net/files/2884/937/mekores-2.0.13.jar",
+      "required": true
+    },
+    {
+      "projectID": 333079,
+      "fileID": 3254753,
+      "fileName": "Sakura-1.0.7-1.12.2.jar",
+      "url": "https://edge.forgecdn.net/files/3254/753/Sakura-1.0.7-1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 396545,
+      "fileID": 5512567,
+      "fileName": "moretcon-V12.jar",
+      "url": "https://edge.forgecdn.net/files/5512/567/moretcon-V12.jar",
+      "required": true
+    },
+    {
+      "projectID": 633720,
+      "fileID": 3852709,
+      "fileName": "CraftingTweaks_1.12.2-9.0.1.jar",
+      "url": "https://edge.forgecdn.net/files/3852/709/CraftingTweaks_1.12.2-9.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 997328,
+      "fileID": 5373039,
+      "fileName": "cfm-legacy-1.12.2-6.5.0.jar",
+      "url": "https://edge.forgecdn.net/files/5373/39/cfm-legacy-1.12.2-6.5.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 220318,
+      "fileID": 3558882,
+      "fileName": "BiomesOPlenty-1.12.2-7.0.1.2445-universal.jar",
+      "url": "https://edge.forgecdn.net/files/3558/882/BiomesOPlenty-1.12.2-7.0.1.2445-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 253211,
+      "fileID": 3308160,
+      "fileName": "MTLib-3.0.7.jar",
+      "url": "https://edge.forgecdn.net/files/3308/160/MTLib-3.0.7.jar",
+      "required": true
+    },
+    {
+      "projectID": 461660,
+      "fileID": 4661407,
+      "fileName": "mousetweaks-1.12.2-3.1.4.jar",
+      "url": "https://edge.forgecdn.net/files/4661/407/mousetweaks-1.12.2-3.1.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 245028,
+      "fileID": 2876841,
+      "fileName": "tumbleweed-1.12-0.4.7.jar",
+      "url": "https://edge.forgecdn.net/files/2876/841/tumbleweed-1.12-0.4.7.jar",
+      "required": true
+    },
+    {
+      "projectID": 1091948,
+      "fileID": 5762130,
+      "fileName": "customfishing-0.0.9.jar",
+      "url": "https://edge.forgecdn.net/files/5762/130/customfishing-0.0.9.jar",
+      "required": true
+    },
+    {
+      "projectID": 319264,
+      "fileID": 2698971,
+      "fileName": "LoadingScreens-1.12.2-0.3.1.jar",
+      "url": "https://edge.forgecdn.net/files/2698/971/LoadingScreens-1.12.2-0.3.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 278993,
+      "fileID": 2846217,
+      "fileName": "bonsaitrees-1.1.4-b170.jar",
+      "url": "https://edge.forgecdn.net/files/2846/217/bonsaitrees-1.1.4-b170.jar",
+      "required": true
+    },
+    {
+      "projectID": 849094,
+      "fileID": 5512421,
+      "fileName": "thaumic-energistics-extended-life-1.12.2-2.3.3.jar",
+      "url": "https://edge.forgecdn.net/files/5512/421/thaumic-energistics-extended-life-1.12.2-2.3.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 275153,
+      "fileID": 2486198,
+      "fileName": "WrapUp-1.12-1.1.3.jar",
+      "url": "https://edge.forgecdn.net/files/2486/198/WrapUp-1.12-1.1.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 384589,
+      "fileID": 4941753,
+      "fileName": "tconevo-1.12.2-1.0.49.jar",
+      "url": "https://edge.forgecdn.net/files/4941/753/tconevo-1.12.2-1.0.49.jar",
+      "required": true
+    },
+    {
+      "projectID": 278494,
+      "fileID": 3973967,
+      "fileName": "foamfix-0.10.15-1.12.2.jar",
+      "url": "https://edge.forgecdn.net/files/3973/967/foamfix-0.10.15-1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 221914,
+      "fileID": 2445431,
+      "fileName": "Pam\u0027s Get all the Seeds! 1.12a.jar",
+      "url": "https://edge.forgecdn.net/files/2445/431/Pam%27s%20Get%20all%20the%20Seeds!%201.12a.jar",
+      "required": true
+    },
+    {
+      "projectID": 308839,
+      "fileID": 2703153,
+      "fileName": "MikesModsLib-1.0.2.jar",
+      "url": "https://edge.forgecdn.net/files/2703/153/MikesModsLib-1.0.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 74924,
+      "fileID": 2713386,
+      "fileName": "Mantle-1.12-1.3.3.55.jar",
+      "url": "https://edge.forgecdn.net/files/2713/386/Mantle-1.12-1.3.3.55.jar",
+      "required": true
+    },
+    {
+      "projectID": 253043,
+      "fileID": 4623135,
+      "fileName": "WanionLib-1.12.2-2.91.jar",
+      "url": "https://edge.forgecdn.net/files/4623/135/WanionLib-1.12.2-2.91.jar",
+      "required": true
+    },
+    {
+      "projectID": 330472,
+      "fileID": 2779313,
+      "fileName": "tconmodmod-1.12.2-1.0.5.jar",
+      "url": "https://edge.forgecdn.net/files/2779/313/tconmodmod-1.12.2-1.0.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 1064321,
+      "fileID": 5862063,
+      "fileName": "StellarCore-1.5.13.jar",
+      "url": "https://edge.forgecdn.net/files/5862/63/StellarCore-1.5.13.jar",
+      "required": true
+    },
+    {
+      "projectID": 285492,
+      "fileID": 5646810,
+      "fileName": "ThaumicJEI-1.12.2-1.7.0.jar",
+      "url": "https://edge.forgecdn.net/files/5646/810/ThaumicJEI-1.12.2-1.7.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 243298,
+      "fileID": 3116493,
+      "fileName": "llibrary-1.7.20-1.12.2.jar",
+      "url": "https://edge.forgecdn.net/files/3116/493/llibrary-1.7.20-1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 307806,
+      "fileID": 2820815,
+      "fileName": "OreLib-1.12.2-3.6.0.1.jar",
+      "url": "https://edge.forgecdn.net/files/2820/815/OreLib-1.12.2-3.6.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 227639,
+      "fileID": 3051450,
+      "fileName": "twilightforest-1.12.2-3.11.1021-universal.jar",
+      "url": "https://edge.forgecdn.net/files/3051/450/twilightforest-1.12.2-3.11.1021-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 307843,
+      "fileID": 2642103,
+      "fileName": "MultithreadedNoise-1.12.2-0.0.2.jar",
+      "url": "https://edge.forgecdn.net/files/2642/103/MultithreadedNoise-1.12.2-0.0.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 228832,
+      "fileID": 2645992,
+      "fileName": "Guide-API-1.12-2.1.8-63.jar",
+      "url": "https://edge.forgecdn.net/files/2645/992/Guide-API-1.12-2.1.8-63.jar",
+      "required": true
+    },
+    {
+      "projectID": 389665,
+      "fileID": 3247154,
+      "fileName": "BetterMineshaftsForge-1.12.2-2.2.1.jar",
+      "url": "https://edge.forgecdn.net/files/3247/154/BetterMineshaftsForge-1.12.2-2.2.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 223150,
+      "fileID": 5615733,
+      "fileName": "RecurrentComplex-1.4.8.6.jar",
+      "url": "https://edge.forgecdn.net/files/5615/733/RecurrentComplex-1.4.8.6.jar",
+      "required": true
+    },
+    {
+      "projectID": 248039,
+      "fileID": 3374256,
+      "fileName": "NetherEx-1.12.2-2.2.5.jar",
+      "url": "https://edge.forgecdn.net/files/3374/256/NetherEx-1.12.2-2.2.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 280294,
+      "fileID": 3362160,
+      "fileName": "FpsReducer-mc1.12.2-1.20.jar",
+      "url": "https://edge.forgecdn.net/files/3362/160/FpsReducer-mc1.12.2-1.20.jar",
+      "required": true
+    },
+    {
+      "projectID": 300750,
+      "fileID": 3483422,
+      "fileName": "RedstoneRepository-1.12.2-2.0.0.jar",
+      "url": "https://edge.forgecdn.net/files/3483/422/RedstoneRepository-1.12.2-2.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 228756,
+      "fileID": 2747935,
+      "fileName": "ironchest-1.12.2-7.0.72.847.jar",
+      "url": "https://edge.forgecdn.net/files/2747/935/ironchest-1.12.2-7.0.72.847.jar",
+      "required": true
+    },
+    {
+      "projectID": 383632,
+      "fileID": 3056455,
+      "fileName": "dynamistics-1.0.2.jar",
+      "url": "https://edge.forgecdn.net/files/3056/455/dynamistics-1.0.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 319227,
+      "fileID": 2789273,
+      "fileName": "variegated-1.2.7.jar",
+      "url": "https://edge.forgecdn.net/files/2789/273/variegated-1.2.7.jar",
+      "required": true
+    },
+    {
+      "projectID": 976391,
+      "fileID": 5117948,
+      "fileName": "Reskillable-1.12.2-1.13.1.jar",
+      "url": "https://edge.forgecdn.net/files/5117/948/Reskillable-1.12.2-1.13.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 280200,
+      "fileID": 2828877,
+      "fileName": "colytra-1.12.2-1.2.0.4.jar",
+      "url": "https://edge.forgecdn.net/files/2828/877/colytra-1.12.2-1.2.0.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 290201,
+      "fileID": 2640414,
+      "fileName": "OreStages-1.12.2-2.0.38.jar",
+      "url": "https://edge.forgecdn.net/files/2640/414/OreStages-1.12.2-2.0.38.jar",
+      "required": true
+    },
+    {
+      "projectID": 267934,
+      "fileID": 2566522,
+      "fileName": "PassableLeaves-1.12.2-2.0.0.jar",
+      "url": "https://edge.forgecdn.net/files/2566/522/PassableLeaves-1.12.2-2.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 59751,
+      "fileID": 2918418,
+      "fileName": "forestry_1.12.2-5.8.2.422.jar",
+      "url": "https://edge.forgecdn.net/files/2918/418/forestry_1.12.2-5.8.2.422.jar",
+      "required": true
+    },
+    {
+      "projectID": 311378,
+      "fileID": 3014173,
+      "fileName": "ProjectEX-1.2.0.40.jar",
+      "url": "https://edge.forgecdn.net/files/3014/173/ProjectEX-1.2.0.40.jar",
+      "required": true
+    },
+    {
+      "projectID": 1012168,
+      "fileID": 5309537,
+      "fileName": "scalar-1.12.2-2.11.1.jar",
+      "url": "https://edge.forgecdn.net/files/5309/537/scalar-1.12.2-2.11.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 262137,
+      "fileID": 2810142,
+      "fileName": "StuffASockInIt-1.12.2-1.1.32.jar",
+      "url": "https://edge.forgecdn.net/files/2810/142/StuffASockInIt-1.12.2-1.1.32.jar",
+      "required": true
+    },
+    {
+      "projectID": 273430,
+      "fileID": 2459131,
+      "fileName": "ActuallyBaubles-1.12-1.1.jar",
+      "url": "https://edge.forgecdn.net/files/2459/131/ActuallyBaubles-1.12-1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 250702,
+      "fileID": 4692184,
+      "fileName": "jecharacters-1.12.0-3.7.2.jar",
+      "url": "https://edge.forgecdn.net/files/4692/184/jecharacters-1.12.0-3.7.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 293110,
+      "fileID": 2781748,
+      "fileName": "mekatweaker-1.12-1.2.0.jar",
+      "url": "https://edge.forgecdn.net/files/2781/748/mekatweaker-1.12-1.2.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 290844,
+      "fileID": 2859709,
+      "fileName": "candyworld-1.1.5.jar",
+      "url": "https://edge.forgecdn.net/files/2859/709/candyworld-1.1.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 251407,
+      "fileID": 2624712,
+      "fileName": "ClientTweaks_1.12.2-3.1.11.jar",
+      "url": "https://edge.forgecdn.net/files/2624/712/ClientTweaks_1.12.2-3.1.11.jar",
+      "required": true
+    },
+    {
+      "projectID": 231868,
+      "fileID": 4671384,
+      "fileName": "EnderCore-1.12.2-0.5.78.jar",
+      "url": "https://edge.forgecdn.net/files/4671/384/EnderCore-1.12.2-0.5.78.jar",
+      "required": true
+    },
+    {
+      "projectID": 228816,
+      "fileID": 2699056,
+      "fileName": "OpenBlocks-1.12.2-1.8.1.jar",
+      "url": "https://edge.forgecdn.net/files/2699/56/OpenBlocks-1.12.2-1.8.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 59693,
+      "fileID": 2824328,
+      "fileName": "MCA-1.12.2-6.1.0-universal.jar",
+      "url": "https://edge.forgecdn.net/files/2824/328/MCA-1.12.2-6.1.0-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 281316,
+      "fileID": 2696448,
+      "fileName": "armoreablemobs-1.12.2-1.1.8.jar",
+      "url": "https://edge.forgecdn.net/files/2696/448/armoreablemobs-1.12.2-1.1.8.jar",
+      "required": true
+    },
+    {
+      "projectID": 225606,
+      "fileID": 2489553,
+      "fileName": "Stackie-1.12.2-1.6.0.48-universal.jar",
+      "url": "https://edge.forgecdn.net/files/2489/553/Stackie-1.12.2-1.6.0.48-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 326155,
+      "fileID": 3151006,
+      "fileName": "MCTSmelteryIO-1.12.2-1.2.63.jar",
+      "url": "https://edge.forgecdn.net/files/3151/6/MCTSmelteryIO-1.12.2-1.2.63.jar",
+      "required": true
+    },
+    {
+      "projectID": 223628,
+      "fileID": 2629023,
+      "fileName": "Thaumcraft-1.12.2-6.1.BETA26.jar",
+      "url": "https://edge.forgecdn.net/files/2629/23/Thaumcraft-1.12.2-6.1.BETA26.jar",
+      "required": true
+    },
+    {
+      "projectID": 284754,
+      "fileID": 2725062,
+      "fileName": "SpawnerControl-1.6.3b.jar",
+      "url": "https://edge.forgecdn.net/files/2725/62/SpawnerControl-1.6.3b.jar",
+      "required": true
+    },
+    {
+      "projectID": 223852,
+      "fileID": 5612980,
+      "fileName": "StorageDrawers-1.12.2-5.5.1.jar",
+      "url": "https://edge.forgecdn.net/files/5612/980/StorageDrawers-1.12.2-5.5.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 971802,
+      "fileID": 5086860,
+      "fileName": "TAIGA-Replant-Replant(1.0.0-beta).jar",
+      "url": "https://edge.forgecdn.net/files/5086/860/TAIGA-Replant-Replant(1.0.0-beta).jar",
+      "required": true
+    },
+    {
+      "projectID": 282623,
+      "fileID": 3280750,
+      "fileName": "tweakersconstruct-1.12.2-1.6.1.jar",
+      "url": "https://edge.forgecdn.net/files/3280/750/tweakersconstruct-1.12.2-1.6.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 402836,
+      "fileID": 3319071,
+      "fileName": "rotm-1.12.2-1.1.4.jar",
+      "url": "https://edge.forgecdn.net/files/3319/71/rotm-1.12.2-1.1.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 238551,
+      "fileID": 2744766,
+      "fileName": "gravestone-1.10.3.jar",
+      "url": "https://edge.forgecdn.net/files/2744/766/gravestone-1.10.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 284350,
+      "fileID": 4633750,
+      "fileName": "athenaeum-1.12.2-1.19.6.jar",
+      "url": "https://edge.forgecdn.net/files/4633/750/athenaeum-1.12.2-1.19.6.jar",
+      "required": true
+    },
+    {
+      "projectID": 410295,
+      "fileID": 4514895,
+      "fileName": "konkrete_forge_1.6.1_MC_1.12-1.12.2.jar",
+      "url": "https://edge.forgecdn.net/files/4514/895/konkrete_forge_1.6.1_MC_1.12-1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 350675,
+      "fileID": 2997188,
+      "fileName": "Pam\u0027s BrewCraft 1.12.2-1.0.2.jar",
+      "url": "https://edge.forgecdn.net/files/2997/188/Pam\u0027s%20BrewCraft%201.12.2-1.0.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 436513,
+      "fileID": 3378132,
+      "fileName": "ThaumcraftResearchPatcher-1.12.2-1.1.3.jar",
+      "url": "https://edge.forgecdn.net/files/3378/132/ThaumcraftResearchPatcher-1.12.2-1.1.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 311453,
+      "fileID": 2664856,
+      "fileName": "zenny3d.saturationoverflow-1.1.1.jar",
+      "url": "https://edge.forgecdn.net/files/2664/856/zenny3d.saturationoverflow-1.1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 311595,
+      "fileID": 3028832,
+      "fileName": "simplybackpacks-1.4.9.jar",
+      "url": "https://edge.forgecdn.net/files/3028/832/simplybackpacks-1.4.9.jar",
+      "required": true
+    },
+    {
+      "projectID": 272514,
+      "fileID": 2962052,
+      "fileName": "DankNull-1.12.2-1.7.101.jar",
+      "url": "https://edge.forgecdn.net/files/2962/52/DankNull-1.12.2-1.7.101.jar",
+      "required": true
+    },
+    {
+      "projectID": 271605,
+      "fileID": 3176964,
+      "fileName": "corpsecomplex-1.12.2-1.0.12.0.jar",
+      "url": "https://edge.forgecdn.net/files/3176/964/corpsecomplex-1.12.2-1.0.12.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 1027681,
+      "fileID": 5775101,
+      "fileName": "MekanismEnergistics-0.1.5.jar",
+      "url": "https://edge.forgecdn.net/files/5775/101/MekanismEnergistics-0.1.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 280316,
+      "fileID": 2810185,
+      "fileName": "ItemStages-1.12.2-2.0.51.jar",
+      "url": "https://edge.forgecdn.net/files/2810/185/ItemStages-1.12.2-2.0.51.jar",
+      "required": true
+    },
+    {
+      "projectID": 241344,
+      "fileID": 2480458,
+      "fileName": "Snad-1.12.1-1.7.09.16a.jar",
+      "url": "https://edge.forgecdn.net/files/2480/458/Snad-1.12.1-1.7.09.16a.jar",
+      "required": true
+    },
+    {
+      "projectID": 265461,
+      "fileID": 3591441,
+      "fileName": "rockytweaks-1.12.2-0.6.1.jar",
+      "url": "https://edge.forgecdn.net/files/3591/441/rockytweaks-1.12.2-0.6.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 376903,
+      "fileID": 4703532,
+      "fileName": "plustic-8.0.6.jar",
+      "url": "https://edge.forgecdn.net/files/4703/532/plustic-8.0.6.jar",
+      "required": true
+    },
+    {
+      "projectID": 242195,
+      "fileID": 2813586,
+      "fileName": "DarkUtils-1.12.2-1.8.230.jar",
+      "url": "https://edge.forgecdn.net/files/2813/586/DarkUtils-1.12.2-1.8.230.jar",
+      "required": true
+    },
+    {
+      "projectID": 231453,
+      "fileID": 2436360,
+      "fileName": "ChatFlow-1.4-7.jar",
+      "url": "https://edge.forgecdn.net/files/2436/360/ChatFlow-1.4-7.jar",
+      "required": true
+    },
+    {
+      "projectID": 286231,
+      "fileID": 3006659,
+      "fileName": "EndReborn [0.3.9].jar",
+      "url": "https://edge.forgecdn.net/files/3006/659/EndReborn%20%5b0.3.9%5d.jar",
+      "required": true
+    },
+    {
+      "projectID": 268324,
+      "fileID": 2460821,
+      "fileName": "Blur-1.0.4-14.jar",
+      "url": "https://edge.forgecdn.net/files/2460/821/Blur-1.0.4-14.jar",
+      "required": true
+    },
+    {
+      "projectID": 354673,
+      "fileID": 3449157,
+      "fileName": "Journey-Into-The-Light-1.12.2-1.0.6.11.jar",
+      "url": "https://edge.forgecdn.net/files/3449/157/Journey-Into-The-Light-1.12.2-1.0.6.11.jar",
+      "required": true
+    },
+    {
+      "projectID": 220811,
+      "fileID": 2571951,
+      "fileName": "SpiceOfLife-mc1.12-1.3.12.jar",
+      "url": "https://edge.forgecdn.net/files/2571/951/SpiceOfLife-mc1.12-1.3.12.jar",
+      "required": true
+    },
+    {
+      "projectID": 409880,
+      "fileID": 3614638,
+      "fileName": "thaumicspeedup-4.0.jar",
+      "url": "https://edge.forgecdn.net/files/3614/638/thaumicspeedup-4.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 226447,
+      "fileID": 2477566,
+      "fileName": "ResourceLoader-MC1.12.1-1.5.3.jar",
+      "url": "https://edge.forgecdn.net/files/2477/566/ResourceLoader-MC1.12.1-1.5.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 319192,
+      "fileID": 2704066,
+      "fileName": "lavawaderbauble-1.2.jar",
+      "url": "https://edge.forgecdn.net/files/2704/66/lavawaderbauble-1.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 289412,
+      "fileID": 3156637,
+      "fileName": "FTBQuests-1202.9.0.15.jar",
+      "url": "https://edge.forgecdn.net/files/3156/637/FTBQuests-1202.9.0.15.jar",
+      "required": true
+    },
+    {
+      "projectID": 319382,
+      "fileID": 2836777,
+      "fileName": "CalmDownZombieGuy-1.12.2-1.6.4.jar",
+      "url": "https://edge.forgecdn.net/files/2836/777/CalmDownZombieGuy-1.12.2-1.6.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 317780,
+      "fileID": 5658210,
+      "fileName": "XaerosWorldMap_1.39.0_Forge_1.12.jar",
+      "url": "https://edge.forgecdn.net/files/5658/210/XaerosWorldMap_1.39.0_Forge_1.12.jar",
+      "required": true
+    },
+    {
+      "projectID": 74610,
+      "fileID": 2811267,
+      "fileName": "EvilCraft-1.12.2-0.10.78.jar",
+      "url": "https://edge.forgecdn.net/files/2811/267/EvilCraft-1.12.2-0.10.78.jar",
+      "required": true
+    },
+    {
+      "projectID": 269398,
+      "fileID": 2643976,
+      "fileName": "DimensionStages-1.12.2-2.0.23.jar",
+      "url": "https://edge.forgecdn.net/files/2643/976/DimensionStages-1.12.2-2.0.23.jar",
+      "required": true
+    },
+    {
+      "projectID": 640802,
+      "fileID": 4874506,
+      "fileName": "hecharacters-1.12.2-1.4.1.jar",
+      "url": "https://edge.forgecdn.net/files/4874/506/hecharacters-1.12.2-1.4.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 257814,
+      "fileID": 4722163,
+      "fileName": "CreativeCore_v1.10.71_mc1.12.2.jar",
+      "url": "https://edge.forgecdn.net/files/4722/163/CreativeCore_v1.10.71_mc1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 283644,
+      "fileID": 4629597,
+      "fileName": "Placebo-1.12.2-1.6.1.jar",
+      "url": "https://edge.forgecdn.net/files/4629/597/Placebo-1.12.2-1.6.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 316704,
+      "fileID": 5364955,
+      "fileName": "thaumicwonders-1.8.4.jar",
+      "url": "https://edge.forgecdn.net/files/5364/955/thaumicwonders-1.8.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 367706,
+      "fileID": 4655936,
+      "fileName": "fancymenu_forge_2.14.9_MC_1.12-1.12.2.jar",
+      "url": "https://edge.forgecdn.net/files/4655/936/fancymenu_forge_2.14.9_MC_1.12-1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 277064,
+      "fileID": 3483816,
+      "fileName": "mysticallib-1.12.2-1.13.0.jar",
+      "url": "https://edge.forgecdn.net/files/3483/816/mysticallib-1.12.2-1.13.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 304346,
+      "fileID": 4674241,
+      "fileName": "EnderIO-endergy-1.12.2-5.3.72.jar",
+      "url": "https://edge.forgecdn.net/files/4674/241/EnderIO-endergy-1.12.2-5.3.72.jar",
+      "required": true
+    },
+    {
+      "projectID": 1016395,
+      "fileID": 5332230,
+      "fileName": "XU2-Patcher-1.0.0.jar",
+      "url": "https://edge.forgecdn.net/files/5332/230/XU2-Patcher-1.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 226779,
+      "fileID": 2563292,
+      "fileName": "NoMobSpawningOnTrees-1.2.2-mc1.12.2.jar",
+      "url": "https://edge.forgecdn.net/files/2563/292/NoMobSpawningOnTrees-1.2.2-mc1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 915177,
+      "fileID": 4761039,
+      "fileName": "enhanced_annihilation_planes-1.0.jar",
+      "url": "https://edge.forgecdn.net/files/4761/39/enhanced_annihilation_planes-1.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 313477,
+      "fileID": 3002646,
+      "fileName": "fxcontrol-1.12-0.1.15.jar",
+      "url": "https://edge.forgecdn.net/files/3002/646/fxcontrol-1.12-0.1.15.jar",
+      "required": true
+    },
+    {
+      "projectID": 225605,
+      "fileID": 2489549,
+      "fileName": "LunatriusCore-1.12.2-1.2.0.42-universal.jar",
+      "url": "https://edge.forgecdn.net/files/2489/549/LunatriusCore-1.12.2-1.2.0.42-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 65764,
+      "fileID": 2855061,
+      "fileName": "MagicBees-1.12.2-3.2.25.jar",
+      "url": "https://edge.forgecdn.net/files/2855/61/MagicBees-1.12.2-3.2.25.jar",
+      "required": true
+    },
+    {
+      "projectID": 398267,
+      "fileID": 5778512,
+      "fileName": "extendedcrafting-nomifactory-edition-1.7.0.7.jar",
+      "url": "https://edge.forgecdn.net/files/5778/512/extendedcrafting-nomifactory-edition-1.7.0.7.jar",
+      "required": true
+    },
+    {
+      "projectID": 435298,
+      "fileID": 3311656,
+      "fileName": "ctintegration-1.8.0.jar",
+      "url": "https://edge.forgecdn.net/files/3311/656/ctintegration-1.8.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 254508,
+      "fileID": 2443328,
+      "fileName": "BedBugs-1.12-1.0.1.jar",
+      "url": "https://edge.forgecdn.net/files/2443/328/BedBugs-1.12-1.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 1121489,
+      "fileID": 5814089,
+      "fileName": "AE2CT-Legacy-0.1.2.jar",
+      "url": "https://edge.forgecdn.net/files/5814/89/AE2CT-Legacy-0.1.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 340583,
+      "fileID": 3003242,
+      "fileName": "bettercaves-1.12.2-2.0.4.jar",
+      "url": "https://edge.forgecdn.net/files/3003/242/bettercaves-1.12.2-2.0.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 303367,
+      "fileID": 2624759,
+      "fileName": "torohud-1.12.2-5.jar",
+      "url": "https://edge.forgecdn.net/files/2624/759/torohud-1.12.2-5.jar",
+      "required": true
+    },
+    {
+      "projectID": 301364,
+      "fileID": 2609434,
+      "fileName": "gendustryjei-1.0.2.jar",
+      "url": "https://edge.forgecdn.net/files/2609/434/gendustryjei-1.0.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 246550,
+      "fileID": 4423036,
+      "fileName": "prefab-1.3.1.7.jar",
+      "url": "https://edge.forgecdn.net/files/4423/36/prefab-1.3.1.7.jar",
+      "required": true
+    },
+    {
+      "projectID": 309516,
+      "fileID": 3570157,
+      "fileName": "Bountiful-1.12.2-2.2.3.jar",
+      "url": "https://edge.forgecdn.net/files/3570/157/Bountiful-1.12.2-2.2.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 248370,
+      "fileID": 2490058,
+      "fileName": "jeibees-0.9.0.5-mc1.12.2.jar",
+      "url": "https://edge.forgecdn.net/files/2490/58/jeibees-0.9.0.5-mc1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 414215,
+      "fileID": 3210348,
+      "fileName": "pouchofunknown-1.9.jar",
+      "url": "https://edge.forgecdn.net/files/3210/348/pouchofunknown-1.9.jar",
+      "required": true
+    },
+    {
+      "projectID": 262420,
+      "fileID": 2460171,
+      "fileName": "CombinedPotions-1.12-1.1.jar",
+      "url": "https://edge.forgecdn.net/files/2460/171/CombinedPotions-1.12-1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 417392,
+      "fileID": 5594720,
+      "fileName": "QuarkRotN-r1.6-189.jar",
+      "url": "https://edge.forgecdn.net/files/5594/720/QuarkRotN-r1.6-189.jar",
+      "required": true
+    },
+    {
+      "projectID": 409087,
+      "fileID": 5096144,
+      "fileName": "EntityCulling-1.12.2-6.4.3.jar",
+      "url": "https://edge.forgecdn.net/files/5096/144/EntityCulling-1.12.2-6.4.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 313146,
+      "fileID": 2668213,
+      "fileName": "igisereneseasons-1.0.0.1.jar",
+      "url": "https://edge.forgecdn.net/files/2668/213/igisereneseasons-1.0.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 308137,
+      "fileID": 3136488,
+      "fileName": "randomportals-1.12.2-1.8.2.4.jar",
+      "url": "https://edge.forgecdn.net/files/3136/488/randomportals-1.12.2-1.8.2.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 907559,
+      "fileID": 5680741,
+      "fileName": "redirectionor-1.5 for 1.12.2-1.8.8.jar",
+      "url": "https://edge.forgecdn.net/files/5680/741/redirectionor-1.5%20for%201.12.2-1.8.8.jar",
+      "required": true
+    },
+    {
+      "projectID": 273502,
+      "fileID": 2835318,
+      "fileName": "defiledlands-1.12.2-1.4.3.jar",
+      "url": "https://edge.forgecdn.net/files/2835/318/defiledlands-1.12.2-1.4.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 297680,
+      "fileID": 3636518,
+      "fileName": "Rex\u0027s-AdditionalStructures-1.12.x(v.2.5.0).jar",
+      "url": "https://edge.forgecdn.net/files/3636/518/Rex%27s-AdditionalStructures-1.12.x(v.2.5.0).jar",
+      "required": true
+    },
+    {
+      "projectID": 246974,
+      "fileID": 3050838,
+      "fileName": "SolarFluxReborn-1.12.2-12.4.11.jar",
+      "url": "https://edge.forgecdn.net/files/3050/838/SolarFluxReborn-1.12.2-12.4.11.jar",
+      "required": true
+    },
+    {
+      "projectID": 1085014,
+      "fileID": 5644169,
+      "fileName": "refinedtools-7.75.jar",
+      "url": "https://edge.forgecdn.net/files/5644/169/refinedtools-7.75.jar",
+      "required": true
+    },
+    {
+      "projectID": 976405,
+      "fileID": 5656530,
+      "fileName": "CompatSkills-1.12.2-1.17.2.jar",
+      "url": "https://edge.forgecdn.net/files/5656/530/CompatSkills-1.12.2-1.17.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 64578,
+      "fileID": 4674244,
+      "fileName": "EnderIO-1.12.2-5.3.72.jar",
+      "url": "https://edge.forgecdn.net/files/4674/244/EnderIO-1.12.2-5.3.72.jar",
+      "required": true
+    },
+    {
+      "projectID": 227657,
+      "fileID": 2654852,
+      "fileName": "GlobalGameRules-1.12.2-2.2.7.jar",
+      "url": "https://edge.forgecdn.net/files/2654/852/GlobalGameRules-1.12.2-2.2.7.jar",
+      "required": true
+    },
+    {
+      "projectID": 310637,
+      "fileID": 2939405,
+      "fileName": "BotanicAdditions-1.12.2-12.2.6.jar",
+      "url": "https://edge.forgecdn.net/files/2939/405/BotanicAdditions-1.12.2-12.2.6.jar",
+      "required": true
+    },
+    {
+      "projectID": 255257,
+      "fileID": 3334690,
+      "fileName": "LootTweaker-0.3.0+MC1.12.2.jar",
+      "url": "https://edge.forgecdn.net/files/3334/690/LootTweaker-0.3.0+MC1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 363543,
+      "fileID": 3081433,
+      "fileName": "DivineRPG-1.7.1.jar",
+      "url": "https://edge.forgecdn.net/files/3081/433/DivineRPG-1.7.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 241140,
+      "fileID": 2499252,
+      "fileName": "DefaultWorldGenerator-port-1.12-2.3.jar",
+      "url": "https://edge.forgecdn.net/files/2499/252/DefaultWorldGenerator-port-1.12-2.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 1085598,
+      "fileID": 5833515,
+      "fileName": "jei_area_fixer-2.0.0.jar",
+      "url": "https://edge.forgecdn.net/files/5833/515/jei_area_fixer-2.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 840735,
+      "fileID": 5766563,
+      "fileName": "Mekanism-CE-Unofficial-All-9.9.1.214.jar",
+      "url": "https://edge.forgecdn.net/files/5766/563/Mekanism-CE-Unofficial-All-9.9.1.214.jar",
+      "required": true
+    },
+    {
+      "projectID": 570795,
+      "fileID": 3780587,
+      "fileName": "TinkerToolcasts-1.2.jar",
+      "url": "https://edge.forgecdn.net/files/3780/587/TinkerToolcasts-1.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 604054,
+      "fileID": 5576739,
+      "fileName": "multiblocked-0.8.8.jar",
+      "url": "https://edge.forgecdn.net/files/5576/739/multiblocked-0.8.8.jar",
+      "required": true
+    },
+    {
+      "projectID": 705000,
+      "fileID": 5860191,
+      "fileName": "UniversalTweaks-1.12.2-1.13.0.jar",
+      "url": "https://edge.forgecdn.net/files/5860/191/UniversalTweaks-1.12.2-1.13.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 232564,
+      "fileID": 5394706,
+      "fileName": "ThaumicAdditions-1.12.2-12.7.9.jar",
+      "url": "https://edge.forgecdn.net/files/5394/706/ThaumicAdditions-1.12.2-12.7.9.jar",
+      "required": true
+    },
+    {
+      "projectID": 267602,
+      "fileID": 2915363,
+      "fileName": "CTM-MC1.12.2-1.0.2.31.jar",
+      "url": "https://edge.forgecdn.net/files/2915/363/CTM-MC1.12.2-1.0.2.31.jar",
+      "required": true
+    },
+    {
+      "projectID": 225928,
+      "fileID": 2445809,
+      "fileName": "CustomBackgrounds-MC1.12-1.1.1.jar",
+      "url": "https://edge.forgecdn.net/files/2445/809/CustomBackgrounds-MC1.12-1.1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 548889,
+      "fileID": 3760364,
+      "fileName": "twilighttweaks-1.12.2-v1.0.2.jar.jar",
+      "url": "https://edge.forgecdn.net/files/3760/364/twilighttweaks-1.12.2-v1.0.2.jar.jar",
+      "required": true
+    },
+    {
+      "projectID": 321720,
+      "fileID": 2711427,
+      "fileName": "AE-Net-Vis-Tool-1.12.2-1.0.3.0-universal.jar",
+      "url": "https://edge.forgecdn.net/files/2711/427/AE-Net-Vis-Tool-1.12.2-1.0.3.0-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 239286,
+      "fileID": 4075832,
+      "fileName": "Cyclic-1.12.2-1.20.14.jar",
+      "url": "https://edge.forgecdn.net/files/4075/832/Cyclic-1.12.2-1.20.14.jar",
+      "required": true
+    },
+    {
+      "projectID": 222378,
+      "fileID": 2756790,
+      "fileName": "MineMenu-1.12.2-1.6.11-universal.jar",
+      "url": "https://edge.forgecdn.net/files/2756/790/MineMenu-1.12.2-1.6.11-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 899182,
+      "fileID": 5492997,
+      "fileName": "binnie-mods-1.12.2-2.5.1.212.jar",
+      "url": "https://edge.forgecdn.net/files/5492/997/binnie-mods-1.12.2-2.5.1.212.jar",
+      "required": true
+    },
+    {
+      "projectID": 321781,
+      "fileID": 3000908,
+      "fileName": "Additions-0.5.2.jar",
+      "url": "https://edge.forgecdn.net/files/3000/908/Additions-0.5.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 336272,
+      "fileID": 3225395,
+      "fileName": "MutantBeasts-1.12.2-1.0.2.jar",
+      "url": "https://edge.forgecdn.net/files/3225/395/MutantBeasts-1.12.2-1.0.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 358711,
+      "fileID": 3221155,
+      "fileName": "MysticalCreations-1.12.2-1.6.1.jar",
+      "url": "https://edge.forgecdn.net/files/3221/155/MysticalCreations-1.12.2-1.6.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 298187,
+      "fileID": 3005950,
+      "fileName": "BuildingGadgets-2.8.4.jar",
+      "url": "https://edge.forgecdn.net/files/3005/950/BuildingGadgets-2.8.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 285612,
+      "fileID": 3133651,
+      "fileName": "randompatches-1.12.2-1.22.1.10.jar",
+      "url": "https://edge.forgecdn.net/files/3133/651/randompatches-1.12.2-1.22.1.10.jar",
+      "required": true
+    },
+    {
+      "projectID": 69162,
+      "fileID": 2920433,
+      "fileName": "CoFHCore-1.12.2-4.6.6.1-universal.jar",
+      "url": "https://edge.forgecdn.net/files/2920/433/CoFHCore-1.12.2-4.6.6.1-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 350757,
+      "fileID": 2823687,
+      "fileName": "Plummet-1.12.2-1.0.0.jar",
+      "url": "https://edge.forgecdn.net/files/2823/687/Plummet-1.12.2-1.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 256141,
+      "fileID": 3107974,
+      "fileName": "rustic-1.1.7.jar",
+      "url": "https://edge.forgecdn.net/files/3107/974/rustic-1.1.7.jar",
+      "required": true
+    },
+    {
+      "projectID": 355649,
+      "fileID": 2933013,
+      "fileName": "torchslabmod-1.12.2-v1.5.2.jar",
+      "url": "https://edge.forgecdn.net/files/2933/13/torchslabmod-1.12.2-v1.5.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 311383,
+      "fileID": 2853945,
+      "fileName": "botanianeedsit-1.12.2-3.0-release.jar",
+      "url": "https://edge.forgecdn.net/files/2853/945/botanianeedsit-1.12.2-3.0-release.jar",
+      "required": true
+    },
+    {
+      "projectID": 314093,
+      "fileID": 2674335,
+      "fileName": "whoops-1.0.1.jar",
+      "url": "https://edge.forgecdn.net/files/2674/335/whoops-1.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 313657,
+      "fileID": 3191890,
+      "fileName": "aeble_v1.4.3.jar",
+      "url": "https://edge.forgecdn.net/files/3191/890/aeble_v1.4.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 684750,
+      "fileID": 5215696,
+      "fileName": "Quit-Forge-1.12.2-1.1.0.jar",
+      "url": "https://edge.forgecdn.net/files/5215/696/Quit-Forge-1.12.2-1.1.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 312195,
+      "fileID": 3474382,
+      "fileName": "EnderTweaker-1.12.2-1.2.3.jar",
+      "url": "https://edge.forgecdn.net/files/3474/382/EnderTweaker-1.12.2-1.2.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 299086,
+      "fileID": 3112313,
+      "fileName": "ExtraBotany-r1.1-60-beta-hotfix.jar",
+      "url": "https://edge.forgecdn.net/files/3112/313/ExtraBotany-r1.1-60-beta-hotfix.jar",
+      "required": true
+    },
+    {
+      "projectID": 1068512,
+      "fileID": 5552975,
+      "fileName": "TwilightForestFixes-1.0.jar",
+      "url": "https://edge.forgecdn.net/files/5552/975/TwilightForestFixes-1.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 291936,
+      "fileID": 2682853,
+      "fileName": "findme-1.12.2-1.1.0-8.jar",
+      "url": "https://edge.forgecdn.net/files/2682/853/findme-1.12.2-1.1.0-8.jar",
+      "required": true
+    },
+    {
+      "projectID": 687577,
+      "fileID": 5789690,
+      "fileName": "groovyscript-1.2.0-hotfix1.jar",
+      "url": "https://edge.forgecdn.net/files/5789/690/groovyscript-1.2.0-hotfix1.jar",
+      "required": true
+    },
+    {
+      "projectID": 322344,
+      "fileID": 3509087,
+      "fileName": "libnine-1.12.2-1.2.1.jar",
+      "url": "https://edge.forgecdn.net/files/3509/87/libnine-1.12.2-1.2.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 634242,
+      "fileID": 5591161,
+      "fileName": "EnderStorage-1.12.2-2.6.3.jar",
+      "url": "https://edge.forgecdn.net/files/5591/161/EnderStorage-1.12.2-2.6.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 247217,
+      "fileID": 2740774,
+      "fileName": "XL-Food-Mod-1.12.2-1.9.2.jar",
+      "url": "https://edge.forgecdn.net/files/2740/774/XL-Food-Mod-1.12.2-1.9.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 303541,
+      "fileID": 2636803,
+      "fileName": "Advanced-Fishing-1.12.2-1.3.3.jar",
+      "url": "https://edge.forgecdn.net/files/2636/803/Advanced-Fishing-1.12.2-1.3.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 311880,
+      "fileID": 2681454,
+      "fileName": "TinyMobFarm-1.12.2-1.0.5.jar",
+      "url": "https://edge.forgecdn.net/files/2681/454/TinyMobFarm-1.12.2-1.0.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 280423,
+      "fileID": 2563001,
+      "fileName": "OreController-1.12-1.0.12.jar",
+      "url": "https://edge.forgecdn.net/files/2563/1/OreController-1.12-1.0.12.jar",
+      "required": true
+    },
+    {
+      "projectID": 281657,
+      "fileID": 3474317,
+      "fileName": "capabilityadapter-1.1.3.jar",
+      "url": "https://edge.forgecdn.net/files/3474/317/capabilityadapter-1.1.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 307469,
+      "fileID": 2640779,
+      "fileName": "IGI-Thaumcraft-1.0a.jar",
+      "url": "https://edge.forgecdn.net/files/2640/779/IGI-Thaumcraft-1.0a.jar",
+      "required": true
+    },
+    {
+      "projectID": 223735,
+      "fileID": 2914062,
+      "fileName": "Aroma1997Core-1.12.2-2.0.0.2.b167.jar",
+      "url": "https://edge.forgecdn.net/files/2914/62/Aroma1997Core-1.12.2-2.0.0.2.b167.jar",
+      "required": true
+    },
+    {
+      "projectID": 312139,
+      "fileID": 2664852,
+      "fileName": "OrechidEndium-1.12.2-1.0.1.jar",
+      "url": "https://edge.forgecdn.net/files/2664/852/OrechidEndium-1.12.2-1.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 298832,
+      "fileID": 2746713,
+      "fileName": "PyramidPlunder-1.12.2-1.4.jar",
+      "url": "https://edge.forgecdn.net/files/2746/713/PyramidPlunder-1.12.2-1.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 247843,
+      "fileID": 2511850,
+      "fileName": "stacksize-1.12.2-1.0.jar",
+      "url": "https://edge.forgecdn.net/files/2511/850/stacksize-1.12.2-1.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 227083,
+      "fileID": 2518667,
+      "fileName": "Baubles-1.12-1.5.2.jar",
+      "url": "https://edge.forgecdn.net/files/2518/667/Baubles-1.12-1.5.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 221910,
+      "fileID": 2520678,
+      "fileName": "Weee! Flowers 1.12.2b.jar",
+      "url": "https://edge.forgecdn.net/files/2520/678/Weee!%20Flowers%201.12.2b.jar",
+      "required": true
+    },
+    {
+      "projectID": 239197,
+      "fileID": 5486112,
+      "fileName": "CraftTweaker2-1.12-4.1.20.700.jar",
+      "url": "https://edge.forgecdn.net/files/5486/112/CraftTweaker2-1.12-4.1.20.700.jar",
+      "required": true
+    },
+    {
+      "projectID": 318143,
+      "fileID": 2692309,
+      "fileName": "denseneutroncollectors-1.1.jar",
+      "url": "https://edge.forgecdn.net/files/2692/309/denseneutroncollectors-1.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 271384,
+      "fileID": 2920434,
+      "fileName": "CoFHWorld-1.12.2-1.4.0.1-universal.jar",
+      "url": "https://edge.forgecdn.net/files/2920/434/CoFHWorld-1.12.2-1.4.0.1-universal.jar",
+      "required": true
+    },
+    {
+      "projectID": 250226,
+      "fileID": 2574459,
+      "fileName": "morebees-1.12.2-2.0.1.jar",
+      "url": "https://edge.forgecdn.net/files/2574/459/morebees-1.12.2-2.0.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 321315,
+      "fileID": 2792370,
+      "fileName": "HungerTweaker-1.12.2-1.3.0.jar",
+      "url": "https://edge.forgecdn.net/files/2792/370/HungerTweaker-1.12.2-1.3.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 224535,
+      "fileID": 2443253,
+      "fileName": "IvToolkit-1.3.3-1.12.jar",
+      "url": "https://edge.forgecdn.net/files/2443/253/IvToolkit-1.3.3-1.12.jar",
+      "required": true
+    },
+    {
+      "projectID": 237167,
+      "fileID": 2985811,
+      "fileName": "FTBLib-5.4.7.2.jar",
+      "url": "https://edge.forgecdn.net/files/2985/811/FTBLib-5.4.7.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 278398,
+      "fileID": 2567799,
+      "fileName": "packmode-1.12.2-1.2.0.jar",
+      "url": "https://edge.forgecdn.net/files/2567/799/packmode-1.12.2-1.2.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 268643,
+      "fileID": 2573789,
+      "fileName": "materialchanger1.0.3-1.12.2.jar",
+      "url": "https://edge.forgecdn.net/files/2573/789/materialchanger1.0.3-1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 395269,
+      "fileID": 3003367,
+      "fileName": "mekanismfluxified-1.12.2-1.0.0.jar",
+      "url": "https://edge.forgecdn.net/files/3003/367/mekanismfluxified-1.12.2-1.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 250763,
+      "fileID": 2705813,
+      "fileName": "rftoolsctrl-1.12-2.0.2.jar",
+      "url": "https://edge.forgecdn.net/files/2705/813/rftoolsctrl-1.12-2.0.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 419286,
+      "fileID": 5739618,
+      "fileName": "!mixinbooter-9.4.jar",
+      "url": "https://edge.forgecdn.net/files/5739/618/!mixinbooter-9.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 292613,
+      "fileID": 2554559,
+      "fileName": "Re-Fraction V1.0.jar",
+      "url": "https://edge.forgecdn.net/files/2554/559/Re-Fraction%20V1.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 229664,
+      "fileID": 3496560,
+      "fileName": "Animus-1.12-2.1.8.jar",
+      "url": "https://edge.forgecdn.net/files/3496/560/Animus-1.12-2.1.8.jar",
+      "required": true
+    },
+    {
+      "projectID": 384460,
+      "fileID": 3128479,
+      "fileName": "Ambience-1.12.2-1.7.8.jar",
+      "url": "https://edge.forgecdn.net/files/3128/479/Ambience-1.12.2-1.7.8.jar",
+      "required": true
+    },
+    {
+      "projectID": 245755,
+      "fileID": 2859589,
+      "fileName": "Waystones_1.12.2-4.1.0.jar",
+      "url": "https://edge.forgecdn.net/files/2859/589/Waystones_1.12.2-4.1.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 255232,
+      "fileID": 2830265,
+      "fileName": "p455w0rdslib-1.12.2-2.3.161.jar",
+      "url": "https://edge.forgecdn.net/files/2830/265/p455w0rdslib-1.12.2-2.3.161.jar",
+      "required": true
+    },
+    {
+      "projectID": 237065,
+      "fileID": 3331364,
+      "fileName": "ContentTweaker-1.12.2-4.10.0.jar",
+      "url": "https://edge.forgecdn.net/files/3331/364/ContentTweaker-1.12.2-4.10.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 290881,
+      "fileID": 2545640,
+      "fileName": "WHAT-0.2.jar",
+      "url": "https://edge.forgecdn.net/files/2545/640/WHAT-0.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 227877,
+      "fileID": 2817288,
+      "fileName": "BattleTowers-1.12.2.jar",
+      "url": "https://edge.forgecdn.net/files/2817/288/BattleTowers-1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 238123,
+      "fileID": 2671230,
+      "fileName": "NoMoreRecipeConflict-0.13(1.12.2).jar",
+      "url": "https://edge.forgecdn.net/files/2671/230/NoMoreRecipeConflict-0.13(1.12.2).jar",
+      "required": true
+    },
+    {
+      "projectID": 296769,
+      "fileID": 2576706,
+      "fileName": "JEROreIntegration-1.12.2-1.1.0.jar",
+      "url": "https://edge.forgecdn.net/files/2576/706/JEROreIntegration-1.12.2-1.1.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 284973,
+      "fileID": 5405050,
+      "fileName": "dropt-1.12.2-1.19.4.jar",
+      "url": "https://edge.forgecdn.net/files/5405/50/dropt-1.12.2-1.19.4.jar",
+      "required": true
+    },
+    {
+      "projectID": 266550,
+      "fileID": 3270468,
+      "fileName": "toolprogression-1.12.2-1.6.12.jar",
+      "url": "https://edge.forgecdn.net/files/3270/468/toolprogression-1.12.2-1.6.12.jar",
+      "required": true
+    },
+    {
+      "projectID": 294269,
+      "fileID": 3070803,
+      "fileName": "Aether Continuation v1.3.0.jar",
+      "url": "https://edge.forgecdn.net/files/3070/803/Aether%20Continuation%20v1.3.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 287683,
+      "fileID": 3174535,
+      "fileName": "conarm-1.12.2-1.2.5.10.jar",
+      "url": "https://edge.forgecdn.net/files/3174/535/conarm-1.12.2-1.2.5.10.jar",
+      "required": true
+    },
+    {
+      "projectID": 225738,
+      "fileID": 2503041,
+      "fileName": "MmmMmmMmmMmm-1.12-1.14.jar",
+      "url": "https://edge.forgecdn.net/files/2503/41/MmmMmmMmmMmm-1.12-1.14.jar",
+      "required": true
+    },
+    {
+      "projectID": 321506,
+      "fileID": 2997046,
+      "fileName": "stellarfluidconduit-1.12.2-1.0.3.jar",
+      "url": "https://edge.forgecdn.net/files/2997/46/stellarfluidconduit-1.12.2-1.0.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 292992,
+      "fileID": 2976522,
+      "fileName": "Modpack Configuration Checker-1.12.2-v1.9.5.jar",
+      "url": "https://edge.forgecdn.net/files/2976/522/Modpack%20Configuration%20Checker-1.12.2-v1.9.5.jar",
+      "required": true
+    },
+    {
+      "projectID": 337001,
+      "fileID": 2768009,
+      "fileName": "shutupmodelloader-1.12.2-1.0.0.jar",
+      "url": "https://edge.forgecdn.net/files/2768/9/shutupmodelloader-1.12.2-1.0.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 238891,
+      "fileID": 2922489,
+      "fileName": "DynamicSurroundings-1.12.2-3.6.1.0.jar",
+      "url": "https://edge.forgecdn.net/files/2922/489/DynamicSurroundings-1.12.2-3.6.1.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 227873,
+      "fileID": 2721268,
+      "fileName": "Ruins-1.12.2.jar",
+      "url": "https://edge.forgecdn.net/files/2721/268/Ruins-1.12.2.jar",
+      "required": true
+    },
+    {
+      "projectID": 238747,
+      "fileID": 2739582,
+      "fileName": "modnametooltip_1.12.2-1.10.1.jar",
+      "url": "https://edge.forgecdn.net/files/2739/582/modnametooltip_1.12.2-1.10.1.jar",
+      "required": true
+    },
+    {
+      "projectID": 293938,
+      "fileID": 2652196,
+      "fileName": "Pewter-1.4.3.jar",
+      "url": "https://edge.forgecdn.net/files/2652/196/Pewter-1.4.3.jar",
+      "required": true
+    },
+    {
+      "projectID": 227441,
+      "fileID": 2456007,
+      "fileName": "FullscreenWindowed-1.12-1.6.0.jar",
+      "url": "https://edge.forgecdn.net/files/2456/7/FullscreenWindowed-1.12-1.6.0.jar",
+      "required": true
+    },
+    {
+      "projectID": 322861,
+      "fileID": 5846793,
+      "fileName": "PackagedExCrafting-1.12.2-1.0.2.25.jar",
+      "url": "https://edge.forgecdn.net/files/5846/793/PackagedExCrafting-1.12.2-1.0.2.25.jar",
+      "required": true
+    },
+    {
+      "projectID": 308383,
+      "fileID": 5846813,
+      "fileName": "PackagedAvaritia-1.12.2-1.0.2.20.jar",
+      "url": "https://edge.forgecdn.net/files/5846/813/PackagedAvaritia-1.12.2-1.0.2.20.jar",
+      "required": true
+    },
+    {
+      "projectID": 293968,
+      "fileID": 2816085,
+      "fileName": "CompactDrawers-1.12.2-1.0.5.125.jar",
+      "url": "https://edge.forgecdn.net/files/2816/85/CompactDrawers-1.12.2-1.0.5.125.jar",
       "required": true
     }
-  ],
-  "overrides": "overrides"
+  ]
 }
