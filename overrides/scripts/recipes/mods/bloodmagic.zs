@@ -42,6 +42,7 @@ BloodAltar.addRecipe(<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:transcende
 BloodAltar.addRecipe(<additions:greedycraft-true_blood_sigil>, <additions:greedycraft-blood_sigil>, 5, 150000, 200, 200);
 BloodAltar.addRecipe(<thaumcraft:curio:3>, <abyssalcraft:shadowgem>, 5, 80000, 150, 150);
 BloodAltar.addRecipe(<thaumcraft:curio:4>, <aether_legacy:ambrosium_shard>, 5, 80000, 150, 150);
+BloodAltar.addRecipe(<thaumcraft:curio:1>, <thaumcraft:amber>, 5, 80000, 150, 150);
 BloodAltar.addRecipe(<additions:greedycraft-pearl_of_knowledge>, <botania:manaresource:1>, 5, 250000, 250, 250);
 BloodAltar.addRecipe(<additions:greedycraft-creative_shard>, <additions:greedycraft-cosmilite_block>, 5, 850000, 700, 700);
 BloodAltar.addRecipe(<additions:bloody-slate_6>, <bloodmagic:slate:4>, 5, 200000, 400, 400);
