@@ -16,6 +16,8 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:gene_builder_controller"
-		}]
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
 	}]
 }

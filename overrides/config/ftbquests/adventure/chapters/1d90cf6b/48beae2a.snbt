@@ -12,7 +12,9 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:loot_power_generator_controller"
-		}]
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "de68f8ba",

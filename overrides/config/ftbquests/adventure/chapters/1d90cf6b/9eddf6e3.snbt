@@ -12,6 +12,8 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:condensation_solidificator_controller"
-		}]
+		}],
+		consume_items: 1b,
+		ignore_nbt: 1b
 	}]
 }

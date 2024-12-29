@@ -12,7 +12,9 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:exp_power_generator_controller"
-		}]
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "796d0bac",

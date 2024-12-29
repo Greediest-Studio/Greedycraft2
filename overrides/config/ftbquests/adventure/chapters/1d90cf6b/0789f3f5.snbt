@@ -15,7 +15,9 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:builder_2_controller"
-		}]
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "c5a903fd",

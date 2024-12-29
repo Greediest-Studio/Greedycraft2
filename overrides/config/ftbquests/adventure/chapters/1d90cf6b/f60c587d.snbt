@@ -20,6 +20,8 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:abyss_ceremony_executant_controller"
-		}]
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
 	}]
 }

@@ -17,6 +17,8 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:air_collector_controller"
-		}]
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
 	}]
 }

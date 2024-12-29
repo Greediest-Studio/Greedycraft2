@@ -12,6 +12,9 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:miner_frozen_controller"
-		}]
+		}],
+		consume_items: 0b,
+		ignore_damage: 1b,
+		ignore_nbt: 1b
 	}]
 }

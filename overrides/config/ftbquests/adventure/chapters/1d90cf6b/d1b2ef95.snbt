@@ -17,6 +17,8 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:aura_crafter_controller"
-		}]
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
 	}]
 }

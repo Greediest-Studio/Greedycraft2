@@ -78,6 +78,8 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:miner_advanced_controller"
-		}]
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
 	}]
 }

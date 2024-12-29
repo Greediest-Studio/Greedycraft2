@@ -11,6 +11,8 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:builder_6_controller"
-		}]
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
 	}]
 }

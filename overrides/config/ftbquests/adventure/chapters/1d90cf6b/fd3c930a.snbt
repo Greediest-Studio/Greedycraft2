@@ -32,6 +32,8 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:solid_centrifuge_controller"
-		}]
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
 	}]
 }
