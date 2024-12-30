@@ -149,11 +149,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:greedycraft-betweenl
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <additions:bloody-gloomy_passport>, [
 	[null, null, <ore:ingotDullium>, <ore:ingotDullium>, <ore:ingotDullium>, null, null], 
-	[<ore:ingotDullium>, <ore:ingotDullium>, <ore:ingotWigthium>, <ore:dustDark>, <ore:dustDark>, <ore:ingotDullium>, <ore:ingotDullium>], 
-	[<ore:ingotDullium>, <ore:dustDark>, <ore:ingotWigthium>, <ore:ingotWigthium>, <ore:ingotCrimsonite>, <ore:dustDark>, <ore:ingotDullium>], 
-	[<ore:ingotDullium>, <ore:dustDark>, <ore:ingotWigthium>, <additions:bloody-slate_7>, <ore:ingotWigthium>, <ore:dustDark>, <ore:ingotDullium>], 
+	[<ore:ingotDullium>, <ore:ingotDullium>, <ore:ingotWigthium>, <ore:gemDark>, <ore:gemDark>, <ore:ingotDullium>, <ore:ingotDullium>], 
+	[<ore:ingotDullium>, <ore:gemDark>, <ore:ingotWigthium>, <ore:ingotWigthium>, <ore:ingotCrimsonite>, <ore:gemDark>, <ore:ingotDullium>], 
+	[<ore:ingotDullium>, <ore:gemDark>, <ore:ingotWigthium>, <additions:bloody-slate_7>, <ore:ingotWigthium>, <ore:gemDark>, <ore:ingotDullium>], 
 	[null, <ore:ingotDullium>, <ore:ingotCrimsonite>, <ore:ingotWigthium>, <ore:ingotWigthium>, <ore:ingotDullium>, null], 
-	[null, <ore:ingotDullium>, <ore:ingotDullium>, <ore:dustDark>, <ore:ingotWigthium>, <ore:ingotDullium>, null], 
+	[null, <ore:ingotDullium>, <ore:ingotDullium>, <ore:gemDark>, <ore:ingotWigthium>, <ore:ingotDullium>, null], 
 	[null, null, null, <ore:ingotDullium>, null, null, null]
 ]);
 
