@@ -3409,9 +3409,9 @@ leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, 
         } else {
             mtp = (93.0f / 4160.0f) * difficulty as float - (43.0f / 13.0f) as float;
         }
-        return newAmount * mtp * 0.75f as int;
+        return unmodifiedAmount * mtp * 0.75f as int;
     }
-    return newAmount;
+    return unmodifiedAmount;
 };
 leveling_durabilityTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
     if (!isNull(tool.tag.Unbreakable)) {

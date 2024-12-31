@@ -1370,8 +1370,7 @@ GameStagesUtil.stageEnderCharm.addIngredients([
     <ore:ingotDarkice>,
     <ore:nuggetDarkice>,
     <ore:blockDarkice>,
-    <ore:dustDarkice>,
-    <betterendforge:darkice_cluster>
+    <ore:dustDarkice>
 ], true);
 
 GameStagesUtil.stageNoobEngineer.addIngredients([
