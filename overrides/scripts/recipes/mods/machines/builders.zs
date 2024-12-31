@@ -803,3 +803,29 @@ for i in 3 to 7 {
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:abyss_ceremony_executant"}))
         .build();
 }
+//自动狱火熔炉
+for i in 3 to 7 {
+    RecipeBuilder.newBuilder("auto_soul_forge" + i, "builder_" + i, 800)
+        .addFluidInput(<liquid:redstone> * 128000)
+        .addItemInput(<bloodmagic:soul_forge> * 1)
+        .addItemInput(<jaopca:gear.crimsonite> * 2)
+        .addItemInput(<additions:bloody-slate_6> * 4)
+        .addItemInput(<bloodmagic:item_demon_crystal> * 4)
+        .addEnergyPerTickInput(1000)
+        .addItemOutput(<modularmachinery:auto_soul_forge_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:auto_soul_forge"}))
+        .build();
+}
+//血能转换器
+for i in 3 to 7 {
+    RecipeBuilder.newBuilder("blood_energy" + i, "builder_" + i, 800)
+        .addFluidInput(<liquid:redstone> * 128000)
+        .addItemInput(<bloodmagic:soul_forge> * 2)
+        .addItemInput(<jaopca:gear.crimsonite> * 1)
+        .addItemInput(<additions:bloody-slate_6> * 4)
+        .addItemInput(<bloodmagic:item_demon_crystal> * 4)
+        .addEnergyPerTickInput(1000)
+        .addItemOutput(<modularmachinery:blood_energy_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blood_energy"}))
+        .build();
+}

@@ -1,0 +1,20 @@
+{
+	title: "血能转换器",
+	icon: "bloodarsenal:blood_capacitor",
+	x: -1.0d,
+	y: 7.0d,
+	description: "1:1转换RF与生命源质！",
+	text: [
+		"此结构可与狱火熔炉mk2共用结构！"
+	],
+	dependencies: [
+		"5f02df0f"
+	],
+	tasks: [{
+		uid: "c1414cac",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blood_energy_controller"
+		}]
+	}]
+}

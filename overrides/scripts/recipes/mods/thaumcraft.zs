@@ -289,10 +289,10 @@ Infusion.registerRecipe("sanite_siphon", "ABYSSISM_MOBS", <gct_aby:sanite_siphon
 ]);
 
 Infusion.registerRecipe("essentia_component", "", <thaumicenergistics:essentia_cell_1048576k>, 10, [
-    <aspect:caeles> * 100000, 
-    <aspect:praecantatio> * 500000, 
-    <aspect:desiderium> * 500000, 
-    <aspect:machina> * 500000
+    <aspect:caeles> * 10000, 
+    <aspect:praecantatio> * 10000, 
+    <aspect:desiderium> * 10000, 
+    <aspect:machina> * 10000
 ], <thaumicenergistics:essentia_component_64k>, [
     <additions:greedycraft-creative_shard>, 
     <additions:mekaddon-arcane_control_circuit>, 
