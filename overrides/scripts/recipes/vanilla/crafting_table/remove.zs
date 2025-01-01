@@ -114,6 +114,7 @@ val removedRecipes as IIngredient[] = [
     <cyclicmagic:energy_pipe>,
     <cyclicmagic:fluid_pipe>,
     <cyclicmagic:battery>,
+    <cyclicmagic:battery_infinite>,
     <projectex:stone_table>,
     <cyclicmagic:wand_hypno>,
     <waystones:warp_stone>,
