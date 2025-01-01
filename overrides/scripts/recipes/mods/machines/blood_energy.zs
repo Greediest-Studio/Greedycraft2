@@ -31,6 +31,6 @@ RecipeBuilder.newBuilder("blood_to_rf", "blood_energy", 1)
 RecipeBuilder.newBuilder("rf_to_blood", "blood_energy", 1)
     .addRecipeTooltip("输入多快输出多快,使用通量网络不要开绕过上限！")
     .addEnergyPerTickInput(10000)
-    .addFluidOutput(<liquid:lifeessence> * 10000)
+    .addFluidOutput(<liquid:lifeessence> * 100)
     .build();
     
