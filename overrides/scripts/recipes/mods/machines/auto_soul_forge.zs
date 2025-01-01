@@ -28,7 +28,10 @@ RecipeBuilder.newBuilder("bloody-darkest_ingot", "auto_soul_forge", 100)
     .addItemInput(<evilcraft:promise:2> * 1)
     .addFluidInput(<liquid:lifeessence> * 100000)
     .addEnergyPerTickInput(10000)
-    .addItemOutput(<additions:bloody-darkest_ingot> * 1)
+    .addItemOutput(<additions:bloody-darkest_ingot>)
+    .setChance(5.0f / 10.0f)
+    .addRecipeTooltip("扩展狱火熔炉使你有概率额外获得产出！")
+    .addItemOutput(<additions:bloody-darkest_ingot> * 2)
     .build();
 
 RecipeBuilder.newBuilder("soul_gem", "auto_soul_forge", 1000)
