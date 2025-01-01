@@ -69,7 +69,7 @@ RecipeBuilder.newBuilder("balanced_slate", "auto_soul_forge", 100)
     .addItemOutput(<additions:bloody-balanced_slate> * 2)
     .addItemOutput(<additions:bloody-balanced_slate>)
     .setChance(5.0f / 10.0f)
-    .addRecipeTooltip("狱火熔炉mk2使你有概率额外获得产出！")
+    .addRecipeTooltip("扩展狱火熔炉使你有概率额外获得产出！")
     .build();
 
 RecipeBuilder.newBuilder("additions:bloody-reagent_ghost", "auto_soul_forge", 100)
@@ -87,7 +87,7 @@ RecipeBuilder.newBuilder("additions:bloody-reagent_ghost", "auto_soul_forge", 10
     .addItemOutput(<additions:bloody-reagent_ghost> * 1)
     .addItemOutput(<additions:bloody-reagent_ghost>)
     .setChance(5.0f / 10.0f)
-    .addRecipeTooltip("狱火熔炉mk2使你有概率额外获得产出！")
+    .addRecipeTooltip("扩展狱火熔炉使你有概率额外获得产出！")
     .build();
 
 RecipeBuilder.newBuilder("shufushiji", "auto_soul_forge", 100)
@@ -105,7 +105,7 @@ RecipeBuilder.newBuilder("shufushiji", "auto_soul_forge", 100)
     .addItemOutput(<bloodmagic:component:8> * 1)
     .addItemOutput(<bloodmagic:component:8>)
     .setChance(5.0f / 10.0f)
-    .addRecipeTooltip("狱火熔炉mk2使你有概率额外获得产出！")
+    .addRecipeTooltip("扩展狱火熔炉使你有概率额外获得产出！")
     .build();
 
 RecipeBuilder.newBuilder("blood_diamond", "auto_soul_forge", 100)
@@ -124,7 +124,7 @@ RecipeBuilder.newBuilder("blood_diamond", "auto_soul_forge", 100)
     .addItemOutput(<bloodarsenal:blood_diamond:3> * 1)
     .addItemOutput(<bloodarsenal:blood_diamond:3>)
     .setChance(5.0f / 10.0f)
-    .addRecipeTooltip("狱火熔炉mk2使你有概率额外获得产出！")
+    .addRecipeTooltip("扩展狱火熔炉使你有概率额外获得产出！")
     .build();
 
 RecipeBuilder.newBuilder("blood_iron", "auto_soul_forge", 100)
@@ -143,7 +143,7 @@ RecipeBuilder.newBuilder("blood_iron", "auto_soul_forge", 100)
     .addItemOutput(<bloodarsenal:base_item:3> * 1)
     .addItemOutput(<bloodarsenal:base_item:3>)
     .setChance(5.0f / 10.0f)
-    .addRecipeTooltip("狱火熔炉mk2使你有概率额外获得产出！")
+    .addRecipeTooltip("扩展狱火熔炉使你有概率额外获得产出！")
     .build();
 
 RecipeBuilder.newBuilder("slate1", "auto_soul_forge", 100)
