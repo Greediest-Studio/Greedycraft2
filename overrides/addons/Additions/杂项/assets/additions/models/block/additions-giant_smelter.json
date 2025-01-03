@@ -1,0 +1,13 @@
+
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "additions:blocks/additions-giant_smelter_bottom",
+    "up": "additions:blocks/additions-giant_smelter_head",
+    "north": "additions:blocks/additions-giant_smelter",
+    "east": "additions:blocks/additions-giant_smelter_side",
+    "south": "additions:blocks/additions-giant_smelter_side",
+    "west": "additions:blocks/additions-giant_smelter_side",
+    "particle": "additions:blocks/additions-giant_smelter_bottom"
+  }
+}

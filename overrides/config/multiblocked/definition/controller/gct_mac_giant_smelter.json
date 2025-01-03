@@ -1,0 +1,224 @@
+{
+  "version": 2,
+  "location": "gct_mac:giant_smelter",
+  "traits": {
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "1",
+        "x": 79,
+        "y": 20,
+        "autoIO": true
+      }
+    ],
+    "background": "multiblocked:textures/giant_smelter.png"
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasCollision": true,
+    "destroyTime": 10.0,
+    "explosionResistance": 10.0,
+    "harvestLevel": 1,
+    "stackSize": 64,
+    "tabGroup": "multiblocked"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "additions:additions-giant_smelter",
+          "meta": 0
+        },
+        "type": "blockstate"
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "renderer": {
+        "state": {
+          "id": "additions:additions-giant_smelter_on",
+          "meta": 0
+        },
+        "type": "blockstate"
+      },
+      "lightEmissive": 15,
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "giant_smelter",
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "RIGHT",
+      "UP"
+    ],
+    "pattern": [
+      [
+        " AAA ",
+        "AAAAA",
+        "AAAAF",
+        "AAAAA",
+        " AAA "
+      ],
+      [
+        " ABA ",
+        "ADDDA",
+        "BDDD@",
+        "ADDDA",
+        " ABA "
+      ],
+      [
+        " CCC ",
+        "C   C",
+        "C   G",
+        "C   C",
+        " CCC "
+      ],
+      [
+        "     ",
+        " CCC ",
+        " CCC ",
+        " CCC ",
+        "     "
+      ],
+      [
+        "     ",
+        " EEE ",
+        " EEE ",
+        " EEE ",
+        "     "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "output": {
+        "capability": "tc6_aspect",
+        "type": "capability",
+        "minCount": 1,
+        "maxCount": 9,
+        "previewCount": 9,
+        "io": "OUT",
+        "customTips": "源质输出"
+      },
+      "A": {
+        "states": [
+          {
+            "id": "mekanism:reinforcedplasticblock",
+            "meta": 6
+          }
+        ],
+        "type": "states"
+      },
+      "controller": {
+        "location": "gct_mac:giant_smelter",
+        "type": "component"
+      },
+      "B": {
+        "states": [
+          {
+            "id": "thermalfoundation:glass_alloy",
+            "meta": 7
+          }
+        ],
+        "type": "states"
+      },
+      "C": {
+        "states": [
+          {
+            "id": "mekanism:reinforcedplasticblock",
+            "meta": 15
+          }
+        ],
+        "type": "states"
+      },
+      "D": {
+        "states": [
+          {
+            "id": "thermalfoundation:fluid_pyrotheum",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "F": {
+        "states": [
+          {
+            "id": "thaumadditions:mithrillium_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "G": {
+        "states": [
+          {
+            "id": "additions:greedycraft-flux_block",
+            "meta": 0
+          }
+        ],
+        "type": "states"
+      },
+      "air": {
+        "type": "air"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "output",
+        "air"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ]
+    }
+  }
+}

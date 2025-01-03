@@ -1,0 +1,1603 @@
+{
+  "name": "giant_smelter",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "44",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"sol\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "sol",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "45",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"volatus\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "volatus",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "46",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"alienis\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "alienis",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "47",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"motus\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "motus",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "48",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"ventus\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "ventus",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "49",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"terra\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "terra",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "50",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"vapor\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "vapor",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "51",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"tempus\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "tempus",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "52",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"fabrico\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "fabrico",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "53",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"praecantatio\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "praecantatio",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "10",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"ignis\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "ignis",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "54",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"exitium\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "exitium",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "11",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"auram\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "auram",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "55",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"dreadia\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "dreadia",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "12",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"bestia\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "bestia",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "56",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"herba\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "herba",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "13",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"desiderium\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "desiderium",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "57",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"coralos\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "coralos",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "14",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"vacuos\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "vacuos",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "15",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"perditio\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "perditio",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "16",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"fluctus\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "fluctus",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "17",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"ordo\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "ordo",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "18",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"caeles\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "caeles",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "19",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"mortuus\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "mortuus",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "1",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"infernum\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "infernum",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "2",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"sonus\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "sonus",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "3",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"machina\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "machina",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "4",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"abyss\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "abyss",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "5",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"tempestas\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "tempestas",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "6",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"praemunio\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "praemunio",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "7",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"aversio\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "aversio",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "8",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"instrumentum\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "instrumentum",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "9",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"metallum\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "metallum",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "20",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"visum\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "visum",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "21",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"exanimis\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "exanimis",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "22",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"potentia\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "potentia",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "23",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"imperium\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "imperium",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "24",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"primitivus\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "primitivus",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "25",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"sensus\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "sensus",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "26",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"vinculum\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "vinculum",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "27",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"humanus\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "humanus",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "28",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"permutatio\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "permutatio",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "29",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"draco\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "draco",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "30",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"cognitio\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "cognitio",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "31",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"tenebrae\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "tenebrae",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "32",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"alkimia\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "alkimia",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "33",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"gelum\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "gelum",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "34",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"aqua\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "aqua",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "35",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"cthulhu\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "cthulhu",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "36",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"structura\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "structura",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "37",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"pulvis\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "pulvis",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "38",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"victus\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "victus",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "39",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"spiritus\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "spiritus",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "40",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"vitium\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "vitium",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "41",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"aer\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "aer",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "42",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"vitreus\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "vitreus",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "uid": "43",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "chance": 1.0,
+            "content": {
+              "amount": 1,
+              "matches": [
+                "{id:\"thaumadditions:vis_pod\",Count:1,Damage:0s,tag:{Aspect:\"lux\"}}"
+              ]
+            }
+          }
+        ]
+      },
+      "outputs": {
+        "tc6_aspect": [
+          {
+            "chance": 1.0,
+            "content": {
+              "aspect": "lux",
+              "amount": 5
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
