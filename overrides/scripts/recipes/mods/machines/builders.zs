@@ -829,3 +829,16 @@ for i in 3 to 7 {
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blood_energy"}))
         .build();
 }
+//战利品制造者
+for i in 4 to 7 {
+    RecipeBuilder.newBuilder("loot_creater" + i, "builder_" + i, 800)
+        .addFluidInput(<liquid:redstone> * 128000)
+        .addFluidInput(<liquid:lifeessence> * 204800)
+        .addItemInput(<jaopca:gear.killer_alloy> * 4)
+        .addItemInput(<draconicevolution:chaotic_core> * 8)
+        .addItemInput(<jaopca:gear.murderite> * 1)
+        .addEnergyPerTickInput(1000)
+        .addItemOutput(<modularmachinery:loot_creater_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:loot_creater"}))
+        .build();
+}

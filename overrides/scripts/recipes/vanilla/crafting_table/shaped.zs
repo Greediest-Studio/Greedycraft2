@@ -46,6 +46,7 @@ recipes.remove(<divinerpg:serenade_of_health>);
 
 
 
+
 recipes.addShaped(<gugu-utils:starlightinputhatch:2>, [[<modularmachinery:itemmodularium>, <ore:ingotAstralMetal>, <modularmachinery:itemmodularium>],[<ore:ingotAstralMetal>, <gugu-utils:starlightinputhatch:1>, <ore:ingotAstralMetal>], [<modularmachinery:itemmodularium>, <ore:ingotAstralMetal>, <modularmachinery:itemmodularium>]]);
 recipes.addShaped(<additions:botaniaddon-elfsteel_block>, [[<ore:ingotElfsteel>, <ore:ingotElfsteel>, <ore:ingotElfsteel>],[<ore:ingotElfsteel>, <ore:ingotElfsteel>, <ore:ingotElfsteel>], [<ore:ingotElfsteel>, <ore:ingotElfsteel>, <ore:ingotElfsteel>]]);
 recipes.addShaped(<actuallyadditions:block_giant_chest_large>, [[<prefab:item_bundle_of_timber>, <ore:ingotIridium>, <prefab:item_bundle_of_timber>],[<ore:ingotIridium>, <actuallyadditions:block_giant_chest_medium>, <ore:ingotIridium>], [<prefab:item_bundle_of_timber>, <ore:ingotIridium>, <prefab:item_bundle_of_timber>]]);
@@ -1547,6 +1548,11 @@ recipes.addShaped(<gct_ores:stormy_shard>, [
     [<gct_ores:stormy_fragment_large>, <gct_ores:stormy_fragment_large>, <gct_ores:stormy_fragment_large>], 
     [<gct_ores:stormy_fragment_large>, <gct_ores:stormy_fragment_large>, <gct_ores:stormy_fragment_large>], 
     [<gct_ores:stormy_fragment_large>, <gct_ores:stormy_fragment_large>, <gct_ores:stormy_fragment_large>]
+    ]);
+recipes.addShaped(<mekanismgenerators:generator:12>, [
+    [<mekanismgenerators:generator:10>, <mekanismgenerators:generator:10>, <mekanismgenerators:generator:10>], 
+    [<mekanismgenerators:generator:10>, null, <mekanismgenerators:generator:10>], 
+    [<mekanismgenerators:generator:10>, <mekanismgenerators:generator:10>, <mekanismgenerators:generator:10>]
     ]);
 
 /* Templates
