@@ -617,7 +617,7 @@ RecipeUtil.addShaped("auto_gen_-1988060210", <extrautils2:rainbowgenerator>, [
 ]);
 RecipeUtil.addShaped("auto_gen_-360710734", <extrautils2:chickenring>, [
     [<ore:feather>, <minecraft:iron_ingot>, <ore:feather>],
-    [<minecraft:iron_ingot>, <magicfeather:magicfeather>, <minecraft:iron_ingot>],
+    [<minecraft:iron_ingot>, <thaumicaugmentation:elytra_harness>, <minecraft:iron_ingot>],
     [<ore:feather>, <minecraft:iron_ingot>, <ore:feather>]
 ]);
 RecipeUtil.addShaped("auto_gen_-2072364347", <minecraft:spawn_egg>.withTag({EntityTag:{id:"minecraft:ghast"}}), [
@@ -665,7 +665,7 @@ RecipeUtil.addShaped("auto_gen_272915411", <minecraft:crafting_table> * 4, [
 ]);
 RecipeUtil.addShaped("auto_gen_-1836563570", <projecte:item.pe_swrg>, [
     [<ore:feather>, <ore:shardCreative>, <ore:feather>],
-    [<magicfeather:magicfeather>, <projecte:item.pe_ring_iron_band>, <magicfeather:magicfeather>],
+    [<twilightforest:peacock_fan>, <projecte:item.pe_ring_iron_band>, <thaumicaugmentation:elytra_harness>],
     [<ore:feather>, <ore:shardCreative>, <ore:feather>]
 ]);
 RecipeUtil.addShaped("auto_gen_1736866776", <actuallyadditions:item_wings_of_the_bats>, [

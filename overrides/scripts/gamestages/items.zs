@@ -269,7 +269,6 @@ GameStagesUtil.stageAwakened.addIngredients([
     <ore:blockTerraAlloy>,
     <ore:ingotTerraAlloy>,
     <actuallyadditions:item_misc:15>,
-    <magicfeather:magicfeather>,
     <minecraft:bedrock>,
     <ore:ingotProtonium>,
     <ore:blockProtonium>,
