@@ -26,8 +26,6 @@ val disabledItems as IIngredient[] = [
     <gct_mac:model_ender_forge>,
     <actuallyadditions:item_bag>,
     <charm:totem_of_shielding>,
-    <additions:greedycraft-astral_projector_2>,
-    <additions:greedycraft-astral_projector>,
     <nuclearcraft:ingot_former>,
     <tiths:ore_steamium>,
     <actuallyadditions:block_phantom_breaker>,
@@ -1066,8 +1064,6 @@ val disabledItems as IIngredient[] = [
     <gct_mac:model_atomic_acidor>,
     <gct_mac:model_atomic_decayer>,
     <gct_mac:model_atomic_viberator>,
-    <gct_mobs:reserver>,
-    <gct_mobs:god_agglomeration_plate>,
     <cfm:item_package>,
     <cfm:item_envelope_signed>,
     <cfm:present>,
@@ -1574,6 +1570,17 @@ for ingredient in disabledItems {
         JEI.removeAndHide(item);
         item.addTooltip(game.localize("greedycraft.stage.disabled_item.tooltip"));
     }
+}
+
+val HideItem as IItemStack[] = [
+    <gct_mobs:god_agglomeration_plate>,
+    <gct_mobs:reserver>,
+    <additions:greedycraft-astral_projector>,
+    <additions:greedycraft-astral_projector_2>
+];
+
+for i in HideItem {
+    JEI.removeAndHide(i);
 }
 
 for recipe in recipes.all {

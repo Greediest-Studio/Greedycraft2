@@ -51,7 +51,18 @@
           "meta": 0
         },
         "type": "blockstate"
-      }
+      },
+      "lightEmissive": 0,
+      "shape": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.5,
+          1.0
+        ]
+      ]
     },
     "idle": {
       "renderer": {
@@ -61,9 +72,31 @@
         },
         "type": "blockstate"
       },
+      "lightEmissive": 0,
+      "shape": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.5,
+          1.0
+        ]
+      ],
       "parent": "unformed"
     },
     "working": {
+      "lightEmissive": 0,
+      "shape": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.5,
+          1.0
+        ]
+      ],
       "parent": "idle"
     },
     "suspend": {
