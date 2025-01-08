@@ -113,3 +113,17 @@ RecipeBuilder.newBuilder("mourner" , "loot_creater" , "750")
     .addEnergyPerTickInput(50000)
     .addItemOutput(<defiledlands:essence_mourner> * 16)
     .build();
+
+//每种至少170只是给人打的吗（恼
+RecipeBuilder.newBuilder("rod" , "loot_creater" , "200")
+    .addFluidInput(<liquid:lifeessence> * 250000)
+    .addEnergyPerTickInput(100000)
+    .addItemInput(<jaopca:gear.thermallite> * 1).setChance(0.02)
+    .addItemOutput(<gct_mobs:bthdz_rod> * 1).setChance(0.3)
+    .addItemOutput(<gct_mobs:bligtz_rod> * 1).setChance(0.3)
+    .addItemOutput(<gct_mobs:bninz_rod> * 1).setChance(0.3)
+    .addItemOutput(<gct_mobs:bnatuz_rod> * 1).setChance(0.3)
+    .addItemOutput(<thermalfoundation:material:2048> * 1).setChance(0.3)
+    .addItemOutput(<thermalfoundation:material:2050> * 1).setChance(0.3)
+    .addItemOutput(<thermalfoundation:material:2052> * 1).setChance(0.3)
+    .build();

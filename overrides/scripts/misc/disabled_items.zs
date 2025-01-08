@@ -1061,9 +1061,6 @@ val disabledItems as IIngredient[] = [
     <thebetweenlands:ring_of_power>,
     <thebetweenlands:empty_amate_map>,
     <thebetweenlands:amate_map>,
-    <gct_mac:model_atomic_acidor>,
-    <gct_mac:model_atomic_decayer>,
-    <gct_mac:model_atomic_viberator>,
     <cfm:item_package>,
     <cfm:item_envelope_signed>,
     <cfm:present>,
@@ -1576,7 +1573,10 @@ val HideItem as IItemStack[] = [
     <gct_mobs:god_agglomeration_plate>,
     <gct_mobs:reserver>,
     <additions:greedycraft-astral_projector>,
-    <additions:greedycraft-astral_projector_2>
+    <additions:greedycraft-astral_projector_2>,
+    <gct_mac:model_atomic_viberator>,
+    <gct_mac:model_atomic_acidor>,
+    <gct_mac:model_atomic_decayer>
 ];
 
 for i in HideItem {
