@@ -114,7 +114,6 @@ RecipeBuilder.newBuilder("mourner" , "loot_creater" , "750")
     .addItemOutput(<defiledlands:essence_mourner> * 16)
     .build();
 
-//每种至少170只是给人打的吗（恼
 RecipeBuilder.newBuilder("rod" , "loot_creater" , "200")
     .addFluidInput(<liquid:lifeessence> * 250000)
     .addEnergyPerTickInput(100000)
@@ -126,4 +125,14 @@ RecipeBuilder.newBuilder("rod" , "loot_creater" , "200")
     .addItemOutput(<thermalfoundation:material:2048> * 1).setChance(0.3)
     .addItemOutput(<thermalfoundation:material:2050> * 1).setChance(0.3)
     .addItemOutput(<thermalfoundation:material:2052> * 1).setChance(0.3)
+    .build();
+
+RecipeBuilder.newBuilder("betwnite" , "loot_creater" , "250")
+    .addFluidInput(<liquid:lifeessence> * 100000)
+    .addItemInput(<jaopca:block.betwnite> * 1).setChance(0.0)
+    .addEnergyPerTickInput(50000)
+    .addItemOutput(<additions:greedycraft-rotiron_scrap> * 1).setChance(0.5)
+    .addItemOutput(<additions:greedycraft-dirtshape> * 1)
+    .addItemOutput(<additions:greedycraft-bone_shard> * 1)
+    .addItemOutput(<thebetweenlands:sap_spit> *1)
     .build();
