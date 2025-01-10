@@ -842,3 +842,14 @@ for i in 4 to 7 {
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:loot_creater"}))
         .build();
 }
+//快速充能台
+for i in 3 to 7 {
+    RecipeBuilder.newBuilder("empowerer" + i, "builder_" + i, 1200)
+        .addFluidInput(<liquid:redstone> * 4500)
+        .addItemInput(<actuallyadditions:item_crystal_empowered:2> * 32)
+        .addItemInput(<actuallyadditions:item_crystal_empowered> * 32)
+        .addEnergyPerTickInput(120)
+        .addItemOutput(<modularmachinery:empowerer_controller>) 
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:empowerer"})) 
+        .build();        
+}
