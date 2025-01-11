@@ -14,6 +14,18 @@
 		type: "item",
 		items: [{
 			item: "chisel:chisel_iron"
+		},
+		{
+			id: "chisel:chisel_diamond",
+			tag: {
+				chiseldata: {}
+			}
+		},
+		{
+			id: "chisel:chisel_hitech",
+			tag: {
+				chiseldata: {}
+			}
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b

@@ -445,6 +445,7 @@ Melting.addRecipe(<liquid:darkice> * 4, <betterendforge:ancient_emerald_ice>, 90
 Melting.addRecipe(<liquid:unshapable_liquid> * 1000, <additions:bloody-unshapable_matter>, 200);
 Melting.addRecipe(<liquid:pruified> * 13, <additions:greedycraft-pruified_matter>, 1250);
 Melting.addRecipe(<liquid:fracturite> * 432, <twilightforest:mazebreaker_pickaxe>, 2500);
+Melting.addRecipe(<liquid:imitatium> * VOLUME_INGOT, <tiths:ingot_imitatium>, 1250);
 
 Fuel.registerFuel(<liquid:infernium> * 1, 600);
 Fuel.registerFuel(<liquid:cosmilite> * 1, 2400);
