@@ -403,7 +403,7 @@ for i in 5 to 7 {
         .addItemInput(<tconstruct:pick_head>.withTag({Material: "asgardium"}) * 2)
         .addItemInput(<tconstruct:binding>.withTag({Material: "gravitite"}) * 2)
         .addItemInput(<tconstruct:tool_rod>.withTag({Material: "zanite"}) * 2)
-        .addItemInput(<aether_legacy:holystone> * 128)
+        .addItemInput(<aether_legacy:holystone_brick> * 128)
         .addItemInput(<tinkersaether:valkyrie_ingot> * 2)
         .addEnergyPerTickInput(120)
         .addItemOutput(<modularmachinery:miner_aether_controller>)
