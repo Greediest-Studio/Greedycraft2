@@ -229,3 +229,12 @@ sodiumhydroxide.setNeedBucket(true);
 sodiumhydroxide.setNeedFluid(false);
 sodiumhydroxide.setIcon("blocks/gas_clear");
 sodiumhydroxide.register();
+
+var impurelifeessence = GasFactory.createGas("impurelifeessence");
+impurelifeessence.setUnlocalizedName("impurelifeessence");
+impurelifeessence.setColorize(true);
+impurelifeessence.setColor(0x9b3937);
+impurelifeessence.setNeedBucket(true);
+impurelifeessence.setNeedFluid(false);
+impurelifeessence.setIcon("blocks/gas_clear");
+impurelifeessence.register();

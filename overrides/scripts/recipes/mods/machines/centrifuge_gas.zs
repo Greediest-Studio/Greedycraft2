@@ -38,6 +38,7 @@ RecipeBuilder.newBuilder("centrifuge_air_nether", "gas_centrifuge", 100)
     .addGasOutput(<gas:hydrogenchloride> * 8)
     .addGasOutput(<gas:hydrogenfluoride> * 4)
     .addGasOutput(<gas:bromine> * 4)
+    .addGasOutput(<gas:impurelifeessence> * 200)
     .build();
 
 RecipeBuilder.newBuilder("centrifuge_air_end", "gas_centrifuge", 100)
@@ -62,4 +63,11 @@ RecipeBuilder.newBuilder("centrifuge_air_abyss", "gas_centrifuge", 100)
     .addGasOutput(<gas:ozone> * 15)
     .addGasOutput(<gas:ammonia> * 15)
     .addGasOutput(<gas:phosphine> * 8)
+    .build();
+
+RecipeBuilder.newBuilder("lifeessence", "gas_centrifuge", 40)
+    .addGasInput(<gas:impurelifeessence> * 1000)
+    .addEnergyPerTickInput(200)
+    .addFluidOutput(<liquid:substrate_lifeessence> * 90)
+    .addItemOutput(<thermalfoundation:material:864> * 1)
     .build();

@@ -363,6 +363,7 @@ val localizationMap as string[string][string] = {
         "fluid.radon": "氡",
         "fluid.hecryo_liquid": "§c凛冰-液氦溶液",
         "fluid.liquidgoldenamber": "熔融金琥珀",
+        "fluid.substrate_lifeessence": "生命源质底物",
         //
         "fluid.liquidlegend": "荣耀浆液",
         //

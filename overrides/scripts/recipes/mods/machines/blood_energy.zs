@@ -19,17 +19,12 @@ import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
 MachineModifier.setMaxParallelism("blood_energy", 1000000000 as int);
-MachineModifier.setInternalParallelism("blood_energy", 1000000000 as int);
+MachineModifier.setInternalParallelism("blood_energy", 64 as int);
 
-
-RecipeBuilder.newBuilder("blood_to_rf", "blood_energy", 1)
-    .addRecipeTooltip("输入多快输出多快,使用通量网络不要开绕过上限！")
-    .addFluidInput(<liquid:lifeessence> * 10000)
-    .addEnergyPerTickOutput(10000)
-    .build();
-
-RecipeBuilder.newBuilder("rf_to_blood", "blood_energy", 1)
-    .addRecipeTooltip("输入多快输出多快,使用通量网络不要开绕过上限！")
+RecipeBuilder.newBuilder("blood", "blood_energy", 1)
+    .addRecipeTooltip("自带64并行！")
+    .addFluidInput(<liquid:substrate_lifeessence> * 100)
+    .addAspectInput("victus", 25)
     .addEnergyPerTickInput(10000)
     .addFluidOutput(<liquid:lifeessence> * 100)
     .build();

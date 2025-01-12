@@ -3013,3 +3013,14 @@ hecryo_liquid.stillLocation = "base:fluids/liquid";
 hecryo_liquid.flowingLocation = "base:fluids/liquid_flow";
 hecryo_liquid.register();
 
+val substrate_lifeessence = mods.contenttweaker.VanillaFactory.createFluid("substrate_lifeessence", Color.fromHex("7e0000").getIntColor());
+substrate_lifeessence.material = <blockmaterial:water>;
+substrate_lifeessence.viscosity = 300;
+substrate_lifeessence.density = 1;
+substrate_lifeessence.colorize = true;
+substrate_lifeessence.temperature = 400;
+substrate_lifeessence.luminosity = 0;
+substrate_lifeessence.color = Color.fromHex("7e0000").getIntColor();
+substrate_lifeessence.stillLocation = "base:fluids/liquid";
+substrate_lifeessence.flowingLocation = "base:fluids/liquid_flow";
+substrate_lifeessence.register();
