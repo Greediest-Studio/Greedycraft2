@@ -33,5 +33,6 @@ RecipeBuilder.newBuilder("miner_Molten", "miner_molten", speed, 0)//这两个"mi
     .setChance(0.12f / 10.0f)
     .addItemOutput(<taiga:osram_ore>)
     .setChance(0.5f / 10.0f)
-    
+    .addItemOutput(<taiga:valyrium_ore>)
+    .setChance(0.5f / 10.0f)
     .build();//注册语句，不能省略，否则会报错

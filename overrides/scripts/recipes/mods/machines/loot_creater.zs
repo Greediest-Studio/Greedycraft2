@@ -136,3 +136,15 @@ RecipeBuilder.newBuilder("betwnite" , "loot_creater" , "250")
     .addItemOutput(<additions:greedycraft-bone_shard> * 1)
     .addItemOutput(<thebetweenlands:sap_spit> *1)
     .build();
+
+RecipeBuilder.newBuilder("twilit" , "loot_creater" , "250")
+    .addFluidInput(<liquid:lifeessence> * 100000)
+    .addItemInput(<jaopca:block.twilit> * 1).setChance(0.0)
+    .addEnergyPerTickInput(50000)
+    .addItemOutput(<divinerpg:arcanium> * 1)
+    .addItemOutput(<additions:greedycraft-eden_ingot> * 1)
+    .addItemOutput(<additions:greedycraft-wildwood_ingot> * 1)
+    .addItemOutput(<additions:greedycraft-apalachia_ingot> *1)
+    .addItemOutput(<additions:greedycraft-skythern_ingot> * 1)
+    .addItemOutput(<additions:greedycraft-mortum_ingot> * 1)
+    .build();

@@ -38,4 +38,6 @@ RecipeBuilder.newBuilder("miner_hardened", "miner_hardened", speed, 0)
     .setChance(0.05f / 10.0f)    
     .addItemOutput(<gct_ores:witherium_dust>)
     .setChance(0.05f / 10.0f)    
+    .addItemOutput(<taiga:eezo_ore>)
+    .setChance(0.2f / 10.0f)
     .build();
