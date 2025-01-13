@@ -24,7 +24,6 @@ MachineModifier.setInternalParallelism("blood_energy", 64 as int);
 RecipeBuilder.newBuilder("blood", "blood_energy", 1)
     .addRecipeTooltip("自带64并行！")
     .addFluidInput(<liquid:substrate_lifeessence> * 100)
-    .addAspectInput("victus", 25)
     .addEnergyPerTickInput(10000)
     .addFluidOutput(<liquid:lifeessence> * 100)
     .build();
