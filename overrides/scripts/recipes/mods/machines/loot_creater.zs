@@ -148,3 +148,10 @@ RecipeBuilder.newBuilder("twilit" , "loot_creater" , "250")
     .addItemOutput(<additions:greedycraft-skythern_ingot> * 1)
     .addItemOutput(<additions:greedycraft-mortum_ingot> * 1)
     .build();
+
+RecipeBuilder.newBuilder("blacksun" , "loot_creater" , "250")
+    .addFluidInput(<liquid:lifeessence> * 50000)
+    .addItemInput(<additions:bloody-gloomy_passport> * 1)
+    .addEnergyPerTickInput(50000)
+    .addItemOutput(<additions:bloody-darkest_core> * 16)
+    .build();

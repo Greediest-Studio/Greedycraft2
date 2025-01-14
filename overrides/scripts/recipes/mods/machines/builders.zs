@@ -853,3 +853,15 @@ for i in 3 to 7 {
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:empowerer"})) 
         .build();        
 }
+//元始装构器
+for i in 4 to 7 {
+    RecipeBuilder.newBuilder("controller_primordial_creater" + i, "builder_" + i, 1200)
+        .addFluidInput(<liquid:redstone> * 30600)
+        .addItemInput(<jaopca:plate.cursium> * 1)
+        .addItemInput(<jaopca:gear.void> * 16)
+        .addItemInput(<thaumcraft:salis_mundus> * 128)
+        .addEnergyPerTickInput(120)
+        .addItemOutput(<modularmachinery:primordial_creater_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:primordial_creater"}))
+        .build();
+}
