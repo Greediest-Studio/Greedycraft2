@@ -182,3 +182,34 @@ RecipeBuilder.newBuilder("slate2", "auto_soul_forge", 100)
     .setChance(6.0f / 10.0f)
     .build();
 
+RecipeBuilder.newBuilder("sentientmetal", "auto_soul_forge", 100)
+    .addCatalystInput(
+        <additions:greedycraft-proliferation_star> * 1,
+        ["增殖之星的力量使你消耗生命源质大幅减少！！！"],
+        [RecipeModifierBuilder.create("modularmachinery:fluid", "input", 0.1, 1, false).build()]
+    ).setChance(0)
+    .addItemInput(<ore:blockGlass> * 1)
+    .addItemInput(<minecraft:gold_ingot> * 1)
+    .addItemInput(<minecraft:redstone> * 1)
+    .addItemInput(<ore:dyeBlue> * 1)
+    .addItemInput(<additions:stainless_steel_ingot> * 1)
+    .addFluidInput(<liquid:lifeessence> * 1000)
+    .addEnergyPerTickInput(10000)
+    .addItemOutput(<tconevo:metal:30> * 1)
+    .build();
+
+RecipeBuilder.newBuilder("reagent_godness", "auto_soul_forge", 100)
+    .addCatalystInput(
+        <additions:greedycraft-proliferation_star> * 1,
+        ["增殖之星的力量使你消耗生命源质大幅减少！！！"],
+        [RecipeModifierBuilder.create("modularmachinery:fluid", "input", 0.1, 1, false).build()]
+    ).setChance(0)
+    .addItemInput(<gct_ores:everite_ingot> * 1)
+    .addItemInput(<jaopca:dust.eugardite> * 1)
+    .addItemInput(<jaopca:dust.scientificite> * 1)
+    .addItemInput(<jaopca:dust.cosmilite> * 1)
+    .addFluidInput(<liquid:lifeessence> * 100000)
+    .addEnergyPerTickInput(100000)
+    .addItemOutput(<additions:bloody-reagent_godness> * 1)
+    .addItemOutput(<additions:bloody-reagent_godness> * 1).setChance(5.0f / 10.0f)
+    .build();
