@@ -865,3 +865,15 @@ for i in 4 to 7 {
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:primordial_creater"}))
         .build();
 }
+//阿斯加德之门
+for i in 4 to 7 {
+    RecipeBuilder.newBuilder("asgard_portal_creater" + i, "builder_" + i, 1200)
+        .addFluidInput(<liquid:redstone> * 30600)
+        .addItemInput(<jaopca:plate.botanical_awakened> * 1)
+        .addItemInput(<gct_ores:orichalcos_machine_frame> * 16)
+        .addItemInput(<extrabotany:material:3> * 1)
+        .addEnergyPerTickInput(120)
+        .addItemOutput(<modularmachinery:asgard_portal_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:asgard_portal"}))
+        .build();
+}
