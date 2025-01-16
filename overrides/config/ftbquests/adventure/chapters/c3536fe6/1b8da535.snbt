@@ -4,22 +4,28 @@
 	y: -2.0d,
 	description: "使用泣血之泪召唤并击杀三面恶魂",
 	text: [
-		""
+		"因未知原因bug导致无法打出伤害暂时改为复选任务"
 	],
 	dependencies: [
 		"ecc95796"
 	],
 	tasks: [{
-		uid: "54ea7d76",
-		type: "kill",
-		entity: "ageofminecraft:ghastherhelpful",
-		value: 1L
+		uid: "4129c5ef",
+		type: "checkmark",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "ageofminecraft:ghastherhelpful"
+				}
+			}
+		}
 	}],
 	rewards: [{
 		uid: "1c56e66b",
 		type: "item",
 		item: "additions:greedycraft-lavarite_ingot",
-		count: 8
+		count: 64
 	},
 	{
 		uid: "1bd04cea",
