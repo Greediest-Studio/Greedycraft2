@@ -877,3 +877,14 @@ for i in 4 to 7 {
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:asgard_portal"}))
         .build();
 }
+//复合装配体
+for i in 4 to 7 {
+    RecipeBuilder.newBuilder("giant_factory" + i, "builder_" + i, 1200)
+        .addFluidInput(<liquid:redstone> * 30600)
+        .addItemInput(<mekanism:controlcircuit:3> * 16)
+        .addItemInput(<modularmachinery:blockcasing:4> * 256)
+        .addEnergyPerTickInput(120)
+        .addItemOutput(<modularmachinery:giant_factory_factory_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:giant_factory"}))
+        .build();
+}
