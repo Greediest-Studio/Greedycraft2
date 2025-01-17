@@ -30,10 +30,18 @@ import mods.zenutils.DataUpdateOperation.MERGE;
 import mods.zenutils.DataUpdateOperation.REMOVE;
 import mods.zenutils.DataUpdateOperation.BUMP;
 
-MachineModifier.setMaxThreads("giant_factory", 1024);
-MachineModifier.setInternalParallelism("giant_factory", 16384);
+MachineModifier.setMaxThreads("giant_factory", 64);
+MachineModifier.setInternalParallelism("giant_factory", 16);
 
-//电路板
+//ae相关
+RecipeBuilder.newBuilder("fluix" , "giant_factory" , "1")
+    .addItemInput(<appliedenergistics2:material:1> * 1)
+    .addItemInput(<minecraft:redstone> * 1)
+    .addItemInput(<minecraft:quartz> * 1)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<appliedenergistics2:material:7> * 4)
+    .build();
+
 RecipeBuilder.newBuilder("ae1" , "giant_factory" , "1")
     .addItemInput(<appliedenergistics2:material:5> * 4)
     .addItemInput(<minecraft:gold_ingot> * 4)
@@ -82,7 +90,66 @@ RecipeBuilder.newBuilder("ae6" , "giant_factory" , "1")
     .addItemOutput(<additions:greedycraft-wireless_processor> * 8)
     .build();
 
-//万化
+RecipeBuilder.newBuilder("ae7" , "giant_factory" , "1")
+    .addItemInput(<minecraft:iron_ingot> * 4)
+    .addItemInput(<appliedenergistics2:material:7> * 4)
+    .addItemInput(<minecraft:coal> * 4)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<threng:material> * 8)
+    .build();
+
+//合金
+RecipeBuilder.newBuilder("balancite_ingot" , "giant_factory" , "1")
+    .addItemInput(<additions:aeroite_ingot> * 1)
+    .addItemInput(<additions:aqualite_ingot> * 1)
+    .addItemInput(<additions:asgardium_ingot> * 1)
+    .addItemInput(<additions:ignite_ingot> * 1)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<additions:greedycraft-balancite_ingot> * 4)
+    .build();
+
+RecipeBuilder.newBuilder("bronze" , "giant_factory" , "1")
+    .addItemInput(<thermalfoundation:material:128> * 3)
+    .addItemInput(<thermalfoundation:material:129> * 1)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<thermalfoundation:material:163> * 4)
+    .build();
+
+RecipeBuilder.newBuilder("invar" , "giant_factory" , "1")
+    .addItemInput(<thermalfoundation:material:133> * 1)
+    .addItemInput(<ore:ingotIron> * 2)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<thermalfoundation:material:162> * 3)
+    .build();
+
+RecipeBuilder.newBuilder("steel" , "giant_factory" , "1")
+    .addItemInput(<ore:ingotIron> * 1)
+    .addItemInput(<ore:coal> * 1)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<thermalfoundation:material:160> * 2)
+    .build();
+RecipeBuilder.newBuilder("manganese_steel" , "giant_factory" , "1")
+    .addItemInput(<thermalfoundation:material:160> * 2)
+    .addItemInput(<additions:manganese_ingot> * 1)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<additions:manganese_steel_ingot> * 2)
+    .build();
+RecipeBuilder.newBuilder("stainless_steel_ingot" , "giant_factory" , "1")
+    .addItemInput(<additions:manganese_steel_ingot> * 4)
+    .addItemInput(<thermalfoundation:material:133> * 1)
+    .addItemInput(<additions:chromium_ingot> * 1)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<additions:stainless_steel_ingot> * 4)
+    .build();
+
+RecipeBuilder.newBuilder("ingotModularium" , "giant_factory" , "1")
+    .addItemInput(<minecraft:iron_ingot> * 1)
+    .addItemInput(<thermalfoundation:material:163> * 1)
+    .addItemInput(<minecraft:redstone> * 1)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<modularmachinery:itemmodularium> * 2)
+    .build();
+
 RecipeBuilder.newBuilder("eve_ium" , "giant_factory" , "1")
     .addItemInput(<additions:terra_alloy_ingot> * 1)
     .addItemInput(<gct_ores:sky_alloy_ingot> * 1)
