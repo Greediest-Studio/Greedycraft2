@@ -10,7 +10,6 @@
         "gugu-utils:environmenthatch",
         "gugu-utils:energyoutputport",
         "gugu-utils:sparkmanahatch",
-        "gugu-utils:aspecthatch",
         "gugu-utils:starlightinputhatch",
         "gugu-utils:aurainputhatch",
         "modularmachinery:blocksmartinterface",
@@ -28,7 +27,11 @@
         "modularmachinery:blockimpetusprovideroutput",
         "modularmachinery:blockgridproviderinput",
         "modularmachinery:blockgridprovideroutput",
-        "modularmachinery:blockrainbowprovider"
+        "modularmachinery:blockrainbowprovider",
+        "modularmachinery:blockaspectprovideroutput",
+        "modularmachinery:blockaspectproviderinput",
+        "modularmachinery:blocklifeessenceproviderinput",
+        "modularmachinery:blocklifeessenceprovideroutput"
     ],
     "casings_decorative": [
         "modularmachinery:blockcasing"
