@@ -1,11 +1,11 @@
 {
-	title: "多方块冶炼炉",
+	title: "魔力豆荚特化处理",
 	x: 3.5d,
 	y: -6.0d,
-	description: "几乎瞬间且无消耗的产出源质，代价则是昂贵的造价且只能处理魔力豆荚",
+	description: "瞬间处理魔力豆荚，代价是只能处理魔力豆荚",
 	text: [
 		"你旅途产出源质的顶点，拥有使魔力豆荚分崩离析的力量",
-		"材料从控制器输入，源质从上方源质储罐(最少1个最多9个)输出"
+		"自带多线程，放心输入吧（笑"
 	],
 	dependencies: [
 		"ac1955d7"
@@ -13,8 +13,11 @@
 	tasks: [{
 		uid: "8e494603",
 		type: "item",
+		icon: "modularmachinery:primordial_smelter_factory_controller",
 		items: [{
-			item: "gct_mac:giant_smelter"
-		}]
+			item: "modularmachinery:primordial_smelter_factory_controller"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
 	}]
 }

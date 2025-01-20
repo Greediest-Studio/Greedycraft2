@@ -43,9 +43,16 @@ RecipeBuilder.newBuilder("bluewolffur", "primordial_creater", 100)
     .addItemOutput(<thaumadditions:zeith_fur> * 4)
     .build();
 
-RecipeBuilder.newBuilder("eldritch_steel", "primordial_creater", 100)
+RecipeBuilder.newBuilder("eldritch_slime", "primordial_creater", 100)
+    .addItemInput(<thaumcraft:bottle_taint> * 8)
+    .addItemInput(<ore:slimeball> * 1)
+    .addEnergyPerTickInput(10000)
+    .addItemOutput(<additions:greedycraft-eldritch_slime> * 1)
+    .build();
+
+RecipeBuilder.newBuilder("corruptium_ingot", "primordial_creater", 100)
     .addItemInput(<thaumcraft:bottle_taint> * 8)
     .addItemInput(<tconevo:metal:20> * 1)
     .addEnergyPerTickInput(10000)
-    .addItemOutput(<additions:greedycraft-eldritch_steel_ingot> * 1)
+    .addItemOutput(<additions:greedycraft-corruptium_ingot> * 1)
     .build();

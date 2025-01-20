@@ -883,6 +883,8 @@ for i in 4 to 7 {
         .addFluidInput(<liquid:redstone> * 30600)
         .addItemInput(<mekanism:controlcircuit:3> * 16)
         .addItemInput(<modularmachinery:blockcasing:4> * 256)
+        .addItemInput(<draconicevolution:awakened_core> * 64)
+        .addItemInput(<jaopca:gear.chromasteel> * 32)
         .addEnergyPerTickInput(120)
         .addItemOutput(<modularmachinery:giant_factory_factory_controller>)
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:giant_factory"}))

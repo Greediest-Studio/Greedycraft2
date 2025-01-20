@@ -503,6 +503,9 @@ RecipeUtil.addShapeless("essence_super_4", <mysticalagradditions:storage>,
 RecipeUtil.addShapelessOf("rock_crystal_compress", <astralsorcery:blockcustomore:0>,
     <astralsorcery:itemrockcrystalsimple>, 9
 );
+RecipeUtil.addShapeless("primordial_smelter_exchange", <modularmachinery:primordial_smelter_factory_controller> * 1,
+    [<gct_mac:giant_smelter>]
+);
 
 
 /* Template

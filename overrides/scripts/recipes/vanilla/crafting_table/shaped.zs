@@ -1554,6 +1554,26 @@ recipes.addShaped(<mekanismgenerators:generator:12>, [
     [<mekanismgenerators:generator:10>, null, <mekanismgenerators:generator:10>], 
     [<mekanismgenerators:generator:10>, <mekanismgenerators:generator:10>, <mekanismgenerators:generator:10>]
     ]);
+RecipeUtil.addShaped("blockimpetusproviderinput", <modularmachinery:blockimpetusproviderinput>, [
+    [<thaumcraft:plate:3>,<thaumicaugmentation:impetus_relay>,<thaumcraft:plate:3>],
+    [<thaumicaugmentation:impetus_relay>,<thaumicaugmentation:material:3>,<thaumicaugmentation:impetus_relay>],
+    [<thaumcraft:plate:3>,<thaumicaugmentation:impetus_relay>,<thaumcraft:plate:3>]
+]);
+RecipeUtil.addShaped("blockimpetusprovideroutput", <modularmachinery:blockimpetusprovideroutput>, [
+    [<thaumicaugmentation:impetus_relay>,<thaumcraft:plate:3>,<thaumicaugmentation:impetus_relay>],
+    [<thaumcraft:plate:3>,<thaumicaugmentation:material:3>,<thaumcraft:plate:3>],
+    [<thaumicaugmentation:impetus_relay>,<thaumcraft:plate:3>,<thaumicaugmentation:impetus_relay>]
+]);
+RecipeUtil.addShaped("blocklifeessenceproviderinput", <modularmachinery:blocklifeessenceproviderinput>, [
+    [<bloodmagic:blood_rune>,<bloodarsenal:blood_stained_glass_pane>,<bloodmagic:blood_rune>],
+    [<bloodarsenal:blood_stained_glass_pane>,<bloodmagic:item_demon_crystal:1>,<bloodarsenal:blood_stained_glass_pane>],
+    [<bloodmagic:blood_rune>,<bloodarsenal:blood_stained_glass_pane>,<bloodmagic:blood_rune>]
+]);
+RecipeUtil.addShaped("blocklifeessenceprovideroutput", <modularmachinery:blocklifeessenceprovideroutput>, [
+    [<bloodmagic:blood_rune>,<bloodarsenal:blood_stained_glass_pane>,<bloodmagic:blood_rune>],
+    [<bloodarsenal:blood_stained_glass_pane>,<bloodmagic:item_demon_crystal:3>,<bloodarsenal:blood_stained_glass_pane>],
+    [<bloodmagic:blood_rune>,<bloodarsenal:blood_stained_glass_pane>,<bloodmagic:blood_rune>]
+]);
 
 /* Templates
 
