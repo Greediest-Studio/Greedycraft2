@@ -217,7 +217,7 @@ RecipeBuilder.newBuilder("awakened_core" , "giant_factory" , "40")
     .addItemInput(<ore:coreExcellent> * 2)
     .addItemInput(<draconicevolution:draconic_ingot> * 2)
     .addItemInput(<additions:aeonsteel_ingot> * 2)
-    .addItemInput(<ore:metalAweakened> * 2)
+    .addItemInput(<ore:metalAwakened> * 2)
     .addEnergyPerTickInput(100000)
     .addItemOutput(<draconicevolution:awakened_core> * 1)
     .build();
