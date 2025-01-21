@@ -27,7 +27,7 @@ MachineModifier.setMaxThreads("primordial_smelter", 16);
 MachineModifier.setInternalParallelism("primordial_smelter", 16);
 
 var aspectlist = ["aer", "primitivus", "motus", "ignis", "herba", "instrumentum", "victus", "visum", "sonus", "fluctus", "draco", "exanimis", "permutatio", "potentia", "lux", "bestia", "vitium", "terra", "tenebrae", "vacuos", "coralos", "aqua", "praemunio", "abyss", "gelum", "auram", "imperium", "caeles", "dreadia", "machina", "sensus", "vapor", "desiderium", "mortuus", "structura", "cthulhu", "cognitio", "alienis", "sol", "spiritus", "volatus", "metallum", "exitium", "fabrico", "ordo", "vitreus", "ventus", "vinculum", "alkimia", "aversio", "tempestas", "humanus", "pulvis", "praecantatio", "tempus", "infernum", "perditio"] as string[];
-var input =<thaumadditions:vis_pod>;
+var input =<thaumadditions:vis_pod>.withTag({});
 
 /*
 aer 1
@@ -90,7 +90,7 @@ perditio 57
 */
 
 for asp in aspectlist {
-    input.updateTag({"Aspect":asp});
+    input = input.updateTag({"Aspect":asp});
     val builder as RecipePrimer = RecipeBuilder.newBuilder(asp ~ "1" , "primordial_smelter", 1);
     builder.addItemInput(input);
     builder.addEnergyPerTickInput(512);
