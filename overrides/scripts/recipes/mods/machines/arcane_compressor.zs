@@ -12,72 +12,81 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
 import mods.modularmachinery.RecipeBuilder;
+import mods.modularmachinery.RecipePrimer;
 import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
-RecipeBuilder.newBuilder("arcane_compression_air", "arcane_compressor", 360)
-    .addItemInput(<thaumicrestoration:item_ingot> * 4)
-    .addItemInput(<thaumicwonders:primordial_grain> * 16)
-    .addFluidInput(<liquid:pruified> * 16)
-    .addImpetusInput(100)
-    .addAspectInput("aer", 1200)
-    .setDimension([826])
-    .addItemOutput(<additions:greedycraft-blizzium_ingot>)
-    .build();
-RecipeBuilder.newBuilder("arcane_compression_fire", "arcane_compressor", 360)
-    .addItemInput(<thaumicrestoration:item_ingot:1> * 4)
-    .addItemInput(<thaumicwonders:primordial_grain> * 16)
-    .addFluidInput(<liquid:pruified> * 16)
-    .addImpetusInput(100)
-    .addAspectInput("ignis", 1200)
-    .setDimension([822])
-    .addItemOutput(<additions:greedycraft-blazingium_ingot>)
-    .build();
-RecipeBuilder.newBuilder("arcane_compression_water", "arcane_compressor", 360)
-    .addItemInput(<thaumicrestoration:item_ingot:2> * 4)
-    .addItemInput(<thaumicwonders:primordial_grain> * 16)
-    .addFluidInput(<liquid:pruified> * 16)
-    .addImpetusInput(100)
-    .addAspectInput("aqua", 1200)
-    .setDimension([823])
-    .addItemOutput(<additions:greedycraft-tidalium_ingot>)
-    .build();
-RecipeBuilder.newBuilder("arcane_compression_earth", "arcane_compressor", 360)
-    .addItemInput(<thaumicrestoration:item_ingot:3> * 4)
-    .addItemInput(<thaumicwonders:primordial_grain> * 16)
-    .addFluidInput(<liquid:pruified> * 16)
-    .addImpetusInput(100)
-    .addAspectInput("terra", 1200)
-    .setDimension([824])
-    .addItemOutput(<additions:greedycraft-terranium_ingot>)
-    .build();
-RecipeBuilder.newBuilder("arcane_compression_order", "arcane_compressor", 360)
-    .addItemInput(<thaumicrestoration:item_ingot:4> * 4)
-    .addItemInput(<thaumicwonders:primordial_grain> * 16)
-    .addFluidInput(<liquid:pruified> * 16)
-    .addImpetusInput(100)
-    .addAspectInput("ordo", 1200)
-    .setDimension([820])
-    .addItemOutput(<additions:greedycraft-enlightium_ingot>)
-    .build();
-RecipeBuilder.newBuilder("arcane_compression_chaos", "arcane_compressor", 360)
-    .addItemInput(<thaumicrestoration:item_ingot:5> * 4)
-    .addItemInput(<thaumicwonders:primordial_grain> * 16)
-    .addFluidInput(<liquid:pruified> * 16)
-    .addImpetusInput(100)
-    .addAspectInput("perditio", 1200)
-    .setDimension([821])
-    .addItemOutput(<additions:greedycraft-debarcium_ingot>)
-    .build();
-RecipeBuilder.newBuilder("arcane_compression_hexacite", "arcane_compressor", 720)
-    .addItemInput(<ore:ingotBlizzium>)
-    .addItemInput(<ore:ingotBlazingium>)
-    .addItemInput(<ore:ingotTidalium>)
-    .addItemInput(<ore:ingotTerranium>)
-    .addItemInput(<ore:ingotEnlightium>)
-    .addItemInput(<ore:ingotDebarcium>)
-    .addFluidInput(<liquid:everite> * 576)
-    .addImpetusInput(480)
-    .setDimension([78])
-    .addItemOutput(<additions:greedycraft-hexacite_ingot> * 2)
-    .build();
+val builder as RecipePrimer = RecipeBuilder.newBuilder("arcane_compression_aer", "arcane_compressor", 360);
+builder.addFluidInput(<liquid:pruified> * 16);
+builder.addItemInputs([
+    <thaumicrestoration:item_ingot> * 4,
+    <thaumicwonders:primordial_grain> * 16,
+]);
+builder.addImpetusInput(100);
+builder.setDimension([822]);
+builder.addThaumcraftAspcetInput(1200, "aer");
+builder.addItemOutput(<additions:greedycraft-blizzium_ingot> * 8);
+builder.build();
+
+val builder1 as RecipePrimer = RecipeBuilder.newBuilder("arcane_compression_fire", "arcane_compressor", 360);
+builder1.addItemInput(<thaumicrestoration:item_ingot:1> * 4);
+builder1.addItemInput(<thaumicwonders:primordial_grain> * 16);
+builder1.addFluidInput(<liquid:pruified> * 16);
+builder1.addImpetusInput(100);
+builder1.addThaumcraftAspcetInput(1200, "Ignis");
+builder1.setDimension([822]);
+builder1.addItemOutput(<additions:greedycraft-blazingium_ingot>);
+builder1.build();
+
+val builder2 as RecipePrimer = RecipeBuilder.newBuilder("arcane_compression_water", "arcane_compressor", 360);
+builder2.addItemInput(<thaumicrestoration:item_ingot:2> * 4);
+builder2.addItemInput(<thaumicwonders:primordial_grain> * 16);
+builder2.addFluidInput(<liquid:pruified> * 16);
+builder2.addImpetusInput(100);
+builder2.addThaumcraftAspcetInput(1200, "Aqua");
+builder2.setDimension([823]);
+builder2.addItemOutput(<additions:greedycraft-tidalium_ingot>);
+builder2.build();
+
+val builder3 as RecipePrimer = RecipeBuilder.newBuilder("arcane_compression_earth", "arcane_compressor", 360);
+builder3.addItemInput(<thaumicrestoration:item_ingot:3> * 4);
+builder3.addItemInput(<thaumicwonders:primordial_grain> * 16);
+builder3.addFluidInput(<liquid:pruified> * 16);
+builder3.addImpetusInput(100);
+builder3.addThaumcraftAspcetInput(1200, "Terra");
+builder3.setDimension([824]);
+builder3.addItemOutput(<additions:greedycraft-terranium_ingot>);
+builder3.build();
+
+val builder4 as RecipePrimer = RecipeBuilder.newBuilder("arcane_compression_order", "arcane_compressor", 360);
+builder4.addItemInput(<thaumicrestoration:item_ingot:4> * 4);
+builder4.addItemInput(<thaumicwonders:primordial_grain> * 16);
+builder4.addFluidInput(<liquid:pruified> * 16);
+builder4.addImpetusInput(100);
+builder4.addThaumcraftAspcetInput(1200, "Ordo");
+builder4.setDimension([820]);
+builder4.addItemOutput(<additions:greedycraft-enlightium_ingot>);
+builder4.build();
+
+val builder5 as RecipePrimer = RecipeBuilder.newBuilder("arcane_compression_chaos", "arcane_compressor", 360);
+builder5.addItemInput(<thaumicrestoration:item_ingot:5> * 4);
+builder5.addItemInput(<thaumicwonders:primordial_grain> * 16);
+builder5.addFluidInput(<liquid:pruified> * 16);
+builder5.addImpetusInput(100);
+builder5.addThaumcraftAspcetInput(1200, "Perditio");
+builder5.setDimension([821]);
+builder5.addItemOutput(<additions:greedycraft-debarcium_ingot>);
+builder5.build();
+
+val builder6 as RecipePrimer = RecipeBuilder.newBuilder("arcane_compression_hexacite", "arcane_compressor", 720);
+builder6.addItemInput(<ore:ingotBlizzium>);
+builder6.addItemInput(<ore:ingotBlazingium>);
+builder6.addItemInput(<ore:ingotTidalium>);
+builder6.addItemInput(<ore:ingotTerranium>);
+builder6.addItemInput(<ore:ingotEnlightium>);
+builder6.addItemInput(<ore:ingotDebarcium>);
+builder6.addFluidInput(<liquid:everite> * 576);
+builder6.addImpetusInput(480);
+builder6.setDimension([78]);
+builder6.addItemOutput(<additions:greedycraft-hexacite_ingot> * 2);
+builder6.build();

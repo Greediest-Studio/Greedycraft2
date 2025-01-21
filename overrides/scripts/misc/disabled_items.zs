@@ -1518,6 +1518,8 @@ val disabledItems as IIngredient[] = [
     <modularmachinery:blockauraprovideroutput>,
     <modularmachinery:blockmanaproviderinput>,
     <modularmachinery:blockmanaprovideroutput>,
+    <modularmachinery:blockaspectproviderinput>,
+    <modularmachinery:blockaspectprovideroutput>,
     <spiceoflife:bookfoodjournal>
 ] as IIngredient[];
 
