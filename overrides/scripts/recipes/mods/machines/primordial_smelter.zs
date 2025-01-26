@@ -23,11 +23,12 @@ import mods.modularmachinery.RecipePrimer;
 import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
-MachineModifier.setMaxThreads("primordial_smelter", 16);
+MachineModifier.setMaxThreads("primordial_smelter", 100);
 MachineModifier.setInternalParallelism("primordial_smelter", 16);
 
 var aspectlist = ["aer", "primitivus", "motus", "ignis", "herba", "instrumentum", "victus", "visum", "sonus", "fluctus", "draco", "exanimis", "permutatio", "potentia", "lux", "bestia", "vitium", "terra", "tenebrae", "vacuos", "coralos", "aqua", "praemunio", "abyss", "gelum", "auram", "imperium", "caeles", "dreadia", "machina", "sensus", "vapor", "desiderium", "mortuus", "structura", "cthulhu", "cognitio", "alienis", "sol", "spiritus", "volatus", "metallum", "exitium", "fabrico", "ordo", "vitreus", "ventus", "vinculum", "alkimia", "aversio", "tempestas", "humanus", "pulvis", "praecantatio", "tempus", "infernum", "perditio"] as string[];
 var input =<thaumadditions:vis_pod>.withTag({});
+var thread = 1 as int;
 
 /*
 aer 1
@@ -91,9 +92,11 @@ perditio 57
 
 for asp in aspectlist {
     input = input.updateTag({"Aspect":asp});
-    val builder as RecipePrimer = RecipeBuilder.newBuilder(asp ~ "1" , "primordial_smelter", 1);
+    MachineModifier.addCoreThread("primordial_smelter", FactoryRecipeThread.createCoreThread("输出" ~ asp ~ "源质"));
+    val builder as RecipePrimer = RecipeBuilder.newBuilder(asp ~ "1" , "primordial_smelter", 1 , thread , false);
     builder.addItemInput(input);
     builder.addEnergyPerTickInput(512);
     builder.addThaumcraftAspcetOutput(5, asp);
     builder.build();
+    thread += 1;
 }
