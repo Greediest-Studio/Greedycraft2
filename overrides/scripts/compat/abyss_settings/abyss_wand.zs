@@ -15,7 +15,7 @@ import mods.contenttweaker.Commands;
 
 import mods.ctutils.utils.Math;
 
-import scripts.sanity_settings.sanity_functions as SanityHelper;
+import scripts.compat.abyss_settings.sanity_functions as SanityHelper;
 
 $expand IEntity$rorateAroundBlock(pos as IBlockPos, polar as double[]) {
     var newX as int = vectorToPos(polar, pos.x as double, pos.y as double, pos.z as double)[0] as int;

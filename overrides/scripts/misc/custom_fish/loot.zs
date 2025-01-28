@@ -1,7 +1,7 @@
 
-import scripts.contenttweaker.custom_fish.lib.fish;
-import scripts.contenttweaker.custom_fish.lib.fishWeight;
-import scripts.contenttweaker.custom_fish.lib.createFishWeigthItemList;
+import scripts.misc.custom_fish.lib.fish;
+import scripts.misc.custom_fish.lib.fishWeight;
+import scripts.misc.custom_fish.lib.createFishWeigthItemList;
 /*
 fish()
 .setFluid(<liquid:fluidedmana>)设置钓鱼液体

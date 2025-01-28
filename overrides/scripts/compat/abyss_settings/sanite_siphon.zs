@@ -9,7 +9,7 @@ import crafttweaker.world.IWorld;
 
 import mods.ctutils.utils.Math;
 
-import scripts.sanity_settings.sanity_functions as SanityHelper;
+import scripts.compat.abyss_settings.sanity_functions as SanityHelper;
 
 events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     if (!event.world.isRemote()) {
