@@ -38,7 +38,7 @@ val killEntities as string[] = [
     "endreborn:endlord",
     "endreborn:endguard",
     "minecraft:ghast",
-    "ageofminecraft:ghastherhelpful",
+    "netherex:ghast_queen",
     "dungeonsmod:ironslime",
     "minecraft:slime",
     "dungeonsmod:kraken",

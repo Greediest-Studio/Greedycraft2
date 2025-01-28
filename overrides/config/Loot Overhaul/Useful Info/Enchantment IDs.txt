@@ -376,6 +376,22 @@ tofucraft:ench_batch
    - Max Level: 3
 
 
+oe:mobstomp
+   - Id: 46
+   - Rarity: UNCOMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 2
+
+
+oe:loyalty
+   - Id: 47
+   - Rarity: UNCOMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
+
+
 minecraft:power
    - Id: 48
    - Rarity: COMMON
@@ -824,17 +840,17 @@ blue_skies:uncivilized
    - Max Level: 5
 
 
-naturalpledge:heavy
+oe:channeling
    - Id: 104
-   - Rarity: COMMON
+   - Rarity: UNCOMMON
    - Treasure: false
    - Min Level: 1
-   - Max Level: 5
+   - Max Level: 1
 
 
-naturalpledge:light
+oe:is_watermob
    - Id: 105
-   - Rarity: COMMON
+   - Rarity: RARE
    - Treasure: false
    - Min Level: 1
    - Max Level: 5
@@ -894,5 +910,29 @@ endreborn:ender_killer
    - Treasure: false
    - Min Level: 1
    - Max Level: 2
+
+
+oe:is_wet
+   - Id: 113
+   - Rarity: RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 5
+
+
+betterendforge:end_veil
+   - Id: 114
+   - Rarity: VERY_RARE
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 1
+
+
+oe:riptide
+   - Id: 115
+   - Rarity: UNCOMMON
+   - Treasure: false
+   - Min Level: 1
+   - Max Level: 3
 
 

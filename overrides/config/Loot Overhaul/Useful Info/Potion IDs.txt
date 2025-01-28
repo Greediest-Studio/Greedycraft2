@@ -1872,12 +1872,12 @@ xaerominimap:no_entity_radar_harmful
 	- Is Beneficial: false
 
 
-soot:ale
+oe:conduit_power
    - Id: 233
-   - Color: -8565224
+   - Color: 1950417
    - Is Instant: false
    - Is Bad: false
-	- Is Beneficial: true
+	- Is Beneficial: false
 
 
 xaerominimap:no_waypoints
@@ -1896,12 +1896,12 @@ xaerominimap:no_waypoints_harmful
 	- Is Beneficial: false
 
 
-soot:inspiration
+oe:descent
    - Id: 236
-   - Color: -12517600
+   - Color: 10053222
    - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
+   - Is Bad: true
+	- Is Beneficial: false
 
 
 xaerominimap:no_cave_maps
@@ -1920,12 +1920,12 @@ xaerominimap:no_cave_maps_harmful
 	- Is Beneficial: false
 
 
-soot:inner_fire
+betterendforge:end_veil
    - Id: 239
-   - Color: -1040352
+   - Color: 873802
    - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
+   - Is Bad: true
+	- Is Beneficial: false
 
 
 xaeroworldmap:no_world_map
@@ -1944,12 +1944,12 @@ xaeroworldmap:no_world_map_harmful
 	- Is Beneficial: false
 
 
-soot:steadfast
+ee:entrapped
    - Id: 242
-   - Color: -6881281
+   - Color: 0
    - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
+   - Is Bad: true
+	- Is Beneficial: false
 
 
 thaumadditions:sonus
@@ -2472,6 +2472,38 @@ contenttweaker:worldguard
 	- Is Beneficial: true
 
 
+ageofminecraft:bleeding
+   - Id: 308
+   - Color: 16711680
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+ageofminecraft:breaking
+   - Id: 309
+   - Color: 13015637
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+contenttweaker:blood
+   - Id: 310
+   - Color: 8519680
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
+contenttweaker:rejuvenation
+   - Id: 311
+   - Color: 8519680
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: true
+
+
 evilcraft:paling
    - Id: 312
    - Color: 3676513
@@ -2512,68 +2544,20 @@ gct_tcon:anger_accumulation
 	- Is Beneficial: false
 
 
-naturalpledge:trap_seer
+ee:the_madness
    - Id: 317
-   - Color: 16757823
+   - Color: 0
    - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
+   - Is Bad: true
+	- Is Beneficial: false
 
 
-naturalpledge:everburn
+ee:corrupted
    - Id: 318
-   - Color: 14506015
+   - Color: 0
    - Is Instant: false
    - Is Bad: true
 	- Is Beneficial: false
-
-
-naturalpledge:drab
-   - Id: 319
-   - Color: 8421504
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-naturalpledge:overcharged
-   - Id: 320
-   - Color: 58583
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-naturalpledge:featherweight
-   - Id: 321
-   - Color: 8900331
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-naturalpledge:faithlessness
-   - Id: 322
-   - Color: 9528420
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-naturalpledge:rooted
-   - Id: 323
-   - Color: 6507781
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-naturalpledge:immortality
-   - Id: 324
-   - Color: 14859542
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
 
 
 gct_aby:stop
@@ -2584,12 +2568,12 @@ gct_aby:stop
 	- Is Beneficial: false
 
 
-gct_aby:bluefire
+rustic:undying
    - Id: 326
-   - Color: -16763956
+   - Color: 15391620
    - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
+   - Is Bad: false
+	- Is Beneficial: true
 
 
 gct_aby:zjarugoth_damage
@@ -2600,57 +2584,17 @@ gct_aby:zjarugoth_damage
 	- Is Beneficial: false
 
 
-soot:lifedrinker
-   - Id: 328
-   - Color: -10873836
+rustic:fullmetal
+   - Id: 335
+   - Color: 8220521
    - Is Instant: false
    - Is Bad: false
 	- Is Beneficial: true
 
 
-soot:snowpoff
-   - Id: 329
-   - Color: -983041
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
-
-
-soot:tipsy
-   - Id: 330
-   - Color: -10861036
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-soot:stoutness
-   - Id: 331
-   - Color: -983168
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
-
-
-soot:glass
-   - Id: 332
-   - Color: -1
-   - Is Instant: false
-   - Is Bad: true
-	- Is Beneficial: false
-
-
-soot:fire_lung
-   - Id: 333
-   - Color: -6791873
-   - Is Instant: false
-   - Is Bad: false
-	- Is Beneficial: true
-
-
-soot:experience_boost
-   - Id: 334
-   - Color: -8323312
+rustic:fire_power
+   - Id: 336
+   - Color: 16764525
    - Is Instant: false
    - Is Bad: false
 	- Is Beneficial: true

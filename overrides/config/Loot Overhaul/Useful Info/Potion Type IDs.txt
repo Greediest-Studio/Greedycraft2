@@ -1111,6 +1111,16 @@ gct_aby:stop
        gct_aby:stop - 3600 - 0 - false - true
 
 
+ageofminecraft:long_breaking
+   - Effects: 
+       ageofminecraft:breaking - 9600 - 0 - false - true
+
+
+ageofminecraft:breaking
+   - Effects: 
+       ageofminecraft:breaking - 3600 - 0 - false - true
+
+
 variegated:boon
    - Effects: 
        variegated:fishermans_friend - 4800 - 0 - false - true
@@ -1695,6 +1705,34 @@ gct_mobs:world_end
 gct_mobs:anti_anyposion
    - Effects: 
        gct_mobs:anti_anyposion - 3600 - 0 - false - true
+
+
+ageofminecraft:strong_breaking
+   - Effects: 
+       ageofminecraft:breaking - 1800 - 1 - false - true
+
+
+oe:turtle_master_long
+   - Effects: 
+       minecraft:resistance - 800 - 3 - false - true
+       minecraft:slowness - 800 - 3 - false - true
+
+
+oe:descent
+   - Effects: 
+       oe:descent - 2400 - 0 - false - true
+
+
+oe:turtle_master
+   - Effects: 
+       minecraft:resistance - 400 - 3 - false - true
+       minecraft:slowness - 400 - 3 - false - true
+
+
+oe:turtle_master_strong
+   - Effects: 
+       minecraft:resistance - 400 - 5 - false - true
+       minecraft:slowness - 400 - 5 - false - true
 
 
 gct_aby:abyssplague

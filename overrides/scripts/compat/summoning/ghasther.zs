@@ -24,7 +24,7 @@ SummoningDirector.addSummonInfo(
         .setConsumeCatalyst(true)
         .setReagents([])
         .addMob(MobInfo.create()
-            .setMob("ageofminecraft:ghastherhelpful")
+            .setMob("netherex:ghast_queen")
             .setCount(1)
             .setOffset(0,10,0)
             .setSpread(1,1,1)

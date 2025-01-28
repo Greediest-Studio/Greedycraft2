@@ -1,0 +1,142 @@
+[
+  {
+    "id": 0,
+    "inputs": [
+      {
+        "name": "minecraft:wheat_seeds"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "minecraft:wheat",
+        "meta": 0,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "inputs": [
+      {
+        "name": "minecraft:beetroot_seeds"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "minecraft:beetroot",
+        "meta": 0,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "inputs": [
+      {
+        "name": "minecraft:melon_seeds"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "minecraft:melon",
+        "meta": 0,
+        "count": 3
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "inputs": [
+      {
+        "name": "minecraft:pumpkin_seeds"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "minecraft:pumpkin",
+        "meta": 0,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "inputs": [
+      {
+        "name": "minecraft:potato"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "minecraft:potato",
+        "meta": 0,
+        "count": 1
+      },
+      {
+        "name": "minecraft:poisonous_potato",
+        "meta": 0,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "inputs": [
+      {
+        "name": "minecraft:carrot"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "minecraft:carrot",
+        "meta": 0,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "inputs": [
+      {
+        "name": "minecraft:reeds"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "minecraft:reeds",
+        "meta": 0,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "inputs": [
+      {
+        "name": "minecraft:cactus"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "minecraft:cactus",
+        "meta": 0,
+        "count": 1
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "inputs": [
+      {
+        "name": "minecraft:nether_wart"
+      }
+    ],
+    "outputs": [
+      {
+        "name": "minecraft:nether_wart",
+        "meta": 0,
+        "count": 1
+      }
+    ]
+  }
+]

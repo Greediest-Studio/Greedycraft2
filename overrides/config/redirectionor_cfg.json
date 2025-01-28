@@ -1,4 +1,9 @@
 {
+  "printTransformedClasses": false,
   "type": "block",
-  "contains": []
+  "contains": [],
+  "prefix": [
+    "com.google.common.util.concurrent.DirectExecutor"
+  ],
+  "generateConfigWhenCrash": true
 }
