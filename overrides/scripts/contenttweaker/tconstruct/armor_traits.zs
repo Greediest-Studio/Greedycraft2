@@ -1506,7 +1506,7 @@ aura_infusedTrait.onArmorTick = function(trait, armor, world, player) {
             if (auraBefore >= 10000) {
                 if (armor.damage != 0) {
                     armor.mutable().updateTag({aura : (auraBefore - 10000) as int});
-                    ToolHelper.healTool(armor.native, 1, player.native);
+                    ToolHelper.healTool(armor.mutable().native, 1, player.native);
                 }
             }
         } else {
@@ -1831,13 +1831,13 @@ oxylessTrait.onHurt = function(trait, armor, player, source, damage, newDamage, 
                     oxide : 0 as int
                 }
             );
-            ToolHelper.damageTool(armor.native, pow(2, level) as int, player.native);
+            ToolHelper.damageTool(armor.mutable().native, pow(2, level) as int, player.native);
             return newDamage * (1.0f - (pow(2.15f, level as int) * 0.01f));
         } else if (armor.tag.oxide as int == 5) {
             if (Math.random() < 0.4) {
                 ToolHelper.breakTool(armor.native, player.native);
             } else {
-                ToolHelper.damageTool(armor.native, 32, player.native);
+                ToolHelper.damageTool(armor.mutable().native, 32, player.native);
             }
             armor.mutable().updateTag(
                 {
@@ -1885,7 +1885,7 @@ erosionTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_
 erosionTrait.onArmorTick = function(trait, armor, world, player) {
         if (Math.random() < 0.01) {
             if (Math.random() < 0.005) {
-                ToolHelper.damageTool(armor.native, 10000, player.native);
+                ToolHelper.damageTool(armor.mutable().native, 10000, player.native);
             }
             if (Math.random() < 0.003) {
                 player.health -= 32.0f;
@@ -1994,7 +1994,7 @@ splitTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_tr
 splitTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player)) {
         if (Math.random() < 0.01) {
-            ToolHelper.damageTool(armor.native, (armor.maxDamage * 0.07f) as int, player.native);
+            ToolHelper.damageTool(armor.mutable().native, (armor.maxDamage * 0.07f) as int, player.native);
             return 0.0f;
         }
     }
@@ -2571,10 +2571,10 @@ leveling_durabilityTrait.onArmorDamaged = function(trait, armor, damageSource, a
             mtp = (93.0f / 4160.0f) * difficulty as float - (43.0f / 13.0f) as float;
         }
         if ((amount * mtp) as int >= armor.maxDamage / 200) {
-            ToolHelper.damageTool(armor.native, armor.maxDamage / 200, player.native);
+            ToolHelper.damageTool(armor.mutable().native, armor.maxDamage / 200, player.native);
             return newAmount;
         } else {
-            ToolHelper.damageTool(armor.native, (amount * (mtp - 1.0f)) as int, player.native);
+            ToolHelper.damageTool(armor.mutable().native, (amount * (mtp - 1.0f)) as int, player.native);
             return newAmount;
         }
     }

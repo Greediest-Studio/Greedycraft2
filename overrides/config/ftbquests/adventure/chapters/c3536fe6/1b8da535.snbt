@@ -2,24 +2,18 @@
 	title: "§b泪之终结",
 	x: -10.0d,
 	y: -2.0d,
-	description: "使用泣血之泪召唤并击杀三面恶魂",
+	description: "使用泣血之泪召唤并击杀恶魂女王",
 	text: [
-		"因未知原因bug导致无法打出伤害暂时改为复选任务"
+		""
 	],
 	dependencies: [
 		"ecc95796"
 	],
 	tasks: [{
-		uid: "4129c5ef",
-		type: "checkmark",
-		icon: {
-			id: "minecraft:spawn_egg",
-			tag: {
-				EntityTag: {
-					id: "ageofminecraft:ghastherhelpful"
-				}
-			}
-		}
+		uid: "a2421161",
+		type: "kill",
+		entity: "netherex:ghast_queen",
+		value: 1L
 	}],
 	rewards: [{
 		uid: "1c56e66b",

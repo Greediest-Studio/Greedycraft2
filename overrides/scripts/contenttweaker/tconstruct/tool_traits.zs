@@ -1983,7 +1983,7 @@ aura_infusedTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSel
             if (auraBefore >= 10000) {
                 if (tool.damage != 0) {
                     tool.mutable().updateTag({aura : (auraBefore - 10000) as int});
-                    ToolHelper.healTool(tool.native, 1, player.native);
+                    ToolHelper.healTool(tool.mutable().native, 1, player.native);
                 }
             }
         } else {
@@ -3166,7 +3166,7 @@ maze_breakerTrait.getMiningSpeed = function(trait, tool, event) {
 };
 maze_breakerTrait.onBlockHarvestDrops = function(thisTrait, tool, event) {
     if (event.block.definition.id has "maze_stone") {
-        ToolHelper.healTool(tool.native, 17, event.player.native);
+        ToolHelper.healTool(tool.mutable().native, 17, event.player.native);
     }
 };
 maze_breakerTrait.register();
@@ -3411,7 +3411,7 @@ leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, 
         } else {
             mtp = (93.0f / 4160.0f) * difficulty as float - (43.0f / 13.0f) as float;
         }
-        ToolHelper.damageTool(tool.native, (newAmount * (mtp - 1.0f) as float) as int, player.native);
+        ToolHelper.damageTool(tool.mutable().native, (newAmount * (mtp - 1.0f) as float) as int, player.native);
         return newAmount;
     }
     return newAmount;
@@ -3426,7 +3426,7 @@ leveling_durabilityTrait.afterBlockBreak = function(trait, tool, world, blocksta
         } else {
             mtp = (93.0f / 4160.0f) * difficulty as float - (43.0f / 13.0f) as float;
         }
-        ToolHelper.damageTool(tool.native, (2 * (mtp - 1.0f) as float) as int, player.native);
+        ToolHelper.damageTool(tool.mutable().native, (2 * (mtp - 1.0f) as float) as int, player.native);
     }
 };
 leveling_durabilityTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
@@ -3599,7 +3599,7 @@ unshapedTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelecte
     if (owner instanceof IPlayer) {
         var player as IPlayer = owner;
         if (player.getDimension() == 20) {
-            ToolHelper.healTool(tool.native, 1, player.native);
+            ToolHelper.healTool(tool.mutable().native, 1, player.native);
         }
     }
 };
