@@ -1,0 +1,962 @@
+item.invisible.name=隐形物品  
+item.crystalball.name=水晶刺球
+item.spinsword.name=千刃剑
+item.lamented.name=哀影之眼
+item.sword.name=哀影之剑
+item.endfall_sword.name=末路之剑
+item.end_info_book.name=末地指南
+entity.end_king.name=灰烬之王
+entity.red_crystal.name=邪恶尖刺
+entity.red_sword.name=邪恶之剑
+entity.fire_ball_red.name=邪恶火球
+entity.nuke.name=邪恶核弹
+entity.crystal_boss.name=哀影者
+entity.end_knight.name=堕落骑士
+entity.end_mage.name=堕落法师
+entity.end_shield.name=堕落守卫
+entity.snatcher.name=末地潜行者
+entity.end_lord.name=邪恶骑士
+entity.heal_aura.name=治疗光环
+entity.buffker.name=潜影构装体
+entity.crystal_ball.name=尖刺水晶
+entity.purple_ball.name=充能水晶
+entity.crytsal_ground.name=哀影者的尖刺
+entity.entity_idle.name=空置生物
+entity.end_bug.name=灰烬寄生虫
+entity.ghost_king_phase.name=灰烬之王的幽灵
+entity.ring_eye.name=王之凝视
+entity.controller.name=古镀灵
+entity.lame_eye.name=哀影之眼
+entity.ghost_arm.name=王之幽灵手臂
+entity.mini_nuke.name=微型核弹
+entity.pghost_king.name=王的影子
+entity.end_seeker.name=末地探索者
+entity.end_seeker_prime.name=末地探索者长老
+entity.end_eye.name=末影之眼
+entity.sword_attack.name=王之剑
+entity.friend_king.name=灰烬之王的幽灵
+entity.golem_b.name=荒芜傀儡
+entity.depths_chomper.name=深渊吞噬者
+entity.large_aoe.name=大范围AOE攻击
+entity.sword_spike.name=吞噬者之牙  
+entity.avalon.name=阿瓦隆商人
+entity.mini_avalon.name=迷你阿瓦隆
+entity.aoe_avalon.name=阿瓦隆的AOE攻击
+entity.barrend_parasite.name=荒芜寄生虫
+entity.lamentor_wave.name=哀影者攻击波
+entity.lidoped.name=利多普
+entity.mad_spirit.name=疯狂之灵
+entity.void_tripod.name=荒芜行者
+entity.big_rick.name=进化荒芜寄生虫
+entity.move_tile_aoe.name=Boss AOE攻击波
+entity.parasite_bomb.name=蓄电酸液炸弹
+entity.parasite_bomb_aoe.name=寄生虫酸液炸弹
+entity.barrend_guard.name=秘境守卫
+entity.blood_slash.name=领主血刃
+tile.lamented_end_stone.name=哀影末地石
+tile.end_ash.name=灰烬末地石
+tile.ash_brick.name=灰烬砖
+tile.ash_brick_half.name=灰烬砖台阶
+tile.ash_brick_double.name=双层灰烬砖台阶
+tile.end_brick_half.name=末地石砖台阶
+tile.end_stone_stairs.name=末地石砖楼梯
+tile.end_stone_wall.name=末地石砖墙
+tile.end_brick_double.name=双层末地石砖台阶
+tile.ash_brick_stairs.name=灰烬砖楼梯
+tile.ash_brick_wall.name=灰烬砖墙
+tile.ash_brick_pillar.name=灰烬支柱
+tile.ash_skull.name=錾制灰烬骷髅砖
+tile.brown_stone.name=烧焦的末地石
+tile.brown_brick.name=烧焦的末地砖
+tile.brown_smooth.name=烧焦的平滑末地石
+tile.purple_crystal.name=纯净水晶块
+tile.purple_crystal_top.name=小型纯净水晶块
+tile.door_on.name=激活的信号控制块
+tile.ash_door.name=信号控制块
+tile.reverse_on.name=激活的反向信号块
+tile.reverse_off.name=反向信号块
+tile.source_on.name=激活的信号块
+tile.source_off.name=信号块
+tile.ash_trap_floor.name=灰烬陷阱块
+tile.ash_chisle.name=錾制灰烬砖
+tile.end_barrier.name=卢斯特里亚屏障
+tile.end_door.name=屏障生成器
+tile.red_crystal.name=卢斯特里亚水晶块
+tile.red_crystal_top.name=小型卢斯特里亚水晶块
+tile.red_lamp.name=灰烬动力灯
+tile.key_block.name=哀影钥匙孔
+tile.end_pillar.name=末地石砖替代品
+tile.compulsor.name=末影引力块
+tile.mini_nuke.name=微型核弹
+tile.ash_key_block.name=灰烬钥匙孔
+tile.bare_sand.name=荒芜砂岩
+tile.bare_stone.name=荒芜石
+tile.bare_stone_wall.name=平滑荒芜石墙
+tile.bare_stone_half.name=荒芜石台阶
+tile.bare_stone_double.name=双层荒芜石台阶
+tile.bare_vine.name=荒芜血藤
+tile.bare_grass.name=荒芜杂草
+tile.bare_acid.name=荒芜黏液
+tile.eye_stone_lit.name=荒芜狂乱之石
+fluid.bare_acid.name=荒芜黏液
+tile.eye_stone.name=雕纹荒芜石
+tile.bare_stone_smooth.name=平滑荒芜石
+tile.bare_plant.name=荒芜血草
+tile.bare_stairs.name=荒芜石楼梯
+tile.bare_leaves.name=荒芜树叶
+tile.bare_bark.name=荒芜原木
+tile.bare_bark_hole.name=荒芜树洞
+tile.end_h_plant.name=图里姆植物
+tile.ash_chute.name=灰烬间歇泉
+tile.sprout_plant.name=深渊藤芽
+tile.sprout_vine.name=深渊藤蔓
+tile.sprout_stone.name=深渊覆藤石
+tile.amber_ore.name=心源矿石
+tile.ash_spawner.name=已删除的灰烬刷怪笼
+tile.disappearing_spawner.name=已删除的刷怪笼
+tile.mega_structure_block.name=巨型结构块
+tile.amber_torch.name=心源火把
+tile.smooth_obi.name=古代平滑黑曜石
+tile.eyed_obi.name=古代有孔黑曜石
+tile.obi_health.name=阿瓦隆生命球
+tile.stone_brick_wall.name=石砖墙
+tile.unending_arena.name=荒芜竞技场刷怪笼
+tile.green_crystal.name=瓦库安水晶块
+tile.green_crystal_top.name=小型瓦库安水晶块
+tile.bark_hole_filled.name=填满的荒芜树洞
+tile.bare_stone_cobble.name=荒芜圆石
+tile.bare_planks.name=荒芜木板
+tile.bare_planks_stairs.name=荒芜木楼梯
+tile.bare_planks_half.name=荒芜木台阶
+tile.bare_planks_double.name=双层荒芜木台阶
+tile.bare_bricks.name=荒芜地牢砖
+tile.bare_bricks_hole.name=破损荒芜地牢砖
+tile.bare_bricks_crack.name=裂纹荒芜地牢砖
+tile.bare_small_pot.name=小型密室陶罐
+tile.bare_door.name=荒芜大门
+tile.bare_door_connect.name=荒芜大门连接器
+item.key.name=末地哀影钥匙
+item.red_crystal_item.name=卢斯特里亚水晶
+item.purple_crystal_item.name=纯净水晶
+item.infused_crystal.name=灌注水晶
+item.infusion_core.name=灌注核心
+item.stalker_hide.name=潜行者皮
+item.carapace.name=寄生虫甲壳
+item.soul.name=停滞灵魂
+item.plate.name=镀灵板
+item.medal.name=被遗忘的徽章
+item.dark_ingot.name=暗铁锭
+item.red_sword.name=卢斯特里亚剑
+item.dark_helmet.name=暗铁头盔
+item.dark_chestplate.name=暗铁胸甲
+item.bug_food.name=寄生虫肉
+item.end_bow.name=末路之弓
+item.red_chunk.name=卢斯特里亚水晶碎片
+item.purple_chunk.name=纯净水晶碎片
+item.endfall_helmet.name=末路头盔
+item.endfall_chestplate.name=末路胸甲
+item.endfall_leggings.name=末路护腿
+item.endfall_boots.name=末路靴子
+item.endfall_pickaxe.name=灌注镐
+item.efstaff.name=末路法杖
+item.durable_shield.name=镀灵盾
+item.ash_key.name=末地灰烬钥匙
+item.projpurp.name=紫晶刺球
+item.gun.name=推进枪
+item.heal_food.name=图里姆球茎
+item.king_crown.name=旧时代王冠
+item.amber_ingot.name=心源锭
+item.amber_raw.name=心源粗矿
+item.amber_chestplate.name=心源胸甲
+item.amber_helmet.name=心源头盔
+item.amber_leggings.name=心源护腿
+item.amber_boots.name=心源靴子
+item.brick_rod.name=灰烬砖棍
+item.amber_axe.name=心源斧
+item.chomper_tooth.name=吞噬者之牙
+item.amber_dagger.name=心源匕首
+item.amber_pickaxe.name=心源镐
+item.mod_arrow_chomper.name=吞噬者之箭
+item.mod_arrow_unholy.name=卢斯特里亚药箭
+item.mod_arrow_green.name=瓦库安药箭
+item.red_axe.name=卢斯特里亚斧
+item.pure_axe.name=终末反抗之斧
+item.amber_sword.name=心源剑
+item.obi_coin.name=阿瓦隆之币
+item.bomb_proj.name=阿瓦隆投掷物
+item.green_orb.name=荒芜投掷物
+item.lamented_islands_item.name=哀影群岛画卷
+item.arena_key_1.name=一级荒芜竞技场钥匙
+item.arena_key_2.name=二级荒芜竞技场钥匙
+item.arena_key_3.name=三级荒芜竞技场钥匙
+item.arena_key_4.name=四级荒芜竞技场钥匙
+item.arena_key_5.name=五级荒芜竞技场钥匙
+item.green_chunk.name=瓦库安水晶碎片
+item.green_crystal_item.name=瓦库安水晶
+item.bloodweed_refined.name=精炼血草
+item.lidoped_shell.name=利多普甲壳
+item.lidoped_helmet.name=利多普头盔
+item.lidoped_bucket.name=桶装
+item.spirit_goop.name=疯狂黏液
+item.ultra_goop.name=魔法黏液合剂
+item.memory_stone.name=记忆之石
+item.parasitebomb.name=充能寄生虫炸弹
+item.barrend_tablet.name=Malid的庇护
+item.blood_reinforce.name=血草强化套件
+item.madness_berries.name=灵莓
+item.madness_trinket.name=敏捷护符
+item.mad_trinket.name=疯狂护符
+item.bold_trinket.name=勇气护符
+item.amber_sword_reinforced.name=强化心源剑
+item.amber_dagger_reinforced.name=强化心源匕首
+item.red_sword_reinforced.name=强化卢斯特里亚剑
+item.red_axe_reinforced.name=强化卢斯特里亚斧
+entity.acid_proj.name=寄生酸液
+entity.bomb_proj.name=阿瓦隆炸弹
+entity.controller_lift.name=镀灵发射点
+entity.chomper_arrow.name=吞噬者之箭
+entity.unholy_arrow.name=卢斯特里亚箭
+entity.green_arrow.name=瓦库安箭
+enitty.lamented_islands_painting.name=哀影群岛画卷
+
+itemGroup.expansion=末地扩展
+  
+potion.corrupted=狂暴之怒
+potion.entrapped=囚禁
+potion.the_madness=疯狂
+
+#对话
+ee.dialog.king_talk_0=你就只会做这些吗...
+ee.dialog.king_talk_1=你四处挥舞那把剑，挑战所有挡在你面前的人。
+ee.dialog.king_talk_2=你和我比你想像的要有更多共同点。
+ee.dialog.king_talk_3=你的旅程到此为止了...
+ee.dialog.king_talk_4=是时候把你的梦想埋葬了...
+ee.dialog.king_talk_5=旅行者...
+  
+#三阶段
+ee.dialog.king_transform_1=你的愤怒再次点燃我
+  
+#死亡对话
+ee.dialog.king_death_1=现在这片被诅咒的土地归你处理了... 旅行者...
+
+#进度
+advancements.ee.root.title=末地扩展
+advancements.ee.root.description=发现末地的新秘密。
+advancements.ee.kill_constructor.title=古老遗迹
+advancements.ee.kill_constructor.description=击杀一只潜影构装体，或许可以试试用镐子？
+advancements.ee.kill_end_bug.title=恐怖爬虫
+advancements.ee.kill_end_bug.description=击杀一只灰烬寄生虫。
+advancements.ee.kill_lamentor.title=昔日统治者
+advancements.ee.kill_lamentor.description=在哀影群岛击杀一位昔日的精英战士。
+advancements.ee.kill_seeker.title=你到底是什么？
+advancements.ee.kill_seeker.description=击杀一只末地探索者，仅存在于末地地牢中。
+advancements.ee.kill_vault.title=地牢征服者
+advancements.ee.kill_vault.description=享受潜藏在末地地牢底层的威胁。
+advancements.ee.kill_controller.title=你用方块做什么？
+advancements.ee.kill_controller.description=击杀一只古镀灵，他们可能掉落一些有用的物品。
+advancements.ee.kill_stalker.title=紧盯目标！
+advancements.ee.kill_stalker.description=击杀一只末影潜行者，需要谨慎行事。  
+advancements.ee.kill_knight.title=骑士杀手！  
+advancements.ee.kill_knight.description=通过击败末地的骑士获得暗铁锭。
+advancements.ee.kill_king.title=黑暗堡垒
+advancements.ee.kill_king.description=投下阴影之人位于堡垒之巅，祝你好运。
+advancements.ee.kill_lord.title=水晶的奥秘
+advancements.ee.kill_lord.description=击败堕落骑士，可以在堡垒中找到他，或在其他结构中偶尔出现。
+advancements.ee.kill_barrend.title=漫长的攀登
+advancements.ee.kill_barrend.description=击败占据灰烬高塔的生物。
+advancements.ee.kill_chomper.title=好吧，我让你睡
+advancements.ee.kill_chomper.description=击杀一只深渊吞噬者。
+advancements.ee.kill_avalon.title=击杀阿瓦隆
+advancements.ee.kill_avalon.description=位于被黑曜石柱包围的地表。
+advancements.ee.kill_lidoped.title=甜美的小东西
+advancements.ee.kill_lidoped.description=击败一只利多普，以解锁其相关条目。
+
+
+
+#制作进度
+advancements.ee.craft_compulsor.title=机器轰鸣...
+advancements.ee.craft_compulsor.description=制作或获取一个末影引力块
+advancements.ee.craft_medal.title=千眼勋章
+advancements.ee.craft_medal.description=制作一枚勋章，据说它能给哀影之眼带来额外的用途。
+advancements.ee.craft_book.title=深入研究
+advancements.ee.craft_book.description=制作一本末地指南，它对探索末地非常有帮助。
+advancements.ee.turium.title=最佳PvP物品！
+advancements.ee.turium.description=在末地地牢或地表发现的新食物来源。
+advancements.ee.purple_find.title=空心紫晶
+advancements.ee.purple_find.description=主要在末地地牢中发现，但在哀影群岛也偶尔可见。
+advancements.ee.craft_shield.title=魔法坦克
+advancements.ee.craft_shield.description=只有最好的盾牌才能做到攻防兼备。
+advancements.ee.find_red.title=末地之影
+advancements.ee.find_red.description=进入荒原，击碎红色水晶...
+advancements.ee.find_core.title=创造之钥
+advancements.ee.find_core.description=看来只有灰烬寄生虫有能力挖掘出这些？
+advancements.ee.craft_crystal.title=拼图的一部分
+advancements.ee.craft_crystal.description=制作末路套装的重要组件之一。
+advancements.ee.craft_brick.title=深渊之砖
+advancements.ee.craft_brick.description=制作灰烬砖，可能对很多机器有用。
+advancements.ee.craft_lamp.title=照亮黑暗
+advancements.ee.craft_lamp.description=这些灯可能对你的建筑装饰很有用。
+advancements.ee.craft_key.title=无线红石？
+advancements.ee.craft_key.description=制作一个信号控制块，用于无线激活其他机器。
+advancements.ee.craft_trap.title=怪物农场9000
+advancements.ee.craft_trap.description=制作一个灰烬陷阱方块。
+advancements.ee.craft_door.title=此路不通
+advancements.ee.craft_door.description=制作一个屏障生成器，也可作为桥梁。
+advancements.ee.craft_dark_gear.title=骑士精神
+advancements.ee.craft_dark_gear.description=制作暗铁套装。
+advancements.ee.craft_infused_pickaxe.title=最佳升级！
+advancements.ee.craft_infused_pickaxe.description=制作一把灌注镐。
+advancements.ee.find_soul.title=孤独的灵魂
+advancements.ee.find_soul.description=获得国王之魂。
+advancements.ee.craft_end_gear.title=追随者们
+advancements.ee.craft_end_gear.description=制作末地能提供的最好的最终装备！
+advancements.ee.craft_staff.title=解锁魔法！
+advancements.ee.craft_staff.description=制作一把末路法杖。
+advancements.ee.craft_end_sword.title=灵魂之剑
+advancements.ee.craft_end_sword.description=制作一把末路之剑。
+advancements.ee.craft_end_bow.title=无法触及！
+advancements.ee.craft_end_bow.description=制作一把末路之弓。
+advancements.ee.craft_mini_nuke.title=谁伤害了你？
+advancements.ee.craft_mini_nuke.description=制作一个微型核弹。
+advancements.ee.find_cordium.title=荒原深处
+advancements.ee.find_cordium.decription=在荒原深处发现新矿石。
+advancements.ee.craft_amber_armor.title=现在你无处可藏！
+advancements.ee.craft_amber_armor.description=制作一整套心源盔甲。
+advancements.ee.craft_amber_torch.title=现在安全了吗？
+advancements.ee.craft_amber_torch.description=制作心源火把。
+advancements.ee.find_coin.title=末地之秘
+advancements.ee.find_coin.description=找到一枚阿瓦隆的硬币
+advancements.ee.craft_memory_stone.title=潜藏之恶
+advancements.ee.craft_memory_stone.description=制作一块记忆之石。
+advancements.ee.find_arena_key.title=竞技场在等你！
+advancements.ee.find_arena_key.description=找到一把一级荒芜竞技场钥匙。
+
+#状态
+ee.status.ash_key_block=您尚未击败哀影者
+ee.status.arena_block=您尚未击败一位末地探索者长老
+ee.status.barrend_crypt=您尚未击败灰烬之王
+
+ee.desc.amber_desc=全套装备提供急迫效果，并使你能够看见附近的生物
+ee.desc.dimensional_key=右击哀影钥匙孔以唤醒哀影者
+ee.desc.lamented_eye=右击获得一段时间的漂浮IV
+ee.desc.sword_desc=哀影之剑，一把迅捷而致命的利刃。右击使用能力
+ee.desc.red_crystal=一种不稳定的晶体，用于激活各种机器和制作装备
+ee.desc.purple_crystal=一种稳定的晶体，用于改变重力和增强魔法物品
+ee.desc.infuse=通过结合两种晶体，你现在解锁了新的潜能...
+ee.desc.core=一种能够在工作台中将两种晶体结合在一起的组件
+ee.desc.guide=一本小型手册，涵盖了末地拓展的所有内容
+ee.desc.unholy_sword_desc=被狂暴之怒诅咒
+ee.desc.medal_desc=使用这枚奖章将召唤一只眼睛。当生物靠近时，会被随机传送远离你
+ee.desc.efsword_desc=经过校准和完善，右击将召唤一只幽灵手臂在你面前挥动
+ee.desc.nuke_desc=一种由原始邪恶能量制成的核武器，结果可能导致混乱
+ee.desc.bow_desc=当放在主手时，任何靠得太近的生物都将受到千剑的攻击
+ee.desc.shield_name_desc=镀灵盾
+ee.desc.shield_desc=当你防御时，将在周围召唤一圈尖刺
+ee.desc.dark_desc=全套装备可无视狂暴之怒效果
+ee.desc.compulsor_desc=激活后，此机器会吸引任何物品/实体到其位置。非常适合怪物农场
+ee.desc.ash_key_desc=右击灰烬钥匙孔以唤醒灰烬之王
+ee.desc.ef_desc=全套装备提供速度I，跳跃提升I
+ee.desc.efstaff_desc=右键将击飞敌人并施加狂暴之怒，左键将发射一个投掷物
+ee.desc.gun_desc=这是末地探索者身体能发射晶体的有趣部位
+ee.desc.hf_desc=食用后将获得短暂的再生II，食用过多可能会导致不好的事情发生
+ee.desc.crown_desc=拥有这件宝物，就能够召唤出荒原神将，灰烬之王！
+ee.desc.dagger_desc=右击将使你向后弹射并获得一段时间的速度II
+ee.desc.desc_amber_torch=虽然只是一支火把，但它能赶走靠近的末地潜行者
+ee.desc.red_axe_desc=被狂暴之怒诅咒，右击将获得一段时间的力量II
+ee.desc.pure_axe_desc=一件遗失在时间长河中的罕见武器，右击将使你跳向空中，在空中停留的时间越长，落地时的冲击力越大
+ee.desc.amber_sword_desc=右击将在你附近的实体下方召唤尖刺
+ee.desc.coin_desc=在阿瓦隆面前投掷此硬币，你将获得一份特别奖励
+ee.desc.painting_desc=哀影者自我囚禁的失落之地
+ee.desc.arena_key_desc=在荒芜沼泽生物群中的竞技场使用，等级对应难度。更多信息请阅读荒芜沼泽相关介绍
+ee.desc.green_crystal=散发出未知能量，使用时需小心。这里的野生动物似乎不太喜欢它
+ee.desc.bloodweed_refined_desc=与灌注水晶结合后，会变得异常坚固
+ee.desc.lidoped_helmet_desc=穿戴后能够清除疯狂效果
+ee.desc.ultra_goop_desc=在铁砧上使用它可将任何末地扩张的武器或盔甲修复至满耐久度
+ee.desc.blood_armor_desc=在铁砧上使用它可升级非BOSS近战武器，提升伤害并减少冷却时间
+ee.desc.barrend_tablet_desc=位于主手或副手并受到疯狂效果影响时，你将获得抗性提升
+ee.desc.fast_trinket_desc=右击将使你向后弹射，并在原位产生范围伤害
+ee.desc.reinforced_amber_desc=右击将在你附近的实体下方召唤尖刺，冷却时间减少
+ee.desc.reinforced_amber_dagger=右击将使你向后弹射并获得一段时间的速度II。冷却时间和伤害减少
+ee.desc.reinforced_red_sword=被狂暴之怒诅咒
+ee.desc.reinforced_red_axe=被狂暴之怒诅咒，右击将获得一段时间的力量II，冷却时间减少
+ee.desc.madness_berries_desc=提供长时间的再生II效果，但会附加疯狂效果
+ee.desc.mad_trinket_desc=Idea not in yet
+ee.desc.bold_trinket_desc=右击后短暂免疫伤害
+death.attack.ee:maelstrom=%1$s 被虚空吞噬
+death.attack.ee:mobMaelstrom=%1$s 被 %2$s 杀死了
+death.attack.ee:playerMaelstrom=%1$s 因 %2$s 而死
+death.attack.ee:thrownMaelstrom=%1$s 被 %2$s 撞击而死
+death.attack.ee:explosionMaelstrom=%1$s 被炸死了
+death.attack.ee:explosionMaelstrom.player=%1$s 在与 %2$s 的战斗中被炸飞了
+death.attack.ee:magicMaelstrom=%1$s 被 %2$s 使用的魔法杀死了
+
+
+#索引标题
+ 
+#锁定条目
+title.locked_entry=锁定条目
+ 
+#Locked Entry Requirements
+desc.locked_adv=所需进度：
+
+#Locked Requirements
+
+#Book Info - Intro
+desc.intro_0=众所周知，
+desc.intro_1=末地蕴藏着许多秘密。
+desc.intro_2=这本书将作为你旅行的指南，
+desc.intro_3=并在你探索时解锁新的笔记。
+desc.intro_4=但是，旅行者请小心，
+desc.intro_5=那里还有许多额外的威胁，
+desc.intro_6=需要你去发现！
+desc.intro_7=
+desc.intro_8=解锁条目的关键在于：
+desc.intro_9=击败怪物、战胜Boss，
+desc.intro_10=以及发现模组中的资源。
+desc.intro_11=
+
+#Pure Crystals  
+title.pure_cry_0=纯净水晶
+title.pure_cry_1=纯净水晶（续）
+
+desc.pure_cry_6=纯净水晶，
+desc.pure_cry_7=一种用于多个配方中的资源，
+desc.pure_cry_8=并且被视为末地发展的主要途径。
+desc.pure_cry_9=然而，
+desc.pure_cry_10=它们很难找到，
+desc.pure_cry_11=只能在末地地牢或哀影群岛上找到。
+desc.pure_cry_12=§5
+  
+desc.cont_cry_6=在收集到许多碎片后，
+desc.cont_cry_7=你可以将九个碎片结合在一起，
+desc.cont_cry_8=以形成一个更强大的水晶。
+desc.cont_cry_9=§5
+  
+#End Vaults  
+title.vaults_0=末地地牢  
+desc.vaults_0=这些结构隐藏在岛屿内部。
+desc.vaults_1=不过，
+desc.vaults_2=发现它们的最佳途径是寻找其入口，
+desc.vaults_3=入口看起来就像末地中的一口井。
+desc.vaults_4=在这些地牢里，
+desc.vaults_5=你通常会发现纯净水晶，
+desc.vaults_6=它们通常被锁藏，
+desc.vaults_7=因为它们被末地生物视为稀有资源。  
+desc.vaults_8=§5
+
+#End Seeker Desc
+desc.seeker_6=末地地牢的主要守护者。
+desc.seeker_7=可能给予倒下的潜影构装体又一次机会，
+desc.seeker_8=你会看到末地探索者的独眼
+desc.seeker_9=试图在潜影构装体倒下之前触碰它。
+desc.seeker_10=然而，
+desc.seeker_11=有时由于?????材料的原因，
+desc.seeker_12=这可能会引起突变。
+
+#Ancient Guilder Desc
+
+desc.guilder_6=居住在末地的种族之一，
+desc.guilder_7=以改变方块的能力而著称。
+desc.guilder_8=通过与它们互动，
+desc.guilder_9=可以更换它们头部内的方块。
+desc.guilder_10=然后它们会寻找那个方块，
+desc.guilder_11=并将其改变为另一种方块。
+desc.guilder_12=§5
+
+title.chart_1=古镀灵转换图表
+title.chart_1_cont=转换图表（续）
+
+#Chart of Conversions
+desc.chart_6=这里是详细转换图表
+desc.chart_7=§5
+desc.chart_8=第一格是与古镀灵互动的物品。
+desc.chart_9=第二格是需要古镀灵转换的方块。
+desc.chart_10=第三格是转换后的方块。
+desc.chart_11=§5
+desc.chart_12=§5
+
+# The Lamented islands
+title.lame_0=哀影群岛
+desc.lame_0=Found as a structure in the base
+desc.lame_1=biome, the Lamented islands are seen
+desc.lame_2=as the End's strangest architecture.
+desc.lame_3=This structure acts like a jail cell
+desc.lame_4=where an ancient race remains trapped
+desc.lame_5=within. It is required to seek
+desc.lame_6=out one of these buildings before
+desc.lame_7=progressing to any other biomes. But
+desc.lame_8=be wary traveller, as danger is high
+desc.lame_9=in Lamented Islands.
+desc.lame_10=Defeating the Lamentor is required
+desc.lame_11=to progress in the mod.
+
+
+#Constructor
+desc.cons_6=哀影群岛中地牢的主要居民之一，
+desc.cons_7=这些生物与潜影贝有关，
+desc.cons_8=但是移动更加灵活，行为更像傀儡。
+desc.cons_9=它们还能在普通的末地岛屿上生成，
+desc.cons_10=尽管不如末影人常见，
+desc.cons_11=但它们也是潜影盒的重要来源。
+desc.cons_12=§5
+desc.cons_13=§5
+
+#The Lamentor
+desc.cboss_6=这些守卫者曾是末地最初的管理者。
+desc.cboss_7=他们高超的剑术和敏捷的身手，
+desc.cboss_8=对灰烬之王的军队构成了巨大威胁。
+desc.cboss_9=然而，
+desc.cboss_10=他们最终在那场导致灰烬荒原形成的
+desc.cboss_11=灾难性事件中落败。
+desc.cboss_12=§5
+desc.cboss_13=§5
+
+title.cboss_0=哀影者（续）
+
+skill.cboss_0=激活位于哀影群岛中心的钥匙孔，
+skill.cboss_1=将召唤出他们中的一员。
+skill.cboss_2=击败它后，
+skill.cboss_3=会掉落以下两件物品中的一件：
+skill.cboss_4=其一是它的眼睛，
+skill.cboss_5=使用可以获得一段时间的漂浮。
+skill.cboss_6=另一件是它的剑，
+skill.cboss_7=使用可以快速向一个方向冲刺。
+skill.cboss_8=§5
+skill.cboss_9=挑战哀影者绝非易事，
+skill.cboss_10=建议至少装备基础的钻石盔甲
+skill.cboss_11=以及一把配有充足箭矢的弓。
+skill.cboss_12=§5
+skill.cboss_13=§5
+
+#Lamented Eye Trinket
+title.lame_eye_0=被遗忘的徽章
+
+skill.mdl_6=这枚徽章在防御方面表现出色。
+skill.mdl_7=当激活它时，
+skill.mdl_8=一个哀影之眼将环绕在你周围盘旋。
+skill.mdl_9=当生物接近你时，
+skill.mdl_10=哀影之眼会自动消失，
+skill.mdl_11=并将怪物随机传送到远处。
+
+#Guilded Shield
+title.shield_0=镀灵盾
+
+skill.shield_6=经过纯净水晶强化后，
+skill.shield_7=这面盾牌的远超普通盾牌。
+skill.shield_8=在右键格挡时，
+skill.shield_9=它会召唤出一圈尖刺环绕在你周围。
+skill.shield_10=这使得它的防御力大大增强，
+skill.shield_11=并进一步确保使用者的安全。
+skill.shield_12=§5
+skill.shield_13=§5
+
+#End Compulsor
+title.compulsor_0=末影引力块
+
+block.cmp_6=一个实用的机器，
+block.cmp_7=被红石信号激活时，
+block.cmp_8=它会吸引物品和生物，
+block.cmp_9=这使得它在运输和怪物农场方面非常有用。
+block.cmp_10=它也可以作为某些结构中陷阱的基础。
+block.cmp_11=§5
+block.cmp_12=§5
+
+
+#Ash Wastelands Biome
+title.biome_0=Ash Wastelands
+
+desc.ash_0=This biome is the result of an
+desc.ash_1=all out war. The End has never
+desc.ash_2=seen anything of this scale, a vast
+desc.ash_3= part of the End is forever scarred.
+desc.ash_4=The biome shows this hostility with
+desc.ash_5=the dark shroud that encompasses it
+desc.ash_6=when entering. Limiting visibility
+desc.ash_7=to a short distance for those that
+desc.ash_8=enter. However, life finds a way,
+desc.ash_9=and creatures have mutated to
+desc.ash_10=adopt this new environment and
+desc.ash_11=is also birth of many new
+desc.ash_12=creations such as Lustrian
+desc.ash_13=crystals.
+
+#Ashed Bricks
+desc.ash_block_6=Created from End Ash, Ash Bricks
+desc.ash_block_7=are the new main block used in
+desc.ash_block_8=this biome. You can make all
+desc.ash_block_9=the block variants plus they are
+desc.ash_block_10=used within some of the
+desc.ash_block_11=contraptions that can be made
+desc.ash_block_12=from the biome's resources.
+
+#Lustrian Crystals
+
+title.cont_red=Lustrian Crystals Cont.
+
+desc.red_6=Found in Ash Wastelands, these
+desc.red_7=crystals are empowered with an
+desc.red_8=unsightly rage. Many creatures
+desc.red_9=within the Ash wastelands can be
+desc.red_10=seen with traces of this crystal
+desc.red_11=on there bodies. There is many
+desc.red_12=uses for this crystal however.
+
+desc.cont_red_6=Likewise with Pure Crystals
+desc.cont_red_7=you can combine nine chunks to
+desc.cont_red_8=create an Lustrian Crystal with
+desc.cont_red_9=greater power imbued into it.
+
+#Red Lamp
+desc.lamp_6=The common light source found
+desc.lamp_7=in the Ash Wastelands.
+
+#Ash Door Keyhole
+desc.hole_6=These devices work in tandem
+desc.hole_7=with Door Creators, upon entering
+desc.hole_8=a Lustrian crystal in it. It will
+desc.hole_9=de-activate any Door Creators within
+desc.hole_10=7 blocks of each of it's axis.
+desc.hole_11=Used commonly in structures as a
+desc.hole_12=gate to keep any unwanted pests
+desc.hole_13=from entering.
+
+#Ash Door Creator
+desc.crea_6=This contraption when powered by
+desc.crea_7=redstone, will create a 7 block
+desc.crea_8=barrier in the direction that it has
+desc.crea_9=been placed. Can be used as doors,
+desc.crea_10=bridges, and so on.
+
+#Ash Trap Floor
+desc.trap_6=Ever wanted to have your base
+desc.trap_7=protected? These devices don't
+desc.trap_8=require redstone to be activated.
+desc.trap_9=They instead when any creature with
+desc.trap_10=the exception of the Fell Knights,
+desc.trap_11=will launch a spike from the floor
+desc.trap_12=when stepped on. Ouch!
+
+#Brick Rod
+desc.brick_rod_6=A common material used in weapon
+desc.brick_rod_7=crafting and other misc. items
+desc.brick_rod_8=that you may come across.
+
+#Amber Ore
+desc.amber_ore_6=This ore is only found below Y
+desc.amber_ore_7=level 40 in the Depths part of
+desc.amber_ore_8=the Wastelands. It's properties
+desc.amber_ore_9=are quite unique as all weapons
+desc.amber_ore_10=made from this perform vastly
+desc.amber_ore_11=different.
+
+#Amber Torches
+desc.amber_torch_6=If you're having a problem
+desc.amber_torch_7=with Stalker's sneaking up
+desc.amber_torch_8=on you or you'd like to not
+desc.amber_torch_9=get spooked in a base you make.
+desc.amber_torch_10=These torches for some reason,
+desc.amber_torch_11=cause Stalker's to run away.
+desc.amber_torch_12=Maybe it's to bright for them?
+
+#Amber Pickaxe
+desc.amber_pickaxe_6=A great option for those
+desc.amber_pickaxe_7=who don't wish to expand
+desc.amber_pickaxe_8=there more precious tools
+desc.amber_pickaxe_9=while mining in the
+desc.amber_pickaxe_10=wastelands.
+
+#Amber Axe
+desc.amber_axe_6=While there may not be any
+desc.amber_axe_7=Trees in the End, as of
+desc.amber_axe_8=currently. This axe proves
+desc.amber_axe_9=superior with it's quicker
+desc.amber_axe_10=attack speed and slightly
+desc.amber_axe_11=more damage to other
+desc.amber_axe_12=axes.
+
+#Amber Dagger
+desc.amber_dagger_6=Not the highest of
+desc.amber_dagger_7=durability, but this
+desc.amber_dagger_8=fiesty dagger provides a
+desc.amber_dagger_9=nice dashing away from foes
+desc.amber_dagger_10=along with Speed II for
+desc.amber_dagger_11=a short period of time.
+
+#Infused Crystals
+desc.if_cry_6=By combining both, you unlock a
+desc.if_cry_7=new potential. Used as a major
+desc.if_cry_8=crafting material for the End's
+desc.if_cry_9=finest armor, weapons, and magical
+desc.if_cry_10=abilities. One of the other major
+desc.if_cry_11=components is what lies inside
+desc.if_cry_12=every living being. Perhaps you
+desc.if_cry_13=should head to the eerie fortress.
+
+#Infused Pickaxe
+desc.pick_6=A major step up from a diamond
+desc.pick_7=pickaxe offering quick mining speed.
+desc.pick_8=Let this be a taste of the power of
+desc.pick_9=using Infused Crystals in your
+desc.pick_10=equipment.
+
+#Amber Armor Set
+title.amber_armor_0=The Cordium Armor Set
+title.amber_armor_0_cont=Cordium Armor Set Cont.
+
+desc.amber_armor_6=Probably the greatest set for
+desc.amber_armor_7=mining expeditions and making
+desc.amber_armor_8=some of the weapons from this
+desc.amber_armor_9=material can make you a
+desc.amber_armor_10=tricky traveller to catch.
+desc.amber_armor_11=Full set provides Haste I,
+desc.amber_armor_12=and nearby entities glow.
+
+#Depths Chomper
+desc.chomper_6=Only found in the Depths part
+desc.chomper_7=of the wastelands, digging in
+desc.chomper_8=the ground and warning anyone
+desc.chomper_9=who comes close. If you do wake
+desc.chomper_10=them up they might try to
+desc.chomper_11=latch onto your head and bite
+desc.chomper_12=it off, literally.
+
+#Ashed Parasite
+desc.bug_6= These critters occasionally dig up
+desc.bug_7=Infusion Cores, and will do it faster
+desc.bug_8=if given Lustrian Crystals and it will
+desc.bug_9=pacify them for the time being, also
+desc.bug_10=they will try to attack you while
+desc.bug_11=attempting to pacify them. They also
+desc.bug_12=drop a carapace and food upon being
+desc.bug_13=slain.
+
+#End Stalkers
+desc.stal_6=Terrifying creatures that seem to
+desc.stal_7=have some relations to Endermen.
+desc.stal_8=They like to stalk there prey while
+desc.stal_9=slowly approaching. If they get close
+desc.stal_10=enough they will frantically attack
+desc.stal_11=there target. If you see them before
+desc.stal_12=they attack, they'll run back into
+desc.stal_13=the darkness only to disappear again.
+
+#End Fortress and other Structures
+title.end_fort_0=The Ashed King's Fortress
+
+desc.fort_0=The mighty fortress that shrouds atop
+desc.fort_1=the Wastelands. Could what's up there
+desc.fort_2=be the cause of such treachery?
+desc.fort_3=Would it even be wise to go up there?
+desc.fort_4=It is recommended to have your absolute
+desc.fort_5=best gear when attempting this dungeon.
+desc.fort_6=Stock up on food, healing potions,
+desc.fort_7=anything to give you the needed boost
+desc.fort_8=traveller. It's time to end this.
+
+title.ot_str_0=Other Structures
+
+desc.ot_0=Theres many other structures that lie
+desc.ot_1=within the Ash Wastelands. Such as
+desc.ot_2=The Ashed Towers that can prove
+desc.ot_3=a pre-test to the actual Fortress.
+desc.ot_4=There are other structures such as
+desc.ot_5=Ashed Mines that are underground,
+desc.ot_6=and outposts out in the distance.
+desc.ot_7=Hunting for these ruins in the
+desc.ot_8=wastelands can prove beneficial.
+
+#House of Knights
+title.knights_0=The Fell Household
+desc.knig_6=Although not native to the end, the
+desc.knig_7=knights are far from what they once
+desc.knig_8=we're. These crazed power hungry
+desc.knig_9=fanatics invaded the End just to
+desc.knig_10=feel their love for war again.
+desc.knig_11=However, following using Lustrian
+desc.knig_12=Crystals they have seemed to lost
+desc.knig_13=there sentience and only seek more.
+
+#House of Knights Cont.
+title.knights_1=The Fell Household Cont.
+desc.mage_0=These knights have specializations,
+desc.mage_1=and have different methods of combat.
+desc.mage_2=Mages, cast spells, heal there allies,
+desc.mage_3=and can perform a ritual to turn on of
+desc.mage_4=there own into something stronger.
+desc.mage_5=Swordsmen are fast and barbaric in
+desc.mage_6=there style, closing the gap and
+desc.mage_7=releasing a flurry of attacks. While
+desc.mage_8=the shielder is slow but highly
+desc.mage_9=defensive. As tough as they seem to
+desc.mage_10=be removed. A timed parry can disable
+desc.mage_11=there shield for a short period of
+desc.mage_12=time allowing you to strike them.
+
+#Dark Helmet and Chestplate
+
+desc.dd_helm_6=The Dark armour set, this set only
+desc.dd_helm_7=contains it's helmet and chest
+desc.dd_helm_8=piece for the full bonus to take
+desc.dd_helm_9=effect. With the bonus being
+desc.dd_helm_10=immunity to the Red Rage
+desc.dd_helm_11=potion effect.
+
+desc.dd_cont_6=In other words, basically allowing
+desc.dd_cont_7=you to carry Lustrian Crystals, Chunks,
+desc.dd_cont_8=and the Lustrian sword and any attacks
+desc.dd_cont_9=that deliver the Red Rage.
+
+#Chad Knight
+desc.chad_6=This beast of a warrior is created
+desc.chad_7=by Mages casting a curse on other
+desc.chad_8=Knights. They are very fast in there
+desc.chad_9=attacks, and will even try to block
+desc.chad_10=your melee attacks. Not many get to
+desc.chad_11=witness one of these warriors in
+desc.chad_12=action as you'll be lucky to leave
+desc.chad_13=alive.
+
+#End King
+desc.king_6=The one to blame for this blasphemy.
+desc.king_7=He is the one kindling all together,
+desc.king_8=he alone was the power to break the
+desc.king_9=End. He must be stopped at all costs.
+desc.king_10=You may find him atop the main
+desc.king_11=fortress by using an Ashed Key on
+desc.king_12=the key block. As he unlocks your
+desc.king_13=full potential.
+
+#Barrend Bogs Introduction
+title.barrend_bogs.name=The Barrend Bogs
+
+desc.barrend_bogs_0=Driven with Madness and an
+desc.barrend_bogs_1=unorthodox beauty, This biome
+desc.barrend_bogs_2=brings a more hidden sense
+desc.barrend_bogs_3=of despair unlike how the
+desc.barrend_bogs_4=Ash Wastelands is more frontal.
+desc.barrend_bogs_5=While the creatures here are
+desc.barrend_bogs_6= more neutral to outside
+desc.barrend_bogs_7=guests. Tampering too much
+desc.barrend_bogs_8=may result in a quick fate.
+desc.barrend_bogs_9=This biome seems to hold a
+desc.barrend_bogs_10=older culture and civilization
+desc.barrend_bogs_11=going back before the war
+desc.barrend_bogs_12=between the Fell Knights
+desc.barrend_bogs_13=and the End's resistance.
+
+#Barrend Arena
+title.barrend_arena.name=Barrend Arena
+
+desc.barrend_arena_6=By inserting Arena keys
+desc.barrend_arena_7=into this. It will lock
+desc.barrend_arena_8=you in and you'll fight
+desc.barrend_arena_9=waves of monsters. Upon
+desc.barrend_arena_10=completion you'll be
+desc.barrend_arena_11=rewarded, with the chance
+desc.barrend_arena_12=of exclusive loot.
+
+#Barrend Wood + Stone
+title.barrend_wood.name=Barrend Wood & Stone
+
+title.eye_stone.name=Barrend Eye Stone
+
+desc.bare_wood_6=Throughout the Barrend Bogs,
+desc.bare_wood_7=several trees and other stone
+desc.bare_wood_8=materials can be found. You,
+desc.bare_wood_9=traveller can use these to add
+desc.bare_wood_10=to your home or shape the
+desc.bare_wood_11=environment to your liking.
+desc.bare_wood_12=Walls, Slabs, and stairs can
+desc.bare_wood_13=be made with these.
+
+#Memorium Stone
+
+desc.memory_stone_6=Using this, you'll
+desc.memory_stone_7=be able to unlock the door
+desc.memory_stone_8=to the Barrend Crypts. This
+desc.memory_stone_9=trinket has several uses, allowing
+desc.memory_stone_10=for multiple opens of different
+desc.memory_stone_11=doors. Just be wary what you find
+desc.memory_stone_12=down there.
+
+#Lidoped
+desc.lidoped_6=This cute little creature can
+desc.lidoped_7=make a nice farming for
+desc.lidoped_8=Bloodweed. By having a holed
+desc.lidoped_9=Barrend Bark nearby and some
+desc.lidoped_10=Barrend Plants. This little guy
+desc.lidoped_11=will harvest and return Refined
+desc.lidoped_12=Bloodweed to the hole. These
+desc.lidoped_13=creatures can also be bucketed.
+
+#Lidoped Helmet
+desc.lido_helmet_6=On the slight chance of getting
+desc.lido_helmet_7=a shell from slaying a Lidoped.
+desc.lido_helmet_8=You can make a helmet with the
+desc.lido_helmet_9=other materials. This helmet
+desc.lido_helmet_10=negates the Madness effect,
+desc.lido_helmet_11=however items requiring Madness
+desc.lido_helmet_12= will not work with this helmet
+desc.lido_helmet_13=on.
+
+#Bloodweed Reinforcement Kit
+desc.kit_6=Taking one of these and
+desc.kit_7=putting it into an anvil
+desc.kit_8=along with a non-boss weapon.
+desc.kit_9=Will upgrade the weapon with
+desc.kit_10=higher damage, a reduced cooldown,
+desc.kit_11=and typically heightening the
+desc.kit_12=weapons ability. Weapons can
+desc.kit_13=only be upgraded once.
+
+#Endfall Set
+desc.end_mod_6=Congrats on your quest traveller,
+desc.end_mod_7=although the End will never be
+desc.end_mod_8=restored to what it once was. You
+desc.end_mod_9=atleast rid the parasite that has
+desc.end_mod_10=decimated it. You have reached
+desc.end_mod_11=the true ending of the mod's
+desc.end_mod_12=progression line.
+
+desc.end_cont_6=As the last final pages, will
+desc.end_cont_7=show you the recipes for the
+desc.end_cont_8=rewards you deserve. The End
+desc.end_cont_9=Fall set is one of high
+desc.end_cont_10=durability along with having
+desc.end_cont_11=magical attributes. The full
+desc.end_cont_12=armour set provides Speed I,
+desc.end_cont_13=and Jump Boost I.
+
+desc.ef_arm=End Fall Leggings & Boots
+
+#Mini-Nuke
+desc.mn_6=harnessing the Ashed King's power
+desc.mn_7=inside of one block. Just make
+desc.mn_8=sure you keep your distance when
+desc.mn_9=igniting this explosive.
+
+#EndFall Sword
+skill.sword_6=Forever rotating it's crystals
+skill.sword_7=around the blade. This lethal
+skill.sword_8=swords ability allows the user
+skill.sword_9=to summon the Ashed King's ghost
+skill.sword_10=arm in front of them. Dealing
+skill.sword_11=1.5x damage to anyone in stands
+skill.sword_12=against you.
+
+#EndFall Bow
+skill.ef_bow_6=Great for a user who doesn't
+skill.ef_bow_7=wish anyone to interrupt there
+skill.ef_bow_8=archery skills. Anyone who gets
+skill.ef_bow_9=close to you while equipping this
+skill.ef_bow_10=bow will be dealt with by the
+skill.ef_bow_11=thousand swords.
+
+#EndFall Staff
+skill.ef_st_6=With this staff you'll be able to
+skill.ef_st_7=spread the Red Rage onto your
+skill.ef_st_8=opponents. By Right clicking, any
+skill.ef_st_9=living being close to you will be
+skill.ef_st_10=launched and applied with the Red
+skill.ef_st_11=Rage. While Left clicking will shoot
+skill.ef_st_12=a projectile every 3 seconds.
