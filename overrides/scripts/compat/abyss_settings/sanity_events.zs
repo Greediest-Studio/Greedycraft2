@@ -12,7 +12,7 @@ import crafttweaker.entity.AttributeModifier;
 import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.entity.IEntityLiving;
 
-import scripts.sanity_settings.sanity_functions as SanityHelper;
+import scripts.compat.abyss_settings.sanity_functions as SanityHelper;
 
 events.onPlayerTick(function(event as PlayerTickEvent) {
     
@@ -20,7 +20,7 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
     var san as float = SanityHelper.getSanity(player);
     var mtp as float = (100.0f - san) / 200.0f as float;
 
-    if (!player.getAttribute("generic.movementSpeed").hasModifier(AttributeModifier.createModifier("generic.movementSpeed", mtp as double, 2, "f47ac10b-58cc-4372-a567-0e02b2c3d47e")) && player.hasGameStage("final")) {
+    if (!player.getAttribute("generic.movementSpeed").hasModifier(AttributeModifier.createModifier("generic.movementSpeed", mtp as double, 2, "f47ac10b-58cc-4372-a567-0e02b2c3d47e"))) {
         player.getAttribute("generic.movementSpeed").applyModifier(AttributeModifier.createModifier("generic.movementSpeed", mtp as double, 2, "f47ac10b-58cc-4372-a567-0e02b2c3d47e"));
     }
 
