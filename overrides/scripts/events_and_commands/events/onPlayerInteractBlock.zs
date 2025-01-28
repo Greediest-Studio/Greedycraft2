@@ -3,6 +3,7 @@
  * You may NOT use this script in any other publicly distributed modpack without my permission.
  */
 
+#reloadable
 #priority 90
 
 import crafttweaker.event.PlayerLoggedInEvent;
@@ -38,6 +39,7 @@ import scripts.util.lang as LangUtil;
 import scripts.util.date as CalendarUtil;
 import scripts.util.patreons as PatreonUtil;
 
+import native.vazkii.botania.common.block.BlockAlfPortal;
 
 events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     //Remove the uncrafting table
