@@ -3416,6 +3416,19 @@ leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, 
     }
     return newAmount;
 };
+leveling_durabilityTrait.afterBlockBreak = function(trait, tool, world, blockstate, blockPos, miner, wasEffective) {
+    if (miner instanceof IPlayer) {
+        var player as IPlayer = miner;
+        var difficulty as int = DifficultyManager.getDifficulty(player) as int;
+        var mtp as float = 1.0f;
+        if (difficulty < 256) {
+            mtp = (1.0f / 640.0f) * difficulty as float + 1.0f;
+        } else {
+            mtp = (93.0f / 4160.0f) * difficulty as float - (43.0f / 13.0f) as float;
+        }
+        ToolHelper.damageTool(tool.native, (2 * (mtp - 1.0f) as float) as int, player.native);
+    }
+};
 leveling_durabilityTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
     if (!isNull(tool.tag.Unbreakable)) {
         if (tool.tag.Unbreakable as byte == 1 as byte) {
