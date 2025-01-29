@@ -33,6 +33,15 @@ import mods.zenutils.DataUpdateOperation.BUMP;
 MachineModifier.setMaxThreads("giant_factory", 64);
 MachineModifier.setInternalParallelism("giant_factory", 16);
 
+//添加物品
+/*val add as IItemStack[] = [
+    ];
+    for item in add {
+        JEI.addItem(item);
+    }*/
+//删除配方
+recipes.remove(<extendedae:infinity_cell>);
+
 //ae相关
 RecipeBuilder.newBuilder("fluix" , "giant_factory" , "1")
     .addItemInput(<appliedenergistics2:material:1> * 1)
@@ -98,6 +107,21 @@ RecipeBuilder.newBuilder("ae7" , "giant_factory" , "1")
     .addItemOutput(<threng:material> * 8)
     .build();
 
+RecipeBuilder.newBuilder("yuanshi" , "giant_factory" , "1000")
+    .addItemInput(<appliedenergistics2:material:39> * 1)
+    .addItemInput(<nuclearcraft:cobblestone_generator_dense> * 2048)
+    .addRecipeTooltip("§4我超，圆(石)")
+    .addEnergyPerTickInput(10000)
+    .addItemOutput(<extendedae:infinity_cell>.withTag({r: {Craft: 0 as byte, Cnt: 1 as long, id: "minecraft:cobblestone", Count: 1, Damage: 0 as short, Req: 0 as long}, t: "i"}))
+    .build();
+
+RecipeBuilder.newBuilder("shuicao_zip" , "giant_factory" , "1000")
+    .addItemInput(<appliedenergistics2:material:39> * 1)
+    .addItemInput(<cookingforblockheads:sink> * 1)
+    .addRecipeTooltip("§4所以为什么不用水槽呢")
+    .addEnergyPerTickInput(10000)
+    .addItemOutput(<extendedae:infinity_cell>.withTag({r: {FluidName: "water", Craft: 0 as byte, Cnt: 1 as long, Count: 0 as byte, Req: 0 as long}, t: "f"}))
+    .build();
 //合金
 RecipeBuilder.newBuilder("balancite_ingot" , "giant_factory" , "1")
     .addItemInput(<additions:aeroite_ingot> * 1)
