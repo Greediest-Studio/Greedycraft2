@@ -1831,13 +1831,21 @@ oxylessTrait.onHurt = function(trait, armor, player, source, damage, newDamage, 
                     oxide : 0 as int
                 }
             );
-            ToolHelper.damageTool(armor.mutable().native, pow(2, level) as int, player.native);
+            if ((armor.damage + pow(2, level)) >= armor.maxDamage) {
+                ToolHelper.breakTool(armor.mutable().native, player.native);
+            } else {
+                armor.mutable().attemptDamageItem(pow(2, level) as int, player);
+            }            
             return newDamage * (1.0f - (pow(2.15f, level as int) * 0.01f));
         } else if (armor.tag.oxide as int == 5) {
             if (Math.random() < 0.4) {
-                ToolHelper.breakTool(armor.native, player.native);
+                ToolHelper.breakTool(armor.mutable().native, player.native);
             } else {
-                ToolHelper.damageTool(armor.mutable().native, 32, player.native);
+                if ((armor.damage + 32) >= armor.maxDamage) {
+                    ToolHelper.breakTool(armor.mutable().native, player.native);
+                } else {
+                    armor.mutable().attemptDamageItem(32 as int, player);
+                }            
             }
             armor.mutable().updateTag(
                 {
@@ -1885,7 +1893,11 @@ erosionTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_
 erosionTrait.onArmorTick = function(trait, armor, world, player) {
         if (Math.random() < 0.01) {
             if (Math.random() < 0.005) {
-                ToolHelper.damageTool(armor.mutable().native, 10000, player.native);
+                if ((armor.damage + 10000) >= armor.maxDamage) {
+                    ToolHelper.breakTool(armor.mutable().native, player.native);
+                } else {
+                    armor.mutable().attemptDamageItem(10000 as int, player);
+                }            
             }
             if (Math.random() < 0.003) {
                 player.health -= 32.0f;
@@ -1994,7 +2006,11 @@ splitTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_tr
 splitTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player)) {
         if (Math.random() < 0.01) {
-            ToolHelper.damageTool(armor.mutable().native, (armor.maxDamage * 0.07f) as int, player.native);
+            if ((armor.damage + (armor.maxDamage * 0.07f)) >= armor.maxDamage) {
+                ToolHelper.breakTool(armor.mutable().native, player.native);
+            } else {
+                armor.mutable().attemptDamageItem((armor.maxDamage * 0.07f) as int, player);
+            }            
             return 0.0f;
         }
     }
@@ -2571,10 +2587,18 @@ leveling_durabilityTrait.onArmorDamaged = function(trait, armor, damageSource, a
             mtp = (93.0f / 4160.0f) * difficulty as float - (43.0f / 13.0f) as float;
         }
         if ((amount * mtp) as int >= armor.maxDamage / 200) {
-            ToolHelper.damageTool(armor.mutable().native, armor.maxDamage / 200, player.native);
+            if ((armor.damage + (armor.maxDamage / 200)) >= armor.maxDamage) {
+                ToolHelper.breakTool(armor.mutable().native, player.native);
+            } else {
+                armor.mutable().attemptDamageItem((armor.maxDamage / 200) as int, player);
+            }            
             return newAmount;
         } else {
-            ToolHelper.damageTool(armor.mutable().native, (amount * (mtp - 1.0f)) as int, player.native);
+            if ((armor.damage + (amount * (mtp - 1.0f)) as int) >= armor.maxDamage) {
+                ToolHelper.breakTool(armor.mutable().native, player.native);
+            } else {
+                armor.mutable().attemptDamageItem((amount * (mtp - 1.0f)) as int, player);
+            }            
             return newAmount;
         }
     }
@@ -2745,7 +2769,11 @@ hydrogen_absorbTrait.localizedDescription = game.localize("greedycraft.tconstruc
 hydrogen_absorbTrait.onArmorTick = function(trait, armor, world, player) {
     if (Math.random() < 0.01f && !isNull(player)) {
         if (Math.random() < 0.01f) {
-            armor.mutable().attemptDamageItem(10, player);
+            if ((armor.damage + 10) >= armor.maxDamage) {
+                ToolHelper.breakTool(armor.mutable().native, player.native);
+            } else {
+                armor.mutable().attemptDamageItem(10 as int, player);
+            }
             var itemId as string = <ore:ingotHydrogen>.firstItem.definition.id as string;
             player.give(itemUtils.getItem(itemId));
         }
@@ -2904,7 +2932,7 @@ natureboundTrait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
         if ((player.world.getBlock(player.x as int, player.y as int - 1, player.z as int)).definition.id has "dirt") {
             if (Math.random() <= 0.01f) {
-                armor.mutable().attemptDamageItem(-1, player);
+                ToolHelper.healTool(armor.mutable().native, 1, player.native);
             }
         }
     }
@@ -3140,7 +3168,7 @@ rekindledTrait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
         if (player.isBurning) {
             var dura as int = armor.maxDamage / 100 as int; 
-            armor.mutable().attemptDamageItem(- dura, player);
+            ToolHelper.healTool(armor.mutable().native, dura, player.native);
         }
     }
 };
@@ -3171,7 +3199,11 @@ sutureTrait.onArmorRemove = function(trait, armor, player, index) {
 sutureTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player)) {
         if (Math.random() < 0.1f) {
-            armor.mutable().attemptDamageItem(armor.maxDamage * 0.1f as int, player);
+            if ((armor.damage + armor.maxDamage * 0.1f) >= armor.maxDamage) {
+                ToolHelper.breakTool(armor.mutable().native, player.native);
+            } else {
+                armor.mutable().attemptDamageItem(armor.maxDamage * 0.1f as int, player);
+            }
         }
     }
     return newDamage;
@@ -3229,7 +3261,11 @@ collapseTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor
 collapseTrait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
         var dura as int = (armor.maxDamage * 0.002f) as int;
-        armor.mutable().attemptDamageItem(dura, player);
+    if ((armor.damage + dura) >= armor.maxDamage) {
+            ToolHelper.breakTool(armor.mutable().native, player.native);
+        } else {
+            armor.mutable().attemptDamageItem(dura as int, player);
+        }    
     }
 };
 collapseTrait.register();

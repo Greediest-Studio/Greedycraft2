@@ -2743,7 +2743,7 @@ erosionTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected
         if (Math.random() < 0.01) {
             if (Math.random() < 0.01) {
                 if (Math.random() < 0.05) {
-                    ToolHelper.breakTool(tool.native, player.native);
+                    ToolHelper.breakTool(tool.mutable().native, player.native);
                 }
             }
         }
@@ -3411,7 +3411,12 @@ leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, 
         } else {
             mtp = (93.0f / 4160.0f) * difficulty as float - (43.0f / 13.0f) as float;
         }
-        ToolHelper.damageTool(tool.mutable().native, (newAmount * (mtp - 1.0f) as float) as int, player.native);
+        if ((tool.damage + unmodifiedAmount * mtp) >= tool.maxDamage) {
+            ToolHelper.breakTool(tool.mutable().native, player.native);
+            return 0;
+        } else {
+            tool.mutable().attemptDamageItem((unmodifiedAmount * (mtp - 1.0f) as float) as int, player);
+        }
         return newAmount;
     }
     return newAmount;
@@ -3426,7 +3431,11 @@ leveling_durabilityTrait.afterBlockBreak = function(trait, tool, world, blocksta
         } else {
             mtp = (93.0f / 4160.0f) * difficulty as float - (43.0f / 13.0f) as float;
         }
-        ToolHelper.damageTool(tool.mutable().native, (2 * (mtp - 1.0f) as float) as int, player.native);
+        if ((tool.damage + 2 * mtp) >= tool.maxDamage) {
+            ToolHelper.breakTool(tool.mutable().native, player.native);
+        } else {
+            tool.mutable().attemptDamageItem((2 * (mtp - 1.0f) as float) as int, player);
+        }
     }
 };
 leveling_durabilityTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
@@ -3818,8 +3827,8 @@ rekindledTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelect
     if (owner instanceof IPlayer && isSelected) {
         var player as IPlayer = owner;
         if (player.isBurning) {
-            var dura as int = tool.maxDamage / 100 as int; 
-            tool.mutable().attemptDamageItem(- dura, player);
+            var dura as int = tool.maxDamage / 100 as int;
+            ToolHelper.healTool(tool.mutable().native, dura, player.native);
         }
     }
 };
