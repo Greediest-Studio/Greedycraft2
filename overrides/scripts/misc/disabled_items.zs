@@ -1520,7 +1520,30 @@ val disabledItems as IIngredient[] = [
     <modularmachinery:blockmanaprovideroutput>,
     <modularmachinery:blockaspectproviderinput>,
     <modularmachinery:blockaspectprovideroutput>,
-    <spiceoflife:bookfoodjournal>
+    <spiceoflife:bookfoodjournal>,
+    <nae2:material:1>,
+    <nae2:material:2>,
+    <nae2:material:3>,
+    <nae2:material:4>,
+    <nae2:material:5>,
+    <nae2:material:6>,
+    <nae2:material:7>,
+    <nae2:material:8>,
+    <nae2:storage_cell_256k>,
+    <nae2:storage_cell_1024k>,
+    <nae2:storage_cell_4096k>,
+    <nae2:storage_cell_16384k>,
+    <nae2:storage_cell_fluid_256k>,
+    <nae2:storage_cell_fluid_1024k>,
+    <nae2:storage_cell_fluid_4096k>,
+    <nae2:storage_cell_fluid_16384k>,
+    <nae2:storage_crafting_256k>,
+    <nae2:storage_crafting_1024k>,
+    <nae2:storage_crafting_4096k>,
+    <nae2:storage_crafting_16384k>,
+    <nae2:coprocessor_4x>,
+    <nae2:coprocessor_16x>,
+    <nae2:coprocessor_64x>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [

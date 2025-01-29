@@ -393,6 +393,8 @@ val localizationMap as string[string][string] = {
         "text.component.animus.transposition.cleared": "移位标记已清除！",
         "item.bloodmagic.alchemic_vial.base.name": "炼金之瓶",
         "tile.bloodarsenal.slate..name": "石板砖",
+        "item.nae2.part.exposer.name": "ME存储暴露接口",
+        "tile.nae2.exposer.name": "ME存储暴露接口",
         "message.touhou_little_maid.change_model.disabled": "§e皮肤切换功能已被禁止，请使用§6扭蛋机§e抽取女仆皮肤！",
         "entity.Dummy.name": "训练用假人",
         "item.bountifulbaubles.trinketAnkhCharm.name": "安赫护符",

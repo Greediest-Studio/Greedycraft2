@@ -1167,7 +1167,17 @@ GameStagesUtil.stageWitherSlayer.addIngredients([
     <ore:blockApollonium>,
     <ore:dustApollonium>,
     <additions:greedycraft-apollonium_overheat_ingot>,
-    <ore:gemSliderRefined>
+    <ore:gemSliderRefined>,
+    <additions:greedycraft-germanium_plate>,
+    <additions:greedycraft-logic_press_2>,
+    <additions:greedycraft-calculation_press_2>,
+    <additions:greedycraft-engineering_press_2>,
+    <additions:greedycraft-calculation_processor_2>,
+    <additions:greedycraft-engineering_processor_2>,
+    <additions:greedycraft-logic_processor_2>,
+    <additions:greedycraft-calculation_circuit_printed_2>,
+    <additions:greedycraft-engineering_circuit_printed_2>,
+    <additions:greedycraft-logic_circuit_printed_2>
 ], true);
 
 GameStagesUtil.stageGaiaDeleter.addIngredients([
@@ -1641,5 +1651,6 @@ GameStagesUtil.stageChaoticDominator.addModId(["extendedcrafting"]);
 GameStagesUtil.stageGatekeeper.addModId(["gct_aby"]);
 GameStagesUtil.stageEpicEngineer.addModId(["nuclearcraft"]);
 GameStagesUtil.stageBetweenlandTraveller.addModId(["thebetweenlands"]);
+GameStagesUtil.stageWitherSlayer.addModId(["crazyae", "nae2"]);
 
 GameStagesUtil.stageGettingStarted.addRecipeName("tinkersurvival:cobblestone");
