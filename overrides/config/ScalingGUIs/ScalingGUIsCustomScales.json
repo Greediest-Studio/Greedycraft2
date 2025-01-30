@@ -1,7 +1,7 @@
 {
   "guiScale": 3,
-  "hudScale": 4,
-  "tooltipScale": 4,
+  "hudScale": 3,
+  "tooltipScale": 3,
   "customIndividualGuiScales": {
     "dmillerw.menu.gui.GuiRadialMenu": {
       "scale": 0,
@@ -26,10 +26,6 @@
     "net.optifine.gui.GuiChatOF": {
       "scale": 9,
       "name": "Chat (Optifine)"
-    },
-    "betteradvancements.gui.GuiScreenBetterAdvancements": {
-      "scale": 9,
-      "name": "Advancements GUI"
     }
   },
   "customGroupGuiScales": {},

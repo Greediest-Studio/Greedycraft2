@@ -1,5 +1,5 @@
 {
-	title: "物有所值",
+	title: "§b物有所值",
 	icon: {
 		id: "projecte:item.pe_time_watch",
 		tag: {}
@@ -10,6 +10,9 @@
 	x: 13.5d,
 	y: 15.0d,
 	description: "慢慢磨粉吧（笑",
+	text: [
+		""
+	],
 	dependencies: [
 		"d8ede552"
 	],

@@ -14,6 +14,9 @@ import mods.multiblocked.definition.ComponentDefinition;
 import mods.multiblocked.recipe.RecipeMap;
 import mods.jei.JEI;
 
+import mods.modularmachinery.RecipePrimer;
+import mods.modularmachinery.RecipeBuilder;
+
 var Entries = JAOPCA.getMaterialsForType("INGOT");
 var atvi as ComponentDefinition = MBDRegistry.getDefinition("gct_mac:atomic_viberator");
 var atvict = atvi as ControllerDefinition;
@@ -78,6 +81,24 @@ for EntryItem in Entries {
             .inputFE(1.0f, 256000)
             .outputItems(EntryItem.getItemStack("compound"))
             .buildAndRegister();
+        //Factory Recipe
+        RecipeBuilder.newBuilder("6x_vib_" ~ lowerCase(EntryItem.name), "factory_atomic_vibrator", 40)
+            .addFluidInput(<liquid:neutronium> * 576)
+            .addItemInput(EntryItem.getOreDictEntry("ore"))
+            .addEnergyPerTickInput(10000)
+            .addItemOutput(EntryItem.getItemStack("radiation") * 6)
+            .build();
+        RecipeBuilder.newBuilder("6x_dec_" ~ lowerCase(EntryItem.name), "factory_atomic_decayer", 10)
+            .addItemInput(EntryItem.getOreDictEntry("radiation"))
+            .addEnergyPerTickInput(40000)
+            .addItemOutput(EntryItem.getItemStack("pured"))
+            .build();
+        RecipeBuilder.newBuilder("6x_aci_" ~ lowerCase(EntryItem.name), "factory_atomic_acider", 15)
+            .addFluidInput(<liquid:aqua_fluoride> * 100)
+            .addItemInput(EntryItem.getOreDictEntry("pured"))
+            .addEnergyPerTickInput(20000)
+            .addItemOutput(EntryItem.getItemStack("compound"))
+            .build();
     }
 }
 

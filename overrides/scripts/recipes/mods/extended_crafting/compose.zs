@@ -3,6 +3,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
+import crafttweaker.mods.ILoadedMods;
 
 import mods.avaritia.ExtremeCrafting;
 import mods.avaritia.Compressor;

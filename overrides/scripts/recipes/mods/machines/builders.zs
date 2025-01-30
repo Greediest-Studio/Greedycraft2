@@ -15,6 +15,28 @@ import mods.modularmachinery.RecipeBuilder;
 import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
+
+for i in 4 to 7 {
+    for controller in loadedMods["modularmachinery"].items {
+        if (controller.definition.id has "_controller" && !(controller.definition.id has "_factory_controller")) {
+            var origin_id as string = controller.definition.id.split("_controller")[0];
+            if (!isNull(itemUtils.getItem(origin_id ~ "_factory_controller"))) {
+                RecipeBuilder.newBuilder("controller_factorize" + origin_id, "builder_" + i, 200)
+                    .addFluidInput(<liquid:redstone> * 10000)
+                    .addItemInput(itemUtils.getItem(origin_id ~ "_controller"))
+                    .addItemInput(<modularmachinery:blockparallelcontroller> * 2)
+                    .addItemInput(<ore:ingotModularium> * 256)
+                    .addItemInput(<ore:plateDurasteel> * 4)
+                    .addItemInput(<ore:plateAeonsteel> * 2)
+                    .addItemInput(<ore:plateChromasteel> * 1)
+                    .addEnergyPerTickInput(100)
+                    .addItemOutput(itemUtils.getItem(origin_id ~ "_factory_controller"))
+                    .build();
+            }
+        }
+    }
+}
+
 //强化装配室
 for i in 1 to 7 {
     RecipeBuilder.newBuilder("controller_builder_refined" + i, "builder_" + i, 2400)
@@ -879,14 +901,14 @@ for i in 4 to 7 {
 }
 //复合装配体
 for i in 4 to 7 {
-    RecipeBuilder.newBuilder("giant_factory" + i, "builder_" + i, 1200)
+    RecipeBuilder.newBuilder("factory_giant" + i, "builder_" + i, 1200)
         .addFluidInput(<liquid:redstone> * 30600)
         .addItemInput(<mekanism:controlcircuit:3> * 16)
         .addItemInput(<modularmachinery:blockcasing:4> * 256)
         .addItemInput(<draconicevolution:awakened_core> * 64)
         .addItemInput(<jaopca:gear.chromasteel> * 32)
         .addEnergyPerTickInput(120)
-        .addItemOutput(<modularmachinery:giant_factory_factory_controller>)
-        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:giant_factory"}))
+        .addItemOutput(<modularmachinery:factory_giant_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:factory_giant"}))
         .build();
 }

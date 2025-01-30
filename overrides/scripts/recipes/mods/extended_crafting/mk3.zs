@@ -188,3 +188,33 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mac:stratified_precipitato
 	[<ore:ingotZirconiumMolybdenum>, <actuallyadditions:block_misc:9>, <mist:filter_coal>, <mist:filter_coal>, <mist:filter_coal>, <actuallyadditions:block_misc:9>, <ore:ingotZirconiumMolybdenum>], 
 	[null, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, null]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:factory_atomic_vibrator_controller>, [
+	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
+	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:circuitFinal>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:circuitFinal>, <gct_mac:atomic_viberator>, <ore:circuitFinal>, <ore:ingotPorpezite>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:circuitArcane>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:blockModularium>], 
+	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:factory_atomic_decayer_controller>, [
+	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
+	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:circuitFinal>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:circuitFinal>, <gct_mac:atomic_decayer>, <ore:circuitFinal>, <ore:ingotPorpezite>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:circuitArcane>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:blockModularium>], 
+	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:factory_atomic_acider_controller>, [
+	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
+	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:circuitFinal>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:circuitFinal>, <gct_mac:atomic_acider>, <ore:circuitFinal>, <ore:ingotPorpezite>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:circuitArcane>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:blockModularium>], 
+	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>]
+]);

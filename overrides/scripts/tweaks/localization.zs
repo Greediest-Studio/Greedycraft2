@@ -310,6 +310,7 @@ val localizationMap as string[string][string] = {
         "fluid.liquid_air": "液态空气",
         "fluid.hydrochloric_acid": "盐酸",
         "fluid.nitric_acid": "硝酸",
+        "fluid.aqua_fluoride": "氟王水",
         "fluid.bromine": "液溴",
         "fluid.bromine_gas": "溴蒸气",
         "fluid.rich_brine": "富集盐水",
@@ -449,7 +450,7 @@ val localizationMap as string[string][string] = {
         "greedycraft.tooltip.utilityworld.warnings": "§4一旦使用了传送门，\n除非你放置了指路石等传送装置，\n否则请不要破坏此传送门及返回传送门，\n否则会引起世界丢失！",
         "tile.orderland_portal.name": "秩序之地传送门",
         "tile.everheaven_portal.name": "深空之域传送门",
-        "greedycraft.tooltip.modularcontroller.not_need_blueprints": "§4此机械无需制作蓝图即可工作",
+        "greedycraft.tooltip.modularcontroller.not_need_blueprints": "§4此机械无需制作蓝图即可工作"
     }
 };
 

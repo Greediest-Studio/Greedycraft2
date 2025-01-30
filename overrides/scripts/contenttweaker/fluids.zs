@@ -2689,6 +2689,18 @@ liquidhydrofluricacid.stillLocation = "base:fluids/liquid";
 liquidhydrofluricacid.flowingLocation = "base:fluids/liquid_flow";
 liquidhydrofluricacid.register();
 
+val aqua_fluoride = mods.contenttweaker.VanillaFactory.createFluid("aqua_fluoride", Color.fromHex("3cafc6").getIntColor());
+aqua_fluoride.material = <blockmaterial:water>;
+aqua_fluoride.viscosity = 3000;
+aqua_fluoride.density = 1000;
+aqua_fluoride.colorize = true;
+aqua_fluoride.temperature = 4000;
+aqua_fluoride.luminosity = 10;
+aqua_fluoride.color = Color.fromHex("3cafc6").getIntColor();
+aqua_fluoride.stillLocation = "base:fluids/liquid";
+aqua_fluoride.flowingLocation = "base:fluids/liquid_flow";
+aqua_fluoride.register();
+
 val iodine_carbon_tetrachloride_solution = mods.contenttweaker.VanillaFactory.createFluid("iodine_carbon_tetrachloride_solution", Color.fromHex("ab2aff").getIntColor());
 iodine_carbon_tetrachloride_solution.material = <blockmaterial:water>;
 iodine_carbon_tetrachloride_solution.viscosity = 3000;
