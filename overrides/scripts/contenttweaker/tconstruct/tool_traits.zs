@@ -90,6 +90,71 @@ $expand IItemStack$hasOverslime() as bool {
         return false;
     }
 }
+$expand IItemStack$hasEnergy() as bool {
+    if ((!isNull(this.tag.EnergizedEnergy)) || (!isNull(this.tag.EvolvedEnergy)) || (!isNull(this.tag.FluxedEnergy))) {
+        return true;
+    } else {
+        return false;
+    }
+}
+$expand IItemStack$getEnergy() as int {
+    if (this.hasEnergy()) {
+        if (!isNull(this.tag.EvolvedEnergy)) {
+            return this.tag.EvolvedEnergy as int;
+        } else if (!isNull(this.tag.EnergizedEnergy)) {
+            return this.tag.EnergizedEnergy as int;
+        } else if (!isNull(this.tag.FluxedEnergy)) {
+            return this.tag.FluxedEnergy as int;
+        } else {
+            return 0;
+        }
+    } else {
+        return 0;
+    }
+}
+$expand IMutableItemStack$setEnergy(num as int) as void {
+    if (this.hasEnergy()) {
+        if (!isNull(this.tag.EvolvedEnergy)) {
+            this.updateTag({EvolvedEnergy : num});
+        } else if (!isNull(this.tag.EnergizedEnergy)) {
+            this.updateTag({EnergizedEnergy : num});
+        } else if (!isNull(this.tag.FluxedEnergy)) {
+            this.updateTag({FluxedEnergy : num});
+        }
+    }
+}
+$expand IMutableItemStack$addEnergy(num as int) as void {
+    if (this.hasEnergy()) {
+        this.setEnergy(this.getEnergy() + num);
+    }
+}
+$expand IMutableItemStack$removeEnergy(num as int) as void {
+    if (this.hasEnergy()) {
+        this.setEnergy(this.getEnergy() - num);
+    }
+}
+$expand IMutableItemStack$attemptDamageItemWithEnergy(num as int, player as IPlayer) as void {
+    if (this.hasEnergy()) {
+        var energyDura as int = this.getEnergy() / 640;
+        if (energyDura >= num) {
+            this.removeEnergy(num * 640);
+        } else {
+            var remainDura as int = num - energyDura;
+            this.setEnergy(0);
+            if (remainDura >= this.maxDamage) {
+                ToolHelper.breakTool(this.native, player.native);
+            } else {
+                this.attemptDamageItem(remainDura, player);
+            }
+        }
+    } else {
+        if (num >= this.maxDamage) {
+            ToolHelper.breakTool(this.native, player.native);
+        } else {
+            this.attemptDamageItem(num, player);
+        }
+    }
+}
 
 function lognum(a as int, b as int) as float {
     return (Math.log(b) as float / Math.log(a) as float) as float;
@@ -3415,7 +3480,7 @@ leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, 
             ToolHelper.breakTool(tool.mutable().native, player.native);
             return 0;
         } else {
-            tool.mutable().attemptDamageItem((unmodifiedAmount * (mtp - 1.0f) as float) as int, player);
+            tool.mutable().attemptDamageItemWithEnergy((unmodifiedAmount * (mtp - 1.0f) as float) as int, player);
         }
         return newAmount;
     }
@@ -3434,7 +3499,7 @@ leveling_durabilityTrait.afterBlockBreak = function(trait, tool, world, blocksta
         if ((tool.damage + 2 * mtp) >= tool.maxDamage) {
             ToolHelper.breakTool(tool.mutable().native, player.native);
         } else {
-            tool.mutable().attemptDamageItem((2 * (mtp - 1.0f) as float) as int, player);
+            tool.mutable().attemptDamageItemWithEnergy((2 * (mtp - 1.0f) as float) as int, player);
         }
     }
 };
