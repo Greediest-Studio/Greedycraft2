@@ -122,6 +122,38 @@ RecipeBuilder.newBuilder("shuicao_zip" , "factory_giant" , "1000")
     .addEnergyPerTickInput(10000)
     .addItemOutput(<extendedae:infinity_cell>.withTag({r: {FluidName: "water", Craft: 0 as byte, Cnt: 1 as long, Count: 0 as byte, Req: 0 as long}, t: "f"}))
     .build();
+
+RecipeBuilder.newBuilder("ae8" , "factory_giant" , "1")
+    .addItemInput(<appliedenergistics2:material:22> * 4)
+    .addItemInput(<appliedenergistics2:material:24> * 4)
+    .addItemInput(<appliedenergistics2:material:6> * 4)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<crazyae:material:16> * 8)
+    .build();
+
+RecipeBuilder.newBuilder("ae9" , "factory_giant" , "1")
+    .addItemInput(<actuallyadditions:item_crystal:4> * 4)
+    .addItemInput(<additions:elements-germanium_ingot> * 4)
+    .addItemInput(<minecraft:redstone> * 4)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<additions:greedycraft-calculation_processor_2> * 8)
+    .build();
+
+RecipeBuilder.newBuilder("ae10" , "factory_giant" , "1")
+    .addItemInput(<defiledlands:scarlite> * 4)
+    .addItemInput(<additions:elements-germanium_ingot> * 4)
+    .addItemInput(<minecraft:redstone> * 4)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<additions:greedycraft-engineering_processor_2> * 8)
+    .build();
+
+RecipeBuilder.newBuilder("ae11" , "factory_giant" , "1")
+    .addItemInput(<thermalfoundation:material:134> * 4)
+    .addItemInput(<additions:elements-germanium_ingot> * 4)
+    .addItemInput(<minecraft:redstone> * 4)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<additions:greedycraft-logic_processor_2> * 8)
+    .build();
 //合金
 RecipeBuilder.newBuilder("balancite_ingot" , "factory_giant" , "1")
     .addItemInput(<additions:aeroite_ingot> * 1)
