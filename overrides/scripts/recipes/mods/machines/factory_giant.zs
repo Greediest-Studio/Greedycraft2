@@ -40,7 +40,13 @@ MachineModifier.setInternalParallelism("factory_giant", 16);
         JEI.addItem(item);
     }*/
 //删除配方
-recipes.remove(<extendedae:infinity_cell>);
+val del as IItemStack[] = [
+    <extendedae:infinity_cell>
+];
+for item in del {
+    recipes.remove(item);
+}
+
 
 //ae相关
 RecipeBuilder.newBuilder("fluix" , "factory_giant" , "1")
@@ -247,6 +253,125 @@ RecipeBuilder.newBuilder("eve_ium4" , "factory_giant" , "1")
     .addItemOutput(<gct_ores:ice_alloy_ingot> * 4)
     .build();
 
+RecipeBuilder.newBuilder("astronicium_ingot" , "factory_giant" , "1")
+    .addItemInput(<tiths:ingot_altairium> * 1)
+    .addItemInput(<tiths:ingot_polarium> * 1)
+    .addItemInput(<tiths:ingot_tonium> * 2)
+    .addItemInput(<tiths:ingot_hothium> * 2)
+    .addItemInput(<tiths:ingot_halleium> * 2)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<additions:taigaddon-astronicium_ingot> * 2)
+    .build();
+
+RecipeBuilder.newBuilder("raisium_ingot" , "factory_giant" , "1")
+    .addItemInput(<tiths:ingot_steamium> * 3)
+    .addItemInput(<tiths:ingot_magiga> * 8)
+    .addItemInput(<tiths:ingot_imitatium> * 2)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<additions:taigaddon-raisium_ingot> * 3)
+    .build();
+
+RecipeBuilder.newBuilder("ingot_magiga" , "factory_giant" , "1")
+    .addItemInput(<tconstruct:ingots:2> * 1)
+    .addItemInput(<minecraft:iron_ingot> * 1)
+    .addItemInput(<minecraft:gold_ingot> * 1)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<tiths:ingot_magiga> * 1)
+    .build();
+
+RecipeBuilder.newBuilder("ingot_steamium" , "factory_giant" , "1")
+    .addItemInput(<thermalfoundation:material:160> * 4)
+    .addItemInput(<tiths:ingot_tanatonium> * 3)
+    .addFluidInput(<liquid:liquid_air> * 144)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<tiths:ingot_steamium> * 2)
+    .build();
+
+RecipeBuilder.newBuilder("compressite_ingot" , "factory_giant" , "1")
+    .addItemInput(<additions:taigaddon-astronicium_ingot> * 2)
+    .addItemInput(<additions:taigaddon-raisium_ingot> * 2)
+    .addItemInput(<tiths:ingot_stellarium> * 1)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<additions:taigaddon-compressite_ingot> * 2)
+    .build();
+
+RecipeBuilder.newBuilder("ingot_scientificite" , "factory_giant" , "1")
+    .addFluidInput(<liquid:nitric_acid> * 1000)
+    .addFluidInput(<liquid:sulfuric_acid> * 1000)
+    .addFluidInput(<liquid:hydrochloric_acid> * 1000)
+    .addItemInput(<additions:mekaddon-porpezite_ingot> * 9)
+    .addItemInput(<gct_ores:balanced_matrix_ingot> * 1)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<additions:mekaddon-scientificite_ingot> * 3)
+    .build();
+
+RecipeBuilder.newBuilder("eugardite_ingot" , "factory_giant" , "1")
+    .addItemInput(<tiths:ingot_decurrium> * 3)
+    .addItemInput(<extrabotany:material:8> * 2)
+    .addItemInput(<tiths:ingot_solita> * 1)
+    .addItemInput(<additions:greedycraft-dullium_ingot> * 2)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<additions:greedycraft-eugardite_ingot> * 4)
+    .build();
+
+RecipeBuilder.newBuilder("eucite_ingot" , "factory_giant" , "1")
+    .addItemInput(<journey:storoningot> * 2)
+    .addItemInput(<journey:mekyumingot> * 2)
+    .addItemInput(<journey:koriteingot> * 1)
+    .addItemInput(<journey:celestiumingot> * 1)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<additions:greedycraft-eucite_ingot> * 4)
+    .build();
+
+RecipeBuilder.newBuilder("decurrium_ingot" , "factory_giant" , "1")
+    .addItemInput(<additions:greedycraft-eucite_ingot> * 3)
+    .addItemInput(<additions:greedycraft-corbite_ingot> * 2)
+    .addItemInput(<tiths:ingot_chloroplast> * 2)
+    .addItemInput(<tiths:ingot_irisia> * 3)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<tiths:ingot_decurrium> * 6)
+    .build();
+
+RecipeBuilder.newBuilder("corbite_ingot" , "factory_giant" , "1")
+    .addItemInput(<journey:desingot> * 2)
+    .addItemInput(<journey:flairiumingot> * 2)
+    .addItemInput(<journey:orbaditeingot> * 1)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<additions:greedycraft-corbite_ingot> * 2)
+    .build();
+
+RecipeBuilder.newBuilder("irisia_ingot" , "factory_giant" , "1")
+    .addItemInput(<journey:shadiumingot> * 1)
+    .addItemInput(<journey:luniumingot> * 1)
+    .addItemInput(<divinerpg:shadow_bar> * 4)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<tiths:ingot_irisia> * 3)
+    .build();
+
+RecipeBuilder.newBuilder("solita_ingot" , "factory_giant" , "1")
+    .addItemInput(<thaumadditions:adaminite_ingot> * 1)
+    .addItemInput(<enderio:item_alloy_ingot:7> * 1)
+    .addItemInput(<gct_ores:reditrite_ingot> * 16)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<tiths:ingot_solita> * 3)
+    .build();
+
+RecipeBuilder.newBuilder("cthulhurite_ingot" , "factory_giant" , "1")
+    .addItemInput(<abyssalcraft:abyingot> * 1)
+    .addItemInput(<abyssalcraft:cingot> * 1)
+    .addItemInput(<abyssalcraft:dreadiumingot> * 1)
+    .addItemInput(<abyssalcraft:ethaxiumingot> * 1)
+    .addItemInput(<gct_mobs:sanite_ingot> * 1)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<gct_mobs:cthulhurite_ingot> * 2)
+    .build();
+
+RecipeBuilder.newBuilder("husturite_ingot" , "factory_giant" , "1")
+    .addItemInput(<gct_mobs:cthulhurite_ingot> * 1)
+    .addFluidInput(<liquid:aerotheum> * 6400)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<additions:taigaddon-husturite_ingot> * 1)
+    .build();
 //龙研
 //核心
 RecipeBuilder.newBuilder("wyvern_core" , "factory_giant" , "20")
