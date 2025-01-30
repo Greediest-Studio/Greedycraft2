@@ -101,6 +101,8 @@ ManaInfusion.addInfusion(<thermalfoundation:storage:8>, <ore:blockSilver>, 36000
 ManaInfusion.addInfusion(<additions:botaniaddon-holium_ingot>, <ore:ingotGold>, 5000);
 ManaInfusion.addInfusion(<additions:botaniaddon-holium_block>, <ore:blockGold>, 45000);
 ManaInfusion.addInfusion(<additions:botaniaddon-mana_firestone>, <ore:gemFirestone>, 90000);
+ManaInfusion.addInfusion(<gct_mobs:mana_leaves>, <ore:treeLeaves>, 1000);
+ManaInfusion.addInfusion(<gct_mobs:mana_log>, <ore:logWood>, 1000);
 
 Agglomeration.addRecipe(<additions:botaniaddon-elfsteel_ingot>, [<botania:manaresource:7>, <botania:manaresource:9>, <botania:manaresource:8>], 1000000, 0xED339A, 0xE67800, <botanicadds:dreamrock>, <botanicadds:mana_lapis_block>, <botanicadds:dreamrock>, null, null, null);
 Agglomeration.addRecipe(<additions:botaniaddon-mythsteel_ingot>, [<ore:ingotTerrasteel>, <ore:ingotElfsteel>, <ore:ingotGaiasteel>], 3000000, 0x54ff05, 0xffffcb, <minecraft:quartz_block>, <extrabotany:blockphotonium>, <minecraft:quartz_block>, null, null, null);
