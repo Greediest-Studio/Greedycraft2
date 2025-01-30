@@ -82,18 +82,18 @@ for EntryItem in Entries {
             .outputItems(EntryItem.getItemStack("compound"))
             .buildAndRegister();
         //Factory Recipe
-        RecipeBuilder.newBuilder("6x_vib_" ~ lowerCase(EntryItem.name), "factory_atomic_vibrator", 40)
+        RecipeBuilder.newBuilder("vib_" ~ lowerCase(EntryItem.name), "factory_atomic_vibrator", 40)
             .addFluidInput(<liquid:neutronium> * 576)
             .addItemInput(EntryItem.getOreDictEntry("ore"))
             .addEnergyPerTickInput(10000)
             .addItemOutput(EntryItem.getItemStack("radiation") * 6)
             .build();
-        RecipeBuilder.newBuilder("6x_dec_" ~ lowerCase(EntryItem.name), "factory_atomic_decayer", 10)
+        RecipeBuilder.newBuilder("dec_" ~ lowerCase(EntryItem.name), "factory_atomic_decayer", 10)
             .addItemInput(EntryItem.getOreDictEntry("radiation"))
             .addEnergyPerTickInput(40000)
             .addItemOutput(EntryItem.getItemStack("pured"))
             .build();
-        RecipeBuilder.newBuilder("6x_aci_" ~ lowerCase(EntryItem.name), "factory_atomic_acider", 15)
+        RecipeBuilder.newBuilder("aci_" ~ lowerCase(EntryItem.name), "factory_atomic_acider", 15)
             .addFluidInput(<liquid:aqua_fluoride> * 100)
             .addItemInput(EntryItem.getOreDictEntry("pured"))
             .addEnergyPerTickInput(20000)

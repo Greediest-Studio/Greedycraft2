@@ -200,21 +200,21 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:factory_atomi
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:factory_atomic_decayer_controller>, [
-	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
-	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotElectronium>, <ore:ingotElectronium>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotElectronium>, <ore:ingotElectronium>], 
+	[<ore:ingotElectronium>, <ore:ingotElectronium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotElectronium>, <ore:ingotElectronium>], 
 	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:circuitFinal>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:blockModularium>], 
 	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:circuitFinal>, <gct_mac:atomic_decayer>, <ore:circuitFinal>, <ore:ingotPorpezite>, <ore:blockModularium>], 
 	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:circuitArcane>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:blockModularium>], 
-	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
-	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>]
+	[<ore:ingotElectronium>, <ore:ingotElectronium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotElectronium>, <ore:ingotElectronium>], 
+	[<ore:ingotElectronium>, <ore:ingotElectronium>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotElectronium>, <ore:ingotElectronium>]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:factory_atomic_acider_controller>, [
-	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
-	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
+	[<ore:ingotProtonium>, <ore:ingotProtonium>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotProtonium>, <ore:ingotProtonium>], 
+	[<ore:ingotProtonium>, <ore:ingotProtonium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotProtonium>, <ore:ingotProtonium>], 
 	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:circuitFinal>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:blockModularium>], 
 	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:circuitFinal>, <gct_mac:atomic_acider>, <ore:circuitFinal>, <ore:ingotPorpezite>, <ore:blockModularium>], 
 	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:circuitArcane>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:blockModularium>], 
-	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
-	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>]
+	[<ore:ingotProtonium>, <ore:ingotProtonium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotProtonium>, <ore:ingotProtonium>], 
+	[<ore:ingotProtonium>, <ore:ingotProtonium>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotProtonium>, <ore:ingotProtonium>]
 ]);
