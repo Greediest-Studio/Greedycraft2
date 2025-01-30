@@ -72,8 +72,8 @@ livingwood2.setExtraHeight(1);
 livingwood2.setGenFrequency(1);
 livingwood2.setGenAttempts(6);
 livingwood2.extraThick = false;
-livingwood2.setGenBiome("gct_mobs:mana_forest");
-livingwood2.setBaseBlock("gct_mobs:mana_grass_hill");
+livingwood2.setGenBiome("gct_mobs:mana_forest_hill");
+livingwood2.setBaseBlock("gct_mobs:mana_grass");
 livingwood2.setDimWhitelist(0);
 livingwood2.register();
 
