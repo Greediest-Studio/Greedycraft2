@@ -90,71 +90,6 @@ $expand IItemStack$hasOverslime() as bool {
         return false;
     }
 }
-$expand IItemStack$hasEnergy() as bool {
-    if ((!isNull(this.tag.EnergizedEnergy)) || (!isNull(this.tag.EvolvedEnergy)) || (!isNull(this.tag.FluxedEnergy))) {
-        return true;
-    } else {
-        return false;
-    }
-}
-$expand IItemStack$getEnergy() as int {
-    if (this.hasEnergy()) {
-        if (!isNull(this.tag.EvolvedEnergy)) {
-            return this.tag.EvolvedEnergy as int;
-        } else if (!isNull(this.tag.EnergizedEnergy)) {
-            return this.tag.EnergizedEnergy as int;
-        } else if (!isNull(this.tag.FluxedEnergy)) {
-            return this.tag.FluxedEnergy as int;
-        } else {
-            return 0;
-        }
-    } else {
-        return 0;
-    }
-}
-$expand IMutableItemStack$setEnergy(num as int) as void {
-    if (this.hasEnergy()) {
-        if (!isNull(this.tag.EvolvedEnergy)) {
-            this.updateTag({EvolvedEnergy : num});
-        } else if (!isNull(this.tag.EnergizedEnergy)) {
-            this.updateTag({EnergizedEnergy : num});
-        } else if (!isNull(this.tag.FluxedEnergy)) {
-            this.updateTag({FluxedEnergy : num});
-        }
-    }
-}
-$expand IMutableItemStack$addEnergy(num as int) as void {
-    if (this.hasEnergy()) {
-        this.setEnergy(this.getEnergy() + num);
-    }
-}
-$expand IMutableItemStack$removeEnergy(num as int) as void {
-    if (this.hasEnergy()) {
-        this.setEnergy(this.getEnergy() - num);
-    }
-}
-$expand IMutableItemStack$attemptDamageItemWithEnergy(num as int, player as IPlayer) as void {
-    if (this.hasEnergy()) {
-        var energyDura as int = this.getEnergy() / 640;
-        if (energyDura >= num) {
-            this.removeEnergy(num * 640);
-        } else {
-            var remainDura as int = num - energyDura;
-            this.setEnergy(0);
-            if (remainDura >= this.maxDamage) {
-                ToolHelper.breakTool(this.native, player.native);
-            } else {
-                this.attemptDamageItem(remainDura, player);
-            }
-        }
-    } else {
-        if (num >= this.maxDamage) {
-            ToolHelper.breakTool(this.native, player.native);
-        } else {
-            this.attemptDamageItem(num, player);
-        }
-    }
-}
 
 function lognum(a as int, b as int) as float {
     return (Math.log(b) as float / Math.log(a) as float) as float;
@@ -1899,7 +1834,7 @@ oxylessTrait.onHurt = function(trait, armor, player, source, damage, newDamage, 
             if ((armor.damage + pow(2, level)) >= armor.maxDamage) {
                 ToolHelper.breakTool(armor.mutable().native, player.native);
             } else {
-                armor.mutable().attemptDamageItemWithEnergy(pow(2, level) as int, player);
+                armor.mutable().attemptDamageItem(pow(2, level) as int, player);
             }            
             return newDamage * (1.0f - (pow(2.15f, level as int) * 0.01f));
         } else if (armor.tag.oxide as int == 5) {
@@ -1909,7 +1844,7 @@ oxylessTrait.onHurt = function(trait, armor, player, source, damage, newDamage, 
                 if ((armor.damage + 32) >= armor.maxDamage) {
                     ToolHelper.breakTool(armor.mutable().native, player.native);
                 } else {
-                    armor.mutable().attemptDamageItemWithEnergy(32 as int, player);
+                    armor.mutable().attemptDamageItem(32 as int, player);
                 }            
             }
             armor.mutable().updateTag(
@@ -1961,7 +1896,7 @@ erosionTrait.onArmorTick = function(trait, armor, world, player) {
                 if ((armor.damage + 10000) >= armor.maxDamage) {
                     ToolHelper.breakTool(armor.mutable().native, player.native);
                 } else {
-                    armor.mutable().attemptDamageItemWithEnergy(10000 as int, player);
+                    armor.mutable().attemptDamageItem(10000 as int, player);
                 }            
             }
             if (Math.random() < 0.003) {
@@ -2074,7 +2009,7 @@ splitTrait.onHurt = function(trait, armor, player, source, damage, newDamage, ev
             if ((armor.damage + (armor.maxDamage * 0.07f)) >= armor.maxDamage) {
                 ToolHelper.breakTool(armor.mutable().native, player.native);
             } else {
-                armor.mutable().attemptDamageItemWithEnergy((armor.maxDamage * 0.07f) as int, player);
+                armor.mutable().attemptDamageItem((armor.maxDamage * 0.07f) as int, player);
             }            
             return 0.0f;
         }
@@ -2655,14 +2590,14 @@ leveling_durabilityTrait.onArmorDamaged = function(trait, armor, damageSource, a
             if ((armor.damage + (armor.maxDamage / 200)) >= armor.maxDamage) {
                 ToolHelper.breakTool(armor.mutable().native, player.native);
             } else {
-                armor.mutable().attemptDamageItemWithEnergy((armor.maxDamage / 200) as int, player);
+                armor.mutable().attemptDamageItem((armor.maxDamage / 200) as int, player);
             }            
             return newAmount;
         } else {
             if ((armor.damage + (amount * (mtp - 1.0f)) as int) >= armor.maxDamage) {
                 ToolHelper.breakTool(armor.mutable().native, player.native);
             } else {
-                armor.mutable().attemptDamageItemWithEnergy((amount * (mtp - 1.0f)) as int, player);
+                armor.mutable().attemptDamageItem((amount * (mtp - 1.0f)) as int, player);
             }            
             return newAmount;
         }
@@ -2837,7 +2772,7 @@ hydrogen_absorbTrait.onArmorTick = function(trait, armor, world, player) {
             if ((armor.damage + 10) >= armor.maxDamage) {
                 ToolHelper.breakTool(armor.mutable().native, player.native);
             } else {
-                armor.mutable().attemptDamageItemWithEnergy(10 as int, player);
+                armor.mutable().attemptDamageItem(10 as int, player);
             }
             var itemId as string = <ore:ingotHydrogen>.firstItem.definition.id as string;
             player.give(itemUtils.getItem(itemId));
@@ -3267,7 +3202,7 @@ sutureTrait.onHurt = function(trait, armor, player, source, damage, newDamage, e
             if ((armor.damage + armor.maxDamage * 0.1f) >= armor.maxDamage) {
                 ToolHelper.breakTool(armor.mutable().native, player.native);
             } else {
-                armor.mutable().attemptDamageItemWithEnergy(armor.maxDamage * 0.1f as int, player);
+                armor.mutable().attemptDamageItem(armor.maxDamage * 0.1f as int, player);
             }
         }
     }
@@ -3329,7 +3264,7 @@ collapseTrait.onArmorTick = function(trait, armor, world, player) {
     if ((armor.damage + dura) >= armor.maxDamage) {
             ToolHelper.breakTool(armor.mutable().native, player.native);
         } else {
-            armor.mutable().attemptDamageItemWithEnergy(dura as int, player);
+            armor.mutable().attemptDamageItem(dura as int, player);
         }    
     }
 };
