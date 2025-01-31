@@ -912,3 +912,26 @@ for i in 4 to 7 {
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:factory_giant"}))
         .build();
 }
+//中子活化器
+for i in 3 to 7 {
+    RecipeBuilder.newBuilder("neutron_activator" + i, "builder_" + i, 800)
+        .addFluidInput(<liquid:redstone> * 128000)
+        .addItemInput(<mekanism:machineblock3:1> * 16)
+        .addItemInput(<jaopca:gear.durasteel> * 4)
+        .addEnergyPerTickInput(1000)
+        .addItemOutput(<modularmachinery:neutron_activator_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:neutron_activator"}))
+        .build();
+}
+//大蒸馏塔
+for i in 3 to 7 {
+    RecipeBuilder.newBuilder("thermal_evaporation_plant" + i, "builder_" + i, 800)
+        .addFluidInput(<liquid:redstone> * 128000)
+        .addItemInput(<mekanism:basicblock:14> * 16)
+        .addItemInput(<mekanism:basicblock2> * 64)
+        .addItemInput(<jaopca:gear.durasteel> * 4)
+        .addEnergyPerTickInput(1000)
+        .addItemOutput(<modularmachinery:thermal_evaporation_plant_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:thermal_evaporation_plant"}))
+        .build();
+}

@@ -160,6 +160,16 @@ RecipeBuilder.newBuilder("ae11" , "factory_giant" , "1")
     .addEnergyPerTickInput(1000)
     .addItemOutput(<additions:greedycraft-logic_processor_2> * 8)
     .build();
+RecipeBuilder.newBuilder("ae12" , "factory_giant" , "1")
+    .addItemInput(<nae2:upgrade> * 64)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<crazyae:upgrade:1> * 1)
+    .build();
+RecipeBuilder.newBuilder("ae13" , "factory_giant" , "1")
+    .addItemInput(<crazyae:upgrade:1> * 64)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<crazyae:upgrade:2> * 1)
+    .build();
 //合金
 RecipeBuilder.newBuilder("balancite_ingot" , "factory_giant" , "1")
     .addItemInput(<additions:aeroite_ingot> * 1)

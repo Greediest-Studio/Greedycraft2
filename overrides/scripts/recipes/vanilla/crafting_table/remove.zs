@@ -12,6 +12,11 @@ import crafttweaker.item.IIngredient;
 import scripts.util.recipes as RecipeUtil;
 
 val removedRecipes as IIngredient[] = [
+    <modularrouters:module:16>,
+    <modularrouters:module:13>,
+    <crazyae:upgrade:1>,
+    <crazyae:upgrade:2>,
+    <extendedae:infinity_cell>,
     <thebetweenlands:bl_bucket_plant_tonic>.withTag({usages: 0}),
     <endreborn:item_raw_endorium>,
     <appliedenergistics2:material:41>,

@@ -1577,6 +1577,16 @@ RecipeUtil.addShaped("blocklifeessenceprovideroutput", <modularmachinery:blockli
     [<bloodarsenal:blood_stained_glass_pane>,<bloodmagic:item_demon_crystal:3>,<bloodarsenal:blood_stained_glass_pane>],
     [<bloodmagic:blood_rune>,<bloodarsenal:blood_stained_glass_pane>,<bloodmagic:blood_rune>]
 ]);
+RecipeUtil.addShaped("modularrouters1", <modularrouters:module:16>, [
+    [null, <additions:greedycraft-aeonsteel_block>, null],
+    [<additions:greedycraft-aeonsteel_block>, <modularrouters:blank_module>, <additions:greedycraft-aeonsteel_block>],
+    [null,<additions:greedycraft-aeonsteel_block>, null]
+]);
+RecipeUtil.addShaped("modularrouters2", <modularrouters:module:13>, [
+    [null, <additions:greedycraft-aeonsteel_block>, null],
+    [<modularrouters:module:9>, <modularrouters:blank_module>, <modularrouters:module:7>],
+    [null, <additions:greedycraft-aeonsteel_block>, null]
+]);
 
 /* Templates
 
