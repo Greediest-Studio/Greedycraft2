@@ -16,12 +16,12 @@ import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
 
-for i in 4 to 7 {
-    for controller in loadedMods["modularmachinery"].items {
-        if (controller.definition.id has "_controller" && !(controller.definition.id has "_factory_controller")) {
-            var origin_id as string = controller.definition.id.split("_controller")[0];
-            if (!isNull(itemUtils.getItem(origin_id ~ "_factory_controller"))) {
-                RecipeBuilder.newBuilder("controller_factorize" + origin_id, "builder_" + i, 200)
+for controller in loadedMods["modularmachinery"].items {
+    if (controller.definition.id has "_controller" && !(controller.definition.id has "_factory_controller")) {
+        var origin_id as string = controller.definition.id.split("_controller")[0];
+        if (!isNull(itemUtils.getItem(origin_id ~ "_factory_controller"))) {
+            for i in 4 to 7 {
+                RecipeBuilder.newBuilder("controller_factorize" + origin_id + i, "builder_" + i, 200)
                     .addFluidInput(<liquid:redstone> * 10000)
                     .addItemInput(itemUtils.getItem(origin_id ~ "_controller"))
                     .addItemInput(<modularmachinery:blockparallelcontroller> * 2)
@@ -36,6 +36,7 @@ for i in 4 to 7 {
         }
     }
 }
+
 
 //强化装配室
 for i in 1 to 7 {
