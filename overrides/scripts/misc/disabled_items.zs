@@ -1597,7 +1597,8 @@ val HideItem as IItemStack[] = [
     <additions:greedycraft-astral_projector_2>,
     <gct_mac:model_atomic_viberator>,
     <gct_mac:model_atomic_acidor>,
-    <gct_mac:model_atomic_decayer>
+    <gct_mac:model_atomic_decayer>,
+    <appliedenergistics2:facade>
 ];
 
 for i in HideItem {
