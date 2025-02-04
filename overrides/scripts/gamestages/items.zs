@@ -292,8 +292,6 @@ GameStagesUtil.stageAwakened.addIngredients([
     <gct_ores:everite_block>,
     <gct_ores:everite_nugget>,
     <gct_ores:everite_dust>,
-    <utilityworlds:portal_garden>,
-    <utilityworlds:portal_void>,
     <ore:ingotAurune>,
     <ore:nuggetAurune>,
     <ore:blockAurune>,
