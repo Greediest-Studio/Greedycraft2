@@ -417,7 +417,7 @@ RecipeBuilder.newBuilder("relifed_core" , "factory_giant" , "40")
     .addItemInput(<ore:coreExcellent> * 2)
     .addItemInput(<gct_ores:relifed_witherium_ingot> * 2)
     .addItemInput(<additions:aeonsteel_ingot> * 2)
-    .addItemInput(<ore:metalAweakened> * 2)
+    .addItemInput(<ore:metalAwakened> * 2)
     .addEnergyPerTickInput(100000)
     .addItemOutput(<gct_ores:relifed_core> * 1)
     .build();
