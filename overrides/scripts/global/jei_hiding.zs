@@ -31,3 +31,5 @@ JEI.addDescription(<aeble:air_ring>,"装备时，免疫摔落伤害");
 JEI.addDescription(<aeble:regeneration_ring>,"装备时，提供常驻的生命恢复1");
 JEI.addDescription(<additions:greedycraft-twilit_ingot>, "§f合成方式请查询§c暮晶块");
 JEI.addDescription(<gct_mobs:earth_ingot>, "§f使用§c神圣钢锭§f右击激活的地缚祭坛结构以合成§c大地之锭");
+JEI.addDescription(<gct_aby:sanity_altar>,"§c远古淤泥§f需在§c黑暗领域§f处召唤！召唤时请在§c灵神台座上§f放置一个§c黑曜石");
+JEI.addDescription(<gct_aby:ancientmud>,"§c远古淤泥§f需在§c黑暗领域§f处召唤！召唤时请在§c灵神台座上§f放置一个§c黑曜石");
