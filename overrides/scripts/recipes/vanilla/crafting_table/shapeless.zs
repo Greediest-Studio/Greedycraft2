@@ -92,7 +92,7 @@ RecipeUtil.addShapeless("thermal_shapeless_4", <thermalfoundation:material:24>,
 RecipeUtil.addShapeless("rotleather", <minecraft:leather>,
     [<minecraft:rotten_flesh>,<minecraft:rotten_flesh>,<minecraft:rotten_flesh>,<minecraft:rotten_flesh>]
 );
-RecipeUtil.addShapeless("oebook", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: oeEnchantId}]}),
+RecipeUtil.addShapeless("oebook", <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 5 as short, id: 78}]}),
     [<oeintegration:excavatemodifier>, <oeintegration:excavatemodifier>, <oeintegration:excavatemodifier>, <oeintegration:excavatemodifier>, <oeintegration:excavatemodifier>, <minecraft:book>]
 );
 RecipeUtil.addShapeless("auto_gen_1334582590", <avaritia:block_resource:1> * 64,
