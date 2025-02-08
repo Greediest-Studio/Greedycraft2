@@ -17,7 +17,7 @@ import mods.jei.JEI;
 import scripts.util.recipes as RecipeUtil;
 import scripts.util.lang as LangUtil;
 
-val disabledItems as IIngredient[] = [
+var disabledItems as IIngredient[] = [
     <moretcon:blockvalkyriemetal>,
     <moretcon:ingotvalkyriemetal>,
     <moretcon:nuggetvalkyriemetal>,
@@ -1578,6 +1578,13 @@ val outputBlacklist as IItemStack[] = [
     <abyssalcraft:dirtyplate>,
     <ageofminecraft:withered_nether_star>
 ];
+
+for item in loadedMods["forestry"].items {
+    if (item.definition.id has "crated") {
+        disabledItems += item;
+    }
+}
+
 
 for ingredient in disabledItems {
     ItemStages.removeItemStage(ingredient);
