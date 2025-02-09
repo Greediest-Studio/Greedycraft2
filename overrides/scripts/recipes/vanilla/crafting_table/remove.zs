@@ -12,6 +12,7 @@ import crafttweaker.item.IIngredient;
 import scripts.util.recipes as RecipeUtil;
 
 val removedRecipes as IIngredient[] = [
+    <crazyae:mana_cell_256k>,
     <modularrouters:module:16>,
     <modularrouters:module:13>,
     <crazyae:upgrade:1>,

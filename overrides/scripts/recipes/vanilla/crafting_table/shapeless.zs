@@ -506,6 +506,9 @@ RecipeUtil.addShapelessOf("rock_crystal_compress", <astralsorcery:blockcustomore
 RecipeUtil.addShapeless("primordial_smelter_exchange", <modularmachinery:primordial_smelter_factory_controller> * 1,
     [<gct_mac:giant_smelter>]
 );
+RecipeUtil.addShapeless("manacell256k", <crazyae:mana_cell_256k>, 
+    [<appliedenergistics2:material:39>,<crazyae:material:22>]
+);
 
 
 /* Template
