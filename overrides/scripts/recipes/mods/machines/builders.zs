@@ -936,3 +936,29 @@ for i in 3 to 7 {
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:thermal_evaporation_plant"}))
         .build();
 }
+//大五倍矿
+for i in 3 to 7 {
+    RecipeBuilder.newBuilder("ore_5x" + i, "builder_" + i, 800)
+        .addFluidInput(<liquid:redstone> * 128000)
+        .addItemInput(<additions:greedycraft-modularium_block> * 16)
+        .addItemInput(<ore:circuitUltimate> * 16)
+        .addItemInput(<enderio:block_alloy:6> * 16)
+        .addItemInput(<jaopca:gear.aeonsteel> * 32)
+        .addEnergyPerTickInput(1000)
+        .addItemOutput(<modularmachinery:ore_5x_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ore_5x_controller"}))
+        .build();
+}
+//大粉碎机
+for i in 3 to 7 {
+    RecipeBuilder.newBuilder("big_grinder" + i, "builder_" + i, 800)
+        .addFluidInput(<liquid:redstone> * 128000)
+        .addItemInput(<additions:greedycraft-modularium_block> * 8)
+        .addItemInput(<enderio:item_material:58> * 16)
+        .addItemInput(<enderio:block_alloy:6> * 16)
+        .addItemInput(<jaopca:gear.aeonsteel> * 4)
+        .addEnergyPerTickInput(1000)
+        .addItemOutput(<modularmachinery:big_grinder_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:big_grinder_controller"}))
+        .build();
+}

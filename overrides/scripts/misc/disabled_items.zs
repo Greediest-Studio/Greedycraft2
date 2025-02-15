@@ -18,6 +18,7 @@ import scripts.util.recipes as RecipeUtil;
 import scripts.util.lang as LangUtil;
 
 var disabledItems as IIngredient[] = [
+    <cyclicmagic:battery>,
     <moretcon:blockvalkyriemetal>,
     <moretcon:ingotvalkyriemetal>,
     <moretcon:nuggetvalkyriemetal>,
@@ -1585,6 +1586,11 @@ for item in loadedMods["forestry"].items {
     }
 }
 
+for item in loadedMods["mekanism"].items {
+    if (item.definition.id has "gastank") && (item.displayName has "创造") {
+        JEI.hide(item);
+    }
+}
 
 for ingredient in disabledItems {
     ItemStages.removeItemStage(ingredient);
@@ -1611,6 +1617,7 @@ val HideItem as IItemStack[] = [
 for i in HideItem {
     JEI.removeAndHide(i);
 }
+
 
 for recipe in recipes.all {
     for regex in disabledRecipeRegex {
