@@ -946,7 +946,7 @@ for i in 3 to 7 {
         .addItemInput(<jaopca:gear.aeonsteel> * 32)
         .addEnergyPerTickInput(1000)
         .addItemOutput(<modularmachinery:ore_5x_controller>)
-        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ore_5x_controller"}))
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ore_5x"}))
         .build();
 }
 //大粉碎机
@@ -959,6 +959,6 @@ for i in 3 to 7 {
         .addItemInput(<jaopca:gear.aeonsteel> * 4)
         .addEnergyPerTickInput(1000)
         .addItemOutput(<modularmachinery:big_grinder_controller>)
-        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:big_grinder_controller"}))
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:big_grinder"}))
         .build();
 }
