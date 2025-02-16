@@ -103,3 +103,6 @@ brewing.addBrew(<minecraft:potion>.withTag({Potion: "potioncore:burst"}), [<ore:
 
 //brewing.removeRecipe(IItemStack input, IItemStack ingredient);
 brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <minecraft:clock>.withTag({"quark:clock_calculated": 1 as byte}));
+brewing.removeRecipe(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), <oe:turtle_helmet>);
+brewing.removeRecipe(<minecraft:splash_potion>.withTag({Potion: "minecraft:awkward"}), <oe:turtle_helmet>);
+brewing.removeRecipe(<minecraft:lingering_potion>.withTag({Potion: "minecraft:awkward"}), <oe:turtle_helmet>);

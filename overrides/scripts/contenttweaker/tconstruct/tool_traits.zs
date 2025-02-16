@@ -3476,11 +3476,11 @@ leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, 
         } else {
             mtp = (93.0f / 4160.0f) * difficulty as float - (43.0f / 13.0f) as float;
         }
-        if (min((tool.maxDamage * 0.03f) as float,(tool.damage + unmodifiedAmount * mtp) as float) >= tool.maxDamage) {
+        if (min((tool.maxDamage * 0.06f) as float,(tool.damage + unmodifiedAmount * mtp) as float) >= tool.maxDamage) {
             ToolHelper.breakTool(tool.mutable().native, player.native);
             return 0;
         } else {
-            tool.mutable().attemptDamageItemWithEnergy(min((tool.maxDamage * 0.09f) as float ,(unmodifiedAmount * (mtp - 1.0f) * 3) as float) as int, player);
+            tool.mutable().attemptDamageItemWithEnergy(min((tool.maxDamage * 0.06f) as float ,(unmodifiedAmount * (mtp - 1.0f) * 3) as float) as int, player);
         }
         return newAmount;
     }
