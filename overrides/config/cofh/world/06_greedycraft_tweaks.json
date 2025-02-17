@@ -1167,26 +1167,6 @@
                 "value": [-1]
             }
         },
-        "stripium": {
-            "enabled": "true",
-            "distribution": "uniform",
-            "generator": {
-                "block": [{
-                    "name": "additions:taigaddon-stripium_ore",
-                    "weight": 100
-                }],
-                "material": "abyssalcraft:stone@1",
-                "cluster-size": 2
-            },
-            "min-height": 0,
-            "max-height": 50,
-            "cluster-count": 4,
-            "retrogen": "true",
-            "dimension": {
-                "restriction": "whitelist",
-                "value": [50]
-            }
-        },
         "dimensium": {
             "enabled": "true",
             "distribution": "uniform",
@@ -1285,46 +1265,6 @@
             "dimension": {
                 "restriction": "whitelist",
                 "value": [-1]
-            }
-        },
-        "togrium": {
-            "enabled": "true",
-            "distribution": "uniform",
-            "generator": {
-                "block": [{
-                    "name": "additions:taigaddon-togrium_ore",
-                    "weight": 100
-                }],
-                "material": "abyssalcraft:stone@4",
-                "cluster-size": 1
-            },
-            "min-height": 0,
-            "max-height": 80,
-            "cluster-count": 4,
-            "retrogen": "true",
-            "dimension": {
-                "restriction": "whitelist",
-                "value": [51]
-            }
-        },
-        "yoggleseum": {
-            "enabled": "true",
-            "distribution": "uniform",
-            "generator": {
-                "block": [{
-                    "name": "additions:taigaddon-yoggleseum_ore",
-                    "weight": 100
-                }],
-                "material": "abyssalcraft:stone@6",
-                "cluster-size": 1
-            },
-            "min-height": 0,
-            "max-height": 128,
-            "cluster-count": 4,
-            "retrogen": "true",
-            "dimension": {
-                "restriction": "whitelist",
-                "value": [52]
             }
         },
         "breakium": {
@@ -1487,26 +1427,6 @@
                 "value": [1]
             }
         },
-        "antimony": {
-            "enabled": "true",
-            "distribution": "uniform",
-            "generator": {
-                "block": [{
-                    "name": "additions:taigaddon-antimony_ore",
-                    "weight": 100
-                }],
-                "material": "abyssalcraft:stone@3",
-                "cluster-size": 1
-            },
-            "min-height": 0,
-            "max-height": 128,
-            "cluster-count": 2,
-            "retrogen": "true",
-            "dimension": {
-                "restriction": "whitelist",
-                "value": [51]
-            }
-        },
         "rapesesium": {
             "enabled": "true",
             "distribution": "uniform",
@@ -1525,26 +1445,6 @@
             "dimension": {
                 "restriction": "whitelist",
                 "value": [-1]
-            }
-        },
-        "circlium": {
-            "enabled": "true",
-            "distribution": "uniform",
-            "generator": {
-                "block": [{
-                    "name": "additions:taigaddon-circlium_ore",
-                    "weight": 100
-                }],
-                "material": "abyssalcraft:stone@6",
-                "cluster-size": 1
-            },
-            "min-height": 0,
-            "max-height": 128,
-            "cluster-count": 2,
-            "retrogen": "true",
-            "dimension": {
-                "restriction": "whitelist",
-                "value": [52]
             }
         },
         "botanical_soul": {
