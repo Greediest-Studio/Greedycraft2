@@ -62,8 +62,6 @@
 
 <item:journey:orbaditeore>.asBlock().definition.setHarvestLevel("pickaxe", 8);
 
-<item:mist:niobium_ore>.asBlock().definition.setHarvestLevel("pickaxe", 8);
-
 <item:journey:desore>.asBlock().definition.setHarvestLevel("pickaxe", 9);
 
 <item:thebetweenlands:syrmorite_ore>.asBlock().definition.setHarvestLevel("pickaxe", 9);

@@ -29,8 +29,6 @@ recipes.addShaped(<gct_ores:stormy_shard_block> * 1, [[<gct_ores:stormy_shard>, 
 recipes.remove(<gct_ores:stormy_shard>);
 recipes.addShaped(<gct_ores:stormy_shard> * 9, [[<gct_ores:stormy_shard_block>, null, null], [null, null, null],[null, null, null]]);
 
-recipes.addShapeless(<mist:portal_base:2>,[<additions:greedycraft-aeonsteel_block>,<minecraft:mossy_cobblestone>]);
-recipes.addShapeless(<mist:portal_base:3>,[<additions:greedycraft-aeonsteel_block>,<astralsorcery:blockmarble>]);
 recipes.addShapeless(<botania:dreamwood:1> * 4, [<gct_mobs:dreamwood_log>]);
 recipes.addShapeless(<gct_mobs:reversed_dreamwood_plank> * 4, [<gct_mobs:reversed_dreamwood_log>]);
 recipes.addShapeless(<botania:manaresource:5> * 32, [<gct_mobs:gaia_heart>]);

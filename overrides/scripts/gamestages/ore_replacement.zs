@@ -112,8 +112,6 @@ GameStagesUtil.stageChaotic.addOreReplacement(<tiths:ore_tourmaline>, <minecraft
 GameStagesUtil.stageChaotic.addOreReplacement(<tiths:ore_opal>, <minecraft:stone>, false);
 GameStagesUtil.stageChaotic.addOreReplacement(<tiths:ore_cordierite>, <minecraft:stone>, false);
 GameStagesUtil.stageChaotic.addOreReplacement(<tiths:ore_prehnite>, <minecraft:stone>, false);
-GameStagesUtil.stageChaotic.addOreReplacement(<additions:mekaddon-rhodium_ore>, <mist:stone_porous>, false);
-GameStagesUtil.stageChaotic.addOreReplacement(<additions:mekaddon-ruthenium_ore>, <mist:stone_porous>, false);
 
 GameStagesUtil.stageEpicEngineer.addOreReplacement(<nuclearcraft:ore:3>, <minecraft:stone>, false);
 GameStagesUtil.stageEpicEngineer.addOreReplacement(<nuclearcraft:ore:4>, <minecraft:stone>, false);
@@ -122,8 +120,6 @@ GameStagesUtil.stageEpicEngineer.addOreReplacement(<netherendingores:ore_end_mod
 GameStagesUtil.stageEpicEngineer.addOreReplacement(<netherendingores:ore_nether_modded_1:12>, <minecraft:netherrack>, false);
 GameStagesUtil.stageEpicEngineer.addOreReplacement(<netherendingores:ore_nether_modded_1:13>, <minecraft:netherrack>, false);
 GameStagesUtil.stageEpicEngineer.addOreReplacement(<mekanism:oreblock:5>, <minecraft:stone>, false);
-GameStagesUtil.stageEpicEngineer.addOreReplacement(<additions:greedycraft-bismuth_ore>, <mist:stone_basic>, false);
-GameStagesUtil.stageEpicEngineer.addOreReplacement(<additions:elements-bismuth_block>, <mist:stone_basic>, false);
 GameStagesUtil.stageEpicEngineer.addOreReplacement(<additions:greedycraft-thallium_ore>, <minecraft:end_stone>, false);
 
 GameStagesUtil.stageMasterEngineer.addOreReplacement(<nuclearcraft:ore:5>, <minecraft:stone>, false);

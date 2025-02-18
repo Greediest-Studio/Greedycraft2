@@ -1162,19 +1162,6 @@ corbalog.addExtraMaterialStats(60);
 corbalog.addBowMaterialStats(getDrawSpeed(0.9) as float, 0.8, 0);
 corbalog.register();
 
-val niobium = mods.contenttweaker.tconstruct.MaterialBuilder.create("niobium");
-niobium.color = Color.fromHex("e4e4e4").getIntColor();
-niobium.craftable = true;
-niobium.castable = false;
-niobium.representativeItem = <item:mist:niobium_ingot>;
-niobium.addItem(<item:mist:niobium_ingot>);
-niobium.localizedName = game.localize("greedycraft.tconstruct.material.niobium.name");
-niobium.addHeadMaterialStats(2300, 6.5, 14.5, 6);
-niobium.addHandleMaterialStats(3.5, 600);
-niobium.addExtraMaterialStats(1200);
-niobium.addBowMaterialStats(getDrawSpeed(3.5) as float, 2, 35);
-niobium.register();
-
 val flairium = mods.contenttweaker.tconstruct.MaterialBuilder.create("flairium");
 flairium.color = Color.fromHex("e89027").getIntColor();
 flairium.craftable = false;
@@ -1244,19 +1231,6 @@ korite.addHandleMaterialStats(1.5, 150);
 korite.addExtraMaterialStats(150);
 korite.addBowMaterialStats(getDrawSpeed(1.5) as float, 1.5, 17);
 korite.register();
-
-val hardfoggystone = mods.contenttweaker.tconstruct.MaterialBuilder.create("hardfoggystone");
-hardfoggystone.color = Color.fromHex("88a09e").getIntColor();
-hardfoggystone.craftable = true;
-hardfoggystone.castable = false;
-hardfoggystone.representativeItem = <item:mist:stone_basic>;
-hardfoggystone.addItem(<item:mist:stone_basic>);
-hardfoggystone.localizedName = game.localize("greedycraft.tconstruct.material.hardfoggystone.name");
-hardfoggystone.addHeadMaterialStats(1900, 15, 14, 4);
-hardfoggystone.addHandleMaterialStats(1.6, 1000);
-hardfoggystone.addExtraMaterialStats(600);
-hardfoggystone.addBowMaterialStats(getDrawSpeed(10) as float, 2.8, 6);
-hardfoggystone.register();
 
 val horizonite = mods.contenttweaker.tconstruct.MaterialBuilder.create("horizonite");
 horizonite.color = Color.fromHex("f26c29").getIntColor();

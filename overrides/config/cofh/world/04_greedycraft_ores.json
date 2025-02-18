@@ -47,8 +47,8 @@
                 }]
             },
             "dimension": {
-                "restriction": "blacklist",
-                "value": [1]
+                "restriction": "whitelist",
+                "value": [0,-1,7]
             }
         },
         "monster_box": {
@@ -64,8 +64,8 @@
             "retrogen": "true",
             "biome": "all",
             "dimension": {
-                "restriction": "blacklist",
-                "value": [1]
+                "restriction": "whitelist",
+                "value": [0,-1,7]
             }
         },
         "sea_clay": {

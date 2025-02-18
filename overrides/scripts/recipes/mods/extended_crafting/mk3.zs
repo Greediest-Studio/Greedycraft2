@@ -181,11 +181,11 @@ mods.extendedcrafting.TableCrafting.addShapeless(0, <gct_ores:shalloite> * 48, [
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mac:stratified_precipitator>, [
 	[null, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, null], 
-	[<ore:ingotZirconiumMolybdenum>, <actuallyadditions:block_misc:9>, <mist:filter_coal>, <mist:filter_coal>, <mist:filter_coal>, <actuallyadditions:block_misc:9>, <ore:ingotZirconiumMolybdenum>], 
+	[<ore:ingotZirconiumMolybdenum>, <actuallyadditions:block_misc:9>, <actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:block_misc:9>, <ore:ingotZirconiumMolybdenum>], 
 	[<ore:ingotZirconiumMolybdenum>, <actuallyadditions:block_misc:9>, <ore:latticeDiamond>, <ore:latticeDiamond>, <ore:latticeDiamond>, <actuallyadditions:block_misc:9>, <ore:ingotZirconiumMolybdenum>], 
-	[<ore:ingotZirconiumMolybdenum>, <actuallyadditions:block_misc:9>, <mist:filter_coal>, <ore:circuitFinal>, <mist:filter_coal>, <actuallyadditions:block_misc:9>, <ore:ingotZirconiumMolybdenum>], 
+	[<ore:ingotZirconiumMolybdenum>, <actuallyadditions:block_misc:9>, <actuallyadditions:item_crystal_empowered:3>, <ore:circuitFinal>, <actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:block_misc:9>, <ore:ingotZirconiumMolybdenum>], 
 	[<ore:ingotZirconiumMolybdenum>, <actuallyadditions:block_misc:9>, <ore:latticeDiamond>, <ore:latticeDiamond>, <ore:latticeDiamond>, <actuallyadditions:block_misc:9>, <ore:ingotZirconiumMolybdenum>], 
-	[<ore:ingotZirconiumMolybdenum>, <actuallyadditions:block_misc:9>, <mist:filter_coal>, <mist:filter_coal>, <mist:filter_coal>, <actuallyadditions:block_misc:9>, <ore:ingotZirconiumMolybdenum>], 
+	[<ore:ingotZirconiumMolybdenum>, <actuallyadditions:block_misc:9>, <actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:block_misc:9>, <ore:ingotZirconiumMolybdenum>], 
 	[null, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, null]
 ]);
 

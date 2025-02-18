@@ -711,30 +711,6 @@
                 "value": [324987]
             }
         },
-        "ru_and_rh": {
-            "enabled": "true",
-            "distribution": "uniform",
-            "generator": {
-                "block": [{
-                    "name": "additions:mekaddon-ruthenium_ore",
-                    "weight": 80
-                },{
-                    "name": "additions:mekaddon-rhodium_ore",
-                    "weight": 20
-                }
-            ],
-                "material": "mist:stone_porous",
-                "cluster-size": 2
-            },
-            "max-height": 56,
-            "min-height": 0,
-            "cluster-count": 4,
-            "retrogen": "true",
-            "dimension": {
-                "restriction": "whitelist",
-                "value": [69]
-            }
-        },
         "redins": {
             "enabled": "true",
             "distribution": "uniform",
@@ -1698,30 +1674,6 @@
             "dimension": {
                 "restriction": "whitelist",
                 "value": [1]
-            }
-        },
-        "bismuth": {
-            "enabled": "true",
-            "distribution": "uniform",
-            "generator": {
-                "block": [{
-                    "name": "additions:greedycraft-bismuth_ore",
-                    "weight": 90
-                },{
-                    "name": "additions:elements-bismuth_block",
-                    "weight": 10
-                }
-            ],
-                "material": "mist:stone_porous",
-                "cluster-size": 6
-            },
-            "max-height": 128,
-            "min-height": 0,
-            "cluster-count": 1,
-            "retrogen": "true",
-            "dimension": {
-                "restriction": "whitelist",
-                "value": [69]
             }
         },
         "barite": {

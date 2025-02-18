@@ -475,7 +475,7 @@ for i in 4 to 7 {
         .addItemInput(<tconstruct:tool_rod>.withTag({Material: "rhodium"}) * 1)
         .addItemInput(<tconstruct:binding>.withTag({Material: "niobium"}) * 3)
         .addItemInput(<tconstruct:tool_rod>.withTag({Material: "niobium"}) * 3)
-        .addItemInput(<mist:filter_coal> * 32)
+        .addItemInput(<actuallyadditions:item_crystal_empowered:3> * 32)
         .addEnergyPerTickInput(120)
         .addItemOutput(<modularmachinery:miner_foggy_controller>)
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:miner_foggy"}))
