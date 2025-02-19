@@ -217,8 +217,6 @@ val removedRecipes as IIngredient[] = [
     <solarflux:solar_panel_wyvern>,
     <solarflux:solar_panel_draconic>,
     <draconicevolution:generator>,
-    <draconicadditions:chaotic_armor_generator>,
-    <draconicadditions:armor_generator>,
     <extrabotany:bottledstar>,
     <thaumictinkerer:black_quartz>,
     <botania:quartz>,

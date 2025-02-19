@@ -8,14 +8,6 @@
         "result": "deny"
     },
     {
-        "mob": ["minecraft:squid", "enderiozoo:epicsquid"],
-        "mincount": {
-            "amount": 12,
-            "perplayer": true
-        },
-        "result": "deny"
-    },
-    {
         "mob": ["pvj:pvj_starfish"],
         "mincount": {
             "amount": 5,
@@ -26,8 +18,7 @@
     {
         "mob": [
             "minecraft:guardian",
-            "minecraft:squid",
-            "enderiozoo:epicsquid"
+            "minecraft:squid"
         ],
         "maxcount": {
             "amount": 10,
@@ -45,8 +36,7 @@
     {
         "mob": [
             "minecraft:guardian",
-            "minecraft:squid",
-            "enderiozoo:epicsquid"
+            "minecraft:squid"
         ],
         "result": "deny"
     },

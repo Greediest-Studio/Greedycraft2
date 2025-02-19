@@ -73,7 +73,7 @@ RecipeBuilder.newBuilder("chaos" , "loot_creater" , "1500")
     .addItemInput(<draconicevolution:chaotic_core> * 1)
     .addEnergyPerTickInput(1000000)
     .addItemOutput(<draconicevolution:chaos_shard> * 5)
-    .addItemOutput(<draconicadditions:chaos_heart> * 1)
+    .addItemOutput(<contenttweaker:chaos_heart> * 1)
     .build();
 
 RecipeBuilder.newBuilder("storm" , "loot_creater" , "1750")

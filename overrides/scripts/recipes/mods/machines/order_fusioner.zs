@@ -36,9 +36,9 @@ RecipeBuilder.newBuilder("fusion_order_core", "order_fusioner", 256)
 
 RecipeBuilder.newBuilder("fusion_order_metal", "order_fusioner", 256)
     .addItemInput(<gct_ores:ordered_core>)
-    .addItemInput(<draconicadditions:chaotic_energy_core>)
+    .addItemInput(<contenttweaker:chaotic_energy_core>)
     .addItemInput(<ageofminecraft:withered_nether_star>)
-    .addItemInput(<draconicadditions:chaos_heart>)
+    .addItemInput(<contenttweaker:chaos_heart>)
     .addEnergyPerTickInput(268435456)
     .addItemOutput(<gct_ores:ordered_metal_ingot>)
     .build();
@@ -101,7 +101,7 @@ var upgradeAttackDamage = RecipeBuilder.newBuilder("fusion_tic_tools_damage" + t
 upgradeAttackDamage.addItemInput(<gct_ores:stormy_core> * 2);
 upgradeAttackDamage.addItemInput(<draconicevolution:chaotic_core> * 2);
 upgradeAttackDamage.addItemInput(<gct_ores:ordered_core> * 1);
-upgradeAttackDamage.addItemInput(<draconicadditions:chaos_heart> * 1);
+upgradeAttackDamage.addItemInput(<contenttweaker:chaos_heart> * 1);
 upgradeAttackDamage.addItemInput(<ageofminecraft:withered_nether_star> * 1);
 upgradeAttackDamage.addItemInput(<gct_ores:order_crystal> * 2);
 upgradeAttackDamage.addItemInput(ticItem * 1).setPreViewNBT(upgradeAttackDamageNbt).setNBTChecker(function(ctrl as IMachineController, item as IItemStack) {
@@ -172,7 +172,7 @@ var upgradeAttackDamage = RecipeBuilder.newBuilder("fusion_tic_tools_range" + ti
 upgradeAttackDamage.addItemInput(<gct_ores:stormy_core> * 2);
 upgradeAttackDamage.addItemInput(<draconicevolution:chaotic_core> * 2);
 upgradeAttackDamage.addItemInput(<gct_ores:ordered_core> * 1);
-upgradeAttackDamage.addItemInput(<draconicadditions:chaos_heart> * 1);
+upgradeAttackDamage.addItemInput(<contenttweaker:chaos_heart> * 1);
 upgradeAttackDamage.addItemInput(<ageofminecraft:withered_nether_star> * 1);
 upgradeAttackDamage.addItemInput(<gct_ores:order_crystal> * 2);
 upgradeAttackDamage.addItemInput(ticItem * 1).setPreViewNBT(upgradeAttackRangeNbt).setNBTChecker(function(ctrl as IMachineController, item as IItemStack) {
@@ -232,7 +232,7 @@ var upgradeAttackDamage = RecipeBuilder.newBuilder("fusion_tic_tools_mine" + tic
 upgradeAttackDamage.addItemInput(<gct_ores:stormy_core> * 2);
 upgradeAttackDamage.addItemInput(<draconicevolution:chaotic_core> * 2);
 upgradeAttackDamage.addItemInput(<gct_ores:ordered_core> * 1);
-upgradeAttackDamage.addItemInput(<draconicadditions:chaos_heart> * 1);
+upgradeAttackDamage.addItemInput(<contenttweaker:chaos_heart> * 1);
 upgradeAttackDamage.addItemInput(<ageofminecraft:withered_nether_star> * 1);
 upgradeAttackDamage.addItemInput(<gct_ores:order_crystal> * 2);
 upgradeAttackDamage.addItemInput(ticItem * 1).setPreViewNBT(upgradeMiningSpeedNbt).setNBTChecker(function(ctrl as IMachineController, item as IItemStack) {
@@ -292,7 +292,7 @@ var upgradeAttackDamage = RecipeBuilder.newBuilder("fusion_tic_tools_dig" + ticI
 upgradeAttackDamage.addItemInput(<gct_ores:stormy_core> * 2);
 upgradeAttackDamage.addItemInput(<draconicevolution:chaotic_core> * 2);
 upgradeAttackDamage.addItemInput(<gct_ores:ordered_core> * 1);
-upgradeAttackDamage.addItemInput(<draconicadditions:chaos_heart> * 1);
+upgradeAttackDamage.addItemInput(<contenttweaker:chaos_heart> * 1);
 upgradeAttackDamage.addItemInput(<ageofminecraft:withered_nether_star> * 1);
 upgradeAttackDamage.addItemInput(<gct_ores:order_crystal> * 2);
 upgradeAttackDamage.addItemInput(ticItem * 1).setPreViewNBT(upgradeMiningRangeNbt).setNBTChecker(function(ctrl as IMachineController, item as IItemStack) {
@@ -344,7 +344,7 @@ var upgradeAttackDamage = RecipeBuilder.newBuilder("fusion_tic_tools_arrow" + ti
 upgradeAttackDamage.addItemInput(<gct_ores:stormy_core> * 2);
 upgradeAttackDamage.addItemInput(<draconicevolution:chaotic_core> * 2);
 upgradeAttackDamage.addItemInput(<gct_ores:ordered_core> * 1);
-upgradeAttackDamage.addItemInput(<draconicadditions:chaos_heart> * 1);
+upgradeAttackDamage.addItemInput(<contenttweaker:chaos_heart> * 1);
 upgradeAttackDamage.addItemInput(<ageofminecraft:withered_nether_star> * 1);
 upgradeAttackDamage.addItemInput(<gct_ores:order_crystal> * 2);
 upgradeAttackDamage.addItemInput(ticItem * 1).setPreViewNBT(upgradeArrowDamageNbt).setNBTChecker(function(ctrl as IMachineController, item as IItemStack) {
@@ -398,7 +398,7 @@ var upgradeAttackDamage = RecipeBuilder.newBuilder("fusion_tic_tools_bow" + ticI
 upgradeAttackDamage.addItemInput(<gct_ores:stormy_core> * 2);
 upgradeAttackDamage.addItemInput(<draconicevolution:chaotic_core> * 2);
 upgradeAttackDamage.addItemInput(<gct_ores:ordered_core> * 1);
-upgradeAttackDamage.addItemInput(<draconicadditions:chaos_heart> * 1);
+upgradeAttackDamage.addItemInput(<contenttweaker:chaos_heart> * 1);
 upgradeAttackDamage.addItemInput(<ageofminecraft:withered_nether_star> * 1);
 upgradeAttackDamage.addItemInput(<gct_ores:order_crystal> * 2);
 upgradeAttackDamage.addItemInput(ticItem * 1).setPreViewNBT(upgradeBowSpeedNbt).setNBTChecker(function(ctrl as IMachineController, item as IItemStack) {
@@ -452,7 +452,7 @@ var upgradeAttackDamage = RecipeBuilder.newBuilder("fusion_tic_tools_arrowsp" + 
 upgradeAttackDamage.addItemInput(<gct_ores:stormy_core> * 2);
 upgradeAttackDamage.addItemInput(<draconicevolution:chaotic_core> * 2);
 upgradeAttackDamage.addItemInput(<gct_ores:ordered_core> * 1);
-upgradeAttackDamage.addItemInput(<draconicadditions:chaos_heart> * 1);
+upgradeAttackDamage.addItemInput(<contenttweaker:chaos_heart> * 1);
 upgradeAttackDamage.addItemInput(<ageofminecraft:withered_nether_star> * 1);
 upgradeAttackDamage.addItemInput(<gct_ores:order_crystal> * 2);
 upgradeAttackDamage.addItemInput(ticItem * 1).setPreViewNBT(upgradeArrowSpeedNbt).setNBTChecker(function(ctrl as IMachineController, item as IItemStack) {
@@ -504,7 +504,7 @@ var upgradeAttackDamage = RecipeBuilder.newBuilder("fusion_tic_armors_shield" + 
 upgradeAttackDamage.addItemInput(<gct_ores:stormy_core> * 2);
 upgradeAttackDamage.addItemInput(<draconicevolution:chaotic_core> * 2);
 upgradeAttackDamage.addItemInput(<gct_ores:ordered_core> * 1);
-upgradeAttackDamage.addItemInput(<draconicadditions:chaos_heart> * 1);
+upgradeAttackDamage.addItemInput(<contenttweaker:chaos_heart> * 1);
 upgradeAttackDamage.addItemInput(<ageofminecraft:withered_nether_star> * 1);
 upgradeAttackDamage.addItemInput(<gct_ores:order_crystal> * 2);
 upgradeAttackDamage.addItemInput(ticItem * 1).setPreViewNBT(upgradeShieldEnergyNbt).setNBTChecker(function(ctrl as IMachineController, item as IItemStack) {
@@ -556,7 +556,7 @@ var upgradeAttackDamage = RecipeBuilder.newBuilder("fusion_tic_armors_recovery" 
 upgradeAttackDamage.addItemInput(<gct_ores:stormy_core> * 2);
 upgradeAttackDamage.addItemInput(<draconicevolution:chaotic_core> * 2);
 upgradeAttackDamage.addItemInput(<gct_ores:ordered_core> * 1);
-upgradeAttackDamage.addItemInput(<draconicadditions:chaos_heart> * 1);
+upgradeAttackDamage.addItemInput(<contenttweaker:chaos_heart> * 1);
 upgradeAttackDamage.addItemInput(<ageofminecraft:withered_nether_star> * 1);
 upgradeAttackDamage.addItemInput(<gct_ores:order_crystal> * 2);
 upgradeAttackDamage.addItemInput(ticItem * 1).setPreViewNBT(upgradeShieldRecoverNbt).setNBTChecker(function(ctrl as IMachineController, item as IItemStack) {
@@ -605,7 +605,7 @@ var upgradeAttackDamage = RecipeBuilder.newBuilder("fusion_tic_armors_boost" + t
 upgradeAttackDamage.addItemInput(<gct_ores:stormy_core> * 2);
 upgradeAttackDamage.addItemInput(<draconicevolution:chaotic_core> * 2);
 upgradeAttackDamage.addItemInput(<gct_ores:ordered_core> * 1);
-upgradeAttackDamage.addItemInput(<draconicadditions:chaos_heart> * 1);
+upgradeAttackDamage.addItemInput(<contenttweaker:chaos_heart> * 1);
 upgradeAttackDamage.addItemInput(<ageofminecraft:withered_nether_star> * 1);
 upgradeAttackDamage.addItemInput(<gct_ores:order_crystal> * 2);
 upgradeAttackDamage.addItemInput(ticItem * 1).setPreViewNBT(upgradeBoostNbt).setNBTChecker(function(ctrl as IMachineController, item as IItemStack) {
@@ -654,7 +654,7 @@ var upgradeAttackDamage = RecipeBuilder.newBuilder("fusion_tic_armors_jump" + ti
 upgradeAttackDamage.addItemInput(<gct_ores:stormy_core> * 2);
 upgradeAttackDamage.addItemInput(<draconicevolution:chaotic_core> * 2);
 upgradeAttackDamage.addItemInput(<gct_ores:ordered_core> * 1);
-upgradeAttackDamage.addItemInput(<draconicadditions:chaos_heart> * 1);
+upgradeAttackDamage.addItemInput(<contenttweaker:chaos_heart> * 1);
 upgradeAttackDamage.addItemInput(<ageofminecraft:withered_nether_star> * 1);
 upgradeAttackDamage.addItemInput(<gct_ores:order_crystal> * 2);
 upgradeAttackDamage.addItemInput(ticItem * 1).setPreViewNBT(upgradeJumpNbt).setNBTChecker(function(ctrl as IMachineController, item as IItemStack) {
@@ -702,7 +702,7 @@ var upgradeAttackDamage = RecipeBuilder.newBuilder("fusion_tic_tools_rf" + ticIt
 upgradeAttackDamage.addItemInput(<gct_ores:stormy_core> * 2);
 upgradeAttackDamage.addItemInput(<draconicevolution:chaotic_core> * 2);
 upgradeAttackDamage.addItemInput(<gct_ores:ordered_core> * 1);
-upgradeAttackDamage.addItemInput(<draconicadditions:chaos_heart> * 1);
+upgradeAttackDamage.addItemInput(<contenttweaker:chaos_heart> * 1);
 upgradeAttackDamage.addItemInput(<ageofminecraft:withered_nether_star> * 1);
 upgradeAttackDamage.addItemInput(<gct_ores:order_crystal> * 2);
 upgradeAttackDamage.addItemInput(ticItem * 1).setPreViewNBT(upgradeRFNbt).setNBTChecker(function(ctrl as IMachineController, item as IItemStack) {
@@ -750,7 +750,7 @@ var upgradeAttackDamage = RecipeBuilder.newBuilder("fusion_tic_armors_rf" + ticI
 upgradeAttackDamage.addItemInput(<gct_ores:stormy_core> * 2);
 upgradeAttackDamage.addItemInput(<draconicevolution:chaotic_core> * 2);
 upgradeAttackDamage.addItemInput(<gct_ores:ordered_core> * 1);
-upgradeAttackDamage.addItemInput(<draconicadditions:chaos_heart> * 1);
+upgradeAttackDamage.addItemInput(<contenttweaker:chaos_heart> * 1);
 upgradeAttackDamage.addItemInput(<ageofminecraft:withered_nether_star> * 1);
 upgradeAttackDamage.addItemInput(<gct_ores:order_crystal> * 2);
 upgradeAttackDamage.addItemInput(ticItem * 1).setPreViewNBT(upgradeRFANbt).setNBTChecker(function(ctrl as IMachineController, item as IItemStack) {

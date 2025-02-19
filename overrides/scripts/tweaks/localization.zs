@@ -428,7 +428,6 @@ val localizationMap as string[string][string] = {
         "material.extrabotany:ingotorichalcos.name": "§c[已禁用]",
         "material.extrabotany:ingotshadowium.name": "§c[已禁用]",
         "memorycleaner.gc.start": "§a[内存清理] §f正在清理内存，可能会导致卡顿！\n§7(如果这造成了较长时间的卡顿，请使用我们GitHub Wiki页面推荐的JVM参数。)",
-        "item.draconicadditions:chaos_heart.name": "混沌龙心",
         "tile.denseneutroncollectors:compressed_neutron_collector.name": "聚合中子素收集器",
         "tile.denseneutroncollectors:double_compressed_neutron_collector.name": "质子中子素收集器",
         "tile.denseneutroncollectors:triple_compressed_neutron_collector.name": "平衡中子素收集器",

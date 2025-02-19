@@ -88,8 +88,8 @@ FusionCrafting.add(<draconicevolution:reactor_core>, <draconicevolution:chaos_sh
     <additions:cosmilite_ingot>,
     <tconevo:metal:5>,
     <tconevo:metal:5>,
-    <draconicadditions:chaotic_energy_core>,
-    <draconicadditions:chaotic_energy_core>,
+    <contenttweaker:chaotic_energy_core>,
+    <contenttweaker:chaotic_energy_core>,
     <ore:metalEvery>,
     <ore:metalEvery>
 ]);

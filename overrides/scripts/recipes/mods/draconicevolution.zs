@@ -11,8 +11,8 @@ FusionCrafting.add(<gct_ores:chaotic_draconium_block> * 4, <draconicevolution:dr
     <ore:ingotEverite>,
     <draconicevolution:chaos_shard>,
     <draconicevolution:chaos_shard>,
-    <draconicadditions:chaos_heart>,
-    <draconicadditions:chaos_heart>,
+    <contenttweaker:chaos_heart>,
+    <contenttweaker:chaos_heart>,
     <ore:metalChaotic>,
     <ore:metalChaotic>
 ]);
@@ -93,9 +93,9 @@ FusionCrafting.add(<gct_ores:creepy_witherstorm_doll>, <gct_ores:creepy_wither_d
 
 FusionCrafting.add(<gct_ores:ruled_draconium_block> * 4, <gct_ores:chaotic_draconium_block> * 4, 3, 102400000000, [
     <ore:coreChaotic>,
-    <draconicadditions:chaos_heart>,
+    <contenttweaker:chaos_heart>,
     <ore:blockAdamantium>,
-    <draconicadditions:chaos_heart>,
+    <contenttweaker:chaos_heart>,
     <ore:blockAdamantium>,
     <ore:blockChaosShard>,
     <ore:blockEverite>,

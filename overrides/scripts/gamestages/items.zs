@@ -55,7 +55,6 @@ GameStagesUtil.stageChaoticDominator.addIngredients([
     <scalinghealth:difficultychanger:*>,
     <additions:greedycraft-difficulty_changer>,
     <avaritiatweaks:infinitato>,
-    <draconicadditions:chaotic_energy_core>,
     <additions:eioaddon-blackhole_alloy_ingot>,
     <ore:ballBlackholeAlloy>,
     <ore:ingotCurseAlloy>,
