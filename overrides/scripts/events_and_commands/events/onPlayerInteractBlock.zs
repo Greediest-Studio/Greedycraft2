@@ -43,21 +43,29 @@ import native.vazkii.botania.common.block.BlockAlfPortal;
 
 events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     //Remove the uncrafting table
-    if (event.block.definition.id == "twilightforest:uncrafting_table") {
+    if (event.block.definition.id == "twilightforest:uncrafting_table" && !event.world.remote) {
         client.player.sendChat("§emc_Edwin§f: 喂，你在干什么？还在想着拆物品吗？");
         event.player.health = 0.0f;
         event.cancel();
     }
     //Remove the teleport stone in Vethea
-    if (event.block.definition.id == "waystones:waystone" && event.player.dimension == 427) {
+    if (event.block.definition.id == "waystones:waystone" && event.player.dimension == 427 && !event.world.remote) {
         client.player.sendChat("§emc_Edwin§f: byd还想刷物品是吧，都给你ban喽");
         event.player.health = 0.0f;
         event.cancel();
     }
     //Remove the enderchest in Vethea
-    if (event.block.definition.id == "minecraft:ender_chest" && event.player.dimension == 427) {
+    if (event.block.definition.id == "minecraft:ender_chest" && event.player.dimension == 427 && !event.world.remote) {
         client.player.sendChat("§emc_Edwin§f: byd还想刷物品是吧，都给你ban喽");
         event.player.health = 0.0f;
         event.cancel();
+    }
+});
+events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
+    if !isNull(event.item) && !isNull(event.block) && !event.player.creative && !event.world.remote {
+        if event.block.definition.id has "_controller" && event.item.definition.id has "timeinabottle" {
+            client.player.sendChat("§e你无权加速此方块");
+            event.cancel();
+        }
     }
 });
