@@ -159,6 +159,12 @@
         },
         {
             "type": "spotlight",
+			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:miner_foggy\"}",
+			"title": "雾霭矿机",
+            "text": "$(9)雾霭矿机$()可以在$(5)朦胧世界$()通过消耗$(c)电力$()挖掘$(6)矿物$()，十分的方便~$(br2)$(2)朦胧世界矿物自由喽~"
+        },
+        {
+            "type": "spotlight",
 			"item": "modularmachinery:itemblueprint{dynamicmachine:\"modularmachinery:miner_frozen\"}",
 			"title": "冰封矿机",
             "text": "$(9)冰封矿机$()可以在$(5)冰晶血原/遗忘冰川$()通过消耗$(c)电力$()挖掘$(6)矿物$()，十分的方便~$(br2)$(2)冰晶雪原/遗忘冰川矿物自由喽~"

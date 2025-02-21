@@ -24,7 +24,7 @@ val RF as string = "modularmachinery:energy";
 RecipeBuilder.newBuilder("chromasteel_forge", "chromasteel_forge", 42000, 1)
     .addItemInputs([
         <ore:ingotAeonsteel>,
-        <enderio:item_alloy_endergy_ingot:3>,
+        <ore:ingotNiobium>,
         <ore:ingotWyvernMetal>,
         <ore:ingotFallenMetal>,
         <ore:ingotPrimordial>,
