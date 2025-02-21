@@ -304,14 +304,14 @@ RecipeBuilder.newBuilder("rod" , "loot_creater" , 200, 2)
     .addItemOutput(<minecraft:blaze_rod> * 32)
     .build();
 
-RecipeBuilder.newBuilder("betwnite" , "loot_creater" , 250)
+RecipeBuilder.newBuilder("betwnite" , "loot_creater" , 250,2)
     .addPostCheckHandler(function(event as RecipeCheckEvent) {
         energycheck(event,2.0f);
     })
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         energychange(event,2.0f);
     })
-    .addFluidInput(<liquid:lifeessence> * 100000, 2)
+    .addFluidInput(<liquid:lifeessence> * 100000)
     .addItemInput(<jaopca:block.betwnite> * 1)
     .addEnergyPerTickInput(50000)
     .addRecipeTooltip("§2消耗2.0点能量")
@@ -345,7 +345,7 @@ RecipeBuilder.newBuilder("blacksun" , "loot_creater" , 250, 2)
         energycheck(event,10.0f);
     })
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
-        energychange(event10.0f);
+        energychange(event,10.0f);
     })
     .addFluidInput(<liquid:lifeessence> * 50000)
     .addItemInput(<additions:bloody-gloomy_passport> * 1)
