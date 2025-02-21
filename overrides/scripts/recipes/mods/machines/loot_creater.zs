@@ -124,6 +124,7 @@ RecipeBuilder.newBuilder("gaia1" , "loot_creater" , 500, 2)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         energychange(event,2.0f);
     })
+    .setThreadName("§1模拟模块")
     .addFluidInput(<liquid:lifeessence> * 10000)
     .addItemInput(<botania:manaresource:4> * 16)
     .addEnergyPerTickInput(10000)
@@ -138,6 +139,7 @@ RecipeBuilder.newBuilder("gaia2" , "loot_creater" , 700, 2)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         energychange(event,2.5f);
     })
+    .setThreadName("§1模拟模块")
     .addFluidInput(<liquid:lifeessence> * 25000)
     .addItemInput(<botania:manaresource:14> * 16)
     .addEnergyPerTickInput(20000)
@@ -153,6 +155,7 @@ RecipeBuilder.newBuilder("gaia3" , "loot_creater" , 850, 2)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         energychange(event,3.0f);
     })
+    .setThreadName("§1模拟模块")
     .addFluidInput(<liquid:lifeessence> * 50000)
     .addItemInput(<extrabotany:material:6> * 8)
     .addEnergyPerTickInput(50000)
@@ -167,6 +170,7 @@ RecipeBuilder.newBuilder("gaia3ex" , "loot_creater" , 850, 2)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         energychange(event,3.0f);
     })
+    .setThreadName("§1模拟模块")
     .addFluidInput(<liquid:lifeessence> * 100000)
     .addItemInput(<extrabotany:material:6> * 1)
     .addItemInput(<gct_mobs:gaia_heart> * 1).setChance(0.0)
@@ -185,6 +189,7 @@ RecipeBuilder.newBuilder("kiana" , "loot_creater" , 900, 2)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         energychange(event,3.0f);
     })
+    .setThreadName("§1模拟模块")
     .addFluidInput(<liquid:lifeessence> * 100000)
     .addItemInput(<extrabotany:material:9> * 8)
     .addEnergyPerTickInput(100000)
@@ -203,6 +208,7 @@ RecipeBuilder.newBuilder("kianaex" , "loot_creater" , 900, 2)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         energychange(event,7.0f);
     })
+    .setThreadName("§1模拟模块")
     .addEnergyPerTickInput(200000)
     .addRecipeTooltip("§2消耗7.0点能量")
     .addItemOutput(<extrabotany:treasurebox> * 1)
@@ -221,6 +227,7 @@ RecipeBuilder.newBuilder("chaos" , "loot_creater" , 1500, 2)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         energychange(event,15.0f);
     })
+    .setThreadName("§1模拟模块")
     .addRecipeTooltip("§2消耗15.0点能量")
     .addItemOutput(<draconicevolution:chaos_shard> * 10)
     .addItemOutput(<contenttweaker:chaos_heart> * 3)
@@ -233,6 +240,7 @@ RecipeBuilder.newBuilder("storm" , "loot_creater" , 1750, 2)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         energychange(event,25.0f);
     })
+    .setThreadName("§1模拟模块")
     .addFluidInput(<liquid:lifeessence> * 2500000)
     .addItemInput(<gct_ores:creepy_witherstorm_doll> * 1)
     .addEnergyPerTickInput(2500000)
@@ -248,6 +256,7 @@ RecipeBuilder.newBuilder("blackstone" , "loot_creater" , 500, 2)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         energychange(event,10.0f);
     })
+    .setThreadName("§1模拟模块")
     .addFluidInput(<liquid:lifeessence> * 250000)
     .addItemInput(<gct_ores:senterian_builder_lab> * 1)
     .addEnergyPerTickInput(250000)
@@ -262,6 +271,7 @@ RecipeBuilder.newBuilder("destroyer" , "loot_creater" , 500, 2)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         energychange(event,5.0f);
     })
+    .setThreadName("§1模拟模块")
     .addFluidInput(<liquid:lifeessence> * 10000)
     .addItemInput(<defiledlands:calling_stone> * 1)
     .addEnergyPerTickInput(10000)
@@ -276,6 +286,7 @@ RecipeBuilder.newBuilder("mourner" , "loot_creater" , 750, 2)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         energychange(event,5.0f);
     })
+    .setThreadName("§1模拟模块")
     .addFluidInput(<liquid:lifeessence> * 50000)
     .addItemInput(<defiledlands:idol_sorrow> * 1)
     .addEnergyPerTickInput(50000)
@@ -290,6 +301,7 @@ RecipeBuilder.newBuilder("rod" , "loot_creater" , 200, 2)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         energychange(event,0.5f);
     })
+    .setThreadName("§1模拟模块")
     .addFluidInput(<liquid:lifeessence> * 250000)
     .addEnergyPerTickInput(100000)
     .addItemInput(<jaopca:gear.thermallite> * 1)
@@ -311,6 +323,7 @@ RecipeBuilder.newBuilder("betwnite" , "loot_creater" , 250,2)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         energychange(event,2.0f);
     })
+    .setThreadName("§1模拟模块")
     .addFluidInput(<liquid:lifeessence> * 100000)
     .addItemInput(<jaopca:block.betwnite> * 1)
     .addEnergyPerTickInput(50000)
@@ -328,6 +341,7 @@ RecipeBuilder.newBuilder("twilit" , "loot_creater" , 250, 2)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         energychange(event,1.0f);
     })
+    .setThreadName("§1模拟模块")
     .addFluidInput(<liquid:lifeessence> * 100000)
     .addItemInput(<jaopca:block.twilit> * 1)
     .addEnergyPerTickInput(50000)
@@ -347,6 +361,7 @@ RecipeBuilder.newBuilder("blacksun" , "loot_creater" , 250, 2)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         energychange(event,10.0f);
     })
+    .setThreadName("§1模拟模块")
     .addFluidInput(<liquid:lifeessence> * 50000)
     .addItemInput(<additions:bloody-gloomy_passport> * 1)
     .addEnergyPerTickInput(50000)
