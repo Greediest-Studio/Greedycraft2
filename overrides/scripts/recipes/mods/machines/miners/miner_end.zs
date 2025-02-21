@@ -27,7 +27,7 @@ RecipeBuilder.newBuilder("miner_end", "miner_end", speed, 0)//这两个"miner_ba
     .setChance(0.2f / 10.0f)
     .addItemOutput(<taiga:abyssum_ore>)
     .setChance(0.2f / 10.0f)
-    .addItemOutput(<contenttweaker:sub_block_holder_2:12>)
+    .addItemOutput(<taiga:palladium_ore>)
     .setChance(0.16f / 10.0f)
     .addItemOutput(<taiga:uru_ore>)
     .setChance(0.14f / 10.0f)

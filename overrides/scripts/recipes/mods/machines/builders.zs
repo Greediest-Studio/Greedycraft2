@@ -962,3 +962,16 @@ for i in 3 to 7 {
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:big_grinder"}))
         .build();
 }
+//坠星天矛
+for i in 3 to 7 {
+    RecipeBuilder.newBuilder("fallen_star" + i, "builder_" + i, 800)
+        .addFluidInput(<liquid:redstone> * 128000)
+        .addItemInput(<appliedenergistics2:sky_stone_block> * 256)
+        .addItemInput(<ore:blockIgnite> * 16)
+        .addItemInput(<bloodmagic:component:8> * 16)
+        .addItemInput(<jaopca:gear.porpezite> * 8)
+        .addEnergyPerTickInput(1000)
+        .addItemOutput(<modularmachinery:fallen_star_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fallen_star"}))
+        .build();
+}

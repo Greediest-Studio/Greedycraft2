@@ -77,5 +77,14 @@
         "bloodmagic:blood_rune@8",
         "bloodmagic:blood_rune@9",
         "bloodmagic:blood_rune@10"        
+    ],
+    "casings_item_input": [
+        "modularmachinery:blockinputbus",
+        "modularmachinery:blockmeiteminputbus",
+        "modularmachinery:blockmepatternprovider"
+    ],
+    "casings_item_output": [
+        "modularmachinery:blockoutputbus",
+        "modularmachinery:blockmeitemoutputbus"
     ]
 }
