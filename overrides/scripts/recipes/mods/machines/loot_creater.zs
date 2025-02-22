@@ -46,14 +46,14 @@ MMEvents.onControllerGUIRender("loot_creater", function(event as ControllerGUIRe
     val data as IData = ctrl.customData;
     val map as IData[string] = data.asMap();
     val energy as float = isNull(map["energy"]) ? 0.0 as float : map["energy"] as float;
-    var mathe as float = Math.max(0.00f,((-0.09 as float * ((Math.sqrt(273.0d * energy as double))as float-(0.09f * energy as float * energy as float)+20.0 * energy as float+ 20.0f)+100.0f)) as float);
+    var mathe as float = Math.max(0.00f,((-0.09 as float * ((Math.sqrt(273.0d * energy as double))as float-(0.09f * energy as float * energy as float)+20.0 * energy as float+ 20.0f)+117.5f)) as float);
     mathe = Math.min(100.00f,mathe);
     var info as string[] = ["§e///战利品制造机监控系统///",
     "§e当前能量值：" + energy,
     "§e当前基底消耗概率：" + mathe + "%",
-    "§e消耗概率计算公式：100-0.09((273x)^0.5-0.09x^2+20x+20)",
+    "§e消耗概率计算公式：117.5-0.09((273x)^0.5-0.09x^2+20x+20)",
     //"§e其中x为当前能量值，消耗概率小于0的部分取绝对值后1：1转化为产率增加倍数",
-    "§e推荐能量区间[75，155]"];
+    "§e推荐能量区间[113，118]"];
     event.extraInfo = info;
 });
 
@@ -63,7 +63,7 @@ function chanceupload(event as RecipeCheckEvent) {
     val data as IData = ctrl.customData;
     val map as IData[string] = data.asMap();
     var energy as float = isNull(map["energy"]) ? 0.00 as float : map["energy"] as float;
-    var mathe as float = Math.max(0.00f,((-0.09 as float * ((Math.sqrt(273.0d * energy as double))as float-(0.09f * energy as float * energy as float)+20.0 * energy as float+ 20.0f)+100.0f)) as float);
+    var mathe as float = Math.max(0.00f,((-0.09 as float * ((Math.sqrt(273.0d * energy as double))as float-(0.09f * energy as float * energy as float)+20.0 * energy as float+ 20.0f)+117.5f)) as float);
     var chance as float = mathe as float;
     map["chance"] = chance;
     ctrl.customData = data;
