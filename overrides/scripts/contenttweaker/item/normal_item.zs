@@ -2,10 +2,11 @@
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Item;
 
-function ItemCreate(unlocalizedName as string) {
+function ItemCreate(unlocalizedName as string,isglowing as bool) {
   val item = VanillaFactory.createItem(unlocalizedName);
+  item.glowing = isglowing;
   item.register();
 }
 
-ItemCreate("chaos_heart");
-ItemCreate("chaotic_energy_core");
+ItemCreate("chaos_heart",false);
+ItemCreate("chaotic_energy_core",true);

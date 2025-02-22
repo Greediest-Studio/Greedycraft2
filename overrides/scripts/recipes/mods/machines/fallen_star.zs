@@ -25,7 +25,7 @@ MachineModifier.setInternalParallelism("fallen_star", 1);
 MachineModifier.setMaxParallelism("fallen_star", 1);
 
 RecipeBuilder.newBuilder("bajin" , "fallen_star" , 3000, 2)
-    .addLifeEssenceInput(1000000,false)
+    .addLifeEssenceInput(2500000,false)
     .addItemInput(<ore:blockPorpezite> * 1).setChance(0.0f)
     .addEnergyPerTickInput(1000000)
     .addItemOutput(<tiths:ore_inert_witherium> * 64)
