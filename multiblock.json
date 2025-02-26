@@ -1,0 +1,276 @@
+{
+    "name": "多方块",
+    "icon": "multiblocked:blueprint_table",
+    "category": "patchouli:misc_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "你需要准备1个位能收集核心72个暗色伊桑斯砖栅栏20暗色伊桑斯砖台阶106暗色伊桑斯砖块10个伊桑斯砖栅栏20伊桑斯砖块1个灵神钢块(位能收集核心与灵神钢在投影中不显示)"
+        },
+        {
+            "type": "multiblock",
+            "name": "位能收集器",
+            "symmertrical": "true",
+            "multiblock": {
+                "pattern": [
+                    [
+                        "       ",
+                        "       ",
+                        "       ",
+                        "   0   ",
+                        "       ",
+                        "       ",
+                        "       "
+                    ],
+                    [
+                        "       ",
+                        "       ",
+                        "  C C  ",
+                        "       ",
+                        "  C C  ",
+                        "       ",
+                        "       "
+                    ],
+                    [
+                        "       ",
+                        "       ",
+                        "  C C  ",
+                        "   F   ",
+                        "  C C  ",
+                        "       ",
+                        "       "
+                    ],
+                    [
+                        "       ",
+                        " C   C ",
+                        "       ",
+                        "       ",
+                        "       ",
+                        " C   C ",
+                        "       "
+                    ],
+                    [
+                        "       ",
+                        " C   C ",
+                        "       ",
+                        "       ",
+                        "       ",
+                        " C   C ",
+                        "       "
+                    ],
+                    [
+                        "       ",
+                        " EC CE ",
+                        " CCCCC ",
+                        "  CDC  ",
+                        " CCCCC ",
+                        " EC CE ",
+                        "       "
+                    ],
+                    [
+                        "       ",
+                        "  A A  ",
+                        " ACCCA ",
+                        "  CDC  ",
+                        " ACCCA ",
+                        "  A A  ",
+                        "       "
+                    ],
+                    [
+                        "       ",
+                        "  A A  ",
+                        " ACCCA ",
+                        "  CDC  ",
+                        " ACCCA ",
+                        "  A A  ",
+                        "       "
+                    ],
+                    [
+                        "       ",
+                        "  A A  ",
+                        " ACECA ",
+                        "  EDE  ",
+                        " ACECA ",
+                        "  A A  ",
+                        "       "
+                    ],
+                    [
+                        "       ",
+                        "  A A  ",
+                        " ACECA ",
+                        "  EDE  ",
+                        " ACECA ",
+                        "  A A  ",
+                        "       "
+                    ],
+                    [
+                        "       ",
+                        "  A A  ",
+                        " ACECA ",
+                        "  EDE  ",
+                        " ACECA ",
+                        "  A A  ",
+                        "       "
+                    ],
+                    [
+                        "       ",
+                        "  A A  ",
+                        " ACECA ",
+                        "  EDE  ",
+                        " ACECA ",
+                        "  A A  ",
+                        "       "
+                    ],
+                    [
+                        "       ",
+                        "  A A  ",
+                        " ACCCA ",
+                        "  CDC  ",
+                        " ACCCA ",
+                        "  A A  ",
+                        "       "
+                    ],
+                    [
+                        "       ",
+                        "  A A  ",
+                        " ACCCA ",
+                        "  CDC  ",
+                        " ACCCA ",
+                        "  A A  ",
+                        "       "
+                    ],
+                    [
+                        "       ",
+                        "  A A  ",
+                        " ACCCA ",
+                        "  CDC  ",
+                        " ACCCA ",
+                        "  A A  ",
+                        "       "
+                    ],
+                    [
+                        "  BBB  ",
+                        " BCBCB ",
+                        "BCCCCCB",
+                        "BBCCCBB",
+                        "BCCCCCB",
+                        " BCBCB ",
+                        "  BBB  "
+                    ]
+                ],
+                "mapping": {
+                    "0": "gct_mac:pe_collector",
+                    "A": "abyssalcraft:darkethaxiumbrickfence",
+                    "B": "abyssalcraft:darkethaxiumbrickslab1",
+                    "C": "abyssalcraft:darkethaxiumbrick",
+                    "D": "abyssalcraft:ethaxiumfence",
+                    "E": "abyssalcraft:ethaxiumbrick",
+                    "F": "gct_mobs:sanite_block"
+                }
+            }
+        },
+        {
+            "type": "text",
+            "text": "你需要准备1个魔力反应堆控制器，2个神话钢块，2个奥利哈钢块，24个魔力钢块，16个圆源质钢块，36个活石砖，4个活石墙，236个不锈钢块，三个耐钢块，38个硬化铱玻璃80个铁块（结构中还需16桶元始魔力具体位置前往JEi查看)投影仅供参考其中少量方块不显示"
+        },
+        {
+            "type":"multiblock",
+            "name": "魔力反应堆",
+            "symmertrical": "true",
+            "multiblock":{
+                "pattern": [
+                    [
+                        "             ",
+                        "             ",
+                        "             ",
+                        "             ",
+                        "    AAAAA    ",
+                        "    ABBBA    ",
+                        "    ABBBA    ",
+                        "    ABBBA    ",
+                        "    AAAAA    ",
+                        "             ",
+                        "             ",
+                        "             ",
+                        "             "
+                    ],
+                    [
+                        "     AAA     ",
+                        "   AAADAAA   ",
+                        "     AAA     ",
+                        " A    A    A ",
+                        " A  ABBBA  A ",
+                        "AAA B   B AAA",
+                        "ADAAB G BAAEA",
+                        "AAA B   B AAA",
+                        " A  ABBBA  A ",
+                        " A    A    A ",
+                        " CC  AAA  CC ",
+                        "  CAAAFAAAC  ",
+                        "     AAA     "
+                    ],
+                    [
+                        "  CAAAIAAAC  ",
+                        " C         C ",
+                        "C  AAA AAA  C",
+                        "A A  A A  A A",
+                        "A A ABHBA A A",
+                        "A AAB   BAA A",
+                        "I   H G H   I",
+                        "A AAB   BAA A",
+                        "A A ABHBA A A",
+                        "A A  A A  A A",
+                        "C  AAA AAA  C",
+                        " C         C ",
+                        "  CAAA0AAAC  "
+                    ],
+                    [
+                        "     AAA     ",
+                        "   AAA AAA   ",
+                        "     AAA     ",
+                        " A    A    A ",
+                        " A  AAAAA  A ",
+                        "AAA ABBBA AAA",
+                        "A AAABBBAAA A",
+                        "AAA ABBBA AAA",
+                        " A  AAAAA  A ",
+                        " A    A    A ",
+                        " CC  AAA  CC ",
+                        "  CAAA AAAC  ",
+                        "     AAA     "
+                    ],
+                    [
+                        "  AAAALAAAA  ",
+                        " AAAAALAAAAA ",
+                        "AAAAAALAAAAAA",
+                        "AAAAKKLKKAAAA",
+                        "AAAKAALAAKAAA",
+                        "AAAKAALAAKAAA",
+                        "LLLLLLJLLLLLL",
+                        "AAAKAALAAKAAA",
+                        "AAAKAALAAKAAA",
+                        "AAAAKKLKKAAAA",
+                        "AAAAAALAAAAAA",
+                        " AAAAALAAAAA ",
+                        "  AAAALAAAA  "
+                    ]
+                ],
+                "mapping": {
+                    "0": "gct_mac:mana_reactor",
+                    "A": "additions:greedycraft-stainless_steel_block",
+                    "B": "thermalfoundation:glass:7",
+                    "C": "botania:livingrock:1",
+                    "D": "multiblocked:item_output",
+                    "E": "multiblocked:fluid_output",
+                    "F": "multiblocked:item_input",
+                    "G": "jaopca:block.mythsteel",
+                    "H": "botania:livingrock0wall",
+                    "I": "additions:greedycraft-durasteel_block",
+                    "J": "extrabotany:blockorichalcos",
+                    "K": "botania:storage:2",
+                    "L": "botania:storage"
+                }
+            }
+        }
+    ]
+}
