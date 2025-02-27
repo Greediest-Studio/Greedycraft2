@@ -1,14 +1,255 @@
 {
     "registryname": "chaos_reactor",
-    "localizedname": "混沌汲能器(未完之作)",
+    "localizedname": "混沌汲能器",
     "requires-blueprint": true,
     "failure-action": "still",
     "color": "C6CBBB",
     "parts": [
         {
-            "x": 3,
-            "y": 3,
+            "x": -2,
+            "y": -7,
             "z": 2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -9,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -9,
+            "z": 2,
+            "elements": [
+                "minecraft:dirt@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -9,
+            "z": -2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -8,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -9,
+            "z": 1,
+            "elements": [
+                "minecraft:dirt@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -8,
+            "z": -2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -9,
+            "z": -2,
+            "elements": [
+                "minecraft:dirt@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -9,
+            "z": -4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "draconicevolution:reactor_core@0",
+                "draconicevolution:energy_storage_core"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": -1,
             "elements": [
                 "mekanismgenerators:reactorglass@0"
             ]
@@ -16,94 +257,70 @@
         {
             "x": 1,
             "y": -1,
-            "z": 7,
-            "elements": [
-                "appliedenergistics2:smooth_sky_stone_stairs@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
             "z": 0,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 6,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "appliedenergistics2:smooth_sky_stone_stairs@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "appliedenergistics2:smooth_sky_stone_stairs@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 6,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": 2,
             "elements": [
                 "additions:greedycraft-durasteel_block@0"
             ]
         },
         {
             "x": 2,
-            "y": 6,
+            "y": -8,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -8,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -9,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
             "z": 1,
             "elements": [
                 "mekanismgenerators:reactorglass@0"
@@ -111,39 +328,79 @@
         },
         {
             "x": -1,
-            "y": 4,
-            "z": 0,
+            "y": -9,
+            "z": -3,
             "elements": [
-                "additions:greedycraft-durasteel_block@0"
+                "casings_all"
             ]
         },
         {
-            "x": 3,
-            "y": -1,
-            "z": 4,
+            "x": 2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -9,
+            "z": -3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -9,
+            "z": -1,
             "elements": [
                 "casings_all"
             ]
         },
         {
             "x": 1,
-            "y": -1,
+            "y": -7,
             "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": 4,
             "elements": [
                 "additions:greedycraft-durasteel_block@0"
             ]
         },
         {
-            "x": 0,
-            "y": 7,
+            "x": 2,
+            "y": -9,
+            "z": 0,
+            "elements": [
+                "minecraft:dirt@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
             "z": 3,
             "elements": [
                 "avaritia:block_resource@0"
@@ -151,216 +408,296 @@
         },
         {
             "x": -2,
-            "y": 2,
-            "z": 5,
+            "y": -9,
+            "z": -4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": -3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 0,
             "elements": [
                 "mekanismgenerators:reactorglass@0"
             ]
         },
         {
             "x": -4,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "appliedenergistics2:smooth_sky_stone_stairs@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "appliedenergistics2:smooth_sky_stone_stairs@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 3,
-            "elements": [
-                "minecraft:end_rod@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 6,
-            "elements": [
-                "additions:greedycraft-durasteel_block@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "additions:greedycraft-durasteel_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "appliedenergistics2:smooth_sky_stone_stairs@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "additions:greedycraft-durasteel_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 0,
+            "y": -9,
+            "z": 1,
             "elements": [
                 "appliedenergistics2:smooth_sky_stone_stairs@0"
             ]
         },
         {
             "x": 1,
-            "y": 7,
-            "z": 4,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 3,
+            "y": -8,
+            "z": 0,
             "elements": [
                 "avaritia:block_resource@0"
             ]
         },
         {
-            "x": -3,
-            "y": 5,
-            "z": 5,
+            "x": -1,
+            "y": -6,
+            "z": -3,
             "elements": [
                 "mekanismgenerators:reactorglass@0"
             ]
         },
         {
-            "x": 1,
-            "y": -1,
-            "z": 6,
+            "x": -2,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
             "elements": [
                 "casings_all"
             ]
         },
         {
             "x": 0,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 2,
+            "y": -4,
+            "z": -3,
             "elements": [
                 "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "draconicevolution:reactor_core@0"
             ]
         },
         {
             "x": -1,
-            "y": 5,
-            "z": 6,
+            "y": -1,
+            "z": -2,
             "elements": [
-                "mekanismgenerators:reactorglass@0"
+                "additions:greedycraft-aeonsteel_block@0"
             ]
         },
         {
-            "x": -3,
-            "y": 4,
-            "z": 5,
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -2,
             "elements": [
                 "avaritia:block_resource@0"
             ]
         },
         {
             "x": 3,
-            "y": 6,
-            "z": 4,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -9,
+            "z": -1,
+            "elements": [
+                "minecraft:dirt@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -9,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": -3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -9,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": -3,
             "elements": [
                 "mekanismgenerators:reactorglass@0"
             ]
         },
         {
             "x": 1,
-            "y": 4,
-            "z": 0,
+            "y": -1,
+            "z": -2,
             "elements": [
-                "additions:greedycraft-durasteel_block@0"
+                "additions:greedycraft-aeonsteel_block@0"
             ]
         },
         {
-            "x": -1,
-            "y": 2,
-            "z": 6,
+            "x": 0,
+            "y": -9,
+            "z": -3,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:factory1@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -9,
+            "z": 1,
+            "elements": [
+                "minecraft:dirt@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -9,
+            "z": 0,
+            "elements": [
+                "minecraft:dirt@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-protonium_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 0,
             "elements": [
                 "mekanismgenerators:reactorglass@0"
             ]
@@ -368,519 +705,479 @@
         {
             "x": -2,
             "y": -1,
-            "z": 7,
+            "z": -1,
             "elements": [
-                "appliedenergistics2:smooth_sky_stone_stairs@0"
+                "additions:greedycraft-aeonsteel_block@0"
             ]
         },
         {
             "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -8,
+            "z": -1,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -1,
             "y": 0,
-            "z": 3,
+            "z": -2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -8,
+            "z": -3,
             "elements": [
                 "modularmachinery:blockcasing@5"
             ]
         },
         {
             "x": 2,
-            "y": 7,
-            "z": 4,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 6,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 5,
-            "z": 4,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 6,
-            "elements": [
-                "additions:greedycraft-durasteel_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 5,
-            "elements": [
-                "minecraft:end_rod@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 0,
+            "y": -7,
+            "z": -2,
             "elements": [
                 "avaritia:block_resource@0"
             ]
         },
         {
             "x": -3,
-            "y": 3,
-            "z": 4,
+            "y": -6,
+            "z": -3,
             "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "appliedenergistics2:smooth_sky_stone_stairs@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "additions:greedycraft-durasteel_block@0"
+                "chisel:factory1@1"
             ]
         },
         {
             "x": -3,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "additions:greedycraft-durasteel_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 3,
-            "elements": [
-                "additions:greedycraft-durasteel_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 6,
-            "z": 2,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
+            "y": -3,
             "z": 0,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 6,
             "elements": [
                 "mekanismgenerators:reactorglass@0"
             ]
         },
         {
             "x": 4,
+            "y": -9,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": -3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
             "y": -1,
-            "z": 3,
+            "z": 2,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -9,
+            "z": 1,
+            "elements": [
+                "minecraft:dirt@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -9,
+            "z": -4,
             "elements": [
                 "appliedenergistics2:smooth_sky_stone_stairs@1"
             ]
         },
         {
             "x": -3,
-            "y": 5,
-            "z": 2,
+            "y": -7,
+            "z": 0,
             "elements": [
-                "mekanismgenerators:reactorglass@0"
+                "chisel:factory1@1"
             ]
         },
         {
             "x": -3,
-            "y": 5,
-            "z": 4,
+            "y": -3,
+            "z": 1,
             "elements": [
                 "mekanismgenerators:reactorglass@0"
             ]
         },
         {
             "x": 1,
-            "y": 5,
-            "z": 6,
+            "y": -7,
+            "z": -2,
             "elements": [
                 "mekanismgenerators:reactorglass@0"
             ]
         },
         {
-            "x": -3,
-            "y": 6,
-            "z": 4,
+            "x": 4,
+            "y": -9,
+            "z": -2,
             "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "minecraft:end_rod@4"
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
             ]
         },
         {
             "x": -1,
-            "y": 1,
-            "z": 2,
+            "y": -7,
+            "z": 1,
             "elements": [
                 "mekanismgenerators:reactorglass@0"
             ]
         },
         {
-            "x": 3,
-            "y": 2,
-            "z": 3,
+            "x": -2,
+            "y": -1,
+            "z": 2,
             "elements": [
                 "avaritia:block_resource@0"
             ]
         },
         {
-            "x": 2,
-            "y": 2,
-            "z": 5,
+            "x": 3,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -8,
+            "z": 1,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -8,
+            "z": -2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -8,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -9,
+            "z": -1,
+            "elements": [
+                "minecraft:dirt@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": 2,
             "elements": [
                 "mekanismgenerators:reactorglass@0"
             ]
         },
         {
             "x": 3,
-            "y": 2,
-            "z": 4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -9,
+            "z": -3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 0,
             "elements": [
                 "mekanismgenerators:reactorglass@0"
             ]
         },
         {
-            "x": -3,
-            "y": 4,
+            "x": 2,
+            "y": -9,
             "z": 2,
             "elements": [
-                "additions:greedycraft-durasteel_block@0"
+                "casings_all"
             ]
         },
         {
-            "x": -4,
-            "y": -1,
+            "x": 1,
+            "y": -9,
+            "z": -4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -9,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -8,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -9,
             "z": 4,
             "elements": [
                 "appliedenergistics2:smooth_sky_stone_stairs@0"
             ]
         },
         {
-            "x": 1,
-            "y": 3,
-            "z": 6,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 6,
+            "x": -2,
+            "y": -2,
+            "z": -2,
             "elements": [
                 "mekanismgenerators:reactorglass@0"
             ]
         },
         {
             "x": 3,
-            "y": 4,
-            "z": 3,
+            "y": -4,
+            "z": -2,
             "elements": [
                 "avaritia:block_resource@0"
             ]
         },
         {
-            "x": -1,
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -2,
             "y": 0,
-            "z": 5,
+            "z": -2,
+            "elements": [
+                "chisel:factory1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -8,
+            "z": 2,
             "elements": [
                 "casings_all"
             ]
         },
         {
-            "x": 1,
-            "y": 7,
-            "z": 3,
+            "x": -3,
+            "y": -6,
+            "z": 0,
             "elements": [
-                "additions:greedycraft-durasteel_block@0"
+                "avaritia:block_resource@0"
             ]
         },
         {
-            "x": -1,
-            "y": 6,
-            "z": 0,
+            "x": 3,
+            "y": -3,
+            "z": 1,
             "elements": [
                 "mekanismgenerators:reactorglass@0"
             ]
         },
         {
             "x": 0,
-            "y": 7,
-            "z": 5,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "additions:greedycraft-durasteel_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 6,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
+            "y": -8,
             "z": 0,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 6,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "appliedenergistics2:smooth_sky_stone_stairs@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 7,
-            "elements": [
-                "appliedenergistics2:smooth_sky_stone_stairs@1"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 6,
-            "z": 3,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": 1,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 7,
-            "z": 3,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "appliedenergistics2:smooth_sky_stone_stairs@2"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 5,
-            "z": 3,
-            "elements": [
-                "additions:greedycraft-durasteel_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": 4,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 6,
             "elements": [
                 "avaritia:block_resource@0"
             ]
@@ -890,15 +1187,47 @@
             "y": 0,
             "z": 2,
             "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -2,
+            "elements": [
                 "avaritia:block_resource@0"
             ]
         },
         {
             "x": 1,
-            "y": 1,
-            "z": 3,
+            "y": -9,
+            "z": -1,
             "elements": [
-                "additions:greedycraft-durasteel_block@0"
+                "minecraft:dirt@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "avaritia:block_resource@0"
             ]
         },
         {
@@ -906,556 +1235,212 @@
             "y": -1,
             "z": -1,
             "elements": [
-                "appliedenergistics2:smooth_sky_stone_stairs@1"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 6,
-            "elements": [
-                "additions:greedycraft-durasteel_block@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "appliedenergistics2:smooth_sky_stone_stairs@1"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "appliedenergistics2:smooth_sky_stone_stairs@2"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 5,
-            "z": 5,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
+                "additions:greedycraft-aeonsteel_block@0"
             ]
         },
         {
             "x": -1,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
+            "y": -9,
             "z": 4,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 7,
             "elements": [
                 "appliedenergistics2:smooth_sky_stone_stairs@3"
             ]
         },
         {
             "x": 3,
-            "y": 4,
-            "z": 5,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 1,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 6,
-            "elements": [
-                "modularmachinery:blocksmartinterface@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
+            "y": -4,
             "z": 2,
             "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
                 "avaritia:block_resource@0"
             ]
         },
         {
-            "x": -1,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "appliedenergistics2:smooth_sky_stone_stairs@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "minecraft:end_rod@5"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": 5,
+            "x": -3,
+            "y": -2,
+            "z": 1,
             "elements": [
                 "mekanismgenerators:reactorglass@0"
             ]
         },
         {
             "x": 1,
-            "y": 0,
-            "z": 3,
+            "y": -7,
+            "z": -3,
             "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "appliedenergistics2:smooth_sky_stone_stairs@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 3,
-            "z": 5,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "appliedenergistics2:smooth_sky_stone_stairs@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 6,
-            "elements": [
-                "appliedenergistics2:smooth_sky_stone_stairs@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "appliedenergistics2:smooth_sky_stone_stairs@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 6,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
+                "chisel:factory1@1"
             ]
         },
         {
             "x": -2,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 6,
-            "elements": [
-                "additions:greedycraft-durasteel_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "appliedenergistics2:smooth_sky_stone_stairs@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 6,
-            "z": 5,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 6,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 5,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": 3,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 4,
+            "y": -5,
+            "z": -3,
             "elements": [
                 "mekanismgenerators:reactorglass@0"
             ]
         },
         {
             "x": -3,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "appliedenergistics2:smooth_sky_stone_stairs@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 6,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 4,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 5,
-            "z": 2,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 5,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 6,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "appliedenergistics2:smooth_sky_stone_stairs@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 6,
-            "z": 3,
+            "y": -2,
+            "z": -2,
             "elements": [
                 "avaritia:block_resource@0"
             ]
         },
         {
             "x": -4,
-            "y": -1,
-            "z": 3,
+            "y": -9,
+            "z": 0,
             "elements": [
                 "appliedenergistics2:smooth_sky_stone_stairs@0"
             ]
         },
         {
             "x": 3,
-            "y": 6,
+            "y": -3,
             "z": 2,
             "elements": [
                 "mekanismgenerators:reactorglass@0"
             ]
         },
         {
+            "x": 2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -9,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:factory1@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
             "x": 0,
-            "y": 6,
-            "z": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 2,
             "elements": [
                 "avaritia:block_resource@0"
             ]
         },
         {
             "x": -2,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -9,
+            "z": 2,
+            "elements": [
+                "minecraft:dirt@0"
+            ]
+        },
+        {
+            "x": 3,
             "y": -1,
+            "z": 2,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -9,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -9,
             "z": 1,
             "elements": [
                 "casings_all"
@@ -1463,23 +1448,767 @@
         },
         {
             "x": 0,
-            "y": 2,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-durasteel_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": -3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -8,
+            "z": -1,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
             "z": 3,
             "elements": [
-                "minecraft:end_rod@1"
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
             ]
         },
         {
             "x": -2,
-            "y": 5,
-            "z": 6,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -9,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -8,
+            "z": 1,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -8,
+            "z": -2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "additions:greedycraft-durasteel_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "additions:greedycraft-durasteel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-protonium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -9,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -9,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -9,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -9,
+            "z": -2,
+            "elements": [
+                "minecraft:dirt@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "appliedenergistics2:quartz_vibrant_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -8,
+            "z": 2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -9,
+            "z": -1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -9,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -9,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -9,
+            "z": -2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -9,
+            "z": 0,
+            "elements": [
+                "minecraft:dirt@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -8,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-durasteel_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "additions:greedycraft-protonium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:factory1@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": -1,
             "elements": [
                 "mekanismgenerators:reactorglass@0"
             ]
         },
         {
             "x": -3,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -8,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -9,
+            "z": -2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-durasteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -9,
+            "z": -4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -9,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": -3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -2,
             "y": 0,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -8,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -8,
+            "z": 1,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -9,
+            "z": -1,
+            "elements": [
+                "minecraft:dirt@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -9,
+            "z": -1,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -9,
+            "z": -2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -9,
+            "z": 0,
+            "elements": [
+                "minecraft:dirt@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -9,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -9,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -8,
             "z": 3,
             "elements": [
                 "modularmachinery:blockcasing@5"
@@ -1487,226 +2216,458 @@
         },
         {
             "x": -3,
-            "y": 5,
+            "y": -3,
             "z": 3,
             "elements": [
-                "additions:greedycraft-durasteel_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "additions:greedycraft-durasteel_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 7,
-            "elements": [
-                "appliedenergistics2:smooth_sky_stone_stairs@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "additions:greedycraft-durasteel_block@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 7,
-            "z": 1,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "mekanismgenerators:reactorglass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "additions:greedycraft-durasteel_block@0"
+                "chisel:factory1@1"
             ]
         },
         {
             "x": 3,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "appliedenergistics2:smooth_sky_stone_stairs@3"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "additions:greedycraft-durasteel_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": 5,
+            "y": -2,
+            "z": -1,
             "elements": [
                 "mekanismgenerators:reactorglass@0"
             ]
         },
         {
-            "x": 3,
-            "y": 3,
+            "x": -2,
+            "y": -1,
             "z": 1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": -3,
             "elements": [
                 "mekanismgenerators:reactorglass@0"
             ]
         },
         {
             "x": 1,
-            "y": 1,
-            "z": 4,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "additions:greedycraft-protonium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 3,
             "elements": [
                 "mekanismgenerators:reactorglass@0"
             ]
         },
         {
-            "x": 2,
-            "y": -1,
+            "x": -2,
+            "y": -8,
             "z": 0,
             "elements": [
-                "appliedenergistics2:smooth_sky_stone_stairs@1"
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:factory1@1"
             ]
         },
         {
             "x": 0,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "appliedenergistics2:smooth_sky_stone_stairs@6"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
+            "y": -9,
             "z": 3,
             "elements": [
                 "avaritia:block_resource@0"
             ]
         },
         {
-            "x": 3,
-            "y": 4,
-            "z": 2,
+            "x": 2,
+            "y": -4,
+            "z": 3,
             "elements": [
-                "additions:greedycraft-durasteel_block@0"
+                "avaritia:block_resource@0"
             ]
         },
         {
-            "x": 0,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "minecraft:end_rod@3"
-            ]
-        },
-        {
-            "x": 4,
+            "x": 2,
             "y": -1,
-            "z": 1,
+            "z": -3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -9,
+            "z": -1,
+            "elements": [
+                "minecraft:dirt@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -9,
+            "z": -2,
             "elements": [
                 "appliedenergistics2:smooth_sky_stone_stairs@2"
             ]
         },
         {
             "x": 2,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -9,
+            "z": 2,
+            "elements": [
+                "minecraft:dirt@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -9,
+            "z": 0,
+            "elements": [
+                "minecraft:dirt@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -8,
+            "z": -1,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -9,
+            "z": 1,
+            "elements": [
+                "minecraft:dirt@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -9,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 2,
             "y": 0,
-            "z": 4,
+            "z": 1,
             "elements": [
                 "casings_all"
             ]
         },
         {
             "x": 1,
-            "y": 7,
-            "z": 2,
+            "y": -9,
+            "z": 1,
+            "elements": [
+                "minecraft:dirt@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": 1,
             "elements": [
                 "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": -3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -9,
+            "z": -2,
+            "elements": [
+                "minecraft:dirt@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-durasteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "chisel:factory1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -8,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "mekanismgenerators:reactorglass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -9,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_stairs@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "chisel:factory1@1"
             ]
         }
     ]}

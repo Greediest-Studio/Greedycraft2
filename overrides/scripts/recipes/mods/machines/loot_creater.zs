@@ -106,6 +106,7 @@ RecipeBuilder.newBuilder("chanceupload", "loot_creater", 10, 1)
     })
     .addRecipeTooltip("§e///概率同步///")
     .setThreadName("§1概率同步模块")
+    .setParallelized(false)
     .build();
 
 RecipeBuilder.newBuilder("addenergy" , "loot_creater" , 200 ,0)
@@ -115,6 +116,7 @@ RecipeBuilder.newBuilder("addenergy" , "loot_creater" , 200 ,0)
     })
     .setThreadName("§1注入模块")
     .addRecipeTooltip("§2增加50.0点能量(石板也受概率影响)")
+    .setParallelized(false)
     .build();
 
 RecipeBuilder.newBuilder("gaia1" , "loot_creater" , 500, 2)
