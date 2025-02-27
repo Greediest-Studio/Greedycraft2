@@ -269,3 +269,14 @@ FusionCrafting.add(<additions:greedycraft-stormy_crystal_gem>, <gct_ores:stormy_
     <gct_ores:shalloite>,
     <gct_ores:shalloite>
 ]);
+
+FusionCrafting.add(<contenttweaker:chaotic_energy_core>, <draconicevolution:draconic_energy_core>, 2, 8000000000, [
+    <draconicevolution:chaos_shard:1>,
+    <draconicevolution:chaos_shard:1>,
+    <draconicevolution:chaos_shard:1>,
+    <draconicevolution:chaos_shard:1>,
+    <ore:blockRedstone>,
+    <ore:blockRedstone>,
+    <ore:blockRedstone>,
+    <ore:blockRedstone>
+]);

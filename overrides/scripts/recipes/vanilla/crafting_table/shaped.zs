@@ -1585,6 +1585,11 @@ RecipeUtil.addShaped("modularrouters2", <modularrouters:module:13>, [
     [<modularrouters:module:9>, <modularrouters:blank_module>, <modularrouters:module:7>],
     [null, <additions:greedycraft-aeonsteel_block>, null]
 ]);
+RecipeUtil.addShaped("smartinterface", <modularmachinery:blocksmartinterface>, [
+    [<thermalfoundation:material:167>, <appliedenergistics2:quartz_vibrant_glass>, <thermalfoundation:material:167>],
+    [<appliedenergistics2:quartz_vibrant_glass>, <modularmachinery:blockcasing>, <appliedenergistics2:quartz_vibrant_glass>],
+    [<thermalfoundation:material:167>, <appliedenergistics2:quartz_vibrant_glass>, <thermalfoundation:material:167>]
+]);
 
 /* Templates
 

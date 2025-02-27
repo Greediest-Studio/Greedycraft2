@@ -441,6 +441,13 @@ RecipeBuilder.newBuilder("stormy_core" , "factory_giant" , "100")
     .addItemOutput(<gct_ores:stormy_core> * 1)
     .build();
 
+RecipeBuilder.newBuilder("chaos_energy_core" , "factory_giant" , "10")
+    .addItemInput(<draconicevolution:draconic_energy_core> * 1)
+    .addItemInput(<draconicevolution:chaos_shard:1> * 4)
+    .addItemInput(<ore:blockRedstone> * 4)
+    .addEnergyPerTickInput(80000000)
+    .addItemOutput(<contenttweaker:chaotic_energy_core> * 1)
+    .build();
 //块
 RecipeBuilder.newBuilder("draconic_block" , "factory_giant" , "10")
     .addItemInput(<draconicevolution:draconium_block> * 4)
