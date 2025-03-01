@@ -1617,7 +1617,7 @@ RecipeUtil.addShaped("estorage_energy_cell_l6", <ecoaeextension:estorage_energy_
 ]);
 RecipeUtil.addShaped("estorage_energy_cell_l9", <ecoaeextension:estorage_energy_cell_l9>, [
     [null, <mysticalagradditions:insanium>, null],
-    <mysticalagradditions:insanium>, <ecoaeextension:estorage_energy_cell_l6>, <mysticalagradditions:insanium>],
+    [<mysticalagradditions:insanium>, <ecoaeextension:estorage_energy_cell_l6>, <mysticalagradditions:insanium>],
     [null, <mysticalagradditions:insanium>, null]
 ]);
 RecipeUtil.addShaped("estorage_cell_drive", <ecoaeextension:estorage_cell_drive>, [
