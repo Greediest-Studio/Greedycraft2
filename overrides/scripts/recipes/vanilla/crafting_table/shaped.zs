@@ -1590,6 +1590,86 @@ RecipeUtil.addShaped("smartinterface", <modularmachinery:blocksmartinterface>, [
     [<appliedenergistics2:quartz_vibrant_glass>, <modularmachinery:blockcasing>, <appliedenergistics2:quartz_vibrant_glass>],
     [<thermalfoundation:material:167>, <appliedenergistics2:quartz_vibrant_glass>, <thermalfoundation:material:167>]
 ]);
+RecipeUtil.addShaped("extendable_digital_storage_subsystem_l4", <ecoaeextension:extendable_digital_storage_subsystem_l4>, [
+    [<modularmachinery:blockcontroller>, <ecoaeextension:estorage_casing>, <modularmachinery:blockcontroller>],
+    [<ecoaeextension:estorage_casing>, <appliedenergistics2:smooth_sky_stone_chest>, <ecoaeextension:estorage_casing>],
+    [<modularmachinery:blockcontroller>, <ecoaeextension:estorage_casing>, <modularmachinery:blockcontroller>]
+]);
+RecipeUtil.addShaped("extendable_digital_storage_subsystem_l6", <ecoaeextension:extendable_digital_storage_subsystem_l6>, [
+    [<draconicevolution:awakened_core>, <draconicevolution:draconic_block>, <draconicevolution:awakened_core>],
+    [<draconicevolution:draconic_block>, <ecoaeextension:extendable_digital_storage_subsystem_l4>, <draconicevolution:draconic_block>],
+    [<draconicevolution:awakened_core>, <draconicevolution:draconic_block>, <draconicevolution:awakened_core>]
+]);
+RecipeUtil.addShaped("extendable_digital_storage_subsystem_l9", <ecoaeextension:extendable_digital_storage_subsystem_l9>, [
+    [<gct_ores:stormy_core>, <mysticalagradditions:storage:1>, <gct_ores:stormy_core>],
+    [<mysticalagradditions:storage:1>, <ecoaeextension:extendable_digital_storage_subsystem_l6>, <mysticalagradditions:storage:1>],
+    [<gct_ores:stormy_core>, <mysticalagradditions:storage:1>, <gct_ores:stormy_core>]
+]);
+RecipeUtil.addShaped("estorage_energy_cell_l4", <ecoaeextension:estorage_energy_cell_l4>, [
+    [<appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>],
+    [<appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>],
+    [<appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>, <appliedenergistics2:dense_energy_cell>]
+]);
+RecipeUtil.addShaped("estorage_energy_cell_l6", <ecoaeextension:estorage_energy_cell_l6>, [
+    [null, <jaopca:plate.intermedium>, null],
+    [<jaopca:plate.intermedium>, <ecoaeextension:estorage_energy_cell_l4>, <jaopca:plate.intermedium>],
+    [null, <jaopca:plate.intermedium>, null]
+]);
+RecipeUtil.addShaped("estorage_energy_cell_l9", <ecoaeextension:estorage_energy_cell_l9>, [
+    [null, <mysticalagradditions:insanium>, null],
+    <mysticalagradditions:insanium>, <ecoaeextension:estorage_energy_cell_l6>, <mysticalagradditions:insanium>],
+    [null, <mysticalagradditions:insanium>, null]
+]);
+RecipeUtil.addShaped("estorage_cell_drive", <ecoaeextension:estorage_cell_drive>, [
+    [<ecoaeextension:estorage_casing>, <ecoaeextension:estorage_casing>, <ecoaeextension:estorage_casing>],
+    [<ecoaeextension:estorage_casing>, <appliedenergistics2:drive>, <ecoaeextension:estorage_casing>],
+    [<ecoaeextension:estorage_casing>, <ecoaeextension:estorage_casing>, <ecoaeextension:estorage_casing>]
+]);
+RecipeUtil.addShaped("estorage_me_channel", <ecoaeextension:estorage_me_channel>, [
+    [<ecoaeextension:estorage_casing>, <ecoaeextension:estorage_casing>, <ecoaeextension:estorage_casing>],
+    [<ecoaeextension:estorage_casing>, <appliedenergistics2:interface>, <ecoaeextension:estorage_casing>],
+    [<ecoaeextension:estorage_casing>, <ecoaeextension:estorage_casing>, <ecoaeextension:estorage_casing>]
+]);
+RecipeUtil.addShaped("estorage_vent", <ecoaeextension:estorage_vent>, [
+    [null, <thermalfoundation:material:1025>, null],
+    [<thermalfoundation:material:1025>, <ecoaeextension:estorage_casing>, <thermalfoundation:material:1025>],
+    [null, <thermalfoundation:material:1025>, null]
+]);
+RecipeUtil.addShaped("estorage_casing", <ecoaeextension:estorage_casing>, [
+    [null, <minecraft:quartz_block>, null],
+    [<minecraft:quartz_block>, <additions:greedycraft-stainless_steel_block>, <minecraft:quartz_block>],
+    [null, <minecraft:quartz_block>, null]
+]);
+RecipeUtil.addShaped("estorage_cell_item_16m", <ecoaeextension:estorage_cell_item_16m>, [
+    [null, <additions:durasteel_ingot>, null],
+    [<additions:durasteel_ingot>, <crazyae:material:3>, <additions:durasteel_ingot>],
+    [null, <additions:durasteel_ingot>, null]
+]);
+RecipeUtil.addShaped("estorage_cell_item_64m", <ecoaeextension:estorage_cell_item_64m>, [
+    [null, <additions:aeonsteel_ingot>, null],
+    [<additions:aeonsteel_ingot>, <ecoaeextension:estorage_cell_item_16m>, <additions:aeonsteel_ingot>],
+    [null, <additions:aeonsteel_ingot>, null]
+]);
+RecipeUtil.addShaped("estorage_cell_item_256m", <ecoaeextension:estorage_cell_item_256m>, [
+    [null, <additions:chromasteel_ingot>, null],
+    [<additions:chromasteel_ingot>, <ecoaeextension:estorage_cell_item_64m>, <additions:chromasteel_ingot>],
+    [null, <additions:chromasteel_ingot>, null]
+]);
+RecipeUtil.addShaped("estorage_cell_fluid_16m", <ecoaeextension:estorage_cell_fluid_16m>, [
+    [null, <additions:durasteel_ingot>, null],
+    [<additions:durasteel_ingot>, <crazyae:material:11>, <additions:durasteel_ingot>],
+    [null, <additions:durasteel_ingot>, null]
+]);
+RecipeUtil.addShaped("estorage_cell_fluid_64m", <ecoaeextension:estorage_cell_fluid_64m>, [
+    [null, <additions:aeonsteel_ingot>, null],
+    [<additions:aeonsteel_ingot>, <ecoaeextension:estorage_cell_fluid_16m>, <additions:aeonsteel_ingot>],
+    [null, <additions:aeonsteel_ingot>, null]
+]);
+RecipeUtil.addShaped("estorage_cell_fluid_256m", <ecoaeextension:estorage_cell_fluid_256m>, [
+    [null, <additions:chromasteel_ingot>, null],
+    [<additions:chromasteel_ingot>, <ecoaeextension:estorage_cell_fluid_64m>, <additions:chromasteel_ingot>],
+    [null, <additions:chromasteel_ingot>, null]
+]);
 
 /* Templates
 
