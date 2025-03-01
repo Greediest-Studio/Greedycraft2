@@ -1,0 +1,267 @@
+{
+    "registryname": "extendable_calculator_subsystem_l6",
+    "localizedname": "§9ECO - §6C6 §9可扩展计算子系统",
+    "requires-blueprint": false,
+    "has-factory": false,
+    "dynamic-patterns": [
+        {
+            "name": "workers",
+            "faces": [
+                "west"
+            ],
+            "minSize": 1,
+            "maxSize": 12,
+            "structure-size-offset-start": {
+                "x": -2,
+                "y": 0,
+                "z": 0
+            },
+            "structure-size-offset": {
+                "x": -1,
+                "y": 0,
+                "z": 0
+            },
+            "parts": [
+                {
+                    "x": 0,
+                    "y": -1,
+                    "z": 1,
+                    "elements": [
+                        "ecoaeextension:ecalculator_parallel_proc_l6@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -1,
+                    "z": 0,
+                    "elements": [
+                        "ecoaeextension:ecalculator_cell_drive@2"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "elements": [
+                        "ecoaeextension:ecalculator_transmitter_bus@2"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 1,
+                    "elements": [
+                        "ecoaeextension:ecalculator_thread_core_l6@0",
+                        "ecoaeextension:ecalculator_thread_core_hyper_l6@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 1,
+                    "z": 1,
+                    "elements": [
+                        "ecoaeextension:ecalculator_parallel_proc_l6@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 1,
+                    "z": 0,
+                    "elements": [
+                        "ecoaeextension:ecalculator_cell_drive@2"
+                    ]
+                }
+            ],
+            "parts-end": [
+                {
+                    "x": 0,
+                    "y": -1,
+                    "z": 1,
+                    "elements": [
+                        "ecoaeextension:ecalculator_casing@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -1,
+                    "z": 0,
+                    "elements": [
+                        "ecoaeextension:ecalculator_casing@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "elements": [
+                        "ecoaeextension:ecalculator_tail_l6@2"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 1,
+                    "elements": [
+                        "ecoaeextension:ecalculator_casing@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 1,
+                    "z": 1,
+                    "elements": [
+                        "ecoaeextension:ecalculator_casing@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 1,
+                    "z": 0,
+                    "elements": [
+                        "ecoaeextension:ecalculator_casing@2"
+                    ]
+                }
+            ]
+        }
+    ],
+    "parts": [
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "ecoaeextension:ecalculator_me_channel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockmefluidinputbus"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch",
+                "modularmachinery:blockmefluidoutputbus"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "ecoaeextension:ecalculator_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "ecoaeextension:ecalculator_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "ecoaeextension:ecalculator_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "ecoaeextension:ecalculator_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "ecoaeextension:ecalculator_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "ecoaeextension:ecalculator_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "ecoaeextension:ecalculator_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "ecoaeextension:ecalculator_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "ecoaeextension:ecalculator_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "ecoaeextension:ecalculator_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "ecoaeextension:ecalculator_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "ecoaeextension:ecalculator_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "ecoaeextension:ecalculator_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "ecoaeextension:ecalculator_casing@0"
+            ]
+        }
+    ]
+}

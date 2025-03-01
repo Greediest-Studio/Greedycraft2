@@ -1,0 +1,268 @@
+{
+    "registryname": "extendable_fabricator_subsystem_l4",
+    "localizedname": "§9ECO - §bF4 §e可扩展合成子系统",
+    "requires-blueprint": false,
+    "has-factory": false,
+    "dynamic-patterns": [
+        {
+            "name": "workers",
+            "faces": [
+                "west"
+            ],
+            "minSize": 1,
+            "maxSize": 12,
+            "structure-size-offset-start": {
+                "x": -2,
+                "y": 0,
+                "z": 0
+            },
+            "structure-size-offset": {
+                "x": -1,
+                "y": 0,
+                "z": 0
+            },
+            "parts": [
+                {
+                    "x": 0,
+                    "y": -1,
+                    "z": 1,
+                    "elements": [
+                        "ecoaeextension:efabricator_pattern_bus@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -1,
+                    "z": 0,
+                    "elements": [
+                        "ecoaeextension:efabricator_parallel_proc_l4@2"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "elements": [
+                        "ecoaeextension:efabricator_worker@2"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 1,
+                    "elements": [
+                        "ecoaeextension:efabricator_vent@2"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 1,
+                    "z": 1,
+                    "elements": [
+                        "ecoaeextension:efabricator_pattern_bus@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 1,
+                    "z": 0,
+                    "elements": [
+                        "ecoaeextension:efabricator_parallel_proc_l4@2"
+                    ]
+                }
+            ],
+            "parts-end": [
+                {
+                    "x": 0,
+                    "y": -1,
+                    "z": 1,
+                    "elements": [
+                        "ecoaeextension:efabricator_casing@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -1,
+                    "z": 0,
+                    "elements": [
+                        "ecoaeextension:efabricator_casing@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "elements": [
+                        "ecoaeextension:efabricator_casing@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 1,
+                    "elements": [
+                        "ecoaeextension:efabricator_casing@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 1,
+                    "z": 1,
+                    "elements": [
+                        "ecoaeextension:efabricator_casing@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 1,
+                    "z": 0,
+                    "elements": [
+                        "ecoaeextension:efabricator_casing@0"
+                    ]
+                }
+            ]
+        }
+    ],
+    "parts": [
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "ecoaeextension:efabricator_me_channel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch",
+                "modularmachinery:blockmegasinputbus",
+                "modularmachinery:blockmefluidinputbus"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch",
+                "modularmachinery:blockmegasoutputbus",
+                "modularmachinery:blockmefluidoutputbus"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "ecoaeextension:efabricator_vent@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "ecoaeextension:efabricator_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "ecoaeextension:efabricator_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "ecoaeextension:efabricator_vent@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "ecoaeextension:efabricator_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "ecoaeextension:efabricator_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "ecoaeextension:efabricator_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "ecoaeextension:efabricator_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "ecoaeextension:efabricator_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "ecoaeextension:efabricator_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "ecoaeextension:efabricator_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "ecoaeextension:efabricator_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "ecoaeextension:efabricator_casing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "ecoaeextension:efabricator_casing@0"
+            ]
+        }
+    ]
+}

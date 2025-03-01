@@ -1,0 +1,216 @@
+{
+    "registryname": "extendable_digital_storage_subsystem_l9",
+    "localizedname": "§9ECO - §5L9 §9可扩展存储子系统",
+    "requires-blueprint": false,
+    "has-factory": false,
+    "dynamic-patterns": [
+        {
+            "name": "drives",
+            "faces": [
+                "west"
+            ],
+            "minSize": 1,
+            "maxSize": 12,
+            "structure-size-offset-start": {
+                "x": -1,
+                "y": 0,
+                "z": 0
+            },
+            "structure-size-offset": {
+                "x": -1,
+                "y": 0,
+                "z": 0
+            },
+            "parts": [
+                {
+                    "x": 0,
+                    "y": -1,
+                    "z": 1,
+                    "elements": [
+                        "ecoaeextension:estorage_energy_cell_l9@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -1,
+                    "z": 0,
+                    "elements": [
+                        "ecoaeextension:estorage_cell_drive@2"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "elements": [
+                        "ecoaeextension:estorage_cell_drive@2"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 1,
+                    "elements": [
+                        "ecoaeextension:estorage_vent@2"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 1,
+                    "z": 1,
+                    "elements": [
+                        "ecoaeextension:estorage_energy_cell_l9@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 1,
+                    "z": 0,
+                    "elements": [
+                        "ecoaeextension:estorage_cell_drive@2"
+                    ]
+                }
+            ],
+            "parts-end": [
+                {
+                    "x": 0,
+                    "y": -1,
+                    "z": 1,
+                    "elements": [
+                        "ecoaeextension:estorage_casing@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": -1,
+                    "z": 0,
+                    "elements": [
+                        "ecoaeextension:estorage_casing@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0,
+                    "elements": [
+                        "ecoaeextension:estorage_casing@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 0,
+                    "z": 1,
+                    "elements": [
+                        "ecoaeextension:estorage_casing@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 1,
+                    "z": 1,
+                    "elements": [
+                        "ecoaeextension:estorage_casing@0"
+                    ]
+                },
+                {
+                    "x": 0,
+                    "y": 1,
+                    "z": 0,
+                    "elements": [
+                        "ecoaeextension:estorage_casing@0"
+                    ]
+                }
+            ]
+        }
+    ],
+    "parts": [
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "ecoaeextension:estorage_me_channel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "ecoaeextension:estorage_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "ecoaeextension:estorage_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "ecoaeextension:estorage_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "ecoaeextension:estorage_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "ecoaeextension:estorage_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "ecoaeextension:estorage_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "ecoaeextension:estorage_casing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "ecoaeextension:estorage_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "ecoaeextension:estorage_casing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "ecoaeextension:estorage_casing@0"
+            ]
+        }
+    ]
+}
