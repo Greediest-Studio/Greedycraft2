@@ -1670,6 +1670,63 @@ RecipeUtil.addShaped("estorage_cell_fluid_256m", <ecoaeextension:estorage_cell_f
     [<additions:chromasteel_ingot>, <ecoaeextension:estorage_cell_fluid_64m>, <additions:chromasteel_ingot>],
     [null, <additions:chromasteel_ingot>, null]
 ]);
+RecipeUtil.addShaped("extendable_fabricator_subsystem_l4", <ecoaeextension:extendable_fabricator_subsystem_l4>, [
+    [<ecoaeextension:efabricator_casing>, <additions:greedycraft-logic_processor_2>, <ecoaeextension:efabricator_casing>],
+    [<additions:greedycraft-logic_processor_2>, <threng:machine:4>, <additions:greedycraft-logic_processor_2>],
+    [<ecoaeextension:efabricator_casing>, <additions:greedycraft-logic_processor_2>, <ecoaeextension:efabricator_casing>]
+]);
+RecipeUtil.addShaped("extendable_fabricator_subsystem_l6", <ecoaeextension:extendable_fabricator_subsystem_l6>, [
+    [<mekanism:controlcircuit:2>, <additions:greedycraft-glowing_signalum_block>, <mekanism:controlcircuit:2>],
+    [<additions:greedycraft-glowing_signalum_block>, <ecoaeextension:extendable_fabricator_subsystem_l4>, <additions:greedycraft-glowing_signalum_block>],
+    [<mekanism:controlcircuit:2>, <additions:greedycraft-glowing_signalum_block>, <mekanism:controlcircuit:2>]
+]);
+RecipeUtil.addShaped("extendable_fabricator_subsystem_l9", <ecoaeextension:extendable_fabricator_subsystem_l9>, [
+    [<extendedcrafting:storage>, <mekanism:controlcircuit:3>, <extendedcrafting:storage>],
+    [<mekanism:controlcircuit:3>, <ecoaeextension:extendable_fabricator_subsystem_l6>, <mekanism:controlcircuit:3>],
+    [<extendedcrafting:storage>, <mekanism:controlcircuit:3>, <extendedcrafting:storage>]
+]);
+RecipeUtil.addShaped("efabricator_parallel_proc_l4", <ecoaeextension:efabricator_parallel_proc_l4>, [
+    [<ecoaeextension:efabricator_casing>, <threng:material:6>, <ecoaeextension:efabricator_casing>],
+    [<threng:material:6>, <crazyae:crafting_accelerator_64x>, <threng:material:6>],
+    [<ecoaeextension:efabricator_casing>, <threng:material:6>, <ecoaeextension:efabricator_casing>]
+]);
+RecipeUtil.addShaped("efabricator_parallel_proc_l6", <ecoaeextension:efabricator_parallel_proc_l6>, [
+    [<draconicevolution:draconic_ingot>, <extendedcrafting:material:2>, <draconicevolution:draconic_ingot>],
+    [<extendedcrafting:material:2>, <ecoaeextension:efabricator_parallel_proc_l4>, <extendedcrafting:material:2>],
+    [<draconicevolution:draconic_ingot>, <extendedcrafting:material:2>, <draconicevolution:draconic_ingot>]
+]);
+RecipeUtil.addShaped("efabricator_parallel_proc_l9", <ecoaeextension:efabricator_parallel_proc_l9>, [
+    [<mekanism:atomicalloy>, <jaopca:plate.neutronium>, <mekanism:atomicalloy>],
+    [<jaopca:plate.neutronium>, <ecoaeextension:efabricator_parallel_proc_l6>, <jaopca:plate.neutronium>],
+    [<mekanism:atomicalloy>, <jaopca:plate.neutronium>, <mekanism:atomicalloy>]
+]);
+RecipeUtil.addShaped("efabricator_me_channel", <ecoaeextension:efabricator_me_channel>, [
+    [<ecoaeextension:efabricator_casing>, <additions:greedycraft-logic_processor_2>, <ecoaeextension:efabricator_casing>],
+    [<additions:greedycraft-logic_processor_2>, <appliedenergistics2:interface>, <additions:greedycraft-logic_processor_2>],
+    [<ecoaeextension:efabricator_casing>, <additions:greedycraft-logic_processor_2>, <ecoaeextension:efabricator_casing>]
+]);
+RecipeUtil.addShaped("efabricator_pattern_bus", <ecoaeextension:efabricator_pattern_bus>, [
+    [<ecoaeextension:efabricator_casing>, <appliedenergistics2:fluix_block>, <ecoaeextension:efabricator_casing>],
+    [<appliedenergistics2:fluix_block>, <modularmachinery:blockmepatternprovider>, <appliedenergistics2:fluix_block>],
+    [<ecoaeextension:efabricator_casing>, <appliedenergistics2:fluix_block>, <ecoaeextension:efabricator_casing>]
+]);
+RecipeUtil.addShaped("efabricator_worker", <ecoaeextension:efabricator_worker>, [
+    [<ecoaeextension:efabricator_casing>, <appliedenergistics2:fluix_block>, <ecoaeextension:efabricator_casing>],
+    [<appliedenergistics2:fluix_block>, <appliedenergistics2:crafting_unit>, <appliedenergistics2:fluix_block>],
+    [<ecoaeextension:efabricator_casing>, <appliedenergistics2:fluix_block>, <ecoaeextension:efabricator_casing>]
+]);
+RecipeUtil.addShaped("efabricator_vent", <ecoaeextension:efabricator_vent>, [
+    [<ecoaeextension:efabricator_casing>, <appliedenergistics2:fluix_block>, <ecoaeextension:efabricator_casing>],
+    [<appliedenergistics2:fluix_block>, <redstonerepository:material:5>, <appliedenergistics2:fluix_block>],
+    [<ecoaeextension:efabricator_casing>, <appliedenergistics2:fluix_block>, <ecoaeextension:efabricator_casing>]
+]);
+RecipeUtil.addShaped("efabricator_casing", <ecoaeextension:efabricator_casing>, [
+    [null, <appliedenergistics2:material:7>, null],
+    [<appliedenergistics2:material:7>, <actuallyadditions:block_misc:2>, <appliedenergistics2:material:7>],
+    [null, <appliedenergistics2:material:7>, null]
+]);
+
+
 
 /* Templates
 
