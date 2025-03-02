@@ -985,7 +985,7 @@ for i in 3 to 7 {
         .addItemInput(<packagedthaumic:infusion_crafter>*2)
         .addItemInput(<thaumcraft:salis_mundus>*256)
         .addEnergyPerTickInput(1000)
-        .addItemOutput(<modularmachinery:thaumcraft_1_controller>)
-        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:thaumcraft_1"}))
+        .addItemOutput(<modularmachinery:infusion_matrix_machine_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:infusion_matrix_machine"}))
         .build();
 }
