@@ -1726,6 +1726,7 @@ RecipeUtil.addShaped("efabricator_casing", <ecoaeextension:efabricator_casing>, 
     [null, <appliedenergistics2:material:7>, null]
 ]);
 
+//别在这里写，文件太长会报错！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
 
 
 /* Templates
