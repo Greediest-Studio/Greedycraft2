@@ -975,3 +975,17 @@ for i in 3 to 7 {
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fallen_star"}))
         .build();
 }
+//符文矩阵
+for i in 3 to 7 {
+    RecipeBuilder.newBuilder("infusion_matrix" + i, "builder_" + i, 800)
+        .addFluidInput(<liquid:redstone> * 256000)
+        .addItemInput(<jaopca:plate.cursium>)
+        .addItemInput(<thaumcraft:plate:3>*64)
+        .addItemInput(<packagedthaumic:clathrate_essence_materializer>*2)
+        .addItemInput(<packagedthaumic:infusion_crafter>*2)
+        .addItemInput(<thaumcraft:salis_mundus>*256)
+        .addEnergyPerTickInput(1000)
+        .addItemOutput(<modularmachinery:thaumcraft_1_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:thaumcraft_1"}))
+        .build();
+}
