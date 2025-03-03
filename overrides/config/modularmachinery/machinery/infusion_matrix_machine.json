@@ -3,6 +3,21 @@
     "localizedname": "模块化符文矩阵",
     "requires-blueprint": true,
     "color": "000000",
+    "modifiers": [
+        {
+            "elements": "jaopca:block.cursium",
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "description": "替换成此方块时产物会提高到200%",
+            "modifier": {
+                "target": "modularmachinery:item",
+                "io": "output",
+                "operation": 1,
+                "multiplier": 2
+            }
+        }
+    ],
     "parts": [
         {
             "x": 0,
