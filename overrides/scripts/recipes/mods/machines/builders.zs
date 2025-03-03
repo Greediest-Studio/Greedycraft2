@@ -466,21 +466,6 @@ for i in 5 to 7 {
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:miner_excellent"}))
         .build();
 }
-//雾霭矿机
-for i in 4 to 7 {
-    RecipeBuilder.newBuilder("controller_miner_foggy" + i, "builder_" + i, 1200)
-        .addFluidInput(<liquid:redstone> * 180400)
-        .addItemInput(<tconstruct:pick_head>.withTag({Material: "niobium"}) * 4)
-        .addItemInput(<tconstruct:binding>.withTag({Material: "ruthenium"}) * 1)
-        .addItemInput(<tconstruct:tool_rod>.withTag({Material: "rhodium"}) * 1)
-        .addItemInput(<tconstruct:binding>.withTag({Material: "niobium"}) * 3)
-        .addItemInput(<tconstruct:tool_rod>.withTag({Material: "niobium"}) * 3)
-        .addItemInput(<actuallyadditions:item_crystal_empowered:3> * 32)
-        .addEnergyPerTickInput(120)
-        .addItemOutput(<modularmachinery:miner_foggy_controller>)
-        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:miner_foggy"}))
-        .build();
-}
 //熔融矿机
 for i in 5 to 7 {
     RecipeBuilder.newBuilder("controller_miner_molten" + i, "builder_" + i, 1200)
