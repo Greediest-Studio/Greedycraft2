@@ -70,30 +70,31 @@ events.onPlayerBreakSpeed(function(event as PlayerBreakSpeedEvent) {
 });
 
 events.onEntityLivingUpdate(function(event as EntityLivingUpdateEvent) {
-
-    if (event.entityLivingBase instanceof IEntityLiving) {
-        var entity as IEntityLiving = event.entityLivingBase;
-        if (entity.definition.id has "abyssalcraft" || entity.definition.id has "gct_aby") {
-            if (entity.attackTarget instanceof IPlayer) {
-                var player as IPlayer = entity.attackTarget;
-                if (SanityHelper.getSanity(player) <= -30.0f) {
-                    if (!isNull(entity.lastAttackedEntity)) {
-                        if (entity.lastAttackedEntity instanceof IPlayer) {
-                            var targetPlayer as IPlayer = entity.lastAttackedEntity;
-                            if (targetPlayer.uuid != player.uuid) {
-                                entity.attackTarget = null;
-                            }
-                        } else {
-                            entity.attackTarget = null;
+    if (!isNull(event.entityLivingBase) ) {
+        if (event.entityLivingBase instanceof IEntityLiving) {
+            var entity as IEntityLiving = event.entityLivingBase;
+            if (!isNull(entity.definition)) {
+                if (entity.definition.id has "abyssalcraft" || entity.definition.id has "gct_aby") {
+                    if (entity.attackTarget instanceof IPlayer) {
+                        var player as IPlayer = entity.attackTarget;
+                        if (SanityHelper.getSanity(player) <= -30.0f) {
+                            if (!isNull(entity.lastAttackedEntity)) {
+                                if (entity.lastAttackedEntity instanceof IPlayer) {
+                                   var targetPlayer as IPlayer = entity.lastAttackedEntity;
+                                    if (targetPlayer.uuid != player.uuid) {
+                                        entity.attackTarget = null;
+                                    }
+                                } else {
+                                    entity.attackTarget = null;
+                                }
+                            } 
+                            else {entity.attackTarget = null;}  
                         }
-                    } else {
-                        entity.attackTarget = null;
                     }
                 }
             }
         }
     }
-
 });
 
 events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {

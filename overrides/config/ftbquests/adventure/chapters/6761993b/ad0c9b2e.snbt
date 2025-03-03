@@ -1,26 +1,26 @@
 {
-	title: "§b现在是黑夜时间",
+	title: "§b【可重复】现在是黑夜时间",
 	x: 4.5d,
 	y: 7.5d,
+	shape: "square",
 	description: "获得至暗之日的掉落物",
+	can_repeat: 1b,
 	dependencies: [
 		"7c005016"
 	],
 	tasks: [{
-		uid: "c4bd8aa6",
-		type: "item",
-		items: [{
-			item: "additions:bloody-darkest_core"
-		}]
-	},
-	{
-		uid: "99e8f155",
-		type: "item",
-		items: [{
-			item: "dungeonsmod:sun_overdrive"
-		}],
-		ignore_damage: 1b,
-		ignore_nbt: 1b
+		uid: "36c5b01b",
+		type: "kill",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "dungeonsmod:sun"
+				}
+			}
+		},
+		entity: "dungeonsmod:sun",
+		value: 1L
 	}],
 	rewards: [{
 		uid: "faf69f9e",
