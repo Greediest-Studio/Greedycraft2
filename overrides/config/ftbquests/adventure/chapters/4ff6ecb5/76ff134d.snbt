@@ -1,0 +1,19 @@
+{
+	title: "真的是最终解决方案了",
+	x: -2.5d,
+	y: 6.0d,
+	description: "妈妈再也不用担心我缺稳定度了",
+	dependencies: [
+		"9073625a",
+		"57141257",
+		"c11fbfe1",
+		"9ff5607a"
+	],
+	tasks: [{
+		uid: "27dd393d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:infusion_matrix_machine_controller"
+		}]
+	}]
+}
