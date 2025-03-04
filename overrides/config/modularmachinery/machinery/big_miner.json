@@ -1,0 +1,6312 @@
+{
+    "registryname": "big_miner",
+    "localizedname": "§7§l物质解压器",
+    "requires-blueprint": true,
+    "failure-action": "still",
+    "color": "000000",
+    "parts": [
+        {
+            "x": -7,
+            "y": -23,
+            "z": -14,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -15,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -11,
+            "z": -6,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -12,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -12,
+            "z": -6,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -11,
+            "z": 11,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -11,
+            "z": 1,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -22,
+            "z": -14,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -11,
+            "z": 11,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -18,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -23,
+            "z": 12,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -16,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -22,
+            "z": 15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -12,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -22,
+            "z": 12,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -11,
+            "z": -1,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -10,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -21,
+            "z": 6,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -21,
+            "z": -14,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -10,
+            "z": -11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -22,
+            "z": 15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -22,
+            "z": 6,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -10,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -23,
+            "z": -5,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -22,
+            "z": 3,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -18,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -22,
+            "z": 15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -22,
+            "z": 4,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -23,
+            "z": 9,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -23,
+            "z": 11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -11,
+            "z": 4,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -22,
+            "z": -3,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -21,
+            "z": 13,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -16,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -21,
+            "z": -5,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -23,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -12,
+            "z": 12,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -11,
+            "z": 11,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "minecraft:bedrock@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -21,
+            "z": 12,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -21,
+            "z": 9,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -15,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -22,
+            "z": 15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -21,
+            "z": 11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -13,
+            "z": 12,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -12,
+            "z": -2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -11,
+            "z": -3,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -22,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-cosmilite_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -10,
+            "z": -4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -22,
+            "z": 15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -11,
+            "z": -2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -10,
+            "z": 10,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -10,
+            "z": -2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -11,
+            "z": 11,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -11,
+            "z": -10,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -11,
+            "z": 11,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -22,
+            "z": 15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -12,
+            "z": 10,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -22,
+            "z": -10,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -20,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -22,
+            "z": -5,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -21,
+            "z": -9,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -23,
+            "z": 6,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -10,
+            "z": -9,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -21,
+            "z": 3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -18,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -12,
+            "z": 3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "minecraft:bedrock@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -21,
+            "z": 7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -21,
+            "z": -13,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -10,
+            "z": 10,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -23,
+            "z": -9,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -23,
+            "z": -4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -12,
+            "z": -9,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -22,
+            "z": 7,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -10,
+            "z": 3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -20,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -23,
+            "z": 7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -12,
+            "z": 10,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -11,
+            "z": 11,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -12,
+            "z": 5,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -12,
+            "z": -4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -21,
+            "z": -4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -12,
+            "z": -11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -10,
+            "z": -11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -23,
+            "z": -13,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -21,
+            "z": 5,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -14,
+            "z": -13,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -10,
+            "z": 5,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -10,
+            "z": -11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -12,
+            "z": -11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -13,
+            "z": -13,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -16,
+            "z": -14,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -12,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -22,
+            "z": -11,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -22,
+            "z": -13,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -23,
+            "z": 3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -15,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -11,
+            "z": 11,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -12,
+            "z": 10,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -22,
+            "z": 15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -10,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -15,
+            "z": -14,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -12,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -22,
+            "z": -9,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -12,
+            "z": -12,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -11,
+            "z": -1,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -22,
+            "z": 10,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -10,
+            "z": 10,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -11,
+            "z": 11,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -14,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -10,
+            "z": 5,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -23,
+            "z": 12,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -23,
+            "z": 13,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -22,
+            "z": -15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -21,
+            "z": 9,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -16,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -21,
+            "z": -3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -22,
+            "z": 13,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -15,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -21,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -22,
+            "z": -4,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -22,
+            "z": 12,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -10,
+            "z": 2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -23,
+            "z": 9,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -23,
+            "z": -3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -12,
+            "z": 8,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -23,
+            "z": -9,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -10,
+            "z": 8,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -23,
+            "z": 5,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -23,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -12,
+            "z": -11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -13,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -11,
+            "z": 8,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -22,
+            "z": 15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -12,
+            "z": 10,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -14,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -11,
+            "z": 9,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -10,
+            "z": -11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -22,
+            "z": -15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -20,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -10,
+            "z": -6,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -10,
+            "z": 10,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -12,
+            "z": -12,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -21,
+            "z": -14,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -22,
+            "z": -15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -21,
+            "z": -2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -23,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -23,
+            "z": -14,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -21,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -20,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -18,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -10,
+            "z": 9,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -20,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -11,
+            "z": 9,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -23,
+            "z": -2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -21,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -12,
+            "z": 6,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -18,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -12,
+            "z": -11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -10,
+            "z": -2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -12,
+            "z": 9,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -12,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -13,
+            "z": -13,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -19,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -21,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -22,
+            "z": -6,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -10,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -11,
+            "z": -11,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -21,
+            "z": -12,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -10,
+            "z": 6,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -21,
+            "z": 12,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -12,
+            "z": 5,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -11,
+            "z": 2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -12,
+            "z": -2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -10,
+            "z": -11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -17,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -22,
+            "z": -15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -23,
+            "z": -12,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -11,
+            "z": 5,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -23,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -12,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -22,
+            "z": -8,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -22,
+            "z": -13,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -15,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -22,
+            "z": 6,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -22,
+            "z": -14,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -10,
+            "z": -4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -22,
+            "z": 15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -12,
+            "z": 6,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -21,
+            "z": 14,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -10,
+            "z": 6,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -22,
+            "z": -12,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -11,
+            "z": -4,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -13,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -12,
+            "z": -4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -21,
+            "z": -8,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -14,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -12,
+            "z": -10,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -23,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -15,
+            "z": 14,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -23,
+            "z": -13,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -11,
+            "z": -8,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -11,
+            "z": -10,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -21,
+            "z": -13,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -10,
+            "z": -10,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -23,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -23,
+            "z": 14,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -17,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -12,
+            "z": -9,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -22,
+            "z": 8,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -21,
+            "z": 12,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -10,
+            "z": -8,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "minecraft:bedrock@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -23,
+            "z": -12,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -21,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -12,
+            "z": -8,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -11,
+            "z": -9,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -23,
+            "z": 14,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -22,
+            "z": 13,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -15,
+            "z": 14,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -22,
+            "z": -13,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -22,
+            "z": -15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -23,
+            "z": -8,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -10,
+            "z": -9,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -14,
+            "z": 13,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -21,
+            "z": -12,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -23,
+            "z": 2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -21,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -15,
+            "z": 14,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -12,
+            "z": 8,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -23,
+            "z": 7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -21,
+            "z": -11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -21,
+            "z": 5,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -22,
+            "z": -11,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -22,
+            "z": 5,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -21,
+            "z": 2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -21,
+            "z": 7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -23,
+            "z": -11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -21,
+            "z": 14,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -23,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -11,
+            "z": -5,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -22,
+            "z": 13,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -21,
+            "z": 8,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -21,
+            "z": 14,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -10,
+            "z": -5,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -14,
+            "z": 13,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -23,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -22,
+            "z": -7,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -11,
+            "z": -6,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -13,
+            "z": 12,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -21,
+            "z": -6,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -12,
+            "z": -3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -14,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -21,
+            "z": 9,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -22,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-cosmilite_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -12,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -23,
+            "z": 8,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -13,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -13,
+            "z": 12,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -22,
+            "z": 9,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -21,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -20,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -23,
+            "z": -6,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -10,
+            "z": -3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -23,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -22,
+            "z": -15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -10,
+            "z": -11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -11,
+            "z": -3,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -10,
+            "z": 8,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -22,
+            "z": 1,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -19,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -14,
+            "z": 13,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -23,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -12,
+            "z": -11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -18,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -21,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -12,
+            "z": -5,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -23,
+            "z": 9,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -23,
+            "z": 12,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -11,
+            "z": -11,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -22,
+            "z": -1,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -17,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -12,
+            "z": 7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -17,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -19,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -21,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -21,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -18,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -11,
+            "z": -11,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -12,
+            "z": 11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -20,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -13,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -23,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -23,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -17,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -10,
+            "z": 11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -21,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -19,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -21,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -18,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -12,
+            "z": 11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -20,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -21,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -21,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -21,
+            "z": -12,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -18,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -12,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -14,
+            "z": -13,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -17,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -23,
+            "z": -3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -22,
+            "z": -12,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -22,
+            "z": -5,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -23,
+            "z": 3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -10,
+            "z": 11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -17,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -22,
+            "z": 9,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -10,
+            "z": 7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -23,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -23,
+            "z": -12,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -12,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -21,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -10,
+            "z": -6,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -10,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -22,
+            "z": 11,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -20,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -11,
+            "z": 7,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -21,
+            "z": -3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -12,
+            "z": 11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -19,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -13,
+            "z": -13,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -11,
+            "z": 7,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -12,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -11,
+            "z": -4,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -10,
+            "z": 11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -23,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -12,
+            "z": -10,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -21,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -11,
+            "z": 2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -21,
+            "z": -5,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -12,
+            "z": -3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -21,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -10,
+            "z": -3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -10,
+            "z": 2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -10,
+            "z": 7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -12,
+            "z": 11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -10,
+            "z": 11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -10,
+            "z": -10,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -23,
+            "z": -10,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -21,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -23,
+            "z": 5,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -19,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -23,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -11,
+            "z": 10,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -23,
+            "z": -5,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -12,
+            "z": 2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -21,
+            "z": 3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -12,
+            "z": 11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -12,
+            "z": -12,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -10,
+            "z": 11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -21,
+            "z": -10,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -23,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -23,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -22,
+            "z": -9,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -13,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -22,
+            "z": -4,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -17,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -22,
+            "z": -1,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "minecraft:bedrock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -12,
+            "z": 11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -23,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "minecraft:bedrock@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -11,
+            "z": 5,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -10,
+            "z": 11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -21,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -11,
+            "z": 10,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -11,
+            "z": -9,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -19,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -22,
+            "z": 1,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -13,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -12,
+            "z": 7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -12,
+            "z": 11,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -11,
+            "z": 3,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -16,
+            "z": -14,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -11,
+            "z": -11,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -23,
+            "z": -2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -21,
+            "z": -9,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -23,
+            "z": -11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -21,
+            "z": -11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -22,
+            "z": -2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -22,
+            "z": 3,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -11,
+            "z": -11,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -22,
+            "z": 5,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -21,
+            "z": -2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -11,
+            "z": 10,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -10,
+            "z": 11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -23,
+            "z": 14,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -12,
+            "z": 11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -23,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -23,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -23,
+            "z": 10,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -12,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -16,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -21,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -13,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -11,
+            "z": 1,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -10,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -11,
+            "z": -7,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -23,
+            "z": -9,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -21,
+            "z": 10,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -21,
+            "z": -9,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -12,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -10,
+            "z": 11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -10,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -21,
+            "z": 13,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -21,
+            "z": 2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -22,
+            "z": 9,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -22,
+            "z": -3,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -12,
+            "z": 9,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -12,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -21,
+            "z": -4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -15,
+            "z": -14,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -23,
+            "z": -4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -23,
+            "z": 14,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -22,
+            "z": -9,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -22,
+            "z": 4,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -23,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -21,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -23,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -21,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -22,
+            "z": -14,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -21,
+            "z": 14,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -11,
+            "z": 10,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -16,
+            "z": -14,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -23,
+            "z": -14,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -11,
+            "z": -11,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -21,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -22,
+            "z": 14,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -13,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -19,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -23,
+            "z": 12,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -23,
+            "z": 2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -23,
+            "z": 13,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -22,
+            "z": 2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -21,
+            "z": -14,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -22,
+            "z": 12,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -22,
+            "z": 13,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -10,
+            "z": 9,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -21,
+            "z": 12,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -23,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -10,
+            "z": 0,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -13,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -11,
+            "z": -10,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -22,
+            "z": -2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -21,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -19,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -10,
+            "z": -10,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -18,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -19,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -10,
+            "z": -5,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -22,
+            "z": -15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -12,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -11,
+            "z": 6,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -17,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -11,
+            "z": -5,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -22,
+            "z": -7,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -12,
+            "z": -10,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -17,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -23,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -11,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -22,
+            "z": -14,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -21,
+            "z": -6,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -10,
+            "z": -11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -22,
+            "z": -12,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -17,
+            "z": -15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -11,
+            "z": -2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -22,
+            "z": -15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -23,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -12,
+            "z": -5,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -23,
+            "z": -6,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -21,
+            "z": -9,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -20,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -23,
+            "z": 6,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -12,
+            "z": -11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -12,
+            "z": 2,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -21,
+            "z": -8,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -11,
+            "z": -11,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -21,
+            "z": 13,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -19,
+            "z": -15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -21,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -14,
+            "z": -13,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -22,
+            "z": -9,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -22,
+            "z": -15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -13,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -18,
+            "z": -15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -15,
+            "z": -14,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -22,
+            "z": 10,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -16,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -23,
+            "z": -12,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -21,
+            "z": 6,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -21,
+            "z": -13,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -20,
+            "z": -15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -23,
+            "z": -8,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -21,
+            "z": 9,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -21,
+            "z": 11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -23,
+            "z": -9,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -22,
+            "z": 11,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -21,
+            "z": -15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -21,
+            "z": -14,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -14,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -23,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -21,
+            "z": 10,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -22,
+            "z": 9,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -23,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -23,
+            "z": 11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -22,
+            "z": -15,
+            "elements": [
+                "additions:greedycraft-cosmilite_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -21,
+            "z": -12,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -14,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -23,
+            "z": 9,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -23,
+            "z": 10,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -23,
+            "z": -14,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -21,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -22,
+            "z": 14,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -11,
+            "z": 6,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -23,
+            "z": -15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -23,
+            "z": -13,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -22,
+            "z": -8,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -22,
+            "z": -15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -12,
+            "z": -8,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -13,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -22,
+            "z": -13,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -16,
+            "z": 14,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -21,
+            "z": -15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -10,
+            "z": -8,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "minecraft:bedrock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -21,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -22,
+            "z": 2,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -11,
+            "z": -8,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -23,
+            "z": 15,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -23,
+            "z": -13,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -23,
+            "z": 8,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -16,
+            "z": 14,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -21,
+            "z": -13,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -22,
+            "z": -12,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -15,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -23,
+            "z": 15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -21,
+            "z": 8,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -23,
+            "z": 13,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -16,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -11,
+            "z": 8,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -12,
+            "z": 11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -16,
+            "z": 14,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -10,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -21,
+            "z": 13,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -11,
+            "z": 11,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -22,
+            "z": 14,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -11,
+            "z": 4,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -22,
+            "z": 7,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -10,
+            "z": 11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -12,
+            "z": 4,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -22,
+            "z": 15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -12,
+            "z": -11,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -21,
+            "z": -7,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -12,
+            "z": -6,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -22,
+            "z": 14,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -12,
+            "z": 12,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -10,
+            "z": -11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -11,
+            "z": -10,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -10,
+            "z": -10,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -11,
+            "z": -11,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -23,
+            "z": 13,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -12,
+            "z": -11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -11,
+            "z": -7,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -22,
+            "z": 8,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -13,
+            "z": 13,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -12,
+            "z": -10,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -10,
+            "z": -11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -22,
+            "z": -10,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -13,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -12,
+            "z": 12,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "minecraft:bedrock@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -18,
+            "z": 15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -11,
+            "z": -11,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -23,
+            "z": -10,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -17,
+            "z": 15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -11,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -21,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -19,
+            "z": 15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -13,
+            "z": 13,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:factory1@4"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -11,
+            "z": 3,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -22,
+            "z": -6,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -12,
+            "z": 0,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -20,
+            "z": 15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -10,
+            "z": 3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -21,
+            "z": -10,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -12,
+            "z": 3,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -21,
+            "z": 15,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -13,
+            "z": 13,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -23,
+            "z": 1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -23,
+            "z": -1,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -22,
+            "z": 15,
+            "elements": [
+                "additions:greedycraft-cosmilite_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -10,
+            "z": 0,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "additions:greedycraft-aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -22,
+            "z": 12,
+            "elements": [
+                "avaritia:block_resource@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "thaumicaugmentation:starfield_glass@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -12,
+            "z": -11,
+            "elements": [
+                "chisel:factory@6"
+            ]
+        }
+    ]}

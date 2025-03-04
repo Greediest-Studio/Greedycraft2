@@ -846,7 +846,7 @@ for i in 4 to 7 {
         .addItemInput(<draconicevolution:chaotic_core> * 8)
         .addItemInput(<jaopca:gear.murderite> * 1)
         .addEnergyPerTickInput(1000)
-        .addItemOutput(<modularmachinery:loot_creater_controller>)
+        .addItemOutput(<modularmachinery:loot_creater_factory_controller>)
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:loot_creater"}))
         .build();
 }
@@ -972,5 +972,30 @@ for i in 3 to 7 {
         .addEnergyPerTickInput(1000)
         .addItemOutput(<modularmachinery:infusion_matrix_machine_controller>)
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:infusion_matrix_machine"}))
+        .build();
+}
+//物质解压器
+for i in 4 to 7 {
+    RecipeBuilder.newBuilder("big_miner" + i, "builder_" + i, 10000)
+        .addFluidInput(<liquid:redstone> * 1000000)
+        .addItemInput(<additions:mekaddon-arcane_control_circuit> * 128)
+        .addItemInput(<gct_ores:ordered_metal_gear> * 4)
+        .addItemInput(<avaritia:block_resource> * 256)
+        .addItemInput(<thaumcraft:turret:2> * 16)
+        .addEnergyPerTickInput(10000000)
+        .addItemOutput(<modularmachinery:big_miner_factory_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:big_miner"})) 
+        .build();
+}
+//混沌反应堆
+for i in 3 to 7 {
+    RecipeBuilder.newBuilder("chaos_reactor" + i, "builder_" + i, 800)
+        .addFluidInput(<liquid:redstone> * 256000)
+        .addItemInput(<draconicevolution:reactor_core>)
+        .addItemInput(<jaopca:gear.neutronium> * 64)
+        .addItemInput(<jaopca:gear.protonium> * 8)
+        .addEnergyPerTickInput(1000)
+        .addItemOutput(<modularmachinery:chaos_reactor_factory_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:chaos_reactor"}))
         .build();
 }
