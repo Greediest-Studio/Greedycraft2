@@ -1,0 +1,17 @@
+{
+	title: "稳定度？那是什么",
+	icon: "thaumcraft:infusion_matrix",
+	x: 5.0d,
+	y: 2.0d,
+	description: "温馨提示：只放一个源质输入仓就行了",
+	dependencies: [
+		"2e3ef671"
+	],
+	tasks: [{
+		uid: "1181bd31",
+		type: "item",
+		items: [{
+			item: "modularmachinery:infusion_matrix_machine_controller"
+		}]
+	}]
+}
