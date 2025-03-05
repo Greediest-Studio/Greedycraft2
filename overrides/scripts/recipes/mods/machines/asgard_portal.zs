@@ -33,6 +33,12 @@ RecipeBuilder.newBuilder("photonium", "asgard_portal", 20)
     .addItemOutput(<extrabotany:material:8> * 1)
     .build();
 
+RecipeBuilder.newBuilder("shadow", "asgard_portal", 20)
+    .addFluidInput(<liquid:mana> * 100)
+    .addItemInput(<extendedcrafting:material> * 2)
+    .addItemOutput(<additions:shadowium_ingot> * 1)
+    .build();
+
 RecipeBuilder.newBuilder("dirt", "asgard_portal", 200)
     .addFluidInput(<liquid:mana> * 100000)
     .addItemInput(<minecraft:grass> * 1)
