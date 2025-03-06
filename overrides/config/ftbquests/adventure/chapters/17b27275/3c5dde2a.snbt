@@ -1,7 +1,7 @@
 {
 	title: "§b为时未晚",
-	x: -6.75d,
-	y: 9.5d,
+	x: -8.0d,
+	y: 2.5d,
 	shape: "gear",
 	description: "合成终焉锭！",
 	text: [
@@ -9,9 +9,10 @@
 	],
 	dependencies: [
 		"68abcc25",
-		"702fcf51"
+		"702fcf51",
+		"1bb24144"
 	],
-	size: 1.7d,
+	size: 4.0d,
 	tasks: [{
 		uid: "d7b2d84b",
 		type: "item",

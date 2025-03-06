@@ -1,14 +1,15 @@
 {
 	title: "§b这一切的前提",
-	x: 3.0d,
-	y: -7.0d,
+	x: -3.0d,
+	y: -8.5d,
 	description: "合成矩阵稳定机控制器",
 	text: [
 		""
 	],
 	dependencies: [
-		"bc81a549"
+		"c73ef5d0"
 	],
+	dependency_requirement: "all_started",
 	tasks: [{
 		uid: "b8e04f44",
 		type: "item",

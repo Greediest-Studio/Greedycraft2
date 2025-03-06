@@ -1,13 +1,13 @@
 {
 	title: "§b黏滑骨头",
-	x: 3.0d,
-	y: 0.5d,
+	x: 7.0d,
+	y: -1.0d,
 	description: "获得粘骨",
 	text: [
 		""
 	],
 	dependencies: [
-		"81216f69"
+		"27de749c"
 	],
 	tasks: [{
 		uid: "06b6a4f6",

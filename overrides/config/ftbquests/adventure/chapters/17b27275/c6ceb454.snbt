@@ -1,13 +1,14 @@
 {
 	title: "§b这是……甘蔗？",
-	x: 5.0d,
-	y: 0.5d,
+	x: 7.0d,
+	y: -3.0d,
 	description: "获得沼泽芦苇",
 	text: [
 		""
 	],
 	dependencies: [
-		"81216f69"
+		"81216f69",
+		"bae35f19"
 	],
 	tasks: [{
 		uid: "05024a26",
