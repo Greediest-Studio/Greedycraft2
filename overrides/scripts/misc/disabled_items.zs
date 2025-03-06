@@ -23,7 +23,7 @@ var disabledItems as IIngredient[] = [
     <moretcon:ingotvalkyriemetal>,
     <moretcon:nuggetvalkyriemetal>,
     <moretcon:dustvalkyriemetal>,
-    <moretcon:oreirradium>,,
+    <moretcon:oreirradium>,
     <actuallyadditions:item_bag>,
     <charm:totem_of_shielding>,
     <nuclearcraft:ingot_former>,
