@@ -114,3 +114,17 @@ RecipeBuilder.newBuilder("begonium_ingot", "mythsteel_plate", 200)
     .addItemInput(<gct_mobs:gaia_heart> * 1)
     .addItemOutput(<gct_mobs:begonium_ingot> * 1)
     .build();
+
+RecipeBuilder.newBuilder("botanical_zhiwuhun", "mythsteel_plate", 400)
+    .addFluidInput(<liquid:mana> * 40000)
+    .addItemInput(<gct_mobs:botanical_ingot> * 4)
+    .addItemInput(<gct_mobs:rosium_ingot> * 1)
+    .addItemInput(<gct_mobs:chrysanthemium_ingot> * 1)
+    .addItemInput(<gct_mobs:dandelionium_ingot> * 1)
+    .addItemInput(<gct_mobs:myosotisium_ingot> * 1)
+    .addItemInput(<gct_mobs:begonium_ingot> * 1)
+    .addItemInput(<gct_mobs:carnationium_ingot> * 1)
+    .addItemInput(<additions:botaniaddon-kianate_ingot> * 6)
+    .addItemInput(<gct_ores:balanced_matrix_ingot> * 1)
+    .addItemOutput(<gct_mobs:botanical_ingot_awakened> * 2)
+    .build();
