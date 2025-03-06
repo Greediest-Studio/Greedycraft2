@@ -1,6 +1,6 @@
 {
 	title: "§b反色的混沌，秩序确立",
-	x: -7.5d,
+	x: -6.0d,
 	y: -5.0d,
 	shape: "gear",
 	description: "使用秩序注入器合成秩序核心",
@@ -8,8 +8,7 @@
 		""
 	],
 	dependencies: [
-		"cf5df877",
-		"b820a4df"
+		"cf5df877"
 	],
 	size: 1.5d,
 	tasks: [{

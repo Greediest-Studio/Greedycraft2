@@ -1,11 +1,8 @@
 {
 	title: "交错剪刀",
-	x: 2.0d,
-	y: 2.5d,
+	x: 10.0d,
+	y: 14.0d,
 	description: "采集落叶",
-	dependencies: [
-		"27de749c"
-	],
 	tasks: [{
 		uid: "6dab9c7c",
 		type: "item",

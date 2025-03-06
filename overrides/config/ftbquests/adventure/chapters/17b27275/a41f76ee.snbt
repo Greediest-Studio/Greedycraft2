@@ -1,13 +1,13 @@
 {
 	title: "§b固定装置？",
-	x: -7.0d,
-	y: 4.0d,
+	x: -17.0d,
+	y: 2.5d,
 	description: "将位能固化为固化位能块，用于净化古神矿石",
 	text: [
 		""
 	],
 	dependencies: [
-		"02eb78b1"
+		"f59b99f6"
 	],
 	tasks: [{
 		uid: "c52ab018",

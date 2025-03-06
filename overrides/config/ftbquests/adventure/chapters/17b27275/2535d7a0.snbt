@@ -1,0 +1,14 @@
+{
+	x: -1.5d,
+	y: 6.0d,
+	dependencies: [
+		"d01f7a37"
+	],
+	tasks: [{
+		uid: "96423792",
+		type: "item",
+		items: [{
+			item: "additions:greedycraft-rotiron_scrap"
+		}]
+	}]
+}

@@ -1,15 +1,14 @@
 {
 	title: "§b归于平衡",
-	x: 1.5d,
-	y: -5.0d,
+	x: -0.75d,
+	y: -8.5d,
 	shape: "gear",
 	description: "制作平衡矩阵",
 	text: [
 		"其中蕴含了你两个最讨厌的金属"
 	],
 	dependencies: [
-		"dc319614",
-		"c73ef5d0"
+		"dc319614"
 	],
 	size: 1.5d,
 	tasks: [{

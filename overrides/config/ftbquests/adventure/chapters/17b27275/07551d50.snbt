@@ -1,15 +1,15 @@
 {
 	title: "§b神之果",
-	x: -5.0d,
-	y: 3.0d,
+	x: 24.5d,
+	y: 2.5d,
 	description: "获得禁忌果实",
 	text: [
 		"看起来没什么用呢，说不定以后就派上用场了"
 	],
 	dependencies: [
+		"0ac5cd75",
 		"1848a9ae",
-		"4e9ec024",
-		"d6c4d917"
+		"4e9ec024"
 	],
 	dependency_requirement: "one_completed",
 	tasks: [{
