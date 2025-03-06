@@ -77,3 +77,10 @@ RecipeBuilder.newBuilder("living_fire", "abyss_ceremony_executant", 100)
     .addEnergyPerTickInput(100)
     .addItemOutput(<additions:greedycraft-living_fire> * 1)
     .build();
+
+RecipeBuilder.newBuilder("book", "abyss_ceremony_executant", 100)
+    .addItemInput(<abyssalcraft:abyssalnomicon>.withTag({PotEnergy: 0.0 as float}) * 1)
+    .addFluidInput(<liquid:pe> * 1440)
+    .addEnergyPerTickInput(100)
+    .addItemOutput(<abyssalcraft:abyssalnomicon>.withTag({PotEnergy: 100000.0 as float}) * 1)
+    .build();
