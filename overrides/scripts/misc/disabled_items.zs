@@ -23,8 +23,7 @@ var disabledItems as IIngredient[] = [
     <moretcon:ingotvalkyriemetal>,
     <moretcon:nuggetvalkyriemetal>,
     <moretcon:dustvalkyriemetal>,
-    <moretcon:oreirradium>,
-    <gct_mac:model_ender_forge>,
+    <moretcon:oreirradium>,,
     <actuallyadditions:item_bag>,
     <charm:totem_of_shielding>,
     <nuclearcraft:ingot_former>,
@@ -1537,7 +1536,8 @@ var disabledItems as IIngredient[] = [
     <nae2:storage_crafting_16384k>,
     <nae2:coprocessor_4x>,
     <nae2:coprocessor_16x>,
-    <nae2:coprocessor_64x>
+    <nae2:coprocessor_64x>,
+    <extrautils2:snowglobe>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [
@@ -1604,6 +1604,7 @@ val HideItem as IItemStack[] = [
     <gct_mac:model_atomic_viberator>,
     <gct_mac:model_atomic_acidor>,
     <gct_mac:model_atomic_decayer>,
+    <gct_mac:endest_steel_forge>,
     <appliedenergistics2:facade>
 ];
 
