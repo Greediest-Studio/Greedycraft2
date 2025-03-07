@@ -1,6 +1,6 @@
 {
     "registryname": "crystal_changer",
-    "localizedname": "水晶重构器",
+    "localizedname": "§l§3水§1晶§3构§1建§3器",
     "requires-blueprint": true,
     "failure-action": "still",
     "color": "ffffff",
@@ -74,7 +74,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "astralsorcery:blockmarble@3"
+                "casings_all"
             ]
         },
         {
@@ -89,9 +89,8 @@
             "x": 1,
             "y": 0,
             "z": 0,
-            "selector-tag": "input",
             "elements": [
-                "casings_item_input"
+                "casings_all"
             ]
         },
         {
@@ -147,7 +146,7 @@
             "y": 0,
             "z": 8,
             "elements": [
-                "astralsorcery:blockmarble@3"
+                "casings_all"
             ]
         },
         {
@@ -195,7 +194,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "astralsorcery:blockmarble@3"
+                "casings_all"
             ]
         },
         {
@@ -211,7 +210,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "casings_fluid"
+                "casings_all"
             ]
         },
         {
@@ -283,7 +282,7 @@
             "y": 0,
             "z": 8,
             "elements": [
-                "astralsorcery:blockmarble@3"
+                "casings_all"
             ]
         },
         {
@@ -330,9 +329,8 @@
             "x": -1,
             "y": 0,
             "z": 0,
-            "selector-tag": "output",
             "elements": [
-                "casings_item_output"
+                "casings_all"
             ]
         },
         {
@@ -524,7 +522,7 @@
             "y": 0,
             "z": 8,
             "elements": [
-                "astralsorcery:blockmarble@3"
+                "casings_all"
             ]
         },
         {
@@ -668,7 +666,7 @@
             "y": 0,
             "z": 6,
             "elements": [
-                "astralsorcery:blockmarble@3"
+                "casings_all"
             ]
         },
         {
@@ -732,7 +730,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blocksmartinterface@0"
+                "casings_all"
             ]
         },
         {
@@ -748,7 +746,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "astralsorcery:blockmarble@3"
+                "casings_all"
             ]
         },
         {
@@ -860,7 +858,7 @@
             "y": 0,
             "z": 7,
             "elements": [
-                "astralsorcery:blockmarble@3"
+                "casings_all"
             ]
         },
         {
@@ -908,7 +906,7 @@
             "y": 0,
             "z": 5,
             "elements": [
-                "astralsorcery:blockmarble@3"
+                "casings_all"
             ]
         },
         {
@@ -996,7 +994,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "astralsorcery:blockmarble@3"
+                "casings_all"
             ]
         },
         {
@@ -1012,7 +1010,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "astralsorcery:blockmarble@3"
+                "casings_all"
             ]
         },
         {
@@ -1084,7 +1082,7 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "astralsorcery:blockmarble@3"
+                "casings_all"
             ]
         },
         {
@@ -1219,9 +1217,8 @@
             "x": 0,
             "y": 0,
             "z": 1,
-            "selector-tag": "mark",
             "elements": [
-                "modularmachinery:blockinputbus@0"
+                "astralsorcery:blockmarble@1"
             ]
         },
         {
@@ -1405,7 +1402,7 @@
             "y": 0,
             "z": 8,
             "elements": [
-                "astralsorcery:blockmarble@3"
+                "casings_all"
             ]
         },
         {
@@ -1525,7 +1522,7 @@
             "y": 0,
             "z": 7,
             "elements": [
-                "astralsorcery:blockmarble@3"
+                "casings_all"
             ]
         },
         {
@@ -1621,7 +1618,7 @@
             "y": 0,
             "z": 8,
             "elements": [
-                "astralsorcery:blockmarble@3"
+                "casings_all"
             ]
         },
         {
@@ -1629,7 +1626,7 @@
             "y": 0,
             "z": 6,
             "elements": [
-                "astralsorcery:blockmarble@3"
+                "casings_all"
             ]
         },
         {
@@ -1677,7 +1674,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "astralsorcery:blockmarble@3"
+                "casings_all"
             ]
         },
         {
@@ -1701,7 +1698,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "astralsorcery:blockmarble@3"
+                "casings_all"
             ]
         },
         {
@@ -1813,7 +1810,7 @@
             "y": 0,
             "z": 5,
             "elements": [
-                "astralsorcery:blockmarble@3"
+                "casings_all"
             ]
         },
         {

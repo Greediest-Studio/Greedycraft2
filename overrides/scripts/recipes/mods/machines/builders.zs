@@ -999,3 +999,27 @@ for i in 3 to 7 {
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:chaos_reactor"}))
         .build();
 }
+//熵逆变器
+for i in 3 to 7 {
+    RecipeBuilder.newBuilder("entropy_reverse" + i, "builder_" + i, 1200)
+        .addFluidInput(<liquid:redstone> * 4500)
+        .addItemInput(<jaopca:gear.flux> * 16)
+        .addItemInput(<abyssalcraft:transmutationgem> * 1)
+        .addItemInput(<thaumcraft:plate:3> * 32)
+        .addEnergyPerTickInput(120)
+        .addItemOutput(<modularmachinery:entropy_reverse_controller>) 
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:entropy_reverse"})) 
+        .build();        
+}
+//水晶构建器
+for i in 3 to 7 {
+    RecipeBuilder.newBuilder("crystal_changer" + i, "builder_" + i, 1200)
+        .addFluidInput(<liquid:redstone> * 4500)
+        .addItemInput(<jaopca:gear.astral_metal> * 4)
+        .addItemInput(<astralsorcery:blockstarlightinfuser> * 1)
+        .addItemInput(<astralsorcery:itemcraftingcomponent:2> * 32)
+        .addEnergyPerTickInput(120)
+        .addItemOutput(<modularmachinery:crystal_changer_factory_controller>) 
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:crystal_changer"})) 
+        .build();        
+}

@@ -57,9 +57,9 @@ MachineModifier.setMaxParallelism("chaos_reactor",1);
 
 //燃料表
 val Fuelmap as float[IOreDictEntry]   = {
-    <ore:coreOrdered> : 1000000.0,
-    <ore:coreEpic> : 500000.0,
-    <ore:coreSuperior> : 300000.0
+    <ore:coreOrdered> : 75000000.0,
+    <ore:coreEpic> : 5000000.0,
+    <ore:coreSuperior> : 3000000.0
 };
 
 //冷却表
@@ -101,7 +101,7 @@ function react(event as FactoryRecipeTickEvent) {
     var cool = isNull(map["cool"]) ? 0.0f : map["cool"].asFloat();
     var fuel = isNull(map["fuel"]) ? 0.0f : map["fuel"].asFloat();
     if (fuel > 0.0f) {
-        map["fuel"] = fuel - (speed * 2);
+        map["fuel"] = fuel - (speed * 1);
         map["cool"] = cool - (speed * 5);
     }
     else {event.setFailed(false,"§4燃料不足");}
@@ -189,6 +189,12 @@ RecipeBuilder.newBuilder("chaosreacting","chaos_reactor",2000,0)
         react(event);
     })
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
+        val thread = event.factoryRecipeThread;
+        val ctrl = event.controller;
+        val data = ctrl.customData;
+        val map = data.asMap();
+        val num = isNull(map["speed"]) ? 1.0f : map["speed"];
+        thread.addPermanentModifier("rf", RecipeModifierBuilder.create("modularmachinery:energy", "output", num, 1, false).build());
         Sync.addSyncTask(function(){
             val ctrl = event.controller;
             val world = ctrl.world;
