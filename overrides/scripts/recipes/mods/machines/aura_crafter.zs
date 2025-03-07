@@ -333,21 +333,21 @@ RecipeBuilder.newBuilder("aurune_craft_twentysix", "aura_crafter", 100)
     .build();
 
 RecipeBuilder.newBuilder("aurune_craft_twentyseven", "aura_crafter", 100)
-    .addGasInput(<gas:air>, 1000)
+    .addGasInput(<gas:air> * 1000)
     .addItemInput(<naturesaura:bottle_two_the_rebottling>)
     .addAuraInput(200, true)
     .addItemOutput(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:overworld"}))
     .build();
 
 RecipeBuilder.newBuilder("aurune_craft_twentyeight", "aura_crafter", 100)
-    .addGasInput(<gas:airnether>, 1000)
+    .addGasInput(<gas:airnether> * 1000)
     .addItemInput(<naturesaura:bottle_two_the_rebottling>)
     .addAuraInput(200, true)
     .addItemOutput(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:nether"}))
     .build();
 
 RecipeBuilder.newBuilder("aurune_craft_twentynine", "aura_crafter", 100)
-    .addGasInput(<gas:airend>, 1000)
+    .addGasInput(<gas:airend> * 1000)
     .addItemInput(<naturesaura:bottle_two_the_rebottling>)
     .addAuraInput(200, true)
     .addItemOutput(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:end"}))
