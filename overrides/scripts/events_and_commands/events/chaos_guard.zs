@@ -21,17 +21,35 @@ import crafttweaker.event.EntityLivingDeathEvent;
 import crafttweaker.text.ITextComponent;
 
 events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
-    if (event.entityLivingBase.definition.id has "chaosguar") {
-        var list as IPlayer[] = [];
-        for ent in event.entityLivingBase.world.getEntitiesInArea(crafttweaker.util.Position3f.create(((event.entity.x)- 100),((event.entity.y)- 100),((event.entity.z)- 100)),crafttweaker.util.Position3f.create(((event.entity.x)+ 100),((event.entity.y)+ 100),((event.entity.z)+ 100))) {
-            if ent instanceof IPlayer {
-                val en as IPlayer = ent;
-                list += en;
+    if (isNull(event.entityLivingBase.definition.id)) {
+        if (event.entityLivingBase.definition.id has "chaosguar") {
+            var list as IPlayer[] = [];
+            for ent in event.entityLivingBase.world.getEntitiesInArea(crafttweaker.util.Position3f.create(((event.entity.x)- 100),((event.entity.y)- 100),((event.entity.z)- 100)),crafttweaker.util.Position3f.create(((event.entity.x)+ 100),((event.entity.y)+ 100),((event.entity.z)+ 100))) {
+                if ent instanceof IPlayer {
+                    val en as IPlayer = ent;
+                    list += en;
+                }
+            }
+            if !isNull(list) {
+                for plr in list {
+                    plr.give(<contenttweaker:chaos_heart>);
+                }
             }
         }
-        if !isNull(list) {
-            for plr in list {
-                plr.give(<contenttweaker:chaos_heart>);
+    }
+    if (isNull(event.entityLivingBase.definition.id)) {
+        if (event.entityLivingBase.definition.id has "sun" && !(event.entityLivingBase.definition.id has "suns") && !(event.entityLivingBase.definition.id has "sun_")) {
+            var list as IPlayer[] = [];
+            for ent in event.entityLivingBase.world.getEntitiesInArea(crafttweaker.util.Position3f.create(((event.entity.x)- 100),((event.entity.y)- 100),((event.entity.z)- 100)),crafttweaker.util.Position3f.create(((event.entity.x)+ 100),((event.entity.y)+ 100),((event.entity.z)+ 100))) {
+                if ent instanceof IPlayer {
+                    val en as IPlayer = ent;
+                    list += en;
+                }
+            }
+            if !isNull(list) {
+                for plr in list {
+                    plr.give(<additions:bloody-darkest_core> * 10);
+                }
             }
         }
     }
