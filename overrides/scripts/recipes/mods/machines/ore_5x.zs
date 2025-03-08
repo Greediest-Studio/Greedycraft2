@@ -120,3 +120,11 @@ for ores , ingot in debuglist_compound {
         .addItemOutput(ingot)
         .build();
 }
+
+RecipeBuilder.newBuilder("lingshengang", "ore_5x", 10)
+    .addItemInput(<gct_aby:saniteore>)
+    .addFluidInput(<liquid:sulfuric_acid> * 50)
+    .addFluidInput(<liquid:oxygen> * 100)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<gct_mobs:sanite_ingot> * 5)
+    .build();
