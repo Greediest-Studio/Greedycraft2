@@ -2,7 +2,7 @@
  * This script is created for the GreedyCraft Tweaks by 咕咕咕.
  */
 
-#priority 1
+#priority 0
 
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
@@ -21,9 +21,25 @@ import scripts.util.machines as MMUtil;
 MachineModifier.setMaxThreads("ore_5x", 128);
 MachineModifier.setInternalParallelism("ore_5x", 16384);
 
+static banlist as IItemStack[] = [
+    <nuclearcraft:ingot:11>,
+    <extrautils2:ingredients>,
+    <nuclearcraft:ingot:12>,
+    <biomesoplenty:gem:7>,
+    <tiths:ingot_titanium>
+];
+
 function test(ingot as IItemStack) as bool {
     for item in loadedMods["additions"].items {
-        return (/*item.displayName == ingot.displayName || */ingot.definition.id has "additions-");
+        if (/*item.displayName == ingot.displayName || */ingot.definition.id has "additions-") {
+            return true;
+        }
+    }
+    for item in banlist {
+        if (ingot.definition.id == item.definition.id) {
+            return true;
+        }
+        return false;
     }
 }
 
