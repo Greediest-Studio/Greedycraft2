@@ -92,7 +92,8 @@ for ores in oreDict.entries {
 val debuglist_ore as IItemStack[IOreDictEntry] = {
     <ore:oreImitatium> : <tiths:ingot_imitatium>,
     <ore:oreFierymetal> : <twilightforest:fiery_ingot>,
-    <ore:oreTanatonium> : <tiths:ingot_tanatonium>
+    <ore:oreTanatonium> : <tiths:ingot_tanatonium>,
+    <ore:oreSanite> : <gct_mobs:sanite_ingot>
 };
 
 for ores , ingot in debuglist_ore {
@@ -108,7 +109,8 @@ for ores , ingot in debuglist_ore {
 val debuglist_compound as IItemStack[IOreDictEntry] = {
     <ore:compoundImitatium> : <tiths:ingot_imitatium>,
     <ore:compoundFierymetal> : <twilightforest:fiery_ingot>,
-    <ore:compoundTanatonium> : <tiths:ingot_tanatonium>
+    <ore:compoundTanatonium> : <tiths:ingot_tanatonium>,
+    <ore:compoundSanite> : <gct_mobs:sanite_ingot>
 };
 
 for ores , ingot in debuglist_compound {
@@ -121,10 +123,3 @@ for ores , ingot in debuglist_compound {
         .build();
 }
 
-RecipeBuilder.newBuilder("lingshengang", "ore_5x", 10)
-    .addItemInput(<gct_aby:saniteore>)
-    .addFluidInput(<liquid:sulfuric_acid> * 50)
-    .addFluidInput(<liquid:oxygen> * 100)
-    .addEnergyPerTickInput(1000)
-    .addItemOutput(<gct_mobs:sanite_ingot> * 5)
-    .build();
