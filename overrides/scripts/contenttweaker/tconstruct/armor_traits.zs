@@ -2625,7 +2625,7 @@ globiomeTrait.onHurt = function(trait, armor, player, source, damage, newDamage,
 };
 globiomeTrait.register();
 
-var EvolvedTiersMap as int[][string] = {
+var EvolvedTiersMap as int[string] = {
     "wyvern_metal" : 1,
     "fallen_metal" : 1,
     "draconic_metal" : 2,
