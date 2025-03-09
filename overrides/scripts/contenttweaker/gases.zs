@@ -238,3 +238,12 @@ impurelifeessence.setNeedBucket(true);
 impurelifeessence.setNeedFluid(false);
 impurelifeessence.setIcon("blocks/gas_clear");
 impurelifeessence.register();
+
+var hecryo_gas = GasFactory.createGas("hecryo_gas");
+hecryo_gas.setUnlocalizedName("hecryo_gas");
+hecryo_gas.setColorize(true);
+hecryo_gas.setColor(0x9370db);
+hecryo_gas.setNeedBucket(true);
+hecryo_gas.setNeedFluid(false);
+hecryo_gas.setIcon("blocks/gas_clear");
+hecryo_gas.register();

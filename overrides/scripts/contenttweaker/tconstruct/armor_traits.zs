@@ -2684,7 +2684,7 @@ leveling_durabilityTrait.onArmorTick = function(trait, armor, world, player) {
         for materialId in materialIdlist {
             for metal in EvolvedTiersMap {
                 if (materialId == metal) {
-                    var tier as int = EvolvedTiersMap[metal][0] as int;
+                    var tier as int = EvolvedTiersMap[metal] as int;
                     if (armor.tag.EvolvedTier as int != tier) {
                         if (tier >= 3) {
                             armor.mutable().updateTag({EvolvedTier: 3, EvolvedTierExtra: tier as int});

@@ -39,3 +39,4 @@ addLiquefaction(<liquid:liquid_krypton>, <gas:krypton>);
 addLiquefaction(<liquid:liquid_xenon>, <gas:xenon>);
 addLiquefaction(<liquid:liquid_radon>, <gas:radon>);
 addLiquefaction(<liquid:iodine>, <gas:iodine>);
+addLiquefaction(<liquid:hecryo_liquid>, <gas:hecryo_gas>);
