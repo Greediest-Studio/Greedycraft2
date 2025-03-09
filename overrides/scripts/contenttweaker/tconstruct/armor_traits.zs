@@ -2677,21 +2677,23 @@ leveling_durabilityTrait.onArmorTick = function(trait, armor, world, player) {
     }
     //匠魂进化等级修正
     if (!isNull(armor.tag.EvolvedTier)) {
-        var materialId as string = "";
+        var materialIdlist as string[] = [];
         if (CotTicLib.getTicMaterial(armor).length != 0) {
-            materialId = (CotTicLib.getTicMaterial(armor) as string[])[0] as string;
+            materialIdlist = CotTicLib.getTicMaterial(armor) as string[];
         }
-        for metal in EvolvedTiersMap {
-            if (materialId == metal) {
-                var tier as int = EvolvedTiersMap[metal][0] as int;
-                if (armor.tag.EvolvedTier as int != tier) {
-                    if (tier >= 3) {
-                        armor.mutable().updateTag({EvolvedTier: 3, EvolvedTierExtra: tier as int});
-                    } else {
-                        armor.mutable().updateTag({EvolvedTier: tier as int, EvolvedTierExtra: tier as int});
+        for materialId in materialIdlist {
+            for metal in EvolvedTiersMap {
+                if (materialId == metal) {
+                    var tier as int = EvolvedTiersMap[metal][0] as int;
+                    if (armor.tag.EvolvedTier as int != tier) {
+                        if (tier >= 3) {
+                            armor.mutable().updateTag({EvolvedTier: 3, EvolvedTierExtra: tier as int});
+                        } else {
+                            armor.mutable().updateTag({EvolvedTier: tier as int, EvolvedTierExtra: tier as int});
+                        }
                     }
+                    break;
                 }
-                break;
             }
         }
     }

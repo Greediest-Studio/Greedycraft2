@@ -3449,14 +3449,14 @@ globiomeTrait.calcDamage = function(trait, tool, attacker, target, originalDamag
 };
 globiomeTrait.register();
 
-var EvolvedTiersMap as int[][string] = {
-    "wyvern_metal" : [1],
-    "fallen_metal" : [1],
-    "draconic_metal" : [2],
-    "relifed_metal": [2],
-    "chaotic_metal" : [3],
-    "stormy_metal" : [3],
-    "ordered_metal" : [4]
+var EvolvedTiersMap as int[string] = {
+    "wyvern_metal" : 1,
+    "fallen_metal" : 1,
+    "draconic_metal" : 2,
+    "relifed_metal": 2,
+    "chaotic_metal" : 3,
+    "stormy_metal" : 3,
+    "ordered_metal" : 4
 };
 
 //游戏难度
@@ -3511,21 +3511,23 @@ leveling_durabilityTrait.onUpdate = function(trait, tool, world, owner, itemSlot
     }
     //Draconic Evolution Tweaks
     if (!isNull(tool.tag.EvolvedTier)) {
-        var materialId as string = "";
+        var materialIdlist as string[] = [];
         if (CotTicLib.getTicMaterial(tool).length != 0) {
-            materialId = (CotTicLib.getTicMaterial(tool) as string[])[0] as string;
+            materialIdlist = CotTicLib.getTicMaterial(tool) as string[];
         }
         for metal in EvolvedTiersMap {
+            for materialId in materialIdlist {
             if (materialId == metal) {
-                var tier as int = EvolvedTiersMap[metal][0] as int;
-                if (tool.tag.EvolvedTier as int != tier) {
-                    if (tier >= 3) {
-                        tool.mutable().updateTag({EvolvedTier: 3, EvolvedTierExtra: tier as int});
-                    } else {
-                        tool.mutable().updateTag({EvolvedTier: tier as int, EvolvedTierExtra: tier as int});
+                    var tier as int = EvolvedTiersMap[metal] as int;
+                    if (tool.tag.EvolvedTier as int != tier) {
+                        if (tier >= 3) {
+                            tool.mutable().updateTag({EvolvedTier: 3, EvolvedTierExtra: tier as int});
+                        } else {
+                            tool.mutable().updateTag({EvolvedTier: tier as int, EvolvedTierExtra: tier as int});
+                        }
                     }
+                    break;
                 }
-                break;
             }
         }
     }
