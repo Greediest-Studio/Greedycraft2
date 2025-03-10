@@ -62,10 +62,23 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     }
 });
 events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
-    if !isNull(event.item) && !isNull(event.block) && !event.player.creative && !event.world.remote {
+    if (!isNull(event.item) && !isNull(event.block) && !event.player.creative && !event.world.remote) {
         if event.block.definition.id has "_controller" && event.item.definition.id has "timeinabottle" {
             client.player.sendChat("§e你无权加速此方块");
             event.cancel();
+        }
+    }
+});
+events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
+    if (!isNull(event.block) && !event.world.remote) {
+        if (event.block.definition.id == <appliedenergistics2:molecular_assembler>.definition.id && !event.player.isSneaking) {
+            if (isNull(event.item)) {
+                event.cancel();
+            }
+            if (!isNull(event.item)) {
+                if !(event.item.definition.id == <appliedenergistics2:material:30>.definition.id)
+                event.cancel();
+            }
         }
     }
 });
