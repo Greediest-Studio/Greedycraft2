@@ -3519,7 +3519,7 @@ leveling_durabilityTrait.onUpdate = function(trait, tool, world, owner, itemSlot
             for materialId in materialIdlist {
             if (materialId == metal) {
                     var tier as int = EvolvedTiersMap[metal] as int;
-                    if (tool.tag.EvolvedTier as int != tier) {
+                    if (tool.tag.EvolvedTier as int < tier) {
                         if (tier >= 3) {
                             tool.mutable().updateTag({EvolvedTier: 3, EvolvedTierExtra: tier as int});
                         } else {

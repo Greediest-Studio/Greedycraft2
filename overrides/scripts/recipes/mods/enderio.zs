@@ -105,6 +105,7 @@ AlloySmelter.addRecipe(<additions:greedycraft-blueprint_laser_gun>, [<ore:ingotP
 AlloySmelter.addRecipe(<additions:greedycraft-blueprint_ring>, [<ore:ingotValkyrie>, <additions:greedycraft-blueprint>, <ore:ingotEverite>], 1600000, 600.0f);
 AlloySmelter.addRecipe(<additions:greedycraft-ascensionite_ingot> * 2, [<ore:ingotLimonite> * 4, <ore:ingotRosite> * 2, <ore:ingotEmberstone> * 1], 4000, 10.0f);
 AlloySmelter.addRecipe(<additions:greedycraft-heavyalloy_ingot> * 2, [<ore:ingotLead> * 9, <ore:ingotThallium> * 2, <ore:ingotBismuth> * 4], 3000, 10.0f);
+AlloySmelter.addRecipe(<journey:orbaditeingot> * 1, [<ore:ingotIron> * 1, <ore:ingotCytosinite> * 1], 1000, 10.0f);
 
 SagMill.removeRecipe(<minecraft:coal>);
 SagMill.addRecipe([<actuallyadditions:item_dust:7> * 4], [100 as float], <ore:blockQuartzBlack> as IIngredient, "CHANCE_ONLY", 400, [100 as float]);
