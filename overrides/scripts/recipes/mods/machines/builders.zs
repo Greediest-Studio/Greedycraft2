@@ -694,7 +694,7 @@ for i in 3 to 7 {
         .addItemInput(<ore:gearWigthium> * 2)
         .addItemInput(<additions:bloody-slate_6> * 4)
         .addEnergyPerTickInput(2400)
-        .addItemOutput(<modularmachinery:blood_altar_mk7_controller>)
+        .addItemOutput(<modularmachinery:blood_altar_mk7_factory_controller>)
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blood_altar_mk7"})) 
         .build();
 }
@@ -712,7 +712,7 @@ for i in 4 to 7 {
         .addItemInput(<ore:gearSentientMetal> * 4)
         .addItemInput(<additions:bloody-slate_7> * 4)
         .addEnergyPerTickInput(3000)
-        .addItemOutput(<modularmachinery:blood_altar_mk8_controller>)
+        .addItemOutput(<modularmachinery:blood_altar_mk8_factory_controller>)
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:blood_altar_mk8"})) 
         .build();
 }
