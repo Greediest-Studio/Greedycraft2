@@ -157,7 +157,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:bloody-gloomy_passpo
 	[null, null, null, <ore:ingotDullium>, null, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mac:impetus_forge>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:impetus_forge_controller>, [
 	[<ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>], 
 	[<ore:plateVoid>, <ore:ingotInfernium>, <ore:ingotInfernium>, <ore:ingotInfernium>, <ore:ingotInfernium>, <ore:ingotInfernium>, <ore:plateVoid>], 
 	[<ore:plateVoid>, <ore:ingotInfernium>, <thaumicaugmentation:material:3>, <thaumicaugmentation:material:5>, <thaumicaugmentation:material:3>, <ore:ingotInfernium>, <ore:plateVoid>], 

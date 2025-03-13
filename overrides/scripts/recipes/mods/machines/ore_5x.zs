@@ -23,7 +23,6 @@ MachineModifier.setInternalParallelism("ore_5x", 16384);
 
 static banlist as IItemStack[] = [
     <nuclearcraft:ingot:11>,
-    <extrautils2:ingredients>,
     <nuclearcraft:ingot:12>,
     <biomesoplenty:gem:7>,
     <tiths:ingot_titanium>
