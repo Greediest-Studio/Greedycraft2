@@ -9,6 +9,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.data.IData;
+import crafttweaker.util.Math;
 
 import mods.modularmachinery.RecipePrimer;
 import mods.modularmachinery.RecipeBuilder;
@@ -30,6 +31,7 @@ import mods.modularmachinery.SmartInterfaceType;
 import mods.modularmachinery.FactoryRecipeThread;
 
 import mods.jei.JEI;
+
 
 /*
 {astralsorcery: {constellationName: "astralsorcery.constellation.mineralis", 
@@ -204,7 +206,7 @@ function output(ctrl as IMachineController) {
     var xz = isNull(map["constellationName"]) ? 0 : map["constellationName"] * 1;
     if (xz > 12) {xz = 0;}
     var xz1 = isNull(map["trait"]) ? 0 : map["trait"] * 1;
-    if (xz > 4) {xz = 0;}
+    if (xz1 > 4) {xz1 = 0;}
     val gmxz = xzlb[xz];
     val xsxz = xzlb1[xz1];
     if (xz == 0) {
@@ -220,10 +222,10 @@ function output(ctrl as IMachineController) {
         if (xz1 == 0) {
             val tag as IData = {astralsorcery:{constellationName: gmxz,crystalProperties: {collectiveCapability: pg as int,size: cc as int ,fract: 0 as int,purity: cd as int,sizeOverride: -1 as int}}};
             if (cc <= 400) {
-                return <astralsorcery:itemrockcrystalsimple>.withTag(tag);
+                return <astralsorcery:itemtunedrockcrystal>.withTag(tag);
             }
             else {
-                return <astralsorcery:itemcelestialcrystal>.withTag(tag);
+                return <astralsorcery:itemtunedcelestialcrystal>.withTag(tag);
             }
         }
         else {
