@@ -21,7 +21,7 @@ import crafttweaker.event.EntityLivingDeathEvent;
 import crafttweaker.text.ITextComponent;
 
 events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
-    if (isNull(event.entityLivingBase.definition)) {
+    if (!isNull(event.entityLivingBase.definition)) {
         if (event.entityLivingBase.definition.id has "chaosguar") {
             var list as IPlayer[] = [];
             for ent in event.entityLivingBase.world.getEntitiesInArea(crafttweaker.util.Position3f.create(((event.entity.x)- 100),((event.entity.y)- 100),((event.entity.z)- 100)),crafttweaker.util.Position3f.create(((event.entity.x)+ 100),((event.entity.y)+ 100),((event.entity.z)+ 100))) {
@@ -37,7 +37,7 @@ events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
             }
         }
     }
-    if (isNull(event.entityLivingBase.definition)) {
+    if (!isNull(event.entityLivingBase.definition)) {
         if (event.entityLivingBase.definition.id has "sun" && !(event.entityLivingBase.definition.id has "suns") && !(event.entityLivingBase.definition.id has "sun_")) {
             var list as IPlayer[] = [];
             for ent in event.entityLivingBase.world.getEntitiesInArea(crafttweaker.util.Position3f.create(((event.entity.x)- 100),((event.entity.y)- 100),((event.entity.z)- 100)),crafttweaker.util.Position3f.create(((event.entity.x)+ 100),((event.entity.y)+ 100),((event.entity.z)+ 100))) {
