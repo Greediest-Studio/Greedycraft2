@@ -139,7 +139,6 @@ RecipeBuilder.newBuilder("blood_iron", "auto_soul_forge", 100)
     .addItemInput(<minecraft:iron_ingot> * 1)
     .addItemInput(<bloodmagic:slate:4> * 1)
     .addItemInput(<bloodmagic:component:8> * 1)
-    .addItemInput(<forge:bucketfilled>.withTag({FluidName: "lifeessence", Amount: 1000}) * 1)
     .addItemInput(<bloodarsenal:base_item:2> * 1)
     .addFluidInput(<liquid:lifeessence> * 100000)
     .addEnergyPerTickInput(10000)
@@ -159,27 +158,6 @@ RecipeBuilder.newBuilder("slate1", "auto_soul_forge", 100)
     .addFluidInput(<liquid:lifeessence> * 1000)
     .addEnergyPerTickInput(10000)
     .addItemOutput(<bloodmagic:slate> * 1)
-    .build();
-
-RecipeBuilder.newBuilder("slate2", "auto_soul_forge", 100)
-    .addCatalystInput(
-        <additions:greedycraft-proliferation_star> * 1,
-        ["增殖之星的力量使你消耗生命源质大幅减少！！！"],
-        [RecipeModifierBuilder.create("modularmachinery:fluid", "input", 0.1, 1, false).build()]
-    ).setChance(0)
-    .addItemInput(<bloodmagic:slate> * 5)
-    .addFluidInput(<liquid:lifeessence> * 100000)
-    .addEnergyPerTickInput(10000)
-    .addItemOutput(<bloodmagic:slate:1>)
-    .setChance(10.0f / 10.0f)
-    .addItemOutput(<bloodmagic:slate:2>)
-    .setChance(9.0f / 10.0f)
-    .addItemOutput(<bloodmagic:slate:3>)
-    .setChance(8.0f / 10.0f)
-    .addItemOutput(<bloodmagic:slate:4>)
-    .setChance(7.0f / 10.0f)
-    .addItemOutput(<additions:bloody-slate_6>)
-    .setChance(6.0f / 10.0f)
     .build();
 
 RecipeBuilder.newBuilder("sentientmetal", "auto_soul_forge", 100)
