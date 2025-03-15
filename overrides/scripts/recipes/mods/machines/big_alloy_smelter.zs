@@ -348,3 +348,5 @@ recipe(1051 , <enderio:item_alloy_endergy_ingot:2> * 1, [<ore:ingotEndSteel> * 1
 recipe(1052 , <enderio:item_alloy_ingot:8> * 1, [<ore:endstone> * 1, <ore:ingotDarkSteel> * 1, <ore:obsidian> * 1], 20000, 10.0f); 
 recipe(1053 , <enderio:item_alloy_ingot:2> * 1, [<ore:ingotEnergeticAlloy> * 1, <ore:enderpearl> * 1], 10000, 10.0f);
 recipe(1054 , <tconstruct:ingots:2> * 1, [<ore:ingotCobalt> * 1, <ore:ingotArdite> * 1], 10000, 10.0f);
+recipe(1055 , <redstonerepository:material:1> * 1, [<ore:ingotEnderium> * 1, <ore:dustCryotheum> * 4], 10000, 10.0f);
+recipe(1056 , <tiths:ingot_oraclium> * 1, [<ore:ingotPolarium> * 1, <ore:ingotAltairium> * 1], 10000, 10.0f);
