@@ -1023,3 +1023,15 @@ for i in 3 to 7 {
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:crystal_changer"})) 
         .build();        
 }
+//大合金炉
+for i in 3 to 7 {
+    RecipeBuilder.newBuilder("big_alloy_smelter" + i, "builder_" + i, 1200)
+        .addFluidInput(<liquid:redstone> * 4500)
+        .addItemInput(<jaopca:gear.aeonsteel> * 4)
+        .addItemInput(<jaopca:gear.stellar_alloy> * 1)
+        .addItemInput(<enderio:item_material:54> * 16)
+        .addEnergyPerTickInput(120)
+        .addItemOutput(<modularmachinery:big_alloy_smelter_factory_controller>) 
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:big_alloy_smelter"})) 
+        .build();        
+}
