@@ -32,7 +32,7 @@ AlloySmelter.addRecipe(<enderio:item_alloy_ingot:8> * 2, [<ore:obsidian>, <ore:i
 AlloySmelter.addRecipe(<taiga:terrax_ingot> * 2, [<ore:ingotKarmesine>, <ore:ingotJauxum>, <ore:ingotOvium>], 2000, 10.0f); 
 AlloySmelter.addRecipe(<taiga:triberium_ingot>, [<ore:ingotTiberium> * 5, <ore:ingotBasalt>], 2000, 10.0f);
 AlloySmelter.addRecipe(<taiga:triberium_ingot>, [<ore:ingotTiberium> * 5, <ore:ingotDilithium> * 2], 2000, 10.0f);
-AlloySmelter.addRecipe(<taiga:fractum_ingot> * 2, [<ore:ingotTriberium> * 3, <ore:blockObsidian> * 3, <ore:ingotAbyssum>], 2000, 10.0f);
+AlloySmelter.addRecipe(<taiga:fractum_ingot> * 2, [<ore:ingotTriberium> * 3, <ore:obsidian> * 3, <ore:ingotAbyssum>], 2000, 10.0f);
 AlloySmelter.addRecipe(<taiga:violium_ingot> * 2, [<ore:ingotAurorium> * 3, <ore:ingotArdite> * 2], 2000, 10.0f);
 AlloySmelter.addRecipe(<taiga:proxii_ingot> * 3, [<ore:ingotPrometheum> * 3, <ore:ingotPalladium> * 3, <ore:ingotEezo>], 2000, 10.0f);
 AlloySmelter.addRecipe(<taiga:tritonite_ingot> * 2, [<ore:ingotCobalt> * 3, <ore:ingotTerrax> * 2], 2000, 10.0f);
@@ -47,7 +47,7 @@ AlloySmelter.addRecipe(<taiga:nucleum_ingot> * 3, [<ore:ingotProxii> * 3, <ore:i
 AlloySmelter.addRecipe(<taiga:nucleum_ingot> * 3, [<ore:ingotImperomite> * 3, <ore:ingotOsram>, <ore:ingotEezo>], 2000, 10.0f);
 AlloySmelter.addRecipe(<taiga:nucleum_ingot> * 3, [<ore:ingotNiob> * 3, <ore:ingotEezo>, <ore:ingotAbyssum>], 2000, 10.0f);
 AlloySmelter.addRecipe(<taiga:lumix_ingot>, [<ore:ingotPalladium>, <ore:ingotTerrax>], 2000, 10.0f);
-AlloySmelter.addRecipe(<taiga:seismum_ingot> * 4, [<ore:blockObsidian> * 4, <ore:ingotTriberium> * 2, <ore:ingotEezo>], 2000, 10.0f);
+AlloySmelter.addRecipe(<taiga:seismum_ingot> * 4, [<ore:obsidian> * 4, <ore:ingotTriberium> * 2, <ore:ingotEezo>], 2000, 10.0f);
 AlloySmelter.addRecipe(<taiga:astrium_ingot> * 2, [<ore:ingotTerrax> * 3, <ore:ingotAurorium> * 2], 2000, 10.0f);
 AlloySmelter.addRecipe(<taiga:niob_ingot> * 3, [<ore:ingotPalladium> * 3, <ore:ingotDuranite>, <ore:ingotOsram>], 2000, 10.0f);
 AlloySmelter.addRecipe(<taiga:yrdeen_ingot> * 3, [<ore:ingotUru> * 3, <ore:ingotValyrium> * 3, <ore:ingotOsram>], 2000, 10.0f);
@@ -56,12 +56,12 @@ AlloySmelter.addRecipe(<taiga:yrdeen_ingot> * 3, [<ore:ingotUru> * 3, <ore:ingot
 AlloySmelter.addRecipe(<gct_ores:reditrite_ingot> * 4, [<ore:ingotOsram> * 2, <ore:ingotObsidiorite> * 9], 2000, 10.0f);
 AlloySmelter.addRecipe(<gct_ores:reditrite_ingot> * 4, [<ore:ingotOsram> * 2, <ore:blockObsidiorite>], 2000, 10.0f);
 AlloySmelter.addRecipe(<taiga:iox_ingot> * 1, [<ore:ingotEezo> * 2, <ore:ingotAbyssum> * 2, <ore:ingotReditrite> * 4], 2000, 10.0f);
-AlloySmelter.addRecipe(<taiga:obsidiorite_ingot>, [<ore:blockObsidian>, <ore:ingotIgniteite>], 2000, 10.0f);
+AlloySmelter.addRecipe(<taiga:obsidiorite_ingot>, [<ore:obsidian>, <ore:ingotMeteorite>], 2000, 10.0f);
 AlloySmelter.addRecipe(<extendedcrafting:material> * 1, [<ore:ingotIron>, <ore:ingotCosmicNeutronium>], 1000, 10.0f);
 AlloySmelter.addRecipe(<divinerpg:shadow_bar>, [<ore:ingotRupee>, <ore:ingotRealmite>], 2000, 10.0f);
 AlloySmelter.addRecipe(<additions:heavenite_ingot>, [<ore:ingotUru> * 3, <ore:ingotLighteum> * 2, <ore:ingotStripium> * 3], 2000, 10.0f);
 AlloySmelter.addRecipe(<additions:ghostite_ingot>, [<ore:ingotValyrium>, <ore:ingotManarium>], 2000, 10.0f);
-AlloySmelter.addRecipe(<additions:waringlium_ingot> * 3, [<ore:ingotSwinium> * 2, <ore:ingotStripium> * 2, <ore:blockObsidian> * 6], 2000, 10.0f);
+AlloySmelter.addRecipe(<additions:waringlium_ingot> * 3, [<ore:ingotSwinium> * 2, <ore:ingotStripium> * 2, <ore:obsidian> * 6], 2000, 10.0f);
 AlloySmelter.addRecipe(<additions:tierite_ingot> * 2, [<ore:ingotCloudite> * 3, <ore:ingotTerrax> * 3, <ore:ingotVibranium> * 2], 2000, 10.0f);
 AlloySmelter.addRecipe(<additions:cheatieum_ingot> * 2, [<ore:ingotMangisite> * 2, <ore:ingotGhostite>, <ore:ingotManyullyn> * 3], 2000, 10.0f);
 AlloySmelter.addRecipe(<additions:idiessite_ingot>, [<ore:ingotSoilium> * 3, <ore:ingotHeavenite>, <ore:ingotAdamant>], 2000, 10.0f);
