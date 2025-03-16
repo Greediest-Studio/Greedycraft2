@@ -10,10 +10,7 @@
 		uid: "9ac62bf1",
 		type: "item",
 		items: [{
-			id: "modularmachinery:blood_altar_mk8_controller",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "modularmachinery:blood_altar_mk8_factory_controller"
 		}]
 	}],
 	rewards: [{

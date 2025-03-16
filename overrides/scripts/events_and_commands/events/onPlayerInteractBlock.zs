@@ -1,5 +1,5 @@
 /*
- * This script is created for the GreedyCraft modpack by mc_Edwin.
+ * This script is created for the GreedyCraft modpack by mc_Edwin & 孤梦梦梦.
  * You may NOT use this script in any other publicly distributed modpack without my permission.
  */
 
@@ -41,6 +41,13 @@ import scripts.util.patreons as PatreonUtil;
 
 import native.vazkii.botania.common.block.BlockAlfPortal;
 
+import mods.zenutils.DataUpdateOperation.OVERWRITE;
+import mods.zenutils.DataUpdateOperation.APPEND;
+import mods.zenutils.DataUpdateOperation.MERGE;
+import mods.zenutils.DataUpdateOperation.REMOVE;
+import mods.zenutils.DataUpdateOperation.BUMP;
+import native.java.math.BigInteger;
+
 events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     //Remove the uncrafting table
     if (event.block.definition.id == "twilightforest:uncrafting_table" && !event.world.remote) {
@@ -61,14 +68,14 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
         event.cancel();
     }
 });
-events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
+/*events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     if (!isNull(event.item) && !isNull(event.block) && !event.player.creative && !event.world.remote) {
         if event.block.definition.id has "_controller" && event.item.definition.id has "timeinabottle" {
             client.player.sendChat("§e你无权加速此方块");
             event.cancel();
         }
     }
-});
+});*/
 events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     if (!isNull(event.block) && !event.world.remote) {
         if (event.block.definition.id == <appliedenergistics2:molecular_assembler>.definition.id && !event.player.isSneaking) {

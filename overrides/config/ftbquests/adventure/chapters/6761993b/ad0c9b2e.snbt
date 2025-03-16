@@ -9,18 +9,11 @@
 		"7c005016"
 	],
 	tasks: [{
-		uid: "36c5b01b",
-		type: "kill",
-		icon: {
-			id: "minecraft:spawn_egg",
-			tag: {
-				EntityTag: {
-					id: "dungeonsmod:sun"
-				}
-			}
-		},
-		entity: "dungeonsmod:sun",
-		value: 1L
+		uid: "b3a8b0c6",
+		type: "item",
+		items: [{
+			item: "additions:bloody-gloomy_passport"
+		}]
 	}],
 	rewards: [{
 		uid: "faf69f9e",
