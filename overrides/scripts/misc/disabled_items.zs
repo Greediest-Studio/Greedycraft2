@@ -1596,7 +1596,7 @@ for ingredient in disabledItems {
     }
 }
 
-val HideItem as IItemStack[] = [
+val HideItem as IIngredient[] = [
     <gct_mobs:god_agglomeration_plate>,
     <gct_mobs:reserver>,
     <additions:greedycraft-astral_projector>,
@@ -1605,7 +1605,8 @@ val HideItem as IItemStack[] = [
     <gct_mac:model_atomic_acidor>,
     <gct_mac:model_atomic_decayer>,
     <gct_mac:endest_steel_forge>,
-    <appliedenergistics2:facade>
+    <appliedenergistics2:facade>,
+    <thebetweenlands:bl_bucket>.withTag({Fluid: {}})
 ];
 
 for i in HideItem {
