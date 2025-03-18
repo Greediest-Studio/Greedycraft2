@@ -87,18 +87,18 @@ RecipeBuilder.newBuilder("kianaex" , "loot_creater" , 900, 2)
 
 RecipeBuilder.newBuilder("chaos" , "loot_creater" , 1500, 2)
     .addFluidInput(<liquid:lifeessence> * 1000000)
-    .addItemInput(<tconevo:metal_block:2> * 1).setChance(0.5)
+    .addItemInput(<tconevo:metal_block:2> * 1).setChance(0)
     .addEnergyPerTickInput(1000000)
-    .addItemOutput(<draconicevolution:chaos_shard> * 10)
-    .addItemOutput(<contenttweaker:chaos_heart> * 3)
+    .addItemOutput(<draconicevolution:chaos_shard:2>)
+    .addItemOutput(<contenttweaker:chaos_heart>).setChance(0.05)
     .build();
 
 RecipeBuilder.newBuilder("storm" , "loot_creater" , 1750, 2)
     .addFluidInput(<liquid:lifeessence> * 2500000)
-    .addItemInput(<gct_ores:creepy_witherstorm_doll> * 1).setChance(0.5)
+    .addItemInput(<gct_ores:creepy_witherstorm_doll> * 1).setChance(0)
     .addEnergyPerTickInput(2500000)
-    .addItemOutput(<gct_ores:stormy_shard> * 10)
-    .addItemOutput(<ageofminecraft:withered_nether_star> * 5)
+    .addItemOutput(<gct_ores:stormy_fragment_small>)
+    .addItemOutput(<ageofminecraft:withered_nether_star>).setChance(0.05)
     .build();
 
 RecipeBuilder.newBuilder("blackstone" , "loot_creater" , 500, 2)
