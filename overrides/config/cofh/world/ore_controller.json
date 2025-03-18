@@ -309,6 +309,52 @@
                 "restriction": "whitelist",
                 "value": [52]
             }
+        },
+        "falsite": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "blue_skies:falsite_ore",
+                    "weight": 100
+                }],
+                "material": [{
+                    "name": "blue_skies:turquoise_stone"
+                }],
+                "cluster-size": 2
+            },
+            "cluster-count": 8,
+            "min-height": 0,
+            "max-height": 255,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [76]
+            }
+        },
+        "ventium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "blue_skies:ventium_ore",
+                    "weight": 100
+                }],
+                "material": [{
+                    "name": "blue_skies:turquoise_stone"
+                }],
+                "cluster-size": 2
+            },
+            "cluster-count": 8,
+            "min-height": 0,
+            "max-height": 255,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [76]
+            }
         }
 	}
 }

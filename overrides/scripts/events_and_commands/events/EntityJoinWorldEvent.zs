@@ -20,7 +20,7 @@ import crafttweaker.world.IWorld;
 import crafttweaker.command.ICommandSender;
 import crafttweaker.event.EntityJoinWorldEvent;
 import crafttweaker.text.ITextComponent;
-
+/*
 events.onPlayerTick(function(event as PlayerTickEvent) {
     val world = event.player.world.getDimension();
     if (world == 0) {
@@ -34,4 +34,4 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
             }
         });
     }
-});
+}); */
