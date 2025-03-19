@@ -112,9 +112,11 @@ events.onPlayerAttackEntity(function(event as PlayerAttackEntityEvent) {
     
     if (event.target instanceof IEntityLiving) {
         var entity as IEntityLiving = event.target;
-        if (entity.definition.id has "abyssalcraft" || entity.definition.id has "gct_aby") {
-            if (SanityHelper.getSanity(event.player) >= 0.5f) {
-                SanityHelper.removeSanity(event.player, 0.5f);
+        if (!isNull(entity.definition)) {
+            if (entity.definition.id has "abyssalcraft" || entity.definition.id has "gct_aby") {
+                if (SanityHelper.getSanity(event.player) >= 0.5f) {
+                    SanityHelper.removeSanity(event.player, 0.5f);
+                }
             }
         }
     }
@@ -123,15 +125,15 @@ events.onPlayerAttackEntity(function(event as PlayerAttackEntityEvent) {
 events.onEntityLivingUseItemFinish(function(event as Finish) {
     
     if (event.isPlayer) {
-        if (event.item.definition.id == "gct_aby:shoggothtancale") {
+        if (<gct_aby:shoggothtancale>.matches(event.item)) {
             SanityHelper.removeSanity(event.player, 10);
-        } else if (event.item.definition.id == "gct_aby:shoggoth_tancale_soup") {
+        } else if (<gct_aby:shoggoth_tancale_soup>.matches(event.item)) {
             SanityHelper.removeSanity(event.player, 20);
-        } else if (event.item.definition.id == "gct_aby:remnant_cookie") {
+        } else if (<gct_aby:remnant_cookie>.matches(event.item)) {
             SanityHelper.removeSanity(event.player, 5);
-        } else if (event.item.definition.id == "gct_aby:fruit_of_mind") {
+        } else if (<gct_aby:fruit_of_mind>.matches(event.item)) {
             SanityHelper.addSanity(event.player, 20);
-        } else if (event.item.definition.id == "gct_aby:fruit_of_mind_enchanted") {
+        } else if (<gct_aby:fruit_of_mind_enchanted>.matches(event.item)) {
             SanityHelper.addSanity(event.player, 200);
         }
     }
