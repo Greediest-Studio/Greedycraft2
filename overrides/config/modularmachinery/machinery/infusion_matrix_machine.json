@@ -20,14 +20,6 @@
     ],
     "parts": [
         {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcontroller@2"
-            ]
-        },
-        {
             "x": 3,
             "y": 3,
             "z": 2,
@@ -713,7 +705,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "thaumcraft:pillar_arcane@0"
+                "thaumcraft:stabilizer"
             ]
         },
         {
@@ -833,7 +825,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "thaumcraft:pillar_arcane@1"
+                "thaumcraft:stabilizer"
             ]
         },
         {
@@ -913,7 +905,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "thaumcraft:pillar_arcane@3"
+                "thaumcraft:stabilizer"
             ]
         },
         {
@@ -1473,7 +1465,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "thaumcraft:pillar_arcane@2"
+                "thaumcraft:stabilizer"
             ]
         },
         {
