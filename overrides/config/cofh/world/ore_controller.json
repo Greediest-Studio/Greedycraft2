@@ -318,9 +318,7 @@
                     "name": "blue_skies:falsite_ore",
                     "weight": 100
                 }],
-                "material": [{
-                    "name": "blue_skies:turquoise_stone"
-                }],
+                "material": "blue_skies:turquoise_stone",
                 "cluster-size": 2
             },
             "cluster-count": 8,
@@ -341,9 +339,7 @@
                     "name": "blue_skies:ventium_ore",
                     "weight": 100
                 }],
-                "material": [{
-                    "name": "blue_skies:turquoise_stone"
-                }],
+                "material": "blue_skies:turquoise_stone",
                 "cluster-size": 2
             },
             "cluster-count": 8,
