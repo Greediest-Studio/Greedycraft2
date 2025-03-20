@@ -14,6 +14,7 @@ import crafttweaker.liquid.ILiquidStack;
 
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.RecipeModifierBuilder;
+import mods.modularmachinery.MachineModifier;
 import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
@@ -21,7 +22,9 @@ val ITEM as string = "modularmachinery:item";
 val TIME as string = "modularmachinery:duration";
 val RF as string = "modularmachinery:energy";
 
-RecipeBuilder.newBuilder("durasteel_forge", "durasteel_forge", 18000, 1)
+MachineModifier.setMaxParallelism("durasteel_forge",1);
+
+RecipeBuilder.newBuilder("durasteel_forge", "durasteel_forge", 1800, 1)
     .addItemInputs([
         <ore:ingotStainlessSteel>,
         <ore:ingotBalancite>,

@@ -14,6 +14,7 @@ import crafttweaker.liquid.ILiquidStack;
 
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.RecipeModifierBuilder;
+import mods.modularmachinery.MachineModifier;
 import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
@@ -21,7 +22,9 @@ val ITEM as string = "modularmachinery:item";
 val TIME as string = "modularmachinery:duration";
 val RF as string = "modularmachinery:energy";
 
-RecipeBuilder.newBuilder("finallium_forge", "final_forge", 96000, 1)
+MachineModifier.setMaxParallelism("finallium_forge",1);
+
+RecipeBuilder.newBuilder("finallium_forge", "final_forge", 9600, 1)
     .addItemInputs([
         <ore:ingotCosmilite>,
         <ore:ingotOrderedMetal>,
