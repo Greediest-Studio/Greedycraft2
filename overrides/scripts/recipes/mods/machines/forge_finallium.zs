@@ -22,7 +22,7 @@ val ITEM as string = "modularmachinery:item";
 val TIME as string = "modularmachinery:duration";
 val RF as string = "modularmachinery:energy";
 
-MachineModifier.setMaxParallelism("finallium_forge",1);
+MachineModifier.setMaxParallelism("final_forge",1);
 
 RecipeBuilder.newBuilder("finallium_forge", "final_forge", 9600, 1)
     .addItemInputs([
