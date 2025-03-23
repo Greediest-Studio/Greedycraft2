@@ -453,14 +453,8 @@ RecipeUtil.addShapeless("flax_to_string", <minecraft:string> * 2,
 RecipeUtil.addShapeless("obsidian_boots_normal", <randomthings:obsidianwaterwalkingboots>,
     [<randomthings:waterwalkingboots>, <randomthings:obsidianskull>]
 );
-RecipeUtil.addShapeless("obsidian_boots_bauble", <lavawaderbauble:obsidianwaterwalkingbootsbauble>,
-    [<lavawaderbauble:waterwalkingbootsbauble>, <randomthings:obsidianskull>]
-);
 RecipeUtil.addShapeless("lava_wader_normal", <randomthings:lavawader>,
     [<randomthings:obsidianwaterwalkingboots>, <randomthings:lavacharm>]
-);
-RecipeUtil.addShapeless("lava_wader_bauble", <lavawaderbauble:lavawaderbauble>,
-    [<lavawaderbauble:obsidianwaterwalkingbootsbauble>, <randomthings:lavacharm>]
 );
 RecipeUtil.addShapeless("aa_dough", <actuallyadditions:item_misc:4>,
     [<ore:foodFlour>, <liquid:water> * 125]

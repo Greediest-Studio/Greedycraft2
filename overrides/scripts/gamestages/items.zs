@@ -1091,12 +1091,9 @@ GameStagesUtil.stageInfinity.addIngredients([
 
 GameStagesUtil.stageGraduated.addIngredients([
     <extrautils2:itemcreativedestructionwand>,
-    <extrautils2:itemcreativebuilderswand>,
-    <extrautils2:creativeharvest>,
     <draconicevolution:draconium_capacitor:2>,
     <appliedenergistics2:creative_storage_cell>,
     <botania:pool:1>,
-    <mysticalagradditions:stuff:69>,
     <additions:greedycraft-creative_controller>,
     <thermalfoundation:upgrade:256>,
     <storagedrawers:upgrade_creative:1>,
