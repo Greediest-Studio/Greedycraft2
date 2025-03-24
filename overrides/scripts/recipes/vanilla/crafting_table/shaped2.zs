@@ -153,3 +153,13 @@ RecipeUtil.addShaped("mmce_blockupgradebus_5", <modularmachinery:blockupgradebus
     [<additions:cosmilite_ingot>, <modularmachinery:blockupgradebus:3>, <additions:cosmilite_ingot>],
     [<modularmachinery:itemmodularium>, <additions:cosmilite_ingot>, <modularmachinery:itemmodularium>]
 ]);
+RecipeUtil.addShaped("blockwillproviderinput", <modularmachinery:blockwillproviderinput>, [
+    [<ore:plateSentientMetal>, <ore:ingotModularium>, <ore:plateSentientMetal>],
+    [<ore:ingotModularium>, <bloodmagic:item_demon_crystal:1>, <ore:ingotModularium>],
+    [<ore:plateSentientMetal>, <ore:ingotModularium>, <ore:plateSentientMetal>]
+]);
+RecipeUtil.addShaped("blockwillprovideroutput", <modularmachinery:blockwillprovideroutput>, [
+    [<ore:plateSentientMetal>, <ore:ingotModularium>, <ore:plateSentientMetal>],
+    [<ore:ingotModularium>, <bloodmagic:item_demon_crystal:3>, <ore:ingotModularium>],
+    [<ore:plateSentientMetal>, <ore:ingotModularium>, <ore:plateSentientMetal>]
+]);

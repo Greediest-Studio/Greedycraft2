@@ -15,12 +15,38 @@ import mods.modularmachinery.RecipeBuilder;
 import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
+static nolist as string[] = [
+    "modularmachinery:blood_altar_mk7",
+    "modularmachinery:blood_altar_mk8",
+    "modularmachinery:loot_creater",
+    "modularmachinery:big_miner",
+    "modularmachinery:crystal_changer",
+    "modularmachinery:chaos_reactor",
+    "modularmachinery:big_alloy_smelter",
+    "modularmachinery:demon_will_crafter"
+];
+
+val nolistitem as IItemStack[] = [
+    <modularmachinery:loot_creater_controller>,
+    <modularmachinery:blood_altar_mk7_controller>,
+    <modularmachinery:blood_altar_mk8_controller>,
+    <modularmachinery:big_miner_controller>,
+    <modularmachinery:crystal_changer_controller>,
+    <modularmachinery:chaos_reactor_controller>,
+    <modularmachinery:big_alloy_smelter_controller>,
+    <modularmachinery:demon_will_crafter_controller>
+];
+
+for item in nolistitem {
+    JEI.hide(item);
+}
 
 for controller in loadedMods["modularmachinery"].items {
     if (controller.definition.id has "_controller" && !(controller.definition.id has "_factory_controller")) {
         var origin_id as string = controller.definition.id.split("_controller")[0];
-        if (!isNull(itemUtils.getItem(origin_id ~ "_factory_controller"))) {
+        if (!isNull(itemUtils.getItem(origin_id ~ "_factory_controller"))) {    
             for i in 4 to 7 {
+                if (nolist has origin_id) {break;}
                 RecipeBuilder.newBuilder("controller_factorize" + origin_id + i, "builder_" + i, 200)
                     .addFluidInput(<liquid:redstone> * 10000)
                     .addItemInput(itemUtils.getItem(origin_id ~ "_controller"))
@@ -1033,5 +1059,16 @@ for i in 3 to 7 {
         .addEnergyPerTickInput(120)
         .addItemOutput(<modularmachinery:big_alloy_smelter_factory_controller>) 
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:big_alloy_smelter"})) 
+        .build();        
+}
+//恶魔意志实化器
+for i in 3 to 7 {
+    RecipeBuilder.newBuilder("demon_will_crafter" + i, "builder_" + i, 1200)
+        .addFluidInput(<liquid:redstone> * 4500)
+        .addItemInput(<ore:gearSentientMetal> * 4)
+        .addItemInput(<ore:gearBoundMetal> * 1)
+        .addItemInput(<ore:ingotBloodInfusedIron> * 16)
+        .addEnergyPerTickInput(120)
+        .addItemOutput(<modularmachinery:demon_will_crafter_factory_controller>) 
         .build();        
 }
