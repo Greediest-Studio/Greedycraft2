@@ -1,0 +1,14 @@
+{
+	x: -10.5d,
+	y: 5.5d,
+	text: [
+		"以下为eco三件套的教程做不了请无需在意"
+	],
+	dependencies: [
+		"73220e86"
+	],
+	tasks: [{
+		uid: "3cd70cef",
+		type: "checkmark"
+	}]
+}

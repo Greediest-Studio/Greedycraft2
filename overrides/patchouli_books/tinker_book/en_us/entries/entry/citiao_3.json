@@ -1,0 +1,15 @@
+{
+    "name": "阿帕拉契锭",
+    "icon": "additions:greedycraft-apalachia_ingot",
+    "category": "entry",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(4)$(l)工具$(br)暮光之手：在暮光系列维度时，伤害*1.2$(br2) 主宰：这件器械会依照持握者当前的生命值在成更高伤害"
+        },
+        {
+            "type": "text",
+            "text": "$(3)$(l)$(br2)盔甲$(br) 荆棘之触：使攻击者受到少量伤害$(br2)暮光守护：在暮光系列维度时，伤害*(1-词条等级* 0.05)"
+        }
+    ]
+}

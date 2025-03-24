@@ -1,0 +1,16 @@
+
+{
+    "name": "影素锭",
+    "icon": "defiledlands:umbrium_ingot",
+    "category": "entry",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(4)$(l)工具$(br)已污染:对不属于污秽之地的怪物造成额外伤害(增加固定4点的伤害)"
+        },
+        {
+            "type": "text",
+            "text":"$(3)$(l)$(br2)盔甲$(br)已污染:对不属于污秽之地的怪物造成额外伤害"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+
+{
+    "name": "钢锭",
+    "icon": "thermalfoundation:material:160",
+    "category": "entry",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(4)$(l)工具$(br)坚忍:格挡时可以减少更多伤害$(br2)锐利：击中敌人时会使他们在短时间内流血"
+        },
+        {
+            "type": "text",
+            "text": "$(3)$(l)$(br2)盔甲$(br)稳定:增加自身击退抗性，并击退攻击者$(br2)不屈不挠：你的护甲将更耐用(增加25%的护甲)"
+        }
+    ]
+}
