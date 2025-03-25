@@ -12,7 +12,7 @@
             "z": 0,
             "description": "将控制器上方紧挨着的方块换成此方块以降低流体冷凝时间至80%！",
             "modifier": {
-                "io": "output",
+                "io": "input",
                 "target": "duration",
                 "operation": 1,
                 "multiplier": 0.80
@@ -25,7 +25,7 @@
             "z": 0,
             "description": "将控制器上方紧挨着的方块换成此方块以降低流体冷凝时间至70%！",
             "modifier": {
-                "io": "output",
+                "io": "input",
                 "target": "duration",
                 "operation": 1,
                 "multiplier": 0.70
@@ -38,7 +38,7 @@
             "z": 0,
             "description": "将控制器上方紧挨着的方块换成此方块以降低流体冷凝时间至60%！",
             "modifier": {
-                "io": "output",
+                "io": "input",
                 "target": "duration",
                 "operation": 1,
                 "multiplier": 0.60
@@ -51,7 +51,7 @@
             "z": 0,
             "description": "将控制器上方紧挨着的方块换成此方块以降低流体冷凝时间至50%！",
             "modifier": {
-                "io": "output",
+                "io": "input",
                 "target": "duration",
                 "operation": 1,
                 "multiplier": 0.50

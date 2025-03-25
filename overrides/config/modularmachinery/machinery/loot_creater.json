@@ -12,7 +12,7 @@
             "z": 0,
             "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至90%！",
             "modifier": {
-                "io": "output",
+                "io": "input",
                 "target": "duration",
                 "operation": 1,
                 "multiplier": 0.90
@@ -25,7 +25,7 @@
             "z": 0,
             "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至75%！",
             "modifier": {
-                "io": "output",
+                "io": "input",
                 "target": "duration",
                 "operation": 1,
                 "multiplier": 0.75
@@ -38,7 +38,7 @@
             "z": 0,
             "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至50%！",
             "modifier": {
-                "io": "output",
+                "io": "input",
                 "target": "duration",
                 "operation": 1,
                 "multiplier": 0.50
@@ -51,7 +51,7 @@
             "z": 0,
             "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至30%！",
             "modifier": {
-                "io": "output",
+                "io": "input",
                 "target": "duration",
                 "operation": 1,
                 "multiplier": 0.30
@@ -64,7 +64,7 @@
             "z": 0,
             "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至10%！",
             "modifier": {
-                "io": "output",
+                "io": "input",
                 "target": "duration",
                 "operation": 1,
                 "multiplier": 0.10

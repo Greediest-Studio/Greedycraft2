@@ -10,12 +10,12 @@
             "x": 0,
             "y": 1,
             "z": 0,
-            "description": "将控制器上方的紧挨着的方块换成此方块以提高25%产品产出率！",
+            "description": "将控制器上方的紧挨着的方块换成此方块以降低工作时间至80%！",
             "modifier": {
-                "io": "output",
-                "target": "item",
+                "io": "input",
+                "target": "duration",
                 "operation": 1,
-                "multiplier": 1.25,
+                "multiplier": 0.8,
                 "affectChance": true
             }
         },
@@ -24,12 +24,12 @@
             "x": 0,
             "y": 1,
             "z": 0,
-            "description": "将控制器上方的紧挨着的方块换成此方块以提高50%产品产出率！",
+            "description": "将控制器上方的紧挨着的方块换成此方块降低工作时间至70%！",
             "modifier": {
-                "io": "output",
-                "target": "item",
+                "io": "input",
+                "target": "duration",
                 "operation": 1,
-                "multiplier": 1.5,
+                "multiplier": 0.7,
                 "affectChance": true
             }
         },
@@ -38,12 +38,12 @@
             "x": 0,
             "y": 1,
             "z": 0,
-            "description": "将控制器上方的紧挨着的方块换成此方块以提高100%产品产出率！",
+            "description": "将控制器上方的紧挨着的方块换成此方块以降低工作时间至60%！",
             "modifier": {
-                "io": "output",
-                "target": "item",
+                "io": "input",
+                "target": "duration",
                 "operation": 1,
-                "multiplier": 2.0,
+                "multiplier": 0.6,
                 "affectChance": true
             }
         },
@@ -52,12 +52,12 @@
             "x": 0,
             "y": 1,
             "z": 0,
-            "description": "将控制器上方的紧挨着的方块换成此方块以提高150%产品产出率！",
+            "description": "将控制器上方的紧挨着的方块换成此方块以降低工作时间至50%！",
             "modifier": {
-                "io": "output",
-                "target": "item",
+                "io": "input",
+                "target": "duration",
                 "operation": 1,
-                "multiplier": 2.5,
+                "multiplier": 0.5,
                 "affectChance": true
             }
         }
