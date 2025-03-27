@@ -1537,7 +1537,25 @@ var disabledItems as IIngredient[] = [
     <nae2:coprocessor_4x>,
     <nae2:coprocessor_16x>,
     <nae2:coprocessor_64x>,
-    <extrautils2:snowglobe>
+    <extrautils2:snowglobe>,
+    <enderio:block_inventory_panel>,
+    <enderio:block_inventory_chest_tiny>,
+    <enderio:block_inventory_chest_small>,
+    <enderio:block_inventory_chest_medium>,
+    <enderio:block_inventory_chest_big>,
+    <enderio:block_inventory_chest_huge>,
+    <enderio:block_inventory_chest_large>,
+    <enderio:block_inventory_chest_enormous>,
+    <enderio:block_inventory_chest_warehouse>,
+    <enderio:block_inventory_chest_warehouse13>,
+    <enderio:item_inventory_remote:2>,
+    <enderio:item_inventory_remote>,
+    <enderio:item_inventory_remote:1>,
+    <mekanism:mektool>,
+    <mekanism:mekasuitboots>.withTag({}),
+    <mekanism:mekasuitleggings>.withTag({}),
+    <mekanism:mekasuithelmet>.withTag({}),
+    <mekanism:mekasuitchestplate>.withTag({})
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [
