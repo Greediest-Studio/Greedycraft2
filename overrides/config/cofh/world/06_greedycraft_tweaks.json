@@ -1143,26 +1143,6 @@
                 "value": [-1]
             }
         },
-        "dimensium": {
-            "enabled": "true",
-            "distribution": "uniform",
-            "generator": {
-                "block": [{
-                    "name": "additions:taigaddon-dimensium_ore",
-                    "weight": 100
-                }],
-                "material": "abyssalcraft:stone@6",
-                "cluster-size": 2
-            },
-            "min-height": 0,
-            "max-height": 120,
-            "cluster-count": 3,
-            "retrogen": "true",
-            "dimension": {
-                "restriction": "whitelist",
-                "value": [52]
-            }
-        },
         "cloudite": {
             "enabled": "true",
             "distribution": "uniform",
