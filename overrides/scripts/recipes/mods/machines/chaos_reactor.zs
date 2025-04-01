@@ -1,5 +1,5 @@
 /*
- * This script is created for the GreedyCraft Tweaks by 咕咕咕.
+ * This script is created for the GreedyCraft Tweaks by 孤梦梦.
  */
 
 
@@ -58,15 +58,15 @@ MachineModifier.setMaxParallelism("chaos_reactor",1);
 //燃料表
 val Fuelmap as float[IOreDictEntry]   = {
     <ore:coreOrdered> : 75000000.0,
-    <ore:coreEpic> : 5000000.0,
-    <ore:coreSuperior> : 3000000.0
+    <ore:coreEpic> : 3500000.0,
+    <ore:coreSuperior> : 1500000.0
 };
 
 //冷却表
 val Coolingmap as float[ILiquidStack] = {
-    <liquid:water>           : 250.0,
-    <liquid:cryotheum>       : 10000.0,
-    <liquid:hecryo_liquid>   : 100000.0
+    <liquid:water>           : 10.0,
+    <liquid:cryotheum>       : 5000.0,
+    <liquid:hecryo_liquid>   : 30000.0
 };
 
 //控制器信息
@@ -101,8 +101,8 @@ function react(event as FactoryRecipeTickEvent) {
     var cool = isNull(map["cool"]) ? 0.0f : map["cool"].asFloat();
     var fuel = isNull(map["fuel"]) ? 0.0f : map["fuel"].asFloat();
     if (fuel > 0.0f) {
-        map["fuel"] = fuel - (speed * 1);
-        map["cool"] = cool - (speed * 5);
+        map["fuel"] = fuel - (speed * 3);
+        map["cool"] = cool - (speed * 7);
     }
     else {event.setFailed(false,"§4燃料不足");}
     ctrl.customData = data;
@@ -150,6 +150,13 @@ var r as int = 1;
 for fuel , amount in Fuelmap {
     RecipeBuilder.newBuilder("fueladd" + r ,"chaos_reactor",10,1)
         .addItemInput(fuel)
+        .addPreCheckHandler(function(event as RecipeCheckEvent) {
+            val ctrl = event.controller;
+            var data = ctrl.customData;
+            var map = data.asMap();
+            val fuel = map["fuel"].asFloat();
+            if (fuel > 1000000000.0f) {event.setFailed("§4燃料储备已满");}
+        })
         .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
             addfuel(event,amount);
         })
@@ -162,6 +169,13 @@ for fuel , amount in Fuelmap {
 for cool , amount in Coolingmap {
     RecipeBuilder.newBuilder("cooladd" + r ,"chaos_reactor",5,2)
         .addFluidInput(cool * 50)
+        .addPreCheckHandler(function(event as RecipeCheckEvent) {
+            val ctrl = event.controller;
+            var data = ctrl.customData;
+            var map = data.asMap();
+            val cool = map["cool"].asFloat();
+            if (cool > 1000000000.0f) {event.setFailed("§4调律场充能已满");}
+        })
         .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
             addcool(event,amount);
         })
@@ -173,7 +187,6 @@ for cool , amount in Coolingmap {
 
 //写入速度&判断
 RecipeBuilder.newBuilder("speedwrite","chaos_reactor",20,4)
-    .addSmartInterfaceDataInput("speed", 0.0001, 100000000)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         check(event);
     })
@@ -216,7 +229,7 @@ RecipeBuilder.newBuilder("chaosreacting","chaos_reactor",2000,0)
             }
         });
     })
-    .addEnergyPerTickOutput(10000000)
+    .addEnergyPerTickOutput(7500000)
     .addRecipeTooltip("§e1倍产出")
     .setThreadName("§e混沌能量汲取系统")
     .build();
