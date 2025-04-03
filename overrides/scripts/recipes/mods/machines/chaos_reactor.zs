@@ -154,7 +154,7 @@ for fuel , amount in Fuelmap {
             val ctrl = event.controller;
             var data = ctrl.customData;
             var map = data.asMap();
-            val fuel = map["fuel"].asFloat();
+            val fuel = isNull(map["fuel"]) ? 0.0f : map["fuel"].asFloat();
             if (fuel > 1000000000.0f) {event.setFailed("§4燃料储备已满");}
         })
         .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
@@ -173,7 +173,7 @@ for cool , amount in Coolingmap {
             val ctrl = event.controller;
             var data = ctrl.customData;
             var map = data.asMap();
-            val cool = map["cool"].asFloat();
+            val cool = isNull(map["cool"]) ? 1.0f : map["cool"].asFloat();
             if (cool > 1000000000.0f) {event.setFailed("§4调律场充能已满");}
         })
         .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
@@ -187,6 +187,7 @@ for cool , amount in Coolingmap {
 
 //写入速度&判断
 RecipeBuilder.newBuilder("speedwrite","chaos_reactor",20,4)
+    .addSmartInterfaceDataInput("speed",0.00001,100000000.0)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         check(event);
     })
