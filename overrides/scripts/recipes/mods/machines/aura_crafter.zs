@@ -255,7 +255,7 @@ RecipeBuilder.newBuilder("aurune_craft_nineteen", "aura_crafter", 100)
     .addItemInput(<naturesaura:gold_leaf>)
     .addItemInput(<naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:overworld"}))
     .addAuraInput(200, true)
-    .addItemOutput(<naturesaura:token_joy>)
+    .addItemOutput(<naturesaura:token_joy> * 2)
     .build();
 
 RecipeBuilder.newBuilder("aurune_craft_twenty", "aura_crafter", 100)
@@ -269,7 +269,7 @@ RecipeBuilder.newBuilder("aurune_craft_twenty", "aura_crafter", 100)
     .addItemInput(<minecraft:ender_pearl>)
     .addItemInput(<naturesaura:gold_leaf>)
     .addAuraInput(200, true)
-    .addItemOutput(<naturesaura:token_anger>)
+    .addItemOutput(<naturesaura:token_anger> * 2)
     .build();
 
 RecipeBuilder.newBuilder("aurune_craft_twentyone", "aura_crafter", 100)
@@ -283,7 +283,7 @@ RecipeBuilder.newBuilder("aurune_craft_twentyone", "aura_crafter", 100)
     .addItemInput(<minecraft:chicken>)
     .addItemInput(<minecraft:fish>)
     .addAuraInput(200, true)
-    .addItemOutput(<minecraft:fish>)
+    .addItemOutput(<naturesaura:token_sorrow> * 2)
     .build();
 
 RecipeBuilder.newBuilder("aurune_craft_twentytwo", "aura_crafter", 100)
@@ -297,7 +297,7 @@ RecipeBuilder.newBuilder("aurune_craft_twentytwo", "aura_crafter", 100)
     .addItemInput(<minecraft:soul_sand>)
     .addItemInput(<minecraft:feather>)
     .addAuraInput(200, true)
-    .addItemOutput(<naturesaura:token_fear>)
+    .addItemOutput(<naturesaura:token_fear> * 2)
     .build();
 
 RecipeBuilder.newBuilder("aurune_craft_twentythree", "aura_crafter", 100)

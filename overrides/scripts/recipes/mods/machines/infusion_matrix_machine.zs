@@ -58,7 +58,7 @@ RecipeBuilder.newBuilder("thaumcraft", "infusion_matrix_machine", 500)
     .addItemInput(<thaumicaugmentation:material:5>*2)
     .addItemInput(<thaumadditions:adaminite_fabric>*2)
     .addItemInput(<additions:cosmilite_ingot>)
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addRecipeTooltip("§1需要模块化特化神秘研究2")
     .addPostCheckHandler(function(event as RecipeCheckEvent){
         val ctrl = event.controller;
@@ -80,7 +80,7 @@ RecipeBuilder.newBuilder("thaumcraft_2", "infusion_matrix_machine", 200)
     .addItemInput(<thaumcraft:lamp_arcane>)
     .addItemInput(<minecraft:gold_ingot>*2)
     .addItemInput(<minecraft:dye:15>*2)
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumcraft:lamp_growth>)
     .build();
 # 源质供应器
@@ -91,7 +91,7 @@ RecipeBuilder.newBuilder("thaumcraft_3", "infusion_matrix_machine", 200)
     .addItemInput(<appliedenergistics2:interface>)
     .addItemInput(<thaumcraft:salis_mundus>*2)
     .addItemInput(<thaumicenergistics:coalescence_core>*2)
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumicenergistics:infusion_provider>)
     .build();
 # 秘银锭
@@ -108,7 +108,7 @@ RecipeBuilder.newBuilder("thaumcraft_4", "infusion_matrix_machine", 600)
     .addItemInput(<thaumcraft:curio:1>*2)
     .addItemInput(<botania:manaresource:22>*2)
     .addItemInput(<additions:aeonsteel_ingot>)
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addRecipeTooltip("§1需要模块化特化神秘研究2")
     .addPostCheckHandler(function(event as RecipeCheckEvent){
         val ctrl = event.controller;
@@ -130,7 +130,7 @@ RecipeBuilder.newBuilder("thaumcraft_5", "infusion_matrix_machine", 500)
     .addItemInput(<additions:greedycraft-canopy_star>)
     .addItemInput(<additions:greedycraft-ice_star>)
     .addItemInput(<additions:greedycraft-end_star>)
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addItemOutput(<additions:greedycraft-quardstate_star>)
     .build();
 # 蓝图法杖
@@ -144,7 +144,7 @@ RecipeBuilder.newBuilder("thaumcraft_6", "infusion_matrix_machine", 200)
     .addItemInput(<thaumcraft:curio:1>)
     .addItemInput(<thaumcraft:mechanism_simple>)
     .addItemInput(<thaumcraft:vis_resonator>)
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addItemOutput(<additions:greedycraft-blueprint_wand>)
     .build();
 # 源质水合物形成器
@@ -162,7 +162,7 @@ RecipeBuilder.newBuilder("thaumcraft_7", "infusion_matrix_machine", 200)
     .addItemInput(<packagedthaumic:thaumic_package_component>)
     .addItemInput(<thaumcraft:morphic_resonator>)
     .addItemInput(<thaumcraft:everfull_urn>)
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addItemOutput(<packagedthaumic:clathrate_essence_former>)
    .build();
 # 源质水合物实物化器
@@ -176,7 +176,7 @@ RecipeBuilder.newBuilder("thaumcraft_8", "infusion_matrix_machine", 200)
     .addItemInput(<appliedenergistics2:fluix_block>*2)
     .addItemInput(<thaumcraft:salis_mundus>)
     .addItemInput(<thaumcraft:mechanism_complex>)
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addItemOutput(<packagedthaumic:clathrate_essence_materializer>)
     .build();
 # 天灾金属锭
@@ -196,7 +196,7 @@ RecipeBuilder.newBuilder("thaumcraft_9", "infusion_matrix_machine", 500)
     .addItemInput(<tconevo:metal_block:1>)
     .addItemInput(<cfm:modern_bed_bottom:11>)
     .addItemInput(<taiga:nihilite_ingot>)
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addRecipeTooltip("§1需要模块化特化神秘研究2")
     .addPostCheckHandler(function(event as RecipeCheckEvent){
         val ctrl = event.controller;
@@ -219,7 +219,7 @@ RecipeBuilder.newBuilder("infusion_matrix_machine0", "infusion_matrix_machine", 
     .addItemInput(<thaumcraft:primordial_pearl>).setChance(0.01)
     .addItemInput(<minecraft:redstone>)
     .addItemInput(<thaumcraft:void_seed>)
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumicaugmentation:material:3>)
     .build();
 # 邪术钢锭
@@ -230,7 +230,7 @@ RecipeBuilder.newBuilder("infusion_matrix_machine1", "infusion_matrix_machine", 
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "instrumentum"}) * 240)
     .addItemInput(<additions:greedycraft-eldritch_slime>*4)
     .addItemInput(<additions:greedycraft-corruptium_ingot>)
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addRecipeTooltip("§1需要模块化特化神秘研究1")
     .addPostCheckHandler(function(event as RecipeCheckEvent){
         val ctrl = event.controller;
@@ -254,7 +254,7 @@ RecipeBuilder.newBuilder("infusion_matrix_machine3", "infusion_matrix_machine", 
     .addItemInput(<additions:mekaddon-arcane_control_circuit>)
     .addItemInput(<thaumicenergistics:essentia_component_64k>)
     .addItemInput(<additions:greedycraft-extended_primal_metal_ingot>)
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumicenergistics:essentia_cell_1048576k>.withTag({filter: {}}))
     .build();
 # 质能转换核心
@@ -274,7 +274,7 @@ RecipeBuilder.newBuilder("infusion_matrix_machine4", "infusion_matrix_machine", 
     .addItemInput(<mekanism:controlcircuit:3>)
     .addItemInput(<additions:chromasteel_ingot>)
     .addItemInput(<thaumcraft:causality_collapser>)
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addItemOutput(<additions:greedycraft-energy_matter_core>)
     .build();
 # 异形之石
@@ -291,7 +291,7 @@ RecipeBuilder.newBuilder("infusion_matrix_machine5", "infusion_matrix_machine", 
     .addItemInput(<thaumcraft:cluster:2>)
     .addItemInput(<thaumcraft:cluster:4>)
     .addItemInput(<thaumicwonders:alchemist_stone>)
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumicwonders:alienist_stone>)
     .build();
 # 奥法鞘翅
@@ -304,7 +304,7 @@ RecipeBuilder.newBuilder("infusion_matrix_machine6", "infusion_matrix_machine", 
     .addItemInput(<minecraft:feather>)
     .addItemInput(<thaumcraft:vis_resonator>)
     .addItemInput(<thaumicaugmentation:material:4>)
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumicaugmentation:elytra_harness>)
     .build();
 # 悖论物质
@@ -317,7 +317,7 @@ RecipeBuilder.newBuilder("infusion_matrix_machine7", "infusion_matrix_machine", 
     .addItemInput(<thaumcraft:morphic_resonator>)
     .addItemInput(<minecraft:redstone_block>*2)
     .addItemInput(<thaumcraft:alumentum>*2)
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumcraft:causality_collapser>)
     .build();
 # 咒缚锭
@@ -341,7 +341,7 @@ RecipeBuilder.newBuilder("infusion_matrix_machine8", "infusion_matrix_machine", 
     .addItemInput(<gct_ores:equipment_witherium_ingot>)
     .addItemInput(<gct_ores:balanced_matrix_ingot>)
     .addItemInput(<gct_ores:ruled_draconium_ingot>)
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addRecipeTooltip("§1需要模块化特化神秘研究1")
     .addPostCheckHandler(function(event as RecipeCheckEvent){
         val ctrl = event.controller;
@@ -368,7 +368,7 @@ RecipeBuilder.newBuilder("infusion_matrix_machine9", "infusion_matrix_machine", 
     .addItemInput(<thaumcraft:metal_void>)
     .addItemInput(<thaumcraft:salis_mundus>)
     .addItemInput(<thaumcraft:void_seed>*3)
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumadditions:void_seed>)
     .build();
 # 铿金锭
@@ -387,7 +387,7 @@ RecipeBuilder.newBuilder("thaumcraft_20", "infusion_matrix_machine", 500)
     .addItemInput(<thaumadditions:zeith_fur>*2)
     .addItemInput(<draconicevolution:draconic_ingot>)
     .addItemInput(<additions:chromasteel_ingot>)
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addRecipeTooltip("§1需要模块化特化神秘研究2")
     .addPostCheckHandler(function(event as RecipeCheckEvent){
         val ctrl = event.controller;
@@ -411,7 +411,7 @@ RecipeBuilder.newBuilder("thaumcraft_21", "infusion_matrix_machine", 400)
     .addItemInput(<bloodmagic:item_demon_crystal:4>*4)
     .addItemInput(<additions:chromasteel_ingot>*4)
     .addItemInput(<bloodarsenal:blood_diamond:3>)
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addRecipeTooltip("§1需要模块化特化神秘研究1")
     .addPostCheckHandler(function(event as RecipeCheckEvent){
         val ctrl = event.controller;
@@ -431,7 +431,7 @@ RecipeBuilder.newBuilder("thaumcraft_22", "infusion_matrix_machine", 400)
     .addItemInput(<thaumcraft:salis_mundus>)
     .addItemInput(<minecraft:wheat_seeds>)
     .addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}))
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumcraft:crystal_aer>)
     .build();
 #火之结晶
@@ -442,7 +442,7 @@ RecipeBuilder.newBuilder("thaumcraft_23", "infusion_matrix_machine", 400)
     .addItemInput(<thaumcraft:salis_mundus>)
     .addItemInput(<minecraft:wheat_seeds>)
     .addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]}))
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumcraft:crystal_ignis>)
     .build();
 #水之结晶
@@ -453,7 +453,7 @@ RecipeBuilder.newBuilder("thaumcraft_24", "infusion_matrix_machine", 400)
     .addItemInput(<thaumcraft:salis_mundus>)
     .addItemInput(<minecraft:wheat_seeds>)
     .addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}))
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumcraft:crystal_aqua>)
     .build();
 #地之结晶
@@ -464,7 +464,7 @@ RecipeBuilder.newBuilder("thaumcraft_25", "infusion_matrix_machine", 400)
     .addItemInput(<thaumcraft:salis_mundus>)
     .addItemInput(<minecraft:wheat_seeds>)
     .addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}))
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumcraft:crystal_terra>)
     .build();
 #秩序结晶
@@ -475,7 +475,7 @@ RecipeBuilder.newBuilder("thaumcraft_26", "infusion_matrix_machine", 400)
     .addItemInput(<thaumcraft:salis_mundus>)
     .addItemInput(<minecraft:wheat_seeds>)
     .addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}))
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumcraft:crystal_ordo>)
     .build();
 #混沌结晶
@@ -486,7 +486,7 @@ RecipeBuilder.newBuilder("thaumcraft_27", "infusion_matrix_machine", 400)
     .addItemInput(<thaumcraft:salis_mundus>)
     .addItemInput(<minecraft:wheat_seeds>)
     .addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}))
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumcraft:crystal_perditio>)
     .build();
 #咒波结晶
@@ -497,7 +497,7 @@ RecipeBuilder.newBuilder("thaumcraft_28", "infusion_matrix_machine", 400)
     .addItemInput(<thaumcraft:salis_mundus>)
     .addItemInput(<minecraft:wheat_seeds>)
     .addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "vitium"}]}))
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumcraft:crystal_vitium>)
     .build();
 #增强元金锭
@@ -516,7 +516,7 @@ RecipeBuilder.newBuilder("thaumcraft_29", "infusion_matrix_machine", 400)
     .addItemInput(<thaumcraft:salis_mundus> * 2)
     .addItemInput(<gct_ores:everite_dust> * 2)
     .addItemInput(<tconevo:metal:20>)
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addRecipeTooltip("§1需要模块化特化神秘研究1")
     .addPostCheckHandler(function(event as RecipeCheckEvent){
         val ctrl = event.controller;
@@ -543,7 +543,7 @@ RecipeBuilder.newBuilder("thaumcraft_30", "infusion_matrix_machine", 400)
     .addItemInput(<thaumicaugmentation:material:3>)
     .addItemInput(<thaumadditions:mithrillium_smelter>)
     .addItemInput(<packagedthaumic:virial_chamber>)
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addItemOutput(<gct_mac:giant_smelter>)
     .build();
 #木乃伊诱饵
@@ -555,7 +555,7 @@ RecipeBuilder.newBuilder("thaumcraft_31", "infusion_matrix_machine", 500)
     .addItemInput(<thebetweenlands:items_misc:45>)
     .addItemInput(<thebetweenlands:items_misc:25>)
     .addItemInput(<thebetweenlands:items_misc:26> * 2)
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addItemInput(<thebetweenlands:dentrothyst_fluid_vial:1>.withTag({Fluid: {FluidName: "shallowbreath", Amount: 1000}}))
     .addItemOutput(<thebetweenlands:mummy_bait>)
     .build();
@@ -583,7 +583,7 @@ RecipeBuilder.newBuilder("thaumcraft_32", "infusion_matrix_machine", 500)
             return;
         }
     })
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumcraft:turret:2>)
     .build();
 #开眼邪术拱顶石
@@ -596,7 +596,7 @@ RecipeBuilder.newBuilder("thaumcraft_33", "infusion_matrix_machine", 600)
     .addItemInput(<thaumadditions:mithrillium_ingot> * 3)
     .addItemInput(<thaumcraft:primordial_pearl>).setChance(0.01)
     .addItemInput(<thaumcraft:stone_eldritch_tile>)
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumicaugmentation:capstone:2>)
     .build();
 #封包神秘炼金塔
@@ -612,7 +612,7 @@ RecipeBuilder.newBuilder("thaumcraft_34", "infusion_matrix_machine", 300)
     .addItemInput(<thaumcraft:metal_alchemical> * 2)
     .addItemInput(<packagedthaumic:thaumic_package_component>)
     .addItemInput(<thaumcraft:crucible>)
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addRecipeTooltip("§1需要模块化特化神秘研究1")
     .addPostCheckHandler(function(event as RecipeCheckEvent){
         val ctrl = event.controller;
@@ -644,7 +644,7 @@ RecipeBuilder.newBuilder("thaumcraft_35", "infusion_matrix_machine", 200)
     .addItemInput(<thaumcraft:stabilizer>)
     .addItemInput(<thaumcraft:morphic_resonator>)
     .addItemInput(<thaumcraft:infusion_matrix>)
-    .addEnergyPerTickInput(100000000)
+    .addEnergyPerTickInput(100000)
     .addRecipeTooltip("§1需要模块化特化神秘研究1")
     .addPostCheckHandler(function(event as RecipeCheckEvent){
         val ctrl = event.controller;
