@@ -3,6 +3,7 @@
  * You may NOT use this script in any other publicly distributed modpack without my permission.
  */
 
+#reloadable
 #priority 3000
 
 import mods.thermalexpansion.Transposer;
@@ -18,8 +19,6 @@ import mods.thermalexpansion.Refinery;
 
 Transposer.addFillRecipe(<thermalfoundation:fertilizer:1>, <thermalfoundation:fertilizer:0>, <liquid:resin> * 200, 20);
 
-Crucible.removeRecipe(<divinerpg:hellstone_ingot>);
-
 Crucible.addRecipe(<liquid:hellstone> * 144, <divinerpg:hellstone_ingot>, 50);
 
 InductionSmelter.removeRecipe(<thermalfoundation:material:768>, <thermalfoundation:material>);
@@ -32,6 +31,20 @@ InductionSmelter.removeRecipe(<thermalfoundation:material:802>, <minecraft:iron_
 Insolator.removeRecipe(<appliedenergistics2:crystal_seed>, <minecraft:glowstone_dust>);
 Insolator.removeRecipe(<appliedenergistics2:crystal_seed:600>, <minecraft:glowstone_dust>);
 Insolator.removeRecipe(<appliedenergistics2:crystal_seed:1200>, <minecraft:glowstone_dust>);
+
+Insolator.addRecipe(<thebetweenlands:spirit_fruit>,
+ <thebetweenlands:sapling_spirit_tree>, 
+ <thebetweenlands:sap_spit>*4, 
+ 25000, 
+ <thebetweenlands:sapling_spirit_tree>, 
+ 105);
+ 
+Insolator.addRecipe(<thebetweenlands:forbidden_fig>,
+ <thebetweenlands:forbidden_fig>, 
+ <thebetweenlands:sap_spit>*4, 
+ 25000, 
+ <thebetweenlands:forbidden_fig>, 
+ 15);
 
 Pulverizer.addRecipe(<additions:greedycraft-purifying_dust> * 8, <botania:specialflower>.withTag({type: "puredaisy"}), 600);
 
