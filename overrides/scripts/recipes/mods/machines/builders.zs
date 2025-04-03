@@ -23,7 +23,8 @@ static nolist as string[] = [
     "modularmachinery:crystal_changer",
     "modularmachinery:chaos_reactor",
     "modularmachinery:big_alloy_smelter",
-    "modularmachinery:demon_will_crafter"
+    "modularmachinery:demon_will_crafter",
+    "modularmachinery:mana_ele"
 ];
 
 val nolistitem as IItemStack[] = [
@@ -34,7 +35,8 @@ val nolistitem as IItemStack[] = [
     <modularmachinery:crystal_changer_controller>,
     <modularmachinery:chaos_reactor_controller>,
     <modularmachinery:big_alloy_smelter_controller>,
-    <modularmachinery:demon_will_crafter_controller>
+    <modularmachinery:demon_will_crafter_controller>,
+    <modularmachinery:mana_ele_controller>
 ];
 
 for item in nolistitem {
@@ -1070,5 +1072,16 @@ for i in 3 to 7 {
         .addItemInput(<ore:ingotBloodInfusedIron> * 16)
         .addEnergyPerTickInput(120)
         .addItemOutput(<modularmachinery:demon_will_crafter_factory_controller>) 
+        .build();        
+}
+//魔力聚能机
+for i in 3 to 7 {
+    RecipeBuilder.newBuilder("mana_ele" + i, "builder_" + i, 1200)
+        .addFluidInput(<liquid:redstone> * 45000)
+        .addItemInput(<ore:frameOrichalcos> * 8)
+        .addItemInput(<ore:gearMythsteel> * 1)
+        .addItemInput(<ore:frameElementium> * 16)
+        .addEnergyPerTickInput(120)
+        .addItemOutput(<modularmachinery:mana_ele_factory_controller>) 
         .build();        
 }

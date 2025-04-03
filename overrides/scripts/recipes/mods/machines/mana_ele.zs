@@ -39,9 +39,11 @@ MMEvents.onControllerGUIRender("mana_ele" , function(event as ControllerGUIRende
         "§b§l///魔力聚能机监控系统///§r",
         "§e§l当前阶段：" + tier
     ];
-    if (tier == 0) {info += "§4§l反应系统尚未启动，请查看jei启动配方";}
+    if (tier == 0) {info += "§4§l反应系统尚未启动，请同时完成4个循环以启动配方";}
     else {info += "§b§l反应系统已启动，请进行阶段12配方循环以产出能源";}
     info += ("§b§l请于" + time + "tick内完成当前阶段配方");
+    info += ("§b§l发电量为(剩余时间^2+100)MRF/tick");
+    info += ("§b§l当前发电量为:" + (time * time + 100) + "§b§lMRF/tick");
 
     event.extraInfo = info;
 });
@@ -105,6 +107,38 @@ RecipeBuilder.newBuilder("tbmk","mana_ele",20,4)
     .setParallelized(false)
     .build();
 
+RecipeBuilder.newBuilder("nengliangchanchu","mana_ele",20,4)
+    .addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
+        val ctrl = event.controller;
+        val data = ctrl.customData;
+        val map = data.asMap();
+        val thread = event.factoryRecipeThread;
+        val time = isNull(map["time"]) ? 0 : map["time"].asInt();
+        val tier = isNull(map["tier"]) ? 0 : map["tier"].asInt();
+        val cc = 1.0f*(time * time + 100);
+        if !(tier == 0) {thread.addModifier("output", RecipeModifierBuilder.create("modularmachinery:energy", "output", cc, 1, false).build());}
+        else {
+            thread.addModifier("zero", RecipeModifierBuilder.create("modularmachinery:energy", "output", 0.0f, 1, false).build());
+            event.setFailed(false,"§4§l反应系统尚未启动");
+        }
+    })
+    .addEnergyPerTickOutput(1000000)
+    .setThreadName("§e反应模块")
+    .setParallelized(false)
+    .build();
+
+RecipeBuilder.newBuilder("qidong","mana_ele",20,4)
+    .addItemInput(<ore:gearMythsteel> * 8)
+    .setThreadName("§e反应模块")
+    .addItemOutput(<additions:botaniaddon-elfsteel_ingot>.withTag({ench: [{lvl: 10 as short, id: 71}], display: {Name: "§6§l注魔精灵钢锭"}}))
+    .addItemOutput(<botania:manaresource:7>.withTag({ench: [{lvl: 10 as short, id: 71}], display: {Name: "§d§l注魔源质钢锭"}}))
+    .addItemOutput(<botania:manaresource:4>.withTag({ench: [{lvl: 10 as short, id: 71}], display: {Name: "§a§l注魔泰拉钢锭"}}))
+    .addItemOutput(<botania:manaresource>.withTag({ench: [{lvl: 10 as short, id: 71}], display: {Name: "§3§l注魔魔力钢锭"}}))
+    .addRecipeTooltip("§e§l制造一份启动材料","§e§l配方循环见JEI凝聚板界面","§e§l4配方需同步进行")
+    .setParallelized(false)
+    .build();
+
+/*
 RecipeBuilder.newBuilder("cs","mana_ele",20,4)
     .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
         val ctrl = event.controller;
@@ -117,3 +151,4 @@ RecipeBuilder.newBuilder("cs","mana_ele",20,4)
     .setThreadName("§e反应模块")
     .setParallelized(false)
     .build();
+*/
