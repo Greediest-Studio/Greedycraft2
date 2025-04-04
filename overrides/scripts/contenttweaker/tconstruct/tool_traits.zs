@@ -3459,6 +3459,16 @@ var EvolvedTiersMap as int[string] = {
     "ordered_metal" : 4
 };
 
+var EvolvedTiersMap1 as int[string] = {
+    "wyvern" : 1,
+    "fallen" : 1,
+    "draconic" : 2,
+    "relifed": 2,
+    "chaotic" : 3,
+    "stormy" : 3,
+    "ordered" : 4
+};
+
 //游戏难度
 //§o快说：谢谢ED！\n§r工具耐久损耗将受到游戏难度加成。
 val leveling_durabilityTrait = TraitBuilder.create("leveling_durability");
@@ -3510,6 +3520,7 @@ leveling_durabilityTrait.onUpdate = function(trait, tool, world, owner, itemSlot
         }
     }
     //Draconic Evolution Tweaks
+    /*
     if (!isNull(tool.tag.EvolvedTier)) {
         var materialIdlist as string[] = [];
         if (CotTicLib.getTicMaterial(tool).length != 0) {
@@ -3519,6 +3530,28 @@ leveling_durabilityTrait.onUpdate = function(trait, tool, world, owner, itemSlot
             for materialId in materialIdlist {
             if (materialId == metal) {
                     var tier as int = EvolvedTiersMap[metal] as int;
+                    if (tool.tag.EvolvedTier as int < tier) {
+                        if (tier >= 3) {
+                            tool.mutable().updateTag({EvolvedTier: 3, EvolvedTierExtra: tier as int});
+                        } else {
+                            tool.mutable().updateTag({EvolvedTier: tier as int, EvolvedTierExtra: tier as int});
+                        }
+                    }
+                    break;
+                }
+            }
+        }
+    }*/
+
+    if (!isNull(tool.tag.EvolvedTier)) {
+        var traitIdlist as string[] = [];
+        if (CotTicTraitLib.getTicTrait(tool).length != 0) {
+            traitIdlist = CotTicTraitLib.getTicTrait(tool) as string[];
+        }
+        for trait in EvolvedTiersMap1 {
+            for traitId in traitIdlist {
+            if (traitId == trait) {
+                    var tier as int = EvolvedTiersMap1[trait] as int;
                     if (tool.tag.EvolvedTier as int < tier) {
                         if (tier >= 3) {
                             tool.mutable().updateTag({EvolvedTier: 3, EvolvedTierExtra: tier as int});

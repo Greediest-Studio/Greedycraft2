@@ -2635,6 +2635,16 @@ var EvolvedTiersMap as int[string] = {
     "ordered_metal" : 4
 };
 
+var EvolvedTiersMap1 as int[string] = {
+    "wyvern_armor" : 1,
+    "fallen_armor" : 1,
+    "draconic_armor" : 2,
+    "relifed_armor": 2,
+    "chaotic_armor" : 3,
+    "stormy_armor" : 3,
+    "ordered_armor" : 4
+};
+
 //游戏难度
 //§o快说：谢谢ED！\n§r护甲耐久损耗将受到游戏难度加成。
 val leveling_durabilityTrait = ArmorTraitBuilder.create("leveling_durability");
@@ -2676,6 +2686,7 @@ leveling_durabilityTrait.onArmorTick = function(trait, armor, world, player) {
         }
     }
     //匠魂进化等级修正
+    /*
     if (!isNull(armor.tag.EvolvedTier)) {
         var materialIdlist as string[] = [];
         if (CotTicLib.getTicMaterial(armor).length != 0) {
@@ -2685,6 +2696,28 @@ leveling_durabilityTrait.onArmorTick = function(trait, armor, world, player) {
             for metal in EvolvedTiersMap {
                 if (materialId == metal) {
                     var tier as int = EvolvedTiersMap[metal] as int;
+                    if (armor.tag.EvolvedTier as int < tier) {
+                        if (tier >= 3) {
+                            armor.mutable().updateTag({EvolvedTier: 3, EvolvedTierExtra: tier as int});
+                        } else {
+                            armor.mutable().updateTag({EvolvedTier: tier as int, EvolvedTierExtra: tier as int});
+                        }
+                    }
+                    break;
+                }
+            }
+        }
+    }*/
+
+    if (!isNull(armor.tag.EvolvedTier)) {
+        var traitIdlist as string[] = [];
+        if (CotTicTraitLib.getTicTrait(armor).length != 0) {
+            traitIdlist = CotTicTraitLib.getTicTrait(armor) as string[];
+        }
+        for trait in EvolvedTiersMap1 {
+            for traitId in traitIdlist {
+            if (traitId == trait) {
+                    var tier as int = EvolvedTiersMap1[trait] as int;
                     if (armor.tag.EvolvedTier as int < tier) {
                         if (tier >= 3) {
                             armor.mutable().updateTag({EvolvedTier: 3, EvolvedTierExtra: tier as int});
