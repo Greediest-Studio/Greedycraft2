@@ -51,7 +51,8 @@ zenClass ticLib {
         <totaltinkers:dagger>,
         <totaltinkers:greatblade>,
         <totaltinkers:scimitar>,
-        <totaltinkers:explosive_bow>
+        <totaltinkers:explosive_bow>,
+        <tconevo:tool_sceptre>
     ];
 
     zenConstructor() {
@@ -95,7 +96,8 @@ zenClass ticLib {
             <totaltinkers:dagger>,
             <totaltinkers:greatblade>,
             <totaltinkers:scimitar>,
-            <totaltinkers:explosive_bow>
+            <totaltinkers:explosive_bow>,
+            <tconevo:tool_sceptre>
         ];
 
         for i in tictool{

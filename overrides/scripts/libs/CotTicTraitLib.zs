@@ -55,7 +55,8 @@ zenClass cotticTraitLib {
         <item:totaltinkers:dagger>,
         <item:totaltinkers:greatblade>,
         <item:totaltinkers:scimitar>,
-        <item:totaltinkers:explosive_bow>
+        <item:totaltinkers:explosive_bow>,
+        <item:tconevo:tool_sceptre>
     ];
 
     zenConstructor() {
@@ -260,7 +261,8 @@ zenClass cotticTraitLib {
             <item:totaltinkers:dagger>,
             <item:totaltinkers:greatblade>,
             <item:totaltinkers:scimitar>,
-            <item:totaltinkers:explosive_bow>
+            <item:totaltinkers:explosive_bow>,
+            <item:tconevo:tool_sceptre>
         ];
 
         for i in allticitem{
