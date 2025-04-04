@@ -34,7 +34,7 @@ MMEvents.onControllerGUIRender("mana_ele" , function(event as ControllerGUIRende
     val ctrl = event.controller;
     val map = ctrl.customData.asMap();
     val tier = isNull(map["tier"]) ? 0 : map["tier"].asInt();
-    val time = isNull(map["time"]) ? 60 : map["time"].asInt();
+    val time = isNull(map["time"]) ? 85 : map["time"].asInt();
     var info as string[] = [
         "§b§l///魔力聚能机监控系统///§r",
         "§e§l当前阶段：" + tier
@@ -43,8 +43,7 @@ MMEvents.onControllerGUIRender("mana_ele" , function(event as ControllerGUIRende
     else {info += "§b§l反应系统已启动，请进行阶段12配方循环以产出能源";}
     info += ("§b§l请于" + time + "tick内完成当前阶段配方");
     info += ("§b§l发电量为(剩余时间^2+100)MRF/tick");
-    info += ("§b§l当前发电量为:" + (time * time + 100) + "§b§lMRF/tick");
-
+    info += ("§b§l当前发电量为:" + (time * time + 85) + "§b§lMRF/tick");
     event.extraInfo = info;
 });
 
@@ -68,9 +67,20 @@ function tier(event as FactoryRecipeTickEvent) {
     val posz = pos0.getOffset(down , 9).getOffset(south , 2);//魔力钻石
     val posj = pos0.getOffset(down , 9).getOffset(east , 2);//精灵钢
     val posw = pos0.getOffset(down , 9).getOffset(north , 2);//微光木
+    val post1 = pos0.getOffset(down , 9).getOffset(west , 2);//精灵石英块
+    val posz1 = pos0.getOffset(down , 9).getOffset(south , 2);//熏香石英块
+    val posj1 = pos0.getOffset(down , 9).getOffset(east , 2);//烈焰石英块
+    val posw1 = pos0.getOffset(down , 9).getOffset(north , 2);//红色石英块
     val tier = isNull(map["tier"]) ? 0 : map["tier"].asInt();
+    if (tier == 0) {
+        if (world.getBlock(post).definition.id has "quartzt" &&world.getBlock(posz).definition.id has "quartzt" && world.getBlock(posj).definition.id has "quartzt" && world.getBlock(posw).definition.id has "quartzt") {
+            map["tier"] = 1;
+            map["time"] = 60;
+            ctrl.customData = data;
+        }
+    }
     if !(tier == 0) {
-        if (tier == 1 && world.getBlock(post).definition.id has "quartzt" && world.getBlock(posz).definition.id has "quartzt" && world.getBlock(posj).definition.id has "quartzt" && world.getBlock(posw).definition.id has "quartzt") {
+        if (tier == 1 && world.getBlock(post1).definition.id has "quartzt" && world.getBlock(posz1).definition.id has "quartzt" && world.getBlock(posj1).definition.id has "quartzt" && world.getBlock(posw1).definition.id has "quartzt") {
             map["tier"] = 2;
             map["time"] = 25;
             ctrl.customData = data;
@@ -83,13 +93,14 @@ function tier(event as FactoryRecipeTickEvent) {
     }
 }
 
+
 RecipeBuilder.newBuilder("tbmk","mana_ele",20,4)
     .addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
         tier(event);
         val ctrl = event.controller;
         val data = ctrl.customData;
         val map = data.asMap();
-        var time = isNull(map["time"]) ? 25 : map["time"].asInt();
+        var time = isNull(map["time"]) ? 200 : map["time"].asInt();
         if (time > 0) {
             time -= 1;
             map["time"] = time;
@@ -107,7 +118,7 @@ RecipeBuilder.newBuilder("tbmk","mana_ele",20,4)
     .setParallelized(false)
     .build();
 
-RecipeBuilder.newBuilder("nengliangchanchu","mana_ele",20,4)
+RecipeBuilder.newBuilder("nengliangchanchu","mana_ele",200,4)
     .addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
         val ctrl = event.controller;
         val data = ctrl.customData;
@@ -115,7 +126,7 @@ RecipeBuilder.newBuilder("nengliangchanchu","mana_ele",20,4)
         val thread = event.factoryRecipeThread;
         val time = isNull(map["time"]) ? 0 : map["time"].asInt();
         val tier = isNull(map["tier"]) ? 0 : map["tier"].asInt();
-        val cc = 1.0f*(time * time + 100);
+        val cc = 1.0f*(time * time + 85);
         if !(tier == 0) {thread.addModifier("output", RecipeModifierBuilder.create("modularmachinery:energy", "output", cc, 1, false).build());}
         else {
             thread.addModifier("zero", RecipeModifierBuilder.create("modularmachinery:energy", "output", 0.0f, 1, false).build());
@@ -137,6 +148,7 @@ RecipeBuilder.newBuilder("qidong","mana_ele",20,4)
     .addRecipeTooltip("§e§l制造一份启动材料","§e§l配方循环见JEI凝聚板界面","§e§l4配方需同步进行")
     .setParallelized(false)
     .build();
+
 
 /*
 RecipeBuilder.newBuilder("cs","mana_ele",20,4)
