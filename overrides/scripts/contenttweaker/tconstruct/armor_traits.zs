@@ -1130,7 +1130,7 @@ specific_immunityTrait.onAbility = function(trait, level, world, player) {
     if (!isNull(player)) {
         player.removePotionEffect(<potion:champions:plague>);
         player.removePotionEffect(<potion:abyssalcraft:cplague>);
-        player.removePotionEffect(<potion:abyssalcraft:dplague_long>);
+        player.removePotionEffect(<potion:abyssalcraft:dplague>);
         player.removePotionEffect(<potion:gct_aby:abyssplague>);
     }
 };
