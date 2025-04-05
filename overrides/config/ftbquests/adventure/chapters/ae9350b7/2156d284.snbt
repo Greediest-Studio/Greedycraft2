@@ -1,0 +1,39 @@
+{
+	title: "§b穿梭阴阳",
+	tags: [
+		"challenge"
+	],
+	x: 3.0d,
+	y: 18.0d,
+	description: "取得bop进度“穿梭阴阳”",
+	text: [
+		"要完成这个进度，你需要到不祥树林（Ominous  wood）种植夜光花， 再去神秘森林（Mystical grove）种植死亡花（需要种植神圣橡木后才能完成该进度）"
+	],
+	tasks: [{
+		uid: "2521714a",
+		type: "advancement",
+		title: "完成进度“穿梭阴阳”",
+		advancement: "穿梭阴阳",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "de3669bd",
+		type: "item",
+		item: "biomesoplenty:biome_finder"
+	},
+	{
+		uid: "da63bd94",
+		type: "xp",
+		xp: 4000
+	},
+	{
+		uid: "78801a00",
+		type: "choice",
+		table: 2
+	},
+	{
+		uid: "67136428",
+		type: "choice",
+		table: 2
+	}]
+}

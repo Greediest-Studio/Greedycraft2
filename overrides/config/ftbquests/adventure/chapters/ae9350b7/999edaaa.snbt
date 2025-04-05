@@ -1,0 +1,58 @@
+{
+	title: "§b圆神",
+	tags: [
+		"challenge"
+	],
+	x: 13.5d,
+	y: 1.5d,
+	description: "制作无限圆石元件",
+	text: [
+		"wow草原"
+	],
+	tasks: [{
+		uid: "a43adb38",
+		type: "item",
+		items: [{
+			id: "extendedae:infinity_cell",
+			tag: {
+				r: {
+					id: "minecraft:cobblestone",
+					Count: 1,
+					Damage: 0s,
+					Cnt: 1L,
+					Req: 0L,
+					Craft: 0b
+				},
+				t: "i"
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e7e7699c",
+		type: "item",
+		item: "extrautils2:compressedcobblestone 1 5"
+	},
+	{
+		uid: "d906ac64",
+		type: "item",
+		item: "twilightforest:giant_cobblestone",
+		count: 64
+	},
+	{
+		uid: "5bb3d8de",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "3a64cec7",
+		type: "choice",
+		table: 2
+	},
+	{
+		uid: "3a7196c2",
+		type: "choice",
+		table: 3
+	}]
+}

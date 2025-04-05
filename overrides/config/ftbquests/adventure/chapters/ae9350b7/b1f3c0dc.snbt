@@ -1,35 +1,40 @@
 {
-	title: "§b可以叠加！",
+	title: "§b还能再快吗？",
 	tags: [
 		"challenge"
 	],
 	x: 3.0d,
 	y: 12.0d,
-	description: "合成或得到一个生长加速器",
+	description: "合成一个最高等级的生长加速器",
 	text: [
 		""
 	],
 	tasks: [{
-		uid: "1a934384",
+		uid: "28084ce8",
 		type: "item",
 		items: [{
-			item: "mysticalagriculture:growth_accelerator"
+			item: "lazymystical:accelerator6"
 		}]
 	}],
 	rewards: [{
-		uid: "2e62825a",
-		type: "random",
-		table: 1
-	},
-	{
 		uid: "c58319a2",
 		type: "xp",
-		xp: 750
+		xp: 3500
 	},
 	{
-		uid: "5b786673",
+		uid: "57f6ea6b",
 		type: "item",
-		item: "mysticalagriculture:growth_accelerator",
-		count: 6
+		item: "lazymystical:accelerator6"
+	},
+	{
+		uid: "0bd507e6",
+		type: "item",
+		item: "lazymystical:accelerator1",
+		count: 8
+	},
+	{
+		uid: "d549820f",
+		type: "choice",
+		table: 2
 	}]
 }

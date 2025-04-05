@@ -1,0 +1,47 @@
+{
+	title: "§b我不想死",
+	tags: [
+		"challenge"
+	],
+	x: 10.5d,
+	y: 0.0d,
+	description: "制作第二颗心",
+	text: [
+		"可以说是血牛"
+	],
+	tasks: [{
+		uid: "dfe0bc91",
+		type: "item",
+		items: [{
+			item: "journey:heartsen"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "401eafc9",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "potioncore:strong_health_boost"
+			}
+		}
+	},
+	{
+		uid: "746cbf25",
+		type: "item",
+		item: "cyclicmagic:heart_food",
+		count: 4
+	},
+	{
+		uid: "b76d6223",
+		type: "xp",
+		xp: 8500
+	},
+	{
+		uid: "376acdda",
+		type: "choice",
+		table: 3
+	}]
+}

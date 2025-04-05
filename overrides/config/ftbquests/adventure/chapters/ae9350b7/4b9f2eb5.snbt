@@ -1,41 +1,181 @@
 {
-	title: "§b轻功火上漂",
+	title: "§b装起来了",
 	tags: [
 		"challenge"
 	],
 	x: 10.5d,
 	y: 1.5d,
-	description: "获得熔岩魔靴，可以在岩浆上方行走",
+	description: "获得很能装的基础精妙背包",
 	text: [
 		""
 	],
 	tasks: [{
-		uid: "5ab1d82d",
+		uid: "1b43bd8f",
 		type: "item",
 		items: [{
-			item: "randomthings:lavawader"
+			id: "retro_sophisticated_backpacks:backpack_leather",
+			ForgeCaps: {
+				Parent: {
+					BackpackInventory: {
+						Items: []
+					},
+					UpgradeSlots: {
+						Items: []
+					},
+					BackpackInventorySize: 27,
+					UpgradeSlotsSize: 1,
+					MemoryItems: {
+						Items: []
+					},
+					MemoryRespectNBT: [B;
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b
+					],
+					SortType: 0b,
+					LockedSlots: [B;
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b
+					],
+					UUIDMost: 332086630677105214L,
+					UUIDLeast: -8579907796692191083L
+				},
+				"retro_sophisticated_backpacks:backpack_capability": {
+					BackpackInventory: {
+						Items: []
+					},
+					UpgradeSlots: {
+						Items: []
+					},
+					BackpackInventorySize: 27,
+					UpgradeSlotsSize: 1,
+					MemoryItems: {
+						Items: []
+					},
+					MemoryRespectNBT: [B;
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b
+					],
+					SortType: 0b,
+					LockedSlots: [B;
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b
+					],
+					UUIDMost: 3619241023421173401L,
+					UUIDLeast: -8210574535832402145L
+				}
+			}
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "d0dd0c75",
-		type: "item",
-		item: "conarm:frosty_soles"
-	},
-	{
-		uid: "97827e1b",
-		type: "item",
-		item: "randomthings:lavacharm"
-	},
-	{
 		uid: "4f4b6e80",
 		type: "xp",
 		xp: 500
 	},
 	{
-		uid: "8366adad",
-		type: "random",
-		table: 1
+		uid: "47403663",
+		type: "choice",
+		table: 0
 	}]
 }

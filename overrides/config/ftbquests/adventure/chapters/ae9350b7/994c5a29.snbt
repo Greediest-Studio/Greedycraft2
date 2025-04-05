@@ -1,0 +1,40 @@
+{
+	title: "§b你以后会用到的",
+	tags: [
+		"challenge"
+	],
+	x: 1.5d,
+	y: 13.5d,
+	description: "制作量子压缩机",
+	text: [
+		"以后要做多少奇点呢"
+	],
+	tasks: [{
+		uid: "ab0dcb79",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:compressor"
+		}]
+	}],
+	rewards: [{
+		uid: "4dd1a5de",
+		type: "item",
+		item: "extendedcrafting:storage 1 3"
+	},
+	{
+		uid: "cf2d2603",
+		type: "item",
+		item: "extendedcrafting:material 1 9",
+		count: 2
+	},
+	{
+		uid: "be2e0e1e",
+		type: "xp",
+		xp: 9000
+	},
+	{
+		uid: "eff89bdc",
+		type: "choice",
+		table: 3
+	}]
+}

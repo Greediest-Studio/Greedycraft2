@@ -1,19 +1,19 @@
 {
-	title: "§b不卡吗",
+	title: "§b飞龙一般的",
 	tags: [
 		"challenge"
 	],
 	x: 12.0d,
 	y: 18.0d,
-	description: "在末地巨大的冰霜之星中寻找黑冰团簇",
+	description: "制作极速向量板",
 	text: [
-		""
+		"我怎么在天上飞啊"
 	],
 	tasks: [{
-		uid: "2ae92a71",
+		uid: "7e4ab050",
 		type: "item",
 		items: [{
-			item: "additions:greedycraft-darkice_ingot"
+			item: "darkutils:trap_move_hyper"
 		}]
 	}],
 	rewards: [{
@@ -24,6 +24,24 @@
 	{
 		uid: "8464089e",
 		type: "xp",
-		xp: 1000
+		xp: 700
+	},
+	{
+		uid: "1231099a",
+		type: "item",
+		item: {
+			id: "cyclicmagic:charm_speed",
+			tag: {}
+		}
+	},
+	{
+		uid: "ce96da55",
+		type: "item",
+		item: {
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "cofhcore:swiftness4"
+			}
+		}
 	}]
 }
