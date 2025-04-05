@@ -28,6 +28,7 @@ import crafttweaker.world.IFacing;
 import crafttweaker.block.IBlock;
 import crafttweaker.entity.IEntity;
 import crafttweaker.util.Position3f;
+import crafttweaker.event.EntityLivingHealEvent;
 
 import mods.ctutils.utils.Math;
 import mods.contenttweaker.tconstruct.Material;
@@ -3695,7 +3696,16 @@ pureTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
     if (owner instanceof IPlayer && isSelected) {
         var player as IPlayer = owner;
         if (player.health > 1.0f) player.health = 1.0f;
-        player.addPotionEffect(<potion:contenttweaker:pure>.makePotionEffect(5, 0, false, false));
+        events.onEntityLivingHeal(function(event as EntityLivingHealEvent) {
+            if !(CotTicTraitLib.getTicTrait(player.currentItem).length == 0) {
+                for trait in CotTicTraitLib.getTicTrait(player.currentItem) {
+                    if (trait == "pure") {
+                        event.cancel();
+                        break;
+                    }
+                }
+            }
+        });
     }
 };
 pureTrait.register();

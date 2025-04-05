@@ -56,7 +56,8 @@ zenClass cotticTraitLib {
         <item:totaltinkers:greatblade>,
         <item:totaltinkers:scimitar>,
         <item:totaltinkers:explosive_bow>,
-        <item:tconevo:tool_sceptre>
+        <item:tconevo:tool_sceptre>,
+        <item:hydrogenation_tinker:energy_stick>
     ];
 
     zenConstructor() {
@@ -262,7 +263,8 @@ zenClass cotticTraitLib {
             <item:totaltinkers:greatblade>,
             <item:totaltinkers:scimitar>,
             <item:totaltinkers:explosive_bow>,
-            <item:tconevo:tool_sceptre>
+            <item:tconevo:tool_sceptre>,
+            <item:hydrogenation_tinker:energy_stick>
         ];
 
         for i in allticitem{
