@@ -3696,19 +3696,22 @@ pureTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
     if (owner instanceof IPlayer && isSelected) {
         var player as IPlayer = owner;
         if (player.health > 1.0f) player.health = 1.0f;
-        events.onEntityLivingHeal(function(event as EntityLivingHealEvent) {
-            if !(CotTicTraitLib.getTicTrait(player.currentItem).length == 0) {
-                for trait in CotTicTraitLib.getTicTrait(player.currentItem) {
-                    if (trait == "pure") {
-                        event.cancel();
-                        break;
-                    }
-                }
-            }
-        });
     }
 };
 pureTrait.register();
+events.onEntityLivingHeal(function(event as EntityLivingHealEvent) {
+    if (event.entityLivingBase instanceof IPlayer) {
+        var player as IPlayer = event.entityLivingBase;
+        if !(CotTicTraitLib.getTicTrait(player.currentItem).length == 0) {
+            for trait in CotTicTraitLib.getTicTrait(player.currentItem) {
+                if (trait == "pure") {
+                    event.cancel();
+                    break;
+                }
+            }
+        }
+    }
+});
 
 val unshapedTrait = TraitBuilder.create("unshaped");
 unshapedTrait.color = Color.fromHex("ffffff").getIntColor(); 
