@@ -21,3 +21,4 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent) {
     
     player.sendChat("护甲：" + armor1 +"，韧性："+ toughness1 +"伤害: " + event.amount);
 });
+*/
