@@ -2,7 +2,7 @@
  * This script is created for the GreedyCraft modpack by TCreopargh.
  * You may NOT use this script in any other publicly distributed modpack without my permission.
  */
-
+#reloadable
 #priority 40
 
 import mods.dropt.Dropt;
@@ -128,13 +128,29 @@ Dropt.list("lucky_clover")
 
 Dropt.list("grass_drop")
     .add(Dropt.rule()
-    .matchBlocks(["minecraft:tallgrass:*","minecraft:grass:*"])
+    .matchBlocks(["minecraft:tallgrass:*",])
     .replaceStrategy("ADD")
     .addDrop(Dropt.drop()
-        .selector(Dropt.weight(70))
+        .selector(Dropt.weight(72))
     )
     .addDrop(Dropt.drop()
-        .selector(Dropt.weight(30))
+        .selector(Dropt.weight(4))
         .items([<contenttweaker:kusa>])
+    )
+        .addDrop(Dropt.drop()
+        .selector(Dropt.weight(1))
+        .items([<minecraft:pumpkin_seeds>])
+    )
+        .addDrop(Dropt.drop()
+        .selector(Dropt.weight(1))
+        .items([<minecraft:melon_seeds>])
+    )
+        .addDrop(Dropt.drop()
+        .selector(Dropt.weight(1))
+        .items([<minecraft:carrot>])
+    )
+        .addDrop(Dropt.drop()
+        .selector(Dropt.weight(1))
+        .items([<minecraft:potato>])
     )
 );
