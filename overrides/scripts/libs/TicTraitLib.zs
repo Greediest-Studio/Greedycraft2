@@ -56,8 +56,7 @@ zenClass ticTraitLib {
         <totaltinkers:greatblade>,
         <totaltinkers:scimitar>,
         <totaltinkers:explosive_bow>,
-        <tconevo:tool_sceptre>,
-        <hydrogenation_tinker:energy_stick>
+        <tconevo:tool_sceptre>
     ];
 
     zenConstructor() {
@@ -267,8 +266,7 @@ zenClass ticTraitLib {
         <totaltinkers:greatblade>,
         <totaltinkers:scimitar>,
         <totaltinkers:explosive_bow>,
-        <tconevo:tool_sceptre>,
-        <hydrogenation_tinker:energy_stick>
+        <tconevo:tool_sceptre>
         ];
 
         for i in allticitem{
