@@ -16,5 +16,20 @@
 		title: "混沌龙",
 		entity: "draconicevolution:chaosguardian",
 		value: 15L
+	}],
+	rewards: [{
+		uid: "3722264e",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "6c9b03ca",
+		type: "loot",
+		table: 3
+	},
+	{
+		uid: "7b04e2e6",
+		type: "loot",
+		table: 3
 	}]
 }

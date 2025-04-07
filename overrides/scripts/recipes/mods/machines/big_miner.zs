@@ -30,6 +30,8 @@ import mods.modularmachinery.MachineModifier;
 import mods.modularmachinery.SmartInterfaceType;
 import mods.modularmachinery.FactoryRecipeThread;
 
+MachineModifier.setMaxParallelism("big_miner", 1);
+
 //-22
 MachineModifier.setMaxThreads("big_miner", 0);
 MachineModifier.addCoreThread("big_miner", FactoryRecipeThread.createCoreThread("§e钻探系统"));//0
@@ -54,7 +56,7 @@ RecipeBuilder.newBuilder("shenyuan","big_miner",20,0)
             RecipeModifierBuilder.create("modularmachinery:item", "output", 2.0f, 1, true).build(),
         ]
     ).setChance(0)
-    .addEnergyPerTickInput(256000000)
+    .addEnergyPerTickInput(51200000)
     .addFluidPerTickInput(<liquid:hecryo_liquid> * 25)
     .setThreadName("§e钻探系统")
     .addGasOutput(<gas:hecryo_gas> * 160000)

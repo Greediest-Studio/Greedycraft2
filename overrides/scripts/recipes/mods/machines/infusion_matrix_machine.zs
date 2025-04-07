@@ -23,7 +23,7 @@ import native.java.math.BigInteger;
 import mods.modularmachinery.MachineUpgradeHelper;
 import mods.modularmachinery.MachineUpgradeBuilder;
 
-MachineModifier.setMaxParallelism("infusion_matrix_machine", 4);
+MachineModifier.setMaxParallelism("infusion_matrix_machine", 1);
 
 MachineUpgradeHelper.registerSupportedItem(<additions:greedycraft-cursium_ingot>);
 MachineUpgradeHelper.registerSupportedItem(<thaumadditions:mithminite_ingot>);
@@ -604,7 +604,7 @@ RecipeBuilder.newBuilder("thaumcraft_34", "infusion_matrix_machine", 300)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "fabrico"}) * 50)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "machina"}) * 30)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "alkimia"}) * 20)
-    .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "lgnis"}) * 10)
+    .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "ignis"}) * 10)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "ordo"}) * 10)
     .addItemInput(<thaumcraft:salis_mundus> * 2)
     .addItemInput(<thaumcraft:morphic_resonator>)
