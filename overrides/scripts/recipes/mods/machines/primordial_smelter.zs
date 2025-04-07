@@ -1,6 +1,5 @@
 /*
  * This script is created for the GreedyCraft Tweaks by 咕咕咕.
- * 请不要添加超过100种源质
  */
 
 #priority 30
@@ -12,22 +11,23 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import thaumcraft.aspect.CTAspect;
 import thaumcraft.aspect.CTAspectStack;
-import crafttweaker.game.IGame;
 
-import mods.modularmachinery.RecipeBuilder;
-import mods.modularmachinery.MachineModifier;
-import mods.modularmachinery.FactoryRecipeThread;
-import mods.modularmachinery.RecipeCheckEvent;
-import mods.modularmachinery.RecipeFinishEvent;
 import mods.modularmachinery.RecipePrimer;
+import mods.modularmachinery.RecipeBuilder;
+
+
+import mods.modularmachinery.IMachineController;
+import mods.modularmachinery.SmartInterfaceData;
+import mods.modularmachinery.MachineModifier;
+import mods.modularmachinery.SmartInterfaceType;
+import mods.modularmachinery.FactoryRecipeThread;
 import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
-MachineModifier.setMaxThreads("primordial_smelter", 100);
-MachineModifier.setInternalParallelism("primordial_smelter", 16);
+MachineModifier.setMaxThreads("primordial_smelter",0);
+MachineModifier.setMaxParallelism("primordial_smelter",1);
 
 var aspectlist = ["aer", "primitivus", "motus", "ignis", "herba", "instrumentum", "victus", "visum", "sonus", "fluctus", "draco", "exanimis", "permutatio", "potentia", "lux", "bestia", "vitium", "terra", "tenebrae", "vacuos", "coralos", "aqua", "praemunio", "abyss", "gelum", "auram", "imperium", "caeles", "dreadia", "machina", "sensus", "vapor", "desiderium", "mortuus", "structura", "cthulhu", "cognitio", "alienis", "sol", "spiritus", "volatus", "metallum", "exitium", "fabrico", "ordo", "vitreus", "ventus", "vinculum", "alkimia", "aversio", "tempestas", "humanus", "pulvis", "praecantatio", "tempus", "infernum", "perditio"] as string[];
-var input =<thaumadditions:vis_pod>.withTag({});
 var thread = 1 as int;
 
 /*
@@ -91,12 +91,23 @@ perditio 57
 */
 
 for asp in aspectlist {
+    var input =<thaumadditions:vis_pod>.withTag({});
     input = input.updateTag({"Aspect":asp});
-    MachineModifier.addCoreThread("primordial_smelter", FactoryRecipeThread.createCoreThread("输出" ~ asp ~ "源质"));
-    val builder as RecipePrimer = RecipeBuilder.newBuilder(asp ~ "1" , "primordial_smelter", 1 , thread , false);
-    builder.addItemInput(input);
-    builder.addEnergyPerTickInput(512);
-    builder.addThaumcraftAspcetOutput(5, asp);
-    builder.build();
+    MachineModifier.addCoreThread("primordial_smelter", FactoryRecipeThread.createCoreThread("冶炼" ~ asp ~ "魔力豆荚"));
+    RecipeBuilder.newBuilder(asp ~ "1" , "primordial_smelter", 1 , 1 , false)
+        .addItemInput(input)
+        .addEnergyPerTickInput(512)
+        .addThaumcraftAspcetOutput(5, asp)
+        .setThreadName("冶炼" ~ asp ~ "魔力豆荚")
+        .build();
     thread += 1;
+    var input1 = "thaumadditions:vis_seeds/";
+    input1 += asp;
+    MachineModifier.addCoreThread("primordial_smelter", FactoryRecipeThread.createCoreThread("冶炼" ~ asp ~ "魔力种子"));
+    RecipeBuilder.newBuilder(asp ~ "2" , "primordial_smelter", 1 , 1 , false)
+        .addItemInput(itemUtils.getItem(input1))
+        .addEnergyPerTickInput(512)
+        .addThaumcraftAspcetOutput(2, asp)
+        .setThreadName("冶炼" ~ asp ~ "魔力种子")
+        .build();
 }
