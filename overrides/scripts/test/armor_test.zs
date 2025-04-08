@@ -16,9 +16,12 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent) {
     }
 
     var player as IPlayer = event.entityLivingBase;
+    var source = event.damageSource;
+    
     val armor1 = player.getAttribute("generic.armor").getAttributeValue();
     val toughness1 = player.getAttribute("generic.armorToughness").getAttributeValue();
     
+    player.sendChat("DamageType: " + source.damageType);
     player.sendChat("护甲：" + armor1 +"，韧性："+ toughness1 +"伤害: " + event.amount);
 });
 */
