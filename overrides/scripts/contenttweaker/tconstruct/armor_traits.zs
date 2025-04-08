@@ -3078,8 +3078,10 @@ panoramaTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor
 panoramaTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player) && !isNull(source.getTrueSource())) {
         var entity as IEntityLivingBase = source.getTrueSource();
-        if (entity.definition.name.split(":")[0] != "minecraft") {
-            return newDamage * 0.75f;
+        if (!isNull(entity.definition)) {
+            if (entity.definition.name.split(":")[0] != "minecraft") {
+                return newDamage * 0.75f;
+            }
         }
     }
     return newDamage;
