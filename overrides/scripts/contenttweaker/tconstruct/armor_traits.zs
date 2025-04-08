@@ -2666,16 +2666,15 @@ leveling_durabilityTrait.onArmorDamaged = function(trait, armor, damageSource, a
                 ToolHelper.breakTool(armor.mutable().native, player.native);
             } else {
                 armor.mutable().attemptDamageItemWithEnergy(min((armor.maxDamage * 0.03),(armor.maxDamage / 200)) as int, player);
-            }            
-            return newAmount;
+            }
         } else {
             if (min((armor.maxDamage * 0.03),(armor.damage + (amount * (mtp - 1.0f))) as int) >= armor.maxDamage) {
                 ToolHelper.breakTool(armor.mutable().native, player.native);
             } else {
                 armor.mutable().attemptDamageItemWithEnergy(min((armor.maxDamage * 0.03),(amount * (mtp - 1.0f))) as int, player);
-            }            
-            return newAmount;
+            }
         }
+        return 0;
     }
     return newAmount;
 };
@@ -3409,9 +3408,9 @@ watcherTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.w
 watcherTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.watcherTrait.desc");
 watcherTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player)) {
-        if (source.damageType == "mob") {
+        if (source.damageType == "GENERIC") {
             return newDamage * 0.9f;
-        } else if (source.damageType == "magic" || source.damageType == "indirectMagic") {
+        } else if (source.damageType == "MAGIC") {
             return newDamage * 0.93f;
         }
     }

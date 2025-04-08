@@ -3489,11 +3489,10 @@ leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, 
         }
         if (min((tool.maxDamage * 0.06f) as float,(tool.damage + unmodifiedAmount * mtp) as float) >= tool.maxDamage) {
             ToolHelper.breakTool(tool.mutable().native, player.native);
-            return 0;
         } else {
             tool.mutable().attemptDamageItemWithEnergy(min((tool.maxDamage * 0.06f) as float ,(unmodifiedAmount * (mtp - 1.0f) * 3) as float) as int, player);
         }
-        return newAmount;
+        return 0;
     }
     return newAmount;
 };
