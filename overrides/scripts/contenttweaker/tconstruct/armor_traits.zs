@@ -3409,9 +3409,9 @@ watcherTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.w
 watcherTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.watcherTrait.desc");
 watcherTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player)) {
-        if (source.damageType == "GENERIC") {
+        if (source.damageType == "mob") {
             return newDamage * 0.9f;
-        } else if (source.damageType == "MAGIC") {
+        } else if (source.damageType == "magic" || source.damageType == "indirectMagic") {
             return newDamage * 0.93f;
         }
     }
