@@ -2673,20 +2673,20 @@ leveling_durabilityTrait.onArmorDamaged = function(trait, armor, damageSource, a
         } else {
             mtp = (93.0f / 4160.0f) * difficulty as float - (43.0f / 13.0f) as float;
         }
-        if ((amount * mtp) as int >= armor.maxDamage / 200) {
-            if (min((armor.maxDamage * 0.03),(armor.damage + (armor.maxDamage / 200))) >= (armor.maxDamage - armor.damage)) {
+        if ((1.0f * amount * mtp) >= 1.0f * (armor.maxDamage / 200)) {
+            if (min((0.03f * armor.maxDamage),(1.0f * armor.damage + (armor.maxDamage / 200))) >= (1.0f * armor.maxDamage - armor.damage)) {
                 ToolHelper.breakTool(armor.mutable().native, player.native);
                 return 0;
             } else {
-                //armor.mutable().attemptDamageItemWithEnergy(min((armor.maxDamage * 0.03),(armor.maxDamage / 200)) as int, player);
-                return min((armor.maxDamage * 0.03),(armor.maxDamage / 200)) as int;
+                armor.mutable().attemptDamageItemWithEnergy(1 * (min((0.03f * armor.maxDamage),(1.0f * (armor.maxDamage / 200)))) as int, player);
+                return 0;
             }
         } else {
-            if (min((armor.maxDamage * 0.03),(armor.damage + (amount * (mtp - 1.0f))) as int) >= (armor.maxDamage - armor.damage)) {
+            if (min((0.03f * armor.maxDamage),(armor.damage + ((mtp - 1.0f) * amount))) >= (1.0f * (armor.maxDamage - armor.damage))) {
                 ToolHelper.breakTool(armor.mutable().native, player.native);
                 return 0;
             } else {
-                armor.mutable().attemptDamageItemWithEnergy(min((armor.maxDamage * 0.03),(amount * (mtp - 1.0f))) as int, player);
+                armor.mutable().attemptDamageItemWithEnergy(1 * min((0.03f * armor.maxDamage),((mtp - 1.0f) * amount)) as int, player);
                 return 0;
             }
         }
