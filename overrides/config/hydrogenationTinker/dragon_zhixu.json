@@ -29,7 +29,8 @@
         "type":"add_trait",
         "part":"tconevo.magic",
         "traits":[
-          {"identifier": "tconevo.evolved", "color": -5987164, "level": 1, "CanonicalTraitLevel": 1}
+          {"identifier": "tconevo.evolved", "color": -5987164, "level": 1, "CanonicalTraitLevel": 1},
+          "ordered"
         ]
       }
     ]
