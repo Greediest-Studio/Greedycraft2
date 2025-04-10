@@ -7,6 +7,7 @@ var Tooltipitem as string[IItemStack] = {
     <contenttweaker:bauble_vitamins> : game.localize('test.bauble2.name'),
     <contenttweaker:bauble_gaste> : game.localize('test.bauble3.name'),
     <contenttweaker:bauble_energy_gum> : game.localize('content.bauble_energy_gum_tooltip.name'),
+    <contenttweaker:bauble_horseshoe_balloon> : game.localize('content.bauble_horseshoe_balloon_tooltip.name'),
 };
 
 for m , k in Tooltipitem{
