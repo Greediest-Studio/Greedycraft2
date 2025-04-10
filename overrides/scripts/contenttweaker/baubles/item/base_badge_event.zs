@@ -21,7 +21,17 @@ events.onEntityLivingDamage(function(events as EntityLivingDamageEvent){
             if (player.isBaubleEquipped(<contenttweaker:bauble_ranger_badge>) != -1) {
                 if (source.damageType == "arrow") {
                     events.amount *= 1.15F;
-                }
+                }              
+            }
+            if (player.isBaubleEquipped(<contenttweaker:bauble_wizard_badge>) != -1) {
+                if (source.damageType == "magic" ||source.damageType == "indirectMagic") {
+                    events.amount *= 1.15F;
+                }              
+            }
+            if (player.isBaubleEquipped(<contenttweaker:bauble_warrior_badge>) != -1) {
+                if (source.damageType == "player") {
+                    events.amount *= 1.15F;
+                }              
             }
         }}
 });
