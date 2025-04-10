@@ -18,6 +18,8 @@ import scripts.util.lang as LangUtil;
 //                            //
 ////////////////////////////////
 
+recipes.remove(<hydrogenation_tinker:field_generator>.withTag({Material: "nether_star"}));
+
 RecipeUtil.addShaped("calculator_subsystem_l4", <ecoaeextension:extendable_calculator_subsystem_l4>, [
     [<ecoaeextension:ecalculator_casing>, <additions:greedycraft-calculation_processor_2>, <ecoaeextension:ecalculator_casing>],
     [<additions:greedycraft-calculation_processor_2>, <projecte:item.pe_philosophers_stone>, <additions:greedycraft-calculation_processor_2>],
