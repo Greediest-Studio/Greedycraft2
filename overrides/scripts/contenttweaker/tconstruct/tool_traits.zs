@@ -3078,7 +3078,7 @@ parasitismTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelec
             var traitcounts as int = traits.length as int;
             var count as int = Math.floor((Math.random() as float * traitcounts as float)) as int;
             var choice as string = traits[count];
-            if ((CotTicTraitLib.getTraitColor(tool, "parasitism") != CotTicTraitLib.getTraitColor(tool, choice)) && (choice != "tool_leveling") && (choice != "parasitism") && (choice != "leveling_durability")) {
+            if ((CotTicTraitLib.getTraitColor(tool, "parasitism") != CotTicTraitLib.getTraitColor(tool, choice)) && (choice != "tool_leveling") && (choice != "parasitism") && (choice != "leveling_durability") && !(choice has "draconic_") && !(choice has "evolved")) {
                 var pass as bool = true;
                 if (!isNull(tool.tag.parasitismTraits)) {
                     for i in 0 to tool.tag.parasitismTraits.length {
@@ -3480,22 +3480,24 @@ leveling_durabilityTrait.hidden = true;
 leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, newAmount, holder) {
     if (holder instanceof IPlayer) {
         var player as IPlayer = holder;
-        var difficulty as int = DifficultyManager.getDifficulty(player) as int;
+        //var difficulty as int = DifficultyManager.getDifficulty(player) as int;
+        var difficulty as int = player.difficulty as int;
         var mtp as float = 1.0f;
         if (difficulty < 256) {
             mtp = (1.0f / 640.0f) * difficulty as float + 1.0f;
         } else {
             mtp = (93.0f / 4160.0f) * difficulty as float - (43.0f / 13.0f) as float;
-        }
-        if (min((tool.maxDamage * 0.06f) as float,(tool.damage + unmodifiedAmount * mtp) as float) >= tool.maxDamage) {
+        }/*
+        if (min(((1.0f * tool.maxDamage) * 0.06f) as float,((1.0f * tool.damage + unmodifiedAmount) * mtp) as float) >= (1.0f * (tool.maxDamage - tool.damage))) {
             ToolHelper.breakTool(tool.mutable().native, player.native);
         } else {
-            tool.mutable().attemptDamageItemWithEnergy(min((tool.maxDamage * 0.06f) as float ,(unmodifiedAmount * (mtp - 1.0f) * 3) as float) as int, player);
+            tool.mutable().attemptDamageItemWithEnergy(min(((1.0f * tool.maxDamage) * 0.06f) as float,((1.0f * tool.damage + unmodifiedAmount) * mtp) as float) as int, player);
+            //client.player.sendChat("应当损失耐久：" + min(((1.0f * tool.maxDamage) * 0.06f) as float,((1.0f * tool.damage + unmodifiedAmount) * mtp) as float) as int);
         }
-        return 0;
+        return 0;*/
     }
     return newAmount;
-};
+};/*
 leveling_durabilityTrait.afterBlockBreak = function(trait, tool, world, blockstate, blockPos, miner, wasEffective) {
     if (miner instanceof IPlayer) {
         var player as IPlayer = miner;
@@ -3506,13 +3508,13 @@ leveling_durabilityTrait.afterBlockBreak = function(trait, tool, world, blocksta
         } else {
             mtp = (93.0f / 4160.0f) * difficulty as float - (43.0f / 13.0f) as float;
         }
-        if (min((tool.maxDamage * 0.03f),(tool.damage + 2 * mtp)) as int >= tool.maxDamage) {
+        if (min((tool.maxDamage * 0.03f),(tool.damage + 2 * mtp)) as int >= (tool.maxDamage - tool.damage)) {
             ToolHelper.breakTool(tool.mutable().native, player.native);
         } else {
             tool.mutable().attemptDamageItemWithEnergy(min((tool.maxDamage * 0.03f) as int,(2 * (mtp - 1.0f) as float) as int), player);
         }
     }
-};
+}; */
 leveling_durabilityTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
     if (!isNull(tool.tag.Unbreakable)) {
         if (tool.tag.Unbreakable as byte == 1 as byte) {

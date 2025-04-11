@@ -30,11 +30,12 @@ import mods.modularmachinery.MachineModifier;
 import mods.modularmachinery.SmartInterfaceType;
 import mods.modularmachinery.FactoryRecipeThread;
 
+MachineModifier.setMaxParallelism("big_miner", 1);
 
 //-22
 MachineModifier.setMaxThreads("big_miner", 0);
 MachineModifier.addCoreThread("big_miner", FactoryRecipeThread.createCoreThread("§e钻探系统"));//0
-MachineModifier.setMaxParallelism("big_miner" , 1);
+MachineModifier.setMaxParallelism("big_miner" , 128);
 
 RecipeBuilder.newBuilder("shenyuan","big_miner",20,0)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
@@ -378,6 +379,8 @@ RecipeBuilder.newBuilder("shenyuan","big_miner",20,0)
     .addItemOutput(<additions:taigaddon-losessium_ore> * 8)
     .setChance(0.35f / 10.0f)
     .addItemOutput(<additions:greedycraft-infernium_ore> * 8)
+    .setChance(0.35f / 10.0f)
+    .addItemOutput(<taiga:prometheum_ore> * 8)
     .setChance(0.35f / 10.0f)
     .addFactoryFinishHandler(function (event as FactoryRecipeFinishEvent) {
         Sync.addSyncTask(function(){
