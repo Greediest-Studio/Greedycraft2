@@ -2453,10 +2453,8 @@ wyvernTrait.onHurt = function(trait, armor, player, source, damage, newDamage, e
     if (!isNull(player) && !isNull(source.getTrueSource())) {
         if (source.getTrueSource() instanceof IEntityLivingBase) {
             var entity as IEntityLivingBase = source.getTrueSource();
-            if !(isNull(entity.definition)) {
-                if (entity.definition.id == "minecraft:ender_dragon") {
-                    return newDamage * 0.7f;
-                }
+            if (entity.definition.id == "minecraft:ender_dragon") {
+                return newDamage * 0.7f;
             }
         }
     }
@@ -2474,10 +2472,8 @@ fallenTrait.onHurt = function(trait, armor, player, source, damage, newDamage, e
     if (!isNull(player) && !isNull(source.getTrueSource())) {
         if (source.getTrueSource() instanceof IEntityLivingBase) {
             var entity as IEntityLivingBase = source.getTrueSource();
-            if !(isNull(entity.definition)) {
-                if (entity.definition.id == "minecraft:wither") {
-                    return newDamage * 0.7f;
-                }
+            if (entity.definition.id == "minecraft:wither") {
+                return newDamage * 0.7f;
             }
         }
     }
@@ -2495,10 +2491,8 @@ draconicTrait.onHurt = function(trait, armor, player, source, damage, newDamage,
     if (!isNull(player) && !isNull(source.getTrueSource())) {
         if (source.getTrueSource() instanceof IEntityLivingBase) {
             var entity as IEntityLivingBase = source.getTrueSource();
-            if !(isNull(entity.definition)) {
-                if (entity.definition.id == "minecraft:ender_dragon") {
-                    return newDamage * 0.5f;
-                }
+            if (entity.definition.id == "minecraft:ender_dragon") {
+                return newDamage * 0.5f;
             }
         }
     }
@@ -2516,10 +2510,8 @@ relifedTrait.onHurt = function(trait, armor, player, source, damage, newDamage, 
     if (!isNull(player) && !isNull(source.getTrueSource())) {
         if (source.getTrueSource() instanceof IEntityLivingBase) {
             var entity as IEntityLivingBase = source.getTrueSource();
-            if !(isNull(entity.definition)) {
-                if (entity.definition.id == "minecraft:wither") {
-                    return newDamage * 0.5f;
-                }
+            if (entity.definition.id == "minecraft:wither") {
+                return newDamage * 0.5f;
             }
         }
     }
@@ -2537,13 +2529,11 @@ chaoticTrait.onHurt = function(trait, armor, player, source, damage, newDamage, 
     if (!isNull(player) && !isNull(source.getTrueSource())) {
         if (source.getTrueSource() instanceof IEntityLivingBase) {
             var entity as IEntityLivingBase = source.getTrueSource();
-            if !(isNull(entity.definition)) {
-                if (entity.definition.id == "minecraft:ender_dragon") {
-                    return newDamage * 0.4f;
-                }
-                if (entity.definition.id has "draconicevolution") {
-                    return newDamage * 0.5f;
-                }
+            if (entity.definition.id == "minecraft:ender_dragon") {
+                return newDamage * 0.4f;
+            }
+            if (entity.definition.id has "draconicevolution") {
+                return newDamage * 0.5f;
             }
         }
     }
@@ -2561,13 +2551,11 @@ stormyTrait.onHurt = function(trait, armor, player, source, damage, newDamage, e
     if (!isNull(player) && !isNull(source.getTrueSource())) {
         if (source.getTrueSource() instanceof IEntityLivingBase) {
             var entity as IEntityLivingBase = source.getTrueSource();
-            if !(isNull(entity.definition)) {
-                if (entity.definition.id == "minecraft:wither") {
-                    return newDamage * 0.4f;
-                }
-                if (entity.definition.id has "ageofminecraft:witherstorm") {
-                    return newDamage * 0.5f;
-                }
+            if (entity.definition.id == "minecraft:wither") {
+                return newDamage * 0.4f;
+            }
+            if (entity.definition.id has "ageofminecraft:witherstorm") {
+                return newDamage * 0.5f;
             }
         }
     }
@@ -2673,23 +2661,20 @@ leveling_durabilityTrait.onArmorDamaged = function(trait, armor, damageSource, a
         } else {
             mtp = (93.0f / 4160.0f) * difficulty as float - (43.0f / 13.0f) as float;
         }
-        if ((1.0f * amount * mtp) >= 1.0f * (armor.maxDamage / 200)) {
-            if (min((0.03f * armor.maxDamage),(1.0f * armor.damage + (armor.maxDamage / 200))) >= (1.0f * armor.maxDamage - armor.damage)) {
+        if ((amount * mtp) as int >= armor.maxDamage / 200) {
+            if (min((armor.maxDamage * 0.03),(armor.damage + (armor.maxDamage / 200))) >= armor.maxDamage) {
                 ToolHelper.breakTool(armor.mutable().native, player.native);
-                return 0;
             } else {
-                armor.mutable().attemptDamageItemWithEnergy(1 * (min((0.03f * armor.maxDamage),(1.0f * (armor.maxDamage / 200)))) as int, player);
-                return 0;
+                armor.mutable().attemptDamageItemWithEnergy(min((armor.maxDamage * 0.03),(armor.maxDamage / 200)) as int, player);
             }
         } else {
-            if (min((0.03f * armor.maxDamage),(armor.damage + ((mtp - 1.0f) * amount))) >= (1.0f * (armor.maxDamage - armor.damage))) {
+            if (min((armor.maxDamage * 0.03),(armor.damage + (amount * (mtp - 1.0f))) as int) >= armor.maxDamage) {
                 ToolHelper.breakTool(armor.mutable().native, player.native);
-                return 0;
             } else {
-                armor.mutable().attemptDamageItemWithEnergy(1 * min((0.03f * armor.maxDamage),((mtp - 1.0f) * amount)) as int, player);
-                return 0;
+                armor.mutable().attemptDamageItemWithEnergy(min((armor.maxDamage * 0.03),(amount * (mtp - 1.0f))) as int, player);
             }
         }
+        return 0;
     }
     return newAmount;
 };
