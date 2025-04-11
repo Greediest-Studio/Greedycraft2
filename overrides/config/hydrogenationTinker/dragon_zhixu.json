@@ -1,5 +1,5 @@
 {
-  "ore:ingotOrderedMetal":{
+  "gct_ores:ordered_metal_ingot":{
     "new_material":true,
     "steps": [
       {
@@ -17,7 +17,7 @@
       },
       {
         "type":"add_item",
-        "ore_dict":"ingotOrderedMetal"
+        "ore_dict":"gct_ores:ordered_metal_ingot"
       },
       {
         "type":"add_state",
