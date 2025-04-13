@@ -24,7 +24,8 @@ static nolist as string[] = [
     "modularmachinery:chaos_reactor",
     "modularmachinery:big_alloy_smelter",
     "modularmachinery:demon_will_crafter",
-    "modularmachinery:mana_ele"
+    "modularmachinery:mana_ele",
+    "modularmachinery:small_furnace"
 ];
 
 val nolistitem as IItemStack[] = [
@@ -36,7 +37,8 @@ val nolistitem as IItemStack[] = [
     <modularmachinery:chaos_reactor_controller>,
     <modularmachinery:big_alloy_smelter_controller>,
     <modularmachinery:demon_will_crafter_controller>,
-    <modularmachinery:mana_ele_controller>
+    <modularmachinery:mana_ele_controller>,
+    <modularmachinery:small_furnace_controller>
 ];
 
 for item in nolistitem {
@@ -1083,5 +1085,16 @@ for i in 3 to 7 {
         .addItemInput(<ore:frameElementium> * 16)
         .addEnergyPerTickInput(120)
         .addItemOutput(<modularmachinery:mana_ele_factory_controller>) 
+        .build();        
+}
+//小型熔炼单元
+for i in 1 to 7 {
+    RecipeBuilder.newBuilder("small_furnace" + i, "builder_" + i, 1200)
+        .addFluidInput(<liquid:redstone> * 45000)
+        .addItemInput(<ore:gearStainlessSteel> * 32)
+        .addItemInput(<ore:blockDarkSteel> * 12)
+        .addItemInput(<ore:itemEnhancedMachineChassi> * 8)
+        .addEnergyPerTickInput(120)
+        .addItemOutput(<modularmachinery:small_furnace_factory_controller>) 
         .build();        
 }
