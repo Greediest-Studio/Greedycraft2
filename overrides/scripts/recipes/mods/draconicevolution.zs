@@ -69,7 +69,7 @@ FusionCrafting.add(<gct_ores:rng_relinquisher>, <draconicevolution:chaotic_core>
     <ore:metalChaotic>
 ]);
 
-FusionCrafting.add(<minecraft:command_block>, <gct_ores:command_core>, 3, 52428800000, [
+FusionCrafting.add(<minecraft:command_block>, <gct_ores:command_core>, 3, 5242880000, [
     <ore:coreRelifed>,
     <ore:coreRelifed>,
     <ore:coreRelifed>,

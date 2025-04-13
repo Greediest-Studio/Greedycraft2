@@ -9,12 +9,12 @@
             "x": 0,
             "y": -1,
             "z": 0,
-            "description": "替换成此方块时产物会提高到200%",
+            "description": "替换成此方块时加工时间降低到50%",
             "modifier": {
-                "target": "modularmachinery:item",
-                "io": "output",
+                "target": "modularmachinery:duration",
+                "io": "input",
                 "operation": 1,
-                "multiplier": 2
+                "multiplier": 0.5
             }
         }
     ],
