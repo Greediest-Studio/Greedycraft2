@@ -98,7 +98,7 @@ for ores in oreDict.entries {
         val od_ingotlist = od_ingot.itemArray;
         for ingot in od_ingotlist {
             if !isNull(ingot) && !test(ingot) {
-                RecipeBuilder.newBuilder("ingot1" + ingot.definition.id, "small_furnace", 20)
+                RecipeBuilder.newBuilder("small_furnace_ingot1" + ores.name, "small_furnace", 20)
                     .addPreCheckHandler(function(event as RecipeCheckEvent) {
                         val map = event.controller.customData.asMap();
                         val bx = isNull(map["bx"]) ? 1 : map["bx"].asInt();
@@ -115,7 +115,7 @@ for ores in oreDict.entries {
         val od_gemlist = od_gem.itemArray;
         for gem in od_gemlist {
             if !isNull(gem) && !test(gem) {
-                RecipeBuilder.newBuilder("gem1" + gem.definition.id, "small_furnace", 20)
+                RecipeBuilder.newBuilder("small_furnace_gem1" + ores.name, "small_furnace", 20)
                     .addPreCheckHandler(function(event as RecipeCheckEvent) {
                         val map = event.controller.customData.asMap();
                         val bx = isNull(map["bx"]) ? 1 : map["bx"].asInt();
@@ -133,7 +133,7 @@ for ores in oreDict.entries {
         val od_ingotlist = od_ingot.itemArray;
         for ingot in od_ingotlist {
             if !isNull(ingot) && !test(ingot) {
-                RecipeBuilder.newBuilder("dust1" + ingot.definition.id, "small_furnace", 20)
+                RecipeBuilder.newBuilder("small_furnace_dust1" + ores.name, "small_furnace", 20)
                     .addPreCheckHandler(function(event as RecipeCheckEvent) {
                         val map = event.controller.customData.asMap();
                         val bx = isNull(map["bx"]) ? 1 : map["bx"].asInt();
@@ -143,6 +143,7 @@ for ores in oreDict.entries {
                     .addEnergyPerTickInput(400)
                     .addItemOutput(ingot * 1)
                     .build();
+                //break;
             }
         }
 
@@ -150,7 +151,7 @@ for ores in oreDict.entries {
         val od_gemlist = od_gem.itemArray;
         for gem in od_gemlist {
             if !isNull(gem) && !test(gem) {
-                RecipeBuilder.newBuilder("dust2" + gem.definition.id, "small_furnace", 20)
+                RecipeBuilder.newBuilder("small_furnace_dust2" + ores.name, "small_furnace", 20)
                     .addPreCheckHandler(function(event as RecipeCheckEvent) {
                         val map = event.controller.customData.asMap();
                         val bx = isNull(map["bx"]) ? 1 : map["bx"].asInt();
@@ -160,6 +161,7 @@ for ores in oreDict.entries {
                     .addEnergyPerTickInput(400)
                     .addItemOutput(gem * 1)
                     .build();
+                //break;
             }
         }
     }
