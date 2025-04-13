@@ -165,8 +165,8 @@ for ores in oreDict.entries {
     }
 }
 
-function recipe(input as IIngredient,output as IItemStack,duration as int = 20,energy as int = 400) {
-    RecipeBuilder.newBuilder(output.definition.id, "small_furnace", duration)
+function recipe(input as IIngredient,output as IItemStack,duration as int = 20,energy as int = 400,uuid as int = 1) {
+    RecipeBuilder.newBuilder(output.definition.id + uuid, "small_furnace", duration)
         .addPreCheckHandler(function(event as RecipeCheckEvent) {
             val map = event.controller.customData.asMap();
             val bx = isNull(map["bx"]) ? 1 : map["bx"].asInt();
@@ -210,6 +210,9 @@ level(<ore:coreOrdered>,5,256,32);
 
 recipe(<ore:sand>,<minecraft:glass>);
 recipe(<ore:dustNetherQuartz>,<appliedenergistics2:material:5>);
-recipe(<ore:dustCertusQuartz>,<appliedenergistics2:material:5>);
+recipe(<ore:dustCertusQuartz>,<appliedenergistics2:material:5>,20,400,2);
 recipe(<minecraft:cobblestone>,<minecraft:stone>);
 recipe(<ore:blockSkyStone>,<appliedenergistics2:smooth_sky_stone_block>);
+recipe(<ore:cropChorusfruit>,<minecraft:chorus_fruit_popped>);
+recipe(<ore:netherrack>,<minecraft:netherbrick>);
+recipe(<ore:itemClay>,<minecraft:brick>);

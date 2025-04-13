@@ -382,6 +382,8 @@ RecipeBuilder.newBuilder("shenyuan","big_miner",20,0)
     .setChance(0.35f / 10.0f)
     .addItemOutput(<taiga:prometheum_ore> * 8)
     .setChance(0.35f / 10.0f)
+    .addItemOutput(<additions:taigaddon-tanatonium_ore> * 8)
+    .setChance(0.35f / 10.0f)
     .addFactoryFinishHandler(function (event as FactoryRecipeFinishEvent) {
         Sync.addSyncTask(function(){
             val ctrl = event.controller;

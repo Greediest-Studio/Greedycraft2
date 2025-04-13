@@ -382,6 +382,30 @@ RecipeBuilder.newBuilder("husturite_ingot" , "factory_giant" , "1")
     .addEnergyPerTickInput(1000)
     .addItemOutput(<additions:taigaddon-husturite_ingot> * 1)
     .build();
+
+RecipeBuilder.newBuilder("twilight_crystal_ingot" , "factory_giant" , "1")
+    .addItemInput(<ore:ingotEden> * 1)
+    .addItemInput(<ore:ingotWildwood> * 1)
+    .addItemInput(<ore:ingotApalachia> * 1)
+    .addItemInput(<ore:ingotSkythern> * 1)
+    .addItemInput(<ore:ingotMortum> * 1)
+    .addEnergyPerTickInput(1000)
+    .addItemOutput(<additions:greedycraft-twilight_crystal_ingot> * 1)
+    .build();
+
+RecipeBuilder.newBuilder("thermallite_ingot" , "factory_giant" , "100")
+    .addItemInput(<additions:mekaddon-balance_core> * 1)
+    .addFluidInput(<liquid:pyrotheum> * 10000)
+    .addFluidInput(<liquid:cryotheum> * 10000)
+    .addFluidInput(<liquid:aerotheum> * 10000)
+    .addFluidInput(<liquid:petrotheum> * 10000)
+    .addFluidInput(<liquid:lumixeium> * 10000)
+    .addFluidInput(<liquid:noxexeum> * 10000)
+    .addFluidInput(<liquid:tonitruium> * 10000)
+    .addFluidInput(<liquid:naturaeum> * 10000)
+    .addEnergyPerTickInput(10000)
+    .addItemOutput(<additions:mekaddon-thermallite_ingot> * 1)
+    .build();
 //龙研
 //核心
 RecipeBuilder.newBuilder("wyvern_core" , "factory_giant" , "20")
