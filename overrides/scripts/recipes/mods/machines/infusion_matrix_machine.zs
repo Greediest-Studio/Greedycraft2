@@ -423,7 +423,7 @@ RecipeBuilder.newBuilder("thaumcraft_21", "infusion_matrix_machine", 400)
     })
     .addItemOutput(<additions:greedycraft-crimsonite_block>)
     .build();
-#风之结晶
+# 风之结晶
 RecipeBuilder.newBuilder("thaumcraft_22", "infusion_matrix_machine", 400)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "aer"}) * 20)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "vitreus"}) * 20)
@@ -434,7 +434,7 @@ RecipeBuilder.newBuilder("thaumcraft_22", "infusion_matrix_machine", 400)
     .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumcraft:crystal_aer>)
     .build();
-#火之结晶
+# 火之结晶
 RecipeBuilder.newBuilder("thaumcraft_23", "infusion_matrix_machine", 400)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "lgnis"}) * 20)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "vitreus"}) * 20)
@@ -445,7 +445,7 @@ RecipeBuilder.newBuilder("thaumcraft_23", "infusion_matrix_machine", 400)
     .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumcraft:crystal_ignis>)
     .build();
-#水之结晶
+# 水之结晶
 RecipeBuilder.newBuilder("thaumcraft_24", "infusion_matrix_machine", 400)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "aqua"}) * 20)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "vitreus"}) * 20)
@@ -456,7 +456,7 @@ RecipeBuilder.newBuilder("thaumcraft_24", "infusion_matrix_machine", 400)
     .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumcraft:crystal_aqua>)
     .build();
-#地之结晶
+# 地之结晶
 RecipeBuilder.newBuilder("thaumcraft_25", "infusion_matrix_machine", 400)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "terra"}) * 20)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "vitreus"}) * 20)
@@ -467,7 +467,7 @@ RecipeBuilder.newBuilder("thaumcraft_25", "infusion_matrix_machine", 400)
     .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumcraft:crystal_terra>)
     .build();
-#秩序结晶
+# 秩序结晶
 RecipeBuilder.newBuilder("thaumcraft_26", "infusion_matrix_machine", 400)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "ordo"}) * 20)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "vitreus"}) * 20)
@@ -478,7 +478,7 @@ RecipeBuilder.newBuilder("thaumcraft_26", "infusion_matrix_machine", 400)
     .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumcraft:crystal_ordo>)
     .build();
-#混沌结晶
+# 混沌结晶
 RecipeBuilder.newBuilder("thaumcraft_27", "infusion_matrix_machine", 400)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "perditio"}) * 20)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "vitreus"}) * 20)
@@ -489,7 +489,7 @@ RecipeBuilder.newBuilder("thaumcraft_27", "infusion_matrix_machine", 400)
     .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumcraft:crystal_perditio>)
     .build();
-#咒波结晶
+# 咒波结晶
 RecipeBuilder.newBuilder("thaumcraft_28", "infusion_matrix_machine", 400)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "lgnis"}) * 20)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "vitreus"}) * 20)
@@ -500,7 +500,7 @@ RecipeBuilder.newBuilder("thaumcraft_28", "infusion_matrix_machine", 400)
     .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumcraft:crystal_vitium>)
     .build();
-#增强元金锭
+# 增强元金锭
 RecipeBuilder.newBuilder("thaumcraft_29", "infusion_matrix_machine", 400)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "gelum"}) * 300)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "lux"}) * 300)
@@ -528,7 +528,7 @@ RecipeBuilder.newBuilder("thaumcraft_29", "infusion_matrix_machine", 400)
     })
     .addItemOutput(<additions:greedycraft-extended_primal_metal_ingot>)
     .build();
-#巨型源质冶炼炉控制器
+# 巨型源质冶炼炉控制器
 RecipeBuilder.newBuilder("thaumcraft_30", "infusion_matrix_machine", 400)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "caeles"}) * 2000)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "praecantatio"}) * 2000)
@@ -546,7 +546,7 @@ RecipeBuilder.newBuilder("thaumcraft_30", "infusion_matrix_machine", 400)
     .addEnergyPerTickInput(100000)
     .addItemOutput(<gct_mac:giant_smelter>)
     .build();
-#木乃伊诱饵
+# 木乃伊诱饵
 RecipeBuilder.newBuilder("thaumcraft_31", "infusion_matrix_machine", 500)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "victus"}) * 2400)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "imperium"}) * 800)
@@ -559,7 +559,7 @@ RecipeBuilder.newBuilder("thaumcraft_31", "infusion_matrix_machine", 500)
     .addItemInput(<thebetweenlands:dentrothyst_fluid_vial:1>.withTag({Fluid: {FluidName: "shallowbreath", Amount: 1000}}))
     .addItemOutput(<thebetweenlands:mummy_bait>)
     .build();
-#奥数钻探机
+# 奥数钻探机
 RecipeBuilder.newBuilder("thaumcraft_32", "infusion_matrix_machine", 500)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "machina"}) * 100)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "potentia"}) * 50)
@@ -586,7 +586,7 @@ RecipeBuilder.newBuilder("thaumcraft_32", "infusion_matrix_machine", 500)
     .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumcraft:turret:2>)
     .build();
-#开眼邪术拱顶石
+# 开眼邪术拱顶石
 RecipeBuilder.newBuilder("thaumcraft_33", "infusion_matrix_machine", 600)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "vitium"}) * 1000)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "machina"}) * 1000)
@@ -599,7 +599,7 @@ RecipeBuilder.newBuilder("thaumcraft_33", "infusion_matrix_machine", 600)
     .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumicaugmentation:capstone:2>)
     .build();
-#封包神秘炼金塔
+# 封包神秘炼金塔
 RecipeBuilder.newBuilder("thaumcraft_34", "infusion_matrix_machine", 300)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "fabrico"}) * 50)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "machina"}) * 30)
@@ -624,7 +624,7 @@ RecipeBuilder.newBuilder("thaumcraft_34", "infusion_matrix_machine", 300)
     })
     .addItemOutput(<packagedthaumic:crucible_crafter>)
     .build();
-#封包符文矩阵
+# 封包符文矩阵
 RecipeBuilder.newBuilder("thaumcraft_35", "infusion_matrix_machine", 200)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "fabrico"}) * 100)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "machina"}) * 50)
@@ -655,5 +655,27 @@ RecipeBuilder.newBuilder("thaumcraft_35", "infusion_matrix_machine", 200)
         }
     })
     .addItemOutput(<packagedthaumic:infusion_crafter>)
+    .build();
+# 秘银谐振器
+RecipeBuilder.newBuilder("thaumcraft_36", "infusion_matrix_machine", 200)
+    .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "aer"}) * 20)
+    .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "aqua"}) * 20)
+    .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "ordo"}) * 20)
+    .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "perditio"}) * 20)
+    .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "lgnis"}) * 20)
+    .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "terra"}) * 20)
+    .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "imperium"}) * 20)
+    .addItemInput(<thaumcraft:mechanism_complex> * 2)
+    .addItemInput(<thaumcraft:morphic_resonator> * 1)
+    .addItemInput(<thaumadditions:mithrillium_plate> * 2)
+    .addEnergyPerTickInput(100000)
+    .addItemOutput(<thaumadditions:mithrillium_resonator>)
+    .build();
+# 源质安瓿
+RecipeBuilder.newBuilder("thaumcraft_37", "infusion_matrix_machine", 200)
+    .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "vitium"}) * 200)
+    .addItemInput(<thaumcraft:phial> * 10)
+    .addEnergyPerTickInput(100000)
+    .addItemOutput(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "vitium"}]}) * 10)
     .build();
 

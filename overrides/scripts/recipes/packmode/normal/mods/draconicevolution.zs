@@ -43,7 +43,7 @@ FusionCrafting.add(<additions:greedycraft-blueprint_tinkering>, <additions:greed
     <ore:ingotWitherium>,
     <ore:ingotWitherium>
 ]);
-FusionCrafting.add(<draconicevolution:chaotic_core>, <draconicevolution:chaos_shard>, 2, 3145728000, [ 
+FusionCrafting.add(<draconicevolution:chaotic_core>, <draconicevolution:chaos_shard>, 2, 314572800, [ 
     <tconevo:metal>,
     <tconevo:metal>,
     <tconevo:metal:5>,
