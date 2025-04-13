@@ -129,7 +129,7 @@ for ores in oreDict.entries {
         }
     }
     if ores.name has "dust" {
-        val od_ingot = oreDict.get(ores.name.replace("ore","ingot"));
+        val od_ingot = oreDict.get(ores.name.replace("dust","ingot"));
         val od_ingotlist = od_ingot.itemArray;
         for ingot in od_ingotlist {
             if !isNull(ingot) && !test(ingot) {
@@ -146,7 +146,7 @@ for ores in oreDict.entries {
             }
         }
 
-        val od_gem = oreDict.get(ores.name.replace("ore","gem"));
+        val od_gem = oreDict.get(ores.name.replace("dust","gem"));
         val od_gemlist = od_gem.itemArray;
         for gem in od_gemlist {
             if !isNull(gem) && !test(gem) {
