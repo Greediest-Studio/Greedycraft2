@@ -30,12 +30,11 @@ import mods.modularmachinery.MachineModifier;
 import mods.modularmachinery.SmartInterfaceType;
 import mods.modularmachinery.FactoryRecipeThread;
 
-MachineModifier.setMaxParallelism("big_miner", 1);
 
 //-22
 MachineModifier.setMaxThreads("big_miner", 0);
 MachineModifier.addCoreThread("big_miner", FactoryRecipeThread.createCoreThread("§e钻探系统"));//0
-MachineModifier.setMaxParallelism("big_miner" , 128);
+MachineModifier.setMaxParallelism("big_miner" , 1);
 
 RecipeBuilder.newBuilder("shenyuan","big_miner",20,0)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {

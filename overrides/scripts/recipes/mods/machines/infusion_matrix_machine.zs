@@ -678,4 +678,10 @@ RecipeBuilder.newBuilder("thaumcraft_37", "infusion_matrix_machine", 200)
     .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "vitium"}]}) * 10)
     .build();
-
+# 影素
+RecipeBuilder.newBuilder("thaumcraft_38", "infusion_matrix_machine", 100)
+    .addItemInput(<minecraft:iron_ingot> * 10)
+    .addAspcetInput(400, "vitium")
+    .addEnergyPerTickInput(100000)
+    .addItemOutput(<defiledlands:umbrium_ingot> * 10)
+    .build();
