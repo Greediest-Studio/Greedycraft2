@@ -20,19 +20,15 @@ import mods.modularmachinery.RecipePrimer;
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.RecipeCheckEvent;
 import mods.modularmachinery.FactoryRecipeStartEvent;
-import mods.modularmachinery.FactoryRecipeTickEvent;
 import mods.modularmachinery.FactoryRecipeFinishEvent;
 import mods.modularmachinery.RecipeModifierBuilder;
-import mods.modularmachinery.SmartInterfaceUpdateEvent;
 import mods.modularmachinery.Sync;
 
 import mods.modularmachinery.MMEvents;
 import mods.modularmachinery.ControllerGUIRenderEvent;
 
 import mods.modularmachinery.IMachineController;
-import mods.modularmachinery.SmartInterfaceData;
 import mods.modularmachinery.MachineModifier;
-import mods.modularmachinery.SmartInterfaceType;
 import mods.modularmachinery.FactoryRecipeThread;
 
 MachineModifier.setMaxThreads("mana_liquefactor", 0);
@@ -53,7 +49,7 @@ MMEvents.onControllerGUIRender("mana_liquefactor", function(event as ControllerG
         "§3§l///魔力液化系统///",
         "§3§l当前以缓存魔力: " + mana + "/" + maxmana,
         "§3§l当前最大产出(mB/tick): " + bx,
-        "§3§l检测中心魔力池魔力含量进行输入"
+        "§3§l自动从中心魔力池输入魔力"
     ];
 
     event.extraInfo = info;
@@ -101,14 +97,19 @@ RecipeBuilder.newBuilder("mana_liquefactor_liquidedmana", "mana_liquefactor", 1)
         val mana = isNull(map["mana"]) ? 0 : map["mana"].asInt();
         val bx = event.activeRecipe.parallelism;
         if (mana - bx * 1000 <= 0) {event.setFailed("§3§l魔力不足");}
-        else {
-            map["mana"] = mana - bx * 1000;
-            map["bx"] = bx;
-            ctrl.customData = data;
-        }
     })
     .addEnergyPerTickInput(1000)
     .addFluidOutput(<liquid:mana> * 1)
+    .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
+        val ctrl = event.controller;
+        val data = ctrl.customData;
+        val map = data.asMap();
+        val mana = isNull(map["mana"]) ? 0 : map["mana"].asInt();
+        val bx = event.activeRecipe.parallelism;
+        map["mana"] = mana - bx * 1000;
+        map["bx"] = bx;
+        ctrl.customData = data;
+    })
     .setThreadName("§3§l魔力液化模块")
     .addRecipeTooltip("§3§l液化已缓存魔力")
     .build();
