@@ -1,24 +1,114 @@
 /*
- * This script is created for the GreedyCraft Tweaks by mc_Edwin.
+ * This script is created for the GreedyCraft Tweaks by 孤梦梦.
  */
 
 #priority 50
+#loader crafttweaker reloadable
 
-
-import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.world.IWorld;
 import crafttweaker.item.IItemStack;
-import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
+import crafttweaker.block.IBlock;
+import crafttweaker.block.IBlockDefinition;
+import crafttweaker.world.IBlockPos;
 import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.data.IData;
+import crafttweaker.util.Math;
 
+import mods.modularmachinery.RecipePrimer;
 import mods.modularmachinery.RecipeBuilder;
-import mods.ctutils.utils.Math;
-import mods.jei.JEI;
+import mods.modularmachinery.RecipeCheckEvent;
+import mods.modularmachinery.FactoryRecipeStartEvent;
+import mods.modularmachinery.FactoryRecipeTickEvent;
+import mods.modularmachinery.FactoryRecipeFinishEvent;
+import mods.modularmachinery.RecipeModifierBuilder;
+import mods.modularmachinery.SmartInterfaceUpdateEvent;
+import mods.modularmachinery.Sync;
 
-import scripts.util.machines as MMUtil;
+import mods.modularmachinery.MMEvents;
+import mods.modularmachinery.ControllerGUIRenderEvent;
 
-RecipeBuilder.newBuilder("liquidedmana", "mana_liquefactor", 1)
-    .addManaInput(1000)
+import mods.modularmachinery.IMachineController;
+import mods.modularmachinery.SmartInterfaceData;
+import mods.modularmachinery.MachineModifier;
+import mods.modularmachinery.SmartInterfaceType;
+import mods.modularmachinery.FactoryRecipeThread;
+
+MachineModifier.setMaxThreads("mana_liquefactor", 0);
+val srmk = FactoryRecipeThread.createCoreThread("§3§l魔力输入模块");
+val scmk = FactoryRecipeThread.createCoreThread("§3§l魔力液化模块");
+MachineModifier.addCoreThread("mana_liquefactor", srmk);
+MachineModifier.addCoreThread("mana_liquefactor", scmk);
+
+MMEvents.onControllerGUIRender("mana_liquefactor", function(event as ControllerGUIRenderEvent) {
+    val ctrl = event.controller;
+    val data = ctrl.customData;
+    val map = data.asMap();
+    val mana = isNull(map["mana"]) ? 0 : map["mana"].asInt();
+    val maxmana = isNull(map["maxmana"]) ? 1000000 : map["maxmana"].asInt();
+    val bx = isNull(map["bx"]) ? 1 : map["bx"].asInt();
+
+    val info as string[] = [
+        "§3§l///魔力液化系统///",
+        "§3§l当前以缓存魔力: " + mana + "/" + maxmana,
+        "§3§l当前最大产出(mB/tick): " + bx,
+        "§3§l检测中心魔力池魔力含量进行输入"
+    ];
+
+    event.extraInfo = info;
+});
+
+function input(event as FactoryRecipeFinishEvent) {
+    val ctrl = event.controller;
+    val data = ctrl.customData;
+    val map = data.asMap();
+    val mana = isNull(map["mana"]) ? 0 : map["mana"].asInt();
+    val pos = ctrl.pos.up(4);
+    val pooldata = ctrl.world.getBlock(pos).data;
+    val maxmana = isNull(pooldata.manaCap) ? 1000000 : pooldata.manaCap.asInt();
+    val poolmana = isNull(pooldata.mana) ? 0 : pooldata.mana.asInt();
+    map["mana"] = amount(mana,poolmana,maxmana,ctrl);
+    map["maxmana"] = maxmana;
+    ctrl.customData = data;
+}
+
+function amount(mana as int,poolmana as int,maxmana as int,ctrl as IMachineController) as int {
+    if !(ctrl.world.remote) {
+        if (mana + poolmana >= maxmana) {
+            ctrl.world.setBlockState(ctrl.world.getBlockState(ctrl.pos.up(4)),{manaCap: maxmana, mana: (poolmana - (maxmana - mana))},ctrl.pos.up(4));
+            return maxmana;
+        }
+        else {
+            ctrl.world.setBlockState(ctrl.world.getBlockState(ctrl.pos.up(4)),{manaCap: maxmana, mana: 0},ctrl.pos.up(4));
+            return mana + poolmana;
+        }
+    }
+}
+
+RecipeBuilder.newBuilder("mana_liquefactor_manainput","mana_liquefactor",20)
+    .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {input(event);})
+    .addRecipeTooltip("§3§l向控制器缓存添加魔力")
+    .setThreadName("§3§l魔力输入模块")
+    .setParallelized(false)
+    .build();
+
+RecipeBuilder.newBuilder("mana_liquefactor_liquidedmana", "mana_liquefactor", 1)
+    .addPreCheckHandler(function(event as RecipeCheckEvent) {
+        val ctrl = event.controller;
+        val data = ctrl.customData;
+        val map = data.asMap();
+        val mana = isNull(map["mana"]) ? 0 : map["mana"].asInt();
+        val bx = event.activeRecipe.parallelism;
+        if (mana - bx * 1000 <= 0) {event.setFailed("§3§l魔力不足");}
+        else {
+            map["mana"] = mana - bx * 1000;
+            map["bx"] = bx;
+            ctrl.customData = data;
+        }
+    })
     .addEnergyPerTickInput(1000)
     .addFluidOutput(<liquid:mana> * 1)
+    .setThreadName("§3§l魔力液化模块")
+    .addRecipeTooltip("§3§l液化已缓存魔力")
     .build();
