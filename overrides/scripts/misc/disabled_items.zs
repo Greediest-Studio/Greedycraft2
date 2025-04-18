@@ -1533,7 +1533,6 @@ var disabledItems as IIngredient[] = [
     <nae2:coprocessor_4x>,
     <nae2:coprocessor_16x>,
     <nae2:coprocessor_64x>,
-    <extrautils2:snowglobe>,
     <enderio:block_inventory_panel>,
     <enderio:block_inventory_chest_tiny>,
     <enderio:block_inventory_chest_small>,
@@ -1548,10 +1547,12 @@ var disabledItems as IIngredient[] = [
     <enderio:item_inventory_remote>,
     <enderio:item_inventory_remote:1>,
     <mekanism:mektool>,
-    <mekanism:mekasuitboots>.withTag({}),
-    <mekanism:mekasuitleggings>.withTag({}),
-    <mekanism:mekasuithelmet>.withTag({}),
-    <mekanism:mekasuitchestplate>.withTag({})
+    <mekanism:mekasuitboots>,
+    <mekanism:mekasuitleggings>,
+    <mekanism:mekasuithelmet>,
+    <mekanism:mekasuitchestplate>,
+    <whimcraft:blockmeaspectinputbusmmce>,
+    <whimcraft:blockmeaspectoutputbusmmce>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [

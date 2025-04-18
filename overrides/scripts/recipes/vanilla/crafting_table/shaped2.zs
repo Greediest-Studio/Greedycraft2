@@ -185,16 +185,6 @@ RecipeUtil.addShaped("ecoc_256m_gas", <ecoaeextension:estorage_cell_gas_256m>.wi
     [<additions:chromasteel_ingot>,<ecoaeextension:estorage_cell_gas_64m>.withTag({}),<additions:chromasteel_ingot>],
     [null,<additions:chromasteel_ingot>,null]
 ]);
-RecipeUtil.addShaped("aspcet_mmce_input", <whimcraft:blockmeaspectinputbusmmce>, [
-    [<thaumicenergistics:essentia_import>,<modularmachinery:blockcasing>,<thaumicenergistics:essentia_import>],
-    [<modularmachinery:blockcasing>,<thaumicenergistics:infusion_provider>,<modularmachinery:blockcasing>],
-    [<thaumicenergistics:essentia_import>,<modularmachinery:blockcasing>,<thaumicenergistics:essentia_import>]
-]);
-RecipeUtil.addShaped("aspcet_mmce_output", <whimcraft:blockmeaspectoutputbusmmce>, [
-    [<thaumicenergistics:essentia_export>,<modularmachinery:blockcasing>,<thaumicenergistics:essentia_export>],
-    [<modularmachinery:blockcasing>,<thaumicenergistics:infusion_provider>,<modularmachinery:blockcasing>],
-    [<thaumicenergistics:essentia_export>,<modularmachinery:blockcasing>,<thaumicenergistics:essentia_export>]
-]);
 RecipeUtil.addShaped("aspcet_gugu_output", <whimcraft:blockmeaspectoutputbus>, [
     [<modularmachinery:blockcasing>,<thaumicenergistics:essentia_export>,<modularmachinery:blockcasing>],
     [<thaumicenergistics:essentia_export>,<thaumicenergistics:infusion_provider>,<thaumicenergistics:essentia_export>],
