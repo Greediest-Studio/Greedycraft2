@@ -180,21 +180,20 @@ for row in crops {
         tier = 6;
     }
     RecipeBuilder.newBuilder(regName + "_grow_" + seed.name + "_" + recipeId, regName, time[tier], 0)
-    .addItemInput(seed)
+    .addItemInput(seed).setChance(0.0f)
     .addEnergyPerTickInput(energy[tier])
     .addFluidInput(<liquid:organic_fluid> * fluid[tier])
-    .addItemOutput(seed)
     .addItemOutput(seed)
     .setChance(seedChance[tier] as float)
     .addItemOutput(essence)
     .addItemOutput(essence)
+    .setChance(0.5f)
+    .addItemOutput(essence)
     .setChance(0.25f)
     .addItemOutput(essence)
     .setChance(0.125f)
-    .addItemOutput(essence)
-    .setChance(0.0625f)
     .addItemOutput(<mysticalagriculture:fertilized_essence>)
-    .setChance(0.01f)
+    .setChance(0.03f)
     .build();
     
     recipeId += 1;

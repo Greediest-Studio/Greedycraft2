@@ -13,11 +13,11 @@ import mods.zenutils.I18n;
 
 static regName as string = "organic_infuser";
 static energy as int[] = [160, 240, 320, 480, 560, 800, 1600] as int[];
-static time as int[] = [40, 60, 100, 160, 240, 400, 4800] as int[];
-static fluid as int[] = [500, 550, 600, 650, 700, 800, 3200] as int[];
+static time as int[] = [4, 6, 10, 16, 24, 40, 48] as int[];
+static fluid as int[] = [50, 55, 60, 65, 70, 80, 320] as int[];
 static timeCarpenter as int[] = [60, 75, 80, 100, 140, 210, 1200] as int[];
 static fluidCarpenter as int[] = [600, 750, 900, 1200, 1600, 2400, 10000] as int[];
-static seedChance as float[] = [0.12f, 0.1f, 0.08f, 0.06f, 0.04f, 0.02f, 0.005f] as float[];
+static seedChance as float[] = [0.36f, 0.3f, 0.24f, 0.18f, 0.12f, 0.06f, 0.03f] as float[];
 
 function registerSeedRecipe(seed as IItemStack, baseItem as IItemStack, tier as int, outputAmount as int, essence as IItemStack, outputStack as IItemStack) {
 
@@ -63,9 +63,9 @@ function registerSeedRecipe(seed as IItemStack, baseItem as IItemStack, tier as 
         ] as IIngredient[][]);
         mods.modularmachinery.RecipeBuilder.newBuilder(regName + "_grow_" + seed.name, regName, time[tier], 0)
             .addItemInput(seed)
+            .setChance(0.0f)
             .addEnergyPerTickInput(energy[tier])
             .addFluidInput(<liquid:organic_fluid> * fluid[tier])
-            .addItemOutput(seed)
             .addItemOutput(seed)
             .setChance(seedChance[tier] as float)
             .addItemOutput(essence)
@@ -76,7 +76,7 @@ function registerSeedRecipe(seed as IItemStack, baseItem as IItemStack, tier as 
             .addItemOutput(essence)
             .setChance(0.125f)
             .addItemOutput(<mysticalagriculture:fertilized_essence>)
-            .setChance(0.01f)
+            .setChance(0.03f)
             .build();
     }
 }
