@@ -182,7 +182,6 @@ for row in crops {
     RecipeBuilder.newBuilder(regName + "_grow_" + seed.name + "_" + recipeId, regName, time[tier], 0)
     .addItemInput(seed).setChance(0.0f)
     .addEnergyPerTickInput(energy[tier])
-    .addFluidInput(<liquid:organic_fluid> * fluid[tier])
     .addItemOutput(seed)
     .setChance(seedChance[tier] as float)
     .addItemOutput(essence)

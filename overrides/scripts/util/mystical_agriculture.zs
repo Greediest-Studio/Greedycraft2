@@ -65,7 +65,6 @@ function registerSeedRecipe(seed as IItemStack, baseItem as IItemStack, tier as 
             .addItemInput(seed)
             .setChance(0.0f)
             .addEnergyPerTickInput(energy[tier])
-            .addFluidInput(<liquid:organic_fluid> * fluid[tier])
             .addItemOutput(seed)
             .setChance(seedChance[tier] as float)
             .addItemOutput(essence)

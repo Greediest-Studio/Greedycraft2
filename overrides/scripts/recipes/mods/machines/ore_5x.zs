@@ -13,13 +13,17 @@ import crafttweaker.liquid.ILiquidStack;
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.RecipeAdapterBuilder;
 import mods.modularmachinery.MachineModifier;
+import mods.modularmachinery.FactoryRecipeThread;
 import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
 import scripts.util.machines as MMUtil;
 
-MachineModifier.setMaxThreads("ore_5x", 128);
+MachineModifier.setMaxThreads("ore_5x", 0);
 MachineModifier.setInternalParallelism("ore_5x", 16384);
+for i in 0 to 128 {
+    MachineModifier.addCoreThread("ore_5x", FactoryRecipeThread.createCoreThread("§e§l处理线程" + i));
+}
 
 static banlist as IItemStack[] = [
     <nuclearcraft:ingot:11>,
