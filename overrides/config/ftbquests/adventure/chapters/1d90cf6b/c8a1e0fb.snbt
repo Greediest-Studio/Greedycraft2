@@ -1,0 +1,17 @@
+{
+	title: "大型熔炉",
+	icon: "minecraft:furnace",
+	x: -8.0d,
+	y: 4.0d,
+	description: "可升级的熔炉",
+	dependencies: [
+		"e9311022"
+	],
+	tasks: [{
+		uid: "4328938b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:small_furnace_factory_controller"
+		}]
+	}]
+}

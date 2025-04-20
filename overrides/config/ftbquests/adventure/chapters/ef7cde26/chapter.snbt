@@ -3,6 +3,7 @@
 	icon: {
 		id: "tconevo:tool_sceptre",
 		tag: {
+			Unbreakable: 1b,
 			TinkerData: {
 				Materials: [
 					"infinity_metal",
@@ -12,35 +13,6 @@
 				],
 				Modifiers: [
 					"toolleveling"
-				]
-			},
-			Stats: {
-				Durability: 97533,
-				HarvestLevel: 127,
-				Attack: 20884.0f,
-				MiningSpeed: 333.0f,
-				AttackSpeedMultiplier: 1.0f,
-				FreeModifiers: 5,
-				DrawSpeed: 1.0f,
-				Range: 2.0f,
-				ProjectileBonusDamage: 0.0f
-			},
-			StatsOriginal: {
-				Durability: 97533,
-				HarvestLevel: 127,
-				Attack: 20884.0f,
-				MiningSpeed: 333.0f,
-				AttackSpeedMultiplier: 1.0f,
-				FreeModifiers: 3,
-				DrawSpeed: 1.0f,
-				Range: 2.0f,
-				ProjectileBonusDamage: 0.0f
-			},
-			Special: {
-				Categories: [
-					"launcher",
-					"weapon",
-					"tool"
 				]
 			},
 			Modifiers: [{
@@ -58,12 +30,40 @@
 				color: 16777215,
 				level: 1
 			}],
+			Stats: {
+				MiningSpeed: 333.0f,
+				HarvestLevel: 127,
+				DrawSpeed: 1.0f,
+				FreeModifiers: 5,
+				AttackSpeedMultiplier: 1.0f,
+				Attack: 20884.0f,
+				Range: 2.0f,
+				ProjectileBonusDamage: 0.0f,
+				Durability: 97533
+			},
+			Special: {
+				Categories: [
+					"launcher",
+					"weapon",
+					"tool"
+				]
+			},
 			Traits: [
 				"tconevo.infinitum",
 				"tconevo.omnipotence",
 				"toolleveling"
 			],
-			Unbreakable: 1b
+			StatsOriginal: {
+				MiningSpeed: 333.0f,
+				HarvestLevel: 127,
+				DrawSpeed: 1.0f,
+				FreeModifiers: 3,
+				AttackSpeedMultiplier: 1.0f,
+				Attack: 20884.0f,
+				Range: 2.0f,
+				ProjectileBonusDamage: 0.0f,
+				Durability: 97533
+			}
 		}
 	},
 	always_invisible: 0b,

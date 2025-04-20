@@ -3,6 +3,7 @@
 	icon: {
 		id: "tconstruct:shuriken",
 		tag: {
+			Unbreakable: 1b,
 			TinkerData: {
 				Materials: [
 					"infinity_metal",
@@ -12,31 +13,6 @@
 				],
 				Modifiers: [
 					"toolleveling"
-				]
-			},
-			Stats: {
-				Durability: 23050,
-				HarvestLevel: 127,
-				Attack: 32768.0f,
-				MiningSpeed: 666.0f,
-				AttackSpeedMultiplier: 1.0f,
-				FreeModifiers: 5,
-				Accuracy: 1.0f
-			},
-			StatsOriginal: {
-				Durability: 23050,
-				HarvestLevel: 127,
-				Attack: 32768.0f,
-				MiningSpeed: 666.0f,
-				AttackSpeedMultiplier: 1.0f,
-				FreeModifiers: 3,
-				Accuracy: 1.0f
-			},
-			Special: {
-				Categories: [
-					"no_melee",
-					"projectile",
-					"tool"
 				]
 			},
 			Modifiers: [{
@@ -54,12 +30,36 @@
 				color: 16777215,
 				level: 1
 			}],
+			Stats: {
+				MiningSpeed: 666.0f,
+				HarvestLevel: 127,
+				Accuracy: 1.0f,
+				FreeModifiers: 5,
+				AttackSpeedMultiplier: 1.0f,
+				Attack: 32768.0f,
+				Durability: 23050
+			},
+			Special: {
+				Categories: [
+					"no_melee",
+					"projectile",
+					"tool"
+				]
+			},
 			Traits: [
 				"tconevo.infinitum",
 				"tconevo.omnipotence",
 				"toolleveling"
 			],
-			Unbreakable: 1b
+			StatsOriginal: {
+				MiningSpeed: 666.0f,
+				HarvestLevel: 127,
+				Accuracy: 1.0f,
+				FreeModifiers: 3,
+				AttackSpeedMultiplier: 1.0f,
+				Attack: 32768.0f,
+				Durability: 23050
+			}
 		}
 	},
 	disable_toast: 1b,

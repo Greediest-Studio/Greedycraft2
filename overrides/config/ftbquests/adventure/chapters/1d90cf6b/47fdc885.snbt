@@ -3,6 +3,21 @@
 	icon: {
 		id: "tconstruct:pickaxe",
 		tag: {
+			Special: {
+				Categories: [
+					"harvest",
+					"tool",
+					"aoe"
+				]
+			},
+			Stats: {
+				FreeModifiers: 5,
+				MiningSpeed: 15.3f,
+				AttackSpeedMultiplier: 1.0f,
+				HarvestLevel: 5,
+				Attack: 11.5f,
+				Durability: 7280
+			},
 			TinkerData: {
 				Materials: [
 					"durasteel",
@@ -11,29 +26,6 @@
 				],
 				Modifiers: [
 					"toolleveling"
-				]
-			},
-			Stats: {
-				Durability: 7280,
-				HarvestLevel: 5,
-				Attack: 11.5f,
-				MiningSpeed: 15.3f,
-				AttackSpeedMultiplier: 1.0f,
-				FreeModifiers: 5
-			},
-			StatsOriginal: {
-				Durability: 7280,
-				HarvestLevel: 5,
-				Attack: 11.5f,
-				MiningSpeed: 15.3f,
-				AttackSpeedMultiplier: 1.0f,
-				FreeModifiers: 3
-			},
-			Special: {
-				Categories: [
-					"harvest",
-					"tool",
-					"aoe"
 				]
 			},
 			Modifiers: [{
@@ -56,6 +48,14 @@
 				color: 16777215,
 				level: 1
 			}],
+			StatsOriginal: {
+				FreeModifiers: 3,
+				MiningSpeed: 15.3f,
+				AttackSpeedMultiplier: 1.0f,
+				HarvestLevel: 5,
+				Attack: 11.5f,
+				Durability: 7280
+			},
 			Traits: [
 				"coldblooded",
 				"duritos",

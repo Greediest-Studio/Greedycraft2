@@ -15,7 +15,10 @@
 		items: [{
 			id: "thermalexpansion:cell",
 			tag: {
-				Facing: 3b,
+				Energy: 0,
+				RSControl: 0b,
+				Level: 0b,
+				Send: 1000,
 				SideCache: [B;
 					2b,
 					1b,
@@ -24,10 +27,7 @@
 					1b,
 					1b
 				],
-				RSControl: 0b,
-				Energy: 0,
-				Level: 0b,
-				Send: 1000,
+				Facing: 3b,
 				Recv: 1000
 			}
 		}],

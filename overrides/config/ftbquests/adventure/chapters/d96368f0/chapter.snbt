@@ -3,6 +3,7 @@
 	icon: {
 		id: "plustic:laser_gun",
 		tag: {
+			Unbreakable: 1b,
 			TinkerData: {
 				Materials: [
 					"infinity_metal",
@@ -12,34 +13,6 @@
 				],
 				Modifiers: [
 					"toolleveling"
-				]
-			},
-			Stats: {
-				Durability: 80394,
-				HarvestLevel: 127,
-				Attack: 2.5f,
-				MiningSpeed: 666.0f,
-				AttackSpeedMultiplier: 1.0f,
-				FreeModifiers: 5,
-				LaserGunEnergy: 120000,
-				LaserGunPower: 2.5f,
-				LaserGunRange: 20.0f
-			},
-			StatsOriginal: {
-				Durability: 80394,
-				HarvestLevel: 127,
-				Attack: 2.5f,
-				MiningSpeed: 666.0f,
-				AttackSpeedMultiplier: 1.0f,
-				FreeModifiers: 3,
-				LaserGunEnergy: 120000,
-				LaserGunPower: 2.5f,
-				LaserGunRange: 20.0f
-			},
-			Special: {
-				Categories: [
-					"weapon",
-					"tool"
 				]
 			},
 			Modifiers: [{
@@ -62,13 +35,40 @@
 				color: 16777215,
 				level: 1
 			}],
+			Stats: {
+				MiningSpeed: 666.0f,
+				HarvestLevel: 127,
+				LaserGunRange: 20.0f,
+				FreeModifiers: 5,
+				AttackSpeedMultiplier: 1.0f,
+				Attack: 2.5f,
+				LaserGunPower: 2.5f,
+				LaserGunEnergy: 120000,
+				Durability: 80394
+			},
+			Special: {
+				Categories: [
+					"weapon",
+					"tool"
+				]
+			},
 			Traits: [
 				"tconevo.infinitum",
 				"tconevo.omnipotence",
 				"coldblooded",
 				"toolleveling"
 			],
-			Unbreakable: 1b
+			StatsOriginal: {
+				MiningSpeed: 666.0f,
+				HarvestLevel: 127,
+				LaserGunRange: 20.0f,
+				FreeModifiers: 3,
+				AttackSpeedMultiplier: 1.0f,
+				Attack: 2.5f,
+				LaserGunPower: 2.5f,
+				LaserGunEnergy: 120000,
+				Durability: 80394
+			}
 		}
 	},
 	always_invisible: 0b,
