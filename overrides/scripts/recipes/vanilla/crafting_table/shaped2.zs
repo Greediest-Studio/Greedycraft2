@@ -19,6 +19,7 @@ import scripts.util.lang as LangUtil;
 ////////////////////////////////
 
 recipes.remove(<hydrogenation_tinker:field_generator>.withTag({Material: "nether_star"}));
+recipes.remove(<ymadditions:network_hub>);
 
 RecipeUtil.addShaped("calculator_subsystem_l4", <ecoaeextension:extendable_calculator_subsystem_l4>, [
     [<ecoaeextension:ecalculator_casing>, <additions:greedycraft-calculation_processor_2>, <ecoaeextension:ecalculator_casing>],
@@ -194,4 +195,9 @@ RecipeUtil.addShaped("aspcet_gugu_input", <whimcraft:blockmeaspectinputbus>, [
     [<modularmachinery:blockcasing>,<thaumicenergistics:essentia_import>,<modularmachinery:blockcasing>],
     [<thaumicenergistics:essentia_import>,<thaumicenergistics:infusion_provider>,<thaumicenergistics:essentia_import>],
     [<modularmachinery:blockcasing>,<thaumicenergistics:essentia_import>,<modularmachinery:blockcasing>]
+]);
+RecipeUtil.addShaped("cordless_YM", <ymadditions:network_hub>, [
+    [<crazyae:material:16>,<appliedenergistics2:quantum_link>,<additions:greedycraft-wireless_processor>],
+    [<crazyae:material:16>,<ae2stuff:wireless>,<additions:greedycraft-wireless_processor>],
+    [<appliedenergistics2:quantum_ring>,<appliedenergistics2:quantum_link>,<appliedenergistics2:quantum_ring>]
 ]);

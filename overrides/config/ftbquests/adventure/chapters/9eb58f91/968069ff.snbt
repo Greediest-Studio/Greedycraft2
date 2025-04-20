@@ -1,0 +1,26 @@
+{
+	title: "我什么都做的到",
+	x: -19.0d,
+	y: -6.5d,
+	dependencies: [
+		"a1f776af",
+		"5a594454",
+		"43d7922a",
+		"b364c083"
+	],
+	tasks: [{
+		uid: "c423fc77",
+		type: "item",
+		items: [{
+			id: "ae2wut:wireless_universal_terminal",
+			tag: {}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "12e270af",
+		type: "loot",
+		table: 2
+	}]
+}
