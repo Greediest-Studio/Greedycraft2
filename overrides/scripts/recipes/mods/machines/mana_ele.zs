@@ -132,6 +132,12 @@ RecipeBuilder.newBuilder("nengliangchanchu","mana_ele",200,4)
             thread.addModifier("zero", RecipeModifierBuilder.create("modularmachinery:energy", "output", 0.0f, 1, false).build());
             event.setFailed(false,"§4§l反应系统尚未启动");
         }
+        if (time < 3) {
+            thread.addModifier("zero1", RecipeModifierBuilder.create("modularmachinery:energy", "output", 0.0f, 1, false).build());
+            event.setFailed(false,"§4§l反应系统尚未启动");
+            map["tier"] = 0;
+            ctrl.customData = data;
+        }
     })
     .addEnergyPerTickOutput(1000000)
     .setThreadName("§e反应模块")

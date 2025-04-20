@@ -13,7 +13,6 @@
         "gugu-utils:starlightinputhatch",
         "gugu-utils:aurainputhatch",
         "modularmachinery:blocksmartinterface",
-        "modularmachinery:blockparallelcontroller",
         "modularmachinery:blockmeitemoutputbus",
         "modularmachinery:blockmeiteminputbus",
         "modularmachinery:blockmefluidoutputbus",
@@ -34,6 +33,10 @@
         "modularmachinery:blockupgradebus",
         "whimcraft:blockmeaspectinputbus",
         "whimcraft:blockmeaspectoutputbus"
+    ],
+    "casings_parallel": [
+        "modularmachinery:blockcasing",
+        "modularmachinery:blockparallelcontroller"
     ],
     "casings_decorative": [
         "modularmachinery:blockcasing"
