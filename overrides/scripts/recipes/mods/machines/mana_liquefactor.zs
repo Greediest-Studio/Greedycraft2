@@ -95,8 +95,11 @@ RecipeBuilder.newBuilder("mana_liquefactor_liquidedmana", "mana_liquefactor", 1)
         val data = ctrl.customData;
         val map = data.asMap();
         val mana = isNull(map["mana"]) ? 0 : map["mana"].asInt();
-        val bx = event.activeRecipe.parallelism;
+        var bx = event.activeRecipe.maxParallelism;
+        event.activeRecipe.maxParallelism = (min(mana / 1000,bx) > 0) ? min(mana / 1000,bx) : 1;
+        bx = (min(mana / 1000,bx) > 0) ? min(mana / 1000,bx) : 1;
         if (mana - bx * 1000 <= 0) {event.setFailed("§3§l魔力不足");}
+        
     })
     .addEnergyPerTickInput(1000)
     .addFluidOutput(<liquid:mana> * 1)
