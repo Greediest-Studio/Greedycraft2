@@ -75,7 +75,9 @@ function test(ingot as IItemStack) as bool {
         <nuclearcraft:ingot:11>,
         <nuclearcraft:ingot:12>,
         <biomesoplenty:gem:7>,
-        <tiths:ingot_titanium>
+        <tiths:ingot_titanium>,
+        <minecraft:quartz>,
+        <appliedenergistics2:material>
     ];
     for item in loadedMods["additions"].items {
         if (ingot.definition.id has "additions-") {
@@ -86,8 +88,8 @@ function test(ingot as IItemStack) as bool {
         if (ingot.definition.id == item.definition.id) {
             return true;
         }
-        return false;
     }
+    return false;
 }
 
 

@@ -18,8 +18,8 @@ import mods.jei.JEI;
 
 import scripts.util.machines as MMUtil;
 
-MachineModifier.setMaxThreads("big_grinder", 16);
-MachineModifier.setInternalParallelism("big_grinder", 512);
+MachineModifier.setMaxThreads("big_grinder", 4);
+MachineModifier.setInternalParallelism("big_grinder", 32);
 
 for items in oreDict {
     var name = items.name;
@@ -30,37 +30,57 @@ for items in oreDict {
         var dust = od_dust.firstItem;
         var ingot = oreDict.get(name);
         if !isNull(dust) && !ingot.empty {
-            RecipeBuilder.newBuilder("ingot" + name , "big_grinder" , 10)
+            RecipeBuilder.newBuilder("big_grinder_ingot" + name , "big_grinder" , 10)
                 .addItemInput(ingot)
                 .addEnergyPerTickInput(100)
                 .addItemOutput(dust)
                 .build();
         }
         if !isNull(dust) && !od_block.empty {
-            RecipeBuilder.newBuilder("block" + name , "big_grinder" , 30)
+            RecipeBuilder.newBuilder("big_grinder_block" + name , "big_grinder" , 30)
                 .addItemInput(od_block)
                 .addEnergyPerTickInput(200)
                 .addItemOutput(dust * 9)
                 .build();
         }
     }
-    if name has "gem" {
+    if name has "gem" && !(name has "Quartz") {
         var od_dust = oreDict.get("dust" ~ name.replace("gem",""));
         var od_block = oreDict.get("block" ~ name.replace("gem",""));
         var od_gem = oreDict.get(name);
         var dust = od_dust.firstItem;
         if !isNull(dust) && !od_gem.empty {
-            RecipeBuilder.newBuilder("gem" + name , "big_grinder" , 10)
+            RecipeBuilder.newBuilder("big_grinder_gem" + name , "big_grinder" , 10)
                 .addItemInput(od_gem)
                 .addEnergyPerTickInput(100)
                 .addItemOutput(dust)
                 .build();
         }
         if !isNull(dust) && !od_block.empty {
-            RecipeBuilder.newBuilder("block" + name , "big_grinder" , 30)
+            RecipeBuilder.newBuilder("big_grinder_block" + name , "big_grinder" , 30)
                 .addItemInput(od_block)
                 .addEnergyPerTickInput(200)
                 .addItemOutput(dust * 9)
+                .build();
+        }
+    }
+    if (name has "gem") && (name has "Quartz") {
+        var od_dust = oreDict.get("dust" ~ name.replace("gem",""));
+        var od_block = oreDict.get("block" ~ name.replace("gem",""));
+        var od_gem = oreDict.get(name);
+        var dust = od_dust.firstItem;
+        if !isNull(dust) && !od_gem.empty {
+            RecipeBuilder.newBuilder("big_grinder_gem" + name , "big_grinder" , 10)
+                .addItemInput(od_gem)
+                .addEnergyPerTickInput(100)
+                .addItemOutput(dust)
+                .build();
+        }
+        if !isNull(dust) && !od_block.empty {
+            RecipeBuilder.newBuilder("big_grinder_block" + name , "big_grinder" , 30)
+                .addItemInput(od_block)
+                .addEnergyPerTickInput(200)
+                .addItemOutput(dust * 4)
                 .build();
         }
     }
@@ -69,7 +89,7 @@ for items in oreDict {
         var od_rod = oreDict.get(name);
         var dust = od_dust.firstItem;
         if !isNull(dust) && !od_rod.empty {
-            RecipeBuilder.newBuilder("rod" + name , "big_grinder" , 15)
+            RecipeBuilder.newBuilder("big_grinder_rod" + name , "big_grinder" , 15)
                 .addItemInput(od_rod)
                 .addEnergyPerTickInput(120)
                 .addItemOutput(dust * 4)
@@ -81,7 +101,7 @@ for items in oreDict {
         var od_gear = oreDict.get(name);
         var dust = od_dust.firstItem;
         if !isNull(dust) && !od_gear.empty {
-            RecipeBuilder.newBuilder("gear" + name , "big_grinder" , 30)
+            RecipeBuilder.newBuilder("big_grinder_gear" + name , "big_grinder" , 30)
                 .addItemInput(od_gear)
                 .addEnergyPerTickInput(120)
                 .addItemOutput(dust * 4)
@@ -93,7 +113,7 @@ for items in oreDict {
         var od_plate = oreDict.get(name);
         var dust = od_dust.firstItem;
         if !isNull(dust) && !od_plate.empty {
-            RecipeBuilder.newBuilder("plate" + name , "big_grinder" , 5)
+            RecipeBuilder.newBuilder("big_grinder_plate" + name , "big_grinder" , 5)
                 .addItemInput(od_plate)
                 .addEnergyPerTickInput(120)
                 .addItemOutput(dust)
@@ -105,7 +125,7 @@ for items in oreDict {
         var od_ore = oreDict.get(name);
         var dust = od_dust.firstItem;
         if !isNull(dust) && !od_ore.empty {
-            RecipeBuilder.newBuilder("gear" + name , "big_grinder" , 10)
+            RecipeBuilder.newBuilder("big_grinder_gear" + name , "big_grinder" , 10)
                 .addItemInput(od_ore)
                 .addEnergyPerTickInput(200)
                 .addItemOutput(dust * 2)
