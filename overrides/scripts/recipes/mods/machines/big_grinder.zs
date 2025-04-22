@@ -134,3 +134,8 @@ for items in oreDict {
         }
     }
 }
+RecipeBuilder.newBuilder("big_grinder_" + "obsidian" , "big_grinder" , 10)
+    .addItemInput(<ore:obsidian>)
+    .addEnergyPerTickInput(200)
+    .addItemOutput(<thermalfoundation:material:770> * 4)
+    .build();

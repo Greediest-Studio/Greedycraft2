@@ -184,7 +184,7 @@ RecipeBuilder.newBuilder("aurune_craft_thirteen", "aura_crafter", 100)
     .addItemInput(<additions:greedycraft-terra_alloy_block>)
     .addItemInput(<additions:greedycraft-fusion_matrix_block>)
     .addAuraInput(200, true)
-    .addItemOutput(<additions:greedycraft-fabric_of_nature>)
+    .addItemOutput(<gct_mobs:earthbound_altar>)
     .build();
 
 RecipeBuilder.newBuilder("aurune_craft_fourteen", "aura_crafter", 100)
