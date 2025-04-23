@@ -182,12 +182,13 @@
         },
         "result": "deny"
     },
+    {"block":["ore:logWood","minecraft:brown_mushroom_block","minecraft:red_mushroom_block","bedrockores:bedrock_ore"],"result": "deny"},
     {
         "onjoin": true,
         "mob": [
-            "divinerpg:whale", 
-            "divinerpg:shark", 
-            "divinerpg:liopleurodon", 
+            "divinerpg:whale",
+            "divinerpg:shark",
+            "divinerpg:liopleurodon",
             "forestry:butterflyge",
             "botania:pixie",
             "randomthings:playersoul",
@@ -203,6 +204,9 @@
             "dungeonsmod:anthermite",
             "dungeonsmod:piranha",
             "aether_legacy:swet",
+            "pvj:pvj_fly",
+            "pvj:pvj_duck",
+            "pvj:pvj_starfish",
             "ageofminecraft:untame_darkness"
         ],
         "result" : "deny"
