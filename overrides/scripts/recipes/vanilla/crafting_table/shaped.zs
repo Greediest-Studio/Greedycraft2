@@ -1073,7 +1073,7 @@ RecipeUtil.addShaped("blockfluidinputhatch_6", <modularmachinery:blockfluidinput
 ]);
 RecipeUtil.addShaped("blockfluidinputhatch_7", <modularmachinery:blockfluidinputhatch:7>, [
     [<ore:ingotModularium>, <ore:ingotCosmilite>, <ore:ingotModularium>],
-    [<ore:ingotCosmilite>, <modularmachinery:blockfluidinputhatch:5>, <ore:ingotCosmilite>],
+    [<ore:ingotCosmilite>, <modularmachinery:blockfluidinputhatch:6>, <ore:ingotCosmilite>],
     [<ore:ingotModularium>, <ore:ingotCosmilite>, <ore:ingotModularium>]
 ]);
 RecipeUtil.addShaped("blockfluidoutputhatch_3", <modularmachinery:blockfluidoutputhatch:3>, [
@@ -1098,7 +1098,7 @@ RecipeUtil.addShaped("blockfluidoutputhatch_6", <modularmachinery:blockfluidoutp
 ]);
 RecipeUtil.addShaped("blockfluidoutputhatch_7", <modularmachinery:blockfluidoutputhatch:7>, [
     [<ore:ingotModularium>, <ore:ingotCosmilite>, <ore:ingotModularium>],
-    [<ore:ingotCosmilite>, <modularmachinery:blockfluidoutputhatch:5>, <ore:ingotCosmilite>],
+    [<ore:ingotCosmilite>, <modularmachinery:blockfluidoutputhatch:6>, <ore:ingotCosmilite>],
     [<ore:ingotModularium>, <ore:ingotCosmilite>, <ore:ingotModularium>]
 ]);
 RecipeUtil.addShaped("blockenergyinputhatch_3", <modularmachinery:blockenergyinputhatch:3>, [
@@ -1123,7 +1123,7 @@ RecipeUtil.addShaped("blockenergyinputhatch_6", <modularmachinery:blockenergyinp
 ]);
 RecipeUtil.addShaped("blockenergyinputhatch_7", <modularmachinery:blockenergyinputhatch:7>, [
     [<ore:ingotModularium>, <ore:ingotCosmilite>, <ore:ingotModularium>],
-    [<ore:ingotCosmilite>, <modularmachinery:blockenergyinputhatch:5>, <ore:ingotCosmilite>],
+    [<ore:ingotCosmilite>, <modularmachinery:blockenergyinputhatch:6>, <ore:ingotCosmilite>],
     [<ore:ingotModularium>, <ore:ingotCosmilite>, <ore:ingotModularium>]
 ]);
 RecipeUtil.addShaped("blockenergyoutputhatch_3", <modularmachinery:blockenergyoutputhatch:3>, [
@@ -1148,7 +1148,7 @@ RecipeUtil.addShaped("blockenergyoutputhatch_6", <modularmachinery:blockenergyou
 ]);
 RecipeUtil.addShaped("blockenergyoutputhatch_7", <modularmachinery:blockenergyoutputhatch:7>, [
     [<ore:ingotModularium>, <ore:ingotCosmilite>, <ore:ingotModularium>],
-    [<ore:ingotCosmilite>, <modularmachinery:blockenergyoutputhatch:5>, <ore:ingotCosmilite>],
+    [<ore:ingotCosmilite>, <modularmachinery:blockenergyoutputhatch:6>, <ore:ingotCosmilite>],
     [<ore:ingotModularium>, <ore:ingotCosmilite>, <ore:ingotModularium>]
 ]);
 RecipeUtil.addShaped("blockinputbus_2", <modularmachinery:blockinputbus:2>, [
