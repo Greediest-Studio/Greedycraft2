@@ -93,21 +93,20 @@ perditio 57
 for asp in aspectlist {
     var input =<thaumadditions:vis_pod>.withTag({});
     input = input.updateTag({"Aspect":asp});
-    MachineModifier.addCoreThread("primordial_smelter", FactoryRecipeThread.createCoreThread("冶炼" ~ asp ~ "魔力豆荚"));
+    MachineModifier.addCoreThread("primordial_smelter", FactoryRecipeThread.createCoreThread("§l§e输出" ~ asp ~ "源质"));
     RecipeBuilder.newBuilder(asp ~ "1" , "primordial_smelter", 1 , 1 , false)
         .addItemInput(input)
         .addEnergyPerTickInput(512)
         .addThaumcraftAspcetOutput(5, asp)
-        .setThreadName("冶炼" ~ asp ~ "魔力豆荚")
+        .setThreadName("§l§e输出" ~ asp ~ "源质")
         .build();
     thread += 1;
     var input1 = "thaumadditions:vis_seeds/";
     input1 += asp;
-    MachineModifier.addCoreThread("primordial_smelter", FactoryRecipeThread.createCoreThread("冶炼" ~ asp ~ "魔力种子"));
     RecipeBuilder.newBuilder(asp ~ "2" , "primordial_smelter", 1 , 1 , false)
         .addItemInput(itemUtils.getItem(input1))
         .addEnergyPerTickInput(512)
         .addThaumcraftAspcetOutput(2, asp)
-        .setThreadName("冶炼" ~ asp ~ "魔力种子")
+        .setThreadName("§l§e输出" ~ asp ~ "源质")
         .build();
 }

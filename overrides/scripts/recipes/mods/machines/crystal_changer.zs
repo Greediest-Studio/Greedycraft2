@@ -161,13 +161,14 @@ MachineModifier.addSmartInterfaceType("crystal_changer",
     .setFooterInfo("§e对应星座请查看jei")
 );
 
-function dataget(event as FactoryRecipeFinishEvent,name as string) {
+function dataget(event as FactoryRecipeFinishEvent,name as string,min as int,max as int) {
     val ctrl = event.controller;
     val data = ctrl.customData;
     val map = data.asMap();
     val get = ctrl.getSmartInterfaceData(name);
     val numf  = isNull(get) ? 1.0f : get.value;
-    val num  = 1 * numf;
+    var num  = 1 * numf;
+    num = ((num < min) || (num > max)) ? min : num;
     map[name] = num;
     ctrl.customData = data;
 }
@@ -197,16 +198,11 @@ function output(ctrl as IMachineController) {
         "astralsorcery.constellation.gelu",//寒冰座3
         "astralsorcery.constellation.alcara"//振变座4
     ];
-    var cc = isNull(map["size"]) ? 900 : map["size"] * 1;
-    if (cc > 1800) {cc = 1800;}
-    var cd = isNull(map["purity"]) ? 100 : map["purity"] * 1;
-    if (cd > 200) {cd = 200;}
-    var pg = isNull(map["collectiveCapability"]) ? 100 : map["collectiveCapability"] * 1;
-    if (pg > 200) {pg = 200;}
-    var xz = isNull(map["constellationName"]) ? 0 : map["constellationName"] * 1;
-    if (xz > 12) {xz = 0;}
-    var xz1 = isNull(map["trait"]) ? 0 : map["trait"] * 1;
-    if (xz1 > 4) {xz1 = 0;}
+    var cc = isNull(map["size"]) ? 900 : map["size"];
+    var cd = isNull(map["purity"]) ? 100 : map["purity"];
+    var pg = isNull(map["collectiveCapability"]) ? 100 : map["collectiveCapability"];
+    var xz = isNull(map["constellationName"]) ? 0 : map["constellationName"];
+    var xz1 = isNull(map["trait"]) ? 0 : map["trait"];
     val gmxz = xzlb[xz];
     val xsxz = xzlb1[xz1];
     if (xz == 0) {
@@ -241,76 +237,35 @@ function output(ctrl as IMachineController) {
 }
 
 //线程
-val sizeThead = FactoryRecipeThread.createCoreThread("§e尺寸同步系统");
-val purityThead = FactoryRecipeThread.createCoreThread("§e纯度同步系统");
-val collectiveCapabilitydown = FactoryRecipeThread.createCoreThread("§e抛光同步系统");
-val constellationThead = FactoryRecipeThread.createCoreThread("§e共鸣星座链接系统");
-val traitThead = FactoryRecipeThread.createCoreThread("§e修饰星座链接系统");
+val tbThead = FactoryRecipeThread.createCoreThread("§e数据同步系统");
 val craftingThead = FactoryRecipeThread.createCoreThread("§e水晶塑造系统");
 val crafting1Thead = FactoryRecipeThread.createCoreThread("§e星能聚合系统");
 
 MachineModifier.setMaxThreads("crystal_changer", 0);
-MachineModifier.addCoreThread("crystal_changer", sizeThead);
-MachineModifier.addCoreThread("crystal_changer", purityThead);
-MachineModifier.addCoreThread("crystal_changer", collectiveCapabilitydown);
-MachineModifier.addCoreThread("crystal_changer", constellationThead);
-MachineModifier.addCoreThread("crystal_changer", traitThead);
+MachineModifier.addCoreThread("crystal_changer", tbThead);
 MachineModifier.addCoreThread("crystal_changer", craftingThead);
 MachineModifier.addCoreThread("crystal_changer", crafting1Thead);
-//MachineModifier.setMaxParallelism("crystal_changer",1);
 
-RecipeBuilder.newBuilder("size","crystal_changer",20,0)
-    .addSmartInterfaceDataInput("size",0,1800)
+RecipeBuilder.newBuilder("crystal_changer_tb","crystal_changer",25,0)
     .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
-        dataget(event,"size");
+        dataget(event,"size",0,1800);
+        dataget(event,"purity",0,200);
+        dataget(event,"collectiveCapability",0,200);
+        dataget(event,"constellationName",0,12);
+        dataget(event,"trait",0,4);
     })
-    .setThreadName("§e尺寸同步系统")
+    .setThreadName("§e数据同步系统")
     .setParallelized(false)
     .build();
 
-RecipeBuilder.newBuilder("purity","crystal_changer",20,1)
-    .addSmartInterfaceDataInput("purity",0,200)
-    .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
-        dataget(event,"purity");
-    })
-    .setThreadName("§e纯度同步系统")
-    .setParallelized(false)
-    .build();
-
-RecipeBuilder.newBuilder("collectiveCapability","crystal_changer",20,2)
-    .addSmartInterfaceDataInput("collectiveCapability",0,200)
-    .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
-        dataget(event,"collectiveCapability");
-    })
-    .setThreadName("§e抛光同步系统")
-    .setParallelized(false)
-    .build();
-
-RecipeBuilder.newBuilder("constellation","crystal_changer",20,3)
-    .addSmartInterfaceDataInput("constellationName",0,12)
-    .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
-        dataget(event,"constellationName");
-    })
-    .setThreadName("§e共鸣星座链接系统")
-    .setParallelized(false)
-    .build();
-
-RecipeBuilder.newBuilder("trait","crystal_changer",20,4)
-    .addSmartInterfaceDataInput("trait",0,4)
-    .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
-        dataget(event,"trait");
-    })
-    .setThreadName("§e修饰星座链接系统")
-    .setParallelized(false)
-    .build();
-
-RecipeBuilder.newBuilder("craft","crystal_changer",20,5)
+RecipeBuilder.newBuilder("crystal_changer_craft","crystal_changer",20,5)
     .addItemInput(<additions:astral_metal_ingot>)
     .addFluidInput(<liquid:astralsorcery.liquidstarlight> * 8000)
     .addItemOutput(<astralsorcery:itemrockcrystalsimple>).addItemModifier(function(ctrl as IMachineController, oldItem as IItemStack) as IItemStack {
         return output(ctrl);
     })
     .addRecipeTooltip("§e根据输入数值决定产出")
+    .addRecipeTooltip("§l§e尺寸范围: 0 ~ 1800","§l§e纯度范围: 0 ~ 200","§l§e抛光范围: 0 ~ 200","§l§e共鸣星座ID范围: 0 ~ 12","§l§e修饰星座ID范围: 0 ~ 4")
     .setThreadName("§e水晶塑造系统")
     .build();
 
@@ -330,7 +285,7 @@ val recipelist as IItemStack[IItemStack] = {
 
 var r = 1;
 for iteminput , itemoutput in recipelist {
-    RecipeBuilder.newBuilder("craft1" + r,"crystal_changer",20,6)
+    RecipeBuilder.newBuilder("crystal_changer_craft1" + r,"crystal_changer",20,6)
         .addItemInput(iteminput)
         .addFluidInput(<liquid:astralsorcery.liquidstarlight> * 20)
         .addItemOutput(itemoutput)
