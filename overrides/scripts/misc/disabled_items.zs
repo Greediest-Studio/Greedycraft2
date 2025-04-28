@@ -18,6 +18,7 @@ import scripts.util.recipes as RecipeUtil;
 import scripts.util.lang as LangUtil;
 
 var disabledItems as IIngredient[] = [
+    <crazyae:mechanical_teraplate>,
     <cyclicmagic:battery>,
     <moretcon:blockvalkyriemetal>,
     <moretcon:ingotvalkyriemetal>,
