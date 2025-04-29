@@ -66,5 +66,5 @@ global whitelistedCommands as string[] = [
     "stagelist",
     "showscoreboard",
     "sponsors",
-    "ftbchunks"
+    "ranks"
 ];
