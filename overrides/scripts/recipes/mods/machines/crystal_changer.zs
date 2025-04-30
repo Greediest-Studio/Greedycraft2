@@ -98,11 +98,11 @@ MMEvents.onControllerGUIRender("crystal_changer" , function(event as ControllerG
         "振变座"//4
     ];
     var cc = isNull(map["size"]) ? 900 : map["size"] * 1;
-    if (cc > 1800) {cc = 1800;}
+    if (cc > 1500) {cc = 1500;}
     var cd = isNull(map["purity"]) ? 100 : map["purity"] * 1;
-    if (cd > 200) {cd = 200;}
+    if (cd > 120) {cd = 120;}
     var pg = isNull(map["collectiveCapability"]) ? 100 : map["collectiveCapability"] * 1;
-    if (pg > 200) {pg = 200;}
+    if (pg > 120) {pg = 120;}
     var xz = isNull(map["constellationName"]) ? 0 : map["constellationName"] * 1;
     if (xz > 12) {xz = 0;}
     var xz1 = isNull(map["trait"]) ? 0 : map["trait"] * 1;
@@ -248,9 +248,9 @@ MachineModifier.addCoreThread("crystal_changer", crafting1Thead);
 
 RecipeBuilder.newBuilder("crystal_changer_tb","crystal_changer",25,0)
     .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
-        dataget(event,"size",0,1800);
-        dataget(event,"purity",0,200);
-        dataget(event,"collectiveCapability",0,200);
+        dataget(event,"size",0,1500);
+        dataget(event,"purity",0,120);
+        dataget(event,"collectiveCapability",0,120);
         dataget(event,"constellationName",0,12);
         dataget(event,"trait",0,4);
     })
@@ -265,7 +265,7 @@ RecipeBuilder.newBuilder("crystal_changer_craft","crystal_changer",20,5)
         return output(ctrl);
     })
     .addRecipeTooltip("§e根据输入数值决定产出")
-    .addRecipeTooltip("§l§e尺寸范围: 0 ~ 1800","§l§e纯度范围: 0 ~ 200","§l§e抛光范围: 0 ~ 200","§l§e共鸣星座ID范围: 0 ~ 12","§l§e修饰星座ID范围: 0 ~ 4")
+    .addRecipeTooltip("§l§e尺寸范围: 0 ~ 1500","§l§e纯度范围: 0 ~ 120","§l§e抛光范围: 0 ~ 120","§l§e共鸣星座ID范围: 0 ~ 12","§l§e修饰星座ID范围: 0 ~ 4")
     .setThreadName("§e水晶塑造系统")
     .build();
 
