@@ -115,7 +115,7 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
     if (!isNull(event.damageSource.getTrueSource()) && event.damageSource.getTrueSource() instanceof IEntityLivingBase && event.damageSource.isProjectile()) {
         if (!event.damageSource.getTrueSource().isBoss) {
             dmg *= (1.0 + 0.0012 * player.difficulty) as double;
-            if (skeletonEntities has event.damageSource.getTrueSource().definition.id) {
+            if (!isNull(event.damageSource.getTrueSource().definition) && skeletonEntities has event.damageSource.getTrueSource().definition.id) {
                 dmg *= 2.0f;
             }
         }
