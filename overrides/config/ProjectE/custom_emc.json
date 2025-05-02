@@ -639,6 +639,18 @@
     {
       "item": "additions:mekaddon-final_control_circuit|0",
       "emc": 8000000
+    },
+    {
+      "item": "projecte:item.pe_fuel|0",
+      "emc": 512
+    },
+    {
+      "item": "projecte:item.pe_fuel|1",
+      "emc": 2048
+    },
+    {
+      "item": "projecte:item.pe_fuel|2",
+      "emc": 8192
     }
   ]
 }

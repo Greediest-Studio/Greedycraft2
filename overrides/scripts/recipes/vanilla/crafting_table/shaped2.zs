@@ -201,3 +201,118 @@ RecipeUtil.addShaped("cordless_YM", <ymadditions:network_hub>, [
     [<crazyae:material:16>,<ae2stuff:wireless>,<additions:greedycraft-wireless_processor>],
     [<appliedenergistics2:quantum_ring>,<appliedenergistics2:quantum_link>,<appliedenergistics2:quantum_ring>]
 ]);
+RecipeUtil.addShaped("therm_Ardite", <tconstruct:ingots:1>, [
+    [<ore:oreArdite>, <thermalfoundation:material:1024>, null],
+    [null, null, null],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("therm_Ardite_1", <tconstruct:ingots:1>, [
+    [<ore:dustArdite>, <thermalfoundation:material:1024>, null],
+    [null, null, null],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("therm_Ardite_2", <tconstruct:ingots:1> * 2, [
+    [<ore:oreArdite>, <thermalfoundation:material:1027>, null],
+    [<thermalfoundation:material:1024>, null, null],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("therm_Ethaxium", <abyssalcraft:ethaxiumingot>, [
+    [<ore:oreEthaxium>, <thermalfoundation:material:1024>, null],
+    [null, null, null],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("therm_Ethaxium_1", <abyssalcraft:ethaxiumingot>, [
+    [<ore:dustEthaxium>, <thermalfoundation:material:1024>, null],
+    [null, null, null],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("therm_Ethaxium_2", <abyssalcraft:ethaxiumingot> * 2, [
+    [<ore:oreEthaxium>, <thermalfoundation:material:1027>, null],
+    [<thermalfoundation:material:1024>, null, null],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("therm_Chloroplast", <tiths:ingot_chloroplast>, [
+    [<ore:oreChloroplast>, <thermalfoundation:material:1024>, null],
+    [null, null, null],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("therm_Chloroplast_1", <tiths:ingot_chloroplast>, [
+    [<ore:dustChloroplast>, <thermalfoundation:material:1024>, null],
+    [null, null, null],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("therm_Chloroplast_2", <tiths:ingot_chloroplast> * 2, [
+    [<ore:oreChloroplast>, <thermalfoundation:material:1027>, null],
+    [<thermalfoundation:material:1024>, null, null],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("therm_Sanite", <gct_mobs:sanite_ingot>, [
+    [<ore:oreSanite>, <thermalfoundation:material:1024>, null],
+    [null, null, null],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("therm_Sanite_1", <gct_mobs:sanite_ingot>, [
+    [<ore:dustSanite>, <thermalfoundation:material:1024>, null],
+    [null, null, null],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("therm_Sanite_2", <gct_mobs:sanite_ingot> * 2, [
+    [<ore:oreSanite>, <thermalfoundation:material:1027>, null],
+    [<thermalfoundation:material:1024>, null, null],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("therm_Imitatium", <tiths:ingot_imitatium>, [
+    [<ore:oreImitatium>, <thermalfoundation:material:1024>, null],
+    [null, null, null],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("therm_Imitatium_1", <tiths:ingot_imitatium>, [
+    [<ore:dustImitatium>, <thermalfoundation:material:1024>, null],
+    [null, null, null],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("therm_Imitatium_2", <tiths:ingot_imitatium> * 2, [
+    [<ore:oreImitatium>, <thermalfoundation:material:1027>, null],
+    [<thermalfoundation:material:1024>, null, null],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("therm_Tanatonium", <tiths:ingot_tanatonium>, [
+    [<ore:oreTanatonium>, <thermalfoundation:material:1024>, null],
+    [null, null, null],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("therm_Tanatonium_1", <tiths:ingot_tanatonium>, [
+    [<ore:dustTanatonium>, <thermalfoundation:material:1024>, null],
+    [null, null, null],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("therm_Tanatonium_2", <tiths:ingot_tanatonium> * 2, [
+    [<ore:oreTanatonium>, <thermalfoundation:material:1027>, null],
+    [<thermalfoundation:material:1024>, null, null],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("therm_Dreadium", <abyssalcraft:dreadiumingot>, [
+    [<ore:oreDreadium>, <thermalfoundation:material:1024>, null],
+    [null, null, null],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("therm_Dreadium_1", <abyssalcraft:dreadiumingot>, [
+    [<ore:dustDreadium>, <thermalfoundation:material:1024>, null],
+    [null, null, null],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("therm_Dreadium_2", <abyssalcraft:dreadiumingot> * 2, [
+    [<ore:oreDreadium>, <thermalfoundation:material:1027>, null],
+    [<thermalfoundation:material:1024>, null, null],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("mystical_Dreadium", <abyssalcraft:dreadiumingot>, [
+    [<mysticalagriculture:dreadium_essence>, <mysticalagriculture:dreadium_essence>, <mysticalagriculture:dreadium_essence>],
+    [<mysticalagriculture:dreadium_essence>, null, <mysticalagriculture:dreadium_essence>],
+    [<mysticalagriculture:dreadium_essence>, <mysticalagriculture:dreadium_essence>, <mysticalagriculture:dreadium_essence>]
+]);
+RecipeUtil.addShaped("mystical_soularium", <enderio:item_alloy_ingot:7> * 2, [
+    [<mysticalagriculture:soularium_essence>, <mysticalagriculture:soularium_essence>, <mysticalagriculture:soularium_essence>],
+    [<mysticalagriculture:soularium_essence>, null, <mysticalagriculture:soularium_essence>],
+    [<mysticalagriculture:soularium_essence>, <mysticalagriculture:soularium_essence>, <mysticalagriculture:soularium_essence>]
+]);

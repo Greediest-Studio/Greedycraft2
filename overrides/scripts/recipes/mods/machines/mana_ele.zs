@@ -57,7 +57,7 @@ MachineModifier.addCoreThread("mana_ele", tbxc);
 MachineModifier.setMaxParallelism("mana_ele",1);
 
 //function
-function tier(event as FactoryRecipeTickEvent) {
+function tier(event as FactoryRecipeTickEvent) as void {
     val ctrl = event.controller;
     val data = ctrl.customData;
     val map = data.asMap();
@@ -84,12 +84,16 @@ function tier(event as FactoryRecipeTickEvent) {
             map["tier"] = 2;
             map["time"] = 25;
             ctrl.customData = data;
+            return;
         }
         if (tier == 2 && !(world.getBlock(post).definition.id has "quartzt") && !(world.getBlock(posz).definition.id has "quartzt") && !(world.getBlock(posj).definition.id has "quartzt") && !(world.getBlock(posw).definition.id has "quartzt")) {
             map["tier"] = 1;
             map["time"] = 25;
             ctrl.customData = data;
+            return;
         }
+        map["tier"] = 0;
+        map["time"] = 0;
     }
 }
 

@@ -513,7 +513,30 @@ val removedRecipeNames as string[] = [
     "thebetweenlands:amate_map_green",
     "thebetweenlands:amate_map_aqua",
     "thebetweenlands:amate_map_crimson",
-    "theaurorian:items/stringfromplantfiber"
+    "theaurorian:items/stringfromplantfiber",
+    "thermalfoundation:additions-ardite_ingot",
+    "thermalfoundation:additions-ardite_ingot_1",
+    "thermalfoundation:additions-ardite_ingot_2",
+    "thermalfoundation:additions-chloroplast_ingot",
+    "thermalfoundation:additions-chloroplast_ingot_1",
+    "thermalfoundation:additions-chloroplast_ingot_2",
+    "thermalfoundation:additions-sanite_ingot",
+    "thermalfoundation:additions-sanite_ingot_1",
+    "thermalfoundation:additions-sanite_ingot_2",
+    "thermalfoundation:additions-imitatium_ingot",
+    "thermalfoundation:additions-imitatium_ingot_1",
+    "thermalfoundation:additions-imitatium_ingot_2",
+    "thermalfoundation:additions-tanatonium_ingot",
+    "thermalfoundation:additions-tanatonium_ingot_1",
+    "thermalfoundation:additions-tanatonium_ingot_2",
+    "thermalfoundation:additions-ethaxium_ingot",
+    "thermalfoundation:additions-ethaxium_ingot_1",
+    "thermalfoundation:additions-ethaxium_ingot_2",
+    "thermalfoundation:additions-dreadium_ingot",
+    "thermalfoundation:additions-dreadium_ingot_1",
+    "thermalfoundation:additions-dreadium_ingot_2",
+    "mysticalagriculture:ingotdreadium",
+    "mysticalagriculture:ingotsoularium"
 ];
 
 for ingredient in removedRecipes {
