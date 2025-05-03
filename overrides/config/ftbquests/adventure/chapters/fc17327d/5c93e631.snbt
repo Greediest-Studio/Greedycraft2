@@ -41,19 +41,20 @@
 						},
 						Damage: 0s
 					},
+					patchouli: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "patchouli",
+							"patchouli:book": "patchouli:the_elysia_project"
+						},
+						Damage: 0s
+					},
 					rftoolscontrol: {
 						id: "rftoolscontrol:rftoolscontrol_manual",
 						Count: 1b,
 						tag: {
 							"akashictome:definedMod": "rftoolscontrol"
-						},
-						Damage: 0s
-					},
-					hammercore: {
-						id: "hammercore:manual",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "hammercore"
 						},
 						Damage: 0s
 					},
@@ -74,20 +75,19 @@
 						},
 						Damage: 0s
 					},
+					hammercore: {
+						id: "hammercore:manual",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "hammercore"
+						},
+						Damage: 0s
+					},
 					botania: {
 						id: "botania:lexicon",
 						Count: 1b,
 						tag: {
 							"akashictome:definedMod": "botania"
-						},
-						Damage: 0s
-					},
-					patchouli: {
-						id: "patchouli:guide_book",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "patchouli",
-							"patchouli:book": "patchouli:the_elysia_project"
 						},
 						Damage: 0s
 					},
@@ -196,22 +196,22 @@
 						},
 						Damage: 0s
 					},
-					twilightforest: {
-						id: "patchouli:guide_book",
+					abyssalcraft: {
+						id: "abyssalcraft:necronomicon",
 						Count: 1b,
 						tag: {
-							"akashictome:definedMod": "twilightforest",
-							"patchouli:book": "twilightforest:guide"
+							"akashictome:definedMod": "abyssalcraft",
+							PotEnergy: 0.0f
 						},
 						Damage: 0s
 					},
-					cookingforblockheads2: {
-						id: "cookingforblockheads:recipe_book",
+					xnet: {
+						id: "xnet:xnet_manual",
 						Count: 1b,
 						tag: {
-							"akashictome:definedMod": "cookingforblockheads2"
+							"akashictome:definedMod": "xnet"
 						},
-						Damage: 2s
+						Damage: 0s
 					},
 					touhou_little_maid: {
 						id: "patchouli:guide_book",
@@ -231,11 +231,27 @@
 						},
 						Damage: 0s
 					},
+					cookingforblockheads2: {
+						id: "cookingforblockheads:recipe_book",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "cookingforblockheads2"
+						},
+						Damage: 2s
+					},
 					cfm: {
 						id: "cfm:item_recipe_book",
 						Count: 1b,
 						tag: {
 							"akashictome:definedMod": "cfm"
+						},
+						Damage: 0s
+					},
+					astralsorcery: {
+						id: "astralsorcery:itemjournal",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "astralsorcery"
 						},
 						Damage: 0s
 					},
@@ -248,28 +264,12 @@
 						},
 						Damage: 0s
 					},
-					astralsorcery: {
-						id: "astralsorcery:itemjournal",
+					twilightforest: {
+						id: "patchouli:guide_book",
 						Count: 1b,
 						tag: {
-							"akashictome:definedMod": "astralsorcery"
-						},
-						Damage: 0s
-					},
-					xnet: {
-						id: "xnet:xnet_manual",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "xnet"
-						},
-						Damage: 0s
-					},
-					abyssalcraft: {
-						id: "abyssalcraft:necronomicon",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "abyssalcraft",
-							PotEnergy: 0.0f
+							"akashictome:definedMod": "twilightforest",
+							"patchouli:book": "twilightforest:guide"
 						},
 						Damage: 0s
 					},
@@ -281,19 +281,19 @@
 						},
 						Damage: 0s
 					},
+					extrautils2: {
+						id: "extrautils2:book",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "extrautils2"
+						},
+						Damage: 0s
+					},
 					bloodmagic: {
 						id: "bloodmagic:sanguine_book",
 						Count: 1b,
 						tag: {
 							"akashictome:definedMod": "bloodmagic"
-						},
-						Damage: 0s
-					},
-					bloodarsenal: {
-						id: "guideapi:bloodarsenal-guide",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "bloodarsenal"
 						},
 						Damage: 0s
 					},
@@ -305,19 +305,11 @@
 						},
 						Damage: 0s
 					},
-					extrautils2: {
-						id: "extrautils2:book",
+					bloodarsenal: {
+						id: "guideapi:bloodarsenal-guide",
 						Count: 1b,
 						tag: {
-							"akashictome:definedMod": "extrautils2"
-						},
-						Damage: 0s
-					},
-					rftools2: {
-						id: "rftools:rftools_manual",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "rftools2"
+							"akashictome:definedMod": "bloodarsenal"
 						},
 						Damage: 0s
 					},
@@ -326,6 +318,14 @@
 						Count: 1b,
 						tag: {
 							"akashictome:definedMod": "projecte"
+						},
+						Damage: 0s
+					},
+					rftools2: {
+						id: "rftools:rftools_manual",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "rftools2"
 						},
 						Damage: 0s
 					},
@@ -371,11 +371,11 @@
 						},
 						Damage: 33s
 					},
-					spiceoflife: {
-						id: "spiceoflife:bookfoodjournal",
+					forestry1: {
+						id: "forestry:catalogue",
 						Count: 1b,
 						tag: {
-							"akashictome:definedMod": "spiceoflife"
+							"akashictome:definedMod": "forestry1"
 						},
 						Damage: 0s
 					},
@@ -389,19 +389,11 @@
 						},
 						Damage: 0s
 					},
-					forestry1: {
-						id: "forestry:catalogue",
+					spiceoflife: {
+						id: "spiceoflife:bookfoodjournal",
 						Count: 1b,
 						tag: {
-							"akashictome:definedMod": "forestry1"
-						},
-						Damage: 0s
-					},
-					bloodmagic1: {
-						id: "guideapi:bloodmagic-guide",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "bloodmagic1"
+							"akashictome:definedMod": "spiceoflife"
 						},
 						Damage: 0s
 					},
@@ -410,6 +402,14 @@
 						Count: 1b,
 						tag: {
 							"akashictome:definedMod": "rustic"
+						},
+						Damage: 0s
+					},
+					bloodmagic1: {
+						id: "guideapi:bloodmagic-guide",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "bloodmagic1"
 						},
 						Damage: 0s
 					}
