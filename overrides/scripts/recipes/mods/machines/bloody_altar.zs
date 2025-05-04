@@ -201,7 +201,7 @@ for i in 7 to 10 {
             val ctrl = event.controller;
             val data = ctrl.customData;
             val map = data.asMap();
-            if (map["dqrl"] < 0) {
+            if (!isNull(map["dqrl"]) && map["dqrl"] < 0) {
                 map["dqrl"] = 0;
                 ctrl.customData = data;
             }
@@ -219,7 +219,7 @@ for i in 7 to 10 {
             val zy = isNull(map["zy"]) ? 0.0f : map["zy"].asFloat();
             val dczy = 1 * (zy * 400.0f);
             event.activeRecipe.maxParallelism = dczy;
-            if (map["dqrl"] >= map["rl"]) {
+            if ((!isNull(map["dqrl"]) && !isNull(map["rl"])) && (map["dqrl"] >= map["rl"])) {
                 map["dqrl"] = map["rl"];
                 ctrl.customData = data;
                 event.setFailed("§4§l祭坛已满");
