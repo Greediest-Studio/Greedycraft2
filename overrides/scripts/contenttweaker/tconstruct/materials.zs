@@ -2130,8 +2130,8 @@ val ferroherb = mods.contenttweaker.tconstruct.MaterialBuilder.create("ferroherb
 ferroherb.color = Color.fromHex("5c6251").getIntColor();
 ferroherb.craftable = true;
 ferroherb.castable =  false;
-ferroherb.representativeItem = <item:moretcon:repitem:5>;
-ferroherb.addItem(<item:moretcon:repitem:5>);
+ferroherb.representativeItem = <item:moretcon:repitem:6>;
+ferroherb.addItem(<item:moretcon:repitem:6>);
 ferroherb.localizedName = game.localize("greedycraft.tconstruct.material.ferroherb.name");
 ferroherb.addHeadMaterialStats(600,8,13.5,4);
 ferroherb.addHandleMaterialStats(1.2,100);
@@ -2156,8 +2156,8 @@ val amberwood = mods.contenttweaker.tconstruct.MaterialBuilder.create("amberwood
 amberwood.color = Color.fromHex("7a7a59").getIntColor();
 amberwood.craftable = true;
 amberwood.castable =  false;
-amberwood.representativeItem = <item:moretcon:repitem:4>;
-amberwood.addItem(<item:moretcon:repitem:4>);
+amberwood.representativeItem = <item:moretcon:repitem:5>;
+amberwood.addItem(<item:moretcon:repitem:5>);
 amberwood.localizedName = game.localize("greedycraft.tconstruct.material.amberwood.name");
 amberwood.addHeadMaterialStats(800,20,14,7);
 amberwood.addHandleMaterialStats(1.3,100);
