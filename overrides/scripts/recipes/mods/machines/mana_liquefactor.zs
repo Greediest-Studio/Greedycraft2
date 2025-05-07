@@ -43,7 +43,7 @@ MMEvents.onControllerGUIRender("mana_liquefactor", function(event as ControllerG
     val map = data.asMap();
     val mana = isNull(map["mana"]) ? 0 : map["mana"].asInt();
     val maxmana = isNull(map["maxmana"]) ? 1000000 : map["maxmana"].asInt();
-    val bx = isNull(map["bx"]) ? 1 : map["bx"].asInt();
+    val bx = isNull(map["bx"]) ? ctrl.activeRecipe.maxParallelism : map["bx"].asInt();
 
     val info as string[] = [
         "§3§l///魔力液化系统///",
@@ -70,15 +70,13 @@ function input(event as FactoryRecipeFinishEvent) {
 }
 
 function amount(mana as int,poolmana as int,maxmana as int,ctrl as IMachineController) as int {
-    if !(ctrl.world.remote) {
-        if (mana + poolmana >= maxmana) {
-            ctrl.world.setBlockState(ctrl.world.getBlockState(ctrl.pos.up(4)),{manaCap: maxmana, mana: (poolmana - (maxmana - mana))},ctrl.pos.up(4));
-            return maxmana;
-        }
-        else {
-            ctrl.world.setBlockState(ctrl.world.getBlockState(ctrl.pos.up(4)),{manaCap: maxmana, mana: 0},ctrl.pos.up(4));
-            return mana + poolmana;
-        }
+    if (mana + poolmana >= maxmana) {
+        ctrl.world.setBlockState(ctrl.world.getBlockState(ctrl.pos.up(4)),{manaCap: maxmana, mana: (poolmana - (maxmana - mana))},ctrl.pos.up(4));
+        return maxmana;
+    }
+    else {
+        ctrl.world.setBlockState(ctrl.world.getBlockState(ctrl.pos.up(4)),{manaCap: maxmana, mana: 0},ctrl.pos.up(4));
+        return mana + poolmana;
     }
 }
 
@@ -96,10 +94,9 @@ RecipeBuilder.newBuilder("mana_liquefactor_liquidedmana", "mana_liquefactor", 1)
         val map = data.asMap();
         val mana = isNull(map["mana"]) ? 0 : map["mana"].asInt();
         var bx = event.activeRecipe.maxParallelism;
-        event.activeRecipe.maxParallelism = (min(mana / 1000,bx) > 0) ? min(mana / 1000,bx) : 1;
         bx = (min(mana / 1000,bx) > 0) ? min(mana / 1000,bx) : 1;
+        event.activeRecipe.maxParallelism = bx;
         if (mana - bx * 1000 <= 0) {event.setFailed("§3§l魔力不足");}
-        
     })
     .addEnergyPerTickInput(1000)
     .addFluidOutput(<liquid:mana> * 1)

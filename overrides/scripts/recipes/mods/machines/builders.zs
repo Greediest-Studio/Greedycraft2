@@ -26,7 +26,8 @@ static nolist as string[] = [
     "modularmachinery:demon_will_crafter",
     "modularmachinery:mana_ele",
     "modularmachinery:small_furnace",
-    "modularmachinery:mana_liquefactor"
+    "modularmachinery:mana_liquefactor",
+    "modularmachinery:mana_powereducer"
 ];
 
 val nolistitem as IItemStack[] = [
@@ -40,7 +41,8 @@ val nolistitem as IItemStack[] = [
     <modularmachinery:demon_will_crafter_controller>,
     <modularmachinery:mana_ele_controller>,
     <modularmachinery:small_furnace_controller>,
-    <modularmachinery:mana_liquefactor_controller>
+    <modularmachinery:mana_liquefactor_controller>,
+    <modularmachinery:mana_powereducer_controller>
 ];
 
 for item in nolistitem {
@@ -673,7 +675,7 @@ for i in 4 to 7 {
         .addItemInput(<ore:gearMirion> * 8)
         .addItemInput(<ore:gearChromasteel> * 1)
         .addEnergyPerTickInput(900)
-        .addItemOutput(<modularmachinery:mana_powereducer_controller>)
+        .addItemOutput(<modularmachinery:mana_powereducer_factory_controller>)
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:mana_powereducer"})) 
         .build();
 }

@@ -13,10 +13,7 @@
 		uid: "2bd148ce",
 		type: "item",
 		items: [{
-			id: "modularmachinery:mana_powereducer_controller",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "modularmachinery:mana_powereducer_factory_controller"
 		}]
 	}],
 	rewards: [{
