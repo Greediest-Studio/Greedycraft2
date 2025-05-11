@@ -139,7 +139,7 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:blockBasalt> : [<netherex:basalt>],
     <ore:blockBasalt> : [<ore:stoneBasalt>],
     <ore:stoneBasalt> : [<taiga:basalt_block>],
-    <ore:foodChocolate> : [<actuallyadditions:item_food:9>, <foodexpansion:itemchocolatebar>, <ore:foodChocolateBar>],
+    <ore:foodChocolate> : [<actuallyadditions:item_food:9>, <ore:foodChocolateBar>],
     <ore:foodChocolateBar> : [<ore:foodChocolate>],
     <ore:foodCandyCane> : [<aether_legacy:candy_cane>],
     <ore:CandyCane> : [<ore:foodCandyCane>],

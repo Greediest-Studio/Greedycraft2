@@ -8,5 +8,6 @@ function ItemCreate(unlocalizedName as string,isglowing as bool) {
   item.register();
 }
 
+ItemCreate("dough",false);
 ItemCreate("chaos_heart",false);
 ItemCreate("chaotic_energy_core",true);

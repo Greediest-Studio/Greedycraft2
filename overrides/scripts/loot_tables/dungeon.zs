@@ -158,7 +158,6 @@ LootUtil.addItem(<minecraft:splash_potion>.withTag({CustomPotionEffects: [{ShowP
 LootUtil.addItem(<minecraft:splash_potion>.withTag({CustomPotionEffects: [{ShowParticles: 0 as byte, Duration: 2400, Id: 1, Amplifier: 126}, {ShowParticles: 0 as byte, Duration: 2400, Id: 8, Amplifier: 126}], CustomPotionColor: 720859, display: {Lore: [game.localize("greedycraft.misc.lightspeedpotion.tooltip")], Name: game.localize("greedycraft.misc.lightspeedpotion.name")}}), 2, 1, 1, 1);
 LootUtil.addItem(<minecraft:splash_potion>.withTag({CustomPotionEffects: [{ShowParticles: 0 as byte, Duration: 6000, Id: 27, Amplifier: 126}], CustomPotionColor: 0, display: {Lore: [game.localize("greedycraft.misc.badluckpotion.tooltip")], Name: game.localize("greedycraft.misc.badluckpotion.name")}}), 2, 1, 1, 1);
 LootUtil.addItem(<minecraft:stick>.withTag({ench: [{lvl: 10, id: 19}], display: {Lore: [game.localize("greedycraft.misc.knockbackwand.tooltip")], Name: game.localize("greedycraft.misc.knockbackwand.name")}}), 1, 1, 1, 1);
-LootUtil.addItem(<foodexpansion:itemchocolatebar>, 8, 1, 4, 10);
 LootUtil.addItem(<minecraft:potion>.withTag({Potion: "potioncore:long_absorption"}), 1, 1, 1, 1);
 LootUtil.addItem(<minecraft:potion>.withTag({Potion: "potioncore:long_step_up"}), 1, 1, 1, 1);
 LootUtil.addItem(<minecraft:potion>.withTag({Potion: "potioncore:slow_fall"}), 1, 1, 1, 1);
