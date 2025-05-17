@@ -31,7 +31,6 @@ var disabledItems as IIngredient[] = [
     <tiths:ore_steamium>,
     <actuallyadditions:block_phantom_breaker>,
     <nuclearcraft:ingot:11>,
-    <utilityworlds:portal_mining>,
     <nuclearcraft:alloy_furnace>,
     <openblocks:block_placer>,
     <cyclicmagic:placer_block>,
@@ -1611,6 +1610,10 @@ for item in loadedMods["mekanism"].items {
     if (item.definition.id has "gastank") && (item.displayName has "创造") {
         JEI.hide(item);
     }
+}
+
+if (!isNull(itemUtils.getItem("utilityworlds:portal_void"))) {
+    disabledItems += itemUtils.getItem("utilityworlds:portal_mining");
 }
 
 for ingredient in disabledItems {

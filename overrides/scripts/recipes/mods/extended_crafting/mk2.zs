@@ -96,20 +96,22 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <journey:heartult>, [
 	[null, null, <cyclicmagic:heart_food>, null, null]
 ]);
 mods.extendedcrafting.TableCrafting.addShapeless(0, <gct_ores:rainboquartz> * 24, [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:nuggetChromasteel>]);//虚空世界传送门
-mods.extendedcrafting.TableCrafting.addShaped(0, <utilityworlds:portal_void>, [
-	[null, null, null, null, null], 
-	[null, <ore:coreAwakened>, null, <ore:coreAwakened>, null], 
-	[<ore:blockRedstone>, <ore:blockRedstone>, <minecraft:enchanting_table>, <ore:blockRedstone>, <ore:blockRedstone>], 
-	[<ore:obsidian>, <ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>, <ore:obsidian>], 
-	[<ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>]
-]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <utilityworlds:portal_garden>, [
-	[null, null, null, null, null], 
-	[null, <ore:coreAwakened>, null, <ore:coreAwakened>, null], 
-	[<ore:blockEmerald>, <ore:blockEmerald>, <minecraft:enchanting_table>, <ore:blockEmerald>, <ore:blockEmerald>], 
-	[<ore:obsidian>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:obsidian>], 
-	[<ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>]
-]);
+if (!isNull(itemUtils.getItem("utilityworlds:portal_void"))){
+	mods.extendedcrafting.TableCrafting.addShaped(0, itemUtils.getItem("utilityworlds:portal_void"), [
+		[null, null, null, null, null], 
+		[null, <ore:coreAwakened>, null, <ore:coreAwakened>, null], 
+		[<ore:blockRedstone>, <ore:blockRedstone>, <minecraft:enchanting_table>, <ore:blockRedstone>, <ore:blockRedstone>], 
+		[<ore:obsidian>, <ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>, <ore:obsidian>], 
+		[<ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>]
+	]);
+	mods.extendedcrafting.TableCrafting.addShaped(0, itemUtils.getItem("utilityworlds:portal_garden"), [
+		[null, null, null, null, null], 
+		[null, <ore:coreAwakened>, null, <ore:coreAwakened>, null], 
+		[<ore:blockEmerald>, <ore:blockEmerald>, <minecraft:enchanting_table>, <ore:blockEmerald>, <ore:blockEmerald>], 
+		[<ore:obsidian>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:blockEmerald>, <ore:obsidian>], 
+		[<ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>, <ore:obsidian>]
+	]);
+}
 mods.extendedcrafting.TableCrafting.addShaped(0, <journey:heartsen>, [
 	[null, null, <ore:ingotDullium>, null, null], 
 	[null, <ore:ingotDullium>, <ore:ingotDullium>, <ore:ingotDullium>, null], 

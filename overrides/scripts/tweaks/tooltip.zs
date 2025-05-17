@@ -210,8 +210,6 @@ val tooltipMap as string[][IIngredient] = {
     <additions:botaniaddon-manadiamond> : [odch],
     <additions:botaniaddon-mana_lapis> : [odch],
     <additions:botaniaddon-mana_quartz> : [odch],
-    <utilityworlds:portal_void> : [game.localize("greedycraft.tooltip.utilityworld.warnings")],
-    <utilityworlds:portal_garden> : [game.localize("greedycraft.tooltip.utilityworld.warnings")],
     <modularmachinery:astral_collector_controller> : [game.localize("greedycraft.tooltip.modularmachinery.not_need_blueprints")],
     <modularmachinery:astral_collector_factory_controller> : [game.localize("greedycraft.tooltip.modularmachinery.not_need_blueprints")],
     <modularmachinery:mek_changer_controller> : [game.localize("greedycraft.tooltip.modularmachinery.not_need_blueprints")],
@@ -237,6 +235,10 @@ for ingredient in tooltipMap {
             item.addTooltip(tooltip);
         }
     }
+}
+if (!isNull(itemUtils.getItem("utilityworlds:portal_void"))) {
+    itemUtils.getItem("utilityworlds:portal_void").addTooltip(game.localize("greedycraft.tooltip.utilityworld.warnings"));
+    itemUtils.getItem("utilityworlds:portal_garden").addTooltip(game.localize("greedycraft.tooltip.utilityworld.warnings"));
 }
 
 /*

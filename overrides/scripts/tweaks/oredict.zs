@@ -57,8 +57,6 @@ var vetheaDisabled as IItemStack[] = [
     <bountifulbaubles:magicmirror>,
     <bountifulbaubles:potionrecall>,
     <bountifulbaubles:potionwormhole>,
-    <utilityworlds:portal_garden>,
-    <utilityworlds:portal_void>,
     <draconicevolution:dislocator>,
     <draconicevolution:dislocator_advanced>,
     <botania:flugeleye>,
@@ -107,6 +105,10 @@ var vetheaDisabled as IItemStack[] = [
     <minecraft:blaze_rod>,
     <minecraft:obsidian>
 ];
+if (!isNull(itemUtils.getItem("utilityworlds:portal_void"))) {
+    vetheaDisabled += itemUtils.getItem("utilityworlds:portal_void");
+    vetheaDisabled += itemUtils.getItem("utilityworlds:portal_garden");
+}
 for item in vetheaDisabled {
     <ore:vetheaDisabled>.add(item);
 }

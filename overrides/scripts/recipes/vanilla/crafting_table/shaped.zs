@@ -8,6 +8,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
+import crafttweaker.mods.IMod;
 
 import scripts.util.recipes as RecipeUtil;
 import scripts.util.lang as LangUtil;
@@ -22,8 +23,10 @@ recipes.remove(<divinerpg:mysterious_clock>);
 recipes.remove(<divinerpg:twilight_clock>);
 recipes.remove(<theaurorian:aurorianportalframebricks>);
 recipes.remove(<journey:eucaportalframe>);
-recipes.remove(<utilityworlds:portal_void>);
-recipes.remove(<utilityworlds:portal_garden>);
+if (!isNull(itemUtils.getItem("utilityworlds:portal_void"))) {
+    recipes.remove(itemUtils.getItem("utilityworlds:portal_void"));
+    recipes.remove(itemUtils.getItem("utilityworlds:portal_garden"));
+}
 recipes.remove(<divinerpg:infernal_flame>);
 recipes.remove(<avaritia:neutron_collector>);
 recipes.remove(<additions:greedycraft-slime_crown>);
