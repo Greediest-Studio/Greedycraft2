@@ -17,8 +17,8 @@ val errorStone = <minecraft:stone>.withTag({display: {Name: LangUtil.translate("
 
 StarlightInfusion.addInfusion(<biomesoplenty:gem:1>, <additions:greedycraft-resonating_ruby>, false, 0.7, 200);
 
-AttunementAltar.addRecipe(<ore:toolTiC>, errorStone);
-AttunementAltar.addRecipe(<ore:armorTiC>, errorStone);
+//AttunementAltar.addRecipe(<ore:toolTiC>, errorStone);
+//AttunementAltar.addRecipe(<ore:armorTiC>, errorStone);
 
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/illuminationpowder");
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/enchantment_amulet_craft");
