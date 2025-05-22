@@ -187,8 +187,8 @@
         "symmertrical":true,
         "multiblock":{
             "mapping":{
-                "0":"minecraft:prismarine[note=1]",
-                "A":"minecraft:prismarine[note=1]"
+                "0":"minecraft:prismarine[variant=prismarine_bricks]",
+                "A":"minecraft:prismarine[variant=prismarine_bricks]"
             },
             "pattern":[
                 [
@@ -223,11 +223,11 @@
             "mapping":{
                 "0":"gct_mac:astral_portal",
                 "A":"astralsorcery:blockblackmarble",
-                "B":"astralsorcery:blockmarble[note=1]",
-                "C":"astralsorcery:blockmarble[note=6]",
-                "D":"astralsorcery:blockmarble[note=0]",
-                "E":"astralsorcery:blockmarble[note=2]",
-                "F":"astralsorcery:blockmarble[note=4]",
+                "B":"astralsorcery:blockmarble[marbletype=bricks]",
+                "C":"astralsorcery:blockmarble[marbletype=runed]",
+                "D":"astralsorcery:blockmarble[marbletype=raw]",
+                "E":"astralsorcery:blockmarble[marbletype=pillar]",
+                "F":"astralsorcery:blockmarble[marbletype=chiseled]",
                 "H":"gct_mobs:astral_portal_core"
             },
             "pattern":[
@@ -316,7 +316,7 @@
         "type":"spotlight",
         "item":"astralsorcery:itemwand",
         "link_recipe":true,
-        "text":"$(c)starland$()$(2)永恒星域$()(Dim 80)$(li)搭建如左图所示的多方块结构，在晚上手持$(6)共鸣星杖$()右击中间的$(c)传送门方块$()方可开启传送门$(li)注在白天进入会直接将玩家传送回主世界，且，此传送门为单向传送$(li)PS:现在星辉的矿辞有BUG无法完全显示多方块结构，你可以右击$(6)星辉投影仪$()来查看如何搭建多方块结构"
+        "text":"$(c)starland$()$(2)永恒星域$()(Dim 80)$(li)搭建如左图所示的多方块结构，在晚上手持$(6)共鸣星杖$()右击中间的$(c)传送门方块$()方可开启传送门$(li)注:在白天进入会直接将玩家传送回主世界，且此传送门为单向传送"
     },
     {
         "type":"spotlight",
@@ -1216,14 +1216,14 @@
     },
     {
         "type":"multiblock",
-        "text":"如图，你需要$(6)泥土$()*16$(6)水$()*4$(6)暮光宝石$()*1$(6)花$()*12",
+        "text":"如图，你需要$(6)泥土$()*12$(6)水$()*4$(6)暮光宝石$()*1$(6)花$()*12",
         "symmertrical":true,
         "multiblock":{
             "mapping":{
                 "0":"minecraft:dirt",
                 "A":"minecraft:dirt",
                 "B":"minecraft:red_flower",
-                "C":"minecraft:concrete"
+                "C":"minecraft:water"
             },
             "pattern":[
                 [
@@ -1237,12 +1237,6 @@
                     "ACCA",
                     "ACCA",
                     "AAAA"
-               ],
-               [
-                    "    ",
-                    " AA ",
-                    " AA ",
-                    "    "
                ]
             ]
         }
@@ -1250,7 +1244,7 @@
     {
         "type":"spotlight",
         "item":"additions:greedycraft-twilight_gem",
-        "text":"搭建如左图所示多方块结构,将$(6)暮光宝石$()扔进$(6)水$()中即可激活暮色森林传送门$(br)$(c)图中的花可以替换任意种类的花$()$(br)$(c)图中白色不明物体是水$()(确信~被漂白了)"
+        "text":"搭建如左图所示多方块结构,将$(6)暮光宝石$()扔进$(6)水$()中即可激活暮色森林传送门$(br)$(c)图中的花可以替换任意种类的花$()$(br)$(c)"
     },
     {
         "type":"spotlight",

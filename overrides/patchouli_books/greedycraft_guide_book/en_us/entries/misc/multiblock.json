@@ -5,7 +5,7 @@
     "pages": [
         {
             "type": "text",
-            "text": "你需要准备1个位能收集核心72个暗色伊桑斯砖栅栏20暗色伊桑斯砖台阶106暗色伊桑斯砖块10个伊桑斯砖栅栏20伊桑斯砖块1个灵神钢块(位能收集核心与灵神钢在投影中不显示)"
+            "text": "你需要准备$(6)位能收集核心$()*1,$(6)暗色伊桑斯砖栅栏$()*72,$(6)暗色伊桑斯砖台阶$()*20,$(6)暗色伊桑斯砖块$()*106,$(6)伊桑斯砖栅栏$()*10,$(6)伊桑斯砖块$()*20,$(6)灵神钢块$()*1"
         },
         {
             "type": "multiblock",
@@ -18,6 +18,15 @@
                         "       ",
                         "       ",
                         "   0   ",
+                        "       ",
+                        "       ",
+                        "       "
+                    ],
+                    [
+                        "       ",
+                        "       ",
+                        "       ",
+                        "   C   ",
                         "       ",
                         "       ",
                         "       "
@@ -171,7 +180,7 @@
         },
         {
             "type": "text",
-            "text": "你需要准备1个魔力反应堆控制器，2个神话钢块，2个奥利哈钢块，24个魔力钢块，16个圆源质钢块，36个活石砖，4个活石墙，236个不锈钢块，三个耐钢块，38个硬化铱玻璃80个铁块（结构中还需16桶元始魔力具体位置前往JEi查看)投影仅供参考其中少量方块不显示"
+            "text": "你需要准备$(6)魔力反应堆控制器$()*1,$(6)神话钢块$()*2,$(6)奥利哈钢块$()*2,$(6)魔力钢块$()*24,$(6)源质钢块$()*16,$(6)活石砖$()*36,$(6)活石墙$()*4,$(6)不锈钢块$()*236,$(6)耐钢块$()*3,$(6)硬化铱玻璃$()*38,$(6)铁块$()*80"
         },
         {
             "type":"multiblock",
@@ -200,9 +209,9 @@
                         "     AAA     ",
                         " A    A    A ",
                         " A  ABBBA  A ",
-                        "AAA B   B AAA",
-                        "ADAAB G BAAEA",
-                        "AAA B   B AAA",
+                        "AAA BMMMB AAA",
+                        "ADAABMGMBAAEA",
+                        "AAA BMMMB AAA",
                         " A  ABBBA  A ",
                         " A    A    A ",
                         " CC  AAA  CC ",
@@ -215,9 +224,9 @@
                         "C  AAA AAA  C",
                         "A A  A A  A A",
                         "A A ABHBA A A",
-                        "A AAB   BAA A",
-                        "I   H G H   I",
-                        "A AAB   BAA A",
+                        "A AABMMMBAA A",
+                        "I   HMGMH   I",
+                        "A AABMMMBAA A",
                         "A A ABHBA A A",
                         "A A  A A  A A",
                         "C  AAA AAA  C",
@@ -258,8 +267,8 @@
                 "mapping": {
                     "0": "gct_mac:mana_reactor",
                     "A": "additions:greedycraft-stainless_steel_block",
-                    "B": "thermalfoundation:glass:7",
-                    "C": "botania:livingrock:1",
+                    "B": "thermalfoundation:glass[type=iridium]",
+                    "C": "botania:livingrock[variant=brick]",
                     "D": "multiblocked:item_output",
                     "E": "multiblocked:fluid_output",
                     "F": "multiblocked:item_input",
@@ -267,8 +276,9 @@
                     "H": "botania:livingrock0wall",
                     "I": "additions:greedycraft-durasteel_block",
                     "J": "extrabotany:blockorichalcos",
-                    "K": "botania:storage:2",
-                    "L": "botania:storage"
+                    "K": "botania:storage[variant=elementium]",
+                    "L": "botania:storage[variant=manasteel]",
+                    "M": "thermalfoundation:fluid_mana"
                 }
             }
         }
