@@ -20,30 +20,29 @@ import mods.jei.JEI;
 import scripts.util.machines as MMUtil;
 
 MachineModifier.setMaxThreads("ore_5x", 0);
-MachineModifier.setInternalParallelism("ore_5x", 16384);
-for i in 0 to 128 {
+MachineModifier.setInternalParallelism("ore_5x", 256);
+for i in 0 to 32 {
     MachineModifier.addCoreThread("ore_5x", FactoryRecipeThread.createCoreThread("§e§l处理线程" + i));
 }
 
-static banlist as IItemStack[] = [
+static blacklist as IItemStack[] = [
     <nuclearcraft:ingot:11>,
     <nuclearcraft:ingot:12>,
     <biomesoplenty:gem:7>,
-    <tiths:ingot_titanium>
+    <tiths:ingot_titanium>,
+    <additions:mekaddon-sulfur_ingot>
 ];
 
 function test(ingot as IItemStack) as bool {
-    for item in loadedMods["additions"].items {
-        if (/*item.displayName == ingot.displayName || */ingot.definition.id has "additions-") {
-            return true;
-        }
+    if (ingot.definition.id has "additions-") {
+        return true;
     }
-    for item in banlist {
+    for item in blacklist {
         if (ingot.definition.id == item.definition.id) {
             return true;
         }
-        return false;
     }
+    return false;
 }
 
 for ores in oreDict.entries {

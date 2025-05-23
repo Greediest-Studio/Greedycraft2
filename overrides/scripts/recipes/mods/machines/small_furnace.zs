@@ -77,7 +77,8 @@ function test(ingot as IItemStack) as bool {
         <biomesoplenty:gem:7>,
         <tiths:ingot_titanium>,
         <minecraft:quartz>,
-        <appliedenergistics2:material>
+        <appliedenergistics2:material>,
+        <additions:mekaddon-sulfur_ingot>
     ];
     for item in loadedMods["additions"].items {
         if (ingot.definition.id has "additions-") {

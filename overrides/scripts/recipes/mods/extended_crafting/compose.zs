@@ -36,9 +36,9 @@ CombinationCrafting.addRecipe(<jaopca:block.twilit> * 1, 2000000000, 8388608, <g
     <ore:gemTwilightRefined>,
     <ore:gemTwilightRefined>,
     <ore:gemTwilightRefined>,
-    <moretcon:repitem:5>,
-    <moretcon:repitem:5>,
-    <moretcon:repitem:5>,
-    <moretcon:repitem:5>,
+    <moretcon:repitem:6>,
+    <moretcon:repitem:6>,
+    <moretcon:repitem:6>,
+    <moretcon:repitem:6>,
     <ore:ingotBalancedMatrix>
 ]);
