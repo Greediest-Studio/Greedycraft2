@@ -3479,7 +3479,7 @@ leveling_durabilityTrait.localizedDescription = game.localize("greedycraft.tcons
 leveling_durabilityTrait.hidden = true;
 leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, newAmount, holder) {
     if (holder instanceof IPlayer) {
-        var player as IPlayer = holder;
+        var player as IPlayer = holder;/*
         //var difficulty as int = DifficultyManager.getDifficulty(player) as int;
         var difficulty as int = player.difficulty as int;
         var mtp as float = 1.0f;
@@ -3487,7 +3487,7 @@ leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, 
             mtp = (1.0f / 640.0f) * difficulty as float + 1.0f;
         } else {
             mtp = (93.0f / 4160.0f) * difficulty as float - (43.0f / 13.0f) as float;
-        }/*
+        }
         if (min(((1.0f * tool.maxDamage) * 0.06f) as float,((1.0f * tool.damage + unmodifiedAmount) * mtp) as float) >= (1.0f * (tool.maxDamage - tool.damage))) {
             ToolHelper.breakTool(tool.mutable().native, player.native);
         } else {
@@ -3495,8 +3495,10 @@ leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, 
             //client.player.sendChat("应当损失耐久：" + min(((1.0f * tool.maxDamage) * 0.06f) as float,((1.0f * tool.damage + unmodifiedAmount) * mtp) as float) as int);
         }
         return 0;*/
+        if (unmodifiedAmount > (tool.maxDamage - tool.damage)) {ToolHelper.breakTool(tool.mutable().native, player.native);}
+        else {tool.mutable().attemptDamageItemWithEnergy(unmodifiedAmount,player);}
     }
-    return newAmount;
+    return 0;
 };/*
 leveling_durabilityTrait.afterBlockBreak = function(trait, tool, world, blockstate, blockPos, miner, wasEffective) {
     if (miner instanceof IPlayer) {

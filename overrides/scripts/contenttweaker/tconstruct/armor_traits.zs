@@ -2665,14 +2665,14 @@ leveling_durabilityTrait.localizedName = game.localize("greedycraft.tconstruct.a
 leveling_durabilityTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.leveling_durabilityTrait.desc");
 leveling_durabilityTrait.hidden = true;
 leveling_durabilityTrait.onArmorDamaged = function(trait, armor, damageSource, amount, newAmount, player, index) {
-    if (!isNull(player)) {
+    if (!isNull(player)) {/*
         var difficulty as int = DifficultyManager.getDifficulty(player) as int;
         var mtp as float = 1.0f;
         if (difficulty < 256) {
             mtp = (1.0f / 640.0f) * difficulty as float + 1.0f;
         } else {
             mtp = (93.0f / 4160.0f) * difficulty as float - (43.0f / 13.0f) as float;
-        }/* 
+        }
         if ((1.0f * amount * mtp) >= 1.0f * (armor.maxDamage / 200)) {
             if (min((0.03f * armor.maxDamage),(1.0f * armor.damage + (armor.maxDamage / 200))) >= (1.0f * armor.maxDamage - armor.damage)) {
                 ToolHelper.breakTool(armor.mutable().native, player.native);
@@ -2690,8 +2690,10 @@ leveling_durabilityTrait.onArmorDamaged = function(trait, armor, damageSource, a
                 return 0;
             }
         }*/
+        if (amount > armor.maxDamage - armor.damage) {ToolHelper.breakTool(armor.mutable().native, player.native);}
+        else {armor.mutable().attemptDamageItemWithEnergy(amount,player);}
     }
-    return newAmount;
+    return 0;
 };
 leveling_durabilityTrait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(armor.tag.Unbreakable)) {
