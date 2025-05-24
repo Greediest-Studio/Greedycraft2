@@ -2665,7 +2665,13 @@ leveling_durabilityTrait.localizedName = game.localize("greedycraft.tconstruct.a
 leveling_durabilityTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.leveling_durabilityTrait.desc");
 leveling_durabilityTrait.hidden = true;
 leveling_durabilityTrait.onArmorDamaged = function(trait, armor, damageSource, amount, newAmount, player, index) {
-    if (!isNull(player)) {/*
+    if (!isNull(player)) {
+        var extradamage as int = 0;
+        if (!isNull(armor.tag.EnergizedEnergy)) {extradamage = armor.tag.EnergizedEnergy.asInt();}
+        if (!isNull(armor.tag.FluxedEnergy)) {extradamage = armor.tag.FluxedEnergy.asInt();}
+        if (!isNull(armor.tag.EvolvedEnergy)) {extradamage = armor.tag.EvolvedEnergy.asInt();}
+        extradamage = (extradamage / 320);
+        /*
         var difficulty as int = DifficultyManager.getDifficulty(player) as int;
         var mtp as float = 1.0f;
         if (difficulty < 256) {
@@ -2690,7 +2696,7 @@ leveling_durabilityTrait.onArmorDamaged = function(trait, armor, damageSource, a
                 return 0;
             }
         }*/
-        if (amount > armor.maxDamage - armor.damage) {ToolHelper.breakTool(armor.mutable().native, player.native);}
+        if (amount > armor.maxDamage - armor.damage + extradamage) {ToolHelper.breakTool(armor.mutable().native, player.native);}
         else {armor.mutable().attemptDamageItemWithEnergy(amount,player);}
     }
     return 0;
