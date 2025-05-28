@@ -3479,7 +3479,13 @@ leveling_durabilityTrait.localizedDescription = game.localize("greedycraft.tcons
 leveling_durabilityTrait.hidden = true;
 leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, newAmount, holder) {
     if (holder instanceof IPlayer) {
-        var player as IPlayer = holder;/*
+        var player as IPlayer = holder;
+        var extradamage as int = 0;
+        if (!isNull(tool.tag.EnergizedEnergy)) {extradamage = tool.tag.EnergizedEnergy.asInt();}
+        if (!isNull(tool.tag.FluxedEnergy)) {extradamage = tool.tag.FluxedEnergy.asInt();}
+        if (!isNull(tool.tag.EvolvedEnergy)) {extradamage = tool.tag.EvolvedEnergy.asInt();}
+        extradamage = (extradamage / 320);
+        /*
         //var difficulty as int = DifficultyManager.getDifficulty(player) as int;
         var difficulty as int = player.difficulty as int;
         var mtp as float = 1.0f;
@@ -3495,7 +3501,7 @@ leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, 
             //client.player.sendChat("应当损失耐久：" + min(((1.0f * tool.maxDamage) * 0.06f) as float,((1.0f * tool.damage + unmodifiedAmount) * mtp) as float) as int);
         }
         return 0;*/
-        if (unmodifiedAmount > (tool.maxDamage - tool.damage)) {ToolHelper.breakTool(tool.mutable().native, player.native);}
+        if (unmodifiedAmount > (tool.maxDamage - tool.damage + extradamage)) {ToolHelper.breakTool(tool.mutable().native, player.native);}
         else {tool.mutable().attemptDamageItemWithEnergy(unmodifiedAmount,player);}
     }
     return 0;

@@ -226,31 +226,48 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
             if (!(TicTraitLib.hasTicTrait(item, "leveling_durability"))) {
                 TicTraitLib.addTicTrait(item, "leveling_durability", 0xffffff, 1);
             }
+        } else if (TicLib.isTicArmor(item)) {
+            if (!(TicTraitLib.hasTicTrait(item, "leveling_durability_armor"))) {
+                TicTraitLib.addTicTrait(item, "leveling_durability_armor", 0xffffff, 1);
+            }
+        }
+    }
+
+    //Astral fix
+    if (!isNull(player.armorInventory)) {
+        for armor in player.armorInventory {
+            if (!isNull(armor)) {
+                if (TicTraitLib.hasTicTrait(armor, "astraling_armor") && !(TicTraitLib.hasTicTrait(armor, "tconevo.astral_armor"))) {
+                    TicTraitLib.addTicTrait(armor, "tconevo.astral_armor", TicTraitLib.getTraitColor(armor, "astraling_armor"), 1);
+                }
+                if (TicTraitLib.hasTicTrait(armor, "tconevo.astral_armor") && (TicTraitLib.hasTicTrait(armor, "astraling_armor"))) {
+                    TicTraitLib.removeTicTrait(armor, "astraling_armor", TicTraitLib.getTraitColor(armor, "astraling_armor"), 1);
+                }
+                if !(TicTraitLib.hasTicTrait(armor, "astraling_armor") || TicTraitLib.hasTicTrait(armor, "tconevo.astral_armor")) {
+                    var str as string = "";
+                    for trait in TicTraitLib.getTicTrait(armor) {
+                        if (trait has "tconevo.attuned_") {
+                            str = trait;
+                            break;
+                        }
+                    }
+                    TicTraitLib.removeTicTrait(armor,str,TicTraitLib.getTraitColor(armor,str),1);
+                }
+            }
+        }
+    } 
+    if (!isNull(player.currentItem)) {
+        var item = player.currentItem;
+        if (TicLib.isTicTool(item)) {
+            if (!(TicTraitLib.hasTicTrait(item, "leveling_durability"))) {
+                TicTraitLib.addTicTrait(item, "leveling_durability", 0xffffff, 1);
+            }
             if (TicTraitLib.hasTicTrait(item, "astraling") && !(TicTraitLib.hasTicTrait(item, "tconevo.astral"))) {
                 TicTraitLib.addTicTrait(item, "tconevo.astral", TicTraitLib.getTraitColor(item, "astraling"), 1);
                 item = player.currentItem;
                 TicTraitLib.removeTicTrait(item, "astraling", TicTraitLib.getTraitColor(item, "astraling"), 1);
             }
             if !(TicTraitLib.hasTicTrait(item, "astraling") || TicTraitLib.hasTicTrait(item, "tconevo.astral")) {
-                var str as string = "";
-                for trait in TicTraitLib.getTicTrait(item) {
-                    if (trait has "tconevo.attuned_") {
-                        str = trait;
-                        break;
-                    }
-                }
-                TicTraitLib.removeTicTrait(item,str,TicTraitLib.getTraitColor(item,str),1);
-            }
-        } else if (TicLib.isTicArmor(item)) {
-            if (!(TicTraitLib.hasTicTrait(item, "leveling_durability_armor"))) {
-                TicTraitLib.addTicTrait(item, "leveling_durability_armor", 0xffffff, 1);
-            }
-            if (TicTraitLib.hasTicTrait(item, "astraling_armor") && !(TicTraitLib.hasTicTrait(item, "tconevo.astral_armor"))) {
-                TicTraitLib.addTicTrait(item, "tconevo.astral_armor", TicTraitLib.getTraitColor(item, "astraling_armor"), 1);
-                item = player.currentItem;
-                TicTraitLib.removeTicTrait(item, "astraling_armor", TicTraitLib.getTraitColor(item, "astraling_armor"), 1);
-            }
-            if !(TicTraitLib.hasTicTrait(item, "astraling_armor") || TicTraitLib.hasTicTrait(item, "tconevo.astral_armor")) {
                 var str as string = "";
                 for trait in TicTraitLib.getTicTrait(item) {
                     if (trait has "tconevo.attuned_") {
