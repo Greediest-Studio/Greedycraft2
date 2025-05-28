@@ -20,6 +20,7 @@ import scripts.util.lang as LangUtil;
 
 recipes.remove(<hydrogenation_tinker:field_generator>.withTag({Material: "nether_star"}));
 recipes.remove(<ymadditions:network_hub>);
+recipes.remove(<tconstruct:piggybackpack>.withTag({}));
 
 RecipeUtil.addShaped("calculator_subsystem_l4", <ecoaeextension:extendable_calculator_subsystem_l4>, [
     [<ecoaeextension:ecalculator_casing>, <additions:greedycraft-calculation_processor_2>, <ecoaeextension:ecalculator_casing>],
@@ -311,8 +312,13 @@ RecipeUtil.addShaped("mystical_Dreadium", <abyssalcraft:dreadiumingot>, [
     [<mysticalagriculture:dreadium_essence>, null, <mysticalagriculture:dreadium_essence>],
     [<mysticalagriculture:dreadium_essence>, <mysticalagriculture:dreadium_essence>, <mysticalagriculture:dreadium_essence>]
 ]);
-RecipeUtil.addShaped("mystical_soularium", <enderio:item_alloy_ingot:7> * 2, [
-    [<mysticalagriculture:soularium_essence>, <mysticalagriculture:soularium_essence>, <mysticalagriculture:soularium_essence>],
-    [<mysticalagriculture:soularium_essence>, null, <mysticalagriculture:soularium_essence>],
-    [<mysticalagriculture:soularium_essence>, <mysticalagriculture:soularium_essence>, <mysticalagriculture:soularium_essence>]
+RecipeUtil.addShaped("ae-link", <whimcraft:link_card>, [
+    [null, <modularmachinery:blockcontroller>, null],
+    [<crazyae:material>, <appliedenergistics2:memory_card>.withTag({}), <crazyae:material>],
+    [null, <modularmachinery:blockmepatternprovider>, null]
+]);
+RecipeUtil.addShaped("share-link", <whimcraft:blockshareinfhandler>, [
+    [null, <modularmachinery:blockcontroller>, null],
+    [<crazyae:material>, <modularmachinery:blockmepatternprovider>.withTag({}), <crazyae:material>],
+    [null, <ae2stuff:wireless>, null]
 ]);
