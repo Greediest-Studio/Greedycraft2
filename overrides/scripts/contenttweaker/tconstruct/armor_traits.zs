@@ -3454,3 +3454,38 @@ world_beginningTrait.onHurt = function(trait, armor, player, source, damage, new
     return newDamage;
 };
 world_beginningTrait.register();
+
+val energy_fixTrait = ArmorTraitBuilder.create("energy_fix");
+energy_fixTrait.color = Color.fromHex("ffffff").getIntColor();
+energy_fixTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.energy_fixTrait.name");
+energy_fixTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.energy_fixTrait.desc");
+energy_fixTrait.hidden = true;
+energy_fixTrait.onArmorTick = function(trait, armor, world, player) {
+    var newenergy as IData = {};
+    var energy = 0;
+    if (!isNull(armor.tag.EnergizedEnergy)) {
+        energy = armor.tag.EnergizedEnergy.asInt();
+        newenergy = {EnergizedEnergy: (energy - 320)};
+        if (energy > 320 && armor.damage > 0) {
+            armor.mutable().tag.update(armor.tag.deepUpdate(newenergy, {EnergizedEnergy: OVERWRITE}));
+            armor.mutable().damageItem(-1,player);
+        }
+    }
+    if (!isNull(armor.tag.FluxedEnergy)) {
+        energy = armor.tag.FluxedEnergy.asInt();
+        newenergy = {FluxedEnergy: (energy - 320)};
+        if (energy > 320 && armor.damage > 0) {
+            armor.mutable().tag.update(armor.tag.deepUpdate(newenergy, {FluxedEnergy: OVERWRITE}));
+            armor.mutable().damageItem(-1,player);
+        }
+    }
+    if (!isNull(armor.tag.EvolvedEnergy)) {
+        energy = armor.tag.EvolvedEnergy.asInt();
+        newenergy = {EvolvedEnergy: (energy - 320)};
+        if (energy > 320 && armor.damage > 0) {
+            armor.mutable().tag.update(armor.tag.deepUpdate(newenergy, {EvolvedEnergy: OVERWRITE}));
+            armor.mutable().damageItem(-1,player);
+        }
+    }
+};
+energy_fixTrait.register();

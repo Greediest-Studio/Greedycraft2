@@ -279,4 +279,25 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
             }
         }
     }
+
+    //test
+    if (!isNull(player.currentItem)) {
+        var item = player.currentItem;
+        if (TicLib.isTicTool(item)) {
+            if !(TicTraitLib.hasTicTrait(item, "energy_fix")) && (TicTraitLib.hasTicTrait(item, "tconevo.evolved")) {
+                TicTraitLib.addTicTrait(item, "energy_fix", 0xffffff, 1);
+            }
+        }
+    }
+    if (!isNull(player.armorInventory)) {
+        for armor in player.armorInventory {
+            if (!isNull(armor)) {
+                if (TicLib.isTicArmor(armor)) {
+                    if (!(TicTraitLib.hasTicTrait(armor, "energy_fix_armor"))) {
+                        TicTraitLib.addTicTrait(armor, "energy_fix_armor", 0xffffff, 1);
+                    }
+                }
+            }
+        }
+    }
 });
