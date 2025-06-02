@@ -2666,8 +2666,8 @@ leveling_durabilityTrait.localizedDescription = game.localize("greedycraft.tcons
 leveling_durabilityTrait.hidden = true;
 leveling_durabilityTrait.onArmorDamaged = function(trait, armor, damageSource, amount, newAmount, player, index) {
 
-    if (player instanceof IPlayer) {
-;
+    if (!isNull(player)) {
+
         var extradamage as int = 0;
 
         if (!isNull(armor.tag.EnergizedEnergy)) {extradamage = armor.tag.EnergizedEnergy.asInt();}
@@ -2675,9 +2675,9 @@ leveling_durabilityTrait.onArmorDamaged = function(trait, armor, damageSource, a
         if (!isNull(armor.tag.EvolvedEnergy)) {extradamage = armor.tag.EvolvedEnergy.asInt();}
 
         extradamage = (extradamage / 320);
-        var difficulty as float = player1.difficulty as float;
+        var difficulty = player.difficulty;
 
-        var needDamage as float = (Math.sqrt(amount * 3.14) * Math.log10(amount) / Math.log10(2.7) * Math.sqrt(difficulty * 25) * 1.5) as float;
+        var needDamage  = 1 * ((Math.sqrt(amount * 3.14) * Math.log10(amount) / Math.log10(2.7) * Math.sqrt(difficulty * 25) * 1.5) as float);
 
         if (needDamage > (armor.maxDamage - armor.damage + extradamage)) {
             ToolHelper.breakTool(armor.mutable().native, player.native);
