@@ -134,6 +134,7 @@ $expand IMutableItemStack$removeEnergy(num as int) as void {
         this.setEnergy(this.getEnergy() - num);
     }
 }
+
 $expand IMutableItemStack$attemptDamageItemWithEnergy(num as int, player as IPlayer) as void {
     if (this.hasEnergy()) {
         var energyDura as int = this.getEnergy() / 640;
@@ -3479,30 +3480,24 @@ leveling_durabilityTrait.localizedDescription = game.localize("greedycraft.tcons
 leveling_durabilityTrait.hidden = true;
 leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, newAmount, holder) {
     if (holder instanceof IPlayer) {
+
         var player as IPlayer = holder;
         var extradamage as int = 0;
+
         if (!isNull(tool.tag.EnergizedEnergy)) {extradamage = tool.tag.EnergizedEnergy.asInt();}
         if (!isNull(tool.tag.FluxedEnergy)) {extradamage = tool.tag.FluxedEnergy.asInt();}
         if (!isNull(tool.tag.EvolvedEnergy)) {extradamage = tool.tag.EvolvedEnergy.asInt();}
+
         extradamage = (extradamage / 320);
-        /*
-        //var difficulty as int = DifficultyManager.getDifficulty(player) as int;
-        var difficulty as int = player.difficulty as int;
-        var mtp as float = 1.0f;
-        if (difficulty < 256) {
-            mtp = (1.0f / 640.0f) * difficulty as float + 1.0f;
-        } else {
-            mtp = (93.0f / 4160.0f) * difficulty as float - (43.0f / 13.0f) as float;
-        }
-        if (min(((1.0f * tool.maxDamage) * 0.06f) as float,((1.0f * tool.damage + unmodifiedAmount) * mtp) as float) >= (1.0f * (tool.maxDamage - tool.damage))) {
+        var difficulty as float = player.difficulty as float;
+
+        var needDamage as float = (Math.sqrt(unmodifiedAmount * 3.14) * Math.log10(unmodifiedAmount) / Math.log10(2.7) * Math.sqrt(difficulty * 25) * 1.5) as float;
+
+        if (needDamage > (tool.maxDamage - tool.damage + extradamage)) {
             ToolHelper.breakTool(tool.mutable().native, player.native);
         } else {
-            tool.mutable().attemptDamageItemWithEnergy(min(((1.0f * tool.maxDamage) * 0.06f) as float,((1.0f * tool.damage + unmodifiedAmount) * mtp) as float) as int, player);
-            //client.player.sendChat("应当损失耐久：" + min(((1.0f * tool.maxDamage) * 0.06f) as float,((1.0f * tool.damage + unmodifiedAmount) * mtp) as float) as int);
+            tool.mutable().attemptDamageItemWithEnergy(needDamage, player);
         }
-        return 0;*/
-        if (unmodifiedAmount > (tool.maxDamage - tool.damage + extradamage)) {ToolHelper.breakTool(tool.mutable().native, player.native);}
-        else {tool.mutable().attemptDamageItemWithEnergy(unmodifiedAmount,player);}
     }
     return 0;
 };/*

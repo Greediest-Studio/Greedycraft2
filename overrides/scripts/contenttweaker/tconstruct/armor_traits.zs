@@ -2665,39 +2665,25 @@ leveling_durabilityTrait.localizedName = game.localize("greedycraft.tconstruct.a
 leveling_durabilityTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.leveling_durabilityTrait.desc");
 leveling_durabilityTrait.hidden = true;
 leveling_durabilityTrait.onArmorDamaged = function(trait, armor, damageSource, amount, newAmount, player, index) {
-    if (!isNull(player)) {
+
+    if (player instanceof IPlayer) {
+;
         var extradamage as int = 0;
+
         if (!isNull(armor.tag.EnergizedEnergy)) {extradamage = armor.tag.EnergizedEnergy.asInt();}
         if (!isNull(armor.tag.FluxedEnergy)) {extradamage = armor.tag.FluxedEnergy.asInt();}
         if (!isNull(armor.tag.EvolvedEnergy)) {extradamage = armor.tag.EvolvedEnergy.asInt();}
+
         extradamage = (extradamage / 320);
-        /*
-        var difficulty as int = DifficultyManager.getDifficulty(player) as int;
-        var mtp as float = 1.0f;
-        if (difficulty < 256) {
-            mtp = (1.0f / 640.0f) * difficulty as float + 1.0f;
+        var difficulty as float = player1.difficulty as float;
+
+        var needDamage as float = (Math.sqrt(amount * 3.14) * Math.log10(amount) / Math.log10(2.7) * Math.sqrt(difficulty * 25) * 1.5) as float;
+
+        if (needDamage > (armor.maxDamage - armor.damage + extradamage)) {
+            ToolHelper.breakTool(armor.mutable().native, player.native);
         } else {
-            mtp = (93.0f / 4160.0f) * difficulty as float - (43.0f / 13.0f) as float;
+            armor.mutable().attemptDamageItemWithEnergy(needDamage, player);
         }
-        if ((1.0f * amount * mtp) >= 1.0f * (armor.maxDamage / 200)) {
-            if (min((0.03f * armor.maxDamage),(1.0f * armor.damage + (armor.maxDamage / 200))) >= (1.0f * armor.maxDamage - armor.damage)) {
-                ToolHelper.breakTool(armor.mutable().native, player.native);
-                return 0;
-            } else {
-                armor.mutable().attemptDamageItemWithEnergy(1 * (min((0.03f * armor.maxDamage),(1.0f * (armor.maxDamage / 200)))) as int, player);
-                return 0;
-            }
-        } else {
-            if (min((0.03f * armor.maxDamage),(armor.damage + ((mtp - 1.0f) * amount))) >= (1.0f * (armor.maxDamage - armor.damage))) {
-                ToolHelper.breakTool(armor.mutable().native, player.native);
-                return 0;
-            } else {
-                armor.mutable().attemptDamageItemWithEnergy(1 * min((0.03f * armor.maxDamage),((mtp - 1.0f) * amount)) as int, player);
-                return 0;
-            }
-        }*/
-        if (amount > armor.maxDamage - armor.damage + extradamage) {ToolHelper.breakTool(armor.mutable().native, player.native);}
-        else {armor.mutable().attemptDamageItemWithEnergy(amount,player);}
     }
     return 0;
 };
