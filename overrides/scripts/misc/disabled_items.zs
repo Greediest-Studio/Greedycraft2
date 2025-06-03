@@ -1559,10 +1559,10 @@ var disabledItems as IIngredient[] = [
     <enderio:item_inventory_remote>,
     <enderio:item_inventory_remote:1>,
     <mekanism:meka_tool>,
-    <mekanism:mekasuit_helmet>.withTag({}),
-    <mekanism:mekasuit_boots>.withTag({}),
-    <mekanism:mekasuit_pants>.withTag({}),
-    <mekanism:mekasuit_bodyarmor>.withTag({}),
+    <mekanism:mekasuit_helmet>,
+    <mekanism:mekasuit_boots>,
+    <mekanism:mekasuit_pants>,
+    <mekanism:mekasuit_bodyarmor>,
     <whimcraft:blockmeaspectinputbusmmce>,
     <whimcraft:blockmeaspectoutputbusmmce>
 ] as IIngredient[];
