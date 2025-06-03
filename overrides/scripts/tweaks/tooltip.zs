@@ -96,7 +96,7 @@ val tooltipMap as string[][IIngredient] = {
     <plustic:laser_gun> : [blueprint_required],
     <tconevo:tool_sceptre> : [blueprint_required],
     <thermaldynamics:duct_32:*> : [game.localize("greedycraft.tooltip.thermaldynamics.duct_32.1")],
-    <tconstruct:materials> : [game.localize("greedycraft.tooltip.tconstruct.materials.1")],
+    <tconstruct:materials:0> : [game.localize("greedycraft.tooltip.tconstruct.materials.2")],
     <abyssalcraft:shadowgem> : [shadow_mob_1, shadow_mob_2],
     <abyssalcraft:shadowshard> : [shadow_mob_1, shadow_mob_2],
     <abyssalcraft:shadowfragment> : [shadow_mob_1, shadow_mob_2],
