@@ -49,6 +49,7 @@ Alloy.removeRecipe(<liquid:liquidrunesteel>);
 Alloy.removeRecipe(<liquid:liquidrotiron>, [<liquid:rottensludge> * 1, <liquid:liquidsyrmorite> * 3]);
 Alloy.removeRecipe(<liquid:solita>);
 Alloy.removeRecipe(<liquid:steel>);
+Alloy.removeRecipe(<liquid:iron>);
 
 Alloy.addRecipe(<liquid:yrdeen_fluid> * 3, [<liquid:uru_fluid> * 3, <liquid:valyrium_fluid> * 3, <liquid:signalum>]);
 Alloy.addRecipe(<liquid:adamant_fluid> * 3, [<liquid:nihilite_fluid> * 1, <liquid:iox_fluid> * 3]);
