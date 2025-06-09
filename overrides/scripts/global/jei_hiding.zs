@@ -22,8 +22,15 @@ for oreItems in contenttweaker.items {
 JEI.hide(<thermalexpansion:florb>);
 JEI.hide(<openblocks:tank>);
 JEI.hide(<forestry:refractory>);
+JEI.hide(<mekanism:machineblock4:8>);
+JEI.hide(<mekanism:machineblock:5>.withTag({recipeType: 17}));
+JEI.hide(<mekanism:machineblock:6>.withTag({recipeType: 17}));
+JEI.hide(<mekanism:machineblock:7>.withTag({recipeType: 17}));
+JEI.hide(<mekanism:machineblock3:7>.withTag({recipeType: 17}));
+JEI.hide(<mekanism:machineblock3:8>.withTag({recipeType: 17}));
 
 JEI.hideCategory("Painter");
+JEI.hideCategory("Recycler");
 
 JEI.addDescription(<aeble:bubble_ring>,"装备时，提供常驻的水下呼吸");
 JEI.addDescription(<aeble:obsidian_ring>,"装备时，提供常驻的防火和抗性1");
