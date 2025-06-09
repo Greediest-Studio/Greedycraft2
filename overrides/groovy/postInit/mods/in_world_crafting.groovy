@@ -220,11 +220,10 @@ inWorldCrafting.fluidToItem.recipeBuilder()
         .output(item('additions:greedycraft-slider_gem_unforked'))
         .register()
 
-inWorldCrafting.fluidToItem.recipeBuilder()
-        .fluidInput(fluid('lava'))
-        .input(item('minecraft:dirt'))
-        .output(item('mekanism:scrap'))
-        .register()
+
+
+
+
 
 inWorldCrafting.explosion.recipeBuilder()
     .input(item('biomesoplenty:crystal'))

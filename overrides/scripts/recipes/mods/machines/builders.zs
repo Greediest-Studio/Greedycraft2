@@ -907,6 +907,18 @@ for i in 4 to 7 {
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:primordial_creater"}))
         .build();
 }
+//阿斯加德之门
+for i in 4 to 7 {
+    RecipeBuilder.newBuilder("asgard_portal_creater" + i, "builder_" + i, 1200)
+        .addFluidInput(<liquid:redstone> * 30600)
+        .addItemInput(<jaopca:plate.botanical_awakened> * 1)
+        .addItemInput(<gct_ores:orichalcos_machine_frame> * 16)
+        .addItemInput(<extrabotany:material:3> * 1)
+        .addEnergyPerTickInput(120)
+        .addItemOutput(<modularmachinery:asgard_portal_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:asgard_portal"}))
+        .build();
+}
 //复合装配体
 for i in 4 to 7 {
     RecipeBuilder.newBuilder("factory_giant" + i, "builder_" + i, 1200)
@@ -929,6 +941,31 @@ for i in 3 to 7 {
         .addEnergyPerTickInput(1000)
         .addItemOutput(<modularmachinery:neutron_activator_controller>)
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:neutron_activator"}))
+        .build();
+}
+//大蒸馏塔
+for i in 3 to 7 {
+    RecipeBuilder.newBuilder("thermal_evaporation_plant" + i, "builder_" + i, 800)
+        .addFluidInput(<liquid:redstone> * 128000)
+        .addItemInput(<mekanism:basicblock:14> * 16)
+        .addItemInput(<mekanism:basicblock2> * 64)
+        .addItemInput(<jaopca:gear.durasteel> * 4)
+        .addEnergyPerTickInput(1000)
+        .addItemOutput(<modularmachinery:thermal_evaporation_plant_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:thermal_evaporation_plant"}))
+        .build();
+}
+//大五倍矿
+for i in 3 to 7 {
+    RecipeBuilder.newBuilder("ore_5x" + i, "builder_" + i, 800)
+        .addFluidInput(<liquid:redstone> * 128000)
+        .addItemInput(<additions:greedycraft-modularium_block> * 16)
+        .addItemInput(<ore:circuitUltimate> * 16)
+        .addItemInput(<enderio:block_alloy:6> * 16)
+        .addItemInput(<jaopca:gear.aeonsteel> * 32)
+        .addEnergyPerTickInput(1000)
+        .addItemOutput(<modularmachinery:ore_5x_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:ore_5x"}))
         .build();
 }
 //大粉碎机
@@ -971,6 +1008,19 @@ for i in 3 to 7 {
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:infusion_matrix_machine"}))
         .build();
 }
+//物质解压器
+for i in 4 to 7 {
+    RecipeBuilder.newBuilder("big_miner" + i, "builder_" + i, 10000)
+        .addFluidInput(<liquid:redstone> * 1000000)
+        .addItemInput(<additions:mekaddon-arcane_control_circuit> * 128)
+        .addItemInput(<gct_ores:ordered_metal_gear> * 4)
+        .addItemInput(<avaritia:block_resource> * 256)
+        .addItemInput(<thaumcraft:turret:2> * 16)
+        .addEnergyPerTickInput(10000000)
+        .addItemOutput(<modularmachinery:big_miner_factory_controller>)
+        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:big_miner"})) 
+        .build();
+}
 //混沌反应堆
 for i in 3 to 7 {
     RecipeBuilder.newBuilder("chaos_reactor" + i, "builder_" + i, 800)
@@ -1007,7 +1057,7 @@ for i in 3 to 7 {
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:crystal_changer"})) 
         .build();        
 }
-//大型合金炉
+//大合金炉
 for i in 3 to 7 {
     RecipeBuilder.newBuilder("big_alloy_smelter" + i, "builder_" + i, 1200)
         .addFluidInput(<liquid:redstone> * 4500)
@@ -1028,6 +1078,17 @@ for i in 3 to 7 {
         .addItemInput(<ore:ingotBloodInfusedIron> * 16)
         .addEnergyPerTickInput(120)
         .addItemOutput(<modularmachinery:demon_will_crafter_factory_controller>) 
+        .build();        
+}
+//魔力聚能机
+for i in 3 to 7 {
+    RecipeBuilder.newBuilder("mana_ele" + i, "builder_" + i, 1200)
+        .addFluidInput(<liquid:redstone> * 45000)
+        .addItemInput(<ore:frameOrichalcos> * 8)
+        .addItemInput(<ore:gearMythsteel> * 1)
+        .addItemInput(<ore:frameElementium> * 16)
+        .addEnergyPerTickInput(120)
+        .addItemOutput(<modularmachinery:mana_ele_factory_controller>) 
         .build();        
 }
 //小型熔炼单元
