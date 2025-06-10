@@ -1628,7 +1628,6 @@ for ingredient in disabledItems {
 }
 
 val HideItem as IIngredient[] = [
-    <gct_mobs:god_agglomeration_plate>,
     <gct_mobs:reserver>,
     <additions:greedycraft-astral_projector>,
     <additions:greedycraft-astral_projector_2>,

@@ -1175,7 +1175,7 @@ GameStagesUtil.stageWitherSlayer.addIngredients([
 ], true);
 
 GameStagesUtil.stageGaiaDeleter.addIngredients([
-    <gct_mac:mythsteel_plate>,
+    <godagglomerationplate:godagglomerationplate>,
     <gct_mac:reverser>,
     <gct_mobs:alfheim>,
     <gct_mobs:orichalcos_dreamwood>,

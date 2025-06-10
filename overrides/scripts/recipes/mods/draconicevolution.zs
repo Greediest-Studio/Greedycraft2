@@ -237,7 +237,7 @@ FusionCrafting.add(<extendedcrafting:material:18>, <extendedcrafting:material:2>
     <extendedcrafting:material:7>
 ]);
 
-FusionCrafting.add(<gct_mac:mythsteel_plate>, <botanicadds:gaia_plate>, 3, 24000000000, [
+FusionCrafting.add(<godagglomerationplate:godagglomerationplate>, <botanicadds:gaia_plate>, 3, 24000000000, [
     <ore:ingotMythsteel>,
     <ore:ingotMythsteel>,
     <ore:ingotMythsteel>,

@@ -11,7 +11,7 @@ events.onEntityLivingDeath(function(event as EntityLivingDeathEvent) {
         if (entity instanceof IEntityLiving && sourceEntity instanceof IEntityLiving) {
             var ent as IEntityLiving = entity;
             var sourEnt as IEntityLiving = sourceEntity;
-            if (ent.definition.id == "gct_aby:ancientshoggoth" && sourEnt.definition.id == "gct_aby:mixture_shoggoth") {
+            if (ent.definition.id == "gct_aby:ancientshoggoth" && sourEnt.definition.id == "gct_aby:bloody_shoggoth") {
                 var x as int = ent.x as int;
                 var y as int = ent.y as int;
                 var z as int = ent.z as int;
