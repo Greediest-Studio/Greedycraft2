@@ -821,7 +821,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:frameTerrasteel> : [<gct_ores:terrasteel_machine_frame>],
     <ore:frameGaia> : [<gct_ores:gaia_spirit_machine_frame>],
     <ore:frameGaiasteel> : [<gct_ores:gaia_steel_machine_frame>],
-    <ore:frameOrichalcos> : [<gct_ores:orichalcos_machine_frame>]
+    <ore:frameOrichalcos> : [<gct_ores:orichalcos_machine_frame>],
+    <ore:ingotCthulhurite> : [<gct_mobs:cthulhurite_ingot>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {
