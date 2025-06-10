@@ -121,14 +121,22 @@ Agglomeration.addRecipe(<jaopca:compound.terrasteel>.withTag({display: {Name: "�
 Agglomeration.addRecipe(<jaopca:compound.manasteel>.withTag({display: {Name: "§3§l纯化魔力钢"}, ench: [{lvl: 10 as short, id: 71}]}), [<botania:manaresource>.withTag({display: {Name: "§3§l注魔魔力钢锭"}, ench: [{lvl: 10 as short, id: 71}]})], 2500, 0xED339A, 0xE67800, <botania:quartztypelavender>, <additions:botaniaddon-elfsteel_block>, <avaritiatweaks:gaia_block>, <botania:storage:3>, null, null);
 
 GodAgglomeration.addRecipe(<gct_mobs:botanical_ingot_awakened> * 2, [
-    <ore:ingotBotanical> * 4,
+    <ore:ingotBotanical>,
+    <ore:ingotBotanical>,
+    <ore:ingotBotanical>,
+    <ore:ingotBotanical>,
     <ore:ingotRosium>,
     <ore:ingotChrysanthemium>,
     <ore:ingotDandelionium>,
     <ore:ingotMyosotisium>,
     <ore:ingotBegonium>,
     <ore:ingotCarnationium>,
-    <ore:ingotKianate> * 6,
+    <ore:ingotKianate>,
+    <ore:ingotKianate>,
+    <ore:ingotKianate>,
+    <ore:ingotKianate>,
+    <ore:ingotKianate>,
+    <ore:ingotKianate>,
     <ore:ingotBalancedMatrix>
 ], 40000000, 0xe8d26c, 0x7eb98c, <additions:botaniaddon-elfsteel_block>, <jaopca:block.mythsteel>, <additions:botaniaddon-elfsteel_block>, null, null);
 GodAgglomeration.addRecipe(<gct_mobs:begonium_ingot>, [
@@ -139,8 +147,10 @@ GodAgglomeration.addRecipe(<gct_mobs:begonium_ingot>, [
     <ore:runeChamaelB>,
     <ore:heartGaia>,
     <ore:ingotBotanical>,
-    <ore:blockDiamondSakura> * 2,
-    <ore:blockMana> * 2
+    <ore:blockDiamondSakura>,
+    <ore:blockDiamondSakura>,
+    <ore:blockMana>,
+    <ore:blockMana>
 ], 8000000, 0xe8d26c, 0xffb7ff, <additions:botaniaddon-elfsteel_block>, <jaopca:block.mythsteel>, <additions:botaniaddon-elfsteel_block>, null, null);
 GodAgglomeration.addRecipe(<gct_mobs:carnationium_ingot>, [
     <ore:runeMetatronB>,
@@ -150,8 +160,10 @@ GodAgglomeration.addRecipe(<gct_mobs:carnationium_ingot>, [
     <ore:runeGabrielB>,
     <ore:heartGaia>,
     <ore:ingotBotanical>,
-    <ore:blockPhotonium> * 2,
-    <ore:blockMana> * 2
+    <ore:blockPhotonium>,
+    <ore:blockPhotonium>,
+    <ore:blockMana>,
+    <ore:blockMana>
 ], 8000000, 0xe8d26c, 0xffffff, <additions:botaniaddon-elfsteel_block>, <jaopca:block.mythsteel>, <additions:botaniaddon-elfsteel_block>, null, null);
 GodAgglomeration.addRecipe(<gct_mobs:chrysanthemium_ingot>, [
     <ore:runeMichaelB>,
@@ -161,8 +173,10 @@ GodAgglomeration.addRecipe(<gct_mobs:chrysanthemium_ingot>, [
     <ore:runeSandalphonB>,
     <ore:heartGaia>,
     <ore:ingotBotanical>,
-    <ore:blockValkyrie> * 2,
-    <ore:blockMana> * 2
+    <ore:blockValkyrie>,
+    <ore:blockValkyrie>,
+    <ore:blockMana>,
+    <ore:blockMana>
 ], 8000000, 0xe8d26c, 0xffffff, <additions:botaniaddon-elfsteel_block>, <jaopca:block.mythsteel>, <additions:botaniaddon-elfsteel_block>, null, null);
 GodAgglomeration.addRecipe(<gct_mobs:myosotisium_ingot>, [
     <ore:runeRatzielB>,
@@ -172,8 +186,10 @@ GodAgglomeration.addRecipe(<gct_mobs:myosotisium_ingot>, [
     <ore:runeSandalphonB>,
     <ore:heartGaia>,
     <ore:ingotBotanical>,
-    <ore:blockShadowium> * 2,
-    <ore:blockMana> * 2
+    <ore:blockShadowium>,
+    <ore:blockShadowium>,
+    <ore:blockMana>,
+    <ore:blockMana>
 ], 8000000, 0xe8d26c, 0xa07bff, <additions:botaniaddon-elfsteel_block>, <jaopca:block.mythsteel>, <additions:botaniaddon-elfsteel_block>, null, null);
 GodAgglomeration.addRecipe(<gct_mobs:dandelionium_ingot>, [
     <ore:runeMetatronB>,
@@ -183,8 +199,10 @@ GodAgglomeration.addRecipe(<gct_mobs:dandelionium_ingot>, [
     <ore:runeZaphkielB>,
     <ore:heartGaia>,
     <ore:ingotBotanical>,
-    <ore:blockBalancite> * 2,
-    <ore:blockMana> * 2
+    <ore:blockBalancite>,
+    <ore:blockBalancite>,
+    <ore:blockMana>,
+    <ore:blockMana>
 ], 8000000, 0xe8d26c, 0xcff2f9, <additions:botaniaddon-elfsteel_block>, <jaopca:block.mythsteel>, <additions:botaniaddon-elfsteel_block>, null, null);
 GodAgglomeration.addRecipe(<gct_mobs:rosium_ingot>, [
     <ore:runeRatzielB>,
@@ -194,8 +212,10 @@ GodAgglomeration.addRecipe(<gct_mobs:rosium_ingot>, [
     <ore:runeGabrielB>,
     <ore:heartGaia>,
     <ore:ingotBotanical>,
-    <ore:blockScarlite> * 2,
-    <ore:blockMana> * 2
+    <ore:blockScarlite>,
+    <ore:blockScarlite>,
+    <ore:blockMana>,
+    <ore:blockMana>
 ], 8000000, 0xe8d26c, 0xff2c45, <additions:botaniaddon-elfsteel_block>, <jaopca:block.mythsteel>, <additions:botaniaddon-elfsteel_block>, null, null);
 
 

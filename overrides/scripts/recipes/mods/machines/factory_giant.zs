@@ -725,7 +725,7 @@ RecipeBuilder.newBuilder("mythsteel_plate" , "factory_giant" , "100")
     .addItemInput(<gct_mobs:botanical_ingot> * 2)
     .addItemInput(<gct_mobs:mana_block> * 2)
     .addEnergyPerTickInput(1000000)
-    .addItemOutput(<gct_mac:mythsteel_plate> * 1)
+    .addItemOutput(<godagglomerationplate:godagglomerationplate> * 1)
     .build();
 RecipeBuilder.newBuilder("barrier" , "factory_giant" , "100")
     .addItemInput(<minecraft:glass> * 4)
