@@ -8,6 +8,7 @@ import crafttweaker.event.PlayerBreakSpeedEvent;
 import crafttweaker.event.EntityLivingUpdateEvent;
 import crafttweaker.event.PlayerInteractBlockEvent;
 import crafttweaker.event.EntityLivingUseItemEvent.Finish;
+import crafttweaker.event.EntityLivingAttackedEvent;
 import crafttweaker.entity.AttributeModifier;
 import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.entity.IEntityLiving;

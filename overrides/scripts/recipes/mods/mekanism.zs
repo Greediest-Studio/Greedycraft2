@@ -52,6 +52,8 @@ purification.addRecipe(<ore:dustBarite>, <gas:oxygen>, <additions:mekaddon-bariu
 
 separator.addRecipe(<liquid:brine> * 4, 640, <gas:chlorine> * 1, <gas:sodiumhydroxide> * 2);
 
+
+
 mods.mekanism.chemical.oxidizer.addRecipe(<minecraft:coal>, <gas:carbonoxide> * 50);
 mods.mekanism.chemical.oxidizer.addRecipe(<minecraft:coal_block>, <gas:carbonoxide> * 450);
 mods.mekanism.chemical.oxidizer.addRecipe(<minecraft:coal:1>, <gas:carbonoxide> * 50);

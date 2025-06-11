@@ -10,15 +10,18 @@ import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
+import thaumcraft.aspect.CTAspect;
 import mods.modularmachinery.RecipeBuilder;
 import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
 import scripts.util.machines as MMUtil;
 
-RecipeBuilder.newBuilder("cthulhu", "tritransmutor", 5)
+var cthulhu as CTAspect = <aspect:cthulhu>.internal;
+
+RecipeBuilder.newBuilder("cthulhu_crafting", "tritransmutor", 5)
     .addAspcetInput(1, "coralos")
     .addAspcetInput(1, "dreadia")
     .addAspcetInput(1, "abyss")
-    .addAspectOutput(1, "cthulhu")
+    .addItemOutput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "cthulhu"}]}))
     .build();

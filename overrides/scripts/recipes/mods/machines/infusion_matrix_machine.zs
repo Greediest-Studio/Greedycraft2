@@ -28,19 +28,8 @@ MachineModifier.setMaxParallelism("infusion_matrix_machine", 1);
 MachineUpgradeHelper.registerSupportedItem(<additions:greedycraft-cursium_ingot>);
 MachineUpgradeHelper.registerSupportedItem(<thaumadditions:mithminite_ingot>);
 
-MachineUpgradeBuilder.newBuilder("thaumau", "§6模块化特化神秘研究证明1", 1 , 1)
-    .addDescriptions(
-        "§5证明你有制作咒缚锭的实力吧",
-        "§5不对真的需要吗"
-    )
-    .addCompatibleMachines("infusion_matrix_machine")
-    .buildAndRegister();
-MachineUpgradeBuilder.newBuilder("thaumau_one", "§6模块化特化神秘研究证明2", 1, 1)
-    .addDescriptions(
-        "§5做一个看看实力",
-        "§5做出来了？有实力"
-    )
-    .buildAndRegister();
+MachineUpgradeBuilder.newBuilder("thaumau", "§6模块化特化神秘研究证明1", 1 , 1).addCompatibleMachines("infusion_matrix_machine").buildAndRegister();
+MachineUpgradeBuilder.newBuilder("thaumau_one", "§6模块化特化神秘研究证明2", 1, 1).buildAndRegister();
 
 MachineUpgradeHelper.addFixedUpgrade(<additions:greedycraft-cursium_ingot>, "thaumau");
 MachineUpgradeHelper.addFixedUpgrade(<thaumadditions:mithminite_ingot>, "thaumau_one");
