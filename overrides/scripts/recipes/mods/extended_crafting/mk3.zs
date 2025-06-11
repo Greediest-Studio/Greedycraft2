@@ -218,3 +218,13 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:factory_atomi
 	[<ore:ingotProtonium>, <ore:ingotProtonium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotProtonium>, <ore:ingotProtonium>], 
 	[<ore:ingotProtonium>, <ore:ingotProtonium>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotProtonium>, <ore:ingotProtonium>]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_aby:abyss_wand>, [
+	[null, null, null, null, <gct_aby:shoggoth_slimeball>, <ore:ingotAdaminite>, <abyssalcraft:oc>], 
+	[null, null, null, null, <ore:ingotAdaminite>, <abyssalcraft:oc>, <ore:ingotAdaminite>], 
+	[null, null, null, <gct_aby:shoggoth_slimeball>, <ore:ingotAbyssine>, <ore:ingotAdaminite>, <gct_aby:shoggoth_slimeball>], 
+	[null, null, <gct_aby:shoggoth_slimeball>, <ore:ingotFinallium>, <gct_aby:shoggoth_slimeball>, null, null], 
+	[null, <gct_aby:shoggoth_slimeball>, <thaumicrestoration:block_crystal>.withTag({aspect: "cthulhu"}), <gct_aby:shoggoth_slimeball>, null, null, null], 
+	[<gct_aby:shoggoth_slimeball>, <thaumicrestoration:block_crystal>.withTag({aspect: "cthulhu"}), <gct_aby:shoggoth_slimeball>, null, null, null, null], 
+	[<thaumicrestoration:block_crystal>.withTag({aspect: "cthulhu"}), <gct_aby:shoggoth_slimeball>, null, null, null, null, null]
+]);

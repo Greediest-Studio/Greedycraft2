@@ -224,6 +224,8 @@ val tooltipMap as string[][IIngredient] = {
     <modularmachinery:factory_atomic_decayer_factory_controller> : [game.localize("greedycraft.tooltip.modularmachinery.not_need_blueprints")],
     <modularmachinery:factory_atomic_acider_controller> : [game.localize("greedycraft.tooltip.modularmachinery.not_need_blueprints")],
     <modularmachinery:factory_atomic_acider_factory_controller> : [game.localize("greedycraft.tooltip.modularmachinery.not_need_blueprints")],
+    <modularmachinery:tritransmutor_controller> : [game.localize("greedycraft.tooltip.modularmachinery.not_need_blueprints")],
+    <modularmachinery:tritransmutor_factory_controller> : [game.localize("greedycraft.tooltip.modularmachinery.not_need_blueprints")],
     <tconstruct:sharpening_kit> : [game.localize("greedycraft.tooltip.fixing_kit")],
     <conarm:polishing_kit> : [game.localize("greedycraft.tooltip.fixing_kit")]
 } as string[][IIngredient];

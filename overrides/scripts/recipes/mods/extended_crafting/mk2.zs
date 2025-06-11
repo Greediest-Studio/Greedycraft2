@@ -308,3 +308,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:blockparallel
 	[<ore:blockModularium>, <modularmachinery:blockparallelcontroller:3>, <ore:ingotElementine>, <modularmachinery:blockparallelcontroller:3>, <ore:blockModularium>], 
 	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>, <ore:blockModularium>]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:tritransmutor_controller>, [
+	[<ore:blockModularium>, <ore:blockModularium>, <thaumcraft:primordial_pearl>, <ore:blockModularium>, <ore:blockModularium>], 
+	[<thaumcraft:tube>, <ore:blockCthulhurite>, <ore:nuggetCursium>, <ore:blockCthulhurite>, <thaumcraft:tube>], 
+	[<ore:blockModularium>, <ore:blockCthulhurite>, <abyssalcraft:transmutator>, <ore:blockCthulhurite>, <ore:blockModularium>], 
+	[<thaumcraft:tube>, <ore:blockCthulhurite>, <ore:ingotAdaminite>, <ore:blockCthulhurite>, <thaumcraft:tube>], 
+	[<ore:blockModularium>, <ore:blockModularium>, <thaumadditions:aspect_combiner>, <ore:blockModularium>, <ore:blockModularium>]
+]);
