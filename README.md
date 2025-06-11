@@ -1,7 +1,9 @@
 # Greedycraft2
 
-目前的最新版，已经完全转成了crl的格式，forge将不再受支持，目前仅支持cleanroom-0.2.4版本
+启动器只推荐hmcl和prism，不支持pcl
 
-启动器不支持pcl
+兼容性还在调试中，最近的更新暂时不要下载
 
-最新版安装教程https://www.mcmod.cn/post/4300.html
+仓库中目前的版本需要crl3.0+，并且安装后需要删除.minecraft\libraries\org\lwjgl\lwjgl\lwjgl这个路径下的2.9.4-nightly-20150209文件夹
+
+目前在尝试让游戏兼容从forge到crl最新版的所有版本
