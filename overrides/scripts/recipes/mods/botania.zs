@@ -122,20 +122,12 @@ Agglomeration.addRecipe(<jaopca:compound.manasteel>.withTag({display: {Name: "§
 
 GodAgglomeration.addRecipe(<gct_mobs:botanical_ingot_awakened> * 2, [
     <ore:ingotBotanical>,
-    <ore:ingotBotanical>,
-    <ore:ingotBotanical>,
-    <ore:ingotBotanical>,
     <ore:ingotRosium>,
     <ore:ingotChrysanthemium>,
     <ore:ingotDandelionium>,
     <ore:ingotMyosotisium>,
     <ore:ingotBegonium>,
     <ore:ingotCarnationium>,
-    <ore:ingotKianate>,
-    <ore:ingotKianate>,
-    <ore:ingotKianate>,
-    <ore:ingotKianate>,
-    <ore:ingotKianate>,
     <ore:ingotKianate>,
     <ore:ingotBalancedMatrix>
 ], 40000000, 0xe8d26c, 0x7eb98c, <additions:botaniaddon-elfsteel_block>, <jaopca:block.mythsteel>, <additions:botaniaddon-elfsteel_block>, null, null);
@@ -148,8 +140,6 @@ GodAgglomeration.addRecipe(<gct_mobs:begonium_ingot>, [
     <ore:heartGaia>,
     <ore:ingotBotanical>,
     <ore:blockDiamondSakura>,
-    <ore:blockDiamondSakura>,
-    <ore:blockMana>,
     <ore:blockMana>
 ], 8000000, 0xe8d26c, 0xffb7ff, <additions:botaniaddon-elfsteel_block>, <jaopca:block.mythsteel>, <additions:botaniaddon-elfsteel_block>, null, null);
 GodAgglomeration.addRecipe(<gct_mobs:carnationium_ingot>, [
@@ -161,8 +151,6 @@ GodAgglomeration.addRecipe(<gct_mobs:carnationium_ingot>, [
     <ore:heartGaia>,
     <ore:ingotBotanical>,
     <ore:blockPhotonium>,
-    <ore:blockPhotonium>,
-    <ore:blockMana>,
     <ore:blockMana>
 ], 8000000, 0xe8d26c, 0xffffff, <additions:botaniaddon-elfsteel_block>, <jaopca:block.mythsteel>, <additions:botaniaddon-elfsteel_block>, null, null);
 GodAgglomeration.addRecipe(<gct_mobs:chrysanthemium_ingot>, [
@@ -174,8 +162,6 @@ GodAgglomeration.addRecipe(<gct_mobs:chrysanthemium_ingot>, [
     <ore:heartGaia>,
     <ore:ingotBotanical>,
     <ore:blockValkyrie>,
-    <ore:blockValkyrie>,
-    <ore:blockMana>,
     <ore:blockMana>
 ], 8000000, 0xe8d26c, 0xffffff, <additions:botaniaddon-elfsteel_block>, <jaopca:block.mythsteel>, <additions:botaniaddon-elfsteel_block>, null, null);
 GodAgglomeration.addRecipe(<gct_mobs:myosotisium_ingot>, [
@@ -187,8 +173,6 @@ GodAgglomeration.addRecipe(<gct_mobs:myosotisium_ingot>, [
     <ore:heartGaia>,
     <ore:ingotBotanical>,
     <ore:blockShadowium>,
-    <ore:blockShadowium>,
-    <ore:blockMana>,
     <ore:blockMana>
 ], 8000000, 0xe8d26c, 0xa07bff, <additions:botaniaddon-elfsteel_block>, <jaopca:block.mythsteel>, <additions:botaniaddon-elfsteel_block>, null, null);
 GodAgglomeration.addRecipe(<gct_mobs:dandelionium_ingot>, [
@@ -200,8 +184,6 @@ GodAgglomeration.addRecipe(<gct_mobs:dandelionium_ingot>, [
     <ore:heartGaia>,
     <ore:ingotBotanical>,
     <ore:blockBalancite>,
-    <ore:blockBalancite>,
-    <ore:blockMana>,
     <ore:blockMana>
 ], 8000000, 0xe8d26c, 0xcff2f9, <additions:botaniaddon-elfsteel_block>, <jaopca:block.mythsteel>, <additions:botaniaddon-elfsteel_block>, null, null);
 GodAgglomeration.addRecipe(<gct_mobs:rosium_ingot>, [
@@ -213,8 +195,6 @@ GodAgglomeration.addRecipe(<gct_mobs:rosium_ingot>, [
     <ore:heartGaia>,
     <ore:ingotBotanical>,
     <ore:blockScarlite>,
-    <ore:blockScarlite>,
-    <ore:blockMana>,
     <ore:blockMana>
 ], 8000000, 0xe8d26c, 0xff2c45, <additions:botaniaddon-elfsteel_block>, <jaopca:block.mythsteel>, <additions:botaniaddon-elfsteel_block>, null, null);
 

@@ -87,11 +87,6 @@ netherwartsoup.onItemFoodEaten = function(stack, world, player) {
     if (!world.remote) {
         player.give(<item:minecraft:bowl>);
         player.setFire(5);
-        for effect in player.activePotionEffects {
-            if (effect.potion.badEffect) {
-                player.removePotionEffect(effect.potion);
-            }
-        }
     }
 };
 netherwartsoup.register();
