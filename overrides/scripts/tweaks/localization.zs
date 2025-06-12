@@ -306,6 +306,10 @@ val localizationMap as string[string][string] = {
         "fluid.pruified": "纯净流体",
         "fluid.wavite": "波动熔胶",
         "fluid.rose_gold": "熔融玫瑰金",
+        "fluid.ruled_draconium": "熔融守则龙素",
+        "fluid.relifed_witherium": "熔融复活凋灵",
+        "fluid.stormy_witherium": "熔融风暴凋灵",
+        "fluid.equipment_witherium": "熔融平衡凋灵",
         //化工相关液体
         "fluid.liquid_air": "液态空气",
         "fluid.hydrochloric_acid": "盐酸",

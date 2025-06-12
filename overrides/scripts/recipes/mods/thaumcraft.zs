@@ -278,11 +278,11 @@ Infusion.registerRecipe("sanite_siphon", "ABYSSISM_MOBS", <gct_aby:sanite_siphon
     <aspect:desiderium> * 320,
     <aspect:permutatio> * 320
 ], <gct_mobs:sanite_block>, [
-    <additions:additions-abyssine_ingot>,
+    <additions:greedycraft-abyssine_ingot>,
     <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: 1000}),
     <appliedenergistics2:material:47>,
     <additions:eioaddon-blackhole_alloy_block>,
-    <additions:additions-abyssine_ingot>,
+    <additions:greedycraft-abyssine_ingot>,
     <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: 1000}),
     <appliedenergistics2:material:47>,
     <additions:eioaddon-blackhole_alloy_block>    

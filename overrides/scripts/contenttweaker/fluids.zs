@@ -2457,6 +2457,53 @@ molten_rose_gold.stillLocation = "base:fluids/molten";
 molten_rose_gold.flowingLocation = "base:fluids/molten_flowing";
 molten_rose_gold.register();
 
+val molten_ruled_draconium = mods.contenttweaker.VanillaFactory.createFluid("ruled_draconium", Color.fromHex("58a6b8").getIntColor());
+molten_ruled_draconium.material = <blockmaterial:lava>;
+molten_ruled_draconium.viscosity = 3000;
+molten_ruled_draconium.density = 6500;
+molten_ruled_draconium.colorize = true;
+molten_ruled_draconium.temperature = 1000;
+molten_ruled_draconium.luminosity = 10;
+molten_ruled_draconium.color = Color.fromHex("58a6b8").getIntColor();
+molten_ruled_draconium.stillLocation = "base:fluids/molten";
+molten_ruled_draconium.flowingLocation = "base:fluids/molten_flowing";
+molten_ruled_draconium.register();
+
+val molten_relifed_witherium = mods.contenttweaker.VanillaFactory.createFluid("relifed_witherium", Color.fromHex("1ec6ca").getIntColor());
+molten_relifed_witherium.material = <blockmaterial:lava>;
+molten_relifed_witherium.viscosity = 3000;
+molten_relifed_witherium.density = 6500;
+molten_relifed_witherium.colorize = true;
+molten_relifed_witherium.temperature = 1000;
+molten_relifed_witherium.luminosity = 10;
+molten_relifed_witherium.color = Color.fromHex("1ec6ca").getIntColor();
+molten_relifed_witherium.stillLocation = "base:fluids/molten";
+molten_relifed_witherium.flowingLocation = "base:fluids/molten_flowing";
+molten_relifed_witherium.register();
+
+val molten_stormy_witherium = mods.contenttweaker.VanillaFactory.createFluid("stormy_witherium", Color.fromHex("745077").getIntColor());
+molten_stormy_witherium.material = <blockmaterial:lava>;
+molten_stormy_witherium.viscosity = 3000;
+molten_stormy_witherium.density = 6500;
+molten_stormy_witherium.colorize = true;
+molten_stormy_witherium.temperature = 1000;
+molten_stormy_witherium.luminosity = 10;
+molten_stormy_witherium.color = Color.fromHex("745077").getIntColor();
+molten_stormy_witherium.stillLocation = "base:fluids/molten";
+molten_stormy_witherium.flowingLocation = "base:fluids/molten_flowing";
+molten_stormy_witherium.register();
+
+val molten_equipment_witherium = mods.contenttweaker.VanillaFactory.createFluid("equipment_witherium", Color.fromHex("eaeeed").getIntColor());
+molten_equipment_witherium.material = <blockmaterial:lava>;
+molten_equipment_witherium.viscosity = 3000;
+molten_equipment_witherium.density = 6500;
+molten_equipment_witherium.colorize = true;
+molten_equipment_witherium.temperature = 1000;
+molten_equipment_witherium.luminosity = 10;
+molten_equipment_witherium.color = Color.fromHex("eaeeed").getIntColor();
+molten_equipment_witherium.stillLocation = "base:fluids/molten";
+molten_equipment_witherium.flowingLocation = "base:fluids/molten_flowing";
+molten_equipment_witherium.register();
 
 
 
