@@ -1,8 +1,14 @@
 {
-	title: "交错剪刀",
-	x: 10.0d,
-	y: 14.0d,
+	title: "§b交错剪刀",
+	x: 4.0d,
+	y: 6.0d,
 	description: "采集落叶",
+	text: [
+		""
+	],
+	dependencies: [
+		"0c618825"
+	],
 	tasks: [{
 		uid: "6dab9c7c",
 		type: "item",
@@ -11,5 +17,15 @@
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "db8e63e1",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "699791fa",
+		type: "xp",
+		xp: 1000
 	}]
 }

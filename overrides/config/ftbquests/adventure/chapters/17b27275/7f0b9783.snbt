@@ -1,14 +1,13 @@
 {
 	title: "§b交错化",
-	x: 11.0d,
-	y: -6.0d,
+	x: -3.5d,
+	y: -1.5d,
 	description: "合成交错化强化核心，强化普通匠魂武器后可以使其在交错次元的发挥效果更出色",
 	text: [
 		"需要3个强化槽"
 	],
 	dependencies: [
-		"81216f69",
-		"446b1087"
+		"81216f69"
 	],
 	dependency_requirement: "one_completed",
 	tasks: [{

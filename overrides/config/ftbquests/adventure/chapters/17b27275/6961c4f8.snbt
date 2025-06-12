@@ -1,10 +1,13 @@
 {
 	title: "§b必要的，必须的",
-	x: 26.0d,
-	y: -5.0d,
+	x: 5.0d,
+	y: 0.0d,
 	description: "合成壁虎笼子",
 	text: [
 		""
+	],
+	dependencies: [
+		"0c618825"
 	],
 	tasks: [{
 		uid: "002d8159",

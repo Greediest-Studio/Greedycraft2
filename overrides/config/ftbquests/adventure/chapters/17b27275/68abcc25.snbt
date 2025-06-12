@@ -1,16 +1,14 @@
 {
 	title: "§b高炉的第二用途",
 	x: -8.0d,
-	y: 9.5d,
+	y: 4.5d,
 	description: "合成交错钢锭",
 	text: [
 		""
 	],
 	dependencies: [
 		"c4030be8",
-		"b3d7523a",
-		"e5182785",
-		"27fd5dfa"
+		"b3d7523a"
 	],
 	tasks: [{
 		uid: "cc6ee480",

@@ -1,6 +1,7 @@
 {
-	x: -1.5d,
-	y: -1.5d,
+	title: "§b黄点蘑菇",
+	x: -0.5d,
+	y: 1.5d,
 	description: "种植孢子获得黄点蘑菇",
 	text: [
 		"种植方法详见禁忌之种任务",
@@ -15,5 +16,15 @@
 		items: [{
 			item: "thebetweenlands:yellow_dotted_fungus"
 		}]
+	}],
+	rewards: [{
+		uid: "cac31d42",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "56366755",
+		type: "xp",
+		xp: 1500
 	}]
 }

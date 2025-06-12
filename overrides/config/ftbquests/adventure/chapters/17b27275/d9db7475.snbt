@@ -1,13 +1,13 @@
 {
 	title: "§b独特的晶体",
-	x: 7.0d,
-	y: 7.0d,
+	x: 3.0d,
+	y: 7.5d,
 	description: "获得木晶",
 	text: [
 		""
 	],
 	dependencies: [
-		"27de749c"
+		"0c618825"
 	],
 	tasks: [{
 		uid: "ff8cebfc",

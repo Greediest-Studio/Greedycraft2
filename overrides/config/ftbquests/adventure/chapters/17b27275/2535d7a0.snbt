@@ -1,6 +1,11 @@
 {
-	x: -1.5d,
-	y: 6.0d,
+	title: "§b破碎的金属",
+	x: -5.0d,
+	y: 3.0d,
+	description: "获得腐化铜碎粒",
+	text: [
+		""
+	],
 	dependencies: [
 		"d01f7a37"
 	],
@@ -10,5 +15,21 @@
 		items: [{
 			item: "additions:greedycraft-rotiron_scrap"
 		}]
+	}],
+	rewards: [{
+		uid: "150da5c2",
+		type: "item",
+		item: "additions:greedycraft-rotiron_scrap",
+		count: 12
+	},
+	{
+		uid: "29d59527",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "9982f6e8",
+		type: "xp",
+		xp: 8000
 	}]
 }

@@ -1,6 +1,11 @@
 {
-	x: 2.5d,
+	title: "§b半成品",
+	x: -5.0d,
 	y: 1.5d,
+	description: "制作蛋卷混合物",
+	text: [
+		""
+	],
 	dependencies: [
 		"7f253db5"
 	],
@@ -10,5 +15,15 @@
 		items: [{
 			item: "thebetweenlands:items_misc 1 61"
 		}]
+	}],
+	rewards: [{
+		uid: "450b19aa",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "e8d916e3",
+		type: "xp",
+		xp: 1000
 	}]
 }

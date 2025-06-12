@@ -1,14 +1,13 @@
 {
 	title: "§b充分烘烤",
-	x: 4.5d,
-	y: 14.0d,
+	x: 2.5d,
+	y: 9.0d,
 	description: "合成烟熏架",
 	text: [
 		""
 	],
 	dependencies: [
-		"5c43071a",
-		"74b9523e"
+		"5c43071a"
 	],
 	tasks: [{
 		uid: "a6d7317e",

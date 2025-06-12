@@ -1,6 +1,11 @@
 {
-	x: -1.5d,
-	y: 0.0d,
+	title: "§b应该不是西红柿炒的吧",
+	x: -2.5d,
+	y: 2.0d,
+	description: "合成沼泽炒蛋",
+	text: [
+		""
+	],
 	dependencies: [
 		"263cbc1a",
 		"3ffe3291"
@@ -11,5 +16,15 @@
 		items: [{
 			item: "thebetweenlands:mire_scramble"
 		}]
+	}],
+	rewards: [{
+		uid: "6b3d6fa7",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "40377662",
+		type: "xp",
+		xp: 1000
 	}]
 }

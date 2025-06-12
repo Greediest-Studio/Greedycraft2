@@ -1,10 +1,13 @@
 {
 	title: "§b坚硬而具有韧性",
-	x: 26.0d,
-	y: -9.5d,
+	x: 5.0d,
+	y: 1.5d,
 	description: "获得潜尾鳄的皮",
 	text: [
 		""
+	],
+	dependencies: [
+		"0c618825"
 	],
 	tasks: [{
 		uid: "f9da94c3",

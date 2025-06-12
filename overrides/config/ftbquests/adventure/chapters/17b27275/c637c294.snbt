@@ -1,6 +1,6 @@
 {
 	title: "§b灵魂裁决",
-	x: 17.5d,
+	x: 1.0d,
 	y: -4.5d,
 	shape: "gear",
 	description: "在灵魂树岛上击杀大型灵魂树脸",
@@ -10,7 +10,6 @@
 	dependencies: [
 		"81216f69"
 	],
-	size: 1.4d,
 	tasks: [{
 		uid: "800e41df",
 		type: "item",

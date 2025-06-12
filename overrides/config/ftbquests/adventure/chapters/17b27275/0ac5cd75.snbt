@@ -1,10 +1,13 @@
 {
 	title: "§b奇特的东西……",
-	x: 24.5d,
-	y: -0.5d,
+	x: 4.0d,
+	y: -3.0d,
 	description: "获得可以吃的奇趣棒",
 	text: [
 		""
+	],
+	dependencies: [
+		"0c618825"
 	],
 	tasks: [{
 		uid: "26a70992",

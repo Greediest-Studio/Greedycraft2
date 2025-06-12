@@ -1,6 +1,11 @@
 {
-	x: 0.5d,
+	title: "§b日料",
+	x: -3.5d,
 	y: 4.5d,
+	description: "合成寿司",
+	text: [
+		""
+	],
 	dependencies: [
 		"901390a1"
 	],
@@ -10,5 +15,15 @@
 		items: [{
 			item: "thebetweenlands:sushi"
 		}]
+	}],
+	rewards: [{
+		uid: "95d62df4",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "6c146fd3",
+		type: "xp",
+		xp: 1000
 	}]
 }
