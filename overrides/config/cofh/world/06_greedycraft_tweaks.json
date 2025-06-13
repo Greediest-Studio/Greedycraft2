@@ -1802,6 +1802,303 @@
                 "restriction": "whitelist",
                 "value": [-11325]
             }
+        },
+        "basalt": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:basalt_block",
+                    "weight": 100
+                }],
+                "material": "minecraft:lava",
+                "cluster-size": 1
+            },
+            "cluster-count": 10,
+            "min-height": 10,
+            "max-height": 10,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [-1, 1]
+            }
+        },
+        "tiberium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:tiberium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:netherrack",
+                "cluster-size": 40
+            },
+            "cluster-count": 1,
+            "min-height": 1,
+            "max-height": 128,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-1]
+            }
+        },
+        "aurorium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:aurorium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:end_stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 32,
+            "min-height": 32,
+            "max-height": 48,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [1]
+            }
+        },
+        "prometheum": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:prometheum_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:netherrack",
+                "cluster-size": 1
+            },
+            "cluster-count": 32,
+            "min-height": 1,
+            "max-height": 30,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-1]
+            }
+        },
+        "valyrium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:valyrium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:netherrack",
+                "cluster-size": 1
+            },
+            "cluster-count": 64,
+            "min-height": 1,
+            "max-height": 128,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-1]
+            }
+        },
+        "vibranium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:vibranium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 16,
+            "min-height": 1,
+            "max-height": 48,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [-1, 1]
+            }
+        },
+        "dilithium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:dilithium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:stone",
+                "cluster-size": 8
+            },
+            "cluster-count": 10,
+            "min-height": 1,
+            "max-height": 64,
+            "retrogen": "true",
+            "biome": {
+                "restriction": "whitelist",
+                "value": "minecraft:desert"
+            },
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [-1, 1]
+            }
+        },
+        "karmesine": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:karmesine_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:andersite",
+                "cluster-size": 1
+            },
+            "cluster-count": 48,
+            "min-height": 1,
+            "max-height": 128,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [-1, 1]
+            }
+        },
+        "ovium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:ovium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:diorite",
+                "cluster-size": 1
+            },
+            "cluster-count": 48,
+            "min-height": 1,
+            "max-height": 128,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [-1, 1]
+            }
+        },
+        "jauxum": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:jauxum_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:granite",
+                "cluster-size": 1
+            },
+            "cluster-count": 48,
+            "min-height": 1,
+            "max-height": 128,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [-1, 1]
+            }
+        },
+        "palladium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:palladium_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:end_stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 20,
+            "min-height": 1,
+            "max-height": 128,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [1]
+            }
+        },
+        "osram": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:osram_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:lava",
+                "cluster-size": 1
+            },
+            "cluster-count": 8,
+            "min-height": 31,
+            "max-height": 31,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [-1]
+            }
+        },
+        "abyssum": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:abyssum_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:end_stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 8,
+            "min-height": 0,
+            "max-height": 128,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [1]
+            }
+        },
+        "eezo": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "taiga:eezo_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:bedrock",
+                "cluster-size": 1
+            },
+            "cluster-count": 8,
+            "min-height": 1,
+            "max-height": 10,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [1, -1]
+            }
         }
     }
 }
