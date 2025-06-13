@@ -153,16 +153,3 @@ GameStagesUtil.stageCosmic.addOreReplacement(<additions:dawnium_ore>, <gct_ores:
 GameStagesUtil.stageCosmic.addOreReplacement(<additions:losessium_ore>, <gct_mobs:bloodyrock>, false);
 GameStagesUtil.stageCosmic.addOreReplacement(<additions:oneo_ore>, <minecraft:bedrock>, false);
 GameStagesUtil.stageCosmic.addOreReplacement(<additions:ttwo_ore>, <minecraft:bedrock>, false);
-
-GameStagesUtil.stageDisabled.addOreReplacement(<mekanism:oreblock:1>, <thermalfoundation:ore>, false);
-GameStagesUtil.stageDisabled.addOreReplacement(<nuclearcraft:ore>, <thermalfoundation:ore>, false);
-GameStagesUtil.stageDisabled.addOreReplacement(<tconstruct:common_ore>, <thermalfoundation:ore>, false);
-GameStagesUtil.stageDisabled.addOreReplacement(<mekanism:oreblock:2>, <thermalfoundation:ore:1>, false);
-GameStagesUtil.stageDisabled.addOreReplacement(<nuclearcraft:ore:1>, <thermalfoundation:ore:1>, false);
-GameStagesUtil.stageDisabled.addOreReplacement(<tconstruct:common_ore:1>, <thermalfoundation:ore:1>, false);
-GameStagesUtil.stageDisabled.addOreReplacement(<tconstruct:common_ore:2>, <thermalfoundation:ore:4>, false);
-GameStagesUtil.stageDisabled.addOreReplacement(<nuclearcraft:ore:4>, <mekanism:oreblock:5>, false);
-GameStagesUtil.stageDisabled.addOreReplacement(<netherendingores:ore_end_modded_1:13>, <netherendingores:ore_end_modded_1:12>, false);
-GameStagesUtil.stageDisabled.addOreReplacement(<netherendingores:ore_nether_modded_1:13>, <netherendingores:ore_nether_modded_1:12>, false);
-GameStagesUtil.stageDisabled.addOreReplacement(<mekanism:oreblock:4>, <thermalfoundation:ore:3>, false);
-GameStagesUtil.stageDisabled.addOreReplacement(<nuclearcraft:ore:2>, <thermalfoundation:ore:3>, false);
