@@ -78,26 +78,40 @@ events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
             */
             server.commandManager.executeCommand(server, "/summon headcrumbs:human " + (player.x + offset) + " " + (player.y + 1) + " "+ (player.z + offset) +" {Username:\"" + player.name + "\"}");
             player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.human.spawn"));
-        }
-/*
-        //Protegily
-        var position as IBlockPos = crafttweaker.util.Position3f.create(0.0f, 0.0f, 0.0f) as IBlockPos;
-        var protegily as bool = false;
-        for x in -2 to 3 {
-            for y in -2 to 3 {
-                for z in -2 to 3 {
-                    var flower as IBlock = player.world.getBlock((player.x + x) as int, (player.y + y) as int, (player.z) + z as int);
-                    if (!isNull(flower)) {
-                        if (flower.definition.id has "specialflower" && flower.data as string has "protegily") {
-                            position = crafttweaker.util.Position3f.create((player.x + x) as int as float, (player.y + y) as int as float, (player.z) + z as int as float) as IBlockPos;
-                            protegily = true;
-                            break;
-                        }
-                    }
+        }        
+    }
+    //Give Chaotic Hearts
+    if (!isNull(event.entityLivingBase.definition)) {
+        if (event.entityLivingBase.definition.id has "chaosguar") {
+            var list as IPlayer[] = [];
+            for ent in event.entityLivingBase.world.getEntitiesInArea(crafttweaker.util.Position3f.create(((event.entity.x)- 100),((event.entity.y)- 100),((event.entity.z)- 100)),crafttweaker.util.Position3f.create(((event.entity.x)+ 100),((event.entity.y)+ 100),((event.entity.z)+ 100))) {
+                if ent instanceof IPlayer {
+                    val en as IPlayer = ent;
+                    list += en;
                 }
-            } 
+            }
+            if !isNull(list) {
+                for plr in list {
+                    plr.give(<contenttweaker:chaos_heart>);
+                }
+            }
         }
-        if ()
-*/
+    }
+    //Give Darkest Cores
+    if (!isNull(event.entityLivingBase.definition)) {
+        if (event.entityLivingBase.definition.id has "sun" && !(event.entityLivingBase.definition.id has "suns") && !(event.entityLivingBase.definition.id has "sun_")) {
+            var list as IPlayer[] = [];
+            for ent in event.entityLivingBase.world.getEntitiesInArea(crafttweaker.util.Position3f.create(((event.entity.x)- 100),((event.entity.y)- 100),((event.entity.z)- 100)),crafttweaker.util.Position3f.create(((event.entity.x)+ 100),((event.entity.y)+ 100),((event.entity.z)+ 100))) {
+                if ent instanceof IPlayer {
+                    val en as IPlayer = ent;
+                    list += en;
+                }
+            }
+            if !isNull(list) {
+                for plr in list {
+                    plr.give(<additions:darkest_core> * 10);
+                }
+            }
+        }
     }
 });

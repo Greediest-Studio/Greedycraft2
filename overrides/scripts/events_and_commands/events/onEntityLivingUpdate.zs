@@ -4,6 +4,7 @@
  */
 
 
+#reloadable
 #priority 90
 
 import crafttweaker.event.PlayerLoggedInEvent;
@@ -44,6 +45,13 @@ events.onEntityLivingUpdate(function(event as EntityLivingUpdateEvent) {
             if (entity.y > 255.0) {
                 entity.posY = 252.0;
             }
+        }
+    }
+
+    // Kill Darkness Dragon
+    if (!isNull(entity.definition)) {
+        if (entity.definition.id == "ageofminecraft:untame_darkness") {
+            entity.world.removeEntity(entity);
         }
     }
 });
