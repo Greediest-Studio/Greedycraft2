@@ -10,7 +10,7 @@
 		uid: "202fc9a3",
 		type: "item",
 		items: [{
-			id: "additions:greedycraft-purifying_pill",
+			id: "additions:purifying_pill",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			}
@@ -19,7 +19,7 @@
 	rewards: [{
 		uid: "03219ba2",
 		type: "item",
-		item: "additions:greedycraft-purifying_pill",
+		item: "additions:purifying_pill",
 		count: 6
 	},
 	{

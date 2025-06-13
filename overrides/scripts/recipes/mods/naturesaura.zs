@@ -6,18 +6,18 @@
 import mods.naturesaura.Altar;
 import mods.naturesaura.TreeRitual;
 
-TreeRitual.addRecipe("fabric_of_nature", <minecraft:sapling>, <additions:greedycraft-fabric_of_nature>, 200, [
+TreeRitual.addRecipe("fabric_of_nature", <minecraft:sapling>, <additions:fabric_of_nature>, 200, [
     <naturesaura:sky_ingot>,
     <naturesaura:infused_iron_block>,
-    <additions:greedycraft-daynight_ingot>,
-    <additions:greedycraft-twilight_crystal_ingot>,
+    <additions:daynight_ingot>,
+    <additions:twilight_crystal_ingot>,
     <naturesaura:sky_ingot>,
     <naturesaura:infused_iron_block>,
-    <additions:greedycraft-daynight_ingot>,
-    <additions:greedycraft-twilight_crystal_ingot>
+    <additions:daynight_ingot>,
+    <additions:twilight_crystal_ingot>
 ]);
 
-TreeRitual.addRecipe("token_emotion", <minecraft:sapling>, <additions:greedycraft-token_emotion>, 60, [
+TreeRitual.addRecipe("token_emotion", <minecraft:sapling>, <additions:token_emotion>, 60, [
     <naturesaura:token_joy>,
     <naturesaura:token_fear>,
     <naturesaura:token_anger>,
@@ -29,12 +29,12 @@ TreeRitual.addRecipe("token_emotion", <minecraft:sapling>, <additions:greedycraf
 ]);
 
 TreeRitual.addRecipe("eb_altar", <minecraft:sapling>, <gct_mobs:earthbound_altar>, 200, [
-    <additions:greedycraft-fusion_matrix_block>,
+    <additions:fusion_matrix_block>,
     <botania:manaresource:3>,
     <botania:manaresource:3>,
-    <additions:greedycraft-token_emotion>,
-    <additions:greedycraft-terra_alloy_block>,
+    <additions:token_emotion>,
+    <additions:terra_alloy_block>,
     <botania:manaresource:3>,
     <botania:manaresource:3>,
-    <additions:greedycraft-token_emotion>,
+    <additions:token_emotion>,
 ]);

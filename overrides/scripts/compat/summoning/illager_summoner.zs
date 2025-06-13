@@ -20,7 +20,7 @@ import scripts.util.lang as LangUtil;
 
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
-        .setCatalyst(<additions:greedycraft-everbright_gem>)
+        .setCatalyst(<additions:everbright_gem>)
         .setConsumeCatalyst(true)
         .setReagents([])
         .addMob(MobInfo.create()

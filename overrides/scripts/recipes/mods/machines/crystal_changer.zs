@@ -271,7 +271,7 @@ RecipeBuilder.newBuilder("crystal_changer_craft","crystal_changer",20,5)
 
 val recipelist as IItemStack[IItemStack] = {
     <astralsorcery:itemcraftingcomponent> : <astralsorcery:itemcraftingcomponent:4>,
-    <biomesoplenty:gem:1> : <additions:greedycraft-resonating_ruby>,
+    <biomesoplenty:gem:1> : <additions:resonating_ruby>,
     <minecraft:glass_pane> : <astralsorcery:itemcraftingcomponent:3>,
     <minecraft:sand> : <minecraft:clay>,
     <minecraft:dirt> : <minecraft:grass>,

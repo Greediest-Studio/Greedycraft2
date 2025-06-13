@@ -94,7 +94,7 @@
     "unformed": {
       "renderer": {
         "state": {
-          "id": "additions:additions-giant_smelter",
+          "id": "additions:giant_smelter",
           "meta": 0
         },
         "type": "blockstate"
@@ -106,7 +106,7 @@
     "working": {
       "renderer": {
         "state": {
-          "id": "additions:additions-giant_smelter_on",
+          "id": "additions:giant_smelter_on",
           "meta": 0
         },
         "type": "blockstate"
@@ -246,7 +246,7 @@
       "G": {
         "states": [
           {
-            "id": "additions:greedycraft-flux_block",
+            "id": "additions:flux_block",
             "meta": 0
           }
         ],

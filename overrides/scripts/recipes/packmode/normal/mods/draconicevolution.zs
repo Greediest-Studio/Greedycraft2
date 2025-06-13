@@ -18,8 +18,8 @@ FusionCrafting.add(<avaritia:extreme_crafting_table>, <extendedcrafting:table_ul
     <avaritia:resource:1>,
     <ore:coreExcellent>,
     <ore:coreExcellent>,
-    <additions:greedycraft-ancient_tome_fragment>,
-    <additions:greedycraft-ancient_tome_fragment>
+    <additions:ancient_tome_fragment>,
+    <additions:ancient_tome_fragment>
 ]);
 FusionCrafting.add(<draconicevolution:awakened_core>, <minecraft:nether_star>, 1, 393216000, [ 
     <ore:coreExcellent>,
@@ -31,13 +31,13 @@ FusionCrafting.add(<draconicevolution:awakened_core>, <minecraft:nether_star>, 1
     <additions:aeonsteel_ingot>,
     <ore:metalAwakened>
 ]);
-FusionCrafting.add(<additions:greedycraft-blueprint_tactic>, <additions:greedycraft-blueprint>, 0, 4000000, [ 
+FusionCrafting.add(<additions:blueprint_tactic>, <additions:blueprint>, 0, 4000000, [ 
     <draconicevolution:draconium_ingot>,
     <draconicevolution:draconium_ingot>,
     <draconicevolution:draconium_ingot>,
     <draconicevolution:draconium_ingot>
 ]);
-FusionCrafting.add(<additions:greedycraft-blueprint_tinkering>, <additions:greedycraft-blueprint>, 0, 4000000, [ 
+FusionCrafting.add(<additions:blueprint_tinkering>, <additions:blueprint>, 0, 4000000, [ 
     <ore:ingotWitherium>,
     <ore:ingotWitherium>,
     <ore:ingotWitherium>,
@@ -103,15 +103,15 @@ FusionCrafting.add(<additions:electronium_ingot>, <tconevo:material>, 0, 1000000
     <redstonearsenal:material:32>,
     <redstonerepository:material:1>
 ]);
-FusionCrafting.add(<additions:greedycraft-creative_shard>, <draconicevolution:chaotic_core>, 3, 2147483648, [
+FusionCrafting.add(<additions:creative_shard>, <draconicevolution:chaotic_core>, 3, 2147483648, [
     <ore:ingotCosmilite>,
     <ore:ingotCosmilite>,
     <ore:ingotCosmilite>,
     <ore:ingotCosmilite>,
-    <additions:greedycraft-bounty_hunter_medal>,
-    <additions:greedycraft-sand_of_time>,
-    <additions:greedycraft-ancient_tome_page>,
-    <additions:greedycraft-ancient_tome_page>
+    <additions:bounty_hunter_medal>,
+    <additions:sand_of_time>,
+    <additions:ancient_tome_page>,
+    <additions:ancient_tome_page>
 ]);
 FusionCrafting.add(<gct_ores:relifed_core>, <minecraft:nether_star>, 1, 393216000, [ 
     <ore:coreExcellent>,

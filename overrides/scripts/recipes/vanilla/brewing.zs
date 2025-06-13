@@ -19,7 +19,7 @@ brewing.addBrew(<minecraft:potion>.withTag({Potion: "potioncore:health_boost"}),
 
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), [<scalinghealth:heartdust>], <minecraft:potion>.withTag({Potion: "potioncore:love"}));
 
-brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), [<additions:greedycraft-ancient_tome_page>], <minecraft:potion>.withTag({Potion: "potioncore:repair"}));
+brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), [<additions:ancient_tome_page>], <minecraft:potion>.withTag({Potion: "potioncore:repair"}));
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "potioncore:repair"}), [<ore:dustGlowstone>], <minecraft:potion>.withTag({Potion: "potioncore:strong_repair"}));
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "potioncore:repair"}), [<ore:dustRedstone>], <minecraft:potion>.withTag({Potion: "potioncore:long_repair"}));
 
@@ -86,7 +86,7 @@ brewing.addBrew(<minecraft:potion>.withTag({Potion: "potioncore:weight"}), [<ore
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), [<minecraft:fireworks>], <minecraft:potion>.withTag({Potion: "potioncore:launch"}));
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "potioncore:launch"}), [<ore:dustGlowstone>], <minecraft:potion>.withTag({Potion: "potioncore:strong_launch"}));
 
-brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), [<additions:greedycraft-ancient_tome>], <minecraft:potion>.withTag({Potion: "potioncore:revival"}));
+brewing.addBrew(<minecraft:potion>.withTag({Potion: "minecraft:awkward"}), [<additions:ancient_tome>], <minecraft:potion>.withTag({Potion: "potioncore:revival"}));
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "potioncore:revival"}), [<ore:dustGlowstone>], <minecraft:potion>.withTag({Potion: "potioncore:strong_revival"}));
 brewing.addBrew(<minecraft:potion>.withTag({Potion: "potioncore:revival"}), [<ore:dustRedstone>], <minecraft:potion>.withTag({Potion: "potioncore:long_revival"}));
 

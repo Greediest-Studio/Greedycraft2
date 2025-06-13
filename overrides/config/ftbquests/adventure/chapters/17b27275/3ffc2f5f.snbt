@@ -14,7 +14,7 @@
 		uid: "8c63f1c3",
 		type: "item",
 		items: [{
-			item: "additions:greedycraft-betweenland_rune"
+			item: "additions:betweenland_rune"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
@@ -35,7 +35,7 @@
 		uid: "154b1bef",
 		type: "item",
 		item: {
-			id: "additions:greedycraft-eugardite_ingot",
+			id: "additions:eugardite_ingot",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			}

@@ -1,6 +1,6 @@
 {
     "name": "§5创造之魂",
-    "icon": "additions:greedycraft-creative_soul",
+    "icon": "additions:creative_soul",
     "category": "patchouli:misc_category",
     "pages": [
         {
@@ -9,12 +9,12 @@
         },
 		{
             "type": "spotlight",
-			"item": "additions:greedycraft-creative_shard",
+			"item": "additions:creative_shard",
             "text": "用于合成创造之魂。"
         },
 		{
             "type": "spotlight",
-			"item": "additions:greedycraft-creative_soul",
+			"item": "additions:creative_soul",
             "text": "仅仅是无限创造之力的一小部分。"
         }
     ]

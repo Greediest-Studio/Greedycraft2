@@ -10,11 +10,11 @@
 		item: "tinymobfarm:inferno_farm"
 	},
 	{
-		item: "additions:greedycraft-ordinary_medal",
+		item: "additions:ordinary_medal",
 		weight: 4
 	},
 	{
-		item: "additions:greedycraft-creative_shard",
+		item: "additions:creative_shard",
 		weight: 4
 	},
 	{
@@ -137,12 +137,12 @@
 		random_bonus: 1
 	},
 	{
-		item: "additions:greedycraft-poop",
+		item: "additions:poop",
 		count: 16,
 		random_bonus: 48
 	},
 	{
-		item: "additions:greedycraft-medkit_super",
+		item: "additions:medkit_super",
 		count: 3,
 		random_bonus: 6
 	},
@@ -156,16 +156,16 @@
 		random_bonus: 12
 	},
 	{
-		item: "additions:greedycraft-ancient_tome_page",
+		item: "additions:ancient_tome_page",
 		random_bonus: 1
 	},
 	{
-		item: "additions:greedycraft-compressed_experience_block",
+		item: "additions:compressed_experience_block",
 		count: 64,
 		random_bonus: 128
 	},
 	{
-		item: "additions:greedycraft-pearl_of_knowledge",
+		item: "additions:pearl_of_knowledge",
 		random_bonus: 1
 	},
 	{
@@ -299,7 +299,7 @@
 																																																				BlockEntityTag: {
 																																																					Items: [{
 																																																						Slot: 0,
-																																																						id: "additions:greedycraft-black_hole_remnant",
+																																																						id: "additions:black_hole_remnant",
 																																																						Count: 1
 																																																					}]
 																																																				},
@@ -458,7 +458,7 @@
 		}
 	},
 	{
-		item: "additions:greedycraft-purifying_pill"
+		item: "additions:purifying_pill"
 	},
 	{
 		item: "additions:infernium_ingot",

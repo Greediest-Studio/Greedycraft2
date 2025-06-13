@@ -18,4 +18,4 @@ val dungeon = LootTweaker.getTable("minecraft:chests/simple_dungeon");
 
 var mainPool = dungeon.getPool("main"); 
 
-mainPool.addItemEntry(<additions:greedycraft-goodie_bag>, 4, 1, [Functions.setCount(1, 1)], []);
+mainPool.addItemEntry(<additions:goodie_bag>, 4, 1, [Functions.setCount(1, 1)], []);

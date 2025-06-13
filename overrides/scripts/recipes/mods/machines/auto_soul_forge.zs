@@ -17,26 +17,26 @@ import mods.modularmachinery.RecipeModifierBuilder;
 import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
-RecipeBuilder.newBuilder("bloody-darkest_ingot", "auto_soul_forge", 100)
+RecipeBuilder.newBuilder("darkest_ingot", "auto_soul_forge", 100)
     .addCatalystInput(
-        <additions:greedycraft-proliferation_star> * 1,
+        <additions:proliferation_star> * 1,
         ["增殖之星的力量使生命源质消耗减半！！！",],
         [RecipeModifierBuilder.create( "modularmachinery:fluid", "input",0.5f,1, false).build(),]
     ).setChance(0)
     .addItemInput(<tconevo:metal:25> * 2)
-    .addItemInput(<additions:bloody-darkest_core> * 1)
+    .addItemInput(<additions:darkest_core> * 1)
     .addItemInput(<evilcraft:promise:2> * 1)
     .addFluidInput(<liquid:lifeessence> * 100000)
     .addEnergyPerTickInput(10000)
-    .addItemOutput(<additions:bloody-darkest_ingot>)
+    .addItemOutput(<additions:darkest_ingot>)
     .setChance(5.0f / 10.0f)
     .addRecipeTooltip("扩展狱火熔炉使你有概率额外获得产出！")
-    .addItemOutput(<additions:bloody-darkest_ingot> * 2)
+    .addItemOutput(<additions:darkest_ingot> * 2)
     .build();
 
 RecipeBuilder.newBuilder("soul_gem", "auto_soul_forge", 1000)
     .addCatalystInput(
-        <additions:greedycraft-proliferation_star> * 1,
+        <additions:proliferation_star> * 1,
         ["增殖之星的力量使生命源质消耗减半！！！",],
         [RecipeModifierBuilder.create( "modularmachinery:fluid", "input",0.5f,1, false).build(),]
     ).setChance(0)
@@ -48,7 +48,7 @@ RecipeBuilder.newBuilder("soul_gem", "auto_soul_forge", 1000)
 
 RecipeBuilder.newBuilder("blood_shard", "auto_soul_forge", 100)
     .addCatalystInput(
-        <additions:greedycraft-proliferation_star> * 1,
+        <additions:proliferation_star> * 1,
         ["增殖之星的力量使生命源质消耗减半！！！",],
         [RecipeModifierBuilder.create( "modularmachinery:fluid", "input",0.5f,1, false).build(),]
     ).setChance(0)
@@ -61,23 +61,23 @@ RecipeBuilder.newBuilder("blood_shard", "auto_soul_forge", 100)
 
 RecipeBuilder.newBuilder("balanced_slate", "auto_soul_forge", 100)
     .addCatalystInput(
-        <additions:greedycraft-proliferation_star> * 1,
+        <additions:proliferation_star> * 1,
         ["增殖之星的力量使你消耗生命源质大幅减少！！！"],
         [RecipeModifierBuilder.create("modularmachinery:fluid", "input", 0.1, 1, false).build()]
     ).setChance(0)
-    .addItemInput(<additions:bloody-slate_7> * 1)
+    .addItemInput(<additions:slate_7> * 1)
     .addItemInput(<gct_ores:balanced_matrix_ingot> * 1)
     .addFluidInput(<liquid:lifeessence> * 100000)
     .addEnergyPerTickInput(10000)
-    .addItemOutput(<additions:bloody-balanced_slate> * 2)
-    .addItemOutput(<additions:bloody-balanced_slate>)
+    .addItemOutput(<additions:balanced_slate> * 2)
+    .addItemOutput(<additions:balanced_slate>)
     .setChance(5.0f / 10.0f)
     .addRecipeTooltip("扩展狱火熔炉使你有概率额外获得产出！")
     .build();
 
-RecipeBuilder.newBuilder("additions:bloody-reagent_ghost", "auto_soul_forge", 100)
+RecipeBuilder.newBuilder("additions:reagent_ghost", "auto_soul_forge", 100)
     .addCatalystInput(
-        <additions:greedycraft-proliferation_star> * 1,
+        <additions:proliferation_star> * 1,
         ["增殖之星的力量使你消耗生命源质大幅减少！！！"],
         [RecipeModifierBuilder.create("modularmachinery:fluid", "input", 0.1, 1, false).build()]
     ).setChance(0)
@@ -87,15 +87,15 @@ RecipeBuilder.newBuilder("additions:bloody-reagent_ghost", "auto_soul_forge", 10
     .addItemInput(<jaopca:dust.wigthium> * 1)
     .addFluidInput(<liquid:lifeessence> * 100000)
     .addEnergyPerTickInput(10000)
-    .addItemOutput(<additions:bloody-reagent_ghost> * 1)
-    .addItemOutput(<additions:bloody-reagent_ghost>)
+    .addItemOutput(<additions:reagent_ghost> * 1)
+    .addItemOutput(<additions:reagent_ghost>)
     .setChance(5.0f / 10.0f)
     .addRecipeTooltip("扩展狱火熔炉使你有概率额外获得产出！")
     .build();
 
 RecipeBuilder.newBuilder("shufushiji", "auto_soul_forge", 100)
     .addCatalystInput(
-        <additions:greedycraft-proliferation_star> * 1,
+        <additions:proliferation_star> * 1,
         ["增殖之星的力量使你消耗生命源质大幅减少！！！"],
         [RecipeModifierBuilder.create("modularmachinery:fluid", "input", 0.1, 1, false).build()]
     ).setChance(0)
@@ -113,12 +113,12 @@ RecipeBuilder.newBuilder("shufushiji", "auto_soul_forge", 100)
 
 RecipeBuilder.newBuilder("blood_diamond", "auto_soul_forge", 100)
     .addCatalystInput(
-        <additions:greedycraft-proliferation_star> * 1,
+        <additions:proliferation_star> * 1,
         ["增殖之星的力量使你消耗生命源质大幅减少！！！"],
         [RecipeModifierBuilder.create("modularmachinery:fluid", "input", 0.1, 1, false).build()]
     ).setChance(0)
     .addItemInput(<minecraft:diamond> * 1)
-    .addItemInput(<additions:bloody-slate_7> * 4)
+    .addItemInput(<additions:slate_7> * 4)
     .addItemInput(<bloodmagic:component:8> * 1)
     .addItemInput(<bloodarsenal:blood_infused_iron_block> * 4)
     .addItemInput(<bloodarsenal:blood_infused_glowstone> * 4)
@@ -132,7 +132,7 @@ RecipeBuilder.newBuilder("blood_diamond", "auto_soul_forge", 100)
 
 RecipeBuilder.newBuilder("blood_iron", "auto_soul_forge", 100)
     .addCatalystInput(
-        <additions:greedycraft-proliferation_star> * 1,
+        <additions:proliferation_star> * 1,
         ["增殖之星的力量使你消耗生命源质大幅减少！！！"],
         [RecipeModifierBuilder.create("modularmachinery:fluid", "input", 0.1, 1, false).build()]
     ).setChance(0)
@@ -150,7 +150,7 @@ RecipeBuilder.newBuilder("blood_iron", "auto_soul_forge", 100)
 
 RecipeBuilder.newBuilder("slate1", "auto_soul_forge", 100)
     .addCatalystInput(
-        <additions:greedycraft-proliferation_star> * 1,
+        <additions:proliferation_star> * 1,
         ["增殖之星的力量使你消耗生命源质大幅减少！！！"],
         [RecipeModifierBuilder.create("modularmachinery:fluid", "input", 0.1, 1, false).build()]
     ).setChance(0)
@@ -162,7 +162,7 @@ RecipeBuilder.newBuilder("slate1", "auto_soul_forge", 100)
 
 RecipeBuilder.newBuilder("sentientmetal", "auto_soul_forge", 100)
     .addCatalystInput(
-        <additions:greedycraft-proliferation_star> * 1,
+        <additions:proliferation_star> * 1,
         ["增殖之星的力量使你消耗生命源质大幅减少！！！"],
         [RecipeModifierBuilder.create("modularmachinery:fluid", "input", 0.1, 1, false).build()]
     ).setChance(0)
@@ -178,7 +178,7 @@ RecipeBuilder.newBuilder("sentientmetal", "auto_soul_forge", 100)
 
 RecipeBuilder.newBuilder("reagent_godness", "auto_soul_forge", 100)
     .addCatalystInput(
-        <additions:greedycraft-proliferation_star> * 1,
+        <additions:proliferation_star> * 1,
         ["增殖之星的力量使你消耗生命源质大幅减少！！！"],
         [RecipeModifierBuilder.create("modularmachinery:fluid", "input", 0.1, 1, false).build()]
     ).setChance(0)
@@ -188,6 +188,6 @@ RecipeBuilder.newBuilder("reagent_godness", "auto_soul_forge", 100)
     .addItemInput(<jaopca:dust.cosmilite> * 1)
     .addFluidInput(<liquid:lifeessence> * 100000)
     .addEnergyPerTickInput(100000)
-    .addItemOutput(<additions:bloody-reagent_godness> * 1)
-    .addItemOutput(<additions:bloody-reagent_godness> * 1).setChance(5.0f / 10.0f)
+    .addItemOutput(<additions:reagent_godness> * 1)
+    .addItemOutput(<additions:reagent_godness> * 1).setChance(5.0f / 10.0f)
     .build();

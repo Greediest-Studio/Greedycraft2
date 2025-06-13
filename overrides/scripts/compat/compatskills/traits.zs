@@ -58,7 +58,7 @@ experience_grinder.onMobDrops = function(event as crafttweaker.event.EntityLivin
         var damageSource as IDamageSource = event.damageSource;
         if (!isNull(damageSource.getTrueSource()) && damageSource.getTrueSource() instanceof IPlayer) {
             var amount as int = Math.ceil(Math.random() * 2) as int;
-            event.addItem(<additions:greedycraft-experience_ingot> * amount);
+            event.addItem(<additions:experience_ingot> * amount);
         }
     }
 };

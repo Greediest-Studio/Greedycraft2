@@ -1,17 +1,14 @@
-
 [general]
-	#The material blacklist of this module.
+	#The material blacklist of this module. "*" is an alias for all materials, and "*" followed with a material type name is an alias for all materials of that material type. If a material name occurs an odd number of times (including wildcards), then the material is blacklisted. These rules applies to all config material blacklists.
 	materialBlacklist = ["*"]
-
 [recipes]
+	#The materials that should not have crystallizer nugget to crystal recipes added.
+	nuggetToCrystalMaterialBlacklist = []
+	#The materials that should not have transmutator to nugget recipes added.
+	transmuteToNuggetMaterialBlacklist = []
+	#The materials that should not have crystallizer dust to crystal recipes added.
+	dustToCrystalMaterialBlacklist = []
 	#The materials that should not have crystallizer block to crystal recipes added.
 	blockToCrystalMaterialBlacklist = []
 	#The materials that should not have crystallizer material to crystal recipes added.
 	materialToCrystalMaterialBlacklist = []
-	#The materials that should not have crystallizer nugget to crystal recipes added.
-	nuggetToCrystalMaterialBlacklist = []
-	#The materials that should not have crystallizer dust to crystal recipes added.
-	dustToCrystalMaterialBlacklist = []
-	#The materials that should not have transmutator to nugget recipes added.
-	transmuteToNuggetMaterialBlacklist = []
-

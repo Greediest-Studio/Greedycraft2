@@ -21,6 +21,6 @@ AtomicReconstructor.addRecipe(<thermalfoundation:material:895>, <minecraft:ender
 AtomicReconstructor.addRecipe(<appliedenergistics2:material:1>, <appliedenergistics2:material>, 1500);
 AtomicReconstructor.addRecipe(<tofucraft:material:25>, <tofucraft:material:18>, 2500);
 
-BallOfFur.addReturn(<additions:greedycraft-reward_ticket_common>, 1);
+BallOfFur.addReturn(<additions:reward_ticket_common>, 1);
 
-Empowerer.addRecipe(<additions:link-ebony_and_lvory>, <draconicevolution:wyvern_core>, <moretcon:ingotebonite>, <defiledlands:remorseful_gem>, <additions:ivorium_ingot>, <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:nether"}), 33554432, 200);
+Empowerer.addRecipe(<additions:ebony_and_lvory>, <draconicevolution:wyvern_core>, <moretcon:ingotebonite>, <defiledlands:remorseful_gem>, <additions:ivorium_ingot>, <naturesaura:aura_bottle>.withTag({stored_type: "naturesaura:nether"}), 33554432, 200);

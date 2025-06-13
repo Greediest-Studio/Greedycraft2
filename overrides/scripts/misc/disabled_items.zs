@@ -1510,7 +1510,7 @@ var disabledItems as IIngredient[] = [
     <thaumicwonders:disjunction_cloth>,
     <evilcraft:spirit_furnace>,
     <tiths:ore_tanatonium>,
-    <additions:greedycraft-sanite_ore>,
+    <additions:sanite_ore>,
     <botanicadds:mana_tesseract>,
     <modularmachinery:blockstarlightproviderinput>,
     <modularmachinery:blockstarlightprovideroutput>,
@@ -1629,8 +1629,8 @@ for ingredient in disabledItems {
 
 val HideItem as IIngredient[] = [
     <gct_mobs:reserver>,
-    <additions:greedycraft-astral_projector>,
-    <additions:greedycraft-astral_projector_2>,
+    <additions:astral_projector>,
+    <additions:astral_projector_2>,
     <gct_mac:model_atomic_viberator>,
     <gct_mac:model_atomic_acidor>,
     <gct_mac:model_atomic_decayer>,

@@ -20,7 +20,7 @@ import scripts.util.lang as LangUtil;
 
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
-        .setCatalyst(<additions:greedycraft-blood_tears>)
+        .setCatalyst(<additions:blood_tears>)
         .setConsumeCatalyst(true)
         .setReagents([])
         .addMob(MobInfo.create()

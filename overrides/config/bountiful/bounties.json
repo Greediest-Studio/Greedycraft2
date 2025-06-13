@@ -1,6 +1,6 @@
 [
     {
-        "content": "additions:greedycraft-experience_ingot",
+        "content": "additions:experience_ingot",
         "amount": {
             "min": 16,
             "max": 64
@@ -153,7 +153,7 @@
         "weight": 100
     },
     {
-        "content": "additions:greedycraft-raw_human_meat",
+        "content": "additions:raw_human_meat",
         "amount": {
             "min": 12,
             "max": 64
@@ -325,7 +325,7 @@
         "nbt_data": "{Potion: \"minecraft:healing\"}"
     },
     {
-        "content": "additions:greedycraft-ancient_tome_fragment",
+        "content": "additions:ancient_tome_fragment",
         "amount": {
             "min": 1,
             "max": 2
@@ -343,7 +343,7 @@
         "weight": 120
     },
     {
-        "content": "additions:greedycraft-blood_sigil",
+        "content": "additions:blood_sigil",
         "amount": {
             "min": 1,
             "max": 2
@@ -352,7 +352,7 @@
         "weight": 50
     },
     {
-        "content": "additions:greedycraft-bloody_sacrifice",
+        "content": "additions:bloody_sacrifice",
         "amount": {
             "min": 1,
             "max": 2
@@ -361,7 +361,7 @@
         "weight": 50
     },
     {
-        "content": "additions:greedycraft-city_defender_medal",
+        "content": "additions:city_defender_medal",
         "amount": {
             "min": 1,
             "max": 2
@@ -424,7 +424,7 @@
         "weight": 70
     },
     {
-        "content": "additions:greedycraft-ancient_tome",
+        "content": "additions:ancient_tome",
         "amount": {
             "min": 1,
             "max": 1
@@ -433,7 +433,7 @@
         "weight": 1
     },
     {
-        "content": "additions:greedycraft-pearl_of_knowledge",
+        "content": "additions:pearl_of_knowledge",
         "amount": {
             "min": 1,
             "max": 1
@@ -460,7 +460,7 @@
         "weight": 40
     },
     {
-        "content": "additions:greedycraft-lucky_clover",
+        "content": "additions:lucky_clover",
         "amount": {
             "min": 1,
             "max": 1
@@ -568,7 +568,7 @@
         "weight": 15
     },
     {
-        "content": "additions:greedycraft-sand_of_time",
+        "content": "additions:sand_of_time",
         "amount": {
             "min": 1,
             "max": 1
@@ -577,7 +577,7 @@
         "weight": 10
     },
     {
-        "content": "additions:greedycraft-time_shard",
+        "content": "additions:time_shard",
         "amount": {
             "min": 1,
             "max": 5

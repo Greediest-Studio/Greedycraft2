@@ -52,16 +52,16 @@ Infusion.removeRecipe(<thaumadditions:mithrillium_ingot>);
 Infusion.removeRecipe(<thaumicenergistics:essentia_component_4096k>);
 
 
-Infusion.registerRecipe("quardstate", "", <additions:greedycraft-quardstate_star>, 15, [
+Infusion.registerRecipe("quardstate", "", <additions:quardstate_star>, 15, [
     <aspect:aversio> * 500, 
     <aspect:motus> * 500, 
     <aspect:vinculum> * 500, 
     <aspect:machina> * 500
-], <additions:greedycraft-arcane_crystal_ball>, [
-    <additions:greedycraft-end_star>, 
-    <additions:greedycraft-ice_star>, 
-    <additions:greedycraft-canopy_star>, 
-    <additions:greedycraft-solarium_star>
+], <additions:arcane_crystal_ball>, [
+    <additions:end_star>, 
+    <additions:ice_star>, 
+    <additions:canopy_star>, 
+    <additions:solarium_star>
 ]);
 
 Infusion.registerRecipe("PRIMPEARL", "PRIMPEARL", <thaumcraft:primordial_pearl>, 3, [
@@ -123,19 +123,19 @@ Infusion.registerRecipe("adaminite_ingot", "TAR_ADAMINITE", <thaumadditions:adam
     <gct_ores:relifed_witherium_ingot>
 ]);
 
-Infusion.registerRecipe("eldritch_steel_ingot", "", <additions:greedycraft-eldritch_steel_ingot>, 18, [
+Infusion.registerRecipe("eldritch_steel_ingot", "", <additions:eldritch_steel_ingot>, 18, [
     <aspect:metallum> * 160,
     <aspect:praecantatio> * 120,
     <aspect:vitium> * 240,
     <aspect:instrumentum> * 120
-], <additions:greedycraft-corruptium_ingot>, [
-    <additions:greedycraft-eldritch_slime>,
-    <additions:greedycraft-eldritch_slime>,
-    <additions:greedycraft-eldritch_slime>,
-    <additions:greedycraft-eldritch_slime>
+], <additions:corruptium_ingot>, [
+    <additions:eldritch_slime>,
+    <additions:eldritch_slime>,
+    <additions:eldritch_slime>,
+    <additions:eldritch_slime>
 ]);
 
-Infusion.registerRecipe("extended_primordial_metal_ingot", "", <additions:greedycraft-extended_primal_metal_ingot>, 21, [
+Infusion.registerRecipe("extended_primordial_metal_ingot", "", <additions:extended_primal_metal_ingot>, 21, [
     <aspect:gelum> * 150,
     <aspect:lux> * 150,
     <aspect:metallum> * 150,
@@ -159,7 +159,7 @@ Infusion.registerRecipe("extended_primordial_metal_ingot", "", <additions:greedy
     <gct_ores:everite_dust>
 ]);
 
-Infusion.registerRecipe("cursium_ingot", "", <additions:greedycraft-cursium_ingot>, 30, [
+Infusion.registerRecipe("cursium_ingot", "", <additions:cursium_ingot>, 30, [
     <aspect:alkimia> * 750,
     <aspect:alienis> * 750,
     <aspect:auram> * 750,
@@ -173,16 +173,16 @@ Infusion.registerRecipe("cursium_ingot", "", <additions:greedycraft-cursium_ingo
     <aspect:sensus> * 750,
     <aspect:vitium> * 750
 ], <gct_ores:balanced_matrix_ingot>, [
-    <additions:greedycraft-impetusite_ingot>,
-    <additions:greedycraft-impetusite_ingot>,
-    <additions:greedycraft-eldritch_steel_ingot>,
-    <additions:greedycraft-eldritch_steel_ingot>,
-    <additions:greedycraft-eldritch_steel_ingot>,
-    <additions:greedycraft-eldritch_steel_ingot>,
-    <additions:greedycraft-extended_primal_metal_ingot>,
-    <additions:greedycraft-extended_primal_metal_ingot>,
-    <additions:bloody-darkest_core>,
-    <additions:bloody-darkest_core>,
+    <additions:impetusite_ingot>,
+    <additions:impetusite_ingot>,
+    <additions:eldritch_steel_ingot>,
+    <additions:eldritch_steel_ingot>,
+    <additions:eldritch_steel_ingot>,
+    <additions:eldritch_steel_ingot>,
+    <additions:extended_primal_metal_ingot>,
+    <additions:extended_primal_metal_ingot>,
+    <additions:darkest_core>,
+    <additions:darkest_core>,
     <gct_ores:equipment_witherium_ingot>,
     <gct_ores:ruled_draconium_ingot>
 ]);
@@ -226,16 +226,16 @@ Infusion.registerRecipe("eld_boss", "", <thaumicaugmentation:capstone:2>, 20, [
     <aspect:vitium> * 500,
     <aspect:machina> * 500
 ], <thaumcraft:stone_eldritch_tile>, [
-    <additions:greedycraft-extended_primal_metal_ingot>,
+    <additions:extended_primal_metal_ingot>,
     <thaumadditions:mithrillium_ingot>,
-    <additions:greedycraft-extended_primal_metal_ingot>,
+    <additions:extended_primal_metal_ingot>,
     <thaumadditions:mithrillium_ingot>,
-    <additions:greedycraft-extended_primal_metal_ingot>,
+    <additions:extended_primal_metal_ingot>,
     <thaumadditions:mithrillium_ingot>,
     <thaumcraft:primordial_pearl>
 ]);
 
-Infusion.registerRecipe("disaster_metal_ingot", "", <additions:link-disaster_metal_ingot>, 5, [
+Infusion.registerRecipe("disaster_metal_ingot", "", <additions:disaster_metal_ingot>, 5, [
     <aspect:draco> * 150,
     <aspect:coralos> * 150,
     <aspect:dreadia> * 150,
@@ -259,14 +259,14 @@ Infusion.registerRecipe("shoggoth_complex_crystal", "SHOGGOTH_MUD_COLLECTION", <
     <aspect:abyss> * 180,
     <aspect:cthulhu> * 40,
     <aspect:praemunio> * 140
-], <additions:greedycraft-abyssine_ingot>, [
-    <additions:greedycraft-godslime_slimeball>,
+], <additions:abyssine_ingot>, [
+    <additions:godslime_slimeball>,
     <gct_aby:shoggoth_slimeball>,
-    <additions:greedycraft-godslime_slimeball>,
+    <additions:godslime_slimeball>,
     <gct_aby:shoggoth_slimeball>,
-    <additions:greedycraft-godslime_slimeball>,
+    <additions:godslime_slimeball>,
     <gct_aby:shoggoth_slimeball>,
-    <additions:greedycraft-godslime_slimeball>,
+    <additions:godslime_slimeball>,
     <gct_aby:shoggoth_slimeball>
 ]);
 
@@ -278,14 +278,14 @@ Infusion.registerRecipe("sanite_siphon", "ABYSSISM_MOBS", <gct_aby:sanite_siphon
     <aspect:desiderium> * 320,
     <aspect:permutatio> * 320
 ], <gct_mobs:sanite_block>, [
-    <additions:greedycraft-abyssine_ingot>,
+    <additions:abyssine_ingot>,
     <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: 1000}),
     <appliedenergistics2:material:47>,
-    <additions:eioaddon-blackhole_alloy_block>,
-    <additions:greedycraft-abyssine_ingot>,
+    <additions:blackhole_alloy_block>,
+    <additions:abyssine_ingot>,
     <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: 1000}),
     <appliedenergistics2:material:47>,
-    <additions:eioaddon-blackhole_alloy_block>    
+    <additions:blackhole_alloy_block>    
 ]);
 
 Infusion.registerRecipe("essentia_component", "", <thaumicenergistics:essentia_cell_1048576k>, 10, [
@@ -294,13 +294,13 @@ Infusion.registerRecipe("essentia_component", "", <thaumicenergistics:essentia_c
     <aspect:desiderium> * 10000, 
     <aspect:machina> * 10000
 ], <thaumicenergistics:essentia_component_64k>, [
-    <additions:greedycraft-creative_shard>, 
-    <additions:mekaddon-arcane_control_circuit>, 
-    <additions:greedycraft-creative_shard>,
-    <additions:greedycraft-extended_primal_metal_ingot>, 
-    <additions:greedycraft-creative_shard>,
+    <additions:creative_shard>, 
+    <additions:arcane_control_circuit>, 
+    <additions:creative_shard>,
+    <additions:extended_primal_metal_ingot>, 
+    <additions:creative_shard>,
     <thaumicaugmentation:material:3>,
-    <additions:greedycraft-creative_shard>,
+    <additions:creative_shard>,
     <gct_ores:order_crystal>
 ]);
 
@@ -310,12 +310,12 @@ Infusion.registerRecipe("giant_smelter", "", <gct_mac:giant_smelter>, 10, [
     <aspect:desiderium> * 1000, 
     <aspect:machina> * 1000
 ], <thaumadditions:mithrillium_smelter>, [
-    <additions:greedycraft-creative_shard>, 
+    <additions:creative_shard>, 
     <packagedthaumic:virial_chamber>, 
     <jaopca:gear.impetusite>,
-    <additions:greedycraft-extended_primal_metal_ingot>, 
+    <additions:extended_primal_metal_ingot>, 
     <thaumicaugmentation:material:3>,
-    <additions:greedycraft-infernium_block>,
+    <additions:infernium_block>,
     <jaopca:gear.flux>,
     <thaumicenergistics:essentia_component_64k>
 ]);

@@ -14,10 +14,10 @@ global furnaceXp as double = 2.0;
 global furnaceRecipes as IItemStack[IIngredient] = {
     <ore:ingotBrick> : <tconstruct:materials>,
     <minecraft:brick_block> : <tconstruct:seared:3>,
-    <additions:greedycraft-raw_human_meat> : <additions:greedycraft-cooked_human_meat>,
+    <additions:raw_human_meat> : <additions:cooked_human_meat>,
     <ore:stoneMarble> : <astralsorcery:blockblackmarble>,
     <ore:gemQuartz> : <actuallyadditions:item_misc:5>,
-    <ore:oreExperience> : <additions:greedycraft-experience_ingot>,
+    <ore:oreExperience> : <additions:experience_ingot>,
     <ore:oreCryonium> : <additions:cryonium_ingot>,
     <ore:oreInfernium> : <additions:infernium_ingot>,
     <ore:oreTitanium> : <additions:titanium_ingot>,

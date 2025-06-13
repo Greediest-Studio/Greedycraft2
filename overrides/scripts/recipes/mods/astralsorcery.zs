@@ -15,7 +15,7 @@ import scripts.util.lang as LangUtil;
 
 val errorStone = <minecraft:stone>.withTag({display: {Name: LangUtil.translate("greedycraft.misc.bug_stone.name"), Lore: [LangUtil.translate("greedycraft.misc.bug_stone.tooltip.1"), LangUtil.translate("greedycraft.misc.bug_stone.tooltip.2")]}}) as IItemStack;
 
-StarlightInfusion.addInfusion(<biomesoplenty:gem:1>, <additions:greedycraft-resonating_ruby>, false, 0.7, 200);
+StarlightInfusion.addInfusion(<biomesoplenty:gem:1>, <additions:resonating_ruby>, false, 0.7, 200);
 
 //AttunementAltar.addRecipe(<ore:toolTiC>, errorStone);
 //AttunementAltar.addRecipe(<ore:armorTiC>, errorStone);
@@ -26,7 +26,7 @@ Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/enchantment_amulet_
 
 Altar.addDiscoveryAltarRecipe("shinydust", <astralsorcery:itemusabledust> * 16, 100, 100, [
     null, <ore:dustGlowstone>, null,
-    <ore:dustGlowstone>, <additions:greedycraft-astral_star>, <ore:dustGlowstone>,
+    <ore:dustGlowstone>, <additions:astral_star>, <ore:dustGlowstone>,
     null, <ore:dustGlowstone>, null
 ]);
             
@@ -38,22 +38,22 @@ Altar.addTraitAltarRecipe("heavite", <gct_mobs:heavite> * 14, 4000, 100, [
     <ore:stoneAmeralite>, <ore:stoneAmeralite>, <ore:stoneAmeralite>, <ore:stoneAmeralite>, 
     <ore:stoneAmeralite>, <ore:stoneAmeralite>, <ore:stoneAmeralite>, <ore:stoneAmeralite>, 
     <ore:stoneLerdite>, <ore:stoneLerdite>, <ore:stoneLerdite>, <ore:stoneLerdite>,
-    <additions:greedycraft-astral_star>, <additions:greedycraft-astral_star>, <additions:greedycraft-astral_star>, <additions:greedycraft-astral_star>
+    <additions:astral_star>, <additions:astral_star>, <additions:astral_star>, <additions:astral_star>
 ], "astralsorcery.constellation.mineralis");
 
 Altar.addTraitAltarRecipe("controller_altar", <modularmachinery:bright_altar_controller>, 7000, 140, [
     <ore:blockAstralMetal>, <ore:blockLunarine>, <ore:blockAstralMetal>,
     <ore:blockNasalum>, <ore:ingotCosmilite>, <ore:blockNasalum>,
     <ore:blockAstralMetal>, <ore:blockLunarine>, <ore:blockAstralMetal>,
-    <additions:astral-astral_gem_01>, <additions:astral-astral_gem_02>, <additions:astral-astral_gem_03>,
-    <additions:astral-astral_gem_04>, <additions:astral-astral_gem_05>, <additions:astral-astral_gem_06>,
-    <additions:astral-astral_gem_07>, <additions:astral-astral_gem_08>, <additions:astral-astral_gem_09>,
-    <additions:astral-astral_gem_10>, <additions:astral-astral_gem_11>, <additions:astral-astral_gem_12>,
+    <additions:astral_gem_01>, <additions:astral_gem_02>, <additions:astral_gem_03>,
+    <additions:astral_gem_04>, <additions:astral_gem_05>, <additions:astral_gem_06>,
+    <additions:astral_gem_07>, <additions:astral_gem_08>, <additions:astral_gem_09>,
+    <additions:astral_gem_10>, <additions:astral_gem_11>, <additions:astral_gem_12>,
     <ore:ingotEugardite>, <ore:ingotEugardite>, <ore:ingotEugardite>, <ore:ingotEugardite>,
     <ore:ingotEugardite>, <ore:ingotEugardite>, <ore:ingotEugardite>, <ore:ingotEugardite>
 ], "astralsorcery.constellation.lucerna");
 
-Altar.addTraitAltarRecipe("astral_crystal", <additions:astral-astral_gem_00>, 6500, 100, [
+Altar.addTraitAltarRecipe("astral_crystal", <additions:astral_gem_00>, 6500, 100, [
     <ore:dustEverite>, <ore:dustAstralStarmetal>, <ore:dustDraconiumChaotic>,
     <ore:dustAstralStarmetal>, <ore:gemGlistenQuartzProcessed>, <ore:dustAstralStarmetal>,
     <ore:dustDraconiumChaotic>, <ore:dustAstralStarmetal>, <ore:dustEverite>,

@@ -1,4 +1,3 @@
-
 #Configurations for material Blackiron.
 [general]
 	#The alternative names of this material.
@@ -7,12 +6,11 @@
 	extras = []
 	#Is the storage block of this material small (2x2).
 	isSmallStorageBlock = false
-	#The module blacklist of this material.
+	#The module blacklist of this material. "*" is an alias for all modules. If a module name occurs an odd number of times (including wildcards), then the module is blacklisted.
 	moduleBlacklist = []
 	#Should items of this material have the enchanted glow.
 	hasEffect = false
 	#The model type of the material.
 	modelType = "metallic"
 	#The color of this material.
-	color = 9374095
-
+	color = 0x0F0F0F

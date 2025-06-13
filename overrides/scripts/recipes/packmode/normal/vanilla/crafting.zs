@@ -22,22 +22,22 @@ for ingredient in removedRecipes {
 recipes.addShaped("auto_gen_-1702953212", <minecraft:enchanting_table>, [
     [null, <minecraft:book>, null],
     [<minecraft:diamond_block>, <minecraft:wool:14>, <minecraft:diamond_block>],
-    [<additions:greedycraft-compressed_experience_block>, <additions:greedycraft-compressed_experience_block>, <additions:greedycraft-compressed_experience_block>]
+    [<additions:compressed_experience_block>, <additions:compressed_experience_block>, <additions:compressed_experience_block>]
 ]);
 
-recipes.addShaped("auto_gen_-1971544957", <additions:greedycraft-blueprint>, [
+recipes.addShaped("auto_gen_-1971544957", <additions:blueprint>, [
     [<ore:dyeLightBlue>, <ore:dyeLightBlue>, <ore:dyeLightBlue>],
     [<ore:dyeLightBlue>, <ore:pattern>, <ore:dyeLightBlue>],
     [<ore:dyeLightBlue>, <ore:dyeLightBlue>, <ore:dyeLightBlue>]
 ]);
 
-recipes.addShaped("auto_gen_-226107769", <additions:greedycraft-twilight_gem>, [
+recipes.addShaped("auto_gen_-226107769", <additions:twilight_gem>, [
     [<ore:treeSapling>, <botania:fertilizer>, <ore:treeSapling>],
     [<ore:dustDiamond>, <thaumcraft:salis_mundus>, <ore:dustDiamond>],
     [<ore:treeSapling>, <ore:manaDiamond>, <ore:treeSapling>]
 ]);
 
-recipes.addShaped("auto_gen_-1473452503", <additions:greedycraft-twilight_shield>, [
+recipes.addShaped("auto_gen_-1473452503", <additions:twilight_shield>, [
     [<twilightforest:ironwood_ingot>, <twilightforest:knightmetal_ingot>, <twilightforest:ironwood_ingot>],
     [<twilightforest:fiery_ingot>, <twilightforest:alpha_fur>, <twilightforest:fiery_ingot>],
     [null, <twilightforest:carminite>, null]
@@ -45,4 +45,4 @@ recipes.addShaped("auto_gen_-1473452503", <additions:greedycraft-twilight_shield
 
 // Shapeless
 
-recipes.addShapeless("auto_gen_-1155325776", <additions:greedycraft-blueprint_shuriken>, [<additions:greedycraft-blueprint>, <ore:alloyElite>]);
+recipes.addShapeless("auto_gen_-1155325776", <additions:blueprint_shuriken>, [<additions:blueprint>, <ore:alloyElite>]);

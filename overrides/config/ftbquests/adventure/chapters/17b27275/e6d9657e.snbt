@@ -10,14 +10,14 @@
 		uid: "43927449",
 		type: "item",
 		items: [{
-			item: "additions:greedycraft-eugardite_ingot"
+			item: "additions:eugardite_ingot"
 		}]
 	}],
 	rewards: [{
 		uid: "3d8ca74c",
 		type: "item",
 		item: {
-			id: "additions:greedycraft-eugardite_ingot",
+			id: "additions:eugardite_ingot",
 			ForgeCaps: {
 				"customnpcs:itemscripteddata": {}
 			}

@@ -26,18 +26,18 @@ function addSolidification(output as IItemStack, liquid as ILiquidStack, cooler 
         .build();
 }
 
-addSolidification(<additions:greedycraft-mana_ingot>, <liquid:mana> * 144, <liquid:cryotheum> * 20, 1.0f);
-addSolidification(<additions:greedycraft-pe_ingot>, <liquid:pe> * 144, <liquid:cryotheum> * 20, 1.0f);
-addSolidification(<additions:greedycraft-flux_ingot>, <liquid:flux> * 144, <liquid:cryotheum> * 20, 1.0f);
-addSolidification(<additions:mekaddon-hydrogen_ingot>, <liquid:liquid_hydrogen> * 144, <liquid:hecryo_liquid> * 100, 4.0f);
-addSolidification(<additions:mekaddon-helium_ingot>, <liquid:liquid_helium> * 144, <liquid:hecryo_liquid> * 100, 10.0f);
-addSolidification(<additions:mekaddon-nitrogen_ingot>, <liquid:liquid_nitrogen> * 144, <liquid:hecryo_liquid> * 100, 3.0f);
-addSolidification(<additions:mekaddon-oxygen_ingot>, <liquid:liquid_oxygen> * 144, <liquid:hecryo_liquid> * 100, 3.0f);
-addSolidification(<additions:mekaddon-fluorine_ingot>, <liquid:liquid_fluorine> * 144, <liquid:hecryo_liquid> * 100, 5.0f);
-addSolidification(<additions:mekaddon-neon_ingot>, <liquid:liquid_neon> * 144, <liquid:hecryo_liquid> * 100, 8.0f);
-addSolidification(<additions:mekaddon-chlorine_ingot>, <liquid:liquid_chlorine> * 144, <liquid:hecryo_liquid> * 100, 1.5f);
-addSolidification(<additions:mekaddon-argon_ingot>, <liquid:liquid_argon> * 144, <liquid:hecryo_liquid> * 100, 6.0f);
-addSolidification(<additions:mekaddon-krypton_ingot>, <liquid:liquid_krypton> * 144, <liquid:hecryo_liquid> * 100, 4.0f);
-addSolidification(<additions:mekaddon-xenon_ingot>, <liquid:liquid_xenon> * 144, <liquid:hecryo_liquid> * 100, 2.0f);
-addSolidification(<additions:mekaddon-radon_ingot>, <liquid:liquid_radon> * 144, <liquid:hecryo_liquid> * 100, 1.2f);
-addSolidification(<additions:mekaddon-bromine_ingot>, <liquid:bromine> * 144, <liquid:cryotheum> * 20, 1.0f);
+addSolidification(<additions:mana_ingot>, <liquid:mana> * 144, <liquid:cryotheum> * 20, 1.0f);
+addSolidification(<additions:pe_ingot>, <liquid:pe> * 144, <liquid:cryotheum> * 20, 1.0f);
+addSolidification(<additions:flux_ingot>, <liquid:flux> * 144, <liquid:cryotheum> * 20, 1.0f);
+addSolidification(<additions:hydrogen_ingot>, <liquid:liquid_hydrogen> * 144, <liquid:hecryo_liquid> * 100, 4.0f);
+addSolidification(<additions:helium_ingot>, <liquid:liquid_helium> * 144, <liquid:hecryo_liquid> * 100, 10.0f);
+addSolidification(<additions:nitrogen_ingot>, <liquid:liquid_nitrogen> * 144, <liquid:hecryo_liquid> * 100, 3.0f);
+addSolidification(<additions:oxygen_ingot>, <liquid:liquid_oxygen> * 144, <liquid:hecryo_liquid> * 100, 3.0f);
+addSolidification(<additions:fluorine_ingot>, <liquid:liquid_fluorine> * 144, <liquid:hecryo_liquid> * 100, 5.0f);
+addSolidification(<additions:neon_ingot>, <liquid:liquid_neon> * 144, <liquid:hecryo_liquid> * 100, 8.0f);
+addSolidification(<additions:chlorine_ingot>, <liquid:liquid_chlorine> * 144, <liquid:hecryo_liquid> * 100, 1.5f);
+addSolidification(<additions:argon_ingot>, <liquid:liquid_argon> * 144, <liquid:hecryo_liquid> * 100, 6.0f);
+addSolidification(<additions:krypton_ingot>, <liquid:liquid_krypton> * 144, <liquid:hecryo_liquid> * 100, 4.0f);
+addSolidification(<additions:xenon_ingot>, <liquid:liquid_xenon> * 144, <liquid:hecryo_liquid> * 100, 2.0f);
+addSolidification(<additions:radon_ingot>, <liquid:liquid_radon> * 144, <liquid:hecryo_liquid> * 100, 1.2f);
+addSolidification(<additions:bromine_ingot>, <liquid:bromine> * 144, <liquid:cryotheum> * 20, 1.0f);

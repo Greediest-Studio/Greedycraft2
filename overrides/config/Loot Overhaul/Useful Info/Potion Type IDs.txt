@@ -186,6 +186,21 @@ minecraft:luck
        minecraft:luck - 6000 - 0 - false - true
 
 
+ageofminecraft:breaking
+   - Effects: 
+       ageofminecraft:breaking - 3600 - 0 - false - true
+
+
+ageofminecraft:long_breaking
+   - Effects: 
+       ageofminecraft:breaking - 9600 - 0 - false - true
+
+
+ageofminecraft:strong_breaking
+   - Effects: 
+       ageofminecraft:breaking - 1800 - 1 - false - true
+
+
 randomthings:collapse
    - Effects: 
        randomthings:collapse - 450 - 0 - false - true
@@ -296,21 +311,6 @@ tiths:hard_ice
        tiths:hard_ice - 3600 - 0 - false - true
 
 
-enderio:floating
-   - Effects: 
-       minecraft:levitation - 140 - 0 - false - true
-
-
-enderio:strong_floating
-   - Effects: 
-       minecraft:levitation - 140 - 2 - false - true
-
-
-enderio:long_floating
-   - Effects: 
-       minecraft:levitation - 560 - 0 - false - true
-
-
 enderio:confusion
    - Effects: 
        minecraft:nausea - 900 - 0 - false - true
@@ -331,19 +331,19 @@ enderio:long_withering
        minecraft:wither - 2400 - 0 - false - true
 
 
-quark:resilience
+enderio:floating
    - Effects: 
-       quark:resilience - 3600 - 0 - false - true
+       minecraft:levitation - 140 - 0 - false - true
 
 
-quark:long_resilience
+enderio:strong_floating
    - Effects: 
-       quark:resilience - 9600 - 0 - false - true
+       minecraft:levitation - 140 - 2 - false - true
 
 
-quark:strong_resilience
+enderio:long_floating
    - Effects: 
-       quark:resilience - 1800 - 1 - false - true
+       minecraft:levitation - 560 - 0 - false - true
 
 
 quark:haste
@@ -399,6 +399,21 @@ quark:danger_sight
 quark:long_danger_sight
    - Effects: 
        quark:danger_sight - 9600 - 0 - false - true
+
+
+quark:resilience
+   - Effects: 
+       quark:resilience - 3600 - 0 - false - true
+
+
+quark:long_resilience
+   - Effects: 
+       quark:resilience - 9600 - 0 - false - true
+
+
+quark:strong_resilience
+   - Effects: 
+       quark:resilience - 1800 - 1 - false - true
 
 
 potioncore:saturation
@@ -1091,34 +1106,32 @@ netherex:sorrow
        netherex:crying - 600 - 0 - false - true
 
 
-blue_skies:unluck
+oe:turtle_master
    - Effects: 
-       minecraft:unluck - 6000 - 0 - false - true
+       minecraft:resistance - 400 - 3 - false - true
+       minecraft:slowness - 400 - 3 - false - true
 
 
-gct_tcon:alkalinity
+oe:turtle_master_long
    - Effects: 
-       gct_tcon:alkalinity - 3600 - 0 - false - true
+       minecraft:resistance - 800 - 3 - false - true
+       minecraft:slowness - 800 - 3 - false - true
 
 
-gct_tcon:acidity
+oe:turtle_master_strong
    - Effects: 
-       gct_tcon:acidity - 3600 - 0 - false - true
+       minecraft:resistance - 400 - 5 - false - true
+       minecraft:slowness - 400 - 5 - false - true
 
 
-gct_aby:stop
+oe:descent
    - Effects: 
-       gct_aby:stop - 3600 - 0 - false - true
+       oe:descent - 2400 - 0 - false - true
 
 
-ageofminecraft:long_breaking
+oe:seeping
    - Effects: 
-       ageofminecraft:breaking - 9600 - 0 - false - true
-
-
-ageofminecraft:breaking
-   - Effects: 
-       ageofminecraft:breaking - 3600 - 0 - false - true
+       oe:seeping - 3600 - 0 - false - true
 
 
 variegated:boon
@@ -1616,6 +1629,11 @@ cyclicmagic:hunger
        minecraft:hunger - 3600 - 0 - false - true
 
 
+blue_skies:unluck
+   - Effects: 
+       minecraft:unluck - 6000 - 0 - false - true
+
+
 charm:coffee
    - Effects: 
        minecraft:speed - 200 - 0 - false - true
@@ -1633,6 +1651,16 @@ charm:ender_sight
        charm:ender_sight - 200 - 0 - false - true
 
 
+gct_aby:abyssplague
+   - Effects: 
+       gct_aby:abyssplague - 3600 - 0 - false - true
+
+
+gct_aby:stop
+   - Effects: 
+       gct_aby:stop - 3600 - 0 - false - true
+
+
 gct_mobs:curse_of_twilight
    - Effects: 
        gct_mobs:curse_of_twilight - 3600 - 0 - false - true
@@ -1646,6 +1674,26 @@ gct_mobs:channeling
 gct_mobs:blue_screen
    - Effects: 
        gct_mobs:blue_screen - 3600 - 0 - false - true
+
+
+gct_mobs:anti_anyposion
+   - Effects: 
+       gct_mobs:anti_anyposion - 3600 - 0 - false - true
+
+
+gct_mobs:world_end
+   - Effects: 
+       gct_mobs:world_end - 3600 - 0 - false - true
+
+
+gct_tcon:alkalinity
+   - Effects: 
+       gct_tcon:alkalinity - 3600 - 0 - false - true
+
+
+gct_tcon:acidity
+   - Effects: 
+       gct_tcon:acidity - 3600 - 0 - false - true
 
 
 extrautils2:xu2.doom
@@ -1695,48 +1743,5 @@ extrautils2:xu2.love
 extrautils2:xu2.purging
    - Effects: 
        extrautils2:effect.xu2.purging - 0 - 0 - false - true
-
-
-gct_mobs:world_end
-   - Effects: 
-       gct_mobs:world_end - 3600 - 0 - false - true
-
-
-gct_mobs:anti_anyposion
-   - Effects: 
-       gct_mobs:anti_anyposion - 3600 - 0 - false - true
-
-
-ageofminecraft:strong_breaking
-   - Effects: 
-       ageofminecraft:breaking - 1800 - 1 - false - true
-
-
-oe:turtle_master_long
-   - Effects: 
-       minecraft:resistance - 800 - 3 - false - true
-       minecraft:slowness - 800 - 3 - false - true
-
-
-oe:descent
-   - Effects: 
-       oe:descent - 2400 - 0 - false - true
-
-
-oe:turtle_master
-   - Effects: 
-       minecraft:resistance - 400 - 3 - false - true
-       minecraft:slowness - 400 - 3 - false - true
-
-
-oe:turtle_master_strong
-   - Effects: 
-       minecraft:resistance - 400 - 5 - false - true
-       minecraft:slowness - 400 - 5 - false - true
-
-
-gct_aby:abyssplague
-   - Effects: 
-       gct_aby:abyssplague - 3600 - 0 - false - true
 
 

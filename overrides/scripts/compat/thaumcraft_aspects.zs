@@ -47,7 +47,7 @@ var aspectMap as CTAspectStack[][IIngredient] = {
     <chisel:futura:5> : [<aspect:fluctus> * 50],
     <chisel:sandstone-scribbles:9> : [<aspect:fluctus> * 30],
     <chisel:sandstonered-scribbles:9> : [<aspect:fluctus> * 30],
-    <additions:greedycraft-true_eye_of_ender> : [<aspect:visum> * 120],
+    <additions:true_eye_of_ender> : [<aspect:visum> * 120],
     <minecraft:lever> : [<aspect:imperium> * 25],
     <betternether:block_eyeball> : [<aspect:visum> * 50],
     <draconicevolution:draconium_ingot> : [<aspect:draco> * 50],
@@ -69,7 +69,7 @@ var aspectMap as CTAspectStack[][IIngredient] = {
     <additions:protonium_ingot> : [<aspect:ordo> * 100],
     <additions:electronium_ingot> : [<aspect:lux> * 100],
     <additions:ignite_ingot> : [<aspect:visum> * 100, <aspect:alienis> * 50],
-    <additions:greedycraft-experience_ingot> : [<aspect:praecantatio> * 100],
+    <additions:experience_ingot> : [<aspect:praecantatio> * 100],
     <additions:titanium_ingot> : [<aspect:metallum> * 100],
     <aether_legacy:ambrosium_shard> : [<aspect:caeles> * 20],
     <aether_legacy:zanite_gemstone> : [<aspect:caeles> * 30],
@@ -92,8 +92,8 @@ var aspectMap as CTAspectStack[][IIngredient] = {
     <gct_mobs:nyarlathotepium_ingot> : [<aspect:tenebrae> * 40, <aspect:abyss> * 40, <aspect:tempus> * 30, <aspect:ordo> * 30, <aspect:perditio> * 30],
     <gct_mobs:yogsothothium_ingot> : [<aspect:tenebrae> * 40, <aspect:abyss> * 40, <aspect:tempus> * 30, <aspect:ordo> * 30, <aspect:perditio> * 30],
     <gct_mobs:shubniggurathium_ingot> : [<aspect:tenebrae> * 40, <aspect:abyss> * 40, <aspect:tempus> * 30, <aspect:ordo> * 30, <aspect:perditio> * 30],
-    <additions:taigaddon-cthughate_ingot> : [<aspect:ignis> * 60, <aspect:lux> * 20, <aspect:abyss> * 25, <aspect:perditio> * 15],
-    <additions:taigaddon-husturite_ingot> : [<aspect:vacuos> * 20, <aspect:aer> * 40, <aspect:tempestas> * 20, <aspect:abyss> * 25, <aspect:perditio> * 15]
+    <additions:cthughate_ingot> : [<aspect:ignis> * 60, <aspect:lux> * 20, <aspect:abyss> * 25, <aspect:perditio> * 15],
+    <additions:husturite_ingot> : [<aspect:vacuos> * 20, <aspect:aer> * 40, <aspect:tempestas> * 20, <aspect:abyss> * 25, <aspect:perditio> * 15]
 };
 
 for ingredient in aspectMap {

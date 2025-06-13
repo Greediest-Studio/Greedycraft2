@@ -1,4 +1,4 @@
-#reloadable
+
 
 import crafttweaker.event.PlayerInteractBlockEvent;
 import crafttweaker.block.IBlock;

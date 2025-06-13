@@ -77,7 +77,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <twilightforest:giant_leaves>, 
 	[null, null, null, null, null, null, null, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <additions:mekaddon-scientificite_mirror>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:scientificite_mirror>, [
 	[null, null, null, <ore:ingotCreativeAlloy>, null, null, null], 
 	[null, null, <ore:ingotCosmilite>, <ore:blockGlass>, <ore:ingotCosmilite>, null, null], 
 	[null, <ore:ingotCrystalMatrix>, <ore:blockGlass>, <ore:ingotScientificite>, <ore:blockGlass>, <ore:ingotCrystalMatrix>, null], 
@@ -87,7 +87,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:mekaddon-scientifici
 	[null, null, null, <ore:ingotCreativeAlloy>, null, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <additions:mekaddon-balance_core> * 2, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:balance_core> * 2, [
 	[null, null, <ore:ingotDullium>, <thermalexpansion:florb>, <ore:ingotDullium>, null, null], 
 	[null, <thermalexpansion:florb>, <ore:ingotDullium>, <ore:ingotGelidEnderium>, <ore:ingotDullium>, <thermalexpansion:florb>, null], 
 	[<ore:ingotDullium>, <ore:ingotDullium>, <ore:ingotDecurrium>, <ore:ingotDecurrium>, <ore:ingotDecurrium>, <ore:ingotDullium>, <ore:ingotDullium>], 
@@ -137,7 +137,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:manasteel_fusionplate
 	[null, null, null, <ore:nuggetFusionMatrix>, null, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <additions:greedycraft-betweenland_rune>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:betweenland_rune>, [
 	[null, null, null, null, <ore:ingotOrichalcos>, <ore:ingotBalancedMatrix>, null], 
 	[<ore:ingotBalancedMatrix>, <ore:blockEugardite>, <ore:ingotOrichalcos>, <ore:ingotOrichalcos>, <ore:blockEugardite>, <ore:blockEugardite>, null], 
 	[<ore:ingotOrichalcos>, <ore:blockEugardite>, <ore:blockCorbite>, <ore:blockEucite>, <ore:blockCorbite>, <ore:ingotOrichalcos>, null], 
@@ -147,11 +147,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:greedycraft-betweenl
 	[null, <ore:ingotBalancedMatrix>, <ore:ingotOrichalcos>, null, null, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <additions:bloody-gloomy_passport>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:gloomy_passport>, [
 	[null, null, <ore:ingotDullium>, <ore:ingotDullium>, <ore:ingotDullium>, null, null], 
 	[<ore:ingotDullium>, <ore:ingotDullium>, <ore:ingotWigthium>, <ore:gemDark>, <ore:gemDark>, <ore:ingotDullium>, <ore:ingotDullium>], 
 	[<ore:ingotDullium>, <ore:gemDark>, <ore:ingotWigthium>, <ore:ingotWigthium>, <ore:ingotCrimsonite>, <ore:gemDark>, <ore:ingotDullium>], 
-	[<ore:ingotDullium>, <ore:gemDark>, <ore:ingotWigthium>, <additions:bloody-slate_7>, <ore:ingotWigthium>, <ore:gemDark>, <ore:ingotDullium>], 
+	[<ore:ingotDullium>, <ore:gemDark>, <ore:ingotWigthium>, <additions:slate_7>, <ore:ingotWigthium>, <ore:gemDark>, <ore:ingotDullium>], 
 	[null, <ore:ingotDullium>, <ore:ingotCrimsonite>, <ore:ingotWigthium>, <ore:ingotWigthium>, <ore:ingotDullium>, null], 
 	[null, <ore:ingotDullium>, <ore:ingotDullium>, <ore:gemDark>, <ore:ingotWigthium>, <ore:ingotDullium>, null], 
 	[null, null, null, <ore:ingotDullium>, null, null, null]
@@ -220,11 +220,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:factory_atomi
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <gct_aby:abyss_wand>, [
-	[null, null, null, null, <gct_aby:shoggoth_slimeball>, <ore:ingotAdaminite>, <abyssalcraft:oc>], 
+	[null, null, null, null, <gct_aby:shoggoth_complex_crystal>, <ore:ingotAdaminite>, <abyssalcraft:oc>], 
 	[null, null, null, null, <ore:ingotAdaminite>, <abyssalcraft:oc>, <ore:ingotAdaminite>], 
-	[null, null, null, <gct_aby:shoggoth_slimeball>, <ore:ingotAbyssine>, <ore:ingotAdaminite>, <gct_aby:shoggoth_slimeball>], 
-	[null, null, <gct_aby:shoggoth_slimeball>, <ore:ingotFinallium>, <gct_aby:shoggoth_slimeball>, null, null], 
-	[null, <gct_aby:shoggoth_slimeball>, <thaumicrestoration:block_crystal>.withTag({aspect: "cthulhu"}), <gct_aby:shoggoth_slimeball>, null, null, null], 
-	[<gct_aby:shoggoth_slimeball>, <thaumicrestoration:block_crystal>.withTag({aspect: "cthulhu"}), <gct_aby:shoggoth_slimeball>, null, null, null, null], 
-	[<thaumicrestoration:block_crystal>.withTag({aspect: "cthulhu"}), <gct_aby:shoggoth_slimeball>, null, null, null, null, null]
+	[null, null, null, <gct_aby:shoggoth_complex_crystal>, <ore:ingotAbyssine>, <ore:ingotAdaminite>, <gct_aby:shoggoth_complex_crystal>], 
+	[null, null, <gct_aby:shoggoth_complex_crystal>, <ore:ingotFinallium>, <gct_aby:shoggoth_complex_crystal>, null, null], 
+	[null, <gct_aby:shoggoth_complex_crystal>, <thaumicrestoration:block_crystal>.withTag({aspect: "cthulhu"}), <gct_aby:shoggoth_complex_crystal>, null, null, null], 
+	[<gct_aby:shoggoth_complex_crystal>, <thaumicrestoration:block_crystal>.withTag({aspect: "cthulhu"}), <gct_aby:shoggoth_complex_crystal>, null, null, null, null], 
+	[<thaumicrestoration:block_crystal>.withTag({aspect: "cthulhu"}), <gct_aby:shoggoth_complex_crystal>, null, null, null, null, null]
 ]);

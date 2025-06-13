@@ -20,7 +20,7 @@ import scripts.util.lang as LangUtil;
 
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
-        .setCatalyst(<additions:greedycraft-canopy_totem>)
+        .setCatalyst(<additions:canopy_totem>)
         .setConsumeCatalyst(true)
         .setReagents([])
         .addMob(MobInfo.create()
@@ -28,7 +28,7 @@ SummoningDirector.addSummonInfo(
             .setCount(1)
             .setOffset(0,4,0)
             .setSpread(1,1,1)
-            .setData({HandItems: [{id: "additions:greedycraft-canopy_seed", Count: 1 as byte, Damage: 0 as short}, {}], HandDropChances: [1.0f, 0.0f], "Health": 800, "Attributes":[{"Name":"generic.maxHealth","Base": 800}]})
+            .setData({HandItems: [{id: "additions:canopy_seed", Count: 1 as byte, Damage: 0 as short}, {}], HandDropChances: [1.0f, 0.0f], "Health": 800, "Attributes":[{"Name":"generic.maxHealth","Base": 800}]})
         )
         .addMob(MobInfo.create()
             .setMob("minecraft:slime")

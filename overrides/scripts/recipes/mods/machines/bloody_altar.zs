@@ -143,7 +143,7 @@ function change(event as FactoryRecipeFinishEvent,lp as int) {
 }
 
 recipe(<minecraft:stone>,<bloodmagic:slate>,1000.0f,7);
-recipe(<botania:manaresource:1>,<additions:greedycraft-pearl_of_knowledge>,250000.0f,7);
+recipe(<botania:manaresource:1>,<additions:pearl_of_knowledge>,250000.0f,7);
 recipe(<thaumcraft:amber>,<thaumcraft:curio:1>,80000.0f,7);
 recipe(<bloodmagic:lava_crystal>,<bloodmagic:activation_crystal>,10000.0f,7);
 recipe(<minecraft:emerald>,<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}),2000.0f,7);
@@ -155,8 +155,8 @@ recipe(<minecraft:gold_ingot>,<animus:keybinding>,1000.0f,7);
 recipe(<minecraft:magma_cream>,<bloodmagic:inscription_tool:2>.withTag({uses: 10}),1000.0f,7);
 recipe(<minecraft:nether_star>,<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:archmage"}),80000.0f,7);
 recipe(<additions:durasteel_ingot>,<tconevo:metal:25>,10000.0f,7);
-recipe(<additions:greedycraft-cosmilite_block>,<additions:greedycraft-creative_shard>,850000.0f,7);
-recipe(<additions:greedycraft-compressed_experience_block>,<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"}),25000.0f,7);
+recipe(<additions:cosmilite_block>,<additions:creative_shard>,850000.0f,7);
+recipe(<additions:compressed_experience_block>,<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"}),25000.0f,7);
 recipe(<minecraft:book>,<bloodmagic:sanguine_book>,1000.0f,7);
 recipe(<astralsorcery:itemcraftingcomponent:1>,<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}),5000.0f,7);
 recipe(<bloodmagic:slate:1>,<bloodmagic:slate:2>,5000.0f,7);
@@ -165,7 +165,7 @@ recipe(<bloodmagic:slate>,<bloodmagic:slate:1>,2000.0f,7);
 recipe(<minecraft:ghast_tear>,<bloodmagic:inscription_tool:4>.withTag({uses: 10}),1000.0f,7);
 recipe(<minecraft:iron_sword>,<bloodmagic:dagger_of_sacrifice>,3000.0f,7);
 recipe(<minecraft:lapis_block>,<bloodmagic:inscription_tool:1>.withTag({uses: 10}),1000.0f,7);
-recipe(<additions:greedycraft-blood_sigil>,<additions:greedycraft-true_blood_sigil>,150000.0f,7);
+recipe(<additions:blood_sigil>,<additions:true_blood_sigil>,150000.0f,7);
 recipe(<aether_legacy:ambrosium_shard>,<thaumcraft:curio:4>,80000.0f,7);
 recipe(<bloodmagic:blood_shard>,<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:master"}),40000.0f,7);
 recipe(<minecraft:coal_block>,<bloodmagic:inscription_tool:5>.withTag({uses: 10}),2000.0f,7);
@@ -179,18 +179,18 @@ recipe(<bloodmagic:slate:3>,<bloodmagic:slate:4>,30000.0f,7);
 recipe(<minecraft:glass_bottle>,<twilightforest:fiery_blood>,7000.0f,7);
 recipe(<minecraft:log>,<bloodarsenal:blood_infused_wooden_log>,2000.0f,7);
 recipe(<draconicevolution:wyvern_core>,<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:transcendent"}),300000.0f,7);
-recipe(<bloodmagic:slate:4>,<additions:bloody-slate_6>,200000.0f,7);
+recipe(<bloodmagic:slate:4>,<additions:slate_6>,200000.0f,7);
 recipe(<bloodmagic:teleposition_focus>,<bloodmagic:teleposition_focus:1>,10000.0f,7);
 recipe(<minecraft:glowstone>,<bloodmagic:inscription_tool:6>.withTag({uses: 10}),200000.0f,7);
 
-recipe(<additions:bloody-slate_6>,<additions:bloody-slate_7>,1000000.0f,7);
-recipe(<additions:cosmilite_ingot>,<additions:bloody-ghost_metal>,1280000.0f,7);
-recipe(<jaopca:block.darkest>,<additions:bloody-darkest_stonebrick_large>,3840000.0f,7);
-recipe(<additions:greedycraft-catalyst_star>,<additions:greedycraft-proliferation_star>,6400000.0f,7);
+recipe(<additions:slate_6>,<additions:slate_7>,1000000.0f,7);
+recipe(<additions:cosmilite_ingot>,<additions:ghost_metal>,1280000.0f,7);
+recipe(<jaopca:block.darkest>,<additions:darkest_stonebrick_large>,3840000.0f,7);
+recipe(<additions:catalyst_star>,<additions:proliferation_star>,6400000.0f,7);
 recipe(<minecraft:bone_block>,<additions:ivorium_ingot>,1280000.0f,7);
 
-recipe(<additions:bloody-slate_7>,<additions:bloody-slate_8>,8000000.0f,8);
-recipe(<additions:bloody-balanced_slate>,<additions:greedycraft-murderite_ingot>,20000000.0f,8);
+recipe(<additions:slate_7>,<additions:slate_8>,8000000.0f,8);
+recipe(<additions:balanced_slate>,<additions:murderite_ingot>,20000000.0f,8);
 
 for i in 7 to 10 {
     RecipeBuilder.newBuilder("tongbu" + i, "blood_altar_mk" + i, 50, 0)

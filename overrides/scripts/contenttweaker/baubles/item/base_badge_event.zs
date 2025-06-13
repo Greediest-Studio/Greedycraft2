@@ -1,4 +1,4 @@
-#reloadable
+
 
 import crafttweaker.event.EntityLivingDamageEvent;
 import crafttweaker.player.IPlayer;

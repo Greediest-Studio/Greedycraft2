@@ -87,6 +87,6 @@ RecipeBuilder.newBuilder("blackwhite" , "empowerer" , "40")
     .addItemInput(<defiledlands:remorseful_gem> * 1)
     .addItemInput(<moretcon:ingotebonite> * 1)
     .addEnergyPerTickInput(100000)
-    .addItemOutput(<additions:link-ebony_and_lvory> * 1)
+    .addItemOutput(<additions:ebony_and_lvory> * 1)
     .build();
 

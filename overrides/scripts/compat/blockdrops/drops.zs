@@ -2,12 +2,12 @@
  * This script is created for the GreedyCraft modpack by TCreopargh.
  * You may NOT use this script in any other publicly distributed modpack without my permission.
  */
-#reloadable
+
 #priority 40
 
 import mods.dropt.Dropt;
 
-vanilla.seeds.addSeed(<additions:greedycraft-plant_fibre> % 2);
+vanilla.seeds.addSeed(<additions:plant_fibre> % 2);
 
 Dropt.list("bedrock")
     .add(Dropt.rule()
@@ -122,7 +122,7 @@ Dropt.list("lucky_clover")
           .selector(Dropt.weight(199)) 
     ).addDrop(Dropt.drop()
           .selector(Dropt.weight(1))
-          .items([<additions:greedycraft-lucky_clover>])
+          .items([<additions:lucky_clover>])
     )
 );
 

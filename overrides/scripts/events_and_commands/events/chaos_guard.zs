@@ -48,7 +48,7 @@ events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
             }
             if !isNull(list) {
                 for plr in list {
-                    plr.give(<additions:bloody-darkest_core> * 10);
+                    plr.give(<additions:darkest_core> * 10);
                 }
             }
         }

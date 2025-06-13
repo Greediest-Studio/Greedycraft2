@@ -20,7 +20,7 @@ import scripts.util.lang as LangUtil;
 
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
-        .setCatalyst(<additions:greedycraft-end_totem>)
+        .setCatalyst(<additions:end_totem>)
         .setConsumeCatalyst(true)
         .setReagents([])
         .addMob(MobInfo.create()
@@ -28,7 +28,7 @@ SummoningDirector.addSummonInfo(
             .setCount(1)
             .setOffset(0,4,0)
             .setSpread(1,1,1)
-            .setData({HandItems: [{id: "additions:greedycraft-end_seed", Count: 1 as byte, Damage: 0 as short}, {}], HandDropChances: [1.0f, 0.0f], "Health": BARAKO_HP, "Attributes":[{"Name":"generic.maxHealth","Base": BARAKO_HP}]})
+            .setData({HandItems: [{id: "additions:end_seed", Count: 1 as byte, Damage: 0 as short}, {}], HandDropChances: [1.0f, 0.0f], "Health": BARAKO_HP, "Attributes":[{"Name":"generic.maxHealth","Base": BARAKO_HP}]})
         )
         .addMob(MobInfo.create()
             .setMob("endreborn:endguard")

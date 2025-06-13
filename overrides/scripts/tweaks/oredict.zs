@@ -204,13 +204,13 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <touhou_little_maid:power_point>
     ],
     <ore:dungeonLootTier1> : [
-        <additions:greedycraft-medkit_small>,
-        <additions:greedycraft-bag_of_dyes>,
+        <additions:medkit_small>,
+        <additions:bag_of_dyes>,
         <quark:rune:*>,
         <cyclicmagic:apple_emerald>,
-        <additions:greedycraft-tower_chest_key>,
+        <additions:tower_chest_key>,
         <scalinghealth:crystalshard>,
-        <additions:greedycraft-huaji>,
+        <additions:huaji>,
         <extrabotany:material>,
         <cyclicmagic:corrupted_chorus>,
         <additions:tcsponsors-sponsor_chest_fragment>,
@@ -234,7 +234,7 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:dungeonLootTier2> : [
         <randomthings:magichood>,
         <openblocks:technicolor_glasses>,
-        <additions:greedycraft-delivery_order>,
+        <additions:delivery_order>,
         <enderio:item_dark_steel_sword>,
         <cyclicmagic:tool_prospector>,
         <cyclicmagic:glove_climb>,
@@ -242,9 +242,9 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <cyclicmagic:sack_ender>,
         <randomthings:biomecrystal>,
         <enderio:item_dark_steel_boots>,
-        <additions:greedycraft-medkit_big>,
+        <additions:medkit_big>,
         <bountifulbaubles:phantomprism>,
-        <additions:greedycraft-sunny_doll>,
+        <additions:sunny_doll>,
         <extrabotany:bottledstar>,
         <bountifulbaubles:trinketmagiclenses>,
         <randomthings:summoningpendulum>,
@@ -276,7 +276,7 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <cyclicmagic:ender_dungeon>,
         <extrabotany:bottledflame>,
         <astralsorcery:itemconstellationpaper>,
-        <additions:greedycraft-loli_lolipop>,
+        <additions:loli_lolipop>,
         <openblocks:trophy:*>,
         <charm:charged_emerald>,
         <charm:totem_of_shielding>,
@@ -287,42 +287,42 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <advanced-fishing:blazing_fishing_pole:*>
     ],
     <ore:dungeonLootTier3> : [
-        <additions:greedycraft-goodie_bag>,
-        <additions:greedycraft-true_eye_of_ender>,
-        <additions:greedycraft-medkit_super>,
-        <additions:greedycraft-experience_transporter>,
-        <additions:greedycraft-skill_reset_scroll>,
+        <additions:goodie_bag>,
+        <additions:true_eye_of_ender>,
+        <additions:medkit_super>,
+        <additions:experience_transporter>,
+        <additions:skill_reset_scroll>,
         <additions:tcsponsors-sponsors_chest>,
         <cyclicmagic:heart_food>,
-        <additions:greedycraft-one_punch>,
-        <additions:greedycraft-experiment_note>,
+        <additions:one_punch>,
+        <additions:experiment_note>,
         <mowziesmobs:wrought_helmet>,
         <mowziesmobs:wrought_axe>,
         <journey:loot_pouch_diamond>
     ],
     <ore:metalGene> : [
         <additions:cytosinite_ingot>,
-        <additions:greedycraft-thyminite_ingot>,
-        <additions:greedycraft-guaninite_ingot>,
-        <additions:greedycraft-adeninite_ingot>
+        <additions:thyminite_ingot>,
+        <additions:guaninite_ingot>,
+        <additions:adeninite_ingot>
     ],
     <ore:metalWyvern> : [
         <additions:cryonium_ingot>,
-        <additions:greedycraft-aetherium_ingot>,
-        <additions:greedycraft-lavarite_ingot>,
-        <additions:greedycraft-snowingium_ingot>
+        <additions:aetherium_ingot>,
+        <additions:lavarite_ingot>,
+        <additions:snowingium_ingot>
     ],
     <ore:metalAwakened> :  [
         <additions:infernium_ingot>,
-        <additions:greedycraft-canopium_ingot>,
-        <additions:greedycraft-plasmarite_ingot>,
-        <additions:greedycraft-freezite_ingot>
+        <additions:canopium_ingot>,
+        <additions:plasmarite_ingot>,
+        <additions:freezite_ingot>
     ],
     <ore:metalChaotic> : [
         <additions:titanium_ingot>,
-        <additions:greedycraft-mistium_ingot>,
-        <additions:greedycraft-bnightium_ingot>,
-        <additions:greedycraft-oceanium_ingot>
+        <additions:mistium_ingot>,
+        <additions:bnightium_ingot>,
+        <additions:oceanium_ingot>
     ],
     <ore:gemCincinnasite> : [<betternether:cincinnasite>],
     <ore:gemTofu> : [<tofucraft:material:18>],
@@ -388,8 +388,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <betternether:nether_mycelium>
     ],
     <ore:netherrack> : [<betternether:netherrack_moss>],
-    <ore:shardCreative> : [<additions:greedycraft-creative_shard>],
-    <ore:soulCreative> : [<additions:greedycraft-creative_soul>],
+    <ore:shardCreative> : [<additions:creative_shard>],
+    <ore:soulCreative> : [<additions:creative_soul>],
     <ore:blockDiamondPink> : [<sakura:sakura_diamond_block>],
     <ore:blockDiamondSakura> : [<sakura:sakura_diamond_block>],
     <ore:blockQuartzBlack> : [<ore:blockQuartzDark>],
@@ -789,8 +789,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:gemFirestone> : [<journey:firestoneclump>],
     <ore:gemAquamarineStarlight> : [<astralsorcery:itemcraftingcomponent:4>],
     <ore:gemAkuamarin> : [<astralsorcery:itemcraftingcomponent:4>],
-    <ore:gemRubyStarlight> : [<additions:greedycraft-resonating_ruby>],
-    <ore:gemRubii> : [<additions:greedycraft-resonating_ruby>],
+    <ore:gemRubyStarlight> : [<additions:resonating_ruby>],
+    <ore:gemRubii> : [<additions:resonating_ruby>],
     <ore:dustObsidian> : [<endreborn:catalyst>],
     <ore:necronomiconOverworld> : [<abyssalcraft:necronomicon>],
     <ore:necronomiconWasteland> : [<abyssalcraft:necronomicon_cor>],

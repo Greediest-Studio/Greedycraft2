@@ -3,7 +3,7 @@
  * You may NOT use this script in any other publicly distributed modpack without my permission.
  */
 
-#reloadable
+
 #priority 70
 
 import crafttweaker.event.PlayerLoggedInEvent;

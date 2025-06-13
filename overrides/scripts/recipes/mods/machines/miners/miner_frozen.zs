@@ -18,7 +18,7 @@ RecipeBuilder.newBuilder("miner_frozen", "miner_frozen", speed, 0)//这两个"mi
     .setDimension([823])//定义维度
 
     //接下来每两行为一组，一组对应一个物品
-    .addItemOutput(<additions:greedycraft-iciricium_ore>)//定义物品ID
+    .addItemOutput(<additions:iciricium_ore>)//定义物品ID
     .setChance(0.5f / 10.0f)//定义几率（比方说这个就是0.3÷10=3%）
     
     .addItemOutput(<divinerpg:ice_shards>)
@@ -37,11 +37,11 @@ RecipeBuilder.newBuilder("miner_frozen", "miner_frozen", speed, 0)//这两个"mi
     .setChance(0.2f / 10.0f)
     .addItemOutput(<divinerpg:corrupted_shards>)
     .setChance(0.2f / 10.0f)
-    .addItemOutput(<additions:greedycraft-chillinium_ore>)
+    .addItemOutput(<additions:chillinium_ore>)
     .setChance(0.12f / 10.0f)
     .addItemOutput(<minecraft:snowball>)
     .setChance(7.0f / 10.0f)
-    .addItemOutput(<additions:greedycraft-germanium _ore>)
+    .addItemOutput(<additions:germanium _ore>)
     .setChance(0.2f / 10.0f)
 
     .build();//注册语句，不能省略，否则会报错

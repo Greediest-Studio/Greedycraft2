@@ -3,7 +3,7 @@
  */
 
 #priority 50
-#reloadable
+
 
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
@@ -44,7 +44,7 @@ RecipeBuilder.newBuilder("fusion_order_metal", "order_fusioner", 256)
     .build();
 
 RecipeBuilder.newBuilder("fusion_chaotic_shard", "order_fusioner", 256)
-    .addItemInput(<additions:greedycraft-chaotic_crystal_gem>).setChance(0.0)
+    .addItemInput(<additions:chaotic_crystal_gem>).setChance(0.0)
     .addItemInput(<ore:blockDiamond> * 4)
     .addItemInput(<actuallyadditions:block_crystal_empowered:4> * 4)
     .addEnergyPerTickInput(52428800)
@@ -52,7 +52,7 @@ RecipeBuilder.newBuilder("fusion_chaotic_shard", "order_fusioner", 256)
     .build();
     
 RecipeBuilder.newBuilder("fusion_stormy_shard", "order_fusioner", 256)
-    .addItemInput(<additions:greedycraft-stormy_crystal_gem>).setChance(0.0)
+    .addItemInput(<additions:stormy_crystal_gem>).setChance(0.0)
     .addItemInput(<ore:blockEmerald> * 4)
     .addItemInput(<actuallyadditions:block_crystal_empowered:2> * 4)
     .addEnergyPerTickInput(52428800)

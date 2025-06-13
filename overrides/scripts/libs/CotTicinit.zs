@@ -1,3 +1,5 @@
+#reloadable
+
 #loader contenttweaker
 #priority 32626
 

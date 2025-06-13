@@ -1,0 +1,46 @@
+{
+    "preset_type": "additions:empty",
+    "pools": [
+        {
+            "name": "main",
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "additions:shield_gum",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:delivery_order",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:tcsponsors-sponsors_chest",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:undead_medkit",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:adrenaline",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:fake_philosopher_stone",
+                    "weight": 1
+                },
+				{
+                    "type": "item",
+                    "name": "additions:strange_lolipop",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}

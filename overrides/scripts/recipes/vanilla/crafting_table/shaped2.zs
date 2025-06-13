@@ -23,19 +23,19 @@ recipes.remove(<ymadditions:network_hub>);
 recipes.remove(<tconstruct:piggybackpack>.withTag({}));
 
 RecipeUtil.addShaped("calculator_subsystem_l4", <ecoaeextension:extendable_calculator_subsystem_l4>, [
-    [<ecoaeextension:ecalculator_casing>, <additions:greedycraft-calculation_processor_2>, <ecoaeextension:ecalculator_casing>],
-    [<additions:greedycraft-calculation_processor_2>, <projecte:item.pe_philosophers_stone>, <additions:greedycraft-calculation_processor_2>],
-    [<ecoaeextension:ecalculator_casing>, <additions:greedycraft-calculation_processor_2>, <ecoaeextension:ecalculator_casing>]
+    [<ecoaeextension:ecalculator_casing>, <additions:calculation_processor_2>, <ecoaeextension:ecalculator_casing>],
+    [<additions:calculation_processor_2>, <projecte:item.pe_philosophers_stone>, <additions:calculation_processor_2>],
+    [<ecoaeextension:ecalculator_casing>, <additions:calculation_processor_2>, <ecoaeextension:ecalculator_casing>]
 ]);
 RecipeUtil.addShaped("extendable_calculator_subsystem_l6", <ecoaeextension:extendable_calculator_subsystem_l6>, [
-    [<ecoaeextension:ecalculator_casing>, <additions:greedycraft-glowing_crystal_block>, <ecoaeextension:ecalculator_casing>],
-    [<additions:greedycraft-glowing_crystal_block>, <ecoaeextension:extendable_calculator_subsystem_l4>, <additions:greedycraft-glowing_crystal_block>],
-    [<ecoaeextension:ecalculator_casing>, <additions:greedycraft-glowing_crystal_block>, <ecoaeextension:ecalculator_casing>]
+    [<ecoaeextension:ecalculator_casing>, <additions:glowing_crystal_block>, <ecoaeextension:ecalculator_casing>],
+    [<additions:glowing_crystal_block>, <ecoaeextension:extendable_calculator_subsystem_l4>, <additions:glowing_crystal_block>],
+    [<ecoaeextension:ecalculator_casing>, <additions:glowing_crystal_block>, <ecoaeextension:ecalculator_casing>]
 ]);
 RecipeUtil.addShaped("extendable_calculator_subsystem_l9>", <ecoaeextension:extendable_calculator_subsystem_l9>, [
-    [<mekanism:controlcircuit:3>, <additions:greedycraft-durasteel_block>, <mekanism:controlcircuit:3>],
-    [<additions:greedycraft-durasteel_block>, <ecoaeextension:extendable_calculator_subsystem_l6>, <additions:greedycraft-durasteel_block>],
-    [<mekanism:controlcircuit:3>, <additions:greedycraft-durasteel_block>, <mekanism:controlcircuit:3>]
+    [<mekanism:controlcircuit:3>, <additions:durasteel_block>, <mekanism:controlcircuit:3>],
+    [<additions:durasteel_block>, <ecoaeextension:extendable_calculator_subsystem_l6>, <additions:durasteel_block>],
+    [<mekanism:controlcircuit:3>, <additions:durasteel_block>, <mekanism:controlcircuit:3>]
 ]);
 RecipeUtil.addShaped("ecalculator_parallel_proc_l4", <ecoaeextension:ecalculator_parallel_proc_l4>, [
     [<ecoaeextension:ecalculator_casing>, <jaopca:gear.durasteel>, <ecoaeextension:ecalculator_casing>],
@@ -88,9 +88,9 @@ RecipeUtil.addShaped("ecalculator_tail_l4", <ecoaeextension:ecalculator_tail_l4>
     [<ecoaeextension:ecalculator_casing>, <redstonerepository:storage>, null]
 ]);
 RecipeUtil.addShaped("ecalculator_tail_l6", <ecoaeextension:ecalculator_tail_l6>, [
-    [<ecoaeextension:ecalculator_casing>, <additions:greedycraft-cryonium_block>, null],
+    [<ecoaeextension:ecalculator_casing>, <additions:cryonium_block>, null],
     [<ecoaeextension:ecalculator_casing>, <ecoaeextension:ecalculator_tail_l4>, null],
-    [<ecoaeextension:ecalculator_casing>, <additions:greedycraft-cryonium_block>, null]
+    [<ecoaeextension:ecalculator_casing>, <additions:cryonium_block>, null]
 ]);
 RecipeUtil.addShaped("ecalculator_tail_l9", <ecoaeextension:ecalculator_tail_l9>, [
     [<ecoaeextension:ecalculator_casing>, <gct_ores:ice_alloy_block>, null],
@@ -198,8 +198,8 @@ RecipeUtil.addShaped("aspcet_gugu_input", <whimcraft:blockmeaspectinputbus>, [
     [<modularmachinery:blockcasing>,<thaumicenergistics:essentia_import>,<modularmachinery:blockcasing>]
 ]);
 RecipeUtil.addShaped("cordless_YM", <ymadditions:network_hub>, [
-    [<crazyae:material:16>,<appliedenergistics2:quantum_link>,<additions:greedycraft-wireless_processor>],
-    [<crazyae:material:16>,<ae2stuff:wireless>,<additions:greedycraft-wireless_processor>],
+    [<crazyae:material:16>,<appliedenergistics2:quantum_link>,<additions:wireless_processor>],
+    [<crazyae:material:16>,<ae2stuff:wireless>,<additions:wireless_processor>],
     [<appliedenergistics2:quantum_ring>,<appliedenergistics2:quantum_link>,<appliedenergistics2:quantum_ring>]
 ]);
 RecipeUtil.addShaped("therm_Ardite", <tconstruct:ingots:1>, [

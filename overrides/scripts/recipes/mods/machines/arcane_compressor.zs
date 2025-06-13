@@ -25,7 +25,7 @@ builder.addItemInputs([
 builder.addImpetusInput(100);
 builder.setDimension([822]);
 builder.addAspcetInput(1200, "aer");
-builder.addItemOutput(<additions:greedycraft-blizzium_ingot> * 8);
+builder.addItemOutput(<additions:blizzium_ingot> * 8);
 builder.build();
 
 val builder1 as RecipePrimer = RecipeBuilder.newBuilder("arcane_compression_fire", "arcane_compressor", 360);
@@ -35,7 +35,7 @@ builder1.addFluidInput(<liquid:pruified> * 16);
 builder1.addImpetusInput(100);
 builder1.addAspcetInput(1200, "ignis");
 builder1.setDimension([822]);
-builder1.addItemOutput(<additions:greedycraft-blazingium_ingot>);
+builder1.addItemOutput(<additions:blazingium_ingot>);
 builder1.build();
 
 val builder2 as RecipePrimer = RecipeBuilder.newBuilder("arcane_compression_water", "arcane_compressor", 360);
@@ -45,7 +45,7 @@ builder2.addFluidInput(<liquid:pruified> * 16);
 builder2.addImpetusInput(100);
 builder2.addAspcetInput(1200, "aqua");
 builder2.setDimension([823]);
-builder2.addItemOutput(<additions:greedycraft-tidalium_ingot>);
+builder2.addItemOutput(<additions:tidalium_ingot>);
 builder2.build();
 
 val builder3 as RecipePrimer = RecipeBuilder.newBuilder("arcane_compression_earth", "arcane_compressor", 360);
@@ -55,7 +55,7 @@ builder3.addFluidInput(<liquid:pruified> * 16);
 builder3.addImpetusInput(100);
 builder3.addAspcetInput(1200, "terra");
 builder3.setDimension([824]);
-builder3.addItemOutput(<additions:greedycraft-terranium_ingot>);
+builder3.addItemOutput(<additions:terranium_ingot>);
 builder3.build();
 
 val builder4 as RecipePrimer = RecipeBuilder.newBuilder("arcane_compression_order", "arcane_compressor", 360);
@@ -65,7 +65,7 @@ builder4.addFluidInput(<liquid:pruified> * 16);
 builder4.addImpetusInput(100);
 builder4.addAspcetInput(1200, "ordo");
 builder4.setDimension([820]);
-builder4.addItemOutput(<additions:greedycraft-enlightium_ingot>);
+builder4.addItemOutput(<additions:enlightium_ingot>);
 builder4.build();
 
 val builder5 as RecipePrimer = RecipeBuilder.newBuilder("arcane_compression_chaos", "arcane_compressor", 360);
@@ -75,7 +75,7 @@ builder5.addFluidInput(<liquid:pruified> * 16);
 builder5.addImpetusInput(100);
 builder5.addAspcetInput(1200, "perditio");
 builder5.setDimension([821]);
-builder5.addItemOutput(<additions:greedycraft-debarcium_ingot>);
+builder5.addItemOutput(<additions:debarcium_ingot>);
 builder5.build();
 
 val builder6 as RecipePrimer = RecipeBuilder.newBuilder("arcane_compression_hexacite", "arcane_compressor", 720);
@@ -88,5 +88,5 @@ builder6.addItemInput(<ore:ingotDebarcium>);
 builder6.addFluidInput(<liquid:everite> * 576);
 builder6.addImpetusInput(480);
 builder6.setDimension([78]);
-builder6.addItemOutput(<additions:greedycraft-hexacite_ingot> * 2);
+builder6.addItemOutput(<additions:hexacite_ingot> * 2);
 builder6.build();

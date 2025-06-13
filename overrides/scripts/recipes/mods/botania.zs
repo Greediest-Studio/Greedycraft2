@@ -41,7 +41,7 @@ ElvenTrade.addRecipe([<gct_mobs:elementium_ore>], [<ore:oreManasteel>, <ore:oreM
 ElvenTrade.addRecipe([<treetweaker:dreamwood>], [<treetweaker:livingwood>]);
 ElvenTrade.addRecipe([<gct_mobs:alf_sand>], [<ore:sand>]);
 
-Apothecary.addRecipe(<additions:greedycraft-bag_of_dyes>, [<ore:petalGreen>, <ore:petalRed>, <ore:petalBlue>, <ore:petalYellow>, <ore:petalGreen>, <ore:petalRed>, <ore:petalBlue>, <ore:petalYellow>]);
+Apothecary.addRecipe(<additions:bag_of_dyes>, [<ore:petalGreen>, <ore:petalRed>, <ore:petalBlue>, <ore:petalYellow>, <ore:petalGreen>, <ore:petalRed>, <ore:petalBlue>, <ore:petalYellow>]);
 
 PureDaisy.addRecipe(<minecraft:grass>, <minecraft:dirt>, 200);
 PureDaisy.addRecipe(<ore:treeLeaves>, <gct_mobs:livingwood_leaves>, 100);
@@ -53,16 +53,16 @@ RuneAltar.addRecipe(<twilightforest:castle_rune_brick:1> * 32, [<ore:brickStone>
 RuneAltar.addRecipe(<twilightforest:castle_rune_brick:2> * 32, [<ore:brickStone>, <quark:rune:*>, <ore:dyeYellow>], 50);
 RuneAltar.addRecipe(<twilightforest:castle_rune_brick:3> * 32, [<ore:brickStone>, <quark:rune:*>, <ore:dyePurple>], 50);
 RuneAltar.addRecipe(<botania:manacookie> * 4, [<ore:foodCookie>, <ore:foodCookie>, <ore:foodCookie>, <ore:foodCookie>, <ore:manaPearl>, <ore:manaDiamond>], 3200);
-RuneAltar.addRecipe(<additions:botaniaddon-metatron_rune> * 2, [<botania:rune:15>, <botania:rune:13>, <botania:rune:9>, <ore:ingotOrichalcos>, <ore:ingotAsgardium>, <ore:ingotEvilMetal>], 50000);
-RuneAltar.addRecipe(<additions:botaniaddon-ratziel_rune> * 2, [<botania:rune:14>, <botania:rune:10>, <botania:rune:12>, <ore:ingotOrichalcos>, <ore:ingotExperience>, <ore:ingotOraclium>], 50000);
-RuneAltar.addRecipe(<additions:botaniaddon-zaphkiel_rune> * 2, [<botania:rune:11>, <botania:rune:15>, <botania:rune:13>, <ore:ingotOrichalcos>, <ore:dustTime>, <ore:ingotShadowium>], 50000);
-RuneAltar.addRecipe(<additions:botaniaddon-zadkiel_rune> * 2, [<botania:rune:9>, <botania:rune:14>, <botania:rune:10>, <ore:ingotOrichalcos>, <ore:ingotAqualite>, <ore:ingotDecurrium>], 50000);
-RuneAltar.addRecipe(<additions:botaniaddon-chamael_rune> * 2, [<botania:rune:12>, <botania:rune:11>, <botania:rune:15>, <ore:ingotOrichalcos>, <ore:ingotHellite>, <ore:dustPyrotheum>], 50000);
-RuneAltar.addRecipe(<additions:botaniaddon-michael_rune> * 2, [<botania:rune:13>, <botania:rune:9>, <botania:rune:14>, <ore:ingotOrichalcos>, <ore:dustSpace>, <ore:ingotAstralMetal>], 50000);
-RuneAltar.addRecipe(<additions:botaniaddon-haniel_rune> * 2, [<botania:rune:10>, <botania:rune:12>, <botania:rune:11>, <ore:ingotOrichalcos>, <ore:ingotLiquifiedCoralium>, <journey:spawnerbar>], 50000);
-RuneAltar.addRecipe(<additions:botaniaddon-raphael_rune> * 2, [<botania:rune:15>, <botania:rune:9>, <botania:rune:10>, <ore:ingotOrichalcos>, <ore:ingotAeroite>, <aether_legacy:ambrosium_shard>], 50000);
-RuneAltar.addRecipe(<additions:botaniaddon-gabriel_rune> * 2, [<botania:rune:13>, <botania:rune:14>, <botania:rune:12>, <ore:ingotOrichalcos>, <ore:ingotAurorianSteel>, <ore:ingotManyullyn>], 50000);
-RuneAltar.addRecipe(<additions:botaniaddon-sandalphon_rune> * 2, [<botania:rune:11>, <botania:rune:10>, <botania:rune:14>, <ore:ingotOrichalcos>, <ore:ingotEezo>, <ore:ingotTerrax>], 50000);
+RuneAltar.addRecipe(<additions:metatron_rune> * 2, [<botania:rune:15>, <botania:rune:13>, <botania:rune:9>, <ore:ingotOrichalcos>, <ore:ingotAsgardium>, <ore:ingotEvilMetal>], 50000);
+RuneAltar.addRecipe(<additions:ratziel_rune> * 2, [<botania:rune:14>, <botania:rune:10>, <botania:rune:12>, <ore:ingotOrichalcos>, <ore:ingotExperience>, <ore:ingotOraclium>], 50000);
+RuneAltar.addRecipe(<additions:zaphkiel_rune> * 2, [<botania:rune:11>, <botania:rune:15>, <botania:rune:13>, <ore:ingotOrichalcos>, <ore:dustTime>, <ore:ingotShadowium>], 50000);
+RuneAltar.addRecipe(<additions:zadkiel_rune> * 2, [<botania:rune:9>, <botania:rune:14>, <botania:rune:10>, <ore:ingotOrichalcos>, <ore:ingotAqualite>, <ore:ingotDecurrium>], 50000);
+RuneAltar.addRecipe(<additions:chamael_rune> * 2, [<botania:rune:12>, <botania:rune:11>, <botania:rune:15>, <ore:ingotOrichalcos>, <ore:ingotHellite>, <ore:dustPyrotheum>], 50000);
+RuneAltar.addRecipe(<additions:michael_rune> * 2, [<botania:rune:13>, <botania:rune:9>, <botania:rune:14>, <ore:ingotOrichalcos>, <ore:dustSpace>, <ore:ingotAstralMetal>], 50000);
+RuneAltar.addRecipe(<additions:haniel_rune> * 2, [<botania:rune:10>, <botania:rune:12>, <botania:rune:11>, <ore:ingotOrichalcos>, <ore:ingotLiquifiedCoralium>, <journey:spawnerbar>], 50000);
+RuneAltar.addRecipe(<additions:raphael_rune> * 2, [<botania:rune:15>, <botania:rune:9>, <botania:rune:10>, <ore:ingotOrichalcos>, <ore:ingotAeroite>, <aether_legacy:ambrosium_shard>], 50000);
+RuneAltar.addRecipe(<additions:gabriel_rune> * 2, [<botania:rune:13>, <botania:rune:14>, <botania:rune:12>, <ore:ingotOrichalcos>, <ore:ingotAurorianSteel>, <ore:ingotManyullyn>], 50000);
+RuneAltar.addRecipe(<additions:sandalphon_rune> * 2, [<botania:rune:11>, <botania:rune:10>, <botania:rune:14>, <ore:ingotOrichalcos>, <ore:ingotEezo>, <ore:ingotTerrax>], 50000);
 RuneAltar.addRecipe(<gct_mobs:orichalcos_dreamwood>, [<botania:dreamwood:5>, <ore:ingotOrichalcos>, <ore:ingotEugardite>, <ore:nuggetCosmilite>], 100000);
 RuneAltar.addRecipe(<botaniverse:morerune> * 2, [<ore:runeWaterB>, <ore:runeAirB>, <ore:runeFireB>, <ore:runeEarthB>, <ore:ingotShadowium>], 100000);
 RuneAltar.addRecipe(<botaniverse:morerune:1> * 2, [<ore:runeSpringB>, <ore:runeSummerB>, <ore:runeAutumnB>, <ore:runeWinterB>, <ore:ingotLavarite>], 200000);
@@ -93,32 +93,32 @@ ManaInfusion.addInfusion(<gct_mobs:mana_dirt>, <ore:dirt>, 1000);
 ManaInfusion.addInfusion(<gct_mobs:mana_grass>, <ore:grass>, 1000);
 ManaInfusion.addInfusion(<botania:livingwood>, <gct_mobs:livingwood_log>, 0);
 ManaInfusion.addInfusion(<botania:dreamwood>, <gct_mobs:dreamwood_log>, 0);
-ManaInfusion.addInfusion(<additions:botaniaddon-manasteel_ore>, <ore:oreIron>, 8000);
-ManaInfusion.addInfusion(<additions:botaniaddon-manadiamond_ore>, <ore:oreDiamond>, 20000);
-ManaInfusion.addInfusion(<additions:botaniaddon-manaquartz_ore>, <ore:oreQuartz>, 500);
-ManaInfusion.addInfusion(<additions:botaniaddon-manalapis_ore>, <ore:oreLapis>, 10000);
+ManaInfusion.addInfusion(<additions:manasteel_ore>, <ore:oreIron>, 8000);
+ManaInfusion.addInfusion(<additions:manadiamond_ore>, <ore:oreDiamond>, 20000);
+ManaInfusion.addInfusion(<additions:manaquartz_ore>, <ore:oreQuartz>, 500);
+ManaInfusion.addInfusion(<additions:manalapis_ore>, <ore:oreLapis>, 10000);
 ManaInfusion.addInfusion(<thermalfoundation:material:136>, <ore:ingotSilver>, 4000);
 ManaInfusion.addInfusion(<thermalfoundation:storage:8>, <ore:blockSilver>, 36000);
-ManaInfusion.addInfusion(<additions:botaniaddon-holium_ingot>, <ore:ingotGold>, 5000);
-ManaInfusion.addInfusion(<additions:botaniaddon-holium_block>, <ore:blockGold>, 45000);
-ManaInfusion.addInfusion(<additions:botaniaddon-mana_firestone>, <ore:gemFirestone>, 90000);
+ManaInfusion.addInfusion(<additions:holium_ingot>, <ore:ingotGold>, 5000);
+ManaInfusion.addInfusion(<additions:holium_block>, <ore:blockGold>, 45000);
+ManaInfusion.addInfusion(<additions:mana_firestone>, <ore:gemFirestone>, 90000);
 ManaInfusion.addInfusion(<gct_mobs:mana_leaves>, <ore:treeLeaves>, 1000);
 ManaInfusion.addInfusion(<gct_mobs:mana_log>, <ore:logWood>, 1000);
 
-Agglomeration.addRecipe(<additions:botaniaddon-elfsteel_ingot>, [<botania:manaresource:7>, <botania:manaresource:9>, <botania:manaresource:8>], 1000000, 0xED339A, 0xE67800, <botanicadds:dreamrock>, <botanicadds:mana_lapis_block>, <botanicadds:dreamrock>, null, null, null);
-Agglomeration.addRecipe(<additions:botaniaddon-mythsteel_ingot>, [<ore:ingotTerrasteel>, <ore:ingotElfsteel>, <ore:ingotGaiasteel>], 3000000, 0x54ff05, 0xffffcb, <minecraft:quartz_block>, <extrabotany:blockphotonium>, <minecraft:quartz_block>, null, null, null);
+Agglomeration.addRecipe(<additions:elfsteel_ingot>, [<botania:manaresource:7>, <botania:manaresource:9>, <botania:manaresource:8>], 1000000, 0xED339A, 0xE67800, <botanicadds:dreamrock>, <botanicadds:mana_lapis_block>, <botanicadds:dreamrock>, null, null, null);
+Agglomeration.addRecipe(<additions:mythsteel_ingot>, [<ore:ingotTerrasteel>, <ore:ingotElfsteel>, <ore:ingotGaiasteel>], 3000000, 0x54ff05, 0xffffcb, <minecraft:quartz_block>, <extrabotany:blockphotonium>, <minecraft:quartz_block>, null, null, null);
 Agglomeration.addRecipe(<gct_mobs:holysteel_ingot>, [<ore:ingotHolium>, <ore:ingotAsgardium>, <ore:ingotSky>], 50000, 0xcb5151, 0xfffaa9, <naturesaura:infused_iron_block>, <jaopca:block.sky>, <naturesaura:infused_iron_block>, null, null, null);
-Agglomeration.addRecipe(<additions:greedycraft-yeet>, [<thebetweenlands:rock_snot_pearl>, <thebetweenlands:items_misc:56>, <thebetweenlands:items_misc:52>, <thebetweenlands:items_misc:53>, <thebetweenlands:items_misc:54>, <thebetweenlands:items_misc:55>, <thebetweenlands:items_misc:57>, <thebetweenlands:glowing_goop>, <thebetweenlands:chiromaw_barb>], 1000000, 0x321818, 0xf1e2e6, <thebetweenlands:slimy_dirt>, <thebetweenlands:slimy_dirt>, <thebetweenlands:slimy_dirt>, null, null, null);
+Agglomeration.addRecipe(<additions:yeet>, [<thebetweenlands:rock_snot_pearl>, <thebetweenlands:items_misc:56>, <thebetweenlands:items_misc:52>, <thebetweenlands:items_misc:53>, <thebetweenlands:items_misc:54>, <thebetweenlands:items_misc:55>, <thebetweenlands:items_misc:57>, <thebetweenlands:glowing_goop>, <thebetweenlands:chiromaw_barb>], 1000000, 0x321818, 0xf1e2e6, <thebetweenlands:slimy_dirt>, <thebetweenlands:slimy_dirt>, <thebetweenlands:slimy_dirt>, null, null, null);
 
-Agglomeration.addRecipe(<additions:botaniaddon-elfsteel_ingot>.withTag({display: {Name: "§6§l注魔精灵钢锭"}, ench: [{lvl: 10 as short, id: 71}]}), [<jaopca:compound.elfsteel>.withTag({display: {Name: "§6§l纯化精灵钢"}, ench: [{lvl: 10 as short, id: 71}]})], 2500, 0xED339A, 0xE67800, <additions:botaniaddon-elfsteel_block>, <additions:botaniaddon-elfsteel_block>, <avaritiatweaks:gaia_block>, <botania:quartztypeblaze>, null, null);
-Agglomeration.addRecipe(<botania:manaresource:7>.withTag({display: {Name: "§d§l注魔源质钢锭"}, ench: [{lvl: 10 as short, id: 71}]}), [<jaopca:compound.elven_elementium>.withTag({display: {Name: "§d§l纯化源质钢"}, ench: [{lvl: 10 as short, id: 71}]})], 2500, 0xED339A, 0xE67800, <botania:shimmerwoodplanks>, <additions:botaniaddon-elfsteel_block>, <avaritiatweaks:gaia_block>, <botania:quartztypered>, null, null);
-Agglomeration.addRecipe(<botania:manaresource:4>.withTag({display: {Name: "§a§l注魔泰拉钢锭"}, ench: [{lvl: 10 as short, id: 71}]}), [<jaopca:compound.terrasteel>.withTag({display: {Name: "§a§l纯化泰拉钢"}, ench: [{lvl: 10 as short, id: 71}]})], 2500, 0xED339A, 0xE67800, <botania:storage:1>, <additions:botaniaddon-elfsteel_block>, <avaritiatweaks:gaia_block>, <botania:quartztypeelf>, null, null);
-Agglomeration.addRecipe(<botania:manaresource>.withTag({display: {Name: "§3§l注魔魔力钢锭"}, ench: [{lvl: 10 as short, id: 71}]}), [<jaopca:compound.manasteel>.withTag({display: {Name: "§3§l纯化魔力钢"}, ench: [{lvl: 10 as short, id: 71}]})], 2500, 0xED339A, 0xE67800, <botania:storage:3>, <additions:botaniaddon-elfsteel_block>, <avaritiatweaks:gaia_block>, <botania:quartztypelavender>, null, null);
+Agglomeration.addRecipe(<additions:elfsteel_ingot>.withTag({display: {Name: "§6§l注魔精灵钢锭"}, ench: [{lvl: 10 as short, id: 71}]}), [<jaopca:compound.elfsteel>.withTag({display: {Name: "§6§l纯化精灵钢"}, ench: [{lvl: 10 as short, id: 71}]})], 2500, 0xED339A, 0xE67800, <additions:elfsteel_block>, <additions:elfsteel_block>, <avaritiatweaks:gaia_block>, <botania:quartztypeblaze>, null, null);
+Agglomeration.addRecipe(<botania:manaresource:7>.withTag({display: {Name: "§d§l注魔源质钢锭"}, ench: [{lvl: 10 as short, id: 71}]}), [<jaopca:compound.elven_elementium>.withTag({display: {Name: "§d§l纯化源质钢"}, ench: [{lvl: 10 as short, id: 71}]})], 2500, 0xED339A, 0xE67800, <botania:shimmerwoodplanks>, <additions:elfsteel_block>, <avaritiatweaks:gaia_block>, <botania:quartztypered>, null, null);
+Agglomeration.addRecipe(<botania:manaresource:4>.withTag({display: {Name: "§a§l注魔泰拉钢锭"}, ench: [{lvl: 10 as short, id: 71}]}), [<jaopca:compound.terrasteel>.withTag({display: {Name: "§a§l纯化泰拉钢"}, ench: [{lvl: 10 as short, id: 71}]})], 2500, 0xED339A, 0xE67800, <botania:storage:1>, <additions:elfsteel_block>, <avaritiatweaks:gaia_block>, <botania:quartztypeelf>, null, null);
+Agglomeration.addRecipe(<botania:manaresource>.withTag({display: {Name: "§3§l注魔魔力钢锭"}, ench: [{lvl: 10 as short, id: 71}]}), [<jaopca:compound.manasteel>.withTag({display: {Name: "§3§l纯化魔力钢"}, ench: [{lvl: 10 as short, id: 71}]})], 2500, 0xED339A, 0xE67800, <botania:storage:3>, <additions:elfsteel_block>, <avaritiatweaks:gaia_block>, <botania:quartztypelavender>, null, null);
 
-Agglomeration.addRecipe(<jaopca:compound.elfsteel>.withTag({display: {Name: "§6§l纯化精灵钢"}, ench: [{lvl: 10 as short, id: 71}]}), [<additions:botaniaddon-elfsteel_ingot>.withTag({display: {Name: "§6§l注魔精灵钢锭"}, ench: [{lvl: 10 as short, id: 71}]})], 2500, 0xED339A, 0xE67800, <botania:quartztypeblaze>, <additions:botaniaddon-elfsteel_block>, <avaritiatweaks:gaia_block>, <additions:botaniaddon-elfsteel_block>, null, null);
-Agglomeration.addRecipe(<jaopca:compound.elven_elementium>.withTag({display: {Name: "§d§l纯化源质钢"}, ench: [{lvl: 10 as short, id: 71}]}), [<botania:manaresource:7>.withTag({display: {Name: "§d§l注魔源质钢锭"}, ench: [{lvl: 10 as short, id: 71}]})], 2500, 0xED339A, 0xE67800, <botania:quartztypered>, <additions:botaniaddon-elfsteel_block>, <avaritiatweaks:gaia_block>, <botania:shimmerwoodplanks>, null, null);
-Agglomeration.addRecipe(<jaopca:compound.terrasteel>.withTag({display: {Name: "§a§l纯化泰拉钢"}, ench: [{lvl: 10 as short, id: 71}]}), [<botania:manaresource:4>.withTag({display: {Name: "§a§l注魔泰拉钢锭"}, ench: [{lvl: 10 as short, id: 71}]})], 2500, 0xED339A, 0xE67800, <botania:quartztypeelf>, <additions:botaniaddon-elfsteel_block>, <avaritiatweaks:gaia_block>, <botania:storage:1>, null, null);
-Agglomeration.addRecipe(<jaopca:compound.manasteel>.withTag({display: {Name: "§3§l纯化魔力钢"}, ench: [{lvl: 10 as short, id: 71}]}), [<botania:manaresource>.withTag({display: {Name: "§3§l注魔魔力钢锭"}, ench: [{lvl: 10 as short, id: 71}]})], 2500, 0xED339A, 0xE67800, <botania:quartztypelavender>, <additions:botaniaddon-elfsteel_block>, <avaritiatweaks:gaia_block>, <botania:storage:3>, null, null);
+Agglomeration.addRecipe(<jaopca:compound.elfsteel>.withTag({display: {Name: "§6§l纯化精灵钢"}, ench: [{lvl: 10 as short, id: 71}]}), [<additions:elfsteel_ingot>.withTag({display: {Name: "§6§l注魔精灵钢锭"}, ench: [{lvl: 10 as short, id: 71}]})], 2500, 0xED339A, 0xE67800, <botania:quartztypeblaze>, <additions:elfsteel_block>, <avaritiatweaks:gaia_block>, <additions:elfsteel_block>, null, null);
+Agglomeration.addRecipe(<jaopca:compound.elven_elementium>.withTag({display: {Name: "§d§l纯化源质钢"}, ench: [{lvl: 10 as short, id: 71}]}), [<botania:manaresource:7>.withTag({display: {Name: "§d§l注魔源质钢锭"}, ench: [{lvl: 10 as short, id: 71}]})], 2500, 0xED339A, 0xE67800, <botania:quartztypered>, <additions:elfsteel_block>, <avaritiatweaks:gaia_block>, <botania:shimmerwoodplanks>, null, null);
+Agglomeration.addRecipe(<jaopca:compound.terrasteel>.withTag({display: {Name: "§a§l纯化泰拉钢"}, ench: [{lvl: 10 as short, id: 71}]}), [<botania:manaresource:4>.withTag({display: {Name: "§a§l注魔泰拉钢锭"}, ench: [{lvl: 10 as short, id: 71}]})], 2500, 0xED339A, 0xE67800, <botania:quartztypeelf>, <additions:elfsteel_block>, <avaritiatweaks:gaia_block>, <botania:storage:1>, null, null);
+Agglomeration.addRecipe(<jaopca:compound.manasteel>.withTag({display: {Name: "§3§l纯化魔力钢"}, ench: [{lvl: 10 as short, id: 71}]}), [<botania:manaresource>.withTag({display: {Name: "§3§l注魔魔力钢锭"}, ench: [{lvl: 10 as short, id: 71}]})], 2500, 0xED339A, 0xE67800, <botania:quartztypelavender>, <additions:elfsteel_block>, <avaritiatweaks:gaia_block>, <botania:storage:3>, null, null);
 
 GodAgglomeration.addRecipe(<gct_mobs:botanical_ingot_awakened> * 2, [
     <ore:ingotBotanical>,
@@ -130,7 +130,7 @@ GodAgglomeration.addRecipe(<gct_mobs:botanical_ingot_awakened> * 2, [
     <ore:ingotCarnationium>,
     <ore:ingotKianate>,
     <ore:ingotBalancedMatrix>
-], 40000000, 0xe8d26c, 0x7eb98c, <additions:botaniaddon-elfsteel_block>, <jaopca:block.mythsteel>, <additions:botaniaddon-elfsteel_block>, null, null);
+], 40000000, 0xe8d26c, 0x7eb98c, <additions:elfsteel_block>, <jaopca:block.mythsteel>, <additions:elfsteel_block>, null, null);
 GodAgglomeration.addRecipe(<gct_mobs:begonium_ingot>, [
     <ore:runeMetatronB>,
     <ore:runeRatzielB>,
@@ -141,7 +141,7 @@ GodAgglomeration.addRecipe(<gct_mobs:begonium_ingot>, [
     <ore:ingotBotanical>,
     <ore:blockDiamondSakura>,
     <ore:blockMana>
-], 8000000, 0xe8d26c, 0xffb7ff, <additions:botaniaddon-elfsteel_block>, <jaopca:block.mythsteel>, <additions:botaniaddon-elfsteel_block>, null, null);
+], 8000000, 0xe8d26c, 0xffb7ff, <additions:elfsteel_block>, <jaopca:block.mythsteel>, <additions:elfsteel_block>, null, null);
 GodAgglomeration.addRecipe(<gct_mobs:carnationium_ingot>, [
     <ore:runeMetatronB>,
     <ore:runeZaphkielB>,
@@ -152,7 +152,7 @@ GodAgglomeration.addRecipe(<gct_mobs:carnationium_ingot>, [
     <ore:ingotBotanical>,
     <ore:blockPhotonium>,
     <ore:blockMana>
-], 8000000, 0xe8d26c, 0xffffff, <additions:botaniaddon-elfsteel_block>, <jaopca:block.mythsteel>, <additions:botaniaddon-elfsteel_block>, null, null);
+], 8000000, 0xe8d26c, 0xffffff, <additions:elfsteel_block>, <jaopca:block.mythsteel>, <additions:elfsteel_block>, null, null);
 GodAgglomeration.addRecipe(<gct_mobs:chrysanthemium_ingot>, [
     <ore:runeMichaelB>,
     <ore:runeHanielB>,
@@ -163,7 +163,7 @@ GodAgglomeration.addRecipe(<gct_mobs:chrysanthemium_ingot>, [
     <ore:ingotBotanical>,
     <ore:blockValkyrie>,
     <ore:blockMana>
-], 8000000, 0xe8d26c, 0xffffff, <additions:botaniaddon-elfsteel_block>, <jaopca:block.mythsteel>, <additions:botaniaddon-elfsteel_block>, null, null);
+], 8000000, 0xe8d26c, 0xffffff, <additions:elfsteel_block>, <jaopca:block.mythsteel>, <additions:elfsteel_block>, null, null);
 GodAgglomeration.addRecipe(<gct_mobs:myosotisium_ingot>, [
     <ore:runeRatzielB>,
     <ore:runeZadkielB>,
@@ -174,7 +174,7 @@ GodAgglomeration.addRecipe(<gct_mobs:myosotisium_ingot>, [
     <ore:ingotBotanical>,
     <ore:blockShadowium>,
     <ore:blockMana>
-], 8000000, 0xe8d26c, 0xa07bff, <additions:botaniaddon-elfsteel_block>, <jaopca:block.mythsteel>, <additions:botaniaddon-elfsteel_block>, null, null);
+], 8000000, 0xe8d26c, 0xa07bff, <additions:elfsteel_block>, <jaopca:block.mythsteel>, <additions:elfsteel_block>, null, null);
 GodAgglomeration.addRecipe(<gct_mobs:dandelionium_ingot>, [
     <ore:runeMetatronB>,
     <ore:runeZadkielB>,
@@ -185,7 +185,7 @@ GodAgglomeration.addRecipe(<gct_mobs:dandelionium_ingot>, [
     <ore:ingotBotanical>,
     <ore:blockBalancite>,
     <ore:blockMana>
-], 8000000, 0xe8d26c, 0xcff2f9, <additions:botaniaddon-elfsteel_block>, <jaopca:block.mythsteel>, <additions:botaniaddon-elfsteel_block>, null, null);
+], 8000000, 0xe8d26c, 0xcff2f9, <additions:elfsteel_block>, <jaopca:block.mythsteel>, <additions:elfsteel_block>, null, null);
 GodAgglomeration.addRecipe(<gct_mobs:rosium_ingot>, [
     <ore:runeRatzielB>,
     <ore:runeChamaelB>,
@@ -196,7 +196,7 @@ GodAgglomeration.addRecipe(<gct_mobs:rosium_ingot>, [
     <ore:ingotBotanical>,
     <ore:blockScarlite>,
     <ore:blockMana>
-], 8000000, 0xe8d26c, 0xff2c45, <additions:botaniaddon-elfsteel_block>, <jaopca:block.mythsteel>, <additions:botaniaddon-elfsteel_block>, null, null);
+], 8000000, 0xe8d26c, 0xff2c45, <additions:elfsteel_block>, <jaopca:block.mythsteel>, <additions:elfsteel_block>, null, null);
 
 
 for input in pureDaisyTransmutations {

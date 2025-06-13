@@ -25,7 +25,7 @@ RecipeBuilder.newBuilder("miner_basic", "miner_basic", speed, 0)//这两个"mine
     .setChance(0.08f / 10.0f)
     .addItemOutput(<mysticalagriculture:crafting:5>)
     .setChance(0.6f / 10.0f)
-    .addItemOutput(<additions:greedycraft-experience_ingot>)
+    .addItemOutput(<additions:experience_ingot>)
     .setChance(0.6f / 10.0f)
     .addItemOutput(<mysticalagriculture:crafting>)
     .setChance(0.6f / 10.0f)

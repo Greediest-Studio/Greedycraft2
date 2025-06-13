@@ -1,0 +1,16 @@
+{
+  "preset_block": "additions:chromium_ore",
+  "pools": [
+    {
+      "name": "block_itself_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:chromium_ore"
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_itself"
+}

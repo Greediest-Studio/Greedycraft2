@@ -136,6 +136,6 @@ RecipeBuilder.newBuilder("Otto_Apocalypse", "asgard_portal", 1000)
     .addItemInput(<extrabotany:material:3> * 128)
     .addItemInput(<extrabotany:blockorichalcos> * 64)
     .addItemInput(<botaniverse:morerune:3> * 8)
-    .addItemInput(<additions:greedycraft-creative_shard> * 1)
+    .addItemInput(<additions:creative_shard> * 1)
     .addItemOutput(<extrabotany:buddhistrelics> * 1)
     .build();

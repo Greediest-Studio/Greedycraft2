@@ -1,5 +1,5 @@
 /*BacoDifficulty */
-#reloadable
+
 
 import crafttweaker.player.IPlayer;
 import crafttweaker.server.IServer;

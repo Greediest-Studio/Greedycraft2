@@ -6,7 +6,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-manganese_ore",
+                    "name": "additions:manganese_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:stone",
@@ -100,7 +100,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-aqualite_ore",
+                    "name": "additions:aqualite_ore",
                     "weight": 2
                 }, {
                     "name": "minecraft:prismarine",
@@ -190,7 +190,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-experience_ore",
+                    "name": "additions:experience_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:stone",
@@ -256,7 +256,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-chromium_ore",
+                    "name": "additions:chromium_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:stone",
@@ -278,7 +278,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-shadowium_ore",
+                    "name": "additions:shadowium_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:stone",
@@ -299,7 +299,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-asgardium_ore",
+                    "name": "additions:asgardium_ore",
                     "weight": 100
                 }],
                 "material": "aether_legacy:holystone",
@@ -492,7 +492,7 @@
             "generator": {
                 "type": "geode",
                 "block": [{
-                        "name": "additions:greedycraft-aeroite_ore",
+                        "name": "additions:aeroite_ore",
                         "weight": 3
                     },
                     {
@@ -523,7 +523,7 @@
                 ],
                 "hollow": true,
                 "filler": [{
-                        "name": "additions:greedycraft-aeroite_ore",
+                        "name": "additions:aeroite_ore",
                         "weight": 30
                     },
                     {
@@ -552,7 +552,7 @@
             "generator": {
                 "type": "geode",
                 "block": [{
-                        "name": "additions:greedycraft-aeroite_ore",
+                        "name": "additions:aeroite_ore",
                         "weight": 2
                     },
                     {
@@ -618,7 +618,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-aeroite_ore",
+                    "name": "additions:aeroite_ore",
                     "weight": 120
                 }],
                 "material": "aether_legacy:aercloud",
@@ -682,7 +682,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-ancient_debris",
+                    "name": "additions:ancient_debris",
                     "weight": 100
                 }],
                 "material": [{
@@ -792,7 +792,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-cryonium_ore",
+                    "name": "additions:cryonium_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:stone",
@@ -828,7 +828,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                        "name": "additions:greedycraft-cytosinite_ore",
+                        "name": "additions:cytosinite_ore",
                         "weight": 5
                     },
                     {
@@ -1154,7 +1154,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                        "name": "additions:greedycraft-infernium_ore",
+                        "name": "additions:infernium_ore",
                         "weight": 14
                     },
                     {

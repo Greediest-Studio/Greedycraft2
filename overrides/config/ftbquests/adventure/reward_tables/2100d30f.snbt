@@ -530,12 +530,12 @@
 		random_bonus: 3
 	},
 	{
-		item: "additions:greedycraft-poop",
+		item: "additions:poop",
 		count: 7,
 		random_bonus: 12
 	},
 	{
-		item: "additions:greedycraft-medkit_super",
+		item: "additions:medkit_super",
 		random_bonus: 1
 	},
 	{
@@ -543,7 +543,7 @@
 		random_bonus: 2
 	},
 	{
-		item: "additions:greedycraft-compressed_experience_block",
+		item: "additions:compressed_experience_block",
 		random_bonus: 18
 	},
 	{
@@ -561,7 +561,7 @@
 		random_bonus: 3
 	},
 	{
-		item: "additions:greedycraft-true_blood_sigil"
+		item: "additions:true_blood_sigil"
 	},
 	{
 		item: "projectex:collector 1 2"
@@ -577,13 +577,13 @@
 		item: "bountifulbaubles:wormholemirror"
 	},
 	{
-		item: "additions:greedycraft-delivery_order",
+		item: "additions:delivery_order",
 		random_bonus: 4,
 		weight: 2
 	},
 	{
 		item: {
-			id: "additions:greedycraft-one_punch",
+			id: "additions:one_punch",
 			tag: {
 				ench: [{
 					lvl: 33s,
@@ -593,14 +593,14 @@
 		}
 	},
 	{
-		item: "additions:greedycraft-blueprint_laser_gun"
+		item: "additions:blueprint_laser_gun"
 	},
 	{
 		item: "touhou_little_maid:gashapon 1 5",
 		random_bonus: 1
 	},
 	{
-		item: "additions:greedycraft-food_bag",
+		item: "additions:food_bag",
 		random_bonus: 4
 	},
 	{
@@ -618,10 +618,10 @@
 		random_bonus: 2
 	},
 	{
-		item: "additions:greedycraft-plate_of_honor"
+		item: "additions:plate_of_honor"
 	},
 	{
-		item: "additions:greedycraft-true_eye_of_ender"
+		item: "additions:true_eye_of_ender"
 	},
 	{
 		item: "additions:sponsor2-chest",

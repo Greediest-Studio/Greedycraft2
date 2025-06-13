@@ -103,6 +103,6 @@ global serverTranslations as string[string][string] = {
         "greedycraft.misc.spawn_egg=§b的刷怪蛋tion.name": "§b§oDeja Vu",
         "greedycraft.misc.lightspeedpotion.tooltip": "§aFeel the speed!",
         "greedycraft.misc.spawn_egg": "§b's spawn egg",
-        "tile.greedycraft-sorrowium_ore.name": "殇魂矿石"
+        "tile.sorrowium_ore.name": "殇魂矿石"
     }
 };

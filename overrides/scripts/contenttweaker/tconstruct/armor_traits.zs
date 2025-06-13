@@ -1703,7 +1703,7 @@ pe_infusionTrait.onArmorTick = function(trait, armor, world, player) {
             if (!isNull(armor.tag.peinfuse)) {
                 if (armor.tag.peinfuse >= 10000) {
                     armor.mutable().updateTag({peinfuse : 0 as int});
-                    player.give(itemUtils.getItem("additions:greedycraft-pe_ingot"));
+                    player.give(itemUtils.getItem("additions:pe_ingot"));
                 }
             }
         }
@@ -2031,7 +2031,7 @@ fascicledTrait.localizedDescription = game.localize("greedycraft.tconstruct.armo
 fascicledTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player)) {
         if (!isNull(player.currentItem)) {
-            if (player.currentItem.definition.id == "additions:greedycraft-valonitedruse") {
+            if (player.currentItem.definition.id == "additions:valonitedruse") {
                 if (isNull(armor.tag.fascicled)) {
                     player.currentItem.mutable().shrink(1);
                     armor.mutable().updateTag({fascicled : 1 as int}); 

@@ -1,6 +1,6 @@
 {
     "name": "§8极密合金",
-    "icon": "additions:taigaddon-compressite_ingot",
+    "icon": "additions:compressite_ingot",
     "category": "patchouli:ore_category",
     "priority": true,
     "pages": [
@@ -36,12 +36,12 @@
         },
         {
             "type":"spotlight",
-            "item":"additions:taigaddon-imitatium_ore",
+            "item":"additions:imitatium_ore",
             "text":"生成在$(2)亚特兰蒂斯$()($(c)atlantis$())$(br)$(9)1≤Y≤64$()"
         },
         {
             "type":"spotlight",
-            "item":"additions:taigaddon-tanatonium_ore",
+            "item":"additions:tanatonium_ore",
             "text":"生成在$(2)亚特兰蒂斯$()($(c)atlantis$())$(br)$(9)1≤Y≤64$()"
         },
         {

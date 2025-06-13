@@ -17,7 +17,7 @@ Altar.addConstellationAltarRecipe("philosophers_stone", <projecte:item.pe_philos
             <ore:dustBlaze>, <ore:dustBlaze>,
             <ore:dustBlaze>, <ore:dustBlaze>]);
             
-Altar.addTraitAltarRecipe("arcane_crystal_ball", <additions:greedycraft-arcane_crystal_ball>, 4500, 400, [
+Altar.addTraitAltarRecipe("arcane_crystal_ball", <additions:arcane_crystal_ball>, 4500, 400, [
 <ore:ingotThaumium>, <ore:netherStar>, <ore:ingotThaumium>,
 <ore:netherStar>, <thaumcraft:salis_mundus>, <ore:netherStar>,
 <ore:ingotThaumium>, <ore:netherStar>, <ore:ingotThaumium>,
@@ -36,6 +36,6 @@ Altar.addTraitAltarRecipe("astral_metal", <additions:astral_metal_ingot> * 4, 30
 <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>,
 null, null, null, null, null, null, null, null, 
 <ore:ingotIgnite>, <ore:ingotIgnite>, <ore:ingotIgnite>, <ore:ingotIgnite>,
-<additions:greedycraft-astral_star>, <additions:greedycraft-astral_star>, <additions:greedycraft-astral_star>, <additions:greedycraft-astral_star>
+<additions:astral_star>, <additions:astral_star>, <additions:astral_star>, <additions:astral_star>
 ], "astralsorcery.constellation.aevitas");
 

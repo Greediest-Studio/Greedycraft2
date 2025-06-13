@@ -6,7 +6,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-aetherium_ore",
+                    "name": "additions:aetherium_ore",
                     "weight": 3
                 },{
                     "name": "aether_legacy:quicksoil",
@@ -33,7 +33,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-thyminite_ore",
+                    "name": "additions:thyminite_ore",
                     "weight": 100
                 }],
                 "material": "biomesoplenty:ash_block",
@@ -53,7 +53,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-bnightium_ore",
+                    "name": "additions:bnightium_ore",
                     "weight": 100
                 }],
                 "material": "abyssalcraft:stone",
@@ -73,7 +73,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name":"additions:greedycraft-guaninite_ore",
+                    "name":"additions:guaninite_ore",
                     "weight": 100
                 }],
                 "material": "abyssalcraft:abyssalsand",
@@ -93,7 +93,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name":"additions:greedycraft-freezite_ore",
+                    "name":"additions:freezite_ore",
                     "weight": 100
                 }],
                 "material": "netherex:frostburn_ice",
@@ -113,7 +113,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-oceanium_ore",
+                    "name": "additions:oceanium_ore",
                     "weight": 100
                 }],
                 "material": "quark:elder_prismarine",
@@ -136,10 +136,10 @@
                     "name": "minecraft:obsidian",
                     "weight": 95
                 }, {
-                    "name": "additions:taigaddon-void_harcadium_ore",
+                    "name": "additions:void_harcadium_ore",
                     "weight": 4
                 }, {
-                    "name": "additions:taigaddon-void_ore",
+                    "name": "additions:void_ore",
                     "weight": 1
                 }],
                 "material": "minecraft:bedrock",
@@ -159,7 +159,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-harcadium_ore",
+                    "name": "additions:harcadium_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:stone",
@@ -179,7 +179,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-nether_harcadium_ore",
+                    "name": "additions:nether_harcadium_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:netherrack",
@@ -199,7 +199,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-end_harcadium_ore",
+                    "name": "additions:end_harcadium_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:end_stone",
@@ -222,13 +222,13 @@
                     "name": "minecraft:obsidian",
                     "weight": 90
                 }, {
-                    "name": "additions:taigaddon-void_harcadium_ore",
+                    "name": "additions:void_harcadium_ore",
                     "weight": 6
                 }, {
-                    "name": "additions:taigaddon-void_ore",
+                    "name": "additions:void_ore",
                     "weight": 3
                 }, {
-                    "name": "additions:taigaddon-adamantium_ore",
+                    "name": "additions:adamantium_ore",
                     "weight": 1
                 }],
                 "material": "minecraft:obsidian",
@@ -248,7 +248,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-iciricium_ore",
+                    "name": "additions:iciricium_ore",
                     "weight": 100
                 }],
                 "material": "divinerpg:frozen_stone",
@@ -268,7 +268,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:botaniaddon-manasteel_ore",
+                    "name": "additions:manasteel_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:stone",
@@ -292,7 +292,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:botaniaddon-manadiamond_ore",
+                    "name": "additions:manadiamond_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:stone",
@@ -316,7 +316,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:botaniaddon-manalapis_ore",
+                    "name": "additions:manalapis_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:stone",
@@ -340,7 +340,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:botaniaddon-manaquartz_ore",
+                    "name": "additions:manaquartz_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:stone",
@@ -364,7 +364,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-chillinium_ore",
+                    "name": "additions:chillinium_ore",
                     "weight": 100
                 }],
                 "material": "journey:frozendirt",
@@ -384,7 +384,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-germanium_ore",
+                    "name": "additions:germanium_ore",
                     "weight": 100
                 }],
                 "material": "journey:frozendirt",
@@ -404,7 +404,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-flamium_ore",
+                    "name": "additions:flamium_ore",
                     "weight": 100
                 }],
                 "material": "journey:ashblock",
@@ -424,19 +424,19 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-shards_corrupted_ore",
+                    "name": "additions:shards_corrupted_ore",
                     "weight": 20
                 }, {
-                    "name": "additions:greedycraft-shards_divine_ore",
+                    "name": "additions:shards_divine_ore",
                     "weight": 20
                 }, {
-                    "name": "additions:greedycraft-shards_jungle_ore",
+                    "name": "additions:shards_jungle_ore",
                     "weight": 20
                 }, {
-                    "name": "additions:greedycraft-shards_molten_ore",
+                    "name": "additions:shards_molten_ore",
                     "weight": 20
                 }, {
-                    "name": "additions:greedycraft-shards_terran_ore",
+                    "name": "additions:shards_terran_ore",
                     "weight": 20
                 }],
                 "material": "divinerpg:frozen_stone",
@@ -476,7 +476,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:vethea-vethea_bronze_debris",
+                    "name": "additions:vethea_bronze_debris",
                     "weight": 100
                 }],
                 "material": "divinerpg:dream_stone",
@@ -496,7 +496,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:vethea-vethea_conductive_iron_debris",
+                    "name": "additions:vethea_conductive_iron_debris",
                     "weight": 100
                 }],
                 "material": "divinerpg:dream_stone",
@@ -516,7 +516,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:vethea-vethea_clay_ore",
+                    "name": "additions:vethea_clay_ore",
                     "weight": 100
                 }],
                 "material": "divinerpg:dream_stone",
@@ -656,7 +656,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-immersed_silver_ore",
+                    "name": "additions:immersed_silver_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:sandstone",
@@ -676,7 +676,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-tanatonium_ore",
+                    "name": "additions:tanatonium_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:sandstone",
@@ -696,7 +696,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-imitatium_ore",
+                    "name": "additions:imitatium_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:sandstone",
@@ -948,7 +948,7 @@
             "distribution":"uniform",
             "generator":{
                 "block":[{
-                    "name":"additions:greedycraft-chloroplast_ore",
+                    "name":"additions:chloroplast_ore",
                     "weight":100
                 }],
                 "material":"journey:terranianstone",
@@ -968,7 +968,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-swinium_ore",
+                    "name": "additions:swinium_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:stone",
@@ -988,7 +988,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-vanadium_ore",
+                    "name": "additions:vanadium_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:stone",
@@ -1008,7 +1008,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-gallium_ore",
+                    "name": "additions:gallium_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:packed_ice",
@@ -1028,7 +1028,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-indium_ore",
+                    "name": "additions:indium_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:stone",
@@ -1048,7 +1048,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-rubium_ore",
+                    "name": "additions:rubium_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:stone",
@@ -1068,7 +1068,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-cestium_ore",
+                    "name": "additions:cestium_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:stone",
@@ -1088,7 +1088,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-fraxinium_ore",
+                    "name": "additions:fraxinium_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:stone",
@@ -1108,7 +1108,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-manarium_ore",
+                    "name": "additions:manarium_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:end_stone",
@@ -1128,7 +1128,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-lighteum_ore",
+                    "name": "additions:lighteum_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:netherrack",
@@ -1148,7 +1148,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-cloudite_ore",
+                    "name": "additions:cloudite_ore",
                     "weight": 100
                 }],
                 "material": "aether_legacy:holystone",
@@ -1168,7 +1168,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-mangisite_ore",
+                    "name": "additions:mangisite_ore",
                     "weight": 100
                 }],
                 "material": "biomesoplenty:flesh",
@@ -1188,7 +1188,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-soilium_ore",
+                    "name": "additions:soilium_ore",
                     "weight": 100
                 }],
                 "material": "stygian:endobsidian",
@@ -1208,7 +1208,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-oneo_ore",
+                    "name": "additions:oneo_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:bedrock",
@@ -1228,7 +1228,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-breakium_ore",
+                    "name": "additions:breakium_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:end_stone",
@@ -1248,7 +1248,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-molybdenum_ore",
+                    "name": "additions:molybdenum_ore",
                     "weight": 100
                 }],
                 "material": "aether_legacy:holystone",
@@ -1268,7 +1268,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-fenzium_ore",
+                    "name": "additions:fenzium_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:end_stone",
@@ -1288,7 +1288,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-xenidium_ore",
+                    "name": "additions:xenidium_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:netherrack",
@@ -1308,7 +1308,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-sissidium_ore",
+                    "name": "additions:sissidium_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:end_stone",
@@ -1328,7 +1328,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-ttwo_ore",
+                    "name": "additions:ttwo_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:bedrock",
@@ -1348,7 +1348,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-losessium_ore",
+                    "name": "additions:losessium_ore",
                     "weight": 100
                 }],
                 "material": "gct_mobs:bloodyrock",
@@ -1368,7 +1368,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-technetium_ore",
+                    "name": "additions:technetium_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:end_stone",
@@ -1388,7 +1388,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:taigaddon-rapesesium_ore",
+                    "name": "additions:rapesesium_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:netherrack",
@@ -1428,10 +1428,10 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-astral_aquamarine_ore",
+                    "name": "additions:astral_aquamarine_ore",
                     "weight": 90
                 },{
-                    "name": "additions:greedycraft-arimite_ore",
+                    "name": "additions:arimite_ore",
                     "weight": 10
                 }],
                 "material": "gct_mobs:crystalsandstone",
@@ -1451,7 +1451,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-star_metal_ore",
+                    "name": "additions:star_metal_ore",
                     "weight": 100
                 }],
                 "material": "gct_mobs:polarisite",
@@ -1471,7 +1471,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-astralmetal_ore",
+                    "name": "additions:astralmetal_ore",
                     "weight": 100
                 }],
                 "material": "gct_mobs:polarisite",
@@ -1491,7 +1491,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-lunarine_ore",
+                    "name": "additions:lunarine_ore",
                     "weight": 100
                 }],
                 "material": "gct_mobs:polarisite",
@@ -1511,7 +1511,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-nasalum_ore",
+                    "name": "additions:nasalum_ore",
                     "weight": 100
                 }],
                 "material": "gct_mobs:polarisite",
@@ -1620,7 +1620,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-sorrowium_ore",
+                    "name": "additions:sorrowium_ore",
                     "weight": 100
                 }],
                 "material": "journey:ashblock",
@@ -1661,7 +1661,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-barite_ore",
+                    "name": "additions:barite_ore",
                     "weight": 100
                 }],
                 "material": "journey:depthsstone",
@@ -1682,7 +1682,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-limonite_ore",
+                    "name": "additions:limonite_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:stone",
@@ -1703,7 +1703,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-rosite_ore",
+                    "name": "additions:rosite_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:stone",
@@ -1724,7 +1724,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-emberstone_ore",
+                    "name": "additions:emberstone_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:netherrack",
@@ -1766,7 +1766,7 @@
             "distribution": "uniform",
             "generator": {
                 "block": [{
-                    "name": "additions:greedycraft-thallium_ore",
+                    "name": "additions:thallium_ore",
                     "weight": 100
                 }],
                 "material": "minecraft:end_stone",

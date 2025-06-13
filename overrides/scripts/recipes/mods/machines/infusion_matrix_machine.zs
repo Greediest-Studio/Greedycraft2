@@ -25,13 +25,13 @@ import mods.modularmachinery.MachineUpgradeBuilder;
 
 MachineModifier.setMaxParallelism("infusion_matrix_machine", 1);
 
-MachineUpgradeHelper.registerSupportedItem(<additions:greedycraft-cursium_ingot>);
+MachineUpgradeHelper.registerSupportedItem(<additions:cursium_ingot>);
 MachineUpgradeHelper.registerSupportedItem(<thaumadditions:mithminite_ingot>);
 
 MachineUpgradeBuilder.newBuilder("thaumau", "§6模块化特化神秘研究证明1", 1 , 1).addCompatibleMachines("infusion_matrix_machine").buildAndRegister();
 MachineUpgradeBuilder.newBuilder("thaumau_one", "§6模块化特化神秘研究证明2", 1, 1).buildAndRegister();
 
-MachineUpgradeHelper.addFixedUpgrade(<additions:greedycraft-cursium_ingot>, "thaumau");
+MachineUpgradeHelper.addFixedUpgrade(<additions:cursium_ingot>, "thaumau");
 MachineUpgradeHelper.addFixedUpgrade(<thaumadditions:mithminite_ingot>, "thaumau_one");
 
 # 秘金锭
@@ -115,12 +115,12 @@ RecipeBuilder.newBuilder("thaumcraft_5", "infusion_matrix_machine", 500)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "motus"}) * 1000)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "vinculum"}) * 1000)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "machina"}) * 1000)
-    .addItemInput(<additions:greedycraft-solarium_star>)
-    .addItemInput(<additions:greedycraft-canopy_star>)
-    .addItemInput(<additions:greedycraft-ice_star>)
-    .addItemInput(<additions:greedycraft-end_star>)
+    .addItemInput(<additions:solarium_star>)
+    .addItemInput(<additions:canopy_star>)
+    .addItemInput(<additions:ice_star>)
+    .addItemInput(<additions:end_star>)
     .addEnergyPerTickInput(100000)
-    .addItemOutput(<additions:greedycraft-quardstate_star>)
+    .addItemOutput(<additions:quardstate_star>)
     .build();
 # 蓝图法杖
 RecipeBuilder.newBuilder("thaumcraft_6", "infusion_matrix_machine", 200)
@@ -128,13 +128,13 @@ RecipeBuilder.newBuilder("thaumcraft_6", "infusion_matrix_machine", 200)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "instrumentum"}) * 20)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "aversio"}) * 20)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "auram"}) * 20)
-    .addItemInput(<additions:greedycraft-blueprint>)
+    .addItemInput(<additions:blueprint>)
     .addItemInput(<thaumcraft:ingot>)
     .addItemInput(<thaumcraft:curio:1>)
     .addItemInput(<thaumcraft:mechanism_simple>)
     .addItemInput(<thaumcraft:vis_resonator>)
     .addEnergyPerTickInput(100000)
-    .addItemOutput(<additions:greedycraft-blueprint_wand>)
+    .addItemOutput(<additions:blueprint_wand>)
     .build();
 # 源质水合物形成器
 RecipeBuilder.newBuilder("thaumcraft_7", "infusion_matrix_machine", 200)
@@ -195,7 +195,7 @@ RecipeBuilder.newBuilder("thaumcraft_9", "infusion_matrix_machine", 500)
             return;
         }
     })
-    .addItemOutput(<additions:link-disaster_metal_ingot>)
+    .addItemOutput(<additions:disaster_metal_ingot>)
     .build();
 # 元动能量单元
 RecipeBuilder.newBuilder("infusion_matrix_machine0", "infusion_matrix_machine", 400)
@@ -217,8 +217,8 @@ RecipeBuilder.newBuilder("infusion_matrix_machine1", "infusion_matrix_machine", 
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "metallum"}) * 320)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "praecantatio"}) * 240)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "instrumentum"}) * 240)
-    .addItemInput(<additions:greedycraft-eldritch_slime>*4)
-    .addItemInput(<additions:greedycraft-corruptium_ingot>)
+    .addItemInput(<additions:eldritch_slime>*4)
+    .addItemInput(<additions:corruptium_ingot>)
     .addEnergyPerTickInput(100000)
     .addRecipeTooltip("§1需要模块化特化神秘研究1")
     .addPostCheckHandler(function(event as RecipeCheckEvent){
@@ -229,7 +229,7 @@ RecipeBuilder.newBuilder("infusion_matrix_machine1", "infusion_matrix_machine", 
             return;
         }
     })
-    .addItemOutput(<additions:greedycraft-eldritch_steel_ingot>)
+    .addItemOutput(<additions:eldritch_steel_ingot>)
     .build();
 # 1g——me源质存储元件
 RecipeBuilder.newBuilder("infusion_matrix_machine3", "infusion_matrix_machine", 1000)
@@ -237,12 +237,12 @@ RecipeBuilder.newBuilder("infusion_matrix_machine3", "infusion_matrix_machine", 
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "praecantatio"}) * 10000)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "desiderium"}) * 10000)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "machina"}) * 10000)
-    .addItemInput(<additions:greedycraft-creative_shard>*4)
+    .addItemInput(<additions:creative_shard>*4)
     .addItemInput(<gct_ores:order_crystal>)
     .addItemInput(<thaumicaugmentation:material:3>)
-    .addItemInput(<additions:mekaddon-arcane_control_circuit>)
+    .addItemInput(<additions:arcane_control_circuit>)
     .addItemInput(<thaumicenergistics:essentia_component_64k>)
-    .addItemInput(<additions:greedycraft-extended_primal_metal_ingot>)
+    .addItemInput(<additions:extended_primal_metal_ingot>)
     .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumicenergistics:essentia_cell_1048576k>.withTag({filter: {}}))
     .build();
@@ -257,14 +257,14 @@ RecipeBuilder.newBuilder("infusion_matrix_machine4", "infusion_matrix_machine", 
     .addItemInput(<projecte:item.pe_philosophers_stone>.withTag({}))
     .addItemInput(<abyssalcraft:oc>)
     .addItemInput(<abyssalcraft:transmutationgem>).setChance(0.05)
-    .addItemInput(<additions:greedycraft-matter_block>)
+    .addItemInput(<additions:matter_block>)
     .addItemInput(<appliedenergistics2:material:47>)
     .addItemInput(<projecte:item.pe_matter:1>)
     .addItemInput(<mekanism:controlcircuit:3>)
     .addItemInput(<additions:chromasteel_ingot>)
     .addItemInput(<thaumcraft:causality_collapser>)
     .addEnergyPerTickInput(100000)
-    .addItemOutput(<additions:greedycraft-energy_matter_core>)
+    .addItemOutput(<additions:energy_matter_core>)
     .build();
 # 异形之石
 RecipeBuilder.newBuilder("infusion_matrix_machine5", "infusion_matrix_machine", 400)
@@ -323,10 +323,10 @@ RecipeBuilder.newBuilder("infusion_matrix_machine8", "infusion_matrix_machine", 
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "machina"}) * 1500)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "praemunio"}) * 1500)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "sensus"}) * 1500)
-    .addItemInput(<additions:greedycraft-eldritch_steel_ingot>*4)
-    .addItemInput(<additions:greedycraft-impetusite_ingot>*2)
-    .addItemInput(<additions:greedycraft-extended_primal_metal_ingot>*2)
-    .addItemInput(<additions:bloody-darkest_core>*2)
+    .addItemInput(<additions:eldritch_steel_ingot>*4)
+    .addItemInput(<additions:impetusite_ingot>*2)
+    .addItemInput(<additions:extended_primal_metal_ingot>*2)
+    .addItemInput(<additions:darkest_core>*2)
     .addItemInput(<gct_ores:equipment_witherium_ingot>)
     .addItemInput(<gct_ores:balanced_matrix_ingot>)
     .addItemInput(<gct_ores:ruled_draconium_ingot>)
@@ -340,7 +340,7 @@ RecipeBuilder.newBuilder("infusion_matrix_machine8", "infusion_matrix_machine", 
             return;
         }
     })
-    .addItemOutput(<additions:greedycraft-cursium_ingot>)
+    .addItemOutput(<additions:cursium_ingot>)
     .build();
 # 虚空种子
 RecipeBuilder.newBuilder("infusion_matrix_machine9", "infusion_matrix_machine", 400)
@@ -410,7 +410,7 @@ RecipeBuilder.newBuilder("thaumcraft_21", "infusion_matrix_machine", 400)
             return;
         }
     })
-    .addItemOutput(<additions:greedycraft-crimsonite_block>)
+    .addItemOutput(<additions:crimsonite_block>)
     .build();
 # 风之结晶
 RecipeBuilder.newBuilder("thaumcraft_22", "infusion_matrix_machine", 400)
@@ -515,7 +515,7 @@ RecipeBuilder.newBuilder("thaumcraft_29", "infusion_matrix_machine", 400)
             return;
         }
     })
-    .addItemOutput(<additions:greedycraft-extended_primal_metal_ingot>)
+    .addItemOutput(<additions:extended_primal_metal_ingot>)
     .build();
 # 巨型源质冶炼炉控制器
 RecipeBuilder.newBuilder("thaumcraft_30", "infusion_matrix_machine", 400)
@@ -523,11 +523,11 @@ RecipeBuilder.newBuilder("thaumcraft_30", "infusion_matrix_machine", 400)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "praecantatio"}) * 2000)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "desiderium"}) * 2000)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "machina"}) * 2000)
-    .addItemInput(<additions:greedycraft-extended_primal_metal_ingot>)
+    .addItemInput(<additions:extended_primal_metal_ingot>)
     .addItemInput(<jaopca:gear.impetusite>)
-    .addItemInput(<additions:greedycraft-creative_shard>)
+    .addItemInput(<additions:creative_shard>)
     .addItemInput(<thaumicenergistics:essentia_component_64k>)
-    .addItemInput(<additions:greedycraft-infernium_block>)
+    .addItemInput(<additions:infernium_block>)
     .addItemInput(<jaopca:gear.flux>)
     .addItemInput(<thaumicaugmentation:material:3>)
     .addItemInput(<thaumadditions:mithrillium_smelter>)
@@ -581,7 +581,7 @@ RecipeBuilder.newBuilder("thaumcraft_33", "infusion_matrix_machine", 600)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "machina"}) * 1000)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "visum"}) * 600)
     .addItemInput(<packagedthaumic:clathrate_essence>.withTag({Aspect: "tenebrae"}) * 600)
-    .addItemInput(<additions:greedycraft-extended_primal_metal_ingot> * 3)
+    .addItemInput(<additions:extended_primal_metal_ingot> * 3)
     .addItemInput(<thaumadditions:mithrillium_ingot> * 3)
     .addItemInput(<thaumcraft:primordial_pearl>).setChance(0.01)
     .addItemInput(<thaumcraft:stone_eldritch_tile>)

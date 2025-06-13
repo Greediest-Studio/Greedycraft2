@@ -78,10 +78,10 @@ function test(ingot as IItemStack) as bool {
         <tiths:ingot_titanium>,
         <minecraft:quartz>,
         <appliedenergistics2:material>,
-        <additions:mekaddon-sulfur_ingot>
+        <additions:sulfur_ingot>
     ];
     for item in loadedMods["additions"].items {
-        if (ingot.definition.id has "additions-") {
+        if (ingot.definition.id has "") {
             return true;
         }
     }

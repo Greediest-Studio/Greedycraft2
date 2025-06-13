@@ -25,5 +25,5 @@ RecipeBuilder.newBuilder("zodiacite", "bright_altar", 800)
     .addItemInput(<gct_mobs:polarisite> * 16)
     .addFluidInput(<liquid:astralsorcery.liquidstarlight> * 16000)
     .addStarlightInput(8000)
-    .addItemOutput(<additions:greedycraft-zodiacite_ingot> * 2)
+    .addItemOutput(<additions:zodiacite_ingot> * 2)
     .build();

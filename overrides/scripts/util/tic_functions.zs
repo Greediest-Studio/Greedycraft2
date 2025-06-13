@@ -1,5 +1,5 @@
 #priority 32000
-#reloadable
+
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IMutableItemStack;

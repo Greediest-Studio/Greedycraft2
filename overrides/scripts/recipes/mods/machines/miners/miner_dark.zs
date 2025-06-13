@@ -18,7 +18,7 @@ RecipeBuilder.newBuilder("miner_dark", "miner_dark", speed, 0)//这两个"miner_
     .setDimension([54])//定义维度
 
     //接下来每两行为一组，一组对应一个物品
-    .addItemOutput(<additions:greedycraft-bnightium_ore>)//定义物品ID
+    .addItemOutput(<additions:bnightium_ore>)//定义物品ID
     .setChance(0.08f / 10.0f)//定义几率（比方说这个就是0.3÷10=3%）
     
     .addItemOutput(<gct_aby:dreadiumore>)

@@ -41,11 +41,12 @@
 						},
 						Damage: 0s
 					},
-					botania: {
-						id: "botania:lexicon",
+					patchouli: {
+						id: "patchouli:guide_book",
 						Count: 1b,
 						tag: {
-							"akashictome:definedMod": "botania"
+							"akashictome:definedMod": "patchouli",
+							"patchouli:book": "patchouli:the_elysia_project"
 						},
 						Damage: 0s
 					},
@@ -74,20 +75,19 @@
 						},
 						Damage: 0s
 					},
-					patchouli: {
-						id: "patchouli:guide_book",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "patchouli",
-							"patchouli:book": "patchouli:the_elysia_project"
-						},
-						Damage: 0s
-					},
 					hammercore: {
 						id: "hammercore:manual",
 						Count: 1b,
 						tag: {
 							"akashictome:definedMod": "hammercore"
+						},
+						Damage: 0s
+					},
+					botania: {
+						id: "botania:lexicon",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "botania"
 						},
 						Damage: 0s
 					},
@@ -196,21 +196,21 @@
 						},
 						Damage: 0s
 					},
-					twilightforest: {
-						id: "patchouli:guide_book",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "twilightforest",
-							"patchouli:book": "twilightforest:guide"
-						},
-						Damage: 0s
-					},
 					sakura: {
 						id: "patchouli:guide_book",
 						Count: 1b,
 						tag: {
 							"akashictome:definedMod": "sakura",
 							"patchouli:book": "sakura:sakura_guide"
+						},
+						Damage: 0s
+					},
+					twilightforest: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "twilightforest",
+							"patchouli:book": "twilightforest:guide"
 						},
 						Damage: 0s
 					},
@@ -256,20 +256,20 @@
 						},
 						Damage: 0s
 					},
+					xnet: {
+						id: "xnet:xnet_manual",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "xnet"
+						},
+						Damage: 0s
+					},
 					abyssalcraft: {
 						id: "abyssalcraft:necronomicon",
 						Count: 1b,
 						tag: {
 							"akashictome:definedMod": "abyssalcraft",
 							PotEnergy: 0.0f
-						},
-						Damage: 0s
-					},
-					xnet: {
-						id: "xnet:xnet_manual",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "xnet"
 						},
 						Damage: 0s
 					},

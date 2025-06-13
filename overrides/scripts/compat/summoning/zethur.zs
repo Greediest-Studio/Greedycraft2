@@ -20,7 +20,7 @@ import scripts.util.lang as LangUtil;
 
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
-        .setCatalyst(<additions:greedycraft-thunder_eye>)
+        .setCatalyst(<additions:thunder_eye>)
         .setConsumeCatalyst(true)
         .setReagents([])
         .addMob(MobInfo.create()

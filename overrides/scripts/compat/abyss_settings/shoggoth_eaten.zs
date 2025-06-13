@@ -1,4 +1,4 @@
-#reloadable
+
 
 import crafttweaker.event.EntityLivingDeathEvent;
 import crafttweaker.entity.IEntityLivingBase;
@@ -15,7 +15,7 @@ events.onEntityLivingDeath(function(event as EntityLivingDeathEvent) {
                 var x as int = ent.x as int;
                 var y as int = ent.y as int;
                 var z as int = ent.z as int;
-                entity.world.spawnEntity(<gct_aby:shoggoth_complex_crystal>.createEntityItem(entity.world, x, y, z));
+                entity.world.spawnEntity(<gct_aby:ancient_shoggoth_mud>.createEntityItem(entity.world, x, y, z));
             }
         }
     }

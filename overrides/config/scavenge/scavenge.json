@@ -43,7 +43,7 @@
             ],
             "clicktype": "rightclick",
             "drops": [{
-                "name": "additions:greedycraft-pebble"
+                "name": "additions:pebble"
             }],
             "messages": [{
                 "id": "require_empty_hand",
@@ -72,7 +72,7 @@
             ],
             "clicktype": "rightclick",
             "drops": [{
-                "name": "additions:greedycraft-pinecone"
+                "name": "additions:pinecone"
             }],
             "messages": [{
                 "id": "require_empty_hand",
@@ -135,7 +135,7 @@
                 }
             ],
             "drops": [{
-                "name": "additions:greedycraft-plant_fibre",
+                "name": "additions:plant_fibre",
                 "chance": 10
             }]
         },

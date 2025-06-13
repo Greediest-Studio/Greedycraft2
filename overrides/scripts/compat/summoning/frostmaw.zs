@@ -20,7 +20,7 @@ import scripts.util.lang as LangUtil;
 
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
-        .setCatalyst(<additions:greedycraft-beast_hand>)
+        .setCatalyst(<additions:beast_hand>)
         .setConsumeCatalyst(true)
         .setReagents([])
         .addMob(MobInfo.create()

@@ -19,9 +19,9 @@ import scripts.util.machines as MMUtil;
 
 RecipeBuilder.newBuilder("genite_build", "gene_builder", 1000, 0)
     .addItemInput(<additions:cytosinite_ingot>)
-    .addItemInput(<additions:greedycraft-thyminite_ingot>)
-    .addItemInput(<additions:greedycraft-guaninite_ingot>)
-    .addItemInput(<additions:greedycraft-adeninite_ingot>)
+    .addItemInput(<additions:thyminite_ingot>)
+    .addItemInput(<additions:guaninite_ingot>)
+    .addItemInput(<additions:adeninite_ingot>)
     .addEnergyPerTickInput(1150)
     .addItemOutput(<gct_ores:genite_ingot>)
     .build();

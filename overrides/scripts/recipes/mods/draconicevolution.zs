@@ -47,7 +47,7 @@ FusionCrafting.add(<gct_ores:command_core>, <mekanism:controlcircuit:3>, 2, 2147
     <ore:ingotAdaminite>
 ]);
 
-FusionCrafting.add(<gct_ores:creepy_wither_doll>, <additions:taigaddon-harcadium_block>, 2, 3355443200, [
+FusionCrafting.add(<gct_ores:creepy_wither_doll>, <additions:harcadium_block>, 2, 3355443200, [
     <minecraft:skull:1>,
     <minecraft:skull:1>,
     <minecraft:skull:1>,
@@ -256,14 +256,14 @@ FusionCrafting.add(<godagglomerationplate:godagglomerationplate>, <botanicadds:g
     <ore:blockMana>
 ]);
 
-FusionCrafting.add(<additions:greedycraft-chaotic_crystal_gem>, <gct_ores:chaos_shard_block>, 3, 1048576000, [
+FusionCrafting.add(<additions:chaotic_crystal_gem>, <gct_ores:chaos_shard_block>, 3, 1048576000, [
     <ore:gemTerrestrial>,
     <ore:gemTerrestrial>,
     <gct_ores:shalloite>,
     <gct_ores:shalloite>
 ]);
 
-FusionCrafting.add(<additions:greedycraft-stormy_crystal_gem>, <gct_ores:stormy_shard_block>, 3, 1048576000, [
+FusionCrafting.add(<additions:stormy_crystal_gem>, <gct_ores:stormy_shard_block>, 3, 1048576000, [
     <ore:gemTerrestrial>,
     <ore:gemTerrestrial>,
     <gct_ores:shalloite>,

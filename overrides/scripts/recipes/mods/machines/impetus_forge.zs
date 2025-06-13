@@ -20,5 +20,5 @@ RecipeBuilder.newBuilder("ydjs","impetus_forge",60)
     .addItemInput(<ore:ingotPrimordial>)
     .setDimension([14676])
     .addImpetusInput(1000)
-    .addItemOutput(<additions:greedycraft-impetusite_ingot>)
+    .addItemOutput(<additions:impetusite_ingot>)
     .build();

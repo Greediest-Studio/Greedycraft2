@@ -180,7 +180,7 @@
 		item: "cyclicmagic:inventory_food"
 	},
 	{
-		item: "additions:greedycraft-item_purger"
+		item: "additions:item_purger"
 	},
 	{
 		item: "avaritia:resource 1 2",
@@ -696,30 +696,30 @@
 		random_bonus: 64
 	},
 	{
-		item: "additions:greedycraft-blood_sigil",
+		item: "additions:blood_sigil",
 		random_bonus: 8
 	},
 	{
-		item: "additions:greedycraft-bloody_sacrifice",
+		item: "additions:bloody_sacrifice",
 		random_bonus: 8
 	},
 	{
-		item: "additions:greedycraft-poop",
+		item: "additions:poop",
 		count: 2,
 		random_bonus: 6
 	},
 	{
-		item: "additions:greedycraft-lucky_clover",
+		item: "additions:lucky_clover",
 		count: 3,
 		random_bonus: 8
 	},
 	{
-		item: "additions:greedycraft-medkit_small",
+		item: "additions:medkit_small",
 		count: 3,
 		random_bonus: 6
 	},
 	{
-		item: "additions:greedycraft-medkit_big",
+		item: "additions:medkit_big",
 		random_bonus: 2
 	},
 	{
@@ -729,7 +729,7 @@
 		item: "tinymobfarm:gold_farm"
 	},
 	{
-		item: "additions:greedycraft-experience_block",
+		item: "additions:experience_block",
 		random_bonus: 14
 	},
 	{
@@ -915,7 +915,7 @@
 		}
 	},
 	{
-		item: "additions:greedycraft-guide_book"
+		item: "additions:guide_book"
 	},
 	{
 		item: "hooked:hook 1 2"
@@ -924,15 +924,15 @@
 		item: "hooked:hook 1 4"
 	},
 	{
-		item: "additions:greedycraft-tower_chest_key"
+		item: "additions:tower_chest_key"
 	},
 	{
-		item: "additions:greedycraft-delivery_order",
+		item: "additions:delivery_order",
 		random_bonus: 1,
 		weight: 8
 	},
 	{
-		item: "additions:greedycraft-sunny_doll",
+		item: "additions:sunny_doll",
 		random_bonus: 1
 	},
 	{
@@ -943,16 +943,16 @@
 		item: "ironchest:iron_shulker_box_light_blue 1 5"
 	},
 	{
-		item: "additions:greedycraft-loli_lolipop",
+		item: "additions:loli_lolipop",
 		random_bonus: 3
 	},
 	{
-		item: "additions:greedycraft-purifying_dust",
+		item: "additions:purifying_dust",
 		count: 10,
 		random_bonus: 30
 	},
 	{
-		item: "additions:greedycraft-food_bag"
+		item: "additions:food_bag"
 	},
 	{
 		item: "touhou_little_maid:gashapon_coin",
@@ -960,7 +960,7 @@
 		random_bonus: 3
 	},
 	{
-		item: "additions:greedycraft-time_shard",
+		item: "additions:time_shard",
 		random_bonus: 2
 	},
 	{
@@ -982,7 +982,7 @@
 		random_bonus: 4
 	},
 	{
-		item: "additions:greedycraft-furniture_crate"
+		item: "additions:furniture_crate"
 	},
 	{
 		item: "threng:material",

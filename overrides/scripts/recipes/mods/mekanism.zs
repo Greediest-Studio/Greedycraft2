@@ -38,17 +38,17 @@ separator.removeRecipe(<liquid:brine>);
 
 infuser.removeRecipe(<mekanism:otherdust:1>);
 
-infuser.addRecipe("OSGLOGLAS", 10, <mekanism:atomicalloy>, <additions:mekaddon-imaginative_alloy>);
-infuser.addRecipe("PORPEZITE", 10, <additions:mekaddon-imaginative_alloy>, <additions:mekaddon-shadowing_alloy>);
+infuser.addRecipe("OSGLOGLAS", 10, <mekanism:atomicalloy>, <additions:imaginative_alloy>);
+infuser.addRecipe("PORPEZITE", 10, <additions:imaginative_alloy>, <additions:shadowing_alloy>);
 
-enrichment.addRecipe(<jaopca:dust.osgloglas>, <additions:mekaddon-compressed_osgloglas>);
-enrichment.addRecipe(<jaopca:dust.porpezite>, <additions:mekaddon-compressed_porpezite>);
-enrichment.addRecipe(<jaopca:dust.scientificite>, <additions:mekaddon-scientificite_compressed>);
+enrichment.addRecipe(<jaopca:dust.osgloglas>, <additions:compressed_osgloglas>);
+enrichment.addRecipe(<jaopca:dust.porpezite>, <additions:compressed_porpezite>);
+enrichment.addRecipe(<jaopca:dust.scientificite>, <additions:scientificite_compressed>);
 
-purification.addRecipe(<thermalfoundation:material>, <gas:oxygen>, <additions:mekaddon-iron_oxide_dust>);
-purification.addRecipe(<ore:dustSalt>, <gas:oxygen>, <additions:mekaddon-sodium_chloride>);
-purification.addRecipe(<ore:dustCelestium>, <gas:oxygen>, <additions:mekaddon-strontium_sulfate>);
-purification.addRecipe(<ore:dustBarite>, <gas:oxygen>, <additions:mekaddon-barium_sulfate>);
+purification.addRecipe(<thermalfoundation:material>, <gas:oxygen>, <additions:iron_oxide_dust>);
+purification.addRecipe(<ore:dustSalt>, <gas:oxygen>, <additions:sodium_chloride>);
+purification.addRecipe(<ore:dustCelestium>, <gas:oxygen>, <additions:strontium_sulfate>);
+purification.addRecipe(<ore:dustBarite>, <gas:oxygen>, <additions:barium_sulfate>);
 
 separator.addRecipe(<liquid:brine> * 4, 640, <gas:chlorine> * 1, <gas:sodiumhydroxide> * 2);
 

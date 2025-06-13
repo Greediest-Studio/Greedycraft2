@@ -1,18 +1,16 @@
-
 #Configurations for material FirestoneMana.
 [general]
+	#The module blacklist of this material. "*" is an alias for all modules. If a module name occurs an odd number of times (including wildcards), then the module is blacklisted.
+	moduleBlacklist = []
 	#The alternative names of this material.
 	alternativeNames = []
-	#The byproducts of this material.
-	extras = []
-	#Is the storage block of this material small (2x2).
-	isSmallStorageBlock = false
-	#The module blacklist of this material.
-	moduleBlacklist = []
-	#Should items of this material have the enchanted glow.
-	hasEffect = false
-	#The model type of the material.
-	modelType = "crystal"
 	#The color of this material.
 	color = 10116105
-
+	#The byproducts of this material.
+	extras = []
+	#The model type of the material.
+	modelType = "crystal"
+	#Should items of this material have the enchanted glow.
+	hasEffect = false
+	#Is the storage block of this material small (2x2).
+	isSmallStorageBlock = false

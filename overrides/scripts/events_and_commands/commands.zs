@@ -145,11 +145,11 @@ infinityStoneCommand.execute = function(command, server, sender, args) {
                 player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(50, 4, false, false));
                 return;
             }
-            server.commandManager.executeCommand(server, "/replaceitem entity " + player.name + " slot.armor.head additions:greedycraft-infinity_stone");
-            server.commandManager.executeCommand(server, "/replaceitem entity " + player.name + " slot.armor.chest additions:greedycraft-infinity_stone");
-            server.commandManager.executeCommand(server, "/replaceitem entity " + player.name + " slot.armor.legs additions:greedycraft-infinity_stone");
-            server.commandManager.executeCommand(server, "/replaceitem entity " + player.name + " slot.armor.feet additions:greedycraft-infinity_stone");
-            server.commandManager.executeCommand(server, "/give " + player.name + " additions:greedycraft-infinity_stone 1 0");
+            server.commandManager.executeCommand(server, "/replaceitem entity " + player.name + " slot.armor.head additions:infinity_stone");
+            server.commandManager.executeCommand(server, "/replaceitem entity " + player.name + " slot.armor.chest additions:infinity_stone");
+            server.commandManager.executeCommand(server, "/replaceitem entity " + player.name + " slot.armor.legs additions:infinity_stone");
+            server.commandManager.executeCommand(server, "/replaceitem entity " + player.name + " slot.armor.feet additions:infinity_stone");
+            server.commandManager.executeCommand(server, "/give " + player.name + " additions:infinity_stone 1 0");
             server.commandManager.executeCommand(server, "/kill " + player.name);
             player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.infinityStoneCommand.not_worth"));
         }

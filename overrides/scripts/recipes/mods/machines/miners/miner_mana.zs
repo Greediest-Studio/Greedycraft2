@@ -21,7 +21,7 @@ RecipeBuilder.newBuilder("miner_mana", "miner_mana", speed, 0)//这两个"miner_
     //接下来每两行为一组，一组对应一个物品
     .addItemOutput(<gct_mobs:mana_cobble_stone>)//定义物品ID
     .setChance(4.0f / 10.0f)//定义几率  
-    .addItemOutput(<additions:botaniaddon-manasteel_ore>)
+    .addItemOutput(<additions:manasteel_ore>)
     .setChance(0.3f / 10.0f)
     .addItemOutput(<botanicadds:mana_lapis>)
     .setChance(0.15f / 10.0f)

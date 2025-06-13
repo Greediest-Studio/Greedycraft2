@@ -1,4 +1,4 @@
-#reloadable
+
 
 import crafttweaker.event.EntityLivingDeathDropsEvent;
 import crafttweaker.world.IWorld;

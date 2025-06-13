@@ -20,16 +20,16 @@ import mods.ctutils.utils.Math;
 var rac as ComponentDefinition = MBDRegistry.getDefinition("gct_mac:mana_reactor");
 var racct = rac as ControllerDefinition;
 
-var r1 = <additions:botaniaddon-metatron_rune>;
-var r2 = <additions:botaniaddon-ratziel_rune>;
-var r3 = <additions:botaniaddon-zaphkiel_rune>;
-var r4 = <additions:botaniaddon-zadkiel_rune>;
-var r5 = <additions:botaniaddon-chamael_rune>;
-var r6 = <additions:botaniaddon-michael_rune>;
-var r7 = <additions:botaniaddon-haniel_rune>;
-var r8 = <additions:botaniaddon-raphael_rune>;
-var r9 = <additions:botaniaddon-gabriel_rune>;
-var r10 = <additions:botaniaddon-sandalphon_rune>;
+var r1 = <additions:metatron_rune>;
+var r2 = <additions:ratziel_rune>;
+var r3 = <additions:zaphkiel_rune>;
+var r4 = <additions:zadkiel_rune>;
+var r5 = <additions:chamael_rune>;
+var r6 = <additions:michael_rune>;
+var r7 = <additions:haniel_rune>;
+var r8 = <additions:raphael_rune>;
+var r9 = <additions:gabriel_rune>;
+var r10 = <additions:sandalphon_rune>;
 
 var base as IItemStack[][] = [
     [<minecraft:iron_ingot>, <botania:manaresource>],
@@ -42,8 +42,8 @@ var base as IItemStack[][] = [
     [<minecraft:string>, <botania:manaresource:16>],
     [<thermalfoundation:material:130>, <thermalfoundation:material:136>],
     [<thermalfoundation:storage:2>, <thermalfoundation:storage:8>],
-    [<minecraft:gold_ingot>, <additions:botaniaddon-holium_ingot>],
-    [<minecraft:gold_block>, <additions:botaniaddon-holium_block>],
+    [<minecraft:gold_ingot>, <additions:holium_ingot>],
+    [<minecraft:gold_block>, <additions:holium_block>],
     [<botania:manaresource:14> * 2, <extrabotany:material:1>]
 ];
 var baseMana as float[] = [
@@ -84,7 +84,7 @@ var fuel as IItemStack[] = [
     <aether_legacy:ambrosium_shard>,
     <divinerpg:ice_shards>,
     <divinerpg:molten_shards>,
-    <additions:greedycraft-experience_ingot>,
+    <additions:experience_ingot>,
     <thermalfoundation:material:772>,
     <astralsorcery:itemcraftingcomponent:1>,
     <taiga:dilithium_ingot>,

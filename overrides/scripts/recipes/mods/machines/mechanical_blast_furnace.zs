@@ -31,7 +31,7 @@ RecipeBuilder.newBuilder("strontium", "mechanical_blast_furnace", 400)
     .addItemInput(<ore:fuelCoke> * 4)
     .addEnergyPerTickInput(1024)
     .addGasOutput(<gas:carbonoxide> * 4000)
-    .addItemOutput(<additions:mekaddon-strontium_sulfide> * 1)
+    .addItemOutput(<additions:strontium_sulfide> * 1)
     .build();
 
 RecipeBuilder.newBuilder("barium", "mechanical_blast_furnace", 400)
@@ -39,12 +39,12 @@ RecipeBuilder.newBuilder("barium", "mechanical_blast_furnace", 400)
     .addItemInput(<ore:fuelCoke> * 4)
     .addEnergyPerTickInput(1024)
     .addGasOutput(<gas:carbonoxide> * 4000)
-    .addItemOutput(<additions:mekaddon-barium_sulfide> * 1)
+    .addItemOutput(<additions:barium_sulfide> * 1)
     .build();
 
 RecipeBuilder.newBuilder("calcium", "mechanical_blast_furnace", 600)
     .addItemInput(<ore:blockCalciumCarbonate> * 1)
     .addEnergyPerTickInput(1024)
     .addGasOutput(<gas:carbonoxide> * 9000)
-    .addItemOutput(<additions:mekaddon-calcium_oxide> * 9)
+    .addItemOutput(<additions:calcium_oxide> * 9)
     .build();

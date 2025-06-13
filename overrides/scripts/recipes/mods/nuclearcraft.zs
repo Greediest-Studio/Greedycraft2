@@ -25,14 +25,14 @@ import mods.nuclearcraft.SaltMixer;
 import mods.nuclearcraft.Registration;
 import mods.tconstruct.Alloy;
 
-var NaCl as IItemStack = <additions:mekaddon-sodium_chloride>;
-var KCl as IItemStack = <additions:mekaddon-potassium_chloride>;
-var RbCl as IItemStack = <additions:mekaddon-rubidium_chloride>;
-var CsCl as IItemStack = <additions:mekaddon-cesium_chloride>;
-var PtCl4 as IItemStack = <additions:mekaddon-platinum_chloride>;
-var CaCl2 as IItemStack = <additions:mekaddon-calcium_chloride>;
-var SrCl2 as IItemStack = <additions:mekaddon-strontium_chloride>;
-var BaCl2 as IItemStack = <additions:mekaddon-barium_chloride>;
+var NaCl as IItemStack = <additions:sodium_chloride>;
+var KCl as IItemStack = <additions:potassium_chloride>;
+var RbCl as IItemStack = <additions:rubidium_chloride>;
+var CsCl as IItemStack = <additions:cesium_chloride>;
+var PtCl4 as IItemStack = <additions:platinum_chloride>;
+var CaCl2 as IItemStack = <additions:calcium_chloride>;
+var SrCl2 as IItemStack = <additions:strontium_chloride>;
+var BaCl2 as IItemStack = <additions:barium_chloride>;
 
 function CreateElementMixer(inputIngot as IIngredient, inputDust as IIngredient, output1 as IItemStack, output2 as IItemStack, liquid as ILiquidStack, liquid1 as ILiquidStack, liquid2 as ILiquidStack, out1 as int, out2 as int) as void {
     var isotopeNum as int = out1 + out2;
@@ -110,11 +110,11 @@ ChemicalReactor.addRecipe(<liquid:barium_sulfide_solution> * 333, <liquid:hydroc
 ChemicalReactor.addRecipe(<liquid:hydrogen_sulfide> * 250, <liquid:oxygen> * 375, <liquid:water> * 250, <liquid:sulfur_dioxide> * 250);
 
 Crystallizer.addRecipe(<liquid:iodine_carbon_tetrachloride_solution> * 200, <jaopca:dust.iodine>);
-Crystallizer.addRecipe(<liquid:chloroplatinic_acid_solution> * 666, <additions:mekaddon-chloroplatinic_acid>);
-Crystallizer.addRecipe(<liquid:sodium_chloroplatinate_solution> * 666, <additions:mekaddon-sodium_chloroplatinate>);
-Crystallizer.addRecipe(<liquid:calcium_hydroxide_solution> * 666, <additions:mekaddon-calcium_hydroxide>);
-Crystallizer.addRecipe(<liquid:strontium_sulfide_solution> * 666, <additions:mekaddon-strontium_sulfide>);
-Crystallizer.addRecipe(<liquid:barium_sulfide_solution> * 666, <additions:mekaddon-barium_sulfide>);
+Crystallizer.addRecipe(<liquid:chloroplatinic_acid_solution> * 666, <additions:chloroplatinic_acid>);
+Crystallizer.addRecipe(<liquid:sodium_chloroplatinate_solution> * 666, <additions:sodium_chloroplatinate>);
+Crystallizer.addRecipe(<liquid:calcium_hydroxide_solution> * 666, <additions:calcium_hydroxide>);
+Crystallizer.addRecipe(<liquid:strontium_sulfide_solution> * 666, <additions:strontium_sulfide>);
+Crystallizer.addRecipe(<liquid:barium_sulfide_solution> * 666, <additions:barium_sulfide>);
 Crystallizer.addRecipe(<liquid:calcium_chloride_solution> * 666, CaCl2);
 Crystallizer.addRecipe(<liquid:strontium_chloride_solution> * 666, SrCl2);
 Crystallizer.addRecipe(<liquid:barium_chloride_solution> * 666, BaCl2);

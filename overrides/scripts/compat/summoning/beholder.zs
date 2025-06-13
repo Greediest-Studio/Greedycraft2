@@ -20,7 +20,7 @@ import scripts.util.lang as LangUtil;
 
 SummoningDirector.addSummonInfo(
     SummoningInfo.create()
-        .setCatalyst(<additions:greedycraft-weather_breathe>)
+        .setCatalyst(<additions:weather_breathe>)
         .setConsumeCatalyst(true)
         .setReagents([])
         .addMob(MobInfo.create()

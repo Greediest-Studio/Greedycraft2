@@ -3,7 +3,7 @@
  * You may NOT use this script in any other publicly distributed modpack without my permission. 
  */
 
-#reloadable
+
 #priority 30
 
 import crafttweaker.oredict.IOreDictEntry;
@@ -45,7 +45,7 @@ RecipeBuilder.newBuilder("aeonsteel_forge", "aeonsteel_forge", 3000, 1)
         ]
     ).setChance(0.5f)
     .addCatalystInput(
-        <additions:greedycraft-twilight_crystal_ingot>, ["§e加工时间减少到60%", "§e能量消耗减少到80%", "§e材料产出增加到107%"], [
+        <additions:twilight_crystal_ingot>, ["§e加工时间减少到60%", "§e能量消耗减少到80%", "§e材料产出增加到107%"], [
             RecipeModifierBuilder.create(TIME, "input", 0.60f, 1, false).build(),
             RecipeModifierBuilder.create(RF, "input", 0.80f, 1, false).build(),
             RecipeModifierBuilder.create(ITEM, "output", 1.07f, 1, false).build()
@@ -108,57 +108,57 @@ RecipeBuilder.newBuilder("aeonsteel_forge", "aeonsteel_forge", 3000, 1)
         ]
     ).setChance(0.5f)
     .addCatalystInput(
-        <additions:greedycraft-undead_ingot>, ["§e加工时间减少到75%", "§e材料产出增加到108%"], [
+        <additions:undead_ingot>, ["§e加工时间减少到75%", "§e材料产出增加到108%"], [
             RecipeModifierBuilder.create(TIME, "input", 0.75f, 1, false).build(),
             RecipeModifierBuilder.create(ITEM, "output", 1.08f, 1, false).build()
         ]
     ).setChance(0.25f)
     .addCatalystInput(
-        <additions:greedycraft-darkice_ingot>, ["§e加工时间减少到50%", "§e能量消耗减少到50%", "§e材料产出增加到104%"], [
+        <additions:darkice_ingot>, ["§e加工时间减少到50%", "§e能量消耗减少到50%", "§e材料产出增加到104%"], [
             RecipeModifierBuilder.create(TIME, "input", 0.50f, 1, false).build(),
             RecipeModifierBuilder.create(RF, "input", 0.50f, 1, false).build(),
             RecipeModifierBuilder.create(ITEM, "output", 1.04f, 1, false).build()
         ]
     ).setChance(0.75f)
     .addCatalystInput(
-        <additions:link-endusium_ingot>, ["§e加工时间减少到70%", "§e能量消耗减少到70%", "§e材料产出增加到106%"], [
+        <additions:endusium_ingot>, ["§e加工时间减少到70%", "§e能量消耗减少到70%", "§e材料产出增加到106%"], [
             RecipeModifierBuilder.create(TIME, "input", 0.70f, 1, false).build(),
             RecipeModifierBuilder.create(RF, "input", 0.70f, 1, false).build(),
             RecipeModifierBuilder.create(ITEM, "output", 1.06f, 1, false).build()
         ]
     ).setChance(0.75f)
     .addCatalystInput(
-        <additions:greedycraft-uracilite_ingot>, ["§e加工时间减少到80%", "§e能量消耗减少到40%", "§e材料产出增加到105%"], [
+        <additions:uracilite_ingot>, ["§e加工时间减少到80%", "§e能量消耗减少到40%", "§e材料产出增加到105%"], [
             RecipeModifierBuilder.create(TIME, "input", 0.80f, 1, false).build(),
             RecipeModifierBuilder.create(RF, "input", 0.40f, 1, false).build(),
             RecipeModifierBuilder.create(ITEM, "output", 1.05f, 1, false).build()
         ]
     ).setChance(0.5f)
     .addCatalystInput(
-        <additions:greedycraft-ascensionite_ingot>, ["§e加工时间减少到75%", "§e材料产出增加到106%"], [
+        <additions:ascensionite_ingot>, ["§e加工时间减少到75%", "§e材料产出增加到106%"], [
             RecipeModifierBuilder.create(TIME, "input", 0.75f, 1, false).build(),
             RecipeModifierBuilder.create(ITEM, "output", 1.06f, 1, false).build()
         ]
     ).setChance(0.75f)
     .addCatalystInput(
-        <additions:greedycraft-brightine>, ["§e加工时间减少到70%", "§e能量消耗减少到65%", "§e材料产出增加到107%"], [
+        <additions:brightine>, ["§e加工时间减少到70%", "§e能量消耗减少到65%", "§e材料产出增加到107%"], [
             RecipeModifierBuilder.create(TIME, "input", 0.70f, 1, false).build(),
             RecipeModifierBuilder.create(RF, "input", 0.65f, 1, false).build(),
             RecipeModifierBuilder.create(ITEM, "output", 1.07f, 1, false).build()
         ]
     ).setChance(0.5f)
     .addCatalystInput(
-        <additions:greedycraft-time_shard>, ["§e加工时间减少到75%"], [
+        <additions:time_shard>, ["§e加工时间减少到75%"], [
             RecipeModifierBuilder.create(TIME, "input", 0.75f, 1, false).build()
         ]
     ).setChance(1.0f)
     .addCatalystInput(
-        <additions:greedycraft-proliferation_star>, ["§e材料产出增加到130%"], [
+        <additions:proliferation_star>, ["§e材料产出增加到130%"], [
             RecipeModifierBuilder.create(ITEM, "output", 1.3f, 1, false).build()
         ]
     ).setChance(1.0f)
     .addCatalystInput(
-        <additions:greedycraft-catalyst_star>, ["§e加工时间减少到25%", "§e能量消耗减少到25%"], [
+        <additions:catalyst_star>, ["§e加工时间减少到25%", "§e能量消耗减少到25%"], [
             RecipeModifierBuilder.create(TIME, "input", 0.25f, 1, false).build(),
             RecipeModifierBuilder.create(RF, "input", 0.25f, 1, false).build()
         ]

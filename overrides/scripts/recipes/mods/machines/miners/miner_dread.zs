@@ -23,15 +23,15 @@ RecipeBuilder.newBuilder("miner_dread", "miner_dread", speed, 0)//这两个"mine
     
     .addItemOutput(<abyssalcraft:dreadfragment>)
     .setChance(0.2f / 10.0f)
-    .addItemOutput(<additions:greedycraft-adeninite_ore>)
+    .addItemOutput(<additions:adeninite_ore>)
     .setChance(0.12f / 10.0f)
     .addItemOutput(<abyssalcraft:cobblestone:2>)
     .setChance(2.5f / 10.0f)
     .addItemOutput(<abyssalcraft:cobblestone:3>)
     .setChance(1.5f / 10.0f)
-    .addItemOutput(<additions:taigaddon-togrium_ore>)
+    .addItemOutput(<additions:togrium_ore>)
     .setChance(0.04f / 10.0f)
-    .addItemOutput(<additions:taigaddon-antimony_ore>)
+    .addItemOutput(<additions:antimony_ore>)
     .setChance(0.04f / 10.0f)
 
     .build();//注册语句，不能省略，否则会报错

@@ -7,4 +7,4 @@
 
 import mods.projecte.WorldTransmutation;
 
-WorldTransmutation.add(<blockstate:additions:greedycraft-matter_block>, <blockstate:abyssalcraft:antiwater>);
+WorldTransmutation.add(<blockstate:additions:matter_block>, <blockstate:abyssalcraft:antiwater>);

@@ -30,11 +30,11 @@ static blacklist as IItemStack[] = [
     <nuclearcraft:ingot:12>,
     <biomesoplenty:gem:7>,
     <tiths:ingot_titanium>,
-    <additions:mekaddon-sulfur_ingot>
+    <additions:sulfur_ingot>
 ];
 
 function test(ingot as IItemStack) as bool {
-    if (ingot.definition.id has "additions-") {
+    if (ingot.definition.id has "") {
         return true;
     }
     for item in blacklist {

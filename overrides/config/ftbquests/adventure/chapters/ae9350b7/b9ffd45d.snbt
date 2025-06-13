@@ -1,6 +1,6 @@
 {
 	title: "§b挑战者VIII",
-	icon: "additions:greedycraft-city_defender_medal 80",
+	icon: "additions:city_defender_medal 80",
 	tags: [
 		"challenge"
 	],
@@ -47,13 +47,13 @@
 	{
 		uid: "5dde05d5",
 		type: "item",
-		item: "additions:greedycraft-reward_ticket_legendary",
+		item: "additions:reward_ticket_legendary",
 		count: 6
 	},
 	{
 		uid: "325df649",
 		type: "item",
-		item: "additions:greedycraft-reward_ticket_myth",
+		item: "additions:reward_ticket_myth",
 		count: 2
 	}]
 }

@@ -47,12 +47,12 @@ RecipeBuilder.newBuilder("eldritch_slime", "primordial_creater", 100)
     .addItemInput(<thaumcraft:bottle_taint> * 8)
     .addItemInput(<ore:slimeball> * 1)
     .addEnergyPerTickInput(10000)
-    .addItemOutput(<additions:greedycraft-eldritch_slime> * 1)
+    .addItemOutput(<additions:eldritch_slime> * 1)
     .build();
 
 RecipeBuilder.newBuilder("corruptium_ingot", "primordial_creater", 100)
     .addItemInput(<thaumcraft:bottle_taint> * 8)
     .addItemInput(<tconevo:metal:20> * 1)
     .addEnergyPerTickInput(10000)
-    .addItemOutput(<additions:greedycraft-corruptium_ingot> * 1)
+    .addItemOutput(<additions:corruptium_ingot> * 1)
     .build();

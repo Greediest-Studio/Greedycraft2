@@ -1,4 +1,4 @@
-#reloadable
+
 
 import mods.twilightforest.Transformation;
 import mods.twilightforest.UncraftingTable;

@@ -76,7 +76,7 @@ function(out, ins, cInfo) {
     return out.withTag(ins.dank.tag);
 }, null);
 
-recipes.addShaped("exp_transport_tool", errorStone, [[<ore:toolTiC>.marked("to"), <additions:greedycraft-experience_transporter>, <ore:toolTiC>.marked("from")]], 
+recipes.addShaped("exp_transport_tool", errorStone, [[<ore:toolTiC>.marked("to"), <additions:experience_transporter>, <ore:toolTiC>.marked("from")]], 
 function(out, ins, cInfo) {
     if (isNull(ins.from.tag.memberGet("Modifiers") as IData) || isNull(ins.to.tag.memberGet("Modifiers") as IData)) {
         return null;
@@ -164,7 +164,7 @@ function(out, ins, cInfo) {
     return ins.to.withTag(outData);
 }, null);
 
-recipes.addShaped("exp_transport_armor", errorStone, [[<ore:armorTiC>.marked("to"), <additions:greedycraft-experience_transporter>, <ore:armorTiC>.marked("from")]], 
+recipes.addShaped("exp_transport_armor", errorStone, [[<ore:armorTiC>.marked("to"), <additions:experience_transporter>, <ore:armorTiC>.marked("from")]], 
 function(out, ins, cInfo) {
     if (isNull(ins.from.tag.memberGet("Modifiers") as IData) || isNull(ins.to.tag.memberGet("Modifiers") as IData)) {
         return null;

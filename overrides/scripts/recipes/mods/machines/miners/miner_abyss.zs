@@ -27,15 +27,15 @@ RecipeBuilder.newBuilder("miner_abyss", "miner_abyss", speed, 0)//这两个"mine
     .setChance(0.6f / 10.0f)
     .addItemOutput(<abyssalcraft:cpearl>)
     .setChance(0.2f / 10.0f)
-    .addItemOutput(<additions:greedycraft-guaninite_ore>)
+    .addItemOutput(<additions:guaninite_ore>)
     .setChance(0.12f / 10.0f)
     .addItemOutput(<abyssalcraft:cobblestone:1>)
     .setChance(3.0f / 10.0f)
     .addItemOutput(<abyssalcraft:cobblestone:4>)
     .setChance(1.0f / 10.0f)
-    .addItemOutput(<additions:taigaddon-stripium_ore>)
+    .addItemOutput(<additions:stripium_ore>)
     .setChance(0.09f / 10.0f)
-    .addItemOutput(<additions:taigaddon-ttwo_ore>)
+    .addItemOutput(<additions:ttwo_ore>)
     .setChance(0.045f / 10.0f)
 
     .build();//注册语句，不能省略，否则会报错

@@ -18,18 +18,18 @@ RecipeBuilder.newBuilder("miner_chrome", "miner_chrome", speed, 0)//这两个"mi
     .setDimension([1])//定义维度
 
     //接下来每两行为一组，一组对应一个物品
-    .addItemOutput(<additions:taigaddon-manarium_ore>)//定义物品ID
+    .addItemOutput(<additions:manarium_ore>)//定义物品ID
     .setChance(0.1f / 10.0f)//定义几率（比方说这个就是0.3÷10=3%）
     
-    .addItemOutput(<additions:taigaddon-soilium_ore>)
+    .addItemOutput(<additions:soilium_ore>)
     .setChance(0.08f / 10.0f)
-    .addItemOutput(<additions:taigaddon-fenzium_ore>)
+    .addItemOutput(<additions:fenzium_ore>)
     .setChance(0.12f / 10.0f)
-    .addItemOutput(<additions:taigaddon-sissidium_ore>)
+    .addItemOutput(<additions:sissidium_ore>)
     .setChance(0.045f / 10.0f)
-    .addItemOutput(<additions:taigaddon-technetium_ore>)
+    .addItemOutput(<additions:technetium_ore>)
     .setChance(0.03f / 10.0f)
-    .addItemOutput(<additions:taigaddon-end_harcadium_ore>)
+    .addItemOutput(<additions:end_harcadium_ore>)
     .setChance(0.16f / 10.0f)
 
     .build();//注册语句，不能省略，否则会报错

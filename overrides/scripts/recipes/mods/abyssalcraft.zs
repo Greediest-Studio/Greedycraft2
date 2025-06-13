@@ -19,7 +19,7 @@ import mods.abyssalcraft.Materializer;
 Transmutator.removeTransmutationOutput(<abyssalcraft:solidlava>);
 
 Transmutator.addFuel(<abyssalcraft:cingot>, 1200);
-Transmutator.addFuel(<additions:greedycraft-energy_matter_core>, 600000);
+Transmutator.addFuel(<additions:energy_matter_core>, 600000);
 Transmutator.addFuel(<gct_mobs:sanite_ingot>, 2000);
 Transmutator.addFuel(<gct_mobs:sanite_block>, 18000);
 
@@ -111,9 +111,9 @@ CreationRitual.addRitual("key_portal", 4, -1, 100010, false, <thebetweenlands:sw
     <gct_ores:door_key_empty>
 ], true);
 
-InfusionRitual.addRitual("living_fire", 3, -1, 64000, false, <additions:greedycraft-living_fire>, <tiths:ingot_stellarium>, [
-    <additions:greedycraft-flamium_ingot>,
-    <additions:greedycraft-flamium_ingot>,
+InfusionRitual.addRitual("living_fire", 3, -1, 64000, false, <additions:living_fire>, <tiths:ingot_stellarium>, [
+    <additions:flamium_ingot>,
+    <additions:flamium_ingot>,
     <additions:infernium_ingot>,
     <additions:infernium_ingot>,
     <extrautils2:ingredients:17>,
@@ -144,7 +144,7 @@ InfusionRitual.addRitual("warped_key_active", 4, -1, 100010, true, <gct_aby:key_
 ] as IIngredient[], false);
 
 CreationRitual.addRitual("capsule", 3, -1, 90000, false, <gct_aby:solid_pot_energy>, [
-    <additions:greedycraft-sanite_ethaxium_capsule>
+    <additions:sanite_ethaxium_capsule>
 ], true);
 
 InfusionRitual.addRitual("abyssine_ingot", 4, -1, 50000, true, <jaopca:block.abyssine>, <gct_ores:balanced_matrix_ingot>, [
@@ -152,13 +152,13 @@ InfusionRitual.addRitual("abyssine_ingot", 4, -1, 50000, true, <jaopca:block.aby
     <gct_mobs:nyarlathotepium_ingot>,
     <gct_mobs:yogsothothium_ingot>,
     <gct_mobs:shubniggurathium_ingot>,
-    <additions:taigaddon-husturite_ingot>,
-    <additions:taigaddon-cthughate_ingot>,
+    <additions:husturite_ingot>,
+    <additions:cthughate_ingot>,
     <gct_mobs:cthulhurite_ingot>,
     <gct_ores:balanced_matrix_ingot>
 ] as IIngredient[], false);
 
-InfusionRitual.addRitual("eye_of_abyss", 4, -1, 100000, true, <gct_aby:eye_of_abyss>, <additions:greedycraft-awakened_eye>, [
+InfusionRitual.addRitual("eye_of_abyss", 4, -1, 100000, true, <gct_aby:eye_of_abyss>, <additions:awakened_eye>, [
     <abyssalcraft:essence>,
     <abyssalcraft:essence:1>,
     <abyssalcraft:essence:2>,

@@ -1,6 +1,6 @@
 {
     "name": "§e神光合金",
-    "icon": "additions:greedycraft-eugardite_ingot",
+    "icon": "additions:eugardite_ingot",
     "category": "patchouli:ore_category",
     "priority": true,
     "pages": [
@@ -16,7 +16,7 @@
         },
         {
             "type":"spotlight",
-            "item":"additions:greedycraft-dullium_ingot",
+            "item":"additions:dullium_ingot",
             "text":"通过击杀位于$(2)黑岩迷宫$()的$(c)哨兵之心$()或完成可重复任务$(4)黑岩肃清$()获得"
         },
         {
@@ -66,7 +66,7 @@
         },
         {
             "type":"spotlight",
-            "item":"additions:greedycraft-chloroplast_ore",
+            "item":"additions:chloroplast_ore",
             "text":"生成在$(2)迷雾丛林$()($(c)(terrania)$())$(br)$(9)0≤Y≤64$()"
         },
         {

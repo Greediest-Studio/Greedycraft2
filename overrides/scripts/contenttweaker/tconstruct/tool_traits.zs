@@ -170,7 +170,7 @@ poopTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
     if (attacker instanceof IPlayer && target instanceof IEntityMob) {
         if (Math.random() < 0.005) {
             val player as IPlayer = attacker;
-            player.give(itemUtils.getItem("additions:greedycraft-poop"));
+            player.give(itemUtils.getItem("additions:poop"));
         }
     }
 };
@@ -2001,7 +2001,7 @@ crystalystTrait.onHit = function(trait, tool, attacker, target, damage, isCritic
     if (attacker instanceof IPlayer && target instanceof IEntityMob) {
         if (Math.random() < 0.01) {
             val player as IPlayer = attacker;
-            player.give(itemUtils.getItem("additions:greedycraft-catalyst_star_shard"));
+            player.give(itemUtils.getItem("additions:catalyst_star_shard"));
         }
     }
 };
@@ -2889,7 +2889,7 @@ starlight_refinedTrait.localizedDescription = game.localize("greedycraft.tconstr
 starlight_refinedTrait.onBlockHarvestDrops = function(thisTrait, tool, event) {
     if (event.block.definition.id == "minecraft:iron_ore") {
         event.dropChance = 0;
-        event.player.give(itemUtils.getItem("additions:greedycraft-star_metal_ore"));
+        event.player.give(itemUtils.getItem("additions:star_metal_ore"));
     }
 };
 starlight_refinedTrait.register();
@@ -2911,7 +2911,7 @@ fascicledTrait.calcDamage = function(trait, tool, attacker, target, originalDama
     if (attacker instanceof IPlayer) {
         var player as IPlayer = attacker;
         if (!isNull(player.getItemInSlot(offhand))) {
-            if (player.getItemInSlot(offhand).definition.id == "additions:greedycraft-valonitedruse") {
+            if (player.getItemInSlot(offhand).definition.id == "additions:valonitedruse") {
                 if (isNull(tool.tag.fascicled)) {
                     player.getItemInSlot(offhand).mutable().shrink(1);
                     tool.mutable().updateTag({fascicled : 1 as int}); 
@@ -2962,7 +2962,7 @@ fragmentationTrait.calcDamage = function(trait, tool, attacker, target, original
             } else if (random <= 0.95) {
                 player.give(itemUtils.getItem("thebetweenlands:items_misc:19"));
             } else {
-                player.give(itemUtils.getItem("additions:greedycraft-valonitedruse"));
+                player.give(itemUtils.getItem("additions:valonitedruse"));
             }
             return newDamage * 0.3f;
         }

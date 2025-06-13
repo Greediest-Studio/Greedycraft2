@@ -13,4 +13,4 @@ import crafttweaker.item.IIngredient;
 
 import mods.evilcraft.BloodInfuser;
 
-BloodInfuser.addRecipe(<ore:ingotAeonsteel>, <liquid:evilcraftblood> * 320000, 3, <additions:bloody-wigthium_ingot>, 100, 15);
+BloodInfuser.addRecipe(<ore:ingotAeonsteel>, <liquid:evilcraftblood> * 320000, 3, <additions:wigthium_ingot>, 100, 15);

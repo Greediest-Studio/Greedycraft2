@@ -1,0 +1,16 @@
+{
+  "preset_block": "additions:chillinium_ore",
+  "pools": [
+    {
+      "name": "block_itself_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:chillinium_ore"
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_itself"
+}

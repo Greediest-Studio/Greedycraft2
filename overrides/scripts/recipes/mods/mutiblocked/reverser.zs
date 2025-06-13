@@ -20,5 +20,5 @@ reverserct.recipeMap.start()
     .duration(100)
     .inputFluids(<liquid:liquidantimatter> * 100)
     .inputItems(<ore:ingotOrichalcos>)
-    .outputItems(<additions:botaniaddon-reversed_orichalcos>)
+    .outputItems(<additions:reversed_orichalcos>)
     .buildAndRegister();

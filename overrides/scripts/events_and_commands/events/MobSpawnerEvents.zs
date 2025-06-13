@@ -90,7 +90,7 @@ events.onBlockBreak(function(event as BlockBreakEvent) {
 
 events.onBlockHarvestDrops(function(event as crafttweaker.event.BlockHarvestDropsEvent) {
     if (event.block.definition.id == "minecraft:mob_spawner" && event.isPlayer) {
-        event.addItem(<additions:greedycraft-time_fragment>);
-        event.addItem(<additions:greedycraft-time_fragment> % 33);
+        event.addItem(<additions:time_fragment>);
+        event.addItem(<additions:time_fragment> % 33);
     }
 });

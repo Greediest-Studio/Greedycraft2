@@ -1,4 +1,4 @@
-#reloadable
+
 
 import crafttweaker.event.PlayerInteractEntityEvent;
 import crafttweaker.world.IWorld;

@@ -31,7 +31,7 @@ RecipeBuilder.newBuilder("miner_end", "miner_end", speed, 0)//这两个"miner_ba
     .setChance(0.16f / 10.0f)
     .addItemOutput(<taiga:uru_ore>)
     .setChance(0.14f / 10.0f)
-    .addItemOutput(<additions:greedycraft-plasmarite_ore>)
+    .addItemOutput(<additions:plasmarite_ore>)
     .setChance(0.8f / 10.0f)
     .addItemOutput(<taiga:obsidiorite_block>)
     .setChance(0.12f / 10.0f)

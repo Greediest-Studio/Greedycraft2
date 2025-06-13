@@ -33,38 +33,38 @@ recipes.addShapeless(<botania:dreamwood:1> * 4, [<gct_mobs:dreamwood_log>]);
 recipes.addShapeless(<gct_mobs:reversed_dreamwood_plank> * 4, [<gct_mobs:reversed_dreamwood_log>]);
 recipes.addShapeless(<botania:manaresource:5> * 32, [<gct_mobs:gaia_heart>]);
 
-recipes.addShapeless(<additions:greedycraft-godlikeum_essence>, [<ore:essenceExtremium>,<ore:essenceExtremium>,<ore:essenceExtremium>,<ore:essenceExtremium>,<ore:essenceExtremium>,<ore:essenceExtremium>]);
-recipes.addShapeless(<additions:greedycraft-extremium_essence> * 4, [<ore:essenceGodlikeum>]);
+recipes.addShapeless(<additions:godlikeum_essence>, [<ore:essenceExtremium>,<ore:essenceExtremium>,<ore:essenceExtremium>,<ore:essenceExtremium>,<ore:essenceExtremium>,<ore:essenceExtremium>]);
+recipes.addShapeless(<additions:extremium_essence> * 4, [<ore:essenceGodlikeum>]);
 recipes.addShapeless(<mysticalagradditions:insanium> * 4, [<ore:essenceExtremium>]);
-recipes.addShapeless(<additions:greedycraft-extremium_essence>, [<ore:essenceInsanium>,<ore:essenceInsanium>,<ore:essenceInsanium>,<ore:essenceInsanium>,<ore:essenceInsanium>,<ore:essenceInsanium>]);
+recipes.addShapeless(<additions:extremium_essence>, [<ore:essenceInsanium>,<ore:essenceInsanium>,<ore:essenceInsanium>,<ore:essenceInsanium>,<ore:essenceInsanium>,<ore:essenceInsanium>]);
 
 recipes.addShapeless(<thebetweenlands:slimy_dirt>, [<thebetweenlands:swamp_dirt>,<thebetweenlands:sludge_ball>,<minecraft:slime>,<thebetweenlands:items_plant_drop:1>]);
 
-recipes.addShapeless(<additions:greedycraft-godslime_slimeball>, [<minecraft:slime_ball>,<betterslimes:blue_slime>,<betterslimes:red_slime>,<betterslimes:yellow_slime>,<betterslimes:purple_slime>,<betterslimes:black_slime>,<tconstruct:edible:1>,<tconstruct:edible:2>,<tconstruct:edible:4>]);
+recipes.addShapeless(<additions:godslime_slimeball>, [<minecraft:slime_ball>,<betterslimes:blue_slime>,<betterslimes:red_slime>,<betterslimes:yellow_slime>,<betterslimes:purple_slime>,<betterslimes:black_slime>,<tconstruct:edible:1>,<tconstruct:edible:2>,<tconstruct:edible:4>]);
 
-RecipeUtil.addShapeless("godslime_mud", <additions:greedycraft-slimy_mud_god>, 
+RecipeUtil.addShapeless("godslime_mud", <additions:slimy_mud_god>, 
     [<ore:slimeballGod>, <ore:slimeballGod>, <ore:slimeballGod>, <ore:slimeballGod>, <ore:sandAlf>, <ore:dirtAlf>]
 );
 RecipeUtil.addShapeless("silicon_gem_1to4", <appliedenergistics2:material:5> * 4,
     [<ore:ingotSilicon>]
 );
-RecipeUtil.addShapeless("silicon_ingot_4to1", <additions:greedycraft-silicon_ingot>,
+RecipeUtil.addShapeless("silicon_ingot_4to1", <additions:silicon_ingot>,
     [<ore:itemSilicon>, <ore:itemSilicon>, <ore:itemSilicon>, <ore:itemSilicon>]
 );
-RecipeUtil.addShapeless("carbon_ingot_4to1", <additions:greedycraft-carbon_ingot>, 
+RecipeUtil.addShapeless("carbon_ingot_4to1", <additions:carbon_ingot>, 
     [<ore:dustGraphite>, <ore:dustGraphite>, <ore:dustGraphite>, <ore:dustGraphite>]
 );
 RecipeUtil.addShapeless("carbon_ingot_1to4", <nuclearcraft:dust:8> * 4,
     [<ore:ingotCarbon>]
 );
-RecipeUtil.addShapeless("star_1", <additions:greedycraft-canopy_star>, 
-    [<additions:greedycraft-broken_canopy_star>, <additions:greedycraft-canopy_seed>]
+RecipeUtil.addShapeless("star_1", <additions:canopy_star>, 
+    [<additions:broken_canopy_star>, <additions:canopy_seed>]
 );
-RecipeUtil.addShapeless("star_2", <additions:greedycraft-end_star>, 
-    [<additions:greedycraft-broken_end_star>, <additions:greedycraft-end_seed>]
+RecipeUtil.addShapeless("star_2", <additions:end_star>, 
+    [<additions:broken_end_star>, <additions:end_seed>]
 );
-RecipeUtil.addShapeless("star_3", <additions:greedycraft-ice_star>, 
-    [<additions:greedycraft-broken_ice_star>, <additions:greedycraft-ice_seed>]
+RecipeUtil.addShapeless("star_3", <additions:ice_star>, 
+    [<additions:broken_ice_star>, <additions:ice_seed>]
 );
 RecipeUtil.addShapeless("vethea_crafting_table", <minecraft:crafting_table> * 1,
     [<ore:logWoodVethea>]
@@ -94,22 +94,22 @@ RecipeUtil.addShapeless("oebook", <minecraft:enchanted_book>.withTag({StoredEnch
     [<oeintegration:excavatemodifier>, <oeintegration:excavatemodifier>, <oeintegration:excavatemodifier>, <oeintegration:excavatemodifier>, <oeintegration:excavatemodifier>, <minecraft:book>]
 );
 RecipeUtil.addShapeless("auto_gen_1334582590", <avaritia:block_resource:1> * 64,
-    [<additions:greedycraft-infinity_block_block>]
+    [<additions:infinity_block_block>]
 );
-RecipeUtil.addShapeless("auto_gen_-702569552", <additions:greedycraft-infinity_block_block> * 64,
-    [<additions:greedycraft-infinity_block_block_block>]
+RecipeUtil.addShapeless("auto_gen_-702569552", <additions:infinity_block_block> * 64,
+    [<additions:infinity_block_block_block>]
 );
 RecipeUtil.addShapeless("auto_gen_163670440", <ftbquests:lootcrate>.withTag({type:"loot_level_1"}),
-    [<additions:greedycraft-reward_ticket_common>]
+    [<additions:reward_ticket_common>]
 );
 RecipeUtil.addShapeless("auto_gen_1701963744", <ftbquests:lootcrate>.withTag({type:"loot_level_2"}),
-    [<additions:greedycraft-reward_ticket_rare>]
+    [<additions:reward_ticket_rare>]
 );
 RecipeUtil.addShapeless("auto_gen_-1818409148", <ftbquests:lootcrate>.withTag({type:"loot_level_3"}),
-    [<additions:greedycraft-reward_ticket_epic>]
+    [<additions:reward_ticket_epic>]
 );
 RecipeUtil.addShapeless("auto_gen_-86832743", <ftbquests:lootcrate>.withTag({type:"loot_level_4"}),
-    [<additions:greedycraft-reward_ticket_legendary>]
+    [<additions:reward_ticket_legendary>]
 );
 RecipeUtil.addShapeless("auto_gen_747705352", <thermalfoundation:material:199>,
     [<projecte:item.pe_philosophers_stone>.transformReplace(<projecte:item.pe_philosophers_stone>), <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
@@ -121,7 +121,7 @@ RecipeUtil.addShapeless("auto_gen_104947165", <thermalfoundation:material:134>,
     [<projecte:item.pe_philosophers_stone>.transformReplace(<projecte:item.pe_philosophers_stone>), <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]
 );
 RecipeUtil.addShapeless("auto_gen_1862248730", <minecraft:potion>.withTag({Potion: "minecraft:luck"}),
-    [<minecraft:glass_bottle>, <additions:greedycraft-lucky_clover>]
+    [<minecraft:glass_bottle>, <additions:lucky_clover>]
 );
 RecipeUtil.addShapeless("auto_gen_288981592", <minecraft:crafting_table> * 4,
     [<ore:logWood>, <ore:logWood>, <ore:logWood>, <ore:logWood>]
@@ -145,21 +145,21 @@ RecipeUtil.addShapeless("auto_gen_-1180907112", <scalinghealth:crystalshard> * 9
     [<scalinghealth:heartcontainer>]
 );
 RecipeUtil.addShapeless("auto_gen_1296047035", <minecraft:splash_potion>.withTag({CustomPotionEffects:[{Duration:2400,Id:1,Amplifier:49},{Duration:2400,Id:3,Amplifier:49},{Duration:2400,Id:5,Amplifier:49},{Id:6,Amplifier:28},{Duration:2400,Id:8,Amplifier:49},{Duration:2400,Id:10,Amplifier:31},{Duration:2400,Id:11,Amplifier:4},{Duration:2400,Id:12},{Duration:2400,Id:13},{Duration:2400,Id:14},{Duration:2400,Id:16},{Duration:2400,Id:21,Amplifier:49},{Duration:2400,Id:22,Amplifier:49},{Id:23,Amplifier:119},{Duration:2400,Id:26,Amplifier:49},{Duration:2400,Id:28}],CustomPotionColor:16648959,display:{Lore:[LangUtil.translate("greedycraft.misc.draconic_potion.tooltip")],Name:LangUtil.translate("greedycraft.misc.draconic_potion.name")}}),
-    [<minecraft:glass_bottle>, <additions:greedycraft-dragon_soul>, <ore:shardCreative>, <ore:shardCreative>]
+    [<minecraft:glass_bottle>, <additions:dragon_soul>, <ore:shardCreative>, <ore:shardCreative>]
 );
 RecipeUtil.addShapeless("auto_gen_-2147158797", <minecraft:splash_potion>.withTag({CustomPotionEffects:[{Duration:2400,Id:2,Amplifier:49},{Duration:2400,Id:4,Amplifier:49},{Id:7,Amplifier:28},{Duration:2400,Id:9},{Duration:2400,Id:15},{Duration:2400,Id:17,Amplifier:49},{Duration:2400,Id:18,Amplifier:49},{Duration:2400,Id:19,Amplifier:4},{Duration:2400,Id:20,Amplifier:2},{Duration:2400,Id:24},{Duration:2400,Id:25,Amplifier:49},{Duration:2400,Id:27,Amplifier:49}],CustomPotionColor:0,display:{Lore:[LangUtil.translate("greedycraft.misc.blight_potion.tooltip")],Name:LangUtil.translate("greedycraft.misc.blight_potion.name")}}),
-    [<minecraft:glass_bottle>, <additions:greedycraft-wither_soul>, <ore:shardCreative>, <ore:shardCreative>]
+    [<minecraft:glass_bottle>, <additions:wither_soul>, <ore:shardCreative>, <ore:shardCreative>]
 );
-RecipeUtil.addShapeless("auto_gen_269849607", <additions:greedycraft-experience_block> * 9,
-    [<additions:greedycraft-compressed_experience_block>]
+RecipeUtil.addShapeless("auto_gen_269849607", <additions:experience_block> * 9,
+    [<additions:compressed_experience_block>]
 );
-RecipeUtil.addShapeless("auto_gen_680300395", <additions:greedycraft-experience_ingot> * 9,
-    [<additions:greedycraft-experience_block>]
+RecipeUtil.addShapeless("auto_gen_680300395", <additions:experience_ingot> * 9,
+    [<additions:experience_block>]
 );
-RecipeUtil.addShapeless("auto_gen_198647556", <additions:greedycraft-experience_nugget> * 9,
-    [<additions:greedycraft-experience_ingot>]
+RecipeUtil.addShapeless("auto_gen_198647556", <additions:experience_nugget> * 9,
+    [<additions:experience_ingot>]
 );
-RecipeUtil.addShapeless("auto_gen_1353175347", <additions:greedycraft-experience_nugget>,
+RecipeUtil.addShapeless("auto_gen_1353175347", <additions:experience_nugget>,
     [<mysticalagriculture:xp_droplet>]
 );
 RecipeUtil.addShapeless("auto_gen_-1011385798", <minecraft:crafting_table>,
@@ -177,7 +177,7 @@ RecipeUtil.addShapeless("auto_gen_21729634", <minecraft:tallgrass:1>,
 RecipeUtil.addShapeless("auto_gen_1318457067", <minecraft:tallgrass:1>,
     [<biomesoplenty:plant_0>]
 );
-RecipeUtil.addShapeless("auto_gen_1910785345", <additions:greedycraft-death_counter>,
+RecipeUtil.addShapeless("auto_gen_1910785345", <additions:death_counter>,
     [<tconstruct:pattern>, <minecraft:bone>]
 );
 RecipeUtil.addShapeless("ma_essence_0", <mysticalagriculture:crafting:1>,
@@ -310,31 +310,31 @@ RecipeUtil.addShapeless("auto_gen_455125292", <tconevo:material> * 9,
     [<ore:blockFusionMatrix>]
 );
 RecipeUtil.addShapeless("auto_gen_330301095", <additions:infernium_ingot> * 9,
-    [<additions:greedycraft-infernium_block>]
+    [<additions:infernium_block>]
 );
-RecipeUtil.addShapeless("auto_gen_193347573", <additions:greedycraft-infernium_nugget> * 9,
+RecipeUtil.addShapeless("auto_gen_193347573", <additions:infernium_nugget> * 9,
     [<additions:infernium_ingot>]
 );
-RecipeUtil.addShapeless("unlock_chest", <additions:greedycraft-tower_chest_unlocked>,
-    [<additions:tower_chest>, <additions:greedycraft-tower_chest_key>.anyDamage().transformDamage(1)]
+RecipeUtil.addShapeless("unlock_chest", <additions:tower_chest_unlocked>,
+    [<additions:tower_chest>, <additions:tower_chest_key>.anyDamage().transformDamage(1)]
 );
-RecipeUtil.addShapeless("stone", <additions:greedycraft-pebble>,
+RecipeUtil.addShapeless("stone", <additions:pebble>,
     [<ore:rocks>]
 );
 RecipeUtil.addShapeless("twig", <minecraft:stick>,
     [<ore:twigs>]
 );
-RecipeUtil.addShapeless("auto_gen_-1599197603", <additions:greedycraft-grass_string>,
+RecipeUtil.addShapeless("auto_gen_-1599197603", <additions:grass_string>,
     [<ore:plantFibre>, <ore:plantFibre>, <ore:plantFibre>]
 );
-RecipeUtil.addShapeless("auto_gen_-689226972", <additions:greedycraft-crude_hatchet>,
+RecipeUtil.addShapeless("auto_gen_-689226972", <additions:crude_hatchet>,
     [<ore:pebble>, <ore:string>, <ore:stickWood>]
 );
 RecipeUtil.addShapeless("auto_gen_-1342866062", <twilightforest:magic_map_focus>,
     [<twilightforest:raven_feather>, <twilightforest:torchberries>]
 );
 RecipeUtil.addShapeless("sand_to_glass", <minecraft:glass>,
-    [<ore:sand>, <additions:greedycraft-fake_philosopher_stone>.transformReplace(<additions:greedycraft-fake_philosopher_stone>)]
+    [<ore:sand>, <additions:fake_philosopher_stone>.transformReplace(<additions:fake_philosopher_stone>)]
 );
 RecipeUtil.addShapeless("stick", <minecraft:stick>,
     [<ore:twigs>]
@@ -351,7 +351,7 @@ RecipeUtil.addShapeless("sea_oat2", <harvestcraft:oatsitem>,
 RecipeUtil.addShapeless("sapling", <minecraft:stick>,
     [<ore:treeSapling>]
 );
-RecipeUtil.addShapeless("cattail", <additions:greedycraft-plant_fibre>,
+RecipeUtil.addShapeless("cattail", <additions:plant_fibre>,
     [<ore:plantCattail>]
 );
 RecipeUtil.addShapeless("firework", <minecraft:fireworks>,
@@ -378,7 +378,7 @@ RecipeUtil.addShapeless("astral_metal_block_rev", <additions:astral_metal_ingot>
 RecipeUtil.addShapeless("cosmilite_block_rev", <additions:cosmilite_ingot> * 9,
     [<ore:blockCosmilite>]
 );
-RecipeUtil.addShapeless("titanium_ingot_rev", <additions:greedycraft-titanium_nugget> * 9,
+RecipeUtil.addShapeless("titanium_ingot_rev", <additions:titanium_nugget> * 9,
     [<ore:ingotTitanium>]
 );
 RecipeUtil.addShapeless("titanium_block_rev", <additions:titanium_ingot> * 9,
@@ -438,8 +438,8 @@ RecipeUtil.addShapeless("clear_rock_crystal_nbt", <astralsorcery:itemrockcrystal
 RecipeUtil.addShapeless("clear_rock_crystal_nbt_1", <astralsorcery:itemrockcrystalsimple>,
     [<astralsorcery:itemrockcrystalsimple>]
 );
-RecipeUtil.addShapeless("solarium_star", <additions:greedycraft-solarium_star>,
-    [<additions:greedycraft-broken_solarium_star>, <additions:greedycraft-solar_seed>]
+RecipeUtil.addShapeless("solarium_star", <additions:solarium_star>,
+    [<additions:broken_solarium_star>, <additions:solar_seed>]
 );
 RecipeUtil.addShapeless("slimeball_convert", <minecraft:slime_ball>,
     [<ore:slimeball>]
@@ -459,23 +459,23 @@ RecipeUtil.addShapeless("lava_wader_normal", <randomthings:lavawader>,
 RecipeUtil.addShapeless("aa_dough", <actuallyadditions:item_misc:4>,
     [<ore:foodFlour>, <liquid:water> * 125]
 );
-RecipeUtil.addShapeless("rev_medal_pioneer", <additions:greedycraft-ordinary_medal> * 9,
-    [<additions:greedycraft-pioneer_medal>]
+RecipeUtil.addShapeless("rev_medal_pioneer", <additions:ordinary_medal> * 9,
+    [<additions:pioneer_medal>]
 );
-RecipeUtil.addShapeless("rev_medal_greedy", <additions:greedycraft-pioneer_medal> * 9,
-    [<additions:greedycraft-greedy_medal>]
+RecipeUtil.addShapeless("rev_medal_greedy", <additions:pioneer_medal> * 9,
+    [<additions:greedy_medal>]
 );
-RecipeUtil.addShapeless("rev_tome_1", <additions:greedycraft-ancient_tome_page> * 9,
-    [<additions:greedycraft-ancient_tome>]
+RecipeUtil.addShapeless("rev_tome_1", <additions:ancient_tome_page> * 9,
+    [<additions:ancient_tome>]
 );
-RecipeUtil.addShapeless("rev_tome_0", <additions:greedycraft-ancient_tome_fragment> * 9,
-    [<additions:greedycraft-ancient_tome_page>]
+RecipeUtil.addShapeless("rev_tome_0", <additions:ancient_tome_fragment> * 9,
+    [<additions:ancient_tome_page>]
 );
-RecipeUtil.addShapeless("gold_medal_rev", <additions:greedycraft-bounty_hunter_medal_silver> * 9,
-    [<additions:greedycraft-bounty_hunter_medal>]
+RecipeUtil.addShapeless("gold_medal_rev", <additions:bounty_hunter_medal_silver> * 9,
+    [<additions:bounty_hunter_medal>]
 );
-RecipeUtil.addShapeless("silver_medal_rev", <additions:greedycraft-bounty_hunter_medal_bronze> * 9,
-    [<additions:greedycraft-bounty_hunter_medal_silver>]
+RecipeUtil.addShapeless("silver_medal_rev", <additions:bounty_hunter_medal_bronze> * 9,
+    [<additions:bounty_hunter_medal_silver>]
 );
 RecipeUtil.addShapeless("essence_super_0", <mysticalagriculture:storage:1>,
     [<mysticalagriculture:master_infusion_crystal>, <mysticalagriculture:storage>, <mysticalagriculture:storage>, <mysticalagriculture:storage>, <mysticalagriculture:storage>, <mysticalagriculture:storage>]
