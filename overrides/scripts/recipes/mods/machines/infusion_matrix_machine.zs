@@ -19,20 +19,12 @@ import mods.modularmachinery.MachineModifier;
 import mods.modularmachinery.SmartInterfaceType;
 import mods.modularmachinery.FactoryRecipeThread;
 import native.java.math.BigInteger;
+import crafttweaker.player.IPlayer;
 
 import mods.modularmachinery.MachineUpgradeHelper;
 import mods.modularmachinery.MachineUpgradeBuilder;
 
 MachineModifier.setMaxParallelism("infusion_matrix_machine", 1);
-
-MachineUpgradeHelper.registerSupportedItem(<additions:cursium_ingot>);
-MachineUpgradeHelper.registerSupportedItem(<thaumadditions:mithminite_ingot>);
-
-MachineUpgradeBuilder.newBuilder("thaumau", "§6模块化特化神秘研究证明1", 1 , 1).addCompatibleMachines("infusion_matrix_machine").buildAndRegister();
-MachineUpgradeBuilder.newBuilder("thaumau_one", "§6模块化特化神秘研究证明2", 1, 1).buildAndRegister();
-
-MachineUpgradeHelper.addFixedUpgrade(<additions:cursium_ingot>, "thaumau");
-MachineUpgradeHelper.addFixedUpgrade(<thaumadditions:mithminite_ingot>, "thaumau_one");
 
 # 秘金锭
 RecipeBuilder.newBuilder("thaumcraft", "infusion_matrix_machine", 500)
@@ -48,14 +40,16 @@ RecipeBuilder.newBuilder("thaumcraft", "infusion_matrix_machine", 500)
     .addItemInput(<thaumadditions:adaminite_fabric>*2)
     .addItemInput(<additions:cosmilite_ingot>)
     .addEnergyPerTickInput(100000)
-    .addRecipeTooltip("§1需要模块化特化神秘研究2")
+    .addRecipeTooltip("需解锁该配方相对应研究")
     .addPostCheckHandler(function(event as RecipeCheckEvent){
         val ctrl = event.controller;
+        val play= ctrl.ownerPlayer;
+        val ig = play.thaumcraftKnowledge;
 
-        if(!ctrl.hasMachineUpgrade("thaumau_one")){
-            event.setFailed("缺少升级模块化特化神秘研究证明2");
-            return;
+        if(ig.getResearchStage("TAR_MITHMINITE") < 1){
+            event.setFailed("未获得配方所需研究");
         }
+        return;
     })
     .addItemOutput(<thaumadditions:mithminite_ingot>)
     .build();
@@ -70,6 +64,17 @@ RecipeBuilder.newBuilder("thaumcraft_2", "infusion_matrix_machine", 200)
     .addItemInput(<minecraft:gold_ingot>*2)
     .addItemInput(<minecraft:dye:15>*2)
     .addEnergyPerTickInput(100000)
+    .addRecipeTooltip("需解锁该配方相对应研究")
+        .addPostCheckHandler(function(event as RecipeCheckEvent){
+        val ctrl = event.controller;
+        val play= ctrl.ownerPlayer;
+        val ig = play.thaumcraftKnowledge;
+
+        if(ig.getResearchStage("LAMPGROWTH") < 1){
+            event.setFailed("未获得配方所需研究");
+        }
+        return;
+    })
     .addItemOutput(<thaumcraft:lamp_growth>)
     .build();
 # 源质供应器
@@ -81,6 +86,17 @@ RecipeBuilder.newBuilder("thaumcraft_3", "infusion_matrix_machine", 200)
     .addItemInput(<thaumcraft:salis_mundus>*2)
     .addItemInput(<thaumicenergistics:coalescence_core>*2)
     .addEnergyPerTickInput(100000)
+    .addRecipeTooltip("需解锁该配方相对应研究")
+    .addPostCheckHandler(function(event as RecipeCheckEvent){
+        val ctrl = event.controller;
+        val play= ctrl.ownerPlayer;
+        val ig = play.thaumcraftKnowledge;
+
+        if(ig.getResearchStage("INFUSIONPROVIDER") < 1){
+            event.setFailed("未获得配方所需研究");
+        }
+        return;
+    })
     .addItemOutput(<thaumicenergistics:infusion_provider>)
     .build();
 # 秘银锭
@@ -98,14 +114,16 @@ RecipeBuilder.newBuilder("thaumcraft_4", "infusion_matrix_machine", 600)
     .addItemInput(<botania:manaresource:22>*2)
     .addItemInput(<additions:aeonsteel_ingot>)
     .addEnergyPerTickInput(100000)
-    .addRecipeTooltip("§1需要模块化特化神秘研究2")
+    .addRecipeTooltip("需解锁该配方相对应研究")
     .addPostCheckHandler(function(event as RecipeCheckEvent){
         val ctrl = event.controller;
+        val play= ctrl.ownerPlayer;
+        val ig = play.thaumcraftKnowledge;
 
-        if(!ctrl.hasMachineUpgrade("thaumau_one")){
-            event.setFailed("§2缺少升级模块化特化神秘研究证明2");
-            return;
+        if(ig.getResearchStage("TAR_MITHRILLIUM") < 1){
+            event.setFailed("未获得配方所需研究");
         }
+        return;
     })
     .addItemOutput(<thaumadditions:mithrillium_ingot>)
     .build();
@@ -186,15 +204,6 @@ RecipeBuilder.newBuilder("thaumcraft_9", "infusion_matrix_machine", 500)
     .addItemInput(<cfm:modern_bed_bottom:11>)
     .addItemInput(<taiga:nihilite_ingot>)
     .addEnergyPerTickInput(100000)
-    .addRecipeTooltip("§1需要模块化特化神秘研究2")
-    .addPostCheckHandler(function(event as RecipeCheckEvent){
-        val ctrl = event.controller;
-
-        if(!ctrl.hasMachineUpgrade("thaumau_one")){
-            event.setFailed("缺少升级模块化特化神秘研究证明2");
-            return;
-        }
-    })
     .addItemOutput(<additions:disaster_metal_ingot>)
     .build();
 # 元动能量单元
@@ -209,6 +218,17 @@ RecipeBuilder.newBuilder("infusion_matrix_machine0", "infusion_matrix_machine", 
     .addItemInput(<minecraft:redstone>)
     .addItemInput(<thaumcraft:void_seed>)
     .addEnergyPerTickInput(100000)
+    .addRecipeTooltip("需解锁该配方相对应研究")
+    .addPostCheckHandler(function(event as RecipeCheckEvent){
+        val ctrl = event.controller;
+        val play= ctrl.ownerPlayer;
+        val ig = play.thaumcraftKnowledge;
+
+        if(ig.getResearchStage("RIFT_POWER") < 1){
+            event.setFailed("未获得配方所需研究");
+        }
+        return;
+    })
     .addItemOutput(<thaumicaugmentation:material:3>)
     .build();
 # 邪术钢锭
@@ -220,15 +240,6 @@ RecipeBuilder.newBuilder("infusion_matrix_machine1", "infusion_matrix_machine", 
     .addItemInput(<additions:eldritch_slime>*4)
     .addItemInput(<additions:corruptium_ingot>)
     .addEnergyPerTickInput(100000)
-    .addRecipeTooltip("§1需要模块化特化神秘研究1")
-    .addPostCheckHandler(function(event as RecipeCheckEvent){
-        val ctrl = event.controller;
-
-        if(!ctrl.hasMachineUpgrade("thaumau")){
-            event.setFailed("§2缺少升级模块化特化神秘研究证明1");
-            return;
-        }
-    })
     .addItemOutput(<additions:eldritch_steel_ingot>)
     .build();
 # 1g——me源质存储元件
@@ -281,6 +292,17 @@ RecipeBuilder.newBuilder("infusion_matrix_machine5", "infusion_matrix_machine", 
     .addItemInput(<thaumcraft:cluster:4>)
     .addItemInput(<thaumicwonders:alchemist_stone>)
     .addEnergyPerTickInput(100000)
+    .addRecipeTooltip("需解锁该配方相对应研究")
+    .addPostCheckHandler(function(event as RecipeCheckEvent){
+        val ctrl = event.controller;
+        val play= ctrl.ownerPlayer;
+        val ig = play.thaumcraftKnowledge;
+
+        if(ig.getResearchStage("METALPURIFICATION") < 1){
+            event.setFailed("未获得配方所需研究");
+        }
+        return;
+    })
     .addItemOutput(<thaumicwonders:alienist_stone>)
     .build();
 # 奥法鞘翅
@@ -294,6 +316,17 @@ RecipeBuilder.newBuilder("infusion_matrix_machine6", "infusion_matrix_machine", 
     .addItemInput(<thaumcraft:vis_resonator>)
     .addItemInput(<thaumicaugmentation:material:4>)
     .addEnergyPerTickInput(100000)
+    .addRecipeTooltip("需解锁该配方相对应研究")
+    .addPostCheckHandler(function(event as RecipeCheckEvent){
+        val ctrl = event.controller;
+        val play= ctrl.ownerPlayer;
+        val ig = play.thaumcraftKnowledge;
+
+        if(ig.getResearchStage("ELYTRA_HARNESS") < 1){
+            event.setFailed("未获得配方所需研究");
+        }
+        return;
+    })
     .addItemOutput(<thaumicaugmentation:elytra_harness>)
     .build();
 # 悖论物质
@@ -307,6 +340,17 @@ RecipeBuilder.newBuilder("infusion_matrix_machine7", "infusion_matrix_machine", 
     .addItemInput(<minecraft:redstone_block>*2)
     .addItemInput(<thaumcraft:alumentum>*2)
     .addEnergyPerTickInput(100000)
+    .addRecipeTooltip("需解锁该配方相对应研究")
+    .addPostCheckHandler(function(event as RecipeCheckEvent){
+        val ctrl = event.controller;
+        val play= ctrl.ownerPlayer;
+        val ig = play.thaumcraftKnowledge;
+
+        if(ig.getResearchStage("RIFTCLOSER") < 1){
+            event.setFailed("未获得配方所需研究");
+        }
+        return;
+    })
     .addItemOutput(<thaumcraft:causality_collapser>)
     .build();
 # 咒缚锭
@@ -331,15 +375,6 @@ RecipeBuilder.newBuilder("infusion_matrix_machine8", "infusion_matrix_machine", 
     .addItemInput(<gct_ores:balanced_matrix_ingot>)
     .addItemInput(<gct_ores:ruled_draconium_ingot>)
     .addEnergyPerTickInput(100000)
-    .addRecipeTooltip("§1需要模块化特化神秘研究1")
-    .addPostCheckHandler(function(event as RecipeCheckEvent){
-        val ctrl = event.controller;
-
-        if(!ctrl.hasMachineUpgrade("thaumau")){
-            event.setFailed("§2缺少升级模块化特化神秘研究证明1");
-            return;
-        }
-    })
     .addItemOutput(<additions:cursium_ingot>)
     .build();
 # 虚空种子
@@ -358,6 +393,17 @@ RecipeBuilder.newBuilder("infusion_matrix_machine9", "infusion_matrix_machine", 
     .addItemInput(<thaumcraft:salis_mundus>)
     .addItemInput(<thaumcraft:void_seed>*3)
     .addEnergyPerTickInput(100000)
+    .addRecipeTooltip("需解锁该配方相对应研究")
+    .addPostCheckHandler(function(event as RecipeCheckEvent){
+        val ctrl = event.controller;
+        val play= ctrl.ownerPlayer;
+        val ig = play.thaumcraftKnowledge;
+
+        if(ig.getResearchStage("TAR_VOID_CROP") < 1){
+            event.setFailed("未获得配方所需研究");
+        }
+        return;
+    })
     .addItemOutput(<thaumadditions:void_seed>)
     .build();
 # 铿金锭
@@ -377,14 +423,16 @@ RecipeBuilder.newBuilder("thaumcraft_20", "infusion_matrix_machine", 500)
     .addItemInput(<draconicevolution:draconic_ingot>)
     .addItemInput(<additions:chromasteel_ingot>)
     .addEnergyPerTickInput(100000)
-    .addRecipeTooltip("§1需要模块化特化神秘研究2")
+    .addRecipeTooltip("需解锁该配方相对应研究")
     .addPostCheckHandler(function(event as RecipeCheckEvent){
         val ctrl = event.controller;
+        val play= ctrl.ownerPlayer;
+        val ig = play.thaumcraftKnowledge;
 
-        if(!ctrl.hasMachineUpgrade("thaumau_one")){
-            event.setFailed("§2缺少升级模块化特化神秘研究证明2");
-            return;
+        if(ig.getResearchStage("TAR_ADAMINITE") < 1){
+            event.setFailed("未获得配方所需研究");
         }
+        return;
     })
     .addItemOutput(<thaumadditions:adaminite_ingot>)
     .build();
@@ -401,15 +449,6 @@ RecipeBuilder.newBuilder("thaumcraft_21", "infusion_matrix_machine", 400)
     .addItemInput(<additions:chromasteel_ingot>*4)
     .addItemInput(<bloodarsenal:blood_diamond:3>)
     .addEnergyPerTickInput(100000)
-    .addRecipeTooltip("§1需要模块化特化神秘研究1")
-    .addPostCheckHandler(function(event as RecipeCheckEvent){
-        val ctrl = event.controller;
-
-        if(!ctrl.hasMachineUpgrade("thaumau")){
-            event.setFailed("§2缺少升级模块化特化神秘研究证明1");
-            return;
-        }
-    })
     .addItemOutput(<additions:crimsonite_block>)
     .build();
 # 风之结晶
@@ -506,15 +545,6 @@ RecipeBuilder.newBuilder("thaumcraft_29", "infusion_matrix_machine", 400)
     .addItemInput(<gct_ores:everite_dust> * 2)
     .addItemInput(<tconevo:metal:20>)
     .addEnergyPerTickInput(100000)
-    .addRecipeTooltip("§1需要模块化特化神秘研究1")
-    .addPostCheckHandler(function(event as RecipeCheckEvent){
-        val ctrl = event.controller;
-
-        if(!ctrl.hasMachineUpgrade("thaumau")){
-            event.setFailed("§2缺少升级模块化特化神秘研究证明1");
-            return;
-        }
-    })
     .addItemOutput(<additions:extended_primal_metal_ingot>)
     .build();
 # 巨型源质冶炼炉控制器
@@ -563,16 +593,18 @@ RecipeBuilder.newBuilder("thaumcraft_32", "infusion_matrix_machine", 500)
     .addItemInput(<minecraft:diamond_shovel>)
     .addItemInput(<thaumcraft:morphic_resonator>)
     .addItemInput(<thaumcraft:turret>)
-    .addRecipeTooltip("§1需要模块化特化神秘研究1")
+    .addEnergyPerTickInput(100000)
+    .addRecipeTooltip("需解锁该配方相对应研究")
     .addPostCheckHandler(function(event as RecipeCheckEvent){
         val ctrl = event.controller;
+        val play= ctrl.ownerPlayer;
+        val ig = play.thaumcraftKnowledge;
 
-        if(!ctrl.hasMachineUpgrade("thaumau")){
-            event.setFailed("缺少升级模块化特化神秘研究证明1");
-            return;
+        if(ig.getResearchStage("ARCANEBORE") < 1){
+            event.setFailed("未获得配方所需研究");
         }
+        return;
     })
-    .addEnergyPerTickInput(100000)
     .addItemOutput(<thaumcraft:turret:2>)
     .build();
 # 开眼邪术拱顶石
@@ -602,15 +634,6 @@ RecipeBuilder.newBuilder("thaumcraft_34", "infusion_matrix_machine", 300)
     .addItemInput(<packagedthaumic:thaumic_package_component>)
     .addItemInput(<thaumcraft:crucible>)
     .addEnergyPerTickInput(100000)
-    .addRecipeTooltip("§1需要模块化特化神秘研究1")
-    .addPostCheckHandler(function(event as RecipeCheckEvent){
-        val ctrl = event.controller;
-
-        if(!ctrl.hasMachineUpgrade("thaumau")){
-            event.setFailed("§2缺少升级模块化特化神秘研究证明1");
-            return;
-        }
-    })
     .addItemOutput(<packagedthaumic:crucible_crafter>)
     .build();
 # 封包符文矩阵
@@ -634,15 +657,6 @@ RecipeBuilder.newBuilder("thaumcraft_35", "infusion_matrix_machine", 200)
     .addItemInput(<thaumcraft:morphic_resonator>)
     .addItemInput(<thaumcraft:infusion_matrix>)
     .addEnergyPerTickInput(100000)
-    .addRecipeTooltip("§1需要模块化特化神秘研究1")
-    .addPostCheckHandler(function(event as RecipeCheckEvent){
-        val ctrl = event.controller;
-
-        if(!ctrl.hasMachineUpgrade("thaumau")){
-            event.setFailed("§2缺少升级模块化特化神秘研究证明1");
-            return;
-        }
-    })
     .addItemOutput(<packagedthaumic:infusion_crafter>)
     .build();
 # 秘银谐振器
@@ -658,6 +672,17 @@ RecipeBuilder.newBuilder("thaumcraft_36", "infusion_matrix_machine", 200)
     .addItemInput(<thaumcraft:morphic_resonator> * 1)
     .addItemInput(<thaumadditions:mithrillium_plate> * 2)
     .addEnergyPerTickInput(100000)
+    .addRecipeTooltip("需解锁该配方相对应研究")
+    .addPostCheckHandler(function(event as RecipeCheckEvent){
+        val ctrl = event.controller;
+        val play= ctrl.ownerPlayer;
+        val ig = play.thaumcraftKnowledge;
+
+        if(ig.getResearchStage("TAR_MOB_SUMMONING") < 1){
+            event.setFailed("未获得配方所需研究");
+        }
+        return;
+    })
     .addItemOutput(<thaumadditions:mithrillium_resonator>)
     .build();
 # 源质安瓿
