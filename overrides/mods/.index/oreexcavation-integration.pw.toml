@@ -1,0 +1,13 @@
+name = "Ore Excavation Integration"
+filename = "oeintegration-2.3.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e40401891aec2dd98e4ed705e80393719d403e13"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2617198
+project-id = 270305

@@ -1,0 +1,13 @@
+name = "Thaumic JEI"
+filename = "ThaumicJEI-1.12.2-1.7.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "859b30c956a1cc6e5985b22cfdd7af138c747562"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5646810
+project-id = 285492

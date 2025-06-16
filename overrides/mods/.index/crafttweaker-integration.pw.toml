@@ -1,0 +1,13 @@
+name = "CraftTweaker Integration"
+filename = "ctintegration-1.8.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b833d3c1bcfe0936acad587b373846a451887c75"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3311656
+project-id = 435298

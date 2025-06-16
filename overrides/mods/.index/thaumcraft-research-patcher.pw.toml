@@ -1,0 +1,13 @@
+name = "Thaumcraft Research Patcher"
+filename = "ThaumcraftResearchPatcher-1.12.2-1.1.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ab14b666124fbc8165b31c98ed6571918be720ff"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3378132
+project-id = 436513

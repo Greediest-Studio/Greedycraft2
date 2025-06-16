@@ -1,0 +1,13 @@
+name = "B.A.S.E"
+filename = "base-1.12.2-3.14.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4fbf3bae670f626028e29b57622b0ee98a8ad4db"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3440963
+project-id = 246996

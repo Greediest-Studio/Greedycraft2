@@ -1,0 +1,13 @@
+name = "CustomFishing"
+filename = "CustomFishing-0.1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "05ad23c13c28a6805a7cb1d9a4ef42c7363e04ba"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6600879
+project-id = 1091948

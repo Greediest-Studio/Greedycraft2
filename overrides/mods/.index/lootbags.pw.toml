@@ -1,0 +1,13 @@
+name = "LootBags"
+filename = "LootBags-1.12.2-2.5.8.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2d7a4725c89bfaa2cc4cd0fc6a9cde7845764122"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2680883
+project-id = 225946

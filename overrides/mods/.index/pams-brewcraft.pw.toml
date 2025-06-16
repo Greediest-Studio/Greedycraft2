@@ -1,0 +1,13 @@
+name = "Pam's BrewCraft"
+filename = "Pam's BrewCraft 1.12.2-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1137aa8ab3641f8e74be749e0840bd0260a9f8cb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2997188
+project-id = 350675

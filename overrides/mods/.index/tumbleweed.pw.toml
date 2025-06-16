@@ -1,0 +1,13 @@
+name = "Tumbleweed"
+filename = "tumbleweed-1.12-0.4.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "22d151086fde79a7d34b5bc191a4d90ef1b24890"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2876841
+project-id = 245028

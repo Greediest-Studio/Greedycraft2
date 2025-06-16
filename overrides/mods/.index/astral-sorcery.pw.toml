@@ -1,0 +1,13 @@
+name = "Astral Sorcery"
+filename = "astralsorcery-1.12.2-1.10.27.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9fa8c82a06e0a1320087f5fa4a5ac48b6ddb75c4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3044416
+project-id = 241721

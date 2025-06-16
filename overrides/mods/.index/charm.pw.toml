@@ -1,0 +1,13 @@
+name = "Charm"
+filename = "Charm-1.12.2-1.4.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0afddc46fe43970d4586f99f3266279f262f6de5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3146596
+project-id = 318872

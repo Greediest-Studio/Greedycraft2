@@ -1,0 +1,13 @@
+name = "Demagnetize"
+filename = "demagnetize-1.12.2-1.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4fc864e719d30fe4eb8d47bf716b1c5e5173c599"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3091010
+project-id = 301356

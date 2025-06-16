@@ -1,0 +1,13 @@
+name = "OpenBlocks"
+filename = "OpenBlocks-1.12.2-1.8.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6c231ff28e0c80025b0ec11f86ce9de1e9d109db"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2699056
+project-id = 228816

@@ -1,0 +1,13 @@
+name = "RandomTweaks"
+filename = "randomtweaks-1.12.2-2.8.3.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e5d2502bf33a670b17908e9f6b650fd0daa07cb5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3204340
+project-id = 258205

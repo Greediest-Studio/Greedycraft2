@@ -1,0 +1,13 @@
+name = "MekaTweaker"
+filename = "mekatweaker-1.12-1.2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4239461f1c7117c714099dc035f89ee519ab9781"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2781748
+project-id = 293110

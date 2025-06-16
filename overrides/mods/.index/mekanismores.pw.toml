@@ -1,0 +1,13 @@
+name = "MekanismOres"
+filename = "mekores-2.0.13.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "51ed1d1f12cba5d3fe257162caa7dbbac42ce8bf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2884937
+project-id = 313340

@@ -1,0 +1,13 @@
+name = "Thaumic Wonders"
+filename = "thaumicwonders-1.8.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "92bad29bc6fcab0d6fa65f9d045733572f0de4dd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5364955
+project-id = 316704

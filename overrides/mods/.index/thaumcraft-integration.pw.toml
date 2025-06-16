@@ -1,0 +1,13 @@
+name = "Thaumcraft Integration"
+filename = "tc_integration-1.2-1.12.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cec94ad1e7665e3fe3a6390bdd757dafcfe07af7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5813047
+project-id = 1018962

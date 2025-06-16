@@ -1,0 +1,13 @@
+name = "Bring Me The Rings!"
+filename = "BringMeTheRings-0.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "999a212c5401cf12f08d48ee5e337ec7e662f556"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2653339
+project-id = 309878

@@ -1,0 +1,13 @@
+name = "Thaumic Speedup"
+filename = "thaumicspeedup-4.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "05b3b804f45a038329fc13e854dda03a0343a7f9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3614638
+project-id = 409880

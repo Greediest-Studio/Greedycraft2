@@ -1,0 +1,13 @@
+name = "Versioner"
+filename = "versioner-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0adb29069f44117e233f624016125efe057e1fdc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3257397
+project-id = 455383

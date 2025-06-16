@@ -1,0 +1,13 @@
+name = "Candy World"
+filename = "candyworld-1.1.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3d7ab77c4971669d218b09422bdfcba394473c27"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2859709
+project-id = 290844

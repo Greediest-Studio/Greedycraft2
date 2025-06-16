@@ -1,0 +1,13 @@
+name = "Hooked"
+filename = "hooked-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b6782fc948c75b2e4afca26af3bb408983023f35"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2607310
+project-id = 297209

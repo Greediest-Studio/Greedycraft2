@@ -1,0 +1,13 @@
+name = "Thaumcraft"
+filename = "Thaumcraft-1.12.2-6.1.BETA26.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fe0899048f1796df04e9727bbf1898df30492a00"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2629023
+project-id = 223628

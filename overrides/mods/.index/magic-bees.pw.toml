@@ -1,0 +1,13 @@
+name = "Magic Bees"
+filename = "MagicBees-1.12.2-3.2.25.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5a396effc70fe30bc8091e9c151d4feec5f62eff"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2855061
+project-id = 65764

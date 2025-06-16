@@ -1,0 +1,13 @@
+name = "Avaritia IO"
+filename = "avaritiaio-1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5a5a734e8c5d58acb04920fe4f29c738e2096163"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2800346
+project-id = 312149

@@ -1,0 +1,13 @@
+name = "UniQ"
+filename = "uniq-2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "63267ee7c473dbb3c2aa2242b0bf8bb5e0ee1759"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3124866
+project-id = 261029

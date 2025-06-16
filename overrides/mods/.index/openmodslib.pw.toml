@@ -1,0 +1,13 @@
+name = "OpenModsLib"
+filename = "OpenModsLib-1.12.2-0.12.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "210cc6b18b63ae0d3110b8e8ed843bc847627eb0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2699055
+project-id = 228815

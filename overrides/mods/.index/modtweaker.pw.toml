@@ -1,0 +1,13 @@
+name = "ModTweaker"
+filename = "modtweaker-4.0.20.11.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f0bdbf6f4257e392e59023289998aaa8c295df47"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3840577
+project-id = 220954

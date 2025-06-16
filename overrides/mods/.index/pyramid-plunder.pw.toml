@@ -1,0 +1,13 @@
+name = "Pyramid Plunder"
+filename = "PyramidPlunder-1.12.2-1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e65ed8387e94e7274289139530c3e15bb601ab46"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2746713
+project-id = 298832

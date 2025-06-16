@@ -1,0 +1,13 @@
+name = "Stacksize"
+filename = "stacksize-1.12.2-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b0dedf890244f4d7abab582f01059036a609b0ec"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2511850
+project-id = 247843

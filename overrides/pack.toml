@@ -1,0 +1,14 @@
+name = "packwiz Example Pack"
+author = "comp500"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "ced2fdb831b3c1bf834ba96774de9f848898f8535206740aa84eb0c7c2d8cda7"
+
+[versions]
+forge = "14.23.5.2860"
+minecraft = "1.12.2"
+quilt = "0.17.0"

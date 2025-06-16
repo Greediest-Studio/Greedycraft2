@@ -1,0 +1,13 @@
+name = "Whoops"
+filename = "whoops-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "983173c1db3fd10077e3bf07ec27c4fafedd2113"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 2674335
+project-id = 314093
