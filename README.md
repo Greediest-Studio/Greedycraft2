@@ -3,10 +3,9 @@
 启动器只推荐hmcl和prism，不支持pcl
 
 
+仓库中目前添加了crl非官方启动器，第一次启动游戏的时候用默认的forge和java8，
 
-仓库中目前的版本需要crl3.0+，并且安装后需要删除.minecraft\libraries\org\lwjgl\lwjgl\lwjgl这个路径下的2.9.4-nightly-20150209文件夹
-
-目前在尝试让游戏兼容从forge到crl最新版的版本
+启动后的gui中设置使用crl版本和java路径，后续直接启动就是crl版本了。
 
 最近主要集中处理一些性能问题和优化，所以仓库的基本没法正常玩，暂时不要下载
 
