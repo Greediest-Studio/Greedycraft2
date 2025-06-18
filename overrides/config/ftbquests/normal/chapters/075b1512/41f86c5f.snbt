@@ -1,0 +1,38 @@
+{
+	title: "§b航天员 IX",
+	x: 4.0d,
+	y: 13.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"b5ff65cc"
+	],
+	tasks: [{
+		uid: "5aac6635",
+		type: "stat",
+		icon: "minecraft:elytra",
+		stat: "stat.flyOneCm",
+		value: 300000000
+	}],
+	rewards: [{
+		uid: "f19b16b4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "762450fa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	}]
+}

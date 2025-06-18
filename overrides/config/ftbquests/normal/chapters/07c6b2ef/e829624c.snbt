@@ -1,0 +1,29 @@
+{
+	title: "§b收归铸币权",
+	x: -22.0d,
+	y: -9.0d,
+	description: "制作升级：通货铸造授权",
+	text: [
+		""
+	],
+	dependencies: [
+		"4b5bff63"
+	],
+	tasks: [{
+		uid: "f41702c2",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 336"
+		}]
+	}],
+	rewards: [{
+		uid: "10b6686d",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "4c79f582",
+		type: "xp",
+		xp: 1000
+	}]
+}

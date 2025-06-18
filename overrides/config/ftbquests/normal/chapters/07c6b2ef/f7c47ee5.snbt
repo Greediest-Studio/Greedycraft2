@@ -1,0 +1,42 @@
+{
+	title: "§b瓦特给我托梦了",
+	x: -4.5d,
+	y: -15.0d,
+	description: "制作蒸汽能源炉",
+	text: [
+		""
+	],
+	dependencies: [
+		"21e1125d"
+	],
+	tasks: [{
+		uid: "467671fa",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				Facing: 1b,
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9941b05f",
+		type: "item",
+		item: "minecraft:coal_block",
+		count: 4
+	},
+	{
+		uid: "b19381fb",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "dd28733b",
+		type: "random",
+		table: 1
+	}]
+}

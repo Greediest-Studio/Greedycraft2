@@ -1,0 +1,35 @@
+{
+	title: "§b繁星链接",
+	x: -6.0d,
+	y: 3.5d,
+	description: "合成星链合金锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"518ac07a"
+	],
+	tasks: [{
+		uid: "1d1c4113",
+		type: "item",
+		items: [{
+			item: "additions:starchain_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "9c5dd4fb",
+		type: "item",
+		item: "additions:starchain_ingot",
+		count: 2
+	},
+	{
+		uid: "bab157b0",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "4fe0a657",
+		type: "xp",
+		xp: 10000
+	}]
+}

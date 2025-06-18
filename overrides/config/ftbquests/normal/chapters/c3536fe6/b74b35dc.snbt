@@ -1,0 +1,27 @@
+{
+	title: "§b深层之地",
+	x: -2.5d,
+	y: 2.5d,
+	description: "进入噬渊",
+	text: [
+		""
+	],
+	dependencies: [
+		"1566e5f5"
+	],
+	tasks: [{
+		uid: "58dd579b",
+		type: "dimension",
+		dim: 821
+	}],
+	rewards: [{
+		uid: "ba158831",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "37855616",
+		type: "xp",
+		xp: 3000
+	}]
+}

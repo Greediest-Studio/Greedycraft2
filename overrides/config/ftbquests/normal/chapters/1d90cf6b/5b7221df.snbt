@@ -1,0 +1,23 @@
+{
+	title: "通量凝结器",
+	icon: {
+		id: "thermalexpansion:florb",
+		Damage: 1s,
+		tag: {
+			Fluid: "flux"
+		}
+	},
+	x: 4.0d,
+	y: 3.0d,
+	description: "液化能量",
+	dependencies: [
+		"2e3ef671"
+	],
+	tasks: [{
+		uid: "eb5c49a8",
+		type: "item",
+		items: [{
+			item: "modularmachinery:flux_melter_controller"
+		}]
+	}]
+}

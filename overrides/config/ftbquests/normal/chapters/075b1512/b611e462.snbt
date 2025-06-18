@@ -1,0 +1,68 @@
+{
+	title: "§b疯狂输出 II",
+	x: -2.0d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"d251850c"
+	],
+	tasks: [{
+		uid: "54feb2af",
+		type: "stat",
+		icon: "minecraft:stone_axe",
+		stat: "stat.damageDealt",
+		value: 8000000
+	}],
+	rewards: [{
+		uid: "7ab7b4a7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "81c3cf2f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "98bc314e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "5f7dafef",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "ce253b1e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "§b黑暗将至",
+	x: -4.5d,
+	y: 2.5d,
+	description: "合成噬渊结界石，使用阴暗宝石激活传送门",
+	text: [
+		""
+	],
+	dependencies: [
+		"c8282a84",
+		"aec834b9"
+	],
+	tasks: [{
+		uid: "e3ced1f5",
+		type: "item",
+		items: [{
+			item: "journey:depthsportalframe"
+		}]
+	},
+	{
+		uid: "2a4a177e",
+		type: "item",
+		items: [{
+			item: "journey:darkgem"
+		}],
+		count: 12L
+	}],
+	rewards: [{
+		uid: "23d60791",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "4beefb90",
+		type: "xp",
+		xp: 2000
+	}]
+}

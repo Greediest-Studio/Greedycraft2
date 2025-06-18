@@ -1,0 +1,40 @@
+{
+	title: "§b银光璀璨",
+	x: 6.5d,
+	y: 0.0d,
+	description: "合成精灵魔力发射器",
+	text: [
+		""
+	],
+	dependencies: [
+		"f5b9401b"
+	],
+	tasks: [{
+		uid: "1f81176f",
+		type: "item",
+		items: [{
+			item: "botania:spreader 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "22f23395",
+		type: "item",
+		item: "botania:dreamwood",
+		count: 12
+	},
+	{
+		uid: "f9ef78d8",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "a9e9a71c",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "44631f6a",
+		type: "item",
+		item: "botania:blacklotus 1 1"
+	}]
+}

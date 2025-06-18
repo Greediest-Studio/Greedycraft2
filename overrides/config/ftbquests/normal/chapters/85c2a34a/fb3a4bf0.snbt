@@ -1,0 +1,25 @@
+{
+	x: 5.5d,
+	y: 8.0d,
+	description: "制作一个匠艺蓝图",
+	dependencies: [
+		"b5ab2c55"
+	],
+	tasks: [{
+		uid: "7fc296b5",
+		type: "item",
+		items: [{
+			item: "additions:blueprint_tinkering"
+		}]
+	}],
+	rewards: [{
+		uid: "5c7f1aa2",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "a4dc995a",
+		type: "xp",
+		xp: 5000
+	}]
+}

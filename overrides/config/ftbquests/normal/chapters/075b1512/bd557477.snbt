@@ -1,0 +1,68 @@
+{
+	title: "§b旅行家 IV",
+	x: -3.5d,
+	y: 5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"e750f23b"
+	],
+	tasks: [{
+		uid: "94f71d17",
+		type: "stat",
+		icon: "minecraft:golden_leggings",
+		stat: "stat.walkOneCm",
+		value: 10000000
+	}],
+	rewards: [{
+		uid: "1a427356",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "7b72f361",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "ddc6be0d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "7e19fee0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "60a48fe8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	}]
+}

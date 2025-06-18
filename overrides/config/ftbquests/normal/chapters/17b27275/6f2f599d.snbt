@@ -1,0 +1,29 @@
+{
+	title: "§b哭泣蓝花",
+	x: -2.0d,
+	y: 4.5d,
+	description: "量产哭泣蓝花花瓣",
+	text: [
+		"哭泣蓝花种植方法与其他交错植株相同，同时其会向四周泥土蔓延出新植株"
+	],
+	dependencies: [
+		"1cde6d86"
+	],
+	tasks: [{
+		uid: "b30335bd",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:weeping_blue"
+		}]
+	}],
+	rewards: [{
+		uid: "5d50f9a7",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "7f14622c",
+		type: "xp",
+		xp: 3000
+	}]
+}

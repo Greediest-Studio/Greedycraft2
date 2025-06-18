@@ -1,0 +1,34 @@
+{
+	title: "§b这东西一共可以加六个",
+	x: -7.5d,
+	y: 6.0d,
+	description: "获得林业框架外壳",
+	text: [
+		""
+	],
+	dependencies: [
+		"61895969"
+	],
+	tasks: [{
+		uid: "f4656fad",
+		type: "item",
+		items: [{
+			item: "extrabees:alveary 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "a0bfd019",
+		type: "item",
+		item: "extrabees:alveary 1 1"
+	},
+	{
+		uid: "4e33a876",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "aacbbec9",
+		type: "loot",
+		table: 2
+	}]
+}

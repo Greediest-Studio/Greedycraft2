@@ -1,0 +1,45 @@
+{
+	title: "§b它的温度究竟是多少？！！",
+	x: -18.5d,
+	y: -16.0d,
+	description: "制作熔岩炉",
+	text: [
+		""
+	],
+	dependencies: [
+		"56ae2c57"
+	],
+	tasks: [{
+		uid: "b86a6120",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 6s,
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "171728f7",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "cad53584",
+		type: "xp",
+		xp: 450
+	}]
+}

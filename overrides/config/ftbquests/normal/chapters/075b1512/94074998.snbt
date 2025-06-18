@@ -1,0 +1,38 @@
+{
+	title: "§b持之以恒 IX",
+	x: -6.5d,
+	y: 13.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a740cabc"
+	],
+	tasks: [{
+		uid: "b4ae6085",
+		type: "stat",
+		icon: "abyssalcraft:ethaxiumhelmet",
+		stat: "stat.playOneMinute",
+		value: 43200000
+	}],
+	rewards: [{
+		uid: "bfb0c73b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "b1bcb1a0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "冷凝液化机",
+	icon: {
+		id: "thermalexpansion:florb",
+		tag: {
+			Fluid: "condensate_water"
+		}
+	},
+	x: 0.0d,
+	y: 4.0d,
+	description: "我猜你要做气钢对不对（笑",
+	dependencies: [
+		"5f02df0f"
+	],
+	tasks: [{
+		uid: "14b0d42b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:condensation_liquefactor_controller"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

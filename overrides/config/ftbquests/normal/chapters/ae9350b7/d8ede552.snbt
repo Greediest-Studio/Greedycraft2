@@ -1,0 +1,40 @@
+{
+	title: "§b时间加速",
+	tags: [
+		"challenge"
+	],
+	x: 12.0d,
+	y: 15.0d,
+	description: "制作时间之瓶",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "6cf54b9f",
+		type: "item",
+		items: [{
+			id: "randomthings:timeinabottle",
+			tag: {
+				timeData: {}
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "45d9ecf2",
+		type: "item",
+		item: "additions:time_shard",
+		count: 4
+	},
+	{
+		uid: "d846b00a",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "244dbcd5",
+		type: "xp",
+		xp: 1800
+	}]
+}

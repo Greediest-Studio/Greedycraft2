@@ -1,0 +1,38 @@
+{
+	title: "§b献给众神的礼物",
+	x: 0.5d,
+	y: 1.0d,
+	description: "获得供桌",
+	dependencies: [
+		"1c43f13e"
+	],
+	tasks: [{
+		uid: "14fb14f0",
+		type: "item",
+		items: [{
+			id: "naturesaura:offering_table",
+			ForgeCaps: {
+				"distinctdamagedescriptions:dmgdistribution": [{
+					type: "ddd_bludgeoning",
+					weight: 1.0f
+				}]
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "52850af1",
+		type: "item",
+		item: "minecraft:red_flower",
+		count: 36
+	},
+	{
+		uid: "47832158",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "040c79f9",
+		type: "random",
+		table: 2
+	}]
+}

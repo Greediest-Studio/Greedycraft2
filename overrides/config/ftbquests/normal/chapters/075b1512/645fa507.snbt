@@ -1,0 +1,68 @@
+{
+	title: "§b旅行家 X",
+	x: -3.5d,
+	y: 14.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"1f769701"
+	],
+	tasks: [{
+		uid: "4fe129bb",
+		type: "stat",
+		icon: "avaritia:infinity_pants",
+		stat: "stat.walkOneCm",
+		value: 100000000
+	}],
+	rewards: [{
+		uid: "e07c3f7c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "bcce1346",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "964835bd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "7f9e7fe9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "4b95f858",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	}]
+}

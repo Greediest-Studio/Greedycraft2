@@ -1,0 +1,36 @@
+{
+	title: "§b升级你的撕裂法杖！",
+	x: 7.0d,
+	y: -1.5d,
+	description: "升级撕裂法杖至深渊荒原级别",
+	text: [
+		""
+	],
+	dependencies: [
+		"12d6bbd8"
+	],
+	tasks: [{
+		uid: "de5d22f8",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:drainstaff 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6ab7ef85",
+		type: "item",
+		item: "abyssalcraft:essence",
+		count: 2
+	},
+	{
+		uid: "b0bc21cd",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "fd15e7d0",
+		type: "random",
+		table: 1
+	}]
+}

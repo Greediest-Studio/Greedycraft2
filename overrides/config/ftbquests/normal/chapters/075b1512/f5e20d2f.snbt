@@ -1,0 +1,83 @@
+{
+	title: "§b倍矿狂魔 II",
+	x: 7.0d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"c0d1d882"
+	],
+	tasks: [{
+		uid: "26696c33",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 1s,
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "8ecd6c9e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "09348540",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "b8aa18e2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "4d6b25f6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "1c370326",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	}]
+}

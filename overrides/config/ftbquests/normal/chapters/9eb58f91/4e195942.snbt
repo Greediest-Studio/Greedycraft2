@@ -1,0 +1,39 @@
+{
+	title: "§b黑色的天外来物",
+	x: -15.5d,
+	y: 2.0d,
+	description: "在世界中寻找并采集陨石",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "a8b3a42b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:sky_stone_block"
+		}]
+	}],
+	rewards: [{
+		uid: "2f835005",
+		type: "item",
+		item: "appliedenergistics2:smooth_sky_stone_block",
+		count: 64
+	},
+	{
+		uid: "10468af2",
+		type: "item",
+		item: "appliedenergistics2:material 1 5",
+		count: 16,
+		random_bonus: 16
+	},
+	{
+		uid: "2ab4e31c",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "df1e98b8",
+		type: "random",
+		table: 1
+	}]
+}

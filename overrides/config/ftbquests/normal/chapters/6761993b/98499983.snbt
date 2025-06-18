@@ -1,0 +1,32 @@
+{
+	title: "§b灌输什么东西？",
+	x: -3.5d,
+	y: 1.5d,
+	description: "制作灌输石板",
+	dependencies: [
+		"4c9da309"
+	],
+	tasks: [{
+		uid: "0f82841b",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "f882e4b8",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "c0e97ed3",
+		type: "xp",
+		xp: 1250
+	},
+	{
+		uid: "5d11ee2c",
+		type: "item",
+		item: "bloodmagic:slate 1 2",
+		count: 8
+	}]
+}

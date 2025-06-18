@@ -1,0 +1,35 @@
+{
+	title: "§b夕阳红电路板",
+	x: -8.0d,
+	y: 2.0d,
+	description: "制作高级控制电路",
+	text: [
+		""
+	],
+	dependencies: [
+		"5fbde51b",
+		"ad9ae3ed"
+	],
+	tasks: [{
+		uid: "1f396f0e",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "e81962d7",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "649b9b90",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "1b51df22",
+		type: "item",
+		item: "mekanism:controlcircuit 1 1"
+	}]
+}

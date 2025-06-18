@@ -1,0 +1,25 @@
+{
+	x: 5.5d,
+	y: 7.0d,
+	description: "制作一个饰品蓝图",
+	dependencies: [
+		"b5ab2c55"
+	],
+	tasks: [{
+		uid: "bb62b60b",
+		type: "item",
+		items: [{
+			item: "additions:blueprint_ring"
+		}]
+	}],
+	rewards: [{
+		uid: "1e3fbace",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "47f3ebdc",
+		type: "xp",
+		xp: 5000
+	}]
+}

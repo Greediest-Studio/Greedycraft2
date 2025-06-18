@@ -1,0 +1,35 @@
+{
+	title: "§b凝结明月",
+	x: 1.5d,
+	y: -19.0d,
+	description: "获得月凝晶",
+	text: [
+		""
+	],
+	dependencies: [
+		"d2324613"
+	],
+	tasks: [{
+		uid: "b4b75bc9",
+		type: "item",
+		items: [{
+			item: "theaurorian:crystallineingot"
+		}]
+	}],
+	rewards: [{
+		uid: "4eb5e9b1",
+		type: "item",
+		item: "theaurorian:crystallineingot",
+		count: 4
+	},
+	{
+		uid: "f5e8ab65",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "a879a45e",
+		type: "xp",
+		xp: 1000
+	}]
+}

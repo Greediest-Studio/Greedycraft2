@@ -1,0 +1,15 @@
+{
+	title: "利用腐化残留",
+	x: -5.5d,
+	y: 5.0d,
+	dependencies: [
+		"01dabd26"
+	],
+	tasks: [{
+		uid: "52167a51",
+		type: "item",
+		items: [{
+			item: "packagedthaumic:reinforced_porous_stone"
+		}]
+	}]
+}

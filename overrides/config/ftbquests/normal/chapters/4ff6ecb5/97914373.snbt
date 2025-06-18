@@ -1,0 +1,32 @@
+{
+	title: "深入邪术",
+	x: 9.5d,
+	y: 2.0d,
+	description: "扭曲....",
+	dependencies: [
+		"5673aa32"
+	],
+	tasks: [{
+		uid: "43cb862b",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:research_notes"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7d03c2e6",
+		type: "item",
+		item: "thaumcraft:curio 1 3"
+	},
+	{
+		uid: "9046fc97",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "a1c3fd62",
+		type: "xp",
+		xp: 100
+	}]
+}

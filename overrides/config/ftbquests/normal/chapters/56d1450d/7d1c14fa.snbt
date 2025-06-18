@@ -1,0 +1,45 @@
+{
+	title: "§b先进电子板",
+	x: -13.5d,
+	y: -4.5d,
+	description: "获得先进电子板",
+	text: [
+		""
+	],
+	dependencies: [
+		"e4e83c3f"
+	],
+	tasks: [{
+		uid: "69541ad6",
+		type: "item",
+		items: [{
+			id: "forestry:chipsets",
+			Damage: 3s,
+			tag: {
+				T: 3s
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0e5c926e",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 16
+	},
+	{
+		uid: "a639640a",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 64
+	},
+	{
+		uid: "6c901ee2",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "91aec244",
+		type: "loot",
+		table: 1
+	}]
+}

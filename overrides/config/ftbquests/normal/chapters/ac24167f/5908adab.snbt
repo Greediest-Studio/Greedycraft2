@@ -1,0 +1,40 @@
+{
+	title: "§b徽章诞生了情绪？",
+	x: -5.5d,
+	y: 2.0d,
+	description: "获得快乐徽章",
+	dependencies: [
+		"900c86e8",
+		"d276439f",
+		"67c36769"
+	],
+	tasks: [{
+		uid: "b579f9f1",
+		type: "item",
+		items: [{
+			id: "naturesaura:token_joy",
+			ForgeCaps: {
+				"distinctdamagedescriptions:dmgdistribution": [{
+					type: "ddd_bludgeoning",
+					weight: 1.0f
+				}]
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "9da95a90",
+		type: "item",
+		item: "naturesaura:token_joy",
+		count: 4
+	},
+	{
+		uid: "57ea39f5",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "31b2847a",
+		type: "random",
+		table: 2
+	}]
+}

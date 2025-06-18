@@ -1,0 +1,47 @@
+{
+	title: "§b压榨剩余价值",
+	x: 7.5d,
+	y: -16.0d,
+	description: "合成粉碎器，用于将极光/本影/月凝晶装备还原为碎片",
+	text: [
+		""
+	],
+	dependencies: [
+		"3ca720ff"
+	],
+	tasks: [{
+		uid: "0a13f18f",
+		type: "item",
+		items: [{
+			item: "theaurorian:scrapper"
+		}]
+	}],
+	rewards: [{
+		uid: "02db9993",
+		type: "item",
+		item: {
+			id: "theaurorian:crystallinesword",
+			tag: {
+				display: {
+					Name: "试试？"
+				}
+			}
+		}
+	},
+	{
+		uid: "134b305c",
+		type: "item",
+		item: "theaurorian:ceruleaningot",
+		count: 5
+	},
+	{
+		uid: "06d4829d",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "3f7aa50c",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "§b用于发射魔力的装置",
+	x: -2.5d,
+	y: 0.0d,
+	description: "制作魔力发射器",
+	text: [
+		""
+	],
+	dependencies: [
+		"15d81249"
+	],
+	tasks: [{
+		uid: "d70c49ff",
+		type: "item",
+		items: [{
+			item: "botania:spreader"
+		}]
+	}],
+	rewards: [{
+		uid: "f070c4e3",
+		type: "item",
+		item: "botania:livingwood",
+		count: 12
+	},
+	{
+		uid: "878bdf23",
+		type: "xp",
+		xp: 60
+	},
+	{
+		uid: "5fc9dae5",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "3cd2ddfc",
+		type: "item",
+		item: "botania:blacklotus"
+	}]
+}

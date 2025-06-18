@@ -1,0 +1,68 @@
+{
+	title: "§b血流成河 VIII",
+	x: 2.5d,
+	y: 11.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"31d0a094"
+	],
+	tasks: [{
+		uid: "bd38b0b3",
+		type: "stat",
+		icon: "abyssalcraft:dreadiumplate",
+		stat: "stat.damageTaken",
+		value: 5000000
+	}],
+	rewards: [{
+		uid: "e309bbc5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "6a4211e3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "32977876",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "657c893a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "6a884c11",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	}]
+}

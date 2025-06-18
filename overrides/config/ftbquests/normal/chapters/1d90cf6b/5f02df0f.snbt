@@ -1,0 +1,24 @@
+{
+	title: "进阶装配室",
+	x: -1.0d,
+	y: 0.0d,
+	description: "来自下界与末地的材料引起了你的兴趣，你决定再次升级装配室",
+	dependencies: [
+		"0789f3f5"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "1461c1f5",
+		type: "item",
+		items: [{
+			item: "modularmachinery:builder_3_controller"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a0165809",
+		type: "loot",
+		table: 2
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "§b旅行家 I",
+	x: -3.5d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "177134b9",
+		type: "stat",
+		icon: "minecraft:leather_leggings",
+		stat: "stat.walkOneCm",
+		value: 200000
+	}],
+	rewards: [{
+		uid: "d870986d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "1c99f9e5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	}]
+}

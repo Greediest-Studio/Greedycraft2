@@ -12,41 +12,25 @@ import crafttweaker.item.IIngredient;
 import scripts.util.recipes as RecipeUtil;
 
 RecipeUtil.addModeRecipe("mm_upgrade_t4", <modularmachinery:blockcasing:5>, [
-    [<ore:ingotChromasteel>, <ore:ingotModularium>, <ore:ingotChromasteel>],
-    [<ore:ingotModularium>, <modularmachinery:blockcasing:3>, <ore:ingotModularium>], 
-    [<ore:ingotChromasteel>, <ore:ingotModularium>, <ore:ingotChromasteel>]
-], [
     [<ore:blockChromasteel>, <ore:ingotModularium>, <ore:blockChromasteel>],
-    [<ore:ingotModularium>, <modularmachinery:blockcasing:3>, <ore:ingotModularium>], 
+    [<ore:ingotModularium>, <modularmachinery:blockcasing:3>, <ore:ingotModularium>],
     [<ore:blockChromasteel>, <ore:ingotModularium>, <ore:blockChromasteel>]
 ]);
 
 RecipeUtil.addModeRecipe("mm_upgrade_t3", <modularmachinery:blockcasing:3>, [
-    [<ore:ingotAeonsteel>, <ore:ingotModularium>, <ore:ingotAeonsteel>],
-    [<ore:ingotModularium>, <modularmachinery:blockcasing:2>, <ore:ingotModularium>], 
-    [<ore:ingotAeonsteel>, <ore:ingotModularium>, <ore:ingotAeonsteel>]
-], [
     [<ore:blockAeonsteel>, <ore:ingotModularium>, <ore:blockAeonsteel>],
-    [<ore:ingotModularium>, <modularmachinery:blockcasing:2>, <ore:ingotModularium>], 
+    [<ore:ingotModularium>, <modularmachinery:blockcasing:2>, <ore:ingotModularium>],
     [<ore:blockAeonsteel>, <ore:ingotModularium>, <ore:blockAeonsteel>]
 ]);
 
 RecipeUtil.addModeRecipe("mm_upgrade_t2", <modularmachinery:blockcasing:2>, [
-    [<ore:ingotDurasteel>, <ore:ingotModularium>, <ore:ingotDurasteel>],
-    [<ore:ingotModularium>, <modularmachinery:blockcasing:1>, <ore:ingotModularium>], 
-    [<ore:ingotDurasteel>, <ore:ingotModularium>, <ore:ingotDurasteel>]
-], [
     [<ore:blockDurasteel>, <ore:ingotModularium>, <ore:blockDurasteel>],
-    [<ore:ingotModularium>, <modularmachinery:blockcasing:1>, <ore:ingotModularium>], 
+    [<ore:ingotModularium>, <modularmachinery:blockcasing:1>, <ore:ingotModularium>],
     [<ore:blockDurasteel>, <ore:ingotModularium>, <ore:blockDurasteel>]
 ]);
 
 RecipeUtil.addModeRecipe("mm_upgrade_t1", <modularmachinery:blockcasing:1>, [
-    [<ore:ingotStainlessSteel>, <ore:ingotModularium>, <ore:ingotStainlessSteel>],
-    [<ore:ingotModularium>, <modularmachinery:blockcasing:4>, <ore:ingotModularium>], 
-    [<ore:ingotStainlessSteel>, <ore:ingotModularium>, <ore:ingotStainlessSteel>]
-], [
     [<ore:blockStainlessSteel>, <ore:ingotModularium>, <ore:blockStainlessSteel>],
-    [<ore:ingotModularium>, <modularmachinery:blockcasing:4>, <ore:ingotModularium>], 
+    [<ore:ingotModularium>, <modularmachinery:blockcasing:4>, <ore:ingotModularium>],
     [<ore:blockStainlessSteel>, <ore:ingotModularium>, <ore:blockStainlessSteel>]
 ]);

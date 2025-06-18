@@ -1,0 +1,29 @@
+{
+	title: "§b宝石发电",
+	x: -2.0d,
+	y: -18.5d,
+	description: "制作升级：宝石印刻校准",
+	text: [
+		"宝石也可以发电，不过貌似只支持宝石。。。"
+	],
+	dependencies: [
+		"682b9651"
+	],
+	tasks: [{
+		uid: "b52fb249",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 720"
+		}]
+	}],
+	rewards: [{
+		uid: "4840451e",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "7bdce5a4",
+		type: "xp",
+		xp: 1000
+	}]
+}

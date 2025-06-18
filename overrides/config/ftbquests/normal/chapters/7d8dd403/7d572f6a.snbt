@@ -1,0 +1,35 @@
+{
+	title: "§b末影龙之力",
+	x: 5.5d,
+	y: 5.5d,
+	description: "获得龙尘",
+	text: [
+		""
+	],
+	dependencies: [
+		"a29a289d"
+	],
+	tasks: [{
+		uid: "7312e103",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_dust"
+		}]
+	}],
+	rewards: [{
+		uid: "185c137d",
+		type: "item",
+		item: "draconicevolution:draconium_dust",
+		count: 64
+	},
+	{
+		uid: "1dcb0128",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "bdac5a3c",
+		type: "random",
+		table: 2
+	}]
+}

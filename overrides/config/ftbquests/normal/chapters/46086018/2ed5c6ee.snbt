@@ -1,0 +1,38 @@
+{
+	title: "§b紫水晶！",
+	x: 8.0d,
+	y: -5.5d,
+	description: "挖掘紫晶矿石，获得紫晶石",
+	text: [
+		""
+	],
+	dependencies: [
+		"879b4bb7"
+	],
+	tasks: [{
+		uid: "87c4b3be",
+		type: "item",
+		items: [{
+			id: "aether_legacy:zanite_gemstone",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "bc0d6cb0",
+		type: "item",
+		item: "aether_legacy:zanite_gemstone",
+		count: 16
+	},
+	{
+		uid: "4a579b77",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "a6a882b5",
+		type: "random",
+		table: 1
+	}]
+}

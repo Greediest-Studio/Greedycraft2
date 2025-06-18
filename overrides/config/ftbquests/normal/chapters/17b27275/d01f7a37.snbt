@@ -1,0 +1,36 @@
+{
+	title: "§b培养的理由",
+	x: -3.5d,
+	y: 3.0d,
+	description: "获得一桶木桶装植物营养剂",
+	text: [
+		"工作台的配方是错误的"
+	],
+	dependencies: [
+		"652908d1",
+		"1cde6d86",
+		"de0e3acd",
+		"c0c0946e"
+	],
+	tasks: [{
+		uid: "1a5eb852",
+		type: "item",
+		items: [{
+			id: "thebetweenlands:bl_bucket_plant_tonic",
+			tag: {
+				usages: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c55ca3ac",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "ca01e7f9",
+		type: "xp",
+		xp: 8000
+	}]
+}

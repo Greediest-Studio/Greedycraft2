@@ -1,0 +1,35 @@
+{
+	title: "§b激光传导",
+	x: -9.5d,
+	y: -6.0d,
+	description: "制作激光聚焦矩阵",
+	text: [
+		""
+	],
+	dependencies: [
+		"97cdb294"
+	],
+	tasks: [{
+		uid: "c0546b5d",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactorglass 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "9b772a56",
+		type: "item",
+		item: "mekanismgenerators:reactor 1 1",
+		count: 8
+	},
+	{
+		uid: "7f23f3fb",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "367b1091",
+		type: "loot",
+		table: 2
+	}]
+}

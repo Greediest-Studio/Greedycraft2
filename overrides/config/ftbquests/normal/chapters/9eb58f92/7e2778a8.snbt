@@ -1,0 +1,25 @@
+{
+	x: -18.5d,
+	y: 0.0d,
+	description: "制作溶解机",
+	dependencies: [
+		"2c6906dc"
+	],
+	tasks: [{
+		uid: "99c9a21a",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:enricher"
+		}]
+	}],
+	rewards: [{
+		uid: "836f2d43",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "74010fe2",
+		type: "xp",
+		xp: 500
+	}]
+}

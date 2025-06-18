@@ -1,0 +1,47 @@
+{
+	title: "§b特殊的炉子",
+	x: -4.5d,
+	y: -13.0d,
+	description: "制作压缩能源炉",
+	text: [
+		""
+	],
+	dependencies: [
+		"21e1125d"
+	],
+	tasks: [{
+		uid: "d250d671",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			Damage: 2s,
+			tag: {
+				Facing: 1b,
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "91ada1e0",
+		type: "item",
+		item: {
+			id: "thermalexpansion:florb",
+			tag: {
+				Fluid: "crude_oil"
+			}
+		}
+	},
+	{
+		uid: "34f4599c",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "d2213713",
+		type: "random",
+		table: 1
+	}]
+}

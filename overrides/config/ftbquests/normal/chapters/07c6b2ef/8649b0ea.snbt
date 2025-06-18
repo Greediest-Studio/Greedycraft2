@@ -1,0 +1,34 @@
+{
+	title: "§b最强升级套件",
+	x: -8.5d,
+	y: -27.5d,
+	description: "制作谐振升级套件",
+	text: [
+		"在信素机器上使用可以升级为谐振"
+	],
+	dependencies: [
+		"937ba3ca"
+	],
+	tasks: [{
+		uid: "19c31a7b",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "ad5499ae",
+		type: "item",
+		item: "thermalfoundation:upgrade 1 35"
+	},
+	{
+		uid: "16862ae9",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "cffe6e7c",
+		type: "xp",
+		xp: 1000
+	}]
+}

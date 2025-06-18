@@ -1,0 +1,36 @@
+{
+	title: "§b木质的？",
+	x: -4.5d,
+	y: 3.0d,
+	description: "获得纤维蜂窝",
+	text: [
+		""
+	],
+	dependencies: [
+		"96045c5a",
+		"276f72e1"
+	],
+	tasks: [{
+		uid: "8a4608b5",
+		type: "item",
+		items: [{
+			item: "forestry:bee_combs 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "49e925e4",
+		type: "item",
+		item: "forestry:bee_combs 1 3",
+		count: 16
+	},
+	{
+		uid: "93be4fbb",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "3206312a",
+		type: "loot",
+		table: 2
+	}]
+}

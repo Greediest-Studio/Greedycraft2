@@ -1,0 +1,26 @@
+{
+	title: "§b一方水世界……",
+	x: -8.5d,
+	y: -1.5d,
+	description: "制作花药台",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "bef6236c",
+		type: "item",
+		items: [{
+			item: "botania:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "6dbee241",
+		type: "xp",
+		xp: 20
+	},
+	{
+		uid: "e91a65bb",
+		type: "random",
+		table: 0
+	}]
+}

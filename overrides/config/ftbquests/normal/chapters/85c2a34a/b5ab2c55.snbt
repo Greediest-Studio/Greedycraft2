@@ -1,0 +1,25 @@
+{
+	x: 3.0d,
+	y: 6.5d,
+	description: "制作一个空白蓝图",
+	dependencies: [
+		"518ac07a"
+	],
+	tasks: [{
+		uid: "3173b2b4",
+		type: "item",
+		items: [{
+			item: "additions:blueprint"
+		}]
+	}],
+	rewards: [{
+		uid: "a9938359",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "4d3c4595",
+		type: "xp",
+		xp: 2000
+	}]
+}

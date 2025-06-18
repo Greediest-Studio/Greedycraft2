@@ -1,0 +1,29 @@
+{
+	title: "§b双倍产矿",
+	x: -20.5d,
+	y: -9.0d,
+	description: "制作升级：通量阳极电镀",
+	text: [
+		"两倍产矿"
+	],
+	dependencies: [
+		"1c4f2b80"
+	],
+	tasks: [{
+		uid: "c348995f",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 257"
+		}]
+	}],
+	rewards: [{
+		uid: "ab90b1a7",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "781b7a13",
+		type: "xp",
+		xp: 1000
+	}]
+}

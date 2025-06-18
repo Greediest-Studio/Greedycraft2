@@ -1,0 +1,57 @@
+{
+	title: "§b你要堆一个雪人吗？",
+	x: -16.0d,
+	y: 11.5d,
+	description: "击杀冰雪女王",
+	text: [
+		""
+	],
+	dependencies: [
+		"6527eb51"
+	],
+	tasks: [{
+		uid: "ee15ff0a",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "521c3b80",
+		type: "item",
+		item: "twilightforest:ice_bow"
+	},
+	{
+		uid: "e11549dc",
+		type: "item",
+		item: "twilightforest:ice_sword"
+	},
+	{
+		uid: "00350d6a",
+		type: "item",
+		item: "thermalfoundation:material 1 1025",
+		count: 32
+	},
+	{
+		uid: "8b2c3e0d",
+		type: "xp",
+		xp: 2500
+	},
+	{
+		uid: "90dee7ec",
+		type: "item",
+		item: "twilightforest:twilight_sapling 1 7"
+	},
+	{
+		uid: "41dfd186",
+		type: "advancement",
+		auto: "no_toast",
+		advancement: "twilightforest:progress_glacier",
+		criterion: ""
+	},
+	{
+		uid: "b5628260",
+		type: "random",
+		table: 2
+	}]
+}

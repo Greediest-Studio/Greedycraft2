@@ -1,0 +1,59 @@
+{
+	title: "§b挑战者VIII",
+	icon: "additions:city_defender_medal 80",
+	tags: [
+		"challenge"
+	],
+	x: 16.5d,
+	y: 10.5d,
+	description: "完成80个挑战者任务",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "33b87f93",
+		type: "custom",
+		tags: [
+			"challenge8"
+		]
+	}],
+	rewards: [{
+		uid: "02382a7b",
+		type: "gamestage",
+		title: "WIP",
+		auto: "no_toast",
+		stage: "challenger_h"
+	},
+	{
+		uid: "c17d547f",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "16c1c6f4",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "a3a947a7",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "6dad07af",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "5dde05d5",
+		type: "item",
+		item: "additions:reward_ticket_legendary",
+		count: 6
+	},
+	{
+		uid: "325df649",
+		type: "item",
+		item: "additions:reward_ticket_myth",
+		count: 2
+	}]
+}

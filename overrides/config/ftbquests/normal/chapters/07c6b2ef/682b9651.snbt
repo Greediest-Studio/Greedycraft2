@@ -1,0 +1,42 @@
+{
+	title: "§b烧钱机器",
+	x: -2.0d,
+	y: -16.0d,
+	description: "制作通货能源炉",
+	text: [
+		""
+	],
+	dependencies: [
+		"21e1125d"
+	],
+	tasks: [{
+		uid: "40bd6255",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			Damage: 5s,
+			tag: {
+				Facing: 1b,
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2bb03e49",
+		type: "item",
+		item: "minecraft:emerald_block"
+	},
+	{
+		uid: "c6d5c52d",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "5945e82d",
+		type: "random",
+		table: 1
+	}]
+}

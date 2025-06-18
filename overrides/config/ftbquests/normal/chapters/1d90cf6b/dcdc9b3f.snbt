@@ -1,0 +1,19 @@
+{
+	title: "熔融矿机",
+	icon: "taiga:osram_ore",
+	x: 7.0d,
+	y: 4.0d,
+	description: "闪叠自由的一小步",
+	dependencies: [
+		"169361aa"
+	],
+	tasks: [{
+		uid: "c3db2474",
+		type: "item",
+		items: [{
+			item: "modularmachinery:miner_molten_controller"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

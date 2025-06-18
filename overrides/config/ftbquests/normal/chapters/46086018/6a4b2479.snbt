@@ -1,0 +1,29 @@
+{
+	title: "§b来自冰河时代",
+	icon: "minecraft:snow",
+	x: 3.5d,
+	y: -5.5d,
+	description: "进入冰晶雪原维度！",
+	text: [
+		"使用雪块搭建传送门，并用雪花球激活"
+	],
+	dependencies: [
+		"4c400631"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "c3a9ea25",
+		type: "dimension",
+		dim: 425
+	}],
+	rewards: [{
+		uid: "ac1860ba",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "a690164d",
+		type: "random",
+		table: 1
+	}]
+}

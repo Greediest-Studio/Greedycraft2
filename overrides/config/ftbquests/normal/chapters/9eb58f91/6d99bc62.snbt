@@ -1,0 +1,38 @@
+{
+	title: "§b可移动磁盘？",
+	x: -13.5d,
+	y: -2.0d,
+	description: "制作ME驱动器",
+	text: [
+		""
+	],
+	dependencies: [
+		"bb69a736"
+	],
+	tasks: [{
+		uid: "a57b0e96",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:drive"
+		}]
+	}],
+	rewards: [{
+		uid: "cdbbe139",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:storage_cell_16k",
+			tag: {}
+		},
+		count: 4
+	},
+	{
+		uid: "621152f0",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "43b76e8d",
+		type: "xp",
+		xp: 800
+	}]
+}

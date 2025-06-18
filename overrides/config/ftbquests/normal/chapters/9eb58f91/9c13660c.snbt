@@ -1,0 +1,31 @@
+{
+	title: "9格根本不够用",
+	x: -19.5d,
+	y: 0.0d,
+	dependencies: [
+		"a67a4c06"
+	],
+	tasks: [{
+		uid: "b4be73ef",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 341"
+		}]
+	}],
+	rewards: [{
+		uid: "bfac5a41",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "2a287ed9",
+		type: "item",
+		item: "appliedenergistics2:material 1 52",
+		count: 16
+	},
+	{
+		uid: "a1b6fb60",
+		type: "loot",
+		table: 1
+	}]
+}

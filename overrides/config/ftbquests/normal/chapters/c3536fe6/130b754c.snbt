@@ -1,0 +1,42 @@
+{
+	title: "§b毁灭世界",
+	x: -15.0d,
+	y: -11.0d,
+	description: "制作湮灭弹，用于召唤末日先驱萨托斯",
+	text: [
+		"你可以制作萨托斯的刷怪蛋，",
+		"也可以选择引燃湮灭弹（不过会产生核弹级爆炸，务必小心）"
+	],
+	dependencies: [
+		"44b97443"
+	],
+	tasks: [{
+		uid: "06801772",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:odb"
+		}]
+	}],
+	rewards: [{
+		uid: "090e3b94",
+		type: "item",
+		item: {
+			id: "minecraft:flint_and_steel",
+			tag: {
+				display: {
+					Name: "你在作死吗"
+				}
+			}
+		}
+	},
+	{
+		uid: "b3cb809a",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "7ab378d5",
+		type: "xp",
+		xp: 1000
+	}]
+}

@@ -1,0 +1,68 @@
+{
+	title: "§b旅行家 VI",
+	x: -3.5d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"c6b3f8ba"
+	],
+	tasks: [{
+		uid: "3aef8266",
+		type: "stat",
+		icon: "abyssalcraft:alegs",
+		stat: "stat.walkOneCm",
+		value: 25000000
+	}],
+	rewards: [{
+		uid: "3da4a20f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "4ba25aa6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "00106340",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "c3a95f1c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "0f69f6ed",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	}]
+}

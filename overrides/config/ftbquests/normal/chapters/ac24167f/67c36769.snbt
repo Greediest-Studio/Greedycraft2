@@ -1,0 +1,38 @@
+{
+	title: "§b森林仪式的基座",
+	x: -7.5d,
+	y: 1.0d,
+	description: "获得木墩",
+	dependencies: [
+		"76a1d5fc"
+	],
+	tasks: [{
+		uid: "863a2f38",
+		type: "item",
+		items: [{
+			id: "naturesaura:wood_stand",
+			ForgeCaps: {
+				"distinctdamagedescriptions:dmgdistribution": [{
+					type: "ddd_bludgeoning",
+					weight: 1.0f
+				}]
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "74e14960",
+		type: "item",
+		item: "naturesaura:wood_stand",
+		count: 8
+	},
+	{
+		uid: "d742e546",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "580a6a46",
+		type: "random",
+		table: 2
+	}]
+}

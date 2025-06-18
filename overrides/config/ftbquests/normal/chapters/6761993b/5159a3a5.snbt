@@ -1,0 +1,35 @@
+{
+	title: "§b鲜血注入金属",
+	x: -9.5d,
+	y: 5.5d,
+	description: "获得血炼铁锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"1011a4ec"
+	],
+	tasks: [{
+		uid: "f273b60b",
+		type: "item",
+		items: [{
+			item: "bloodarsenal:base_item 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "8b8305e4",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "595d05b7",
+		type: "item",
+		item: "bloodarsenal:base_item 1 4",
+		count: 3
+	},
+	{
+		uid: "f073cfa3",
+		type: "xp",
+		xp: 1250
+	}]
+}

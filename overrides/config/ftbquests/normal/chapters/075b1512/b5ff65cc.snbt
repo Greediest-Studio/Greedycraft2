@@ -1,0 +1,68 @@
+{
+	title: "§b航天员 VIII",
+	x: 4.0d,
+	y: 11.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"76f16c15"
+	],
+	tasks: [{
+		uid: "e2afbdfc",
+		type: "stat",
+		icon: "minecraft:elytra",
+		stat: "stat.flyOneCm",
+		value: 200000000
+	}],
+	rewards: [{
+		uid: "24610041",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "4ab420f8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "638f8160",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "2885e641",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "f5517cc4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	}]
+}

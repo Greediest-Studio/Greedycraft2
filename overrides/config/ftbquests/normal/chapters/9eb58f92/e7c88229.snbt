@@ -1,0 +1,29 @@
+{
+	title: "§b亚卡马西！",
+	x: 1.5d,
+	y: 4.0d,
+	description: "制作一个降噪升级",
+	text: [
+		"降低机器的噪声，最多放4个"
+	],
+	dependencies: [
+		"9b34a8ff"
+	],
+	tasks: [{
+		uid: "942e4c71",
+		type: "item",
+		items: [{
+			item: "mekanism:mufflingupgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "e40d1209",
+		type: "item",
+		item: "mekanism:mufflingupgrade"
+	},
+	{
+		uid: "ed8b3bf6",
+		type: "xp",
+		xp: 250
+	}]
+}

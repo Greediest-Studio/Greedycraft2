@@ -1,0 +1,38 @@
+{
+	title: "§b持之以恒 III",
+	x: -6.5d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"9a861eff"
+	],
+	tasks: [{
+		uid: "e68ce051",
+		type: "stat",
+		icon: "minecraft:iron_helmet",
+		stat: "stat.playOneMinute",
+		value: 1728000
+	}],
+	rewards: [{
+		uid: "6f135661",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "bf622d0d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	}]
+}

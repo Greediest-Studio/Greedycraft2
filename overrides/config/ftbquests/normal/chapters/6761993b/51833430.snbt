@@ -1,0 +1,40 @@
+{
+	title: "§b较大",
+	x: 2.5d,
+	y: -4.5d,
+	description: "制作[较大]地狱魂石",
+	dependencies: [
+		"0fe45f45"
+	],
+	tasks: [{
+		uid: "d20908e5",
+		type: "item",
+		items: [{
+			id: "bloodmagic:soul_gem",
+			Damage: 3s,
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "52f5ff09",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "ef599097",
+		type: "item",
+		item: {
+			id: "bloodmagic:soul_gem",
+			Damage: 2s,
+			tag: {
+				souls: 1024.0d
+			}
+		}
+	},
+	{
+		uid: "6ee19e33",
+		type: "xp",
+		xp: 1800
+	}]
+}

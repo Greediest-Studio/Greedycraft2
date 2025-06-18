@@ -1,0 +1,26 @@
+{
+	title: "集成五倍矿",
+	icon: {
+		id: "mekanism:machineblock3",
+		Damage: 7s,
+		tag: {
+			recipeType: 19
+		}
+	},
+	x: 1.0d,
+	y: 4.0d,
+	description: "5倍矿的终点",
+	dependencies: [
+		"5f02df0f"
+	],
+	tasks: [{
+		uid: "9c09b551",
+		type: "item",
+		icon: "modularmachinery:ore_5x_controller",
+		items: [{
+			item: "modularmachinery:ore_5x_controller"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

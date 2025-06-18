@@ -1,0 +1,36 @@
+{
+	title: "§b残破的创造之力！",
+	tags: [
+		"challenge"
+	],
+	x: 12.0d,
+	y: 7.5d,
+	description: "合成一个创造之魂碎片",
+	tasks: [{
+		uid: "7008affb",
+		type: "item",
+		items: [{
+			item: "additions:creative_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "722e5145",
+		type: "xp",
+		xp: 20000
+	},
+	{
+		uid: "b21b67ba",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "405be87a",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "6b67e04b",
+		type: "random",
+		table: 3
+	}]
+}

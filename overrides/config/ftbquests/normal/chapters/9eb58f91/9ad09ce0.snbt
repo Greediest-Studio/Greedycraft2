@@ -1,0 +1,35 @@
+{
+	title: "§b透明面板！",
+	x: -15.5d,
+	y: 0.0d,
+	description: "制作ME终端",
+	text: [
+		""
+	],
+	dependencies: [
+		"bb69a736"
+	],
+	tasks: [{
+		uid: "2f625609",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 380"
+		}]
+	}],
+	rewards: [{
+		uid: "a02212f0",
+		type: "item",
+		item: "appliedenergistics2:material 1 7",
+		count: 16
+	},
+	{
+		uid: "85e64889",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "17e5cbe5",
+		type: "xp",
+		xp: 1200
+	}]
+}

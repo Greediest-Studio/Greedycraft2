@@ -1,0 +1,29 @@
+{
+	title: "§b给注魔加buff？",
+	x: -0.5d,
+	y: 2.0d,
+	description: "制作注魔效能石或注魔加速石",
+	dependencies: [
+		"c11fbfe1"
+	],
+	tasks: [{
+		uid: "0395ad05",
+		type: "item",
+		items: [{
+			item: "thaumcraft:matrix_cost"
+		},
+		{
+			item: "thaumcraft:matrix_speed"
+		}]
+	}],
+	rewards: [{
+		uid: "392afd57",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "54204c37",
+		type: "loot",
+		table: 1
+	}]
+}

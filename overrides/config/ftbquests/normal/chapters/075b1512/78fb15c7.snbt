@@ -1,0 +1,65 @@
+{
+	title: "§b巨龙杀手 X",
+	icon: "minecraft:skull 1 5",
+	x: 1.0d,
+	y: 14.5d,
+	dependencies: [
+		"d1cf7a11"
+	],
+	tasks: [{
+		uid: "d32315ff",
+		type: "kill",
+		entity: "minecraft:ender_dragon",
+		value: 200L
+	}],
+	rewards: [{
+		uid: "6521807b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "bc4083d7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "1adb2a27",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "bc93995e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "fdb3c8a9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	}]
+}

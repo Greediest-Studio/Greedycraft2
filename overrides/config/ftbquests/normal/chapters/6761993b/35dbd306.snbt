@@ -1,0 +1,27 @@
+{
+	title: "§b诺言",
+	x: -5.5d,
+	y: 7.5d,
+	description: "制作坚韧的诺言I",
+	dependencies: [
+		"70853567"
+	],
+	tasks: [{
+		uid: "f27a0432",
+		type: "item",
+		items: [{
+			item: "evilcraft:promise"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d7cedadd",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "32d8b593",
+		type: "random",
+		table: 1
+	}]
+}

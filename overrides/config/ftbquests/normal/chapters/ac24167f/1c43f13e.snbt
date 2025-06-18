@@ -1,0 +1,38 @@
+{
+	title: "§b蕴含了灵气的铁锭",
+	x: -1.5d,
+	y: 2.0d,
+	description: "获得灌注铁锭",
+	dependencies: [
+		"aa265353"
+	],
+	tasks: [{
+		uid: "c49b8132",
+		type: "item",
+		items: [{
+			id: "naturesaura:infused_iron",
+			ForgeCaps: {
+				"distinctdamagedescriptions:dmgdistribution": [{
+					type: "ddd_bludgeoning",
+					weight: 1.0f
+				}]
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "7f89709e",
+		type: "item",
+		item: "naturesaura:infused_iron",
+		count: 4
+	},
+	{
+		uid: "3bcee591",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "00d1086a",
+		type: "random",
+		table: 2
+	}]
+}

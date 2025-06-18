@@ -1,0 +1,29 @@
+{
+	title: "§b噬渊篇！结束！",
+	x: 1.5d,
+	y: 1.0d,
+	description: "击杀噬渊巨鳞",
+	text: [
+		""
+	],
+	dependencies: [
+		"0eb829e7"
+	],
+	tasks: [{
+		uid: "6a6a7d2c",
+		type: "item",
+		items: [{
+			item: "journey:trophyscale"
+		}]
+	}],
+	rewards: [{
+		uid: "a2b615c7",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "c6739401",
+		type: "random",
+		table: 2
+	}]
+}

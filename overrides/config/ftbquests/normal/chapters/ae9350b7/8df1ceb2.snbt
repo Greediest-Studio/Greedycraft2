@@ -1,0 +1,47 @@
+{
+	title: "§b飞龙一般的",
+	tags: [
+		"challenge"
+	],
+	x: 12.0d,
+	y: 18.0d,
+	description: "制作极速向量板",
+	text: [
+		"我怎么在天上飞啊"
+	],
+	tasks: [{
+		uid: "7e4ab050",
+		type: "item",
+		items: [{
+			item: "darkutils:trap_move_hyper"
+		}]
+	}],
+	rewards: [{
+		uid: "4958f9de",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "8464089e",
+		type: "xp",
+		xp: 700
+	},
+	{
+		uid: "1231099a",
+		type: "item",
+		item: {
+			id: "cyclicmagic:charm_speed",
+			tag: {}
+		}
+	},
+	{
+		uid: "ce96da55",
+		type: "item",
+		item: {
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "cofhcore:swiftness4"
+			}
+		}
+	}]
+}

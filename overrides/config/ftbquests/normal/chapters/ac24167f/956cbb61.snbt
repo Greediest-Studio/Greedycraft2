@@ -1,0 +1,33 @@
+{
+	title: "§b汇聚了魔力和灵气的产物",
+	x: 4.5d,
+	y: 2.0d,
+	description: "获得神圣钢锭",
+	dependencies: [
+		"2fbf7ac5"
+	],
+	tasks: [{
+		uid: "ac332f51",
+		type: "item",
+		items: [{
+			item: "gct_mobs:holysteel_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "d07a7a39",
+		type: "item",
+		item: "gct_mobs:holysteel_ingot",
+		count: 4
+	},
+	{
+		uid: "0066a086",
+		type: "xp",
+		auto: "enabled",
+		xp: 6000
+	},
+	{
+		uid: "dfc11e79",
+		type: "random",
+		table: 3
+	}]
+}

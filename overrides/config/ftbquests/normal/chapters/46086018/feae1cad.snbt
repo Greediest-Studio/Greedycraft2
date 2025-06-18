@@ -1,0 +1,41 @@
+{
+	title: "§b热力学高峰",
+	x: -2.0d,
+	y: -12.0d,
+	description: "获得熔岩锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"a6bbe70a"
+	],
+	tasks: [{
+		uid: "9e7c4874",
+		type: "item",
+		items: [{
+			item: "divinerpg:netherite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "db59cf90",
+		type: "item",
+		item: "divinerpg:netherite_ingot",
+		count: 12,
+		random_bonus: 8
+	},
+	{
+		uid: "1b59cc2c",
+		type: "item",
+		item: "divinerpg:serenade_of_health"
+	},
+	{
+		uid: "68d52d9b",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "bab96899",
+		type: "xp",
+		xp: 600
+	}]
+}

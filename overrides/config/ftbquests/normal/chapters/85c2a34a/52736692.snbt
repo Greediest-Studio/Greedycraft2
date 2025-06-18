@@ -1,0 +1,39 @@
+{
+	title: "§b五彩斑斓的焦黑储罐",
+	x: 3.0d,
+	y: 5.0d,
+	description: "制作任意一个焦黑储罐",
+	dependencies: [
+		"518ac07a"
+	],
+	tasks: [{
+		uid: "e63b8c41",
+		type: "item",
+		items: [{
+			id: "tinkertoolcasts:tank_advanced",
+			tag: {}
+		},
+		{
+			id: "tinkertoolcasts:tank_reinforced",
+			tag: {}
+		},
+		{
+			id: "tinkertoolcasts:tank_iridium",
+			tag: {}
+		},
+		{
+			id: "tinkertoolcasts:tank_ultimate",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "0c72e337",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "59a35a80",
+		type: "xp",
+		xp: 5000
+	}]
+}

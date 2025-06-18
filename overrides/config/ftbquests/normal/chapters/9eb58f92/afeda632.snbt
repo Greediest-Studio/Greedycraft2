@@ -1,0 +1,35 @@
+{
+	title: "§b聚变反应堆",
+	x: -13.5d,
+	y: -8.0d,
+	description: "制作反应堆端口，组成聚变反应堆",
+	text: [
+		""
+	],
+	dependencies: [
+		"34ac5158"
+	],
+	tasks: [{
+		uid: "8cfe1c2d",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:reactor 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "eb7d6701",
+		type: "item",
+		item: "mekanismgenerators:reactor 1 1",
+		count: 8
+	},
+	{
+		uid: "b493dc0b",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "f769f011",
+		type: "loot",
+		table: 2
+	}]
+}

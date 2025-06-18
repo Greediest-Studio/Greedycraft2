@@ -1,0 +1,35 @@
+{
+	title: "§b极光月之金属",
+	x: 1.0d,
+	y: -13.0d,
+	description: "获得皎月石锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"0519d9cb"
+	],
+	tasks: [{
+		uid: "3abe5142",
+		type: "item",
+		items: [{
+			item: "theaurorian:moonstoneingot"
+		}]
+	}],
+	rewards: [{
+		uid: "957f47ad",
+		type: "item",
+		item: "theaurorian:moonstoneingot",
+		count: 24
+	},
+	{
+		uid: "89be454c",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "6d28ce24",
+		type: "xp",
+		xp: 1000
+	}]
+}

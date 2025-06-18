@@ -1,0 +1,40 @@
+{
+	title: "§b普通",
+	x: 0.5d,
+	y: -4.5d,
+	description: "制作[普通]地狱魂石",
+	dependencies: [
+		"9e922a96"
+	],
+	tasks: [{
+		uid: "27011702",
+		type: "item",
+		items: [{
+			id: "bloodmagic:soul_gem",
+			Damage: 2s,
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7092a672",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "8845e45c",
+		type: "item",
+		item: {
+			id: "bloodmagic:soul_gem",
+			Damage: 1s,
+			tag: {
+				souls: 256.0d
+			}
+		}
+	},
+	{
+		uid: "6a9ae1a4",
+		type: "xp",
+		xp: 1600
+	}]
+}

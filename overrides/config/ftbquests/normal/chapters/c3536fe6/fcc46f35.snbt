@@ -1,0 +1,34 @@
+{
+	title: "§b暴风雪的守护者",
+	x: -9.0d,
+	y: -2.0d,
+	description: "使用巨兽之手召唤并击杀冰霜巨口",
+	text: [
+		""
+	],
+	dependencies: [
+		"ecc95796"
+	],
+	tasks: [{
+		uid: "463032f7",
+		type: "kill",
+		entity: "mowziesmobs:frostmaw",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "9e1524be",
+		type: "item",
+		item: "additions:cryonium_ingot",
+		count: 8
+	},
+	{
+		uid: "26013547",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "c6262245",
+		type: "xp",
+		xp: 10000
+	}]
+}

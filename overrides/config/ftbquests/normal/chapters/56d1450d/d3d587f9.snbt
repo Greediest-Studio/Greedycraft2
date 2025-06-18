@@ -1,0 +1,32 @@
+{
+	title: "§b磷酸钙 Ca₃(PO₄)₂",
+	x: -19.5d,
+	y: -6.0d,
+	description: "获得磷灰石",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "1242e095",
+		type: "item",
+		items: [{
+			item: "forestry:apatite"
+		}]
+	}],
+	rewards: [{
+		uid: "0436e458",
+		type: "item",
+		item: "forestry:apatite",
+		count: 64
+	},
+	{
+		uid: "c8a872f3",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "1eb8830a",
+		type: "loot",
+		table: 0
+	}]
+}

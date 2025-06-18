@@ -1,0 +1,37 @@
+{
+	title: "§b植物魔法的万用扳手",
+	x: -4.0d,
+	y: 1.0d,
+	description: "森林法杖有两种模式，分别是工作模式以及绑定模式",
+	dependencies: [
+		"7bbbe3b4"
+	],
+	tasks: [{
+		uid: "4fd44f69",
+		type: "item",
+		items: [{
+			id: "botania:twigwand",
+			tag: {
+				color1: 0,
+				color2: 0
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "62a0b171",
+		type: "item",
+		item: "botania:livingwood",
+		count: 8
+	},
+	{
+		uid: "c98c5612",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "a6d23bc6",
+		type: "xp",
+		xp: 100
+	}]
+}

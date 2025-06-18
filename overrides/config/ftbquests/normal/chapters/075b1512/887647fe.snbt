@@ -1,0 +1,68 @@
+{
+	title: "§b怪物杀手 X",
+	x: -5.0d,
+	y: 14.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"cfacf6f1"
+	],
+	tasks: [{
+		uid: "02d86279",
+		type: "stat",
+		icon: "avaritia:infinity_sword",
+		stat: "stat.mobKills",
+		value: 50000
+	}],
+	rewards: [{
+		uid: "920e344d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "da763156",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "7c34c0ce",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "929bece3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "19f5bc74",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	}]
+}

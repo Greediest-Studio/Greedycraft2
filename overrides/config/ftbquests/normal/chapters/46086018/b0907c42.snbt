@@ -1,0 +1,61 @@
+{
+	title: "§b大 火 杆",
+	x: -2.0d,
+	y: -6.0d,
+	description: "获得烈焰棒",
+	text: [
+		""
+	],
+	dependencies: [
+		"a6bbe70a"
+	],
+	tasks: [{
+		uid: "4bd634ae",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_rod"
+		}]
+	}],
+	rewards: [{
+		uid: "d9177652",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:blaze"
+				}
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "e63ad76c",
+		type: "item",
+		item: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:enderman"
+				}
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "cbae4362",
+		type: "item",
+		item: "minecraft:blaze_powder",
+		count: 16
+	},
+	{
+		uid: "8cd437b4",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "a085799f",
+		type: "xp",
+		xp: 1000
+	}]
+}

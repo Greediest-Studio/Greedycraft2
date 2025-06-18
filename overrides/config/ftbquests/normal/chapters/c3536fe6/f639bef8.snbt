@@ -1,0 +1,29 @@
+{
+	title: "§b电击长空……啊不不不",
+	x: 1.5d,
+	y: 4.0d,
+	description: "召唤并击杀雷鸟",
+	text: [
+		""
+	],
+	dependencies: [
+		"d01a5293"
+	],
+	tasks: [{
+		uid: "9331b189",
+		type: "item",
+		items: [{
+			item: "journey:trophyroc"
+		}]
+	}],
+	rewards: [{
+		uid: "d8429fdc",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "a2b161b2",
+		type: "random",
+		table: 2
+	}]
+}

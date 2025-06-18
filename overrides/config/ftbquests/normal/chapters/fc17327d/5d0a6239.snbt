@@ -1,0 +1,36 @@
+{
+	title: "§b烧制水泥的产物",
+	x: -18.0d,
+	y: 4.5d,
+	description: "获得一块焦黑砖",
+	text: [
+		""
+	],
+	dependencies: [
+		"0b091760"
+	],
+	tasks: [{
+		uid: "b8b9ad9b",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials"
+		}]
+	}],
+	rewards: [{
+		uid: "378358b7",
+		type: "item",
+		item: "tconstruct:materials",
+		count: 32,
+		random_bonus: 32
+	},
+	{
+		uid: "54bdaf70",
+		type: "xp",
+		xp: 30
+	},
+	{
+		uid: "e7cbf718",
+		type: "random",
+		table: 0
+	}]
+}

@@ -1,0 +1,63 @@
+{
+	title: "§b谁不喜欢呢？",
+	icon: "minecraft:gold_ore",
+	x: -14.0d,
+	y: 9.5d,
+	description: "挖掘一个金矿石",
+	text: [
+		""
+	],
+	dependencies: [
+		"8636a008"
+	],
+	tasks: [{
+		uid: "4e27f771",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreGold"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreGold"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "6b23e0f1",
+		type: "item",
+		item: "minecraft:gold_ore",
+		count: 4
+	},
+	{
+		uid: "c74bcdae",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "0580a107",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "cf9df435",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "3a4936c3",
+		type: "item",
+		item: "minecraft:golden_apple",
+		random_bonus: 2
+	},
+	{
+		uid: "6f206e25",
+		type: "item",
+		item: "minecraft:clock"
+	}]
+}

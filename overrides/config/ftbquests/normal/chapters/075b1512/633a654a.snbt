@@ -1,0 +1,68 @@
+{
+	title: "§b自由落体 VIII",
+	x: 5.5d,
+	y: 11.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"54afdbb7"
+	],
+	tasks: [{
+		uid: "f33a1322",
+		type: "stat",
+		icon: "abyssalcraft:dreadiumboots",
+		stat: "stat.fallOneCm",
+		value: 50000000
+	}],
+	rewards: [{
+		uid: "b15de992",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "c920765c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "6cc7701b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "43db0772",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "6a2a2acf",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	}]
+}

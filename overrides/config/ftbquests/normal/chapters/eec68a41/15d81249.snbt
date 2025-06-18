@@ -1,0 +1,35 @@
+{
+	title: "§b有生命的木头",
+	x: -4.0d,
+	y: -0.5d,
+	description: "使用白雏菊转换木头，得到活木",
+	text: [
+		""
+	],
+	dependencies: [
+		"9dfd6030"
+	],
+	tasks: [{
+		uid: "c8996e5e",
+		type: "item",
+		items: [{
+			item: "botania:livingwood"
+		}]
+	}],
+	rewards: [{
+		uid: "5c7f0ed1",
+		type: "item",
+		item: "botania:livingwood",
+		count: 16
+	},
+	{
+		uid: "ddf3a0d1",
+		type: "xp",
+		xp: 50
+	},
+	{
+		uid: "10943315",
+		type: "random",
+		table: 0
+	}]
+}

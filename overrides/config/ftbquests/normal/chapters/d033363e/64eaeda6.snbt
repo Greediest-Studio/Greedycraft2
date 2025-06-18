@@ -1,0 +1,14 @@
+{
+	x: 3.0d,
+	y: 1.0d,
+	dependencies: [
+		"26383358"
+	],
+	tasks: [{
+		uid: "da09a14a",
+		type: "item",
+		items: [{
+			item: "projecte:dm_pedestal"
+		}]
+	}]
+}

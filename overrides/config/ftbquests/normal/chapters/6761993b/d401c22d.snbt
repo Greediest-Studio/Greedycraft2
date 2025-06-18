@@ -1,0 +1,35 @@
+{
+	title: "缩短间隔？",
+	x: -6.0d,
+	y: -3.5d,
+	description: "制作促进符文",
+	text: [
+		"每个使血液转移和充能符文工作间隔缩短1t(最多生效19个)"
+	],
+	dependencies: [
+		"78359cb8"
+	],
+	tasks: [{
+		uid: "521649c7",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "529ba5b6",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "4d2a0330",
+		type: "item",
+		item: "bloodmagic:blood_rune 1 9",
+		count: 4
+	},
+	{
+		uid: "541a1b27",
+		type: "xp",
+		xp: 1200
+	}]
+}

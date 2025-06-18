@@ -1,0 +1,35 @@
+{
+	title: "§b开 始 了！",
+	x: -13.5d,
+	y: 2.0d,
+	description: "制作ME控制器，它的每个面可以传出32个频道！",
+	text: [
+		"AE网络的核心"
+	],
+	dependencies: [
+		"bb69a736",
+		"4e195942"
+	],
+	tasks: [{
+		uid: "8a0607ae",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	}],
+	rewards: [{
+		uid: "d7bac6b9",
+		type: "item",
+		item: "appliedenergistics2:controller"
+	},
+	{
+		uid: "1f51e50c",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "70eac3c1",
+		type: "random",
+		table: 1
+	}]
+}

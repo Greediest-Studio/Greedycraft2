@@ -1,0 +1,19 @@
+{
+	title: "传说中的不锈钢熔炉(已加强)",
+	icon: "additions:stainless_steel_ingot",
+	x: -9.0d,
+	y: 4.0d,
+	description: "不锈钢熔炉2.0",
+	dependencies: [
+		"e9311022"
+	],
+	tasks: [{
+		uid: "9fc7ce97",
+		type: "item",
+		items: [{
+			item: "modularmachinery:stainlesssteel_forge_controller"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

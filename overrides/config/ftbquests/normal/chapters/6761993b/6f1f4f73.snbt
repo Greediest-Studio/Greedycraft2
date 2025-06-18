@@ -1,0 +1,28 @@
+{
+	title: "§b微小",
+	x: -3.5d,
+	y: -4.5d,
+	description: "制作[微小]地狱魂石",
+	dependencies: [
+		"154afd91"
+	],
+	tasks: [{
+		uid: "f13cb819",
+		type: "item",
+		items: [{
+			id: "bloodmagic:soul_gem",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c94c4a7e",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "2ed770f1",
+		type: "xp",
+		xp: 1000
+	}]
+}

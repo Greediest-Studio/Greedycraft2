@@ -1,0 +1,34 @@
+{
+	title: "§b二次升级套件",
+	x: -14.5d,
+	y: -21.0d,
+	description: "制作强化升级套件",
+	text: [
+		"在硬化机器上使用可以将其升级为强化"
+	],
+	dependencies: [
+		"2f3072cf"
+	],
+	tasks: [{
+		uid: "e65c8d79",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "89596e23",
+		type: "item",
+		item: "thermalfoundation:upgrade 1 33"
+	},
+	{
+		uid: "bb1bf95f",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "09496d37",
+		type: "xp",
+		xp: 700
+	}]
+}

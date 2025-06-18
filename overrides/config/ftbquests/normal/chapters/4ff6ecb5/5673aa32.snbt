@@ -1,0 +1,54 @@
+{
+	title: "§b钥匙？",
+	x: 11.5d,
+	y: 4.0d,
+	description: "使用元动能量打开邪术旋塔入口，进入第一层",
+	text: [
+		"依次使用符文石板，镶尖符咒，禁忌知识，凶险剑刃打开下层的门"
+	],
+	dependencies: [
+		"8d7fb581"
+	],
+	tasks: [{
+		uid: "a2a6eded",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:eldritch_lock_key"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0ebe93da",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:eldritch_lock_key 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bdf42d0e",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:eldritch_lock_key 1 2"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3fe076b9",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:eldritch_lock_key 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5a897659",
+		type: "xp",
+		xp: 2888
+	},
+	{
+		uid: "dfe5951b",
+		type: "random",
+		table: 2
+	}]
+}

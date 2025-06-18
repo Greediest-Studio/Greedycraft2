@@ -1,0 +1,38 @@
+{
+	title: "§b疯狂输出 V",
+	x: -2.0d,
+	y: 7.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"203fa314"
+	],
+	tasks: [{
+		uid: "f74a26e5",
+		type: "stat",
+		icon: "minecraft:diamond_axe",
+		stat: "stat.damageDealt",
+		value: 160000000
+	}],
+	rewards: [{
+		uid: "fbac95fc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "ff53ce2a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	}]
+}

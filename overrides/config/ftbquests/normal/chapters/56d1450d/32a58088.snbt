@@ -1,0 +1,34 @@
+{
+	title: "§b阳光洒向大地",
+	x: -19.5d,
+	y: -4.5d,
+	description: "获得光照升级",
+	text: [
+		""
+	],
+	dependencies: [
+		"2bafc3d8"
+	],
+	tasks: [{
+		uid: "467733db",
+		type: "item",
+		items: [{
+			item: "gendustry:apiary.upgrade 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "612ba374",
+		type: "item",
+		item: "gendustry:apiary.upgrade 1 11"
+	},
+	{
+		uid: "01875c85",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "55d046d1",
+		type: "loot",
+		table: 1
+	}]
+}

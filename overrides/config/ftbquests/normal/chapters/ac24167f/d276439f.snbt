@@ -1,0 +1,40 @@
+{
+	title: "§b阳光能捕抓到吗？",
+	x: -5.5d,
+	y: 0.0d,
+	description: "获得瓶装阳光",
+	dependencies: [
+		"c22401e6"
+	],
+	tasks: [{
+		uid: "3a149b4b",
+		type: "item",
+		items: [{
+			id: "naturesaura:aura_bottle",
+			tag: {
+				stored_type: "naturesaura:overworld"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "095a143a",
+		type: "item",
+		item: {
+			id: "naturesaura:aura_bottle",
+			tag: {
+				stored_type: "naturesaura:overworld"
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "b7ca1ac7",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "dc08f7b1",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "§b血流成河 I",
+	x: 2.5d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "81faaf09",
+		type: "stat",
+		icon: "minecraft:leather_chestplate",
+		stat: "stat.damageTaken",
+		value: 20000
+	}],
+	rewards: [{
+		uid: "8aa47771",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "0fdd4897",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	}]
+}

@@ -1,0 +1,68 @@
+{
+	title: "§b持之以恒 II",
+	x: -6.5d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"273a0a78"
+	],
+	tasks: [{
+		uid: "b073e9e3",
+		type: "stat",
+		icon: "minecraft:chainmail_helmet",
+		stat: "stat.playOneMinute",
+		value: 460800
+	}],
+	rewards: [{
+		uid: "20eac434",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "81f56417",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "449cc11e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "e6636a46",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "ffd1c735",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	}]
+}

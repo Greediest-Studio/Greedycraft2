@@ -1,0 +1,68 @@
+{
+	title: "§b疯狂输出 VIII",
+	x: -2.0d,
+	y: 11.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"a763126c"
+	],
+	tasks: [{
+		uid: "7e580eff",
+		type: "stat",
+		icon: "abyssalcraft:dreadiumaxe",
+		stat: "stat.damageDealt",
+		value: 500000000
+	}],
+	rewards: [{
+		uid: "2a2100a9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "d2017339",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "f258328f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "25d0a3b2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "6603a042",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "§bR G B",
+	x: 3.5d,
+	y: 2.5d,
+	description: "制作神话魔力池，可以储存1,000,000mana",
+	text: [
+		""
+	],
+	dependencies: [
+		"89cdca96"
+	],
+	tasks: [{
+		uid: "e8ebdd5a",
+		type: "item",
+		items: [{
+			item: "botania:pool 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "6c0b19c4",
+		type: "item",
+		item: {
+			id: "botania:manatablet",
+			tag: {
+				mana: 500000
+			}
+		}
+	},
+	{
+		uid: "d7473801",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "80d7da33",
+		type: "xp",
+		xp: 900
+	}]
+}

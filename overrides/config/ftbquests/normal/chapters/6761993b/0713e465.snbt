@@ -1,0 +1,32 @@
+{
+	title: "§b蕴含恶魔意志的金属",
+	x: -5.5d,
+	y: 3.5d,
+	description: "制作感知锭",
+	dependencies: [
+		"4c9da309"
+	],
+	tasks: [{
+		uid: "c2be2a5d",
+		type: "item",
+		items: [{
+			item: "tconevo:metal 1 30"
+		}]
+	}],
+	rewards: [{
+		uid: "4df66c0a",
+		type: "item",
+		item: "tconevo:metal 1 30",
+		count: 5
+	},
+	{
+		uid: "b9bddf9f",
+		type: "xp",
+		xp: 480
+	},
+	{
+		uid: "be9ebd7b",
+		type: "random",
+		table: 1
+	}]
+}

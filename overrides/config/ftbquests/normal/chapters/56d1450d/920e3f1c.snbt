@@ -1,0 +1,35 @@
+{
+	title: "§b榨汁……姬？",
+	x: -16.5d,
+	y: 1.5d,
+	description: "获得榨汁机",
+	text: [
+		""
+	],
+	dependencies: [
+		"a4361c9d"
+	],
+	tasks: [{
+		uid: "2c550ede",
+		type: "item",
+		items: [{
+			item: "forestry:squeezer"
+		}]
+	}],
+	rewards: [{
+		uid: "06cd1970",
+		type: "item",
+		item: "minecraft:wheat_seeds",
+		count: 64
+	},
+	{
+		uid: "8667ca83",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "59b9e363",
+		type: "random",
+		table: 1
+	}]
+}

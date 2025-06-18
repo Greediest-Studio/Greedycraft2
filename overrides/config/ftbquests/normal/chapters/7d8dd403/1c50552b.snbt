@@ -1,0 +1,29 @@
+{
+	title: "§b下界探视者",
+	x: 3.0d,
+	y: 8.5d,
+	description: "使用观察者之呼唤召唤并击杀观察者",
+	text: [
+		""
+	],
+	dependencies: [
+		"9104d970"
+	],
+	tasks: [{
+		uid: "34b61793",
+		type: "item",
+		items: [{
+			item: "divinerpg:the_watcher_statue"
+		}]
+	}],
+	rewards: [{
+		uid: "fccad6ff",
+		type: "xp",
+		xp: 4000
+	},
+	{
+		uid: "989cfa58",
+		type: "random",
+		table: 3
+	}]
+}

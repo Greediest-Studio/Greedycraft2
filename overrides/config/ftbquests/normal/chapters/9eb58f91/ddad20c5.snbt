@@ -1,0 +1,41 @@
+{
+	title: "§b压印成型……",
+	x: -10.0d,
+	y: 0.0d,
+	description: "制作压印器，用来制作硅板和电路板",
+	text: [
+		""
+	],
+	dependencies: [
+		"1b2f4905"
+	],
+	tasks: [{
+		uid: "8ccf877c",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:inscriber"
+		}]
+	}],
+	rewards: [{
+		uid: "d94d8c31",
+		type: "item",
+		item: "appliedenergistics2:inscriber",
+		count: 3
+	},
+	{
+		uid: "13b6efa6",
+		type: "item",
+		item: "appliedenergistics2:material 1 5",
+		count: 16
+	},
+	{
+		uid: "41fccd17",
+		type: "xp",
+		xp: 750
+	},
+	{
+		uid: "48bc90d2",
+		type: "random",
+		table: 1
+	}]
+}

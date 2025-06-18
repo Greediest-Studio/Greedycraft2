@@ -1,0 +1,32 @@
+{
+	title: "§b深入虎穴",
+	x: 0.5d,
+	y: 6.5d,
+	description: "击杀一些修格斯巢穴里的小型修格斯",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "8f576424",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:shoggothflesh"
+		}]
+	}],
+	rewards: [{
+		uid: "53002c33",
+		type: "item",
+		item: "abyssalcraft:statue",
+		count: 2
+	},
+	{
+		uid: "4ee84c29",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "8cb071e2",
+		type: "random",
+		table: 1
+	}]
+}

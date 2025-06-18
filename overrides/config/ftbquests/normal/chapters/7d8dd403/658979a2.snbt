@@ -1,0 +1,35 @@
+{
+	title: "§b黑色之芯",
+	x: 8.0d,
+	y: 2.5d,
+	description: "合成凋灵芯",
+	text: [
+		""
+	],
+	dependencies: [
+		"89ff4eb4"
+	],
+	tasks: [{
+		uid: "bc66ec8a",
+		type: "item",
+		items: [{
+			item: "gct_ores:witheric_core"
+		}]
+	}],
+	rewards: [{
+		uid: "87d42c6b",
+		type: "item",
+		item: "gct_ores:witheric_core",
+		count: 8
+	},
+	{
+		uid: "bae7eb78",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "63f39f21",
+		type: "xp",
+		xp: 1500
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	title: "§bmek的基础！",
+	x: -9.5d,
+	y: -2.0d,
+	description: "挖掘一个锇矿石",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "e2add549",
+		type: "item",
+		items: [{
+			item: "mekanism:oreblock"
+		}]
+	}],
+	rewards: [{
+		uid: "bfd5a252",
+		type: "item",
+		item: "mekanism:oreblock",
+		count: 10
+	},
+	{
+		uid: "a74d2596",
+		type: "xp",
+		xp: 100
+	}]
+}

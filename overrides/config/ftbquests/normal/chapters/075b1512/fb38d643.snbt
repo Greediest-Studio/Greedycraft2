@@ -1,0 +1,38 @@
+{
+	title: "§b持之以恒 VII",
+	x: -6.5d,
+	y: 10.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"73dd7d0c"
+	],
+	tasks: [{
+		uid: "788b4b75",
+		type: "stat",
+		icon: "abyssalcraft:corhelmet",
+		stat: "stat.playOneMinute",
+		value: 20160000
+	}],
+	rewards: [{
+		uid: "23c5746f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "6e8b9bc0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	}]
+}

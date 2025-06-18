@@ -1,0 +1,35 @@
+{
+	title: "战利品发电机",
+	icon: "touhou_little_maid:power_point",
+	x: -4.0d,
+	y: 3.0d,
+	description: "感觉不如经验发电机",
+	dependencies: [
+		"0789f3f5"
+	],
+	tasks: [{
+		uid: "6de40ad7",
+		type: "item",
+		items: [{
+			item: "modularmachinery:loot_power_generator_controller"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "de68f8ba",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "58504419",
+		type: "item",
+		item: "touhou_little_maid:power_point",
+		count: 512
+	},
+	{
+		uid: "f63b37b5",
+		type: "loot",
+		table: 2
+	}]
+}

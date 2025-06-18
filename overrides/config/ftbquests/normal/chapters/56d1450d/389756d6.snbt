@@ -1,0 +1,35 @@
+{
+	title: "§b施肥？",
+	x: -18.0d,
+	y: -6.0d,
+	description: "获得肥料",
+	text: [
+		""
+	],
+	dependencies: [
+		"d3d587f9"
+	],
+	tasks: [{
+		uid: "8d6e865c",
+		type: "item",
+		items: [{
+			item: "forestry:fertilizer_compound"
+		}]
+	}],
+	rewards: [{
+		uid: "c9974e3c",
+		type: "item",
+		item: "forestry:fertilizer_compound",
+		count: 64
+	},
+	{
+		uid: "86b1fedf",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "ec222886",
+		type: "loot",
+		table: 0
+	}]
+}

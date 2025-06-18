@@ -1,0 +1,68 @@
+{
+	title: "§b怪物杀手 II",
+	x: -5.0d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"f3124043"
+	],
+	tasks: [{
+		uid: "6ef4d162",
+		type: "stat",
+		icon: "minecraft:stone_sword",
+		stat: "stat.mobKills",
+		value: 400
+	}],
+	rewards: [{
+		uid: "0f77b9be",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "e2262639",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "823dac9b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "5b6c226a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "d77140d9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	}]
+}

@@ -1,0 +1,65 @@
+{
+	title: "§b凋灵杀手 VIII",
+	icon: "minecraft:skull 1 1",
+	x: -0.5d,
+	y: 11.5d,
+	dependencies: [
+		"c5b080ab"
+	],
+	tasks: [{
+		uid: "8f55ea61",
+		type: "kill",
+		entity: "minecraft:wither",
+		value: 100L
+	}],
+	rewards: [{
+		uid: "9e4dc9c4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "60d94d9c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "3d5c8c86",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "0a388c7b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "85d4d4c2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	}]
+}

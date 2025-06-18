@@ -1,0 +1,47 @@
+{
+	title: "§b挑战者VII",
+	icon: "additions:city_defender_medal 60",
+	tags: [
+		"challenge"
+	],
+	x: 16.5d,
+	y: 9.0d,
+	description: "完成60个挑战者任务",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "e0a9c7b7",
+		type: "custom",
+		tags: [
+			"challenge7"
+		]
+	}],
+	rewards: [{
+		uid: "0c144ff3",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "challenger_g"
+	},
+	{
+		uid: "4a4b32d8",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "f54efc93",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "55c5cf6a",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "ad8e6d31",
+		type: "item",
+		item: "additions:reward_ticket_legendary",
+		count: 12
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "§b巨龙杀手 VII",
+	icon: "minecraft:skull 1 5",
+	x: 1.0d,
+	y: 10.0d,
+	dependencies: [
+		"8b726065"
+	],
+	tasks: [{
+		uid: "0904b244",
+		type: "kill",
+		entity: "minecraft:ender_dragon",
+		value: 70L
+	}],
+	rewards: [{
+		uid: "1401fd63",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "cc42b7e9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	}]
+}

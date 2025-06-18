@@ -1,0 +1,29 @@
+{
+	title: "§b我仿佛来自世界尽头",
+	x: 17.0d,
+	y: -1.5d,
+	description: "制作来自虚空的呼唤",
+	text: [
+		""
+	],
+	dependencies: [
+		"2ea7003d"
+	],
+	tasks: [{
+		uid: "9d34b8bb",
+		type: "item",
+		items: [{
+			item: "extrabotany:material 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "b385f611",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "c6f9612d",
+		type: "random",
+		table: 3
+	}]
+}

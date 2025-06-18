@@ -1,0 +1,29 @@
+{
+	title: "§b简易的多倍矿！",
+	x: -25.0d,
+	y: -17.0d,
+	description: "制作升级：板块矿质引发",
+	text: [
+		"可以把原矿石变为三倍，矿簇变成4倍！"
+	],
+	dependencies: [
+		"0995ee29"
+	],
+	tasks: [{
+		uid: "c4800602",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 273"
+		}]
+	}],
+	rewards: [{
+		uid: "4263e022",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "f497ee4b",
+		type: "random",
+		table: 0
+	}]
+}

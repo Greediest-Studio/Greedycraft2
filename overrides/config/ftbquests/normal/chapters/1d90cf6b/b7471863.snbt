@@ -1,0 +1,19 @@
+{
+	title: "下界矿机",
+	icon: "minecraft:netherrack",
+	x: 0.0d,
+	y: 2.0d,
+	description: "马玉灵自由！",
+	dependencies: [
+		"5f02df0f"
+	],
+	tasks: [{
+		uid: "0c4a2ebd",
+		type: "item",
+		items: [{
+			item: "modularmachinery:miner_nether_controller"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

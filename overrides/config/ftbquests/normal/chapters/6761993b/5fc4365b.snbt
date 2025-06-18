@@ -1,0 +1,23 @@
+{
+	title: "更痛了",
+	x: -13.5d,
+	y: -0.5d,
+	description: "提高献祭量",
+	dependencies: [
+		"4949436e"
+	],
+	tasks: [{
+		uid: "187a1cb8",
+		type: "item",
+		items: [{
+			item: "bloodarsenal:glass_dagger_of_sacrifice"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "072919b8",
+		type: "xp",
+		xp: 640
+	}]
+}

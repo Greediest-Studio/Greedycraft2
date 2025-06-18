@@ -1,0 +1,32 @@
+{
+	title: "§b巨龙杀手 I",
+	icon: "minecraft:skull 1 5",
+	x: 1.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "73830eda",
+		type: "kill",
+		entity: "minecraft:ender_dragon",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "1fa3658f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "def33771",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	}]
+}

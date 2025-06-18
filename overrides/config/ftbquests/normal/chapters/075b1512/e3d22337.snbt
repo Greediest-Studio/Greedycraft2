@@ -1,0 +1,68 @@
+{
+	title: "§b旅行家 VIII",
+	x: -3.5d,
+	y: 11.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"ef47d21b"
+	],
+	tasks: [{
+		uid: "02f639aa",
+		type: "stat",
+		icon: "abyssalcraft:dreadiumlegs",
+		stat: "stat.walkOneCm",
+		value: 50000000
+	}],
+	rewards: [{
+		uid: "4a9ee7ab",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "2c666b0f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "f960adc9",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "4b62df65",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "a28b963b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	}]
+}

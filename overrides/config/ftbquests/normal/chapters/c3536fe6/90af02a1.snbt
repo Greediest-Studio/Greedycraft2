@@ -1,0 +1,28 @@
+{
+	title: "§b其实......不难",
+	x: -20.0d,
+	y: 1.0d,
+	description: "在恒晓之地寻找惑乱高塔击杀炼金术士",
+	text: [
+		"如果找不到惑乱高塔，可以使用恒晓之地宝石召唤"
+	],
+	dependencies: [
+		"420525a3"
+	],
+	tasks: [{
+		uid: "4b7fc074",
+		type: "kill",
+		entity: "blue_skies:alchemist_illager",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "e13e0791",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "47596b4d",
+		type: "random",
+		table: 3
+	}]
+}

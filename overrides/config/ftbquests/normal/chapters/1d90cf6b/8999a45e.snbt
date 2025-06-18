@@ -1,0 +1,25 @@
+{
+	title: "液体离心机",
+	icon: {
+		id: "thermalexpansion:reservoir",
+		tag: {}
+	},
+	x: -9.0d,
+	y: 3.0d,
+	description: "具体配方查看JEI（或许有用？",
+	text: [
+		"（大概"
+	],
+	dependencies: [
+		"e9311022"
+	],
+	tasks: [{
+		uid: "c5875d94",
+		type: "item",
+		items: [{
+			item: "modularmachinery:liquid_centrifuge_controller"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

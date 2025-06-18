@@ -1,0 +1,64 @@
+{
+	title: "§b刻在DNA里的记忆",
+	icon: "minecraft:log",
+	x: -20.0d,
+	y: 6.5d,
+	description: "万物的源头！",
+	text: [
+		""
+	],
+	dependencies: [
+		"597e2519"
+	],
+	tasks: [{
+		uid: "2db46887",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any logWood"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "logWood"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "347e4f4f",
+		type: "item",
+		item: "minecraft:log",
+		count: 32
+	},
+	{
+		uid: "f039df2c",
+		type: "item",
+		item: {
+			id: "pouchofunknown:pouch",
+			tag: {
+				Inventory: []
+			}
+		}
+	},
+	{
+		uid: "95ae87f7",
+		type: "item",
+		item: "minecraft:apple",
+		count: 16
+	},
+	{
+		uid: "388cbed5",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "getting_started"
+	},
+	{
+		uid: "ef3529cb",
+		type: "xp",
+		xp: 30
+	}]
+}

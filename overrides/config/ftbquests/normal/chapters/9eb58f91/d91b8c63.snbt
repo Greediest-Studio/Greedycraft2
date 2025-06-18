@@ -1,0 +1,36 @@
+{
+	title: "§b其实并不是那么方便",
+	x: -17.5d,
+	y: 1.0d,
+	description: "制作奥术合成终端",
+	text: [
+		""
+	],
+	dependencies: [
+		"9ad09ce0"
+	],
+	tasks: [{
+		uid: "44bfa5ec",
+		type: "item",
+		items: [{
+			item: "thaumicenergistics:arcane_terminal"
+		}]
+	}],
+	rewards: [{
+		uid: "f0214a60",
+		type: "item",
+		item: "thaumcraft:curio 1 1",
+		count: 8,
+		random_bonus: 4
+	},
+	{
+		uid: "85374e7d",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "87d0eb86",
+		type: "xp",
+		xp: 2000
+	}]
+}

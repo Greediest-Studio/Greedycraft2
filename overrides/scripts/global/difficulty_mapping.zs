@@ -4,7 +4,6 @@
  */ 
 
 #priority 32765
-#packmode casual adventure
 
 import crafttweaker.data.IData;
 

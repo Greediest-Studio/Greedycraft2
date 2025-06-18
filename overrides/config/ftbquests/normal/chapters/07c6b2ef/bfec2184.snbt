@@ -1,0 +1,45 @@
+{
+	title: "§b先进炼药台",
+	x: -23.5d,
+	y: -12.0d,
+	description: "制作药水酿造机",
+	text: [
+		""
+	],
+	dependencies: [
+		"56ae2c57"
+	],
+	tasks: [{
+		uid: "a191bb4b",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 12s,
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4f77eb0e",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "066106db",
+		type: "xp",
+		xp: 450
+	}]
+}

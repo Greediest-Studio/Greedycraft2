@@ -1,0 +1,32 @@
+{
+	title: "§b这是血吗？",
+	x: -11.5d,
+	y: 7.5d,
+	description: "获得干血碎片",
+	dependencies: [
+		"332fce8a"
+	],
+	tasks: [{
+		uid: "53009711",
+		type: "item",
+		items: [{
+			item: "evilcraft:hardened_blood_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "3ae746ef",
+		type: "item",
+		item: "evilcraft:hardened_blood_shard",
+		count: 5
+	},
+	{
+		uid: "e4ccdaf9",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "d31be8d1",
+		type: "random",
+		table: 0
+	}]
+}

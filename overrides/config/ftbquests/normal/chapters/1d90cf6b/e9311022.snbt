@@ -1,0 +1,30 @@
+{
+	title: "基础装配室",
+	x: -9.0d,
+	y: 0.0d,
+	description: "最初的模块化",
+	text: [
+		"前言：木棍右键控制器可一键搭建",
+		"注意：任何模块化机械输出仓格数必须大于等于配方产出种类数",
+		"请确保每t供电量大于等于每t需求量",
+		"随着工业水平的进步，单方块机器已经不能满足你了"
+	],
+	dependencies: [
+		"c26c830a"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "ca7d097f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:builder_1_controller"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b00d4db2",
+		type: "loot",
+		table: 2
+	}]
+}

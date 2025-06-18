@@ -1,0 +1,37 @@
+{
+	title: "§b能源驱动化",
+	x: -17.5d,
+	y: -5.0d,
+	description: "制作无线流体终端",
+	text: [
+		""
+	],
+	dependencies: [
+		"a19315fc"
+	],
+	tasks: [{
+		uid: "820e59bf",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:wireless_fluid_terminal",
+			tag: {}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "61991beb",
+		type: "item",
+		item: "randomthings:reinforcedenderbucket"
+	},
+	{
+		uid: "1c19f597",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "e436575d",
+		type: "xp",
+		xp: 1000
+	}]
+}

@@ -1,0 +1,48 @@
+{
+	title: "§b人工紫水晶？",
+	x: -7.0d,
+	y: 0.0d,
+	description: "将红石，下界石英，充能赛特斯石英水晶扔进水里，制作福鲁伊克斯水晶",
+	text: [
+		""
+	],
+	dependencies: [
+		"5610ff8c",
+		"b9d95aa7"
+	],
+	tasks: [{
+		uid: "25d42a97",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "b9834587",
+		type: "item",
+		item: "appliedenergistics2:material",
+		count: 32
+	},
+	{
+		uid: "20d26a94",
+		type: "item",
+		item: "minecraft:quartz",
+		count: 32
+	},
+	{
+		uid: "dcf04dae",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 32
+	},
+	{
+		uid: "0f0bdae0",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "c72b9208",
+		type: "xp",
+		xp: 600
+	}]
+}

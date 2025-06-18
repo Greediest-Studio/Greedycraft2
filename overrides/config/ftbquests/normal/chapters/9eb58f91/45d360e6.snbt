@@ -1,0 +1,19 @@
+{
+	title: "超级驱动器",
+	x: -7.5d,
+	y: 7.0d,
+	description: "这是一个动态结构的多方快  结构预览可以看增加后的结构   最大动态结构可以加到12   l6 l9主机同理",
+	text: [
+		""
+	],
+	dependencies: [
+		"aafb84ad"
+	],
+	tasks: [{
+		uid: "610ad331",
+		type: "item",
+		items: [{
+			item: "ecoaeextension:extendable_digital_storage_subsystem_l4"
+		}]
+	}]
+}

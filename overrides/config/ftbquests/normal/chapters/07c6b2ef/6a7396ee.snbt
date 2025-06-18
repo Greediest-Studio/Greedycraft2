@@ -1,0 +1,34 @@
+{
+	title: "§b基础升级套件",
+	x: -8.5d,
+	y: -21.0d,
+	description: "制作硬化升级套件",
+	text: [
+		"在基础机器上使用可以将其升级为硬化"
+	],
+	dependencies: [
+		"1088c62f"
+	],
+	tasks: [{
+		uid: "e0a3aa84",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "dbcd14c2",
+		type: "item",
+		item: "thermalfoundation:upgrade"
+	},
+	{
+		uid: "69a9c90c",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "dde017e1",
+		type: "xp",
+		xp: 600
+	}]
+}

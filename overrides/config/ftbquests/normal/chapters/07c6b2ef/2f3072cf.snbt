@@ -1,0 +1,35 @@
+{
+	title: "§b金色的贵重金属",
+	x: -13.5d,
+	y: -24.5d,
+	description: "合成琥珀金锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"1088c62f"
+	],
+	tasks: [{
+		uid: "0407e642",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 161"
+		}]
+	}],
+	rewards: [{
+		uid: "493fc28e",
+		type: "item",
+		item: "thermalfoundation:material 1 161",
+		count: 16
+	},
+	{
+		uid: "1ec8de79",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "7cac08ee",
+		type: "xp",
+		xp: 700
+	}]
+}

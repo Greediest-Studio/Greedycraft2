@@ -1,0 +1,35 @@
+{
+	title: "§b大地守护者I",
+	x: 8.0d,
+	y: -1.5d,
+	description: "击败盖亚守护者I",
+	text: [
+		""
+	],
+	dependencies: [
+		"db8f5fb5"
+	],
+	tasks: [{
+		uid: "1a9cba71",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "a7d120af",
+		type: "item",
+		item: "botania:manaresource 1 4",
+		count: 2
+	},
+	{
+		uid: "ef659f29",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "3fa89d27",
+		type: "xp",
+		xp: 1200
+	}]
+}

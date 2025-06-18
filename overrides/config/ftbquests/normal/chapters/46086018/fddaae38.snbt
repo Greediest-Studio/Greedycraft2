@@ -1,0 +1,35 @@
+{
+	title: "§b攻陷极光",
+	x: 5.5d,
+	y: -19.0d,
+	description: "获得极光锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"b25ef338"
+	],
+	tasks: [{
+		uid: "c14be47f",
+		type: "item",
+		items: [{
+			item: "theaurorian:aurorianiteingot"
+		}]
+	}],
+	rewards: [{
+		uid: "9f293211",
+		type: "item",
+		item: "theaurorian:aurorianiteingot",
+		count: 4
+	},
+	{
+		uid: "ae684690",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "f272ced4",
+		type: "xp",
+		xp: 1000
+	}]
+}

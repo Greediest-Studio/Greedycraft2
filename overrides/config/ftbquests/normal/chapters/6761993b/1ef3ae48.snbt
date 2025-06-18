@@ -1,0 +1,36 @@
+{
+	title: "提升LP网络存量？",
+	x: -7.5d,
+	y: -4.5d,
+	description: "制作宝珠符文",
+	text: [
+		"不建议制作，双祭坛存储推荐使用ae",
+		"嘛，想用永魂之泣也不是不可以"
+	],
+	dependencies: [
+		"1ca32822"
+	],
+	tasks: [{
+		uid: "62a52e67",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "17afb9cf",
+		type: "item",
+		item: "bloodmagic:blood_rune 1 8",
+		count: 4
+	},
+	{
+		uid: "0cfe0f97",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "3857f4c2",
+		type: "xp",
+		xp: 640
+	}]
+}

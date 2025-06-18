@@ -1,0 +1,19 @@
+{
+	title: "二阶矿机",
+	icon: "additions:snowingium_ingot",
+	x: 3.0d,
+	y: 3.0d,
+	description: "多种重要材料自由！",
+	dependencies: [
+		"2e3ef671"
+	],
+	tasks: [{
+		uid: "592c8a77",
+		type: "item",
+		items: [{
+			item: "modularmachinery:miner_hardened_controller"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,68 @@
+{
+	title: "§b血流成河 VI",
+	x: 2.5d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"8ca3cee4"
+	],
+	tasks: [{
+		uid: "2d7d1b75",
+		type: "stat",
+		icon: "abyssalcraft:aplate",
+		stat: "stat.damageTaken",
+		value: 2500000
+	}],
+	rewards: [{
+		uid: "9c4f61fb",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "73c59357",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "d4a7e4d7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "29f9350a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "1b9076fc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "§b蓝色妖只因",
+	x: -5.0d,
+	y: 2.0d,
+	description: "制作强化合金",
+	text: [
+		""
+	],
+	dependencies: [
+		"5fbde51b"
+	],
+	tasks: [{
+		uid: "0f06353a",
+		type: "item",
+		items: [{
+			item: "mekanism:reinforcedalloy"
+		}]
+	}],
+	rewards: [{
+		uid: "f02ae572",
+		type: "item",
+		item: "mekanism:reinforcedalloy",
+		count: 5
+	},
+	{
+		uid: "710ecc29",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "3136e4d9",
+		type: "random",
+		table: 0
+	}]
+}

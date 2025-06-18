@@ -1,0 +1,35 @@
+{
+	title: "§b倍矿狂魔 I",
+	x: 7.0d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "93ab2201",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "546ceb5b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "3ee362f6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	}]
+}

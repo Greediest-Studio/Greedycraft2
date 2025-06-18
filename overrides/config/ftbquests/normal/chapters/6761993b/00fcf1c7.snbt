@@ -1,0 +1,26 @@
+{
+	title: "§b怎么长得那么像下界之星？",
+	x: -7.5d,
+	y: 9.5d,
+	description: "制作血能注入核心",
+	dependencies: [
+		"e5aa5d75"
+	],
+	tasks: [{
+		uid: "dc032d30",
+		type: "item",
+		items: [{
+			item: "evilcraft:blood_infusion_core"
+		}]
+	}],
+	rewards: [{
+		uid: "51967cab",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "6abe8526",
+		type: "random",
+		table: 1
+	}]
+}

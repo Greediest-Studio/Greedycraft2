@@ -1,0 +1,25 @@
+{
+	x: 5.5d,
+	y: 5.0d,
+	description: "制作一个战术蓝图",
+	dependencies: [
+		"b5ab2c55"
+	],
+	tasks: [{
+		uid: "e87eb284",
+		type: "item",
+		items: [{
+			item: "additions:blueprint_tactic"
+		}]
+	}],
+	rewards: [{
+		uid: "9e6c0470",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "a6586f4c",
+		type: "xp",
+		xp: 5000
+	}]
+}

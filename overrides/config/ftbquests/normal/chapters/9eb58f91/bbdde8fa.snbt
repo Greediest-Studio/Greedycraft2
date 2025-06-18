@@ -1,0 +1,27 @@
+{
+	title: "§b注入灵魂！",
+	x: 5.0d,
+	y: 7.0d,
+	description: "制作一个魂金锭",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "6d368d1c",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "5dcdd6af",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 7",
+		count: 16
+	},
+	{
+		uid: "962ca45a",
+		type: "xp",
+		xp: 2000
+	}]
+}

@@ -1,0 +1,53 @@
+{
+	title: "§b我走了多久？",
+	tags: [
+		"challenge"
+	],
+	x: 4.5d,
+	y: 18.0d,
+	description: "拜访bop的71个群系！",
+	text: [
+		"你有多久没欣赏美景了？抽出点时间看看这个世界吧（需要获得天地宝晶之后才能完成这个进度）"
+	],
+	dependencies: [
+		"2156d284"
+	],
+	tasks: [{
+		uid: "d6fd3b44",
+		type: "advancement",
+		title: "完成bop进度“环球旅行”",
+		advancement: "环球旅行",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "83ca1721",
+		type: "item",
+		item: "biomesoplenty:terrestrial_artifact",
+		count: 32
+	},
+	{
+		uid: "67371e7e",
+		type: "xp",
+		xp: 20000
+	},
+	{
+		uid: "62a57c0e",
+		type: "choice",
+		table: 3
+	},
+	{
+		uid: "98dc4963",
+		type: "choice",
+		table: 3
+	},
+	{
+		uid: "aa3f1059",
+		type: "choice",
+		table: 3
+	},
+	{
+		uid: "d2b82263",
+		type: "choice",
+		table: 4
+	}]
+}

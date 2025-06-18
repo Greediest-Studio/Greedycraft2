@@ -1,0 +1,54 @@
+{
+	title: "§b超大迷宫",
+	x: -16.5d,
+	y: 7.5d,
+	description: "合成秘界传送框架，摆成末地门的结构，进入秘界",
+	text: [
+		""
+	],
+	dependencies: [
+		"64b213db"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "3e28b14d",
+		type: "item",
+		items: [{
+			item: "divinerpg:arcana_portal_frame"
+		}]
+	}],
+	rewards: [{
+		uid: "c1917941",
+		type: "item",
+		item: "divinerpg:arcana_portal_frame",
+		count: 4
+	},
+	{
+		uid: "f4b375b3",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "1be86f68",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "6e078fa7",
+		type: "item",
+		item: "divinerpg:degraded_key",
+		count: 4
+	},
+	{
+		uid: "f25c266d",
+		type: "item",
+		item: "divinerpg:soul_key",
+		count: 4
+	},
+	{
+		uid: "947bbc91",
+		type: "item",
+		item: "divinerpg:sludge_key",
+		count: 4
+	}]
+}

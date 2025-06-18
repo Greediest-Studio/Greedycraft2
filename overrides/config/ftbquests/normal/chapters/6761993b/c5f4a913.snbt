@@ -1,0 +1,32 @@
+{
+	title: "§b套娃还没有结束吗？",
+	x: 0.5d,
+	y: 1.5d,
+	description: "制作悬幽石板",
+	dependencies: [
+		"3660e643"
+	],
+	tasks: [{
+		uid: "da6be054",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "0a8ae630",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "7278642d",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "1a1d90e8",
+		type: "item",
+		item: "bloodmagic:slate 1 4",
+		count: 6
+	}]
+}

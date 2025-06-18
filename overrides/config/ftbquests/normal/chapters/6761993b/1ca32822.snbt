@@ -1,0 +1,35 @@
+{
+	title: "§b基础结构",
+	x: -7.5d,
+	y: -0.5d,
+	description: "合成空白符文，用于搭建血之祭坛结构",
+	text: [
+		""
+	],
+	dependencies: [
+		"4580a6aa"
+	],
+	tasks: [{
+		uid: "5ed23516",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune"
+		}]
+	}],
+	rewards: [{
+		uid: "b5a38254",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "bb2e2e80",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "da5103a4",
+		type: "item",
+		item: "bloodmagic:blood_rune",
+		count: 16
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "§b化学结晶",
+	x: 3.0d,
+	y: -3.5d,
+	description: "制作一个化学结晶器",
+	text: [
+		""
+	],
+	dependencies: [
+		"bd3fcc0c"
+	],
+	tasks: [{
+		uid: "245b3d5d",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 8"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "54a44f5e",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "eac2fe4d",
+		type: "loot",
+		table: 0
+	}]
+}

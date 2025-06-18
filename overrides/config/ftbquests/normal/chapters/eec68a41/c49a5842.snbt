@@ -1,0 +1,38 @@
+{
+	title: "§b转化次元！",
+	x: 12.5d,
+	y: -6.0d,
+	description: "制作次元催化器，用于转化物品",
+	text: [
+		""
+	],
+	dependencies: [
+		"dc4d53b2"
+	],
+	tasks: [{
+		uid: "7f1d67f7",
+		type: "item",
+		items: [{
+			id: "extrabotany:dimensioncatalyst",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "3980368a",
+		type: "item",
+		item: "extrabotany:nightmarefuel",
+		count: 4
+	},
+	{
+		uid: "fffc6a68",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "97ff21ed",
+		type: "random",
+		table: 1
+	}]
+}

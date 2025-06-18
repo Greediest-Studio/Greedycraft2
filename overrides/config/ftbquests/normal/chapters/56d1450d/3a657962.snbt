@@ -1,0 +1,19 @@
+{
+	title: "§b人工诱导",
+	x: -18.0d,
+	y: -1.5d,
+	description: "制作诱变剂制造机",
+	text: [
+		""
+	],
+	dependencies: [
+		"a4361c9d"
+	],
+	tasks: [{
+		uid: "4df836dd",
+		type: "item",
+		items: [{
+			item: "gendustry:mutagen_producer"
+		}]
+	}]
+}

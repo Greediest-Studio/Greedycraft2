@@ -1,0 +1,28 @@
+{
+	title: "§b绚烂的世界",
+	x: -10.5d,
+	y: 2.5d,
+	description: "进入桉域",
+	text: [
+		""
+	],
+	dependencies: [
+		"5f5121b2"
+	],
+	tasks: [{
+		uid: "79a34951",
+		type: "dimension",
+		icon: "journey:eucaportal",
+		dim: 820
+	}],
+	rewards: [{
+		uid: "3bcfd8b8",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "613968bc",
+		type: "xp",
+		xp: 1000
+	}]
+}

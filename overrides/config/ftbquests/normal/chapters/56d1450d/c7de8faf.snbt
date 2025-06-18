@@ -1,0 +1,35 @@
+{
+	title: "§b没有袪字？",
+	x: -10.5d,
+	y: 6.0d,
+	description: "获得雨盾",
+	text: [
+		""
+	],
+	dependencies: [
+		"61895969"
+	],
+	tasks: [{
+		uid: "67f56508",
+		type: "item",
+		items: [{
+			item: "extrabees:alveary 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "6b7c520d",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "6227ef9b",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "d892ee93",
+		type: "item",
+		item: "randomthings:rainshield",
+		count: 4
+	}]
+}

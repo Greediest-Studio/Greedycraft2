@@ -1,0 +1,30 @@
+{
+	title: "§b能量升级",
+	x: 1.5d,
+	y: 2.0d,
+	description: "制作一个能量升级",
+	text: [
+		"一个机器最多放8个，可以相应节省耗能"
+	],
+	dependencies: [
+		"9b34a8ff"
+	],
+	tasks: [{
+		uid: "ae216e61",
+		type: "item",
+		items: [{
+			item: "mekanism:energyupgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "d603670f",
+		type: "item",
+		item: "mekanism:energyupgrade",
+		count: 5
+	},
+	{
+		uid: "def0d597",
+		type: "xp",
+		xp: 250
+	}]
+}

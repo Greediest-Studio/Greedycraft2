@@ -1,0 +1,35 @@
+{
+	title: "§b疯狂输出 I",
+	x: -2.0d,
+	y: 1.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "142109bc",
+		type: "stat",
+		icon: "minecraft:wooden_axe",
+		stat: "stat.damageDealt",
+		value: 2000000
+	}],
+	rewards: [{
+		uid: "e6cd93df",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "7fb2f65d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "终极装配室",
+	x: 7.0d,
+	y: 0.0d,
+	description: "利用终焉的力量，你得以突破炫光装配室的瓶颈",
+	dependencies: [
+		"b8152507",
+		"2e3ef671"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "94e5ae61",
+		type: "item",
+		items: [{
+			item: "modularmachinery:builder_5_controller"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5ddbf3fe",
+		type: "loot",
+		table: 3
+	}]
+}

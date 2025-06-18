@@ -1,0 +1,30 @@
+{
+	title: "§b氧化反应",
+	x: 0.0d,
+	y: -3.5d,
+	description: "制作一个化学氧化机",
+	text: [
+		""
+	],
+	dependencies: [
+		"d115dc4e"
+	],
+	tasks: [{
+		uid: "df2b2561",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock2 1 1"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b1395c20",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "0c6625ff",
+		type: "loot",
+		table: 0
+	}]
+}

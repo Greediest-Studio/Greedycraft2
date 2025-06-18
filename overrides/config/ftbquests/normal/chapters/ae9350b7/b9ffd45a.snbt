@@ -1,0 +1,47 @@
+{
+	title: "§b挑战者V",
+	icon: "additions:city_defender_medal 35",
+	tags: [
+		"challenge"
+	],
+	x: 16.5d,
+	y: 6.0d,
+	description: "完成35个挑战者任务",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "26daa1eb",
+		type: "custom",
+		tags: [
+			"challenge5"
+		]
+	}],
+	rewards: [{
+		uid: "5f37a95a",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "challenger_e"
+	},
+	{
+		uid: "599e258d",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "b43aed9e",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "23d9e42c",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "bfe8f3ac",
+		type: "item",
+		item: "additions:reward_ticket_epic",
+		count: 10
+	}]
+}

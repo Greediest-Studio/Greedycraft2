@@ -1,0 +1,69 @@
+{
+	title: "§b怪物杀手 VI",
+	icon: "abyssalcraft:asword",
+	x: -5.0d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"bb1c73aa"
+	],
+	tasks: [{
+		uid: "2e115476",
+		type: "stat",
+		icon: "abyssalcraft:asword",
+		stat: "stat.mobKills",
+		value: 8000
+	}],
+	rewards: [{
+		uid: "dd320c15",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "c7acef7f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "f00d5f24",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "624da994",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "4f187e68",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	}]
+}

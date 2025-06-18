@@ -1,0 +1,25 @@
+{
+	x: -9.5d,
+	y: 2.0d,
+	description: "制作涡轮阀门",
+	dependencies: [
+		"95fd5638"
+	],
+	tasks: [{
+		uid: "672043af",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "2c5de425",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "fc2ea181",
+		type: "xp",
+		xp: 500
+	}]
+}

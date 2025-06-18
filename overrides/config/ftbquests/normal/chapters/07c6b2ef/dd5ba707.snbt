@@ -1,0 +1,29 @@
+{
+	title: "§b更幸运",
+	x: -25.0d,
+	y: -11.0d,
+	description: "制作升级：反应催化试剂",
+	text: [
+		"概率不消耗试剂"
+	],
+	dependencies: [
+		"bfec2184"
+	],
+	tasks: [{
+		uid: "1382fc16",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 448"
+		}]
+	}],
+	rewards: [{
+		uid: "80ca57a3",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "40fd6cd6",
+		type: "random",
+		table: 0
+	}]
+}

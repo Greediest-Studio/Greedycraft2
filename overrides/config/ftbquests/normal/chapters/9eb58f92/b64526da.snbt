@@ -1,0 +1,25 @@
+{
+	x: -29.0d,
+	y: 0.0d,
+	description: "制作原子酸腐机",
+	dependencies: [
+		"c609173d"
+	],
+	tasks: [{
+		uid: "361c13b7",
+		type: "item",
+		items: [{
+			item: "gct_mac:atomic_acider"
+		}]
+	}],
+	rewards: [{
+		uid: "5eae6476",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "7233e4d0",
+		type: "xp",
+		xp: 2000
+	}]
+}

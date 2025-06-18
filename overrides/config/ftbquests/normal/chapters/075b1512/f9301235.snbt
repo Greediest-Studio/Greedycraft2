@@ -1,0 +1,68 @@
+{
+	title: "§b血流成河 IV",
+	x: 2.5d,
+	y: 5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"bf5fe7ba"
+	],
+	tasks: [{
+		uid: "e5ccf19b",
+		type: "stat",
+		icon: "minecraft:golden_chestplate",
+		stat: "stat.damageTaken",
+		value: 1000000
+	}],
+	rewards: [{
+		uid: "44dc69c2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "ffc142ca",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "90973a28",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "186fb8fe",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "9d66ae86",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	}]
+}

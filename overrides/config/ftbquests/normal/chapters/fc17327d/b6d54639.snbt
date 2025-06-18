@@ -1,0 +1,49 @@
+{
+	title: "§b真的……现代化……",
+	x: -12.0d,
+	y: 4.5d,
+	description: "制作一块不锈钢",
+	text: [
+		""
+	],
+	dependencies: [
+		"ee868562",
+		"017c268e",
+		"8314f3ff"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "4e5d56fe",
+		type: "item",
+		items: [{
+			item: "additions:stainless_steel_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "260deeb5",
+		type: "item",
+		item: "additions:stainless_steel_ingot",
+		count: 4
+	},
+	{
+		uid: "a169660f",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "eb5f36ab",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "85b802e5",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "b5f827df",
+		type: "item",
+		item: "modularmachinery:itemmodularium",
+		count: 32
+	}]
+}

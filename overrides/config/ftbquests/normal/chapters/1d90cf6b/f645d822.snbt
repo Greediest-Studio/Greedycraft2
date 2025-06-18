@@ -1,0 +1,19 @@
+{
+	title: "气体离心机",
+	icon: "mekanism:gasupgrade",
+	x: -1.0d,
+	y: 6.0d,
+	description: "我猜你要弄六倍矿，不过这个机器输出口是随机的，建议你先接到ae里",
+	dependencies: [
+		"5f02df0f"
+	],
+	tasks: [{
+		uid: "db66aadc",
+		type: "item",
+		items: [{
+			item: "modularmachinery:gas_centrifuge_controller"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

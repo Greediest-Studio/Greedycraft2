@@ -1,0 +1,38 @@
+{
+	title: "§b神力之石",
+	x: 8.0d,
+	y: -12.5d,
+	description: "获得重力晶",
+	text: [
+		""
+	],
+	dependencies: [
+		"879b4bb7"
+	],
+	tasks: [{
+		uid: "8f8f3a75",
+		type: "item",
+		items: [{
+			id: "aether_legacy:enchanted_gravitite",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "1fde10a1",
+		type: "item",
+		item: "aether_legacy:enchanted_gravitite",
+		count: 4
+	},
+	{
+		uid: "4e40a024",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "314a62d3",
+		type: "random",
+		table: 2
+	}]
+}

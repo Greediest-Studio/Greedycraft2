@@ -1,0 +1,48 @@
+{
+	title: "§b挑战者IV",
+	icon: "additions:city_defender_medal 25",
+	tags: [
+		"challenge"
+	],
+	x: 16.5d,
+	y: 4.5d,
+	description: "完成25个挑战者任务",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "1d79613f",
+		type: "custom",
+		tags: [
+			"challenge4"
+		]
+	}],
+	rewards: [{
+		uid: "5f37a959",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "challenger_d"
+	},
+	{
+		uid: "6f3824a0",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "08a39057",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "196e886e",
+		type: "item",
+		item: "additions:reward_ticket_rare",
+		count: 5
+	},
+	{
+		uid: "c7c98862",
+		type: "item",
+		item: "additions:reward_ticket_epic",
+		count: 5
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "元始装构器",
+	icon: "thaumcraft:primordial_pearl",
+	x: 4.0d,
+	y: 6.0d,
+	text: [
+		"深度利用元动能量"
+	],
+	dependencies: [
+		"2e3ef671"
+	],
+	tasks: [{
+		uid: "ab868145",
+		type: "item",
+		items: [{
+			item: "modularmachinery:primordial_creater_controller"
+		}]
+	}]
+}

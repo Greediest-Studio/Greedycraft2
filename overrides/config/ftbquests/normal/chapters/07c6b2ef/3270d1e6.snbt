@@ -1,0 +1,29 @@
+{
+	title: "§b外置水冷？",
+	x: -4.5d,
+	y: -17.0d,
+	description: "制作升级：涡轮增压装置",
+	text: [
+		"蒸汽只能由外部输入"
+	],
+	dependencies: [
+		"f7c47ee5"
+	],
+	tasks: [{
+		uid: "f49d1cac",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 640"
+		}]
+	}],
+	rewards: [{
+		uid: "eac9abeb",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "30143079",
+		type: "xp",
+		xp: 1000
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "§b凋落的遗骸",
+	x: 5.5d,
+	y: 3.5d,
+	description: "获得凋灵尘",
+	text: [
+		""
+	],
+	dependencies: [
+		"a29a289d"
+	],
+	tasks: [{
+		uid: "3e4b1058",
+		type: "item",
+		items: [{
+			item: "gct_ores:witherium_dust"
+		}]
+	}],
+	rewards: [{
+		uid: "e9547e8d",
+		type: "item",
+		item: "gct_ores:witherium_dust",
+		count: 64
+	},
+	{
+		uid: "34f947a3",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "38ba7fcc",
+		type: "xp",
+		xp: 1000
+	}]
+}

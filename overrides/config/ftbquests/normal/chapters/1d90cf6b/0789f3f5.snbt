@@ -1,0 +1,27 @@
+{
+	title: "强化装配室",
+	x: -5.0d,
+	y: 0.0d,
+	description: "这是第二个装配室，进阶装配室是第三个！！！",
+	text: [
+		"随着材料的升级，基础装配室已经不能满足需求了"
+	],
+	dependencies: [
+		"e9311022"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "c717a456",
+		type: "item",
+		items: [{
+			item: "modularmachinery:builder_2_controller"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c5a903fd",
+		type: "loot",
+		table: 2
+	}]
+}

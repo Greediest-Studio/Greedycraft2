@@ -1,0 +1,39 @@
+{
+	title: "§b蕴含了天空的力量",
+	x: 2.5d,
+	y: 2.0d,
+	description: "获得天空之锭",
+	dependencies: [
+		"cb4f437b",
+		"1999aa8a"
+	],
+	tasks: [{
+		uid: "e41d3e2c",
+		type: "item",
+		items: [{
+			id: "naturesaura:sky_ingot",
+			ForgeCaps: {
+				"distinctdamagedescriptions:dmgdistribution": [{
+					type: "ddd_bludgeoning",
+					weight: 1.0f
+				}]
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "b1e4160b",
+		type: "item",
+		item: "naturesaura:sky_ingot",
+		count: 4
+	},
+	{
+		uid: "ca602790",
+		type: "xp",
+		xp: 4000
+	},
+	{
+		uid: "c8aa0eae",
+		type: "random",
+		table: 2
+	}]
+}

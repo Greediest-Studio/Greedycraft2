@@ -1,0 +1,34 @@
+{
+	title: "§b炼狱之考验",
+	x: -18.0d,
+	y: -4.5d,
+	description: "获得地狱环境升级",
+	text: [
+		""
+	],
+	dependencies: [
+		"2bafc3d8"
+	],
+	tasks: [{
+		uid: "a13750d9",
+		type: "item",
+		items: [{
+			item: "gendustry:apiary.upgrade 1 13"
+		}]
+	}],
+	rewards: [{
+		uid: "919f8bc5",
+		type: "item",
+		item: "gendustry:apiary.upgrade 1 13"
+	},
+	{
+		uid: "45dea384",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "8f756fe0",
+		type: "loot",
+		table: 1
+	}]
+}

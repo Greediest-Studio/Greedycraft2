@@ -1,0 +1,33 @@
+{
+	title: "§b基础合金之一",
+	x: -19.5d,
+	y: 0.0d,
+	description: "合成青铜锭，铜锡合金",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "cc3e98c7",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 163"
+		}]
+	}],
+	rewards: [{
+		uid: "b1bc8480",
+		type: "item",
+		item: "thermalfoundation:material 1 163",
+		count: 12,
+		random_bonus: 8
+	},
+	{
+		uid: "1972c3cb",
+		type: "xp",
+		xp: 300
+	},
+	{
+		uid: "0ef0da49",
+		type: "random",
+		table: 0
+	}]
+}

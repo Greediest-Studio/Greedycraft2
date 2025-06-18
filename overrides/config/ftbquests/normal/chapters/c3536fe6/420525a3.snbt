@@ -1,0 +1,24 @@
+{
+	title: "§b黑夜弥漫",
+	x: -17.5d,
+	y: 1.0d,
+	description: "访问恒晓之地",
+	dependencies: [
+		"5216fa87"
+	],
+	tasks: [{
+		uid: "dc6def45",
+		type: "dimension",
+		dim: 77
+	}],
+	rewards: [{
+		uid: "4bc706a1",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "66c19883",
+		type: "random",
+		table: 2
+	}]
+}

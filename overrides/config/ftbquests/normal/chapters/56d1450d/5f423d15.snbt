@@ -1,0 +1,34 @@
+{
+	title: "§b产品增强",
+	x: -21.0d,
+	y: -3.0d,
+	description: "获得产量升级",
+	text: [
+		""
+	],
+	dependencies: [
+		"2bafc3d8"
+	],
+	tasks: [{
+		uid: "3bde0f46",
+		type: "item",
+		items: [{
+			item: "gendustry:apiary.upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "f9d4af1c",
+		type: "item",
+		item: "gendustry:apiary.upgrade"
+	},
+	{
+		uid: "d3ddebf3",
+		type: "xp",
+		xp: 1600
+	},
+	{
+		uid: "dc8d49e7",
+		type: "loot",
+		table: 3
+	}]
+}

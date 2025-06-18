@@ -4,7 +4,6 @@
  */ 
 
 #priority 80
-#packmode adventure
 
 import crafttweaker.world.IWorld;
 import crafttweaker.data.IData;

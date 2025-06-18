@@ -1,0 +1,37 @@
+{
+	title: "§b你能看出它和黑铁的区别吗？",
+	x: -5.0d,
+	y: 4.5d,
+	description: "制作腐化铜锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"433f8f7f",
+		"2535d7a0"
+	],
+	tasks: [{
+		uid: "18f70c36",
+		type: "item",
+		items: [{
+			item: "moretcon:ingotrotiron"
+		}]
+	}],
+	rewards: [{
+		uid: "c4a90f9d",
+		type: "item",
+		item: "moretcon:ingotrotiron",
+		count: 8,
+		random_bonus: 4
+	},
+	{
+		uid: "887dd744",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "16a082ea",
+		type: "xp",
+		xp: 6650
+	}]
+}

@@ -1,0 +1,40 @@
+{
+	title: "§b符文制造",
+	x: -1.0d,
+	y: -2.5d,
+	description: "制作符文祭坛，用于制作符文",
+	text: [
+		""
+	],
+	dependencies: [
+		"757c75bf"
+	],
+	tasks: [{
+		uid: "43358424",
+		type: "item",
+		items: [{
+			item: "botania:runealtar"
+		}]
+	}],
+	rewards: [{
+		uid: "4861d2f1",
+		type: "item",
+		item: "botania:livingrock",
+		count: 32
+	},
+	{
+		uid: "f752e279",
+		type: "item",
+		item: "botania:rune 1 8"
+	},
+	{
+		uid: "9e7624b4",
+		type: "xp",
+		xp: 600
+	},
+	{
+		uid: "6eb5b484",
+		type: "random",
+		table: 1
+	}]
+}

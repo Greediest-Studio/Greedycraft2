@@ -1,0 +1,30 @@
+{
+	title: "§b深入研究邪术学",
+	x: 1.5d,
+	y: 4.0d,
+	description: "获得血腥仪式",
+	text: [
+		"寻找野外的血腥传送门，刷出来的血腥教徒可以掉落"
+	],
+	dependencies: [
+		"d5f049de"
+	],
+	tasks: [{
+		uid: "a68a84bf",
+		type: "item",
+		items: [{
+			item: "thaumcraft:curio 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "094f0fde",
+		type: "item",
+		item: "thaumcraft:curio 1 6",
+		count: 5
+	},
+	{
+		uid: "05b730cd",
+		type: "xp",
+		xp: 100
+	}]
+}

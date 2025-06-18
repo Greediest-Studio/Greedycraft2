@@ -1,0 +1,29 @@
+{
+	title: "§b量产齿轮",
+	x: -23.5d,
+	y: -9.5d,
+	description: "制作升级：齿轮工作模具",
+	text: [
+		"可以直接制造齿轮，但不能造板材"
+	],
+	dependencies: [
+		"4b5bff63"
+	],
+	tasks: [{
+		uid: "8349a58d",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 337"
+		}]
+	}],
+	rewards: [{
+		uid: "78402892",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "4e8f9142",
+		type: "xp",
+		xp: 1000
+	}]
+}

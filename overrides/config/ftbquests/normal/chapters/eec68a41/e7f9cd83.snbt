@@ -1,0 +1,35 @@
+{
+	title: "§b从哪里来？",
+	x: 21.5d,
+	y: -4.5d,
+	description: "获得植物之魂",
+	text: [
+		"使用带有“自然提炼”词条的镐挖掘蕴含魔力的精灵石头，即可获得植物之魂"
+	],
+	dependencies: [
+		"8afb705b"
+	],
+	tasks: [{
+		uid: "97ea40e4",
+		type: "item",
+		items: [{
+			item: "gct_mobs:botanical_soul"
+		}]
+	}],
+	rewards: [{
+		uid: "c934b5f8",
+		type: "item",
+		item: "gct_mobs:botanical_soul",
+		count: 4
+	},
+	{
+		uid: "72abb25b",
+		type: "xp",
+		xp: 8000
+	},
+	{
+		uid: "d864c82a",
+		type: "random",
+		table: 3
+	}]
+}

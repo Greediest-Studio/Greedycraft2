@@ -1,0 +1,22 @@
+{
+	x: -26.5d,
+	y: -4.0d,
+	description: "制作一个空气收集器控制器",
+	tasks: [{
+		uid: "27a47fc8",
+		type: "item",
+		items: [{
+			item: "modularmachinery:air_collector_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "4d889968",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "6691cf24",
+		type: "xp",
+		xp: 1000
+	}]
+}

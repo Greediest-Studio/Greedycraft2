@@ -1,0 +1,31 @@
+{
+	title: "§b尽情粉碎",
+	x: 9.0d,
+	y: 2.5d,
+	description: "合成SAG磨粉机",
+	text: [
+		""
+	],
+	dependencies: [
+		"03a82592"
+	],
+	tasks: [{
+		uid: "58a8ceb2",
+		type: "item",
+		items: [{
+			item: "enderio:block_sag_mill"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3c1fcba4",
+		type: "item",
+		item: "minecraft:piston",
+		count: 16
+	},
+	{
+		uid: "9ac71b89",
+		type: "xp",
+		xp: 3000
+	}]
+}

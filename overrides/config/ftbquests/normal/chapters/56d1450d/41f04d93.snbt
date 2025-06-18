@@ -1,0 +1,41 @@
+{
+	title: "§b水土不服",
+	x: -10.5d,
+	y: 1.5d,
+	description: "获得适应性调整器",
+	text: [
+		""
+	],
+	dependencies: [
+		"ebd7f83b"
+	],
+	tasks: [{
+		uid: "7e5aef29",
+		type: "item",
+		items: [{
+			item: "genetics:lab_machine 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "c7e8a3f1",
+		type: "item",
+		item: "minecraft:snowball",
+		count: 256
+	},
+	{
+		uid: "debc5169",
+		type: "item",
+		item: "minecraft:blaze_rod",
+		count: 64
+	},
+	{
+		uid: "f0f966df",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "3178d213",
+		type: "loot",
+		table: 2
+	}]
+}

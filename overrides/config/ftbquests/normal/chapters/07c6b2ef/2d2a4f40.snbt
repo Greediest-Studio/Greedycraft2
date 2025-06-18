@@ -1,0 +1,29 @@
+{
+	title: "§b白嫖？",
+	x: -22.0d,
+	y: -19.0d,
+	description: "制作升级：火成碎屑注入",
+	text: [
+		"造石机工作时不消耗水（热知识，岩浆也不消耗哦）"
+	],
+	dependencies: [
+		"cece32a4"
+	],
+	tasks: [{
+		uid: "50d29bc4",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 496"
+		}]
+	}],
+	rewards: [{
+		uid: "9e019475",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "f4ae8c9c",
+		type: "random",
+		table: 0
+	}]
+}

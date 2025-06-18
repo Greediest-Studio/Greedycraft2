@@ -1,0 +1,29 @@
+{
+	title: "§b蘑菇精灵",
+	x: 1.0d,
+	y: 1.5d,
+	description: "击杀蘑菇精灵获得孢子",
+	text: [
+		"蘑菇精灵于层孔菌上生成"
+	],
+	dependencies: [
+		"0c618825"
+	],
+	tasks: [{
+		uid: "f5c17652",
+		type: "kill",
+		icon: "thebetweenlands:spores",
+		entity: "thebetweenlands:sporeling",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "64c7e5e0",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "2328e392",
+		type: "xp",
+		xp: 2500
+	}]
+}

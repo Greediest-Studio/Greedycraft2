@@ -1,0 +1,29 @@
+{
+	title: "§b星空投影",
+	x: -4.5d,
+	y: 9.0d,
+	description: "制作星辉投影仪",
+	text: [
+		""
+	],
+	dependencies: [
+		"d933b90a"
+	],
+	tasks: [{
+		uid: "df6105ca",
+		type: "item",
+		items: [{
+			item: "gct_mac:astral_portal"
+		}]
+	}],
+	rewards: [{
+		uid: "610873b1",
+		type: "xp",
+		xp: 4800
+	},
+	{
+		uid: "dc2ce1cc",
+		type: "random",
+		table: 3
+	}]
+}

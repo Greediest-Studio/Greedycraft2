@@ -1,0 +1,35 @@
+{
+	title: "§b红色血锭",
+	x: -15.5d,
+	y: -0.5d,
+	description: "获得惧质锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"c3fabed7"
+	],
+	tasks: [{
+		uid: "03776e5f",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:dreadiumingot"
+		}]
+	}],
+	rewards: [{
+		uid: "2f79858b",
+		type: "item",
+		item: "abyssalcraft:dreadiumingot",
+		count: 8
+	},
+	{
+		uid: "65952b4f",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "5405d41d",
+		type: "xp",
+		xp: 1000
+	}]
+}

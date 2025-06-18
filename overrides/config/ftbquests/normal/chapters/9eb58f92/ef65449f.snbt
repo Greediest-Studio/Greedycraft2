@@ -1,0 +1,26 @@
+{
+	title: "§b开始进行化学反应",
+	x: -23.5d,
+	y: -2.0d,
+	description: "制作化学反应机",
+	dependencies: [
+		"2c6906dc"
+	],
+	tasks: [{
+		uid: "bd8241d5",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:chemical_reactor"
+		}]
+	}],
+	rewards: [{
+		uid: "b35d3367",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "60d77196",
+		type: "xp",
+		xp: 500
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "§b熟悉的维度，又一个",
+	x: 1.0d,
+	y: 4.5d,
+	description: "进入末地",
+	text: [
+		""
+	],
+	dependencies: [
+		"83ef0bdd"
+	],
+	tasks: [{
+		uid: "6703f325",
+		type: "dimension",
+		icon: "minecraft:end_portal_frame",
+		dim: 1
+	}],
+	rewards: [{
+		uid: "9cad8d39",
+		type: "item",
+		item: "minecraft:ender_pearl",
+		count: 64
+	},
+	{
+		uid: "700255e0",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "7d97aabe",
+		type: "xp",
+		xp: 2000
+	}]
+}

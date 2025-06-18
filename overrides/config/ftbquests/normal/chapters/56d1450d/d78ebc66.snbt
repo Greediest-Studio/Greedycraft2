@@ -1,0 +1,34 @@
+{
+	title: "§b简洁，而且便利",
+	x: -12.0d,
+	y: -1.5d,
+	description: "获得养蜂人箱子",
+	text: [
+		""
+	],
+	dependencies: [
+		"ebd7f83b"
+	],
+	tasks: [{
+		uid: "876e087b",
+		type: "item",
+		items: [{
+			item: "forestry:bee_chest"
+		}]
+	}],
+	rewards: [{
+		uid: "7d1c5385",
+		type: "item",
+		item: "actuallyadditions:block_giant_chest"
+	},
+	{
+		uid: "290c6df8",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "e84e4704",
+		type: "loot",
+		table: 0
+	}]
+}

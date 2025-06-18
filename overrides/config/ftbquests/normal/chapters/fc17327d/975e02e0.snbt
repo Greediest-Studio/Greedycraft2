@@ -1,0 +1,53 @@
+{
+	title: "§b贪吃蛇大作战",
+	x: -8.0d,
+	y: 11.5d,
+	description: "击败娜迦",
+	text: [
+		""
+	],
+	dependencies: [
+		"bf410cf5"
+	],
+	tasks: [{
+		uid: "7b3c66a4",
+		type: "item",
+		items: [{
+			item: "twilightforest:trophy"
+		}]
+	}],
+	rewards: [{
+		uid: "ec689870",
+		type: "xp",
+		xp: 250
+	},
+	{
+		uid: "16d5f674",
+		type: "item",
+		item: {
+			id: "minecraft:splash_potion",
+			tag: {
+				Potion: "minecraft:strong_healing"
+			}
+		},
+		count: 16
+	},
+	{
+		uid: "c26a5177",
+		type: "item",
+		item: "twilightforest:naga_scale",
+		count: 16
+	},
+	{
+		uid: "f81ccda4",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "4747fd8c",
+		type: "advancement",
+		auto: "no_toast",
+		advancement: "twilightforest:progress_naga",
+		criterion: ""
+	}]
+}

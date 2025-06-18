@@ -1,0 +1,39 @@
+{
+	title: "§b因瓦合金？",
+	x: -11.5d,
+	y: -22.5d,
+	description: "合成殷钢锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"244b3be7"
+	],
+	tasks: [{
+		uid: "2530cfbf",
+		type: "item",
+		items: [{
+			id: "thermalfoundation:material",
+			Damage: 162s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "72224629",
+		type: "item",
+		item: "thermalfoundation:material 1 162",
+		count: 16
+	},
+	{
+		uid: "9ac3c44d",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "defca454",
+		type: "xp",
+		xp: 500
+	}]
+}

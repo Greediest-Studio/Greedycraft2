@@ -1,0 +1,32 @@
+{
+	title: "§b蕴含了大地的力量",
+	x: 6.5d,
+	y: 2.0d,
+	description: "获得大地之锭",
+	dependencies: [
+		"956cbb61"
+	],
+	tasks: [{
+		uid: "8af6271e",
+		type: "item",
+		items: [{
+			item: "gct_mobs:earth_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "4fbe1847",
+		type: "item",
+		item: "gct_mobs:earth_ingot",
+		count: 4
+	},
+	{
+		uid: "327f79b9",
+		type: "xp",
+		xp: 8000
+	},
+	{
+		uid: "26292258",
+		type: "random",
+		table: 3
+	}]
+}

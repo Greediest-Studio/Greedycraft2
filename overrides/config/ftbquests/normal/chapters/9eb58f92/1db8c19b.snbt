@@ -1,0 +1,26 @@
+{
+	x: -26.5d,
+	y: -2.0d,
+	description: "制作一个科幻锭",
+	dependencies: [
+		"02c8a87a",
+		"ef65449f"
+	],
+	tasks: [{
+		uid: "c5af87d9",
+		type: "item",
+		items: [{
+			item: "additions:scientificite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "eda4429c",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "5650889e",
+		type: "xp",
+		xp: 2000
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	title: "§b注魔铁锭",
+	x: -1.0d,
+	y: -0.5d,
+	description: "制作魔力钢锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"7bbbe3b4"
+	],
+	tasks: [{
+		uid: "0adf37f7",
+		type: "item",
+		items: [{
+			item: "botania:manaresource"
+		}]
+	}],
+	rewards: [{
+		uid: "9a99fde7",
+		type: "item",
+		item: "botania:manaresource",
+		count: 8,
+		random_bonus: 4
+	},
+	{
+		uid: "2f70c863",
+		type: "item",
+		item: "botania:blacklotus",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		uid: "33e5aadf",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "0c8bd175",
+		type: "xp",
+		xp: 600
+	}]
+}

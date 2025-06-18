@@ -1,0 +1,53 @@
+{
+	title: "§b倍矿狂魔 III",
+	x: 7.0d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"f5e20d2f"
+	],
+	tasks: [{
+		uid: "1f1dc389",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			Damage: 3s,
+			tag: {
+				Facing: 3b,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				RSControl: 0b,
+				Energy: 0,
+				Level: 0b
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "f4843b5c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "d3978f16",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "§b强化……别套了",
+	x: -5.5d,
+	y: 1.5d,
+	description: "使用二级血之祭坛制作强化石板",
+	text: [
+		""
+	],
+	dependencies: [
+		"4580a6aa"
+	],
+	tasks: [{
+		uid: "b44af8dd",
+		type: "item",
+		items: [{
+			item: "bloodmagic:slate 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "19797cdd",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "597c7287",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "46cc3cbf",
+		type: "item",
+		item: "bloodmagic:slate 1 1",
+		count: 8
+	}]
+}

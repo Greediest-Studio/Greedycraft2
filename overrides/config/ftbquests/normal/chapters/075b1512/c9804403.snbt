@@ -1,0 +1,29 @@
+{
+	title: "§b倍矿狂魔 VI",
+	x: 7.0d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"36d2ada6"
+	],
+	tasks: [{
+		uid: "c5ec95f5",
+		type: "item",
+		items: [{
+			item: "gct_mac:atomic_viberator"
+		}]
+	}],
+	rewards: [{
+		uid: "905dea8c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		},
+		count: 5
+	}]
+}

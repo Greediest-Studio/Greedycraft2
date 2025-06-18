@@ -1,0 +1,29 @@
+{
+	title: "§b磨碎的地衣",
+	x: -2.0d,
+	y: 6.0d,
+	description: "顾名思义",
+	text: [
+		""
+	],
+	dependencies: [
+		"3e7f837c"
+	],
+	tasks: [{
+		uid: "74248bbe",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_crushed 1 34"
+		}]
+	}],
+	rewards: [{
+		uid: "240054a5",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "5b0a83b8",
+		type: "xp",
+		xp: 1000
+	}]
+}

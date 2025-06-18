@@ -1,0 +1,38 @@
+{
+	title: "§b自由落体 IX",
+	x: 5.5d,
+	y: 13.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"633a654a"
+	],
+	tasks: [{
+		uid: "1b4af085",
+		type: "stat",
+		icon: "abyssalcraft:ethaxiumboots",
+		stat: "stat.fallOneCm",
+		value: 75000000
+	}],
+	rewards: [{
+		uid: "e09ea0f4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "87392248",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	}]
+}

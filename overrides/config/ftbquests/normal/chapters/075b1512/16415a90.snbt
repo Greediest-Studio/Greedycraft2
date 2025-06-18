@@ -1,0 +1,38 @@
+{
+	title: "§b自由落体 III",
+	x: 5.5d,
+	y: 4.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"2a4db479"
+	],
+	tasks: [{
+		uid: "89feb06c",
+		type: "stat",
+		icon: "minecraft:iron_boots",
+		stat: "stat.fallOneCm",
+		value: 3000000
+	}],
+	rewards: [{
+		uid: "f47701da",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "192f55b0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	}]
+}

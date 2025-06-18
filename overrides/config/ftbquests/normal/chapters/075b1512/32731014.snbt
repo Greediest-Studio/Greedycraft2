@@ -1,0 +1,68 @@
+{
+	title: "§b持之以恒 X",
+	x: -6.5d,
+	y: 14.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"94074998"
+	],
+	tasks: [{
+		uid: "d1cfec93",
+		type: "stat",
+		icon: "avaritia:infinity_helmet",
+		stat: "stat.playOneMinute",
+		value: 57600000
+	}],
+	rewards: [{
+		uid: "91dcad66",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "92a7ecd4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "ff932f67",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "718dbc31",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "8fde6aa0",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	}]
+}

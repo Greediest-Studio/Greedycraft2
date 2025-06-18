@@ -1,0 +1,34 @@
+{
+	title: "§b天境传说",
+	x: 6.75d,
+	y: -9.0d,
+	description: "进入天境",
+	text: [
+		"当初有多少人被骗到了"
+	],
+	dependencies: [
+		"4c400631"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "e156437a",
+		type: "dimension",
+		icon: "aether_legacy:holystone",
+		dim: 173
+	}],
+	rewards: [{
+		uid: "ae4e3aee",
+		type: "item",
+		item: "aether_legacy:golden_parachute"
+	},
+	{
+		uid: "d80191ab",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "eb228ae8",
+		type: "xp",
+		xp: 600
+	}]
+}

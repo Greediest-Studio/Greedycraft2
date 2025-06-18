@@ -1,0 +1,18 @@
+{
+	title: "§b最高级的精华",
+	x: -2.5d,
+	y: -6.0d,
+	text: [
+		"获得究极精华（用1145141919810个下级精华合成）"
+	],
+	dependencies: [
+		"f40d0255"
+	],
+	tasks: [{
+		uid: "d73e193d",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:insanium"
+		}]
+	}]
+}

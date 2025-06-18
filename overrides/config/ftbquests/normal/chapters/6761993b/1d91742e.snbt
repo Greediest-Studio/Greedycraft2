@@ -1,0 +1,29 @@
+{
+	title: "§b重要的合成方式",
+	x: -5.5d,
+	y: 5.5d,
+	description: "获得炼金术桌",
+	text: [
+		""
+	],
+	dependencies: [
+		"0cb8bba2"
+	],
+	tasks: [{
+		uid: "f3500f95",
+		type: "item",
+		items: [{
+			item: "bloodmagic:alchemy_table"
+		}]
+	}],
+	rewards: [{
+		uid: "265beb8a",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "f1263063",
+		type: "xp",
+		xp: 1500
+	}]
+}

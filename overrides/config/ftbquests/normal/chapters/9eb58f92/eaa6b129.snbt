@@ -1,0 +1,30 @@
+{
+	title: "§b多倍矿的基础",
+	x: -4.5d,
+	y: -2.0d,
+	description: "制作一个富集仓",
+	text: [
+		"AE的高纯水晶貌似能用这玩意儿做？"
+	],
+	dependencies: [
+		"f432f2f5"
+	],
+	tasks: [{
+		uid: "44b51678",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b508a524",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "15ee6f55",
+		type: "loot",
+		table: 0
+	}]
+}

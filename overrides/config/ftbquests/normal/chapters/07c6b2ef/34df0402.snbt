@@ -1,0 +1,35 @@
+{
+	title: "§b信号就在这里",
+	x: -11.5d,
+	y: -26.5d,
+	description: "合成信素锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"2f3072cf"
+	],
+	tasks: [{
+		uid: "6b334bb3",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 165"
+		}]
+	}],
+	rewards: [{
+		uid: "137bd2ee",
+		type: "item",
+		item: "thermalfoundation:material 1 165",
+		count: 16
+	},
+	{
+		uid: "cbc790ac",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "2391f798",
+		type: "xp",
+		xp: 800
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "奥穆索矿机",
+	icon: "abyssalcraft:essence 1 2",
+	x: 7.0d,
+	y: 3.0d,
+	description: "闪叠自由的一小步",
+	dependencies: [
+		"169361aa"
+	],
+	tasks: [{
+		uid: "f6bd96de",
+		type: "item",
+		items: [{
+			item: "modularmachinery:miner_omothol_controller"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

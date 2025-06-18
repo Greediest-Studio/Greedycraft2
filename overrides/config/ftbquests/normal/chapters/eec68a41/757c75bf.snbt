@@ -1,0 +1,41 @@
+{
+	title: "§b你会爱上它的！",
+	x: -2.5d,
+	y: -3.0d,
+	description: "制作魔力池",
+	text: [
+		""
+	],
+	dependencies: [
+		"9d38c9af"
+	],
+	tasks: [{
+		uid: "839289e0",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}]
+	}],
+	rewards: [{
+		uid: "d74245bb",
+		type: "item",
+		item: "botania:blacklotus",
+		count: 3
+	},
+	{
+		uid: "11f10b2f",
+		type: "item",
+		item: "botania:livingrock",
+		count: 5
+	},
+	{
+		uid: "1c9e91f5",
+		type: "xp",
+		xp: 70
+	},
+	{
+		uid: "f49a9765",
+		type: "random",
+		table: 0
+	}]
+}

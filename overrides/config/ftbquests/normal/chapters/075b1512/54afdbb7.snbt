@@ -1,0 +1,38 @@
+{
+	title: "§b自由落体 VII",
+	x: 5.5d,
+	y: 10.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"fff3f85b"
+	],
+	tasks: [{
+		uid: "d4881b9a",
+		type: "stat",
+		icon: "abyssalcraft:corboots",
+		stat: "stat.fallOneCm",
+		value: 35000000
+	}],
+	rewards: [{
+		uid: "d7af4969",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "31e0a724",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	}]
+}

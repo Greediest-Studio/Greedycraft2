@@ -1,0 +1,38 @@
+{
+	title: "§b血流成河 VII",
+	x: 2.5d,
+	y: 10.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"519eb4fe"
+	],
+	tasks: [{
+		uid: "8a084959",
+		type: "stat",
+		icon: "abyssalcraft:corplate",
+		stat: "stat.damageTaken",
+		value: 3500000
+	}],
+	rewards: [{
+		uid: "53c13ea1",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "dbdfdb4d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "§b挑战者I",
+	icon: "additions:city_defender_medal 5",
+	tags: [
+		"challenge"
+	],
+	x: 16.5d,
+	y: 0.0d,
+	description: "完成5个挑战者任务",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "ae87e824",
+		type: "custom",
+		tags: [
+			"challenge1"
+		]
+	}],
+	rewards: [{
+		uid: "5f37a956",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "challenger_a"
+	},
+	{
+		uid: "97c1280a",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "51d74f2e",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "1718cc70",
+		type: "item",
+		item: "additions:reward_ticket_common",
+		count: 4
+	}]
+}

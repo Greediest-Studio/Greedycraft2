@@ -1,0 +1,41 @@
+{
+	title: "§b感受抽卡六的折磨吧！",
+	x: -8.5d,
+	y: 2.0d,
+	description: "制作研究台和笔与墨",
+	dependencies: [
+		"2b2f5f2a"
+	],
+	tasks: [{
+		uid: "8d6ca151",
+		type: "item",
+		items: [{
+			item: "thaumcraft:scribing_tools"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fe763c68",
+		type: "item",
+		items: [{
+			item: "thaumcraft:table_wood"
+		}]
+	}],
+	rewards: [{
+		uid: "f9e47dae",
+		type: "item",
+		item: "minecraft:paper",
+		count: 64
+	},
+	{
+		uid: "591b69fa",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "c84c7001",
+		type: "loot",
+		table: 0
+	}]
+}

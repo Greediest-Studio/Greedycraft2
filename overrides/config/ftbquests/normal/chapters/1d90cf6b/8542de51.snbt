@@ -1,0 +1,16 @@
+{
+	icon: "extendedcrafting:crafting_core",
+	x: 4.0d,
+	y: 7.0d,
+	description: "WIP",
+	dependencies: [
+		"2e3ef671"
+	],
+	tasks: [{
+		uid: "4155f10b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:factory_giant_controller"
+		}]
+	}]
+}

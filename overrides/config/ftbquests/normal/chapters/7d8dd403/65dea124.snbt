@@ -1,0 +1,35 @@
+{
+	title: "§b龙力核心",
+	x: 8.0d,
+	y: 6.5d,
+	description: "获得龙芯",
+	text: [
+		""
+	],
+	dependencies: [
+		"7d572f6a"
+	],
+	tasks: [{
+		uid: "34a46a96",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_core"
+		}]
+	}],
+	rewards: [{
+		uid: "ff499bce",
+		type: "item",
+		item: "draconicevolution:draconic_core",
+		count: 8
+	},
+	{
+		uid: "ca82ce78",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "64026750",
+		type: "xp",
+		xp: 1500
+	}]
+}

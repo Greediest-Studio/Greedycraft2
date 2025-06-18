@@ -1,0 +1,181 @@
+{
+	title: "§b装起来了",
+	tags: [
+		"challenge"
+	],
+	x: 10.5d,
+	y: 1.5d,
+	description: "获得很能装的基础精妙背包",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "1b43bd8f",
+		type: "item",
+		items: [{
+			id: "retro_sophisticated_backpacks:backpack_leather",
+			ForgeCaps: {
+				Parent: {
+					MemoryRespectNBT: [B;
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b
+					],
+					LockedSlots: [B;
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b
+					],
+					UUIDMost: 332086630677105214L,
+					UpgradeSlotsSize: 1,
+					MemoryItems: {
+						Items: []
+					},
+					UUIDLeast: -8579907796692191083L,
+					BackpackInventory: {
+						Items: []
+					},
+					SortType: 0b,
+					BackpackInventorySize: 27,
+					UpgradeSlots: {
+						Items: []
+					}
+				},
+				"retro_sophisticated_backpacks:backpack_capability": {
+					MemoryRespectNBT: [B;
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b
+					],
+					LockedSlots: [B;
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b
+					],
+					UUIDMost: 3619241023421173401L,
+					UpgradeSlotsSize: 1,
+					MemoryItems: {
+						Items: []
+					},
+					UUIDLeast: -8210574535832402145L,
+					BackpackInventory: {
+						Items: []
+					},
+					SortType: 0b,
+					BackpackInventorySize: 27,
+					UpgradeSlots: {
+						Items: []
+					}
+				}
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4f4b6e80",
+		type: "xp",
+		xp: 500
+	},
+	{
+		uid: "47403663",
+		type: "choice",
+		table: 0
+	}]
+}

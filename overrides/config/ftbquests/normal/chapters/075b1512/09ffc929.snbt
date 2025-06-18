@@ -1,0 +1,68 @@
+{
+	title: "§b凋灵杀手 II",
+	icon: "minecraft:skull 1 1",
+	x: -0.5d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"0fe06373"
+	],
+	tasks: [{
+		uid: "51b8b99a",
+		type: "kill",
+		entity: "minecraft:wither",
+		value: 4L
+	}],
+	rewards: [{
+		uid: "c94c1c6e",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "e3ca70e8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "7bacf678",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "cc7ac91c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "18912657",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	}]
+}

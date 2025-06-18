@@ -1,0 +1,25 @@
+{
+	x: 5.5d,
+	y: 9.0d,
+	description: "制作一个回旋镖蓝图",
+	dependencies: [
+		"b5ab2c55"
+	],
+	tasks: [{
+		uid: "8cc0b63e",
+		type: "item",
+		items: [{
+			item: "additions:blueprint_shuriken"
+		}]
+	}],
+	rewards: [{
+		uid: "0f513e6a",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "00e7435c",
+		type: "xp",
+		xp: 5000
+	}]
+}

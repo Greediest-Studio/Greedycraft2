@@ -1,0 +1,316 @@
+{
+	title: "§b挖矿遇到它千万不要错过",
+	x: -9.0d,
+	y: -1.5d,
+	description: "获得石头蜂",
+	text: [
+		"耐雨 夜行 穴居（好耶"
+	],
+	dependencies: [
+		"bebee385"
+	],
+	tasks: [{
+		uid: "64f1a4e3",
+		type: "item",
+		title: "石头蜂",
+		items: [{
+			id: "forestry:bee_queen_ge",
+			tag: {
+				IsAnalyzed: 0b,
+				Health: 30,
+				MaxH: 30,
+				Genome: {
+					Chromosomes: [{
+						Slot: 0b,
+						UID0: "extrabees.species.rock",
+						UID1: "extrabees.species.rock"
+					},
+					{
+						Slot: 1b,
+						UID0: "forestry.speedSlowest",
+						UID1: "forestry.speedSlowest"
+					},
+					{
+						Slot: 2b,
+						UID0: "forestry.lifespanShort",
+						UID1: "forestry.lifespanShort"
+					},
+					{
+						Slot: 3b,
+						UID0: "forestry.fertilityLow",
+						UID1: "forestry.fertilityLow"
+					},
+					{
+						Slot: 4b,
+						UID0: "forestry.toleranceBoth1",
+						UID1: "forestry.toleranceBoth1"
+					},
+					{
+						Slot: 5b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 6b,
+						UID0: "forestry.toleranceBoth1",
+						UID1: "forestry.toleranceBoth1"
+					},
+					{
+						Slot: 7b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 8b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 9b,
+						UID0: "extrabees.flower.rock",
+						UID1: "extrabees.flower.rock"
+					},
+					{
+						Slot: 10b,
+						UID0: "forestry.floweringSlowest",
+						UID1: "forestry.floweringSlowest"
+					},
+					{
+						Slot: 11b,
+						UID0: "forestry.territoryAverage",
+						UID1: "forestry.territoryAverage"
+					},
+					{
+						Slot: 12b,
+						UID0: "forestry.effectNone",
+						UID1: "forestry.effectNone"
+					}]
+				},
+				Mate: {
+					Chromosomes: [{
+						Slot: 0b,
+						UID0: "extrabees.species.rock",
+						UID1: "extrabees.species.rock"
+					},
+					{
+						Slot: 1b,
+						UID0: "forestry.speedSlowest",
+						UID1: "forestry.speedSlowest"
+					},
+					{
+						Slot: 2b,
+						UID0: "forestry.lifespanShort",
+						UID1: "forestry.lifespanShort"
+					},
+					{
+						Slot: 3b,
+						UID0: "forestry.fertilityLow",
+						UID1: "forestry.fertilityLow"
+					},
+					{
+						Slot: 4b,
+						UID0: "forestry.toleranceBoth1",
+						UID1: "forestry.toleranceBoth1"
+					},
+					{
+						Slot: 5b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 6b,
+						UID0: "forestry.toleranceBoth1",
+						UID1: "forestry.toleranceBoth1"
+					},
+					{
+						Slot: 7b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 8b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 9b,
+						UID0: "extrabees.flower.rock",
+						UID1: "extrabees.flower.rock"
+					},
+					{
+						Slot: 10b,
+						UID0: "forestry.floweringSlowest",
+						UID1: "forestry.floweringSlowest"
+					},
+					{
+						Slot: 11b,
+						UID0: "forestry.territoryAverage",
+						UID1: "forestry.territoryAverage"
+					},
+					{
+						Slot: 12b,
+						UID0: "forestry.effectNone",
+						UID1: "forestry.effectNone"
+					}]
+				}
+			}
+		}],
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "5a650137",
+		type: "item",
+		item: {
+			id: "forestry:bee_princess_ge",
+			tag: {
+				IsAnalyzed: 0b,
+				Health: 30,
+				MaxH: 30,
+				Genome: {
+					Chromosomes: [{
+						Slot: 0b,
+						UID0: "extrabees.species.rock",
+						UID1: "extrabees.species.rock"
+					},
+					{
+						Slot: 1b,
+						UID0: "forestry.speedSlowest",
+						UID1: "forestry.speedSlowest"
+					},
+					{
+						Slot: 2b,
+						UID0: "forestry.lifespanShort",
+						UID1: "forestry.lifespanShort"
+					},
+					{
+						Slot: 3b,
+						UID0: "forestry.fertilityLow",
+						UID1: "forestry.fertilityLow"
+					},
+					{
+						Slot: 4b,
+						UID0: "forestry.toleranceBoth1",
+						UID1: "forestry.toleranceBoth1"
+					},
+					{
+						Slot: 5b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 6b,
+						UID0: "forestry.toleranceBoth1",
+						UID1: "forestry.toleranceBoth1"
+					},
+					{
+						Slot: 7b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 8b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 9b,
+						UID0: "extrabees.flower.rock",
+						UID1: "extrabees.flower.rock"
+					},
+					{
+						Slot: 10b,
+						UID0: "forestry.floweringSlowest",
+						UID1: "forestry.floweringSlowest"
+					},
+					{
+						Slot: 11b,
+						UID0: "forestry.territoryAverage",
+						UID1: "forestry.territoryAverage"
+					},
+					{
+						Slot: 12b,
+						UID0: "forestry.effectNone",
+						UID1: "forestry.effectNone"
+					}]
+				},
+				Mate: {
+					Chromosomes: [{
+						Slot: 0b,
+						UID0: "extrabees.species.rock",
+						UID1: "extrabees.species.rock"
+					},
+					{
+						Slot: 1b,
+						UID0: "forestry.speedSlowest",
+						UID1: "forestry.speedSlowest"
+					},
+					{
+						Slot: 2b,
+						UID0: "forestry.lifespanShort",
+						UID1: "forestry.lifespanShort"
+					},
+					{
+						Slot: 3b,
+						UID0: "forestry.fertilityLow",
+						UID1: "forestry.fertilityLow"
+					},
+					{
+						Slot: 4b,
+						UID0: "forestry.toleranceBoth1",
+						UID1: "forestry.toleranceBoth1"
+					},
+					{
+						Slot: 5b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 6b,
+						UID0: "forestry.toleranceBoth1",
+						UID1: "forestry.toleranceBoth1"
+					},
+					{
+						Slot: 7b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 8b,
+						UID0: "forestry.boolTrue",
+						UID1: "forestry.boolTrue"
+					},
+					{
+						Slot: 9b,
+						UID0: "extrabees.flower.rock",
+						UID1: "extrabees.flower.rock"
+					},
+					{
+						Slot: 10b,
+						UID0: "forestry.floweringSlowest",
+						UID1: "forestry.floweringSlowest"
+					},
+					{
+						Slot: 11b,
+						UID0: "forestry.territoryAverage",
+						UID1: "forestry.territoryAverage"
+					},
+					{
+						Slot: 12b,
+						UID0: "forestry.effectNone",
+						UID1: "forestry.effectNone"
+					}]
+				}
+			}
+		}
+	},
+	{
+		uid: "5a14d567",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "e42cb9b7",
+		type: "loot",
+		table: 0
+	}]
+}

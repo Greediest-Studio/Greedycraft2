@@ -1,0 +1,18 @@
+{
+	title: "§b这玩意掉的概率好低",
+	x: -10.0d,
+	y: -3.0d,
+	text: [
+		"通过燃烧僵尸灵魂碎片以获得1级基础灵魂掉落碎片"
+	],
+	dependencies: [
+		"ccc81709"
+	],
+	tasks: [{
+		uid: "03d5f9f7",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:chunk"
+		}]
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	title: "恒钢炉",
+	icon: "additions:aeonsteel_ingot",
+	x: -5.0d,
+	y: -3.0d,
+	description: "缺聚合矩阵？快去做种子",
+	text: [
+		"魔物会有自动化获取方法的（咕咕咕",
+		"你决定进一步激发耐钢的潜力"
+	],
+	dependencies: [
+		"0789f3f5",
+		"c8ec2ffe"
+	],
+	tasks: [{
+		uid: "261c3ad7",
+		type: "item",
+		items: [{
+			item: "modularmachinery:aeonsteel_forge_controller"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "§b蜘蛛巢穴",
+	x: 3.5d,
+	y: -17.0d,
+	description: "进入暗石地牢，击杀蛛母",
+	text: [
+		""
+	],
+	dependencies: [
+		"b25ef338"
+	],
+	tasks: [{
+		uid: "25994a20",
+		type: "item",
+		items: [{
+			item: "theaurorian:trophyspider"
+		}]
+	}],
+	rewards: [{
+		uid: "91790fea",
+		type: "item",
+		item: "theaurorian:auroriansteel",
+		count: 4
+	},
+	{
+		uid: "eac5bd77",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "040996f8",
+		type: "xp",
+		xp: 5000
+	}]
+}

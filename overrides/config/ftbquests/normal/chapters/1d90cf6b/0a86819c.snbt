@@ -1,0 +1,22 @@
+{
+	title: "极光矿机",
+	icon: "theaurorian:auroriansteel",
+	x: -1.0d,
+	y: 3.0d,
+	description: "极光钢自由",
+	text: [
+		"耐钢量产必备"
+	],
+	dependencies: [
+		"5f02df0f"
+	],
+	tasks: [{
+		uid: "bada429d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:miner_aurorian_controller"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

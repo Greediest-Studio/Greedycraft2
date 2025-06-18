@@ -1,0 +1,25 @@
+{
+	x: -5.0d,
+	y: 7.0d,
+	description: "需要在驱动器放入存储矩阵             shift右键放入存储矩阵",
+	dependencies: [
+		"45d360e6"
+	],
+	tasks: [{
+		uid: "a725cf82",
+		type: "item",
+		items: [{
+			item: "ecoaeextension:estorage_cell_drive"
+		}]
+	},
+	{
+		uid: "187586aa",
+		type: "item",
+		items: [{
+			id: "ecoaeextension:estorage_cell_item_16m",
+			tag: {}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "§b撕碎世界",
+	x: 1.5d,
+	y: 2.5d,
+	description: "合成撕裂法杖！",
+	text: [
+		""
+	],
+	dependencies: [
+		"2cfae3d2"
+	],
+	tasks: [{
+		uid: "fee1c78d",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:drainstaff"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a29912dc",
+		type: "item",
+		item: "abyssalcraft:oblivionshard",
+		count: 4
+	},
+	{
+		uid: "8aaf3bdb",
+		type: "xp",
+		xp: 800
+	},
+	{
+		uid: "2360d0d3",
+		type: "random",
+		table: 1
+	}]
+}

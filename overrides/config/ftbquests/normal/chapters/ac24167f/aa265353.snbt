@@ -1,0 +1,32 @@
+{
+	title: "§b灵气的使用",
+	x: -3.5d,
+	y: 2.0d,
+	description: "获得自然祭坛核心",
+	dependencies: [
+		"5908adab"
+	],
+	tasks: [{
+		uid: "de71aa82",
+		type: "item",
+		items: [{
+			id: "naturesaura:nature_altar",
+			ForgeCaps: {
+				"distinctdamagedescriptions:dmgdistribution": [{
+					type: "ddd_bludgeoning",
+					weight: 1.0f
+				}]
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "d708883f",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "4fb719a6",
+		type: "random",
+		table: 2
+	}]
+}

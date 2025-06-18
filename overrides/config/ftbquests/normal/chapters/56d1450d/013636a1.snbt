@@ -1,0 +1,19 @@
+{
+	title: "§b诱导，变化？",
+	x: -18.0d,
+	y: 1.5d,
+	description: "获得诱变机",
+	text: [
+		""
+	],
+	dependencies: [
+		"a4361c9d"
+	],
+	tasks: [{
+		uid: "9b13ab8a",
+		type: "item",
+		items: [{
+			item: "gendustry:mutatron"
+		}]
+	}]
+}

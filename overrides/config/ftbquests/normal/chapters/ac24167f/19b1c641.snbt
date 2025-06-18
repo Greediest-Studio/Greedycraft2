@@ -1,0 +1,29 @@
+{
+	title: "§b末影龙的遗物",
+	x: -1.5d,
+	y: 6.0d,
+	description: "获得遗忘玫瑰",
+	tasks: [{
+		uid: "e34555fb",
+		type: "item",
+		items: [{
+			item: "naturesaura:end_flower"
+		}]
+	}],
+	rewards: [{
+		uid: "521844bf",
+		type: "item",
+		item: "naturesaura:end_flower",
+		count: 8
+	},
+	{
+		uid: "c01d45cf",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "e71a35e9",
+		type: "random",
+		table: 2
+	}]
+}

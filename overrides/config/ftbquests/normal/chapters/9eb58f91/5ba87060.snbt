@@ -1,0 +1,29 @@
+{
+	title: "§b套娃电容",
+	x: 2.5d,
+	y: -7.0d,
+	description: "制作一个旋律合金电容",
+	text: [
+		""
+	],
+	dependencies: [
+		"0b3cda2b"
+	],
+	tasks: [{
+		uid: "6a241851",
+		type: "item",
+		items: [{
+			item: "enderio:item_capacitor_melodic"
+		}]
+	}],
+	rewards: [{
+		uid: "dd618ac0",
+		type: "item",
+		item: "enderio:item_capacitor_melodic"
+	},
+	{
+		uid: "779470a3",
+		type: "xp",
+		xp: 3000
+	}]
+}

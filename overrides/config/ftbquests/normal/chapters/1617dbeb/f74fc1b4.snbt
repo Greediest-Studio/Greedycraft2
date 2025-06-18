@@ -1,0 +1,18 @@
+{
+	title: "§b妈妈再也不用担心我缺烈焰棒和末影珍珠了",
+	x: -5.5d,
+	y: -3.0d,
+	text: [
+		"通过燃烧4级任意怪物灵魂碎片即可获得4级基础灵魂碎片"
+	],
+	dependencies: [
+		"20542dca"
+	],
+	tasks: [{
+		uid: "6203a438",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:chunk 1 3"
+		}]
+	}]
+}

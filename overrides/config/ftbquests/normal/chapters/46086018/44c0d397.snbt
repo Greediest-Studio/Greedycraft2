@@ -1,0 +1,35 @@
+{
+	title: "§b琥 珀 金",
+	x: 14.0d,
+	y: -5.5d,
+	description: "使用带有“镀金”属性的匠魂斧劈砍金琥珀树，获得金琥珀",
+	text: [
+		""
+	],
+	dependencies: [
+		"2ed5c6ee"
+	],
+	tasks: [{
+		uid: "6569c083",
+		type: "item",
+		items: [{
+			item: "aether_legacy:golden_amber"
+		}]
+	}],
+	rewards: [{
+		uid: "87f8fecd",
+		type: "item",
+		item: "aether_legacy:golden_amber",
+		count: 4
+	},
+	{
+		uid: "193094d8",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "d1c820a1",
+		type: "xp",
+		xp: 1200
+	}]
+}

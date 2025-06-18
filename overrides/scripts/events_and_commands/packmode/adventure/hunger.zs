@@ -4,7 +4,6 @@
  */ 
 
 #priority 80
-#packmode adventure
 
 import crafttweaker.player.IFoodStats;
 import crafttweaker.event.PlayerLoggedInEvent;
@@ -31,9 +30,9 @@ HungerEvents.onExhausted(function(event as mods.hungertweaker.events.ExhaustedEv
     if ((Math.random() * 10000) < ((20 - event.player.foodStats.foodLevel) * 400)) {
         event.deltaHunger = 0;
         event.deltaSaturation = 0;
-        
+
     }else if (event.player.foodStats.foodLevel <= 6) {
         event.player.sendRichTextStatusMessage(ITextComponent.fromData(["", {translate: "greedycraft.event.hunger.warning", color: "red"}, {"text":": "}, {translate: "greedycraft.event.hunger.low", color: "yellow"}]), true);
-    } 
+    }
 });
 //Powered by TCreopargh

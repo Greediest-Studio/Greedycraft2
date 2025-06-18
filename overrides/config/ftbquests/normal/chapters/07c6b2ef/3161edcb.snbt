@@ -1,0 +1,34 @@
+{
+	title: "§b冷，冰……",
+	x: -7.0d,
+	y: -24.5d,
+	description: "合成极寒末影锭！",
+	text: [
+		"做装备或许不错？"
+	],
+	dependencies: [
+		"937ba3ca"
+	],
+	tasks: [{
+		uid: "ef0ecde8",
+		type: "item",
+		items: [{
+			item: "redstonerepository:material 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "4af5fb14",
+		type: "item",
+		item: "redstonerepository:storage"
+	},
+	{
+		uid: "17c8029d",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "4a0dd9d6",
+		type: "xp",
+		xp: 750
+	}]
+}

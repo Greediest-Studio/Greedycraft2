@@ -1,0 +1,39 @@
+{
+	title: "§b世另我",
+	tags: [
+		"challenge"
+	],
+	x: 13.5d,
+	y: 4.5d,
+	description: "制作玩家模拟器",
+	text: [
+		"坏了，我成替身了？"
+	],
+	tasks: [{
+		uid: "8151e547",
+		type: "item",
+		items: [{
+			item: "cyclicmagic:block_user"
+		}]
+	}],
+	rewards: [{
+		uid: "a0951bde",
+		type: "item",
+		item: "additions:aeonsteel_block"
+	},
+	{
+		uid: "f39814d4",
+		type: "item",
+		item: "randomthings:playerinterface"
+	},
+	{
+		uid: "5467ae55",
+		type: "xp",
+		xp: 4500
+	},
+	{
+		uid: "ca9124c8",
+		type: "choice",
+		table: 3
+	}]
+}

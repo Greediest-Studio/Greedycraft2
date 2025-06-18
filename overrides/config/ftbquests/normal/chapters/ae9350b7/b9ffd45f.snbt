@@ -1,0 +1,53 @@
+{
+	title: "§b挑战者X",
+	icon: "additions:city_defender_medal 125",
+	tags: [
+		"challenge"
+	],
+	x: 16.5d,
+	y: 13.5d,
+	description: "完成125个挑战者任务",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "03599e08",
+		type: "custom",
+		tags: [
+			"challenge10"
+		]
+	}],
+	rewards: [{
+		uid: "7836a1bc",
+		type: "gamestage",
+		title: "WIP",
+		auto: "no_toast",
+		stage: "challenger_j"
+	},
+	{
+		uid: "987db1f1",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "b2d2a9db",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "4c27704e",
+		type: "random",
+		table: 6
+	},
+	{
+		uid: "217ccc1e",
+		type: "random",
+		table: 6
+	},
+	{
+		uid: "ca65839f",
+		type: "item",
+		item: "additions:reward_ticket_myth",
+		count: 10
+	}]
+}

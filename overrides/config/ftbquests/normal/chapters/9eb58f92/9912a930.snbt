@@ -1,0 +1,32 @@
+{
+	x: -18.5d,
+	y: -4.0d,
+	description: "制作压缩机",
+	dependencies: [
+		"2c6906dc"
+	],
+	tasks: [{
+		uid: "b011f01d",
+		type: "item",
+		items: [{
+			id: "nuclearcraft:pressurizer",
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {},
+				"distinctdamagedescriptions:dmgdistribution": [{
+					type: "ddd_bludgeoning",
+					weight: 1.0f
+				}]
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "78b7c8c2",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "adc23dd1",
+		type: "xp",
+		xp: 500
+	}]
+}

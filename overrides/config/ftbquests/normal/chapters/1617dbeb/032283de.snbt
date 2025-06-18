@@ -1,0 +1,18 @@
+{
+	title: "§b一点用都没有",
+	x: -2.5d,
+	y: -3.0d,
+	text: [
+		"合成6级基础怪物灵魂碎片"
+	],
+	dependencies: [
+		"af04b247"
+	],
+	tasks: [{
+		uid: "b9b776eb",
+		type: "item",
+		items: [{
+			item: "mysticalagradditions:insanium 1 4"
+		}]
+	}]
+}

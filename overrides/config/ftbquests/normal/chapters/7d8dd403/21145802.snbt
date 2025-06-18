@@ -1,0 +1,34 @@
+{
+	title: "§b沸点",
+	x: -11.0d,
+	y: 3.0d,
+	description: "进入怒焰石林维度",
+	text: [
+		"使用怒焰石林结界石制作框架，使用火焰铸币激活"
+	],
+	dependencies: [
+		"a2012c5f"
+	],
+	tasks: [{
+		uid: "9bdfe9fc",
+		type: "dimension",
+		icon: "journey:boilingportal",
+		dim: 822
+	}],
+	rewards: [{
+		uid: "d01dd6b2",
+		type: "item",
+		item: "journey:bloodrock",
+		count: 16
+	},
+	{
+		uid: "f34d791a",
+		type: "xp",
+		xp: 1500
+	},
+	{
+		uid: "7c35cfac",
+		type: "random",
+		table: 2
+	}]
+}

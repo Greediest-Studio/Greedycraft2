@@ -1,0 +1,35 @@
+{
+	title: "§bC₄H₅N₃O",
+	x: 0.5d,
+	y: 0.0d,
+	description: "在主世界的泥巴中挖掘胞嘧",
+	text: [
+		""
+	],
+	dependencies: [
+		"9329a5dd"
+	],
+	tasks: [{
+		uid: "c08b115b",
+		type: "item",
+		items: [{
+			item: "additions:cytosinite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "030d29c1",
+		type: "item",
+		item: "additions:cytosinite_ingot",
+		count: 8
+	},
+	{
+		uid: "f12a7b19",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "d27fa41b",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "§b波粒二象性",
+	x: 12.5d,
+	y: -1.5d,
+	description: "合成光子锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"346bc2fe",
+		"ef72cb25"
+	],
+	tasks: [{
+		uid: "1834cf12",
+		type: "item",
+		items: [{
+			item: "extrabotany:material 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "2c5d91d1",
+		type: "item",
+		item: "extrabotany:material 1 8",
+		count: 2
+	},
+	{
+		uid: "cca006a6",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "f4a9db72",
+		type: "random",
+		table: 2
+	}]
+}

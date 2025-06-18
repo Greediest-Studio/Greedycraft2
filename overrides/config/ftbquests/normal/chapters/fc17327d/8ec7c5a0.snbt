@@ -1,0 +1,25 @@
+{
+	title: "§b还是工作台爽",
+	x: -18.0d,
+	y: 7.5d,
+	description: "合成一个合成站，相当于原版的工作台",
+	text: [
+		""
+	],
+	dependencies: [
+		"fc69c87b",
+		"8412e7a9"
+	],
+	tasks: [{
+		uid: "0c24285b",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables"
+		}]
+	}],
+	rewards: [{
+		uid: "459e33c1",
+		type: "xp",
+		xp: 30
+	}]
+}

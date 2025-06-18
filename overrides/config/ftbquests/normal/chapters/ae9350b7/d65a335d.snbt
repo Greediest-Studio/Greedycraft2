@@ -1,0 +1,68 @@
+{
+	title: "§6挑战者∞",
+	icon: "additions:medal_reward",
+	tags: [
+		"challenge"
+	],
+	x: 16.5d,
+	y: 15.0d,
+	description: "完成全部挑战者任务",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "f7f66dfc",
+		type: "custom",
+		tags: [
+			"challengeall"
+		]
+	}],
+	rewards: [{
+		uid: "03676c81",
+		type: "random",
+		table: 6
+	},
+	{
+		uid: "5ff20977",
+		type: "random",
+		table: 6
+	},
+	{
+		uid: "02479d35",
+		type: "random",
+		table: 6
+	},
+	{
+		uid: "1df93beb",
+		type: "random",
+		table: 6
+	},
+	{
+		uid: "65fd6372",
+		type: "random",
+		table: 6
+	},
+	{
+		uid: "eccfbb15",
+		type: "random",
+		table: 6
+	},
+	{
+		uid: "81b44622",
+		type: "item",
+		item: "additions:creative_soul",
+		count: 4
+	},
+	{
+		uid: "ef91a443",
+		type: "item",
+		item: "additions:reward_ticket_myth",
+		count: 32
+	},
+	{
+		uid: "da1c76eb",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "challenger_all"
+	}]
+}

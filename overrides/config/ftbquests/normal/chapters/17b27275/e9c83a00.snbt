@@ -1,0 +1,15 @@
+{
+	x: -0.5d,
+	y: 4.5d,
+	description: "使用镰刀破坏洞穴生成的地衣获得",
+	dependencies: [
+		"527a574f"
+	],
+	tasks: [{
+		uid: "d98fda31",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_plant_drop 1 17"
+		}]
+	}]
+}

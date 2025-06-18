@@ -1,0 +1,40 @@
+{
+	title: "§b精致",
+	x: 4.5d,
+	y: -4.5d,
+	description: "制作[精致]地狱魂石",
+	dependencies: [
+		"51833430"
+	],
+	tasks: [{
+		uid: "0943b816",
+		type: "item",
+		items: [{
+			id: "bloodmagic:soul_gem",
+			Damage: 4s,
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "600bdccc",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "55ebe291",
+		type: "item",
+		item: {
+			id: "bloodmagic:soul_gem",
+			Damage: 3s,
+			tag: {
+				souls: 4096.0d
+			}
+		}
+	},
+	{
+		uid: "e5ec70e1",
+		type: "xp",
+		xp: 2000
+	}]
+}

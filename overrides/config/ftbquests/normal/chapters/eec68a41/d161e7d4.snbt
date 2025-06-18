@@ -1,0 +1,35 @@
+{
+	title: "§b能连上火花的祭坛",
+	x: 6.5d,
+	y: 1.5d,
+	description: "将符文祭坛升级为精灵祭坛",
+	text: [
+		""
+	],
+	dependencies: [
+		"f5b9401b"
+	],
+	tasks: [{
+		uid: "c53d8de2",
+		type: "item",
+		items: [{
+			item: "botanicadds:elven_altar"
+		}]
+	}],
+	rewards: [{
+		uid: "515188c8",
+		type: "item",
+		item: "botanicadds:dreamrock",
+		count: 16
+	},
+	{
+		uid: "e0521d2b",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "000ede55",
+		type: "random",
+		table: 1
+	}]
+}

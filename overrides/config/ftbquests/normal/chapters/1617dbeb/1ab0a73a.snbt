@@ -1,0 +1,15 @@
+{
+	title: "§b最初始的精华",
+	x: -10.0d,
+	y: -6.0d,
+	text: [
+		"获得下级精华"
+	],
+	tasks: [{
+		uid: "d88bcd36",
+		type: "item",
+		items: [{
+			item: "mysticalagriculture:crafting"
+		}]
+	}]
+}

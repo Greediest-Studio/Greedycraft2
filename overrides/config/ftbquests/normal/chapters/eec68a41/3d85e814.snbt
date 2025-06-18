@@ -1,0 +1,40 @@
+{
+	title: "§b胸怀大志",
+	x: 14.0d,
+	y: -1.5d,
+	description: "合成挑战券或自然蕴息宝珠，召唤盖亚3",
+	text: [
+		""
+	],
+	dependencies: [
+		"518a2e9d",
+		"5733c5d8"
+	],
+	tasks: [{
+		uid: "f488d8ab",
+		type: "item",
+		items: [{
+			item: "extrabotany:material 1 6"
+		},
+		{
+			id: "extrabotany:natureorb",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "73713314",
+		type: "item",
+		item: "extrabotany:material 1 6"
+	},
+	{
+		uid: "36252ffa",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "09defcb9",
+		type: "random",
+		table: 2
+	}]
+}

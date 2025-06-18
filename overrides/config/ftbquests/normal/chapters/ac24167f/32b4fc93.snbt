@@ -1,0 +1,29 @@
+{
+	title: "§b自然的起始",
+	x: -11.5d,
+	y: 2.0d,
+	description: "获得闪耀纤维",
+	tasks: [{
+		uid: "1a99648d",
+		type: "item",
+		items: [{
+			item: "naturesaura:gold_fiber"
+		}]
+	}],
+	rewards: [{
+		uid: "7df48885",
+		type: "item",
+		item: "naturesaura:gold_fiber",
+		count: 12
+	},
+	{
+		uid: "feae5fe1",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "f828b159",
+		type: "random",
+		table: 2
+	}]
+}

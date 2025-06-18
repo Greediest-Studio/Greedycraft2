@@ -1,0 +1,41 @@
+{
+	title: "§b抽水吧！",
+	x: -16.5d,
+	y: -6.0d,
+	description: "获得农场水阀",
+	text: [
+		""
+	],
+	dependencies: [
+		"e4e83c3f"
+	],
+	tasks: [{
+		uid: "985cd8d6",
+		type: "item",
+		items: [{
+			id: "forestry:ffarm",
+			Damage: 4s,
+			tag: {
+				FarmBlock: 0
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "24dc8b7a",
+		type: "item",
+		item: {
+			id: "thermalexpansion:reservoir",
+			tag: {}
+		}
+	},
+	{
+		uid: "9cf92918",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "78af71c9",
+		type: "loot",
+		table: 1
+	}]
+}

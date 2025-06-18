@@ -1,0 +1,25 @@
+{
+	title: "通量还原器",
+	icon: {
+		id: "thermalexpansion:capacitor",
+		Damage: 4s,
+		tag: {
+			Energy: 25000000
+		}
+	},
+	x: 4.0d,
+	y: 4.0d,
+	description: "还原液态通量",
+	dependencies: [
+		"2e3ef671"
+	],
+	tasks: [{
+		uid: "1775549c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:flux_reducer_controller"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

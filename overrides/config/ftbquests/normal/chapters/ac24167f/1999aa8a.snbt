@@ -1,0 +1,38 @@
+{
+	title: "§b呼唤神灵的媒介",
+	x: 0.5d,
+	y: 3.0d,
+	description: "获得呼唤之魂",
+	dependencies: [
+		"1c43f13e"
+	],
+	tasks: [{
+		uid: "76d372fd",
+		type: "item",
+		items: [{
+			id: "naturesaura:calling_spirit",
+			ForgeCaps: {
+				"distinctdamagedescriptions:dmgdistribution": [{
+					type: "ddd_bludgeoning",
+					weight: 1.0f
+				}]
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "bad56ef3",
+		type: "item",
+		item: "naturesaura:calling_spirit",
+		count: 8
+	},
+	{
+		uid: "741164ab",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "f0820015",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	title: "§b紫月",
+	x: -15.0d,
+	y: 1.0d,
+	description: "合成紫月石砖",
+	dependencies: [
+		"b01437e4"
+	],
+	tasks: [{
+		uid: "2f2ccce0",
+		type: "item",
+		items: [{
+			item: "blue_skies:lunar_stonebrick"
+		}]
+	}],
+	rewards: [{
+		uid: "7c029473",
+		type: "xp",
+		xp: 2500
+	},
+	{
+		uid: "cd62be96",
+		type: "random",
+		table: 2
+	}]
+}

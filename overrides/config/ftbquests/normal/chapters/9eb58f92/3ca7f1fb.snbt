@@ -1,0 +1,25 @@
+{
+	x: -22.5d,
+	y: 0.0d,
+	description: "制作超冷却机",
+	dependencies: [
+		"2c6906dc"
+	],
+	tasks: [{
+		uid: "c0e5153c",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:supercooler"
+		}]
+	}],
+	rewards: [{
+		uid: "b869e385",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "91f98862",
+		type: "xp",
+		xp: 500
+	}]
+}

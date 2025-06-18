@@ -1,0 +1,68 @@
+{
+	title: "§b自由落体 VI",
+	x: 5.5d,
+	y: 8.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"3b5fd13c"
+	],
+	tasks: [{
+		uid: "91de4187",
+		type: "stat",
+		icon: "abyssalcraft:aboots",
+		stat: "stat.fallOneCm",
+		value: 25000000
+	}],
+	rewards: [{
+		uid: "50d74a11",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "84597eee",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "fa5fee39",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "80ad9fca",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "afd41cbc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	}]
+}

@@ -1,0 +1,42 @@
+{
+	title: "§b挑战者VI",
+	icon: "additions:city_defender_medal 45",
+	tags: [
+		"challenge"
+	],
+	x: 16.5d,
+	y: 7.5d,
+	description: "完成45个挑战者任务",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "45d44cdc",
+		type: "custom",
+		tags: [
+			"challenge6"
+		]
+	}],
+	rewards: [{
+		uid: "5f37a95b",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "challenger_f"
+	},
+	{
+		uid: "5806162f",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "c90a5f48",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "a7aedf01",
+		type: "item",
+		item: "additions:reward_ticket_legendary",
+		count: 6
+	}]
+}

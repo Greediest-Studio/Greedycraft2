@@ -1,0 +1,37 @@
+{
+	title: "§b疼吗",
+	tags: [
+		"challenge"
+	],
+	x: 4.5d,
+	y: 15.0d,
+	description: "累计摔落高度达到50000格",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "f973d43c",
+		type: "stat",
+		icon: {
+			id: "minecraft:diamond_boots",
+			tag: {}
+		},
+		stat: "stat.fallOneCm",
+		value: 80000
+	}],
+	rewards: [{
+		uid: "4d7326bb",
+		type: "item",
+		item: "bountifulbaubles:trinketballoon"
+	},
+	{
+		uid: "428121e2",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "4ac1c15f",
+		type: "xp",
+		xp: 300
+	}]
+}

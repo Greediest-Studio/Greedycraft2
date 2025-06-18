@@ -1,0 +1,26 @@
+{
+	x: -15.0d,
+	y: -3.0d,
+	description: "获得锂矿石",
+	dependencies: [
+		"45cd56c0"
+	],
+	tasks: [{
+		uid: "5877531c",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:ore 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "f1032a81",
+		type: "item",
+		item: "nuclearcraft:ore 1 6",
+		count: 10
+	},
+	{
+		uid: "c1b56bf6",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -1,0 +1,52 @@
+{
+	title: "§b守门人",
+	x: -12.0d,
+	y: -11.0d,
+	description: "在奥穆索原点的扎哈尔神殿中击杀扎哈尔，获得守门者精华",
+	text: [
+		"扎哈尔死亡时会产生自爆，若在其自爆时被吸入到其附近并进入黑暗领域，则无法获得守门者精华"
+	],
+	dependencies: [
+		"5d80cdc8"
+	],
+	tasks: [{
+		uid: "11bdd763",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:gatekeeperessence"
+		}]
+	}],
+	rewards: [{
+		uid: "dc26b125",
+		type: "item",
+		item: "abyssalcraft:ethaxiumingot",
+		count: 8
+	},
+	{
+		uid: "1886c948",
+		type: "item",
+		item: "abyssalcraft:crystal 1 25",
+		count: 16
+	},
+	{
+		uid: "873355c4",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "0400576b",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "7167cae3",
+		type: "xp",
+		xp: 30000
+	},
+	{
+		uid: "9fd4b050",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "gatekeeper"
+	}]
+}

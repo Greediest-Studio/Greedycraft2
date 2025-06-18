@@ -1,0 +1,41 @@
+{
+	title: "§b漆黑颅骨",
+	x: 5.0d,
+	y: -2.0d,
+	description: "获得凋灵骷髅头颅",
+	text: [
+		""
+	],
+	dependencies: [
+		"6124dc63"
+	],
+	tasks: [{
+		uid: "d6c80aa1",
+		type: "item",
+		items: [{
+			item: "minecraft:skull 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "e3bfa356",
+		type: "item",
+		item: {
+			id: "minecraft:skull",
+			Damage: 1s,
+			ForgeCaps: {
+				"customnpcs:itemscripteddata": {}
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "c11961d1",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "ff6fe3c8",
+		type: "xp",
+		xp: 500
+	}]
+}

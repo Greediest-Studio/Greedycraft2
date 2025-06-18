@@ -1,0 +1,29 @@
+{
+	title: "§b不想要花花绿绿的冶炼炉！",
+	x: -17.5d,
+	y: 2.0d,
+	description: "制作ME流体终端",
+	text: [
+		""
+	],
+	dependencies: [
+		"9ad09ce0"
+	],
+	tasks: [{
+		uid: "64cd620f",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 520"
+		}]
+	}],
+	rewards: [{
+		uid: "a10ca501",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "078bedfa",
+		type: "random",
+		table: 1
+	}]
+}

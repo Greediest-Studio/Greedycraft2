@@ -1,0 +1,31 @@
+{
+	title: "§b加强合金制作",
+	x: 14.0d,
+	y: 2.5d,
+	description: "合成强化合金炉",
+	text: [
+		""
+	],
+	dependencies: [
+		"b9bba5a4"
+	],
+	tasks: [{
+		uid: "7548fea3",
+		type: "item",
+		items: [{
+			item: "enderio:block_enhanced_alloy_smelter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f1416e85",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 8",
+		count: 16
+	},
+	{
+		uid: "23734b51",
+		type: "xp",
+		xp: 4000
+	}]
+}

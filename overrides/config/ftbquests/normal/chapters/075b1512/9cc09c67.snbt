@@ -1,0 +1,38 @@
+{
+	title: "§b疯狂输出 IX",
+	x: -2.0d,
+	y: 13.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"41171f18"
+	],
+	tasks: [{
+		uid: "7f2ac062",
+		type: "stat",
+		icon: "abyssalcraft:ethaxiumaxe",
+		stat: "stat.damageDealt",
+		value: 750000000
+	}],
+	rewards: [{
+		uid: "6c5f05b2",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "9a72afe4",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	}]
+}

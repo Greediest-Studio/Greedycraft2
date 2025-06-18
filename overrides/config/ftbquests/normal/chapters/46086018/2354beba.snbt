@@ -1,0 +1,41 @@
+{
+	title: "§b液化的瘟疫？",
+	x: 3.5d,
+	y: 1.5d,
+	description: "在深渊荒原挖掘液化珊瑚矿石",
+	text: [
+		""
+	],
+	dependencies: [
+		"12d6bbd8"
+	],
+	tasks: [{
+		uid: "d1dc722c",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:abylcorore"
+		}]
+	}],
+	rewards: [{
+		uid: "3aeb4f65",
+		type: "item",
+		item: "abyssalcraft:cingot",
+		count: 8
+	},
+	{
+		uid: "e8a6104f",
+		type: "xp",
+		xp: 900
+	},
+	{
+		uid: "d09c0ccc",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "d2adb694",
+		type: "item",
+		item: "abyssalcraft:antidote",
+		count: 4
+	}]
+}

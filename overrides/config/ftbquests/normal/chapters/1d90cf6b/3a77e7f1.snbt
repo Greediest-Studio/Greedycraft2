@@ -1,0 +1,24 @@
+{
+	title: "炫钢炉",
+	icon: "additions:chromasteel_ingot",
+	x: -1.0d,
+	y: -3.0d,
+	description: "材料开始复杂起来了",
+	text: [
+		"提示：泰拉凝聚板可通过红石比较器判断状态哦",
+		"正如你所料，恒钢远不是这种材料的最终形态"
+	],
+	dependencies: [
+		"5f02df0f",
+		"68f22018"
+	],
+	tasks: [{
+		uid: "f4eb050d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:chromasteel_forge_controller"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

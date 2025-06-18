@@ -1,0 +1,68 @@
+{
+	title: "§b航天员 IV",
+	x: 4.0d,
+	y: 5.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"c0b1641c"
+	],
+	tasks: [{
+		uid: "90c41bb0",
+		type: "stat",
+		icon: "minecraft:elytra",
+		stat: "stat.flyOneCm",
+		value: 40000000
+	}],
+	rewards: [{
+		uid: "dd649807",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "1af8735b",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "825344ac",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "b2d4b0d8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "5f0e9a19",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	}]
+}

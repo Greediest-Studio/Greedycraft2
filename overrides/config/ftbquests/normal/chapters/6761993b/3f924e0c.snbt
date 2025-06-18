@@ -1,0 +1,34 @@
+{
+	title: "§b这玩意很坑",
+	x: -11.5d,
+	y: 3.5d,
+	description: "合成牺牲匕首，可以消耗自身生命值以充能血之祭坛",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "9daf97b8",
+		type: "item",
+		items: [{
+			id: "bloodmagic:sacrificial_dagger",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9ec1103a",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "d8a59bd9",
+		type: "item",
+		item: "tconstruct:edible 1 3",
+		count: 10
+	},
+	{
+		uid: "4b1abbbf",
+		type: "xp",
+		xp: 500
+	}]
+}

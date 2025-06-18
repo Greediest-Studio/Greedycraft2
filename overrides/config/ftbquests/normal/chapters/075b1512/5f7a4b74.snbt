@@ -1,0 +1,35 @@
+{
+	title: "§b巨龙杀手 III",
+	icon: "minecraft:skull 1 5",
+	x: 1.0d,
+	y: 4.0d,
+	dependencies: [
+		"a02678c3"
+	],
+	tasks: [{
+		uid: "0e6a0910",
+		type: "kill",
+		entity: "minecraft:ender_dragon",
+		value: 6L
+	}],
+	rewards: [{
+		uid: "c547acb8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	},
+	{
+		uid: "0941ef54",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	}]
+}

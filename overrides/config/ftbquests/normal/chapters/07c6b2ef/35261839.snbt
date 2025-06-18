@@ -1,0 +1,20 @@
+{
+	title: "秩序能源",
+	x: -10.0d,
+	y: -7.0d,
+	description: "制作秩序太阳能",
+	text: [
+		"止步于此？"
+	],
+	dependencies: [
+		"b8252291",
+		"0ffc9167"
+	],
+	tasks: [{
+		uid: "36483cb8",
+		type: "item",
+		items: [{
+			item: "solarflux:custom_solar_panel_solar_panel_order"
+		}]
+	}]
+}

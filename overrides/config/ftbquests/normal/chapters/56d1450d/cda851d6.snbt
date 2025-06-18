@@ -1,0 +1,29 @@
+{
+	title: "§b基因突变",
+	x: -9.5d,
+	y: 7.5d,
+	description: "获得突变器",
+	text: [
+		""
+	],
+	dependencies: [
+		"61895969"
+	],
+	tasks: [{
+		uid: "9f55206b",
+		type: "item",
+		items: [{
+			item: "extrabees:alveary"
+		}]
+	}],
+	rewards: [{
+		uid: "370498ab",
+		type: "xp",
+		xp: 1600
+	},
+	{
+		uid: "79fca070",
+		type: "loot",
+		table: 3
+	}]
+}

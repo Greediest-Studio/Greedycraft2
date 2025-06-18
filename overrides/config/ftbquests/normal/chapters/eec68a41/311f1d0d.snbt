@@ -1,0 +1,102 @@
+{
+	title: "§b浸人心脾",
+	x: 25.5d,
+	y: -2.5d,
+	description: "在神灵凝聚板上制作六种植物金属",
+	text: [
+		""
+	],
+	dependencies: [
+		"5c82b156",
+		"a0c98d20",
+		"f0cd19d6"
+	],
+	tasks: [{
+		uid: "7411289f",
+		type: "item",
+		items: [{
+			item: "gct_mobs:begonium_ingot"
+		}]
+	},
+	{
+		uid: "f6af3091",
+		type: "item",
+		items: [{
+			item: "gct_mobs:chrysanthemium_ingot"
+		}]
+	},
+	{
+		uid: "ac0b0546",
+		type: "item",
+		items: [{
+			item: "gct_mobs:rosium_ingot"
+		}]
+	},
+	{
+		uid: "3f71aab6",
+		type: "item",
+		items: [{
+			item: "gct_mobs:dandelionium_ingot"
+		}]
+	},
+	{
+		uid: "b77be9d1",
+		type: "item",
+		items: [{
+			item: "gct_mobs:myosotisium_ingot"
+		}]
+	},
+	{
+		uid: "374bba1d",
+		type: "item",
+		items: [{
+			item: "gct_mobs:carnationium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "07173035",
+		type: "item",
+		item: "gct_mobs:begonium_ingot",
+		count: 4
+	},
+	{
+		uid: "56df3619",
+		type: "item",
+		item: "gct_mobs:chrysanthemium_ingot",
+		count: 4
+	},
+	{
+		uid: "368990a9",
+		type: "item",
+		item: "gct_mobs:rosium_ingot",
+		count: 4
+	},
+	{
+		uid: "eaf41010",
+		type: "item",
+		item: "gct_mobs:dandelionium_ingot",
+		count: 4
+	},
+	{
+		uid: "0ebbeea0",
+		type: "item",
+		item: "gct_mobs:myosotisium_ingot",
+		count: 4
+	},
+	{
+		uid: "a99b0a17",
+		type: "item",
+		item: "gct_mobs:carnationium_ingot",
+		count: 4
+	},
+	{
+		uid: "b633e51b",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "1b5afc35",
+		type: "random",
+		table: 3
+	}]
+}

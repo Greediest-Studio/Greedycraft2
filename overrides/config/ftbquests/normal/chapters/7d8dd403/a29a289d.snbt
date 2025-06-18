@@ -1,0 +1,71 @@
+{
+	title: "§b结束了？还早着呢……",
+	x: 3.0d,
+	y: 4.5d,
+	shape: "circle",
+	description: "击杀末影龙",
+	text: [
+		"困难模式，新的挑战"
+	],
+	dependencies: [
+		"2d09df12"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "20c06902",
+		type: "kill",
+		icon: "ageofminecraft:enderdragon",
+		entity: "minecraft:ender_dragon",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "f6e72ebf",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "hardmode"
+	},
+	{
+		uid: "e97091ec",
+		type: "item",
+		item: "minecraft:end_crystal",
+		count: 8
+	},
+	{
+		uid: "4fdbe14a",
+		type: "item",
+		item: "draconicevolution:draconium_dust",
+		count: 256
+	},
+	{
+		uid: "fd822529",
+		type: "item",
+		item: "minecraft:dragon_egg",
+		count: 8
+	},
+	{
+		uid: "90e80cee",
+		type: "item",
+		item: "minecraft:dragon_breath",
+		count: 64
+	},
+	{
+		uid: "2dbd5291",
+		type: "item",
+		item: "additions:tcsponsors-sponsors_chest"
+	},
+	{
+		uid: "1e91773b",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "4da1607e",
+		type: "xp_levels",
+		xp_levels: 100
+	},
+	{
+		uid: "ebc2de4f",
+		type: "item",
+		item: "additions:sponsor2-chest"
+	}]
+}

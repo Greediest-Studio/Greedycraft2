@@ -1,0 +1,29 @@
+{
+	title: "§b造石机刷沙子？",
+	x: -23.5d,
+	y: -18.5d,
+	description: "制作升级：碎屑沉积",
+	text: [
+		"可以让造石机生产沙子，实现玻璃自由！"
+	],
+	dependencies: [
+		"cece32a4"
+	],
+	tasks: [{
+		uid: "93fda3c3",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 497"
+		}]
+	}],
+	rewards: [{
+		uid: "5de65cc2",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "a015642e",
+		type: "xp",
+		xp: 1000
+	}]
+}

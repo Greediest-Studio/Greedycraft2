@@ -1,0 +1,68 @@
+{
+	title: "§b持之以恒 VIII",
+	x: -6.5d,
+	y: 11.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"fb38d643"
+	],
+	tasks: [{
+		uid: "b94e4e42",
+		type: "stat",
+		icon: "abyssalcraft:dreadiumhelmet",
+		stat: "stat.playOneMinute",
+		value: 28800000
+	}],
+	rewards: [{
+		uid: "1f63eae3",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "b55437d6",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "459ab5ba",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "40cadbb8",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "11d66cf7",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	}]
+}

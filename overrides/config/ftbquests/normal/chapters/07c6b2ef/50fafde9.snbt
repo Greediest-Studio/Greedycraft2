@@ -1,0 +1,34 @@
+{
+	title: "§b通量注魔金属",
+	x: -16.0d,
+	y: -24.5d,
+	description: "合成红石琥珀金锭……",
+	text: [
+		""
+	],
+	dependencies: [
+		"2f3072cf"
+	],
+	tasks: [{
+		uid: "2b262ea3",
+		type: "item",
+		items: [{
+			item: "redstonearsenal:material 1 32"
+		}]
+	}],
+	rewards: [{
+		uid: "439d9d86",
+		type: "item",
+		item: "redstonearsenal:storage"
+	},
+	{
+		uid: "a62a7916",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "68dda89d",
+		type: "xp",
+		xp: 750
+	}]
+}

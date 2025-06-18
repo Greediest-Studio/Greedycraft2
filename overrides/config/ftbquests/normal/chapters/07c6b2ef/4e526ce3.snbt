@@ -1,0 +1,29 @@
+{
+	title: "§b节约冷却剂",
+	x: -5.5d,
+	y: -11.5d,
+	description: "制作升级：闭环冷却系统",
+	text: [
+		"不消耗冷却剂，提供一点一劳永逸！"
+	],
+	dependencies: [
+		"53e272c8"
+	],
+	tasks: [{
+		uid: "da29c43b",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 672"
+		}]
+	}],
+	rewards: [{
+		uid: "7ec70376",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "53814323",
+		type: "xp",
+		xp: 1000
+	}]
+}

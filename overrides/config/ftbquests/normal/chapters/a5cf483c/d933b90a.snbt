@@ -1,0 +1,32 @@
+{
+	title: "§b漫天星辰",
+	x: -2.5d,
+	y: 7.0d,
+	description: "获得星辰锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"470b67b1"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "8a34e4ed",
+		type: "item",
+		items: [{
+			item: "additions:astral_metal_ingot"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "916f31da",
+		type: "xp",
+		xp: 6666
+	},
+	{
+		uid: "9142fd01",
+		type: "random",
+		table: 3
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "§b最高级的水晶",
+	x: 6.5d,
+	y: -1.5d,
+	description: "合成盖亚水晶",
+	text: [
+		""
+	],
+	dependencies: [
+		"f5b9401b"
+	],
+	tasks: [{
+		uid: "c6cccb4d",
+		type: "item",
+		items: [{
+			item: "botania:pylon 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "3319dc3a",
+		type: "item",
+		item: "botania:storage 1 2"
+	},
+	{
+		uid: "74c93247",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "6320cc4c",
+		type: "xp",
+		xp: 600
+	}]
+}

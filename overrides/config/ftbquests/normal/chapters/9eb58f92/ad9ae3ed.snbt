@@ -1,0 +1,29 @@
+{
+	title: "§b最基础的电路板",
+	x: -8.0d,
+	y: 0.0d,
+	description: "制作基础控制电路",
+	text: [
+		""
+	],
+	dependencies: [
+		"f432f2f5"
+	],
+	tasks: [{
+		uid: "a400dd33",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit"
+		}]
+	}],
+	rewards: [{
+		uid: "a02a0bdb",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "29f29c9b",
+		type: "xp",
+		xp: 1000
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "§b血刻",
+	x: -9.5d,
+	y: 3.5d,
+	description: "使用鲜血灌注木头得到注血木",
+	text: [
+		""
+	],
+	dependencies: [
+		"30e20165"
+	],
+	tasks: [{
+		uid: "ad0b4288",
+		type: "item",
+		items: [{
+			item: "bloodarsenal:blood_infused_wooden_log"
+		}]
+	}],
+	rewards: [{
+		uid: "ad125dec",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "c6645b67",
+		type: "item",
+		item: "bloodarsenal:blood_infused_wooden_log",
+		count: 8
+	},
+	{
+		uid: "e4188f75",
+		type: "xp",
+		xp: 500
+	}]
+}

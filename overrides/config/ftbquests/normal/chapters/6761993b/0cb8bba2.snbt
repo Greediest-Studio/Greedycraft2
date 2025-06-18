@@ -1,0 +1,33 @@
+{
+	title: "§b气血存储？",
+	x: -7.5d,
+	y: 3.5d,
+	description: "获得[虚弱]气血宝珠",
+	text: [
+		""
+	],
+	dependencies: [
+		"30e20165"
+	],
+	tasks: [{
+		uid: "3afb0cd4",
+		type: "item",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:weak"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6e7dffb2",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "489df7a3",
+		type: "xp",
+		xp: 500
+	}]
+}

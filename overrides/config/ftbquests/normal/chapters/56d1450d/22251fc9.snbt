@@ -1,0 +1,35 @@
+{
+	title: "§b温暖巢穴",
+	x: -10.5d,
+	y: -1.5d,
+	description: "获得蜂箱",
+	text: [
+		""
+	],
+	dependencies: [
+		"ebd7f83b"
+	],
+	tasks: [{
+		uid: "20646758",
+		type: "item",
+		items: [{
+			item: "forestry:apiary"
+		}]
+	}],
+	rewards: [{
+		uid: "b00dc7de",
+		type: "item",
+		item: "forestry:apiary",
+		count: 3
+	},
+	{
+		uid: "fef6b2d6",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "abbea669",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "§b小星星坠落……已经是过去式了",
+	tags: [
+		"challenge"
+	],
+	x: 9.0d,
+	y: 10.5d,
+	description: "获得炽星锭",
+	text: [
+		"——怀念落星",
+		"2024/8/13"
+	],
+	tasks: [{
+		uid: "f5d22155",
+		type: "item",
+		items: [{
+			item: "additions:ignite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "6567360e",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "b063bb08",
+		type: "xp",
+		xp: 200
+	},
+	{
+		uid: "da06f1ba",
+		type: "item",
+		item: "additions:ignite_ingot",
+		count: 4
+	}]
+}

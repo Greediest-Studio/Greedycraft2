@@ -33,7 +33,7 @@ import scripts.util.lang as LangUtil;
 events.onGameStageAdd(function(event as GameStageAddEvent) {
     var stages as string[][string][string] = gameStagesLore[LangUtil.getLanguage()];
     var player as IPlayer = event.player;
-    if (!(stages has event.gameStage) || player.hasGameStage(event.gameStage) || PACKMODE == MODE_CASUAL || player.creative) {
+    if (!(stages has event.gameStage) || player.hasGameStage(event.gameStage) || player.creative) {
         return;
     }
     var stageLore as string[][string] = stages[event.gameStage];
@@ -42,13 +42,13 @@ events.onGameStageAdd(function(event as GameStageAddEvent) {
         var delimiter as IData = {text: "==================================================", color: "blue"};
         var newline as IData = {text: "\n"};
         data += [delimiter, newline, {translate: "greedycraft.event.stage.lore.title"}, newline, {text: event.gameStage, color: "yellow"}, {text: " - ", color: "gray"}] as IData;
-        if (stageLore["alias"].length > 0) { 
+        if (stageLore["alias"].length > 0) {
             data += [{text: stageLore["alias"][0], color: "red", italic: true}];
         }
         data += [newline] as IData;
         for line in stageLore["lore"] {
             data += [{text: line, color: "dark_purple", italic: true}, newline];
-        } 
+        }
         data += [{translate: "greedycraft.event.stage.lore.unlocked"}, newline];
         for line in stageLore["unlocks"] {
             data += [{text: " ✔ ", color: "dark_green"}, {text: line, color: "green"}, newline];
@@ -70,12 +70,6 @@ events.onGameStageAdd(function(event as GameStageAddEvent) {
         if(event.gameStage != "super_hardmode") {
             player.give(<contenttweaker:tablet_of_enlightenment>.withTag({stage: event.gameStage, playerName: player.name, playerUUID: player.uuid}));
         }
-
-        /*  Disabled
-        if (event.gameStage == "nether") {
-            player.addGameStage("roughmobsboss");
-        }
-        */
     }
 });
 

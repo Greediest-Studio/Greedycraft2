@@ -1,0 +1,68 @@
+{
+	title: "§b血流成河 II",
+	x: 2.5d,
+	y: 2.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4014b79e"
+	],
+	tasks: [{
+		uid: "97cf5286",
+		type: "stat",
+		icon: "minecraft:chainmail_chestplate",
+		stat: "stat.damageTaken",
+		value: 80000
+	}],
+	rewards: [{
+		uid: "1a9a45dd",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "67606e60",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "123f1f50",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "67866c2a",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	},
+	{
+		uid: "9d75f291",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_1"
+			}
+		}
+	}]
+}

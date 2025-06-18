@@ -1,0 +1,29 @@
+{
+	title: "§b光头强！",
+	x: 9.5d,
+	y: 1.0d,
+	description: "使用诅咒：腐蚀召唤并击杀腐木破坏者",
+	text: [
+		""
+	],
+	dependencies: [
+		"ae2acd92"
+	],
+	tasks: [{
+		uid: "8624598c",
+		type: "item",
+		items: [{
+			item: "journey:trophylogger"
+		}]
+	}],
+	rewards: [{
+		uid: "75d87da2",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "f2208889",
+		type: "xp",
+		xp: 10000
+	}]
+}

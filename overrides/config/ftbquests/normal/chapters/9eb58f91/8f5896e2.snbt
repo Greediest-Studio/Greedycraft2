@@ -1,0 +1,31 @@
+{
+	title: "§b热力小助手",
+	x: 9.0d,
+	y: -2.5d,
+	description: "合成合金炉",
+	text: [
+		""
+	],
+	dependencies: [
+		"9956eedb"
+	],
+	tasks: [{
+		uid: "55f3aec5",
+		type: "item",
+		items: [{
+			item: "enderio:block_alloy_smelter"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fa56da3a",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "fa21c46d",
+		type: "item",
+		item: "enderio:item_material 1 73",
+		count: 4
+	}]
+}

@@ -1,0 +1,48 @@
+{
+	title: "§b凝聚大地之力",
+	x: 0.5d,
+	y: -1.5d,
+	description: "制作泰拉凝聚板",
+	text: [
+		""
+	],
+	dependencies: [
+		"1ea09821",
+		"bb25425b"
+	],
+	tasks: [{
+		uid: "602e2489",
+		type: "item",
+		items: [{
+			item: "botania:terraplate"
+		}]
+	}],
+	rewards: [{
+		uid: "673091bc",
+		type: "item",
+		item: "botania:manaresource 1 1",
+		count: 4
+	},
+	{
+		uid: "2d828ab4",
+		type: "item",
+		item: "botania:manaresource 1 2",
+		count: 4
+	},
+	{
+		uid: "8526ec50",
+		type: "item",
+		item: "botania:manaresource",
+		count: 4
+	},
+	{
+		uid: "f3118ad9",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "f16cd179",
+		type: "xp",
+		xp: 600
+	}]
+}

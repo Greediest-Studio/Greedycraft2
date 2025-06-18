@@ -343,7 +343,7 @@ val removedRecipes as IIngredient[] = [
     <tconstruct:throwball:1>,
     <openblocks:elevator:*>,
     <openblocks:elevator_rotating:*>,
-    <extrautils2:bagofholding>,    
+    <extrautils2:bagofholding>,
     <forestry:forester_bag_t2>,
     <forestry:apiarist_bag>,
     <forestry:lepidopterist_bag>,

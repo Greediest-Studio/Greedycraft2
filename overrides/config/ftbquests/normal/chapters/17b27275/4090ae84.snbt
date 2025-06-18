@@ -1,0 +1,33 @@
+{
+	title: "§b还在跳",
+	x: -2.0d,
+	y: 9.0d,
+	description: "合成木乃伊诱饵",
+	text: [
+		"不死余烬为击杀片状岛屿火树附近罕见生物余烬掉落",
+		"记得先将恐怖泥炭木乃伊关在匠魂炉获得木乃伊污泥",
+		"可以使用植物魔法的石化草防止冶炼炉被破坏"
+	],
+	dependencies: [
+		"736de29c",
+		"46fbc85a",
+		"ccf160a3"
+	],
+	tasks: [{
+		uid: "31246194",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:mummy_bait"
+		}]
+	}],
+	rewards: [{
+		uid: "01a09212",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "05e43643",
+		type: "xp",
+		xp: 9800
+	}]
+}

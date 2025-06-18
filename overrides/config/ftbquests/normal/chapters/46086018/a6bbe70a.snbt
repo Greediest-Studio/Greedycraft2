@@ -1,0 +1,60 @@
+{
+	title: "§b熟悉而又陌生的地方",
+	x: 0.0d,
+	y: -9.0d,
+	description: "这不是你原来印象的地狱",
+	text: [
+		"§e未使用暮色之庇护时，你将无法进入下界！"
+	],
+	dependencies: [
+		"4c400631"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "e59c60cc",
+		type: "dimension",
+		icon: "minecraft:netherrack",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "03ad6300",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "nether"
+	},
+	{
+		uid: "36bf5536",
+		type: "item",
+		item: "minecraft:obsidian",
+		count: 32,
+		random_bonus: 16
+	},
+	{
+		uid: "aae1d632",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "9acb8b41",
+		type: "item",
+		item: "bountifulbaubles:potionrecall",
+		count: 16
+	},
+	{
+		uid: "2025d79a",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "d042ae3a",
+		type: "item",
+		item: "minecraft:reeds",
+		count: 32
+	},
+	{
+		uid: "ffc0c93e",
+		type: "item",
+		item: "bountifulbaubles:potionwormhole",
+		count: 16
+	}]
+}

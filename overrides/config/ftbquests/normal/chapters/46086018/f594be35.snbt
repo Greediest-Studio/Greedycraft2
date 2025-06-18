@@ -1,0 +1,35 @@
+{
+	title: "§b黑暗匿藏",
+	x: 3.5d,
+	y: -19.5d,
+	description: "获得本影",
+	text: [
+		""
+	],
+	dependencies: [
+		"699b6d00"
+	],
+	tasks: [{
+		uid: "01bf3a79",
+		type: "item",
+		items: [{
+			item: "theaurorian:umbraingot"
+		}]
+	}],
+	rewards: [{
+		uid: "cb1b8ad3",
+		type: "item",
+		item: "theaurorian:umbraingot",
+		count: 4
+	},
+	{
+		uid: "d9fbdd9e",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "2ba9ec7b",
+		type: "xp",
+		xp: 1000
+	}]
+}

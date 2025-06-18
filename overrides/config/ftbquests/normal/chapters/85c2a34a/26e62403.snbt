@@ -1,0 +1,26 @@
+{
+	title: "§b施加了重力的浇注口",
+	x: 3.0d,
+	y: 9.5d,
+	description: "制作一个重力浇注口",
+	dependencies: [
+		"518ac07a"
+	],
+	tasks: [{
+		uid: "8b8f5b80",
+		type: "item",
+		items: [{
+			item: "moretcon:blockgravitoniumfaucet"
+		}]
+	}],
+	rewards: [{
+		uid: "602bb1fa",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "e5dc1e0a",
+		type: "xp",
+		xp: 5000
+	}]
+}

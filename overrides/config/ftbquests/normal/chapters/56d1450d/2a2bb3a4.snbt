@@ -1,0 +1,35 @@
+{
+	title: "§b官逼模系列",
+	x: -9.0d,
+	y: 3.0d,
+	description: "获得蜂蜡",
+	text: [
+		""
+	],
+	dependencies: [
+		"0601a899"
+	],
+	tasks: [{
+		uid: "0931d675",
+		type: "item",
+		items: [{
+			item: "forestry:beeswax"
+		}]
+	}],
+	rewards: [{
+		uid: "4df859b3",
+		type: "item",
+		item: "forestry:beeswax",
+		count: 16
+	},
+	{
+		uid: "fabc8ce5",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "b2585e9f",
+		type: "random",
+		table: 1
+	}]
+}

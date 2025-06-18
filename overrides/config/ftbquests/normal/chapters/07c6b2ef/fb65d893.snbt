@@ -1,0 +1,29 @@
+{
+	title: "§b只有草油",
+	x: -6.5d,
+	y: -13.0d,
+	description: "制作升级：煽动流形",
+	text: [
+		"只能使用草油，但效率大大提高"
+	],
+	dependencies: [
+		"53e272c8"
+	],
+	tasks: [{
+		uid: "29070397",
+		type: "item",
+		items: [{
+			item: "thermalexpansion:augment 1 674"
+		}]
+	}],
+	rewards: [{
+		uid: "1a62d820",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "19c8498a",
+		type: "xp",
+		xp: 1000
+	}]
+}

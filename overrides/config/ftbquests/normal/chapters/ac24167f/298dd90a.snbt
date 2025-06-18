@@ -1,0 +1,26 @@
+{
+	title: "§b感应到大地的力量",
+	x: 3.5d,
+	y: 6.0d,
+	description: "获得地缚感应核心",
+	dependencies: [
+		"e1041d61"
+	],
+	tasks: [{
+		uid: "aef490d7",
+		type: "item",
+		items: [{
+			item: "gct_mobs:earthbound_core"
+		}]
+	}],
+	rewards: [{
+		uid: "a3a722d2",
+		type: "xp",
+		xp: 4000
+	},
+	{
+		uid: "bafd1b65",
+		type: "random",
+		table: 3
+	}]
+}

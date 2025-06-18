@@ -1,0 +1,46 @@
+{
+	title: "§b这里面真的有鬼魂吗？",
+	x: -4.0d,
+	y: -2.5d,
+	description: "获得瓶装鬼魂",
+	dependencies: [
+		"c22401e6"
+	],
+	tasks: [{
+		uid: "70032fd2",
+		type: "item",
+		items: [{
+			id: "naturesaura:aura_bottle",
+			tag: {
+				stored_type: "naturesaura:nether"
+			},
+			ForgeCaps: {
+				"distinctdamagedescriptions:dmgdistribution": [{
+					type: "ddd_bludgeoning",
+					weight: 1.0f
+				}]
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "fc3097fc",
+		type: "item",
+		item: {
+			id: "naturesaura:aura_bottle",
+			tag: {
+				stored_type: "naturesaura:nether"
+			}
+		},
+		count: 8
+	},
+	{
+		uid: "de242de6",
+		type: "xp",
+		xp: 400
+	},
+	{
+		uid: "67d280fd",
+		type: "random",
+		table: 2
+	}]
+}

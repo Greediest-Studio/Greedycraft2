@@ -1,0 +1,35 @@
+{
+	title: "§b晶体还原",
+	x: 0.0d,
+	y: -1.5d,
+	description: "合成嬗变器",
+	text: [
+		""
+	],
+	dependencies: [
+		"8432b80c"
+	],
+	tasks: [{
+		uid: "68c5ae87",
+		type: "item",
+		items: [{
+			item: "abyssalcraft:transmutator"
+		}]
+	}],
+	rewards: [{
+		uid: "353df97e",
+		type: "item",
+		item: "abyssalcraft:cingot",
+		count: 16
+	},
+	{
+		uid: "78273a34",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "32d5726b",
+		type: "xp",
+		xp: 1200
+	}]
+}

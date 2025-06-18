@@ -7,7 +7,6 @@ global BEHOLDER_HP as int = 28000;
 global GHASTHER_HP as int = 15000;
 global BARAKO_MINION_COUNT as int = 8;
 global FROSTMAW_MINION_COUNT as int = 10;
-global PACKMODE as int = MODE_ADVENTURE;
 global DEATH_HUMAN_SPAWN_CHANCE as float = 0.5;
 global COSMILITE_OUTPUT_COUNT as int = 3;
 global MOB_ARMOR_MULTIPLIER as double = 1.5;

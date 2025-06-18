@@ -1,0 +1,68 @@
+{
+	title: "§b血流成河 X",
+	x: 2.5d,
+	y: 14.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"34bef147"
+	],
+	tasks: [{
+		uid: "878cc27f",
+		type: "stat",
+		icon: "avaritia:infinity_chestplate",
+		stat: "stat.damageTaken",
+		value: 10000000
+	}],
+	rewards: [{
+		uid: "95d0e397",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "3bd5dc1f",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "cc58d7bc",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "9333cc0c",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	},
+	{
+		uid: "1314b105",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_5"
+			}
+		}
+	}]
+}
