@@ -1,0 +1,35 @@
+{
+	title: "§b果冻？",
+	x: 4.0d,
+	y: 1.5d,
+	description: "得到远古修格斯凝胶",
+	text: [
+		"§a血红修格斯融合体§r可由§a修格斯融合体§r和§a小型恐惧野兽§r融合而来",
+		"（需要§c神化凝胶§r作为催化剂）"
+	],
+	dependencies: [
+		"77721a5e"
+	],
+	tasks: [{
+		uid: "301da13f",
+		type: "item",
+		items: [{
+			item: "gct_aby:ancient_shoggoth_mud"
+		}]
+	}],
+	rewards: [{
+		uid: "b9c1bd20",
+		type: "item",
+		item: "gct_aby:ancient_shoggoth_mud"
+	},
+	{
+		uid: "c73990a3",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "75592f9c",
+		type: "xp",
+		xp: 9000
+	}]
+}

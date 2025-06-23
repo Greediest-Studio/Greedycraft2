@@ -1,0 +1,40 @@
+{
+	title: "§b其实它也有附魔的版本",
+	x: -5.0d,
+	y: 1.5d,
+	description: "合成思维之果，可用于快速恢复San值",
+	text: [
+		""
+	],
+	dependencies: [
+		"b32c9f4c"
+	],
+	tasks: [{
+		uid: "d63a31b4",
+		type: "item",
+		items: [{
+			item: "gct_aby:fruit_of_mind"
+		}]
+	}],
+	rewards: [{
+		uid: "f13ed8d1",
+		type: "item",
+		item: "gct_aby:fruit_of_mind_enchanted"
+	},
+	{
+		uid: "63839307",
+		type: "item",
+		item: "gct_aby:fruit_of_mind",
+		count: 16
+	},
+	{
+		uid: "5671e826",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "341c7b34",
+		type: "xp",
+		xp: 8000
+	}]
+}

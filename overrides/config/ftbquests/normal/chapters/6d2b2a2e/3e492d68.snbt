@@ -1,0 +1,50 @@
+{
+	title: "§b像个吸尘器",
+	x: -3.0d,
+	y: -4.0d,
+	description: "合成灵神虹吸管，用来采集修格斯软泥",
+	text: [
+		""
+	],
+	dependencies: [
+		"32611aa3"
+	],
+	tasks: [{
+		uid: "830366c1",
+		type: "item",
+		items: [{
+			item: "gct_aby:sanite_siphon"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a03f7dc0",
+		type: "item",
+		items: [{
+			item: "gct_aby:shoggoth_slimeball"
+		}]
+	}],
+	rewards: [{
+		uid: "8f47658c",
+		type: "item",
+		item: "gct_aby:shoggoth_slimeball",
+		count: 16
+	},
+	{
+		uid: "b0904706",
+		type: "item",
+		item: "additions:abyssine_ingot",
+		count: 2
+	},
+	{
+		uid: "44b1cfc3",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "df6934cf",
+		type: "xp",
+		xp: 8000
+	}]
+}

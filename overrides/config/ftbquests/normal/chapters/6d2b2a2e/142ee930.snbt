@@ -1,0 +1,35 @@
+{
+	title: "§b捏在一起……？",
+	x: -1.0d,
+	y: -4.5d,
+	description: "合成修格斯螯合水晶",
+	text: [
+		""
+	],
+	dependencies: [
+		"3e492d68"
+	],
+	tasks: [{
+		uid: "3ce944b9",
+		type: "item",
+		items: [{
+			item: "gct_aby:shoggoth_complex_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "14e06b7b",
+		type: "item",
+		item: "gct_aby:shoggoth_complex_crystal",
+		count: 2
+	},
+	{
+		uid: "2e7fea21",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "eee617ad",
+		type: "xp",
+		xp: 8000
+	}]
+}

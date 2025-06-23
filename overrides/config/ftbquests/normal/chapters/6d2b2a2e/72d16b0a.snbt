@@ -1,0 +1,48 @@
+{
+	title: "§b别样的物质化器",
+	x: -3.5d,
+	y: -2.0d,
+	description: "制作三相嬗变仪，可以快速制造克苏鲁源质",
+	text: [
+		""
+	],
+	dependencies: [
+		"32611aa3"
+	],
+	tasks: [{
+		uid: "4b4ba178",
+		type: "item",
+		items: [{
+			item: "modularmachinery:tritransmutor_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "cc255474",
+		type: "item",
+		item: {
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					key: "cthulhu",
+					amount: 1
+				}]
+			}
+		},
+		count: 64
+	},
+	{
+		uid: "5b52fac6",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "6310fa99",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "44af23ad",
+		type: "xp",
+		xp: 12000
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "§b灵渊法杖",
+	x: 1.0d,
+	y: -4.0d,
+	description: "合成灵渊法杖",
+	text: [
+		""
+	],
+	dependencies: [
+		"142ee930"
+	],
+	tasks: [{
+		uid: "b99a05f8",
+		type: "item",
+		items: [{
+			item: "gct_aby:abyss_wand"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0f99e16c",
+		type: "item",
+		item: "gct_aby:shoggoth_complex_crystal",
+		count: 4
+	},
+	{
+		uid: "7060a4ab",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "f9cb9cdc",
+		type: "random",
+		table: 3
+	}]
+}

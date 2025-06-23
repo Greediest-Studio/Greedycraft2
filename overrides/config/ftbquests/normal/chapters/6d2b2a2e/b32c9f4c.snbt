@@ -1,0 +1,31 @@
+{
+	title: "§b零之下的疯狂",
+	x: -4.5d,
+	y: -0.5d,
+	description: "合成灵神检测仪，带在身上可以显示玩家的San值",
+	text: [
+		""
+	],
+	dependencies: [
+		"e06b87a1"
+	],
+	tasks: [{
+		uid: "c6f6710f",
+		type: "item",
+		items: [{
+			item: "gct_aby:sanity_observer"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6aeeca76",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "8b00f3f7",
+		type: "xp",
+		xp: 5000
+	}]
+}

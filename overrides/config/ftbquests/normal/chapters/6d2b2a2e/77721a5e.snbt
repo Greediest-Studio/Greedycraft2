@@ -1,0 +1,43 @@
+{
+	title: "§b软泥融合",
+	x: 3.5d,
+	y: -0.5d,
+	description: "制作一只修格斯融合体",
+	text: [
+		"使用§b融合仪式§r融合两只§c去凝胶化后的小型修格斯§r得到§a修格斯融合体"
+	],
+	dependencies: [
+		"478fefec"
+	],
+	tasks: [{
+		uid: "9be12491",
+		type: "observation",
+		title: "观测一只修格斯融合体",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "gct_aby:mixture_shoggoth"
+				}
+			}
+		},
+		match_type: "entity_id",
+		match: "gct_aby:mixture_shoggoth",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "9de14668",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "1d3f068a",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "70492d0c",
+		type: "xp",
+		xp: 10000
+	}]
+}
