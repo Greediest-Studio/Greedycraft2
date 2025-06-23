@@ -41,6 +41,16 @@ ArcaneWorkbench.registerShapedRecipe("sanity_checker_abyss", "ABYSSISM_STARTING"
     [<jaopca:nugget.cthulhurite>, null, <thaumcraft:sanity_checker>],
     [null, <jaopca:nugget.cthulhurite>, <gct_aby:shoggothtooth>]
 ]);
+ArcaneWorkbench.registerShapedRecipe("mind_fruit", "SANCHECK", 5, [<aspect:ordo> * 3], <gct_aby:fruit_of_mind>, [
+    [<ore:ingotSanite>, <ore:ingotSanite>, <ore:ingotSanite>],
+    [<ore:ingotSanite>, <minecraft:apple>, <ore:ingotSanite>],
+    [<ore:ingotSanite>, <ore:ingotSanite>, <ore:ingotSanite>]
+]);
+ArcaneWorkbench.registerShapedRecipe("mind_fruit_enchanted", "SANCHECK", 5, [<aspect:ordo> * 9], <gct_aby:fruit_of_mind_enchanted>, [
+    [<ore:blockSanite>, <ore:blockSanite>, <ore:blockSanite>],
+    [<ore:blockSanite>, <minecraft:apple>, <ore:blockSanite>],
+    [<ore:blockSanite>, <ore:blockSanite>, <ore:blockSanite>]
+]);
 
 Crucible.registerRecipe("salis_mundus", "", <thaumcraft:salis_mundus> * 2, <thaumcraft:salis_mundus>, [<aspect:praecantatio> * 3, <aspect:auram> * 3]);
 Crucible.registerRecipe("smithstoneore", "", <journey:smithstoneore>, <journey:enderilliumblock>, [<aspect:vitreus> * 20, <aspect:alienis> * 25]);
