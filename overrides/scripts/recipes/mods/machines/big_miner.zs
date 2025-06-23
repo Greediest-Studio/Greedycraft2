@@ -1,7 +1,7 @@
 /*
  * This script is created for the GreedyCraft Tweaks by 咕咕咕.
  */
-
+/*
 #priority 100
 #loader crafttweaker reloadable
 
@@ -396,3 +396,4 @@ RecipeBuilder.newBuilder("shenyuan","big_miner",20,0)
     })
     .addRecipeTooltip("警告：工作时请不要停止输入冷却液")
     .build();
+*/

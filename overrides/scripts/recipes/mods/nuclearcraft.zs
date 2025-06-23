@@ -82,6 +82,7 @@ SaltMixer.addRecipe(<liquid:hydrogen_fluoride> * 250, <liquid:water> * 250, <liq
 SaltMixer.addRecipe(<liquid:liquidhydrogenchloride> * 250, <liquid:water> * 250, <liquid:hydrochloric_acid> * 250);
 SaltMixer.addRecipe(<liquid:cryotheum> * 250, <liquid:liquid_helium> * 1000, <liquid:hecryo_liquid> * 1000);
 SaltMixer.addRecipe(<liquid:nitric_acid> * 250, <liquid:hydrofluoric_acid> * 750, <liquid:aqua_fluoride> * 1000);
+SaltMixer.addRecipe(<liquid:orichalcos> * 72, <liquid:mana> * 20, <liquid:photonium> * 288);
 
 ChemicalReactor.removeRecipeWithInput(<liquid:boron> * 72, <liquid:arsenic> * 333);
 ChemicalReactor.removeRecipeWithInput(<liquid:liquidhydrogen> * 250, <liquid:fluorine> * 250);

@@ -2,7 +2,7 @@
  * This script is created for the GreedyCraft Tweaks by 咕咕咕.
  */
 
-
+/*
 #priority 50
 
 import crafttweaker.oredict.IOreDictEntry;
@@ -139,3 +139,4 @@ RecipeBuilder.newBuilder("Otto_Apocalypse", "asgard_portal", 1000)
     .addItemInput(<additions:creative_shard> * 1)
     .addItemOutput(<extrabotany:buddhistrelics> * 1)
     .build();
+*/

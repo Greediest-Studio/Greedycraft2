@@ -1,7 +1,7 @@
 /*
  * This script is created for the GreedyCraft Tweaks by 咕咕咕.
  */
-
+/*
 #priority 0
 
 import crafttweaker.oredict.IOreDictEntry;
@@ -140,4 +140,4 @@ for ores , ingot in debuglist_compound {
         .addItemOutput(ingot)
         .build();
 }
-
+*/
