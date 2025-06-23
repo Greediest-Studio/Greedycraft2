@@ -17,3 +17,4 @@ mods.thaumcraft.research.addScannable("DREAD_GUARD", entity('abyssalcraft:dreadg
 mods.thaumcraft.research.addScannable("MINION_OF_GATEKEEPER", entity('abyssalcraft:jzaharminion').entityClass, true)
 mods.thaumcraft.research.addScannable("LESSER_SHOGGOTH", entity('abyssalcraft:lessershoggoth').entityClass, true)
 mods.thaumcraft.research.addScannable("ABYSSALNOMICON", item('abyssalcraft:abyssalnomicon'))
+mods.thaumcraft.research.addScannable("MIXTURE_SHOGGOTH", entity('gct_aby:mixture_shoggoth').entityClass, true)
