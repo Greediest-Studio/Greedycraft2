@@ -26,8 +26,13 @@ tc.research.SHOGGOTH_MUD_COLLECTION.stage.2=经过无数次的试验与调整，
 tc.research.ABYSSISM_MOBS.name=深渊物种研究
 tc.research.ABYSSISM_MOBS.stage.1=在深入探索深渊国度的神秘学时，我意识到，要从根源上理解这个充满未知与恐怖的世界，就必须从最核心的元素开始——即每个维度中最强大的生物。这些生物不仅是深渊力量的直接体现，更是深渊生态系统中的关键角色。因此，我决定从研究这些生物入手，以揭示深渊神秘学的深层奥秘。 <BR>我的初步猜想是，每种维度的最强生物都承载着该维度独特的深渊力量与知识。通过研究它们的生理结构、行为模式、能量循环以及与深渊环境的相互作用，我或许能够窥见深渊国度的核心机制。 <PAGE>具体来说，深暗领域和黑暗领域的阴影野兽，荒原上的幽灵龙，血红恐惧之地上的徘徊守卫，扎哈尔神殿中的巨像……以及那纵横深渊界的，神秘而诡异的凝胶物种——“小型”修格斯。
 tc.research.ABYSSISM_MOBS.stage.2=经过这一系列艰苦卓绝的探索与研究，我积累了大量关于深渊国度各维度最强生物的第一手资料。通过对这些资料的深入分析与整合，我逐渐构建出了一个关于深渊神秘学的初步框架。这个框架不仅揭示了深渊生物与深渊环境之间的复杂关系，还为我进一步探索深渊的深层奥秘提供了宝贵的线索和方向。
-tc.research.ABYSSISM_MOBS_SHOGGOTH.name=去凝胶化
-
+tc.research.ABYSSISM_MOBS_SHOGGOTH.name=修格斯：去凝胶化与融合
+tc.research.ABYSSISM_MOBS_SHOGGOTH.stage.1=基于我之前发现的融合仪式，我决定开始尝试融合这些诡异的凝胶生物。 <BR>不过，我似乎遇到了一些问题……修格斯身上所产生的黏液会抑制融合仪式的进行，这也就意味着，我们必须想办法
+tc.research.ABYSS_WAND.name=灵渊法杖
+tc.research.ABYSS_WAND.stage.1=克苏鲁源质的发现真是一个大突破！ <BR>然而，我最近又遇到了一个问题……我目前所能接触到的这些深渊学产物都太单一了。换句话说，深渊学的研究目前还只是停留在理论层面，如果想让我深渊学的研究有所寸进的话，我必须再去做一柄新的法杖了…… <BR>这柄法杖不应该单单只含有神秘学的材料，深渊国度的材料也是不可或缺的，或许，我可以试试……渊晶？
+tc.research.MUDDY_FLESH.name=污化血肉
+tc.research.MUDDY_FLESH.stage.1=或许，是时候应该考虑用我手中的灵渊法杖做点什么事了。 <BR>我正在尝试完成一种奇特的仪式——利用修格斯水晶那恐怖的能量，或许我可以将两种生物组合到一起，来创造更多的不可名状之物？ <BR>那么首先，仪式的材料？我觉得制作一根巨石柱就是再好不过的选择的，两根巨石柱，两颗巨石块加上一个窥视石砖……这差不多就可以了吧。
+tc.research.MUDDY_FLESH.stage.2=仪式祭坛搭建完成了，但……总得找个东西试试手吧？ <BR>有了！昨天，当我在荒原中寻找新的深渊学材料之时，偶然发现了几只小僵尸……或许它们可以成为我研究融合仪式的第一批材料。
 
 research.ABYSSALNOMICON.text=来自古神的注视……
 research.SHADOW_BEAST.text=扫描一只阴影野兽
@@ -35,3 +40,4 @@ research.SPECTRAL_DRAGON.text=扫描一只幽灵龙
 research.DREAD_GUARD.text=扫描一只恐惧守卫
 research.MINION_OF_GATEKEEPER.text=扫描一只守门人仆从
 research.LESSER_SHOGGOTH.text=扫描一只小型修格斯
+research.MIXTURE_SHOGGOTH.text=扫描一只修格斯融合体
