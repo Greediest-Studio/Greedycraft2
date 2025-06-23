@@ -1,4 +1,4 @@
-
+#reloadable
 
 import crafttweaker.event.EntityLivingDeathEvent;
 import crafttweaker.entity.IEntityLivingBase;

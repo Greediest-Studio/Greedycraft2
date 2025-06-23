@@ -1,4 +1,4 @@
-
+#reloadable
 
 import crafttweaker.event.PlayerInteractBlockEvent;
 import crafttweaker.block.IBlock;
@@ -1276,6 +1276,12 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
                         shog2 = entity;
                         recipeString = "zombie";
                     }
+                    if (entity.definition.id == "gct_aby:mixture_shoggoth" && shog1 instanceof IPlayer) {
+                        shog1 = entity;
+                    } else if (entity.definition.id == "abyssalcraft:lesserdreadbeast" && shog2 instanceof IPlayer) {
+                        shog2 = entity;
+                        recipeString = "bloody";
+                    }
                 }
             }
             var book1 as IItemStack = <minecraft:stone>;
@@ -1309,6 +1315,8 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
                         addMobFusion(shog1, shog2, <entity:gct_aby:mixture_shoggoth>, pos, player);
                     } else if (recipeString == "zombie") {
                         addMobFusionToItem(shog1, shog2, <gct_aby:muddy_flesh>, pos, player);
+                    } else if (recipeString == "bloody") {
+                        addMobFusion(shog1, shog2, <entity:gct_aby:bloody_shoggoth>, pos, player);
                     }
                 }
             }

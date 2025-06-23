@@ -1,5 +1,5 @@
 #priority 32767
-
+#reloadable
 
 import crafttweaker.player.IPlayer;
 import native.net.minecraft.entity.player.EntityPlayer;
