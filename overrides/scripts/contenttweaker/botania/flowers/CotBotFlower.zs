@@ -123,7 +123,7 @@ bread_fanatic.register();
 
 
 var Add_Difficulty as ISubTileEntityGenerating = VanillaFactory.createSubTileGenerating("add_difficulty", 0xFFFFFF);
-Add_Difficulty.maxMana = 20000;
+Add_Difficulty.maxMana = 40000;
 Add_Difficulty.color = 0xfcff00;
 Add_Difficulty.onBlockPlaceBy = function(world, pos, state, entity, stack) {
     var crtpos as IBlockPos = IBlockPos.create(pos.x, pos.y, pos.z);
@@ -156,11 +156,25 @@ Add_Difficulty.onUpdate = function(subtile, world, pos) {
         }
     }
 };
+Add_Difficulty.onBlockActivated = function(world, pos, state, player, hand, side, hitX, hitY, hitZ) {
+    var data as IData = world.getBlock(pos).data;
+    var mana as int = data.subTileCmp.mana.asInt();
+    for player in server.players{
+        if(!isNull(subtile.data.PlacePlayeruuid)){
+            if(player.uuid == subtile.data.PlacePlayeruuid){
+                server.commandManager.executeCommand(server, "/scalinghealth difficulty add 2 "+ player.name);
+                subtile.addMana(10000);
+                subtile.updateCustomData(subtile.data + {time : 0});
+            }
+        }
+    }
+    return true;
+};
 Add_Difficulty.register();
 
 
 var Remove_Difficulty as ISubTileEntityFunctional = VanillaFactory.createSubTileFunctional("remove_difficulty", 0xFFFFFF);
-Remove_Difficulty.maxMana = 40000;
+Remove_Difficulty.maxMana = 80000;
 Remove_Difficulty.color = 0xaf0000;
 Remove_Difficulty.onBlockPlaceBy = function(world, pos, state, entity, stack) {
     var crtpos as IBlockPos = IBlockPos.create(pos.x, pos.y, pos.z);
@@ -199,6 +213,16 @@ Remove_Difficulty.onBlockActivated = function(world, pos, state, player, hand, s
     if(mana < 40000) {
         player.sendChat("你他妈不给我魔力，想让我降难度？？？？");
         return false;
+    } else {
+        for player in server.players{
+            if(!isNull(subtile.data.PlacePlayeruuid)){
+                if(player.uuid == subtile.data.PlacePlayeruuid){
+                    server.commandManager.executeCommand(server, "/scalinghealth difficulty add -2 "+ player.name);
+                    subtile.consumeMana(80000);
+                    subtile.updateCustomData(subtile.data + {time : 0});
+                }
+            }
+        }
     }
     return true;
 };
@@ -219,7 +243,7 @@ running_machine.onUpdate = function(subtile, world, pos) {
             if(entity instanceof IPlayer){
                 var player as IPlayer = entity;
                 if(player.isSprinting){
-                    subtile.addMana(5);
+                    subtile.addMana(50);
                 }
                 if(!player.isSneaking){
                     if(world.worldInfo.getWorldTotalTime() % 4 ==0)
@@ -391,14 +415,13 @@ eat_iron.onUpdate = function(subtile, world, pos) {
             pos.south(),
             pos.north(),
         ];
-        var player as IPlayer = world.getClosestPlayer(pos.x, pos.y, pos.z, 25, true);
         for i in poses {
             if(!isNull(world.getBlock(i))){
                 if(!isNull(world.getBlock(i).definition)){
-                    if(world.getBlock(i).definition.id == "tconstruct:molten_iron"){
+                    if(world.getBlock(i).definition.id.contains("iron")){
                         Commands.call("playsound minecraft:entity.generic.drink record @p", player, world, false, true);
-                        player.sendMessage("§d[作者姬]§r§f：§r§e干了这杯铁!");
-                        world.setBlockState(<blockstate:minecraft:air>, pos);
+                        say("§d[作者姬]§r§f：§r§e干了这杯铁!");
+                        world.setBlockState(<blockstate:minecraft:air>, i);
                         subtile.addMana(1000);
                     }
                 }
@@ -458,7 +481,7 @@ lightning.onUpdate = function(subtile, world, pos) {
             if(entity instanceof IPlayer && entities.length > 0){
                 var playerpos as IBlockPos = entity.position;
                 world.summonLightningBolt(playerpos.getX(), playerpos.getY(), playerpos.getZ(), false);
-                subtile.addMana(3);
+                subtile.addMana(100);
             }
         }
     }
@@ -514,4 +537,8 @@ function getPosFromStr(posstr as string) as IBlockPos{
     }else{
         return null;
     }
+}
+
+function say(str as string){
+    server.commandManager.executeCommand(server, "/say "+ str);
 }

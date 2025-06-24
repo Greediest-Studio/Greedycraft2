@@ -56,9 +56,9 @@ events.onCropGrowPre(function(event as CropGrowPreEvent) {
                 // var cropage as int = blockstate.getPropertyValue("age") as int;
                 // var cropallage as string[] = blockstate.getAllowedValuesForProperty("age");
                 if(blockstate.getPropertyValue("age") == blockstate.getAllowedValuesForProperty("age")[blockstate.getAllowedValuesForProperty("age").length - 1]){
-                    flowerworld.getSubTileEntityInGame(pos).addMana(750);
+                    flowerworld.getSubTileEntityInGame(pos).addMana(350);
                 }else{
-                    flowerworld.getSubTileEntityInGame(pos).addMana(100);
+                    flowerworld.getSubTileEntityInGame(pos).addMana(50);
                 }
             }
             

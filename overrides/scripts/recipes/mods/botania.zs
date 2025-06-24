@@ -49,8 +49,8 @@ Apothecary.addRecipe("blood_hydroangeas", [<ore:petalBlue>, <ore:petalCyan>, <or
 Apothecary.addRecipe("remove_difficulty", [<scalinghealth:crystalshard>, <ore:gemAmethyst>, <ore:petalGreen>, <ore:petalPurple>]);
 Apothecary.addRecipe("add_difficulty", [<scalinghealth:crystalshard>, <ore:ingotGold>, <ore:petalGreen>, <ore:petalYellow>]);
 Apothecary.addRecipe("bread_fanatic", [<botania:blacklotus>, <minecraft:bread>, <botania:specialflower>.withTag({type: "endoflame"}), <ore:petalGreen>, <botania:rune:2>]);
-Apothecary.addRecipe("lightning", [<minecraft:potion>.withTag({Potion: "potioncore:lightning"}), <botania:shimmerrock>, <ore:petalPink>, <ore:petalPurple>]);
-Apothecary.addRecipe("agricultural", [<minecraft:hay_block>, <minecraft:hay_block>, <minecraft:hay_block>, <minecraft:hay_block>, <minecraft:hay_block>, <minecraft:wooden_hoe>, <ore:seed>, <ore:seed>, <ore:seed>]);
+Apothecary.addRecipe("lightning", [<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 75}]}), <botania:specialflower>.withTag({type: "reikarlily"}), <minecraft:potion>.withTag({Potion: "potioncore:lightning"}), <botania:shimmerrock>, <ore:petalPink>, <ore:petalPurple>]);
+Apothecary.addRecipe("agricultural", [<minecraft:hay_block>, <minecraft:hay_block>, <minecraft:hay_block>, <minecraft:hay_block>, <minecraft:hay_block>, <additions:ratziel_rune>, <additions:raphael_rune>, <minecraft:wooden_hoe>, <ore:seed>, <ore:seed>, <ore:seed>]);
 Apothecary.addRecipe("running_machine", [<minecraft:heavy_weighted_pressure_plate>, <minecraft:dye:8>, <botania:flower:13>, <botania:dye:5>, <botania:overgrowthseed>]);
 Apothecary.addRecipe("quest", [<ftbquests:book>, <ore:petalLime>, <ore:petalGreen>, <botania:fertilizer>, <botania:cosmetic:31>]);
 Apothecary.addRecipe("mirror", [<astralsorcery:itemcraftingcomponent:3>, <botania:prism>, <endreborn:item_world_mirror>, <cfm:mirror>, <minecraft:dye:12>, <minecraft:dye:12>]);
