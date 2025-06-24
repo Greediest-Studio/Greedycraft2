@@ -4,6 +4,7 @@
  */
 
 #priority 1250
+#reloadable
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
@@ -42,6 +43,21 @@ ElvenTrade.addRecipe([<treetweaker:dreamwood>], [<treetweaker:livingwood>]);
 ElvenTrade.addRecipe([<gct_mobs:alf_sand>], [<ore:sand>]);
 
 Apothecary.addRecipe(<additions:bag_of_dyes>, [<ore:petalGreen>, <ore:petalRed>, <ore:petalBlue>, <ore:petalYellow>, <ore:petalGreen>, <ore:petalRed>, <ore:petalBlue>, <ore:petalYellow>]);
+
+//新植魔花
+Apothecary.addRecipe("blood_hydroangeas", [<ore:petalBlue>, <ore:petalCyan>, <ore:petalCyan>, <botania:dye:3>, <forge:bucketfilled>.withTag({FluidName: "blood", Amount: 1000}), <ore:petalRed>, <ore:petalBrown>]);
+Apothecary.addRecipe("remove_difficulty", [<scalinghealth:crystalshard>, <ore:gemAmethyst>, <ore:petalGreen>, <ore:petalPurple>]);
+Apothecary.addRecipe("add_difficulty", [<scalinghealth:crystalshard>, <ore:ingotGold>, <ore:petalGreen>, <ore:petalYellow>]);
+Apothecary.addRecipe("bread_fanatic", [<botania:blacklotus>, <minecraft:bread>, <botania:specialflower>.withTag({type: "endoflame"}), <ore:petalGreen>, <botania:rune:2>]);
+Apothecary.addRecipe("lightning", [<minecraft:potion>.withTag({Potion: "potioncore:lightning"}), <botania:shimmerrock>, <ore:petalPink>, <ore:petalPurple>]);
+Apothecary.addRecipe("agricultural", [<minecraft:hay_block>, <minecraft:hay_block>, <minecraft:hay_block>, <minecraft:hay_block>, <minecraft:hay_block>, <minecraft:wooden_hoe>, <ore:seed>, <ore:seed>, <ore:seed>]);
+Apothecary.addRecipe("running_machine", [<minecraft:heavy_weighted_pressure_plate>, <minecraft:dye:8>, <botania:flower:13>, <botania:dye:5>, <botania:overgrowthseed>]);
+Apothecary.addRecipe("quest", [<ftbquests:book>, <ore:petalLime>, <ore:petalGreen>, <botania:fertilizer>, <botania:cosmetic:31>]);
+Apothecary.addRecipe("mirror", [<astralsorcery:itemcraftingcomponent:3>, <botania:prism>, <endreborn:item_world_mirror>, <cfm:mirror>, <minecraft:dye:12>, <minecraft:dye:12>]);
+Apothecary.addRecipe("eat_iron", [<forge:bucketfilled>.withTag({FluidName: "iron", Amount: 1000}), <betterslimes:yellow_slime>, <betterslimes:yellow_slime>, <candymod:gummy:2>, <candymod:gummy:2>, <openblocks:golden_eye>.withTag({})]);
+Apothecary.addRecipe("cow", [<sakura:foodset:10>, <xlfoodmod:beef_stew>, <xlfoodmod:crescent_roll>, <xlfoodmod:kebab>, <xlfoodmod:hamburger>]);
+Apothecary.addRecipe("chat", [<minecraft:cake>, <ore:petalWhite>, <ore:petalBlack>, <botania:blacklotus:1>, <botania:manaresource:15>, <botania:avatar>]);
+
 
 PureDaisy.addRecipe(<minecraft:grass>, <minecraft:dirt>, 200);
 PureDaisy.addRecipe(<ore:treeLeaves>, <gct_mobs:livingwood_leaves>, 100);
