@@ -32374,7 +32374,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/crafttweaker.pw.toml"
-hash = "45d91c416875ed594543e20ac97241356d9af6c7357f46cd012afe3efd7b08bb"
+hash = "c17788a4885a889d1657405611d4d5d5925389875cd3bf55c212fe35d0753dd6"
 metafile = true
 
 [[files]]
@@ -32404,7 +32404,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/customfishing.pw.toml"
-hash = "e7829eda31795d2a4e86c069b773e47f0d5946c65f98abdf8a6062f2780a7412"
+hash = "016b4356628481abbd6859706abe776c0db2f5728bf910bed23bd9675382d3bc"
 metafile = true
 
 [[files]]
@@ -32558,6 +32558,11 @@ hash = "aff79ad82339df9fc6b225c584faf115d5745a4f269c74fd9dae3001a4c561bc"
 metafile = true
 
 [[files]]
+file = "mods/.index/extended-crafting-nomifactory-edition.pw.toml"
+hash = "f7bffa419f639db73b0f48aa124a0faa6c8ac6c7b1d229ba3d430832a2206ce9"
+metafile = true
+
+[[files]]
 file = "mods/.index/extended-crafting-terminals-for-applied.pw.toml"
 hash = "0b7714911f7d01aaea1061eda4d20204d42a5477b251c5931bb312d7b519b695"
 metafile = true
@@ -32659,7 +32664,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/fugue.pw.toml"
-hash = "0bc5d5ac93129ff8587f224fb1465798e938e1ff666e2bc9f04002ac52bdc82f"
+hash = "f628a30d9acad256c5a5312efb79e0edbbe699ea73c32acc024878f2b5c9a8d3"
 metafile = true
 
 [[files]]
@@ -33844,7 +33849,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/tinkers-antique.pw.toml"
-hash = "08de5a1a8d37b30af890f65d9271ad0ae1ce7a8b0d862e2527ff7bae66c48d04"
+hash = "f487dca506d15e4dc748a56f9750c5ea76c3f87e2a160c8e864788f23d1371c7"
 metafile = true
 
 [[files]]
@@ -33855,11 +33860,6 @@ metafile = true
 [[files]]
 file = "mods/.index/tinkers-evolution.pw.toml"
 hash = "ad8987fd7304903a08129e890961a7b3ece4d9748b898e96d5e59e67997325e3"
-metafile = true
-
-[[files]]
-file = "mods/.index/tinkers-jei.pw.toml"
-hash = "583e16d43279e1392b17be30bc4e72294e908e9f96c9b0d59b3ecbd510f505ec"
 metafile = true
 
 [[files]]
@@ -34109,7 +34109,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/zenutil.pw.toml"
-hash = "eb10ab51a855993ddcf56c894f8d3e07f3f5445df392d00a39cb25236c757a1f"
+hash = "71100d108606998517c953fd72fd76eb1a9eadd48e837692dcad44cd887e67db"
 metafile = true
 
 [[files]]
@@ -34199,10 +34199,6 @@ hash = "8f36c9e25ec7abe710b765da52b44142dbb3fc011ed01fc3d4d239220bd3e112"
 [[files]]
 file = "mods/eventtweaker-1.5.jar"
 hash = "eda163ee3321db7aa6f1e81800adb35d18bf05e1c7a545f82631016bae1cfe43"
-
-[[files]]
-file = "mods/extendedcrafting-nomifactory-edition-1.7.0.7-fix.jar"
-hash = "36c0f9de2bd33238a82a6e9565097d2a58ee76b1ff0c2353761db56db1cf6e40"
 
 [[files]]
 file = "mods/homoium-1.0.8.jar"
