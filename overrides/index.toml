@@ -18814,7 +18814,7 @@ hash = "74454f64f7a181b28c322b7b22f5afdb8d22222f8e6d8fa40aa7f8eab7b779b1"
 
 [[files]]
 file = "config/forge_early.cfg"
-hash = "194d955fe91743a182cbb3f49914a68ad4a74ef6c2bb2a1333b157850d469735"
+hash = "ace1ce509b6dfdc655f9afe905dfbaead5f91ac082047b98b863495e6bba5b6f"
 
 [[files]]
 file = "config/forgeendertech/Biomes/beaches.cfg"
@@ -31889,7 +31889,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/alfheim-lighting-engine.pw.toml"
-hash = "5db04ae4861c21151ceaee3a2b66684aed1461acdcb609a9e249c1187fa6d303"
+hash = "5b8e138b7b21ad18dd6ebdbf6cc4b23c2d2137a7253fd968a4030487c5fb9a28"
 metafile = true
 
 [[files]]
@@ -32264,7 +32264,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/cleanroom-relauncher-unofficial.pw.toml"
-hash = "b1679b81e8434add5c610fee8ef0ec21a3ae0c0d40de33605cb25be9c8dd397c"
+hash = "b759f492c6f5c4d77cb3c4605c664fc37484406f4c6cb5d555831fb5cd54cd60"
 metafile = true
 
 [[files]]
@@ -32734,7 +32734,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/had-enough-items.pw.toml"
-hash = "ef2311d35eec247d9d0544804c3e744aa56a2e8984016505e1a073bad88ec9ba"
+hash = "f3d56a2af8454e4ccf94b86c17aef630c1952ba92783745fa47bd6dc20d2d162"
 metafile = true
 
 [[files]]
@@ -32944,7 +32944,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/librarianlib-continuous.pw.toml"
-hash = "7c780eecab91bbda467b17c053d16bc457dfca6c24c3f13c30e53e4d5af2f6df"
+hash = "4d1f29cf1402d3f62c0ad05ca3cf2e4aeb1cbdf9ab2176409082550355cee520"
 metafile = true
 
 [[files]]
@@ -33494,7 +33494,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/red-core.pw.toml"
-hash = "aab4a1e7623f5369e8d838c10dca6a62a7e58d294bcba4c901575a42b7214c49"
+hash = "61e97e8f79b9a9cb28e118275ece40ac1c14048aba7b153a2b99f14091208613"
 metafile = true
 
 [[files]]
@@ -33804,7 +33804,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/the-twilight-forest-deforestation-edition.pw.toml"
-hash = "c6f9a90c7a3d115f87278b3b2ca092e6eaf55a1ae6c42c8fa4bffcac5f6d826a"
+hash = "5167bacbea414440e7190390637bd39b975a1b5fded8a7b87b920edc9f5750f0"
 metafile = true
 
 [[files]]
@@ -34019,7 +34019,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/whimcraft.pw.toml"
-hash = "da55066e2e69b00fb173c761dc9cef6900d5a783b54a2e04a07bc12432edcd07"
+hash = "fdf34ac7b3188c74a9acc74c764cdff17a247a38f2923f11ea91908ef4d5da03"
 metafile = true
 
 [[files]]
@@ -34050,11 +34050,6 @@ metafile = true
 [[files]]
 file = "mods/.index/xl-food-mod.pw.toml"
 hash = "2ea0cf0fdbe0c993088941792a7d936dc4f3522c36f20beba098bb5a6bad02fc"
-metafile = true
-
-[[files]]
-file = "mods/.index/xp-orb-clump.pw.toml"
-hash = "5ee8d35bf1ca9832942fb2431081840b6ec1da95da7991f2f8289955708a7309"
 metafile = true
 
 [[files]]
@@ -34145,6 +34140,10 @@ file = "mods/InertiaCancellation-1.0.jar"
 hash = "54c5799f16a9b583c8f112c022813ad2fc8432fdef4fb802ce214022d00599dd"
 
 [[files]]
+file = "mods/Jankson-1.2.3.jar"
+hash = "7a71dd9c4ac20cea37ce19c35c4aeda15385a40f31836b0058ff18f9e9554aad"
+
+[[files]]
 file = "mods/Nether-API-v1.3.0-mc1.12.2.jar"
 hash = "d30aaa2c9e8d7d6c5c1ca9c84b22ec894d9aa4a3d2cf6263e0ecf97498d794ae"
 
@@ -34193,6 +34192,11 @@ file = "mods/[gct]Gct_tcon-1.12.2.jar"
 hash = "a27301eb75da53a0d91035f1b5588b5b55f82d61b0714bc12468aaa0bc6a48d2"
 
 [[files]]
+file = "mods/better-meteorite.pw.toml"
+hash = "2c7d8d56f07eae416190cae4521de89ae566a55e0b815574a282f59125e55fb1"
+metafile = true
+
+[[files]]
 file = "mods/blockColor1.0.0-1.12.2.jar"
 hash = "8f36c9e25ec7abe710b765da52b44142dbb3fc011ed01fc3d4d239220bd3e112"
 
@@ -34215,6 +34219,11 @@ hash = "f5fe320609cee924f428c154cb8231c452a7d8899ed70db26f69efa90482e1d7"
 [[files]]
 file = "mods/lnrepair_2317-1.0.0.0.jar"
 hash = "d676764c7d96d88562d1e1b47c4c765bf5cf1618e87669e4a2b1e30d25628fe2"
+
+[[files]]
+file = "mods/random-complement.pw.toml"
+hash = "8c40bb5c4a1ba294269a782d011ee86416fa01326151fe107b0fdaddf38444b6"
+metafile = true
 
 [[files]]
 file = "mods/stygian-1.0.5.jar"

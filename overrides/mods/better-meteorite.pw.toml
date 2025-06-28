@@ -1,0 +1,13 @@
+name = "Better Meteorite"
+filename = "better_meteorite-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ac3811e160b9b3a0189e7f88daa3909aed777f9a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6525827
+project-id = 1264853
