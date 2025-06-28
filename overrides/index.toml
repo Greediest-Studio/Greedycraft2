@@ -20162,7 +20162,7 @@ hash = "1ffc429e4888c8d98047e073eb9e7ff0d7069e69fb58d708a04e3bd0fa85c0e3"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/17b27275/bae35f19.snbt"
-hash = "e81fe92d4d00949c6227511be60ca12b641834ef57ab9cd05a1db7d1df4a01eb"
+hash = "ad1d567ccc8587f86c018627076a43be23fa25ace53f2cfe0aa86c212d9ef262"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/17b27275/bc81a549.snbt"
@@ -32043,6 +32043,11 @@ hash = "c845fd7adae913d0526ca02bac3ec53e3c2cbc9088ed649a1a72fca9c3907306"
 metafile = true
 
 [[files]]
+file = "mods/.index/better-meteorite.pw.toml"
+hash = "2c7d8d56f07eae416190cae4521de89ae566a55e0b815574a282f59125e55fb1"
+metafile = true
+
+[[files]]
 file = "mods/.index/better-mobgriefing-gamerule.pw.toml"
 hash = "a7d31aaacfb6fbbce7a4eddd5d1e43f9a052f5d710c2662c2db4351c51cac029"
 metafile = true
@@ -32868,6 +32873,11 @@ hash = "19082f4fc6ddda6cedeac141d3942b3a7fa2814ca516ebf1b4fd558ca239f0b8"
 metafile = true
 
 [[files]]
+file = "mods/.index/just-enough-botania.pw.toml"
+hash = "5f76f1781f079567c988e6b2d92c079597b2b391c723a0c847d4660177c90af1"
+metafile = true
+
+[[files]]
 file = "mods/.index/just-enough-brewcraft.pw.toml"
 hash = "34a833884090948b59ef277cc1de684285076f3f28f33797316e8ba8be7e56ea"
 metafile = true
@@ -32998,8 +33008,8 @@ hash = "059eed4d55fa0728def70fc36e958b7d0f66bf6f6a4d856dbe6530cd30cac8ed"
 metafile = true
 
 [[files]]
-file = "mods/.index/magic-bees.pw.toml"
-hash = "c99d580a36c994962af99450073ccfc5dc95669e9151cfe6fbfebcb73d4c2663"
+file = "mods/.index/magic-bees-kedition.pw.toml"
+hash = "dcf4d6542ae9889581412b847485de2186b22108a0134de18291e3e353510e09"
 metafile = true
 
 [[files]]
@@ -33160,11 +33170,6 @@ metafile = true
 [[files]]
 file = "mods/.index/multiblocked.pw.toml"
 hash = "1d408f88923e98b8ab29dfdeaa40aafbdc81beebdff422688190a48575b37b70"
-metafile = true
-
-[[files]]
-file = "mods/.index/multithreaded-noise.pw.toml"
-hash = "b76bedd63085530709726c1946fc0e58f9d8fa9127fccd9e25dd0ff6145fe66b"
 metafile = true
 
 [[files]]
@@ -33440,6 +33445,11 @@ metafile = true
 [[files]]
 file = "mods/.index/quit.pw.toml"
 hash = "8b774a5d263cc692ca0fdc07fa23d182765c9e7d4350b81879718e2e8f6b58e5"
+metafile = true
+
+[[files]]
+file = "mods/.index/random-complement.pw.toml"
+hash = "8c40bb5c4a1ba294269a782d011ee86416fa01326151fe107b0fdaddf38444b6"
 metafile = true
 
 [[files]]
@@ -34132,8 +34142,8 @@ file = "mods/GodAgglomerationPlate-1.0.2.jar"
 hash = "be744711eccee3f1b9b40ef131ce2eb381d5c4ce48a9944eb4137503ef24403a"
 
 [[files]]
-file = "mods/HydrogenationTinker-0.1.0-release.jar"
-hash = "82f1dd855c31430c48d467dcbcf80e76f94b8babde0f384fc546009334de1882"
+file = "mods/HydrogenationTinker(0.1.1-release).jar"
+hash = "3fb04462a141566044dbd40c0f50f77881ce81e6d75805ff400be20302587109"
 
 [[files]]
 file = "mods/InertiaCancellation-1.0.jar"
@@ -34146,6 +34156,10 @@ hash = "7a71dd9c4ac20cea37ce19c35c4aeda15385a40f31836b0058ff18f9e9554aad"
 [[files]]
 file = "mods/Nether-API-v1.3.0-mc1.12.2.jar"
 hash = "d30aaa2c9e8d7d6c5c1ca9c84b22ec894d9aa4a3d2cf6263e0ecf97498d794ae"
+
+[[files]]
+file = "mods/NoiseThreaderMeow-1.0.0.jar"
+hash = "76e6ea292a31f1e3d265ca635d4fcf226488ad5bcd3cae7a3ed07e6b98079661"
 
 [[files]]
 file = "mods/Nova Engineering - ECO AE Extension-1.1.0.jar"
@@ -34192,11 +34206,6 @@ file = "mods/[gct]Gct_tcon-1.12.2.jar"
 hash = "a27301eb75da53a0d91035f1b5588b5b55f82d61b0714bc12468aaa0bc6a48d2"
 
 [[files]]
-file = "mods/better-meteorite.pw.toml"
-hash = "2c7d8d56f07eae416190cae4521de89ae566a55e0b815574a282f59125e55fb1"
-metafile = true
-
-[[files]]
 file = "mods/blockColor1.0.0-1.12.2.jar"
 hash = "8f36c9e25ec7abe710b765da52b44142dbb3fc011ed01fc3d4d239220bd3e112"
 
@@ -34219,11 +34228,6 @@ hash = "f5fe320609cee924f428c154cb8231c452a7d8899ed70db26f69efa90482e1d7"
 [[files]]
 file = "mods/lnrepair_2317-1.0.0.0.jar"
 hash = "d676764c7d96d88562d1e1b47c4c765bf5cf1618e87669e4a2b1e30d25628fe2"
-
-[[files]]
-file = "mods/random-complement.pw.toml"
-hash = "8c40bb5c4a1ba294269a782d011ee86416fa01326151fe107b0fdaddf38444b6"
-metafile = true
 
 [[files]]
 file = "mods/stygian-1.0.5.jar"
