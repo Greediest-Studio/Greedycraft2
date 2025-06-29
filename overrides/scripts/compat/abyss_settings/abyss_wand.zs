@@ -6,6 +6,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.player.IPlayer;
 import crafttweaker.world.IBlockPos;
 import crafttweaker.world.IWorld;
+import crafttweaker.world.IFacing;
 import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.entity.IEntityLiving;
 import crafttweaker.entity.IEntity;
@@ -1258,13 +1259,17 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     var world as IWorld = event.world;
     if (!isNull(event.item) && (!world.isRemote())) {
         var item as IItemStack = event.item;
-        if (item.definition.id == "gct_aby:abyss_wand" && block.definition.id == "gct_aby:seek_brick" && world.getBlock(pos.x, pos.y - 1, pos.z).definition.id == "abyssalcraft:stone" && world.getBlock(pos.x, pos.y + 1, pos.z).definition.id == "abyssalcraft:stone" && world.getBlock(pos.x, pos.y - 2, pos.z).definition.id == "abyssalcraft:monolithpillar" && world.getBlock(pos.x, pos.y + 2, pos.z).definition.id == "abyssalcraft:monolithpillar" && world.getBlock(pos.x, pos.y - 1, pos.z).meta == 7 && world.getBlock(pos.x, pos.y + 1, pos.z).meta == 7) {
+        if (item.definition.id == "gct_aby:abyss_wand" && block.definition.id == "gct_aby:seek_brick" && world.getBlock(pos.x, pos.y - 1, pos.z).definition.id == "abyssalcraft:stone" && world.getBlock(pos.x, pos.y + 1, pos.z).definition.id == "abyssalcraft:stone" && world.getBlock(pos.x, pos.y - 2, pos.z).definition.id == "abyssalcraft:monolithpillar" && world.getBlock(pos.x, pos.y + 2, pos.z).definition.id == "abyssalcraft:monolithpillar" && world.getBlock(pos.x, pos.y - 1, pos.z).meta == 7 && world.getBlock(pos.x, pos.y + 1, pos.z).meta == 7 && world.getBlock(pos.x, pos.y + 3, pos.z).definition.id == "abyssalcraft:energypedestal") {
             var shog1 as IEntityLivingBase = player;
             var shog2 as IEntityLivingBase = player;
+            var catalyst as IItemStack = <minecraft:stone>;
+            if (!isNull(world.getBlock(pos.up(3)).data.Item.id)) {
+                catalyst = IItemStack.fromData(world.getBlock(pos.up(3)).data.Item);
+            }
             var recipeString as string = "default";
-            for entity in getEntityLivingBasesInCube(player, 5) {
+            for entity in getEntityLivingBasesInCube(player, 7) {
                 if (entity instanceof IEntityLiving) {
-                    if (entity.definition.id == "ageofabyssalcraft:lessershoggothhelpful" && shog1 instanceof IPlayer) {
+                    if (entity.definition.id == "ageofabyssalcraft:lessershoggothhelpful" && shog1 instanceof IPlayer && catalyst.definition.id == "gct_aby:shoggy_slime") {
                         shog1 = entity;
                     } else if (entity.definition.id == "ageofabyssalcraft:lessershoggothhelpful" && shog2 instanceof IPlayer) {
                         shog2 = entity;
@@ -1276,7 +1281,7 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
                         shog2 = entity;
                         recipeString = "zombie";
                     }
-                    if (entity.definition.id == "gct_aby:mixture_shoggoth" && shog1 instanceof IPlayer) {
+                    if (entity.definition.id == "gct_aby:mixture_shoggoth" && shog1 instanceof IPlayer && catalyst.definition.id == "gct_aby:shoggy_slime_purified") {
                         shog1 = entity;
                     } else if (entity.definition.id == "abyssalcraft:lesserdreadbeast" && shog2 instanceof IPlayer) {
                         shog2 = entity;
@@ -1311,6 +1316,7 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
                     world.setBlockState(<blockstate:minecraft:air>, pos.up(2));
                     world.setBlockState(<blockstate:minecraft:air>, pos.down(1));
                     world.setBlockState(<blockstate:minecraft:air>, pos.down(2));
+                    world.setBlockState(<blockstate:minecraft:air>, pos.up(3));
                     if (recipeString == "shoggoth") {
                         addMobFusion(shog1, shog2, <entity:gct_aby:mixture_shoggoth>, pos, player);
                     } else if (recipeString == "zombie") {
