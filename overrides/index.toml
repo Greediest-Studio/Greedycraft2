@@ -14702,7 +14702,7 @@ hash = "c32fcdfce2c8d4d4ff59363a4273f659debe80a7b907e1c94b3d7ede42f3d129"
 
 [[files]]
 file = "config/Universal Tweaks - Tweaks.cfg"
-hash = "ae9ae81eb5937cbd3f3b4bda20e6d18a057790e12aee9d7bb0ffeec9a641be9b"
+hash = "d595312246e454a20e585030990fbfe978bd32f47020a3e44bd5c345462e480d"
 
 [[files]]
 file = "config/Waystones.cfg"
@@ -30845,10 +30845,6 @@ file = "config/splash.properties"
 hash = "3c60c0654c6f778bf7364a668cf5254c00140c5d0a3fc0f30d67eae37aca1ced"
 
 [[files]]
-file = "config/stackie.cfg"
-hash = "3d7cd9207304fedc2a9352b29d26361920b4f6e173be9eb662243e9f5d4cc8de"
-
-[[files]]
 file = "config/stellar_core.cfg"
 hash = "5cfc16819f37bbab78073a50719b78b714ac1d725ddd643805ff89cb90a5cd76"
 
@@ -33693,11 +33689,6 @@ hash = "3c488bc1200c41f69e61d86b87389afcd936fac6e9378df07961458cb1f459de"
 metafile = true
 
 [[files]]
-file = "mods/.index/stackie.pw.toml"
-hash = "17ba72705bda233519bb922e578b4de5d42087a1c095220de9f3723ab2d4918b"
-metafile = true
-
-[[files]]
 file = "mods/.index/stacksize.pw.toml"
 hash = "4ce021b1e10d400320f444e1910798255d97da82076a186889a0c9146bcfe8c8"
 metafile = true
@@ -33755,6 +33746,11 @@ metafile = true
 [[files]]
 file = "mods/.index/thaumcraft.pw.toml"
 hash = "642fb95aa39530f0b662148d8f5357ea7cfc48312216eced5251d7337f80c9cd"
+metafile = true
+
+[[files]]
+file = "mods/.index/thaumcraftfix.pw.toml"
+hash = "bdf1881c7f6ba7117d21139afb754c7864aeb2bf3a7952f6960f04e5a490123d"
 metafile = true
 
 [[files]]
@@ -34063,6 +34059,11 @@ hash = "2ea0cf0fdbe0c993088941792a7d936dc4f3522c36f20beba098bb5a6bad02fc"
 metafile = true
 
 [[files]]
+file = "mods/.index/xp-orb-clump.pw.toml"
+hash = "642fd6d88e90ed6db1315a3a591e4ec57c72c39b18ae88b917412bdba841a1d1"
+metafile = true
+
+[[files]]
 file = "mods/.index/xu2-patcher.pw.toml"
 hash = "ee112ef8c4beb2011490a7f8b3e210ebf372898c75b22d166f6bea546496ce0a"
 metafile = true
@@ -34232,11 +34233,6 @@ hash = "d676764c7d96d88562d1e1b47c4c765bf5cf1618e87669e4a2b1e30d25628fe2"
 [[files]]
 file = "mods/stygian-1.0.5.jar"
 hash = "493c0f77b21da5ec803d9748a3f4965b5bc7d12396af7a70ed21af19463d21bc"
-
-[[files]]
-file = "mods/thaumcraftfix.pw.toml"
-hash = "bdf1881c7f6ba7117d21139afb754c7864aeb2bf3a7952f6960f04e5a490123d"
-metafile = true
 
 [[files]]
 file = "mods/tiths-alpha-1.12.2-0.3.19.0.jar"
@@ -39888,7 +39884,7 @@ hash = "25f5f41340d62868a5632c21c9a565c84bb333832e9356d8ff447b8f7ddd24fa"
 
 [[files]]
 file = "scripts/contenttweaker/botania/flowers/CotBotFlower.zs"
-hash = "69f6bc18f6e6a1bc30f97055e7bc8a2a69c22516e88139a4c1fba28ed2896df3"
+hash = "b2dbe6508da7f9ee77c0bf512f252fe847dfae791c3c9f18f5a4108542ea3a82"
 
 [[files]]
 file = "scripts/contenttweaker/fluids.zs"
