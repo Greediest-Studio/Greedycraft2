@@ -159,6 +159,7 @@ Add_Difficulty.onUpdate = function(subtile, world, pos) {
 Add_Difficulty.onBlockActivated = function(world, pos, state, player, hand, side, hitX, hitY, hitZ) {
     var data as IData = world.getBlock(pos).data;
     var mana as int = data.subTileCmp.mana.asInt();
+    var subtile as SubTileEntityInGame = world.getSubTileEntityInGame(pos);
     for player in server.players{
         if(!isNull(subtile.data.PlacePlayeruuid)){
             if(player.uuid == subtile.data.PlacePlayeruuid){
@@ -214,6 +215,7 @@ Remove_Difficulty.onBlockActivated = function(world, pos, state, player, hand, s
         player.sendChat("你他妈不给我魔力，想让我降难度？？？？");
         return false;
     } else {
+        var subtile as SubTileEntityInGame = world.getSubTileEntityInGame(pos);
         for player in server.players{
             if(!isNull(subtile.data.PlacePlayeruuid)){
                 if(player.uuid == subtile.data.PlacePlayeruuid){
@@ -419,7 +421,7 @@ eat_iron.onUpdate = function(subtile, world, pos) {
             if(!isNull(world.getBlock(i))){
                 if(!isNull(world.getBlock(i).definition)){
                     if(world.getBlock(i).definition.id.contains("iron")){
-                        Commands.call("playsound minecraft:entity.generic.drink record @p", player, world, false, true);
+                        Commands.call("playsound minecraft:entity.generic.drink record @p", null, world, false, true);
                         say("§d[作者姬]§r§f：§r§e干了这杯铁!");
                         world.setBlockState(<blockstate:minecraft:air>, i);
                         subtile.addMana(1000);
