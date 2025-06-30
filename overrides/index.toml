@@ -17538,11 +17538,11 @@ hash = "49e53d0e10adbab503df6e4dbc73c71ea73fc577edcc9815713ff9b7d010a4f9"
 
 [[files]]
 file = "config/champions.cfg"
-hash = "2dd3dd067d31075e309762e03561252b03f1da4e233e94f9ec9308face628ce1"
+hash = "92bc8fab33a3dae9a2cd16cb34af89682c78a0a7bcf17b50d9e65f9d7b2b8764"
 
 [[files]]
 file = "config/champions/affixes.json"
-hash = "fb6f4f854232c3bae2503d05f976d020f1f26facd0991820f2e425afb64fe0f9"
+hash = "ce173ac66d88646ad9aafce87fb958524cb902e9634f12a0f1fcc4f3622fb465"
 
 [[files]]
 file = "config/champions/ranks.json"
@@ -32939,6 +32939,11 @@ hash = "14ef993d75b2482e059e87fcbe50f361819f5b9714b21ecfcd7d438b10629711"
 metafile = true
 
 [[files]]
+file = "mods/.index/lazy-ae2-tweaks.pw.toml"
+hash = "581d25a5461e9a0e80fb5d9fdae1ec99acba33b8bf7e25b60cdb04cd55f4c6bb"
+metafile = true
+
+[[files]]
 file = "mods/.index/lazy-ae2.pw.toml"
 hash = "9be747f0d18ed0676d229d70a36d4d44dec9e17adc94a1ed877c958ee4ce6c81"
 metafile = true
@@ -39732,7 +39737,7 @@ hash = "7505b58d626af4098fb20138be830a6781ffb3224935b3d44cf42f3ad1005fef"
 
 [[files]]
 file = "scripts/compat/abyss_settings/abyss_wand.zs"
-hash = "98e45d273b7f2982636a412a7f4ed705bdf0c1af2f5fb20ac971478135dbb276"
+hash = "a979433627a8d4905b906cabebf58858d6e8041cd1e1ad4e9263113bafe1f118"
 
 [[files]]
 file = "scripts/compat/abyss_settings/sanite_siphon.zs"
@@ -39740,7 +39745,7 @@ hash = "624380804e4f077933192ba90c108bf4b29bc7fa37a646231e657aeb3ca061ba"
 
 [[files]]
 file = "scripts/compat/abyss_settings/sanity_events.zs"
-hash = "21cff97645bf6beff978dc1425de85867f56354de40f764bccedbb894185309e"
+hash = "1cf73705e33edbeb17851c7616f1afd9d3a04d3e90ee633fb9164d6eab779416"
 
 [[files]]
 file = "scripts/compat/abyss_settings/sanity_functions.zs"
@@ -39748,7 +39753,7 @@ hash = "d5f2df7ef4e28bb13a5788df50e9be75121aae8db244670985fc40ab19d3ccdf"
 
 [[files]]
 file = "scripts/compat/abyss_settings/shoggoth_eaten.zs"
-hash = "0dbd960fc0b86cf20e24a915a9a3c10c6ae648bf04a705bb691629b835a97a69"
+hash = "130764321528fb6d8cf7d5a46b42ac4c1633e4db9fa33465a8739987f0ddcfc9"
 
 [[files]]
 file = "scripts/compat/abyss_settings/shoggoth_feed.zs"
