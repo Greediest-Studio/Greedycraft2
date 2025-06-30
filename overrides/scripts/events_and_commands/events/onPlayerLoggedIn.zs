@@ -93,6 +93,8 @@ events.onPlayerLoggedIn(function (event as PlayerLoggedInEvent) {
     server.commandManager.executeCommand(server, "/difficulty hard");
 
     server.commandManager.executeCommand(server, "/advancement revoke " + player.name + " through greedycraft:elysia/root");
+
+    server.commandManager.executeCommand(server, "/gamerule doDayLightCycle true");
 });
 
 events.onPlayerLoggedIn(function (event as PlayerLoggedInEvent) {
