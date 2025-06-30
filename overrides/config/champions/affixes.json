@@ -100,7 +100,7 @@
   {
     "identifier": "molten",
     "enabled": true,
-    "entityBlacklist": [],
+    "entityBlacklist": ["thebetweenlands:dreadful_mummy","thebetweenlands:peat_mummy"],
     "alwaysOnEntity": [],
     "tier": 1
   },
