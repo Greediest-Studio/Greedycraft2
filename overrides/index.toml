@@ -3017,14 +3017,6 @@ file = "addons/Additions/GreedyCraft/assets/additions/models/item/greedy_medal.j
 hash = "9e85c45f12137174341fb45facd4778175103572481f89bb7f2240e277a3d859"
 
 [[files]]
-file = "addons/Additions/GreedyCraft/assets/additions/models/item/greedycraft-abyssine_ingot.json"
-hash = "b1df25e011b9184692954d771f17a6caff9e3feb2e39a21cd6335d9f6e963f1f"
-
-[[files]]
-file = "addons/Additions/GreedyCraft/assets/additions/models/item/greedycraft-phoenixite_ingot.json"
-hash = "b8e566f94800da7c0b7e9c34d1ba8dcdedda4df05e123f0410284830617ba7c7"
-
-[[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/models/item/guaninite_block.json"
 hash = "6eda7421714ac8bb217758e2f0ed4d23130e4f1c3e7f34c38d8136c93e41cccf"
 
@@ -5522,7 +5514,11 @@ hash = "f29c9a3bbef17f0c3d362ea6bf7fa04c7b271e80ba651d6836b2598fbffffccc"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/textures/items/abyssine_ingot-layer0.png"
-hash = "20f2afbe5ef70fc06bd17bbd4d7e9ddf32214b50d07e82c42316380ebda8b316"
+hash = "623bec059654d772c161e4da8e086a1b5c281ffeed5fa631e18483933e87f989"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/textures/items/abyssine_ingot-layer0.png.mcmeta"
+hash = "23ce1e456b7cbffc7d622286696348ba327b251d13df7bd5f1e8f1df8214f3c7"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/textures/items/actinium_ingot-layer0.png"
@@ -6673,30 +6669,6 @@ file = "addons/Additions/GreedyCraft/assets/additions/textures/items/greedy_meda
 hash = "e7ec4bfac49d20ec0f3736c192ad4640b515ed5d54ffe35bbac7ce7a859a841f"
 
 [[files]]
-file = "addons/Additions/GreedyCraft/assets/additions/textures/items/greedycraft-abyssine_ingot-layer0.png"
-hash = "4087f135dcac7696767e44e6fa87885152a582c0dd519091dd43913ecdf418cd"
-
-[[files]]
-file = "addons/Additions/GreedyCraft/assets/additions/textures/items/greedycraft-cryonium_ingot-layer0.png"
-hash = "3751dbf432d040c81f2e31c1ca624248dc511140b8230e18a446214a998a2e0f"
-
-[[files]]
-file = "addons/Additions/GreedyCraft/assets/additions/textures/items/greedycraft-electronium_ingot-layer0.png"
-hash = "711715b6c796d3b72c9cc27891bd5f3ffc1441963f1d62dc4f408e895fe68c09"
-
-[[files]]
-file = "addons/Additions/GreedyCraft/assets/additions/textures/items/greedycraft-phoenixite_ingot-layer0.png"
-hash = "41e3e63d8a2d69838a1460fd8357eac4d49f9c35f9bac72834e2781d6133c733"
-
-[[files]]
-file = "addons/Additions/GreedyCraft/assets/additions/textures/items/greedycraft-phoenixite_ingot-layer0.png.mcmeta"
-hash = "90edf6ee79b83538cb6af8553e0d9a66c96f368f74af2fb5621166b29cb08e2d"
-
-[[files]]
-file = "addons/Additions/GreedyCraft/assets/additions/textures/items/greedycraft-protonium_ingot-layer0.png"
-hash = "68a5ea5c9ee2991f6a12e250ba4b449a21041b3e8103db4d8238923676666d37"
-
-[[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/textures/items/guaninite_ingot-layer0.png"
 hash = "81edb13aab0f45004fe29afc1cb0d67406e60cbf916eef9b75fc8b366b63030d"
 
@@ -7191,10 +7163,6 @@ hash = "afaae2b75c52e0f3dcb9e20943ded6af83566f65c7f826a8dd1e10ac43357154"
 [[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/textures/items/phoenixite_ingot-layer0.png"
 hash = "4fc6d6350afa978d33095c43d276a7f18d56df1e8f55be5235469c6a562d242a"
-
-[[files]]
-file = "addons/Additions/GreedyCraft/assets/additions/textures/items/phoenixite_ingot-layer0.png.mcmeta"
-hash = "5dc4e552a4cd1efa519f664bb465c5974660837f39053fa472ce3e182ff91d6c"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/textures/items/phosphorus_ingot-layer0.png"
@@ -9034,7 +9002,7 @@ hash = "85b0525a7f61274cccd535bd73165f5d8f2eae92d116861102d0663c8ab5dded"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/data/items/abyssine_ingot.json"
-hash = "e8b489ab572000612a76351b98382c94179eb84670924760d5955fbab02227e3"
+hash = "392d673443c0eaf814ed10ee17ca06f30cfa8dd44e9f7ef1b87f238dd9a152b9"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/data/items/actinium_ingot.json"
@@ -9594,7 +9562,7 @@ hash = "8da61bdac3bac28c8c5b2e28c88201c3052aa869e0e63c4849835586fa0d58ee"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/data/items/crude_hatchet.json"
-hash = "5381334d2de0d9beb02c4330e09e96356e0f05d73d4bf36190cda0230e85c671"
+hash = "7bf774125725fe0c64c01fe87b9fa14a94f404a0f2a92167ee86024b1975da53"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/data/items/cryonic_artifact.json"
@@ -10510,7 +10478,7 @@ hash = "d1fb636f06ea11271850a6f65ca2a245ffe4da68a077220d4694887ee15cad51"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/data/items/one_punch.json"
-hash = "ee2c0ac583d9ac53361177acefe25272b3220637c068daf482e6b7435fcbe27a"
+hash = "d099d99aeba409dc0be1f3200d450c4f55677d186759392c9d18c1b7b6b2d82f"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/data/items/oneo_ingot.json"
@@ -15838,7 +15806,7 @@ hash = "a7fc65f796d2dd502aacd05365cf3765facb7cf36fc8cd3e5fca10249c3732ec"
 
 [[files]]
 file = "config/bloodmagic/meteors/mist.json"
-hash = "15a3d25a4c4d7190a93dfa9f5ad8eb94b9f9d6d7688d6a479a599d7c2273ed52"
+hash = "b5572787939e0adb24b029af42051c62a2e50a37783ba082f1a5a721b85c7fef"
 
 [[files]]
 file = "config/bloodmagic/meteors/quartz.json"
@@ -29201,14 +29169,6 @@ file = "config/multiblocked/definition/controller/gct_mac_endest_steel_forge.jso
 hash = "d28f0e7ebfc78ec5afee1f1a76ba7c7aed46df32fcb55a9b838c8eeb1e87ba37"
 
 [[files]]
-file = "config/multiblocked/definition/controller/gct_mac_giant_smelter.json"
-hash = "acafd9308376147045d058af7fcf3b70539cb916c1ad2cbc39de7ceb5d64f056"
-
-[[files]]
-file = "config/multiblocked/definition/controller/gct_mac_impetus_forge.json"
-hash = "4074661bceb8a1bd9a984331f91f261d875001a9ce68c53ca8088063509da545"
-
-[[files]]
 file = "config/multiblocked/definition/controller/gct_mac_mana_reactor.json"
 hash = "ccfd16cae515418213779decb1a925a85a90a0d8a93d71cef3aaf693c174da00"
 
@@ -29231,14 +29191,6 @@ hash = "863af1db2ef67d55c950be52c82ddf8b849974f37d7465fa0b53fc5bc3f49f68"
 [[files]]
 file = "config/multiblocked/recipe_map/ender_forge.json"
 hash = "6f7197af731dc3746057372d28ba5de610effe44774002490a55ab823b8156f3"
-
-[[files]]
-file = "config/multiblocked/recipe_map/giant_smelter.json"
-hash = "af51aa25744ee02531a5bfda674459623c627c6b0002c16ea45c662701301847"
-
-[[files]]
-file = "config/multiblocked/recipe_map/impetus_forge.json"
-hash = "bcef98d0a3d9b2c4b6a4adc44f843e22544a029d6276072748a9f054b7aa6b15"
 
 [[files]]
 file = "config/multiblocked/recipe_map/mana_reactor.json"
@@ -31654,7 +31606,7 @@ hash = "220d9a01c90fefd35ff826f9d38ef1f169348c44828d2a9c27ab3e9dec0a2342"
 
 [[files]]
 file = "config/unifier.cfg"
-hash = "bd985eff701565ab9fc4340067531cd6bea28ed375d8dbd492a41d7d9a45f68b"
+hash = "265a106e2542675300715763c2d07caa89f2e3be58cfdceb4ad7459c57a14f48"
 
 [[files]]
 file = "config/uniq.cfg"
@@ -32741,11 +32693,6 @@ metafile = true
 [[files]]
 file = "mods/.index/hammer-lib.pw.toml"
 hash = "cf4618ad1b389bdbcfd9393b5899a08e53534dd0523d0b2de6c32651c84b78b8"
-metafile = true
-
-[[files]]
-file = "mods/.index/hardcore-item-stages.pw.toml"
-hash = "fda804539990f91af8ca3f1835ac9d3c6075e0d44bf4b49d16456c88775f3f38"
 metafile = true
 
 [[files]]
@@ -34218,6 +34165,10 @@ hash = "8f36c9e25ec7abe710b765da52b44142dbb3fc011ed01fc3d4d239220bd3e112"
 [[files]]
 file = "mods/eventtweaker-1.5.jar"
 hash = "eda163ee3321db7aa6f1e81800adb35d18bf05e1c7a545f82631016bae1cfe43"
+
+[[files]]
+file = "mods/hardcoreitemstages-1.0.5.jar"
+hash = "7b4f0016be2ab27fa0ddcb485fabe538fb65f725af1c1bbb442bbc9b4ecfae53"
 
 [[files]]
 file = "mods/homoium-1.0.8.jar"
@@ -39965,7 +39916,7 @@ hash = "38c7155b6986e4e860dade53c58f954b38974a5953ce065fe2e1e2d818bf20a6"
 
 [[files]]
 file = "scripts/contenttweaker/tconstruct/armor_traits.zs"
-hash = "602b56f9477aece1c56450e73baf88a00220ee48fb8e5dd6f7dfe8079d8af8d7"
+hash = "425800826c4bf81ea7a3957186165b4be98613bd05f63cf88f138310b5fc60be"
 
 [[files]]
 file = "scripts/contenttweaker/tconstruct/lazers_custom.zs"
@@ -39977,7 +39928,7 @@ hash = "d7962938d1a74e77ab7e7438d83ca7e440121f9a5548ea0399acdc4316761608"
 
 [[files]]
 file = "scripts/contenttweaker/tconstruct/tool_traits.zs"
-hash = "397b309936406625706d29770b5e362dfbeaca38950a9c71c749d0fe385ea915"
+hash = "a715a96fb7cc37355cbb53f7a79cabfad4de6acda6a89126bcaa9f3d19f03b0d"
 
 [[files]]
 file = "scripts/contenttweaker/totems/cure_totem.zs"
@@ -40049,7 +40000,7 @@ hash = "e264c7f99660cb4b59afb679e1df3dc126aa05ebe7797213131f24539753291c"
 
 [[files]]
 file = "scripts/events_and_commands/events/onPlayerLoggedIn.zs"
-hash = "104864ad17c558798fb202bbb0d65ad30eb518333f149b6cb3b944f190f89f77"
+hash = "8b3246f6d7415f8700b047fae4b4be6a5b30c36fe14d2cbebeb02378e2cb0760"
 
 [[files]]
 file = "scripts/events_and_commands/events/onPlayerPickupXp.zs"
