@@ -11,22 +11,14 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 
+import mods.jaopca.JAOPCA;
+
 import scripts.util.recipes as RecipeUtil;
 
-val compressingOreDict as string[] = [
-    "BlackholeAlloy",
-    "ClockAlloy",
-    "CreativeAlloy",
-    "CurseAlloy",
-    "KillerAlloy",
-    "MistAlloy",
-    "SharpenAlloy",
-    "TwilitAlloy",
-    "Zodiacite",
-    "Wavite",
-    "Dreamium",
-    "Ignite"
-];
+var compressingOreDict as string[] = [];
+for name in JAOPCA.getMaterialsForType("INGOT") {
+    compressingOreDict += name.name;
+}
 
 for od in compressingOreDict {
     var ingotOd as IOreDictEntry = oreDict.get("ingot" + od);
