@@ -1323,7 +1323,6 @@ GameStagesUtil.stageEpicWizard.addIngredients([
     <thaumadditions:shadow_enchanter>,
     <thaumicwonders:flux_capacitor>,
     <thaumicwonders:coalescence_matrix>,
-    <gct_mac:impetus_forge>,
     <gct_mobs:ruin_holder>,
     <gct_mobs:void_seed_container>,
     <gct_mobs:primordial_portal_holder_up>,

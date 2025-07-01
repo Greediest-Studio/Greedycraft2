@@ -314,20 +314,4 @@ Infusion.registerRecipe("essentia_component", "", <thaumicenergistics:essentia_c
     <gct_ores:order_crystal>
 ]);
 
-Infusion.registerRecipe("giant_smelter", "", <gct_mac:giant_smelter>, 10, [
-    <aspect:caeles> * 1000, 
-    <aspect:praecantatio> * 1000, 
-    <aspect:desiderium> * 1000, 
-    <aspect:machina> * 1000
-], <thaumadditions:mithrillium_smelter>, [
-    <additions:creative_shard>, 
-    <packagedthaumic:virial_chamber>, 
-    <jaopca:gear.impetusite>,
-    <additions:extended_primal_metal_ingot>, 
-    <thaumicaugmentation:material:3>,
-    <additions:infernium_block>,
-    <jaopca:gear.flux>,
-    <thaumicenergistics:essentia_component_64k>
-]);
-
 //Infusion.registerRecipe("");
