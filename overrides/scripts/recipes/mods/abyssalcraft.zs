@@ -182,13 +182,3 @@ InfusionRitual.removeRitual(<ageofminecraft:fusionjzahar>);
 InfusionRitual.removeRitual(<ageofminecraft:fusionsacthoth>);
 
 Rituals.removeRitual("changeRitual");
-
-Materializer.addCrystal(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "coralos"}]}));
-Materializer.addCrystal(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "dreadia"}]}));
-Materializer.addCrystal(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "abyss"}]}));
-
-Materializer.addMaterialization(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "cthulhu"}]}), [
-    <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "coralos"}]}),
-    <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "dreadia"}]}),
-    <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "abyss"}]})
-]);

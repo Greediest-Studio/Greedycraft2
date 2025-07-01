@@ -52,7 +52,8 @@
             "stages": [
                 {
                     "text": "tc.research.SANCHECK.stage.1",
-                    "required_craft": ["gct_aby:sanity_observer"]
+                    "required_craft": ["gct_aby:sanity_observer"],
+                    "recipes": ["gct_aby:sanity_observer"]
                 }
             ]
         },
@@ -66,7 +67,8 @@
             "stages": [
                 {
                     "text": "tc.research.MINDFRUIT.stage.1",
-                    "required_item": ["gct_aby:fruit_of_mind_enchanted"]
+                    "required_craft": ["gct_aby:fruit_of_mind"],
+                    "recipes": ["gct_aby:fruit_of_mind", "gct_aby:fruit_of_mind_enchanted"]
                 }
             ]
         },
@@ -80,7 +82,8 @@
             "stages": [
                 {
                     "text": "tc.research.SHOGGOTH_COMPLEX_CRYSTAL.stage.1",
-                    "required_craft": ["gct_aby:shoggoth_complex_crystal"]
+                    "required_craft": ["gct_aby:shoggoth_complex_crystal"],
+                    "recipes": ["gct_aby:shoggoth_complex_crystal"]
                 },
                 {
                     "text": "tc.research.SHOGGOTH_COMPLEX_CRYSTAL.stage.2"
@@ -97,7 +100,8 @@
             "stages": [
                 {
                     "text": "tc.research.SHOGGOTH_MUD_COLLECTION.stage.1",
-                    "required_craft": ["gct_aby:sanite_siphon"]
+                    "required_craft": ["gct_aby:sanite_siphon"],
+                    "recipes": ["gct_aby:sanite_siphon"]
                 },
                 {
                     "text": "tc.research.SHOGGOTH_MUD_COLLECTION.stage.2",
@@ -144,7 +148,74 @@
             "parents": ["ABYSSISM_MOBS"],
             "stages": [
                 {
-                    "text": "tc.research.ABYSSISM_MOBS_SHOGGOTH.stage.1"
+                    "text": "tc.research.ABYSSISM_MOBS_SHOGGOTH.stage.1",
+                    "required_research": [
+                        "LESSER_SHOGGOTH_ACTIVE;ageofminecraft:textures/items/abyssalcraft/shoggoth.png"
+                    ]
+                },
+                {
+                    "text": "tc.research.ABYSSISM_MOBS_SHOGGOTH.stage.2",
+                    "required_research": [
+                        "MIXTURE_SHOGGOTH;ageofminecraft:textures/items/abyssalcraft/shoggoth.png"
+                    ]
+                },
+                {
+                    "text": "tc.research.ABYSSISM_MOBS_SHOGGOTH.stage.3",
+                    "warp": 5
+                }
+            ]
+        },
+        {
+            "key": "ABYSS_WAND",
+            "name": "tc.research.ABYSS_WAND.name",
+            "icons": ["gct_aby:abyss_wand"],
+            "category": "ABYSSISM",
+            "location": [8, 2],
+            "parents": ["SHOGGOTH_COMPLEX_CRYSTAL"],
+            "stages": [
+                {
+                    "text": "tc.research.ABYSS_WAND.stage.1",
+                    "required_research": [
+                        "ABYSS_WAND;gct_aby:textures/items/sanite_controller.png"
+                    ]
+                }
+            ]
+        },
+        {
+            "key": "MUDDY_FLESH",
+            "name": "tc.research.MUDDY_FLESH.name",
+            "icons": ["gct_aby:muddy_flesh"],
+            "category": "ABYSSISM",
+            "location": [8, -2],
+            "parents": ["ABYSS_WAND", "SHOGGOTH_MUD_COLLECTION"],
+            "stages": [
+                {
+                    "text": "tc.research.MUDDY_FLESH.stage.1"
+                },
+                {
+                    "text": "tc.research.MUDDY_FLESH.stage.2",
+                    "required_item": ["gct_aby:muddy_flesh"],
+                    "warp": 5
+                }
+            ]
+        },
+        {
+            "key": "BLOODY_SHOGGOTH",
+            "name": "tc.research.BLOODY_SHOGGOTH.name",
+            "icons": ["abyssalcraft:dreadshard"],
+            "category": "ABYSSISM",
+            "location": [-9, 0],
+            "parents": ["ABYSSISM_MOBS_SHOGGOTH"],
+            "stages": [
+                {
+                    "text": "tc.research.BLOODY_SHOGGOTH.stage.1",
+                    "required_research": [
+                        "BLOODYSHOGGOTH;abyssalcraft:textures/items/dsoa.png"
+                    ]
+                },
+                {
+                    "text": "tc.research.BLOODY_SHOGGOTH.stage.2",
+                    "warp": 10
                 }
             ]
         }

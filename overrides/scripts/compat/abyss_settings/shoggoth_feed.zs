@@ -24,11 +24,11 @@ events.onPlayerInteractEntity(function(event as PlayerInteractEntityEvent) {
             if (player.currentItem.definition.id == "gct_aby:muddy_flesh" && entity.definition.id == <entity:abyssalcraft:lessershoggoth>.id) {
                 if (Math.random() < 0.5) {
                     player.currentItem.mutable().shrink(1);
-                    player.sendMessage("§e成功去凝胶化！");
+                    player.sendMessage("§e成功活化！");
                     world.removeEntity(entity);
                     Commands.call("summon ageofabyssalcraft:lessershoggothhelpful " ~ pos.x ~ " " ~ pos.y ~ " " ~ pos.z, player, world, false, true);
                 } else {
-                    player.sendMessage("§c啊哦，去凝胶化失败了！");
+                    player.sendMessage("§c啊哦，活化失败了！");
                 }
             }
         }

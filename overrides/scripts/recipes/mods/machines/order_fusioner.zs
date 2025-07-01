@@ -68,6 +68,13 @@ RecipeBuilder.newBuilder("fusion_solar_panel_order", "order_fusioner", 256)
     .addItemOutput(<solarflux:custom_solar_panel_solar_panel_order> * 4)
     .build();
 
+RecipeBuilder.newBuilder("fusion_shoggy_slime_purified", "order_fusioner", 256)
+    .addItemInput(<gct_aby:shoggy_slime>)
+    .addItemInput(<ore:slimecrystalGod> * 8)
+    .addEnergyPerTickInput(565800000)
+    .addItemOutput(<gct_aby:shoggy_slime_purified>)
+    .build();
+
 //攻击伤害
 var evolvedUpdatableAttackDamage as IItemStack[] = [
     <moretcon:blaxe>,
