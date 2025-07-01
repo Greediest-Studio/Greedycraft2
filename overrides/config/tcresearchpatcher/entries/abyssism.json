@@ -218,6 +218,24 @@
                     "warp": 10
                 }
             ]
+        },
+        {
+            "key": "ANCIENT_SHOGGOTH",
+            "name": "tc.research.ANCIENT_SHOGGOTH.name",
+            "icons": ["gct_aby:ancient_shoggoth_mud"],
+            "category": "ABYSSISM",
+            "location": [-12, 0],
+            "parents": ["BLOODY_SHOGGOTH"],
+            "stages": [
+                {
+                    "text": "tc.research.ANCIENT_SHOGGOTH.stage.1",
+                    "required_item": ["gct_aby:ancient_shoggoth_mud"]
+                },
+                {
+                    "text": "tc.research.ANCIENT_SHOGGOTH.stage.2",
+                    "warp": 10
+                }
+            ]
         }
     ]
 }
