@@ -907,18 +907,6 @@ for i in 4 to 7 {
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:primordial_creater"}))
         .build();
 }
-//阿斯加德之门
-for i in 4 to 7 {
-    RecipeBuilder.newBuilder("asgard_portal_creater" + i, "builder_" + i, 1200)
-        .addFluidInput(<liquid:redstone> * 30600)
-        .addItemInput(<jaopca:plate.botanical_awakened> * 1)
-        .addItemInput(<gct_ores:orichalcos_machine_frame> * 16)
-        .addItemInput(<extrabotany:material:3> * 1)
-        .addEnergyPerTickInput(120)
-        .addItemOutput(<modularmachinery:asgard_portal_controller>)
-        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:asgard_portal"}))
-        .build();
-}
 //复合装配体
 for i in 4 to 7 {
     RecipeBuilder.newBuilder("factory_giant" + i, "builder_" + i, 1200)
@@ -992,20 +980,6 @@ for i in 3 to 7 {
         .addEnergyPerTickInput(1000)
         .addItemOutput(<modularmachinery:fallen_star_controller>)
         .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fallen_star"}))
-        .build();
-}
-//符文矩阵
-for i in 3 to 7 {
-    RecipeBuilder.newBuilder("infusion_matrix" + i, "builder_" + i, 800)
-        .addFluidInput(<liquid:redstone> * 256000)
-        .addItemInput(<jaopca:plate.cursium>)
-        .addItemInput(<thaumcraft:plate:3>*64)
-        .addItemInput(<packagedthaumic:clathrate_essence_materializer>*2)
-        .addItemInput(<packagedthaumic:infusion_crafter>*2)
-        .addItemInput(<thaumcraft:salis_mundus>*256)
-        .addEnergyPerTickInput(1000)
-        .addItemOutput(<modularmachinery:infusion_matrix_machine_controller>)
-        .addItemOutput(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:infusion_matrix_machine"}))
         .build();
 }
 //物质解压器

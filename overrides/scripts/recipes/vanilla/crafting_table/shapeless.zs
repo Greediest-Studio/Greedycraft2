@@ -498,12 +498,6 @@ RecipeUtil.addShapelessOf("rock_crystal_compress", <astralsorcery:blockcustomore
 RecipeUtil.addShapeless("manacell256k", <crazyae:mana_cell_256k>, 
     [<appliedenergistics2:material:39>,<crazyae:material:22>]
 );
-RecipeUtil.addShapeless("ball7", <modularmachinery:draconic_7ball_factory_controller>, 
-    [<draconicevolution:draconium_ingot>]
-);
-RecipeUtil.addShapeless("ball8", <modularmachinery:draconic_8ball_controller>, 
-    [<draconicevolution:draconic_ingot>]
-);
 
 /* Template
 
