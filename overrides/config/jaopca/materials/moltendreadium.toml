@@ -3,7 +3,7 @@
 	#The module blacklist of this material. "*" is an alias for all modules. If a module name occurs an odd number of times (including wildcards), then the module is blacklisted.
 	moduleBlacklist = []
 	#The alternative names of this material.
-	alternativeNames = []
+	alternativeNames = ["Dreadium"]
 	#The color of this material.
 	color = 10682766
 	#The byproducts of this material.

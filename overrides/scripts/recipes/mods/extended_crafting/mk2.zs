@@ -316,3 +316,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:tritransmutor
 	[<thaumcraft:tube>, <ore:blockCthulhurite>, <ore:ingotAdaminite>, <ore:blockCthulhurite>, <thaumcraft:tube>], 
 	[<ore:blockModularium>, <ore:blockModularium>, <thaumadditions:aspect_combiner>, <ore:blockModularium>, <ore:blockModularium>]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:consciousness_brain>, [
+	[null, <ore:rottenFlesh>, <ore:ingotScientificite>, <ore:rottenFlesh>, null], 
+	[<ore:listAllmeatraw>, <gct_aby:ancient_shoggoth_mud>, <ore:heartContainer>, <gct_aby:ancient_shoggoth_mud>, <ore:listAllmeatraw>], 
+	[<ore:listAllmeatraw>, <gct_aby:ancient_shoggoth_mud>, <thaumcraft:brain>, <gct_aby:ancient_shoggoth_mud>, <ore:listAllmeatraw>], 
+	[<ore:listAllmeatraw>, <gct_aby:ancient_shoggoth_mud>, <ore:ingotFinallium>, <gct_aby:ancient_shoggoth_mud>, <ore:listAllmeatraw>], 
+	[null, <ore:rottenFlesh>, <ore:ingotScientificite>, <ore:rottenFlesh>, null]
+]);

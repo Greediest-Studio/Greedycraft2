@@ -645,7 +645,6 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:ingotFalsite> : [<blue_skies:falsite_ingot>],
     <ore:ingotHorizonite> : [<blue_skies:horizonite_ingot>],
     <ore:oreHorizonite> : [<blue_skies:horizonite_ore>],
-    <ore:dustMoltendreadium> : [<acintegration:dust:2>],
     <ore:ingotMoltendreadium> : [<abyssalcraft:dreadiumingot>],
     <ore:blockMoltendreadium> : [<abyssalcraft:ingotblock:2>],
     <ore:crystalClusterMoltendreadium> : [<abyssalcraft:crystalcluster:14>],

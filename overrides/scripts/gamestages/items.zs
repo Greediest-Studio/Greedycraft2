@@ -460,7 +460,6 @@ GameStagesUtil.stageNether.addIngredients([
     <abyssalcraft:cingot>,
     <abyssalcraft:ingotblock:1>,
     <abyssalcraft:ingotnugget:1>,
-    <acintegration:dust:1>,
     <additions:refined_twilight_gem>,
     <additions:iciricium_scroll>,
     <additions:gem_of_sing>,
