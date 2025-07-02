@@ -1,5 +1,6 @@
 {
 	title: "§b灵之主",
+	icon: "gct_aby:shoggothtooth",
 	x: -15.0d,
 	y: -4.5d,
 	description: "召唤并击杀远古修格斯",
@@ -14,7 +15,14 @@
 	tasks: [{
 		uid: "57ac11f6",
 		type: "kill",
-		icon: "minecraft:diamond_sword",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "gct_aby:ancientshoggoth"
+				}
+			}
+		},
 		entity: "gct_aby:ancientshoggoth",
 		value: 1L
 	},

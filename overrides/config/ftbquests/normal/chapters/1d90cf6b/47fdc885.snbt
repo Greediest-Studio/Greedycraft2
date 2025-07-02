@@ -3,21 +3,6 @@
 	icon: {
 		id: "tconstruct:pickaxe",
 		tag: {
-			Special: {
-				Categories: [
-					"harvest",
-					"tool",
-					"aoe"
-				]
-			},
-			Stats: {
-				FreeModifiers: 5,
-				MiningSpeed: 15.3f,
-				AttackSpeedMultiplier: 1.0f,
-				HarvestLevel: 5,
-				Attack: 11.5f,
-				Durability: 7280
-			},
 			TinkerData: {
 				Materials: [
 					"durasteel",
@@ -26,6 +11,21 @@
 				],
 				Modifiers: [
 					"toolleveling"
+				]
+			},
+			Stats: {
+				MiningSpeed: 15.3f,
+				FreeModifiers: 5,
+				AttackSpeedMultiplier: 1.0f,
+				HarvestLevel: 5,
+				Attack: 11.5f,
+				Durability: 7280
+			},
+			Special: {
+				Categories: [
+					"harvest",
+					"tool",
+					"aoe"
 				]
 			},
 			Modifiers: [{
@@ -49,8 +49,8 @@
 				level: 1
 			}],
 			StatsOriginal: {
-				FreeModifiers: 3,
 				MiningSpeed: 15.3f,
+				FreeModifiers: 3,
 				AttackSpeedMultiplier: 1.0f,
 				HarvestLevel: 5,
 				Attack: 11.5f,

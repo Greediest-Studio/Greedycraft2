@@ -14,12 +14,7 @@
 	tasks: [{
 		uid: "d2f8815a",
 		type: "kill",
-		icon: {
-			id: "ageofminecraft:witherstorm",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
-		},
+		icon: "gct_ores:stormy_shard_block",
 		entity: "ageofminecraft:witherstormbosshelpful",
 		value: 1L
 	}],

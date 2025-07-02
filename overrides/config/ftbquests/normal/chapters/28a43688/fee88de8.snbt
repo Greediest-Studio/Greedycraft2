@@ -1,5 +1,6 @@
 {
 	title: "§b混沌分裂者",
+	icon: "draconicevolution:chaos_shard",
 	x: -10.0d,
 	y: 8.5d,
 	shape: "gear",
@@ -17,7 +18,7 @@
 	tasks: [{
 		uid: "45a313f1",
 		type: "kill",
-		icon: "ageofminecraft:chaosguardian",
+		icon: "contenttweaker:chaos_heart",
 		entity: "draconicevolution:chaosguardian",
 		value: 1L
 	},

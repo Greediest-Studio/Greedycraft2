@@ -1,8 +1,12 @@
 {
-	title: "【可重复】DEBUG凋零风暴",
+	title: "§c【可重复】 DEBUG凋灵风暴",
 	icon: "minecraft:repeating_command_block",
-	x: -3.5d,
+	x: -2.5d,
 	y: 0.0d,
+	description: "用这种方法可以速刷凋灵风暴",
+	text: [
+		""
+	],
 	can_repeat: 1b,
 	dependencies: [
 		"0b8258e7"

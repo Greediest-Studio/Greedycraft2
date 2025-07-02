@@ -14,12 +14,7 @@
 	tasks: [{
 		uid: "85b50825",
 		type: "kill",
-		icon: {
-			id: "ageofminecraft:jzahar",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
-		},
+		icon: "abyssalcraft:statue 1 2",
 		entity: "abyssalcraft:jzahar",
 		value: 1L
 	}],

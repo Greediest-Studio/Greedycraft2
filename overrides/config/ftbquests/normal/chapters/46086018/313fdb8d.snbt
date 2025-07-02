@@ -1,9 +1,11 @@
 {
 	title: "§b无上荣耀",
 	icon: {
-		id: "ageofminecraft:witherboss",
-		ForgeCaps: {
-			"customnpcs:itemscripteddata": {}
+		id: "minecraft:spawn_egg",
+		tag: {
+			EntityTag: {
+				id: "ageofminecraft:witherbosshelpful"
+			}
 		}
 	},
 	x: 6.0d,
@@ -26,7 +28,14 @@
 	{
 		uid: "9948b3ed",
 		type: "kill",
-		icon: "ageofminecraft:witherboss",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "ageofminecraft:witherbosshelpful"
+				}
+			}
+		},
 		entity: "minecraft:wither",
 		value: 1L
 	}],
