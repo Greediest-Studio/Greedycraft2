@@ -36,34 +36,3 @@ FoodCreate('kusa',1,0.5);
 FoodCreate('apple_carrot',8,0.3);
 //复现胡萝卜苹果
 FoodCreate('carrot_apple',8,0.3);
-
-//复现Food Expansion
-FoodCreate("bacon", 1, 0.2);
-FoodCreate("cookedbacon", 3, 0.4);
-FoodCreate("friedegg", 2, 0.3);
-FoodCreate("baconandegg", 7, 0.8);
-FoodCreate("squid", 1, 0.2);
-FoodCreate("cookedsquid", 3, 0.5);
-FoodCreate("compressedflesh", 6, 0.2);
-FoodCreate("chocolatebar", 8, 1.0);
-FoodCreate("cactusfruit", 1, 0.1);
-FoodCreate("horsemeat", 3, 0.3);
-FoodCreate("cookedhorsemeat", 8, 0.8);
-FoodCreate("cookedmushroom", 2, 0.2);
-FoodCreate("carrotpie", 8, 0.8);
-FoodCreate("roastedseed", 1, 0.1);
-FoodCreate("wolfmeat", 2, 0.3);
-FoodCreate("cookedwolfmeat", 6, 0.7);
-FoodCreate("ocelotmeat", 2, 0.3);
-FoodCreate("cookedocelotmeat", 6, 0.7);
-FoodCreate("parrotmeat", 2, 0.3);
-FoodCreate("cookedparrotmeat", 6, 0.7);
-FoodCreate("llamameat", 2, 0.3);
-FoodCreate("cookedllamameat", 7, 0.8);
-FoodCreate("polarbearmeat", 3, 0.3);
-FoodCreate("cookedpolarbearmeat", 8, 0.8);
-FoodCreate("lollipop", 4, 0.5);
-//返还碗
-FoodCreateBowl("beetrootnoodles", 6, 0.6);
-FoodCreateBowl("melonsalad", 6, 0.6);
-FoodCreateBowl("carrotseedsoup", 8, 0.8);

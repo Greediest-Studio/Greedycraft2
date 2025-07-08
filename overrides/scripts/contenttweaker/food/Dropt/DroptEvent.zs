@@ -28,12 +28,3 @@ function addDropt(entityname as string,uncooked as IItemStack,cooked as IItemSta
         }
     });
 }
-
-addDropt("minecraft:wolf",<contenttweaker:wolfmeat>,<contenttweaker:cookedwolfmeat>,2);
-addDropt("minecraft:squid",<contenttweaker:squid>,<contenttweaker:cookedsquid>,2);
-addDropt("minecraft:horse",<contenttweaker:horsemeat>,<contenttweaker:cookedhorsemeat>,2);
-addDropt("minecraft:bat",<contenttweaker:batwing>,<contenttweaker:cookedbatwing>,1);
-addDropt("minecraft:ocelot",<contenttweaker:ocelotmeat>,<contenttweaker:cookedocelotmeat>,1);
-addDropt("minecraft:parrot",<contenttweaker:parrotmeat>,<contenttweaker:cookedparrotmeat>,1);
-addDropt("minecraft:llama",<contenttweaker:llamameat>,<contenttweaker:cookedllamameat>,2);
-addDropt("minecraft:polar_bear",<contenttweaker:polarbearmeat>,<contenttweaker:cookedpolarbearmeat>,3);
