@@ -1,0 +1,52 @@
+itemGroup.modularmachineryaddons=模块化机械附加
+
+tile.modularmachineryaddons.blockradiationprovideroutput.name=辐射输出仓
+tile.modularmachineryaddons.blockradiationproviderinput.name=辐射输入仓
+tile.modularmachineryaddons.blockmeessentiainputbus.name=ME机械源质输入仓
+tile.modularmachineryaddons.blockmeessentiaoutputbus.name=ME机械源质输出仓
+tile.modularmachineryaddons.blockmeteorprovideroutput.name=坠星执行仓
+tile.modularmachineryaddons.blockwillmultichunkproviderinput.name=多区块意志输入仓
+tile.modularmachineryaddons.blockwillmultichunkprovideroutput.name=多区块意志输出仓
+tile.modularmachineryaddons.blockfluxproviderinput.name=咒波输入仓
+tile.modularmachineryaddons.blockfluxprovideroutput.name=咒波输出仓
+tile.modularmachineryaddons.blockvisproviderinput.name=Vis输入仓
+tile.modularmachineryaddons.blockvisprovideroutput.name=Vis输出仓
+tile.modularmachineryaddons.blockscrubberproviderinput.name=辐射净化仓
+tile.modularmachineryaddons.blockbiomeproviderinput.name=生物群系检测仓
+tile.modularmachineryaddons.blockdimensionproviderinput.name=维度检测仓
+
+item.modularmachineryaddons.itemadvancedconstructtool.name=增强选择工具
+
+# errors
+error.modularmachineryaddons.component.invalid.biome=缺少生物群系检测仓！
+error.modularmachineryaddons.component.invalid.dimension=缺少维度检测仓！
+error.modularmachineryaddons.component.invalid.essentia=缺少源质交互仓！
+error.modularmachineryaddons.component.invalid.vis=缺少Vis交互仓！
+error.modularmachineryaddons.component.invalid.flux=缺少咒波交互仓！
+error.modularmachineryaddons.component.invalid.scrubber=缺少辐射净化仓！
+error.modularmachineryaddons.component.invalid.radiation=缺少辐射交互仓！
+error.modularmachineryaddons.component.invalid.will=缺少意志交互仓！
+error.modularmachineryaddons.component.invalid.meteor=缺少坠星执行仓！
+
+# requirement check fails
+error.modularmachineryaddons.requirement.missing.multichunk.input=缺少多区块输入！
+error.modularmachineryaddons.requirement.missing.multichunk.output=没有足够的位置进行多区块输出！
+
+error.modularmachineryaddons.requirement.missing.essentia.input=缺少源质输入！
+error.modularmachineryaddons.requirement.missing.essentia.output=没有足够的位置进行源质输出！
+
+error.modularmachineryaddons.requirement.missing.biome=生物群系错误！
+error.modularmachineryaddons.requirement.missing.dimension=维度错误！
+
+error.modularmachineryaddons.requirement.missing.meteor.alive=坠星依旧存在！
+error.modularmachineryaddons.requirement.missing.meteor=视线被遮挡！（最多允许一个方块）
+error.modularmachineryaddons.requirement.missing.meteor.missing=坠星执行仓无法工作！（你不应该看到此消息）
+
+
+# items
+item.modularmachineryaddons.advancedconstructtool.tooltip=选择两个角，然后单击机械控制器以提取整个多方块结构。选择第三个方块将清除选择。
+
+# messages
+message.modularmachineryaddons.advancedconstructtool.cleared=清除工具选择区域！
+message.modularmachineryaddons.advancedconstructtool.invalid.selection=请选择两个角！
+message.modularmachineryaddons.advancedconstructtool.selection=成功选定角！
