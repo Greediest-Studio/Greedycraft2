@@ -4505,6 +4505,42 @@ file = "addons/Additions/GreedyCraft/assets/additions/models/item/unshapable_mat
 hash = "f99bc520de46ebf90d2754bd6530ebfdf9f776ecffdfb726cb890ee0b92f598e"
 
 [[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/models/item/upgrade_aeonsteel.json"
+hash = "61bb35d144faee12ecd280a26e2bd381364a3433957804ebf250bfa2c2a61e82"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/models/item/upgrade_chromasteel.json"
+hash = "1789a937fa531b3fbd9b0db26222df50be227543e88eefd383315b91acffca5c"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/models/item/upgrade_cosmilite.json"
+hash = "819430a6a26b650f579358a2707fd686af96d739925b5124a7e893f38c5a7946"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/models/item/upgrade_durasteel.json"
+hash = "d85d68b35a527d7e03624372e4b0c86b49aa2a803556e570f60ed65b51cc35eb"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/models/item/upgrade_efficiency.json"
+hash = "3709f3ddf12b51f88bc53a4e0a06dd948bf5243fdcc8f3d2bda9258e823c9179"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/models/item/upgrade_energy.json"
+hash = "e67fa4dd919eef632cdb5f00f2a25a4661d313f949599d20230f96a24f1a6670"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/models/item/upgrade_finallium.json"
+hash = "72ca01bd113450957707787b3c484103975771606fb79dd8ee5690799f9cdf0e"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/models/item/upgrade_stainless_steel.json"
+hash = "45b500428cb9f3f711cdeb8a645f80938a6b4d9b71d6069bb6d615afce5d12ea"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/models/item/upgrade_wavite.json"
+hash = "c9c9b148948f7d37c172f4d1be49df5f1181c4c7795411cf8743feeb7557c264"
+
+[[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/models/item/uracilite_ingot.json"
 hash = "088c8aaf430d3172da976b4c3848238c57fadab85c52a170e80dd70318e46190"
 
@@ -7857,6 +7893,46 @@ file = "addons/Additions/GreedyCraft/assets/additions/textures/items/unshapable_
 hash = "505dfbaaa7a435fc4e6d6a5089be0a8d484a09fc3e912c2253245875159d59b8"
 
 [[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/textures/items/upgrade_aeonsteel-layer0.png"
+hash = "185350faae7072b7efb2c14dc8ebb8e9405fe65c53ab8953f6f6a46b3b506520"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/textures/items/upgrade_chromasteel-layer0.png"
+hash = "17a5e6dd9c3240cf202620588af754c06d72b7c635a017668a2c40cae46a296a"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/textures/items/upgrade_chromasteel-layer0.png.mcmeta"
+hash = "c5c413f48519f09dd4a01d7b4d1ded298e90946f16c354b42c09a4feb371531e"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/textures/items/upgrade_cosmilite-layer0.png"
+hash = "fdd15086d401056a5f015bcf1549593d861d03555a20c4eca01fb41fc3307a71"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/textures/items/upgrade_durasteel-layer0.png"
+hash = "ed4a4436040ed99fc318841a44f5fe8aac18c6db07e30f5efb0f4b338cd36228"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/textures/items/upgrade_efficiency-layer0.png"
+hash = "43f978efa65622d5b0511c29acc0d6748ea896df826f7deae306a36c3419c0c1"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/textures/items/upgrade_energy-layer0.png"
+hash = "d7bcf75671eb506fd553c52fe0f0a1e51ceb25a0ba89078d6799607e7b3b5eae"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/textures/items/upgrade_finallium-layer0.png"
+hash = "31595bcf56602b412e28aaccd07d6447e92ba5a37509a4a8e26a79457acc7cf4"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/textures/items/upgrade_stainless_steel-layer0.png"
+hash = "2af967c042d0e8b69f8a6d4d235f17f42a95a50d90d62b4e0165801d3bb747c3"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/textures/items/upgrade_wavite-layer0.png"
+hash = "e8dedcbdf40ebcfcb0ae3d108ac86a6ce2d6ec64d6ee59ebf411d9651ba00247"
+
+[[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/textures/items/uracilite_ingot-layer0.png"
 hash = "7dadca1867d8505ebfc48c1c657828cbd4ab9e77ac1dc06c028a339a02843094"
 
@@ -11175,6 +11251,42 @@ hash = "245ee7a907773d79ccbd326c44596d7a791265ccd4bad8f572af0f4deb5beb48"
 [[files]]
 file = "addons/Additions/GreedyCraft/data/items/unshapable_matter.json"
 hash = "b32feaded892acb6d42c38db1d5dc4f7b1536a7999fc39e3d0704a2f7568857e"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/data/items/upgrade_aeonsteel.json"
+hash = "7c5a4fd0c14c702698b350308c4c0558574a33fb90125243e7779bd1e6f8d95a"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/data/items/upgrade_chromasteel.json"
+hash = "70407af152675637bc4d212a10d1fd103e732db75e79be477f379801781ad423"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/data/items/upgrade_cosmilite.json"
+hash = "669c6f52e75e10b68b20e19e4b71d4fc66707111b30a80d8f6d6c057020c7841"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/data/items/upgrade_durasteel.json"
+hash = "21c09c275d85f198c59a57681556c8ec3a0a03407d4d08dad98eefb39e62e2a7"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/data/items/upgrade_efficiency.json"
+hash = "ea749e5c73a5e7f95525901582c1f6ca3cde9d52dd6e7eebc7fa0ca8b1ed4d2c"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/data/items/upgrade_energy.json"
+hash = "5cbf03f1c51aa85f934953a2bee7d59514dc8ced7016a7fb7f91f1667dfce1a4"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/data/items/upgrade_finallium.json"
+hash = "cf690a6e03b9c56cc8e7df43084c4dddc2c3bab933f7f709312ee613814918f9"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/data/items/upgrade_stainless_steel.json"
+hash = "fdd39dd1d7ea3666d336a9711b2bdffd0fd3c6d542345d2b68c2bd8df9cb0f15"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/data/items/upgrade_wavite.json"
+hash = "775941ceff988ad2ada6eb27141935712086d08c2719bb821a33edba4bf3e9bb"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/data/items/uracilite_ingot.json"
@@ -31650,7 +31762,7 @@ hash = "07a2847eb38728a2fbda5b8a9a5490e116781c37b4c35518557af4d8b07883db"
 
 [[files]]
 file = "mods/.index/abyssalcraft.pw.toml"
-hash = "79b4cb5d5f8e9a0d54c2fd578243e725070a06820df9b85648a684cb62d2b800"
+hash = "ca49997b793bb3c23ab22d1ed8f71407b556233582cfdae26bf9debc0affa46d"
 metafile = true
 
 [[files]]
@@ -31710,7 +31822,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/ae2uel-wireless-universal-terminal.pw.toml"
-hash = "0e534f7dc435b20324d21fb74934b0117015cb6d9252fb3211ed2c7324467ac2"
+hash = "18858f1451b8d4031be515b576b68025114bdafae3fe8947299ac3d26e4c2456"
 metafile = true
 
 [[files]]
@@ -32120,7 +32232,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/cleanroom-relauncher-unofficial.pw.toml"
-hash = "b759f492c6f5c4d77cb3c4605c664fc37484406f4c6cb5d555831fb5cd54cd60"
+hash = "09b5802991844f3ca59cce4f0d5b1fbba8655a64ccbce14a1e1978f27c053df3"
 metafile = true
 
 [[files]]
@@ -32260,7 +32372,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/customfishing.pw.toml"
-hash = "016b4356628481abbd6859706abe776c0db2f5728bf910bed23bd9675382d3bc"
+hash = "ec08f95f67d61e976418e360e178eba0ad76cd54d015955a9c5962422f28c5dc"
 metafile = true
 
 [[files]]
@@ -32420,7 +32532,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/extended-crafting-terminals-for-applied.pw.toml"
-hash = "0b7714911f7d01aaea1061eda4d20204d42a5477b251c5931bb312d7b519b695"
+hash = "c378ae7271c187dd0177abf983d891664a3d600e8833f211c82268cd57d00003"
 metafile = true
 
 [[files]]
@@ -32495,7 +32607,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/forgelin-continuous.pw.toml"
-hash = "02ff2c5bcdfe0ed7d7e7c3f88da0a35f855491901bedb9b0ad6f897df4ad0fba"
+hash = "80afddac6d73ecd4bd2ada3cad1dd187cc5396b4d3538968a3675089c5e0a486"
 metafile = true
 
 [[files]]
@@ -32520,7 +32632,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/fugue.pw.toml"
-hash = "f628a30d9acad256c5a5312efb79e0edbbe699ea73c32acc024878f2b5c9a8d3"
+hash = "88295e9aad606850288bda79fc5353acdcba70eb7050388f5fcc0e8d31a7f875"
 metafile = true
 
 [[files]]
@@ -32650,7 +32762,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/inventory-bogosorter.pw.toml"
-hash = "fbc33eb5ed391842b8cd6ca271606f28d36d88093cd55b850389c669f6168300"
+hash = "d7961a9ee9eaf2ab8178f92fb7cbd9a7aeb221b79660770a44d0716d5f82ba7d"
 metafile = true
 
 [[files]]
@@ -32885,7 +32997,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/mekanism-ce-unofficial.pw.toml"
-hash = "855ded45444cd7297cb9c7773be78929c98559c53c279ad6084e01ca4938ec74"
+hash = "dcc9ca12d62aa8a4e204607bb2b48e103f77f58997104d6ba514003ceb028648"
 metafile = true
 
 [[files]]
@@ -32970,7 +33082,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/modularui.pw.toml"
-hash = "7288956db5731ae8f5c5a81df922124c172000416c1e02a44f85ac2acf7276fc"
+hash = "b6687ee824c3aab78a9ef39d1c690345cfdef25723649f0fe8bfbb1da7d99612"
 metafile = true
 
 [[files]]
@@ -33010,7 +33122,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/mrcrayfish-furniture-mod-legacy.pw.toml"
-hash = "abca5bbd190cd8e918abf054270f1b54690b33d923397984f162ff8dd25d6cc0"
+hash = "f34ca6b7bb00b4d4c4e5db0efe178356058d0e9aa720fe7791cd6bb86dfb2c9e"
 metafile = true
 
 [[files]]
@@ -33160,12 +33272,12 @@ metafile = true
 
 [[files]]
 file = "mods/.index/packageddraconic.pw.toml"
-hash = "cd2320caa3cabbbd6679f9c85608edb2879080a145b6f14b8dfb7b2b276e8fbd"
+hash = "a465e61292d99e2ba6e00e5c895221efbe6c98a54f3a16af7178690e5dac9920"
 metafile = true
 
 [[files]]
 file = "mods/.index/packagedexcrafting.pw.toml"
-hash = "cacfa1da302354d809dce7245b5eab3c9f83b135d30040286f7461c30c58beae"
+hash = "33ff42ab4189411fad43ad40331df0734f902aaa2c563cb9baecfbb643d7c7ce"
 metafile = true
 
 [[files]]
@@ -33300,7 +33412,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/random-complement.pw.toml"
-hash = "8c40bb5c4a1ba294269a782d011ee86416fa01326151fe107b0fdaddf38444b6"
+hash = "19c1ce1aee07235f9177a6bea2d7fa9ade05c83f5beae3ee98bbacfce272ce1a"
 metafile = true
 
 [[files]]
@@ -33385,7 +33497,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/refinedtools.pw.toml"
-hash = "5a2d17b232d1e7e6c28676a46557ee2f3b2a5cd11d4b82b93e7f2c5096cf3d31"
+hash = "93c77634bec44a917effae7b99f7937c9b33e948dd79cfbfaa7755a4fd90bc84"
 metafile = true
 
 [[files]]
@@ -33640,7 +33752,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/thaumic-tinkerer-unofficial.pw.toml"
-hash = "2506c35334ff88efb5b0674c3408828835823074479a0c6319e70b0101a2646e"
+hash = "dc2962c18f926ea701f58016bc8b6998b2734f8512af0305520951a2415b1d68"
 metafile = true
 
 [[files]]
@@ -33655,7 +33767,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/the-one-probe-community-edition.pw.toml"
-hash = "1eebb3e13471454124e3f848be486ca4688eaeed8a5a9f079b837991932920fd"
+hash = "857e160f4adefd5f1a1a602603fb291c4da331116c8cc9b5a0687bd21d80fd8b"
 metafile = true
 
 [[files]]
@@ -33710,7 +33822,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/tinkers-antique.pw.toml"
-hash = "f487dca506d15e4dc748a56f9750c5ea76c3f87e2a160c8e864788f23d1371c7"
+hash = "aa06c64c9df8507c3e352a8a6288004bfdf069a5a2fcd2797b8fc019ac7ddd01"
 metafile = true
 
 [[files]]
@@ -33970,7 +34082,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/zenutil.pw.toml"
-hash = "06a5b15c0394adc883281f0c0047b46076812c7fa29dbfb7583b635deb3a6d64"
+hash = "ccc05cc900576d4f640a2e72f2844d160f2f047508728c693046dc5f574faba5"
 metafile = true
 
 [[files]]
@@ -33994,6 +34106,10 @@ file = "mods/Engender Mod 1.12.2 0.5 version 2-patched.jar"
 hash = "ffab20fc0e8e107298cd364f74a4d875e7a87a8f0e9143dc13c7a69d1fef373c"
 
 [[files]]
+file = "mods/Food-Expansion-1.3.4-1.12.2.jar"
+hash = "1d63ec6630ace5febc7091c82c0ec553a690698f6d196deef909db715e0e5100"
+
+[[files]]
 file = "mods/GodAgglomerationPlate-1.0.2.jar"
 hash = "be744711eccee3f1b9b40ef131ce2eb381d5c4ce48a9944eb4137503ef24403a"
 
@@ -34008,6 +34124,10 @@ hash = "54c5799f16a9b583c8f112c022813ad2fc8432fdef4fb802ce214022d00599dd"
 [[files]]
 file = "mods/Jankson-1.2.3.jar"
 hash = "7a71dd9c4ac20cea37ce19c35c4aeda15385a40f31836b0058ff18f9e9554aad"
+
+[[files]]
+file = "mods/ModularMachinery-Addons-1.0.2.jar"
+hash = "a4a65c83e92076279cc1f46d98e65a8b21f6497a3a468551aefd4d68b4bc286e"
 
 [[files]]
 file = "mods/Nether-API-v1.3.0-mc1.12.2.jar"
@@ -37063,27 +37183,11 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "resources/contenttweaker/lang/zh_cn.lang"
-hash = "de4021d54e09986a8f2df40c7665c3c665770b2718f52523775d059df4b06721"
-
-[[files]]
-file = "resources/contenttweaker/models/item/apple_carrot.json"
-hash = "d4cc9fce1c4048f1cdb8250d1ed214dcb2b8da7d8fa3df97bd249ae6f1e9bed7"
-
-[[files]]
-file = "resources/contenttweaker/models/item/bacon.json"
-hash = "f0c9e57458ce25ef091efe12742c15b9df60fbc5af3b671fd7110ce747198f11"
-
-[[files]]
-file = "resources/contenttweaker/models/item/baconandegg.json"
-hash = "cc1495767eb659831787138108bf2e2caaf107869a12890da7dd115908d0d996"
+hash = "9b9b471e86f0e8acc2017c0ec852eb30bbaa9fa8063b4d6238f591a7598ec6de"
 
 [[files]]
 file = "resources/contenttweaker/models/item/battleburrito.json"
 hash = "aaa4866c8baccbc80adb5d0bd3b56bc96870a5bfc7654454f30d9c191ef1941a"
-
-[[files]]
-file = "resources/contenttweaker/models/item/batwing.json"
-hash = "eebe6da5a9351d0be83a5f3822eb1a7020760b875b82c59f5a2108d4478a6d20"
 
 [[files]]
 file = "resources/contenttweaker/models/item/bauble_energy_gum.json"
@@ -37134,92 +37238,12 @@ file = "resources/contenttweaker/models/item/bauble_wizard_badge.json"
 hash = "828f35c280c29156ab888c69a1f833026e884b3477360e7ee762aa0da3470131"
 
 [[files]]
-file = "resources/contenttweaker/models/item/beetrootnoodles.json"
-hash = "8c5b052d1eef9d0fdc9fc392d5332cd7ac77f45a24372e94647dc76267125452"
-
-[[files]]
-file = "resources/contenttweaker/models/item/blazecream.json"
-hash = "21c0586f8619e69f9dded310845940c8538b2aea789abe45993983b51159c3f1"
-
-[[files]]
-file = "resources/contenttweaker/models/item/cactusfruit.json"
-hash = "519b7bf107cc3a62a9ae3edf11acc2905b4a849e00c0bcd3746162f747c969d2"
-
-[[files]]
-file = "resources/contenttweaker/models/item/carrot_apple.json"
-hash = "58c735417f532f707a92d5df8b35044995e2a7c7f0e81151d62f3df853328f94"
-
-[[files]]
-file = "resources/contenttweaker/models/item/carrotpie.json"
-hash = "ff9f4eeb2210f28f47b8b940692d35b4b542c235328c8e19c47ace0dc657cb63"
-
-[[files]]
-file = "resources/contenttweaker/models/item/carrotseedsoup.json"
-hash = "322475e71d20cd4fd5955c24e05d007d1de3acebadefbfbe98c0c5a24d56002f"
-
-[[files]]
 file = "resources/contenttweaker/models/item/chaos_heart.json"
 hash = "0d6f3e47e7444f39dc5b9cf40e18918a5743194e245b983f902db4e4986b0c25"
 
 [[files]]
 file = "resources/contenttweaker/models/item/chaotic_energy_core.json"
 hash = "2f0f7fe01c9fc60b36a5ade6c68eece263904bcfcf7a8200f8028b1660b3c56a"
-
-[[files]]
-file = "resources/contenttweaker/models/item/chocolatebar.json"
-hash = "c292678fb410917a232f14f5f9ff2194613486ec8fdc59a2d32ed36f29c22354"
-
-[[files]]
-file = "resources/contenttweaker/models/item/compressedflesh.json"
-hash = "43cf5646019395e1c3d6b7bc5e2393ec854b09b8c3843bd122d325d68f2152dc"
-
-[[files]]
-file = "resources/contenttweaker/models/item/cookedbacon.json"
-hash = "28e49a3e9396740e0e336a75c304a826a18354b361b10597e786333ba74e86cd"
-
-[[files]]
-file = "resources/contenttweaker/models/item/cookedbatwing.json"
-hash = "df10a6b385032a9b072aeda4994f31262ab068d16fc81744b0321a0bcd393ba8"
-
-[[files]]
-file = "resources/contenttweaker/models/item/cookedhorsemeat.json"
-hash = "3f1ebbfdd80ca8b1d06bb73b23f62a0212b6d8d95621b1da834fe5c7ec624fc9"
-
-[[files]]
-file = "resources/contenttweaker/models/item/cookedllamameat.json"
-hash = "d4c39cbf8319c8d527e65b3be29c9bcb2a8df88a1fca9c24b0972f4e386ada19"
-
-[[files]]
-file = "resources/contenttweaker/models/item/cookedmushroom.json"
-hash = "4697982439a80d28ac234d9bb2e57c9d0da46cf6217ca187974fdf4110e90752"
-
-[[files]]
-file = "resources/contenttweaker/models/item/cookedocelotmeat.json"
-hash = "abbbd8f6b761b1cf6bbe1f73348a117a44a482e27c21d2c1e435048cc427cb68"
-
-[[files]]
-file = "resources/contenttweaker/models/item/cookedparrotmeat.json"
-hash = "b93d0db800bc0d66adccbeab11b8dbf38ac80c5fae7f763ad86e3df84665ecee"
-
-[[files]]
-file = "resources/contenttweaker/models/item/cookedpolarbearmeat.json"
-hash = "65941bea33c7160dfd64369a438c2781674c700fb610c1979bd213594a69f208"
-
-[[files]]
-file = "resources/contenttweaker/models/item/cookedsquid.json"
-hash = "759dfbea4a665f4587038664caf9ba3098cfd764ff1a5645f02669640433eb94"
-
-[[files]]
-file = "resources/contenttweaker/models/item/cookedwolfmeat.json"
-hash = "a93452ac978dabe1681b87160d79fe3fd4da64790d5e0d3ebb74a3bf7c3cb6e6"
-
-[[files]]
-file = "resources/contenttweaker/models/item/dough.json"
-hash = "58033505a7ba3f53f3739f6c20feba5119254943f31506aafe513e53e7c7469b"
-
-[[files]]
-file = "resources/contenttweaker/models/item/drink.json"
-hash = "d69fc30289ba4e272cf8765565209a59a5214888f95dddd8b9de3a10aadfe159"
 
 [[files]]
 file = "resources/contenttweaker/models/item/empty_heart.json"
@@ -37230,24 +37254,8 @@ file = "resources/contenttweaker/models/item/essence_balanced_matrix.json"
 hash = "89da9abc0065b0fdff8c2dcc2cdf89eb74086e16912345910e47f42a9ee0ebb8"
 
 [[files]]
-file = "resources/contenttweaker/models/item/fallen_star.json"
-hash = "0a49f411cc4eba0eea7f8ef4339b5180f41f0578d101d06c0775678811a56723"
-
-[[files]]
-file = "resources/contenttweaker/models/item/friedegg.json"
-hash = "32ca51bfa0f5001e2fa392d1e1619cad14967b77da15ffc065a3da3365ddb594"
-
-[[files]]
 file = "resources/contenttweaker/models/item/giant_hand.json"
 hash = "eb2c07d24598960252f2b0a35759133047a6a105b81efebfa4354a9b57ec8230"
-
-[[files]]
-file = "resources/contenttweaker/models/item/horsemeat.json"
-hash = "c938249f0836eced9de86e2d892afb213d86a3682e4daa79fafb480c2f5ace7f"
-
-[[files]]
-file = "resources/contenttweaker/models/item/jelly.json"
-hash = "eb04a36653adbd4794d12f4db0081c366964e37ac7bafa8135a8734e6843f265"
 
 [[files]]
 file = "resources/contenttweaker/models/item/kusa.json"
@@ -37258,52 +37266,12 @@ file = "resources/contenttweaker/models/item/laurus.json"
 hash = "bd116d3f1d89ce6f28bbd1e2e7d29633f4fd1986eaf7e73b7034aeb202c84220"
 
 [[files]]
-file = "resources/contenttweaker/models/item/llamameat.json"
-hash = "0cf3f831df94a7d8f10f29bffcc98791c94dd6ac99d9d4cee607c77eef486079"
-
-[[files]]
-file = "resources/contenttweaker/models/item/lollipop.json"
-hash = "121fa82b0243000a2ce4d8a58c11d64e2b99f6060f329eab8c1b582be4013838"
-
-[[files]]
 file = "resources/contenttweaker/models/item/magic_quiver.json"
 hash = "7c6631cf8e78f7ebb6b8f574b7327f25e1389f67769dd8241b82466b1a21b1a3"
 
 [[files]]
-file = "resources/contenttweaker/models/item/melonsalad.json"
-hash = "5bfb974b1ef1f597dc6070bc13d33e75fb7dd646a79e81dee87f4b334fcce1a9"
-
-[[files]]
-file = "resources/contenttweaker/models/item/meteor_ingot.json"
-hash = "2baa6c4056fd7ba50bdcb0da7a0ad71703e26783bfb49b3789f6421661c51012"
-
-[[files]]
-file = "resources/contenttweaker/models/item/meteor_shard.json"
-hash = "4b3aa48ebad6d80d5e8b5a3a11d19a52117affeaa77fc67957781f0a5513409a"
-
-[[files]]
 file = "resources/contenttweaker/models/item/mind_power_pearl.json"
 hash = "fa277e92cdf22873e63263a1557a08a483d1824e43498ce20a4e671d83cb0e37"
-
-[[files]]
-file = "resources/contenttweaker/models/item/netherwartsoup.json"
-hash = "7d656b3584596d53817af280a08f0d2a2bee31fc44b83a44e52fec2942052019"
-
-[[files]]
-file = "resources/contenttweaker/models/item/ocelotmeat.json"
-hash = "c79733019269bd4e040dd6b0d03d40d4be9c924676b78dea66340e516a506229"
-
-[[files]]
-file = "resources/contenttweaker/models/item/parrotmeat.json"
-hash = "73b3c97ec5b789d1ff1a0f34ad55f115833e6b98d110bf67961886be3f418ecb"
-
-[[files]]
-file = "resources/contenttweaker/models/item/polarbearmeat.json"
-hash = "da1ff696f4c2f55f44dfbcd833c9c99894cd7a186c4244c75d5b98e6534761f2"
-
-[[files]]
-file = "resources/contenttweaker/models/item/roastedseed.json"
-hash = "a3ca2d29d996084cb779df89e6aad4534a3d8f044de8c67bb25a637b9088844c"
 
 [[files]]
 file = "resources/contenttweaker/models/item/rotted_sachet.json"
@@ -37314,20 +37282,8 @@ file = "resources/contenttweaker/models/item/seed_balanced_matrix.json"
 hash = "c5cd72fc82f048ab84cb055614308d143da17913d54efdecea36c0feab580868"
 
 [[files]]
-file = "resources/contenttweaker/models/item/spidersoup.json"
-hash = "24e64e6efbc080bb270d07b79853d4edf339d5b61c200896c64907cc94ef46cb"
-
-[[files]]
-file = "resources/contenttweaker/models/item/squid.json"
-hash = "50ab20a1939c04c1c23c8891d7ce6f37ccf94993d23c6dc004175e32b16e1087"
-
-[[files]]
 file = "resources/contenttweaker/models/item/stalker_quiver.json"
 hash = "e48f434aa763d0d4d92afb7d50d4717861dce38b41254435adfeee6794c4d97f"
-
-[[files]]
-file = "resources/contenttweaker/models/item/starvingfruit.json"
-hash = "b6ea108134a643482a1508aeba0de7a0dfc0f9d7096ff425d8ed6c3364121aed"
 
 [[files]]
 file = "resources/contenttweaker/models/item/tablet_of_enlightenment.json"
@@ -37340,10 +37296,6 @@ hash = "5f9dd1a2d3c52ac596f6e7b17d3aaa0fa0ee95153723960ac41319530de745f6"
 [[files]]
 file = "resources/contenttweaker/models/item/third_mana_eye.json"
 hash = "77462415e98fd81afa567b5342ec19540a5610036927ec2cb2adc00752278f6a"
-
-[[files]]
-file = "resources/contenttweaker/models/item/wolfmeat.json"
-hash = "18c4bc7b3904f26b708cc88459b48f52a81f5ea9e72fd9e88e97072f9d713864"
 
 [[files]]
 file = "resources/contenttweaker/textures/blocks/add_difficulty.png"
@@ -37418,20 +37370,8 @@ file = "resources/contenttweaker/textures/items/apple_carrot.png"
 hash = "a29b105e2dc8db313032f3320584b0d3c92681302804dae791d53d6797c07abf"
 
 [[files]]
-file = "resources/contenttweaker/textures/items/bacon.png"
-hash = "fbb415c45047b6c2a6bcc4d39d11cac07c9f31950a4ba98242128bf9dd77e5dc"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/baconandegg.png"
-hash = "58bad0beef7e42858dfc9d4bc19079a65e5f5793123f83c114c3e5c9a09074de"
-
-[[files]]
 file = "resources/contenttweaker/textures/items/battleburrito.png"
 hash = "55e03f0b746074a62a74d8d71efc9c88faedb8038669a90430e6ece178ca9189"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/batwing.png"
-hash = "8ea08e230103d69b9ecce1efdca8a0096de5c2668c8476598a649a241bc9326f"
 
 [[files]]
 file = "resources/contenttweaker/textures/items/bauble_energy_gum.png"
@@ -37454,28 +37394,8 @@ file = "resources/contenttweaker/textures/items/bauble_wizard_badge.png"
 hash = "6d25263649bd41d8e5b81a163561f69d08f8735b4c6c23edfa94371a3f40e26c"
 
 [[files]]
-file = "resources/contenttweaker/textures/items/beetrootnoodles.png"
-hash = "daf160370374eb6bdace2b66cf7b6d4743da2927247f97dc643fb71b12bf8599"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/blazecream.png"
-hash = "74ecb3604eaea336bbd564c6ebebfaefbd34902a8d2c3fd843a20171bf9226e4"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/cactusfruit.png"
-hash = "fb94b4854451ffa0e3fd6bba3c3c80add1e90056b9adc6496d70a8430cbe2195"
-
-[[files]]
 file = "resources/contenttweaker/textures/items/carrot_apple.png"
 hash = "fb040b05263636158911968e3249f0674f4f2fb49edcc9f55c5266d19ecc9db2"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/carrotpie.png"
-hash = "030505fd4d8a0d00c867addc66ebcdcf035edab4214480fb59271a7911aae52c"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/carrotseedsoup.png"
-hash = "1ed96336d1af19e0460f26e96ed9a3592a10da31354f47923e8fefa68b8e64c9"
 
 [[files]]
 file = "resources/contenttweaker/textures/items/chaos_heart.png"
@@ -37486,144 +37406,16 @@ file = "resources/contenttweaker/textures/items/chaotic_energy_core.png"
 hash = "d9b0ae0201f64d770e585f06cac2eb8a18b42f9fd74e9ac22931133147893a2c"
 
 [[files]]
-file = "resources/contenttweaker/textures/items/chocolatebar.png"
-hash = "50245ec474a356a071c55768c10775591e37c61753e2c2288de9a2cb60f6f870"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/compressedflesh.png"
-hash = "cbdd6bf6c6a187b5a678d590e5337d19ad61831ca12e341ead33a5224d8152c9"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/cookedbacon.png"
-hash = "736cdcd1a39a88a9550350bf66dad5267f8f0dd793b84f0ee6246de24978cca1"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/cookedbatwing.png"
-hash = "7fb56a3e9ea3ffe64163d1d1fba62bb58a1e21cd227ee1e90bb8d4dbbee6e779"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/cookedhorsemeat.png"
-hash = "7a6a480b7fd25164d6e07902f46173d1af9b4b01e376ceeb2b985c9a1e3bc2d1"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/cookedllamameat.png"
-hash = "54c3e7596b2bd41a0d2cd1646dd00dbd268deefcb263ff5326ba66c89bcabf44"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/cookedmushroom.png"
-hash = "d3f90b2f57aed545ccb358f5d9e8526a29e2d79566704a97f9a4e8ec0882c081"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/cookedocelotmeat.png"
-hash = "7e140237501e5f04c937fec9d975a43cbace560aca75c10a46177e80f7767c4d"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/cookedparrotmeat.png"
-hash = "bb37ea53dcbeb802ce209eb68c9c5325a9437b301dd6438ad969ea0c8f43c3aa"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/cookedpolarbearmeat.png"
-hash = "00cbea42fa2e37618da5c3e5b92d37d3202f71b75bf3964f662c3904402dcbbb"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/cookedsquid.png"
-hash = "6d68b9b740f127134c0ab68ab5839b64558710b78d287dfb8b7a82b52ba093fc"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/cookedwolfmeat.png"
-hash = "ede865eb1ca6fc01df80d2757619a20394b3ced8a4aebb86aa466d6ab663737a"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/dough.png"
-hash = "28550b5a005f76fda1d69ab43e47ed606ad3fbf6f4e0e04b8250d14327b9d918"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/drink.png"
-hash = "420356b770ebf7b5ab285b9cee91dfc018481528447caa0071623901ca68fbe6"
-
-[[files]]
 file = "resources/contenttweaker/textures/items/essence_balanced_matrix.png"
 hash = "84ec679be0255ea16175ccb0203276d347bd1d97b5f0dc3ee25924d70de2d54e"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/fallen_star.png"
-hash = "cdb1a9081684102f2fb6fed44c247c7fd9743c5761b119cc864460ada3bc17e3"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/fallen_star.png.mcmeta"
-hash = "84104ccdd1a726c5541f8a19a22e5eb38f36dd3c32f61de0be2e06682f5dc410"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/friedegg.png"
-hash = "c65baa60853425704fb08e744254603b2e30318ec50bf7c6606011e125ffb04c"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/horsemeat.png"
-hash = "7b05d08b094548017ee0ad64f5e0bc656109fac32a99293d307bacaa44eb2f7d"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/jelly.png"
-hash = "a42e8eadd3a25ae72227a60f4fcee29748e9724f46214f25f80fc1fee799e036"
 
 [[files]]
 file = "resources/contenttweaker/textures/items/kusa.png"
 hash = "de3fceb95c2920dcdbcaabcf4e711caf5f90f0569a6c59acb537b6c9028faf9f"
 
 [[files]]
-file = "resources/contenttweaker/textures/items/llamameat.png"
-hash = "20f16537b8698d390fb99fd4af22b1a68cc00a1f88fa40ede39b9d18dfc8cda8"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/lollipop.png"
-hash = "45bdbf1a7c5efec4790980db4bc2bf071fda7e8cadddbb3fbbe71cd7b385eb47"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/melonsalad.png"
-hash = "846e9623613a52ebe3968d9027f47776b35b7dca8a244d915bf5617fbc4ffc4a"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/meteor_ingot.png"
-hash = "c42f754fc400ff93a978c6b7e7328dd37916414cff1068cbdc7a53bea5fe889e"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/meteor_shard.png"
-hash = "81f42ddfeeb7e2f5d88ec623e113f9c346878ffa0ea5d266201fea1d840d748b"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/netherwartsoup.png"
-hash = "b14daa237fb3bb343d371982a18df30dcaea8d632cd60f9e0b594ef6b40ebd0b"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/ocelotmeat.png"
-hash = "47967026938e4df166cbb9ba4f74e52c73d7394323ebc2ac0b04cdb1c9db01fc"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/parrotmeat.png"
-hash = "9d7f14d52110df8b65bf10b03f4f0ab7cbef6cc87c4d85e93d2c3e5265ac0a96"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/polarbearmeat.png"
-hash = "44b1f85ecd0b3afec3e9142674a9748e24a5e264d8351bbb71e900bd3b7fdeaa"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/roastedseed.png"
-hash = "b2e1d0f78b1e444988d6e038be78cf87c6a3ceaba5add80cc2abeffc7e39a327"
-
-[[files]]
 file = "resources/contenttweaker/textures/items/seed_balanced_matrix.png"
 hash = "0b108faecbccba51025878858e834179a17d198b3ec168660b5d2cd1579e2ddd"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/spidersoup.png"
-hash = "465a67145a9a05bdede6800a64650494b6f551eb6e056167c87978f9848e611a"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/squid.png"
-hash = "8bd8691aed9f7cf25f76617450c9b7068192553c158b76d4c792b4ffc5124781"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/starvingfruit.png"
-hash = "576be95b5b1630948189abcaa4d80bba530176dfc2b81116454759aeef94b187"
 
 [[files]]
 file = "resources/contenttweaker/textures/items/tablet_of_enlightenment.png"
@@ -37632,10 +37424,6 @@ hash = "3f68e8989c194794c0fd7ee7a53d74bdee628b9c8757414f1d1517767b8621a9"
 [[files]]
 file = "resources/contenttweaker/textures/items/tablet_of_enlightment.png"
 hash = "3f68e8989c194794c0fd7ee7a53d74bdee628b9c8757414f1d1517767b8621a9"
-
-[[files]]
-file = "resources/contenttweaker/textures/items/wolfmeat.png"
-hash = "94c2915d17cca0297d73f793b0e0bb6dbfeb554e2d172b1540801dfed30cb3e9"
 
 [[files]]
 file = "resources/crazyae/lang/zh_cn.lang"
@@ -39126,6 +38914,10 @@ file = "resources/modularmachinery/blockstates/vethea_enchanter_factory_controll
 hash = "ffdf339cafa7c6b33381a8417ac9d87bbc0749775317ae4c0c2bf903bfd32547"
 
 [[files]]
+file = "resources/modularmachineryaddons/lang/zh_cn.lang"
+hash = "f5e76783d58a130658354928518147fc21518da6458319eb3823935d9e2e6407"
+
+[[files]]
 file = "resources/moretcon/lang/zh_cn.lang"
 hash = "449ef299cf954cc6e824981d5bb00d4e21be834af7bc6fb4b8bd5f6b016bfc6d"
 
@@ -39623,7 +39415,7 @@ hash = "d9ce1db5dc217eb57039442313908e524cf8c58a9d16531484c469539cdc8f53"
 
 [[files]]
 file = "scripts/compat/blockdrops/drops.zs"
-hash = "beaae25e279ee0ac2f048b42d8cf27c78dfe938b9a010f65518171b0ac1d347a"
+hash = "71e8e0b656dabb461ec470eb83be195363309c16434903e5c194c44e29cf2fd8"
 
 [[files]]
 file = "scripts/compat/bpopener.zs"
@@ -39759,27 +39551,15 @@ hash = "02911d06667dba30a08ee8ef738ae6dc2878deb933b2c33c3acb28805844a51b"
 
 [[files]]
 file = "scripts/contenttweaker/food/Dropt/DroptEvent.zs"
-hash = "eaa8990e0b63c41991cf62271e010efff905f3fa267412fdd0bbd171bf65cd4c"
+hash = "40c48504fda445d81b6d71eb16710787201cbc39c82c59842f3e1c85cdc16bd0"
 
 [[files]]
 file = "scripts/contenttweaker/food/Item/BasicFood.zs"
-hash = "4302785fff72e9ede6dce2ed2f4d28bdb0c6a7880c1a821fb0257d8d666fb450"
+hash = "00d88aae7f3bd79ba69a98a033878fd66f9d86ed6c08752dd8dd018f4cf58c9b"
 
 [[files]]
 file = "scripts/contenttweaker/food/Item/PotionFood.zs"
-hash = "eed2892a6a7c5c9f83f60615372b4f6fbf6d24a9ecc34ac3227f2abc9310d6ce"
-
-[[files]]
-file = "scripts/contenttweaker/food/Recipes/Furnace.zs"
-hash = "e34517c6c973cfd6a02912ff9e48b3e6b7443f68e6072e39b3d0accc553f109a"
-
-[[files]]
-file = "scripts/contenttweaker/food/Recipes/Recipe.zs"
-hash = "e2af3eb048a66e3c8e013fd8868bf146f9a414230dcec9ce9f48b09a1b55a4eb"
-
-[[files]]
-file = "scripts/contenttweaker/food/Tab/FoodCoreTab.zs"
-hash = "251460ddd7ffe1760afbac00dd2775688da90367beda0bd6d4923effd14bd575"
+hash = "0be47e709af8bd860f4118a861c358b5683e2fac20841f69862f4505e04f533e"
 
 [[files]]
 file = "scripts/contenttweaker/gases.zs"
@@ -39800,18 +39580,6 @@ hash = "38d6f454f9d93239eb390603f4926eb35204f1c22f310f5ce4bedf6cf44cf456"
 [[files]]
 file = "scripts/contenttweaker/items.zs"
 hash = "94974356e5e716e5f099076a2120ed8667b5c29748c3f2a589e8d17da6cbd929"
-
-[[files]]
-file = "scripts/contenttweaker/nyx/nyx_block.zs"
-hash = "2659c1d0cef3057d03334e542d762009dd674d0e8bd59e4921044f013bc71532"
-
-[[files]]
-file = "scripts/contenttweaker/nyx/nyx_event.zs"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-
-[[files]]
-file = "scripts/contenttweaker/nyx/nyx_item.zs"
-hash = "39c113395eca203e01f6fe577410dc6b78916ec97a530a4098c835eaefc289b8"
 
 [[files]]
 file = "scripts/contenttweaker/potion/rejuvenation.zs"
@@ -40640,10 +40408,6 @@ hash = "3d2d78bb47402fee66bd030692e1902c1b9b652c95c2f8a5f0b4ff3ce8e88395"
 [[files]]
 file = "scripts/recipes/vanilla/crafting_table/dyes.zs"
 hash = "794b6e318c27534ff29cfbed101f69bea14d75acdaaeb52e5360432cc2e5bc51"
-
-[[files]]
-file = "scripts/recipes/vanilla/crafting_table/foods.zs"
-hash = "3f03458a2ba79b3cd91dda5e5712ab9d7644b85b091803f2a01e871f541d9166"
 
 [[files]]
 file = "scripts/recipes/vanilla/crafting_table/odch.zs"

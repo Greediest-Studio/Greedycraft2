@@ -1,13 +1,13 @@
 name = "Cleanroom relauncher unofficial"
-filename = "++relauncher-0.3.11-beta.jar"
+filename = "++relauncher-0.3.12-beta.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "5fb69381a63c7adbf646d33a6ca78ec613fed22f"
+hash = "6b6262ad9fd8016485e272d4eb83b05a72914426"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6690730
+file-id = 6743293
 project-id = 1214906

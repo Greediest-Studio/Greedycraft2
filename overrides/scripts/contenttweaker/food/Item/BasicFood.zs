@@ -6,7 +6,6 @@ import mods.contenttweaker.VanillaFactory;
 
 function FoodCreate(name as string,foodValue as int,foodSaturation as float) {
   val item = VanillaFactory.createItemFood(name, foodValue) as ItemFood;
-  item.creativeTab = <creativetab:foodcore>;
   item.saturation = foodSaturation;
   item.alwaysEdible = true;
   item.register();
@@ -14,7 +13,6 @@ function FoodCreate(name as string,foodValue as int,foodSaturation as float) {
 
 function FoodCreateBowl(name as string,foodValue as int,foodSaturation as float) {
   val item = VanillaFactory.createItemFood(name, foodValue) as ItemFood;
-  item.creativeTab = <creativetab:foodcore>;
   item.saturation = foodSaturation;
   item.alwaysEdible = true;
   item.maxStackSize = 1;
