@@ -2510,6 +2510,10 @@ jaopca:block.taichi - 6192
 jaopca:dust.taichi - 6193
 jaopca:plate.taichi - 6194
 jaopca:pured.taichi - 6195
+jaopca:block.nebularite - 6196
+jaopca:radiation.nebularite - 6197
+jaopca:compound.nebularite - 6198
+additions:nebularite_ingot - 6199
 extrautils2:snowglobe - 6200
 extrautils2:wateringcan - 6201
 extrautils2:itemcreativedestructionwand - 6202
@@ -18063,9 +18067,15 @@ additions:xenidium_block - 21749
 additions:rainite_block - 21750
 additions:rangolarite - 21751
 additions:oneo_block - 21752
+jaopca:infused.nebularite - 21753
 contenttweaker:dough - 21754
 contenttweaker:chaos_heart - 21755
 contenttweaker:chaotic_energy_core - 21756
+jaopca:nugget.nebularite - 21757
+jaopca:pured.nebularite - 21758
+jaopca:dust.nebularite - 21759
+jaopca:brewed.nebularite - 21760
+jaopca:gear.nebularite - 21761
 contenttweaker:cure_totem - 21762
 contenttweaker:sub_block_holder_0 - 21763
 contenttweaker:sub_block_holder_1 - 21764
@@ -20441,6 +20451,7 @@ jaopca:block.boron_arsenide - 24133
 jaopca:block.boron_nitride - 24134
 jaopca:block.botanical - 24135
 jaopca:block.botanical_awakened - 24136
+jaopca:plate.nebularite - 24137
 jaopca:block.brightine - 24138
 jaopca:block.bromine - 24139
 jaopca:block.cadmium - 24140
@@ -20455,6 +20466,7 @@ jaopca:block.cerium - 24148
 jaopca:block.cermilium - 24149
 jaopca:block.certus_quartz - 24150
 jaopca:block.cerulean - 24151
+jaopca:reduced.nebularite - 24152
 jaopca:block.chaotic_cocrystal - 24153
 jaopca:block.charged_certus_quartz - 24154
 jaopca:block.chillinium - 24156

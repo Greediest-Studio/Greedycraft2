@@ -2,5 +2,31 @@
   "parent": "item/generated",
   "textures": {
     "layer0": "additions:items/nebularite_ingot-layer0"
+  },
+  "display": {
+    "firstperson_righthand": {
+      "scale": [1.4, 1.4, 1.4]
+    },
+    "firstperson_lefthand": {
+      "scale": [1.4, 1.4, 1.4]
+    },
+    "thirdperson_righthand": {
+      "scale": [1.4, 1.4, 1.4]
+    },
+    "thirdperson_lefthand": {
+      "scale": [1.4, 1.4, 1.4]
+    },
+    "gui": {
+      "scale": [1.4, 1.4, 1.4]
+    },
+    "ground": {
+      "scale": [1.4, 1.4, 1.4]
+    },
+    "fixed": {
+      "scale": [1.4, 1.4, 1.4]
+    },
+    "head": {
+      "scale": [1.4, 1.4, 1.4]
+    }
   }
 }
