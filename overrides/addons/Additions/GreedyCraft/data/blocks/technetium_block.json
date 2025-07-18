@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "锝块",
+    "ore_dict": "blockTechnetium",
+    "type": "additions:block_simple"
+  },
+  "name": "锝块",
+  "material": "minecraft:metal",
+  "hardness": 1.0,
+  "resistance": 4000.0,
+  "harvest_level": 11,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

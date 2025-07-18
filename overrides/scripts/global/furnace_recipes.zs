@@ -85,5 +85,12 @@ global furnaceRecipes as IItemStack[IIngredient] = {
     <ore:armorUmbra> : <theaurorian:umbraingot> * 2,
     <ore:dustManganese> : <additions:manganese_ingot>,
     <ore:dustMolybdenum> : <additions:molybdenum_ingot>,
-    <additions:slimy_mud_god> : <additions:godslime_crystal>
+    <additions:slimy_mud_god> : <additions:godslime_crystal>,
+    <ore:dustIron> : <minecraft:iron_ingot>,
+    <ore:oreIron> : <minecraft:iron_ingot>,
+    <thaumicwonders:eldritch_cluster> : <minecraft:iron_ingot> * 3,
+    <abyssalcraft:coin> : <minecraft:iron_ingot> * 4,
+    <actuallyadditions:item_misc:20> : <minecraft:iron_ingot> * 2,
+    <ore:clusterIron> : <minecraft:iron_ingot> * 2,
+    <sakura:iron_sand> : <minecraft:iron_ingot>
 } as IItemStack[IIngredient];

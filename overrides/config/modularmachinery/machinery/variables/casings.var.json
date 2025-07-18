@@ -30,14 +30,17 @@
         "gugu-utils:aspecthatch",
         "modularmachinery:blocklifeessenceproviderinput",
         "modularmachinery:blocklifeessenceprovideroutput",
-        "modularmachinery:blockupgradebus",
         "whimcraft:blockmeaspectinputbus",
         "whimcraft:blockmeaspectoutputbus",
         "whimcraft:blockshareinfhandler"
     ],
     "casings_parallel": [
-        "modularmachinery:blockcasing",
+        "modularmachinery:blockcasing@0",
         "modularmachinery:blockparallelcontroller"
+    ],
+    "casings_upgrade": [
+        "modularmachinery:blockcasing@0",
+        "modularmachinery:blockupgradebus"
     ],
     "casings_decorative": [
         "modularmachinery:blockcasing"
@@ -65,7 +68,7 @@
         "minecraft:iron_bars",
 		"chisel:ironpane"
     ],
-    "casings_upgrade": [
+    "casings_speed": [
         "modularmachinery:blockcasing@1",
         "modularmachinery:blockcasing@2",
         "modularmachinery:blockcasing@3",

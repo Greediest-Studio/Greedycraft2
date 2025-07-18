@@ -1,0 +1,4042 @@
+{
+    "registryname": "organic_infuser",
+    "localizedname": "§3LV2 - 有机灌注机",
+    "requires-blueprint": false,
+    "failure-action": "still",
+    "color": "e0e6e8",
+    "modifiers": [
+        {
+            "elements": "modularmachinery:blockcasing@1",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方的紧挨着的方块换成此方块以提高25%种子产出率及副产品产出率！",
+            "modifier": {
+                "io": "output",
+                "target": "item",
+                "operation": 1,
+                "multiplier": 1.25,
+                "affectChance": true
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@2",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方的紧挨着的方块换成此方块以提高50%种子产出率及副产品产出率！",
+            "modifier": {
+                "io": "output",
+                "target": "item",
+                "operation": 1,
+                "multiplier": 1.5,
+                "affectChance": true
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@3",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方的紧挨着的方块换成此方块以提高75%种子产出率及副产品产出率！",
+            "modifier": {
+                "io": "output",
+                "target": "item",
+                "operation": 1,
+                "multiplier": 1.75,
+                "affectChance": true
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@5",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方的紧挨着的方块换成此方块以提高100%种子产出率及副产品产出率！",
+            "modifier": {
+                "io": "output",
+                "target": "item",
+                "operation": 1,
+                "multiplier": 2,
+                "affectChance": true
+            }
+        }
+    ],
+    "parts": [
+        {
+            "x": 2,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": -5,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": -6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": -5,
+            "elements": [
+                "additions:greedycraft-star_metal_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": -6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": -6,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "additions:greedycraft-star_metal_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": -5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "botanicadds:terra_catalyst@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "extendedcrafting:storage@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": -5,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": -5,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "botanicadds:terra_catalyst@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "extendedcrafting:storage@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": -5,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -7,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": -5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "additions:greedycraft-star_metal_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "botanicadds:terra_catalyst@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -8,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "botanicadds:terra_catalyst@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -8,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": -4,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "chisel:laboratory@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "arcanearchives:storage_shaped_quartz@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "arcanearchives:storage_shaped_quartz@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "additions:greedycraft-star_metal_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": -4,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "botanicadds:terra_catalyst@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "botanicadds:terra_catalyst@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": -7,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -8,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -7,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": -7,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": -8,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -7,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": -8,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "extendedcrafting:storage@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "botanicadds:terra_catalyst@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": -7,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -8,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -7,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -8,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -7,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "extendedcrafting:storage@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "chisel:laboratory@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -7,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -7,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": -8,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": -8,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "botanicadds:terra_catalyst@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -8,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": -8,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": -7,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "chisel:laboratory@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -7,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": -7,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": -7,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": -7,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": -7,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -7,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": -7,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -7,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": -6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "contenttweaker:organic_fluid@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -7,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": -6,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -7,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": -5,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": -6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": -6,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": -7,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -7,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": -6,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": -6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "contenttweaker:organic_fluid@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -7,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:organic_fluid@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -7,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -7,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -7,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -8,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -7,
+            "elements": [
+                "chisel:laboratory@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -7,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": -7,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -7,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:laboratory@15"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": -5,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:organic_fluid@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": -7,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -7,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -7,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": -6,
+            "elements": [
+                "mysticalagriculture:soulstone_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -7,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "quark:prismarine_dark_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -7,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": -6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -7,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": -7,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:stained_glass_pane@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "chisel:technicalnew@2"
+            ]
+        }
+    ]}

@@ -16,7 +16,8 @@ val removedRecipes as IItemStack[] = [
     <theaurorian:scrapcrystalline>,
     <theaurorian:scrapaurorianite>,
     <theaurorian:scrapumbra>,
-    <nuclearcraft:ingot:11>
+    <nuclearcraft:ingot:11>,
+    <minecraft:iron_ingot>
 ] as IItemStack[];
 
 for input in removedRecipes {

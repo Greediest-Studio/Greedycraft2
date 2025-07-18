@@ -3205,6 +3205,23 @@ function harvestBlock(blockpos as IBlockPos, tool as IItemStack, player as IPlay
     }
 }
 
+val fractureTrait = TraitBuilder.create("fracture_refined");
+fractureTrait.color = Color.fromHex("ffffff").getIntColor(); 
+fractureTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.fractureTrait.name");
+fractureTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.fractureTrait.desc");
+fractureTrait.afterBlockBreak = function(trait, tool, world, blockstate, blockPos, miner, wasEffective) {
+    if (miner instanceof IPlayer) {
+        var player as IPlayer = miner;
+        var facing as IFacing = IFacing.getDirectionFromEntityLiving(blockPos, player).opposite();
+        for i in 1 to Math.floor(Math.random() * 6) as int {
+            if (!(world.isRemote())) {
+                harvestBlock(blockPos.getOffset(facing, i), tool, player);
+            }
+        }
+    }
+};
+fractureTrait.register();
+
 val fracture2Trait = TraitBuilder.create("fracture2");
 fracture2Trait.color = Color.fromHex("ffffff").getIntColor(); 
 fracture2Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.fracture2Trait.name");

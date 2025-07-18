@@ -180,6 +180,78 @@ emptiness
 	- Terrain Scale: 16.0
 
 
+euca
+	- Id: 820
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 5.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+boiling_point
+	- Id: 822
+	- Height: 128
+	- Has Sky? true
+	- Cloud Height: 64.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+cloudia
+	- Id: 826
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 8.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+corba
+	- Id: 824
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+depths
+	- Id: 821
+	- Height: 128
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+frozen_lands
+	- Id: 823
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 100.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+terrania
+	- Id: 827
+	- Height: 256
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
+senterian
+	- Id: 829
+	- Height: 128
+	- Has Sky? true
+	- Cloud Height: 128.0
+	- Can Respawn Here? false
+	- Terrain Scale: 1.0
+
+
 CompactMachines
 	- Id: 144
 	- Height: 256
@@ -267,78 +339,6 @@ divinerpg:vethea
 	- Has Sky? false
 	- Cloud Height: 8.0
 	- Can Respawn Here? true
-	- Terrain Scale: 1.0
-
-
-euca
-	- Id: 820
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 5.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
-boiling_point
-	- Id: 822
-	- Height: 128
-	- Has Sky? true
-	- Cloud Height: 64.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
-cloudia
-	- Id: 826
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 8.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
-corba
-	- Id: 824
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 128.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
-depths
-	- Id: 821
-	- Height: 128
-	- Has Sky? true
-	- Cloud Height: 128.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
-frozen_lands
-	- Id: 823
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 100.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
-terrania
-	- Id: 827
-	- Height: 256
-	- Has Sky? true
-	- Cloud Height: 128.0
-	- Can Respawn Here? false
-	- Terrain Scale: 1.0
-
-
-senterian
-	- Id: 829
-	- Height: 128
-	- Has Sky? true
-	- Cloud Height: 128.0
-	- Can Respawn Here? false
 	- Terrain Scale: 1.0
 
 

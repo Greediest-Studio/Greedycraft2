@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "钼块",
+    "ore_dict": "blockMolybdenum",
+    "type": "additions:block_simple"
+  },
+  "name": "钼块",
+  "material": "minecraft:metal",
+  "hardness": 10.0,
+  "resistance": 4000.0,
+  "harvest_level": 9,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

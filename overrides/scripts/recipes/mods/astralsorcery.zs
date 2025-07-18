@@ -41,7 +41,7 @@ Altar.addTraitAltarRecipe("heavite", <gct_mobs:heavite> * 14, 4000, 100, [
     <additions:astral_star>, <additions:astral_star>, <additions:astral_star>, <additions:astral_star>
 ], "astralsorcery.constellation.mineralis");
 
-Altar.addTraitAltarRecipe("controller_altar", <modularmachinery:bright_altar_controller>, 7000, 140, [
+Altar.addTraitAltarRecipe("controller_altar", <modularmachinery:bright_altar_factory_controller>, 7000, 140, [
     <ore:blockAstralMetal>, <ore:blockLunarine>, <ore:blockAstralMetal>,
     <ore:blockNasalum>, <ore:ingotCosmilite>, <ore:blockNasalum>,
     <ore:blockAstralMetal>, <ore:blockLunarine>, <ore:blockAstralMetal>,
@@ -64,7 +64,7 @@ Altar.addTraitAltarRecipe("astral_crystal", <additions:astral_gem_00>, 6500, 100
     <ore:ingotAstralMetal>, <ore:ingotAstralMetal>
 ], "astralsorcery.constellation.octans");
 
-Altar.addTraitAltarRecipe("controller_collector", <modularmachinery:astral_collector_controller> * 3, 7000, 140, [
+Altar.addTraitAltarRecipe("controller_collector", <modularmachinery:astral_collector_factory_controller> * 3, 7000, 140, [
     <ore:ingotChromasteel>, <ore:ingotNasalum>, <ore:ingotChromasteel>,
     <ore:ingotNasalum>, <modularmachinery:blockcontroller>, <ore:ingotNasalum>,
     <ore:ingotChromasteel>, <ore:ingotNasalum>, <ore:ingotChromasteel>,

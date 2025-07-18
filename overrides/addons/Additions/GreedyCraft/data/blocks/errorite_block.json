@@ -1,0 +1,16 @@
+{
+  "item_block": {
+    "name": "错误合金块",
+    "ore_dict": "blockErrorite",
+    "type": "additions:block_simple"
+  },
+  "name": "错误合金块",
+  "material": "minecraft:metal",
+  "hardness": 1.0,
+  "resistance": 4000.0,
+  "harvest_level": 11,
+  "harvest_tool": "pickaxe",
+  "light_opacity": 10,
+  "semi_transparent": true,
+  "type": "additions:simple"
+}

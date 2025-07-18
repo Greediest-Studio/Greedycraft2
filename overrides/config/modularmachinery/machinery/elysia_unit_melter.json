@@ -1,0 +1,7070 @@
+{
+    "registryname": "elysia_melter",
+    "localizedname": "§cELYSIA单元 - 大型熔化单元",
+    "requires-blueprint": false,
+    "failure-action": "still",
+    "color": "535454",
+    "modifiers": [
+        {
+            "elements": "modularmachinery:blockcasing@1",
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "description": "将控制器右方紧挨着的方块换成此方块以降低配方制作时间至75%！",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.75
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@2",
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "description": "将控制器右方紧挨着的方块换成此方块以降低配方制作时间至66%！",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.66
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@3",
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "description": "将控制器右方紧挨着的方块换成此方块以降低配方制作时间至50%！",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.5
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@5",
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "description": "将控制器右方紧挨着的方块换成此方块以降低配方制作时间至33%！",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.33
+            }
+        }
+    ],
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "tconstruct:brownstone_stairs_tile@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "chisel:endstone@12"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "taiga:niob_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "prefab:block_double_compressed_glowstone@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "chisel:endstone@12"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "tconstruct:brownstone_slab2@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "taiga:niob_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "chisel:endstone@12"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "chisel:endstone@12"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "taiga:niob_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "chisel:endstone@12"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "tconstruct:brownstone_slab2@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "minecraft:nether_brick_fence@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "tconstruct:seared@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "enderio:block_alloy_endergy@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "chisel:endstone@12"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "tconstruct:seared@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "enderio:block_alloy_endergy@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy_endergy@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "prefab:block_double_compressed_glowstone@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "tconstruct:brownstone_stairs_tile@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "taiga:niob_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "tconstruct:brownstone@11"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "tconstruct:brownstone@11"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "chisel:endstone@12"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "minecraft:nether_brick_fence@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "taiga:niob_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "chisel:endstone@12"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "tconstruct:brownstone_stairs_tile@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "taiga:niob_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "tconstruct:seared@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "prefab:block_double_compressed_glowstone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "minecraft:nether_brick_fence@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "enderio:block_alloy_endergy@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "enderio:block_alloy_endergy@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "taiga:niob_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "prefab:block_double_compressed_glowstone@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "minecraft:nether_brick_fence@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "tconstruct:brownstone@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "tconstruct:seared@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "tconstruct:brownstone@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "minecraft:nether_brick_fence@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "tconstruct:brownstone@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "tconstruct:brownstone_stairs_tile@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "minecraft:nether_brick_fence@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "tconstruct:brownstone_stairs_tile@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "tconstruct:brownstone_stairs_tile@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "taiga:niob_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "tconstruct:seared@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "prefab:block_double_compressed_glowstone@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "tconstruct:seared@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "chisel:endstone@12"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "enderio:block_alloy@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "minecraft:nether_brick_fence@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "taiga:niob_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "tconstruct:brownstone@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "tconstruct:brownstone@11"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "taiga:niob_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "minecraft:nether_brick_fence@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "enderio:block_alloy@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "prefab:block_double_compressed_glowstone@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "taiga:niob_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": -3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "chisel:endstone@12"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "taiga:niob_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "prefab:block_double_compressed_glowstone@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "taiga:niob_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "chisel:endstone@12"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "minecraft:nether_brick_fence@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "tconstruct:seared@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy_endergy@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "prefab:block_double_compressed_glowstone@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "minecraft:nether_brick_fence@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": -3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "chisel:endstone@12"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "enderio:block_alloy@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "taiga:niob_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "tconstruct:brownstone@11"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "minecraft:nether_brick_fence@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "chisel:endstone@12"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "taiga:niob_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": -3,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "prefab:block_double_compressed_glowstone@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "chisel:endstone@12"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "tconstruct:brownstone_stairs_tile@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "minecraft:nether_brick_fence@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "tconstruct:seared@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "minecraft:nether_brick_fence@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "tconstruct:seared@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "prefab:block_double_compressed_glowstone@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@9"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": -3,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "tconstruct:brownstone_slab2@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "tconstruct:brownstone_slab2@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "tconstruct:seared@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "taiga:niob_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "minecraft:nether_brick_fence@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "tconstruct:seared@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "minecraft:nether_brick_fence@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "prefab:block_double_compressed_glowstone@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "tconstruct:seared@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "tconstruct:brownstone_stairs_tile@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "prefab:block_double_compressed_glowstone@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:technical@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "minecraft:nether_brick_fence@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "enderio:block_alloy@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "chisel:endstone@12"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "chisel:endstone@12"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "mekanism:basicblock@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "tconstruct:seared@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy_endergy@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "tconstruct:seared@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "chisel:obsidian@11"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "chisel:blocksteel@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass_alloy@1"
+            ]
+        }
+    ]}

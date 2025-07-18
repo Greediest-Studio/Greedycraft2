@@ -5,6 +5,7 @@
 
 
 #priority 30
+#reloadable
 
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
@@ -22,7 +23,7 @@ val ITEM as string = "modularmachinery:item";
 val TIME as string = "modularmachinery:duration";
 val RF as string = "modularmachinery:energy";
 
-MachineModifier.setMaxParallelism("durasteel_forge",1);
+MachineModifier.setMaxParallelism("durasteel_forge", 1);
 
 RecipeBuilder.newBuilder("durasteel_forge", "durasteel_forge", 1800, 1)
     .addItemInputs([

@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "希斯蒂姆块",
+    "ore_dict": "blockSissidium",
+    "type": "additions:block_simple"
+  },
+  "name": "希斯蒂姆块",
+  "material": "minecraft:metal",
+  "hardness": 1.0,
+  "resistance": 4000.0,
+  "harvest_level": 10,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

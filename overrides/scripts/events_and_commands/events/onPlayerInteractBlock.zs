@@ -4,6 +4,7 @@
  */
 
 #priority 90
+#reloadable
 
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.IPlayerEvent;
@@ -34,10 +35,6 @@ import mods.ctintegration.util.DateUtil;
 import mods.ctintegration.date.IDate;  
 import mods.zenutils.I18n;   
 
-import scripts.util.lang as LangUtil;
-import scripts.util.date as CalendarUtil;
-import scripts.util.patreons as PatreonUtil;
-
 import native.vazkii.botania.common.block.BlockAlfPortal;
 
 import mods.zenutils.DataUpdateOperation.OVERWRITE;
@@ -65,6 +62,19 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
         client.player.sendChat("§emc_Edwin§f: byd还想刷物品是吧，都给你ban喽");
         event.player.health = 0.0f;
         event.cancel();
+    }
+    //Disabled Default Modular Controller
+    if (!isNull(event.player.mainHandHeldItem)) {
+        if (event.player.mainHandHeldItem.definition.id == "modularmachinery:blockcontroller" && !event.world.remote && !event.player.creative) {
+            client.player.sendChat("§c你无法放置该物品！");
+            event.cancel();
+        }
+    }
+    if (!isNull(event.player.offHandHeldItem)) {
+        if (event.player.offHandHeldItem.definition.id == "modularmachinery:blockcontroller" && !event.world.remote && !event.player.creative) {
+            client.player.sendChat("§c你无法放置该物品！");
+            event.cancel();
+        }
     }
 });
 /*events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {

@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "朗格拉块",
+    "ore_dict": "blockRangolarite",
+    "type": "additions:block_simple"
+  },
+  "name": "朗格拉块",
+  "material": "minecraft:metal",
+  "hardness": 1.0,
+  "resistance": 4000.0,
+  "harvest_level": 10,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

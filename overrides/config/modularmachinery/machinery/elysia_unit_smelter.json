@@ -1,0 +1,5118 @@
+{
+    "registryname": "elysia_smelter",
+    "localizedname": "§cELYSIA单元 - 大型冶炼单元",
+    "requires-blueprint": false,
+    "failure-action": "still",
+    "color": "122512",
+    "modifiers": [
+        {
+            "elements": "modularmachinery:blockcasing@1",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至75%！",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.75
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@2",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至66%！",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.66
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@3",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至50%！",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.5
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@5",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至33%！",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.33
+            }
+        }
+    ],
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_slab@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "additions:experience_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "additions:experience_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "quark:midori_block_stairs@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "quark:midori_block_slab@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "additions:experience_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "quark:midori_block_stairs@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_stairs@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "divinerpg:arlemite_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": -1,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_stairs@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "quark:midori_pillar@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "additions:experience_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "additions:experience_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "divinerpg:arlemite_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_stairs@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": 3,
+            "elements": [
+                "divinerpg:arlemite_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": -1,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "divinerpg:arlemite_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "quark:midori_pillar@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "quark:midori_block_stairs@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "quark:midori_block_stairs@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "divinerpg:arlemite_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 12,
+            "z": 1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "quark:midori_pillar@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "quark:midori_pillar@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "additions:experience_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "divinerpg:arlemite_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 6,
+            "elements": [
+                "divinerpg:arlemite_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_stairs@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "divinerpg:arlemite_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "quark:midori_pillar@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "quark:midori_block_stairs@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "divinerpg:arlemite_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "jaopca:block.shadow_bar@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "quark:midori_block_stairs@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "quark:midori_block_stairs@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "quark:midori_block_stairs@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 3,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "divinerpg:arlemite_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "additions:experience_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "divinerpg:arlemite_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_stairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 3,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "quark:midori_block_stairs@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "quark:midori_block_stairs@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "additions:experience_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_stairs@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_stairs@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "quark:midori_block_stairs@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "quark:midori_block_stairs@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "quark:midori_block_stairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 7,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "quark:midori_pillar@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_stairs@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "quark:midori_block_slab@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "quark:midori_block_stairs@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "additions:experience_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "divinerpg:arlemite_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_slab@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "quark:midori_block_stairs@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "divinerpg:arlemite_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_stairs@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "quark:midori_pillar@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 12,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "quark:midori_block_stairs@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_stairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "quark:midori_block_stairs@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "jaopca:block.shadow_bar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 10,
+            "z": 7,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "quark:midori_block_stairs@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "quark:midori_block_stairs@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 12,
+            "z": 1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_stairs@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_stairs@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_stairs@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 10,
+            "z": -1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "quark:midori_block_stairs@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": -1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_stairs@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "quark:midori_block_stairs@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "quark:midori_block_stairs@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_stairs@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": -1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": -1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "quark:midori_block_stairs@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "quark:midori_block_stairs@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "quark:midori_block_stairs@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_stairs@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "additions:experience_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_stairs@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "quark:midori_block_stairs@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "quark:midori_block_stairs@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "quark:midori_block_stairs@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_slab@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "quark:midori_block_stairs@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "quark:midori_block_stairs@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "quark:midori_block_stairs@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 12,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 7,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "quark:midori_block_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_stairs@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "quark:midori_block_stairs@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "quark:midori_block_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "quark:midori_block_stairs@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "quark:midori_block_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "quark:midori_block_stairs@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 3,
+            "elements": [
+                "quark:midori_block_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "quark:midori_block_stairs@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 10,
+            "z": 7,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "quark:midori_block_stairs@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "divinerpg:arlemite_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 10,
+            "z": -1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "quark:midori_block_stairs@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "quark:midori_block_stairs@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "quark:midori_block_stairs@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": -1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "quark:midori_block_stairs@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "divinerpg:arlemite_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "quark:midori_block_stairs@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "quark:midori_pillar@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "jaopca:block.shadow_bar@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "quark:midori_block_stairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "quark:midori_pillar@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 0,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "additions:experience_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "additions:experience_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 0,
+            "elements": [
+                "divinerpg:arlemite_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "divinerpg:arlemite_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "quark:midori_block_stairs@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_stairs@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "quark:midori_block_stairs@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:fluid_pyrotheum@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "quark:midori_block_slab@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "divinerpg:arlemite_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "actuallyadditions:block_crystal_empowered@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "quark:midori_block_stairs@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "quark:midori_pillar@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "quark:midori_block_stairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 4,
+            "elements": [
+                "quark:midori_block_stairs@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_slab@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "quark:midori_block_stairs@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "divinerpg:arlemite_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": -1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "jaopca:block.shadow_bar@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_stairs@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "quark:midori_block_stairs@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "quark:midori_block_stairs@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "abyssalcraft:abybrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": -1,
+            "elements": [
+                "quark:midori_block_wall@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "quark:midori_pillar@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "quark:midori_block_stairs@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "quark:midori_pillar@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "quark:midori_pillar@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "minecraft:netherrack@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 2,
+            "elements": [
+                "quark:midori_block_stairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "divinerpg:arlemite_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "abyssalcraft:abyfence@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "quark:midori_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "enderio:block_reinforced_obsidian@0"
+            ]
+        }
+    ]}

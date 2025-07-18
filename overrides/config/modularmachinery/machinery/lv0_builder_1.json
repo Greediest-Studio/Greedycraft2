@@ -1,0 +1,4376 @@
+{
+    "registryname": "builder_1",
+    "localizedname": "LV0 - 基础装配室",
+    "requires-blueprint": true,
+    "failure-action": "still",
+    "color": "383b3f",
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": -6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "chisel:glasspane@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": -4,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 7,
+            "z": -6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "minecraft:quartz_stairs@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 8,
+            "z": -6,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "chisel:glasspane@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -9,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": -4,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -10,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": -5,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "chisel:glasspane@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "minecraft:quartz_stairs@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -9,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -10,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 8,
+            "z": -7,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 7,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": -6,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": -5,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": -6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "minecraft:quartz_stairs@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 9,
+            "z": -7,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": -5,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "z": -6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "minecraft:quartz_stairs@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:nether_brick_fence@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": -5,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -9,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": -6,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": -4,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": -6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "minecraft:quartz_stairs@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_bars@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -9,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_bars@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 6,
+            "z": -6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@1"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": -4,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -9,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -9,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "chisel:glasspane@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -10,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "z": -5,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": -4,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "minecraft:quartz_stairs@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": -4,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -9,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -10,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -9,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "chisel:glasspane@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -9,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "chisel:glasspane@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "chisel:glasspane@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "chisel:glasspane@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -9,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:nether_brick_fence@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "z": -7,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 6,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": -4,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_bars@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_stairs@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": -4,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "chisel:glasspane@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_stairs@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:iron_bars@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -9,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "minecraft:iron_bars@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 9,
+            "z": -7,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "z": -6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "minecraft:quartz_stairs@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "minecraft:iron_bars@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": -6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "minecraft:nether_brick_fence@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "minecraft:quartz_stairs@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 10,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "z": -6,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "chisel:glasspane@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "z": -7,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": -5,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 8,
+            "z": -7,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": -5,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": -5,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "minecraft:iron_bars@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": -6,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "minecraft:iron_bars@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "minecraft:quartz_stairs@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": -2,
+            "elements": [
+                "chisel:glasspane@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -10,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "minecraft:nether_brick_fence@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "minecraft:quartz_stairs@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 8,
+            "z": -6,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": -1,
+            "elements": [
+                "chisel:glasspane@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_stairs@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "minecraft:quartz_stairs@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -8,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "actuallyadditions:block_chiseled_quartz_slab@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "minecraft:quartz_block@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "chisel:blocksteel@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_stairs@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "chisel:concrete_gray@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        }
+    ]}

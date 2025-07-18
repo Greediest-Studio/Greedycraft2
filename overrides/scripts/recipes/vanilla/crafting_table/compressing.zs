@@ -3,7 +3,6 @@
  * You may NOT use this script in any other publicly distributed modpack without my permission. 
  */
 
-#priority 3999
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
@@ -16,8 +15,11 @@ import mods.jaopca.JAOPCA;
 import scripts.util.recipes as RecipeUtil;
 
 var compressingOreDict as string[] = [];
-for name in JAOPCA.getMaterialsForType("INGOT") {
-    compressingOreDict += name.name;
+for name in JAOPCA.getAllMaterials() {
+    var nameStr as string = name.name;
+    if (!isNull(oreDict.get("ingot" ~ nameStr).firstItem) && !isNull(oreDict.get("block" ~ nameStr).firstItem)) {
+        compressingOreDict += nameStr;
+    }
 }
 
 for od in compressingOreDict {

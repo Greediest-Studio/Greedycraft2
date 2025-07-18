@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "弗拉克块",
+    "ore_dict": "blockFraxinium",
+    "type": "additions:block_simple"
+  },
+  "name": "弗拉克块",
+  "material": "minecraft:metal",
+  "hardness": 1.0,
+  "resistance": 4000.0,
+  "harvest_level": 12,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

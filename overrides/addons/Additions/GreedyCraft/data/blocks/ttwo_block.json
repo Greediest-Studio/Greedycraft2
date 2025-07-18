@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "贰素块",
+    "ore_dict": "blockTtwo",
+    "type": "additions:block_simple"
+  },
+  "name": "贰素块",
+  "material": "minecraft:metal",
+  "hardness": 1.0,
+  "resistance": 4000.0,
+  "harvest_level": 10,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

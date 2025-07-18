@@ -1,0 +1,6126 @@
+{
+    "registryname": "elysia_forger",
+    "localizedname": "§cELYSIA单元 - 大型铸造单元",
+    "requires-blueprint": false,
+    "failure-action": "still",
+    "color": "eeeeee",
+    "modifiers": [
+        {
+            "elements": "modularmachinery:blockcasing@1",
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "description": "将控制器下方紧挨着的方块换成此方块以降低配方制作时间至75%！",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.75
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@2",
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "description": "将控制器下方紧挨着的方块换成此方块以降低配方制作时间至66%！",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.66
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@3",
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "description": "将控制器下方紧挨着的方块换成此方块以降低配方制作时间至50%！",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.5
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@5",
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "description": "将控制器下方紧挨着的方块换成此方块以降低配方制作时间至33%！",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.33
+            }
+        }
+    ],
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "chisel:blockinvar@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "tconstruct:metal@1"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "chisel:blockinvar@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "chisel:blockinvar@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "tconstruct:metal@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "chisel:blockcobalt@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "taiga:nihilite_block@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "chisel:blockcobalt@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:blockinvar@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "quark:stone_marble_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "quark:stone_marble_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "taiga:nihilite_block@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "quark:stone_marble_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:blockcobalt@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "chisel:blockinvar@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "chisel:blockcobalt@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "quark:stone_marble_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "quark:stone_marble_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "quark:stone_marble_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "tconstruct:metal@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "tconstruct:metal@1"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "quark:stone_marble_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "chisel:blockinvar@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "astralsorcery:blockmarblestairs@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "tconstruct:metal@1"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "quark:stone_marble_bricks_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:blockcobalt@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "chisel:blockinvar@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "taiga:nihilite_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "quark:stone_marble_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "taiga:nihilite_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "quark:stone_marble_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "mekanism:basicblock@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -11,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "quark:stone_marble_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "chisel:blockcobalt@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "quark:stone_marble_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:blockinvar@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:obsidian@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "quark:stone_marble_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "astralsorcery:blockmarble@1"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "enderio:block_alloy@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "chisel:blocktin@4"
+            ]
+        },
+        {
+            "x": -13,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "endreborn:block_wolframium@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:iron@5"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "tconstruct:metal@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "quark:biotite_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "astralsorcery:blockmarblestairs@2"
+            ]
+        }
+    ]}

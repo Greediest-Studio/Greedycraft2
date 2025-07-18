@@ -1,0 +1,16 @@
+{
+  "preset_block": "additions:babyrite_block",
+  "pools": [
+    {
+      "name": "block_itself_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:babyrite_block"
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_itself"
+}

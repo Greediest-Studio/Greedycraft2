@@ -1,0 +1,8014 @@
+{
+    "registryname": "elysia_centrifuge",
+    "localizedname": "§cELYSIA单元 - 大型离心单元",
+    "requires-blueprint": false,
+    "failure-action": "still",
+    "color": "bebcb7",
+    "modifiers": [
+        {
+            "elements": "modularmachinery:blockcasing@1",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至75%！",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.75
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@2",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至66%！",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.66
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@3",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至50%！",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.5
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@5",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至33%！",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.33
+            }
+        }
+    ],
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:storage@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 8,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:storage@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 10,
+            "z": 8,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 12,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:storage@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "chisel:concrete_black1@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "z": 9,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:storage@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 11,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "actuallyadditions:block_misc@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 12,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:storage@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 11,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 10,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 13,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 10,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 12,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 12,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "chisel:concrete_black1@11"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:iron@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 10,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 12,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 12,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 13,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 8,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:storage@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 10,
+            "z": 8,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 8,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:storage@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 12,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 14,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:storage@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 11,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:storage@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "actuallyadditions:block_misc@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:concrete_black1@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:iron@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 10,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:storage@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 6,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 11,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 11,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:iron@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 10,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:iron@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 12,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 12,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 12,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 10,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 15,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:storage@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:concrete_black1@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 9,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:concrete_black1@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:concrete_black1@11"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "actuallyadditions:block_misc@9"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 11,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 9,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 13,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 12,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 14,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:storage@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 13,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 12,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 12,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "actuallyadditions:block_misc@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 13,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:storage@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:concrete_black1@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 13,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 14,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:storage@3"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:concrete_black1@11"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 12,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 12,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:storage@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:storage@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:storage@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": 8,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "actuallyadditions:block_misc@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 12,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 12,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 6,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 12,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 10,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 11,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 10,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 11,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 11,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:storage@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "z": 10,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:storage@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:concrete_black1@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 15,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "actuallyadditions:block_misc@9"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 15,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:concrete_black1@11"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:concrete_black1@11"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 8,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 11,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": 10,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 8,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 14,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:concrete_black1@11"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 11,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:concrete_black1@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 9,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 14,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 15,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 13,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "actuallyadditions:block_misc@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 13,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 12,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 3,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 13,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "actuallyadditions:block_misc@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 15,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 13,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "z": 9,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:concrete_black1@11"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "z": 8,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 10,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 8,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 12,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 15,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 15,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 15,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "z": 8,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 11,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 10,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 10,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:concrete_black1@11"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "chisel:concrete_black1@11"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:blockaluminum@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "thermalfoundation:storage@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 10,
+            "elements": [
+                "minecraft:stone_slab@15"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 11,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 10,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@11"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 9,
+            "z": 10,
+            "elements": [
+                "chisel:blockcopper@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:iron@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:quartz1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 12,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "actuallyadditions:block_misc@1"
+            ]
+        }
+    ]}

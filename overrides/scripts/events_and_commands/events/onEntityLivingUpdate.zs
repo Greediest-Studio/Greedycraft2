@@ -50,7 +50,7 @@ events.onEntityLivingUpdate(function(event as EntityLivingUpdateEvent) {
 
     // Kill Darkness Dragon
     if (!isNull(entity.definition)) {
-        if (entity.definition.id == "ageofminecraft:untame_darkness") {
+        if (entity.definition.id == "ageofminecraft:enderdragonhelpful") {
             entity.world.removeEntity(entity);
         }
     }

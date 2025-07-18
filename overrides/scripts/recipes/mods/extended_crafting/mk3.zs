@@ -157,7 +157,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:gloomy_passport>, [
 	[null, null, null, <ore:ingotDullium>, null, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:impetus_forge_controller>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:impetus_forge_factory_controller>, [
 	[<ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>], 
 	[<ore:plateVoid>, <ore:ingotInfernium>, <ore:ingotInfernium>, <ore:ingotInfernium>, <ore:ingotInfernium>, <ore:ingotInfernium>, <ore:plateVoid>], 
 	[<ore:plateVoid>, <ore:ingotInfernium>, <thaumicaugmentation:material:3>, <thaumicaugmentation:material:5>, <thaumicaugmentation:material:3>, <ore:ingotInfernium>, <ore:plateVoid>], 
@@ -189,7 +189,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mac:stratified_precipitato
 	[null, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:factory_atomic_vibrator_controller>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:factory_atomic_vibrator_factory_controller>, [
 	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
 	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
 	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:circuitFinal>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:blockModularium>], 
@@ -199,7 +199,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:factory_atomi
 	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:factory_atomic_decayer_controller>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:factory_atomic_decayer_factory_controller>, [
 	[<ore:ingotElectronium>, <ore:ingotElectronium>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotElectronium>, <ore:ingotElectronium>], 
 	[<ore:ingotElectronium>, <ore:ingotElectronium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotElectronium>, <ore:ingotElectronium>], 
 	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:circuitFinal>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:blockModularium>], 
@@ -209,7 +209,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:factory_atomi
 	[<ore:ingotElectronium>, <ore:ingotElectronium>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotElectronium>, <ore:ingotElectronium>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:factory_atomic_acider_controller>, [
+mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:factory_atomic_acider_factory_controller>, [
 	[<ore:ingotProtonium>, <ore:ingotProtonium>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotProtonium>, <ore:ingotProtonium>], 
 	[<ore:ingotProtonium>, <ore:ingotProtonium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotProtonium>, <ore:ingotProtonium>], 
 	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:circuitFinal>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:blockModularium>], 

@@ -186,21 +186,6 @@ minecraft:luck
        minecraft:luck - 6000 - 0 - false - true
 
 
-ageofminecraft:breaking
-   - Effects: 
-       ageofminecraft:breaking - 3600 - 0 - false - true
-
-
-ageofminecraft:long_breaking
-   - Effects: 
-       ageofminecraft:breaking - 9600 - 0 - false - true
-
-
-ageofminecraft:strong_breaking
-   - Effects: 
-       ageofminecraft:breaking - 1800 - 1 - false - true
-
-
 randomthings:collapse
    - Effects: 
        randomthings:collapse - 450 - 0 - false - true
@@ -311,16 +296,6 @@ tiths:hard_ice
        tiths:hard_ice - 3600 - 0 - false - true
 
 
-enderio:confusion
-   - Effects: 
-       minecraft:nausea - 900 - 0 - false - true
-
-
-enderio:long_confusion
-   - Effects: 
-       minecraft:nausea - 2400 - 0 - false - true
-
-
 enderio:withering
    - Effects: 
        minecraft:wither - 900 - 0 - false - true
@@ -344,6 +319,31 @@ enderio:strong_floating
 enderio:long_floating
    - Effects: 
        minecraft:levitation - 560 - 0 - false - true
+
+
+enderio:confusion
+   - Effects: 
+       minecraft:nausea - 900 - 0 - false - true
+
+
+enderio:long_confusion
+   - Effects: 
+       minecraft:nausea - 2400 - 0 - false - true
+
+
+quark:resilience
+   - Effects: 
+       quark:resilience - 3600 - 0 - false - true
+
+
+quark:long_resilience
+   - Effects: 
+       quark:resilience - 9600 - 0 - false - true
+
+
+quark:strong_resilience
+   - Effects: 
+       quark:resilience - 1800 - 1 - false - true
 
 
 quark:haste
@@ -401,19 +401,24 @@ quark:long_danger_sight
        quark:danger_sight - 9600 - 0 - false - true
 
 
-quark:resilience
+netherex:freezing
    - Effects: 
-       quark:resilience - 3600 - 0 - false - true
+       netherex:frozen - 600 - 0 - false - true
 
 
-quark:long_resilience
+netherex:frigid_health
    - Effects: 
-       quark:resilience - 9600 - 0 - false - true
+       netherex:frostbitten - 600 - 0 - false - true
 
 
-quark:strong_resilience
+netherex:dispersal
    - Effects: 
-       quark:resilience - 1800 - 1 - false - true
+       netherex:infested - 600 - 0 - false - true
+
+
+netherex:sorrow
+   - Effects: 
+       netherex:crying - 600 - 0 - false - true
 
 
 potioncore:saturation
@@ -1084,26 +1089,6 @@ mowziesmobs:poison_resist
 mowziesmobs:long_poison_resist
    - Effects: 
        mowziesmobs:poison_resist - 9600 - 0 - false - true
-
-
-netherex:freezing
-   - Effects: 
-       netherex:frozen - 600 - 0 - false - true
-
-
-netherex:frigid_health
-   - Effects: 
-       netherex:frostbitten - 600 - 0 - false - true
-
-
-netherex:dispersal
-   - Effects: 
-       netherex:infested - 600 - 0 - false - true
-
-
-netherex:sorrow
-   - Effects: 
-       netherex:crying - 600 - 0 - false - true
 
 
 oe:turtle_master

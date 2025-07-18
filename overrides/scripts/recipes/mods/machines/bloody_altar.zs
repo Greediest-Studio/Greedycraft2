@@ -2,7 +2,8 @@
  * This script is created for the GreedyCraft Tweaks by mc_Edwin.
  * 被孤梦梦梦梦完全重做！！！
  */
-
+ 
+/*
 #priority 50
 #loader crafttweaker reloadable
 
@@ -37,44 +38,40 @@ import mods.modularmachinery.SmartInterfaceType;
 import mods.modularmachinery.FactoryRecipeThread;
 
 
-val tbmk = FactoryRecipeThread.createCoreThread("§4§l同步模块");
-val srmk = FactoryRecipeThread.createCoreThread("§4§l生命源质输入模块");
-//val wxmk = FactoryRecipeThread.createCoreThread("§4§l生命源质外显模块");
-val hcmk = FactoryRecipeThread.createCoreThread("§4§l祭坛合成模块");
+val tbmk = FactoryRecipeThread.createCoreThread("同步模块");
+val srmk = FactoryRecipeThread.createCoreThread("生命源质输入模块");
+val hcmk = FactoryRecipeThread.createCoreThread("祭坛合成模块");
 
+MachineModifier.addCoreThread("blood_altar", tbmk);
+MachineModifier.addCoreThread("blood_altar", srmk);
+MachineModifier.addCoreThread("blood_altar", hcmk);
 
-for i in 7 to 9 {
-    MachineModifier.addCoreThread("blood_altar_mk" + i, tbmk);
-    MachineModifier.addCoreThread("blood_altar_mk" + i, srmk);
-    //MachineModifier.addCoreThread("blood_altar_mk" + i, wxmk);
-    MachineModifier.addCoreThread("blood_altar_mk" + i, hcmk);
-}
+MachineModifier.setMaxThreads("blood_altar", 0 as int);
+MachineModifier.setInternalParallelism("blood_altar", 2147483647);
 
-for i in 7 to 9 {
-    MachineModifier.setMaxThreads("blood_altar_mk" + i, 0 as int);
-    MachineModifier.setInternalParallelism("blood_altar_mk" + i,200000000);
-    MMEvents.onControllerGUIRender("blood_altar_mk" + i , function(event as ControllerGUIRenderEvent) {
-        val ctrl = event.controller;
-        val data = ctrl.customData;
-        val map = data.asMap();
-        val rl = isNull(map["rl"]) ? 0 : map["rl"].asInt();
-        val sd = isNull(map["sd"]) ? 0.0f : map["sd"].asFloat();
-        val dqsd = sd + 1.0f;
-        val zw = 1 * (isNull(map["zw"]) ? 0.0f : map["zw"].asInt());
-        val zy = isNull(map["zy"]) ? 0.0f : map["zy"].asFloat();
-        val dqrl = isNull(map["dqrl"]) ? 0 : map["dqrl"].asInt();
-        val dczy = 1 * (zy * 400.0f);
-        var info as string[] = [
-            "§4§l///血之祭坛监控系统///",
-            "§4§l当前血之祭坛等级：" + i ,
-            "§4§l当前生命源质储备：" + dqrl + "/" + rl ,
-            "§4§l每次转移/消耗生命源质所需时间：" + zw + "§4§ltick" ,
-            "§4§l每次转移/消耗生命源质最大数量：" + dczy + "§4§lmB" ,
-            "§4§l合成速度：" + dqsd +"x"
-        ];
-        event.extraInfo = info;
-    });
-}
+MMEvents.onControllerGUIRender("blood_altar" , function(event as ControllerGUIRenderEvent) {
+    val ctrl = event.controller;
+    val data = ctrl.customData;
+    val map = data.asMap();
+    val rl = isNull(map["rl"]) ? 0 : map["rl"].asInt();
+    val sd = isNull(map["sd"]) ? 0.0f : map["sd"].asFloat();
+    val dqsd = sd + 1.0f;
+    val zw = 1 * (isNull(map["zw"]) ? 0.0f : map["zw"].asInt());
+    val zy = isNull(map["zy"]) ? 0.0f : map["zy"].asFloat();
+    val dqrl = isNull(map["dqrl"]) ? 0 : map["dqrl"].asInt();
+    val lvl = isNull(map["level"]) ? 1 : map["level"].asInt();
+    val dczy = 1 * (zy * 400.0f);
+    var info as string[] = [
+        "§e///血之祭坛监控系统///",
+        "§e当前血之祭坛等级：" + lvl,
+        "§e当前生命源质储备：" + dqrl + "/" + rl ,
+        "§e每次转移/消耗生命源质所需时间：" + zw + "§etick" ,
+        "§e每次转移/消耗生命源质最大数量：" + dczy + "§emB" ,
+        "§e合成速度：" + dqsd +"x"
+    ];
+    event.extraInfo = info;
+});
+
 
 function dataget(event as FactoryRecipeFinishEvent) {
     val ctrl = event.controller;
@@ -84,11 +81,22 @@ function dataget(event as FactoryRecipeFinishEvent) {
     val cpos = ctrl.pos;
     val apos = cpos.up(7);
     val adata = world.getBlock(apos).data;
+    val levelmap as int[string] = {
+        "ONE" : 1,
+        "TWO" : 2,
+        "THREE" : 3,
+        "FOUR" : 4,
+        "FIVE" : 5,
+        "SIX" : 6
+    };
+    val level = isNull(adata.bloodAltar.upgradeLevel) ? 1 : levelmap[adata.bloodAltar.upgradeLevel];
+    if ((isNull(map["level"]) ? 1 : map["level"].asInt()) < 7) {
+        map["level"] = level;
+    }
     map["rl"] = isNull(adata.bloodAltar.capacity) ? 10000 : adata.bloodAltar.capacity.asInt();//容量
     map["sd"] = isNull(adata.bloodAltar.consumptionMultiplier) ? 0 : adata.bloodAltar.consumptionMultiplier.asFloat();//速度符文
     map["zw"] = isNull(adata.bloodAltar.chargeFrequency) ? 0 as int : adata.bloodAltar.chargeFrequency.asFloat() * 1;//多少t工作一次(20 - 转位符文)
     map["zy"] = isNull(adata.bloodAltar.dislocationMultiplier) ? 1.0f : adata.bloodAltar.dislocationMultiplier.asFloat();//单次转移倍数
-    //map["cc"] = isNull(adata.bloodAltar.Amount) ? 0 : adata.bloodAltar.Amount.asInt();//当前祭坛存储lp
     val zw = isNull(map["zw"]) ? 0 : map["zw"].asInt();
     val sd = isNull(map["sd"]) ? 0 : map["sd"].asInt();
     val zy = isNull(map["zy"]) ? 1.0f : map["zy"].asFloat();
@@ -98,38 +106,40 @@ function dataget(event as FactoryRecipeFinishEvent) {
 }
 
 function recipe(input as IItemStack,output as IItemStack,lp as float,minlvl as int) {
-    for i in minlvl to 9 {
-        RecipeBuilder.newBuilder(input.definition.id + i + lp, "blood_altar_mk" + i, 1, 3)
-            .addPreCheckHandler(function(event as RecipeCheckEvent) {
-                event.activeRecipe.maxParallelism = 16;
-            })
-            .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
-                val ctrl = event.controller;
-                val thread = event.factoryRecipeThread;
-                val map = ctrl.customData.asMap();
-                val sj = 1.0f * (isNull(map["sj"]) ? 0.0f : map["sj"].asInt());
-                val time = (lp/10000.0f) * sj;
-                thread.addModifier("recipetime", RecipeModifierBuilder.create("modularmachinery:duration", "input", sj, 1, false).build());
-            })
-            .addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
-                val ctrl = event.controller;
-                val data = ctrl.customData;
-                val map = data.asMap();
-                val dqrl = isNull(map["dqrl"]) ? 0 : map["dqrl"].asInt();
-                if dqrl < lp {
-                    event.setFailed(false,"§4§l生命源质不足");
-                }
-            })
-            .addItemInput(input)
-            .setThreadName("§4§l祭坛合成模块")
-            .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
-                val bx = event.activeRecipe.parallelism;
-                change(event,(-1 * lp) * bx);
-            })
-            .addRecipeTooltip(["§4§l消耗" + (1 * lp) + "§4§l点模块化内部生命源质","§4§lJEI显示配方时间仅供参考","§4§l实际配方时间见控制器","§4§l固定最大并行数：16"])
-            .addItemOutput(output)
-            .build();
-    }
+
+    RecipeBuilder.newBuilder(input.definition.id + lp, "blood_altar", 1, 3)
+        .addPreCheckHandler(function(event as RecipeCheckEvent) {
+            val map = event.controller.customData.asMap();
+            val lvl = isNull(map["level"]) ? 1 : map["level"].asInt();
+            if (minlvl > lvl) {event.setFailed("§e祭坛等级不足");}
+            event.activeRecipe.maxParallelism = 16;
+        })
+        .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
+            val ctrl = event.controller;
+            val thread = event.factoryRecipeThread;
+            val map = ctrl.customData.asMap();
+            val sj = 1.0f * (isNull(map["sj"]) ? 0.0f : map["sj"].asInt());
+            val time = (lp/10000.0f) * sj;
+            thread.addModifier("recipetime", RecipeModifierBuilder.create("modularmachinery:duration", "input", sj, 1, false).build());
+        })
+        .addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
+            val ctrl = event.controller;
+            val data = ctrl.customData;
+            val map = data.asMap();
+            val dqrl = isNull(map["dqrl"]) ? 0 : map["dqrl"].asInt();
+            if dqrl < lp {
+                event.setFailed(false,"§e生命源质不足");
+            }
+        })
+        .addItemInput(input)
+        .setThreadName("祭坛合成模块")
+        .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
+            val bx = event.activeRecipe.parallelism;
+            change(event,(-1 * lp) * bx);
+        })
+        .addRecipeTooltip(["§e消耗" + (1 * lp) + "§e点模块化内部生命源质","§eJEI显示配方时间仅供参考","§e实际配方时间见控制器","§e固定最大并行数：16"])
+        .addItemOutput(output)
+        .build();
 }
 
 function change(event as FactoryRecipeFinishEvent,lp as int) {
@@ -192,56 +202,55 @@ recipe(<minecraft:bone_block>,<additions:ivorium_ingot>,1280000.0f,7);
 recipe(<additions:slate_7>,<additions:slate_8>,8000000.0f,8);
 recipe(<additions:balanced_slate>,<additions:murderite_ingot>,20000000.0f,8);
 
-for i in 7 to 10 {
-    RecipeBuilder.newBuilder("tongbu" + i, "blood_altar_mk" + i, 50, 0)
-        .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
-            dataget(event);
-        })
-        .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
-            val ctrl = event.controller;
-            val data = ctrl.customData;
-            val map = data.asMap();
-            if (!isNull(map["dqrl"]) && map["dqrl"] < 0) {
-                map["dqrl"] = 0;
-                ctrl.customData = data;
-            }
-        })
-        .setParallelized(false)
-        .setThreadName("§4§l同步模块")
-        .addRecipeTooltip("§4§l与控制器上方血之祭坛同步","§4§l容量/合成/输入输出速度继承自血之祭坛")
-        .build();
+RecipeBuilder.newBuilder("tongbu", "blood_altar", 50, 0)
+    .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
+        dataget(event);
+    })
+    .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
+        val ctrl = event.controller;
+        val data = ctrl.customData;
+        val map = data.asMap();
+        if (!isNull(map["dqrl"]) && map["dqrl"] < 0) {
+            map["dqrl"] = 0;
+            ctrl.customData = data;
+        }
+    })
+    .setParallelized(false)
+    .setThreadName("同步模块")
+    .addRecipeTooltip("§e与控制器上方血之祭坛同步","§e容量/合成/输入输出速度继承自血之祭坛")
+    .build();
 
-    RecipeBuilder.newBuilder("tianjia" + i, "blood_altar_mk" + i, 1, 1)
-        .addPreCheckHandler(function(event as RecipeCheckEvent) {
-            val ctrl = event.controller;
-            val data = ctrl.customData;
-            val map = data.asMap();
-            val zy = isNull(map["zy"]) ? 0.0f : map["zy"].asFloat();
-            val dczy = 1 * (zy * 400.0f);
-            event.activeRecipe.maxParallelism = dczy;
-            if ((!isNull(map["dqrl"]) && !isNull(map["rl"])) && (map["dqrl"] >= map["rl"])) {
-                map["dqrl"] = map["rl"];
-                ctrl.customData = data;
-                event.setFailed("§4§l祭坛已满");
-            }
-        })
-        .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
-            val ctrl = event.controller;
-            val data = ctrl.customData;
-            val map = data.asMap();
-            val thread = event.factoryRecipeThread;
-            val zw = 1.0f * (isNull(map["zw"]) ? 20 : map["zw"]);
-            thread.addModifier("tianjiashijian", RecipeModifierBuilder.create("modularmachinery:duration", "input", zw, 1, false).build());
-        })
-        .addFluidInput(<liquid:lifeessence> * 1)
-        .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
-            val ctrl = event.controller;
-            val data = ctrl.customData;
-            val map = data.asMap();
-            val bx = event.activeRecipe.parallelism;
-            change(event,bx);
-        })
-        .addRecipeTooltip(["§4§l添加生命源质","§4§lJEI显示配方仅供参考","§4§l实际见控制器"])
-        .setThreadName("§4§l生命源质输入模块")
-        .build();
-}
+RecipeBuilder.newBuilder("tianjia", "blood_altar", 1, 1)
+    .addPreCheckHandler(function(event as RecipeCheckEvent) {
+        val ctrl = event.controller;
+        val data = ctrl.customData;
+        val map = data.asMap();
+        val zy = isNull(map["zy"]) ? 0.0f : map["zy"].asFloat();
+        val dczy = 1 * (zy * 400.0f);
+        event.activeRecipe.maxParallelism = dczy;
+        if ((!isNull(map["dqrl"]) && !isNull(map["rl"])) && (map["dqrl"] >= map["rl"])) {
+            map["dqrl"] = map["rl"];
+            ctrl.customData = data;
+            event.setFailed("§e祭坛已满");
+        }
+    })
+    .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
+        val ctrl = event.controller;
+        val data = ctrl.customData;
+        val map = data.asMap();
+        val thread = event.factoryRecipeThread;
+        val zw = 1.0f * (isNull(map["zw"]) ? 20 : map["zw"]);
+        thread.addModifier("tianjiashijian", RecipeModifierBuilder.create("modularmachinery:duration", "input", zw, 1, false).build());
+    })
+    .addFluidInput(<liquid:lifeessence> * 1)
+    .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
+        val ctrl = event.controller;
+        val data = ctrl.customData;
+        val map = data.asMap();
+        val bx = event.activeRecipe.parallelism;
+        change(event,bx);
+    })
+    .addRecipeTooltip(["§e添加生命源质","§eJEI显示配方仅供参考","§e实际见控制器"])
+    .setThreadName("生命源质输入模块")
+    .build();
+*/

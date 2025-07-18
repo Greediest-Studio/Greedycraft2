@@ -9,6 +9,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.oredict.IOreDictEntry;
 
 import mods.nuclearcraft.Melter;
 import mods.nuclearcraft.ChemicalReactor;
@@ -22,6 +23,7 @@ import mods.nuclearcraft.Separator;
 import mods.nuclearcraft.Enricher;
 import mods.nuclearcraft.Centrifuge;
 import mods.nuclearcraft.SaltMixer;
+import mods.nuclearcraft.IngotFormer;
 import mods.nuclearcraft.Registration;
 import mods.tconstruct.Alloy;
 
@@ -42,6 +44,13 @@ function CreateElementMixer(inputIngot as IIngredient, inputDust as IIngredient,
     Alloy.addRecipe(liquid * isotopeNum, [liquid1 * out1, liquid2 * out2]);
 }
 
+function CreateMeltingRecipe(oredict as string, output as ILiquidStack) as void {
+    if (!isNull(oreDict.get("ingot" + oredict).firstItem)) Melter.addRecipe(oreDict.get("ingot" + oredict), output * 144);
+    if (!isNull(oreDict.get("dust" + oredict).firstItem)) Melter.addRecipe(oreDict.get("dust" + oredict), output * 144);
+    if (!isNull(oreDict.get("nugget" + oredict).firstItem)) Melter.addRecipe(oreDict.get("nugget" + oredict), output * 16);
+    if (!isNull(oreDict.get("block" + oredict).firstItem)) Melter.addRecipe(oreDict.get("block" + oredict), output * 1296);
+}
+
 Alloy.addRecipe(<liquid:uranium> * 10, [<liquid:uranium_238> * 9, <liquid:uranium_235> * 1]);
 
 CreateElementMixer(<ore:ingotNeptunium>, <ore:dustNeptunium>, <nuclearcraft:neptunium:5>, <nuclearcraft:neptunium>, <liquid:neptunium>, <liquid:neptunium_237>, <liquid:neptunium_236>, 5, 1);
@@ -49,18 +58,66 @@ CreateElementMixer(<ore:ingotPlutonium>, <ore:dustPlutonium>, <nuclearcraft:plut
 
 Melter.removeRecipeWithInput(<nuclearcraft:gem_dust:10>);
 Melter.removeRecipeWithInput(<nuclearcraft:gem:6>);
-/*
-Melter.removeRecipeWithOutput(<liquid:hydrogen>);
-Melter.removeRecipeWithOutput(<liquid:helium>);
-Melter.removeRecipeWithOutput(<liquid:nitrogen>);
-Melter.removeRecipeWithOutput(<liquid:oxygen>);
-Melter.removeRecipeWithOutput(<liquid:fluorine>);
-Melter.removeRecipeWithOutput(<liquid:neon>);
-Melter.removeRecipeWithOutput(<liquid:argon>);
-Melter.removeRecipeWithOutput(<liquid:krypton>);
-Melter.removeRecipeWithOutput(<liquid:xenon>);
-Melter.removeRecipeWithOutput(<liquid:radon>);
-*/
+
+var removeMb as int[] = [16, 144, 1296];
+for mb in removeMb {
+    Melter.removeRecipeWithOutput(<liquid:hydrogen> * mb);
+    Melter.removeRecipeWithOutput(<liquid:helium> * mb);
+    Melter.removeRecipeWithOutput(<liquid:nitrogen> * mb);
+    Melter.removeRecipeWithOutput(<liquid:oxygen> * mb);
+    Melter.removeRecipeWithOutput(<liquid:fluorine> * mb);
+    Melter.removeRecipeWithOutput(<liquid:neon> * mb);
+    Melter.removeRecipeWithOutput(<liquid:argon> * mb);
+    Melter.removeRecipeWithOutput(<liquid:krypton> * mb);
+    Melter.removeRecipeWithOutput(<liquid:xenon> * mb);
+    Melter.removeRecipeWithOutput(<liquid:radon> * mb);
+}
+
+Melter.addRecipe(<ore:ingotHydrogen>, <liquid:hydrogen> * 46080);
+Melter.addRecipe(<ore:dustHydrogen>, <liquid:hydrogen> * 46080);
+Melter.addRecipe(<ore:nuggetHydrogen>, <liquid:hydrogen> * 5120);
+Melter.addRecipe(<ore:blockHydrogen>, <liquid:hydrogen> * 414720);
+Melter.addRecipe(<ore:ingotHelium>, <liquid:helium> * 46080);
+Melter.addRecipe(<ore:dustHelium>, <liquid:helium> * 46080);
+Melter.addRecipe(<ore:nuggetHelium>, <liquid:helium> * 5120);
+Melter.addRecipe(<ore:blockHelium>, <liquid:helium> * 414720);
+Melter.addRecipe(<ore:ingotNitrogen>, <liquid:nitrogen> * 46080);
+Melter.addRecipe(<ore:dustNitrogen>, <liquid:nitrogen> * 46080);
+Melter.addRecipe(<ore:nuggetNitrogen>, <liquid:nitrogen> * 5120);
+Melter.addRecipe(<ore:blockNitrogen>, <liquid:nitrogen> * 414720);
+Melter.addRecipe(<ore:ingotOxygen>, <liquid:oxygen> * 46080);
+Melter.addRecipe(<ore:dustOxygen>, <liquid:oxygen> * 46080);
+Melter.addRecipe(<ore:nuggetOxygen>, <liquid:oxygen> * 5120);
+Melter.addRecipe(<ore:blockOxygen>, <liquid:oxygen> * 414720);
+Melter.addRecipe(<ore:ingotFluorine>, <liquid:fluorine> * 46080);
+Melter.addRecipe(<ore:dustFluorine>, <liquid:fluorine> * 46080);
+Melter.addRecipe(<ore:nuggetFluorine>, <liquid:fluorine> * 5120);
+Melter.addRecipe(<ore:blockFluorine>, <liquid:fluorine> * 414720);
+Melter.addRecipe(<ore:ingotNeon>, <liquid:neon> * 46080);
+Melter.addRecipe(<ore:dustNeon>, <liquid:neon> * 46080);
+Melter.addRecipe(<ore:nuggetNeon>, <liquid:neon> * 5120);
+Melter.addRecipe(<ore:blockNeon>, <liquid:neon> * 414720);
+Melter.addRecipe(<ore:ingotArgon>, <liquid:argon> * 46080);
+Melter.addRecipe(<ore:dustArgon>, <liquid:argon> * 46080);
+Melter.addRecipe(<ore:nuggetArgon>, <liquid:argon> * 5120);
+Melter.addRecipe(<ore:blockArgon>, <liquid:argon> * 414720);
+Melter.addRecipe(<ore:ingotKrypton>, <liquid:krypton> * 46080);
+Melter.addRecipe(<ore:dustKrypton>, <liquid:krypton> * 46080);
+Melter.addRecipe(<ore:nuggetKrypton>, <liquid:krypton> * 5120);
+Melter.addRecipe(<ore:blockKrypton>, <liquid:krypton> * 414720);
+Melter.addRecipe(<ore:ingotXenon>, <liquid:xenon> * 46080);
+Melter.addRecipe(<ore:dustXenon>, <liquid:xenon> * 46080);
+Melter.addRecipe(<ore:nuggetXenon>, <liquid:xenon> * 5120);
+Melter.addRecipe(<ore:blockXenon>, <liquid:xenon> * 414720);
+Melter.addRecipe(<ore:ingotRadon>, <liquid:radon> * 46080);
+Melter.addRecipe(<ore:dustRadon>, <liquid:radon> * 46080);
+Melter.addRecipe(<ore:nuggetRadon>, <liquid:radon> * 5120);
+Melter.addRecipe(<ore:blockRadon>, <liquid:radon> * 414720);
+Melter.addRecipe(<ore:ingotChlorine>, <liquid:liquidchlorine> * 46080);
+Melter.addRecipe(<ore:dustChlorine>, <liquid:liquidchlorine> * 46080);
+Melter.addRecipe(<ore:nuggetChlorine>, <liquid:liquidchlorine> * 5120);
+Melter.addRecipe(<ore:blockChlorine>, <liquid:liquidchlorine> * 414720);
+
 Melter.addRecipe(<ore:dustSulfur>, <liquid:burningsulfurflow> * 144, 1.0, 1.0, 0.0);
 Melter.addRecipe(<ore:ingotSulfur>, <liquid:burningsulfurflow> * 144, 1.0, 1.0, 0.0);
 Melter.addRecipe(NaCl, <liquid:sodium_chloride> * 666);
@@ -72,9 +129,71 @@ Melter.addRecipe(CaCl2, <liquid:calcium_chloride> * 666);
 Melter.addRecipe(SrCl2, <liquid:strontium_chloride> * 666);
 Melter.addRecipe(BaCl2, <liquid:barium_chloride> * 666);
 Melter.addRecipe(<ore:materialMethane>, <liquid:methane> * 200);
-Melter.addRecipe(<ore:dustArsenic>, <liquid:arsenic> * 144);
-Melter.addRecipe(<ore:ingotArsenic>, <liquid:arsenic> * 144);
+Melter.addRecipe(<ore:gemAncientDebris>, <liquid:ancient_debris> * 160);
+Melter.addRecipe(<ore:oreAncientDebris>, <liquid:ancient_debris> * 320);
+Melter.addRecipe(<ore:gemResonantDebris>, <liquid:resonant_debris> * 160);
+Melter.addRecipe(<ore:oreResonantDebris>, <liquid:resonant_debris> * 320);
+Melter.addRecipe(<gct_mobs:resonate_debris_cracked>, <liquid:resonant_debris> * 160);
+Melter.addRecipe(<ore:gemGravityDebris>, <liquid:gravity_debris> * 160);
+Melter.addRecipe(<ore:oreGravityDebris>, <liquid:gravity_debris> * 320);
+Melter.addRecipe(<ore:stairScorched>, <liquid:scorched> * 432);
+Melter.addRecipe(<ore:blockScorched>, <liquid:scorched> * 576);
+Melter.addRecipe(<ore:slabScorched>, <liquid:scorched> * 288);
+Melter.addRecipe(<ore:ingotBrickScorched>, <liquid:scorched> * 144);
+Melter.addRecipe(<ore:itemSilicon>, <liquid:silicon> * 36);
+Melter.addRecipe(<twilightforest:mazebreaker_pickaxe>, <liquid:fracturite> * 432);
+/*
+var meltingStack as ILiquidStack[string] = {
+    "Arsenic" : <liquid:arsenic>,
+    "Everite" : <liquid:everite>,
+    "Genite" : <liquid:genite>,
+    "TerraAlloy" : <liquid:terra_alloy>,
+    "SkyAlloy" : <liquid:sky_alloy>,
+    "FireAlloy" : <liquid:fire_alloy>,
+    "IceAlloy" : <liquid:ice_alloy>,
+    "DraconiumAwakened" : <liquid:awakened_draconium>,
+    "DraconiumChaotic" : <liquid:chaotic_draconium>,
+    "DraconiumRuled" : <liquid:ruled_draconium>,
+    "WitheriumRelifed" : <liquid:relifed_witherium>,
+    "WitheriumStormy" : <liquid:stormy_witherium>,
+    "WitheriumEquipment" : <liquid:equipment_witherium>,
+    "OrderedMetal" : <liquid:ordered_metal>,
+    "Densite" : <liquid:densite>,
+    "Reditrite" : <liquid:reditrite>,
+    "FusionMatrix" : <liquid:fusion_matrix>,
+    "Modularium" : <liquid:modularium>,
+    "StainlessSteel" : <liquid:stainless_steel>,
+    "ManganeseSteel" : <liquid:manganese_steel>,
+    "ShadowBar" : <liquid:shadow_bar>,
+    "Hellstone" : <liquid:hellstone>,
+    "LavaSolid" : <liquid:lava_solid>,
+    "GlowingSignalum" : <liquid:glowing_signalum>,
+    "TwilightCrystal" : <liquid:twilight_crystal>,
+    "Hellcrust" : <liquid:hellcrust>,
+    "Aurorianite" : <liquid:aurorianite>,
+    "Apocalypsium" : <liquid:apocalypsium>,
+    "VoidEssence" : <liquid:void_essence>,
+    "BlackholeAlloy" : <liquid:blackhole_alloy>,
+    "CreativeAlloy" : <liquid:creative_alloy>,
+    "GhostMetal" : <liquid:ghost_metal>,
+    "EldritchSteel" : <liquid:eldritch_steel>,
+    "BotanicalAwakened" : <liquid:botanical_awakened>,
+    "ClockAlloy" : <liquid:clock_alloy>,
+    "TwilitAlloy" : <liquid:twilit_alloy>,
+    "MistAlloy" : <liquid:mist_alloy>,
+    "SharpenAlloy" : <liquid:sharpen_alloy>,
+    "KillerAlloy" : <liquid:killer_alloy>,
+    "CurseAlloy" : <liquid:curse_alloy>,
+    "Silicon" : <liquid:silicon>,
+    "EndestSteel" : <liquid:endest_steel>,
+    "RoseGold" : <liquid:rose_gold>
+};
 
+for liquid in meltingStack {
+    CreateMeltingRecipe(liquid, meltingStack[liquid] as ILiquidStack);
+    IngotFormer.addRecipe(meltingStack[liquid] * 144, oreDict.get("ingot" ~ liquid).firstItem);
+}
+*/
 SaltMixer.removeRecipeWithInput(<liquid:arsenic> * 1332, <liquid:nak> * 144);
 
 SaltMixer.addRecipe(<liquid:arsenic> * 288, <liquid:nak> * 144, <liquid:arsenic_nak> * 144);
@@ -165,6 +284,18 @@ Separator.addRecipe(<ore:dustSodiumChloroplatinate>, PtCl4, NaCl * 2);
 Separator.addRecipe(<ore:dustPotassiumChloroplatinate>, PtCl4, KCl * 2);
 Separator.addRecipe(<ore:dustRubidiumChloroplatinate>, PtCl4, RbCl * 2);
 Separator.addRecipe(<ore:dustCesiumChloroplatinate>, PtCl4, CsCl * 2);
+
+IngotFormer.removeRecipeWithOutput(<additions:hydrogen_ingot>);
+IngotFormer.removeRecipeWithOutput(<additions:helium_ingot>);
+IngotFormer.removeRecipeWithOutput(<additions:nitrogen_ingot>);
+IngotFormer.removeRecipeWithOutput(<additions:oxygen_ingot>);
+IngotFormer.removeRecipeWithOutput(<additions:fluorine_ingot>);
+IngotFormer.removeRecipeWithOutput(<additions:neon_ingot>);
+IngotFormer.removeRecipeWithOutput(<additions:argon_ingot>);
+IngotFormer.removeRecipeWithOutput(<additions:krypton_ingot>);
+IngotFormer.removeRecipeWithOutput(<additions:xenon_ingot>);
+IngotFormer.removeRecipeWithOutput(<additions:radon_ingot>);
+IngotFormer.addRecipe(<liquid:scorched> * 144, <tcomplement:materials:1>);
 
 Radiation.setMaterialRadiationLevel("Technetium", 0.000000000985d);
 Radiation.setMaterialRadiationLevel("Promethium", 0.064d);

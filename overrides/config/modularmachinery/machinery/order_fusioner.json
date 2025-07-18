@@ -1,7 +1,7 @@
 {
     "registryname": "order_fusioner",
     "localizedname": "秩序注入器",
-    "requires-blueprint": true,
+    "requires-blueprint": false,
     "failure-action": "still",
     "color": "7000ff",
     "parts": [

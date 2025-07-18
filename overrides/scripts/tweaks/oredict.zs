@@ -45,6 +45,7 @@ import scripts.util.oredict as OredictUtil;
 <ore:oreGallium>.remove(<moretcon:oregallium>);
 <ore:ingotShadowium>.remove(<extrabotany:material:5>);
 <ore:tungstenIngot>.remove(<endreborn:item_ingot_wolframium>);
+<ore:Geardensite>.remove(<gct_ores:densite_gear>);
 
 <ore:ingotCthulhurite>.add(<gct_mobs:cthulhurite_ingot>);
 <ore:starlight>.add(<journey:sapphire>);
@@ -192,6 +193,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <betterendforge:jellyshroom_stairs>,
         <betterendforge:lucernia_stairs>
     ],
+    <ore:gearDensite> : [<gct_ores:densite_gear>],
+    <ore:oreIron> : [<sakura:iron_sand>],
     <ore:gemAmber> : [<betterendforge:amber_gem>],
     <ore:vetheaDisabled> : [<ore:ingotBrass>],
     <ore:ingotBlackiron> : [<extendedcrafting:material>],

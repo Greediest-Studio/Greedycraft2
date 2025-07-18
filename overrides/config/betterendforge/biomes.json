@@ -1,0 +1,107 @@
+{
+  "minecraft": {
+    "sky": {
+      "enabled [default: true]": true,
+      "netherapi_weight [default: 80]": 80
+    }
+  },
+  "betterendforge": {
+    "megalake": {
+      "enabled [default: true]": true,
+      "netherapi_weight [default: 80]": 80
+    },
+    "crystal_mountains": {
+      "enabled [default: true]": true,
+      "netherapi_weight [default: 80]": 80
+    },
+    "foggy_mushroomland": {
+      "enabled [default: true]": true,
+      "netherapi_weight [default: 80]": 80
+    },
+    "megalake_grove": {
+      "enabled [default: true]": true,
+      "netherapi_weight [default: 80]": 80
+    },
+    "dust_wastelands": {
+      "enabled [default: true]": true,
+      "netherapi_weight [default: 80]": 80
+    },
+    "painted_mountains": {
+      "enabled [default: true]": true,
+      "netherapi_weight [default: 80]": 80
+    },
+    "chorus_forest": {
+      "enabled [default: true]": true,
+      "netherapi_weight [default: 80]": 80
+    },
+    "shadow_forest": {
+      "enabled [default: true]": true,
+      "netherapi_weight [default: 80]": 80
+    },
+    "blossoming_spires": {
+      "enabled [default: true]": true,
+      "netherapi_weight [default: 80]": 80
+    },
+    "sulphur_springs": {
+      "enabled [default: true]": true,
+      "netherapi_weight [default: 80]": 80
+    },
+    "amber_land": {
+      "enabled [default: true]": true,
+      "netherapi_weight [default: 80]": 80
+    },
+    "umbrella_jungle": {
+      "enabled [default: true]": true,
+      "netherapi_weight [default: 80]": 80
+    },
+    "glowing_grasslands": {
+      "enabled [default: true]": true,
+      "netherapi_weight [default: 80]": 80
+    },
+    "dragon_graveyards": {
+      "enabled [default: true]": true,
+      "netherapi_weight [default: 80]": 80
+    },
+    "lantern_woods": {
+      "enabled [default: true]": true,
+      "netherapi_weight [default: 80]": 80
+    },
+    "dry_shrubland": {
+      "enabled [default: true]": true,
+      "netherapi_weight [default: 80]": 80
+    },
+    "neon_oasis": {
+      "enabled [default: true]": true,
+      "netherapi_weight [default: 80]": 80
+    },
+    "umbra_valley": {
+      "enabled [default: true]": true,
+      "netherapi_weight [default: 80]": 80
+    },
+    "ice_starfield": {
+      "enabled [default: true]": true,
+      "netherapi_weight [default: 80]": 80
+    },
+    "empty_end_cave": {
+      "enabled [default: true]": true
+    },
+    "empty_smaragdant_cave": {
+      "enabled [default: true]": true
+    },
+    "lush_smaragdant_cave": {
+      "enabled [default: true]": true
+    },
+    "empty_aurora_cave": {
+      "enabled [default: true]": true
+    },
+    "lush_aurora_cave": {
+      "enabled [default: true]": true
+    },
+    "end_cave": {
+      "enabled [default: true]": true
+    },
+    "jade_cave": {
+      "enabled [default: true]": true
+    }
+  }
+}

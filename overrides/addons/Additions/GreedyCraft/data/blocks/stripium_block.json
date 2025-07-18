@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "纹金块",
+    "ore_dict": "blockStripium",
+    "type": "additions:block_simple"
+  },
+  "name": "纹金块",
+  "material": "minecraft:metal",
+  "hardness": 10.0,
+  "resistance": 4000.0,
+  "harvest_level": 6,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}
