@@ -44,13 +44,6 @@ function CreateElementMixer(inputIngot as IIngredient, inputDust as IIngredient,
     Alloy.addRecipe(liquid * isotopeNum, [liquid1 * out1, liquid2 * out2]);
 }
 
-function CreateMeltingRecipe(oredict as string, output as ILiquidStack) as void {
-    if (!isNull(oreDict.get("ingot" + oredict).firstItem)) Melter.addRecipe(oreDict.get("ingot" + oredict), output * 144);
-    if (!isNull(oreDict.get("dust" + oredict).firstItem)) Melter.addRecipe(oreDict.get("dust" + oredict), output * 144);
-    if (!isNull(oreDict.get("nugget" + oredict).firstItem)) Melter.addRecipe(oreDict.get("nugget" + oredict), output * 16);
-    if (!isNull(oreDict.get("block" + oredict).firstItem)) Melter.addRecipe(oreDict.get("block" + oredict), output * 1296);
-}
-
 Alloy.addRecipe(<liquid:uranium> * 10, [<liquid:uranium_238> * 9, <liquid:uranium_235> * 1]);
 
 CreateElementMixer(<ore:ingotNeptunium>, <ore:dustNeptunium>, <nuclearcraft:neptunium:5>, <nuclearcraft:neptunium>, <liquid:neptunium>, <liquid:neptunium_237>, <liquid:neptunium_236>, 5, 1);
@@ -129,7 +122,7 @@ Melter.addRecipe(CaCl2, <liquid:calcium_chloride> * 666);
 Melter.addRecipe(SrCl2, <liquid:strontium_chloride> * 666);
 Melter.addRecipe(BaCl2, <liquid:barium_chloride> * 666);
 Melter.addRecipe(<ore:materialMethane>, <liquid:methane> * 200);
-Melter.addRecipe(<ore:gemAncientDebris>, <liquid:ancient_debris> * 160);
+/*Melter.addRecipe(<ore:gemAncientDebris>, <liquid:ancient_debris> * 160);
 Melter.addRecipe(<ore:oreAncientDebris>, <liquid:ancient_debris> * 320);
 Melter.addRecipe(<ore:gemResonantDebris>, <liquid:resonant_debris> * 160);
 Melter.addRecipe(<ore:oreResonantDebris>, <liquid:resonant_debris> * 320);
@@ -141,7 +134,7 @@ Melter.addRecipe(<ore:blockScorched>, <liquid:scorched> * 576);
 Melter.addRecipe(<ore:slabScorched>, <liquid:scorched> * 288);
 Melter.addRecipe(<ore:ingotBrickScorched>, <liquid:scorched> * 144);
 Melter.addRecipe(<ore:itemSilicon>, <liquid:silicon> * 36);
-Melter.addRecipe(<twilightforest:mazebreaker_pickaxe>, <liquid:fracturite> * 432);
+Melter.addRecipe(<twilightforest:mazebreaker_pickaxe>, <liquid:fracturite> * 432);*/
 /*
 var meltingStack as ILiquidStack[string] = {
     "Arsenic" : <liquid:arsenic>,
@@ -295,7 +288,6 @@ IngotFormer.removeRecipeWithOutput(<additions:argon_ingot>);
 IngotFormer.removeRecipeWithOutput(<additions:krypton_ingot>);
 IngotFormer.removeRecipeWithOutput(<additions:xenon_ingot>);
 IngotFormer.removeRecipeWithOutput(<additions:radon_ingot>);
-IngotFormer.addRecipe(<liquid:scorched> * 144, <tcomplement:materials:1>);
 
 Radiation.setMaterialRadiationLevel("Technetium", 0.000000000985d);
 Radiation.setMaterialRadiationLevel("Promethium", 0.064d);

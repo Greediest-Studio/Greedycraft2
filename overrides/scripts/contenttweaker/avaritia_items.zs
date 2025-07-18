@@ -11,3 +11,12 @@ AvaritiaItemBuilder.registerItem("telekill_metal_ingot", 64, "telekill_metal_ing
     .haloTextures("telekill_metal_background")
     .addTooltip(game.localize("tooltip.avaritiaitem.telekill_metal_ingot"))
     .create();
+
+AvaritiaItemBuilder.registerItem("taichi_ingot", 64, "taichi_ingot")
+    .shouldDrawHalo(true)
+    .haloSize(6)
+    .haloOpacity(100)
+    .haloTextures("taichi_ingot_halo")
+    .addTooltip(game.localize("tooltip.avaritiaitem.taichi_ingot.1"))
+    .addTooltip(game.localize("tooltip.avaritiaitem.taichi_ingot.2"))
+    .create();

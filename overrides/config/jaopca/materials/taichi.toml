@@ -1,0 +1,19 @@
+#Configurations for material Taichi.
+[general]
+	#The module blacklist of this material. "*" is an alias for all modules. If a module name occurs an odd number of times (including wildcards), then the module is blacklisted.
+	moduleBlacklist = []
+	#The alternative names of this material.
+	alternativeNames = []
+	#The color of this material.
+	color = 16777215
+	#The byproducts of this material.
+	extras = []
+	#The model type of the material.
+	modelType = "metallic"
+	#Should items of this material have the enchanted glow.
+	hasEffect = false
+	#Is the storage block of this material small (2x2).
+	isSmallStorageBlock = false
+[molten]
+	#The temperature of this molten fluid.
+	temperature = 1000
