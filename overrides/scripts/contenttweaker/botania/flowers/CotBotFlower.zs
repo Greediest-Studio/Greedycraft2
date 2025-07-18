@@ -257,46 +257,6 @@ running_machine.onUpdate = function(subtile, world, pos) {
 };
 running_machine.register();
 
-
-
-var chat as ISubTileEntityGenerating = VanillaFactory.createSubTileGenerating("chat", 0xFFFFFF);
-chat.maxMana = 1000;
-chat.color = 0xaf0000;
-chat.onBlockAdded = function(world, pos, state) {
-    if(!world.remote) {
-        var chat_flowers_pos as IData = world.getCustomWorldData();
-        var str as string = (pos.x as string  + "~" + pos.y as string  + "~" + pos.z as string);
-        if(isNull(chat_flowers_pos.chaposstr)){
-            val data as IData = {
-            chatposstr: str
-            };
-            world.updateCustomWorldData(data);
-        }else{
-            var chat_flowers_posstr as string = chat_flowers_pos.chatposstr.asString();
-            var crtpos as IBlockPos = IBlockPos.create(pos.x as int, pos.y as int, pos.z as int);
-            var str as string = (pos.x as string  + "~" + pos.y as string  + "~" + pos.z as string);
-            val data as IData = {
-                chatposstr: (chat_flowers_posstr + "/" + str)
-            };
-            world.updateCustomWorldData(data);
-        }
-    }
-};
-chat.onBlockHarvested = function(world, pos, state, player) {
-    if(!world.remote) {
-        var chat_flowers_pos as IData = world.getCustomWorldData();
-        var chat_flowers_posstr as string = chat_flowers_pos.chatposstr.asString();
-        var crtpos as IBlockPos = IBlockPos.create(pos.x as int, pos.y as int, pos.z as int);
-        var str as string = (pos.x as string  + "~" + pos.y as string  + "~" + pos.z as string);
-        val data as IData = {
-            chatposstr : (chat_flowers_posstr.replace(("/" + str), ""))
-        };
-        world.updateCustomWorldData(data);
-    }
-};
-chat.register();
-
-
 var cow as ISubTileEntityGenerating = VanillaFactory.createSubTileGenerating("cow", 0xFFFFFF);
 cow.maxMana = 6666;
 cow.onUpdate = function(subtile, world, pos) {
@@ -314,9 +274,9 @@ cow.onUpdate = function(subtile, world, pos) {
                 if(entity instanceof IEntityItem){
                     var item as IEntityItem = entity;
                     if((item.item.definition.id == "minecraft:cooked_beef" || item.item.definition.id == "minecraft:beef") && !(subtile.data.working.asBool())){
-                        
+
                         var cooked as float = (item.item.definition.id.contains("cooked") ? 1.0F : 0.7F);
-                        
+
                         subtile.updateCustomData({working : true as bool});
                         item.item.mutable().shrink(1);
                         world.catenation()

@@ -23,12 +23,7 @@ import crafttweaker.block.IBlockState;
 
 import mods.randomtweaker.cote.SubTileEntityInGame;
 
-import mods.eventtweaker.event.ClientChatEvent;
 import mods.eventtweaker.event.ManaChangeEvent;
-
-import pkttwkr.event.EventManager as P;
-import pkttwkr.event.StrategyRegisterEvent;
-import pkttwkr.util.PacketUtil;
 
 import mods.contenttweaker.Commands;
 
@@ -61,43 +56,8 @@ events.onCropGrowPre(function(event as CropGrowPreEvent) {
                     flowerworld.getSubTileEntityInGame(pos).addMana(50);
                 }
             }
-            
         }
     }
-});
-
-
-events.onClientChat(function(event as ClientChatEvent) {
-    var player as IPlayer = client.player;
-    if(event.getMessage() != ""){
-        val data as IData = {
-        };
-        PacketUtil.sendToServer("mz:chat_flower", data);
-    }
-});
-
-val managerP as P = P.getInstance();
-managerP.onStrategyRegister(function(event as StrategyRegisterEvent) {
-	event.addC2SStrategy("mz:chat_flower", 
-	function(player as IPlayer, server as IServer, data as IData) {
-        var flowerworld as IWorld = player.world;
-        if (!isNull(flowerworld.getCustomWorldData().chatposstr)){
-            var chat_flowers_pos as IData = flowerworld.getCustomWorldData();
-            var chat_flowers_posstr as string = chat_flowers_pos.chatposstr.asString();
-            for a in chat_flowers_posstr.split("/"){
-                var pos as IBlockPos = IBlockPos.create(a.split("~")[0] as int, a.split("~")[1] as int, a.split("~")[2] as int);
-                if(isNull(flowerworld.getSubTileEntityInGame(pos))){
-                    var str as string = (pos.x as string  + "~" + pos.y as string  + "~" + pos.z as string);
-                    val data as IData = {
-                        chatposstr : (chat_flowers_posstr.replace(("/" + str), ""))
-                    };
-                    flowerworld.updateCustomWorldData(data);
-                }else{
-                    flowerworld.getSubTileEntityInGame(pos).addMana(50);
-                }
-            }
-        }
-	});
 });
 
 events.onQuestCompleted(function(event as QuestCompletedEvent) {
