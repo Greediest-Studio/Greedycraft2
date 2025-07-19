@@ -51,7 +51,7 @@
     "tier": 7,
     "color": 16732754,
     "affixes": 6,
-    "growthFactor": 30,
+    "growthFactor": 25,
     "chance": 0.1,
     "potions": ["minecraft:fire_resistance;1","minecraft:regeneration;2"]
   },
@@ -59,7 +59,7 @@
     "tier": 8,
     "color": 12986408,
     "affixes": 7,
-    "growthFactor": 40,
+    "growthFactor": 30,
     "chance": 0.1,
     "potions": ["minecraft:fire_resistance;1","minecraft:regeneration;2"]
   },
@@ -67,7 +67,7 @@
     "tier": 9,
     "color": 6953882,
     "affixes": 8,
-    "growthFactor": 50,
+    "growthFactor": 40,
     "chance": 0.1,
     "potions": ["minecraft:fire_resistance;1","minecraft:regeneration;3","minecraft:resistance;1"]
   },
@@ -75,7 +75,7 @@
     "tier": 10,
     "color": 2171169,
     "affixes": 9,
-    "growthFactor": 60,
+    "growthFactor": 50,
     "chance": 0.1,
     "potions": ["minecraft:fire_resistance;1","minecraft:regeneration;4","minecraft:resistance;2"]
   },
@@ -83,7 +83,7 @@
     "tier": 11,
     "color": 3289805,
     "affixes": 9,
-    "growthFactor": 80,
+    "growthFactor": 60,
     "chance": 0.05,
     "potions": ["potioncore:cure","minecraft:regeneration;4","minecraft:resistance;3"]
   },
@@ -91,7 +91,7 @@
     "tier": 12,
     "color": 9205843,
     "affixes": 10,
-    "growthFactor": 100,
+    "growthFactor": 75,
     "chance": 0.05,
     "potions": ["potioncore:cure","minecraft:regeneration;4","minecraft:resistance;3","potioncore:strong_diamond_skin","minecraft:fire_resistance;1"]
   },
@@ -99,7 +99,7 @@
     "tier": 13,
     "color": 13734517,
     "affixes": 10,
-    "growthFactor": 120,
+    "growthFactor": 90,
     "chance": 0.05,
     "potions": ["potioncore:cure","minecraft:regeneration;4","minecraft:resistance;3","potioncore:strong_diamond_skin;1","minecraft:fire_resistance;1","potioncore:strong_magic_shield","minecraft:long_swiftness"]
   },
@@ -107,7 +107,7 @@
     "tier": 14,
     "color": 8855416,
     "affixes": 11,
-    "growthFactor": 150,
+    "growthFactor": 120,
     "chance": 0.05,
     "potions": ["minecraft:fire_resistance;1","minecraft:regeneration;4","minecraft:resistance;3","potioncore:strong_diamond_skin;1","potioncore:strong_magic_shield;1","minecraft:long_swiftness;1"]
   },
@@ -115,7 +115,7 @@
     "tier": 15,
     "color": 13467442,
     "affixes": 11,
-    "growthFactor": 200,
+    "growthFactor": 150,
     "chance": 0.05,
     "potions": ["minecraft:fire_resistance;1","minecraft:regeneration;4","minecraft:resistance;3","potioncore:strong_diamond_skin;1","potioncore:strong_magic_shield;1","minecraft:long_swiftness;2"]
   }

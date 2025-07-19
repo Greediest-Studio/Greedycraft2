@@ -2008,32 +2008,24 @@ crystalystTrait.onHit = function(trait, tool, attacker, target, damage, isCritic
 crystalystTrait.register();
 
 val thadTrait = TraitBuilder.create("tinkers_heartwork");
-thadTrait.color = Color.fromHex("ffee58").getIntColor(); 
+thadTrait.color = Color.fromHex("ffee58").getIntColor();
 thadTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.thadTrait.name");
 thadTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.thadTrait.desc");
 thadTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer) {
         var multiplier as int = CotTicTraitLib.getTicTrait(tool).length - 2 as int;
-        if (tool.definition.id == "tconstruct:shuriken") {
-            if (multiplier <= 28) {
-                return newDamage * (pow(1.05, multiplier) - 1) * 0.5f as float;
-            } else {
-                return newDamage * 1.5f;
-            }
-        } else {
             if (multiplier <= 28) {
                 return newDamage * (pow(1.05, multiplier) - 1) as float;
             } else {
-                return newDamage * 3.0f;
+                return newDamage * 2.0f;
             }
-        }
     }
     return newDamage;
 };
 thadTrait.register();
 
 val aura_infusedTrait = TraitBuilder.create("aura_infused");
-aura_infusedTrait.color = Color.fromHex("ffee58").getIntColor(); 
+aura_infusedTrait.color = Color.fromHex("ffee58").getIntColor();
 aura_infusedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.aura_infusedTrait.name");
 aura_infusedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.aura_infusedTrait.desc");
 aura_infusedTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
@@ -3697,7 +3689,7 @@ bedrockTrait.color = Color.fromHex("ffffff").getIntColor();
 bedrockTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.bedrockTrait.name");
 bedrockTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.bedrockTrait.desc");
 bedrockTrait.onToolDamage = function(trait, tool, unmodifiedAmount, newAmount, holder) {
-    if (Math.random() < 0.8f) {
+    if (Math.random() < 0.85f) {
         return 0;
     }
     return newAmount;
@@ -3705,12 +3697,12 @@ bedrockTrait.onToolDamage = function(trait, tool, unmodifiedAmount, newAmount, h
 bedrockTrait.register();
 
 val pureTrait = TraitBuilder.create("pure");
-pureTrait.color = Color.fromHex("ffffff").getIntColor(); 
+pureTrait.color = Color.fromHex("ffffff").getIntColor();
 pureTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.pureTrait.name");
 pureTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.pureTrait.desc");
 pureTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer) {
-        return newDamage * 5.0f;
+        return newDamage * 3.0f;
     }
     return newDamage;
 };
