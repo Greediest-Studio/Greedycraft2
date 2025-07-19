@@ -2616,7 +2616,7 @@ globiomeTrait.onArmorTick = function(trait, armor, world, player) {
             var biomesTag as IData = armor.tag.globiome as IData;
             var isNewBiome as bool = true;
             for i in 0 to (biomesTag.length as int) {
-                if (biomesTag[i] as string == biome.name) isNewBiome = false;             
+                if (biomesTag[i] as string == biome.name) isNewBiome = false;
             }
             if (isNewBiome) {
                 var newBiomeSet as IData = [biome.name as string];
@@ -2625,7 +2625,7 @@ globiomeTrait.onArmorTick = function(trait, armor, world, player) {
                     {globiome: biomesTag}
                 );
             }
-        }        
+        }
     }
 };
 globiomeTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
@@ -3089,7 +3089,7 @@ panoramaTrait.onHurt = function(trait, armor, player, source, damage, newDamage,
         var entity as IEntityLivingBase = source.getTrueSource();
         if (!isNull(entity.definition)) {
             if (entity.definition.name.split(":")[0] != "minecraft") {
-                return newDamage * 0.75f;
+                return newDamage * 0.85f;
             }
         }
     }
@@ -3104,7 +3104,7 @@ bedrockTrait.color = Color.fromHex("ffffff").getIntColor();
 bedrockTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.bedrockTrait.name");
 bedrockTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.bedrockTrait.desc");
 bedrockTrait.onArmorDamaged = function(trait, armor, damageSource, amount, newAmount, player, index) {
-    if (Math.random() < 0.8f) {
+    if (Math.random() < 0.85f) {
         return 0;
     }
     return newAmount;
