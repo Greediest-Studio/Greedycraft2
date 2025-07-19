@@ -46,7 +46,7 @@ import mods.jei.JEI;
     }
 */
 
-JEI.addDescription(<modularmachinery:crystal_changer_factory_controller>,[
+JEI.addDescription(<modularmachinery:crystal_builder_factory_controller>,[
     "§e共鸣星座对应ID：",
     "§e无：0",//0
     "§e晶金座：1",
@@ -69,10 +69,10 @@ JEI.addDescription(<modularmachinery:crystal_changer_factory_controller>,[
     "§e寒冰座：3",
     "§e振变座：4"
 ]);
-<modularmachinery:crystal_changer_factory_controller>.addTooltip("§e星座ID请查看JEI");
+<modularmachinery:crystal_builder_factory_controller>.addTooltip("§e星座ID请查看JEI");
 
 //控制器信息
-MMEvents.onControllerGUIRender("crystal_changer" , function(event as ControllerGUIRenderEvent) {
+MMEvents.onControllerGUIRender("crystal_builder" , function(event as ControllerGUIRenderEvent) {
     val ctrl = event.controller;
     val map = ctrl.customData.asMap();
     val xzmc as string[] = [
@@ -120,7 +120,7 @@ MMEvents.onControllerGUIRender("crystal_changer" , function(event as ControllerG
     event.extraInfo = info;
 });
 
-MachineModifier.addSmartInterfaceType("crystal_changer", 
+MachineModifier.addSmartInterfaceType("crystal_builder", 
     SmartInterfaceType.create("size",900)
     .setHeaderInfo("§e///尺寸设置///")
     .setValueInfo("§e当前尺寸：%.2f")
@@ -128,7 +128,7 @@ MachineModifier.addSmartInterfaceType("crystal_changer",
     .setNotEqualMessage("无效尺寸数值")
     .setFooterInfo("§e/////////////////")
 );
-MachineModifier.addSmartInterfaceType("crystal_changer", 
+MachineModifier.addSmartInterfaceType("crystal_builder", 
     SmartInterfaceType.create("purity",100)
     .setHeaderInfo("§e///纯度设置///")
     .setValueInfo("§e当前纯度：%.2f")
@@ -136,7 +136,7 @@ MachineModifier.addSmartInterfaceType("crystal_changer",
     .setNotEqualMessage("无效纯度数值")
     .setFooterInfo("§e/////////////////")
 );
-MachineModifier.addSmartInterfaceType("crystal_changer", 
+MachineModifier.addSmartInterfaceType("crystal_builder", 
     SmartInterfaceType.create("collectiveCapability",100)
     .setHeaderInfo("§e///抛光设置///")
     .setValueInfo("§e当前抛光：%.2f")
@@ -144,7 +144,7 @@ MachineModifier.addSmartInterfaceType("crystal_changer",
     .setNotEqualMessage("无效抛光数值")
     .setFooterInfo("§e/////////////////")
 );
-MachineModifier.addSmartInterfaceType("crystal_changer", 
+MachineModifier.addSmartInterfaceType("crystal_builder", 
     SmartInterfaceType.create("constellationName",0)
     .setHeaderInfo("§e///共鸣星座设置///")
     .setValueInfo("§e当前共鸣星座ID%.2f：")
@@ -152,7 +152,7 @@ MachineModifier.addSmartInterfaceType("crystal_changer",
     .setNotEqualMessage("无效星座ID")
     .setFooterInfo("§e对应星座请查看jei")
 );
-MachineModifier.addSmartInterfaceType("crystal_changer", 
+MachineModifier.addSmartInterfaceType("crystal_builder", 
     SmartInterfaceType.create("trait",0)
     .setHeaderInfo("§e///修饰星座设置///")
     .setValueInfo("§e当前修饰星座ID%.2f：")
@@ -241,12 +241,12 @@ val tbThead = FactoryRecipeThread.createCoreThread("§e数据同步系统");
 val craftingThead = FactoryRecipeThread.createCoreThread("§e水晶塑造系统");
 val crafting1Thead = FactoryRecipeThread.createCoreThread("§e星能聚合系统");
 
-MachineModifier.setMaxThreads("crystal_changer", 0);
-MachineModifier.addCoreThread("crystal_changer", tbThead);
-MachineModifier.addCoreThread("crystal_changer", craftingThead);
-MachineModifier.addCoreThread("crystal_changer", crafting1Thead);
+MachineModifier.setMaxThreads("crystal_builder", 0);
+MachineModifier.addCoreThread("crystal_builder", tbThead);
+MachineModifier.addCoreThread("crystal_builder", craftingThead);
+MachineModifier.addCoreThread("crystal_builder", crafting1Thead);
 
-RecipeBuilder.newBuilder("crystal_changer_tb","crystal_changer",25,0)
+RecipeBuilder.newBuilder("crystal_builder_tb","crystal_builder",25,0)
     .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
         dataget(event,"size",0,1500);
         dataget(event,"purity",0,120);
@@ -258,7 +258,7 @@ RecipeBuilder.newBuilder("crystal_changer_tb","crystal_changer",25,0)
     .setParallelized(false)
     .build();
 
-RecipeBuilder.newBuilder("crystal_changer_craft","crystal_changer",20,5)
+RecipeBuilder.newBuilder("crystal_builder_craft","crystal_builder",20,5)
     .addItemInput(<additions:astral_metal_ingot>)
     .addFluidInput(<liquid:astralsorcery.liquidstarlight> * 8000)
     .addItemOutput(<astralsorcery:itemrockcrystalsimple>).addItemModifier(function(ctrl as IMachineController, oldItem as IItemStack) as IItemStack {
@@ -285,7 +285,7 @@ val recipelist as IItemStack[IItemStack] = {
 
 var r = 1;
 for iteminput , itemoutput in recipelist {
-    RecipeBuilder.newBuilder("crystal_changer_craft1" + r,"crystal_changer",20,6)
+    RecipeBuilder.newBuilder("crystal_builder_craft1" + r,"crystal_builder",20,6)
         .addItemInput(iteminput)
         .addFluidInput(<liquid:astralsorcery.liquidstarlight> * 20)
         .addItemOutput(itemoutput)
