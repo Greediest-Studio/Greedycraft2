@@ -26,6 +26,7 @@ import mods.nuclearcraft.SaltMixer;
 import mods.nuclearcraft.IngotFormer;
 import mods.nuclearcraft.Registration;
 import mods.tconstruct.Alloy;
+import mods.jaopca.JAOPCA;
 
 var NaCl as IItemStack = <additions:sodium_chloride>;
 var KCl as IItemStack = <additions:potassium_chloride>;
@@ -35,6 +36,19 @@ var PtCl4 as IItemStack = <additions:platinum_chloride>;
 var CaCl2 as IItemStack = <additions:calcium_chloride>;
 var SrCl2 as IItemStack = <additions:strontium_chloride>;
 var BaCl2 as IItemStack = <additions:barium_chloride>;
+
+for entry in JAOPCA.getMaterialsForType("INGOTS") {
+    var ingot as IItemStack = entry.getItemStack("ingot");
+    var dust as IItemStack = entry.getItemStack("dust");
+    var nugget as IItemStack = entry.getItemStack("nugget");
+    var block as IItemStack = entry.getItemStack("block");
+    var molten as ILiquidStack = entry.getLiquidStack("molten", 16);
+    Melter.addRecipe(ingot, molten * 9);
+    Melter.addRecipe(dust, molten * 9);
+    Melter.addRecipe(nugget, molten);
+    Melter.addRecipe(block, molten * 81);
+    IngotFormer.addRecipe(ingot, molten * 9);
+}
 
 function CreateElementMixer(inputIngot as IIngredient, inputDust as IIngredient, output1 as IItemStack, output2 as IItemStack, liquid as ILiquidStack, liquid1 as ILiquidStack, liquid2 as ILiquidStack, out1 as int, out2 as int) as void {
     var isotopeNum as int = out1 + out2;
@@ -122,71 +136,57 @@ Melter.addRecipe(CaCl2, <liquid:calcium_chloride> * 666);
 Melter.addRecipe(SrCl2, <liquid:strontium_chloride> * 666);
 Melter.addRecipe(BaCl2, <liquid:barium_chloride> * 666);
 Melter.addRecipe(<ore:materialMethane>, <liquid:methane> * 200);
-/*Melter.addRecipe(<ore:gemAncientDebris>, <liquid:ancient_debris> * 160);
-Melter.addRecipe(<ore:oreAncientDebris>, <liquid:ancient_debris> * 320);
-Melter.addRecipe(<ore:gemResonantDebris>, <liquid:resonant_debris> * 160);
-Melter.addRecipe(<ore:oreResonantDebris>, <liquid:resonant_debris> * 320);
+Melter.addRecipe(<additions:ancient_debris>, <liquid:ancient_debris> * 320);
+Melter.addRecipe(<additions:netherite_scrap>, <liquid:ancient_debris> * 160);
+Melter.addRecipe(<gct_mobs:resonate_debris>, <liquid:resonant_debris> * 320);
 Melter.addRecipe(<gct_mobs:resonate_debris_cracked>, <liquid:resonant_debris> * 160);
-Melter.addRecipe(<ore:gemGravityDebris>, <liquid:gravity_debris> * 160);
-Melter.addRecipe(<ore:oreGravityDebris>, <liquid:gravity_debris> * 320);
-Melter.addRecipe(<ore:stairScorched>, <liquid:scorched> * 432);
-Melter.addRecipe(<ore:blockScorched>, <liquid:scorched> * 576);
-Melter.addRecipe(<ore:slabScorched>, <liquid:scorched> * 288);
-Melter.addRecipe(<ore:ingotBrickScorched>, <liquid:scorched> * 144);
+Melter.addRecipe(<gct_mobs:resonated_scrap>, <liquid:resonant_debris> * 160);
+Melter.addRecipe(<gct_mobs:gravity_debris>, <liquid:gravity_debris> * 320);
+Melter.addRecipe(<gct_mobs:gravity_scrap>, <liquid:gravity_debris> * 160);
+Melter.addRecipe(<tcomplement:materials:1>, <liquid:scorched> * 144);
 Melter.addRecipe(<ore:itemSilicon>, <liquid:silicon> * 36);
-Melter.addRecipe(<twilightforest:mazebreaker_pickaxe>, <liquid:fracturite> * 432);*/
-/*
-var meltingStack as ILiquidStack[string] = {
-    "Arsenic" : <liquid:arsenic>,
-    "Everite" : <liquid:everite>,
-    "Genite" : <liquid:genite>,
-    "TerraAlloy" : <liquid:terra_alloy>,
-    "SkyAlloy" : <liquid:sky_alloy>,
-    "FireAlloy" : <liquid:fire_alloy>,
-    "IceAlloy" : <liquid:ice_alloy>,
-    "DraconiumAwakened" : <liquid:awakened_draconium>,
-    "DraconiumChaotic" : <liquid:chaotic_draconium>,
-    "DraconiumRuled" : <liquid:ruled_draconium>,
-    "WitheriumRelifed" : <liquid:relifed_witherium>,
-    "WitheriumStormy" : <liquid:stormy_witherium>,
-    "WitheriumEquipment" : <liquid:equipment_witherium>,
-    "OrderedMetal" : <liquid:ordered_metal>,
-    "Densite" : <liquid:densite>,
-    "Reditrite" : <liquid:reditrite>,
-    "FusionMatrix" : <liquid:fusion_matrix>,
-    "Modularium" : <liquid:modularium>,
-    "StainlessSteel" : <liquid:stainless_steel>,
-    "ManganeseSteel" : <liquid:manganese_steel>,
-    "ShadowBar" : <liquid:shadow_bar>,
-    "Hellstone" : <liquid:hellstone>,
-    "LavaSolid" : <liquid:lava_solid>,
-    "GlowingSignalum" : <liquid:glowing_signalum>,
-    "TwilightCrystal" : <liquid:twilight_crystal>,
-    "Hellcrust" : <liquid:hellcrust>,
-    "Aurorianite" : <liquid:aurorianite>,
-    "Apocalypsium" : <liquid:apocalypsium>,
-    "VoidEssence" : <liquid:void_essence>,
-    "BlackholeAlloy" : <liquid:blackhole_alloy>,
-    "CreativeAlloy" : <liquid:creative_alloy>,
-    "GhostMetal" : <liquid:ghost_metal>,
-    "EldritchSteel" : <liquid:eldritch_steel>,
-    "BotanicalAwakened" : <liquid:botanical_awakened>,
-    "ClockAlloy" : <liquid:clock_alloy>,
-    "TwilitAlloy" : <liquid:twilit_alloy>,
-    "MistAlloy" : <liquid:mist_alloy>,
-    "SharpenAlloy" : <liquid:sharpen_alloy>,
-    "KillerAlloy" : <liquid:killer_alloy>,
-    "CurseAlloy" : <liquid:curse_alloy>,
-    "Silicon" : <liquid:silicon>,
-    "EndestSteel" : <liquid:endest_steel>,
-    "RoseGold" : <liquid:rose_gold>
-};
+Melter.addRecipe(<twilightforest:mazebreaker_pickaxe>, <liquid:fracturite> * 432);
+Melter.addRecipe(<ore:ingotArsenic>, <liquid:arsenic> * 144);
+Melter.addRecipe(<ore:dustArsenic>, <liquid:arsenic> * 144);
+Melter.addRecipe(<ore:blockArsenic>, <liquid:arsenic> * 1296);
+Melter.addRecipe(<ore:nuggetArsenic>, <liquid:arsenic> * 16);
+Melter.addRecipe(<ore:ingotSkyAlloy>, <liquid:sky_alloy> * 144);
+Melter.addRecipe(<ore:dustSkyAlloy>, <liquid:sky_alloy> * 144);
+Melter.addRecipe(<ore:blockSkyAlloy>, <liquid:sky_alloy> * 1296);
+Melter.addRecipe(<ore:nuggetSkyAlloy>, <liquid:sky_alloy> * 16);
+Melter.addRecipe(<ore:ingotFireAlloy>, <liquid:fire_alloy> * 144);
+Melter.addRecipe(<ore:dustFireAlloy>, <liquid:fire_alloy> * 144);
+Melter.addRecipe(<ore:blockFireAlloy>, <liquid:fire_alloy> * 1296);
+Melter.addRecipe(<ore:nuggetFireAlloy>, <liquid:fire_alloy> * 16);
+Melter.addRecipe(<ore:ingotIceAlloy>, <liquid:ice_alloy> * 144);
+Melter.addRecipe(<ore:dustIceAlloy>, <liquid:ice_alloy> * 144);
+Melter.addRecipe(<ore:blockIceAlloy>, <liquid:ice_alloy> * 1296);
+Melter.addRecipe(<ore:nuggetIceAlloy>, <liquid:ice_alloy> * 16);
+Melter.addRecipe(<ore:ingotDraconiumAwakened>, <liquid:awakened_draconium> * 144);
+Melter.addRecipe(<ore:dustDraconiumAwakened>, <liquid:awakened_draconium> * 144);
+Melter.addRecipe(<ore:blockDraconiumAwakened>, <liquid:awakened_draconium> * 1296);
+Melter.addRecipe(<ore:nuggetDraconiumAwakened>, <liquid:awakened_draconium> * 16);
+Melter.addRecipe(<ore:ingotDraconiumChaotic>, <liquid:chaotic_draconium> * 144);
+Melter.addRecipe(<ore:dustDraconiumChaotic>, <liquid:chaotic_draconium> * 144);
+Melter.addRecipe(<ore:blockDraconiumChaotic>, <liquid:chaotic_draconium> * 1296);
+Melter.addRecipe(<ore:nuggetDraconiumChaotic>, <liquid:chaotic_draconium> * 16);
+Melter.addRecipe(<ore:ingotDraconiumRuled>, <liquid:ruled_draconium> * 144);
+Melter.addRecipe(<ore:dustDraconiumRuled>, <liquid:ruled_draconium> * 144);
+Melter.addRecipe(<ore:blockDraconiumRuled>, <liquid:ruled_draconium> * 1296);
+Melter.addRecipe(<ore:nuggetDraconiumRuled>, <liquid:ruled_draconium> * 16);
+Melter.addRecipe(<ore:ingotWitheriumRelifed>, <liquid:relifed_witherium> * 144);
+Melter.addRecipe(<ore:dustWitheriumRelifed>, <liquid:relifed_witherium> * 144);
+Melter.addRecipe(<ore:blockWitheriumRelifed>, <liquid:relifed_witherium> * 1296);
+Melter.addRecipe(<ore:nuggetWitheriumRelifed>, <liquid:relifed_witherium> * 16);
+Melter.addRecipe(<ore:ingotWitheriumStormy>, <liquid:stormy_witherium> * 144);
+Melter.addRecipe(<ore:dustWitheriumStormy>, <liquid:stormy_witherium> * 144);
+Melter.addRecipe(<ore:blockWitheriumStormy>, <liquid:stormy_witherium> * 1296);
+Melter.addRecipe(<ore:nuggetWitheriumStormy>, <liquid:stormy_witherium> * 16);
+Melter.addRecipe(<ore:ingotWitheriumEquipment>, <liquid:equipment_witherium> * 144);
+Melter.addRecipe(<ore:dustWitheriumEquipment>, <liquid:equipment_witherium> * 144);
+Melter.addRecipe(<ore:blockWitheriumEquipment>, <liquid:equipment_witherium> * 1296);
+Melter.addRecipe(<ore:nuggetWitheriumEquipment>, <liquid:equipment_witherium> * 16);
 
-for liquid in meltingStack {
-    CreateMeltingRecipe(liquid, meltingStack[liquid] as ILiquidStack);
-    IngotFormer.addRecipe(meltingStack[liquid] * 144, oreDict.get("ingot" ~ liquid).firstItem);
-}
-*/
 SaltMixer.removeRecipeWithInput(<liquid:arsenic> * 1332, <liquid:nak> * 144);
 
 SaltMixer.addRecipe(<liquid:arsenic> * 288, <liquid:nak> * 144, <liquid:arsenic_nak> * 144);

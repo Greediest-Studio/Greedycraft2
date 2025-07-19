@@ -11,6 +11,7 @@ import crafttweaker.item.IIngredient;
 
 import crafttweaker.game.IGame;
 import crafttweaker.oredict.IOreDictEntry;
+import mods.jaopca.oreDictHelper;
 
 import scripts.util.oredict as OredictUtil;
 
@@ -46,6 +47,12 @@ import scripts.util.oredict as OredictUtil;
 <ore:ingotShadowium>.remove(<extrabotany:material:5>);
 <ore:tungstenIngot>.remove(<endreborn:item_ingot_wolframium>);
 <ore:Geardensite>.remove(<gct_ores:densite_gear>);
+<ore:gemMoonstone>.remove(<tiths:moon_stone>);
+<ore:blockMoonstone>.remove(<tiths:block_moon_stone>);
+<ore:ingotValkyrieMetal>.remove(<moretcon:ingotvalkyriemetal>);
+<ore:blockValkyrieMetal>.remove(<moretcon:blockvalkyriemetal>);
+<ore:dustValkyrieMetal>.remove(<moretcon:dustvalkyriemetal>);
+<ore:nuggetValkyrieMetal>.remove(<moretcon:nuggetvalkyriemetal>);
 
 <ore:ingotCthulhurite>.add(<gct_mobs:cthulhurite_ingot>);
 <ore:starlight>.add(<journey:sapphire>);
@@ -903,7 +910,112 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:frameGaia> : [<gct_ores:gaia_spirit_machine_frame>],
     <ore:frameGaiasteel> : [<gct_ores:gaia_steel_machine_frame>],
     <ore:frameOrichalcos> : [<gct_ores:orichalcos_machine_frame>],
-    <ore:ingotCthulhurite> : [<gct_mobs:cthulhurite_ingot>]
+    <ore:ingotCthulhurite> : [<gct_mobs:cthulhurite_ingot>],
+    <ore:ingotAluminium> : [<thermalfoundation:material:132>],
+    <ore:blockAluminium> : [<thermalfoundation:storage:4>],
+    <ore:nuggetAluminium> : [<thermalfoundation:material:196>],
+    <ore:dustAluminium> : [<thermalfoundation:material:68>],
+    <ore:blockApocalypsium> : [<gct_mobs:apocalypsium_block>],
+    <ore:blockArlemite> : [<divinerpg:arlemite_block>],
+    <ore:blockAzathothium> : [<gct_mobs:azathothium_block>],
+    <ore:blockCelestium> : [<journey:celestiumblock>],
+    <ore:blockCerulean> : [<theaurorian:ceruleanblock>],
+    <ore:blockCobalt> : [<tconstruct:metal>],
+    <ore:blockDensite> : [<gct_ores:densite_block>],
+    <ore:blockDes> : [<journey:desblock>],
+    <ore:blockDraconiumChaotic> : [<gct_ores:chaotic_draconium_block>],
+    <ore:blockDraconiumRuled> : [<gct_ores:ruled_draconium_block>],
+    <ore:blockEverite> : [<gct_ores:everite_block>],
+    <ore:blockFireAlloy> : [<gct_ores:fire_alloy_block>],
+    <ore:blockFlairium> : [<journey:flairiumblock>],
+    <ore:blockGenite> : [<gct_ores:genite_block>],
+    <ore:blockIceAlloy> : [<gct_ores:ice_alloy_block>],
+    <ore:blockKorite> : [<journey:koriteblock>],
+    <ore:blockLunium> : [<journey:luniumblock>],
+    <ore:blockMana> : [<gct_mobs:mana_block>],
+    <ore:blockManasteel> : [<botania:storage>],
+    <ore:blockMekyum> : [<journey:mekyumblock>],
+    <ore:blockMoonstone> : [<theaurorian:moonstoneblock>],
+    <ore:blockNyarlathotepium> : [<gct_mobs:nyarlathotepium_block>],
+    <ore:blockOrbadite> : [<journey:orbaditeblock>],
+    <ore:blockOrderedMetal> : [<gct_ores:ordered_metal_block>],
+    <ore:blockReditrite> : [<gct_ores:reditrite_block>],
+    <ore:blockRealmite> : [<divinerpg:realmite_block>],
+    <ore:blockRupee> : [<divinerpg:rupee_block>],
+    <ore:blockShadium> : [<journey:shadiumblock>],
+    <ore:blockShubniggurathium> : [<gct_mobs:shubniggurathium_block>],
+    <ore:blockSkyAlloy> : [<gct_ores:sky_alloy_block>],
+    <ore:blockStoron> : [<journey:storonblock>],
+    <ore:blockValkyrie> : [<tinkersaether:valkyrie_block>],
+    <ore:ingotValkyrie> : [<tinkersaether:valkyrie_ingot>],
+    <ore:nuggetValkyrie> : [<tinkersaether:valkyrie_nugget>],
+    <ore:blockWitheriumEquipment> : [<gct_ores:equipment_witherium_block>],
+    <ore:blockWitheriumRelifed> : [<gct_ores:relifed_witherium_block>],
+    <ore:blockWitheriumStormy> : [<gct_ores:stormy_witherium_block>],
+    <ore:blockYogsothothium> : [<gct_mobs:yogsothothium_block>],
+    <ore:blockCthulhurite> : [<gct_mobs:cthulhurite_block>],
+    <ore:nuggetApocalypsium> : [<gct_mobs:apocalypsium_nugget>],
+    <ore:nuggetArlemite> : [<divinerpg:arlemite_nugget>],
+    <ore:nuggetCerulean> : [<theaurorian:ceruleannugget>],
+    <ore:nuggetDensite> : [<gct_ores:densite_nugget>],
+    <ore:nuggetDraconiumChaotic> : [<gct_ores:chaotic_draconium_nugget>],
+    <ore:nuggetDraconiumRuled> : [<gct_ores:ruled_draconium_nugget>],
+    <ore:nuggetEverite> : [<gct_ores:everite_nugget>],
+    <ore:nuggetFireAlloy> : [<gct_ores:fire_alloy_nugget>],
+    <ore:nuggetGenite> : [<gct_ores:genite_nugget>],
+    <ore:nuggetIceAlloy> : [<gct_ores:ice_alloy_nugget>],
+    <ore:nuggetMoonstone> : [<theaurorian:moonstonenugget>],
+    <ore:nuggetOrderedMetal> : [<gct_ores:ordered_metal_nugget>],
+    <ore:nuggetReditrite> : [<gct_ores:reditrite_nugget>],
+    <ore:nuggetRealmite> : [<divinerpg:realmite_nugget>],
+    <ore:nuggetRupee> : [<divinerpg:rupee_nugget>],
+    <ore:nuggetSkyAlloy> : [<gct_ores:sky_alloy_nugget>],
+    <ore:nuggetValkyrie> : [<tinkersaether:valkyrie_nugget>],
+    <ore:nuggetWitheriumEquipment> : [<gct_ores:equipment_witherium_nugget>],
+    <ore:nuggetWitheriumRelifed> : [<gct_ores:relifed_witherium_nugget>],
+    <ore:nuggetWitheriumStormy> : [<gct_ores:stormy_witherium_nugget>],
+    <ore:dustApocalypsium> : [<gct_mobs:apocalypsium_dust>],
+    <ore:dustDensite> : [<gct_ores:densite_dust>],
+    <ore:dustDraconiumChaotic> : [<gct_ores:chaotic_draconium_dust>],
+    <ore:dustDraconiumRuled> : [<gct_ores:ruled_draconium_dust>],
+    <ore:dustEverite> : [<gct_ores:everite_dust>],
+    <ore:dustFireAlloy> : [<gct_ores:fire_alloy_dust>],
+    <ore:dustGenite> : [<gct_ores:genite_dust>],
+    <ore:dustIceAlloy> : [<gct_ores:ice_alloy_dust>],
+    <ore:dustOrderedMetal> : [<gct_ores:ordered_metal_dust>],
+    <ore:dustReditrite> : [<gct_ores:reditrite_dust>],
+    <ore:dustSkyAlloy> : [<gct_ores:sky_alloy_dust>],
+    <ore:dustWitheriumEquipment> : [<gct_ores:equipment_witherium_dust>],
+    <ore:dustWitheriumRelifed> : [<gct_ores:relifed_witherium_dust>],
+    <ore:dustWitheriumStormy> : [<gct_ores:stormy_witherium_dust>],
+    <ore:gearApocalypsium> : [<gct_mobs:apocalypsium_gear>],
+    <ore:gearDensite> : [<gct_ores:densite_gear>],
+    <ore:gearDraconiumChaotic> : [<gct_ores:chaotic_draconium_gear>],
+    <ore:gearDraconiumRuled> : [<gct_ores:ruled_draconium_gear>],
+    <ore:gearEverite> : [<gct_ores:everite_gear>],
+    <ore:gearFireAlloy> : [<gct_ores:fire_alloy_gear>],
+    <ore:gearGenite> : [<gct_ores:genite_gear>],
+    <ore:gearIceAlloy> : [<gct_ores:ice_alloy_gear>],
+    <ore:gearOrderedMetal> : [<gct_ores:ordered_metal_gear>],
+    <ore:gearReditrite> : [<gct_ores:reditrite_gear>],
+    <ore:gearSkyAlloy> : [<gct_ores:sky_alloy_gear>],
+    <ore:gearWitheriumEquipment> : [<gct_ores:equipment_witherium_gear>],
+    <ore:gearWitheriumRelifed> : [<gct_ores:relifed_witherium_gear>],
+    <ore:gearWitheriumStormy> : [<gct_ores:stormy_witherium_gear>],
+    <ore:plateApocalypsium> : [<gct_mobs:apocalypsium_plate>],
+    <ore:plateDensite> : [<gct_ores:densite_plate>],
+    <ore:plateDraconiumChaotic> : [<gct_ores:chaotic_draconium_plate>],
+    <ore:plateDraconiumRuled> : [<gct_ores:ruled_draconium_plate>],
+    <ore:plateEverite> : [<gct_ores:everite_plate>],
+    <ore:plateFireAlloy> : [<gct_ores:fire_alloy_plate>],
+    <ore:plateGenite> : [<gct_ores:genite_plate>],
+    <ore:plateIceAlloy> : [<gct_ores:ice_alloy_plate>],
+    <ore:plateOrderedMetal> : [<gct_ores:ordered_metal_plate>],
+    <ore:plateReditrite> : [<gct_ores:reditrite_plate>],
+    <ore:plateSkyAlloy> : [<gct_ores:sky_alloy_plate>],
+    <ore:plateWitheriumEquipment> : [<gct_ores:equipment_witherium_plate>],
+    <ore:plateWitheriumRelifed> : [<gct_ores:relifed_witherium_plate>],
+    <ore:plateWitheriumStormy> : [<gct_ores:stormy_witherium_plate>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {

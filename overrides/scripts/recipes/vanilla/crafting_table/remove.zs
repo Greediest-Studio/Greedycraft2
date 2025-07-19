@@ -469,7 +469,9 @@ val removedRecipes as IIngredient[] = [
     <mekanism:machineblock:8>,
     <enderio:item_material:66>,
     <mca:rose_gold_dust>,
-    <mca:rose_gold_ingot>
+    <mca:rose_gold_ingot>,
+    <jaopca:block.cthulhurite>,
+    <chisel:blockcobalt>
 ];
 
 val removedRecipeNames as string[] = [

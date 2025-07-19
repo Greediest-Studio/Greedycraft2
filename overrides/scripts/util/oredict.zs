@@ -8,6 +8,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
+import mods.jaopca.oreDictHelper;
 
 import crafttweaker.game.IGame;
 import crafttweaker.oredict.IOreDictEntry;
@@ -23,6 +24,9 @@ function removeOredictIngredient(oredict as IOreDictEntry, ingredient as IIngred
 function addOredictIngredients(oredict as IOreDictEntry, ingredients as IIngredient[]) {
     for ingredient in ingredients {
         oredict.addItems(ingredient.items);
+        for item in ingredient.items {
+            oreDictHelper.addOreDict(oredict, item);
+        }
     }
 }
 

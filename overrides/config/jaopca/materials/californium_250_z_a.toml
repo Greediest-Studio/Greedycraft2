@@ -4,6 +4,8 @@
 	moduleBlacklist = ["*"]
 	#The alternative names of this material.
 	alternativeNames = []
+	#The color of this material.
+	color = 6164502
 	#The byproducts of this material.
 	extras = []
 	#The model type of the material.
@@ -12,3 +14,6 @@
 	hasEffect = false
 	#Is the storage block of this material small (2x2).
 	isSmallStorageBlock = false
+[molten]
+	#The temperature of this molten fluid.
+	temperature = 1000

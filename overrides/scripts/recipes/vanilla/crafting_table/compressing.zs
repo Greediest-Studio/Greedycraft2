@@ -29,6 +29,14 @@ for od in compressingOreDict {
     if (ingotOd.items.length != 0 && blockOd.items.length != 0) {
         var ingotItem as IItemStack = ingotOd.firstItem;
         var blockItem as IItemStack = blockOd.firstItem;
+        if (blockOd.items.length > 1 && blockOd.firstItem.definition.id has "jaopca") {
+            for item in blockOd.items {
+                if (!(item.definition.id has "jaopca")) {
+                    blockItem = item;
+                    break;
+                }
+            }
+        }
         recipes.addShapeless(blockItem, [
             ingotOd, ingotOd, ingotOd,
             ingotOd, ingotOd, ingotOd,
@@ -39,6 +47,14 @@ for od in compressingOreDict {
     if (ingotOd.items.length != 0 && nuggetOd.items.length != 0) {
         var ingotItem as IItemStack = ingotOd.firstItem;
         var nuggetItem as IItemStack = nuggetOd.firstItem;
+        if (nuggetOd.items.length > 1 && nuggetOd.firstItem.definition.id has "jaopca") {
+            for item in nuggetOd.items {
+                if (!(item.definition.id has "jaopca")) {
+                    nuggetItem = item;
+                    break;
+                }
+            }
+        }
         recipes.addShapeless(ingotItem, [
             nuggetOd, nuggetOd, nuggetOd,
             nuggetOd, nuggetOd, nuggetOd,
