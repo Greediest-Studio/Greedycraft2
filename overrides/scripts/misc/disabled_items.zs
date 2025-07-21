@@ -1481,7 +1481,9 @@ var disabledItems as IIngredient[] = [
     <mekanism:mekasuit_pants>,
     <mekanism:mekasuit_bodyarmor>,
     <whimcraft:blockmeaspectinputbusmmce>,
-    <whimcraft:blockmeaspectoutputbusmmce>
+    <whimcraft:blockmeaspectoutputbusmmce>,
+    <whimcraft:blockmeaspectinputbus>,
+    <whimcraft:blockmeaspectoutputbus>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [

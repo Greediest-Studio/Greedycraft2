@@ -57,16 +57,8 @@
                 "multiplier": 0.33
             }
         }
-    ],   
+    ],
     "parts": [
-        {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcontroller@2"
-            ]
-        },
         {
             "x": 3,
             "y": 14,
@@ -772,14 +764,6 @@
             ]
         },
         {
-            "x": -16,
-            "y": 18,
-            "z": 5,
-            "elements": [
-                "additions:oneo_block@0"
-            ]
-        },
-        {
             "x": 1,
             "y": -1,
             "z": 16,
@@ -1460,14 +1444,6 @@
             ]
         },
         {
-            "x": 1,
-            "y": 29,
-            "z": 1,
-            "elements": [
-                "taiga:tiberium_block@0"
-            ]
-        },
-        {
             "x": -1,
             "y": -11,
             "z": 21,
@@ -1500,19 +1476,19 @@
             ]
         },
         {
+            "x": 1,
+            "y": 29,
+            "z": 1,
+            "elements": [
+                "taiga:tiberium_block@0"
+            ]
+        },
+        {
             "x": 0,
             "y": 10,
             "z": 5,
             "elements": [
                 "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": -16,
-            "y": 16,
-            "z": 0,
-            "elements": [
-                "additions:martisite_block@0"
             ]
         },
         {
@@ -2732,6 +2708,14 @@
             ]
         },
         {
+            "x": -4,
+            "y": 35,
+            "z": 0,
+            "elements": [
+                "taiga:terrax_block@0"
+            ]
+        },
+        {
             "x": -1,
             "y": 37,
             "z": -13,
@@ -2748,11 +2732,11 @@
             ]
         },
         {
-            "x": -4,
-            "y": 35,
-            "z": 0,
+            "x": -15,
+            "y": 17,
+            "z": 2,
             "elements": [
-                "taiga:terrax_block@0"
+                "additions:dawnium_block@0"
             ]
         },
         {
@@ -4092,19 +4076,19 @@
             ]
         },
         {
-            "x": -5,
-            "y": 21,
-            "z": 3,
-            "elements": [
-                "taiga:prometheum_block@0"
-            ]
-        },
-        {
             "x": 0,
             "y": 34,
             "z": -11,
             "elements": [
                 "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 21,
+            "z": 3,
+            "elements": [
+                "taiga:prometheum_block@0"
             ]
         },
         {
@@ -5580,14 +5564,6 @@
             ]
         },
         {
-            "x": 1,
-            "y": 45,
-            "z": -17,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
             "x": 0,
             "y": 11,
             "z": 3,
@@ -5596,11 +5572,11 @@
             ]
         },
         {
-            "x": -16,
-            "y": 17,
-            "z": 1,
+            "x": 1,
+            "y": 45,
+            "z": -17,
             "elements": [
-                "additions:lovaquite_block@0"
+                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -5884,6 +5860,14 @@
             ]
         },
         {
+            "x": 0,
+            "y": 44,
+            "z": -13,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
             "x": -2,
             "y": -13,
             "z": 20,
@@ -5892,11 +5876,11 @@
             ]
         },
         {
-            "x": 0,
-            "y": 44,
-            "z": -13,
+            "x": -15,
+            "y": 17,
+            "z": 3,
             "elements": [
-                "minecraft:quartz_block@0"
+                "additions:lovaquite_block@0"
             ]
         },
         {
@@ -6965,6 +6949,14 @@
         },
         {
             "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -1,
             "y": 38,
             "z": -14,
             "elements": [
@@ -6972,11 +6964,11 @@
             ]
         },
         {
-            "x": -1,
-            "y": 0,
-            "z": 4,
+            "x": 15,
+            "y": 16,
+            "z": 0,
             "elements": [
-                "casings_parallel"
+                "additions:martisite_block@0"
             ]
         },
         {
@@ -7153,14 +7145,6 @@
             "z": -14,
             "elements": [
                 "minecraft:quartz_block@0"
-            ]
-        },
-        {
-            "x": 16,
-            "y": 16,
-            "z": 0,
-            "elements": [
-                "additions:martisite_block@0"
             ]
         },
         {
@@ -7401,14 +7385,6 @@
             "z": 6,
             "elements": [
                 "taiga:eezo_block@0"
-            ]
-        },
-        {
-            "x": -16,
-            "y": 17,
-            "z": 2,
-            "elements": [
-                "additions:dawnium_block@0"
             ]
         },
         {
@@ -8041,14 +8017,6 @@
             "z": -2,
             "elements": [
                 "taiga:terrax_block@0"
-            ]
-        },
-        {
-            "x": -16,
-            "y": 18,
-            "z": 4,
-            "elements": [
-                "additions:martisite_block@0"
             ]
         },
         {
@@ -9684,17 +9652,17 @@
             ]
         },
         {
-            "x": -4,
-            "y": 15,
-            "z": -2,
+            "x": -6,
+            "y": 16,
+            "z": 2,
             "elements": [
                 "taiga:prometheum_block@0"
             ]
         },
         {
-            "x": -6,
-            "y": 16,
-            "z": 2,
+            "x": -4,
+            "y": 15,
+            "z": -2,
             "elements": [
                 "taiga:prometheum_block@0"
             ]
@@ -9705,6 +9673,14 @@
             "z": -4,
             "elements": [
                 "taiga:tiberium_block@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 16,
+            "z": 0,
+            "elements": [
+                "additions:martisite_block@0"
             ]
         },
         {
@@ -10036,17 +10012,17 @@
             ]
         },
         {
-            "x": 0,
-            "y": 46,
-            "z": -16,
+            "x": -1,
+            "y": 41,
+            "z": -10,
             "elements": [
                 "minecraft:quartz_block@0"
             ]
         },
         {
-            "x": -1,
-            "y": 41,
-            "z": -10,
+            "x": 0,
+            "y": 46,
+            "z": -16,
             "elements": [
                 "minecraft:quartz_block@0"
             ]
@@ -10057,6 +10033,14 @@
             "z": 0,
             "elements": [
                 "taiga:terrax_block@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 19,
+            "z": 6,
+            "elements": [
+                "additions:mangisite_block@0"
             ]
         },
         {
@@ -10153,14 +10137,6 @@
             "z": 8,
             "elements": [
                 "taiga:tiberium_block@0"
-            ]
-        },
-        {
-            "x": -16,
-            "y": 15,
-            "z": -2,
-            "elements": [
-                "additions:mangisite_block@0"
             ]
         },
         {
@@ -10452,6 +10428,14 @@
             ]
         },
         {
+            "x": 2,
+            "y": 0,
+            "z": 11,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
             "x": -4,
             "y": 14,
             "z": -1,
@@ -10604,19 +10588,19 @@
             ]
         },
         {
-            "x": 2,
-            "y": 0,
-            "z": 11,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
             "x": -2,
             "y": -2,
             "z": 12,
             "elements": [
                 "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 31,
+            "z": 2,
+            "elements": [
+                "additions:soilium_block@0"
             ]
         },
         {
@@ -10660,11 +10644,11 @@
             ]
         },
         {
-            "x": 3,
-            "y": 31,
-            "z": 2,
+            "x": -1,
+            "y": 40,
+            "z": -10,
             "elements": [
-                "additions:soilium_block@0"
+                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -10684,14 +10668,6 @@
             ]
         },
         {
-            "x": -1,
-            "y": 40,
-            "z": -10,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
             "x": 2,
             "y": 23,
             "z": 3,
@@ -10705,6 +10681,14 @@
             "z": 1,
             "elements": [
                 "casings_all"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 17,
+            "z": 2,
+            "elements": [
+                "additions:dawnium_block@0"
             ]
         },
         {
@@ -11380,6 +11364,14 @@
             ]
         },
         {
+            "x": -15,
+            "y": 16,
+            "z": -1,
+            "elements": [
+                "additions:oneo_block@0"
+            ]
+        },
+        {
             "x": 0,
             "y": -1,
             "z": 9,
@@ -11481,6 +11473,14 @@
             "z": 16,
             "elements": [
                 "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 18,
+            "z": 5,
+            "elements": [
+                "additions:oneo_block@0"
             ]
         },
         {
@@ -11900,14 +11900,6 @@
             ]
         },
         {
-            "x": 16,
-            "y": 17,
-            "z": 2,
-            "elements": [
-                "additions:dawnium_block@0"
-            ]
-        },
-        {
             "x": -2,
             "y": 45,
             "z": -13,
@@ -12105,6 +12097,14 @@
             "z": 8,
             "elements": [
                 "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 17,
+            "z": 3,
+            "elements": [
+                "additions:lovaquite_block@0"
             ]
         },
         {
@@ -12485,6 +12485,14 @@
         },
         {
             "x": -2,
+            "y": 33,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
             "y": 32,
             "z": 1,
             "elements": [
@@ -12493,10 +12501,10 @@
         },
         {
             "x": -2,
-            "y": 33,
-            "z": 2,
+            "y": -2,
+            "z": 15,
             "elements": [
-                "casings_all"
+                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -12524,11 +12532,11 @@
             ]
         },
         {
-            "x": -2,
-            "y": -2,
-            "z": 15,
+            "x": -15,
+            "y": 15,
+            "z": -2,
             "elements": [
-                "minecraft:quartz_block@0"
+                "additions:mangisite_block@0"
             ]
         },
         {
@@ -12649,6 +12657,14 @@
             "z": -12,
             "elements": [
                 "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 15,
+            "z": -2,
+            "elements": [
+                "additions:mangisite_block@0"
             ]
         },
         {
@@ -12908,14 +12924,6 @@
             ]
         },
         {
-            "x": 16,
-            "y": 18,
-            "z": 4,
-            "elements": [
-                "additions:martisite_block@0"
-            ]
-        },
-        {
             "x": -1,
             "y": 22,
             "z": 5,
@@ -13148,6 +13156,14 @@
             ]
         },
         {
+            "x": 15,
+            "y": 18,
+            "z": 4,
+            "elements": [
+                "additions:martisite_block@0"
+            ]
+        },
+        {
             "x": 0,
             "y": -1,
             "z": -3,
@@ -13340,27 +13356,11 @@
             ]
         },
         {
-            "x": 16,
-            "y": 16,
-            "z": -1,
-            "elements": [
-                "additions:oneo_block@0"
-            ]
-        },
-        {
             "x": -2,
             "y": 36,
             "z": -10,
             "elements": [
                 "minecraft:quartz_block@0"
-            ]
-        },
-        {
-            "x": 16,
-            "y": 19,
-            "z": 6,
-            "elements": [
-                "additions:mangisite_block@0"
             ]
         },
         {
@@ -13756,14 +13756,6 @@
             ]
         },
         {
-            "x": 5,
-            "y": 15,
-            "z": 0,
-            "elements": [
-                "taiga:eezo_block@0"
-            ]
-        },
-        {
             "x": 2,
             "y": -1,
             "z": 9,
@@ -13788,11 +13780,11 @@
             ]
         },
         {
-            "x": 16,
-            "y": 17,
-            "z": 3,
+            "x": 5,
+            "y": 15,
+            "z": 0,
             "elements": [
-                "additions:lovaquite_block@0"
+                "taiga:eezo_block@0"
             ]
         },
         {
@@ -14065,6 +14057,14 @@
             "z": 2,
             "elements": [
                 "taiga:vibranium_block@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 17,
+            "z": 1,
+            "elements": [
+                "additions:lovaquite_block@0"
             ]
         },
         {
@@ -15076,14 +15076,6 @@
             ]
         },
         {
-            "x": 16,
-            "y": 15,
-            "z": -2,
-            "elements": [
-                "additions:mangisite_block@0"
-            ]
-        },
-        {
             "x": 0,
             "y": -6,
             "z": 18,
@@ -15348,6 +15340,14 @@
             ]
         },
         {
+            "x": 15,
+            "y": 16,
+            "z": -1,
+            "elements": [
+                "additions:oneo_block@0"
+            ]
+        },
+        {
             "x": -2,
             "y": 32,
             "z": 4,
@@ -15361,6 +15361,14 @@
             "z": 0,
             "elements": [
                 "taiga:eezo_block@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": 19,
+            "z": 6,
+            "elements": [
+                "additions:mangisite_block@0"
             ]
         },
         {
@@ -15665,14 +15673,6 @@
             "z": 4,
             "elements": [
                 "taiga:tiberium_block@0"
-            ]
-        },
-        {
-            "x": 16,
-            "y": 17,
-            "z": 1,
-            "elements": [
-                "additions:lovaquite_block@0"
             ]
         },
         {
@@ -16404,19 +16404,19 @@
             ]
         },
         {
-            "x": -1,
-            "y": -13,
-            "z": 20,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
             "x": 9,
             "y": 26,
             "z": 15,
             "elements": [
                 "additions:sissidium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -13,
+            "z": 20,
+            "elements": [
+                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -16439,14 +16439,6 @@
             "x": 0,
             "y": -2,
             "z": 13,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 29,
-            "z": -4,
             "elements": [
                 "minecraft:quartz_block@0"
             ]
@@ -16500,9 +16492,9 @@
             ]
         },
         {
-            "x": 0,
-            "y": -5,
-            "z": 13,
+            "x": -1,
+            "y": 29,
+            "z": -4,
             "elements": [
                 "minecraft:quartz_block@0"
             ]
@@ -16533,8 +16525,8 @@
         },
         {
             "x": 0,
-            "y": -6,
-            "z": 14,
+            "y": -5,
+            "z": 13,
             "elements": [
                 "minecraft:quartz_block@0"
             ]
@@ -16572,6 +16564,14 @@
             ]
         },
         {
+            "x": 0,
+            "y": -6,
+            "z": 14,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
             "x": 7,
             "y": 15,
             "z": -2,
@@ -16588,17 +16588,17 @@
             ]
         },
         {
-            "x": -1,
-            "y": -9,
-            "z": 15,
+            "x": 0,
+            "y": -7,
+            "z": 20,
             "elements": [
                 "minecraft:quartz_block@0"
             ]
         },
         {
-            "x": 0,
-            "y": -7,
-            "z": 20,
+            "x": -1,
+            "y": -9,
+            "z": 15,
             "elements": [
                 "minecraft:quartz_block@0"
             ]
@@ -16609,14 +16609,6 @@
             "z": 6,
             "elements": [
                 "taiga:dilithium_block@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 9,
-            "elements": [
-                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -16636,11 +16628,11 @@
             ]
         },
         {
-            "x": -3,
-            "y": -1,
-            "z": 0,
+            "x": -2,
+            "y": 4,
+            "z": 9,
             "elements": [
-                "taiga:terrax_block@0"
+                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -16684,11 +16676,11 @@
             ]
         },
         {
-            "x": 16,
-            "y": 18,
-            "z": 5,
+            "x": -3,
+            "y": -1,
+            "z": 0,
             "elements": [
-                "additions:oneo_block@0"
+                "taiga:terrax_block@0"
             ]
         },
         {
@@ -16736,7 +16728,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "casings_all"
+                "casings_upgarde"
             ]
         },
         {
@@ -16849,6 +16841,14 @@
             "z": 5,
             "elements": [
                 "taiga:tiberium_block@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 18,
+            "z": 4,
+            "elements": [
+                "additions:martisite_block@0"
             ]
         },
         {
@@ -18492,27 +18492,11 @@
             ]
         },
         {
-            "x": -16,
-            "y": 19,
-            "z": 6,
-            "elements": [
-                "additions:mangisite_block@0"
-            ]
-        },
-        {
             "x": -4,
             "y": 2,
             "z": 3,
             "elements": [
                 "taiga:tiberium_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 9,
-            "elements": [
-                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -18524,11 +18508,11 @@
             ]
         },
         {
-            "x": -16,
-            "y": 16,
-            "z": -1,
+            "x": 2,
+            "y": 4,
+            "z": 9,
             "elements": [
-                "additions:oneo_block@0"
+                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -19164,14 +19148,6 @@
             ]
         },
         {
-            "x": 0,
-            "y": 44,
-            "z": -15,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
             "x": -3,
             "y": 4,
             "z": 2,
@@ -19212,11 +19188,11 @@
             ]
         },
         {
-            "x": -16,
-            "y": 17,
-            "z": 3,
+            "x": 0,
+            "y": 44,
+            "z": -15,
             "elements": [
-                "additions:lovaquite_block@0"
+                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -20500,6 +20476,14 @@
             ]
         },
         {
+            "x": 15,
+            "y": 18,
+            "z": 5,
+            "elements": [
+                "additions:oneo_block@0"
+            ]
+        },
+        {
             "x": 1,
             "y": 30,
             "z": -4,
@@ -20884,11 +20868,11 @@
             ]
         },
         {
-            "x": 5,
-            "y": 35,
-            "z": 2,
+            "x": -7,
+            "y": 27,
+            "z": 16,
             "elements": [
-                "taiga:tiberium_block@0"
+                "additions:circlium_block@0"
             ]
         },
         {
@@ -20940,11 +20924,11 @@
             ]
         },
         {
-            "x": -7,
-            "y": 27,
-            "z": 16,
+            "x": 5,
+            "y": 35,
+            "z": 2,
             "elements": [
-                "additions:circlium_block@0"
+                "taiga:tiberium_block@0"
             ]
         },
         {
@@ -21033,6 +21017,14 @@
             "z": 2,
             "elements": [
                 "taiga:tiberium_block@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": 17,
+            "z": 1,
+            "elements": [
+                "additions:lovaquite_block@0"
             ]
         },
         {

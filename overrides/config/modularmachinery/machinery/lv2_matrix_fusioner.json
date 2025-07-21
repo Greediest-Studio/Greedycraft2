@@ -1,6 +1,6 @@
 {
     "registryname": "matrix_fusioner",
-    "localizedname": "§3LV2 - 矩阵凝聚仪",
+    "localizedname": "§3LV2 - 矩阵聚合仪",
     "requires-blueprint": false,
     "failure-action": "still",
     "color": "c5e26b",
@@ -59,14 +59,6 @@
         }
     ],
     "parts": [
-        {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcontroller@2"
-            ]
-        },
         {
             "x": 3,
             "y": 14,
@@ -552,7 +544,7 @@
             "y": 11,
             "z": 4,
             "elements": [
-                "taiga:prometheum_block@0"
+                "taiga:eezo_block@0"
             ]
         },
         {
@@ -4116,6 +4108,14 @@
             ]
         },
         {
+            "x": 0,
+            "y": 15,
+            "z": 2,
+            "elements": [
+                "minecraft:glowstone@0"
+            ]
+        },
+        {
             "x": 6,
             "y": -1,
             "z": -1,
@@ -4356,6 +4356,14 @@
             ]
         },
         {
+            "x": 0,
+            "y": 13,
+            "z": 2,
+            "elements": [
+                "minecraft:glowstone@0"
+            ]
+        },
+        {
             "x": -4,
             "y": -1,
             "z": 7,
@@ -4420,11 +4428,11 @@
             ]
         },
         {
-            "x": 4,
-            "y": 35,
-            "z": -2,
+            "x": 1,
+            "y": 33,
+            "z": 4,
             "elements": [
-                "taiga:tiberium_block@0"
+                "casings_all"
             ]
         },
         {
@@ -4436,11 +4444,11 @@
             ]
         },
         {
-            "x": 1,
-            "y": 33,
-            "z": 4,
+            "x": 4,
+            "y": 35,
+            "z": -2,
             "elements": [
-                "casings_all"
+                "taiga:tiberium_block@0"
             ]
         },
         {
@@ -5680,7 +5688,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "casings_all"
+                "casings_upgrade"
             ]
         },
         {
@@ -7920,7 +7928,7 @@
             "y": 11,
             "z": 3,
             "elements": [
-                "taiga:prometheum_block@0"
+                "taiga:eezo_block@0"
             ]
         },
         {
@@ -8916,6 +8924,14 @@
             ]
         },
         {
+            "x": 0,
+            "y": 16,
+            "z": 2,
+            "elements": [
+                "minecraft:glowstone@0"
+            ]
+        },
+        {
             "x": 6,
             "y": 19,
             "z": 2,
@@ -9017,6 +9033,14 @@
             "z": 1,
             "elements": [
                 "taiga:osram_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 14,
+            "z": 2,
+            "elements": [
+                "minecraft:glowstone@0"
             ]
         },
         {
@@ -9188,19 +9212,19 @@
             ]
         },
         {
-            "x": 6,
-            "y": 19,
-            "z": 3,
-            "elements": [
-                "taiga:eezo_block@0"
-            ]
-        },
-        {
             "x": 0,
             "y": 5,
             "z": 0,
             "elements": [
                 "taiga:tiberium_block@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 19,
+            "z": 3,
+            "elements": [
+                "taiga:eezo_block@0"
             ]
         },
         {
@@ -9217,6 +9241,14 @@
             "z": -5,
             "elements": [
                 "taiga:duranite_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 12,
+            "z": 2,
+            "elements": [
+                "minecraft:glowstone@0"
             ]
         },
         {

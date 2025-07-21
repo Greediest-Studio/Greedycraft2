@@ -30,9 +30,19 @@
         "gugu-utils:aspecthatch",
         "modularmachinery:blocklifeessenceproviderinput",
         "modularmachinery:blocklifeessenceprovideroutput",
-        "whimcraft:blockmeaspectinputbus",
-        "whimcraft:blockmeaspectoutputbus",
-        "whimcraft:blockshareinfhandler"
+        "whimcraft:blockshareinfhandler",
+        "modularmachineryaddons:blockradiationproviderinput",
+        "modularmachineryaddons:blockradiationprovideroutput",
+        "modularmachineryaddons:blockscrubberproviderinput",
+        "modularmachineryaddons:blockwillmultichunkproviderinput",
+        "modularmachineryaddons:blockwillmultichunkprovideroutput",
+        "modularmachineryaddons:blockmeteorprovideroutput",
+        "modularmachineryaddons:blockmeessentiainputbus",
+        "modularmachineryaddons:blockmeessentiaoutputbus",
+        "modularmachineryaddons:blockfluxproviderinput",
+        "modularmachineryaddons:blockfluxprovideroutput",
+        "modularmachineryaddons:blockvisproviderinput",
+        "modularmachineryaddons:blockvisprovideroutput"
     ],
     "casings_parallel": [
         "modularmachinery:blockcasing@0",
@@ -41,32 +51,6 @@
     "casings_upgrade": [
         "modularmachinery:blockcasing@0",
         "modularmachinery:blockupgradebus"
-    ],
-    "casings_decorative": [
-        "modularmachinery:blockcasing"
-    ],
-    "casings_fluid": [
-        "modularmachinery:blockfluidinputhatch",
-        "modularmachinery:blockfluidoutputhatch"
-    ],
-    "casings_energy": [
-        "modularmachinery:blockenergyinputhatch",
-        "modularmachinery:blockenergyoutputhatch"
-    ],
-    "casings_item": [
-        "modularmachinery:blockinputbus",
-        "modularmachinery:blockoutputbus"
-    ],
-    "casings_tofu": [
-        "tofucraft:tf_machine_case"
-    ],
-	"casings_seared": [
-        "tconstruct:seared",
-		"tconstruct:seared_glass"
-    ],
-    "iron_bars": [
-        "minecraft:iron_bars",
-		"chisel:ironpane"
     ],
     "casings_speed": [
         "modularmachinery:blockcasing@1",
@@ -87,14 +71,5 @@
         "bloodmagic:blood_rune@8",
         "bloodmagic:blood_rune@9",
         "bloodmagic:blood_rune@10"        
-    ],
-    "casings_item_input": [
-        "modularmachinery:blockinputbus",
-        "modularmachinery:blockmeiteminputbus",
-        "modularmachinery:blockmepatternprovider"
-    ],
-    "casings_item_output": [
-        "modularmachinery:blockoutputbus",
-        "modularmachinery:blockmeitemoutputbus"
     ]
 }

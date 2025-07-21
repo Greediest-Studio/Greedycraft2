@@ -288,12 +288,12 @@ IngotFormer.removeRecipeWithOutput(<additions:argon_ingot>);
 IngotFormer.removeRecipeWithOutput(<additions:krypton_ingot>);
 IngotFormer.removeRecipeWithOutput(<additions:xenon_ingot>);
 IngotFormer.removeRecipeWithOutput(<additions:radon_ingot>);
-IngotFormer.addRecipe(<draconicevolution:draconic_ingot>, <liquid:awakened_draconium> * 144);
-IngotFormer.addRecipe(<gct_ores:chaotic_draconium_ingot>, <liquid:chaotic_draconium> * 144);
-IngotFormer.addRecipe(<gct_ores:ruled_draconium_ingot>, <liquid:ruled_draconium> * 144);
-IngotFormer.addRecipe(<gct_ores:relifed_witherium_ingot>, <liquid:relifed_witherium> * 144);
-IngotFormer.addRecipe(<gct_ores:stormy_witherium_ingot>, <liquid:stormy_witherium> * 144);
-IngotFormer.addRecipe(<gct_ores:equipment_witherium_ingot>, <liquid:equipment_witherium> * 144);
+IngotFormer.addRecipe(<liquid:awakened_draconium> * 144, <draconicevolution:draconic_ingot>);
+IngotFormer.addRecipe(<liquid:chaotic_draconium> * 144, <gct_ores:chaotic_draconium_ingot>);
+IngotFormer.addRecipe(<liquid:ruled_draconium> * 144, <gct_ores:ruled_draconium_ingot>);
+IngotFormer.addRecipe(<liquid:relifed_witherium> * 144, <gct_ores:relifed_witherium_ingot>);
+IngotFormer.addRecipe(<liquid:stormy_witherium> * 144, <gct_ores:stormy_witherium_ingot>);
+IngotFormer.addRecipe(<liquid:equipment_witherium> * 144, <gct_ores:equipment_witherium_ingot>);
 
 Radiation.setMaterialRadiationLevel("Technetium", 0.000000000985d);
 Radiation.setMaterialRadiationLevel("Promethium", 0.064d);

@@ -1,0 +1,16 @@
+{
+  "preset_block": "additions:basic_fusion_core",
+  "pools": [
+    {
+      "name": "block_itself_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:basic_fusion_core"
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_itself"
+}
