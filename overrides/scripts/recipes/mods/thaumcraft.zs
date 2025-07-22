@@ -15,6 +15,7 @@ import mods.thaumcraft.Infusion;
 import mods.thaumcraft.ArcaneWorkbench;
 import mods.thaumcraft.Crucible;
 
+
 var removedRecipes as IItemStack[] = [
     <thaumcraft:fortress_helm>,
     <thaumcraft:fortress_chest>,
@@ -295,23 +296,81 @@ Infusion.registerRecipe("sanite_siphon", "ABYSSISM_MOBS", <gct_aby:sanite_siphon
     <additions:abyssine_ingot>,
     <forge:bucketfilled>.withTag({FluidName: "liquidantimatter", Amount: 1000}),
     <appliedenergistics2:material:47>,
-    <additions:blackhole_alloy_block>    
+    <additions:blackhole_alloy_block>
 ]);
 
 Infusion.registerRecipe("essentia_component", "", <thaumicenergistics:essentia_cell_1048576k>, 10, [
-    <aspect:caeles> * 10000, 
-    <aspect:praecantatio> * 10000, 
-    <aspect:desiderium> * 10000, 
+    <aspect:caeles> * 10000,
+    <aspect:praecantatio> * 10000,
+    <aspect:desiderium> * 10000,
     <aspect:machina> * 10000
 ], <thaumicenergistics:essentia_component_64k>, [
-    <additions:creative_shard>, 
-    <additions:arcane_control_circuit>, 
     <additions:creative_shard>,
-    <additions:extended_primal_metal_ingot>, 
+    <additions:arcane_control_circuit>,
+    <additions:creative_shard>,
+    <additions:extended_primal_metal_ingot>,
     <additions:creative_shard>,
     <thaumicaugmentation:material:3>,
     <additions:creative_shard>,
     <gct_ores:order_crystal>
+]);
+
+Infusion.registerRecipe("energy_matter_core", "", <additions:energy_matter_core>, 16,[
+    <aspect:permutatio> * 50,
+    <aspect:alienis> * 50,
+    <aspect:praecantatio> * 50,
+    <aspect:alkimia> * 50,
+    <aspect:auram> * 50,
+    <aspect:desiderium> * 50
+],<projecte:item.pe_philosophers_stone>, [
+    <mekanism:controlcircuit:3>,
+    <projecte:item.pe_matter:1>,
+    <thaumcraft:causality_collapser>,
+    <appliedenergistics2:material:47>,
+    <additions:matter_block>,
+    <abyssalcraft:transmutationgem>,
+    <abyssalcraft:oc>,
+    <ore:ingotChromasteel>
+]);
+
+Infusion.registerRecipe("wand_blueprint", "", <additions:blueprint_wand>, 55,[
+    <aspect:praecantatio> * 10,
+    <aspect:instrumentum> * 10,
+    <aspect:aversio> * 10,
+    <aspect:auram> * 10
+], <additions:blueprint>,[
+    <thaumcraft:curio:1>,
+    <thaumcraft:ingot>,
+    <thaumcraft:mechanism_simple>,
+    <thaumcraft:vis_resonator>
+]);
+
+Infusion.registerRecipe("crimsonite_ingot", "", <additions:crimsonite_block>, 6, [
+    <aspect:victus>*1000,
+    <aspect:mortuus>*1000,
+    <aspect:aversio>*1000,
+    <aspect:desiderium>*1000
+], <bloodarsenal:blood_diamond:3>, [
+    <additions:chromasteel_ingot>,
+    <bloodmagic:item_demon_crystal:1>,
+    <bloodmagic:item_demon_crystal:2>,
+    <bloodmagic:item_demon_crystal:3>,
+    <bloodmagic:item_demon_crystal:4>,
+    <additions:chromasteel_ingot>,
+    <bloodmagic:item_demon_crystal:1>,
+    <bloodmagic:item_demon_crystal:2>,
+    <bloodmagic:item_demon_crystal:3>,
+    <bloodmagic:item_demon_crystal:4>,
+    <additions:chromasteel_ingot>,
+    <bloodmagic:item_demon_crystal:1>,
+    <bloodmagic:item_demon_crystal:2>,
+    <bloodmagic:item_demon_crystal:3>,
+    <bloodmagic:item_demon_crystal:4>,
+    <additions:chromasteel_ingot>,
+    <bloodmagic:item_demon_crystal:1>,
+    <bloodmagic:item_demon_crystal:2>,
+    <bloodmagic:item_demon_crystal:3>,
+    <bloodmagic:item_demon_crystal:4>
 ]);
 
 //Infusion.registerRecipe("");
