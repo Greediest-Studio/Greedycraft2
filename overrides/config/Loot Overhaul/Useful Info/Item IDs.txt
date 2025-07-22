@@ -12847,8 +12847,6 @@ additions:tierite_block - 16529
 additions:circlium_block - 16530
 modularmachinery:astral_collector_factory_controller - 16531
 modularmachinery:astral_collector_controller - 16532
-modularmachinery:ore_5x_factory_controller - 16533
-modularmachinery:ore_5x_controller - 16534
 modularmachinery:matrix_balancer_factory_controller - 16535
 modularmachinery:matrix_balancer_controller - 16536
 modularmachinery:aeonsteel_forge_factory_controller - 16537
@@ -27381,6 +27379,10 @@ modularmachinery:crystal_builder_controller - 31063
 additions:basic_fusion_core - 31064
 modularmachinery:dimensional_miner_factory_controller - 31065
 modularmachinery:dimensional_miner_controller - 31066
+modularmachinery:factory_4x_controller - 31067
 additions:wyvern_fusion_core - 31068
 additions:chaotic_fusion_core - 31069
 additions:draconic_fusion_core - 31070
+modularmachinery:factory_4x_factory_controller - 31071
+modularmachinery:factory_5x_factory_controller - 31072
+modularmachinery:factory_5x_controller - 31073
