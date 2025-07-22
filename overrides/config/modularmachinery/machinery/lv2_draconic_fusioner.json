@@ -1,0 +1,2676 @@
+{
+    "registryname": "draconic_fusioner",
+    "localizedname": "§3LV2 - 龙之研究聚合台",
+    "requires-blueprint": false,
+    "failure-action": "still",
+    "color": "eff8b8",
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "quark:end_bricks_stairs@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "quark:end_bricks_stairs@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 14,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "quark:end_bricks_stairs@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 12,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "quark:end_bricks_stairs@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 12,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "quark:end_bricks_wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "quark:end_bricks_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "quark:end_bricks_wall@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "quark:end_bricks_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 12,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 12,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 13,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "quark:end_bricks_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "quark:end_bricks_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "quark:end_bricks_stairs@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": -3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 12,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "quark:end_bricks_stairs@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 13,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "quark:end_bricks_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 13,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": -3,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "quark:end_bricks_stairs@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "quark:end_bricks_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "quark:end_bricks_stairs@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 14,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "quark:end_bricks_stairs@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "quark:end_bricks_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 14,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "quark:end_bricks_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "quark:end_bricks_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 9,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "quark:end_bricks_stairs@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 13,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "quark:end_bricks_stairs@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "quark:end_bricks_stairs@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "quark:end_bricks_stairs@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "quark:end_bricks_wall@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 9,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "quark:end_bricks_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 13,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "quark:end_bricks_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "quark:end_bricks_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 13,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "quark:end_bricks_wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "quark:end_bricks_stairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "quark:end_bricks_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "quark:end_bricks_stairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 13,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "quark:end_bricks_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "quark:end_bricks_stairs@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "quark:end_bricks_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "quark:end_bricks_stairs@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 14,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "quark:end_bricks_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 14,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 13,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 14,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "quark:end_bricks_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 12,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 13,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 15,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 12,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 13,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "quark:end_bricks_stairs@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 9,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 12,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 16,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "quark:end_bricks_stairs@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 13,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 15,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 12,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "quark:end_bricks_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 13,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "quark:end_bricks_slab@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": -3,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 13,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "quark:end_bricks_stairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "quark:end_bricks_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 9,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 15,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "quark:end_bricks_stairs@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "quark:end_bricks_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "additions:basic_fusion_core@0",
+                "additions:wyvern_fusion_core@0",
+                "additions:draconic_fusion_core@0",
+                "additions:chaotic_fusion_core@0",
+                "gct_ores:ordered_fusion_core@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "quark:end_bricks_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "quark:end_bricks_stairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "quark:end_bricks_stairs@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "quark:end_bricks_stairs@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "quark:end_bricks_stairs@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 12,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "quark:end_bricks_stairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 13,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "quark:end_bricks_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "minecraft:beacon@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 12,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "quark:end_bricks_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "quark:end_bricks_stairs@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 14,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 10,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "quark:end_bricks_wall@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "quark:end_bricks_slab@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 14,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 9,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "quark:end_bricks_stairs@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 15,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "quark:end_bricks_stairs@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 12,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 14,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "enderio:block_alloy@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "quark:end_bricks_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 12,
+            "elements": [
+                "quark:biotite_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "quark:end_bricks_stairs@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "quark:end_bricks_stairs@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "quark:end_bricks_stairs@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "quark:end_bricks_stairs@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": -4,
+            "elements": [
+                "quark:end_bricks_stairs@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 12,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "quark:end_bricks_stairs@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "quark:end_bricks_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "quark:end_bricks_wall@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "quark:end_bricks_stairs@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 17,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "draconicevolution:draconium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "quark:end_bricks_slab@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "minecraft:end_bricks@0"
+            ]
+        }
+    ]}
