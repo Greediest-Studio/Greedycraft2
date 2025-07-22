@@ -64,14 +64,6 @@
     ],
     "parts": [
         {
-            "x": 0,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockcontroller@2"
-            ]
-        },
-        {
             "x": 6,
             "y": 28,
             "z": 12,
@@ -1176,19 +1168,19 @@
             ]
         },
         {
-            "x": 0,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "appliedenergistics2:quantum_ring@0"
-            ]
-        },
-        {
             "x": -6,
             "y": 28,
             "z": 12,
             "elements": [
                 "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:quantum_ring@0"
             ]
         },
         {
@@ -2544,6 +2536,14 @@
             ]
         },
         {
+            "x": -9,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "randomportals:blue_lateral_nether_portal@4"
+            ]
+        },
+        {
             "x": 7,
             "y": 16,
             "z": 4,
@@ -2688,6 +2688,14 @@
             ]
         },
         {
+            "x": -7,
+            "y": 10,
+            "z": 20,
+            "elements": [
+                "chisel:blockinvar@0"
+            ]
+        },
+        {
             "x": 0,
             "y": 30,
             "z": 17,
@@ -2696,11 +2704,11 @@
             ]
         },
         {
-            "x": -7,
-            "y": 10,
-            "z": 20,
+            "x": -10,
+            "y": -1,
+            "z": 14,
             "elements": [
-                "chisel:blockinvar@0"
+                "randomportals:blue_lateral_nether_portal@4"
             ]
         },
         {
@@ -3984,19 +3992,19 @@
             ]
         },
         {
-            "x": 0,
-            "y": 8,
-            "z": 18,
-            "elements": [
-                "additions:aeonsteel_block@0"
-            ]
-        },
-        {
             "x": -4,
             "y": 1,
             "z": 5,
             "elements": [
                 "additions:manganese_steel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 18,
+            "elements": [
+                "additions:aeonsteel_block@0"
             ]
         },
         {
@@ -5920,6 +5928,14 @@
             ]
         },
         {
+            "x": -8,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "randomportals:blue_lateral_nether_portal@4"
+            ]
+        },
+        {
             "x": -5,
             "y": 10,
             "z": 17,
@@ -5997,6 +6013,14 @@
             "z": 11,
             "elements": [
                 "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "randomportals:blue_lateral_nether_portal@4"
             ]
         },
         {
@@ -6296,6 +6320,14 @@
             ]
         },
         {
+            "x": -7,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "randomportals:blue_lateral_nether_portal@4"
+            ]
+        },
+        {
             "x": 3,
             "y": -1,
             "z": 18,
@@ -6512,6 +6544,14 @@
             ]
         },
         {
+            "x": -7,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "randomportals:blue_lateral_nether_portal@4"
+            ]
+        },
+        {
             "x": -2,
             "y": 17,
             "z": 16,
@@ -6653,6 +6693,14 @@
             "z": 19,
             "elements": [
                 "chisel:blockinvar@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "randomportals:blue_lateral_nether_portal@4"
             ]
         },
         {
@@ -7856,6 +7904,14 @@
             ]
         },
         {
+            "x": 2,
+            "y": 14,
+            "z": 12,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
             "x": -3,
             "y": 4,
             "z": 20,
@@ -7866,14 +7922,6 @@
         {
             "x": -6,
             "y": 29,
-            "z": 12,
-            "elements": [
-                "additions:stainless_steel_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 14,
             "z": 12,
             "elements": [
                 "additions:stainless_steel_block@0"
@@ -8952,6 +9000,14 @@
             ]
         },
         {
+            "x": -10,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "randomportals:blue_lateral_nether_portal@4"
+            ]
+        },
+        {
             "x": -12,
             "y": 1,
             "z": 12,
@@ -9237,6 +9293,14 @@
             "z": 13,
             "elements": [
                 "chisel:blockinvar@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "randomportals:blue_lateral_nether_portal@4"
             ]
         },
         {
@@ -10152,6 +10216,14 @@
             ]
         },
         {
+            "x": -7,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "randomportals:blue_lateral_nether_portal@4"
+            ]
+        },
+        {
             "x": -5,
             "y": 16,
             "z": 16,
@@ -10512,6 +10584,14 @@
             ]
         },
         {
+            "x": -9,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "randomportals:blue_lateral_nether_portal@4"
+            ]
+        },
+        {
             "x": 0,
             "y": -1,
             "z": 13,
@@ -10552,6 +10632,14 @@
             ]
         },
         {
+            "x": 0,
+            "y": 0,
+            "z": 23,
+            "elements": [
+                "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
             "x": -9,
             "y": 17,
             "z": 5,
@@ -10560,11 +10648,11 @@
             ]
         },
         {
-            "x": 0,
-            "y": 0,
-            "z": 23,
+            "x": -11,
+            "y": -1,
+            "z": 10,
             "elements": [
-                "minecraft:quartz_stairs@3"
+                "randomportals:blue_lateral_nether_portal@4"
             ]
         },
         {
@@ -11680,11 +11768,11 @@
             ]
         },
         {
-            "x": -4,
-            "y": -1,
-            "z": 13,
+            "x": -8,
+            "y": 0,
+            "z": 22,
             "elements": [
-                "randomportals:white_lateral_nether_portal@4"
+                "casings_all"
             ]
         },
         {
@@ -11704,11 +11792,11 @@
             ]
         },
         {
-            "x": -8,
-            "y": 0,
-            "z": 22,
+            "x": -4,
+            "y": -1,
+            "z": 13,
             "elements": [
-                "casings_all"
+                "randomportals:white_lateral_nether_portal@4"
             ]
         },
         {
@@ -12360,6 +12448,14 @@
             ]
         },
         {
+            "x": -10,
+            "y": 0,
+            "z": 19,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
             "x": 5,
             "y": 11,
             "z": 16,
@@ -12793,6 +12889,14 @@
         },
         {
             "x": -8,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "randomportals:blue_lateral_nether_portal@4"
+            ]
+        },
+        {
+            "x": -8,
             "y": 10,
             "z": 12,
             "elements": [
@@ -12936,6 +13040,14 @@
             ]
         },
         {
+            "x": -10,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "randomportals:blue_lateral_nether_portal@4"
+            ]
+        },
+        {
             "x": 7,
             "y": 18,
             "z": 21,
@@ -13013,6 +13125,14 @@
             "z": 6,
             "elements": [
                 "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "randomportals:blue_lateral_nether_portal@4"
             ]
         },
         {
@@ -14704,14 +14824,6 @@
             ]
         },
         {
-            "x": -1,
-            "y": 28,
-            "z": 12,
-            "elements": [
-                "additions:stainless_steel_block@0"
-            ]
-        },
-        {
             "x": 0,
             "y": 11,
             "z": 20,
@@ -14725,6 +14837,14 @@
             "z": 20,
             "elements": [
                 "additions:manganese_steel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 28,
+            "z": 12,
+            "elements": [
+                "additions:stainless_steel_block@0"
             ]
         },
         {
@@ -15325,6 +15445,14 @@
             "z": 4,
             "elements": [
                 "chisel:blockinvar@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "randomportals:blue_lateral_nether_portal@4"
             ]
         },
         {
@@ -15968,6 +16096,14 @@
             ]
         },
         {
+            "x": -7,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "randomportals:blue_lateral_nether_portal@4"
+            ]
+        },
+        {
             "x": 0,
             "y": 14,
             "z": 22,
@@ -16605,6 +16741,14 @@
             "z": 15,
             "elements": [
                 "gct_ores:shalloite_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "randomportals:blue_lateral_nether_portal@4"
             ]
         },
         {
@@ -17256,19 +17400,19 @@
             ]
         },
         {
-            "x": -10,
-            "y": -1,
-            "z": 17,
-            "elements": [
-                "additions:manganese_steel_block@0"
-            ]
-        },
-        {
             "x": 2,
             "y": 18,
             "z": 14,
             "elements": [
                 "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "additions:manganese_steel_block@0"
             ]
         },
         {
@@ -18912,6 +19056,14 @@
             ]
         },
         {
+            "x": -11,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "randomportals:blue_lateral_nether_portal@4"
+            ]
+        },
+        {
             "x": -8,
             "y": 0,
             "z": 2,
@@ -18944,19 +19096,19 @@
             ]
         },
         {
-            "x": 1,
-            "y": 6,
-            "z": 21,
-            "elements": [
-                "chisel:concrete_green1@2"
-            ]
-        },
-        {
             "x": -5,
             "y": 6,
             "z": 17,
             "elements": [
                 "chisel:obsidian@13"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 21,
+            "elements": [
+                "chisel:concrete_green1@2"
             ]
         },
         {
@@ -19168,19 +19320,19 @@
             ]
         },
         {
+            "x": 9,
+            "y": 13,
+            "z": 4,
+            "elements": [
+                "chisel:blockinvar@0"
+            ]
+        },
+        {
             "x": 3,
             "y": 2,
             "z": 0,
             "elements": [
                 "gct_ores:shalloite_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 18,
-            "elements": [
-                "minecraft:obsidian@0"
             ]
         },
         {
@@ -19216,11 +19368,11 @@
             ]
         },
         {
-            "x": 9,
-            "y": 13,
-            "z": 4,
+            "x": -3,
+            "y": -1,
+            "z": 18,
             "elements": [
-                "chisel:blockinvar@0"
+                "minecraft:obsidian@0"
             ]
         },
         {
@@ -20416,19 +20568,19 @@
             ]
         },
         {
-            "x": 9,
-            "y": 5,
-            "z": 20,
-            "elements": [
-                "chisel:blockinvar@0"
-            ]
-        },
-        {
             "x": -4,
             "y": 16,
             "z": 17,
             "elements": [
                 "gct_ores:shalloite_stair@3"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 5,
+            "z": 20,
+            "elements": [
+                "chisel:blockinvar@0"
             ]
         },
         {
@@ -20493,6 +20645,14 @@
             "z": 19,
             "elements": [
                 "chisel:technicalnew@7"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "randomportals:blue_lateral_nether_portal@4"
             ]
         },
         {
@@ -20616,19 +20776,19 @@
             ]
         },
         {
-            "x": -9,
-            "y": 17,
-            "z": 8,
-            "elements": [
-                "chisel:blockinvar@0"
-            ]
-        },
-        {
             "x": 8,
             "y": -1,
             "z": 6,
             "elements": [
                 "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 17,
+            "z": 8,
+            "elements": [
+                "chisel:blockinvar@0"
             ]
         },
         {
@@ -22057,6 +22217,14 @@
         },
         {
             "x": -7,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "randomportals:blue_lateral_nether_portal@4"
+            ]
+        },
+        {
+            "x": -7,
             "y": 8,
             "z": 20,
             "elements": [
@@ -22384,6 +22552,14 @@
             ]
         },
         {
+            "x": -11,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "randomportals:blue_lateral_nether_portal@4"
+            ]
+        },
+        {
             "x": -9,
             "y": 8,
             "z": 13,
@@ -22624,19 +22800,19 @@
             ]
         },
         {
-            "x": -8,
-            "y": 12,
-            "z": 5,
-            "elements": [
-                "chisel:blockinvar@0"
-            ]
-        },
-        {
             "x": -2,
             "y": 5,
             "z": 5,
             "elements": [
                 "chisel:technicalnew@7"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 12,
+            "z": 5,
+            "elements": [
+                "chisel:blockinvar@0"
             ]
         },
         {
@@ -24201,6 +24377,14 @@
         },
         {
             "x": -9,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "randomportals:blue_lateral_nether_portal@4"
+            ]
+        },
+        {
+            "x": -9,
             "y": 0,
             "z": 16,
             "elements": [
@@ -24589,6 +24773,14 @@
             "z": 15,
             "elements": [
                 "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "randomportals:blue_lateral_nether_portal@4"
             ]
         },
         {
@@ -25760,14 +25952,6 @@
             ]
         },
         {
-            "x": 0,
-            "y": 20,
-            "z": 4,
-            "elements": [
-                "additions:stainless_steel_block@0"
-            ]
-        },
-        {
             "x": 6,
             "y": 17,
             "z": 3,
@@ -25776,11 +25960,27 @@
             ]
         },
         {
+            "x": 0,
+            "y": 20,
+            "z": 4,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
             "x": -2,
             "y": 18,
             "z": 20,
             "elements": [
                 "chisel:blockinvar@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "randomportals:blue_lateral_nether_portal@4"
             ]
         },
         {
