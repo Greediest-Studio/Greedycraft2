@@ -1,0 +1,57 @@
+{
+	title: "血腥裂隙?",
+	x: 9.5d,
+	y: -4.0d,
+	dependencies: [
+		"29eb121f"
+	],
+	tasks: [{
+		uid: "e753bc89",
+		type: "item",
+		items: [{
+			item: "gct_mobs:arcane_vis_receiver"
+		}]
+	},
+	{
+		uid: "be0fffe0",
+		type: "item",
+		items: [{
+			item: "gct_mobs:primordial_vis_receiver"
+		}]
+	},
+	{
+		uid: "59291f36",
+		type: "item",
+		items: [{
+			item: "gct_mobs:void_seed_container"
+		}]
+	},
+	{
+		uid: "5e23826c",
+		type: "item",
+		items: [{
+			item: "gct_mobs:primordial_portal_holder_up"
+		}]
+	},
+	{
+		uid: "597d5cd1",
+		type: "item",
+		items: [{
+			item: "gct_mobs:primordial_portal_holder_down"
+		}]
+	},
+	{
+		uid: "1267cfe9",
+		type: "item",
+		items: [{
+			item: "gct_mobs:primordial_stone"
+		}]
+	},
+	{
+		uid: "db500403",
+		type: "item",
+		items: [{
+			item: "gct_mobs:ruin_holder"
+		}]
+	}]
+}

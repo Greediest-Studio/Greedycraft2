@@ -167,11 +167,6 @@ RecipeUtil.addShaped("blockwillprovideroutput", <modularmachinery:blockwillprovi
     [<ore:ingotModularium>, <bloodmagic:item_demon_crystal:3>, <ore:ingotModularium>],
     [<ore:plateSentientMetal>, <ore:ingotModularium>, <ore:plateSentientMetal>]
 ]);
-RecipeUtil.addShaped("tinker_book9", <patchouli:guide_book>.withTag({"patchouli:book": "patchouli:tinker_book"}), [
-    [null,null,null],
-    [null,<tconstruct:book>,null],
-    [null,null,null]
-]);
 RecipeUtil.addShaped("ecoc_16m_gas", <ecoaeextension:estorage_cell_gas_16m>.withTag({}), [
     [<additions:durasteel_ingot>,<thermalfoundation:material:1>,<additions:durasteel_ingot>],
     [<mekeng:gas_core_64k>,<crazyae:material:11>,<mekeng:gas_core_64k>],
