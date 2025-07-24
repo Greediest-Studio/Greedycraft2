@@ -1,0 +1,13 @@
+name = "TileFinder"
+filename = "tilefinder.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "57b159646983bbdb56f7de7deeb795c7463fc534"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6664149
+project-id = 1288981
