@@ -57,7 +57,9 @@ for capacitorlist in capacitors {
         .addDescriptions("§b增加ELYSIA单元到" + capacitors[capacitorlist][1] as string + "条并行")
         .addModifier(false, capacitorlist.definition.id, RecipeModifierBuilder.create("modularmachinery:duration", "input", 1.0f / (capacitors[capacitorlist][0] as float), 1, false).build())
         .addPreRecipeCheckHandler(function(event as MachineEvent, upgrade as MachineUpgrade) {
-            event.controller.activeRecipe.maxParallelism = capacitors[capacitorlist][1] as int;
+            if (!isNull(event.controller.activeRecipe.nn)) {
+                event.controller.activeRecipe.maxParallelism = capacitors[capacitorlist][1] as int;
+            }
         })
         .addCompatibleMachines("elysia_alloyer")
         .addCompatibleMachines("elysia_crusher")
