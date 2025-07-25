@@ -77,3 +77,35 @@ eTablet.itemRightClick = function(stack, world, player, hand) {
     return "PASS";
 };
 eTablet.register();
+
+var dim_item = VanillaFactory.createItem("dim_item");
+dim_item.maxStackSize = 1;
+dim_item.rarity = "rare";
+dim_item.creativeTab = <creativetab:misc>;
+
+dim_item.itemRightClick = function(stack, world, player, hand) {
+    var Dimension = player.dimension;
+    var Name = player.name;
+    if(Dimension==114514){
+        Commands.call("forge setdimension "+ Name +" 0", player, world);{
+            player.sendChat("哎呦卧槽,给我干到主世界哪了");
+        }
+    }
+    if(Dimension==0){
+        Commands.call("forge setdimension "+ Name +" 114514", player, world);{
+            player.sendChat("哎呦卧槽给我干哪来了,这还是主世界吗");
+        }
+    }
+    if(Dimension==-1){
+        Commands.call("forge setdimension "+ Name +" -114514", player, world);{
+            player.sendChat("哎呦卧槽给我干哪来了,这还是下界吗");
+        }
+    }
+    if(Dimension==-114514){
+        Commands.call("forge setdimension "+ Name +" -1", player, world);{
+            player.sendChat("哎呦卧槽,给我干到下界哪了");
+        }
+    }
+    return "Pass";
+};
+dim_item.register();

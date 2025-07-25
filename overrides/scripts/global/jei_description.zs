@@ -15,3 +15,4 @@ JEI.addDescription(<thaumcraft:salis_mundus>,"使用三种不同§c魔力水晶�
 JEI.addDescription([<modularmachinery:blockparallelcontroller>,<modularmachinery:blockparallelcontroller:1>,<modularmachinery:blockparallelcontroller:2>,<modularmachinery:blockparallelcontroller:3>,<modularmachinery:blockparallelcontroller:4>],"每个§c模块化机械§f最多可安装§c一个§f，位置多在控制器§c正上方§f，具体位置请查看§c结构预览");
 JEI.addDescription([<additions:heaven_gem_shard1>,<additions:heaven_gem_shard2>],"击败§c蔚蓝浩空§fBOSS获得");
 JEI.addDescription(<nuclearcraft:ingot:8>,"通过§c浇筑台§f合成");
+JEI.addDescription(<contenttweaker:dim_item>,"再次右键返回这个维度的同一坐标");

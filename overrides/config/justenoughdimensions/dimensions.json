@@ -1,0 +1,51 @@
+{
+  "dimensions": [
+    {
+      "dim": -114514,
+      "normal_biomes": true,
+      "dimensiontype":{
+        "id": -114514,
+        "name": "void dimension",
+        "suffix": "_dim-114514",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurfaceJED",
+        "require_exact_match": true
+      },
+      "worldinfo_onetime": {
+        "generatorName": "flat",
+        "MapFeatures": false,
+        "DifficultyLocked": false,
+        "generatorOptions": "3;minecraft:air;1;",
+        "RandomSeed": "",
+        "GameRules":{
+          "doMobSpawning": "false"
+        }
+      },
+      "jed": {
+        "SkyRenderType": 1
+      }
+    },
+    {
+      "dim": 114514,
+      "chunkgenerator": "ChunkGeneratorFlatJED",
+      "dimensiontype": {
+        "id": 114514,
+        "name": "flat dimension",
+        "suffix": "_dim114514",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurfaceJED",
+        "require_exact_match": true
+      },
+      "worldinfo_onetime": {
+        "generatorName": "flat",
+        "MapFeatures": false,
+        "DifficultyLocked": false,
+        "generatorOptions": "3;minecraft:bedrock,5*minecraft:stone,minecraft:grass;",
+        "RandomSeed": "",
+        "GameRules": {
+          "doMobSpawning": "false"
+        }
+      }
+    }
+  ]
+}
