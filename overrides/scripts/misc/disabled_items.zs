@@ -1483,7 +1483,8 @@ var disabledItems as IIngredient[] = [
     <whimcraft:blockmeaspectinputbusmmce>,
     <whimcraft:blockmeaspectoutputbusmmce>,
     <whimcraft:blockmeaspectinputbus>,
-    <whimcraft:blockmeaspectoutputbus>
+    <whimcraft:blockmeaspectoutputbus>,
+    <astralsorcery:blockborehead:1>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [
