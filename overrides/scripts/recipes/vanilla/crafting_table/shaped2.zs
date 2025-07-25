@@ -317,6 +317,17 @@ RecipeUtil.addShaped("share-link", <whimcraft:blockshareinfhandler>, [
     [<crazyae:material>, <modularmachinery:blockmepatternprovider>.withTag({}), <crazyae:material>],
     [null, <ae2stuff:wireless>, null]
 ]);
+RecipeUtil.addShaped("machine_assembler", <modularmachineryaddons:advancedmachineassembler>, [
+    [null, <ore:ingotManyullyn>, null],
+    [null, <ore:ingotManyullyn>, null],
+    [null, <ore:stickWood>, null]
+]);
+RecipeUtil.addShaped("machine_disassembler", <modularmachineryaddons:advancedmachinedisassembler>, [
+    [<ore:ingotManyullyn>, <ore:ingotManyullyn>, <ore:ingotManyullyn>],
+    [null, <ore:stickWood>, null],
+    [null, <ore:stickWood>, null]
+]);
+
 RecipeUtil.addModeRecipe("mm_upgrade_t4", <modularmachinery:blockcasing:5>, [
     [<ore:blockChromasteel>, <ore:ingotModularium>, <ore:blockChromasteel>],
     [<ore:ingotModularium>, <modularmachinery:blockcasing:3>, <ore:ingotModularium>],
@@ -340,3 +351,4 @@ RecipeUtil.addModeRecipe("mm_upgrade_t1", <modularmachinery:blockcasing:1>, [
     [<ore:ingotModularium>, <modularmachinery:blockcasing:4>, <ore:ingotModularium>],
     [<ore:blockStainlessSteel>, <ore:ingotModularium>, <ore:blockStainlessSteel>]
 ]);
+

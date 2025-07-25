@@ -76,6 +76,7 @@ var stainlessUpgrade as MachineUpgradeBuilder = MachineUpgradeBuilder.newBuilder
 stainlessUpgrade.addDescriptions("§b使模块化矿机拥有采集不锈钢阶段矿物的能力\n§b矿机能耗变为原来的2倍");
 stainlessUpgrade.addCompatibleMachines("basic_miner");
 stainlessUpgrade.addCompatibleMachines("advanced_miner");
+stainlessUpgrade.addCompatibleMachines("dimensional_miner");
 stainlessUpgrade.addModifier(false, "stainless_upgrade_energy", RecipeModifierBuilder.create("modularmachinery:energy", "input", 2.0, 1, false).build());
 stainlessUpgrade.buildAndRegister();
 
@@ -83,6 +84,7 @@ var durasteelUpgrade as MachineUpgradeBuilder = MachineUpgradeBuilder.newBuilder
 durasteelUpgrade.addDescriptions("§b使模块化矿机拥有采集耐钢阶段矿物的能力\n§b矿机能耗变为原来的4倍");
 durasteelUpgrade.addCompatibleMachines("basic_miner");
 durasteelUpgrade.addCompatibleMachines("advanced_miner");
+durasteelUpgrade.addCompatibleMachines("dimensional_miner");
 durasteelUpgrade.addModifier(false, "durasteel_upgrade_energy", RecipeModifierBuilder.create("modularmachinery:energy", "input", 4.0, 1, false).build());
 durasteelUpgrade.buildAndRegister();
 
@@ -90,6 +92,7 @@ var aeonsteelUpgrade as MachineUpgradeBuilder = MachineUpgradeBuilder.newBuilder
 aeonsteelUpgrade.addDescriptions("§b使模块化矿机拥有采集恒钢阶段矿物的能力\n§b矿机能耗变为原来的8倍");
 aeonsteelUpgrade.addCompatibleMachines("basic_miner");
 aeonsteelUpgrade.addCompatibleMachines("advanced_miner");
+aeonsteelUpgrade.addCompatibleMachines("dimensional_miner");
 aeonsteelUpgrade.addModifier(false, "aeonsteel_upgrade_energy", RecipeModifierBuilder.create("modularmachinery:energy", "input", 8.0, 1, false).build());
 aeonsteelUpgrade.buildAndRegister();
 
@@ -97,6 +100,7 @@ var chromasteelUpgrade as MachineUpgradeBuilder = MachineUpgradeBuilder.newBuild
 chromasteelUpgrade.addDescriptions("§b使模块化矿机拥有采集炫钢阶段矿物的能力\n§b矿机能耗变为原来的16倍");
 chromasteelUpgrade.addCompatibleMachines("basic_miner");
 chromasteelUpgrade.addCompatibleMachines("advanced_miner");
+chromasteelUpgrade.addCompatibleMachines("dimensional_miner");
 chromasteelUpgrade.addModifier(false, "chromasteel_upgrade_energy", RecipeModifierBuilder.create("modularmachinery:energy", "input", 16.0, 1, false).build());
 chromasteelUpgrade.buildAndRegister();
 
@@ -104,6 +108,7 @@ var cosmiliteUpgrade as MachineUpgradeBuilder = MachineUpgradeBuilder.newBuilder
 cosmiliteUpgrade.addDescriptions("§b使模块化矿机拥有采集寰宇阶段矿物的能力\n§b矿机能耗变为原来的32倍");
 cosmiliteUpgrade.addCompatibleMachines("basic_miner");
 cosmiliteUpgrade.addCompatibleMachines("advanced_miner");
+cosmiliteUpgrade.addCompatibleMachines("dimensional_miner");
 cosmiliteUpgrade.addModifier(false, "cosmilite_upgrade_energy", RecipeModifierBuilder.create("modularmachinery:energy", "input", 32.0, 1, false).build());
 cosmiliteUpgrade.buildAndRegister();
 
@@ -111,6 +116,7 @@ var finalliumUpgrade as MachineUpgradeBuilder = MachineUpgradeBuilder.newBuilder
 finalliumUpgrade.addDescriptions("§b使模块化矿机拥有采集终焉阶段矿物的能力\n§b矿机能耗变为原来的64倍");
 finalliumUpgrade.addCompatibleMachines("basic_miner");
 finalliumUpgrade.addCompatibleMachines("advanced_miner");
+finalliumUpgrade.addCompatibleMachines("dimensional_miner");
 finalliumUpgrade.addModifier(false, "finallium_upgrade_energy", RecipeModifierBuilder.create("modularmachinery:energy", "input", 64.0, 1, false).build());
 finalliumUpgrade.buildAndRegister();
 
@@ -118,6 +124,7 @@ var waviteUpgrade as MachineUpgradeBuilder = MachineUpgradeBuilder.newBuilder(WA
 waviteUpgrade.addDescriptions("§b使模块化矿机拥有采集波动阶段矿物的能力\n§b矿机能耗变为原来的128倍");
 waviteUpgrade.addCompatibleMachines("basic_miner");
 waviteUpgrade.addCompatibleMachines("advanced_miner");
+waviteUpgrade.addCompatibleMachines("dimensional_miner");
 waviteUpgrade.addModifier(false, "wavite_upgrade_energy", RecipeModifierBuilder.create("modularmachinery:energy", "input", 128.0, 1, false).build());
 waviteUpgrade.buildAndRegister();
 
@@ -136,6 +143,11 @@ endUpgrade.addDescriptions("§b使模块化矿机拥有跨维度采集末地矿�
 endUpgrade.addCompatibleMachines("advanced_miner");
 endUpgrade.buildAndRegister();
 
+var multiUpgrade as MachineUpgradeBuilder = MachineUpgradeBuilder.newBuilder("miner_upg_multidim", "时空采掘升级", 1, 1);
+multiUpgrade.addDescriptions("§b使模块化矿机拥有跨维度采集所有矿物的能力");
+multiUpgrade.addCompatibleMachines("dimensional_miner");
+multiUpgrade.buildAndRegister();
+
 MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_efficiency>, "efficiency_upg");
 MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_energy>, "energy_upg");
 
@@ -150,6 +162,7 @@ MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_wavite>, WAVITE);
 MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_dim_overworld>, "miner_upg_dimoverworld");
 MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_dim_nether>, "miner_upg_dimnether");
 MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_dim_end>, "miner_upg_dimend");
+MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_multidim>, "miner_upg_multidim");
 
 MachineModifier.setMaxParallelism("basic_miner", 32);
 MachineModifier.setMaxThreads("basic_miner", 1);
@@ -366,6 +379,7 @@ twilightf.addItemUpgradeOutput(<twilightforest:giant_obsidian>, STAINLESS, 0.005
 twilightf.addItemUpgradeOutput(<moretcon:nuggetpenguinite>, DURASTEEL, 0.01);
 //炫钢级
 twilightf.addItemUpgradeOutput(<additions:canopium_ore>, CHROMASTEEL, 0.005);
+twilightf.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 twilightf.build();
 
 var aether = RecipeBuilder.newBuilder("aether", "basic_miner", 200);
@@ -666,8 +680,39 @@ betweenland.addItemUpgradeOutput(<thebetweenlands:life_crystal>, FINALLIUM, 0.02
 betweenland.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 betweenland.build();
 
+var alfheim = RecipeBuilder.newBuilder("alfheim", "basic_miner", 200);
+alfheim.addEnergyPerTickInput(200);
+alfheim.setDimension([42]);
+//寰宇级
+alfheim.addItemUpgradeOutput(<gct_mobs:elementium_ore>, COSMILITE, 0.03);
+alfheim.addItemUpgradeOutput(<gct_mobs:terrasteel_ore>, COSMILITE, 0.008);
+//终焉级
+alfheim.addItemUpgradeOutput(<gct_mobs:orichalcos_ore>, FINALLIUM, 0.005);
+alfheim.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+alfheim.build();
 
+var starland = RecipeBuilder.newBuilder("starland", "basic_miner", 200);
+starland.addEnergyPerTickInput(200);
+starland.setDimension([80]);
+//寰宇级
+starland.addItemUpgradeOutput(<astralsorcery:itemcraftingcomponent>, COSMILITE, 0.05);
+starland.addItemUpgradeOutput(<additions:star_metal_ore>, COSMILITE, 0.04);
+//终焉级
+starland.addItemUpgradeOutput(<additions:astralmetal_ore>, FINALLIUM, 0.02);
+starland.addItemUpgradeOutput(<additions:nasalum_ore>, FINALLIUM, 0.01);
+starland.addItemUpgradeOutput(<additions:lunarine_ore>, FINALLIUM, 0.02);
+starland.addItemUpgradeOutput(<additions:arimite_ore>, FINALLIUM, 0.005);
+starland.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+starland.build();
 
+var atlantis = RecipeBuilder.newBuilder("atlantis", "basic_miner", 200);
+atlantis.addEnergyPerTickInput(200);
+atlantis.setDimension([324987]);
+//寰宇级
+atlantis.addItemUpgradeOutput(<additions:tanatonium_ore>, COSMILITE, 0.015);
+atlantis.addItemUpgradeOutput(<additions:imitatium_ore>, COSMILITE, 0.015);
+atlantis.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+atlantis.build();
 
 
 
@@ -950,3 +995,4 @@ advEnd.addRecipeTooltip("§e需要末地维度强化组件");
 advEnd.build();
 
 RecipeAdapterBuilder.create("advanced_miner", "modularmachinery:basic_miner").build();
+RecipeAdapterBuilder.create("dimensional_miner", "modularmachinery:basic_miner").build();

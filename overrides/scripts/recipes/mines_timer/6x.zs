@@ -16,6 +16,19 @@ import mods.jei.JEI;
 
 import mods.modularmachinery.RecipePrimer;
 import mods.modularmachinery.RecipeBuilder;
+import mods.modularmachinery.MachineModifier;
+
+MachineModifier.setMaxThreads("factory_atomic_vibrator", 32);
+MachineModifier.setInternalParallelism("factory_atomic_vibrator", 32);
+MachineModifier.setMaxParallelism("factory_atomic_vibrator", 32);
+
+MachineModifier.setMaxThreads("factory_atomic_decayer", 32);
+MachineModifier.setInternalParallelism("factory_atomic_decayer", 32);
+MachineModifier.setMaxParallelism("factory_atomic_decayer", 32);
+
+MachineModifier.setMaxThreads("factory_atomic_acider", 32);
+MachineModifier.setInternalParallelism("factory_atomic_acider", 32);
+MachineModifier.setMaxParallelism("factory_atomic_acider", 32);
 
 var Entries = JAOPCA.getMaterialsForType("INGOT");
 var atvi as ComponentDefinition = MBDRegistry.getDefinition("gct_mac:atomic_viberator");

@@ -5,6 +5,7 @@
 
 
 #priority 90
+#reloadable
 
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.IPlayerEvent;
@@ -32,7 +33,13 @@ import crafttweaker.item.IItemStack;
 
 events.onPlayerRightClickItem(function(event as PlayerRightClickItemEvent) {
 
-if (event.world.isRemote()) {
+if (!event.world.isRemote()) {
+
+    //Store the dimension ID in the item tag
+    if (event.item.definition.id == "additions:modular_dimensional_magnifier") {
+        event.item.mutable().updateTag({dim : event.world.dimension as int});
+        event.player.sendChat("§a已将当前维度ID存储在放大镜中！");
+    }
 
     //TConstruct Armor Restoration
     if (event.item.definition.id == "conarm:polishing_kit") {

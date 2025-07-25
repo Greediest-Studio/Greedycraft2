@@ -147,6 +147,13 @@ recipe(81 , <additions:blueprint_laser_gun>, [<ore:ingotPhotonium>, <additions:b
 recipe(82 , <additions:blueprint_ring>, [<ore:ingotValkyrie>, <additions:blueprint>, <ore:ingotEverite>], 1600000, 600.0f);
 recipe(83 , <additions:ascensionite_ingot> * 2, [<ore:ingotLimonite> * 4, <ore:ingotRosite> * 2, <ore:ingotEmberstone> * 1], 4000, 10.0f);
 recipe(84 , <additions:heavyalloy_ingot> * 2, [<ore:ingotLead> * 9, <ore:ingotThallium> * 2, <ore:ingotBismuth> * 4], 3000, 10.0f);
+recipe(85 , <additions:glowing_signalum_ingot>, [<ore:ingotSignalum>, <ore:dustGlowstone> * 4], 1000, 10.0f);
+recipe(86 , <tiths:ingot_solita> * 3, [<ore:ingotReditrite> * 16, <ore:ingotSoularium>, <ore:ingotAdaminite>], 4000, 10.0f);
+recipe(87 , <moretcon:ingotrunesteel> * 5, [<ore:ingotFlairium>, <ore:ingotApocalypsium> * 4, <ore:ingotFusionMatrix>], 4000, 10.0f);
+recipe(88 , <additions:corbite_ingot> * 2, [<ore:ingotDes> * 2, <ore:ingotFlairium> * 2, <ore:ingotOrbadite>], 4000, 10.0f);
+recipe(89 , <tiths:ingot_irisia>* 3, [<ore:ingotShadium>, <ore:ingotLunium>, <ore:ingotShadowBar> * 4], 4000, 10.0f);
+recipe(90 , <additions:compressite_ingot> * 2, [<ore:ingotAstronicium> * 2, <ore:ingotRaisium> * 2, <ore:ingotStellarium>], 4000, 10.0f);
+recipe(91 , <additions:raisium_ingot> * 3, [<ore:ingotSteamium> * 3, <ore:ingotMagiga> * 8, <ore:ingotImitatium> * 2], 4000, 10.0f);
 
 recipe(1000 , <nuclearcraft:alloy:2> * 2, [<ore:ingotGraphite> * 2, <ore:gemDiamond> * 1], 8000, 10.0f); 
 recipe(1001 , <enderio:item_material:48> * 2, [<ore:itemPlantgreen> * 12, <ore:slimeball> * 1], 2000, 10.0f); 
@@ -210,3 +217,10 @@ recipe(2000 , <gct_ores:sky_alloy_ingot>, [<ore:ingotAetherium>, <ore:ingotCanop
 recipe(2001 , <gct_ores:fire_alloy_ingot>, [<ore:ingotLavarite>, <ore:ingotPlasmarite>, <ore:ingotBnightium>, <ore:ingotGuaninite>], 51200, 10.0f);
 recipe(2002 , <gct_ores:ice_alloy_ingot>, [<ore:ingotSnowingium>, <ore:ingotFreezite>, <ore:ingotOceanium>, <ore:ingotAdeninite>], 51200, 10.0f);
 recipe(2003 , <additions:terra_alloy_ingot>, [<ore:ingotCryonium>, <ore:ingotInfernium>, <ore:ingotTitanium>, <ore:ingotCytosinite>], 51200, 10.0f);
+recipe(2004 , <additions:balancite_ingot> * 2, [<ore:ingotAqualite>, <ore:ingotAeroite>, <ore:ingotAsgardium>, <ore:ingotIgnite>], 51200, 10.0f);
+recipe(2005 , <additions:twilight_crystal_ingot>, [<ore:ingotEden>, <ore:ingotWildwood>, <ore:ingotApalachia>, <ore:ingotSkythern>, <ore:ingotMortum>], 78600, 10.0f);
+recipe(2006 , <gct_mobs:cthulhurite_ingot> * 2, [<ore:ingotAbyssalnite>, <ore:ingotLiquifiedCoralium>, <ore:ingotDreadium>, <ore:ingotEthaxium>, <ore:ingotSanite>], 78600, 10.0f);
+recipe(2007 , <additions:astronicium_ingot> * 2, [<ore:ingotOraclium>, <ore:ingotHalleium>, <ore:ingotHothium>, <ore:ingotTonium>], 51200, 10.0f);
+recipe(2008 , <additions:eugardite_ingot> * 4, [<ore:ingotDecurrium> * 3, <ore:ingotPhotonium> * 2, <ore:ingotSolita> * 1, <ore:ingotDullium> * 2], 51200, 10.0f);
+recipe(2009 , <additions:eucite_ingot> * 3, [<ore:ingotCelestium>, <ore:ingotKorite>, <ore:ingotMekyum> * 2, <ore:ingotStoron> * 2], 51200, 10.0f);
+recipe(2010 , <tiths:ingot_decurrium> * 6, [<ore:ingotEucite> * 3, <ore:ingotCorbite> * 2, <ore:ingotChloroplast> * 2, <ore:ingotIrisia> * 3], 51200, 10.0f);
