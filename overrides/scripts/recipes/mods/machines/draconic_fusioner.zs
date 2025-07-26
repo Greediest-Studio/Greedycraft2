@@ -77,6 +77,7 @@ function addFusionRecipe(output as IItemStack, input as IIngredient[], ept as in
 addFusionRecipe(<draconicevolution:draconic_block> * 4, [<ore:blockDraconium> * 4, <ore:coreDraconium> * 6, <draconicevolution:dragon_heart>], 1750000, 1);
 addFusionRecipe(<gct_ores:chaotic_draconium_block> * 4, [<ore:blockDraconiumAwakened> * 4, <ore:ingotEverite> * 2, <ore:metalChaotic> * 2, <ore:gemChaosShard> * 2, <contenttweaker:chaos_heart> * 2], 6016340, 2);
 addFusionRecipe(<gct_ores:ruled_draconium_block> * 4, [<ore:blockDraconiumChaotic> * 4, <ore:coreChaotic>, <ore:blockAdamantium> * 2, <ore:blockEverite> * 2, <ore:blockChaosShard>, <contenttweaker:chaos_heart> * 2], 512000000, 3);
+addFusionRecipe(<gct_ores:relifed_witherium_block> * 4, [<ore:blockWitherium> * 4, <ore:coreWitherium> * 6, <ore:netherStar> * 2], 1750000, 1);
 addFusionRecipe(<gct_ores:stormy_witherium_block> * 4, [<ore:blockWitheriumRelifed> * 4, <ore:blockEverite> * 2, <ore:metalChaotic> * 2, <ore:gemStormyShard> * 2, <ore:netherStarWithered> * 2], 6016340, 2);
 addFusionRecipe(<gct_ores:equipment_witherium_block> * 4, [<ore:blockWitheriumStormy> * 4, <ore:coreStormy>, <ore:blockAdamantium> * 2, <ore:blockEverite> * 2, <ore:blockChaosShard>, <ageofminecraft:withered_nether_star> * 2], 512000000, 3);
 
@@ -103,7 +104,7 @@ addFusionRecipe(<solarflux:solar_panel_draconic>, [<solarflux:solar_panel_wyvern
 addFusionRecipe(<solarflux:solar_panel_chaotic> * 4, [<solarflux:solar_panel_draconic> * 4, <ore:coreChaotic>, <ore:coreAwakened> * 4], 10240000, 3);
 
 addFusionRecipe(<draconicevolution:energy_crystal:2>, [<draconicevolution:energy_crystal:1>, <ore:coreExcellent>, <draconicevolution:wyvern_energy_core> * 4, <ore:gemDiamond> * 4], 5760, 2);
-addFusionRecipe(<draconicevolution:reactor_part>, [<draconicevolution:reactor_part:3>, <draconicevolution:reactor_part:4>, <ore:ingotDraconiumAwakened> * 4, <ore:coreEpic>, <draconicevolution:draconic_energy_core>], 640000, 3);
+addFusionRecipe(<draconicevolution:reactor_component>, [<draconicevolution:reactor_part:3>, <draconicevolution:reactor_part:4>, <ore:ingotDraconiumAwakened> * 4, <ore:coreEpic>, <draconicevolution:draconic_energy_core>], 640000, 3);
 addFusionRecipe(<draconicevolution:reactor_component:1>, [<ore:coreExcellent>, <ore:ingotDraconium> * 4, <ore:ingotIron> * 2, <draconicevolution:reactor_part:1> * 4], 800000, 3);
 addFusionRecipe(<draconicevolution:reactor_core>, [<ore:gemChaosShard>, <ore:ingotCosmilite> * 2, <ore:ingotDraconicMetal> * 2, <contenttweaker:chaotic_energy_core> * 2, <ore:metalEvery> * 2], 16384000, 3);
 addFusionRecipe(<draconicevolution:draconium_chest>, [<ore:chest>, <ore:coreBasic> * 2, <ore:blockDraconium>, <minecraft:furnace> * 5, <ore:workbench> * 2], 100000, 0);
