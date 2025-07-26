@@ -211,7 +211,8 @@ val tooltipMap as string[][IIngredient] = {
     <additions:mana_lapis> : [odch],
     <additions:mana_quartz> : [odch],
     <tconstruct:sharpening_kit> : [game.localize("greedycraft.tooltip.fixing_kit")],
-    <conarm:polishing_kit> : [game.localize("greedycraft.tooltip.fixing_kit")]
+    <conarm:polishing_kit> : [game.localize("greedycraft.tooltip.fixing_kit")],
+    <contenttweaker:dim_item> : ["在主世界和下界分别右键试试呢"]
 } as string[][IIngredient];
 
 for ingredient in tooltipMap {

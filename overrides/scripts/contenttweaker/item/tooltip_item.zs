@@ -1,1 +1,0 @@
-<contenttweaker:dim_item>.addTooltip("在主世界下界分别右键试试呢");
