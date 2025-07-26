@@ -24,6 +24,7 @@ Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/illuminationpowder"
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/enchantment_amulet_craft");
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/enchantment_amulet_reroll");
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/tool_exchange");
+Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/bore_head_vortex");
 
 Altar.addDiscoveryAltarRecipe("shinydust", <astralsorcery:itemusabledust> * 16, 100, 100, [
     null, <ore:dustGlowstone>, null,

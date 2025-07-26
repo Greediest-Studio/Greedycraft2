@@ -408,10 +408,10 @@ FusionCrafting.add(<gct_ores:fallen_core>, <minecraft:nether_star>, 0, 24576000,
     <ore:metalWyvern>
 ]);
 FusionCrafting.add(<gct_ores:stormy_core>, <gct_ores:stormy_shard>, 2, 3145728000, [ 
-    <tconevo:metal>,
-    <tconevo:metal>,
-    <tconevo:metal:5>,
-    <tconevo:metal:5>,
+    <gct_ores:fallen_metal_ingot>,
+    <gct_ores:fallen_metal_ingot>,
+    <gct_ores:relifed_metal_ingot>,
+    <gct_ores:relifed_metal_ingot>,
     <avaritia:resource:4>,
     <avaritia:resource:4>,
     <additions:chromasteel_ingot>,
