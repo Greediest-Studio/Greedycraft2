@@ -15,6 +15,7 @@ import crafttweaker.liquid.ILiquidStack;
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.MMEvents;
 import mods.modularmachinery.MachineTickEvent;
+import mods.modularmachinery.ControllerGUIRenderEvent;
 import mods.modularmachinery.RecipeTickEvent;
 import mods.modularmachinery.MachineModifier;
 import mods.modularmachinery.IMachineController;
@@ -74,6 +75,24 @@ function addFusionRecipe(output as IItemStack, input as IIngredient[], ept as in
     recipe.build();
 }
 
+MMEvents.onControllerGUIRender("draconic_fusioner", function(event as ControllerGUIRenderEvent) {
+    var levelMap as string[int] = {
+        -1: "§c错误！",
+        0: "基础",
+        1: "飞龙",
+        2: "神龙",
+        3: "混沌",
+        4: "秩序"
+    };
+    var level as string = levelMap[event.controller.getFusionLevel()];
+    var info as string[] = [
+        "§e///龙之研究聚合台控制面板///",
+        "§a机器名称：§eLV2 - 龙之研究聚合台",
+        "§a聚合核心等级：§e" ~ level as string
+    ];
+    event.extraInfo = info;
+});
+
 addFusionRecipe(<draconicevolution:draconic_block> * 4, [<ore:blockDraconium> * 4, <ore:coreDraconium> * 6, <draconicevolution:dragon_heart>], 1750000, 1);
 addFusionRecipe(<gct_ores:chaotic_draconium_block> * 4, [<ore:blockDraconiumAwakened> * 4, <ore:ingotEverite> * 2, <ore:metalChaotic> * 2, <ore:gemChaosShard> * 2, <contenttweaker:chaos_heart> * 2], 6016340, 2);
 addFusionRecipe(<gct_ores:ruled_draconium_block> * 4, [<ore:blockDraconiumChaotic> * 4, <ore:coreChaotic>, <ore:blockAdamantium> * 2, <ore:blockEverite> * 2, <ore:blockChaosShard>, <contenttweaker:chaos_heart> * 2], 512000000, 3);
@@ -87,6 +106,7 @@ addFusionRecipe(<tconevo:metal:10>, [<ore:ingotFusionMatrix>, <ore:coreChaotic>,
 addFusionRecipe(<gct_ores:fallen_metal_ingot>, [<ore:ingotFusionMatrix>, <ore:coreFallen>, <ore:blockRedstone>, <ore:gemDiamond> * 2], 1280, 1);
 addFusionRecipe(<gct_ores:relifed_metal_ingot>, [<ore:ingotFusionMatrix>, <ore:coreRelifed>, <draconicevolution:wyvern_energy_core>, <ore:netherStar> * 2], 20480, 2);
 addFusionRecipe(<gct_ores:stormy_metal_ingot>, [<ore:ingotFusionMatrix>, <ore:coreStormy>, <draconicevolution:draconic_energy_core>, <ore:dragonEgg> * 2], 5120000, 3);
+addFusionRecipe(<gct_ores:ordered_metal_ingot>, [<ore:ingotBalancedMatrix>, <ore:coreOrdered>, <contenttweaker:chaotic_energy_core>, <ore:netherStarWithered>, <contenttweaker:chaos_heart>], 268435456, 4);
 
 addFusionRecipe(<draconicevolution:wyvern_core>, [<ore:netherStar>, <ore:coreDraconium> * 4, <ore:ingotStellarAlloy>, <ore:ingotOrbadite>, <ore:metalWyvern> * 2], 122880, 0);
 addFusionRecipe(<draconicevolution:awakened_core>, [<ore:netherStar>, <ore:coreExcellent> * 2, <ore:ingotDraconiumAwakened> * 2, <ore:ingotAeonsteel> * 2, <ore:metalAwakened> * 2], 2000000, 1);
@@ -94,6 +114,7 @@ addFusionRecipe(<draconicevolution:chaotic_core>, [<ore:gemChaosShard>, <ore:ing
 addFusionRecipe(<gct_ores:fallen_core>, [<ore:netherStar>, <ore:coreWitherium> * 4, <ore:ingotStellarAlloy>, <ore:ingotOrbadite>, <ore:metalWyvern> * 2], 122880, 0);
 addFusionRecipe(<gct_ores:relifed_core>, [<ore:netherStar>, <ore:coreExcellent> * 2, <ore:ingotWitheriumRelifed> * 2, <ore:ingotAeonsteel> * 2, <ore:metalAwakened> * 2], 2000000, 1);
 addFusionRecipe(<gct_ores:stormy_core>, [<ore:gemStormyShard>, <ore:ingotFallenMetal> * 2, <ore:ingotRelifedMetal> * 2, <ore:ingotNeutronium> * 2, <ore:ingotChromasteel> * 2], 1572864, 2);
+addFusionRecipe(<gct_ores:ordered_core>, [<ore:gemOrderCrystal>, <ore:coreChaotic> * 3, <ore:coreStormy> * 3, <ore:ingotCosmilite> * 2, <ore:blockWitheriumEquipment> * 2, <ore:blockDraconiumRuled> * 2], 786432000, 4);
 
 addFusionRecipe(<draconicevolution:crafting_injector:1>, [<draconicevolution:crafting_injector>, <ore:coreBasic> * 2, <ore:coreExcellent>, <ore:blockDraconium>, <ore:gemDiamond> * 4], 1280, 0);
 addFusionRecipe(<draconicevolution:crafting_injector:2>, [<draconicevolution:crafting_injector:1>, <ore:coreExcellent> * 2, <ore:blockDraconiumAwakened>, <ore:gemDiamond> * 4], 8960, 1);
@@ -102,6 +123,7 @@ addFusionRecipe(<draconicevolution:crafting_injector:3>, [<draconicevolution:cra
 addFusionRecipe(<solarflux:solar_panel_wyvern>, [<solarflux:solar_panel_8>, <ore:ingotWyvernMetal> * 4, <draconicevolution:wyvern_energy_core> * 4], 64000, 1);
 addFusionRecipe(<solarflux:solar_panel_draconic>, [<solarflux:solar_panel_wyvern>, <ore:ingotDraconicMetal> * 4, <draconicevolution:draconic_energy_core> * 4], 512000, 2);
 addFusionRecipe(<solarflux:solar_panel_chaotic> * 4, [<solarflux:solar_panel_draconic> * 4, <ore:coreChaotic>, <ore:coreAwakened> * 4], 10240000, 3);
+addFusionRecipe(<solarflux:custom_solar_panel_solar_panel_order> * 4, [<solarflux:solar_panel_chaotic> * 3, <solarflux:custom_solar_panel_solar_panel_11>, <ore:coreOrdered> * 2, <ore:gemOrderCrystal> * 4], 160000000, 4);
 
 addFusionRecipe(<draconicevolution:energy_crystal:2>, [<draconicevolution:energy_crystal:1>, <ore:coreExcellent>, <draconicevolution:wyvern_energy_core> * 4, <ore:gemDiamond> * 4], 5760, 2);
 addFusionRecipe(<draconicevolution:reactor_component>, [<draconicevolution:reactor_part:3>, <draconicevolution:reactor_part:4>, <ore:ingotDraconiumAwakened> * 4, <ore:coreEpic>, <draconicevolution:draconic_energy_core>], 640000, 3);
@@ -131,3 +153,4 @@ addFusionRecipe(<additions:blueprint_tinkering>, [<additions:blueprint>, <ore:in
 addFusionRecipe(<additions:electronium_ingot>, [<ore:ingotFusionMatrix>, <ore:ingotElectrumFlux> * 4, <ore:ingotGelidEnderium> * 4], 500000, 0);
 addFusionRecipe(<additions:creative_shard>, [<ore:coreChaotic>, <ore:ingotCosmilite> * 4, <ore:dustTime>, <additions:bounty_hunter_medal>, <additions:ancient_tome_page> * 2], 10737418, 3);
 addFusionRecipe(<packageddraconic:fusion_crafter>, [<draconicevolution:fusion_crafting_core>, <ore:ingotDraconiumAwakened> * 2, <ore:coreAwakened>, <ore:dragonEgg>, <ore:netherStar>, <ore:enderpearl> * 2, <ore:pearlEnderEye> * 2, <packagedauto:me_package_component>], 2500000, 1);
+addFusionRecipe(<gct_aby:shoggy_slime_purified>, [<gct_aby:shoggy_slime>, <ore:slimecrystalGod> * 8], 565800000, 4);

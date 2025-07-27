@@ -921,6 +921,7 @@ everheaven.addPreCheckHandler(function(event as RecipeCheckEvent) {
 });
 everheaven.setThreadName("深空相位匹配器");
 //寰宇级
+everheaven.addItemUpgradeOutput(<tiths:ore_halleium>, COSMILITE, 0.008);
 everheaven.addItemUpgradeOutput(<tiths:ore_altairium>, COSMILITE, 0.008);
 everheaven.addItemUpgradeOutput(<tiths:ore_tonium>, COSMILITE, 0.008);
 everheaven.addItemUpgradeOutput(<tiths:ore_polarium>, COSMILITE, 0.008);
