@@ -30,6 +30,14 @@ MachineModifier.setMaxThreads("elysia_pyrolyzer", 1);
 MachineModifier.setInternalParallelism("elysia_pyrolyzer", 4);
 MachineModifier.setMaxParallelism("elysia_pyrolyzer", 65536);
 
+MMEvents.onControllerGUIRender("elysia_pyrolyzer", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = [
+        "§e///大型热解单元控制面板///",
+        "§a机器名称：§eELYSIA单元 - 大型热解单元"
+    ];
+    event.extraInfo = info;
+});
+
 RecipeBuilder.newBuilder("phosphorus", "elysia_pyrolyzer", 400)
     .addItemInput(<ore:gemApatite> * 2)
     .addItemInput(<ore:gemQuartz> * 3)

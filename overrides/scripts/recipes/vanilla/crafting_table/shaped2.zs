@@ -327,6 +327,11 @@ RecipeUtil.addShaped("machine_disassembler", <modularmachineryaddons:advancedmac
     [null, <ore:stickWood>, null],
     [null, <ore:stickWood>, null]
 ]);
+RecipeUtil.addShaped("efficiency_rune", <bloodmagic:blood_rune:2>, [
+    [<bloodmagic:blood_rune>, <ore:ingotBoundMetal>, <bloodmagic:blood_rune>],
+    [<ore:fragmentTime>, <bloodmagic:slate:4>, <ore:fragmentTime>], 
+    [<bloodmagic:blood_rune>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:archmage"}).reuse(), <bloodmagic:blood_rune>]
+]);
 
 RecipeUtil.addModeRecipe("mm_upgrade_t4", <modularmachinery:blockcasing:5>, [
     [<ore:blockChromasteel>, <ore:ingotModularium>, <ore:blockChromasteel>],

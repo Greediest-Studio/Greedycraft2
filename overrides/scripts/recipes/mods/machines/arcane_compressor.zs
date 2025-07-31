@@ -25,7 +25,7 @@ builder.addItemInputs([
 builder.addImpetusInput(100);
 builder.setDimension([822]);
 builder.addAspcetInput(1200, "aer");
-builder.addItemOutput(<additions:blizzium_ingot> * 8);
+builder.addItemOutput(<additions:blizzium_ingot>);
 builder.build();
 
 val builder1 as RecipePrimer = RecipeBuilder.newBuilder("arcane_compression_fire", "arcane_compressor", 360);

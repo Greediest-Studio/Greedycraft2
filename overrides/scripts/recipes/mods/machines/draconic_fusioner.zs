@@ -52,7 +52,7 @@ $expand IMachineController$ getFusionLevel() as int {
     }
 }
 
-function addFusionRecipe(output as IItemStack, input as IIngredient[], ept as int, level as int) {
+function addFusionRecipe(output as IItemStack, input as IIngredient[], ept as long, level as int) {
     var levelMap as string[int] = {
         0: "基础",
         1: "飞龙",
@@ -124,6 +124,12 @@ addFusionRecipe(<solarflux:solar_panel_wyvern>, [<solarflux:solar_panel_8>, <ore
 addFusionRecipe(<solarflux:solar_panel_draconic>, [<solarflux:solar_panel_wyvern>, <ore:ingotDraconicMetal> * 4, <draconicevolution:draconic_energy_core> * 4], 512000, 2);
 addFusionRecipe(<solarflux:solar_panel_chaotic> * 4, [<solarflux:solar_panel_draconic> * 4, <ore:coreChaotic>, <ore:coreAwakened> * 4], 10240000, 3);
 addFusionRecipe(<solarflux:custom_solar_panel_solar_panel_order> * 4, [<solarflux:solar_panel_chaotic> * 3, <solarflux:custom_solar_panel_solar_panel_11>, <ore:coreOrdered> * 2, <ore:gemOrderCrystal> * 4], 160000000, 4);
+
+addFusionRecipe(<additions:basic_fusion_core>, [<draconicevolution:fusion_crafting_core>, <draconicevolution:crafting_injector> * 8, <ore:coreBasic> * 2], 1280, 0);
+addFusionRecipe(<additions:wyvern_fusion_core>, [<draconicevolution:fusion_crafting_core>, <draconicevolution:crafting_injector:1> * 8, <ore:coreExcellent> * 2], 51200, 1);
+addFusionRecipe(<additions:draconic_fusion_core>, [<draconicevolution:fusion_crafting_core>, <draconicevolution:crafting_injector:2> * 8, <ore:coreSuperior> * 2], 1024000, 2);
+addFusionRecipe(<additions:chaotic_fusion_core>, [<draconicevolution:fusion_crafting_core>, <draconicevolution:crafting_injector:3> * 8, <ore:coreEpic> * 2], 20480000, 3);
+addFusionRecipe(<gct_ores:ordered_fusion_core>, [<draconicevolution:fusion_crafting_core>, <draconicevolution:crafting_injector:3> * 14, <ore:gemOrderCrystal> * 2], 655360000, 3);
 
 addFusionRecipe(<draconicevolution:energy_crystal:2>, [<draconicevolution:energy_crystal:1>, <ore:coreExcellent>, <draconicevolution:wyvern_energy_core> * 4, <ore:gemDiamond> * 4], 5760, 2);
 addFusionRecipe(<draconicevolution:reactor_component>, [<draconicevolution:reactor_part:3>, <draconicevolution:reactor_part:4>, <ore:ingotDraconiumAwakened> * 4, <ore:coreEpic>, <draconicevolution:draconic_energy_core>], 640000, 3);

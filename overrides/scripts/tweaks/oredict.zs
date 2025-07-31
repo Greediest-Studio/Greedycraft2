@@ -1015,7 +1015,7 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:plateSkyAlloy> : [<gct_ores:sky_alloy_plate>],
     <ore:plateWitheriumEquipment> : [<gct_ores:equipment_witherium_plate>],
     <ore:plateWitheriumRelifed> : [<gct_ores:relifed_witherium_plate>],
-    <ore:plateWitheriumStormy> : [<gct_ores:stormy_witherium_plate>]
+    <ore:plateWitheriumStormy> : [<gct_ores:stormy_witherium_plate>],
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {

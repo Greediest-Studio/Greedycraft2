@@ -28,6 +28,14 @@ MachineModifier.setMaxThreads("elysia_electrolyzer", 1);
 MachineModifier.setInternalParallelism("elysia_electrolyzer", 4);
 MachineModifier.setMaxParallelism("elysia_electrolyzer", 65536);
 
+MMEvents.onControllerGUIRender("elysia_electrolyzer", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = [
+        "§e///大型电解单元控制面板///",
+        "§a机器名称：§eELYSIA单元 - 大型电解单元"
+    ];
+    event.extraInfo = info;
+});
+
 RecipeAdapterBuilder.create("elysia_electrolyzer", "nuclearcraft:electrolyzer")
     .addRecipeTooltip("§d电解配方支持模块化电容升级，详情请查询“模块化电容”")
     .build();

@@ -33,6 +33,14 @@ MachineModifier.setMaxThreads("elysia_centrifuge", 1);
 MachineModifier.setInternalParallelism("elysia_centrifuge", 4);
 MachineModifier.setMaxParallelism("elysia_centrifuge", 65536);
 
+MMEvents.onControllerGUIRender("elysia_centrifuge", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = [
+        "§e///大型离心单元控制面板///",
+        "§a机器名称：§eELYSIA单元 - 大型离心单元"
+    ];
+    event.extraInfo = info;
+});
+
 MachineUpgradeBuilder.newBuilder("nature_centrifuge_upg", "自然离心升级", 1, 1)
     .addDescriptions("§b允许离心单元使用自然离心配方")
     .buildAndRegister();

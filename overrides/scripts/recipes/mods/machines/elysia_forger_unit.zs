@@ -32,6 +32,14 @@ MachineModifier.setMaxParallelism("elysia_forger", 65536);
 
 MachineModifier.addSmartInterfaceType("elysia_forger", SmartInterfaceType.create("模式", 0));
 
+MMEvents.onControllerGUIRender("elysia_forger", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = [
+        "§e///大型铸造单元控制面板///",
+        "§a机器名称：§eELYSIA单元 - 大型铸造单元"
+    ];
+    event.extraInfo = info;
+});
+
 RecipeAdapterBuilder.create("elysia_forger", "thermalexpansion:compactor_plate")
     .addPreCheckHandler(function(event as RecipeCheckEvent) {
         if (event.controller.getSmartInterfaceData("模式").value != 0) {

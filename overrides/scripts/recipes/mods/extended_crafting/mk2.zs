@@ -324,3 +324,35 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:consciousness_brain_
 	[<ore:listAllmeatraw>, <gct_aby:ancient_shoggoth_mud>, <ore:ingotFinallium>, <gct_aby:ancient_shoggoth_mud>, <ore:listAllmeatraw>], 
 	[null, <ore:rottenFlesh>, <ore:ingotScientificite>, <ore:rottenFlesh>, null]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:ga_in_p2_press>, [
+	[<ore:ingotOsgloglas>, <ore:ingotOsgloglas>, <ore:ingotOsgloglas>, <ore:ingotOsgloglas>, <ore:ingotOsgloglas>], 
+	[<ore:ingotOsgloglas>, <crazyae:material:35>, <ore:ingotEugardite>, <crazyae:material:35>, <ore:ingotOsgloglas>], 
+	[<ore:ingotOsgloglas>, <ore:ingotEugardite>, <additions:germanium_press>, <ore:ingotEugardite>, <ore:ingotOsgloglas>], 
+	[<ore:ingotOsgloglas>, <crazyae:material:35>, <ore:ingotEugardite>, <crazyae:material:35>, <ore:ingotOsgloglas>], 
+	[<ore:ingotOsgloglas>, <ore:ingotOsgloglas>, <ore:ingotOsgloglas>, <ore:ingotOsgloglas>, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:logic_press_3>, [
+	[<ore:ingotOsgloglas>, <ore:ingotOsgloglas>, <ore:ingotOsgloglas>, <ore:ingotOsgloglas>, <ore:ingotOsgloglas>], 
+	[<ore:ingotOsgloglas>, <crazyae:material:35>, <ore:ingotEugardite>, <crazyae:material:35>, <ore:ingotOsgloglas>], 
+	[<ore:ingotOsgloglas>, <ore:ingotEugardite>, <additions:logic_press_2>, <ore:ingotEugardite>, <ore:ingotOsgloglas>], 
+	[<ore:ingotOsgloglas>, <crazyae:material:35>, <ore:ingotEugardite>, <crazyae:material:35>, <ore:ingotOsgloglas>], 
+	[<ore:ingotOsgloglas>, <ore:ingotOsgloglas>, <ore:ingotOsgloglas>, <ore:ingotOsgloglas>, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:engineering_press_3>, [
+	[<ore:ingotOsgloglas>, <ore:ingotOsgloglas>, <ore:ingotOsgloglas>, <ore:ingotOsgloglas>, <ore:ingotOsgloglas>], 
+	[<ore:ingotOsgloglas>, <crazyae:material:35>, <ore:ingotEugardite>, <crazyae:material:35>, <ore:ingotOsgloglas>], 
+	[<ore:ingotOsgloglas>, <ore:ingotEugardite>, <additions:engineering_press_2>, <ore:ingotEugardite>, <ore:ingotOsgloglas>], 
+	[<ore:ingotOsgloglas>, <crazyae:material:35>, <ore:ingotEugardite>, <crazyae:material:35>, <ore:ingotOsgloglas>], 
+	[<ore:ingotOsgloglas>, <ore:ingotOsgloglas>, <ore:ingotOsgloglas>, <ore:ingotOsgloglas>, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:calculation_press_3>, [
+	[<ore:ingotOsgloglas>, <ore:ingotOsgloglas>, <ore:ingotOsgloglas>, <ore:ingotOsgloglas>, <ore:ingotOsgloglas>], 
+	[<ore:ingotOsgloglas>, <crazyae:material:35>, <ore:ingotEugardite>, <crazyae:material:35>, <ore:ingotOsgloglas>], 
+	[<ore:ingotOsgloglas>, <ore:ingotEugardite>, <additions:calculation_press_2>, <ore:ingotEugardite>, <ore:ingotOsgloglas>], 
+	[<ore:ingotOsgloglas>, <crazyae:material:35>, <ore:ingotEugardite>, <crazyae:material:35>, <ore:ingotOsgloglas>], 
+	[<ore:ingotOsgloglas>, <ore:ingotOsgloglas>, <ore:ingotOsgloglas>, <ore:ingotOsgloglas>, null]
+]);

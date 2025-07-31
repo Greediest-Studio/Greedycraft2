@@ -36,6 +36,14 @@ MachineModifier.setMaxThreads("elysia_reactor", 1);
 MachineModifier.setInternalParallelism("elysia_reactor", 4);
 MachineModifier.setMaxParallelism("elysia_reactor", 65536);
 
+MMEvents.onControllerGUIRender("elysia_reactor", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = [
+        "§e///大型反应单元控制面板///",
+        "§a机器名称：§eELYSIA单元 - 大型反应单元"
+    ];
+    event.extraInfo = info;
+});
+
 RecipeAdapterBuilder.create("elysia_reactor", "nuclearcraft:chemical_reactor")
     .addRecipeTooltip("§d化学反应配方支持模块化电容升级，详情请查询“模块化电容”")
     .build();

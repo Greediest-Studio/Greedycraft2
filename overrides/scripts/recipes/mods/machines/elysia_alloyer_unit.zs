@@ -45,6 +45,14 @@ expandUpgrade.buildAndRegister();
 
 MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_expand>, "expand_upg");
 
+MMEvents.onControllerGUIRender("elysia_alloyer", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = [
+        "§e///大型合金单元控制面板///",
+        "§a机器名称：§eELYSIA单元 - 大型合金单元"
+    ];
+    event.extraInfo = info;
+});
+
 function recipe(recipenum as int, output as IIngredient, input as IIngredient[], RF as int, time as float) {
     val tRF = (RF / time);
     var builder = RecipeBuilder.newBuilder("elysia_alloyer_" + recipenum, "elysia_alloyer", time * 20, 0);

@@ -36,6 +36,14 @@ MachineModifier.setMaxThreads("elysia_smelter", 1);
 MachineModifier.setInternalParallelism("elysia_smelter", 4);
 MachineModifier.setMaxParallelism("elysia_smelter", 65536);
 
+MMEvents.onControllerGUIRender("elysia_smelter", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = [
+        "§e///大型冶炼单元控制面板///",
+        "§a机器名称：§eELYSIA单元 - 大型冶炼单元"
+    ];
+    event.extraInfo = info;
+});
+
 RecipeAdapterBuilder.create("elysia_smelter", "minecraft:furnace")
     .addRecipeTooltip("§d烧炼配方支持模块化电容升级，详情请查询“模块化电容”")
     .build();

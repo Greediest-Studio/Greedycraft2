@@ -30,6 +30,14 @@ MachineModifier.setMaxThreads("elysia_vaporizer", 1);
 MachineModifier.setInternalParallelism("elysia_vaporizer", 4);
 MachineModifier.setMaxParallelism("elysia_vaporizer", 65536);
 
+MMEvents.onControllerGUIRender("elysia_vaporizer", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = [
+        "§e///大型汽化单元控制面板///",
+        "§a机器名称：§eELYSIA单元 - 大型汽化单元"
+    ];
+    event.extraInfo = info;
+});
+
 function addVaporization(output as ILiquidStack, gas as IGasStack) {
     RecipeBuilder.newBuilder("vaporization_" + gas.NAME, "elysia_vaporizer", 20)
     .addFluidInput(output)

@@ -417,3 +417,51 @@ FusionCrafting.add(<gct_ores:stormy_core>, <gct_ores:stormy_shard>, 2, 314572800
     <additions:chromasteel_ingot>,
     <additions:chromasteel_ingot>
 ]);
+FusionCrafting.add(<additions:basic_fusion_core>, <draconicevolution:fusion_crafting_core>, 0, 256000, [
+    <ore:coreBasic>,
+    <ore:coreBasic>,
+    <draconicevolution:crafting_injector>,
+    <draconicevolution:crafting_injector>,
+    <draconicevolution:crafting_injector>,
+    <draconicevolution:crafting_injector>,
+    <draconicevolution:crafting_injector>,
+    <draconicevolution:crafting_injector>,
+    <draconicevolution:crafting_injector>,
+    <draconicevolution:crafting_injector>    
+]);
+FusionCrafting.add(<additions:wyvern_fusion_core>, <draconicevolution:fusion_crafting_core>, 1, 10240000, [
+    <ore:coreExcellent>,
+    <ore:coreExcellent>,
+    <draconicevolution:crafting_injector:1>,
+    <draconicevolution:crafting_injector:1>,
+    <draconicevolution:crafting_injector:1>,
+    <draconicevolution:crafting_injector:1>,
+    <draconicevolution:crafting_injector:1>,
+    <draconicevolution:crafting_injector:1>,
+    <draconicevolution:crafting_injector:1>,
+    <draconicevolution:crafting_injector:1>
+]);
+FusionCrafting.add(<additions:draconic_fusion_core>, <draconicevolution:fusion_crafting_core>, 2, 204800000, [
+    <ore:coreSuperior>,
+    <ore:coreSuperior>,
+    <draconicevolution:crafting_injector:2>,
+    <draconicevolution:crafting_injector:2>,
+    <draconicevolution:crafting_injector:2>,
+    <draconicevolution:crafting_injector:2>,
+    <draconicevolution:crafting_injector:2>,
+    <draconicevolution:crafting_injector:2>,
+    <draconicevolution:crafting_injector:2>,
+    <draconicevolution:crafting_injector:2>
+]);
+FusionCrafting.add(<additions:chaotic_fusion_core>, <draconicevolution:fusion_crafting_core>, 3, 4096000000, [
+    <ore:coreEpic>,
+    <ore:coreEpic>,
+    <draconicevolution:crafting_injector:3>,
+    <draconicevolution:crafting_injector:3>,
+    <draconicevolution:crafting_injector:3>,
+    <draconicevolution:crafting_injector:3>,
+    <draconicevolution:crafting_injector:3>,
+    <draconicevolution:crafting_injector:3>,
+    <draconicevolution:crafting_injector:3>,
+    <draconicevolution:crafting_injector:3>
+]);

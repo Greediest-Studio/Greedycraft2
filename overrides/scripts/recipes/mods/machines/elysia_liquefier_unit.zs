@@ -30,6 +30,14 @@ MachineModifier.setMaxThreads("elysia_liquefier", 1);
 MachineModifier.setInternalParallelism("elysia_liquefier", 4);
 MachineModifier.setMaxParallelism("elysia_liquefier", 65536);
 
+MMEvents.onControllerGUIRender("elysia_liquefier", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = [
+        "§e///大型液化单元控制面板///",
+        "§a机器名称：§eELYSIA单元 - 大型液化单元"
+    ];
+    event.extraInfo = info;
+});
+
 function addLiquefaction(output as ILiquidStack, gas as IGasStack) {
     RecipeBuilder.newBuilder("liquefaction_" + gas.NAME, "elysia_liquefier", 20)
     .addGasInput(gas * 320)

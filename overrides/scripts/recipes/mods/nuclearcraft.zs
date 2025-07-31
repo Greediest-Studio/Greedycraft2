@@ -28,6 +28,8 @@ import mods.nuclearcraft.Registration;
 import mods.tconstruct.Alloy;
 import mods.jaopca.JAOPCA;
 
+var GEM as int = 666;
+
 var NaCl as IItemStack = <additions:sodium_chloride>;
 var KCl as IItemStack = <additions:potassium_chloride>;
 var RbCl as IItemStack = <additions:rubidium_chloride>;
@@ -186,6 +188,38 @@ Melter.addRecipe(<ore:ingotWitheriumEquipment>, <liquid:equipment_witherium> * 1
 Melter.addRecipe(<ore:dustWitheriumEquipment>, <liquid:equipment_witherium> * 144);
 Melter.addRecipe(<ore:blockWitheriumEquipment>, <liquid:equipment_witherium> * 1296);
 Melter.addRecipe(<ore:nuggetWitheriumEquipment>, <liquid:equipment_witherium> * 16);
+Melter.addRecipe(<ore:ingotGalliumIndiumPhosphide>, <liquid:gallium_indium_phosphide> * 144);
+Melter.addRecipe(<ore:dustGalliumIndiumPhosphide>, <liquid:gallium_indium_phosphide> * 144);
+Melter.addRecipe(<ore:blockGalliumIndiumPhosphide>, <liquid:gallium_indium_phosphide> * 1296);
+Melter.addRecipe(<ore:nuggetGalliumIndiumPhosphide>, <liquid:gallium_indium_phosphide> * 16);
+Melter.addRecipe(<ore:gemGalliumPhosphide>, <liquid:gallium_phosphide> * GEM);
+Melter.addRecipe(<ore:dustGalliumPhosphide>, <liquid:gallium_phosphide> * GEM);
+Melter.addRecipe(<ore:blockGalliumPhosphide>, <liquid:gallium_phosphide> * (GEM * 9));
+Melter.addRecipe(<ore:nuggetGalliumPhosphide>, <liquid:gallium_phosphide> * (GEM / 9));
+Melter.addRecipe(<ore:gemIndiumPhosphide>, <liquid:indium_phosphide> * GEM);
+Melter.addRecipe(<ore:dustIndiumPhosphide>, <liquid:indium_phosphide> * GEM);
+Melter.addRecipe(<ore:blockIndiumPhosphide>, <liquid:indium_phosphide> * (GEM * 9));
+Melter.addRecipe(<ore:nuggetIndiumPhosphide>, <liquid:indium_phosphide> * (GEM / 9));
+
+IngotFormer.removeRecipeWithOutput(<additions:hydrogen_ingot>);
+IngotFormer.removeRecipeWithOutput(<additions:helium_ingot>);
+IngotFormer.removeRecipeWithOutput(<additions:nitrogen_ingot>);
+IngotFormer.removeRecipeWithOutput(<additions:oxygen_ingot>);
+IngotFormer.removeRecipeWithOutput(<additions:fluorine_ingot>);
+IngotFormer.removeRecipeWithOutput(<additions:neon_ingot>);
+IngotFormer.removeRecipeWithOutput(<additions:argon_ingot>);
+IngotFormer.removeRecipeWithOutput(<additions:krypton_ingot>);
+IngotFormer.removeRecipeWithOutput(<additions:xenon_ingot>);
+IngotFormer.removeRecipeWithOutput(<additions:radon_ingot>);
+IngotFormer.addRecipe(<liquid:awakened_draconium> * 144, <draconicevolution:draconic_ingot>);
+IngotFormer.addRecipe(<liquid:chaotic_draconium> * 144, <gct_ores:chaotic_draconium_ingot>);
+IngotFormer.addRecipe(<liquid:ruled_draconium> * 144, <gct_ores:ruled_draconium_ingot>);
+IngotFormer.addRecipe(<liquid:relifed_witherium> * 144, <gct_ores:relifed_witherium_ingot>);
+IngotFormer.addRecipe(<liquid:stormy_witherium> * 144, <gct_ores:stormy_witherium_ingot>);
+IngotFormer.addRecipe(<liquid:equipment_witherium> * 144, <gct_ores:equipment_witherium_ingot>);
+IngotFormer.addRecipe(<liquid:gallium_indium_phosphide> * 144, <additions:gallium_indium_phosphide>);
+IngotFormer.addRecipe(<liquid:gallium_phosphide> * GEM, <additions:gallium_phosphide>);
+IngotFormer.addRecipe(<liquid:indium_phosphide> * GEM, <additions:indium_phosphide>);
 
 SaltMixer.removeRecipeWithInput(<liquid:arsenic> * 1332, <liquid:nak> * 144);
 
@@ -194,7 +228,7 @@ SaltMixer.addRecipe(<liquid:hydrogen_fluoride> * 250, <liquid:water> * 250, <liq
 SaltMixer.addRecipe(<liquid:liquidhydrogenchloride> * 250, <liquid:water> * 250, <liquid:hydrochloric_acid> * 250);
 SaltMixer.addRecipe(<liquid:cryotheum> * 250, <liquid:liquid_helium> * 1000, <liquid:hecryo_liquid> * 1000);
 SaltMixer.addRecipe(<liquid:nitric_acid> * 250, <liquid:hydrofluoric_acid> * 750, <liquid:aqua_fluoride> * 1000);
-SaltMixer.addRecipe(<liquid:orichalcos> * 72, <liquid:mana> * 20, <liquid:photonium> * 288);
+SaltMixer.addRecipe(<liquid:gallium_phosphide> * 333, <liquid:indium_phosphide> * 333, <liquid:gallium_indium_phosphide> * 72);
 
 ChemicalReactor.removeRecipeWithInput(<liquid:boron> * 72, <liquid:arsenic> * 333);
 ChemicalReactor.removeRecipeWithInput(<liquid:liquidhydrogen> * 250, <liquid:fluorine> * 250);
@@ -221,6 +255,8 @@ ChemicalReactor.addRecipe(<liquid:calcium_hydroxide_solution> * 333, <liquid:hyd
 ChemicalReactor.addRecipe(<liquid:strontium_sulfide_solution> * 333, <liquid:hydrochloric_acid> * 1000, <liquid:strontium_chloride_solution> * 333, <liquid:hydrogen_sulfide> * 500);
 ChemicalReactor.addRecipe(<liquid:barium_sulfide_solution> * 333, <liquid:hydrochloric_acid> * 1000, <liquid:barium_chloride_solution> * 333, <liquid:hydrogen_sulfide> * 500);
 ChemicalReactor.addRecipe(<liquid:hydrogen_sulfide> * 250, <liquid:oxygen> * 375, <liquid:water> * 250, <liquid:sulfur_dioxide> * 250);
+ChemicalReactor.addRecipe(<liquid:liquidgallium> * 72, <liquid:phosphorus> * 72, <liquid:gallium_phosphide> * 333, null);
+ChemicalReactor.addRecipe(<liquid:indium> * 72, <liquid:phosphorus> * 72, <liquid:indium_phosphide> * 333, null);
 
 Crystallizer.addRecipe(<liquid:iodine_carbon_tetrachloride_solution> * 200, <jaopca:dust.iodine>);
 Crystallizer.addRecipe(<liquid:chloroplatinic_acid_solution> * 666, <additions:chloroplatinic_acid>);
@@ -277,23 +313,6 @@ Separator.addRecipe(<ore:dustSodiumChloroplatinate>, PtCl4, NaCl * 2);
 Separator.addRecipe(<ore:dustPotassiumChloroplatinate>, PtCl4, KCl * 2);
 Separator.addRecipe(<ore:dustRubidiumChloroplatinate>, PtCl4, RbCl * 2);
 Separator.addRecipe(<ore:dustCesiumChloroplatinate>, PtCl4, CsCl * 2);
-
-IngotFormer.removeRecipeWithOutput(<additions:hydrogen_ingot>);
-IngotFormer.removeRecipeWithOutput(<additions:helium_ingot>);
-IngotFormer.removeRecipeWithOutput(<additions:nitrogen_ingot>);
-IngotFormer.removeRecipeWithOutput(<additions:oxygen_ingot>);
-IngotFormer.removeRecipeWithOutput(<additions:fluorine_ingot>);
-IngotFormer.removeRecipeWithOutput(<additions:neon_ingot>);
-IngotFormer.removeRecipeWithOutput(<additions:argon_ingot>);
-IngotFormer.removeRecipeWithOutput(<additions:krypton_ingot>);
-IngotFormer.removeRecipeWithOutput(<additions:xenon_ingot>);
-IngotFormer.removeRecipeWithOutput(<additions:radon_ingot>);
-IngotFormer.addRecipe(<liquid:awakened_draconium> * 144, <draconicevolution:draconic_ingot>);
-IngotFormer.addRecipe(<liquid:chaotic_draconium> * 144, <gct_ores:chaotic_draconium_ingot>);
-IngotFormer.addRecipe(<liquid:ruled_draconium> * 144, <gct_ores:ruled_draconium_ingot>);
-IngotFormer.addRecipe(<liquid:relifed_witherium> * 144, <gct_ores:relifed_witherium_ingot>);
-IngotFormer.addRecipe(<liquid:stormy_witherium> * 144, <gct_ores:stormy_witherium_ingot>);
-IngotFormer.addRecipe(<liquid:equipment_witherium> * 144, <gct_ores:equipment_witherium_ingot>);
 
 Radiation.setMaterialRadiationLevel("Technetium", 0.000000000985d);
 Radiation.setMaterialRadiationLevel("Promethium", 0.064d);

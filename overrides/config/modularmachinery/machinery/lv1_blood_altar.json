@@ -1,0 +1,7025 @@
+﻿{
+    "registryname": "blood_altar",
+    "localizedname": "§aLV1 - 血之祭坛",
+    "requires-blueprint": false,
+    "failure-action": "still",
+    "color": "777776",
+    "parts": [
+        {
+            "x": 0,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "bloodmagic:altar@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -10,
+            "z": -1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -10,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": -10,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -4,
+            "z": -11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -10,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -10,
+            "z": -2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -10,
+            "z": 1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -9,
+            "z": 11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -9,
+            "z": 1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -3,
+            "z": 14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -8,
+            "z": -1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -11,
+            "z": 22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -2,
+            "z": -11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -9,
+            "z": -1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -8,
+            "z": 1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -8,
+            "z": -2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -2,
+            "z": 14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -9,
+            "z": 11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -2,
+            "z": 22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": 19,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": -5,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -9,
+            "z": 22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -9,
+            "z": 11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -10,
+            "z": 2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": -4,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -6,
+            "z": -11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -10,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -10,
+            "z": -2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": -11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": -13,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -7,
+            "z": 22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -10,
+            "z": -4,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -9,
+            "z": 11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -10,
+            "z": -11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -8,
+            "z": -11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -4,
+            "z": 22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -3,
+            "z": -18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -10,
+            "z": 3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": -12,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -8,
+            "z": -4,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": 16,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -9,
+            "z": 11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -2,
+            "z": -18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -9,
+            "z": 9,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -10,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -9,
+            "z": 4,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -8,
+            "z": 18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -9,
+            "z": 18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -8,
+            "z": 3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -9,
+            "z": -3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -10,
+            "z": 18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": 3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -4,
+            "z": -18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -9,
+            "z": 11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -10,
+            "z": -7,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -9,
+            "z": -2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -5,
+            "z": -18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "bloodmagic:decorative_brick@0",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -5,
+            "z": 18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": 2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": -15,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": -13,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -4,
+            "z": 18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -9,
+            "z": 11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": -20,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -9,
+            "z": 7,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -10,
+            "z": 8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -1,
+            "z": -18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -7,
+            "z": 18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -9,
+            "z": 11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -6,
+            "z": 18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": 16,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -9,
+            "z": 6,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -10,
+            "z": 8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "bloodmagic:decorative_brick@0",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -9,
+            "z": 11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -9,
+            "z": 8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -9,
+            "z": 11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -7,
+            "z": 8,
+            "elements": [
+                "minecraft:beacon@0",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -9,
+            "z": 7,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -20,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -8,
+            "z": 6,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -10,
+            "z": -8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": 2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -9,
+            "z": 11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -10,
+            "z": 6,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -7,
+            "z": -8,
+            "elements": [
+                "minecraft:beacon@0",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -8,
+            "z": -8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -8,
+            "z": 8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": -3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -9,
+            "z": -1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -9,
+            "z": -5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": 5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -6,
+            "z": -18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": -15,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -10,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": 12,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -9,
+            "z": 11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": 1,
+            "z": 22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": -11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -7,
+            "z": -18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -8,
+            "z": -8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -8,
+            "z": -18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -9,
+            "z": 6,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -9,
+            "z": -18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -9,
+            "z": -8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -10,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -8,
+            "z": 5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -10,
+            "z": 7,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -1,
+            "z": -18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -1,
+            "z": 22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -5,
+            "z": 14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -8,
+            "z": -8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -4,
+            "z": 14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -2,
+            "z": 14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -6,
+            "z": 14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -7,
+            "z": 14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -4,
+            "z": -22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -10,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -3,
+            "z": 22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -9,
+            "z": 11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": 0,
+            "z": -22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -8,
+            "z": 14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -10,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -10,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -5,
+            "z": 22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -9,
+            "z": 14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -2,
+            "z": -22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -3,
+            "z": 14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -9,
+            "z": 11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": 2,
+            "z": -22,
+            "elements": [
+                "additions:murderite_block@0",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -9,
+            "z": 2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": 17,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": -16,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -9,
+            "z": 14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -4,
+            "z": -18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -10,
+            "z": 12,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": 9,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -8,
+            "z": 14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -5,
+            "z": -18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -10,
+            "z": 6,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -3,
+            "z": -18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -6,
+            "z": 14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -4,
+            "z": 14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": -3,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -2,
+            "z": -18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -8,
+            "z": -8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -7,
+            "z": 14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -10,
+            "z": -1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -5,
+            "z": 14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -10,
+            "z": 7,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -9,
+            "z": 11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -8,
+            "z": 0,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": 11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -8,
+            "z": 8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": 7,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -8,
+            "z": -18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": 3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -17,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": 4,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": -19,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": -12,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -6,
+            "z": -18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -8,
+            "z": 1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -8,
+            "z": 8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -2,
+            "z": -14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -9,
+            "z": -14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -8,
+            "z": -22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -10,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -10,
+            "z": -12,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -7,
+            "z": -22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -10,
+            "z": -22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -19,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -8,
+            "z": -2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -8,
+            "z": -5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -9,
+            "z": 9,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -4,
+            "z": -14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -8,
+            "z": 8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -10,
+            "z": -18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -9,
+            "z": -22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -10,
+            "z": -3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -5,
+            "z": -22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -10,
+            "z": -9,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": 7,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -11,
+            "z": -22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -9,
+            "z": -5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -6,
+            "z": -14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -6,
+            "z": -22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -8,
+            "z": 8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": 10,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -9,
+            "z": -11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": -5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": 0,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -6,
+            "z": -11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -10,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -9,
+            "z": -4,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -9,
+            "z": -11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -5,
+            "z": -11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -8,
+            "z": -4,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -8,
+            "z": 8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -8,
+            "z": 8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": -6,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -8,
+            "z": -11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -7,
+            "z": 11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -10,
+            "z": 11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -8,
+            "z": 11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -9,
+            "z": -11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -7,
+            "z": -11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -9,
+            "z": -9,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -10,
+            "z": -5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -10,
+            "z": 10,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -1,
+            "z": -11,
+            "elements": [
+                "bloodmagic:decorative_brick@2",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -10,
+            "z": -4,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": -1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -10,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -8,
+            "z": 6,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "additions:crimsonite_block@0",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -2,
+            "z": -11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -8,
+            "z": 8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -3,
+            "z": -11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": 0,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -4,
+            "z": -11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -10,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -8,
+            "z": 8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "bloodmagic:decorative_brick@2",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": -8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -3,
+            "z": 18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -10,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "z": -5,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -2,
+            "z": 18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -22,
+            "y": 2,
+            "z": 22,
+            "elements": [
+                "additions:murderite_block@0",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -10,
+            "z": -10,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": 3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -8,
+            "z": 8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": 4,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": -5,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": 0,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": -7,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": 1,
+            "z": 22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -10,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -9,
+            "z": 18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -7,
+            "z": -8,
+            "elements": [
+                "minecraft:beacon@0",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -9,
+            "z": -6,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": 11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": -5,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": 0,
+            "z": -18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": 0,
+            "z": 22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -8,
+            "z": 8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": 10,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -10,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -7,
+            "z": 18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -9,
+            "z": -9,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -10,
+            "z": 9,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -8,
+            "z": 8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -5,
+            "z": 18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -10,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": -4,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -8,
+            "z": -3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -8,
+            "z": -14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -20,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": -8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -10,
+            "z": -8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -10,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": 0,
+            "z": -22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": -17,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": 1,
+            "z": 18,
+            "elements": [
+                "additions:darkest_stonebrick_large@0",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -10,
+            "z": -11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": 1,
+            "z": -22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -9,
+            "z": -11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "bloodmagic:decorative_brick@0",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": -3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": -6,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": 5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": 2,
+            "z": -22,
+            "elements": [
+                "additions:murderite_block@0",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -10,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -9,
+            "z": 11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -9,
+            "z": -3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -9,
+            "z": -11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -10,
+            "z": -9,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": -8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": 7,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -3,
+            "z": -11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -9,
+            "z": -11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": 0,
+            "z": -14,
+            "elements": [
+                "additions:crimsonite_block@0",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -10,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -1,
+            "z": 22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -10,
+            "z": 22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -8,
+            "z": -8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -10,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": -6,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "additions:crimsonite_block@0",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -1,
+            "z": -11,
+            "elements": [
+                "bloodmagic:decorative_brick@2",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": -5,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": 1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -10,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -6,
+            "z": 22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -3,
+            "z": 22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -10,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": 13,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": -1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -8,
+            "z": -8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -8,
+            "z": 2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -8,
+            "z": 22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": 17,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": 2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": 8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -7,
+            "z": -11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -10,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -5,
+            "z": 22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -5,
+            "z": -11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -8,
+            "z": -5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": -5,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": 19,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -10,
+            "z": -10,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -10,
+            "z": 4,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -10,
+            "z": -12,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -9,
+            "z": 3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -9,
+            "z": 2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": 8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": 0,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": -16,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -9,
+            "z": -11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -8,
+            "z": 4,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 19,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -10,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": -15,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -10,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": -13,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": 20,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": -10,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": 4,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -9,
+            "z": -4,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -10,
+            "z": 9,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -9,
+            "z": -11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": -3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 20,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -10,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": -2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": 5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": 12,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": -11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -10,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": 9,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -10,
+            "z": 2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -10,
+            "z": -3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -8,
+            "z": -6,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -9,
+            "z": -6,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": -12,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -10,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": -9,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -9,
+            "z": -11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -10,
+            "z": -5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": -1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": 13,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": 6,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": -5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -10,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": -4,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": 1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -9,
+            "z": -11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -9,
+            "z": -11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": 0,
+            "z": 22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": -8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 20,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": -16,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": 15,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": 7,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -10,
+            "z": -6,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -9,
+            "z": 5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": 2,
+            "z": 22,
+            "elements": [
+                "additions:murderite_block@0",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "minecraft:glowstone@0",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": -20,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": 2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": 8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": 1,
+            "z": 18,
+            "elements": [
+                "additions:darkest_stonebrick_large@0",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -9,
+            "z": 1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -2,
+            "z": -14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -10,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -3,
+            "z": -22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": 13,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -10,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -2,
+            "z": 22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": 15,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -8,
+            "z": -3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -3,
+            "z": -14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": 0,
+            "z": -18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -4,
+            "z": 22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -10,
+            "z": 0,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -1,
+            "z": -22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": 1,
+            "z": -18,
+            "elements": [
+                "additions:darkest_stonebrick_large@0",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": 1,
+            "z": -22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": -1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "bloodmagic:decorative_brick@0",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "minecraft:glowstone@0",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": -2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -1,
+            "z": -14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -8,
+            "z": 8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": 6,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -7,
+            "z": -14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -9,
+            "z": -7,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -6,
+            "z": -14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": -10,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -10,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": -7,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 17,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": 12,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -4,
+            "z": -14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -10,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -5,
+            "z": -14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -9,
+            "z": -11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -10,
+            "z": 5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": 16,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -9,
+            "z": 0,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -9,
+            "z": -11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -10,
+            "z": 11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -10,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": 20,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -1,
+            "z": -14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": 15,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -8,
+            "z": -8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 19,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -9,
+            "z": -18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 15,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -7,
+            "z": -18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -8,
+            "z": -14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "minecraft:glowstone@0",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -3,
+            "z": -14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -5,
+            "z": -14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 12,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 16,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": 12,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": -7,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "minecraft:glowstone@0",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": 6,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -9,
+            "z": -2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -10,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -9,
+            "z": -11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -10,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 13,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -7,
+            "z": -14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -8,
+            "z": 2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": -13,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -10,
+            "z": 10,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": -3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -10,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -10,
+            "z": 12,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": 5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -8,
+            "z": -8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -9,
+            "z": -22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": 6,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": -5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -10,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": -9,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -8,
+            "z": 3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -10,
+            "z": -22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -8,
+            "z": -8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -10,
+            "z": 5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -11,
+            "z": -22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": 1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": -3,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -9,
+            "z": 4,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -10,
+            "z": -14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -8,
+            "z": 4,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": 11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": 0,
+            "z": -14,
+            "elements": [
+                "additions:crimsonite_block@0",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -10,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -5,
+            "z": -22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -9,
+            "z": -11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": 10,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -10,
+            "z": -6,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -8,
+            "z": -1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -6,
+            "z": -22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -8,
+            "z": -8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -10,
+            "z": -7,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -10,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -2,
+            "z": 18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -7,
+            "z": -22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -8,
+            "z": -22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": -4,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -10,
+            "z": 1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -9,
+            "z": -11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -10,
+            "z": -18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": 13,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": 15,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -9,
+            "z": -7,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": 1,
+            "z": -18,
+            "elements": [
+                "additions:darkest_stonebrick_large@0",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -7,
+            "z": 8,
+            "elements": [
+                "minecraft:beacon@0",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -10,
+            "z": 18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -2,
+            "z": -22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -10,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -4,
+            "z": 18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": -17,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": -2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -1,
+            "z": -22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -9,
+            "z": -8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -3,
+            "z": 18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -10,
+            "z": 4,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -4,
+            "z": -22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -10,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -3,
+            "z": -22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": -16,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -8,
+            "z": -6,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -10,
+            "z": 3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -8,
+            "z": 18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -14,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": -15,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -9,
+            "z": 8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": -2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -10,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -15,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": -9,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -6,
+            "z": 18,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -9,
+            "z": -11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": -10,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": 16,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -10,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -8,
+            "z": 5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -8,
+            "z": -8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -9,
+            "z": 11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": -6,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": 9,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -7,
+            "z": 22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -9,
+            "z": -14,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -10,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -2,
+            "z": 11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "bloodmagic:decorative_brick@2",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -16,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": 11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -6,
+            "z": 22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -8,
+            "z": 11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -9,
+            "z": -11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": 8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -10,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": -19,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": 3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": 4,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -18,
+            "y": -11,
+            "z": 9,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -9,
+            "z": 3,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": -7,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -9,
+            "z": 5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -8,
+            "z": 22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -9,
+            "z": 22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": -12,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -8,
+            "z": -8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -9,
+            "z": -11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -19,
+            "y": -12,
+            "z": 22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": -11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -9,
+            "z": 11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -10,
+            "z": 22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 14,
+            "y": -10,
+            "z": 0,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -10,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": -5,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -11,
+            "z": 22,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -8,
+            "z": -8,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -22,
+            "y": -12,
+            "z": 1,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -9,
+            "z": 11,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -11,
+            "z": 18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 22,
+            "y": -12,
+            "z": 10,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -10,
+            "z": 14,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -13,
+            "y": -11,
+            "z": -18,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -8,
+            "z": 0,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -7,
+            "z": 11,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -12,
+            "z": -22,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 18,
+            "y": -11,
+            "z": -9,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 11,
+            "y": -9,
+            "z": 0,
+            "elements": [
+                "bloody_rune",
+                "minecraft:stonebrick@0"
+            ]
+        }
+    ]}
+

@@ -30,6 +30,14 @@ MachineModifier.setMaxThreads("elysia_solidifier", 1);
 MachineModifier.setInternalParallelism("elysia_solidifier", 4);
 MachineModifier.setMaxParallelism("elysia_solidifier", 65536);
 
+MMEvents.onControllerGUIRender("elysia_solidifier", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = [
+        "§e///大型凝结单元控制面板///",
+        "§a机器名称：§eELYSIA单元 - 大型凝结单元"
+    ];
+    event.extraInfo = info;
+});
+
 function addSolidification(output as IItemStack, liquid as ILiquidStack, cooler as ILiquidStack, timeMultiplier as float) as void {
     RecipeBuilder.newBuilder("solidification_" + liquid.name, "elysia_solidifier", (40 * timeMultiplier) as int)
         .addFluidInput(liquid)
