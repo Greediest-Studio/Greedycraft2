@@ -1,0 +1,16 @@
+{
+  "item_block": {
+    "name": "§c玩家符文",
+    "tooltip": [
+      "§7§o模块化血之祭坛特供",
+      "§6仅在7/8/9级祭坛上生效",
+      "§6自动将生命源质输出到玩家的LP网络中，每级速率x2"
+    ],
+    "type": "additions:block_simple"
+  },
+  "name": "§c玩家符文",
+  "material": "minecraft:stone",
+  "hardness": 3.0,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

@@ -1,0 +1,16 @@
+{
+  "item_block": {
+    "name": "§c净化符文",
+    "tooltip": [
+      "§7§o模块化血之祭坛特供",
+      "§6仅在7/8/9级祭坛上生效",
+      "§6每级增加1点生命源质底物转换产出"
+    ],
+    "type": "additions:block_simple"
+  },
+  "name": "§c净化符文",
+  "material": "minecraft:stone",
+  "hardness": 3.0,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

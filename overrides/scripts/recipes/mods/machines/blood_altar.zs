@@ -15,6 +15,7 @@ import crafttweaker.world.IBlockPos;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.data.IData;
+import crafttweaker.player.IPlayer;
 import crafttweaker.util.Math;
 
 import mods.modularmachinery.RecipePrimer;
@@ -23,6 +24,7 @@ import mods.modularmachinery.RecipeCheckEvent;
 import mods.modularmachinery.FactoryRecipeStartEvent;
 import mods.modularmachinery.FactoryRecipeTickEvent;
 import mods.modularmachinery.FactoryRecipeFinishEvent;
+import mods.modularmachinery.FactoryRecipeEvent;
 import mods.modularmachinery.RecipeModifierBuilder;
 import mods.modularmachinery.SmartInterfaceUpdateEvent;
 import mods.modularmachinery.Sync;
@@ -44,6 +46,9 @@ MachineModifier.setInternalParallelism("blood_altar", 2147483647);
 MachineModifier.setMaxParallelism("blood_altar", 2147483647);
 
 MachineModifier.addSmartInterfaceType("blood_altar", SmartInterfaceType.create("模式", 0));
+
+MachineModifier.addCoreThread("blood_altar", FactoryRecipeThread.createCoreThread("源质净化模块").addRecipe("purify"));
+MachineModifier.addCoreThread("blood_altar", FactoryRecipeThread.createCoreThread("宝珠输出模块").addRecipe("orb"));
 
 $expand IMachineController$getAltarLevel() as int {
     if (!isNull(this.customData.level)) {
@@ -109,6 +114,10 @@ MMEvents.onMachinePreTick("blood_altar", function(event as MachineTickEvent) {
         runeNum += event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>);
         runeNum += event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>);
         runeNum += event.controller.getBlocksInPattern(<bloodmagic:blood_rune:10>);
+        runeNum += event.controller.getBlocksInPattern(<additions:blood_rune_economy>);
+        runeNum += event.controller.getBlocksInPattern(<additions:blood_rune_purify>);
+        runeNum += event.controller.getBlocksInPattern(<additions:blood_rune_thread>);
+        runeNum += event.controller.getBlocksInPattern(<additions:blood_rune_personal>);
         if (altarLevel <= 5) {
             event.controller.customData = event.controller.customData.update({level : altarLevel as int});
         } else if (
@@ -143,6 +152,14 @@ MMEvents.onMachinePreTick("blood_altar", function(event as MachineTickEvent) {
             event.controller.customData = event.controller.customData.update({level : 6});
         }
     }
+    //调整机器线程
+    if (event.controller.world.getWorldTime() % 100 == 0 && (!event.controller.world.isRemote())) {
+        if (event.controller.getBlocksInPattern(<additions:blood_rune_thread>) > 15) {
+            event.controller.extraThreadCount = 15;
+        } else {
+            event.controller.extraThreadCount = event.controller.getBlocksInPattern(<additions:blood_rune_thread>) as int;
+        }
+    }
     //定义最大容量
     if (event.controller.world.getWorldTime() % 40 == 0 && (!event.controller.world.isRemote())) {
         var capacity as long = ((pow(1.1, event.controller.getBlocksInPattern(<bloodmagic:blood_rune:7>) as double) as double * 10000L) as long + (2000L * event.controller.getBlocksInPattern(<bloodmagic:blood_rune:6>) as long));
@@ -150,7 +167,7 @@ MMEvents.onMachinePreTick("blood_altar", function(event as MachineTickEvent) {
     }
     //定义祭坛模式
     if (!isNull(event.controller.getSmartInterfaceData("模式"))) {
-        if (event.controller.getSmartInterfaceData("模式").value > 1.0f || event.controller.getSmartInterfaceData("模式").value < 0.0f) {
+        if (event.controller.getSmartInterfaceData("模式").value > 2.0f || event.controller.getSmartInterfaceData("模式").value < 0.0f) {
             event.controller.customData = event.controller.customData.update({mode : 0});
         } else {
             event.controller.customData = event.controller.customData.update({mode : event.controller.getSmartInterfaceData("模式").value as int});
@@ -215,6 +232,20 @@ MMEvents.onMachinePreTick("blood_altar", function(event as MachineTickEvent) {
         var LPperSecond as double = 100.0d * speedBuffer * efficiencyBuffer;
         event.controller.customData = event.controller.customData.update({speed : LPperSecond as int});
     }
+    //玩家LP转移
+    if (!world.isRemote() && event.controller.getBlocksInPattern(<additions:blood_rune_personal>) > 0 && event.controller.getAltarMode() == 2) {
+        var speed as int = pow(2, (event.controller.getBlocksInPattern(<additions:blood_rune_personal>) - 1) as double) as int;
+        var uuid as string = event.controller.ownerUUID;
+        if (!isNull(server.getPlayerByUUID(uuid)) && event.controller.getAltarLP() >= speed) {
+            var player as IPlayer = server.getPlayerByUUID(uuid);
+            event.controller.customData = event.controller.customData.update({LP : event.controller.getAltarLP() - (speed as long)});
+            player.soulNetwork.currentEssence += speed as int;
+        } else if (!isNull(server.getPlayerByUUID(uuid)) && event.controller.getAltarLP() < speed) {
+            var player as IPlayer = server.getPlayerByUUID(uuid);
+            player.soulNetwork.currentEssence += event.controller.getAltarLP() as int;
+            event.controller.customData = event.controller.customData.update({LP : 0L});
+        }
+    }
 });
 
 MMEvents.onControllerGUIRender("blood_altar", function(event as ControllerGUIRenderEvent) {
@@ -231,7 +262,8 @@ MMEvents.onControllerGUIRender("blood_altar", function(event as ControllerGUIRen
     };
     var modeName as string[int] = {
         0 : "由外界输入",
-        1 : "向外界输出"
+        1 : "向外界输出",
+        2 : "转移到玩家网络（需要玩家符文）"
     };
     var info as string[] = [
         "§a///血之祭坛控制面板///",
@@ -243,12 +275,32 @@ MMEvents.onControllerGUIRender("blood_altar", function(event as ControllerGUIRen
         "§a转位效率：§e" ~ ((pow(1.2, (event.controller.getBlocksInPattern(<bloodmagic:blood_rune:5>) as double)) * 20) as int as string) ~ "每" ~ ((20 - event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int) > 1 ? (20 - event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int) : 1 as string) ~ "tick",
         "§d增容符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:6>) as string ~ "     §d速度符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:1>) as string,
         "§d超容符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:7>) as string ~ "     §d转位符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:5>) as string,
-        "§d促进符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as string ~ "     §d效率符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:2>) as string
+        "§d促进符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as string ~ "     §d效率符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:2>) as string,
+        "§d线程符文§e * " ~ event.controller.getBlocksInPattern(<additions:blood_rune_thread>) as string ~ "     §d节流符文§e * " ~ event.controller.getBlocksInPattern(<additions:blood_rune_economy>) as string,
+        "§d净化符文§e * " ~ event.controller.getBlocksInPattern(<additions:blood_rune_purify>) as string ~ "     §d宝珠符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>) as string,
+        "§d玩家符文§e * " ~ event.controller.getBlocksInPattern(<additions:blood_rune_personal>) as string
     ];
     event.extraInfo = info;
 });
 
+function economyCount(event as FactoryRecipeEvent) as double {
+    var num as int = event.controller.getBlocksInPattern(<additions:blood_rune_economy>) as int;
+    if (num >= 16) num = 16;
+    return pow(0.9, num as double) as double;
+}
+
 function addAltarRecipe(input as IIngredient, output as IItemStack, LP as int, level as int) {
+    var levelSpeedMutiplierMap as int[int] = {
+        1 : 1,
+        2 : 1,
+        3 : 2,
+        4 : 4,
+        5 : 20,
+        6 : 80,
+        7 : 400,
+        8 : 2000,
+        9 : 10000
+    };
     var recipe = RecipeBuilder.newBuilder((input.items[0].definition.id) ~ (input.items[0].metadata as string), "blood_altar", 1);
     recipe.addInput(input);
     recipe.addOutput(output);
@@ -258,18 +310,19 @@ function addAltarRecipe(input as IIngredient, output as IItemStack, LP as int, l
         }
     });
     recipe.addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
-        var speed as int = event.controller.getAltarSpeed() / 20;
-        var time as int = Math.ceil((LP as double) / (speed as double)) as int;
+        var speed as int = event.controller.getAltarSpeed() / 20 * levelSpeedMutiplierMap[level] as int;
+        var time as int = Math.ceil((LP as double * economyCount(event)) / (speed as double)) as int;
         event.factoryRecipeThread.addModifier("recipetime", RecipeModifierBuilder.create("modularmachinery:duration", "input", time as float, 1, false).build());
     });
     recipe.addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
-        if (event.controller.getAltarLP() < LP) {
-            event.setFailed(false, "生命源质不足");
+        val parallelism as int = event.activeRecipe.parallelism;
+        if ((event.controller.getAltarLP() < (economyCount(event) * LP * parallelism) as long) && (event.activeRecipe.totalTick - event.activeRecipe.tick) == 1) {
+            event.preventProgressing("生命源质不足，需要总计" ~ (economyCount(event) * LP * parallelism) as long as string ~ "点生命源质");
         }
     });
     recipe.addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
         val parallelism as int = event.activeRecipe.parallelism;
-        event.controller.customData = event.controller.customData.update({LP : event.controller.getAltarLP() - (LP as long * parallelism) as long});
+        event.controller.customData = event.controller.customData.update({LP : event.controller.getAltarLP() - ((economyCount(event) * LP * parallelism) as long) as long});
     });
     recipe.addRecipeTooltip("§e需求血之祭坛等级：" ~ (level as string));
     recipe.addRecipeTooltip("§e需求生命源质：" ~ (LP as string) ~ "点");
@@ -277,4 +330,96 @@ function addAltarRecipe(input as IIngredient, output as IItemStack, LP as int, l
     recipe.build();
 }
 
-addAltarRecipe(<ore:ingotIron>, <minecraft:diamond>, 20000, 2);
+RecipeBuilder.newBuilder("purify", "blood_altar", 1)
+    .addFluidInput(<liquid:substrate_lifeessence>)
+    .addPreCheckHandler(function(event as RecipeCheckEvent) {
+        if (event.controller.getBlocksInPattern(<additions:blood_rune_purify>) < 1) {
+            event.setFailed("缺少净化符文");
+        }
+    })
+    .addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
+        val parallelism as int = event.activeRecipe.parallelism;
+        var output as int = event.controller.getBlocksInPattern(<additions:blood_rune_purify>);
+        if (event.controller.getAltarLP() + parallelism * output > event.controller.getAltarCapacity()) {
+            event.preventProgressing("祭坛容量已满");
+        }
+    })
+    .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
+        val parallelism as int = event.activeRecipe.parallelism;
+        var output as int = event.controller.getBlocksInPattern(<additions:blood_rune_purify>);
+        event.controller.customData = event.controller.customData.update({LP : event.controller.getAltarLP() + (parallelism * output) as long});
+    })
+    .addRecipeTooltip("§a此配方仅在祭坛上有净化符文时生效")
+    .setThreadName("源质净化模块")
+    .build();
+
+RecipeBuilder.newBuilder("orb", "blood_altar", 1)
+    .setParallelized(false)
+    .addPreCheckHandler(function(event as RecipeCheckEvent) {
+        if (event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>) < 1) {
+            event.setFailed("缺少宝珠符文");
+        }
+    })
+    .addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
+        if (event.controller.getAltarLP() < 1) {
+            event.preventProgressing("生命源质不足，需要至少1点生命源质");
+        }
+    })
+    .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
+        event.controller.customData = event.controller.customData.update({LP : event.controller.getAltarLP() - 1 as long});
+    })
+    .addLifeEssenceOutput(1, false)
+    .addRecipeTooltip("§a此配方仅在祭坛上有宝珠符文时生效")
+    .setThreadName("宝珠输出模块")
+    .build();
+
+addAltarRecipe(<ore:gemEmerald>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:weak"}), 2000, 1);
+addAltarRecipe(<ore:ingotAstralStarmetal>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:apprentice"}), 5000, 2);
+addAltarRecipe(<ore:blockCompressedExperience>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:magician"}), 25000, 3);
+addAltarRecipe(<bloodmagic:blood_shard>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:master"}), 40000, 4);
+addAltarRecipe(<ore:netherStar>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:archmage"}), 80000, 5);
+addAltarRecipe(<draconicevolution:wyvern_core>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:transcendent"}), 300000, 6);
+addAltarRecipe(<ore:gemPrismarine>, <animus:fragmenthealing>, 1000, 2);
+addAltarRecipe(<ore:gemAmber>, <thaumcraft:curio:1>, 80000, 6);
+addAltarRecipe(<ore:ingotDurasteel>, <tconevo:metal:25>, 10000, 3);
+addAltarRecipe(<ore:blockLapis>, <bloodmagic:inscription_tool:1>, 1000, 3);
+addAltarRecipe(<minecraft:magma_cream>, <bloodmagic:inscription_tool:2>, 1000, 3);
+addAltarRecipe(<ore:obsidian>, <bloodmagic:inscription_tool:3>, 1000, 3);
+addAltarRecipe(<minecraft:ghast_tear>, <bloodmagic:inscription_tool:4>, 1000, 3);
+addAltarRecipe(<ore:blockCoal>, <bloodmagic:inscription_tool:5>, 2000, 4);
+addAltarRecipe(<ore:glowstone>, <bloodmagic:inscription_tool:6>, 200000, 6);
+addAltarRecipe(<bloodarsenal:blood_diamond:1>, <bloodarsenal:blood_diamond:2>, 100000, 5);
+addAltarRecipe(<additions:blood_sigil>, <additions:true_blood_sigil>, 150000, 6);
+addAltarRecipe(<minecraft:book>, <bloodmagic:sanguine_book>, 1000, 1);
+addAltarRecipe(<bloodmagic:teleposition_focus>, <bloodmagic:teleposition_focus:1>, 10000, 4);
+addAltarRecipe(<ore:ingotIron>, <bloodarsenal:base_item:4>, 5000, 3);
+addAltarRecipe(<ore:gemAmbrosium>, <thaumcraft:curio:4>, 80000, 6);
+addAltarRecipe(<minecraft:glass_bottle>, <twilightforest:fiery_blood>, 7000, 4);
+addAltarRecipe(<ore:enderpearl>, <bloodmagic:teleposition_focus>, 2000, 4);
+addAltarRecipe(<bloodmagic:lava_crystal>, <bloodmagic:activation_crystal>, 10000, 3);
+addAltarRecipe(<ore:dustGlowstone>, <bloodarsenal:base_item:2>, 2500, 3);
+addAltarRecipe(<ore:ingotGold>, <animus:keybinding>, 1000, 3);
+addAltarRecipe(<ore:gemShadow>, <thaumcraft:curio:3>, 80000, 6);
+addAltarRecipe(<minecraft:bucket>, <forge:bucketfilled>.withTag({FluidName: "lifeessence", Amount: 1000}), 1000, 1);
+addAltarRecipe(<ore:manaPearl>, <additions:pearl_of_knowledge>, 250000, 6);
+addAltarRecipe(<minecraft:iron_sword>, <bloodmagic:dagger_of_sacrifice>, 3000, 2);
+addAltarRecipe(<ore:logWood>, <bloodarsenal:blood_infused_wooden_log>, 2000, 2);
+addAltarRecipe(<ore:blockCosmilite>, <additions:creative_shard>, 850000, 6);
+addAltarRecipe(<ore:dyeOrange>, <bloodarsenal:blood_orange>, 500, 2);
+addAltarRecipe(<ore:blockCrystalMatrix>, <bloodmagic:decorative_brick:2>, 15000, 5);
+addAltarRecipe(<ore:ingotCosmilite>, <additions:ghost_metal>, 2560000, 7);
+addAltarRecipe(<ore:blockDarkest>, <additions:darkest_stonebrick_large>, 3840000, 7);
+addAltarRecipe(<additions:catalyst_star>, <additions:proliferation_star>, 6400000, 7);
+addAltarRecipe(<minecraft:bone_block>, <additions:ivorium_ingot>, 1280000, 7);
+addAltarRecipe(<additions:balanced_slate>, <additions:murderite_ingot>, 80000000, 8);
+
+addAltarRecipe(<ore:stone>, <bloodmagic:slate>, 1000, 1);
+addAltarRecipe(<bloodmagic:slate>, <bloodmagic:slate:1>, 2000, 2);
+addAltarRecipe(<bloodmagic:slate:1>, <bloodmagic:slate:2>, 5000, 3);
+addAltarRecipe(<bloodmagic:slate:2>, <bloodmagic:slate:3>, 15000, 4);
+addAltarRecipe(<bloodmagic:slate:3>, <bloodmagic:slate:4>, 30000, 5);
+addAltarRecipe(<bloodmagic:slate:4>, <additions:slate_6>, 200000, 6);
+addAltarRecipe(<additions:slate_6>, <additions:slate_7>, 1000000, 7);
+addAltarRecipe(<additions:slate_7>, <additions:slate_8>, 50000000, 8);
+addAltarRecipe(<additions:slate_8>, <additions:slate_9>, 300000000, 9);
+

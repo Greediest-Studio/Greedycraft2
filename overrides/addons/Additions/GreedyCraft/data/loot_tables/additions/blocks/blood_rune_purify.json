@@ -1,0 +1,16 @@
+{
+  "preset_block": "additions:blood_rune_purify",
+  "pools": [
+    {
+      "name": "block_itself_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:blood_rune_purify"
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_itself"
+}

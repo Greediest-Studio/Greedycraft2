@@ -64,15 +64,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcontroller@2"
-            ]
-        },
-        {
-            "x": 8,
-            "y": 29,
-            "z": -4,
-            "elements": [
-                "minecraft:quartz_block@0"
+                "modularmachinery:matrix_balancer_factory_controller@2"
             ]
         },
         {
@@ -180,14 +172,6 @@
             ]
         },
         {
-            "x": -9,
-            "y": 19,
-            "z": -5,
-            "elements": [
-                "minecraft:stained_glass_pane@11"
-            ]
-        },
-        {
             "x": 6,
             "y": 6,
             "z": 3,
@@ -233,22 +217,6 @@
             "z": 4,
             "elements": [
                 "minecraft:stained_glass@3"
-            ]
-        },
-        {
-            "x": 8,
-            "y": 27,
-            "z": -4,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
-            "x": -9,
-            "y": 21,
-            "z": -5,
-            "elements": [
-                "minecraft:stained_glass_pane@11"
             ]
         },
         {
@@ -340,14 +308,6 @@
             ]
         },
         {
-            "x": -9,
-            "y": 23,
-            "z": -5,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
             "x": -3,
             "y": 6,
             "z": 5,
@@ -417,14 +377,6 @@
             "z": -5,
             "elements": [
                 "minecraft:concrete@7"
-            ]
-        },
-        {
-            "x": -8,
-            "y": 21,
-            "z": -5,
-            "elements": [
-                "minecraft:stained_glass_pane@11"
             ]
         },
         {
@@ -508,14 +460,6 @@
             ]
         },
         {
-            "x": -9,
-            "y": 25,
-            "z": -5,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
             "x": 1,
             "y": 15,
             "z": 2,
@@ -636,19 +580,19 @@
             ]
         },
         {
-            "x": -9,
-            "y": 7,
-            "z": 4,
-            "elements": [
-                "minecraft:concrete@7"
-            ]
-        },
-        {
             "x": 9,
             "y": 9,
             "z": 2,
             "elements": [
                 "minecraft:quartz_stairs@4"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@7"
             ]
         },
         {
@@ -940,14 +884,6 @@
             ]
         },
         {
-            "x": 8,
-            "y": 25,
-            "z": -4,
-            "elements": [
-                "minecraft:stained_glass_pane@11"
-            ]
-        },
-        {
             "x": 1,
             "y": 5,
             "z": -5,
@@ -1033,14 +969,6 @@
             "z": 5,
             "elements": [
                 "thaumcraft:stairs_arcane_brick@5"
-            ]
-        },
-        {
-            "x": 8,
-            "y": 23,
-            "z": -4,
-            "elements": [
-                "minecraft:stained_glass_pane@11"
             ]
         },
         {
@@ -1132,14 +1060,6 @@
             ]
         },
         {
-            "x": 8,
-            "y": 30,
-            "z": 11,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
             "x": -2,
             "y": 12,
             "z": 10,
@@ -1153,14 +1073,6 @@
             "z": 4,
             "elements": [
                 "chisel:glass@0"
-            ]
-        },
-        {
-            "x": -7,
-            "y": 29,
-            "z": -5,
-            "elements": [
-                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -1197,18 +1109,18 @@
         },
         {
             "x": 0,
-            "y": 11,
-            "z": 11,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": 0,
             "y": 26,
             "z": 7,
             "elements": [
                 "thaumcraft:slab_arcane_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 11,
+            "elements": [
+                "avaritia:block_resource@0"
             ]
         },
         {
@@ -1223,14 +1135,6 @@
             "x": 3,
             "y": 16,
             "z": -1,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
-            "x": -9,
-            "y": 25,
-            "z": 12,
             "elements": [
                 "minecraft:quartz_block@0"
             ]
@@ -1252,14 +1156,6 @@
             ]
         },
         {
-            "x": 0,
-            "y": 11,
-            "z": -3,
-            "elements": [
-                "minecraft:concrete@7"
-            ]
-        },
-        {
             "x": 1,
             "y": 0,
             "z": 3,
@@ -1276,11 +1172,11 @@
             ]
         },
         {
-            "x": -9,
-            "y": 24,
-            "z": 12,
+            "x": 0,
+            "y": 11,
+            "z": -3,
             "elements": [
-                "minecraft:quartz_block@0"
+                "minecraft:concrete@7"
             ]
         },
         {
@@ -1348,27 +1244,11 @@
             ]
         },
         {
-            "x": -9,
-            "y": 27,
-            "z": 11,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
             "x": 2,
             "y": 4,
             "z": 5,
             "elements": [
                 "casings_all"
-            ]
-        },
-        {
-            "x": -7,
-            "y": 27,
-            "z": -5,
-            "elements": [
-                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -1397,14 +1277,6 @@
         },
         {
             "x": 0,
-            "y": 9,
-            "z": 13,
-            "elements": [
-                "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": 0,
             "y": 12,
             "z": 10,
             "elements": [
@@ -1417,6 +1289,14 @@
             "z": 5,
             "elements": [
                 "chisel:arcane_stone1@10"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 13,
+            "elements": [
+                "avaritia:block_resource@0"
             ]
         },
         {
@@ -1436,19 +1316,19 @@
             ]
         },
         {
-            "x": -1,
-            "y": 8,
-            "z": 5,
-            "elements": [
-                "actuallyadditions:block_misc@8"
-            ]
-        },
-        {
             "x": 1,
             "y": 6,
             "z": 10,
             "elements": [
                 "minecraft:quartz_stairs@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "actuallyadditions:block_misc@8"
             ]
         },
         {
@@ -1465,14 +1345,6 @@
             "z": 8,
             "elements": [
                 "chisel:glass@0"
-            ]
-        },
-        {
-            "x": 8,
-            "y": 28,
-            "z": 11,
-            "elements": [
-                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -1644,14 +1516,6 @@
             ]
         },
         {
-            "x": -9,
-            "y": 26,
-            "z": -4,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
             "x": 2,
             "y": 14,
             "z": 5,
@@ -1676,14 +1540,6 @@
             ]
         },
         {
-            "x": -7,
-            "y": 30,
-            "z": 12,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
             "x": -3,
             "y": 2,
             "z": 3,
@@ -1700,27 +1556,11 @@
             ]
         },
         {
-            "x": -9,
-            "y": 24,
-            "z": -4,
-            "elements": [
-                "minecraft:quartz_stairs@7"
-            ]
-        },
-        {
             "x": 2,
             "y": 5,
             "z": 4,
             "elements": [
                 "chisel:glass@0"
-            ]
-        },
-        {
-            "x": -7,
-            "y": 31,
-            "z": 12,
-            "elements": [
-                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -1732,22 +1572,6 @@
             ]
         },
         {
-            "x": -7,
-            "y": 11,
-            "z": 4,
-            "elements": [
-                "minecraft:concrete@7"
-            ]
-        },
-        {
-            "x": -9,
-            "y": 25,
-            "z": 11,
-            "elements": [
-                "minecraft:quartz_stairs@6"
-            ]
-        },
-        {
             "x": 0,
             "y": 8,
             "z": 14,
@@ -1756,11 +1580,11 @@
             ]
         },
         {
-            "x": 0,
-            "y": 16,
-            "z": -2,
+            "x": -7,
+            "y": 11,
+            "z": 4,
             "elements": [
-                "minecraft:stained_glass@3"
+                "minecraft:concrete@7"
             ]
         },
         {
@@ -1772,19 +1596,11 @@
             ]
         },
         {
-            "x": 8,
-            "y": 24,
-            "z": -5,
+            "x": 0,
+            "y": 16,
+            "z": -2,
             "elements": [
-                "betternether:bone_wall@0"
-            ]
-        },
-        {
-            "x": -12,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "thaumcraft:stairs_arcane_brick@4"
+                "minecraft:stained_glass@3"
             ]
         },
         {
@@ -1793,6 +1609,14 @@
             "z": 3,
             "elements": [
                 "minecraft:sea_lantern@0"
+            ]
+        },
+        {
+            "x": -12,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "thaumcraft:stairs_arcane_brick@4"
             ]
         },
         {
@@ -1860,14 +1684,6 @@
             ]
         },
         {
-            "x": -7,
-            "y": 28,
-            "z": 12,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
             "x": 5,
             "y": 10,
             "z": 5,
@@ -1884,14 +1700,6 @@
             ]
         },
         {
-            "x": 8,
-            "y": 22,
-            "z": -5,
-            "elements": [
-                "thaumcraft:pedestal_arcane@0"
-            ]
-        },
-        {
             "x": -2,
             "y": 10,
             "z": 0,
@@ -1905,22 +1713,6 @@
             "z": 3,
             "elements": [
                 "chisel:glass@0"
-            ]
-        },
-        {
-            "x": -7,
-            "y": 29,
-            "z": 12,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
-            "x": -9,
-            "y": 22,
-            "z": -4,
-            "elements": [
-                "minecraft:stained_glass@3"
             ]
         },
         {
@@ -1948,14 +1740,6 @@
             ]
         },
         {
-            "x": -7,
-            "y": 27,
-            "z": 12,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
             "x": 0,
             "y": -1,
             "z": 4,
@@ -1969,14 +1753,6 @@
             "z": -4,
             "elements": [
                 "minecraft:concrete@7"
-            ]
-        },
-        {
-            "x": 8,
-            "y": 26,
-            "z": -5,
-            "elements": [
-                "minecraft:sea_lantern@0"
             ]
         },
         {
@@ -2036,19 +1812,19 @@
             ]
         },
         {
-            "x": -2,
-            "y": -1,
-            "z": 9,
-            "elements": [
-                "thaumcraft:stairs_arcane_brick@3"
-            ]
-        },
-        {
             "x": 1,
             "y": 10,
             "z": 0,
             "elements": [
                 "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "thaumcraft:stairs_arcane_brick@3"
             ]
         },
         {
@@ -2081,14 +1857,6 @@
             "z": 7,
             "elements": [
                 "thaumcraft:slab_arcane_brick@8"
-            ]
-        },
-        {
-            "x": 8,
-            "y": 28,
-            "z": -5,
-            "elements": [
-                "gct_ores:ordered_metal_block@0"
             ]
         },
         {
@@ -2153,14 +1921,6 @@
             "z": -2,
             "elements": [
                 "minecraft:quartz_block@0"
-            ]
-        },
-        {
-            "x": -9,
-            "y": 23,
-            "z": 11,
-            "elements": [
-                "minecraft:quartz_stairs@6"
             ]
         },
         {
@@ -2377,14 +2137,6 @@
             "z": 1,
             "elements": [
                 "minecraft:quartz_block@0"
-            ]
-        },
-        {
-            "x": 8,
-            "y": 26,
-            "z": 12,
-            "elements": [
-                "minecraft:sea_lantern@0"
             ]
         },
         {
@@ -2516,19 +2268,19 @@
             ]
         },
         {
-            "x": -9,
-            "y": 7,
-            "z": 2,
-            "elements": [
-                "minecraft:quartz_stairs@4"
-            ]
-        },
-        {
             "x": -2,
             "y": 28,
             "z": 7,
             "elements": [
                 "thaumcraft:slab_arcane_brick@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "chisel:glass@0"
             ]
         },
         {
@@ -2540,11 +2292,11 @@
             ]
         },
         {
-            "x": -1,
-            "y": 4,
-            "z": 6,
+            "x": -9,
+            "y": 7,
+            "z": 2,
             "elements": [
-                "chisel:glass@0"
+                "minecraft:quartz_stairs@4"
             ]
         },
         {
@@ -2724,19 +2476,19 @@
             ]
         },
         {
-            "x": -1,
-            "y": 2,
-            "z": 6,
-            "elements": [
-                "chisel:glass@0"
-            ]
-        },
-        {
             "x": 4,
             "y": 12,
             "z": 5,
             "elements": [
                 "quark:dark_prismarine_wall@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "chisel:glass@0"
             ]
         },
         {
@@ -2812,19 +2564,19 @@
             ]
         },
         {
-            "x": 7,
-            "y": 10,
-            "z": 4,
-            "elements": [
-                "minecraft:concrete@7"
-            ]
-        },
-        {
             "x": 1,
             "y": 10,
             "z": 10,
             "elements": [
                 "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@7"
             ]
         },
         {
@@ -2849,14 +2601,6 @@
             "z": 13,
             "elements": [
                 "minecraft:concrete@7"
-            ]
-        },
-        {
-            "x": -9,
-            "y": 21,
-            "z": 12,
-            "elements": [
-                "minecraft:stained_glass_pane@11"
             ]
         },
         {
@@ -2993,14 +2737,6 @@
             "z": 1,
             "elements": [
                 "casings_all"
-            ]
-        },
-        {
-            "x": -9,
-            "y": 23,
-            "z": 12,
-            "elements": [
-                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -3284,14 +3020,6 @@
             ]
         },
         {
-            "x": -9,
-            "y": 19,
-            "z": 12,
-            "elements": [
-                "minecraft:stained_glass_pane@11"
-            ]
-        },
-        {
             "x": -2,
             "y": 8,
             "z": 1,
@@ -3372,14 +3100,6 @@
             ]
         },
         {
-            "x": -8,
-            "y": 29,
-            "z": 11,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
             "x": -1,
             "y": 12,
             "z": -2,
@@ -3404,14 +3124,6 @@
             ]
         },
         {
-            "x": -8,
-            "y": 30,
-            "z": 11,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
             "x": 1,
             "y": 8,
             "z": 5,
@@ -3428,19 +3140,19 @@
             ]
         },
         {
-            "x": 1,
-            "y": 9,
-            "z": 5,
-            "elements": [
-                "chisel:arcane_stone1@10"
-            ]
-        },
-        {
             "x": -8,
             "y": 7,
             "z": 2,
             "elements": [
                 "minecraft:quartz_stairs@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "chisel:arcane_stone1@10"
             ]
         },
         {
@@ -3465,14 +3177,6 @@
             "z": 1,
             "elements": [
                 "chisel:arcane_stone1@10"
-            ]
-        },
-        {
-            "x": -8,
-            "y": 31,
-            "z": 11,
-            "elements": [
-                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -3772,22 +3476,6 @@
             ]
         },
         {
-            "x": 7,
-            "y": 28,
-            "z": 12,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
-            "x": -8,
-            "y": 27,
-            "z": 11,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
             "x": -1,
             "y": 2,
             "z": 1,
@@ -3809,14 +3497,6 @@
             "z": 4,
             "elements": [
                 "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": -8,
-            "y": 28,
-            "z": 11,
-            "elements": [
-                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -3849,14 +3529,6 @@
             "z": 8,
             "elements": [
                 "quark:dark_prismarine_wall@0"
-            ]
-        },
-        {
-            "x": 7,
-            "y": 30,
-            "z": 12,
-            "elements": [
-                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -3940,19 +3612,19 @@
             ]
         },
         {
-            "x": -2,
-            "y": 32,
-            "z": 9,
-            "elements": [
-                "minecraft:sea_lantern@0"
-            ]
-        },
-        {
             "x": 1,
             "y": 0,
             "z": 5,
             "elements": [
                 "chisel:glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 32,
+            "z": 9,
+            "elements": [
+                "minecraft:sea_lantern@0"
             ]
         },
         {
@@ -4196,14 +3868,6 @@
             ]
         },
         {
-            "x": 0,
-            "y": 12,
-            "z": 9,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
             "x": 7,
             "y": 6,
             "z": 5,
@@ -4244,6 +3908,14 @@
             ]
         },
         {
+            "x": 1,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "chisel:glass@0"
+            ]
+        },
+        {
             "x": 7,
             "y": 11,
             "z": 3,
@@ -4257,14 +3929,6 @@
             "z": 0,
             "elements": [
                 "thaumcraft:slab_arcane_brick@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 5,
-            "elements": [
-                "chisel:glass@0"
             ]
         },
         {
@@ -4285,18 +3949,18 @@
         },
         {
             "x": 0,
+            "y": 12,
+            "z": 9,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": 0,
             "y": 7,
             "z": 15,
             "elements": [
                 "betternether:bone_wall@0"
-            ]
-        },
-        {
-            "x": -8,
-            "y": 8,
-            "z": 5,
-            "elements": [
-                "minecraft:quartz_stairs@5"
             ]
         },
         {
@@ -4308,19 +3972,19 @@
             ]
         },
         {
+            "x": -8,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "minecraft:quartz_stairs@5"
+            ]
+        },
+        {
             "x": -2,
             "y": 9,
             "z": 11,
             "elements": [
                 "minecraft:quartz_stairs@3"
-            ]
-        },
-        {
-            "x": 8,
-            "y": 28,
-            "z": 12,
-            "elements": [
-                "gct_ores:ordered_metal_block@0"
             ]
         },
         {
@@ -4365,18 +4029,18 @@
         },
         {
             "x": 0,
-            "y": 11,
-            "z": 9,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
-            "x": 0,
             "y": 8,
             "z": 15,
             "elements": [
                 "betternether:bone_wall@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 11,
+            "z": 9,
+            "elements": [
+                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -4460,6 +4124,14 @@
             ]
         },
         {
+            "x": 1,
+            "y": 6,
+            "z": -7,
+            "elements": [
+                "minecraft:quartz_stairs@6"
+            ]
+        },
+        {
             "x": -2,
             "y": 3,
             "z": 5,
@@ -4473,14 +4145,6 @@
             "z": 1,
             "elements": [
                 "chisel:glass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": -7,
-            "elements": [
-                "minecraft:quartz_stairs@6"
             ]
         },
         {
@@ -4556,19 +4220,19 @@
             ]
         },
         {
-            "x": 3,
-            "y": 11,
-            "z": 2,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
             "x": 1,
             "y": 4,
             "z": 5,
             "elements": [
                 "chisel:glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 11,
+            "z": 2,
+            "elements": [
+                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -4620,19 +4284,19 @@
             ]
         },
         {
-            "x": 1,
-            "y": 5,
-            "z": -6,
-            "elements": [
-                "minecraft:quartz_stairs@6"
-            ]
-        },
-        {
             "x": 10,
             "y": 8,
             "z": 3,
             "elements": [
                 "minecraft:concrete@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": -6,
+            "elements": [
+                "minecraft:quartz_stairs@6"
             ]
         },
         {
@@ -4740,14 +4404,6 @@
             ]
         },
         {
-            "x": -9,
-            "y": 18,
-            "z": -5,
-            "elements": [
-                "minecraft:stained_glass_pane@11"
-            ]
-        },
-        {
             "x": -2,
             "y": 4,
             "z": 11,
@@ -4764,14 +4420,6 @@
             ]
         },
         {
-            "x": 5,
-            "y": 32,
-            "z": 3,
-            "elements": [
-                "minecraft:stained_glass@3"
-            ]
-        },
-        {
             "x": 1,
             "y": 17,
             "z": -2,
@@ -4780,11 +4428,11 @@
             ]
         },
         {
-            "x": -8,
-            "y": 25,
-            "z": 12,
+            "x": 5,
+            "y": 32,
+            "z": 3,
             "elements": [
-                "betternether:bone_wall@0"
+                "minecraft:stained_glass@3"
             ]
         },
         {
@@ -4812,22 +4460,6 @@
             ]
         },
         {
-            "x": 8,
-            "y": 28,
-            "z": -4,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
-            "x": -6,
-            "y": 16,
-            "z": 4,
-            "elements": [
-                "minecraft:stained_glass@3"
-            ]
-        },
-        {
             "x": -3,
             "y": 1,
             "z": 5,
@@ -4844,27 +4476,27 @@
             ]
         },
         {
-            "x": -8,
-            "y": 24,
-            "z": 12,
+            "x": -6,
+            "y": 16,
+            "z": 4,
             "elements": [
-                "betternether:bone_wall@0"
+                "minecraft:stained_glass@3"
             ]
         },
         {
-            "x": -9,
-            "y": 20,
-            "z": -5,
+            "x": -1,
+            "y": 8,
+            "z": -6,
             "elements": [
-                "minecraft:stained_glass_pane@11"
+                "minecraft:concrete@7"
             ]
         },
         {
             "x": -2,
-            "y": 6,
-            "z": 11,
+            "y": 10,
+            "z": 13,
             "elements": [
-                "minecraft:quartz_stairs@7"
+                "minecraft:quartz_stairs@3"
             ]
         },
         {
@@ -4877,26 +4509,10 @@
         },
         {
             "x": -2,
-            "y": 10,
-            "z": 13,
+            "y": 6,
+            "z": 11,
             "elements": [
-                "minecraft:quartz_stairs@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 8,
-            "z": -6,
-            "elements": [
-                "minecraft:concrete@7"
-            ]
-        },
-        {
-            "x": -8,
-            "y": 27,
-            "z": 12,
-            "elements": [
-                "gct_ores:ordered_metal_block@0"
+                "minecraft:quartz_stairs@7"
             ]
         },
         {
@@ -4956,14 +4572,6 @@
             ]
         },
         {
-            "x": 2,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "chisel:arcane_stone1@10"
-            ]
-        },
-        {
             "x": -2,
             "y": 10,
             "z": 9,
@@ -4972,19 +4580,19 @@
             ]
         },
         {
+            "x": 2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "chisel:arcane_stone1@10"
+            ]
+        },
+        {
             "x": -4,
             "y": 26,
             "z": 2,
             "elements": [
                 "thaumcraft:slab_arcane_brick@0"
-            ]
-        },
-        {
-            "x": -8,
-            "y": 26,
-            "z": 12,
-            "elements": [
-                "minecraft:sea_lantern@0"
             ]
         },
         {
@@ -5004,11 +4612,11 @@
             ]
         },
         {
-            "x": -2,
-            "y": 6,
-            "z": 14,
+            "x": 2,
+            "y": 32,
+            "z": -2,
             "elements": [
-                "minecraft:quartz_stairs@7"
+                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -5020,11 +4628,11 @@
             ]
         },
         {
-            "x": 2,
-            "y": 32,
-            "z": -2,
+            "x": -2,
+            "y": 6,
+            "z": 14,
             "elements": [
-                "minecraft:quartz_block@0"
+                "minecraft:quartz_stairs@7"
             ]
         },
         {
@@ -5052,14 +4660,6 @@
             ]
         },
         {
-            "x": 8,
-            "y": 26,
-            "z": -4,
-            "elements": [
-                "minecraft:stained_glass_pane@11"
-            ]
-        },
-        {
             "x": -2,
             "y": 5,
             "z": 13,
@@ -5073,22 +4673,6 @@
             "z": -5,
             "elements": [
                 "minecraft:concrete@7"
-            ]
-        },
-        {
-            "x": -8,
-            "y": 22,
-            "z": 12,
-            "elements": [
-                "thaumcraft:pedestal_arcane@0"
-            ]
-        },
-        {
-            "x": -9,
-            "y": 22,
-            "z": -5,
-            "elements": [
-                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -5145,14 +4729,6 @@
             "z": 1,
             "elements": [
                 "minecraft:sea_lantern@0"
-            ]
-        },
-        {
-            "x": -8,
-            "y": 23,
-            "z": 12,
-            "elements": [
-                "betternether:bone_wall@0"
             ]
         },
         {
@@ -5229,18 +4805,18 @@
         },
         {
             "x": 2,
-            "y": 10,
-            "z": 1,
-            "elements": [
-                "betternether:bone_wall@0"
-            ]
-        },
-        {
-            "x": 2,
             "y": -1,
             "z": 3,
             "elements": [
                 "chisel:glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 1,
+            "elements": [
+                "betternether:bone_wall@0"
             ]
         },
         {
@@ -5276,30 +4852,6 @@
             ]
         },
         {
-            "x": 8,
-            "y": 30,
-            "z": -4,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
-            "x": -8,
-            "y": 21,
-            "z": 12,
-            "elements": [
-                "minecraft:stained_glass_pane@11"
-            ]
-        },
-        {
-            "x": -9,
-            "y": 24,
-            "z": -5,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
             "x": -9,
             "y": 7,
             "z": 5,
@@ -5316,19 +4868,19 @@
             ]
         },
         {
-            "x": 2,
-            "y": 11,
-            "z": 1,
-            "elements": [
-                "betternether:bone_wall@0"
-            ]
-        },
-        {
             "x": 1,
             "y": 10,
             "z": 13,
             "elements": [
                 "minecraft:quartz_stairs@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 11,
+            "z": 1,
+            "elements": [
+                "betternether:bone_wall@0"
             ]
         },
         {
@@ -5468,11 +5020,11 @@
             ]
         },
         {
-            "x": 3,
-            "y": -1,
+            "x": -2,
+            "y": 8,
             "z": 6,
             "elements": [
-                "chisel:glass@0"
+                "quark:dark_prismarine_wall@0"
             ]
         },
         {
@@ -5484,19 +5036,19 @@
             ]
         },
         {
-            "x": -2,
-            "y": 8,
-            "z": 6,
-            "elements": [
-                "quark:dark_prismarine_wall@0"
-            ]
-        },
-        {
             "x": 2,
             "y": 20,
             "z": 1,
             "elements": [
                 "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "chisel:glass@0"
             ]
         },
         {
@@ -5737,14 +5289,6 @@
             "z": 2,
             "elements": [
                 "thaumcraft:slab_arcane_brick@0"
-            ]
-        },
-        {
-            "x": 8,
-            "y": 24,
-            "z": -4,
-            "elements": [
-                "minecraft:stained_glass_pane@11"
             ]
         },
         {
@@ -6084,14 +5628,6 @@
             ]
         },
         {
-            "x": -7,
-            "y": 28,
-            "z": -5,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
             "x": -4,
             "y": 0,
             "z": 4,
@@ -6161,14 +5697,6 @@
             "z": 2,
             "elements": [
                 "minecraft:quartz_stairs@1"
-            ]
-        },
-        {
-            "x": 8,
-            "y": 29,
-            "z": 11,
-            "elements": [
-                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -6261,10 +5789,10 @@
         },
         {
             "x": -2,
-            "y": 19,
-            "z": 0,
+            "y": 14,
+            "z": 6,
             "elements": [
-                "thaumcraft:slab_arcane_brick@0"
+                "quark:dark_prismarine_wall@0"
             ]
         },
         {
@@ -6277,10 +5805,10 @@
         },
         {
             "x": -2,
-            "y": 14,
-            "z": 6,
+            "y": 19,
+            "z": 0,
             "elements": [
-                "quark:dark_prismarine_wall@0"
+                "thaumcraft:slab_arcane_brick@0"
             ]
         },
         {
@@ -6300,19 +5828,19 @@
             ]
         },
         {
-            "x": 0,
-            "y": 5,
-            "z": 10,
-            "elements": [
-                "betternether:bone_wall@0"
-            ]
-        },
-        {
             "x": 2,
             "y": 26,
             "z": 1,
             "elements": [
                 "thaumcraft:slab_arcane_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "betternether:bone_wall@0"
             ]
         },
         {
@@ -6652,14 +6180,6 @@
             ]
         },
         {
-            "x": -7,
-            "y": 30,
-            "z": -5,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
             "x": -8,
             "y": 5,
             "z": 3,
@@ -6700,19 +6220,19 @@
             ]
         },
         {
-            "x": -4,
-            "y": 11,
-            "z": 5,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
             "x": 2,
             "y": 7,
             "z": 5,
             "elements": [
                 "thaumcraft:stairs_arcane_brick@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 11,
+            "z": 5,
+            "elements": [
+                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -6756,14 +6276,6 @@
             ]
         },
         {
-            "x": 8,
-            "y": 27,
-            "z": 11,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
             "x": -2,
             "y": 0,
             "z": 4,
@@ -6772,19 +6284,19 @@
             ]
         },
         {
-            "x": 5,
-            "y": 16,
-            "z": 1,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
             "x": 2,
             "y": 5,
             "z": 2,
             "elements": [
                 "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 16,
+            "z": 1,
+            "elements": [
+                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -6820,14 +6332,6 @@
             ]
         },
         {
-            "x": 2,
-            "y": 10,
-            "z": 2,
-            "elements": [
-                "chisel:arcane_stone1@10"
-            ]
-        },
-        {
             "x": -3,
             "y": 1,
             "z": 3,
@@ -6836,19 +6340,11 @@
             ]
         },
         {
-            "x": -9,
-            "y": 25,
-            "z": -4,
+            "x": 2,
+            "y": 10,
+            "z": 2,
             "elements": [
-                "minecraft:quartz_stairs@7"
-            ]
-        },
-        {
-            "x": -9,
-            "y": 26,
-            "z": 11,
-            "elements": [
-                "minecraft:quartz_block@0"
+                "chisel:arcane_stone1@10"
             ]
         },
         {
@@ -6916,35 +6412,11 @@
             ]
         },
         {
-            "x": 8,
-            "y": 23,
-            "z": -5,
-            "elements": [
-                "betternether:bone_wall@0"
-            ]
-        },
-        {
             "x": 1,
             "y": 20,
             "z": 7,
             "elements": [
                 "minecraft:quartz_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 14,
-            "z": 6,
-            "elements": [
-                "quark:dark_prismarine_wall@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": -3,
-            "elements": [
-                "minecraft:stone_slab@7"
             ]
         },
         {
@@ -6972,17 +6444,17 @@
             ]
         },
         {
-            "x": -9,
-            "y": 27,
-            "z": -4,
+            "x": -1,
+            "y": 6,
+            "z": -3,
             "elements": [
-                "minecraft:quartz_block@0"
+                "minecraft:stone_slab@7"
             ]
         },
         {
             "x": 2,
-            "y": 8,
-            "z": 2,
+            "y": 14,
+            "z": 6,
             "elements": [
                 "quark:dark_prismarine_wall@0"
             ]
@@ -7012,11 +6484,11 @@
             ]
         },
         {
-            "x": -9,
-            "y": 23,
-            "z": -4,
+            "x": 2,
+            "y": 8,
+            "z": 2,
             "elements": [
-                "minecraft:quartz_stairs@7"
+                "quark:dark_prismarine_wall@0"
             ]
         },
         {
@@ -7049,14 +6521,6 @@
             "z": 4,
             "elements": [
                 "chisel:glass@0"
-            ]
-        },
-        {
-            "x": 8,
-            "y": 25,
-            "z": -5,
-            "elements": [
-                "betternether:bone_wall@0"
             ]
         },
         {
@@ -7220,27 +6684,11 @@
             ]
         },
         {
-            "x": -8,
-            "y": 28,
-            "z": 12,
-            "elements": [
-                "gct_ores:ordered_metal_block@0"
-            ]
-        },
-        {
             "x": 0,
             "y": 11,
             "z": -4,
             "elements": [
                 "avaritia:block_resource@0"
-            ]
-        },
-        {
-            "x": 8,
-            "y": 27,
-            "z": -5,
-            "elements": [
-                "gct_ores:ordered_metal_block@0"
             ]
         },
         {
@@ -7324,14 +6772,6 @@
             ]
         },
         {
-            "x": -9,
-            "y": 24,
-            "z": 11,
-            "elements": [
-                "minecraft:quartz_stairs@6"
-            ]
-        },
-        {
             "x": 2,
             "y": 13,
             "z": 2,
@@ -7372,14 +6812,6 @@
             ]
         },
         {
-            "x": 3,
-            "y": 28,
-            "z": 4,
-            "elements": [
-                "thaumcraft:slab_arcane_brick@8"
-            ]
-        },
-        {
             "x": 2,
             "y": 0,
             "z": 4,
@@ -7393,14 +6825,6 @@
             "z": 2,
             "elements": [
                 "minecraft:quartz_block@0"
-            ]
-        },
-        {
-            "x": -9,
-            "y": 22,
-            "z": 11,
-            "elements": [
-                "minecraft:stained_glass@3"
             ]
         },
         {
@@ -7444,11 +6868,11 @@
             ]
         },
         {
-            "x": 2,
-            "y": 32,
-            "z": 9,
+            "x": 3,
+            "y": 28,
+            "z": 4,
             "elements": [
-                "minecraft:quartz_block@0"
+                "thaumcraft:slab_arcane_brick@8"
             ]
         },
         {
@@ -7460,19 +6884,19 @@
             ]
         },
         {
+            "x": 2,
+            "y": 32,
+            "z": 9,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
             "x": 0,
             "y": 28,
             "z": 0,
             "elements": [
                 "thaumcraft:slab_arcane_brick@8"
-            ]
-        },
-        {
-            "x": -8,
-            "y": 28,
-            "z": -4,
-            "elements": [
-                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -7492,19 +6916,19 @@
             ]
         },
         {
-            "x": -6,
-            "y": 33,
-            "z": 5,
-            "elements": [
-                "betternether:bone_wall@0"
-            ]
-        },
-        {
             "x": 2,
             "y": 9,
             "z": 6,
             "elements": [
                 "minecraft:sea_lantern@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 33,
+            "z": 5,
+            "elements": [
+                "betternether:bone_wall@0"
             ]
         },
         {
@@ -7521,14 +6945,6 @@
             "z": -7,
             "elements": [
                 "minecraft:quartz_stairs@2"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 27,
-            "z": 4,
-            "elements": [
-                "extendedcrafting:storage@2"
             ]
         },
         {
@@ -7564,9 +6980,9 @@
             ]
         },
         {
-            "x": 0,
+            "x": 3,
             "y": 27,
-            "z": 0,
+            "z": 4,
             "elements": [
                 "extendedcrafting:storage@2"
             ]
@@ -7580,11 +6996,11 @@
             ]
         },
         {
-            "x": -8,
-            "y": 29,
-            "z": -4,
+            "x": 0,
+            "y": 27,
+            "z": 0,
             "elements": [
-                "minecraft:quartz_block@0"
+                "extendedcrafting:storage@2"
             ]
         },
         {
@@ -7716,14 +7132,6 @@
             ]
         },
         {
-            "x": 8,
-            "y": 27,
-            "z": 12,
-            "elements": [
-                "gct_ores:ordered_metal_block@0"
-            ]
-        },
-        {
             "x": 6,
             "y": 12,
             "z": 5,
@@ -7820,14 +7228,6 @@
             ]
         },
         {
-            "x": -8,
-            "y": 27,
-            "z": -4,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
             "x": 1,
             "y": 13,
             "z": 1,
@@ -7860,19 +7260,19 @@
             ]
         },
         {
-            "x": 0,
-            "y": -1,
-            "z": 8,
-            "elements": [
-                "chisel:glass@0"
-            ]
-        },
-        {
             "x": 3,
             "y": 21,
             "z": 5,
             "elements": [
                 "thaumcraft:slab_arcane_brick@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "chisel:glass@0"
             ]
         },
         {
@@ -8073,14 +7473,6 @@
             "z": 3,
             "elements": [
                 "chisel:glass@0"
-            ]
-        },
-        {
-            "x": -8,
-            "y": 30,
-            "z": -4,
-            "elements": [
-                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -8356,14 +7748,6 @@
             ]
         },
         {
-            "x": -2,
-            "y": 7,
-            "z": 1,
-            "elements": [
-                "thaumcraft:stairs_arcane_brick@2"
-            ]
-        },
-        {
             "x": 0,
             "y": 21,
             "z": 0,
@@ -8372,19 +7756,19 @@
             ]
         },
         {
+            "x": -2,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "thaumcraft:stairs_arcane_brick@2"
+            ]
+        },
+        {
             "x": -6,
             "y": 10,
             "z": 2,
             "elements": [
                 "minecraft:quartz_block@0"
-            ]
-        },
-        {
-            "x": -9,
-            "y": 20,
-            "z": 12,
-            "elements": [
-                "minecraft:stained_glass_pane@11"
             ]
         },
         {
@@ -8513,14 +7897,6 @@
             "z": 2,
             "elements": [
                 "minecraft:quartz_stairs@0"
-            ]
-        },
-        {
-            "x": -9,
-            "y": 22,
-            "z": 12,
-            "elements": [
-                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -8828,14 +8204,6 @@
             ]
         },
         {
-            "x": -9,
-            "y": 18,
-            "z": 12,
-            "elements": [
-                "minecraft:stained_glass_pane@11"
-            ]
-        },
-        {
             "x": 1,
             "y": 7,
             "z": 1,
@@ -9052,14 +8420,6 @@
             ]
         },
         {
-            "x": -4,
-            "y": 21,
-            "z": 3,
-            "elements": [
-                "thaumcraft:slab_arcane_brick@8"
-            ]
-        },
-        {
             "x": -3,
             "y": 5,
             "z": 6,
@@ -9076,11 +8436,11 @@
             ]
         },
         {
-            "x": 7,
-            "y": 27,
-            "z": 12,
+            "x": -4,
+            "y": 21,
+            "z": 3,
             "elements": [
-                "minecraft:quartz_block@0"
+                "thaumcraft:slab_arcane_brick@8"
             ]
         },
         {
@@ -9260,14 +8620,6 @@
             ]
         },
         {
-            "x": 7,
-            "y": 30,
-            "z": -5,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
             "x": 11,
             "y": 8,
             "z": 4,
@@ -9324,19 +8676,19 @@
             ]
         },
         {
-            "x": -6,
-            "y": 32,
-            "z": 4,
-            "elements": [
-                "minecraft:stained_glass@3"
-            ]
-        },
-        {
             "x": -3,
             "y": 3,
             "z": 1,
             "elements": [
                 "betternether:bone_wall@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 32,
+            "z": 4,
+            "elements": [
+                "minecraft:stained_glass@3"
             ]
         },
         {
@@ -9393,22 +8745,6 @@
             "z": 3,
             "elements": [
                 "extendedcrafting:storage@2"
-            ]
-        },
-        {
-            "x": 7,
-            "y": 29,
-            "z": -5,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
-            "x": 7,
-            "y": 28,
-            "z": -5,
-            "elements": [
-                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -9548,19 +8884,19 @@
             ]
         },
         {
-            "x": 3,
-            "y": 27,
-            "z": 3,
-            "elements": [
-                "extendedcrafting:storage@2"
-            ]
-        },
-        {
             "x": -4,
             "y": 26,
             "z": 3,
             "elements": [
                 "thaumcraft:slab_arcane_brick@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 27,
+            "z": 3,
+            "elements": [
+                "extendedcrafting:storage@2"
             ]
         },
         {
@@ -9577,14 +8913,6 @@
             "z": 1,
             "elements": [
                 "thaumcraft:stairs_arcane_brick@2"
-            ]
-        },
-        {
-            "x": 7,
-            "y": 26,
-            "z": -5,
-            "elements": [
-                "minecraft:stained_glass_pane@11"
             ]
         },
         {
@@ -9636,27 +8964,11 @@
             ]
         },
         {
-            "x": 7,
-            "y": 29,
-            "z": 12,
-            "elements": [
-                "minecraft:quartz_block@0"
-            ]
-        },
-        {
             "x": 3,
             "y": 19,
             "z": 4,
             "elements": [
                 "thaumcraft:slab_arcane_brick@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "casings_parallel"
             ]
         },
         {
@@ -9684,11 +8996,11 @@
             ]
         },
         {
-            "x": 7,
-            "y": 27,
-            "z": -5,
+            "x": -2,
+            "y": 1,
+            "z": 1,
             "elements": [
-                "minecraft:quartz_block@0"
+                "casings_parallel"
             ]
         },
         {
@@ -9716,14 +9028,6 @@
             ]
         },
         {
-            "x": -8,
-            "y": 25,
-            "z": -5,
-            "elements": [
-                "betternether:bone_wall@0"
-            ]
-        },
-        {
             "x": -1,
             "y": 11,
             "z": 11,
@@ -9732,11 +9036,11 @@
             ]
         },
         {
-            "x": 7,
-            "y": 24,
-            "z": -5,
+            "x": -3,
+            "y": 9,
+            "z": 1,
             "elements": [
-                "minecraft:stained_glass_pane@11"
+                "minecraft:sea_lantern@0"
             ]
         },
         {
@@ -9745,14 +9049,6 @@
             "z": 6,
             "elements": [
                 "casings_all"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 9,
-            "z": 1,
-            "elements": [
-                "minecraft:sea_lantern@0"
             ]
         },
         {
@@ -9769,22 +9065,6 @@
             "z": 3,
             "elements": [
                 "thaumcraft:slab_arcane_brick@0"
-            ]
-        },
-        {
-            "x": 7,
-            "y": 25,
-            "z": -5,
-            "elements": [
-                "minecraft:stained_glass_pane@11"
-            ]
-        },
-        {
-            "x": -8,
-            "y": 24,
-            "z": -5,
-            "elements": [
-                "betternether:bone_wall@0"
             ]
         },
         {
@@ -9817,14 +9097,6 @@
             "z": 11,
             "elements": [
                 "minecraft:concrete@7"
-            ]
-        },
-        {
-            "x": 7,
-            "y": 26,
-            "z": -4,
-            "elements": [
-                "minecraft:stained_glass_pane@11"
             ]
         },
         {
@@ -9868,14 +9140,6 @@
             ]
         },
         {
-            "x": -8,
-            "y": 23,
-            "z": -5,
-            "elements": [
-                "betternether:bone_wall@0"
-            ]
-        },
-        {
             "x": 1,
             "y": 10,
             "z": 2,
@@ -9889,14 +9153,6 @@
             "z": 11,
             "elements": [
                 "minecraft:concrete@7"
-            ]
-        },
-        {
-            "x": -8,
-            "y": 22,
-            "z": -5,
-            "elements": [
-                "thaumcraft:pedestal_arcane@0"
             ]
         },
         {
@@ -9953,14 +9209,6 @@
             "z": -1,
             "elements": [
                 "thaumcraft:slab_arcane_brick@0"
-            ]
-        },
-        {
-            "x": 7,
-            "y": 23,
-            "z": -5,
-            "elements": [
-                "minecraft:stained_glass_pane@11"
             ]
         },
         {
@@ -10132,14 +9380,6 @@
             ]
         },
         {
-            "x": 4,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "thaumcraft:slab_arcane_brick@0"
-            ]
-        },
-        {
             "x": -6,
             "y": 31,
             "z": 5,
@@ -10148,11 +9388,11 @@
             ]
         },
         {
-            "x": -8,
-            "y": 28,
-            "z": -5,
+            "x": 4,
+            "y": 0,
+            "z": 2,
             "elements": [
-                "gct_ores:ordered_metal_block@0"
+                "thaumcraft:slab_arcane_brick@0"
             ]
         },
         {
@@ -10161,14 +9401,6 @@
             "z": 6,
             "elements": [
                 "quark:dark_prismarine_wall@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "chisel:glass@0"
             ]
         },
         {
@@ -10196,9 +9428,9 @@
             ]
         },
         {
-            "x": 1,
-            "y": 6,
-            "z": 2,
+            "x": -4,
+            "y": -1,
+            "z": 6,
             "elements": [
                 "chisel:glass@0"
             ]
@@ -10212,11 +9444,11 @@
             ]
         },
         {
-            "x": 3,
-            "y": 28,
-            "z": 5,
+            "x": 1,
+            "y": 6,
+            "z": 2,
             "elements": [
-                "thaumcraft:slab_arcane_brick@8"
+                "chisel:glass@0"
             ]
         },
         {
@@ -10228,11 +9460,11 @@
             ]
         },
         {
-            "x": -8,
-            "y": 27,
-            "z": -5,
+            "x": 3,
+            "y": 28,
+            "z": 5,
             "elements": [
-                "gct_ores:ordered_metal_block@0"
+                "thaumcraft:slab_arcane_brick@8"
             ]
         },
         {
@@ -10361,14 +9593,6 @@
             "z": 5,
             "elements": [
                 "minecraft:quartz_block@0"
-            ]
-        },
-        {
-            "x": -8,
-            "y": 26,
-            "z": -5,
-            "elements": [
-                "minecraft:sea_lantern@0"
             ]
         }
     ]}

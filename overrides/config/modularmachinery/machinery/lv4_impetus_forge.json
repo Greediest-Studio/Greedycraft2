@@ -2,146 +2,3290 @@
     "registryname": "impetus_forge",
     "localizedname": "§6LV4 - 元动冶炼炉",
     "requires-blueprint": false,
-    "color": "08050E",
+    "color": "0F0D12",
     "parts": [
         {
-            "x": 2,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "thaumicaugmentation:fortified_glass_pane@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "thaumicaugmentation:fortified_glass_pane@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "thaumicaugmentation:fortified_glass_pane@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "thaumicaugmentation:fortified_glass_pane@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "thaumicaugmentation:fortified_glass_pane@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "thaumcraft:stone_arcane@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "thaumicaugmentation:fortified_glass_pane@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "thaumicaugmentation:fortified_glass_pane@0"
-            ]
-        },
-        {
             "x": 0,
-            "y": 1,
-            "z": 2,
+            "y": 0,
+            "z": 0,
             "elements": [
-                "gct_mobs:primordial_stone@0"
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "chisel:arcane_stone1@8"
             ]
         },
         {
             "x": -1,
-            "y": 1,
+            "y": 2,
             "z": 0,
             "elements": [
-                "thaumcraft:stone_arcane@0"
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -7,
+            "z": -4,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
             ]
         },
         {
             "x": 1,
-            "y": -1,
-            "z": 1,
+            "y": -7,
+            "z": 5,
             "elements": [
-                "gct_mobs:primordial_stone@0"
+                "chisel:arcane_stone1@8"
             ]
         },
         {
-            "x": 0,
-            "y": -1,
-            "z": 0,
+            "x": 4,
+            "y": -7,
+            "z": -5,
             "elements": [
-                "modularmachinery:blockimpetusproviderinput@0"
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
             ]
         },
         {
             "x": -1,
-            "y": -1,
-            "z": 1,
+            "y": 2,
+            "z": -6,
             "elements": [
-                "gct_mobs:primordial_stone@0"
+                "thaumcraft:slab_eldritch@8"
             ]
         },
         {
-            "x": 0,
-            "y": -1,
-            "z": 2,
+            "x": -3,
+            "y": 2,
+            "z": 5,
             "elements": [
-                "gct_mobs:primordial_stone@0"
+                "thaumcraft:slab_eldritch@8"
             ]
         },
         {
             "x": 1,
-            "y": 1,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "thaumadditions:iron_framed_greatwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": -5,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "thaumadditions:chiseled_amber_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
             "z": 1,
             "elements": [
-                "gct_mobs:primordial_stone@0"
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "thaumadditions:iron_framed_greatwood@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "thaumadditions:void_anvil@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
             ]
         },
         {
             "x": 0,
             "y": 0,
-            "z": 2,
+            "z": -5,
             "elements": [
-                "thaumcraft:metal_void@0"
+                "thaumadditions:chiseled_amber_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thaumadditions:chiseled_amber_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": -4,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "chisel:arcane_stone1@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "thaumadditions:chiseled_amber_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
             ]
         },
         {
             "x": -1,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": 0,
             "y": 1,
+            "z": 5,
+            "elements": [
+                "thaumadditions:void_anvil@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": -4,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": -5,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "thaumadditions:chiseled_amber_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": -4,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": -6,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": -4,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -7,
             "z": 1,
             "elements": [
-                "gct_mobs:primordial_stone@0"
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": -6,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
             ]
         },
         {
             "x": 1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": -4,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thaumadditions:chiseled_amber_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "thaumadditions:void_anvil@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": -4,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": -6,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "thaumadditions:chiseled_amber_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": -4,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "thaumadditions:void_anvil@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -6,
+            "z": -5,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thaumadditions:chiseled_amber_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": -6,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": -6,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "thaumadditions:iron_framed_greatwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "thaumadditions:amber_lamp@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": -4,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": -5,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -7,
+            "z": -4,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "thaumadditions:iron_framed_greatwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": -4,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -6,
+            "z": -5,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": -4,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "chisel:arcane_stone1@13"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "chisel:arcane_stone1@13"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": -4,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "chisel:arcane_stone1@13"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": -6,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "z": -4,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:arcane_stone1@13"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "chisel:arcane_stone1@13"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": -4,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "chisel:arcane_stone1@13"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": -4,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "chisel:arcane_stone1@13"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -7,
+            "z": -6,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "chisel:arcane_stone1@13"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:arcane_stone1@13"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "chisel:arcane_stone1@13"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "thaumadditions:amber_lamp@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@7"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "chisel:arcane_stone1@13"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": -3,
+            "elements": [
+                "chisel:arcane_stone1@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": -4,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "thaumadditions:iron_framed_greatwood@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "thaumadditions:iron_framed_greatwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "thaumadditions:iron_framed_greatwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "thaumadditions:amber_lamp@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": -6,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "thaumadditions:iron_framed_greatwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:arcane_stone1@13"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": -4,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -6,
+            "z": -6,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "chisel:arcane_stone1@13"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": -4,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": -6,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": -4,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "chisel:arcane_stone1@13"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -7,
+            "z": -6,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "thaumadditions:amber_lamp@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": -4,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "chisel:arcane_stone1@13"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": -6,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "chisel:arcane_stone1@13"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": -3,
+            "elements": [
+                "chisel:arcane_stone1@13"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "chisel:arcane_stone1@13"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "thaumadditions:iron_framed_greatwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "thaumadditions:iron_framed_greatwood@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "thaumadditions:iron_framed_greatwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": -5,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": -6,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -6,
             "y": 0,
             "z": 0,
             "elements": [
@@ -150,14 +3294,526 @@
         },
         {
             "x": 2,
-            "y": 0,
-            "z": 2,
+            "y": -1,
+            "z": 6,
             "elements": [
-                "thaumicaugmentation:fortified_glass_pane@0"
+                "thaumcraft:plank_silverwood@0"
             ]
         },
         {
             "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "thaumadditions:iron_framed_greatwood@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "thaumadditions:iron_framed_greatwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": -6,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "thaumadditions:iron_framed_greatwood@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "thaumadditions:iron_framed_greatwood@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -6,
+            "z": -6,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -7,
+            "z": -4,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "z": -6,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "thaumcraft:slab_eldritch@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": 6,
             "y": 0,
             "z": 0,
             "elements": [
@@ -165,43 +3821,187 @@
             ]
         },
         {
-            "x": -2,
-            "y": 0,
-            "z": 1,
+            "x": -3,
+            "y": -1,
+            "z": 6,
             "elements": [
-                "thaumcraft:stone_arcane@0"
+                "thaumcraft:plank_silverwood@0"
             ]
         },
         {
-            "x": 1,
-            "y": 1,
+            "x": 5,
+            "y": -7,
+            "z": -6,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
             "z": 2,
             "elements": [
-                "thaumcraft:stone_arcane@0"
+                "thaumcraft:plank_silverwood@0"
             ]
         },
         {
             "x": 2,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "thaumcraft:stone_arcane@0"
-            ]
-        },
-        {
-            "x": 1,
             "y": -1,
-            "z": 2,
+            "z": -6,
             "elements": [
-                "thaumcraft:stone_arcane@0"
+                "thaumcraft:plank_silverwood@0"
             ]
         },
         {
-            "x": 1,
+            "x": 5,
             "y": -1,
             "z": 0,
             "elements": [
-                "thaumcraft:stone_arcane@0"
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "thaumcraft:slab_eldritch@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "thaumicaugmentation:stairs_eldritch_tile@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -7,
+            "z": -6,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "thaumadditions:amber_lamp@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "chisel:arcane_stone1@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "thaumcraft:metal_alchemical_advanced@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "thaumadditions:iron_framed_greatwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "thaumcraft:plank_silverwood@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "thaumadditions:chiseled_greatwood@0"
             ]
         },
         {
@@ -209,7 +4009,15 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "gugu-utils:environmenthatch"
+                "thaumadditions:mithrillium_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "chisel:arcane_stone1@8"
             ]
         },
         {
@@ -217,119 +4025,23 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "thaumcraft:stone_arcane@0"
+                "thaumcraft:slab_eldritch@8"
             ]
         },
         {
-            "x": -1,
-            "y": 1,
-            "z": 2,
+            "x": 6,
+            "y": -7,
+            "z": -1,
             "elements": [
-                "thaumcraft:stone_arcane@0"
+                "chisel:arcane_stone1@8"
             ]
         },
         {
-            "x": 2,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "thaumicaugmentation:fortified_glass_pane@0"
-            ]
-        },
-        {
-            "x": 0,
+            "x": -5,
             "y": 0,
-            "z": 1,
+            "z": -1,
             "elements": [
-                "minecraft:netherrack@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "thaumicaugmentation:fortified_glass_pane@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "gct_mobs:primordial_stone@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "thaumcraft:stone_arcane@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "thaumcraft:stone_arcane@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "thaumicaugmentation:fortified_glass_pane@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "thaumicaugmentation:fortified_glass_pane@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "thaumcraft:stone_arcane@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "thaumcraft:stone_arcane@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "thaumcraft:stone_arcane@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "thaumcraft:stone_arcane@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "thaumcraft:stone_arcane@0"
+                "thaumcraft:slab_eldritch@0"
             ]
         }
     ]}

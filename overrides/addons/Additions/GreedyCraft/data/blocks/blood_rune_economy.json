@@ -1,0 +1,16 @@
+{
+  "item_block": {
+    "name": "§c节流符文",
+    "tooltip": [
+      "§7§o模块化血之祭坛特供",
+      "§6仅在7/8/9级祭坛上生效",
+      "§6每级减少上一级的10%生命源质消耗"
+    ],
+    "type": "additions:block_simple"
+  },
+  "name": "§c节流符文",
+  "material": "minecraft:stone",
+  "hardness": 3.0,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}
