@@ -1,0 +1,13 @@
+name = "Brigo"
+filename = "brigo_forge-1.1.0+1.12.x.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "971ebb9f4e6f59c278ae3a632ad20a3f2929b7ae"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6817857
+project-id = 1312795
