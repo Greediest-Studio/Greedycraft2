@@ -23,7 +23,9 @@ val ITEM as string = "modularmachinery:item";
 val TIME as string = "modularmachinery:duration";
 val RF as string = "modularmachinery:energy";
 
-MachineModifier.setMaxParallelism("durasteel_forge", 1);
+MachineModifier.setMaxParallelism("durasteel_forge", 256);
+MachineModifier.setInternalParallelism("durasteel_forge", 1);
+MachineModifier.setMaxThreads("durasteel_forge", 1);
 
 RecipeBuilder.newBuilder("durasteel_forge", "durasteel_forge", 1800, 1)
     .addItemInputs([
@@ -98,6 +100,13 @@ RecipeBuilder.newBuilder("durasteel_forge", "durasteel_forge", 1800, 1)
             RecipeModifierBuilder.create(ITEM, "output", 1.07f, 1, false).build(),
         ]
     ).setChance(0.75f)
+    .addCatalystInput(
+        <additions:godslime_ingot>, ["§e加工时间减少到90%", "§e能量消耗减少到88%", "§e材料产出增加到105%"], [
+            RecipeModifierBuilder.create(TIME, "input", 0.9f, 1, false).build(),
+            RecipeModifierBuilder.create(RF, "input", 0.88f, 1, false).build(),
+            RecipeModifierBuilder.create(ITEM, "output", 1.05f, 1, false).build(),
+        ]
+    ).setChance(0.25f)
     .addCatalystInput(
         <defiledlands:remorseful_gem>, ["§e加工时间减少到95%", "§e能量消耗减少到75%", "§e材料产出增加到105%"], [
             RecipeModifierBuilder.create(TIME, "input", 0.95f, 1, false).build(),

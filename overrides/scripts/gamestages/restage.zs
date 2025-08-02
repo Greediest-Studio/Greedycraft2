@@ -206,3 +206,6 @@ GameStagesUtil.restageItems("epic_engineer", [
     <mekanismgenerators:generator:7>,
     <mekanismgenerators:turbineblade>
 ] as IIngredient[]);
+GameStagesUtil.restageItems("skilled_engineer", [
+    <nuclearcraft:alloy:9>
+] as IIngredient[]);

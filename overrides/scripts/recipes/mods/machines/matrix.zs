@@ -26,8 +26,6 @@ MachineModifier.setMaxThreads("matrix_balancer", 1);
 MachineModifier.setInternalParallelism("matrix_balancer", 1);
 MachineModifier.setMaxParallelism("matrix_balancer", 256);
 
-RecipeAdapterBuilder.create("matrix_balancer", "modularmachinery:matrix_fusioner");
-
 RecipeBuilder.newBuilder("fusion_matrix", "matrix_fusioner", 200)
     .addItemInput(<ore:ingotEnderium> * 1)
     .addItemInput(<ore:ingotCobalt> * 1)
@@ -48,3 +46,5 @@ RecipeBuilder.newBuilder("balanced_matrix", "matrix_balancer", 4000)
     .addEnergyPerTickInput(32768)
     .addItemOutput(<gct_ores:balanced_matrix_ingot> * 1)
     .build();
+
+RecipeAdapterBuilder.create("matrix_balancer", "modularmachinery:matrix_fusioner").build();

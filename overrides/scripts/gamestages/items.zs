@@ -566,7 +566,17 @@ GameStagesUtil.stageCosmic.addIngredients([
     <additions:xenidium_ingot>,
     <additions:yoggleseum_ingot>,
     <gct_ores:balanced_matrix_ingot>,
-    <ore:ingotGhostMetal>
+    <ore:ingotGhostMetal>,
+    <additions:ga_in_p2_plate>,
+    <additions:logic_press_3>,
+    <additions:calculation_press_3>,
+    <additions:engineering_press_3>,
+    <additions:calculation_processor_3>,
+    <additions:engineering_processor_3>,
+    <additions:logic_processor_3>,
+    <additions:calculation_circuit_printed_3>,
+    <additions:engineering_circuit_printed_3>,
+    <additions:logic_circuit_printed_3>
 ], false);
 
 GameStagesUtil.stageBalancedMatrix.addIngredients([

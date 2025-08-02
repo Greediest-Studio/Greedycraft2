@@ -23,7 +23,9 @@ val ITEM as string = "modularmachinery:item";
 val TIME as string = "modularmachinery:duration";
 val RF as string = "modularmachinery:energy";
 
-MachineModifier.setMaxParallelism("cosmic_forge",1);
+MachineModifier.setMaxParallelism("cosmic_forge", 256);
+MachineModifier.setInternalParallelism("cosmic_forge", 1);
+MachineModifier.setMaxThreads("cosmic_forge", 1);
 
 RecipeBuilder.newBuilder("cosmilite_forge", "cosmic_forge", 7200, 1)
     .addItemInputs([

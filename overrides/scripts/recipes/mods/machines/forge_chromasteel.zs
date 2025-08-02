@@ -23,7 +23,9 @@ val ITEM as string = "modularmachinery:item";
 val TIME as string = "modularmachinery:duration";
 val RF as string = "modularmachinery:energy";
 
-MachineModifier.setMaxParallelism("chromasteel_forge",1);
+MachineModifier.setMaxParallelism("chromasteel_forge", 256);
+MachineModifier.setInternalParallelism("chromasteel_forge", 1);
+MachineModifier.setMaxThreads("chromasteel_forge", 1);
 
 RecipeBuilder.newBuilder("chromasteel_forge", "chromasteel_forge", 4200, 1)
     .addItemInputs([
