@@ -80,7 +80,6 @@ events.onQuestCompleted(function(event as QuestCompletedEvent) {
             }
         }
     }
-    
 });
 
 events.onManaChange(function(event as ManaChangeEvent) {
