@@ -33,13 +33,13 @@ events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent
         server.commandManager.executeCommand(server, "/scoreboard players set " + LangUtil.translate("greedycraft.scoreboard.mode.adventure") + " title 2");
         server.commandManager.executeCommand(server, "/scoreboard players set " + LangUtil.translate("greedycraft.scoreboard.author2") + " title 3");
         server.commandManager.executeCommand(server, "/scoreboard players set " + LangUtil.translate("greedycraft.scoreboard.author") + " title 4");
-        if (player.hasGameStage("iswuss")) {
+        if (player.hasGameStageSlient("iswuss")) {
             if (player.creative) {
                 server.commandManager.executeCommand(server, "/scoreboard players set " + LangUtil.translate("greedycraft.scoreboard.creative_mode") + " title 1");
             } else {
                 server.commandManager.executeCommand(server, "/scoreboard players set " + LangUtil.translate("greedycraft.scoreboard.cheat_mode") + " title 1");
             }
-        } else if (player.hasGameStage("truehero") && server.getCurrentPlayerCount() <= 1) {
+        } else if (player.hasGameStageSlient("truehero") && server.getCurrentPlayerCount() <= 1) {
             server.commandManager.executeCommand(server, "/scoreboard players set " + LangUtil.format("greedycraft.scoreboard.true_hero", player.name) + " title 1");
         }
         server.commandManager.executeCommand(server, "/scoreboard objectives setdisplay sidebar title");

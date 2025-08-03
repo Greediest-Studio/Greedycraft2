@@ -248,6 +248,14 @@ birdsfoods:fullness
 	- Is Beneficial: false
 
 
+mca:death_denial
+   - Id: 30
+   - Color: 5570560
+   - Is Instant: false
+   - Is Bad: false
+	- Is Beneficial: false
+
+
 moretcon:bleeding
    - Id: 32
    - Color: 16711680

@@ -30,7 +30,7 @@ import scripts.util.lang as LangUtil;
 import scripts.util.versions as VersionUtil;
 
 function isWuss(player as IPlayer) as bool {
-    return (player.creative || player.hasGameStage("iswuss"));
+    return (player.creative || player.hasGameStageSlient("iswuss"));
 }
 
 events.onCommand(function (event as CommandEvent) {
@@ -127,13 +127,13 @@ events.onPlayerTick(function (event as PlayerTickEvent) {
     server.commandManager.executeCommand(server, "/scoreboard players reset " + LangUtil.translate("greedycraft.scoreboard.creative_mode"));
     server.commandManager.executeCommand(server, "/scoreboard players reset " + LangUtil.translate("greedycraft.scoreboard.cheat_mode"));
     server.commandManager.executeCommand(server, "/scoreboard players reset " + LangUtil.format("greedycraft.scoreboard.true_hero", player.name));
-    if (player.hasGameStage("iswuss")) {
+    if (player.hasGameStageSlient("iswuss")) {
         if (player.creative) {
             server.commandManager.executeCommand(server, "/scoreboard players set " + LangUtil.translate("greedycraft.scoreboard.creative_mode") + " title 1");
         } else {
             server.commandManager.executeCommand(server, "/scoreboard players set " + LangUtil.translate("greedycraft.scoreboard.cheat_mode") + " title 1");
         }
-    } else if (player.hasGameStage("truehero")) {
+    } else if (player.hasGameStageSlient("truehero")) {
         server.commandManager.executeCommand(server, "/scoreboard players set " + LangUtil.format("greedycraft.scoreboard.true_hero", player.name) + " title 1");
     }
 });

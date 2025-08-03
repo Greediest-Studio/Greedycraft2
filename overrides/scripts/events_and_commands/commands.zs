@@ -104,7 +104,7 @@ syncDifficultyCommand.execute = function(command, server, sender, args) {
             var maxDifficulty = 0;
             for stage in stageMap {
                 var difficulty = stageMap[stage] as int;
-                if (player.hasGameStage(stage) && difficulty > maxDifficulty) {
+                if (player.hasGameStageSlient(stage) && difficulty > maxDifficulty) {
                     maxDifficulty = difficulty;
                 }
             }
@@ -139,7 +139,7 @@ infinityStoneCommand.execute = function(command, server, sender, args) {
                 player.addPotionEffect(<potion:minecraft:strength>.makePotionEffect(50, 10, false, false));
                 return;
             }
-            if (!player.hasGameStage("iswuss") && player.hasGameStage("truehero")) {
+            if (!player.hasGameStageSlient("iswuss") && player.hasGameStageSlient("truehero")) {
                 player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(50, 4, false, false));
                 player.addPotionEffect(<potion:minecraft:strength>.makePotionEffect(50, 10, false, false));
                 player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(50, 4, false, false));
@@ -498,7 +498,7 @@ executorCommand.execute = function(command, server, sender, args) {
     var players as IPlayer[] = CommandUtils.getPlayers(server, sender, args[0]) as IPlayer[];
     for player in players {
         var permission as bool = true;
-        if (player.hasGameStage("iswuss")) {
+        if (player.hasGameStageSlient("iswuss")) {
             permission = false;
         }
         if (player.name == "TCreopargh") {
@@ -579,7 +579,7 @@ listStagesCommand.execute = function(command, server, sender, args) {
             var have as string[] = [];
             var haveNot as string[] = [];
             for stage in listStages {
-                if (player.hasGameStage(stage)) {
+                if (player.hasGameStageSlient(stage)) {
                     have += stage;
                 } else {
                     haveNot += stage;
