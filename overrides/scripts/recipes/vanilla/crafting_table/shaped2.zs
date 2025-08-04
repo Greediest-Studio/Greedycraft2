@@ -307,16 +307,6 @@ RecipeUtil.addShaped("mystical_Dreadium", <abyssalcraft:dreadiumingot>, [
     [<mysticalagriculture:dreadium_essence>, null, <mysticalagriculture:dreadium_essence>],
     [<mysticalagriculture:dreadium_essence>, <mysticalagriculture:dreadium_essence>, <mysticalagriculture:dreadium_essence>]
 ]);
-RecipeUtil.addShaped("ae-link", <whimcraft:link_card>, [
-    [null, <modularmachinery:blockcontroller>, null],
-    [<crazyae:material>, <appliedenergistics2:memory_card>.withTag({}), <crazyae:material>],
-    [null, <modularmachinery:blockmepatternprovider>, null]
-]);
-RecipeUtil.addShaped("share-link", <whimcraft:blockshareinfhandler>, [
-    [null, <modularmachinery:blockcontroller>, null],
-    [<crazyae:material>, <modularmachinery:blockmepatternprovider>.withTag({}), <crazyae:material>],
-    [null, <ae2stuff:wireless>, null]
-]);
 RecipeUtil.addShaped("machine_assembler", <modularmachineryaddons:advancedmachineassembler>, [
     [null, <ore:ingotManyullyn>, null],
     [null, <ore:ingotManyullyn>, null],

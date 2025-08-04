@@ -27,6 +27,14 @@ import mods.modularmachinery.ControllerGUIRenderEvent;
 import mods.modularmachinery.MMEvents;
 import mods.ctutils.utils.Math;
 
+import scripts.util.mystical_agriculture.regName;
+import scripts.util.mystical_agriculture.energy;
+import scripts.util.mystical_agriculture.time;
+import scripts.util.mystical_agriculture.fluid;
+import scripts.util.mystical_agriculture.timeCarpenter;
+import scripts.util.mystical_agriculture.fluidCarpenter;
+import scripts.util.mystical_agriculture.seedChance;
+
 val regName = "organic_infuser";
 val speed = 200;
 
