@@ -10,19 +10,37 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
+import crafttweaker.liquid.ILiquidStack;
 
 import mods.modularmachinery.RecipeBuilder;
-
-import scripts.util.mystical_agriculture.regName;
-import scripts.util.mystical_agriculture.energy;
-import scripts.util.mystical_agriculture.time;
-import scripts.util.mystical_agriculture.fluid;
-import scripts.util.mystical_agriculture.timeCarpenter;
-import scripts.util.mystical_agriculture.fluidCarpenter;
-import scripts.util.mystical_agriculture.seedChance;
+import mods.modularmachinery.MachineUpgradeBuilder;
+import mods.modularmachinery.MachineUpgradeHelper;
+import mods.modularmachinery.MachineModifier;
+import mods.modularmachinery.IMachineController;
+import mods.modularmachinery.RecipePrimer;
+import mods.modularmachinery.RecipeModifier;
+import mods.modularmachinery.RecipeModifierBuilder;
+import mods.modularmachinery.FactoryRecipeThread;
+import mods.modularmachinery.RecipeAdapterBuilder;
+import mods.modularmachinery.RecipeCheckEvent;
+import mods.modularmachinery.ControllerGUIRenderEvent;
+import mods.modularmachinery.MMEvents;
+import mods.ctutils.utils.Math;
 
 val regName = "organic_infuser";
 val speed = 200;
+
+MMEvents.onControllerGUIRender("organic_infuser", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = [
+        "§a///有机灌注机控制面板///",
+        "§a机器名称：§eLV2 - 有机灌注机"
+    ];
+    event.extraInfo = info;
+});
+
+MachineModifier.setMaxParallelism("organic_infuser", 256);
+MachineModifier.setInternalParallelism("organic_infuser", 1);
+MachineModifier.setMaxThreads("organic_infuser", 8);
 
 val crops as IItemStack[][] = [
     [<mysticalagriculture:dirt_seeds>, <mysticalagriculture:dirt_essence>],

@@ -32,8 +32,8 @@ import mods.modularmachinery.MachineModifier;
 import mods.modularmachinery.FactoryRecipeThread;
 
 MachineModifier.setMaxThreads("mana_powereducer", 0);
-val hymk = FactoryRecipeThread.createCoreThread("§3§l元始魔力还原模块");
-val scmk = FactoryRecipeThread.createCoreThread("§3§l魔力输出模块");
+val hymk = FactoryRecipeThread.createCoreThread("魔力还原模块");
+val scmk = FactoryRecipeThread.createCoreThread("魔力输出模块");
 MachineModifier.addCoreThread("mana_powereducer", hymk);
 MachineModifier.addCoreThread("mana_powereducer", scmk);
 
@@ -46,10 +46,10 @@ MMEvents.onControllerGUIRender("mana_powereducer", function(event as ControllerG
     val bx = isNull(map["bx"]) ? ctrl.activeRecipe.maxParallelism : map["bx"].asInt();
 
     val info as string[] = [
-        "§3§l///魔力还原系统///",
-        "§3§l当前已缓存魔力: " + mana + "/" + maxmana,
-        "§3§l当前最大还原速率(mana/tick): " + (bx * 1000),
-        "§3§l自动向中心魔力池输出魔力"
+        "§a///魔力释能机控制面板///",
+        "§a魔力缓存：§e" + mana + "/" + maxmana,
+        "§a魔力产出：§e" + (bx * 1000) + "mana每tick",
+        "§a自动向中心魔力池输出魔力"
     ];
 
     event.extraInfo = info;
@@ -82,8 +82,8 @@ function amount(mana as int,poolmana as int,maxmana as int,ctrl as IMachineContr
 
 RecipeBuilder.newBuilder("mana_powereducer_manaoutput","mana_powereducer",20)
     .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {output(event);})
-    .addRecipeTooltip("§3§l向魔力池输出魔力")
-    .setThreadName("§3§l魔力输出模块")
+    .addRecipeTooltip("§3向魔力池输出魔力")
+    .setThreadName("魔力输出模块")
     .setParallelized(false)
     .build();
 
@@ -97,7 +97,7 @@ RecipeBuilder.newBuilder("mana_powereducer_liquidedmana", "mana_powereducer", 1)
         var bx = event.activeRecipe.maxParallelism;
         bx = max(1,(mana + bx * 1000 > maxmana) ? ((maxmana - mana) / 1000) : bx);
         event.activeRecipe.maxParallelism = bx;
-        if (mana + bx * 1000 > maxmana) {event.setFailed("§3§l魔力已满");}
+        if (mana + bx * 1000 > maxmana) {event.setFailed("魔力已满");}
     })
     .addEnergyPerTickInput(1000)
     .addFluidInput(<liquid:mana> * 1)
@@ -112,6 +112,6 @@ RecipeBuilder.newBuilder("mana_powereducer_liquidedmana", "mana_powereducer", 1)
         map["bx"] = bx;
         ctrl.customData = data;
     })
-    .setThreadName("§3§l元始魔力还原模块")
-    .addRecipeTooltip("§3§l将元始魔力还原为魔力")
+    .setThreadName("魔力还原模块")
+    .addRecipeTooltip("§3将元始魔力还原为魔力")
     .build();

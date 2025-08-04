@@ -216,3 +216,77 @@ addBuilderRecipe(<modularmachinery:auto_soul_forge_factory_controller>, [
     <bloodmagic:demon_crystallizer>
 ], 2, 2400);
 
+addBuilderRecipe(<modularmachinery:mana_powereducer_factory_controller>, [
+    <additions:logic_processor_2> * 2,
+    <additions:calculation_processor_2> * 8,
+    <additions:engineering_processor_2> * 8,
+    <crazyae:material:17> * 2,
+    <ore:ingotModularium> * 32,
+    <ore:ingotManasteel> * 32,
+    <ore:ingotElvenElementium> * 24,
+    <ore:ingotMithril> * 24,
+    <ore:ingotHolium> * 24,
+    <ore:ingotTerrasteel> * 8,
+    <ore:ingotElfsteel> * 4,
+    <ore:ingotGaiasteel> * 2
+], 2, 2800);
+
+addBuilderRecipe(<modularmachinery:mana_liquefactor_factory_controller>, [
+    <additions:logic_processor_2> * 8,
+    <additions:calculation_processor_2> * 2,
+    <additions:engineering_processor_2> * 8,
+    <crazyae:material:17> * 2,
+    <ore:ingotModularium> * 32,
+    <ore:ingotManasteel> * 32,
+    <ore:ingotElvenElementium> * 24,
+    <ore:ingotMithril> * 24,
+    <ore:ingotHolium> * 24,
+    <ore:ingotTerrasteel> * 8,
+    <ore:ingotGaia> * 4,
+    <ore:ingotGaiasteel> * 2
+], 2, 2800);
+
+addBuilderRecipe(<modularmachinery:draconic_fusioner_factory_controller>, [
+    <additions:logic_processor_2> * 12,
+    <additions:calculation_processor_2> * 12,
+    <additions:engineering_processor_2> * 16,
+    <crazyae:material:48> * 6,
+    <ore:ingotModularium> * 128,
+    <ore:ingotDraconium> * 96,
+    <ore:ingotWitherium> * 96,
+    <ore:ingotDraconiumAwakened> * 32,
+    <ore:ingotWitheriumRelifed> * 32,
+    <ore:ingotEndSteel> * 16,
+    <ore:ingotElectronium> * 4,
+    <ore:endstone> * 64
+], 2, 10000);
+
+addBuilderRecipe(<modularmachinery:flux_melter_factory_controller>, [
+    <additions:logic_processor_2> * 4,
+    <additions:calculation_processor_2> * 6,
+    <additions:engineering_processor_2> * 6,
+    <crazyae:material:48> * 8,
+    <ore:ingotModularium> * 48,
+    <ore:ingotOsgloglas> * 32,
+    <ore:ingotElectrumFlux> * 32,
+    <ore:ingotGlowingSignalum> * 28,
+    <ore:ingotGelidEnderium> * 24,
+    <ore:ingotNihilite> * 20,
+    <ore:ingotAeonsteel> * 12,
+    <ore:ingotDurasteel> * 4
+], 2, 2800);
+
+addBuilderRecipe(<modularmachinery:flux_reducer_factory_controller>, [
+    <additions:logic_processor_2> * 6,
+    <additions:calculation_processor_2> * 4,
+    <additions:engineering_processor_2> * 6,
+    <crazyae:material:48> * 8,
+    <ore:ingotModularium> * 48,
+    <ore:ingotOsgloglas> * 32,
+    <ore:ingotElectrumFlux> * 32,
+    <ore:ingotGlowingSignalum> * 28,
+    <ore:ingotGelidEnderium> * 24,
+    <ore:ingotSolarium> * 20,
+    <ore:ingotAeonsteel> * 12,
+    <ore:ingotDurasteel> * 4
+], 2, 2800);

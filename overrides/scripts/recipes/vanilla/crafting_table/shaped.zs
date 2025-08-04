@@ -123,7 +123,6 @@ recipes.addShaped(<additions:ice_totem> * 1, [[null, <draconicevolution:wyvern_c
 recipes.addShaped(<blue_skies:zeal_lighter> * 1, [[<journey:celestiumingot>, <minecraft:feather>, null], [<journey:celestiumingot>, null, <minecraft:flint>],[<minecraft:feather>, <minecraft:flint>, <journey:luniumclump>]]);
 recipes.addShaped(<blue_skies:lunar_stonebrick> * 14, [[<abyssalcraft:shadowgem>, <journey:flairiumingot>, <abyssalcraft:shadowgem>], [<journey:flairiumingot>, <minecraft:emerald>, <journey:flairiumingot>],[<abyssalcraft:shadowgem>, <journey:flairiumingot>, <abyssalcraft:shadowgem>]]);
 recipes.addShaped(<blue_skies:turquoise_stonebrick> * 14, [[<astralsorcery:itemcraftingcomponent>, <journey:desingot>, <astralsorcery:itemcraftingcomponent>],[<journey:desingot>, <minecraft:diamond>, <journey:desingot>], [<astralsorcery:itemcraftingcomponent>, <journey:desingot>, <astralsorcery:itemcraftingcomponent>]]);
-recipes.addShaped(<journey:mysteriousdisk> * 1, [[<journey:fluffyfeather>, <journey:golemchunk>, <journey:fluffyfeather>], [<journey:golemchunk>, <journey:cloudiaorb>, <journey:golemchunk>],[<journey:fluffyfeather>, <journey:golemchunk>, <journey:fluffyfeather>]]);
 recipes.addShaped(<journey:sentryeye> * 6, [[null, <journey:ancient_stone>, <journey:ancient_stone>], [<journey:ancient_stone>, <journey:ancient_stone>, null],[<minecraft:ender_eye>, <journey:ancient_stone>, null]]);
 recipes.addShaped(<gct_ores:senterian_wrench> * 1, [[null, <journey:senterian_soul>, <journey:sentry_disk>], [<journey:senterian_soul>, <journey:sentry_disk>, <journey:senterian_soul>],[<journey:sentry_disk>, <journey:senterian_soul>, null]]);
 recipes.addShaped(<gct_mobs:reversed_dreamwood_fence> * 3, [[null, null, null],[<gct_mobs:reversed_dreamwood_plank>, <ore:stickWood>, <gct_mobs:reversed_dreamwood_plank>], [<gct_mobs:reversed_dreamwood_plank>, <ore:stickWood>, <gct_mobs:reversed_dreamwood_plank>]]);
@@ -228,11 +227,6 @@ RecipeUtil.addShaped("catalyst_star", <additions:catalyst_star> * 2, [
     [<additions:catalyst_star_shard>, <additions:catalyst_star_shard>, <additions:catalyst_star_shard>],
     [<additions:catalyst_star_shard>, <additions:catalyst_star>, <additions:catalyst_star_shard>],
     [<additions:catalyst_star_shard>, <additions:catalyst_star_shard>, <additions:catalyst_star_shard>]
-]);
-RecipeUtil.addShaped("senterian_builder", <gct_ores:senterian_builder_lab>, [
-    [<additions:broken_engine_shard>, <journey:sentry_disk>, <additions:broken_engine_shard>],
-    [<journey:sentry_disk>, <additions:broken_engine_shard>, <journey:sentry_disk>],
-    [<additions:broken_engine_shard>, <journey:sentry_disk>, <additions:broken_engine_shard>]
 ]);
 RecipeUtil.addShaped("edeningot", <additions:eden_ingot> * 2,[
     [<ore:ingotIron>, <ore:fragmentsEden>, <ore:ingotIron>],

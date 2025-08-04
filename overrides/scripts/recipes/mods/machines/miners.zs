@@ -18,6 +18,8 @@ import mods.modularmachinery.RecipeModifierBuilder;
 import mods.modularmachinery.FactoryRecipeThread;
 import mods.modularmachinery.RecipeAdapterBuilder;
 import mods.modularmachinery.RecipeCheckEvent;
+import mods.modularmachinery.ControllerGUIRenderEvent;
+import mods.modularmachinery.MMEvents;
 import mods.ctutils.utils.Math;
 
 var STAINLESS as string = "miner_stainless_upg";
@@ -996,3 +998,27 @@ advEnd.build();
 
 RecipeAdapterBuilder.create("advanced_miner", "modularmachinery:basic_miner").build();
 RecipeAdapterBuilder.create("dimensional_miner", "modularmachinery:basic_miner").build();
+
+MMEvents.onControllerGUIRender("basic_miner", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = [
+        "§a///基础采掘机控制面板///",
+        "§a机器名称：§eLV1 - 基础采掘机"
+    ];
+    event.extraInfo = info;
+});
+
+MMEvents.onControllerGUIRender("advanced_miner", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = [
+        "§a///精密过滤采掘机控制面板///",
+        "§a机器名称：§eLV3 - 精密过滤采掘机"
+    ];
+    event.extraInfo = info;
+});
+
+MMEvents.onControllerGUIRender("dimensional_miner", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = [
+        "§a///时空相位采掘机控制面板///",
+        "§a机器名称：§eLV5 - 时空相位采掘机"
+    ];
+    event.extraInfo = info;
+});
