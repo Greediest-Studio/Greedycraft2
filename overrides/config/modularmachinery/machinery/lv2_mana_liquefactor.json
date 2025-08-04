@@ -290,7 +290,7 @@
             "y": 3,
             "z": -3,
             "elements": [
-                "casings_all"
+                "modularmachinery:blockupgradebus@0"
             ]
         },
         {
@@ -330,9 +330,7 @@
             "y": 4,
             "z": 0,
             "elements": [
-                "botania:pool",
-                "botanicadds:pool_dreaming",
-                "botaniverse:morepool"
+                "botania:pool@0"
             ]
         },
         {
@@ -484,8 +482,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@4",
-                "casings_parallel"
+                "modularmachinery:blockcasing@4"
             ]
         },
         {

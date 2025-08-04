@@ -33,7 +33,7 @@ import scripts.util.lang as LangUtil;
 events.onGameStageAdd(function(event as GameStageAddEvent) {
     var stages as string[][string][string] = gameStagesLore[LangUtil.getLanguage()];
     var player as IPlayer = event.player;
-    if (!(stages has event.gameStage) || player.hasGameStageSlient(event.gameStage) || player.creative) {
+    if (!(stages has event.gameStage) || player.hasGameStageSilent(event.gameStage) || player.creative) {
         return;
     }
     var stageLore as string[][string] = stages[event.gameStage];
@@ -56,7 +56,7 @@ events.onGameStageAdd(function(event as GameStageAddEvent) {
         var maxDifficulty = 0;
         for stage in stageMap {
             var difficulty = stageMap[stage] as int;
-            if ((player.hasGameStageSlient(stage) || stage == event.gameStage) && difficulty > maxDifficulty) {
+            if ((player.hasGameStageSilent(stage) || stage == event.gameStage) && difficulty > maxDifficulty) {
                 maxDifficulty = difficulty;
             }
         }

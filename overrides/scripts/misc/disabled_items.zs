@@ -1484,6 +1484,10 @@ var disabledItems as IIngredient[] = [
     <whimcraft:blockmeaspectoutputbusmmce>,
     <whimcraft:blockmeaspectinputbus>,
     <whimcraft:blockmeaspectoutputbus>,
+    <modularmachineryaddons:blockwillmultichunkproviderinput>,
+    <modularmachineryaddons:blockwillmultichunkprovideroutput>,
+    <modularmachineryaddons:inactiveradiationsponge>,
+    <modularmachineryaddons:radiationsponge>,
     <astralsorcery:blockborehead:1>
 ] as IIngredient[];
 

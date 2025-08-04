@@ -190,10 +190,18 @@ MMEvents.onMachinePreTick("blood_altar", function(event as MachineTickEvent) {
         var currentAltarAmount as int = altar.data.bloodAltar.Amount as int;
         if (currentAltarAmount > extractNum) {
             world.setBlockState(<blockstate:bloodmagic:altar>, altar.data.update({bloodAltar : {Amount : currentAltarAmount - extractNum}}), event.controller.pos.down(4));
-            event.controller.customData = event.controller.customData.update({LP : event.controller.getAltarLP() + (extractNum as long)});
+            var newLP as long = event.controller.getAltarLP() + (extractNum as long);
+            if (newLP > event.controller.getAltarCapacity()) {
+                newLP = event.controller.getAltarCapacity();
+            }
+            event.controller.customData = event.controller.customData.update({LP : newLP});
         } else if (currentAltarAmount > 0) {
             world.setBlockState(<blockstate:bloodmagic:altar>, altar.data.update({bloodAltar : {Amount : 0}}), event.controller.pos.down(4));
-            event.controller.customData = event.controller.customData.update({LP : event.controller.getAltarLP() + (currentAltarAmount as long)});
+            var newLP as long = event.controller.getAltarLP() + (currentAltarAmount as long);
+            if (newLP > event.controller.getAltarCapacity()) {
+                newLP = event.controller.getAltarCapacity();
+            }
+            event.controller.customData = event.controller.customData.update({LP : newLP});
         }
     }
     //向血之祭坛输出模式
@@ -347,7 +355,11 @@ RecipeBuilder.newBuilder("purify", "blood_altar", 1)
     .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
         val parallelism as int = event.activeRecipe.parallelism;
         var output as int = event.controller.getBlocksInPattern(<additions:blood_rune_purify>);
-        event.controller.customData = event.controller.customData.update({LP : event.controller.getAltarLP() + (parallelism * output) as long});
+        var newLP as long = event.controller.getAltarLP() + (parallelism * output) as long;
+        if (newLP > event.controller.getAltarCapacity()) {
+            newLP = event.controller.getAltarCapacity();
+        }
+        event.controller.customData = event.controller.customData.update({LP : newLP});
     })
     .addRecipeTooltip("§a此配方仅在祭坛上有净化符文时生效")
     .setThreadName("源质净化模块")

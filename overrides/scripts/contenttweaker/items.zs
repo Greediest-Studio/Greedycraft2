@@ -86,22 +86,22 @@ dim_item.creativeTab = <creativetab:misc>;
 dim_item.itemRightClick = function(stack, world, player, hand) {
     var Dimension = player.dimension;
     var Name = player.name;
-    if(Dimension==114514){
+    if(Dimension==114514 && !world.isRemote()){
         Commands.call("forge setdimension "+ Name +" 0", player, world);{
             player.sendChat("哎呦卧槽,给我干到主世界哪了");
         }
     }
-    if(Dimension==0){
+    if(Dimension==0 && !world.isRemote()){
         Commands.call("forge setdimension "+ Name +" 114514", player, world);{
             player.sendChat("哎呦卧槽给我干哪来了,这还是主世界吗");
         }
     }
-    if(Dimension==-1){
+    if(Dimension==-1 && !world.isRemote()){
         Commands.call("forge setdimension "+ Name +" -114514", player, world);{
             player.sendChat("哎呦卧槽给我干哪来了,这还是下界吗");
         }
     }
-    if(Dimension==-114514){
+    if(Dimension==-114514 && !world.isRemote()){
         Commands.call("forge setdimension "+ Name +" -1", player, world);{
             player.sendChat("哎呦卧槽,给我干到下界哪了");
         }

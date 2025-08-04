@@ -23,7 +23,7 @@ MachineModifier.setMaxParallelism("impetus_forge", 256);
 
 RecipeBuilder.newBuilder("impetusite", "impetus_forge",60)
     .addItemInput(<ore:ingotPrimordial>)
-    .setDimension([14676])
+    .addDimensionInput(14676)
     .addImpetusInput(1000)
     .addItemOutput(<additions:impetusite_ingot>)
     .build();

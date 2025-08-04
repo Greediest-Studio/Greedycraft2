@@ -79,6 +79,7 @@ MMEvents.onControllerGUIRender("builder_5", function(event as ControllerGUIRende
     event.extraInfo = info;
 });
 
+//LV1
 addBuilderRecipe(<modularmachinery:durasteel_forge_factory_controller>, [
     <appliedenergistics2:material:22> * 24,
     <appliedenergistics2:material:23> * 24,
@@ -183,3 +184,35 @@ addBuilderRecipe(<modularmachinery:builder_2_factory_controller>, [
     <ore:ingotAdamant> * 4,
     <ore:ingotGodslime> * 4
 ], 1, 2400);
+
+//LV2
+addBuilderRecipe(<modularmachinery:gene_builder_factory_controller>, [
+    <additions:logic_processor_2> * 8,
+    <additions:calculation_processor_2> * 12,
+    <additions:engineering_processor_2> * 4,
+    <crazyae:material:16> * 4,
+    <ore:ingotModularium> * 64,
+    <ore:ingotCytosinite> * 16,
+    <ore:ingotThyminite> * 16,
+    <ore:ingotGuaninite> * 16,
+    <ore:ingotAdeninite> * 16,
+    <ore:ingotFusionMatrix> * 2,
+    <ore:ingotUracilite> * 2,
+    <ore:gemCincinnasite> * 64
+], 2, 4000);
+
+addBuilderRecipe(<modularmachinery:auto_soul_forge_factory_controller>, [
+    <additions:logic_processor_2> * 4,
+    <additions:calculation_processor_2> * 12,
+    <additions:engineering_processor_2> * 4,
+    <crazyae:material:17> * 4,
+    <ore:ingotModularium> * 48,
+    <ore:ingotBloodInfusedIron> * 32,
+    <ore:ingotSentientMetal> * 24,
+    <ore:ingotDemonicMetal> * 24,
+    <ore:ingotEvilMetal> * 16,
+    <ore:ingotBoundMetal> * 8,
+    <bloodmagic:demon_crucible>,
+    <bloodmagic:demon_crystallizer>
+], 2, 2400);
+

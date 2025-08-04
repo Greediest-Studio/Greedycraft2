@@ -41,16 +41,16 @@ events.onPlayerLoggedIn(function (event as PlayerLoggedInEvent) {
 
     var player as IPlayer = event.player;
 
-    if (player.hasGameStageSlient("truehero") && !player.hasGameStageSlient("iswuss")) {
+    if (player.hasGameStageSilent("truehero") && !player.hasGameStageSilent("iswuss")) {
         player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.true_hero.join", "§e" + player.name));
-    } else if (player.hasGameStageSlient("iswuss")) {
+    } else if (player.hasGameStageSilent("iswuss")) {
         server.broadcastMessage(ITextComponent.fromTranslation("greedycraft.event.in_cheat.broadcast", "§e" + player.name));
         player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.in_cheat.chat"));
         if (player.creative) {
             player.addGameStage("creative");
         }
     } else if (player.creative) {
-        if (!player.hasGameStageSlient("truehero")) {
+        if (!player.hasGameStageSilent("truehero")) {
             player.addGameStage("creative");
         server.broadcastMessage(ITextComponent.fromTranslation("greedycraft.event.in_cheat.broadcast", player.name));
             server.commandManager.executeCommand(server, "/gamestage add " + player.name + " iswuss");
@@ -68,13 +68,13 @@ events.onPlayerLoggedIn(function (event as PlayerLoggedInEvent) {
     }
 
     //Patreon join notification
-    if (player.hasGameStageSlient("truehero")) {
+    if (player.hasGameStageSilent("truehero")) {
         server.broadcastMessage(ITextComponent.fromData(["", {translate: "greedycraft.event.executor.welcome.0", color: "red"}, {translate: PatreonUtil.getPlayerPrefixKey(player), color: PatreonUtil.getPlayerColor(player)}, {text: " "}, {text: player.name, color: PatreonUtil.getPlayerColor(player)}, {translate: "greedycraft.event.executor.welcome.1", color: "red"}]));
     } else if (PatreonUtil.isPatreon(player)) {
         server.broadcastMessage(ITextComponent.fromData(["", {translate: "greedycraft.event.sponsor.welcome.0", color: "yellow"}, {translate: PatreonUtil.getPlayerPrefixKey(player), color: PatreonUtil.getPlayerColor(player)}, {text: " "}, {text: player.name, color: PatreonUtil.getPlayerColor(player)}, {translate: "greedycraft.event.sponsor.welcome.1", color: "yellow"}]));
     }
 
-    if (!player.hasGameStageSlient("first_join_message_shown")) {
+    if (!player.hasGameStageSilent("first_join_message_shown")) {
         server.commandManager.executeCommand(server, "/sendfirstjoinmessage " + player.name);
         player.addGameStage("first_join_message_shown");
     } else {

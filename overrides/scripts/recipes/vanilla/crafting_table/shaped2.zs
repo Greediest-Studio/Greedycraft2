@@ -332,6 +332,56 @@ RecipeUtil.addShaped("efficiency_rune", <bloodmagic:blood_rune:2>, [
     [<ore:fragmentTime>, <bloodmagic:slate:4>, <ore:fragmentTime>], 
     [<bloodmagic:blood_rune>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:archmage"}).reuse(), <bloodmagic:blood_rune>]
 ]);
+RecipeUtil.addShaped("biome_hatch", <modularmachineryaddons:blockbiomeproviderinput>, [
+    [<modularmachinery:blockcasing>, <biomesoplenty:biome_essence>, <modularmachinery:blockcasing>],
+    [<biomesoplenty:biome_essence>, <modularmachinery:blockcontroller>, <biomesoplenty:biome_essence>],
+    [<modularmachinery:blockcasing>, <biomesoplenty:biome_essence>, <modularmachinery:blockcasing>]
+]);
+RecipeUtil.addShaped("dimension_hatch", <modularmachineryaddons:blockdimensionproviderinput>, [
+    [<modularmachinery:blockcasing>, <ore:fragmentTime>, <modularmachinery:blockcasing>],
+    [<ore:fragmentTime>, <modularmachinery:blockcontroller>, <ore:fragmentTime>],
+    [<modularmachinery:blockcasing>, <ore:fragmentTime>, <modularmachinery:blockcasing>]
+]);
+RecipeUtil.addShaped("flux_provider_output", <modularmachineryaddons:blockfluxprovideroutput>, [
+    [<ore:ingotModularium>, <thaumadditions:flux_concentrator>, <ore:ingotModularium>],
+    [<ore:ingotMithrillium>, <modularmachinery:blockcasing>, <ore:ingotMithrillium>], 
+    [<ore:ingotModularium>, <ore:ingotMithrillium>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("flux_provider_input", <modularmachineryaddons:blockfluxproviderinput>, [
+    [<ore:ingotModularium>, <thaumcraft:condenser>, <ore:ingotModularium>],
+    [<ore:ingotVoid>, <modularmachinery:blockcasing>, <ore:ingotVoid>], 
+    [<ore:ingotModularium>, <ore:ingotVoid>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("me_essentia_output_bus", <modularmachineryaddons:blockmeessentiaoutputbus>, [
+    [<ore:ingotModularium>, <thaumicenergistics:essentia_export>, <ore:ingotModularium>],
+    [<ore:ingotModularium>, <thaumicenergistics:coalescence_core>, <ore:ingotModularium>], 
+    [<ore:ingotModularium>, <modularmachinery:blockcasing>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("me_essentia_input_bus", <modularmachineryaddons:blockmeessentiainputbus>, [
+    [<ore:ingotModularium>, <thaumicenergistics:essentia_import>, <ore:ingotModularium>],
+    [<ore:ingotModularium>, <thaumicenergistics:diffusion_core>, <ore:ingotModularium>], 
+    [<ore:ingotModularium>, <modularmachinery:blockcasing>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("meteor_provider_output", <modularmachineryaddons:blockmeteorprovideroutput>, [
+    [<ore:ingotModularium>, <bloodmagic:activation_crystal:1>, <ore:ingotModularium>],
+    [<ore:blockPorpezite>, <ore:blockIgnite>, <ore:blockPorpezite>], 
+    [<ore:ingotModularium>, <ore:blockPorpezite>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("scrubber_provider_input", <modularmachineryaddons:blockscrubberproviderinput>, [
+    [<ore:ingotModularium>, <ore:ingotPruified>, <ore:ingotModularium>],
+    [<ore:ingotPruified>, <modularmachinery:blockcasing>, <ore:ingotPruified>], 
+    [<ore:ingotModularium>, <ore:ingotPruified>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("radiation_provider_output", <modularmachineryaddons:blockradiationprovideroutput>, [
+    [<ore:ingotModularium>, <nuclearcraft:ingot_block:8>, <ore:ingotModularium>],
+    [<ore:ingotHafnium>, <modularmachinery:blockcasing>, <ore:ingotHafnium>], 
+    [<ore:ingotModularium>, <nuclearcraft:ingot_block:8>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("radiation_provider_input", <modularmachineryaddons:blockradiationproviderinput>, [
+    [<ore:ingotModularium>, <forge:bucketfilled>.withTag({FluidName: "heavy_water", Amount: 1000}).transformReplace(<minecraft:bucket>), <ore:ingotModularium>],
+    [<ore:ingotZirconium>, <modularmachinery:blockcasing>, <ore:ingotZirconium>], 
+    [<ore:ingotModularium>, <ore:ingotZirconium>, <ore:ingotModularium>]
+]);
 
 RecipeUtil.addModeRecipe("mm_upgrade_t4", <modularmachinery:blockcasing:5>, [
     [<ore:blockChromasteel>, <ore:ingotModularium>, <ore:blockChromasteel>],

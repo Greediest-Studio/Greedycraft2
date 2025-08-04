@@ -34,15 +34,15 @@
         "modularmachineryaddons:blockradiationproviderinput",
         "modularmachineryaddons:blockradiationprovideroutput",
         "modularmachineryaddons:blockscrubberproviderinput",
-        "modularmachineryaddons:blockwillmultichunkproviderinput",
-        "modularmachineryaddons:blockwillmultichunkprovideroutput",
         "modularmachineryaddons:blockmeteorprovideroutput",
         "modularmachineryaddons:blockmeessentiainputbus",
         "modularmachineryaddons:blockmeessentiaoutputbus",
         "modularmachineryaddons:blockfluxproviderinput",
         "modularmachineryaddons:blockfluxprovideroutput",
         "modularmachineryaddons:blockvisproviderinput",
-        "modularmachineryaddons:blockvisprovideroutput"
+        "modularmachineryaddons:blockvisprovideroutput",
+        "modularmachineryaddons:blockbiomeproviderinput",
+        "modularmachineryaddons:blockdimensionproviderinput"
     ],
     "casings_parallel": [
         "modularmachinery:blockcasing@0",

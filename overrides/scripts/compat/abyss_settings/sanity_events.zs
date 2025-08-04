@@ -25,7 +25,7 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
         player.getAttribute("generic.movementSpeed").applyModifier(AttributeModifier.createModifier("generic.movementSpeed", mtp as double, 2, "f47ac10b-58cc-4372-a567-0e02b2c3d47e"));
     }
 
-    if (player.hasGameStageSlient("final") == false) {
+    if (player.hasGameStageSilent("final") == false) {
         SanityHelper.setSanity(player, 100.0f);
     }
 
@@ -38,7 +38,7 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent) {
         var san as float = SanityHelper.getSanity(player);
         var mtp as float = (100.0f - san) / 200.0f as float;
 
-        if (player.hasGameStageSlient("final")) {
+        if (player.hasGameStageSilent("final")) {
             event.amount *= (1.0f + mtp * 4.0f);
         }
     }
@@ -49,7 +49,7 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent) {
             var san as float = SanityHelper.getSanity(player);
             var mtp as float = (100.0f - san) / 200.0f as float;
 
-            if (player.hasGameStageSlient("final")) {
+            if (player.hasGameStageSilent("final")) {
                 event.amount *= (1.0f + mtp * 2.0f);
             }
         }
@@ -64,7 +64,7 @@ events.onPlayerBreakSpeed(function(event as PlayerBreakSpeedEvent) {
     var san as float = SanityHelper.getSanity(player);
     var mtp as float =  1.0f - (100.0f - san) / 200.0f as float;
 
-    if (player.hasGameStageSlient("final")) {
+    if (player.hasGameStageSilent("final")) {
         event.newSpeed *= mtp;
     }
 

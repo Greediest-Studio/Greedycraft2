@@ -102,7 +102,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
     if (player.world.getWorldTime() as long % 40 == 0) {
         grantAdvancement(player, "greedycraft:elysia/root");
         for stage in advancementMap {
-            if (player.hasGameStageSlient(stage)) {
+            if (player.hasGameStageSilent(stage)) {
                 var advancement as string = advancementMap[stage] as string;
                 grantAdvancement(player, advancement);
             }
@@ -121,10 +121,10 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 
     // Hint while trying to go to disallowed dimensions
     if (player.world.getWorldTime() as long % 20 == 0) {
-        if (player.world.getBlock(player.position).definition.id == "minecraft:portal" && !player.hasGameStageSlient("twilight_shield")) {
+        if (player.world.getBlock(player.position).definition.id == "minecraft:portal" && !player.hasGameStageSilent("twilight_shield")) {
             player.sendRichTextStatusMessage(ITextComponent.fromData(["", {translate: "greedycraft.event.nether.reject.message", color: "dark_purple"}]), true);
         }
-        if (player.world.getBlock(player.position).definition.id == "minecraft:end_portal" && !player.hasGameStageSlient("ender_charm")) {
+        if (player.world.getBlock(player.position).definition.id == "minecraft:end_portal" && !player.hasGameStageSilent("ender_charm")) {
             player.sendRichTextStatusMessage(ITextComponent.fromData(["", {translate: "greedycraft.event.end.reject.message", color: "dark_purple"}]), true);
         }
     }
@@ -194,7 +194,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
     }
 
     // Remove radiation if the stage is locked
-    if (!(player.hasGameStageSlient("epic_engineer"))) {
+    if (!(player.hasGameStageSilent("epic_engineer"))) {
         player.setRadiation(0.0d);
     }
 

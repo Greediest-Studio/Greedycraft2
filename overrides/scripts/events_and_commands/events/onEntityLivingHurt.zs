@@ -102,11 +102,11 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
 
     // Scales explosion damage
     if (event.damageSource.isExplosion()) {
-        if (player.hasGameStageSlient("nether")) {
+        if (player.hasGameStageSilent("nether")) {
             dmg *= 1.25f;
         }
         
-        if (player.hasGameStageSlient("hardmode")) {
+        if (player.hasGameStageSilent("hardmode")) {
             dmg *= 1.5f;
         }
     }

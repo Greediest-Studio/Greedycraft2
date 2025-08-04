@@ -23,7 +23,7 @@ builder.addItemInputs([
     <thaumicwonders:primordial_grain> * 16,
 ]);
 builder.addImpetusInput(100);
-builder.setDimension([822]);
+builder.addDimensionInput(822);
 builder.addAspcetInput(1200, "aer");
 builder.addItemOutput(<additions:blizzium_ingot>);
 builder.build();
@@ -34,7 +34,7 @@ builder1.addItemInput(<thaumicwonders:primordial_grain> * 16);
 builder1.addFluidInput(<liquid:pruified> * 16);
 builder1.addImpetusInput(100);
 builder1.addAspcetInput(1200, "ignis");
-builder1.setDimension([822]);
+builder1.addDimensionInput(822);
 builder1.addItemOutput(<additions:blazingium_ingot>);
 builder1.build();
 
@@ -44,7 +44,7 @@ builder2.addItemInput(<thaumicwonders:primordial_grain> * 16);
 builder2.addFluidInput(<liquid:pruified> * 16);
 builder2.addImpetusInput(100);
 builder2.addAspcetInput(1200, "aqua");
-builder2.setDimension([823]);
+builder2.addDimensionInput(823);
 builder2.addItemOutput(<additions:tidalium_ingot>);
 builder2.build();
 
@@ -54,7 +54,7 @@ builder3.addItemInput(<thaumicwonders:primordial_grain> * 16);
 builder3.addFluidInput(<liquid:pruified> * 16);
 builder3.addImpetusInput(100);
 builder3.addAspcetInput(1200, "terra");
-builder3.setDimension([824]);
+builder3.addDimensionInput(824);
 builder3.addItemOutput(<additions:terranium_ingot>);
 builder3.build();
 
@@ -64,7 +64,7 @@ builder4.addItemInput(<thaumicwonders:primordial_grain> * 16);
 builder4.addFluidInput(<liquid:pruified> * 16);
 builder4.addImpetusInput(100);
 builder4.addAspcetInput(1200, "ordo");
-builder4.setDimension([820]);
+builder4.addDimensionInput(820);
 builder4.addItemOutput(<additions:enlightium_ingot>);
 builder4.build();
 
@@ -74,7 +74,7 @@ builder5.addItemInput(<thaumicwonders:primordial_grain> * 16);
 builder5.addFluidInput(<liquid:pruified> * 16);
 builder5.addImpetusInput(100);
 builder5.addAspcetInput(1200, "perditio");
-builder5.setDimension([821]);
+builder5.addDimensionInput(821);
 builder5.addItemOutput(<additions:debarcium_ingot>);
 builder5.build();
 
@@ -87,6 +87,6 @@ builder6.addItemInput(<ore:ingotEnlightium>);
 builder6.addItemInput(<ore:ingotDebarcium>);
 builder6.addFluidInput(<liquid:everite> * 576);
 builder6.addImpetusInput(480);
-builder6.setDimension([78]);
+builder6.addDimensionInput(78);
 builder6.addItemOutput(<additions:hexacite_ingot> * 2);
 builder6.build();

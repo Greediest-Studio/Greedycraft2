@@ -14,19 +14,19 @@
             ]
         },
         {
-            "x": 0,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "botania:pool@3"
-            ]
-        },
-        {
             "x": -1,
             "y": 2,
             "z": 0,
             "elements": [
                 "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "botania:pool@3"
             ]
         },
         {
@@ -114,7 +114,7 @@
             "y": 2,
             "z": -2,
             "elements": [
-                "casings_all"
+                "casings_upgrade"
             ]
         },
         {
@@ -143,8 +143,8 @@
         },
         {
             "x": 2,
-            "y": 3,
-            "z": 2,
+            "y": 2,
+            "z": 0,
             "elements": [
                 "casings_all"
             ]
@@ -166,11 +166,11 @@
             ]
         },
         {
-            "x": 0,
-            "y": 10,
-            "z": 1,
+            "x": 2,
+            "y": 3,
+            "z": 2,
             "elements": [
-                "taiga:fractum_block@0"
+                "casings_all"
             ]
         },
         {
@@ -182,19 +182,19 @@
             ]
         },
         {
-            "x": 2,
-            "y": 2,
-            "z": 0,
+            "x": 0,
+            "y": 10,
+            "z": 1,
             "elements": [
-                "casings_all"
+                "taiga:fractum_block@0"
             ]
         },
         {
-            "x": -2,
-            "y": 3,
-            "z": 2,
+            "x": 1,
+            "y": 2,
+            "z": 1,
             "elements": [
-                "casings_all"
+                "actuallyadditions:block_crystal_empowered@2"
             ]
         },
         {
@@ -206,11 +206,11 @@
             ]
         },
         {
-            "x": 1,
-            "y": 2,
-            "z": 1,
+            "x": -2,
+            "y": 3,
+            "z": 2,
             "elements": [
-                "actuallyadditions:block_crystal_empowered@2"
+                "casings_all"
             ]
         },
         {
@@ -230,19 +230,19 @@
             ]
         },
         {
-            "x": 2,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
             "x": 0,
             "y": 11,
             "z": 1,
             "elements": [
                 "twilightforest:castle_stairs@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "casings_all"
             ]
         },
         {
@@ -346,9 +346,7 @@
             "y": 4,
             "z": 0,
             "elements": [
-                "botania:pool",
-                "botanicadds:pool_dreaming",
-                "botaniverse:morepool"
+                "botania:pool@0"
             ]
         },
         {
@@ -417,18 +415,18 @@
         },
         {
             "x": 0,
-            "y": 7,
-            "z": -1,
-            "elements": [
-                "twilightforest:castle_stairs@6"
-            ]
-        },
-        {
-            "x": 0,
             "y": 3,
             "z": 0,
             "elements": [
                 "extrabotany:quantummanabuffer@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "twilightforest:castle_stairs@6"
             ]
         },
         {
@@ -500,8 +498,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockcasing@4",
-                "casings_parallel"
+                "modularmachinery:blockcasing@4"
             ]
         },
         {

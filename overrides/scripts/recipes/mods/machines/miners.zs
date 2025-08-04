@@ -174,7 +174,7 @@ MachineModifier.addCoreThread("advanced_miner", FactoryRecipeThread.createCoreTh
 
 var overworld = RecipeBuilder.newBuilder("overworld", "basic_miner", 200);
 overworld.addEnergyPerTickInput(200);
-overworld.setDimension([0]);
+overworld.addDimensionInput(0);
 overworld.addItemOutput(<minecraft:iron_ore>).setChance(0.03).setIgnoreOutputCheck(true);
 overworld.addItemOutput(<minecraft:gold_ore>).setChance(0.02).setIgnoreOutputCheck(true);
 overworld.addItemOutput(<thermalfoundation:ore>).setChance(0.025).setIgnoreOutputCheck(true);
@@ -273,7 +273,7 @@ overworld.build();
 
 var nether = RecipeBuilder.newBuilder("nether", "basic_miner", 200);
 nether.addEnergyPerTickInput(200);
-nether.setDimension([-1]);
+nether.addDimensionInput(-1);
 nether.addItemOutput(<minecraft:soul_sand>).setChance(0.1).setIgnoreOutputCheck(true);
 nether.addItemOutput(<minecraft:magma>).setChance(0.03).setIgnoreOutputCheck(true);
 nether.addItemOutput(<minecraft:quartz>).setChance(0.06).setIgnoreOutputCheck(true);
@@ -319,7 +319,7 @@ nether.build();
 
 var end = RecipeBuilder.newBuilder("end", "basic_miner", 200);
 end.addEnergyPerTickInput(200);
-end.setDimension([1]);
+end.addDimensionInput(1);
 end.addItemOutput(<minecraft:ender_pearl>).setChance(0.08).setIgnoreOutputCheck(true);
 end.addItemOutput(<tiths:ender_crevice_shard>).setChance(0.05).setIgnoreOutputCheck(true);
 //不锈钢级
@@ -358,9 +358,8 @@ end.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器�
 end.build();
 
 var twilightf = RecipeBuilder.newBuilder("twilight_forest", "basic_miner", 200);
-twilightf.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 twilightf.addEnergyPerTickInput(200);
-twilightf.setDimension([7]);
+twilightf.addDimensionInput(7);
 twilightf.addItemOutput(<twilightforest:torchberries>).setChance(0.06).setIgnoreOutputCheck(true);
 twilightf.addItemOutput(<twilightforest:raven_feather>).setChance(0.06).setIgnoreOutputCheck(true);
 twilightf.addItemOutput(<twilightforest:steeleaf_ingot>).setChance(0.04).setIgnoreOutputCheck(true);
@@ -384,7 +383,7 @@ twilightf.build();
 
 var aether = RecipeBuilder.newBuilder("aether", "basic_miner", 200);
 aether.addEnergyPerTickInput(200);
-aether.setDimension([173]);
+aether.addDimensionInput(173);
 aether.addItemOutput(<aether_legacy:ambrosium_shard>).setChance(0.06).setIgnoreOutputCheck(true);
 //不锈钢级
 aether.addItemUpgradeOutput(<aether_legacy:gravitite_ore>, STAINLESS, 0.01);
@@ -403,7 +402,7 @@ aether.build();
 
 var abysswaste = RecipeBuilder.newBuilder("abyss_wasteland", "basic_miner", 200);
 abysswaste.addEnergyPerTickInput(200);
-abysswaste.setDimension([50]);
+abysswaste.addDimensionInput(50);
 abysswaste.addItemOutput(<abyssalcraft:coralium>).setChance(0.08).setIgnoreOutputCheck(true);
 abysswaste.addItemOutput(<thermalfoundation:material:772>).setChance(0.06).setIgnoreOutputCheck(true);
 abysswaste.addItemOutput(<abyssalcraft:cobblestone:4>).setChance(0.1).setIgnoreOutputCheck(true);
@@ -420,7 +419,7 @@ abysswaste.build();
 
 var dreadland = RecipeBuilder.newBuilder("dreadland", "basic_miner", 200);
 dreadland.addEnergyPerTickInput(200);
-dreadland.setDimension([51]);
+dreadland.addDimensionInput(51);
 //耐钢级
 dreadland.addItemUpgradeOutput(<abyssalcraft:abydreadore>, DURASTEEL, 0.08);
 dreadland.addItemUpgradeOutput(<abyssalcraft:dreadfragment>, DURASTEEL, 0.02);
@@ -434,7 +433,7 @@ dreadland.build();
 
 var omothol = RecipeBuilder.newBuilder("omothol", "basic_miner", 200);
 omothol.addEnergyPerTickInput(200);
-omothol.setDimension([52]);
+omothol.addDimensionInput(52);
 //寰宇级
 omothol.addItemUpgradeOutput(<additions:mistium_ore>, COSMILITE, 0.008);
 //终焉级
@@ -446,7 +445,7 @@ omothol.build();
 
 var darkrealm = RecipeBuilder.newBuilder("dark_realm", "basic_miner", 200);
 darkrealm.addEnergyPerTickInput(200);
-darkrealm.setDimension([53]);
+darkrealm.addDimensionInput(53);
 //不锈钢级
 darkrealm.addItemUpgradeOutput(<abyssalcraft:shadowgem>, STAINLESS, 0.01);
 //寰宇级
@@ -456,7 +455,7 @@ darkrealm.build();
 
 var darkerrealm = RecipeBuilder.newBuilder("darker_realm", "basic_miner", 200);
 darkerrealm.addEnergyPerTickInput(200);
-darkerrealm.setDimension([54]);
+darkerrealm.addDimensionInput(54);
 //寰宇级
 darkerrealm.addItemUpgradeOutput(<gct_aby:dreadiumore>, COSMILITE, 0.03);
 darkerrealm.addItemUpgradeOutput(<gct_aby:ethauxiumore>, COSMILITE, 0.01);
@@ -466,7 +465,7 @@ darkerrealm.build();
 
 var warpland = RecipeBuilder.newBuilder("warp_land", "basic_miner", 200);
 warpland.addEnergyPerTickInput(200);
-warpland.setDimension([55]);
+warpland.addDimensionInput(55);
 //终焉级
 warpland.addItemUpgradeOutput(<gct_aby:azathothium_ore_complex>, FINALLIUM, 0.01);
 warpland.addItemUpgradeOutput(<gct_aby:nyralathotepium_ore_complex>, FINALLIUM, 0.01);
@@ -477,7 +476,7 @@ warpland.build();
 
 var iceika = RecipeBuilder.newBuilder("iceika", "basic_miner", 200);
 iceika.addEnergyPerTickInput(200);
-iceika.setDimension([425]);
+iceika.addDimensionInput(425);
 iceika.addItemOutput(<divinerpg:corrupted_shards>).setChance(0.04).setIgnoreOutputCheck(true);
 iceika.addItemOutput(<divinerpg:divine_shards>).setChance(0.04).setIgnoreOutputCheck(true);
 iceika.addItemOutput(<divinerpg:jungle_shards>).setChance(0.04).setIgnoreOutputCheck(true);
@@ -490,7 +489,7 @@ iceika.build();
 
 var arcana = RecipeBuilder.newBuilder("arcana", "basic_miner", 200);
 arcana.addEnergyPerTickInput(200);
-arcana.setDimension([426]);
+arcana.addDimensionInput(426);
 //恒钢级
 arcana.addItemUpgradeOutput(<divinerpg:raw_arcanium>, AEONSTEEL, 0.03);
 arcana.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
@@ -498,7 +497,7 @@ arcana.build();
 
 var aurorian = RecipeBuilder.newBuilder("aurorian", "basic_miner", 200);
 aurorian.addEnergyPerTickInput(200);
-aurorian.setDimension([645]);
+aurorian.addDimensionInput(645);
 //不锈钢级
 aurorian.addItemUpgradeOutput(<theaurorian:moonstoneore>, STAINLESS, 0.05);
 aurorian.addItemUpgradeOutput(<theaurorian:ceruleanore>, STAINLESS, 0.03);
@@ -512,7 +511,7 @@ aurorian.build();
 
 var frozenlands = RecipeBuilder.newBuilder("frozen_lands", "basic_miner", 200);
 frozenlands.addEnergyPerTickInput(200);
-frozenlands.setDimension([823]);
+frozenlands.addDimensionInput(823);
 //恒钢级
 frozenlands.addItemUpgradeOutput(<additions:chillinium_ore>, AEONSTEEL, 0.04);
 frozenlands.addItemUpgradeOutput(<additions:germanium_ore>, AEONSTEEL, 0.03);
@@ -521,7 +520,7 @@ frozenlands.build();
 
 var boiling = RecipeBuilder.newBuilder("boiling_point", "basic_miner", 200);
 boiling.addEnergyPerTickInput(200);
-boiling.setDimension([822]);
+boiling.addDimensionInput(822);
 //恒钢级
 boiling.addItemUpgradeOutput(<additions:flamium_ore>, AEONSTEEL, 0.04);
 boiling.addItemUpgradeOutput(<journey:blazium>, AEONSTEEL, 0.03);
@@ -530,7 +529,7 @@ boiling.build();
 
 var euca = RecipeBuilder.newBuilder("euca", "basic_miner", 200);
 euca.addEnergyPerTickInput(200);
-euca.setDimension([820]);
+euca.addDimensionInput(820);
 //炫钢级
 euca.addItemUpgradeOutput(<journey:celestiumore>, CHROMASTEEL, 0.03);
 euca.addItemUpgradeOutput(<journey:koriteore>, CHROMASTEEL, 0.03);
@@ -541,7 +540,7 @@ euca.build();
 
 var depth = RecipeBuilder.newBuilder("depth", "basic_miner", 200);
 depth.addEnergyPerTickInput(200);
-depth.setDimension([821]);
+depth.addDimensionInput(821);
 //炫钢级
 depth.addItemUpgradeOutput(<journey:flairiumore>, CHROMASTEEL, 0.03);
 depth.addItemUpgradeOutput(<journey:desore>, CHROMASTEEL, 0.03);
@@ -552,7 +551,7 @@ depth.build();
 
 var corba = RecipeBuilder.newBuilder("corba", "basic_miner", 200);
 corba.addEnergyPerTickInput(200);
-corba.setDimension([824]);
+corba.addDimensionInput(824);
 //炫钢级
 corba.addItemUpgradeOutput(<journey:orbaditeore>, CHROMASTEEL, 0.03);
 corba.addItemUpgradeOutput(<journey:gorbitegem>, CHROMASTEEL, 0.04);
@@ -561,7 +560,7 @@ corba.build();
 
 var terrania = RecipeBuilder.newBuilder("terrania", "basic_miner", 200);
 terrania.addEnergyPerTickInput(200);
-terrania.setDimension([827]);
+terrania.addDimensionInput(827);
 //寰宇级
 terrania.addItemUpgradeOutput(<additions:chloroplast_ore>, COSMILITE, 0.04);
 terrania.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
@@ -569,7 +568,7 @@ terrania.build();
 
 var cloudia = RecipeBuilder.newBuilder("cloudia", "basic_miner", 200);
 cloudia.addEnergyPerTickInput(200);
-cloudia.setDimension([826]);
+cloudia.addDimensionInput(826);
 //寰宇级
 cloudia.addItemUpgradeOutput(<journey:lunitechunk>, COSMILITE, 0.04);
 cloudia.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
@@ -577,7 +576,7 @@ cloudia.build();
 
 var deepdark = RecipeBuilder.newBuilder("deep_dark", "basic_miner", 200);
 deepdark.addEnergyPerTickInput(200);
-deepdark.setDimension([-11325]);
+deepdark.addDimensionInput(-11325);
 //炫钢级
 deepdark.addItemUpgradeOutput(<additions:shadowium_ore>, CHROMASTEEL, 0.02);
 deepdark.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
@@ -585,7 +584,7 @@ deepdark.build();
 
 var city = RecipeBuilder.newBuilder("lost_city", "basic_miner", 200);
 city.addEnergyPerTickInput(200);
-city.setDimension([111]);
+city.addDimensionInput(111);
 //炫钢级
 city.addItemUpgradeOutput(<additions:limonite_ore>, DURASTEEL, 0.03);
 city.addItemUpgradeOutput(<additions:rosite_ore>, DURASTEEL, 0.025);
@@ -594,7 +593,7 @@ city.build();
 
 var everdawn = RecipeBuilder.newBuilder("everdawn", "basic_miner", 200);
 everdawn.addEnergyPerTickInput(200);
-everdawn.setDimension([77]);
+everdawn.addDimensionInput(77);
 //炫钢级
 everdawn.addItemUpgradeOutput(<blue_skies:horizonite_ore>, CHROMASTEEL, 0.02);
 everdawn.addItemUpgradeOutput(<blue_skies:diopside_gem>, CHROMASTEEL, 0.03);
@@ -608,7 +607,7 @@ everdawn.build();
 
 var everbright = RecipeBuilder.newBuilder("everbright", "basic_miner", 200);
 everbright.addEnergyPerTickInput(200);
-everbright.setDimension([76]);
+everbright.addDimensionInput(76);
 //炫钢级
 everbright.addItemUpgradeOutput(<blue_skies:falsite_ore>, CHROMASTEEL, 0.02);
 everbright.addItemUpgradeOutput(<blue_skies:ventium_ore>, CHROMASTEEL, 0.02);
@@ -623,7 +622,7 @@ everbright.build();
 
 var everheaven = RecipeBuilder.newBuilder("everheaven", "basic_miner", 200);
 everheaven.addEnergyPerTickInput(200);
-everheaven.setDimension([78]);
+everheaven.addDimensionInput(78);
 //寰宇级
 everheaven.addItemUpgradeOutput(<tiths:ore_halleium>, COSMILITE, 0.008);
 everheaven.addItemUpgradeOutput(<tiths:ore_altairium>, COSMILITE, 0.008);
@@ -636,7 +635,7 @@ everheaven.build();
 
 var voidland = RecipeBuilder.newBuilder("void", "basic_miner", 200);
 voidland.addEnergyPerTickInput(200);
-voidland.setDimension([100]);
+voidland.addDimensionInput(100);
 //寰宇级
 voidland.addItemUpgradeOutput(<minecraft:bedrock>, COSMILITE, 0.3);
 voidland.addItemUpgradeOutput(<additions:void_harcadium_ore>, COSMILITE, 0.1);
@@ -646,7 +645,7 @@ voidland.build();
 
 var nowhere = RecipeBuilder.newBuilder("nowhere", "basic_miner", 200);
 nowhere.addEnergyPerTickInput(200);
-nowhere.setDimension([101]);
+nowhere.addDimensionInput(101);
 //寰宇级
 nowhere.addItemUpgradeOutput(<additions:void_harcadium_ore>, COSMILITE, 0.15);
 nowhere.addItemUpgradeOutput(<additions:void_ore>, COSMILITE, 0.06);
@@ -658,7 +657,7 @@ nowhere.build();
 
 var order = RecipeBuilder.newBuilder("order", "basic_miner", 200);
 order.addEnergyPerTickInput(200);
-order.setDimension([102]);
+order.addDimensionInput(102);
 //终焉级
 order.addItemUpgradeOutput(<gct_ores:order_crystal>, FINALLIUM, 0.0005);
 order.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
@@ -666,7 +665,7 @@ order.build();
 
 var betweenland = RecipeBuilder.newBuilder("betweenland", "basic_miner", 200);
 betweenland.addEnergyPerTickInput(200);
-betweenland.setDimension([20]);
+betweenland.addDimensionInput(20);
 //终焉级
 betweenland.addItemUpgradeOutput(<thebetweenlands:octine_ore>, FINALLIUM, 0.04);
 betweenland.addItemUpgradeOutput(<thebetweenlands:syrmorite_ore>, FINALLIUM, 0.04);
@@ -683,7 +682,7 @@ betweenland.build();
 
 var alfheim = RecipeBuilder.newBuilder("alfheim", "basic_miner", 200);
 alfheim.addEnergyPerTickInput(200);
-alfheim.setDimension([42]);
+alfheim.addDimensionInput(42);
 //寰宇级
 alfheim.addItemUpgradeOutput(<gct_mobs:elementium_ore>, COSMILITE, 0.03);
 alfheim.addItemUpgradeOutput(<gct_mobs:terrasteel_ore>, COSMILITE, 0.008);
@@ -694,7 +693,7 @@ alfheim.build();
 
 var starland = RecipeBuilder.newBuilder("starland", "basic_miner", 200);
 starland.addEnergyPerTickInput(200);
-starland.setDimension([80]);
+starland.addDimensionInput(80);
 //寰宇级
 starland.addItemUpgradeOutput(<astralsorcery:itemcraftingcomponent>, COSMILITE, 0.05);
 starland.addItemUpgradeOutput(<additions:star_metal_ore>, COSMILITE, 0.04);
@@ -708,7 +707,7 @@ starland.build();
 
 var atlantis = RecipeBuilder.newBuilder("atlantis", "basic_miner", 200);
 atlantis.addEnergyPerTickInput(200);
-atlantis.setDimension([324987]);
+atlantis.addDimensionInput(324987);
 //寰宇级
 atlantis.addItemUpgradeOutput(<additions:tanatonium_ore>, COSMILITE, 0.015);
 atlantis.addItemUpgradeOutput(<additions:imitatium_ore>, COSMILITE, 0.015);

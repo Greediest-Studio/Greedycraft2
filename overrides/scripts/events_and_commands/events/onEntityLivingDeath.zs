@@ -59,7 +59,7 @@ events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
         // Death quotes
         var deathQuotesArray as string[] = deathQuotes[LangUtil.getLanguage()];
         var index as int = Math.floor(Math.random() * deathQuotesArray.length as float) as int;
-        if (index < deathQuotesArray.length && index >= 0 && !player.hasGameStageSlient("hide_death_quotes")) {
+        if (index < deathQuotesArray.length && index >= 0 && !player.hasGameStageSilent("hide_death_quotes")) {
             var quote as string = deathQuotesArray[index];
             quote = quote.replace("%playername%", player.name);
             player.sendChat(quote);
