@@ -24,17 +24,11 @@ SummoningDirector.addSummonInfo(
         .setConsumeCatalyst(true)
         .setReagents([])
         .addMob(MobInfo.create()
-            .setMob("endreborn:endlord")
+            .setMob("mca:grimreapermca")
             .setCount(1)
             .setOffset(0,4,0)
             .setSpread(1,1,1)
-            .setData({HandItems: [{id: "additions:end_seed", Count: 1 as byte, Damage: 0 as short}, {}], HandDropChances: [1.0f, 0.0f], "Health": BARAKO_HP, "Attributes":[{"Name":"generic.maxHealth","Base": BARAKO_HP}]})
-        )
-        .addMob(MobInfo.create()
-            .setMob("endreborn:endguard")
-            .setCount(BARAKO_MINION_COUNT)
-            .setOffset(0,4,0)
-            .setSpread(7,3,7)
+            .setData({HandItems: [{id: "additions:end_seed", Count: 1 as byte, Damage: 0 as short}, {}], HandDropChances: [1.0f, 0.0f], "Health": GRIMREAPER_HP, "Attributes":[{"Name":"generic.maxHealth","Base": GRIMREAPER_HP}]})
         )
         .setMutator(function (attempt as SummoningAttempt) {
             var pos = attempt.pos;
@@ -76,7 +70,7 @@ SummoningDirector.addSummonInfo(
             } else if (attempt.world.getProvider().getDimensionID() != 1) {
                 attempt.success = false;
                 attempt.message = LangUtil.translate("greedycraft.zensummoning.end.fail.5");
-            } else { 
+            } else {
                 attempt.message = LangUtil.translate("greedycraft.zensummoning.end.success");
             }
         })
