@@ -48,12 +48,8 @@ zenClass ticLib {
         <plustic:laser_gun>,
         <plustic:katana>,
         <totaltinkers:battleaxe>,
-        <totaltinkers:cutlass>,
-        <totaltinkers:javelin>,
         <totaltinkers:dagger>,
         <totaltinkers:greatblade>,
-        <totaltinkers:scimitar>,
-        <totaltinkers:explosive_bow>,
         <tconevo:tool_sceptre>,
         <hydrogenation_tinker:energy_stick>
     ];
@@ -95,12 +91,8 @@ zenClass ticLib {
             <plustic:laser_gun>,
             <plustic:katana>,
             <totaltinkers:battleaxe>,
-            <totaltinkers:cutlass>,
-            <totaltinkers:javelin>,
             <totaltinkers:dagger>,
             <totaltinkers:greatblade>,
-            <totaltinkers:scimitar>,
-            <totaltinkers:explosive_bow>,
             <tconevo:tool_sceptre>,
             <hydrogenation_tinker:energy_stick>
         ];
@@ -398,8 +390,7 @@ zenClass ticLib {
             <moretcon:blbow>,
             <tconstruct:shortbow>,
             <tconstruct:longbow>,
-            <tconstruct:crossbow>,
-            <totaltinkers:explosive_bow>
+            <tconstruct:crossbow>
         ];
 
         for i in item{
@@ -410,7 +401,7 @@ zenClass ticLib {
                 }
             }
         }
-        
+
         if(!pass) return false;
         if(isNull(itemStack.tag.Stats.DrawSpeed)) return false;
 

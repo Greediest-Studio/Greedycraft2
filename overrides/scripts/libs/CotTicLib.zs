@@ -49,12 +49,8 @@ zenClass cotticLib {
         <item:plustic:laser_gun>,
         <item:plustic:katana>,
         <item:totaltinkers:battleaxe>,
-        <item:totaltinkers:cutlass>,
-        <item:totaltinkers:javelin>,
         <item:totaltinkers:dagger>,
         <item:totaltinkers:greatblade>,
-        <item:totaltinkers:scimitar>,
-        <item:totaltinkers:explosive_bow>,
         <item:tconevo:tool_sceptre>,
         <item:hydrogenation_tinker:energy_stick>
     ];
@@ -98,12 +94,8 @@ zenClass cotticLib {
             <item:moretcon:ring>,
             <item:moretcon:gauntlet>,
             <item:totaltinkers:battleaxe>,
-            <item:totaltinkers:cutlass>,
-            <item:totaltinkers:javelin>,
             <item:totaltinkers:dagger>,
             <item:totaltinkers:greatblade>,
-            <item:totaltinkers:scimitar>,
-            <item:totaltinkers:explosive_bow>,
             <item:tconevo:tool_sceptre>,
             <item:hydrogenation_tinker:energy_stick>
         ];
@@ -403,8 +395,7 @@ zenClass cotticLib {
             <item:moretcon:blbow>,
             <item:tconstruct:shortbow>,
             <item:tconstruct:longbow>,
-            <item:tconstruct:crossbow>,
-            <item:totaltinkers:explosive_bow>
+            <item:tconstruct:crossbow>
         ];
 
         for i in item{

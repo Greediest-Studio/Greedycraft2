@@ -53,12 +53,8 @@ zenClass cotticTraitLib {
         <item:plustic:laser_gun>,
         <item:plustic:katana>,
         <item:totaltinkers:battleaxe>,
-        <item:totaltinkers:cutlass>,
-        <item:totaltinkers:javelin>,
         <item:totaltinkers:dagger>,
         <item:totaltinkers:greatblade>,
-        <item:totaltinkers:scimitar>,
-        <item:totaltinkers:explosive_bow>,
         <item:tconevo:tool_sceptre>,
         <item:hydrogenation_tinker:energy_stick>
     ];
@@ -257,16 +253,12 @@ zenClass cotticTraitLib {
             <item:moretcon:blpick>,
             <item:moretcon:blbow>,
             <item:moretcon:ring>,
-            <item:moretcon:gauntlet>,        
+            <item:moretcon:gauntlet>,
             <item:plustic:laser_gun>,
             <item:plustic:katana>,
             <item:totaltinkers:battleaxe>,
-            <item:totaltinkers:cutlass>,
-            <item:totaltinkers:javelin>,
             <item:totaltinkers:dagger>,
             <item:totaltinkers:greatblade>,
-            <item:totaltinkers:scimitar>,
-            <item:totaltinkers:explosive_bow>,
             <item:tconevo:tool_sceptre>,
             <item:hydrogenation_tinker:energy_stick>
         ];

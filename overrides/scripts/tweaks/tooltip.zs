@@ -122,7 +122,6 @@ val tooltipMap as string[][IIngredient] = {
     <tconstruct:longbow> : [bow_speed],
     <tconstruct:crossbow> : [bow_speed],
     <tconstruct:bow_limb> : [bow_speed],
-    <totaltinkers:explosive_bow> : [bow_speed],
     <moretcon:blbowlimb> : [bow_speed],
     <moretcon:blbow> : [bow_speed],
     <modularmachinery:itemblueprint> : [game.localize("greedycraft.tooltip.modularmachinery.itemblueprint.1"), game.localize("greedycraft.tooltip.modularmachinery.itemblueprint.2")],

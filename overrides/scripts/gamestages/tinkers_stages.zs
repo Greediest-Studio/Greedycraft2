@@ -97,9 +97,6 @@ val toolTypeStages as string[string] = {
     "tconstruct:cleaver": "tactic_blueprint",
     "tconstruct:shuriken": "shuriken_blueprint",
     "totaltinkers:battleaxe": "tinkering_blueprint",
-    "totaltinkers:cutlass": "tinkering_blueprint",
-    "totaltinkers:explosive_bow": "tinkering_blueprint",
-    "totaltinkers:scimitar": "tinkering_blueprint",
     "moretcon:gauntlet": "ring_blueprint",
     "moretcon:ring": "ring_blueprint",
     "moretcon:blaxe": "betweenland_traveller",
@@ -107,7 +104,7 @@ val toolTypeStages as string[string] = {
     "moretcon:blsword": "betweenland_traveller",
     "moretcon:blshovel": "betweenland_traveller",
     "moretcon:blbow": "betweenland_traveller",
-    "totaltinkers:greatblade": "graduated"
+    "totaltinkers:greatblade": "tinkering_blueprint"
 } as string[string];
 
 TinkerStages.addModifierStage("hardmode", "mending_moss");

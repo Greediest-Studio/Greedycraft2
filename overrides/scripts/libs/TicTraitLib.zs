@@ -50,13 +50,9 @@ zenClass ticTraitLib {
         <moretcon:gauntlet>,
         <plustic:laser_gun>,
         <plustic:katana>,
-        <totaltinkers:battleaxe>,
-        <totaltinkers:cutlass>,
-        <totaltinkers:javelin>,
-        <totaltinkers:dagger>,
-        <totaltinkers:greatblade>,
-        <totaltinkers:scimitar>,
-        <totaltinkers:explosive_bow>,
+        <tcongreedyaddon:battleaxe>,
+        <tcongreedyaddon:dagger>,
+        <tcongreedyaddon:greatblade>,
         <tconevo:tool_sceptre>,
         <hydrogenation_tinker:energy_stick>
     ];
@@ -263,12 +259,8 @@ zenClass ticTraitLib {
         <plustic:laser_gun>,
         <plustic:katana>,
         <totaltinkers:battleaxe>,
-        <totaltinkers:cutlass>,
-        <totaltinkers:javelin>,
         <totaltinkers:dagger>,
         <totaltinkers:greatblade>,
-        <totaltinkers:scimitar>,
-        <totaltinkers:explosive_bow>,
         <tconevo:tool_sceptre>,
         <hydrogenation_tinker:energy_stick>
         ];
