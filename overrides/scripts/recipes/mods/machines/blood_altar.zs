@@ -188,20 +188,24 @@ MMEvents.onMachinePreTick("blood_altar", function(event as MachineTickEvent) {
     //外界输入模式
     if (!world.isRemote() && world.getWorldTime() % checkTime == 0 && event.controller.getAltarMode() == 0) {
         var currentAltarAmount as int = altar.data.bloodAltar.Amount as int;
-        if (currentAltarAmount > extractNum) {
-            world.setBlockState(<blockstate:bloodmagic:altar>, altar.data.update({bloodAltar : {Amount : currentAltarAmount - extractNum}}), event.controller.pos.down(4));
-            var newLP as long = event.controller.getAltarLP() + (extractNum as long);
-            if (newLP > event.controller.getAltarCapacity()) {
-                newLP = event.controller.getAltarCapacity();
+        var controllerAvailableSpace as long = event.controller.getAltarCapacity() - event.controller.getAltarLP();
+        var transferBlood as long = 0L;
+        if(controllerAvailableSpace > 0 && currentAltarAmount > 0) {
+            if(currentAltarAmount > extractNum) {
+                if(controllerAvailableSpace >= extractNum) {
+                    transferBlood = extractNum as long;
+                } else {
+                    transferBlood = controllerAvailableSpace;
+                }
+            } else {
+                if(controllerAvailableSpace >= currentAltarAmount){
+                    transferBlood = currentAltarAmount as long;
+                } else {
+                    transferBlood = controllerAvailableSpace;
+                }
             }
-            event.controller.customData = event.controller.customData.update({LP : newLP});
-        } else if (currentAltarAmount > 0) {
-            world.setBlockState(<blockstate:bloodmagic:altar>, altar.data.update({bloodAltar : {Amount : 0}}), event.controller.pos.down(4));
-            var newLP as long = event.controller.getAltarLP() + (currentAltarAmount as long);
-            if (newLP > event.controller.getAltarCapacity()) {
-                newLP = event.controller.getAltarCapacity();
-            }
-            event.controller.customData = event.controller.customData.update({LP : newLP});
+            world.setBlockState(<blockstate:bloodmagic:altar>, altar.data.update({bloodAltar : {Amount : currentAltarAmount - (transferBlood as int)}}), event.controller.pos.down(4));
+            event.controller.customData = event.controller.customData.update({LP : event.controller.getAltarLP() + transferBlood});
         }
     }
     //向血之祭坛输出模式
