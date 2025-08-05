@@ -258,9 +258,9 @@ zenClass ticTraitLib {
         <moretcon:gauntlet>,
         <plustic:laser_gun>,
         <plustic:katana>,
-        <totaltinkers:battleaxe>,
-        <totaltinkers:dagger>,
-        <totaltinkers:greatblade>,
+        <tcongreedyaddon:battleaxe>,
+        <tcongreedyaddon:dagger>,
+        <tcongreedyaddon:greatblade>,
         <tconevo:tool_sceptre>,
         <hydrogenation_tinker:energy_stick>
         ];

@@ -48,9 +48,9 @@ zenClass cotticLib {
         <item:moretcon:gauntlet>,
         <item:plustic:laser_gun>,
         <item:plustic:katana>,
-        <item:totaltinkers:battleaxe>,
-        <item:totaltinkers:dagger>,
-        <item:totaltinkers:greatblade>,
+        <item:tcongreedyaddon:battleaxe>,
+        <item:tcongreedyaddon:dagger>,
+        <item:tcongreedyaddon:greatblade>,
         <item:tconevo:tool_sceptre>,
         <item:hydrogenation_tinker:energy_stick>
     ];
@@ -93,9 +93,9 @@ zenClass cotticLib {
             <item:plustic:katana>,
             <item:moretcon:ring>,
             <item:moretcon:gauntlet>,
-            <item:totaltinkers:battleaxe>,
-            <item:totaltinkers:dagger>,
-            <item:totaltinkers:greatblade>,
+            <item:tcongreedyaddon:battleaxe>,
+            <item:tcongreedyaddon:dagger>,
+            <item:tcongreedyaddon:greatblade>,
             <item:tconevo:tool_sceptre>,
             <item:hydrogenation_tinker:energy_stick>
         ];
