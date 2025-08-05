@@ -290,3 +290,87 @@ addBuilderRecipe(<modularmachinery:flux_reducer_factory_controller>, [
     <ore:ingotAeonsteel> * 12,
     <ore:ingotDurasteel> * 4
 ], 2, 2800);
+
+addBuilderRecipe(<modularmachinery:organic_infuser_factory_controller>, [
+    <additions:logic_processor_2> * 4,
+    <additions:calculation_processor_2> * 4,
+    <additions:engineering_processor_2> * 13,
+    <crazyae:material:16> * 4,
+    <crazyae:material:48> * 2,
+    <ore:ingotModularium> * 64,
+    <ore:ingotInferium> * 32,
+    <ore:ingotPrudentium> * 24,
+    <ore:ingotIntermedium> * 16,
+    <ore:ingotSuperium> * 8,
+    <ore:ingotSupremium> * 4,
+    <ore:ingotInsanium> * 2,
+    <ore:gemApatite> * 128
+], 2, 3600);
+
+addBuilderRecipe(<modularmachinery:matrix_fusioner_factory_controller>, [
+    <additions:logic_processor_2> * 6,
+    <additions:calculation_processor_2> * 6,
+    <additions:engineering_processor_2> * 6,
+    <crazyae:material:16> * 4,
+    <threng:material:14> * 4,
+    <ore:ingotModularium> * 64,
+    <ore:ingotTerrax> * 16,
+    <ore:ingotTiberium> * 16,
+    <ore:ingotFractum> * 16,
+    <ore:ingotViolium> * 16,
+    <ore:ingotDyonite> * 16,
+    <ore:ingotLumix> * 16,
+    <ore:ingotNiob> * 16,
+    <ore:ingotNihilite> * 16,
+    <ore:ingotFusionMatrix> * 4
+], 2, 3000);
+
+addBuilderRecipe(<modularmachinery:air_collector_factory_controller>, [
+    <additions:logic_processor_2> * 8,
+    <additions:calculation_processor_2> * 6,
+    <additions:engineering_processor_2> * 4,
+    <crazyae:material:48> * 6,
+    <crazyae:material:16> * 4,
+    <ore:ingotModularium> * 48,
+    <ore:ingotOsgloglas> * 32,
+    <ore:ingotOsmiridium> * 32,
+    <ore:ingotLeadPlatinum> * 24,
+    <ore:ingotAlumite> * 24,
+    <ore:ingotManyullyn> * 24,
+    <ore:latticeDiamond> * 8
+], 2, 4000);
+
+addBuilderRecipe(<modularmachinery:aeonsteel_forge_factory_controller>, [
+    <additions:logic_processor_2> * 18,
+    <additions:calculation_processor_2> * 18,
+    <additions:engineering_processor_2> * 18,
+    <ore:ingotModularium> * 48,
+    <ore:ingotOsgloglas> * 32,
+    <ore:ingotDurasteel> * 24,
+    <ore:ingotGenite> * 24,
+    <ore:ingotFusionMatrix> * 16,
+    <ore:ingotTerrasteel> * 12,
+    <ore:ingotBoundMetal> * 12,
+    <ore:ingotEndusium> * 12,
+    <tinkersaether:valkyrie_ingot> * 8,
+    <ore:ingotNetherite> * 4
+], 2, 9600);
+
+addBuilderRecipe(<modularmachinery:builder_3_factory_controller>, [
+    <additions:logic_processor_2> * 12,
+    <additions:calculation_processor_2> * 12,
+    <additions:engineering_processor_2> * 12,
+    <crazyae:material:16> * 8,
+    <crazyae:material:48> * 8,
+    <additions:wireless_processor> * 8,
+    <ore:ingotModularium> * 64,
+    <ore:ingotAeonsteel> * 16,
+    <ore:ingotDraconiumAwakened> * 16,
+    <ore:ingotWitheriumRelifed> * 16,
+    <ore:ingotWyvernMetal> * 12,
+    <ore:ingotFallenMetal> * 12,
+    <ore:ingotGenite> * 8,
+    <ore:ingotFusionMatrix> * 8,
+    <ore:ingotAlfsteel> * 4,
+    <ore:ingotEndestSteel> * 4
+], 2, 2400);

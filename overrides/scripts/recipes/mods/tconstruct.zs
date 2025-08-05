@@ -597,3 +597,30 @@ val removeToolPartCrafting as IItemStack[] = [
 for removeItem in removeToolPartCrafting {
     Casting.removeTableRecipe(removeItem);
 }
+
+Alloy.addRecipe(<liquid:deifugurite> * 9, [
+    <liquid:glowstone> * 125,
+    <liquid:ender> * 125,
+    <liquid:redstone> * 125,
+    <liquid:iron> * 90,
+    <liquid:copper> * 90,
+    <liquid:silver> * 90,
+    <liquid:tin> * 90,
+    <liquid:gold> * 90,
+    <liquid:nickel> * 90,
+    <liquid:cobalt> * 90,
+    <liquid:ardite> * 90,
+    <liquid:invar> * 90,
+    <liquid:constantan> * 90,
+    <liquid:bronze> * 90,
+    <liquid:electrum> * 90,
+    <liquid:electrum_flux> * 90,
+    <liquid:signalum> * 90,
+    <liquid:rose_gold> * 90,
+    <liquid:manyullyn> * 90,
+    <liquid:magiga> * 90,
+    <liquid:energetic_alloy> * 90,
+    <liquid:conductive_iron> * 90,
+    <liquid:pulsating_iron> * 90,
+    <liquid:vibrant_alloy> * 90
+]);

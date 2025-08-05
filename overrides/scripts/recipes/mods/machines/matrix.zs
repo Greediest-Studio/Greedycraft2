@@ -12,10 +12,19 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
 import mods.modularmachinery.RecipeBuilder;
+import mods.modularmachinery.MachineUpgradeBuilder;
+import mods.modularmachinery.MachineUpgradeHelper;
 import mods.modularmachinery.MachineModifier;
+import mods.modularmachinery.IMachineController;
+import mods.modularmachinery.RecipePrimer;
+import mods.modularmachinery.RecipeModifier;
+import mods.modularmachinery.RecipeModifierBuilder;
+import mods.modularmachinery.FactoryRecipeThread;
 import mods.modularmachinery.RecipeAdapterBuilder;
+import mods.modularmachinery.RecipeCheckEvent;
+import mods.modularmachinery.ControllerGUIRenderEvent;
+import mods.modularmachinery.MMEvents;
 import mods.ctutils.utils.Math;
-import mods.jei.JEI;
 
 import scripts.util.machines as MMUtil;
 
@@ -48,3 +57,19 @@ RecipeBuilder.newBuilder("balanced_matrix", "matrix_balancer", 4000)
     .build();
 
 RecipeAdapterBuilder.create("matrix_balancer", "modularmachinery:matrix_fusioner").build();
+
+MMEvents.onControllerGUIRender("matrix_fusioner", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = [
+        "§a///矩阵聚合仪控制面板///",
+        "§a机器名称：§eLV2 - 矩阵聚合仪"
+    ];
+    event.extraInfo = info;
+});
+
+MMEvents.onControllerGUIRender("matrix_balancer", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = [
+        "§a///矩阵平衡仪控制面板///",
+        "§a机器名称：§eLV4 - 矩阵平衡仪"
+    ];
+    event.extraInfo = info;
+});

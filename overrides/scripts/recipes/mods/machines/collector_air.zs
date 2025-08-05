@@ -8,7 +8,23 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
 import mods.modularmachinery.RecipeBuilder;
+import mods.modularmachinery.MachineUpgradeBuilder;
+import mods.modularmachinery.MachineUpgradeHelper;
+import mods.modularmachinery.MachineModifier;
+import mods.modularmachinery.IMachineController;
+import mods.modularmachinery.RecipePrimer;
+import mods.modularmachinery.RecipeModifier;
+import mods.modularmachinery.RecipeModifierBuilder;
+import mods.modularmachinery.FactoryRecipeThread;
+import mods.modularmachinery.RecipeAdapterBuilder;
+import mods.modularmachinery.RecipeCheckEvent;
+import mods.modularmachinery.ControllerGUIRenderEvent;
+import mods.modularmachinery.MMEvents;
 import mods.ctutils.utils.Math;
+
+MachineModifier.setMaxParallelism("air_collector", 256);
+MachineModifier.setInternalParallelism("air_collector", 1);
+MachineModifier.setMaxThreads("air_collector", 1);
 
 RecipeBuilder.newBuilder("overworld_air", "air_collector", 2)
     .addDimensionInput(0)
@@ -51,3 +67,11 @@ RecipeBuilder.newBuilder("abyss_air4", "air_collector", 2)
     .addEnergyPerTickInput(100)
     .addGasOutput(<gas:airabyss> * 500)
     .build();
+
+MMEvents.onControllerGUIRender("air_collector", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = [
+        "§a///空气收集器控制面板///",
+        "§a机器名称：§eLV2 - 空气收集器"
+    ];
+    event.extraInfo = info;
+});
