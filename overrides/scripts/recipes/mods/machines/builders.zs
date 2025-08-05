@@ -352,7 +352,7 @@ addBuilderRecipe(<modularmachinery:aeonsteel_forge_factory_controller>, [
     <ore:ingotTerrasteel> * 12,
     <ore:ingotBoundMetal> * 12,
     <ore:ingotEndusium> * 12,
-    <tinkersaether:valkyrie_ingot> * 8,
+    <ore:ingotValkyrie> * 8,
     <ore:ingotNetherite> * 4
 ], 2, 9600);
 
@@ -371,6 +371,23 @@ addBuilderRecipe(<modularmachinery:builder_3_factory_controller>, [
     <ore:ingotFallenMetal> * 12,
     <ore:ingotGenite> * 8,
     <ore:ingotFusionMatrix> * 8,
-    <ore:ingotAlfsteel> * 4,
+    <ore:ingotElfsteel> * 4,
     <ore:ingotEndestSteel> * 4
 ], 2, 2400);
+
+//LV3
+addBuilderRecipe(<modularmachinery:chromasteel_forge_factory_controller>, [
+    <additions:logic_processor_2> * 32,
+    <additions:calculation_processor_2> * 32,
+    <additions:engineering_processor_2> * 32,
+    <ore:ingotModularium> * 72,
+    <ore:ingotMistAlloy> * 32,
+    <ore:ingotAeonsteel> * 24,
+    <ore:ingotVoid> * 24,
+    <ore:ingotPhotonium> * 16,
+    <ore:ingotShadowium> * 16,
+    <ore:ingotAuraIron> * 12,
+    <ore:ingotEnderite> * 8,
+    <ore:ingotCrimsonite> * 4,
+    <ore:ingotMythsteel> * 4
+], 3, 11200);
