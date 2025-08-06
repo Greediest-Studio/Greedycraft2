@@ -1,7 +1,7 @@
 {
   "main": {
     "0": {
-      "title": "��5�鿴��ǰ�Ѷ� ��9��oScalingHealth",
+      "title": "查看难度",
       "icon": {
         "name": "headcrumbs:skull",
         "damage": 0
@@ -14,9 +14,9 @@
       }
     },
     "1": {
-      "title": "��6����չ��Ʒ�� ��7(����ѽ���) ��9��oCyclic",
+      "title": "Cyclic便携末影箱",
       "icon": {
-        "name": "forestry:apiarist_bag",
+        "name": "minecraft:ender_chest",
         "damage": 0
       },
       "action": {
@@ -27,7 +27,7 @@
       }
     },
     "2": {
-      "title": "��6�򿪿��ٺϳ�̨ ��7(����ѽ���) ��9��oCyclic",
+      "title": "Cyclic便携工作台",
       "icon": {
         "name": "minecraft:crafting_table",
         "damage": 0
@@ -40,93 +40,93 @@
       }
     },
     "3": {
-      "title": "��5�ͷ�ʵ�� ��9��oPlusTiC",
+      "title": "自定义",
       "icon": {
-        "name": "minecraft:spawn_egg",
+        "name": "minecraft:stone",
         "damage": 0
       },
       "action": {
-        "key": {
-          "key": "key.plustic_release_entity.desc",
-          "toggle": false
+        "command": {
+          "command": "留给你自定义啦",
+          "clipboard": false
         }
       }
     },
     "4": {
-      "title": "��3���޵�֮�� ��9��o/dank/null",
+      "title": "无线接口终端",
       "icon": {
-        "name": "minecraft:chest",
+        "name": "ae2fc:wireless_fluid_pattern_terminal",
         "damage": 0
       },
       "action": {
         "key": {
-          "key": "key.open_danknull.desc",
+          "key": "key.open_wireless_interface_terminal.desc",
           "toggle": false
         }
       }
     },
     "5": {
-      "title": "��6�򿪱��� ��9��oSimply Backpacks",
+      "title": "无线样板终端",
       "icon": {
-        "name": "simplybackpacks:commonbackpack",
+        "name": "appliedenergistics2:wireless_pattern_terminal",
         "damage": 0
       },
       "action": {
         "key": {
-          "key": "key.simplybackpacks.backpackopen.desc",
+          "key": "key.open_wireless_pattern_terminal.desc",
           "toggle": false
         }
       }
     },
     "6": {
-      "title": "��6�����ߺϳ��ն� ��7(�����װ��) ��9��oWCT2",
+      "title": "无线合成终端",
       "icon": {
-        "name": "wct:wct",
+        "name": "appliedenergistics2:wireless_crafting_terminal",
         "damage": 0
       },
       "action": {
         "key": {
-          "key": "key.open_wct.desc",
+          "key": "key.open_wireless_crafting_terminal.desc",
           "toggle": false
         }
       }
     },
     "7": {
-      "title": "��a�л���ʵ��һ�˳ơ�r��9��o RealFirstPerson2",
+      "title": "精妙背包",
       "icon": {
-        "name": "minecraft:skull",
-        "damage": 3
+        "name": "retro_sophisticated_backpacks:backpack_diamond",
+        "damage": 0
       },
       "action": {
         "key": {
-          "key": "key.mod.desc",
+          "key": "retro_sophisticated_backpacks.key.open_backpack.desc",
           "toggle": false
         }
       }
     },
     "8": {
-      "title": "��6�����ڴ� ��9��oMemory Cleaner",
+      "title": "垃圾桶",
       "icon": {
-        "name": "additions:item_purger",
-        "damage": 0
-      },
-      "action": {
-        "command": {
-          "command": "/cleanmemory",
-          "clipboard": false
-        }
-      }
-    },
-    "9": {
-      "title": "��a�л��ſ�ģʽ ��9��oWCT2",
-      "icon": {
-        "name": "wct:magnet_card",
+        "name": "extrautils2:trashcan",
         "damage": 0
       },
       "action": {
         "key": {
-          "key": "key.cycle_magnet_mode.desc",
+          "key": "key.ftbutilities.trash",
           "toggle": false
+        }
+      }
+    },
+    "9": {
+      "title": "清理掉落物",
+      "icon": {
+        "name": "minecraft:flint_and_steel",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/kill @e[type\u003ditem]",
+          "clipboard": false
         }
       }
     }
