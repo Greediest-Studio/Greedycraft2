@@ -11,76 +11,84 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.entity.IEntityDefinition;
+import crafttweaker.util.Position3f;
 
 import mods.modularmachinery.RecipeBuilder;
+import mods.modularmachinery.MachineUpgradeBuilder;
+import mods.modularmachinery.MachineUpgradeHelper;
+import mods.modularmachinery.MachineModifier;
+import mods.modularmachinery.IMachineController;
+import mods.modularmachinery.RecipePrimer;
+import mods.modularmachinery.RecipeModifier;
+import mods.modularmachinery.RecipeModifierBuilder;
+import mods.modularmachinery.FactoryRecipeThread;
+import mods.modularmachinery.RecipeAdapterBuilder;
+import mods.modularmachinery.RecipeCheckEvent;
+import mods.modularmachinery.ControllerGUIRenderEvent;
+import mods.modularmachinery.MMEvents;
 import mods.ctutils.utils.Math;
-import mods.jei.JEI;
 
-RecipeBuilder.newBuilder("abyss_oc", "abyss_ceremony_executant", 100)
-    .addItemInput(<abyssalcraft:oblivionshard> * 4)
-    .addItemInput(<minecraft:ender_eye> * 1)
-    .addItemInput(<minecraft:redstone> * 4)
-    .addFluidInput(<liquid:pe> * 500)
-    .addEnergyPerTickInput(100)
-    .addItemOutput(<abyssalcraft:oc> * 1)
-    .build();
+MachineModifier.setMaxParallelism("abyss_ceremony_executant", 256);
+MachineModifier.setInternalParallelism("abyss_ceremony_executant", 1);
+MachineModifier.setMaxThreads("abyss_ceremony_executant", 8);
 
-RecipeBuilder.newBuilder("abyss_trans", "abyss_ceremony_executant", 100)
-    .addItemInput(<abyssalcraft:cpearl> * 1)
-    .addItemInput(<minecraft:diamond> * 2)
-    .addItemInput(<minecraft:blaze_powder> * 4)
-    .addItemInput(<minecraft:ender_pearl> * 2)
-    .addFluidInput(<liquid:pe> * 30)
-    .addEnergyPerTickInput(100)
-    .addItemOutput(<abyssalcraft:transmutationgem> * 1)
-    .build();
+$expand RecipePrimer$addSacrificeInput() {
+    this.addFactoryStartHandler(function(event as RecipeCheckEvent) {
+        var x as float = event.controller.pos.x as float;
+        var y as float = event.controller.pos.y as float;
+        var z as float = event.controller.pos.z as float;
+        var sacrificeList as IEntityDefinition[] = [
+            <entity:minecraft:sheep>,
+            <entity:minecraft:pig>,
+            <entity:minecraft:cow>,
+            <entity:minecraft:chicken>
+        ];
+        var entityList = event.controller.world.getEntitiesInArea(Position3f.create(x + 4, y + 1, z + 4), Position3f.create(x - 4, y - 1, z - 4));
+        var pass as bool = false;
+        for ent in entityList {
+            if (!isNull(ent.definition)) {
+                if (sacrificeList has ent.definition) {
+                    event.controller.world.removeEntity(ent);
+                    pass = true;
+                    break;
+                }
+            }
+        }
+        if (!pass) {
+            event.setFailed("缺少祭品输入");
+        }
+    });
+    this.addRecipeTooltip("§4需要祭品");
+}
 
-RecipeBuilder.newBuilder("key_empty", "abyss_ceremony_executant", 100)
-    .addItemInput(<abyssalcraft:gatewaykey> * 1)
-    .addItemInput(<projecte:item.pe_matter> * 8)
-    .addFluidInput(<liquid:pe> * 1000)
-    .addEnergyPerTickInput(100)
-    .addItemOutput(<gct_ores:door_key_empty> * 1)
-    .build();
+function addRitualRecipe(output as IItemStack, inputs as IIngredient[], potEnergy as int, dim as int, sacrifice as bool) {
+    var builder = RecipeBuilder.newBuilder(output.definition.id ~ (output.metadata as string), "abyss_ceremony_executant", 200);
+    var pe as int = Math.floor(0.0144d * potEnergy) as int;
+    builder.addFluidInput(<liquid:pe> * pe);
+    for input in inputs {
+        builder.addItemInput(input);
+    }
+    builder.addItemOutput(output);
+    builder.addEnergyPerTickInput(4096);
+    if (dim != -1) {
+        builder.addDimensionInput(dim);
+    }
+    if (sacrifice) {
+        builder.addSacrificeInput();
+    }
+    builder.build();
+}
 
-RecipeBuilder.newBuilder("ancientmud", "abyss_ceremony_executant", 100)
-    .addItemInput(<gct_aby:shoggothtancale> * 4)
-    .addItemInput(<gct_aby:essenceofdarkerrealm> * 2)
-    .addItemInput(<gct_mobs:sanite_block> * 1)
-    .addItemInput(<abyssalcraft:ingotblock:3> * 1)
-    .addFluidInput(<liquid:pe> * 5000)
-    .addEnergyPerTickInput(100)
-    .addItemOutput(<gct_aby:ancientmud> * 1)
-    .build();
+addRitualRecipe(<abyssalcraft:transmutationgem>, [
+    <ore:dustBlaze> * 4,
+    <ore:gemDiamond> * 2,
+    <ore:enderpearl> * 2,
+    <ore:materialCoraliumPearl>
+], 300, -1, false);
 
-RecipeBuilder.newBuilder("abyssine", "abyss_ceremony_executant", 100)
-    .addItemInput(<additions:cthughate_ingot> * 1)
-    .addItemInput(<gct_mobs:cthulhurite_ingot> * 1)
-    .addItemInput(<additions:husturite_ingot> * 1)
-    .addItemInput(<gct_mobs:shubniggurathium_ingot> * 1)
-    .addItemInput(<gct_mobs:yogsothothium_ingot> * 1)
-    .addItemInput(<gct_mobs:nyarlathotepium_ingot> * 1)
-    .addItemInput(<gct_ores:balanced_matrix_ingot> * 2)
-    .addItemInput(<gct_mobs:azathothium_ingot> * 1)
-    .addFluidInput(<liquid:pe> * 5000)
-    .addEnergyPerTickInput(100)
-    .addItemOutput(<jaopca:block.abyssine> * 1)
-    .build();
-
-RecipeBuilder.newBuilder("living_fire", "abyss_ceremony_executant", 100)
-    .addItemInput(<tiths:ingot_stellarium> * 1)
-    .addItemInput(<additions:moltenium_ingot> * 2)
-    .addItemInput(<additions:flamium_ingot> * 2)
-    .addItemInput(<additions:infernium_ingot> * 2)
-    .addItemInput(<extrautils2:ingredients:17> * 2)
-    .addFluidInput(<liquid:pe> * 6400)
-    .addEnergyPerTickInput(100)
-    .addItemOutput(<additions:living_fire> * 1)
-    .build();
-
-RecipeBuilder.newBuilder("book", "abyss_ceremony_executant", 100)
-    .addItemInput(<abyssalcraft:abyssalnomicon>)
-    .addFluidInput(<liquid:pe> * 1440)
-    .addEnergyPerTickInput(100)
-    .addItemOutput(<abyssalcraft:abyssalnomicon>.withTag({PotEnergy: 100000.0 as float}) * 1)
-    .build();
+addRitualRecipe(<abyssalcraft:oc>, [
+    <ore:dustRedstone> * 4,
+    <abyssalcraft:oblivionshard> * 4,
+    <ore:pearlEnderEye>
+], 5000, -1, true);

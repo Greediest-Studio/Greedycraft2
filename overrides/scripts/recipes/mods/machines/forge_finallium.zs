@@ -19,6 +19,17 @@ import mods.modularmachinery.MachineModifier;
 import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
+import mods.modularmachinery.MMEvents;
+import mods.modularmachinery.ControllerGUIRenderEvent;
+
+MMEvents.onControllerGUIRender("final_forge", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = [
+        "§a///终焉熔合机控制面板///",
+        "§a机器名称：§eLV4 - 终焉熔合机"
+    ];
+    event.extraInfo = info;
+});
+
 val ITEM as string = "modularmachinery:item";
 val TIME as string = "modularmachinery:duration";
 val RF as string = "modularmachinery:energy";

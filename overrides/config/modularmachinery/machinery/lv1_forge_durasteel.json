@@ -13,7 +13,7 @@
             "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至80%！",
             "modifier": {
                 "io": "input",
-                "target": "duration",
+                "target": "modularmachinery:duration",
                 "operation": 1,
                 "multiplier": 0.8
             }
@@ -26,7 +26,7 @@
             "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至70%！",
             "modifier": {
                 "io": "input",
-                "target": "duration",
+                "target": "modularmachinery:duration",
                 "operation": 1,
                 "multiplier": 0.7
             }
@@ -39,7 +39,7 @@
             "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至60%！",
             "modifier": {
                 "io": "input",
-                "target": "duration",
+                "target": "modularmachinery:duration",
                 "operation": 1,
                 "multiplier": 0.6
             }
@@ -52,7 +52,7 @@
             "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至50%！",
             "modifier": {
                 "io": "input",
-                "target": "duration",
+                "target": "modularmachinery:duration",
                 "operation": 1,
                 "multiplier": 0.5
             }

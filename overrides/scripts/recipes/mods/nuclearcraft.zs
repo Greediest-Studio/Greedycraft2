@@ -334,5 +334,15 @@ Radiation.setMaterialRadiationLevel("Lawrencium", 0.02d);
 Radiation.setMaterialRadiationLevel("Rutherfordium", 0.032d);
 Radiation.setMaterialRadiationLevel("Dubnium", 0.048d);
 Radiation.setMaterialRadiationLevel("Seaborgium", 0.06d);
-
+Radiation.setMaterialRadiationLevel("Bohrium", 0.072d);
+Radiation.setMaterialRadiationLevel("Hassium", 0.085d);
+Radiation.setMaterialRadiationLevel("Meitnerium", 0.11d);
+Radiation.setMaterialRadiationLevel("Darmstadtium", 0.16d);
+Radiation.setMaterialRadiationLevel("Roentgenium", 0.2d);
+Radiation.setMaterialRadiationLevel("Copernicium", 0.25d);
+Radiation.setMaterialRadiationLevel("Nihonium", 0.29d);
+Radiation.setMaterialRadiationLevel("Flerovium", 0.34d);
+Radiation.setMaterialRadiationLevel("Moscovium", 0.40d);
+Radiation.setMaterialRadiationLevel("Livermorium", 0.49d);
+Radiation.setMaterialRadiationLevel("Tennessine", 0.55d);
 Radiation.setMaterialRadiationLevel("Oganesson", 0.64d);

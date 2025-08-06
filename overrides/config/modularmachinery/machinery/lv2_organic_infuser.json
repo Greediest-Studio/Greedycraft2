@@ -13,7 +13,7 @@
             "description": "将控制器上方的紧挨着的方块换成此方块以提高25%种子产出率及副产品产出率！",
             "modifier": {
                 "io": "output",
-                "target": "item",
+                "target": "modularmachinery:item",
                 "operation": 1,
                 "multiplier": 1.25,
                 "affectChance": true
@@ -27,7 +27,7 @@
             "description": "将控制器上方的紧挨着的方块换成此方块以提高50%种子产出率及副产品产出率！",
             "modifier": {
                 "io": "output",
-                "target": "item",
+                "target": "modularmachinery:item",
                 "operation": 1,
                 "multiplier": 1.5,
                 "affectChance": true
@@ -41,7 +41,7 @@
             "description": "将控制器上方的紧挨着的方块换成此方块以提高75%种子产出率及副产品产出率！",
             "modifier": {
                 "io": "output",
-                "target": "item",
+                "target": "modularmachinery:item",
                 "operation": 1,
                 "multiplier": 1.75,
                 "affectChance": true
@@ -55,7 +55,7 @@
             "description": "将控制器上方的紧挨着的方块换成此方块以提高100%种子产出率及副产品产出率！",
             "modifier": {
                 "io": "output",
-                "target": "item",
+                "target": "modularmachinery:item",
                 "operation": 1,
                 "multiplier": 2,
                 "affectChance": true

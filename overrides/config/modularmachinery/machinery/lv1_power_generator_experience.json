@@ -13,7 +13,7 @@
             "description": "将控制器上方的紧挨着的方块换成此方块以增加25%电量产出！",
             "modifier": {
                 "io": "output",
-                "target": "energy",
+                "target": "modularmachinery:energy",
                 "operation": 1,
                 "multiplier": 1.25
             }
@@ -26,7 +26,7 @@
             "description": "将控制器上方的紧挨着的方块换成此方块以增加50%电量产出！",
             "modifier": {
                 "io": "output",
-                "target": "energy",
+                "target": "modularmachinery:energy",
                 "operation": 1,
                 "multiplier": 1.5
             }
@@ -39,7 +39,7 @@
             "description": "将控制器上方的紧挨着的方块换成此方块以增加100%电量产出！",
             "modifier": {
                 "io": "output",
-                "target": "energy",
+                "target": "modularmachinery:energy",
                 "operation": 1,
                 "multiplier": 2.0
             }
@@ -52,7 +52,7 @@
             "description": "将控制器上方的紧挨着的方块换成此方块以增加150%电量产出！",
             "modifier": {
                 "io": "output",
-                "target": "energy",
+                "target": "modularmachinery:energy",
                 "operation": 1,
                 "multiplier": 2.5
             }

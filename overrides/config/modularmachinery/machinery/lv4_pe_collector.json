@@ -1,4 +1,9 @@
 {
+    "registryname": "pe_collector",
+    "localizedname": "§6LV4 - 深渊位能收集器",
+    "requires-blueprint": false,
+    "color": "4d9374",
+    "failure-action": "still",
     "parts": [
         {
             "x": 0,
@@ -93,7 +98,7 @@
             "y": 2,
             "z": 5,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "casings_all"
             ]
         },
         {
@@ -1181,7 +1186,7 @@
             "y": 0,
             "z": 5,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "casings_parallel"
             ]
         },
         {
@@ -1301,7 +1306,7 @@
             "y": 1,
             "z": 5,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "casings_all"
             ]
         },
         {
@@ -1789,7 +1794,7 @@
             "y": 2,
             "z": 5,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "casings_all"
             ]
         },
         {
@@ -3141,7 +3146,7 @@
             "y": 2,
             "z": 9,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "casings_all"
             ]
         },
         {
@@ -3165,7 +3170,7 @@
             "y": 1,
             "z": 9,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "casings_all"
             ]
         },
         {
@@ -3549,7 +3554,7 @@
             "y": 0,
             "z": 9,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "casings_upgrade"
             ]
         },
         {
@@ -3901,7 +3906,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "casings_all"
             ]
         },
         {
@@ -4045,7 +4050,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "casings_all"
             ]
         },
         {
@@ -4805,7 +4810,7 @@
             "y": 1,
             "z": 5,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "casings_all"
             ]
         },
         {
@@ -4877,7 +4882,7 @@
             "y": 0,
             "z": 5,
             "elements": [
-                "modularmachinery:blockcasing@0"
+                "casings_parallel"
             ]
         },
         {
