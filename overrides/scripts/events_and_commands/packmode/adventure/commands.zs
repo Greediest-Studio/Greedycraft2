@@ -77,8 +77,8 @@ events.onCommand(function (event as CommandEvent) {
     }
     val command = event.command;
     val name = command.name;
-    if (name == "kill" && event.parameters.length == 1 && event.parameters[0] == "@e[type=item]") {
-    return;
+    if (name == "galacticraft" && event.parameters.length > 0 && event.parameters[0] == "help") {
+        return;
     }
     var isBanned = true;
     for command in whitelistedCommands {

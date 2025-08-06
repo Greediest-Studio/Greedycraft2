@@ -1012,6 +1012,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:plateWitheriumEquipment> : [<gct_ores:equipment_witherium_plate>],
     <ore:plateWitheriumRelifed> : [<gct_ores:relifed_witherium_plate>],
     <ore:plateWitheriumStormy> : [<gct_ores:stormy_witherium_plate>],
+    <ore:blockAmbrosium> : [<aether_legacy:ambrosium_block>],
+    <ore:blockScabyst> : [<thebetweenlands:scabyst_block>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {

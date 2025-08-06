@@ -14,7 +14,7 @@
       }
     },
     "1": {
-      "title": "Cyclic便携末影箱",
+      "title": "打开便携末影箱",
       "icon": {
         "name": "minecraft:ender_chest",
         "damage": 0
@@ -27,7 +27,7 @@
       }
     },
     "2": {
-      "title": "Cyclic便携工作台",
+      "title": "打开便携工作台",
       "icon": {
         "name": "minecraft:crafting_table",
         "damage": 0
@@ -40,20 +40,20 @@
       }
     },
     "3": {
-      "title": "自定义",
+      "title": "打开无底之箱",
       "icon": {
-        "name": "minecraft:stone",
+        "name": "danknull:dank_null_0",
         "damage": 0
       },
       "action": {
-        "command": {
-          "command": "留给你自定义啦",
-          "clipboard": false
+        "key": {
+          "key": "key.open_danknull.desc",
+          "toggle": false
         }
       }
     },
     "4": {
-      "title": "无线接口终端",
+      "title": "打开无线接口终端",
       "icon": {
         "name": "ae2fc:wireless_fluid_pattern_terminal",
         "damage": 0
@@ -66,7 +66,7 @@
       }
     },
     "5": {
-      "title": "无线样板终端",
+      "title": "打开无线样板终端",
       "icon": {
         "name": "appliedenergistics2:wireless_pattern_terminal",
         "damage": 0
@@ -79,7 +79,7 @@
       }
     },
     "6": {
-      "title": "无线合成终端",
+      "title": "打开无线合成终端",
       "icon": {
         "name": "appliedenergistics2:wireless_crafting_terminal",
         "damage": 0
@@ -92,7 +92,7 @@
       }
     },
     "7": {
-      "title": "精妙背包",
+      "title": "打开精妙背包",
       "icon": {
         "name": "retro_sophisticated_backpacks:backpack_diamond",
         "damage": 0
@@ -105,7 +105,7 @@
       }
     },
     "8": {
-      "title": "垃圾桶",
+      "title": "打开垃圾桶",
       "icon": {
         "name": "extrautils2:trashcan",
         "damage": 0
@@ -125,8 +125,8 @@
       },
       "action": {
         "command": {
-          "command": "/kill @e[type\u003ditem]",
-          "clipboard": false
+          "command": "/purge",
+          "clipboard": true
         }
       }
     }
