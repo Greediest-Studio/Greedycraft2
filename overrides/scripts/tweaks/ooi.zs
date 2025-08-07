@@ -15,8 +15,7 @@ ConversionItem.create(<thermalfoundation:material:866>).addMatchItem(<ore:crysta
 ConversionItem.create(<mekanism:fluoriteclump>).addMatchItem(<ore:gemFluorite>).register();
 ConversionItem.create(<botania:quartztypemana>).addMatchItem(<ore:blockQuartzMana>).register();
 ConversionItem.create(<thebetweenlands:scabyst_block>).addMatchItem(<ore:blockScabyst>).register();
-ConversionItem.create(<additions:sulfur_ingot>).addMatchItem(<ore:gemSulfur>)
-    .addMatchItem(<ore:ingotSulfur>)
+ConversionItem.create(<additions:sulfur_ingot>).addMatchItem(<ore:ingotSulfur>)
     .addMatchItem(<betterendforge:crystalline_sulphur>)
     .addMatchItem(<betterendforge:sulphur_crystal>).register();
 ConversionItem.create(<tiths:nitre>).addMatchItem(<ore:dustSaltpeter>).register();
