@@ -5,16 +5,9 @@
  
 
 import mods.extendedcrafting.EnderCrafting;
-/*
-EnderCrafting.addShaped(<draconicevolution:chaos_shard:2> * 2, [
-    [null, <ore:gemDiamond>, null], 
-    [<ore:gemDiamond>, <additions:chaotic_crystal_gem>.giveBack(<additions:chaotic_crystal_gem>), <ore:gemDiamond>], 
-    [<actuallyadditions:block_crystal_empowered:4>, <ore:gemDiamond>, <actuallyadditions:block_crystal_empowered:4>]
-]);
 
-EnderCrafting.addShaped(<gct_ores:stormy_fragment_small> * 2, [
-    [null, <ore:gemEmerald>, null], 
-    [<ore:gemEmerald>, <additions:stormy_crystal_gem>.giveBack(<additions:stormy_crystal_gem>), <ore:gemEmerald>], 
-    [<actuallyadditions:block_crystal_empowered:2>, <ore:gemEmerald>, <actuallyadditions:block_crystal_empowered:2>]
+EnderCrafting.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:builder_4"}), [
+	[null, <ore:nuggetChromasteel>, null], 
+	[<ore:nuggetChromasteel>, <gct_ores:blue_print_forge>, <ore:nuggetChromasteel>], 
+	[null, <ore:nuggetChromasteel>, null]
 ]);
-*/

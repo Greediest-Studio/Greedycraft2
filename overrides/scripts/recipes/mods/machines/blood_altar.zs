@@ -428,6 +428,7 @@ addAltarRecipe(<ore:blockDarkest>, <additions:darkest_stonebrick_large>, 3840000
 addAltarRecipe(<additions:catalyst_star>, <additions:proliferation_star>, 6400000, 7);
 addAltarRecipe(<minecraft:bone_block>, <additions:ivorium_ingot>, 1280000, 7);
 addAltarRecipe(<additions:balanced_slate>, <additions:murderite_ingot>, 80000000, 8);
+addAltarRecipe(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:builder_3"}), <gct_ores:blue_print_forge>, 100000, 6);
 
 addAltarRecipe(<ore:stone>, <bloodmagic:slate>, 1000, 1);
 addAltarRecipe(<bloodmagic:slate>, <bloodmagic:slate:1>, 2000, 2);
