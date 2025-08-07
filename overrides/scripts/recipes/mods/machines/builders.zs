@@ -453,3 +453,65 @@ addBuilderRecipe(<modularmachinery:fallen_star_factory_controller>, [
     <ore:ingotAstralMetal> * 8,
     <ore:ingotStellarAlloy> * 8
 ], 3, 3600);
+
+addBuilderRecipe(<modularmachinery:thermal_evaporation_plant_factory_controller>, [
+    <additions:logic_processor_2> * 8,
+    <additions:calculation_processor_2> * 12,
+    <additions:engineering_processor_2> * 18,
+    <crazyae:material:48> * 4,
+    <threng:material:14> * 4,
+    <ore:ingotOsmium> * 64,
+    <ore:ingotModularium> * 48,
+    <ore:ingotManganeseSteel> * 48,
+    <ore:ingotDurasteel> * 24,
+    <ore:ingotGraphite> * 24,
+], 3, 4000);
+
+addBuilderRecipe(<modularmachinery:arcane_compressor_factory_controller>, [
+    <additions:logic_processor_2> * 12,
+    <additions:calculation_processor_2> * 24,
+    <additions:engineering_processor_2> * 20,
+    <crazyae:material:17> * 16,
+    <crazyae:material:16> * 12,
+    <ore:ingotModularium> * 72,
+    <ore:ingotThaumium> * 64,
+    <ore:ingotVoid> * 32,
+    <ore:ingotPrimordial> * 8,
+    <ore:ingotMithrillium> * 4,
+    <thaumcraft:stone_arcane> * 64,
+    <gct_mobs:primordial_stone> * 16
+], 3, 4000);
+
+addBuilderRecipe(<modularmachinery:neutron_activator_factory_controller>, [
+    <additions:logic_processor_2> * 8,
+    <additions:calculation_processor_2> * 16,
+    <additions:engineering_processor_2> * 32,
+    <crazyae:material:16> * 8,
+    <crazyae:material:48> * 4,
+    <ore:ingotModularium> * 64,
+    <ore:ingotLithium> * 64,
+    <ore:ingotSteel> * 48,
+    <ore:ingotStainlessSteel> * 36,
+    <ore:ingotDurasteel> * 16,
+    <ore:ingotOsgloglas> * 12
+], 3, 3200);
+
+addBuilderRecipe(<modularmachinery:builder_4_factory_controller>, [
+    <additions:logic_processor_2> * 48,
+    <additions:calculation_processor_2> * 48,
+    <additions:engineering_processor_2> * 48,
+    <crazyae:material:16> * 16,
+    <crazyae:material:48> * 16,
+    <crazyae:material:17> * 16,
+    <additions:wireless_processor> * 16,
+    <ore:ingotModularium> * 128,
+    <ore:ingotAstronicium> * 24,
+    <ore:ingotChromasteel> * 16,
+    <ore:ingotDraconiumChaotic> * 16,
+    <ore:ingotWitheriumStormy> * 16,
+    <ore:ingotCthulhurite> * 16,
+    <ore:ingotAstralMetal> * 16,
+    <ore:ingotSky> * 12,
+    <ore:ingotBlackholeAlloy> * 8,
+    <ore:ingotOrichalcos> * 4
+], 3, 2400);
