@@ -391,3 +391,50 @@ addBuilderRecipe(<modularmachinery:chromasteel_forge_factory_controller>, [
     <ore:ingotCrimsonite> * 4,
     <ore:ingotMythsteel> * 4
 ], 3, 11200);
+
+addBuilderRecipe(<modularmachinery:abyss_ceremony_executant_factory_controller>, [
+    <additions:logic_processor_2> * 16,
+    <additions:calculation_processor_2> * 8,
+    <additions:engineering_processor_2> * 4,
+    <additions:wireless_processor> * 4,
+    <crazyae:material:17> * 6,
+    <ore:ingotModularium> * 64,
+    <ore:ingotEthaxiumBrick> * 64,
+    <ore:ingotAbyssalnite> * 64,
+    <ore:ingotLiquifiedCoralium> * 48,
+    <ore:ingotDreadium> * 24,
+    <ore:ingotEthaxium> * 16,
+    <ore:gemShadow> * 16
+], 3, 5200);
+
+addBuilderRecipe(<modularmachinery:advanced_miner_factory_controller>, [
+    <additions:logic_processor_2> * 12,
+    <additions:calculation_processor_2> * 6,
+    <additions:engineering_processor_2> * 30,
+    <ore:ingotModularium> * 72,
+    <ore:ingotStainlessSteel> * 48,
+    <ore:ingotShadium> * 32,
+    <ore:ingotLunium> * 32,
+    <ore:ingotVibranium> * 32,
+    <ore:ingotValyrium> * 32,
+    <ore:ingotTerrax> * 24,
+    <ore:ingotGenite> * 16,
+    <ore:ingotNetherite> * 8,
+    <ore:ingotEnderite> * 6,
+    <ore:ingotAetherite> * 4
+], 3, 6000);
+
+addBuilderRecipe(<modularmachinery:gas_centrifuge_factory_controller>, [
+    <additions:logic_processor_2> * 10,
+    <additions:calculation_processor_2> * 18,
+    <additions:engineering_processor_2> * 10,
+    <crazyae:material:16> * 8,
+    <crazyae:material:48> * 8,
+    <threng:material:6> * 8,
+    <ore:ingotGraphite> * 64,
+    <ore:ingotModularium> * 56,
+    <ore:ingotOsgloglas> * 48,
+    <ore:ingotStellarAlloy> * 32,
+    <ore:ingotMistAlloy> * 16,
+    <ore:ingotBlackholeAlloy> * 4,
+], 3, 4800);

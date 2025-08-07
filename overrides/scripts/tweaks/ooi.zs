@@ -13,9 +13,11 @@ ConversionItem.create(<aether_legacy:ambrosium_block>).addMatchItem(<ore:blockAm
 ConversionItem.create(<astralsorcery:itemcraftingcomponent>).addMatchItem(<ore:gemAquamarine>).register();
 ConversionItem.create(<thermalfoundation:material:866>).addMatchItem(<ore:crystalCinnabar>).register();
 ConversionItem.create(<mekanism:fluoriteclump>).addMatchItem(<ore:gemFluorite>).register();
-ConversionItem.create(<botania:quartztypemana>).addMatchItem(<ore:blockQuartzMana>).register();
+ConversionItem.create(<botania:quartztypemana>).addMatchItem(<ore:blockManaQuartz>).register();
 ConversionItem.create(<thebetweenlands:scabyst_block>).addMatchItem(<ore:blockScabyst>).register();
-ConversionItem.create(<additions:sulfur_ingot>).addMatchItem(<ore:ingotSulfur>)
+ConversionItem.create(<additions:sulfur_ingot>)
+    .addMatchItem(<ore:ingotSulfur>)
     .addMatchItem(<betterendforge:crystalline_sulphur>)
     .addMatchItem(<betterendforge:sulphur_crystal>).register();
 ConversionItem.create(<tiths:nitre>).addMatchItem(<ore:dustSaltpeter>).register();
+ConversionItem.create(<tiths:block_nitre>).addMatchItem(<ore:blockSaltpeter>).register();

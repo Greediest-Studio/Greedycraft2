@@ -471,7 +471,9 @@ val removedRecipes as IIngredient[] = [
     <mca:rose_gold_dust>,
     <mca:rose_gold_ingot>,
     <jaopca:block.cthulhurite>,
-    <chisel:blockcobalt>
+    <chisel:blockcobalt>,
+    <journey:bleedstonedust>,
+    <journey:smithstonedust>
 ];
 
 val removedRecipeNames as string[] = [

@@ -53,6 +53,7 @@ import scripts.util.oredict as OredictUtil;
 <ore:blockValkyrieMetal>.remove(<moretcon:blockvalkyriemetal>);
 <ore:dustValkyrieMetal>.remove(<moretcon:dustvalkyriemetal>);
 <ore:nuggetValkyrieMetal>.remove(<moretcon:nuggetvalkyriemetal>);
+<ore:blockQuartzMana>.remove(<botania:quartztypemana>);
 
 <ore:ingotCthulhurite>.add(<gct_mobs:cthulhurite_ingot>);
 <ore:starlight>.add(<journey:sapphire>);
@@ -1013,7 +1014,28 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:plateWitheriumRelifed> : [<gct_ores:relifed_witherium_plate>],
     <ore:plateWitheriumStormy> : [<gct_ores:stormy_witherium_plate>],
     <ore:blockAmbrosium> : [<aether_legacy:ambrosium_block>],
-    <ore:blockScabyst> : [<thebetweenlands:scabyst_block>]
+    <ore:blockScabyst> : [<thebetweenlands:scabyst_block>],
+    <ore:blockManaQuartz> : [<botania:quartztypemana>],
+    <ore:dustBloodcrust> : [<journey:hellstonedust>],
+    <ore:dustCelestium> : [<journey:celestiumdust>],
+    <ore:dustFlairium> : [<journey:flairiumdust>],
+    <ore:dustCloudiaGem> : [<journey:sapphiredust>],
+    <ore:gemCloudiaGem> : [<journey:sapphire>],
+    <ore:blockCloudiaGem> : [<journey:sapphireblock>],
+    <ore:dustEnderillium> : [<journey:enderilliumdust>],
+    <ore:dustGorbite> : [<journey:gorbitedust>],
+    <ore:dustOrbadite> : [<journey:orbaditedust>],
+    <ore:dustDiamond> : [<journey:diamonddust>],
+    <ore:dustGold> : [<journey:golddust>],
+    <ore:dustIron> : [<journey:irondust>],
+    <ore:dustBleedstone> : [<journey:bleedstonedust>],
+    <ore:dustSmithstone> : [<journey:smithstonedust>],
+    <ore:dustAshual> : [<journey:ash>],
+    <ore:gemBlazium> : [<journey:blazium>],
+    <ore:gemEnderillium> : [<journey:enderilliumshard>],
+    <ore:gemGorbite> : [<journey:gorbitegem>],
+    <ore:gemSoulstone> : [<journey:soulstone>],
+    <ore:blockSoulstone> : [<journey:nethicgemstoneblock>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {
