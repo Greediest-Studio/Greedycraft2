@@ -438,3 +438,18 @@ addBuilderRecipe(<modularmachinery:gas_centrifuge_factory_controller>, [
     <ore:ingotMistAlloy> * 16,
     <ore:ingotBlackholeAlloy> * 4,
 ], 3, 4800);
+
+addBuilderRecipe(<modularmachinery:fallen_star_factory_controller>, [
+    <additions:logic_processor_2> * 12,
+    <additions:calculation_processor_2> * 24,
+    <additions:engineering_processor_2> * 20,
+    <crazyae:material:17> * 12,
+    <ore:ingotModularium> * 72,
+    <ore:ingotIgnite> * 64,
+    <ore:ingotAstralStarmetal> * 64,
+    <ore:ingotBloodInfusedIron> * 64,
+    <ore:ingotSentientMetal> * 16,
+    <ore:ingotBoundMetal> * 8,
+    <ore:ingotAstralMetal> * 8,
+    <ore:ingotStellarAlloy> * 8
+], 3, 3600);

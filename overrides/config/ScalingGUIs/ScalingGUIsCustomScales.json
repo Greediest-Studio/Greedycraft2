@@ -4,7 +4,7 @@
   "tooltipScale": 3,
   "customIndividualGuiScales": {
     "dmillerw.menu.gui.GuiRadialMenu": {
-      "scale": 0,
+      "scale": 4,
       "name": "R_Menu"
     },
     "slimeknights.tconstruct.tools.common.client.GuiStencilTable": {
@@ -14,10 +14,6 @@
     "p455w0rd.danknull.client.gui.GuiDankNull": {
       "scale": 9,
       "name": "Dank Null GUI"
-    },
-    "mca.client.gui.GuiInteract": {
-      "scale": 9,
-      "name": "MCA Interaction GUI"
     },
     "net.minecraft.client.gui.GuiChat": {
       "scale": 9,
