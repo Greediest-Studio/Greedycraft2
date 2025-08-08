@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "天空块",
+    "ore_dict": "blockSky",
+    "type": "additions:block_simple"
+  },
+  "name": "天空块",
+  "material": "minecraft:metal",
+  "hardness": 5.0,
+  "resistance": 4000.0,
+  "harvest_level": 6,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

@@ -46,7 +46,7 @@ BloodAltar.addRecipe(<thaumcraft:curio:1>, <thaumcraft:amber>, 5, 80000, 150, 15
 BloodAltar.addRecipe(<additions:pearl_of_knowledge>, <botania:manaresource:1>, 5, 250000, 250, 250);
 BloodAltar.addRecipe(<additions:creative_shard>, <additions:cosmilite_block>, 5, 850000, 700, 700);
 BloodAltar.addRecipe(<additions:slate_6>, <bloodmagic:slate:4>, 5, 200000, 400, 400);
-BloodAltar.addRecipe(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:builder_3"}), <gct_ores:blue_print_forge>, 6, 100000, 300, 300);
+BloodAltar.addRecipe(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:builder_3"}), <gct_ores:blue_print_forge>, 5, 100000, 300, 300);
 
 AlchemyArray.removeRecipe(<bloodmagic:component:8>, <animus:kama_diamond>);
 AlchemyArray.removeRecipe(<bloodarsenal:base_item:9>, <bloodmagic:slate:4>);
