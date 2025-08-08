@@ -1,0 +1,263 @@
+{
+  "main": {
+    "0": {
+      "title": "§b查看游戏难度",
+      "icon": {
+        "name": "headcrumbs:skull",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "Difficulty Meter - Show",
+          "toggle": false
+        }
+      }
+    },
+    "1": {
+      "title": "§b打开扩展物品栏",
+      "icon": {
+        "name": "minecraft:chest",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.keyExtraInvo",
+          "toggle": true
+        }
+      }
+    },
+    "2": {
+      "title": "§b打开便携工作台",
+      "icon": {
+        "name": "minecraft:crafting_table",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.keyExtraCraftin",
+          "toggle": true
+        }
+      }
+    },
+    "3": {
+      "title": "§b打开无底之箱",
+      "icon": {
+        "name": "danknull:dank_null_0",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.open_danknull.desc",
+          "toggle": false
+        }
+      }
+    },
+    "4": {
+      "title": "§b打开连点器",
+      "icon": {
+        "name": "minecraft:diamond_sword",
+        "damage": 1
+      },
+      "action": {
+        "key": {
+          "key": "key.autoclick.config_n",
+          "toggle": false
+        }
+      }
+    },
+    "5": {
+      "title": "§b打开AE无线终端扩展菜单",
+      "icon": {
+        "name": "appliedenergistics2:wireless_pattern_terminal",
+        "damage": 0
+      },
+      "action": {
+        "category": "wireless_terminal"
+      }
+    },
+    "6": {
+      "title": "§b自杀（快速回城）",
+      "icon": {
+        "name": "minecraft:skull",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/suicide",
+          "clipboard": false
+        }
+      }
+    },
+    "7": {
+      "title": "§b打开精妙背包",
+      "icon": {
+        "name": "retro_sophisticated_backpacks:backpack_diamond",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "retro_sophisticated_backpacks.key.open_backpack.desc",
+          "toggle": false
+        }
+      }
+    },
+    "8": {
+      "title": "§b打开垃圾桶",
+      "icon": {
+        "name": "extrautils2:trashcan",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.ftbutilities.trash",
+          "toggle": false
+        }
+      }
+    },
+    "9": {
+      "title": "§b清理掉落物",
+      "icon": {
+        "name": "minecraft:flint_and_steel",
+        "damage": 0
+      },
+      "action": {
+        "command": {
+          "command": "/purge",
+          "clipboard": false
+        }
+      }
+    }
+  },
+  "wireless_terminal": {
+    "0": {
+      "title": "§b打开无线终端",
+      "icon": {
+        "name": "appliedenergistics2:wireless_terminal",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.open_wireless_terminal.desc",
+          "toggle": false
+        }
+      }
+    },
+    "1": {
+      "title": "§b打开基础扩展合成终端",
+      "icon": {
+        "name": "ae2exttable:wireless_basic_crafting_terminal",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.open_basic_extended_wireless_crafting_terminal",
+          "toggle": false
+        }
+      }
+    },
+    "2": {
+      "title": "§b打开高级扩展合成终端",
+      "icon": {
+        "name": "ae2exttable:wireless_advanced_crafting_terminal",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.open_advanced_extended_wireless_crafting_terminal",
+          "toggle": false
+        }
+      }
+    },
+    "3": {
+      "title": "§b打开精英扩展合成终端",
+      "icon": {
+        "name": "ae2exttable:wireless_elite_crafting_terminal",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.open_elite_extended_wireless_crafting_terminal",
+          "toggle": false
+        }
+      }
+    },
+    "4": {
+      "title": "§b打开终极扩展合成终端",
+      "icon": {
+        "name": "ae2exttable:wireless_ultimate_crafting_terminal",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.open_ultimate_extended_wireless_crafting_terminal",
+          "toggle": false
+        }
+      }
+    },
+    "5": {
+      "title": "§b打开无线合成终端",
+      "icon": {
+        "name": "appliedenergistics2:wireless_crafting_terminal",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.open_wireless_crafting_terminal.desc",
+          "toggle": false
+        }
+      }
+    },
+    "6": {
+      "title": "§b打开无线流体终端",
+      "icon": {
+        "name": "appliedenergistics2:wireless_fluid_terminal",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.open_wireless_fluid_terminal.desc",
+          "toggle": false
+        }
+      }
+    },
+    "7": {
+      "title": "§b打开无线样板终端",
+      "icon": {
+        "name": "appliedenergistics2:wireless_pattern_terminal",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.open_wireless_pattern_terminal.desc",
+          "toggle": false
+        }
+      }
+    },
+    "8": {
+      "title": "§b打开无线接口终端",
+      "icon": {
+        "name": "appliedenergistics2:wireless_interface_terminal",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.open_wireless_interface_terminal.desc",
+          "toggle": false
+        }
+      }
+    },
+    "9": {
+      "title": "§b打开无线流体样板终端",
+      "icon": {
+        "name": "ae2fc:wireless_fluid_pattern_terminal",
+        "damage": 0
+      },
+      "action": {
+        "key": {
+          "key": "key.ae2fc.open_wireless_fluid_pattern_terminal.desc",
+          "toggle": false
+        }
+      }
+    }
+  }
+}
