@@ -615,3 +615,131 @@ addBuilderRecipe(<modularmachinery:final_forge_factory_controller>, [
     <ore:ingotCreativeAlloy> * 4,
     <ore:itemPurpleMatter> * 2
 ], 4, 14400);
+
+addBuilderRecipe(<modularmachinery:bright_altar_factory_controller>, [
+    <additions:logic_processor_3> * 16,
+    <additions:calculation_processor_3> * 32,
+    <additions:engineering_processor_3> * 8,
+    <crazyae:material:17> * 16,
+    <ore:ingotModularium> * 96,
+    <ore:ingotNasalum> * 48,
+    <ore:ingotLunarine> * 48,
+    <ore:ingotAstralMetal> * 36,
+    <ore:ingotEugardite> * 8,
+    <additions:astral_gem_01>,
+    <additions:astral_gem_02>,
+    <additions:astral_gem_03>,
+    <additions:astral_gem_04>,
+    <additions:astral_gem_05>,
+    <additions:astral_gem_06>,
+    <additions:astral_gem_07>,
+    <additions:astral_gem_08>,
+    <additions:astral_gem_09>,
+    <additions:astral_gem_10>,
+    <additions:astral_gem_11>,
+    <additions:astral_gem_12>
+], 4, 16000);
+
+addBuilderRecipe(<modularmachinery:builder_5_factory_controller>, [
+    <additions:logic_processor_3> * 20,
+    <additions:calculation_processor_3> * 20,
+    <additions:engineering_processor_3> * 20,
+    <crazyae:material:16> * 32,
+    <crazyae:material:17> * 32,
+    <crazyae:material:48> * 32,
+    <additions:wireless_processor> * 32,
+    <threng:material:14> * 24,
+    <ore:ingotModularium> * 180,
+    <ore:ingotCompressite> * 40,
+    <ore:ingotCosmilite> * 32,
+    <ore:ingotBalancedMatrix> * 16,
+    <ore:ingotFinallium> * 12,
+    <ore:ingotAbyssine> * 4,
+    <ore:ingotZodiacite> * 4,
+    <ore:ingotBotanicalAwakened> * 4,
+    <ore:ingotAurune> * 4,
+    <ore:ingotCreativeAlloy> * 4,
+    <ore:ingotPruified> * 4
+], 4, 2400);
+
+addBuilderRecipe(<modularmachinery:astral_collector_factory_controller>, [
+    <additions:logic_processor_3> * 4,
+    <additions:calculation_processor_3> * 6,
+    <additions:engineering_processor_3> * 4,
+    <crazyae:material:17> * 4,
+    <additions:wireless_processor> * 2,
+    <ore:ingotModularium> * 32,
+    <ore:ingotNasalum> * 4,
+    <ore:ingotLunarine> * 4,
+    <ore:ingotChromasteel> * 2,
+    <ore:ingotAstralMetal> * 2,
+    <ore:gemAquamarineStarlight> * 4,
+    <astralsorcery:itemtunedcelestialcrystal> * 4
+], 4, 1000);
+
+addBuilderRecipe(<modularmachinery:matrix_balancer_factory_controller>, [
+    <additions:logic_processor_3> * 18,
+    <additions:calculation_processor_3> * 18,
+    <additions:engineering_processor_3> * 18,
+    <crazyae:material:16> * 12,
+    <threng:material:14> * 12,
+    <ore:ingotModularium> * 128,
+    <ore:ingotFusionMatrix> * 64,
+    <ore:ingotCheatieum> * 16,
+    <ore:ingotClearite> * 16,
+    <ore:ingotDepthite> * 16,
+    <ore:ingotErrorite> * 16,
+    <ore:ingotGodiarite> * 16,
+    <ore:ingotMartisite> * 16,
+    <ore:ingotNumbereum> * 16,
+    <ore:ingotRainite> * 16,
+    <ore:ingotFlashite> * 16,
+    <ore:ingotOverlaite> * 16
+], 4, 3000);
+
+addBuilderRecipe(<modularmachinery:entropy_reverse_factory_controller>, [
+    <additions:logic_processor_3> * 10,
+    <additions:calculation_processor_3> * 8,
+    <additions:engineering_processor_3> * 24,
+    <crazyae:material:16> * 8,
+    <threng:material:6> * 8,
+    <ore:ingotModularium> * 96,
+    <ore:ingotBalancite> * 64,
+    <ore:ingotFireAlloy> * 48,
+    <ore:ingotIceAlloy> * 48,
+    <ore:ingotChaoticMetal> * 4,
+    <ore:ingotOrderedMetal> * 2
+], 4, 4000);
+
+addBuilderRecipe(<modularmachinery:loot_creater_factory_controller>, [
+    <additions:logic_processor_2> * 16,
+    <additions:calculation_processor_2> * 48,
+    <additions:engineering_processor_2> * 24,
+    <crazyae:material:16> * 16,
+    <crazyae:material:48> * 8,
+    <ore:ingotModularium> * 80,
+    <ore:ingotHellite> * 64,
+    <ore:ingotDreadium> * 64,
+    <ore:ingotSoularium> * 32,
+    <ore:ingotEverite> * 16,
+    <ore:ingotLegendite> * 16,
+    <ore:gemSunBoss> * 24,
+    <ore:gemValkyrieBoss> * 24,
+    <ore:soulSliderBoss> * 24
+], 4, 4400);
+
+addBuilderRecipe(<modularmachinery:pe_collector_factory_controller>, [
+    <additions:logic_processor_2> * 20,
+    <additions:calculation_processor_2> * 32,
+    <additions:engineering_processor_2> * 32,
+    <crazyae:material:16> * 12,
+    <crazyae:material:17> * 16,
+    <ore:ingotModularium> * 64,
+    <ore:ingotAbyssalnite> * 64,
+    <ore:ingotLiquifiedCoralium> * 48,
+    <ore:ingotDreadium> * 32,
+    <ore:ingotEthaxium> * 24,
+    <ore:ingotCthulhurite> * 12,
+    <ore:ingotPorpezite> * 8,
+    <ore:nuclearShadow> * 24
+], 4, 3600);

@@ -21,6 +21,8 @@ import scripts.util.lang as LangUtil;
 recipes.remove(<hydrogenation_tinker:field_generator>.withTag({Material: "nether_star"}));
 recipes.remove(<ymadditions:network_hub>);
 recipes.remove(<tconstruct:piggybackpack>.withTag({}));
+recipes.removeByRecipeName("biomesoplenty:amber_block");
+recipes.removeByRecipeName("biomesoplenty:amber");
 
 RecipeUtil.addShaped("calculator_subsystem_l4", <ecoaeextension:extendable_calculator_subsystem_l4>, [
     [<ecoaeextension:ecalculator_casing>, <additions:calculation_processor_2>, <ecoaeextension:ecalculator_casing>],
@@ -310,6 +312,11 @@ RecipeUtil.addShaped("mystical_Dreadium", <abyssalcraft:dreadiumingot>, [
 RecipeUtil.addShaped("machine_assembler", <modularmachineryaddons:advancedmachineassembler>, [
     [null, <ore:ingotManyullyn>, null],
     [null, <ore:ingotManyullyn>, null],
+    [null, <ore:stickWood>, null]
+]);
+RecipeUtil.addShaped("machine_assembler2", <additions:basic_assembler>, [
+    [null, <ore:ingotAluminum>, null],
+    [null, <ore:ingotAluminum>, null],
     [null, <ore:stickWood>, null]
 ]);
 RecipeUtil.addShaped("machine_disassembler", <modularmachineryaddons:advancedmachinedisassembler>, [

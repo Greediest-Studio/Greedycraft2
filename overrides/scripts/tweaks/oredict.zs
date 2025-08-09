@@ -1035,7 +1035,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:gemEnderillium> : [<journey:enderilliumshard>],
     <ore:gemGorbite> : [<journey:gorbitegem>],
     <ore:gemSoulstone> : [<journey:soulstone>],
-    <ore:blockSoulstone> : [<journey:nethicgemstoneblock>]
+    <ore:blockSoulstone> : [<journey:nethicgemstoneblock>],
+    <ore:blockAmber> : [<betterendforge:amber_block>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {
