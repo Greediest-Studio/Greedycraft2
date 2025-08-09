@@ -550,3 +550,68 @@ addBuilderRecipe(<modularmachinery:impetus_forge_factory_controller>, [
     <ore:ingotCosmilite> * 2,
     <thaumcraft:stone_eldritch_tile> * 72
 ], 4, 3000);
+
+addBuilderRecipe(<modularmachinery:chaos_reactor_factory_controller>, [
+    <additions:logic_processor_3> * 18,
+    <additions:calculation_processor_3> * 24,
+    <additions:engineering_processor_3> * 16,
+    <crazyae:material:48> * 64,
+    <ore:ingotModularium> * 128,
+    <ore:ingotDraconium> * 128,
+    <ore:ingotDraconiumAwakened> * 64,
+    <ore:ingotDraconiumChaotic> * 32,
+    <ore:ingotChaoticMetal> * 4,
+    <ore:ingotCosmilite> * 2,
+    <ore:ingotFlux> * 2
+], 4, 8000);
+
+addBuilderRecipe(<modularmachinery:stratified_precipitator_factory_controller>, [
+    <additions:logic_processor_3> * 12,
+    <additions:calculation_processor_3> * 12,
+    <additions:engineering_processor_3> * 20,
+    <crazyae:material:16> * 32,
+    <threng:material:6> * 24,
+    <ore:ingotModularium> * 108,
+    <ore:ingotZirconiumMolybdenum> * 96,
+    <ore:ingotOsgloglas> * 64,
+    <ore:ingotExtreme> * 48,
+    <ore:ingotThermoconducting> * 48,
+    <ore:ingotPorpezite> * 32,
+    <ore:ingotScientificite> * 4,
+    <ore:ingotThermallite> * 4
+], 4, 4000);
+
+addBuilderRecipe(<modularmachinery:cosmic_forge_factory_controller>, [
+    <additions:logic_processor_2> * 64,
+    <additions:calculation_processor_2> * 64,
+    <additions:engineering_processor_2> * 64,
+    <ore:ingotModularium> * 128,
+    <ore:ingotPorpezite> * 64,
+    <ore:ingotEverite> * 32,
+    <ore:ingotDraconiumChaotic> * 32,
+    <ore:ingotWitheriumStormy> * 32,
+    <ore:ingotChromasteel> * 24,
+    <ore:ingotDarkice> * 24,
+    <ore:ingotStarAlloy> * 16,
+    <ore:ingotCompressite> * 12,
+    <ore:itemRedMatter> * 24,
+    <ore:blockCommand> * 2
+], 4, 12800);
+
+addBuilderRecipe(<modularmachinery:final_forge_factory_controller>, [
+    <additions:logic_processor_3> * 24,
+    <additions:calculation_processor_3> * 24,
+    <additions:engineering_processor_3> * 24,
+    <ore:ingotModularium> * 256,
+    <ore:ingotCthulhurite> * 128,
+    <ore:ingotZirconiumMolybdenum> * 64,
+    <ore:ingotDraconiumRuled> * 32,
+    <ore:ingotWitheriumEquipment> * 32,
+    <ore:ingotCosmilite> * 24,
+    <ore:ingotImpetusite> * 16,
+    <ore:ingotDisasterMetal> * 16,
+    <ore:ingotBalancedMatrix> * 16,
+    <ore:ingotScientificite> * 4,
+    <ore:ingotCreativeAlloy> * 4,
+    <ore:itemPurpleMatter> * 2
+], 4, 14400);
