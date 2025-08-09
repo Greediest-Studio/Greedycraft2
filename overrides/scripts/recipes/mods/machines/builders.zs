@@ -515,3 +515,36 @@ addBuilderRecipe(<modularmachinery:builder_4_factory_controller>, [
     <ore:ingotBlackholeAlloy> * 8,
     <ore:ingotOrichalcos> * 4
 ], 3, 2400);
+
+//LV4
+addBuilderRecipe(<modularmachinery:aura_crafter_factory_controller>, [
+    <additions:logic_processor_2> * 36,
+    <additions:calculation_processor_2> * 48,
+    <additions:engineering_processor_2> * 18,
+    <crazyae:material:17> * 32,
+    <threng:material:14> * 16,
+    <additions:wireless_processor> * 16,
+    <ore:ingotModularium> * 108,
+    <ore:ingotAuraIron> * 64,
+    <ore:ingotSky> * 48,
+    <ore:ingotAlumite> * 48,
+    <ore:ingotEarth> * 32,
+    <naturesaura:infused_stone> * 48
+], 4, 2800);
+
+addBuilderRecipe(<modularmachinery:impetus_forge_factory_controller>, [
+    <additions:logic_processor_2> * 28,
+    <additions:calculation_processor_2> * 36,
+    <additions:engineering_processor_2> * 30,
+    <crazyae:material:17> * 32,
+    <crazyae:material:16> * 24,
+    <threng:material:6> * 12,
+    <ore:ingotModularium> * 128,
+    <ore:ingotThaumium> * 64,
+    <ore:ingotVoid> * 48,
+    <ore:ingotMithrillium> * 12,
+    <ore:ingotPrimordial> * 12,
+    <ore:ingotEldritchSteel> * 12,
+    <ore:ingotAdaminite> * 4,
+    <thaumcraft:stone_eldritch_tile> * 72
+], 4, 3000);

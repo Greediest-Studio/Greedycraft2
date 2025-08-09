@@ -1,432 +1,2984 @@
 {
     "registryname": "aura_crafter",
-    "localizedname": "§6LV4 - 灵气熔炉",
+    "localizedname": "§6LV4 - 灵气聚集台",
     "requires-blueprint": false,
     "failure-action": "still",
-    "color": "ccbfd7",
+    "color": "393018",
     "parts": [
         {
-            "x": 2,
-            "y": -2,
-            "z": -1,
+            "x": 0,
+            "y": 0,
+            "z": 0,
             "elements": [
-                "naturesaura:infused_stone@0"
+                "modularmachinery:blockcontroller@2"
             ]
         },
         {
-            "x": 1,
-            "y": 0,
-            "z": 1,
+            "x": -2,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
             "elements": [
                 "casings_all"
             ]
         },
         {
-            "x": 2,
-            "y": -2,
-            "z": 3,
+            "x": -4,
+            "y": -7,
+            "z": 4,
             "elements": [
-                "naturesaura:infused_stone@0"
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "plustic:alumiteblock@0"
             ]
         },
         {
             "x": -2,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 6,
             "y": -2,
-            "z": -1,
+            "z": -3,
             "elements": [
-                "naturesaura:infused_stone@0"
+                "thermalfoundation:storage@7"
             ]
         },
         {
-            "x": -2,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "naturesaura:infused_stone@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "naturesaura:infused_stone@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
+            "x": -3,
+            "y": -7,
             "z": 1,
-            "elements": [
-                "naturesaura:infused_stone@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "naturesaura:infused_stone@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "naturesaura:infused_stone@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "naturesaura:infused_stone@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 2,
             "elements": [
                 "naturesaura:infused_iron_block@0"
             ]
         },
         {
-            "x": -1,
-            "y": 1,
-            "z": 1,
+            "x": -6,
+            "y": -6,
+            "z": 6,
             "elements": [
-                "naturesaura:infused_stone@0"
+                "minecraft:concrete@5"
             ]
         },
         {
             "x": -2,
-            "y": 1,
-            "z": 0,
+            "y": -3,
+            "z": 3,
             "elements": [
-                "naturesaura:infused_stone@0"
+                "botania:storage@2"
             ]
         },
         {
-            "x": -1,
-            "y": 1,
-            "z": 0,
+            "x": -5,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "z": 3,
             "elements": [
                 "naturesaura:infused_iron_block@0"
             ]
         },
         {
-            "x": -1,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "naturesaura:infused_stone@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": -1,
-            "elements": [
-                "naturesaura:infused_stone@0"
-            ]
-        },
-        {
             "x": 2,
-            "y": 1,
+            "y": -6,
             "z": 0,
             "elements": [
-                "naturesaura:infused_stone@0"
+                "plustic:alumiteblock@0"
             ]
         },
         {
-            "x": 0,
-            "y": 2,
-            "z": 2,
+            "x": 5,
+            "y": -2,
+            "z": -2,
             "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "jaopca:block.sky@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "naturesaura:infused_stone@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "naturesaura:infused_stone@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "naturesaura:infused_stone@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "jaopca:block.sky@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "naturesaura:infused_stone@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "naturesaura:infused_stone@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "naturesaura:infused_stone@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "naturesaura:infused_stone@0"
+                "thermalfoundation:storage@7"
             ]
         },
         {
             "x": 0,
             "y": -1,
-            "z": 1,
-            "elements": [
-                "naturesaura:infused_stone@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "naturesaura:infused_stone@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 1,
+            "z": 0,
             "elements": [
                 "casings_all"
             ]
         },
         {
-            "x": 0,
-            "y": 3,
-            "z": 1,
+            "x": 6,
+            "y": -2,
+            "z": -4,
             "elements": [
-                "naturesaura:infused_stone@0"
+                "thermalfoundation:storage@7"
             ]
         },
         {
-            "x": 0,
-            "y": 3,
-            "z": 0,
+            "x": -1,
+            "y": -5,
+            "z": -2,
             "elements": [
-                "naturesaura:infused_stone@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "naturesaura:infused_stone@0"
+                "tcomplement:scorched_block@0"
             ]
         },
         {
             "x": 1,
-            "y": 1,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": -4,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
             "z": 0,
             "elements": [
                 "naturesaura:infused_iron_block@0"
             ]
         },
         {
-            "x": 1,
-            "y": 1,
-            "z": -1,
+            "x": -2,
+            "y": -5,
+            "z": 2,
             "elements": [
-                "naturesaura:infused_stone@0"
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "additions:earth_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "tiths:block_chloroplast@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": 8,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
             ]
         },
         {
             "x": 0,
-            "y": -2,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "tiths:block_chloroplast@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "actuallyadditions:block_crystal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": -7,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
             "z": 1,
             "elements": [
-                "naturesaura:infused_stone@0"
+                "plustic:alumiteblock@0"
             ]
         },
         {
-            "x": 1,
+            "x": -2,
             "y": 1,
-            "z": 3,
+            "z": -3,
             "elements": [
-                "naturesaura:infused_stone@0"
+                "additions:sky_block@0"
             ]
         },
         {
-            "x": 1,
-            "y": 1,
-            "z": 2,
+            "x": -3,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": -3,
             "elements": [
                 "naturesaura:infused_iron_block@0"
             ]
         },
         {
             "x": 1,
-            "y": 1,
-            "z": 1,
+            "y": -7,
+            "z": 0,
             "elements": [
-                "naturesaura:infused_stone@0"
+                "additions:earth_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "casings_parallel"
             ]
         },
         {
             "x": 2,
-            "y": -1,
-            "z": 3,
+            "y": -7,
+            "z": -5,
             "elements": [
-                "naturesaura:infused_stone@0"
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@5"
             ]
         },
         {
             "x": 2,
-            "y": -1,
-            "z": -1,
+            "y": -4,
+            "z": -2,
             "elements": [
-                "naturesaura:infused_stone@0"
+                "actuallyadditions:block_crystal@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": -4,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
             ]
         },
         {
             "x": -1,
-            "y": 2,
-            "z": 1,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": -3,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "tiths:block_chloroplast@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 0,
             "elements": [
                 "casings_all"
             ]
         },
         {
             "x": -1,
-            "y": 2,
-            "z": 0,
+            "y": -4,
+            "z": -2,
             "elements": [
-                "naturesaura:infused_stone@0"
+                "botania:storage@2"
             ]
         },
         {
             "x": 0,
-            "y": 5,
-            "z": 1,
+            "y": -7,
+            "z": 5,
             "elements": [
-                "naturesaura:infused_stone@0"
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "actuallyadditions:block_crystal@0"
             ]
         },
         {
             "x": -1,
-            "y": 2,
-            "z": 2,
+            "y": -5,
+            "z": -3,
             "elements": [
-                "naturesaura:infused_stone@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "naturesaura:infused_stone@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "naturesaura:infused_stone@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "naturesaura:infused_stone@0"
+                "tcomplement:scorched_block@0"
             ]
         },
         {
             "x": 0,
-            "y": 1,
+            "y": -6,
+            "z": -6,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": -4,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "tiths:block_chloroplast@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": -7,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "additions:earth_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
             "z": 1,
             "elements": [
-                "jaopca:block.sky@0"
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": -4,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "actuallyadditions:block_crystal@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "tiths:block_chloroplast@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "actuallyadditions:block_crystal@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": -6,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": -4,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "actuallyadditions:block_crystal@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "additions:earth_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": -6,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "additions:sky_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "actuallyadditions:block_crystal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": -4,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": -5,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "actuallyadditions:block_crystal@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "actuallyadditions:block_crystal@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "tiths:block_chloroplast@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "tiths:block_chloroplast@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": -3,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": -4,
+            "elements": [
+                "tiths:block_chloroplast@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": -7,
+            "elements": [
+                "tiths:block_chloroplast@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:storage@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": -6,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "tiths:block_chloroplast@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "actuallyadditions:block_crystal@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "additions:earth_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "actuallyadditions:block_crystal@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -6,
+            "z": -5,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": -4,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "actuallyadditions:block_crystal@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "actuallyadditions:block_crystal@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "actuallyadditions:block_crystal@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "tiths:block_chloroplast@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "actuallyadditions:block_crystal@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "tiths:block_chloroplast@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "additions:earth_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 6,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": -8,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "actuallyadditions:block_crystal@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "additions:sky_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -6,
+            "z": -4,
+            "elements": [
+                "tiths:block_chloroplast@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": -2,
+            "elements": [
+                "tiths:block_chloroplast@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:storage@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": 3,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": -6,
+            "elements": [
+                "tiths:block_chloroplast@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": -1,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "minecraft:concrete@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -7,
+            "z": -3,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
             ]
         },
         {
             "x": 2,
             "y": 0,
+            "z": -3,
+            "elements": [
+                "additions:sky_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": -4,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": 7,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "additions:sky_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "actuallyadditions:block_crystal@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "actuallyadditions:block_crystal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -6,
             "z": -1,
             "elements": [
-                "naturesaura:infused_stone@0"
+                "tiths:block_chloroplast@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "tiths:block_chloroplast@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -7,
+            "z": 5,
+            "elements": [
+                "tiths:block_chloroplast@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -7,
+            "z": 4,
+            "elements": [
+                "tiths:block_chloroplast@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "plustic:alumiteblock@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": -5,
+            "elements": [
+                "tiths:block_chloroplast@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "additions:sky_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": -4,
+            "elements": [
+                "minecraft:concrete@5"
             ]
         },
         {
@@ -434,23 +2986,71 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "naturesaura:infused_stone@0"
+                "casings_all"
             ]
         },
         {
-            "x": 0,
-            "y": 1,
-            "z": 2,
+            "x": 3,
+            "y": -3,
+            "z": 4,
             "elements": [
-                "naturesaura:infused_stone@0"
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "botania:storage@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": -2,
+            "elements": [
+                "thermalfoundation:storage@7"
             ]
         },
         {
             "x": 2,
-            "y": 0,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
             "z": 3,
             "elements": [
-                "naturesaura:infused_stone@0"
+                "tcomplement:scorched_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "actuallyadditions:block_crystal@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": -7,
+            "elements": [
+                "naturesaura:infused_iron_block@0"
             ]
         }
     ]}
