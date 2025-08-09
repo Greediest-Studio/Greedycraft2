@@ -157,16 +157,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:gloomy_passport>, [
 	[null, null, null, <ore:ingotDullium>, null, null, null]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:impetus_forge_factory_controller>, [
-	[<ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>], 
-	[<ore:plateVoid>, <ore:ingotInfernium>, <ore:ingotInfernium>, <ore:ingotInfernium>, <ore:ingotInfernium>, <ore:ingotInfernium>, <ore:plateVoid>], 
-	[<ore:plateVoid>, <ore:ingotInfernium>, <thaumicaugmentation:material:3>, <thaumicaugmentation:material:5>, <thaumicaugmentation:material:3>, <ore:ingotInfernium>, <ore:plateVoid>], 
-	[<ore:plateVoid>, <ore:ingotCosmilite>, <thaumicaugmentation:material:5>, <ore:ingotPrimordialExtended>, <thaumicaugmentation:material:5>, <ore:ingotCosmilite>, <ore:plateVoid>], 
-	[<ore:plateVoid>, <ore:ingotInfernium>, <thaumicaugmentation:material:3>, <thaumicaugmentation:material:5>, <thaumicaugmentation:material:3>, <ore:ingotInfernium>, <ore:plateVoid>], 
-	[<ore:plateVoid>, <ore:ingotInfernium>, <ore:ingotInfernium>, <ore:ingotInfernium>, <ore:ingotInfernium>, <ore:ingotInfernium>, <ore:plateVoid>], 
-	[<ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>, <ore:plateVoid>]
-]);
-
 mods.extendedcrafting.TableCrafting.addShaped(0, <gct_aby:soul_stealer_scroll>, [
 	[null, null, null, null, null, null, null], 
 	[<ore:ingotSanite>, null, null, null, null, null, <ore:ingotSanite>], 

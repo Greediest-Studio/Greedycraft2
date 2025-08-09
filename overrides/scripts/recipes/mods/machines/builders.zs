@@ -546,5 +546,7 @@ addBuilderRecipe(<modularmachinery:impetus_forge_factory_controller>, [
     <ore:ingotPrimordial> * 12,
     <ore:ingotEldritchSteel> * 12,
     <ore:ingotAdaminite> * 4,
+    <ore:ingotPrimordialExtended> * 2,
+    <ore:ingotCosmilite> * 2,
     <thaumcraft:stone_eldritch_tile> * 72
 ], 4, 3000);

@@ -21,3 +21,4 @@ ConversionItem.create(<additions:sulfur_ingot>)
     .addMatchItem(<betterendforge:sulphur_crystal>).register();
 ConversionItem.create(<tiths:nitre>).addMatchItem(<ore:dustSaltpeter>).register();
 ConversionItem.create(<tiths:block_nitre>).addMatchItem(<ore:blockSaltpeter>).register();
+ConversionItem.create(<thaumcraft:amber>).addMatchItem(<ore:gemAmber>).register();
