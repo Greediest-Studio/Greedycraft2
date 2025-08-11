@@ -108,7 +108,7 @@ Alloy.addRecipe(<liquid:shadow_bar>, [<liquid:rupee>, <liquid:realmite>]);
 Alloy.addRecipe(<liquid:glowing_signalum> * 144, [<liquid:signalum> * 144, <liquid:glowstone> * 1000]);
 Alloy.addRecipe(<liquid:twilight_crystal>, [<liquid:eden>, <liquid:wildwood>, <liquid:apalachia>, <liquid:skythern>, <liquid:mortum>]);
 Alloy.addRecipe(<liquid:daynight>, [<liquid:falsite>, <liquid:ventium>, <liquid:horizonite>]);
-Alloy.addRecipe(<liquid:cthulhurite> * 2, [<liquid:moltenabyssalnite>, <liquid:moltenrefinedcoralium>, <liquid:moltendreadium>, <liquid:ethaxium>, <liquid:sanite>]);
+Alloy.addRecipe(<liquid:cthulhurite> * 2, [<liquid:abyssalnite>, <liquid:liquified_coralium>, <liquid:dreadium>, <liquid:ethaxium>, <liquid:sanite>]);
 Alloy.addRecipe(<liquid:steamium> * 2, [<liquid:steel> * 4, <liquid:tanatonium> * 3, <liquid:liquid_air> * 1]);
 Alloy.addRecipe(<liquid:astronicium> * 2, [<liquid:oraclium>, <liquid:halleium>, <liquid:hothium>, <liquid:tonium>]);
 Alloy.addRecipe(<liquid:raisium> * 3, [<liquid:steamium> * 3, <liquid:magiga> * 8, <liquid:imitatium> * 2]);
