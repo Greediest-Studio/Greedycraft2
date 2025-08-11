@@ -1,5 +1,5 @@
 /*
- * This script is created for the GreedyCraft 
+ * This script is created for the GreedyCraft by 咕咕咕 and mc_Edwin.
  * 你知道湮灭媒介之类的得一个个手搓有多麻烦吗(恼)
  * 给你一拳
  */
@@ -26,6 +26,8 @@ import mods.modularmachinery.FactoryRecipeThread;
 import mods.modularmachinery.RecipeAdapterBuilder;
 import mods.modularmachinery.RecipeCheckEvent;
 import mods.modularmachinery.ControllerGUIRenderEvent;
+import mods.modularmachinery.IngredientArrayPrimer;
+import mods.modularmachinery.IngredientArrayBuilder;
 import mods.modularmachinery.MMEvents;
 import mods.ctutils.utils.Math;
 
@@ -34,32 +36,15 @@ MachineModifier.setInternalParallelism("abyss_ceremony_executant", 1);
 MachineModifier.setMaxThreads("abyss_ceremony_executant", 8);
 
 $expand RecipePrimer$addSacrificeInput() {
-    this.addFactoryStartHandler(function(event as RecipeCheckEvent) {
-        var x as float = event.controller.pos.x as float;
-        var y as float = event.controller.pos.y as float;
-        var z as float = event.controller.pos.z as float;
-        var sacrificeList as IEntityDefinition[] = [
-            <entity:minecraft:sheep>,
-            <entity:minecraft:pig>,
-            <entity:minecraft:cow>,
-            <entity:minecraft:chicken>
-        ];
-        var entityList = event.controller.world.getEntitiesInArea(Position3f.create(x + 4, y + 1, z + 4), Position3f.create(x - 4, y - 1, z - 4));
-        var pass as bool = false;
-        for ent in entityList {
-            if (!isNull(ent.definition)) {
-                if (sacrificeList has ent.definition) {
-                    event.controller.world.removeEntity(ent);
-                    pass = true;
-                    break;
-                }
-            }
-        }
-        if (!pass) {
-            event.setFailed("缺少祭品输入");
-        }
-    });
-    this.addRecipeTooltip("§4需要祭品");
+    this.addIngredientArrayInput(IngredientArrayBuilder.newBuilder()
+        .addIngredients([
+            <thermalexpansion:morb:1>.withTag({id : "minecraft:pig"}),
+            <thermalexpansion:morb:1>.withTag({id : "minecraft:chicken"}),
+            <thermalexpansion:morb:1>.withTag({id : "minecraft:cow"}),
+            <thermalexpansion:morb:1>.withTag({id : "minecraft:sheep"})
+        ]).build()
+    );
+    this.addItemOutput(<thermalexpansion:morb:1>);
 }
 
 function addRitualRecipe(output as IItemStack, inputs as IIngredient[], potEnergy as int, dim as int, sacrifice as bool) {
