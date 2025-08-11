@@ -68,6 +68,18 @@ RecipeBuilder.newBuilder("abyss_air4", "air_collector", 2)
     .addGasOutput(<gas:airabyss> * 500)
     .build();
 
+RecipeBuilder.newBuilder("abyss_air5", "air_collector", 2)
+    .addDimensionInput(54)
+    .addEnergyPerTickInput(100)
+    .addGasOutput(<gas:airabyss> * 500)
+    .build();
+
+RecipeBuilder.newBuilder("abyss_air6", "air_collector", 2)
+    .addDimensionInput(55)
+    .addEnergyPerTickInput(100)
+    .addGasOutput(<gas:airabyss> * 500)
+    .build();
+
 MMEvents.onControllerGUIRender("air_collector", function(event as ControllerGUIRenderEvent) {
     var info as string[] = [
         "§a///空气收集器控制面板///",

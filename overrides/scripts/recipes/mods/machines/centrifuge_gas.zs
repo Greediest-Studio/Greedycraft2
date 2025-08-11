@@ -12,7 +12,31 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
 import mods.modularmachinery.RecipeBuilder;
+import mods.modularmachinery.MachineUpgradeBuilder;
+import mods.modularmachinery.MachineUpgradeHelper;
+import mods.modularmachinery.MachineModifier;
+import mods.modularmachinery.IMachineController;
+import mods.modularmachinery.RecipePrimer;
+import mods.modularmachinery.RecipeModifier;
+import mods.modularmachinery.RecipeModifierBuilder;
+import mods.modularmachinery.FactoryRecipeThread;
+import mods.modularmachinery.RecipeAdapterBuilder;
+import mods.modularmachinery.RecipeCheckEvent;
+import mods.modularmachinery.ControllerGUIRenderEvent;
+import mods.modularmachinery.MMEvents;
 import mods.ctutils.utils.Math;
+
+MachineModifier.setMaxParallelism("gas_centrifuge", 256);
+MachineModifier.setInternalParallelism("gas_centrifuge", 1);
+MachineModifier.setMaxThreads("gas_centrifuge", 1);
+
+MMEvents.onControllerGUIRender("gas_centrifuge", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = [
+        "§a///气体分离器控制面板///",
+        "§a机器名称：§eLV3 - 气体分离器"
+    ];
+    event.extraInfo = info;
+});
 
 RecipeBuilder.newBuilder("centrifuge_air", "gas_centrifuge", 100)
     .addGasInput(<gas:air> * 200)
@@ -71,3 +95,4 @@ RecipeBuilder.newBuilder("lifeessence", "gas_centrifuge", 40)
     .addFluidOutput(<liquid:substrate_lifeessence> * 90)
     .addItemOutput(<thermalfoundation:material:864> * 1)
     .build();
+
