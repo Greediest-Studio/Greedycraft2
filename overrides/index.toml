@@ -2385,6 +2385,10 @@ file = "addons/Additions/GreedyCraft/assets/additions/models/item/barium_sulfide
 hash = "7fe7467b5fa7013436118c4639aa5d7e55086f4f9f7734fea865d8b825ff6c1c"
 
 [[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/models/item/basic_assembler.json"
+hash = "fd7c7647156fa800111e478c8110ab1cff201b091268dbe5aa53cbe36f3b8603"
+
+[[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/models/item/basic_fusion_core.json"
 hash = "34b6831ef2155ccd1295c5b08c30e997395f4792524def5e97365e70c6665878"
 
@@ -6961,6 +6965,10 @@ file = "addons/Additions/GreedyCraft/assets/additions/textures/items/barium_sulf
 hash = "6704a74b5d78e003d073c41631860f4787c1f279c241709de70b1684b008be6f"
 
 [[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/textures/items/basic_assembler-layer0.png"
+hash = "c44096f7504123d423a7bcfa3132304b8b04901f8608c820f052f8abc0e6aba5"
+
+[[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/textures/items/beast_hand-layer0.png"
 hash = "43c456dfcb9487f3924a488cb059b98197302d92b88d4e72574a2ec3b5cbedea"
 
@@ -8582,7 +8590,7 @@ hash = "45e7d44bd1c16a66e7b8b8e6704439de9f9aefa02cdd50ca6c099e1b7bd5c8ff"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/textures/items/pruified-layer0.png"
-hash = "0fac47cccc823ad211830465d3c542597715f53f58d325d6ea699a9411dfce04"
+hash = "793220ee6202d7791824f0bc3c713a0ff0401cc6798909d9609592ebd47ece59"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/textures/items/pruified_matter-layer0.png"
@@ -10871,6 +10879,10 @@ hash = "e8171be38627703b321129e6b679e4e8f91ab97572685547758c9ce04b69823c"
 [[files]]
 file = "addons/Additions/GreedyCraft/data/items/barium_sulfide.json"
 hash = "afaef82ff38aa93aa052e5eea72a327e29ba329cffa946d8becac598a4cb5118"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/data/items/basic_assembler.json"
+hash = "9ae9dde8c363e2727bd3c8d399212d2a349524756d5ccfd967d09d2c361faec5"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/data/items/beast_hand.json"
@@ -16470,7 +16482,7 @@ hash = "b12ed7834109a979000fb5f413f53a4362110c74cdfcbde941d09360b97f8d6f"
 
 [[files]]
 file = "config/Loot Overhaul/Useful Info/Biome IDs.txt"
-hash = "b6aa060161b527719ee744f42749d64e6c331560493eaf3920cc3b3d7b974bd2"
+hash = "47e4b66fd1fcd932b44a848f78c2253fbf572ad41a24ab283de753b3bd1190d0"
 
 [[files]]
 file = "config/Loot Overhaul/Useful Info/Block IDs.txt"
@@ -16490,11 +16502,11 @@ hash = "985b8be8dd7fdebc9f23c226fab8afa1e102b8eb3a016349fea37d796df040cf"
 
 [[files]]
 file = "config/Loot Overhaul/Useful Info/Item IDs.txt"
-hash = "b238d76a36a4af0db63767b36c67a8ea5af0eaa549abe75b6d0947833f7f1407"
+hash = "5bc2e6749cce8475a7a8eae0dc04a95e9a5ec76e33d9aed76ab42d3870bb942a"
 
 [[files]]
 file = "config/Loot Overhaul/Useful Info/Ore Dictionary Info.txt"
-hash = "cca9ff45ff64d4e97e47b9fbf5bde5d887318d44c7a45bbfe52d497f4aae9c9f"
+hash = "5e4414c76795d71d7625fe0bca8e676e0c25d2dc16483b5439ca9025d9b8f799"
 
 [[files]]
 file = "config/Loot Overhaul/Useful Info/Potion IDs.txt"
@@ -16570,7 +16582,7 @@ hash = "2ab75dba522dfbd57ebab113378777a6272b3f07649d5cd84a365cf4d5cd6eb3"
 
 [[files]]
 file = "config/ProjectE/mapping.cfg"
-hash = "f10be925971a8dad8cfbecf59de6d26a7bcfe364742ca03422609fec1a2326f3"
+hash = "d6e6cbd227f8089b9dedfb4a3b79c5ac86ed3bc025cdb3b4885738314393c7fe"
 
 [[files]]
 file = "config/ProjectE/nbt_whitelist.json"
@@ -17162,7 +17174,7 @@ hash = "6b07d912612fa348a3765283d9373a1a5b3459f2ac4721f56bdd0a0c0e8a4c94"
 
 [[files]]
 file = "config/astralsorcery/amulet_enchantments.cfg"
-hash = "ed7af89d41ade3022f5ae718ed98de5b9b046d81fb311a309a788b892ecf6763"
+hash = "0c03b7b0213a771291f55b8c54af16a886499f0fc60437a0541a1aae5f867dde"
 
 [[files]]
 file = "config/astralsorcery/fluid_rarities.cfg"
@@ -20054,7 +20066,7 @@ hash = "4f05a5e09112e10fb510fb0d52d8c7420806fcf4f54d96cbe6b4059e9a97df2f"
 
 [[files]]
 file = "config/customloadingscreen_timings.nbt"
-hash = "f67533fdc403ddc8664bc2c2742ae62f15d185b81c4b2e6f937c02d6d41c5dc3"
+hash = "f98d3bda606551b3c91223cf16a07c19bc04c226ce892944ed18bb803842846f"
 
 [[files]]
 file = "config/customloadingscreen_tips.txt"
@@ -27002,7 +27014,7 @@ hash = "561f8a552ae10d1860a525cb49408f466ea4ab8baa7909248a31282e677111e9"
 
 [[files]]
 file = "config/jaopca/materials/amber.toml"
-hash = "7e9dd3206b69e58a97cb75da0566edc0db6b3f11a03e74b8d17451d64172dddb"
+hash = "bc7694feb9ba44e99938ad6922e5117363aad1d528552fe577e5153bfbb581ce"
 
 [[files]]
 file = "config/jaopca/materials/ambrosium.toml"
@@ -30238,7 +30250,7 @@ hash = "aa2d125660ad731dff9aec92c745a6947e204dba56ecc95d6907f1883d26ec33"
 
 [[files]]
 file = "config/jei/worldSettings.cfg"
-hash = "733a2c46fb6a388b8107a750afe820c3169756faebeef0ef76b8ca3749ca4ff9"
+hash = "64cd6213dfcd8ee94a76e7297d79fbbd57568e1ce9039a044fbc92a7f132fef1"
 
 [[files]]
 file = "config/jei/worldSettings.cfg_20250714_121427.errored"
@@ -30878,7 +30890,7 @@ hash = "5e20e5e17e27e795aee88fb69bc592d281bd106f8ae8a561ac6a2cca3817aefa"
 
 [[files]]
 file = "config/modularmachinery/modularmachinery.cfg"
-hash = "5d523ce40c69b0eb4b174dfee62c107c6c2b985faeeb5ff153ed2fa53fff7a24"
+hash = "f5b7f2540eaaaf59dd5329484d5f1967652f2fa1d6c5b82c547759b330c5b1dd"
 
 [[files]]
 file = "config/modularmachineryaddons.cfg"
@@ -32678,7 +32690,7 @@ hash = "dd660460fb40f02e41fa4f5e9d0b651a6bb4a1a101c8741bd6fcfd119f13ff4e"
 
 [[files]]
 file = "config/splash.properties"
-hash = "431570f5298f688c9a24428437e4bf2f6c37337664ee09fd00d8e19033eed1e4"
+hash = "1870a155ad357275809077acab764269db2723b05ebc006d58ed328e775cde29"
 
 [[files]]
 file = "config/stellar_core.cfg"
@@ -32690,7 +32702,7 @@ hash = "d9a5bef32fafdacae79c98bbce8ab862d5fc030837d34613bf9a8e8827b370db"
 
 [[files]]
 file = "config/stellarcore_stitcher_cache_vanilla.dat"
-hash = "2e9da8dcdad23f3ff51c8f83006b0db5820e70064f9beb3982badf593eba1b8e"
+hash = "458b296435274888094f0bb8f37500780e70b812c4f36088ce4702213c2cce66"
 
 [[files]]
 file = "config/storagedrawers.cfg"
@@ -33006,7 +33018,7 @@ hash = "f191208cedaf0c19ccdbfb4ec58af40a317383f7ba1e4385dc43dc591aeb4faa"
 
 [[files]]
 file = "config/thaumicjei_itemstack_aspects.json"
-hash = "2ac7418353e5eaca7083c234c1d4117c2c5c0052eeb259ce33760afc4c2ab66c"
+hash = "e41b19bfe78281f1eaded2a9cdfb264d0753747eb2df0a7fc9e971d025251ac9"
 
 [[files]]
 file = "config/thaumictinkerer.cfg"
@@ -33022,7 +33034,7 @@ hash = "d2b0365ec5d97a226d15973d3cf2d1b859686dcaf84b9432f56075b7e521a9c4"
 
 [[files]]
 file = "config/thebetweenlands/config.cfg"
-hash = "920ca2131ba20acb01b3dfa49b253dc095dd81db65f262a7cd8b24397f3c0c9e"
+hash = "b2b6927343d3d6d03de96c5ff850fd543f7a4ff20aa6003ce789eb93746c276b"
 
 [[files]]
 file = "config/thebetweenlands/config_version"
@@ -33614,7 +33626,7 @@ hash = "e2a2e06146e3f5e0bc840f18176b501f59aa82622ad7ec28ee22c4e8b916666e"
 
 [[files]]
 file = "config/worldedit/worldedit.properties"
-hash = "02508b9676b34ee8d36245039855475de928a3d8c5a5541677008eded1f968d8"
+hash = "fb18d7b395b0c0e4f92b5f53df0b7542f44c79120e51a2d4fc1c9ba1baf8019d"
 
 [[files]]
 file = "config/worldeditcuife2.cfg"
@@ -34665,7 +34677,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/had-enough-items.pw.toml"
-hash = "d679b885e6bb9d53553a64f0b3b29e56e249ee5782b0769f0203ead3a17fa95e"
+hash = "f3d56a2af8454e4ccf94b86c17aef630c1952ba92783745fa47bd6dc20d2d162"
 metafile = true
 
 [[files]]
@@ -37648,7 +37660,7 @@ hash = "8caea314b17d5252f0c4e36dead44d2526f58257d9a4604bd7684920dbe2b539"
 
 [[files]]
 file = "resources/betterendforge/lang/zh_cn.lang"
-hash = "a6b7fd6f8128e1abdfc9d2ff99f4725a74891f379117a04aafb226fc1bfea8e3"
+hash = "29121ff600220ac4206836583a6ee2c4b8a1fed6e8da4a8293f7650f6ead35ac"
 
 [[files]]
 file = "resources/betweenlands/lang/zh_cn.lang"
@@ -41828,7 +41840,7 @@ hash = "b3756d0951162875d7fc1d3af0b34189cd4ea897f46db6bf719aec42ce74055b"
 
 [[files]]
 file = "scripts/global/jei_hiding.zs"
-hash = "83778914967d0ae8a3afaaa80dc88f835db65cfd9828c77d5433cbcf1d165284"
+hash = "28cea1a779a4ae08836e9fa57234fec5e5f77110c25d4f3e13ef82de1ce8ab69"
 
 [[files]]
 file = "scripts/global/list_stages.zs"
@@ -42008,7 +42020,7 @@ hash = "151743f8df447907216cee1767aed4f8286e8668e42d4220c5e013ecc717f1e6"
 
 [[files]]
 file = "scripts/recipes/mods/astralsorcery.zs"
-hash = "ef986a34e2b60ae503afd891597dde3c8996003d3c33f5147fb5eb0784f7f300"
+hash = "f8f1f09c3801919ac3973ead7465777a5480a4b899c89d5ef159c84b8b01e19e"
 
 [[files]]
 file = "scripts/recipes/mods/avaritia.zs"
@@ -42060,7 +42072,7 @@ hash = "3ba9f9fd14fe686a0540e183429eb1a7378c74c717cdee9bb0d1917e2ea99d82"
 
 [[files]]
 file = "scripts/recipes/mods/extended_crafting/mk3.zs"
-hash = "34f56298930f2e9073d4692951d869bda9a62e45c59c37289f64be0be1c4f7be"
+hash = "801b75aff60f36d82061c54423f8962d5a6b498eb4adbbb08b51401ddc39bcf6"
 
 [[files]]
 file = "scripts/recipes/mods/extended_crafting/mk4.zs"
@@ -42120,7 +42132,7 @@ hash = "cf17436b1944d12fa25539589a44e28b63c0fbb3817b4cf0911ce7c7d5c8143d"
 
 [[files]]
 file = "scripts/recipes/mods/machines/builders.zs"
-hash = "fe970e07c06ed1e43d9e52b486f27b1cc957a7d4cc495a559207cd668b77bb0c"
+hash = "49dcbdde6168e13ccb967d7bf6bdb09cbf03faff8544cfe1643262cfba40cae5"
 
 [[files]]
 file = "scripts/recipes/mods/machines/centrifuge_gas.zs"
@@ -42384,7 +42396,7 @@ hash = "3f521e7392742fb24dad242cd8d4c2e8d307c79bb50869a89a3d34e4e3dea92a"
 
 [[files]]
 file = "scripts/recipes/vanilla/crafting_table/shaped2.zs"
-hash = "e5cd6f12f6d3ddac0dc58a29651ab3649ed9364008ff0df98ba5e6914fc1ce1f"
+hash = "e8c6633013c0b25d09f82a7347a76833ee3f061d2628bf3d77d154cd753f4099"
 
 [[files]]
 file = "scripts/recipes/vanilla/crafting_table/shapeless.zs"
@@ -42420,11 +42432,11 @@ hash = "cfc039b3b74cc57b13b1533f43211124596468c7a008c6a15cb391b795465205"
 
 [[files]]
 file = "scripts/tweaks/ooi.zs"
-hash = "2fd56348b077f024dd8b47dbbe3684708dfed41657ef1e1058d621d9cc94a98e"
+hash = "1973008bfeb748e05c3c6109312f4bef3d3c518e04212ebd04d3a9392f65b884"
 
 [[files]]
 file = "scripts/tweaks/oredict.zs"
-hash = "261edc4edafd1ff60c13e17e67404ddcc7ae6b93e70f0fe91c7d2d4cc0c8fb11"
+hash = "5ec5eb18448c384f294deee6b537c41df2631bdc0ce365c36a69db358aa2341f"
 
 [[files]]
 file = "scripts/tweaks/tinkers_icon.zs"
