@@ -1488,7 +1488,8 @@ var disabledItems as IIngredient[] = [
     <modularmachineryaddons:blockwillmultichunkprovideroutput>,
     <modularmachineryaddons:inactiveradiationsponge>,
     <modularmachineryaddons:radiationsponge>,
-    <astralsorcery:blockborehead:1>
+    <astralsorcery:blockborehead:1>,
+    <danknull:danknull_dock>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [

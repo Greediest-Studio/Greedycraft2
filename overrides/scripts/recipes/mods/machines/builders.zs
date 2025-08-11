@@ -743,3 +743,89 @@ addBuilderRecipe(<modularmachinery:pe_collector_factory_controller>, [
     <ore:ingotPorpezite> * 8,
     <ore:nuclearShadow> * 24
 ], 4, 3600);
+
+//LV5
+/* 
+addBuilderRecipe(<modularmachinery:dimensional_miner_factory_controller>, [
+
+]);*/
+
+//Units
+addBuilderRecipe(<modularmachinery:elysia_alloyer_factory_controller>, [
+    <gct_ores:blue_print_empty> * 32,
+    <ore:ingotModularium> * 64,
+    <enderio:block_enhanced_alloy_smelter> * 4,
+    <enderio:block_alloy_smelter> * 16,
+    <enderio:block_simple_alloy_smelter> * 32
+], 1, 3200);
+
+addBuilderRecipe(<modularmachinery:elysia_centrifuge_factory_controller>, [
+    <gct_ores:blue_print_empty> * 32,
+    <ore:ingotModularium> * 64,
+    <nuclearcraft:separator> * 16,
+    <thermalexpansion:machine:10>.withTag({Level : 4 as byte}) * 16
+], 1, 3200);
+
+addBuilderRecipe(<modularmachinery:elysia_crusher_factory_controller>, [
+    <gct_ores:blue_print_empty> * 32,
+    <ore:ingotModularium> * 64,
+    <enderio:block_sag_mill> * 8,
+    <enderio:block_simple_sag_mill> * 16,
+    <thermalexpansion:machine:1>.withTag({Level : 4 as byte}) * 16
+], 1, 3200);
+
+addBuilderRecipe(<modularmachinery:elysia_electrolyzer_factory_controller>, [
+    <gct_ores:blue_print_empty> * 32,
+    <ore:ingotModularium> * 64,
+    <mekanism:machineblock2:4> * 16,
+    <nuclearcraft:electrolyzer> * 16
+], 1, 3200);
+
+addBuilderRecipe(<modularmachinery:elysia_forger_factory_controller>, [
+    <gct_ores:blue_print_empty> * 32,
+    <ore:ingotModularium> * 64,
+    <thermalexpansion:machine:5>.withTag({Level : 4 as byte}) * 16,
+    <nuclearcraft:pressurizer> * 16
+], 1, 3200);
+
+addBuilderRecipe(<modularmachinery:elysia_liquefier_factory_controller>, [
+    <gct_ores:blue_print_empty> * 32,
+    <ore:ingotModularium> * 64,
+    <aether_legacy:freezer> * 16,
+    <thermalexpansion:machine:14>.withTag({Level : 4 as byte}) * 16
+], 1, 3200);
+
+addBuilderRecipe(<modularmachinery:elysia_melter_factory_controller>, [
+    <gct_ores:blue_print_empty> * 32,
+    <ore:ingotModularium> * 64,
+    <thermalexpansion:machine:6>.withTag({Level : 4 as byte}) * 16,
+    <nuclearcraft:melter> * 16
+], 1, 3200);
+
+addBuilderRecipe(<modularmachinery:elysia_pyrolyzer_factory_controller>, [
+    <gct_ores:blue_print_empty> * 32,
+    <ore:ingotModularium> * 64,
+    <tcomplement:high_oven_controller> * 16,
+    <mekanism:basicblock:14> * 16
+], 1, 3200);
+
+addBuilderRecipe(<modularmachinery:elysia_reactor_factory_controller>, [
+    <gct_ores:blue_print_empty> * 32,
+    <ore:ingotModularium> * 64,
+    <nuclearcraft:chemical_reactor> * 16,
+    <mekanism:machineblock2:2> * 16
+], 1, 3200);
+
+addBuilderRecipe(<modularmachinery:elysia_solidifier_factory_controller>, [
+    <gct_ores:blue_print_empty> * 32,
+    <ore:ingotModularium> * 64,
+    <nuclearcraft:supercooler> * 16,
+    <nuclearcraft:ingot_former> * 16
+], 1, 3200);
+
+addBuilderRecipe(<modularmachinery:elysia_vaporizer_factory_controller>, [
+    <gct_ores:blue_print_empty> * 32,
+    <ore:ingotModularium> * 64,
+    <tcomplement:melter> * 32,
+    <tcomplement:melter:8> * 32 
+], 1, 3200);
