@@ -25,3 +25,5 @@ ConversionItem.create(<thaumcraft:amber>).addMatchItem(<ore:gemAmber>).register(
 ConversionItem.create(<thaumcraft:amber_block>)
     .addMatchItem(<biomesoplenty:gem_block:7>)
     .addMatchItem(<betterendforge:amber_block>).register();
+
+ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:burningsulfurflow>).register();

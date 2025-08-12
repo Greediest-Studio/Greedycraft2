@@ -2,7 +2,7 @@
     "registryname": "fallen_star",
     "localizedname": "§dLV3 - 坠星天矛",
     "requires-blueprint": false,
-    "color": "333332",
+    "color": "333333",
     "failure-action": "still",
     "parts": [
         {
@@ -14,19 +14,19 @@
             ]
         },
         {
+            "x": -3,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
             "x": -1,
             "y": 2,
             "z": 0,
             "elements": [
                 "tconevo:metal_block@6"
-            ]
-        },
-        {
-            "x": -5,
-            "y": -2,
-            "z": -4,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
             ]
         },
         {
@@ -46,43 +46,11 @@
             ]
         },
         {
-            "x": 5,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "bloodarsenal:blood_stained_glass@0"
-            ]
-        },
-        {
             "x": 1,
             "y": -4,
             "z": 0,
             "elements": [
                 "bloodmagic:blood_rune@5"
-            ]
-        },
-        {
-            "x": 6,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -4,
-            "z": -4,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -3,
-            "z": -7,
-            "elements": [
-                "bloodmagic:ritual_stone@3"
             ]
         },
         {
@@ -94,6 +62,14 @@
             ]
         },
         {
+            "x": 5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
             "x": 0,
             "y": -3,
             "z": 6,
@@ -102,35 +78,35 @@
             ]
         },
         {
-            "x": -5,
-            "y": -4,
-            "z": 2,
-            "elements": [
-                "bloodmagic:path@6"
-            ]
-        },
-        {
-            "x": 3,
+            "x": 2,
             "y": 0,
-            "z": -2,
+            "z": -5,
             "elements": [
-                "bloodmagic:ritual_stone@2"
+                "minecraft:obsidian@0"
             ]
         },
         {
-            "x": 1,
-            "y": 1,
-            "z": -3,
+            "x": -2,
+            "y": 3,
+            "z": 0,
             "elements": [
-                "bloodarsenal:blood_stained_glass@0"
+                "minecraft:obsidian@0"
             ]
         },
         {
-            "x": 1,
-            "y": -4,
-            "z": 3,
+            "x": -3,
+            "y": -1,
+            "z": 5,
             "elements": [
-                "bloodmagic:ritual_stone@4"
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "minecraft:obsidian@0"
             ]
         },
         {
@@ -182,35 +158,19 @@
             ]
         },
         {
-            "x": -2,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "bloodmagic:blood_rune@9"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -4,
-            "z": 8,
-            "elements": [
-                "bloodmagic:ritual_stone@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "bloodarsenal:blood_stained_glass@0"
-            ]
-        },
-        {
             "x": 1,
             "y": -1,
             "z": -5,
             "elements": [
                 "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "minecraft:obsidian@0"
             ]
         },
         {
@@ -222,11 +182,1835 @@
             ]
         },
         {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
             "x": -4,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "bloodmagic:ritual_stone@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "bloodmagic:blood_rune@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "tconevo:metal_block@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "bloodmagic:ritual_stone@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "bloodmagic:ritual_stone@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "bloodmagic:ritual_stone@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:ritual_stone@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "bloodmagic:ritual_stone@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "bloodmagic:ritual_stone@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": -5,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "bloodmagic:blood_rune@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": -5,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "bloodmagic:ritual_stone@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "bloodmagic:ritual_stone@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": -5,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "bloodmagic:ritual_stone@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "bloodmagic:ritual_stone@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "bloodmagic:ritual_stone@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:ritual_stone@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "tconevo:metal_block@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "bloodmagic:ritual_stone@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "tconevo:metal_block@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "tconevo:metal_block@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "bloodmagic:ritual_stone@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "tconevo:metal_block@5"
+            ]
+        },
+        {
+            "x": 4,
             "y": -4,
             "z": 2,
             "elements": [
                 "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "bloodmagic:ritual_stone@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "bloodmagic:ritual_stone@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "bloodmagic:ritual_stone@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "tconevo:metal_block@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "bloodmagic:ritual_stone@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "bloodmagic:blood_rune@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": -5,
+            "elements": [
+                "bloodmagic:ritual_stone@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:ritual_stone@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "bloodmagic:ritual_stone@3"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:ritual_stone@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:ritual_stone@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "bloodmagic:ritual_stone@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "bloodmagic:ritual_stone@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "bloodmagic:blood_rune@10"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "bloodmagic:ritual_stone@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:ritual_stone@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "bloodmagic:blood_rune@10"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "bloodmagic:ritual_stone@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "bloodmagic:ritual_stone@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "bloodmagic:ritual_stone@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "bloodmagic:ritual_stone@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "bloodmagic:blood_rune@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "bloodmagic:ritual_stone@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "bloodmagic:ritual_stone@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": -7,
+            "elements": [
+                "bloodmagic:ritual_stone@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "bloodmagic:ritual_stone@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "bloodmagic:ritual_stone@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:obsidian@0"
             ]
         },
         {
@@ -238,11 +2022,11 @@
             ]
         },
         {
-            "x": -2,
-            "y": 1,
-            "z": 0,
+            "x": -4,
+            "y": -4,
+            "z": 2,
             "elements": [
-                "casings_parallel"
+                "bloodmagic:ritual_stone@4"
             ]
         },
         {
@@ -270,11 +2054,19 @@
             ]
         },
         {
-            "x": -1,
-            "y": 3,
-            "z": 0,
+            "x": 5,
+            "y": 0,
+            "z": -1,
             "elements": [
-                "bloodmagic:decorative_brick@1"
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "minecraft:obsidian@0"
             ]
         },
         {
@@ -286,19 +2078,11 @@
             ]
         },
         {
-            "x": 0,
-            "y": -4,
-            "z": 5,
+            "x": 6,
+            "y": -1,
+            "z": -3,
             "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -5,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "bloodmagic:ritual_stone@5"
+                "minecraft:obsidian@0"
             ]
         },
         {
@@ -310,35 +2094,27 @@
             ]
         },
         {
-            "x": 5,
-            "y": -4,
-            "z": 2,
+            "x": -2,
+            "y": 1,
+            "z": -3,
             "elements": [
-                "bloodmagic:path@6"
+                "minecraft:obsidian@0"
             ]
         },
         {
-            "x": -4,
+            "x": -5,
             "y": -4,
-            "z": -4,
+            "z": 3,
             "elements": [
                 "bloodmagic:ritual_stone@5"
             ]
         },
         {
-            "x": 3,
-            "y": -4,
-            "z": 0,
+            "x": -3,
+            "y": 1,
+            "z": -2,
             "elements": [
-                "bloodmagic:blood_rune@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -4,
-            "z": -8,
-            "elements": [
-                "bloodmagic:ritual_stone@3"
+                "minecraft:obsidian@0"
             ]
         },
         {
@@ -350,19 +2126,27 @@
             ]
         },
         {
+            "x": 0,
+            "y": -4,
+            "z": -8,
+            "elements": [
+                "bloodmagic:ritual_stone@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
             "x": -2,
             "y": 0,
             "z": -3,
             "elements": [
                 "bloodmagic:ritual_stone@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "tconevo:metal_block@6"
             ]
         },
         {
@@ -374,11 +2158,19 @@
             ]
         },
         {
+            "x": 4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
             "x": 0,
             "y": 1,
             "z": 2,
             "elements": [
-                "casings_all"
+                "casings_upgrade"
             ]
         },
         {
@@ -390,27 +2182,19 @@
             ]
         },
         {
-            "x": -2,
-            "y": -1,
-            "z": -6,
+            "x": 0,
+            "y": -2,
+            "z": 8,
             "elements": [
-                "bloodmagic:decorative_brick@1"
+                "minecraft:obsidian@0"
             ]
         },
         {
             "x": 0,
-            "y": 0,
-            "z": -5,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
-            ]
-        },
-        {
-            "x": -1,
             "y": -1,
-            "z": 5,
+            "z": -7,
             "elements": [
-                "bloodarsenal:blood_stained_glass@0"
+                "minecraft:obsidian@0"
             ]
         },
         {
@@ -422,11 +2206,11 @@
             ]
         },
         {
-            "x": 0,
-            "y": -3,
-            "z": 8,
+            "x": -2,
+            "y": 0,
+            "z": -6,
             "elements": [
-                "bloodmagic:ritual_stone@3"
+                "minecraft:obsidian@0"
             ]
         },
         {
@@ -438,19 +2222,11 @@
             ]
         },
         {
-            "x": 4,
-            "y": -2,
-            "z": -5,
+            "x": 0,
+            "y": -3,
+            "z": 8,
             "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": -6,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
+                "bloodmagic:ritual_stone@3"
             ]
         },
         {
@@ -463,18 +2239,26 @@
         },
         {
             "x": -3,
-            "y": -4,
-            "z": 5,
-            "elements": [
-                "bloodmagic:ritual_stone@5"
-            ]
-        },
-        {
-            "x": -3,
             "y": 0,
             "z": 2,
             "elements": [
                 "bloodmagic:ritual_stone@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:obsidian@0"
             ]
         },
         {
@@ -483,22 +2267,6 @@
             "z": 3,
             "elements": [
                 "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": -3,
-            "elements": [
-                "bloodmagic:ritual_stone@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
             ]
         },
         {
@@ -526,11 +2294,19 @@
             ]
         },
         {
-            "x": -1,
-            "y": -1,
-            "z": -5,
+            "x": -6,
+            "y": 0,
+            "z": -2,
             "elements": [
-                "bloodarsenal:blood_stained_glass@0"
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "minecraft:obsidian@0"
             ]
         },
         {
@@ -542,19 +2318,27 @@
             ]
         },
         {
-            "x": -2,
-            "y": -4,
-            "z": 0,
+            "x": 2,
+            "y": 0,
+            "z": 6,
             "elements": [
-                "bloodmagic:ritual_stone@2"
+                "minecraft:obsidian@0"
             ]
         },
         {
-            "x": 3,
-            "y": 0,
-            "z": 3,
+            "x": -3,
+            "y": 1,
+            "z": 2,
             "elements": [
-                "bloodmagic:ritual_stone@2"
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -8,
+            "elements": [
+                "minecraft:obsidian@0"
             ]
         },
         {
@@ -574,30 +2358,6 @@
             ]
         },
         {
-            "x": -4,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "bloodarsenal:blood_stained_glass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 6,
-            "elements": [
-                "bloodmagic:ritual_stone@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "bloodmagic:ritual_stone@1"
-            ]
-        },
-        {
             "x": 4,
             "y": -4,
             "z": 3,
@@ -606,27 +2366,11 @@
             ]
         },
         {
-            "x": 1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
             "x": 0,
             "y": 2,
             "z": 2,
             "elements": [
                 "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -4,
-            "z": -5,
-            "elements": [
-                "bloodmagic:path@6"
             ]
         },
         {
@@ -638,14 +2382,6 @@
             ]
         },
         {
-            "x": -1,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
-            ]
-        },
-        {
             "x": -5,
             "y": -4,
             "z": -1,
@@ -662,19 +2398,11 @@
             ]
         },
         {
-            "x": 4,
-            "y": 0,
-            "z": 0,
+            "x": -1,
+            "y": 3,
+            "z": 2,
             "elements": [
-                "bloodmagic:ritual_stone@4"
-            ]
-        },
-        {
-            "x": -6,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
+                "minecraft:obsidian@0"
             ]
         },
         {
@@ -683,666 +2411,26 @@
             "z": -2,
             "elements": [
                 "bloodmagic:ritual_stone@2"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 6,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "bloodarsenal:blood_stained_glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -4,
-            "z": 2,
-            "elements": [
-                "bloodmagic:blood_rune@10"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -4,
-            "z": -4,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -4,
-            "z": 0,
-            "elements": [
-                "bloodmagic:blood_rune@5"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": -4,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": -2,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "bloodmagic:decorative_brick@3"
-            ]
-        },
-        {
-            "x": 5,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "bloodarsenal:blood_stained_glass@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -4,
-            "z": 4,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
-            ]
-        },
-        {
-            "x": 5,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "bloodmagic:ritual_stone@5"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -4,
-            "z": -5,
-            "elements": [
-                "bloodmagic:path@6"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "bloodarsenal:blood_stained_glass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -4,
-            "z": 2,
-            "elements": [
-                "bloodmagic:ritual_stone@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "tconevo:metal_block@6"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 5,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -4,
-            "z": 0,
-            "elements": [
-                "bloodmagic:ritual_stone@3"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -4,
-            "z": -1,
-            "elements": [
-                "bloodmagic:blood_rune@10"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -4,
-            "z": -2,
-            "elements": [
-                "bloodmagic:blood_rune@10"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": -4,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -5,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "bloodarsenal:blood_stained_glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 5,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "casings_parallel"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": -2,
-            "elements": [
-                "bloodmagic:decorative_brick@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "bloodmagic:blood_rune@10"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
-            ]
-        },
-        {
-            "x": 6,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": -5,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -4,
-            "z": -5,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "bloodmagic:ritual_stone@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -4,
-            "z": -2,
-            "elements": [
-                "bloodmagic:blood_rune@9"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": -2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -4,
-            "z": 2,
-            "elements": [
-                "bloodmagic:blood_rune@10"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": -1,
-            "elements": [
-                "bloodmagic:decorative_brick@3"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": -5,
-            "elements": [
-                "bloodmagic:ritual_stone@1"
-            ]
-        },
-        {
-            "x": -6,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "bloodmagic:ritual_stone@2"
-            ]
-        },
-        {
-            "x": 7,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "bloodmagic:ritual_stone@3"
-            ]
-        },
-        {
-            "x": -6,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "bloodmagic:ritual_stone@1"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "bloodmagic:blood_rune@9"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": -1,
-            "elements": [
-                "bloodarsenal:blood_stained_glass@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "bloodmagic:decorative_brick@3"
-            ]
-        },
-        {
-            "x": -5,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -4,
-            "z": 1,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
-            ]
-        },
-        {
-            "x": 5,
-            "y": -4,
-            "z": -1,
-            "elements": [
-                "bloodmagic:path@6"
-            ]
-        },
-        {
-            "x": -5,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -4,
-            "z": 5,
-            "elements": [
-                "bloodmagic:path@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": -2,
-            "elements": [
-                "bloodarsenal:blood_stained_glass@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -4,
-            "z": 1,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
-            ]
-        },
-        {
-            "x": 5,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "bloodarsenal:blood_stained_glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -4,
-            "z": -4,
-            "elements": [
-                "tconevo:metal_block@5"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -4,
-            "z": 4,
-            "elements": [
-                "bloodmagic:ritual_stone@5"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -4,
-            "z": 2,
-            "elements": [
-                "bloodmagic:blood_rune@9"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -4,
-            "z": -2,
-            "elements": [
-                "bloodmagic:blood_rune@9"
-            ]
-        },
-        {
-            "x": -6,
-            "y": -4,
-            "z": 0,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 5,
-            "y": -2,
-            "z": -4,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "bloodarsenal:blood_stained_glass@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -4,
-            "z": 5,
-            "elements": [
-                "bloodmagic:path@6"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": -2,
-            "elements": [
-                "bloodmagic:decorative_brick@3"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -4,
-            "z": -1,
-            "elements": [
-                "tconevo:metal_block@5"
-            ]
-        },
-        {
-            "x": -5,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "bloodmagic:ritual_stone@5"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": -5,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -6,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -6,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -4,
-            "z": 1,
-            "elements": [
-                "tconevo:metal_block@5"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -4,
-            "z": 4,
-            "elements": [
-                "tconevo:metal_block@5"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "bloodarsenal:blood_stained_glass@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": -4,
-            "elements": [
-                "bloodarsenal:blood_stained_glass@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -4,
-            "z": 2,
-            "elements": [
-                "bloodmagic:blood_rune@9"
             ]
         },
         {
             "x": 0,
             "y": 3,
-            "z": 1,
+            "z": -2,
             "elements": [
-                "bloodmagic:decorative_brick@1"
+                "minecraft:obsidian@0"
             ]
         },
         {
             "x": -1,
             "y": -4,
-            "z": -1,
-            "elements": [
-                "bloodarsenal:blood_infused_iron_block@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -4,
-            "z": 1,
+            "z": 2,
             "elements": [
                 "bloodmagic:blood_rune@10"
             ]
         },
         {
-            "x": 2,
+            "x": -2,
             "y": 1,
             "z": 2,
             "elements": [
@@ -1350,15 +2438,23 @@
             ]
         },
         {
-            "x": 4,
-            "y": -4,
+            "x": 0,
+            "y": 2,
             "z": -2,
             "elements": [
-                "bloodmagic:ritual_stone@4"
+                "bloodmagic:decorative_brick@1"
             ]
         },
         {
-            "x": 0,
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "bloodmagic:decorative_brick@3"
+            ]
+        },
+        {
+            "x": 1,
             "y": 2,
             "z": 1,
             "elements": [
@@ -1366,1155 +2462,1275 @@
             ]
         },
         {
-            "x": 8,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "bloodmagic:ritual_stone@3"
-            ]
-        },
-        {
-            "x": 6,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "bloodarsenal:blood_stained_glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -4,
-            "z": 1,
-            "elements": [
-                "bloodarsenal:blood_infused_iron_block@0"
-            ]
-        },
-        {
-            "x": 0,
+            "x": 1,
             "y": 3,
-            "z": -1,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -5,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 7,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "bloodmagic:ritual_stone@3"
-            ]
-        },
-        {
-            "x": -7,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "bloodmagic:ritual_stone@3"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "bloodmagic:blood_rune@9"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -4,
-            "z": 2,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "bloodmagic:blood_rune@9"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": -1,
-            "elements": [
-                "bloodarsenal:blood_stained_glass@0"
-            ]
-        },
-        {
-            "x": 8,
-            "y": -4,
-            "z": 0,
-            "elements": [
-                "bloodmagic:ritual_stone@3"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -4,
-            "z": -4,
-            "elements": [
-                "tconevo:metal_block@5"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -4,
-            "z": -2,
-            "elements": [
-                "bloodmagic:blood_rune@9"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": 6,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": -6,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": 5,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -7,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "bloodmagic:ritual_stone@3"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -4,
-            "z": 4,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "bloodmagic:ritual_stone@1"
-            ]
-        },
-        {
-            "x": -8,
-            "y": -4,
-            "z": 0,
-            "elements": [
-                "bloodmagic:ritual_stone@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -4,
-            "z": -1,
-            "elements": [
-                "bloodmagic:blood_rune@10"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 7,
-            "elements": [
-                "bloodmagic:ritual_stone@3"
-            ]
-        },
-        {
-            "x": -8,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "bloodmagic:ritual_stone@3"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -2,
-            "z": -5,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
             "z": 1,
             "elements": [
-                "bloodmagic:decorative_brick@3"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -4,
-            "z": -4,
-            "elements": [
-                "bloodmagic:ritual_stone@5"
-            ]
-        },
-        {
-            "x": -6,
-            "y": -2,
-            "z": 2,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -4,
-            "z": 2,
-            "elements": [
-                "bloodmagic:blood_rune@9"
-            ]
-        },
-        {
-            "x": -5,
-            "y": -4,
-            "z": 0,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -4,
-            "z": 4,
-            "elements": [
-                "tconevo:metal_block@5"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": -4,
-            "elements": [
-                "bloodmagic:ritual_stone@1"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "bloodarsenal:blood_stained_glass@0"
-            ]
-        },
-        {
-            "x": -6,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": -1,
-            "elements": [
-                "tconevo:metal_block@6"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "bloodmagic:blood_rune@10"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -4,
-            "z": 1,
-            "elements": [
-                "bloodarsenal:blood_infused_iron_block@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -4,
-            "z": -5,
-            "elements": [
-                "bloodmagic:ritual_stone@5"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -4,
-            "z": -1,
-            "elements": [
-                "bloodarsenal:blood_infused_iron_block@0"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "bloodmagic:blood_rune@9"
-            ]
-        },
-        {
-            "x": -6,
-            "y": -2,
-            "z": -2,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
+                "minecraft:obsidian@0"
             ]
         },
         {
             "x": 0,
-            "y": 1,
-            "z": -4,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -4,
-            "z": -1,
-            "elements": [
-                "bloodmagic:blood_rune@5"
-            ]
-        },
-        {
-            "x": 6,
-            "y": -4,
-            "z": 0,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 2,
             "y": 1,
             "z": -2,
-            "elements": [
-                "bloodarsenal:blood_stained_glass@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "tconevo:metal_block@6"
-            ]
-        },
-        {
-            "x": 5,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -4,
-            "z": -4,
-            "elements": [
-                "bloodmagic:blood_rune@9"
-            ]
-        },
-        {
-            "x": 6,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "bloodmagic:ritual_stone@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -4,
-            "z": 4,
-            "elements": [
-                "bloodmagic:ritual_stone@3"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": -4,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
-            ]
-        },
-        {
-            "x": 6,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "bloodarsenal:blood_stained_glass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": -1,
-            "elements": [
-                "tconevo:metal_block@6"
-            ]
-        },
-        {
-            "x": -5,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "bloodmagic:ritual_stone@1"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "bloodmagic:ritual_stone@1"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "bloodarsenal:blood_stained_glass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -4,
-            "z": 1,
-            "elements": [
-                "bloodmagic:blood_rune@5"
-            ]
-        },
-        {
-            "x": -6,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
-            ]
-        },
-        {
-            "x": 6,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "bloodmagic:ritual_stone@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 5,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "bloodmagic:ritual_stone@5"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -4,
-            "z": 5,
-            "elements": [
-                "bloodmagic:path@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": -1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 5,
-            "y": -4,
-            "z": 0,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "bloodmagic:blood_rune@10"
-            ]
-        },
-        {
-            "x": 6,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": -5,
-            "elements": [
-                "bloodarsenal:blood_stained_glass@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": -6,
-            "elements": [
-                "bloodmagic:ritual_stone@1"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -4,
-            "z": 4,
-            "elements": [
-                "bloodmagic:blood_rune@9"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -4,
-            "z": -1,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -4,
-            "z": 5,
-            "elements": [
-                "bloodmagic:ritual_stone@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -5,
-            "y": -4,
-            "z": 1,
-            "elements": [
-                "bloodmagic:path@6"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": -6,
-            "elements": [
-                "bloodmagic:ritual_stone@2"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -4,
-            "z": -4,
-            "elements": [
-                "bloodmagic:blood_rune@9"
-            ]
-        },
-        {
-            "x": -4,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 6,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": -1,
-            "elements": [
-                "tconevo:metal_block@6"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -2,
-            "z": -4,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "bloodarsenal:blood_stained_glass@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": -3,
-            "elements": [
-                "bloodmagic:ritual_stone@2"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -4,
-            "z": 0,
-            "elements": [
-                "bloodmagic:ritual_stone@3"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": 6,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "bloodmagic:ritual_stone@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": -1,
-            "elements": [
-                "bloodmagic:decorative_brick@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": -6,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "bloodmagic:ritual_stone@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "bloodmagic:blood_rune@9"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -4,
-            "z": 1,
-            "elements": [
-                "bloodmagic:blood_rune@10"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 5,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -4,
-            "z": 4,
-            "elements": [
-                "bloodmagic:blood_rune@9"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "bloodmagic:blood_rune@10"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -4,
-            "z": 1,
-            "elements": [
-                "tconevo:metal_block@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -4,
-            "z": -4,
-            "elements": [
-                "bloodmagic:ritual_stone@3"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -4,
-            "z": -1,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "bloodarsenal:blood_stained_glass@0"
-            ]
-        },
-        {
-            "x": 6,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": -3,
-            "elements": [
-                "bloodmagic:ritual_stone@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -4,
-            "z": 0,
-            "elements": [
-                "bloodmagic:blood_rune@5"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": -6,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 5,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "bloodmagic:ritual_stone@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -3,
-            "z": 7,
-            "elements": [
-                "bloodmagic:ritual_stone@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": -4,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 6,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "bloodmagic:ritual_stone@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "bloodmagic:decorative_brick@3"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "bloodarsenal:blood_stained_glass@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
-            ]
-        },
-        {
-            "x": -5,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "bloodarsenal:blood_stained_glass@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "minecraft:beacon@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": -6,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "bloodmagic:ritual_stone@2"
-            ]
-        },
-        {
-            "x": -5,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "bloodarsenal:blood_stained_glass@0"
-            ]
-        },
-        {
-            "x": 6,
-            "y": -2,
-            "z": 2,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -4,
-            "z": -5,
-            "elements": [
-                "bloodmagic:path@6"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": -3,
-            "elements": [
-                "bloodarsenal:blood_stained_glass@0"
-            ]
-        },
-        {
-            "x": 4,
-            "y": -4,
-            "z": 4,
-            "elements": [
-                "bloodmagic:ritual_stone@5"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "bloodmagic:blood_rune@5"
-            ]
-        },
-        {
-            "x": -5,
-            "y": -4,
-            "z": -2,
-            "elements": [
-                "bloodmagic:path@6"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "bloodmagic:blood_rune@9"
-            ]
-        },
-        {
-            "x": 6,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "modularmachineryaddons:blockmeteorprovideroutput"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -4,
-            "z": -1,
-            "elements": [
-                "tconevo:metal_block@5"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -4,
-            "z": 0,
-            "elements": [
-                "bloodmagic:ritual_stone@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": -6,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": -3,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": -4,
-            "elements": [
-                "bloodmagic:ritual_stone@1"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 0,
             "elements": [
                 "casings_upgrade"
             ]
         },
         {
-            "x": 6,
-            "y": -2,
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "bloodmagic:blood_rune@10"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "bloodmagic:ritual_stone@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
             "z": -2,
             "elements": [
+                "bloodmagic:blood_rune@10"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "bloodmagic:decorative_brick@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "bloodmagic:blood_rune@10"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 1,
+            "elements": [
                 "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bloodmagic:ritual_stone@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "bloodmagic:blood_rune@10"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "bloodmagic:decorative_brick@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "bloodmagic:decorative_brick@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -2,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "bloodmagic:decorative_brick@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "tconevo:metal_block@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "bloodmagic:ritual_stone@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "bloodarsenal:blood_infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "bloodmagic:blood_rune@10"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "tconevo:metal_block@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "bloodmagic:ritual_stone@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "bloodarsenal:blood_infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "bloodmagic:ritual_stone@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "bloodmagic:ritual_stone@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "bloodmagic:ritual_stone@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "bloodmagic:ritual_stone@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "bloodmagic:blood_rune@10"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "bloodmagic:ritual_stone@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "bloodmagic:decorative_brick@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "bloodmagic:blood_rune@9"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "tconevo:metal_block@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -2,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "bloodarsenal:blood_infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "bloodarsenal:blood_infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "bloodmagic:blood_rune@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "tconevo:metal_block@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "tconevo:metal_block@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "bloodmagic:blood_rune@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "bloodmagic:ritual_stone@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "bloodmagic:ritual_stone@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "bloodmagic:ritual_stone@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "tconevo:metal_block@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "bloodmagic:ritual_stone@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "bloodmagic:ritual_stone@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "bloodmagic:decorative_brick@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -1,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "bloodmagic:blood_rune@10"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "tconevo:metal_block@5"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "bloodmagic:blood_rune@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:ritual_stone@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "bloodmagic:ritual_stone@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 13,
+            "z": 0,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "bloodmagic:ritual_stone@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "bloodmagic:decorative_brick@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "bloodmagic:ritual_stone@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "bloodarsenal:blood_stained_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": -5,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "bloodmagic:path@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "modularmachineryaddons:blockmeteorprovideroutput@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "tconevo:metal_block@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "bloodmagic:ritual_stone@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "bloodmagic:decorative_brick@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "minecraft:obsidian@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:obsidian@0"
             ]
         },
         {
@@ -2526,14 +3742,6 @@
             ]
         },
         {
-            "x": 0,
-            "y": 1,
-            "z": -3,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
             "x": 2,
             "y": 1,
             "z": 1,
@@ -2542,35 +3750,11 @@
             ]
         },
         {
-            "x": -3,
-            "y": -1,
-            "z": -4,
-            "elements": [
-                "bloodarsenal:blood_stained_glass@0"
-            ]
-        },
-        {
-            "x": 2,
+            "x": -5,
             "y": 0,
-            "z": 4,
+            "z": -1,
             "elements": [
-                "bloodmagic:ritual_stone@1"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 5,
-            "elements": [
-                "bloodmagic:decorative_brick@1"
-            ]
-        },
-        {
-            "x": -4,
-            "y": -4,
-            "z": -2,
-            "elements": [
-                "bloodmagic:ritual_stone@4"
+                "minecraft:obsidian@0"
             ]
         }
     ]}
