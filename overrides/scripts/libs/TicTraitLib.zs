@@ -54,6 +54,7 @@ zenClass ticTraitLib {
         <tcongreedyaddon:dagger>,
         <tcongreedyaddon:greatblade>,
         <tconevo:tool_sceptre>,
+        <tcongreedyaddon:allinonetool>,
         <hydrogenation_tinker:energy_stick>
     ];
 
@@ -262,6 +263,7 @@ zenClass ticTraitLib {
         <tcongreedyaddon:dagger>,
         <tcongreedyaddon:greatblade>,
         <tconevo:tool_sceptre>,
+        <tcongreedyaddon:allinonetool>,
         <hydrogenation_tinker:energy_stick>
         ];
 

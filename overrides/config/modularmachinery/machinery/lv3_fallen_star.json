@@ -6,6 +6,14 @@
     "failure-action": "still",
     "parts": [
         {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:fallen_star_factory_controller@2"
+            ]
+        },
+        {
             "x": -1,
             "y": 2,
             "z": 0,
@@ -234,7 +242,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "casings_all"
+                "casings_parallel"
             ]
         },
         {
@@ -914,7 +922,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "casings_all"
+                "casings_parallel"
             ]
         },
         {
@@ -2442,7 +2450,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "tconevo:metal_block@6"
+                "modularmachineryaddons:blockmeteorprovideroutput"
             ]
         },
         {
@@ -2498,7 +2506,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "modularmachinery:blocklifeessenceproviderinput@0"
+                "casings_upgrade"
             ]
         },
         {

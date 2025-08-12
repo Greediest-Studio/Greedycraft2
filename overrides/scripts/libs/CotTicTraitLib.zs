@@ -56,6 +56,7 @@ zenClass cotticTraitLib {
         <item:tcongreedyaddon:dagger>,
         <item:tcongreedyaddon:greatblade>,
         <item:tconevo:tool_sceptre>,
+        <item:tcongreedyaddon:allinonetool>,
         <item:hydrogenation_tinker:energy_stick>
     ];
 
@@ -260,6 +261,7 @@ zenClass cotticTraitLib {
             <item:tcongreedyaddon:dagger>,
             <item:tcongreedyaddon:greatblade>,
             <item:tconevo:tool_sceptre>,
+            <item:tcongreedyaddon:allinonetool>,
             <item:hydrogenation_tinker:energy_stick>
         ];
 

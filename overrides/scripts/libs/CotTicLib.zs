@@ -52,6 +52,7 @@ zenClass cotticLib {
         <item:tcongreedyaddon:dagger>,
         <item:tcongreedyaddon:greatblade>,
         <item:tconevo:tool_sceptre>,
+        <item:tcongreedyaddon:allinonetool>,
         <item:hydrogenation_tinker:energy_stick>
     ];
 
@@ -97,6 +98,7 @@ zenClass cotticLib {
             <item:tcongreedyaddon:dagger>,
             <item:tcongreedyaddon:greatblade>,
             <item:tconevo:tool_sceptre>,
+            <item:tcongreedyaddon:allinonetool>,
             <item:hydrogenation_tinker:energy_stick>
         ];
 
@@ -216,7 +218,8 @@ zenClass cotticLib {
             <item:tconstruct:shovel>,
             <item:tconstruct:excavator>,
             <item:moretcon:blshovel>,
-            <item:moretcon:blpick>
+            <item:moretcon:blpick>,
+            <item:tcongreedyaddon:allinonetool>
         ];
 
         for i in item{
@@ -364,7 +367,8 @@ zenClass cotticLib {
             <item:tconstruct:shovel>,
             <item:tconstruct:excavator>,
             <item:moretcon:blshovel>,
-            <item:moretcon:blpick>
+            <item:moretcon:blpick>,
+            <item:tcongreedyaddon:allinonetool>
         ];
 
         for i in item{

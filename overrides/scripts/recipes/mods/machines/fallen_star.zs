@@ -1,8 +1,6 @@
 /*
- * This script is created for the GreedyCraft Tweaks by 咕咕咕.
+ * This script is created for the GreedyCraft Tweaks by mc_Edwin.
  */
-
-#priority 30
 
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
@@ -20,17 +18,8 @@ import mods.modularmachinery.RecipePrimer;
 import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
-MachineModifier.setMaxThreads("fallen_star", 4);
+MachineModifier.setMaxThreads("fallen_star", 0);
 MachineModifier.setInternalParallelism("fallen_star", 1);
 MachineModifier.setMaxParallelism("fallen_star", 1);
-
-RecipeBuilder.newBuilder("bajin" , "fallen_star" , 3000, 2)
-    .addLifeEssenceInput(2500000,false)
-    .addItemInput(<ore:blockPorpezite> * 1).setChance(0.0f)
-    .addEnergyPerTickInput(1000000)
-    .addItemOutput(<tiths:ore_inert_witherium> * 64)
-    .addItemOutput(<additions:ruthenium_ore> * 48)
-    .addItemOutput(<additions:bismuth_ore> * 48)
-    .addItemOutput(<additions:rhodium_ore> * 16)
-    .addItemOutput(<appliedenergistics2:sky_stone_block> * 128)
-    .build();
+MachineModifier.addCoreThread("fallen_star", FactoryRecipeThread.createCoreThread("坠星执行模块"));
+MachineModifier.addCoreThread("fallen_star", FactoryRecipeThread.createCoreThread("坠星采集模块")/*.addRecipe("meteor_mine")*/);

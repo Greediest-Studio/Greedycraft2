@@ -51,6 +51,7 @@ zenClass ticLib {
         <tcongreedyaddon:dagger>,
         <tcongreedyaddon:greatblade>,
         <tconevo:tool_sceptre>,
+        <tcongreedyaddon:allinonetool>,
         <hydrogenation_tinker:energy_stick>
     ];
 
@@ -94,6 +95,7 @@ zenClass ticLib {
             <tcongreedyaddon:dagger>,
             <tcongreedyaddon:greatblade>,
             <tconevo:tool_sceptre>,
+            <tcongreedyaddon:allinonetool>,
             <hydrogenation_tinker:energy_stick>
         ];
 
@@ -211,7 +213,8 @@ zenClass ticLib {
             <tconstruct:shovel>,
             <tconstruct:excavator>,
             <moretcon:blshovel>,
-            <moretcon:blpick>
+            <moretcon:blpick>,
+            <tcongreedyaddon:allinonetool>
         ];
 
         for i in item{
@@ -359,7 +362,8 @@ zenClass ticLib {
             <tconstruct:shovel>,
             <tconstruct:excavator>,
             <moretcon:blshovel>,
-            <moretcon:blpick>
+            <moretcon:blpick>,
+            <tcongreedyaddon:allinonetool>
         ];
 
         for i in item{
