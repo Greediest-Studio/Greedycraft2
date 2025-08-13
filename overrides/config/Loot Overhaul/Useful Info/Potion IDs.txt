@@ -256,6 +256,14 @@ mca:death_denial
 	- Is Beneficial: false
 
 
+thaumicwonders:voidflame
+   - Id: 31
+   - Color: 0
+   - Is Instant: false
+   - Is Bad: true
+	- Is Beneficial: false
+
+
 moretcon:bleeding
    - Id: 32
    - Color: 16711680

@@ -96,7 +96,24 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
             }
         }
     }
-
+    //Store the harvest level in the Fallen Star
+    if (event.block.definition.id == "modularmachinery:fallen_star_factory_controller") {
+        var controller as IMachineController = MachineController.getControllerAt(event.world, event.position);
+        if (!isNull(event.player.currentItem)) {
+            var ticToolList as string[] = [
+                "tconstruct:pickaxe",
+                "moretcon:blpick",
+                "tconstruct:hammer",
+                "tcongreedyaddon:allinonetool"
+            ];
+            if (ticToolList has event.player.currentItem.definition.id) {
+                var HarvestLevel as int = event.player.currentItem.getHarvestLevel("pickaxe");
+                controller.customData = controller.customData.update({harvestLevel : HarvestLevel as int});
+                player.sendChat("§a已将采掘等级：" ~ HarvestLevel as string ~ " 绑定到坠星天矛！");
+                event.cancel();
+            }
+        }
+    }
 });
 
 events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {

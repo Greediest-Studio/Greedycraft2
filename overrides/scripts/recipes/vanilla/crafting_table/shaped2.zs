@@ -379,6 +379,11 @@ RecipeUtil.addShaped("radiation_provider_input", <modularmachineryaddons:blockra
     [<ore:ingotZirconium>, <modularmachinery:blockcasing>, <ore:ingotZirconium>], 
     [<ore:ingotModularium>, <ore:ingotZirconium>, <ore:ingotModularium>]
 ]);
+RecipeUtil.addShaped("aether_portal", <aether_legacy:aether_portal_frame>, [
+    [null, <ore:compressedGlowstone1>, null],
+    [<ore:compressedGlowstone1>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <ore:compressedGlowstone1>],
+    [null, <ore:compressedGlowstone1>, null]
+]);
 
 RecipeUtil.addModeRecipe("mm_upgrade_t4", <modularmachinery:blockcasing:5>, [
     [<ore:blockChromasteel>, <ore:ingotModularium>, <ore:blockChromasteel>],

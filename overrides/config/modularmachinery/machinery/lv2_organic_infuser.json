@@ -3946,6 +3946,14 @@
         {
             "x": 2,
             "y": -1,
+            "z": 1,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
             "z": 0,
             "elements": [
                 "minecraft:stained_glass_pane@1"
