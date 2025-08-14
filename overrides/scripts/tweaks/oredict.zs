@@ -1043,12 +1043,6 @@ var removeMap as IIngredient[][IOreDictEntry] = {
     <ore:cobblestone> : [<quark:biome_cobblestone:1>]
 };
 
-for item in loadedMods["weeeflowers"].items {
-    if (item.definition.id.replace("weeeflowers", "").contains("flower")) {
-        OredictUtil.addOredictIngredient(<ore:listAllflower>, item);
-    }
-}
-
 if (loadedMods.contains("inventorypets")) {
     for item in loadedMods["inventorypets"].items {
         if (item.definition.id.endsWith("pet")) {
