@@ -1,7 +1,7 @@
 {
   "main": {
     "0": {
-      "title": "§b查看游戏难度",
+      "title": "\u00a7b\u67e5\u770b\u6e38\u620f\u96be\u5ea6",
       "icon": {
         "name": "headcrumbs:skull",
         "damage": 0
@@ -14,7 +14,7 @@
       }
     },
     "1": {
-      "title": "§b打开扩展物品栏",
+      "title": "\u00a7b\u6253\u5f00\u6269\u5c55\u7269\u54c1\u680f",
       "icon": {
         "name": "minecraft:chest",
         "damage": 0
@@ -27,7 +27,7 @@
       }
     },
     "2": {
-      "title": "§b打开便携工作台",
+      "title": "\u00a7b\u6253\u5f00\u4fbf\u643a\u5de5\u4f5c\u53f0",
       "icon": {
         "name": "minecraft:crafting_table",
         "damage": 0
@@ -40,7 +40,7 @@
       }
     },
     "3": {
-      "title": "§b打开无底之箱",
+      "title": "\u00a7b\u6253\u5f00\u65e0\u5e95\u4e4b\u7bb1",
       "icon": {
         "name": "danknull:dank_null_0",
         "damage": 0
@@ -53,7 +53,7 @@
       }
     },
     "4": {
-      "title": "§b打开连点器",
+      "title": "\u00a7b\u6253\u5f00\u8fde\u70b9\u5668",
       "icon": {
         "name": "minecraft:diamond_sword",
         "damage": 1
@@ -66,7 +66,7 @@
       }
     },
     "5": {
-      "title": "§b打开AE无线终端扩展菜单",
+      "title": "\u00a7b\u6253\u5f00AE\u65e0\u7ebf\u7ec8\u7aef\u6269\u5c55\u83dc\u5355",
       "icon": {
         "name": "appliedenergistics2:wireless_pattern_terminal",
         "damage": 0
@@ -76,7 +76,7 @@
       }
     },
     "6": {
-      "title": "§b自杀（快速回城）",
+      "title": "\u00a7b\u81ea\u6740(\u5feb\u901f\u56de\u57ce)",
       "icon": {
         "name": "minecraft:skull",
         "damage": 0
@@ -89,7 +89,7 @@
       }
     },
     "7": {
-      "title": "§b打开精妙背包",
+      "title": "\u00a7b\u6253\u5f00\u7cbe\u5999\u80cc\u5305",
       "icon": {
         "name": "retro_sophisticated_backpacks:backpack_diamond",
         "damage": 0
@@ -102,7 +102,7 @@
       }
     },
     "8": {
-      "title": "§b打开垃圾桶",
+      "title": "\u00a7b\u6253\u5f00\u5783\u573e\u6876",
       "icon": {
         "name": "extrautils2:trashcan",
         "damage": 0
@@ -115,7 +115,7 @@
       }
     },
     "9": {
-      "title": "§b清理掉落物",
+      "title": "\u00a7b\u6e05\u7406\u6389\u843d\u7269",
       "icon": {
         "name": "minecraft:flint_and_steel",
         "damage": 0
@@ -130,7 +130,7 @@
   },
   "wireless_terminal": {
     "0": {
-      "title": "§b打开无线终端",
+      "title": "\u00a7b\u6253\u5f00\u65e0\u7ebf\u7ec8\u7aef",
       "icon": {
         "name": "appliedenergistics2:wireless_terminal",
         "damage": 0
@@ -143,7 +143,7 @@
       }
     },
     "1": {
-      "title": "§b打开基础扩展合成终端",
+      "title": "\u00a7b\u6253\u5f00\u57fa\u7840\u6269\u5c55\u5408\u6210\u7ec8\u7aef",
       "icon": {
         "name": "ae2exttable:wireless_basic_crafting_terminal",
         "damage": 0
@@ -156,7 +156,7 @@
       }
     },
     "2": {
-      "title": "§b打开高级扩展合成终端",
+      "title": "\u00a7b\u6253\u5f00\u9ad8\u7ea7\u6269\u5c55\u5408\u6210\u7ec8\u7aef",
       "icon": {
         "name": "ae2exttable:wireless_advanced_crafting_terminal",
         "damage": 0
@@ -169,7 +169,7 @@
       }
     },
     "3": {
-      "title": "§b打开精英扩展合成终端",
+      "title": "\u00a7b\u6253\u5f00\u7cbe\u82f1\u6269\u5c55\u5408\u6210\u7ec8\u7aef",
       "icon": {
         "name": "ae2exttable:wireless_elite_crafting_terminal",
         "damage": 0
@@ -182,7 +182,7 @@
       }
     },
     "4": {
-      "title": "§b打开终极扩展合成终端",
+      "title": "\u00a7b\u6253\u5f00\u7ec8\u6781\u6269\u5c55\u5408\u6210\u7ec8\u7aef",
       "icon": {
         "name": "ae2exttable:wireless_ultimate_crafting_terminal",
         "damage": 0
@@ -195,7 +195,7 @@
       }
     },
     "5": {
-      "title": "§b打开无线合成终端",
+      "title": "\u00a7b\u6253\u5f00\u65e0\u7ebf\u5408\u6210\u7ec8\u7aef",
       "icon": {
         "name": "appliedenergistics2:wireless_crafting_terminal",
         "damage": 0
@@ -208,7 +208,7 @@
       }
     },
     "6": {
-      "title": "§b打开无线流体终端",
+      "title": "\u00a7b\u6253\u5f00\u65e0\u7ebf\u6d41\u4f53\u7ec8\u7aef",
       "icon": {
         "name": "appliedenergistics2:wireless_fluid_terminal",
         "damage": 0
@@ -221,7 +221,7 @@
       }
     },
     "7": {
-      "title": "§b打开无线样板终端",
+      "title": "\u00a7b\u6253\u5f00\u65e0\u7ebf\u6837\u677f\u7ec8\u7aef",
       "icon": {
         "name": "appliedenergistics2:wireless_pattern_terminal",
         "damage": 0
@@ -234,7 +234,7 @@
       }
     },
     "8": {
-      "title": "§b打开无线接口终端",
+      "title": "\u00a7b\u6253\u5f00\u65e0\u7ebf\u63a5\u53e3\u7ec8\u7aef",
       "icon": {
         "name": "appliedenergistics2:wireless_interface_terminal",
         "damage": 0
@@ -247,7 +247,7 @@
       }
     },
     "9": {
-      "title": "§b打开无线流体样板终端",
+      "title": "\u00a7b\u6253\u5f00\u65e0\u7ebf\u6d41\u4f53\u6837\u677f\u7ec8\u7aef",
       "icon": {
         "name": "ae2fc:wireless_fluid_pattern_terminal",
         "damage": 0
