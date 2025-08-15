@@ -1,0 +1,29 @@
+{
+    "machine": "fallen_star",
+    "registryName": "fallen_star_mist",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 400
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "lifeessence",
+            "amount": 2000000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "plustic:osgloglasblock",
+            "chance": 0.0
+        },
+        {
+            "type": "modularmachineryaddons:meteor",
+            "io-type": "output",
+            "item": "plustic:osgloglasblock"
+        }
+    ]
+}

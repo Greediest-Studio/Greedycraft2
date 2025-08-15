@@ -1,15 +1,15 @@
 {
     "catalystStack": {
       "registryName": {
-        "domain": "additions",
-        "path": "gem_of_sing"
+        "domain": "plustic",
+        "path": "osgloglasblock"
       },
       "meta": 0
     },
     "components": [
       {
-        "weight": 400,
-        "oreName": "stone"
+        "weight": 600,
+        "oreName": "stoneFoggy"
       },
       {
         "weight": 50,
@@ -25,24 +25,12 @@
       },
       {
         "weight": 50,
-        "oreName": "oreWitheriumInert"
-      },
-      {
-        "weight": 100,
-        "oreName": "oreDiamond"
-      },
-      {
-        "weight": 130,
-        "oreName": "oreGold"
-      },
-      {
-        "weight": 300,
-        "oreName": "oreIron"
+        "oreName": "oreNiobium"
       }
     ],
     "explosionStrength": 10.0,
     "radius": 8,
     "maxWeight": 1100,
     "version": 4,
-    "cost": 200000
+    "cost": 2000000
   }

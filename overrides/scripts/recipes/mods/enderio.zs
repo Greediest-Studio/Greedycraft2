@@ -105,6 +105,7 @@ AlloySmelter.addRecipe(<additions:blueprint_laser_gun>, [<ore:ingotPhotonium>, <
 AlloySmelter.addRecipe(<additions:blueprint_ring>, [<ore:ingotValkyrie>, <additions:blueprint>, <ore:ingotEverite>], 1600000, 600.0f);
 AlloySmelter.addRecipe(<additions:ascensionite_ingot> * 2, [<ore:ingotLimonite> * 4, <ore:ingotRosite> * 2, <ore:ingotEmberstone> * 1], 4000, 10.0f);
 AlloySmelter.addRecipe(<additions:heavyalloy_ingot> * 2, [<ore:ingotLead> * 9, <ore:ingotThallium> * 2, <ore:ingotBismuth> * 4], 3000, 10.0f);
+AlloySmelter.addRecipe(<additions:zincargentum_ingot> * 3, [<ore:ingotZinc> * 2, <ore:ingotSilver>], 2000, 10.0f);
 
 SagMill.removeRecipe(<minecraft:coal>);
 SagMill.addRecipe([<actuallyadditions:item_dust:7> * 4], [100 as float], <ore:blockQuartzBlack> as IIngredient, "CHANCE_ONLY", 400, [100 as float]);

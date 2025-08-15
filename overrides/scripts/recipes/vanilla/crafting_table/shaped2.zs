@@ -384,6 +384,11 @@ RecipeUtil.addShaped("aether_portal", <aether_legacy:aether_portal_frame>, [
     [<ore:compressedGlowstone1>, <minecraft:water_bucket>.transformReplace(<minecraft:bucket>), <ore:compressedGlowstone1>],
     [null, <ore:compressedGlowstone1>, null]
 ]);
+RecipeUtil.addShaped("spike_stone", <extrautils2:spike_stone>, [
+    [null, <ore:slabCobblestone>, null],
+    [<ore:slabCobblestone>, <ore:cobblestone>, <ore:slabCobblestone>],
+    [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
+]);
 
 RecipeUtil.addModeRecipe("mm_upgrade_t4", <modularmachinery:blockcasing:5>, [
     [<ore:blockChromasteel>, <ore:ingotModularium>, <ore:blockChromasteel>],

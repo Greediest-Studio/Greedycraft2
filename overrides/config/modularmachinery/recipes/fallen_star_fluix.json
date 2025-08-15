@@ -1,0 +1,29 @@
+{
+    "machine": "fallen_star",
+    "registryName": "fallen_star_fluix",
+    "recipeTime": 200,
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 400
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "lifeessence",
+            "amount": 1800000
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "appliedenergistics2:fluix_block",
+            "chance": 0.0
+        },
+        {
+            "type": "modularmachineryaddons:meteor",
+            "io-type": "output",
+            "item": "appliedenergistics2:fluix_block"
+        }
+    ]
+}

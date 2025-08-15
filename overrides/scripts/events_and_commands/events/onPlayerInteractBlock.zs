@@ -81,7 +81,7 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
         }
     }
     //Store the dimension ID in the Dimensional Miner
-    if (event.block.definition.id == "modularmachinery:dimensional_miner_factory_controller") {
+    if (event.block.definition.id == "modularmachinery:dimensional_miner_factory_controller" && !event.world.remote) {
         var controller as IMachineController = MachineController.getControllerAt(event.world, event.position);
         if (!isNull(event.player.currentItem)) {
             var item as IItemStack = <additions:modular_dimensional_magnifier>;
@@ -97,7 +97,7 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
         }
     }
     //Store the harvest level in the Fallen Star
-    if (event.block.definition.id == "modularmachinery:fallen_star_factory_controller") {
+    if (event.block.definition.id == "modularmachinery:fallen_star_factory_controller" && !event.world.remote) {
         var controller as IMachineController = MachineController.getControllerAt(event.world, event.position);
         if (!isNull(event.player.currentItem)) {
             var ticToolList as string[] = [
