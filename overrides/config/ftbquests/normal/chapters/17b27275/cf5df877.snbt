@@ -13,11 +13,7 @@
 		uid: "90603a29",
 		type: "item",
 		items: [{
-			id: "modularmachinery:order_fusioner_controller",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			},
-			Count: 1b
+			item: "gct_ores:ordered_fusion_core"
 		}]
 	}],
 	rewards: [{
