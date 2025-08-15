@@ -20118,7 +20118,7 @@ hash = "f2464f37c95091821e18e69efd84466635a39595e8d0ccdff49870657f7dc603"
 
 [[files]]
 file = "config/dsurround/dsurround.cfg"
-hash = "31baf184e224da03507c5d09c2f4ae784304af92378025f878072137b5e04258"
+hash = "9dd87af2e24f68c9aace33e06815bef8979343df9a3e39f6c86db6b1a51a5fee"
 
 [[files]]
 file = "config/dungeonsmod-final.cfg"
@@ -34399,6 +34399,11 @@ hash = "c06fd556783795f4cea2f7be6fb2b5db2a1d99e2e71690f0f6ff916d767cdf62"
 metafile = true
 
 [[files]]
+file = "mods/.index/dank-null-no_rce.pw.toml"
+hash = "ce36ac8a84d7af195e7d6ecf4d202b946f80a222de6934b94453a1422e4a13e7"
+metafile = true
+
+[[files]]
 file = "mods/.index/dark-utilities.pw.toml"
 hash = "a9a80751bce6b64e5500ccd806b28b44f14e9960cb2ab1b4f6eca8cf771a9c99"
 metafile = true
@@ -34501,11 +34506,6 @@ metafile = true
 [[files]]
 file = "mods/.index/engender-mod.pw.toml"
 hash = "c2f0e56df46da0ab0845d1941944b66252f841ec8642b9aa4d6afbe03ecd0d32"
-metafile = true
-
-[[files]]
-file = "mods/.index/enhanced-annihilation-planes.pw.toml"
-hash = "5cd2f47b91dfc139ed92465a952da3da32188786c7ef84e645e571e1c90db3e0"
 metafile = true
 
 [[files]]
@@ -36158,11 +36158,6 @@ hash = "a27301eb75da53a0d91035f1b5588b5b55f82d61b0714bc12468aaa0bc6a48d2"
 [[files]]
 file = "mods/blockColor1.0.0-1.12.2.jar"
 hash = "8f36c9e25ec7abe710b765da52b44142dbb3fc011ed01fc3d4d239220bd3e112"
-
-[[files]]
-file = "mods/dank-null-no_rce.pw.toml"
-hash = "ce36ac8a84d7af195e7d6ecf4d202b946f80a222de6934b94453a1422e4a13e7"
-metafile = true
 
 [[files]]
 file = "mods/divinerpg-1.0.0.jar"
