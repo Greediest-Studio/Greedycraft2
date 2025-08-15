@@ -44,11 +44,11 @@ RecipeBuilder.newBuilder("meteor_mine", "fallen_star", 20)
         var x = pos.x;
         var y = pos.y;
         var z = pos.z;
-        var start as IBlock = controller.world.getBlocksByCenterAndRadius(pos, 7)[0];
+        var start as IBlock = controller.world.getBlocksByCenterAndRadius(pos, 8)[0];
         var pass as bool = false;
-        for i in 0 to controller.world.getBlocksByCenterAndRadius(pos, 7).length {
-            if (controller.world.getBlocksByCenterAndRadius(pos, 7)[i].definition.id != "minecraft:obsidian") {
-                start = controller.world.getBlocksByCenterAndRadius(pos, 7)[i];
+        for i in 0 to controller.world.getBlocksByCenterAndRadius(pos, 8).length {
+            if (controller.world.getBlocksByCenterAndRadius(pos, 8)[i].definition.id != "minecraft:obsidian") {
+                start = controller.world.getBlocksByCenterAndRadius(pos, 8)[i];
                 pass = true;
                 break;
             }
@@ -58,14 +58,14 @@ RecipeBuilder.newBuilder("meteor_mine", "fallen_star", 20)
         }
         if (pass) {
             var num as int = 0;
-            for i in controller.world.getBlocksByCenterAndRadius(pos, 7) {
+            for i in controller.world.getBlocksByCenterAndRadius(pos, 8) {
                 var block as IBlock = i;
                 if (block.definition.id == start.definition.id) {
                     num += 1;
                 }
             }
             val output as IItemStack = itemUtils.getItem(start.definition.id, start.meta);
-            server.commandManager.executeCommandSilent(server, "fill " + (x + 7) + " " + (y + 7) + " " + (z + 7) + " " + (x - 7) + " " + (y - 7) + " " + (z - 7) + " air 0 replace " + start.definition.id + " " + start.meta);
+            server.commandManager.executeCommandSilent(server, "fill " + (x + 8) + " " + (y + 8) + " " + (z + 8) + " " + (x - 8) + " " + (y - 8) + " " + (z - 8) + " air 0 replace " + start.definition.id + " " + start.meta);
             return output * num;
         }
         return <minecraft:air>;
