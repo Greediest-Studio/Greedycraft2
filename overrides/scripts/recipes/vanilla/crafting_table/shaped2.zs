@@ -458,4 +458,66 @@ RecipeUtil.addModeRecipe("mm_upgrade_t1", <modularmachinery:blockcasing:1>, [
     [<ore:ingotModularium>, <modularmachinery:blockcasing:4>, <ore:ingotModularium>],
     [<ore:blockStainlessSteel>, <ore:ingotModularium>, <ore:blockStainlessSteel>]
 ]);
+RecipeUtil.addShaped("stone_1", <storagedrawers:produce_stone>, [
+    [null, null, null],
+    [null, <thermalexpansion:machine:15>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}), null],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("stone_2", <storagedrawers:produce_stone:1>, [
+    [<storagedrawers:produce_stone>, <storagedrawers:produce_stone>, <storagedrawers:produce_stone>],
+    [<storagedrawers:produce_stone>, <storagedrawers:produce_stone>, <storagedrawers:produce_stone>],
+    [<storagedrawers:produce_stone>, <storagedrawers:produce_stone>, <storagedrawers:produce_stone>]
+]);
+RecipeUtil.addShaped("stone_3", <storagedrawers:produce_stone:2>, [
+    [<storagedrawers:produce_stone:1>, <storagedrawers:produce_stone:1>, <storagedrawers:produce_stone:1>],
+    [<storagedrawers:produce_stone:1>, <storagedrawers:produce_stone:1>, <storagedrawers:produce_stone:1>],
+    [<storagedrawers:produce_stone:1>, <storagedrawers:produce_stone:1>, <storagedrawers:produce_stone:1>]
+]);
+RecipeUtil.addShaped("stone_4", <storagedrawers:produce_stone:3>, [
+    [<storagedrawers:produce_stone:2>, <storagedrawers:produce_stone:2>, <storagedrawers:produce_stone:2>],
+    [<storagedrawers:produce_stone:2>, <storagedrawers:produce_stone:2>, <storagedrawers:produce_stone:2>],
+    [<storagedrawers:produce_stone:2>, <storagedrawers:produce_stone:2>, <storagedrawers:produce_stone:2>]
+]);
+RecipeUtil.addShaped("stone_5", <storagedrawers:produce_stone:4>, [
+    [<storagedrawers:produce_stone:3>, <storagedrawers:produce_stone:3>, <storagedrawers:produce_stone:3>],
+    [<storagedrawers:produce_stone:3>, <nuclearcraft:cobblestone_generator_dense>, <storagedrawers:produce_stone:3>],
+    [<storagedrawers:produce_stone:3>, <storagedrawers:produce_stone:3>, <storagedrawers:produce_stone:3>]
+]);
+RecipeUtil.addShaped("stone_6", <storagedrawers:produce_stone:5>, [
+    [<storagedrawers:produce_stone:4>, <storagedrawers:produce_stone:4>, <storagedrawers:produce_stone:4>],
+    [<storagedrawers:produce_stone:4>, <nuclearcraft:cobblestone_generator_dense>, <storagedrawers:produce_stone:4>],
+    [<storagedrawers:produce_stone:4>, <storagedrawers:produce_stone:4>, <storagedrawers:produce_stone:4>]
+]);
+RecipeUtil.addShaped("ender_1", <storagedrawers:ender_linker>, [
+    [null, null, null],
+    [null, <modularrouters:module:7>.withTag({ModuleFilter: [], Flags: 13 as byte}), null],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("ender_2", <storagedrawers:ender_linker:1>, [
+    [null, null, null],
+    [<appliedenergistics2:material:30>, <storagedrawers:ender_linker>, <appliedenergistics2:material:30>],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("ender_3", <storagedrawers:ender_linker:2>, [
+    [null, null, null],
+    [<appliedenergistics2:material:30>, <storagedrawers:ender_linker:1>, <appliedenergistics2:material:30>],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("ender_4", <storagedrawers:ender_linker:3>, [
+    [null, null, null],
+    [<appliedenergistics2:material:30>, <storagedrawers:ender_linker:2>, <appliedenergistics2:material:30>],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("ender_5", <storagedrawers:ender_linker:4>, [
+    [null, null, null],
+    [<appliedenergistics2:material:30>, <storagedrawers:ender_linker:3>, <appliedenergistics2:material:30>],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("ender_6", <storagedrawers:ender_linker:5>, [
+    [null, null, null],
+    [<appliedenergistics2:material:30>, <storagedrawers:ender_linker:4>, <appliedenergistics2:material:30>],
+    [null, null, null]
+]);
+
+
 

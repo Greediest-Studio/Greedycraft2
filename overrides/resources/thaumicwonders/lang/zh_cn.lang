@@ -65,10 +65,6 @@ tile.thaumicwonders:meteorb.name=气象之球
 tile.thaumicwonders:ore_diviner.name=矿石探测器
 tile.thaumicwonders:portal_anchor.name=传送锚
 tile.thaumicwonders:portal_generator.name=传送门生成器
-tile.thaumicwonders:primordial_accelerator.name=元始加速器
-tile.thaumicwonders:primordial_accelerator_tunnel.name=元始加速轨道
-tile.thaumicwonders:primordial_accelerator_terminus.name=元始加速冲撞终端
-tile.thaumicwonders:primordial_accretion_chamber.name=元始积聚室
 tile.thaumicwonders:primordial_siphon.name=元始虹吸器
 tile.thaumicwonders:vis_capacitor.name=Vis容器
 tile.thaumicwonders:void_beacon.name=虚空信标
@@ -338,15 +334,6 @@ thaumicwonders.research.flux_distiller.title=咒波蒸馏器
 thaumicwonders.research.flux_distiller.text.stage.1=将咒波收容至咒波容器当中当然很好, 但接下来呢？ 如果有可能，我是绝对不想将其再释放到灵气场中.肯定有什么方法可以处理这些容器内的咒波.
 thaumicwonders.research.flux_distiller.text.stage.2=我设法将咒波凝结器改造为了一种新的形态————它现在能很好的与咒波容器兼容工作.<BR>当将这个新设备————我称其为咒波蒸馏器，放置在咒波收容器上面时, 它会吸出容器中的咒波，并将其蒸馏为源质.  这一过程产出率并不高, 所幸它并不需要什么原料.  它的全部要点在于，它可以使我摆脱掉烦人的咒波.<BR>蒸馏器内部无法储存太多的源质, 所以你需要从蒸馏器的上方通入管道将其排出.  当我破坏掉蒸馏器后，它会保留蒸馏的进度，但其中的源质会因此流失.
 
-thaumicwonders.research.primordial_accelerator.title=元始加速器
-thaumicwonders.research.primordial_accelerator.text.stage.1=尽管我对元始珍珠的研究持续了相当长的时间，但它对我而言依旧是个谜.我已经开发出了它的数种功能,是的,但我依然无法摸清它的本质究竟为何.  现在, 我觉得我找到了方法: 将其粉碎为微小的组分，进行研究。
-thaumicwonders.research.primordial_accelerator.text.stage.2=我设计了一个复杂的设备，我把它叫做元始加速器.就像它的名字所言：它能将元始珍珠加速到难以想象的速度.<BR>这是一个由于能级过高而相当危险的设备,所以我得确保我的操作符合下列操作规范.首先，需要给加速器找到一个合适的冲撞终端，用来吸收高速元始珍珠所产生的庞大冲击力.一块魔法强化混凝土应该可以担当此重任，但要确保将混凝土平整的一面朝向加速器.任何的由于不平整而导致珍珠的偏转都会引发剧烈的爆炸.<BR>第二,加速器与冲撞终端之间不能有空气，它们必须以某种方式连接在一起，如果它们之间有空气存在，那么高速的元始珍珠将会在空气中崩解，不复存在.<BR>第三,我可以在加速器与冲撞终端之间加装特制的隧道，以进一步使得珍珠速度增加.每个隧道都会使得珍珠撞击后更有可能产出产物....尽管我不太确定最终产物是什么.然而这种加速的可能性是有限度的，不可能无限加速，如果使用超过10个轨道，又或者其它方块误入其中，就会导致爆炸，对珍珠的约束就会失效.同时，隧道必须朝向正确，否则，结果你也是知道的，boom.我在轨道上画上了箭头，箭头的指向方向就是冲撞终端.<BR>最后,我所用来加速的珍珠至少要满足一定的质量要求.过小的珍珠碎片就不太可能产生有用的数据，因此加速器不会加速这些珍珠.<BR>这是一项危险的研究, 但我有信心在这条路上走下去，并作出成果.  我一定要仔细严谨地检验从这些实验当中所产生的种种现象和数据.
-thaumicwonders.research.primordial_accelerator.text.addenda.1=多么迷人啊.....  这些元始晶粒拥有着元始珍珠的性质，但却异常纯净，没有包含那些乱七八糟的源质在其中.  我相信如果使用足够多的源质浸润，它能重新生长为能够使用的珍珠, 当然这会消耗很多源质.  但这让人眼前一亮之处非常值得我进一步研究.
-
-thaumicwonders.research.primordial_accretion_chamber.title=元始积聚室
-thaumicwonders.research.primordial_accretion_chamber.text.stage.1=将这些珍珠晶粒直接放入基础源质当中浸润就可以让其生长，但这无疑十分浪费.我猜测，如果小心地控制源质浸润的种类和比率，可以让晶粒生长更加快速。
-thaumicwonders.research.primordial_accretion_chamber.text.stage.2=我最初的猜测果然是正确的.  通过将晶粒浸润于有序的，合适的分层源质,我可以将消耗的源质数量降低一半.另外,这样长出来的珍珠会大一些.<BR>源质可以通过六个接口输入，晶粒应放置于顶部的水银槽中，产生的珍珠会从前端的隔栅处吐出。
-
 thaumicwonders.research.mystic_gardening.title=魔法植物种植
 thaumicwonders.research.mystic_gardening.text.stage.1=在我的探险中，我遇到了许多神奇的植物。我想自己种植它们，但不清楚它们的生长条件以及繁育条件。我对此十分感兴趣。
 thaumicwonders.research.mystic_gardening.text.stage.2=虽然还不清楚这些物种是如何在野外传播的，但我已经设法解决了培育问题.  将我目标制造的植物的所蕴含的源质以及一些世界盐用注魔的方法注入普通的小麦种子中, 我创造出了可生长的魔法植物.<BR>水银花可以被种植在泥土，草方块和耕地上.  烈焰草可以被种植在沙子和硬化粘土（陶瓦）上,但奇怪的是无法种植在普通的泥土上，尽管成熟的烈焰草的确可以被放置在其上.  纤毛菇可以被种植在任何的固体方块表面，它的孢子对生长环境要求较低.<BR>所有的魔法种子都可以被骨粉或者机器催熟.
@@ -369,6 +356,38 @@ thaumicwonders.research.coalescence_matrix.text.stage.2=利用我所学到的虚
 
 thaumicwonders.research.corruption_avatar.title=腐化之尸
 thaumicwonders.research.corruption_avatar.text.stage.1=污染和腐败的力量，被我的魔法仪式强行聚合为人形。它似乎也并不喜欢被这样。<BR>腐化之尸是一个强大而危险的敌人。它会向周围的任何没有被腐化的东西投掷爆炸性的球体。更糟糕的是，它不断地扭曲和污染周围的地区，反过来又从腐化中获得力量.
+
+thaumicwonders.research.primordial_pearl_growth.title=元始珍珠生长
+thaumicwonders.research.primordial_pearl_growth.text.stage.1=尽管炼金术能够将精华层层覆盖在微粒上并形成小型原初珍珠，但这一过程远谈不上高效。仅有少量精华能够附着于珍珠之上，其余部分均在过程中流失。<BR>我千方百计也无法使珍珠尺寸进一步增大。或许存在某种方法，能将精华层层叠加于已成型的珍珠之上……
+thaumicwonders.research.primordial_pearl_growth.text.stage.2=我认为最近的实验已取得成功。<BR>通过使用贤者之石作为粘合剂，将原始魔力水晶注入已成型珍珠的外表面，我能够使珍珠尺寸进一步增大，这是单靠炼金术无法实现的。<BR>然而，此过程会导致珍珠表面出现细微瑕疵，从而阻止其进一步生长。<BR>只要我小心谨慎，不损坏珍珠的核心，便应能持续地再生其外层。此法虽有不足，但足以满足我大多数需求。
+
+thaumicwonders.research.erythurgy.title=溶解术
+thaumicwonders.research.erythurgy.stage.0=坩埚具有将物质从其基本精华中解构并重新排列的能力。结合我在炼金术嬗变与复制方面的实验经验，或许我能找到一种安全解构普通材料的方法。
+thaumicwonders.research.erythurgy.stage.1=我将这种新的解构过程命名为“溶解术”，其手段可谓相当粗陋。它类似于一种非常基础的魔法形式，几乎不需要理解任何魔法原理。与需要智慧和练习的普通魔法不同，溶解术依赖的是魔法上的蛮力：以大量原始要素浸透物品，常常以浪费的方式强行改变其形态。<BR>尽管手段粗糙，溶解术似乎能实现一些我此前忽略的有趣效果。我对“元素”类要素的研究收效甚微，但我发现了一些利用“混沌”（Perditio）和“秩序”（Ordo）的方法。
+
+thaumicwonders.research.avaric_deconstruction.title=宝石精炼
+thaumicwonders.research.avaric_deconstruction.stage.0=我在有序与混乱溶解术方面的研究，已使我非常接近完全理解从不完美来源中完美回收材料所需的工艺。该过程中的某些现象，与制造金属簇时所用的提纯技术惊人地相似。<BR>这值得进一步探究……
+thaumicwonders.research.avaric_deconstruction.stage.1=这种新工艺，此后将被称为“宝石精炼”，能够以惊人的效率剥离纯净物质周围的杂质。<BR>富含宝石的矿石尤其受益于矿物精炼，周围的岩石被剥离殆尽，留下珍贵的宝石，几乎实现完美产出。
+
+thaumicwonders.research.entropic_processing.title=溶解处理
+thaumicwonders.research.entropic_processing.stage.0=溶解术利用大量熵能将材料分解为更小的碎片。据我观察，这种分解效果本可通过手工完成，但过程中使用大量纯粹的熵能显著提升了效率，尽管对某些物品而言成本过高。<BR>我曾尝试用此法从较小的花朵及其较大的同类中提取更多染料，但显然手工制作染料的效率已经达到了极限。这表明，通过某种大型研磨装置，完全可以用非魔法手段达到类似效果。不过，这与魔法研究关系不大——我姑且记下这一点，以备将来参考。
+
+thaumicwonders.research.ordered_deconstruction.title=有序解构
+thaumicwonders.research.ordered_deconstruction.stage.0=尽管许多简单物品可以被压缩成大型方块，但并非所有物品都容易被拆解。有时，生成的方块结构特殊，若想将其分割回可用的组件，往往会损失其中很大一部分。然而，添加大量“秩序”（Ordo）精华后，这一过程得到了极大的改善。
+
+thaumicwonders.research.sharing_tome.title=分享知识
+thaumicwonders.research.sharing_tome.text.stage.1=遗忘之水能够从我身上剥离知识，这让我对这种液体改变心智的复杂特性产生了好奇。<BR>似乎存在着某种交换过程：以我先前获得的见解为代价，换取了魔法能量。由于这种获得的魔法能量可直接注入书籍和物品中，我不禁思考，是否能找到一种方法，直接捕获那些失去的知识。<BR>这需要进一步研究。
+thaumicwonders.research.sharing_tome.text.stage.2=虽然结果并非我最初所期望的那样，但实验仍可视为成功。<BR>通过将遗忘之水的剥离知识能力与神秘之书（Thaumonomicon）的知识存储能力相结合，我制成了一本能够以他人可读的形式记录我自身奥秘知识的书籍。<BR>使用此书将使我能够向他人传授我的知识，但我无法限制所传递知识的范围。任何阅读此书的人，很可能都会开始遭受我正在经历的诸多负面效应。
+
+thaumicwonders.research.seal_research_assistant.title=控制符印：研究助手
+thaumicwonders.research.seal_research_assistant.text.stage.1=我研究工作中的一大烦恼，就是不断需要获取材料来验证我的理论。每次都要翻遍储物柜寻找特定物品，这无疑是在浪费我的宝贵时间。<BR>虽然整理储物空间以便快速找到所需物品是一种解决方案，但谁又有时间做这种事呢？<BR>或许，傀儡术能为我的困境提供答案……
+thaumicwonders.research.seal_research_assistant.text.stage.2=我设计出一种符印，能够侦测附近的研习台，并自动提供所需的材料。<BR>由于傀儡的智能有限，部分逻辑必须由符印自身处理。这意味着符印必须放置在物品容器的侧面。<BR>符印会自动检测抄录工具中的纸张和墨水数量，并相应地进行补充或填充。<BR>当我选择新的研究方向时，任何我缺少的物品都会由符印提出请求，并放入我的物品栏中，前提是这些物品要么存放在“研究助手符印”的箱子内，要么能被附近的傀儡取回。
+thaumicwonders.research.seal_research_assistant.text.addenda.1=测试表明，只有标准的抄录工具可以被补充。魔法变体的工具会干扰符印的功能。
+thaumicwonders.research.seal_research_assistant.text.addenda.2=为了让符印能为我提供所需的研究材料，我必须停留在符印的作用范围内。<BR>若我离开其范围，符印将无法探测到我的存在。
+
+thaumicwonders.research.warp_ring.title=初学者的净化之戒
+thaumicwonders.research.warp_ring.text.stage.1=我所见到的猩红教徒似乎对扭曲（warp）有着奇怪的免疫力。我自身曾短暂接触过我们世界之外的力量，结果却饱受剧烈头痛的折磨，而他们却仿佛生存在一个完全由原始魔力构成的领域之中。<BR>他们必定拥有某种屏蔽自身的方法，而我也可以加以利用。
+thaumicwonders.research.warp_ring.text.stage.2=我终于揭开了猩红教派的一小部分秘密。当一名新成员加入时，他们会获得一枚简单的戒指，这枚戒指能保护他们的精神，并消除许多常见的负面状态。<BR>这枚戒指本身与我在翠绿护符方面的研究有着惊人的相似之处，但它内部并未包含实质性的魔力电池。相反，被消除的每一种效果都会被转化成其他形式，并被戒指吸收。<BR>随着戒指吸收的效果越来越多，它会变得愈发强大，从而进一步保护佩戴者免受扭曲的负面影响。<BR>这件物品似乎没有任何明显的缺点。也许这个教派并不像表面看起来那么糟糕……
 
 # Theorycraft Cards
 card.induced_inspiration.name=生产灵感

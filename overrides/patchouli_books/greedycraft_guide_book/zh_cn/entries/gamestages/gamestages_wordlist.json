@@ -576,37 +576,6 @@
     },
     {
         "type":"multiblock",
-        "text":"如图你需要$(6)苔石$()*1$(6)风化石$()*1$(6)金块$()*1",
-        "symmertrical":true,
-        "multiblock":{
-            "mapping":{
-                "0":"minecraft:gold_block",
-                "A":"mist:portal_base[note=3]",
-                "B":"mist:portal_base[note=2]"
-            },
-            "pattern":[
-                [
-                    "A"
-                ],
-                [
-                    "0"
-                ],
-                [
-                    "B"
-                ]
-            ]
-        }
-        
-    },
-    {
-        "type":"entity",
-        "entity":"minecraft:enderman",
-        "scale":0.8,
-        "offset":1,
-        "text":"$(c)misty world$()$(2)朦胧世界$()(Dim 69) $(li)搭建如图结构即可开启朦胧世界传送门，注：该传送门所需的苔石与风化石只有第一次击杀末影人才能掉落"
-    },
-    {
-        "type":"multiblock",
         "text":"如图，你需要$(6)桉域结界石$()*14$(6)火焰铸币$()*1",
         "symmertrical":true,
         "multiblock":{
@@ -1123,16 +1092,6 @@
         "text":"找到如左图所示的传送门，站在传送门方块上，即可进入$(2)辐射废土$()世界"
     },
     {
-        "type":"image",
-        "images":["patchouli_books:midnight.png"],
-        "text":"$(c)midnight$()$(2)午夜世界$()Dim(-23)"
-    },
-    {
-        "type":"spotlight",
-        "item":"midnight:midnight_grass",
-        "text":"$(2)每当夜晚来临，午夜的大门即将开启~$()$(br2)$(5)他们喜欢抓不睡觉的孩子们进入午夜的世界"
-    },
-    {
         "type":"spotlight",
         "item":"utilityworlds:portal_garden",
         "text":"$(c)uw_garden_wordl$()Dim(4)$(br)右击如上方块即可进入类似于超平坦地形的维度"
@@ -1146,73 +1105,6 @@
         "type":"spotlight",
         "item":"compactmachines3:machine:5",
         "text":"$(c)CompactMachines$()$(2)压缩空间$()Dim(144)$(br)使用$(6)传送器$()右键$(5)任意大小$()$(6)压缩空间机械$()进入，再次右键即可离开压缩空间"
-    },
-    {
-        "type":"spotlight",
-        "item":"keletupack:ichorium_pick_adv",
-        "text":"$(c)keletupack$()$(2)基岩世界$()Dim(31871)$(br)使用$(6)觉醒灵宝镐$()左键主世界 Y ≤ 6 高度的基岩打开$(6)基岩世界传送门$()"
-    },
-    {
-        "type":"multiblock",
-        "text":"如图，你需要$(6)虚空水晶块$()*14$(6)装满的黑曜石烧瓶$()*1",
-        "symmertrical":true,
-        "multiblock":{
-            "mapping":{
-                "0":"voidcraft:blockvoidcrystal",
-                "A":"voidcraft:blockvoidcrystal"
-            },
-            "pattern":[
-                [
-                    "0AAA"
-                ],
-                [
-                    "A  A"
-                ],
-                [
-                    "A  A"
-                ],
-                [
-                    "A  A"
-                ],
-                [
-                    "AAAA"
-                ]
-            ]
-        }
-    },
-    {
-        "type":"spotlight",
-        "item":"voidcraft:obsidianflask",
-        "link_recipe":true,
-        "text":"$(c)The Void$()$(2)幽邃虚空$()(Dim -2)$(li)搭建如图所示多方块结构，使用$(6)装满的黑曜石烧瓶$()右键多方块结构即可激活传送门$(br)在Y≤5的方块上，手持$(6)空的黑曜石烧瓶$()右键，可得到$(6)装满的黑曜石烧瓶$()"
-    },
-    {
-        "type":"multiblock",
-        "text":"如图，你需要$(6)软基岩$()*17$(6)虚空之星$()*1",
-        "symmertrical":true,
-        "multiblock":{
-            "mapping":{
-                "0":"voidcraft:blockfakebedrock",
-                "A":"voidcraft:blockfakebedrock"
-            },
-            "pattern":[
-               [
-                    "0AA",
-                    "A A",
-                    "AAA"
-               ],
-               [
-                    "AAA",
-                    "AAA",
-                    "AAA"
-               ]
-            ]
-        }
-    },
-    {
-        "type":"spotlight",
-        "item":"voidcraft:voidstar",
-        "text":"$(c)???$()$(2)夏之殿堂$()(Dim -3)搭建如左图所示的多方块结构，再将$(6)虚空之星$()扔进中心的空缺位置，即可开启$(6)到夏的传门$()$(br)$(6)虚空之星$()由击杀$(c)锁链头颅$()掉落$(br)$(6)烧焦的骨头$()由击杀$(5)虚空的愤怒$()掉落$(br)$(6)虚空锁链$()由击杀$(5)束缚幽灵$()掉落$(br)$(6)虚空布匹$()由击杀$(5)虚空巫妖$()掉落$(br)$(6)灵气$()由击杀$(5)虚空幽灵$()掉落"
     },
     {
         "type":"multiblock",
@@ -1245,11 +1137,6 @@
         "type":"spotlight",
         "item":"additions:twilight_gem",
         "text":"搭建如左图所示多方块结构,将$(6)暮光宝石$()扔进$(6)水$()中即可激活暮色森林传送门$(br)$(c)图中的花可以替换任意种类的花$()$(br)$(c)"
-    },
-    {
-        "type":"spotlight",
-        "item":"voidcraft:dreambed",
-        "text":"$(c)Dal Quor$()$(2)梦境世界$()(Dim -4)可以通过在$(6)虚空床？？？$()上睡觉进入,为空岛状"
     }
 ]
         }
