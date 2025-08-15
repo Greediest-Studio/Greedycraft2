@@ -218,3 +218,13 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gct_aby:abyss_wand>, [
 	[<gct_aby:shoggoth_complex_crystal>, <thaumicrestoration:block_crystal>.withTag({aspect: "cthulhu"}), <gct_aby:shoggoth_complex_crystal>, null, null, null, null], 
 	[<thaumicrestoration:block_crystal>.withTag({aspect: "cthulhu"}), <gct_aby:shoggoth_complex_crystal>, null, null, null, null, null]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:modular_dimensional_magnifier>, [
+	[null, null, null, <ore:blockGlassOrange>, <ore:nuggetDimesium>, <ore:ingotDimesium>, <ore:nuggetDimesium>], 
+	[null, null, null, <ore:blockGlassOrange>, <ore:ingotDimesium>, <ore:blockDimesium>, <ore:ingotDimesium>], 
+	[null, null, null, <ore:blockGlassOrange>, <ore:nuggetDimesium>, <ore:ingotDimesium>, <ore:nuggetDimesium>], 
+	[null, null, null, <ore:rodBninz>, <ore:blockGlassOrange>, <ore:blockGlassOrange>, <ore:blockGlassOrange>], 
+	[null, null, <ore:rodBligtz>, null, null, null, null], 
+	[null, <ore:rodBthdz>, null, null, null, null, null], 
+	[<ore:rodBnatuz>, null, null, null, null, null, null]
+]);
