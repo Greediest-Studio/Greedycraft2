@@ -1,0 +1,53 @@
+{
+    "name": "§2天地宝晶",
+    "icon": "biomesoplenty:terrestrial_artifact",
+    "category": "patchouli:ore_category",
+    "priority": true,
+    "pages": [
+        {
+            "type":"spotlight",
+            "item":"biomesoplenty:gem_ore:1",
+            "text":"采集在$(2)主世界$()($(c)overworld$())$(5)沙漠$()(Desert)等干旱生物群系"
+        },
+        {
+            "type":"spotlight",
+            "item":"biomesoplenty:gem_ore:3",
+            "text":"采集在$(2)主世界$()($(c)overworld$())$(5)雨林$()(Rainforest)等大多数繁茂的生物群系"
+        },
+        {
+            "type":"spotlight",
+            "item":"biomesoplenty:gem_ore:2",
+            "text":"采集在$(2)主世界$()($(c)overworld$())$(5)草原类生物群系$()(Plains)"
+        },
+        {
+            "type":"spotlight",
+            "item":"biomesoplenty:gem_ore:5",
+            "text":"采集在$(2)主世界$()($(c)overworld$())$(5)沼泽类生物群系$()(Marsh)"
+        },
+        {
+            "type":"spotlight",
+            "item":"biomesoplenty:gem_ore:6",
+            "text":"采集在$(2)主世界$()($(c)overworld$())$(5)海洋类生物群系$()(Ocean)"
+        },
+        {
+            "type":"spotlight",
+            "item":"biomesoplenty:gem_ore:4",
+            "text":"采集在$(2)主世界$()($(c)overworld$())$(5)积雪$()和$(5)寒冷生物群系$()(Snowy)"
+        },
+        {
+            "type":"spotlight",
+            "item":"biomesoplenty:gem_ore:0",
+            "text":"采集在$(2)末地$()($(c)the_end$())$(5)末地之路$()(Snowy)"
+        },
+        {
+            "type":"spotlight",
+            "item":"defiledlands:scarlite_ore",
+            "text":"采集在$(2)主世界$()($(c)overworld$())$(5)污秽之地$()(Tenebra)"
+        },
+        {
+            "type":"spotlight",
+            "item":"biomesoplenty:gem_ore:7",
+            "text":"采集在$(2)主世界$()($(c)overworld$())$(5)森林类$()生物群系"
+        }
+    ]
+}

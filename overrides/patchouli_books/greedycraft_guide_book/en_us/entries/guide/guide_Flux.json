@@ -1,0 +1,38 @@
+{
+    "name": "通量网络",
+    "icon": "fluxnetworks:fluxcontroller",
+    "category": "patchouli:guide_category",
+	"priority": true,
+    "pages": [
+       {
+            "type":"text",
+            "text":"较为方便的无线传电工具，可为物品栏/机器/装备等进行无线充电$(br2)值得一提的是通量网络的传出/传入上限可以更改"
+       },
+       {
+            "type":"spotlight",
+            "item":"fluxnetworks:fluxconfigurator",
+            "text":"想要搭建一个通量网络你需要准备好$(6)通量控制器$()、$(6)通量存储器$()、$(6)通量接出点$()、$(6)通量接入点$()、$(6)通量控制器$()$(br2)Shift+右击设备可以复制配置到配置器中，直接右击设备可以粘贴当前配置到连接点中。如果右击非通量设备方块，则会打开GUI并在GUI内修改当前的配置"
+       },
+       {
+            "type":"spotlight",
+            "item":"fluxnetworks:fluxcontroller",
+            "text":"使用$(6)通量控制器$()点击右上角“$(9)创建新网络$()“来创建一个$(2)通量网络$()，可以通过设置$(9)无线充电$()来实现超远距离为自己的装备/武器充电$(br)可以通过$(9)网络设置$()进行应用/删除网络$(br)可以通过$(9)网络连接$()来进行远程配置通量网络$(br）可以通过$(9)网络状况$()来实时查看$(2)通量网络$()的状况"
+       },
+       {
+            "type":"spotlight",
+            "item":"fluxnetworks:gargantuanfluxstorage",
+            "text":"可以用来储存$(2)通量网络$()里的电量$(br)通过$(9)网络选择$()来选择需要存电的网络"
+       },
+       {
+        "type":"spotlight",
+        "item":"fluxnetworks:fluxpoint",
+        "text":"$(2)通量网络$()的电力输出装置，可以通过吸取$(6)通量存储器$()内的电量给机器供电$(br)可以通过$(9)网络选择$()选择提取电量的网络"
+    },
+    {
+        "type":"spotlight",
+        "item":"fluxnetworks:fluxplug",
+        "text":"$(2)通量网络$()的电力输入装置，可以将各类机器发的电输入$(6)通量存储器$()$(br)可以通过$(9)网络选择$()选择存入的网络"
+    }
+
+    ]
+}

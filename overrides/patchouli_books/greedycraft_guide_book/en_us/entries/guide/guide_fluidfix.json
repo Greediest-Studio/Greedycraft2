@@ -1,0 +1,13 @@
+{
+    "name": "流体合成",
+    "icon": "aeadditions:pattern.fluid",
+    "category": "patchouli:guide_category",
+	"priority": true,
+    "pages": [
+        {
+            "type":"smelting",
+            "recipe":"thebetweenlands:swamp_talisman",
+            "text":"假使你看见例如$(br)$(2)Fluid to Item Transformation$()$(br)等字样的合成配方时，你仅需刨一个$(5)单方块$()的坑，将熔融液体倒入坑中，再将左侧合成所需材料放入熔融液体即可获得右侧的合成材料"
+        }
+    ]
+}

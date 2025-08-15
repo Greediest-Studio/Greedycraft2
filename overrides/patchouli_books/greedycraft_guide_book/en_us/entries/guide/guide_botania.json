@@ -1,0 +1,12 @@
+{
+    "name": "§2植物魔法",
+    "icon": "botania:lexicon",
+    "category": "patchouli:guide_category",
+    "pages": [
+       {
+            "type":"spotlight",
+            "item":"extrabotany:spiritfuel",
+            "text":"$(6)精神燃料$()由$(4)玩家$()食用$(6)梦魇燃料$()获得$(br)手持魔法词典对着放置有$(6)精神燃料$()的活石祭坛$(c)shift+右键$()即可解锁$(2)植物魔法-额外植物学$()的内容"
+       }
+    ]
+}
