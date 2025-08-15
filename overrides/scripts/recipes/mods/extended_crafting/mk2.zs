@@ -388,3 +388,27 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:blood_rune_thread>, 
 	[<bloodmagic:blood_rune>, <bloodmagic:blood_rune>, <ore:blockModularium>, <bloodmagic:blood_rune>, <bloodmagic:blood_rune>], 
 	[<bloodmagic:blood_rune>, <bloodmagic:blood_rune>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:transcendent"}).reuse(), <bloodmagic:blood_rune>, <bloodmagic:blood_rune>]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:upgrade_efficiency>, [
+	[null, <ore:plateZincargentum>, <ore:ingotNiobiumTitanium>, <ore:plateZincargentum>, <ore:plateZincargentum>], 
+	[<ore:plateZincargentum>, <ore:ingotNiobiumTitanium>, <ore:plateZincargentum>, <ore:ingotNiobiumTitanium>, <ore:plateZincargentum>], 
+	[<ore:plateZincargentum>, <ore:plateZincargentum>, <ore:plateZincargentum>, <ore:plateZincargentum>, <ore:plateZincargentum>], 
+	[<ore:plateZincargentum>, <ore:plateZincargentum>, <ore:ingotNiobiumTitanium>, <ore:plateZincargentum>, <ore:plateZincargentum>], 
+	[<ore:plateZincargentum>, <ore:ingotNiobiumTitanium>, <ore:modularUpgradeBlank>, <ore:ingotNiobiumTitanium>, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:upgrade_energy>, [
+	[null, <ore:plateZincargentum>, <ore:plateZincargentum>, <ore:plateZincargentum>, <ore:plateZincargentum>], 
+	[<ore:plateZincargentum>, <ore:plateZincargentum>, <ore:plateZincargentum>, <ore:plateZincargentum>, <ore:plateZincargentum>], 
+	[<ore:plateZincargentum>, <ore:plateZincargentum>, <ore:ingotFlux>, <ore:plateZincargentum>, <ore:plateZincargentum>], 
+	[<ore:plateZincargentum>, <ore:plateZincargentum>, <ore:plateZincargentum>, <ore:plateZincargentum>, <ore:plateZincargentum>], 
+	[<ore:plateZincargentum>, <ore:plateZincargentum>, <ore:modularUpgradeBlank>, <ore:plateZincargentum>, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:upgrade_expand>, [
+	[null, <ore:plateZincargentum>, <ore:ingotElfsteel>, <ore:plateZincargentum>, <ore:plateZincargentum>], 
+	[<ore:plateZincargentum>, <ore:ingotCrimsonite>, <ore:plateZincargentum>, <ore:ingotTwilightCrystal>, <ore:plateZincargentum>], 
+	[<ore:plateZincargentum>, <ore:plateZincargentum>, <ore:plateZincargentum>, <ore:plateZincargentum>, <ore:ingotAscensionite>], 
+	[<ore:plateZincargentum>, <ironchest:iron_chest:5>, <ore:plateZincargentum>, <ore:ingotRefinedObsidian>, <ore:plateZincargentum>], 
+	[<ore:plateZincargentum>, <ore:plateZincargentum>, <ore:modularUpgradeBlank>, <ore:plateZincargentum>, null]
+]);

@@ -98,6 +98,36 @@ RecipeBuilder.newBuilder("blackwhite" , "empowerer" , "40")
     .addItemOutput(<additions:ebony_and_lvory> * 1)
     .build();
 
+RecipeBuilder.newBuilder("upgrade_overworld" , "empowerer" , "40")
+    .addItemInput(<additions:upgrade_blank> * 1)
+    .addItemInput(<additions:conduct_gear> * 1)
+    .addItemInput(<additions:stainless_steel_block> * 1)
+    .addItemInput(<additions:lock_of_space> * 1)
+    .addItemInput(<draconicevolution:draconic_core> * 1)
+    .addEnergyPerTickInput(100000)
+    .addItemOutput(<additions:upgrade_dim_overworld> * 1)
+    .build();
+
+RecipeBuilder.newBuilder("upgrade_nether" , "empowerer" , "40")
+    .addItemInput(<additions:upgrade_blank> * 1)
+    .addItemInput(<journey:blazierorb> * 1)
+    .addItemInput(<additions:netherite_block> * 1)
+    .addItemInput(<additions:lock_of_space> * 1)
+    .addItemInput(<draconicevolution:draconic_core> * 1)
+    .addEnergyPerTickInput(100000)
+    .addItemOutput(<additions:upgrade_dim_nether> * 1)
+    .build();
+
+RecipeBuilder.newBuilder("upgrade_end" , "empowerer" , "40")
+    .addItemInput(<additions:upgrade_blank> * 1)
+    .addItemInput(<divinerpg:horde_horn> * 1)
+    .addItemInput(<additions:enderite_block> * 1)
+    .addItemInput(<additions:lock_of_space> * 1)
+    .addItemInput(<draconicevolution:draconic_core> * 1)
+    .addEnergyPerTickInput(100000)
+    .addItemOutput(<additions:upgrade_dim_end> * 1)
+    .build();
+
 MMEvents.onControllerGUIRender("empowerer", function(event as ControllerGUIRenderEvent) {
     var info as string[] = [
         "§a///快速充能台控制面板///",

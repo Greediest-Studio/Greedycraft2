@@ -389,6 +389,51 @@ RecipeUtil.addShaped("spike_stone", <extrautils2:spike_stone>, [
     [<ore:slabCobblestone>, <ore:cobblestone>, <ore:slabCobblestone>],
     [<ore:cobblestone>, <ore:cobblestone>, <ore:cobblestone>]
 ]);
+RecipeUtil.addShaped("upgrade_blank", <additions:upgrade_blank>, [
+    [null, <ore:ingotZincargentum>, <ore:ingotZincargentum>],
+    [<ore:ingotZincargentum>, <ore:plateZincargentum>, <ore:ingotZincargentum>],
+    [<ore:ingotZincargentum>, <ore:ingotZincargentum>, null]
+]);
+RecipeUtil.addShaped("upgrade_stainless", <additions:upgrade_stainless_steel>, [
+    [<ore:gearStainlessSteel>, <ore:ingotModularium>, <ore:gearStainlessSteel>],
+    [<ore:ingotModularium>, <ore:modularUpgradeBlank>, <ore:ingotModularium>],
+    [<ore:gearStainlessSteel>, <ore:ingotModularium>, <ore:gearStainlessSteel>]
+]);
+RecipeUtil.addShaped("upgrade_durasteel", <additions:upgrade_durasteel>, [
+    [<ore:gearDurasteel>, <ore:ingotModularium>, <ore:gearDurasteel>],
+    [<ore:ingotModularium>, <ore:modularUpgradeStainlessSteel>, <ore:ingotModularium>],
+    [<ore:gearDurasteel>, <ore:ingotModularium>, <ore:gearDurasteel>]
+]);
+RecipeUtil.addShaped("upgrade_aeonsteel", <additions:upgrade_aeonsteel>, [
+    [<ore:gearAeonsteel>, <ore:ingotModularium>, <ore:gearAeonsteel>],
+    [<ore:ingotModularium>, <ore:modularUpgradeDurasteel>, <ore:ingotModularium>],
+    [<ore:gearAeonsteel>, <ore:ingotModularium>, <ore:gearAeonsteel>]
+]);
+RecipeUtil.addShaped("upgrade_chromasteel", <additions:upgrade_chromasteel>, [
+    [<ore:gearChromasteel>, <ore:ingotModularium>, <ore:gearChromasteel>],
+    [<ore:ingotModularium>, <ore:modularUpgradeAeonsteel>, <ore:ingotModularium>],
+    [<ore:gearChromasteel>, <ore:ingotModularium>, <ore:gearChromasteel>]
+]);
+RecipeUtil.addShaped("upgrade_cosmilite", <additions:upgrade_cosmilite>, [
+    [<ore:gearCosmilite>, <ore:ingotModularium>, <ore:gearCosmilite>],
+    [<ore:ingotModularium>, <ore:modularUpgradeChromasteel>, <ore:ingotModularium>],
+    [<ore:gearCosmilite>, <ore:ingotModularium>, <ore:gearCosmilite>]
+]);
+RecipeUtil.addShaped("upgrade_finallium", <additions:upgrade_finallium>, [
+    [<ore:gearFinallium>, <ore:ingotModularium>, <ore:gearFinallium>],
+    [<ore:ingotModularium>, <ore:modularUpgradeCosmilite>, <ore:ingotModularium>],
+    [<ore:gearFinallium>, <ore:ingotModularium>, <ore:gearFinallium>]
+]);
+RecipeUtil.addShaped("upgrade_wavite", <additions:upgrade_wavite>, [
+    [<ore:gearWavite>, <ore:ingotModularium>, <ore:gearWavite>],
+    [<ore:ingotModularium>, <ore:modularUpgradeFinallium>, <ore:ingotModularium>],
+    [<ore:gearWavite>, <ore:ingotModularium>, <ore:gearWavite>]
+]);
+RecipeUtil.addShaped("upgrade_nature", <additions:upgrade_nature>, [
+    [<ore:gearStone>, <ore:ingotModularium>, <ore:gearStone>],
+    [<ore:treeSapling>, <ore:modularUpgradeBlank>, <ore:treeSapling>],
+    [<ore:gearStone>, <ore:ingotModularium>, <ore:gearStone>]
+]);
 
 RecipeUtil.addModeRecipe("mm_upgrade_t4", <modularmachinery:blockcasing:5>, [
     [<ore:blockChromasteel>, <ore:ingotModularium>, <ore:blockChromasteel>],

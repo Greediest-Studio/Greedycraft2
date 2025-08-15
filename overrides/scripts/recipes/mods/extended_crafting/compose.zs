@@ -42,3 +42,9 @@ CombinationCrafting.addRecipe(<jaopca:block.twilit> * 1, 2000000000, 8388608, <g
     <moretcon:repitem:6>,
     <ore:ingotBalancedMatrix>
 ]);
+
+CombinationCrafting.addRecipe(<additions:upgrade_multidim>, 1638400000, 4194304, <additions:finallium_block>, [
+    <ore:modularUpgradeDimOverworld>,
+    <ore:modularUpgradeDimNether>,
+    <ore:modularUpgradeDimEnd>
+]);

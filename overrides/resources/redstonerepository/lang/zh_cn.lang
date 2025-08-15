@@ -9,17 +9,19 @@ item.redstonerepository.material.ingotGelidEnderium.name=极寒末影锭
 item.redstonerepository.material.nuggetGelidEnderium.name=极寒末影粒
 item.redstonerepository.material.plateGelidEnderium.name=极寒末影板
 item.redstonerepository.material.plateArmorGelidEnderium.name=极寒护甲防护板
-item.redstonerepository.material.rodGelid.name=极寒黑曜石手柄
+item.redstonerepository.material.rodGelidObsidian.name=极寒黑曜石手柄
 item.redstonerepository.material.stringFluxed.name=充能红石线
+item.redstonerepository.material.coinGelidEnderium.name=极寒末影币
 
-tile.redstonerepository.storage.blockGelidEnderium.name=极寒末影块
-tile.redstonerepository.storage.blockGelidGem.name=极寒水晶块
+tile.redstonerepository.storage.gelidEnderium.name=极寒末影块
+tile.redstonerepository.storage.gelidCrystal.name=极寒水晶块
 
-item.redstonerepository.bauble.feeder.name=自动喂食腰带
-item.redstonerepository.bauble.ring.effect.name=药水停顿指环
-item.redstonerepository.bauble.ring.base.name=空白指环
-item.redstonerepository.bauble.ring.mining.name=飞行破坏指环
-item.redstonerepository.bauble.capacitor.gelid.name=便携式极寒电容
+item.redstonerepository.util.feeder.name=自动喂食腰带
+item.redstonerepository.util.ring.effect.name=药水停顿指环
+item.redstonerepository.util.ring.base.name=空白指环
+item.redstonerepository.util.ring.mining.name=飞行破坏指环
+item.redstonerepository.util.capacitor.gelid.name=便携式极寒电容
+item.redstonerepository.util.ring.base.name=极寒末影戒指
 
 #Tools
 item.redstonerepository.tool.enderium.gelid.axe.name=极寒末影斧
