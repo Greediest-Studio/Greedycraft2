@@ -63,7 +63,7 @@ $expand RecipePrimer$addItemUpgradeOutput(item as IItemStack, upgrade as string,
     }).setPreViewNBT({display:{Lore:[tooltip as string]}}).setIgnoreOutputCheck(true);
 }
 
-MachineModifier.setMaxParallelism("dimensional_miner", 1024);
+MachineModifier.setMaxParallelism("dimensional_miner", 65536);
 MachineModifier.setMaxThreads("dimensional_miner", 1);
 MachineModifier.addCoreThread("dimensional_miner", FactoryRecipeThread.createCoreThread("主世界相位匹配器").addRecipe("dim_overworld"));
 MachineModifier.addCoreThread("dimensional_miner", FactoryRecipeThread.createCoreThread("下界相位匹配器").addRecipe("dim_nether"));

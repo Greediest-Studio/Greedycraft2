@@ -84,7 +84,7 @@ MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_dim_overworld>, "miner_u
 MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_dim_nether>, "miner_upg_dimnether");
 MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_dim_end>, "miner_upg_dimend");
 
-MachineModifier.setMaxParallelism("advanced_miner", 256);
+MachineModifier.setMaxParallelism("advanced_miner", 65536);
 MachineModifier.setMaxThreads("advanced_miner", 1);
 MachineModifier.addCoreThread("advanced_miner", FactoryRecipeThread.createCoreThread("主世界过滤网").addRecipe("upgrade_overworld_1"));
 MachineModifier.addCoreThread("advanced_miner", FactoryRecipeThread.createCoreThread("下界过滤网").addRecipe("upgrade_nether_1"));

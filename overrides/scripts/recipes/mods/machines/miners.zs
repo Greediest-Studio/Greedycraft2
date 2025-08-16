@@ -149,7 +149,7 @@ MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_wavite>, WAVITE);
 
 MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_multidim>, "miner_upg_multidim");
 
-MachineModifier.setMaxParallelism("basic_miner", 32);
+MachineModifier.setMaxParallelism("basic_miner", 65536);
 MachineModifier.setMaxThreads("basic_miner", 1);
 
 var overworld = RecipeBuilder.newBuilder("overworld", "basic_miner", 200);
