@@ -60,7 +60,7 @@ function addFusionRecipe(output as IItemStack, input as IIngredient[], ept as lo
         3: "混沌",
         4: "秩序"
     };
-    var recipe = RecipeBuilder.newBuilder(output.definition.id + output.metadata, "draconic_fusioner", 200);
+    var recipe = RecipeBuilder.newBuilder(output.definition.id + output.metadata + "a", "draconic_fusioner", 200);
     recipe.addEnergyPerTickInput(ept);
     for inputItem in input {
         recipe.addItemInput(inputItem);

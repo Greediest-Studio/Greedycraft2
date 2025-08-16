@@ -52,19 +52,20 @@ RecipeBuilder.newBuilder("r3","thermal_evaporation_plant",1)
     .addFluidOutput(<liquid:liquidsuperheatedsodium> * 1)
     .build();
 
-MMEvents.onControllerGUIRender("gas_centrifuge", function(event as ControllerGUIRenderEvent) {
+MMEvents.onControllerGUIRender("thermal_evaporation_plant", function(event as ControllerGUIRenderEvent) {
     var modeList as string[] = [
         "卤水",
         "重水"
     ];
-    var modeNum as float = event.controller.getSmartInterfaceData("模式");
+    var modeNum as float = event.controller.getSmartInterfaceData("模式").value;
     if (modeNum != 0.0f && modeNum != 1.0f) {
         modeNum = 0.0f;
     }
+    var num as int = modeNum as int;
     var info as string[] = [
         "§a///电热热力蒸馏塔控制面板///",
         "§a机器名称：§eLV3 - 电热热力蒸馏塔",
-        "§a机器模式：§e" ~ modeList[modeNum as int]
+        "§a机器模式：§e" ~ (modeList[num] as string)
     ];
     event.extraInfo = info;
 });
