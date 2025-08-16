@@ -107,6 +107,7 @@ AlloySmelter.addRecipe(<additions:ascensionite_ingot> * 2, [<ore:ingotLimonite> 
 AlloySmelter.addRecipe(<additions:heavyalloy_ingot> * 2, [<ore:ingotLead> * 9, <ore:ingotThallium> * 2, <ore:ingotBismuth> * 4], 3000, 10.0f);
 AlloySmelter.addRecipe(<additions:zincargentum_ingot> * 3, [<ore:ingotZinc> * 2, <ore:ingotSilver>], 2000, 10.0f);
 AlloySmelter.addRecipe(<additions:niobium_titanium_ingot>, [<ore:ingotNiobium>, <ore:ingotTitanium>], 2000, 10.0f);
+AlloySmelter.addRecipe(<thaumcraft:ingot:2> * 3, [<ore:ingotCopper> * 2, <ore:ingotZinc>], 4000, 10.0f);
 
 SagMill.removeRecipe(<minecraft:coal>);
 SagMill.addRecipe([<actuallyadditions:item_dust:7> * 4], [100 as float], <ore:blockQuartzBlack> as IIngredient, "CHANCE_ONLY", 400, [100 as float]);

@@ -434,30 +434,6 @@ RecipeUtil.addShaped("upgrade_nature", <additions:upgrade_nature>, [
     [<ore:treeSapling>, <ore:modularUpgradeBlank>, <ore:treeSapling>],
     [<ore:gearStone>, <ore:ingotModularium>, <ore:gearStone>]
 ]);
-
-RecipeUtil.addModeRecipe("mm_upgrade_t4", <modularmachinery:blockcasing:5>, [
-    [<ore:blockChromasteel>, <ore:ingotModularium>, <ore:blockChromasteel>],
-    [<ore:ingotModularium>, <modularmachinery:blockcasing:3>, <ore:ingotModularium>],
-    [<ore:blockChromasteel>, <ore:ingotModularium>, <ore:blockChromasteel>]
-]);
-
-RecipeUtil.addModeRecipe("mm_upgrade_t3", <modularmachinery:blockcasing:3>, [
-    [<ore:blockAeonsteel>, <ore:ingotModularium>, <ore:blockAeonsteel>],
-    [<ore:ingotModularium>, <modularmachinery:blockcasing:2>, <ore:ingotModularium>],
-    [<ore:blockAeonsteel>, <ore:ingotModularium>, <ore:blockAeonsteel>]
-]);
-
-RecipeUtil.addModeRecipe("mm_upgrade_t2", <modularmachinery:blockcasing:2>, [
-    [<ore:blockDurasteel>, <ore:ingotModularium>, <ore:blockDurasteel>],
-    [<ore:ingotModularium>, <modularmachinery:blockcasing:1>, <ore:ingotModularium>],
-    [<ore:blockDurasteel>, <ore:ingotModularium>, <ore:blockDurasteel>]
-]);
-
-RecipeUtil.addModeRecipe("mm_upgrade_t1", <modularmachinery:blockcasing:1>, [
-    [<ore:blockStainlessSteel>, <ore:ingotModularium>, <ore:blockStainlessSteel>],
-    [<ore:ingotModularium>, <modularmachinery:blockcasing:4>, <ore:ingotModularium>],
-    [<ore:blockStainlessSteel>, <ore:ingotModularium>, <ore:blockStainlessSteel>]
-]);
 RecipeUtil.addShaped("stone_1", <storagedrawers:produce_stone>, [
     [null, null, null],
     [null, <thermalexpansion:machine:15>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [1, 1, 2, 2, 2, 2] as byte[] as byte[], Level: 0 as byte}), null],
@@ -519,5 +495,27 @@ RecipeUtil.addShaped("ender_6", <storagedrawers:ender_linker:5>, [
     [null, null, null]
 ]);
 
+RecipeUtil.addModeRecipe("mm_upgrade_t4", <modularmachinery:blockcasing:5>, [
+    [<ore:blockChromasteel>, <ore:ingotModularium>, <ore:blockChromasteel>],
+    [<ore:ingotModularium>, <modularmachinery:blockcasing:3>, <ore:ingotModularium>],
+    [<ore:blockChromasteel>, <ore:ingotModularium>, <ore:blockChromasteel>]
+]);
 
+RecipeUtil.addModeRecipe("mm_upgrade_t3", <modularmachinery:blockcasing:3>, [
+    [<ore:blockAeonsteel>, <ore:ingotModularium>, <ore:blockAeonsteel>],
+    [<ore:ingotModularium>, <modularmachinery:blockcasing:2>, <ore:ingotModularium>],
+    [<ore:blockAeonsteel>, <ore:ingotModularium>, <ore:blockAeonsteel>]
+]);
+
+RecipeUtil.addModeRecipe("mm_upgrade_t2", <modularmachinery:blockcasing:2>, [
+    [<ore:blockDurasteel>, <ore:ingotModularium>, <ore:blockDurasteel>],
+    [<ore:ingotModularium>, <modularmachinery:blockcasing:1>, <ore:ingotModularium>],
+    [<ore:blockDurasteel>, <ore:ingotModularium>, <ore:blockDurasteel>]
+]);
+
+RecipeUtil.addModeRecipe("mm_upgrade_t1", <modularmachinery:blockcasing:1>, [
+    [<ore:blockStainlessSteel>, <ore:ingotModularium>, <ore:blockStainlessSteel>],
+    [<ore:ingotModularium>, <modularmachinery:blockcasing:4>, <ore:ingotModularium>],
+    [<ore:blockStainlessSteel>, <ore:ingotModularium>, <ore:blockStainlessSteel>]
+]);
 
