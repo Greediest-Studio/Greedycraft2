@@ -4,6 +4,7 @@
     "requires-blueprint": false,
     "failure-action": "still",
     "color": "27292d",
+    "even-parallelism-distribution": true,
     "modifiers": [
         {
             "elements": "modularmachinery:blockcasing@1",

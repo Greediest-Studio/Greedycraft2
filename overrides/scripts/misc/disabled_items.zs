@@ -1230,7 +1230,6 @@ var disabledItems as IIngredient[] = [
     <projectex:personal_link>,
     <projectex:refined_link>,
     <projectex:compressed_refined_link>,
-    //11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
     <tinymobfarm:ultimate_farm>,
     <ageofminecraft:mob_spawner_spc>,
     <ageofminecraft:guard_block>,
@@ -1489,7 +1488,9 @@ var disabledItems as IIngredient[] = [
     <modularmachineryaddons:inactiveradiationsponge>,
     <modularmachineryaddons:radiationsponge>,
     <astralsorcery:blockborehead:1>,
-    <danknull:danknull_dock>
+    <danknull:danknull_dock>,
+    <modularmachineryaddons:blockmeessentiainputbus>,
+    <modularmachineryaddons:blockmeessentiaoutputbus>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [

@@ -20,7 +20,7 @@ import mods.jei.JEI;
 
 RecipeBuilder.newBuilder("arcane_compression_voidmetal", "arcane_compressor", 120)
     .addItemInput(<ore:ingotBrass> * 2)
-    .addFluxInput(100, 2)
+    .addFluxInput(20)
     .addAspcetInput(20, "vacuos")
     .addItemOutput(<thaumcraft:ingot:1>)
     .build();
