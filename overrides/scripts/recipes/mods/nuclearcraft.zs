@@ -67,6 +67,7 @@ CreateElementMixer(<ore:ingotPlutonium>, <ore:dustPlutonium>, <nuclearcraft:plut
 
 Melter.removeRecipeWithInput(<nuclearcraft:gem_dust:10>);
 Melter.removeRecipeWithInput(<nuclearcraft:gem:6>);
+Melter.removeRecipeWithOutput(<liquid:sulfur> * 666);
 
 var removeMb as int[] = [16, 144, 1296];
 for mb in removeMb {
@@ -127,8 +128,6 @@ Melter.addRecipe(<ore:dustChlorine>, <liquid:liquidchlorine> * 46080);
 Melter.addRecipe(<ore:nuggetChlorine>, <liquid:liquidchlorine> * 5120);
 Melter.addRecipe(<ore:blockChlorine>, <liquid:liquidchlorine> * 414720);
 
-Melter.addRecipe(<ore:dustSulfur>, <liquid:burningsulfurflow> * 144, 1.0, 1.0, 0.0);
-Melter.addRecipe(<ore:ingotSulfur>, <liquid:burningsulfurflow> * 144, 1.0, 1.0, 0.0);
 Melter.addRecipe(NaCl, <liquid:sodium_chloride> * 666);
 Melter.addRecipe(KCl, <liquid:potassium_chloride> * 666);
 Melter.addRecipe(RbCl, <liquid:rubidium_chloride> * 666);
