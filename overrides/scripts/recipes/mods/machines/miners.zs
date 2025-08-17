@@ -392,8 +392,8 @@ abysswaste.addItemUpgradeOutput(<abyssalcraft:cpearl>, STAINLESS, 0.02);
 //恒钢级
 abysswaste.addItemUpgradeOutput(<additions:guaninite_ore>, AEONSTEEL, 0.012);
 //终焉级
-abysswaste.addItemUpgradeOutput(<additions:stripium_ore>, AEONSTEEL, 0.009);
-abysswaste.addItemUpgradeOutput(<additions:ttwo_ore>, AEONSTEEL, 0.008);
+abysswaste.addItemUpgradeOutput(<additions:stripium_ore>, FINALLIUM, 0.009);
+abysswaste.addItemUpgradeOutput(<additions:ttwo_ore>, FINALLIUM, 0.008);
 abysswaste.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 abysswaste.setMaxThreads(1).build();
 
