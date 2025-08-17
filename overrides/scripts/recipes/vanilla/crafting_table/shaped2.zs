@@ -520,7 +520,7 @@ RecipeUtil.addModeRecipe("mm_upgrade_t1", <modularmachinery:blockcasing:1>, [
     [<ore:blockStainlessSteel>, <ore:ingotModularium>, <ore:blockStainlessSteel>]
 ]);
 
-RecipeUtil.addShaped("<thaumcraft_amber_block>", <thaumcraft:amber_block>, [
+RecipeUtil.addShaped("thaumcraft_amber_block", <thaumcraft:amber_block>, [
     [<thaumcraft:amber>, <thaumcraft:amber>, null],
     [<thaumcraft:amber>, <thaumcraft:amber>, null],
     [null, null, null]
