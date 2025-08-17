@@ -3501,7 +3501,19 @@ leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, 
         var difficulty as float = player.difficulty as float;
 
         //var needDamage  = 1 * ((Math.sqrt(unmodifiedAmount * 3.14) * Math.log10(unmodifiedAmount) / Math.log10(2.7) * Math.sqrt(difficulty * 25) * 1.5) as float);
-        var needDamage = Math.max(1.0f,1.0f * Math.max((Math.sqrt(difficulty)),(Math.log10(unmodifiedAmount*difficulty)/Math.log10(2.7))));
+        var needDamage = 0;
+        if (difficulty >= 64) {
+            needDamage = unmodifiedAmount + 2;
+        }
+        if (difficulty >= 128) {
+            needDamage = unmodifiedAmount + 4;
+        }
+        if (difficulty >= 256) {
+            needDamage = unmodifiedAmount + 6;
+        }
+        if (difficulty >= 320) {
+            needDamage = Math.max(1.0f,1.0f * Math.max((Math.sqrt(difficulty)),(Math.log10(unmodifiedAmount*difficulty)/Math.log10(2.7))));
+        }
 
         if (needDamage > (tool.maxDamage - tool.damage + extradamage)) {
             ToolHelper.breakTool(tool.mutable().native, player.native);

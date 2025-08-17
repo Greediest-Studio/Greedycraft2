@@ -2678,7 +2678,19 @@ leveling_durabilityTrait.onArmorDamaged = function(trait, armor, damageSource, a
         var difficulty = player.difficulty;
 
         //var needDamage  = 1 * ((Math.sqrt(amount * 3.14) * Math.log10(amount) / Math.log10(2.7) * Math.sqrt(difficulty * 25) * 1.5) as float);
-        var needDamage = Math.max(1.0f ,1.0f * Math.max((Math.sqrt(difficulty)),(Math.log10(amount*difficulty)/Math.log10(2.7))));
+        var needDamage = 0;
+        if (difficulty >= 64) {
+            needDamage = amount + 2;
+        }
+        if (difficulty >= 128) {
+            needDamage = amount + 4;
+        }
+        if (difficulty >= 256) {
+            needDamage = amount + 6;
+        }
+        if (difficulty >= 320) {
+            needDamage = Math.max(1.0f ,1.0f * Math.max((Math.sqrt(difficulty)),(Math.log10(amount*difficulty)/Math.log10(2.7))));
+        }
 
         if (needDamage > (armor.maxDamage - armor.damage + extradamage)) {
             ToolHelper.breakTool(armor.mutable().native, player.native);
