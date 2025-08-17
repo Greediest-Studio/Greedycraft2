@@ -23,6 +23,7 @@ recipes.remove(<ymadditions:network_hub>);
 recipes.remove(<tconstruct:piggybackpack>.withTag({}));
 recipes.removeByRecipeName("biomesoplenty:amber_block");
 recipes.removeByRecipeName("biomesoplenty:amber");
+recipes.removeByRecipeName("betterendforge:amber_block");
 
 RecipeUtil.addShaped("calculator_subsystem_l4", <ecoaeextension:extendable_calculator_subsystem_l4>, [
     [<ecoaeextension:ecalculator_casing>, <additions:calculation_processor_2>, <ecoaeextension:ecalculator_casing>],
@@ -519,3 +520,8 @@ RecipeUtil.addModeRecipe("mm_upgrade_t1", <modularmachinery:blockcasing:1>, [
     [<ore:blockStainlessSteel>, <ore:ingotModularium>, <ore:blockStainlessSteel>]
 ]);
 
+RecipeUtil.addShaped("<thaumcraft_amber_block>", <thaumcraft:amber_block>, [
+    [<thaumcraft:amber>, <thaumcraft:amber>, null],
+    [<thaumcraft:amber>, <thaumcraft:amber>, null],
+    [null, null, null]
+]);
