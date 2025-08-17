@@ -3728,13 +3728,8 @@ pureTrait.register();
 events.onEntityLivingHeal(function(event as EntityLivingHealEvent) {
     if (event.entityLivingBase instanceof IPlayer) {
         var player as IPlayer = event.entityLivingBase;
-        if !(CotTicTraitLib.getTicTrait(player.currentItem).length == 0) {
-            for trait in CotTicTraitLib.getTicTrait(player.currentItem) {
-                if (trait == "pure") {
-                    event.cancel();
-                    break;
-                }
-            }
+        if CotTicTraitLib.hasTicTrait(player.currentItem, "pure") || CotTicTraitLib.hasTicTrait(player.offHandHeldItem, "pure") {
+            event.cancel();
         }
     }
 });
