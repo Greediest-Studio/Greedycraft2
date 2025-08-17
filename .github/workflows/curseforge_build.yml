@@ -3,7 +3,7 @@ name: build (Curseforge)
 on:
   push:
     paths:
-      - "overrides/**"
+      - "minecraft/**"
   workflow_dispatch:
 
 jobs:
@@ -16,7 +16,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: ./overrides
+        working-directory: ./minecraft
 
     steps:
       - name: 1. 检出仓库
@@ -56,5 +56,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ${{ env.FILE_NAME }}
-          path: overrides/unzipped/
+          path: minecraft/unzipped/
           retention-days: 4
