@@ -249,7 +249,7 @@ overworld.addItemUpgradeOutput(<nuclearcraft:ore:6>, FINALLIUM, 0.007);
 overworld.addItemUpgradeOutput(<nuclearcraft:ore:3>, FINALLIUM, 0.005);
 overworld.addItemUpgradeOutput(<mekanism:oreblock:5>, FINALLIUM, 0.015);
 overworld.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-overworld.build();
+overworld.setMaxThreads(1).build();
 
 var nether = RecipeBuilder.newBuilder("nether", "basic_miner", 200);
 nether.addEnergyPerTickInput(200);
@@ -295,7 +295,7 @@ nether.addItemUpgradeOutput(<additions:oneo_ore>, FINALLIUM, 0.007);
 nether.addItemUpgradeOutput(<additions:xenidium_ore>, FINALLIUM, 0.006);
 nether.addItemUpgradeOutput(<additions:rapesesium_ore>, FINALLIUM, 0.003);
 nether.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-nether.build();
+nether.setMaxThreads(1).build();
 
 var end = RecipeBuilder.newBuilder("end", "basic_miner", 200);
 end.addEnergyPerTickInput(200);
@@ -335,7 +335,7 @@ end.addItemUpgradeOutput(<additions:fenzium_ore>, FINALLIUM, 0.012);
 end.addItemUpgradeOutput(<additions:sissidium_ore>, FINALLIUM, 0.0045);
 end.addItemUpgradeOutput(<additions:technetium_ore>, FINALLIUM, 0.003);
 end.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-end.build();
+end.setMaxThreads(1).build();
 
 var twilightf = RecipeBuilder.newBuilder("twilight_forest", "basic_miner", 200);
 twilightf.addEnergyPerTickInput(200);
@@ -359,7 +359,7 @@ twilightf.addItemUpgradeOutput(<moretcon:nuggetpenguinite>, DURASTEEL, 0.01);
 //炫钢级
 twilightf.addItemUpgradeOutput(<additions:canopium_ore>, CHROMASTEEL, 0.005);
 twilightf.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-twilightf.build();
+twilightf.setMaxThreads(1).build();
 
 var aether = RecipeBuilder.newBuilder("aether", "basic_miner", 200);
 aether.addEnergyPerTickInput(200);
@@ -378,7 +378,7 @@ aether.addItemUpgradeOutput(<additions:aetherium_ore>, CHROMASTEEL, 0.005);
 aether.addItemUpgradeOutput(<additions:cloudite_ore>, FINALLIUM, 0.008);
 aether.addItemUpgradeOutput(<additions:molybdenum_ore>, FINALLIUM, 0.006);
 aether.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-aether.build();
+aether.setMaxThreads(1).build();
 
 var abysswaste = RecipeBuilder.newBuilder("abyss_wasteland", "basic_miner", 200);
 abysswaste.addEnergyPerTickInput(200);
@@ -395,7 +395,7 @@ abysswaste.addItemUpgradeOutput(<additions:guaninite_ore>, AEONSTEEL, 0.012);
 abysswaste.addItemUpgradeOutput(<additions:stripium_ore>, AEONSTEEL, 0.009);
 abysswaste.addItemUpgradeOutput(<additions:ttwo_ore>, AEONSTEEL, 0.008);
 abysswaste.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-abysswaste.build();
+abysswaste.setMaxThreads(1).build();
 
 var dreadland = RecipeBuilder.newBuilder("dreadland", "basic_miner", 200);
 dreadland.addEnergyPerTickInput(200);
@@ -409,7 +409,7 @@ dreadland.addItemUpgradeOutput(<additions:adeninite_ore>, AEONSTEEL, 0.012);
 dreadland.addItemUpgradeOutput(<additions:togrium_ore>, FINALLIUM, 0.004);
 dreadland.addItemUpgradeOutput(<additions:antimony_ore>, FINALLIUM, 0.004);
 dreadland.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-dreadland.build();
+dreadland.setMaxThreads(1).build();
 
 var omothol = RecipeBuilder.newBuilder("omothol", "basic_miner", 200);
 omothol.addEnergyPerTickInput(200);
@@ -421,7 +421,7 @@ omothol.addItemUpgradeOutput(<additions:yoggleseum_ore>, FINALLIUM, 0.007);
 omothol.addItemUpgradeOutput(<additions:circlium_ore>, FINALLIUM, 0.003);
 omothol.addItemUpgradeOutput(<additions:dimesium_ore>, FINALLIUM, 0.005);
 omothol.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-omothol.build();
+omothol.setMaxThreads(1).build();
 
 var darkrealm = RecipeBuilder.newBuilder("dark_realm", "basic_miner", 200);
 darkrealm.addEnergyPerTickInput(200);
@@ -431,7 +431,7 @@ darkrealm.addItemUpgradeOutput(<abyssalcraft:shadowgem>, STAINLESS, 0.01);
 //寰宇级
 darkrealm.addItemUpgradeOutput(<additions:bnightium_ore>, COSMILITE, 0.008);
 darkrealm.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-darkrealm.build();
+darkrealm.setMaxThreads(1).build();
 
 var darkerrealm = RecipeBuilder.newBuilder("darker_realm", "basic_miner", 200);
 darkerrealm.addEnergyPerTickInput(200);
@@ -441,7 +441,7 @@ darkerrealm.addItemUpgradeOutput(<gct_aby:dreadiumore>, COSMILITE, 0.03);
 darkerrealm.addItemUpgradeOutput(<gct_aby:ethauxiumore>, COSMILITE, 0.01);
 darkerrealm.addItemUpgradeOutput(<gct_aby:saniteore>, COSMILITE, 0.004);
 darkerrealm.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-darkerrealm.build();
+darkerrealm.setMaxThreads(1).build();
 
 var warpland = RecipeBuilder.newBuilder("warp_land", "basic_miner", 200);
 warpland.addEnergyPerTickInput(200);
@@ -452,7 +452,7 @@ warpland.addItemUpgradeOutput(<gct_aby:nyralathotepium_ore_complex>, FINALLIUM, 
 warpland.addItemUpgradeOutput(<gct_aby:yogsothothium_ore_complex>, FINALLIUM, 0.01);
 warpland.addItemUpgradeOutput(<gct_aby:shubniggurathium_ore_complex>, FINALLIUM, 0.01);
 warpland.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-warpland.build();
+warpland.setMaxThreads(1).build();
 
 var iceika = RecipeBuilder.newBuilder("iceika", "basic_miner", 200);
 iceika.addEnergyPerTickInput(200);
@@ -465,7 +465,7 @@ iceika.addItemOutput(<divinerpg:molten_shards>).setChance(0.04).setIgnoreOutputC
 //耐钢级
 iceika.addItemUpgradeOutput(<additions:iciricium_ore>, DURASTEEL, 0.01);
 iceika.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-iceika.build();
+iceika.setMaxThreads(1).build();
 
 var arcana = RecipeBuilder.newBuilder("arcana", "basic_miner", 200);
 arcana.addEnergyPerTickInput(200);
@@ -473,7 +473,7 @@ arcana.addDimensionInput(426);
 //恒钢级
 arcana.addItemUpgradeOutput(<divinerpg:raw_arcanium>, AEONSTEEL, 0.03);
 arcana.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-arcana.build();
+arcana.setMaxThreads(1).build();
 
 var aurorian = RecipeBuilder.newBuilder("aurorian", "basic_miner", 200);
 aurorian.addEnergyPerTickInput(200);
@@ -487,7 +487,7 @@ aurorian.addItemUpgradeOutput(<theaurorian:scrapaurorianite>, DURASTEEL, 0.02);
 aurorian.addItemUpgradeOutput(<theaurorian:scrapumbra>, DURASTEEL, 0.02);
 aurorian.addItemUpgradeOutput(<theaurorian:scrapcrystalline>, DURASTEEL, 0.02);
 aurorian.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-aurorian.build();
+aurorian.setMaxThreads(1).build();
 
 var frozenlands = RecipeBuilder.newBuilder("frozen_lands", "basic_miner", 200);
 frozenlands.addEnergyPerTickInput(200);
@@ -496,7 +496,7 @@ frozenlands.addDimensionInput(823);
 frozenlands.addItemUpgradeOutput(<additions:chillinium_ore>, AEONSTEEL, 0.04);
 frozenlands.addItemUpgradeOutput(<additions:germanium_ore>, AEONSTEEL, 0.03);
 frozenlands.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-frozenlands.build();
+frozenlands.setMaxThreads(1).build();
 
 var boiling = RecipeBuilder.newBuilder("boiling_point", "basic_miner", 200);
 boiling.addEnergyPerTickInput(200);
@@ -505,7 +505,7 @@ boiling.addDimensionInput(822);
 boiling.addItemUpgradeOutput(<additions:flamium_ore>, AEONSTEEL, 0.04);
 boiling.addItemUpgradeOutput(<journey:blazium>, AEONSTEEL, 0.03);
 boiling.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-boiling.build();
+boiling.setMaxThreads(1).build();
 
 var euca = RecipeBuilder.newBuilder("euca", "basic_miner", 200);
 euca.addEnergyPerTickInput(200);
@@ -516,7 +516,7 @@ euca.addItemUpgradeOutput(<journey:koriteore>, CHROMASTEEL, 0.03);
 euca.addItemUpgradeOutput(<journey:mekyumore>, CHROMASTEEL, 0.03);
 euca.addItemUpgradeOutput(<journey:storonore>, CHROMASTEEL, 0.03);
 euca.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-euca.build();
+euca.setMaxThreads(1).build();
 
 var depth = RecipeBuilder.newBuilder("depth", "basic_miner", 200);
 depth.addEnergyPerTickInput(200);
@@ -527,7 +527,7 @@ depth.addItemUpgradeOutput(<journey:desore>, CHROMASTEEL, 0.03);
 //终焉级
 depth.addItemUpgradeOutput(<additions:barite_ore>, CHROMASTEEL, 0.04);
 depth.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-depth.build();
+depth.setMaxThreads(1).build();
 
 var corba = RecipeBuilder.newBuilder("corba", "basic_miner", 200);
 corba.addEnergyPerTickInput(200);
@@ -536,7 +536,7 @@ corba.addDimensionInput(824);
 corba.addItemUpgradeOutput(<journey:orbaditeore>, CHROMASTEEL, 0.03);
 corba.addItemUpgradeOutput(<journey:gorbitegem>, CHROMASTEEL, 0.04);
 corba.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-corba.build();
+corba.setMaxThreads(1).build();
 
 var terrania = RecipeBuilder.newBuilder("terrania", "basic_miner", 200);
 terrania.addEnergyPerTickInput(200);
@@ -544,7 +544,7 @@ terrania.addDimensionInput(827);
 //寰宇级
 terrania.addItemUpgradeOutput(<additions:chloroplast_ore>, COSMILITE, 0.04);
 terrania.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-terrania.build();
+terrania.setMaxThreads(1).build();
 
 var cloudia = RecipeBuilder.newBuilder("cloudia", "basic_miner", 200);
 cloudia.addEnergyPerTickInput(200);
@@ -552,7 +552,7 @@ cloudia.addDimensionInput(826);
 //寰宇级
 cloudia.addItemUpgradeOutput(<journey:lunitechunk>, COSMILITE, 0.04);
 cloudia.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-cloudia.build();
+cloudia.setMaxThreads(1).build();
 
 var deepdark = RecipeBuilder.newBuilder("deep_dark", "basic_miner", 200);
 deepdark.addEnergyPerTickInput(200);
@@ -560,7 +560,7 @@ deepdark.addDimensionInput(-11325);
 //炫钢级
 deepdark.addItemUpgradeOutput(<additions:shadowium_ore>, CHROMASTEEL, 0.02);
 deepdark.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-deepdark.build();
+deepdark.setMaxThreads(1).build();
 
 var city = RecipeBuilder.newBuilder("lost_city", "basic_miner", 200);
 city.addEnergyPerTickInput(200);
@@ -569,7 +569,7 @@ city.addDimensionInput(111);
 city.addItemUpgradeOutput(<additions:limonite_ore>, DURASTEEL, 0.03);
 city.addItemUpgradeOutput(<additions:rosite_ore>, DURASTEEL, 0.025);
 city.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-city.build();
+city.setMaxThreads(1).build();
 
 var everdawn = RecipeBuilder.newBuilder("everdawn", "basic_miner", 200);
 everdawn.addEnergyPerTickInput(200);
@@ -583,7 +583,7 @@ everdawn.addItemUpgradeOutput(<blue_skies:charoite>, CHROMASTEEL, 0.03);
 everdawn.addItemUpgradeOutput(<blue_skies:moonstone>, CHROMASTEEL, 0.03);
 everdawn.addItemUpgradeOutput(<minecraft:emerald>, CHROMASTEEL, 0.03);
 everdawn.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-everdawn.build();
+everdawn.setMaxThreads(1).build();
 
 var everbright = RecipeBuilder.newBuilder("everbright", "basic_miner", 200);
 everbright.addEnergyPerTickInput(200);
@@ -598,7 +598,7 @@ everbright.addItemUpgradeOutput(<blue_skies:charoite>, CHROMASTEEL, 0.03);
 everbright.addItemUpgradeOutput(<blue_skies:moonstone>, CHROMASTEEL, 0.03);
 everbright.addItemUpgradeOutput(<minecraft:emerald>, CHROMASTEEL, 0.03);
 everbright.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-everbright.build();
+everbright.setMaxThreads(1).build();
 
 var everheaven = RecipeBuilder.newBuilder("everheaven", "basic_miner", 200);
 everheaven.addEnergyPerTickInput(200);
@@ -611,7 +611,7 @@ everheaven.addItemUpgradeOutput(<tiths:ore_polarium>, COSMILITE, 0.008);
 everheaven.addItemUpgradeOutput(<tiths:ore_hothium>, COSMILITE, 0.008);
 everheaven.addItemUpgradeOutput(<tiths:ore_stellarium>, COSMILITE, 0.004);
 everheaven.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-everheaven.build();
+everheaven.setMaxThreads(1).build();
 
 var voidland = RecipeBuilder.newBuilder("void", "basic_miner", 200);
 voidland.addEnergyPerTickInput(200);
@@ -621,7 +621,7 @@ voidland.addItemUpgradeOutput(<minecraft:bedrock>, COSMILITE, 0.3);
 voidland.addItemUpgradeOutput(<additions:void_harcadium_ore>, COSMILITE, 0.1);
 voidland.addItemUpgradeOutput(<additions:void_ore>, COSMILITE, 0.02);
 voidland.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-voidland.build();
+voidland.setMaxThreads(1).build();
 
 var nowhere = RecipeBuilder.newBuilder("nowhere", "basic_miner", 200);
 nowhere.addEnergyPerTickInput(200);
@@ -633,7 +633,7 @@ nowhere.addItemUpgradeOutput(<additions:adamantium_ore>, COSMILITE, 0.02);
 //终焉级
 nowhere.addItemUpgradeOutput(<additions:dawnium_ore>, FINALLIUM, 0.008);
 nowhere.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-nowhere.build();
+nowhere.setMaxThreads(1).build();
 
 var order = RecipeBuilder.newBuilder("order", "basic_miner", 200);
 order.addEnergyPerTickInput(200);
@@ -641,7 +641,7 @@ order.addDimensionInput(102);
 //终焉级
 order.addItemUpgradeOutput(<gct_ores:order_crystal>, FINALLIUM, 0.0005);
 order.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-order.build();
+order.setMaxThreads(1).build();
 
 var betweenland = RecipeBuilder.newBuilder("betweenland", "basic_miner", 200);
 betweenland.addEnergyPerTickInput(200);
@@ -658,7 +658,7 @@ betweenland.addItemUpgradeOutput(<thebetweenlands:green_middle_gem>, FINALLIUM, 
 betweenland.addItemUpgradeOutput(<thebetweenlands:aqua_middle_gem>, FINALLIUM, 0.015);
 betweenland.addItemUpgradeOutput(<thebetweenlands:life_crystal>, FINALLIUM, 0.025);
 betweenland.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-betweenland.build();
+betweenland.setMaxThreads(1).build();
 
 var alfheim = RecipeBuilder.newBuilder("alfheim", "basic_miner", 200);
 alfheim.addEnergyPerTickInput(200);
@@ -669,7 +669,7 @@ alfheim.addItemUpgradeOutput(<gct_mobs:terrasteel_ore>, COSMILITE, 0.008);
 //终焉级
 alfheim.addItemUpgradeOutput(<gct_mobs:orichalcos_ore>, FINALLIUM, 0.005);
 alfheim.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-alfheim.build();
+alfheim.setMaxThreads(1).build();
 
 var starland = RecipeBuilder.newBuilder("starland", "basic_miner", 200);
 starland.addEnergyPerTickInput(200);
@@ -683,7 +683,7 @@ starland.addItemUpgradeOutput(<additions:nasalum_ore>, FINALLIUM, 0.01);
 starland.addItemUpgradeOutput(<additions:lunarine_ore>, FINALLIUM, 0.02);
 starland.addItemUpgradeOutput(<additions:arimite_ore>, FINALLIUM, 0.005);
 starland.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-starland.build();
+starland.setMaxThreads(1).build();
 
 var atlantis = RecipeBuilder.newBuilder("atlantis", "basic_miner", 200);
 atlantis.addEnergyPerTickInput(200);
@@ -692,7 +692,7 @@ atlantis.addDimensionInput(324987);
 atlantis.addItemUpgradeOutput(<additions:tanatonium_ore>, COSMILITE, 0.015);
 atlantis.addItemUpgradeOutput(<additions:imitatium_ore>, COSMILITE, 0.015);
 atlantis.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
-atlantis.build();
+atlantis.setMaxThreads(1).build();
 
 RecipeAdapterBuilder.create("advanced_miner", "modularmachinery:basic_miner").build();
 RecipeAdapterBuilder.create("dimensional_miner", "modularmachinery:basic_miner").build();
@@ -713,10 +713,3 @@ MMEvents.onControllerGUIRender("advanced_miner", function(event as ControllerGUI
     event.extraInfo = info;
 });
 
-MMEvents.onControllerGUIRender("dimensional_miner", function(event as ControllerGUIRenderEvent) {
-    var info as string[] = [
-        "§a///时空相位采掘机控制面板///",
-        "§a机器名称：§eLV5 - 时空相位采掘机"
-    ];
-    event.extraInfo = info;
-});

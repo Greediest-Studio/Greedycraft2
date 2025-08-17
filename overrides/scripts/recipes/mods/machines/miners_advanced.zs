@@ -65,6 +65,23 @@ $expand RecipePrimer$addItemUpgradeOutput(item as IItemStack, upgrade as string,
     }).setPreViewNBT({display:{Lore:[tooltip as string]}}).setIgnoreOutputCheck(true);
 }
 
+MMEvents.onMachinePreTick("advanced_miner", function(event as MachineTickEvent) {
+    var vanilla as int[] = [-1, 0, 1];
+    var threadCount as int = 0;
+    var dims as int[] = [];
+    if (event.controller.hasMachineUpgrade("miner_upg_dimoverworld")) {threadCount += 1; dims += 0;}
+    if (event.controller.hasMachineUpgrade("miner_upg_dimnether")) {threadCount += 1; dims += -1;}
+    if (event.controller.hasMachineUpgrade("miner_upg_dimend")) {threadCount += 1; dims += 1;}
+    if (!(vanilla has event.controller.world.dimension)) {
+        event.controller.extraThreadCount = threadCount + 1;
+    } else if (dims has event.controller.world.dimension) {
+        event.controller.extraThreadCount = threadCount;
+    } else {
+        event.controller.extraThreadCount = threadCount + 1;
+
+    }
+});
+
 var overworldUpgrade as MachineUpgradeBuilder = MachineUpgradeBuilder.newBuilder("miner_upg_dimoverworld", "主世界维度升级", 1, 1);
 overworldUpgrade.addDescriptions("§b使模块化矿机拥有跨维度采集主世界矿物的能力");
 overworldUpgrade.addCompatibleMachines("advanced_miner");
@@ -85,10 +102,7 @@ MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_dim_nether>, "miner_upg_
 MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_dim_end>, "miner_upg_dimend");
 
 MachineModifier.setMaxParallelism("advanced_miner", 65536);
-MachineModifier.setMaxThreads("advanced_miner", 1);
-MachineModifier.addCoreThread("advanced_miner", FactoryRecipeThread.createCoreThread("主世界过滤网").addRecipe("upgrade_overworld_1"));
-MachineModifier.addCoreThread("advanced_miner", FactoryRecipeThread.createCoreThread("下界过滤网").addRecipe("upgrade_nether_1"));
-MachineModifier.addCoreThread("advanced_miner", FactoryRecipeThread.createCoreThread("末地过滤网").addRecipe("upgrade_end_1"));
+MachineModifier.setMaxThreads("advanced_miner", 0);
 
 var advOverworld = RecipeBuilder.newBuilder("upgrade_overworld_1", "advanced_miner", 200);
 advOverworld.addPreCheckHandler(function(event as RecipeCheckEvent) {
@@ -101,7 +115,6 @@ advOverworld.addPreCheckHandler(function(event as RecipeCheckEvent) {
     }
 });
 advOverworld.addEnergyPerTickInput(200);
-advOverworld.setThreadName("主世界过滤网");
 advOverworld.addItemOutput(<minecraft:iron_ore>).setChance(0.03).setIgnoreOutputCheck(true);
 advOverworld.addItemOutput(<minecraft:gold_ore>).setChance(0.02).setIgnoreOutputCheck(true);
 advOverworld.addItemOutput(<thermalfoundation:ore>).setChance(0.025).setIgnoreOutputCheck(true);
@@ -197,7 +210,7 @@ advOverworld.addItemUpgradeOutput(<nuclearcraft:ore:3>, FINALLIUM, 0.005);
 advOverworld.addItemUpgradeOutput(<mekanism:oreblock:5>, FINALLIUM, 0.015);
 advOverworld.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 advOverworld.addRecipeTooltip("§e需要主世界维度强化组件");
-advOverworld.build();
+advOverworld.setMaxThreads(1).build();
 
 var advNether = RecipeBuilder.newBuilder("upgrade_nether_1", "advanced_miner", 200);
 advNether.addPreCheckHandler(function(event as RecipeCheckEvent) {
@@ -210,7 +223,6 @@ advNether.addPreCheckHandler(function(event as RecipeCheckEvent) {
     }
 });
 advNether.addEnergyPerTickInput(200);
-advNether.setThreadName("下界过滤网");
 advNether.addItemOutput(<minecraft:soul_sand>).setChance(0.1).setIgnoreOutputCheck(true);
 advNether.addItemOutput(<minecraft:magma>).setChance(0.03).setIgnoreOutputCheck(true);
 advNether.addItemOutput(<minecraft:quartz>).setChance(0.06).setIgnoreOutputCheck(true);
@@ -253,7 +265,7 @@ advNether.addItemUpgradeOutput(<additions:xenidium_ore>, FINALLIUM, 0.006);
 advNether.addItemUpgradeOutput(<additions:rapesesium_ore>, FINALLIUM, 0.003);
 advNether.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 advNether.addRecipeTooltip("§e需要下界维度强化组件");
-advNether.build();
+advNether.setMaxThreads(1).build();
 
 var advEnd = RecipeBuilder.newBuilder("upgrade_end_1", "advanced_miner", 200);
 advEnd.addPreCheckHandler(function(event as RecipeCheckEvent) {
@@ -266,7 +278,6 @@ advEnd.addPreCheckHandler(function(event as RecipeCheckEvent) {
     }
 });
 advEnd.addEnergyPerTickInput(200);
-advEnd.setThreadName("末地过滤网");
 advEnd.addItemOutput(<minecraft:ender_pearl>).setChance(0.08).setIgnoreOutputCheck(true);
 advEnd.addItemOutput(<tiths:ender_crevice_shard>).setChance(0.05).setIgnoreOutputCheck(true);
 //不锈钢级
@@ -303,4 +314,4 @@ advEnd.addItemUpgradeOutput(<additions:sissidium_ore>, FINALLIUM, 0.0045);
 advEnd.addItemUpgradeOutput(<additions:technetium_ore>, FINALLIUM, 0.003);
 advEnd.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 advEnd.addRecipeTooltip("§e需要末地维度强化组件");
-advEnd.build();
+advEnd.setMaxThreads(1).build();

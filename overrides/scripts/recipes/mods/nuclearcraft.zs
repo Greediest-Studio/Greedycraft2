@@ -67,6 +67,7 @@ CreateElementMixer(<ore:ingotPlutonium>, <ore:dustPlutonium>, <nuclearcraft:plut
 
 Melter.removeRecipeWithInput(<nuclearcraft:gem_dust:10>);
 Melter.removeRecipeWithInput(<nuclearcraft:gem:6>);
+Melter.removeRecipeWithOutput(<liquid:sulfur> * 666);
 
 var removeMb as int[] = [16, 144, 1296];
 for mb in removeMb {
@@ -232,7 +233,14 @@ SaltMixer.addRecipe(<liquid:gallium_phosphide> * 333, <liquid:indium_phosphide> 
 
 ChemicalReactor.removeRecipeWithInput(<liquid:boron> * 72, <liquid:arsenic> * 333);
 ChemicalReactor.removeRecipeWithInput(<liquid:liquidhydrogen> * 250, <liquid:fluorine> * 250);
+ChemicalReactor.removeRecipeWithInput(<liquid:sulfur> * 333, <liquid:hydrogen> * 500);
+ChemicalReactor.removeRecipeWithInput(<liquid:sodium> * 144, <liquid:sulfur> * 333);
+ChemicalReactor.removeRecipeWithInput(<liquid:potassium> * 144, <liquid:sulfur> * 333);
+ChemicalReactor.removeRecipeWithInput(<liquid:sulfur> * 333, <liquid:oxygen> * 500);
 
+ChemicalReactor.addRecipe(<liquid:sulfur> * 36, <liquid:hydrogen> * 250, <liquid:hydrogen_sulfide> * 250, null);
+ChemicalReactor.addRecipe(<liquid:sodium> * 144, <liquid:sulfur> * 72, <liquid:sodium_sulfide> * 72, null);
+ChemicalReactor.addRecipe(<liquid:potassium> * 144, <liquid:sulfur> * 72, <liquid:potassium_sulfide> * 72, null);
 ChemicalReactor.addRecipe(<liquid:hydrogen> * 250, <liquid:liquidchlorine> * 250, <liquid:liquidhydrogenchloride> * 500, null);
 ChemicalReactor.addRecipe(<liquid:hydrogen> * 250, <liquid:fluorine> * 250, <liquid:hydrogen_fluoride> * 500, null);
 ChemicalReactor.addRecipe(<liquid:boron> * 72, <liquid:arsenic> * 72, <liquid:bas> * 333, null);

@@ -18,11 +18,24 @@ import mods.modularmachinery.ControllerGUIRenderEvent;
 import mods.modularmachinery.MMEvents;
 import mods.jei.JEI;
 
+MMEvents.onControllerGUIRender("arcane_compressor", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = ["§a///奥术凝聚台控制面板///", "§a机器名称：§eLV3 - 奥术凝聚台"];
+    event.extraInfo = info;
+});
+
 RecipeBuilder.newBuilder("arcane_compression_voidmetal", "arcane_compressor", 120)
     .addItemInput(<ore:ingotBrass> * 2)
     .addFluxInput(20)
     .addAspcetInput(20, "vacuos")
     .addItemOutput(<thaumcraft:ingot:1>)
+    .build();
+
+RecipeBuilder.newBuilder("arcane_compression_primordial", "arcane_compressor", 300)
+    .addItemInput(<ore:ingotFusionMatrix> * 1)
+    .addItemInput(<ore:nuggetPrimordial> * 5)
+    .addItemInput(<thaumicwonders:primordial_grain> * 8)
+    .addAspcetInput(30, "metallum")
+    .addItemOutput(<tconevo:metal:20>)
     .build();
 
 RecipeBuilder.newBuilder("arcane_compression_aer", "arcane_compressor", 360)
