@@ -530,19 +530,19 @@ RecipeUtil.addShaped("thaumcraft_amber_block", <thaumcraft:amber_block>, [
 ]);
 
 RecipeUtil.addShaped("aa_quartztypedark", <actuallyadditions:block_misc:2>, [
-    [<ore:quartzDark>, <ore:quartzDark>, null],
-    [<ore:quartzDark>, <ore:quartzDark>, null],
+    [<ore:gemQuartzBlack>, <ore:gemQuartzBlack>, null],
+    [<ore:gemQuartzBlack>, <ore:gemQuartzBlack>, null],
     [null, null, null]
 ]);
 
 RecipeUtil.addShaped("botania_quartztypedark", <botania:quartztypedark>, [
-    [null, <ore:quartzDark>, <ore:quartzDark>],
-    [null, <ore:quartzDark>, <ore:quartzDark>],
+    [null, <ore:gemQuartzBlack>, <ore:gemQuartzBlack>],
+    [null, <ore:gemQuartzBlack>, <ore:gemQuartzBlack>],
     [null, null, null]
 ]);
 
 RecipeUtil.addShaped("thaumictinkerer_black_quartz_block", <thaumictinkerer:black_quartz_block>, [
     [null, null, null],
-    [null, <ore:quartzDark>, <ore:quartzDark>],
-    [null, <ore:quartzDark>, <ore:quartzDark>]
+    [null, <ore:gemQuartzBlack>, <ore:gemQuartzBlack>],
+    [null, <ore:gemQuartzBlack>, <ore:gemQuartzBlack>]
 ]);
