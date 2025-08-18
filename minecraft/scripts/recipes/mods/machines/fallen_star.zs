@@ -65,7 +65,8 @@ RecipeBuilder.newBuilder("meteor_mine", "fallen_star", 20)
                 }
             }
             val output as IItemStack = itemUtils.getItem(start.definition.id, start.meta);
-            server.commandManager.executeCommandSilent(server, "fill " + (x + 8) + " " + (y + 8) + " " + (z + 8) + " " + (x - 8) + " " + (y - 8) + " " + (z - 8) + " air 0 replace " + start.definition.id + " " + start.meta);
+            server.commandManager.executeCommandSilent(server, "fill " + (x + 8) + " " + (y + 8) + " " + (z + 8) + " " + (x - 8) + " " + (y) + " " + (z - 8) + " air 0 replace " + start.definition.id + " " + start.meta);
+            server.commandManager.executeCommandSilent(server, "fill " + (x + 8) + " " + (y) + " " + (z + 8) + " " + (x - 8) + " " + (y - 8) + " " + (z - 8) + " air 0 replace " + start.definition.id + " " + start.meta);
             return output * num;
         }
         return <minecraft:air>;

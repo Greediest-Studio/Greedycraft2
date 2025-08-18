@@ -77,17 +77,18 @@ MMEvents.onControllerGUIRender("chaos_reactor" , function(event as ControllerGUI
     val fuel = isNull(map["fuel"]) ? 0 : map["fuel"].asFloat();
     val speed = isNull(map["speed"]) ? 1.0f : map["speed"].asFloat();
     var info as string[] = [
-        "§e///混沌反应监控系统///",
-        "§e调律场充能强度：" + cooling ,
-        "§e燃料储备：" + fuel + "§emL",
-        "§e当前反应速率：" + speed + "§ex",
+        "§a///混沌汲能反应堆控制面板///",
+        "§a机器名称：§eLV4 - 混沌汲能反应堆",
+        "§a调律强度：§e" + cooling ,
+        "§a燃料储备：§e" + fuel + "mL",
+        "§a反应速率：§e" + speed + "x",
         "§e提示：调律场降到0时将使燃料全部逸散至混沌"
     ];
     if (fuel <= 10000.0f) {
-        info += "§4燃料储备过低";
+        info += "§c燃料储备过低！";
     }
     if (cooling <= 10000.0f) {
-        info += "§4警告：调律场充能强度过低，混沌能量汲取系统处于亚稳态";
+        info += "§c警告：调律场充能强度过低，混沌能量汲取系统处于亚稳态！";
     }
     event.extraInfo = info;
 });

@@ -1,7 +1,7 @@
 #Configurations for material ElectrumFlux.
 [general]
 	#The module blacklist of this material. "*" is an alias for all modules. If a module name occurs an odd number of times (including wildcards), then the module is blacklisted.
-	moduleBlacklist = []
+	moduleBlacklist = ["molten"]
 	#The alternative names of this material.
 	alternativeNames = []
 	#The color of this material.

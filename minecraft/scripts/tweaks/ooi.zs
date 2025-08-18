@@ -29,4 +29,9 @@ ConversionItem.create(<quark:end_bricks_stairs>)
     .addMatchItem(<ee:end_stone_stairs>)
     .addMatchItem(<endreborn:e_end_bricks_stairs>).register();
 ConversionItem.create(<quark:end_bricks_slab>).addMatchItem(<ee:end_brick_half>).register();
+ConversionItem.create(<quark:end_bricks_wall>)
+    .addMatchItem(<ee:end_stone_wall>)
+    .addMatchItem(<endreborn:e_end_bricks_wall>).register();
+
 ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:burningsulfurflow>).register();
+ConversionFluid.create(<liquid:fluxed_electrum>).addMatchFluid(<liquid:electrum_flux>).register();

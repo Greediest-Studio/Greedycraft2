@@ -741,7 +741,7 @@ Alloy.addRecipe(<liquid:deifugurite> * 360000, [
     <liquid:constantan> * 5184,
     <liquid:bronze> * 5184,
     <liquid:electrum> * 5184,
-    <liquid:electrum_flux> * 5184,
+    <liquid:fluxed_electrum> * 5184,
     <liquid:signalum> * 5184,
     <liquid:rose_gold> * 5184,
     <liquid:manyullyn> * 5184,
