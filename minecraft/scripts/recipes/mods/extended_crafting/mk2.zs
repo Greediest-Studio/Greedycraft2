@@ -147,27 +147,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:everheaven>, [
 	[<ore:ingotUmbrium>, <ore:ingotDaynight>, <ore:ingotDaynight>, <ore:ingotDaynight>, <ore:ingotUmbrium>], 
 	[<extendedcrafting:material:48>, <ore:ingotUmbrium>, <extendedcrafting:material:48>, <ore:ingotUmbrium>, <extendedcrafting:material:48>]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mac:atomic_viberator>, [
-	[<ore:ingotNeutronium>, <ore:alloyUltimate>, <ore:alloyUltimate>, <ore:alloyUltimate>, <ore:ingotNeutronium>], 
-	[<ore:alloyUltimate>, <ore:platePorpezite>, <extendedcrafting:material:2>, <ore:platePorpezite>, <ore:alloyUltimate>], 
-	[<ore:alloyUltimate>, <extendedcrafting:material:2>, <ore:circuitFinal>, <extendedcrafting:material:2>, <ore:alloyUltimate>], 
-	[<ore:alloyUltimate>, <ore:platePorpezite>, <extendedcrafting:material:2>, <ore:platePorpezite>, <ore:alloyUltimate>], 
-	[<ore:ingotNeutronium>, <ore:alloyUltimate>, <ore:alloyUltimate>, <ore:alloyUltimate>, <ore:ingotNeutronium>]
-]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mac:atomic_decayer>, [
-	[<ore:ingotElectronium>, <ore:sheetHDPE>, <ore:alloyUltimate>, <ore:sheetHDPE>, <ore:ingotElectronium>], 
-	[<ore:sheetHDPE>, <ore:platePorpezite>, <ore:ingotNucleum>, <ore:platePorpezite>, <ore:sheetHDPE>], 
-	[<ore:alloyUltimate>, <ore:circuitUltimate>, <ore:alloyFinal>, <ore:circuitUltimate>, <ore:alloyUltimate>], 
-	[<ore:sheetHDPE>, <ore:platePorpezite>, <ore:ingotNucleum>, <ore:platePorpezite>, <ore:sheetHDPE>], 
-	[<ore:ingotElectronium>, <ore:sheetHDPE>, <ore:alloyUltimate>, <ore:sheetHDPE>, <ore:ingotElectronium>]
-]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mac:atomic_acider>, [
-	[<ore:ingotProtonium>, <ore:sheetHDPE>, <ore:alloyUltimate>, <ore:sheetHDPE>, <ore:ingotProtonium>], 
-	[<ore:sheetHDPE>, <ore:platePorpezite>, <ore:circuitUltimate>, <ore:platePorpezite>, <ore:sheetHDPE>], 
-	[<ore:alloyUltimate>, <ore:circuitFinal>, <minecraft:bucket>, <ore:circuitFinal>, <ore:alloyUltimate>], 
-	[<ore:sheetHDPE>, <ore:platePorpezite>, <ore:circuitUltimate>, <ore:platePorpezite>, <ore:sheetHDPE>], 
-	[<ore:ingotProtonium>, <ore:sheetHDPE>, <ore:alloyUltimate>, <ore:sheetHDPE>, <ore:ingotProtonium>]
-]);
 mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:rune_active_1>, [
 	[null, <ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustPhotonium>, null], 
 	[<ore:dustPhotonium>, <ore:dustShadowium>, <ore:dustElfsteel>, <ore:dustShadowium>, <ore:dustPhotonium>], 
@@ -258,20 +237,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gct_aby:essence_of_warped_ruin
 	[<gct_aby:warped_soul>, <ore:stoneAbyssExtended>, <ore:stoneAbyssExtended>, <ore:stoneAbyssExtended>, <gct_aby:warped_soul>], 
 	[<gct_aby:warped_soul>, <ore:ingotYogsothoth>, <ore:stoneAbyssExtended>, <ore:ingotShubniggurath>, <gct_aby:warped_soul>], 
 	[null, <gct_aby:warped_soul>, <gct_aby:warped_soul>, <gct_aby:warped_soul>, null]
-]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mac:mana_reactor>, [
-	[<ore:ingotDurasteel>, <ore:ingotDurasteel>, <ore:ingotMythsteel>, <ore:ingotDurasteel>, <ore:ingotDurasteel>], 
-	[<ore:ingotDurasteel>, <botania:pool:3>, <ore:circuitFinal>, <botania:pool:3>, <ore:ingotDurasteel>], 
-	[<ore:ingotMythsteel>, <ore:ingotUranium>, <ore:ingotOrichalcos>, <ore:ingotUranium>, <ore:ingotMythsteel>], 
-	[<ore:ingotDurasteel>, <botania:pool:3>, <ore:circuitFinal>, <botania:pool:3>, <ore:ingotDurasteel>], 
-	[<ore:ingotDurasteel>, <ore:ingotDurasteel>, <ore:ingotMythsteel>, <ore:ingotDurasteel>, <ore:ingotDurasteel>]
-]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mac:pe_collector>, [
-	[<abyssalcraft:darkethaxiumbrick>, <ore:ingotSanite>, <ore:ingotCthulhurite>, <ore:ingotSanite>, <abyssalcraft:darkethaxiumbrick>], 
-	[<abyssalcraft:darkethaxiumbrick>, <ore:ingotSanite>, <ore:ingotSanite>, <ore:ingotSanite>, <abyssalcraft:darkethaxiumbrick>], 
-	[<abyssalcraft:darkethaxiumbrick>, <abyssalcraft:darkethaxiumbrick>, <abyssalcraft:darkethaxiumbrick>, <abyssalcraft:darkethaxiumbrick>, <abyssalcraft:darkethaxiumbrick>], 
-	[<abyssalcraft:darkethaxiumbrick>, <ore:ingotSanite>, <ore:ingotSanite>, <ore:ingotSanite>, <abyssalcraft:darkethaxiumbrick>], 
-	[<abyssalcraft:darkethaxiumbrick>, <ore:ingotSanite>, <ore:ingotChromasteel>, <ore:ingotSanite>, <abyssalcraft:darkethaxiumbrick>]
 ]);
 mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:blockparallelcontroller>, [
 	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>, <ore:blockModularium>], 

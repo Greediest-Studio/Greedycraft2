@@ -1554,13 +1554,6 @@ for ingredient in disabledItems {
 }
 
 val HideItem as IIngredient[] = [
-    <gct_mobs:reserver>,
-    <additions:astral_projector>,
-    <additions:astral_projector_2>,
-    <gct_mac:model_atomic_viberator>,
-    <gct_mac:model_atomic_acidor>,
-    <gct_mac:model_atomic_decayer>,
-    <gct_mac:endest_steel_forge>,
     <appliedenergistics2:facade>,
     <thebetweenlands:bl_bucket>.withTag({Fluid: {}})
 ];

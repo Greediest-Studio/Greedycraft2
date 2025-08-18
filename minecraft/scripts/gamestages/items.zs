@@ -1185,7 +1185,7 @@ GameStagesUtil.stageWitherSlayer.addIngredients([
 
 GameStagesUtil.stageGaiaDeleter.addIngredients([
     <godagglomerationplate:godagglomerationplate>,
-    <gct_mac:reverser>,
+    <gct_mobs:reserver>,
     <gct_mobs:alfheim>,
     <gct_mobs:orichalcos_dreamwood>,
     <gct_mobs:elementium_ore>,
@@ -1275,7 +1275,7 @@ GameStagesUtil.stageMasterWizard.addIngredients([
     <astralsorcery:itemcraftingcomponent:4>,
     <ore:blockAstralMetal>,
     <ore:ingotAstralMetal>,
-    <gct_mac:astral_portal>,
+    <additions:astral_projector>,
     <gct_mobs:astral_portal_core>,
     <ore:ingotEarth>,
     <ore:blockEarth>,
@@ -1462,9 +1462,6 @@ GameStagesUtil.stageMasterEngineer.addIngredients([
     <actuallyadditions:block_fluid_collector>,
     <rftools:shield_block3>,
     <rftools:shield_block4>,
-    <gct_mac:atomic_acider>,
-    <gct_mac:atomic_decayer>,
-    <gct_mac:atomic_viberator>,
     <ore:ingotSodium>,
     <ore:nuggetSodium>,
     <ore:blockSodium>,
@@ -1486,7 +1483,6 @@ GameStagesUtil.stageEpicEngineer.addIngredients([
     <ore:dustUranium>,
     <ore:oreUranium>,
     <ore:blockUranium>,
-    <gct_mac:stratified_precipitator>,
     <ore:oreBarite>,
     <ore:gemBarite>,
     <ore:oreBismuth>,
@@ -1593,7 +1589,6 @@ GameStagesUtil.stageFearlessMan.addIngredients([
 
 GameStagesUtil.stageGatekeeper.addIngredients([
     <additions:sanite_ore>,
-    <gct_mac:pe_collector>,
     <ore:ingotSanite>,
     <ore:blockSanite>,
     <ore:nuggetSanite>,

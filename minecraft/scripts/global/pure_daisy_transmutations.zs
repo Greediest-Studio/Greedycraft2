@@ -56,5 +56,5 @@ global pureDaisyTransmutations as IItemStack[IIngredient] = {
     <ore:mycelium> : <minecraft:grass>,
     <biomesoplenty:bramble_plant> : <twilightforest:thorns>,
     <twilightforest:thorns> : <twilightforest:burnt_thorns>,
-    <gct_mobs:reserved_reserver> : <gct_mac:reverser>
+    <gct_mobs:reserved_reserver> : <gct_mobs:reserver>
 } as IItemStack[IIngredient];

@@ -13,12 +13,8 @@ import mods.randomtweaker.astralsorcery.AttunementAltar;
 
 import scripts.util.lang as LangUtil;
 
-val errorStone = <minecraft:stone>.withTag({display: {Name: LangUtil.translate("greedycraft.misc.bug_stone.name"), Lore: [LangUtil.translate("greedycraft.misc.bug_stone.tooltip.1"), LangUtil.translate("greedycraft.misc.bug_stone.tooltip.2")]}}) as IItemStack;
-
 StarlightInfusion.addInfusion(<biomesoplenty:gem:1>, <additions:resonating_ruby>, false, 0.7, 200);
-
-//AttunementAltar.addRecipe(<ore:toolTiC>, errorStone);
-//AttunementAltar.addRecipe(<ore:armorTiC>, errorStone);
+StarlightInfusion.addInfusion(<astralsorcery:blockmarble>, <gct_mobs:astral_portal_core>, true, 1.0, 400);
 
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/illuminationpowder");
 Altar.removeAltarRecipe("astralsorcery:shaped/internal/altar/enchantment_amulet_craft");

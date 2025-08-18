@@ -256,6 +256,20 @@ addBuilderRecipe(<modularmachinery:draconic_fusioner_factory_controller>, [
     <ore:endstone> * 64
 ], 2, 10000);
 
+addBuilderRecipe(<modularmachinery:end_forge_factory_controller>, [
+    <additions:logic_processor_2> * 8,
+    <additions:calculation_processor_2> * 4,
+    <additions:engineering_processor_2> * 10,
+    <crazyae:material:16> * 4,
+    <ore:ingotModularium> * 64,
+    <ore:ingotEndorium> * 48,
+    <ore:ingotAurorium> * 32,
+    <ore:ingotAbyssum> * 32,
+    <ore:ingotUru> * 32,
+    <ore:ingotEndusium> * 8,
+    <ore:endstone> * 64
+], 2, 4000);
+
 addBuilderRecipe(<modularmachinery:flux_melter_factory_controller>, [
     <additions:logic_processor_2> * 4,
     <additions:calculation_processor_2> * 6,
@@ -657,6 +671,22 @@ addBuilderRecipe(<modularmachinery:builder_5_factory_controller>, [
     <ore:ingotPruified> * 4
 ], 4, 2400);
 
+addBuilderRecipe(<modularmachinery:reverser_factory_controller>, [
+    <additions:logic_processor_3> * 16,
+    <additions:calculation_processor_3> * 8,
+    <additions:engineering_processor_3> * 12,
+    <crazyae:material:17> * 24,
+    <crazyae:material:16> * 24,
+    <ore:ingotModularium> * 96,
+    <ore:ingotElementium> * 64,
+    <ore:ingotLiquifiedCoralium> * 64,
+    <ore:ingotTerrasteel> * 48,
+    <ore:ingotOrichalcos> * 32,
+    <ore:ingotEthaxium> * 32,
+    <ore:gemNaturalline> * 24,
+    <botanicadds:dreamrock> * 64
+], 4, 3000);
+
 addBuilderRecipe(<modularmachinery:astral_collector_factory_controller>, [
     <additions:logic_processor_3> * 4,
     <additions:calculation_processor_3> * 6,
@@ -824,3 +854,50 @@ addBuilderRecipe(<modularmachinery:elysia_vaporizer_factory_controller>, [
     <tcomplement:melter> * 32,
     <tcomplement:melter:8> * 32 
 ], 1, 3200);
+
+addBuilderRecipe(<modularmachinery:factory_4x_factory_controller>, [
+    <gct_ores:blue_print_forge> * 32,
+    <ore:ingotModularium> * 64,
+    <mekanism:machineblock2:3> * 16,
+    <mekanism:machineblock:9> * 16,
+    <mekanism:machineblock:3> * 16,
+    <mekanism:machineblock> * 16,
+    <mekanism:machineblock:10> * 16,
+    <mekanism:tierinstaller:3> * 64
+], 1, 3200);
+
+addBuilderRecipe(<modularmachinery:factory_5x_factory_controller>, [
+    <gct_ores:blue_print_forge> * 48,
+    <ore:ingotModularium> * 72,
+    <mekanism:machineblock2:6> * 32,
+    <mekanism:machineblock2:7> * 32,
+    <mekanism:machineblock2:8> * 32,
+    <mekanism:tierinstaller:3> * 64
+], 1, 3200);
+
+addBuilderRecipe(<modularmachinery:factory_atomic_acider_factory_controller>, [
+    <gct_ores:blue_print_forge> * 32,
+    <ore:ingotModularium> * 48,
+    <ore:ingotPorpezite> * 48,
+    <ore:ingotProtonium> * 12,
+    <ore:circuitFinal> * 4,
+    <ore:circuitArcane>
+], 1, 2400);
+
+addBuilderRecipe(<modularmachinery:factory_atomic_vibrator_factory_controller>, [
+    <gct_ores:blue_print_forge> * 32,
+    <ore:ingotModularium> * 48,
+    <ore:ingotPorpezite> * 48,
+    <ore:ingotNeutronium> * 12,
+    <ore:circuitFinal> * 4,
+    <ore:circuitArcane>
+], 1, 2400);
+
+addBuilderRecipe(<modularmachinery:factory_atomic_decayer_factory_controller>, [
+    <gct_ores:blue_print_forge> * 32,
+    <ore:ingotModularium> * 48,
+    <ore:ingotPorpezite> * 48,
+    <ore:ingotElectronium> * 12,
+    <ore:circuitFinal> * 4,
+    <ore:circuitArcane>
+], 1, 2400);

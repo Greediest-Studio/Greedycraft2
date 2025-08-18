@@ -12,9 +12,9 @@
 	tasks: [{
 		uid: "569370f1",
 		type: "observation",
-		icon: "gct_mac:reverser",
+		icon: "gct_mobs:reserver",
 		match_type: "block_id",
-		match: "gct_mac:reverser",
+		match: "gct_mobs:reserver",
 		timer: 0L
 	}],
 	rewards: [{

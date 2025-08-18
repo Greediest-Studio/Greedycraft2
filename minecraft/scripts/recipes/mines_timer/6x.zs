@@ -31,12 +31,6 @@ MachineModifier.setInternalParallelism("factory_atomic_acider", 32);
 MachineModifier.setMaxParallelism("factory_atomic_acider", 32);
 
 var Entries = JAOPCA.getMaterialsForType("INGOT");
-var atvi as ComponentDefinition = MBDRegistry.getDefinition("gct_mac:atomic_viberator");
-var atvict = atvi as ControllerDefinition;
-var atdc as ComponentDefinition = MBDRegistry.getDefinition("gct_mac:atomic_decayer");
-var atdcct = atdc as ControllerDefinition;
-var atac as ComponentDefinition = MBDRegistry.getDefinition("gct_mac:atomic_acider");
-var atacct = atac as ControllerDefinition;
 
 function lowerCase(str as string) as string {
     var output as string = "";
@@ -73,27 +67,6 @@ for EntryItem in Entries {
                 dissolution.addRecipe(EntryItem.getItemStack("compound"), mods.mekanism.MekanismHelper.getGas("slurry_" + lowerCase(EntryItem.name)) * 200);
             }
         }
-        atvict.recipeMap.start()
-            .duration(40)
-            .inputFluids(<liquid:neutronium> * 576)
-            .inputItems(EntryItem.getOreDictEntry("ore"))
-            .inputFE(1.0f, 256000)
-            .outputItems(EntryItem.getItemStack("radiation") * 6)
-            .buildAndRegister();
-        atdcct.recipeMap.start()
-            .duration(10)
-            .inputItems(EntryItem.getOreDictEntry("radiation"))
-            .inputFE(1.0f, 64000)
-            .outputItems(EntryItem.getItemStack("pured"))
-            .buildAndRegister();
-        atacct.recipeMap.start()
-            .duration(15)
-            .inputFluids(<liquid:hydrofluoric_acid> * 75)
-            .inputFluids(<liquid:nitric_acid> * 25)
-            .inputItems(EntryItem.getOreDictEntry("pured"))
-            .inputFE(1.0f, 256000)
-            .outputItems(EntryItem.getItemStack("compound"))
-            .buildAndRegister();
         //Factory Recipe
         RecipeBuilder.newBuilder("vib_" ~ lowerCase(EntryItem.name), "factory_atomic_vibrator", 40)
             .addFluidInput(<liquid:neutronium> * 576)

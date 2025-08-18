@@ -169,46 +169,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gct_aby:soul_stealer_scroll>, 
 
 mods.extendedcrafting.TableCrafting.addShapeless(0, <gct_ores:shalloite> * 48, [<ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:gemEnderBiotite>, <ore:nuggetFinallium>]);
 
-mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mac:stratified_precipitator>, [
-	[null, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, null], 
-	[<ore:ingotZirconiumMolybdenum>, <actuallyadditions:block_misc:9>, <actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:block_misc:9>, <ore:ingotZirconiumMolybdenum>], 
-	[<ore:ingotZirconiumMolybdenum>, <actuallyadditions:block_misc:9>, <ore:latticeDiamond>, <ore:latticeDiamond>, <ore:latticeDiamond>, <actuallyadditions:block_misc:9>, <ore:ingotZirconiumMolybdenum>], 
-	[<ore:ingotZirconiumMolybdenum>, <actuallyadditions:block_misc:9>, <actuallyadditions:item_crystal_empowered:3>, <ore:circuitFinal>, <actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:block_misc:9>, <ore:ingotZirconiumMolybdenum>], 
-	[<ore:ingotZirconiumMolybdenum>, <actuallyadditions:block_misc:9>, <ore:latticeDiamond>, <ore:latticeDiamond>, <ore:latticeDiamond>, <actuallyadditions:block_misc:9>, <ore:ingotZirconiumMolybdenum>], 
-	[<ore:ingotZirconiumMolybdenum>, <actuallyadditions:block_misc:9>, <actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:item_crystal_empowered:3>, <actuallyadditions:block_misc:9>, <ore:ingotZirconiumMolybdenum>], 
-	[null, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, null]
-]);
-
-mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:factory_atomic_vibrator_factory_controller>, [
-	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
-	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
-	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:circuitFinal>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:blockModularium>], 
-	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:circuitFinal>, <gct_mac:atomic_viberator>, <ore:circuitFinal>, <ore:ingotPorpezite>, <ore:blockModularium>], 
-	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:circuitArcane>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:blockModularium>], 
-	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>], 
-	[<ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotCosmicNeutronium>, <ore:ingotCosmicNeutronium>]
-]);
-
-mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:factory_atomic_decayer_factory_controller>, [
-	[<ore:ingotElectronium>, <ore:ingotElectronium>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotElectronium>, <ore:ingotElectronium>], 
-	[<ore:ingotElectronium>, <ore:ingotElectronium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotElectronium>, <ore:ingotElectronium>], 
-	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:circuitFinal>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:blockModularium>], 
-	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:circuitFinal>, <gct_mac:atomic_decayer>, <ore:circuitFinal>, <ore:ingotPorpezite>, <ore:blockModularium>], 
-	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:circuitArcane>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:blockModularium>], 
-	[<ore:ingotElectronium>, <ore:ingotElectronium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotElectronium>, <ore:ingotElectronium>], 
-	[<ore:ingotElectronium>, <ore:ingotElectronium>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotElectronium>, <ore:ingotElectronium>]
-]);
-
-mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:factory_atomic_acider_factory_controller>, [
-	[<ore:ingotProtonium>, <ore:ingotProtonium>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotProtonium>, <ore:ingotProtonium>], 
-	[<ore:ingotProtonium>, <ore:ingotProtonium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotProtonium>, <ore:ingotProtonium>], 
-	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:circuitFinal>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:blockModularium>], 
-	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:circuitFinal>, <gct_mac:atomic_acider>, <ore:circuitFinal>, <ore:ingotPorpezite>, <ore:blockModularium>], 
-	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:circuitArcane>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:blockModularium>], 
-	[<ore:ingotProtonium>, <ore:ingotProtonium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotProtonium>, <ore:ingotProtonium>], 
-	[<ore:ingotProtonium>, <ore:ingotProtonium>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotProtonium>, <ore:ingotProtonium>]
-]);
-
 mods.extendedcrafting.TableCrafting.addShaped(0, <gct_aby:abyss_wand>, [
 	[null, null, null, null, <gct_aby:shoggoth_complex_crystal>, <ore:ingotAdaminite>, <abyssalcraft:oc>], 
 	[null, null, null, null, <ore:ingotAdaminite>, <abyssalcraft:oc>, <ore:ingotAdaminite>], 

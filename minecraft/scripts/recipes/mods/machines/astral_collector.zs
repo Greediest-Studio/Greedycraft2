@@ -26,8 +26,21 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
 import mods.modularmachinery.RecipeBuilder;
+import mods.modularmachinery.RecipePrimer;
+import mods.modularmachinery.MachineModifier;
+import mods.modularmachinery.MMEvents;
+import mods.modularmachinery.ControllerGUIRenderEvent;
 import mods.ctutils.utils.Math;
 import mods.jei.JEI;
+
+MachineModifier.setMaxThreads("astral_collector", 1);
+MachineModifier.setMaxParallelism("astral_collector", 256);
+MachineModifier.setInternalParallelism("astral_collector", 1);
+
+MMEvents.onControllerGUIRender("astral_collector", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = ["§a///星芒收集器控制面板///", "§a机器名称：§eLV4 - 星芒收集器"];
+    event.extraInfo = info;
+});
 
 RecipeBuilder.newBuilder("astral_gem_01", "astral_collector", 400)
     .addItemInput(<additions:astral_gem_00> * 1)

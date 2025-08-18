@@ -193,6 +193,18 @@ Melter.addRecipe(<ore:ingotGalliumIndiumPhosphide>, <liquid:gallium_indium_phosp
 Melter.addRecipe(<ore:dustGalliumIndiumPhosphide>, <liquid:gallium_indium_phosphide> * 144);
 Melter.addRecipe(<ore:blockGalliumIndiumPhosphide>, <liquid:gallium_indium_phosphide> * 1296);
 Melter.addRecipe(<ore:nuggetGalliumIndiumPhosphide>, <liquid:gallium_indium_phosphide> * 16);
+Melter.addRecipe(<ore:ingotGallium>, <liquid:liquidgallium> * 144);
+Melter.addRecipe(<ore:dustGallium>, <liquid:liquidgallium> * 144);
+Melter.addRecipe(<ore:blockGallium>, <liquid:liquidgallium> * 1296);
+Melter.addRecipe(<ore:nuggetGallium>, <liquid:liquidgallium> * 16);
+Melter.addRecipe(<ore:ingotRoseGold>, <liquid:rose_gold> * 144);
+Melter.addRecipe(<ore:dustRoseGold>, <liquid:rose_gold> * 144);
+Melter.addRecipe(<ore:blockRoseGold>, <liquid:rose_gold> * 1296);
+Melter.addRecipe(<ore:nuggetRoseGold>, <liquid:rose_gold> * 16);
+Melter.addRecipe(<ore:ingotElectrumFlux>, <liquid:fluxed_electrum> * 144);
+Melter.addRecipe(<ore:dustElectrumFlux>, <liquid:fluxed_electrum> * 144);
+Melter.addRecipe(<ore:blockElectrumFlux>, <liquid:fluxed_electrum> * 1296);
+Melter.addRecipe(<ore:nuggetElectrumFlux>, <liquid:fluxed_electrum> * 16);
 Melter.addRecipe(<ore:gemGalliumPhosphide>, <liquid:gallium_phosphide> * GEM);
 Melter.addRecipe(<ore:dustGalliumPhosphide>, <liquid:gallium_phosphide> * GEM);
 Melter.addRecipe(<ore:blockGalliumPhosphide>, <liquid:gallium_phosphide> * (GEM * 9));
@@ -221,6 +233,9 @@ IngotFormer.addRecipe(<liquid:equipment_witherium> * 144, <gct_ores:equipment_wi
 IngotFormer.addRecipe(<liquid:gallium_indium_phosphide> * 144, <additions:gallium_indium_phosphide>);
 IngotFormer.addRecipe(<liquid:gallium_phosphide> * GEM, <additions:gallium_phosphide>);
 IngotFormer.addRecipe(<liquid:indium_phosphide> * GEM, <additions:indium_phosphide>);
+IngotFormer.addRecipe(<liquid:liquidgallium> * 144, <moretcon:ingotgallium>);
+IngotFormer.addRecipe(<liquid:rose_gold> * 144, <mca:rose_gold_ingot>);
+IngotFormer.addRecipe(<liquid:fluxed_electrum> * 144, <redstonearsenal:material:32>);
 
 SaltMixer.removeRecipeWithInput(<liquid:arsenic> * 1332, <liquid:nak> * 144);
 

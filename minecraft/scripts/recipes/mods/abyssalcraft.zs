@@ -18,6 +18,8 @@ import mods.abyssalcraft.Materializer;
 
 Transmutator.removeTransmutationOutput(<abyssalcraft:solidlava>);
 
+Transmutator.addTransmutation(<gct_mobs:reserved_reserver>, <gct_mobs:reserver>, 3.0f);
+
 Transmutator.addFuel(<abyssalcraft:cingot>, 1200);
 Transmutator.addFuel(<additions:energy_matter_core>, 600000);
 Transmutator.addFuel(<gct_mobs:sanite_ingot>, 2000);

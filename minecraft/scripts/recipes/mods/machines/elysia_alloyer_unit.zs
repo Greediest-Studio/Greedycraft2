@@ -236,3 +236,4 @@ recipe(2007 , <additions:astronicium_ingot> * 2, [<ore:ingotOraclium>, <ore:ingo
 recipe(2008 , <additions:eugardite_ingot> * 4, [<ore:ingotDecurrium> * 3, <ore:ingotPhotonium> * 2, <ore:ingotSolita> * 1, <ore:ingotDullium> * 2], 51200, 10.0f);
 recipe(2009 , <additions:eucite_ingot> * 3, [<ore:ingotCelestium>, <ore:ingotKorite>, <ore:ingotMekyum> * 2, <ore:ingotStoron> * 2], 51200, 10.0f);
 recipe(2010 , <tiths:ingot_decurrium> * 6, [<ore:ingotEucite> * 3, <ore:ingotCorbite> * 2, <ore:ingotChloroplast> * 2, <ore:ingotIrisia> * 3], 51200, 10.0f);
+recipe(2011 , <gct_ores:everite_ingot>, [<ore:ingotTerraAlloy>, <ore:ingotSkyAlloy>, <ore:ingotFireAlloy>, <ore:ingotIceAlloy>], 51200, 10.0f);

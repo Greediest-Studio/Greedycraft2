@@ -1,91 +1,228 @@
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.FakeInterfacesTransformer$MinecraftTransformer
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING CLASS net.minecraft.client.Minecraft
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.FakeInterfacesTransformer$IImageBufferTransformer
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING CLASS net.minecraft.client.renderer.IImageBuffer
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.FakeInterfacesTransformer$ClientIResourceTransformer
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING CLASS net.minecraft.client.resources.IResource
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.FakeInterfacesTransformer$ClientIResourceManagerTransformer
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING CLASS net.minecraft.client.resources.IResourceManager
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.FakeInterfacesTransformer$IResourceTransformer
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING CLASS net.minecraft.resources.IResource
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.FakeInterfacesTransformer$IResourceManagerTransformer
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING CLASS net.minecraft.resources.IResourceManager
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$InitTransformer
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING SRG METHOD net.minecraft.client.resources.SkinManager::<init>(Lnet/minecraft/client/renderer/texture/TextureManager;Ljava/io/File;Lcom/mojang/authlib/minecraft/MinecraftSessionService;)V
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$LoadSkinTransformer
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING SRG METHOD net.minecraft.client.resources.SkinManager::func_152789_a(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;)Lnet/minecraft/util/ResourceLocation;
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager::loadSkin(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;)Lnet/minecraft/util/ResourceLocation;
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$LoadProfileTexturesTransformer
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING SRG METHOD net.minecraft.client.resources.SkinManager::func_152790_a(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;Z)V
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager::loadProfileTextures(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;Z)V
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$LoadSkinFromCacheTransformer
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING SRG METHOD net.minecraft.client.resources.SkinManager::func_152788_a(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map;
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager::loadSkinFromCache(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map;
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$Run0Transformer
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING SRG METHOD net.minecraft.client.resources.SkinManager$3::run()V
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager$3::run()V
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$Run1Transformer
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING SRG METHOD net.minecraft.client.resources.SkinManager$3$1::run()V
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager$3$1::run()V
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.PlayerTabTransformer$ScoreObjectiveTransformer
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING SRG METHOD net.minecraft.client.gui.GuiPlayerTabOverlay::func_175249_a(ILnet/minecraft/scoreboard/Scoreboard;Lnet/minecraft/scoreboard/ScoreObjective;)V
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING METHOD net.minecraft.client.gui.GuiPlayerTabOverlay::renderPlayerlist(ILnet/minecraft/scoreboard/Scoreboard;Lnet/minecraft/scoreboard/ScoreObjective;)V
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SpectatorMenuTransformer$PlayerMenuObjectTransformer
-[2025-08-18 14:57:44] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING SRG METHOD net.minecraft.client.gui.spectator.PlayerMenuObject::<init>(Lcom/mojang/authlib/GameProfile;)V
-[2025-08-18 14:57:45] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed class net.minecraft.client.Minecraft
-[2025-08-18 14:57:47] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed method <init> in class net.minecraft.client.gui.spectator.PlayerMenuObject
-[2025-08-18 14:57:47] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed method func_175249_a in class net.minecraft.client.gui.GuiPlayerTabOverlay
-[2025-08-18 14:57:47] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed class net.minecraft.client.Minecraft
-[2025-08-18 14:57:48] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed class net.minecraft.client.resources.IResourceManager
-[2025-08-18 14:57:48] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed class net.minecraft.resources.IResourceManager
-[2025-08-18 14:57:48] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed class net.minecraft.client.resources.IResourceManager
-[2025-08-18 14:57:48] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed class net.minecraft.resources.IResourceManager
-[2025-08-18 14:57:59] [Client thread/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed class net.minecraft.client.resources.IResource
-[2025-08-18 14:58:00] [Thread-3/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed class net.minecraft.client.resources.IResource
-[2025-08-18 14:58:00] [Thread-3/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed class net.minecraft.resources.IResource
-[2025-08-18 14:58:14] [Client thread/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed method <init> in class net.minecraft.client.resources.SkinManager
-[2025-08-18 14:58:14] [Client thread/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed method func_152789_a in class net.minecraft.client.resources.SkinManager
-[2025-08-18 14:58:14] [Client thread/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed method func_152790_a in class net.minecraft.client.resources.SkinManager
-[2025-08-18 14:58:14] [Client thread/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed method func_152788_a in class net.minecraft.client.resources.SkinManager
-[2025-08-18 14:59:13] [Client thread/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed class net.minecraft.client.renderer.IImageBuffer
-[2025-08-18 15:02:10] [Client thread/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed method func_175249_a in class net.minecraft.client.gui.GuiPlayerTabOverlay
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed method run in class net.minecraft.client.resources.SkinManager$3
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: CustomSkinLoader 14.23
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: DataDir: D:\GC2_game\2025\.minecraft\versions\GreedyCraft2-20250722\CustomSkinLoader
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: Operating System: Windows 11 (amd64) version 10.0
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: Java Version: 21.0.7, Oracle Corporation
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: Minecraft: 1.12.2
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: Config File: D:\GC2_game\2025\.minecraft\versions\GreedyCraft2-20250722\CustomSkinLoader\CustomSkinLoader.json
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: Try to load config.
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: Successfully load config.
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MojangAPI
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: Add a profile loader: Legacy
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSkinAPI
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSKinAPIPlus
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: Add a profile loader: UniSkinAPI
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: Add a profile loader: ElyByAPI
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: Add a profile loader: GlitchlessAPI
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MinecraftCapesAPI
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: Add a profile loader: WynntilsAPI
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: Successfully update config.
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: version : 14.23
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: buildNumber : 32
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: loadlist : [{ "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }, { "name": "LittleSkin", "type": "CustomSkinAPI", "root": "https://littleskin.cn/csl/" }, { "name": "BlessingSkin", "type": "CustomSkinAPI", "root": "https://skin.prinzeugen.net/" }, { "name": "ElyBy", "type": "ElyByAPI", "root": "http://skinsystem.ely.by/textures/" }, { "name": "SkinMe", "type": "UniSkinAPI", "root": "http://www.skinme.cc/uniskin/" }, { "name": "TLauncher", "type": "ElyByAPI", "root": "https://auth.tlauncher.org/skin/profile/texture/login/" }, { "name": "GlitchlessGames", "type": "GlitchlessAPI", "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=" }, { "name": "LocalSkin", "type": "Legacy", "checkPNG": "false", "skin": "LocalSkin/skins/{USERNAME}.png", "model": "auto", "cape": "LocalSkin/capes/{USERNAME}.png", "elytra": "LocalSkin/elytras/{USERNAME}.png" }, { "name": "MinecraftCapes", "type": "MinecraftCapesAPI", "root": "https://api.minecraftcapes.net/profile/" }, { "name": "OptiFine", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://optifine.net/capes/{USERNAME}.png" }, { "name": "Wynntils", "type": "WynntilsAPI", "root": "https://athena.wynntils.com/user/getInfo" }, { "name": "CloakPlus", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "http://161.35.130.99/capes/{USERNAME}.png" }, { "name": "LabyMod", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://dl.labymod.net/capes/{STANDARD_UUID}" }, { "name": "Cosmetica", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://api.cosmetica.cc/get/cloak?username={USERNAME}&uuid={STANDARD_UUID}&nothirdparty" }]
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: enableDynamicSkull : true
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: enableTransparentSkin : true
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: forceLoadAllTextures : true
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: enableCape : true
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: threadPoolSize : 8
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: enableLogStdOut : false
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: cacheExpiry : 30
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: forceUpdateSkull : false
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: enableLocalProfileCache : false
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: enableCacheAutoClean : false
-[2025-08-18 15:03:16] [Client thread/INFO] [CustomSkinLoader Core]: forceDisableCache : false
-[2025-08-18 15:03:16] [mc_Edwin/INFO] [CustomSkinLoader Core]: Loading mc_Edwin's profile.
-[2025-08-18 15:03:16] [mc_Edwin/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'Mojang'.
-[2025-08-18 15:03:16] [mc_Edwin/INFO] [CustomSkinLoader Core]: Default profile will be used.
-[2025-08-18 15:03:16] [mc_Edwin/INFO] [CustomSkinLoader Core]: mc_Edwin's profile loaded.
-[2025-08-18 15:03:16] [mc_Edwin/INFO] [CustomSkinLoader Core]: (SkinUrl: http://textures.minecraft.net/texture/f9f1ce7a36266ff91c0a97df4587693b6cac15332c4b3fa61d46538c6c1a3ed8 , Model: slim , CapeUrl: http://textures.minecraft.net/texture/f9a76537647989f9a0b6d001e320dac591c359e9e61a31f4ce11c88f207f0ad4  , Expiry: 1755500626)
-[2025-08-18 15:03:16] [mc_Edwin/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed method run in class net.minecraft.client.resources.SkinManager$3$1
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.FakeInterfacesTransformer$MinecraftTransformer
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING CLASS net.minecraft.client.Minecraft
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.FakeInterfacesTransformer$IImageBufferTransformer
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING CLASS net.minecraft.client.renderer.IImageBuffer
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.FakeInterfacesTransformer$ClientIResourceTransformer
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING CLASS net.minecraft.client.resources.IResource
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.FakeInterfacesTransformer$ClientIResourceManagerTransformer
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING CLASS net.minecraft.client.resources.IResourceManager
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.FakeInterfacesTransformer$IResourceTransformer
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING CLASS net.minecraft.resources.IResource
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.FakeInterfacesTransformer$IResourceManagerTransformer
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING CLASS net.minecraft.resources.IResourceManager
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$InitTransformer
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING SRG METHOD net.minecraft.client.resources.SkinManager::<init>(Lnet/minecraft/client/renderer/texture/TextureManager;Ljava/io/File;Lcom/mojang/authlib/minecraft/MinecraftSessionService;)V
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$LoadSkinTransformer
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING SRG METHOD net.minecraft.client.resources.SkinManager::func_152789_a(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;)Lnet/minecraft/util/ResourceLocation;
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager::loadSkin(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;)Lnet/minecraft/util/ResourceLocation;
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$LoadProfileTexturesTransformer
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING SRG METHOD net.minecraft.client.resources.SkinManager::func_152790_a(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;Z)V
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager::loadProfileTextures(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;Z)V
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$LoadSkinFromCacheTransformer
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING SRG METHOD net.minecraft.client.resources.SkinManager::func_152788_a(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map;
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager::loadSkinFromCache(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map;
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$Run0Transformer
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING SRG METHOD net.minecraft.client.resources.SkinManager$3::run()V
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager$3::run()V
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$Run1Transformer
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING SRG METHOD net.minecraft.client.resources.SkinManager$3$1::run()V
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager$3$1::run()V
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.PlayerTabTransformer$ScoreObjectiveTransformer
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING SRG METHOD net.minecraft.client.gui.GuiPlayerTabOverlay::func_175249_a(ILnet/minecraft/scoreboard/Scoreboard;Lnet/minecraft/scoreboard/ScoreObjective;)V
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING METHOD net.minecraft.client.gui.GuiPlayerTabOverlay::renderPlayerlist(ILnet/minecraft/scoreboard/Scoreboard;Lnet/minecraft/scoreboard/ScoreObjective;)V
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SpectatorMenuTransformer$PlayerMenuObjectTransformer
+[2025-08-18 22:57:18] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] REGISTERING SRG METHOD net.minecraft.client.gui.spectator.PlayerMenuObject::<init>(Lcom/mojang/authlib/GameProfile;)V
+[2025-08-18 22:57:20] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed class net.minecraft.client.Minecraft
+[2025-08-18 22:57:22] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed method <init> in class net.minecraft.client.gui.spectator.PlayerMenuObject
+[2025-08-18 22:57:22] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed method func_175249_a in class net.minecraft.client.gui.GuiPlayerTabOverlay
+[2025-08-18 22:57:22] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed class net.minecraft.client.Minecraft
+[2025-08-18 22:57:22] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed class net.minecraft.client.resources.IResourceManager
+[2025-08-18 22:57:22] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed class net.minecraft.resources.IResourceManager
+[2025-08-18 22:57:22] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed class net.minecraft.client.resources.IResourceManager
+[2025-08-18 22:57:22] [main/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed class net.minecraft.resources.IResourceManager
+[2025-08-18 22:57:34] [Client thread/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed class net.minecraft.client.resources.IResource
+[2025-08-18 22:57:34] [Thread-3/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed class net.minecraft.client.resources.IResource
+[2025-08-18 22:57:34] [Thread-3/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed class net.minecraft.resources.IResource
+[2025-08-18 22:57:48] [Client thread/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed method <init> in class net.minecraft.client.resources.SkinManager
+[2025-08-18 22:57:48] [Client thread/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed method func_152789_a in class net.minecraft.client.resources.SkinManager
+[2025-08-18 22:57:48] [Client thread/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed method func_152790_a in class net.minecraft.client.resources.SkinManager
+[2025-08-18 22:57:48] [Client thread/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed method func_152788_a in class net.minecraft.client.resources.SkinManager
+[2025-08-18 22:58:50] [Client thread/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed class net.minecraft.client.renderer.IImageBuffer
+[2025-08-18 23:01:48] [Client thread/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed method func_175249_a in class net.minecraft.client.gui.GuiPlayerTabOverlay
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed method run in class net.minecraft.client.resources.SkinManager$3
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: CustomSkinLoader 14.23
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: DataDir: D:\GC2_game\2025\.minecraft\versions\GreedyCraft2-20250722\CustomSkinLoader
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: Operating System: Windows 11 (amd64) version 10.0
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: Java Version: 21.0.7, Oracle Corporation
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: Minecraft: 1.12.2
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: Config File: D:\GC2_game\2025\.minecraft\versions\GreedyCraft2-20250722\CustomSkinLoader\CustomSkinLoader.json
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: Try to load config.
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: Successfully load config.
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MojangAPI
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: Add a profile loader: Legacy
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSkinAPI
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: Add a profile loader: CustomSKinAPIPlus
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: Add a profile loader: UniSkinAPI
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: Add a profile loader: ElyByAPI
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: Add a profile loader: GlitchlessAPI
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: Add a profile loader: MinecraftCapesAPI
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: Add a profile loader: WynntilsAPI
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: Successfully update config.
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: version : 14.23
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: buildNumber : 32
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: loadlist : [{ "name": "Mojang", "type": "MojangAPI", "apiRoot": "https://api.mojang.com/", "sessionRoot": "https://sessionserver.mojang.com/" }, { "name": "LittleSkin", "type": "CustomSkinAPI", "root": "https://littleskin.cn/csl/" }, { "name": "BlessingSkin", "type": "CustomSkinAPI", "root": "https://skin.prinzeugen.net/" }, { "name": "ElyBy", "type": "ElyByAPI", "root": "http://skinsystem.ely.by/textures/" }, { "name": "SkinMe", "type": "UniSkinAPI", "root": "http://www.skinme.cc/uniskin/" }, { "name": "TLauncher", "type": "ElyByAPI", "root": "https://auth.tlauncher.org/skin/profile/texture/login/" }, { "name": "GlitchlessGames", "type": "GlitchlessAPI", "root": "https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=" }, { "name": "LocalSkin", "type": "Legacy", "checkPNG": "false", "skin": "LocalSkin/skins/{USERNAME}.png", "model": "auto", "cape": "LocalSkin/capes/{USERNAME}.png", "elytra": "LocalSkin/elytras/{USERNAME}.png" }, { "name": "MinecraftCapes", "type": "MinecraftCapesAPI", "root": "https://api.minecraftcapes.net/profile/" }, { "name": "OptiFine", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://optifine.net/capes/{USERNAME}.png" }, { "name": "Wynntils", "type": "WynntilsAPI", "root": "https://athena.wynntils.com/user/getInfo" }, { "name": "CloakPlus", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "http://161.35.130.99/capes/{USERNAME}.png" }, { "name": "LabyMod", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://dl.labymod.net/capes/{STANDARD_UUID}" }, { "name": "Cosmetica", "type": "Legacy", "checkPNG": "false", "model": "auto", "cape": "https://api.cosmetica.cc/get/cloak?username={USERNAME}&uuid={STANDARD_UUID}&nothirdparty" }]
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: enableDynamicSkull : true
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: enableTransparentSkin : true
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: forceLoadAllTextures : true
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: enableCape : true
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: threadPoolSize : 8
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: enableLogStdOut : false
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: cacheExpiry : 30
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: forceUpdateSkull : false
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: enableLocalProfileCache : false
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: enableCacheAutoClean : false
+[2025-08-18 23:10:19] [Client thread/INFO] [CustomSkinLoader Core]: forceDisableCache : false
+[2025-08-18 23:10:19] [mc_Edwin/INFO] [CustomSkinLoader Core]: Loading mc_Edwin's profile.
+[2025-08-18 23:10:19] [mc_Edwin/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'Mojang'.
+[2025-08-18 23:10:19] [mc_Edwin/INFO] [CustomSkinLoader Core]: Default profile will be used.
+[2025-08-18 23:10:19] [mc_Edwin/INFO] [CustomSkinLoader Core]: mc_Edwin's profile loaded.
+[2025-08-18 23:10:19] [mc_Edwin/INFO] [CustomSkinLoader Core]: (SkinUrl: http://textures.minecraft.net/texture/f9f1ce7a36266ff91c0a97df4587693b6cac15332c4b3fa61d46538c6c1a3ed8 , Model: slim , CapeUrl: http://textures.minecraft.net/texture/f9a76537647989f9a0b6d001e320dac591c359e9e61a31f4ce11c88f207f0ad4  , Expiry: 1755529849)
+[2025-08-18 23:10:19] [mc_Edwin/INFO] [CustomSkinLoader Forge]: [CSL DEBUG] Successfully transformed method run in class net.minecraft.client.resources.SkinManager$3$1
+[2025-08-18 23:13:19] [ruoleng's skull/INFO] [CustomSkinLoader Core]: Loading ruoleng's profile.
+[2025-08-18 23:13:19] [ruoleng's skull/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'Mojang'.
+[2025-08-18 23:13:19] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.mojang.com/profiles/minecraft'.
+[2025-08-18 23:13:19] [ruoleng's skull/INFO] [CustomSkinLoader Core]: Payload: ["ruoleng"]
+[2025-08-18 23:13:21] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 73)
+[2025-08-18 23:13:21] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Content: [ {
+  "id" : "8342107ada29407da41ebab176e239eb",
+  "name" : "ruoleng"
+} ]
+[2025-08-18 23:13:21] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://sessionserver.mojang.com/session/minecraft/profile/8342107ada29407da41ebab176e239eb'.
+[2025-08-18 23:13:22] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 533)
+[2025-08-18 23:13:22] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 533 , Path: 'D:\GC2_game\2025\.minecraft\versions\GreedyCraft2-20250722\CustomSkinLoader\caches\4c4adcff79517f291d5c9505b2e947553ef5f9fa' , Expire: 1755530032)
+[2025-08-18 23:13:22] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Content: {
+  "id" : "8342107ada29407da41ebab176e239eb",
+  "name" : "ruoleng",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTc1NTUzMDAwMDIyNCwKICAicHJvZmlsZUlkIiA6ICI4MzQyMTA3YWRhMjk0MDdkYTQxZWJhYjE3NmUyMzllYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJydW9sZW5nIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM3MDBlMjkwYzM0MGY5YTRlYTMwYzc3MDNiN2IxN2VhMTAxZmIwOGQ1NmI4YzNkYzlkNWJjZTAxY2I4NzRmNTIiCiAgICB9CiAgfQp9"
+  } ],
+  "profileActions" : [ ]
+}
+[2025-08-18 23:13:22] [ruoleng's skull/INFO] [CustomSkinLoader Core]: 2/14 Try to load profile from 'LittleSkin'.
+[2025-08-18 23:13:22] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://littleskin.cn/csl/ruoleng.json'.
+[2025-08-18 23:13:22] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 2)
+[2025-08-18 23:13:22] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 2 , Path: 'D:\GC2_game\2025\.minecraft\versions\GreedyCraft2-20250722\CustomSkinLoader\caches\ecd35b7b2197f3cd76fd1e810d19ce7c4851dc31' , Expire: 1755530093)
+[2025-08-18 23:13:22] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Content: {}
+[2025-08-18 23:13:22] [ruoleng's skull/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2025-08-18 23:13:22] [ruoleng's skull/INFO] [CustomSkinLoader Core]: 3/14 Try to load profile from 'BlessingSkin'.
+[2025-08-18 23:13:22] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://skin.prinzeugen.net/ruoleng.json'.
+[2025-08-18 23:13:23] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2025-08-18 23:13:23] [ruoleng's skull/INFO] [CustomSkinLoader Core]: Profile not found.
+[2025-08-18 23:13:23] [ruoleng's skull/INFO] [CustomSkinLoader Core]: 4/14 Try to load profile from 'ElyBy'.
+[2025-08-18 23:13:23] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'http://skinsystem.ely.by/textures/ruoleng'.
+[2025-08-18 23:13:24] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 121)
+[2025-08-18 23:13:24] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 121 , Path: 'D:\GC2_game\2025\.minecraft\versions\GreedyCraft2-20250722\CustomSkinLoader\caches\81c5452bcfa425f3120d51f84270c8d89a7a89b6' , Expire: 1755530098)
+[2025-08-18 23:13:24] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://textures.minecraft.net/texture/3700e290c340f9a4ea30c7703b7b17ea101fb08d56b8c3dc9d5bce01cb874f52"}}
+[2025-08-18 23:13:24] [ruoleng's skull/INFO] [CustomSkinLoader Core]: 5/14 Try to load profile from 'SkinMe'.
+[2025-08-18 23:13:24] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'http://www.skinme.cc/uniskin/ruoleng.json'.
+[2025-08-18 23:13:35] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Failed to request http://www.skinme.cc/uniskin/ruoleng.json (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2025-08-18 23:13:35] [ruoleng's skull/INFO] [CustomSkinLoader Core]: Profile not found.
+[2025-08-18 23:13:35] [ruoleng's skull/INFO] [CustomSkinLoader Core]: 6/14 Try to load profile from 'TLauncher'.
+[2025-08-18 23:13:35] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://auth.tlauncher.org/skin/profile/texture/login/ruoleng'.
+[2025-08-18 23:13:36] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: -1)
+[2025-08-18 23:13:36] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 121 , Path: 'D:\GC2_game\2025\.minecraft\versions\GreedyCraft2-20250722\CustomSkinLoader\caches\2d60c5673b79e430a381d60be401a4edbfffb1c4' , Expire: 1755530108)
+[2025-08-18 23:13:36] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://textures.minecraft.net/texture/3700e290c340f9a4ea30c7703b7b17ea101fb08d56b8c3dc9d5bce01cb874f52"}}
+[2025-08-18 23:13:36] [ruoleng's skull/INFO] [CustomSkinLoader Core]: 7/14 Try to load profile from 'GlitchlessGames'.
+[2025-08-18 23:13:36] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=ruoleng'.
+[2025-08-18 23:13:37] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Failed to request https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=ruoleng (Exception: javax.net.ssl.SSLHandshakeException: Remote host terminated the handshake)
+[2025-08-18 23:13:37] [ruoleng's skull/INFO] [CustomSkinLoader Core]: Profile not found.
+[2025-08-18 23:13:37] [ruoleng's skull/INFO] [CustomSkinLoader Core]: 8/14 Try to load profile from 'LocalSkin'.
+[2025-08-18 23:13:37] [ruoleng's skull/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2025-08-18 23:13:37] [ruoleng's skull/INFO] [CustomSkinLoader Core]: 9/14 Try to load profile from 'MinecraftCapes'.
+[2025-08-18 23:13:37] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.minecraftcapes.net/profile/8342107ada29407da41ebab176e239eb'.
+[2025-08-18 23:13:38] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: -1)
+[2025-08-18 23:13:38] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 152 , Path: 'D:\GC2_game\2025\.minecraft\versions\GreedyCraft2-20250722\CustomSkinLoader\caches\479d672e52d2538717db4e8448c2a3da6dfdf381' , Expire: 1755533618)
+[2025-08-18 23:13:38] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Content: {"animatedCape":false,"capeGlint":false,"upsideDown":false,"animated_cape_url":null,"cape_url":null,"ear_url":null,"textures":{"cape":null,"ears":null}}
+[2025-08-18 23:13:38] [ruoleng's skull/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2025-08-18 23:13:38] [ruoleng's skull/INFO] [CustomSkinLoader Core]: 10/14 Try to load profile from 'OptiFine'.
+[2025-08-18 23:13:38] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://optifine.net/capes/ruoleng.png'.
+[2025-08-18 23:13:40] [ruoleng's skull/INFO] [CustomSkinLoader Core]: Loading ruoleng's profile.
+[2025-08-18 23:13:40] [ruoleng's skull/INFO] [CustomSkinLoader Core]: 1/14 Try to load profile from 'Mojang'.
+[2025-08-18 23:13:40] [ruoleng's skull/INFO] [CustomSkinLoader Core]: Default profile will be used.
+[2025-08-18 23:13:40] [ruoleng's skull/INFO] [CustomSkinLoader Core]: 2/14 Try to load profile from 'LittleSkin'.
+[2025-08-18 23:13:40] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://littleskin.cn/csl/ruoleng.json'.
+[2025-08-18 23:13:40] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Cache file found (Length: 2 , Path: 'D:\GC2_game\2025\.minecraft\versions\GreedyCraft2-20250722\CustomSkinLoader\caches\ecd35b7b2197f3cd76fd1e810d19ce7c4851dc31' , Expire: 1755530093)
+[2025-08-18 23:13:40] [ruoleng's skull/INFO] [CustomSkinLoader Core]: Try to load from cache 'D:\GC2_game\2025\.minecraft\versions\GreedyCraft2-20250722\CustomSkinLoader\caches\ecd35b7b2197f3cd76fd1e810d19ce7c4851dc31'.
+[2025-08-18 23:13:40] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Successfully load from cache
+[2025-08-18 23:13:40] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Content: {}
+[2025-08-18 23:13:40] [ruoleng's skull/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2025-08-18 23:13:40] [ruoleng's skull/INFO] [CustomSkinLoader Core]: 3/14 Try to load profile from 'BlessingSkin'.
+[2025-08-18 23:13:40] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://skin.prinzeugen.net/ruoleng.json'.
+[2025-08-18 23:13:40] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2025-08-18 23:13:40] [ruoleng's skull/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2025-08-18 23:13:40] [ruoleng's skull/INFO] [CustomSkinLoader Core]: 11/14 Try to load profile from 'Wynntils'.
+[2025-08-18 23:13:40] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://athena.wynntils.com/user/getInfo'.
+[2025-08-18 23:13:40] [ruoleng's skull/INFO] [CustomSkinLoader Core]: Payload: {"uuid":"8342107a-da29-407d-a41e-bab176e239eb"}
+[2025-08-18 23:13:41] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2025-08-18 23:13:41] [ruoleng's skull/INFO] [CustomSkinLoader Core]: Profile not found.
+[2025-08-18 23:13:41] [ruoleng's skull/INFO] [CustomSkinLoader Core]: 4/14 Try to load profile from 'ElyBy'.
+[2025-08-18 23:13:41] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'http://skinsystem.ely.by/textures/ruoleng'.
+[2025-08-18 23:13:41] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Cache file found (Length: 121 , Path: 'D:\GC2_game\2025\.minecraft\versions\GreedyCraft2-20250722\CustomSkinLoader\caches\81c5452bcfa425f3120d51f84270c8d89a7a89b6' , Expire: 1755530098)
+[2025-08-18 23:13:41] [ruoleng's skull/INFO] [CustomSkinLoader Core]: Try to load from cache 'D:\GC2_game\2025\.minecraft\versions\GreedyCraft2-20250722\CustomSkinLoader\caches\81c5452bcfa425f3120d51f84270c8d89a7a89b6'.
+[2025-08-18 23:13:41] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Successfully load from cache
+[2025-08-18 23:13:41] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://textures.minecraft.net/texture/3700e290c340f9a4ea30c7703b7b17ea101fb08d56b8c3dc9d5bce01cb874f52"}}
+[2025-08-18 23:13:41] [ruoleng's skull/INFO] [CustomSkinLoader Core]: 5/14 Try to load profile from 'SkinMe'.
+[2025-08-18 23:13:41] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'http://www.skinme.cc/uniskin/ruoleng.json'.
+[2025-08-18 23:13:41] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Failed to request http://www.skinme.cc/uniskin/ruoleng.json (Exception: java.net.UnknownHostException: www.skinme.cc)
+[2025-08-18 23:13:41] [ruoleng's skull/INFO] [CustomSkinLoader Core]: Profile not found.
+[2025-08-18 23:13:41] [ruoleng's skull/INFO] [CustomSkinLoader Core]: 6/14 Try to load profile from 'TLauncher'.
+[2025-08-18 23:13:41] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://auth.tlauncher.org/skin/profile/texture/login/ruoleng'.
+[2025-08-18 23:13:41] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Cache file found (Length: 121 , Path: 'D:\GC2_game\2025\.minecraft\versions\GreedyCraft2-20250722\CustomSkinLoader\caches\2d60c5673b79e430a381d60be401a4edbfffb1c4' , Expire: 1755530108)
+[2025-08-18 23:13:41] [ruoleng's skull/INFO] [CustomSkinLoader Core]: Try to load from cache 'D:\GC2_game\2025\.minecraft\versions\GreedyCraft2-20250722\CustomSkinLoader\caches\2d60c5673b79e430a381d60be401a4edbfffb1c4'.
+[2025-08-18 23:13:41] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Successfully load from cache
+[2025-08-18 23:13:41] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Content: {"SKIN":{"url":"http://textures.minecraft.net/texture/3700e290c340f9a4ea30c7703b7b17ea101fb08d56b8c3dc9d5bce01cb874f52"}}
+[2025-08-18 23:13:41] [ruoleng's skull/INFO] [CustomSkinLoader Core]: 7/14 Try to load profile from 'GlitchlessGames'.
+[2025-08-18 23:13:41] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://games.glitchless.ru/api/minecraft/users/profiles/textures/?nickname=ruoleng'.
+[2025-08-18 23:13:41] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2025-08-18 23:13:41] [ruoleng's skull/INFO] [CustomSkinLoader Core]: Profile not found.
+[2025-08-18 23:13:41] [ruoleng's skull/INFO] [CustomSkinLoader Core]: 12/14 Try to load profile from 'CloakPlus'.
+[2025-08-18 23:13:41] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'http://161.35.130.99/capes/ruoleng.png'.
+[2025-08-18 23:13:44] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2025-08-18 23:13:44] [ruoleng's skull/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2025-08-18 23:13:44] [ruoleng's skull/INFO] [CustomSkinLoader Core]: 13/14 Try to load profile from 'LabyMod'.
+[2025-08-18 23:13:44] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://dl.labymod.net/capes/8342107a-da29-407d-a41e-bab176e239eb'.
+[2025-08-18 23:13:45] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Successfully request (Response Code: 200 , Content Length: 69159)
+[2025-08-18 23:13:45] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Saved to cache (Length: 69159 , Path: 'D:\GC2_game\2025\.minecraft\versions\GreedyCraft2-20250722\CustomSkinLoader\caches\664c8ff004e60229b403cae5e163dafc2720b403' , Expire: 1755616425)
+[2025-08-18 23:13:45] [ruoleng's skull/INFO] [CustomSkinLoader Core]: ruoleng's profile loaded.
+[2025-08-18 23:13:45] [ruoleng's skull/INFO] [CustomSkinLoader Core]: (SkinUrl: http://textures.minecraft.net/texture/3700e290c340f9a4ea30c7703b7b17ea101fb08d56b8c3dc9d5bce01cb874f52 , Model: default , CapeUrl: (LEGACY)https://dl.labymod.net/capes/8342107a-da29-407d-a41e-bab176e239eb  , Expiry: 1755530055)
+[2025-08-18 23:13:45] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2025-08-18 23:13:45] [ruoleng's skull/INFO] [CustomSkinLoader Core]: Profile not found.
+[2025-08-18 23:13:45] [ruoleng's skull/INFO] [CustomSkinLoader Core]: 8/14 Try to load profile from 'LocalSkin'.
+[2025-08-18 23:13:45] [ruoleng's skull/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2025-08-18 23:13:45] [ruoleng's skull/INFO] [CustomSkinLoader Core]: 9/14 Try to load profile from 'MinecraftCapes'.
+[2025-08-18 23:13:45] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://api.minecraftcapes.net/profile/8342107ada29407da41ebab176e239eb'.
+[2025-08-18 23:13:45] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Cache file found (Length: 152 , Path: 'D:\GC2_game\2025\.minecraft\versions\GreedyCraft2-20250722\CustomSkinLoader\caches\479d672e52d2538717db4e8448c2a3da6dfdf381' , Expire: 1755533618)
+[2025-08-18 23:13:45] [ruoleng's skull/INFO] [CustomSkinLoader Core]: Try to load from cache 'D:\GC2_game\2025\.minecraft\versions\GreedyCraft2-20250722\CustomSkinLoader\caches\479d672e52d2538717db4e8448c2a3da6dfdf381'.
+[2025-08-18 23:13:45] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Successfully load from cache
+[2025-08-18 23:13:45] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Content: {"animatedCape":false,"capeGlint":false,"upsideDown":false,"animated_cape_url":null,"cape_url":null,"ear_url":null,"textures":{"cape":null,"ears":null}}
+[2025-08-18 23:13:45] [ruoleng's skull/INFO] [CustomSkinLoader Core]: Both skin and cape not found.
+[2025-08-18 23:13:45] [ruoleng's skull/INFO] [CustomSkinLoader Core]: 10/14 Try to load profile from 'OptiFine'.
+[2025-08-18 23:13:45] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://optifine.net/capes/ruoleng.png'.
+[2025-08-18 23:13:47] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2025-08-18 23:13:47] [ruoleng's skull/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2025-08-18 23:13:47] [ruoleng's skull/INFO] [CustomSkinLoader Core]: 11/14 Try to load profile from 'Wynntils'.
+[2025-08-18 23:13:47] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://athena.wynntils.com/user/getInfo'.
+[2025-08-18 23:13:47] [ruoleng's skull/INFO] [CustomSkinLoader Core]: Payload: {"uuid":"8342107a-da29-407d-a41e-bab176e239eb"}
+[2025-08-18 23:13:48] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 403)
+[2025-08-18 23:13:48] [ruoleng's skull/INFO] [CustomSkinLoader Core]: Profile not found.
+[2025-08-18 23:13:48] [ruoleng's skull/INFO] [CustomSkinLoader Core]: 12/14 Try to load profile from 'CloakPlus'.
+[2025-08-18 23:13:48] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'http://161.35.130.99/capes/ruoleng.png'.
+[2025-08-18 23:13:50] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Failed to request (Response Code: 404)
+[2025-08-18 23:13:50] [ruoleng's skull/INFO] [CustomSkinLoader Core]: No texture could be found.
+[2025-08-18 23:13:50] [ruoleng's skull/INFO] [CustomSkinLoader Core]: 13/14 Try to load profile from 'LabyMod'.
+[2025-08-18 23:13:50] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Try to request 'https://dl.labymod.net/capes/8342107a-da29-407d-a41e-bab176e239eb'.
+[2025-08-18 23:13:50] [ruoleng's skull/DEBUG] [CustomSkinLoader Core]: Cache file found (Length: 69159 , Path: 'D:\GC2_game\2025\.minecraft\versions\GreedyCraft2-20250722\CustomSkinLoader\caches\664c8ff004e60229b403cae5e163dafc2720b403' , Expire: 1755616425)
+[2025-08-18 23:13:50] [ruoleng's skull/INFO] [CustomSkinLoader Core]: ruoleng's profile loaded.
+[2025-08-18 23:13:50] [ruoleng's skull/INFO] [CustomSkinLoader Core]: (SkinUrl: http://textures.minecraft.net/texture/3700e290c340f9a4ea30c7703b7b17ea101fb08d56b8c3dc9d5bce01cb874f52 , Model: default , CapeUrl: (LEGACY)https://dl.labymod.net/capes/8342107a-da29-407d-a41e-bab176e239eb  , Expiry: 1755530060)

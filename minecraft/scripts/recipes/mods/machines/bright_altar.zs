@@ -17,12 +17,18 @@ import mods.modularmachinery.MMEvents;
 import mods.modularmachinery.MachineTickEvent;
 import mods.modularmachinery.RecipeTickEvent;
 import mods.modularmachinery.MachineModifier;
+import mods.modularmachinery.ControllerGUIRenderEvent;
 import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
 MachineModifier.setMaxThreads("bright_altar", 1);
 MachineModifier.setMaxParallelism("bright_altar", 4);
 MachineModifier.setInternalParallelism("bright_altar", 1);
+
+MMEvents.onControllerGUIRender("bright_altar", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = ["§a///璀璨祭坛控制面板///", "§a机器名称：§eLV4 - 璀璨祭坛"];
+    event.extraInfo = info;
+});
 
 MMEvents.onMachinePreTick("bright_altar", function(event as MachineTickEvent) {
     var x as int = event.controller.pos.x;

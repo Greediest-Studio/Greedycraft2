@@ -19,7 +19,6 @@ import mods.modularmachinery.FactoryRecipeTickEvent;
 import mods.modularmachinery.FactoryRecipeFinishEvent;
 import mods.modularmachinery.RecipeModifierBuilder;
 import mods.modularmachinery.RecipeAdapterBuilder;
-//import mods.modularmachinery.SmartInterfaceUpdateEvent;
 import mods.modularmachinery.MMEvents;
 import mods.modularmachinery.ControllerGUIRenderEvent;
 import mods.modularmachinery.IMachineController;
@@ -31,6 +30,15 @@ import mods.modularmachinery.FactoryRecipeThread;
 
 import mods.ctutils.utils.Math;
 import mods.jei.JEI;
+
+MachineModifier.setMaxThreads("loot_creater", 1);
+MachineModifier.setMaxParallelism("loot_creater", 256);
+MachineModifier.setInternalParallelism("loot_creater", 1);
+
+MMEvents.onControllerGUIRender("loot_creater", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = ["§a///战利品扫荡机控制面板///", "§a机器名称：§eLV4 - 战利品扫荡机"];
+    event.extraInfo = info;
+});
 
 RecipeBuilder.newBuilder("gaia1" , "loot_creater" , 500, 2)
     .addFluidInput(<liquid:lifeessence> * 10000)
