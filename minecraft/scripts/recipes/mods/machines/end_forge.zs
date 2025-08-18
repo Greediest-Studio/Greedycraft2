@@ -28,14 +28,11 @@ import mods.modularmachinery.FactoryRecipeStartEvent;
 import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
-MachineModifier.setMaxThreads("end_forge", 8);
+MachineModifier.setMaxThreads("end_forge", 0);
 MachineModifier.setMaxParallelism("end_forge", 256);
 MachineModifier.setInternalParallelism("end_forge", 1);
 MachineModifier.addCoreThread("end_forge", FactoryRecipeThread.createCoreThread("能量输入模块"));
-MachineModifier.addCoreThread("end_forge", FactoryRecipeThread.createCoreThread("末影锻造模块#1"));
-MachineModifier.addCoreThread("end_forge", FactoryRecipeThread.createCoreThread("末影锻造模块#2"));
-MachineModifier.addCoreThread("end_forge", FactoryRecipeThread.createCoreThread("末影锻造模块#3"));
-MachineModifier.addCoreThread("end_forge", FactoryRecipeThread.createCoreThread("末影锻造模块#4"));
+MachineModifier.addCoreThread("end_forge", FactoryRecipeThread.createCoreThread("末影锻造模块"));
 
 $expand IMachineController$getFuelCount() as int {
     if (!isNull(this.customData.fuelCount)) {
@@ -118,10 +115,7 @@ function addEndForgeRecipe(output as IItemStack, inputs as IIngredient[], energy
         }
     });
     recipe.addRecipeTooltip("§a需要" + energy + "点末影能量");
-    recipe.setThreadName("末影锻造模块#1");
-    recipe.setThreadName("末影锻造模块#2");
-    recipe.setThreadName("末影锻造模块#3");
-    recipe.setThreadName("末影锻造模块#4");
+    recipe.setThreadName("末影锻造模块");
     recipe.build();
 }
 
