@@ -423,9 +423,6 @@ RecipeUtil.addShapeless("maid_token", <touhou_little_maid:gashapon_coin>,
 RecipeUtil.addShapeless("crimsonite_rev", <additions:crimsonite_ingot> * 9,
     [<ore:blockCrimsonite>]
 );
-RecipeUtil.addShapeless("black_quartz_block", <actuallyadditions:block_misc:2>,
-    [<ore:gemQuartzBlack>, <ore:gemQuartzBlack>, <ore:gemQuartzBlack>, <ore:gemQuartzBlack>]
-);
 RecipeUtil.addShapeless("forestry_resource_2", <magicbees:resource:2> * 4,
     [<ore:itemBiomassRich>, <ore:itemBiomassRich>, <ore:itemBiomassRich>, <ore:itemBiomassRich>]
 );
