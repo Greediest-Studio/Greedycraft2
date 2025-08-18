@@ -24,6 +24,9 @@ recipes.remove(<tconstruct:piggybackpack>.withTag({}));
 recipes.removeByRecipeName("biomesoplenty:amber_block");
 recipes.removeByRecipeName("biomesoplenty:amber");
 recipes.removeByRecipeName("betterendforge:amber_block");
+recipes.removeByRecipeName("botania:quartztypedark_0");
+recipes.removeByRecipeName("thaumictinkerer:black_quartz_block");
+recipes.removeByRecipeName("actuallyadditions:recipes149");
 
 RecipeUtil.addShaped("calculator_subsystem_l4", <ecoaeextension:extendable_calculator_subsystem_l4>, [
     [<ecoaeextension:ecalculator_casing>, <additions:calculation_processor_2>, <ecoaeextension:ecalculator_casing>],
@@ -524,4 +527,22 @@ RecipeUtil.addShaped("thaumcraft_amber_block", <thaumcraft:amber_block>, [
     [<thaumcraft:amber>, <thaumcraft:amber>, null],
     [<thaumcraft:amber>, <thaumcraft:amber>, null],
     [null, null, null]
+]);
+
+RecipeUtil.addShaped("aa_quartztypedark", <actuallyadditions:block_misc:2>, [
+    [<ore:quartzDark>, <ore:quartzDark>, null],
+    [<ore:quartzDark>, <ore:quartzDark>, null],
+    [null, null, null]
+]);
+
+RecipeUtil.addShaped("botania_quartztypedark", <botania:quartztypedark>, [
+    [null, <ore:quartzDark>, <ore:quartzDark>],
+    [null, <ore:quartzDark>, <ore:quartzDark>],
+    [null, null, null]
+]);
+
+RecipeUtil.addShaped("thaumictinkerer_black_quartz_block", <thaumictinkerer:black_quartz_block>, [
+    [null, null, null],
+    [null, <ore:quartzDark>, <ore:quartzDark>],
+    [null, <ore:quartzDark>, <ore:quartzDark>]
 ]);
