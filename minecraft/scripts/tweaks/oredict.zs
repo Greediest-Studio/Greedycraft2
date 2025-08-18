@@ -54,6 +54,10 @@ import scripts.util.oredict as OredictUtil;
 <ore:dustValkyrieMetal>.remove(<moretcon:dustvalkyriemetal>);
 <ore:nuggetValkyrieMetal>.remove(<moretcon:nuggetvalkyriemetal>);
 <ore:blockQuartzMana>.remove(<botania:quartztypemana>);
+<ore:blockQuartzDark>.remove(<botania:quartztypedark>);
+<ore:blockQuartzDark>.remove(<thaumictinkerer:black_quartz_block>);
+<ore:blockQuartzDark>.remove(<botania:quartztypedark:1>);
+<ore:blockQuartzDark>.remove(<botania:quartztypedark:2>);
 
 <ore:ingotCthulhurite>.add(<gct_mobs:cthulhurite_ingot>);
 <ore:starlight>.add(<journey:sapphire>);

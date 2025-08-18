@@ -477,6 +477,8 @@ val removedRecipes as IIngredient[] = [
 ];
 
 val removedRecipeNames as string[] = [
+    "thaumictinkerer:black_quartz_block",
+    "botania:quartztypedark_0",
     "projecte:conversions/emerald_to_diamond",
     "projecte:conversions/diamond_to_emerald",
     "projecte:conversions/diamond_to_iron",
