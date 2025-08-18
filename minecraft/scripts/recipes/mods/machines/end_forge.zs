@@ -24,25 +24,18 @@ import mods.modularmachinery.IMachineController;
 import mods.modularmachinery.FactoryRecipeThread;
 import mods.modularmachinery.FactoryRecipeFinishEvent;
 import mods.modularmachinery.FactoryRecipeTickEvent;
+import mods.modularmachinery.FactoryRecipeStartEvent;
 import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
 MachineModifier.setMaxThreads("end_forge", 8);
 MachineModifier.setMaxParallelism("end_forge", 256);
 MachineModifier.setInternalParallelism("end_forge", 1);
-MachineModifier.addCoreThread("end_forge", FactoryRecipeThread.createCoreThread("能量输入模块")
-    .addRecipe("end_forge_fuel_thermalfoundation:material")
-    .addRecipe("end_forge_fuel_minecraft:ender_pearl")
-    .addRecipe("end_forge_fuel_tiths:ender_crevice_shard")
-    .addRecipe("end_forge_fuel_divinerpg:ender_shards")
-    .addRecipe("end_forge_fuel_divinerpg:ender_stone")
-    .addRecipe("end_forge_fuel_avaritia:endest_pearl")
-    .addRecipe("end_forge_fuel_additions:harcadium_ingot")
-    .addRecipe("end_forge_fuel_additions:harcadium_block")
-    .addRecipe("end_forge_fuel_endreborn:item_end_essence")
-    .addRecipe("end_forge_fuel_charm:ender_pearl_block")
-    .addRecipe("end_forge_fuel_actuallyadditions:block_misc")
-);
+MachineModifier.addCoreThread("end_forge", FactoryRecipeThread.createCoreThread("能量输入模块"));
+MachineModifier.addCoreThread("end_forge", FactoryRecipeThread.createCoreThread("末影锻造模块#1"));
+MachineModifier.addCoreThread("end_forge", FactoryRecipeThread.createCoreThread("末影锻造模块#2"));
+MachineModifier.addCoreThread("end_forge", FactoryRecipeThread.createCoreThread("末影锻造模块#3"));
+MachineModifier.addCoreThread("end_forge", FactoryRecipeThread.createCoreThread("末影锻造模块#4"));
 
 $expand IMachineController$getFuelCount() as int {
     if (!isNull(this.customData.fuelCount)) {
@@ -119,7 +112,16 @@ function addEndForgeRecipe(output as IItemStack, inputs as IIngredient[], energy
         var parallelism as int = event.activeRecipe.parallelism;
         event.controller.removeFuelCount(energy * parallelism);
     });
-    recipe.addRecipeTooltip("需要" + energy + "点末影能量");
+    recipe.addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
+        if (event.factoryRecipeThread.isCoreThread) {
+            event.canceled = true;
+        }
+    });
+    recipe.addRecipeTooltip("§a需要" + energy + "点末影能量");
+    recipe.setThreadName("末影锻造模块#1");
+    recipe.setThreadName("末影锻造模块#2");
+    recipe.setThreadName("末影锻造模块#3");
+    recipe.setThreadName("末影锻造模块#4");
     recipe.build();
 }
 
