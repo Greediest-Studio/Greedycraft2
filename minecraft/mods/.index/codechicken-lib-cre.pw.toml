@@ -1,0 +1,13 @@
+name = "CodeChicken Lib CRE"
+filename = "codechickenlib-3.3.5-universal.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c1f2f326f3458bf97f45df17043dbc5f258dbd64"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6898525
+project-id = 1328922
