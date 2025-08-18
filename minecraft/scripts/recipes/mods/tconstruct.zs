@@ -721,7 +721,7 @@ for removeItem in removeToolPartCrafting {
     Casting.removeTableRecipe(removeItem);
 }
 
-Alloy.addRecipe(<liquid:deifugurite> * 360000, [
+Alloy.addRecipe(<liquid:deusiotium> * 360000, [
     <liquid:glass> * 36000,
     <liquid:glowstone> * 9000,
     <liquid:ender> * 9000,

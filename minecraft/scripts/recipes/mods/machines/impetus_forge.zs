@@ -1,5 +1,5 @@
 /*
- * This script is created for the GreedyCraft Tweaks by 孤梦梦.
+ * This script is created for the GreedyCraft Tweaks by 孤梦梦 and mc_Edwin.
  */
 
 

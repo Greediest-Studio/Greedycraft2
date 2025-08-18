@@ -37,11 +37,6 @@ MachineModifier.setMaxParallelism("builder_2", 256);
 MachineModifier.setMaxParallelism("builder_3", 256);
 MachineModifier.setMaxParallelism("builder_4", 256);
 MachineModifier.setMaxParallelism("builder_5", 256);
-MachineModifier.addCoreThread("builder_1", FactoryRecipeThread.createCoreThread("能量供给模块"));
-MachineModifier.addCoreThread("builder_2", FactoryRecipeThread.createCoreThread("能量供给模块"));
-MachineModifier.addCoreThread("builder_3", FactoryRecipeThread.createCoreThread("能量供给模块"));
-MachineModifier.addCoreThread("builder_4", FactoryRecipeThread.createCoreThread("能量供给模块"));
-MachineModifier.addCoreThread("builder_5", FactoryRecipeThread.createCoreThread("能量供给模块"));
 
 function addBuilderRecipe(controller as IItemStack, inputs as IIngredient[], level as int, basicTick as int) {
     var tick = basicTick;
@@ -59,23 +54,23 @@ function addBuilderRecipe(controller as IItemStack, inputs as IIngredient[], lev
 }
 
 MMEvents.onControllerGUIRender("builder_1", function(event as ControllerGUIRenderEvent) {
-    var info as string[] = ["§a///基础装配室控制面板///", "§a机器名称：§eLV1 - 基础装配室"];
+    var info as string[] = ["§a///基础装配室控制面板///", "§a机器名称：§eLV0 - 基础装配室"];
     event.extraInfo = info;
 });
 MMEvents.onControllerGUIRender("builder_2", function(event as ControllerGUIRenderEvent) {
-    var info as string[] = ["§a///强化装配室控制面板///", "§a机器名称：§eLV2 - 强化装配室"];
+    var info as string[] = ["§a///强化装配室控制面板///", "§a机器名称：§eLV1 - 强化装配室"];
     event.extraInfo = info;
 });
 MMEvents.onControllerGUIRender("builder_3", function(event as ControllerGUIRenderEvent) {
-    var info as string[] = ["§a///进阶装配室控制面板///", "§a机器名称：§eLV3 - 进阶装配室"];
+    var info as string[] = ["§a///进阶装配室控制面板///", "§a机器名称：§eLV2 - 进阶装配室"];
     event.extraInfo = info;
 });
 MMEvents.onControllerGUIRender("builder_4", function(event as ControllerGUIRenderEvent) {
-    var info as string[] = ["§a///炫光装配室控制面板///", "§a机器名称：§eLV4 - 炫光装配室"];
+    var info as string[] = ["§a///炫光装配室控制面板///", "§a机器名称：§eLV3 - 炫光装配室"];
     event.extraInfo = info;
 });
 MMEvents.onControllerGUIRender("builder_5", function(event as ControllerGUIRenderEvent) {
-    var info as string[] = ["§a///终极装配室控制面板///", "§a机器名称：§eLV5 - 终极装配室"];
+    var info as string[] = ["§a///终极装配室控制面板///", "§a机器名称：§eLV4 - 终极装配室"];
     event.extraInfo = info;
 });
 
