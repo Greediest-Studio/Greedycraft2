@@ -455,7 +455,8 @@ val localizationMap as string[string][string] = {
         "tile.everheaven_portal.name": "深空之域传送门",
         "greedycraft.tooltip.modularcontroller.not_need_blueprints": "§4此机械无需制作蓝图即可工作",
         "component.missing.gugu-utils:aspect.input": "缺少源质输入仓！",
-        "component.missing.gugu-utils:aspect.output": "缺少源质输出仓！"
+        "component.missing.gugu-utils:aspect.output": "缺少源质输出仓！",
+        "craftcheck.failure.gugu-utils:mana_pertick.input": "魔力输入过慢！"
     }
 };
 
