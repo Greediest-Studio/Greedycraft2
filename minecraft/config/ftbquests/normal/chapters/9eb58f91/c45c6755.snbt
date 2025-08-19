@@ -2,6 +2,9 @@
 	title: "自动请求任务",
 	x: -8.5d,
 	y: -4.0d,
+	dependencies: [
+		"ddad20c5"
+	],
 	tasks: [{
 		uid: "1f7fcd41",
 		type: "item",

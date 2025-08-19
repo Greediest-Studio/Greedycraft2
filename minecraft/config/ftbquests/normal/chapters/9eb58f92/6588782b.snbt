@@ -6,6 +6,10 @@
 	text: [
 		"对着精英工厂右键使用，可以将其升级为终极工厂"
 	],
+	hide_dependency_lines: 1b,
+	dependencies: [
+		"f432f2f5"
+	],
 	tasks: [{
 		uid: "56a57d31",
 		type: "item",

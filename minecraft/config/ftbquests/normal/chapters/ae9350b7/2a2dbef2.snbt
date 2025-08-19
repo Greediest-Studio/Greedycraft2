@@ -1,23 +1,23 @@
 {
-	title: "§b星河奇迹",
-	icon: "modularmachinery:finest_centrifuge_controller",
+	title: "§b混沌为名",
+	icon: "modularmachinery:chaos_reactor_factory_controller",
 	tags: [
 		"challenge"
 	],
-	x: 12.0d,
+	x: 10.5d,
 	y: 19.5d,
-	description: "收集所有模块化控制器",
+	description: "合成混沌汲能反应堆控制器",
 	text: [
-		"恭喜你收集了所有模块化控制器",
-		"恭喜再次毕业"
+		""
 	],
-	rewards: [{
-		uid: "ce394e38",
+	tasks: [{
+		uid: "265181d4",
 		type: "item",
-		item: "additions:creative_shard",
-		count: 4
-	},
-	{
+		items: [{
+			item: "modularmachinery:chaos_reactor_factory_controller"
+		}]
+	}],
+	rewards: [{
 		uid: "f826fb80",
 		type: "loot",
 		table: 4

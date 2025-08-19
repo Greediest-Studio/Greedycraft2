@@ -75,6 +75,14 @@ energyUpgrade.addDescriptions("§b降低模块化机械能耗至60%");
 energyUpgrade.addModifier(false, "energy_upgrade_energy", RecipeModifierBuilder.create("modularmachinery:energy", "input", 0.6, 1, false).build());
 energyUpgrade.buildAndRegister();
 
+var outputUpgrade as MachineUpgradeBuilder = MachineUpgradeBuilder.newBuilder("generation_upg", "产能升级", 1, 1);
+outputUpgrade.addDescriptions("§b增加模块化发电机60%的产出");
+outputUpgrade.addModifier(false, "generation_upgrade_energy", RecipeModifierBuilder.create("modularmachinery:energy", "output", 1.6, 1, false).build());
+outputUpgrade.addCompatibleMachines("loot_power_generator");
+outputUpgrade.addCompatibleMachines("exp_power_generator");
+outputUpgrade.addCompatibleMachines("chaos_reactor");
+outputUpgrade.buildAndRegister();
+
 var stainlessUpgrade as MachineUpgradeBuilder = MachineUpgradeBuilder.newBuilder(STAINLESS, "不锈钢采掘升级", 1, 1);
 stainlessUpgrade.addDescriptions("§b使模块化矿机拥有采集不锈钢阶段矿物的能力\n§b矿机能耗变为原来的2倍");
 stainlessUpgrade.addCompatibleMachines("basic_miner");
@@ -138,6 +146,7 @@ multiUpgrade.buildAndRegister();
 
 MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_efficiency>, "efficiency_upg");
 MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_energy>, "energy_upg");
+MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_output>, "generation_upg");
 
 MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_stainless_steel>, STAINLESS);
 MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_durasteel>, DURASTEEL);

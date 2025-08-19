@@ -445,8 +445,23 @@ addBuilderRecipe(<modularmachinery:gas_centrifuge_factory_controller>, [
     <ore:ingotOsgloglas> * 48,
     <ore:ingotStellarAlloy> * 32,
     <ore:ingotMistAlloy> * 16,
-    <ore:ingotBlackholeAlloy> * 4,
+    <ore:ingotBlackholeAlloy> * 4
 ], 3, 4800);
+
+addBuilderRecipe(<modularmachinery:unitcell_builder_factory_controller>, [
+    <additions:logic_processor_2> * 16,
+    <additions:calculation_processor_2> * 12,
+    <additions:engineering_processor_2> * 10,
+    <crazyae:material:48> * 12,
+    <crazyae:material:17> * 8,
+    <ore:ingotModularium> * 64,
+    <ore:ingotDraconium> * 48,
+    <ore:ingotWitherium> * 48,
+    <ore:ingotVibranium> * 48,
+    <ore:ingotEnergeticAlloy> * 32,
+    <ore:ingotMirion> * 16,
+    <ore:ingotAstralMetal> * 2
+], 3, 3600);
 
 addBuilderRecipe(<modularmachinery:fallen_star_factory_controller>, [
     <additions:logic_processor_2> * 12,
@@ -787,7 +802,7 @@ addBuilderRecipe(<modularmachinery:elysia_alloyer_factory_controller>, [
 addBuilderRecipe(<modularmachinery:elysia_centrifuge_factory_controller>, [
     <gct_ores:blue_print_empty> * 32,
     <ore:ingotModularium> * 64,
-    <nuclearcraft:separator> * 16,
+    <plustic:centrifuge> * 16,
     <thermalexpansion:machine:10>.withTag({Level : 4 as byte}) * 16
 ], 1, 3200);
 

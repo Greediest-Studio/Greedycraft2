@@ -188,3 +188,13 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:modular_dimensional_
 	[null, <ore:rodBthdz>, null, null, null, null, null], 
 	[<ore:rodBnatuz>, null, null, null, null, null, null]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:upgrade_output>, [
+	[null, null, <ore:ingotNiobiumTitanium>, <ore:ingotNiobiumTitanium>, <ore:plateZincargentum>, <ore:plateZincargentum>, <ore:plateZincargentum>], 
+	[null, <ore:modularUpgradeEnergy>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotCrystalMatrix>, <ore:plateZincargentum>], 
+	[<ore:ingotNiobiumTitanium>, <ore:ingotPorpezite>, <ore:ingotCrystalMatrix>, <ore:ingotPorpezite>, <ore:ingotCrystalMatrix>, <ore:ingotPorpezite>, <ore:plateZincargentum>], 
+	[<ore:ingotNiobiumTitanium>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:blockFlux>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotNiobiumTitanium>], 
+	[<ore:plateZincargentum>, <ore:ingotPorpezite>, <ore:ingotCrystalMatrix>, <ore:ingotPorpezite>, <ore:ingotCrystalMatrix>, <ore:ingotPorpezite>, <ore:ingotNiobiumTitanium>], 
+	[<ore:plateZincargentum>, <ore:ingotCrystalMatrix>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:modularUpgradeEnergy>, null], 
+	[<ore:plateZincargentum>, <ore:plateZincargentum>, <ore:plateZincargentum>, <ore:ingotNiobiumTitanium>, <ore:ingotNiobiumTitanium>, null, null]
+]);

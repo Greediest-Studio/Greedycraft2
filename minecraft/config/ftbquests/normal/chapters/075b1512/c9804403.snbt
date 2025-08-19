@@ -9,10 +9,24 @@
 		"36d2ada6"
 	],
 	tasks: [{
-		uid: "c5ec95f5",
+		uid: "abc1fe32",
 		type: "item",
 		items: [{
-			item: "gct_mac:atomic_viberator"
+			item: "modularmachinery:factory_atomic_vibrator_factory_controller"
+		}]
+	},
+	{
+		uid: "8c1f6ea9",
+		type: "item",
+		items: [{
+			item: "modularmachinery:factory_atomic_decayer_factory_controller"
+		}]
+	},
+	{
+		uid: "cce126c4",
+		type: "item",
+		items: [{
+			item: "modularmachinery:factory_atomic_acider_factory_controller"
 		}]
 	}],
 	rewards: [{

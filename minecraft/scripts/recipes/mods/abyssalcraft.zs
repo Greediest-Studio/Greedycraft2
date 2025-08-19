@@ -19,6 +19,7 @@ import mods.abyssalcraft.Materializer;
 Transmutator.removeTransmutationOutput(<abyssalcraft:solidlava>);
 
 Transmutator.addTransmutation(<gct_mobs:reserved_reserver>, <gct_mobs:reserver>, 3.0f);
+Transmutator.addTransmutation(<additions:reversed_orichalcos>, <extrabotany:material:1>, 1.0f);
 
 Transmutator.addFuel(<abyssalcraft:cingot>, 1200);
 Transmutator.addFuel(<additions:energy_matter_core>, 600000);

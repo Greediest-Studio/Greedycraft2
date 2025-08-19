@@ -1,19 +1,22 @@
 {
-	title: "§b【可重复】现在是黑夜时间",
+	title: "§c【可重复】现在是黑夜时间",
 	x: 4.5d,
 	y: 7.5d,
 	shape: "square",
-	description: "获得至暗之日的掉落物",
+	description: "再次击杀至暗之日",
+	text: [
+		""
+	],
 	can_repeat: 1b,
 	dependencies: [
 		"7c005016"
 	],
 	tasks: [{
-		uid: "b3a8b0c6",
-		type: "item",
-		items: [{
-			item: "additions:gloomy_passport"
-		}]
+		uid: "58dc0127",
+		type: "kill",
+		icon: "additions:darkest_core",
+		entity: "dungeonsmod:sun",
+		value: 1L
 	}],
 	rewards: [{
 		uid: "faf69f9e",
