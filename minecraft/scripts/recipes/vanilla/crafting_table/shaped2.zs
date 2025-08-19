@@ -498,51 +498,63 @@ RecipeUtil.addShaped("ender_6", <storagedrawers:ender_linker:5>, [
     [<appliedenergistics2:material:30>, <storagedrawers:ender_linker:4>, <appliedenergistics2:material:30>],
     [null, null, null]
 ]);
-
 RecipeUtil.addModeRecipe("mm_upgrade_t4", <modularmachinery:blockcasing:5>, [
     [<ore:blockChromasteel>, <ore:ingotModularium>, <ore:blockChromasteel>],
     [<ore:ingotModularium>, <modularmachinery:blockcasing:3>, <ore:ingotModularium>],
     [<ore:blockChromasteel>, <ore:ingotModularium>, <ore:blockChromasteel>]
 ]);
-
 RecipeUtil.addModeRecipe("mm_upgrade_t3", <modularmachinery:blockcasing:3>, [
     [<ore:blockAeonsteel>, <ore:ingotModularium>, <ore:blockAeonsteel>],
     [<ore:ingotModularium>, <modularmachinery:blockcasing:2>, <ore:ingotModularium>],
     [<ore:blockAeonsteel>, <ore:ingotModularium>, <ore:blockAeonsteel>]
 ]);
-
 RecipeUtil.addModeRecipe("mm_upgrade_t2", <modularmachinery:blockcasing:2>, [
     [<ore:blockDurasteel>, <ore:ingotModularium>, <ore:blockDurasteel>],
     [<ore:ingotModularium>, <modularmachinery:blockcasing:1>, <ore:ingotModularium>],
     [<ore:blockDurasteel>, <ore:ingotModularium>, <ore:blockDurasteel>]
 ]);
-
 RecipeUtil.addModeRecipe("mm_upgrade_t1", <modularmachinery:blockcasing:1>, [
     [<ore:blockStainlessSteel>, <ore:ingotModularium>, <ore:blockStainlessSteel>],
     [<ore:ingotModularium>, <modularmachinery:blockcasing:4>, <ore:ingotModularium>],
     [<ore:blockStainlessSteel>, <ore:ingotModularium>, <ore:blockStainlessSteel>]
 ]);
-
 RecipeUtil.addShaped("thaumcraft_amber_block", <thaumcraft:amber_block>, [
     [<thaumcraft:amber>, <thaumcraft:amber>, null],
     [<thaumcraft:amber>, <thaumcraft:amber>, null],
     [null, null, null]
 ]);
-
 RecipeUtil.addShaped("aa_quartztypedark", <actuallyadditions:block_misc:2>, [
     [<ore:gemQuartzBlack>, <ore:gemQuartzBlack>, null],
     [<ore:gemQuartzBlack>, <ore:gemQuartzBlack>, null],
     [null, null, null]
 ]);
-
 RecipeUtil.addShaped("botania_quartztypedark", <botania:quartztypedark>, [
     [null, <ore:gemQuartzBlack>, <ore:gemQuartzBlack>],
     [null, <ore:gemQuartzBlack>, <ore:gemQuartzBlack>],
     [null, null, null]
 ]);
-
 RecipeUtil.addShaped("thaumictinkerer_black_quartz_block", <thaumictinkerer:black_quartz_block>, [
     [null, null, null],
     [null, <ore:gemQuartzBlack>, <ore:gemQuartzBlack>],
     [null, <ore:gemQuartzBlack>, <ore:gemQuartzBlack>]
+]);
+RecipeUtil.addShaped("circuit_dreamic", <additions:dreamic_control_circuit>, [
+    [null, <ore:ingotBalancedMatrix>, null],
+    [<ore:alloyImitate>, <additions:arcane_control_circuit>, <ore:alloyImitate>],
+    [null, <ore:ingotBalancedMatrix>, null]
+]);
+RecipeUtil.addShaped("mana_speed_card_plus", <crazyae:upgrade:1>, [
+    [<appliedenergistics2:quartz_glass>, <additions:calculation_processor_2>, <appliedenergistics2:quartz_glass>],
+    [<crazyae:upgrade:2>, <appliedenergistics2:material:47>, <crazyae:upgrade:2>],
+    [<appliedenergistics2:quartz_glass>, <crazyae:upgrade:2>, <appliedenergistics2:quartz_glass>]
+]);
+RecipeUtil.addShaped("infinity_cell_water", <extendedae:infinity_cell>.withTag({r: {FluidName: "water", Craft: 0 as byte, Cnt: 1 as long, Count: 0 as byte, Req: 0 as long}, t: "f"}), [
+    [<minecraft:water_bucket>, <minecraft:water_bucket>, <minecraft:water_bucket>],
+    [<minecraft:water_bucket>, <appliedenergistics2:material:39>, <minecraft:water_bucket>],
+    [<minecraft:water_bucket>, <minecraft:water_bucket>, <minecraft:water_bucket>]
+]);
+RecipeUtil.addShaped("infinity_cell_cobblestone", <extendedae:infinity_cell>.withTag({r: {Craft: 0 as byte, Cnt: 1 as long, id: "minecraft:cobblestone", Count: 1, Damage: 0 as short, Req: 0 as long}, t: "i"}), [
+    [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],
+    [<minecraft:cobblestone>, <appliedenergistics2:material:39>, <minecraft:cobblestone>],
+    [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]
 ]);

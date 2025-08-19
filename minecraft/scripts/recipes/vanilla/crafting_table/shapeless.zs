@@ -498,6 +498,9 @@ RecipeUtil.addShapelessOf("rock_crystal_compress", <astralsorcery:blockcustomore
 RecipeUtil.addShapeless("manacell256k", <crazyae:mana_cell_256k>, 
     [<appliedenergistics2:material:39>,<crazyae:material:22>]
 );
+RecipeUtil.addShapeless("mana_speed_card", <crazyae:upgrade:2>,
+    [<appliedenergistics2:material:28>, <crazyae:material:35>]
+);
 
 /* Template
 

@@ -40,6 +40,7 @@ infuser.removeRecipe(<mekanism:otherdust:1>);
 
 infuser.addRecipe("OSGLOGLAS", 10, <mekanism:atomicalloy>, <additions:imaginative_alloy>);
 infuser.addRecipe("PORPEZITE", 10, <additions:imaginative_alloy>, <additions:shadowing_alloy>);
+infuser.addRecipe("SCIENTIFICITE", 10, <additions:shadowing_alloy>, <additions:imitate_alloy>);
 
 enrichment.addRecipe(<jaopca:dust.osgloglas>, <additions:compressed_osgloglas>);
 enrichment.addRecipe(<jaopca:dust.porpezite>, <additions:compressed_porpezite>);
@@ -51,8 +52,6 @@ purification.addRecipe(<ore:dustCelestium>, <gas:oxygen>, <additions:strontium_s
 purification.addRecipe(<ore:dustBarite>, <gas:oxygen>, <additions:barium_sulfate>);
 
 separator.addRecipe(<liquid:brine> * 4, 640, <gas:chlorine> * 1, <gas:sodiumhydroxide> * 2);
-
-
 
 mods.mekanism.chemical.oxidizer.addRecipe(<minecraft:coal>, <gas:carbonoxide> * 50);
 mods.mekanism.chemical.oxidizer.addRecipe(<minecraft:coal_block>, <gas:carbonoxide> * 450);

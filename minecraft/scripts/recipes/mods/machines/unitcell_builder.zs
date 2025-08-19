@@ -29,16 +29,9 @@ MachineModifier.setInternalParallelism("unitcell_builder", 1);
 MachineModifier.addSmartInterfaceType("unitcell_builder", SmartInterfaceType.create("模式", 0.0f));
 
 MMEvents.onControllerGUIRender("unitcell_builder", function(event as ControllerGUIRenderEvent) {
-    var mode as string = "错误！";
-    if (event.controller.getSmartInterfaceData("模式").value == 0.0f) {
-        mode = "原子再构";
-    } else if (event.controller.getSmartInterfaceData("模式").value == 1.0f) {
-        mode = "共晶复制";
-    }
     var info as string[] = [
         "§a///晶胞重塑器控制面板///",
-        "§a机器名称：§eLV3 - 晶胞重塑器",
-        "§a机器模式：§e" + mode
+        "§a机器名称：§eLV3 - 晶胞重塑器"
     ];
     event.extraInfo = info;
 });
@@ -111,5 +104,6 @@ RecipeBuilder.newBuilder("cp_stormy", "unitcell_builder", 400)
     .addItemOutput(<gct_ores:stormy_fragment_small>).setChance(0.5f)
     .addSmartInterfaceDataInput("模式", 1)
     .addRecipeTooltip("§a运行模式：共晶复制")
+    .addEnergyPerTickInput(12800)
     .build();
     

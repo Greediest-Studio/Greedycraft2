@@ -9,7 +9,44 @@
 		"c9804403"
 	],
 	tasks: [{
-		uid: "cc45f90d",
-		type: "checkmark"
+		uid: "9d5332e0",
+		type: "item",
+		items: [{
+			item: "modularmachinery:factory_arcanic_infuser_factory_controller"
+		}]
+	},
+	{
+		uid: "0d95b0c5",
+		type: "item",
+		items: [{
+			item: "modularmachinery:factory_arcanic_brewer_factory_controller"
+		}]
+	},
+	{
+		uid: "40be3ca0",
+		type: "item",
+		items: [{
+			item: "modularmachinery:factory_arcanic_astrallizer_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "27e92d07",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
+	},
+	{
+		uid: "4c787c1d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_4"
+			}
+		}
 	}]
 }

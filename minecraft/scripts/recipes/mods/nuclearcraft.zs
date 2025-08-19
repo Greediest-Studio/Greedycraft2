@@ -240,11 +240,7 @@ IngotFormer.addRecipe(<liquid:fluxed_electrum> * 144, <redstonearsenal:material:
 SaltMixer.removeRecipeWithInput(<liquid:arsenic> * 1332, <liquid:nak> * 144);
 
 SaltMixer.addRecipe(<liquid:arsenic> * 288, <liquid:nak> * 144, <liquid:arsenic_nak> * 144);
-SaltMixer.addRecipe(<liquid:hydrogen_fluoride> * 250, <liquid:water> * 250, <liquid:hydrofluoric_acid> * 250);
-SaltMixer.addRecipe(<liquid:liquidhydrogenchloride> * 250, <liquid:water> * 250, <liquid:hydrochloric_acid> * 250);
 SaltMixer.addRecipe(<liquid:cryotheum> * 250, <liquid:liquid_helium> * 1000, <liquid:hecryo_liquid> * 1000);
-SaltMixer.addRecipe(<liquid:nitric_acid> * 250, <liquid:hydrofluoric_acid> * 750, <liquid:aqua_fluoride> * 1000);
-SaltMixer.addRecipe(<liquid:gallium_phosphide> * 333, <liquid:indium_phosphide> * 333, <liquid:gallium_indium_phosphide> * 72);
 
 ChemicalReactor.removeRecipeWithInput(<liquid:boron> * 72, <liquid:arsenic> * 333);
 ChemicalReactor.removeRecipeWithInput(<liquid:liquidhydrogen> * 250, <liquid:fluorine> * 250);
@@ -253,6 +249,11 @@ ChemicalReactor.removeRecipeWithInput(<liquid:sodium> * 144, <liquid:sulfur> * 3
 ChemicalReactor.removeRecipeWithInput(<liquid:potassium> * 144, <liquid:sulfur> * 333);
 ChemicalReactor.removeRecipeWithInput(<liquid:sulfur> * 333, <liquid:oxygen> * 500);
 
+ChemicalReactor.addRecipe(<liquid:nitric_acid> * 250, <liquid:hydrofluoric_acid> * 750, <liquid:aqua_fluoride> * 1000, null);
+ChemicalReactor.addRecipe(<liquid:nitric_acid> * 250, <liquid:liquidhydrofluricacid> * 750, <liquid:aqua_fluoride> * 1000, null);
+ChemicalReactor.addRecipe(<liquid:gallium_phosphide> * 333, <liquid:indium_phosphide> * 333, <liquid:gallium_indium_phosphide> * 72, null);
+ChemicalReactor.addRecipe(<liquid:hydrogen_fluoride> * 250, <liquid:water> * 250, <liquid:hydrofluoric_acid> * 250, null);
+ChemicalReactor.addRecipe(<liquid:liquidhydrogenchloride> * 250, <liquid:water> * 250, <liquid:hydrochloric_acid> * 250, null);
 ChemicalReactor.addRecipe(<liquid:sulfur> * 36, <liquid:hydrogen> * 250, <liquid:hydrogen_sulfide> * 250, null);
 ChemicalReactor.addRecipe(<liquid:sodium> * 144, <liquid:sulfur> * 72, <liquid:sodium_sulfide> * 72, null);
 ChemicalReactor.addRecipe(<liquid:potassium> * 144, <liquid:sulfur> * 72, <liquid:potassium_sulfide> * 72, null);

@@ -36,13 +36,13 @@ events.onPlayerRightClickItem(function(event as PlayerRightClickItemEvent) {
 if (!event.world.isRemote()) {
 
     //Store the dimension ID in the item tag
-    if ((!isNull(event.item)) && (event.item.definition.id == "additions:modular_dimensional_magnifier")) {
+    if (event.item.definition.id == "additions:modular_dimensional_magnifier") {
         event.item.mutable().updateTag({dim : event.world.dimension as int});
         event.player.sendChat("§a已将当前维度ID存储在放大镜中！");
     }
 
     //TConstruct Armor Restoration
-    if ((!isNull(event.item)) && (event.item.definition.id == "conarm:polishing_kit")) {
+    if (event.item.definition.id == "conarm:polishing_kit") {
         var kit as IItemStack = event.item;
         var player as IPlayer = event.player;
         var material as string = kit.tag.Material as string;
@@ -191,7 +191,7 @@ if (!event.world.isRemote()) {
     }
 
     //TConstruct Tools Restoration {
-    if ((!isNull(event.item)) && (event.item.definition.id == "tconstruct:sharpening_kit")) {
+    if (event.item.definition.id == "tconstruct:sharpening_kit") {
         var kit as IItemStack = event.item;
         var player as IPlayer = event.player;
         var material as string = kit.tag.Material as string;

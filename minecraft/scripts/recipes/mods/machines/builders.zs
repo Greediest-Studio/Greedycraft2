@@ -916,3 +916,36 @@ addBuilderRecipe(<modularmachinery:factory_atomic_decayer_factory_controller>, [
     <ore:circuitFinal> * 4,
     <ore:circuitArcane>
 ], 1, 2400);
+
+addBuilderRecipe(<modularmachinery:factory_arcanic_infuser_factory_controller>, [
+    <gct_ores:blue_print_forge> * 48,
+    <ore:ingotModularium> * 64,
+    <ore:ingotVoid> * 64,
+    <ore:ingotOrichalcosReversed> * 24,
+    <ore:ingotAurune> * 12,
+    <ore:ingotPrimordialExtended> * 8,
+    <ore:circuitArcane> * 2,
+    <ore:circuitDreamic>
+], 1, 3000);
+
+addBuilderRecipe(<modularmachinery:factory_arcanic_brewer_factory_controller>, [
+    <gct_ores:blue_print_forge> * 48,
+    <ore:ingotModularium> * 64,
+    <ore:ingotSentientMetal> * 64,
+    <ore:ingotDarkest> * 24,
+    <ore:ingotMithrillium> * 12,
+    <ore:ingotAdaminite> * 8,
+    <ore:circuitArcane> * 2,
+    <ore:circuitDreamic>
+], 1, 3000);
+
+addBuilderRecipe(<modularmachinery:factory_arcanic_astrallizer_factory_controller>, [
+    <gct_ores:blue_print_forge> * 48,
+    <ore:ingotModularium> * 64,
+    <ore:ingotAstralMetal> * 64,
+    <ore:ingotWigthium> * 24,
+    <ore:ingotGhostMetal> * 12,
+    <ore:gemHoshine> * 8,
+    <ore:circuitArcane> * 2,
+    <ore:circuitDreamic>
+], 1, 3000);

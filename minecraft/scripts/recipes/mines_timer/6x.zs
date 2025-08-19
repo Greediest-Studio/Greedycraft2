@@ -4,19 +4,31 @@
  */
 
 #priority 1750
-#loader multiblocked
 
 import mods.jaopca.JAOPCA;
 import mods.mekanism.chemical.dissolution;
-import mods.multiblocked.MBDRegistry;
-import mods.multiblocked.definition.ControllerDefinition;
-import mods.multiblocked.definition.ComponentDefinition;
-import mods.multiblocked.recipe.RecipeMap;
 import mods.jei.JEI;
 
 import mods.modularmachinery.RecipePrimer;
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.MachineModifier;
+import mods.modularmachinery.MMEvents;
+import mods.modularmachinery.ControllerGUIRenderEvent;
+
+MMEvents.onControllerGUIRender("factory_atomic_vibrator", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = ["§a///原子振荡工厂控制面板///", "§a机器名称：§eELYSIA工厂 - 原子振荡工厂"];
+    event.extraInfo = info;
+});
+
+MMEvents.onControllerGUIRender("factory_atomic_decayer", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = ["§a///原子衰变工厂控制面板///", "§a机器名称：§eELYSIA工厂 - 原子衰变工厂"];
+    event.extraInfo = info;
+});
+
+MMEvents.onControllerGUIRender("factory_atomic_acider", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = ["§a///原子酸腐工厂控制面板///", "§a机器名称：§eELYSIA工厂 - 原子酸腐工厂"];
+    event.extraInfo = info;
+});
 
 MachineModifier.setMaxThreads("factory_atomic_vibrator", 32);
 MachineModifier.setInternalParallelism("factory_atomic_vibrator", 32);
@@ -73,6 +85,12 @@ for EntryItem in Entries {
             .addItemInput(EntryItem.getOreDictEntry("ore"))
             .addEnergyPerTickInput(10000)
             .addItemOutput(EntryItem.getItemStack("radiation") * 6)
+            .build();
+        RecipeBuilder.newBuilder("vib2_" ~ lowerCase(EntryItem.name), "factory_atomic_vibrator", 8)
+            .addFluidInput(<liquid:neutronium> * 96)
+            .addItemInput(EntryItem.getOreDictEntry("starlight"))
+            .addEnergyPerTickInput(10000)
+            .addItemOutput(EntryItem.getItemStack("radiation"))
             .build();
         RecipeBuilder.newBuilder("dec_" ~ lowerCase(EntryItem.name), "factory_atomic_decayer", 10)
             .addItemInput(EntryItem.getOreDictEntry("radiation"))

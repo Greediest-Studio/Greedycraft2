@@ -622,7 +622,9 @@ GameStagesUtil.stageBalancedMatrix.addIngredients([
     <ore:ingotThermallite>,
     <ore:nuggetThermallite>,
     <ore:blockThermallite>,
-    <ore:dustThermallite>
+    <ore:dustThermallite>,
+    <additions:imitate_alloy>,
+    <additions:dreamic_control_circuit>
 ], false);
 
 GameStagesUtil.stageBetweenlandTraveller.addIngredients([

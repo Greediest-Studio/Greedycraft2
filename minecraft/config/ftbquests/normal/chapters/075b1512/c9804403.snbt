@@ -37,7 +37,46 @@
 			tag: {
 				type: "loot_level_3"
 			}
-		},
-		count: 5
+		}
+	},
+	{
+		uid: "3dbe6066",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "a7d7c1fa",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "c3f00491",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
+	},
+	{
+		uid: "cc5809a5",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_3"
+			}
+		}
 	}]
 }

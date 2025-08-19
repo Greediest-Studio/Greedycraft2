@@ -70,5 +70,17 @@
 			"rarity": "common",
 			"max_stack_size": 64
 		}
+	},
+	{
+		"name": "starlight",
+		"type": "item",
+		"prefix": "starlight",
+		"ore_types": [
+			"ingot"
+		],
+		"properties": {
+			"rarity": "common",
+			"max_stack_size": 64
+		}
 	}
 ]
