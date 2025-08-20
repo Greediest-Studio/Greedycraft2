@@ -59,6 +59,9 @@ function lowerCase(str as string) as string {
 }
 
 for EntryItem in Entries {
+    if (banList has EntryItem.name) {
+        continue;
+    }
     RecipeBuilder.newBuilder("inf_" + lowerCase(EntryItem.name), "factory_arcanic_infuser", 60)
         .addItemInput(EntryItem.getOreDictEntry("ore"))
         .addAuraInput(512, true)

@@ -19,6 +19,10 @@ import mods.modularmachinery.RecipeTickEvent;
 import mods.modularmachinery.MachineModifier;
 import mods.modularmachinery.ControllerGUIRenderEvent;
 import mods.modularmachinery.SmartInterfaceType;
+import mods.modularmachinery.IMachineController;
+import mods.modularmachinery.FactoryRecipeFinishEvent;
+import mods.modularmachinery.FactoryRecipeStartEvent;
+import mods.modularmachinery.FactoryRecipeThread;
 import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
@@ -28,10 +32,15 @@ MachineModifier.setInternalParallelism("unitcell_builder", 1);
 
 MachineModifier.addSmartInterfaceType("unitcell_builder", SmartInterfaceType.create("模式", 0.0f));
 
+MachineModifier.addCoreThread("unitcell_builder", FactoryRecipeThread.createCoreThread("星辰输入模块"));
+
 MMEvents.onControllerGUIRender("unitcell_builder", function(event as ControllerGUIRenderEvent) {
     var info as string[] = [
         "§a///晶胞重塑器控制面板///",
-        "§a机器名称：§eLV3 - 晶胞重塑器"
+        "§a机器名称：§eLV3 - 晶胞重塑器",
+        "§a尺寸参数：§e" ~ (event.controller.getSize() as string),
+        "§a纯度参数：§e" ~ (event.controller.getPurity() as string),
+        "§a抛光参数：§e" ~ (event.controller.getCollective() as string)
     ];
     event.extraInfo = info;
 });
@@ -44,6 +53,66 @@ function addCFFusionRecipe(input as IIngredient, output as IItemStack, cost as i
         .addSmartInterfaceDataInput("模式", 0)
         .addRecipeTooltip("§a运行模式：原子再构")
         .build();
+}
+
+$expand IMachineController$getCollective() as int {
+    if (!isNull(this.customData.collective)) {
+        return this.customData.collective as int;
+    } else {
+        return 0;
+    }
+}
+
+$expand IMachineController$setCollective(num as int) {
+    this.customData = this.customData.update({collective: num as int});
+}
+
+$expand IMachineController$addCollective(num as int) {
+    this.setCollective(this.getCollective() + num);
+}
+
+$expand IMachineController$removeCollective(num as int) {
+    this.setCollective(this.getCollective() - num);
+}
+
+$expand IMachineController$getPurity() as int {
+    if (!isNull(this.customData.purity)) {
+        return this.customData.purity as int;
+    } else {
+        return 0;
+    }
+}
+
+$expand IMachineController$setPurity(num as int) {
+    this.customData = this.customData.update({purity: num as int});
+}
+
+$expand IMachineController$addPurity(num as int) {
+    this.setPurity(this.getPurity() + num);
+}
+
+$expand IMachineController$removePurity(num as int) {
+    this.setPurity(this.getPurity() - num);
+}
+
+$expand IMachineController$getSize() as double {
+    if (!isNull(this.customData.size)) {
+        return this.customData.size as double;
+    } else {
+        return 0.0d;
+    }
+}
+
+$expand IMachineController$setSize(num as double) {
+    this.customData = this.customData.update({size: num as double});
+}
+
+$expand IMachineController$addSize(num as double) {
+    this.setSize(this.getSize() + num);
+}
+
+$expand IMachineController$removeSize(num as double) {
+    this.setSize(this.getSize() - num);
 }
 
 addCFFusionRecipe(<ore:blockRedstone>, <actuallyadditions:block_crystal>, 400);
@@ -90,6 +159,7 @@ RecipeBuilder.newBuilder("cp_chaotic", "unitcell_builder", 400)
     .addItemOutput(<draconicevolution:chaos_shard:2>).setChance(0.5f)
     .addSmartInterfaceDataInput("模式", 1)
     .addRecipeTooltip("§a运行模式：共晶复制")
+    .addEnergyPerTickInput(12800)
     .build();
     
 RecipeBuilder.newBuilder("cp_stormy", "unitcell_builder", 400)
@@ -107,3 +177,114 @@ RecipeBuilder.newBuilder("cp_stormy", "unitcell_builder", 400)
     .addEnergyPerTickInput(12800)
     .build();
     
+RecipeBuilder.newBuilder("as_crystal", "unitcell_builder", 1200)
+    .addItemInput(<ore:dustAstralMetal>)
+    .addEnergyPerTickInput(6400)
+    .setParallelized(false)
+    .setMaxThreads(1)
+    .addItemOutput(<astralsorcery:itemcelestialcrystal>)
+        .setPreViewNBT({astralsorcery: {crystalProperties: {sizeOverride: -1}}})
+        .addItemModifier(function(controller as IMachineController, stack as IItemStack) {
+            var realCollective as int = Math.sqrt(controller.getCollective() as double) as int;
+            var realPurity as int = Math.sqrt(controller.getPurity() as double) as int;
+            var realSize as int = (Math.log10(controller.getSize() as double == 0.0d ? 1.0d : controller.getSize() as double) * 100) as int;
+            var data as IData = {astralsorcery: {crystalProperties: {
+                collectiveCapability: (realCollective > 100) ? 100 : realCollective as int,
+                size : realSize as int,
+                purity : (realPurity > 100) ? 100 : realPurity as int,
+                sizeOverride: -1
+            }}};
+            return <astralsorcery:itemcelestialcrystal>.withTag(data);
+        })
+    .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
+        var controller as IMachineController = event.controller;
+        if (controller.getCollective() > 10000) {
+            controller.removeCollective(10000);
+        } else {
+            controller.setCollective(0);
+        }
+        if (controller.getPurity() > 10000) {
+            controller.removePurity(10000);
+        } else {
+            controller.setPurity(0);
+        }
+        controller.setSize(0);
+    })
+    .addSmartInterfaceDataInput("模式", 2)
+    .addRecipeTooltip(
+        "§a运行模式：星辰重塑",
+        "§a向机器中输入对应物品以提升水晶石参数：",
+        "§e尺寸：§c100×log₁₀<尺寸参数>",
+        "§e纯度：§c<纯度参数>¹ᐟ²%§e（最大100%）",
+        "§e抛光：§c<抛光参数>¹ᐟ²%§e（最大100%）"
+    )
+    .build();
+
+val sizeItems as double[IIngredient] = {
+    <ore:gemAquamarine> : 1.5E2,
+    <ore:ingotAstralStarmetal> : 8.0E2,
+    <ore:gemAquamarineStarlight> : 5.0E3,
+    <ore:ingotAstralMetal> : 2.0E8,
+    <ore:ingotNasalum> : 1.0E8,
+    <ore:gemHoshine> : 3.0E10,
+    <ore:ingotZodiacite> : 5.0E15,
+    <ore:ingotArimite> : 1.0E15
+};
+
+val sizeMax as double[IIngredient] = {
+    <ore:gemAquamarine> : 1.0E3,
+    <ore:ingotAstralStarmetal> : 1.0E4,
+    <ore:gemAquamarineStarlight> : 1.0E5,
+    <ore:ingotAstralMetal> : 1.0E9,
+    <ore:ingotNasalum> : 1.0E10,
+    <ore:gemHoshine> : 1.0E12,
+    <ore:ingotZodiacite> : 1.0E16,
+    <ore:ingotArimite> : 1.0E16
+};
+
+for item in sizeItems {
+    if (item.items.length > 0) {
+        RecipeBuilder.newBuilder("as_z_size_" + item.items[0].definition.id + item.items[0].metadata, "unitcell_builder", 1)
+            .addItemInput(item)
+            .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
+                var controller as IMachineController = event.controller;
+                if (controller.getSize() + sizeItems[item] as double > sizeMax[item] as double) {
+                    controller.setSize(sizeMax[item] as double);
+                } else {
+                    controller.addSize(sizeItems[item] as double);
+                }
+            })
+            .setThreadName("星辰输入模块")
+            .addRecipeTooltip("增加" + sizeItems[item] + "点尺寸参数，上限为" + sizeMax[item] + "点")
+            .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
+                var controller as IMachineController = event.controller;
+                if (controller.getSize() >= sizeMax[item] as double) {
+                    event.canceled = true;
+                }
+            })
+            .setParallelized(false)
+            .build();
+    }
+}
+
+RecipeBuilder.newBuilder("as_z_purity", "unitcell_builder", 1)
+    .addItemInput(<ore:sand>)
+    .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
+        var controller as IMachineController = event.controller;
+        var parallelism as int = event.activeRecipe.parallelism;
+        controller.addPurity(parallelism * 10);
+    })
+    .setThreadName("星辰输入模块")
+    .addRecipeTooltip("增加10点纯度参数")
+    .build();
+
+RecipeBuilder.newBuilder("as_z_collective", "unitcell_builder", 1)
+    .addItemInput(<ore:itemClay>)
+    .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
+        var controller as IMachineController = event.controller;
+        var parallelism as int = event.activeRecipe.parallelism;
+        controller.addCollective(parallelism * 10);
+    })
+    .setThreadName("星辰输入模块")
+    .addRecipeTooltip("增加10点抛光参数")
+    .build();

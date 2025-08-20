@@ -32,6 +32,13 @@ ConversionItem.create(<quark:end_bricks_slab>).addMatchItem(<ee:end_brick_half>)
 ConversionItem.create(<quark:end_bricks_wall>)
     .addMatchItem(<ee:end_stone_wall>)
     .addMatchItem(<endreborn:e_end_bricks_wall>).register();
+ConversionItem.create(<thermalfoundation:material:132>).addMatchItem(<ore:ingotAluminum>).register();
+ConversionItem.create(<thermalfoundation:material:163>).addMatchItem(<ore:ingotBronze>).register();
+ConversionItem.create(<thermalfoundation:material:128>).addMatchItem(<ore:ingotCopper>).register();
+ConversionItem.create(<thermalfoundation:material:129>).addMatchItem(<ore:ingotTin>).register();
+ConversionItem.create(<additions:manganese_ingot>).addMatchItem(<ore:ingotManganese>).register();
+ConversionItem.create(<additions:titanium_ingot>).addMatchItem(<ore:ingotTitanium>).register();
+ConversionItem.create(<additions:shadowium_ingot>).addMatchItem(<extrabotany:material:5>).register();
 
 ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:burningsulfurflow>).register();
 ConversionFluid.create(<liquid:fluxed_electrum>).addMatchFluid(<liquid:electrum_flux>).register();

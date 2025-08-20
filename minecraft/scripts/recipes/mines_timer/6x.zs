@@ -59,6 +59,9 @@ function lowerCase(str as string) as string {
 }
 
 for EntryItem in Entries {
+    if (banList has EntryItem.name) {
+        continue;
+    }
     if (EntryItem.getOreDictEntry("ingot").name != JAOPCA.getMaterial("CosmicNeutronium").getOreDictEntry("ingot").name) {
         if (EntryItem.getOreDictEntry("ingot").name == JAOPCA.getMaterial("Gold").getOreDictEntry("ingot").name) {
             dissolution.addRecipe(<jaopca:compound.gold>, <gas:gold> * 200);

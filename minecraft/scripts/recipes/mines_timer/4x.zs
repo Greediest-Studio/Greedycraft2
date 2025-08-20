@@ -21,6 +21,9 @@ MachineModifier.setMaxParallelism("factory_4x", 1024);
 var Entries = JAOPCA.getMaterialsForType("INGOT");
 
 for entry in Entries {
+    if (banList has entry.name) {
+        continue;
+    }
     RecipeBuilder.newBuilder("ore_4x_" + entry.name as string, "factory_4x", 100)
         .addItemInput(entry.getOreDictEntry("ore"))
         .addFluidInput(<liquid:liquidhydrogenchloride> * 150)
