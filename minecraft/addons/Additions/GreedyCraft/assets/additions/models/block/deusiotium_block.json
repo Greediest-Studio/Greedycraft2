@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "particle": "additions:blocks/deusiotium_block_north",
+    "down": "additions:blocks/deusiotium_block_down",
+    "up": "additions:blocks/deusiotium_block_up",
+    "north": "additions:blocks/deusiotium_block_north",
+    "south": "additions:blocks/deusiotium_block_south",
+    "west": "additions:blocks/deusiotium_block_west",
+    "east": "additions:blocks/deusiotium_block_east"
+  }
+}

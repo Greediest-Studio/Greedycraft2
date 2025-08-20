@@ -1,0 +1,16 @@
+{
+  "item_block": {
+    "name": "§e神人金属块",
+    "ore_dict": "blockDeusiotium",
+    "type": "additions:block_simple"
+  },
+  "name": "§e神人金属块",
+  "material": "minecraft:metal",
+  "hardness": 5.0,
+  "resistance": 4000.0,
+  "harvest_level": 5,
+  "harvest_tool": "pickaxe",
+  "light_level": 10,
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}
