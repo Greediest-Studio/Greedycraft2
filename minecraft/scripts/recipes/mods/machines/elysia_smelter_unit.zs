@@ -32,7 +32,7 @@ import mods.modularmachinery.IMachineController;
 import mods.modularmachinery.MachineModifier;
 import mods.modularmachinery.FactoryRecipeThread;
 
-MachineModifier.setMaxThreads("elysia_smelter", 1);
+MachineModifier.setMaxThreads("elysia_smelter", 8);
 MachineModifier.setInternalParallelism("elysia_smelter", 4);
 MachineModifier.setMaxParallelism("elysia_smelter", 65536);
 

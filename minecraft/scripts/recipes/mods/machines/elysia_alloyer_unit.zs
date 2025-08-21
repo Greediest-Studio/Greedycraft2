@@ -35,7 +35,7 @@ import mods.modularmachinery.FactoryRecipeThread;
 import mods.modularmachinery.MachineUpgradeBuilder;
 import mods.modularmachinery.MachineUpgradeHelper;
 
-MachineModifier.setMaxThreads("elysia_alloyer", 1);
+MachineModifier.setMaxThreads("elysia_alloyer", 8);
 MachineModifier.setInternalParallelism("elysia_alloyer", 4);
 MachineModifier.setMaxParallelism("elysia_alloyer", 65536);
 

@@ -101,7 +101,7 @@ val aspects as string[] = [
 for aspect in aspects {
     RecipeBuilder.newBuilder("arcane_melt_" + aspect, "arcane_melter", 4)
         .addItemInput(<thaumadditions:vis_pod>.withTag({Aspect: aspect}))
-        .addEnergyPerTickInput(50000)
+        .addEnergyPerTickInput(5000)
         .addAspcetOutput(5, aspect)
         .build();
 }

@@ -45,18 +45,29 @@ Apothecary.addRecipe(<additions:bag_of_dyes>, [<ore:petalGreen>, <ore:petalRed>,
 
 //新植魔花
 Apothecary.addRecipe("blood_hydroangeas", [<ore:petalBlue>, <ore:petalCyan>, <ore:petalCyan>, <botania:dye:3>, <forge:bucketfilled>.withTag({FluidName: "blood", Amount: 1000}), <ore:petalRed>, <ore:petalBrown>]);
+    recipes.addShapeless("blood_hydroangeas_float", <botania:floatingspecialflower>.withTag({type : "blood_hydroangeas"}), [<botania:specialflower>.withTag({type: "blood_hydroangeas"}), <botania:miniisland:*>]);
 Apothecary.addRecipe("remove_difficulty", [<scalinghealth:crystalshard>, <ore:gemAmethyst>, <ore:petalGreen>, <ore:petalPurple>]);
+    recipes.addShapeless("remove_difficulty_float", <botania:floatingspecialflower>.withTag({type: "remove_difficulty"}), [<botania:specialflower>.withTag({type: "remove_difficulty"}), <botania:miniisland:*>]);
 Apothecary.addRecipe("add_difficulty", [<scalinghealth:crystalshard>, <ore:ingotGold>, <ore:petalGreen>, <ore:petalYellow>]);
+    recipes.addShapeless("add_difficulty_float", <botania:floatingspecialflower>.withTag({type: "add_difficulty"}), [<botania:specialflower>.withTag({type: "add_difficulty"}), <botania:miniisland:*>]);
 Apothecary.addRecipe("bread_fanatic", [<botania:blacklotus>, <minecraft:bread>, <botania:specialflower>.withTag({type: "endoflame"}), <ore:petalGreen>, <botania:rune:2>]);
+    recipes.addShapeless("bread_fanatic_float", <botania:floatingspecialflower>.withTag({type: "bread_fanatic"}), [<botania:specialflower>.withTag({type: "bread_fanatic"}), <botania:miniisland:*>]);
 Apothecary.addRecipe("lightning", [<minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 75}]}), <botania:specialflower>.withTag({type: "reikarlily"}), <minecraft:potion>.withTag({Potion: "potioncore:lightning"}), <botania:shimmerrock>, <ore:petalPink>, <ore:petalPurple>]);
-Apothecary.addRecipe("agricultural", [<minecraft:hay_block>, <minecraft:hay_block>, <minecraft:hay_block>, <minecraft:hay_block>, <minecraft:hay_block>, <additions:ratziel_rune>, <additions:raphael_rune>, <minecraft:wooden_hoe>, <ore:seed>, <ore:seed>, <ore:seed>]);
-Apothecary.addRecipe("running_machine", [<minecraft:heavy_weighted_pressure_plate>, <minecraft:dye:8>, <botania:flower:13>, <botania:dye:5>, <botania:overgrowthseed>]);
+    recipes.addShapeless("lightning_float", <botania:floatingspecialflower>.withTag({type: "lightning"}), [<botania:specialflower>.withTag({type: "lightning"}), <botania:miniisland:*>]);
+Apothecary.addRecipe("agricultural", [<minecraft:hay_block>, <minecraft:hay_block>, <minecraft:hay_block>, <ore:petalYellow>, <ore:petalLime>, <additions:ratziel_rune>, <additions:raphael_rune>, <minecraft:wooden_hoe>, <ore:seed>, <ore:seed>, <ore:seed>]);
+    recipes.addShapeless("agricultural_float", <botania:floatingspecialflower>.withTag({type: "agricultural"}), [<botania:specialflower>.withTag({type: "agricultural"}), <botania:miniisland:*>]);
+Apothecary.addRecipe("running_machine", [<minecraft:heavy_weighted_pressure_plate>, <ore:petalGray>, <ore:petalGreen>, <ore:petalLime>, <botania:overgrowthseed>]);
+    recipes.addShapeless("running_machine_float", <botania:floatingspecialflower>.withTag({type: "running_machine"}), [<botania:specialflower>.withTag({type: "running_machine"}), <botania:miniisland:*>]);
 Apothecary.addRecipe("quest", [<ftbquests:book>, <ore:petalLime>, <ore:petalGreen>, <botania:fertilizer>, <botania:cosmetic:31>]);
-Apothecary.addRecipe("mirror", [<astralsorcery:itemcraftingcomponent:3>, <botania:prism>, <endreborn:item_world_mirror>, <cfm:mirror>, <minecraft:dye:12>, <minecraft:dye:12>]);
-Apothecary.addRecipe("eat_iron", [<forge:bucketfilled>.withTag({FluidName: "iron", Amount: 1000}), <betterslimes:yellow_slime>, <betterslimes:yellow_slime>, <candymod:gummy:2>, <candymod:gummy:2>, <openblocks:golden_eye>.withTag({})]);
-Apothecary.addRecipe("cow", [<sakura:foodset:10>, <xlfoodmod:beef_stew>, <xlfoodmod:crescent_roll>, <xlfoodmod:kebab>, <xlfoodmod:hamburger>]);
-Apothecary.addRecipe("chat", [<minecraft:cake>, <ore:petalWhite>, <ore:petalBlack>, <botania:blacklotus:1>, <botania:manaresource:15>, <botania:avatar>]);
-
+    recipes.addShapeless("quest_float", <botania:floatingspecialflower>.withTag({type: "quest"}), [<botania:specialflower>.withTag({type: "quest"}), <botania:miniisland:*>]);
+Apothecary.addRecipe("mirror", [<astralsorcery:itemcraftingcomponent:3>, <botania:prism>, <endreborn:item_world_mirror>, <cfm:mirror>, <ore:petalBlue>, <ore:petalLightBlue>]);
+    recipes.addShapeless("mirror_float", <botania:floatingspecialflower>.withTag({type: "mirror"}), [<botania:specialflower>.withTag({type: "mirror"}), <botania:miniisland:*>]);
+Apothecary.addRecipe("eat_iron", [<forge:bucketfilled>.withTag({FluidName: "iron", Amount: 1000}), <betterslimes:yellow_slime>, <betterslimes:yellow_slime>, <candymod:gummy:2>, <candymod:gummy:2>, <ore:petalYellow>, <ore:petalYellow>, <openblocks:golden_eye>.withTag({})]);
+    recipes.addShapeless("eat_iron_float", <botania:floatingspecialflower>.withTag({type: "eat_iron"}), [<botania:specialflower>.withTag({type: "eat_iron"}), <botania:miniisland:*>]);
+Apothecary.addRecipe("cow", [<sakura:foodset:10>, <xlfoodmod:beef_stew>, <xlfoodmod:crescent_roll>, <xlfoodmod:kebab>, <xlfoodmod:hamburger>, <ore:petalBlack>, <ore:petalWhite>, <ore:petalYellow>]);
+    recipes.addShapeless("cow_float", <botania:floatingspecialflower>.withTag({type: "cow"}), [<botania:specialflower>.withTag({type: "cow"}), <botania:miniisland:*>]);
+Apothecary.addRecipe("thaumaura", [<ore:petalPink>, <ore:petalPink>, <ore:petalPurple>, <ore:ingotAurune>, <ore:ingotMithrillium>, <ore:runeHanielB>, <ore:runeGabrielB>, <ore:runeSandalphonB>]);
+    recipes.addShapeless("thaumaura_float", <botania:floatingspecialflower>.withTag({type: "thaumaura"}), [<botania:specialflower>.withTag({type: "thaumaura"}), <botania:miniisland:*>]);
 
 PureDaisy.addRecipe(<minecraft:grass>, <minecraft:dirt>, 200);
 PureDaisy.addRecipe(<ore:treeLeaves>, <gct_mobs:livingwood_leaves>, 100);

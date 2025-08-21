@@ -26,7 +26,7 @@ import mods.modularmachinery.FactoryRecipeThread;
 
 import mod.mekanism.gas.IGasStack;
 
-MachineModifier.setMaxThreads("elysia_pyrolyzer", 1);
+MachineModifier.setMaxThreads("elysia_pyrolyzer", 8);
 MachineModifier.setInternalParallelism("elysia_pyrolyzer", 4);
 MachineModifier.setMaxParallelism("elysia_pyrolyzer", 65536);
 

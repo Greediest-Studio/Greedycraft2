@@ -13,10 +13,7 @@
 		uid: "4d7f7486",
 		type: "item",
 		items: [{
-			id: "modularmachinery:bright_altar_controller",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "modularmachinery:bright_altar_factory_controller"
 		}]
 	}],
 	rewards: [{

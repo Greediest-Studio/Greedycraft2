@@ -26,7 +26,7 @@ import mods.modularmachinery.FactoryRecipeThread;
 
 import mod.mekanism.gas.IGasStack;
 
-MachineModifier.setMaxThreads("elysia_liquefier", 1);
+MachineModifier.setMaxThreads("elysia_liquefier", 8);
 MachineModifier.setInternalParallelism("elysia_liquefier", 4);
 MachineModifier.setMaxParallelism("elysia_liquefier", 65536);
 

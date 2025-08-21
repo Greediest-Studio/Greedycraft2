@@ -11,10 +11,7 @@
 		uid: "7852e9d9",
 		type: "item",
 		items: [{
-			id: "modularmachinery:astral_collector_controller",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "modularmachinery:astral_collector_factory_controller"
 		}]
 	}],
 	rewards: [{

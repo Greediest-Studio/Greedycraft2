@@ -20,7 +20,7 @@ import mods.jei.JEI;
 
 import scripts.util.machines as MMUtil;
 
-MachineModifier.setMaxThreads("elysia_melter", 1);
+MachineModifier.setMaxThreads("elysia_melter", 8);
 MachineModifier.setInternalParallelism("elysia_melter", 4);
 MachineModifier.setMaxParallelism("elysia_melter", 65536);
 

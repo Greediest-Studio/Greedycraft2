@@ -26,7 +26,7 @@ import mods.modularmachinery.IMachineController;
 import mods.modularmachinery.MachineModifier;
 import mods.modularmachinery.FactoryRecipeThread;
 
-MachineModifier.setMaxThreads("elysia_solidifier", 1);
+MachineModifier.setMaxThreads("elysia_solidifier", 8);
 MachineModifier.setInternalParallelism("elysia_solidifier", 4);
 MachineModifier.setMaxParallelism("elysia_solidifier", 65536);
 

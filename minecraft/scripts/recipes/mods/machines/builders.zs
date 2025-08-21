@@ -784,6 +784,22 @@ addBuilderRecipe(<modularmachinery:pe_collector_factory_controller>, [
     <ore:nuclearShadow> * 24
 ], 4, 3600);
 
+addBuilderRecipe(<modularmachinery:arcane_melter_factory_controller>, [
+    <additions:logic_processor_3> * 16,
+    <additions:calculation_processor_3> * 8,
+    <additions:engineering_processor_3> * 20,
+    <crazyae:material:16> * 8,
+    <crazyae:material:17> * 20,
+    <threng:material:6> * 16,
+    <ore:ingotModularium> * 128,
+    <ore:ingotBrass> * 128,
+    <ore:ingotVoid> * 64,
+    <ore:ingotStellarAlloy> * 48,
+    <ore:ingotMithrillium> * 16,
+    <ore:ingotPrimordial> * 12,
+    <ore:ingotPrimordialExtended> * 2
+], 4, 4000);
+
 //LV5
 /* 
 addBuilderRecipe(<modularmachinery:dimensional_miner_factory_controller>, [

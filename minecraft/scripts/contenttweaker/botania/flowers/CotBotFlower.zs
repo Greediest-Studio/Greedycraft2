@@ -40,10 +40,6 @@ import mods.ctintegration.scalinghealth.DifficultyManager;
 
 import mods.contenttweaker.Commands;
 
-
-
-    
-
 var Blood_Hydroangeas as ISubTileEntityGenerating = VanillaFactory.createSubTileGenerating("blood_hydroangeas", 0xFFFFFF);
 Blood_Hydroangeas.maxMana = 2000;
 Blood_Hydroangeas.onUpdate = function(subtile, world, pos) {
@@ -212,7 +208,7 @@ Remove_Difficulty.onBlockActivated = function(world, pos, state, player, hand, s
     var data as IData = world.getBlock(pos).data;
     var mana as int = data.subTileCmp.mana.asInt();
     if(mana < 40000) {
-        player.sendChat("你他妈不给我魔力，想让我降难度？？？？");
+        player.sendChat("你TM不给我魔力，想让我降难度？？？？");
         return false;
     } else {
         var subtile as SubTileEntityInGame = world.getSubTileEntityInGame(pos);
@@ -450,6 +446,18 @@ lightning.onUpdate = function(subtile, world, pos) {
 };
 lightning.register();
 
+var thaumaura as ISubTileEntityGenerating = VanillaFactory.createSubTileGenerating("thaumaura", 0xFFFFFF);
+thaumaura.maxMana = 8000;
+thaumaura.onUpdate = function(subtile, world, pos) {
+    if (!world.remote) {
+        if (world.getAuraInArea(pos, 1) > 10000 && subtile.getMana() < 8000) {
+            world.getAuraChunk(pos).drainAura(pos, 10000);
+            world.addVis(pos, 5.0f);
+            subtile.addMana(1000);
+        }
+    }
+};
+thaumaura.register();
 
 var kg as ISubTileEntityGenerating = VanillaFactory.createSubTileGenerating("kill_generating", 0xFFFFFF);
 kg.maxMana = 6666;

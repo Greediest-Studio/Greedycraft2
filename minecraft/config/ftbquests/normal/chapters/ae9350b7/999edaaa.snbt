@@ -32,7 +32,7 @@
 	rewards: [{
 		uid: "e7e7699c",
 		type: "item",
-		item: "extrautils2:compressedcobblestone 1 5"
+		item: "extrautils2:compressedcobblestone 1 7"
 	},
 	{
 		uid: "d906ac64",
@@ -46,13 +46,13 @@
 		xp: 5000
 	},
 	{
-		uid: "3a64cec7",
-		type: "choice",
+		uid: "09353e54",
+		type: "random",
 		table: 2
 	},
 	{
-		uid: "3a7196c2",
-		type: "choice",
+		uid: "61e422b5",
+		type: "random",
 		table: 3
 	}]
 }

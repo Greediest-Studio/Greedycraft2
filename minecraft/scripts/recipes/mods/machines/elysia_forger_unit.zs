@@ -26,7 +26,7 @@ import mods.modularmachinery.IMachineController;
 import mods.modularmachinery.MachineModifier;
 import mods.modularmachinery.FactoryRecipeThread;
 
-MachineModifier.setMaxThreads("elysia_forger", 1);
+MachineModifier.setMaxThreads("elysia_forger", 8);
 MachineModifier.setInternalParallelism("elysia_forger", 4);
 MachineModifier.setMaxParallelism("elysia_forger", 65536);
 

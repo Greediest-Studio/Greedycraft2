@@ -1,9 +1,10 @@
 {
-	title: "§b有机液+电+种子=无线的种子与精华",
+	title: "§b无限的种子与精华",
 	x: -13.0d,
 	y: -4.5d,
+	description: "制作有机灌注机，输入电，有机液与种子，有极小的概率输出双倍的种子",
 	text: [
-		"制作有机灌注机，输入电，有机液与种子，有极小的概率输出双倍的种子"
+		""
 	],
 	dependencies: [
 		"dc53619a"
@@ -12,20 +13,7 @@
 		uid: "f2097596",
 		type: "item",
 		items: [{
-			id: "modularmachinery:organic_infuser_controller",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
-		}]
-	},
-	{
-		uid: "04fe07c5",
-		type: "item",
-		items: [{
-			id: "modularmachinery:itemblueprint",
-			tag: {
-				dynamicmachine: "modularmachinery:organic_infuser"
-			}
+			item: "modularmachinery:organic_infuser_factory_controller"
 		}]
 	}]
 }

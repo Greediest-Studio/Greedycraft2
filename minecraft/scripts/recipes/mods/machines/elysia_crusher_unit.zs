@@ -20,7 +20,7 @@ import mods.jei.JEI;
 
 import scripts.util.machines as MMUtil;
 
-MachineModifier.setMaxThreads("elysia_crusher", 1);
+MachineModifier.setMaxThreads("elysia_crusher", 8);
 MachineModifier.setInternalParallelism("elysia_crusher", 4);
 MachineModifier.setMaxParallelism("elysia_crusher", 65536);
 

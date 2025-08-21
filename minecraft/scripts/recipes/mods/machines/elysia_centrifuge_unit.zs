@@ -29,7 +29,7 @@ import mods.modularmachinery.MachineUpgrade;
 import mods.modularmachinery.MachineUpgradeBuilder;
 import mods.modularmachinery.MachineUpgradeHelper;
 
-MachineModifier.setMaxThreads("elysia_centrifuge", 1);
+MachineModifier.setMaxThreads("elysia_centrifuge", 8);
 MachineModifier.setInternalParallelism("elysia_centrifuge", 4);
 MachineModifier.setMaxParallelism("elysia_centrifuge", 65536);
 

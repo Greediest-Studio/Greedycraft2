@@ -17,10 +17,7 @@
 		uid: "71f8c311",
 		type: "item",
 		items: [{
-			id: "modularmachinery:vethea_enchanter_controller",
-			ForgeCaps: {
-				"customnpcs:itemscripteddata": {}
-			}
+			item: "modularmachinery:vethea_enchanter_factory_controller"
 		}],
 		ignore_nbt: 1b
 	}],

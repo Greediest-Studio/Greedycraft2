@@ -24,7 +24,7 @@ import mods.modularmachinery.IMachineController;
 import mods.modularmachinery.MachineModifier;
 import mods.modularmachinery.FactoryRecipeThread;
 
-MachineModifier.setMaxThreads("elysia_electrolyzer", 1);
+MachineModifier.setMaxThreads("elysia_electrolyzer", 8);
 MachineModifier.setInternalParallelism("elysia_electrolyzer", 4);
 MachineModifier.setMaxParallelism("elysia_electrolyzer", 65536);
 
