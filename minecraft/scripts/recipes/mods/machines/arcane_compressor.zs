@@ -16,12 +16,17 @@ import mods.modularmachinery.RecipePrimer;
 import mods.ctutils.utils.Math;
 import mods.modularmachinery.ControllerGUIRenderEvent;
 import mods.modularmachinery.MMEvents;
+import mods.modularmachinery.MachineModifier;
 import mods.jei.JEI;
 
 MMEvents.onControllerGUIRender("arcane_compressor", function(event as ControllerGUIRenderEvent) {
     var info as string[] = ["§a///奥术凝聚台控制面板///", "§a机器名称：§eLV3 - 奥术凝聚台"];
     event.extraInfo = info;
 });
+
+MachineModifier.setMaxThreads("arcane_compressor", 8);
+MachineModifier.setMaxParallelism("arcane_compressor", 256);
+MachineModifier.setInternalParallelism("arcane_compressor", 1);
 
 RecipeBuilder.newBuilder("arcane_compression_voidmetal", "arcane_compressor", 120)
     .addItemInput(<ore:ingotBrass> * 2)

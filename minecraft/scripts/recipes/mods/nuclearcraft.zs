@@ -213,6 +213,14 @@ Melter.addRecipe(<ore:gemIndiumPhosphide>, <liquid:indium_phosphide> * GEM);
 Melter.addRecipe(<ore:dustIndiumPhosphide>, <liquid:indium_phosphide> * GEM);
 Melter.addRecipe(<ore:blockIndiumPhosphide>, <liquid:indium_phosphide> * (GEM * 9));
 Melter.addRecipe(<ore:nuggetIndiumPhosphide>, <liquid:indium_phosphide> * (GEM / 9));
+Melter.addRecipe(<ore:ingotGlowingSignalum>, <liquid:glowing_signalum> * 144);
+Melter.addRecipe(<ore:dustGlowingSignalum>, <liquid:glowing_signalum> * 144);
+Melter.addRecipe(<ore:blockGlowingSignalum>, <liquid:glowing_signalum> * 1296);
+Melter.addRecipe(<ore:nuggetGlowingSignalum>, <liquid:glowing_signalum> * 16);
+Melter.addRecipe(<ore:ingotRoyalAlloy>, <liquid:royal_alloy> * 144);
+Melter.addRecipe(<ore:dustRoyalAlloy>, <liquid:royal_alloy> * 144);
+Melter.addRecipe(<ore:blockRoyalAlloy>, <liquid:royal_alloy> * 1296);
+Melter.addRecipe(<ore:nuggetRoyalAlloy>, <liquid:royal_alloy> * 16);
 
 IngotFormer.removeRecipeWithOutput(<additions:hydrogen_ingot>);
 IngotFormer.removeRecipeWithOutput(<additions:helium_ingot>);
@@ -236,6 +244,8 @@ IngotFormer.addRecipe(<liquid:indium_phosphide> * GEM, <additions:indium_phosphi
 IngotFormer.addRecipe(<liquid:liquidgallium> * 144, <moretcon:ingotgallium>);
 IngotFormer.addRecipe(<liquid:rose_gold> * 144, <mca:rose_gold_ingot>);
 IngotFormer.addRecipe(<liquid:fluxed_electrum> * 144, <redstonearsenal:material:32>);
+IngotFormer.addRecipe(<liquid:glowing_signalum> * 144, <additions:glowing_signalum_ingot>);
+IngotFormer.addRecipe(<liquid:royal_alloy> * 144, <tiths:ingot_royal_alloy>);
 
 SaltMixer.removeRecipeWithInput(<liquid:arsenic> * 1332, <liquid:nak> * 144);
 

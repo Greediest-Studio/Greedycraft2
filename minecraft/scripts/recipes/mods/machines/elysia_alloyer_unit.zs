@@ -165,6 +165,11 @@ recipe(91 , <additions:raisium_ingot> * 3, [<ore:ingotSteamium> * 3, <ore:ingotM
 recipe(92 , <additions:zincargentum_ingot> * 3, [<ore:ingotZinc> * 2, <ore:ingotSilver>], 4000, 10.0f);
 recipe(93 , <additions:niobium_titanium_ingot>, [<ore:ingotNiobium>, <ore:ingotTitanium>], 4000, 10.0f);
 recipe(94 , <thaumcraft:ingot:2> * 3, [<ore:ingotCopper> * 2, <ore:ingotZinc>], 4000, 10.0f);
+recipe(95 , <tiths:ingot_royal_alloy> * 3, [<ore:ingotIron> * 2, <ore:ingotGold>, <ore:foodCheese> * 10], 4000, 10.0f);
+recipe(96 , <tconstruct:ingots:4> * 6, [<ore:ingotIron> * 6, <ore:itemClay> * 3, <ore:slimeballBlood>], 6000, 15.0f);
+recipe(97 , <plustic:alumiteingot> * 3, [<ore:ingotAluminum> * 5, <ore:ingotIron> * 2, <ore:obsidian>], 6000, 10.0f);
+recipe(98 , <tiths:ingot_magiga>, [<ore:ingotManyullyn>, <ore:ingotIron>, <ore:ingotGold>], 4000, 10.0f);
+
 
 recipe(1000 , <nuclearcraft:alloy:2> * 2, [<ore:ingotGraphite> * 2, <ore:gemDiamond> * 1], 8000, 10.0f); 
 recipe(1001 , <enderio:item_material:48> * 2, [<ore:itemPlantgreen> * 12, <ore:slimeball> * 1], 2000, 10.0f); 

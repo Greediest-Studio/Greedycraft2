@@ -38,4 +38,6 @@ JEI.hide(<thermalexpansion:florb>);
 JEI.hide(<openblocks:tank>);
 JEI.hide(<forestry:refractory>);
 
+JEI.addItem(<thermalfoundation:material:132>);
+
 JEI.hideCategory("Painter");

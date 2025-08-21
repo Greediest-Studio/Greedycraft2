@@ -103,7 +103,21 @@ GameStagesUtil.restageItems("getting_started", [
     <cyclicmagic:crafting_food>,
     <cyclicmagic:sandstone_pickaxe>,
     <cyclicmagic:sandstone_axe>,
-    <cyclicmagic:sandstone_spade>
+    <cyclicmagic:sandstone_spade>,
+    <ore:ingotAluminum>,
+    <ore:ingotAluminium>,
+    <ore:ingotBronze>,
+    <ore:ingotTin>,
+    <ore:ingotCopper>,
+    <ore:ingotSilver>,
+    <ore:ingotLead>,
+    <ore:ingotNickel>,
+    <ore:ingotMithril>,
+    <ore:ingotSteel>,
+    <ore:ingotElectrum>,
+    <ore:ingotInvar>,
+    <ore:ingotConstantan>,
+    <ore:ingotSignalum>
 ]);
 GameStagesUtil.restageItems("fusion_matrix", [ 
     <ore:dustDraconium>,

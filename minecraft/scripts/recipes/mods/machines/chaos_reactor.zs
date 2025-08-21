@@ -41,11 +41,11 @@ MachineModifier.addSmartInterfaceType("chaos_reactor",
 );
 
 //线程
-val ReactThead = FactoryRecipeThread.createCoreThread("§e混沌能量汲取系统");
-val FuelThead = FactoryRecipeThread.createCoreThread("§e混沌注入系统");
-val Coolingdown = FactoryRecipeThread.createCoreThread("§e混沌调律系统");
-val CraftingThead = FactoryRecipeThread.createCoreThread("§e混沌秩序化系统");
-val SpeedThead = FactoryRecipeThread.createCoreThread("§e混沌同步系统");
+val ReactThead = FactoryRecipeThread.createCoreThread("混沌能量汲取系统");
+val FuelThead = FactoryRecipeThread.createCoreThread("混沌注入系统");
+val Coolingdown = FactoryRecipeThread.createCoreThread("混沌调律系统");
+val CraftingThead = FactoryRecipeThread.createCoreThread("混沌秩序化系统");
+val SpeedThead = FactoryRecipeThread.createCoreThread("混沌同步系统");
 
 MachineModifier.setMaxThreads("chaos_reactor", 0 as int);
 MachineModifier.addCoreThread("chaos_reactor", ReactThead);
@@ -88,7 +88,7 @@ MMEvents.onControllerGUIRender("chaos_reactor" , function(event as ControllerGUI
         info += "§c燃料储备过低！";
     }
     if (cooling <= 10000.0f) {
-        info += "§c警告：调律场充能强度过低，混沌能量汲取系统处于亚稳态！";
+        info += "§c调律场充能强度过低，混沌能量汲取系统处于亚稳态！";
     }
     event.extraInfo = info;
 });
@@ -105,7 +105,7 @@ function react(event as FactoryRecipeTickEvent) {
         map["fuel"] = fuel - (speed * 3);
         map["cool"] = cool - (speed * 7);
     }
-    else {event.setFailed(false,"§4燃料不足");}
+    else {event.setFailed(false,"燃料不足");}
     ctrl.customData = data;
 }
 
@@ -156,13 +156,13 @@ for fuel , amount in Fuelmap {
             var data = ctrl.customData;
             var map = data.asMap();
             val fuel = isNull(map["fuel"]) ? 0.0f : map["fuel"].asFloat();
-            if (fuel > 1000000000.0f) {event.setFailed("§4燃料储备已满");}
+            if (fuel > 1000000000.0f) {event.setFailed("燃料储备已满");}
         })
         .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
             addfuel(event,amount);
         })
         .addRecipeTooltip("§e为混沌注入系统增加" ~ amount ~ "§e点燃料值")
-        .setThreadName("§e混沌注入系统")
+        .setThreadName("混沌注入系统")
         .build();
     r += 1;
 }
@@ -175,13 +175,13 @@ for cool , amount in Coolingmap {
             var data = ctrl.customData;
             var map = data.asMap();
             val cool = isNull(map["cool"]) ? 1.0f : map["cool"].asFloat();
-            if (cool > 1000000000.0f) {event.setFailed("§4调律场充能已满");}
+            if (cool > 1000000000.0f) {event.setFailed("调律场充能已满");}
         })
         .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
             addcool(event,amount);
         })
         .addRecipeTooltip("§e为混沌调律系统增加" ~ amount ~ "§e点充能值")
-        .setThreadName("§e混沌调律系统")
+        .setThreadName("混沌调律系统")
         .build();
     r += 1;
 }
@@ -193,7 +193,7 @@ RecipeBuilder.newBuilder("speedwrite","chaos_reactor",20,4)
         check(event);
     })
     .addRecipeTooltip("§e同步秩序与混沌")
-    .setThreadName("§e混沌同步系统")
+    .setThreadName("混沌同步系统")
     .setParallelized(false)
     .build();
 
@@ -231,7 +231,7 @@ RecipeBuilder.newBuilder("chaosreacting","chaos_reactor",2000,0)
             }
         });
     })
-    .addEnergyPerTickOutput(7500000)
+    .addEnergyPerTickOutput(10000000)
     .addRecipeTooltip("§e1倍产出")
-    .setThreadName("§e混沌能量汲取系统")
+    .setThreadName("混沌能量汲取系统")
     .build();
