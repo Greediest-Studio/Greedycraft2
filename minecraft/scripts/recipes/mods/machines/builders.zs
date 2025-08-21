@@ -800,6 +800,21 @@ addBuilderRecipe(<modularmachinery:arcane_melter_factory_controller>, [
     <ore:ingotPrimordialExtended> * 2
 ], 4, 4000);
 
+addBuilderRecipe(<modularmachinery:aspect_absorber_factory_controller>, [
+    <additions:logic_processor_2> * 12,
+    <additions:calculation_processor_2> * 4,
+    <additions:engineering_processor_2> * 6,
+    <crazyae:material:17> * 5,
+    <threng:material:14> * 4,
+    <ore:ingotModularium> * 32,
+    <ore:ingotThaumium> * 32,
+    <ore:ingotHellite> * 24,
+    <ore:ingotVoid> * 16,
+    <ore:ingotMithrillium> * 4,
+    <ore:ingotAdamant> * 2,
+    <gct_mobs:primordial_stone> * 16
+], 4, 1200);
+
 //LV5
 /* 
 addBuilderRecipe(<modularmachinery:dimensional_miner_factory_controller>, [
