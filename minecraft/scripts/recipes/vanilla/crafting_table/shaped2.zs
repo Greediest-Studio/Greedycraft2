@@ -554,7 +554,7 @@ RecipeUtil.addShaped("infinity_cell_water", <extendedae:infinity_cell>.withTag({
     [<minecraft:water_bucket>, <minecraft:water_bucket>, <minecraft:water_bucket>]
 ]);
 RecipeUtil.addShaped("infinity_cell_cobblestone", <extendedae:infinity_cell>.withTag({r: {Craft: 0 as byte, Cnt: 1 as long, id: "minecraft:cobblestone", Count: 1, Damage: 0 as short, Req: 0 as long}, t: "i"}), [
-    [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>],
-    [<minecraft:cobblestone>, <appliedenergistics2:material:39>, <minecraft:cobblestone>],
-    [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]
+    [<extrautils2:compressedcobblestone:7>, <extrautils2:compressedcobblestone:7>, <extrautils2:compressedcobblestone:7>],
+    [<extrautils2:compressedcobblestone:7>, <appliedenergistics2:material:39>, <extrautils2:compressedcobblestone:7>],
+    [<extrautils2:compressedcobblestone:7>, <extrautils2:compressedcobblestone:7>, <extrautils2:compressedcobblestone:7>]
 ]);

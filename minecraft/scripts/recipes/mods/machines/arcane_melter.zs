@@ -30,7 +30,7 @@ import native.thaumcraft.api.aspects.AspectList;
 import native.thaumcraft.api.aspects.Aspect;
 
 MMEvents.onControllerGUIRender("arcane_melter", function(event as ControllerGUIRenderEvent) {
-    var info as string[] = ["§a///巨型源质冶炼炉控制面板///", "§a机器名称：§eLV4 - 巨型源质冶炼炉"];
+    var info as string[] = ["§a///源质升华炉控制面板///", "§a机器名称：§eLV4 - 源质升华炉"];
     event.extraInfo = info;
 });
 
