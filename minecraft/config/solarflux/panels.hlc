@@ -15,7 +15,7 @@
     +F:Height=6.0
 
     # How many RF/FE does this solar panel emit to other blocks, per tick? (Default: 65536000, Range: [1;9223372036854775807])
-    +L:Transfer Rate=8796093022208
+    +L:Transfer Rate=2147483647
 
   }
 
@@ -33,7 +33,7 @@
     +F:Height=6.0
 
     # How many RF/FE does this solar panel emit to other blocks, per tick? (Default: 32768000, Range: [1;9223372036854775807])
-    +L:Transfer Rate=536870912000
+    +L:Transfer Rate=2147483647
 
   }
 
