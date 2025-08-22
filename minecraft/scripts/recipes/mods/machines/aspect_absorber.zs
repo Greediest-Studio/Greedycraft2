@@ -99,7 +99,7 @@ val aspects as string[] = [
 ];
 
 for aspect in aspects {
-    RecipeBuilder.newBuilder("aspect_absorb_" + aspect, "aspect_absorber", 1)
+    RecipeBuilder.newBuilder("aspect_absorb_" + aspect, "aspect_absorber", 1, 2)
         .addAspcetOutput(1, aspect)
         .addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
             var pos = event.controller.pos.up(2);
@@ -141,7 +141,107 @@ for aspect in aspects {
                 event.setFailed("坩埚是空的！");
             }
         })
-        .addRecipeTooltip("§e将坩埚中的要素提取出来")
+        .setMaxThreads(1)
+        .addRecipeTooltip("§e将坩埚中的1点要素提取出来")
+        .build();
+
+    RecipeBuilder.newBuilder("aspect_absorb10x_" + aspect, "aspect_absorber", 1, 1)
+        .addAspcetOutput(10, aspect)
+        .addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
+            var pos = event.controller.pos.up(2);
+            var data as IData = event.controller.world.getBlock(pos).data;
+            if (!isNull(data.Aspects)) {
+                var aspList = data.Aspects;
+                if (aspList.length > 0) {
+                    val object as IData = aspList[0];
+                    var type as string = object.key as string;
+                    var amount as int = object.amount as int;
+                    if (type == aspect) {
+                        if (amount > 10) {
+                            var newObject as IData = {key : type, amount : amount - 10};
+                            var newList as IData = aspList.deepUpdate([object], REMOVE).deepUpdate([newObject], MERGE);
+                            event.controller.world.setBlockState(<blockstate:thaumcraft:crucible>, data.update({Aspects : newList}), pos);
+                        } else {
+                            var newList as IData = aspList.deepUpdate([object], REMOVE);
+                            event.controller.world.setBlockState(<blockstate:thaumcraft:crucible>, data.update({Aspects : newList}), pos);
+                        }
+                    }
+                }
+            }
+        })
+        .addPreCheckHandler(function(event as RecipeCheckEvent) {
+            var pos = event.controller.pos.up(2);
+            var data as IData = event.controller.world.getBlock(pos).data;
+            if (!isNull(data.Aspects)) {
+                var aspList = data.Aspects;
+                if (aspList.length > 0) {
+                    var object as IData = aspList[0];
+                    var type as string = object.key as string;
+                    var amount as int = object.amount as int;
+                    if (type != aspect) {
+                        event.setFailed("要素种类错误！");
+                    } else if (amount < 10) {
+                        event.setFailed("要素数量不足！");
+                    }
+                } else {
+                    event.setFailed("坩埚是空的！");
+                }
+            } else {
+                event.setFailed("坩埚是空的！");
+            }
+        })
+        .setMaxThreads(1)
+        .addRecipeTooltip("§e将坩埚中的10点要素提取出来")
+        .build();
+
+    RecipeBuilder.newBuilder("aspect_absorb100x_" + aspect, "aspect_absorber", 1, 0)
+    
+        .addAspcetOutput(100, aspect)
+        .addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
+            var pos = event.controller.pos.up(2);
+            var data as IData = event.controller.world.getBlock(pos).data;
+            if (!isNull(data.Aspects)) {
+                var aspList = data.Aspects;
+                if (aspList.length > 0) {
+                    var object as IData = aspList[0];
+                    var type as string = object.key as string;
+                    var amount as int = object.amount as int;
+                    if (type == aspect) {
+                        if (amount > 100) {
+                            var newObject as IData = {key : type, amount : amount - 100};
+                            var newList as IData = aspList.deepUpdate([object], REMOVE).deepUpdate([newObject], MERGE);
+                            event.controller.world.setBlockState(<blockstate:thaumcraft:crucible>, data.update({Aspects : newList}), pos);
+                        } else {
+                            var newList as IData = aspList.deepUpdate([object], REMOVE);
+                            event.controller.world.setBlockState(<blockstate:thaumcraft:crucible>, data.update({Aspects : newList}), pos);
+                        }
+                    }
+                }
+            }
+        })
+        .addPreCheckHandler(function(event as RecipeCheckEvent) {
+            var pos = event.controller.pos.up(2);
+            var data as IData = event.controller.world.getBlock(pos).data;
+            if (!isNull(data.Aspects)) {
+                var aspList = data.Aspects;
+                if (aspList.length > 0) {
+                    var object as IData = aspList[0];
+                    var type as string = object.key as string;
+                    var amount as int = object.amount as int;
+                    if (type != aspect) {
+                        event.setFailed("要素种类错误！");
+                    } else if (amount < 100) {
+                        event.setFailed("要素数量不足！");
+                    }
+                } else {
+                    event.setFailed("坩埚是空的！");
+                }
+            } else {
+                event.setFailed("坩埚是空的！");
+            }
+        })
+        .setMaxThreads(1)
+        .addRecipeTooltip("§e将坩埚中的100点要素提取出来")
         .build();
 }
 

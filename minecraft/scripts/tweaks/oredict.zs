@@ -278,6 +278,7 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <tcongreedyaddon:battleaxe>,
         <tcongreedyaddon:dagger>,
         <tcongreedyaddon:greatblade>,
+        <tcongreedyaddon:allinonetool>,
         <moretcon:blbow>,
         <moretcon:blsword>,
         <moretcon:blaxe>,

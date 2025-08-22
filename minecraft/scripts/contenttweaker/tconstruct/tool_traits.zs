@@ -3488,7 +3488,7 @@ leveling_durabilityTrait.localizedName = game.localize("greedycraft.tconstruct.t
 leveling_durabilityTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.leveling_durabilityTrait.desc");
 leveling_durabilityTrait.hidden = true;
 leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, newAmount, holder) {
-    if (holder instanceof IPlayer) {
+    if (holder instanceof IPlayer && !holder.world.isRemote()) {
 
         var player as IPlayer = holder;
         var extradamage as int = 0;

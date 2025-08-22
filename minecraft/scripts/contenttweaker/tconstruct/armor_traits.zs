@@ -2666,7 +2666,7 @@ leveling_durabilityTrait.localizedDescription = game.localize("greedycraft.tcons
 leveling_durabilityTrait.hidden = true;
 leveling_durabilityTrait.onArmorDamaged = function(trait, armor, damageSource, amount, newAmount, player, index) {
 
-    if (!isNull(player)) {
+    if (!isNull(player) && !player.world.isRemote()) {
 
         var extradamage as int = 0;
 
