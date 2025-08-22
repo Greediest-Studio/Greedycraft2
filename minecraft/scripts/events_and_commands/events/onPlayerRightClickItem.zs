@@ -33,7 +33,7 @@ import crafttweaker.item.IItemStack;
 
 events.onPlayerRightClickItem(function(event as PlayerRightClickItemEvent) {
 
-if (!event.world.isRemote()) {
+if (!isNull(event.item) && !event.world.isRemote()) {
 
     //Store the dimension ID in the item tag
     if (event.item.definition.id == "additions:modular_dimensional_magnifier") {
