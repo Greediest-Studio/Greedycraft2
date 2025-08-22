@@ -3497,7 +3497,7 @@ leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, 
         if (!isNull(tool.tag.FluxedEnergy)) {extradamage = tool.tag.FluxedEnergy.asInt();}
         if (!isNull(tool.tag.EvolvedEnergy)) {extradamage = tool.tag.EvolvedEnergy.asInt();}
 
-        extradamage = (extradamage / 320);
+        extradamage = (extradamage / 640);
         var difficulty as float = player.difficulty as float;
 
         //var needDamage  = 1 * ((Math.sqrt(unmodifiedAmount * 3.14) * Math.log10(unmodifiedAmount) / Math.log10(2.7) * Math.sqrt(difficulty * 25) * 1.5) as float);

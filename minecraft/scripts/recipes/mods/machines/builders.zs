@@ -821,6 +821,22 @@ addBuilderRecipe(<modularmachinery:dimensional_miner_factory_controller>, [
 
 ]);*/
 
+addBuilderRecipe(<modularmachinery:aspect_crafter_factory_controller>, [
+    <additions:logic_processor_3> * 16,
+    <additions:calculation_processor_3> * 28,
+    <additions:engineering_processor_3> * 32,
+    <threng:material:6> * 32,
+    <crazyae:material:17> * 24,
+    <ore:ingotModularium> * 128,
+    <ore:ingotAlubrass> * 128,
+    <ore:ingotBrass> * 100,
+    <ore:ingotPrimordial> * 32,
+    <ore:ingotPrimordialExtended> * 8,
+    <ore:ingotHexacite> * 2,
+    <ore:ingotCursium> * 2,
+    <ore:ingotAbyssine> * 2
+], 5, 2400);
+
 //Units
 addBuilderRecipe(<modularmachinery:elysia_alloyer_factory_controller>, [
     <gct_ores:blue_print_empty> * 32,

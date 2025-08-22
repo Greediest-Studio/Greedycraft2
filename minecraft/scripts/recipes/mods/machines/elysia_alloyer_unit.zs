@@ -230,10 +230,10 @@ recipe(1055 , <redstonerepository:material:1> * 1, [<ore:ingotEnderium> * 1, <or
 recipe(1056 , <tiths:ingot_oraclium> * 1, [<ore:ingotPolarium> * 1, <ore:ingotAltairium> * 1], 10000, 10.0f);
 recipe(1057 , <enderio:item_alloy_endergy_ingot:6> * 1, [<ore:ingotEnergeticSilver>, <ore:enderpearl>], 10000, 10.0f);
 
-recipe(2000 , <gct_ores:sky_alloy_ingot>, [<ore:ingotAetherium>, <ore:ingotCanopium>, <ore:ingotMistium>, <ore:ingotThyminite>], 51200, 10.0f);
-recipe(2001 , <gct_ores:fire_alloy_ingot>, [<ore:ingotLavarite>, <ore:ingotPlasmarite>, <ore:ingotBnightium>, <ore:ingotGuaninite>], 51200, 10.0f);
-recipe(2002 , <gct_ores:ice_alloy_ingot>, [<ore:ingotSnowingium>, <ore:ingotFreezite>, <ore:ingotOceanium>, <ore:ingotAdeninite>], 51200, 10.0f);
-recipe(2003 , <additions:terra_alloy_ingot>, [<ore:ingotCryonium>, <ore:ingotInfernium>, <ore:ingotTitanium>, <ore:ingotCytosinite>], 51200, 10.0f);
+recipe(2000 , <gct_ores:sky_alloy_ingot> * 2, [<ore:ingotAetherium>, <ore:ingotCanopium>, <ore:ingotMistium>, <ore:ingotThyminite>], 51200, 10.0f);
+recipe(2001 , <gct_ores:fire_alloy_ingot> * 2, [<ore:ingotLavarite>, <ore:ingotPlasmarite>, <ore:ingotBnightium>, <ore:ingotGuaninite>], 51200, 10.0f);
+recipe(2002 , <gct_ores:ice_alloy_ingot> * 2, [<ore:ingotSnowingium>, <ore:ingotFreezite>, <ore:ingotOceanium>, <ore:ingotAdeninite>], 51200, 10.0f);
+recipe(2003 , <additions:terra_alloy_ingot> * 2, [<ore:ingotCryonium>, <ore:ingotInfernium>, <ore:ingotTitanium>, <ore:ingotCytosinite>], 51200, 10.0f);
 recipe(2004 , <additions:balancite_ingot> * 2, [<ore:ingotAqualite>, <ore:ingotAeroite>, <ore:ingotAsgardium>, <ore:ingotIgnite>], 51200, 10.0f);
 recipe(2005 , <additions:twilight_crystal_ingot>, [<ore:ingotEden>, <ore:ingotWildwood>, <ore:ingotApalachia>, <ore:ingotSkythern>, <ore:ingotMortum>], 78600, 10.0f);
 recipe(2006 , <gct_mobs:cthulhurite_ingot> * 2, [<ore:ingotAbyssalnite>, <ore:ingotLiquifiedCoralium>, <ore:ingotDreadium>, <ore:ingotEthaxium>, <ore:ingotSanite>], 78600, 10.0f);

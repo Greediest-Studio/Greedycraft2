@@ -2674,7 +2674,7 @@ leveling_durabilityTrait.onArmorDamaged = function(trait, armor, damageSource, a
         if (!isNull(armor.tag.FluxedEnergy)) {extradamage = armor.tag.FluxedEnergy.asInt();}
         if (!isNull(armor.tag.EvolvedEnergy)) {extradamage = armor.tag.EvolvedEnergy.asInt();}
 
-        extradamage = (extradamage / 320);
+        extradamage = (extradamage / 640);
         var difficulty = player.difficulty;
 
         //var needDamage  = 1 * ((Math.sqrt(amount * 3.14) * Math.log10(amount) / Math.log10(2.7) * Math.sqrt(difficulty * 25) * 1.5) as float);
@@ -2994,14 +2994,13 @@ val emperoricTrait = ArmorTraitBuilder.create("emperoric");
 emperoricTrait.color = Color.fromHex("ffffff").getIntColor();
 emperoricTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.emperoricTrait.name");
 emperoricTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.emperoricTrait.desc");
-emperoricTrait.getModifications = function(trait, player, mods, armor, damageSource, damage, index) {
+emperoricTrait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
-        var modsNew as IArmorModifications = mods;
-        modsNew.armorMod = 1.2f;
-        modsNew.toughnessMod = 1.2f;
-        return modsNew;
+        var defadd as float = armor.tag.StatsOriginal.Defense as float * 0.2f;
+        CotTicLib.addTicDefense(armor, defadd, "emperoric");
+        var toughadd as float = armor.tag.StatsOriginal.Toughness as float * 0.2f;
+        CotTicLib.addTicToughness(armor, toughadd, "emperoric");
     }
-    return mods;
 };
 emperoricTrait.register();
 
@@ -3397,14 +3396,11 @@ val scalesTrait = ArmorTraitBuilder.create("scales");
 scalesTrait.color = Color.fromHex("ffffff").getIntColor();
 scalesTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.scalesTrait.name");
 scalesTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.scalesTrait.desc");
-scalesTrait.getModifications = function(trait, player, mods, armor, damageSource, damage, index) {
+scalesTrait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
-        var modsNew as IArmorModifications = mods;
-        modsNew.armor += 3.0f;
-        modsNew.toughness += 1.0f;
-        return modsNew;
+        CotTicLib.addTicDefense(armor, 3.0f, "scales");
+        CotTicLib.addTicToughness(armor, 1.0f, "scales");
     }
-    return mods;
 };
 scalesTrait.register();
 
