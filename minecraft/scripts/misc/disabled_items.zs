@@ -1481,8 +1481,6 @@ var disabledItems as IIngredient[] = [
     <mekanism:mekasuit_bodyarmor>,
     <whimcraft:blockmeaspectinputbusmmce>,
     <whimcraft:blockmeaspectoutputbusmmce>,
-    <whimcraft:blockmeaspectinputbus>,
-    <whimcraft:blockmeaspectoutputbus>,
     <modularmachineryaddons:blockwillmultichunkproviderinput>,
     <modularmachineryaddons:blockwillmultichunkprovideroutput>,
     <modularmachineryaddons:inactiveradiationsponge>,

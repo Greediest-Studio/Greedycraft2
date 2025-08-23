@@ -28,8 +28,7 @@ var removedRecipes as IItemStack[] = [
     <thaumadditions:mithminite_blade>,
     <thaumadditions:mithminite_handle>,
     <thaumadditions:entity_summoner>,
-    <thaumadditions:dna_sample>,
-    <thaumicenergistics:essentia_component_256k>
+    <thaumadditions:dna_sample>
 ];
 
 for removedItem in removedRecipes {
@@ -60,8 +59,6 @@ Infusion.removeRecipe(<thaumicaugmentation:thaumostatic_harness>);
 Infusion.removeRecipe(<thaumadditions:mithminite_ingot>);
 Infusion.removeRecipe(<thaumadditions:adaminite_ingot>);
 Infusion.removeRecipe(<thaumadditions:mithrillium_ingot>);
-Infusion.removeRecipe(<thaumicenergistics:essentia_component_4096k>);
-
 
 Infusion.registerRecipe("quardstate", "", <additions:quardstate_star>, 15, [
     <aspect:aversio> * 500, 
@@ -299,21 +296,6 @@ Infusion.registerRecipe("sanite_siphon", "ABYSSISM_MOBS", <gct_aby:sanite_siphon
     <additions:blackhole_alloy_block>
 ]);
 
-Infusion.registerRecipe("essentia_component", "", <thaumicenergistics:essentia_cell_1048576k>, 10, [
-    <aspect:caeles> * 10000,
-    <aspect:praecantatio> * 10000,
-    <aspect:desiderium> * 10000,
-    <aspect:machina> * 10000
-], <thaumicenergistics:essentia_component_64k>, [
-    <additions:creative_shard>,
-    <additions:arcane_control_circuit>,
-    <additions:creative_shard>,
-    <additions:extended_primal_metal_ingot>,
-    <additions:creative_shard>,
-    <thaumicaugmentation:material:3>,
-    <additions:creative_shard>,
-    <gct_ores:order_crystal>
-]);
 
 Infusion.registerRecipe("energy_matter_core", "", <additions:energy_matter_core>, 16,[
     <aspect:permutatio> * 50,

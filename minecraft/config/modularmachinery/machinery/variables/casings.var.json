@@ -38,7 +38,10 @@
         "modularmachineryaddons:blockvisproviderinput",
         "modularmachineryaddons:blockvisprovideroutput",
         "modularmachineryaddons:blockbiomeproviderinput",
-        "modularmachineryaddons:blockdimensionproviderinput"
+        "modularmachineryaddons:blockdimensionproviderinput",
+        "whimcraft:blockshareinfhandler",
+        "whimcraft:blockmeaspectinputbus",
+        "whimcraft:blockmeaspectoutputbus"
     ],
     "casings_parallel": [
         "modularmachinery:blockcasing@0",

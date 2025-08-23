@@ -5,7 +5,8 @@
   "type": "block",
   "contains": [],
   "prefix": [
-    "com.google.common.util.concurrent.DirectExecutor"
+    "com.google.common.util.concurrent.DirectExecutor",
+    "net.minecraftforge.fml.common.network.NetworkRegistry"
   ],
   "generateConfigWhenCrash": true
 }
