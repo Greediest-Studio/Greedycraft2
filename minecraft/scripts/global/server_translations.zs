@@ -50,7 +50,7 @@ global serverTranslations as string[string][string] = {
 
         "greedycraft.zensummoning.ironslime.fail.1": "§c召唤失败。周围的地形不够开阔。\n§c你需要周围有至少15*15格的平坦开阔空间。\n§c高草等可以穿过的方块同样也会影响召唤。\n§6可以尝试使用Prefab的§e结构部件§6搭建平台。",
         "greedycraft.zensummoning.ironslime.fail.2": "§c召唤失败。周围的地板不够平整。\n§c你需要周围有至少15*15格的平坦开阔空间。\n§cc这条消息表明祭坛上方有足够的空气，但是祭坛所处的平台大小不够或有缺口。\n§6可以尝试使用Prefab的§e结构部件§6搭建平台。",
-        "greedycraft.zensummoning.ironslime.fail.5": "§c你只能在末地召唤钢铁史莱姆王！",
+        "greedycraft.zensummoning.ironslime.fail.5": "§c你只能在主世界召唤钢铁史莱姆王！",
         "greedycraft.zensummoning.ironslime.success": "§b钢铁史莱姆王 §5§o已苏醒！",
 
         "greedycraft.zensummoning.alchemist.fail.1": "§c召唤失败。周围的地形不够开阔。\n§c你需要周围有至少15*15格的平坦开阔空间。\n§c高草等可以穿过的方块同样也会影响召唤。\n§6可以尝试使用Prefab的§e结构部件§6搭建平台。",
