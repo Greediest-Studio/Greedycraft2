@@ -30,15 +30,15 @@ MMEvents.onControllerGUIRender("factory_arcanic_astrallizer", function(event as 
     event.extraInfo = info;
 });
 
-MachineModifier.setMaxThreads("factory_arcanic_brewer", 32);
+MachineModifier.setMaxThreads("factory_arcanic_brewer", 512);
 MachineModifier.setInternalParallelism("factory_arcanic_brewer", 4);
 MachineModifier.setMaxParallelism("factory_arcanic_brewer", 1024);
 
-MachineModifier.setMaxThreads("factory_arcanic_infuser", 32);
+MachineModifier.setMaxThreads("factory_arcanic_infuser", 512);
 MachineModifier.setInternalParallelism("factory_arcanic_infuser", 4);
 MachineModifier.setMaxParallelism("factory_arcanic_infuser", 1024);
 
-MachineModifier.setMaxThreads("factory_arcanic_astrallizer", 32);
+MachineModifier.setMaxThreads("factory_arcanic_astrallizer", 512);
 MachineModifier.setInternalParallelism("factory_arcanic_astrallizer", 4);
 MachineModifier.setMaxParallelism("factory_arcanic_astrallizer", 1024);
 

@@ -563,3 +563,23 @@ RecipeUtil.addShaped("infinity_cell_cobblestone", <extendedae:infinity_cell>.wit
     [<extrautils2:compressedcobblestone:7>, <appliedenergistics2:material:39>, <extrautils2:compressedcobblestone:7>],
     [<extrautils2:compressedcobblestone:7>, <extrautils2:compressedcobblestone:7>, <extrautils2:compressedcobblestone:7>]
 ]);
+RecipeUtil.addShaped("primordial_stonebrick", <gct_mobs:primordial_stonebrick> * 4, [
+    [<gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>, null],
+    [<gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>, null],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("primordial_stonebrick_stairs", <gct_mobs:primordial_stonebrick_stairs> * 8, [
+    [<gct_mobs:primordial_stonebrick>, null, null],
+    [<gct_mobs:primordial_stonebrick>, <gct_mobs:primordial_stonebrick>, null],
+    [<gct_mobs:primordial_stonebrick>, <gct_mobs:primordial_stonebrick>, <gct_mobs:primordial_stonebrick>]
+]);
+RecipeUtil.addShaped("primordial_stonebrick_slab", <gct_mobs:primordial_stonebrick_slab> * 6, [
+    [null, null, null],
+    [<gct_mobs:primordial_stonebrick>, <gct_mobs:primordial_stonebrick>, <gct_mobs:primordial_stonebrick>],
+    [null, null, null]
+]);
+RecipeUtil.addShaped("primordial_stonebrick_wall", <gct_mobs:primordial_stonebrick_wall> * 6, [
+    [null, null, null],
+    [<gct_mobs:primordial_stonebrick>, <gct_mobs:primordial_stonebrick>, <gct_mobs:primordial_stonebrick>],
+    [<gct_mobs:primordial_stonebrick>, <gct_mobs:primordial_stonebrick>, <gct_mobs:primordial_stonebrick>]
+]);

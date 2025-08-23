@@ -21,6 +21,7 @@ import mods.modularmachinery.MachineModifier;
 import mods.modularmachinery.RecipeCheckEvent;
 import mods.modularmachinery.IMachineController;
 import mods.modularmachinery.MachineTickEvent;
+import mods.modularmachinery.RecipeAdapterBuilder;
 import mods.jei.JEI;
 
 import mods.zenutils.DataUpdateOperation.MERGE;
@@ -38,70 +39,6 @@ MachineModifier.setMaxThreads("arcane_melter", 16);
 MachineModifier.setMaxParallelism("arcane_melter", 2048);
 MachineModifier.setInternalParallelism("arcane_melter", 64);
 
-val aspects as string[] = [
-    "structura",
-    "pulvis",
-    "draco",
-    "sol",
-    "permutatio",
-    "ventus",
-    "tempestas",
-    "aqua",
-    "ordo",
-    "gelum",
-    "alkimia",
-    "ignis",
-    "metallum",
-    "aversio",
-    "instrumentum",
-    "machina",
-    "exitium",
-    "motus",
-    "bestia",
-    "vitium",
-    "alienis",
-    "dreadia",
-    "abyss",
-    "spiritus",
-    "aer",
-    "auram",
-    "cognitio",
-    "lux",
-    "imperium",
-    "praecantatio",
-    "vapor",
-    "exanimis",
-    "fluctus",
-    "potentia",
-    "infernum",
-    "cthulhu",
-    "vinculum",
-    "vacuos",
-    "herba",
-    "volatus",
-    "fabrico",
-    "tempus",
-    "perditio",
-    "terra",
-    "humanus",
-    "sonus",
-    "vitreus",
-    "coralos",
-    "victus",
-    "desiderium",
-    "mortuus",
-    "sensus",
-    "primitivus",
-    "tenebrae",
-    "caeles",
-    "visum",
-    "praemunio"
-];
-
-for aspect in aspects {
-    RecipeBuilder.newBuilder("arcane_melt_" + aspect, "arcane_melter", 4)
-        .addItemInput(<thaumadditions:vis_pod>.withTag({Aspect: aspect}))
-        .addEnergyPerTickInput(5000)
-        .addAspcetOutput(5, aspect)
-        .build();
-}
+RecipeAdapterBuilder.create("arcane_melter", "thaumcraft:whimcraft_smelter")
+    .addEnergyPerTickInput(100)
+    .build();

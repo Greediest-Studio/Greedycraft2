@@ -30,7 +30,7 @@ import scripts.util.machines as MMUtil;
 
 MachineModifier.setMaxParallelism("aura_crafter", 256);
 MachineModifier.setInternalParallelism("aura_crafter", 1);
-MachineModifier.setMaxThreads("aura_crafter", 8);
+MachineModifier.setMaxThreads("aura_crafter", 16);
 
 MMEvents.onControllerGUIRender("aura_crafter", function(event as ControllerGUIRenderEvent) {
     var info as string[] = ["§a///灵气聚集台控制面板///", "§a机器名称：§eLV4 - 灵气聚集台"];

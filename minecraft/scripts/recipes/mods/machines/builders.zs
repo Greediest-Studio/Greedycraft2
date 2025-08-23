@@ -800,19 +800,19 @@ addBuilderRecipe(<modularmachinery:arcane_melter_factory_controller>, [
     <ore:ingotPrimordialExtended> * 2
 ], 4, 4000);
 
-addBuilderRecipe(<modularmachinery:aspect_absorber_factory_controller>, [
-    <additions:logic_processor_2> * 12,
-    <additions:calculation_processor_2> * 4,
-    <additions:engineering_processor_2> * 6,
-    <crazyae:material:17> * 5,
-    <threng:material:14> * 4,
-    <ore:ingotModularium> * 32,
-    <ore:ingotThaumium> * 32,
-    <ore:ingotHellite> * 24,
-    <ore:ingotVoid> * 16,
-    <ore:ingotMithrillium> * 4,
-    <ore:ingotAdamant> * 2,
-    <gct_mobs:primordial_stone> * 16
+addBuilderRecipe(<modularmachinery:arcane_matrix_factory_controller>, [
+    <additions:logic_processor_2> * 32,
+    <additions:calculation_processor_2> * 16,
+    <additions:engineering_processor_2> * 24,
+    <crazyae:material:17> * 20,
+    <threng:material:14> * 20,
+    <ore:ingotModularium> * 128,
+    <ore:ingotThaumium> * 128,
+    <ore:ingotHellite> * 96,
+    <ore:ingotVoid> * 64,
+    <ore:ingotMithrillium> * 16,
+    <ore:ingotAdamant> * 8,
+    <gct_mobs:primordial_stone> * 64
 ], 4, 1200);
 
 //LV5
@@ -915,6 +915,13 @@ addBuilderRecipe(<modularmachinery:elysia_vaporizer_factory_controller>, [
     <ore:ingotModularium> * 64,
     <tcomplement:melter> * 32,
     <tcomplement:melter:8> * 32 
+], 1, 3200);
+
+addBuilderRecipe(<modularmachinery:elysia_smelter_factory_controller>, [
+    <gct_ores:blue_print_empty> * 32,
+    <ore:ingotModularium> * 64,
+    <thermalexpansion:machine>.withTag({Level : 4 as byte}) * 32,
+    <tconstruct:seared_furnace_controller> * 32
 ], 1, 3200);
 
 addBuilderRecipe(<modularmachinery:factory_4x_factory_controller>, [
