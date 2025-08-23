@@ -20,6 +20,8 @@ import mods.modularmachinery.MMEvents;
 import mods.modularmachinery.MachineModifier;
 import mods.modularmachinery.RecipeCheckEvent;
 import mods.modularmachinery.RecipeAdapterBuilder;
+import mods.modularmachinery.MachineTickEvent;
+import mods.modularmachinery.RecipeModifierBuilder;
 import mods.jei.JEI;
 
 MMEvents.onControllerGUIRender("arcane_matrix", function(event as ControllerGUIRenderEvent) {
@@ -33,4 +35,11 @@ MachineModifier.setInternalParallelism("arcane_matrix", 1);
 
 RecipeAdapterBuilder.create("arcane_matrix", "thaumcraft:whimcraft_infusion_matrix")
     .addEnergyPerTickInput(3600)
+    .addRecipeTooltip("§e实际加工时间将乘以0.04（缩短到1/25）")
     .build();
+
+MMEvents.onMachinePreTick("arcane_matrix", function(event as MachineTickEvent) {
+    if (!event.controller.hasModifier("arcane_matrix_speed")) {
+        event.controller.addPermanentModifier("arcane_matrix_speed", RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.04, 1, false).build());
+    }
+});

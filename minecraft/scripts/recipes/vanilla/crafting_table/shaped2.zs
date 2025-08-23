@@ -583,3 +583,8 @@ RecipeUtil.addShaped("primordial_stonebrick_wall", <gct_mobs:primordial_stonebri
     [<gct_mobs:primordial_stonebrick>, <gct_mobs:primordial_stonebrick>, <gct_mobs:primordial_stonebrick>],
     [<gct_mobs:primordial_stonebrick>, <gct_mobs:primordial_stonebrick>, <gct_mobs:primordial_stonebrick>]
 ]);
+RecipeUtil.addShaped("link_card", <whimcraft:link_card>, [
+    [null, <crazyae:material:35>, null],
+    [<crazyae:material:35>, <additions:wireless_processor>, <crazyae:material:35>],
+    [null, <crazyae:material:35>, null]
+]);
