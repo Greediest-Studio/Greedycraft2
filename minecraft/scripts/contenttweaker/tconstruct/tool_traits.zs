@@ -3291,18 +3291,20 @@ erase_commandTrait.onHit = function(trait, tool, attacker, target, damage, isCri
     if (attacker instanceof IPlayer && target instanceof IEntityLivingBase) {
         var entity as IEntityLivingBase = target;
         var player as IPlayer = attacker;
-        if (entity.definition.id has "witherstorm") {
-            var level as int = trait.getData(tool).level as int;
-            if (!isNull(<ticontrait:stormy>.getData(tool))) {
-                if (<ticontrait:stormy>.getData(tool).level == 1) {
-                    level *= 2;
+        if (!isNull(entity.definition)) {
+            if (entity.definition.id has "witherstorm") {
+                var level as int = trait.getData(tool).level as int;
+                if (!isNull(<ticontrait:stormy>.getData(tool))) {
+                    if (<ticontrait:stormy>.getData(tool).level == 1) {
+                        level *= 2;
+                    }
                 }
-            }
-            if (entity.health > 100 * level as float) {
-                entity.health -= (100 * level as float);
-            } else {
-                var dmg as IDamageSource = IDamageSource.createPlayerDamage(player);
-                entity.attackEntityFrom(dmg, 2147483647.0f);
+                if (entity.health > 100 * level as float) {
+                    entity.health -= (100 * level as float);
+                } else {
+                    var dmg as IDamageSource = IDamageSource.createPlayerDamage(player);
+                    entity.attackEntityFrom(dmg, 2147483647.0f);
+                }
             }
         }
     }
