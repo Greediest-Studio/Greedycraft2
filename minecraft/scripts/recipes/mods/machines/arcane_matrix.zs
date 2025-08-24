@@ -33,7 +33,7 @@ MachineModifier.setMaxThreads("arcane_matrix", 32);
 MachineModifier.setMaxParallelism("arcane_matrix", 256);
 MachineModifier.setInternalParallelism("arcane_matrix", 1);
 
-RecipeAdapterBuilder.create("arcane_matrix", "thaumcraft:whimcraft_infusion_matrix")
+RecipeAdapterBuilder.create("arcane_matrix", "thaumcraft:whimcraft_infusion_matrix_research")
     .addEnergyPerTickInput(3600)
     .addRecipeTooltip("§e实际加工时间将乘以0.04（缩短到1/25）")
     .build();

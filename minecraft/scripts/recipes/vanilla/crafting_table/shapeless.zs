@@ -501,4 +501,6 @@ RecipeUtil.addShapeless("manacell256k", <crazyae:mana_cell_256k>,
 RecipeUtil.addShapeless("mana_speed_card", <crazyae:upgrade:2>,
     [<appliedenergistics2:material:28>, <crazyae:material:35>]
 );
-
+RecipeUtil.addShapeless("ancient_tome_9x", <additions:ancient_tome> * 9,
+    [<additions:ancient_collection>]
+);
