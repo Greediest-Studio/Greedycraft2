@@ -310,13 +310,16 @@ val localizationMap as string[string][string] = {
         "fluid.relifed_witherium": "熔融复活凋灵",
         "fluid.stormy_witherium": "熔融风暴凋灵",
         "fluid.equipment_witherium": "熔融平衡凋灵",
+        "fluid.phosphorus_pentaoxide": "熔融五氧化二磷",
         //化工相关液体
         "fluid.liquid_air": "液态空气",
         "fluid.hydrochloric_acid": "盐酸",
         "fluid.nitric_acid": "硝酸",
+        "fluid.phosphoric_acid": "磷酸",
         "fluid.aqua_fluoride": "氟王水",
         "fluid.bromine": "液溴",
         "fluid.bromine_gas": "溴蒸气",
+        "fluid.phosphine": "膦",
         "fluid.rich_brine": "富集盐水",
         "fluid.poor_brine": "乏盐水",
         "fluid.halogen_brine": "卤水",
@@ -453,10 +456,7 @@ val localizationMap as string[string][string] = {
         "greedycraft.tooltip.utilityworld.warnings": "§4一旦使用了传送门，\n除非你放置了指路石等传送装置，\n否则请不要破坏此传送门及返回传送门，\n否则会引起世界丢失！",
         "tile.orderland_portal.name": "秩序之地传送门",
         "tile.everheaven_portal.name": "深空之域传送门",
-        "greedycraft.tooltip.modularcontroller.not_need_blueprints": "§4此机械无需制作蓝图即可工作",
-        "component.missing.gugu-utils:aspect.input": "缺少源质输入仓！",
-        "component.missing.gugu-utils:aspect.output": "缺少源质输出仓！",
-        "craftcheck.failure.gugu-utils:mana_pertick.input": "魔力输入过慢！"
+        "greedycraft.tooltip.modularcontroller.not_need_blueprints": "§4此机械无需制作蓝图即可工作"
     }
 };
 

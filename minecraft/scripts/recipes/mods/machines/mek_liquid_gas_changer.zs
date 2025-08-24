@@ -12,11 +12,23 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
 import mods.modularmachinery.RecipeBuilder;
+import mods.modularmachinery.MachineModifier;
+import mods.modularmachinery.MMEvents;
+import mods.modularmachinery.ControllerGUIRenderEvent;
 import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 import mod.mekanism.gas.IGasStack;
 
 import scripts.util.machines as MMUtil;
+
+MachineModifier.setMaxParallelism("mek_changer", 2147483647);
+MachineModifier.setMaxThreads("mek_changer", 16);
+MachineModifier.setInternalParallelism("mek_changer", 2147483647);
+
+MMEvents.onControllerGUIRender("mek_changer", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = ["§a///MEK气液转换机控制面板///", "§a机器名称：§eLV0 - MEK气液转换机"];
+    event.extraInfo = info;
+});
 
 RecipeBuilder.newBuilder("liquid_hydrogen", "mek_changer", 1)
 .addGasInput(<gas:hydrogen> * 10)
@@ -356,4 +368,14 @@ RecipeBuilder.newBuilder("liquid_radon", "mek_changer", 1)
 RecipeBuilder.newBuilder("gas_radon", "mek_changer", 1)
 .addFluidInput(<liquid:radon> * 10)
 .addGasOutput(<gas:radon> * 10)
+.build();
+
+RecipeBuilder.newBuilder("liquid_phosphine", "mek_changer", 1)
+.addGasInput(<gas:phosphine> * 10)
+.addFluidOutput(<liquid:phosphine> * 10)
+.build();
+
+RecipeBuilder.newBuilder("gas_phosphine", "mek_changer", 1)
+.addFluidInput(<liquid:phosphine> * 10)
+.addGasOutput(<gas:phosphine> * 10)
 .build();

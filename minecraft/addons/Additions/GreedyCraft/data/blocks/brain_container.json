@@ -1,0 +1,17 @@
+{
+  "item_block": {
+    "name": "§6神识之脑容器",
+    "tooltip": "§7生物质解析仪的核心",
+    "type": "additions:block_simple"
+  },
+  "name": "§6神识之脑容器",
+  "material": "minecraft:metal",
+  "hardness": 20.0,
+  "resistance": 100000.0,
+  "harvest_level": 13,
+  "harvest_tool": "pickaxe",
+  "light_opacity": 8,
+  "light_level": 5,
+  "semi_transparent": true,
+  "type": "additions:simple"
+}

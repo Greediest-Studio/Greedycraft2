@@ -1893,6 +1893,18 @@ molten_phosphorus.stillLocation = "base:fluids/liquid";
 molten_phosphorus.flowingLocation = "base:fluids/liquid_flow";
 molten_phosphorus.register();
 
+val molten_phosphorus_pentaoxide = mods.contenttweaker.VanillaFactory.createFluid("phosphorus_pentaoxide", Color.fromHex("eeeeee").getIntColor());
+molten_phosphorus_pentaoxide.material = <blockmaterial:lava>;
+molten_phosphorus_pentaoxide.viscosity = 3000;
+molten_phosphorus_pentaoxide.density = 6500;
+molten_phosphorus_pentaoxide.colorize = true;
+molten_phosphorus_pentaoxide.temperature = 1000;
+molten_phosphorus_pentaoxide.luminosity = 0;
+molten_phosphorus_pentaoxide.color = Color.fromHex("eeeeee").getIntColor();
+molten_phosphorus_pentaoxide.stillLocation = "base:fluids/molten";
+molten_phosphorus_pentaoxide.flowingLocation = "base:fluids/molten_flowing";
+molten_phosphorus_pentaoxide.register();
+
 val molten_legendite = mods.contenttweaker.VanillaFactory.createFluid("legendite", Color.fromHex("ebb129").getIntColor());
 molten_legendite.material = <blockmaterial:lava>;
 molten_legendite.viscosity = 3000;
@@ -2532,6 +2544,18 @@ hydrochloric_acid.stillLocation = "base:fluids/liquid";
 hydrochloric_acid.flowingLocation = "base:fluids/liquid_flow";
 hydrochloric_acid.register();
 
+val phosphoric_acid = mods.contenttweaker.VanillaFactory.createFluid("phosphoric_acid", Color.fromHex("d5648e").getIntColor());
+phosphoric_acid.material = <blockmaterial:water>;
+phosphoric_acid.viscosity = 3000;
+phosphoric_acid.density = 1000;
+phosphoric_acid.colorize = true;
+phosphoric_acid.temperature = 100;
+phosphoric_acid.luminosity = 0;
+phosphoric_acid.color = Color.fromHex("d5648e").getIntColor();
+phosphoric_acid.stillLocation = "base:fluids/liquid";
+phosphoric_acid.flowingLocation = "base:fluids/liquid_flow";
+phosphoric_acid.register();
+
 val nitric_acid = mods.contenttweaker.VanillaFactory.createFluid("nitric_acid", Color.fromHex("2005aa").getIntColor());
 nitric_acid.material = <blockmaterial:water>;
 nitric_acid.viscosity = 3000;
@@ -2603,6 +2627,18 @@ hydrogen_fluoride.color = Color.fromHex("85a9ac").getIntColor();
 hydrogen_fluoride.stillLocation = "base:fluids/liquid";
 hydrogen_fluoride.flowingLocation = "base:fluids/liquid_flow";
 hydrogen_fluoride.register();
+
+val phosphine = mods.contenttweaker.VanillaFactory.createFluid("phosphine", Color.fromHex("8a5144").getIntColor());
+phosphine.material = <blockmaterial:water>;
+phosphine.viscosity = 3000;
+phosphine.density = -1000;
+phosphine.colorize = true;
+phosphine.temperature = 400;
+phosphine.luminosity = 0;
+phosphine.color = Color.fromHex("8a5144").getIntColor();
+phosphine.stillLocation = "base:fluids/liquid";
+phosphine.flowingLocation = "base:fluids/liquid_flow";
+phosphine.register();
 
 val liquid_pe = mods.contenttweaker.VanillaFactory.createFluid("pe", Color.fromHex("ffffff").getIntColor());
 liquid_pe.material = <blockmaterial:water>;

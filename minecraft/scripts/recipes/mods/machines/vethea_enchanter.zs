@@ -11,8 +11,20 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
 import mods.modularmachinery.RecipeBuilder;
+import mods.modularmachinery.MachineModifier;
+import mods.modularmachinery.MMEvents;
+import mods.modularmachinery.ControllerGUIRenderEvent;
 import mods.ctutils.utils.Math;
 import mods.jei.JEI;
+
+MachineModifier.setMaxParallelism("vethea_enchanter", 1);
+MachineModifier.setMaxThreads("vethea_enchanter", 1);
+MachineModifier.setInternalParallelism("vethea_enchanter", 1);
+
+MMEvents.onControllerGUIRender("vethea_enchanter", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = ["§a///梦魇附魔机控制面板///", "§a机器名称：§eLV0 - 梦魇附魔机"];
+    event.extraInfo = info;
+});
 
 RecipeBuilder.newBuilder("vethea_mk1", "vethea_enchanter", 100)
     .addItemInput(<divinerpg:teaker_lump>)

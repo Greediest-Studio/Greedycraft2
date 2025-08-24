@@ -38,7 +38,7 @@ MachineModifier.setMaxParallelism("wave_forge", 256);
 MachineModifier.setInternalParallelism("wave_forge", 1);
 MachineModifier.setMaxThreads("wave_forge", 1);
 
-RecipeBuilder.newBuilder("wavite_forge", "wave_forge", 9600, 1)
+RecipeBuilder.newBuilder("wavite_forge", "wave_forge", 10800, 1)
     .addItemInputs([
         <ore:ingotFinallium>,
         <ore:ingotFrostburnMetal>,

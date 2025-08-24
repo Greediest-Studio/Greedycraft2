@@ -52,6 +52,12 @@
 					"tool"
 				]
 			},
+			Traits: [
+				"tconevo.infinitum",
+				"tconevo.omnipotence",
+				"coldblooded",
+				"toolleveling"
+			],
 			StatsOriginal: {
 				MiningSpeed: 666.0f,
 				HarvestLevel: 127,
@@ -62,13 +68,7 @@
 				LaserGunPower: 2.5f,
 				LaserGunEnergy: 120000,
 				Durability: 80394
-			},
-			Traits: [
-				"tconevo.infinitum",
-				"tconevo.omnipotence",
-				"coldblooded",
-				"toolleveling"
-			]
+			}
 		}
 	},
 	always_invisible: 0b,

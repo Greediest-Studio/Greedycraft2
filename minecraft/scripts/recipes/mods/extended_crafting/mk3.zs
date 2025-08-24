@@ -198,3 +198,13 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:upgrade_output>, [
 	[<ore:plateZincargentum>, <ore:ingotCrystalMatrix>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:ingotPorpezite>, <ore:modularUpgradeEnergy>, null], 
 	[<ore:plateZincargentum>, <ore:plateZincargentum>, <ore:plateZincargentum>, <ore:ingotNiobiumTitanium>, <ore:ingotNiobiumTitanium>, null, null]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:brain_container>, [
+	[<ore:ingotFinallium>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:barsIron>, <ore:ingotFinallium>], 
+	[<ore:barsIron>, <ore:blockGlassHardened>, <ore:circuitDreamic>, <ore:circuitArcane>, <ore:circuitDreamic>, <ore:blockGlassHardened>, <ore:barsIron>], 
+	[<ore:barsIron>, <ore:blockSanite>, <ore:blockGlassHardened>, <ore:blockGlassHardened>, <ore:blockGlassHardened>, <ore:blockSanite>, <ore:barsIron>], 
+	[<ore:barsIron>, <ore:blockSanite>, <ore:ingotAbyssine>, <additions:consciousness_brain_mk1>, <ore:ingotAbyssine>, <ore:blockSanite>, <ore:barsIron>], 
+	[<ore:barsIron>, <ore:blockSanite>, <ore:blockGlassHardened>, <ore:blockGlassHardened>, <ore:blockGlassHardened>, <ore:blockSanite>, <ore:barsIron>], 
+	[<ore:barsIron>, <ore:blockGlassHardened>, <ore:circuitDreamic>, <thermaldynamics:duct_16:7>, <ore:circuitDreamic>, <ore:blockGlassHardened>, <ore:barsIron>], 
+	[<ore:ingotFinallium>, <ore:barsIron>, <ore:barsIron>, <thermaldynamics:duct_16:7>, <ore:barsIron>, <ore:barsIron>, <ore:ingotFinallium>]
+]);

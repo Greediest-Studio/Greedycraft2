@@ -1,0 +1,36 @@
+{
+	title: "§b贪婪科技",
+	x: 4.5d,
+	y: 3.5d,
+	description: "合成神识之脑容器",
+	text: [
+		"生物质计算机的核心",
+		"绝对和新星工程一点关系都没有（确信）"
+	],
+	dependencies: [
+		"a5b64834"
+	],
+	tasks: [{
+		uid: "b9566feb",
+		type: "item",
+		items: [{
+			item: "additions:brain_container"
+		}]
+	}],
+	rewards: [{
+		uid: "582a56ca",
+		type: "item",
+		item: "gct_ores:finallium_ingot",
+		random_bonus: 2
+	},
+	{
+		uid: "0f8635eb",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "ddb54562",
+		type: "xp",
+		xp: 23456
+	}]
+}

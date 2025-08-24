@@ -291,6 +291,9 @@ ChemicalReactor.addRecipe(<liquid:barium_sulfide_solution> * 333, <liquid:hydroc
 ChemicalReactor.addRecipe(<liquid:hydrogen_sulfide> * 250, <liquid:oxygen> * 375, <liquid:water> * 250, <liquid:sulfur_dioxide> * 250);
 ChemicalReactor.addRecipe(<liquid:liquidgallium> * 72, <liquid:phosphorus> * 72, <liquid:gallium_phosphide> * 333, null);
 ChemicalReactor.addRecipe(<liquid:indium> * 72, <liquid:phosphorus> * 72, <liquid:indium_phosphide> * 333, null);
+ChemicalReactor.addRecipe(<liquid:phosphine> * 1000, <liquid:oxygen> * 750, <liquid:phosphorus_pentaoxide> * 333, <liquid:water> * 1500);
+ChemicalReactor.addRecipe(<liquid:phosphorus> * 144, <liquid:oxygen> * 1250, <liquid:phosphorus_pentaoxide> * 333, null);
+ChemicalReactor.addRecipe(<liquid:phosphorus_pentaoxide> * 333, <liquid:water> * 1500, <liquid:phosphoric_acid> * 1000, null);
 
 Crystallizer.addRecipe(<liquid:iodine_carbon_tetrachloride_solution> * 200, <jaopca:dust.iodine>);
 Crystallizer.addRecipe(<liquid:chloroplatinic_acid_solution> * 666, <additions:chloroplatinic_acid>);

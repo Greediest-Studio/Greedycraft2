@@ -1,0 +1,29 @@
+{
+	title: "§b更便捷的三合一",
+	x: -3.5d,
+	y: -2.0d,
+	description: "合成要素合成机控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"32611aa3"
+	],
+	tasks: [{
+		uid: "5e1104f2",
+		type: "item",
+		items: [{
+			item: "modularmachinery:aspect_crafter_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "8a3a6d71",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "126f91fd",
+		type: "xp",
+		xp: 10000
+	}]
+}
