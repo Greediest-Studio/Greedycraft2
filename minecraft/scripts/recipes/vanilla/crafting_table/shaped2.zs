@@ -588,3 +588,8 @@ RecipeUtil.addShaped("link_card", <whimcraft:link_card>, [
     [<crazyae:material:35>, <additions:wireless_processor>, <crazyae:material:35>],
     [null, <crazyae:material:35>, null]
 ]);
+RecipeUtil.addShaped("ancient_collection", <additions:ancient_collection>, [
+    [<additions:ancient_tome>, <additions:ancient_tome>, <additions:ancient_tome>],
+    [<additions:ancient_tome>, <additions:ancient_tome>, <additions:ancient_tome>],
+    [<additions:ancient_tome>, <additions:ancient_tome>, <additions:ancient_tome>]
+]);

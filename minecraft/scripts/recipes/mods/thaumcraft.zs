@@ -28,7 +28,8 @@ var removedRecipes as IItemStack[] = [
     <thaumadditions:mithminite_blade>,
     <thaumadditions:mithminite_handle>,
     <thaumadditions:entity_summoner>,
-    <thaumadditions:dna_sample>
+    <thaumadditions:dna_sample>,
+    <thaumictinkerer:kamiresource:3>
 ];
 
 for removedItem in removedRecipes {

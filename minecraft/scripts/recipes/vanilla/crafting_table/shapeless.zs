@@ -502,10 +502,3 @@ RecipeUtil.addShapeless("mana_speed_card", <crazyae:upgrade:2>,
     [<appliedenergistics2:material:28>, <crazyae:material:35>]
 );
 
-/* Template
-
-RecipeUtil.addShapeless("", <>,
-    []
-);
-
-*/
