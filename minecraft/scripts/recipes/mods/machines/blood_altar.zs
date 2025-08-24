@@ -248,14 +248,12 @@ MMEvents.onMachinePreTick("blood_altar", function(event as MachineTickEvent) {
     if (!world.isRemote() && event.controller.getBlocksInPattern(<additions:blood_rune_personal>) > 0 && event.controller.getAltarMode() == 2) {
         var speed as int = pow(2, (event.controller.getBlocksInPattern(<additions:blood_rune_personal>) - 1) as double) as int;
         var uuid as string = event.controller.ownerUUID;
-        if (!isNull(server.getPlayerByUUID(uuid)) && event.controller.getAltarLP() >= speed) {
-            var player as IPlayer = server.getPlayerByUUID(uuid);
-            event.controller.customData = event.controller.customData.update({LP : event.controller.getAltarLP() - (speed as long)});
-            player.soulNetwork.currentEssence += speed as int;
-        } else if (!isNull(server.getPlayerByUUID(uuid)) && event.controller.getAltarLP() < speed) {
-            var player as IPlayer = server.getPlayerByUUID(uuid);
-            player.soulNetwork.currentEssence += event.controller.getAltarLP() as int;
-            event.controller.customData = event.controller.customData.update({LP : 0L});
+        var player as IPlayer = server.getPlayerByUUID(uuid);
+        var freeEssenceSpace as int = 2147483647 - player.soulNetwork.currentEssence;
+        if (!isNull(player) && freeEssenceSpace > 0) {
+            var transfer as int = min(min(event.controller.getAltarLP(), speed), freeEssenceSpace);
+            player.soulNetwork.currentEssence += transfer as int;
+            event.controller.customData = event.controller.customData.update({LP : event.controller.getAltarLP() - (transfer as long)});
         }
     }
 });
