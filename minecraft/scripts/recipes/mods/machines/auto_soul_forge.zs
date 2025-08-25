@@ -27,8 +27,11 @@ import mods.modularmachinery.SmartInterfaceUpdateEvent;
 import mods.modularmachinery.Sync;
 import mods.modularmachinery.FactoryRecipeThread;
 import mods.modularmachinery.IMachineController;
+import mods.modularmachinery.IngredientArrayBuilder;
 import mods.ctutils.utils.Math;
 import mods.jei.JEI;
+
+import mods.zenutils.DataUpdateOperation.REMOVE;
 
 MachineModifier.setMaxThreads("auto_soul_forge", 1);
 MachineModifier.setInternalParallelism("auto_soul_forge", 1);
@@ -130,6 +133,7 @@ function addHellForgeRecipe(inputs as IIngredient[], output as IItemStack, will 
     builder.addRecipeTooltip("§a消耗恶魔意志" ~ will as string ~ "点");
     builder.build();
 }
+
 
 addHellForgeRecipe([<minecraft:cauldron>, <ore:stone>, <ore:gemLapis>, <ore:gemDiamond>],
 <bloodmagic:demon_crucible>, 100);

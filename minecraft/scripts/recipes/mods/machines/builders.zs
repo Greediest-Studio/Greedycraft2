@@ -38,6 +38,7 @@ MachineModifier.setMaxParallelism("builder_3", 256);
 MachineModifier.setMaxParallelism("builder_4", 256);
 MachineModifier.setMaxParallelism("builder_5", 256);
 
+
 function addBuilderRecipe(controller as IItemStack, inputs as IIngredient[], level as int, basicTick as int) {
     var tick = basicTick;
     for i in level to 6 {
@@ -51,6 +52,15 @@ function addBuilderRecipe(controller as IItemStack, inputs as IIngredient[], lev
         builder.build();
         tick /= 2;
     }
+    val levelMap as string[int] = {
+        1 : "§a§l基础",
+        2 : "§3§l强化",
+        3 : "§d§l进阶",
+        4 : "§6§l炫光",
+        5 : "§b§l终极",
+        6 : "§4§l原罪"
+    };
+    MachineModifier.setMachinePrefix(controller.definition.id.split("_factory_controller")[0].split(":")[1], levelMap[level]);
 }
 
 MMEvents.onControllerGUIRender("builder_1", function(event as ControllerGUIRenderEvent) {
@@ -73,6 +83,20 @@ MMEvents.onControllerGUIRender("builder_5", function(event as ControllerGUIRende
     var info as string[] = ["§a///终极装配室控制面板///", "§a机器名称：§eLV4 - 终极装配室"];
     event.extraInfo = info;
 });
+
+//LV0
+MachineModifier.setMachinePrefix("mek_changer", "§f§l初始");
+MachineModifier.setMachinePrefix("vethea_enchanter", "§f§l初始");
+MachineModifier.setMachinePrefix("builder_1", "§f§l初始");
+MachineModifier.setMachinePrefix("extendable_calculator_subsystem_l4", "§c§lECO");
+MachineModifier.setMachinePrefix("extendable_calculator_subsystem_l6", "§c§lECO");
+MachineModifier.setMachinePrefix("extendable_calculator_subsystem_l9", "§c§lECO");
+MachineModifier.setMachinePrefix("extendable_digital_storage_subsystem_l4", "§c§lECO");
+MachineModifier.setMachinePrefix("extendable_digital_storage_subsystem_l6", "§c§lECO");
+MachineModifier.setMachinePrefix("extendable_digital_storage_subsystem_l9", "§c§lECO");
+MachineModifier.setMachinePrefix("extendable_fabricator_subsystem_l4", "§c§lECO");
+MachineModifier.setMachinePrefix("extendable_fabricator_subsystem_l6", "§c§lECO");
+MachineModifier.setMachinePrefix("extendable_fabricator_subsystem_l9", "§c§lECO");
 
 //LV1
 addBuilderRecipe(<modularmachinery:durasteel_forge_factory_controller>, [
@@ -816,10 +840,25 @@ addBuilderRecipe(<modularmachinery:arcane_matrix_factory_controller>, [
 ], 4, 1200);
 
 //LV5
-/* 
-addBuilderRecipe(<modularmachinery:dimensional_miner_factory_controller>, [
 
-]);*/
+addBuilderRecipe(<modularmachinery:dimensional_miner_factory_controller>, [
+    <additions:logic_processor_3> * 24,
+    <additions:calculation_processor_3> * 12,
+    <additions:engineering_processor_3> * 48,
+    <ore:ingotModularium> * 192,
+    <ore:ingotChromasteel> * 48,
+    <ore:ingotAstronicium> * 32,
+    <ore:ingotEugardite> * 32,
+    <ore:ingotAdamantium> * 32,
+    <ore:ingotCthulhurite> * 32,
+    <ore:ingotOverlaite> * 32,
+    <ore:ingotFlashite> * 32,
+    <ore:ingotEverite> * 32,
+    <ore:ingotDeusiotium> * 24,
+    <ore:ingotDraconiumRuled> * 16,
+    <ore:ingotWitheriumEquipment> * 16,
+    <ore:ingotBalancedMatrix> * 8
+], 5, 9000);
 
 addBuilderRecipe(<modularmachinery:aspect_crafter_factory_controller>, [
     <additions:logic_processor_3> * 16,
