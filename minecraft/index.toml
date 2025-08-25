@@ -2217,12 +2217,24 @@ file = "addons/Additions/GreedyCraft/assets/additions/models/item/aetherium_ore.
 hash = "b79f52645b72aa80bbbfd39ccd3f04227beebf5de0c1ac868b930b5a8753bebf"
 
 [[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/models/item/alioth_crystal.json"
+hash = "dde1219e239ac0f5c373fcd7bffe77d761eba8ce2fa8ccaa9c39a08fa9055845"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/models/item/alkaid_crystal.json"
+hash = "52f1a857705fbb386c8fb8e5a3c937f409f652d055e8ada8fe0556189d2bf262"
+
+[[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/models/item/ameralite.json"
 hash = "faede9f58bb3ae7e3781003c4c923c0b0bda843260646a4b9ae38be4e83953a0"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/models/item/americium_ingot.json"
 hash = "f1792653b7de42b27ee8110f5f0e918dc632977195bf8612a5b35fabccd78269"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/models/item/ancient_collection.json"
+hash = "0b6d0981c41c82b4171571a3a6985cf3cde6999918008a9c1ce979f7f95c1f54"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/models/item/ancient_debris.json"
@@ -3179,6 +3191,10 @@ hash = "b2ff2f56e2b7be385ff7a86d4f0bab40c5b34f82606881a49651d12bc136a0e9"
 [[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/models/item/dreamium_ingot.json"
 hash = "b833b413125b865da10cf7530d8f330eb3a37b247b6b7b0a59fa9432f656af16"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/models/item/dubhe_crystal.json"
+hash = "60234172ab77cf837a04893b7e0c6602d7b6686a6b2aa2bf8333829fc1d54371"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/models/item/dubnium_ingot.json"
@@ -4223,6 +4239,10 @@ hash = "2595b7047654ca18906ec2a3c73f54465c0ebb836554f971282cf97fa860d34d"
 [[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/models/item/lutetium_ingot.json"
 hash = "507a2f15058203cf7ba474243f6cdcf3b6bf2c7ac0d77ff9ee6542845f4b3790"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/models/item/magnetite_ingot.json"
+hash = "a5f7a4f208bcc292807c75369b16c955df4df84f282d4e39b25c74c468681723"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/models/item/malevolence_core.json"
@@ -6957,8 +6977,24 @@ file = "addons/Additions/GreedyCraft/assets/additions/textures/items/aetherium_i
 hash = "053da67e2baf39e4aa30ec711277a5ee98a5e1a72c7ac677bbd4f82d60e8e687"
 
 [[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/textures/items/alioth_crystal-layer0.png"
+hash = "803bd2b7786995765a026597ca24311e5f2979aa8e56e7acf3c2322d834613df"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/textures/items/alkaid_crystal-layer0.png"
+hash = "fc17d6a418700de56727c45702a626620bbd1ebb453916764c6303713d863a6a"
+
+[[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/textures/items/americium_ingot-layer0.png"
 hash = "2814eb95b2d689f0c24e1d794adb2260b33e7c04f704b139d3b11818fba3046f"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/textures/items/ancient_collection-layer0.png"
+hash = "64095dfbfa3f707a87dbb51aab21f33df2de695d87dc572b488321fc79ce9100"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/textures/items/ancient_shelf.png"
+hash = "64095dfbfa3f707a87dbb51aab21f33df2de695d87dc572b488321fc79ce9100"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/textures/items/ancient_tome-layer0.png"
@@ -7683,6 +7719,10 @@ hash = "fda28137c88f8213a045c915ce939aaaa951b23f7035dfbad979f463d2f62501"
 [[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/textures/items/dreamium_ingot-layer0.png"
 hash = "4e8b8bc89312893b7775f193667e771d66329b6d99c39a9964a1d8cf661c21bd"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/textures/items/dubhe_crystal-layer0.png"
+hash = "2b7f679162423c6d72745f63ccc84ee74797b5eb8d540e30b9c9caded077f7ec"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/textures/items/dubnium_ingot-layer0.png"
@@ -8463,6 +8503,10 @@ hash = "4230856c5057aeeda2e09d587fe15e2714f0dc60fa71459cc8f19198534873dd"
 [[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/textures/items/lutetium_ingot-layer0.png"
 hash = "6ae92baa5ece0253c43e43ad3a238b6f33c846caf3e4ebdbe258d8002aa71664"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/textures/items/magnetite_ingot-layer0.png"
+hash = "1a762dc997d155bd869fe672d4c4f99da1d3bb8066c39fc751be0fbcff893234"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/textures/items/malevolence_core-layer0.png"
@@ -10973,8 +11017,20 @@ file = "addons/Additions/GreedyCraft/data/items/aetherium_ingot.json"
 hash = "fd22ac6a9a64ddeec60d1563861634daab681f2f30c3161f4dbaf5947819dd6e"
 
 [[files]]
+file = "addons/Additions/GreedyCraft/data/items/alioth_crystal.json"
+hash = "99b5a38cb1ea462c250d3205ec3f93da82a4e7d771d150191bfa59e3b9baa95b"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/data/items/alkaid_crystal.json"
+hash = "af301257d51b0f497c1a61e06b3c8cd4ab4abb3ecbfcd10c28baa52787f28667"
+
+[[files]]
 file = "addons/Additions/GreedyCraft/data/items/americium_ingot.json"
 hash = "a958ec001918d13d0d87e064f7faa92a06f4dd900923a9e89715d7903aed24d1"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/data/items/ancient_collection.json"
+hash = "9709b0a4c5f79fc05a891ed0b0ff603731f1e2f0db0e008f30ed6d5ea93be4bc"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/data/items/ancient_tome.json"
@@ -11655,6 +11711,10 @@ hash = "9e481826958595d535127d7286a88dab931315f21073cd25b3d4c3ee21f38b74"
 [[files]]
 file = "addons/Additions/GreedyCraft/data/items/dreamium_ingot.json"
 hash = "abd030f4000bc00688c83a2592ccc5926b289dcf4dc11bab80d9bbe7490a5c66"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/data/items/dubhe_crystal.json"
+hash = "5a3729757230f29bf59d1fab2b18165e1445a48aa4b4994686f3f9b2d6978b75"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/data/items/dubnium_ingot.json"
@@ -12355,6 +12415,10 @@ hash = "721427bb08698163a2f31998b1602b87db8f77dfec20745b40d5fd5a3ef2a63e"
 [[files]]
 file = "addons/Additions/GreedyCraft/data/items/lutetium_ingot.json"
 hash = "8c3c8db66b5f5fa7fe0fb7c6dd7adb5d6641b758e6eb9ac13d097ea1b38c238e"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/data/items/magnetite_ingot.json"
+hash = "8fcf7f87e4b48970e7a1f7bc967ec513612d64353c7aae0fa98c7f2026b3229e"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/data/items/malevolence_core.json"
@@ -16926,7 +16990,7 @@ hash = "17cd6a83a8bbe64e60fa2830b44c11cab679e0189cb242b6d166b0cdcef3b98a"
 
 [[files]]
 file = "config/WhimCraft.cfg"
-hash = "a46e79b3064e34e998a99a90a3281de9e80ec3602740c2376a4c87ae024609d5"
+hash = "e8357c97d3680bd57e2cdcb84f8fa1becd1901277ab01581c4051f1a95072033"
 
 [[files]]
 file = "config/XU2-Patcher.cfg"
@@ -22522,7 +22586,7 @@ hash = "048aee68021092688ccc7304fc7388ec9f0f0fb1914ec527479c7b761bc28d45"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/17b27275/da17fad8.snbt"
-hash = "99c3248bbf2c9c56a1541d7d79e355fe83d5bc776672365fadd7be1bc1825efb"
+hash = "27d47b21844e806814cb2eaf6ce91b15f93106ba1989769020c6612ec91cf4b6"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/17b27275/dc319614.snbt"
@@ -22854,11 +22918,11 @@ hash = "058b3148b2ebebcf1c671e3ddf3931b46646da492f9b491c5d5418f8b7b17496"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/29136d8e/chapter.snbt"
-hash = "cc8c8316490b48e1b5b0c6609849f527898135b4938dbfa6f23b9cca13d2d648"
+hash = "c0c4b74fd91383120bd021ba33cd5e795936d606aaaa629a9a06dc79722ba357"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/2eed2dbe/chapter.snbt"
-hash = "553eb829f5ebbfd2b89a884958612775401a0d63ca050815629351c979ce32a8"
+hash = "f1282cfa764e7e0b7fc6aa5b25c2eab18646fbe4e949cff0f933712905ed6154"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/30d36593/chapter.snbt"
@@ -25682,7 +25746,7 @@ hash = "dba91882a982e1c1a798e0085a06858b3c6b7ac1feaace1e7682d524a2bbc755"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/ae9350b7/999edaaa.snbt"
-hash = "4e252c7a017e50b10f7d23ba11a87591d319debe56f348ea64885754d4ed1aac"
+hash = "e45d3168cf671b4b7907c53026087d9bb4333e274b44672e0a19a357ee26ecb4"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/ae9350b7/9a5208f6.snbt"
@@ -26374,7 +26438,7 @@ hash = "2b054a177ee9dbef9c1c67c093d4e84cb4404f44947a04cb397131159a398ee2"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/d96368f0/chapter.snbt"
-hash = "52c7b6fa0268fe70caaaac20e2846d8d1dce119d479ee502d4c71cb0533eb858"
+hash = "159ffc4a706357bac05aa80c5a1beaad2570a449ac44523c0fcb28880308f872"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/eec68a41/01988e6d.snbt"
@@ -26678,7 +26742,7 @@ hash = "d037b8943113928842c3ad24519cf8885b8df68b76a297f6e4f6c63f8a92eece"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/ef7cde26/chapter.snbt"
-hash = "4387b42c94c3e8e0eeae048d7089d3a6591f7a9473028cdff646da4058e5e40c"
+hash = "b8af255e3a862638589b9a05ab2f6cf6f7329783cb05667800d4af627d8ccce6"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/fc17327d/002596c6.snbt"
@@ -26726,7 +26790,7 @@ hash = "d6b9462bb3f63d97af0fb81eb7371d17a2ba079036db4ca018f35e6af8545a8a"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/fc17327d/5c93e631.snbt"
-hash = "553622524ba43730545fee7b3f3b838551f2718fef84f10effdefff7da36e155"
+hash = "1a9cb286d5bf2ad97e6f3bbeceb9bb2baf92a95f78f35b58e4d9535d89d0fcf7"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/fc17327d/5d0a6239.snbt"
@@ -27217,6 +27281,14 @@ file = "config/jaopca/materials/aetherium.toml"
 hash = "f8637378644d2985ec77a6c0c973bcf2106d76c4f074a443ecbc3f3efbe08e46"
 
 [[files]]
+file = "config/jaopca/materials/alioth.toml"
+hash = "2f19275c3293a8c444c6b30311d21aea743bbf63f32b210fa367c584f353df81"
+
+[[files]]
+file = "config/jaopca/materials/alkaid.toml"
+hash = "884ad7ebef06f3ef85b6e47174e8b6cc15262114abdfe3843bbe052c3f16ae88"
+
+[[files]]
 file = "config/jaopca/materials/altairium.toml"
 hash = "f4ed17d1fc0537de57caaad817d7a8acc4cbfd8b1d697ed0fc6ecc8985149c6e"
 
@@ -27426,7 +27498,7 @@ hash = "542f809bb065726e5ae7442746b9d80d5e5a8a60d4e4fea9f653d413073b6da4"
 
 [[files]]
 file = "config/jaopca/materials/auric.toml"
-hash = "a5afe96561d24802ab02399a3e77b174180d9471941ff933450e6c7379e50e3d"
+hash = "9bbc608a680cdf20ca0fc755b6a16714d52578c4bb28cfb811e2b3c2bf426c68"
 
 [[files]]
 file = "config/jaopca/materials/aurorianite.toml"
@@ -27530,7 +27602,7 @@ hash = "8ecb5928a7bce5de79c89633f2bc062069280ec810a8d84c8a5822258564f49c"
 
 [[files]]
 file = "config/jaopca/materials/black_iron.toml"
-hash = "daa86bfa60309b229df5a80c58aab2a06f03392bfbe2736ec4712bc6bc769c48"
+hash = "213f999416f4b0c653367db3d5cc1353eda97c63202cacfdfd165a0cfbf8535a"
 
 [[files]]
 file = "config/jaopca/materials/black_iron.toml.bak"
@@ -27542,7 +27614,7 @@ hash = "86f4f88a6b053f305f79826596a0bc7056193dd90bcbd9a9856d0a36eb1fb2dc"
 
 [[files]]
 file = "config/jaopca/materials/blackiron.toml"
-hash = "8db470983f1e2ee26d6688bafc3a2230c4f393eed8e45841d55deabe1281fec9"
+hash = "01be49ff7a7ff52a382882cad8ee728635d42cde46dc6e832d79bb340237825e"
 
 [[files]]
 file = "config/jaopca/materials/blazingium.toml"
@@ -28195,6 +28267,10 @@ hash = "c05de9384131c533748d1d4c3d2ed4ee54bb006caffc142c92fb60650cf02f96"
 [[files]]
 file = "config/jaopca/materials/dreamium.toml"
 hash = "d4693038bc534813f79270a42fe21098e3a915b0b62b924b8b2c6901337c6381"
+
+[[files]]
+file = "config/jaopca/materials/dubhe.toml"
+hash = "a8e4010f5c6fc9950ebeb78d7362ee2d42e5fbbe2bbd618f10003f1729297a32"
 
 [[files]]
 file = "config/jaopca/materials/dubnium.toml"
@@ -28989,6 +29065,10 @@ file = "config/jaopca/materials/magnesium_diboride.toml"
 hash = "b1e8b3a688761b38558690899b467af7fbaac6eede5af12fff5f15543b8dd93a"
 
 [[files]]
+file = "config/jaopca/materials/magnetite.toml"
+hash = "0c8b4b66917a9d0ad890a6ba313623f9552cc534baae39654912f9328706f189"
+
+[[files]]
 file = "config/jaopca/materials/malachite.toml"
 hash = "ffbc4f791d57fb23cce7fb0d5a3e44d20942f7e7a18b0de2264464d6dea27f5d"
 
@@ -29757,6 +29837,10 @@ file = "config/jaopca/materials/seaborgium.toml"
 hash = "4158328423f5b9047e1b49a76826fe4306cc44fc0eba9f7c593d51af7315b824"
 
 [[files]]
+file = "config/jaopca/materials/seasonite.toml"
+hash = "d5642f9d1035fb5d3d5e906b7459bca05e7052040f52bc988d5ab42586f8ffe6"
+
+[[files]]
 file = "config/jaopca/materials/seismum.toml"
 hash = "32a06794e7cf598c74c50d53ba3841ebe8dfcab5cc17b31804ba36221dbc4fc0"
 
@@ -30115,6 +30199,10 @@ hash = "4fad0aa675809844097adabfabf21a06ac0bf9ec9daa541f3844ad593c6d645c"
 [[files]]
 file = "config/jaopca/materials/trichromadentium.toml"
 hash = "69f94ae59271dce2c9601465adb204d6fe39f8e29097dceef98439d5be31b9b2"
+
+[[files]]
+file = "config/jaopca/materials/tridimite.toml"
+hash = "4b39a31893a3a9b5cd4da6e581c861476e8bf64553ef41ceb88ce1f049a5541f"
 
 [[files]]
 file = "config/jaopca/materials/tritonite.toml"
@@ -31149,10 +31237,6 @@ file = "config/modularmachinery/machinery/lv4_arcane_melter.json"
 hash = "b37b0db33b010f6302da29bf37fd3d95a93bc4926ae55d0018c0247888b13c1e"
 
 [[files]]
-file = "config/modularmachinery/machinery/lv4_aspect_absorber.json"
-hash = "513be05a4c03f3351157950704521d7a108623c9507c5ed63a0bd0acce63f4e7"
-
-[[files]]
 file = "config/modularmachinery/machinery/lv4_astral_collector.json"
 hash = "5b7bc8fb26b6cbcc475a08856255695f189b570e60f8d9f1b544e54ba5f48963"
 
@@ -31183,6 +31267,10 @@ hash = "d829e416554d8aff15aa5b25249ba77a38295ce490449a351dd7f1c0ccdc9b6d"
 [[files]]
 file = "config/modularmachinery/machinery/lv4_forge_finallium.json"
 hash = "a7bcdc013c3df6ec14c6c42dd5446aca59eca9d5406d3ee53acd3d4d9c948c0f"
+
+[[files]]
+file = "config/modularmachinery/machinery/lv4_great_arcane_matrix.json"
+hash = "4940f16ed4a7303d66f049766988066b0eb340fc4be637e3e5135673ad7d17b9"
 
 [[files]]
 file = "config/modularmachinery/machinery/lv4_impetus_forge.json"
@@ -31222,7 +31310,7 @@ hash = "85f60785e00bde3e5a6be2fc7e92ff09e5e3c2f98852267e1bcbaa6c7b74c181"
 
 [[files]]
 file = "config/modularmachinery/machinery/variables/casings.var.json"
-hash = "3a6ce1fa842090182e55a9aea95b95c5699a51c8ea36af53ed61c8fb1f11565b"
+hash = "7b6d0477206acc9f0dac324b39868168b9b724acad2eeb3c538e2f57beef55e1"
 
 [[files]]
 file = "config/modularmachinery/modularmachinery.cfg"
@@ -32482,7 +32570,7 @@ hash = "cf34bc82e2ac2affc174eca21942026316ed8f3c66f90f838ec29b329a1ed769"
 
 [[files]]
 file = "config/redirectionor_cfg.json"
-hash = "a189ab3cd84fce79d1036901410326f76fa0e018a2f52e1b193896dc057ae824"
+hash = "b4f12360d3d0892b04202713fee78620ff135b4e0630a01a471f8cfd8af1f187"
 
 [[files]]
 file = "config/redstonepaste.cfg"
@@ -32914,7 +33002,7 @@ hash = "d9a5bef32fafdacae79c98bbce8ab862d5fc030837d34613bf9a8e8827b370db"
 
 [[files]]
 file = "config/stellarcore_stitcher_cache_vanilla.dat"
-hash = "a7a80e11fd774e1c4a0cf29a178038b46ff4a531f03a1f87abe0a656c88ee904"
+hash = "07f7d1c2c0ded87959341f2bbdafaa9f19793c346965ea7d3a7ccba798c9f09a"
 
 [[files]]
 file = "config/storagedrawers.cfg"
@@ -33202,7 +33290,7 @@ hash = "da295fa932222961e867530f77f96eda1c711abad1491fac46a7a9d0b69ebe63"
 
 [[files]]
 file = "config/thaumcraft_smelter.dat"
-hash = "75490783087c178cdc46de278bf8b5ae1e20679eefc0eea4285e7f2935b93508"
+hash = "e9d6db2199b9d21693f14c987ae2f88eeac50f1de6604ac7f24dc29c29dbac63"
 
 [[files]]
 file = "config/thaumcraft_world.cfg"
@@ -33222,7 +33310,7 @@ hash = "d8e0506abfc14775ae3e997a9d5babc911855fdf699f8713883afa9c96969684"
 
 [[files]]
 file = "config/thaumicenergistics.properties"
-hash = "585316b3ac11385f74dd1178e110ab77ef16b679282a92aca9063496ea4aac0f"
+hash = "601c2d733aab273f9e8805041567923cae56fefcf2f9d74e1dd9e6a833531c91"
 
 [[files]]
 file = "config/thaumicjei.cfg"
@@ -33230,7 +33318,7 @@ hash = "f191208cedaf0c19ccdbfb4ec58af40a317383f7ba1e4385dc43dc591aeb4faa"
 
 [[files]]
 file = "config/thaumicjei_itemstack_aspects.json"
-hash = "c8ac8577e757fba82c041c20b12227ac0cf47550306b0f8d15bd40f1cb8b22a8"
+hash = "2b154196c3dd45b871183bb9c30f50cddcf84921e73b73995c52eec30d11baf9"
 
 [[files]]
 file = "config/thaumictinkerer.cfg"
@@ -33502,7 +33590,7 @@ hash = "ec44a9730d4014ac98a255cd4ea9e10fadcaba5473e14dd614c3900e40e414f9"
 
 [[files]]
 file = "config/trashslot.cfg"
-hash = "81ea4a6d23f1bfbc9c3ee0b132d3abec8f4f5b6c888355e8bb898358b83a88c5"
+hash = "a3fe21cf5a9d687c28f76e340074c7f1bdf684886b0e438a1f6a1d278db3984c"
 
 [[files]]
 file = "config/triumph/Triumph.txt"
@@ -36227,8 +36315,8 @@ file = "mods/GodAgglomerationPlate-1.0.2.jar"
 hash = "be744711eccee3f1b9b40ef131ce2eb381d5c4ce48a9944eb4137503ef24403a"
 
 [[files]]
-file = "mods/HardCoreItemStages-1.0.6.jar"
-hash = "a8671767935b5684d8744933d6abdd0fe8cf68dbdc698cdd39dc6e71ff414819"
+file = "mods/HardCoreItemStages-1.0.7.jar"
+hash = "49d074e5579052a567d01e0aed715a617965b0a28fc7d49610df028ba9a7ef59"
 
 [[files]]
 file = "mods/HydrogenationTinker(0.1.1-release).jar"
@@ -36300,7 +36388,7 @@ hash = "14b8e3690aa1dfed7a49f8aea4daa1b0a5fc335e54b66865b555eebed564aca2"
 
 [[files]]
 file = "mods/WhimCraft-0.1.3-bate.jar"
-hash = "d6b6412920de29508a249e66c014e5cfe4840f6f2e42395e040f770eebc0efae"
+hash = "059f4c1f4a7a0d6c910bebaf4bb6b383e764c575f6f1e51454a0fc196fa922c0"
 
 [[files]]
 file = "mods/[gct]Gct_aby-1.12.2.jar"
@@ -40500,7 +40588,7 @@ hash = "380471464f551d9240470791c41cf02cf42c6e28e463a304f050569443ef849d"
 
 [[files]]
 file = "resources/jaopca/lang/zh_cn.lang"
-hash = "54f65ce1c2d06f7490318740260048ed0328892e8a0b52382615bf1ed94def1d"
+hash = "447c0764a4fa410e356f8dcef33d159b66be4152e76c043f0c558a5d6f0c26f2"
 
 [[files]]
 file = "resources/jaopca/models/item/crystal/brewed.json"
@@ -43543,8 +43631,280 @@ file = "resources/thaumicenergistics/lang/zh_cn.lang"
 hash = "27548e7786ede0c152369a1138a1f4f449bdd5842a5ae108f00fe06099f55c8e"
 
 [[files]]
+file = "resources/thaumicenergistics/textures/block/arcane_assembler.png"
+hash = "d025b2c2797455573a4e6cc7498b936bc02f91dc9a3da2f8e99c032a9f0236bd"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/block/arcane_assembler_active.png"
+hash = "6e71a12aefcda3e58b7c7360e52124d91912a64839253fc65ec71671e9690946"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/block/arcane_assembler_active.png.mcmeta"
+hash = "fded9160af863857a8a7d100ea2e5bcc0f363eb462c149fefb6673ced74261ea"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/block/infusion_provider.png"
+hash = "84af8b1ff9a08a0685d16f98d7318d22ad44954ad6dfd5d16ba316e0ba9c24c0"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/block/infusion_provider_active.png"
+hash = "e87e1ca4f2207065271c4266a31d2d91d97512c3f220ebf10b183f15cdfb42b8"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/block/infusion_provider_active.png.mcmeta"
+hash = "fded9160af863857a8a7d100ea2e5bcc0f363eb462c149fefb6673ced74261ea"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/block/infusion_provider_inactive.png"
+hash = "ca587e22dcae17689e222b491f021276fe94e769993c9729adfeb6b729141c25"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/block/super_arcane_assembler.png"
+hash = "650624a3e60543f8178d0815e79cba1eff7205229e61a707b6eed9010b4bd124"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/block/super_arcane_assembler_active.png"
+hash = "6e71a12aefcda3e58b7c7360e52124d91912a64839253fc65ec71671e9690946"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/block/super_arcane_assembler_active.png.mcmeta"
+hash = "fded9160af863857a8a7d100ea2e5bcc0f363eb462c149fefb6673ced74261ea"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/gui/arcane_assembler/active.png"
+hash = "fada45a1cf948a052b90faf7ceca214c118db734f3946cb8b33764bbfa368862"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/gui/arcane_assembler/aspects.png"
+hash = "0c113f87a62a721621d4606bcc4bef43e9aa95859d7136b18fce8e6a94264cfd"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/gui/arcane_assembler/inactive.png"
+hash = "67cfd363a7c64b40e2a19b4a92295c3ba6e2a419a6d822b58d90ed380dec91cc"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/gui/arcane_crafting.png"
+hash = "d5b7ed99da9378c7bd0c195d608b2c800f8ef5e09c631d1cbf0f0d04fccb364c"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/gui/arcane_crafting_no_side.png"
+hash = "46a1573f3b49abd7a7bbc582d27f7476c940af594440feb51147aec0369fb4d1"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/gui/knowledge_core.png"
+hash = "8e2d7c76596333b9906c4fc0072834bf9505a0ed8ac89fb689540abc34348914"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/gui/slot/knowledge_core.png"
+hash = "fca85d460760128ce4900e4f233f90fce90e2fc2cbcf7082b46062e2ef9c3ee3"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/gui/super_arcane_assembler/active.png"
+hash = "fada45a1cf948a052b90faf7ceca214c118db734f3946cb8b33764bbfa368862"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/gui/super_arcane_assembler/aspects.png"
+hash = "0c113f87a62a721621d4606bcc4bef43e9aa95859d7136b18fce8e6a94264cfd"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/gui/super_arcane_assembler/inactive.png"
+hash = "67cfd363a7c64b40e2a19b4a92295c3ba6e2a419a6d822b58d90ed380dec91cc"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/cell/1024k.png"
+hash = "0f3614c4ef91a12e80c9d3b5b8d4c20ab6107541d158b35ff7daacc106be09a4"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/cell/1048576k.png"
+hash = "ea344e7b6a830164c1610dc5fe8fb57adf1875c580d737cc461a91289f219f66"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/cell/16384k.png"
+hash = "6a479aa5ca30fdad48856562933280dbf93c01258ea1bf04be1b6bcb5c3879e1"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/cell/16k.png"
+hash = "fb457119af865560062f27d691c0a47a040999c410400db08e0511dd5ead16ab"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/cell/1k.png"
+hash = "969b1b8f3012ecc62d05492f93b73d0e66d21404ab17c30cb1f3a9f93e00e98b"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/cell/256k.png"
+hash = "8a31317e8f45a404a7f277b8ea2a86d19caa5ed1a4b8406dd238aa6124ac759c"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/cell/262144k.png"
+hash = "30a16641433570c7b44f9acb07223db5712b5694e1f1c0a7cef9c070b52e2980"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/cell/4096k.png"
+hash = "22a3ff8768800a8af38649cbd9d4d78afe076857f8c297f563f8d77132824bac"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/cell/4k.png"
+hash = "fc4d60c297576b9e709d10cb88077bdf445c059c45db2f20fbe8fc5306892d94"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/cell/64k.png"
+hash = "3b1ea1bd0500ddb0c7056ac1b3226d6b5a19606f9860b7d161b1e8ee2f15e875"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/cell/65536k.png"
+hash = "7ea2ceed285ca151ba5403aee4e00ffece770c52546080ee4f08f95042c76018"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/cell/creative.png"
+hash = "6c2ab337d4607b2a131daaf90c3fef2de1825034259c65f3495591f441e38e48"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/material/adv_casing.png"
+hash = "5cd0c13a0e0e639f0a9c57664e4ab8a9751368f448bada4601ae4f5fd011b313"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/material/blank_knowledge_core.png"
+hash = "7de487dbe77925abd6223782e6c12b590b2796e38ff0f6ddc1bd1076bc62eb86"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/material/essentia_component_1024k.png"
+hash = "4cde052a12a06d3cbaa1bc95de462b4e16011c32f2a0d013cfff06c2c382944c"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/material/essentia_component_1048576k.png"
+hash = "3ea22914da12f0cccb68d5859074c7e484dc8dfb8dd5acd3037b201eec0412bc"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/material/essentia_component_16384k.png"
+hash = "053a22f7a68d5d19ee0d2f58866e3b1def4228718689ad7499cee5c47c7362f4"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/material/essentia_component_16k.png"
+hash = "9c2429f3dc2f9d3c498e2bbbfa917c3d946b76284c432f30cb67f322df47b621"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/material/essentia_component_1k.png"
+hash = "e6c20420590383afc67e4fd12f864522c448baaa8f0b4b1d187ea5d6b7b54bc9"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/material/essentia_component_256k.png"
+hash = "3b0ddfc94af9af56ce7bd8ce9d34c702dd1fe2b0ffc4e436391047fd3a6e0170"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/material/essentia_component_262144k.png"
+hash = "fa38fb5193d93b72c24b7a1d9fdcea0179c875185975a23a4f6d35f910c3a581"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/material/essentia_component_4096k.png"
+hash = "c07548d60eb3c541bc87dddef6478f424e698ee753c74aa7058faa0ec6f8c29d"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/material/essentia_component_4k.png"
+hash = "04f5a7fc8a865e74f6b8006190cf133faba5cdf84b2e54eef187dd892ea40629"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/material/essentia_component_64k.png"
+hash = "69d95eb2b7e82d06753f1849e9305068c26fe76544e4d510b1ab583d4da16e12"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/material/essentia_component_65536k.png"
+hash = "1e96de9e0cf0e16b85e1aa9caad804e00eb3ffec8001da359ca0eef9e3ff722c"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/material/knowledge_core.png"
+hash = "c18c57040b75363c732696811820ce289511175a34a4589b6a23024c2eb68fd6"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/material/knowledge_core.png.mcmeta"
+hash = "9b53d9769418604cb936e1e76b0a8264741f7229dcc4674d5343d484925b1c4b"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/material/primal_ingot.png"
+hash = "90a8ad3749160d6e11d82a4f3371d873ac3c32dab835552f98b3d26580fa6b80"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/material/primal_ingot.png.mcmeta"
+hash = "37ca1f757a42143edbc722b8933dc7ccb1b797ee3eaa4278783583d79858937d"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/item/material/upgrade_arcane.png"
+hash = "19b44dfc69fc13e016ca6175934c7af8a746141ac3e0b45ad3dea480961d53db"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/part/arcane_inscriber/overlay1.png"
+hash = "f3347e6c0596d9a587dc98ef5c9d82aded521ccd95c09660072610a46156bf15"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/part/arcane_inscriber/overlay2.png"
+hash = "b5c87932e99fe57890d62381e46c79d2405e0fa5bebaec069ef7044efbf1fe3e"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/part/arcane_inscriber/overlay3.png"
+hash = "198ce5e13b5e11ef057ab328482739ed38e4513870650bb7da7fddec518c44f8"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/part/arcane_inscriber/overlay4.png"
+hash = "4bab9419efe56655a28fd3e0b876f750c6b9943b45e2cfc6a080244d5eaac5ef"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/part/arcane_terminal/overlay1.png"
+hash = "84ad864fdd3dd9cd2ca5e81739a9391dbdf1786d33f8b819a418a416f67225c7"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/part/arcane_terminal/overlay2.png"
+hash = "b5c87932e99fe57890d62381e46c79d2405e0fa5bebaec069ef7044efbf1fe3e"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/part/arcane_terminal/overlay3.png"
+hash = "198ce5e13b5e11ef057ab328482739ed38e4513870650bb7da7fddec518c44f8"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/part/arcane_terminal/overlay4 - Copy.png"
+hash = "36af438ef0ab452dc9a71be71be975a8bfef4d8eec020e87e4351727875a0795"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/part/arcane_terminal/overlay4.png"
+hash = "1caa52d24064d4744e38e9bce1bcf5c8fac015596cc3a0ba22ddf1f69f509e8b"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/part/essentia_export_bus_face.png"
+hash = "2a041b6dd7c084a394e84cf43eb37dd76d015e70b4d033116cbe632f2b4a14eb"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/part/essentia_import_bus_face.png"
+hash = "d0fe0881588d94ab08af460b3de7f480d9d647b7ce9423e9cad66856fb36ece7"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/part/essentia_storage_bus_face.png"
+hash = "dd3d0b6bc72743683dc840b23fd46157240665a51c5622be09abed46bae6b5ac"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/part/essentia_terminal/bright.png"
+hash = "d3da9df5056e60efc6843b6911f2e7e4e9d8a8d2527c4af13c8be3c06d2fa36d"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/part/essentia_terminal/dark.png"
+hash = "dbbd223218f9707c26604a99febcf829c8d4e46e81c848b82e4dafdb3ffe0dcf"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/part/essentia_terminal/medium.png"
+hash = "7dda87d71bf1706b57570abd87fe91a9d6b52958384550392b8ea3bfe6778b97"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/particle/crafting.png"
+hash = "fb76449bcca368ff91658c1f0cc7385d15bb582f0d1dd6d63b353481798047f7"
+
+[[files]]
+file = "resources/thaumicenergistics/textures/research/tab_icon.png"
+hash = "8adf8e86829e2b5d59ccc356bbcb32a594c82dd627e89fc8b75c6cb38ca3449b"
+
+[[files]]
 file = "resources/thaumicrestoration/lang/zh_CN.lang"
 hash = "77cdd130010c0b9737df48ded76b839a4518fcd3eaa6edacfcabba88389a4c45"
+
+[[files]]
+file = "resources/thaumictinkerer/lang/zh_cn.lang"
+hash = "dbb16e2faae3fb61b08d62653db0645de437228bea748bc6548b828ed79b2682"
 
 [[files]]
 file = "resources/thaumicwonders/lang/zh_cn.lang"
@@ -43657,6 +44017,10 @@ hash = "660bced3b1526799fb40530139ea06ba69fab2de90b0c3b52cc433a9e5fac45a"
 [[files]]
 file = "resources/treetweaker/textures/redreamwood.png"
 hash = "7505b58d626af4098fb20138be830a6781ffb3224935b3d44cf42f3ad1005fef"
+
+[[files]]
+file = "resources/whimcraft/lang/zh_cn.lang"
+hash = "c9e2766f0d71c164d04b6c2e449861ff49a65d7cbae091eaeb20439c7628f58f"
 
 [[files]]
 file = "scripts/compat/abyss_settings/abyss_wand.zs"
@@ -44092,7 +44456,7 @@ hash = "5dd5fc0de3d46f2515ed7326e9a3eae7637bc3bea25d00e6e6220afebef857a8"
 
 [[files]]
 file = "scripts/global/server_translations.zs"
-hash = "afd98382062b74fa6a51ed42d5e1f0b7b1c837b7f4e5298c00126511cbab829f"
+hash = "9e3537fe456f1651b32ca303474ce4de66613077e2cd32b7db9871af4572cdcf"
 
 [[files]]
 file = "scripts/global/tconstruct_astral_attuned.zs"
@@ -44180,7 +44544,7 @@ hash = "16fb232c0e7b77aee926caecfaed7647d42c9f32c069e3557811e41f3930ff8d"
 
 [[files]]
 file = "scripts/misc/disabled_items.zs"
-hash = "9fc81b021e6e4c6950828b2be47d9a447aa5c6c3ef174573974adde2d36919f3"
+hash = "67060d5e355cc3714bdf1f9c51008f5cedc270fc2fac3b26222ba885814f2374"
 
 [[files]]
 file = "scripts/misc/misc.zs"
@@ -44224,7 +44588,7 @@ hash = "c93994a7eb12da7e18627a7500f33962bb2365b4a47fad5e313db5ec200026f7"
 
 [[files]]
 file = "scripts/recipes/mines_timer/8x.zs"
-hash = "628f44cede475bd75a5e1349f6b72bdb67b9cb3eac4d97bc085d3cc9702e03c7"
+hash = "19ba417cb43e88f09788211fa0a96074f04abd9eb5364aaa38f51042f395bfd7"
 
 [[files]]
 file = "scripts/recipes/mines_timer/banlist.zs"
@@ -44339,12 +44703,12 @@ file = "scripts/recipes/mods/machines/arcane_compressor.zs"
 hash = "0c6b46c240f00de180eba68d3b9d739fa91ac64483df224f2699d298140674ea"
 
 [[files]]
-file = "scripts/recipes/mods/machines/arcane_melter.zs"
-hash = "1214708c2b92ceecb03c0894367b4e26d1e65aef10d73ec310b17d659d46865d"
+file = "scripts/recipes/mods/machines/arcane_matrix.zs"
+hash = "2c601a5108afd47634541dd7febb6bd5b8bcc71efaa01c21f6f5d4dc4334c657"
 
 [[files]]
-file = "scripts/recipes/mods/machines/aspect_absorber.zs"
-hash = "664bcd33b9de46d15e3e01c533bd874b23c42d90027092a34b74d17f116419c9"
+file = "scripts/recipes/mods/machines/arcane_melter.zs"
+hash = "ca6eea0c2bc94fa5a72c92b9e6299a725dc2ff704e72dc62c5e0d0dbf1c9ec1c"
 
 [[files]]
 file = "scripts/recipes/mods/machines/aspect_crafter.zs"
@@ -44356,7 +44720,7 @@ hash = "16cea7724d880333bd04adabf2462cc5b5530ecd049dad222d1308f943a19450"
 
 [[files]]
 file = "scripts/recipes/mods/machines/aura_crafter.zs"
-hash = "dba4a7e21ff13af5a7f03342a3efa60822fbae2be165ee7b29c342668b4e9ead"
+hash = "a565c42b1452753c11a698e94ab220fcc5a9747063b88c5e4f78f9a79e0ec5ed"
 
 [[files]]
 file = "scripts/recipes/mods/machines/auto_soul_forge.zs"
@@ -44364,15 +44728,15 @@ hash = "35883497a5f712bee35dff9437aec5ce4a49c100b476bdbc9095e9c2c1e1215a"
 
 [[files]]
 file = "scripts/recipes/mods/machines/blood_altar.zs"
-hash = "bedf65b3ee1e4721ddc029c8d4c2eaf2b888409a622edb0e3b063d2bcc8842ff"
+hash = "0816a360fde2cf9ad75f1489ae8287f0473ab377984260eb0a2970edfbfbff78"
 
 [[files]]
 file = "scripts/recipes/mods/machines/bright_altar.zs"
-hash = "3d47eff0230daae14266e5fd68f3940c53815dba5a135660a19069399518c153"
+hash = "b41bd36d62fc53ccb50b9584585e4230660cad5d6b24cbae5b3f3b4bc76e34b6"
 
 [[files]]
 file = "scripts/recipes/mods/machines/builders.zs"
-hash = "317414f7081e447d438d881ff2be8cf0f0a6500ad72cc58e10f82e3046ff493e"
+hash = "2c671a95a5569b1e0ca940b3d641fb29a28cbe9200fc10f311d9c0b47213d8a1"
 
 [[files]]
 file = "scripts/recipes/mods/machines/centrifuge_gas.zs"
@@ -44479,6 +44843,10 @@ file = "scripts/recipes/mods/machines/forge_finallium.zs"
 hash = "129e85cdf6177c74a6c420e0030d1035d93d82d70e6f3040a44fb5d269e98e5f"
 
 [[files]]
+file = "scripts/recipes/mods/machines/forge_wavite.zs"
+hash = "6e5c4e26e0f645359f9aeee6d20e93aae4f156e58d5f838bfd10716842e469e1"
+
+[[files]]
 file = "scripts/recipes/mods/machines/gene_builder.zs"
 hash = "3a27f4e4bf0d659eac8da4486ea3f617ea151bbec3e2089861a747c1c7282cf5"
 
@@ -44560,7 +44928,7 @@ hash = "2856a3e114c7564a64db77b7bd494a21a7096c6e6d39699323792117e53576bc"
 
 [[files]]
 file = "scripts/recipes/mods/machines/unitcell_builder.zs"
-hash = "45e6c5bc3ffc80548b91f90b824c58cbb815449b527840cf225ac6f2eb7e5471"
+hash = "ae496a468205008fd754d9337c53e5e9bb8875e1633912b098d25821b538b80a"
 
 [[files]]
 file = "scripts/recipes/mods/machines/vethea_enchanter.zs"
@@ -44592,7 +44960,7 @@ hash = "948ad62985a0ba400f709a94b97b680c879ab572bd493f9f35438b2d525d4518"
 
 [[files]]
 file = "scripts/recipes/mods/thaumcraft.zs"
-hash = "a90979e01b6da55fdc9dc0953581defb08fc2539e4583ad76402b3c68971b392"
+hash = "1bdb1fa5709092158ddbc86c538aa18843accb8e4c561c7912643f95506fcdd8"
 
 [[files]]
 file = "scripts/recipes/mods/the_betweenland.zs"
@@ -44644,11 +45012,11 @@ hash = "f40c219add161ab4fb987869b8770a36ffac3ee4c4d62ff9b134e1a7fc6c4574"
 
 [[files]]
 file = "scripts/recipes/vanilla/crafting_table/shaped2.zs"
-hash = "95b99427aa7432bdab450aa0235f60a7c91f3fada24454a78f128702c4880408"
+hash = "bb74be4f8121d466e62171cc63abdfae3fa9bada0f5c3cc3efabf7f026235772"
 
 [[files]]
 file = "scripts/recipes/vanilla/crafting_table/shapeless.zs"
-hash = "ad4443de9bbb6dca0a0cab1df9dd1250ac86b6d8d9bde31f421e909130b56172"
+hash = "d1852ab961634b3b0af2500b89face51ceb924760659ec162eedae6d6f85253e"
 
 [[files]]
 file = "scripts/recipes/vanilla/furnace.zs"
