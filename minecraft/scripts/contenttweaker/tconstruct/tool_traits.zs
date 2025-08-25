@@ -3682,8 +3682,10 @@ panoramaTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_
 panoramaTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer) {
         var player as IPlayer = attacker;
-        if (target.definition.id.split(":")[0] != "minecraft") {
-            return newDamage * 1.3f;
+        if (!isNull(target.definition)) {
+            if (target.definition.id.split(":")[0] != "minecraft") {
+                return newDamage * 1.3f;
+            }
         }
     }
     return newDamage;
