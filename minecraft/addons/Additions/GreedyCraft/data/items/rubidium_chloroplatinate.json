@@ -1,5 +1,8 @@
 {
-  "name": "氯铂酸铷粉",
-  "ore_dict": "dustRubidiumChloroplatinate",
+  "name": "氯铂酸铷",
+  "ore_dict": [
+    "dustRubidiumChloroplatinate",
+    "dustRubidiumChloroplatinate(IV)"
+  ],
   "type": "additions:simple"
 }

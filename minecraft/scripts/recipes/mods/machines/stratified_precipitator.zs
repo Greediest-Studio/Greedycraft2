@@ -39,3 +39,11 @@ RecipeBuilder.newBuilder("alkali", "stratified_precipitator", 600)
     .addItemOutput(<additions:cesium_chloroplatinate>).setChance(0.15f)
     .addFluidOutput(<liquid:water> * 10000)
     .build();
+
+RecipeBuilder.newBuilder("hou", "stratified_precipitator", 600)
+    .addFluidInput(<liquid:ammonia_brine> * 1000)
+    .addFluidInput(<liquid:carbon_dioxide> * 1000)
+    .addEnergyPerTickInput(20000)
+    .addItemOutput(<additions:sodium_hydrogen_carbonate>)
+    .addFluidOutput(<liquid:ammonium_chloride_solution> * 666)
+    .build();

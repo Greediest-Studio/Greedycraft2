@@ -1,5 +1,8 @@
 {
-  "name": "氯铂酸铯粉",
-  "ore_dict": "dustCesiumChloroplatinate",
+  "name": "氯铂酸铯",
+  "ore_dict": [
+    "dustCesiumChloroplatinate",
+    "dustCesiumChloroplatinate(IV)"
+  ],
   "type": "additions:simple"
 }

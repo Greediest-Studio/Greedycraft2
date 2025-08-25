@@ -2517,6 +2517,41 @@ molten_equipment_witherium.stillLocation = "base:fluids/molten";
 molten_equipment_witherium.flowingLocation = "base:fluids/molten_flowing";
 molten_equipment_witherium.register();
 
+val molten_zinc_chloride = mods.contenttweaker.VanillaFactory.createFluid("zinc_chloride", Color.fromHex("d5d5d5").getIntColor());
+molten_zinc_chloride.material = <blockmaterial:lava>;
+molten_zinc_chloride.viscosity = 3000;
+molten_zinc_chloride.density = 6500;
+molten_zinc_chloride.colorize = true;
+molten_zinc_chloride.temperature = 1000;
+molten_zinc_chloride.luminosity = 10;
+molten_zinc_chloride.color = Color.fromHex("d5d5d5").getIntColor();
+molten_zinc_chloride.stillLocation = "base:fluids/molten";
+molten_zinc_chloride.flowingLocation = "base:fluids/molten_flowing";
+molten_zinc_chloride.register();
+
+val molten_manganese_chloride = mods.contenttweaker.VanillaFactory.createFluid("manganese_chloride", Color.fromHex("ffb6c1").getIntColor());
+molten_manganese_chloride.material = <blockmaterial:lava>;
+molten_manganese_chloride.viscosity = 3000;
+molten_manganese_chloride.density = 6500;
+molten_manganese_chloride.colorize = true;
+molten_manganese_chloride.temperature = 1000;
+molten_manganese_chloride.luminosity = 10;
+molten_manganese_chloride.color = Color.fromHex("ffb6c1").getIntColor();
+molten_manganese_chloride.stillLocation = "base:fluids/molten";
+molten_manganese_chloride.flowingLocation = "base:fluids/molten_flowing";
+molten_manganese_chloride.register();
+
+val molten_molybdenum_trioxide = mods.contenttweaker.VanillaFactory.createFluid("molybdenum_trioxide", Color.fromHex("e0e0e0").getIntColor());
+molten_molybdenum_trioxide.material = <blockmaterial:lava>;
+molten_molybdenum_trioxide.viscosity = 3000;
+molten_molybdenum_trioxide.density = 6500;
+molten_molybdenum_trioxide.colorize = true;
+molten_molybdenum_trioxide.temperature = 1000;
+molten_molybdenum_trioxide.luminosity = 10;
+molten_molybdenum_trioxide.color = Color.fromHex("e0e0e0").getIntColor();
+molten_molybdenum_trioxide.stillLocation = "base:fluids/molten";
+molten_molybdenum_trioxide.flowingLocation = "base:fluids/molten_flowing";
+molten_molybdenum_trioxide.register();
 
 
 //液化类
@@ -2687,6 +2722,18 @@ halogen_brine.color = Color.fromHex("b9855c").getIntColor();
 halogen_brine.stillLocation = "base:fluids/liquid";
 halogen_brine.flowingLocation = "base:fluids/liquid_flow";
 halogen_brine.register();
+
+val ammonia_brine = mods.contenttweaker.VanillaFactory.createFluid("ammonia_brine", Color.fromHex("52588d").getIntColor());
+ammonia_brine.material = <blockmaterial:water>;
+ammonia_brine.viscosity = 3000;
+ammonia_brine.density = 6500;
+ammonia_brine.colorize = true;
+ammonia_brine.temperature = 400;
+ammonia_brine.luminosity = 10;
+ammonia_brine.color = Color.fromHex("52588d").getIntColor();
+ammonia_brine.stillLocation = "base:fluids/liquid";
+ammonia_brine.flowingLocation = "base:fluids/liquid_flow";
+ammonia_brine.register();
 
 val iodine_solution = mods.contenttweaker.VanillaFactory.createFluid("iodine_solution", Color.fromHex("ffc319").getIntColor());
 iodine_solution.material = <blockmaterial:water>;
@@ -2915,6 +2962,126 @@ barium_sulfide_solution.color = Color.fromHex("444444").getIntColor();
 barium_sulfide_solution.stillLocation = "base:fluids/liquid";
 barium_sulfide_solution.flowingLocation = "base:fluids/liquid_flow";
 barium_sulfide_solution.register();
+
+val sodium_phosphate_solution = mods.contenttweaker.VanillaFactory.createFluid("sodium_phosphate_solution", Color.fromHex("666666").getIntColor());
+sodium_phosphate_solution.material = <blockmaterial:water>;
+sodium_phosphate_solution.viscosity = 3000;
+sodium_phosphate_solution.density = 6500;
+sodium_phosphate_solution.colorize = true;
+sodium_phosphate_solution.temperature = 400;
+sodium_phosphate_solution.luminosity = 10;
+sodium_phosphate_solution.color = Color.fromHex("666666").getIntColor();
+sodium_phosphate_solution.stillLocation = "base:fluids/liquid";
+sodium_phosphate_solution.flowingLocation = "base:fluids/liquid_flow";
+sodium_phosphate_solution.register();
+
+val sodium_hydrogen_phosphate_solution = mods.contenttweaker.VanillaFactory.createFluid("sodium_hydrogen_phosphate_solution", Color.fromHex("666666").getIntColor());
+sodium_hydrogen_phosphate_solution.material = <blockmaterial:water>;
+sodium_hydrogen_phosphate_solution.viscosity = 3000;
+sodium_hydrogen_phosphate_solution.density = 6500;
+sodium_hydrogen_phosphate_solution.colorize = true;
+sodium_hydrogen_phosphate_solution.temperature = 400;
+sodium_hydrogen_phosphate_solution.luminosity = 10;
+sodium_hydrogen_phosphate_solution.color = Color.fromHex("666666").getIntColor();
+sodium_hydrogen_phosphate_solution.stillLocation = "base:fluids/liquid";
+sodium_hydrogen_phosphate_solution.flowingLocation = "base:fluids/liquid_flow";
+sodium_hydrogen_phosphate_solution.register();
+
+val sodium_dihydrogen_phosphate_solution = mods.contenttweaker.VanillaFactory.createFluid("sodium_dihydrogen_phosphate_solution", Color.fromHex("666666").getIntColor());
+sodium_dihydrogen_phosphate_solution.material = <blockmaterial:water>;
+sodium_dihydrogen_phosphate_solution.viscosity = 3000;
+sodium_dihydrogen_phosphate_solution.density = 6500;
+sodium_dihydrogen_phosphate_solution.colorize = true;
+sodium_dihydrogen_phosphate_solution.temperature = 400;
+sodium_dihydrogen_phosphate_solution.luminosity = 10;
+sodium_dihydrogen_phosphate_solution.color = Color.fromHex("666666").getIntColor();
+sodium_dihydrogen_phosphate_solution.stillLocation = "base:fluids/liquid";
+sodium_dihydrogen_phosphate_solution.flowingLocation = "base:fluids/liquid_flow";
+sodium_dihydrogen_phosphate_solution.register();
+
+val ammonium_chloride_solution = mods.contenttweaker.VanillaFactory.createFluid("ammonium_chloride_solution", Color.fromHex("dddddd").getIntColor());
+ammonium_chloride_solution.material = <blockmaterial:water>;
+ammonium_chloride_solution.viscosity = 3000;
+ammonium_chloride_solution.density = 6500;
+ammonium_chloride_solution.colorize = true;
+ammonium_chloride_solution.temperature = 400;
+ammonium_chloride_solution.luminosity = 10;
+ammonium_chloride_solution.color = Color.fromHex("dddddd").getIntColor();
+ammonium_chloride_solution.stillLocation = "base:fluids/liquid";
+ammonium_chloride_solution.flowingLocation = "base:fluids/liquid_flow";
+ammonium_chloride_solution.register();
+
+val magnesium_sulfate_solution = mods.contenttweaker.VanillaFactory.createFluid("magnesium_sulfate_solution", Color.fromHex("cccccc").getIntColor());
+magnesium_sulfate_solution.material = <blockmaterial:water>;
+magnesium_sulfate_solution.viscosity = 3000;
+magnesium_sulfate_solution.density = 6500;
+magnesium_sulfate_solution.colorize = true;
+magnesium_sulfate_solution.temperature = 400;
+magnesium_sulfate_solution.luminosity = 10;
+magnesium_sulfate_solution.color = Color.fromHex("cccccc").getIntColor();
+magnesium_sulfate_solution.stillLocation = "base:fluids/liquid";
+magnesium_sulfate_solution.flowingLocation = "base:fluids/liquid_flow";
+magnesium_sulfate_solution.register();
+
+val iron_2_sulfate_solution = mods.contenttweaker.VanillaFactory.createFluid("iron_2_sulfate_solution", Color.fromHex("a8e761").getIntColor());
+iron_2_sulfate_solution.material = <blockmaterial:water>;
+iron_2_sulfate_solution.viscosity = 3000;
+iron_2_sulfate_solution.density = 6500;
+iron_2_sulfate_solution.colorize = true;
+iron_2_sulfate_solution.temperature = 400;
+iron_2_sulfate_solution.luminosity = 10;
+iron_2_sulfate_solution.color = Color.fromHex("a8e761").getIntColor();
+iron_2_sulfate_solution.stillLocation = "base:fluids/liquid";
+iron_2_sulfate_solution.flowingLocation = "base:fluids/liquid_flow";
+iron_2_sulfate_solution.register();
+
+val zinc_chloride_solution = mods.contenttweaker.VanillaFactory.createFluid("zinc_chloride_solution", Color.fromHex("bff7fe").getIntColor());
+zinc_chloride_solution.material = <blockmaterial:water>;
+zinc_chloride_solution.viscosity = 3000;
+zinc_chloride_solution.density = 6500;
+zinc_chloride_solution.colorize = true;
+zinc_chloride_solution.temperature = 400;
+zinc_chloride_solution.luminosity = 10;
+zinc_chloride_solution.color = Color.fromHex("bff7fe").getIntColor();
+zinc_chloride_solution.stillLocation = "base:fluids/liquid";
+zinc_chloride_solution.flowingLocation = "base:fluids/liquid_flow";
+zinc_chloride_solution.register();
+
+val manganese_chloride_solution = mods.contenttweaker.VanillaFactory.createFluid("manganese_chloride_solution", Color.fromHex("ffb6c1").getIntColor());
+manganese_chloride_solution.material = <blockmaterial:water>;
+manganese_chloride_solution.viscosity = 3000;
+manganese_chloride_solution.density = 6500;
+manganese_chloride_solution.colorize = true;
+manganese_chloride_solution.temperature = 400;
+manganese_chloride_solution.luminosity = 10;
+manganese_chloride_solution.color = Color.fromHex("ffb6c1").getIntColor();
+manganese_chloride_solution.stillLocation = "base:fluids/liquid";
+manganese_chloride_solution.flowingLocation = "base:fluids/liquid_flow";
+manganese_chloride_solution.register();
+
+val sodium_molybdate_solution = mods.contenttweaker.VanillaFactory.createFluid("sodium_molybdate_solution", Color.fromHex("ffffff").getIntColor());
+sodium_molybdate_solution.material = <blockmaterial:water>;
+sodium_molybdate_solution.viscosity = 3000;
+sodium_molybdate_solution.density = 6500;
+sodium_molybdate_solution.colorize = true;
+sodium_molybdate_solution.temperature = 400;
+sodium_molybdate_solution.luminosity = 10;
+sodium_molybdate_solution.color = Color.fromHex("ffffff").getIntColor();
+sodium_molybdate_solution.stillLocation = "base:fluids/liquid";
+sodium_molybdate_solution.flowingLocation = "base:fluids/liquid_flow";
+sodium_molybdate_solution.register();
+
+val sodium_hydrogen_carbonate_solution = mods.contenttweaker.VanillaFactory.createFluid("sodium_hydrogen_carbonate_solution", Color.fromHex("dddddd").getIntColor());
+sodium_hydrogen_carbonate_solution.material = <blockmaterial:water>;
+sodium_hydrogen_carbonate_solution.viscosity = 3000;
+sodium_hydrogen_carbonate_solution.density = 6500;
+sodium_hydrogen_carbonate_solution.colorize = true;
+sodium_hydrogen_carbonate_solution.temperature = 400;
+sodium_hydrogen_carbonate_solution.luminosity = 10;
+sodium_hydrogen_carbonate_solution.color = Color.fromHex("dddddd").getIntColor();
+sodium_hydrogen_carbonate_solution.stillLocation = "base:fluids/liquid";
+sodium_hydrogen_carbonate_solution.flowingLocation = "base:fluids/liquid_flow";
+sodium_hydrogen_carbonate_solution.register();
 
 val hydrogen_sulfide = mods.contenttweaker.VanillaFactory.createFluid("hydrogen_sulfide", Color.fromHex("e7e769").getIntColor());
 hydrogen_sulfide.material = <blockmaterial:water>;

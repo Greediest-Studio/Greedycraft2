@@ -138,6 +138,9 @@ Melter.addRecipe(PtCl4, <liquid:platinum_chloride> * 666);
 Melter.addRecipe(CaCl2, <liquid:calcium_chloride> * 666);
 Melter.addRecipe(SrCl2, <liquid:strontium_chloride> * 666);
 Melter.addRecipe(BaCl2, <liquid:barium_chloride> * 666);
+Melter.addRecipe(<ore:dustZincChloride>, <liquid:zinc_chloride> * 666);
+Melter.addRecipe(<ore:dustManganeseChloride>, <liquid:manganese_chloride> * 666);
+Melter.addRecipe(<ore:dustPhosphorusPentaoxide>, <liquid:phosphorus_pentaoxide> * 666);
 Melter.addRecipe(<ore:materialMethane>, <liquid:methane> * 200);
 Melter.addRecipe(<additions:ancient_debris>, <liquid:ancient_debris> * 320);
 Melter.addRecipe(<additions:netherite_scrap>, <liquid:ancient_debris> * 160);
@@ -294,6 +297,17 @@ ChemicalReactor.addRecipe(<liquid:indium> * 72, <liquid:phosphorus> * 72, <liqui
 ChemicalReactor.addRecipe(<liquid:phosphine> * 1000, <liquid:oxygen> * 750, <liquid:phosphorus_pentaoxide> * 333, <liquid:water> * 1500);
 ChemicalReactor.addRecipe(<liquid:phosphorus> * 144, <liquid:oxygen> * 1250, <liquid:phosphorus_pentaoxide> * 333, null);
 ChemicalReactor.addRecipe(<liquid:phosphorus_pentaoxide> * 333, <liquid:water> * 1500, <liquid:phosphoric_acid> * 1000, null);
+ChemicalReactor.addRecipe(<liquid:phosphoric_acid> * 500, <liquid:sodium_hydroxide_solution> * 333, <liquid:sodium_dihydrogen_phosphate_solution> * 333, <liquid:water> * 500);
+ChemicalReactor.addRecipe(<liquid:sodium_dihydrogen_phosphate_solution> * 333, <liquid:sodium_hydroxide_solution> * 333, <liquid:sodium_hydrogen_phosphate_solution> * 333, <liquid:water> * 500);
+ChemicalReactor.addRecipe(<liquid:sodium_hydrogen_phosphate_solution> * 333, <liquid:sodium_hydroxide_solution> * 333, <liquid:sodium_phosphate_solution> * 333, <liquid:water> * 500);
+ChemicalReactor.addRecipe(<liquid:magnesium> * 72, <liquid:sulfuric_acid> * 500, <liquid:magnesium_sulfate_solution> * 333, <liquid:hydrogen> * 500);
+ChemicalReactor.addRecipe(<liquid:zinc> * 72, <liquid:liquidchlorine> * 500, <liquid:zinc_chloride> * 333, null);
+ChemicalReactor.addRecipe(<liquid:iron> * 72, <liquid:sulfuric_acid> * 500, <liquid:iron_2_sulfate_solution> * 333, <liquid:hydrogen> * 500);
+ChemicalReactor.addRecipe(<liquid:zinc_chloride> * 333, <liquid:water> * 500, <liquid:zinc_chloride_solution> * 333, null);
+ChemicalReactor.addRecipe(<liquid:manganese_chloride> * 333, <liquid:water> * 500, <liquid:manganese_chloride_solution> * 333, null);
+ChemicalReactor.addRecipe(<liquid:molybdenum> * 72, <liquid:oxygen> * 750, <liquid:molybdenum_trioxide> * 333, null);
+ChemicalReactor.addRecipe(<liquid:molybdenum_trioxide> * 333, <liquid:sodium_hydroxide_solution> * 666, <liquid:sodium_molybdate_solution> * 333, <liquid:water> * 500);
+ChemicalReactor.addRecipe(<liquid:rich_brine> * 500, <liquid:ammonia> * 500, <liquid:ammonia_brine> * 500, null);
 
 Crystallizer.addRecipe(<liquid:iodine_carbon_tetrachloride_solution> * 200, <jaopca:dust.iodine>);
 Crystallizer.addRecipe(<liquid:chloroplatinic_acid_solution> * 666, <additions:chloroplatinic_acid>);
@@ -304,6 +318,16 @@ Crystallizer.addRecipe(<liquid:barium_sulfide_solution> * 666, <additions:barium
 Crystallizer.addRecipe(<liquid:calcium_chloride_solution> * 666, CaCl2);
 Crystallizer.addRecipe(<liquid:strontium_chloride_solution> * 666, SrCl2);
 Crystallizer.addRecipe(<liquid:barium_chloride_solution> * 666, BaCl2);
+Crystallizer.addRecipe(<liquid:sodium_phosphate_solution> * 666, <additions:sodium_phosphate>);
+Crystallizer.addRecipe(<liquid:sodium_dihydrogen_phosphate_solution> * 666, <additions:sodium_dihydrogen_phosphate>);
+Crystallizer.addRecipe(<liquid:sodium_hydrogen_phosphate_solution> * 666, <additions:sodium_hydrogen_phosphate>);
+Crystallizer.addRecipe(<liquid:ammonium_chloride_solution> * 666, <additions:ammonium_chloride>);
+Crystallizer.addRecipe(<liquid:magnesium_sulfate_solution> * 666, <additions:magnesium_sulfate>);
+Crystallizer.addRecipe(<liquid:iron_2_sulfate_solution> * 666, <additions:iron_2_sulfate>);
+Crystallizer.addRecipe(<liquid:zinc_chloride_solution> * 666, <additions:zinc_chloride>);
+Crystallizer.addRecipe(<liquid:manganese_chloride_solution> * 666, <additions:manganese_chloride>);
+Crystallizer.addRecipe(<liquid:sodium_hydrogen_carbonate_solution> * 666, <additions:sodium_hydrogen_carbonate>);
+Crystallizer.addRecipe(<liquid:sodium_molybdate_solution> * 666, <additions:sodium_molybdate>);
 
 Enricher.addRecipe(<ore:dustIodine>, <liquid:carbon_tetrachloride> * 200, <liquid:iodine_carbon_tetrachloride_solution> * 200);
 Enricher.addRecipe(<ore:ingotIodine>, <liquid:carbon_tetrachloride> * 200, <liquid:iodine_carbon_tetrachloride_solution> * 200);
@@ -316,7 +340,18 @@ Enricher.addRecipe(<ore:dustStrontiumChloride>, <liquid:water> * 1000, <liquid:s
 Enricher.addRecipe(<ore:dustBariumChloride>, <liquid:water> * 1000, <liquid:barium_chloride_solution> * 666);
 Enricher.addRecipe(<ore:dustStrontiumSulfide>, <liquid:water> * 1000, <liquid:strontium_sulfide_solution> * 666);
 Enricher.addRecipe(<ore:dustBariumSulfide>, <liquid:water> * 1000, <liquid:barium_sulfide_solution> * 666);
+Enricher.addRecipe(<ore:dustSodiumPhosphate>, <liquid:water> * 1000, <liquid:sodium_phosphate_solution> * 666);
+Enricher.addRecipe(<ore:dustSodiumDihydrogenPhosphate>, <liquid:water> * 1000, <liquid:sodium_dihydrogen_phosphate_solution> * 666);
+Enricher.addRecipe(<ore:dustSodiumHydrogenPhosphate>, <liquid:water> * 1000, <liquid:sodium_hydrogen_phosphate_solution> * 666);
+Enricher.addRecipe(<ore:dustPhosphorusPentaoxide>, <liquid:water> * 3000, <liquid:phosphoric_acid> * 2000);
+Enricher.addRecipe(<ore:dustAmmoniumChloride>, <liquid:water> * 1000, <liquid:ammonium_chloride_solution> * 666);
+Enricher.addRecipe(<ore:dustMagnesiumSulfate>, <liquid:water> * 1000, <liquid:magnesium_sulfate_solution> * 666);
+Enricher.addRecipe(<ore:dustIron(II)Sulfate>, <liquid:water> * 1000, <liquid:iron_2_sulfate_solution> * 666);
+Enricher.addRecipe(<ore:dustZincChloride>, <liquid:water> * 1000, <liquid:zinc_chloride_solution> * 666);
+Enricher.addRecipe(<ore:dustManganeseChloride>, <liquid:water> * 1000, <liquid:manganese_chloride_solution> * 666);
+Enricher.addRecipe(<ore:dustSodiumHydrogenCarbonate>, <liquid:water> * 1000, <liquid:sodium_hydrogen_carbonate_solution> * 666);
 Enricher.addRecipe(<ore:dustCryotheum>, <liquid:liquid_helium> * 1000, <liquid:hecryo_liquid> * 1000);
+Enricher.addRecipe(<ore:dustSodiumMolybdate>, <liquid:water> * 1000, <liquid:sodium_molybdate_solution> * 666);
 
 Electrolyzer.addRecipe(<liquid:brine> * 1000, <liquid:sodium_hydroxide_solution> * 666, <liquid:hydrogen> * 500, <liquid:liquidchlorine> * 500, null, 1.0d, 1.0d, 0.0d);
 Electrolyzer.addRecipe(<liquid:sodium_chloride> * 333, <liquid:sodium> * 72, <liquid:liquidchlorine> * 250, null, null);

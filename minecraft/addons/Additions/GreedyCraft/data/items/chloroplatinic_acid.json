@@ -1,5 +1,8 @@
 {
-  "name": "氯铂酸粉",
-  "ore_dict": "dustChloroplatinicAcid",
+  "name": "氯铂酸",
+  "ore_dict": [
+    "dustChloroplatinicAcid",
+    "dustChloroplatinic(IV)Acid"
+  ],
   "type": "additions:simple"
 }

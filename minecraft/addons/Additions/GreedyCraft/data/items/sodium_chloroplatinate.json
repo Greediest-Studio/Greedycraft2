@@ -1,5 +1,8 @@
 {
-  "name": "氯铂酸钠粉",
-  "ore_dict": "dustSodiumChloroplatinate",
+  "name": "氯铂酸钠",
+  "ore_dict": [
+    "dustSodiumChloroplatinate",
+    "dustSodiumChloroplatinate(IV)"
+  ],
   "type": "additions:simple"
 }

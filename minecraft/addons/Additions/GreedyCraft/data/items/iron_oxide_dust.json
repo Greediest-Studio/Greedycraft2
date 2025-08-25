@@ -1,8 +1,5 @@
 {
-  "name": "氧化铁粉",
-  "ore_dict": [
-    "dustIronOxide",
-    "dustIronMonoxide"
-  ],
+  "name": "氧化铁",
+  "ore_dict": "dustIronOxide",
   "type": "additions:simple"
 }
