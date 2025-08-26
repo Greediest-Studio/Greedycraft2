@@ -229,6 +229,7 @@ recipe(1054 , <tconstruct:ingots:2> * 1, [<ore:ingotCobalt> * 1, <ore:ingotArdit
 recipe(1055 , <redstonerepository:material:1> * 1, [<ore:ingotEnderium> * 1, <ore:dustCryotheum> * 4], 10000, 10.0f);
 recipe(1056 , <tiths:ingot_oraclium> * 1, [<ore:ingotPolarium> * 1, <ore:ingotAltairium> * 1], 10000, 10.0f);
 recipe(1057 , <enderio:item_alloy_endergy_ingot:6> * 1, [<ore:ingotEnergeticSilver>, <ore:enderpearl>], 10000, 10.0f);
+recipe(1058 , <nuclearcraft:alloy:9> * 4, [<ore:ingotLead> * 3, <ore:ingotPlatinum> * 1], 4000, 10.0f);
 
 recipe(2000 , <gct_ores:sky_alloy_ingot> * 2, [<ore:ingotAetherium>, <ore:ingotCanopium>, <ore:ingotMistium>, <ore:ingotThyminite>], 51200, 10.0f);
 recipe(2001 , <gct_ores:fire_alloy_ingot> * 2, [<ore:ingotLavarite>, <ore:ingotPlasmarite>, <ore:ingotBnightium>, <ore:ingotGuaninite>], 51200, 10.0f);
