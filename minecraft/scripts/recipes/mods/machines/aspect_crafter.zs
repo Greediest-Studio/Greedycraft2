@@ -34,9 +34,9 @@ MMEvents.onControllerGUIRender("aspect_crafter", function(event as ControllerGUI
     event.extraInfo = info;
 });
 
-MachineModifier.setMaxThreads("aspect_crafter", 8);
-MachineModifier.setMaxParallelism("aspect_crafter", 2147483647);
-MachineModifier.setInternalParallelism("aspect_crafter", 2147483647);
+MachineModifier.setMaxThreads("aspect_crafter", 65536);
+MachineModifier.setMaxParallelism("aspect_crafter", 1);
+MachineModifier.setInternalParallelism("aspect_crafter", 1);
 
 for aspect in aspects {
     if (!isNull(aspect.components)) {

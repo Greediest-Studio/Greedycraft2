@@ -35,9 +35,9 @@ MMEvents.onControllerGUIRender("arcane_melter", function(event as ControllerGUIR
     event.extraInfo = info;
 });
 
-MachineModifier.setMaxThreads("arcane_melter", 16);
-MachineModifier.setMaxParallelism("arcane_melter", 2048);
-MachineModifier.setInternalParallelism("arcane_melter", 64);
+MachineModifier.setMaxThreads("arcane_melter", 256);
+MachineModifier.setMaxParallelism("arcane_melter", 1);
+MachineModifier.setInternalParallelism("arcane_melter", 1);
 
 RecipeAdapterBuilder.create("arcane_melter", "thaumcraft:whimcraft_smelter")
     .addEnergyPerTickInput(100)

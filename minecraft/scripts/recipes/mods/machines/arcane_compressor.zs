@@ -24,8 +24,8 @@ MMEvents.onControllerGUIRender("arcane_compressor", function(event as Controller
     event.extraInfo = info;
 });
 
-MachineModifier.setMaxThreads("arcane_compressor", 8);
-MachineModifier.setMaxParallelism("arcane_compressor", 256);
+MachineModifier.setMaxThreads("arcane_compressor", 256);
+MachineModifier.setMaxParallelism("arcane_compressor", 1);
 MachineModifier.setInternalParallelism("arcane_compressor", 1);
 
 RecipeBuilder.newBuilder("arcane_compression_voidmetal", "arcane_compressor", 120)

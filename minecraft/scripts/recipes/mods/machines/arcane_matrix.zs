@@ -30,7 +30,7 @@ MMEvents.onControllerGUIRender("arcane_matrix", function(event as ControllerGUIR
 });
 
 MachineModifier.setMaxThreads("arcane_matrix", 32);
-MachineModifier.setMaxParallelism("arcane_matrix", 256);
+MachineModifier.setMaxParallelism("arcane_matrix", 1);
 MachineModifier.setInternalParallelism("arcane_matrix", 1);
 
 RecipeAdapterBuilder.create("arcane_matrix", "thaumcraft:whimcraft_infusion_matrix_research")
