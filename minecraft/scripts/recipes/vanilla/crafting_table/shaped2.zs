@@ -593,3 +593,15 @@ RecipeUtil.addShaped("ancient_collection", <additions:ancient_collection>, [
     [<additions:ancient_tome>, <additions:ancient_tome>, <additions:ancient_tome>],
     [<additions:ancient_tome>, <additions:ancient_tome>, <additions:ancient_tome>]
 ]);
+
+RecipeUtil.addShaped("primordial_stone_slab", <gct_mobs:primordial_stone_slab> * 6, [
+    [null, null, null],
+    [<gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>],
+    [null, null, null]
+]);
+
+RecipeUtil.addShaped("primordial_stone_stairs", <gct_mobs:primordial_stone_stairs> * 8, [
+    [<gct_mobs:primordial_stone>, null, null],
+    [<gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>, null],
+    [<gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>]
+]);
