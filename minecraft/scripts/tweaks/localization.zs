@@ -386,6 +386,8 @@ val localizationMap as string[string][string] = {
         "fluid.hecryo_liquid": "§c凛冰-液氦溶液",
         "fluid.liquidgoldenamber": "熔融金琥珀",
         "fluid.substrate_lifeessence": "生命源质底物",
+        "fluid.serum": "血浆",
+        "fluid.culture_medium": "液体培养基",
         //
         "fluid.liquidlegend": "荣耀浆液",
         //

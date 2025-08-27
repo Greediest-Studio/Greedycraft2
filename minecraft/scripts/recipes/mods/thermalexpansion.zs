@@ -83,4 +83,4 @@ Coolant.addCoolant(<liquid:hecryo_liquid>, 10000000, 100);
 
 Refinery.addRecipe(<liquid:rich_brine> * 100, null, <liquid:brine> * 1000, 100000);
 Refinery.addRecipe(<liquid:mixed_hydrocarbon> * 100, null, <liquid:refined_fuel> * 150, 50000);
-
+Refinery.addRecipe(<liquid:serum> * 10, null, <liquid:blood> * 1000, 100000);
