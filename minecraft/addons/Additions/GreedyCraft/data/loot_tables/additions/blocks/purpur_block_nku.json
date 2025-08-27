@@ -1,0 +1,16 @@
+{
+  "preset_block": "additions:purpur_block_nku",
+  "pools": [
+    {
+      "name": "block_itself_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:purpur_block_nku"
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_itself"
+}

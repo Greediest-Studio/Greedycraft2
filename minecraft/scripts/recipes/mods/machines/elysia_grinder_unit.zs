@@ -50,6 +50,7 @@ RecipeBuilder.newBuilder("grind_adamant_1", "elysia_grinder", 100)
         <liquid:vibranium_fluid> * 96,
         <liquid:obsidiorite_fluid> * 2592
     ])
+    .addRecipeTooltip("§d搅拌配方支持模块化电容升级，详情请查询“模块化电容”")
     .addEnergyPerTickInput(2000)
     .addFluidOutput(<liquid:adamant_fluid> * 144)
     .build();
@@ -65,6 +66,7 @@ RecipeBuilder.newBuilder("grind_adamant_2", "elysia_grinder", 100)
         <liquid:vibranium_fluid> * 96,
         <liquid:obsidiorite_fluid> * 2592
     ])
+    .addRecipeTooltip("§d搅拌配方支持模块化电容升级，详情请查询“模块化电容”")
     .addEnergyPerTickInput(2000)
     .addFluidOutput(<liquid:adamant_fluid> * 144)
     .build();
@@ -81,6 +83,7 @@ RecipeBuilder.newBuilder("grind_adamant_3", "elysia_grinder", 100)
         <liquid:vibranium_fluid> * 96,
         <liquid:obsidiorite_fluid> * 2592
     ])
+    .addRecipeTooltip("§d搅拌配方支持模块化电容升级，详情请查询“模块化电容”")
     .addEnergyPerTickInput(2000)
     .addFluidOutput(<liquid:adamant_fluid> * 144)
     .build();
@@ -118,6 +121,7 @@ RecipeBuilder.newBuilder("grind_flashite", "elysia_grinder", 100)
         <liquid:valyrium_fluid> * 72,
         <liquid:manarium> * 72
     ])
+    .addRecipeTooltip("§d搅拌配方支持模块化电容升级，详情请查询“模块化电容”")
     .addEnergyPerTickInput(2000)
     .addFluidOutput(<liquid:flashite> * 162)
     .build();
@@ -161,6 +165,7 @@ RecipeBuilder.newBuilder("grind_overlaite", "elysia_grinder", 100)
         <liquid:antimony> * 80,
         <liquid:dawnium> * 160
     ])
+    .addRecipeTooltip("§d搅拌配方支持模块化电容升级，详情请查询“模块化电容”")
     .addEnergyPerTickInput(2000)
     .addFluidOutput(<liquid:overlaite> * 120)
     .build();
@@ -186,6 +191,7 @@ RecipeBuilder.newBuilder("grind_deusiotium", "elysia_grinder", 100)
         <liquid:magiga> * 18,
         <liquid:hard_carbon> * 18
     ])
+    .addRecipeTooltip("§d搅拌配方支持模块化电容升级，详情请查询“模块化电容”")
     .addEnergyPerTickInput(2000)
     .addFluidOutput(<liquid:deusiotium> * 180)
     .build();
@@ -204,6 +210,7 @@ RecipeBuilder.newBuilder("grind_culture", "elysia_grinder", 100)
         <liquid:serum> * 20,
         <liquid:water> * 85
     ])
+    .addRecipeTooltip("§d搅拌配方支持模块化电容升级，详情请查询“模块化电容”")
     .addEnergyPerTickInput(2000)
     .addFluidOutput(<liquid:culture_medium> * 180)
     .build();
