@@ -224,10 +224,6 @@ Melter.addRecipe(<ore:ingotRoyalAlloy>, <liquid:royal_alloy> * 144);
 Melter.addRecipe(<ore:dustRoyalAlloy>, <liquid:royal_alloy> * 144);
 Melter.addRecipe(<ore:blockRoyalAlloy>, <liquid:royal_alloy> * 1296);
 Melter.addRecipe(<ore:nuggetRoyalAlloy>, <liquid:royal_alloy> * 16);
-Melter.addRecipe(<ore:ingotFusionMatrix>, <liquid:fusion_matrix> * 144);
-Melter.addRecipe(<ore:blockFusionMatrix>, <liquid:fusion_matrix> * 1296);
-Melter.addRecipe(<ore:ingotBalancedMatrix>, <liquid:balanced_matrix> * 144);
-Melter.addRecipe(<ore:blockBalancedMatrix>, <liquid:balanced_matrix> * 1296);
 
 IngotFormer.removeRecipeWithOutput(<additions:hydrogen_ingot>);
 IngotFormer.removeRecipeWithOutput(<additions:helium_ingot>);
@@ -253,8 +249,6 @@ IngotFormer.addRecipe(<liquid:rose_gold> * 144, <mca:rose_gold_ingot>);
 IngotFormer.addRecipe(<liquid:fluxed_electrum> * 144, <redstonearsenal:material:32>);
 IngotFormer.addRecipe(<liquid:glowing_signalum> * 144, <additions:glowing_signalum_ingot>);
 IngotFormer.addRecipe(<liquid:royal_alloy> * 144, <tiths:ingot_royal_alloy>);
-IngotFormer.addRecipe(<liquid:fusion_matrix> * 144, <tconevo:material>);
-IngotFormer.addRecipe(<liquid:balanced_matrix> * 144, <gct_ores:balanced_matrix_ingot>);
 
 SaltMixer.removeRecipeWithInput(<liquid:arsenic> * 1332, <liquid:nak> * 144);
 

@@ -963,6 +963,13 @@ addBuilderRecipe(<modularmachinery:elysia_smelter_factory_controller>, [
     <tconstruct:seared_furnace_controller> * 32
 ], 1, 3200);
 
+addBuilderRecipe(<modularmachinery:elysia_grinder_factory_controller>, [
+    <gct_ores:blue_print_empty> * 32,
+    <ore:ingotModularium> * 64,
+    <tcomplement:alloy_tank> * 32,
+    <nuclearcraft:salt_mixer> * 32
+], 1, 3200);
+
 addBuilderRecipe(<modularmachinery:factory_4x_factory_controller>, [
     <gct_ores:blue_print_forge> * 32,
     <ore:ingotModularium> * 64,

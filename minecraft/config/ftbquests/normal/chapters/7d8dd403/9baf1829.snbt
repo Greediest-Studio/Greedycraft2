@@ -13,13 +13,10 @@
 		"34f81496"
 	],
 	tasks: [{
-		uid: "f5986983",
+		uid: "173d6e95",
 		type: "item",
 		items: [{
-			id: "modularmachinery:itemblueprint",
-			tag: {
-				dynamicmachine: "modularmachinery:gene_builder"
-			}
+			item: "modularmachinery:gene_builder_factory_controller"
 		}]
 	}],
 	rewards: [{

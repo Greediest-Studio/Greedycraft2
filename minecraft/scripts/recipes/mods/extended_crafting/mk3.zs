@@ -208,3 +208,13 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:brain_container>, [
 	[<ore:barsIron>, <ore:blockGlassHardened>, <ore:circuitDreamic>, <thermaldynamics:duct_16:7>, <ore:circuitDreamic>, <ore:blockGlassHardened>, <ore:barsIron>], 
 	[<ore:ingotFinallium>, <ore:barsIron>, <ore:barsIron>, <thermaldynamics:duct_16:7>, <ore:barsIron>, <ore:barsIron>, <ore:ingotFinallium>]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:final_scythe>, [
+	[null, null, <ore:ingotFinallium>, <ore:ingotFinallium>, <ore:ingotFinallium>, <ore:ingotUndead>, null], 
+	[<ore:ingotEugardite>, <ore:ingotEugardite>, null, null, <ore:ingotUndead>, <ore:ingotGhostMetal>, <ore:ingotUndead>], 
+	[null, null, null, null, <bloodarsenal:base_item:1>, <ore:ingotUndead>, null], 
+	[null, null, null, <bloodarsenal:base_item:1>, null, null, null], 
+	[null, null, <bloodarsenal:base_item:1>, null, null, null, null], 
+	[null, <bloodarsenal:base_item:1>, null, null, null, null, null], 
+	[<bloodarsenal:base_item:1>, null, null, null, null, null, null]
+]);

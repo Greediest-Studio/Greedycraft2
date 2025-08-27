@@ -15,6 +15,7 @@ import crafttweaker.event.PlayerInteractEvent;
 import crafttweaker.data.IData;
 import crafttweaker.damage.IDamageSource;
 import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.entity.IEntityDefinition;
 import crafttweaker.player.IPlayer;
 import crafttweaker.util.Position3f;
 import crafttweaker.block.IBlock;
@@ -28,6 +29,7 @@ import crafttweaker.chat.IChatMessage;
 import crafttweaker.world.IBlockAccess;
 import crafttweaker.command.ICommand;
 import crafttweaker.item.IItemStack;
+import crafttweaker.world.IWorld;
 
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
@@ -111,6 +113,43 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
                 controller.customData = controller.customData.update({harvestLevel : HarvestLevel as int});
                 player.sendChat("§a已将采掘等级：" ~ HarvestLevel as string ~ " 绑定到坠星天矛！");
                 event.cancel();
+            }
+        }
+    }
+    //Summon The Reaper
+    if (event.block.definition.id == "defiledlands:conjuring_altar" && !event.world.remote && event.hand == "MAIN_HAND") {
+        var pass as bool = false;
+        if (!isNull(player.currentItem)) {
+            if (player.currentItem.definition.id == "additions:final_scythe") {
+                pass = true;
+            }
+        }
+        var block as IBlock = event.block;
+        var worldNow as IWorld = event.world;
+        var pos as IBlockPos = event.position;
+        var player as IPlayer = event.player;
+        var pos1 as IBlockPos = pos.south(2).east(2).up(3);
+        var pos2 as IBlockPos = pos.north(2).east(2).up(3);
+        var pos3 as IBlockPos = pos.north(2).west(2).up(3);
+        var pos4 as IBlockPos = pos.south(2).west(2).up(3);
+        if (!isNull(block.data.active) && pass) {
+            if (block.data.active as byte == 1 && !worldNow.remote) {
+                player.currentItem.mutable().shrink(1);
+                worldNow.catenation().run(function(world as IWorld, context) {
+                    player.sendChat("§4§lD");
+                }).sleep(40).then(function(world as IWorld, context) {
+                    player.sendChat("§4§lE");
+                }).sleep(40).then(function(world as IWorld, context) {
+                    player.sendChat("§4§lA");
+                }).sleep(40).then(function(world as IWorld, context) {
+                    player.sendChat("§4§lT");
+                }).sleep(40).then(function(world as IWorld, context) {
+                    player.sendChat("§4§lH");
+                }).sleep(40).then(function(world as IWorld, context) {
+                    server.commandManager.executeCommandSilent(server, "summon mca:grimreapermca " + pos.x + " " + (pos.y + 2) + " " + pos.z + " {Attributes:[{Name:\"generic.maxHealth\",Base:1000000d}],Health:1000000f}");
+                    world.performExplosion(player, pos.x, pos.y, pos.z, 8.0f, true, true);
+                    player.sendChat("§4§l死 神 降 临");
+                }).start();
             }
         }
     }

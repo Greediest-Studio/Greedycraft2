@@ -1487,7 +1487,8 @@ var disabledItems as IIngredient[] = [
     <danknull:danknull_dock>,
     <modularmachineryaddons:blockmeessentiainputbus>,
     <modularmachineryaddons:blockmeessentiaoutputbus>,
-    <gct_aby:shoggoth_clump>
+    <gct_aby:shoggoth_clump>,
+    <mca:staff_of_life>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [
