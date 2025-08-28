@@ -36,6 +36,42 @@
                 }
             ]
         },
+        "journey:minisentrywalker": {
+            "[320, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.8,
+                    "item": "additions:broken_engine_shard"
+                }
+            ]
+        },
+        "journey:minisentrylord": {
+            "[320, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.8,
+                    "item": "additions:broken_engine_shard"
+                }
+            ]
+        },
+        "journey:minisentrystalker": {
+            "[320, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.8,
+                    "item": "additions:broken_engine_shard"
+                }
+            ]
+        },
+        "journey:sentrylord": {
+            "[320, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 0.8,
+                    "item": "journey:sentry_observer"
+                }
+            ]
+        },
         "ageofminecraft:witherstormbosshelpful": {
             "[0, 2147483647]": [
                 {

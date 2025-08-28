@@ -51,13 +51,6 @@ val slimeTables as string[] = [
     "betterslimes:yellow_slime"
 ];
 
-// LootTweaker.getTable("minecraft:entities/husk").getPool("bountifulbaubles_husk").removeEntry("bountifulbaubles:apple");
-
-<entity:journey:minisentrywalker>.addDrop(<additions:broken_engine_shard>);
-<entity:journey:minisentrylord>.addDrop(<additions:broken_engine_shard>);
-<entity:journey:minisentrystalker>.addDrop(<additions:broken_engine_shard>);
-<entity:journey:sentrylord>.addDrop(<journey:sentry_observer>);
-
 LootTweaker.getTable("betterslimes:quazar").getPool("main").setRolls(1.0, 1.0);
 LootTweaker.getTable("betterslimes:quazar").getPool("main").setBonusRolls(0.0, 0.0);
 LootTweaker.getTable("betterslimes:quazar").getPool("main").addItemEntry(<additions:royal_gel>, 100, 1, [Functions.setCount(24, 50)], []);

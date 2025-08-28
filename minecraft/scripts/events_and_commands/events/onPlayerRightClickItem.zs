@@ -35,13 +35,35 @@ events.onPlayerRightClickItem(function(event as PlayerRightClickItemEvent) {
 
 if (!isNull(event.item) && !event.world.isRemote()) {
 
+    var player as IPlayer = event.player;
+
     //Store the dimension ID in the item tag
-    if (event.item.definition.id == "additions:modular_dimensional_magnifier") {
+    if (event.item.definition.id == "additions:modular_dimensional_magnifier" && event.hand == "MAIN_HAND") {
         event.item.mutable().updateTag({dim : event.world.dimension as int});
         event.player.sendChat("§a已将当前维度ID存储在放大镜中！");
     }
 
+    //Clear All the Entities
+    if (event.item.definition.id == "additions:emergency_button" && event.hand == "MAIN_HAND") {
+        player.sendStatusMessage("§c§l已清除所有实体！");
+        server.commandManager.executeCommandSilent(player, "particle lava ~ ~ ~ 1 1 1 1 50 force");
+        event.item.mutable().shrink(1);
+        if (!isNull(player.activePotionEffects)) {
+            if (player.activePotionEffects.length > 0) {
+                for effect in player.activePotionEffects {
+                    player.removePotionEffect(effect.potion);
+                }
+            }
+        }
+        for entity in event.world.getEntities() {
+            if (!(entity instanceof IPlayer)) {
+                entity.removeFromWorld();
+            }
+        }
+    }
+
     //TConstruct Armor Restoration
+    if (!isNull(event.item)) {
     if (event.item.definition.id == "conarm:polishing_kit") {
         var kit as IItemStack = event.item;
         var player as IPlayer = event.player;
@@ -189,8 +211,11 @@ if (!isNull(event.item) && !event.world.isRemote()) {
             client.player.sendChat("§c盔甲耐久已满，材料不匹配或不存在！");
         }
     }
+    }
+
 
     //TConstruct Tools Restoration {
+    if (!isNull(event.item)) {
     if (event.item.definition.id == "tconstruct:sharpening_kit") {
         var kit as IItemStack = event.item;
         var player as IPlayer = event.player;
@@ -256,6 +281,7 @@ if (!isNull(event.item) && !event.world.isRemote()) {
             client.player.sendChat("§c工具耐久已满，材料不匹配或不存在！");
         }
 
+    }
     }
 
 }
