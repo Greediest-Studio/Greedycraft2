@@ -1,5 +1,14 @@
 {
     "entities": {
+        "mca:grimreapermca": {
+            "[4800, 2147483647]": [
+                {
+                    "amount": "[4,10]",
+                    "chance": 1.0,
+                    "item": "additions:zomril_ingot"
+                }
+            ]
+        },
         "defiledlands:the_mourner": {
             "[1000, 2147483647]": [
                 {

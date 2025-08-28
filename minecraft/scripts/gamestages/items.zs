@@ -1635,7 +1635,8 @@ GameStagesUtil.stageFinal.addIngredients([
     <ore:ingotPruified>,
     <ore:nuggetPruified>,
     <ore:blockPruified>,
-    <ore:dustPruified>
+    <ore:dustPruified>,
+    <additions:final_scythe>
 ], true);
 
 GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators"]);
