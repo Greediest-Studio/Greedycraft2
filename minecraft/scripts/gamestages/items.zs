@@ -137,7 +137,8 @@ GameStagesUtil.stageGettingStarted.addIngredients([
     <ore:dustIron>,
     <ore:dustGold>,
     <ore:blockIron>,
-    <ore:blockGold>
+    <ore:blockGold>,
+    <ore:ingotManganese>
 ], false);
 
 GameStagesUtil.stageFusionMatrix.addIngredients([
