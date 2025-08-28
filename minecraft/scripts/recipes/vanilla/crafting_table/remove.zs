@@ -473,7 +473,8 @@ val removedRecipes as IIngredient[] = [
     <jaopca:block.cthulhurite>,
     <chisel:blockcobalt>,
     <journey:bleedstonedust>,
-    <journey:smithstonedust>
+    <journey:smithstonedust>,
+    <nuclearcraft:material_block:2>
 ];
 
 val removedRecipeNames as string[] = [
