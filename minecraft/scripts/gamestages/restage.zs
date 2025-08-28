@@ -46,6 +46,7 @@ GameStagesUtil.removeItemStages([
     <nuclearcraft:ingot:8>,
     <nuclearcraft:dust:8>,
     <nuclearcraft:gem:6>,
+    <nuclearcraft:ingot:11>,
     <nuclearcraft:dust:11>,
     <extendedcrafting:material:129>,
     <extendedcrafting:material:128>,
