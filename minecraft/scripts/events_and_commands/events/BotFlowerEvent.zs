@@ -206,18 +206,18 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
                     mirrorpostile.updateCustomData({diamond : 0 as int});
                 }
 
-                if(isNull(tile.getCustomData().mirrorpos)){
+                if(isNull(tile) || isNull(tile.getCustomData().mirrorpos)){
                     player.sendMessage("§d[作者姬]§r§f：§r§e已链接~");
                 }else{
                     player.sendMessage("§d[作者姬]§r§f：§r§e更新所链接的镜像花~");
                 }
 
                 
-                tile.updateCustomData({mirrorpos : itemmirrorpos});
-
-                player.currentItem.mutable().shrink(1);
-                player.give(<minecraft:diamond>);
-                
+                if (!isNull(tile)) {
+                    tile.updateCustomData({mirrorpos : itemmirrorpos});
+                    player.currentItem.mutable().shrink(1);
+                    player.give(<minecraft:diamond>);
+                }
 
             }else{
                 player.sendMessage("§d[作者姬]§r§f：§r§e请勿套娃!");
