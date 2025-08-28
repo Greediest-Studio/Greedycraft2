@@ -876,7 +876,7 @@ addBuilderRecipe(<modularmachinery:aspect_crafter_factory_controller>, [
     <ore:ingotAbyssine> * 2
 ], 5, 2400);
 
-/*addBuilderRecipe(<modularmachinery:biotechnic_computer_factory_controller>, [
+addBuilderRecipe(<modularmachinery:biotechnic_computer_factory_controller>, [
     <additions:logic_processor_3> * 48,
     <additions:calculation_processor_3> * 32,
     <additions:engineering_processor_3> * 16,
@@ -886,7 +886,13 @@ addBuilderRecipe(<modularmachinery:aspect_crafter_factory_controller>, [
     <ore:ingotModularium> * 160,
     <ore:ingotSanite> * 96,
     <ore:ingotZincargentum> * 96,
-], 5, 8000);*/
+    <ore:ingotIzumium> * 64,
+    <ore:ingotSoultine> * 48,
+    <ore:ingotBalancedMatrix> * 16,
+    <ore:ingotAbyssine> * 2,
+    <ore:ingotFinallium> * 2,
+    <gct_ores:shalloite> * 108
+], 5, 8000);
 
 //Units
 addBuilderRecipe(<modularmachinery:elysia_alloyer_factory_controller>, [
