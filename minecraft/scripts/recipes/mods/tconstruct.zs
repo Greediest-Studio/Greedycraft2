@@ -134,6 +134,7 @@ Alloy.addRecipe(<liquid:rose_gold> * 3, [<liquid:gold> * 1, <liquid:silver> * 1,
 Alloy.addRecipe(<liquid:heavyalloy> * 2, [<liquid:lead> * 9, <liquid:thallium> * 2, <liquid:bismuth> * 4]);
 Alloy.addRecipe(<liquid:zincargentum> * 3, [<liquid:zinc> * 2, <liquid:silver>]);
 Alloy.addRecipe(<liquid:niobium_titanium>, [<liquid:niobium>, <liquid:titanium>]);
+Alloy.addRecipe(<liquid:decatine> * 144, [<liquid:liquidoctine> * 144, <liquid:blood> * 40, <liquid:rottensludge> * 72]);
 
 Casting.removeBasinRecipe(<tcomplement:scorched_block:10>);
 Casting.removeBasinRecipe(<tcomplement:scorched_block:1>);

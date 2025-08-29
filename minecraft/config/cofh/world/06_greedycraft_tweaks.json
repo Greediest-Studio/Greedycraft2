@@ -1595,6 +1595,26 @@
                 "value": [20]
             }
         },
+        "izumium": {
+            "enabled": "ture",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "thebetweenlands:valonite_ore",
+                    "weight": 100
+                }],
+                "material": "thebetweenlands:pitstone",
+                "cluster-size": 1
+            },
+            "min-height": 0,
+            "max-height": 64,
+            "cluster-count": 2,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [20]
+            }
+        },
         "scabyst": {
             "enabled": "ture",
             "distribution": "uniform",

@@ -277,3 +277,15 @@ addHellForgeRecipe([<bloodarsenal:soul_pendant:2>, <bloodmagic:blood_shard:*>, <
 <bloodarsenal:soul_pendant:3>, 600);
 addHellForgeRecipe([<bloodarsenal:soul_pendant:3>, <bloodarsenal:blood_diamond>, <bloodarsenal:slate>, <ore:netherStar>],
 <bloodarsenal:soul_pendant:4>, 3000);
+
+//填充类
+addHellForgeRecipe([<bloodmagic:soul_gem>],
+<bloodmagic:soul_gem>.withTag({souls: 64.0}), 64);
+addHellForgeRecipe([<bloodmagic:soul_gem:1>],
+<bloodmagic:soul_gem:1>.withTag({souls: 256.0}), 256);
+addHellForgeRecipe([<bloodmagic:soul_gem:2>],
+<bloodmagic:soul_gem:2>.withTag({souls: 1024.0}), 1024);
+addHellForgeRecipe([<bloodmagic:soul_gem:3>],
+<bloodmagic:soul_gem:3>.withTag({souls: 4096.0}), 4096);
+addHellForgeRecipe([<bloodmagic:soul_gem:4>],
+<bloodmagic:soul_gem:4>.withTag({souls: 16384.0}), 16384);

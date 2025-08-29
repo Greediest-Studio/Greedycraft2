@@ -153,3 +153,6 @@ GameStagesUtil.stageCosmic.addOreReplacement(<additions:dawnium_ore>, <gct_ores:
 GameStagesUtil.stageCosmic.addOreReplacement(<additions:losessium_ore>, <gct_mobs:bloodyrock>, false);
 GameStagesUtil.stageCosmic.addOreReplacement(<additions:oneo_ore>, <minecraft:bedrock>, false);
 GameStagesUtil.stageCosmic.addOreReplacement(<additions:ttwo_ore>, <minecraft:bedrock>, false);
+
+GameStagesUtil.stageFinal.addOreReplacement(<additions:izumium_ore>, <thebetweenlands:betweenstone>, false);
+GameStagesUtil.stageFinal.addOreReplacement(<additions:arimite_ore>, <additions:astral_aquamarine_ore>, false);

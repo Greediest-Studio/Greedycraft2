@@ -644,7 +644,11 @@ GameStagesUtil.stageBetweenlandTraveller.addIngredients([
     <moretcon:nuggetrotiron>,
     <moretcon:blockrotiron>,
     <moretcon:dustrotiron>,
-    <ore:scrapRotiron>
+    <ore:scrapRotiron>,
+    <ore:ingotDecatine>,
+    <ore:blockDecatine>,
+    <ore:nuggetDecatine>,
+    <ore:dustDecatine>
 ], false);
 
 GameStagesUtil.stageWarped.addIngredients([
@@ -1635,7 +1639,24 @@ GameStagesUtil.stageFinal.addIngredients([
     <ore:nuggetPruified>,
     <ore:blockPruified>,
     <ore:dustPruified>,
-    <additions:final_scythe>
+    <additions:final_scythe>,
+    <ore:ingotIzumium>,
+    <ore:blockIzumium>,
+    <ore:nuggetIzumium>,
+    <ore:dustIzumium>,
+    <ore:gearIzumium>,
+    <ore:plateIzumium>,
+    <ore:oreIzumium>,
+    <ore:ingotSoultine>,
+    <ore:blockSoultine>,
+    <ore:dustSoultine>,
+    <ore:nuggetSoultine>,
+    <ore:plateSoultine>,
+    <ore:ingotMalevolencite>,
+    <ore:nuggetMalevolencite>,
+    <ore:blockMalevolencite>,
+    <ore:dustMalevolencite>,
+    <ore:plateMalevolencite>
 ], true);
 
 GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators"]);
