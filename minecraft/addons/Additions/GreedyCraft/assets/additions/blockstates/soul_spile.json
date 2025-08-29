@@ -1,0 +1,11 @@
+{
+    "variants": {
+	"inventory" : {
+			 "model" : "additions:soul_spile"
+		  },
+        "facing=north": { "model": "additions:soul_spile" },
+        "facing=south": { "model": "additions:soul_spile", "y": 180 },
+        "facing=west":  { "model": "additions:soul_spile", "y": 270 },
+        "facing=east":  { "model": "additions:soul_spile", "y": 90 }
+    }
+}

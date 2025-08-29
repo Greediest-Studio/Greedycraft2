@@ -3310,3 +3310,15 @@ culture_medium.color = Color.fromHex("cccccc").getIntColor();
 culture_medium.stillLocation = "base:fluids/liquid";
 culture_medium.flowingLocation = "base:fluids/liquid_flow";
 culture_medium.register();
+
+val concentrated_soul_liquid = mods.contenttweaker.VanillaFactory.createFluid("concentrated_soul_liquid", Color.fromHex("afa68b").getIntColor());
+concentrated_soul_liquid.material = <blockmaterial:water>;
+concentrated_soul_liquid.viscosity = 300;
+concentrated_soul_liquid.density = 800;
+concentrated_soul_liquid.colorize = true;
+concentrated_soul_liquid.temperature = 400;
+concentrated_soul_liquid.luminosity = 0;
+concentrated_soul_liquid.color = Color.fromHex("afa68b").getIntColor();
+concentrated_soul_liquid.stillLocation = "base:fluids/liquid";
+concentrated_soul_liquid.flowingLocation = "base:fluids/liquid_flow";
+concentrated_soul_liquid.register();
