@@ -19,6 +19,8 @@ GameStagesUtil.removeItemStages([
     <extrabotany:candybag>,
     <extrabotany:candy:*>,
     <ore:rock>,
+    <ore:gemBoronNitride>,
+    <ore:dustBoronNitride>,
     <taiga:basalt_block>,
     <ore:dustDiamond>,
     <cyclicmagic:slingshot_weapon>,
