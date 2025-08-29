@@ -39,6 +39,8 @@ ConversionItem.create(<thermalfoundation:material:129>).addMatchItem(<ore:ingotT
 ConversionItem.create(<additions:manganese_ingot>).addMatchItem(<ore:ingotManganese>).register();
 ConversionItem.create(<additions:titanium_ingot>).addMatchItem(<ore:ingotTitanium>).register();
 ConversionItem.create(<additions:shadowium_ingot>).addMatchItem(<extrabotany:material:5>).register();
+ConversionItem.create(<thermalfoundation:storage:4>).addMatchItem(<ore:blockAluminum>).register();
+ConversionItem.create(<tconstruct:metal>).addMatchItem(<ore:blockCobalt>).register();
 
 ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:burningsulfurflow>).register();
 ConversionFluid.create(<liquid:fluxed_electrum>).addMatchFluid(<liquid:electrum_flux>).register();
