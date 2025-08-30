@@ -504,3 +504,9 @@ RecipeUtil.addShapeless("mana_speed_card", <crazyae:upgrade:2>,
 RecipeUtil.addShapeless("ancient_tome_9x", <additions:ancient_tome> * 9,
     [<additions:ancient_collection>]
 );
+RecipeUtil.addShapeless("nonenium_essence", <additions:nonenium_essence>,
+    [<additions:godlikeum_essence>, <additions:godlikeum_essence>, <additions:godlikeum_essence>, <additions:godlikeum_essence>, <additions:godlikeum_essence>, <additions:godlikeum_essence>]
+);
+RecipeUtil.addShapeless("nonenium_essence_reverse", <additions:godlikeum_essence> * 4,
+    [<additions:nonenium_essence>]
+);
