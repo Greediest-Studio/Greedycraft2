@@ -46,11 +46,11 @@ hash = "cd46e57c1dbde85b784410a962032701cf4ac1607df876765e10ff5838210eb0"
 
 [[files]]
 file = "CustomSkinLoader/caches/6a340a34e3cbfbe3bdea9cc401f69250054282bc"
-hash = "c50de178fdcbe7560e9f8d692e0ae7b40f9458bbe5ab97cf9d1664303c606c18"
+hash = "b92d31a580951f21a58c4da6cab57924bd397ea70be688198f4c80b9977fc4ce"
 
 [[files]]
 file = "CustomSkinLoader/caches/6a340a34e3cbfbe3bdea9cc401f69250054282bc.json"
-hash = "4528cd0fd0acf85da284c7a4b70f0ab81e483d98cf2a9d304a486445640b3608"
+hash = "d852e0a5ca6b0548c8c6cb371a20487f1ae91359ac4e1577e2a86fdf3eacb85f"
 
 [[files]]
 file = "CustomSkinLoader/caches/81c5452bcfa425f3120d51f84270c8d89a7a89b6"
@@ -5265,6 +5265,10 @@ file = "addons/Additions/GreedyCraft/assets/additions/models/item/sorrowium_ore.
 hash = "1869990c9425df3fd6c6835ad311c8343e741854ee433bbc70752c5b5fd45766"
 
 [[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/models/item/soul_extractor.json"
+hash = "e21d2d51c4d61c4ca38a8c69e3098b9bf5c80d124eb735430365411ca2607459"
+
+[[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/models/item/soul_of_slider.json"
 hash = "67c384ad1f0e19c024d587304ebdc198559898621cb295aed1cdb10686eba128"
 
@@ -9385,6 +9389,10 @@ file = "addons/Additions/GreedyCraft/assets/additions/textures/items/sorrowium_i
 hash = "3114255dcf6c2e9d85af393b8342ff42beff65e41579bb782c040bcbdf8d8ffb"
 
 [[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/textures/items/soul_extractor-layer0.png"
+hash = "c5076f536d756dcafc5b5bec81dac63299d254d450692077532e6b694ce24832"
+
+[[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/textures/items/soul_of_slider-layer0.png"
 hash = "52ca5a6e19dab1e0c8c88e6eff2811fd84abe2d34f241042e9ec3155d50aa924"
 
@@ -10938,7 +10946,7 @@ hash = "55fb43fb722e8a7c6a9d7590ca0ee7734b4a5a438078253d6d379c2cad3eafc4"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/data/effects/descendant_of_the_sun.json"
-hash = "d08f3d8960ca162cd0dfb71ddbc49c766e5520539b460bb800982b6ffd1046b4"
+hash = "05106212b5528c3eecc8195958076383eab5d2fc116779a4d44173c1ab843b5d"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/data/effects/dragon_kicker_rightclick.json"
@@ -12998,7 +13006,7 @@ hash = "1cfaf9732744616daace88cb3491e57b3c49b87bd736100963747fe43e83af78"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/data/items/quardstate_star.json"
-hash = "1e677ebdd7feaf8f50adb57f583b6495b07661644deab498c4b1229c620ff255"
+hash = "908bdeb6f2e5cded983f8731e613fc94c2a52a2b3735ea232d2f143b9e5579ee"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/data/items/queenslime_ingot.json"
@@ -13315,6 +13323,10 @@ hash = "7dbd8c0098df8dfb457a887980c78005bcbdc6029a6423b8594943956c187528"
 [[files]]
 file = "addons/Additions/GreedyCraft/data/items/sorrowium_ingot.json"
 hash = "aa770f2fb55b4bcc04f98b2f09f99f0f17b56c47762ca35989e1a8f301006678"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/data/items/soul_extractor.json"
+hash = "bf60775299ed1ad274e8c5f18ba7d596f8fc2597d0680bece262e1cd40210e5f"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/data/items/soul_of_slider.json"
@@ -18582,7 +18594,7 @@ hash = "00cb0818a3aaad631df8e98af21b18cc360734c6b36a3b7b3ad8d1190e8d0f06"
 
 [[files]]
 file = "config/chiselsandbits.cfg"
-hash = "61615a65b00ece4f91da83b21181281ddeccd814ee76763968b8a716db93748f"
+hash = "e16cc773125a6305aafc27a96c1067619be2383c730e91890c254ebab7c55d11"
 
 [[files]]
 file = "config/chiselsandbits_clipboard.cfg"
@@ -25698,7 +25710,7 @@ hash = "b0214dff32acc18327783026a3f6317e4f3a7029138250a91fe8cfee0e351778"
 
 [[files]]
 file = "config/gameStagesFakePlayerData.json"
-hash = "a7bf710ab447418f1ce6fbe0b1e0f37aa493ce62a34bdc877a68eca036c1d108"
+hash = "aeeb91b618ff1b4713a1ae7aef50b0740a083c63296e6f7877f35fb48588d104"
 
 [[files]]
 file = "config/gamestages.cfg"
@@ -25706,7 +25718,7 @@ hash = "13eb8447fde167c2b89a7716ae36f2cf115c10b3b852747a27bc922aa08226e9"
 
 [[files]]
 file = "config/gamestages/known_stages.json"
-hash = "0939ec096f7024766658a22b5ed6125560cabed00f4d6a91d34089611bdd6350"
+hash = "0bbbfceae0668e951e3fbbc1f142a6991d025eb6a47bd701a4b73b553efab1ee"
 
 [[files]]
 file = "config/gbook_snapshot.cfg"
@@ -29686,7 +29698,7 @@ hash = "475cffb9be44f76bcbd41b03e84a4488637b33a6eb82d50f76c079a7560c7446"
 
 [[files]]
 file = "config/minemenu/minemenu.json"
-hash = "e82c494fe1de653e69b117906b6a18f8d1611f36bce157668ac23c33c1709043"
+hash = "940e074bc8339e7a0b44d03c85502069292b5e74664e4a12c284926cce62273a"
 
 [[files]]
 file = "config/minieffects.cfg"
@@ -29854,7 +29866,7 @@ hash = "53d7859f75ece206c5b9829ebd7930050c8e07f6d507a13e85ec1d847ed1682a"
 
 [[files]]
 file = "config/modularmachinery/machinery/lv1_miner_basic.json"
-hash = "2b92b610863e77300d8eadde2dffb4f9887efcf6df4ab20b1095332acfde3270"
+hash = "cfffe7791e32860a05b2fcd082ec29a36796cc5e2d06d48027ee2a6437c2feb3"
 
 [[files]]
 file = "config/modularmachinery/machinery/lv1_power_generator_experience.json"
@@ -31726,7 +31738,7 @@ hash = "9ac69533477bf4d82ff49315538cadbbafb12fdbc7162f76ce1d7d6cf31b8ea8"
 
 [[files]]
 file = "config/stellarcore_stitcher_cache_vanilla.dat"
-hash = "69b1efba787f17788122c0dabc2939ac1ef619662ff8548788dad5441a3cdd01"
+hash = "4828b6e83e735a7934565f865fd7aa33b35a433ce5e35b033902950ea22eb68a"
 
 [[files]]
 file = "config/storagedrawers.cfg"
@@ -32046,7 +32058,7 @@ hash = "f191208cedaf0c19ccdbfb4ec58af40a317383f7ba1e4385dc43dc591aeb4faa"
 
 [[files]]
 file = "config/thaumicjei_itemstack_aspects.json"
-hash = "99a46d62f78e9f68d2f7458222dae22b84191e7f50d41b03e49b5a0fc7e0cd30"
+hash = "6a092bb6ffe7cad52f45317e7221dc3f136431b9f2236f2309b9cf8972a10d58"
 
 [[files]]
 file = "config/thaumictinkerer.cfg"
@@ -32318,7 +32330,7 @@ hash = "ec44a9730d4014ac98a255cd4ea9e10fadcaba5473e14dd614c3900e40e414f9"
 
 [[files]]
 file = "config/trashslot.cfg"
-hash = "a3fe21cf5a9d687c28f76e340074c7f1bdf684886b0e438a1f6a1d278db3984c"
+hash = "a70012ebad26705355973da403fa519c8a05f203f4f167db844124804421b9b3"
 
 [[files]]
 file = "config/triumph/Triumph.txt"
@@ -35032,8 +35044,8 @@ file = "mods/GodAgglomerationPlate-1.0.2.jar"
 hash = "be744711eccee3f1b9b40ef131ce2eb381d5c4ce48a9944eb4137503ef24403a"
 
 [[files]]
-file = "mods/HardCoreItemStages-1.0.7.jar"
-hash = "f68adb77b854ab9564f9033aa54853b6517738a0d113907578af1b40559ea62f"
+file = "mods/HardCoreItemStages-1.0.8.jar"
+hash = "dcee7cacb54e85bc2c41a6157bc42a48a40f94d160a2e29f59fb74ee1f8c3f35"
 
 [[files]]
 file = "mods/HydrogenationTinker(0.1.1-release).jar"
@@ -36053,7 +36065,7 @@ hash = "17db80b982012ebab53726dfbb9291b5b715c8a4542c9da78d6710a521e7f211"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/en_us/entries/gamestages/gamestages_list.json"
-hash = "e5d34a5215d0180bab26bd392d5a257ac00bfc2059932234194a85caf9ad00eb"
+hash = "74675374a2ec6fdcae2d6ec865cb3188fcc1535a9ef75f384c462d8df429fe83"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/en_us/entries/gamestages/gamestages_pouch.json"
@@ -36333,7 +36345,7 @@ hash = "17db80b982012ebab53726dfbb9291b5b715c8a4542c9da78d6710a521e7f211"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/zh_cn/entries/gamestages/gamestages_list.json"
-hash = "e5d34a5215d0180bab26bd392d5a257ac00bfc2059932234194a85caf9ad00eb"
+hash = "74675374a2ec6fdcae2d6ec865cb3188fcc1535a9ef75f384c462d8df429fe83"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/zh_cn/entries/gamestages/gamestages_pouch.json"
@@ -37446,6 +37458,10 @@ hash = "55d042e8a13e31f87f0ac33963d7e57d348b13dce24e48b92496650278067db2"
 [[files]]
 file = "resources/contenttweaker/blockstates/compressite.json"
 hash = "41adda2d36a24ad2f14109c59a8073c684187fde3a63359cff96af74aaf6fece"
+
+[[files]]
+file = "resources/contenttweaker/blockstates/concentrated_soul_liquid.json"
+hash = "4d7c361ac18e51fc89858a8af6b404fad5f5725f6f9192c0d02d7352891322f0"
 
 [[files]]
 file = "resources/contenttweaker/blockstates/corbite.json"
@@ -41012,6 +41028,10 @@ file = "resources/moretcon/textures/items/ring/gem_chromasteel.png.mcmeta"
 hash = "2b0b9a7f497f0ac16d324500eb526421e9c91eb044dfef54cd6a8fbbbf683e75"
 
 [[files]]
+file = "resources/mysticalagriculture/lang/zh_CN.lang"
+hash = "641b15412af83e82502b56d85e896ab2c6fb4aaa49e917710a4cf445aadc626a"
+
+[[files]]
 file = "resources/nae2/textures/item/upgrade/auto_complete.png"
 hash = "f7c928c8e143018c6da3dc17eb73920718560acd6087ad8ec38ac6d563e0a8e4"
 
@@ -43009,7 +43029,7 @@ hash = "18baa0940044b8d55f0094d135aa010286e610b0df3e0aba08267546a148a0c8"
 
 [[files]]
 file = "scripts/contenttweaker/fluids.zs"
-hash = "d66f2447e7e6b3bf1f0cec3da4d27fbd0dad26bb034a408b2c7bc1ae6df0dbf3"
+hash = "48379e059884001dc79b511aa1837fe34baf5e1f8314d351ebcc853b62658abc"
 
 [[files]]
 file = "scripts/contenttweaker/food/Dropt/DroptEvent.zs"
@@ -43072,10 +43092,6 @@ file = "scripts/contenttweaker/totems/cure_totem.zs"
 hash = "2f7b2d5c881f898d694cbc31eca12e2824c7c9cacfcfb8aa5afc71fdc7f67407"
 
 [[files]]
-file = "scripts/contenttweaker/twilighttweaks/Twilight Tweaks.zs"
-hash = "f506f0f4eeaadc98bc9eda1e8ee62f889dd7b922e1ed7a1fffcc3e1425531209"
-
-[[files]]
 file = "scripts/events_and_commands/commands.zs"
 hash = "1fc1d1fdc56c9b37d79437b7895db2338f752b10e581ffa6e116477254418291"
 
@@ -43121,7 +43137,7 @@ hash = "2bcc8349a4f3e6067e9ee552610490631c7b2add61ae9064caa5928e43c1041e"
 
 [[files]]
 file = "scripts/events_and_commands/events/onEntityLivingUpdate.zs"
-hash = "a2869c1690578cdb285e9921dc5f1c6ca22f3d24df2bedf607c70435a26e36a6"
+hash = "8840952bc3deedfe72a13c9c818618589cb11e7078e676c37df29d09297cf13f"
 
 [[files]]
 file = "scripts/events_and_commands/events/onEntityTravelToDimension.zs"
@@ -43201,7 +43217,7 @@ hash = "2aa779c7b81ea3ed5ff84fbe048f5aed79176a511fac08236a117c06805b7a8e"
 
 [[files]]
 file = "scripts/gamestages/items.zs"
-hash = "60090e5b44ad1256a0e598a057aed5fe67891e79f1ef54034401f69acc95efa0"
+hash = "bc80bf3d7819238ee4a63b2427799d4959d4bdeb8d2e9dcaaf8054a759a283d7"
 
 [[files]]
 file = "scripts/gamestages/liquid.zs"
@@ -43213,19 +43229,19 @@ hash = "9c5f5ceeea16a1102644fcb8cb7c60e588e0f7c93ad8759a20b82d1da905334a"
 
 [[files]]
 file = "scripts/gamestages/ore_replacement.zs"
-hash = "a75b666cbc8e4e1ac5518b9804926e33e84bb1bf5370fa9d0c7e788e3c583804"
+hash = "ceeaf8ea1d06b12f1cf7f540b6251e31bb3909e237aa9fc7ae8a11a0dca28533"
 
 [[files]]
 file = "scripts/gamestages/restage.zs"
-hash = "7fb7231f5e2be88176f33710fa3d8c5bb767bc5d54cfc48fac5e6516f2c716cc"
+hash = "ce052cfd5c7e1204ef6dec7fa72919ba6425780f35ce5e2f89e54cccd033d6bc"
 
 [[files]]
 file = "scripts/gamestages/tinkers_stages.zs"
-hash = "a8b55b7303e5c0d6e0ecaf02ffb3aae859a1044f98db21a03d79eb3daf236037"
+hash = "178ec99cabb7cf7063a550b20b047f13930f46459e8e7fd910b795b8205350d2"
 
 [[files]]
 file = "scripts/gamestages/tooltip.zs"
-hash = "db0ac655e2374b74e0a3a395c80ae4dbb256551d7ff57a2ab7ead018786cfdbd"
+hash = "8f72cbbad44b3801cbcf4754d56acc52fb029c7c11bcdba9ec9e1fef9fc1a026"
 
 [[files]]
 file = "scripts/global/adventure.zs"
@@ -43253,7 +43269,7 @@ hash = "d1fb98f05b9311dc1dc8b94a43d2c3b6725a8624f2f87613f08a7eb5a3995748"
 
 [[files]]
 file = "scripts/global/gamestages_lore.zs"
-hash = "42ab023a6883b28a94cd67755daeef1e481527a946a4cf5bcbe7f3d213135a3d"
+hash = "9550740ea24d176b6ec0e073e10ae369c6426d71ca3524b7bf2fa250451d5d30"
 
 [[files]]
 file = "scripts/global/jei_description.zs"
@@ -43265,7 +43281,7 @@ hash = "75e3b04d4c84d7c5700be5e9867c577311da93a59329a387af2730e5a698c263"
 
 [[files]]
 file = "scripts/global/list_stages.zs"
-hash = "0e43395c94301e0eb4970e73157ffc4ff508197606ff9c1a8be33914f70629c4"
+hash = "1ca275ad1f14c0a9a1c93d4efb7ebeaa1b2543223170481d0438b5ac4b459346"
 
 [[files]]
 file = "scripts/global/misc.zs"
@@ -43597,7 +43613,7 @@ hash = "738b5f0616f27dc213dfd72cff144ed9b7cec6db0ef89fb9cee988fd0233cecf"
 
 [[files]]
 file = "scripts/recipes/mods/machines/elysia_alloyer_unit.zs"
-hash = "7115f06e485f32d062ce984cd2a58c157d47d4320f8c282cd45d38054093cb9a"
+hash = "a91b58cbb4849230764ba8d906696f6c1c63bdb744a0b270128f30296d9645cd"
 
 [[files]]
 file = "scripts/recipes/mods/machines/elysia_centrifuge_unit.zs"
@@ -43917,7 +43933,7 @@ hash = "16fb12199ac2270ec15c24c6fa13eb7cf148cc0c42af8fb5781e0eda8efbfbf5"
 
 [[files]]
 file = "scripts/util/gamestages.zs"
-hash = "50d05717b76cf20c08b049d0696b075503fd68b1ae680e17e528af047cf5098a"
+hash = "dcadd290f0e4a897eb3133f91d2ca641d626574d9999ab8f3db4ec5bd1034d28"
 
 [[files]]
 file = "scripts/util/lang.zs"

@@ -164,7 +164,10 @@ val compressingRecipes as IItemStack[IItemStack] = {
     <additions:godslime_nugget> : <additions:godslime_ingot>,
     <additions:emperorslime_ingot> : <additions:emperorslime_block>,
     <additions:emperorslime_nugget> : <additions:emperorslime_ingot>,
-    <additions:scientificite_ingot> : <additions:scientificite_block>
+    <additions:scientificite_ingot> : <additions:scientificite_block>,
+    <additions:extremium_essence> : <additions:extremium_essence_block>,
+    <additions:godlikeum_essence> : <additions:godlikeum_essence_block>,
+    <additions:nonenium_essence> : <additions:nonenium_essence_block>
 } as IItemStack[IItemStack];
 
 for original in compressingRecipes {

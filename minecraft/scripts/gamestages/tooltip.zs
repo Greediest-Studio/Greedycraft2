@@ -54,6 +54,8 @@ tieredtooltips.colorStage("challenger_d", "b5000000", "f0ff8008", "f0ffc837");
 tieredtooltips.colorStage("challenger_e", "b5000000", "f0ff8008", "f0ffc837");
 tieredtooltips.colorStage("challenger_f", "b5000000", "f0ff8008", "f0ffc837");
 tieredtooltips.colorStage("challenger_g", "b5000000", "f0ff8008", "f0ffc837");
+tieredtooltips.colorStage("challenger_h", "b5000000", "f0ff8008", "f0ffc837");
+tieredtooltips.colorStage("challenger_i", "b5000000", "f0ff8008", "f0ffc837");
 tieredtooltips.colorStage("challenger_all", "b5000000", "f0ff8008", "f0ffc837");
 
 ItemStages.stageTooltip("energy_matter_core", game.localize("pe.emc.emc_tooltip_prefix"));
