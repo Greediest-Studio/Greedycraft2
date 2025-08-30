@@ -447,8 +447,28 @@ global gameStagesLore as string[][string][string][string] = {
                 "可以制作更高级的神秘农业精华和作物"
             ]
         },
-        challenger_all: {
+        challenger_h: {
             alias: ["挑战者VIII"],
+            lore: [
+                "完成一定数量挑战任务的奖励。"
+            ],
+            unlocks: [
+                "可以制作更高级的生物农场",
+                "可以制作更高级的神秘农业精华和作物"
+            ]
+        },
+        challenger_i: {
+            alias: ["挑战者IX"],
+            lore: [
+                "完成一定数量挑战任务的奖励。"
+            ],
+            unlocks: [
+                "可以制作更高级的生物农场",
+                "可以制作更高级的神秘农业精华和作物"
+            ]
+        },
+        challenger_all: {
+            alias: ["挑战者之桂冠"],
             lore: [
                 "完成一定数量挑战任务的奖励。"
             ],

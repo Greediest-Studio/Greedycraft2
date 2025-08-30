@@ -74,7 +74,7 @@ events.onEntityLivingUpdate(function(event as EntityLivingUpdateEvent) {
     if (!isNull(event.entityLivingBase) ) {
         if (event.entityLivingBase instanceof IEntityLiving) {
             var entity as IEntityLiving = event.entityLivingBase;
-            if (!isNull(entity.definition)) {
+            if (!isNull(entity.definition) && !(entity instanceof IPlayer)) {
                 if (entity.definition.id has "abyssalcraft" || entity.definition.id has "gct_aby") {
                     if (entity.attackTarget instanceof IPlayer) {
                         var player as IPlayer = entity.attackTarget;

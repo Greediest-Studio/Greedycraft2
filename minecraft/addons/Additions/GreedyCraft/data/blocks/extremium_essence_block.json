@@ -1,0 +1,13 @@
+{
+  "item_block": {
+    "name": "§e超级精华块",
+    "ore_dict": "blockExtremiumEssence",
+    "type": "additions:block_simple"
+  },
+  "name": "§e超级精华块",
+  "material": "minecraft:stone",
+  "hardness": 3.0,
+  "resistance": 10.0,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

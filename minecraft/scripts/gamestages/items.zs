@@ -1583,7 +1583,19 @@ GameStagesUtil.stageChallenger6.addIngredients([
 ], true);
 
 GameStagesUtil.stageChallenger7.addIngredients([
-    <ore:seedsTier6>
+    <ore:seedsTier6>,
+    <ore:essenceExtremium>,
+    <ore:ingotExtremium>
+], true);
+
+GameStagesUtil.stageChallenger8.addIngredients([
+    <ore:essenceGodlikeum>,
+    <ore:ingotGodlikeum>
+], true);
+
+GameStagesUtil.stageChallenger9.addIngredients([
+    <ore:essenceNonenium>,
+    <ore:ingotNonenium>
 ], true);
 
 GameStagesUtil.stageFearlessMan.addIngredients([
