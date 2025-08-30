@@ -92,7 +92,7 @@ $expand IItemStack$hasOverslime() as bool {
     }
 }
 $expand IItemStack$hasEnergy() as bool {
-    if ((!isNull(this.tag.EnergizedEnergy)) || (!isNull(this.tag.EvolvedEnergy)) || (!isNull(this.tag.FluxedEnergy))) {
+    if ((!isNull(this.tag.EnergizedEnergy)) || (!isNull(this.tag.EvolvedEnergy)) || (!isNull(this.tag.FluxedEnergy)) || (!isNull(this.tag.Energy))) {
         return true;
     } else {
         return false;
@@ -106,6 +106,8 @@ $expand IItemStack$getEnergy() as int {
             return this.tag.EnergizedEnergy as int;
         } else if (!isNull(this.tag.FluxedEnergy)) {
             return this.tag.FluxedEnergy as int;
+        } else if (!isNull(this.tag.Energy)) {
+            return this.tag.Energy as int;
         } else {
             return 0;
         }
@@ -121,6 +123,8 @@ $expand IMutableItemStack$setEnergy(num as int) as void {
             this.updateTag({EnergizedEnergy : num});
         } else if (!isNull(this.tag.FluxedEnergy)) {
             this.updateTag({FluxedEnergy : num});
+        } else if (!isNull(this.tag.Energy)) {
+            this.updateTag({Energy : num});
         }
     }
 }
@@ -3495,6 +3499,7 @@ leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, 
         var player as IPlayer = holder;
         var extradamage as int = 0;
 
+        if (!isNull(tool.tag.Energy)) {extradamage = tool.tag.Energy.asInt();}
         if (!isNull(tool.tag.EnergizedEnergy)) {extradamage = tool.tag.EnergizedEnergy.asInt();}
         if (!isNull(tool.tag.FluxedEnergy)) {extradamage = tool.tag.FluxedEnergy.asInt();}
         if (!isNull(tool.tag.EvolvedEnergy)) {extradamage = tool.tag.EvolvedEnergy.asInt();}
