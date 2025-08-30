@@ -510,3 +510,12 @@ RecipeUtil.addShapeless("nonenium_essence", <additions:nonenium_essence>,
 RecipeUtil.addShapeless("nonenium_essence_reverse", <additions:godlikeum_essence> * 4,
     [<additions:nonenium_essence>]
 );
+RecipeUtil.addShapeless("extremium_ingot_essence", <additions:extremium_ingot>, 
+    [<ore:ingotBaseEssence>, <ore:essenceExtremium>, <ore:essenceExtremium>, <ore:essenceExtremium>, <ore:essenceExtremium>]
+);
+RecipeUtil.addShapeless("godlikeum_ingot_essence", <additions:godlikeum_ingot>, 
+    [<ore:ingotBaseEssence>, <ore:essenceGodlikeum>, <ore:essenceGodlikeum>, <ore:essenceGodlikeum>, <ore:essenceGodlikeum>]
+);
+RecipeUtil.addShapeless("nonenium_ingot_essence", <additions:nonenium_ingot>, 
+    [<ore:ingotBaseEssence>, <ore:essenceNonenium>, <ore:essenceNonenium>, <ore:essenceNonenium>, <ore:essenceNonenium>]
+);
