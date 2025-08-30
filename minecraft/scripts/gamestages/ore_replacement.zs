@@ -16,10 +16,10 @@ import mods.ItemStages;
 import scripts.util.gamestages as GameStagesUtil;
 
 
-GameStagesUtil.stageDescendantOfTheSun.addOreReplacement(<additions:infernium_ore>, <quark:basalt>, false);
-GameStagesUtil.stageDescendantOfTheSun.addOreReplacement(<additions:plasmarite_ore>, <minecraft:end_stone>, false);
-GameStagesUtil.stageDescendantOfTheSun.addOreReplacement(<additions:canopium_ore>, <twilightforest:deadrock:2>, false);
-GameStagesUtil.stageDescendantOfTheSun.addOreReplacement(<additions:freezite_ore>, <netherex:frostburn_ice>, false);
+GameStagesUtil.stageQuardstate.addOreReplacement(<additions:infernium_ore>, <quark:basalt>, false);
+GameStagesUtil.stageQuardstate.addOreReplacement(<additions:plasmarite_ore>, <minecraft:end_stone>, false);
+GameStagesUtil.stageQuardstate.addOreReplacement(<additions:canopium_ore>, <twilightforest:deadrock:2>, false);
+GameStagesUtil.stageQuardstate.addOreReplacement(<additions:freezite_ore>, <netherex:frostburn_ice>, false);
 
 GameStagesUtil.stageEnderCharm.addOreReplacement(<minecraft:end_portal_frame:*>, <additions:unknown_block>, false);
 

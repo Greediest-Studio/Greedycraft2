@@ -54,4 +54,5 @@ events.onEntityLivingUpdate(function(event as EntityLivingUpdateEvent) {
             entity.world.removeEntity(entity);
         }
     }
+
 });

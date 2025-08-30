@@ -87,7 +87,7 @@ GameStagesUtil.restageItems("warped", [
 
 GameStagesUtil.restageItem("awakened", <draconicevolution:chaos_shard>);
 GameStagesUtil.restageItem("chaotic_dominator", <draconicevolution:chaotic_core>);
-GameStagesUtil.restageItem("descendant_of_the_sun", <draconicevolution:awakened_core>);
+GameStagesUtil.restageItem("quardstate", <draconicevolution:awakened_core>);
 GameStagesUtil.restageItems("chaotic", [
     <mekanism:machineblock2:14>,
     <avaritia:resource:5>,

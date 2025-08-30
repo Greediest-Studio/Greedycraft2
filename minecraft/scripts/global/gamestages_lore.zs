@@ -36,7 +36,7 @@ global gameStagesLore as string[][string][string][string] = {
             ]
         },
         nether: {
-            alias: ["地心深处"],
+            alias: ["下界深处"],
             lore: [
                 "欢迎来到充满宝藏的炼狱！"
             ],
@@ -111,7 +111,7 @@ global gameStagesLore as string[][string][string][string] = {
             ]
         },
         fusion_matrix: {
-            alias: ["聚合之力"],
+            alias: ["万物聚合"],
             lore: [
                 "你获得了一种崭新的材料，你相信它有无比强大的潜力。"
             ],
@@ -146,9 +146,9 @@ global gameStagesLore as string[][string][string][string] = {
             ]
         },
         chaotic_dominator: {
-            alias: ["混沌支配者"],
+            alias: ["支配混沌"],
             lore: [
-                "这个世界的最后支柱已被你击败，你已经战无不胜了。"
+                "末地的混沌之物已被你击败，你已经战无不胜了。"
             ],
             unlocks: [
                 "死亡金币",
@@ -159,7 +159,7 @@ global gameStagesLore as string[][string][string][string] = {
         chaotic: {
             alias: ["混沌之主"],
             lore: [
-                "掌握了混沌的力量，你离终点已经不远了。"
+                "你已经掌握了混沌的力量。"
             ],
             unlocks: [
                 "混沌金属",
@@ -189,7 +189,7 @@ global gameStagesLore as string[][string][string][string] = {
             ]
         },
         vethea_breaker: {
-            alias: ["梦魇破坏者"],
+            alias: ["美梦再临"],
             lore: [
                 "终于逃出了这个牢笼……"
             ],
@@ -250,7 +250,7 @@ global gameStagesLore as string[][string][string][string] = {
                 "核电工艺，工业先锋！",
                 "更高级的发电装置",
                 "你开始受到核辐射！",
-                "六倍矿，七倍矿"
+                "六倍矿，八倍矿"
             ]
         },
         noob_wizard: {
@@ -307,8 +307,8 @@ global gameStagesLore as string[][string][string][string] = {
                 "质能转换核心"
             ]
         },
-        descendant_of_the_sun: {
-            alias: ["太阳的后裔"],
+        quardstate: {
+            alias: ["四相破除"],
             lore: [
                 "你打破了挡在混沌守卫面前的最后一道屏障！全新的金属生成在了四个世界。"
             ],
@@ -466,7 +466,7 @@ global gameStagesLore as string[][string][string][string] = {
             ]
         },
         energy_matter_core: {
-            alias: ["质量即能量！"],
+            alias: ["质能守恒"],
             lore: [
                 "你终于学会了将物质进行转换的方法。"
             ],
@@ -477,7 +477,7 @@ global gameStagesLore as string[][string][string][string] = {
             ]
         },
         gatekeeper: {
-            alias: ["践踏守门者"],
+            alias: ["深渊门户"],
             lore: [
                 "表层深渊，征服！"
             ],
@@ -488,7 +488,7 @@ global gameStagesLore as string[][string][string][string] = {
             ]
         },
         gaia_deleter: {
-            alias: ["盖亚删除者"],
+            alias: ["盖亚肃清"],
             lore: [
                 "大地之母已被击败，接下来……"
             ],
@@ -516,7 +516,7 @@ global gameStagesLore as string[][string][string][string] = {
             ]
         },
         cosmic: {
-            alias: ["寰宇支配者"],
+            alias: ["凌驾寰宇"],
             lore: [
                 "或许曾经它是终点，可现在它微不足道。"
             ],
@@ -538,7 +538,7 @@ global gameStagesLore as string[][string][string][string] = {
             ]
         },
         betweenland_traveller: {
-            alias: ["交错旅行家"],
+            alias: ["交错旅者"],
             lore: [
                 "你终于明白了那沼泽中祭坛的真正意义。"
             ],

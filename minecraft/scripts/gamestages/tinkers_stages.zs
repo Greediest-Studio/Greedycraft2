@@ -20,7 +20,7 @@ val materialStages as string[string] = {
     "chaotic_metal": "awakened",
     "draconic_metal": "wyvern",
     "neutronium": "awakened",
-    "infernium": "descendant_of_the_sun",
+    "infernium": "quardstate",
     "ardite": "nether",
     "cobalt": "nether",
     "manyullyn": "nether",

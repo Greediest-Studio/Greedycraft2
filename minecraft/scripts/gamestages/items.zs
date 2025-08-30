@@ -15,7 +15,7 @@ import mods.ItemStages;
 
 import scripts.util.gamestages as GameStagesUtil;
 
-GameStagesUtil.stageDescendantOfTheSun.addIngredients([
+GameStagesUtil.stageQuardstate.addIngredients([
     <ore:ingotInfernium>,
     <ore:nuggetInfernium>,
     <ore:blockInfernium>,
