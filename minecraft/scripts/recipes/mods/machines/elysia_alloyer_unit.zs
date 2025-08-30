@@ -232,6 +232,9 @@ recipe(1057 , <enderio:item_alloy_endergy_ingot:6> * 1, [<ore:ingotEnergeticSilv
 recipe(1058 , <nuclearcraft:alloy:9> * 4, [<ore:ingotLead> * 3, <ore:ingotPlatinum> * 1], 4000, 10.0f);
 recipe(1059 , <tconstruct:ingots:5> * 4, [<ore:ingotAluminium> * 3, <ore:ingotCopper> * 1], 4000, 10.0f);
 recipe(1060 , <tconstruct:ingots:3> * 1, [<minecraft:iron_ingot> * 1, <tconstruct:edible:2> * 1, <tconstruct:materials> * 4], 4000, 10.0f);
+recipe(1061 , <enderio:item_alloy_ingot:9> * 1, [<minecraft:iron_ingot> * 1, <ore:ingotCopper> * 1, <ore:ingotLead> * 1], 4000, 10.0f);
+recipe(1062 , <additions:aetherite_ingot> * 1, [<additions:asgardium_ingot> * 3, <gct_mobs:gravity_scrap> *3], 4000, 10.0f);
+recipe(1063 , <mca:rose_gold_ingot> * 3, [<ore:ingotGold> * 1, <ore:ingotSilver> * 1, <ore:ingotCopper> * 1], 4000, 10.0f);
 
 recipe(2000 , <gct_ores:sky_alloy_ingot> * 2, [<ore:ingotAetherium>, <ore:ingotCanopium>, <ore:ingotMistium>, <ore:ingotThyminite>], 51200, 10.0f);
 recipe(2001 , <gct_ores:fire_alloy_ingot> * 2, [<ore:ingotLavarite>, <ore:ingotPlasmarite>, <ore:ingotBnightium>, <ore:ingotGuaninite>], 51200, 10.0f);
@@ -245,3 +248,4 @@ recipe(2008 , <additions:eugardite_ingot> * 4, [<ore:ingotDecurrium> * 3, <ore:i
 recipe(2009 , <additions:eucite_ingot> * 3, [<ore:ingotCelestium>, <ore:ingotKorite>, <ore:ingotMekyum> * 2, <ore:ingotStoron> * 2], 51200, 10.0f);
 recipe(2010 , <tiths:ingot_decurrium> * 6, [<ore:ingotEucite> * 3, <ore:ingotCorbite> * 2, <ore:ingotChloroplast> * 2, <ore:ingotIrisia> * 3], 51200, 10.0f);
 recipe(2011 , <gct_ores:everite_ingot>, [<ore:ingotTerraAlloy>, <ore:ingotSkyAlloy>, <ore:ingotFireAlloy>, <ore:ingotIceAlloy>], 51200, 10.0f);
+recipe(2012 , <plustic:mirioningot> * 4, [<botania:manaresource:4> * 1, <botania:manaresource> * 1, <botania:manaresource:7> * 1, <ore:ingotCobalt> * 1, <minecraft:glass> * 1], 51200, 10.0f);
