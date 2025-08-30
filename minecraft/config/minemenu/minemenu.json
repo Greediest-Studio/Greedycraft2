@@ -76,14 +76,14 @@
       }
     },
     "6": {
-      "title": "\u00a7b\u81ea\u6740(\u5feb\u901f\u56de\u57ce)",
+      "title": "\u00a7b\u6e05\u7406\u6389\u843d\u7269",
       "icon": {
-        "name": "minecraft:skull",
+        "name": "minecraft:flint_and_steel",
         "damage": 0
       },
       "action": {
         "command": {
-          "command": "/suicide",
+          "command": "/purge",
           "clipboard": false
         }
       }
@@ -115,14 +115,14 @@
       }
     },
     "9": {
-      "title": "\u00a7b\u6e05\u7406\u6389\u843d\u7269",
+      "title": "\u00a7b\u81ea\u6740(\u5feb\u901f\u56de\u57ce)",
       "icon": {
-        "name": "minecraft:flint_and_steel",
+        "name": "minecraft:skull",
         "damage": 0
       },
       "action": {
         "command": {
-          "command": "/purge",
+          "command": "/suicide",
           "clipboard": false
         }
       }
