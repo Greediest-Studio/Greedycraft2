@@ -3508,7 +3508,7 @@ leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, 
 
         var difficulty as float = player.difficulty as float;
         var needDamage = 1 + Math.ceil(pow((difficulty / 256), 1.5));
-        needDamage *= unmodifiedAmount;
+        needDamage += unmodifiedAmount;
 
         if (needDamage > (tool.maxDamage - tool.damage + extradamage)) {
             ToolHelper.breakTool(tool.mutable().native, player.native);
