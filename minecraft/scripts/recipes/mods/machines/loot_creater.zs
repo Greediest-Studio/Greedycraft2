@@ -235,7 +235,7 @@ createLootRecipe("durasteel_loot", [
 ], 20, 2.0E4 as long, 0);
 
 //悼亡者
-createLootRecipe("aeonsteel_ingot", [
+createLootRecipe("aeonsteel_loot", [
     <defiledlands:idol_sorrow>
 ], [
     <defiledlands:scarlite> * 8,
@@ -243,7 +243,7 @@ createLootRecipe("aeonsteel_ingot", [
 ], 30, 1.0E5 as long, 1);
 
 //悼亡者II
-createLootRecipe("chromasteel_ingot", [
+createLootRecipe("chromasteel_loot", [
     <defiledlands:idol_sorrow>
 ], [
     <defiledlands:scarlite> * 8,
