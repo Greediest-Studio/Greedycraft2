@@ -673,7 +673,12 @@ GameStagesUtil.stageOrder.addIngredients([
     <ore:blockFinallium>,
     <ore:dustFinallium>,
     <ore:nuggetFinallium>,
-    <ore:plateFinallium>
+    <ore:plateFinallium>,
+    <additions:zomril_ingot>,
+    <ore:blockZomril>,
+    <ore:nuggetZomril>,
+    <ore:dustZomril>,
+    <ore:plateZomril>
 ], false);
 
 GameStagesUtil.stageChaotic.addIngredients([
