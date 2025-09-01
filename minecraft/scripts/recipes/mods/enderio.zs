@@ -95,7 +95,6 @@ AlloySmelter.addRecipe(<additions:killer_alloy_ingot> * 3, [<ore:ingotTwilitAllo
 AlloySmelter.addRecipe(<additions:curse_alloy_ingot>, [<ore:ingotDarkSteel> * 5, <ore:ingotSoulium> * 3, <ore:ingotBlackholeAlloy>], 350000, 180.0f);
 AlloySmelter.addRecipe(<additions:blackhole_alloy_ingot> * 2, [<ore:ingotStellarAlloy>, <draconicevolution:chaos_shard:1> * 4, <ore:ingotVoid>], 300000, 200.0f);
 AlloySmelter.addRecipe(<additions:creative_alloy_ingot> * 2, [<ore:ingotBlackholeAlloy> * 2, <ore:ingotBalancedMatrix>, <ore:shardCreative>], 1000000, 1000.0f);
-AlloySmelter.addRecipe(<tconevo:material> * 2, [<ore:ingotManyullyn> * 2, <ore:ingotAdamant>, <ore:ingotEnderium> * 2], 50000, 20.0f);
 AlloySmelter.addRecipe(<additions:daynight_ingot>, [<ore:ingotFalsite>, <ore:ingotVentium>, <ore:ingotHorizonite>], 5000, 10.0f);
 AlloySmelter.addRecipe(<additions:porpezite_ingot> * 2, [<ore:ingotRuthenium>, <ore:ingotRhodium>, <ore:ingotPalladium> * 3], 4000, 10.0f);
 AlloySmelter.addRecipe(<plustic:osmiridiumingot> * 2, [<ore:ingotOsmium>, <ore:ingotIridium>], 2000, 10.0f);
