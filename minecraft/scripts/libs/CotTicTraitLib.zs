@@ -58,7 +58,6 @@ zenClass cotticTraitLib {
         <item:tcongreedyaddon:greatblade>,
         <item:tconevo:tool_sceptre>,
         <item:tcongreedyaddon:allinonetool>,
-        <item:hydrogenation_tinker:energy_stick>
     ];
 
     zenConstructor() {
@@ -264,7 +263,6 @@ zenClass cotticTraitLib {
             <item:tcongreedyaddon:greatblade>,
             <item:tconevo:tool_sceptre>,
             <item:tcongreedyaddon:allinonetool>,
-            <item:hydrogenation_tinker:energy_stick>
         ];
 
         for i in allticitem{

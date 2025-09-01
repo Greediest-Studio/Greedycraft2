@@ -18,7 +18,6 @@ import scripts.util.lang as LangUtil;
 //                            //
 ////////////////////////////////
 
-recipes.remove(<hydrogenation_tinker:field_generator>.withTag({Material: "nether_star"}));
 recipes.remove(<ymadditions:network_hub>);
 recipes.remove(<tconstruct:piggybackpack>.withTag({}));
 recipes.removeByRecipeName("biomesoplenty:amber_block");
@@ -602,4 +601,9 @@ RecipeUtil.addShaped("primordial_stone_stairs", <gct_mobs:primordial_stone_stair
     [<gct_mobs:primordial_stone>, null, null],
     [<gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>, null],
     [<gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>, <gct_mobs:primordial_stone>]
+]);
+RecipeUtil.addShaped("summoning_crystal_lightning", <iceandfire:summoning_crystal_lightning>, [
+    [<iceandfire:lightning_dragon_blood>, <ore:enderpearl>, null],
+    [<ore:gemDiamond>, <ore:gemAmethyst>, null],
+    [null, null, null]
 ]);
