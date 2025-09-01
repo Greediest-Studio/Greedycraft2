@@ -205,7 +205,7 @@ for row in crops {
     } else if (<ore:seedsTier6> has seed) {
         tier = 6;
     }
-    RecipeBuilder.newBuilder(regName + "_grow_" + seed.name + "_" + recipeId, regName, time[tier], 0)
+    RecipeBuilder.newBuilder(regName + "_grow_" + seed.name + "_" + recipeId, regName, time[tier] * 10, 0)
     .addItemInput(seed).setChance(0.0f)
     .addEnergyPerTickInput(energy[tier])
     .addItemOutput(seed)

@@ -56,7 +56,6 @@ zenClass ticTraitLib {
         <tcongreedyaddon:greatblade>,
         <tconevo:tool_sceptre>,
         <tcongreedyaddon:allinonetool>,
-        <hydrogenation_tinker:energy_stick>
     ];
 
     zenConstructor() {
@@ -266,7 +265,6 @@ zenClass ticTraitLib {
         <tcongreedyaddon:greatblade>,
         <tconevo:tool_sceptre>,
         <tcongreedyaddon:allinonetool>,
-        <hydrogenation_tinker:energy_stick>
         ];
 
         for i in allticitem{

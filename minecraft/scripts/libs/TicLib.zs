@@ -53,7 +53,6 @@ zenClass ticLib {
         <tcongreedyaddon:greatblade>,
         <tconevo:tool_sceptre>,
         <tcongreedyaddon:allinonetool>,
-        <hydrogenation_tinker:energy_stick>
     ];
 
     zenConstructor() {
@@ -98,7 +97,6 @@ zenClass ticLib {
             <tcongreedyaddon:greatblade>,
             <tconevo:tool_sceptre>,
             <tcongreedyaddon:allinonetool>,
-            <hydrogenation_tinker:energy_stick>
         ];
 
         for i in tictool{

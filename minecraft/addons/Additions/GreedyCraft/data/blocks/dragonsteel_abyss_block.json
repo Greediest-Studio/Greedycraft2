@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "龙渊钢块",
+    "ore_dict": "blockAbyssDragonsteel",
+    "type": "additions:block_simple"
+  },
+  "name": "龙渊钢块",
+  "material": "minecraft:metal",
+  "hardness": 10.0,
+  "resistance": 1000.0,
+  "harvest_level": 3,
+  "harvest_tool": "pickaxe",
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

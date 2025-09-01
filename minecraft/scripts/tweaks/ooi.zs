@@ -41,6 +41,13 @@ ConversionItem.create(<additions:titanium_ingot>).addMatchItem(<ore:ingotTitaniu
 ConversionItem.create(<additions:shadowium_ingot>).addMatchItem(<extrabotany:material:5>).register();
 ConversionItem.create(<thermalfoundation:storage:4>).addMatchItem(<ore:blockAluminum>).register();
 ConversionItem.create(<tconstruct:metal>).addMatchItem(<ore:blockCobalt>).register();
+ConversionItem.create(<taiga:palladium_block>).addMatchItem(<ore:blockPalladium>).register();
+ConversionItem.create(<biomesoplenty:gem:6>).addMatchItem(<ore:gemSapphire>).register();
+ConversionItem.create(<biomesoplenty:gem_block:6>).addMatchItem(<ore:blockSapphire>).register();
+ConversionItem.create(<biomesoplenty:gem>).addMatchItem(<ore:gemAmythest>).addMatchItem(<ore:gemAmethyst>).register();
+ConversionItem.create(<biomesoplenty:gem_block>).addMatchItem(<ore:blockAmythest>).addMatchItem(<ore:blockAmethyst>).register();
+ConversionItem.create(<biomesoplenty:gem_ore>).addMatchItem(<ore:oreAmythest>).register();
+ConversionItem.create(<biomesoplenty:gem_ore:6>).addMatchItem(<ore:oreSapphire>).register();
 
 ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:burningsulfurflow>).register();
 ConversionFluid.create(<liquid:fluxed_electrum>).addMatchFluid(<liquid:electrum_flux>).register();

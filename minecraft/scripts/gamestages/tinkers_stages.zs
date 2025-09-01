@@ -104,7 +104,8 @@ val toolTypeStages as string[string] = {
     "moretcon:blsword": "betweenland_traveller",
     "moretcon:blshovel": "betweenland_traveller",
     "moretcon:blbow": "betweenland_traveller",
-    "tcongreedyaddon:greatblade": "tinkering_blueprint"
+    "tcongreedyaddon:greatblade": "awakened",
+    "tcongreedyaddon:allinonetool": "awakened"
 } as string[string];
 
 TinkerStages.addModifierStage("hardmode", "mending_moss");
