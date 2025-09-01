@@ -20,8 +20,15 @@ import mods.modularmachinery.RecipeTickEvent;
 import mods.modularmachinery.MachineModifier;
 import mods.modularmachinery.IMachineController;
 import mods.modularmachinery.RecipeAdapterBuilder;
+import mods.modularmachinery.RecipePrimer;
 import mods.ctutils.utils.Math;
 import mods.jei.JEI;
+
+import mods.zenutils.DataUpdateOperation.OVERWRITE;
+import mods.zenutils.DataUpdateOperation.APPEND;
+import mods.zenutils.DataUpdateOperation.MERGE;
+import mods.zenutils.DataUpdateOperation.REMOVE;
+import mods.zenutils.DataUpdateOperation.BUMP;
 
 MachineModifier.setMaxThreads("draconic_fusioner", 1);
 MachineModifier.setMaxParallelism("draconic_fusioner", 256);
@@ -58,7 +65,12 @@ function addFusionRecipe(output as IItemStack, input as IIngredient[], ept as lo
         1: "飞龙",
         2: "神龙",
         3: "混沌",
-        4: "秩序"
+        4: "秩序",
+        5: "霜炙",
+        6: "悚怖",
+        7: "超元",
+        8: "贪婪",
+        9: "无尽"
     };
     var recipe = RecipeBuilder.newBuilder(output.definition.id + output.metadata + "a", "draconic_fusioner", 200);
     recipe.addEnergyPerTickInput(ept);
@@ -82,7 +94,12 @@ MMEvents.onControllerGUIRender("draconic_fusioner", function(event as Controller
         1: "飞龙",
         2: "神龙",
         3: "混沌",
-        4: "秩序"
+        4: "秩序",
+        5: "霜炙",
+        6: "悚怖",
+        7: "超元",
+        8: "贪婪",
+        9: "无尽"
     };
     var level as string = levelMap[event.controller.getFusionLevel()];
     var info as string[] = [

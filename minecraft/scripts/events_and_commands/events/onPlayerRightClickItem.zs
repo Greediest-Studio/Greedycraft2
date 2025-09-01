@@ -31,6 +31,8 @@ import crafttweaker.world.IBlockAccess;
 import crafttweaker.command.ICommand;
 import crafttweaker.item.IItemStack;
 
+import native.c4.conarm.lib.armor.ArmorCore;
+
 events.onPlayerRightClickItem(function(event as PlayerRightClickItemEvent) {
 
 if (!isNull(event.item) && !event.world.isRemote()) {
@@ -62,7 +64,7 @@ if (!isNull(event.item) && !event.world.isRemote()) {
         }
     }
 
-    //TConstruct Armor Restoration
+    /*//TConstruct Armor Restoration
     if (!isNull(event.item)) {
     if (event.item.definition.id == "conarm:polishing_kit") {
         var kit as IItemStack = event.item;
@@ -74,7 +76,13 @@ if (!isNull(event.item) && !event.world.isRemote()) {
         if (!isNull(player.armorInventory[3])) {
             var helmet as IItemStack = player.armorInventory[3];
             if (helmet.definition.id == "conarm:helmet") {
-                if ((helmet.tag.TinkerData.Materials.asString().split(","))[0] == "[\"" + material + "\"") {
+                var pass as bool = false;
+                for mat in (helmet.native as ArmorCore).getRepairParts() {
+                    if (helmet.tag.TinkerData.Materials.asString().split(",")[mat] has material) {
+                        pass = true;
+                    }
+                }
+                if (pass) {
                     if (helmet.damage == 0) {
                         //client.player.sendChat("§c匠魂头盔的耐久是满的！正在寻找对应胸甲……");
                     } else {
@@ -210,11 +218,11 @@ if (!isNull(event.item) && !event.world.isRemote()) {
         if (!pass) {
             client.player.sendChat("§c盔甲耐久已满，材料不匹配或不存在！");
         }
-    }
+    }*/
     }
 
 
-    //TConstruct Tools Restoration {
+    /*//TConstruct Tools Restoration {
     if (!isNull(event.item)) {
     if (event.item.definition.id == "tconstruct:sharpening_kit") {
         var kit as IItemStack = event.item;
@@ -284,6 +292,6 @@ if (!isNull(event.item) && !event.world.isRemote()) {
     }
     }
 
-}
+}*/
 });
 
