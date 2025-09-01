@@ -61,16 +61,14 @@ $expand IItemStack$isTicArmor() as bool {
     return CotTicLib.isTicArmor(this);
 }
 $expand IItemStack$getOverslime() as int {
-    if (this.isTicTool() || this.isTicArmor()) {
-        if (!isNull(this.tag."moretcon.overslime".remaining)) {
-            return this.tag."moretcon.overslime".remaining as int;
-        }
+    if (!isNull(this.tag."moretcon.overslime") && !isNull(this.tag."moretcon.overslime".remaining)) {
+        return this.tag."moretcon.overslime".remaining as int;
     } else {
         return 0;
     }
 }
 $expand IMutableItemStack$setOverslime(num as int) as void {
-    if (this.hasTicTrait("moretcon.overslime")) {
+    if (!isNull(this.tag."moretcon.overslime") && !isNull(this.tag."moretcon.overslime".remaining)) {
         this.updateTag({"moretcon.overslime" : {remaining : num as int}});
     }
 }
@@ -85,7 +83,7 @@ $expand IMutableItemStack$removeOverslime(num as int) as void {
     }
 }
 $expand IItemStack$hasOverslime() as bool {
-    if (CotTicTraitLib.hasTicTrait(this, "moretcon.overslime") && this.getOverslime() != 0) {
+    if (!isNull(this.tag."moretcon.overslime") && !isNull(this.tag."moretcon.overslime".remaining) && this.getOverslime() != 0) {
         return true;
     } else {
         return false;
@@ -140,6 +138,7 @@ $expand IMutableItemStack$removeEnergy(num as int) as void {
 }
 
 $expand IMutableItemStack$attemptDamageItemWithEnergy(num as int, player as IPlayer) as void {
+    var slime as int = this.getOverslime();
     if (this.hasEnergy()) {
         var energyDura as int = this.getEnergy() / 640;
         if (energyDura >= num) {
@@ -147,17 +146,52 @@ $expand IMutableItemStack$attemptDamageItemWithEnergy(num as int, player as IPla
         } else {
             var remainDura as int = num - energyDura;
             this.setEnergy(0);
-            if (remainDura >= this.maxDamage) {
+            if (remainDura >= (this.maxDamage - this.damage+ slime)) {
                 ToolHelper.breakTool(this.native, player.native);
             } else {
-                this.attemptDamageItem(remainDura, player);
+                if (this.hasOverslime()) {
+                    if (slime >= num) {
+                        this.removeOverslime(num);
+                    } else {
+                        var needDamage as int = num - slime;
+                        if (needDamage > (this.maxDamage - this.damage)) {
+                            ToolHelper.breakTool(this.native, player.native);
+                        } else {
+                            this.attemptDamageItem(needDamage, player);
+                        }
+                    }
+                } else {
+                    if (num >= (this.maxDamage - this.damage)) {
+                        ToolHelper.breakTool(this.native, player.native);
+                    } else {
+                        this.attemptDamageItem(num, player);
+                    }
+                }
             }
         }
     } else {
-        if (num >= this.maxDamage) {
+        if (num >= ((this.maxDamage - this.damage) + slime)) {
             ToolHelper.breakTool(this.native, player.native);
         } else {
-            this.attemptDamageItem(num, player);
+            if (this.hasOverslime()) {
+                if (slime >= num) {
+                    this.removeOverslime(num);
+                } else {
+                    var needDamage as int = num - slime;
+                    if (needDamage > (this.maxDamage - this.damage)) {
+                        ToolHelper.breakTool(this.native, player.native);
+                    } else {
+                        this.attemptDamageItem(needDamage, player);
+                    }
+                }
+            }
+            else {
+                if (num >= (this.maxDamage - this.damage)) {
+                    ToolHelper.breakTool(this.native, player.native);
+                } else {
+                    this.attemptDamageItem(num, player);
+                }
+            }
         }
     }
 }
@@ -3503,12 +3537,10 @@ leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, 
         if (!isNull(tool.tag.EnergizedEnergy)) {extradamage = tool.tag.EnergizedEnergy.asInt();}
         if (!isNull(tool.tag.FluxedEnergy)) {extradamage = tool.tag.FluxedEnergy.asInt();}
         if (!isNull(tool.tag.EvolvedEnergy)) {extradamage = tool.tag.EvolvedEnergy.asInt();}
-
         extradamage = (extradamage / 640);
 
         var difficulty as float = player.difficulty as float;
-        var needDamage = 1 + Math.ceil(pow((difficulty / 256), 1.5));
-        needDamage += unmodifiedAmount;
+        var needDamage as int = 1 * Math.max(Math.ceil(Math.sqrt(unmodifiedAmount)), Math.ceil(pow((difficulty / 256), 1.5)));
 
         if (needDamage > (tool.maxDamage - tool.damage + extradamage)) {
             ToolHelper.breakTool(tool.mutable().native, player.native);
