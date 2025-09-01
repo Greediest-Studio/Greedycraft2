@@ -385,6 +385,18 @@ file = "addons/Additions/GreedyCraft/assets/additions/blockstates/draconic_fusio
 hash = "7686e67a78e314cd2c580030c030062504f91ea945cea04d7b825105ea22b87b"
 
 [[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/blockstates/dragonsteel_abyss_block.json"
+hash = "903eca80625c38d95ab64aa1e4705bec547d3e0322f63cd216ad38ff0a1e5be2"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/blockstates/dragonsteel_basic_block.json"
+hash = "70b0deb8644d98b1494a3dd908fa64f85648a2bcb6259ef06f326ebf769c2792"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/blockstates/dragonsteel_ender_block.json"
+hash = "9f4e9737123435bb11db33478512f39b626429ca2be97ec34c40cb2ad253147e"
+
+[[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/blockstates/dreamium_block.json"
 hash = "d1d665833c4afab80806dc4bcbfae5e0a36ff3fcdeff9d4fa5b3c56c51d89a4b"
 
@@ -1455,6 +1467,18 @@ hash = "ed6927f6912c570c34c0898ec70ea1ebbc08131d0b1931bdeacbd143e5bb8ae9"
 [[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/models/block/draconic_fusion_core.json"
 hash = "c51e200144348980154076d13b76304e14789aeee01c5d171386e8be21af6c8e"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/models/block/dragonsteel_abyss_block.json"
+hash = "848f8c91158043d5f9963c70461d09d15dd6218ee3eee5536b11523afc75bb73"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/models/block/dragonsteel_basic_block.json"
+hash = "15d5d6c0f2ee4c4002281000752764c37e896f6079f848d616b4f931b8b8c232"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/models/block/dragonsteel_ender_block.json"
+hash = "348ed12b9a072acbff5d79d602708313cf7a7f1ff6ff9ed13d410ed215d2db28"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/models/block/dreamium_block.json"
@@ -3263,6 +3287,30 @@ hash = "8ba645d42625788b97d7b293a126fb791ac7cfd02c9b4b4632d03244bb5a7b70"
 [[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/models/item/dragon_soul.json"
 hash = "5985f4230dd3ea7b26e79f80b2747143658782f22ea6f2b1b65b6cf324790bb5"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/models/item/dragonsteel_abyss_block.json"
+hash = "7cce3068ea5a18ad8ac11358500530ecd6a183af48eb7e1e364d788dc3045aa8"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/models/item/dragonsteel_abyss_ingot.json"
+hash = "9a56e2a4faaa2f0db9e245ee897ec4dd08b214cb0f0173ad85f1a99ce92f5422"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/models/item/dragonsteel_basic_block.json"
+hash = "60b90e1d77f653d14c1f75fc51d2abf62d30b10fe8a11e7806a6f97f1caba919"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/models/item/dragonsteel_basic_ingot.json"
+hash = "8ea31e7141a85d5170d9cfb77ff1ece6d2c552c25c5aabacdcb0420847214725"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/models/item/dragonsteel_ender_block.json"
+hash = "454d84f08d3248a53f03f93a1ada67cd1e9c1a805b0f73c5e2bc62bc294748ea"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/models/item/dragonsteel_ender_ingot.json"
+hash = "5489239cbee5a55f3c207cc40b488aff1d0127f8f4d73fca8a03655bc08853e0"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/models/item/dreamic_control_circuit.json"
@@ -6361,6 +6409,18 @@ file = "addons/Additions/GreedyCraft/assets/additions/textures/blocks/draconic_f
 hash = "22b56358ee26d87e9c759cc80add8b9b782830cb6d8b28f159caca0c9d8a5622"
 
 [[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/textures/blocks/dragonsteel_abyss_block.png"
+hash = "72c9646e1ca77bf9523b224cd97f9dc6e59a084e48ae42b81171a98e60069390"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/textures/blocks/dragonsteel_basic_block.png"
+hash = "20077c68a39bbeeda991e64d0908c04325fdf67963f21a617a654b7b45567b47"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/textures/blocks/dragonsteel_ender_block.png"
+hash = "16438491aab0a04157a312ece40e6105c0b097d88063d3c0b0dd4d0858e67736"
+
+[[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/textures/blocks/dreamium_block.png"
 hash = "713b162f9be52a9e1eff10d58f77805c0cdbd83acdf1257b390d865935b84188"
 
@@ -7951,6 +8011,18 @@ hash = "fbc2fbf8719335abbd9fa3a2c096cd7b3db8718a39a90f93735be10f7a8e6991"
 [[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/textures/items/dragon_soul-layer0.png"
 hash = "13554b5d3f3ed3fe9e2d0a0580b6e1d54dd25b200e2d83e343c141533bc37e15"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/textures/items/dragonsteel_abyss_ingot-layer0.png"
+hash = "d846b63fb933c0b66b1076c46865fa416c3aefa2ae8cc29774f8a1a62d8ee733"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/textures/items/dragonsteel_basic_ingot-layer0.png"
+hash = "2ce529da8469a5d6afa53d97caf1e956841ccc387a7d7001d408ff8c68c1b2d8"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/assets/additions/textures/items/dragonsteel_ender_ingot-layer0.png"
+hash = "e6e3a26a4aa9a5a5f833302e6e8a2fc9cbb8606d4e117ef9d108106264da60f7"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/assets/additions/textures/items/dreamic_control_circuit-layer0.png"
@@ -10317,6 +10389,18 @@ file = "addons/Additions/GreedyCraft/data/blocks/draconic_fusion_core.json"
 hash = "9e069921ee29caba1883a119230f036220a6c8d3582ffa231dd9fcc8a618f9d7"
 
 [[files]]
+file = "addons/Additions/GreedyCraft/data/blocks/dragonsteel_abyss_block.json"
+hash = "e261bcb524d38d626a0d30aee5fe571c353bfad6c67fb25453656f3c89752fe5"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/data/blocks/dragonsteel_basic_block.json"
+hash = "62a823a6196f0c41ae2b8ac7f017188aea84a09654e463a3c543c18dcd701848"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/data/blocks/dragonsteel_ender_block.json"
+hash = "86c1448ffde0a906e661159e66ff2a3c80873f59e23c6c157e8ff8cee058a278"
+
+[[files]]
 file = "addons/Additions/GreedyCraft/data/blocks/dreamium_block.json"
 hash = "741dbc91923dbbd36fc752265fdfc9733391faf734a49d6b94f5721f60f62e24"
 
@@ -12059,6 +12143,18 @@ hash = "1c242080aa598ec17655603af20bc2134dff3c59d4adc1b54b6e19edaee8e0c8"
 [[files]]
 file = "addons/Additions/GreedyCraft/data/items/dragon_soul.json"
 hash = "24503371aec823739fb9a0b22b0e44ad93f5312785c2f297b212122becf9fa51"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/data/items/dragonsteel_abyss_ingot.json"
+hash = "493714365d2fc2c3e46e741f984724ad782ed9a3b91a79d1fc2d390ecd2737b8"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/data/items/dragonsteel_basic_ingot.json"
+hash = "40c90a3b3665d8e5560a746b676a139f588b30c49183887a4d384dde808e0d19"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/data/items/dragonsteel_ender_ingot.json"
+hash = "74840f8eeeb98103e1b324ac17fd54a0a8817cdd02c44dd3508557db8f4637de"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/data/items/dreamic_control_circuit.json"
@@ -14255,6 +14351,18 @@ hash = "bcfd4ad8297b472a034270101f7d2cd9645c66926901a39f0378891ccdd258d7"
 [[files]]
 file = "addons/Additions/GreedyCraft/data/loot_tables/additions/blocks/draconic_fusion_core.json"
 hash = "d0ece9caa26af92c005d53e5ab37b19164b79e33d585822618a67e02436f6bdf"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/data/loot_tables/additions/blocks/dragonsteel_abyss_block.json"
+hash = "0235739848681913b5e8b6e5e7988fc824a82477eb57242232914ebc93e01b42"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/data/loot_tables/additions/blocks/dragonsteel_basic_block.json"
+hash = "9a5e442102b05f69b5b5ca42b82fb5e6081a8575e9659d7b06375158dde13e8c"
+
+[[files]]
+file = "addons/Additions/GreedyCraft/data/loot_tables/additions/blocks/dragonsteel_ender_block.json"
+hash = "6df25a10210f11ac7bce7d645b5d540100962083f2ccfff497fe3717c88e419f"
 
 [[files]]
 file = "addons/Additions/GreedyCraft/data/loot_tables/additions/blocks/dreamium_block.json"
@@ -17282,7 +17390,7 @@ hash = "4d6776a80e9d4e8ef5d195732399ac87730a9a3acf0b7eaa447ca0bac2af6b71"
 
 [[files]]
 file = "config/Guide-API/Guide-API.cfg"
-hash = "25801cb86f8558c4a2cded3986041ed7b1cbe51849a5ae9166b2fc748b855edc"
+hash = "80f9177e51d2a5ee3f9c2fd875d683a7566b542e3025c7b634a11febf21a2d86"
 
 [[files]]
 file = "config/HadEnoughCharacters.cfg"
@@ -17954,7 +18062,7 @@ hash = "cb9df2a54049e6c5708c713e59cab77536c43b5e6c4fb4645239937842c6e9d7"
 
 [[files]]
 file = "config/astralsorcery.cfg"
-hash = "7383625d228d1e73e12f24b1152d5d1cc8d92c73b5937b62f3c29cba842fcff2"
+hash = "86fecd14c73fd86956e74501a66ae663b4b5facd64718182085ddcd6ae1da21f"
 
 [[files]]
 file = "config/astralsorcery/aevitas_ore_perk.cfg"
@@ -18018,7 +18126,7 @@ hash = "dc3b872bfcb8b2ab317560c5412c1dc6e8a63defb8c6637f2b06a3930769c1d4"
 
 [[files]]
 file = "config/battletowers.cfg"
-hash = "53e0dc0ecf295ec99fa53bcf76f6afead80ce489560ab42a0e1c6b0ec43af418"
+hash = "ea986e286a13f0c39098c81d5b0b7bc9af0ec021ea192d907bfa83c8d99f40c5"
 
 [[files]]
 file = "config/battletowers_fixes.cfg"
@@ -18725,10 +18833,6 @@ file = "config/brandon3055/ProjectIntelligence/projectintelligence.xml"
 hash = "d44b0ab387ed2281c599566ab22206d8351f441a09ba19792baeb8c53eba516b"
 
 [[files]]
-file = "config/brandon3055/contributors.json"
-hash = "4f08b094aff50d7ee939e43be012edc511b7f3400ea33e8b5db2284cd3616117"
-
-[[files]]
 file = "config/brewcraft.cfg"
 hash = "965c468fb29fb43a0d054f4b7ea49c4b040dbb2d9c82dcb78b087a02dc53b9a4"
 
@@ -19306,7 +19410,7 @@ hash = "8eddad0303241392fd850203ae1d14467f2706dfbd6ce254662784d741cd0ab5"
 
 [[files]]
 file = "config/cyclicmagic.cfg"
-hash = "8bb65a09858b41c1b231b3b577ba25d71e7392963be5b7d179f6d094300eeff3"
+hash = "bba4d122fdbf77ac14f2f044cb46020329efaaf1b3d069238aba40a6131b06ee"
 
 [[files]]
 file = "config/cyclopscore.cfg"
@@ -26534,7 +26638,7 @@ hash = "86f4f88a6b053f305f79826596a0bc7056193dd90bcbd9a9856d0a36eb1fb2dc"
 
 [[files]]
 file = "config/jaopca/materials/blackiron.toml"
-hash = "f7522d74f6e92cecbf074333d1aeb9a9a9ba146ed396e5bbc6f3b79d04faf4a6"
+hash = "01be49ff7a7ff52a382882cad8ee728635d42cde46dc6e832d79bb340237825e"
 
 [[files]]
 file = "config/jaopca/materials/blazingium.toml"
@@ -32278,7 +32382,7 @@ hash = "f191208cedaf0c19ccdbfb4ec58af40a317383f7ba1e4385dc43dc591aeb4faa"
 
 [[files]]
 file = "config/thaumicjei_itemstack_aspects.json"
-hash = "edc28437525704fb144c5ebbdf354b43e9edc25f5836157c7f4bd20e5eb591a0"
+hash = "6e02e449894b09fb5083b5b634a42e813ddcee591e71871a96fdaa4aeade247a"
 
 [[files]]
 file = "config/thaumictinkerer.cfg"
@@ -32390,7 +32494,7 @@ hash = "07656fd731d90703fe5320a2450244e4ad499ba040bbf78af9ebc52e31521664"
 
 [[files]]
 file = "config/topalldependents.cfg"
-hash = "70ed1a37b9a4f05a557ccb84d41ae02cb315889aad0b32625d82b70ea4d89651"
+hash = "1984527e8d0daa45d4659314715376462c2a0bd6a464967e8c16b4ad8432cff7"
 
 [[files]]
 file = "config/topalldependents_client.cfg"
@@ -33998,6 +34102,11 @@ hash = "f5e51601becf4c9f8878530d40cd2ecf232e89e5d9fae6218959a15eee12417d"
 metafile = true
 
 [[files]]
+file = "mods/.index/iseedragons.pw.toml"
+hash = "6755571d9c9cc0ac3e862483f630b8a9ab5d254ef97a72418d98a84e8557478f"
+metafile = true
+
+[[files]]
 file = "mods/.index/item-filters.pw.toml"
 hash = "34d15131bc2ade2772fc98488400018f26b8e2ad38dee94c0d98890bb29e6c9e"
 metafile = true
@@ -34195,11 +34304,6 @@ metafile = true
 [[files]]
 file = "mods/.index/mct-smeltery-io.pw.toml"
 hash = "dfb8a628ec4ad2ecd21f667679ee5a4aeadb9a5568dfcfe955a31e5405ef5a1c"
-metafile = true
-
-[[files]]
-file = "mods/.index/mekanism-ce-unofficial.pw.toml"
-hash = "a2ba545f665c05603bf4afd1abaf93754873ce207e58f1665ef5328203a0de6f"
 metafile = true
 
 [[files]]
@@ -34475,6 +34579,11 @@ metafile = true
 [[files]]
 file = "mods/.index/packagedthaumic.pw.toml"
 hash = "92861b9a0e134369cdff7de5cbeaf39996f597877fef42d908f8aa44e03cc0b3"
+metafile = true
+
+[[files]]
+file = "mods/.index/packagingprovider.pw.toml"
+hash = "0a002548c9d5c963bc96d238cadda36dc0b406722753f6daa78c0db324add150"
 metafile = true
 
 [[files]]
@@ -35266,10 +35375,6 @@ file = "mods/HydrogenationTinker(0.1.1-release).jar"
 hash = "3fb04462a141566044dbd40c0f50f77881ce81e6d75805ff400be20302587109"
 
 [[files]]
-file = "mods/ISeeDragons-1.2.1.jar"
-hash = "c1c79a7bd5efbd6daa8a3c25040f332b81e818b3db50dfcb4a568ac7dd44c720"
-
-[[files]]
 file = "mods/IceAndFireRotN-1.9.1-1.3.3_tweaked.jar"
 hash = "f910d70a9265a8756f875af16b2437d82a336ce72d5dbcd0721f85cce172f02b"
 
@@ -35288,6 +35393,10 @@ hash = "7a71dd9c4ac20cea37ce19c35c4aeda15385a40f31836b0058ff18f9e9554aad"
 [[files]]
 file = "mods/MCA-1.0.6.jar"
 hash = "fd630c147696b17a201fd614569e058a447e82f76548c4340ddf982f0d61b47b"
+
+[[files]]
+file = "mods/Mekanism-CE-Unofficial-All-9.9.1.231.jar"
+hash = "3d1c2e9163357f9fa1b449e1b2dc32cf824a89d1509c7bfd5bb4d9d28902adda"
 
 [[files]]
 file = "mods/MineMenu-1.0.2.jar"
@@ -35394,11 +35503,6 @@ file = "mods/iblis_headshots-0.6.5.jar"
 hash = "3a4a42ce8f76532f583609b48e4354fee59dc693240f061e279d761cae62625b"
 
 [[files]]
-file = "mods/iseedragons.pw.toml"
-hash = "6755571d9c9cc0ac3e862483f630b8a9ab5d254ef97a72418d98a84e8557478f"
-metafile = true
-
-[[files]]
 file = "mods/jecharacters-1.12.0-3.7.2-patched.jar"
 hash = "a17b8f1f6ebfcf5af0754b6c9dee10aedbd67992df628862d87eb1b2066290cd"
 
@@ -35415,11 +35519,6 @@ file = "mods/lnrepair_2317-1.0.0.0.jar"
 hash = "d676764c7d96d88562d1e1b47c4c765bf5cf1618e87669e4a2b1e30d25628fe2"
 
 [[files]]
-file = "mods/packagingprovider.pw.toml"
-hash = "0a002548c9d5c963bc96d238cadda36dc0b406722753f6daa78c0db324add150"
-metafile = true
-
-[[files]]
 file = "mods/plummet-1.0.2.jar"
 hash = "0b1e2a220506b6d31b7df75a83d92abeba9b4156158a12c5a4e8da88164f12e4"
 
@@ -35434,6 +35533,11 @@ hash = "493c0f77b21da5ec803d9748a3f4965b5bc7d12396af7a70ed21af19463d21bc"
 [[files]]
 file = "mods/thaumicwonders-2.1.1.jar"
 hash = "1758ae4be5363c87b8be20f30bc32ee57c02abdacfb3345af581e49921d0e6df"
+
+[[files]]
+file = "mods/tinkers-evolution.pw.toml"
+hash = "3bb5e70cee5492d89ca8a8f20ed896101a6856156e8749a33f77248c82b47a41"
+metafile = true
 
 [[files]]
 file = "mods/tiths-alpha-1.12.2-0.3.19.0.jar"
@@ -39661,7 +39765,7 @@ hash = "380471464f551d9240470791c41cf02cf42c6e28e463a304f050569443ef849d"
 
 [[files]]
 file = "resources/jaopca/lang/zh_cn.lang"
-hash = "18a2eee45800ee4ed75324af6d4a607fdb001f50ed2b590b790def524348c82f"
+hash = "5d29b6953c7cfac63c0a45d64cefdcf588442d8c9925e5733dea5e3a13f40edd"
 
 [[files]]
 file = "resources/jaopca/models/item/crystal/brewed.json"
