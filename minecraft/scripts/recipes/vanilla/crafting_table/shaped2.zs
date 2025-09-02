@@ -607,3 +607,8 @@ RecipeUtil.addShaped("summoning_crystal_lightning", <iceandfire:summoning_crysta
     [<ore:gemDiamond>, <ore:gemAmethyst>, null],
     [null, null, null]
 ]);
+RecipeUtil.addShaped("command_dismantler", <gct_ores:command_dismantler>, [
+    [null, <ore:gemDiamond>, <ore:ingotEverite>],
+    [null, <tconstruct:stone_stick>, <ore:gemDiamond>],
+    [<tconstruct:stone_stick>, null, null]
+]);

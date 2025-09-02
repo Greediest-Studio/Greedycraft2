@@ -801,6 +801,7 @@ GameStagesUtil.stageChaotic.addIngredients([
     <ore:alloyArcane>,
     <ore:circuitArcane>,
     <additions:chaotic_crystal_gem>,
+    <ore:ingotStellarium>,
     <contenttweaker:chaotic_energy_core>,
     <gctcore:chaotic_flux_capacitor>,
     <gctcore:chaotic_flux_capacitor>.withTag({EnergyL: 1024000000 as long})
