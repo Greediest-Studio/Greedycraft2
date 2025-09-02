@@ -681,7 +681,8 @@ GameStagesUtil.stageOrder.addIngredients([
     <ore:dustZomril>,
     <ore:plateZomril>,
     <contenttweaker:ordered_energy_core>,
-    <gctcore:ordered_flux_capacitor>.anyDamage()
+    <gctcore:ordered_flux_capacitor>,
+    <gctcore:ordered_flux_capacitor>.withTag({EnergyL: 4096000000 as long})
 ], false);
 
 GameStagesUtil.stageChaotic.addIngredients([
@@ -801,7 +802,8 @@ GameStagesUtil.stageChaotic.addIngredients([
     <ore:circuitArcane>,
     <additions:chaotic_crystal_gem>,
     <contenttweaker:chaotic_energy_core>,
-    <gctcore:chaotic_flux_capacitor>.anyDamage()
+    <gctcore:chaotic_flux_capacitor>,
+    <gctcore:chaotic_flux_capacitor>.withTag({EnergyL: 1024000000 as long})
 ], true);
 
 GameStagesUtil.stageStormBreaker.addIngredients([

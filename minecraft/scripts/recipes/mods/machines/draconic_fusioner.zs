@@ -170,6 +170,7 @@ addFusionRecipe(<godagglomerationplate:godagglomerationplate>, [<ore:ingotMythst
 addFusionRecipe(<additions:chaotic_crystal_gem>, [<ore:blockChaosShard>, <ore:gemTerrestrial> * 2, <gct_ores:shalloite> * 2], 5242880, 3);
 addFusionRecipe(<additions:stormy_crystal_gem>, [<ore:blockStormyShard>, <ore:gemTerrestrial> * 2, <gct_ores:shalloite> * 2], 5242880, 3);
 addFusionRecipe(<contenttweaker:chaotic_energy_core>, [<draconicevolution:draconic_energy_core>, <draconicevolution:chaos_shard:1> * 4, <ore:blockRedstone> * 4], 40000000, 2);
+addFusionRecipe(<contenttweaker:ordered_energy_core>, [<contenttweaker:chaotic_energy_core>, <ore:gemOrderCrystal> * 2, <ore:ingotFlux> * 2], 800000000, 4);
 addFusionRecipe(<avaritia:extreme_crafting_table>, [<extendedcrafting:table_ultimate>, <ore:blockCrystalMatrix> * 2, <ore:ingotCrystalMatrix> * 2, <ore:coreExcellent> * 2, <additions:ancient_tome_fragment> * 2], 4000000, 1);
 addFusionRecipe(<additions:blueprint_tactic>, [<additions:blueprint>, <ore:ingotDraconium> * 4], 20000, 0);
 addFusionRecipe(<additions:blueprint_tinkering>, [<additions:blueprint>, <ore:ingotWitherium> * 4], 20000, 0);
