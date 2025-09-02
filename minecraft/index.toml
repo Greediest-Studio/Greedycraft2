@@ -17538,7 +17538,7 @@ hash = "b8560ee6ba7c99297a489fd1f39217e47431238db471a5140af31a1d7718d2cc"
 
 [[files]]
 file = "config/TinkerToolLeveling.cfg"
-hash = "b0b1d246b59e84ffbcf7d52dfee9f9eab21afd946651a791c7375f6f765279cd"
+hash = "452f08b0ad96f8d4f5d0e326fefedf639186ddeaaf1a3bca76dc5075e217a5d9"
 
 [[files]]
 file = "config/TinkersArsenal.cfg"
@@ -18046,7 +18046,7 @@ hash = "551613b2e69bad38a400bc769f6ab10b865c7a61adebe59466c6b03d7070976e"
 
 [[files]]
 file = "config/armoryexpansion/traits.txt"
-hash = "56a18fa12cede322077bf26c1bcd20b02f4122281802de5ffbc636b52872f06c"
+hash = "908f4a9ab98a7d5ec8cd9780478336deb09bbc1f57cd32f2d3b68d27420e1149"
 
 [[files]]
 file = "config/aroma1997/aroma1997core.cfg"
@@ -18126,7 +18126,7 @@ hash = "dc3b872bfcb8b2ab317560c5412c1dc6e8a63defb8c6637f2b06a3930769c1d4"
 
 [[files]]
 file = "config/battletowers.cfg"
-hash = "ea986e286a13f0c39098c81d5b0b7bc9af0ec021ea192d907bfa83c8d99f40c5"
+hash = "ce5e1edb3d4e9cc2e24415b343a96cc23e9645b849f758f4c1d30743ce3a93d9"
 
 [[files]]
 file = "config/battletowers_fixes.cfg"
@@ -26105,14 +26105,6 @@ file = "config/hookt/hookt.json"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
-file = "config/hydrogenationTinker/dragon_zhixu.json"
-hash = "74d61d918e19dbaa5ca2232aef8f6ede014a2582e64dcccd1062bcef36e4c6c6"
-
-[[files]]
-file = "config/hydrogenationTinker/example.json"
-hash = "24a2556a3b4aa2230a984ee2b33be4f583d4e36d08ffafb0c43839287d5d81f0"
-
-[[files]]
 file = "config/hydrogenation_tinker.cfg"
 hash = "08dbf0da1df8dc12b9ce934d9c58085d4212ad876bfbc05c460596f01ff632d5"
 
@@ -26122,7 +26114,7 @@ hash = "62dcbf8d3eedbdc5373c71cd6306828a29157e08026fef5ef782cc9816d61b1c"
 
 [[files]]
 file = "config/ice_and_fire.cfg"
-hash = "c614bc46f6e5ad50611a0587d7f57f280d27f742ea5fb92da738ec42bdcf981d"
+hash = "c23f7fbe73f0bc77fa606cc5e7fe0e366eef22516989de348b7d49888af4e040"
 
 [[files]]
 file = "config/ilib.ini"
@@ -26255,6 +26247,10 @@ hash = "a12fc5409b04805ddb53e82fb0cd23e22b5f00a2076c6838b008fefb8e977ecb"
 [[files]]
 file = "config/jaopca/main.toml"
 hash = "7336ad782bf6059a348a3016d8ac2abc5d5fb3d11b6ac95c56bf1b7cbaa85b84"
+
+[[files]]
+file = "config/jaopca/materials/abyss_dragonsteel.toml"
+hash = "d08101be7a9ee90be2cf4a8588f40f6f709fbdd6d848b3b3c3766d1ff4a82d23"
 
 [[files]]
 file = "config/jaopca/materials/abyssalnite.toml"
@@ -26563,6 +26559,10 @@ hash = "02eb805a706b40ef437cd5224963a30224f2c78dac400b18505ebde6dad899a6"
 [[files]]
 file = "config/jaopca/materials/base_essence.toml"
 hash = "ef09055febce19d9d699f49dd620b7f22df3fed3c741df8d8cab56ebddcacf83"
+
+[[files]]
+file = "config/jaopca/materials/basic_dragonsteel.toml"
+hash = "290340aae497a105f84730285de12c81db8f57f5808c3fbba87f3403c367ab49"
 
 [[files]]
 file = "config/jaopca/materials/begonium.toml"
@@ -27419,6 +27419,10 @@ hash = "74738154a28708f28f842e4bfbc79d5a0d090babff16fa6f755fa3ca95723724"
 [[files]]
 file = "config/jaopca/materials/ender_biotite.toml"
 hash = "1b13190d86d146fab0219c068992051e674f279002cc1d87ba75267858398682"
+
+[[files]]
+file = "config/jaopca/materials/ender_dragonsteel.toml"
+hash = "99fbad1aebb4b634228df5ae20280eb195cd26dc72c9458e81cb11faf6e323f0"
 
 [[files]]
 file = "config/jaopca/materials/enderal.toml"
@@ -30810,7 +30814,7 @@ hash = "8a0a8bef56ce266e463b8ad6daf4ae35dab51140ee4200b4383becba03ed7318"
 
 [[files]]
 file = "config/pewter/022_ordered_metal.json"
-hash = "ca976e9ce1dc266447802a7d9f7c9702fc2631f7e3c6072b2c12d2729de5611b"
+hash = "31ccda05fcc5ec8df07a103ad3c92194b7a08191efec2771c060677e2bcc6c9f"
 
 [[files]]
 file = "config/pewter/023_elfsteel.json"
@@ -31554,7 +31558,7 @@ hash = "51eabf082093dee39d641fbb59b02a7b209c3d8f7ca93dbd127c2de4a6d87eb0"
 
 [[files]]
 file = "config/random_complement.cfg"
-hash = "0ceea4cdfbdae660c3433d5da1cdf008387b30be085ef9f33a926335d5056432"
+hash = "b6235ee5839df75940e6b3deee2c8078b7829dd07868eef674846c11bd8a50f5"
 
 [[files]]
 file = "config/randomportals/end_portal/inwards_facing/vertical_x.json"
@@ -32062,7 +32066,7 @@ hash = "9ac69533477bf4d82ff49315538cadbbafb12fdbc7162f76ce1d7d6cf31b8ea8"
 
 [[files]]
 file = "config/stellarcore_stitcher_cache_vanilla.dat"
-hash = "87bc6a4104cf8a78b9e950edbcb4e76fd30e831366dd4fe66535c13293b242ce"
+hash = "44126027894ed7911bedb52d5c468152f61cf21a13bc6f4ca88b0cd14c7d5070"
 
 [[files]]
 file = "config/storagedrawers.cfg"
@@ -32082,7 +32086,7 @@ hash = "77ad15a84331a9464c923222d6b4f465e25dfce212d1286567241c5a79db4803"
 
 [[files]]
 file = "config/tconevo.cfg"
-hash = "9bfd8932d520a6603cc4ee8569ae1d823baece26f7ac2be482fd96a7f9e7174e"
+hash = "109f085160f7685107ae901ca2f58e513a436307d31b9cb8e0c4547871b5ccf8"
 
 [[files]]
 file = "config/tconevo/.config_version"
@@ -32382,7 +32386,7 @@ hash = "f191208cedaf0c19ccdbfb4ec58af40a317383f7ba1e4385dc43dc591aeb4faa"
 
 [[files]]
 file = "config/thaumicjei_itemstack_aspects.json"
-hash = "6e02e449894b09fb5083b5b634a42e813ddcee591e71871a96fdaa4aeade247a"
+hash = "9a92a741563ba6afed359018589ed120a4410b5a423d0632599a6323e71e327a"
 
 [[files]]
 file = "config/thaumictinkerer.cfg"
@@ -32654,7 +32658,7 @@ hash = "ec44a9730d4014ac98a255cd4ea9e10fadcaba5473e14dd614c3900e40e414f9"
 
 [[files]]
 file = "config/trashslot.cfg"
-hash = "a70012ebad26705355973da403fa519c8a05f203f4f167db844124804421b9b3"
+hash = "9796fcf06090f7610e4424b529c2b4ebcbb63cbadad6805ecba51246bf18e57f"
 
 [[files]]
 file = "config/triumph/Triumph.txt"
@@ -32922,7 +32926,7 @@ hash = "efcfec75e0153fdfdfb4d48bb01fa4fcce0bfa6a2d04adc1f887b0ab492ae306"
 
 [[files]]
 file = "config/tweakersconstruct.cfg"
-hash = "1a8637be7d7889a1bc5fbdb4571021690c97441058313cc5eee787d8d3d52b17"
+hash = "4094d0c6560c23a6e35c429c5dc082950ff6ca1b10ed48c850d90315b088548b"
 
 [[files]]
 file = "config/twilightforest.cfg"
@@ -33958,7 +33962,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/fugue.pw.toml"
-hash = "eebb0c1e4fde92fd9233fb99fda7b72b02f1c8385091bef4e3651825bb5e0d91"
+hash = "ba737672a28032c1ee2fcbd33644861fb5bd01ce7cdf504d143c77b5ef0ad49b"
 metafile = true
 
 [[files]]
@@ -34218,7 +34222,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/libnine.pw.toml"
-hash = "a3df5d92fe3916abc7bf81bad65389fec254a1fba55ea6442612178cbc293757"
+hash = "aeeca03fc512fffed87f449bc8b631d59f4b95857dc3818492d6af0afd4e00c6"
 metafile = true
 
 [[files]]
@@ -35087,11 +35091,6 @@ hash = "d2ea631f738d6cd7423210f2d34c4157149d358a15b763f054f53c25cfb91284"
 metafile = true
 
 [[files]]
-file = "mods/.index/tinkers-evolution.pw.toml"
-hash = "ccf3495fd361c6c687ae57426aae92898e65d4237912a89670443b86a3e8d623"
-metafile = true
-
-[[files]]
 file = "mods/.index/tinkers-modifier-modifier.pw.toml"
 hash = "81be7d281c17ee389a5d8ce0cf00ca2743091a56abddada23909b507fe36680c"
 metafile = true
@@ -35203,7 +35202,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/universal-tweaks.pw.toml"
-hash = "b5f39d01a85a2d61db11ea5fbe74e7e5627c40740dd4648f8bed9f240e6178f9"
+hash = "d9e949d6b1935b35a7051d8d53fb2855e3b9d3ac48174f591ee874c6be698f7d"
 metafile = true
 
 [[files]]
@@ -35371,10 +35370,6 @@ file = "mods/HardCoreItemStages-1.0.9.jar"
 hash = "6fa69c1e06d22edbb4713f36f33b94d263345315344771b28d3fccf3fb0deb23"
 
 [[files]]
-file = "mods/HydrogenationTinker(0.1.1-release).jar"
-hash = "3fb04462a141566044dbd40c0f50f77881ce81e6d75805ff400be20302587109"
-
-[[files]]
 file = "mods/IceAndFireRotN-1.9.1-1.3.3_tweaked.jar"
 hash = "f910d70a9265a8756f875af16b2437d82a336ce72d5dbcd0721f85cce172f02b"
 
@@ -35531,13 +35526,12 @@ file = "mods/stygian-1.0.5.jar"
 hash = "493c0f77b21da5ec803d9748a3f4965b5bc7d12396af7a70ed21af19463d21bc"
 
 [[files]]
-file = "mods/thaumicwonders-2.1.1.jar"
-hash = "1758ae4be5363c87b8be20f30bc32ee57c02abdacfb3345af581e49921d0e6df"
+file = "mods/tconevo-1.12.2-1.1.1.jar"
+hash = "6a2e29e31cef74f17dfc3bea348ecd3741b3e81303816f311190fa22f0b4d1f1"
 
 [[files]]
-file = "mods/tinkers-evolution.pw.toml"
-hash = "3bb5e70cee5492d89ca8a8f20ed896101a6856156e8749a33f77248c82b47a41"
-metafile = true
+file = "mods/thaumicwonders-2.1.1.jar"
+hash = "1758ae4be5363c87b8be20f30bc32ee57c02abdacfb3345af581e49921d0e6df"
 
 [[files]]
 file = "mods/tiths-alpha-1.12.2-0.3.19.0.jar"
@@ -39241,7 +39235,7 @@ hash = "3f68e8989c194794c0fd7ee7a53d74bdee628b9c8757414f1d1517767b8621a9"
 
 [[files]]
 file = "resources/crazyae/lang/zh_cn.lang"
-hash = "0fe09723f3dfc350218f8e5d1097d69359a7df82f17839b054900ebe66e68cf8"
+hash = "111b6e0d46da80184915b38fea60ee177816d7e0ce9748be48839e973ee94b23"
 
 [[files]]
 file = "resources/crazyae/textures/item/material/energy_processor.png"
@@ -43420,8 +43414,8 @@ file = "scripts/contenttweaker/tconstruct/armor_traits.zs"
 hash = "54ad9f736489baa9cf8796f14d35b9b8e38acbd48283c1639b65d8c288dc3edc"
 
 [[files]]
-file = "scripts/contenttweaker/tconstruct/lazers_custom.zs"
-hash = "b3f1449b0f6aa5021f151c5a3287010e3c20e16d6e6e4cd58fac60ae360fbbef"
+file = "scripts/contenttweaker/tconstruct/extra_custom.zs"
+hash = "7644b3376581feb1019a118f9616d457636111a2f151a0b53972097971fb75f4"
 
 [[files]]
 file = "scripts/contenttweaker/tconstruct/materials.zs"
@@ -43429,7 +43423,7 @@ hash = "7b8ee9fcbf59f50f86c7056b0e9fd99d6e4a75949bbcc1c8fa7b996f3ed33dcc"
 
 [[files]]
 file = "scripts/contenttweaker/tconstruct/tool_traits.zs"
-hash = "294a0935e03ffff54165945d6c670b006eaa3c926ac22068dcc50a2bb4135dea"
+hash = "b9b518dab37bad126db95b331704d6bdf835a1da5c8c9eb7b3924447c77c8b46"
 
 [[files]]
 file = "scripts/contenttweaker/totems/cure_totem.zs"
@@ -43513,7 +43507,7 @@ hash = "ed6446096c8e60ec3185bf00462e5e0a6cb00c0bc6a964e223a1e7b0e63d6c6a"
 
 [[files]]
 file = "scripts/events_and_commands/events/onPlayerRightClickItem.zs"
-hash = "b646625c61df55e90c70fa32b278f7f9303bb6b1069fe85ad6a84d7d6c48a4b6"
+hash = "a8d2d9908125a44620560282e464c34116acf3c7140fa84852cb4fe54095f1b9"
 
 [[files]]
 file = "scripts/events_and_commands/events/onPlayerTick.zs"
@@ -43669,11 +43663,11 @@ hash = "cae328df17e582361cb422ab1ea2af3d8f9c51b8666e0210bd9def7354b168cd"
 
 [[files]]
 file = "scripts/libs/CotTicLib.zs"
-hash = "b83547e0347d2d8deb752066d2e6825377fff0ce154be55075d0a891898f4ad9"
+hash = "122f8776b071ce0a65c454b079a6e78043258a75278bc4c5dc4d09e9a5de0102"
 
 [[files]]
 file = "scripts/libs/CotTicTraitLib.zs"
-hash = "a69e5a8ba56b0f946dee944302de5e0836450be26254d851f1ed49fa4b543be3"
+hash = "cb5dcd1e9c2db0ff42e111e38e677516627baf0a924739dece81bc19fea84c96"
 
 [[files]]
 file = "scripts/libs/CotTicinit.zs"
@@ -43681,11 +43675,11 @@ hash = "f6c77a09abd0c8d3dc7681ed27f2dad13894f81c1587b8fcc6655a64ee529496"
 
 [[files]]
 file = "scripts/libs/TicLib.zs"
-hash = "148986c9afc73357e13584d91e269c536536fb517518649ed4df4ce3a8fbdaea"
+hash = "14a59296857db906127c2b81569bb1a9242273fc3c07e3a5ab8202b33b73bd8a"
 
 [[files]]
 file = "scripts/libs/TicTraitLib.zs"
-hash = "81908717d1a842cea058bd84d579753a845348ad87f5560b71229261eb0f1bcb"
+hash = "a2e279900f514a2f3006a144709056cab9f597ff57c1a9e55f1b4573aa5ee4ca"
 
 [[files]]
 file = "scripts/libs/Ticinit.zs"
@@ -43841,7 +43835,7 @@ hash = "396a1bc69d0cf82433ef7c456760e95a5b3e8e38d92d47fd13bdfe054bf1dbe1"
 
 [[files]]
 file = "scripts/recipes/mods/enderio.zs"
-hash = "3412f60ad09a72ba6c09427068a1b48e0641712cff87574cc8109395b4cfb98d"
+hash = "9e7ce45572ea63eba36959e4b671a2090ce340f241c25330c346ffe8e8095b13"
 
 [[files]]
 file = "scripts/recipes/mods/evilcraft.zs"
@@ -43953,7 +43947,7 @@ hash = "24e6f2d10dddd7511ea5140d66d9a6a024bc1b204eb9eb60f166c38ee618d85d"
 
 [[files]]
 file = "scripts/recipes/mods/machines/draconic_fusioner.zs"
-hash = "738b5f0616f27dc213dfd72cff144ed9b7cec6db0ef89fb9cee988fd0233cecf"
+hash = "d41c42d3faeb662da072ca2b9adc8acb9170d53e59fd8a82d296ba43a2d1cc30"
 
 [[files]]
 file = "scripts/recipes/mods/machines/elysia_alloyer_unit.zs"
@@ -44217,7 +44211,7 @@ hash = "f40c219add161ab4fb987869b8770a36ffac3ee4c4d62ff9b134e1a7fc6c4574"
 
 [[files]]
 file = "scripts/recipes/vanilla/crafting_table/shaped2.zs"
-hash = "9e2e37978bb988bd10628cb322888c73b44a456f710072aec7bcb2d62276f4fb"
+hash = "f5f645b6105656b7932766c03b07469283e331304c8d2d66246b338138e52e8a"
 
 [[files]]
 file = "scripts/recipes/vanilla/crafting_table/shapeless.zs"
@@ -44253,11 +44247,11 @@ hash = "8beb4cc944da1247b4f07a2538a65ebe782189ee7183687a5ba64fcc3814c33a"
 
 [[files]]
 file = "scripts/tweaks/ooi.zs"
-hash = "cc0d9eb4b5df89883de40a7f927c31c005707fba6b451eaa718bbcd879245640"
+hash = "bfd1305a8391f3651bbe2b7719f74ef8c1f069012f14560c09c4fb32d421685f"
 
 [[files]]
 file = "scripts/tweaks/oredict.zs"
-hash = "79c3e9b05a95e9ed1db4a2047b16c841365f010e339d33dfb3d4dbec80fc5001"
+hash = "7dec128ff3e96fbca8334d7120239e2581b7121fc2299048aa2c3d449076a2e1"
 
 [[files]]
 file = "scripts/tweaks/tinkers_icon.zs"
