@@ -796,7 +796,8 @@ GameStagesUtil.stageChaotic.addIngredients([
     <ore:itemCompressedPorpezite>,
     <ore:alloyArcane>,
     <ore:circuitArcane>,
-    <additions:chaotic_crystal_gem>
+    <additions:chaotic_crystal_gem>,
+    <ore:ingotStellarium>
 ], true);
 
 GameStagesUtil.stageStormBreaker.addIngredients([
