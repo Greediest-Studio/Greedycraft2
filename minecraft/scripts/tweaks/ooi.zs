@@ -48,6 +48,8 @@ ConversionItem.create(<biomesoplenty:gem>).addMatchItem(<ore:gemAmythest>).addMa
 ConversionItem.create(<biomesoplenty:gem_block>).addMatchItem(<ore:blockAmythest>).addMatchItem(<ore:blockAmethyst>).register();
 ConversionItem.create(<biomesoplenty:gem_ore>).addMatchItem(<ore:oreAmythest>).register();
 ConversionItem.create(<biomesoplenty:gem_ore:6>).addMatchItem(<ore:oreSapphire>).register();
+ConversionItem.create(<thermalfoundation:material:192>).addMatchItem(<ore:nuggetCopper>).register();
+ConversionItem.create(<thermalfoundation:material:194>).addMatchItem(<ore:nuggetSilver>).register();
 
 ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:burningsulfurflow>).register();
 ConversionFluid.create(<liquid:fluxed_electrum>).addMatchFluid(<liquid:electrum_flux>).register();
