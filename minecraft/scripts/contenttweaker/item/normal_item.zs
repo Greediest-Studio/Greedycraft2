@@ -11,3 +11,4 @@ function ItemCreate(unlocalizedName as string,isglowing as bool) {
 ItemCreate("dough",false);
 ItemCreate("chaos_heart",false);
 ItemCreate("chaotic_energy_core",true);
+ItemCreate("ordered_energy_core",true);

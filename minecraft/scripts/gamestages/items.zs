@@ -87,7 +87,8 @@ GameStagesUtil.stageChaoticDominator.addIngredients([
     <ore:nuggetIvorium>,
     <ore:blockIvorium>,
     <ore:dustIvorium>,
-    <additions:ebony_and_lvory>
+    <additions:ebony_and_lvory>,
+    <contenttweaker:chaos_heart>
 ], true);
 
 GameStagesUtil.stageGettingStarted.addIngredients([
@@ -678,7 +679,9 @@ GameStagesUtil.stageOrder.addIngredients([
     <ore:blockZomril>,
     <ore:nuggetZomril>,
     <ore:dustZomril>,
-    <ore:plateZomril>
+    <ore:plateZomril>,
+    <contenttweaker:ordered_energy_core>,
+    <gctcore:ordered_flux_capacitor>.anyDamage()
 ], false);
 
 GameStagesUtil.stageChaotic.addIngredients([
@@ -796,7 +799,9 @@ GameStagesUtil.stageChaotic.addIngredients([
     <ore:itemCompressedPorpezite>,
     <ore:alloyArcane>,
     <ore:circuitArcane>,
-    <additions:chaotic_crystal_gem>
+    <additions:chaotic_crystal_gem>,
+    <contenttweaker:chaotic_energy_core>,
+    <gctcore:chaotic_flux_capacitor>.anyDamage()
 ], true);
 
 GameStagesUtil.stageStormBreaker.addIngredients([
