@@ -76,6 +76,38 @@ function(out, ins, cInfo) {
     return out.withTag(ins.dank.tag);
 }, null);
 
+recipes.addShaped("upgrade_capacitor_chaotic", <gctcore:chaotic_flux_capacitor>, [
+    [<contenttweaker:chaotic_energy_core>, <ore:coreChaotic>, <contenttweaker:chaotic_energy_core>],
+    [<ore:ingotDraconiumChaotic>, <draconicevolution:draconium_capacitor:1>.marked("cap"), <ore:ingotDraconiumChaotic>],
+    [<contenttweaker:chaotic_energy_core>, <ore:ingotDraconiumChaotic>, <contenttweaker:chaotic_energy_core>]],
+function(out, ins, cInfo) {
+    if (!isNull(ins.cap.tag.Energy)) {
+        if (!isNull(ins.cap.tag.DEUpgrades)) {
+            var energy as long = ins.cap.tag.Energy as int as long;
+            var level as byte = ins.cap.tag.DEUpgrades.rfCap as byte;
+            return out.withTag({DEUpgrades: {rfCap: level}, EnergyL: energy});
+        } else {
+            var energy as long = ins.cap.tag.Energy as int as long;
+            return out.withTag({EnergyL: energy});
+        }
+    } else {
+        if (!isNull(ins.cap.tag.DEUpgrades)) {
+            var level as byte = ins.cap.tag.DEUpgrades.rfCap as byte;
+            return out.withTag({DEUpgrades: {rfCap: level}});
+        } else {
+            return out;
+        }
+    }
+}, null);
+
+recipes.addShaped("upgrade_capacitor_ordered", <gctcore:ordered_flux_capacitor>, [
+    [<contenttweaker:ordered_energy_core>, <ore:coreOrdered>, <contenttweaker:ordered_energy_core>],
+    [<ore:ingotDraconiumRuled>, <gctcore:chaotic_flux_capacitor>.marked("cap"), <ore:ingotDraconiumRuled>],
+    [<contenttweaker:ordered_energy_core>, <ore:ingotDraconiumRuled>, <contenttweaker:ordered_energy_core>]],
+function(out, ins, cInfo) {
+    return out.withTag(ins.cap.tag);
+}, null);
+
 recipes.addShaped("exp_transport_tool", errorStone, [[<ore:toolTiC>.marked("to"), <additions:experience_transporter>, <ore:toolTiC>.marked("from")]], 
 function(out, ins, cInfo) {
     if (isNull(ins.from.tag.memberGet("Modifiers") as IData) || isNull(ins.to.tag.memberGet("Modifiers") as IData)) {

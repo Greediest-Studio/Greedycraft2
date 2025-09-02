@@ -512,6 +512,7 @@ boiling.addEnergyPerTickInput(200);
 boiling.addDimensionInput(822);
 //恒钢级
 boiling.addItemUpgradeOutput(<additions:flamium_ore>, AEONSTEEL, 0.04);
+boiling.addItemUpgradeOutput(<additions:sorrowium_ore>, AEONSTEEL, 0.02);
 boiling.addItemUpgradeOutput(<journey:blazium>, AEONSTEEL, 0.03);
 boiling.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 boiling.setMaxThreads(1).build();
@@ -666,6 +667,8 @@ betweenland.addItemUpgradeOutput(<thebetweenlands:crimson_middle_gem>, FINALLIUM
 betweenland.addItemUpgradeOutput(<thebetweenlands:green_middle_gem>, FINALLIUM, 0.015);
 betweenland.addItemUpgradeOutput(<thebetweenlands:aqua_middle_gem>, FINALLIUM, 0.015);
 betweenland.addItemUpgradeOutput(<thebetweenlands:life_crystal>, FINALLIUM, 0.025);
+//波动级
+betweenland.addItemUpgradeOutput(<additions:izumium_ore>, WAVITE, 0.02);
 betweenland.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 betweenland.setMaxThreads(1).build();
 
@@ -677,6 +680,7 @@ alfheim.addItemUpgradeOutput(<gct_mobs:elementium_ore>, COSMILITE, 0.03);
 alfheim.addItemUpgradeOutput(<gct_mobs:terrasteel_ore>, COSMILITE, 0.008);
 //终焉级
 alfheim.addItemUpgradeOutput(<gct_mobs:orichalcos_ore>, FINALLIUM, 0.005);
+alfheim.addItemUpgradeOutput(<gct_mobs:botanical_stone>, FINALLIUM, 0.004);
 alfheim.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 alfheim.setMaxThreads(1).build();
 
@@ -702,6 +706,14 @@ atlantis.addItemUpgradeOutput(<additions:tanatonium_ore>, COSMILITE, 0.015);
 atlantis.addItemUpgradeOutput(<additions:imitatium_ore>, COSMILITE, 0.015);
 atlantis.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 atlantis.setMaxThreads(1).build();
+
+var besidevoid = RecipeBuilder.newBuilder("besidevoid", "basic_miner", 200);
+besidevoid.addEnergyPerTickInput(200);
+besidevoid.addDimensionInput(41);
+//终焉级
+besidevoid.addItemUpgradeOutput(<additions:losessium_ore>, FINALLIUM, 0.003);
+besidevoid.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+besidevoid.setMaxThreads(1).build();
 
 RecipeAdapterBuilder.create("advanced_miner", "modularmachinery:basic_miner").build();
 RecipeAdapterBuilder.create("dimensional_miner", "modularmachinery:basic_miner").build();

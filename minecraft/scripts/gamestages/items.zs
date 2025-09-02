@@ -87,7 +87,8 @@ GameStagesUtil.stageChaoticDominator.addIngredients([
     <ore:nuggetIvorium>,
     <ore:blockIvorium>,
     <ore:dustIvorium>,
-    <additions:ebony_and_lvory>
+    <additions:ebony_and_lvory>,
+    <contenttweaker:chaos_heart>
 ], true);
 
 GameStagesUtil.stageGettingStarted.addIngredients([
@@ -678,7 +679,10 @@ GameStagesUtil.stageOrder.addIngredients([
     <ore:blockZomril>,
     <ore:nuggetZomril>,
     <ore:dustZomril>,
-    <ore:plateZomril>
+    <ore:plateZomril>,
+    <contenttweaker:ordered_energy_core>,
+    <gctcore:ordered_flux_capacitor>,
+    <gctcore:ordered_flux_capacitor>.withTag({EnergyL: 4096000000 as long})
 ], false);
 
 GameStagesUtil.stageChaotic.addIngredients([
@@ -797,7 +801,10 @@ GameStagesUtil.stageChaotic.addIngredients([
     <ore:alloyArcane>,
     <ore:circuitArcane>,
     <additions:chaotic_crystal_gem>,
-    <ore:ingotStellarium>
+    <ore:ingotStellarium>,
+    <contenttweaker:chaotic_energy_core>,
+    <gctcore:chaotic_flux_capacitor>,
+    <gctcore:chaotic_flux_capacitor>.withTag({EnergyL: 1024000000 as long})
 ], true);
 
 GameStagesUtil.stageStormBreaker.addIngredients([
