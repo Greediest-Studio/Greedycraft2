@@ -1029,7 +1029,8 @@ starland.addItemUpgradeOutput(<additions:star_metal_ore>, COSMILITE, 0.04);
 starland.addItemUpgradeOutput(<additions:astralmetal_ore>, FINALLIUM, 0.02);
 starland.addItemUpgradeOutput(<additions:nasalum_ore>, FINALLIUM, 0.01);
 starland.addItemUpgradeOutput(<additions:lunarine_ore>, FINALLIUM, 0.02);
-starland.addItemUpgradeOutput(<additions:arimite_ore>, FINALLIUM, 0.005);
+//波动级
+starland.addItemUpgradeOutput(<additions:arimite_ore>, WAVITE, 0.005);
 starland.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 starland.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了永恒星域维度标记！");
 starland.setMaxThreads(1).build();
@@ -1074,6 +1075,7 @@ besidevoid.addPreCheckHandler(function(event as RecipeCheckEvent) {
 //终焉级
 besidevoid.addItemUpgradeOutput(<additions:losessium_ore>, FINALLIUM, 0.003);
 besidevoid.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+besidevoid.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了血腥裂隙维度标记！");
 besidevoid.setMaxThreads(1).build();
 
 MMEvents.onControllerGUIRender("dimensional_miner", function(event as ControllerGUIRenderEvent) {
