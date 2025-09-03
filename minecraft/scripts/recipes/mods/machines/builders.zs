@@ -742,9 +742,9 @@ addBuilderRecipe(<modularmachinery:astral_collector_factory_controller>, [
 ], 4, 1000);
 
 addBuilderRecipe(<modularmachinery:matrix_balancer_factory_controller>, [
-    <additions:logic_processor_3> * 18,
-    <additions:calculation_processor_3> * 18,
-    <additions:engineering_processor_3> * 18,
+    <additions:logic_processor_2> * 36,
+    <additions:calculation_processor_2> * 36,
+    <additions:engineering_processor_2> * 36,
     <crazyae:material:16> * 12,
     <threng:material:14> * 12,
     <ore:ingotModularium> * 128,
