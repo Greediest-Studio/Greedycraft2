@@ -26,7 +26,11 @@ global stageMap as int[string] = {
     "betweenland_traveller" : 2300,
     "abyss_guardian" : 2480,
     "order" : 2600,
-    "final" : 3000,
-    "wielder_of_infinity" : 4800,
-    "super_hardmode" : 4800
+    "final" : 3200,
+    "deep_dream" : 4400,
+    "wake_up" : 5200,
+    "mind_shock" : 6300,
+    "waving" : 7200,
+    "wielder_of_infinity" : 7200,
+    "super_hardmode" : 7200
 } as int[string];

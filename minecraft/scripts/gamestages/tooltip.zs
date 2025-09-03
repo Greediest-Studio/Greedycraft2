@@ -46,6 +46,10 @@ tieredtooltips.colorStage("balanced_matrix", "b5000000", "f0ffffff", "f0eeeeee")
 tieredtooltips.colorStage("order", "b5000000", "f0414141", "f0d8d8d8");
 tieredtooltips.colorStage("betweenland_traveller", "b5000000", "f0007d3d", "f00f1e2d");
 tieredtooltips.colorStage("abyss_guardian", "b5000000", "f01d359b", "f00d585c");
+tieredtooltips.colorStage("deep_dream", "b5000000", "f02f8989", "f0350000");
+tieredtooltips.colorStage("wake_up", "b5000000", "f0ff9933", "f06290ab");
+tieredtooltips.colorStage("mind_shock", "b5000000", "f06f9886", "f0515356");
+tieredtooltips.colorStage("waving", "b5000000", "f0c2fdff", "f0ffbfe5");
 
 tieredtooltips.colorStage("challenger_a", "b5000000", "f0ff8008", "f0ffc837");
 tieredtooltips.colorStage("challenger_b", "b5000000", "f0ff8008", "f0ffc837");

@@ -60,8 +60,8 @@ ArcaneWorkbench.registerShapedRecipe("me_cell_256k", "ESSENTIASTORAGE64k", 10, [
 ]);
 ArcaneWorkbench.registerShapedRecipe("me_cell_1m", "ESSENTIASTORAGE64k", 10, [], <thaumicenergistics:essentia_component_1m>, [
     [<thaumcraft:salis_mundus>, <crazyae:material:17>, <thaumcraft:salis_mundus>],
-    [<thaumicenergistics:essentia_component_256m>, <appliedenergistics2:quartz_glass>, <thaumicenergistics:essentia_component_256m>],
-    [<thaumcraft:salis_mundus>, <thaumicenergistics:essentia_component_256m>, <thaumcraft:salis_mundus>]
+    [<thaumicenergistics:essentia_component_256k>, <appliedenergistics2:quartz_glass>, <thaumicenergistics:essentia_component_256k>],
+    [<thaumcraft:salis_mundus>, <thaumicenergistics:essentia_component_256k>, <thaumcraft:salis_mundus>]
 ]);
 ArcaneWorkbench.registerShapedRecipe("me_cell_4m", "ESSENTIASTORAGE64k", 10, [], <thaumicenergistics:essentia_component_4m>, [
     [<thaumcraft:salis_mundus>, <crazyae:material:17>, <thaumcraft:salis_mundus>],

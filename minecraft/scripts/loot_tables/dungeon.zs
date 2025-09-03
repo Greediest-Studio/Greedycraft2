@@ -203,6 +203,7 @@ LootUtil.addItem(<extrabotany:rewardbag>.withTag({weight: 96}), 4, 1, 1, 2);
 LootUtil.addItem(<oeintegration:excavatemodifier>, 3, 1, 1, 3);
 LootUtil.addItem(<charm:iron_lantern>, 4, 1, 4, 12);
 LootUtil.addItem(<charm:gold_lantern>, 3, 1, 2, 6);
+LootUtil.addItem(<mutantbeasts:chemical_x>, 4, 1, 1, 2);
 
 LootUtil.addHardmodeItem(<extrabotany:rewardbag:2>.withTag({weight: 113}), 2, 1, 1, 2);
 LootUtil.addHardmodeItem(<minecraft:chorus_fruit_popped>, 4, 1, 4, 12);
