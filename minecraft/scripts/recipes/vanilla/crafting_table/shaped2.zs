@@ -20,6 +20,7 @@ import scripts.util.lang as LangUtil;
 
 recipes.remove(<ymadditions:network_hub>);
 recipes.remove(<tconstruct:piggybackpack>.withTag({}));
+recipes.remove(<mekeng:gas_core_2g>);
 recipes.removeByRecipeName("biomesoplenty:amber_block");
 recipes.removeByRecipeName("biomesoplenty:amber");
 recipes.removeByRecipeName("betterendforge:amber_block");
@@ -27,6 +28,12 @@ recipes.removeByRecipeName("botania:quartztypedark_0");
 recipes.removeByRecipeName("thaumictinkerer:black_quartz_block");
 recipes.removeByRecipeName("actuallyadditions:recipes149");
 
+
+RecipeUtil.addShaped("me_gas_2g", <mekeng:gas_core_2g>, [
+    [<ore:dustRefinedObsidian>, <appliedenergistics2:material:23>, <ore:dustRefinedObsidian>],
+    [<mekeng:gas_core_1g>, <appliedenergistics2:quartz_glass>, <mekeng:gas_core_1g>],
+    [<ore:dustRefinedObsidian>, <ore:dustRefinedObsidian>, <ore:dustRefinedObsidian>]
+]);
 RecipeUtil.addShaped("calculator_subsystem_l4", <ecoaeextension:extendable_calculator_subsystem_l4>, [
     [<ecoaeextension:ecalculator_casing>, <additions:calculation_processor_2>, <ecoaeextension:ecalculator_casing>],
     [<additions:calculation_processor_2>, <projecte:item.pe_philosophers_stone>, <additions:calculation_processor_2>],
