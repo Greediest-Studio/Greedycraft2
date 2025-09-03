@@ -108,33 +108,33 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:kabalah_builder_block
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:orichalcos_fusionplate>, [
-	[null, null, null, <ore:nuggetFusionMatrix>, null, null, null], 
-	[null, null, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, null, null], 
-	[null, <ore:nuggetFusionMatrix>, <ore:ingotGold>, <ore:nuggetFusionMatrix>, <ore:ingotGold>, <ore:nuggetFusionMatrix>, null], 
-	[<ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:ingotOrichalcos>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>], 
-	[null, <ore:nuggetFusionMatrix>, <ore:ingotGold>, <ore:nuggetFusionMatrix>, <ore:ingotGold>, <ore:nuggetFusionMatrix>, null], 
-	[null, null, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, null, null], 
-	[null, null, null, <ore:nuggetFusionMatrix>, null, null, null]
+	[null, null, null, <ore:nuggetEverite>, null, null, null], 
+	[null, null, <ore:nuggetEverite>, <ore:nuggetEverite>, <ore:nuggetEverite>, null, null], 
+	[null, <ore:nuggetEverite>, <ore:ingotGold>, <ore:nuggetEverite>, <ore:ingotGold>, <ore:nuggetEverite>, null], 
+	[<ore:nuggetEverite>, <ore:nuggetEverite>, <ore:nuggetEverite>, <ore:ingotOrichalcos>, <ore:nuggetEverite>, <ore:nuggetEverite>, <ore:nuggetEverite>], 
+	[null, <ore:nuggetEverite>, <ore:ingotGold>, <ore:nuggetEverite>, <ore:ingotGold>, <ore:nuggetEverite>, null], 
+	[null, null, <ore:nuggetEverite>, <ore:nuggetEverite>, <ore:nuggetEverite>, null, null], 
+	[null, null, null, <ore:nuggetEverite>, null, null, null]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:elementium_fusionplate>, [
-	[null, null, null, <ore:nuggetFusionMatrix>, null, null, null], 
-	[null, null, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, null, null], 
-	[null, <ore:nuggetFusionMatrix>, <ore:ingotGold>, <ore:nuggetFusionMatrix>, <ore:ingotGold>, <ore:nuggetFusionMatrix>, null], 
-	[<ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:ingotElementium>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>], 
-	[null, <ore:nuggetFusionMatrix>, <ore:ingotGold>, <ore:nuggetFusionMatrix>, <ore:ingotGold>, <ore:nuggetFusionMatrix>, null], 
-	[null, null, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, null, null], 
-	[null, null, null, <ore:nuggetFusionMatrix>, null, null, null]
+	[null, null, null, <ore:nuggetEverite>, null, null, null], 
+	[null, null, <ore:nuggetEverite>, <ore:nuggetEverite>, <ore:nuggetEverite>, null, null], 
+	[null, <ore:nuggetEverite>, <ore:ingotGold>, <ore:nuggetEverite>, <ore:ingotGold>, <ore:nuggetEverite>, null], 
+	[<ore:nuggetEverite>, <ore:nuggetEverite>, <ore:nuggetEverite>, <ore:ingotElementium>, <ore:nuggetEverite>, <ore:nuggetEverite>, <ore:nuggetEverite>], 
+	[null, <ore:nuggetEverite>, <ore:ingotGold>, <ore:nuggetEverite>, <ore:ingotGold>, <ore:nuggetEverite>, null], 
+	[null, null, <ore:nuggetEverite>, <ore:nuggetEverite>, <ore:nuggetEverite>, null, null], 
+	[null, null, null, <ore:nuggetEverite>, null, null, null]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:manasteel_fusionplate>, [
-	[null, null, null, <ore:nuggetFusionMatrix>, null, null, null], 
-	[null, null, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, null, null], 
-	[null, <ore:nuggetFusionMatrix>, <ore:ingotGold>, <ore:nuggetFusionMatrix>, <ore:ingotGold>, <ore:nuggetFusionMatrix>, null], 
-	[<ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:ingotManasteel>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>], 
-	[null, <ore:nuggetFusionMatrix>, <ore:ingotGold>, <ore:nuggetFusionMatrix>, <ore:ingotGold>, <ore:nuggetFusionMatrix>, null], 
-	[null, null, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, <ore:nuggetFusionMatrix>, null, null], 
-	[null, null, null, <ore:nuggetFusionMatrix>, null, null, null]
+	[null, null, null, <ore:nuggetEverite>, null, null, null], 
+	[null, null, <ore:nuggetEverite>, <ore:nuggetEverite>, <ore:nuggetEverite>, null, null], 
+	[null, <ore:nuggetEverite>, <ore:ingotGold>, <ore:nuggetEverite>, <ore:ingotGold>, <ore:nuggetEverite>, null], 
+	[<ore:nuggetEverite>, <ore:nuggetEverite>, <ore:nuggetEverite>, <ore:ingotManasteel>, <ore:nuggetEverite>, <ore:nuggetEverite>, <ore:nuggetEverite>], 
+	[null, <ore:nuggetEverite>, <ore:ingotGold>, <ore:nuggetEverite>, <ore:ingotGold>, <ore:nuggetEverite>, null], 
+	[null, null, <ore:nuggetEverite>, <ore:nuggetEverite>, <ore:nuggetEverite>, null, null], 
+	[null, null, null, <ore:nuggetEverite>, null, null, null]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <additions:betweenland_rune>, [
