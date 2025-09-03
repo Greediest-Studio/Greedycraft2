@@ -12,3 +12,4 @@ ItemCreate("dough",false);
 ItemCreate("chaos_heart",false);
 ItemCreate("chaotic_energy_core",true);
 ItemCreate("ordered_energy_core",true);
+ItemCreate("frostburn_energy_core",true);
