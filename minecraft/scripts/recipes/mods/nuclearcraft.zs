@@ -224,6 +224,7 @@ Melter.addRecipe(<ore:ingotRoyalAlloy>, <liquid:royal_alloy> * 144);
 Melter.addRecipe(<ore:dustRoyalAlloy>, <liquid:royal_alloy> * 144);
 Melter.addRecipe(<ore:blockRoyalAlloy>, <liquid:royal_alloy> * 1296);
 Melter.addRecipe(<ore:nuggetRoyalAlloy>, <liquid:royal_alloy> * 16);
+Melter.addRecipe(<ore:ingotBalancedMatrix>, <liquid:balanced_matrix> * 144);
 
 IngotFormer.removeRecipeWithOutput(<additions:hydrogen_ingot>);
 IngotFormer.removeRecipeWithOutput(<additions:helium_ingot>);
