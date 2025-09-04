@@ -302,6 +302,7 @@ ChemicalReactor.addRecipe(<liquid:sodium_dihydrogen_phosphate_solution> * 333, <
 ChemicalReactor.addRecipe(<liquid:sodium_hydrogen_phosphate_solution> * 333, <liquid:sodium_hydroxide_solution> * 333, <liquid:sodium_phosphate_solution> * 333, <liquid:water> * 500);
 ChemicalReactor.addRecipe(<liquid:magnesium> * 72, <liquid:sulfuric_acid> * 500, <liquid:magnesium_sulfate_solution> * 333, <liquid:hydrogen> * 500);
 ChemicalReactor.addRecipe(<liquid:zinc> * 72, <liquid:liquidchlorine> * 500, <liquid:zinc_chloride> * 333, null);
+ChemicalReactor.addRecipe(<liquid:manganese> * 72, <liquid:liquidchlorine> * 500, <liquid:manganese_chloride> * 333, null);
 ChemicalReactor.addRecipe(<liquid:iron> * 72, <liquid:sulfuric_acid> * 500, <liquid:iron_2_sulfate_solution> * 333, <liquid:hydrogen> * 500);
 ChemicalReactor.addRecipe(<liquid:zinc_chloride> * 333, <liquid:water> * 500, <liquid:zinc_chloride_solution> * 333, null);
 ChemicalReactor.addRecipe(<liquid:manganese_chloride> * 333, <liquid:water> * 500, <liquid:manganese_chloride_solution> * 333, null);
