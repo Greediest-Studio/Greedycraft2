@@ -65,7 +65,6 @@ Transposer.addFillRecipe(<additions:thermallite_core_7>, <additions:thermallite_
 Transposer.addFillRecipe(<additions:thermallite_ingot>, <additions:thermallite_core_7>, <liquid:naturaeum> * 10000, 256000);
 Transposer.addFillRecipe(<jaopca:dust.husturite>, <jaopca:dust.cthulhurite>, <liquid:aerotheum> * 6400, 400000);
 Transposer.addFillRecipe(<additions:glowing_crystal>, <astralsorcery:itemcraftingcomponent>, <liquid:glowstone> * 750, 3000);
-Transposer.addFillRecipe(<additions:husturite_ingot>, <gct_mobs:cthulhurite_ingot>, <liquid:aerotheum> * 6400, 2000);
 
 Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:1>, 200000);
 Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:2>, 400000);
