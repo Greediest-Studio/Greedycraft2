@@ -421,7 +421,7 @@ addBuilderRecipe(<modularmachinery:chromasteel_forge_factory_controller>, [
     <ore:ingotPhotonium> * 16,
     <ore:ingotShadowium> * 16,
     <ore:ingotAuraIron> * 12,
-    <ore:ingotEnderite> * 8,
+    <ore:ingotHolysteel> * 8,
     <ore:ingotMythsteel> * 4
 ], 3, 11200);
 
