@@ -32,8 +32,12 @@ import mods.modularmachinery.MachineModifier;
 import mods.modularmachinery.FactoryRecipeThread;
 
 MachineModifier.setMaxThreads("mana_liquefactor", 1);
-MachineModifier.setInternalParallelism("mana_liquefactor", 2147483647);
-MachineModifier.setMaxParallelism("mana_liquefactor", 2147483647);
+MachineModifier.setInternalParallelism("mana_liquefactor", 1); 
+MachineModifier.setMaxParallelism("mana_liquefactor", 1);
+
+MachineModifier.setMaxThreads("mana_powereducer", 1);
+MachineModifier.setInternalParallelism("mana_powereducer", 1); 
+MachineModifier.setMaxParallelism("mana_powereducer", 1);
 
 MMEvents.onControllerGUIRender("mana_liquefactor", function(event as ControllerGUIRenderEvent) {
     val info as string[] = [
@@ -51,6 +55,16 @@ MMEvents.onControllerGUIRender("mana_powereducer", function(event as ControllerG
     event.extraInfo = info;
 });
 
-RecipeBuilder.newBuilder("mana_liquefaction3", "mana_liquefactor", 1).addManaInput(100000).addFluidOutput(<liquid:mana>*100).build();
+RecipeBuilder.newBuilder("mana_liquefaction1", "mana_liquefactor", 1, 5).addManaInput(1000).addFluidOutput(<liquid:mana>*1).setParallelized(false).build();
+RecipeBuilder.newBuilder("mana_liquefaction2", "mana_liquefactor", 1, 4).addManaInput(10000).addFluidOutput(<liquid:mana>*10).setParallelized(false).build();
+RecipeBuilder.newBuilder("mana_liquefaction3", "mana_liquefactor", 1, 3).addManaInput(100000).addFluidOutput(<liquid:mana>*100).setParallelized(false).build();
+RecipeBuilder.newBuilder("mana_liquefaction4", "mana_liquefactor", 1, 2).addManaInput(1000000).addFluidOutput(<liquid:mana>*1000).setParallelized(false).build();
+RecipeBuilder.newBuilder("mana_liquefaction5", "mana_liquefactor", 1, 1).addManaInput(10000000).addFluidOutput(<liquid:mana>*10000).setParallelized(false).build();
+RecipeBuilder.newBuilder("mana_liquefaction6", "mana_liquefactor", 1, 0).addManaInput(100000000).addFluidOutput(<liquid:mana>*100000).setParallelized(false).build();
 
-RecipeBuilder.newBuilder("mana_reduction3", "mana_powereducer", 1).addFluidInput(<liquid:mana>*100).addManaOutput(100000).build();
+RecipeBuilder.newBuilder("mana_reduction1", "mana_powereducer", 1, 5).addFluidInput(<liquid:mana>*1).addManaOutput(1000).setParallelized(false).build();
+RecipeBuilder.newBuilder("mana_reduction2", "mana_powereducer", 1, 4).addFluidInput(<liquid:mana>*10).addManaOutput(10000).setParallelized(false).build();
+RecipeBuilder.newBuilder("mana_reduction3", "mana_powereducer", 1, 3).addFluidInput(<liquid:mana>*100).addManaOutput(100000).setParallelized(false).build();
+RecipeBuilder.newBuilder("mana_reduction4", "mana_powereducer", 1, 2).addFluidInput(<liquid:mana>*1000).addManaOutput(1000000).setParallelized(false).build();
+RecipeBuilder.newBuilder("mana_reduction5", "mana_powereducer", 1, 1).addFluidInput(<liquid:mana>*10000).addManaOutput(10000000).setParallelized(false).build();
+RecipeBuilder.newBuilder("mana_reduction6", "mana_powereducer", 1, 0).addFluidInput(<liquid:mana>*100000).addManaOutput(100000000).setParallelized(false).build();

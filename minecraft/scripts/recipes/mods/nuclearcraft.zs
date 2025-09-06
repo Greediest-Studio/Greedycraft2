@@ -224,11 +224,21 @@ Melter.addRecipe(<ore:ingotRoyalAlloy>, <liquid:royal_alloy> * 144);
 Melter.addRecipe(<ore:dustRoyalAlloy>, <liquid:royal_alloy> * 144);
 Melter.addRecipe(<ore:blockRoyalAlloy>, <liquid:royal_alloy> * 1296);
 Melter.addRecipe(<ore:nuggetRoyalAlloy>, <liquid:royal_alloy> * 16);
-Melter.addRecipe(<ore:ingotBalancedMatrix>, <liquid:balanced_matrix> * 144);
+Melter.addRecipe(<gct_ores:balanced_matrix_ingot>, <liquid:balanced_matrix> * 144);
+Melter.addRecipe(<gct_ores:balanced_matrix_block>, <liquid:balanced_matrix> * 1296);
+Melter.addRecipe(<ore:nuggetBalancedMatrix>, <liquid:balanced_matrix> * 16);
+Melter.addRecipe(<ore:dustBalancedMatrix>, <liquid:balanced_matrix> * 144);
+Melter.addRecipe(<abyssalcraft:cingot>, <liquid:liquified_coralium> * 144);
+Melter.addRecipe(<abyssalcraft:ingotblock:1>, <liquid:liquified_coralium> * 1296);
+Melter.addRecipe(<ore:nuggetLiquifiedCoralium>, <liquid:liquified_coralium> * 16);
+Melter.addRecipe(<ore:dustLiquifiedCoralium>, <liquid:liquified_coralium> * 144);
+Melter.addRecipe(<abyssalcraft:abylcorore>, <liquid:liquified_coralium> * 288);
+//taiga待补充
+//极光待补充
+
 Melter.addRecipe(<thermalfoundation:material:893>, <liquid:redstone> * 250);
-Melter.addRecipe(<ore:ingotLiquifiedCoralium>, <liquid:liquified_coralium> * 144);
-Melter.addRecipe(<ore:ingotOsram>, <liquid:osram_fluid> * 144);
-Melter.addRecipe(<ore:ingotCerulean>, <liquid:tamoltencerulean> * 144);
+Melter.addRecipe(<thermalfoundation:material:894>, <liquid:glowstone> * 250);
+Melter.addRecipe(<thermalfoundation:material:895>, <liquid:ender> * 250);
 
 IngotFormer.removeRecipeWithOutput(<additions:hydrogen_ingot>);
 IngotFormer.removeRecipeWithOutput(<additions:helium_ingot>);

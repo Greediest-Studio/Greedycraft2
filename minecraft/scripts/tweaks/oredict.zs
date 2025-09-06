@@ -11,7 +11,6 @@ import crafttweaker.item.IIngredient;
 
 import crafttweaker.game.IGame;
 import crafttweaker.oredict.IOreDictEntry;
-import mods.jaopca.oreDictHelper;
 
 import scripts.util.oredict as OredictUtil;
 
