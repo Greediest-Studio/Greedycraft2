@@ -228,7 +228,7 @@ Melter.addRecipe(<ore:ingotBalancedMatrix>, <liquid:balanced_matrix> * 144);
 Melter.addRecipe(<thermalfoundation:material:893>, <liquid:redstone> * 250);
 Melter.addRecipe(<ore:ingotLiquifiedCoralium>, <liquid:liquified_coralium> * 144);
 Melter.addRecipe(<ore:ingotOsram>, <liquid:osram_fluid> * 144);
-Melter.addRecipe(<ore:ingotCerulean>>, <liquid:tamoltencerulean> * 144);
+Melter.addRecipe(<ore:ingotCerulean>, <liquid:tamoltencerulean> * 144);
 
 IngotFormer.removeRecipeWithOutput(<additions:hydrogen_ingot>);
 IngotFormer.removeRecipeWithOutput(<additions:helium_ingot>);
