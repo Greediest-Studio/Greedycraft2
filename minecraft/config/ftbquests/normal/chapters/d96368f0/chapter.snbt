@@ -1,22 +1,35 @@
 {
 	title: "【科技】",
 	icon: {
-		id: "plustic:laser_gun",
+		id: "tcomplement:chisel",
 		tag: {
-			Unbreakable: 1b,
+			Special: {
+				Categories: [
+					"chisel",
+					"tool",
+					"aoe",
+					"weapon"
+				]
+			},
+			Stats: {
+				FreeModifiers: 5,
+				MiningSpeed: 666.0f,
+				AttackSpeedMultiplier: 1.0f,
+				HarvestLevel: 127,
+				Attack: 32767.0f,
+				Durability: 180886
+			},
 			TinkerData: {
 				Materials: [
 					"infinity_metal",
-					"infinity_metal",
-					"prismarine",
-					"manyullyn"
+					"infinity_metal"
 				],
 				Modifiers: [
 					"toolleveling"
 				]
 			},
 			Modifiers: [{
-				identifier: "tconevo.infinitum",
+				identifier: "ethernal",
 				color: -11757164,
 				level: 1
 			},
@@ -26,47 +39,21 @@
 				level: 1
 			},
 			{
-				identifier: "coldblooded",
-				color: -6202120,
-				level: 1
-			},
-			{
 				identifier: "toolleveling",
 				color: 16777215,
 				level: 1
 			}],
-			Stats: {
-				MiningSpeed: 666.0f,
-				HarvestLevel: 127,
-				LaserGunRange: 20.0f,
-				FreeModifiers: 5,
-				AttackSpeedMultiplier: 1.0f,
-				Attack: 2.5f,
-				LaserGunPower: 2.5f,
-				LaserGunEnergy: 120000,
-				Durability: 80394
-			},
-			Special: {
-				Categories: [
-					"weapon",
-					"tool"
-				]
-			},
 			StatsOriginal: {
 				MiningSpeed: 666.0f,
-				HarvestLevel: 127,
-				LaserGunRange: 20.0f,
 				FreeModifiers: 3,
 				AttackSpeedMultiplier: 1.0f,
-				Attack: 2.5f,
-				LaserGunPower: 2.5f,
-				LaserGunEnergy: 120000,
-				Durability: 80394
+				HarvestLevel: 127,
+				Attack: 32767.0f,
+				Durability: 180886
 			},
 			Traits: [
-				"tconevo.infinitum",
+				"ethernal",
 				"tconevo.omnipotence",
-				"coldblooded",
 				"toolleveling"
 			]
 		}
