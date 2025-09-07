@@ -156,3 +156,4 @@ GameStagesUtil.stageCosmic.addOreReplacement(<additions:ttwo_ore>, <minecraft:be
 
 GameStagesUtil.stageFinal.addOreReplacement(<additions:izumium_ore>, <thebetweenlands:betweenstone>, false);
 GameStagesUtil.stageFinal.addOreReplacement(<additions:arimite_ore>, <additions:astral_aquamarine_ore>, false);
+GameStagesUtil.stageFinal.addOreReplacement(<iceandfire:amythest_ore>, <minecraft:stone>, false);

@@ -1835,7 +1835,10 @@ GameStagesUtil.stageFinal.addIngredients([
     <iceandfire:troll_leather_forest>,
     <iceandfire:troll_leather_frost>,
     <ore:mythicalSkull>,
-    <additions:ender_complex>
+    <additions:ender_complex>,
+    <ore:oreAmythest>,
+    <ore:gemAmythest>,
+    <ore:blockAmythest>
 ], true);
 
 GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators"]);
