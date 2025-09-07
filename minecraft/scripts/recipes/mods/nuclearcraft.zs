@@ -383,7 +383,7 @@ Melter.addRecipe(<ore:dustDilithium>, <liquid:dilithium_fluid> * 144);
 Melter.addRecipe(<ore:blockDilithium>, <liquid:dilithium_fluid> * 1296);
 Melter.addRecipe(<ore:nuggetDilithium>, <liquid:dilithium_fluid> * 16);
 Melter.addRecipe(<ore:crystalDilithium>, <liquid:dilithium_fluid> * 72);
-Melter.addRecipe(<ore:blockMagma>, <liquid:magma_fluid> * 288);
+Melter.addRecipe(<minecraft:magma>, <liquid:magma_fluid> * 288);
 Melter.addRecipe(<theaurorian:auroriansteel>, <liquid:tamoltenauroriansteel> * 144);
 Melter.addRecipe(<theaurorian:auroriansteelnugget>, <liquid:tamoltenauroriansteel> * 16);
 Melter.addRecipe(<theaurorian:auroriansteelblock>, <liquid:tamoltenauroriansteel> * 1296);
