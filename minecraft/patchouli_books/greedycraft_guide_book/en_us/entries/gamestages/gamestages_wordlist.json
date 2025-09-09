@@ -217,97 +217,30 @@
     },
     {
         "type":"multiblock",
-        "text":"如图你需要$(6)星辉投影仪$()*1$(6)熏黑大理石$()*53$(6)大理石砖$()*68$(6)精致大理石$()*13$(6)大理石$()*12$(6)大理石柱$()*8$(6)雕纹大理石$()*4$(6)星映大理石$()*3$(6)共鸣星杖$()*1",
+        "text":"如图你需要$(6)星辉投影仪$()*1$(6)熏黑大理石$()*4$(6)精致大理石$()*8$(6)星映大理石$()*3$(6)共鸣星杖$()*1",
         "symmertrical":true,
         "multiblock":{
             "mapping":{
                 "0":"additions:astral_projector",
                 "A":"astralsorcery:blockblackmarble",
-                "B":"astralsorcery:blockmarble[marbletype=bricks]",
-                "C":"astralsorcery:blockmarble[marbletype=runed]",
-                "D":"astralsorcery:blockmarble[marbletype=raw]",
-                "E":"astralsorcery:blockmarble[marbletype=pillar]",
-                "F":"astralsorcery:blockmarble[marbletype=chiseled]",
-                "H":"gct_mobs:astral_portal_core"
+                "B":"astralsorcery:blockmarble[marbletype=runed]",
+                "C":"gct_mobs:astral_portal_core"
             },
             "pattern":[
                 [
-                    "           ",
-                    "           ",
-                    "  BBB BBB  ",
-                    "  B     B  ",
-                    "  B     B  ",
-                    "   ACHCA   ",
-                    "  B     B  ",
-                    "  B     B  ",
-                    "  BBB BBB  ",
-                    "           ",
-                    "           "
+                    "ABCBA"
                 ],
                 [
-                    "           ",
-                    " FB     BF ",
-                    " B       B ",
-                    "           ",
-                    "           ",
-                    "   C   C   ",
-                    "           ",
-                    "           ",
-                    " B       B ",
-                    " FB     BF ",
-                    "           "
+                    "B   B"
                 ],
                 [
-                    "           ",
-                    " E       E ",
-                    "           ",
-                    "           ",
-                    "           ",
-                    "   H   H   ",
-                    "           ",
-                    "           ",
-                    "           ",
-                    " E       E ",
-                    "           "
+                    "C   C"
                 ],
                 [
-                    "           ",
-                    " E       E ",
-                    "           ",
-                    "           ",
-                    "           ",
-                    "   C   C   ",
-                    "           ",
-                    "           ",
-                    "           ",
-                    " E       E ",
-                    "           "
+                    "B   B"
                 ],
                 [
-                    "           ",
-                    " C       C ",
-                    "           ",
-                    "           ",
-                    "           ",
-                    "   AC0CA   ",
-                    "           ",
-                    "           ",
-                    "           ",
-                    " C       C ",
-                    "           "
-                ],
-                [
-                    "BBB     BBB",
-                    "BDDBBBBBDDB",
-                    "BDAAAAAAADB",
-                    " BAAAAAAAB ",
-                    " BAAAAAAAB ",
-                    " BAAAAAAAB ",
-                    " BAAAAAAAB ",
-                    " BAAAAAAAB ",
-                    "BDAAAAAAADB",
-                    "BDDBBBBBDDB",
-                    "BBB     BBB"
+                    "AB0BA"
                 ]
             ]
         }
