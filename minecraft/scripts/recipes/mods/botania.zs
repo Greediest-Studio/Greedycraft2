@@ -48,7 +48,7 @@ Apothecary.addRecipe("blood_hydroangeas", [<ore:petalBlue>, <ore:petalCyan>, <or
     recipes.addShapeless("blood_hydroangeas_float", <botania:floatingspecialflower>.withTag({type : "blood_hydroangeas"}), [<botania:specialflower>.withTag({type: "blood_hydroangeas"}), <botania:miniisland:*>]);
 Apothecary.addRecipe("remove_difficulty", [<scalinghealth:crystalshard>, <ore:gemAmethyst>, <ore:petalGreen>, <ore:petalPurple>]);
     recipes.addShapeless("remove_difficulty_float", <botania:floatingspecialflower>.withTag({type: "remove_difficulty"}), [<botania:specialflower>.withTag({type: "remove_difficulty"}), <botania:miniisland:*>]);
-Apothecary.addRecipe("add_difficulty", [<scalinghealth:crystalshard>, <ore:ingotGold>, <ore:petalGreen>, <ore:petalYellow>]);
+Apothecary.addRecipe("add_difficulty", [<scalinghealth:crystalshard>, <ore:ingotGold>, <ore:petalGreen>, <ore:petalYellow>, <additions:ratziel_rune>]);
     recipes.addShapeless("add_difficulty_float", <botania:floatingspecialflower>.withTag({type: "add_difficulty"}), [<botania:specialflower>.withTag({type: "add_difficulty"}), <botania:miniisland:*>]);
 Apothecary.addRecipe("bread_fanatic", [<botania:blacklotus>, <minecraft:bread>, <botania:specialflower>.withTag({type: "endoflame"}), <ore:petalGreen>, <botania:rune:2>]);
     recipes.addShapeless("bread_fanatic_float", <botania:floatingspecialflower>.withTag({type: "bread_fanatic"}), [<botania:specialflower>.withTag({type: "bread_fanatic"}), <botania:miniisland:*>]);
