@@ -474,7 +474,9 @@ val removedRecipes as IIngredient[] = [
     <chisel:blockcobalt>,
     <journey:bleedstonedust>,
     <journey:smithstonedust>,
-    <nuclearcraft:material_block:2>
+    <nuclearcraft:material_block:2>,
+    <elementalend:aether_eye>,
+    <elementalend:nether_eye>
 ];
 
 val removedRecipeNames as string[] = [

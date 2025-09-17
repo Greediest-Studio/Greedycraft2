@@ -147,11 +147,6 @@ recipes.addShaped(<gct_mobs:earth_orb>, [[<ore:obsidian>, <ore:ingotTerrasteel>,
 recipes.addShaped(<gct_mobs:earthbound_receiver>, [[<ore:livingwoodTwig>, <ore:ingotSky>, <ore:livingwoodTwig>],[<ore:livingwoodTwig>, <gct_mobs:earthbound_core>, <ore:livingwoodTwig>], [<ore:blockMud>, <ore:blockMud>, <ore:blockMud>]]);
 recipes.addShaped(<gct_mobs:earthbound_core>, [[<ore:livingwoodTwig>, <ore:ingotAuraIron>, <ore:livingwoodTwig>],[<ore:livingwoodTwig>, <gct_mobs:holysteel_ingot>, <ore:livingwoodTwig>], [<naturesaura:infused_brick>, <naturesaura:infused_brick>, <naturesaura:infused_brick>]]);
 recipes.addShaped(<gugu-utils:aurainputhatch>, [[<ore:ingotModularium>, <ore:ingotSky>, <ore:ingotModularium>],[<ore:ingotAuraIron>, <modularmachinery:blockcasing>, <ore:ingotAuraIron>], [<ore:ingotModularium>, <ore:ingotEarth>, <ore:ingotModularium>]]);
-recipes.addShaped(<minecraft:end_portal_frame>, [[null, null, null],[null, <randomportals:upside_down_end_portal_frame>, null], [null, null, null]]);
-recipes.addShaped(<randomportals:upside_down_end_portal_frame>, [[null, null, null],[null, <randomportals:vertical_end_portal_frame>, null], [null, null, null]]);
-recipes.addShaped(<randomportals:vertical_end_portal_frame>, [[null, null, null],[null, <minecraft:end_portal_frame>, null], [null, null, null]]);
-recipes.addShaped(<randomportals:upside_down_end_portal_frame>, [[<ore:endstone>, <ore:endstone>, <ore:endstone>],[<ore:endstone>, <ore:endstone>, <ore:endstone>], [<minecraft:ender_eye>, <ore:netherStar>, <minecraft:ender_eye>]]);
-recipes.addShaped(<randomportals:vertical_end_portal_frame>, [[<ore:endstone>, <ore:endstone>, <minecraft:ender_eye>],[<ore:endstone>, <ore:endstone>, <ore:netherStar>], [<ore:endstone>, <ore:endstone>, <minecraft:ender_eye>]]);
 recipes.addShaped(<gct_ores:gaia_spirit_machine_frame>, [[<ore:ingotGaia>, null, <ore:ingotGaia>],[null, <ore:gearGaia>, null], [<ore:ingotGaia>, null, <ore:ingotGaia>]]);
 recipes.addShaped(<gct_ores:gaia_steel_machine_frame>, [[<ore:ingotGaiasteel>, null, <ore:ingotGaiasteel>],[null, <ore:gearGaiasteel>, null], [<ore:ingotGaiasteel>, null, <ore:ingotGaiasteel>]]);
 recipes.addShaped(<gct_ores:orichalcos_machine_frame>, [[<ore:ingotOrichalcos>, null, <ore:ingotOrichalcos>],[null, <ore:gearOrichalcos>, null], [<ore:ingotOrichalcos>, null, <ore:ingotOrichalcos>]]);
@@ -962,11 +957,6 @@ RecipeUtil.addShaped("bottledstar", <extrabotany:bottledstar>, [
     [<ore:petalYellow>, <ore:petalYellow>, <ore:petalYellow>],
     [<ore:blockGlass>, <additions:astral_star>, <ore:blockGlass>],
     [<ore:blockGlass>, <ore:blockGlass>, <ore:blockGlass>]
-]);
-RecipeUtil.addShaped("end_portal_frame", <minecraft:end_portal_frame>, [
-    [<ore:pearlEnderEye>, <ore:netherStar>, <ore:pearlEnderEye>],
-    [<ore:endstone>, <ore:endstone>, <ore:endstone>],
-    [<ore:endstone>, <ore:endstone>, <ore:endstone>]
 ]);
 RecipeUtil.addShaped("experience_transporter", <additions:experience_transporter>, [
     [<ore:pearlEnderEye>, <ore:eternalLifeEssence>, <ore:pearlEnderEye>],

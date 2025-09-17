@@ -1490,7 +1490,10 @@ var disabledItems as IIngredient[] = [
     <modularmachineryaddons:blockmeessentiaoutputbus>,
     <gct_aby:shoggoth_clump>,
     <mca:staff_of_life>,
-    <iceandfire:gorgon_head>
+    <iceandfire:gorgon_head>,
+    <prefab:item_ender_gateway>,
+    <randomportals:vertical_end_portal_frame>,
+    <randomportals:upside_down_end_portal_frame>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [

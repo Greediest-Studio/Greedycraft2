@@ -215,9 +215,6 @@ RecipeBuilder.newBuilder("chaosreacting","chaos_reactor",2000,0)
             val world = ctrl.world;
             val cpos = ctrl.pos;
             val pos = cpos.getOffset(down , 4);
-            if (!world.remote) {
-                world.setBlockState(<blockstate:draconicevolution:reactor_core>,{BCManagedData: {reactorState: 5 as byte, reactableFuel: 1000.0,explosionCountdown:2147483647,temperature:9000.0}},pos);
-            }
         });
     })
     .addFactoryFinishHandler(function (event as FactoryRecipeFinishEvent) {
@@ -226,9 +223,6 @@ RecipeBuilder.newBuilder("chaosreacting","chaos_reactor",2000,0)
             val world = ctrl.world;
             val cpos = ctrl.pos;
             val pos = cpos.getOffset(down , 4);
-            if (!world.remote) {
-                world.setBlockState(<blockstate:draconicevolution:energy_storage_core>,pos);
-            }
         });
     })
     .addEnergyPerTickOutput(10000000)
