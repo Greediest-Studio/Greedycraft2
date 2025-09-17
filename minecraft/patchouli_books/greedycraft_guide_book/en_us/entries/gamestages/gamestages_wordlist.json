@@ -509,37 +509,6 @@
     },
     {
         "type":"multiblock",
-        "text":"如图你需要$(6)苔石$()*1$(6)风化石$()*1$(6)金块$()*1",
-        "symmertrical":true,
-        "multiblock":{
-            "mapping":{
-                "0":"minecraft:gold_block",
-                "A":"mist:portal_base[note=3]",
-                "B":"mist:portal_base[note=2]"
-            },
-            "pattern":[
-                [
-                    "A"
-                ],
-                [
-                    "0"
-                ],
-                [
-                    "B"
-                ]
-            ]
-        }
-        
-    },
-    {
-        "type":"entity",
-        "entity":"minecraft:enderman",
-        "scale":0.8,
-        "offset":1,
-        "text":"$(c)misty world$()$(2)朦胧世界$()(Dim 69) $(li)搭建如图结构即可开启朦胧世界传送门，注：该传送门所需的苔石与风化石只有第一次击杀末影人才能掉落"
-    },
-    {
-        "type":"multiblock",
         "text":"如图，你需要$(6)桉域结界石$()*14$(6)火焰铸币$()*1",
         "symmertrical":true,
         "multiblock":{

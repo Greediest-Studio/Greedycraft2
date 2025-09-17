@@ -224,6 +224,14 @@
         {
             "x": 3,
             "y": 8,
+            "z": -2,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_stairs@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
             "z": -4,
             "elements": [
                 "appliedenergistics2:sky_stone_small_brick_stairs@1"
@@ -1467,6 +1475,22 @@
             "z": -5,
             "elements": [
                 "prefab:block_half_diorite_slab@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 10,
+            "z": -6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 10,
+            "z": -6,
+            "elements": [
+                "appliedenergistics2:sky_stone_small_brick_slab@8"
             ]
         },
         {
@@ -3846,7 +3870,7 @@
             ]
         },
         {
-            "x": -5,
+            "x": -6,
             "y": 17,
             "z": -6,
             "elements": [
@@ -8694,7 +8718,7 @@
             ]
         },
         {
-            "x": -5,
+            "x": -6,
             "y": 16,
             "z": -6,
             "elements": [
@@ -12806,6 +12830,14 @@
             ]
         },
         {
+            "x": -1,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "prefab:block_diorite_stairs@7"
+            ]
+        },
+        {
             "x": -2,
             "y": 23,
             "z": 3,
@@ -13710,7 +13742,7 @@
             ]
         },
         {
-            "x": -5,
+            "x": -6,
             "y": 15,
             "z": -6,
             "elements": [
@@ -18510,7 +18542,7 @@
             ]
         },
         {
-            "x": -5,
+            "x": -6,
             "y": 14,
             "z": -6,
             "elements": [
