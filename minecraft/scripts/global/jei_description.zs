@@ -12,7 +12,8 @@ JEI.addDescription(<gct_aby:ancientmud>,"§c远古淤泥§f需在§c黑暗领域
 JEI.addDescription([<ore:dustDiamond>],"§c使用电导齿轮解锁磨粉机制作钻石粉");
 JEI.addDescription(<thaumicwonders:primordial_grain>,"§f由§c元始吸管§f产出");
 JEI.addDescription(<thaumcraft:salis_mundus>,"使用三种不同§c魔力水晶§f+§c红石§f+§c燧石§f+§c碗§f合成");
-JEI.addDescription([<modularmachinery:blockparallelcontroller>,<modularmachinery:blockparallelcontroller:1>,<modularmachinery:blockparallelcontroller:2>,<modularmachinery:blockparallelcontroller:3>,<modularmachinery:blockparallelcontroller:4>],"每个§c模块化机械§f最多可安装§c一个§f，位置多在控制器§c正上方§f，具体位置请查看§c结构预览");
+JEI.addDescription([<modularmachinery:blockparallelcontroller>,<modularmachinery:blockparallelcontroller:1>,<modularmachinery:blockparallelcontroller:2>,<modularmachinery:blockparallelcontroller:3>,<modularmachinery:blockparallelcontroller:4>],"§c使模块化机械§f拥有§c并行处理相同配方§f的能力，具体放置位置请查看§c结构预览");
 JEI.addDescription([<additions:heaven_gem_shard1>,<additions:heaven_gem_shard2>],"击败§c蔚蓝浩空§fBOSS获得");
 JEI.addDescription(<nuclearcraft:ingot:8>,"通过§c浇筑台§f合成");
 JEI.addDescription(<contenttweaker:dim_item>,"再次右键返回这个维度的同一坐标");
+JEI.addDescription(<gct_mobs:resonate_debris>, "§f挖不动？使用§cEFLN§f来炸碎它！");
