@@ -168,18 +168,80 @@
     },
     {
         "type": "entity",
+        "entity": "netherex:ghast_queen",
+        "scale": 0.8,
+        "text": "$(6)泪之终结$()"
+    },
+    {
+        "type": "crafting",
+        "recipe": "crafttweaker:ct_shaped1587904294",
+        "text": "$(5)地狱女王$()需要手持$(9)泣血之泪$()Shift右键$(5)铸造祭坛$()进行召唤。召唤方式基本与冰霜巨口相同，但是只有在$(3)地狱$()中才能召唤成功。"
+    },
+    {
+        "type": "entity",
+        "entity": "gct_mobs:zethur",
+        "scale": 0.8,
+        "text": "$(6)雷霆之巅$()"
+    },
+    {
+        "type": "crafting",
+        "recipe": "crafttweaker:ct_shaped-180328212",
+        "text": "$(5)西风雷鸣云$()需要手持$(9)雷暴之眼$()Shift右键$(5)铸造祭坛$()进行召唤。召唤方式基本与冰霜巨口相同，但是只有下雨时在$(3)天境$()中才能召唤成功。"
+    },
+    {
+        "type": "entity",
+        "entity": "gct_mobs:weather_eyevil",
+        "scale": 0.8,
+        "text": "$(6)天气邪眼$()"
+    },
+    {
+        "type": "crafting",
+        "recipe": "crafttweaker:ct_shaped-1276867743",
+        "text": "$(5)天气之眼$()需要手持$(9)天气之息$()Shift右键$(5)铸造祭坛$()进行召唤。召唤方式基本与冰霜巨口相同，但是只有在$(3)冰晶雪原$()中才能召唤成功。"
+    },
+    {
+        "type": "entity",
         "entity": "mowziesmobs:barako",
         "scale": 0.8,
         "text": "$(6)世世代代侍奉太阳。$()"
     },
     {
-        "type": "text",
-        "text": "$(5)太阳酋长$()需要手持$(9)太阳图腾$(8)(合成配方如右图所示)$()Shift右键$(5)铸造祭坛$()进行召唤。召唤方式基本与冰霜巨口相同，但是只有在天气晴朗的白天才能召唤成功。非休闲模式中，你必须击败太阳酋长才能获取$(6)永燃锭$()以制作神龙有关工具。在$(2)700以上难度$()击败召唤出的太阳酋长时必然会获得$(6)破碎的日耀之星$()和$(6)日耀之种$()，两者合成出的$(5)日耀之星$()使用后能够解锁$(c)永燃锭$()。$(br)注意：太阳酋长同样也会在玩家死亡时消失。"
+        "type": "crafting",
+        "recipe": "crafttweaker:auto_gen_1913024224",
+        "text": "$(5)太阳酋长$()需要手持$(9)太阳图腾$(8)(合成配方如右图所示)$()Shift右键$(5)铸造祭坛$()进行召唤。召唤方式基本与冰霜巨口相同，但是只有在天气晴朗的白天才能召唤成功。"
+    },
+    {
+        "type": "entity",
+        "entity": "dungeonsmod:kraken",
+        "scale": 0.8,
+        "text": "$(6)海洋涡流$()"
     },
     {
         "type": "crafting",
-        "recipe": "crafttweaker:auto_gen_1913024224",
-        "recipe2": "crafttweaker:solarium_star"
+        "recipe": "crafttweaker:ct_shaped1129431739",
+        "text": "$(5)克拉肯$()需要手持$(9)蓝冰图腾$()Shift右键$(5)铸造祭坛$()进行召唤。召唤方式基本与冰霜巨口相同，但是只有在$(3)主世界水中$()才能召唤成功。"
+    },
+    {
+        "type": "entity",
+        "entity": "dungeonsmod:ironslime",
+        "scale": 0.8,
+        "text": "$(6)苍穹之立方$()"
+    },
+    {
+        "type": "crafting",
+        "recipe": "crafttweaker:ct_shaped-906667955",
+        "text": "$(5)钢铁史莱姆$()需要手持$(9)自然图腾$()Shift右键$(5)铸造祭坛$()进行召唤。召唤方式基本与冰霜巨口相同，但是只有在$(3)主世界$()中才能召唤成功。"
+    },
+    {
+        "type": "entity",
+        "entity": "endreborn:endlord",
+        "scale": 0.8,
+        "text": "$(6)末地？末影$()"
+    },
+    {
+        "type": "crafting",
+        "recipe": "crafttweaker:ct_shaped1587904294",
+        "text": "$(5)末地术士巴莱克$()需要手持$(9)末影图腾$()Shift右键$(5)铸造祭坛$()进行召唤。召唤方式基本与冰霜巨口相同，但是只有在$(3)末地$()中才能召唤成功。"
     },
     {
         "type": "entity",

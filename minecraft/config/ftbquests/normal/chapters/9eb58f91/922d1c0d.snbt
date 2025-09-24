@@ -2,7 +2,7 @@
 	title: "小知识2",
 	x: -10.5d,
 	y: 9.0d,
-	description: "三件套的控制器后方都有自己的通讯接口需要连接上ae才能使用",
+	description: "ECO使用时需要将矩阵通讯接口连接上ae网络",
 	dependencies: [
 		"f48a9f7d"
 	],
