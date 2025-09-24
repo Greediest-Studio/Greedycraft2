@@ -1056,68 +1056,6 @@
     },
     {
         "type":"multiblock",
-        "text":"如图，你需要$(6)虚空水晶块$()*14$(6)装满的黑曜石烧瓶$()*1",
-        "symmertrical":true,
-        "multiblock":{
-            "mapping":{
-                "0":"voidcraft:blockvoidcrystal",
-                "A":"voidcraft:blockvoidcrystal"
-            },
-            "pattern":[
-                [
-                    "0AAA"
-                ],
-                [
-                    "A  A"
-                ],
-                [
-                    "A  A"
-                ],
-                [
-                    "A  A"
-                ],
-                [
-                    "AAAA"
-                ]
-            ]
-        }
-    },
-    {
-        "type":"spotlight",
-        "item":"voidcraft:obsidianflask",
-        "link_recipe":true,
-        "text":"$(c)The Void$()$(2)幽邃虚空$()(Dim -2)$(li)搭建如图所示多方块结构，使用$(6)装满的黑曜石烧瓶$()右键多方块结构即可激活传送门$(br)在Y≤5的方块上，手持$(6)空的黑曜石烧瓶$()右键，可得到$(6)装满的黑曜石烧瓶$()"
-    },
-    {
-        "type":"multiblock",
-        "text":"如图，你需要$(6)软基岩$()*17$(6)虚空之星$()*1",
-        "symmertrical":true,
-        "multiblock":{
-            "mapping":{
-                "0":"voidcraft:blockfakebedrock",
-                "A":"voidcraft:blockfakebedrock"
-            },
-            "pattern":[
-               [
-                    "0AA",
-                    "A A",
-                    "AAA"
-               ],
-               [
-                    "AAA",
-                    "AAA",
-                    "AAA"
-               ]
-            ]
-        }
-    },
-    {
-        "type":"spotlight",
-        "item":"voidcraft:voidstar",
-        "text":"$(c)???$()$(2)夏之殿堂$()(Dim -3)搭建如左图所示的多方块结构，再将$(6)虚空之星$()扔进中心的空缺位置，即可开启$(6)到夏的传门$()$(br)$(6)虚空之星$()由击杀$(c)锁链头颅$()掉落$(br)$(6)烧焦的骨头$()由击杀$(5)虚空的愤怒$()掉落$(br)$(6)虚空锁链$()由击杀$(5)束缚幽灵$()掉落$(br)$(6)虚空布匹$()由击杀$(5)虚空巫妖$()掉落$(br)$(6)灵气$()由击杀$(5)虚空幽灵$()掉落"
-    },
-    {
-        "type":"multiblock",
         "text":"如图，你需要$(6)泥土$()*12$(6)水$()*4$(6)暮光宝石$()*1$(6)花$()*12",
         "symmertrical":true,
         "multiblock":{
@@ -1147,11 +1085,6 @@
         "type":"spotlight",
         "item":"additions:twilight_gem",
         "text":"搭建如左图所示多方块结构,将$(6)暮光宝石$()扔进$(6)水$()中即可激活暮色森林传送门$(br)$(c)图中的花可以替换任意种类的花$()$(br)$(c)"
-    },
-    {
-        "type":"spotlight",
-        "item":"voidcraft:dreambed",
-        "text":"$(c)Dal Quor$()$(2)梦境世界$()(Dim -4)可以通过在$(6)虚空床？？？$()上睡觉进入,为空岛状"
     }
 ]
         }
