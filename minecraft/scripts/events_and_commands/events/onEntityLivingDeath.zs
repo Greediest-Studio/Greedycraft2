@@ -23,9 +23,16 @@ import crafttweaker.world.IFacing;
 import crafttweaker.command.ICommandSender;
 import crafttweaker.event.EntityLivingDeathEvent;
 import crafttweaker.text.ITextComponent;
+import crafttweaker.item.IItemStack;
+import crafttweaker.world.IWorld;
 
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
+
+import native.net.minecraft.world.World;
+import native.net.minecraft.entity.item.EntityItem;
+import native.net.minecraft.item.ItemStack;
+import native.net.minecraft.init.Items;
 
 import scripts.util.patreons as PatreonUtil;
 import scripts.util.lang as LangUtil;
@@ -110,6 +117,26 @@ events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
             if !isNull(list) {
                 for plr in list {
                     plr.give(<additions:darkest_core> * 10);
+                }
+            }
+        }
+    }
+    //Drop Eye of Lightning from Enderman
+    if (!isNull(event.entityLivingBase.definition) && !event.entityLivingBase.world.remote) {
+        if (event.entityLivingBase.definition.id == "minecraft:enderman") {
+            if (!isNull(event.damageSource.getTrueSource())) {
+                if (!isNull(event.damageSource.getTrueSource().definition)) {
+                    if (event.damageSource.getTrueSource().definition.id == "minecraft:creeper") {
+                        if (!isNull(event.damageSource.getTrueSource().nbt.powered)) {
+                            event.entityLivingBase.world.native.spawnEntity(EntityItem(
+                                event.entityLivingBase.world.native,
+                                event.entityLivingBase.x,
+                                event.entityLivingBase.y,
+                                event.entityLivingBase.z,
+                                <elementalend:lightning_eye>.native
+                          ));
+                        }
+                    }
                 }
             }
         }
