@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "§b热极金属块",
+    "ore_dict": "blockThermallite",
+    "type": "additions:block_simple"
+  },
+  "name": "§b热极金属块",
+  "material": "minecraft:metal",
+  "hardness": 10.0,
+  "resistance": 4000.0,
+  "harvest_level": 12,
+  "harvest_tool": "pickaxe",
+  "light_level": 15,
+  "type": "additions:simple"
+}
