@@ -1,0 +1,75 @@
+{
+  "name": "compactmachines3:water_eye",
+  "target-item": "elementalend:water_eye",
+  "target-count": 1,
+
+  "catalyst": "minecraft:ender_eye",
+  
+  "input-types": {
+    "a": {
+      "id": "minecraft:sponge",
+      "meta": 0
+    },
+    "b": {
+      "id": "minecraft:sea_lantern",
+      "meta": 0
+    },
+    "c": {
+      "id": "actuallyadditions:block_misc",
+      "meta": 6
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "_",
+        "a"
+      ],
+      [
+        "_",
+        "b",
+        "_"
+      ],
+      [
+        "a",
+        "_",
+        "a"
+      ]
+    ],
+    [
+      [
+        "_",
+        "b",
+        "_"
+      ],
+      [
+        "b",
+        "c",
+        "b"
+      ],
+      [
+        "_",
+        "b",
+        "_"
+      ]
+    ],
+    [
+      [
+        "a",
+        "_",
+        "a"
+      ],
+      [
+        "_",
+        "b",
+        "_"
+      ],
+      [
+        "a",
+        "_",
+        "a"
+      ]
+    ]
+  ]
+}

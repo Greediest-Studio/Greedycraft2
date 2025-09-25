@@ -492,3 +492,10 @@ addRitualRecipe(<gct_aby:eye_of_abyss>, [
     <gct_aby:essenceofdarkerrealm>,
     <gct_aby:essence_of_warped_ruin>
 ], 100000, -1, true);
+
+addRitualRecipe(<elementalend:void_eye>, [
+    <abyssalcraft:stone> * 4,
+    <ore:ingotLiquifiedCoralium> * 2,
+    <ore:ingotDreadium> * 2,
+    <ore:pearlEnderEye>
+], 10000, -1, false);

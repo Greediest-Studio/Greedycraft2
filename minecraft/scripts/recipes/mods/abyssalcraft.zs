@@ -172,6 +172,17 @@ InfusionRitual.addRitual("eye_of_abyss", 4, -1, 100000, true, <gct_aby:eye_of_ab
     <thaumadditions:adaminite_fabric>
 ] as IIngredient[], false);
 
+InfusionRitual.addRitual("void_eye", 2, -1, 10000, false, <elementalend:void_eye>, <minecraft:ender_eye>, [
+    <abyssalcraft:stone>,
+    <abyssalcraft:cingot>,
+    <abyssalcraft:stone>,
+    <abyssalcraft:dreadiumingot>,
+    <abyssalcraft:stone>,
+    <abyssalcraft:cingot>,
+    <abyssalcraft:stone>,
+    <abyssalcraft:dreadiumingot>
+] as IIngredient[], false);
+
 InfusionRitual.removeRitual(<ageofminecraft:fusionasorah>);
 InfusionRitual.removeRitual(<ageofminecraft:fusionchagaroth>);
 InfusionRitual.removeRitual(<ageofminecraft:fusionjzahar>);

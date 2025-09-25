@@ -93,6 +93,18 @@ ArcaneWorkbench.registerShapedRecipe("me_cell_2g", "ESSENTIASTORAGE64k", 10, [],
     [<thaumicenergistics:essentia_component_1g>, <appliedenergistics2:quartz_glass>, <thaumicenergistics:essentia_component_1g>],
     [<thaumcraft:salis_mundus>, <thaumcraft:salis_mundus>, <thaumcraft:salis_mundus>]
 ]);
+ArcaneWorkbench.registerShapedRecipe("magic_eye", "", 50, [
+    <aspect:aer> * 5,
+    <aspect:ignis> * 5,
+    <aspect:terra> * 5,
+    <aspect:aqua> * 5,
+    <aspect:ordo> * 5,
+    <aspect:perditio> * 5
+], <elementalend:magic_eye>, [
+    [null, <thaumcraft:salis_mundus>, null],
+    [<thaumcraft:salis_mundus>, <ore:pearlEnderEye>, <thaumcraft:salis_mundus>],
+    [null, <thaumcraft:salis_mundus>, null]
+]);
 
 Crucible.registerRecipe("salis_mundus", "", <thaumcraft:salis_mundus> * 2, <thaumcraft:salis_mundus>, [<aspect:praecantatio> * 3, <aspect:auram> * 3]);
 Crucible.registerRecipe("smithstoneore", "", <journey:smithstoneore>, <journey:enderilliumblock>, [<aspect:vitreus> * 20, <aspect:alienis> * 25]);

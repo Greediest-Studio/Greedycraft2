@@ -619,3 +619,8 @@ RecipeUtil.addShaped("command_dismantler", <gct_ores:command_dismantler>, [
     [null, <tconstruct:stone_stick>, <ore:gemDiamond>],
     [<tconstruct:stone_stick>, null, null]
 ]);
+RecipeUtil.addShaped("nether_eye", <elementalend:nether_eye>, [
+    [<divinerpg:purple_blaze>, <ore:gemCincinnasite>, <divinerpg:purple_blaze>],
+    [<ore:gemRime>, <minecraft:ender_eye>, <ore:gemRime>],
+    [<divinerpg:purple_blaze>, <ore:dustNetherite>, <divinerpg:purple_blaze>]
+]);

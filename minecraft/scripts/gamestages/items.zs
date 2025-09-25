@@ -1855,5 +1855,6 @@ GameStagesUtil.stageGatekeeper.addModId(["gct_aby"]);
 GameStagesUtil.stageEpicEngineer.addModId(["nuclearcraft"]);
 GameStagesUtil.stageBetweenlandTraveller.addModId(["thebetweenlands"]);
 GameStagesUtil.stageWitherSlayer.addModId(["crazyae", "nae2"]);
+GameStagesUtil.stageEnderCharm.addModId(["elementalend"]);
 
 GameStagesUtil.stageGettingStarted.addRecipeName("tinkersurvival:cobblestone");

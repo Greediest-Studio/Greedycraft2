@@ -25,3 +25,13 @@ SummoningTable.addRecipe(
     <journey:sentry_disk>,
     <journey:sentry_disk>,
 <gct_ores:senterian_builder_lab>);
+
+SummoningTable.addRecipe(
+    <additions:sorrowium_ingot>,
+    <additions:flamium_ingot>,
+    <journey:blazium>,
+    <minecraft:ender_pearl>,
+    <additions:sorrowium_ingot>,
+    <additions:flamium_ingot>,
+    <journey:blazium>,
+<elementalend:fire_eye>);

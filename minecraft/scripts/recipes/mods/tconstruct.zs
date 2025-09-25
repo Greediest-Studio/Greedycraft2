@@ -306,6 +306,7 @@ Casting.addTableRecipe(<abyssalcraft:necronomicon_omt>.withTag({PotEnergy: 40000
 Casting.addTableRecipe(<abyssalcraft:abyssalnomicon>.withTag({PotEnergy: 100000.0 as float}), <ore:necronomiconAbyss>, <liquid:pe>, 1440, true, 1440);
 Casting.addTableRecipe(<mca:rose_gold_ingot>, <tconstruct:cast_custom>, <liquid:rose_gold>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<tconstruct:pick_head>.withTag({Material: "imitatium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:pick_head"}), <liquid:imitatium>, 432, false, 200);
+Casting.addTableRecipe(<elementalend:order_eye>, <minecraft:ender_eye>, <liquid:balancite>, 1440, true, 200);
 
 Melting.removeRecipe(<liquid:gold>, <minecraft:golden_rail>);
 Melting.removeRecipe(<liquid:iron>, <minecraft:activator_rail>);
