@@ -16,6 +16,10 @@
       "type": "additions:command"
     },
     {
+      "command": "/kill @e[type\u003diceandfire:lightningdragon]",
+      "type": "additions:command"
+    },
+    {
       "command": "/tellraw @a {\"text\": \"§c§c已清除所有龙。\"}",
       "type": "additions:command"
     }

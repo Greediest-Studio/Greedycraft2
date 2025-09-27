@@ -1,0 +1,40 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "additions:items/angellite_ingot-layer0"
+  },
+  "display": {
+		"thirdperson_righthand": {
+			"translation": [0, 3, 0.25],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, 3, 0.5],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -60, 30],
+			"translation": [3, 2.5, 0],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 90, -30],
+			"translation": [3, 2.5, 0],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"ground": {
+			"translation": [0, 1, 0],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"head": {
+			"translation": [0, 12, 0],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"fixed": {
+			"rotation": [0, -180, 0]
+		},
+    "gui": {
+      "scale": [2.67, 2.67, 2.67]
+    }
+  }
+}
