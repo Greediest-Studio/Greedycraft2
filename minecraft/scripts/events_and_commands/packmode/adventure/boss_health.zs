@@ -47,6 +47,8 @@ events.onEntityJoinWorld(function(event as EntityJoinWorldEvent) {
         return;
     }
 
+    if (!isNull(living.definition)) {
+
     if (!(blacklist has living.definition.id)) {
         if (living.isBoss) {
             var uuid as string = "eb5101d8-993d-4e26-ab59-5b1bc70024ee";
@@ -57,5 +59,7 @@ events.onEntityJoinWorld(function(event as EntityJoinWorldEvent) {
                 living.health = living.maxHealth;
             }
         }
+    }
+
     }
 });
