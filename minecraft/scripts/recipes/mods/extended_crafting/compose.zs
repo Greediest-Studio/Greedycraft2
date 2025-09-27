@@ -11,7 +11,7 @@ import mods.ctintegration.util.RecipePattern;
 import mods.extendedcrafting.TableCrafting;
 import mods.extendedcrafting.CombinationCrafting;
 
-CombinationCrafting.addRecipe(<jaopca:block.twilit> * 1, 2000000000, 8388608, <gct_ores:balanced_matrix_ingot>, [
+CombinationCrafting.addRecipe(<additions:twilit_block> * 1, 2000000000, 8388608, <gct_ores:balanced_matrix_ingot>, [
     <ore:ingotFierymetal>,
     <ore:ingotFierymetal>,
     <ore:ingotFierymetal>,

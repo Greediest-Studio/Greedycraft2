@@ -1,11 +1,11 @@
-#Configurations for material Extraelement.
+#Configurations for material Angellite.
 [general]
 	#The module blacklist of this material. "*" is an alias for all modules. If a module name occurs an odd number of times (including wildcards), then the module is blacklisted.
 	moduleBlacklist = []
 	#The alternative names of this material.
 	alternativeNames = []
 	#The color of this material.
-	color = 10660514
+	color = 15791355
 	#The byproducts of this material.
 	extras = []
 	#The model type of the material.

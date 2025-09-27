@@ -150,7 +150,7 @@ CreationRitual.addRitual("capsule", 3, -1, 90000, false, <gct_aby:solid_pot_ener
     <additions:sanite_ethaxium_capsule>
 ], true);
 
-InfusionRitual.addRitual("abyssine_ingot", 4, -1, 50000, true, <jaopca:block.abyssine>, <gct_ores:balanced_matrix_ingot>, [
+InfusionRitual.addRitual("abyssine_ingot", 4, -1, 50000, true, <additions:abyssine_block>, <gct_ores:balanced_matrix_ingot>, [
     <gct_mobs:azathothium_ingot>,
     <gct_mobs:nyarlathotepium_ingot>,
     <gct_mobs:yogsothothium_ingot>,

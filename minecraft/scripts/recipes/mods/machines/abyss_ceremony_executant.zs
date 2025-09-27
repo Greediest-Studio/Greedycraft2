@@ -470,7 +470,7 @@ addRitualRecipe(<gct_aby:solid_pot_energy>, [
     <additions:sanite_ethaxium_capsule>
 ], 90000, -1, false);
 
-addRitualRecipe(<jaopca:block.abyssine>, [
+addRitualRecipe(<additions:abyssine_block>, [
     <ore:ingotAzathothium>,
     <ore:ingotNyarlathotepium>,
     <ore:ingotYogsothothium>,
