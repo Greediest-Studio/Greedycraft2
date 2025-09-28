@@ -46,6 +46,37 @@
           "doMobSpawning": "false"
         }
       }
+    },
+    {
+      "dim": 103,
+      "dimensiontype": {
+        "id": 103,
+        "name": "Order Core",
+        "suffix": "_dim103",
+        "keeploaded": false,
+        "worldprovider": "WorldProviderSurfaceJED",
+        "require_exact_match": true
+      },
+      "worldinfo": {
+        "generatorName": "flat",
+        "generatorOptions": "3;minecraft:air;127;",
+        "JED": {
+          "SkyColor": "dddddd",
+          "FogColor": "cccccc",
+          "SkyDisableFlags": 7,
+          "canRespawnHere": false,
+          "RespawnDimension": 102
+        }
+      },
+      "biome": "gct_ores:order_plain",
+      "spawn_structure": {
+	      "name": "order_island.nbt",
+	      "rotation": "none",
+	      "mirror": "none",
+	      "centered": true,
+	      "offset": [0, -8, 0],
+	      "load_around": 1
+      }
     }
   ]
 }

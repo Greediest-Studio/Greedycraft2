@@ -1,0 +1,101 @@
+{
+	"frame": {
+		"type": "LATERAL",
+		"size": {
+			"lateral": {
+				"minWidth": 3,
+				"maxWidth": 30,
+				"minHeight": 3,
+				"maxHeight": 30
+			},
+			"verticalX": {
+				"minWidth": 3,
+				"maxWidth": 30,
+				"minHeight": 3,
+				"maxHeight": 30
+			},
+			"verticalZ": {
+				"minWidth": 3,
+				"maxWidth": 30,
+				"minHeight": 3,
+				"maxHeight": 30
+			}
+		},
+		"blocks": [
+			{
+				"registryName": "gct_ores:order_stone_final",
+				"meta": 32767,
+				"minimumAmount": 1
+			},
+			{
+				"registryName": "gct_ores:order_stone",
+				"meta": 32767,
+				"minimumAmount": 13
+			}
+		],
+		"requiredCorner": "SAME",
+		"cornerBlocksContributeToMinimumAmount": true,
+		"doGeneratedFramesDrop": false
+	},
+	"activation": {
+		"canBeActivatedByFire": false,
+		"activators": [
+			{
+				"registryName": "gct_ores:ordered_core",
+				"meta": 32767
+			}
+		],
+		"activatorConsumeBehavior": "CONSUME",
+		"spawnFireBeforeActivating": false,
+		"activationSounds": []
+	},
+	"color": {
+		"colors": [
+			"WHITE"
+		],
+		"dyeBehavior": "DISABLE"
+	},
+	"destination": {
+		"dimensionID": 103,
+		"locationDetectionBehavior": "FORCE_INITIAL",
+		"initialLocation": {
+			"x": 0,
+			"y": 0,
+			"z": 0,
+			"useTopSolidY": true
+		},
+		"coordinateMultiplier": 1.0,
+		"teleportToPortal": false,
+		"oneWay": true,
+		"ensureReturnToSameDimension": false,
+		"generatePortalIfNotFound": false,
+		"portalGenerationBehavior": "RANDOMIZE",
+		"generatedFrameType": "LATERAL",
+		"generatedFrameSize": {
+			"lateral": {
+				"minWidth": 0,
+				"maxWidth": 3,
+				"minHeight": 0,
+				"maxHeight": 3
+			},
+			"verticalX": {
+				"minWidth": 4,
+				"maxWidth": 4,
+				"minHeight": 5,
+				"maxHeight": 5
+			},
+			"verticalZ": {
+				"minWidth": 4,
+				"maxWidth": 4,
+				"minHeight": 5,
+				"maxHeight": 5
+			}
+		}
+	},
+	"teleportationDelay": {
+		"lateral": 10,
+		"verticalX": 0,
+		"verticalZ": 0
+	},
+	"decorative": false
+}
