@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis\u003dy": {
+      "model": "additions:dragonbone_block_mixed"
+    },
+    "axis\u003dz": {
+      "model": "additions:dragonbone_block_mixed",
+      "x": 90
+    },
+    "axis\u003dx": {
+      "model": "additions:dragonbone_block_mixed",
+      "x": 90,
+      "y": 90
+    }
+  }
+}
