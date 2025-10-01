@@ -56,7 +56,7 @@ Apothecary.addRecipe("lightning", [<botanicadds:rune_energy>, <botania:specialfl
     recipes.addShapeless("lightning_float", <botania:floatingspecialflower>.withTag({type: "lightning"}), [<botania:specialflower>.withTag({type: "lightning"}), <botania:miniisland:*>]);
 Apothecary.addRecipe("agricultural", [<minecraft:hay_block>, <minecraft:hay_block>, <minecraft:hay_block>, <ore:petalYellow>, <ore:petalLime>, <additions:ratziel_rune>, <additions:raphael_rune>, <minecraft:wooden_hoe>, <minecraft:carrot>, <minecraft:potato>, <minecraft:beetroot>]);
     recipes.addShapeless("agricultural_float", <botania:floatingspecialflower>.withTag({type: "agricultural"}), [<botania:specialflower>.withTag({type: "agricultural"}), <botania:miniisland:*>]);
-Apothecary.addRecipe("running_machine", [<minecraft:heavy_weighted_pressure_plate>, <ore:petalGray>, <ore:petalGreen>, <ore:petalLime>, <botania:overgrowthseed>]);
+Apothecary.addRecipe("running_machine", [<minecraft:heavy_weighted_pressure_plate>, <ore:petalGray>, <ore:petalGreen>, <ore:petalLime>, <ore:ingotGaiasteel>]);
     recipes.addShapeless("running_machine_float", <botania:floatingspecialflower>.withTag({type: "running_machine"}), [<botania:specialflower>.withTag({type: "running_machine"}), <botania:miniisland:*>]);
 Apothecary.addRecipe("quest", [<ftbquests:book>, <ore:petalLime>, <ore:petalGreen>, <botania:fertilizer>, <botania:cosmetic:31>]);
     recipes.addShapeless("quest_float", <botania:floatingspecialflower>.withTag({type: "quest"}), [<botania:specialflower>.withTag({type: "quest"}), <botania:miniisland:*>]);
