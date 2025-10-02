@@ -172,7 +172,7 @@ addHellForgeRecipe([<ore:ingotGold>, <bloodarsenal:base_item:2>, <bloodmagic:com
 addHellForgeRecipe([<bloodmagic:soul_gem>, <ore:ingotStainlessSteel>],
 <tconevo:metal:30>, 2);
 addHellForgeRecipe([<additions:darkest_core>, <evilcraft:promise:2>, <ore:ingotBoundMetal> * 2],
-<additions:darkest_ingot>, 1600);
+<additions:darkest_ingot> * 2, 1600);
 addHellForgeRecipe([<additions:slate_7>, <ore:ingotBalancedMatrix>],
 <additions:balanced_slate> * 2, 1800);
 
