@@ -1102,7 +1102,25 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:gemGorbite> : [<journey:gorbitegem>],
     <ore:gemSoulstone> : [<journey:soulstone>],
     <ore:blockSoulstone> : [<journey:nethicgemstoneblock>],
-    <ore:blockAmber> : [<betterendforge:amber_block>]
+    <ore:blockAmber> : [<betterendforge:amber_block>],
+    <ore:scaleDragonFire> : [
+        <iceandfire:dragonscales_red>,
+        <iceandfire:dragonscales_green>,
+        <iceandfire:dragonscales_bronze>,
+        <iceandfire:dragonscales_gray>
+    ],
+    <ore:scaleDragonIce> : [
+        <iceandfire:dragonscales_blue>,
+        <iceandfire:dragonscales_white>,
+        <iceandfire:dragonscales_sapphire>,
+        <iceandfire:dragonscales_silver>
+    ],
+    <ore:scaleDragonLightning> : [
+        <iceandfire:dragonscales_electric>,
+        <iceandfire:dragonscales_black>,
+        <iceandfire:dragonscales_sapphire>,
+        <iceandfire:dragonscales_copper>
+    ]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {

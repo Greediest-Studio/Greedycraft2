@@ -624,3 +624,8 @@ RecipeUtil.addShaped("nether_eye", <elementalend:nether_eye>, [
     [<ore:gemRime>, <minecraft:ender_eye>, <ore:gemRime>],
     [<divinerpg:purple_blaze>, <ore:dustNetherite>, <divinerpg:purple_blaze>]
 ]);
+RecipeUtil.addShaped("mixed_dragonbone_block", <additions:dragonbone_block_mixed>, [
+    [<ore:boneDragonFire>, <ore:boneDragonFire>, <ore:boneDragonFire>],
+    [<ore:boneDragonIce>, <ore:boneDragonIce>, <ore:boneDragonIce>],
+    [<ore:boneDragonLightning>, <ore:boneDragonLightning>, <ore:boneDragonLightning>]
+]);

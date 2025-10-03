@@ -32,21 +32,16 @@ Insolator.removeRecipe(<appliedenergistics2:crystal_seed>, <minecraft:glowstone_
 Insolator.removeRecipe(<appliedenergistics2:crystal_seed:600>, <minecraft:glowstone_dust>);
 Insolator.removeRecipe(<appliedenergistics2:crystal_seed:1200>, <minecraft:glowstone_dust>);
 
-Insolator.addRecipe(<thebetweenlands:spirit_fruit>,
- <thebetweenlands:sapling_spirit_tree>, 
- <thebetweenlands:sap_spit>*4, 
- 25000, 
- <thebetweenlands:sapling_spirit_tree>, 
- 105);
- 
-Insolator.addRecipe(<thebetweenlands:forbidden_fig>,
- <thebetweenlands:forbidden_fig>, 
- <thebetweenlands:sap_spit>*4, 
- 25000, 
- <thebetweenlands:forbidden_fig>, 
- 15);
+Insolator.addRecipe(<thebetweenlands:spirit_fruit>, <thebetweenlands:sapling_spirit_tree>, <thebetweenlands:sap_spit> * 4, 25000, <thebetweenlands:sapling_spirit_tree>, 105);
+Insolator.addRecipe(<thebetweenlands:forbidden_fig>, <thebetweenlands:forbidden_fig>, <thebetweenlands:sap_spit> * 4, 25000, <thebetweenlands:forbidden_fig>, 15);
 
 Pulverizer.addRecipe(<additions:purifying_dust> * 8, <botania:specialflower>.withTag({type: "puredaisy"}), 600);
+Pulverizer.addRecipe(<additions:dragonbone_dust> * 6, <iceandfire:dragonbone>, 3000);
+Pulverizer.addRecipe(<additions:dragonbone_dust> * 54, <iceandfire:dragon_bone_block>, 13500);
+Pulverizer.addRecipe(<additions:dragonbone_dust> * 36, <iceandfire:dragon_bone_wall>, 9000);
+Pulverizer.addRecipe(<additions:dragonbone_dust> * 18, <iceandfire:dragon_skull>, 4500);
+Pulverizer.addRecipe(<additions:dragonbone_dust> * 18, <iceandfire:dragon_skull:1>, 4500);
+Pulverizer.addRecipe(<additions:dragonbone_dust> * 18, <iceandfire:dragon_skull:2>, 4500);
 
 InductionSmelter.addRecipe(<additions:glowing_signalum_ingot>, <additions:glowing_signalum_dust>, <minecraft:sand>, 4000);
 InductionSmelter.addRecipe(<minecraft:dye:15>, <additions:cytosinite_ingot>, <mekanism:otherdust>, 1000000, <additions:uracilite_ingot>, 2);

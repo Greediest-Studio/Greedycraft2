@@ -224,6 +224,7 @@ createLootRecipe("aeonsteel_loot", [
     <minecraft:end_crystal> * 4
 ], [
     <minecraft:dragon_egg> * 2,
+    <bountifulbaubles:enderdragonscale>
 ], 25, 6.0E4 as long, 0);
 
 //毁灭者
