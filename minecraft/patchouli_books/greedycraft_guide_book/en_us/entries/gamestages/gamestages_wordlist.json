@@ -5,7 +5,55 @@
     "pages":[
     {
         "type":"text",
+        "text":"在这里你可以找到贪婪2中所有维度，以及各种$(c)传送门$()的$(2)搭建方式"
+    },
+    {
+        "type":"text",
         "text":"$(c)overworld$(): $(2)主世界$()(dim 0)$(li)$()你一出生就在这里"
+    },
+    {
+        "type":"multiblock",
+        "text": "如图，你需要$(6)黑曜石$()*14",
+        "symmertrical": true,
+        "multiblock": {
+            "mapping":{
+                "0":"minecraft:obsidian",
+                "A":"minecraft:obsidian"
+            },
+            "pattern":[
+                [
+                    "0AAA"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "AAAA"
+                ]
+            ]
+        }
+    },
+    {
+        "type":"spotlight",
+        "item":"minecraft:portal",
+        "link_recipe":true,
+        "text":"$(c)the nether$()$(2)下界$()(Dim -1)$(li)搭建出左图结构，手拿$(6)打火石$()右键此多方块结构即可激活下界传送门$(br)ps:别贪小便宜省四个角的黑曜石"
+    },
+    {
+        "type":"spotlight",
+        "item":"minecraft:end_portal_frame",
+        "link_recipe":true,
+        "text":"$(c)the end$(): $()$(2)末地$()(Dim 1)$(li)$()拿着$(6)末影之眼$()右键，跟着末影之眼，找到末地要塞$(li)$()你需要集齐以下$(3)12种$()$(6)末影之眼$()，分别放入$(3)12种$()$(6)末地传送门框架$()中，即可开启末地传送门。$(li)$(4)燋燎之眼$()$(li)$(1)潮汐之眼$()$(li)$(e)雷霆之眼$()$(li)$(2)自然之眼$()$(li)$(7)调谐之眼$()$(li)$(0)混乱之眼$()"
+    },
+    {
+        "type":"text",
+        "text":"续：$(li)$(d)天境之眼$()$(li)$(6)下界之眼$()$(li)$(5)奥秘之眼$()$(li)$(8)渊虚之眼$()$(li)$(3)霜冻之眼$()$(li)$(6)沙丘之眼$()"
     },
     {
         "type":"spotlight",
@@ -30,12 +78,6 @@
         "item":"gct_ores:rng_relinquisher",
         "link_recipe":true,
         "text":"$(c)the nowhere$(): $(2)无名之地$()(Dim 101)$(li)你需要用到$(6)随机遗弃器$()在末地原点(0 0 0)右键即可传送至无名之地"
-    },
-    {
-        "type":"spotlight",
-        "item":"minecraft:ender_eye",
-        "link_recipe":true,
-        "text":"$(c)the end$(): $()$(2)末地$()(Dim 1)$(li)$()拿着$(6)末影之眼$()右键，跟着末影之眼，找到末地要塞，用末影之眼塞满$(6)末地传送门$()即可开启末地传送门"
     },
     {
             "type":"multiblock",
