@@ -1,0 +1,16 @@
+{
+  "item_block": {
+    "name": "§b凛冰矿石",
+    "ore_dict": "oreCryotheum",
+    "type": "additions:block_simple"
+  },
+  "name": "§b凛冰矿石",
+  "material": "minecraft:stone",
+  "hardness": 7.5,
+  "resistance": 4000.0,
+  "harvest_level": 6,
+  "harvest_tool": "pickaxe",
+  "light_level": 5,
+  "xp_dropped_max": 10,
+  "type": "additions:simple"
+}
