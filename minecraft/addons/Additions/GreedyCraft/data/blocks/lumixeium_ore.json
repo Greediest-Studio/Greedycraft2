@@ -1,0 +1,16 @@
+{
+  "item_block": {
+    "name": "§6曙光矿石",
+    "ore_dict": "oreLumixeium",
+    "type": "additions:block_simple"
+  },
+  "name": "§6曙光矿石",
+  "material": "minecraft:stone",
+  "hardness": 10.0,
+  "resistance": 4000.0,
+  "harvest_level": 13,
+  "harvest_tool": "pickaxe",
+  "light_level": 15,
+  "xp_dropped_max": 10,
+  "type": "additions:simple"
+}

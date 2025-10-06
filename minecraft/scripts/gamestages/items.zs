@@ -184,7 +184,11 @@ GameStagesUtil.stageFusionMatrix.addIngredients([
     <ore:ingotEucite>,
     <ore:nuggetEucite>,
     <ore:blockEucite>,
-    <ore:dustEucite>
+    <ore:dustEucite>,
+    <ore:orePyrotheum>,
+    <ore:oreCryotheum>,
+    <ore:oreAerotheum>,
+    <ore:orePetrotheum>
 ], true);
 
 
@@ -1838,7 +1842,11 @@ GameStagesUtil.stageFinal.addIngredients([
     <additions:ender_complex>,
     <ore:oreAmythest>,
     <ore:gemAmythest>,
-    <ore:blockAmythest>
+    <ore:blockAmythest>,
+    <ore:oreLumixeium>,
+    <ore:oreNoxexeum>,
+    <ore:oreTonitruium>,
+    <ore:oreNaturaeum>
 ], true);
 
 GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators"]);

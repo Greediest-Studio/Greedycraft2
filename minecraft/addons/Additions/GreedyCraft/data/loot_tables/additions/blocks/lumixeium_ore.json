@@ -1,0 +1,66 @@
+{
+  "preset_block": "additions:lumixeium_ore",
+  "preset_dropStack": {
+    "item": "gct_mobs:lumixeium_dust"
+  },
+  "preset_dropMin": 3,
+  "preset_dropMax": 1,
+  "preset_fortunable": true,
+  "preset_silkTouchable": true,
+  "pools": [
+    {
+      "name": "item_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "gct_mobs:lumixeium_dust",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 1
+              }
+            },
+            {
+              "function": "lootoverhaul:fortune_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "lootoverhaul:not",
+          "conditions": [
+            {
+              "condition": "lootoverhaul:silk_touch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "silk_touch_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:lumixeium_ore",
+          "weight": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "lootoverhaul:silk_touch"
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_item_drop"
+}

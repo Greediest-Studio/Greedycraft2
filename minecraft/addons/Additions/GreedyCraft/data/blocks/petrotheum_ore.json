@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "§b地岩矿石",
+    "ore_dict": "orePetrotheum",
+    "type": "additions:block_simple"
+  },
+  "name": "§b地岩矿石",
+  "material": "minecraft:stone",
+  "hardness": 7.5,
+  "resistance": 4000.0,
+  "harvest_level": 6,
+  "harvest_tool": "pickaxe",
+  "xp_dropped_max": 10,
+  "type": "additions:simple"
+}
