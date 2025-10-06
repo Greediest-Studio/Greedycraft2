@@ -30,7 +30,7 @@ MachineModifier.setMaxThreads("elysia_grinder", 8);
 MachineModifier.setInternalParallelism("elysia_grinder", 4);
 MachineModifier.setMaxParallelism("elysia_grinder", 65536);
 
-MMEvents.onControllerGUIRender("elysia_vaporizer", function(event as ControllerGUIRenderEvent) {
+MMEvents.onControllerGUIRender("elysia_grinder", function(event as ControllerGUIRenderEvent) {
     var info as string[] = [
         "§e///大型搅拌单元控制面板///",
         "§a机器名称：§eELYSIA单元 - 大型搅拌单元"
