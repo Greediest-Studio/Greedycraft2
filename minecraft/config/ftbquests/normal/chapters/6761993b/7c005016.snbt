@@ -3,6 +3,9 @@
 	x: 2.5d,
 	y: 7.5d,
 	description: "击杀boss：至暗之日",
+	text: [
+		"只有最后使用原版武器击杀才会掉落战利品"
+	],
 	dependencies: [
 		"8cab50b3"
 	],
