@@ -381,6 +381,7 @@ aether.addItemUpgradeOutput(<aether_legacy:zanite_gemstone>, STAINLESS, 0.035);
 aether.addItemUpgradeOutput(<additions:asgardium_ore>, DURASTEEL, 0.02);
 //恒钢级
 aether.addItemUpgradeOutput(<gct_mobs:gravity_scrap>, AEONSTEEL, 0.001);
+aether.addItemUpgradeOutput(<thermalfoundation:material:1026>, AEONSTEEL, 0.01);
 //炫钢级
 aether.addItemUpgradeOutput(<additions:aetherium_ore>, CHROMASTEEL, 0.005);
 //终焉级
@@ -473,6 +474,8 @@ iceika.addItemOutput(<divinerpg:terran_shards>).setChance(0.04).setIgnoreOutputC
 iceika.addItemOutput(<divinerpg:molten_shards>).setChance(0.04).setIgnoreOutputCheck(true);
 //耐钢级
 iceika.addItemUpgradeOutput(<additions:iciricium_ore>, DURASTEEL, 0.01);
+//恒钢级
+iceika.addItemUpgradeOutput(<thermalfoundation:material:1025>, AEONSTEEL, 0.01);
 iceika.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 iceika.setMaxThreads(1).build();
 
@@ -495,6 +498,8 @@ aurorian.addItemUpgradeOutput(<theaurorian:crystal>, STAINLESS, 0.03);
 aurorian.addItemUpgradeOutput(<theaurorian:scrapaurorianite>, DURASTEEL, 0.02);
 aurorian.addItemUpgradeOutput(<theaurorian:scrapumbra>, DURASTEEL, 0.02);
 aurorian.addItemUpgradeOutput(<theaurorian:scrapcrystalline>, DURASTEEL, 0.02);
+//恒钢级
+aurorian.addItemUpgradeOutput(<thermalfoundation:material:1027>, AEONSTEEL, 0.01);
 aurorian.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 aurorian.setMaxThreads(1).build();
 
@@ -514,6 +519,7 @@ boiling.addDimensionInput(822);
 boiling.addItemUpgradeOutput(<additions:flamium_ore>, AEONSTEEL, 0.04);
 boiling.addItemUpgradeOutput(<additions:sorrowium_ore>, AEONSTEEL, 0.02);
 boiling.addItemUpgradeOutput(<journey:blazium>, AEONSTEEL, 0.03);
+boiling.addItemUpgradeOutput(<thermalfoundation:material:1024>, AEONSTEEL, 0.01);
 boiling.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 boiling.setMaxThreads(1).build();
 
@@ -525,6 +531,8 @@ euca.addItemUpgradeOutput(<journey:celestiumore>, CHROMASTEEL, 0.03);
 euca.addItemUpgradeOutput(<journey:koriteore>, CHROMASTEEL, 0.03);
 euca.addItemUpgradeOutput(<journey:mekyumore>, CHROMASTEEL, 0.03);
 euca.addItemUpgradeOutput(<journey:storonore>, CHROMASTEEL, 0.03);
+//终焉级
+euca.addItemUpgradeOutput(<gct_mobs:lumixeium_dust>, FINALLIUM, 0.01);
 euca.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 euca.setMaxThreads(1).build();
 
@@ -536,6 +544,7 @@ depth.addItemUpgradeOutput(<journey:flairiumore>, CHROMASTEEL, 0.03);
 depth.addItemUpgradeOutput(<journey:desore>, CHROMASTEEL, 0.03);
 //终焉级
 depth.addItemUpgradeOutput(<additions:barite_ore>, CHROMASTEEL, 0.04);
+depth.addItemUpgradeOutput(<gct_mobs:noxexeum_dust>, FINALLIUM, 0.01);
 depth.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 depth.setMaxThreads(1).build();
 
@@ -545,6 +554,8 @@ corba.addDimensionInput(824);
 //炫钢级
 corba.addItemUpgradeOutput(<journey:orbaditeore>, CHROMASTEEL, 0.03);
 corba.addItemUpgradeOutput(<journey:gorbitegem>, CHROMASTEEL, 0.04);
+//终焉级
+corba.addItemUpgradeOutput(<gct_mobs:naturaeum_dust>, FINALLIUM, 0.01);
 corba.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 corba.setMaxThreads(1).build();
 
@@ -561,6 +572,8 @@ cloudia.addEnergyPerTickInput(200);
 cloudia.addDimensionInput(826);
 //寰宇级
 cloudia.addItemUpgradeOutput(<journey:lunitechunk>, COSMILITE, 0.04);
+//终焉级
+cloudia.addItemUpgradeOutput(<gct_mobs:tonitruium_dust>, FINALLIUM, 0.01);
 cloudia.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 cloudia.setMaxThreads(1).build();
 
