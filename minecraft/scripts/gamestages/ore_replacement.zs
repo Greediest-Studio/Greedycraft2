@@ -96,6 +96,11 @@ GameStagesUtil.stageSkilledEngineer.addOreReplacement(<netherendingores:ore_neth
 GameStagesUtil.stageSkilledEngineer.addOreReplacement(<thermalfoundation:ore:6>, <minecraft:stone>, false);
 GameStagesUtil.stageSkilledEngineer.addOreReplacement(<thermalfoundation:ore:7>, <minecraft:stone>, false);
 
+GameStagesUtil.stageFusionMatrix.addOreReplacement(<additions:pyrotheum_ore>, <journey:scorched_rubble>, false);
+GameStagesUtil.stageFusionMatrix.addOreReplacement(<additions:cryotheum_ore>, <divinerpg:frozen_stone>, false);
+GameStagesUtil.stageFusionMatrix.addOreReplacement(<additions:aerotheum_ore>, <aether_legacy:holystone>, false);
+GameStagesUtil.stageFusionMatrix.addOreReplacement(<additions:petrotheum_ore>, <theaurorian:aurorianstone>, false);
+
 GameStagesUtil.stageWitherSlayer.addOreReplacement(<journey:hellstoneore>, <minecraft:netherrack>, false);
 
 GameStagesUtil.stageChaoticDominator.addOreReplacement(<gct_mobs:gravity_debris>, <aether_legacy:holystone>, false);
@@ -157,3 +162,7 @@ GameStagesUtil.stageCosmic.addOreReplacement(<additions:ttwo_ore>, <minecraft:be
 GameStagesUtil.stageFinal.addOreReplacement(<additions:izumium_ore>, <thebetweenlands:betweenstone>, false);
 GameStagesUtil.stageFinal.addOreReplacement(<additions:arimite_ore>, <additions:astral_aquamarine_ore>, false);
 GameStagesUtil.stageFinal.addOreReplacement(<iceandfire:amythest_ore>, <minecraft:stone>, false);
+GameStagesUtil.stageFinal.addOreReplacement(<additions:lumixeium_ore>, <journey:eucastone>, false);
+GameStagesUtil.stageFinal.addOreReplacement(<additions:noxexeum_ore>, <journey:depthsstone>, false);
+GameStagesUtil.stageFinal.addOreReplacement(<additions:tonitruium_ore>, <journey:cloudiarock>, false);
+GameStagesUtil.stageFinal.addOreReplacement(<additions:naturaeum_ore>, <journey:corbastone>, false);
