@@ -1,0 +1,165 @@
+{
+    "dependencies": "additions",
+    "populate": {
+        "pyrotheum": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:pyrotheum_ore",
+                    "weight": 100
+                }],
+                "material": "journey:scorched_rubble",
+                "cluster-size": 2
+            },
+            "min-height": 1,
+            "max-height": 48,
+            "cluster-count": 2,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [822]
+            }
+        },
+        "cryotheum": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:cryotheum_ore",
+                    "weight": 100
+                }],
+                "material": "divinerpg:frozen_stone",
+                "cluster-size": 2
+            },
+            "min-height": 1,
+            "max-height": 64,
+            "cluster-count": 2,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [425]
+            }
+        },
+        "aerotheum": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:aerotheum_ore",
+                    "weight": 100
+                }],
+                "material": "aether_legacy:holystone",
+                "cluster-size": 2
+            },
+            "min-height": 10,
+            "max-height": 90,
+            "cluster-count": 2,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [173]
+            }
+        },
+        "petrotheum": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:petrotheum_ore",
+                    "weight": 100
+                }],
+                "material": "theaurorian:aurorianstone",
+                "cluster-size": 2
+            },
+            "min-height": 1,
+            "max-height": 64,
+            "cluster-count": 2,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [645]
+            }
+        },
+        "lumixeium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:lumixeium_ore",
+                    "weight": 100
+                }],
+                "material": "journey:eucastone",
+                "cluster-size": 2
+            },
+            "min-height": 10,
+            "max-height": 90,
+            "cluster-count": 2,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [820]
+            }
+        },
+        "noxexeum": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:noxexeum_ore",
+                    "weight": 100
+                }],
+                "material": "journey:depthsstone",
+                "cluster-size": 2
+            },
+            "min-height": 90,
+            "max-height": 128,
+            "cluster-count": 2,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [821]
+            }
+        },
+        "tonitruium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:tonitruium_ore",
+                    "weight": 100
+                }],
+                "material": "journey:cloudiarock",
+                "cluster-size": 2
+            },
+            "min-height": 1,
+            "max-height": 255,
+            "cluster-count": 5,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [826]
+            }
+        },
+        "naturaeum": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:naturaeum_ore",
+                    "weight": 100
+                }],
+                "material": "journey:corbastone",
+                "cluster-size": 2
+            },
+            "min-height": 1,
+            "max-height": 64,
+            "cluster-count": 2,
+            "retrogen": "true",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [824]
+            }
+        }
+    }
+}
