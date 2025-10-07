@@ -280,6 +280,20 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
         }
     }
 
+    //laser_gun_mode
+    if (!isNull(player.currentItem)) {
+        var item = player.currentItem;
+        if ((item.definition.id == "plustic:laser_gun") && !isNull(item.tag.Mode) && item.tag.Mode == 1) {
+            item.mutable().updateTag(item.tag.deepUpdate({Mode: 0}, {Mode: OVERWRITE}));
+        }
+    }
+    if (!isNull(player.offHandHeldItem)) {
+        var item = player.offHandHeldItem;
+        if ((item.definition.id == "plustic:laser_gun") && !isNull(item.tag.Mode) && item.tag.Mode == 1) {
+            item.mutable().updateTag(item.tag.deepUpdate({Mode: 0}, {Mode: OVERWRITE}));
+        }
+    }
+
     //test
     if (!isNull(player.currentItem)) {
         var item = player.currentItem;
