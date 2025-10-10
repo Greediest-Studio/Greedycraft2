@@ -23,6 +23,7 @@ import mods.modularmachinery.IMachineController;
 import mods.modularmachinery.FactoryRecipeFinishEvent;
 import mods.modularmachinery.FactoryRecipeStartEvent;
 import mods.modularmachinery.FactoryRecipeThread;
+import mods.modularmachinery.RecipeCheckEvent;
 import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
@@ -30,18 +31,24 @@ MachineModifier.setMaxThreads("unitcell_builder", 1);
 MachineModifier.setMaxParallelism("unitcell_builder", 256);
 MachineModifier.setInternalParallelism("unitcell_builder", 1);
 
-MachineModifier.addSmartInterfaceType("unitcell_builder", SmartInterfaceType.create("模式", 0.0f));
+MachineModifier.addSmartInterfaceType("unitcell_builder", SmartInterfaceType.create("模式", 0.0f).setHeaderInfo("§e///运行模式设置///"));
 
 MachineModifier.addCoreThread("unitcell_builder", FactoryRecipeThread.createCoreThread("星辰输入模块"));
 
 MMEvents.onControllerGUIRender("unitcell_builder", function(event as ControllerGUIRenderEvent) {
     var info as string[] = [
         "§a///晶胞重塑器控制面板///",
-        "§a机器名称：§eLV3 - 晶胞重塑器",
-        "§a尺寸参数：§e" ~ (event.controller.getSize() as string),
-        "§a纯度参数：§e" ~ (event.controller.getPurity() as string),
-        "§a抛光参数：§e" ~ (event.controller.getCollective() as string)
+        "§a机器名称：§eLV3 - 晶胞重塑器"
     ];
+
+    info += "§a尺寸参数：§e" ~ (event.controller.getSize() as string) ~ "§a，输出后为 §e0";
+    info += "§a纯度参数：§e" ~ (event.controller.getPurity() as string) ~ "§a，输出后为 §e" ~ (((event.controller.getPurity() - 10000 < 0) ? 0 : (event.controller.getPurity() - 10000)) as string);
+    info += "§a抛光参数：§e" ~ (event.controller.getCollective() as string) ~ "§a，输出后为 §e" ~ (((event.controller.getCollective() - 10000 < 0) ? 0 : (event.controller.getCollective() - 10000)) as string);
+    val cc = (Math.log10(event.controller.getSize() as double == 0.0d ? 1.0d : event.controller.getSize() as double) * 100) as int;
+    val cd = Math.sqrt(event.controller.getPurity() as double) as int > 100 ? 100 : Math.sqrt(event.controller.getPurity() as double) as int;
+    val pg = Math.sqrt(event.controller.getCollective() as double) as int > 100 ? 100 : Math.sqrt(event.controller.getCollective() as double) as int;
+    info += "§a输出水晶石数据：§e" ~ "§a尺寸：§e" ~ cc ~ "，§a纯度：§e" ~ cd ~ "，§a抛光：§e" ~ pg;
+
     event.extraInfo = info;
 });
 
@@ -246,6 +253,12 @@ for item in sizeItems {
     if (item.items.length > 0) {
         RecipeBuilder.newBuilder("as_z_size_" + item.items[0].definition.id + item.items[0].metadata, "unitcell_builder", 1)
             .addItemInput(item)
+            .addPreCheckHandler(function(event as RecipeCheckEvent) {
+                var controller as IMachineController = event.controller;
+                if (controller.getSize() >= sizeMax[item] as double) {
+                    event.setFailed("§e当前材料无法继续添加尺寸参数");
+                }
+            })
             .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
                 var controller as IMachineController = event.controller;
                 if (controller.getSize() + sizeItems[item] as double > sizeMax[item] as double) {
@@ -256,12 +269,6 @@ for item in sizeItems {
             })
             .setThreadName("星辰输入模块")
             .addRecipeTooltip("增加" + sizeItems[item] + "点尺寸参数，上限为" + sizeMax[item] + "点")
-            .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
-                var controller as IMachineController = event.controller;
-                if (controller.getSize() >= sizeMax[item] as double) {
-                    event.canceled = true;
-                }
-            })
             .setParallelized(false)
             .build();
     }
