@@ -397,7 +397,6 @@ GameStagesUtil.stageNether.addIngredients([
     <ore:dustAqualite>,
     <ore:oreAqualite>,
     <ore:blockAqualite>,
-    <minecraft:ghast_tear>,
     <ore:boneWithered>,
     <netherex:wither_bone>,
     <darkutils:material>,
