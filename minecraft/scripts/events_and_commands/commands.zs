@@ -426,7 +426,7 @@ suicideCommand.execute = function(command, server, sender, args) {
     var player as IPlayer = CommandUtils.getCommandSenderAsPlayer(sender) as IPlayer;
     if (!isNull(player)) {
         player.clearActivePotions();
-        server.commandManager.executeCommand(server, "/kill " + player.name);
+        player.health = 0.0f;
     }
 };
 suicideCommand.register();
