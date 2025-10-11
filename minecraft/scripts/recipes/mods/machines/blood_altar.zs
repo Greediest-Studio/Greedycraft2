@@ -244,17 +244,18 @@ MMEvents.onMachinePreTick("blood_altar", function(event as MachineTickEvent) {
         event.controller.customData = event.controller.customData.update({speed : LPperSecond as int});
     }
     //玩家LP转移
+    /*
     if (!world.isRemote() && event.controller.getBlocksInPattern(<additions:blood_rune_personal>) > 0 && event.controller.getAltarMode() == 2) {
         var speed as int = pow(2, (event.controller.getBlocksInPattern(<additions:blood_rune_personal>) - 1) as double) as int;
         var uuid as string = event.controller.ownerUUID;
         var player as IPlayer = server.getPlayerByUUID(uuid);
         var freeEssenceSpace as int = 2147483647 - player.soulNetwork.currentEssence;
         if (!isNull(player) && freeEssenceSpace > 0) {
-            var transfer as int = min(min(event.controller.getAltarLP(), speed), freeEssenceSpace);
+            var transfer as int = min(min(event.controller.getAltarLP(), speed), freeEssenceSpace) > 0 ? min(min(event.controller.getAltarLP(), speed), freeEssenceSpace) : 0;
             player.soulNetwork.currentEssence += transfer as int;
             event.controller.customData = event.controller.customData.update({LP : event.controller.getAltarLP() - (transfer as long)});
         }
-    }
+    } */
 });
 
 MMEvents.onControllerGUIRender("blood_altar", function(event as ControllerGUIRenderEvent) {
@@ -272,7 +273,7 @@ MMEvents.onControllerGUIRender("blood_altar", function(event as ControllerGUIRen
     var modeName as string[int] = {
         0 : "由外界输入",
         1 : "向外界输出",
-        2 : "转移到玩家网络（需要玩家符文）"
+        2 : "转移到玩家网络"
     };
     var info as string[] = [
         "§a///血之祭坛控制面板///",
@@ -280,15 +281,53 @@ MMEvents.onControllerGUIRender("blood_altar", function(event as ControllerGUIRen
         "§a祭坛等级：§e" ~ levelName[event.controller.getAltarLevel()] as string,
         "§a祭坛容量：§e" ~ event.controller.getAltarLP() as string ~ "/" ~ event.controller.getAltarCapacity() as string,
         "§a祭坛模式：§e" ~ modeName[event.controller.getAltarMode()] as string,
-        "§a工作效率：§e" ~ event.controller.getAltarSpeed() as string ~ "每20tick",
-        "§a转位效率：§e" ~ ((pow(1.2, (event.controller.getBlocksInPattern(<bloodmagic:blood_rune:5>) as double)) * 20) as int as string) ~ "每" ~ ((20 - event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int) > 1 ? (20 - event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int) : 1 as string) ~ "tick",
-        "§d增容符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:6>) as string ~ "     §d速度符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:1>) as string,
-        "§d超容符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:7>) as string ~ "     §d转位符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:5>) as string,
-        "§d促进符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as string ~ "     §d效率符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:2>) as string,
-        "§d线程符文§e * " ~ event.controller.getBlocksInPattern(<additions:blood_rune_thread>) as string ~ "     §d节流符文§e * " ~ event.controller.getBlocksInPattern(<additions:blood_rune_economy>) as string,
-        "§d净化符文§e * " ~ event.controller.getBlocksInPattern(<additions:blood_rune_purify>) as string ~ "     §d宝珠符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>) as string,
-        "§d玩家符文§e * " ~ event.controller.getBlocksInPattern(<additions:blood_rune_personal>) as string
+        "§a工作效率：§e" ~ event.controller.getAltarSpeed() as string ~ "mB每20tick",
+        "§a转位效率：§e" ~ ((pow(1.2, (event.controller.getBlocksInPattern(<bloodmagic:blood_rune:5>) as double)) * 20) as int as string) ~ "mB每" ~ ((20 - event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int) > 1 ? (20 - event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int) : 1 as string) ~ "tick",
+        "§d增容符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:6>) as string ~ "     §d速度符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:1>) as string ~ "     §d超容符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:7>) as string,
+        "§d转位符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:5>) as string ~ "     §d促进符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as string ~ "     §d效率符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:2>) as string,
+        "§d线程符文§e * " ~ event.controller.getBlocksInPattern(<additions:blood_rune_thread>) as string ~ "     §d节流符文§e * " ~ event.controller.getBlocksInPattern(<additions:blood_rune_economy>) as string ~ "     §d净化符文§e * " ~ event.controller.getBlocksInPattern(<additions:blood_rune_purify>) as string,
+        "§d宝珠符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>) as string ~ "     §d玩家符文§e * " ~ event.controller.getBlocksInPattern(<additions:blood_rune_personal>) as string
     ];
+
+    val sd = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:1>);
+    var zw = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:5>);
+    val bz = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>);
+    val cj = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>);
+    var wj = event.controller.getBlocksInPattern(<additions:blood_rune_personal>);
+    var player = server.getPlayerByUUID(event.controller.ownerUUID);
+    var orbTier = player.soulNetwork.orbTier;
+    var capacity = [0,5000,25000,150000,1000000,10000000,30000000];
+    var maxcapacity = ((1.0f + 0.02f * bz) * capacity[orbTier]) as int;
+
+    var maxtransform = (20.0f * (1 + (cj > 19 ? 19 : cj)) as float * (1.0f + sd as float / 5) as float * pow(1.2, zw) * pow(2.0, wj)) as int;
+    var transform = 0;
+
+    if (maxtransform < 0) {
+        maxtransform = 2147483647;
+        info += "§d警告：LP交互速率已溢出";
+    }
+    if (maxcapacity < 0) {
+        maxcapacity = 2147483647;
+        info += "§d警告：玩家LP网络最大容量已溢出";
+    }
+
+    if (event.controller.getAltarLP() > maxtransform as long) {
+        transform = maxtransform;
+    } else {
+        transform = event.controller.getAltarLP() as int;
+    }
+    if (transform > maxcapacity - player.soulNetwork.currentEssence) {
+        transform = maxcapacity - player.soulNetwork.currentEssence;
+    }
+    if (transform < 0) {
+        transform = 0;
+        info += "§d警告：玩家当前LP网络已超出上限";
+    }
+
+    info += "§aLP输出至玩家LP网络最大速率(mB/s)：§e" ~ maxtransform;
+    info += "§aLP输出至玩家LP网络实际速率(mB/s)：§e" ~ transform;
+    info += "§a玩家LP网络最大容量：§e" ~ maxcapacity ~ "  §a玩家当前LP网络§e：" ~ player.soulNetwork.currentEssence;
+
     event.extraInfo = info;
 });
 
@@ -366,23 +405,62 @@ RecipeBuilder.newBuilder("purify", "blood_altar", 1)
     .setThreadName("源质净化模块")
     .build();
 
-RecipeBuilder.newBuilder("orb", "blood_altar", 1)
-    .setParallelized(false)
+RecipeBuilder.newBuilder("orb", "blood_altar", 20)
     .addPreCheckHandler(function(event as RecipeCheckEvent) {
-        if (event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>) < 1) {
-            event.setFailed("缺少宝珠符文");
+        if (event.controller.getBlocksInPattern(<additions:blood_rune_personal>) < 1) {
+            event.setFailed("缺少玩家符文");
+        }
+        var capacity = [0,5000,25000,150000,1000000,10000000,30000000];
+        var maxcapacity = ((1.0f + 0.02f * event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>)) * capacity[server.getPlayerByUUID(event.controller.ownerUUID).soulNetwork.orbTier]) as int;
+        if (maxcapacity < 0) {
+            maxcapacity = 2147483647;
+        }
+        if (server.getPlayerByUUID(event.controller.ownerUUID).soulNetwork.currentEssence >= maxcapacity) {
+            event.setFailed("玩家LP网络已满");
         }
     })
-    .addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
-        if (event.controller.getAltarLP() < 1) {
-            event.preventProgressing("生命源质不足，需要至少1点生命源质");
-        }
-    })
+    .addItemInput(<bloodmagic:blood_orb>).setChance(0.0f).setPreViewNBT({orb: "bloodmagic:weak", display: {Lore: ["任意等级气血宝珠均可"]}})
+    .setParallelized(false)
     .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
-        event.controller.customData = event.controller.customData.update({LP : event.controller.getAltarLP() - 1 as long});
+        val sd = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:1>);
+        var zw = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:5>);
+        val bz = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>);
+        val cj = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>);
+        var wj = event.controller.getBlocksInPattern(<additions:blood_rune_personal>);
+        var player = server.getPlayerByUUID(event.controller.ownerUUID);
+        var orbTier = player.soulNetwork.orbTier;
+        var capacity = [0,5000,25000,150000,1000000,10000000,30000000];
+        var maxcapacity = ((1.0f + 0.02f * bz) * capacity[orbTier]) as int;
+        var maxtransform = (20.0f * (1 + (cj > 19 ? 19 : cj)) as float * (1 + sd / 5) as float * pow(1.2, zw) * pow(2.0, wj)) as int;
+        var transform = 0;
+
+        if (maxtransform < 0) {
+            maxtransform = 2147483647;
+        }
+        if (maxcapacity < 0) {
+            maxcapacity = 2147483647;
+        }
+
+        if (event.controller.getAltarLP() > maxtransform as long) {
+            transform = maxtransform;
+        } else {
+            transform = event.controller.getAltarLP() as int;
+        }
+        if (transform > maxcapacity - player.soulNetwork.currentEssence) {
+            transform = maxcapacity - player.soulNetwork.currentEssence;
+        }
+        if (transform < 0) {
+            transform = 0;
+        }
+        if (player.soulNetwork.currentEssence < 0) {
+            player.soulNetwork.currentEssence = 0;
+        }
+
+        player.soulNetwork.currentEssence += transform;
+        event.controller.customData = event.controller.customData.update({LP : event.controller.getAltarLP() - transform as long});
     })
-    .addLifeEssenceOutput(1, false)
-    .addRecipeTooltip("§a此配方仅在祭坛上有宝珠符文时生效")
+    .addRecipeTooltip("§a向玩家LP网络输入生命源质,需至少一个玩家符文")
+    .addRecipeTooltip("§a输出速率为20*促进符文数*(1+0.2*速度符文数)*1.2^转位符文数*2^玩家符文数")
     .setThreadName("宝珠输出模块")
     .build();
 
