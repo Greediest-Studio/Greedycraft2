@@ -89,6 +89,9 @@ $expand IMachineController$getAltarSpeed() as int {
     }
 }
 
+val capacity = [0,5000,25000,150000,1000000,10000000,30000000,80000000];
+val orbname = ["未绑定气血宝珠","[虚弱]气血宝珠","[学徒]气血宝珠","[法师]气血宝珠","[导师]气血宝珠","[贤者]气血宝珠","[卓越]气血宝珠","[邪术]气血宝珠"];
+
 MMEvents.onMachinePreTick("blood_altar", function(event as MachineTickEvent) {
     var levelMap as int[string] = {
         "ONE" : 1,
@@ -296,7 +299,6 @@ MMEvents.onControllerGUIRender("blood_altar", function(event as ControllerGUIRen
     var wj = event.controller.getBlocksInPattern(<additions:blood_rune_personal>);
     var player = server.getPlayerByUUID(event.controller.ownerUUID);
     var orbTier = player.soulNetwork.orbTier;
-    var capacity = [0,5000,25000,150000,1000000,10000000,30000000];
     var maxcapacity = ((1.0f + 0.02f * bz) * capacity[orbTier]) as int;
 
     var maxtransform = (20.0f * (1 + (cj > 19 ? 19 : cj)) as float * (1.0f + sd as float / 5) as float * pow(1.2, zw) * pow(2.0, wj)) as int;
@@ -410,13 +412,15 @@ RecipeBuilder.newBuilder("orb", "blood_altar", 20)
         if (event.controller.getBlocksInPattern(<additions:blood_rune_personal>) < 1) {
             event.setFailed("缺少玩家符文");
         }
-        var capacity = [0,5000,25000,150000,1000000,10000000,30000000];
         var maxcapacity = ((1.0f + 0.02f * event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>)) * capacity[server.getPlayerByUUID(event.controller.ownerUUID).soulNetwork.orbTier]) as int;
         if (maxcapacity < 0) {
             maxcapacity = 2147483647;
         }
         if (server.getPlayerByUUID(event.controller.ownerUUID).soulNetwork.currentEssence >= maxcapacity) {
             event.setFailed("玩家LP网络已满");
+        }
+        if (!(event.controller.getAltarMode() == 2)) {
+            event.setFailed("未调整至<转移到玩家网络>模式");
         }
     })
     .addItemInput(<bloodmagic:blood_orb>).setChance(0.0f).setPreViewNBT({orb: "bloodmagic:weak", display: {Lore: ["任意等级气血宝珠均可"]}})
@@ -429,7 +433,66 @@ RecipeBuilder.newBuilder("orb", "blood_altar", 20)
         var wj = event.controller.getBlocksInPattern(<additions:blood_rune_personal>);
         var player = server.getPlayerByUUID(event.controller.ownerUUID);
         var orbTier = player.soulNetwork.orbTier;
-        var capacity = [0,5000,25000,150000,1000000,10000000,30000000];
+        var maxcapacity = ((1.0f + 0.02f * bz) * capacity[orbTier]) as int;
+        var maxtransform = (20.0f * (1 + (cj > 19 ? 19 : cj)) as float * (1 + sd / 5) as float * pow(1.2, zw) * pow(2.0, wj)) as int;
+        var transform = 0;
+
+        if (maxtransform < 0) {
+            maxtransform = 2147483647;
+        }
+        if (maxcapacity < 0) {
+            maxcapacity = 2147483647;
+        }
+
+        if (event.controller.getAltarLP() > maxtransform as long) {
+            transform = maxtransform;
+        } else {
+            transform = event.controller.getAltarLP() as int;
+        }
+        if (transform > maxcapacity - player.soulNetwork.currentEssence) {
+            transform = maxcapacity - player.soulNetwork.currentEssence;
+        }
+        if (transform < 0) {
+            transform = 0;
+        }
+        if (player.soulNetwork.currentEssence < 0) {
+            player.soulNetwork.currentEssence = 0;
+        }
+
+        player.soulNetwork.currentEssence += transform;
+        event.controller.customData = event.controller.customData.update({LP : event.controller.getAltarLP() - transform as long});
+    })
+    .addRecipeTooltip("§a向玩家LP网络输入生命源质,需至少一个玩家符文")
+    .addRecipeTooltip("§a输出速率为20*促进符文数*(1+0.2*速度符文数)*1.2^转位符文数*2^玩家符文数")
+    .setThreadName("宝珠输出模块")
+    .build();
+
+RecipeBuilder.newBuilder("orb1", "blood_altar", 20)
+    .addPreCheckHandler(function(event as RecipeCheckEvent) {
+        if (event.controller.getBlocksInPattern(<additions:blood_rune_personal>) < 1) {
+            event.setFailed("缺少玩家符文");
+        }
+        var maxcapacity = ((1.0f + 0.02f * event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>)) * capacity[server.getPlayerByUUID(event.controller.ownerUUID).soulNetwork.orbTier]) as int;
+        if (maxcapacity < 0) {
+            maxcapacity = 2147483647;
+        }
+        if (server.getPlayerByUUID(event.controller.ownerUUID).soulNetwork.currentEssence >= maxcapacity) {
+            event.setFailed("玩家LP网络已满");
+        }
+        if (!(event.controller.getAltarMode() == 2)) {
+            event.setFailed("未调整至<转移到玩家网络>模式");
+        }
+    })
+    .addItemInput(<forbiddenmagicre:eldritch_orb>).setChance(0.0f).setPreViewNBT({display: {Lore: ["任意等级气血宝珠均可"]}})
+    .setParallelized(false)
+    .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
+        val sd = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:1>);
+        var zw = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:5>);
+        val bz = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>);
+        val cj = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>);
+        var wj = event.controller.getBlocksInPattern(<additions:blood_rune_personal>);
+        var player = server.getPlayerByUUID(event.controller.ownerUUID);
+        var orbTier = player.soulNetwork.orbTier;
         var maxcapacity = ((1.0f + 0.02f * bz) * capacity[orbTier]) as int;
         var maxtransform = (20.0f * (1 + (cj > 19 ? 19 : cj)) as float * (1 + sd / 5) as float * pow(1.2, zw) * pow(2.0, wj)) as int;
         var transform = 0;

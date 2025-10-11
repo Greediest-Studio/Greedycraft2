@@ -30,6 +30,8 @@ import crafttweaker.chat.IChatMessage;
 import crafttweaker.world.IBlockAccess;
 import crafttweaker.command.ICommand;
 import crafttweaker.item.IItemStack;
+import crafttweaker.world.IWorld;
+import mods.zenutils.ICatenationBuilder;
 
 import native.c4.conarm.lib.armor.ArmorCore;
 
@@ -38,6 +40,11 @@ events.onPlayerRightClickItem(function(event as PlayerRightClickItemEvent) {
 if (!isNull(event.item) && !event.world.isRemote()) {
 
     var player as IPlayer = event.player;
+    
+    //orbTier fix
+    if (event.item.definition.id == "forbiddenmagicre:eldritch_orb") {
+        event.world.catenation().sleep(1).then(function(world as IWorld, context) {player.soulNetwork.orbTier = 7;}).start();
+    }
 
     //Store the dimension ID in the item tag
     if (event.item.definition.id == "additions:modular_dimensional_magnifier" && event.hand == "MAIN_HAND") {
