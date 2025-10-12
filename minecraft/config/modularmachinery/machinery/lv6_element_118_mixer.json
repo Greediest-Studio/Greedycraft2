@@ -1,0 +1,16 @@
+{
+    "registryname": "element_118_mixer",
+    "localizedname": "§4LV6 - 超元共振混合机(WIP)",
+    "requires-blueprint": false,
+    "failure-action": "still",
+    "color": "000000",
+    "parts": [
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "gct_ores:shalloite_block_chiseled@0"
+            ]
+        }
+    ]}

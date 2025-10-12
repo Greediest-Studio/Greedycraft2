@@ -166,3 +166,4 @@ GameStagesUtil.stageFinal.addOreReplacement(<additions:lumixeium_ore>, <journey:
 GameStagesUtil.stageFinal.addOreReplacement(<additions:noxexeum_ore>, <journey:depthsstone>, false);
 GameStagesUtil.stageFinal.addOreReplacement(<additions:tonitruium_ore>, <journey:cloudiarock>, false);
 GameStagesUtil.stageFinal.addOreReplacement(<additions:naturaeum_ore>, <journey:corbastone>, false);
+GameStagesUtil.stageFinal.addOreReplacement(<additions:breedum_ore>, <minecraft:end_stone>, false);

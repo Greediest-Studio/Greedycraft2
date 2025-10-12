@@ -218,3 +218,13 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:final_scythe>, [
 	[null, <bloodarsenal:base_item:1>, null, null, null, null, null], 
 	[<bloodarsenal:base_item:1>, null, null, null, null, null, null]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_ores:finallium_container>, [
+	[<gct_ores:shalloite_block>, <gct_ores:shalloite_block>, null, <ore:ingotOrderedMetal>, null, <gct_ores:shalloite_block>, <gct_ores:shalloite_block>], 
+	[<gct_ores:shalloite_block>, <additions:dragonbone_block_mixed>, <additions:dragonbone_block_mixed>, <ore:ingotFinallium>, <additions:dragonbone_block_mixed>, <additions:dragonbone_block_mixed>, <gct_ores:shalloite_block>], 
+	[null, <additions:dragonbone_block_mixed>, <gct_ores:shalloite_block>, <ore:stoneOrdered>, <gct_ores:shalloite_block>, <additions:dragonbone_block_mixed>, null], 
+	[<ore:ingotOrderedMetal>, <ore:ingotFinallium>, <ore:stoneOrdered>, <additions:dragonbone_block_mixed>, <ore:stoneOrdered>, <ore:ingotFinallium>, <ore:ingotOrderedMetal>], 
+	[null, <additions:dragonbone_block_mixed>, <gct_ores:shalloite_block>, <ore:stoneOrdered>, <gct_ores:shalloite_block>, <additions:dragonbone_block_mixed>, null], 
+	[<gct_ores:shalloite_block>, <additions:dragonbone_block_mixed>, <additions:dragonbone_block_mixed>, <ore:ingotFinallium>, <additions:dragonbone_block_mixed>, <additions:dragonbone_block_mixed>, <gct_ores:shalloite_block>], 
+	[<gct_ores:shalloite_block>, <gct_ores:shalloite_block>, null, <ore:ingotOrderedMetal>, null, <gct_ores:shalloite_block>, <gct_ores:shalloite_block>]
+]);
