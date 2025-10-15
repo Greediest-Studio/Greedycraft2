@@ -311,6 +311,12 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
             }
         }
     }
+    //Astral perk(StarAbility) fix
+    if (!isNull(player.getPerkLevel()) && player.getPerkLevel() > 25 && player.world.getWorldTime() as long % 20 == 0) {
+        player.sendRichTextStatusMessage(ITextComponent.fromString("§d你知道自己干了什么喵，改回去重进游戏喵"));
+        player.addPotionEffect(<potion:minecraft:blindness>.makePotionEffect(50, 0, false, false));
+        player.addPotionEffect(<potion:astralsorcery:potiontimefreeze>.makePotionEffect(50, 0, false, false));
+    }
 
     //laser_gun_mode
     if (!isNull(player.currentItem)) {

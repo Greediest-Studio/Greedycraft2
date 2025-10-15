@@ -13,6 +13,8 @@ import crafttweaker.entity.IEntity;
 import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.item.IItemStack;
 import crafttweaker.command.ICommandSender;
+import crafttweaker.text.ITextComponent;
+import crafttweaker.damage.IDamageSource;
 
 import mods.contenttweaker.Commands;
 
@@ -47,6 +49,14 @@ events.onPlayerAttackEntity(function(event as PlayerAttackEntityEvent) {
             if (!player.world.remote) {
                 player.world.catenation().run(function(world, context) {}).sleep(5).then(function(world, context) {player.removeTag("dummy");}).start();
             }
+        }
+        //dummy fix 1
+        if (!isNull(player.mainHandHeldItem) && entity.definition.id == "testdummy:dummy" && (player.mainHandHeldItem.definition.id == "bloodmagic:dagger_of_sacrifice" || player.mainHandHeldItem.definition.id == "bloodarsenal:glass_dagger_of_sacrifice")) {
+            if (!player.world.remote) {
+                player.sendRichTextStatusMessage(ITextComponent.fromString("§d显然，试炼假人不喜欢献祭刀"));
+                player.attackEntityFrom(IDamageSource.OUT_OF_WORLD(), 10.0);
+            }
+            event.cancel();
         }
 
         //print entity.definition.id
