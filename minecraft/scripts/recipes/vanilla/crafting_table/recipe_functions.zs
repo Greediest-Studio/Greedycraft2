@@ -40,42 +40,6 @@ function(out, ins, cInfo) {
     return <minecraft:skull:3>.withTag({display: {Name: "§e" + name + LangUtil.translate("greedycraft.misc.head")}, SkullOwner: name});
 },null);
 
-recipes.addShaped("dank_null_1", <danknull:dank_null_1>, [
-    [null, <danknull:dank_null_panel_1>, null],
-    [<danknull:dank_null_panel_1>, <danknull:dank_null_0>.marked("dank"), <danknull:dank_null_panel_1>],
-    [null, <danknull:dank_null_panel_1>, null]],
-function(out, ins, cInfo) {
-    return out.withTag(ins.dank.tag);
-}, null);
-recipes.addShaped("dank_null_2", <danknull:dank_null_2>, [
-    [null, <danknull:dank_null_panel_2>, null],
-    [<danknull:dank_null_panel_2>, <danknull:dank_null_1>.marked("dank"), <danknull:dank_null_panel_2>],
-    [null, <danknull:dank_null_panel_2>, null]],
-function(out, ins, cInfo) {
-    return out.withTag(ins.dank.tag);
-}, null);
-recipes.addShaped("dank_null_3", <danknull:dank_null_3>, [
-    [null, <danknull:dank_null_panel_3>, null],
-    [<danknull:dank_null_panel_3>, <danknull:dank_null_2>.marked("dank"), <danknull:dank_null_panel_3>],
-    [null, <danknull:dank_null_panel_3>, null]],
-function(out, ins, cInfo) {
-    return out.withTag(ins.dank.tag);
-}, null);
-recipes.addShaped("dank_null_4", <danknull:dank_null_4>, [
-    [null, <danknull:dank_null_panel_4>, null],
-    [<danknull:dank_null_panel_4>, <danknull:dank_null_3>.marked("dank"), <danknull:dank_null_panel_4>],
-    [null, <danknull:dank_null_panel_4>, null]],
-function(out, ins, cInfo) {
-    return out.withTag(ins.dank.tag);
-}, null);
-recipes.addShaped("dank_null_5", <danknull:dank_null_5>, [
-    [null, <danknull:dank_null_panel_5>, null],
-    [<danknull:dank_null_panel_5>, <danknull:dank_null_4>.marked("dank"), <danknull:dank_null_panel_5>],
-    [null, <danknull:dank_null_panel_5>, null]],
-function(out, ins, cInfo) {
-    return out.withTag(ins.dank.tag);
-}, null);
-
 recipes.addShaped("upgrade_capacitor_chaotic", <gctcore:chaotic_flux_capacitor>, [
     [<contenttweaker:chaotic_energy_core>, <ore:coreChaotic>, <contenttweaker:chaotic_energy_core>],
     [<ore:ingotDraconiumChaotic>, <draconicevolution:draconium_capacitor:1>.marked("cap"), <ore:ingotDraconiumChaotic>],

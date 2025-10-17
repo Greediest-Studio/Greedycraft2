@@ -7,26 +7,19 @@
 	y: 12.0d,
 	description: "制作一个末影箱子",
 	text: [
-		"可以无线传输物品的箱子，谁不爱呢？（不要与原版末影箱混淆哟~）"
+		"可以无线传输物品的箱子，谁不爱呢?"
 	],
 	tasks: [{
 		uid: "49fccd27",
 		type: "item",
 		items: [{
-			id: "enderstorage:ender_storage",
-			tag: {
-				Frequency: {
-					left: 0,
-					middle: 0,
-					right: 0
-				}
-			}
+			item: "dimstorage:dimensional_chest"
 		}]
 	}],
 	rewards: [{
 		uid: "0431d7cc",
 		type: "item",
-		item: "enderstorage:ender_storage"
+		item: "dimstorage:dimensional_chest"
 	},
 	{
 		uid: "b0f14e9c",
