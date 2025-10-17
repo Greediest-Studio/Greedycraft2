@@ -1493,7 +1493,8 @@ var disabledItems as IIngredient[] = [
     <iceandfire:gorgon_head>,
     <prefab:item_ender_gateway>,
     <randomportals:vertical_end_portal_frame>,
-    <randomportals:upside_down_end_portal_frame>
+    <randomportals:upside_down_end_portal_frame>,
+    <thermalexpansion:device:9>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [

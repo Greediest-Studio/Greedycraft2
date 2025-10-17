@@ -652,6 +652,61 @@ val seedRecipes as IIngredient[][][IItemStack] = {
         [essence[3], essence[3], essence[3]], 
         [essence[3], <mysticalagriculture:tier2_inferium_seeds>, essence[3]], 
         [essence[3], essence[3], essence[3]]
+    ],
+    <mysticalagriculture:uranium_seeds> : [
+        [<ore:ingotUranium>, essence[5], <ore:ingotUranium>], 
+        [essence[5], base[5], essence[5]], 
+        [<ore:ingotUranium>, essence[5], <ore:ingotUranium>]
+    ],
+    <mysticalagriculture:valonite_seeds> : [
+        [<ore:gemValonite>, essence[5], <ore:gemValonite>], 
+        [essence[5], base[5], essence[5]], 
+        [<ore:gemValonite>, essence[5], <ore:gemValonite>]
+    ],
+    <mysticalagriculture:lithium_seeds> : [
+        [<ore:ingotLithium>, essence[4], <ore:ingotLithium>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:ingotLithium>, essence[4], <ore:ingotLithium>]
+    ],
+    <mysticalagriculture:magnesium_seeds> : [
+        [<ore:ingotMagnesium>, essence[4], <ore:ingotMagnesium>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:ingotMagnesium>, essence[4], <ore:ingotMagnesium>]
+    ],
+    <mysticalagriculture:thorium_seeds> : [
+        [<ore:ingotThorium>, essence[4], <ore:ingotThorium>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:ingotThorium>, essence[4], <ore:ingotThorium>]
+    ],
+    <mysticalagriculture:fiery_ingot_seeds> : [
+        [<twilightforest:fiery_ingot>, essence[4], <twilightforest:fiery_ingot>], 
+        [essence[4], base[4], essence[4]], 
+        [<twilightforest:fiery_ingot>, essence[4], <twilightforest:fiery_ingot>]
+    ],
+    <mysticalagriculture:boron_seeds> : [
+        [<ore:ingotBoron>, essence[4], <ore:ingotBoron>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:ingotBoron>, essence[4], <ore:ingotBoron>]
+    ],
+    <mysticalagriculture:dark_gem_seeds> : [
+        [<ore:gemDark>, essence[3], <ore:gemDark>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:gemDark>, essence[3], <ore:gemDark>]
+    ],
+    <mysticalagriculture:octine_seeds> : [
+        [<ore:ingotOctine>, essence[3], <ore:ingotOctine>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:ingotOctine>, essence[3], <ore:ingotOctine>]
+    ],
+    <mysticalagriculture:syrmorite_seeds> : [
+        [<ore:ingotSyrmorite>, essence[3], <ore:ingotSyrmorite>], 
+        [essence[3], base[3], essence[3]], 
+        [<ore:ingotSyrmorite>, essence[3], <ore:ingotSyrmorite>]
+    ],
+    <mysticalagriculture:slimy_bone_seeds> : [
+        [<ore:gemSlimyBone>, essence[2], <ore:gemSlimyBone>], 
+        [essence[2], base[2], essence[2]], 
+        [<ore:gemSlimyBone>, essence[2], <ore:gemSlimyBone>]
     ]
 } as IIngredient[][][IItemStack];
 

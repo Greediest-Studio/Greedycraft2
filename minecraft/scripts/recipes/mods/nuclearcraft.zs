@@ -403,6 +403,15 @@ Melter.addRecipe(<thermalfoundation:material:893>, <liquid:redstone> * 250);
 Melter.addRecipe(<thermalfoundation:material:894>, <liquid:glowstone> * 250);
 Melter.addRecipe(<thermalfoundation:material:895>, <liquid:ender> * 250);
 
+Melter.addRecipe(<gct_mobs:bnatuz_dust>, <liquid:naturaeum> * 100);
+Melter.addRecipe(<gct_mobs:bthdz_dust>, <liquid:tonitruium> * 100);
+Melter.addRecipe(<gct_mobs:bligtz_dust>, <liquid:lumixeium> * 100);
+Melter.addRecipe(<gct_mobs:bninz_dust>, <liquid:noxexeum> * 100);
+Melter.addRecipe(<gct_mobs:naturaeum_dust>, <liquid:naturaeum> * 250);
+Melter.addRecipe(<gct_mobs:tonitruium_dust>, <liquid:tonitruium> * 250);
+Melter.addRecipe(<gct_mobs:lumixeium_dust>, <liquid:lumixeium> * 250);
+Melter.addRecipe(<gct_mobs:noxexeum_dust>, <liquid:noxexeum> * 250);
+
 IngotFormer.removeRecipeWithOutput(<additions:hydrogen_ingot>);
 IngotFormer.removeRecipeWithOutput(<additions:helium_ingot>);
 IngotFormer.removeRecipeWithOutput(<additions:nitrogen_ingot>);
