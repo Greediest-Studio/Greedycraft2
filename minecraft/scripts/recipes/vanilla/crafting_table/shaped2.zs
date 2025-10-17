@@ -629,3 +629,8 @@ RecipeUtil.addShaped("mixed_dragonbone_block", <additions:dragonbone_block_mixed
     [<ore:boneDragonIce>, <ore:boneDragonIce>, <ore:boneDragonIce>],
     [<ore:boneDragonLightning>, <ore:boneDragonLightning>, <ore:boneDragonLightning>]
 ]);
+RecipeUtil.addShaped("aether_eye", <elementalend:aether_eye>, [
+    [null, <aether_legacy:golden_amber>, null],
+    [<additions:asgardium_ingot>, <minecraft:ender_eye>, <additions:sun_crystal>],
+    [null, <lost_aether:platinum_key>, null]
+]);
