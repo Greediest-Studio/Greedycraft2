@@ -156,7 +156,7 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     //disable Mass Enchantment
     if (event.block.definition.id has "abyssalcraft:ritualaltar" && !event.world.remote) {
         var pos = event.position.east(3);
-        if (!isNull(event.world.getBlock(pos).data) && !isNull(event.world.getBlock(pos).data.Item) && !event.world.remote) {
+        if (!isNull(event.world.getBlock(pos).data) && !isNull(event.world.getBlock(pos).data.Item) && !isNull(event.world.getBlock(pos).data.Item.id) && !event.world.remote && event.world.getBlock(pos).data.Item.id == "minecraft:enchanted_book") {
             event.player.sendChat("汇聚附魔已被禁用!");
             event.cancel();
         }
