@@ -1,16 +1,13 @@
-filename = 'OpenComputers-MC1.12.2-1.8.9a+8ca336f.jar'
 name = 'OpenComputers'
+filename = 'OpenComputers-MC1.12.2-1.8.9a+8ca336f.jar'
 side = 'both'
-x-prismlauncher-loaders = [ 'forge' ]
-x-prismlauncher-mc-versions = [ '1.12.2' ]
-x-prismlauncher-release-type = 'release'
 
 [download]
-hash = 'b221fd09fce92af4d8589ca3b2ad7ee838de05ae84877e6d3220b864af2613b5f2979315a4e9b6771cf9b24886e4fb6fa35dbd0902240236c2fda98a4e22ff8b'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/YiAbZis2/versions/mipZmUf9/OpenComputers-MC1.12.2-1.8.9a%2B8ca336f.jar'
+hash-format = 'sha1'
+hash = 'a6e7a567d112da7e3316bfe387d0ae48811c6fa5'
+mode = 'metadata:curseforge'
 
-[update.modrinth]
-mod-id = 'YiAbZis2'
-version = 'mipZmUf9'
+[update]
+[update.curseforge]
+file-id = 6608365
+project-id = 223008
