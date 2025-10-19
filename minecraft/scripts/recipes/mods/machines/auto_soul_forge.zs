@@ -117,12 +117,19 @@ function addHellForgeRecipe(inputs as IIngredient[], output as IItemStack, will 
     for input in inputs {
         builder.addItemInput(input);
     }
+    builder.addPreCheckHandler(function(event as RecipeCheckEvent) {
+        var ctrl as IMachineController = event.controller;
+        var parallel as int = event.activeRecipe.parallelism;
+        if (ctrl.getWillAmount() < will * parallel) {
+            event.setFailed("恶魔意志不足");
+        }
+    })
     builder.addItemOutput(output);
     builder.addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
         var ctrl as IMachineController = event.controller;
         var parallel as int = event.activeRecipe.parallelism;
         if (ctrl.getWillAmount() < will * parallel) {
-            event.preventProgressing("恶魔意志不足");
+            event.setFailed("恶魔意志不足");
         }
     });
     builder.addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
