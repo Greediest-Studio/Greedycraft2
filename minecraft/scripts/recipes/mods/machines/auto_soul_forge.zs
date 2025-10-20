@@ -123,7 +123,7 @@ function addHellForgeRecipe(inputs as IIngredient[], output as IItemStack, will 
         if (ctrl.getWillAmount() < will * parallel) {
             event.setFailed("恶魔意志不足");
         }
-    })
+    });
     builder.addItemOutput(output);
     builder.addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
         var ctrl as IMachineController = event.controller;
