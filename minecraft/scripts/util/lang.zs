@@ -47,59 +47,64 @@ function getLanguage() as string {
 
 function translate(key as string) as string {
     var lang = getLanguage();
-    if (serverTranslations has lang) {
-        if (serverTranslations[lang] has key) {
-            return serverTranslations[lang][key];
-        } else {
-            return game.localize(key);
-        }
+    
+    // 添加 null 检查
+    if (isNull(serverTranslations) || !(serverTranslations has lang)) {
+        return game.localize(key);
+    }
+    
+    var langMap = serverTranslations[lang];
+    if (isNull(langMap)) {
+        return game.localize(key);
+    }
+    
+    if (langMap has key) {
+        return langMap[key];
     } else {
-        if (serverTranslations["en_us"] has key) {
-            return serverTranslations["en_us"][key];
-        } else {
-            return game.localize(key);
-        }
+        return game.localize(key);
     }
 }
 
 function format(key as string, obj as string) as string {
     var lang = getLanguage();
-    if (serverTranslations has lang) {
-        if (serverTranslations[lang] has key) {
-            return serverTranslations[lang][key].replace("%s", obj);
-        } else {
-            return I18n.format(key, obj);
-        }
+    
+    // 添加 null 检查
+    if (isNull(serverTranslations) || !(serverTranslations has lang)) {
+        return I18n.format(key, obj);
+    }
+    
+    var langMap = serverTranslations[lang];
+    if (isNull(langMap)) {
+        return I18n.format(key, obj);
+    }
+    
+    if (langMap has key) {
+        return langMap[key].replace("%s", obj);
     } else {
-        if (serverTranslations["en_us"] has key) {
-            return serverTranslations["en_us"][key].replace("%s", obj);
-        } else {
-            return I18n.format(key, obj);
-        }
+        return I18n.format(key, obj);
     }
 }
 
 function formatArray(key as string, objects as string[]) as string {
     var lang = getLanguage();
-    if (serverTranslations has lang) {
-        if (serverTranslations[lang] has key) {
-            var str as string = serverTranslations[lang][key];
-            for obj in objects {
-                str = str.replaceFirst("%s", obj);
-            }
-            return str;
-        } else {
-            return I18n.format(key, objects);
+    
+    // 添加 null 检查
+    if (isNull(serverTranslations) || !(serverTranslations has lang)) {
+        return I18n.format(key, objects);
+    }
+    
+    var langMap = serverTranslations[lang];
+    if (isNull(langMap)) {
+        return I18n.format(key, objects);
+    }
+    
+    if (langMap has key) {
+        var str as string = langMap[key];
+        for obj in objects {
+            str = str.replaceFirst("%s", obj);
         }
+        return str;
     } else {
-        if (serverTranslations["en_us"] has key) {
-            var str as string = serverTranslations["en_us"][key];
-            for obj in objects {
-                str = str.replaceFirst("%s", obj);
-            }
-            return str;
-        } else {
-            return I18n.format(key, objects);
-        }
+        return I18n.format(key, objects);
     }
 }
