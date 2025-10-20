@@ -149,5 +149,7 @@ global listStages as string[] = [
     "warped",
     "vethea_breaker",
     "tinkering_blueprint",
-    "ring_blueprint"
+    "ring_blueprint",
+    "mind_shock",
+    "quardstate"
 ];

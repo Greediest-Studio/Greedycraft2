@@ -153,18 +153,12 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
             }
         }
     }
-});
-
-events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
-    if (!isNull(event.block) && !event.world.remote) {
-        if (event.block.definition.id == <appliedenergistics2:molecular_assembler>.definition.id && !event.player.isSneaking) {
-            if (isNull(event.item)) {
-                event.cancel();
-            }
-            if (!isNull(event.item)) {
-                if !(event.item.definition.id == <appliedenergistics2:material:30>.definition.id)
-                event.cancel();
-            }
+    //disable Mass Enchantment
+    if (event.block.definition.id has "abyssalcraft:ritualaltar" && !event.world.remote) {
+        var pos = event.position.east(3);
+        if (!isNull(event.world.getBlock(pos).data) && !isNull(event.world.getBlock(pos).data.Item) && !isNull(event.world.getBlock(pos).data.Item.id) && !event.world.remote && event.world.getBlock(pos).data.Item.id == "minecraft:enchanted_book") {
+            event.player.sendChat("汇聚附魔已被禁用!");
+            event.cancel();
         }
     }
 });

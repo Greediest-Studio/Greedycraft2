@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "滋生矿石",
+    "tooltip": "§2§o隐匿无形",
+    "ore_dict": "oreBreedum",
+    "type": "additions:block_simple"
+  },
+  "name": "滋生矿石",
+  "material": "minecraft:stone",
+  "hardness": 100.0,
+  "resistance": 4000.0,
+  "harvest_level": 13,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

@@ -41,10 +41,12 @@
 	rewards: [{
 		uid: "2c86684b",
 		type: "item",
+		team_reward: 1b,
 		item: {
 			id: "projecte:item.pe_time_watch",
 			tag: {}
-		}
+		},
+		only_one: 1b
 	},
 	{
 		uid: "822128c1",

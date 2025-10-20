@@ -127,14 +127,17 @@
             "generator": {
                 "block": [{
                     "name": "additions:tonitruium_ore",
-                    "weight": 100
+                    "weight": 2
+                },{
+                    "name": "journey:cloudiarock",
+                    "weight": 98
                 }],
-                "material": "journey:cloudiarock",
-                "cluster-size": 2
+                "material": "minecraft:air",
+                "cluster-size": 200
             },
-            "min-height": 1,
+            "min-height": 128,
             "max-height": 255,
-            "cluster-count": 5,
+            "cluster-count": 1,
             "retrogen": "true",
             "dimension": {
                 "restriction": "whitelist",

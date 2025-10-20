@@ -678,41 +678,6 @@ RecipeUtil.addShaped("bh_medal_upgrade1", <additions:bounty_hunter_medal>, [
     [<additions:bounty_hunter_medal_silver>, <additions:bounty_hunter_medal_silver>, <additions:bounty_hunter_medal_silver>],
     [<additions:bounty_hunter_medal_silver>, <additions:bounty_hunter_medal_silver>, <additions:bounty_hunter_medal_silver>]
 ]);
-RecipeUtil.addShaped("auto_gen_-609778103", <danknull:dank_null_panel_0>, [
-    [<ore:dustRedstone>, <ore:gemCoal>, <ore:dustRedstone>],
-    [<ore:gemCoal>, <ore:dustRedstone>, <ore:gemCoal>],
-    [<ore:dustRedstone>, <ore:gemCoal>, <ore:dustRedstone>]
-]);
-RecipeUtil.addShaped("auto_gen_-1593973926", <danknull:dank_null_panel_1>, [
-    [<ore:gemLapis>, <ore:gemCoal>, <ore:gemLapis>],
-    [<ore:gemCoal>, <ore:gemLapis>, <ore:gemCoal>],
-    [<ore:gemLapis>, <ore:gemCoal>, <ore:gemLapis>]
-]);
-RecipeUtil.addShaped("auto_gen_1115440192", <danknull:dank_null_panel_2>, [
-    [<ore:ingotIron>, <ore:gemCoal>, <ore:ingotIron>],
-    [<ore:gemCoal>, <ore:ingotIron>, <ore:gemCoal>],
-    [<ore:ingotIron>, <ore:gemCoal>, <ore:ingotIron>]
-]);
-RecipeUtil.addShaped("auto_gen_-1283760985", <danknull:dank_null_panel_3>, [
-    [<ore:ingotGold>, <ore:gemCoal>, <ore:ingotGold>],
-    [<ore:gemCoal>, <ore:ingotGold>, <ore:gemCoal>],
-    [<ore:ingotGold>, <ore:gemCoal>, <ore:ingotGold>]
-]);
-RecipeUtil.addShaped("auto_gen_1421367790", <danknull:dank_null_panel_4>, [
-    [<ore:gemDiamond>, <ore:gemCoal>, <ore:gemDiamond>],
-    [<ore:gemCoal>, <ore:gemDiamond>, <ore:gemCoal>],
-    [<ore:gemDiamond>, <ore:gemCoal>, <ore:gemDiamond>]
-]);
-RecipeUtil.addShaped("auto_gen_-1058951393", <danknull:dank_null_panel_5>, [
-    [<ore:gemEmerald>, <ore:gemCoal>, <ore:gemEmerald>],
-    [<ore:gemCoal>, <ore:gemEmerald>, <ore:gemCoal>],
-    [<ore:gemEmerald>, <ore:gemCoal>, <ore:gemEmerald>]
-]);
-RecipeUtil.addShaped("dank_null_0", <danknull:dank_null_0>, [
-    [null, <danknull:dank_null_panel_0>, null],
-    [<danknull:dank_null_panel_0>, <ore:chest>, <danknull:dank_null_panel_0>],
-    [null, <danknull:dank_null_panel_0>, null]
-]);
 RecipeUtil.addShaped("auto_gen_-555162558", <appliedenergistics2:material:35> * 4, [
     [null, <ore:dustRedstone>, null],
     [<ore:dustRedstone>, <ore:gemQuartz>, <ore:dustRedstone>],

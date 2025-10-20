@@ -30,6 +30,9 @@ import crafttweaker.chat.IChatMessage;
 import crafttweaker.world.IBlockAccess;
 import crafttweaker.command.ICommand;
 import crafttweaker.item.IItemStack;
+import crafttweaker.world.IWorld;
+import mods.contenttweaker.World;
+import mods.zenutils.ICatenationBuilder;
 
 import native.c4.conarm.lib.armor.ArmorCore;
 
@@ -38,11 +41,21 @@ events.onPlayerRightClickItem(function(event as PlayerRightClickItemEvent) {
 if (!isNull(event.item) && !event.world.isRemote()) {
 
     var player as IPlayer = event.player;
+    
+    //orbTier fix
+    if (event.item.definition.id == "forbiddenmagicre:eldritch_orb") {
+        event.world.catenation().sleep(1).then(function(world as IWorld, context) {player.soulNetwork.orbTier = 7;}).start();
+    }
 
     //Store the dimension ID in the item tag
     if (event.item.definition.id == "additions:modular_dimensional_magnifier" && event.hand == "MAIN_HAND") {
-        event.item.mutable().updateTag({dim : event.world.dimension as int});
-        event.player.sendChat("§a已将当前维度ID存储在放大镜中！");
+        if (!player.isSneaking) {
+            event.item.mutable().updateTag({dim : event.world.dimension as int, display: {Lore: ["§a当前已绑定维度：§9" ~ event.world.getDimensionType() ~ "§a(ID:§9" ~ event.world.dimension ~ "§a)"], Name: "§1维度放大镜(已绑定至" ~ event.world.getDimensionType() ~ ")"}});
+            event.player.sendChat("§a已将当前维度ID存储在放大镜中！");
+        } else {
+            event.item.mutable().updateTag({display: {Lore: [], Name: "§1维度放大镜(未绑定)"}});
+            event.player.sendChat("§a绑定数据已清除！");
+        }
     }
 
     //Clear All the Entities

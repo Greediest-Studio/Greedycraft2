@@ -369,3 +369,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:upgrade_expand>, [
 	[<ore:plateZincargentum>, <ironchest:iron_chest:5>, <ore:plateZincargentum>, <ore:ingotRefinedObsidian>, <ore:plateZincargentum>], 
 	[<ore:plateZincargentum>, <ore:plateZincargentum>, <ore:modularUpgradeBlank>, <ore:plateZincargentum>, null]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:breedum_core>, [
+	[<ore:ingotBreedum>, <ore:ingotUracilite>, null, <ore:ingotUracilite>, <ore:ingotBreedum>], 
+	[<ore:ingotUracilite>, null, <ore:ingotBalancedMatrix>, null, <ore:ingotUracilite>], 
+	[null, <ore:ingotBalancedMatrix>, <ore:blockBreedum>, <ore:ingotBalancedMatrix>, null], 
+	[<ore:ingotUracilite>, null, <ore:ingotBalancedMatrix>, null, <ore:ingotUracilite>], 
+	[<ore:ingotBreedum>, <ore:ingotUracilite>, null, <ore:ingotUracilite>, <ore:ingotBreedum>]
+]);

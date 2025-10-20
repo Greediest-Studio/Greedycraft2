@@ -93,21 +93,7 @@ var vetheaDisabled as IItemStack[] = [
     <minecraft:ender_eye>,
     <minecraft:blaze_powder>,
     <minecraft:ender_pearl>,
-    <enderstorage:ender_storage>,
     <minecraft:ender_chest>,
-    <danknull:dank_null_0>,
-    <danknull:dank_null_1>,
-    <danknull:dank_null_2>,
-    <danknull:dank_null_3>,
-    <danknull:dank_null_4>,
-    <danknull:dank_null_5>,
-    <danknull:dank_null_6>,
-    <danknull:dank_null_panel_0>,
-    <danknull:dank_null_panel_1>,
-    <danknull:dank_null_panel_2>,
-    <danknull:dank_null_panel_3>,
-    <danknull:dank_null_panel_4>,
-    <danknull:dank_null_panel_5>,
     <extrautils2:user>,
     <minecraft:ender_pearl>,
     <minecraft:ender_eye>,
@@ -1126,14 +1112,6 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
 var removeMap as IIngredient[][IOreDictEntry] = {
     <ore:cobblestone> : [<quark:biome_cobblestone:1>]
 };
-
-if (loadedMods.contains("inventorypets")) {
-    for item in loadedMods["inventorypets"].items {
-        if (item.definition.id.endsWith("pet")) {
-            OredictUtil.addOredictIngredient(<ore:inventoryPet>, item);
-        }
-    }
-}
 
 for oredict in oredictMap {
     var ingredients as IIngredient[] = oredictMap[oredict];

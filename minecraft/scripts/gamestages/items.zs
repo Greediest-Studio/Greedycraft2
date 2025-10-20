@@ -397,7 +397,6 @@ GameStagesUtil.stageNether.addIngredients([
     <ore:dustAqualite>,
     <ore:oreAqualite>,
     <ore:blockAqualite>,
-    <minecraft:ghast_tear>,
     <ore:boneWithered>,
     <netherex:wither_bone>,
     <darkutils:material>,
@@ -1846,7 +1845,14 @@ GameStagesUtil.stageFinal.addIngredients([
     <ore:oreLumixeium>,
     <ore:oreNoxexeum>,
     <ore:oreTonitruium>,
-    <ore:oreNaturaeum>
+    <ore:oreNaturaeum>,
+    <ore:ingotBreedum>,
+    <ore:oreBreedum>,
+    <ore:nuggetBreedum>,
+    <ore:plateBreedum>,
+    <ore:gearBreedum>,
+    <ore:coreBreedum>,
+    <ore:blockBreedum>
 ], true);
 
 GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators"]);

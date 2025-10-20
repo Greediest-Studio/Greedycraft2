@@ -644,3 +644,8 @@ RecipeUtil.addShaped("vis_provider_output", <modularmachineryaddons:blockvisprov
     [<ore:ingotPrimordial>, <modularmachinery:blockcasing>, <ore:ingotPrimordial>], 
     [<ore:ingotModularium>, <ore:ingotPrimordial>, <ore:ingotModularium>]
 ]);
+RecipeUtil.addShaped("aether_eye", <elementalend:aether_eye>, [
+    [null, <aether_legacy:golden_amber>, null],
+    [<additions:asgardium_ingot>, <minecraft:ender_eye>, <additions:sun_crystal>],
+    [null, <lost_aether:platinum_key>, null]
+]);

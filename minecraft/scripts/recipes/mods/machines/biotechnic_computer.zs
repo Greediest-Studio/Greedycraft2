@@ -69,6 +69,7 @@ MMEvents.onControllerGUIRender("biotechnic_computer", function(event as Controll
 });
 
 MachineModifier.addCoreThread("biotechnic_computer", FactoryRecipeThread.createCoreThread("营养供给模块").addRecipe("nutrition_input"));
+MachineModifier.addCoreThread("biotechnic_computer", FactoryRecipeThread.createCoreThread("解码模块"));
 
 RecipeBuilder.newBuilder("nutrition_input", "biotechnic_computer", 1)
     .addFluidInput(<liquid:culture_medium>)
@@ -78,4 +79,6 @@ RecipeBuilder.newBuilder("nutrition_input", "biotechnic_computer", 1)
     })
     .addRecipeTooltip("§e向缸中之脑容器内部输入培养液")
     .addRecipeTooltip("§c如果机器运行时无法获取足够多的培养液，机器会立即爆炸！")
+    .setThreadName("营养供给模块")
     .build();
+

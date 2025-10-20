@@ -2119,6 +2119,27 @@
                 "restriction": "blacklist",
                 "value": [1, -1]
             }
+        },
+        "breedum": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:breedum_ore",
+                    "weight": 100
+                }],
+                "material": "minecraft:end_stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 1,
+            "min-height": 1,
+            "max-height": 128,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [1]
+            }
         }
     }
 }
