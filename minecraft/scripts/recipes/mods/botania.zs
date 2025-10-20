@@ -135,7 +135,7 @@ Agglomeration.addRecipe(<additions:elfsteel_ingot>, [<botania:manaresource:7>, <
 Agglomeration.addRecipe(<additions:mythsteel_ingot>, [<ore:ingotTerrasteel>, <ore:ingotElfsteel>, <ore:ingotGaiasteel>], 3000000, 0x54ff05, 0xffffcb, <minecraft:quartz_block>, <extrabotany:blockphotonium>, <minecraft:quartz_block>, null, null, null);
 Agglomeration.addRecipe(<gct_mobs:holysteel_ingot>, [<ore:ingotHolium>, <ore:ingotAsgardium>, <ore:ingotSky>], 50000, 0xcb5151, 0xfffaa9, <naturesaura:infused_iron_block>, <additions:sky_block>, <naturesaura:infused_iron_block>, null, null, null);
 Agglomeration.addRecipe(<additions:yeet>, [<thebetweenlands:rock_snot_pearl>, <thebetweenlands:items_misc:56>, <thebetweenlands:items_misc:52>, <thebetweenlands:items_misc:53>, <thebetweenlands:items_misc:54>, <thebetweenlands:items_misc:55>, <thebetweenlands:items_misc:57>, <thebetweenlands:glowing_goop>, <thebetweenlands:chiromaw_barb>], 1000000, 0x321818, 0xf1e2e6, <thebetweenlands:slimy_dirt>, <thebetweenlands:slimy_dirt>, <thebetweenlands:slimy_dirt>, null, null, null);
-Agglomeration.addRecipe(<elementalend:earth_eye>, [<botania:manaresource:5>, <ore:pearlEnderEye>, <botania:manaresource:5>], 100000, 0x82be74, 0x07c020, <botania:storage>, <minecraft:mycelium>, <botania:storage>, <minecraft:iron_block>, <minecraft:dirt:1>, <minecraft:iron_block>);
+Agglomeration.addRecipe(<elementalend:earth_eye>, [<botanicadds:gaia_shard>, <ore:pearlEnderEye>, <botania:manaresource:5>], 100000, 0x82be74, 0x07c020, <botania:storage>, <minecraft:mycelium>, <botania:storage>, <minecraft:iron_block>, <minecraft:dirt:1>, <minecraft:iron_block>);
 
 GodAgglomeration.addRecipe(<gct_mobs:botanical_ingot_awakened> * 2, [
     <ore:ingotBotanical>,

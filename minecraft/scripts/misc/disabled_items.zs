@@ -1485,7 +1485,6 @@ var disabledItems as IIngredient[] = [
     <modularmachineryaddons:inactiveradiationsponge>,
     <modularmachineryaddons:radiationsponge>,
     <astralsorcery:blockborehead:1>,
-    <danknull:danknull_dock>,
     <modularmachineryaddons:blockmeessentiainputbus>,
     <modularmachineryaddons:blockmeessentiaoutputbus>,
     <gct_aby:shoggoth_clump>,

@@ -25,6 +25,7 @@ import crafttweaker.text.ITextComponent;
 import crafttweaker.world.IBiome;
 import crafttweaker.world.IBiomeType;
 import crafttweaker.world.IWorld;
+import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.entity.IEntityEquipmentSlot;
 import crafttweaker.item.IMutableItemStack;
@@ -168,6 +169,37 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
                 break;
             }
         }
+        var baublesList = [<botania:odinring>] as IItemStack[];
+        for bauble in baublesList {
+            if (player.isBaubleEquipped(bauble) != -1) {
+                isInOcean = false;
+            }
+        }
+        if (TicTraitLib.getPlayerTicHelmetTrait(player as IPlayer) has "amphibious_armor") {
+            var i = 1;
+            while (i <= player.armorInventory[3].tag.Modifiers.length - 1) {
+                if (player.armorInventory[3].tag.Modifiers[i].identifier == "amphibious_armor") {
+                    if (player.armorInventory[3].tag.Modifiers[i].oxygen >= 1) {
+                        isInOcean = false;
+                        if (player.world.getBlock(getHeadBlockPos(player)).definition.id != "minecraft:water") {
+                            var armorData = player.armorInventory[3].tag;
+                            var ModifiersData = player.armorInventory[3].tag.Modifiers.deepUpdate(player.armorInventory[3].tag.Modifiers[i], REMOVE) as IData;
+                            ModifiersData = ModifiersData.deepUpdate({identifier: "amphibious_armor",color: 52479,level: 1,oxygen: (player.armorInventory[3].tag.Modifiers[i].oxygen - 1)}, APPEND);
+                            player.armorInventory[3].mutable().updateTag(armorData.deepUpdate(ModifiersData, OVERWRITE));
+                            if (!player.world.remote) {
+                                player.world.catenation().sleep(1).then(function(world as IWorld, context) {
+                                    if (!isNull(player.armorInventory[3])) {
+                                        player.armorInventory[3].mutable().updateTag(armorData.deepUpdate(ModifiersData, OVERWRITE));
+                                    }
+                                }).start();
+                            }
+                        }
+                    }
+                    break;
+                }
+                i += 1;
+            }
+        }
         if (isInOcean && !(player.isPotionActive(<potion:minecraft:water_breathing>) || player.isPotionActive(<potion:potioncore:drown>)) && player.world.getBlock(getHeadBlockPos(player)).definition.id != "minecraft:water") {
             player.air = 0;
             if (player.world.getBlock(getHeadBlockPos(player)).definition.id != "minecraft:air") {
@@ -278,6 +310,12 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
                 TicTraitLib.removeTicTrait(item,str,TicTraitLib.getTraitColor(item,str),1);
             }
         }
+    }
+    //Astral perk(StarAbility) fix
+    if (!isNull(player.getPerkLevel()) && player.getPerkLevel() > 25 && player.world.getWorldTime() as long % 20 == 0) {
+        player.sendRichTextStatusMessage(ITextComponent.fromString("§d你知道自己干了什么喵，改回去重进游戏喵"));
+        player.addPotionEffect(<potion:minecraft:blindness>.makePotionEffect(50, 0, false, false));
+        player.addPotionEffect(<potion:astralsorcery:potiontimefreeze>.makePotionEffect(50, 0, false, false));
     }
 
     //laser_gun_mode
