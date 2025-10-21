@@ -355,6 +355,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
                 while ((j <= 16) && tp) {
                     while ((k <= 16) && tp) {
                         if ((destination.getBlock(x + i,y + j,z + k).definition.id == "minecraft:air") && (destination.getBlock(x + i,y + j + 1,z + k).definition.id == "minecraft:air") && (destination.getBlock(x + i,y + j - 1,z + k).definition.id != "minecraft:air") && destination.getBlock(x + i,y + j - 1,z + k).definition.id != "minecraft:lava") {
+                            player.attackEntityFrom(IDamageSource.FALL(), 10.0);
                             server.commandManager.executeCommand(server, "/forge setdimension " ~ player.name ~ " -1 " ~ (x + i) as string ~ " " ~ (y + j) as string ~ " " ~ (z + k) as string);
                             tp = false;
                         }
@@ -375,6 +376,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
                 while ((j <= 128) && tp) {
                     while ((k <= 64) && tp) {
                         if ((destination.getBlock(x + i,y + j,z + k).definition.id == "minecraft:air") && (destination.getBlock(x + i,y + j + 1,z + k).definition.id == "minecraft:air") && (destination.getBlock(x + i,y + j - 1,z + k).definition.id != "minecraft:air") && destination.getBlock(x + i,y + j - 1,z + k).definition.id != "minecraft:lava") {
+                            player.attackEntityFrom(IDamageSource.FALL(), 10.0);
                             server.commandManager.executeCommand(server, "/forge setdimension " ~ player.name ~ " -1 " ~ (x + i) as string ~ " " ~ (y + j) as string ~ " " ~ (z + k) as string);
                             tp = false;
                         }
@@ -392,9 +394,10 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
             var j as int = -63;
             var k as int = -128;
             while ((i <= 128) && tp) {
-                while ((j <= 128) && tp) {
+                while ((j <= 256) && tp) {
                     while ((k <= 128) && tp) {
                         if ((destination.getBlock(x + i,y + j,z + k).definition.id == "minecraft:air") && (destination.getBlock(x + i,y + j + 1,z + k).definition.id == "minecraft:air") && (destination.getBlock(x + i,y + j - 1,z + k).definition.id != "minecraft:air") && destination.getBlock(x + i,y + j - 1,z + k).definition.id != "minecraft:lava") {
+                            player.attackEntityFrom(IDamageSource.FALL(), 10.0);
                             server.commandManager.executeCommand(server, "/forge setdimension " ~ player.name ~ " -1 " ~ (x + i) as string ~ " " ~ (y + j) as string ~ " " ~ (z + k) as string);
                             tp = false;
                         }
@@ -408,7 +411,6 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
             }
         }
         player.addPotionEffect(<potion:minecraft:blindness>.makePotionEffect(50, 2, false, false));
-        player.attackEntityFrom(IDamageSource.FALL(), 10.0);
     }
 
     //test
