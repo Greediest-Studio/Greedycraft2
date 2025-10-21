@@ -129,7 +129,7 @@ function addHellForgeRecipe(inputs as IIngredient[], output as IItemStack, will 
         var ctrl as IMachineController = event.controller;
         var parallel as int = event.activeRecipe.parallelism;
         if (ctrl.getWillAmount() < will * parallel) {
-            event.setFailed("恶魔意志不足");
+            event.setFailed(false, "恶魔意志不足");
         }
     });
     builder.addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
