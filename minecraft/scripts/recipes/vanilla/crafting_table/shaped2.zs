@@ -629,6 +629,21 @@ RecipeUtil.addShaped("mixed_dragonbone_block", <additions:dragonbone_block_mixed
     [<ore:boneDragonIce>, <ore:boneDragonIce>, <ore:boneDragonIce>],
     [<ore:boneDragonLightning>, <ore:boneDragonLightning>, <ore:boneDragonLightning>]
 ]);
+RecipeUtil.addShaped("super_factory_manager", <superfactorymanager:manager>, [
+    [<ore:ingotDurasteel>, <ore:ingotDurasteel>, <ore:ingotDurasteel>],
+    [<ore:ingotDurasteel>, <ore:blockRedstone>, <ore:ingotDurasteel>],
+    [<ore:stone>, <minecraft:piston>, <ore:stone>]
+]);
+RecipeUtil.addShaped("vis_provider_input", <modularmachineryaddons:blockvisproviderinput>, [
+    [<ore:ingotModularium>, <thaumicwonders:vis_capacitor>, <ore:ingotModularium>],
+    [<ore:ingotPrimordial>, <modularmachinery:blockcasing>, <ore:ingotPrimordial>], 
+    [<ore:ingotModularium>, <ore:ingotPrimordial>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("vis_provider_output", <modularmachineryaddons:blockvisprovideroutput>, [
+    [<ore:ingotModularium>, <thaumcraft:arcane_workbench_charger>, <ore:ingotModularium>],
+    [<ore:ingotPrimordial>, <modularmachinery:blockcasing>, <ore:ingotPrimordial>], 
+    [<ore:ingotModularium>, <ore:ingotPrimordial>, <ore:ingotModularium>]
+]);
 RecipeUtil.addShaped("aether_eye", <elementalend:aether_eye>, [
     [null, <aether_legacy:golden_amber>, null],
     [<additions:asgardium_ingot>, <minecraft:ender_eye>, <additions:sun_crystal>],

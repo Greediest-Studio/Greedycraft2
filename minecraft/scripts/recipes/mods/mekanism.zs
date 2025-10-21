@@ -14,6 +14,7 @@ import mods.mekanism.enrichment;
 import mods.mekanism.purification;
 import mods.mekanism.separator;
 import mods.mekanism.GasConversion;
+import mods.mekanism.reaction;
 
 GasConversion.register(<liquid:nitrogen>, <gas:nitrogen>);
 GasConversion.register(<liquid:helium>, <gas:helium>);
@@ -66,3 +67,5 @@ mods.mekanism.chemical.infuser.addRecipe(<gas:nitrogenoxide> * 2, <gas:oxygen> *
 mods.mekanism.chemical.infuser.addRecipe(<gas:hydrogen> * 3, <gas:nitrogen>, <gas:ammonia> * 2);
 mods.mekanism.chemical.infuser.addRecipe(<gas:hydrogenfluoride> * 1, <gas:water> * 1, <gas:hydrofluoricacid> * 1);
 mods.mekanism.chemical.infuser.addRecipe(<gas:hydrogen> * 1, <gas:fluorine> * 1, <gas:hydrogenfluoride> * 2);
+
+mods.mekanism.reaction.addRecipe(<mekanism:biofuel> * 8, <liquid:lava> * 50, <gas:hydrogen> * 100, <mekanism:scrap>, <gas:water> * 10, 1000, 100);
