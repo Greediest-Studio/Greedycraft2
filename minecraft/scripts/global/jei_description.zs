@@ -17,3 +17,5 @@ JEI.addDescription([<additions:heaven_gem_shard1>,<additions:heaven_gem_shard2>]
 JEI.addDescription(<nuclearcraft:ingot:8>,"通过§c浇筑台§f合成");
 JEI.addDescription(<contenttweaker:dim_item>,"再次右键返回这个维度的同一坐标");
 JEI.addDescription(<gct_mobs:resonate_debris>, "§f挖不动？使用§cEFLN§f来炸碎它！");
+JEI.addDescription(<mekanism:machineblock:4>,"将你的匠魂工具放入左上角的格子使数字型采矿机获得挖掘等级!");
+JEI.addDescription(<appliedenergistics2:part:300>,"只能破坏ae网络里有的方块!!!");
