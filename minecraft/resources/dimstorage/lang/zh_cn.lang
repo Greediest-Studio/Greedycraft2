@@ -1,0 +1,27 @@
+#Creative tabs
+itemGroup.dimstorage=维度存储
+
+#TileEntity
+tile.dimstorage.accessDenied=拒绝访问!
+
+#Gui
+gui.dimstorage.change=修改
+gui.dimstorage.owner=所有者:
+gui.dimstorage.frequency=频道:
+gui.dimstorage.locked=锁定:
+gui.dimstorage.yes=是
+gui.dimstorage.no=否
+
+#Items
+item.dimstorage.dim_core.name=维度核心
+item.dimstorage.solid_dim_core.name=加固维度核心
+item.dimstorage.dim_wall.name=维度墙
+
+#Blocks
+tile.dimstorage.dimensional_chest.name=维度箱子
+
+advancements.dimstorage.root=维度核心
+advancements.dimstorage.root.desc=维度能量
+
+advancements.dimstorage.dimensional_chest=维度箱子
+advancements.dimstorage.dimensional_chest.desc=连接更多空间

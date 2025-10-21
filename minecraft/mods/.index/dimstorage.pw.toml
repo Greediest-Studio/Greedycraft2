@@ -1,16 +1,13 @@
-filename = 'DimStorage-1.12.2-1.3.0.jar'
 name = 'DimStorage'
+filename = 'DimStorage-1.12.2-1.3.0.jar'
 side = 'both'
-x-prismlauncher-loaders = []
-x-prismlauncher-mc-versions = [ '1.12.2' ]
-x-prismlauncher-release-type = 'release'
 
 [download]
-hash = '507de9c14c284b59dd3fb536d5cd98fc3eb5ac6c'
 hash-format = 'sha1'
+hash = '507de9c14c284b59dd3fb536d5cd98fc3eb5ac6c'
 mode = 'metadata:curseforge'
-url = ''
 
+[update]
 [update.curseforge]
 file-id = 2851358
 project-id = 353882
