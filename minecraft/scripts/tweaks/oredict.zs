@@ -55,6 +55,7 @@ import scripts.util.oredict as OredictUtil;
 <ore:blockQuartzDark>.remove(<thaumictinkerer:black_quartz_block>);
 <ore:blockQuartzDark>.remove(<botania:quartztypedark:1>);
 <ore:blockQuartzDark>.remove(<botania:quartztypedark:2>);
+<ore:book>.remove(<tiths:ancient_book_irisia>);
 
 <ore:ingotCthulhurite>.add(<gct_mobs:cthulhurite_ingot>);
 <ore:starlight>.add(<journey:sapphire>);
