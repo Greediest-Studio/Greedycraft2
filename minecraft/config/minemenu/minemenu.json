@@ -40,14 +40,14 @@
       }
     },
     "3": {
-      "title": "\u00a7b\u6253\u5f00\u65e0\u5e95\u4e4b\u7bb1",
+      "title": "\u00a7b\u5207\u6362\u98de\u884c\u60ef\u6027",
       "icon": {
-        "name": "danknull:dank_null_0",
+        "name": "minecraft:feather",
         "damage": 0
       },
       "action": {
         "key": {
-          "key": "key.open_danknull.desc",
+          "key": "key.inertiacancellation.inertia_cancellation",
           "toggle": false
         }
       }
