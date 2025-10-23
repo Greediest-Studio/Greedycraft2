@@ -1067,34 +1067,19 @@
         "text":"找到如左图所示的传送门，站在传送门方块上，即可进入$(2)辐射废土$()世界"
     },
     {
-        "type":"image",
-        "images":["patchouli_books:midnight.png"],
-        "text":"$(c)midnight$()$(2)午夜世界$()Dim(-23)"
+        "type":"spotlight",
+        "item":"contenttweaker:dim_item",
+        "text":"$(c)Dim(114514)$(br)在主世界右键进入超平坦这个世界永昼，再次右键离开该维度"
     },
     {
         "type":"spotlight",
-        "item":"midnight:midnight_grass",
-        "text":"$(2)每当夜晚来临，午夜的大门即将开启~$()$(br2)$(5)他们喜欢抓不睡觉的孩子们进入午夜的世界"
-    },
-    {
-        "type":"spotlight",
-        "item":"utilityworlds:portal_garden",
-        "text":"$(c)uw_garden_wordl$()Dim(4)$(br)右击如上方块即可进入类似于超平坦地形的维度"
-    },
-    {
-        "type":"spotlight",
-        "item":"utilityworlds:portal_void",
-        "text":"$(c)uw_void_wordl$()Dim(5)$(br)右击如上方块即可进入一个周围全是虚空的维度"
+        "item":"contenttweaker:dim_item",
+        "text":"$(c)Dim(-114514)$(br)在下界右键进入虚空世界这个世界永夜，再次右键离开该维度"
     },
     {
         "type":"spotlight",
         "item":"compactmachines3:machine:5",
         "text":"$(c)CompactMachines$()$(2)压缩空间$()Dim(144)$(br)使用$(6)传送器$()右键$(5)任意大小$()$(6)压缩空间机械$()进入，再次右键即可离开压缩空间"
-    },
-    {
-        "type":"spotlight",
-        "item":"keletupack:ichorium_pick_adv",
-        "text":"$(c)keletupack$()$(2)基岩世界$()Dim(31871)$(br)使用$(6)觉醒灵宝镐$()左键主世界 Y ≤ 6 高度的基岩打开$(6)基岩世界传送门$()"
     },
     {
         "type":"multiblock",
