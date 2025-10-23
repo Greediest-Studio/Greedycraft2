@@ -5,15 +5,15 @@
 	],
 	x: 0.0d,
 	y: 21.0d,
-	description: "合成魔力反应堆控制器",
+	description: "合成自魔注灵工厂集成控制器",
 	text: [
-		"可以高速还原魔力物品并产出更多的魔力！"
+		"魔力倍矿！？"
 	],
 	tasks: [{
 		uid: "9cbc3862",
 		type: "item",
 		items: [{
-			item: "gct_mac:mana_reactor"
+			item: "modularmachinery:factory_arcanic_infuser_factory_controller"
 		}]
 	}],
 	rewards: [{

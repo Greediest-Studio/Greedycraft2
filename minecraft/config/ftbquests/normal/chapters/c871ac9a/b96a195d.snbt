@@ -1,0 +1,61 @@
+{
+	title: "有什么用呢！？思考......",
+	x: -2.5d,
+	y: 0.0d,
+	description: "ed聚变？！",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "87f35681",
+		type: "item",
+		items: [{
+			id: "extendedae:infinity_cell",
+			tag: {
+				t: "i",
+				r: {
+					Slot: 0b,
+					tag: {
+						display: {
+							Name: "mc_Edwin的头"
+						},
+						SkullOwner: {
+							Name: "mc_Edwin",
+							Properties: {
+								textures: [{
+									Signature: "QGS5qfCsxdUMTHPIJ9W9PBJkP0bu26NwlK1OmjiyN17kmPDHDd+j0Ao+SbIpv/pxGaItBfRq52ETsOwbTe3mnnNWv3JooQN8YlEHVaZrZK/32i01Y53MUDZ3JtVJPEiIb3EOkhIciGUMeRpNTa9CVv5skOn+rye0f/eetQRUFAZKRSdgW7Gz1MnqzAPOCct69RHcHCCnwny/DSGnNsnfz+AJKOyubdRHBZbX/+Ug+8AMa2ava/rrMFV5h8oTT57awpBsnKsWac1Mijk/8wmpci6bA8b8xiIBBmLV//tGj/iU1eusfx+zkanYDdPoLOmxf00vkblyf/Rt4oNbp/h9f3d7+SnnwPCzvUvKm2GzngVmS35epIZGshU3/cuvBOmvGNLZux5x2ykxCwECsJhEVy7lvzpYMC5iNH1i3hZVqKGLOcBSOFBSz0vlAyMAkJnmlCW2TBaXbx/O5LdC/czLCqGpRfmlUjBz8RA27WVQ/HvCG/ys0s3JBJGYHD/xVcGwMFuIQPR4GCCAIEUxLO/o23c+4mSowugj5phZ7WUEl7A6O8m3cAcx3kyj8k4SmMsBo1pf7Khmq4KRznMrv9JZnkIOGXOpqjzCccj7C9B0S5v/Viz1/9K1jaPxdkcm4qk6XVFCru5yvKGb5Jc9H+W4KuvHGi1WbbSBNU2ftZ7GojY=",
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTY4NTYxNzM1ODE1OSwKICAicHJvZmlsZUlkIiA6ICI5MjM5NmNhNGU2NDM0NGU4YjNkYzYxZDM1ZmMwMTI3ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJLYXN1bWlfTm92YSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81ODQ1OWU5ZmQ1YzQxZTlhZWYxMzVjYzdjYzUwMWM2MTBjMDA2Y2UzYzQxNzYwYTUwYTA5MmZhYzJmZDYxYzNkIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+								}]
+							},
+							Id: "e122d039-6ca5-4b79-a185-d406ef898094"
+						}
+					},
+					id: "minecraft:skull",
+					Count: 1,
+					Damage: 3s
+				}
+			}
+		}],
+		ignore_damage: 1b
+	}],
+	rewards: [{
+		uid: "e23dfe39",
+		type: "item",
+		item: {
+			id: "minecraft:skull",
+			Damage: 3s,
+			tag: {
+				SkullOwner: {
+					Name: "mc_Edwin",
+					Id: "e122d039-6ca5-4b79-a185-d406ef898094",
+					Properties: {
+						textures: [{
+							Value: "ewogICJ0aW1lc3RhbXAiIDogMTc2MTIyMzg3NjI0NSwKICAicHJvZmlsZUlkIiA6ICJlMTIyZDAzOTZjYTU0Yjc5YTE4NWQ0MDZlZjg5ODA5NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJtY19FZHdpbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mOWYxY2U3YTM2MjY2ZmY5MWMwYTk3ZGY0NTg3NjkzYjZjYWMxNTMzMmM0YjNmYTYxZDQ2NTM4YzZjMWEzZWQ4IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjlhNzY1Mzc2NDc5ODlmOWEwYjZkMDAxZTMyMGRhYzU5MWMzNTllOWU2MWEzMWY0Y2UxMWM4OGYyMDdmMGFkNCIKICAgIH0KICB9Cn0=",
+							Signature: "usFyKfEOb0s4PyEm5QBur6otceU9qHG4FTlcWjyP0Vdn8ok1kgBnF9bT53yY5Ommv93KIxDmY+MEmSm6koGZPyJ/li0uGaCdqtX7i7Q7TrIhFv5gaKf82BPpUgm1ebbqXjAufbq6UyjBrgCvOeqJ2eXk9iWvHWQgHtsMqzbU/0j8KVwSWaH7nInSqywU7yuhsiNVMjvohu8ymJpZ7bVZY8YAoNt/EWZ9JX2fBJ1cJpfoqh80U+51cRGvi48X7v4f/qGv5I5GTBnjMEGe2HuOJ4rgh8EpV5PvIytqOsnyw28ksoF5ILLEtSUDuL8a9Xiifb76bQm+fBFV6jnwVOqvYUiZ8gK0Rz0JRgT8kWxCMDM8HLnz0GXq2j0BjY0jzOnX7xfjq25vQMGL5niwLRYCX28tayBXtMnfhHhYY696pC69ModYsFYxz8hnqeVPR6Th19nC0CiEtNazxxS7dfJxnLN1PXUnW2S1W3LiRRZFC2vHJ+nB4iXhgr33udx0NqJUkS7FEsi7O97s6KbMuo9bWhFUt4qkbknEGiMHr20j1sDgxRxCn9oz7KffVshB0C7Feff6JLHzUcAQUlFRCEGnxV0ns+Cq91rMM/CHrdNjq8nZgqHVa3DEjttaAlFLl9odkHn7w8TcQdIk2N80Vm+L8iV3SD/4itRbh9K05sN0D90="
+						}]
+					}
+				}
+			}
+		}
+	}]
+}

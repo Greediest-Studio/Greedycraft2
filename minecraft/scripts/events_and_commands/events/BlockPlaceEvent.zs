@@ -33,8 +33,10 @@ val cannotbeplacedblock as string[] = [
 ];
 
 events.onBlockPlace(function(event as BlockPlaceEvent) {
-    if cannotbeplacedblock has event.block.definition.id && !event.player.creative {
-        event.player.sendChat("§2你的偷鸡行为被小白菌阻止了！！！");
-        event.cancel();
-    }
+    if (!isNull(event.player)){
+        if cannotbeplacedblock has event.block.definition.id && !event.player.creative {
+            event.player.sendChat("§2你的偷鸡行为被小白菌阻止了！！！请去jei寻找对应机器控制器");
+            event.cancel();
+            }
+        }
 });

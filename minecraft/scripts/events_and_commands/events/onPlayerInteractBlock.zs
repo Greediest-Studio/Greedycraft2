@@ -69,19 +69,6 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
         event.player.health = 0.0f;
         event.cancel();
     }
-    //Disabled Default Modular Controller
-    if (!isNull(event.player.mainHandHeldItem)) {
-        if (event.player.mainHandHeldItem.definition.id == "modularmachinery:blockcontroller" && !event.world.remote && !event.player.creative) {
-            client.player.sendChat("§c你无法放置该物品！");
-            event.cancel();
-        }
-    }
-    if (!isNull(event.player.offHandHeldItem)) {
-        if (event.player.offHandHeldItem.definition.id == "modularmachinery:blockcontroller" && !event.world.remote && !event.player.creative) {
-            client.player.sendChat("§c你无法放置该物品！");
-            event.cancel();
-        }
-    }
     //Store the dimension ID in the Dimensional Miner
     if (event.block.definition.id == "modularmachinery:dimensional_miner_factory_controller" && !event.world.remote && event.hand == "MAIN_HAND") {
         var controller as IMachineController = MachineController.getControllerAt(event.world, event.position);

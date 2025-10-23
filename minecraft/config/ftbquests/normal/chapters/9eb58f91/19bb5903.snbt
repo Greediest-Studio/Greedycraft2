@@ -1,7 +1,10 @@
 {
 	x: -5.0d,
 	y: 7.0d,
-	description: "需要在驱动器放入存储矩阵             shift右键放入存储矩阵",
+	text: [
+		"需要在驱动器放入存储矩阵",
+		"shift右键放入存储矩阵"
+	],
 	dependencies: [
 		"45d360e6"
 	],
