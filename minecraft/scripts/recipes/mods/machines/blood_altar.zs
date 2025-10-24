@@ -366,13 +366,19 @@ function addAltarRecipe(input as IIngredient, output as IItemStack, LP as int, l
     });
     recipe.addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
         val parallelism as int = event.activeRecipe.parallelism;
-        if ((event.controller.getAltarLP() < (economyCount(event) * LP * parallelism) as long) && (event.activeRecipe.totalTick - event.activeRecipe.tick) == 1) {
-            event.preventProgressing("生命源质不足，需要总计" ~ (economyCount(event) * LP * parallelism) as long as string ~ "点生命源质");
+        var speed as int = event.controller.getAltarSpeed() / 20 * levelSpeedMutiplierMap[level] as int;
+        var time as int = Math.ceil((LP as double * economyCount(event)) / (speed as double)) as int;
+        if (event.controller.getAltarLP() < (economyCount(event) * LP * parallelism / time) as long) {
+            if (event.activeRecipe.tick > 2) {
+                event.activeRecipe.tick -= 2;
+                event.preventProgressing("生命源质不足，需要每tick" ~ (economyCount(event) * LP * parallelism / time) as long as string ~ "点生命源质");
+            } else {
+                event.setFailed(true,"生命源质不足，需要每tick" ~ (economyCount(event) * LP * parallelism / time) as long as string ~ "点生命源质，合成进度已回退至0");
+            }
+            event.controller.customData = event.controller.customData.update({LP : 0 as long});
+        } else {
+            event.controller.customData = event.controller.customData.update({LP : event.controller.getAltarLP() - ((economyCount(event) * LP * parallelism / time) as long) as long});
         }
-    });
-    recipe.addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
-        val parallelism as int = event.activeRecipe.parallelism;
-        event.controller.customData = event.controller.customData.update({LP : event.controller.getAltarLP() - ((economyCount(event) * LP * parallelism) as long) as long});
     });
     recipe.addRecipeTooltip("§e需求血之祭坛等级：" ~ (level as string));
     recipe.addRecipeTooltip("§e需求生命源质：" ~ (LP as string) ~ "点");

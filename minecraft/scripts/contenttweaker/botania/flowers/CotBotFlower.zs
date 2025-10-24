@@ -244,8 +244,8 @@ running_machine.onUpdate = function(subtile, world, pos) {
                     subtile.addMana(50);
                 }
                 if(!player.isSneaking){
-                    if(world.worldInfo.getWorldTotalTime() % 4 ==0)
-                        Commands.call("tp @p " + (pos.x + 0.5) + " " + pos.y + " " + (pos.z + 0.5), player, world,false,true);
+                    //if(world.worldInfo.getWorldTotalTime() % 4 ==0)
+                    Commands.call("tp @p " + (pos.x + 0.5) + " " + pos.y + " " + (pos.z + 0.5), player, world,false,true);
                 }
             }
         }
@@ -378,7 +378,7 @@ eat_iron.onUpdate = function(subtile, world, pos) {
                 if(!isNull(world.getBlock(i).definition)){
                     if(world.getBlock(i).definition.id.contains("iron")){
                         Commands.call("playsound minecraft:entity.generic.drink record @p", null, world, false, true);
-                        say("§d[作者姬]§r§f：§r§e干了这杯铁!");
+                        if (!world.remote) {say("§d[作者姬]§r§f：§r§e干了这杯铁!");}
                         world.setBlockState(<blockstate:minecraft:air>, i);
                         subtile.addMana(1000);
                     }

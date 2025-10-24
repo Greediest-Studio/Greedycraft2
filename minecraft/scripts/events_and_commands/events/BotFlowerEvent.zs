@@ -47,7 +47,7 @@ events.onCropGrowPre(function(event as CropGrowPreEvent) {
                     agriculturalposstr : (agricultural_flowers_posstr.replace(("/" + str), ""))
                 };
                 flowerworld.updateCustomWorldData(data);
-            }else{
+            }else if ((blockstate.getPropertyNames() has "age") && (blockstate.getAllowedValuesForProperty("age").length != 0)) {
                 // var cropage as int = blockstate.getPropertyValue("age") as int;
                 // var cropallage as string[] = blockstate.getAllowedValuesForProperty("age");
                 if(blockstate.getPropertyValue("age") == blockstate.getAllowedValuesForProperty("age")[blockstate.getAllowedValuesForProperty("age").length - 1]){
@@ -99,7 +99,7 @@ events.onManaChange(function(event as ManaChangeEvent) {
                 if(str0 == str1){
                     mirrorpostile.addMana((event.getMana() / 2) as int);
                 }else{
-                    say("§d[作者姬]§r§f：§r§e链接出现错误，已断开");
+                    if (!world.remote) {say("§d[作者姬]§r§f：§r§e链接出现错误，已断开");}
                     tile.setCustomData({mirrorpos : "null"});
                 }
             }
@@ -136,7 +136,7 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
                         }else{
                             var pass as bool = (tile.getCustomData().diamond.asInt() == 1);
                             if(pass){
-                                player.sendMessage("§d[作者姬]§r§f：§r§e绑定钻石已给出");
+                                if (!world.remote) {player.sendMessage("§d[作者姬]§r§f：§r§e绑定钻石已给出");}
                             }else{
                                 var str as string = getStrFromPos(blockpos);
                                 player.currentItem.mutable().shrink(1);
@@ -155,7 +155,7 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
                             if(str0 != posstr0){
                                 var pass as bool = (tile.getCustomData().diamond.asInt() == 1);
                                 if(pass){
-                                    player.sendMessage("§d[作者姬]§r§f：§r§e绑定钻石已给出");
+                                    if (!world.remote) {player.sendMessage("§d[作者姬]§r§f：§r§e绑定钻石已给出");}
                                 }else{
                                     var str as string = getStrFromPos(blockpos);
                                     player.currentItem.mutable().shrink(1);
@@ -163,13 +163,13 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
                                     tile.updateCustomData({diamond : 1 as int});
                                 }
                             }else{
-                                player.sendMessage("§d[作者姬]§r§f：§r§e已经被链接了...");
+                                if (!world.remote) {player.sendMessage("§d[作者姬]§r§f：§r§e已经被链接了...");}
                             }
                         }
                     }else{
                         var pass as bool = (tile.getCustomData().diamond.asInt() == 1);
                         if(pass){
-                            player.sendMessage("§d[作者姬]§r§f：§r§e绑定钻石已给出");
+                            if (!world.remote) {player.sendMessage("§d[作者姬]§r§f：§r§e绑定钻石已给出");}
                         }else{
                             var str as string = getStrFromPos(blockpos);
                             player.currentItem.mutable().shrink(1);
@@ -198,7 +198,7 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
                             var tile0 as SubTileEntityInGame = world.getSubTileEntityInGame(pos0);
                             tile0.setCustomData({mirrorpos : "null"});
                         }
-                        player.sendMessage("§d[作者姬]§r§f：§r§e已经更换链接");
+                        if (!world.remote) {player.sendMessage("§d[作者姬]§r§f：§r§e已经更换链接");}
                         mirrorpostile.updateCustomData({tilepos : str0});
                     }else{
                         mirrorpostile.updateCustomData({tilepos : str0});
@@ -207,9 +207,9 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
                 }
 
                 if(isNull(tile) || isNull(tile.getCustomData().mirrorpos)){
-                    player.sendMessage("§d[作者姬]§r§f：§r§e已链接~");
+                    if (!world.remote) {player.sendMessage("§d[作者姬]§r§f：§r§e已链接~");}
                 }else{
-                    player.sendMessage("§d[作者姬]§r§f：§r§e更新所链接的镜像花~");
+                    if (!world.remote) {player.sendMessage("§d[作者姬]§r§f：§r§e更新所链接的镜像花~");}
                 }
 
                 
@@ -220,7 +220,7 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
                 }
 
             }else{
-                player.sendMessage("§d[作者姬]§r§f：§r§e请勿套娃!");
+                if (!world.remote) {player.sendMessage("§d[作者姬]§r§f：§r§e请勿套娃!");}
             }
         }
     }
