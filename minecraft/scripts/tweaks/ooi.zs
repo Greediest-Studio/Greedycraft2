@@ -39,9 +39,9 @@ ConversionItem.create(<thermalfoundation:material:129>).addMatchItem(<ore:ingotT
 ConversionItem.create(<additions:manganese_ingot>).addMatchItem(<ore:ingotManganese>).register();
 ConversionItem.create(<additions:titanium_ingot>).addMatchItem(<ore:ingotTitanium>).register();
 ConversionItem.create(<additions:shadowium_ingot>).addMatchItem(<extrabotany:material:5>).register();
-ConversionItem.create(<thermalfoundation:storage:4>).addMatchItem(<ore:blockAluminum>).register();
-ConversionItem.create(<tconstruct:metal>).addMatchItem(<ore:blockCobalt>).register();
-ConversionItem.create(<taiga:palladium_block>).addMatchItem(<ore:blockPalladium>).register();
+ConversionItem.create(<thermalfoundation:storage:4>).addMatchItem(<nuclearcraft:ingot_block:12>).register();
+ConversionItem.create(<tconstruct:metal>).addMatchItem(<nuclearcraft:material_block:2>).register();
+ConversionItem.create(<taiga:palladium_block>).addMatchItem(<nuclearcraft:ingot_block2:1>).register();
 ConversionItem.create(<taiga:palladium_ingot>).addMatchItem(<ore:ingotPalladium>).register();
 ConversionItem.create(<biomesoplenty:gem:6>).addMatchItem(<ore:gemSapphire>).register();
 ConversionItem.create(<biomesoplenty:gem_block:6>).addMatchItem(<ore:blockSapphire>).register();
