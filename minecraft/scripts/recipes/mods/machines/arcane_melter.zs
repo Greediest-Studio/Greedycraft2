@@ -43,29 +43,30 @@ MMEvents.onControllerGUIRender("arcane_melter", function(event as ControllerGUIR
     val ctrl = event.controller;
     var info as string[] = ["§a///源质升华炉控制面板///", "§a机器名称：§eLV4 - 源质升华炉"];
     info += "§a最大单次处理数量：" ~ (isNull(ctrl.customData.parallel) ? 1 : ctrl.customData.parallel) as string;
-    info += "§a物品输入仓坐标：" ~ ((isNull(ctrl.customData.inputPos) || ctrl.customData.inputPos.length == 0) ? "未识别到" : ctrl.customData.inputPos[0] as string ~ "," ~ ctrl.customData.inputPos[1] as string ~ "," ~ ctrl.customData.inputPos[2] as string);
+    info += "§a物品输入仓数量：" ~ ((isNull(ctrl.customData.inputPos) || ctrl.customData.inputPos.length == 0) ? "未识别到" : ctrl.customData.inputPos.asList().length as string);
     info += "§a能源输入仓坐标：" ~ ((isNull(ctrl.customData.energyInputPos) || ctrl.customData.energyInputPos.length == 0) ? "未识别到" : ctrl.customData.energyInputPos[0] as string ~ "," ~ ctrl.customData.energyInputPos[1] as string ~ "," ~ ctrl.customData.energyInputPos[2] as string);
-    info += "§a输出仓坐标：" ~ ((isNull(ctrl.customData.outputPos) || ctrl.customData.outputPos.length == 0) ? "未识别到" : ctrl.customData.outputPos[0] as string ~ "," ~ ctrl.customData.outputPos[1] as string ~ "," ~ ctrl.customData.outputPos[2] as string);
+    info += "§a源质输出仓坐标：" ~ ((isNull(ctrl.customData.outputPos) || ctrl.customData.outputPos.length == 0) ? "未识别到" : ctrl.customData.outputPos[0] as string ~ "," ~ ctrl.customData.outputPos[1] as string ~ "," ~ ctrl.customData.outputPos[2] as string);
     event.extraInfo = info;
 });
 
 MMEvents.onStructureUpdate("arcane_melter", function(event as MachineStructureUpdateEvent) {
     val ctrl = event.controller;
+    var data = ctrl.customData;
     
     if (!ctrl.world.isRemote()) {
         var baseparallel = 16 as int;
-        baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:0>) * 4;
-        baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:1>) * 16;
-        baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:2>) * 64;
-        baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:3>) * 256;
-        baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:4>) * 1024;
-        ctrl.customData = ctrl.customData.update({baseParallel: baseparallel});
-
         var posStart = [ctrl.pos.x,ctrl.pos.y,ctrl.pos.z];
         var posEnd = [ctrl.pos.x,ctrl.pos.y,ctrl.pos.z];
         var input = [] as int[];
         var output = [] as int[];
         var energyInput = [] as int[];
+        baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:0>) * 4;
+        baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:1>) * 16;
+        baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:2>) * 64;
+        baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:3>) * 256;
+        baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:4>) * 1024;
+        data = data.update({baseParallel: baseparallel});
+
         if (ctrl.facing == IFacing.west()) {
             posStart[0] = posStart[0] + 14;
             posStart[1] = posStart[1] + 10;
@@ -103,21 +104,24 @@ MMEvents.onStructureUpdate("arcane_melter", function(event as MachineStructureUp
         var y = posStart[1];
         var z = posStart[2];
 
-        while ((x >= posEnd[0]) && ((input.length == 0) || (output.length == 0))) {
-            while ((y >= posEnd[1]) && ((input.length == 0) || (output.length == 0))) {
-                while ((z >= posEnd[2]) && ((input.length == 0) || (output.length == 0) || (energyInput.length == 0))) {
+        if (!isNull(data.inputPos)) {
+            data = data.deepUpdate({inputPos: data.inputPos},REMOVE);
+        }
+        while (x >= posEnd[0]) {
+            while (y >= posEnd[1]) {
+                while (z >= posEnd[2]) {
                     var block = ctrl.world.getBlock(x,y,z);
                     if ((block.definition.id has "modularmachinery:blockinputbus") || (block.definition.id == "modularmachinery:blockmeiteminputbus") || (block.definition.id == "modularmachinery:blockmepatternprovider")) {
                         input = [x,y,z];
-                        ctrl.customData = ctrl.customData.deepUpdate({inputPos: input},{inputPos: OVERWRITE});
+                        data = data.deepUpdate({inputPos: [input]},{inputPos: APPEND});
                     }
                     else if ((block.definition.id has "gugu-utils:aspecthatch") || (block.definition.id == "whimcraft:blockmeaspectoutputbus")) {
                         output = [x,y,z];
-                        ctrl.customData = ctrl.customData.deepUpdate({outputPos: output},{outputPos: OVERWRITE});
+                        data = data.deepUpdate({outputPos: output},{outputPos: OVERWRITE});
                     }
                     else if (block.definition.id has "modularmachinery:blockenergyinputhatch") {
                         energyInput = [x,y,z];
-                        ctrl.customData = ctrl.customData.deepUpdate({energyInputPos: energyInput},{energyInputPos: OVERWRITE});
+                        data = data.deepUpdate({energyInputPos: energyInput},{energyInputPos: OVERWRITE});
                     }
                     z -= 1;
                 }
@@ -127,14 +131,14 @@ MMEvents.onStructureUpdate("arcane_melter", function(event as MachineStructureUp
             x -= 1;
             y = posStart[1];
         }
+        ctrl.customData = data;
     }
 });
 
 MMEvents.onMachinePreTick("arcane_melter", function(event as MachineTickEvent) {
     val ctrl = event.controller;
 
-    if (!(ctrl.world.isRemote()) && !isNull(ctrl.customData.inputPos) && (ctrl.customData.inputPos.length != 0) && !isNull(ctrl.customData.outputPos) && (ctrl.customData.outputPos.length != 0) && (ctrl.world.getWorldTime() % 20 == 0)) {
-        val input = ctrl.world.getItemHandler(IBlockPos.create(ctrl.customData.inputPos[0],ctrl.customData.inputPos[1],ctrl.customData.inputPos[2]));
+    if (!(ctrl.world.isRemote()) && !isNull(ctrl.customData.inputPos) && (ctrl.customData.inputPos.length != 0) && (ctrl.customData.inputPos[0].length != 0) && !isNull(ctrl.customData.outputPos) && (ctrl.customData.outputPos.length != 0) && (ctrl.world.getWorldTime() % 20 == 0)) {
         val energyInputPos = IBlockPos.create(ctrl.customData.energyInputPos[0],ctrl.customData.energyInputPos[1],ctrl.customData.energyInputPos[2]);
         val outputPos = IBlockPos.create(ctrl.customData.outputPos[0],ctrl.customData.outputPos[1],ctrl.customData.outputPos[2]);
         var data = ctrl.world.getBlock(outputPos).data;
@@ -145,35 +149,39 @@ MMEvents.onMachinePreTick("arcane_melter", function(event as MachineTickEvent) {
         var needenergy = 0 as long;
 
         ctrl.customData = ctrl.customData.update({parallel: parallel});
-
-        for solt , item in input {
-            if (!isNull(item)) {
-                var aspectList = item.getAspects();
-                if (item.amount <= (parallel - count)) {
-                    for aspect in aspectList {
-                        if (isNull(aspectsMap[aspect.getName().toLowerCase()])) {
-                            aspectsMap[aspect.getName().toLowerCase()] = (aspectList.getAmount(aspect) * item.amount);
+        var n = 0;
+        while (n <= (ctrl.customData.inputPos.length - 1)) {
+            val input = ctrl.world.getItemHandler(IBlockPos.create(ctrl.customData.inputPos[n][0],ctrl.customData.inputPos[n][1],ctrl.customData.inputPos[n][2]));
+            for solt , item in input {
+                if (!isNull(item)) {
+                    var aspectList = item.getAspects();
+                    if (item.amount <= (parallel - count)) {
+                        for aspect in aspectList {
+                            if (isNull(aspectsMap[aspect.getName().toLowerCase()])) {
+                                aspectsMap[aspect.getName().toLowerCase()] = (aspectList.getAmount(aspect) * item.amount);
+                            }
+                            else {
+                                aspectsMap[aspect.getName().toLowerCase()] = aspectsMap[aspect.getName().toLowerCase()] + (aspectList.getAmount(aspect) * item.amount);
+                            }
                         }
-                        else {
-                            aspectsMap[aspect.getName().toLowerCase()] = aspectsMap[aspect.getName().toLowerCase()] + (aspectList.getAmount(aspect) * item.amount);
-                        }
+                        input.setStackInSlot(solt,null);
+                     count += item.amount;
                     }
-                    input.setStackInSlot(solt,null);
-                    count += item.amount;
-                }
-                else {
-                    for aspect in aspectList {
-                        if (isNull(aspectsMap[aspect.getName().toLowerCase()])) {
-                            aspectsMap[aspect.getName().toLowerCase()] = (aspectList.getAmount(aspect) * (parallel - count));
+                    else {
+                        for aspect in aspectList {
+                            if (isNull(aspectsMap[aspect.getName().toLowerCase()])) {
+                                aspectsMap[aspect.getName().toLowerCase()] = (aspectList.getAmount(aspect) * (parallel - count));
+                            }
+                            else {
+                                aspectsMap[aspect.getName().toLowerCase()] = aspectsMap[aspect.getName().toLowerCase()] + (aspectList.getAmount(aspect) * (parallel - count));
+                            }
                         }
-                        else {
-                            aspectsMap[aspect.getName().toLowerCase()] = aspectsMap[aspect.getName().toLowerCase()] + (aspectList.getAmount(aspect) * (parallel - count));
-                        }
+                        input.setStackInSlot(solt,item.withAmount(item.amount - (parallel - count)));
+                        count += (parallel - count);
                     }
-                    input.setStackInSlot(solt,item.withAmount(item.amount - (parallel - count)));
-                    count += (parallel - count);
                 }
             }
+            n += 1;
         }
 
         if (!isNull(data.Aspects) && (data.Aspects.asList().length != 0)) {
@@ -197,7 +205,7 @@ MMEvents.onMachinePreTick("arcane_melter", function(event as MachineTickEvent) {
         }
         for name , amount in aspectsMap {
             data = data.deepUpdate({Aspects: [{amount: (amount as int),key: name}]},{Aspects: APPEND});
-            needenergy += (100 * amount) as long;
+            needenergy += (100l * amount as long * pow(2,n - 1)) as long;
         }
         if (!isNull(ctrl.world.getBlock(energyInputPos).data.energy) && ctrl.world.getBlock(energyInputPos).data.energy.asLong() >= needenergy) {
             ctrl.world.setBlockState(ctrl.world.getBlockState(energyInputPos),ctrl.world.getBlock(energyInputPos).data.deepUpdate({energy: (ctrl.world.getBlock(energyInputPos).data.energy.asLong() - needenergy)}),energyInputPos);
@@ -210,9 +218,10 @@ RecipeBuilder.newBuilder("aspect","arcane_melter", 20)
     .addEnergyPerTickInput(100)
     .addItemInput(<minecraft:tnt>.withTag({ench: [{lvl: 1, id: 255}]})).setPreViewNBT({ench: [{lvl: 100, id: 3}], display: {Lore: ["§9所有放置于输入仓的物品都将被消耗"], Name: "§7示例输入"}})
     .addRecipeTooltip("§9物品输入仓(支持ME输入仓)，源质输出仓(同上)，能源输入仓均至少放置一个")
-    .addRecipeTooltip("§9且会自动选取且仅选取各一个仓室进行输入输出")
+    .addRecipeTooltip("§9且会自动选取且仅选取各一个能源输入仓与源质输出仓")
     .addRecipeTooltip("§9优先选取坐标XYZ值更大者且优先级Z>Y>X")
     .addRecipeTooltip("§9每输出1点源质消耗100RF")
+    .addRecipeTooltip("§9每有一个多于一个物品输入仓耗电x2")
     .addRecipeTooltip("§9配方运行结束时若能源输入仓中RF不足则不输出源质")
     .addRecipeTooltip("§9自带16并行")
     .build();
