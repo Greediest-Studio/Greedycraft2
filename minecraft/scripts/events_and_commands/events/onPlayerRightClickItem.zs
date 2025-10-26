@@ -5,7 +5,6 @@
 
 
 #priority 90
-#reloadable
 
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.IPlayerEvent;
@@ -23,6 +22,7 @@ import crafttweaker.block.IBlock;
 import crafttweaker.world.IBlockPos;
 import crafttweaker.block.IBlockState;
 import crafttweaker.potions.IPotionEffect;
+import crafttweaker.potions.IPotion;
 import crafttweaker.world.IFacing;
 import crafttweaker.command.ICommandSender;
 import crafttweaker.text.ITextComponent;
@@ -34,6 +34,12 @@ import crafttweaker.world.IWorld;
 import mods.contenttweaker.World;
 import mods.zenutils.ICatenationBuilder;
 
+import mods.zenutils.DataUpdateOperation.OVERWRITE;
+import mods.zenutils.DataUpdateOperation.APPEND;
+import mods.zenutils.DataUpdateOperation.MERGE;
+import mods.zenutils.DataUpdateOperation.REMOVE;
+import mods.zenutils.DataUpdateOperation.BUMP;
+
 import native.c4.conarm.lib.armor.ArmorCore;
 
 events.onPlayerRightClickItem(function(event as PlayerRightClickItemEvent) {
@@ -43,7 +49,7 @@ if (!isNull(event.item) && !event.world.isRemote()) {
     var player as IPlayer = event.player;
     
     //orbTier fix
-    if (event.item.definition.id == "forbiddenmagicre:eldritch_orb") {
+    if (event.item.definition.id == "forbiddenmagicre:eldritch_orb" && event.hand == "MAIN_HAND") {
         event.world.catenation().sleep(1).then(function(world as IWorld, context) {player.soulNetwork.orbTier = 7;}).start();
     }
 
@@ -73,6 +79,89 @@ if (!isNull(event.item) && !event.world.isRemote()) {
         for entity in event.world.getEntities() {
             if (!(entity instanceof IPlayer)) {
                 entity.removeFromWorld();
+            }
+        }
+    }
+
+    //Order Container
+    var passedPotionList as IPotion[] = [
+        <potion:abyssalcraft:antimatter>,
+        <potion:thaumcraft:infectiousvisexhaust>,
+        <potion:thebetweenlands:effect_ripening>,
+        <potion:potioncore:vulnerable>
+    ];
+    if (event.item.definition.id == "additions:ordered_bone_key_container" && event.hand == "MAIN_HAND") {
+        var item as IItemStack = event.item;
+        if (!isNull(player.activePotionEffects)) {
+            var counter as int = 0;
+            for potionEffect in player.activePotionEffects {
+                var effect as IPotionEffect = potionEffect as IPotionEffect;
+                if (!isNull(effect) && passedPotionList has effect.potion) {
+                    counter += 1;
+                }
+            }
+            if (counter == 4) {
+                item.mutable().shrink(1);
+                for potion in passedPotionList {
+                    player.removePotionEffect(potion);
+                }
+                player.sendChat("§e你感受到一股吸力传来，而后你觉得浑身清爽。");
+                player.give(<additions:ordered_bone_key_compass>);
+            } else {
+                player.sendChat("§c你还没有集齐所有的效果！吸收失败！");
+            }
+        }
+    }
+
+    //Order Compass
+    if (event.item.definition.id == "additions:ordered_bone_key_compass" && event.hand == "MAIN_HAND") {
+        var item as IItemStack = event.item;
+        if (player.isSneaking) {
+            item.mutable().updateTag({compassData : {
+                startTime : event.world.time as long,
+                biomeList : []
+            }});
+            player.sendStatusMessage("§a罗盘数据已初始化！请右击以记录当前生物群系！");
+        } else {
+            if (isNull(item.tag.compassData)) {
+                player.sendStatusMessage("§f罗盘数据已重置！");
+            } else {
+                var biomeList as IData = item.tag.compassData.biomeList;
+                var biomeId as string = event.world.getBiome(player.position).id as string;
+                if (biomeList.asList().length != 0) {
+                    var pass as bool = true;
+                    var newBiome as IData = {id : biomeId};
+                    for biome in biomeList.asList() {
+                        if (biome.id as string == biomeId) {
+                            pass = false;
+                            player.sendStatusMessage("§c已经记录该生物群系！不能重复记录！");
+                            break;
+                        }
+                    }
+                    if (pass) {
+                        item.mutable().updateTag(item.tag.deepUpdate({compassData : {
+                            biomeList : [newBiome]
+                        }}, MERGE));
+                        player.sendStatusMessage("§b成功记录当前生物群系：" + event.world.getBiome(player.position).name as string);
+                    }
+                } else {
+                    var newBiome as IData = {id : biomeId};
+                    item.mutable().updateTag({compassData : {biomeList : [newBiome]}});
+                    player.sendStatusMessage("§b成功记录当前生物群系：" + event.world.getBiome(player.position).name as string);
+                }
+                if (biomeList.asList().length >= 8) {
+                    if ((event.world.time - item.tag.compassData.startTime as long) <= 1200) {
+                        player.sendChat("§a你感受到罗盘的力量达到了顶峰！");
+                        item.mutable().shrink(1);
+                        player.give(<additions:ordered_bone_key_dice>);
+                    } else {
+                        player.sendChat("§c记录生物群系超时！请重新开始记录！");
+                        item.mutable().updateTag({compassData : {
+                            startTime : event.world.time as long,
+                            biomeList : []
+                        }});
+                    }
+                }
             }
         }
     }
