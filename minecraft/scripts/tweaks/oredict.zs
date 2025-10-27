@@ -1107,7 +1107,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <iceandfire:dragonscales_black>,
         <iceandfire:dragonscales_sapphire>,
         <iceandfire:dragonscales_copper>
-    ]
+    ],
+    <ore:button> : [<minecraft:stone_button>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {

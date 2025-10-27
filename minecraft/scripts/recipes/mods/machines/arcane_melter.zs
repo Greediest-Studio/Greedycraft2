@@ -139,7 +139,6 @@ MMEvents.onMachinePreTick("arcane_melter", function(event as MachineTickEvent) {
     val ctrl = event.controller;
 
     if (!(ctrl.world.isRemote()) && !isNull(ctrl.customData.inputPos) && (ctrl.customData.inputPos.length != 0) && (ctrl.customData.inputPos[0].length != 0) && !isNull(ctrl.customData.outputPos) && (ctrl.customData.outputPos.length != 0) && (ctrl.world.getWorldTime() % 20 == 0)) {
-        val energyInputPos = IBlockPos.create(ctrl.customData.energyInputPos[0],ctrl.customData.energyInputPos[1],ctrl.customData.energyInputPos[2]);
         val outputPos = IBlockPos.create(ctrl.customData.outputPos[0],ctrl.customData.outputPos[1],ctrl.customData.outputPos[2]);
         var data = ctrl.world.getBlock(outputPos).data;
         var parallel = isNull(ctrl.customData.baseParallel) ? 1 as int : ctrl.customData.baseParallel as int;
@@ -207,9 +206,12 @@ MMEvents.onMachinePreTick("arcane_melter", function(event as MachineTickEvent) {
             data = data.deepUpdate({Aspects: [{amount: (amount as int),key: name}]},{Aspects: APPEND});
             needenergy += (100l * amount as long * pow(2,n - 1)) as long;
         }
-        if (!isNull(ctrl.world.getBlock(energyInputPos).data.energy) && ctrl.world.getBlock(energyInputPos).data.energy.asLong() >= needenergy) {
-            ctrl.world.setBlockState(ctrl.world.getBlockState(energyInputPos),ctrl.world.getBlock(energyInputPos).data.deepUpdate({energy: (ctrl.world.getBlock(energyInputPos).data.energy.asLong() - needenergy)}),energyInputPos);
-            ctrl.world.setBlockState(ctrl.world.getBlockState(outputPos),data,outputPos);
+        if (!isNull(ctrl.customData.energyInputPos)) {
+            val energyInputPos = IBlockPos.create(ctrl.customData.energyInputPos[0],ctrl.customData.energyInputPos[1],ctrl.customData.energyInputPos[2]);
+            if (!isNull(ctrl.world.getBlock(energyInputPos).data.energy) && ctrl.world.getBlock(energyInputPos).data.energy.asLong() >= needenergy) {
+                ctrl.world.setBlockState(ctrl.world.getBlockState(energyInputPos),ctrl.world.getBlock(energyInputPos).data.deepUpdate({energy: (ctrl.world.getBlock(energyInputPos).data.energy.asLong() - needenergy)}),energyInputPos);
+                ctrl.world.setBlockState(ctrl.world.getBlockState(outputPos),data,outputPos);
+            }
         }
     }
 });
