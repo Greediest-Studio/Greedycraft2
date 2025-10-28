@@ -464,7 +464,8 @@ val removedRecipes as IIngredient[] = [
     <journey:smithstonedust>,
     <nuclearcraft:material_block:2>,
     <elementalend:aether_eye>,
-    <elementalend:nether_eye>
+    <elementalend:nether_eye>,
+    <moretcon:itemtrichromadentiumsponge:1>
 ];
 
 val removedRecipeNames as string[] = [

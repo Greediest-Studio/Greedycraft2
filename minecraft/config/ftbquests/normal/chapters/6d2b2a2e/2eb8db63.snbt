@@ -1,0 +1,32 @@
+{
+	title: "§b潜影贝矿石（确信）",
+	x: 3.0d,
+	y: 1.5d,
+	description: "烧炼末地的滋生矿石获得滋生锭",
+	text: [
+		"希望你能顺利挖到吧……"
+	],
+	tasks: [{
+		uid: "767d9524",
+		type: "item",
+		items: [{
+			item: "additions:breedum_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "00f49e35",
+		type: "item",
+		item: "additions:breedum_ingot",
+		count: 4
+	},
+	{
+		uid: "0d393df7",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "eab02c65",
+		type: "xp",
+		xp: 12345
+	}]
+}

@@ -377,3 +377,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:breedum_core>, [
 	[<ore:ingotUracilite>, null, <ore:ingotBalancedMatrix>, null, <ore:ingotUracilite>], 
 	[<ore:ingotBreedum>, <ore:ingotUracilite>, null, <ore:ingotUracilite>, <ore:ingotBreedum>]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <gct_ores:senterian_builder_lab>, [
+	[<ore:ingotMortum>, <ore:gemGorbite>, <ore:ingotMortum>, <ore:gemGorbite>, <ore:ingotMortum>], 
+	[<ore:gemGorbite>, <ore:ingotDullium>, <ore:gemEnderillium>, <ore:ingotDullium>, <ore:gemGorbite>], 
+	[<ore:ingotMortum>, <ore:gemEnderillium>, <ore:ingotChromasteel>, <ore:gemEnderillium>, <ore:ingotMortum>], 
+	[<ore:gemGorbite>, <ore:ingotDullium>, <ore:gemEnderillium>, <ore:ingotDullium>, <ore:gemGorbite>], 
+	[<ore:ingotMortum>, <ore:gemGorbite>, <ore:ingotMortum>, <ore:gemGorbite>, <ore:ingotMortum>]
+]);

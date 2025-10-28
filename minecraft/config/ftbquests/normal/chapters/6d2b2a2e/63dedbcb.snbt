@@ -1,0 +1,49 @@
+{
+	title: "§b学霸狂喜",
+	x: 3.5d,
+	y: 3.5d,
+	description: "合成秩序骨钥",
+	text: [
+		"准备开始解谜吧！"
+	],
+	dependencies: [
+		"2eb8db63"
+	],
+	tasks: [{
+		uid: "6b4c3454",
+		type: "item",
+		items: [{
+			item: "additions:ordered_bone_key"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5734c111",
+		type: "item",
+		item: "moretcon:blockgravitonium",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		uid: "2ef9fff5",
+		type: "item",
+		item: "gct_ores:finallium_ingot",
+		count: 2
+	},
+	{
+		uid: "2dfd55b9",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "84ea86b3",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "03a5e348",
+		type: "xp",
+		xp: 40000
+	}]
+}

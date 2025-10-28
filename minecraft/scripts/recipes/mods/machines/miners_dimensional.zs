@@ -307,7 +307,6 @@ end.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了末地维�
 end.setMaxThreads(1).build();
 
 var twilightf = RecipeBuilder.newBuilder("dim_twilight_forest", "dimensional_miner", 200);
-twilightf.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 twilightf.addEnergyPerTickInput(200);
 twilightf.addPreCheckHandler(function(event as RecipeCheckEvent) {
     if (event.controller.world.dimension != 7) {
