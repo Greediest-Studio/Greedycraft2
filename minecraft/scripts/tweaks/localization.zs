@@ -62,7 +62,7 @@ val localizationMap as string[string][string] = {
         "item.prometheum_dust.name": "普罗姆粉",
         "item.prometheum_ingot.name": "普罗姆锭",
         "fluid.tconstruct.prometheum_fluid.name": "熔融普罗姆",
-        "tile.altar.name": "铸造祭坛",
+        "tile.zensummoning.altar.name": "铸造祭坛",
         "material.duranite.name": "耐力金属",
         "tile.duranite_block.name": "耐力金属块",
         "tile.duranite_ore.name": "耐力金属矿石",
