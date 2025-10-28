@@ -31,7 +31,6 @@ import mods.modularmachinery.Sync;
 import mods.modularmachinery.MMEvents;
 import mods.modularmachinery.ControllerGUIRenderEvent;
 import mods.modularmachinery.MachineTickEvent;
-
 import mods.modularmachinery.IMachineController;
 import mods.modularmachinery.SmartInterfaceData;
 import mods.modularmachinery.MachineModifier;
@@ -39,6 +38,8 @@ import mods.modularmachinery.SmartInterfaceType;
 import mods.modularmachinery.FactoryRecipeThread;
 import mods.modularmachinery.RecipeFinishEvent;
 import mods.modularmachinery.RecipeTickEvent;
+import mods.modularmachinery.MachineUpgradeBuilder;
+import mods.modularmachinery.MachineUpgradeHelper;
 
 MachineModifier.setMaxThreads("biotechnic_computer", 0);
 MachineModifier.setInternalParallelism("biotechnic_computer", 2147483647);
@@ -83,6 +84,13 @@ $expand IMachineController$addEntropy(amount as int) {
 $expand IMachineController$removeEntropy(amount as int) {
     this.setEntropy(this.getEntropy() - amount);
 }
+
+MachineUpgradeBuilder.newBuilder("decode_upgrade", "解码模块升级", 1, 1)
+    .addDescriptions("§b使计算机的解码模块更加高效")
+    .addCompatibleMachines("biotechnic_computer")
+    .buildAndRegister();
+
+MachineUpgradeHelper.addFixedUpgrade(<additions:decode_part>, "decode_upgrade");
 
 MMEvents.onControllerGUIRender("biotechnic_computer", function(event as ControllerGUIRenderEvent) {
     var info as string[] = [

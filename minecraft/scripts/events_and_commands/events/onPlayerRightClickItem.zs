@@ -31,7 +31,10 @@ import crafttweaker.world.IBlockAccess;
 import crafttweaker.command.ICommand;
 import crafttweaker.item.IItemStack;
 import crafttweaker.world.IWorld;
+
 import mods.contenttweaker.World;
+import mods.ctutils.utils.Math;
+
 import mods.zenutils.ICatenationBuilder;
 
 import mods.zenutils.DataUpdateOperation.OVERWRITE;
@@ -41,6 +44,8 @@ import mods.zenutils.DataUpdateOperation.REMOVE;
 import mods.zenutils.DataUpdateOperation.BUMP;
 
 import native.c4.conarm.lib.armor.ArmorCore;
+
+import scripts.util.key as Key;
 
 events.onPlayerRightClickItem(function(event as PlayerRightClickItemEvent) {
 
@@ -163,6 +168,25 @@ if (!isNull(event.item) && !event.world.isRemote()) {
                     }
                 }
             }
+        }
+    }
+
+    //Order Dice
+    if (event.item.definition.id == "additions:ordered_bone_key_dice" && event.hand == "MAIN_HAND") {
+        var item as IItemStack = event.item;
+        if (isNull(item.tag.coordinateData)) {
+            var key as int = (Math.random() * 100000) as int;
+            var x as int = (Math.random() * 20000) as int - 10000;
+            var y as int = (Math.random() * 254) as int + 1;
+            var z as int = (Math.random() * 20000) as int - 10000;
+            var encoded as string = Key.encodeCoordinate(x, y, z, key);
+            item.mutable().updateTag({coordinateData : {
+                key : key as int,
+                encoded : encoded as string
+            }});
+            player.sendStatusMessage("§a骰子已经初始化！");
+        } else {
+            player.sendChat("§e骰子上显示了一行奇特的字符：" + item.tag.coordinateData.encoded as string);
         }
     }
 
