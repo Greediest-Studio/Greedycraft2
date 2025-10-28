@@ -186,7 +186,7 @@ if (!isNull(event.item) && !event.world.isRemote()) {
             }});
             player.sendStatusMessage("§a骰子已经初始化！");
         } else {
-            player.sendChat("§e骰子上显示了一行奇特的字符：" + item.tag.coordinateData.encoded as string);
+            player.sendChat("§e骰子上显示了一行奇特的字符：" + Key.toBinaryBox(item.tag.coordinateData.key as int));
         }
     }
 
