@@ -97,9 +97,15 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
             ];
             if (ticToolList has event.player.currentItem.definition.id) {
                 var HarvestLevel as int = event.player.currentItem.getHarvestLevel("pickaxe");
-                controller.customData = controller.customData.update({harvestLevel : HarvestLevel as int});
-                player.sendChat("§a已将采掘等级：" ~ HarvestLevel as string ~ " 绑定到坠星天矛！");
-                event.cancel();
+                if (isNull(controller.customData.harvestLevel) || controller.customData.harvestLevel <= HarvestLevel) {
+                    controller.customData = controller.customData.update({harvestLevel : HarvestLevel as int});
+                    player.sendChat("§a已将采掘等级：" ~ HarvestLevel as string ~ " 绑定到坠星天矛！");
+                    event.cancel();
+                }
+                else {
+                    player.sendChat("§a已绑定更高采掘等级！");
+                    event.cancel();
+                }
             }
         }
     }
