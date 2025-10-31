@@ -16,6 +16,11 @@ import loottweaker.LootTweaker;
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
+import crafttweaker.entity.IEntity;
+import crafttweaker.entity.IEntityLivingBase;
+
+import native.net.minecraft.util.ResourceLocation;
+import native.net.minecraft.entity.EntityLivingBase;
 
 import scripts.util.date as CalendarUtil;
 
@@ -86,6 +91,76 @@ LootTweaker.getTable("journey:mobs/boss/nether_beast").getPool("main").addItemEn
 LootTweaker.getTable("journey:mobs/boss/withering_beast").getPool("main").addItemEntry(<additions:hellite_ingot>, 1, 1, [Functions.setCount(1, 1)], []);
 LootTweaker.getTable("journey:mobs/boss/calcia").getPool("main").addItemEntry(<additions:hellite_ingot>, 1, 1, [Functions.setCount(1, 1)], []);
 LootTweaker.getTable("journey:mobs/boss/soul_watcher").getPool("main").addItemEntry(<additions:hellite_ingot>, 1, 1, [Functions.setCount(1, 1)], []);
+
+LootTweaker.getTable("gct_mobs:entities/bligtz").addPool("bligtz", 1, 1, 0, 0).addItemEntry(<gct_mobs:bligtz_rod>, 1, 1, [Functions.setCount(1, 4)], []);
+LootTweaker.getTable("gct_mobs:entities/bninz").addPool("bninz", 1, 1, 0, 0).addItemEntry(<gct_mobs:bninz_rod>, 1, 1, [Functions.setCount(1, 4)], []);
+LootTweaker.getTable("gct_mobs:entities/bthdz").addPool("bthdz", 1, 1, 0, 0).addItemEntry(<gct_mobs:bthdz_rod>, 1, 1, [Functions.setCount(1, 4)], []);
+LootTweaker.getTable("gct_mobs:entities/bnatuz").addPool("bnatuz", 1, 1, 0, 0).addItemEntry(<gct_mobs:bnatuz_rod>, 1, 1, [Functions.setCount(1, 4)], []);
+
+LootTweaker.getTable("journey:mobs/boss/eudor").removePool("journey:eudor_sword");
+LootTweaker.getTable("divinerpg:entities/vanilla/rainbour").removePool("divinerpg:rainbour");
+LootTweaker.getTable("journey:mobs/overworld/floro").getPool("main").removeEntry("journey:hoeofeternallife");
+LootTweaker.getTable("divinerpg:entities/boss/eternal_archer").removePool("divinerpg:eternal_archer");
+LootTweaker.getTable("divinerpg:entities/boss/ayeraco_green").clear();
+LootTweaker.getTable("divinerpg:entities/boss/ayeraco_green").addPool("divinerpg:ayeraco_statue_drop",1,1,0,0).addItemEntry(<divinerpg:ayeraco_statue_green>,1,1,[Functions.setCount(1,1)],[Conditions.killedByPlayer()]);
+LootTweaker.getTable("divinerpg:entities/boss/ayeraco_green").addPool("divinerpg:shard",1,1,0,0).addItemEntry(<divinerpg:divine_shards>,1,1,[Functions.setCount(2,3)],[]);
+LootTweaker.getTable("divinerpg:entities/boss/ayeraco_red").clear();
+LootTweaker.getTable("divinerpg:entities/boss/ayeraco_red").addPool("divinerpg:ayeraco_statue_drop",1,1,0,0).addItemEntry(<divinerpg:ayeraco_statue_red>,1,1,[Functions.setCount(1,1)],[Conditions.killedByPlayer()]);
+LootTweaker.getTable("divinerpg:entities/boss/ayeraco_red").addPool("divinerpg:shard",1,1,0,0).addItemEntry(<divinerpg:divine_shards>,1,1,[Functions.setCount(2,3)],[]);
+LootTweaker.getTable("divinerpg:entities/boss/ayeraco_blue").clear();
+LootTweaker.getTable("divinerpg:entities/boss/ayeraco_blue").addPool("divinerpg:ayeraco_statue_drop",1,1,0,0).addItemEntry(<divinerpg:ayeraco_statue_blue>,1,1,[Functions.setCount(1,1)],[Conditions.killedByPlayer()]);
+LootTweaker.getTable("divinerpg:entities/boss/ayeraco_blue").addPool("divinerpg:shard",1,1,0,0).addItemEntry(<divinerpg:divine_shards>,1,1,[Functions.setCount(2,3)],[]);
+LootTweaker.getTable("divinerpg:entities/boss/ayeraco_yellow").clear();
+LootTweaker.getTable("divinerpg:entities/boss/ayeraco_yellow").addPool("divinerpg:ayeraco_statue_drop",1,1,0,0).addItemEntry(<divinerpg:ayeraco_statue_yellow>,1,1,[Functions.setCount(1,1)],[Conditions.killedByPlayer()]);
+LootTweaker.getTable("divinerpg:entities/boss/ayeraco_yellow").addPool("divinerpg:shard",1,1,0,0).addItemEntry(<divinerpg:divine_shards>,1,1,[Functions.setCount(2,3)],[]);
+LootTweaker.getTable("divinerpg:entities/boss/ayeraco_purple").clear();
+LootTweaker.getTable("divinerpg:entities/boss/ayeraco_purple").addPool("divinerpg:ayeraco_statue_drop",1,1,0,0).addItemEntry(<divinerpg:ayeraco_statue_purple>,1,1,[Functions.setCount(1,1)],[Conditions.killedByPlayer()]);
+LootTweaker.getTable("divinerpg:entities/boss/ayeraco_purple").addPool("divinerpg:shard",1,1,0,0).addItemEntry(<divinerpg:divine_shards>,1,1,[Functions.setCount(2,3)],[]);
+LootTweaker.getTable("journey:mobs/boss/sky_stalker").removePool("journey:sky_stalker_piercer");
+LootTweaker.getTable("journey:mobs/boss/sky_stalker").removePool("journey:sky_stalker_weapons");
+LootTweaker.getTable("journey:mobs/boss/withering_beast").removePool("journey:wither_beast_sword");
+LootTweaker.getTable("journey:mobs/boss/logger").removePool("journey:logger_weapons");
+LootTweaker.getTable("journey:mobs/boss/logger").removePool("journey:logger_helmet");
+LootTweaker.getTable("journey:mobs/boss/logger").removePool("journey:logger_chest");
+LootTweaker.getTable("journey:mobs/boss/logger").removePool("journey:logger_legs");
+LootTweaker.getTable("journey:mobs/boss/logger").removePool("journey:logger_boots");
+LootTweaker.getTable("divinerpg:entities/boss/soul_fiend").removePool("divinerpg:soul_fiend");
+LootTweaker.getTable("divinerpg:entities/boss/sunstorm").getPool("divinerpg:sunstorm").removeEntry("divinerpg:eden_blitz");
+LootTweaker.getTable("divinerpg:entities/boss/reyvor").removePool("divinerpg:reyvor");
+LootTweaker.getTable("journey:mobs/boss/thunderbird").removePool("journey:thunderbird_weapons");
+LootTweaker.getTable("divinerpg:entities/boss/vamacheron").removePool("divinerpg:vamacheron");
+LootTweaker.getTable("journey:mobs/boss/calcia").removePool("journey:calcia_sword");
+LootTweaker.getTable("divinerpg:entities/boss/experienced_cori").removePool("divinerpg:experienced_cori");
+LootTweaker.getTable("journey:mobs/boss/corallator").removePool("journey:corallator_sword");
+LootTweaker.getTable("journey:mobs/boss/corallator").removePool("journey:corallator_bow");
+LootTweaker.getTable("divinerpg:entities/boss/ancient_entity").clear();
+LootTweaker.getTable("divinerpg:entities/boss/ancient_entity").addPool("divinerpg:ancient_entity",1,1,0,0).addItemEntry(<divinerpg:divine_shards>,1,1,[Functions.setCount(3,6)],[]);
+LootTweaker.getTable("divinerpg:entities/boss/ancient_entity").addPool("divinerpg:ancient_entity_statue_drop",1,1,0,0).addItemEntry(<divinerpg:ancient_entity_statue>,1,1,[Functions.setCount(1,1)],[Conditions.killedByPlayer()]);
+LootTweaker.getTable("journey:mobs/boss/soul_watcher").removePool("journey:soul_watcher_helm");
+LootTweaker.getTable("journey:mobs/boss/soul_watcher").removePool("journey:soul_watcher_boots");
+LootTweaker.getTable("journey:mobs/boss/soul_watcher").removePool("journey:soul_watcher_bow");
+LootTweaker.getTable("journey:mobs/boss/soul_watcher").removePool("journey:soul_watcher_chest");
+LootTweaker.getTable("journey:mobs/boss/soul_watcher").removePool("journey:soul_watcher_legs");
+LootTweaker.getTable("divinerpg:entities/boss/densos").removePool("divinerpg:densos");
+LootTweaker.getTable("journey:mobs/boss/scale").removePool("journey:scale_weapons");
+LootTweaker.getTable("journey:mobs/boss/terranian_protector").removePool("journey:terranian_protector_swords");
+LootTweaker.getTable("divinerpg:entities/boss/twilight_demon").removePool("divinerpg:twilight_demon");
+LootTweaker.getTable("divinerpg:entities/boss/termasect").clear();
+LootTweaker.getTable("divinerpg:entities/boss/termasect").addPool("divinerpg:wildwood_fragments",1,1,0,0).addItemEntry(<divinerpg:wildwood_fragments>,1,1,[Functions.setCount(1,4),Functions.lootingEnchantBonus(1,2,8)],[]);
+LootTweaker.getTable("divinerpg:entities/boss/termasect").addPool("divinerpg:wildwood_heart",1,1,0,0).addItemEntry(<divinerpg:wildwood_heart>,1,1,[Functions.setCount(1,4),Functions.lootingEnchantBonus(0,1,1)],[]);
+LootTweaker.getTable("divinerpg:entities/boss/termasect").addPool("divinerpg:wildwood_log",1,1,0,0).addItemEntry(<divinerpg:wildwood_log>,1,1,[Functions.setCount(64,100)],[]);
+LootTweaker.getTable("divinerpg:entities/boss/termasect").addPool("divinerpg:termasect_statue",1,1,0,0).addItemEntry(<divinerpg:termasect_statue>,1,1,[Functions.setCount(1,1)],[Conditions.killedByPlayer()]);
+LootTweaker.getTable("journey:mobs/boss/nether_beast").removePool("journey:nether_beast_sword");
+LootTweaker.getTable("journey:mobs/boss/sentry_king").removePool("journey:sentry_king_weapons");
+LootTweaker.getTable("journey:mobs/overworld/rockite").removePool("journey:rockite_shovel");
+LootTweaker.getTable("journey:mobs/boss/blazier").removePool("journey:blazier_sword");
+LootTweaker.getTable("journey:mobs/boss/blazier").removePool("journey:blazier_bow");
+LootTweaker.getTable("journey:mobs/boss/blazier").removePool("journey:blazier_body");
+LootTweaker.getTable("journey:mobs/boss/blazier").removePool("journey:blazier_legs");
+LootTweaker.getTable("journey:mobs/boss/blazier").removePool("journey:blazier_helmet");
+LootTweaker.getTable("journey:mobs/boss/blazier").removePool("journey:blazier_boots");
+LootTweaker.getTable("journey:mobs/boss/blazier").removePool("journey:blazier_knife");
+LootTweaker.getTable("divinerpg:entities/boss/karot").removePool("divinerpg:karot");
 
 if (CalendarUtil.isChristmas()) {
     for mob in mobList {

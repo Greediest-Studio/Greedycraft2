@@ -16,6 +16,8 @@
 <item:randomportals:upside_down_end_portal_frame>.asBlock().definition.setHarvestLevel("pickaxe", 5);
 
 <item:simplesmelteryaccelerator:smeltery_accelerator>.asBlock().definition.hardness = 4.0f;
+<item:divinerpg:arcanium_extractor>.asBlock().definition.hardness = 200.0f;
+<item:divinerpg:arcanium_extractor>.asBlock().definition.setHarvestLevel("pickaxe", 9);
 
 <item:minecraft:barrier>.asBlock().definition.hardness = 1000.0f;
 <item:minecraft:barrier>.asBlock().definition.setHarvestLevel("pickaxe", 12);
