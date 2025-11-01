@@ -341,3 +341,10 @@ createLootRecipe("cosmilite_loot", [
 ], [
     <additions:darkest_core> * 15
 ], 30, 1.0E6 as long, 0);
+
+//污泥威胁
+createLootRecipe("finallium_loot", [
+    <additions:dirtshape>
+], [
+    <additions:dirtshape> * 6
+], 40, 4.0E6 as long, 0);
