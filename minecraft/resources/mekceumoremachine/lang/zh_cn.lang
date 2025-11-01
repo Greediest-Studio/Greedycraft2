@@ -6,15 +6,15 @@ gui.mekceumoremachine.playerArmor=充能玩家盔甲
 gui.mekceumoremachine.playerInventory=充能玩家物品栏
 gui.mekceumoremachine.chargeMachine=充能机器
 
-tile.WirelessChargingStation.Basic.name=基础供能工厂
-tile.WirelessChargingStation.Advanced.name=高级供能工厂
-tile.WirelessChargingStation.Elite.name=精英供能工厂
-tile.WirelessChargingStation.Ultimate.name=终极供能工厂
+tile.WirelessChargingStation.Basic.name=基础无线充能站
+tile.WirelessChargingStation.Advanced.name=高级无线充能站
+tile.WirelessChargingStation.Elite.name=精英无线充能站
+tile.WirelessChargingStation.Ultimate.name=终极无线充能站
 
-tile.TierElectricPump.Basic.name=基础泵射工厂
-tile.TierElectricPump.Advanced.name=高级泵射工厂
-tile.TierElectricPump.Elite.name=精英泵射工厂
-tile.TierElectricPump.Ultimate.name=终极泵射工厂
+tile.TierElectricPump.Basic.name=基础加速电动泵
+tile.TierElectricPump.Advanced.name=高级加速电动泵
+tile.TierElectricPump.Elite.name=精英加速电动泵
+tile.TierElectricPump.Ultimate.name=终极加速电动泵
 
 tile.TierIsotopicCentrifuge.Basic.name=基础离心工厂
 tile.TierIsotopicCentrifuge.Advanced.name=高级离心工厂
@@ -46,10 +46,10 @@ tile.TierAmbientAccumulator.Advanced.name=高级集气工厂
 tile.TierAmbientAccumulator.Elite.name=精英集气工厂
 tile.TierAmbientAccumulator.Ultimate.name=终极集气工厂
 
-tile.TierRadioactiveWasteBarrel.Basic.name=基础销毁工厂
-tile.TierRadioactiveWasteBarrel.Advanced.name=高级销毁工厂
-tile.TierRadioactiveWasteBarrel.Elite.name=精英销毁工厂
-tile.TierRadioactiveWasteBarrel.Ultimate.name=终极销毁工厂
+tile.TierRadioactiveWasteBarrel.Basic.name=基础核废料大桶
+tile.TierRadioactiveWasteBarrel.Advanced.name=高级核废料大桶
+tile.TierRadioactiveWasteBarrel.Elite.name=精英核废料大桶
+tile.TierRadioactiveWasteBarrel.Ultimate.name=终极核废料大桶
 
 item.CompositeTierInstaller.name=复合升级安装套件
 item.LargeMachineryUpgradeComponents.name=大型机器升级组件

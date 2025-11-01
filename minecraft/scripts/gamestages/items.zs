@@ -1855,7 +1855,7 @@ GameStagesUtil.stageFinal.addIngredients([
     <ore:blockBreedum>
 ], true);
 
-GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators"]);
+GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators", "mekceumoremachine"]);
 GameStagesUtil.stageHardmode.addModId(["avaritia", "draconicevolution", "extrabotany", "projecte", "projectex", "taiga"]);
 GameStagesUtil.stageNether.addModId(["aether_legacy", "cyclicmagic", "touhou_little_maid", "aeble", "theaurorian", "lost_aether"]);
 GameStagesUtil.stageNoobWizard.addModId(["astralsorcery"]);
