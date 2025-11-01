@@ -23,6 +23,7 @@ import mods.modularmachinery.ControllerGUIRenderEvent;
 import mods.modularmachinery.RecipeModifierBuilder;
 import mods.modularmachinery.FactoryRecipeEvent;
 import mods.modularmachinery.FactoryRecipeStartEvent;
+import mods.modularmachinery.FactoryRecipeFinishEvent;
 import crafttweaker.world.IFacing;
 
 import mods.modularmachinery.MMEvents;
@@ -116,6 +117,7 @@ MMEvents.onMachinePreTick("mana_liquefactor", function(event as MachineTickEvent
     var mana = 0 as int;
     var size = [100,4000,16000,64000,204800,1310720,41943040,2147483647] as int[];
     var parallel = 0 as int;
+    var manaData = {parallel: 0} as IData;
 
     if (!(ctrl.world.isRemote()) && !isNull(ctrl.customData.inputPos) && (ctrl.customData.inputPos.length != 0)) {
         var x = 0;
@@ -138,11 +140,11 @@ MMEvents.onMachinePreTick("mana_liquefactor", function(event as MachineTickEvent
             mana = mana + data.mana.asInt();
         }
         if (mana < 1000) {
-            ctrl.customData = ctrl.customData.deepUpdate({parallel: parallel},{parallel: OVERWRITE});
+            ctrl.customData = ctrl.customData.deepUpdate((isNull(ctrl.customData.parallel) ? {parallel: parallel} : {parallel: (parallel + ctrl.customData.parallel)}),{parallel: OVERWRITE});
         }
         else if (mana >= 100000000) {
             parallel = 100000000;
-            ctrl.customData = ctrl.customData.deepUpdate({parallel: parallel},{parallel: OVERWRITE});
+            ctrl.customData = ctrl.customData.deepUpdate((isNull(ctrl.customData.parallel) ? {parallel: parallel} : {parallel: (parallel + ctrl.customData.parallel)}),{parallel: OVERWRITE});
             for i, data in inputData {
                 if (parallel >= data.mana.asInt()) {
                     ctrl.world.setBlockState(ctrl.world.getBlockState(inputPosList[i]),data.deepUpdate({mana: 0},OVERWRITE),inputPosList[i]);
@@ -156,7 +158,7 @@ MMEvents.onMachinePreTick("mana_liquefactor", function(event as MachineTickEvent
         }
         else if (mana >= 10000000) {
             parallel = 10000000;
-            ctrl.customData = ctrl.customData.deepUpdate({parallel: parallel},{parallel: OVERWRITE});
+            ctrl.customData = ctrl.customData.deepUpdate((isNull(ctrl.customData.parallel) ? {parallel: parallel} : {parallel: (parallel + ctrl.customData.parallel)}),{parallel: OVERWRITE});
             for i, data in inputData {
                 if (parallel >= data.mana.asInt()) {
                     ctrl.world.setBlockState(ctrl.world.getBlockState(inputPosList[i]),data.deepUpdate({mana: 0},OVERWRITE),inputPosList[i]);
@@ -170,7 +172,7 @@ MMEvents.onMachinePreTick("mana_liquefactor", function(event as MachineTickEvent
         }
         else if (mana >= 1000000) {
             parallel = 1000000;
-            ctrl.customData = ctrl.customData.deepUpdate({parallel: parallel},{parallel: OVERWRITE});
+            ctrl.customData = ctrl.customData.deepUpdate((isNull(ctrl.customData.parallel) ? {parallel: parallel} : {parallel: (parallel + ctrl.customData.parallel)}),{parallel: OVERWRITE});
             for i, data in inputData {
                 if (parallel >= data.mana.asInt()) {
                     ctrl.world.setBlockState(ctrl.world.getBlockState(inputPosList[i]),data.deepUpdate({mana: 0},OVERWRITE),inputPosList[i]);
@@ -184,7 +186,7 @@ MMEvents.onMachinePreTick("mana_liquefactor", function(event as MachineTickEvent
         }
         else if (mana >= 100000) {
             parallel = 100000;
-            ctrl.customData = ctrl.customData.deepUpdate({parallel: parallel},{parallel: OVERWRITE});
+            ctrl.customData = ctrl.customData.deepUpdate((isNull(ctrl.customData.parallel) ? {parallel: parallel} : {parallel: (parallel + ctrl.customData.parallel)}),{parallel: OVERWRITE});
             for i, data in inputData {
                 if (parallel >= data.mana.asInt()) {
                     ctrl.world.setBlockState(ctrl.world.getBlockState(inputPosList[i]),data.deepUpdate({mana: 0},OVERWRITE),inputPosList[i]);
@@ -198,7 +200,7 @@ MMEvents.onMachinePreTick("mana_liquefactor", function(event as MachineTickEvent
         }
         else if (mana >= 10000) {
             parallel = 10000;
-            ctrl.customData = ctrl.customData.deepUpdate({parallel: parallel},{parallel: OVERWRITE});
+            ctrl.customData = ctrl.customData.deepUpdate((isNull(ctrl.customData.parallel) ? {parallel: parallel} : {parallel: (parallel + ctrl.customData.parallel)}),{parallel: OVERWRITE});
             for i, data in inputData {
                 if (parallel >= data.mana.asInt()) {
                     ctrl.world.setBlockState(ctrl.world.getBlockState(inputPosList[i]),data.deepUpdate({mana: 0},OVERWRITE),inputPosList[i]);
@@ -212,7 +214,7 @@ MMEvents.onMachinePreTick("mana_liquefactor", function(event as MachineTickEvent
         }
         else if (mana >= 1000) {
             parallel = 1000;
-            ctrl.customData = ctrl.customData.deepUpdate({parallel: parallel},{parallel: OVERWRITE});
+            ctrl.customData = ctrl.customData.deepUpdate((isNull(ctrl.customData.parallel) ? {parallel: parallel} : {parallel: (parallel + ctrl.customData.parallel)}),{parallel: OVERWRITE});
             for i, data in inputData {
                 if (parallel >= data.mana.asInt()) {
                     ctrl.world.setBlockState(ctrl.world.getBlockState(inputPosList[i]),data.deepUpdate({mana: 0},OVERWRITE),inputPosList[i]);
@@ -229,7 +231,7 @@ MMEvents.onMachinePreTick("mana_liquefactor", function(event as MachineTickEvent
 
 RecipeBuilder.newBuilder("mana","mana_liquefactor", 1)
     .addPreCheckHandler(function(event as RecipeCheckEvent) {
-        if (isNull(event.controller.customData.parallel) || event.controller.customData.parallel == 0) {
+        if (isNull(event.controller.customData.parallel) || event.controller.customData.parallel == 0 || event.controller.customData.parallel < 1000) {
             event.setFailed("§9缺少魔力输入");
         }
     })
@@ -237,13 +239,29 @@ RecipeBuilder.newBuilder("mana","mana_liquefactor", 1)
         val thread = event.factoryRecipeThread;
         val ctrl = event.controller;
         val data = ctrl.customData;
-        thread.addPermanentModifier("mana", RecipeModifierBuilder.create("modularmachinery:fluid","output",((data.parallel.asInt() / 1000) - 1),0,false).build());
+        var parallel = 0;
+        if (data.parallel.asInt() >= 100000000) {parallel = 100000;}
+        else if (data.parallel.asInt() >= 10000000) {parallel = 10000;}
+        else if (data.parallel.asInt() >= 1000000) {parallel = 1000;}
+        else if (data.parallel.asInt() >= 100000) {parallel = 100;}
+        else if (data.parallel.asInt() >= 10000) {parallel = 10;}
+        else if (data.parallel.asInt() >= 1000) {parallel = 1;}
+        thread.addPermanentModifier("mana", RecipeModifierBuilder.create("modularmachinery:fluid","output",(parallel - 1),0,false).build());
     })
     .addFluidOutput(<liquid:mana>*1)
+    .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
+        val ctrl = event.controller;
+        if (ctrl.customData.parallel.asInt() >= 100000000) {ctrl.customData = ctrl.customData.deepUpdate({parallel: (ctrl.customData.parallel.asInt() - 100000000)},OVERWRITE);}
+        else if (ctrl.customData.parallel.asInt() >= 10000000) {ctrl.customData = ctrl.customData.deepUpdate({parallel: (ctrl.customData.parallel.asInt() - 10000000)},OVERWRITE);}
+        else if (ctrl.customData.parallel.asInt() >= 1000000) {ctrl.customData = ctrl.customData.deepUpdate({parallel: (ctrl.customData.parallel.asInt() - 1000000)},OVERWRITE);}
+        else if (ctrl.customData.parallel.asInt() >= 100000) {ctrl.customData = ctrl.customData.deepUpdate({parallel: (ctrl.customData.parallel.asInt() - 100000)},OVERWRITE);}
+        else if (ctrl.customData.parallel.asInt() >= 10000) {ctrl.customData = ctrl.customData.deepUpdate({parallel: (ctrl.customData.parallel.asInt() - 10000)},OVERWRITE);}
+        else if (ctrl.customData.parallel.asInt() >= 1000) {ctrl.customData = ctrl.customData.deepUpdate({parallel: (ctrl.customData.parallel.asInt() - 1000)},OVERWRITE);}
+    })
     .addRecipeTooltip("§9每tick运行一次配方，无视并行")
     .addRecipeTooltip("§9转换比率(Mana:元始魔力)：1000:1")
     .addRecipeTooltip("§9最大产出(mB/tick)：100000")
     .addRecipeTooltip("§9单次产出一定为10的整数次方mB")
-    .addRecipeTooltip("§9输出仓容量不足不会停止消耗Mana")
+    //.addRecipeTooltip("§9输出仓容量不足不会停止消耗Mana")
     .setParallelized(false)
     .build();
