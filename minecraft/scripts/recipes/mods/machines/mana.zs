@@ -149,7 +149,7 @@ MMEvents.onMachinePreTick("mana_liquefactor", function(event as MachineTickEvent
                     parallel -= data.mana.asInt();
                 }
                 else {
-                    ctrl.world.setBlockState(ctrl.world.getBlockState(inputPosList[i]),data.deepUpdate((data.mana.asInt() - parallel),OVERWRITE),inputPosList[i]);
+                    ctrl.world.setBlockState(ctrl.world.getBlockState(inputPosList[i]), data.deepUpdate({mana: (data.mana.asInt() - parallel)}, OVERWRITE), inputPosList[i]);
                     break;
                 }
             }
@@ -163,7 +163,7 @@ MMEvents.onMachinePreTick("mana_liquefactor", function(event as MachineTickEvent
                     parallel -= data.mana.asInt();
                 }
                 else {
-                    ctrl.world.setBlockState(ctrl.world.getBlockState(inputPosList[i]),data.deepUpdate((data.mana.asInt() - parallel),OVERWRITE),inputPosList[i]);
+                    ctrl.world.setBlockState(ctrl.world.getBlockState(inputPosList[i]), data.deepUpdate({mana: (data.mana.asInt() - parallel)}, OVERWRITE), inputPosList[i]);
                     break;
                 }
             }
@@ -177,7 +177,7 @@ MMEvents.onMachinePreTick("mana_liquefactor", function(event as MachineTickEvent
                     parallel -= data.mana.asInt();
                 }
                 else {
-                    ctrl.world.setBlockState(ctrl.world.getBlockState(inputPosList[i]),data.deepUpdate((data.mana.asInt() - parallel),OVERWRITE),inputPosList[i]);
+                    ctrl.world.setBlockState(ctrl.world.getBlockState(inputPosList[i]), data.deepUpdate({mana: (data.mana.asInt() - parallel)}, OVERWRITE), inputPosList[i]);
                     break;
                 }
             }
@@ -191,7 +191,7 @@ MMEvents.onMachinePreTick("mana_liquefactor", function(event as MachineTickEvent
                     parallel -= data.mana.asInt();
                 }
                 else {
-                    ctrl.world.setBlockState(ctrl.world.getBlockState(inputPosList[i]),data.deepUpdate((data.mana.asInt() - parallel),OVERWRITE),inputPosList[i]);
+                    ctrl.world.setBlockState(ctrl.world.getBlockState(inputPosList[i]), data.deepUpdate({mana: (data.mana.asInt() - parallel)}, OVERWRITE), inputPosList[i]);
                     break;
                 }
             }
@@ -205,7 +205,7 @@ MMEvents.onMachinePreTick("mana_liquefactor", function(event as MachineTickEvent
                     parallel -= data.mana.asInt();
                 }
                 else {
-                    ctrl.world.setBlockState(ctrl.world.getBlockState(inputPosList[i]),data.deepUpdate((data.mana.asInt() - parallel),OVERWRITE),inputPosList[i]);
+                    ctrl.world.setBlockState(ctrl.world.getBlockState(inputPosList[i]), data.deepUpdate({mana: (data.mana.asInt() - parallel)}, OVERWRITE), inputPosList[i]);
                     break;
                 }
             }
@@ -219,7 +219,7 @@ MMEvents.onMachinePreTick("mana_liquefactor", function(event as MachineTickEvent
                     parallel -= data.mana.asInt();
                 }
                 else {
-                    ctrl.world.setBlockState(ctrl.world.getBlockState(inputPosList[i]),data.deepUpdate((data.mana.asInt() - parallel),OVERWRITE),inputPosList[i]);
+                    ctrl.world.setBlockState(ctrl.world.getBlockState(inputPosList[i]), data.deepUpdate({mana: (data.mana.asInt() - parallel)}, OVERWRITE), inputPosList[i]);
                     break;
                 }
             }
