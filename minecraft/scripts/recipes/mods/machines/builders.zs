@@ -204,6 +204,19 @@ addBuilderRecipe(<modularmachinery:builder_2_factory_controller>, [
     <ore:ingotGodslime> * 4
 ], 1, 2400);
 
+addBuilderRecipe(<modularmachinery:liquid_converter_factory_controller>,[
+    <appliedenergistics2:material:22> * 10,
+    <appliedenergistics2:material:23> * 8,
+    <appliedenergistics2:material:24> * 12,
+    <ore:ingotModularium> * 48,
+    <ore:ingotAlubrass> * 32,
+    <ore:ingotFlamium> * 16,
+    <ore:ingotChillinium> * 16,
+    <ore:ingotEnergeticAlloy> * 12,
+    <ore:ingotVibrantAlloy> * 8,
+    <ore:ingotGelidEnderium> * 8
+], 1, 1600);
+
 //LV2
 addBuilderRecipe(<modularmachinery:gene_builder_factory_controller>, [
     <additions:logic_processor_2> * 8,

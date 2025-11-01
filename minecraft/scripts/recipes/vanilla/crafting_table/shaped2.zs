@@ -649,3 +649,8 @@ RecipeUtil.addShaped("aether_eye", <elementalend:aether_eye>, [
     [<additions:asgardium_ingot>, <minecraft:ender_eye>, <additions:sun_crystal>],
     [null, <lost_aether:platinum_key>, null]
 ]);
+RecipeUtil.addShaped("chemical_x", <mutantbeasts:chemical_x>, [
+	[<minecraft:dragon_breath>, <enderio:block_enderman_skull:2>, <minecraft:dragon_breath>], 
+	[<ore:skullSkeleton>, <minecraft:brewing_stand>, <ore:skullZombie>], 
+	[<ore:ingotSoularium>, <minecraft:splash_potion>.withTag({Potion: "minecraft:water"}), <ore:ingotSoularium>]
+]);
