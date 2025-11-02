@@ -784,8 +784,7 @@ addBuilderRecipe(<modularmachinery:entropy_reverse_factory_controller>, [
     <ore:ingotBalancite> * 64,
     <ore:ingotFireAlloy> * 48,
     <ore:ingotIceAlloy> * 48,
-    <ore:ingotChaoticMetal> * 4,
-    <ore:ingotOrderedMetal> * 2
+    <ore:ingotChaoticMetal> * 4
 ], 4, 4000);
 
 addBuilderRecipe(<modularmachinery:loot_creater_factory_controller>, [

@@ -6,6 +6,14 @@
     "color": "212222",
     "parts": [
         {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
             "x": 1,
             "y": 3,
             "z": 4,
@@ -22,14 +30,6 @@
             ]
         },
         {
-            "x": 0,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
             "x": -1,
             "y": 2,
             "z": 0,
@@ -38,11 +38,19 @@
             ]
         },
         {
-            "x": -2,
-            "y": 4,
-            "z": 0,
+            "x": 0,
+            "y": 3,
+            "z": 1,
             "elements": [
-                "chisel:antiblock@1"
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
             ]
         },
         {
@@ -54,11 +62,11 @@
             ]
         },
         {
-            "x": 2,
-            "y": 1,
-            "z": 2,
+            "x": -2,
+            "y": 4,
+            "z": 0,
             "elements": [
-                "thermalfoundation:glass_alloy@7"
+                "projecte:matter_block@1"
             ]
         },
         {
@@ -82,7 +90,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "chisel:antiblock@5"
+                "projecte:matter_block@0"
             ]
         },
         {
@@ -90,15 +98,7 @@
             "y": 4,
             "z": 4,
             "elements": [
-                "chisel:antiblock@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "additions:infernium_block@0"
+                "projecte:matter_block@1"
             ]
         },
         {
@@ -107,6 +107,14 @@
             "z": 0,
             "elements": [
                 "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "additions:infernium_block@0"
             ]
         },
         {
@@ -151,16 +159,16 @@
         },
         {
             "x": -2,
-            "y": 3,
-            "z": 4,
+            "y": 2,
+            "z": 0,
             "elements": [
                 "chisel:technical@1"
             ]
         },
         {
             "x": -2,
-            "y": 2,
-            "z": 0,
+            "y": 3,
+            "z": 4,
             "elements": [
                 "chisel:technical@1"
             ]
@@ -186,7 +194,7 @@
             "y": 4,
             "z": 0,
             "elements": [
-                "chisel:antiblock@1"
+                "projecte:matter_block@1"
             ]
         },
         {
@@ -198,19 +206,19 @@
             ]
         },
         {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
             "x": -2,
             "y": 1,
             "z": 0,
             "elements": [
                 "chisel:technical@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "chisel:antiblock@5"
             ]
         },
         {
@@ -226,15 +234,15 @@
             "y": 4,
             "z": 3,
             "elements": [
-                "chisel:antiblock@1"
+                "projecte:matter_block@1"
             ]
         },
         {
-            "x": 2,
-            "y": 4,
-            "z": 1,
+            "x": 1,
+            "y": -1,
+            "z": 0,
             "elements": [
-                "chisel:antiblock@1"
+                "projecte:matter_block@0"
             ]
         },
         {
@@ -242,7 +250,7 @@
             "y": 4,
             "z": 4,
             "elements": [
-                "chisel:antiblock@1"
+                "projecte:matter_block@1"
             ]
         },
         {
@@ -286,14 +294,6 @@
             ]
         },
         {
-            "x": 0,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
             "x": -2,
             "y": 3,
             "z": 3,
@@ -302,11 +302,19 @@
             ]
         },
         {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
             "x": 2,
             "y": -1,
             "z": 1,
             "elements": [
-                "chisel:antiblock@5"
+                "projecte:matter_block@0"
             ]
         },
         {
@@ -343,14 +351,6 @@
         },
         {
             "x": -2,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:glass_alloy@7"
-            ]
-        },
-        {
-            "x": -2,
             "y": 1,
             "z": 4,
             "elements": [
@@ -358,11 +358,11 @@
             ]
         },
         {
-            "x": 2,
-            "y": -1,
-            "z": 2,
+            "x": -2,
+            "y": 2,
+            "z": 1,
             "elements": [
-                "chisel:antiblock@5"
+                "thermalfoundation:glass_alloy@7"
             ]
         },
         {
@@ -371,6 +371,14 @@
             "z": 3,
             "elements": [
                 "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "projecte:matter_block@0"
             ]
         },
         {
@@ -386,15 +394,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "chisel:antiblock@5"
+                "abyssalcraft:antiwater@0"
             ]
         },
         {
@@ -414,11 +414,19 @@
             ]
         },
         {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
             "x": 2,
             "y": 4,
             "z": 2,
             "elements": [
-                "chisel:antiblock@1"
+                "projecte:matter_block@1"
             ]
         },
         {
@@ -439,18 +447,18 @@
         },
         {
             "x": -1,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "gct_ores:orichalcos_machine_frame@0"
-            ]
-        },
-        {
-            "x": -1,
             "y": 1,
             "z": 1,
             "elements": [
                 "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "gct_ores:orichalcos_machine_frame@0"
             ]
         },
         {
@@ -498,7 +506,7 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "chisel:antiblock@5"
+                "projecte:matter_block@0"
             ]
         },
         {
@@ -538,7 +546,7 @@
             "y": 4,
             "z": 0,
             "elements": [
-                "chisel:antiblock@1"
+                "projecte:matter_block@1"
             ]
         },
         {
@@ -570,7 +578,7 @@
             "y": -1,
             "z": 4,
             "elements": [
-                "chisel:antiblock@5"
+                "projecte:matter_block@0"
             ]
         },
         {
@@ -594,15 +602,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "thermalfoundation:fluid_mana@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "botania:bifrostperm@0"
+                "abyssalcraft:antiwater@0"
             ]
         },
         {
@@ -611,6 +611,14 @@
             "z": 1,
             "elements": [
                 "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "botania:bifrostperm@0"
             ]
         },
         {
@@ -630,6 +638,14 @@
             ]
         },
         {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
             "x": -1,
             "y": -1,
             "z": 3,
@@ -639,10 +655,10 @@
         },
         {
             "x": 2,
-            "y": -1,
-            "z": 4,
+            "y": 4,
+            "z": 0,
             "elements": [
-                "chisel:antiblock@5"
+                "projecte:matter_block@1"
             ]
         },
         {
@@ -654,11 +670,11 @@
             ]
         },
         {
-            "x": 2,
-            "y": 4,
-            "z": 0,
+            "x": 0,
+            "y": 1,
+            "z": 4,
             "elements": [
-                "chisel:antiblock@1"
+                "thermalfoundation:glass_alloy@7"
             ]
         },
         {
@@ -670,14 +686,6 @@
             ]
         },
         {
-            "x": 0,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:glass_alloy@7"
-            ]
-        },
-        {
             "x": 1,
             "y": -1,
             "z": 1,
@@ -706,7 +714,7 @@
             "y": -1,
             "z": 4,
             "elements": [
-                "chisel:antiblock@5"
+                "projecte:matter_block@0"
             ]
         },
         {
@@ -753,6 +761,14 @@
             "x": 2,
             "y": 3,
             "z": 4,
+            "elements": [
+                "chisel:technical@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
             "elements": [
                 "chisel:technical@1"
             ]
@@ -766,11 +782,11 @@
             ]
         },
         {
-            "x": 2,
+            "x": 1,
             "y": 2,
-            "z": 0,
+            "z": 1,
             "elements": [
-                "chisel:technical@1"
+                "botania:bifrostperm@0"
             ]
         },
         {
@@ -782,19 +798,11 @@
             ]
         },
         {
-            "x": 1,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
             "x": 2,
             "y": 4,
             "z": 3,
             "elements": [
-                "chisel:antiblock@1"
+                "projecte:matter_block@1"
             ]
         },
         {
@@ -803,22 +811,6 @@
             "z": 2,
             "elements": [
                 "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "botania:bifrostperm@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "chisel:antiblock@5"
             ]
         },
         {
@@ -830,6 +822,22 @@
             ]
         },
         {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "botania:bifrostperm@0"
+            ]
+        },
+        {
             "x": 2,
             "y": 1,
             "z": 0,
@@ -842,7 +850,7 @@
             "y": 4,
             "z": 1,
             "elements": [
-                "chisel:antiblock@1"
+                "projecte:matter_block@1"
             ]
         },
         {
@@ -850,21 +858,21 @@
             "y": 4,
             "z": 4,
             "elements": [
-                "chisel:antiblock@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "thermalfoundation:glass_alloy@7"
+                "projecte:matter_block@1"
             ]
         },
         {
             "x": 2,
             "y": 3,
             "z": 3,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
             "elements": [
                 "thermalfoundation:glass_alloy@7"
             ]
@@ -897,6 +905,14 @@
             "x": -1,
             "y": 3,
             "z": 4,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 1,
             "elements": [
                 "thermalfoundation:glass_alloy@7"
             ]
@@ -910,19 +926,11 @@
             ]
         },
         {
-            "x": 2,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "thermalfoundation:glass_alloy@7"
-            ]
-        },
-        {
             "x": 0,
             "y": -1,
             "z": 4,
             "elements": [
-                "chisel:antiblock@5"
+                "projecte:matter_block@0"
             ]
         },
         {
@@ -930,7 +938,7 @@
             "y": 4,
             "z": 0,
             "elements": [
-                "chisel:antiblock@1"
+                "projecte:matter_block@1"
             ]
         },
         {
@@ -939,22 +947,6 @@
             "z": 4,
             "elements": [
                 "chisel:technical@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "chisel:antiblock@5"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "chisel:antiblock@1"
             ]
         },
         {
@@ -966,6 +958,22 @@
             ]
         },
         {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "projecte:matter_block@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
             "x": 2,
             "y": 2,
             "z": 4,
@@ -986,7 +994,7 @@
             "y": 4,
             "z": 4,
             "elements": [
-                "chisel:antiblock@1"
+                "projecte:matter_block@1"
             ]
         },
         {
@@ -999,18 +1007,18 @@
         },
         {
             "x": 1,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "thermalfoundation:glass_alloy@7"
-            ]
-        },
-        {
-            "x": 1,
             "y": 2,
             "z": 2,
             "elements": [
                 "botania:bifrostperm@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thermalfoundation:glass_alloy@7"
             ]
         },
         {
@@ -1047,10 +1055,10 @@
         },
         {
             "x": 1,
-            "y": -1,
-            "z": 4,
+            "y": 1,
+            "z": 2,
             "elements": [
-                "chisel:antiblock@5"
+                "botania:bifrostperm@0"
             ]
         },
         {
@@ -1058,15 +1066,15 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "chisel:antiblock@5"
+                "projecte:matter_block@0"
             ]
         },
         {
             "x": 1,
-            "y": 1,
-            "z": 2,
+            "y": -1,
+            "z": 4,
             "elements": [
-                "botania:bifrostperm@0"
+                "projecte:matter_block@0"
             ]
         },
         {
@@ -1098,7 +1106,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "chisel:antiblock@5"
+                "projecte:matter_block@0"
             ]
         },
         {
@@ -1107,6 +1115,14 @@
             "z": 3,
             "elements": [
                 "thermalfoundation:glass_alloy@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "projecte:matter_block@0"
             ]
         },
         {
@@ -1115,15 +1131,7 @@
             "z": 0,
             "elements": [
                 "thermalfoundation:glass_alloy@7",
-                "casings_parallel"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "chisel:antiblock@5"
+                "casings_speed"
             ]
         },
         {
@@ -1155,7 +1163,7 @@
             "y": 4,
             "z": 4,
             "elements": [
-                "chisel:antiblock@1"
+                "projecte:matter_block@1"
             ]
         },
         {
