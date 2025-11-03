@@ -341,6 +341,7 @@ createLootRecipe("cosmilite_loot", [
 ], [
     <additions:darkest_core> * 15
 ], 30, 1.0E6 as long, 0);
+
 //苍狼
 createLootRecipe("cosmilite_loot", [
     <minecraft:spawn_egg>.withTag({EntityTag: {id: "thaumadditions:blue_wolf"}})

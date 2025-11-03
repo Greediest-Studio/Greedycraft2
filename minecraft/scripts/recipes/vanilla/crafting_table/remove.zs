@@ -465,7 +465,8 @@ val removedRecipes as IIngredient[] = [
     <nuclearcraft:material_block:2>,
     <elementalend:aether_eye>,
     <elementalend:nether_eye>,
-    <moretcon:itemtrichromadentiumsponge:1>
+    <moretcon:itemtrichromadentiumsponge:1>,
+    <moretcon:itemvalasiumsponge:1>
 ];
 
 val removedRecipeNames as string[] = [

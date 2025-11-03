@@ -48,13 +48,3 @@ RecipeBuilder.newBuilder("entropy_2", "entropy_reverse", 200)
     .addFluidOutput(<liquid:liquid_air> * 1000)
     .addFluidOutput(<liquid:liquidantimatter> * 1000)
     .build();
-RecipeBuilder.newBuilder("entropy_3","entropy_reverse",2000)
-    .addItemInput(<thaumadditions:zeith_fur>)
-    .addEnergyPerTickInput(1000000)
-    .addFluidInput(<liquid:liquidantimatter> * 1000)
-    .addGasPerTickInputs(<gas:nutrientsolution> * 100)
-    .addItemOutput(<thaumadditions:zeith_fur> * 2)
-    .setThreadName("物质重构")
-    .setParallelized(false)
-    .addRecipeTooltip("§e物质被重构了？但似乎多了一份")
-    .build();
