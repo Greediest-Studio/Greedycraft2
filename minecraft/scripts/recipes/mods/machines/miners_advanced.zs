@@ -197,6 +197,7 @@ advOverworld.addItemUpgradeOutput(<tiths:tourmaline>, COSMILITE, 0.002);
 advOverworld.addItemUpgradeOutput(<tiths:cordierite>, COSMILITE, 0.002);
 advOverworld.addItemUpgradeOutput(<tiths:prehnite>, COSMILITE, 0.002);
 //终焉级
+advOverworld.addItemUpgradeOutput(<sakura:sakura_diamond>, FINALLIUM, 0.005);
 advOverworld.addItemUpgradeOutput(<additions:swinium_ore>, FINALLIUM, 0.009);
 advOverworld.addItemUpgradeOutput(<additions:vanadium_ore>, FINALLIUM, 0.007);
 advOverworld.addItemUpgradeOutput(<additions:gallium_ore>, FINALLIUM, 0.006);

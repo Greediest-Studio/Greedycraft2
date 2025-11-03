@@ -210,6 +210,14 @@ createLootRecipe("cosmilite_loot", [
     <gct_mobs:gaia_heart> * 2
 ], 45, 1.0E6 as long, 0);
 
+//空之律者
+createLootRecipe("cosmilite_loot", [
+    <extrabotany:material:9>
+], [
+    <extrabotany:specialbag> * 1,
+    <additions:kianate_ingot> * 2
+], 50, 3.0E6 as long, 0);
+
 //凋灵
 createLootRecipe("durasteel_loot", [
     <minecraft:soul_sand> * 4,
@@ -224,8 +232,9 @@ createLootRecipe("aeonsteel_loot", [
     <minecraft:end_crystal> * 4
 ], [
     <minecraft:dragon_egg> * 2,
-    <bountifulbaubles:enderdragonscale>
-], 25, 6.0E4 as long, 0);
+    <draconicevolution:dragon_heart> * 1,
+    <bountifulbaubles:enderdragonscale> * 1
+], 30, 1.0E5 as long, 0);
 
 //毁灭者
 createLootRecipe("durasteel_loot", [
@@ -270,7 +279,8 @@ createLootRecipe("durasteel_loot", [
 createLootRecipe("durasteel_loot", [
     <tinkersaether:valkyrie_ingot>
 ], [
-    <additions:gem_of_valkyrie> * 20
+    <additions:gem_of_valkyrie> * 5,
+    <aether_legacy:victory_medal> * 25
 ], 40, 2.5E5 as long, 0);
 
 //烈阳巨魔
