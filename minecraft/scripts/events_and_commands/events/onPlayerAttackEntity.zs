@@ -59,6 +59,15 @@ events.onPlayerAttackEntity(function(event as PlayerAttackEntityEvent) {
             event.cancel();
         }
 
+        //vethea
+        if (!player.world.remote && player.getDimension() == 427 && !isNull(player.mainHandHeldItem) && !player.hasGameStage("vethea_breaker")) {
+            val item = player.mainHandHeldItem;
+            if (isNull(item.tag.vetheaBreaker) || item.tag.vetheaBreaker == 0) {
+                player.sendRichTextStatusMessage(ITextComponent.fromString("§d梦魇世界尚未认可你，你还不能使用外来装备！"));
+                event.cancel();
+            }
+        }
+
         //print entity.definition.id
         /*
         if (!isNull(player.currentItem) && player.currentItem.definition.id == "minecraft:stick") {

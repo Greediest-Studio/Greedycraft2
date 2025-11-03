@@ -57,17 +57,31 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
         event.player.health = 0.0f;
         event.cancel();
     }
-    //Remove the teleport stone in Vethea
-    if (event.block.definition.id == "waystones:waystone" && event.player.dimension == 427 && !event.world.remote) {
-        client.player.sendChat("§emc_Edwin§f: byd还想刷物品是吧，都给你ban喽");
-        event.player.health = 0.0f;
-        event.cancel();
-    }
-    //Remove the enderchest in Vethea
-    if (event.block.definition.id == "minecraft:ender_chest" && event.player.dimension == 427 && !event.world.remote) {
-        client.player.sendChat("§emc_Edwin§f: byd还想刷物品是吧，都给你ban喽");
-        event.player.health = 0.0f;
-        event.cancel();
+    //vethea
+    val whiteList = [
+        "tcon",
+        "minecraft",
+        "divinerpg",
+        "additions",
+        "hooked",
+        "enderio",
+        "thaumcraft",
+        "modularmachinery"
+    ] as string[];
+    if (!player.world.remote && (!isNull(player.currentItem) || !isNull(player.offHandHeldItem)) && !player.hasGameStage("vethea_breaker")) {
+        var cancel = true;
+        val item = isNull(player.currentItem) ? player.offHandHeldItem : player.currentItem;
+        for name in whiteList {
+            if (item.definition.id has name) {
+                cancel = false;
+                break;
+            }
+        }
+        if (cancel) {
+            player.sendRichTextStatusMessage(ITextComponent.fromString("§d梦魇世界尚未认可你，你还不能使用外来物品！"));
+            player.attackEntityFrom(IDamageSource.OUT_OF_WORLD(), 10.0);
+            event.cancel();
+        }
     }
     //Store the dimension ID in the Dimensional Miner
     if (event.block.definition.id == "modularmachinery:dimensional_miner_factory_controller" && !event.world.remote && event.hand == "MAIN_HAND") {

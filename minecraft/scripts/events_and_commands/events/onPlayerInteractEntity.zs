@@ -67,4 +67,31 @@ events.onPlayerInteractEntity(function(event as PlayerInteractEntityEvent) {
             }
         }
     }
+
+    //vethea
+    val whiteList = [
+        "tcon",
+        "minecraft",
+        "divinerpg",
+        "additions",
+        "hooked",
+        "enderio",
+        "thaumcraft",
+        "modularmachinery"
+    ] as string[];
+    if (!player.world.remote && (!isNull(player.currentItem) || !isNull(player.offHandHeldItem)) && !player.hasGameStage("vethea_breaker")) {
+        var cancel = true;
+        val item = isNull(player.currentItem) ? player.offHandHeldItem : player.currentItem;
+        for name in whiteList {
+            if (item.definition.id has name) {
+                cancel = false;
+                break;
+            }
+        }
+        if (cancel) {
+            player.sendRichTextStatusMessage(ITextComponent.fromString("§d梦魇世界尚未认可你，你还不能使用外来物品！"));
+            player.attackEntityFrom(IDamageSource.OUT_OF_WORLD(), 10.0);
+            event.cancel();
+        }
+    }
 });

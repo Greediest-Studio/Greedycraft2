@@ -59,7 +59,7 @@ import scripts.util.oredict as OredictUtil;
 
 <ore:ingotCthulhurite>.add(<gct_mobs:cthulhurite_ingot>);
 <ore:starlight>.add(<journey:sapphire>);
-
+/*
 var vetheaDisabled as IItemStack[] = [
     <waystones:warp_stone>,
     <waystones:waystone>,
@@ -108,7 +108,7 @@ if (!isNull(itemUtils.getItem("utilityworlds:portal_void"))) {
 }
 for item in vetheaDisabled {
     <ore:vetheaDisabled>.add(item);
-}
+} */
 
 var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:logWood> : [
@@ -254,7 +254,7 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:gearDensite> : [<gct_ores:densite_gear>],
     <ore:oreIron> : [<sakura:iron_sand>],
     <ore:gemAmber> : [<betterendforge:amber_gem>],
-    <ore:vetheaDisabled> : [<ore:ingotBrass>],
+    //<ore:vetheaDisabled> : [<ore:ingotBrass>],
     <ore:ingotBlackiron> : [<extendedcrafting:material>],
     <ore:blockBlackiron> : [<extendedcrafting:storage>],
     <ore:nuggetBlackiron> : [<extendedcrafting:material:1>],

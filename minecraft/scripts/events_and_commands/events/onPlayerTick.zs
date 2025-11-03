@@ -215,7 +215,47 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
         }
     }
 
-    // Remove disabled items in Vethea
+    // Vethea
+    if (!isNull(player.currentItem)) {
+        val item = player.currentItem;
+        if (TicLib.isTicTool(item) || TicLib.isTicArmor(item)) {
+            if (!player.hasGameStage("vethea_breaker") && player.getDimension() != 427 && isNull(item.tag.vetheaBreaker)) {
+                item.mutable().updateTag({vetheaBreaker: 0 as byte});
+            }
+            if (player.getDimension() == 427 && isNull(item.tag.vetheaBreaker)) {
+            item.mutable().updateTag({vetheaBreaker: 1 as byte});
+            }
+            if (player.hasGameStage("vethea_breaker") && (isNull(item.tag.vetheaBreaker) || item.tag.vetheaBreaker == 0)) {
+                item.mutable().updateTag({vetheaBreaker: 1 as byte});
+            }
+        }
+    }
+    if (!isNull(player.armorInventory)) {
+        for armor in player.armorInventory {
+            if (TicLib.isTicArmor(armor)) {
+                if (!player.hasGameStage("vethea_breaker") && player.getDimension() != 427 && isNull(armor.tag.vetheaBreaker)) {
+                    armor.mutable().updateTag({vetheaBreaker: 0 as byte});
+                }
+                if (player.getDimension() == 427 && isNull(armor.tag.vetheaBreaker)) {
+                    armor.mutable().updateTag({vetheaBreaker: 1 as byte});
+                }
+                if (player.hasGameStage("vethea_breaker") && (isNull(armor.tag.vetheaBreaker) || armor.tag.vetheaBreaker == 0)) {
+                    armor.mutable().updateTag({vetheaBreaker: 1 as byte});
+                }
+            }
+        }
+    }
+    if (player.getDimension() == 427 && !isNull(player.armorInventory) && player.world.getWorldTime() as long % 20 == 0) {
+        for armor in player.armorInventory {
+            if (!isNull(armor) && !isNull(armor.tag) && !isNull(armor.tag.vetheaBreaker) && armor.tag.vetheaBreaker == 0) {
+                player.health = 1;
+                player.addPotionEffect(<potion:minecraft:blindness>.makePotionEffect(50, 0, false, false));
+                player.sendRichTextStatusMessage(ITextComponent.fromString("§d梦魇世界尚未认可你，你还不能使用外来装备！"));
+            }
+        }
+    }
+
+    /*
     if (<ore:vetheaDisabled> in player.currentItem && player.getDimension() == 427) {
         player.currentItem.mutable().shrink(64);
         player.sendStatusMessage("此物品已经在梦魇世界被禁用！");
@@ -223,7 +263,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
     if (<ore:vetheaDisabled> in player.offHandHeldItem && player.getDimension() == 427) {
         player.offHandHeldItem.mutable().shrink(64);
         player.sendStatusMessage("此物品已经在梦魇世界被禁用！");
-    }
+    } */
 
     // Remove radiation if the stage is locked
     if (!(player.hasGameStageSilent("epic_engineer"))) {
