@@ -113,7 +113,7 @@ MMEvents.onControllerGUIRender("draconic_fusioner", function(event as Controller
 addFusionRecipe(<draconicevolution:draconic_block> * 4, [<ore:blockDraconium> * 4, <ore:coreDraconium> * 6, <draconicevolution:dragon_heart>], 1750000, 1);
 addFusionRecipe(<gct_ores:chaotic_draconium_block> * 4, [<ore:blockDraconiumAwakened> * 4, <ore:ingotEverite> * 2, <ore:metalChaotic> * 2, <ore:gemChaosShard> * 2, <contenttweaker:chaos_heart> * 2], 6016340, 2);
 addFusionRecipe(<gct_ores:ruled_draconium_block> * 4, [<ore:blockDraconiumChaotic> * 4, <ore:coreChaotic>, <ore:blockAdamantium> * 2, <ore:blockEverite> * 2, <ore:blockChaosShard>, <contenttweaker:chaos_heart> * 2], 512000000, 3);
-addFusionRecipe(<gct_ores:relifed_witherium_block> * 4, [<ore:blockWitherium> * 4, <ore:coreWitherium> * 6, <ore:netherStar>], 1750000, 1);
+addFusionRecipe(<gct_ores:relifed_witherium_block> * 4, [<ore:blockWitherium> * 4, <ore:coreWitherium> * 6, <ore:netherStar> * 2], 1750000, 1);
 addFusionRecipe(<gct_ores:stormy_witherium_block> * 4, [<ore:blockWitheriumRelifed> * 4, <ore:ingotEverite> * 2, <ore:metalChaotic> * 2, <ore:gemStormyShard> * 2, <ore:netherStarWithered> * 2], 6016340, 2);
 addFusionRecipe(<gct_ores:equipment_witherium_block> * 4, [<ore:blockWitheriumStormy> * 4, <ore:coreStormy>, <ore:blockAdamantium> * 2, <ore:blockEverite> * 2, <ore:blockStormyShard>, <ageofminecraft:withered_nether_star> * 2], 512000000, 3);
 
@@ -179,3 +179,4 @@ addFusionRecipe(<additions:creative_shard>, [<ore:coreChaotic>, <ore:ingotCosmil
 addFusionRecipe(<packageddraconic:fusion_crafter>, [<draconicevolution:fusion_crafting_core>, <ore:ingotDraconiumAwakened> * 2, <ore:coreAwakened>, <ore:dragonEgg>, <ore:netherStar>, <ore:enderpearl> * 2, <ore:pearlEnderEye> * 2, <packagedauto:me_package_component>], 2500000, 1);
 addFusionRecipe(<gct_aby:shoggy_slime_purified>, [<gct_aby:shoggy_slime>, <ore:slimecrystalGod> * 8], 565800000, 4);
 addFusionRecipe(<additions:ordered_bone_key>, [<ore:coreBreedum> * 8, <ore:coreOrdered> * 2, <additions:dragonbone_block_mixed> * 4, <gct_ores:door_key_empty> * 4], 2340000000, 4);
+addFusionRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "thaumadditions:blue_wolf"}}), [<thaumadditions:blue_bone> * 2], 2340000000, 3);

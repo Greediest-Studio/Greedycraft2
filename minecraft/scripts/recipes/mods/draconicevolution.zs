@@ -453,15 +453,7 @@ FusionCrafting.add(<additions:draconic_fusion_core>, <draconicevolution:fusion_c
     <draconicevolution:crafting_injector:2>,
     <draconicevolution:crafting_injector:2>
 ]);
-FusionCrafting.add(<additions:chaotic_fusion_core>, <draconicevolution:fusion_crafting_core>, 3, 4096000000, [
-    <ore:coreEpic>,
-    <ore:coreEpic>,
-    <draconicevolution:crafting_injector:3>,
-    <draconicevolution:crafting_injector:3>,
-    <draconicevolution:crafting_injector:3>,
-    <draconicevolution:crafting_injector:3>,
-    <draconicevolution:crafting_injector:3>,
-    <draconicevolution:crafting_injector:3>,
-    <draconicevolution:crafting_injector:3>,
-    <draconicevolution:crafting_injector:3>
+FusionCrafting.add(<minecraft:spawn_egg>.withTag({EntityTag: {id: "thaumadditions:blue_wolf"}}), <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:wolf"}}), 3, 204800000, [
+    <thaumadditions:blue_bone>,
+    <thaumadditions:blue_bone>
 ]);

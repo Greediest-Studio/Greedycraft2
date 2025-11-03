@@ -654,3 +654,36 @@ RecipeUtil.addShaped("chemical_x", <mutantbeasts:chemical_x>, [
 	[<ore:skullSkeleton>, <minecraft:brewing_stand>, <ore:skullZombie>], 
 	[<ore:ingotSoularium>, <minecraft:splash_potion>.withTag({Potion: "minecraft:water"}), <ore:ingotSoularium>]
 ]);
+RecipeUtil.addShaped("wolf_egg",<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:wolf"}}) , [
+   [null, <minecraft:bone>, null],
+   [<minecraft:bone>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "spiritus"}]}), <minecraft:bone>],
+   [null, <minecraft:bone>, null]
+]);
+RecipeUtil.addShaped("chicken_egg",<minecraft:spawn_egg>.withTag({EntityTag: {id: "abyssalcraft:evilchicken"}}) , [
+   [null, <minecraft:feather>, null],
+   [<minecraft:feather>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "spiritus"}]}), <minecraft:feather>],
+   [null, <minecraft:feather>, null]
+]);
+RecipeUtil.addShaped("sheep_egg",<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:sheep"}}) , [
+   [null, <minecraft:wool>, null],
+   [<minecraft:wool>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "spiritus"}]}), <minecraft:wool>],
+   [null, <minecraft:wool>, null]
+]);
+RecipeUtil.addShaped("pig_egg",<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:pig"}}) , [
+   [null, <minecraft:porkchop>, null],
+   [<minecraft:porkchop>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "spiritus"}]}), <minecraft:porkchop>],
+   [null, <minecraft:porkchop>, null]
+]);
+RecipeUtil.addShaped("cow_egg",<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:cow"}}) , [
+   [null, <minecraft:leather>, null],
+   [<minecraft:leather>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "spiritus"}]}), <minecraft:leather>],
+   [null, <minecraft:leather>, null]
+]);
+/*
+ * RecipeUtil.addShaped("", , [
+ *  [null, null, null],
+ *  [null, null, null],
+ *  [null, null, null]
+ *]);
+ *
+ */

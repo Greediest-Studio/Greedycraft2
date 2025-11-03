@@ -38,13 +38,12 @@ MachineModifier.setMaxThreads("abyss_ceremony_executant", 8);
 $expand RecipePrimer$addSacrificeInput() {
     this.addIngredientArrayInput(IngredientArrayBuilder.newBuilder()
         .addIngredients([
-            <thermalexpansion:morb:1>.withTag({id : "minecraft:pig"}),
-            <thermalexpansion:morb:1>.withTag({id : "minecraft:chicken"}),
-            <thermalexpansion:morb:1>.withTag({id : "minecraft:cow"}),
-            <thermalexpansion:morb:1>.withTag({id : "minecraft:sheep"})
+            <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:sheep"}}),
+            <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:cow"}}),
+            <minecraft:spawn_egg>.withTag({EntityTag: {id: "abyssalcraft:evilchicken"}}),
+            <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:pig"}})
         ])
     );
-    this.addItemOutput(<thermalexpansion:morb:1>);
 }
 
 function addRitualRecipe(output as IItemStack, inputs as IIngredient[], potEnergy as int, dim as int, sacrifice as bool) {
