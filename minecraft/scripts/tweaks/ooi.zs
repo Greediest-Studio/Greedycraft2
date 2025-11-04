@@ -48,6 +48,7 @@ ConversionItem.create(<biomesoplenty:gem_block:6>).addMatchItem(<ore:blockSapphi
 ConversionItem.create(<biomesoplenty:gem_ore:6>).addMatchItem(<ore:oreSapphire>).register();
 ConversionItem.create(<thermalfoundation:material:192>).addMatchItem(<ore:nuggetCopper>).register();
 ConversionItem.create(<thermalfoundation:material:194>).addMatchItem(<ore:nuggetSilver>).register();
+ConversionItem.create(<additions:imitatium_ore>).addMatchItem(<tiths:ore_imitatium>).register();
 
 ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:burningsulfurflow>).register();
 ConversionFluid.create(<liquid:liquidantimatter>).addMatchFluid(<liquid:blockfluidantimatter>).register();
