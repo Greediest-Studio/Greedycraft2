@@ -385,3 +385,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gct_ores:senterian_builder_lab
 	[<ore:gemGorbite>, <ore:ingotDullium>, <ore:gemEnderillium>, <ore:ingotDullium>, <ore:gemGorbite>], 
 	[<ore:ingotMortum>, <ore:gemGorbite>, <ore:ingotMortum>, <ore:gemGorbite>, <ore:ingotMortum>]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:valasium_decode_panel>, [
+	[null, <ore:ingotValasium>, null, <ore:ingotValasium>, null], 
+	[<ore:ingotValasium>, <ore:ingotValasium>, <ore:ingotTrichromadentium>, <ore:ingotValasium>, <ore:ingotValasium>], 
+	[null, <ore:ingotTrichromadentium>, null, <ore:ingotTrichromadentium>, null], 
+	[<ore:ingotValasium>, <ore:ingotValasium>, <ore:ingotTrichromadentium>, <ore:ingotValasium>, <ore:ingotValasium>], 
+	[null, <ore:ingotValasium>, null, <ore:ingotValasium>, null]
+]);

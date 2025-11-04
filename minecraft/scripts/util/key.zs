@@ -56,6 +56,12 @@ function decodeCoordinate(encoded as string, key as int) as int[] {
     return result;
 }
 
+function decodeCoordinateFromStr(encoded as string, key as string) as int[] {
+    // 允许传入字符串形式的数字密钥，便于直接复用 decodeCoordinate 逻辑
+    val keyInt as int = BigInteger(key, 10).intValue();
+    return decodeCoordinate(encoded, keyInt);
+}
+
 function toBinaryBox(number as int) as string {
     if (number == 0) {
         return "□";
