@@ -1855,20 +1855,21 @@ GameStagesUtil.stageFinal.addIngredients([
     <ore:blockBreedum>
 ], true);
 
-GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators", "mekceumoremachine"]);
+GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators", "mekceumoremachine", "mekeng"]);
 GameStagesUtil.stageHardmode.addModId(["avaritia", "draconicevolution", "extrabotany", "projecte", "projectex", "taiga"]);
 GameStagesUtil.stageNether.addModId(["aether_legacy", "cyclicmagic", "touhou_little_maid", "aeble", "theaurorian", "lost_aether"]);
 GameStagesUtil.stageNoobWizard.addModId(["astralsorcery"]);
 GameStagesUtil.stageNoviceWizard.addModId(["bloodmagic", "bloodarsenal", "animus", "evilcraft", "thaumicrestoration"]);
 GameStagesUtil.stageSkilledWizard.addModId(["naturesaura", "naturesdestruction", "auraddons"]);
-GameStagesUtil.stageNoobEngineer.addModId(["thermaldynamics", "thermalexpansion", "appliedenergistics2"]);
+GameStagesUtil.stageMasterWizard.addModId(["thaumicenergistics"]);
+GameStagesUtil.stageNoobEngineer.addModId(["thermaldynamics", "thermalexpansion", "appliedenergistics2", "ae2wut", "ae_chisel", "ae2exttable", "extendedae", "threng"]);
 GameStagesUtil.stageNoviceEngineer.addModId(["enderio"]);
 GameStagesUtil.stageWyvern.addModId(["blue_skies"]);
 GameStagesUtil.stageChaoticDominator.addModId(["extendedcrafting"]);
 GameStagesUtil.stageGatekeeper.addModId(["gct_aby"]);
 GameStagesUtil.stageEpicEngineer.addModId(["nuclearcraft"]);
 GameStagesUtil.stageBetweenlandTraveller.addModId(["thebetweenlands"]);
-GameStagesUtil.stageWitherSlayer.addModId(["crazyae", "nae2"]);
+GameStagesUtil.stageWitherSlayer.addModId(["crazyae", "nae2", "ecoaeextension", "aewirelesschannel"]);
 GameStagesUtil.stageEnderCharm.addModId(["elementalend"]);
 
 GameStagesUtil.stageGettingStarted.addRecipeName("tinkersurvival:cobblestone");
