@@ -41,6 +41,8 @@ import mods.modularmachinery.RecipeTickEvent;
 import mods.modularmachinery.MachineUpgradeBuilder;
 import mods.modularmachinery.MachineUpgradeHelper;
 
+import scripts.util.key as KeyHelper;
+
 MachineModifier.setMaxThreads("biotechnic_computer", 0);
 MachineModifier.setInternalParallelism("biotechnic_computer", 2147483647);
 MachineModifier.setMaxParallelism("biotechnic_computer", 2147483647);
@@ -137,6 +139,7 @@ RecipeBuilder.newBuilder("decode_orderkey", "biotechnic_computer", 200)
     .addItemOutput(<additions:ordered_bone_key_slate>)
     .addEnergyPerTickInput(1048576)
     .setParallelized(false)
+    .setThreadName("解码模块")
     .addFactoryPostTickHandler(function(event as FactoryRecipeTickEvent) {
         var controller as IMachineController = event.controller;
         if (controller.getNutrition() > 0) {
@@ -147,3 +150,52 @@ RecipeBuilder.newBuilder("decode_orderkey", "biotechnic_computer", 200)
     })
     .build();
 
+RecipeBuilder.newBuilder("decode_orderdice", "biotechnic_computer", 200)
+    .addItemInput(<additions:ordered_bone_key_dice>).setNBTChecker(function(controller as IMachineController, stack as IItemStack) {
+        if (!isNull(stack.tag.coordinateData)) {
+            var encoded as string = stack.tag.coordinateData.encoded as string;
+            controller.customData = controller.customData.update({encoded : encoded as string});
+            return true;
+        } else {
+            return false;
+        }
+    }).setChance(0.0f)
+    .addItemInput(<additions:valasium_decode_panel>).setPreViewNBT({display:{Name:"请在此输入数字密码"}}).setNBTChecker(function(controller as IMachineController, stack as IItemStack) {
+        if (!isNull(stack.tag.display)) {
+            if (!isNull(stack.tag.display.Name)) {
+                var enteredKey as string = stack.tag.display.Name as string;
+                controller.customData = controller.customData.update({enteredKey : enteredKey as string});
+                return true;
+            } else {
+                return false;
+            }
+        } else {
+            return false;
+        }
+    })
+    .addEnergyPerTickInput(1048576)
+    .setParallelized(false)
+    .setThreadName("解码模块")
+    .addItemOutput(<minecraft:paper>).setPreViewNBT({display:{Name:"上方写着坐标的纸"}}).addItemModifier(function(controller as IMachineController, stack as IItemStack) {
+        var encoded as string = controller.customData.encoded as string;
+        var enteredKeyStr as string = controller.customData.enteredKey as string;
+        var coordinate as int[] = KeyHelper.decodeCoordinateFromStr(encoded, enteredKeyStr);
+        var x as int = coordinate[0];
+        var y as int = coordinate[1];
+        var z as int = coordinate[2];
+        var text as string = "坐标：" + x + ", " + y + ", " + z;
+        return stack.withTag({display:{Name:text as string}});
+    })
+    .addFactoryPostTickHandler(function(event as FactoryRecipeTickEvent) {
+        var controller as IMachineController = event.controller;
+        if (controller.getNutrition() > 0) {
+            controller.removeNutrition(1);
+        } else {
+            controller.addEntropy(2);
+        }
+        if (!controller.hasMachineUpgrade("decode_upgrade")) {
+            event.setFailed(true, "机器缺少解码逻辑核心！");
+        }
+    })
+    .addRecipeTooltip("§b需要解码逻辑核心升级")
+    .build();
