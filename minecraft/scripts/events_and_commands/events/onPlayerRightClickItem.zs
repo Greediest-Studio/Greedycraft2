@@ -201,7 +201,7 @@ if (!isNull(event.item) && !event.world.isRemote()) {
         "thaumcraft",
         "modularmachinery"
     ] as string[];
-    if (!player.world.remote && (!isNull(player.currentItem) || !isNull(player.offHandHeldItem)) && !player.hasGameStage("vethea_breaker")) {
+    if (!player.world.remote && player.getDimension() == 427 && (!isNull(player.currentItem) || !isNull(player.offHandHeldItem)) && !player.hasGameStage("vethea_breaker")) {
         var cancel = true;
         val item = isNull(player.currentItem) ? player.offHandHeldItem : player.currentItem;
         for name in whiteList {
