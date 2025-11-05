@@ -415,18 +415,18 @@ RecipeBuilder.newBuilder("purify", "blood_altar", 1)
 
 RecipeBuilder.newBuilder("orb", "blood_altar", 20)
     .addPreCheckHandler(function(event as RecipeCheckEvent) {
-        if (event.controller.getBlocksInPattern(<additions:blood_rune_personal>) < 1) {
-            event.setFailed("缺少玩家符文");
-        }
         var maxcapacity = ((1.0f + 0.02f * event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>)) * capacity[server.getPlayerByUUID(event.controller.ownerUUID).soulNetwork.orbTier]) as int;
         if (maxcapacity < 0) {
             maxcapacity = 2147483647;
         }
-        if (server.getPlayerByUUID(event.controller.ownerUUID).soulNetwork.currentEssence >= maxcapacity) {
-            event.setFailed("玩家LP网络已满");
-        }
         if (!(event.controller.getAltarMode() == 2)) {
             event.setFailed("未调整至<转移到玩家网络>模式");
+        }
+        else if (event.controller.getBlocksInPattern(<additions:blood_rune_personal>) < 1) {
+            event.setFailed("缺少玩家符文");
+        }
+        else if (server.getPlayerByUUID(event.controller.ownerUUID).soulNetwork.currentEssence >= maxcapacity) {
+            event.setFailed("玩家LP网络已满");
         }
     })
     .addItemInput(<bloodmagic:blood_orb>).setChance(0.0f).setPreViewNBT({orb: "bloodmagic:weak", display: {Lore: ["任意等级气血宝珠均可"]}})
