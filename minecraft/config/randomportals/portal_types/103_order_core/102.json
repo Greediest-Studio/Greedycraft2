@@ -41,11 +41,11 @@
 		"canBeActivatedByFire": false,
 		"activators": [
 			{
-				"registryName": "gct_ores:ordered_core",
+				"registryName": "additions:order_wand",
 				"meta": 32767
 			}
 		],
-		"activatorConsumeBehavior": "CONSUME",
+		"activatorConsumeBehavior": "DO_NOTHING",
 		"spawnFireBeforeActivating": false,
 		"activationSounds": []
 	},

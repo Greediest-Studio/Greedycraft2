@@ -49,6 +49,8 @@ import mods.zenutils.DataUpdateOperation.REMOVE;
 import mods.zenutils.DataUpdateOperation.BUMP;
 import native.java.math.BigInteger;
 
+import scripts.util.key as KeyHelper;
+
 events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     var player as IPlayer = event.player;
     //Remove the uncrafting table
@@ -166,6 +168,42 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
         if (!isNull(event.world.getBlock(pos).data) && !isNull(event.world.getBlock(pos).data.Item) && !isNull(event.world.getBlock(pos).data.Item.id) && !event.world.remote && event.world.getBlock(pos).data.Item.id == "minecraft:enchanted_book") {
             event.player.sendChat("汇聚附魔已被禁用!");
             event.cancel();
+        }
+    }
+    //Convert order stone to final
+    if (event.block.definition.id == "gct_ores:order_stone" && !event.world.remote && event.hand == "MAIN_HAND") {
+        var player as IPlayer = event.player;
+        var pos as IBlockPos = event.position;
+        var world as IWorld = event.world;
+        if ((!isNull(player.mainHandHeldItem)) && (!isNull(player.offHandHeldItem))) {
+            if (player.mainHandHeldItem.definition.id == "additions:order_wand" && player.offHandHeldItem.definition.id == "additions:ordered_bone_key_dice") {
+                var dice as IItemStack = player.offHandHeldItem;
+                if (!isNull(dice.tag.coordinateData)) {
+                    var key as int = dice.tag.coordinateData.key as int;
+                    var encoded as string = dice.tag.coordinateData.encoded as string;
+                    var coords as int[] = KeyHelper.decodeCoordinate(encoded, key);
+                    if (coords[0] == pos.x && coords[1] == pos.y && coords[2] == pos.z && world.dimension == 102) {
+                        player.sendStatusMessage("§a坐标正确！正在转化……");
+                        var state as string = " " + pos.x + " " + pos.y + " " + pos.z + " ";
+                        world.catenation().run(function(world as IWorld, context) {
+                            server.commandManager.executeCommandSilent(server, "particleex normal smoke" + state + "0.5 0.5 0.5 1 0 0 0 0.5 0.5 0.5 5 20 100 a=0.08;(vx,,vy,,vz)=(-sin(a),0,-cos(a),,0,1,0,,cos(a),0,-sin(a))*(x*2*sin(a),,0,,z*2*sin(a))");
+                        }).sleep(20).then(function(world as IWorld, context) {
+                            server.commandManager.executeCommandSilent(server, "particleex normal smoke" + state + "0.5 0.5 0.5 0.8 0 0 0 0.5 0.5 0.5 5 20 100 a=0.08;(vx,,vy,,vz)=(-sin(a),0,-cos(a),,0,1,0,,cos(a),0,-sin(a))*(x*2*sin(a),,0,,z*2*sin(a))");
+                        }).sleep(20).then(function(world as IWorld, context) {
+                            server.commandManager.executeCommandSilent(server, "particleex normal smoke" + state + "0.5 0.5 0.5 0.6 0 0 0 0.5 0.5 0.5 5 20 100 a=0.08;(vx,,vy,,vz)=(-sin(a),0,-cos(a),,0,1,0,,cos(a),0,-sin(a))*(x*2*sin(a),,0,,z*2*sin(a))");
+                        }).sleep(20).then(function(world as IWorld, context) {
+                            server.commandManager.executeCommandSilent(server, "particleex normal smoke" + state + "0.5 0.5 0.5 0.4 0 0 0 0.5 0.5 0.5 5 20 100 a=0.08;(vx,,vy,,vz)=(-sin(a),0,-cos(a),,0,1,0,,cos(a),0,-sin(a))*(x*2*sin(a),,0,,z*2*sin(a))");
+                        }).sleep(20).then(function(world as IWorld, context) {
+                            server.commandManager.executeCommandSilent(server, "particleex normal smoke" + state + "0.5 0.5 0.5 0.2 0 0 0 0.5 0.5 0.5 5 20 100 a=0.08;(vx,,vy,,vz)=(-sin(a),0,-cos(a),,0,1,0,,cos(a),0,-sin(a))*(x*2*sin(a),,0,,z*2*sin(a))");
+                        }).sleep(40).then(function(world as IWorld, context) {
+                            world.setBlockState(<blockstate:gct_ores:order_stone_final>, pos);
+                            player.sendStatusMessage("§a转化完成！");
+                        }).start();
+                    } else {
+                        player.sendStatusMessage("§c坐标不匹配或维度错误！");
+                    }
+                }
+            }
         }
     }
 });

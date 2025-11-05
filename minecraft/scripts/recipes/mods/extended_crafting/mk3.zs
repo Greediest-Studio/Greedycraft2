@@ -228,3 +228,13 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gct_ores:finallium_container>,
 	[<gct_ores:shalloite_block>, <additions:dragonbone_block_mixed>, <additions:dragonbone_block_mixed>, <ore:ingotFinallium>, <additions:dragonbone_block_mixed>, <additions:dragonbone_block_mixed>, <gct_ores:shalloite_block>], 
 	[<gct_ores:shalloite_block>, <gct_ores:shalloite_block>, null, <ore:ingotOrderedMetal>, null, <gct_ores:shalloite_block>, <gct_ores:shalloite_block>]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:order_wand>, [
+	[null, null, <ore:ingotStarAlloy>, <ore:ingotStarAlloy>, null, null, <ore:ingotStarAlloy>], 
+	[null, null, null, null, <ore:coreEpic>, <ore:ingotPruified>, null], 
+	[null, null, null, null, <ore:ingotArimite>, <ore:coreOrdered>, <ore:ingotStarAlloy>], 
+	[null, null, <ore:blockPhotonium>, <ore:ingotStarAlloy>, null, null, <ore:ingotStarAlloy>], 
+	[null, <additions:matter_block>, <ore:stoneOrdered>, <ore:blockShadowium>, null, <ore:ingotStarAlloy>, null], 
+	[null, <ore:blockPhotonium>, <additions:matter_block>, null, null, null, null], 
+	[<ore:blockPhotonium>, null, null, null, null, null, null]
+]);
