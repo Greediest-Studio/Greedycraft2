@@ -8,17 +8,24 @@
     "formatVersion": 1,
     "libraries": [
         {
-            "name": "com.cleanroommc:cleanroom:0.3.13-alpha-universal",
-            "MMC-hint": "local"
-        },
-        {
-            "name": "com.cleanroommc:lwjglxx:1.1.3",
+            "name": "com.cleanroommc:cleanroom:0.3.19-alpha",
             "downloads": {
                 "artifact": {
-                    "path": "com/cleanroommc/lwjglxx/1.1.3/lwjglxx-1.1.3.jar",
-                    "url": "https://maven.arcseekers.com/releases/com/cleanroommc/lwjglxx/1.1.3/lwjglxx-1.1.3.jar",
-                    "sha1": "02d3b0e019c3d8077d53a8765080b0264da934e9",
-                    "size": 527481
+                    "path": "com/cleanroommc/cleanroom/0.3.19-alpha/cleanroom-0.3.19-alpha.jar",
+                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/cleanroom/0.3.19-alpha/cleanroom-0.3.19-alpha-universal.jar",
+                    "sha1": "aa1635e7a1b22cffe4016a9db9dc0ead9e4c42db",
+                    "size": 4375921
+                }
+            }
+        },
+        {
+            "name": "com.cleanroommc:lwjglxx:1.1.8",
+            "downloads": {
+                "artifact": {
+                    "path": "com/cleanroommc/lwjglxx/1.1.8/lwjglxx-1.1.8.jar",
+                    "url": "https://repo.cleanroommc.com/releases/com/cleanroommc/lwjglxx/1.1.8/lwjglxx-1.1.8.jar",
+                    "sha1": "cf6016f7926460377dd60dda76f58c5baaea71df",
+                    "size": 528651
                 }
             }
         },
@@ -89,13 +96,13 @@
             }
         },
         {
-            "name": "top.outlands:foundation:0.15.3",
+            "name": "top.outlands:foundation:0.15.4",
             "downloads": {
                 "artifact": {
-                    "path": "top/outlands/foundation/0.15.3/foundation-0.15.3.jar",
-                    "url": "https://repo.cleanroommc.com/releases/top/outlands/foundation/0.15.3/foundation-0.15.3.jar",
-                    "sha1": "844a0b5690dbe9c700d684374afd6268da258c49",
-                    "size": 56682
+                    "path": "top/outlands/foundation/0.15.4/foundation-0.15.4.jar",
+                    "url": "https://repo.cleanroommc.com/releases/top/outlands/foundation/0.15.4/foundation-0.15.4.jar",
+                    "sha1": "3ae0431ad35b74f03fcfb4ed6a2f2b208538002d",
+                    "size": 56833
                 }
             }
         },
@@ -144,24 +151,24 @@
             }
         },
         {
-            "name": "org.jline:jline:3.29.0",
+            "name": "org.jline:jline:3.30.6",
             "downloads": {
                 "artifact": {
-                    "path": "org/jline/jline/3.29.0/jline-3.29.0.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/jline/jline/3.29.0/jline-3.29.0.jar",
-                    "sha1": "656ea65935d76fc14c1bbc5173c99d9a74838619",
-                    "size": 1430776
+                    "path": "org/jline/jline/3.30.6/jline-3.30.6.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/jline/jline/3.30.6/jline-3.30.6.jar",
+                    "sha1": "62949dd8d8f8d490170e0e16918d754660d3689c",
+                    "size": 1505052
                 }
             }
         },
         {
-            "name": "org.jline:jline-native:3.29.0",
+            "name": "org.jline:jline-native:3.30.6",
             "downloads": {
                 "artifact": {
-                    "path": "org/jline/jline-native/3.29.0/jline-native-3.29.0.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/jline/jline-native/3.29.0/jline-native-3.29.0.jar",
-                    "sha1": "26561ce5618a0bee8ca0515a9bebcc9a0e12c633",
-                    "size": 190157
+                    "path": "org/jline/jline-native/3.30.6/jline-native-3.30.6.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/jline/jline-native/3.30.6/jline-native-3.30.6.jar",
+                    "sha1": "94a3905227fb4d3921ac964eb0babdfa14a3c9c8",
+                    "size": 190173
                 }
             }
         },
@@ -221,13 +228,13 @@
             }
         },
         {
-            "name": "org.apache.maven:maven-artifact:3.9.9",
+            "name": "org.apache.maven:maven-artifact:3.9.11",
             "downloads": {
                 "artifact": {
-                    "path": "org/apache/maven/maven-artifact/3.9.9/maven-artifact-3.9.9.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.9.9/maven-artifact-3.9.9.jar",
-                    "sha1": "a130ec431ef32e12a4424f9b074735bb58e15d2d",
-                    "size": 58819
+                    "path": "org/apache/maven/maven-artifact/3.9.11/maven-artifact-3.9.11.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/apache/maven/maven-artifact/3.9.11/maven-artifact-3.9.11.jar",
+                    "sha1": "b0f6b246f5626936ecae7531d0a3deb76789bab9",
+                    "size": 58821
                 }
             }
         },
@@ -243,90 +250,90 @@
             }
         },
         {
-            "name": "org.apache.commons:commons-lang3:3.17.0",
+            "name": "org.apache.commons:commons-lang3:3.19.0",
             "downloads": {
                 "artifact": {
-                    "path": "org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.17.0/commons-lang3-3.17.0.jar",
-                    "sha1": "b17d2136f0460dcc0d2016ceefca8723bdf4ee70",
-                    "size": 673587
+                    "path": "org/apache/commons/commons-lang3/3.19.0/commons-lang3-3.19.0.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.19.0/commons-lang3-3.19.0.jar",
+                    "sha1": "d6524b169a6574cd253760c472d419b47bfd37e6",
+                    "size": 709075
                 }
             }
         },
         {
-            "name": "org.apache.commons:commons-compress:1.27.1",
+            "name": "org.apache.commons:commons-compress:1.28.0",
             "downloads": {
                 "artifact": {
-                    "path": "org/apache/commons/commons-compress/1.27.1/commons-compress-1.27.1.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.27.1/commons-compress-1.27.1.jar",
-                    "sha1": "a19151084758e2fbb6b41eddaa88e7b8ff4e6599",
-                    "size": 1087319
+                    "path": "org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar",
+                    "sha1": "e482f2c7a88dac3c497e96aa420b6a769f59c8d7",
+                    "size": 1117221
                 }
             }
         },
         {
-            "name": "org.apache.httpcomponents.core5:httpcore5:5.3.4",
+            "name": "org.apache.httpcomponents.core5:httpcore5:5.3.6",
             "downloads": {
                 "artifact": {
-                    "path": "org/apache/httpcomponents/core5/httpcore5/5.3.4/httpcore5-5.3.4.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.3.4/httpcore5-5.3.4.jar",
-                    "sha1": "ea47f0fe6e00ffb07cec3a0cb1bb801b1a9cc353",
-                    "size": 908601
+                    "path": "org/apache/httpcomponents/core5/httpcore5/5.3.6/httpcore5-5.3.6.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5/5.3.6/httpcore5-5.3.6.jar",
+                    "sha1": "2c7f0d11747f9485a02c9f622c0f0477d7ce8677",
+                    "size": 909490
                 }
             }
         },
         {
-            "name": "org.apache.httpcomponents.core5:httpcore5-h2:5.3.4",
+            "name": "org.apache.httpcomponents.core5:httpcore5-h2:5.3.6",
             "downloads": {
                 "artifact": {
-                    "path": "org/apache/httpcomponents/core5/httpcore5-h2/5.3.4/httpcore5-h2-5.3.4.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.3.4/httpcore5-h2-5.3.4.jar",
-                    "sha1": "3742a9a9ba3a5a0d45be230093b52a1302a561e2",
-                    "size": 241692
+                    "path": "org/apache/httpcomponents/core5/httpcore5-h2/5.3.6/httpcore5-h2-5.3.6.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/core5/httpcore5-h2/5.3.6/httpcore5-h2-5.3.6.jar",
+                    "sha1": "5b4b321d0001aac957f5db293e3cbc4099fc15b8",
+                    "size": 242521
                 }
             }
         },
         {
-            "name": "org.apache.httpcomponents.client5:httpclient5:5.5",
+            "name": "org.apache.httpcomponents.client5:httpclient5:5.5.1",
             "downloads": {
                 "artifact": {
-                    "path": "org/apache/httpcomponents/client5/httpclient5/5.5/httpclient5-5.5.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.5/httpclient5-5.5.jar",
-                    "sha1": "4b3d253351cf74eb0ae8eb21ca5a5fb9815ef861",
-                    "size": 954979
+                    "path": "org/apache/httpcomponents/client5/httpclient5/5.5.1/httpclient5-5.5.1.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/apache/httpcomponents/client5/httpclient5/5.5.1/httpclient5-5.5.1.jar",
+                    "sha1": "89ab9084b94afb7893a54f4d09b07c25246af5a7",
+                    "size": 959302
                 }
             }
         },
         {
-            "name": "com.github.oshi:oshi-core:6.8.2",
+            "name": "com.github.oshi:oshi-core:6.9.0",
             "downloads": {
                 "artifact": {
-                    "path": "com/github/oshi/oshi-core/6.8.2/oshi-core-6.8.2.jar",
-                    "url": "https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.8.2/oshi-core-6.8.2.jar",
-                    "sha1": "7657e8b1233add643562ba17f403e95af187634c",
-                    "size": 1015155
+                    "path": "com/github/oshi/oshi-core/6.9.0/oshi-core-6.9.0.jar",
+                    "url": "https://repo.maven.apache.org/maven2/com/github/oshi/oshi-core/6.9.0/oshi-core-6.9.0.jar",
+                    "sha1": "03224870731860cfcd7744581a05b559e94291e7",
+                    "size": 1022125
                 }
             }
         },
         {
-            "name": "net.java.dev.jna:jna:5.17.0",
+            "name": "net.java.dev.jna:jna:5.18.0",
             "downloads": {
                 "artifact": {
-                    "path": "net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar",
-                    "url": "https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar",
-                    "sha1": "33d12735bef894440780fce64f9758d420c7bae2",
-                    "size": 2002589
+                    "path": "net/java/dev/jna/jna/5.18.0/jna-5.18.0.jar",
+                    "url": "https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.18.0/jna-5.18.0.jar",
+                    "sha1": "a443db2a11ebf84923f1fac12f29d2969e78f58d",
+                    "size": 2002989
                 }
             }
         },
         {
-            "name": "net.java.dev.jna:jna-platform:5.17.0",
+            "name": "net.java.dev.jna:jna-platform:5.18.0",
             "downloads": {
                 "artifact": {
-                    "path": "net/java/dev/jna/jna-platform/5.17.0/jna-platform-5.17.0.jar",
-                    "url": "https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.17.0/jna-platform-5.17.0.jar",
-                    "sha1": "a4934c44d25a9d8c2ddf4203affd20330cb3426f",
-                    "size": 1378617
+                    "path": "net/java/dev/jna/jna-platform/5.18.0/jna-platform-5.18.0.jar",
+                    "url": "https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.18.0/jna-platform-5.18.0.jar",
+                    "sha1": "228c7e8be9be28f823b39149e1cf59f9feac7b33",
+                    "size": 1380746
                 }
             }
         },
@@ -342,24 +349,24 @@
             }
         },
         {
-            "name": "commons-codec:commons-codec:1.18.0",
+            "name": "commons-codec:commons-codec:1.19.0",
             "downloads": {
                 "artifact": {
-                    "path": "commons-codec/commons-codec/1.18.0/commons-codec-1.18.0.jar",
-                    "url": "https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.18.0/commons-codec-1.18.0.jar",
-                    "sha1": "ee45d1cf6ec2cc2b809ff04b4dc7aec858e0df8f",
-                    "size": 373045
+                    "path": "commons-codec/commons-codec/1.19.0/commons-codec-1.19.0.jar",
+                    "url": "https://repo.maven.apache.org/maven2/commons-codec/commons-codec/1.19.0/commons-codec-1.19.0.jar",
+                    "sha1": "8c0dbe3ae883fceda9b50a6c76e745e548073388",
+                    "size": 374716
                 }
             }
         },
         {
-            "name": "commons-io:commons-io:2.19.0",
+            "name": "commons-io:commons-io:2.20.0",
             "downloads": {
                 "artifact": {
-                    "path": "commons-io/commons-io/2.19.0/commons-io-2.19.0.jar",
-                    "url": "https://repo.maven.apache.org/maven2/commons-io/commons-io/2.19.0/commons-io-2.19.0.jar",
-                    "sha1": "1f8d4a99ba72b77aa69101175efc79b0c7dcdd7e",
-                    "size": 556073
+                    "path": "commons-io/commons-io/2.20.0/commons-io-2.20.0.jar",
+                    "url": "https://repo.maven.apache.org/maven2/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar",
+                    "sha1": "36f3474daec2849c149e877614e7f979b2082cd2",
+                    "size": 563971
                 }
             }
         },
@@ -375,13 +382,13 @@
             }
         },
         {
-            "name": "com.google.guava:guava:33.4.8-jre",
+            "name": "com.google.guava:guava:33.5.0-jre",
             "downloads": {
                 "artifact": {
-                    "path": "com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.jar",
-                    "url": "https://repo.maven.apache.org/maven2/com/google/guava/guava/33.4.8-jre/guava-33.4.8-jre.jar",
-                    "sha1": "e70a3268e6cd3e7d458aa15787ce6811c34e96ae",
-                    "size": 3023797
+                    "path": "com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar",
+                    "url": "https://repo.maven.apache.org/maven2/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar",
+                    "sha1": "8699de25f2f979108d6c1b804a7ba38cda1116bc",
+                    "size": 3017283
                 }
             }
         },
@@ -397,13 +404,13 @@
             }
         },
         {
-            "name": "com.google.code.gson:gson:2.13.1",
+            "name": "com.google.code.gson:gson:2.13.2",
             "downloads": {
                 "artifact": {
-                    "path": "com/google/code/gson/gson/2.13.1/gson-2.13.1.jar",
-                    "url": "https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.1/gson-2.13.1.jar",
-                    "sha1": "853ce06c11316b33a8eae5e9095da096a9528b8f",
-                    "size": 286972
+                    "path": "com/google/code/gson/gson/2.13.2/gson-2.13.2.jar",
+                    "url": "https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar",
+                    "sha1": "48b8230771e573b54ce6e867a9001e75977fe78e",
+                    "size": 289901
                 }
             }
         },
@@ -430,177 +437,188 @@
             }
         },
         {
-            "name": "io.netty:netty-codec-base:4.2.3.Final",
+            "name": "io.netty:netty-codec-base:4.2.6.Final",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-codec-base/4.2.3.Final/netty-codec-base-4.2.3.Final.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-codec-base/4.2.3.Final/netty-codec-base-4.2.3.Final.jar",
-                    "sha1": "ace65f41ef5cb68fe989591c7882d772fda0b7a5",
-                    "size": 152823
+                    "path": "io/netty/netty-codec-base/4.2.6.Final/netty-codec-base-4.2.6.Final.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-codec-base/4.2.6.Final/netty-codec-base-4.2.6.Final.jar",
+                    "sha1": "fd6ff9613696f99857daeca37d4cfed22b1eb69e",
+                    "size": 152980
                 }
             }
         },
         {
-            "name": "io.netty:netty-buffer:4.2.3.Final",
+            "name": "io.netty:netty-buffer:4.2.6.Final",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-buffer/4.2.3.Final/netty-buffer-4.2.3.Final.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.2.3.Final/netty-buffer-4.2.3.Final.jar",
-                    "sha1": "26fcbd83f5d295613cb961315e5734e85b7e84e4",
-                    "size": 366760
+                    "path": "io/netty/netty-buffer/4.2.6.Final/netty-buffer-4.2.6.Final.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.2.6.Final/netty-buffer-4.2.6.Final.jar",
+                    "sha1": "4dfa898e145ea6910b9e99388f35e0ad483a6dfa",
+                    "size": 372929
                 }
             }
         },
         {
-            "name": "io.netty:netty-common:4.2.3.Final",
+            "name": "io.netty:netty-common:4.2.6.Final",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-common/4.2.3.Final/netty-common-4.2.3.Final.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-common/4.2.3.Final/netty-common-4.2.3.Final.jar",
-                    "sha1": "ec50c6854dff52674ba3c218de1323191775c4ae",
-                    "size": 751321
+                    "path": "io/netty/netty-common/4.2.6.Final/netty-common-4.2.6.Final.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-common/4.2.6.Final/netty-common-4.2.6.Final.jar",
+                    "sha1": "5746874869298a07b468dd50b5991f457e773620",
+                    "size": 774708
                 }
             }
         },
         {
-            "name": "io.netty:netty-handler:4.2.3.Final",
+            "name": "io.netty:netty-handler:4.2.6.Final",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-handler/4.2.3.Final/netty-handler-4.2.3.Final.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.2.3.Final/netty-handler-4.2.3.Final.jar",
-                    "sha1": "20b5062d40d52e73b76bdf5baba238c758cbfd44",
-                    "size": 574028
+                    "path": "io/netty/netty-handler/4.2.6.Final/netty-handler-4.2.6.Final.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.2.6.Final/netty-handler-4.2.6.Final.jar",
+                    "sha1": "311ea62f27b26685b306dc24c4bbf765bc1950d9",
+                    "size": 571539
                 }
             }
         },
         {
-            "name": "io.netty:netty-resolver:4.2.3.Final",
+            "name": "io.netty:netty-resolver:4.2.6.Final",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-resolver/4.2.3.Final/netty-resolver-4.2.3.Final.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.2.3.Final/netty-resolver-4.2.3.Final.jar",
-                    "sha1": "2c5a2227cd73f07885d5a4bd4cc8354fb1fdd4c7",
+                    "path": "io/netty/netty-resolver/4.2.6.Final/netty-resolver-4.2.6.Final.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.2.6.Final/netty-resolver-4.2.6.Final.jar",
+                    "sha1": "121223f223094539282b916c303ac52c7875b9aa",
                     "size": 38440
                 }
             }
         },
         {
-            "name": "io.netty:netty-transport:4.2.3.Final",
+            "name": "io.netty:netty-transport:4.2.6.Final",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-transport/4.2.3.Final/netty-transport-4.2.3.Final.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.2.3.Final/netty-transport-4.2.3.Final.jar",
-                    "sha1": "917f438748d834068bce8a0ff986c2f8057d4551",
-                    "size": 560452
+                    "path": "io/netty/netty-transport/4.2.6.Final/netty-transport-4.2.6.Final.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.2.6.Final/netty-transport-4.2.6.Final.jar",
+                    "sha1": "15af02f1735db36455f2af2fd11b64e9f4499008",
+                    "size": 562314
                 }
             }
         },
         {
-            "name": "io.netty:netty-transport-native-unix-common:4.2.3.Final-linux-x86_64",
+            "name": "io.netty:netty-transport-native-unix-common:4.2.6.Final-linux-x86_64",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-transport-native-unix-common/4.2.3.Final-linux-x86_64/netty-transport-native-unix-common-4.2.3.Final-linux-x86_64.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.2.3.Final/netty-transport-native-unix-common-4.2.3.Final-linux-x86_64.jar",
-                    "sha1": "dc3aa782816f2b99c612f0778fb06cb23b763482",
-                    "size": 76738
+                    "path": "io/netty/netty-transport-native-unix-common/4.2.6.Final-linux-x86_64/netty-transport-native-unix-common-4.2.6.Final-linux-x86_64.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.2.6.Final/netty-transport-native-unix-common-4.2.6.Final-linux-x86_64.jar",
+                    "sha1": "89b9df95af3dda7b6b61cb1b55460dfdf3933625",
+                    "size": 76987
                 }
             }
         },
         {
-            "name": "io.netty:netty-transport-classes-epoll:4.2.3.Final",
+            "name": "io.netty:netty-transport-classes-epoll:4.2.6.Final",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-transport-classes-epoll/4.2.3.Final/netty-transport-classes-epoll-4.2.3.Final.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-epoll/4.2.3.Final/netty-transport-classes-epoll-4.2.3.Final.jar",
-                    "sha1": "68ff55b2cf495f4411bdfcec5635f8074bcd5480",
-                    "size": 155307
+                    "path": "io/netty/netty-transport-classes-epoll/4.2.6.Final/netty-transport-classes-epoll-4.2.6.Final.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-epoll/4.2.6.Final/netty-transport-classes-epoll-4.2.6.Final.jar",
+                    "sha1": "b61968c0cb9c474df7a0ddc7cd577fed677efbbb",
+                    "size": 156127
                 }
             }
         },
         {
-            "name": "io.netty:netty-transport-native-epoll:4.2.3.Final-linux-x86_64",
+            "name": "io.netty:netty-transport-native-epoll:4.2.6.Final-linux-x86_64",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-transport-native-epoll/4.2.3.Final-linux-x86_64/netty-transport-native-epoll-4.2.3.Final-linux-x86_64.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.2.3.Final/netty-transport-native-epoll-4.2.3.Final-linux-x86_64.jar",
-                    "sha1": "048a792d0ffdb6a545bb9b062e07832c75b31ee8",
-                    "size": 41814
+                    "path": "io/netty/netty-transport-native-epoll/4.2.6.Final-linux-x86_64/netty-transport-native-epoll-4.2.6.Final-linux-x86_64.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.2.6.Final/netty-transport-native-epoll-4.2.6.Final-linux-x86_64.jar",
+                    "sha1": "c4a2ba3782e65b34bbb54c3a6636b466955dc1c6",
+                    "size": 41804
                 }
             }
         },
         {
-            "name": "io.netty:netty-codec-http:4.2.3.Final",
+            "name": "io.netty:netty-codec-http:4.2.6.Final",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-codec-http/4.2.3.Final/netty-codec-http-4.2.3.Final.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.2.3.Final/netty-codec-http-4.2.3.Final.jar",
-                    "sha1": "cadd9d990127d4c1889e17ff008e107c6685454f",
-                    "size": 676765
+                    "path": "io/netty/netty-codec-http/4.2.6.Final/netty-codec-http-4.2.6.Final.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.2.6.Final/netty-codec-http-4.2.6.Final.jar",
+                    "sha1": "26da0fb9215bde2ecd551b941ccb974f65f59884",
+                    "size": 682618
                 }
             }
         },
         {
-            "name": "io.netty:netty-codec-http2:4.2.3.Final",
+            "name": "io.netty:netty-codec-http2:4.2.6.Final",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-codec-http2/4.2.3.Final/netty-codec-http2-4.2.3.Final.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.2.3.Final/netty-codec-http2-4.2.3.Final.jar",
-                    "sha1": "1de97f915fb42748f237ec79ea93ce62e4c2e1bb",
-                    "size": 496579
+                    "path": "io/netty/netty-codec-http2/4.2.6.Final/netty-codec-http2-4.2.6.Final.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.2.6.Final/netty-codec-http2-4.2.6.Final.jar",
+                    "sha1": "55b556602dd5ae7adf7a0ef4720195138018a623",
+                    "size": 500725
                 }
             }
         },
         {
-            "name": "io.netty:netty-codec-dns:4.2.3.Final",
+            "name": "io.netty:netty-codec-dns:4.2.6.Final",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-codec-dns/4.2.3.Final/netty-codec-dns-4.2.3.Final.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.2.3.Final/netty-codec-dns-4.2.3.Final.jar",
-                    "sha1": "c4de7dde10689a449a4aa6b7c8bce0c0f8657513",
-                    "size": 70123
+                    "path": "io/netty/netty-codec-dns/4.2.6.Final/netty-codec-dns-4.2.6.Final.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.2.6.Final/netty-codec-dns-4.2.6.Final.jar",
+                    "sha1": "498d957639b6249ba1b6884b212bb9e3d8580ec3",
+                    "size": 70151
                 }
             }
         },
         {
-            "name": "io.netty:netty-resolver-dns:4.2.3.Final",
+            "name": "io.netty:netty-codec-compression:4.2.6.Final",
             "downloads": {
                 "artifact": {
-                    "path": "io/netty/netty-resolver-dns/4.2.3.Final/netty-resolver-dns-4.2.3.Final.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.2.3.Final/netty-resolver-dns-4.2.3.Final.jar",
-                    "sha1": "e4f0133a3a6e8bd236633d87c5bd41f3689b3aab",
-                    "size": 188585
+                    "path": "io/netty/netty-codec-compression/4.2.6.Final/netty-codec-compression-4.2.6.Final.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-codec-compression/4.2.6.Final/netty-codec-compression-4.2.6.Final.jar",
+                    "sha1": "fadf334ce949ae99b96b4b9d95d59c30a5dc2614",
+                    "size": 182869
                 }
             }
         },
         {
-            "name": "org.apache.logging.log4j:log4j-api:2.25.0",
+            "name": "io.netty:netty-resolver-dns:4.2.6.Final",
             "downloads": {
                 "artifact": {
-                    "path": "org/apache/logging/log4j/log4j-api/2.25.0/log4j-api-2.25.0.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.25.0/log4j-api-2.25.0.jar",
-                    "sha1": "da64d32ee42b8d7760fc6ca8ba72042096ffbc28",
-                    "size": 349593
+                    "path": "io/netty/netty-resolver-dns/4.2.6.Final/netty-resolver-dns-4.2.6.Final.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.2.6.Final/netty-resolver-dns-4.2.6.Final.jar",
+                    "sha1": "ff71e8ef0b6bfdef7620ff4e77481a716792534f",
+                    "size": 188691
                 }
             }
         },
         {
-            "name": "org.apache.logging.log4j:log4j-core:2.25.0",
+            "name": "org.apache.logging.log4j:log4j-api:2.25.2",
             "downloads": {
                 "artifact": {
-                    "path": "org/apache/logging/log4j/log4j-core/2.25.0/log4j-core-2.25.0.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.25.0/log4j-core-2.25.0.jar",
-                    "sha1": "2fe857a3f68108eb7f1d9e88b91eca0a952a75d6",
-                    "size": 2013088
+                    "path": "org/apache/logging/log4j/log4j-api/2.25.2/log4j-api-2.25.2.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-api/2.25.2/log4j-api-2.25.2.jar",
+                    "sha1": "292c1a2b1702f1e1e3adb13e1c57e5bff60335ff",
+                    "size": 349595
                 }
             }
         },
         {
-            "name": "org.apache.logging.log4j:log4j-slf4j2-impl:2.25.0",
+            "name": "org.apache.logging.log4j:log4j-core:2.25.2",
             "downloads": {
                 "artifact": {
-                    "path": "org/apache/logging/log4j/log4j-slf4j2-impl/2.25.0/log4j-slf4j2-impl-2.25.0.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j2-impl/2.25.0/log4j-slf4j2-impl-2.25.0.jar",
-                    "sha1": "536a9f0022254bd966b4fdb7c978545f40962489",
+                    "path": "org/apache/logging/log4j/log4j-core/2.25.2/log4j-core-2.25.2.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-core/2.25.2/log4j-core-2.25.2.jar",
+                    "sha1": "d4d0ad2e51e03e531f784891fbfff1bae1e13a12",
+                    "size": 2018265
+                }
+            }
+        },
+        {
+            "name": "org.apache.logging.log4j:log4j-slf4j2-impl:2.25.2",
+            "downloads": {
+                "artifact": {
+                    "path": "org/apache/logging/log4j/log4j-slf4j2-impl/2.25.2/log4j-slf4j2-impl-2.25.2.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/apache/logging/log4j/log4j-slf4j2-impl/2.25.2/log4j-slf4j2-impl-2.25.2.jar",
+                    "sha1": "5eec0c392661dee8a366baec17e8896900dd978f",
                     "size": 30232
                 }
             }
@@ -628,35 +646,35 @@
             }
         },
         {
-            "name": "jakarta.xml.bind:jakarta.xml.bind-api:4.0.2",
+            "name": "jakarta.xml.bind:jakarta.xml.bind-api:4.0.4",
             "downloads": {
                 "artifact": {
-                    "path": "jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar",
-                    "url": "https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar",
-                    "sha1": "6cd5a999b834b63238005b7144136379dc36cad2",
-                    "size": 131033
+                    "path": "jakarta/xml/bind/jakarta.xml.bind-api/4.0.4/jakarta.xml.bind-api-4.0.4.jar",
+                    "url": "https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/4.0.4/jakarta.xml.bind-api-4.0.4.jar",
+                    "sha1": "d6d2327f3817d9a33a3b6b8f2e15a96bc2e7afdc",
+                    "size": 131188
                 }
             }
         },
         {
-            "name": "org.glassfish.jaxb:jaxb-runtime:4.0.5",
+            "name": "org.glassfish.jaxb:jaxb-runtime:4.0.6",
             "downloads": {
                 "artifact": {
-                    "path": "org/glassfish/jaxb/jaxb-runtime/4.0.5/jaxb-runtime-4.0.5.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.5/jaxb-runtime-4.0.5.jar",
-                    "sha1": "ca84c2a7169b5293e232b9d00d1e4e36d4c3914a",
-                    "size": 920213
+                    "path": "org/glassfish/jaxb/jaxb-runtime/4.0.6/jaxb-runtime-4.0.6.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-runtime/4.0.6/jaxb-runtime-4.0.6.jar",
+                    "sha1": "fb95ebb62564657b2fedfe165b859789ef3a8711",
+                    "size": 920148
                 }
             }
         },
         {
-            "name": "org.glassfish.jaxb:jaxb-core:4.0.5",
+            "name": "org.glassfish.jaxb:jaxb-core:4.0.6",
             "downloads": {
                 "artifact": {
-                    "path": "org/glassfish/jaxb/jaxb-core/4.0.5/jaxb-core-4.0.5.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.5/jaxb-core-4.0.5.jar",
-                    "sha1": "007b4b11ea5542eea4ad55e1080b23be436795b3",
-                    "size": 138682
+                    "path": "org/glassfish/jaxb/jaxb-core/4.0.6/jaxb-core-4.0.6.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/glassfish/jaxb/jaxb-core/4.0.6/jaxb-core-4.0.6.jar",
+                    "sha1": "8e61282303777fc98a00cc3affd0560d68748a75",
+                    "size": 137909
                 }
             }
         },
@@ -683,35 +701,35 @@
             }
         },
         {
-            "name": "jakarta.activation:jakarta.activation-api:2.1.3",
+            "name": "jakarta.activation:jakarta.activation-api:2.1.4",
             "downloads": {
                 "artifact": {
-                    "path": "jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar",
-                    "url": "https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar",
-                    "sha1": "fa165bd70cda600368eee31555222776a46b881f",
-                    "size": 66514
+                    "path": "jakarta/activation/jakarta.activation-api/2.1.4/jakarta.activation-api-2.1.4.jar",
+                    "url": "https://repo.maven.apache.org/maven2/jakarta/activation/jakarta.activation-api/2.1.4/jakarta.activation-api-2.1.4.jar",
+                    "sha1": "9e5c2a0d75dde71a0bedc4dbdbe47b78a5dc50f8",
+                    "size": 67380
                 }
             }
         },
         {
-            "name": "org.glassfish.corba:glassfish-corba-omgapi:4.2.5",
+            "name": "org.glassfish.corba:glassfish-corba-omgapi:5.0.0",
             "downloads": {
                 "artifact": {
-                    "path": "org/glassfish/corba/glassfish-corba-omgapi/4.2.5/glassfish-corba-omgapi-4.2.5.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/glassfish/corba/glassfish-corba-omgapi/4.2.5/glassfish-corba-omgapi-4.2.5.jar",
-                    "sha1": "112740b44afd5739b4ef614a8ff5221cc3f338b7",
-                    "size": 1389070
+                    "path": "org/glassfish/corba/glassfish-corba-omgapi/5.0.0/glassfish-corba-omgapi-5.0.0.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/glassfish/corba/glassfish-corba-omgapi/5.0.0/glassfish-corba-omgapi-5.0.0.jar",
+                    "sha1": "07d4a8ad8861f3738e3abf183cbd86bfa88af4ac",
+                    "size": 1411320
                 }
             }
         },
         {
-            "name": "org.openjdk.nashorn:nashorn-core:15.6",
+            "name": "org.openjdk.nashorn:nashorn-core:15.7",
             "downloads": {
                 "artifact": {
-                    "path": "org/openjdk/nashorn/nashorn-core/15.6/nashorn-core-15.6.jar",
-                    "url": "https://repo.maven.apache.org/maven2/org/openjdk/nashorn/nashorn-core/15.6/nashorn-core-15.6.jar",
-                    "sha1": "c84c9a8ce807e655568e331b522ab091586ccbb6",
-                    "size": 2167261
+                    "path": "org/openjdk/nashorn/nashorn-core/15.7/nashorn-core-15.7.jar",
+                    "url": "https://repo.maven.apache.org/maven2/org/openjdk/nashorn/nashorn-core/15.7/nashorn-core-15.7.jar",
+                    "sha1": "f959627b97cb21316906d3634fecf4ec04016bcd",
+                    "size": 2139093
                 }
             }
         },
@@ -727,12 +745,12 @@
             }
         },
         {
-            "name": "io.github.llamalad7:mixinextras-common:0.5.0-rc.4",
+            "name": "io.github.llamalad7:mixinextras-common:0.5.0",
             "downloads": {
                 "artifact": {
-                    "path": "io/github/llamalad7/mixinextras-common/0.5.0-rc.4/mixinextras-common-0.5.0-rc.4.jar",
-                    "url": "https://repo.maven.apache.org/maven2/io/github/llamalad7/mixinextras-common/0.5.0-rc.4/mixinextras-common-0.5.0-rc.4.jar",
-                    "sha1": "32a4a0a421daf716d878bcead7af863508a579f8",
+                    "path": "io/github/llamalad7/mixinextras-common/0.5.0/mixinextras-common-0.5.0.jar",
+                    "url": "https://repo.maven.apache.org/maven2/io/github/llamalad7/mixinextras-common/0.5.0/mixinextras-common-0.5.0.jar",
+                    "sha1": "286da96036621082491d971dfc62bee8fc37d161",
                     "size": 721334
                 }
             }
@@ -748,5 +766,5 @@
         }
     ],
     "uid": "net.minecraftforge",
-    "version": "0.3.13-alpha"
+    "version": "0.3.19-alpha"
 }
