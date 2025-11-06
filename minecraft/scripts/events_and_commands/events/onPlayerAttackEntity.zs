@@ -68,6 +68,15 @@ events.onPlayerAttackEntity(function(event as PlayerAttackEntityEvent) {
             }
         }
 
+        //Order Guardian
+        if (!isNull(entity.definition) && !player.world.remote) {
+            if (entity.definition.id == "ageofchaos:chaosguardianhelpful") {
+                if (entity.health >= 0.0f) {
+                    entity.health -= 5.0f;
+                }
+            }
+        }
+
         //print entity.definition.id
         /*
         if (!isNull(player.currentItem) && player.currentItem.definition.id == "minecraft:stick") {

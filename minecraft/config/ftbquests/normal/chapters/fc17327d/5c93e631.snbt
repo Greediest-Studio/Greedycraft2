@@ -10,9 +10,13 @@
 	],
 	size: 1.5d,
 	rewards: [{
-		uid: "f19ad107",
+		uid: "e64b6f68",
 		type: "item",
-		title: "这是另一本更强的说明书",
+		item: "contenttweaker:dim_item"
+	},
+	{
+		uid: "d00f2549",
+		type: "item",
 		item: {
 			id: "akashictome:tome",
 			tag: {
@@ -33,69 +37,11 @@
 						},
 						Damage: 0s
 					},
-					thaumcraft: {
-						id: "thaumcraft:thaumonomicon",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "thaumcraft"
-						},
-						Damage: 0s
-					},
-					hammercore: {
-						id: "hammercore:manual",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "hammercore"
-						},
-						Damage: 0s
-					},
-					rftoolscontrol: {
-						id: "rftoolscontrol:rftoolscontrol_manual",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "rftoolscontrol"
-						},
-						Damage: 0s
-					},
 					tconstruct: {
 						id: "tconstruct:book",
 						Count: 1b,
 						tag: {
 							"akashictome:definedMod": "tconstruct"
-						},
-						Damage: 0s
-					},
-					bibliocraft3: {
-						id: "bibliocraft:biblioredbook",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "bibliocraft3",
-							redstonebook: "by James Maxwell"
-						},
-						Damage: 0s
-					},
-					botania: {
-						id: "botania:lexicon",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "botania"
-						},
-						Damage: 0s
-					},
-					patchouli: {
-						id: "patchouli:guide_book",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "patchouli",
-							"patchouli:book": "patchouli:the_elysia_project"
-						},
-						Damage: 0s
-					},
-					thermalfoundation: {
-						id: "thermalfoundation:tome_lexicon",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "thermalfoundation"
 						},
 						Damage: 0s
 					},
@@ -112,6 +58,230 @@
 						Count: 1b,
 						tag: {
 							"akashictome:definedMod": "cyclicmagic"
+						},
+						Damage: 0s
+					},
+					patchouli1: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "patchouli1",
+							"patchouli:book": "patchouli:greedycraft_guide_book"
+						},
+						Damage: 0s
+					},
+					conarm: {
+						id: "conarm:book",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "conarm"
+						},
+						Damage: 0s
+					},
+					thebetweenlands: {
+						id: "thebetweenlands:manual_hl",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "thebetweenlands"
+						},
+						Damage: 0s
+					},
+					actuallyadditions: {
+						id: "actuallyadditions:item_booklet",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "actuallyadditions"
+						},
+						Damage: 0s
+					},
+					touhou_little_maid: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "touhou_little_maid",
+							"patchouli:book": "touhou_little_maid:memorizable_gensokyo"
+						},
+						Damage: 0s
+					},
+					astralsorcery: {
+						id: "astralsorcery:itemjournal",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "astralsorcery"
+						},
+						Damage: 0s
+					},
+					abyssalcraft: {
+						id: "abyssalcraft:necronomicon",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "abyssalcraft",
+							PotEnergy: 0.0f
+						},
+						Damage: 0s
+					},
+					rftools: {
+						id: "rftools:rftools_manual",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "rftools"
+						},
+						Damage: 0s
+					},
+					aether_legacy: {
+						id: "aether_legacy:lore_book",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "aether_legacy"
+						},
+						Damage: 0s
+					},
+					bloodmagic: {
+						id: "bloodmagic:sanguine_book",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "bloodmagic"
+						},
+						Damage: 0s
+					},
+					"thermal foundation": {
+						id: "thermalfoundation:tome_lexicon",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "thermalfoundation"
+						},
+						Damage: 0s
+					},
+					projecte: {
+						id: "projecte:item.pe_manual",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "projecte"
+						},
+						Damage: 0s
+					},
+					endreborn: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						tag: {
+							"akashictome:displayName": "末地之书",
+							"akashictome:definedMod": "endreborn",
+							"akashictome:is_morphing": 1b,
+							display: {
+								Name: "阿卡什宝典（末地之书）"
+							},
+							"patchouli:book": "endreborn:book"
+						},
+						Damage: 0s
+					},
+					packagedauto: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "packagedauto",
+							"patchouli:book": "packagedauto:guide"
+						},
+						Damage: 0s
+					},
+					ftbquests: {
+						id: "ftbquests:book",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "ftbquests"
+						},
+						Damage: 0s
+					},
+					nuclearcraft: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "nuclearcraft",
+							"patchouli:book": "nuclearcraft:guide"
+						},
+						Damage: 0s
+					},
+					extendedcrafting: {
+						id: "extendedcrafting:guide",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "extendedcrafting"
+						},
+						Damage: 0s
+					},
+					forestry1: {
+						id: "forestry:catalogue",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "forestry1"
+						},
+						Damage: 0s
+					},
+					ee: {
+						id: "ee:end_info_book",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "ee"
+						},
+						Damage: 0s
+					},
+					thaumcraft: {
+						id: "thaumcraft:thaumonomicon",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "thaumcraft"
+						},
+						Damage: 0s
+					},
+					rftools1: {
+						id: "rftools:rftools_shape_manual",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "rftools1"
+						},
+						Damage: 0s
+					},
+					rftoolscontrol: {
+						id: "rftoolscontrol:rftoolscontrol_manual",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "rftoolscontrol"
+						},
+						Damage: 0s
+					},
+					hammercore: {
+						id: "hammercore:manual",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "hammercore"
+						},
+						Damage: 0s
+					},
+					botania: {
+						id: "botania:lexicon",
+						Count: 1b,
+						tag: {
+							knowledge.minecraft: 1b,
+							"akashictome:definedMod": "botania",
+							knowledge.alfheim: 1b,
+							knowledge.dream: 1b,
+							knowledge.relic: 1b
+						},
+						Damage: 0s
+					},
+					patchouli: {
+						id: "patchouli:guide_book",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "patchouli",
+							"patchouli:book": "patchouli:the_elysia_project"
+						},
+						Damage: 0s
+					},
+					blue_skies: {
+						id: "blue_skies:blue_lore",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "blue_skies"
 						},
 						Damage: 0s
 					},
@@ -147,23 +317,6 @@
 						},
 						Damage: 0s
 					},
-					patchouli1: {
-						id: "patchouli:guide_book",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "patchouli1",
-							"patchouli:book": "patchouli:greedycraft_guide_book"
-						},
-						Damage: 0s
-					},
-					conarm: {
-						id: "conarm:book",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "conarm"
-						},
-						Damage: 0s
-					},
 					openblocks: {
 						id: "openblocks:info_book",
 						Count: 1b,
@@ -172,13 +325,22 @@
 						},
 						Damage: 0s
 					},
-					logisticspipes: {
-						id: "logisticspipes:guide_book",
+					theaurorian: {
+						id: "patchouli:guide_book",
 						Count: 1b,
 						tag: {
-							"akashictome:definedMod": "logisticspipes"
+							"akashictome:definedMod": "theaurorian",
+							"patchouli:book": "theaurorian:the_aurorian_guide"
 						},
 						Damage: 0s
+					},
+					opencomputers: {
+						id: "opencomputers:tool",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "opencomputers"
+						},
+						Damage: 4s
 					},
 					theoneprobe: {
 						id: "theoneprobe:probenote",
@@ -188,47 +350,12 @@
 						},
 						Damage: 0s
 					},
-					actuallyadditions: {
-						id: "actuallyadditions:item_booklet",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "actuallyadditions"
-						},
-						Damage: 0s
-					},
-					twilightforest: {
+					naturesaura: {
 						id: "patchouli:guide_book",
 						Count: 1b,
 						tag: {
-							"akashictome:definedMod": "twilightforest",
-							"patchouli:book": "twilightforest:guide"
-						},
-						Damage: 0s
-					},
-					sakura: {
-						id: "patchouli:guide_book",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "sakura",
-							"patchouli:book": "sakura:sakura_guide"
-						},
-						Damage: 0s
-					},
-					touhou_little_maid: {
-						id: "patchouli:guide_book",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "touhou_little_maid",
-							"patchouli:book": "touhou_little_maid:memorizable_gensokyo"
-						},
-						Damage: 0s
-					},
-					bibliocraft1: {
-						id: "bibliocraft:slottedbook",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "bibliocraft1",
-							authorName: "by Sir Hidington"
+							"akashictome:definedMod": "naturesaura",
+							"patchouli:book": "naturesaura:book"
 						},
 						Damage: 0s
 					},
@@ -248,20 +375,12 @@
 						},
 						Damage: 0s
 					},
-					astralsorcery: {
-						id: "astralsorcery:itemjournal",
+					sakura: {
+						id: "patchouli:guide_book",
 						Count: 1b,
 						tag: {
-							"akashictome:definedMod": "astralsorcery"
-						},
-						Damage: 0s
-					},
-					abyssalcraft: {
-						id: "abyssalcraft:necronomicon",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "abyssalcraft",
-							PotEnergy: 0.0f
+							"akashictome:definedMod": "sakura",
+							"patchouli:book": "sakura:sakura_guide"
 						},
 						Damage: 0s
 					},
@@ -273,11 +392,12 @@
 						},
 						Damage: 0s
 					},
-					rftools: {
-						id: "rftools:rftools_shape_manual",
+					twilightforest: {
+						id: "patchouli:guide_book",
 						Count: 1b,
 						tag: {
-							"akashictome:definedMod": "rftools"
+							"akashictome:definedMod": "twilightforest",
+							"patchouli:book": "twilightforest:guide"
 						},
 						Damage: 0s
 					},
@@ -286,14 +406,6 @@
 						Count: 1b,
 						tag: {
 							"akashictome:definedMod": "bloodarsenal"
-						},
-						Damage: 0s
-					},
-					bloodmagic: {
-						id: "bloodmagic:sanguine_book",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "bloodmagic"
 						},
 						Damage: 0s
 					},
@@ -314,43 +426,10 @@
 						Damage: 0s
 					},
 					rftools2: {
-						id: "rftools:rftools_manual",
+						id: "rftools:developers_delight",
 						Count: 1b,
 						tag: {
 							"akashictome:definedMod": "rftools2"
-						},
-						Damage: 0s
-					},
-					projecte: {
-						id: "projecte:item.pe_manual",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "projecte"
-						},
-						Damage: 0s
-					},
-					ftbquests: {
-						id: "ftbquests:book",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "ftbquests"
-						},
-						Damage: 0s
-					},
-					aether_legacy: {
-						id: "aether_legacy:lore_book",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "aether_legacy"
-						},
-						Damage: 0s
-					},
-					bigreactors: {
-						id: "patchouli:guide_book",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "bigreactors",
-							"patchouli:book": "bigreactors:erguide"
 						},
 						Damage: 0s
 					},
@@ -362,38 +441,11 @@
 						},
 						Damage: 1s
 					},
-					bibliocraft2: {
-						id: "bibliocraft:atlasbook",
+					rustic: {
+						id: "rustic:book",
 						Count: 1b,
 						tag: {
-							"akashictome:definedMod": "bibliocraft2",
-							atlasID: 1422948728
-						},
-						Damage: 33s
-					},
-					spiceoflife: {
-						id: "spiceoflife:bookfoodjournal",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "spiceoflife"
-						},
-						Damage: 0s
-					},
-					bibliocraft4: {
-						id: "bibliocraft:testeritem",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "bibliocraft4",
-							containerUpdate: 0b,
-							Inventory: []
-						},
-						Damage: 0s
-					},
-					forestry1: {
-						id: "forestry:catalogue",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "forestry1"
+							"akashictome:definedMod": "rustic"
 						},
 						Damage: 0s
 					},
@@ -404,22 +456,9 @@
 							"akashictome:definedMod": "bloodmagic1"
 						},
 						Damage: 0s
-					},
-					rustic: {
-						id: "rustic:book",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "rustic"
-						},
-						Damage: 0s
 					}
 				}
 			}
 		}
-	},
-	{
-		uid: "e64b6f68",
-		type: "item",
-		item: "contenttweaker:dim_item"
 	}]
 }
