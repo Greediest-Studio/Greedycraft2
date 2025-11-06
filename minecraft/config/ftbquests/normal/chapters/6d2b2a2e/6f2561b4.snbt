@@ -1,0 +1,22 @@
+{
+	title: "§b万能骰子",
+	x: 4.0d,
+	y: 5.5d,
+	description: "完成秩序骨钥的四重谜题，获得秩序骨钥-幻形骰子",
+	text: [
+		"或许还剩下一点什么……？"
+	],
+	dependencies: [
+		"63dedbcb",
+		"a952e75c"
+	],
+	tasks: [{
+		uid: "2a349180",
+		type: "item",
+		items: [{
+			item: "additions:ordered_bone_key_dice"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}
