@@ -241,7 +241,8 @@ createLootRecipe("durasteel_loot", [
     <defiledlands:calling_stone>
 ], [
     <defiledlands:umbrium_ingot> * 12,
-    <defiledlands:essence_destroyer> * 8
+    <defiledlands:essence_destroyer> * 8,
+    <defiledlands:black_heart>
 ], 20, 2.0E4 as long, 0);
 
 //悼亡者

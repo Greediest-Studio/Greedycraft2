@@ -519,3 +519,6 @@ RecipeUtil.addShapeless("godlikeum_ingot_essence", <additions:godlikeum_ingot>,
 RecipeUtil.addShapeless("nonenium_ingot_essence", <additions:nonenium_ingot>, 
     [<ore:ingotBaseEssence>, <ore:essenceNonenium>, <ore:essenceNonenium>, <ore:essenceNonenium>, <ore:essenceNonenium>]
 );
+RecipeUtil.addShapeless("pe_block", <gct_aby:solid_pot_energy>, 
+    [<additions:pe_ingot>, <additions:pe_ingot>, <additions:pe_ingot>, <additions:pe_ingot>, <additions:pe_ingot>, <additions:pe_ingot>, <additions:pe_ingot>, <additions:pe_ingot>, <additions:pe_ingot>]
+);
