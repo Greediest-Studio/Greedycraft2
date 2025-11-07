@@ -102,9 +102,7 @@ global gameStagesLore as string[][string][string][string] = {
                 "新的生物开始生成",
                 "世界各处可以找到新的矿物",
                 "龙之研究内容",
-                "无尽贪婪内容",
                 "额外植物学内容",
-                "等价交换内容",
                 "怪物现在会拥有更强力的盔甲和武器",
                 "可以探索末地的其余部分",
                 "地牢里可以开出新的宝物"
@@ -237,8 +235,7 @@ global gameStagesLore as string[][string][string][string] = {
             unlocks: [
                 "终极通用机械合金和电路板",
                 "高级太阳能板",
-                "使用者方块",
-                "量子采石场"
+                "使用者",
             ]
         },
         epic_engineer: {
@@ -359,10 +356,7 @@ global gameStagesLore as string[][string][string][string] = {
                 "解锁了一部分匠魂武器的制作配方。"
             ],
             unlocks: [
-                "可以制作战斧",
-                "可以制作海盗短弯刀",
-                "可以制作东方短弯刀",
-                "可以制作爆炸弓"
+                "可以制作战斧"
             ]
         },
         tactic_blueprint: {
@@ -492,8 +486,7 @@ global gameStagesLore as string[][string][string][string] = {
             ],
             unlocks: [
                 "物品现在会显示EMC值",
-                "解锁更高级的转化桌",
-                "可以将物品转化为EMC"
+                "贤者之石"
             ]
         },
         gatekeeper: {
