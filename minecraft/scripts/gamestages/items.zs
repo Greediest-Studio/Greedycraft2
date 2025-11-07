@@ -1669,7 +1669,6 @@ GameStagesUtil.stageFearlessMan.addIngredients([
 GameStagesUtil.stageGatekeeper.addIngredients([
     <additions:sanite_ore>,
     <ore:ingotSanite>,
-    <ore:blockSanite>,
     <ore:nuggetSanite>,
     <ore:plateSanite>,
     <ore:dustSanite>,

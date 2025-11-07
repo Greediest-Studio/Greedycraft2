@@ -522,3 +522,6 @@ RecipeUtil.addShapeless("nonenium_ingot_essence", <additions:nonenium_ingot>,
 RecipeUtil.addShapeless("pe_block", <gct_aby:solid_pot_energy>, 
     [<additions:pe_ingot>, <additions:pe_ingot>, <additions:pe_ingot>, <additions:pe_ingot>, <additions:pe_ingot>, <additions:pe_ingot>, <additions:pe_ingot>, <additions:pe_ingot>, <additions:pe_ingot>]
 );
+RecipeUtil.addShapeless("sanite_block", <gct_mobs:sanite_block>, 
+    [<gct_mobs:sanite_ingot>, <gct_mobs:sanite_ingot>, <gct_mobs:sanite_ingot>, <gct_mobs:sanite_ingot>, <gct_mobs:sanite_ingot>, <gct_mobs:sanite_ingot>, <gct_mobs:sanite_ingot>, <gct_mobs:sanite_ingot>, <gct_mobs:sanite_ingot>]
+);
