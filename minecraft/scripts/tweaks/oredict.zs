@@ -56,6 +56,11 @@ import scripts.util.oredict as OredictUtil;
 <ore:blockQuartzDark>.remove(<botania:quartztypedark:1>);
 <ore:blockQuartzDark>.remove(<botania:quartztypedark:2>);
 <ore:book>.remove(<tiths:ancient_book_irisia>);
+<ore:dustEden>.remove(<divinerpg:eden_dust>);
+<ore:dustWildwood>.remove(<divinerpg:wildwood_dust>);
+<ore:dustApalachia>.remove(<divinerpg:apalachia_dust>);
+<ore:dustSkythern>.remove(<divinerpg:skythern_dust>);
+<ore:dustMortum>.remove(<divinerpg:mortum_dust>);
 
 <ore:ingotCthulhurite>.add(<gct_mobs:cthulhurite_ingot>);
 <ore:starlight>.add(<journey:sapphire>);
