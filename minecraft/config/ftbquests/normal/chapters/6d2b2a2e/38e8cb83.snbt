@@ -1,0 +1,21 @@
+{
+	title: "§b终末感染",
+	x: 5.0d,
+	y: 7.5d,
+	description: "合成秩序嬗变手杖",
+	text: [
+		""
+	],
+	dependencies: [
+		"6f2561b4"
+	],
+	tasks: [{
+		uid: "759757a3",
+		type: "item",
+		items: [{
+			item: "additions:order_wand"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

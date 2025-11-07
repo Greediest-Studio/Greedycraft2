@@ -1,0 +1,24 @@
+{
+	title: "§c【可重复】 不灭守则",
+	x: 8.5d,
+	y: 8.0d,
+	description: "再次击杀秩序守护使",
+	text: [
+		""
+	],
+	dependencies: [
+		"317d1bc2"
+	],
+	tasks: [{
+		uid: "5c3b6ed6",
+		type: "custom",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "ageofchaos:chaosguardianhelpful"
+				}
+			}
+		}
+	}]
+}

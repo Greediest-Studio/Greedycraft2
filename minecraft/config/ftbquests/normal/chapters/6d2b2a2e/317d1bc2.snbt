@@ -1,0 +1,21 @@
+{
+	title: "§b幕后黑手",
+	x: 8.5d,
+	y: 9.5d,
+	description: "召唤并战胜秩序守护使",
+	text: [
+		"合成§e终焉容器§f，将其放置在秩序核心岛龙雕塑头顶的空缺中",
+		"使用秩序核心填充之，而后右键激活以召唤§e秩序守护使"
+	],
+	dependencies: [
+		"04f0d644"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "6c1049ba",
+		type: "item",
+		items: [{
+			item: "additions:order_scale"
+		}]
+	}]
+}

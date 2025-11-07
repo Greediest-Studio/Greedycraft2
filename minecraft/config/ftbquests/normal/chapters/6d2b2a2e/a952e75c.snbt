@@ -2,7 +2,7 @@
 	title: "§b贪婪科技",
 	x: 4.5d,
 	y: 3.5d,
-	description: "合成神识之脑容器",
+	description: "合成超精密生物质计算机控制器",
 	text: [
 		"生物质计算机的核心",
 		"绝对和新星工程一点关系都没有（确信）"
@@ -14,7 +14,7 @@
 		uid: "b9566feb",
 		type: "item",
 		items: [{
-			item: "additions:brain_container"
+			item: "modularmachinery:biotechnic_computer_factory_controller"
 		}]
 	}],
 	rewards: [{

@@ -133,7 +133,7 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
                 performExplosionAndLightning(world, x - 36.0d, y + 5.0d, z + 63.0d, 20.0f, player);
                 performExplosionAndLightning(world, x - 49.0d, y + 5.0d, z + 25.0d, 20.0f, player);
                 performExplosionAndLightning(world, x - 36.0d, y + 5.0d, z - 11.0d, 20.0f, player);
-                Commands.call("summon ageofchaos:chaosguardianhelpful " ~ x ~ " " ~ (y + 20) ~ " " ~ z ~ " {CarryingCrystal:1b}", player, world, false, true);
+                Commands.call("summon ageofchaos:chaosguardianhelpful " ~ x ~ " " ~ (y + 20) ~ " " ~ z ~ " {CarryingCrystal:1b,HomeXCoord:" ~ x ~ ",HomeYCoord:" ~ (y + 20) ~ ",HomeZCoord:" ~ z ~ "}", player, world, false, true);
             })
             .start();
     }

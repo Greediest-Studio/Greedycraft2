@@ -1,0 +1,19 @@
+{
+	title: "§b接近",
+	x: 6.5d,
+	y: 9.0d,
+	description: "前往秩序核心岛",
+	text: [
+		"以1个终之秩序石和13个秩序之石为框架，在秩序之地搭建水平的传送门",
+		"使用§e秩序嬗变手杖§r激活"
+	],
+	dependencies: [
+		"38e8cb83"
+	],
+	tasks: [{
+		uid: "324ee450",
+		type: "dimension",
+		icon: "gct_ores:order_stone_final",
+		dim: 103
+	}]
+}
