@@ -1,7 +1,11 @@
 {
-	title: "封包炼金塔",
+	title: "§b封包炼金塔",
 	x: -4.5d,
 	y: 6.0d,
+	description: "合成封包神秘炼金塔",
+	text: [
+		""
+	],
 	dependencies: [
 		"7bbe1740"
 	],
@@ -18,8 +22,8 @@
 		xp: 100
 	},
 	{
-		uid: "abad62a9",
-		type: "loot",
+		uid: "b5934a6b",
+		type: "random",
 		table: 3
 	}]
 }

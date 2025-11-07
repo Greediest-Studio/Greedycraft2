@@ -30,11 +30,6 @@
 		timer: 0L
 	}],
 	rewards: [{
-		uid: "6d0a2e86",
-		type: "loot",
-		table: 0
-	},
-	{
 		uid: "d130f49e",
 		type: "xp",
 		xp: 160
@@ -48,5 +43,10 @@
 		uid: "1735a48e",
 		type: "item",
 		item: "waystones:waystone"
+	},
+	{
+		uid: "af66fcbf",
+		type: "random",
+		table: 0
 	}]
 }

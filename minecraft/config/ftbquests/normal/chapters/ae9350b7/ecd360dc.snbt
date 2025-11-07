@@ -18,18 +18,23 @@
 		value: 15L
 	}],
 	rewards: [{
-		uid: "3722264e",
-		type: "loot",
+		uid: "12197fd8",
+		type: "random",
 		table: 3
 	},
 	{
-		uid: "6c9b03ca",
-		type: "loot",
+		uid: "6412415c",
+		type: "random",
 		table: 3
 	},
 	{
-		uid: "7b04e2e6",
-		type: "loot",
+		uid: "89c1daea",
+		type: "random",
 		table: 3
+	},
+	{
+		uid: "4e516f70",
+		type: "xp",
+		xp: 10000
 	}]
 }

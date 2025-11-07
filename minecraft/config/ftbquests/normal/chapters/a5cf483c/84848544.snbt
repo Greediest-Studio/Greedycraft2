@@ -19,11 +19,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "7fd41d1d",
-		type: "loot",
-		table: 1
-	},
-	{
 		uid: "1ef53234",
 		type: "xp",
 		xp: 555
@@ -33,5 +28,10 @@
 		type: "item",
 		item: "astralsorcery:blockmarble 1 5",
 		count: 16
+	},
+	{
+		uid: "b510a50d",
+		type: "random",
+		table: 1
 	}]
 }

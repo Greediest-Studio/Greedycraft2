@@ -19,13 +19,13 @@
 		xp: 100
 	},
 	{
-		uid: "134c6989",
-		type: "loot",
-		table: 0
-	},
-	{
 		uid: "b2cd0a50",
 		type: "item",
 		item: "solarflux:solar_panel_alchemical"
+	},
+	{
+		uid: "aa7ea01e",
+		type: "random",
+		table: 0
 	}]
 }

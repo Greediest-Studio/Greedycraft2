@@ -17,11 +17,6 @@
 		}]
 	}],
 	rewards: [{
-		uid: "26d9f41e",
-		type: "loot",
-		table: 1
-	},
-	{
 		uid: "e5324507",
 		type: "xp",
 		xp: 420
@@ -31,5 +26,10 @@
 		type: "item",
 		item: "astralsorcery:itemcraftingcomponent",
 		count: 8
+	},
+	{
+		uid: "4b9077a1",
+		type: "random",
+		table: 1
 	}]
 }

@@ -1,8 +1,11 @@
 {
-	title: "拒绝抽卡",
+	title: "§b拒绝抽卡",
 	x: -8.5d,
 	y: 4.0d,
 	description: "血魔法神力",
+	text: [
+		""
+	],
 	dependencies: [
 		"0c24b224"
 	],
@@ -25,8 +28,8 @@
 		item: "thaumcraft:curio 1 4"
 	},
 	{
-		uid: "c45ffdde",
-		type: "loot",
+		uid: "e88895de",
+		type: "random",
 		table: 2
 	}]
 }

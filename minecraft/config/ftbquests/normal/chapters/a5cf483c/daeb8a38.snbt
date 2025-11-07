@@ -24,11 +24,6 @@
 		}]
 	}],
 	rewards: [{
-		uid: "f1a944a0",
-		type: "loot",
-		table: 0
-	},
-	{
 		uid: "944e0f0e",
 		type: "xp",
 		xp: 160
@@ -38,5 +33,10 @@
 		type: "item",
 		item: "astralsorcery:blockmarble",
 		count: 24
+	},
+	{
+		uid: "9f475820",
+		type: "random",
+		table: 0
 	}]
 }

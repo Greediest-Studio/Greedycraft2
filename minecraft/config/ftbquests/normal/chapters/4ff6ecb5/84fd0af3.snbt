@@ -1,8 +1,11 @@
 {
-	title: "开始全自动之旅",
+	title: "§b开始全自动之旅",
 	x: -4.5d,
 	y: 2.0d,
 	description: "神秘封包的基础",
+	text: [
+		""
+	],
 	dependencies: [
 		"55a56909"
 	],
@@ -19,8 +22,8 @@
 		xp: 100
 	},
 	{
-		uid: "4794d7e7",
-		type: "loot",
+		uid: "0a4e9edc",
+		type: "random",
 		table: 0
 	}]
 }

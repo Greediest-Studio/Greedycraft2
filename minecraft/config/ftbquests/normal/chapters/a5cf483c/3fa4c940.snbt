@@ -17,11 +17,6 @@
 		}]
 	}],
 	rewards: [{
-		uid: "f0b8778b",
-		type: "loot",
-		table: 1
-	},
-	{
 		uid: "4eeacce0",
 		type: "xp",
 		xp: 520
@@ -31,5 +26,10 @@
 		type: "item",
 		item: "astralsorcery:blockinfusedwood 1 4",
 		count: 20
+	},
+	{
+		uid: "5272acba",
+		type: "random",
+		table: 1
 	}]
 }

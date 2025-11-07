@@ -24,13 +24,13 @@
 		stage: "master_wizard"
 	}],
 	rewards: [{
-		uid: "fcaa522b",
-		type: "loot",
-		table: 3
-	},
-	{
 		uid: "8ab8b969",
 		type: "xp",
 		xp: 9999
+	},
+	{
+		uid: "dbfd363c",
+		type: "random",
+		table: 3
 	}]
 }

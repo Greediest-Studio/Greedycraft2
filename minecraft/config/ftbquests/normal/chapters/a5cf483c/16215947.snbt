@@ -17,11 +17,6 @@
 		}]
 	}],
 	rewards: [{
-		uid: "8b58d1c0",
-		type: "loot",
-		table: 3
-	},
-	{
 		uid: "7a3ca9d5",
 		type: "item",
 		item: {
@@ -39,5 +34,15 @@
 			}
 		},
 		count: 4
+	},
+	{
+		uid: "347959e6",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "ef02d5f6",
+		type: "xp",
+		xp: 4000
 	}]
 }

@@ -19,8 +19,13 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "12e270af",
-		type: "loot",
+		uid: "a459a42f",
+		type: "random",
 		table: 2
+	},
+	{
+		uid: "5b728594",
+		type: "xp",
+		xp: 4000
 	}]
 }

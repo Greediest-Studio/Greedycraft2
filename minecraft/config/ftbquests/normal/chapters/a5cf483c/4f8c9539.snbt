@@ -23,11 +23,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "182266d0",
-		type: "loot",
-		table: 1
-	},
-	{
 		uid: "bcadca84",
 		type: "xp",
 		xp: 420
@@ -47,5 +42,10 @@
 				astralsorcery: {}
 			}
 		}
+	},
+	{
+		uid: "6085c865",
+		type: "random",
+		table: 1
 	}]
 }

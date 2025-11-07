@@ -1,8 +1,11 @@
 {
-	title: "诺言 upgrade",
+	title: "§b诺言 upgrade",
 	x: -3.5d,
 	y: 9.5d,
 	description: "每格最多放4个",
+	text: [
+		""
+	],
 	dependencies: [
 		"35dbd306"
 	],
@@ -17,8 +20,8 @@
 		}]
 	}],
 	rewards: [{
-		uid: "8dfddf93",
-		type: "loot",
+		uid: "2b68bf9f",
+		type: "random",
 		table: 2
 	}]
 }

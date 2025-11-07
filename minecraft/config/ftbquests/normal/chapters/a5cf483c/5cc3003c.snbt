@@ -17,11 +17,6 @@
 		}]
 	}],
 	rewards: [{
-		uid: "0969ae39",
-		type: "loot",
-		table: 0
-	},
-	{
 		uid: "39fc21c3",
 		type: "xp",
 		xp: 160
@@ -31,5 +26,10 @@
 		type: "item",
 		item: "minecraft:glass",
 		count: 320
+	},
+	{
+		uid: "723a65eb",
+		type: "random",
+		table: 0
 	}]
 }

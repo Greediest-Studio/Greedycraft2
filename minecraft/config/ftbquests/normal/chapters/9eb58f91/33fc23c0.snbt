@@ -34,13 +34,13 @@
 		}]
 	}],
 	rewards: [{
-		uid: "8396ed45",
-		type: "loot",
-		table: 1
-	},
-	{
 		uid: "474092ec",
 		type: "xp",
 		xp: 100
+	},
+	{
+		uid: "8a260157",
+		type: "random",
+		table: 1
 	}]
 }

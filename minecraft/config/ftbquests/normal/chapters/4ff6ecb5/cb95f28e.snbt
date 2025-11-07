@@ -1,14 +1,14 @@
 {
-	title: "血血血血血血血腥裂隙！？",
+	title: "§b血血血血血血血腥裂隙！？",
 	x: 11.5d,
 	y: -4.0d,
+	description: "前往血腥裂隙",
 	text: [
 		""
 	],
 	dependencies: [
 		"80fc6842"
 	],
-	optional: 1b,
 	tasks: [{
 		uid: "89866f4a",
 		type: "dimension",

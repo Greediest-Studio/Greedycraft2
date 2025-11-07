@@ -19,11 +19,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "0a018121",
-		type: "loot",
-		table: 2
-	},
-	{
 		uid: "ccbe4378",
 		type: "xp",
 		xp: 1200
@@ -33,5 +28,10 @@
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "novice_wizard"
+	},
+	{
+		uid: "92ecb8a7",
+		type: "random",
+		table: 2
 	}]
 }

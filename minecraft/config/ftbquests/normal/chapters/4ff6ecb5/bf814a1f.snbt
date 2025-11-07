@@ -1,7 +1,11 @@
 {
-	title: "汲取元动",
+	title: "§b汲取元动",
 	x: 9.5d,
 	y: 0.0d,
+	description: "合成元动汲取仪",
+	text: [
+		""
+	],
 	dependencies: [
 		"97914373"
 	],
@@ -11,5 +15,15 @@
 		items: [{
 			item: "thaumicaugmentation:impetus_drainer"
 		}]
+	}],
+	rewards: [{
+		uid: "532d0301",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "37e191ac",
+		type: "xp",
+		xp: 2500
 	}]
 }

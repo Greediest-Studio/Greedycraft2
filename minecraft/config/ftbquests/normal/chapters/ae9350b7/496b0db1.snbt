@@ -49,13 +49,13 @@
 		only_one: 1b
 	},
 	{
-		uid: "822128c1",
-		type: "loot",
-		table: 3
-	},
-	{
 		uid: "05a4039a",
 		type: "xp",
 		xp: 1000
+	},
+	{
+		uid: "10f601bd",
+		type: "random",
+		table: 3
 	}]
 }

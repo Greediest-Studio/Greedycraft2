@@ -1,7 +1,11 @@
 {
-	title: "FE→vis",
+	title: "§bFE→vis",
 	x: -3.5d,
 	y: 3.0d,
+	description: "合成自魔奥术封包合成器",
+	text: [
+		""
+	],
 	dependencies: [
 		"84fd0af3"
 	],
@@ -18,8 +22,8 @@
 		xp: 100
 	},
 	{
-		uid: "b2f1044e",
-		type: "loot",
+		uid: "5c529b2c",
+		type: "random",
 		table: 0
 	}]
 }

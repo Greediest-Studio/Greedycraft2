@@ -1,8 +1,11 @@
 {
-	title: "腐化残留",
+	title: "§b腐化残留",
 	x: -5.5d,
 	y: 3.0d,
 	description: "腐化石头失去腐化源(孢子)过段时间转化而成",
+	text: [
+		""
+	],
 	dependencies: [
 		"84fd0af3"
 	],

@@ -22,17 +22,17 @@
 	rewards: [{
 		uid: "bf55a438",
 		type: "xp",
-		xp: 500
-	},
-	{
-		uid: "c2621a12",
-		type: "loot",
-		table: 0
+		xp: 1500
 	},
 	{
 		uid: "88666300",
 		type: "gamestage",
 		auto: "no_toast",
 		stage: "master_engineer"
+	},
+	{
+		uid: "788dff63",
+		type: "random",
+		table: 2
 	}]
 }

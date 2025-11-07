@@ -29,11 +29,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "18361313",
-		type: "loot",
-		table: 1
-	},
-	{
 		uid: "680f18db",
 		type: "xp",
 		xp: 1200
@@ -43,5 +38,10 @@
 		type: "item",
 		item: "astralsorcery:itemcraftingcomponent 1 2",
 		count: 8
+	},
+	{
+		uid: "645e8f96",
+		type: "random",
+		table: 1
 	}]
 }

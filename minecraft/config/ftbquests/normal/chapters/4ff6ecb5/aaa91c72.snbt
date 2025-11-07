@@ -27,11 +27,6 @@
 		xp: 1300
 	},
 	{
-		uid: "1c29c1b7",
-		type: "loot",
-		table: 2
-	},
-	{
 		uid: "ae06b4dc",
 		type: "command",
 		auto: "enabled",
@@ -48,5 +43,10 @@
 		type: "command",
 		auto: "enabled",
 		command: "/thaumcraft research @p TCONEVO_PRIMALMETAL"
+	},
+	{
+		uid: "687dc48a",
+		type: "random",
+		table: 2
 	}]
 }
