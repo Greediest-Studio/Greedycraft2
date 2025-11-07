@@ -324,11 +324,13 @@ RecipeUtil.addShaped("mystical_Dreadium", <abyssalcraft:dreadiumingot>, [
     [<mysticalagriculture:dreadium_essence>, null, <mysticalagriculture:dreadium_essence>],
     [<mysticalagriculture:dreadium_essence>, <mysticalagriculture:dreadium_essence>, <mysticalagriculture:dreadium_essence>]
 ]);
+/* 
 RecipeUtil.addShaped("machine_assembler", <modularmachineryaddons:advancedmachineassembler>, [
     [null, <ore:ingotManyullyn>, null],
     [null, <ore:ingotManyullyn>, null],
     [null, <ore:stickWood>, null]
 ]);
+*/
 RecipeUtil.addShaped("machine_assembler2", <additions:basic_assembler>, [
     [null, <ore:ingotAluminum>, null],
     [null, <ore:ingotAluminum>, null],
