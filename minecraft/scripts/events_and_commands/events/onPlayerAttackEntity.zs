@@ -74,7 +74,7 @@ events.onPlayerAttackEntity(function(event as PlayerAttackEntityEvent) {
                 if (entity.health >= 10.0f) {
                     entity.health -= 10.0f;
                 } else if (entity.health > 0.0f) {
-                    entity.health = 0.0f;
+                    entity.attackEntityFrom(IDamageSource.createEntityDamage("GENERIC", player), 65536.0f);
                     player.give(<gct_ores:order_crystal> * 48);
                     player.give(<additions:pure_dragonbone> * 32);
                     player.give(<additions:order_scale> * 32);

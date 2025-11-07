@@ -1,7 +1,9 @@
 {
 	title: "§b幕后黑手",
+	icon: "additions:order_scale",
 	x: 8.5d,
 	y: 9.5d,
+	shape: "diamond",
 	description: "召唤并战胜秩序守护使",
 	text: [
 		"合成§e终焉容器§f，将其放置在秩序核心岛龙雕塑头顶的空缺中",
@@ -12,10 +14,54 @@
 	],
 	size: 1.5d,
 	tasks: [{
-		uid: "6c1049ba",
+		uid: "1987f5d7",
+		type: "kill",
+		icon: "additions:order_scale",
+		entity: "ageofchaos:chaosguardianhelpful",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "f25ee2da",
 		type: "item",
-		items: [{
-			item: "additions:order_scale"
-		}]
+		item: "gct_ores:order_crystal",
+		count: 32
+	},
+	{
+		uid: "d956cd9c",
+		type: "item",
+		item: "gct_ores:ordered_metal_ingot",
+		count: 8,
+		random_bonus: 8
+	},
+	{
+		uid: "33c2faff",
+		type: "item",
+		item: "contenttweaker:chaos_heart",
+		count: 16
+	},
+	{
+		uid: "e502531c",
+		type: "item",
+		item: {
+			id: "gctcore:chaotic_flux_capacitor",
+			tag: {
+				EnergyL: 1024000000L
+			}
+		}
+	},
+	{
+		uid: "3bc0f9cc",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "3fea2ab7",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "1dcdff1a",
+		type: "xp",
+		xp: 296485
 	}]
 }

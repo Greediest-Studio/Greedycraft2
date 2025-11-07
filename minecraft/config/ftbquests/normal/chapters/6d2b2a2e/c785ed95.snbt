@@ -1,0 +1,60 @@
+{
+	title: "§b波粒坍缩",
+	x: 9.0d,
+	y: -1.5d,
+	shape: "gear",
+	description: "合成波动锭！",
+	text: [
+		""
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "c886ecfc",
+		type: "item",
+		items: [{
+			item: "gct_mobs:wavite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "ecc6c832",
+		type: "item",
+		item: "gct_mobs:wavite_ingot",
+		count: 2
+	},
+	{
+		uid: "70b40e9b",
+		type: "random",
+		table: 6
+	},
+	{
+		uid: "754a7511",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "84464502",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "3e27bf55",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "8cbb808d",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "f9970a6f",
+		type: "gamestage",
+		auto: "no_toast",
+		stage: "waving"
+	},
+	{
+		uid: "0b4ce734",
+		type: "xp",
+		xp: 1048576
+	}]
+}

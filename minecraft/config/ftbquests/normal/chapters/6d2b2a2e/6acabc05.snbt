@@ -1,0 +1,41 @@
+{
+	title: "§b再铸龙魂",
+	x: 5.0d,
+	y: 5.5d,
+	description: "合成重锻龙骨",
+	text: [
+		""
+	],
+	dependencies: [
+		"f2f1e09e"
+	],
+	tasks: [{
+		uid: "331e2c46",
+		type: "item",
+		items: [{
+			item: "additions:dragonbone_fire"
+		},
+		{
+			item: "additions:dragonbone_ice"
+		},
+		{
+			item: "additions:dragonbone_lightning"
+		}]
+	}],
+	rewards: [{
+		uid: "eaa1a893",
+		type: "item",
+		item: "additions:dragonbone_dust",
+		count: 64
+	},
+	{
+		uid: "0f7c6677",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "75a29539",
+		type: "xp",
+		xp: 20000
+	}]
+}

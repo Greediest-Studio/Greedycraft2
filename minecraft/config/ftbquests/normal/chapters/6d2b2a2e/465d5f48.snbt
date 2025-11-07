@@ -6,19 +6,53 @@
 	text: [
 		""
 	],
+	can_repeat: 1b,
 	dependencies: [
 		"317d1bc2"
 	],
 	tasks: [{
-		uid: "5c3b6ed6",
-		type: "custom",
-		icon: {
-			id: "minecraft:spawn_egg",
-			tag: {
-				EntityTag: {
-					id: "ageofchaos:chaosguardianhelpful"
-				}
-			}
-		}
+		uid: "7aceacda",
+		type: "kill",
+		entity: "ageofchaos:chaosguardianhelpful",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "37dfd06d",
+		type: "item",
+		item: "gct_ores:order_crystal",
+		count: 16
+	},
+	{
+		uid: "b0c57565",
+		type: "item",
+		item: "contenttweaker:chaos_heart",
+		count: 4
+	},
+	{
+		uid: "10d76087",
+		type: "item",
+		item: "additions:pure_dragonbone",
+		count: 8
+	},
+	{
+		uid: "2873616b",
+		type: "item",
+		item: "additions:order_scale",
+		count: 16
+	},
+	{
+		uid: "62af01c1",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "5487086b",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "140b0b62",
+		type: "xp",
+		xp: 100000
 	}]
 }

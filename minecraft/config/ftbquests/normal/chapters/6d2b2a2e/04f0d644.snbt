@@ -15,5 +15,15 @@
 		type: "dimension",
 		icon: "gct_ores:order_stone_final",
 		dim: 103
+	}],
+	rewards: [{
+		uid: "1e13bbba",
+		type: "xp",
+		xp: 40000
+	},
+	{
+		uid: "51ead4de",
+		type: "random",
+		table: 3
 	}]
 }

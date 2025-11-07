@@ -17,5 +17,21 @@
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2d341c91",
+		type: "item",
+		item: "gct_ores:ordered_core",
+		count: 2
+	},
+	{
+		uid: "d879ebb3",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "86e2e937",
+		type: "xp",
+		xp: 25000
 	}]
 }

@@ -1,0 +1,33 @@
+{
+	title: "§b收割龙魂",
+	x: 6.0d,
+	y: 7.0d,
+	description: "在失落城市击杀三种龙，获得龙骨",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "3cc00195",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonbone"
+		}]
+	}],
+	rewards: [{
+		uid: "d18c4c4c",
+		type: "item",
+		item: "iceandfire:dragonbone",
+		count: 16,
+		random_bonus: 16
+	},
+	{
+		uid: "576d02ef",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "a4204469",
+		type: "xp",
+		xp: 45000
+	}]
+}
