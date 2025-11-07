@@ -163,16 +163,16 @@
 		xp: 800
 	},
 	{
-		uid: "639fc0da",
-		type: "loot",
-		table: 2
-	},
-	{
 		uid: "4742dae9",
 		type: "item",
 		item: {
 			id: "tinymobfarm:lasso",
 			tag: {}
 		}
+	},
+	{
+		uid: "02bb77ea",
+		type: "random",
+		table: 2
 	}]
 }

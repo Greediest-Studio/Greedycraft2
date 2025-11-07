@@ -163,11 +163,6 @@
 		xp: 2000
 	},
 	{
-		uid: "cd5d092e",
-		type: "loot",
-		table: 3
-	},
-	{
 		uid: "b0a87c91",
 		type: "item",
 		item: "forestry:ambrosia",
@@ -177,5 +172,10 @@
 		uid: "dcf928c2",
 		type: "item",
 		item: "tinymobfarm:diamond_farm"
+	},
+	{
+		uid: "956bf252",
+		type: "random",
+		table: 3
 	}]
 }

@@ -22,14 +22,14 @@
 		xp: 800
 	},
 	{
-		uid: "6227ef9b",
-		type: "loot",
-		table: 2
-	},
-	{
 		uid: "d892ee93",
 		type: "item",
 		item: "randomthings:rainshield",
 		count: 4
+	},
+	{
+		uid: "3678e2c8",
+		type: "random",
+		table: 2
 	}]
 }

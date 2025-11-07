@@ -238,3 +238,13 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:order_wand>, [
 	[null, <ore:blockPhotonium>, <additions:matter_block>, null, null, null, null], 
 	[<ore:blockPhotonium>, null, null, null, null, null, null]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:blockmepatternmirrorimage>, [
+	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotBalancedMatrix>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <appliedenergistics2:material:52>, <appliedenergistics2:material:52>, <crazyae:fluixilized_block>, <appliedenergistics2:material:52>, <appliedenergistics2:material:52>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <appliedenergistics2:material:52>, <crazyae:fluixilized_block>, <ore:ingotIvorium>, <crazyae:fluixilized_block>, <appliedenergistics2:material:52>, <ore:blockModularium>], 
+	[<ore:ingotBalancedMatrix>, <crazyae:fluixilized_block>, <ore:ingotIvorium>, <ore:ingotScientificite>, <ore:ingotIvorium>, <crazyae:fluixilized_block>, <ore:ingotBalancedMatrix>], 
+	[<ore:blockModularium>, <appliedenergistics2:material:52>, <crazyae:fluixilized_block>, <ore:ingotIvorium>, <crazyae:fluixilized_block>, <appliedenergistics2:material:52>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <appliedenergistics2:material:52>, <appliedenergistics2:material:52>, <crazyae:fluixilized_block>, <appliedenergistics2:material:52>, <appliedenergistics2:material:52>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotBalancedMatrix>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>]
+]);

@@ -245,32 +245,67 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:blockparallel
 	[<ore:blockModularium>, <modularmachinery:blockcontroller>, <ore:ingotSteel>, <modularmachinery:blockcontroller>, <ore:blockModularium>], 
 	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>, <ore:blockModularium>]
 ]);
+mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:blockparallelcontroller:5>, [
+	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <modularmachinery:blockparallelcontroller>, <ore:ingotStainlessSteel>, <modularmachinery:blockparallelcontroller>, <ore:blockModularium>], 
+	[<ore:blockRedstone>, <ore:ingotStainlessSteel>, <modularmachinery:blockcontroller>, <ore:ingotStainlessSteel>, <ore:blockRedstone>], 
+	[<ore:blockModularium>, <modularmachinery:blockcontroller>, <ore:ingotStainlessSteel>, <modularmachinery:blockcontroller>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>, <ore:blockModularium>]
+]);
 mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:blockparallelcontroller:1>, [
 	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>, <ore:blockModularium>], 
-	[<ore:blockModularium>, <modularmachinery:blockparallelcontroller>, <ore:ingotDurasteel>, <modularmachinery:blockparallelcontroller>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <modularmachinery:blockparallelcontroller:5>, <ore:ingotDurasteel>, <modularmachinery:blockparallelcontroller:5>, <ore:blockModularium>], 
 	[<ore:blockRedstone>, <ore:ingotDurasteel>, <modularmachinery:blockcontroller>, <ore:ingotDurasteel>, <ore:blockRedstone>], 
-	[<ore:blockModularium>, <modularmachinery:blockparallelcontroller>, <ore:ingotDurasteel>, <modularmachinery:blockparallelcontroller>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <modularmachinery:blockcontroller>, <ore:ingotDurasteel>, <modularmachinery:blockcontroller>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>, <ore:blockModularium>]
+]);
+mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:blockparallelcontroller:6>, [
+	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <modularmachinery:blockparallelcontroller:1>, <ore:ingotAeonsteel>, <modularmachinery:blockparallelcontroller:1>, <ore:blockModularium>], 
+	[<ore:blockRedstone>, <ore:ingotAeonsteel>, <modularmachinery:blockcontroller>, <ore:ingotAeonsteel>, <ore:blockRedstone>], 
+	[<ore:blockModularium>, <modularmachinery:blockcontroller>, <ore:ingotAeonsteel>, <modularmachinery:blockcontroller>, <ore:blockModularium>], 
 	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>, <ore:blockModularium>]
 ]);
 mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:blockparallelcontroller:2>, [
 	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>, <ore:blockModularium>], 
-	[<ore:blockModularium>, <modularmachinery:blockparallelcontroller:1>, <ore:ingotChromasteel>, <modularmachinery:blockparallelcontroller:1>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <modularmachinery:blockparallelcontroller:6>, <ore:ingotChromasteel>, <modularmachinery:blockparallelcontroller:6>, <ore:blockModularium>], 
 	[<ore:blockRedstone>, <ore:ingotChromasteel>, <modularmachinery:blockcontroller>, <ore:ingotChromasteel>, <ore:blockRedstone>], 
-	[<ore:blockModularium>, <modularmachinery:blockparallelcontroller:1>, <ore:ingotChromasteel>, <modularmachinery:blockparallelcontroller:1>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <modularmachinery:blockcontroller>, <ore:ingotChromasteel>, <modularmachinery:blockcontroller>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>, <ore:blockModularium>]
+]);
+mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:blockparallelcontroller:7>, [
+	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <modularmachinery:blockparallelcontroller:2>, <ore:ingotCosmilite>, <modularmachinery:blockparallelcontroller:2>, <ore:blockModularium>], 
+	[<ore:blockRedstone>, <ore:ingotCosmilite>, <modularmachinery:blockcontroller>, <ore:ingotCosmilite>, <ore:blockRedstone>], 
+	[<ore:blockModularium>, <modularmachinery:blockcontroller>, <ore:ingotCosmilite>, <modularmachinery:blockcontroller>, <ore:blockModularium>], 
 	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>, <ore:blockModularium>]
 ]);
 mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:blockparallelcontroller:3>, [
 	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>, <ore:blockModularium>], 
-	[<ore:blockModularium>, <modularmachinery:blockparallelcontroller:2>, <ore:ingotFinallium>, <modularmachinery:blockparallelcontroller:2>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <modularmachinery:blockparallelcontroller:7>, <ore:ingotFinallium>, <modularmachinery:blockparallelcontroller:7>, <ore:blockModularium>], 
 	[<ore:blockRedstone>, <ore:ingotFinallium>, <modularmachinery:blockcontroller>, <ore:ingotFinallium>, <ore:blockRedstone>], 
-	[<ore:blockModularium>, <modularmachinery:blockparallelcontroller:2>, <ore:ingotFinallium>, <modularmachinery:blockparallelcontroller:2>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <modularmachinery:blockcontroller>, <ore:ingotFinallium>, <modularmachinery:blockcontroller>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>, <ore:blockModularium>]
+]);
+mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:blockparallelcontroller:8>, [
+	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <modularmachinery:blockparallelcontroller:3>, <ore:ingotWavite>, <modularmachinery:blockparallelcontroller:3>, <ore:blockModularium>], 
+	[<ore:blockRedstone>, <ore:ingotWavite>, <modularmachinery:blockcontroller>, <ore:ingotWavite>, <ore:blockRedstone>], 
+	[<ore:blockModularium>, <modularmachinery:blockcontroller>, <ore:ingotWavite>, <modularmachinery:blockcontroller>, <ore:blockModularium>], 
 	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>, <ore:blockModularium>]
 ]);
 mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:blockparallelcontroller:4>, [
 	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>, <ore:blockModularium>], 
-	[<ore:blockModularium>, <modularmachinery:blockparallelcontroller:3>, <ore:ingotElementine>, <modularmachinery:blockparallelcontroller:3>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <modularmachinery:blockparallelcontroller:8>, <ore:ingotElementine>, <modularmachinery:blockparallelcontroller:8>, <ore:blockModularium>], 
 	[<ore:blockRedstone>, <ore:ingotElementine>, <modularmachinery:blockcontroller>, <ore:ingotElementine>, <ore:blockRedstone>], 
-	[<ore:blockModularium>, <modularmachinery:blockparallelcontroller:3>, <ore:ingotElementine>, <modularmachinery:blockparallelcontroller:3>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <modularmachinery:blockcontroller>, <ore:ingotElementine>, <modularmachinery:blockcontroller>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>, <ore:blockModularium>]
+]);
+mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:blockparallelcontroller:9>, [
+	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>, <ore:blockModularium>], 
+	[<ore:blockModularium>, <modularmachinery:blockparallelcontroller:4>, <ore:ingotGreed>, <modularmachinery:blockparallelcontroller:4>, <ore:blockModularium>], 
+	[<ore:blockRedstone>, <ore:ingotGreed>, <modularmachinery:blockcontroller>, <ore:ingotGreed>, <ore:blockRedstone>], 
+	[<ore:blockModularium>, <modularmachinery:blockcontroller>, <ore:ingotGreed>, <modularmachinery:blockcontroller>, <ore:blockModularium>], 
 	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>, <ore:blockModularium>]
 ]);
 

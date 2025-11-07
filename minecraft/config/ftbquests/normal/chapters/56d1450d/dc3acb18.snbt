@@ -28,14 +28,14 @@
 		xp: 600
 	},
 	{
-		uid: "5d19a921",
-		type: "loot",
-		table: 1
-	},
-	{
 		uid: "0f46cd28",
 		type: "item",
 		item: "forestry:thermionic_tubes 1 4",
 		count: 3
+	},
+	{
+		uid: "bc783195",
+		type: "random",
+		table: 1
 	}]
 }

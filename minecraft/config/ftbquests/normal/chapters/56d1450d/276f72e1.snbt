@@ -163,13 +163,13 @@
 		xp: 2000
 	},
 	{
-		uid: "2cfb16ed",
-		type: "loot",
-		table: 3
-	},
-	{
 		uid: "cc0a62d8",
 		type: "item",
 		item: "tinymobfarm:diamond_farm"
+	},
+	{
+		uid: "694f0fb7",
+		type: "random",
+		table: 3
 	}]
 }

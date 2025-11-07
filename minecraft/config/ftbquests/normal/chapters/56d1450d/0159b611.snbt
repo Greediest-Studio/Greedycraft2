@@ -4,7 +4,7 @@
 	y: 1.5d,
 	description: "获得青铜齿轮",
 	text: [
-		""
+		"或许现在不是了"
 	],
 	dependencies: [
 		"8dbd83c6"
@@ -28,8 +28,8 @@
 		xp: 200
 	},
 	{
-		uid: "d45458c1",
-		type: "loot",
+		uid: "405e491d",
+		type: "random",
 		table: 1
 	}]
 }

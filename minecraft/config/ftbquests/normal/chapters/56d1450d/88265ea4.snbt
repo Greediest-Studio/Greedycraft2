@@ -23,13 +23,13 @@
 		count: 16
 	},
 	{
-		uid: "237fc247",
-		type: "loot",
-		table: 2
-	},
-	{
 		uid: "6a109d76",
 		type: "xp",
 		xp: 800
+	},
+	{
+		uid: "b9222007",
+		type: "random",
+		table: 2
 	}]
 }

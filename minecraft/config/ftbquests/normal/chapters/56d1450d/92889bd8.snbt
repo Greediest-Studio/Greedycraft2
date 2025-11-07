@@ -26,13 +26,13 @@
 		xp: 800
 	},
 	{
-		uid: "8dc62405",
-		type: "loot",
-		table: 2
-	},
-	{
 		uid: "2dd45f53",
 		type: "item",
 		item: "additions:food_bag"
+	},
+	{
+		uid: "482cd1f6",
+		type: "random",
+		table: 2
 	}]
 }
