@@ -1192,11 +1192,11 @@
                     "weight": 100
                 }],
                 "material": "stygian:endobsidian",
-                "cluster-size": 1
+                "cluster-size": 4
             },
             "min-height": 0,
             "max-height": 128,
-            "cluster-count": 4,
+            "cluster-count": 8,
             "retrogen": "true",
             "dimension": {
                 "restriction": "whitelist",
