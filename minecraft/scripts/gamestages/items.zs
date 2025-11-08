@@ -935,19 +935,7 @@ GameStagesUtil.stageChaotic.addIngredients([
     <contenttweaker:chaotic_energy_core>,
     <gctcore:chaotic_flux_capacitor>,
     <gctcore:chaotic_flux_capacitor>.withTag({EnergyL: 1024000000 as long}),
-    <additions:chaotic_fusion_core>,
-    <ore:rodBligtz>,
-    <ore:rodBninz>,
-    <ore:rodBthdz>,
-    <ore:rodBnatuz>,
-    <ore:dustBligtz>,
-    <ore:dustBninz>,
-    <ore:dustBthdz>,
-    <ore:dustBnatuz>,
-    <ore:dustLumixeium>,
-    <ore:dustNoxexeum>,
-    <ore:dustTonitruium>,
-    <ore:dustNaturaeum>
+    <additions:chaotic_fusion_core>
 ], true);
 
 GameStagesUtil.stageStormBreaker.addIngredients([
