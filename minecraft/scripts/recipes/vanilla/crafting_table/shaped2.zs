@@ -21,6 +21,8 @@ import scripts.util.lang as LangUtil;
 recipes.remove(<ymadditions:network_hub>);
 recipes.remove(<tconstruct:piggybackpack>.withTag({}));
 recipes.remove(<mekeng:gas_core_2g>);
+recipes.remove(<enderutilities:enderpart:30>);
+recipes.remove(<enderutilities:handybag:1>);
 recipes.removeByRecipeName("biomesoplenty:amber_block");
 recipes.removeByRecipeName("biomesoplenty:amber");
 recipes.removeByRecipeName("betterendforge:amber_block");

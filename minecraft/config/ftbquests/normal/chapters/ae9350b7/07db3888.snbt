@@ -1,11 +1,10 @@
 {
-	title: "§b无底深渊",
+	title: "§b最实用",
 	tags: [
 		"challenge"
 	],
 	x: 9.0d,
 	y: 1.5d,
-	description: "合成最高等级的黑盒",
 	text: [
 		""
 	],
@@ -13,7 +12,7 @@
 		uid: "b91382c7",
 		type: "item",
 		items: [{
-			item: "dankstorage:dank_7"
+			item: "enderutilities:handybag"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
@@ -21,7 +20,8 @@
 	rewards: [{
 		uid: "741be5f4",
 		type: "item",
-		item: "minecraft:nether_star"
+		item: "minecraft:ender_pearl",
+		count: 16
 	},
 	{
 		uid: "d470f9f5",
