@@ -14,6 +14,7 @@ import crafttweaker.event.PlayerTickEvent;
 import crafttweaker.data.IData;
 import crafttweaker.damage.IDamageSource;
 import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.entity.IEntityDefinition;
 import crafttweaker.player.IPlayer;
 import crafttweaker.util.Position3f;
 import crafttweaker.block.IBlock;
@@ -25,6 +26,7 @@ import crafttweaker.command.ICommandSender;
 import crafttweaker.event.EntityLivingUpdateEvent;
 import crafttweaker.item.IItemStack;
 
+import mods.ctutils.utils.Math;
 
 events.onEntityLivingUpdate(function(event as EntityLivingUpdateEvent) {
     var entity as IEntityLivingBase = event.entityLivingBase;
@@ -52,6 +54,28 @@ events.onEntityLivingUpdate(function(event as EntityLivingUpdateEvent) {
     if (!isNull(entity.definition)) {
         if (entity.definition.id == "ageofminecraft:enderdragonhelpful") {
             entity.world.removeEntity(entity);
+        }
+    }
+
+    // Extra Skills of Fortress Boss
+    if (!isNull(entity.definition)) {
+        if (entity.definition.id == "thebetweenlands:fortress_boss") {
+            if (entity.world.getWorldTime() % 50 == 0 && entity.health <= (entity.maxHealth / 2) && !isNull(entity.revengeTarget)) {
+                var target as IEntityLivingBase = entity.revengeTarget;
+                var distance as double = Math.sqrt(pow(entity.posX - target.posX, 2.0d) + pow(entity.posY - target.posY, 2.0d) + pow(entity.posZ - target.posZ, 2.0d));
+                if (distance <= 32.0d) {
+                    var centerPos as IBlockPos = target.position.down(1);
+                    var spike as IEntityDefinition = <entity:db:hiero_spike>;
+                    spike.spawnEntity(target.world, centerPos);
+                    spike.spawnEntity(target.world, centerPos.north(2));
+                    spike.spawnEntity(target.world, centerPos.south(2));
+                    spike.spawnEntity(target.world, centerPos.east(2));
+                    spike.spawnEntity(target.world, centerPos.west(2));
+                }
+            }
+            if (Math.random() < 0.005) {
+                server.commandManager.executeCommandSilent(entity, "setDecay @a[r=20] 20");
+            }
         }
     }
 
