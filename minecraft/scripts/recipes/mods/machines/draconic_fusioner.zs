@@ -179,4 +179,4 @@ addFusionRecipe(<additions:creative_shard>, [<ore:coreChaotic>, <ore:ingotCosmil
 addFusionRecipe(<packageddraconic:fusion_crafter>, [<draconicevolution:fusion_crafting_core>, <ore:ingotDraconiumAwakened> * 2, <ore:coreAwakened>, <ore:dragonEgg>, <ore:netherStar>, <ore:enderpearl> * 2, <ore:pearlEnderEye> * 2, <packagedauto:me_package_component>], 2500000, 1);
 addFusionRecipe(<gct_aby:shoggy_slime_purified>, [<gct_aby:shoggy_slime>, <ore:slimecrystalGod> * 8], 565800000, 4);
 addFusionRecipe(<additions:ordered_bone_key>, [<ore:coreBreedum> * 8, <ore:coreOrdered> * 2, <additions:dragonbone_block_mixed> * 4, <gct_ores:door_key_empty> * 4], 2340000000, 4);
-addFusionRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "thaumadditions:blue_wolf"}}), [<thaumadditions:blue_bone> * 2], 2340000000, 3);
+addFusionRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "thaumadditions:blue_wolf"}}), [<thaumadditions:blue_bone> * 2], 204800000, 3);

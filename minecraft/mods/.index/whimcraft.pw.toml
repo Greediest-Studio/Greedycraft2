@@ -1,0 +1,13 @@
+filename = 'WhimCraft-0.1.4.jar'
+name = 'WhimCraft'
+side = 'both'
+
+[download]
+hash-format = 'sha1'
+hash = 'fa80901331a6cdc5b95a4aaa8abbff5f73c510e8e59797228dbcb546c0db335a'
+mode = 'metadata:curseforge'
+
+[update]
+[update.curseforge]
+file-id = 7140863
+project-id = 1266235
