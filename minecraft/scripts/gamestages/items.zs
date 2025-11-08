@@ -56,6 +56,9 @@ GameStagesUtil.stageChaoticDominator.addIngredients([
     <additions:difficulty_changer>,
     <avaritiatweaks:infinitato>,
     <additions:blackhole_alloy_ingot>,
+    <ore:blockBlackholeAlloy>,
+    <ore:nuggetBlackholeAlloy>,
+    <ore:dustBlackholeAlloy>,
     <ore:ballBlackholeAlloy>,
     <ore:ingotCurseAlloy>,
     <ore:nuggetCurseAlloy>,
@@ -241,6 +244,14 @@ GameStagesUtil.stageWyvern.addIngredients([
     <ore:blockSharpenAlloy>,
     <ore:dustSharpenAlloy>,
     <ore:ballSharpenAlloy>,
+    <additions:wyvern_fusion_core>,
+    <additions:broken_engine_shard>,
+    <gct_ores:senterian_key>,
+    <gct_ores:senterian_lament>,
+    <gct_ores:senterian_wrench>,
+    <gct_ores:senterian_summoner>,
+    <gct_ores:senterian_summoner_small>,
+    <gct_ores:senterian_builder_lab>
 ], true);
 
 GameStagesUtil.stageAwakened.addIngredients([
@@ -299,7 +310,12 @@ GameStagesUtil.stageAwakened.addIngredients([
     <ore:ingotAurune>,
     <ore:nuggetAurune>,
     <ore:blockAurune>,
-    <ore:dustAurune>
+    <ore:dustAurune>,
+    <additions:draconic_fusion_core>,
+    <ore:ingotNiobiumTitanium>,
+    <ore:blockNiobiumTitanium>,
+    <ore:nuggetNiobiumTitanium>,
+    <ore:dustNiobiumTitanium>
 ], true);
 
 GameStagesUtil.stageNether.addIngredients([
@@ -367,10 +383,12 @@ GameStagesUtil.stageNether.addIngredients([
     <ore:blockAeroite>,
     <ore:nuggetAeroite>,
     <ore:dustAeroite>,
+    <ore:oreAeroite>,
     <ore:ingotAsgardium>,
     <ore:blockAsgardium>,
     <ore:nuggetAsgardium>,
     <ore:dustAsgardium>,
+    <ore:oreAsgardium>,
     <ore:ingotIgnite>,
     <ore:dustIgnite>,
     <ore:blockIgnite>,
@@ -564,11 +582,67 @@ GameStagesUtil.stageCosmic.addIngredients([
     <additions:togrium_ingot>,
     <additions:ttwo_ingot>,
     <additions:typhoonite_ingot>,
+    <jaopca:block.typhoonite>,
     <additions:vanadium_ingot>,
     <additions:waringlium_ingot>,
     <additions:wefenium_ingot>,
     <additions:xenidium_ingot>,
     <additions:yoggleseum_ingot>,
+    <moretcon:ingotgallium>,
+    <jaopca:block.antimony>,
+    <additions:babyrite_block>,
+    <additions:breakium_block>,
+    <additions:cestium_block>,
+    <additions:cheatieum_block>,
+    <additions:circlium_block>,
+    <additions:clearite_block>,
+    <additions:cloudite_block>,
+    <additions:dawnium_block>,
+    <additions:depthite_block>,
+    <additions:dimesium_block>,
+    <additions:errorite_block>,
+    <additions:fallenium_block>,
+    <additions:fenzium_block>,
+    <additions:flashite_block>,
+    <additions:fraxinium_block>,
+    <additions:ghostite_block>,
+    <additions:godiarite_block>,
+    <moretcon:blockgallium>,
+    <additions:heavenite_block>,
+    <additions:idiessite_block>,
+    <additions:indium_block>,
+    <additions:leadite_block>,
+    <additions:lighteum_block>,
+    <additions:losessium_block>,
+    <additions:lovaquite_block>,
+    <additions:manarium_block>,
+    <additions:mangisite_block>,
+    <additions:martisite_block>,
+    <additions:moltenium_block>,
+    <additions:molybdenum_block>,
+    <additions:numbereum_block>,
+    <additions:oneo_block>,
+    <additions:overlaite_block>,
+    <additions:panloeseum_block>,
+    <additions:phoenixite_block>,
+    <additions:rainite_block>,
+    <additions:ranglium_block>,
+    <additions:rangolarite>,
+    <additions:rapesesium>,
+    <additions:rubium_block>,
+    <additions:sissidium_block>,
+    <additions:soilium_block>,
+    <additions:stripium_block>,
+    <additions:swinium_block>,
+    <additions:technetium_block>,
+    <additions:tierite_block>,
+    <additions:togrium_block>,
+    <additions:ttwo_block>,
+    <additions:vanadium_block>,
+    <additions:waringlium_block>,
+    <additions:wefenium_block>,
+    <additions:xenidium_block>,
+    <additions:yoggleseum_block>,
     <gct_ores:balanced_matrix_ingot>,
     <ore:ingotGhostMetal>,
     <additions:ga_in_p2_plate>,
@@ -580,7 +654,8 @@ GameStagesUtil.stageCosmic.addIngredients([
     <additions:logic_processor_3>,
     <additions:calculation_circuit_printed_3>,
     <additions:engineering_circuit_printed_3>,
-    <additions:logic_circuit_printed_3>
+    <additions:logic_circuit_printed_3>,
+    <additions:modular_dimensional_magnifier>
 ], false);
 
 GameStagesUtil.stageBalancedMatrix.addIngredients([
@@ -628,7 +703,11 @@ GameStagesUtil.stageBalancedMatrix.addIngredients([
     <ore:blockThermallite>,
     <ore:dustThermallite>,
     <additions:imitate_alloy>,
-    <additions:dreamic_control_circuit>
+    <additions:dreamic_control_circuit>,
+    <additions:demon_shard>,
+    <additions:ga_in_p2_press>,
+    <additions:reagent_godness>,
+    <additions:unshapable_matter>
 ], false);
 
 GameStagesUtil.stageBetweenlandTraveller.addIngredients([
@@ -652,7 +731,11 @@ GameStagesUtil.stageBetweenlandTraveller.addIngredients([
     <ore:ingotDecatine>,
     <ore:blockDecatine>,
     <ore:nuggetDecatine>,
-    <ore:dustDecatine>
+    <ore:dustDecatine>,
+    <additions:dentrothyst_rainbow>,
+    <additions:bone_shard>,
+    <additions:malevolence_core>,
+    <additions:yeet>
 ], false);
 
 GameStagesUtil.stageWarped.addIngredients([
@@ -851,7 +934,20 @@ GameStagesUtil.stageChaotic.addIngredients([
     <ore:ingotStellarium>,
     <contenttweaker:chaotic_energy_core>,
     <gctcore:chaotic_flux_capacitor>,
-    <gctcore:chaotic_flux_capacitor>.withTag({EnergyL: 1024000000 as long})
+    <gctcore:chaotic_flux_capacitor>.withTag({EnergyL: 1024000000 as long}),
+    <additions:chaotic_fusion_core>,
+    <ore:rodBligtz>,
+    <ore:rodBninz>,
+    <ore:rodBthdz>,
+    <ore:rodBnatuz>,
+    <ore:dustBligtz>,
+    <ore:dustBninz>,
+    <ore:dustBthdz>,
+    <ore:dustBnatuz>,
+    <ore:dustLumixeium>,
+    <ore:dustNoxexeum>,
+    <ore:dustTonitruium>,
+    <ore:dustNaturaeum>
 ], true);
 
 GameStagesUtil.stageStormBreaker.addIngredients([
@@ -888,27 +984,22 @@ GameStagesUtil.stageNoviceEngineer.addIngredients([
     <ore:blockClockAlloy>,
     <ore:dustClockAlloy>,
     <ore:ballClockAlloy>,
-    <additions:darkest_stonebrick>,
-    <additions:darkest_stonebrick_large>,
-    <additions:darkest_core>,
-    <ore:ingotDarkest>,
-    <ore:blockDarkest>,
-    <ore:nuggetDarkest>,
-    <ore:dustDarkest>,
-    <ore:ingotWigthium>,
-    <ore:blockWigthium>,
-    <ore:nuggetWigthium>,
-    <ore:dustWigthium>,
-    <additions:gloomy_passport>,
-    <additions:reagent_ghost>,
-    <additions:infused_diamond_ghost>,
-    <additions:slate_6>,
-    <additions:slate_7>,
-    <additions:slate_8>,
-    <additions:slate_9>
+    <ore:ingotQueenslime>,
+    <ore:nuggetQueenslime>,
+    <ore:blockQueenslime>,
+    <ore:dustQueenslime>,
+    <ore:ingotEmperorslime>,
+    <ore:nuggetEmperorslime>,
+    <ore:blockEmperorslime>,
+    <ore:dustEmperorslime>,
+    <ore:ingotGodslime>,
+    <ore:nuggetGodslime>,
+    <ore:blockGodslime>,
+    <ore:dustGodslime>
 ], true);
 
 GameStagesUtil.stageHardmode.addIngredients([
+    <additions:basic_fusion_core>,
     <ore:itemCompressedOsgloglas>,
     <ore:essenceTier6>,
     <minecraft:chorus_fruit_popped>,
@@ -1132,7 +1223,16 @@ GameStagesUtil.stageHardmode.addIngredients([
     <ore:dustEndorium>,
     <ore:dustTungsten>,
     <endreborn:block_wolframium_ore>,
-    <additions:ender_light>
+    <additions:ender_light>,
+    <ore:ingotDeusiotium>,
+    <ore:blockDeusiotium>,
+    <ore:nuggetDeusiotium>,
+    <additions:foggy_stone>,
+    <ore:oreNiobium>,
+    <ore:ingotNiobium>,
+    <ore:nuggetNiobium>,
+    <ore:blockNiobium>,
+    <ore:dustNiobium>
 ], true);
 
 GameStagesUtil.stageInfinity.addIngredients([
@@ -1238,6 +1338,9 @@ GameStagesUtil.stageWitherSlayer.addIngredients([
     <ore:dustApollonium>,
     <additions:apollonium_overheat_ingot>,
     <ore:gemSliderRefined>,
+    <ore:gemValkyrieBoss>,
+    <ore:gemSliderBoss>,
+    <additions:slider_gem_unforked>,
     <additions:germanium_plate>,
     <additions:logic_press_2>,
     <additions:calculation_press_2>,
@@ -1320,12 +1423,36 @@ GameStagesUtil.stageNoviceWizard.addIngredients([
     <ore:blockSentientMetal>,
     <ore:nuggetSentientMetal>,
     <ore:dustSentientMetal>,
-    <thaumcraft:mechanism_complex>
+    <thaumcraft:mechanism_complex>,
+    <additions:blood_rune_economy>,
+    <additions:blood_rune_personal>,
+    <additions:blood_rune_purify>,
+    <additions:blood_rune_thread>,
+    <additions:darkest_stonebrick>,
+    <additions:darkest_stonebrick_large>,
+    <additions:darkest_core>,
+    <ore:ingotDarkest>,
+    <ore:blockDarkest>,
+    <ore:nuggetDarkest>,
+    <ore:dustDarkest>,
+    <ore:ingotWigthium>,
+    <ore:blockWigthium>,
+    <ore:nuggetWigthium>,
+    <ore:dustWigthium>,
+    <additions:gloomy_passport>,
+    <additions:reagent_ghost>,
+    <additions:infused_diamond_ghost>,
+    <additions:slate_6>,
+    <additions:slate_7>,
+    <additions:slate_8>,
+    <additions:slate_9>
 ], false);
 
 GameStagesUtil.stageSkilledWizard.addIngredients([
     <ore:blockCrimsonite>,
-    <ore:ingotCrimsonite>
+    <ore:ingotCrimsonite>,
+    <ore:blockSky>,
+    <additions:fabric_of_nature>
 ], false);
 
 GameStagesUtil.stageMasterWizard.addIngredients([
@@ -1366,7 +1493,21 @@ GameStagesUtil.stageMasterWizard.addIngredients([
     <additions:resonating_ruby>,
     <ore:gemBrightine>,
     <additions:token_emotion>,
-    <additions:astral_gem_00>
+    <additions:astral_gem_00>,
+    <additions:astral_gem_01>,
+    <additions:astral_gem_02>,
+    <additions:astral_gem_03>,
+    <additions:astral_gem_04>,
+    <additions:astral_gem_05>,
+    <additions:astral_gem_06>,
+    <additions:astral_gem_07>,
+    <additions:astral_gem_08>,
+    <additions:astral_gem_09>,
+    <additions:astral_gem_10>,
+    <additions:astral_gem_11>,
+    <additions:astral_gem_12>,
+    <additions:astral_aquamarine_ore>,
+    <additions:arcane_crystal_ball>
 ], false);
 
 GameStagesUtil.stageEpicWizard.addIngredients([ 
@@ -1429,7 +1570,8 @@ GameStagesUtil.stageEpicWizard.addIngredients([
     <ore:ingotDisasterMetal>,
     <ore:nuggetDisasterMetal>,
     <ore:blockDisasterMetal>,
-    <ore:dustDisasterMetal>
+    <ore:dustDisasterMetal>,
+    <additions:eldritch_slime>
 ], false);
 
 GameStagesUtil.stageEnderCharm.addIngredients([
@@ -1455,7 +1597,12 @@ GameStagesUtil.stageNoobEngineer.addIngredients([
     <ore:ingotSilicon>,
     <ore:nuggetSilicon>,
     <ore:blockSilicon>,
-    <ore:dustSilicon>
+    <ore:dustSilicon>,
+    <ore:ingotGlowingSignalum>,
+    <ore:blockGlowingSignalum>,
+    <ore:nuggetGlowingSignalum>,
+    <ore:gemGlowing>,
+    <ore:blockGlowing>
 ], true);
 
 GameStagesUtil.stageSkilledEngineer.addIngredients([
@@ -1541,7 +1688,12 @@ GameStagesUtil.stageMasterEngineer.addIngredients([
     <gct_ores:photovoltaic_cell_viii>,
     <ore:ingotFlux>,
     <ore:nuggetFlux>,
-    <ore:blockFlux>
+    <ore:blockFlux>,
+    <ore:dustIronOxide>,
+    <ore:ingotPhosphorus>,
+    <ore:dustPhosphorus>,
+    <ore:nuggetPhosphorus>,
+    <ore:blockPhosphorus>
 ], true);
 
 GameStagesUtil.stageEpicEngineer.addIngredients([
@@ -1599,7 +1751,101 @@ GameStagesUtil.stageEpicEngineer.addIngredients([
     <ore:ingotHeavyalloy>,
     <ore:blockHeavyalloy>,
     <ore:nuggetHeavyalloy>,
-    <ore:dustHeavyalloy>
+    <ore:dustHeavyalloy>,
+    <ore:ingotHydrogen>,
+    <ore:blockHydrogen>,
+    <ore:nuggetHydrogen>,
+    <ore:ingotHelium>,
+    <ore:blockHelium>,
+    <ore:nuggetHelium>,
+    <ore:ingotNitrogen>,
+    <ore:blockNitrogen>,
+    <ore:nuggetNitrogen>,
+    <ore:ingotOxygen>,
+    <ore:blockOxygen>,
+    <ore:nuggetOxygen>,
+    <ore:ingotFluorine>,
+    <ore:blockFluorine>,
+    <ore:nuggetFluorine>,
+    <ore:ingotNeon>,
+    <ore:blockNeon>,
+    <ore:nuggetNeon>,
+    <ore:ingotChlorine>,
+    <ore:blockChlorine>,
+    <ore:nuggetChlorine>,
+    <ore:ingotArgon>,
+    <ore:blockArgon>,
+    <ore:nuggetArgon>,
+    <ore:ingotBromine>,
+    <ore:blockBromine>,
+    <ore:nuggetBromine>,
+    <ore:ingotKrypton>,
+    <ore:blockKrypton>,
+    <ore:nuggetKrypton>,
+    <ore:ingotXenon>,
+    <ore:blockXenon>,
+    <ore:nuggetXenon>,
+    <ore:ingotRadon>,
+    <ore:blockRadon>,
+    <ore:nuggetRadon>,
+    <ore:ingotArsenic>,
+    <ore:blockArsenic>,
+    <ore:nuggetArsenic>,
+    <ore:dustAmmoniumChloride>,
+    <ore:dustBariumChloride>,
+    <ore:dustBariumSulfate>,
+    <ore:dustBariumSulfide>,
+    <ore:ingotBarium>,
+    <ore:nuggetBarium>,
+    <ore:blockBarium>,
+    <ore:dustStrontiumChloride>,
+    <ore:dustStrontiumSulfate>,
+    <ore:dustStrontiumSulfide>,
+    <ore:ingotStrontium>,
+    <ore:nuggetStrontium>,
+    <ore:blockStrontium>,
+    <ore:dustCalciumChloride>,
+    <ore:dustCalciumHydroxide>,
+    <ore:ingotCalcium>,
+    <ore:nuggetCalcium>,
+    <ore:blockCalcium>,
+    <ore:dustCesiumChloride>,
+    <ore:dustCesiumChloroplatinate>,
+    <ore:dustChloroplatinicAcid>,
+    <ore:ingotGalliumIndiumPhosphide>,
+    <ore:nuggetGalliumIndiumPhosphide>,
+    <ore:blockGalliumIndiumPhosphide>,
+    <ore:dustGalliumIndiumPhosphide>,
+    <ore:plateGalliumIndiumPhosphide>,
+    <ore:gemGalliumPhosphide>,
+    <ore:blockGalliumPhosphide>,
+    <ore:nuggetGalliumPhosphide>,
+    <ore:dustGalliumPhosphide>,
+    <ore:plateGalliumPhosphide>,
+    <ore:gemIndiumPhosphide>,
+    <ore:blockIndiumPhosphide>,
+    <ore:nuggetIndiumPhosphide>,
+    <ore:dustIndiumPhosphide>,
+    <ore:plateIndiumPhosphide>,
+    <ore:ingotIodine>,
+    <ore:blockIodine>,
+    <ore:nuggetIodine>,
+    <ore:dustIodine>,
+    <ore:dustIron(II)Sulfate>,
+    <ore:dustMagnesiumSulfate>,
+    <ore:dustManganeseChloride>,
+    <ore:dustPhosphorusPentaoxide>,
+    <ore:dustPlatinumChloride>,
+    <ore:dustPotassiumChloride>,
+    <ore:dustPotassiumChloroplatinate>,
+    <ore:dustRubidiumChloride>,
+    <ore:dustRubidiumChloroplatinate>,
+    <ore:dustSodiumChloroplatinate>,
+    <ore:dustSodiumDihydrogenPhosphate>,
+    <ore:dustSodiumHydrogenPhosphate>,
+    <ore:dustSodiumPhosphate>,
+    <ore:dustSodiumBicarbonate>,
+    <ore:dustSodiumMolybdate>
 ], true);
 
 GameStagesUtil.stageChallenger1.addIngredients([
@@ -1695,7 +1941,8 @@ GameStagesUtil.stageGatekeeper.addIngredients([
     <additions:husturite_ingot>,
     <additions:cthughate_ingot>,
     <gct_mobs:sanite_ingot>,
-    <gct_mobs:sanite_block>
+    <gct_mobs:sanite_block>,
+    <additions:living_fire>
 ], true);
 
 GameStagesUtil.stageFinal.addIngredients([
@@ -1851,7 +2098,34 @@ GameStagesUtil.stageFinal.addIngredients([
     <ore:plateBreedum>,
     <ore:gearBreedum>,
     <ore:coreBreedum>,
-    <ore:blockBreedum>
+    <ore:blockBreedum>,
+    <additions:brain_container>,
+    <additions:dragonbone_ice>,
+    <additions:dragonbone_fire>,
+    <additions:dragonbone_lightning>,
+    <additions:dragonbone_block_mixed>,
+    <additions:consciousness_brain_mk1>,
+    <additions:decode_part>,
+    <additions:eye_of_rules>,
+    <additions:ordered_bone_key>,
+    <additions:ordered_bone_key_compass>,
+    <additions:ordered_bone_key_dice>,
+    <additions:ordered_bone_key_container>,
+    <additions:ordered_bone_key_slate>,
+    <ore:scaleDragonOrder>,
+    <additions:order_wand>,
+    <additions:pruified_matter>,
+    <ore:boneDragonOrder>,
+    <ore:ingotValasium>,
+    <ore:blockValasium>,
+    <ore:nuggetValasium>,
+    <ore:dustValasium>,
+    <ore:plateValasium>,
+    <additions:valasium_decode_panel>,
+    <gct_ores:shalloite_block>,
+    <gct_ores:order_stone_final>,
+    <gct_ores:finallium_container>,
+    <gct_ores:finallium_container_active>
 ], true);
 
 GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators", "mekceumoremachine", "mekeng"]);

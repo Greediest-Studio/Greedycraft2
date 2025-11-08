@@ -248,3 +248,13 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:blockmepatter
 	[<ore:blockModularium>, <appliedenergistics2:material:52>, <appliedenergistics2:material:52>, <crazyae:fluixilized_block>, <appliedenergistics2:material:52>, <appliedenergistics2:material:52>, <ore:blockModularium>], 
 	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>, <ore:ingotBalancedMatrix>, <ore:blockModularium>, <ore:blockModularium>, <ore:blockModularium>]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:eye_of_rules>, [
+	[null, null, <ore:ingotCosmilite>, <ore:ingotCosmilite>, <ore:ingotCosmilite>, null, null], 
+	[null, <ore:ingotCosmilite>, <ore:ingotFinallium>, <ore:scaleDragonOrder>, <ore:scaleDragonOrder>, <ore:ingotCosmilite>, null], 
+	[<ore:ingotCosmilite>, <ore:ingotFinallium>, <abyssalcraft:eoa>, <ore:ingotFinallium>, <ore:scaleDragonOrder>, <ore:scaleDragonOrder>, <ore:ingotCosmilite>], 
+	[<ore:ingotCosmilite>, <ore:scaleDragonOrder>, <ore:ingotFinallium>, <ore:scaleDragonOrder>, <ore:scaleDragonOrder>, <ore:scaleDragonOrder>, <ore:ingotCosmilite>], 
+	[<ore:ingotCosmilite>, <ore:scaleDragonOrder>, <ore:scaleDragonOrder>, <ore:scaleDragonOrder>, <ore:scaleDragonOrder>, <ore:scaleDragonOrder>, <ore:ingotCosmilite>], 
+	[null, <ore:ingotCosmilite>, <ore:scaleDragonOrder>, <ore:scaleDragonOrder>, <ore:scaleDragonOrder>, <ore:ingotCosmilite>, null], 
+	[null, null, <ore:ingotCosmilite>, <ore:ingotCosmilite>, <ore:ingotCosmilite>, null, null]
+]);

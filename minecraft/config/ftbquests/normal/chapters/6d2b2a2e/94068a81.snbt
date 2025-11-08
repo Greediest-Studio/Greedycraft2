@@ -1,0 +1,42 @@
+{
+	title: "§b神秘之眼",
+	icon: "additions:eye_of_rules",
+	x: 10.5d,
+	y: 9.0d,
+	description: "合成规则之瞳",
+	text: [
+		""
+	],
+	dependencies: [
+		"317d1bc2"
+	],
+	tasks: [{
+		uid: "78e90ff7",
+		type: "item",
+		items: [{
+			item: "additions:eye_of_rules"
+		}]
+	},
+	{
+		uid: "d3b05ab7",
+		type: "gamestage",
+		stage: "deep_dream"
+	}],
+	rewards: [{
+		uid: "9863b081",
+		type: "item",
+		item: "gct_ores:finallium_ingot",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		uid: "19e0c8b8",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "b369585c",
+		type: "xp",
+		xp: 35000
+	}]
+}
