@@ -1,10 +1,10 @@
 {
-	title: "超级驱动器",
-	x: -7.5d,
-	y: 7.0d,
+	title: "§b超级驱动器",
+	x: -7.0d,
+	y: 6.0d,
 	description: "ECO-L系列拥有海量存储空间,妈妈再也不用担心我磁盘满了",
 	dependencies: [
-		"aafb84ad"
+		"f48a9f7d"
 	],
 	tasks: [{
 		uid: "610ad331",
