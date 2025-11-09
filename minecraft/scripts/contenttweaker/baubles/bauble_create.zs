@@ -12,8 +12,6 @@ import crafttweaker.player.IPlayer;
 
 import crafttweaker.potions.IPotionEffect;
 
-
-
 //幸运戒指
 var lucky = VanillaFactory.createBaubleItem("bauble_lucky");
 lucky.rarity = "uncommon";

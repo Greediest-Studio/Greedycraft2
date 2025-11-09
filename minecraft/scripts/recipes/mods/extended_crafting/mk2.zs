@@ -428,3 +428,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:valasium_decode_pane
 	[<ore:ingotValasium>, <ore:ingotValasium>, <ore:ingotTrichromadentium>, <ore:ingotValasium>, <ore:ingotValasium>], 
 	[null, <ore:ingotValasium>, null, <ore:ingotValasium>, null]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <contenttweaker:bauble_source_of_swamp>, [
+	[<ore:ingotIzumium>, null, <ore:demonshard>, null, <ore:ingotIzumium>], 
+	[null, <ore:ingotIzumium>, <ore:demonshard>, <ore:ingotIzumium>, null], 
+	[<ore:demonshard>, <ore:demonshard>, <additions:source_of_swamp>, <ore:demonshard>, <ore:demonshard>], 
+	[null, <ore:ingotIzumium>, <ore:demonshard>, <ore:ingotIzumium>, null], 
+	[<ore:ingotIzumium>, null, <ore:demonshard>, null, <ore:ingotIzumium>]
+]);

@@ -11,6 +11,7 @@ var Tooltipitem as string[IItemStack] = {
     <contenttweaker:bauble_ranger_badge> : game.localize('content.bauble_ranger_badge_tooltip.name'),
     <contenttweaker:bauble_wizard_badge> : game.localize('content.bauble_wizard_badge_tooltip.name'),
     <contenttweaker:bauble_warrior_badge> : game.localize('content.bauble_warrior_badge_tooltip.name'),
+    <contenttweaker:bauble_source_of_swamp> : game.localize('content.bauble_source_of_swamp_tooltip.name'),
 };
 
 for m , k in Tooltipitem{

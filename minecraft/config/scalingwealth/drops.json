@@ -120,6 +120,13 @@
                     "chance": 1.0,
                     "item": "additions:demon_shard"
                 }
+            ],
+            "[4000, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 1.0,
+                    "item": "additions:source_of_swamp"
+                }
             ]
         },
         "thaumicaugmentation:eldritch_warden": {
