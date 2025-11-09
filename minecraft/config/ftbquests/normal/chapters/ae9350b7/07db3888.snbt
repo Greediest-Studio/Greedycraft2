@@ -5,6 +5,7 @@
 	],
 	x: 9.0d,
 	y: 1.5d,
+	description: "合成末影手提包（大）",
 	text: [
 		""
 	],
@@ -12,7 +13,7 @@
 		uid: "b91382c7",
 		type: "item",
 		items: [{
-			item: "enderutilities:handybag"
+			item: "enderutilities:handybag 1 1"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b

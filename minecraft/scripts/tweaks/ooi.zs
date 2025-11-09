@@ -49,6 +49,9 @@ ConversionItem.create(<biomesoplenty:gem_ore:6>).addMatchItem(<ore:oreSapphire>)
 ConversionItem.create(<thermalfoundation:material:192>).addMatchItem(<ore:nuggetCopper>).register();
 ConversionItem.create(<thermalfoundation:material:194>).addMatchItem(<ore:nuggetSilver>).register();
 ConversionItem.create(<additions:imitatium_ore>).addMatchItem(<tiths:ore_imitatium>).register();
+ConversionItem.create(<extendedcrafting:material:36>).addMatchItem(<enderutilities:enderpart>).register();
+ConversionItem.create(<enderio:item_alloy_ingot:8>).addMatchItem(<enderutilities:enderpart:1>).register();
+ConversionItem.create(<thermalfoundation:material:167>).addMatchItem(<enderutilities:enderpart:2>).register();
 
 ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:burningsulfurflow>).register();
 ConversionFluid.create(<liquid:liquidantimatter>).addMatchFluid(<liquid:blockfluidantimatter>).register();

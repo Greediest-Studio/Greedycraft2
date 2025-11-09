@@ -47,5 +47,42 @@
 		type: "item",
 		item: "minecraft:bread",
 		count: 16
+	},
+	{
+		uid: "df6dc70b",
+		type: "item",
+		item: {
+			id: "enderutilities:handybag",
+			tag: {
+				UUID: {
+					UUIDM: 5914914740620903385L,
+					UUIDL: -5513126133122502059L
+				},
+				Items: [{
+					id: "enderutilities:enderpart",
+					Count: 1,
+					Damage: 52s,
+					tag: {
+						HandyBag: {
+							PickupMode: 1b,
+							UpdateMask: 0L
+						}
+					},
+					Slot: 0b
+				},
+				{
+					id: "enderutilities:enderpart",
+					Count: 1,
+					Damage: 52s,
+					tag: {
+						HandyBag: {
+							PickupMode: 1b
+						}
+					},
+					Slot: 1b
+				}],
+				Selected_memorycard_items: 1b
+			}
+		}
 	}]
 }
