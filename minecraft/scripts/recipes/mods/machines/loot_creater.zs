@@ -366,3 +366,18 @@ createLootRecipe("finallium_loot", [
 ], [
     <additions:dirtshape> * 6
 ], 40, 4.0E6 as long, 0);
+
+//暮光五BOSS
+createLootRecipe("aeonsteel_loot", [
+    <divinerpg:eden_chunk>,
+    <divinerpg:wildwood_chunk>,
+    <divinerpg:apalachia_chunk>,
+    <divinerpg:skythern_chunk>,
+    <divinerpg:mortum_chunk>
+], [
+    <additions:eden_ingot> * 8,
+    <additions:wildwood_ingot> * 8,
+    <additions:apalachia_ingot> * 8,
+    <additions:skythern_ingot> * 8,
+    <additions:mortum_ingot> * 8
+], 20, 5.0E5 as long, 0);
