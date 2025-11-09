@@ -2132,5 +2132,6 @@ GameStagesUtil.stageEpicEngineer.addModId(["nuclearcraft"]);
 GameStagesUtil.stageBetweenlandTraveller.addModId(["thebetweenlands"]);
 GameStagesUtil.stageWitherSlayer.addModId(["crazyae", "nae2", "ecoaeextension", "aewirelesschannel"]);
 GameStagesUtil.stageEnderCharm.addModId(["elementalend"]);
+GameStagesUtil.stageDeepDream.addModId(["erebus"]);
 
 GameStagesUtil.stageGettingStarted.addRecipeName("tinkersurvival:cobblestone");
