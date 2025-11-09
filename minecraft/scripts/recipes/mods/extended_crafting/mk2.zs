@@ -436,3 +436,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <contenttweaker:bauble_source_o
 	[null, <ore:ingotIzumium>, <ore:demonshard>, <ore:ingotIzumium>, null], 
 	[<ore:ingotIzumium>, null, <ore:demonshard>, null, <ore:ingotIzumium>]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <enderutilities:handybag:1>, [
+	[null, <ore:itemLeather>, <ore:ingotEnderium>, <ore:itemLeather>, null], 
+	[<ore:itemLeather>, <ore:chest>, <enderutilities:enderpart:21>, <ore:chest>, <ore:itemLeather>], 
+	[<ore:ingotEnderium>, <enderutilities:enderpart:21>, <ore:ingotEnderite>, <enderutilities:enderpart:21>, <ore:ingotEnderium>], 
+	[<ore:itemLeather>, <ore:chest>, <enderutilities:enderpart:21>, <ore:chest>, <ore:itemLeather>], 
+	[null, <ore:itemLeather>, <ore:ingotEnderium>, <ore:itemLeather>, null]
+]);

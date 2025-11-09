@@ -65,5 +65,27 @@
 		type: "item",
 		item: "minecraft:torch",
 		count: 32
+	},
+	{
+		uid: "729b70fe",
+		type: "item",
+		item: {
+			id: "enderutilities:pickupmanager",
+			tag: {
+				Items: [{
+					id: "enderutilities:endercapacitor",
+					Count: 1,
+					Damage: 3s,
+					tag: {
+						EnderChargeAmount: 1000000000
+					},
+					Slot: 0b
+				}],
+				UUID: {
+					UUIDM: -1166285284906348607L,
+					UUIDL: -8421149215119217982L
+				}
+			}
+		}
 	}]
 }

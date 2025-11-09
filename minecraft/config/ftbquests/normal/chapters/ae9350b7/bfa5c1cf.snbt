@@ -5,6 +5,7 @@
 	],
 	x: 6.0d,
 	y: 6.0d,
+	description: "合成清空器",
 	text: [
 		""
 	],
@@ -13,7 +14,8 @@
 		type: "item",
 		items: [{
 			item: "enderutilities:nullifier"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "ff23d528",

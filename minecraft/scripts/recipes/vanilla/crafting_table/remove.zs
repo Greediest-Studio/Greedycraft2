@@ -466,7 +466,10 @@ val removedRecipes as IIngredient[] = [
     <elementalend:aether_eye>,
     <elementalend:nether_eye>,
     <moretcon:itemtrichromadentiumsponge:1>,
-    <moretcon:itemvalasiumsponge:1>
+    <moretcon:itemvalasiumsponge:1>,
+    <enderutilities:enderpart>,
+    <enderutilities:enderpart:1>,
+    <enderutilities:enderpart:2>
 ];
 
 val removedRecipeNames as string[] = [
