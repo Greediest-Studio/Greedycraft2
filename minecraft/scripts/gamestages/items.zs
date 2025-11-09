@@ -1212,9 +1212,6 @@ GameStagesUtil.stageHardmode.addIngredients([
     <ore:dustTungsten>,
     <endreborn:block_wolframium_ore>,
     <additions:ender_light>,
-    <ore:ingotDeusiotium>,
-    <ore:blockDeusiotium>,
-    <ore:nuggetDeusiotium>,
     <additions:foggy_stone>,
     <ore:oreNiobium>,
     <ore:ingotNiobium>,
@@ -1338,7 +1335,10 @@ GameStagesUtil.stageWitherSlayer.addIngredients([
     <additions:logic_processor_2>,
     <additions:calculation_circuit_printed_2>,
     <additions:engineering_circuit_printed_2>,
-    <additions:logic_circuit_printed_2>
+    <additions:logic_circuit_printed_2>,
+    <ore:ingotDeusiotium>,
+    <ore:blockDeusiotium>,
+    <ore:nuggetDeusiotium>
 ], true);
 
 GameStagesUtil.stageGaiaDeleter.addIngredients([
