@@ -457,3 +457,15 @@ FusionCrafting.add(<minecraft:spawn_egg>.withTag({EntityTag: {id: "thaumaddition
     <thaumadditions:blue_bone>,
     <thaumadditions:blue_bone>
 ]);
+FusionCrafting.add(<additions:chaotic_fusion_core>, <draconicevolution:fusion_crafting_core>, 3, 4096000000, [
+    <draconicevolution:chaotic_core>,
+    <draconicevolution:chaotic_core>,
+    <draconicevolution:crafting_injector:3>,
+    <draconicevolution:crafting_injector:3>,
+    <draconicevolution:crafting_injector:3>,
+    <draconicevolution:crafting_injector:3>,
+    <draconicevolution:crafting_injector:3>,
+    <draconicevolution:crafting_injector:3>,
+    <draconicevolution:crafting_injector:3>,
+    <draconicevolution:crafting_injector:3>
+]);
