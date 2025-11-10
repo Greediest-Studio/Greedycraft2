@@ -2694,49 +2694,30 @@ leveling_durabilityTrait.onArmorTick = function(trait, armor, world, player) {
             armor.mutable().updateTag({Unbreakable : 0 as byte});
         }
     }
-    //匠魂进化等级修正
-    /*
-    if (!isNull(armor.tag.EvolvedTier)) {
-        var materialIdlist as string[] = [];
-        if (CotTicLib.getTicMaterial(armor).length != 0) {
-            materialIdlist = CotTicLib.getTicMaterial(armor) as string[];
+    var newenergy as IData = {};
+    var energy = 0;
+    if (!isNull(armor.tag.EnergizedEnergy)) {
+        energy = armor.tag.EnergizedEnergy.asInt();
+        newenergy = {EnergizedEnergy: (energy - 320)};
+        if (energy > 320 && armor.damage > 0) {
+            armor.mutable().tag.update(armor.tag.deepUpdate(newenergy, {EnergizedEnergy: OVERWRITE}));
+            armor.mutable().damageItem(-1,player);
         }
-        for materialId in materialIdlist {
-            for metal in EvolvedTiersMap {
-                if (materialId == metal) {
-                    var tier as int = EvolvedTiersMap[metal] as int;
-                    if (armor.tag.EvolvedTier as int < tier) {
-                        if (tier >= 3) {
-                            armor.mutable().updateTag({EvolvedTier: 3, EvolvedTierExtra: tier as int});
-                        } else {
-                            armor.mutable().updateTag({EvolvedTier: tier as int, EvolvedTierExtra: tier as int});
-                        }
-                    }
-                    break;
-                }
-            }
+    }
+    if (!isNull(armor.tag.FluxedEnergy)) {
+        energy = armor.tag.FluxedEnergy.asInt();
+        newenergy = {FluxedEnergy: (energy - 320)};
+        if (energy > 320 && armor.damage > 0) {
+            armor.mutable().tag.update(armor.tag.deepUpdate(newenergy, {FluxedEnergy: OVERWRITE}));
+            armor.mutable().damageItem(-1,player);
         }
-    }*/
-
-    if (!isNull(armor.tag.EvolvedTier)) {
-        var traitIdlist as string[] = [];
-        if (CotTicTraitLib.getTicTrait(armor).length != 0) {
-            traitIdlist = CotTicTraitLib.getTicTrait(armor) as string[];
-        }
-        for trait in EvolvedTiersMap1 {
-            for traitId in traitIdlist {
-            if (traitId == trait) {
-                    var tier as int = EvolvedTiersMap1[trait] as int;
-                    if (armor.tag.EvolvedTier as int < tier) {
-                        if (tier >= 3) {
-                            armor.mutable().updateTag({EvolvedTier: 3, EvolvedTierExtra: tier as int});
-                        } else {
-                            armor.mutable().updateTag({EvolvedTier: tier as int, EvolvedTierExtra: tier as int});
-                        }
-                    }
-                    break;
-                }
-            }
+    }
+    if (!isNull(armor.tag.EvolvedEnergy)) {
+        energy = armor.tag.EvolvedEnergy.asInt();
+        newenergy = {EvolvedEnergy: (energy - 320)};
+        if (energy > 320 && armor.damage > 0) {
+            armor.mutable().tag.update(armor.tag.deepUpdate(newenergy, {EvolvedEnergy: OVERWRITE}));
+            armor.mutable().damageItem(-1,player);
         }
     }
 };
@@ -3437,38 +3418,3 @@ world_beginningTrait.onHurt = function(trait, armor, player, source, damage, new
     return newDamage;
 };
 world_beginningTrait.register();
-
-val energy_fixTrait = ArmorTraitBuilder.create("energy_fix");
-energy_fixTrait.color = Color.fromHex("ffffff").getIntColor();
-energy_fixTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.energy_fixTrait.name");
-energy_fixTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.energy_fixTrait.desc");
-energy_fixTrait.hidden = true;
-energy_fixTrait.onArmorTick = function(trait, armor, world, player) {
-    var newenergy as IData = {};
-    var energy = 0;
-    if (!isNull(armor.tag.EnergizedEnergy)) {
-        energy = armor.tag.EnergizedEnergy.asInt();
-        newenergy = {EnergizedEnergy: (energy - 320)};
-        if (energy > 320 && armor.damage > 0) {
-            armor.mutable().tag.update(armor.tag.deepUpdate(newenergy, {EnergizedEnergy: OVERWRITE}));
-            armor.mutable().damageItem(-1,player);
-        }
-    }
-    if (!isNull(armor.tag.FluxedEnergy)) {
-        energy = armor.tag.FluxedEnergy.asInt();
-        newenergy = {FluxedEnergy: (energy - 320)};
-        if (energy > 320 && armor.damage > 0) {
-            armor.mutable().tag.update(armor.tag.deepUpdate(newenergy, {FluxedEnergy: OVERWRITE}));
-            armor.mutable().damageItem(-1,player);
-        }
-    }
-    if (!isNull(armor.tag.EvolvedEnergy)) {
-        energy = armor.tag.EvolvedEnergy.asInt();
-        newenergy = {EvolvedEnergy: (energy - 320)};
-        if (energy > 320 && armor.damage > 0) {
-            armor.mutable().tag.update(armor.tag.deepUpdate(newenergy, {EvolvedEnergy: OVERWRITE}));
-            armor.mutable().damageItem(-1,player);
-        }
-    }
-};
-energy_fixTrait.register();

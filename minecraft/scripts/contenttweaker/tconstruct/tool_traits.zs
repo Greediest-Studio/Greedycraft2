@@ -29,6 +29,8 @@ import crafttweaker.block.IBlock;
 import crafttweaker.entity.IEntity;
 import crafttweaker.util.Position3f;
 import crafttweaker.event.EntityLivingHealEvent;
+import crafttweaker.potions.IPotion;
+import crafttweaker.potions.IPotionEffect;
 
 import mods.ctutils.utils.Math;
 import mods.contenttweaker.tconstruct.Material;
@@ -3549,73 +3551,38 @@ leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, 
         }
     }
     return 0;
-};/*
-leveling_durabilityTrait.afterBlockBreak = function(trait, tool, world, blockstate, blockPos, miner, wasEffective) {
-    if (miner instanceof IPlayer) {
-        var player as IPlayer = miner;
-        var difficulty as int = DifficultyManager.getDifficulty(player) as int;
-        var mtp as float = 1.0f;
-        if (difficulty < 256) {
-            mtp = (1.0f / 640.0f) * difficulty as float + 1.0f;
-        } else {
-            mtp = (93.0f / 4160.0f) * difficulty as float - (43.0f / 13.0f) as float;
-        }
-        if (min((tool.maxDamage * 0.03f),(tool.damage + 2 * mtp)) as int >= (tool.maxDamage - tool.damage)) {
-            ToolHelper.breakTool(tool.mutable().native, player.native);
-        } else {
-            tool.mutable().attemptDamageItemWithEnergy(min((tool.maxDamage * 0.03f) as int,(2 * (mtp - 1.0f) as float) as int), player);
-        }
-    }
-}; */
+};
 leveling_durabilityTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
     if (!isNull(tool.tag.Unbreakable)) {
         if (tool.tag.Unbreakable as byte == 1 as byte) {
             tool.mutable().updateTag({Unbreakable : 0 as byte});
         }
     }
-    //Draconic Evolution Tweaks
-    /*
-    if (!isNull(tool.tag.EvolvedTier)) {
-        var materialIdlist as string[] = [];
-        if (CotTicLib.getTicMaterial(tool).length != 0) {
-            materialIdlist = CotTicLib.getTicMaterial(tool) as string[];
+    //Fix the Durablity of Energy Tools
+    var newenergy as IData = {};
+    var energy = 0;
+    if (!isNull(tool.tag.EnergizedEnergy)) {
+        energy = tool.tag.EnergizedEnergy.asInt();
+        newenergy = {EnergizedEnergy: (energy - 320)};
+        if (energy > 320 && tool.damage > 0) {
+            tool.mutable().tag.update(tool.tag.deepUpdate(newenergy, {EnergizedEnergy: OVERWRITE}));
+            tool.mutable().damageItem(-1,owner);
         }
-        for metal in EvolvedTiersMap {
-            for materialId in materialIdlist {
-            if (materialId == metal) {
-                    var tier as int = EvolvedTiersMap[metal] as int;
-                    if (tool.tag.EvolvedTier as int < tier) {
-                        if (tier >= 3) {
-                            tool.mutable().updateTag({EvolvedTier: 3, EvolvedTierExtra: tier as int});
-                        } else {
-                            tool.mutable().updateTag({EvolvedTier: tier as int, EvolvedTierExtra: tier as int});
-                        }
-                    }
-                    break;
-                }
-            }
+    }
+    if (!isNull(tool.tag.FluxedEnergy)) {
+        energy = tool.tag.FluxedEnergy.asInt();
+        newenergy = {FluxedEnergy: (energy - 320)};
+        if (energy > 320 && tool.damage > 0) {
+            tool.mutable().tag.update(tool.tag.deepUpdate(newenergy, {FluxedEnergy: OVERWRITE}));
+            tool.mutable().damageItem(-1,owner);
         }
-    }*/
-
-    if (!isNull(tool.tag.EvolvedTier)) {
-        var traitIdlist as string[] = [];
-        if (CotTicTraitLib.getTicTrait(tool).length != 0) {
-            traitIdlist = CotTicTraitLib.getTicTrait(tool) as string[];
-        }
-        for trait in EvolvedTiersMap1 {
-            for traitId in traitIdlist {
-            if (traitId == trait) {
-                    var tier as int = EvolvedTiersMap1[trait] as int;
-                    if (tool.tag.EvolvedTier as int < tier) {
-                        if (tier >= 3) {
-                            tool.mutable().updateTag({EvolvedTier: 3, EvolvedTierExtra: tier as int});
-                        } else {
-                            tool.mutable().updateTag({EvolvedTier: tier as int, EvolvedTierExtra: tier as int});
-                        }
-                    }
-                    break;
-                }
-            }
+    }
+    if (!isNull(tool.tag.EvolvedEnergy)) {
+        energy = tool.tag.EvolvedEnergy.asInt();
+        newenergy = {EvolvedEnergy: (energy - 320)};
+        if (energy > 320 && tool.damage > 0) {
+            tool.mutable().tag.update(tool.tag.deepUpdate(newenergy, {EvolvedEnergy: OVERWRITE}));
+            tool.mutable().damageItem(-1,owner);
         }
     }
 };
@@ -4027,37 +3994,148 @@ world_beginningTrait.calcDamage = function(trait, tool, attacker, target, origin
 };
 world_beginningTrait.register();
 
-val energy_fixTrait = TraitBuilder.create("energy_fix");
-energy_fixTrait.color = Color.fromHex("ffffff").getIntColor();
-energy_fixTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.energy_fixTrait.name");
-energy_fixTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.energy_fixTrait.desc");
-energy_fixTrait.hidden = true;
-energy_fixTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
-    var newenergy as IData = {};
-    var energy = 0;
-    if (!isNull(tool.tag.EnergizedEnergy)) {
-        energy = tool.tag.EnergizedEnergy.asInt();
-        newenergy = {EnergizedEnergy: (energy - 320)};
-        if (energy > 320 && tool.damage > 0) {
-            tool.mutable().tag.update(tool.tag.deepUpdate(newenergy, {EnergizedEnergy: OVERWRITE}));
-            tool.mutable().damageItem(-1,owner);
+val six_art_internetTrait = TraitBuilder.create("six_art_internet");
+six_art_internetTrait.color = Color.fromHex("ffffff").getIntColor(); 
+six_art_internetTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.six_art_internetTrait.name");
+six_art_internetTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.six_art_internetTrait.desc");
+six_art_internetTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    if (owner instanceof IPlayer) {
+        var player as IPlayer = owner;
+        if (isNull(tool.tag.sixArt)) {
+            tool.mutable().updateTag({sixArt : {
+                classic : 0 as int,
+                simp : 0 as int,
+                triggered : 0 as int,
+                schadenfreude : 0 as int,
+                numb : 0 as int,
+                cracked : 0 as int,
+                win : 0 as byte
+            }});
+        } else if (
+            tool.tag.sixArt.classic as int > 0 &&
+            tool.tag.sixArt.simp as int > 0 &&
+            tool.tag.sixArt.triggered as int > 0 &&
+            tool.tag.sixArt.schadenfreude as int > 0 &&
+            tool.tag.sixArt.numb as int > 0 &&
+            tool.tag.sixArt.cracked as int > 0
+        ) {
+            tool.mutable().updateTag({sixArt : {win : 1 as byte}});
+        } else {
+            tool.mutable().updateTag({sixArt : {win : 0 as byte}});
         }
-    }
-    if (!isNull(tool.tag.FluxedEnergy)) {
-        energy = tool.tag.FluxedEnergy.asInt();
-        newenergy = {FluxedEnergy: (energy - 320)};
-        if (energy > 320 && tool.damage > 0) {
-            tool.mutable().tag.update(tool.tag.deepUpdate(newenergy, {FluxedEnergy: OVERWRITE}));
-            tool.mutable().damageItem(-1,owner);
-        }
-    }
-    if (!isNull(tool.tag.EvolvedEnergy)) {
-        energy = tool.tag.EvolvedEnergy.asInt();
-        newenergy = {EvolvedEnergy: (energy - 320)};
-        if (energy > 320 && tool.damage > 0) {
-            tool.mutable().tag.update(tool.tag.deepUpdate(newenergy, {EvolvedEnergy: OVERWRITE}));
-            tool.mutable().damageItem(-1,owner);
+        if (isSelected && !isNull(tool.tag.sixArt)) {
+            var artTag as IData = tool.tag.sixArt;
+            var displayString as string = (
+                (artTag.classic as int > 0 ? "§a" : "§c") + "[典] " +
+                (artTag.simp as int > 0 ? "§a" : "§c") + "[孝] " +
+                (artTag.triggered as int > 0 ? "§a" : "§c") + "[急] " +
+                (artTag.schadenfreude as int > 0 ? "§a" : "§c") + "[乐] " +
+                (artTag.numb as int > 0 ? "§a" : "§c") + "[麻] " +
+                (artTag.cracked as int > 0 ? "§a" : "§c") + "[蚌] " +
+                (artTag.win as byte == 1 as byte ? "§a✔" : "§c✖")
+            ) as string;
+            player.sendStatusMessage(displayString);
         }
     }
 };
-energy_fixTrait.register();
+six_art_internetTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        var amplifier as float = 1.0f;
+        if (!isNull(tool.tag.sixArt)) {
+            var artTag as IData = tool.tag.sixArt;
+            //赢---------------------------------
+            if (artTag.win as byte == 1 as byte) {
+                amplifier *= 3.0f;
+                player.sendChat("§a赢！");
+            }
+            //典---------------------------------
+            if (artTag.classic as int > 0) {
+                tool.mutable().updateTag({sixArt : {classic : artTag.classic as int - 1}});
+                if (target.isPotionActive(<potion:minecraft:weakness>)) {
+                    var amp as int = target.getActivePotionEffect(<potion:minecraft:weakness>).amplifier;
+                    if (Math.random() < 0.2f) {
+                        target.addPotionEffect(<potion:minecraft:weakness>.makePotionEffect(60, amp + 1, false, false));
+                    } else {
+                        target.addPotionEffect(<potion:minecraft:weakness>.makePotionEffect(60, amp, false, false));
+                    }
+                } else {
+                    target.addPotionEffect(<potion:minecraft:weakness>.makePotionEffect(60, 0, false, false));
+                }
+            } else if (Math.random() < 0.15f) {
+                tool.mutable().updateTag({sixArt : {classic : 8 as int}});
+            }
+            //孝---------------------------------
+            if (artTag.simp as int > 0) {
+                tool.mutable().updateTag({sixArt : {simp : artTag.simp as int - 1}});
+                var pass as bool = false;
+                for potionActive in target.activePotionEffects {
+                    if (potionActive.potion.isBeneficial) {
+                        pass = true;
+                        target.removePotionEffect(potionActive.potion);
+                        break;
+                    }
+                }
+                if (!pass) {
+                    amplifier *= 1.2f;
+                }
+            } else if (Math.random() < 0.15f) {
+                tool.mutable().updateTag({sixArt : {simp : 8 as int}});
+            }
+            //急---------------------------------
+            if (artTag.triggered as int > 0) {
+                tool.mutable().updateTag({sixArt : {triggered : artTag.triggered as int - 1}});
+                if (target.isPotionActive(<potion:potioncore:vulnerable>)) {
+                    var amp as int = target.getActivePotionEffect(<potion:potioncore:vulnerable>).amplifier;
+                    if (Math.random() < 0.2f) {
+                        target.addPotionEffect(<potion:potioncore:vulnerable>.makePotionEffect(60, amp + 1, false, false));
+                    } else {
+                        target.addPotionEffect(<potion:potioncore:vulnerable>.makePotionEffect(60, amp, false, false));
+                    }
+                } else {
+                    target.addPotionEffect(<potion:potioncore:vulnerable>.makePotionEffect(60, 0, false, false));
+                }
+            } else if (Math.random() < 0.15f) {
+                tool.mutable().updateTag({sixArt : {triggered : 8 as int}});
+            }
+            //乐---------------------------------
+            if (artTag.schadenfreude as int > 0) {
+                tool.mutable().updateTag({sixArt : {schadenfreude : artTag.schadenfreude as int - 1}});
+                if (player.isPotionActive(<potion:minecraft:regeneration>)) {
+                    var amp as int = player.getActivePotionEffect(<potion:minecraft:regeneration>).amplifier;
+                    if (Math.random() < 0.2f && amp <= 3) {
+                        player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(60, amp + 1, false, false));
+                    } else {
+                        player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(60, amp, false, false));
+                    }
+                } else {
+                    player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(60, 0, false, false));
+                }
+            } else if (Math.random() < 0.15f) {
+                tool.mutable().updateTag({sixArt : {schadenfreude : 8 as int}});
+            }
+            //麻---------------------------------
+            if (artTag.numb as int > 0) {
+                tool.mutable().updateTag({sixArt : {numb : artTag.numb as int - 1}});
+                if (target.isPotionActive(<potion:tiths:paralysed>)) {
+                    amplifier *= 1.2f;
+                } else {
+                    target.addPotionEffect(<potion:tiths:paralysed>.makePotionEffect(60, 0, false, false));
+                }
+            } else if (Math.random() < 0.15f) {
+                tool.mutable().updateTag({sixArt : {numb : 8 as int}});
+            }
+            //蚌---------------------------------
+            if (artTag.cracked as int > 0) {
+                tool.mutable().updateTag({sixArt : {cracked : artTag.cracked as int - 1}});
+                amplifier *= 1.5f;
+            } else if (Math.random() < 0.15f) {
+                tool.mutable().updateTag({sixArt : {cracked : 8 as int}});
+            }
+            return newDamage * amplifier as float;
+        }
+        return newDamage;
+    }
+    return newDamage;
+};
+six_art_internetTrait.register();
