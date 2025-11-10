@@ -180,7 +180,16 @@ val crops as IItemStack[][] = [
     [<appliedenergistics2:crystal_seed>, <appliedenergistics2:material:10>],
     [<appliedenergistics2:crystal_seed:600>, <appliedenergistics2:material:11>],
     [<appliedenergistics2:crystal_seed:1200>, <appliedenergistics2:material:12>],
-    [<mysticalagriculture:fiery_ingot_seeds>, <mysticalagriculture:fiery_ingot_essence>]
+    [<mysticalagriculture:fiery_ingot_seeds>, <mysticalagriculture:fiery_ingot_essence>],
+    [<mysticalagriculture:uranium_seeds>, <mysticalagriculture:uranium_essence>],
+    [<mysticalagriculture:slimy_bone_seeds>, <mysticalagriculture:slimy_bone_essence>],
+    [<mysticalagriculture:syrmorite_seeds>, <mysticalagriculture:syrmorite_essence>],
+    [<mysticalagriculture:octine_seeds>, <mysticalagriculture:octine_essence>],
+    [<mysticalagriculture:valonite_seeds>, <mysticalagriculture:valonite_essence>],
+    [<mysticalagriculture:thorium_seeds>, <mysticalagriculture:thorium_essence>],
+    [<mysticalagriculture:boron_seeds>, <mysticalagriculture:boron_essence>],
+    [<mysticalagriculture:lithium_seeds>, <mysticalagriculture:lithium_essence>],
+    [<mysticalagriculture:dark_gem_seeds>, <mysticalagriculture:dark_gem_essence>]
 ];
 
 var recipeId = 0;
