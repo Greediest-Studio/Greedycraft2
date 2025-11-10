@@ -1,0 +1,115 @@
+{
+  "name": "deusiotium",
+  "tool": {
+    "head": {
+      "attackDamage": 11.4,
+      "speed": 24,
+      "durability": 100,
+      "harvestLevel": 4
+    },
+    "handle": {
+      "modifier": 1,
+      "durability": 10
+    },
+    "extra": {
+      "durability": 100
+    }
+  },
+  "color": "#b4b6c0",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1145,
+  "looks": {
+    "shininess": 0.1,
+    "brightness": 0.3,
+    "hueshift": 0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 6000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Deusiotium",
+    "zh_cn": "神人金属"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:deusiotium_ingot"
+    ],
+    "block": [
+      "additions:deusiotium_block"
+    ],
+    "nugget": [
+      "additions:deusiotium_nugget"
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 15,
+      "defense": 24
+    },
+    "plates": {
+      "modifier": 1,
+      "durability": 5,
+      "toughness": 1.5
+    },
+    "trim": {
+      "extraDurability": 5
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "chomper",
+      "abstract"
+    ],
+    "HEAD": [
+      "six_art_internet",
+      "abstract"
+    ],
+    "HANDLE": [
+      "chomper",
+      "abstract"
+    ],
+    "CORE": [
+      "hachimi_roar_armor",
+      "abstract_armor"
+    ],
+    "PLATES": [
+      "hachimi_roar_armor",
+      "abstract_armor"
+    ],
+    "TRIM": [
+      "hachimi_roar_armor",
+      "abstract_armor"
+    ]
+  }
+}

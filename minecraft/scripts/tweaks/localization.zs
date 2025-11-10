@@ -314,6 +314,7 @@ val localizationMap as string[string][string] = {
         "fluid.zinc_chloride": "熔融氯化锌",
         "fluid.manganese_chloride": "熔融氯化锰",
         "fluid.molybdenum_trioxide": "熔融三氧化钼",
+        "fluid.deusiotium": "熔融神人金属",
         //化工相关液体
         "fluid.liquid_air": "液态空气",
         "fluid.hydrochloric_acid": "盐酸",

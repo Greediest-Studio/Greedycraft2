@@ -3466,8 +3466,8 @@ hachimi_roarTrait.onArmorTick = function(trait, armor, world, player) {
                         player.sendStatusMessage("§d哈！");
                         player.playSound("additions:hachimi_active", 1.0f, 1.0f);
                         armor.mutable().updateTag({hachimiCharge : 0 as int, hachimiCount : 0 as int});
-                        player.addPotionEffect(<potion:minecraft:strength>.makePotionEffect(100, 1, false, false));
-                        player.addPotionEffect(<potion:minecraft:haste>.makePotionEffect(100, 1, false, false));
+                        player.addPotionEffect(<potion:minecraft:strength>.makePotionEffect(200, 1, false, false));
+                        player.addPotionEffect(<potion:minecraft:haste>.makePotionEffect(200, 1, false, false));
                     }
                 }
             }

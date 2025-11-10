@@ -2553,6 +2553,17 @@ molten_molybdenum_trioxide.stillLocation = "base:fluids/molten";
 molten_molybdenum_trioxide.flowingLocation = "base:fluids/molten_flowing";
 molten_molybdenum_trioxide.register();
 
+val molten_deusiotium = mods.contenttweaker.VanillaFactory.createFluid("deusiotium", Color.fromHex("b4b6c0").getIntColor());
+molten_deusiotium.material = <blockmaterial:lava>;
+molten_deusiotium.viscosity = 3000;
+molten_deusiotium.density = 6500;
+molten_deusiotium.colorize = true;
+molten_deusiotium.temperature = 1000;
+molten_deusiotium.luminosity = 10;
+molten_deusiotium.color = Color.fromHex("b4b6c0").getIntColor();
+molten_deusiotium.stillLocation = "base:fluids/molten";
+molten_deusiotium.flowingLocation = "base:fluids/molten_flowing";
+molten_deusiotium.register();
 
 //液化类
 val liquid_air = mods.contenttweaker.VanillaFactory.createFluid("liquid_air", Color.fromHex("ffffff").getIntColor());
