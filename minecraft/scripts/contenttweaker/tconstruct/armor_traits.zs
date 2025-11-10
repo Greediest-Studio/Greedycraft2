@@ -48,6 +48,13 @@ import mods.zenutils.StaticString;
 import mods.nuclearcraft.RadiationScrubber;
 import mods.ctintegration.scalinghealth.DifficultyManager;
 
+import kbtwkr.event.EventManager;
+import kbtwkr.event.KeyBindingRegisterEvent;
+import kbtwkr.keybinding.KeyBinding;
+import kbtwkr.keybinding.ConflictContext;
+import kbtwkr.keybinding.Modifier;
+import kbtwkr.keybinding.Keys;
+
 import native.slimeknights.tconstruct.library.utils.ToolHelper;
 
 $expand IItemStack$hasTicTrait(traitid as string) as bool {
@@ -3324,22 +3331,10 @@ underwaterregenTrait.localizedName = game.localize("greedycraft.tconstruct.armor
 underwaterregenTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.underwaterregenTrait.desc");
 underwaterregenTrait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
-        if (armor.isEnchanted) {
-            var successful as bool = true;
-            for enchant in armor.enchantments {
-                if (enchant.definition.name == <enchantment:minecraft:depth_strider>.name) {
-                    successful = false;                    
-                    break;
-                }
-            }
-            if (successful) {
-                armor.mutable().addEnchantment(<enchantment:minecraft:depth_strider>.makeEnchantment(2));
-            }
-        } else {
-            armor.mutable().addEnchantment(<enchantment:minecraft:depth_strider>.makeEnchantment(2));
-        }
         if (player.isInWater) {
             player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(1, 3, false, false));
+            player.motionX *= 0.5f;
+            player.motionZ *= 0.5f;
         }
     }
 };
@@ -3418,3 +3413,65 @@ world_beginningTrait.onHurt = function(trait, armor, player, source, damage, new
     return newDamage;
 };
 world_beginningTrait.register();
+
+val abstractTrait = ArmorTraitBuilder.create("abstract");
+abstractTrait.color = Color.fromHex("ffffff").getIntColor();
+abstractTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.abstractTrait.name");
+abstractTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.abstractTrait.desc");
+abstractTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        if (([1, 4, 7] as int[]) has (((damage * 10.0f) as int) % 10) as int) {
+            return newDamage * 0.5f;
+        } else {
+            return newDamage;
+        }
+    }
+    return newDamage;
+};
+abstractTrait.register();
+
+val HachimiBinding as KeyBinding = KeyBinding.createSyncable("greedycraft.keybinding.hachimi_roar", ConflictContext.IN_GAME, Modifier.NONE, Keys.KEY_S, "greedycraft.keycategory");
+val HachimiActive as KeyBinding = KeyBinding.createSyncable("greedycraft.keybinding.hachimi_active", ConflictContext.IN_GAME, Modifier.NONE, Keys.KEY_W, "greedycraft.keycategory");
+EventManager.getInstance().onKeyBindingRegister(function(event as KeyBindingRegisterEvent) {
+	event.addKeyBinding(HachimiBinding);
+    event.addKeyBinding(HachimiActive);
+});
+
+val hachimi_roarTrait = ArmorTraitBuilder.create("hachimi_roar");
+hachimi_roarTrait.color = Color.fromHex("ffffff").getIntColor();
+hachimi_roarTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.hachimi_roarTrait.name");
+hachimi_roarTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.hachimi_roarTrait.desc");
+hachimi_roarTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        if (isNull(armor.tag.hachimiCharge)) {
+            armor.mutable().updateTag({hachimiCharge : 0 as int, hachimiCount : 0 as int});
+        } else {
+            if (player.isKeyDownServer(HachimiBinding)) {
+                var time as int = player.getPressedTimeServer(HachimiBinding);
+                if (time >= 20) {
+                    armor.mutable().updateTag({hachimiCount : time as int});
+                }
+            } else {
+                if (armor.tag.hachimiCount as int >= 20) {
+                    var charge as int = armor.tag.hachimiCharge as int;
+                    if (charge > 2) charge = 2;
+                    armor.mutable().updateTag({hachimiCharge : charge + 1 as int, hachimiCount : 0 as int});
+                    player.sendStatusMessage("§a哈气（" + (charge + 1) + "/3）");
+                    player.playSound("additions:hachimi_roar", 1.0f, 1.0f);
+                }
+            }
+            if (player.isKeyDownServer(HachimiActive)) {
+                if (!isNull(armor.tag.hachimiCharge)) {
+                    if (armor.tag.hachimiCharge as int == 3) {
+                        player.sendStatusMessage("§d哈！");
+                        player.playSound("additions:hachimi_active", 1.0f, 1.0f);
+                        armor.mutable().updateTag({hachimiCharge : 0 as int, hachimiCount : 0 as int});
+                        player.addPotionEffect(<potion:minecraft:strength>.makePotionEffect(100, 1, false, false));
+                        player.addPotionEffect(<potion:minecraft:haste>.makePotionEffect(100, 1, false, false));
+                    }
+                }
+            }
+        }
+    }
+};
+hachimi_roarTrait.register();

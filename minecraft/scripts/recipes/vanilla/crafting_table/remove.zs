@@ -467,9 +467,6 @@ val removedRecipes as IIngredient[] = [
     <elementalend:nether_eye>,
     <moretcon:itemtrichromadentiumsponge:1>,
     <moretcon:itemvalasiumsponge:1>,
-    <enderutilities:enderpart>,
-    <enderutilities:enderpart:1>,
-    <enderutilities:enderpart:2>,
     <erebus:altar_offering>,
     <erebus:portal_activator>
 ];
@@ -543,7 +540,10 @@ val removedRecipeNames as string[] = [
     "mysticalagriculture:ingotsoularium",
     "gct_ores:command_dismantler_craft",
     "superfactorymanager:manager",
-    "betterendforge:ender_block"
+    "betterendforge:ender_block",
+    "unidict:ingotenderiron_x1_size.2",
+    "enderutilities:ender_part_ender_alloy_advanced",
+    "enderutilities:ender_part_ender_alloy_enhanced"
 ];
 
 for ingredient in removedRecipes {

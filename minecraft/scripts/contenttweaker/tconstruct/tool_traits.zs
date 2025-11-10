@@ -4139,3 +4139,55 @@ six_art_internetTrait.calcDamage = function(trait, tool, attacker, target, origi
     return newDamage;
 };
 six_art_internetTrait.register();
+
+val abstractTrait = TraitBuilder.create("abstract");
+abstractTrait.color = Color.fromHex("ffffff").getIntColor(); 
+abstractTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.abstractTrait.name");
+abstractTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.abstractTrait.desc");
+abstractTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if ([1, 4, 7] as int[] has ((originalDamage * 10.0f) as int % 10)) {
+            return newDamage * 0.5f;
+        } else {
+            return newDamage;
+        }
+    }
+    return newDamage;
+};
+abstractTrait.register();
+
+val chomperTrait = TraitBuilder.create("chomper");
+chomperTrait.color = Color.fromHex("ffffff").getIntColor();
+chomperTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.chomperTrait.name");
+chomperTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.chomperTrait.desc");
+chomperTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    if (owner instanceof IPlayer) {
+        var player as IPlayer = owner;
+        var pos as IBlockPos = player.position;
+        if (world.getWorldTime() % 100 == 0) {
+            var counter as int = 0;
+            for i in -3 to 4 {
+                for j in -3 to 4 {
+                    for k in -1 to 2 {
+                        if (world.getBlock(pos.north(i).east(j).up(k)).definition.id has "minecraft:red_flower") counter += 1;
+                    }
+                }
+            }
+            tool.mutable().updateTag({chomper : counter as int});
+        }
+    }
+};
+chomperTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (!isNull(tool.tag.chomper)) {
+            var flower as int = tool.tag.chomper as int;
+            if (flower >= 30) flower = 30;
+            return newDamage * (1.0f + (Math.sqrt(flower as float) as float / Math.sqrt(30.0f) as float) as float);
+        }
+        return newDamage;
+    }
+    return newDamage;
+};
+chomperTrait.register();
