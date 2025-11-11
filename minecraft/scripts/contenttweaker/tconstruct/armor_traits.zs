@@ -3442,7 +3442,7 @@ hachimi_roarTrait.color = Color.fromHex("ffffff").getIntColor();
 hachimi_roarTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.hachimi_roarTrait.name");
 hachimi_roarTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.hachimi_roarTrait.desc");
 hachimi_roarTrait.onArmorTick = function(trait, armor, world, player) {
-    if (!isNull(player)) {
+    if (!isNull(player) && !world.isRemote()) {
         if (isNull(armor.tag.hachimiCharge)) {
             armor.mutable().updateTag({hachimiCharge : 0 as int, hachimiCount : 0 as int});
         } else {

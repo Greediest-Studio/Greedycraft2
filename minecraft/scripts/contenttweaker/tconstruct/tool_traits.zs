@@ -3999,7 +3999,7 @@ six_art_internetTrait.color = Color.fromHex("ffffff").getIntColor();
 six_art_internetTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.six_art_internetTrait.name");
 six_art_internetTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.six_art_internetTrait.desc");
 six_art_internetTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
-    if (owner instanceof IPlayer) {
+    if (owner instanceof IPlayer && !owner.world.isRemote()) {
         var player as IPlayer = owner;
         if (isNull(tool.tag.sixArt)) {
             tool.mutable().updateTag({sixArt : {
@@ -4039,7 +4039,7 @@ six_art_internetTrait.onUpdate = function(trait, tool, world, owner, itemSlot, i
     }
 };
 six_art_internetTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
-    if (attacker instanceof IPlayer) {
+    if (attacker instanceof IPlayer && !attacker.world.isRemote()) {
         var player as IPlayer = attacker;
         var amplifier as float = 1.0f;
         if (!isNull(tool.tag.sixArt)) {
@@ -4197,12 +4197,11 @@ wight_rejectionTrait.color = Color.fromHex("ffffff").getIntColor();
 wight_rejectionTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.wight_rejectionTrait.name");
 wight_rejectionTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.wight_rejectionTrait.desc");
 wight_rejectionTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
-    if (attacker instanceof IPlayer && !(target instanceof IPlayer)) {
+    if (attacker instanceof IPlayer && !(target instanceof IPlayer) && !attacker.world.isRemote()) {
         var player as IPlayer = attacker;
         var world as IWorld = player.world;
-        var entities as IEntity[] = world.getEntitiesInArea(player.position.north(7).east(7).up(7), player.position.south(7).west(7).down(7));
         var counter as int = 0;
-        for entity in entities {
+        for entity in world.getEntitiesInArea(player.position.north(7).east(7).up(7), player.position.south(7).west(7).down(7)) {
             if (!isNull(entity.definition)) {
                 if (entity.definition.id == "thebetweenlands:wight") {
                     var entityLivingBase as IEntityLivingBase = entity;
