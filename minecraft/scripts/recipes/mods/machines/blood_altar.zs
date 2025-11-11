@@ -367,7 +367,7 @@ function addAltarRecipe(input as IIngredient, output as IItemStack, LP as int, l
     recipe.addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
         val parallelism as int = event.activeRecipe.parallelism;
         var speed as int = event.controller.getAltarSpeed() / 20 * levelSpeedMutiplierMap[level] as int;
-        var time as int = Math.ceil((LP as double * economyCount(event)) / (speed as double)) as int;
+        var time as int = min(1,Math.ceil((LP as double * economyCount(event)) / (speed as double)) as int) as int;
         if (event.controller.getAltarLP() < (economyCount(event) * LP * parallelism / time) as long) {
             if (event.activeRecipe.tick > 2) {
                 event.activeRecipe.tick -= 2;

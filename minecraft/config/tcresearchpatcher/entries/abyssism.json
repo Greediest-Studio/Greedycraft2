@@ -16,11 +16,12 @@
                 {
                     "text": "tc.research.ABYSSISM_STARTING.stage.2",
                     "recipes": ["gct_aby:eye_of_abyss"],
-                    "required_item": ["gct_aby:eye_of_abyss"]
+                    "required_item": ["gct_aby:eye_of_abyss"],
+                    "warp": 15
                 },
                 {
                     "text": "tc.research.ABYSSISM_STARTING.stage.3",
-                    "warp": 15
+                    "recipes": ["gct_aby:eye_of_abyss"]
                 }
             ]
         },
@@ -53,7 +54,11 @@
                 {
                     "text": "tc.research.SANCHECK.stage.1",
                     "required_craft": ["gct_aby:sanity_observer"],
-                    "recipes": ["gct_aby:sanity_observer"]
+                    "recipes": ["thaumcraft:sanity_checker_abyss"]
+                },
+                {
+                    "text": "tc.research.SANCHECK.stage.1",
+                    "recipes": ["thaumcraft:sanity_checker_abyss"]
                 }
             ]
         },
@@ -68,7 +73,11 @@
                 {
                     "text": "tc.research.MINDFRUIT.stage.1",
                     "required_craft": ["gct_aby:fruit_of_mind"],
-                    "recipes": ["gct_aby:fruit_of_mind", "gct_aby:fruit_of_mind_enchanted"]
+                    "recipes": ["thaumcraft:mind_fruit", "thaumcraft:mind_fruit_enchanted"]
+                },
+                {
+                    "text": "tc.research.MINDFRUIT.stage.1",
+                    "recipes": ["thaumcraft:mind_fruit", "thaumcraft:mind_fruit_enchanted"]
                 }
             ]
         },
@@ -83,10 +92,11 @@
                 {
                     "text": "tc.research.SHOGGOTH_COMPLEX_CRYSTAL.stage.1",
                     "required_craft": ["gct_aby:shoggoth_complex_crystal"],
-                    "recipes": ["gct_aby:shoggoth_complex_crystal"]
+                    "recipes": ["thaumcraft:shoggothComplexCrystal"]
                 },
                 {
-                    "text": "tc.research.SHOGGOTH_COMPLEX_CRYSTAL.stage.2"
+                    "text": "tc.research.SHOGGOTH_COMPLEX_CRYSTAL.stage.2",
+                    "recipes": ["thaumcraft:shoggothComplexCrystal"]
                 }
             ]
         },
@@ -101,11 +111,16 @@
                 {
                     "text": "tc.research.SHOGGOTH_MUD_COLLECTION.stage.1",
                     "required_craft": ["gct_aby:sanite_siphon"],
-                    "recipes": ["gct_aby:sanite_siphon"]
+                    "recipes": ["thaumcraft:saniteSiphon"]
                 },
                 {
                     "text": "tc.research.SHOGGOTH_MUD_COLLECTION.stage.2",
-                    "required_item": ["gct_aby:shoggoth_slimeball"]
+                    "required_item": ["gct_aby:shoggoth_slimeball"],
+                    "recipes": ["thaumcraft:saniteSiphon"]
+                },
+                {
+                    "text": "tc.research.SHOGGOTH_MUD_COLLECTION.stage.3",
+                    "recipes": ["thaumcraft:saniteSiphon"]
                 }
             ]
         },

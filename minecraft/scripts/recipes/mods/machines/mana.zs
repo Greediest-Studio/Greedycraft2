@@ -111,11 +111,9 @@ MMEvents.onStructureUpdate("mana_liquefactor", function(event as MachineStructur
 MMEvents.onMachinePreTick("mana_liquefactor", function(event as MachineTickEvent) {
     val ctrl = event.controller;
     var inputPosList = [] as IBlockPos[];
-    var outputPosList = [] as IBlockPos[];
     var inputData = [] as IData[];
-    var outputData = [] as IData[];
     var mana = 0 as int;
-    var size = [100,4000,16000,64000,204800,1310720,41943040,2147483647] as int[];
+    //var size = [100,4000,16000,64000,204800,1310720,41943040,2147483647] as int[];
     var parallel = 0 as int;
     var manaData = {parallel: 0} as IData;
 
@@ -126,25 +124,18 @@ MMEvents.onMachinePreTick("mana_liquefactor", function(event as MachineTickEvent
             x += 1;
         }
         x = 0;
-        while (x <= (ctrl.customData.outputPos.length - 1)) {
-            outputPosList = outputPosList + IBlockPos.create(ctrl.customData.outputPos[x][0],ctrl.customData.outputPos[x][1],ctrl.customData.outputPos[x][2]);
-            x += 1;
-        }
         for pos in inputPosList {
             inputData = inputData + ctrl.world.getBlock(pos).data;
-        }
-        for pos in outputPosList {
-            outputData = outputData + ctrl.world.getBlock(pos).data;
         }
         for data in inputData {
             mana = mana + data.mana.asInt();
         }
         if (mana < 1000) {
-            ctrl.customData = ctrl.customData.deepUpdate((isNull(ctrl.customData.parallel) ? {parallel: parallel} : {parallel: (parallel + ctrl.customData.parallel)}),{parallel: OVERWRITE});
+            ctrl.customData = ctrl.customData.deepUpdate({parallel: (parallel + (isNull(ctrl.customData.parallel) ? 0 : ctrl.customData.parallel))},{parallel: OVERWRITE});
         }
         else if (mana >= 100000000) {
             parallel = 100000000;
-            ctrl.customData = ctrl.customData.deepUpdate((isNull(ctrl.customData.parallel) ? {parallel: parallel} : {parallel: (parallel + ctrl.customData.parallel)}),{parallel: OVERWRITE});
+            ctrl.customData = ctrl.customData.deepUpdate({parallel: (parallel + (isNull(ctrl.customData.parallel) ? 0 : ctrl.customData.parallel))},{parallel: OVERWRITE});
             for i, data in inputData {
                 if (parallel >= data.mana.asInt()) {
                     ctrl.world.setBlockState(ctrl.world.getBlockState(inputPosList[i]),data.deepUpdate({mana: 0},OVERWRITE),inputPosList[i]);
@@ -158,7 +149,7 @@ MMEvents.onMachinePreTick("mana_liquefactor", function(event as MachineTickEvent
         }
         else if (mana >= 10000000) {
             parallel = 10000000;
-            ctrl.customData = ctrl.customData.deepUpdate((isNull(ctrl.customData.parallel) ? {parallel: parallel} : {parallel: (parallel + ctrl.customData.parallel)}),{parallel: OVERWRITE});
+            ctrl.customData = ctrl.customData.deepUpdate({parallel: (parallel + (isNull(ctrl.customData.parallel) ? 0 : ctrl.customData.parallel))},{parallel: OVERWRITE});
             for i, data in inputData {
                 if (parallel >= data.mana.asInt()) {
                     ctrl.world.setBlockState(ctrl.world.getBlockState(inputPosList[i]),data.deepUpdate({mana: 0},OVERWRITE),inputPosList[i]);
@@ -172,7 +163,7 @@ MMEvents.onMachinePreTick("mana_liquefactor", function(event as MachineTickEvent
         }
         else if (mana >= 1000000) {
             parallel = 1000000;
-            ctrl.customData = ctrl.customData.deepUpdate((isNull(ctrl.customData.parallel) ? {parallel: parallel} : {parallel: (parallel + ctrl.customData.parallel)}),{parallel: OVERWRITE});
+            ctrl.customData = ctrl.customData.deepUpdate({parallel: (parallel + (isNull(ctrl.customData.parallel) ? 0 : ctrl.customData.parallel))},{parallel: OVERWRITE});
             for i, data in inputData {
                 if (parallel >= data.mana.asInt()) {
                     ctrl.world.setBlockState(ctrl.world.getBlockState(inputPosList[i]),data.deepUpdate({mana: 0},OVERWRITE),inputPosList[i]);
@@ -186,7 +177,7 @@ MMEvents.onMachinePreTick("mana_liquefactor", function(event as MachineTickEvent
         }
         else if (mana >= 100000) {
             parallel = 100000;
-            ctrl.customData = ctrl.customData.deepUpdate((isNull(ctrl.customData.parallel) ? {parallel: parallel} : {parallel: (parallel + ctrl.customData.parallel)}),{parallel: OVERWRITE});
+            ctrl.customData = ctrl.customData.deepUpdate({parallel: (parallel + (isNull(ctrl.customData.parallel) ? 0 : ctrl.customData.parallel))},{parallel: OVERWRITE});
             for i, data in inputData {
                 if (parallel >= data.mana.asInt()) {
                     ctrl.world.setBlockState(ctrl.world.getBlockState(inputPosList[i]),data.deepUpdate({mana: 0},OVERWRITE),inputPosList[i]);
@@ -200,7 +191,7 @@ MMEvents.onMachinePreTick("mana_liquefactor", function(event as MachineTickEvent
         }
         else if (mana >= 10000) {
             parallel = 10000;
-            ctrl.customData = ctrl.customData.deepUpdate((isNull(ctrl.customData.parallel) ? {parallel: parallel} : {parallel: (parallel + ctrl.customData.parallel)}),{parallel: OVERWRITE});
+            ctrl.customData = ctrl.customData.deepUpdate({parallel: (parallel + (isNull(ctrl.customData.parallel) ? 0 : ctrl.customData.parallel))},{parallel: OVERWRITE});
             for i, data in inputData {
                 if (parallel >= data.mana.asInt()) {
                     ctrl.world.setBlockState(ctrl.world.getBlockState(inputPosList[i]),data.deepUpdate({mana: 0},OVERWRITE),inputPosList[i]);
@@ -214,7 +205,7 @@ MMEvents.onMachinePreTick("mana_liquefactor", function(event as MachineTickEvent
         }
         else if (mana >= 1000) {
             parallel = 1000;
-            ctrl.customData = ctrl.customData.deepUpdate((isNull(ctrl.customData.parallel) ? {parallel: parallel} : {parallel: (parallel + ctrl.customData.parallel)}),{parallel: OVERWRITE});
+            ctrl.customData = ctrl.customData.deepUpdate({parallel: (parallel + (isNull(ctrl.customData.parallel) ? 0 : ctrl.customData.parallel))},{parallel: OVERWRITE});
             for i, data in inputData {
                 if (parallel >= data.mana.asInt()) {
                     ctrl.world.setBlockState(ctrl.world.getBlockState(inputPosList[i]),data.deepUpdate({mana: 0},OVERWRITE),inputPosList[i]);
