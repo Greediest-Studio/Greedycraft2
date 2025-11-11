@@ -81,8 +81,8 @@
     "HANDLE": ["tconevo.luminiferous", "dichroic"],
     "EXTRA": ["tconevo.luminiferous", "dichroic"],
     "BOW": ["tconevo.luminiferous", "dichroic"],
-    "CORE": ["light_mark1_armor", "dichroic1_armor"],
-    "PLATES": ["light_mark1_armor", "dichroic1_armor"],
-    "TRIM": ["light_mark1_armor", "dichroic1_armor"]
+    "CORE": ["light_mark_armor", "tconevo.radiant_armor"],
+    "PLATES": ["light_mark_armor", "tconevo.radiant_armor"],
+    "TRIM": ["light_mark_armor", "tconevo.radiant_armor"]
   }
 }

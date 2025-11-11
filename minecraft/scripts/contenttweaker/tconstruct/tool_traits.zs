@@ -4191,3 +4191,44 @@ chomperTrait.calcDamage = function(trait, tool, attacker, target, originalDamage
     return newDamage;
 };
 chomperTrait.register();
+
+val wight_rejectionTrait = TraitBuilder.create("wight_rejection");
+wight_rejectionTrait.color = Color.fromHex("ffffff").getIntColor(); 
+wight_rejectionTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.wight_rejectionTrait.name");
+wight_rejectionTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.wight_rejectionTrait.desc");
+wight_rejectionTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer && !(target instanceof IPlayer)) {
+        var player as IPlayer = attacker;
+        var world as IWorld = player.world;
+        var entities as IEntity[] = world.getEntitiesInArea(player.position.north(7).east(7).up(7), player.position.south(7).west(7).down(7));
+        var counter as int = 0;
+        for entity in entities {
+            if (!isNull(entity.definition)) {
+                if (entity.definition.id == "thebetweenlands:wight") {
+                    var entityLivingBase as IEntityLivingBase = entity;
+                    entityLivingBase.revengeTarget = target;
+                    counter += 1;
+                }
+            }
+        }
+        if (counter == 0) {
+            return newDamage * 1.1f;
+        }
+    }
+    return newDamage;
+};
+wight_rejectionTrait.register();
+
+val calamityTrait = TraitBuilder.create("calamity");
+calamityTrait.color = Color.fromHex("ffffff").getIntColor(); 
+calamityTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.calamityTrait.name");
+calamityTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.calamityTrait.desc");
+calamityTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        if (Math.random() < 0.3f) {
+            target.addPotionEffect(<potion:potioncore:curse>.makePotionEffect(1, 0, false, false));
+        }
+    }
+    return newDamage;
+};
+calamityTrait.register();
