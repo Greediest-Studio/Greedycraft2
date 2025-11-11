@@ -56,3 +56,4 @@ ConversionItem.create(<thermalfoundation:material:167>).addMatchItem(<enderutili
 ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:burningsulfurflow>).register();
 ConversionFluid.create(<liquid:liquidantimatter>).addMatchFluid(<liquid:blockfluidantimatter>).register();
 ConversionFluid.create(<liquid:fluxed_electrum>).addMatchFluid(<liquid:electrum_flux>).register();
+ConversionFluid.create(<liquid:primal_metal>).addMatchFluid(<liquid:primordial>).register();
