@@ -1,0 +1,13 @@
+filename = 'thaumicwonders-2.2.1.jar'
+name = 'Thaumic Wonders Unofficial'
+side = 'both'
+
+[download]
+hash = 'dbc02674fd785ec767106ce9c0f4c0a87e09c20d'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+
+[update]
+[update.curseforge]
+file-id = 7209198
+project-id = 1307741
