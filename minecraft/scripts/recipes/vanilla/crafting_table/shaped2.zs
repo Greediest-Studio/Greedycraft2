@@ -23,7 +23,7 @@ recipes.remove(<tconstruct:piggybackpack>.withTag({}));
 recipes.remove(<mekeng:gas_core_2g>);
 recipes.remove(<enderutilities:enderpart:30>);
 recipes.remove(<enderutilities:handybag:1>);
-recipes.remove(<crazyae:perfect_interface>)
+recipes.remove(<crazyae:perfect_interface>);
 recipes.removeByRecipeName("biomesoplenty:amber_block");
 recipes.removeByRecipeName("biomesoplenty:amber");
 recipes.removeByRecipeName("betterendforge:amber_block");
