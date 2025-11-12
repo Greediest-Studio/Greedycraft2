@@ -1,0 +1,13 @@
+name = 'Omniwand'
+filename = 'omniwand-1.12.2-2.0.1.jar'
+side = 'both'
+
+[download]
+hash-format = 'sha1'
+hash = '8806292aa4740e522e6cec2479593b1ff842fd74'
+mode = 'metadata:curseforge'
+
+[update]
+[update.curseforge]
+file-id = 6460075
+project-id = 923677

@@ -5,15 +5,17 @@
 	],
 	x: 10.5d,
 	y: 3.0d,
-	description: "制作变形工具",
+	description: "制作全能魔杖",
 	text: [
-		""
+		"把它和工具放在工作台合成即可把工具放进去",
+		"右键打开gui选择你想变成的工具",
+		"对空气左键即可复原"
 	],
 	tasks: [{
 		uid: "b7c844aa",
 		type: "item",
 		items: [{
-			item: "morphtool:tool"
+			item: "omniwand:wand"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
