@@ -23,6 +23,7 @@ recipes.remove(<tconstruct:piggybackpack>.withTag({}));
 recipes.remove(<mekeng:gas_core_2g>);
 recipes.remove(<enderutilities:enderpart:30>);
 recipes.remove(<enderutilities:handybag:1>);
+recipes.remove(<crazyae:perfect_interface>)
 recipes.removeByRecipeName("biomesoplenty:amber_block");
 recipes.removeByRecipeName("biomesoplenty:amber");
 recipes.removeByRecipeName("betterendforge:amber_block");
@@ -485,7 +486,7 @@ RecipeUtil.addShaped("stone_6", <storagedrawers:produce_stone:5>, [
 ]);
 RecipeUtil.addShaped("ender_1", <storagedrawers:ender_linker>, [
     [null, null, null],
-    [null, <modularrouters:module:7>.withTag({ModuleFilter: [], Flags: 13 as byte}), null],
+    [<botania:lens:18>.withTag({}), <minecraft:ender_chest>, <botania:lens:18>.withTag({})],
     [null, null, null]
 ]);
 RecipeUtil.addShaped("ender_2", <storagedrawers:ender_linker:1>, [
