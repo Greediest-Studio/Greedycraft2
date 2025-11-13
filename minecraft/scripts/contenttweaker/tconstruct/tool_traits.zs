@@ -4264,7 +4264,7 @@ rift_recoveryTrait.calcDamage = function(trait, tool, attacker, target, original
 rift_recoveryTrait.extraInfo = function(trait, tool, data) {
     if (!isNull(tool.tag.riftRecovery)) {
         var point as int = tool.tag.riftRecovery as int;
-        return ["裂痕能量：" + point as string] as string[];
+        return ["裂痕能量: " + point as string] as string[];
     }
     return [] as string[];
 };
