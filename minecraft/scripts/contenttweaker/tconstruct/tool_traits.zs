@@ -52,6 +52,11 @@ import mods.nuclearcraft.RadiationScrubber;
 import mods.ctintegration.scalinghealth.DifficultyManager;
 
 import native.slimeknights.tconstruct.library.utils.ToolHelper;
+import native.thebetweenlands.common.world.storage.BetweenlandsWorldStorage;
+import native.thebetweenlands.common.world.event.EventRift;
+import native.thebetweenlands.api.capability.IDecayCapability;
+import native.thebetweenlands.common.capability.decay.DecayStats;
+import native.thebetweenlands.common.registries.CapabilityRegistry;
 
 $expand IItemStack$hasTicTrait(traitid as string) as bool {
     return CotTicTraitLib.hasTicTrait(this, traitid);
@@ -1035,16 +1040,14 @@ foglightTrait.color = Color.fromHex("ffffff").getIntColor();
 foglightTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.foglightTrait.name");
 foglightTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.foglightTrait.desc");
 foglightTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected){
-      if (owner instanceof IEntityLivingBase) {
-        val player as IPlayer = owner;//\u6240\u6709\u5DE5\u5177\u57FA\u672C\u90FD\u9700\u8981\u58F0\u660E\u5BF9\u8C61\uFF0C
-        if (isSelected){
-              if (player.getDimension() == 69){
-                if(player.getY() < 80 ){
-                        player.addPotionEffect(<potion:minecraft:haste>.makePotionEffect(99, 2, false, false));
-                }
+    if (owner instanceof IEntityLivingBase) {
+        val player as IPlayer = owner;
+        if (isSelected) {
+            if (player.getY() < 60){
+                player.addPotionEffect(<potion:minecraft:haste>.makePotionEffect(99, 2, false, false));
+            }
         }
-        }
-      }
+    }
 };
 foglightTrait.register();
 
@@ -4203,7 +4206,7 @@ wight_rejectionTrait.calcDamage = function(trait, tool, attacker, target, origin
         var counter as int = 0;
         for entity in world.getEntitiesInArea(player.position.north(7).east(7).up(7), player.position.south(7).west(7).down(7)) {
             if (!isNull(entity.definition)) {
-                if (entity.definition.id == "thebetweenlands:wight") {
+                if (entity.definition.id has "wight") {
                     var entityLivingBase as IEntityLivingBase = entity;
                     entityLivingBase.revengeTarget = target;
                     counter += 1;
@@ -4231,3 +4234,38 @@ calamityTrait.calcDamage = function(trait, tool, attacker, target, originalDamag
     return newDamage;
 };
 calamityTrait.register();
+
+val rift_recoveryTrait = TraitBuilder.create("rift_recovery");
+rift_recoveryTrait.color = Color.fromHex("ffffff").getIntColor(); 
+rift_recoveryTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.rift_recoveryTrait.name");
+rift_recoveryTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.rift_recoveryTrait.desc");
+rift_recoveryTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        var world as IWorld = player.world;
+        if (world.dimension == 20 && BetweenlandsWorldStorage.forWorld(world.native).getEnvironmentEventRegistry().rift.isActive()) {
+            if (!isNull(player.native.getCapability(CapabilityRegistry.CAPABILITY_DECAY, null))) {
+                var cap as IDecayCapability = player.native.getCapability(CapabilityRegistry.CAPABILITY_DECAY, null);
+                var decayLevel as int = cap.getDecayStats().getDecayLevel() as int;
+                if (decayLevel >= 15) {
+                    var addition as int = (Math.random() * 3.0f + 1.0f) as int;
+                    if (!isNull(tool.tag.riftRecovery)) {
+                        var currentPoint as int = tool.tag.riftRecovery as int;
+                        tool.mutable().updateTag({riftRecovery : currentPoint + addition as int});
+                    } else {
+                        tool.mutable().updateTag({riftRecovery : addition as int});
+                    }
+                }
+            }
+        }
+    }
+    return newDamage;
+};
+rift_recoveryTrait.extraInfo = function(trait, tool, data) {
+    if (!isNull(tool.tag.riftRecovery)) {
+        var point as int = tool.tag.riftRecovery as int;
+        return ["裂痕能量: " + point as string] as string[];
+    }
+    return [] as string[];
+};
+rift_recoveryTrait.register();

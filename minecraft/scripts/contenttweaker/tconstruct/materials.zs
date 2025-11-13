@@ -2217,7 +2217,22 @@ betwnite.localizedName = game.localize("greedycraft.tconstruct.material.betwnite
 betwnite.addHeadMaterialStats(36000,22,83,12);
 betwnite.addHandleMaterialStats(1.7,7000);
 betwnite.addExtraMaterialStats(9000);
+betwnite.addBowMaterialStats(getDrawSpeed(2.45) as float, 3.9, 81);
 betwnite.register();
+
+val izumium = mods.contenttweaker.tconstruct.MaterialBuilder.create("izumium");
+izumium.color = Color.fromHex("02ccff").getIntColor();
+izumium.craftable = false;
+izumium.castable = true;
+izumium.representativeItem = <item:additions:izumium_ingot>;
+izumium.addItem(<item:additions:izumium_ingot>);
+izumium.liquid = <liquid:izumium>;
+izumium.localizedName = game.localize("greedycraft.tconstruct.material.izumium.name");
+izumium.addHeadMaterialStats(4000,20.5,159,11);
+izumium.addHandleMaterialStats(2.1,2000);
+izumium.addExtraMaterialStats(2500);
+izumium.addBowMaterialStats(getDrawSpeed(1.9) as float, 2.5, 112);
+izumium.register();
 
 val slimy_bone = mods.contenttweaker.tconstruct.MaterialBuilder.create("slimy_bone");
 slimy_bone.color = Color.fromHex("c1c183").getIntColor();

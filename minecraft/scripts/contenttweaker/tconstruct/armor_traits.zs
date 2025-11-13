@@ -812,10 +812,8 @@ foglightTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.
 foglightTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.foglightTrait.desc");
 foglightTrait.onAbility = function(trait, level, world, player) {
     if (!isNull(player)) {
-        if (player.getDimension() == 69){
-                if(player.getY() < 100 ){
-                        player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(99, 1, false, false));
-                }
+        if(player.getY() < 40 ){
+            player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(99, 1, false, false));
         }
     }
 };
@@ -3475,3 +3473,39 @@ hachimi_roarTrait.onArmorTick = function(trait, armor, world, player) {
     }
 };
 hachimi_roarTrait.register();
+
+val wight_absorptionTrait = ArmorTraitBuilder.create("wight_absorption");
+wight_absorptionTrait.color = Color.fromHex("ffffff").getIntColor();
+wight_absorptionTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.wight_absorptionTrait.name");
+wight_absorptionTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.wight_absorptionTrait.desc");
+wight_absorptionTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !isNull(source.getTrueSource())) {
+        if (!(source.getTrueSource() instanceof IPlayer)) {
+            var entity as IEntityLivingBase = source.getTrueSource();
+            if (entity.definition.id has "wight") {
+                evt.cancel();
+                return 0.0f;
+            }
+        }
+    }
+    return newDamage;
+};
+wight_absorptionTrait.register();
+
+val calamityTrait = ArmorTraitBuilder.create("calamity");
+calamityTrait.color = Color.fromHex("ffffff").getIntColor();
+calamityTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.calamityTrait.name");
+calamityTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.calamityTrait.desc");
+calamityTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !isNull(source.getTrueSource())) {
+        if (source.getTrueSource() instanceof IEntityLivingBase) {
+            var entity as IEntityLivingBase = source.getTrueSource();
+            if (Math.random() < 0.8f) {
+                entity.addPotionEffect(<potion:potioncore:curse>.makePotionEffect(1, 0, false, false));
+                return newDamage * 0.95f;
+            }
+        }
+    }
+    return newDamage;
+};
+calamityTrait.register();
