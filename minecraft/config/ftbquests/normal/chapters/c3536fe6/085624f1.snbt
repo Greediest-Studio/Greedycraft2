@@ -1,0 +1,24 @@
+{
+	title: "§b合成炫钢融合机集成控制器",
+	x: 14.0d,
+	y: 2.5d,
+	description: "合成炫钢融合机集成控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"030d6cdf"
+	],
+	tasks: [{
+		uid: "da8371be",
+		type: "item",
+		items: [{
+			item: "modularmachinery:chromasteel_forge_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "fee91b7f",
+		type: "choice",
+		table: 1
+	}]
+}

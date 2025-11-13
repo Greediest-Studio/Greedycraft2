@@ -1,0 +1,21 @@
+{
+	title: "§b终于到这一步了吗",
+	x: -8.25d,
+	y: 1.5d,
+	description: "合成终焉融合机控制器",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "3ece81b9",
+		type: "item",
+		items: [{
+			item: "modularmachinery:final_forge_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "f6ceb06e",
+		type: "choice",
+		table: 6
+	}]
+}

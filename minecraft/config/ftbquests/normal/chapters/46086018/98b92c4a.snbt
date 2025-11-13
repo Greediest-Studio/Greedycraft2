@@ -1,0 +1,32 @@
+{
+	title: "§b合成基础装配室集成控制器",
+	x: 3.5d,
+	y: -24.0d,
+	description: "合成基础装配室集成控制器",
+	text: [
+		"装配室是你制作各种模块化机械的基础",
+		"有且只有装配室需要蓝图",
+		"关于模块化的基础教程和一键搭建见百科全书"
+	],
+	dependencies: [
+		"33937ece"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "6a5a6629",
+		type: "item",
+		items: [{
+			item: "modularmachinery:builder_1_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "4ec2039d",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	}]
+}

@@ -1,13 +1,13 @@
 {
 	title: "§b天气邪眼",
 	x: -12.0d,
-	y: -2.0d,
+	y: -1.0d,
 	description: "使用天气之息召唤并击杀天气之眼",
 	text: [
 		""
 	],
 	dependencies: [
-		"ecc95796"
+		"63002ec9"
 	],
 	tasks: [{
 		uid: "114478d6",

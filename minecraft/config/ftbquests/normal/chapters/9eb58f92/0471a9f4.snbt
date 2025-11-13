@@ -1,0 +1,24 @@
+{
+	title: "§b会串配方吗（笑",
+	x: -24.5d,
+	y: -4.0d,
+	description: "合成反应单元集成控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"ef65449f"
+	],
+	tasks: [{
+		uid: "de942a38",
+		type: "item",
+		items: [{
+			item: "modularmachinery:elysia_reactor_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "27cdcc12",
+		type: "choice",
+		table: 2
+	}]
+}

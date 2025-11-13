@@ -1,0 +1,24 @@
+{
+	title: "§b寰宇融合机控制器",
+	x: -9.0d,
+	y: -2.25d,
+	description: "合成寰宇融合剂控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"b0417eb0"
+	],
+	tasks: [{
+		uid: "94b9db47",
+		type: "item",
+		items: [{
+			item: "modularmachinery:cosmic_forge_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "9b089359",
+		type: "choice",
+		table: 2
+	}]
+}

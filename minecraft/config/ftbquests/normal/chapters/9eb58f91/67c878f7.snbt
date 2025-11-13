@@ -1,0 +1,24 @@
+{
+	title: "§b最最好用的合金炉",
+	x: 14.0d,
+	y: 4.5d,
+	description: "合成合金单元集成控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"159d49f4"
+	],
+	tasks: [{
+		uid: "a6867473",
+		type: "item",
+		items: [{
+			item: "modularmachinery:elysia_alloyer_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "089480e5",
+		type: "choice",
+		table: 2
+	}]
+}

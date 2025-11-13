@@ -1,0 +1,24 @@
+{
+	title: "§b梅开三度",
+	x: -15.0d,
+	y: -2.75d,
+	description: "合成精英合成台",
+	text: [
+		""
+	],
+	dependencies: [
+		"7cc4bc76"
+	],
+	tasks: [{
+		uid: "69b21c06",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_elite"
+		}]
+	}],
+	rewards: [{
+		uid: "44ff760f",
+		type: "choice",
+		table: 2
+	}]
+}

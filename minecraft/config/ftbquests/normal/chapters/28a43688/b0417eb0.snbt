@@ -1,0 +1,21 @@
+{
+	title: "§b炫光装配室",
+	x: -7.0d,
+	y: -3.5d,
+	description: "合成炫光装配室",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "3de691b9",
+		type: "item",
+		items: [{
+			item: "modularmachinery:builder_4_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "e01dcf8a",
+		type: "choice",
+		table: 2
+	}]
+}

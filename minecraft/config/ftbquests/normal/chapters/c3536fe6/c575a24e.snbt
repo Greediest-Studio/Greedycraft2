@@ -1,13 +1,13 @@
 {
 	title: "§b雷霆之巅",
 	x: -11.0d,
-	y: -2.0d,
+	y: -1.0d,
 	description: "使用雷暴之眼召唤并击杀西风雷鸣云",
 	text: [
 		"忠告：不要离它太近！"
 	],
 	dependencies: [
-		"ecc95796"
+		"63002ec9"
 	],
 	tasks: [{
 		uid: "d16c4152",

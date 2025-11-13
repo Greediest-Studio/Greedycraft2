@@ -1,0 +1,24 @@
+{
+	title: "§b这个结构有点麻烦呢",
+	x: -24.0d,
+	y: 1.5d,
+	description: "合成大型冷凝单元集成控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"3ca7f1fb"
+	],
+	tasks: [{
+		uid: "7ac309b0",
+		type: "item",
+		items: [{
+			item: "modularmachinery:elysia_solidifier_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "eea5a111",
+		type: "choice",
+		table: 2
+	}]
+}

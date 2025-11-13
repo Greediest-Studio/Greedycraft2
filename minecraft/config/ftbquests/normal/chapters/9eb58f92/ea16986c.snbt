@@ -1,0 +1,24 @@
+{
+	title: "§b更快的电解机",
+	x: -22.5d,
+	y: -6.0d,
+	description: "合成大型电解单元集成控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"cedd98db"
+	],
+	tasks: [{
+		uid: "9f7abdcd",
+		type: "item",
+		items: [{
+			item: "modularmachinery:elysia_electrolyzer_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "a940a65a",
+		type: "choice",
+		table: 1
+	}]
+}

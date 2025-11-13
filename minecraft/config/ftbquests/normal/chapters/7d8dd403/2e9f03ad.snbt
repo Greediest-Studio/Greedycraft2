@@ -1,0 +1,30 @@
+{
+	title: "§b合成恒钢融合机集成控制器",
+	x: 8.0d,
+	y: 4.5d,
+	description: "合成恒钢融合机集成控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"7d572f6a",
+		"89ff4eb4"
+	],
+	tasks: [{
+		uid: "639706e9",
+		type: "item",
+		items: [{
+			item: "modularmachinery:aeonsteel_forge_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "56b0d971",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	}]
+}

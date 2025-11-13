@@ -1,6 +1,6 @@
 {
 	title: "§b为时未晚",
-	x: -9.75d,
+	x: -10.5d,
 	y: 1.5d,
 	shape: "gear",
 	description: "合成终焉锭！",
@@ -10,7 +10,8 @@
 	dependencies: [
 		"68abcc25",
 		"702fcf51",
-		"1bb24144"
+		"1bb24144",
+		"1051bf76"
 	],
 	size: 1.5d,
 	tasks: [{

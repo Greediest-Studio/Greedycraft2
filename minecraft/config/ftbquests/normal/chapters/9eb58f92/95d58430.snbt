@@ -1,0 +1,24 @@
+{
+	title: "§b也许你需要两个",
+	x: -18.5d,
+	y: -6.0d,
+	description: "合成大型铸造单元",
+	text: [
+		""
+	],
+	dependencies: [
+		"9912a930"
+	],
+	tasks: [{
+		uid: "58869f87",
+		type: "item",
+		items: [{
+			item: "modularmachinery:elysia_forger_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "e704e6e7",
+		type: "choice",
+		table: 2
+	}]
+}

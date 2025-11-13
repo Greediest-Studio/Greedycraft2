@@ -1,0 +1,24 @@
+{
+	title: "§b转啊转啊转",
+	x: -20.5d,
+	y: -7.0d,
+	description: "合成大型离心单元集成控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"91253a96"
+	],
+	tasks: [{
+		uid: "ccf74c17",
+		type: "item",
+		items: [{
+			item: "modularmachinery:elysia_centrifuge_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "183cafe8",
+		type: "choice",
+		table: 2
+	}]
+}

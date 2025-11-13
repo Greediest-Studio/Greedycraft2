@@ -1,0 +1,24 @@
+{
+	title: "§b你的聚变有救了",
+	x: -15.5d,
+	y: -6.0d,
+	description: "合成大型中子活化集成控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"558807ac"
+	],
+	tasks: [{
+		uid: "593aee6d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:neutron_activator_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "d3135dab",
+		type: "choice",
+		table: 2
+	}]
+}

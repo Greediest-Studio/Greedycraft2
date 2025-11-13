@@ -1,0 +1,24 @@
+{
+	title: "§b铸造祭坛",
+	x: -10.5d,
+	y: -3.0d,
+	description: "合成铸造祭坛",
+	text: [
+		""
+	],
+	dependencies: [
+		"ecc95796"
+	],
+	tasks: [{
+		uid: "7ea8aea0",
+		type: "item",
+		items: [{
+			item: "zensummoning:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "985ce6f0",
+		type: "choice",
+		table: 0
+	}]
+}

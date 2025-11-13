@@ -1,0 +1,29 @@
+{
+	title: "§b合成耐钢融合机集成控制器",
+	x: 3.5d,
+	y: -26.0d,
+	description: "合成耐钢融合机集成控制器",
+	text: [
+		"耐钢JEI配方中只有前八位必须输入，其他都为催化剂"
+	],
+	dependencies: [
+		"98b92c4a"
+	],
+	tasks: [{
+		uid: "f87f98f6",
+		type: "item",
+		items: [{
+			item: "modularmachinery:durasteel_forge_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "c3f14479",
+		type: "item",
+		item: {
+			id: "ftbquests:lootcrate",
+			tag: {
+				type: "loot_level_2"
+			}
+		}
+	}]
+}

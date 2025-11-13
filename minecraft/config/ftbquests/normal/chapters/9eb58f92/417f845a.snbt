@@ -1,0 +1,24 @@
+{
+	title: "§b相信你会爱上他的！",
+	x: -26.5d,
+	y: -6.0d,
+	description: "合成气体离心机集成控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"02c8a87a"
+	],
+	tasks: [{
+		uid: "7c3251b3",
+		type: "item",
+		items: [{
+			item: "modularmachinery:gas_centrifuge_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "8321e689",
+		type: "choice",
+		table: 1
+	}]
+}

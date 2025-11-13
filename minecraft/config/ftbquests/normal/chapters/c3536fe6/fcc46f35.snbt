@@ -1,13 +1,13 @@
 {
 	title: "§b暴风雪的守护者",
 	x: -9.0d,
-	y: -2.0d,
+	y: -1.0d,
 	description: "使用巨兽之手召唤并击杀冰霜巨口",
 	text: [
 		""
 	],
 	dependencies: [
-		"ecc95796"
+		"63002ec9"
 	],
 	tasks: [{
 		uid: "463032f7",
