@@ -1035,16 +1035,14 @@ foglightTrait.color = Color.fromHex("ffffff").getIntColor();
 foglightTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.foglightTrait.name");
 foglightTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.foglightTrait.desc");
 foglightTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected){
-      if (owner instanceof IEntityLivingBase) {
-        val player as IPlayer = owner;//\u6240\u6709\u5DE5\u5177\u57FA\u672C\u90FD\u9700\u8981\u58F0\u660E\u5BF9\u8C61\uFF0C
-        if (isSelected){
-              if (player.getDimension() == 69){
-                if(player.getY() < 80 ){
-                        player.addPotionEffect(<potion:minecraft:haste>.makePotionEffect(99, 2, false, false));
-                }
+    if (owner instanceof IEntityLivingBase) {
+        val player as IPlayer = owner;
+        if (isSelected) {
+            if (player.getY() < 60){
+                player.addPotionEffect(<potion:minecraft:haste>.makePotionEffect(99, 2, false, false));
+            }
         }
-        }
-      }
+    }
 };
 foglightTrait.register();
 
@@ -4203,7 +4201,7 @@ wight_rejectionTrait.calcDamage = function(trait, tool, attacker, target, origin
         var counter as int = 0;
         for entity in world.getEntitiesInArea(player.position.north(7).east(7).up(7), player.position.south(7).west(7).down(7)) {
             if (!isNull(entity.definition)) {
-                if (entity.definition.id == "thebetweenlands:wight") {
+                if (entity.definition.id has "wight") {
                     var entityLivingBase as IEntityLivingBase = entity;
                     entityLivingBase.revengeTarget = target;
                     counter += 1;
