@@ -52,6 +52,11 @@ import mods.nuclearcraft.RadiationScrubber;
 import mods.ctintegration.scalinghealth.DifficultyManager;
 
 import native.slimeknights.tconstruct.library.utils.ToolHelper;
+import native.thebetweenlands.common.world.storage.BetweenlandsWorldStorage;
+import native.thebetweenlands.common.world.event.EventRift;
+import native.thebetweenlands.api.capability.IDecayCapability;
+import native.thebetweenlands.common.capability.decay.DecayStats;
+import native.thebetweenlands.common.registries.CapabilityRegistry;
 
 $expand IItemStack$hasTicTrait(traitid as string) as bool {
     return CotTicTraitLib.hasTicTrait(this, traitid);
@@ -4229,3 +4234,38 @@ calamityTrait.calcDamage = function(trait, tool, attacker, target, originalDamag
     return newDamage;
 };
 calamityTrait.register();
+
+val rift_recoveryTrait = TraitBuilder.create("rift_recovery");
+rift_recoveryTrait.color = Color.fromHex("ffffff").getIntColor(); 
+rift_recoveryTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.rift_recoveryTrait.name");
+rift_recoveryTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.rift_recoveryTrait.desc");
+rift_recoveryTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        var world as IWorld = player.world;
+        if (world.dimension == 20 && BetweenlandsWorldStorage.forWorld(world.native).getEnvironmentEventRegistry().rift.isActive()) {
+            if (!isNull(player.native.getCapability(CapabilityRegistry.CAPABILITY_DECAY, null))) {
+                var cap as IDecayCapability = player.native.getCapability(CapabilityRegistry.CAPABILITY_DECAY, null);
+                var decayLevel as int = cap.getDecayStats().getDecayLevel() as int;
+                if (decayLevel >= 15) {
+                    var addition as int = (Math.random() * 3.0f + 1.0f) as int;
+                    if (!isNull(tool.tag.riftRecovery)) {
+                        var currentPoint as int = tool.tag.riftRecovery as int;
+                        tool.mutable().updateTag({riftRecovery : currentPoint + addition as int});
+                    } else {
+                        tool.mutable().updateTag({riftRecovery : addition as int});
+                    }
+                }
+            }
+        }
+    }
+    return newDamage;
+};
+rift_recoveryTrait.extraInfo = function(trait, tool, data) {
+    if (!isNull(tool.tag.riftRecovery)) {
+        var point as int = tool.tag.riftRecovery as int;
+        return ["裂痕能量：" + point as string] as string[];
+    }
+    return [] as string[];
+};
+rift_recoveryTrait.register();
