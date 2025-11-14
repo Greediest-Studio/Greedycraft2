@@ -3509,3 +3509,19 @@ calamityTrait.onHurt = function(trait, armor, player, source, damage, newDamage,
     return newDamage;
 };
 calamityTrait.register();
+
+val broken_armorTrait = ArmorTraitBuilder.create("broken_armor");
+broken_armorTrait.color = Color.fromHex("ffffff").getIntColor();
+broken_armorTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.broken_armorTrait.name");
+broken_armorTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.broken_armorTrait.desc");
+broken_armorTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        if (source.damageType == "MAGIC") {
+            return newDamage * 0.5f;
+        } else if (source.damageType == "GENERIC") {
+            return newDamage * 2.0f;
+        }
+    }
+    return newDamage;
+};
+broken_armorTrait.register();

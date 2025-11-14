@@ -30,6 +30,7 @@ import crafttweaker.world.IBlockAccess;
 import crafttweaker.command.ICommand;
 import crafttweaker.item.IItemStack;
 import crafttweaker.world.IWorld;
+import crafttweaker.liquid.ILiquidDefinition;
 
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
@@ -201,6 +202,27 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
                         }).start();
                     } else {
                         player.sendStatusMessage("§c坐标不匹配或维度错误！");
+                    }
+                }
+            }
+        }
+    }
+    //Tconstruct Rift Recovery Trait
+    if (!isNull(event.block.fluid) && !event.world.remote && event.hand == "MAIN_HAND") {
+        if (!isNull(player.mainHandHeldItem)) {
+            if (TicLib.isTicTool(player.mainHandHeldItem)) {
+                var tool as IItemStack = player.mainHandHeldItem;
+                var fluid as ILiquidDefinition = event.block.fluid;
+                var pos as IBlockPos = event.position;
+                if (TicTraitLib.hasTicTrait(tool, "rift_recovery") && fluid.name has "swamp_water") {
+                    if (!isNull(tool.tag.riftRecovery)) {
+                        var point as int = tool.tag.riftRecovery as int;
+                        if (point >= 100) {
+                            tool.mutable().updateTag({riftRecovery : point - 100 as int});
+                            player.world.setBlockState(<blockstate:moretcon:mummysludge>, pos);
+                        } else {
+                            player.sendStatusMessage("§c你的工具没有足够的裂痕能量来转化！你只有" ~ point as string ~ "点能量！");
+                        }
                     }
                 }
             }

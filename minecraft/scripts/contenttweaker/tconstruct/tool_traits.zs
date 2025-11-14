@@ -4269,3 +4269,23 @@ rift_recoveryTrait.extraInfo = function(trait, tool, data) {
     return [] as string[];
 };
 rift_recoveryTrait.register();
+
+val octibladeTrait = TraitBuilder.create("octiblade");
+octibladeTrait.color = Color.fromHex("ffffff").getIntColor(); 
+octibladeTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.octibladeTrait.name");
+octibladeTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.octibladeTrait.desc");
+octibladeTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer && target instanceof IEntityLivingBase) {
+        var player as IPlayer = attacker;
+        var entity as IEntityLivingBase = target;
+        if (!isNull(player.native.getCapability(CapabilityRegistry.CAPABILITY_DECAY, null))) {
+            var cap as IDecayCapability = player.native.getCapability(CapabilityRegistry.CAPABILITY_DECAY, null);
+            var decayLevel as int = cap.getDecayStats().getDecayLevel() as int;
+            entity.attackEntityFrom(IDamageSource.createEntityDamage("FIRE", player), newDamage * (decayLevel as float / 100.0f) as float * 3.0f);
+            return newDamage * (1.0f - (decayLevel as float / 100.0f) as float) as float;
+        }
+    }
+    return newDamage;
+};
+octibladeTrait.register();
+
