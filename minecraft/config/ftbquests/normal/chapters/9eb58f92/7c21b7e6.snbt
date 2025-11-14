@@ -1,0 +1,30 @@
+{
+	title: "§b液化promax",
+	x: -0.5d,
+	y: 5.0d,
+	description: "合成大型液化单元集成控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"ac4dcc2a"
+	],
+	tasks: [{
+		uid: "d2d508a1",
+		type: "item",
+		items: [{
+			item: "modularmachinery:elysia_liquefier_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5b84c72b",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "ca04d4d9",
+		type: "xp",
+		xp: 1000
+	}]
+}

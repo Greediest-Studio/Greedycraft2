@@ -15,7 +15,8 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:aeonsteel_forge_factory_controller"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "56b0d971",

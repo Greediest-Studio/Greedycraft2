@@ -14,11 +14,12 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:elysia_reactor_factory_controller"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "27cdcc12",
-		type: "choice",
+		uid: "8cbfe643",
+		type: "random",
 		table: 2
 	}]
 }

@@ -1,0 +1,25 @@
+{
+	title: "§b试试放固相工厂顶上",
+	x: 3.5d,
+	y: 0.5d,
+	description: "合成化学液相工厂集成控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"00914ae3"
+	],
+	tasks: [{
+		uid: "7d573138",
+		type: "item",
+		items: [{
+			item: "modularmachinery:factory_5x_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9ae27ef2",
+		type: "random",
+		table: 2
+	}]
+}

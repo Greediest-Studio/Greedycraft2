@@ -1,0 +1,34 @@
+{
+	title: "§b虚无飘渺",
+	x: -5.0d,
+	y: 10.5d,
+	description: "合成虚化合金",
+	text: [
+		""
+	],
+	dependencies: [
+		"a9fb61df"
+	],
+	tasks: [{
+		uid: "53d5a67c",
+		type: "item",
+		items: [{
+			item: "additions:imitate_alloy"
+		}]
+	}],
+	rewards: [{
+		uid: "1b00972f",
+		type: "item",
+		item: "additions:imitate_alloy"
+	},
+	{
+		uid: "8a5474b6",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "a8b9b62e",
+		type: "random",
+		table: 2
+	}]
+}

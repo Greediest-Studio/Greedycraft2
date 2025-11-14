@@ -1,0 +1,29 @@
+{
+	title: "§b同纬度最好选择！",
+	x: -9.5d,
+	y: -7.5d,
+	description: "合成无线接入器",
+	text: [
+		""
+	],
+	dependencies: [
+		"29b1605b"
+	],
+	tasks: [{
+		uid: "b99fec51",
+		type: "item",
+		items: [{
+			item: "ae2stuff:wireless"
+		}]
+	}],
+	rewards: [{
+		uid: "d9797b5d",
+		type: "item",
+		item: "ae2stuff:wireless"
+	},
+	{
+		uid: "b0c58235",
+		type: "xp",
+		xp: 400
+	}]
+}

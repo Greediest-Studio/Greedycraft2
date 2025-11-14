@@ -1,0 +1,30 @@
+{
+	title: "§b血魔法自动化的一部分",
+	x: -5.5d,
+	y: -2.5d,
+	description: "合成扩展狱火熔炉集成控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"154afd91"
+	],
+	tasks: [{
+		uid: "71e91e70",
+		type: "item",
+		items: [{
+			item: "modularmachinery:auto_soul_forge_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f7d2c8b9",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "76e74c8c",
+		type: "xp",
+		xp: 1000
+	}]
+}

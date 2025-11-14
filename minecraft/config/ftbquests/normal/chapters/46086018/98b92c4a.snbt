@@ -17,7 +17,8 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:builder_1_factory_controller"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "4ec2039d",

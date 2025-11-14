@@ -1,0 +1,30 @@
+{
+	title: "§b深渊精华凝聚于此",
+	x: -16.0d,
+	y: 0.0d,
+	description: "合成位能收集器集成控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"f59b99f6"
+	],
+	tasks: [{
+		uid: "8f5c195f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:pe_collector_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cec6879e",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "b038d836",
+		type: "xp",
+		xp: 1000
+	}]
+}

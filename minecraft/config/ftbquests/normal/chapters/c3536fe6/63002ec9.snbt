@@ -1,5 +1,5 @@
 {
-	title: "§b铸造祭坛",
+	title: "§b条件有些苛刻呢",
 	x: -10.5d,
 	y: -3.0d,
 	description: "合成铸造祭坛",
@@ -17,8 +17,8 @@
 		}]
 	}],
 	rewards: [{
-		uid: "985ce6f0",
-		type: "choice",
+		uid: "137bc98b",
+		type: "random",
 		table: 0
 	}]
 }

@@ -1,0 +1,29 @@
+{
+	title: "§b跨纬度最好选择！",
+	x: -9.5d,
+	y: -5.5d,
+	description: "合成无限收发器",
+	text: [
+		"耗电貌似有点高"
+	],
+	dependencies: [
+		"29b1605b"
+	],
+	tasks: [{
+		uid: "ce1aa417",
+		type: "item",
+		items: [{
+			item: "ymadditions:network_hub"
+		}]
+	}],
+	rewards: [{
+		uid: "d4a50faa",
+		type: "item",
+		item: "ymadditions:network_hub"
+	},
+	{
+		uid: "14488041",
+		type: "xp",
+		xp: 500
+	}]
+}

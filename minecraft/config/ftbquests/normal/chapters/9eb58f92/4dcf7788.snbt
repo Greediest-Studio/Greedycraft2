@@ -14,11 +14,12 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:elysia_solidifier_factory_controller"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "eea5a111",
-		type: "choice",
+		uid: "485bedbd",
+		type: "random",
 		table: 2
 	}]
 }

@@ -1,0 +1,30 @@
+{
+	title: "§b注魔的终极解决方案",
+	x: -2.5d,
+	y: 6.0d,
+	description: "合成机械注魔矩阵集成控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"9ff5607a"
+	],
+	tasks: [{
+		uid: "3a15a776",
+		type: "item",
+		items: [{
+			item: "modularmachinery:arcane_matrix_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8b1b700f",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "614d21db",
+		type: "xp",
+		xp: 5000
+	}]
+}

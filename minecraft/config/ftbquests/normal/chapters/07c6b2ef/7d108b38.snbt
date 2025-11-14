@@ -1,0 +1,30 @@
+{
+	title: "§b也许是种地的终极解决方案？",
+	x: -21.0d,
+	y: -19.25d,
+	description: "合成有机灌注机集成控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"26355b4d"
+	],
+	tasks: [{
+		uid: "ce01c013",
+		type: "item",
+		items: [{
+			item: "modularmachinery:organic_infuser_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7fa15a8a",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "fe323c0d",
+		type: "xp",
+		xp: 1000
+	}]
+}

@@ -14,11 +14,12 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:cosmic_forge_factory_controller"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "9b089359",
-		type: "choice",
+		uid: "03c1d2dc",
+		type: "random",
 		table: 2
 	}]
 }

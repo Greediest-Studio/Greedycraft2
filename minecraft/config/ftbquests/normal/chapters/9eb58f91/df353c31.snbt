@@ -1,0 +1,29 @@
+{
+	title: "§b不好用又离不开",
+	x: -9.25d,
+	y: 2.0d,
+	description: "合成高级压印器",
+	text: [
+		"逃不开的，做高级处理器要用"
+	],
+	dependencies: [
+		"ddad20c5"
+	],
+	tasks: [{
+		uid: "83779322",
+		type: "item",
+		items: [{
+			item: "ae2stuff:inscriber"
+		}]
+	}],
+	rewards: [{
+		uid: "a801903b",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "9db27d57",
+		type: "xp",
+		xp: 500
+	}]
+}
