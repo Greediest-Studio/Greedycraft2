@@ -1,6 +1,6 @@
 {
 	title: "§b没有更快的了",
-	x: 17.5d,
+	x: 16.0d,
 	y: 0.0d,
 	description: "合成粉碎单元集成控制器",
 	text: [
@@ -14,11 +14,13 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:elysia_crusher_factory_controller"
-		}]
+		}],
+		ignore_nbt: 1b,
+		only_from_crafting: 0b
 	}],
 	rewards: [{
-		uid: "f3bc63b2",
-		type: "choice",
+		uid: "a9eb6767",
+		type: "random",
 		table: 2
 	}]
 }

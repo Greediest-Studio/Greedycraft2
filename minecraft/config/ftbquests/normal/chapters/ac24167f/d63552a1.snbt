@@ -1,0 +1,30 @@
+{
+	title: "§b聚集天地精华之花",
+	x: 8.5d,
+	y: 4.0d,
+	description: "合成灵气聚合台集成控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"91c0e726"
+	],
+	tasks: [{
+		uid: "3712cdc5",
+		type: "item",
+		items: [{
+			item: "modularmachinery:aura_crafter_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "263049dc",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "93bcec98",
+		type: "xp",
+		xp: 2000
+	}]
+}

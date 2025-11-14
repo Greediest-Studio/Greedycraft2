@@ -14,11 +14,12 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:elysia_electrolyzer_factory_controller"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "a940a65a",
-		type: "choice",
+		uid: "c8c8313d",
+		type: "random",
 		table: 1
 	}]
 }

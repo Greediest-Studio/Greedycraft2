@@ -14,11 +14,17 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:elysia_alloyer_factory_controller"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "089480e5",
-		type: "choice",
+		uid: "1dae8f82",
+		type: "random",
 		table: 2
+	},
+	{
+		uid: "b427a426",
+		type: "xp",
+		xp: 1000
 	}]
 }

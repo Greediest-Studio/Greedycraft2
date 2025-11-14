@@ -14,11 +14,12 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:elysia_forger_factory_controller"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "e704e6e7",
-		type: "choice",
+		uid: "81197a4c",
+		type: "random",
 		table: 2
 	}]
 }

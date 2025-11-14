@@ -1,0 +1,25 @@
+{
+	title: "§b虚空挖矿？",
+	x: -8.0d,
+	y: 15.5d,
+	description: "合成基础采掘机集成控制器",
+	text: [
+		"有关采掘机的更多信息详见百科全书"
+	],
+	dependencies: [
+		"d52f425b"
+	],
+	tasks: [{
+		uid: "08e6ba96",
+		type: "item",
+		items: [{
+			item: "modularmachinery:basic_miner_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ed10ee89",
+		type: "random",
+		table: 2
+	}]
+}

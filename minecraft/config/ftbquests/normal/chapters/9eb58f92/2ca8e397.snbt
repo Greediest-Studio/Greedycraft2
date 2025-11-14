@@ -1,0 +1,30 @@
+{
+	title: "§b汽化promax",
+	x: -0.5d,
+	y: 3.0d,
+	description: "合成大型汽化单元集成控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"ac4dcc2a"
+	],
+	tasks: [{
+		uid: "2e0a10cb",
+		type: "item",
+		items: [{
+			item: "modularmachinery:elysia_vaporizer_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6afbc08a",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "1f88b01d",
+		type: "xp",
+		xp: 1000
+	}]
+}

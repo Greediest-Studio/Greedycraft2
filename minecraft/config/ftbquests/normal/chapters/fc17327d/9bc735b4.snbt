@@ -1,0 +1,27 @@
+{
+	title: "§b终于不是哥布林刷怪笼了",
+	x: -4.0d,
+	y: 9.5d,
+	description: "观测一个天启祭坛",
+	text: [
+		"在终焉城堡的顶端平台上生成"
+	],
+	dependencies: [
+		"f77b7bff",
+		"d136297d"
+	],
+	tasks: [{
+		uid: "7efe7ab1",
+		type: "observation",
+		title: "天启祭坛",
+		icon: "gct_mobs:apocalypse_altar",
+		match_type: "block_id",
+		match: "gct_mobs:apocalypse_altar",
+		timer: 0L
+	}],
+	rewards: [{
+		uid: "a7e058d9",
+		type: "random",
+		table: 0
+	}]
+}

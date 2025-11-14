@@ -1,0 +1,25 @@
+{
+	title: "§b真的很好用呢",
+	x: 1.5d,
+	y: 2.0d,
+	description: "合成化学固相工厂集成控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"e6c96740"
+	],
+	tasks: [{
+		uid: "8fdb6f53",
+		type: "item",
+		items: [{
+			item: "modularmachinery:factory_4x_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "23fbaf69",
+		type: "random",
+		table: 2
+	}]
+}

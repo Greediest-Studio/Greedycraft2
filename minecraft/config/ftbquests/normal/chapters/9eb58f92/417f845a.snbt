@@ -14,11 +14,12 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:gas_centrifuge_factory_controller"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "8321e689",
-		type: "choice",
+		uid: "d9379a8f",
+		type: "random",
 		table: 1
 	}]
 }

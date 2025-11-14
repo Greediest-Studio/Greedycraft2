@@ -14,11 +14,12 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:elysia_centrifuge_factory_controller"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "183cafe8",
-		type: "choice",
+		uid: "5949d8c7",
+		type: "random",
 		table: 2
 	}]
 }

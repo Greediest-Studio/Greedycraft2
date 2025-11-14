@@ -1,14 +1,13 @@
 {
 	title: "§b进击终焉城堡！",
-	x: -4.0d,
+	x: -2.0d,
 	y: 9.5d,
 	description: "制作天启符文",
 	text: [
 		""
 	],
 	dependencies: [
-		"f77b7bff",
-		"d136297d"
+		"9bc735b4"
 	],
 	tasks: [{
 		uid: "f33923d6",

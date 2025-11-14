@@ -1,0 +1,26 @@
+{
+	title: "§b五倍矿救星！",
+	x: 5.0d,
+	y: 6.0d,
+	description: "合成气体升级",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "8ea2900d",
+		type: "item",
+		items: [{
+			item: "mekanism:gasupgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "3d929728",
+		type: "item",
+		item: "mekanism:gasupgrade"
+	},
+	{
+		uid: "5013d9ea",
+		type: "xp",
+		xp: 250
+	}]
+}

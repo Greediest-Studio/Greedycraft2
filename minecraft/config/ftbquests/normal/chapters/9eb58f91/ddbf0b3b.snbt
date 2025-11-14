@@ -1,0 +1,30 @@
+{
+	title: "§b好烧",
+	x: 16.0d,
+	y: 3.0d,
+	description: "合成大型冶炼单元集成控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"159d49f4"
+	],
+	tasks: [{
+		uid: "b36807cd",
+		type: "item",
+		items: [{
+			item: "modularmachinery:elysia_smelter_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c8346df8",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "0b9c1c98",
+		type: "xp",
+		xp: 2000
+	}]
+}

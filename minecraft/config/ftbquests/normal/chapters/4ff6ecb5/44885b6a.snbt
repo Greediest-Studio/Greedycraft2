@@ -1,0 +1,30 @@
+{
+	title: "§b好快！",
+	x: 2.0d,
+	y: -6.0d,
+	description: "合成源质升华炉集成控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"ac1955d7"
+	],
+	tasks: [{
+		uid: "262d4d29",
+		type: "item",
+		items: [{
+			item: "modularmachinery:arcane_melter_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "21eb1f66",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "5d9bbd09",
+		type: "xp",
+		xp: 1000
+	}]
+}

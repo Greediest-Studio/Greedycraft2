@@ -1,0 +1,31 @@
+{
+	title: "§b早晚得做",
+	x: -7.5d,
+	y: -0.5d,
+	description: "合成血之祭坛集成控制器",
+	text: [
+		"有关具体使用方式见百科全书"
+	],
+	dependencies: [
+		"30e20165"
+	],
+	tasks: [{
+		uid: "93ecffdd",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blood_altar_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6dc62577",
+		type: "item",
+		item: "bloodmagic:blood_rune",
+		count: 3
+	},
+	{
+		uid: "af1d52cd",
+		type: "xp",
+		xp: 1000
+	}]
+}

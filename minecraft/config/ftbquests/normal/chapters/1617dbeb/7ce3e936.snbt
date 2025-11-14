@@ -1,0 +1,19 @@
+{
+	title: "§b后面真没了",
+	x: 2.0d,
+	y: -6.0d,
+	description: "合成无极精华",
+	text: [
+		""
+	],
+	dependencies: [
+		"b28757be"
+	],
+	tasks: [{
+		uid: "21906237",
+		type: "item",
+		items: [{
+			item: "additions:nonenium_essence"
+		}]
+	}]
+}

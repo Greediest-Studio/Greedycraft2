@@ -1,6 +1,6 @@
 {
 	title: "§b我什么都做的到",
-	x: -19.0d,
+	x: -20.0d,
 	y: -6.5d,
 	dependencies: [
 		"a1f776af",
@@ -8,6 +8,7 @@
 		"43d7922a",
 		"b364c083"
 	],
+	dependency_requirement: "one_completed",
 	tasks: [{
 		uid: "c423fc77",
 		type: "item",

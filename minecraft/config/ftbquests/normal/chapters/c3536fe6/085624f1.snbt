@@ -14,11 +14,12 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:chromasteel_forge_factory_controller"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "fee91b7f",
-		type: "choice",
+		uid: "295b92a4",
+		type: "random",
 		table: 1
 	}]
 }

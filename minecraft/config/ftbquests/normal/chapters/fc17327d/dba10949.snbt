@@ -1,10 +1,10 @@
 {
 	title: "§b这东西是怎么形成的？",
-	x: -8.0d,
+	x: -4.0d,
 	y: 15.5d,
 	description: "获得一块炽铁矿石",
 	dependencies: [
-		"d52f425b"
+		"33fc72d2"
 	],
 	tasks: [{
 		uid: "53f444f6",

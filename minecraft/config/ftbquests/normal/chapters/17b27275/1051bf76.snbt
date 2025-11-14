@@ -11,11 +11,12 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:final_forge_factory_controller"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "f6ceb06e",
-		type: "choice",
-		table: 6
+		uid: "fa473b5b",
+		type: "random",
+		table: 3
 	}]
 }

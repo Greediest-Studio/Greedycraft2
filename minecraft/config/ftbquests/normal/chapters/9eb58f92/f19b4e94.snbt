@@ -1,0 +1,31 @@
+{
+	title: "§b自动挖掘！",
+	x: 0.5d,
+	y: 8.0d,
+	description: "合成坠星天矛集成控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"f7337221",
+		"cc7103ba"
+	],
+	tasks: [{
+		uid: "20eefab2",
+		type: "item",
+		items: [{
+			item: "modularmachinery:fallen_star_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1fcb15ac",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "0f792393",
+		type: "xp",
+		xp: 2500
+	}]
+}

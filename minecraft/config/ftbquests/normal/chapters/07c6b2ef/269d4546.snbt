@@ -1,0 +1,30 @@
+{
+	title: "§b熔岩炉+++",
+	x: -17.0d,
+	y: -15.0d,
+	description: "合成大型融化单元集成控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"d9fa327e"
+	],
+	tasks: [{
+		uid: "fa646c36",
+		type: "item",
+		items: [{
+			item: "modularmachinery:elysia_melter_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6da8ee5c",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "03eaed0f",
+		type: "xp",
+		xp: 1000
+	}]
+}

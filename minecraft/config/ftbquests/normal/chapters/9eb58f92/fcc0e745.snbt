@@ -1,0 +1,35 @@
+{
+	title: "§b和做梦一样",
+	x: -8.0d,
+	y: 12.5d,
+	description: "和合成梦幻控制电路",
+	text: [
+		""
+	],
+	dependencies: [
+		"e729c90e",
+		"5bbe4f2d"
+	],
+	tasks: [{
+		uid: "1c19eca8",
+		type: "item",
+		items: [{
+			item: "additions:dreamic_control_circuit"
+		}]
+	}],
+	rewards: [{
+		uid: "ed3ea3a7",
+		type: "item",
+		item: "additions:dreamic_control_circuit"
+	},
+	{
+		uid: "bde7074d",
+		type: "xp",
+		xp: 3000
+	},
+	{
+		uid: "62f12378",
+		type: "random",
+		table: 1
+	}]
+}

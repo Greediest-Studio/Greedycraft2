@@ -11,11 +11,12 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:builder_4_factory_controller"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "e01dcf8a",
-		type: "choice",
+		uid: "a2c6b973",
+		type: "random",
 		table: 2
 	}]
 }
