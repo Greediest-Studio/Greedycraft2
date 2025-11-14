@@ -2234,6 +2234,20 @@ izumium.addExtraMaterialStats(2500);
 izumium.addBowMaterialStats(getDrawSpeed(1.9) as float, 2.5, 112);
 izumium.register();
 
+val decatine = mods.contenttweaker.tconstruct.MaterialBuilder.create("decatine");
+decatine.color = Color.fromHex("3a2e0b").getIntColor();
+decatine.craftable = false;
+decatine.castable = true;
+decatine.representativeItem = <item:additions:decatine_ingot>;
+decatine.addItem(<item:additions:decatine_ingot>);
+decatine.liquid = <liquid:decatine>;
+decatine.localizedName = game.localize("greedycraft.tconstruct.material.decatine.name");
+decatine.addHeadMaterialStats(4800,18.75,59,10);
+decatine.addHandleMaterialStats(1.9,1800);
+decatine.addExtraMaterialStats(2200);
+decatine.addBowMaterialStats(getDrawSpeed(2.15) as float, 2.7, 64);
+decatine.register();
+
 val slimy_bone = mods.contenttweaker.tconstruct.MaterialBuilder.create("slimy_bone");
 slimy_bone.color = Color.fromHex("c1c183").getIntColor();
 slimy_bone.craftable = true;
