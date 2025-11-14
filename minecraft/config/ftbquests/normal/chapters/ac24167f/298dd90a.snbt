@@ -1,8 +1,11 @@
 {
-	title: "§b感应到大地的力量",
+	title: "§b地缚祭坛：感应",
 	x: 3.5d,
 	y: 6.0d,
 	description: "获得地缚感应核心",
+	text: [
+		""
+	],
 	dependencies: [
 		"e1041d61"
 	],

@@ -1,8 +1,11 @@
 {
-	title: "§b提取大地的力量为自己使用",
+	title: "§b地缚祭坛：提取",
 	x: 4.5d,
 	y: 4.0d,
 	description: "获得地缚祭坛",
+	text: [
+		""
+	],
 	dependencies: [
 		"956cbb61"
 	],

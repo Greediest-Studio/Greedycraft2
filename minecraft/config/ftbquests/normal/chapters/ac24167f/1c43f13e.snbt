@@ -1,8 +1,11 @@
 {
-	title: "§b蕴含了灵气的铁锭",
+	title: "§b为什么它不叫注灵铁",
 	x: -1.5d,
 	y: 2.0d,
 	description: "获得灌注铁锭",
+	text: [
+		""
+	],
 	dependencies: [
 		"aa265353"
 	],

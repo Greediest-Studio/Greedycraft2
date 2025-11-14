@@ -1,8 +1,11 @@
 {
-	title: "§b黑暗能捕抓到吗？",
+	title: "§b并非暗物质",
 	x: -7.0d,
 	y: -2.5d,
 	description: "获得瓶装黑暗",
+	text: [
+		""
+	],
 	dependencies: [
 		"c22401e6"
 	],

@@ -1,8 +1,11 @@
 {
-	title: "§b汇聚了七种情绪的徽章",
+	title: "§b七情六欲",
 	x: -5.5d,
 	y: 4.0d,
 	description: "获得情绪徽章",
+	text: [
+		""
+	],
 	dependencies: [
 		"5908adab"
 	],

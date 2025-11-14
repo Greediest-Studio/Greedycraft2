@@ -1,8 +1,11 @@
 {
-	title: "§b提取大地的力量的仪器",
+	title: "§b地缚祭坛：接收",
 	x: 5.5d,
 	y: 6.0d,
 	description: "获得地缚接收器",
+	text: [
+		""
+	],
 	dependencies: [
 		"e1041d61"
 	],

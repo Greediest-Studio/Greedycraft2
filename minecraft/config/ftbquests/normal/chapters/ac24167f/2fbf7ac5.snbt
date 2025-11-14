@@ -1,8 +1,11 @@
 {
-	title: "§b蕴含了天空的力量",
+	title: "§b天空蕴养",
 	x: 2.5d,
 	y: 2.0d,
 	description: "获得天空之锭",
+	text: [
+		""
+	],
 	dependencies: [
 		"cb4f437b",
 		"1999aa8a"

@@ -1,8 +1,11 @@
 {
-	title: "§b汇聚了魔力和灵气的产物",
+	title: "§b魔灵交织",
 	x: 4.5d,
 	y: 2.0d,
 	description: "获得神圣钢锭",
+	text: [
+		""
+	],
 	dependencies: [
 		"2fbf7ac5"
 	],
