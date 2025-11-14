@@ -55,7 +55,7 @@ events.onPlayerInteractEntity(function(event as PlayerInteractEntityEvent) {
         var target as IEntityLivingBase = event.target;
         if (!isNull(player.mainHandHeldItem)) {
             var item as IItemStack = player.mainHandHeldItem;
-            if (item.definition.id == "additions:titanium_ingot" && target.definition.id == "thebetweenlands:spirit_tree_face_large") {
+            if (item.definition.id == "additions:titanium_ingot" && target.definition.id == "thebetweenlands:spirit_tree_face_large" && player.hasGameStage("final")) {
                 item.mutable().shrink(1);
                 if (Math.random() < 0.3) {
                     target.attackEntityFrom(IDamageSource.createEntityDamage("MAGIC", player), 200);

@@ -35,6 +35,13 @@ worldguard.badEffectIn = false;
 worldguard.beneficial = true;
 worldguard.register();
 
+var malevolence_catalyst as IPotion = VanillaFactory.createPotion("malevolence_catalyst", 0xFFFFFF);
+malevolence_catalyst.shouldRender = false;
+malevolence_catalyst.shouldRenderHUD = false;
+malevolence_catalyst.badEffectIn = false;
+malevolence_catalyst.beneficial = true;
+malevolence_catalyst.register();
+
 var blood as IPotion = VanillaFactory.createPotion("blood", 0x820000);
 blood.shouldRender = false;
 blood.shouldRenderHUD = false;

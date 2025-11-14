@@ -28,6 +28,7 @@ upgrade.level.10=无尽
 
 effect.contenttweaker.pure=纯净
 effect.contenttweaker.worldguard=天地守护
+effect.contenttweaker.malevolence_catalyst=恶意催化
 
 component.missing.gugu-utils:aspect.input=缺少源质输入仓！
 component.missing.gugu-utils:aspect.output=缺少源质输出仓！
@@ -400,6 +401,8 @@ greedycraft.tconstruct.material.zirconium.name=锆
 greedycraft.tconstruct.material.rose_gold.name=玫瑰金
 greedycraft.tconstruct.material.izumium.name=伊斯镁
 greedycraft.tconstruct.material.decatine.name=残痕铁
+greedycraft.tconstruct.material.soultine.name=魂灵钛
+greedycraft.tconstruct.material.malevolencite.name=恶意钢
 #护甲词条
 greedycraft.tconstruct.armor_trait.wolf_roarTrait.name=月啸
 greedycraft.tconstruct.armor_trait.wolf_roarTrait.desc=§o满月时分……\n§r在满月时增加少量防御。
@@ -768,7 +771,11 @@ greedycraft.tconstruct.armor_trait.calamityTrait.name=灾厄
 greedycraft.tconstruct.armor_trait.calamityTrait.desc=§o灾难降临！\n§r受到攻击时有大概率给予敌人随机负面效果。
 greedycraft.tconstruct.armor_trait.broken_armorTrait.name=残甲
 greedycraft.tconstruct.armor_trait.broken_armorTrait.desc=§o怪异的护甲！\n§r减少50%的魔法伤害，增加100%的物理伤害。
+greedycraft.tconstruct.armor_trait.malevolence_catalystTrait.name=恶意催化
+greedycraft.tconstruct.armor_trait.malevolence_catalystTrait.desc=§o恶意的源头！\n§r提升恶意钢锭的转化效率……
 #工具词条
+greedycraft.tconstruct.tool_trait.spikyTrait.name=荆棘穿刺
+greedycraft.tconstruct.tool_trait.spikyTrait.desc=§o刺穿一切！\n§r在目标的脚下召唤荆棘突刺。
 greedycraft.tconstruct.tool_trait.rift_recoveryTrait.name=抱残守缺
 greedycraft.tconstruct.tool_trait.rift_recoveryTrait.desc=§o以天眼修复！\n§r玩家在处于“天眼”状态下的交错次元攻击生物时会积攒“裂痕能量”，“裂痕能量”可以在玩家处于低残蚀值水平时将沼泽水转化为木乃伊黏液！
 greedycraft.tconstruct.tool_trait.octibladeTrait.name=焦刃

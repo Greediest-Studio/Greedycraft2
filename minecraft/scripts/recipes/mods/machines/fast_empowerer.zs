@@ -128,6 +128,15 @@ RecipeBuilder.newBuilder("upgrade_end" , "empowerer" , "40")
     .addItemOutput(<additions:upgrade_dim_end> * 1)
     .build();
 
+RecipeBuilder.newBuilder("bauble_horseshoe_balloon" , "empowerer" , "40")
+    .addItemInput(<minecraft:string> * 1)
+    .addItemInput(<bountifulbaubles:trinketballoon> * 1)
+    .addItemInput(<bountifulbaubles:trinketluckyhorseshoe> * 1)
+    .addItemInput(<minecraft:slime_ball> * 2)
+    .addEnergyPerTickInput(100000)
+    .addItemOutput(<contenttweaker:bauble_horseshoe_balloon> * 1)
+    .build();
+
 MMEvents.onControllerGUIRender("empowerer", function(event as ControllerGUIRenderEvent) {
     var info as string[] = [
         "§a///快速充能台控制面板///",

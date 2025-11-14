@@ -3525,3 +3525,14 @@ broken_armorTrait.onHurt = function(trait, armor, player, source, damage, newDam
     return newDamage;
 };
 broken_armorTrait.register();
+
+val malevolence_catalystTrait = ArmorTraitBuilder.create("malevolence_catalyst");
+malevolence_catalystTrait.color = Color.fromHex("ffffff").getIntColor();
+malevolence_catalystTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.malevolence_catalystTrait.name");
+malevolence_catalystTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.malevolence_catalystTrait.desc");
+malevolence_catalystTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        player.addPotionEffect(<potion:contenttweaker:malevolence_catalyst>.makePotionEffect(20, 0, false, false));
+    }
+};
+malevolence_catalystTrait.register();

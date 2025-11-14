@@ -4289,3 +4289,18 @@ octibladeTrait.calcDamage = function(trait, tool, attacker, target, originalDama
 };
 octibladeTrait.register();
 
+val spikyTrait = TraitBuilder.create("spiky");
+spikyTrait.color = Color.fromHex("ffffff").getIntColor(); 
+spikyTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.spikyTrait.name");
+spikyTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.spikyTrait.desc");
+spikyTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        var position as IBlockPos = target.position;
+        var world as IWorld = player.world;
+        if (Math.random() < 0.15f) {
+            <entity:db:hiero_spike>.spawnEntity(world, position.down(1));
+        }
+    }   
+};
+spikyTrait.register();

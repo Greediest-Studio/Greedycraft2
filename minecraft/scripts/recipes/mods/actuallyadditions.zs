@@ -27,3 +27,4 @@ Empowerer.addRecipe(<additions:ebony_and_lvory>, <draconicevolution:wyvern_core>
 Empowerer.addRecipe(<additions:upgrade_dim_overworld>, <additions:upgrade_blank>, <additions:conduct_gear>, <additions:stainless_steel_block>, <additions:lock_of_space>, <draconicevolution:draconic_core>, 131072, 200);
 Empowerer.addRecipe(<additions:upgrade_dim_nether>, <additions:upgrade_blank>, <journey:blazierorb>, <additions:netherite_block>, <additions:lock_of_space>, <draconicevolution:draconic_core>, 131072, 200);
 Empowerer.addRecipe(<additions:upgrade_dim_end>, <additions:upgrade_blank>, <divinerpg:horde_horn>,<additions:enderite_block>, <additions:lock_of_space>, <draconicevolution:draconic_core>, 131072, 200);
+Empowerer.addRecipe(<contenttweaker:bauble_horseshoe_balloon>, <minecraft:string>, <bountifulbaubles:trinketballoon>, <minecraft:slime_ball>, <bountifulbaubles:trinketluckyhorseshoe>, <minecraft:slime_ball>, 65536, 100);
