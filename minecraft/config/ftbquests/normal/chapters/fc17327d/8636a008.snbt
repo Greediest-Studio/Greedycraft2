@@ -51,7 +51,49 @@
 	{
 		uid: "e6b4296a",
 		type: "item",
-		item: "enderutilities:nullifier"
+		item: {
+			id: "enderutilities:nullifier",
+			tag: {
+				UUID: {
+					UUIDM: -8731754018962650794L,
+					UUIDL: -7773394204670608869L
+				},
+				Items: [{
+					id: "minecraft:cobblestone",
+					Count: 1,
+					Damage: 0s,
+					Slot: 0b
+				},
+				{
+					id: "minecraft:stone",
+					Count: 1,
+					Damage: 1s,
+					Slot: 1b
+				},
+				{
+					id: "minecraft:stone",
+					Count: 1,
+					Damage: 5s,
+					Slot: 2b
+				},
+				{
+					id: "minecraft:stone",
+					Count: 1,
+					Damage: 3s,
+					Slot: 3b
+				},
+				{
+					id: "minecraft:gravel",
+					Count: 1,
+					Damage: 0s,
+					Slot: 4b
+				}],
+				Nullifier: {
+					Slot: 8b,
+					Disabled: 0b
+				}
+			}
+		}
 	},
 	{
 		uid: "5d528324",

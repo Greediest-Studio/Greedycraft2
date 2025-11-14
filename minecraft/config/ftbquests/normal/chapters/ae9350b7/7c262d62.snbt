@@ -5,21 +5,22 @@
 	],
 	x: 6.0d,
 	y: 12.0d,
-	description: "制作一个维度箱子",
+	description: "制作一个末影箱子",
 	text: [
-		"可以无线传输物品的箱子，谁不爱呢?"
+		"可以无线传输物品的箱子，谁不爱呢?",
+		"我去打赢复活赛了"
 	],
 	tasks: [{
 		uid: "49fccd27",
 		type: "item",
 		items: [{
-			item: "dimstorage:dimensional_chest"
+			item: "enderstorage:ender_storage"
 		}]
 	}],
 	rewards: [{
 		uid: "0431d7cc",
 		type: "item",
-		item: "dimstorage:dimensional_chest"
+		item: "enderstorage:ender_storage"
 	},
 	{
 		uid: "b0f14e9c",
