@@ -444,3 +444,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <enderutilities:handybag:1>, [
 	[<ore:itemLeather>, <ore:chest>, <enderutilities:enderpart:21>, <ore:chest>, <ore:itemLeather>], 
 	[null, <ore:itemLeather>, <ore:ingotEnderium>, <ore:itemLeather>, null]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:eco_basic_alloy_ingot> * 2, [
+	[null, null, null, null, null], 
+	[<ore:ingotCrystallineAlloy>, <ore:ingotManasteel>, <ore:ingotCrystallineAlloy>, <ore:ingotManasteel>, <ore:ingotCrystallineAlloy>], 
+	[<ore:ingotIron>, <ore:ingotGold>, <ore:ingotCopper>, <ore:ingotTin>, <ore:ingotOsmium>], 
+	[<ore:ingotCrystallineAlloy>, <ore:ingotDraconium>, <ore:ingotCrystallineAlloy>, <ore:ingotDraconium>, <ore:ingotCrystallineAlloy>], 
+	[null, null, null, null, null]
+]);

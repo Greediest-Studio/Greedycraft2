@@ -214,3 +214,34 @@ RecipeBuilder.newBuilder("grind_culture", "elysia_grinder", 100)
     .addEnergyPerTickInput(2000)
     .addFluidOutput(<liquid:culture_medium> * 180)
     .build();
+
+RecipeBuilder.newBuilder("grind_scientificite", "elysia_grinder", 100)
+    .addFluidInputs([
+        <liquid:hydrochloric_acid> * 375,
+        <liquid:sulfuric_acid> * 375,
+        <liquid:nitric_acid> * 375,
+        <liquid:palladium_fluid> * 729,
+        <liquid:ruthenium> * 243,
+        <liquid:rhodium> * 243,
+        <liquid:balanced_matrix> * 54
+    ])
+    .addRecipeTooltip("§d搅拌配方支持模块化电容升级，详情请查询“模块化电容”")
+    .addEnergyPerTickInput(2000)
+    .addFluidOutput(<liquid:scientificite> * 162)
+    .build();
+
+RecipeBuilder.newBuilder("grind_eco_basic_alloy", "elysia_grinder", 100)
+    .addFluidInputs([
+        <liquid:crystalline_alloy> * 432,
+        <liquid:draconium> * 144,
+        <liquid:manasteel> * 144,
+        <liquid:osmium> * 72,
+        <liquid:gold> * 72,
+        <liquid:iron> * 72,
+        <liquid:copper> * 72,
+        <liquid:tin> * 72
+    ])
+    .addRecipeTooltip("§d搅拌配方支持模块化电容升级，详情请查询“模块化电容”")
+    .addEnergyPerTickInput(2000)
+    .addFluidOutput(<liquid:eco_basic_alloy> * 216)
+    .build();

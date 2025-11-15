@@ -111,6 +111,7 @@ AlloySmelter.addRecipe(<tiths:ingot_royal_alloy> * 3, [<ore:ingotIron> * 2, <ore
 AlloySmelter.addRecipe(<tconstruct:ingots:4> * 6, [<ore:ingotIron> * 6, <ore:itemClay> * 3, <ore:slimeballBlood>], 6000, 15.0f);
 AlloySmelter.addRecipe(<plustic:alumiteingot> * 3, [<ore:ingotAluminum> * 5, <ore:ingotIron> * 2, <ore:obsidian>], 6000, 10.0f);
 AlloySmelter.addRecipe(<tiths:ingot_magiga>, [<ore:ingotManyullyn>, <ore:ingotIron>, <ore:ingotGold>], 4000, 10.0f);
+AlloySmelter.addRecipe(<additions:blue_alloy_ingot> * 6, [<ore:ingotEcoBasicAlloy>, <ore:ingotCrystallineAlloy> * 8, <ore:ingotPlatinum> * 12], 20000, 80.0f);
 
 SagMill.removeRecipe(<minecraft:coal>);
 SagMill.addRecipe([<actuallyadditions:item_dust:7> * 4], [100 as float], <ore:blockQuartzBlack> as IIngredient, "CHANCE_ONLY", 400, [100 as float]);

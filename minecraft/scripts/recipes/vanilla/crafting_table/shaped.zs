@@ -1581,7 +1581,7 @@ RecipeUtil.addShaped("estorage_vent", <ecoaeextension:estorage_vent>, [
 ]);
 RecipeUtil.addShaped("estorage_casing", <ecoaeextension:estorage_casing>, [
     [null, <minecraft:quartz_block>, null],
-    [<minecraft:quartz_block>, <additions:stainless_steel_block>, <minecraft:quartz_block>],
+    [<minecraft:quartz_block>, <ore:blockEcoBasicAlloy>, <minecraft:quartz_block>],
     [null, <minecraft:quartz_block>, null]
 ]);
 RecipeUtil.addShaped("estorage_cell_item_16m", <ecoaeextension:estorage_cell_item_16m>, [

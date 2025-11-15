@@ -128,9 +128,9 @@ RecipeUtil.addShaped("ecalculator_transmitter_bus", <ecoaeextension:ecalculator_
     [<ecoaeextension:ecalculator_casing>, <ecoaeextension:ecalculator_casing>, <ecoaeextension:ecalculator_casing>]
 ]);
 RecipeUtil.addShaped("ecalculator_casing", <ecoaeextension:ecalculator_casing>, [
-    [<additions:stainless_steel_ingot>, <minecraft:concrete>, <additions:stainless_steel_ingot>],
+    [<ore:ingotEcoBasicAlloy>, <minecraft:concrete>, <ore:ingotEcoBasicAlloy>],
     [<minecraft:concrete>, <minecraft:concrete>, <minecraft:concrete>],
-    [<additions:stainless_steel_ingot>, <minecraft:concrete>, <additions:stainless_steel_ingot>]
+    [<ore:ingotEcoBasicAlloy>, <minecraft:concrete>, <ore:ingotEcoBasicAlloy>]
 ]);
 RecipeUtil.addShaped("ecalculator_cell_64m", <ecoaeextension:ecalculator_cell_64m>, [
     [null, <ecoaeextension:ecalculator_casing>, null],

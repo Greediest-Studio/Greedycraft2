@@ -1338,7 +1338,13 @@ GameStagesUtil.stageWitherSlayer.addIngredients([
     <additions:logic_circuit_printed_2>,
     <ore:ingotDeusiotium>,
     <ore:blockDeusiotium>,
-    <ore:nuggetDeusiotium>
+    <ore:nuggetDeusiotium>,
+    <ore:ingotEcoBasicAlloy>,
+    <ore:blockEcoBasicAlloy>,
+    <ore:nuggetEcoBasicAlloy>,
+    <ore:ingotBlueAlloy>,
+    <ore:blockBlueAlloy>,
+    <ore:nuggetBlueAlloy>
 ], true);
 
 GameStagesUtil.stageGaiaDeleter.addIngredients([
@@ -2125,8 +2131,7 @@ GameStagesUtil.stageSkilledWizard.addModId(["naturesaura", "naturesdestruction",
 GameStagesUtil.stageMasterWizard.addModId(["thaumicenergistics"]);
 GameStagesUtil.stageNoobEngineer.addModId(["thermaldynamics", "thermalexpansion", "appliedenergistics2", "ae2wut", "ae_chisel", "ae2exttable", "extendedae", "threng"]);
 GameStagesUtil.stageNoviceEngineer.addModId(["enderio"]);
-GameStagesUtil.stageWyvern.addModId(["blue_skies"]);
-GameStagesUtil.stageChaoticDominator.addModId(["extendedcrafting"]);
+GameStagesUtil.stageWyvern.addModId(["blue_skies", "extendedcrafting"]);
 GameStagesUtil.stageGatekeeper.addModId(["gct_aby"]);
 GameStagesUtil.stageEpicEngineer.addModId(["nuclearcraft"]);
 GameStagesUtil.stageBetweenlandTraveller.addModId(["thebetweenlands"]);

@@ -169,6 +169,7 @@ recipe(95 , <tiths:ingot_royal_alloy> * 3, [<ore:ingotIron> * 2, <ore:ingotGold>
 recipe(96 , <tconstruct:ingots:4> * 6, [<ore:ingotIron> * 6, <ore:itemClay> * 3, <ore:slimeballBlood>], 6000, 15.0f);
 recipe(97 , <plustic:alumiteingot> * 3, [<ore:ingotAluminum> * 5, <ore:ingotIron> * 2, <ore:obsidian>], 6000, 10.0f);
 recipe(98 , <tiths:ingot_magiga>, [<ore:ingotManyullyn>, <ore:ingotIron>, <ore:ingotGold>], 4000, 10.0f);
+recipe(99 , <additions:blue_alloy_ingot> * 6, [<ore:ingotEcoBasicAlloy>, <ore:ingotCrystallineAlloy> * 8, <ore:ingotPlatinum> * 12], 4000, 10.0f);
 
 
 recipe(1000 , <nuclearcraft:alloy:2> * 2, [<ore:ingotGraphite> * 2, <ore:gemDiamond> * 1], 8000, 10.0f); 
