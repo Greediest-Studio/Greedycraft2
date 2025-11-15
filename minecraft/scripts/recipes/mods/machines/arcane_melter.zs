@@ -61,10 +61,15 @@ MMEvents.onStructureUpdate("arcane_melter", function(event as MachineStructureUp
         var output = [] as int[];
         var energyInput = [] as int[];
         baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:0>) * 4;
+        baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:5>) * 8;
         baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:1>) * 16;
+        baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:6>) * 32;
         baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:2>) * 64;
+        baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:7>) * 128;
         baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:3>) * 256;
+        baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:8>) * 512;
         baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:4>) * 1024;
+        baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:9>) * 2048;
         data = data.update({baseParallel: baseparallel});
 
         if (ctrl.facing == IFacing.west()) {
