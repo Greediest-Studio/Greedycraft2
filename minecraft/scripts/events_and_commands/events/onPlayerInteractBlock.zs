@@ -52,6 +52,28 @@ import native.java.math.BigInteger;
 
 import scripts.util.key as KeyHelper;
 
+$expand IItemStack$getLevel() as int {
+    if (!(isNull(this.ores) || this.ores.length == 0)) {
+        if (this.ores has <ore:controllerLevel1>) {
+            return 1;
+        } else if (this.ores has <ore:controllerLevel2>) {
+            return 2;
+        } else if (this.ores has <ore:controllerLevel3>) {
+            return 3;
+        } else if (this.ores has <ore:controllerLevel4>) {
+            return 4;
+        } else if (this.ores has <ore:controllerLevel5>) {
+            return 5;
+        } else if (this.ores has <ore:controllerLevel6>) {
+            return 6;
+        } else {
+            return 0;
+        }
+    } else {
+        return 0;
+    }
+}
+
 events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     var player as IPlayer = event.player;
     //Remove the uncrafting table
@@ -224,6 +246,51 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
                             player.sendStatusMessage("§c你的工具没有足够的裂痕能量来转化！你只有" ~ point as string ~ "点能量！");
                         }
                     }
+                }
+            }
+        }
+    }
+    //Tconstruct Flops Core Trait
+    if (!event.world.remote && event.hand == "MAIN_HAND" && event.world.dimension == 0) {
+        if (!isNull(player.mainHandHeldItem)) {
+            if (TicLib.isTicTool(player.mainHandHeldItem)) {
+                var tool as IItemStack = player.mainHandHeldItem;
+                var pos as IBlockPos = event.position;
+                if (TicTraitLib.hasTicTrait(tool, "flops_core") && !isNull(MachineController.getControllerAt(event.world, pos))) {
+                    var controller as IMachineController = MachineController.getControllerAt(event.world, pos);
+                    var controllerBlock as IItemStack = event.world.getBlock(pos).getItem(event.world, pos, event.world.getBlockState(pos));
+                    if (!(isNull(tool.tag.flopMachines) || tool.tag.flopMachines.asList().length == 0)) {
+                        var machineDataList as IData = tool.tag.flopMachines;
+                        for machineData in machineDataList.asList() {
+                            var posData as int[] = machineData.machinePos as int[];
+                            var pass as bool = true;
+                            if (posData[0] == pos.x && posData[1] == pos.y && posData[2] == pos.z) {
+                                player.sendStatusMessage("§c该机器已被绑定！");
+                                pass = false;
+                            }
+                            if (pass) {
+                                var newMachineData as IData = {
+                                    machinePos : [pos.x as int, pos.y as int, pos.z as int] as int[],
+                                    level : controllerBlock.getLevel() as int,
+                                    isWorking : controller.isWorking as bool
+                                };
+                                tool.mutable().updateTag({flopMachines : machineDataList.deepUpdate([newMachineData], MERGE)});
+                                player.sendStatusMessage("§a已绑定位于X:" + pos.x + " Y:" + pos.y + " Z:" + pos.z + "的机器！");
+                            }
+                        }
+                    } else {
+                        var newMachineData as IData = {
+                            machinePos : [pos.x as int, pos.y as int, pos.z as int] as int[],
+                            level : controllerBlock.getLevel() as int,
+                            isWorking : controller.isWorking as bool
+                        };
+                        tool.mutable().updateTag({flopMachines : [newMachineData]});
+                    }
+                    event.cancel();
+                } else if (TicTraitLib.hasTicTrait(tool, "flops_core") && event.block.definition.id == "minecraft:anvil") {
+                    tool.mutable().updateTag({flopMachines : []});
+                    player.sendStatusMessage("§a已清除所有绑定的机器数据！");
+                    event.cancel();
                 }
             }
         }

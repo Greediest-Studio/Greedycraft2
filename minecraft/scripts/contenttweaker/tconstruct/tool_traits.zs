@@ -31,6 +31,7 @@ import crafttweaker.util.Position3f;
 import crafttweaker.event.EntityLivingHealEvent;
 import crafttweaker.potions.IPotion;
 import crafttweaker.potions.IPotionEffect;
+import crafttweaker.oredict.IOreDictEntry;
 
 import mods.ctutils.utils.Math;
 import mods.contenttweaker.tconstruct.Material;
@@ -50,6 +51,10 @@ import mods.zenutils.DataUpdateOperation.BUMP;
 import mods.zenutils.StaticString;
 import mods.nuclearcraft.RadiationScrubber;
 import mods.ctintegration.scalinghealth.DifficultyManager;
+import mods.modularmachinery.MachineController;
+import mods.modularmachinery.IMachineController;
+import mods.jaopca.JAOPCA;
+import mods.jaopca.Material as JAOPCAMaterial;
 
 import native.slimeknights.tconstruct.library.utils.ToolHelper;
 import native.thebetweenlands.common.world.storage.BetweenlandsWorldStorage;
@@ -197,6 +202,57 @@ $expand IMutableItemStack$attemptDamageItemWithEnergy(num as int, player as IPla
                     ToolHelper.breakTool(this.native, player.native);
                 } else {
                     this.attemptDamageItem(num, player);
+                }
+            }
+        }
+    }
+}
+
+$expand IItemStack$getLevel() as int {
+    if (!(isNull(this.ores) || this.ores.length == 0)) {
+        if (this.ores has <ore:controllerLevel1>) {
+            return 1;
+        } else if (this.ores has <ore:controllerLevel2>) {
+            return 2;
+        } else if (this.ores has <ore:controllerLevel3>) {
+            return 3;
+        } else if (this.ores has <ore:controllerLevel4>) {
+            return 4;
+        } else if (this.ores has <ore:controllerLevel5>) {
+            return 5;
+        } else if (this.ores has <ore:controllerLevel6>) {
+            return 6;
+        } else {
+            return 0;
+        }
+    } else {
+        return 0;
+    }
+}
+
+function checkFlops(tool as IItemStack, world as IWorld) as void {
+    if (!isNull(tool.tag.flopMachines)) {
+        var machineDataList as IData = tool.tag.flopMachines;
+        for machineData in machineDataList.asList() {
+            var posData as int[] = machineData.machinePos as int[];
+            var levelData as int = machineData.level as int;
+            var isWorkingData as bool = machineData.isWorking as bool;
+            if (isNull(MachineController.getControllerAt(world, posData[0], posData[1], posData[2]))) {
+                tool.mutable().updateTag({flopMachines : machineDataList.deepUpdate([machineData], REMOVE)});
+            } else {
+                var controller as IMachineController = MachineController.getControllerAt(world, posData[0], posData[1], posData[2]);
+                var pos as IBlockPos = Position3f.create(posData[0] as float, posData[1] as float, posData[2] as float) as IBlockPos;
+                var controllerBlock as IItemStack = world.getBlock(posData[0], posData[1], posData[2]).getItem(world, pos, world.getBlockState(pos));
+                var newToUpdate as IData = {};
+                if (controllerBlock.getLevel() != levelData) {
+                    newToUpdate = newToUpdate.update({level : controllerBlock.getLevel() as int});
+                }
+                if (controller.isWorking != isWorkingData) {
+                    newToUpdate = newToUpdate.update({isWorking : controller.isWorking as bool});
+                }
+                if (newToUpdate.asString() != "{}") {
+                    tool.mutable().updateTag({flopMachines : machineDataList.deepUpdate([machineData], REMOVE)});
+                    tool.mutable().updateTag({flopMachines : machineDataList.deepUpdate([machineData.update(newToUpdate)], MERGE)});
                 }
             }
         }
@@ -1209,7 +1265,7 @@ luxuryTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) 
 luxuryTrait.onBlockHarvestDrops = function(trait, tool, event) {
     val player as IPlayer = event.player;
     if (Math.random() < 0.001) {
-        mods.contenttweaker.Commands.call("give @p minecraft:gold_ingot 1 0", player, player.world, false, true);
+        event.addItem(<item:minecraft:gold_ingot>);
     }
 };
 luxuryTrait.register();
@@ -1495,9 +1551,8 @@ naturalrefinerTrait.color = Color.fromHex("ffffff").getIntColor();
 naturalrefinerTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.naturalrefinerTrait.name");
 naturalrefinerTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.naturalrefinerTrait.desc");
 naturalrefinerTrait.onBlockHarvestDrops = function(trait, tool, event) {
-    if (event.block.definition.id == "gct_mobs:botanical_stone") {
-        mods.contenttweaker.Commands.call("give @p gct_mobs:botanical_soul 1 0", event.player, event.player.world, false, true);
-        event.drops = [];
+    if (!event.silkTouch && event.block.definition.id == "gct_mobs:botanical_stone") {
+        event.drops = [<item:gct_mobs:botanical_soul>];
     }
 };
 naturalrefinerTrait.register();
@@ -2767,9 +2822,8 @@ compressionTrait.color = Color.fromHex("ffffff").getIntColor();
 compressionTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.compressionTrait.name");
 compressionTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.compressionTrait.desc");
 compressionTrait.onBlockHarvestDrops = function(thisTrait, tool, event) {
-    if (event.block.definition.id == "minecraft:coal_ore") {
-        event.dropChance = 0;
-        event.player.give(itemUtils.getItem("minecraft:diamond"));
+    if (!event.silkTouch && event.block.definition.id == "minecraft:coal_ore") {
+        event.drops = [<item:minecraft:diamond>];
     }
 };
 compressionTrait.register();
@@ -2923,9 +2977,8 @@ starlight_refinedTrait.color = Color.fromHex("ffffff").getIntColor();
 starlight_refinedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.starlight_refinedTrait.name");
 starlight_refinedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.starlight_refinedTrait.desc");
 starlight_refinedTrait.onBlockHarvestDrops = function(thisTrait, tool, event) {
-    if (event.block.definition.id == "minecraft:iron_ore") {
-        event.dropChance = 0;
-        event.player.give(itemUtils.getItem("additions:star_metal_ore"));
+    if (!event.silkTouch && event.block.definition.id == "minecraft:iron_ore") {
+        event.drops = [<item:additions:star_metal_ore>];
     }
 };
 starlight_refinedTrait.register();
@@ -4305,3 +4358,123 @@ spikyTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
     }   
 };
 spikyTrait.register();
+
+var machineLevelMap as float[int] = {
+    1 : 0.02f,
+    2 : 0.05f,
+    3 : 0.12f,
+    4 : 0.3f,
+    5 : 0.65f,
+    6 : 1.5f,
+    0 : 0.0f
+};
+
+var machineFlopMap as int[int] = {
+    1 : 1,
+    2 : 2,
+    3 : 4,
+    4 : 8,
+    5 : 16,
+    6 : 32,
+    0 : 0
+};
+
+val flops_coreTrait = TraitBuilder.create("flops_core");
+flops_coreTrait.color = Color.fromHex("ffffff").getIntColor(); 
+flops_coreTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.flops_coreTrait.name");
+flops_coreTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.flops_coreTrait.desc");
+flops_coreTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    if (owner instanceof IPlayer) {
+        var durability as int = ToolHelper.getMaxDurability(tool.native);
+        var flops as int = (Math.log10(durability as double) * 10.0d) as int;
+        tool.mutable().updateTag({flopsMax : flops as int});
+        if (world.time % 200 == 0 && world.dimension == 0) {
+            checkFlops(tool, world);
+        } else if (world.time % 200 == 100) {
+            if (!isNull(tool.tag.flopMachines)) {
+                var MachineDataList as IData = tool.tag.flopMachines;
+                var modifier as float = 1.0f;
+                var flop as int = 0;
+                for MachineData in MachineDataList.asList() {
+                    var machineLevel as int = MachineData.level as int;
+                    var isWorking as bool = MachineData.isWorking as bool;
+                    if (isWorking) {
+                        modifier += (machineLevelMap[machineLevel] as float * 2.0f) as float;
+                    } else {
+                        modifier += (machineLevelMap[machineLevel] as float) as float;
+                    }
+                    flop += machineFlopMap[machineLevel] as int;
+                }
+                tool.mutable().updateTag({flopsCurrent : flop as int, flopsModifier : modifier as float});
+            }
+        }
+    }
+};
+flops_coreTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (!isNull(tool.tag.flopsCurrent) && !isNull(tool.tag.flopsMax) && !isNull(tool.tag.flopsModifier)) {
+            var currentFlops as int = tool.tag.flopsCurrent as int;
+            var maxFlops as int = tool.tag.flopsMax as int;
+            var modifier as float = tool.tag.flopsModifier as float;
+            if (currentFlops <= maxFlops) {
+                return newDamage * (modifier * 0.75f) as float;
+            } else {
+                player.sendStatusMessage("§c算力溢出！");
+                return 0.0f;
+            }
+        }
+    }
+    return newDamage;
+};
+flops_coreTrait.extraInfo = function(trait, tool, data) {
+    var result as string[] = [];
+    if (!isNull(tool.tag.flopsCurrent) && !isNull(tool.tag.flopsMax) && !isNull(tool.tag.flopsModifier)) {
+        var currentFlops as int = tool.tag.flopsCurrent as int;
+        var maxFlops as int = tool.tag.flopsMax as int;
+        var modifier as float = tool.tag.flopsModifier as float;
+        result += "算力已用: §" + (currentFlops <= maxFlops ? "a" : "c") + currentFlops + " §3TFlops";
+        result += "算力总量: §a" + maxFlops + " §3TFlops";
+        result += "当前倍率: §a" + (modifier * 0.75f);
+    } else {
+        result += "算力已用: §a0 §3TFlops";
+        result += "算力总量: §a0 §3TFlops";
+        result += "当前倍率: §a0.5";
+    }
+    return result;
+};
+flops_coreTrait.register();
+
+val alcrystryTrait = TraitBuilder.create("alcrystry");
+alcrystryTrait.color = Color.fromHex("ffffff").getIntColor(); 
+alcrystryTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.alcrystryTrait.name");
+alcrystryTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.alcrystryTrait.desc");
+alcrystryTrait.onBlockHarvestDrops = function(thisTrait, tool, event) {
+    if (!event.silkTouch && !(isNull(event.drops) || event.drops.length == 0)) {
+        var block as IBlock = event.block;
+        if (!isNull(itemUtils.getItem(block.definition.id, block.meta))) {
+            var blockItemmed as IItemStack = itemUtils.getItem(block.definition.id, block.meta);
+            if (!(isNull(blockItemmed.ores) || blockItemmed.ores.length == 0)) {
+                var oreDicts as IOreDictEntry[] = blockItemmed.ores;
+                for oreDict in oreDicts {
+                    if (oreDict.name.startsWith("ore")) {
+                        var oreName as string = oreDict.name.substring(3);
+                        if (!isNull(JAOPCA.getMaterial(oreName))) {
+                            var material as JAOPCAMaterial = JAOPCA.getMaterial(oreName);
+                            if (!isNull(material.getItemStack("ingot"))) {
+                                event.drops = [material.getItemStack("ingot", 2 + (Math.random() > 0.5f ? 1 : 0) as int)];
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+};
+alcrystryTrait.canApplyTogetherTrait = function(thisTrait, otherTrait) {
+    if (otherTrait == "autosmelt") {
+        return false;
+    }
+    return true;
+};
+alcrystryTrait.register();

@@ -15,6 +15,8 @@ import mods.mekanism.purification;
 import mods.mekanism.separator;
 import mods.mekanism.GasConversion;
 import mods.mekanism.reaction;
+import mods.mekanism.chemical.oxidizer as chemicalOxidizer;
+import mods.mekanism.chemical.infuser as chemicalInfuser;
 
 GasConversion.register(<liquid:nitrogen>, <gas:nitrogen>);
 GasConversion.register(<liquid:helium>, <gas:helium>);
@@ -54,18 +56,18 @@ purification.addRecipe(<ore:dustBarite>, <gas:oxygen>, <additions:barium_sulfate
 
 separator.addRecipe(<liquid:brine> * 4, 640, <gas:chlorine> * 1, <gas:sodiumhydroxide> * 2);
 
-mods.mekanism.chemical.oxidizer.addRecipe(<minecraft:coal>, <gas:carbonoxide> * 50);
-mods.mekanism.chemical.oxidizer.addRecipe(<minecraft:coal_block>, <gas:carbonoxide> * 450);
-mods.mekanism.chemical.oxidizer.addRecipe(<minecraft:coal:1>, <gas:carbonoxide> * 50);
-mods.mekanism.chemical.oxidizer.addRecipe(<actuallyadditions:block_misc:5>, <gas:carbonoxide> * 450);
-mods.mekanism.chemical.oxidizer.addRecipe(<thermalfoundation:material:802>, <gas:carbonoxide> * 80);
-mods.mekanism.chemical.oxidizer.addRecipe(<thermalfoundation:storage_resource:1>, <gas:carbonoxide> * 720);
+chemicalOxidizer.addRecipe(<minecraft:coal>, <gas:carbonoxide> * 50);
+chemicalOxidizer.addRecipe(<minecraft:coal_block>, <gas:carbonoxide> * 450);
+chemicalOxidizer.addRecipe(<minecraft:coal:1>, <gas:carbonoxide> * 50);
+chemicalOxidizer.addRecipe(<actuallyadditions:block_misc:5>, <gas:carbonoxide> * 450);
+chemicalOxidizer.addRecipe(<thermalfoundation:material:802>, <gas:carbonoxide> * 80);
+chemicalOxidizer.addRecipe(<thermalfoundation:storage_resource:1>, <gas:carbonoxide> * 720);
 
-mods.mekanism.chemical.infuser.addRecipe(<gas:oxygen>, <gas:carbonoxide> * 2, <gas:carbondioxide> * 2);
-mods.mekanism.chemical.infuser.addRecipe(<gas:hydrogenchloride> * 1, <gas:water> * 1, <gas:hydrochloricacid> * 1);
-mods.mekanism.chemical.infuser.addRecipe(<gas:nitrogenoxide> * 2, <gas:oxygen> * 1, <gas:nitrogendioxide> * 2);
-mods.mekanism.chemical.infuser.addRecipe(<gas:hydrogen> * 3, <gas:nitrogen>, <gas:ammonia> * 2);
-mods.mekanism.chemical.infuser.addRecipe(<gas:hydrogenfluoride> * 1, <gas:water> * 1, <gas:hydrofluoricacid> * 1);
-mods.mekanism.chemical.infuser.addRecipe(<gas:hydrogen> * 1, <gas:fluorine> * 1, <gas:hydrogenfluoride> * 2);
+chemicalInfuser.addRecipe(<gas:oxygen>, <gas:carbonoxide> * 2, <gas:carbondioxide> * 2);
+chemicalInfuser.addRecipe(<gas:hydrogenchloride> * 1, <gas:water> * 1, <gas:hydrochloricacid> * 1);
+chemicalInfuser.addRecipe(<gas:nitrogenoxide> * 2, <gas:oxygen> * 1, <gas:nitrogendioxide> * 2);
+chemicalInfuser.addRecipe(<gas:hydrogen> * 3, <gas:nitrogen>, <gas:ammonia> * 2);
+chemicalInfuser.addRecipe(<gas:hydrogenfluoride> * 1, <gas:water> * 1, <gas:hydrofluoricacid> * 1);
+chemicalInfuser.addRecipe(<gas:hydrogen> * 1, <gas:fluorine> * 1, <gas:hydrogenfluoride> * 2);
 
-mods.mekanism.reaction.addRecipe(<mekanism:biofuel> * 8, <liquid:lava> * 50, <gas:hydrogen> * 100, <mekanism:scrap>, <gas:water> * 10, 1000, 100);
+reaction.addRecipe(<mekanism:biofuel> * 8, <liquid:lava> * 50, <gas:hydrogen> * 100, <mekanism:scrap>, <gas:water> * 10, 1000, 100);

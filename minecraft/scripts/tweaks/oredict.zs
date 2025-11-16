@@ -1113,7 +1113,97 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <iceandfire:dragonscales_sapphire>,
         <iceandfire:dragonscales_copper>
     ],
-    <ore:button> : [<minecraft:stone_button>]
+    <ore:button> : [<minecraft:stone_button>],
+    <ore:controllerLevel0> : [
+        <modularmachinery:mek_changer_factory_controller>,
+        <modularmachinery:builder_1_factory_controller>,
+        <modularmachinery:vethea_enchanter_factory_controller>
+    ],
+    <ore:controllerLevel1> : [
+        <modularmachinery:durasteel_forge_factory_controller>,
+        <modularmachinery:blood_altar_factory_controller>,
+        <modularmachinery:basic_miner_factory_controller>,
+        <modularmachinery:exp_power_generator_factory_controller>,
+        <modularmachinery:empowerer_factory_controller>,
+        <modularmachinery:loot_power_generator_factory_controller>,
+        <modularmachinery:builder_2_factory_controller>,
+        <modularmachinery:liquid_converter_factory_controller>,
+        <modularmachinery:elysia_alloyer_factory_controller>,
+        <modularmachinery:elysia_centrifuge_factory_controller>,
+        <modularmachinery:elysia_crusher_factory_controller>,
+        <modularmachinery:elysia_electrolyzer_factory_controller>,
+        <modularmachinery:elysia_forger_factory_controller>,
+        <modularmachinery:elysia_grinder_factory_controller>,
+        <modularmachinery:elysia_liquefier_factory_controller>,
+        <modularmachinery:elysia_melter_factory_controller>,
+        <modularmachinery:elysia_reactor_factory_controller>,
+        <modularmachinery:elysia_smelter_factory_controller>,
+        <modularmachinery:elysia_solidifier_factory_controller>,
+        <modularmachinery:elysia_vaporizer_factory_controller>,
+        <modularmachinery:elysia_pyrolyzer_factory_controller>,
+        <modularmachinery:factory_4x_factory_controller>,
+        <modularmachinery:factory_5x_factory_controller>,
+        <modularmachinery:factory_arcanic_astrallizer_factory_controller>,
+        <modularmachinery:factory_arcanic_brewer_factory_controller>,
+        <modularmachinery:factory_arcanic_infuser_factory_controller>,
+        <modularmachinery:factory_atomic_acider_factory_controller>,
+        <modularmachinery:factory_atomic_decayer_factory_controller>,
+        <modularmachinery:factory_atomic_vibrator_factory_controller>
+    ],
+    <ore:controllerLevel2> : [
+        <modularmachinery:gene_builder_factory_controller>,
+        <modularmachinery:auto_soul_forge_factory_controller>,
+        <modularmachinery:end_forge_factory_controller>,
+        <modularmachinery:mana_powereducer_factory_controller>,
+        <modularmachinery:mana_liquefactor_factory_controller>,
+        <modularmachinery:draconic_fusioner_factory_controller>,
+        <modularmachinery:flux_melter_factory_controller>,
+        <modularmachinery:flux_reducer_factory_controller>,
+        <modularmachinery:organic_infuser_factory_controller>,
+        <modularmachinery:matrix_fusioner_factory_controller>,
+        <modularmachinery:aeonsteel_forge_factory_controller>,
+        <modularmachinery:air_collector_factory_controller>,
+        <modularmachinery:builder_3_factory_controller>
+    ],
+    <ore:controllerLevel3> : [
+        <modularmachinery:unitcell_builder_factory_controller>,
+        <modularmachinery:chromasteel_forge_factory_controller>,
+        <modularmachinery:abyss_ceremony_executant_factory_controller>,
+        <modularmachinery:advanced_miner_factory_controller>,
+        <modularmachinery:gas_centrifuge_factory_controller>,
+        <modularmachinery:fallen_star_factory_controller>,
+        <modularmachinery:builder_4_factory_controller>,
+        <modularmachinery:thermal_evaporation_plant_factory_controller>,
+        <modularmachinery:arcane_compressor_factory_controller>,
+        <modularmachinery:neutron_activator_factory_controller>
+    ],
+    <ore:controllerLevel4> : [
+        <modularmachinery:aura_crafter_factory_controller>,
+        <modularmachinery:impetus_forge_factory_controller>,
+        <modularmachinery:chaos_reactor_factory_controller>,
+        <modularmachinery:stratified_precipitator_factory_controller>,
+        <modularmachinery:final_forge_factory_controller>,
+        <modularmachinery:arcane_melter_factory_controller>,
+        <modularmachinery:reverser_factory_controller>,
+        <modularmachinery:bright_altar_factory_controller>,
+        <modularmachinery:builder_5_factory_controller>,
+        <modularmachinery:arcane_matrix_factory_controller>,
+        <modularmachinery:cosmic_forge_factory_controller>,
+        <modularmachinery:astral_collector_factory_controller>,
+        <modularmachinery:matrix_balancer_factory_controller>,
+        <modularmachinery:entropy_reverse_factory_controller>,
+        <modularmachinery:loot_creater_factory_controller>,
+        <modularmachinery:pe_collector_factory_controller>
+    ],
+    <ore:controllerLevel5> : [
+        <modularmachinery:dimensional_miner_factory_controller>,
+        <modularmachinery:aspect_crafter_factory_controller>,
+        <modularmachinery:biotechnic_computer_factory_controller>,
+        <modularmachinery:wave_forge_factory_controller>
+    ],
+    <ore:controllerLevel6> : [
+        <modularmachinery:element_118_mixer_factory_controller>
+    ]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {
