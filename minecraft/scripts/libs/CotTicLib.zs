@@ -157,6 +157,24 @@ zenClass cotticLib {
         }
     }
 
+    function getTicArmorTypeAsSlot(itemStack as IItemStack) as IEntityEquipmentSlot {
+
+        var returnSlot as IEntityEquipmentSlot = IEntityEquipmentSlot.head();
+
+        if (isTicArmor(itemStack)) {
+            if (itemStack.definition.id == "conarm:helmet") {
+                returnSlot = IEntityEquipmentSlot.head();
+            } else if (itemStack.definition.id == "conarm:chestplate") {
+                returnSlot = IEntityEquipmentSlot.chest();
+            } else if (itemStack.definition.id == "conarm:leggings") {
+                returnSlot = IEntityEquipmentSlot.legs();
+            } else if (itemStack.definition.id == "conarm:boots") {
+                returnSlot = IEntityEquipmentSlot.feet();
+            }
+        
+        return returnSlot;
+        }
+    }
 
     function getTicMaterial(itemStack as IItemStack) as string[] {
         var Materials as string[] = [];

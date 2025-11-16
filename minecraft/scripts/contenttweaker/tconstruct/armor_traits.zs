@@ -57,6 +57,13 @@ import kbtwkr.keybinding.Keys;
 
 import native.slimeknights.tconstruct.library.utils.ToolHelper;
 
+val HachimiBinding as KeyBinding = KeyBinding.createSyncable("greedycraft.keybinding.hachimi_roar", ConflictContext.IN_GAME, Modifier.NONE, Keys.KEY_S, "greedycraft.keycategory");
+val HachimiActive as KeyBinding = KeyBinding.createSyncable("greedycraft.keybinding.hachimi_active", ConflictContext.IN_GAME, Modifier.NONE, Keys.KEY_W, "greedycraft.keycategory");
+EventManager.getInstance().onKeyBindingRegister(function(event as KeyBindingRegisterEvent) {
+	event.addKeyBinding(HachimiBinding);
+    event.addKeyBinding(HachimiActive);
+});
+
 $expand IItemStack$hasTicTrait(traitid as string) as bool {
     return CotTicTraitLib.hasTicTrait(this, traitid);
 }
@@ -1508,7 +1515,7 @@ falldownTrait.color = Color.fromHex("ffeb3b").getIntColor();
 falldownTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.falldownTrait.name");
 falldownTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.falldownTrait.desc");
 falldownTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
-    if (!isNull(player) && source.getDamageType() == "FALL") {
+    if (!isNull(player) && source.damageType == "fall") {
         for entity in player.world.getEntitiesInArea(crafttweaker.util.Position3f.create(((player.x)- 4),((player.y)- 4),((player.z)- 4)),crafttweaker.util.Position3f.create(((player.x)+ 4),((player.y)+ 4),((player.z)+ 4))){
             if (entity instanceof IEntityLivingBase && !entity instanceof IPlayer) {
                 val en as IEntityLivingBase = entity;
@@ -1532,7 +1539,6 @@ penetrationTrait.onHurt = function(trait, armor, player, source, damage, newDama
                 if (player.getHotbarStack(i).ores has <ore:blockAluminium>) {
                     player.getHotbarStack(i).mutable().shrink(1);
                     return newDamage * 0.6f;
-                    break;
                 }
             }
         }
@@ -2952,7 +2958,7 @@ specializationTrait.localizedName = game.localize("greedycraft.tconstruct.armor_
 specializationTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.specializationTrait.desc");
 specializationTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player)) {
-        if (source.damageType == "GENERIC") {
+        if (source.damageType == "generic") {
             return newDamage * 0.7f;
         } else {
             return newDamage * 1.5f;
@@ -3428,13 +3434,6 @@ abstractTrait.onHurt = function(trait, armor, player, source, damage, newDamage,
 };
 abstractTrait.register();
 
-val HachimiBinding as KeyBinding = KeyBinding.createSyncable("greedycraft.keybinding.hachimi_roar", ConflictContext.IN_GAME, Modifier.NONE, Keys.KEY_S, "greedycraft.keycategory");
-val HachimiActive as KeyBinding = KeyBinding.createSyncable("greedycraft.keybinding.hachimi_active", ConflictContext.IN_GAME, Modifier.NONE, Keys.KEY_W, "greedycraft.keycategory");
-EventManager.getInstance().onKeyBindingRegister(function(event as KeyBindingRegisterEvent) {
-	event.addKeyBinding(HachimiBinding);
-    event.addKeyBinding(HachimiActive);
-});
-
 val hachimi_roarTrait = ArmorTraitBuilder.create("hachimi_roar");
 hachimi_roarTrait.color = Color.fromHex("ffffff").getIntColor();
 hachimi_roarTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.hachimi_roarTrait.name");
@@ -3516,9 +3515,9 @@ broken_armorTrait.localizedName = game.localize("greedycraft.tconstruct.armor_tr
 broken_armorTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.broken_armorTrait.desc");
 broken_armorTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player)) {
-        if (source.damageType == "MAGIC") {
+        if (source.damageType == "magic" || source.damageType == "indirectMagic") {
             return newDamage * 0.5f;
-        } else if (source.damageType == "GENERIC") {
+        } else if (source.damageType == "generic") {
             return newDamage * 2.0f;
         }
     }
@@ -3536,3 +3535,9 @@ malevolence_catalystTrait.onArmorTick = function(trait, armor, world, player) {
     }
 };
 malevolence_catalystTrait.register();
+/*
+val flops_overclockTrait = ArmorTraitBuilder.create("flops_overclock");
+flops_overclockTrait.color = Color.fromHex("ffffff").getIntColor();
+flops_overclockTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.flops_overclockTrait.name");
+flops_overclockTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.flops_overclockTrait.desc");
+flops_overclockTrait.onHurt = function(trait, armor, player, )*/

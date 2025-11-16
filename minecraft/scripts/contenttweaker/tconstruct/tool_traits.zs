@@ -53,8 +53,6 @@ import mods.nuclearcraft.RadiationScrubber;
 import mods.ctintegration.scalinghealth.DifficultyManager;
 import mods.modularmachinery.MachineController;
 import mods.modularmachinery.IMachineController;
-import mods.jaopca.JAOPCA;
-import mods.jaopca.Material as JAOPCAMaterial;
 
 import native.slimeknights.tconstruct.library.utils.ToolHelper;
 import native.thebetweenlands.common.world.storage.BetweenlandsWorldStorage;
@@ -1552,7 +1550,7 @@ naturalrefinerTrait.localizedName = game.localize("greedycraft.tconstruct.tool_t
 naturalrefinerTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.naturalrefinerTrait.desc");
 naturalrefinerTrait.onBlockHarvestDrops = function(trait, tool, event) {
     if (!event.silkTouch && event.block.definition.id == "gct_mobs:botanical_stone") {
-        event.drops = [<item:gct_mobs:botanical_soul>];
+        event.drops = [<item:gct_mobs:botanical_soul>.weight(1.0f)];
     }
 };
 naturalrefinerTrait.register();
@@ -2823,7 +2821,7 @@ compressionTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trai
 compressionTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.compressionTrait.desc");
 compressionTrait.onBlockHarvestDrops = function(thisTrait, tool, event) {
     if (!event.silkTouch && event.block.definition.id == "minecraft:coal_ore") {
-        event.drops = [<item:minecraft:diamond>];
+        event.drops = [<item:minecraft:diamond>.weight(1.0f)];
     }
 };
 compressionTrait.register();
@@ -2978,7 +2976,7 @@ starlight_refinedTrait.localizedName = game.localize("greedycraft.tconstruct.too
 starlight_refinedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.starlight_refinedTrait.desc");
 starlight_refinedTrait.onBlockHarvestDrops = function(thisTrait, tool, event) {
     if (!event.silkTouch && event.block.definition.id == "minecraft:iron_ore") {
-        event.drops = [<item:additions:star_metal_ore>];
+        event.drops = [<item:additions:star_metal_ore>.weight(1.0f)];
     }
 };
 starlight_refinedTrait.register();
@@ -4450,21 +4448,22 @@ alcrystryTrait.color = Color.fromHex("ffffff").getIntColor();
 alcrystryTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.alcrystryTrait.name");
 alcrystryTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.alcrystryTrait.desc");
 alcrystryTrait.onBlockHarvestDrops = function(thisTrait, tool, event) {
-    if (!event.silkTouch && !(isNull(event.drops) || event.drops.length == 0)) {
+    if (!event.silkTouch) {
         var block as IBlock = event.block;
         if (!isNull(itemUtils.getItem(block.definition.id, block.meta))) {
             var blockItemmed as IItemStack = itemUtils.getItem(block.definition.id, block.meta);
-            if (!(isNull(blockItemmed.ores) || blockItemmed.ores.length == 0)) {
-                var oreDicts as IOreDictEntry[] = blockItemmed.ores;
-                for oreDict in oreDicts {
-                    if (oreDict.name.startsWith("ore")) {
-                        var oreName as string = oreDict.name.substring(3);
-                        if (!isNull(JAOPCA.getMaterial(oreName))) {
-                            var material as JAOPCAMaterial = JAOPCA.getMaterial(oreName);
-                            if (!isNull(material.getItemStack("ingot"))) {
-                                event.drops = [material.getItemStack("ingot", 2 + (Math.random() > 0.5f ? 1 : 0) as int)];
-                            }
+            if (!isNull(furnace.getSmeltingResult(blockItemmed))) {
+                var smeltedItem as IItemStack = furnace.getSmeltingResult(blockItemmed);
+                if (!(isNull(smeltedItem.ores) || smeltedItem.ores.length == 0)) {
+                    var pass as bool = false;
+                    for od in smeltedItem.ores {
+                        if (od.name has "ingot" && !(od.name has "Draconium")) {
+                            pass = true;
+                            break;
                         }
+                    }
+                    if (pass) {
+                        event.drops = [smeltedItem * 3];
                     }
                 }
             }

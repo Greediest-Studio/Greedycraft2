@@ -38,4 +38,5 @@ for entry in Entries {
         .addEnergyPerTickInput(20000)
         .addItemOutput(entry.getItemStack("ingot"))
         .build();
+    furnace.addRecipe(entry.getItemStack("ingot"), entry.getOreDictEntry("ore"), 0.1f);
 }
