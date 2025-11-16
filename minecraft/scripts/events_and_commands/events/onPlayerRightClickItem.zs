@@ -193,6 +193,9 @@ if (!isNull(event.item) && !event.world.isRemote()) {
     //vethea
     val whiteList = [
         "tcon",
+        "tcom",
+        "plustic",
+        "conarm",
         "minecraft",
         "divinerpg",
         "additions",

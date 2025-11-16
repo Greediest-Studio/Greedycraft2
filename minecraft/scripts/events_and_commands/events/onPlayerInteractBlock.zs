@@ -85,6 +85,9 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     //vethea
     val whiteList = [
         "tcon",
+        "tcom",
+        "plustic",
+        "conarm",
         "minecraft",
         "divinerpg",
         "additions",
