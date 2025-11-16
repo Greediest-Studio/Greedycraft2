@@ -52,6 +52,9 @@ ConversionItem.create(<additions:imitatium_ore>).addMatchItem(<tiths:ore_imitati
 ConversionItem.create(<extendedcrafting:material:36>).addMatchItem(<enderutilities:enderpart>).register();
 ConversionItem.create(<enderio:item_alloy_ingot:8>).addMatchItem(<enderutilities:enderpart:1>).register();
 ConversionItem.create(<thermalfoundation:material:167>).addMatchItem(<enderutilities:enderpart:2>).register();
+ConversionItem.create(<additions:blackiron_dust>).addMatchItem(<ore:dustBlackIron>).register();
+ConversionItem.create(<additions:blackiron_gear>).addMatchItem(<ore:gearBlackIron>).register();
+ConversionItem.create(<additions:blackiron_plate>).addMatchItem(<ore:plateBlackIron>).register();
 
 ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:burningsulfurflow>).register();
 ConversionFluid.create(<liquid:liquidantimatter>).addMatchFluid(<liquid:blockfluidantimatter>).register();
