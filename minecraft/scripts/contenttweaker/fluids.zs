@@ -2565,6 +2565,18 @@ molten_deusiotium.stillLocation = "base:fluids/molten";
 molten_deusiotium.flowingLocation = "base:fluids/molten_flowing";
 molten_deusiotium.register();
 
+val molten_blue_alloy = mods.contenttweaker.VanillaFactory.createFluid("blue_alloy", Color.fromHex("6dd0ff").getIntColor());
+molten_blue_alloy.material = <blockmaterial:lava>;
+molten_blue_alloy.viscosity = 3000;
+molten_blue_alloy.density = 6500;
+molten_blue_alloy.colorize = true;
+molten_blue_alloy.temperature = 1000;
+molten_blue_alloy.luminosity = 10;
+molten_blue_alloy.color = Color.fromHex("6dd0ff").getIntColor();
+molten_blue_alloy.stillLocation = "base:fluids/molten";
+molten_blue_alloy.flowingLocation = "base:fluids/molten_flowing";
+molten_blue_alloy.register();
+
 //液化类
 val liquid_air = mods.contenttweaker.VanillaFactory.createFluid("liquid_air", Color.fromHex("ffffff").getIntColor());
 liquid_air.material = <blockmaterial:water>;

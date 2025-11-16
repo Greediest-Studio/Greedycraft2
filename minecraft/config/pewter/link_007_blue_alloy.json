@@ -1,0 +1,94 @@
+{
+  "name": "blue_alloy",
+  "tool": {
+    "head": {
+      "attackDamage": 17.5,
+      "speed": 7,
+      "durability": 1670,
+      "harvestLevel": 6
+    },
+    "handle": {
+      "modifier": 1.12,
+      "durability": 375
+    },
+    "extra": {
+      "durability": 525
+    },
+    "bow": {
+      "drawspeed": 2.8,
+      "range": 1.1,
+      "bonusDamage": 3.0
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 59,
+      "defense": 31.15
+    },
+    "plates": {
+      "modifier": 1.1,
+      "durability": 55,
+      "toughness": 4.0
+    },
+    "trim": {
+      "extraDurability": 40
+    }
+  },
+  "color": "#6dd0ff",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1360,
+  "looks": {
+    "shininess": 0.0,
+    "brightness": 0.0,
+    "hueshift": 0.0
+  },
+  "fluid": {
+    "viscosity": 6000,
+    "density": 2000,
+    "temperature": 500,
+    "luminosity": 10
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Blue Alloy",
+    "zh_cn": "蓝晶合金"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:blue_alloy_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["alcrystry", "flops_core"],
+    "HANDLE": ["alcrystry", "flops_core"],
+    "EXTRA": ["alcrystry", "flops_core"],
+    "BOW": ["alcrystry", "flops_core"],
+    "CORE": ["specular_reflection_armor", "flops_overclock_armor"],
+    "PLATES": ["specular_reflection_armor", "flops_overclock_armor"],
+    "TRIM": ["specular_reflection_armor", "flops_overclock_armor"]
+  }
+}

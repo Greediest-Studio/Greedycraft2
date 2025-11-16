@@ -3535,9 +3535,36 @@ malevolence_catalystTrait.onArmorTick = function(trait, armor, world, player) {
     }
 };
 malevolence_catalystTrait.register();
-/*
+
 val flops_overclockTrait = ArmorTraitBuilder.create("flops_overclock");
 flops_overclockTrait.color = Color.fromHex("ffffff").getIntColor();
 flops_overclockTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.flops_overclockTrait.name");
 flops_overclockTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.flops_overclockTrait.desc");
-flops_overclockTrait.onHurt = function(trait, armor, player, )*/
+flops_overclockTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        player.addPotionEffect(<potion:contenttweaker:flops_overclock>.makePotionEffect(20, 0, false, false));
+        armor.mutable().attemptDamageItem(1, player);
+        if (armor.maxDamage - armor.damage <= 1) {
+            ToolHelper.breakTool(armor.mutable().native, player.native);
+        }
+    }
+};
+flops_overclockTrait.register();
+
+val specular_reflectionTrait = ArmorTraitBuilder.create("specular_reflection");
+specular_reflectionTrait.color = Color.fromHex("ffffff").getIntColor();
+specular_reflectionTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.specular_reflectionTrait.name");
+specular_reflectionTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.specular_reflectionTrait.desc");
+specular_reflectionTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        if (Math.random() < 0.5f) {
+            if (source.isMagicDamage() && (!isNull(source.getTrueSource()))) {
+                var entity as IEntityLivingBase = source.getTrueSource();
+                entity.attackEntityFrom(IDamageSource.createEntityDamage("magic", player), newDamage * 0.3f);
+                return newDamage * 0.7f;
+            }
+        }
+    }
+    return newDamage;
+};
+specular_reflectionTrait.register();

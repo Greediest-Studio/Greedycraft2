@@ -42,6 +42,13 @@ malevolence_catalyst.badEffectIn = false;
 malevolence_catalyst.beneficial = true;
 malevolence_catalyst.register();
 
+var flops_overclock as IPotion = VanillaFactory.createPotion("flops_overclock", 0xFFFFFF);
+flops_overclock.shouldRender = false;
+flops_overclock.shouldRenderHUD = false;
+flops_overclock.badEffectIn = false;
+flops_overclock.beneficial = true;
+flops_overclock.register();
+
 var blood as IPotion = VanillaFactory.createPotion("blood", 0x820000);
 blood.shouldRender = false;
 blood.shouldRenderHUD = false;
