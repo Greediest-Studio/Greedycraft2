@@ -1,0 +1,13 @@
+filename = 'ae2_auto_pattern_upload-1.0.0.jar'
+name = 'AE2 Auto Pattern Upload'
+side = 'both'
+
+[download]
+hash = '614c1655a55082008241cf109c20f5338827174b'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+
+[update]
+[update.curseforge]
+file-id = 7231312
+project-id = 1386432

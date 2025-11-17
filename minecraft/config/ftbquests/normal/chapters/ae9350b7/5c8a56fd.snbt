@@ -5,27 +5,15 @@
 	],
 	x: 13.5d,
 	y: 3.0d,
-	description: "制作凿子",
+	description: "雕凿万物",
 	text: [
-		""
+		"标记要雕凿的方块标记一下连接ae即可"
 	],
 	tasks: [{
 		uid: "5499cb5b",
 		type: "item",
 		items: [{
-			item: "chisel:chisel_iron"
-		},
-		{
-			id: "chisel:chisel_diamond",
-			tag: {
-				chiseldata: {}
-			}
-		},
-		{
-			id: "chisel:chisel_hitech",
-			tag: {
-				chiseldata: {}
-			}
+			item: "ae_chisel:ae_chisel"
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b

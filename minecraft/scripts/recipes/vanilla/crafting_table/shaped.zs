@@ -550,11 +550,6 @@ RecipeUtil.addShaped("auto_gen_235539040", <additions:experience_ingot>, [
     [<mysticalagriculture:xp_droplet>, <mysticalagriculture:xp_droplet>, <mysticalagriculture:xp_droplet>],
     [<mysticalagriculture:xp_droplet>, <mysticalagriculture:xp_droplet>, <mysticalagriculture:xp_droplet>]
 ]);
-RecipeUtil.addShaped("auto_gen_284734971", <minecraft:spawn_egg>.withTag({EntityTag:{id:"minecraft:cow"}}), [
-    [null, <minecraft:leather>, null],
-    [<minecraft:leather>, <minecraft:egg>, <minecraft:leather>],
-    [null, <minecraft:leather>, null]
-]);
 RecipeUtil.addShaped("auto_gen_-1799280324", <minecraft:spawn_egg>.withTag({EntityTag:{id:"minecraft:enderman"}}), [
     [null, <minecraft:ender_pearl>, null],
     [<minecraft:ender_pearl>, <minecraft:egg>, <minecraft:ender_pearl>],

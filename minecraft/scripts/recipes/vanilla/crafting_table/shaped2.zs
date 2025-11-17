@@ -664,7 +664,7 @@ RecipeUtil.addShaped("wolf_egg",<minecraft:spawn_egg>.withTag({EntityTag: {id: "
    [<minecraft:bone>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "spiritus"}]}), <minecraft:bone>],
    [null, <minecraft:bone>, null]
 ]);
-RecipeUtil.addShaped("chicken_egg",<minecraft:spawn_egg>.withTag({EntityTag: {id: "abyssalcraft:evilchicken"}}) , [
+RecipeUtil.addShaped("chicken_egg",<minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:chicken"}}) , [
    [null, <minecraft:feather>, null],
    [<minecraft:feather>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "spiritus"}]}), <minecraft:feather>],
    [null, <minecraft:feather>, null]
