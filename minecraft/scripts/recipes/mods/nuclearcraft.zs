@@ -398,6 +398,14 @@ Melter.addRecipe(<theaurorian:ceruleaningot>, <liquid:tamoltencerulean> * 144);
 Melter.addRecipe(<theaurorian:ceruleannugget>, <liquid:tamoltencerulean> * 16);
 Melter.addRecipe(<theaurorian:ceruleanblock>, <liquid:tamoltencerulean> * 1296);
 Melter.addRecipe(<ore:dustCerulean>, <liquid:tamoltencerulean> * 144);
+Melter.addRecipe(<ore:ingotEcoBasicAlloy>, <liquid:eco_basic_alloy> * 144);
+Melter.addRecipe(<ore:dustEcoBasicAlloy>, <liquid:eco_basic_alloy> * 144);
+Melter.addRecipe(<ore:blockEcoBasicAlloy>, <liquid:eco_basic_alloy> * 1296);
+Melter.addRecipe(<ore:nuggetEcoBasicAlloy>, <liquid:eco_basic_alloy> * 16);
+Melter.addRecipe(<ore:ingotBlueAlloy>, <liquid:blue_alloy> * 144);
+Melter.addRecipe(<ore:dustBlueAlloy>, <liquid:blue_alloy> * 144);
+Melter.addRecipe(<ore:blockBlueAlloy>, <liquid:blue_alloy> * 1296);
+Melter.addRecipe(<ore:nuggetBlueAlloy>, <liquid:blue_alloy> * 16);
 
 Melter.addRecipe(<thermalfoundation:material:893>, <liquid:redstone> * 250);
 Melter.addRecipe(<thermalfoundation:material:894>, <liquid:glowstone> * 250);
@@ -475,6 +483,8 @@ IngotFormer.addRecipe(<liquid:iox_fluid> * 144, <taiga:iox_ingot>);
 IngotFormer.addRecipe(<liquid:meteorite_fluid> * 144, <taiga:meteorite_ingot>);
 IngotFormer.addRecipe(<liquid:obsidiorite_fluid> * 144, <taiga:obsidiorite_ingot>);
 IngotFormer.addRecipe(<liquid:dilithium_fluid> * 144, <taiga:dilithium_ingot>);
+IngotFormer.addRecipe(<liquid:eco_basic_alloy> * 144, <additions:eco_basic_alloy_ingot>);
+IngotFormer.addRecipe(<liquid:blue_alloy> * 144, <additions:blue_alloy_ingot>);
 
 SaltMixer.removeRecipeWithInput(<liquid:arsenic> * 1332, <liquid:nak> * 144);
 

@@ -95,3 +95,4 @@ GameStagesUtil.stageBetweenlandTraveller.addDimension(20);
 GameStagesUtil.stageWarped.addDimension(55);
 GameStagesUtil.stageWarped.addDimension(102);
 GameStagesUtil.stageFinal.addDimension(2);
+GameStagesUtil.stageDeepDream.addDimension(66);

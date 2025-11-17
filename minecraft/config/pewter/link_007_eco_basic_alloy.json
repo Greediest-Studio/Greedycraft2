@@ -1,0 +1,94 @@
+{
+  "name": "eco_basic_alloy",
+  "tool": {
+    "head": {
+      "attackDamage": 16.8,
+      "speed": 11.5,
+      "durability": 2030,
+      "harvestLevel": 6
+    },
+    "handle": {
+      "modifier": 0.9,
+      "durability": 400
+    },
+    "extra": {
+      "durability": 604
+    },
+    "bow": {
+      "drawspeed": 1.12,
+      "range": 1.7,
+      "bonusDamage": 9.0
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 68,
+      "defense": 28.75
+    },
+    "plates": {
+      "modifier": 1.4,
+      "durability": 48,
+      "toughness": 5
+    },
+    "trim": {
+      "extraDurability": 45
+    }
+  },
+  "color": "#70f2ed",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1120,
+  "looks": {
+    "shininess": 0.0,
+    "brightness": 0.0,
+    "hueshift": 0.0
+  },
+  "fluid": {
+    "viscosity": 6000,
+    "density": 2000,
+    "temperature": 500,
+    "luminosity": 10
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "ECO Basic Alloy",
+    "zh_cn": "ECO基础合金"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:eco_basic_alloy_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["anticorrosion", "flops_core"],
+    "HANDLE": ["anticorrosion", "flops_core"],
+    "EXTRA": ["anticorrosion", "flops_core"],
+    "BOW": ["anticorrosion", "flops_core"],
+    "CORE": ["invigorating_armor", "flops_overclock_armor"],
+    "PLATES": ["invigorating_armor", "flops_overclock_armor"],
+    "TRIM": ["invigorating_armor", "flops_overclock_armor"]
+  }
+}

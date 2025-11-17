@@ -1203,7 +1203,18 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     ],
     <ore:controllerLevel6> : [
         <modularmachinery:element_118_mixer_factory_controller>
-    ]
+    ],
+    <ore:oreCopper> : [<erebus:ore_copper>],
+    <ore:oreSilver> : [<erebus:ore_silver>],
+    <ore:oreTin> : [<erebus:ore_tin>],
+    <ore:oreLead> : [<erebus:ore_lead>],
+    <ore:oreAluminum> : [<erebus:ore_aluminium>],
+    <ore:ingotAluminum> : [<erebus:materials:42>],
+    <ore:ingotCopper> : [<erebus:materials:43>],
+    <ore:ingotLead> : [<erebus:materials:44>],
+    <ore:ingotSilver> : [<erebus:materials:45>],
+    <ore:ingotTin> : [<erebus:materials:46>],
+    <ore:gemGneiss> : [<erebus:materials:47>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {

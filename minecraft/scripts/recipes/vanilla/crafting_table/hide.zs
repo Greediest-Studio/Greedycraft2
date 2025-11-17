@@ -9,6 +9,9 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
+import mods.jei.JEI;
+
 recipes.addHiddenShapeless("ordered_bone_key_slate", <additions:ordered_bone_key_container>, [
     <additions:ordered_bone_key_slate>, <ore:ingotRupee>, <ore:ingotHellite>, <ore:ingotStellarAlloy>, <ore:ingotLumix>, <ore:ingotDreadium>, <ore:ingotPorpezite>, <ore:ingotEverite>, <ore:ingotZodiacite>
 ]);
+

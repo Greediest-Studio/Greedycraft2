@@ -30,6 +30,7 @@ effect.contenttweaker.pure=纯净
 effect.contenttweaker.worldguard=天地守护
 effect.contenttweaker.malevolence_catalyst=恶意催化
 effect.contenttweaker.flops_overclock=算力超频
+effect.contenttweaker.erebus_protection=腐朽守护
 
 component.missing.gugu-utils:aspect.input=缺少源质输入仓！
 component.missing.gugu-utils:aspect.output=缺少源质输出仓！
@@ -1239,6 +1240,8 @@ greedycraft.tooltip.contenttweaker.tablet_of_enlightenment.2=§a请将其放置�
 greedycraft.tooltip.contenttweaker.tablet_of_enlightenment.3=§b如果你因崩溃或异常退出而丢失游戏阶段，这个可以作为备份。
 greedycraft.tooltip.contenttweaker.tablet_of_enlightenment.4=§d把它放进工作台以复制其自身。
 greedycraft.tooltip.contenttweaker.tablet_of_enlightenment.5=§c只有其所有者才能使用它。
+greedycraft.tooltip.contenttweaker.malevolent_fruit.1=§e给予你时长为120秒的§c腐朽守护§e效果
+greedycraft.tooltip.contenttweaker.malevolent_fruit.2=§e同时将你传送到§4腐朽之地
 greedycraft.tooltip.defiledlands.conjuring_altar.1=§e该祭坛必须放在污秽之地里才能激活使用
 greedycraft.tooltip.enderio.item_material.1=§e请使用热力系列的木齿轮
 greedycraft.tooltip.enderio.item_material.1=§e请使用热力系列的石齿轮
@@ -1294,6 +1297,7 @@ greedycraft.tooltip.torchmaster.feral_flare_lantern.1=§e请勿放到星辉魔�
 greedycraft.tooltip.torchmaster.feral_flare_lantern.2=§e其产生的隐形光源也是方块并且会干扰多方块结构的判定
 greedycraft.tooltip.twilightforest.uncrafting_table.1=§e注意：无法拆解物品
 greedycraft.tooltip.disabled_pet_reroll=§e禁用的宠物可以放入工作台中以重新抽取。
+
 greedycraft.yay.torcherino.1=§e在？PY又痒了？
 greedycraft.yay.torcherino.2=§e把加速火把插到你PY里，给你好好加个速！
 greedycraft.yay.torcherino.3=§5       ——一位不愿透露姓名的bat

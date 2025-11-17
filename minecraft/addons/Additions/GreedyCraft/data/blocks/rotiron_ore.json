@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "腐化铜矿石",
+    "ore_dict": "oreRotiron",
+    "type": "additions:block_simple"
+  },
+  "name": "腐化铜矿石",
+  "material": "minecraft:stone",
+  "hardness": 30.0,
+  "resistance": 4000.0,
+  "harvest_level": 13,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

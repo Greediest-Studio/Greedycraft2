@@ -2122,6 +2122,11 @@ GameStagesUtil.stageFinal.addIngredients([
     <gct_ores:finallium_container_active>
 ], true);
 
+GameStagesUtil.stageDeepDream.addIngredients([
+    <contenttweaker:malevolent_fruit>,
+    <ore:oreRotiron>
+], true);
+
 GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators", "mekceumoremachine", "mekeng"]);
 GameStagesUtil.stageHardmode.addModId(["avaritia", "draconicevolution", "extrabotany", "projecte", "projectex", "taiga"]);
 GameStagesUtil.stageNether.addModId(["aether_legacy", "cyclicmagic", "touhou_little_maid", "aeble", "theaurorian", "lost_aether"]);

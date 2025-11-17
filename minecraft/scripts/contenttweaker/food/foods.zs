@@ -18,3 +18,16 @@ battleburrito.onItemFoodEaten = function(stack, world, player) {
 };
 battleburrito.register();
 
+//恶意果实
+var malevolentfruit as ItemFood = VanillaFactory.createItemFood("malevolent_fruit", 2);
+malevolentfruit.saturation = 0.2;
+malevolentfruit.alwaysEdible = true;
+malevolentfruit.onItemFoodEaten = function(stack, world, player) {
+    if (!world.remote) {
+        if (world.dimension != 66) {
+            player.dimension = 66;
+        }
+        player.addPotionEffect(<potion:contenttweaker:erebus_protection>.makePotionEffect(2400, 0));
+    }
+};
+malevolentfruit.register();

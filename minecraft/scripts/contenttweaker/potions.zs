@@ -49,6 +49,13 @@ flops_overclock.badEffectIn = false;
 flops_overclock.beneficial = true;
 flops_overclock.register();
 
+var erebus_protection as IPotion = VanillaFactory.createPotion("erebus_protection", 0x228B22);
+erebus_protection.shouldRender = false;
+erebus_protection.shouldRenderHUD = false;
+erebus_protection.badEffectIn = false;
+erebus_protection.beneficial = true;
+erebus_protection.register();
+
 var blood as IPotion = VanillaFactory.createPotion("blood", 0x820000);
 blood.shouldRender = false;
 blood.shouldRenderHUD = false;
