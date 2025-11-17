@@ -1489,7 +1489,21 @@ var disabledItems as IIngredient[] = [
     <prefab:item_ender_gateway>,
     <randomportals:vertical_end_portal_frame>,
     <randomportals:upside_down_end_portal_frame>,
-    <thermalexpansion:device:9>
+    <thermalexpansion:device:9>,
+    <jaopca:brewed.black_iron>,
+    <jaopca:compound.black_iron>,
+    <jaopca:infused.black_iron>,
+    <jaopca:pured.black_iron>,
+    <jaopca:radiation.black_iron>,
+    <jaopca:reduced.black_iron>,
+    <jaopca:starlight.black_iron>,
+    <jaopca:brewed.blackiron>,
+    <jaopca:compound.blackiron>,
+    <jaopca:infused.blackiron>,
+    <jaopca:pured.blackiron>,
+    <jaopca:radiation.blackiron>,
+    <jaopca:reduced.blackiron>,
+    <jaopca:starlight.blackiron>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [
