@@ -4478,3 +4478,16 @@ alcrystryTrait.canApplyTogetherTrait = function(thisTrait, otherTrait) {
     return true;
 };
 alcrystryTrait.register();
+
+val subspaceTrait = TraitBuilder.create("subspace");
+subspaceTrait.color = Color.fromHex("ffffff").getIntColor(); 
+subspaceTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.subspaceTrait.name");
+subspaceTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.subspaceTrait.desc");
+subspaceTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        var world as IWorld = attacker.world;
+        SubspaceHelper.summonSubspaceFromPlayerWithEffect(world.native, player.native, damage);
+    }
+};
+subspaceTrait.register();
