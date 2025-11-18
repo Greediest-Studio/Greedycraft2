@@ -60,6 +60,7 @@ import native.thebetweenlands.common.world.event.EventRift;
 import native.thebetweenlands.api.capability.IDecayCapability;
 import native.thebetweenlands.common.capability.decay.DecayStats;
 import native.thebetweenlands.common.registries.CapabilityRegistry;
+import native.com.meteor.extrabotany.common.helper.SubspaceHelper;
 
 $expand IItemStack$hasTicTrait(traitid as string) as bool {
     return CotTicTraitLib.hasTicTrait(this, traitid);
