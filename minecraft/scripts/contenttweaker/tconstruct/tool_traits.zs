@@ -53,6 +53,7 @@ import mods.nuclearcraft.RadiationScrubber;
 import mods.ctintegration.scalinghealth.DifficultyManager;
 import mods.modularmachinery.MachineController;
 import mods.modularmachinery.IMachineController;
+import mods.randomtweaker.botania.IManaItemHandler;
 
 import native.slimeknights.tconstruct.library.utils.ToolHelper;
 import native.thebetweenlands.common.world.storage.BetweenlandsWorldStorage;
@@ -256,6 +257,21 @@ function checkFlops(tool as IItemStack, world as IWorld) as void {
             }
         }
     }
+}
+
+function getManaBaublesAndItems(player as IPlayer) as IItemStack[] {
+    var outputList as IItemStack[] = [];
+    if (!(isNull(IManaItemHandler.getManaItems(player)) || IManaItemHandler.getManaItems(player).length == 0)) {
+        for manaItem in IManaItemHandler.getManaItems(player) {
+            outputList += manaItem;
+        }
+    }
+    if (!(isNull(IManaItemHandler.getManaBaubles(player)) || IManaItemHandler.getManaBaubles(player).length == 0)) {
+        for manaBauble in IManaItemHandler.getManaBaubles(player).values {
+            outputList += manaBauble;
+        }
+    }
+    return outputList;
 }
 
 function lognum(a as int, b as int) as float {
@@ -4487,7 +4503,13 @@ subspaceTrait.onHit = function(trait, tool, attacker, target, damage, isCritical
     if (attacker instanceof IPlayer) {
         var player as IPlayer = attacker;
         var world as IWorld = attacker.world;
-        SubspaceHelper.summonSubspaceFromPlayerWithEffect(world.native, player.native, damage);
+        for manaItem in getManaBaublesAndItems(player) {
+            if (IManaItemHandler.requestManaExactForTool(manaItem, player, 600, true)) {
+                var damage as float = ToolHelper.getActualAttack(tool.native);
+                SubspaceHelper.summonSubspaceFromPlayerWithEffect(player.world.native, player.native, damage);
+                break;
+            }
+        }        
     }
 };
 subspaceTrait.register();
