@@ -103,8 +103,10 @@ MMEvents.onMachinePreTick("blood_altar", function(event as MachineTickEvent) {
     };
     //获取祭坛等级
     if (event.controller.world.getWorldTime() % 100 == 0 && (!event.controller.world.isRemote())) {
-        var altarLevel as int = levelMap[event.controller.world.getBlock(event.controller.pos.down(4)).data.bloodAltar.upgradeLevel as string] as int;
-        var runeNum as int = 0;
+        var altarBlock = event.controller.world.getBlock(event.controller.pos.down(4));
+        if (!isNull(altarBlock) && !isNull(altarBlock.data) && !isNull(altarBlock.data.bloodAltar)) {
+            var altarLevel as int = levelMap[altarBlock.data.bloodAltar.upgradeLevel as string] as int;
+            var runeNum as int = 0;
         runeNum += event.controller.getBlocksInPattern(<bloodmagic:blood_rune>);
         runeNum += event.controller.getBlocksInPattern(<bloodmagic:blood_rune:1>);
         runeNum += event.controller.getBlocksInPattern(<bloodmagic:blood_rune:2>);
@@ -150,8 +152,9 @@ MMEvents.onMachinePreTick("blood_altar", function(event as MachineTickEvent) {
             } else {
                 event.controller.customData = event.controller.customData.update({level : 7});
             }
-        } else {
-            event.controller.customData = event.controller.customData.update({level : 6});
+            } else {
+                event.controller.customData = event.controller.customData.update({level : 6});
+            }
         }
     }
     //调整机器线程
@@ -189,51 +192,55 @@ MMEvents.onMachinePreTick("blood_altar", function(event as MachineTickEvent) {
     }
     //外界输入模式
     if (!world.isRemote() && world.getWorldTime() % checkTime == 0 && event.controller.getAltarMode() == 0) {
-        var currentAltarAmount as int = altar.data.bloodAltar.Amount as int;
-        var controllerAvailableSpace as long = event.controller.getAltarCapacity() - event.controller.getAltarLP();
-        var transferBlood as long = 0L;
-        if(controllerAvailableSpace > 0 && currentAltarAmount > 0) {
-            if(currentAltarAmount > extractNum) {
-                if(controllerAvailableSpace >= extractNum) {
-                    transferBlood = extractNum as long;
+        if (!isNull(altar) && !isNull(altar.data) && !isNull(altar.data.bloodAltar)) {
+            var currentAltarAmount as int = altar.data.bloodAltar.Amount as int;
+            var controllerAvailableSpace as long = event.controller.getAltarCapacity() - event.controller.getAltarLP();
+            var transferBlood as long = 0L;
+            if(controllerAvailableSpace > 0 && currentAltarAmount > 0) {
+                if(currentAltarAmount > extractNum) {
+                    if(controllerAvailableSpace >= extractNum) {
+                        transferBlood = extractNum as long;
+                    } else {
+                        transferBlood = controllerAvailableSpace;
+                    }
                 } else {
-                    transferBlood = controllerAvailableSpace;
+                    if(controllerAvailableSpace >= currentAltarAmount){
+                        transferBlood = currentAltarAmount as long;
+                    } else {
+                        transferBlood = controllerAvailableSpace;
+                    }
                 }
-            } else {
-                if(controllerAvailableSpace >= currentAltarAmount){
-                    transferBlood = currentAltarAmount as long;
-                } else {
-                    transferBlood = controllerAvailableSpace;
-                }
+                world.setBlockState(<blockstate:bloodmagic:altar>, altar.data.update({bloodAltar : {Amount : currentAltarAmount - (transferBlood as int)}}), event.controller.pos.down(4));
+                event.controller.customData = event.controller.customData.update({LP : event.controller.getAltarLP() + transferBlood});
             }
-            world.setBlockState(<blockstate:bloodmagic:altar>, altar.data.update({bloodAltar : {Amount : currentAltarAmount - (transferBlood as int)}}), event.controller.pos.down(4));
-            event.controller.customData = event.controller.customData.update({LP : event.controller.getAltarLP() + transferBlood});
         }
     }
     //向血之祭坛输出模式
     if (!world.isRemote() && world.getWorldTime() % checkTime == 0 && event.controller.getAltarMode() == 1) {
-        var controllerLP as long = event.controller.getAltarLP();
-        var altarCurrentAmount as int = altar.data.bloodAltar.Amount as int;
-        var altarCapacity as int = altar.data.bloodAltar.capacity as int;
-        var altarAvailableSpace as int = altarCapacity - altarCurrentAmount;
-        if (controllerLP > 0 && altarAvailableSpace > 0) {
-            var transferAmount as long = 0L;
-            if (controllerLP > extractNum) {
-                if (altarAvailableSpace >= extractNum) {
-                    transferAmount = extractNum as long;
+        if (!isNull(altar) && !isNull(altar.data) && !isNull(altar.data.bloodAltar)) {
+            var controllerLP as long = event.controller.getAltarLP();
+            var altarCurrentAmount as int = altar.data.bloodAltar.Amount as int;
+            var altarCapacity as int = altar.data.bloodAltar.capacity as int;
+            var altarAvailableSpace as int = altarCapacity - altarCurrentAmount;
+            if (controllerLP > 0 && altarAvailableSpace > 0) {
+                var transferAmount as long = 0L;
+                if (controllerLP > extractNum) {
+                    if (altarAvailableSpace >= extractNum) {
+                        transferAmount = extractNum as long;
+                    } else {
+                        transferAmount = altarAvailableSpace as long;
+                    }
                 } else {
-                    transferAmount = altarAvailableSpace as long;
+                    if (altarAvailableSpace >= controllerLP) {
+                        transferAmount = controllerLP;
+                    } else {
+                        transferAmount = altarAvailableSpace as long;
+                    }
+                }            
+                if (transferAmount > 0) {
+                    world.setBlockState(<blockstate:bloodmagic:altar>, altar.data.update({bloodAltar : {Amount : altarCurrentAmount + (transferAmount as int)}}), event.controller.pos.down(4));
+                    event.controller.customData = event.controller.customData.update({LP : controllerLP - transferAmount});
                 }
-            } else {
-                if (altarAvailableSpace >= controllerLP) {
-                    transferAmount = controllerLP;
-                } else {
-                    transferAmount = altarAvailableSpace as long;
-                }
-            }            
-            if (transferAmount > 0) {
-                world.setBlockState(<blockstate:bloodmagic:altar>, altar.data.update({bloodAltar : {Amount : altarCurrentAmount + (transferAmount as int)}}), event.controller.pos.down(4));
-                event.controller.customData = event.controller.customData.update({LP : controllerLP - transferAmount});
             }
         }
     }
@@ -298,37 +305,38 @@ MMEvents.onControllerGUIRender("blood_altar", function(event as ControllerGUIRen
     val cj = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>);
     var wj = event.controller.getBlocksInPattern(<additions:blood_rune_personal>);
     var player = server.getPlayerByUUID(event.controller.ownerUUID);
-    var orbTier = player.soulNetwork.orbTier;
-    var maxcapacity = ((1.0f + 0.02f * bz) * capacity[orbTier]) as int;
+    if (!isNull(player) && !isNull(player.soulNetwork)) {
+        var orbTier = player.soulNetwork.orbTier;
+        var maxcapacity = ((1.0f + 0.02f * bz) * capacity[orbTier]) as int;
+        var maxtransform = (20.0f * (1 + (cj > 19 ? 19 : cj)) as float * (1.0f + sd as float / 5) as float * pow(1.2, zw) * pow(2.0, wj)) as int;
+        var transform = 0;
 
-    var maxtransform = (20.0f * (1 + (cj > 19 ? 19 : cj)) as float * (1.0f + sd as float / 5) as float * pow(1.2, zw) * pow(2.0, wj)) as int;
-    var transform = 0;
+        if (maxtransform < 0) {
+            maxtransform = 2147483647;
+            info += "§d警告：LP交互速率已溢出";
+        }
+        if (maxcapacity < 0) {
+            maxcapacity = 2147483647;
+            info += "§d警告：玩家LP网络最大容量已溢出";
+        }
 
-    if (maxtransform < 0) {
-        maxtransform = 2147483647;
-        info += "§d警告：LP交互速率已溢出";
-    }
-    if (maxcapacity < 0) {
-        maxcapacity = 2147483647;
-        info += "§d警告：玩家LP网络最大容量已溢出";
-    }
+        if (event.controller.getAltarLP() > maxtransform as long) {
+            transform = maxtransform;
+        } else {
+            transform = event.controller.getAltarLP() as int;
+        }
+        if (transform > maxcapacity - player.soulNetwork.currentEssence) {
+            transform = maxcapacity - player.soulNetwork.currentEssence;
+        }
+        if (transform < 0) {
+            transform = 0;
+            info += "§d警告：玩家当前LP网络已超出上限";
+        }
 
-    if (event.controller.getAltarLP() > maxtransform as long) {
-        transform = maxtransform;
-    } else {
-        transform = event.controller.getAltarLP() as int;
+        info += "§aLP输出至玩家LP网络最大速率(mB/s)：§e" ~ maxtransform;
+        info += "§aLP输出至玩家LP网络实际速率(mB/s)：§e" ~ transform;
+        info += "§a玩家LP网络最大容量：§e" ~ maxcapacity ~ "  §a玩家当前LP网络§e：" ~ player.soulNetwork.currentEssence;
     }
-    if (transform > maxcapacity - player.soulNetwork.currentEssence) {
-        transform = maxcapacity - player.soulNetwork.currentEssence;
-    }
-    if (transform < 0) {
-        transform = 0;
-        info += "§d警告：玩家当前LP网络已超出上限";
-    }
-
-    info += "§aLP输出至玩家LP网络最大速率(mB/s)：§e" ~ maxtransform;
-    info += "§aLP输出至玩家LP网络实际速率(mB/s)：§e" ~ transform;
-    info += "§a玩家LP网络最大容量：§e" ~ maxcapacity ~ "  §a玩家当前LP网络§e：" ~ player.soulNetwork.currentEssence;
 
     event.extraInfo = info;
 });
@@ -415,18 +423,23 @@ RecipeBuilder.newBuilder("purify", "blood_altar", 1)
 
 RecipeBuilder.newBuilder("orb", "blood_altar", 20)
     .addPreCheckHandler(function(event as RecipeCheckEvent) {
-        var maxcapacity = ((1.0f + 0.02f * event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>)) * capacity[server.getPlayerByUUID(event.controller.ownerUUID).soulNetwork.orbTier]) as int;
-        if (maxcapacity < 0) {
-            maxcapacity = 2147483647;
-        }
-        if (!(event.controller.getAltarMode() == 2)) {
-            event.setFailed("未调整至<转移到玩家网络>模式");
-        }
-        else if (event.controller.getBlocksInPattern(<additions:blood_rune_personal>) < 1) {
-            event.setFailed("缺少玩家符文");
-        }
-        else if (server.getPlayerByUUID(event.controller.ownerUUID).soulNetwork.currentEssence >= maxcapacity) {
-            event.setFailed("玩家LP网络已满");
+        var player = server.getPlayerByUUID(event.controller.ownerUUID);
+        if (!isNull(player) && !isNull(player.soulNetwork)) {
+            var maxcapacity = ((1.0f + 0.02f * event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>)) * capacity[player.soulNetwork.orbTier]) as int;
+            if (maxcapacity < 0) {
+                maxcapacity = 2147483647;
+            }
+            if (!(event.controller.getAltarMode() == 2)) {
+                event.setFailed("未调整至<转移到玩家网络>模式");
+            }
+            else if (event.controller.getBlocksInPattern(<additions:blood_rune_personal>) < 1) {
+                event.setFailed("缺少玩家符文");
+            }
+            else if (player.soulNetwork.currentEssence >= maxcapacity) {
+                event.setFailed("玩家LP网络已满");
+            }
+        } else {
+            event.setFailed("玩家未在线或数据无效");
         }
     })
     .addItemInput(<bloodmagic:blood_orb>).setChance(0.0f).setPreViewNBT({orb: "bloodmagic:weak", display: {Lore: ["任意等级气血宝珠均可"]}})
@@ -438,35 +451,37 @@ RecipeBuilder.newBuilder("orb", "blood_altar", 20)
         val cj = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>);
         var wj = event.controller.getBlocksInPattern(<additions:blood_rune_personal>);
         var player = server.getPlayerByUUID(event.controller.ownerUUID);
-        var orbTier = player.soulNetwork.orbTier;
-        var maxcapacity = ((1.0f + 0.02f * bz) * capacity[orbTier]) as int;
-        var maxtransform = (20.0f * (1 + (cj > 19 ? 19 : cj)) as float * (1 + sd / 5) as float * pow(1.2, zw) * pow(2.0, wj)) as int;
-        var transform = 0;
+        if (!isNull(player) && !isNull(player.soulNetwork)) {
+            var orbTier = player.soulNetwork.orbTier;
+            var maxcapacity = ((1.0f + 0.02f * bz) * capacity[orbTier]) as int;
+            var maxtransform = (20.0f * (1 + (cj > 19 ? 19 : cj)) as float * (1 + sd / 5) as float * pow(1.2, zw) * pow(2.0, wj)) as int;
+            var transform = 0;
 
-        if (maxtransform < 0) {
-            maxtransform = 2147483647;
-        }
-        if (maxcapacity < 0) {
-            maxcapacity = 2147483647;
-        }
+            if (maxtransform < 0) {
+                maxtransform = 2147483647;
+            }
+            if (maxcapacity < 0) {
+                maxcapacity = 2147483647;
+            }
 
-        if (event.controller.getAltarLP() > maxtransform as long) {
-            transform = maxtransform;
-        } else {
-            transform = event.controller.getAltarLP() as int;
-        }
-        if (transform > maxcapacity - player.soulNetwork.currentEssence) {
-            transform = maxcapacity - player.soulNetwork.currentEssence;
-        }
-        if (transform < 0) {
-            transform = 0;
-        }
-        if (player.soulNetwork.currentEssence < 0) {
-            player.soulNetwork.currentEssence = 0;
-        }
+            if (event.controller.getAltarLP() > maxtransform as long) {
+                transform = maxtransform;
+            } else {
+                transform = event.controller.getAltarLP() as int;
+            }
+            if (transform > maxcapacity - player.soulNetwork.currentEssence) {
+                transform = maxcapacity - player.soulNetwork.currentEssence;
+            }
+            if (transform < 0) {
+                transform = 0;
+            }
+            if (player.soulNetwork.currentEssence < 0) {
+                player.soulNetwork.currentEssence = 0;
+            }
 
-        player.soulNetwork.currentEssence += transform;
-        event.controller.customData = event.controller.customData.update({LP : event.controller.getAltarLP() - transform as long});
+            player.soulNetwork.currentEssence += transform;
+            event.controller.customData = event.controller.customData.update({LP : event.controller.getAltarLP() - transform as long});
+        }
     })
     .addRecipeTooltip("§a向玩家LP网络输入生命源质,需至少一个玩家符文")
     .addRecipeTooltip("§a输出速率为20*促进符文数*(1+0.2*速度符文数)*1.2^转位符文数*2^玩家符文数")
@@ -478,15 +493,20 @@ RecipeBuilder.newBuilder("orb1", "blood_altar", 20)
         if (event.controller.getBlocksInPattern(<additions:blood_rune_personal>) < 1) {
             event.setFailed("缺少玩家符文");
         }
-        var maxcapacity = ((1.0f + 0.02f * event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>)) * capacity[server.getPlayerByUUID(event.controller.ownerUUID).soulNetwork.orbTier]) as int;
-        if (maxcapacity < 0) {
-            maxcapacity = 2147483647;
-        }
-        if (server.getPlayerByUUID(event.controller.ownerUUID).soulNetwork.currentEssence >= maxcapacity) {
-            event.setFailed("玩家LP网络已满");
-        }
-        if (!(event.controller.getAltarMode() == 2)) {
-            event.setFailed("未调整至<转移到玩家网络>模式");
+        var player = server.getPlayerByUUID(event.controller.ownerUUID);
+        if (!isNull(player) && !isNull(player.soulNetwork)) {
+            var maxcapacity = ((1.0f + 0.02f * event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>)) * capacity[player.soulNetwork.orbTier]) as int;
+            if (maxcapacity < 0) {
+                maxcapacity = 2147483647;
+            }
+            if (player.soulNetwork.currentEssence >= maxcapacity) {
+                event.setFailed("玩家LP网络已满");
+            }
+            if (!(event.controller.getAltarMode() == 2)) {
+                event.setFailed("未调整至<转移到玩家网络>模式");
+            }
+        } else {
+            event.setFailed("玩家未在线或数据无效");
         }
     })
     .addItemInput(<forbiddenmagicre:eldritch_orb>).setChance(0.0f).setPreViewNBT({display: {Lore: ["任意等级气血宝珠均可"]}})
@@ -498,35 +518,37 @@ RecipeBuilder.newBuilder("orb1", "blood_altar", 20)
         val cj = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>);
         var wj = event.controller.getBlocksInPattern(<additions:blood_rune_personal>);
         var player = server.getPlayerByUUID(event.controller.ownerUUID);
-        var orbTier = player.soulNetwork.orbTier;
-        var maxcapacity = ((1.0f + 0.02f * bz) * capacity[orbTier]) as int;
-        var maxtransform = (20.0f * (1 + (cj > 19 ? 19 : cj)) as float * (1 + sd / 5) as float * pow(1.2, zw) * pow(2.0, wj)) as int;
-        var transform = 0;
+        if (!isNull(player) && !isNull(player.soulNetwork)) {
+            var orbTier = player.soulNetwork.orbTier;
+            var maxcapacity = ((1.0f + 0.02f * bz) * capacity[orbTier]) as int;
+            var maxtransform = (20.0f * (1 + (cj > 19 ? 19 : cj)) as float * (1 + sd / 5) as float * pow(1.2, zw) * pow(2.0, wj)) as int;
+            var transform = 0;
 
-        if (maxtransform < 0) {
-            maxtransform = 2147483647;
-        }
-        if (maxcapacity < 0) {
-            maxcapacity = 2147483647;
-        }
+            if (maxtransform < 0) {
+                maxtransform = 2147483647;
+            }
+            if (maxcapacity < 0) {
+                maxcapacity = 2147483647;
+            }
 
-        if (event.controller.getAltarLP() > maxtransform as long) {
-            transform = maxtransform;
-        } else {
-            transform = event.controller.getAltarLP() as int;
-        }
-        if (transform > maxcapacity - player.soulNetwork.currentEssence) {
-            transform = maxcapacity - player.soulNetwork.currentEssence;
-        }
-        if (transform < 0) {
-            transform = 0;
-        }
-        if (player.soulNetwork.currentEssence < 0) {
-            player.soulNetwork.currentEssence = 0;
-        }
+            if (event.controller.getAltarLP() > maxtransform as long) {
+                transform = maxtransform;
+            } else {
+                transform = event.controller.getAltarLP() as int;
+            }
+            if (transform > maxcapacity - player.soulNetwork.currentEssence) {
+                transform = maxcapacity - player.soulNetwork.currentEssence;
+            }
+            if (transform < 0) {
+                transform = 0;
+            }
+            if (player.soulNetwork.currentEssence < 0) {
+                player.soulNetwork.currentEssence = 0;
+            }
 
-        player.soulNetwork.currentEssence += transform;
-        event.controller.customData = event.controller.customData.update({LP : event.controller.getAltarLP() - transform as long});
+            player.soulNetwork.currentEssence += transform;
+            event.controller.customData = event.controller.customData.update({LP : event.controller.getAltarLP() - transform as long});
+        }
     })
     .addRecipeTooltip("§a向玩家LP网络输入生命源质,需至少一个玩家符文")
     .addRecipeTooltip("§a输出速率为20*促进符文数*(1+0.2*速度符文数)*1.2^转位符文数*2^玩家符文数")
