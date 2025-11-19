@@ -726,11 +726,13 @@ executionerTrait.onHit = function(trait, tool, attacker, target, damage, isCriti
     if (target.isBoss) {
         threshold = 0.1f;
     }
-    if ((target.health as float / target.maxHealth as float) as float < threshold) {
-        var source as IDamageSource = IDamageSource.createPlayerDamage(player);
-        source.setDamageIsAbsolute();
-        target.health = 1.0f;
-        target.world.catenation().sleep(1).then(function(world as IWorld, context) {target.attackEntityFrom(source, 100.0f);}).start();
+    if (!player.world.remote) {
+        if ((target.health as float / target.maxHealth as float) as float < threshold) {
+            var source as IDamageSource = IDamageSource.createPlayerDamage(player);
+            source.setDamageIsAbsolute();
+            target.health = 1.0f;
+            target.world.catenation().sleep(1).then(function(world as IWorld, context) {target.attackEntityFrom(source, 100.0f);}).start();
+        }
     }
 };
 executionerTrait.register();
