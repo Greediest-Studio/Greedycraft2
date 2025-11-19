@@ -3576,26 +3576,6 @@ globiomeTrait.calcDamage = function(trait, tool, attacker, target, originalDamag
 };
 globiomeTrait.register();
 
-var EvolvedTiersMap as int[string] = {
-    "wyvern_metal" : 1,
-    "fallen_metal" : 1,
-    "draconic_metal" : 2,
-    "relifed_metal": 2,
-    "chaotic_metal" : 3,
-    "stormy_metal" : 3,
-    "ordered_metal" : 4
-};
-
-var EvolvedTiersMap1 as int[string] = {
-    "wyvern" : 1,
-    "fallen" : 1,
-    "draconic" : 2,
-    "relifed": 2,
-    "chaotic" : 3,
-    "stormy" : 3,
-    "ordered" : 4
-};
-
 //游戏难度
 //§o快说：谢谢ED！\n§r工具耐久损耗将受到游戏难度加成。
 val leveling_durabilityTrait = TraitBuilder.create("leveling_durability");
@@ -3617,6 +3597,12 @@ leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, 
 
         var difficulty as float = player.difficulty as float;
         var needDamage as int = 1 * Math.max(Math.ceil(Math.sqrt(unmodifiedAmount)), Math.ceil(pow((difficulty / 256), 1.5)));
+        if (CotTicTraitLib.hasTicTrait(tool,"bedrock")) {
+            if (Math.random() < 0.85f) {
+                return 0;
+            }
+            return needDamage;
+        }
 
         if (needDamage > (tool.maxDamage - tool.damage + extradamage)) {
             ToolHelper.breakTool(tool.mutable().native, player.native);
@@ -3627,11 +3613,6 @@ leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, 
     return 0;
 };
 leveling_durabilityTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
-    if (!isNull(tool.tag.Unbreakable)) {
-        if (tool.tag.Unbreakable as byte == 1 as byte) {
-            tool.mutable().updateTag({Unbreakable : 0 as byte});
-        }
-    }
     //Fix the Durablity of Energy Tools
     var newenergy as IData = {};
     var energy = 0;
@@ -3770,12 +3751,6 @@ val bedrockTrait = TraitBuilder.create("bedrock");
 bedrockTrait.color = Color.fromHex("ffffff").getIntColor(); 
 bedrockTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.bedrockTrait.name");
 bedrockTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.bedrockTrait.desc");
-bedrockTrait.onToolDamage = function(trait, tool, unmodifiedAmount, newAmount, holder) {
-    if (Math.random() < 0.85f) {
-        return 0;
-    }
-    return newAmount;
-};
 bedrockTrait.register();
 
 val pureTrait = TraitBuilder.create("pure");

@@ -98,8 +98,8 @@ events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
                 }
             }
             if !isNull(list) {
-                for plr in list {
-                    plr.give(<contenttweaker:chaos_heart>);
+                for player in list {
+                    if (!player.world.remote) {player.give(<contenttweaker:chaos_heart>);}
                 }
             }
         }
@@ -115,8 +115,8 @@ events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
                 }
             }
             if !isNull(list) {
-                for plr in list {
-                    plr.give(<additions:darkest_core> * 10);
+                for player in list {
+                    if (!player.world.remote) {player.give(<additions:darkest_core> * 10);}
                 }
             }
         }

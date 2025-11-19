@@ -2648,26 +2648,6 @@ globiomeTrait.onHurt = function(trait, armor, player, source, damage, newDamage,
 };
 globiomeTrait.register();
 
-var EvolvedTiersMap as int[string] = {
-    "wyvern_metal" : 1,
-    "fallen_metal" : 1,
-    "draconic_metal" : 2,
-    "relifed_metal": 2,
-    "chaotic_metal" : 3,
-    "stormy_metal" : 3,
-    "ordered_metal" : 4
-};
-
-var EvolvedTiersMap1 as int[string] = {
-    "wyvern_armor" : 1,
-    "fallen_armor" : 1,
-    "draconic_armor" : 2,
-    "relifed_armor": 2,
-    "chaotic_armor" : 3,
-    "stormy_armor" : 3,
-    "ordered_armor" : 4
-};
-
 //游戏难度
 //§o快说：谢谢ED！\n§r护甲耐久损耗将受到游戏难度加成。
 val leveling_durabilityTrait = ArmorTraitBuilder.create("leveling_durability");
@@ -2691,6 +2671,13 @@ leveling_durabilityTrait.onArmorDamaged = function(trait, armor, damageSource, a
         var needDamage = 1 + Math.ceil(pow((difficulty / 256), 1.5));
         needDamage += amount;
 
+        if (CotTicTraitLib.hasTicTrait(armor,"bedrock")) {
+            if (Math.random() < 0.85f) {
+                return 0;
+            }
+            return needDamage;
+        }
+
         if (needDamage > (armor.maxDamage - armor.damage + extradamage)) {
             ToolHelper.breakTool(armor.mutable().native, player.native);
         } else {
@@ -2700,11 +2687,6 @@ leveling_durabilityTrait.onArmorDamaged = function(trait, armor, damageSource, a
     return 0;
 };
 leveling_durabilityTrait.onArmorTick = function(trait, armor, world, player) {
-    if (!isNull(armor.tag.Unbreakable)) {
-        if (armor.tag.Unbreakable as byte == 1 as byte) {
-            armor.mutable().updateTag({Unbreakable : 0 as byte});
-        }
-    }
     var newenergy as IData = {};
     var energy = 0;
     if (!isNull(armor.tag.EnergizedEnergy)) {
