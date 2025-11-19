@@ -26,6 +26,7 @@ import mods.modularmachinery.FactoryRecipeFinishEvent;
 import mods.modularmachinery.FactoryRecipeEvent;
 import mods.modularmachinery.RecipeModifierBuilder;
 import mods.modularmachinery.SmartInterfaceUpdateEvent;
+import mods.modularmachinery.MachineStructureUpdateEvent;
 import mods.modularmachinery.Sync;
 
 import mods.modularmachinery.MMEvents;
@@ -92,7 +93,7 @@ $expand IMachineController$getAltarSpeed() as int {
 val capacity = [0,5000,25000,150000,1000000,10000000,30000000,80000000];
 val orbname = ["未绑定气血宝珠","[虚弱]气血宝珠","[学徒]气血宝珠","[法师]气血宝珠","[导师]气血宝珠","[贤者]气血宝珠","[卓越]气血宝珠","[邪术]气血宝珠"];
 
-MMEvents.onMachinePreTick("blood_altar", function(event as MachineTickEvent) {
+MMEvents.onStructureUpdate("blood_altar", function(event as MachineStructureUpdateEvent) {
     var levelMap as int[string] = {
         "ONE" : 1,
         "TWO" : 2,
@@ -170,6 +171,9 @@ MMEvents.onMachinePreTick("blood_altar", function(event as MachineTickEvent) {
         var capacity as long = ((pow(1.1, event.controller.getBlocksInPattern(<bloodmagic:blood_rune:7>) as double) as double * 10000L) as long + (2000L * event.controller.getBlocksInPattern(<bloodmagic:blood_rune:6>) as long));
         event.controller.customData = event.controller.customData.update({capacityLP : capacity});
     }
+});
+
+MMEvents.onMachinePreTick("blood_altar", function(event as MachineTickEvent) {
     //定义祭坛模式
     if (!isNull(event.controller.getSmartInterfaceData("模式"))) {
         if (event.controller.getSmartInterfaceData("模式").value > 2.0f || event.controller.getSmartInterfaceData("模式").value < 0.0f) {
