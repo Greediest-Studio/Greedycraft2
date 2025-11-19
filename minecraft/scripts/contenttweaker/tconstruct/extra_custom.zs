@@ -1,8 +1,14 @@
 #priority 2200
 
+import zentraits.TraitManager;
 import mods.plustic.toolstats;
 import modtweaker.tconstruct.ITICMaterial;
 import mods.tconevo.TconEvo;
+
+import native.slimeknights.tconstruct.library.TinkerRegistry;
+import native.slimeknights.tconstruct.library.materials.Material;
+import native.slimeknights.tconstruct.library.traits.ITrait;
+import native.xyz.phanta.tconevo.init.TconEvoPartTypes;
 
 function addLaser(material as ITICMaterial, damage as float, range as int) as void {
     toolstats.laserPower(material);
