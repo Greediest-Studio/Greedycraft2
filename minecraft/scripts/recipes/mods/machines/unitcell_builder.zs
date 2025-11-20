@@ -153,6 +153,7 @@ addCFFusionRecipe(<ore:dustGlowstone>, <thermalfoundation:material:894>, 1500);
 addCFFusionRecipe(<ore:enderpearl>, <thermalfoundation:material:895>, 2000);
 addCFFusionRecipe(<ore:gemCertusQuartz>, <appliedenergistics2:material:1>, 1500);
 addCFFusionRecipe(<ore:gemTofu>, <tofucraft:material:25>, 2500);
+addCFFusionRecipe(<ore:nuggetPrimordial>, <thaumicwonders:primordial_grain>, 12000);
 
 RecipeBuilder.newBuilder("cp_chaotic", "unitcell_builder", 400)
     .addItemInput(<ore:gemChaoticCocrystal>).setChance(0.0f)

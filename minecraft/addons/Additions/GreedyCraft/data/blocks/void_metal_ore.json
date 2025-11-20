@@ -1,0 +1,16 @@
+{
+  "item_block": {
+    "name": "§d虚空金属矿石",
+    "tooltip": "§4§o只在虚域生成",
+    "ore_dict": "oreVoid",
+    "type": "additions:block_simple"
+  },
+  "name": "§d虚空金属矿石",
+  "material": "minecraft:stone",
+  "hardness": 25.0,
+  "resistance": 4000.0,
+  "harvest_level": 11,
+  "harvest_tool": "pickaxe",
+  "light_level": 1,
+  "type": "additions:simple"
+}

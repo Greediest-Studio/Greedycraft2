@@ -1093,6 +1093,29 @@ besidevoid.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要
 besidevoid.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了血腥裂隙维度标记！");
 besidevoid.setMaxThreads(1).build();
 
+var emptiness = RecipeBuilder.newBuilder("dim_emptiness", "dimensional_miner", 200);
+emptiness.addEnergyPerTickInput(200);
+emptiness.addPreCheckHandler(function(event as RecipeCheckEvent) {
+    if (event.controller.world.dimension != 14676) {
+        if (!isNull(event.controller.customData.dims)) {
+            if ((!(event.controller.hasMachineUpgrade("miner_upg_multidim"))) || (!(event.controller.customData.dims as int[] has 14676))) {
+                event.setFailed("缺少时空组件或控制器未绑定维度标记！");
+            }
+        } else {
+            event.setFailed("机器初始化失败！");
+        }
+    } else {
+        event.setFailed("当前维度就是虚域！");
+    }
+});
+//寰宇级
+emptiness.addItemUpgradeOutput(<additions:void_metal_ore>, COSMILITE, 0.02);
+//终焉级
+emptiness.addItemUpgradeOutput(<additions:primal_metal_ore>, FINALLIUM, 0.01);
+emptiness.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+emptiness.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了虚域维度标记！");
+emptiness.setMaxThreads(1).build();
+
 MMEvents.onControllerGUIRender("dimensional_miner", function(event as ControllerGUIRenderEvent) {
     var dimList as int[] = [];
     if (!isNull(event.controller.customData.dims)) {
@@ -1105,7 +1128,7 @@ MMEvents.onControllerGUIRender("dimensional_miner", function(event as Controller
         (dimList has 0?"§e":"§c") ~ "主界 " ~ (dimList has -1?"§e":"§c") ~ "下界 " ~ (dimList has 1?"§e":"§c") ~ "末地 " ~ (dimList has 7?"§e":"§c") ~ "暮色 " ~ (dimList has 173?"§e":"§c") ~ "天境 " ~ (dimList has 50?"§e":"§c") ~ "深渊 " ~ (dimList has 51?"§e":"§c") ~ "恐惧 " ~ (dimList has 52?"§e":"§c") ~ "残存 " ~ (dimList has 53?"§e":"§c") ~ "黑暗 " ~ (dimList has 54?"§e":"§c") ~ "深暗",
         (dimList has 55?"§e":"§c") ~ "扭曲 " ~ (dimList has 425?"§e":"§c") ~ "雪原 " ~ (dimList has 426?"§e":"§c") ~ "秘界 " ~ (dimList has 645?"§e":"§c") ~ "极光 " ~ (dimList has 823?"§e":"§c") ~ "冰川 " ~ (dimList has 822?"§e":"§c") ~ "怒焰 " ~ (dimList has 820?"§e":"§c") ~ "桉域 " ~ (dimList has 821?"§e":"§c") ~ "噬渊 " ~ (dimList has 824?"§e":"§c") ~ "尘泥 " ~ (dimList has 827?"§e":"§c") ~ "迷雾",
         (dimList has 826?"§e":"§c") ~ "苍穹 " ~ (dimList has -11325?"§e":"§c") ~ "漆黑 " ~ (dimList has 111?"§e":"§c") ~ "失落 " ~ (dimList has 77?"§e":"§c") ~ "恒晓 " ~ (dimList has 76?"§e":"§c") ~ "永昼 " ~ (dimList has 78?"§e":"§c") ~ "深空 " ~ (dimList has 100?"§e":"§c") ~ "虚空 " ~ (dimList has 101?"§e":"§c") ~ "无名 " ~ (dimList has 102?"§e":"§c") ~ "秩序 " ~ (dimList has 20?"§e":"§c") ~ "交错",
-        (dimList has 42?"§e":"§c") ~ "精灵 " ~ (dimList has 80?"§e":"§c") ~ "星域 " ~ (dimList has 324987?"§e":"§c") ~ "深海 " ~ (dimList has 41?"§e":"§c") ~ "血腥 "
+        (dimList has 42?"§e":"§c") ~ "精灵 " ~ (dimList has 80?"§e":"§c") ~ "星域 " ~ (dimList has 324987?"§e":"§c") ~ "深海 " ~ (dimList has 41?"§e":"§c") ~ "血腥 " ~ (dimList has 14676?"§e":"§c") ~ "虚域 "
     ];
     event.extraInfo = info;
 });

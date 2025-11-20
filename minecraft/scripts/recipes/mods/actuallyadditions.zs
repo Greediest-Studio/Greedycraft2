@@ -20,6 +20,7 @@ AtomicReconstructor.addRecipe(<thermalfoundation:material:894>, <minecraft:glows
 AtomicReconstructor.addRecipe(<thermalfoundation:material:895>, <minecraft:ender_pearl>, 2000);
 AtomicReconstructor.addRecipe(<appliedenergistics2:material:1>, <appliedenergistics2:material>, 1500);
 AtomicReconstructor.addRecipe(<tofucraft:material:25>, <tofucraft:material:18>, 2500);
+AtomicReconstructor.addRecipe(<thaumicwonders:primordial_grain>, <tconevo:metal:22>, 12000);
 
 BallOfFur.addReturn(<additions:reward_ticket_common>, 1);
 

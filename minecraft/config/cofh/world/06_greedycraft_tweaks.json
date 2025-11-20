@@ -2140,6 +2140,51 @@
                 "restriction": "whitelist",
                 "value": [1]
             }
+        },
+        "void_metal": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:void_metal_ore",
+                    "weight": 95
+                },{
+                    "name": "additions:primal_metal_ore",
+                    "weight": 5
+                }],
+                "material": "thaumicaugmentation:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 4,
+            "min-height": 1,
+            "max-height": 16,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [14676]
+            }
+        },
+        "rotiron": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:rotiron_ore",
+                    "weight": 100
+                }],
+                "material": "erebus:umberstone",
+                "cluster-size": 3
+            },
+            "cluster-count": 4,
+            "min-height": 1,
+            "max-height": 128,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [66]
+            }
         }
     }
 }

@@ -732,6 +732,16 @@ besidevoid.addItemUpgradeOutput(<additions:losessium_ore>, FINALLIUM, 0.003);
 besidevoid.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 besidevoid.setMaxThreads(1).build();
 
+var emptiness = RecipeBuilder.newBuilder("emptiness", "basic_miner", 200);
+emptiness.addEnergyPerTickInput(200);
+emptiness.addDimensionInput(14676);
+//寰宇级
+emptiness.addItemUpgradeOutput(<additions:void_metal_ore>, COSMILITE, 0.02);
+//终焉级
+emptiness.addItemUpgradeOutput(<additions:primal_metal_ore>, FINALLIUM, 0.01);
+emptiness.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+emptiness.setMaxThreads(1).build();
+
 RecipeAdapterBuilder.create("advanced_miner", "modularmachinery:basic_miner").build();
 RecipeAdapterBuilder.create("dimensional_miner", "modularmachinery:basic_miner").build();
 

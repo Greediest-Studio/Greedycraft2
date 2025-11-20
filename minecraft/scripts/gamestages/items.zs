@@ -1565,7 +1565,8 @@ GameStagesUtil.stageEpicWizard.addIngredients([
     <ore:nuggetDisasterMetal>,
     <ore:blockDisasterMetal>,
     <ore:dustDisasterMetal>,
-    <additions:eldritch_slime>
+    <additions:eldritch_slime>,
+    <ore:oreVoid>
 ], false);
 
 GameStagesUtil.stageEnderCharm.addIngredients([
@@ -2119,7 +2120,8 @@ GameStagesUtil.stageFinal.addIngredients([
     <gct_ores:shalloite_block>,
     <gct_ores:order_stone_final>,
     <gct_ores:finallium_container>,
-    <gct_ores:finallium_container_active>
+    <gct_ores:finallium_container_active>,
+    <ore:orePrimordial>
 ], true);
 
 GameStagesUtil.stageDeepDream.addIngredients([
