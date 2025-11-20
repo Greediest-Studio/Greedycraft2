@@ -3,7 +3,6 @@
 import zentraits.TraitManager;
 import mods.plustic.toolstats;
 import modtweaker.tconstruct.ITICMaterial;
-import mods.tconevo.TconEvo;
 
 import native.slimeknights.tconstruct.library.TinkerRegistry;
 import native.slimeknights.tconstruct.library.materials.Material;
@@ -20,8 +19,6 @@ function addEnergy(material as ITICMaterial, energy as int) as void {
     toolstats.energy(material);
     toolstats.energy(material, energy);
 }
-
-TconEvo.setMagicMaterialStats("ordered_metal", 3990, 93, 4, 12);
 
 addLaser(<ticmat:infinity_metal>, 32767, 100);
 addLaser(<ticmat:dark_matter>, 10, 20);
