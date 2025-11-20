@@ -1487,6 +1487,9 @@ thadTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_tra
 thadTrait.onDamaged = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player)) {
         var multiplier as int = CotTicTraitLib.getTicTrait(armor).length - 2 as int;
+        if (multiplier > 28) {
+            multiplier = 28;
+        }
         return newDamage / (pow(1.05, multiplier) - 1) as float;
     }
     return newDamage;
