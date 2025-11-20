@@ -109,41 +109,33 @@
   },
   "specificTraits": {
     "EXTRA": [
-      "tconevo.soul_rend3",
-      "ordered"
+      "tconevo.soul_rend3"
     ],
     "HEAD": [
-      "tconevo.evolved4",
       "tconevo.soul_rend3",
-      "ordered"
+      "tconevo.evolved4"
     ],
     "HANDLE": [
-      "tconevo.soul_rend3",
-      "ordered"
+      "tconevo.soul_rend3"
     ],
     "BOW": [
-      "tconevo.evolved4",
       "tconevo.soul_rend3",
-      "ordered"
+      "tconevo.evolved4"
     ],
     "PROJECTILE": [
       "tconevo.soul_rend3",
-      "tconevo.evolved4",
-      "ordered"
+      "tconevo.evolved4"
     ],
     "CORE": [
-      "tconevo.evolved4_armor",
-      "ordered_armor"
+      "tconevo.evolved4_armor"
     ],
     "PLATES": [
       "heavy_armor",
-      "tconevo.celestial_armor",
-      "ordered_armor"
+      "tconevo.celestial_armor"
     ],
     "TRIM": [
       "heavy_armor",
-      "tconevo.gale_force1_armor",
-      "ordered_armor"
+      "tconevo.gale_force3_armor"
     ]
   }
 }
