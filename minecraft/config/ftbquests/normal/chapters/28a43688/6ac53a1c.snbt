@@ -2,6 +2,7 @@
 	title: "§b风暴残余",
 	x: -5.0d,
 	y: 0.0d,
+	shape: "gear",
 	description: "击败凋灵风暴，获得风暴碎片",
 	text: [
 		"使用恐怖的凋灵风暴玩偶召唤凋灵风暴",
@@ -23,6 +24,7 @@
 	rewards: [{
 		uid: "e950eb7b",
 		type: "gamestage",
+		team_reward: 0b,
 		auto: "no_toast",
 		stage: "storm_breaker"
 	},

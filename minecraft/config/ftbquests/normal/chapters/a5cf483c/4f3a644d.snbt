@@ -10,6 +10,7 @@
 	dependencies: [
 		"20d93dfc"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "5148999b",
 		type: "item",
@@ -26,6 +27,7 @@
 	{
 		uid: "da94ad8e",
 		type: "gamestage",
+		team_reward: 0b,
 		auto: "no_toast",
 		stage: "novice_wizard"
 	},

@@ -10,6 +10,7 @@
 	dependencies: [
 		"81216f69"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "800e41df",
 		type: "item",
@@ -48,6 +49,7 @@
 	{
 		uid: "191a7222",
 		type: "gamestage",
+		team_reward: 0b,
 		auto: "no_toast",
 		stage: "warped"
 	}]

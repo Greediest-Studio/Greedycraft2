@@ -2,10 +2,12 @@
 	title: "§b束缚万物？",
 	x: -3.5d,
 	y: 3.5d,
+	shape: "gear",
 	description: "制作束缚锭",
 	dependencies: [
 		"0713e465"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "180832e2",
 		type: "item",
@@ -16,6 +18,7 @@
 	rewards: [{
 		uid: "b169bb45",
 		type: "gamestage",
+		team_reward: 0b,
 		auto: "no_toast",
 		stage: "skilled_wizard"
 	},

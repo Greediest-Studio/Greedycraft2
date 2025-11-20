@@ -10,6 +10,7 @@
 	dependencies: [
 		"56ae2c57"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "53b58155",
 		type: "item",
@@ -46,6 +47,7 @@
 	{
 		uid: "45d0fb4d",
 		type: "gamestage",
+		team_reward: 0b,
 		auto: "no_toast",
 		stage: "novice_engineer"
 	}]

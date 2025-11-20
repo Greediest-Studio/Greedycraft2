@@ -2,7 +2,7 @@
 	title: "§b结束了？还早着呢……",
 	x: 3.0d,
 	y: 4.5d,
-	shape: "circle",
+	shape: "gear",
 	description: "击杀末影龙",
 	text: [
 		"困难模式，新的挑战"
@@ -21,6 +21,7 @@
 	rewards: [{
 		uid: "f6e72ebf",
 		type: "gamestage",
+		team_reward: 0b,
 		auto: "no_toast",
 		stage: "hardmode"
 	},

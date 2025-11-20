@@ -11,6 +11,7 @@
 	dependencies: [
 		"14262308"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "722fbeff",
 		type: "item",
@@ -28,6 +29,7 @@
 	rewards: [{
 		uid: "c02dd2a0",
 		type: "gamestage",
+		team_reward: 0b,
 		auto: "no_toast",
 		stage: "awakened"
 	},

@@ -63,6 +63,7 @@
 	{
 		uid: "8739d501",
 		type: "advancement",
+		team_reward: 0b,
 		auto: "no_toast",
 		advancement: "twilightforest:progress_labyrinth",
 		criterion: ""
@@ -70,6 +71,7 @@
 	{
 		uid: "c44d39db",
 		type: "advancement",
+		team_reward: 0b,
 		auto: "no_toast",
 		advancement: "twilightforest:mazebreaker",
 		criterion: ""

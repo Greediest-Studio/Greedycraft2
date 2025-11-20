@@ -2,6 +2,7 @@
 	title: "§b守门人",
 	x: -12.0d,
 	y: -11.0d,
+	shape: "gear",
 	description: "在奥穆索原点的扎哈尔神殿中击杀扎哈尔，获得守门者精华",
 	text: [
 		"扎哈尔死亡时会产生自爆，若在其自爆时被吸入到其附近并进入黑暗领域，则无法获得守门者精华"
@@ -9,6 +10,7 @@
 	dependencies: [
 		"5d80cdc8"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "11bdd763",
 		type: "item",
@@ -46,6 +48,7 @@
 	{
 		uid: "9fd4b050",
 		type: "gamestage",
+		team_reward: 0b,
 		auto: "no_toast",
 		stage: "gatekeeper"
 	}]

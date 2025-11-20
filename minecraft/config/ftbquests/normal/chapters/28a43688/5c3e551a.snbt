@@ -2,6 +2,7 @@
 	title: "§b混沌之力",
 	x: -11.0d,
 	y: 7.0d,
+	shape: "gear",
 	description: "合成混沌核心",
 	text: [
 		""
@@ -10,6 +11,7 @@
 		"fee88de8",
 		"7445cbf6"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "24cb29cc",
 		type: "item",
@@ -20,6 +22,7 @@
 	rewards: [{
 		uid: "7ef00873",
 		type: "gamestage",
+		team_reward: 0b,
 		auto: "no_toast",
 		stage: "chaotic"
 	},

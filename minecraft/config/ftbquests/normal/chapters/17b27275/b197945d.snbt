@@ -3,13 +3,14 @@
 	x: -6.5d,
 	y: 0.0d,
 	shape: "gear",
-	description: "合成秩序注入核心",
+	description: "合成秩序核心",
 	text: [
 		""
 	],
 	dependencies: [
 		"cf5df877"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "54805cb9",
 		type: "item",
@@ -20,6 +21,7 @@
 	rewards: [{
 		uid: "a9a7772b",
 		type: "gamestage",
+		team_reward: 0b,
 		auto: "no_toast",
 		stage: "order"
 	},

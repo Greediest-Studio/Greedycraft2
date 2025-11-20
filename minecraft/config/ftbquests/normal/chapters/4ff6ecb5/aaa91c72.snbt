@@ -29,18 +29,21 @@
 	{
 		uid: "ae06b4dc",
 		type: "command",
+		team_reward: 0b,
 		auto: "enabled",
 		command: "/thaumcraft research @p TCONEVO_BASE"
 	},
 	{
 		uid: "af520920",
 		type: "command",
+		team_reward: 0b,
 		auto: "enabled",
 		command: "/thaumcraft research @p TCONEVO_TCONINFUSIONENCH"
 	},
 	{
 		uid: "5018798d",
 		type: "command",
+		team_reward: 0b,
 		auto: "enabled",
 		command: "/thaumcraft research @p TCONEVO_PRIMALMETAL"
 	},

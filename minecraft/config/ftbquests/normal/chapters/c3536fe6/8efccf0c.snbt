@@ -10,6 +10,7 @@
 	dependencies: [
 		"6b11e765"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "9cb4d285",
 		type: "item",
@@ -27,6 +28,7 @@
 	rewards: [{
 		uid: "9b583931",
 		type: "gamestage",
+		team_reward: 0b,
 		auto: "no_toast",
 		stage: "wyvern"
 	},
