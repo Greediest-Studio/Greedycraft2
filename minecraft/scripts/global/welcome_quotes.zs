@@ -17,7 +17,7 @@ global welcomeQuotes as IData[][string] = {
         ["", {text: "本整合附带了大量的音乐和改进的音效，强烈推荐佩戴耳机游玩！", color: "yellow"}] ,
         ["", {text: "你知道吗？赞助者可以出现在主菜单，还可以定制物品哦！", color: "yellow"}, {text: "赞助通道", color: "light_purple", underlined: true, clickEvent: {action: "open_url", "value": "http://donate.tcreopargh.xyz/"}}, {text: "  "}, {text: "查看赞助者列表", bold: true, underlined: true,color: "light_purple", clickEvent: {action: "run_command", value: "/sponsors list"}}],
         ["", {text: "如果遇到了背景音乐长时间停止播放的问题，你可以按Alt+小键盘上的-来重载动态音乐！", color: "yellow"}],
-        ["", {text: "组合键§6F3 + A§e可以重载区块并提高帧率，§6Ctrl + S§e可以重载声音系统（在没有声音时使用）。", color: "yellow"}],
+        ["", {text: "组合键§6F3 + A§e可以重载区块并提高帧率，§6Ctrl + F6§e可以重载声音系统（在没有声音时使用）。", color: "yellow"}],
         ["", {text: "你可以使用§6/hidescoreboard§e指令来关闭右边的计分板！§6/showscoreboard§e可以重新打开计分板。", color: "yellow"}],
         ["", {text: "你可以使用§6/hidedeathquotes§e指令来关闭死亡信息显示，或§6/showdeathquotes§e重新打开死亡信息显示！", color: "yellow"}],
         ["", {text: "你可以使用§6/backup§e指令手动备份世界，在世界选择界面可以找到恢复备份的选项！", color: "yellow"}],

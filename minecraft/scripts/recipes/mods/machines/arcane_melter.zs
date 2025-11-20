@@ -224,18 +224,6 @@ MMEvents.onMachinePreTick("arcane_melter", function(event as MachineTickEvent) {
 RecipeBuilder.newBuilder("aspect","arcane_melter", 20)
     .addEnergyPerTickInput(100)
     .addItemInput(<minecraft:tnt>.withTag({ench: [{lvl: 1, id: 255}]})).setPreViewNBT({ench: [{lvl: 100, id: 3}], display: {Lore: ["§9所有放置于输入仓的物品都将被消耗"], Name: "§7示例输入"}})
-    .addRecipeTooltip("§9物品输入仓(支持ME输入仓)，源质输出仓(同上)，能源输入仓均至少放置一个")
-    .addRecipeTooltip("§9且会自动选取且仅选取各一个能源输入仓与源质输出仓")
-    .addRecipeTooltip("§9优先选取坐标XYZ值更大者且优先级Z>Y>X")
-    .addRecipeTooltip("§9每输出1点源质消耗100RF")
-    .addRecipeTooltip("§9每有一个多于一个物品输入仓耗电x2")
-    .addRecipeTooltip("§9配方运行结束时若能源输入仓中RF不足则不输出源质")
-    .addRecipeTooltip("§9自带16并行")
+    .addRecipeTooltip("§9提取输入物品中的所有源质")
+    .addRecipeTooltip("§9每输出1点源质消耗100RF,每多一个输入仓能耗翻倍")
     .build();
-
-/* 
-RecipeAdapterBuilder.create("arcane_melter", "thaumcraft:whimcraft_smelter")
-    .addEnergyPerTickInput(100)
-    .build();
-*/
-/* {Aspects: [{amount: 0721,key: "ciallo~"}]} */
