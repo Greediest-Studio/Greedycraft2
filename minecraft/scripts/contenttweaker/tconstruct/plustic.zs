@@ -92,13 +92,7 @@ addLaser(<ticmat:void_essence>, 43, 40);
 addLaser(<ticmat:hermaphroditic>, 44, 31);
 addLaser(<ticmat:balanced_matrix>, 84, 32);
 addLaser(<ticmat:everite>, 27, 39);
-/*光子锭匠魂材料注册未知
-addLaser(<ticmat:a>, x, y);
-*/
 addLaser(<ticmat:crystaltine>, 36, 40);
-/*荣耀合金匠魂材料注册未知
-addLaser(<ticmat:a>, x, y);
-*/
 addLaser(<ticmat:redins>, 9, 40);
 addLaser(<ticmat:corundum>, 9, 40);
 addLaser(<ticmat:pyrophyllite>, 9, 40);
