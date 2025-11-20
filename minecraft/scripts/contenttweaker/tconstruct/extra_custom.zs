@@ -23,6 +23,13 @@ function addEnergy(material as ITICMaterial, energy as int) as void {
 
 TconEvo.setMagicMaterialStats("ordered_metal", 3990, 93, 4, 12);
 
+TraitManager.attachTrait("chaotic_metal", "chaotic", "head");
+TraitManager.attachTrait("chaotic_metal", "chaotic", "handle");
+TraitManager.attachTrait("chaotic_metal", "chaotic", "extra");
+TraitManager.attachTrait("chaotic_metal", "chaotic_armor", "core");
+TraitManager.attachTrait("chaotic_metal", "chaotic_armor", "plates");
+TraitManager.attachTrait("chaotic_metal", "chaotic_armor", "trim");
+
 addLaser(<ticmat:infinity_metal>, 32767, 100);
 addLaser(<ticmat:dark_matter>, 10, 20);
 addLaser(<ticmat:red_matter>, 14, 20);
