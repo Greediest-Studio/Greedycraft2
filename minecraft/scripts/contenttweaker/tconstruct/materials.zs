@@ -435,6 +435,23 @@ orichalcos.addBowMaterialStats(getDrawSpeed(1.4) as float, 1.3, 13.0);
 orichalcos.addProjectileMaterialStats();
 orichalcos.register();
 
+val kianate = ExtendedMaterialBuilder.create("kianate");
+kianate.color = Color.fromHex("ff949d").getIntColor();
+kianate.craftable = false;
+kianate.castable = true;
+kianate.representativeItem = <item:additions:kianate_ingot>;
+kianate.liquid = <liquid:kianate>;
+kianate.addItem(<ore:ingotKianate>);
+kianate.localizedName = game.localize("greedycraft.tconstruct.material.kianate.name");
+kianate.addHeadMaterialStats(3213, 17, 36.5, 9);
+kianate.addHandleMaterialStats(1.3, 966);
+kianate.addExtraMaterialStats(1234);
+kianate.addBowMaterialStats(getDrawSpeed(1.3) as float, 1.6, 21.0);
+kianate.addCoreMaterialStats(164, 58);
+kianate.addPlatesMaterialStats(9.2, 48, 3.1);
+kianate.addTrimMaterialStats(52);
+kianate.register();
+
 val chocolate = MaterialBuilder.create("chocolate");
 chocolate.color = Color.fromHex("795548").getIntColor(); 
 chocolate.craftable = true;

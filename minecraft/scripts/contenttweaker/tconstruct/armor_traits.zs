@@ -27,6 +27,9 @@ import crafttweaker.entity.AttributeModifier;
 import crafttweaker.entity.AttributeInstance;
 import crafttweaker.entity.Attribute;
 import crafttweaker.potions.IPotionEffect;
+import crafttweaker.util.IAxisAlignedBB;
+import crafttweaker.util.Position3f;
+import crafttweaker.world.IBlockPos;
 
 import mods.ctutils.utils.Math;
 import mods.contenttweaker.tconstruct.Material;
@@ -56,12 +59,15 @@ import kbtwkr.keybinding.Modifier;
 import kbtwkr.keybinding.Keys;
 
 import native.slimeknights.tconstruct.library.utils.ToolHelper;
+import native.com.meteor.extrabotany.common.helper.SubspaceHelper;
 
 val HachimiBinding as KeyBinding = KeyBinding.createSyncable("greedycraft.keybinding.hachimi_roar", ConflictContext.IN_GAME, Modifier.NONE, Keys.KEY_S, "greedycraft.keycategory");
 val HachimiActive as KeyBinding = KeyBinding.createSyncable("greedycraft.keybinding.hachimi_active", ConflictContext.IN_GAME, Modifier.NONE, Keys.KEY_W, "greedycraft.keycategory");
+val phaseRushActive as KeyBinding = KeyBinding.createSyncable("greedycraft.keybinding.phaserush_active", ConflictContext.IN_GAME, Modifier.NONE, Keys.KEY_X, "greedycraft.keycategory");
 EventManager.getInstance().onKeyBindingRegister(function(event as KeyBindingRegisterEvent) {
 	event.addKeyBinding(HachimiBinding);
     event.addKeyBinding(HachimiActive);
+    event.addKeyBinding(phaseRushActive);
 });
 
 $expand IItemStack$hasTicTrait(traitid as string) as bool {
@@ -172,6 +178,10 @@ $expand IMutableItemStack$attemptDamageItemWithEnergy(num as int, player as IPla
 
 function lognum(a as int, b as int) as float {
     return (Math.log(b) as float / Math.log(a) as float) as float;
+}
+
+function getTrueYaw(entity as IEntity) as double {
+    return (360.0d - entity.rotationYaw % 360.0d) % 360.0d;
 }
 
 // Calculates what the effect of one piece of armor should be
@@ -3553,3 +3563,94 @@ specular_reflectionTrait.onHurt = function(trait, armor, player, source, damage,
     return newDamage;
 };
 specular_reflectionTrait.register();
+
+val phase_rushTrait = ArmorTraitBuilder.create("phase_rush");
+phase_rushTrait.color = Color.fromHex("ffffff").getIntColor();
+phase_rushTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.phase_rushTrait.name");
+phase_rushTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.phase_rushTrait.desc");
+phase_rushTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        var cooldownBasic as int = 200;
+        if (CotTicTraitLib.hasTicTrait(armor, "power_of_herrscher_armor")) cooldownBasic = 100;
+        if (isNull(armor.tag.phaseRushCooldown)) {
+            armor.mutable().updateTag({phaseRushCooldown : cooldownBasic as int, phaseRushActive : 0 as int});
+        } else {
+            var cooldown as int = armor.tag.phaseRushCooldown as int;
+            if (player.isKeyDownServer(phaseRushActive)) {
+                if (armor.tag.phaseRushActive as int == 0 && cooldown <= 0) {
+                    armor.mutable().updateTag({phaseRushActive : 1 as int, phaseRushCooldown : cooldownBasic as int});
+                } else {
+                    player.sendStatusMessage("§c相位冲刺冷却中：" ~ cooldown ~ "ticks");
+                }
+            }
+            if (armor.tag.phaseRushActive as int == 1 && (player.motionX != 0.0d || player.motionZ != 0.0d)) {
+                var xAsis as double = (player.motionX / Math.sqrt(pow(player.motionX, 2.0d) + pow(player.motionZ, 2.0d)));
+                var zAsis as double = (player.motionZ / Math.sqrt(pow(player.motionX, 2.0d) + pow(player.motionZ, 2.0d)));
+                player.motionX = xAsis * 3.178d;
+                player.motionZ = zAsis * 3.178d;
+                var midX as double = player.x + xAsis * 3.5d;
+                var midZ as double = player.z + zAsis * 3.5d;
+                var midY as double = player.y;
+                var midPos as IBlockPos = Position3f.create(midX as float, midY as float, midZ as float) as IBlockPos;
+                var startPos as IBlockPos = midPos.up(1).north(1).east(1);
+                var endPos as IBlockPos = midPos.down(1).south(1).west(1);
+                for entity in world.getEntitiesWithinAABBExcludingEntity(IAxisAlignedBB.create(startPos, endPos), player) {
+                    if (entity instanceof IEntityLivingBase) {
+                        var en as IEntityLivingBase = entity;
+                        en.attackEntityFrom(IDamageSource.createEntityDamage("generic", player), en.maxHealth * 0.05f);
+                        server.commandManager.executeCommandSilent(server, "particle barrier " ~ en.x ~ " " ~ (en.y + 1.0d) ~ " " ~ en.z ~ " 0 0 0 0 100");
+                        server.commandManager.executeCommandSilent(server, "particle hugeexplosion " ~ en.x ~ " " ~ (en.y + 1.0d) ~ " " ~ en.z ~ " 0 0 0 0 1");
+                    }
+                }
+                armor.mutable().updateTag({phaseRushActive : 0 as int});
+            }
+            if (cooldown > 0) {
+                cooldown -= 1;
+                armor.mutable().updateTag({phaseRushCooldown : cooldown as int});
+            }
+        }
+    }
+};
+phase_rushTrait.register();
+
+val apostle_of_collapseTrait = ArmorTraitBuilder.create("apostle_of_collapse");
+apostle_of_collapseTrait.color = Color.fromHex("ffffff").getIntColor();
+apostle_of_collapseTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.apostle_of_collapseTrait.name");
+apostle_of_collapseTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.apostle_of_collapseTrait.desc");
+apostle_of_collapseTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !isNull(source.getTrueSource())) {
+        var entity as IEntity = source.getTrueSource();
+        var rate as float = 0.05f;
+        if (CotTicTraitLib.hasTicTrait(armor, "power_of_herrscher_armor")) rate += 0.05f;
+        if (Math.random() < rate) {
+            player.position3f = entity.position3f;
+            var x as float = entity.x as float;
+            var y as float = entity.y as float;
+            var z as float = entity.z as float;
+            SubspaceHelper.summonSubspaceWithEffect(player.world.native, player.native, x, y + 5.0f, z, x, y, z, damage * (rate / 0.05f));
+            SubspaceHelper.summonSubspaceWithEffect(player.world.native, player.native, x + 2.0f, y + 5.0f, z, x + 2.0f, y, z, damage * (rate / 0.05f));
+            SubspaceHelper.summonSubspaceWithEffect(player.world.native, player.native, x - 2.0f, y + 5.0f, z, x - 2.0f, y, z, damage * (rate / 0.05f));
+            SubspaceHelper.summonSubspaceWithEffect(player.world.native, player.native, x, y + 5.0f, z + 2.0f, x, y, z + 2.0f, damage * (rate / 0.05f));
+            SubspaceHelper.summonSubspaceWithEffect(player.world.native, player.native, x, y + 5.0f, z - 2.0f, x, y, z - 2.0f, damage * (rate / 0.05f));
+            SubspaceHelper.summonSubspaceWithEffect(player.world.native, player.native, x + 1.4f, y + 5.0f, z + 1.4f, x + 1.4f, y, z + 1.4f, damage * (rate / 0.05f));
+            SubspaceHelper.summonSubspaceWithEffect(player.world.native, player.native, x - 1.4f, y + 5.0f, z - 1.4f, x - 1.4f, y, z - 1.4f, damage * (rate / 0.05f));
+            SubspaceHelper.summonSubspaceWithEffect(player.world.native, player.native, x + 1.4f, y + 5.0f, z - 1.4f, x + 1.4f, y, z - 1.4f, damage * (rate / 0.05f));
+            SubspaceHelper.summonSubspaceWithEffect(player.world.native, player.native, x - 1.4f, y + 5.0f, z + 1.4f, x - 1.4f, y, z + 1.4f, damage * (rate / 0.05f));
+            return newDamage * 0.5f;
+        }
+    }
+    return newDamage;
+};
+apostle_of_collapseTrait.register();
+
+val power_of_herrscherTrait = ArmorTraitBuilder.create("power_of_herrscher");
+power_of_herrscherTrait.color = Color.fromHex("ffffff").getIntColor();
+power_of_herrscherTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.power_of_herrscherTrait.name");
+power_of_herrscherTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.power_of_herrscherTrait.desc");
+power_of_herrscherTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        return newDamage * 0.95f;
+    }
+    return newDamage;
+};
+power_of_herrscherTrait.register();

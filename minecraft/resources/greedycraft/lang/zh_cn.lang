@@ -36,6 +36,8 @@ component.missing.gugu-utils:aspect.input=缺少源质输入仓！
 component.missing.gugu-utils:aspect.output=缺少源质输出仓！
 craftcheck.failure.gugu-utils:mana_pertick.input=魔力输入过慢！
 
+trait.ma.chunky=离魂
+
 greedycraft.language=zh_cn
 greedycraft.armor_trait.tooltip.damage_reduction=§9伤害减免：%s%%
 greedycraft.command.broadcastCommand.usage=/broadcast [消息]
@@ -153,7 +155,7 @@ greedycraft.event.welcome.new_year2=§9§o！
 
 greedycraft.keybinding.hachimi_roar=哈气蓄力
 greedycraft.keybinding.hachimi_active=哈气释放
-greedycraft.keybinding.overclock_toggle=开启/关闭算力超频
+greedycraft.keybinding.phaserush_active=相位穿梭
 greedycraft.keycategory=贪婪整合包
 
 greedycraft.jei.additions.aeroite_ingot.desc.0=你可以在天境主世界天空中的云里找到这种矿物
@@ -406,6 +408,7 @@ greedycraft.tconstruct.material.izumium.name=伊斯镁
 greedycraft.tconstruct.material.decatine.name=残痕铁
 greedycraft.tconstruct.material.soultine.name=魂灵钛
 greedycraft.tconstruct.material.malevolencite.name=恶意钢
+greedycraft.tconstruct.material.kianate.name=空律精华
 #护甲词条
 greedycraft.tconstruct.armor_trait.wolf_roarTrait.name=月啸
 greedycraft.tconstruct.armor_trait.wolf_roarTrait.desc=§o满月时分……\n§r在满月时增加少量防御。
@@ -780,6 +783,12 @@ greedycraft.tconstruct.armor_trait.flops_overclockTrait.name=算力超频
 greedycraft.tconstruct.armor_trait.flops_overclockTrait.desc=§o以身为机！\n§b新星工程-联动词条\n§r以护甲耐久的快速消耗为代价，提升玩家所拥有的模块化机械的效率至133.3%！
 greedycraft.tconstruct.armor_trait.specular_reflectionTrait.name=镜面反射
 greedycraft.tconstruct.armor_trait.specular_reflectionTrait.desc=§o反射与折射并存！\n§r受到魔法攻击时，中等概率反弹30%伤害给攻击者。
+greedycraft.tconstruct.armor_trait.phase_rushTrait.name=相位穿梭
+greedycraft.tconstruct.armor_trait.phase_rushTrait.desc=§o撕裂空间！\n§r按下快捷键向前冲刺7格，同时禁锢并重创路径中央的敌人！（冷却时间10秒）
+greedycraft.tconstruct.armor_trait.apostle_of_collapseTrait.name=破灭之使
+greedycraft.tconstruct.armor_trait.apostle_of_collapseTrait.desc=§o力量，正在涌现出来！\n§r受到伤害时有小概率触发律者之力，瞬移到攻击者身前并使用亚空之矛给予其重创！
+greedycraft.tconstruct.armor_trait.power_of_herrscherTrait.name=律者能量
+greedycraft.tconstruct.armor_trait.power_of_herrscherTrait.desc=§o律者之力！\n§r增强来自律者精华金属的技能，也能小额提升伤害减免。
 #工具词条
 greedycraft.tconstruct.tool_trait.power_of_herrscherTrait.name=律者能量
 greedycraft.tconstruct.tool_trait.power_of_herrscherTrait.desc=§o律者之力！\n§r增强来自律者精华金属的技能，也能小额增幅攻击伤害。

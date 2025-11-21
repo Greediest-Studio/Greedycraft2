@@ -19,6 +19,10 @@ global distance2D as function(double, double, double, double)double = function(x
     return Math.sqrt(pow(x1 - x2, 2.0d) + pow(z1 - z2, 2.0d));
 };
 
+global distance3D as function(double, double, double, double, double, double)double = function(x1 as double, y1 as double, z1 as double, x2 as double = 0.0d, y2 as double = 0.0d, z2 as double = 0.0d) as double {
+    return Math.sqrt(pow(x1 - x2, 2.0d) + pow(y1 - y2, 2.0d) + pow(z1 - z2, 2.0d));
+};
+
 global polarize as function(double, double, double, double)double[] = function(x1 as double, z1 as double, x2 as double = 0.0d, z2 as double = 0.0d) as double[] {
     var r as double = distance2D(x1, z1, x2, z2);
     var dx as double = x1 - x2;
