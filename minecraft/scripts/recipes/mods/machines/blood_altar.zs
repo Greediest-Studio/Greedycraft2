@@ -103,7 +103,7 @@ MMEvents.onStructureUpdate("blood_altar", function(event as MachineStructureUpda
         "SIX" : 6
     };
     //获取祭坛等级
-    if (event.controller.world.getWorldTime() % 100 == 0 && (!event.controller.world.isRemote())) {
+    if (!event.controller.world.isRemote()) {
         var altarBlock = event.controller.world.getBlock(event.controller.pos.down(4));
         if (!isNull(altarBlock) && !isNull(altarBlock.data) && !isNull(altarBlock.data.bloodAltar)) {
             var altarLevel as int = levelMap[altarBlock.data.bloodAltar.upgradeLevel as string] as int;
@@ -157,17 +157,13 @@ MMEvents.onStructureUpdate("blood_altar", function(event as MachineStructureUpda
                 event.controller.customData = event.controller.customData.update({level : 6});
             }
         }
-    }
     //调整机器线程
-    if (event.controller.world.getWorldTime() % 100 == 0 && (!event.controller.world.isRemote())) {
         if (event.controller.getBlocksInPattern(<additions:blood_rune_thread>) > 15) {
             event.controller.extraThreadCount = 15;
         } else {
             event.controller.extraThreadCount = event.controller.getBlocksInPattern(<additions:blood_rune_thread>) as int;
         }
-    }
     //定义最大容量
-    if (event.controller.world.getWorldTime() % 40 == 0 && (!event.controller.world.isRemote())) {
         var capacity as long = ((pow(1.1, event.controller.getBlocksInPattern(<bloodmagic:blood_rune:7>) as double) as double * 10000L) as long + (2000L * event.controller.getBlocksInPattern(<bloodmagic:blood_rune:6>) as long));
         event.controller.customData = event.controller.customData.update({capacityLP : capacity});
     }
