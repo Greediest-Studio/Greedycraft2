@@ -48,6 +48,7 @@ import mods.zenutils.DataUpdateOperation.MERGE;
 import mods.zenutils.DataUpdateOperation.REMOVE;
 import mods.zenutils.DataUpdateOperation.BUMP;
 import native.java.math.BigInteger;
+import native.slimeknights.tconstruct.library.utils.ToolHelper;
 
 events.onPlayerInteractEntity(function(event as PlayerInteractEntityEvent) {
     var player as IPlayer = event.player;
@@ -63,6 +64,31 @@ events.onPlayerInteractEntity(function(event as PlayerInteractEntityEvent) {
                     player.give(<additions:soultine_ingot>);
                 } else {
                     player.sendChat("§c提取失败了！");
+                }
+            }
+        }
+    }
+
+    //Spaceshock trait
+    if (event.target instanceof IEntityLivingBase && !event.world.isRemote()) {
+        var target as IEntityLivingBase = event.target;
+        if (!isNull(player.mainHandHeldItem)) {
+            var item as IItemStack = player.mainHandHeldItem;
+            if (TicLib.isTicTool(item) && TicTraitLib.hasTicTrait(item, "spaceshock") && player.getCooldown(item) <= 0.0f) {
+                if (distance2D(player.x as double, player.z as double, target.x as double, target.z as double) >= 3.5d) {
+                    player.setCooldown(item, 160);
+                    var attack as float = ToolHelper.getActualAttack(item.native);
+                    var baseRange as int = 2;
+                    if (TicTraitLib.hasTicTrait(item, "power_of_herrscher")) baseRange = 3;
+                    for ent in event.world.getEntitiesInArea(target.position.up(2).north(2).east(2), target.position.down(2).south(2).west(2)) {
+                        if (ent instanceof IEntityLivingBase && !(ent instanceof IPlayer)) {
+                            var entity as IEntityLivingBase = ent;
+                            entity.attackEntityFrom(IDamageSource.createEntityDamage("generic", player), attack * 5.0f);
+                            entity.addPotionEffect(<potion:tiths:paralysed>.makePotionEffect(100, 9, false, false));
+                            server.commandManager.executeCommandSilent(server, "particle barrier " ~ entity.x ~ " " ~ (entity.y + 1.0d) ~ " " ~ entity.z ~ " 0 0 0 0 100");
+                            server.commandManager.executeCommandSilent(server, "particle hugeexplosion " ~ entity.x ~ " " ~ (entity.y + 1.0d) ~ " " ~ entity.z ~ " 0 0 0 0 1");
+                        }
+                    }
                 }
             }
         }

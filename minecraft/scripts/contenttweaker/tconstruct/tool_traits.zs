@@ -4484,9 +4484,47 @@ subspaceTrait.onHit = function(trait, tool, attacker, target, damage, isCritical
             if (IManaItemHandler.requestManaExactForTool(manaItem, player, 600, true)) {
                 var damage as float = ToolHelper.getActualAttack(tool.native);
                 SubspaceHelper.summonSubspaceFromPlayerWithEffect(player.world.native, player.native, damage);
+                if (Math.random() < 0.2f && CotTicTraitLib.hasTicTrait(tool, "power_of_herrscher") && !world.remote) {
+                    var centerPos as IBlockPos = target.position;
+                    var targetX as float = centerPos.x as float;
+                    var targetY as float = centerPos.y as float;
+                    var targetZ as float = centerPos.z as float;
+                    val root3 as float = Math.sqrt(3.0f) as float;
+                    world.catenation().run(function(world, context) {
+                        SubspaceHelper.summonSubspaceWithEffect(world.native, player.native, targetX + 2.0f, targetY + 2.0f, targetZ, targetX, targetY, targetZ, damage * 2.0f);
+                    }).sleep(4).then(function(world, context) {
+                        SubspaceHelper.summonSubspaceWithEffect(world.native, player.native, targetX + 1.0f, targetY + 2.0f, targetZ + root3, targetX, targetY, targetZ, damage * 2.0f);
+                    }).sleep(4).then(function(world, context) {
+                        SubspaceHelper.summonSubspaceWithEffect(world.native, player.native, targetX - 1.0f, targetY + 2.0f, targetZ + root3, targetX, targetY, targetZ, damage * 2.0f);
+                    }).sleep(4).then(function(world, context) {
+                        SubspaceHelper.summonSubspaceWithEffect(world.native, player.native, targetX - 2.0f, targetY + 2.0f, targetZ, targetX, targetY, targetZ, damage * 2.0f);
+                    }).sleep(4).then(function(world, context) {
+                        SubspaceHelper.summonSubspaceWithEffect(world.native, player.native, targetX - 1.0f, targetY + 2.0f, targetZ - root3, targetX, targetY, targetZ, damage * 2.0f);
+                    }).sleep(4).then(function(world, context) {
+                        SubspaceHelper.summonSubspaceWithEffect(world.native, player.native, targetX + 1.0f, targetY + 2.0f, targetZ - root3, targetX, targetY, targetZ, damage * 2.0f);
+                    }).start();
+                }
                 break;
             }
         }        
     }
 };
 subspaceTrait.register();
+
+val spaceshockTrait = TraitBuilder.create("spaceshock");
+spaceshockTrait.color = Color.fromHex("ffffff").getIntColor(); 
+spaceshockTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.spaceshockTrait.name");
+spaceshockTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.spaceshockTrait.desc");
+spaceshockTrait.register();
+
+val power_of_herrscherTrait = TraitBuilder.create("power_of_herrscher");
+power_of_herrscherTrait.color = Color.fromHex("ffffff").getIntColor(); 
+power_of_herrscherTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.power_of_herrscherTrait.name");
+power_of_herrscherTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.power_of_herrscherTrait.desc");
+power_of_herrscherTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        return newDamage * 1.05f;
+    }
+    return newDamage;
+};
+power_of_herrscherTrait.register();
