@@ -160,7 +160,17 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <betterendforge:tenanea_sapling>,
         <betterendforge:helix_tree_sapling>,
         <betterendforge:umbrella_tree_sapling>,
-        <betterendforge:lucernia_sapling>
+        <betterendforge:lucernia_sapling>,
+        <journey:eucasapling>,
+        <journey:boilsapling>,
+        <journey:corbasapling>,
+        <journey:bogwood_sapling>,
+        <journey:depthssapling>,
+        <journey:nethersapling>,
+        <journey:earthensapling>,
+        <journey:frozenicesapling>,
+        <journey:frozensapling>,
+        <journey:terraniasapling>
     ],
     <ore:treeLeaves> : [
         <betterendforge:lacugrove_leaves>,
@@ -168,7 +178,22 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <betterendforge:dragon_tree_leaves>,
         <betterendforge:tenanea_leaves>,
         <betterendforge:helix_tree_leaves>,
-        <betterendforge:lucernia_leaves>
+        <betterendforge:lucernia_leaves>,
+        <journey:witherwoodleaves>,
+        <journey:bogwood_leaves>,
+        <journey:iceleaves>,
+        <journey:corbaleaves>,
+        <journey:depthsleaves>,
+        <journey:frozenleaves>,
+        <journey:cloudialeaves>,
+        <journey:burningleaves>,
+        <journey:eucagoldleaves>,
+        <journey:eucasilverleaves>,
+        <journey:terranianleaves>,
+        <journey:sizzlerwoodleaves>,
+        <journey:earthennetherleaves>,
+        <journey:eucadarkgreenleaves>,
+        <journey:eucalightgreenleaves>
     ],
     <ore:slabWood> : [
         <betterendforge:mossy_glowshroom_slab>,

@@ -313,6 +313,9 @@ advEnd.addItemUpgradeOutput(<additions:breakium_ore>, FINALLIUM, 0.006);
 advEnd.addItemUpgradeOutput(<additions:fenzium_ore>, FINALLIUM, 0.012);
 advEnd.addItemUpgradeOutput(<additions:sissidium_ore>, FINALLIUM, 0.0045);
 advEnd.addItemUpgradeOutput(<additions:technetium_ore>, FINALLIUM, 0.003);
+advEnd.addItemUpgradeOutput(<moretcon:oregravitonium>, FINALLIUM, 0.02);
+//波动级
+advEnd.addItemUpgradeOutput(<additions:breedum_ore>, WAVITE, 0.0015);
 advEnd.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 advEnd.addRecipeTooltip("§e需要末地维度强化组件");
 advEnd.setMaxThreads(1).build();

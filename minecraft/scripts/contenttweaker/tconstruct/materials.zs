@@ -452,6 +452,23 @@ kianate.addPlatesMaterialStats(9.2, 48, 3.1);
 kianate.addTrimMaterialStats(52);
 kianate.register();
 
+val niobium = ExtendedMaterialBuilder.create("niobium");
+niobium.color = Color.fromHex("4b71aa").getIntColor();
+niobium.craftable = false;
+niobium.castable = true;
+niobium.representativeItem = <item:additions:niobium_ingot>;
+niobium.liquid = <liquid:niobium>;
+niobium.addItem(<ore:ingotNiobium>);
+niobium.localizedName = game.localize("greedycraft.tconstruct.material.niobium.name");
+niobium.addHeadMaterialStats(1200, 12.5, 13.5, 7);
+niobium.addHandleMaterialStats(1.1, 420);
+niobium.addExtraMaterialStats(512);
+niobium.addBowMaterialStats(getDrawSpeed(2.0) as float, 1.5, 10.0);
+niobium.addCoreMaterialStats(160, 34.5);
+niobium.addPlatesMaterialStats(1.2, 28, 2.8);
+niobium.addTrimMaterialStats(28);
+niobium.register();
+
 val chocolate = MaterialBuilder.create("chocolate");
 chocolate.color = Color.fromHex("795548").getIntColor(); 
 chocolate.craftable = true;
@@ -1248,6 +1265,23 @@ korite.addHandleMaterialStats(1.5, 150);
 korite.addExtraMaterialStats(150);
 korite.addBowMaterialStats(getDrawSpeed(1.5) as float, 1.5, 17);
 korite.register();
+
+val chloroplast = ExtendedMaterialBuilder.create("chloroplast");
+chloroplast.color = Color.fromHex("7ced6f").getIntColor();
+chloroplast.craftable = false;
+chloroplast.castable = true;
+chloroplast.representativeItem = <item:tiths:ingot_chloroplast>;
+chloroplast.addItem(<item:tiths:ingot_chloroplast>);
+chloroplast.liquid = <liquid:chloroplast>;
+chloroplast.localizedName = game.localize("greedycraft.tconstruct.material.chloroplast.name");
+chloroplast.addHeadMaterialStats(1320, 6.5, 17, 8);
+chloroplast.addHandleMaterialStats(2.0, 220);
+chloroplast.addExtraMaterialStats(315);
+chloroplast.addBowMaterialStats(getDrawSpeed(0.9) as float, 1.1, -2);
+chloroplast.addCoreMaterialStats(130, 27.5);
+chloroplast.addPlatesMaterialStats(3.1, 80, 3.2);
+chloroplast.addTrimMaterialStats(90);
+chloroplast.register();
 
 val horizonite = mods.contenttweaker.tconstruct.MaterialBuilder.create("horizonite");
 horizonite.color = Color.fromHex("f26c29").getIntColor();

@@ -99,3 +99,7 @@
 <item:endreborn:block_wolframium_ore>.asBlock().definition.setHarvestLevel("pickaxe", 7);
 
 <item:moretcon:oreenderal>.asBlock().definition.setHarvestLevel("pickaxe", 8);
+
+<item:moretcon:oregravitonium>.asBlock().definition.setHarvestLevel("pickaxe", 13);
+
+<item:moretcon:oregravitoniumdense>.asBlock().definition.setHarvestLevel("pickaxe", 13);

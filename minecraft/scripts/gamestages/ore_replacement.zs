@@ -102,6 +102,8 @@ GameStagesUtil.stageFusionMatrix.addOreReplacement(<additions:aerotheum_ore>, <a
 GameStagesUtil.stageFusionMatrix.addOreReplacement(<additions:petrotheum_ore>, <theaurorian:aurorianstone>, false);
 
 GameStagesUtil.stageWitherSlayer.addOreReplacement(<journey:hellstoneore>, <minecraft:netherrack>, false);
+GameStagesUtil.stageWitherSlayer.addOreReplacement(<journey:shadiumore>, <minecraft:stone>, false);
+GameStagesUtil.stageWitherSlayer.addOreReplacement(<journey:luniumore>, <minecraft:stone>, false);
 
 GameStagesUtil.stageChaoticDominator.addOreReplacement(<gct_mobs:gravity_debris>, <aether_legacy:holystone>, false);
 
@@ -168,3 +170,5 @@ GameStagesUtil.stageFinal.addOreReplacement(<additions:tonitruium_ore>, <journey
 GameStagesUtil.stageFinal.addOreReplacement(<additions:naturaeum_ore>, <journey:corbastone>, false);
 GameStagesUtil.stageFinal.addOreReplacement(<additions:breedum_ore>, <minecraft:end_stone>, false);
 GameStagesUtil.stageFinal.addOreReplacement(<additions:primal_metal_ore>, <thaumicaugmentation:stone>, false);
+GameStagesUtil.stageFinal.addOreReplacement(<moretcon:oregravitonium>, <minecraft:end_stone>, false);
+GameStagesUtil.stageFinal.addOreReplacement(<moretcon:oregravitoniumdense>, <minecraft:end_stone>, false);

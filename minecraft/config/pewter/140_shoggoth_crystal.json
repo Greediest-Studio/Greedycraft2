@@ -1,0 +1,130 @@
+{
+    "name": "shoggoth_crystal",
+    "tool": {
+      "bow": {
+        "speed": 2.4,
+        "range": 2.0,
+        "bonusDamage": 203
+      },
+      "head": {
+        "attackDamage": 222,
+        "speed": 24.5,
+        "durability": 31450,
+        "harvestLevel": 13
+      },
+      "handle": {
+        "modifier": 2.5,
+        "durability": 12850
+      },
+      "extra": {
+        "durability": 16500
+      }
+    },
+    "color": "#53445c",
+    "craftable": true,
+    "madeInToolForge": false,
+    "createMeltingRecipes": false,
+    "meltingTemperature": 600,
+    "looks": {
+      "shininess": 0.3,
+      "brightness": 0.1,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Shoggoth Complex Crystal",
+      "zh_cn": "修格斯螯合水晶"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "gct_aby:shoggoth_complex_crystal"
+      ],
+      "block": [
+      ],
+      "nugget": [
+      ],
+      "ore": [
+      ],
+      "dust": [
+      ],
+      "plate": [
+      ],
+      "gear": [
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "durability": 2780,
+        "defense": 203
+      },
+      "plates": {
+        "modifier": 17.5,
+        "durability": 910,
+        "toughness": 9
+      },
+      "trim": {
+        "extraDurability": 901
+      }
+    },
+    "specificTraits": {
+      "EXTRA": [
+        "moretcon.overslime1",
+        "moretcon.overgrowth1",
+        "shoggy"
+      ],
+      "HEAD": [
+        "moretcon.overslime1",
+        "moretcon.overgrowth1",
+        "shoggy"
+      ],
+      "HANDLE": [
+        "moretcon.overslime1",
+        "moretcon.overgrowth1",
+        "shoggy"
+      ],
+      "BOW": [
+        "moretcon.overslime1",
+        "moretcon.overgrowth1",
+        "shoggy"
+      ],
+      "CORE": [
+        "moretcon.overslime1",
+        "moretcon.overgrowth1",
+        "shoggy_armor"
+      ],
+      "PLATES": [
+        "moretcon.overslime1",
+        "moretcon.overgrowth1",
+        "shoggy_armor"
+      ],
+      "TRIM": [
+        "moretcon.overslime1",
+        "moretcon.overgrowth1",
+        "shoggy_armor"
+      ]
+    }
+  }

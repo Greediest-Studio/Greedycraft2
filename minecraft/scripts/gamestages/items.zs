@@ -191,7 +191,44 @@ GameStagesUtil.stageFusionMatrix.addIngredients([
     <ore:orePyrotheum>,
     <ore:oreCryotheum>,
     <ore:oreAerotheum>,
-    <ore:orePetrotheum>
+    <ore:orePetrotheum>,
+    <journey:celestiumingot>,
+    <journey:celestiumblock>,
+    <journey:celestiumore>,
+    <ore:nuggetCelestium>,
+    <journey:celestiumdust>,
+    <journey:mekyumingot>,
+    <journey:mekyumblock>,
+    <journey:mekyumore>,
+    <ore:dustMekyum>,
+    <ore:nuggetMekyum>,
+    <journey:koriteingot>,
+    <journey:koriteblock>,
+    <journey:koriteore>,
+    <ore:nuggetKorite>,
+    <ore:dustKorite>,
+    <journey:storoningot>,
+    <journey:storonblock>,
+    <journey:storonore>,
+    <ore:dustStoron>,
+    <ore:nuggetStoron>,
+    <journey:flairiumblock>,
+    <journey:flairiumingot>,
+    <journey:flairiumore>,
+    <ore:dustFlairium>,
+    <ore:nuggetFlairium>,
+    <journey:orbaditeingot>,
+    <journey:orbaditeblock>,
+    <journey:orbaditeore>,
+    <ore:nuggetOrbadite>,
+    <journey:orbaditedust>,
+    <journey:gorbitegem>,
+    <journey:gorbiteore>,
+    <journey:desingot>,
+    <journey:desblock>,
+    <journey:desore>,
+    <ore:nuggetDes>,
+    <ore:dustDes>
 ], true);
 
 
@@ -251,7 +288,10 @@ GameStagesUtil.stageWyvern.addIngredients([
     <gct_ores:senterian_wrench>,
     <gct_ores:senterian_summoner>,
     <gct_ores:senterian_summoner_small>,
-    <gct_ores:senterian_builder_lab>
+    <gct_ores:senterian_builder_lab>,
+    <journey:luniteore>,
+    <journey:luniteblock>,
+    <journey:lunitechunk>
 ], true);
 
 GameStagesUtil.stageAwakened.addIngredients([
@@ -491,7 +531,10 @@ GameStagesUtil.stageNether.addIngredients([
 
 GameStagesUtil.stageNether.addIngredients([
     <ore:nitor>,
-    <ore:ingotHolysteel>
+    <ore:ingotHolysteel>,
+    <journey:firestoneclump>,
+    <journey:firestoneore>,
+    <additions:mana_firestone>
 ], false);
 
 GameStagesUtil.stageCosmic.addIngredients([
@@ -735,7 +778,14 @@ GameStagesUtil.stageBetweenlandTraveller.addIngredients([
     <additions:dentrothyst_rainbow>,
     <additions:bone_shard>,
     <additions:malevolence_core>,
-    <additions:yeet>
+    <additions:yeet>,
+    <moretcon:blockgravitonium>,
+    <moretcon:gravitoniumsponge>,
+    <moretcon:dustgravitonium>,
+    <moretcon:ingotgravitonium>,
+    <moretcon:blockgravitonium>,
+    <moretcon:nuggetgravitonium>,
+    <moretcon:blockgravitoniumfaucet>
 ], false);
 
 GameStagesUtil.stageWarped.addIngredients([
@@ -1299,6 +1349,7 @@ GameStagesUtil.stageWitherSlayer.addIngredients([
     <journey:hellstoneore>,
     <journey:hellstoneingot>,
     <journey:summoningtable>,
+    <journey:hellstonedust>,
     <additions:hellite_ingot>,
     <ore:oreFlamium>,
     <ore:ingotFlamium>,
@@ -1344,7 +1395,30 @@ GameStagesUtil.stageWitherSlayer.addIngredients([
     <ore:nuggetEcoBasicAlloy>,
     <ore:ingotBlueAlloy>,
     <ore:blockBlueAlloy>,
-    <ore:nuggetBlueAlloy>
+    <ore:nuggetBlueAlloy>,
+    <journey:shadiumingot>,
+    <ore:blockShadium>,
+    <ore:nuggetShadium>,
+    <journey:shadiumdust>,
+    <journey:shadiumore>,
+    <journey:luniumingot>,
+    <journey:luniumdust>,
+    <journey:luniumore>,
+    <ore:blockLunium>,
+    <ore:nuggetLunium>,
+    <journey:ash>,
+    <journey:blazium>,
+    <journey:blaziumore>,
+    <journey:blaziumblock>,
+    <journey:shadiumclump>,
+    <journey:luniumclump>,
+    <journey:hellstoneclump>,
+    <journey:spawnerclump>,
+    <journey:spawnerbar>,
+    <journey:hellcrustingot>,
+    <ore:blockHellcrust>,
+    <ore:nuggetHellcrust>,
+    <ore:dustHellcrust>
 ], true);
 
 GameStagesUtil.stageGaiaDeleter.addIngredients([
@@ -1585,7 +1659,11 @@ GameStagesUtil.stageEnderCharm.addIngredients([
     <ore:ingotDarkice>,
     <ore:nuggetDarkice>,
     <ore:blockDarkice>,
-    <ore:dustDarkice>
+    <ore:dustDarkice>,
+    <journey:enderilliumblock>,
+    <journey:enderilliumdust>,
+    <journey:enderilliumore>,
+    <journey:enderilliumshard>
 ], true);
 
 GameStagesUtil.stageNoobEngineer.addIngredients([
@@ -2123,7 +2201,9 @@ GameStagesUtil.stageFinal.addIngredients([
     <gct_ores:order_stone_final>,
     <gct_ores:finallium_container>,
     <gct_ores:finallium_container_active>,
-    <ore:orePrimordial>
+    <ore:orePrimordial>,
+    <ore:oreGravitonium>,
+    <ore:oreGravitoniumDense>
 ], true);
 
 GameStagesUtil.stageDeepDream.addIngredients([

@@ -56,6 +56,7 @@ ConversionItem.create(<additions:blackiron_dust>).addMatchItem(<ore:dustBlackIro
 ConversionItem.create(<additions:blackiron_gear>).addMatchItem(<ore:gearBlackIron>).register();
 ConversionItem.create(<additions:blackiron_plate>).addMatchItem(<ore:plateBlackIron>).register();
 ConversionItem.create(<tconstruct:materials:17>).addMatchItem(<ore:boneWithered>).register();
+ConversionItem.create(<additions:chloroplast_ore>).addMatchItem(<ore:oreChloroplast>).register();
 
 ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:burningsulfurflow>).register();
 ConversionFluid.create(<liquid:liquidantimatter>).addMatchFluid(<liquid:blockfluidantimatter>).register();
