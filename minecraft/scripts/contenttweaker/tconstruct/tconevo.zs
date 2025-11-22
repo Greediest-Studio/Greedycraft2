@@ -1,4 +1,3 @@
-#loader preinit
 
 import mods.tconevo.TconEvo;
 

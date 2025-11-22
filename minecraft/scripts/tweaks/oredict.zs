@@ -1214,7 +1214,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:ingotLead> : [<erebus:materials:44>],
     <ore:ingotSilver> : [<erebus:materials:45>],
     <ore:ingotTin> : [<erebus:materials:46>],
-    <ore:gemGneiss> : [<erebus:materials:47>]
+    <ore:gemGneiss> : [<erebus:materials:47>],
+    <ore:boneWither> : [<tconstruct:materials:17>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {
