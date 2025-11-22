@@ -1,31 +1,32 @@
 # Thaumic Wonders
 itemGroup.thaumicwonders=神秘奇境
+item.creative_only=创造模式专属
 
 # Attributes
 attribute.name.thaumicwonders:void_damage=虚空伤害
-attribute.name.thaumicwonders:healing_reduction=治疗减少
+attribute.name.thaumicwonders:healing_reduction=所受治疗降低
 
 # Chat
-chat.thaumicwonders:portal_linker.bound=绑定到 %s 位置 x%d, y%d, z%d
-chat.thaumicwonders:sharing_tome.burn=你感到知识在扩展，同时书本化为灰烬。
-chat.thaumicwonders:sharing_tome.erase=书中的文字消失了。
-chat.thaumicwonders:sharing_tome.fail=书中的文字难以辨认，你需要更多经验才能阅读它。
-chat.thaumicwonders:sharing_tome.owned=你读了这本书，但没有发现新内容。
-chat.thaumicwonders:sharing_tome.read=你读了这本书并感到知识在扩展。
-chat.thaumicwonders:sharing_tome.write=你在书中记录下发现，为其他人阅读做好准备。
-chat.thaumicwonders:void_portal.no_anchor=连接的传送锚丢失或被阻挡。
-chat.thaumicwonders:void_portal.no_generator=传送门生成器丢失或超出范围。
-chat.thaumicwonders:void_portal.no_linker=传送门链接器丢失或包含无效坐标。
-chat.thaumicwonders:void_portal.no_self=传送锚不能链接到自身。
-chat.thaumicwonders:void_portal.no_world=这个传送门的链接维度不存在。
-chat.thaumicwonders:warp_ring.warp=§5§o你从手指上取下戒指，但不愉快的感觉仍然存在...
+chat.thaumicwonders:portal_linker.bound=绑定至%s位置：x: %d, y: %d, z: %d
+chat.thaumicwonders:sharing_tome.burn=当这本书化为灰烬时，你感觉你的知识随之扩展。
+chat.thaumicwonders:sharing_tome.erase=书中的文字消失得无影无踪。
+chat.thaumicwonders:sharing_tome.fail=这本书中的文字难以辨认，在尝试阅读之前，你需要更多的经验。
+chat.thaumicwonders:sharing_tome.owned=你读了这本书，但没发现有任何新东西。
+chat.thaumicwonders:sharing_tome.read=你读了这本书，感觉自己的知识在扩展。
+chat.thaumicwonders:sharing_tome.write=你在这本书上草草写下你的发现，密封起来供他人阅读。
+chat.thaumicwonders:void_portal.no_anchor=链接的传送锚缺失或受阻。
+chat.thaumicwonders:void_portal.no_generator=传送门生成器缺失或超出范围。
+chat.thaumicwonders:void_portal.no_linker=传送门链接器缺失或包含无效坐标。
+chat.thaumicwonders:void_portal.no_self=传送锚无法与自己链接。
+chat.thaumicwonders:void_portal.no_world=此传送门链接的维度不存在。
+chat.thaumicwonders:warp_ring.warp=§5§o你将戒指从手上取下，但那种不快的感觉仍然存在……
 
 # Config
 key.categories.thaumicwonders=神秘奇境
 key.carpet_backward=飞毯背朝向
 key.carpet_forward=飞毯面朝向
 
-# Damage Sources  
+# Damage Sources
 death.attack.tw.voidflame.player=虚空吞噬了你
 death.attack.primalDestroyerHunger=%s被他自己的元始毁灭者所吞噬
 
@@ -34,18 +35,22 @@ thaumicwonders:voidflame=虚空烈焰
 
 # Enchantments
 enchantment.infusion.VOIDFLAME=虚空烈焰
-enchantment.special.sapgreat=高级削弱
+enchantment.special.sapgreat=高等削弱
 enchantment.special.voidflame=虚空烈焰
 enchantment.special.warpshell=扭曲之盾
 
 # Entities
-entity.corruption_avatar.name=腐化之尸
-entity.hexamite_primed.name=乌洛托品（魔法版01型）
+entity.corruption_avatar.name=腐化化身
+entity.hexamite_primed.name=乌洛魔品
 entity.flying_carpet.name=飞毯
 entity.void_portal.name=虚空传送门
 
 # Fluids
 fluid.fluid_quicksilver=水银
+
+# Focus Effects
+focus.thaumicwonders.teleport_home.name=传送回家
+focus.thaumicwonders.teleport_home.text=将玩家传送到他们床的位置。
 
 # Device Tiles
 tile.thaumicwonders:alkahest_vat.name=万能溶剂之锅
@@ -55,22 +60,27 @@ tile.thaumicwonders:coalescence_matrix_precursor.name=聚合矩阵
 tile.thaumicwonders:creative_essentia_jar.name=创造模式源质罐子
 tile.thaumicwonders:dimensional_ripper.name=维度撕裂器
 tile.thaumicwonders:everburning_urn.name=永燃之瓮
-tile.thaumicwonders:flux_capacitor.name=咒波容器
+tile.thaumicwonders:flux_capacitor.name=咒波收容器
 tile.thaumicwonders:flux_distiller.name=咒波蒸馏器
-tile.thaumicwonders:hexamite.name=乌洛托品（魔法版01型）
+tile.thaumicwonders:hexamite.name=乌洛魔品
 tile.thaumicwonders:inspiration_engine.name=灵感引擎
 tile.thaumicwonders:madness_engine.name=疯狂引擎
-tile.thaumicwonders:meaty_orb.name=嗜肉之球
+tile.thaumicwonders:meaty_orb.name=肉质之球
 tile.thaumicwonders:meteorb.name=气象之球
+tile.thaumicwonders:oblivion_essentia_jar.name=湮灭源质罐子
 tile.thaumicwonders:ore_diviner.name=矿石探测器
 tile.thaumicwonders:portal_anchor.name=传送锚
 tile.thaumicwonders:portal_generator.name=传送门生成器
+tile.thaumicwonders:primordial_accelerator.name=元始加速器
+tile.thaumicwonders:primordial_accelerator_tunnel.name=元始加速轨道
+tile.thaumicwonders:primordial_accelerator_terminus.name=元始加速冲撞终端
+tile.thaumicwonders:primordial_accretion_chamber.name=元始积聚室
 tile.thaumicwonders:primordial_siphon.name=元始虹吸器
-tile.thaumicwonders:vis_capacitor.name=Vis容器
+tile.thaumicwonders:vis_capacitor.name=魔力收容器
 tile.thaumicwonders:void_beacon.name=虚空信标
 
 # Misc Tiles
-tile.thaumicwonders:cinderpearl_crop.name=火焰草
+tile.thaumicwonders:cinderpearl_crop.name=烈焰草
 tile.thaumicwonders:fluid_quicksilver.name=水银
 tile.thaumicwonders:placeholder_arcane_stone.name=催化室
 tile.thaumicwonders:placeholder_obsidian.name=催化室
@@ -78,94 +88,100 @@ tile.thaumicwonders:placeholder_thaumium_block.name=元始积聚室
 tile.thaumicwonders:placeholder_void_metal_block.name=元始积聚室
 tile.thaumicwonders:placeholder_adv_alch_construct.name=元始积聚室
 tile.thaumicwonders:shimmerleaf_crop.name=水银花
-tile.thaumicwonders:vishroom_crop.name=纤毛姑
+tile.thaumicwonders:vishroom_crop.name=纤毛菇
 
 # Items
-item.seal.research_assistant.name=控制印记: 研究助手
-
-item.thaumicwonders:alchemist_stone.name=炼金术士之石
-item.thaumicwonders:alienist_stone.name=异形之石
-item.thaumicwonders:bone_bow.name=骨弓
-item.thaumicwonders:cinderpearl_seed.name=火焰草种子
-item.thaumicwonders:cleansing_charm.name=洁净之辉
-item.thaumicwonders:disjunction_cloth.name=驱魔之布
-item.thaumicwonders:eldritch_cluster.iron.name=奇异铁矿矿簇
-item.thaumicwonders:eldritch_cluster.gold.name=奇异金矿矿簇
-item.thaumicwonders:eldritch_cluster.copper.name=奇异铜矿矿簇
-item.thaumicwonders:eldritch_cluster.tin.name=奇异锡矿矿簇
-item.thaumicwonders:eldritch_cluster.silver.name=奇异银矿矿簇
-item.thaumicwonders:eldritch_cluster.lead.name=奇异铅矿矿簇
-item.thaumicwonders:eldritch_cluster.cinnabar.name=奇异朱砂矿簇
-item.thaumicwonders:eldritch_cluster.quartz.name=奇异石英矿簇
-item.thaumicwonders:eldritch_cluster.void.name=奇异虚空矿簇
+item.seal.fishing.name=操控印记：钓鱼
+item.seal.research_assistant.name=操控印记：研究助手
+item.seal.shearing.name=操控印记：修剪
+item.seal.shearing_advanced.name=高级操控印记：修剪
+item.thaumicwonders:alchemist_stone.name=炼金师之石
+item.thaumicwonders:alienist_stone.name=异学家之石
+item.thaumicwonders:bone_bow.name=充能骨弓
+item.thaumicwonders:cinderpearl_seed.name=烈焰草种茎柄
+item.thaumicwonders:cleansing_charm.name=净化护符
+item.thaumicwonders:disjunction_cloth.name=祛魔之布
+item.thaumicwonders:eldritch_cluster.iron.name=邪术铁矿簇
+item.thaumicwonders:eldritch_cluster.gold.name=邪术金矿簇
+item.thaumicwonders:eldritch_cluster.copper.name=邪术铜矿簇
+item.thaumicwonders:eldritch_cluster.tin.name=邪术锡矿簇
+item.thaumicwonders:eldritch_cluster.silver.name=邪术银矿簇
+item.thaumicwonders:eldritch_cluster.lead.name=邪术铅矿簇
+item.thaumicwonders:eldritch_cluster.cinnabar.name=邪术朱砂矿簇
+item.thaumicwonders:eldritch_cluster.quartz.name=邪术石英矿簇
+item.thaumicwonders:eldritch_cluster.void.name=邪术虚空矿簇
 item.thaumicwonders:flying_carpet.name=飞毯
 item.thaumicwonders:lethe_water.name=遗忘之水
-item.thaumicwonders:night_vision_goggles.name=夜视仪
-item.thaumicwonders:panacea.normal.name=纯洁之果
-item.thaumicwonders:panacea.enchanted.name=圣洁之果
+item.thaumicwonders:night_vision_goggles.name=夜视护目镜
+item.thaumicwonders:panacea.normal.name=万灵果
+item.thaumicwonders:panacea.enchanted.name=附魔万灵果
 item.thaumicwonders:portal_linker.name=传送门链接器
-item.thaumicwonders:primal_arrow.air.name=风之矢
-item.thaumicwonders:primal_arrow.earth.name=地之矢
-item.thaumicwonders:primal_arrow.fire.name=火之矢
-item.thaumicwonders:primal_arrow.water.name=水之矢
-item.thaumicwonders:primal_arrow.order.name=秩序矢
-item.thaumicwonders:primal_arrow.entropy.name=混沌矢
+item.thaumicwonders:primal_arrow.air.name=风之箭
+item.thaumicwonders:primal_arrow.earth.name=地之箭
+item.thaumicwonders:primal_arrow.fire.name=火之箭
+item.thaumicwonders:primal_arrow.water.name=水之箭
+item.thaumicwonders:primal_arrow.order.name=秩序之箭
+item.thaumicwonders:primal_arrow.entropy.name=熵之箭
 item.thaumicwonders:primal_destroyer.name=元始毁灭者
 item.thaumicwonders:primordial_grain.name=元始晶粒
-item.thaumicwonders:sharing_tome.name=知识共享之书
-item.thaumicwonders:shimmerleaf_seed.name=水银花种子
-item.thaumicwonders:structure_diviner.name=建筑探测仪
+item.thaumicwonders:sharing_tome.name=共享知识之书
+item.thaumicwonders:shimmerleaf_seed.name=水银花种球茎
+item.thaumicwonders:structure_diviner.name=建筑探测器
 item.thaumicwonders:timewinder.name=扭时之钟
-item.thaumicwonders:transmuter_stone.name=转化之石
-item.thaumicwonders:vishroom_spore.name=纤毛菇孢子
-item.thaumicwonders:voidcaller_helm.name=虚空召唤头盔
-item.thaumicwonders:voidcaller_chest.name=虚空召唤胸甲
-item.thaumicwonders:voidcaller_legs.name=虚空召唤护腿
-item.thaumicwonders:void_fortress_helm.name=虚空要塞头盔
-item.thaumicwonders:void_fortress_chest.name=虚空要塞胸甲
-item.thaumicwonders:void_fortress_legs.name=虚空要塞护腿
+item.thaumicwonders:transmuter_stone.name=嬗变师之石
+item.thaumicwonders:vishroom_spore.name=纤毛菇孢子丛
+item.thaumicwonders:voidcaller_helm.name=虚空呼唤者头盔
+item.thaumicwonders:voidcaller_chest.name=虚空呼唤者法袍
+item.thaumicwonders:voidcaller_legs.name=虚空呼唤者护腿
+item.thaumicwonders:void_fortress_helm.name=扭曲要塞兜鍪
+item.thaumicwonders:void_fortress_chest.name=扭曲要塞胸铠
+item.thaumicwonders:void_fortress_legs.name=扭曲要塞护胫
 item.thaumicwonders:void_walker_boots.name=虚空行者靴子
-item.thaumicwonders:warp_ring.name=新手净化指环
+item.thaumicwonders:warp_ring.name=学徒净化指环
 
 # JEI
 jei.thaumicwonders.recipe.accretion=元始积聚室
 jei.thaumicwonders.recipe.accelerator=元始加速器
 jei.thaumicwonders.recipe.catalyzation=催化室
-jei.thaumicwonders.recipe.meaty_orb=嗜肉之球
+jei.thaumicwonders.recipe.meaty_orb=肉质之球
 jei.thaumicwonders.recipe.void_beacon=虚空信标
 
-jei.thaumicwonders.chance=几率: %d%%
+jei.thaumicwonders.chance=概率：%d%%
 
 # Subtitle
-subtitle.thaumicwonders:avatar.ambient=腐化之尸低语
-subtitle.thaumicwonders:avatar.death=腐化之尸死亡
-subtitle.thaumicwonders:void_beacon.activate=虚空信标激活
-subtitle.thaumicwonders:void_beacon.deactivate=虚空信标停用
+subtitle.thaumicwonders:avatar.ambient=腐化化身：低语
+subtitle.thaumicwonders:avatar.death=腐化化身：死亡
+subtitle.thaumicwonders:inspiration_engine.loop=灵感引擎：嗡鸣
+subtitle.thaumicwonders:madness_engine.loop=疯狂引擎：嗡鸣
+subtitle.thaumicwonders:primal_destroyer.angered=元始毁灭者：被激怒
+subtitle.thaumicwonders:void_beacon.activate=虚空信标：激活
+subtitle.thaumicwonders:void_beacon.deactivate=虚空信标：关闭
 
 # Tooltips
-tooltip.thaumicwonders:cleansing_charm.progress=进度: %1$d%%
-tooltip.thaumicwonders:creative_essentia_jar.desc=可以输出无限的罐内所包含的源质种类.
-tooltip.thaumicwonders:creative_essentia_jar.info=shift右击清空空手状态下.
-tooltip.thaumicwonders:flux_capacitor.flux=咒波量: %1$d
-tooltip.thaumicwonders:flux_distiller.flux=咒波量: %1$d
-tooltip.thaumicwonders:portal_linker.info1=通过shift右击链接到传送锚。
-tooltip.thaumicwonders:portal_linker.info2=Shift右击空气移除链接。
-tooltip.thaumicwonders:portal_linker.linked=链接到:
-tooltip.thaumicwonders:portal_linker.not_linked=未链接
+tooltip.thaumicwonders:cleansing_charm.progress=进度：%1$d%%
+tooltip.thaumicwonders:creative_essentia_jar.desc=无限量输出其内储存的源质类型。
+tooltip.thaumicwonders:creative_essentia_jar.info=空手时Shift右击可将其清空。
+tooltip.thaumicwonders:flux_capacitor.flux=咒波：%1$d
+tooltip.thaumicwonders:flux_distiller.flux=咒波：%1$d
+tooltip.thaumicwonders:oblivion_essentia_jar.desc=销毁所有输入罐子的源质。
+tooltip.thaumicwonders:portal_linker.info1=对传送锚Shift右击以建立链接。
+tooltip.thaumicwonders:portal_linker.info2=对空气Shift右击以移除链接。
+tooltip.thaumicwonders:portal_linker.linked=链接至：
+tooltip.thaumicwonders:portal_linker.not_linked=未连接
 tooltip.thaumicwonders:sharing_tome.blank=未绑定
-tooltip.thaumicwonders:sharing_tome.player=绑定到 %s 的研究
-tooltip.thaumicwonders:vis_capacitor.vis=储存的Vis: %d
+tooltip.thaumicwonders:sharing_tome.player=绑定至%s的研究
+tooltip.thaumicwonders:vis_capacitor.vis=储存的魔力：%d
 
 # GUI
-gui.thaumicwonders:golem_prop.restock_paper=补充纸张
-gui.thaumicwonders:golem_prop.refill_ink=补充墨水
+gui.thaumicwonders:golem_prop.restock_paper=补充纸
+gui.thaumicwonders:golem_prop.refill_ink=填充墨水
 gui.thaumicwonders:golem_prop.provide_materials=提供材料
 thaumicwonders.gui.timewinder.0=满月
 thaumicwonders.gui.timewinder.1=亏凸月
 thaumicwonders.gui.timewinder.2=下弦月
 thaumicwonders.gui.timewinder.3=残月
 thaumicwonders.gui.timewinder.4=新月
-thaumicwonders.gui.timewinder.5=娥眉月
+thaumicwonders.gui.timewinder.5=蛾眉月
 thaumicwonders.gui.timewinder.6=上弦月
 thaumicwonders.gui.timewinder.7=盈凸月
 thaumicwonders.gui.timewinder.8=白天
@@ -178,41 +194,41 @@ thaumicwonders.gui.structure_diviner.1=沙漠神庙
 thaumicwonders.gui.structure_diviner.2=废弃矿井
 thaumicwonders.gui.structure_diviner.3=海洋神殿
 thaumicwonders.gui.structure_diviner.4=林地府邸
-thaumicwonders.gui.structure_diviner.5=末影要塞
+thaumicwonders.gui.structure_diviner.5=要塞
 thaumicwonders.gui.structure_diviner.6=地狱堡垒
-thaumicwonders.gui.structure_diviner.7=末影城
+thaumicwonders.gui.structure_diviner.7=末地城
 thaumicwonders.gui.structure_diviner.8=清除选择
 
 # Events
-event.corruption_avatar.empower=腐化之尸被附近的虚空裂隙所强化！
-event.lethe_water.forgot=你觉得的你遗忘了些什么.
-event.lethe_water.not_found=你没有察觉到什么不同.
-event.meaty_orb.used=是肉雨！好时代，来临叻！
-event.meaty_orb.offworld=嗜肉之球在这里似乎无法工作.
-event.meaty_orb.unfueled=嗜肉之球需要更多的源质才能工作.
-event.meteorb.used=天气突然之间发生了变化.
-event.meteorb.offworld=气象之球似乎在这里无法工作.
-event.meteorb.unfueled=气象之球需要更多的源质才能工作.
-event.ore_diviner.not_found=你在附近没有发现任何东西.
+event.corruption_avatar.empower=腐化化身被附近的虚空裂隙所强化！
+event.lethe_water.forgot=你感觉好像忘了些什么。
+event.lethe_water.not_found=你没有察觉到什么不同。
+event.meaty_orb.used=是肉雨！
+event.meaty_orb.offworld=肉质之球在这里似乎无法工作。
+event.meaty_orb.unfueled=肉质之球需要更多的源质才能工作。
+event.meteorb.used=天气突然之间发生了变化。
+event.meteorb.offworld=气象之球似乎在这里无法工作。
+event.meteorb.unfueled=气象之球需要更多的源质才能工作。
+event.ore_diviner.not_found=你在附近没有发现任何东西。
 event.ore_diviner.invalid_item=探测器无法与此物品产生共鸣。
-event.ore_diviner.found.down=你感到有什么东西在你的的下方！
-event.ore_diviner.found.up=你感到有什么东西在你的上面！
-event.ore_diviner.found.north=你感到北方似乎有什么东西！
-event.ore_diviner.found.south=南方有一些东西进入了你的感知之中...
-event.ore_diviner.found.west=我隐约察觉到西方向产生的吸引.....
-event.ore_diviner.found.east=你模糊地察觉到东方有什么东西....
+event.ore_diviner.found.down=你感觉下方有什么东西！
+event.ore_diviner.found.up=你感觉上方有什么东西！
+event.ore_diviner.found.north=你感觉北方有什么东西！
+event.ore_diviner.found.south=你感觉南方有什么东西！
+event.ore_diviner.found.west=你感觉西方有什么东西！
+event.ore_diviner.found.east=你感觉东方有什么东西！
 event.primal_destroyer.hunger_full=元始毁灭者扭曲它自己的意志并伤害你！
-event.structure_diviner.not_found=建筑探测仪没有发现什么特别的.
-event.structure_diviner.found.here=建筑探测仪发现了你上方有些什么东西！
-event.structure_diviner.found.near=建筑探测仪察觉到所探寻之物就在你附近！
-event.structure_diviner.found.far=建筑探测仪在很远的地方有所发现。
-event.structure_diviner.found.very_far=建筑探测仪在非常远的地方有所发现！
-event.structure_diviner.found.extreme=建筑探测仪在极其远的地方找到了你所想找之物！
-event.timewinder.offworld=扭时之钟在这里好像无法工作.
-event.timewinder.used=时间突然向前跃迁.
-event.void_portal.no_anchor=这个传送门没有链接到锚上.
-event.void_portal.no_world=这个传送门连接到的维度不存在.
-event.void_portal.invader=似乎有什么东西从传送门中散溢了出来.
+event.structure_diviner.not_found=建筑探测器没有发现什么特别的。
+event.structure_diviner.found.here=建筑探测器发现了你上方有些什么东西！
+event.structure_diviner.found.near=建筑探测器察觉到所探寻之物就在你附近！
+event.structure_diviner.found.far=建筑探测器在很远的地方有所发现。
+event.structure_diviner.found.very_far=建筑探测器在非常远的地方有所发现！
+event.structure_diviner.found.extreme=建筑探测器在极其远的地方找到了你所想找之物！
+event.timewinder.offworld=扭时之钟在这里好像无法工作。
+event.timewinder.used=时间突然向前飞跃。
+event.void_portal.no_anchor=链接的传送锚缺失或受阻。
+event.void_portal.no_world=此传送门链接的维度不存在。
+event.void_portal.invader=一道不稳定传送门中似乎涌现出了什么东西。
 event.void_portal.subvert.lesser_crimson=血腥邪徒破坏了一个不稳定的传送门！
 event.void_portal.subvert.flux_rift=一个不稳定的传送门坍缩为了虚空裂隙！
 
@@ -220,235 +236,231 @@ event.void_portal.subvert.flux_rift=一个不稳定的传送门坍缩为了虚�
 tc.research_category.THAUMIC_WONDERS=神秘奇境
 
 thaumicwonders.research.base.title=神秘奇境
-thaumicwonders.research.base.text.stage.1=我很好奇，那幽深的神秘之中会向我展露何种令人惊叹的奇迹呢？
+thaumicwonders.research.base.text.stage.1=神秘技艺将向我揭示何等奇境？
 
 # Research Entries
 thaumicwonders.research.alkahest.title=万能溶剂
+thaumicwonders.research.alkahest.text.stage.1=我杂物堆的太多了，宝贵的箱子空间都被占了去。我想也许可以直接把它们丢仅熔岩里，但那样熔岩又可能四处放火。不行，还得用魔法把这些垃圾变没，而且我敢打赌炼金术正是解决之道。
+thaumicwonders.research.alkahest.text.stage.2=看啊，这就是万能溶剂。<BR>这东西腐蚀性极强，任何未经特殊处理的事务都难以抵挡。但好处是，任何被它溶解的物质都会分解成微量的魔力，释放到灵气场中。这样一来，我就不用担心房子会莫名其妙着火了。只需要确保不把它洒出来就行……
 
-thaumicwonders.research.nether_hedge.title=地狱嬗变炼金
-thaumicwonders.research.nether_hedge.text.stage.1=让我有点困扰的是，嬗变炼金术的原理只能应用于主世界的中少数材料。也许其他世界也有一些炼金材料能够使用这种艺术复制……
-thaumicwonders.research.nether_hedge.text.stage.2=正如我所希望的，地狱之中确实包含了嬗变术可以复制的材料。奇怪的是，并不是所有的材料都遵循嬗变规则。当我进行制造时我要格外留意这些配方能否奏效。
-thaumicwonders.research.end_hedge.title=异域嬗变炼金
-thaumicwonders.research.end_hedge.text.stage.1=我的旅行指示着我要探索另一个世界，我得研究一下那里的情况。
-thaumicwonders.research.end_hedge.text.stage.2=终末之地确实是一个极端危险的地方，好消息是，那里也存在着一些能够运用嬗变术制造的材料。
+thaumicwonders.research.alienist_stone.title=邪术金属倍增
+thaumicwonders.research.alienist_stone.text.stage.1=掌握了邪术的奥秘后，我确信能够从催化室中获取更多产出。唯一的问题是具体该如何实现？<BR>或许将精炼矿簇组合使用能在此处发挥作用……
+thaumicwonders.research.alienist_stone.text.stage.2=通过向炼金师之石注魔稀土和某些原矿物簇，我可以增强其效力。<BR>由此制成的催化石能产出我称之为“邪术矿簇”的东西，烧炼时可得三块锭，而非两块。<PAGE>我难以将此过程称为“纯化”，特别是考虑到每次操作都有很大概率产生咒波，但最终成效确实毋庸置疑。<BR>或许这块催化石还能强化其他物质，不过就金属处理而言，当前工艺已足够胜任。
 
-thaumicwonders.research.everburning_urn.title=永燃之瓮
-thaumicwonders.research.everburning_urn.text.stage.1=无尽之瓮是一个非常有用的设备，但是我相信我能够将其完善化。譬如说使其产生其他种类的液体。液体,难道说…熔岩吗？
-thaumicwonders.research.everburning_urn.text.stage.2=通过注魔，我在无尽之瓮中打通了一系列通往地狱的微小入口，我能够从地狱中汲取我所需要的熔岩。然而，这个过程并不十分完美。首先，它很慢。它的“水”兄弟在瞬间就会充满水，而这个装置，我称之为“永燃之瓮”，居然需要一分钟才能产生一桶熔岩。这个过程对灵气的消耗也更大。我的计算表明维持用来运输熔岩的传送门，每次传输需要25点灵气。最后，为了安全起见，我禁用了瓮自动填充附近的容器的能力，不能让滚烫的岩浆到处乱飞。
+thaumicwonders.research.bone_bow.title=充能骨弓
+thaumicwonders.research.bone_bow.text.stage.1=一段记忆在我脑海中恍惚涌现，某件早已被遗忘的事物……那是一件强大的武器，但我却无法完全忆起细节。或许深入研究会唤醒我的记忆。
+thaumicwonders.research.bone_bow.text.stage.2=啊，是的，我现在想起来了。充能骨弓。<BR>当注入魔力时，这把弓拉弓迅捷，几乎不费吹灰之力。此外，在拉满弓时，箭矢将自动射出，并且能飞得更远，效果十分显著。<BR>每射出一箭，弓会消耗一点魔力。当充能耗尽时，它就和普通弓差不多。
 
-thaumicwonders.research.disjunction_cloth.title=驱魔之布
-thaumicwonders.research.disjunction_cloth.text.stage.1=天老爷！附魔桌有时真让人抓狂。它是如此……看脸！当我没有得到我想要的附魔时，我必须再造一个新的物品来进行附魔！肯定有更好的方法。我相信炼金术也许能解决这个问题。我只是需要一些东西来吸收这些附魔物品上的魔法能量。当然，我需要一个附魔物品来测试。它不需要太高级的东西，一个简单的带有保护附魔的物品就可以很好地满足我的需要。
-thaumicwonders.research.disjunction_cloth.text.stage.2=我的研究有了成果！它可能不能解决随机附魔的问题，但是这种新的驱魔之布可以优雅地去除任何不想要的附魔。作为代偿，它不仅吸收了附魔中的能量，还能将其释放出来！释放出的能量以vis的形式分散到灵气场域中。我的计算表明，每擦除一级的附魔，驱魔之布将释放5点vis到灵气场中。
+thaumicwonders.research.catalyzation_chamber.title=进阶金属纯化
+thaumicwonders.research.catalyzation_chamber.text.stage.1=在我看来，金属纯化是一个值得深入探索的重要方向。我现有的方法虽然可行，但仅仅是堆砌源质……似乎太过粗劣，更不用说还§o成本高昂§r了。<BR>我相信，灌注有魔力的水银浴应该能很好地纯化金属矿石。直接在炼狱熔炉的基础上构建一个反应室应该就行。<BR>同时，在处理这种大量水银需要格外小心；这东西毒性很强。
+thaumicwonders.research.catalyzation_chamber.text.stage.2=在设计反应室时，我犯了一个严重的计算错误。我设计的这个反应室需要数年——对，不是秒——来处理哪怕一块矿石。<BR>我需要某种催化剂来加速这个过程，并为反应物质提供附着点。从头再来吧。
+thaumicwonders.research.catalyzation_chamber.text.stage.3=我对设计做了些调整，增加了一个独立的隔间来容纳催化剂。通过将这种我称之为“炼金师之石”（不要和贤者之石搞混了，那是完全不同的现象）的材料放入催化室，我现在可以快速有效地纯化金属矿石了。一块这种石头大约能处理一组矿石，然后才需要更换。即使算上这项额外成本，这个过程现在也便宜多了，正如我所希望的那样。<BR>与炼狱熔炉类似，这个反应室相对较慢，除非它能从灵气场中汲取魔力。每次纯化矿石时，它也有很小的概率产生少量咒波。不过，与炼狱熔炉不同的是，它不会摧毁那些无法处理的物品。至少理论上是这样。
+thaumicwonders.research.catalyzation_chamber.text.addenda.1=事实证明，奥术风箱在催化室上的效果和在炼狱熔炉上一样好。它们能保持水银浴通风，并显著加快反应速度。
 
-thaumicwonders.research.dimensional_ripper.title=维度撕裂器
-thaumicwonders.research.dimensional_ripper.text.stage.1=我不敢相信我在认真考虑这件事，但是…如果我要继续研究这些腐化裂隙，我需要更好的工具。现在，我只是把一些咒波释放到灵气场里，希望在附近的某个地方形成一个裂缝，这简直太随意了。我需要更精确、更可控的机器。当然，造价还得尽可能便宜。
-thaumicwonders.research.dimensional_ripper.text.stage.2=我不敢想象我做到了。利用奥术钻探机破坏元始珍珠所产生的毁灭性能量，我能够穿透现实本身！仅仅一个维度撕裂器是不够的，然而，也不是完全不够。只是所需的能量大到令人窒息。所以，一对这样的设备会使得使用能量少很多。通过将面对面放置并保持十格间距（然而实测两台机器之间距离为九格才能工作），这些机器就能在一起产生共鸣，从而放大它们的能量，满足我的需求。当这样放置，少量紫色的能量将在它们之间流动，据此可以确认它们是相互连接的。为了达到临界工作点，两个装置至少需要50点腐化要素。对任一撕裂器施加红石信号将使这对撕裂器失效并阻止任何裂隙活动发生。以这种方式被禁用的撕裂器可以向其继续注入要素，当它被激活时，如果机器内要素超过50点，就可以一次性产生更大的裂隙。如果裂隙已经存在于两个机器之间，更多的要素注入可以使裂隙扩大。然而，这种效应会逐渐减小，而且这一过程将极大地破坏裂隙的稳定性。最后，作为安全措施，如果撕裂器感觉到附近已经有另一个裂口，但不是在两个机器之间，他们将不会激活。<BR>然而我意识到，那道隔在我们与虚空之间的帷幕，在我的干预之下已经岌岌可危，我觉得我应该收手了，我还没有如此“疯狂”。
-thaumicwonders.research.primal_destroyer.title=元始毁灭者
-thaumicwonders.research.primal_destroyer.text.stage.1=毫无疑问，虚空剑是能造成的伤害极高，但那只是由于它自身材料那奇异的特性，从动力因上考虑，它的制作工艺还是极为的粗糙。当然，如果运用正确的魔法对它进行加工，它会变得更加强大。
-thaumicwonders.research.primal_destroyer.text.stage.2=我恐怕犯了一个可怕的错误……我确实创造了一个令人难以置信的毁灭工具，一个超出我控制范围的强大武器。这个元始毁灭者内部结构完全是由阴影与火焰构成，它....几乎就是活的，它渴望汲取生命的精华。我担心如果我不让它吃饱会发生什么…
-thaumicwonders.research.primal_destroyer.text.addenda.1=现在我知道了。元始毁灭者确实会饥饿。不管是为了血，灵魂，生命能量，还是一些我都仍未见过的更深奥的东西。但有一点我是清楚的，如果我不经常用它来杀东西，它就会把饥饿转移到我身上。<BR>我最好把这个邪恶的创造物收起来，忘记我曾经创造出它……
-
-thaumicwonders.research.flying_carpet.title=飞毯
-thaumicwonders.research.flying_carpet.text.stage.1=悬浮很好，但我仍然渴望真正的飞翔。以我的技术和知识，一定能找到方法。
-thaumicwonders.research.flying_carpet.text.stage.2=虽然我还没有学会如何靠自己的力量飞行，但我相信我已经创造了一个最好的替代物:飞毯！当放置在地面上时，可以通过右键点击来放置。一旦我坐在上面，地毯就会对我的指令做出对应的反应，朝着我看的方向前进或后退。地毯不能直接从灵气场中吸取灵气补充自身，必须放在充能基座上补充。我在飞行时必须小心监视我的剩余灵气量，因为一旦灵气用完，地毯就会从天上掉下来。对此，它应该保留足够的后备隐藏灵气来保护我免受冲击。<BR>另外，飞毯还可以在工作台与骨粉等染料混合染色。如果我厌倦了我所附上的颜色，我可以用炼药锅(而不是坩埚)把它洗干净。
-
-thaumicwonders.research.timewinder.title=扭转时光
-thaumicwonders.research.timewinder.text.stage.1=在我去过的一些异域之地，时间流逝的速率似乎非常的奇怪。我想知道我是否能在我安家的维度当中重现这种陌生感……
-thaumicwonders.research.timewinder.text.stage.2=虽然回到过去的可能性仍然晦暗不明，但我已经学会了如何向未来跳跃。为此，我制定了一个机器的制造方案，我称之为扭时之钟。它不仅能像钟表一样报时，而且还能操纵时间。<BR>设备背面的一组按钮允许我跳过某些天体事件。特别是日出和月出。点击“白天”按钮，我就能立即进入第二天早晨，就像在床上睡了个好觉一样。其它的按钮则会使时间直接跳到指定的月相。然而，这个过程会对时空的局部结构产生张力。扭时之钟每次使用时都会在灵气场中产生大量的咒波。此外，它需要vis来工作，需要使用充能基座来进行充能。最后，在使用扭时之钟之后，我必须等待一小段时间才能再次使用它。<BR>
-
-thaumicwonders.research.inspiration_engine.title=灵感引擎
-thaumicwonders.research.inspiration_engine.text.stage.1=进行神秘理论的研究无疑是一个艰苦的过程。我知道某些物品可以帮助我的研究，但它们的帮助十分的有限。也许我可以用我的魔法创造出一个更好的研究辅助工具。
-thaumicwonders.research.inspiration_engine.text.stage.2=我已经为一款我称之为“灵感引擎”的设备拟定了方案。<BR>就像其他的研究辅助工具一样，它必须被放置在研究台的四格之内的相同的高度上，或者刚好在它上面或下面。如果放置正确，我将能够从研究台的GUI界面中选择它。然后，当它被注入思维要素之后，它会产生一些想法来帮助我完善我的理论，并把它们传递到我的大脑中。这是一种奇怪的感觉，这些外部的思想注入，有种奇异的瘙痒感，但这个过程应该是无害的。
-
-thaumicwonders.research.madness_engine.title=疯狂引擎
-thaumicwonders.research.madness_engine.text.stage.1=灵感引擎在我的理论工作中产生了巨大的价值，但这还不够。如果我想要破解邪术的秘密，我需要更多的激发装置来刺激我的思维，迎接新的想法，我必须突破我某个部分的身体对我的限制————我是说，我身体的某个部分抗拒我去探索邪术之密。
-thaumicwonders.research.madness_engine.text.stage.2=没错，没错……经过进一步的修改，这个新版本的引擎将提供给我我所需的。问题在于“认知”这一过程本身。它太有秩序了，太……一致了。<BR>通过对引擎进行改造，使其在更大的能级上运行，它将现实打开一道缝隙，允许我瞥见现实的潜藏的秘密。确实，这种经历让人有些不舒服，但这是为了我所做出的进步，所付出的小小代价。
-
-thaumicwonders.research.void_portal.title=虚空传送门
-thaumicwonders.research.void_portal.text.stage.1=那些身着深红色衣服的狂热信徒是怎么做到的？到目前为止，我的研究在传送生物方面没有取得任何有用的新成果。但这肯定有着某些方法！地狱之门，末影珍珠，还有那些深红色的门，那些狂热者们都告诉我这是可能的。一定有办法……
-thaumicwonders.research.void_portal.text.stage.2=经过进一步的研究，我认为远程传送的关键在于为传送门找到合适的锚点。它必须是某种能够跨越遥远的距离和维度边界产生共鸣的东西。我已经拟定了这一锚的制造方案。现在只剩下将其制造出来和测试了。
-thaumicwonders.research.void_portal.text.stage.3=我现在可以构造一个设备，不管距离或维度如何，都可以生成一个以虚空作为通道，连接另一个位置的入口。<BR>要使用它，我必须先在世界中放置一个传送锚，然后手持传送门生成器右击该锚;只要锚依然存在于世界当中，传送门生成器就可以定位到它。注意，生成器上面还需要足够的空间来生成传送门。坚硬的方块会阻止它的生成。此外，将红石信号应用到生成器将暂时禁用传送门。想要传送，只需要右键传送门就可以了。<BR>我应该小心使用传送功能，入口在使用时对附近灵气场施加了很大的压力，在它的源头和终点产生了一定的咒波。<BR>而且，只要生成器处于激活状态，它们就会逐渐失稳。一个门应该没有那么糟糕，但是在一片区域内的门越多，它们不稳定的速率就越快。使用不稳定的门将根据不稳定的程度将我传送到目标之外的位置。不稳定的传送可能还会产生其他影响;我不确定会发生什么，但我确定不会是什么好事。
-thaumicwonders.research.void_portal.text.addenda.1=注魔稳定器一样可以使得传送门生成器稳定下来，当然，和注魔一样，稳定器一样会产生一定的咒波。虽然不是很理想，但总比不稳定的传送要好。
-
-thaumicwonders.research.catalyzation_chamber.title=进阶金属提纯
-thaumicwonders.research.catalyzation_chamber.text.stage.1=矿石纯化十分的重要，必须进一步研究。我现有的方法已经能够对原矿进行一定的处理，但简单地使用源质对其进行提纯……还是太粗糙了，更不用说这样的耗材较贵。<BR>我相信使用水银进行清洗也能使我净化金属矿石。我可以在炼狱熔炉的基础上进行改造。<BR>同时，我需要小心处理这么多水银;那东西有剧毒。
-thaumicwonders.research.catalyzation_chamber.text.stage.2=我在计算中犯了一个严重的错误。我设计的催化室处理起一块矿石，足足需要数年的时间，而不是我预想的几秒钟。我需要某种催化剂来加快反应速度。好吧，又回到了起点。
-thaumicwonders.research.catalyzation_chamber.text.stage.3=这样就好多了。通过把这种催化剂(我称之为炼金术士之石)放入催化室，我现在可以快速有效地提纯金属矿石。一块这样的石头可以让我处理不少的矿石。即使增加了成本，和原先相比现在也便宜多了，就像我希望的那样。<BR>如同炼狱熔炉，这个过程相对较慢，除非它能从灵气场中吸收灵气。同时它也会在较少的情况下产生少量咒波。
-thaumicwonders.research.catalyzation_chamber.text.addenda.1=原来奥术风箱对催化室一样有效果。在水银浴过程中保持空气流通可以显著加快反应时间。
-
-thaumicwonders.research.hexamite.title=乌洛托品（魔法版01型）
-thaumicwonders.research.hexamite.text.stage.1=疯狂的怒火淹没了我的理智。我能够窥见引起我愤怒的源头，即便我很想将其毁灭掉，但它始终存在在那里。一个理智的人，对于这种冒犯，只有一种解决方法。<BR>一场疯狂的爆炸。<BR>普通的TNT炸药对我来说完全不足以倾泻我的怒火。我需要设计一些特别的东西。
-thaumicwonders.research.hexamite.text.stage.2=这确实有用。我使用了TNT的基本配方，保留了少量火药作为引子，剩下的用不稳定的铝填充。另外，我还将腐化碎片掺杂其中来作为散弹片使用。<BR>这样所产生的炸药不仅要比TNT和燃烧弹强大50%，而且爆炸还会撕碎爆炸地点的灵气场。被处在爆炸范围中的生物，即便他们幸存下来，也会发现他们的魔法能力暂时受到阻碍。<BR>这是我对于我自身技艺的一次充分运用，而完全没有用到潜藏在我心中的那些疯狂。(大概。)
-thaumicwonders.research.flux_capacitor.title=咒波收容器
-thaumicwonders.research.flux_capacitor.text.stage.1=我注意到元始珍珠与咒波有一种奇怪的关联。这两者以一种我尚不理解的方式相互作用。也许我能学会利用这种关系。
-thaumicwonders.research.flux_capacitor.text.stage.2=我的研究表明，通过正确的操作，这些珍珠将吸引和固定下咒波。利用这个新发现，我设计了一个设备，我称之为咒波收容器。<BR>一旦放置，这个设备将慢慢地从灵气场中吸收并收容这些咒波。每个容器只能容纳少量的咒波，但总比什么都没有强。<BR>接下来的问题是如何处理已经满溢的容器（容器若满会发出微弱紫光）。通入红石信号将迅速释放容器中所包含的咒波到灵气场中。因为受容器可以拆卸并携带在身上，我可以有效地移动咒波到那些我可以比较容易清除的地区。我想我可以直接把它们扔掉，但是那样太浪费了。我得研究一个更持久的解决办法。
-thaumicwonders.research.transmuter_stone.title=矿物转化
-thaumicwonders.research.transmuter_stone.text.stage.1=我怀疑我能用催化室做更多的事——至少比单纯的提纯矿石要多。也许有了不同的催化剂，我可以开发出新的功能。是时候做些研究了。
-thaumicwonders.research.transmuter_stone.text.stage.2=好吧，这真是出乎我的意料。事实证明，通过向炼金术士之石注入一些交换和炼金要素，它就变成了完全不同的东西。这种新催化剂允许某些矿物有限度的嬗变。它只对特定的金属对有效，允许我把一个变成另一个，然后再变回来。<BR>然而，使用它的催化室似乎比使用炼金术士之石更经常地产生咒波。<BR>
-
-thaumicwonders.research.alienist_stone.title=奇异金属提纯
-thaumicwonders.research.alienist_stone.text.stage.1=在我掌握了这个秘密之后，我相信我的催化室产率能更上一层。唯一的问题是如何做到。
-thaumicwonders.research.alienist_stone.text.stage.2=我感觉没有什么事是元始珍珠做不到的....通过在炼金术士之石中注入珍珠和一些矿物，我可以增进它的能力。<BR>由此产生的催化剂石会产生我所说的“奇异矿簇”，这种矿簇在熔炼时，会产生三块而不是两块矿物锭。我不愿称由此产生的过程为“净化”，尤其是考虑到每个操作都有很大的几率产生咒波，但结果是不可否认的，它确实极大程度的挖掘了原矿的潜力。<BR>也许我可以用这块石头达到其它的目的。我应该试验一下，找出答案。
-
-thaumicwonders.research.meteorb.title=气象之球
-thaumicwonders.research.meteorb.text.stage.1=如果我能操控时间的流动，那改变天气对我而言就不会是一件难事，是时候做些研究了。
-thaumicwonders.research.meteorb.text.stage.2=我设计出了一个可以操控天气的球，我称之为气象之球。它的运行需要源质，使用起来非常简单。<BR>一旦装满了50种合适的要素(天空晴朗的时候用Aer，下雨的时候用Aqua，雷雨的时候用Potentia)，按下按钮气象之球就会启动。每一种源质都有特定的输入口，输入口会显示此面向所可以输入的源质的颜色。
-
-thaumicwonders.research.ore_diviner.title=矿石探测
-thaumicwonders.research.ore_diviner.text.stage.1=盲目地在地底中寻找矿石的过程是冗长而低效的。如果在我下矿之前就能准确地找到我要找的东西，那就好多了。听起来很吸引人，但有太多方面要考量，而给我的时间却并不多。我相信有更好的办法。
-thaumicwonders.research.ore_diviner.text.stage.2=我设计了一个工具来帮助我探测特定类型矿石的位置。当我在这个矿石探测器上放上一块矿石时，它会找到附近的同类型矿石，并告诉我它的位置。该视觉效果会一直持续到你把矿石拿下来为止。
-
-thaumicwonders.research.void_fortress_armor.title=虚空要塞甲胄
-thaumicwonders.research.void_fortress_armor.text.stage.1=虚空锭制作的护甲很坚固，而且可以自我修复，但是我有信心进一步改造它。也许我从改进神秘护甲中学到的经验也可以用在这里。
-thaumicwonders.research.void_fortress_armor.text.stage.2=我改进虚空护甲的努力取得了成果。这套我创造的甲胄是一套代表了力量和耐用的杰作，它为穿戴者提供了额外的魔法和火焰伤害防护，但牺牲了虚空护甲自身的独特性质。为了和我之前的努力保持一致，我把我最新的作品命名为虚空要塞甲胄。<BR>就像神秘版本一样，这种盔甲是要一起穿的。我穿的套件越多，最终效果便越好。<BR>作为对实用性的考虑，我已经将揭示之护目镜集成到头盔的面具中。该面具还复制了神秘要塞甲胄的嗜血邪妖面具的效果，在攻击时有几率治愈佩戴者。<BR>最后，这套甲胄与佩戴者的扭曲有着一种共生的关系。我的永久扭曲值越高，每件盔甲的护甲韧性就越强。也就是说，我将是不可战胜的堡垒。
-thaumicwonders.research.meaty_orb.title=嗜肉之球
-thaumicwonders.research.meaty_orb.text.stage.1=我昨晚做了一个梦。在梦里，我用气象之球改变了天气，但是从天上掉下来的不是雨，而是肉，各种各样的肉。我想知道我是否能让这个梦想成真。或者说，我该不该这样做。
-thaumicwonders.research.meaty_orb.text.stage.2=不管怎样，我成功了。我创造了一种新的球，emmmmm，我不想把它描写的太细致了，因为它确实让人一言难尽————就叫做嗜肉之球吧。老实说，把它拿在手上让我感觉挺恶心的。<BR>让现实的结构屈服于我的心血来潮，所需付出的可不便宜。为了使其工作，这个球体需要各250点的Aqua，Victus,和Alienis要素。此外，它还会在使用时产生大量咒波。<BR>一旦使用，它真的能使天空下肉雨。尽管只是在附近区域，而且持续时间也比较短。
-
-thaumicwonders.research.structure_diviner.title=建筑探测
-thaumicwonders.research.structure_diviner.text.stage.1=我相信在过去的世界中，也有人和我一样制造出了这种种奇迹，但如何找到这些奇迹的残垣断壁，这件事就比较随机了。简单地选择一个方向，一直走下去，应该会发现蛛丝马迹，但这样几乎没有效率。像我这样的神秘使应该提前预测这些事情。
-thaumicwonders.research.structure_diviner.text.stage.2=这个看上去很简单的设备却有着极大的潜力。只要按下这个按钮，这个建筑探测仪就可以在当前维度中找到最近的自然生成建筑。使用之后，它将指向我的目的地，并会非常粗略的指示目的地有多远。
-
-thaumicwonders.research.night_vision_goggles.title=夜视仪
-thaumicwonders.research.night_vision_goggles.text.stage.1=夜晚总是十分危险，但有些事情只能在夜里才可能完成。怪物倒是不成问题的;我真正担心的的是掉进山谷摔死。我想我可以随身携带夜视药水，但是谁想每隔几分钟就喝一口这种难吃的泔水呢？我得想出一个更好的办法。
-thaumicwonders.research.night_vision_goggles.text.stage.2=如果我的眼睛在黑暗中看不见东西，那么解决办法很明显，就是为我做一副能够夜视的镜片。<BR>通过向揭示之护目镜中注入正确的源质，我创造了一副夜视镜。它们必须在一个充能基座上充能，但它能提供远超夜视药水所提供的夜视时间。<BR>然而，他们不做的是揭露。揭示之护目镜的功能在这个过程中丢失了，所以我得随身携带这两副眼镜。
-
-thaumicwonders.research.void_beacon.title=虚空召现
-thaumicwonders.research.void_beacon.text.stage.1=我已经知道，不管这些裂隙的另一边是什么，无论是物质、能量，还是更奇怪的东西，它都是某种不定形物，这样我想起了阿纳克西曼德所说的απειρω，它的形态属性随着时间和未知的奇想而改变。我相信，我也许可以引导这些变换，然后将此物锁入到某个确定的、真实的东西上。这可能是我最大的发现。
-thaumicwonders.research.void_beacon.text.stage.2=说真的，这一定是我的代表作！因为我凭空变出了一些东西。嗯…虽然少得可怜。<BR>我设计了一种方法，把在裂缝那一端的，超越现实的东西，用源质把它固定成真实的形式。这个过程似乎能够产出几乎任何自然可以产生的材料，尽管我不能完全控制产物，只能够干涉这一过程。这个设备，我称之为虚空信标，需要一些条件才能正常工作。记录如下：<BR>首先，也是最简单的，必须开启虚空信标。对它施加一个红石信号，它就会关闭，关闭的同时，它发射的射向天空的光束也会消失。<BR>第二，虚空信标与天空之间不能有阻隔。像玻璃这样的透明方块不会妨碍它的工作，但像石头或箱子这样的不透明块会妨碍它工作。到目前为止，我还没有遇到绕过这个限制的方法，但是这一点在整个计划中倒也不是非常重要。<BR>第三，虚空信标需要一个相邻的容器，其中至少有一个空位。它不能将产物储存在内部，否则会破坏其脆弱的维持内部工作的稳定性，因此，一旦产物产出就会被立即转储到这个容器中。如果没有足够的空间来放置产物，虚空信标就会停止工作，直到容器中有空位。<BR>第四，空信标旁边还需要一条虚空裂隙，并且两者之间不能有东西阻挡。裂隙越大，信标从裂隙中吸取的能量就越多，召现的速度也就越快。然而，就像虚空吸管一样，这个过程对裂缝本身是有害的。当虚空能量被抽出后，裂隙将逐渐地不稳定和缩小。<BR>最后，它需要向其侧边通入源质才能工作。任何类型的源质都会起作用，但我提供给它的源质类型会影响我得到的结果。那些包含有你所输入的源质的自然产物都会成为被召现的物品。你提供的源质越丰富，与你所提供的源质相近的物品就越可能被召现。<BR>不过，我应该注意喂它吃什么;某些源质，比如Machina，根本不会出现在自然产生的原料中，把它注入空信标只会使它产生空气。如果需要的话，我可以用空手右击来清空它。信标本身每召现一个物品需要20点源质，但是这个数量可以通过建造一个合适的底座来减少。这个基座的构造就像普通的信标，但要注意，虚空信标基座只接受虚空金属块。基座的每一层将减半所需的源质量，四层所减少的量是减少量的极限。
-
-thaumicwonders.research.cleansing_charm.title=洁净之辉
-thaumicwonders.research.cleansing_charm.text.stage.1=长久的头痛真是难以忍受。我只能尽快做出驱魔肥皂，但它的作用也就聊胜于无。必须找到更好的办法来处理这个问题。
-thaumicwonders.research.cleansing_charm.text.stage.2=真是解了我的燃眉之急。这个新的洁净之辉将会从我的身体上抽出扭曲，并将它转化为咒波释放到灵气场中。这不是一个完美的解决方案，但我还是不得不穿上它。<BR>然而，这个过程是缓慢而且有所损耗。洁净之辉必须放在基座上进行充能，并且需要完全充能才能移除一点扭曲。这个过程大约每30秒产生一点咒波，我估计，它需要一个小时时间来完成它的工作。<BR>此项链只适用于粘性扭曲。临时扭曲自我消散的速度甚至比它的工作速度还要快，永久扭曲它鞭长莫及。
-
-thaumicwonders.research.bone_bow.title=骨弓
-thaumicwonders.research.bone_bow.text.stage.1=一段莫名的记忆在我的脑海反复出现，那是一种早已被遗忘的东西……这是一件威力强大的武器，但我还看的不是很真切。也许有些研究能唤起我的记忆。
-thaumicwonders.research.bone_bow.text.stage.2=是的, 我想起来了.是骨弓！<BR>在使用vis充能之后, 这把弓能爆发出远超一般弓的速度,但却几乎不会多耗力气.此外，如果拉满弓，射出去的箭会飞的更远，并且带火. 其效果相当显著.<BR>弓每发消耗1点vis。但当它的能量耗尽时，它就和普通弓差不多。
-
-thaumicwonders.research.primal_arrow.title=原始箭矢
-thaumicwonders.research.primal_arrow.text.stage.1=随着我成功地重新发明了弓骨，另一段记忆浮现在我的脑海:一种更高级的魔法弹药。但它的配方是什么来着？
-thaumicwonders.research.primal_arrow.text.stage.2=我的实验又一次成功了.使用基础要素结晶为普通箭矢镶边, 箭矢因此被赋予了特别的能力.  原始箭矢无法再从地上回收, 而且, 无限附魔只有30%的几率使得箭矢不消耗，这是由魔法的本质所决定的.<PAGE>§o风之矢§r<BR>这些箭矢不会造成额外的伤害,但它因风元素所带来的部分无形的特性使得它可以忽视敌人的护甲.<PAGE>§o地之矢§r<BR>这被厚重的土元素所附魔的箭矢,能够比普通箭矢造成更高的伤害.<PAGE>§o火之矢§r<BR>这种箭矢可以给被击中者造成火焰伤害，并且使其被点燃.<PAGE>§o水之矢§r<BR>水之矢造成的伤害与普通箭矢没有差别,但它却会给被击中者带来深入骨髓的寒冷，显著地降低被击中者的速度.  此外，如果在水下射箭，水之矢将不会受到水的阻力影响.<PAGE>§o秩序矢§r<BR>秩序矢造成的伤害比普通箭矢略低, 但它能部分忽视护甲，并且使对方虚弱.<PAGE>§o混沌矢§r<BR>混沌矢的伤害也比普通箭矢略低, 但它的混乱之力会在接下来的几秒内侵蚀目标（指凋零）.
-thaumicwonders.research.primal_arrow.text.addenda.1=真是令我好奇...自动十字弩显然无法使用原始箭矢.它的确可以发射原始箭矢,但由于其内部机制，在发射前，原始箭矢当中的能量就会被剥离出去.  我不太确定我能不能找到解决方法.
-
-thaumicwonders.research.flux_distiller.title=咒波蒸馏器
-thaumicwonders.research.flux_distiller.text.stage.1=将咒波收容至咒波容器当中当然很好, 但接下来呢？ 如果有可能，我是绝对不想将其再释放到灵气场中.肯定有什么方法可以处理这些容器内的咒波.
-thaumicwonders.research.flux_distiller.text.stage.2=我设法将咒波凝结器改造为了一种新的形态————它现在能很好的与咒波容器兼容工作.<BR>当将这个新设备————我称其为咒波蒸馏器，放置在咒波收容器上面时, 它会吸出容器中的咒波，并将其蒸馏为源质.  这一过程产出率并不高, 所幸它并不需要什么原料.  它的全部要点在于，它可以使我摆脱掉烦人的咒波.<BR>蒸馏器内部无法储存太多的源质, 所以你需要从蒸馏器的上方通入管道将其排出.  当我破坏掉蒸馏器后，它会保留蒸馏的进度，但其中的源质会因此流失.
-
-thaumicwonders.research.mystic_gardening.title=魔法植物种植
-thaumicwonders.research.mystic_gardening.text.stage.1=在我的探险中，我遇到了许多神奇的植物。我想自己种植它们，但不清楚它们的生长条件以及繁育条件。我对此十分感兴趣。
-thaumicwonders.research.mystic_gardening.text.stage.2=虽然还不清楚这些物种是如何在野外传播的，但我已经设法解决了培育问题.  将我目标制造的植物的所蕴含的源质以及一些世界盐用注魔的方法注入普通的小麦种子中, 我创造出了可生长的魔法植物.<BR>水银花可以被种植在泥土，草方块和耕地上.  烈焰草可以被种植在沙子和硬化粘土（陶瓦）上,但奇怪的是无法种植在普通的泥土上，尽管成熟的烈焰草的确可以被放置在其上.  纤毛菇可以被种植在任何的固体方块表面，它的孢子对生长环境要求较低.<BR>所有的魔法种子都可以被骨粉或者机器催熟.
-
-thaumicwonders.research.panacea.title=纯洁之果
-thaumicwonders.research.panacea.text.stage.1=我最近总觉得不舒服, 我手头的食物和药物效果甚微.  也许我可以使用炼金的方法创造某种可以让我痊愈的药？
-thaumicwonders.research.panacea.text.stage.2=我感觉好多了！ 用一些有益健康的源质注入金苹果，我创造了一种新的食物，我称之为纯洁之果，吃下它，我觉得浑身都轻松了很多。<BR>除了美味又有营养外，纯洁之果还能消除我当时所有的病痛。另外，它仍然具有正常金苹果的保护和治疗作用。<BR>如果我在旅途中幸运地发现了附魔金苹果，我就能创造出一种更有效的纯洁之果————圣洁之果。除了驱散掉我目前所有的负面影响，它也会保护我的思想和身体。圣洁之果会像附魔金苹果一样保护我不受伤害，它也会在短时间内保护我的心灵不受扭曲的蹂躏.
-
-thaumicwonders.research.alkahest.title=万能溶剂
-thaumicwonders.research.alkahest.text.stage.1=我的杂物太多了，占据了我本就不多的空间。我想我可以用熔岩来解决，但那样的话，我就得阻止熔岩随意地四处燃烧。不，我想用我的魔法来处理这些杂物，我敢打赌炼金术就是最好的选择.
-thaumicwonders.research.alkahest.text.stage.2=瞧瞧，万能溶剂。这种东西腐蚀性极强了，任何未经特殊处理的东西都会被它腐蚀掉。作为回馈，它溶解的任何物质都被分解成微量的vis，释放到灵气场中。这样我就不用担心我的房子会被随意烧毁。我只是要确保不要把这东西洒出来…
-
-thaumicwonders.research.lethe_water.title=遗忘之水
-thaumicwonders.research.lethe_water.text.stage.1=附魔会消耗大量的经验，而通过猎杀怪物来获取这种珍贵的资源既乏味又危险。我宁愿呆在家里，那里温暖而光线充足。也许我可以用炼金术产生这种能量？
-thaumicwonders.research.lethe_water.text.stage.2=在我第四次重复我的实验之前，我得把这个写下来。我的实验勉强算合格了。这种混合物当然给了我经验，我可以用它来附魔，但它有一个奇怪的副作用:它会使我忘记事情。<BR>经过一些控制实验，我已经确定，每一剂这种酿造物，我称之为冥河之水，它会使我忘记我的一个宝贵的魔法理论。我已经记录到纸上的以及完成的研究无法遗忘，观察知识也是，但在我脑中还未写于纸上的理论却不是。奇怪的是，如果我没有任何可以被遗忘的理论，那么药水似乎没有效果。
+thaumicwonders.research.cleansing_charm.title=净化护符
+thaumicwonders.research.cleansing_charm.text.stage.1=我受够这头痛了。制作祛邪肥皂的速度本就有限，况且它的效果也有局限。有时当我外出旅行远离家园时，也不可能通过沐浴来清除扭曲。必须找到一个更好的方法，来随时应对这个问题。
+thaumicwonders.research.cleansing_charm.text.stage.2=终于解脱了。这个新的净化护符能将扭曲从我的身心之中抽出，并将其作为咒波消散到灵气场中。虽然不是万全之策，但用法简单，只需佩戴即可。<BR>护符必须在基座上充入魔力，并且移除扭曲时会消耗充能。而且意料之中的是，护符发挥作用也需要一些时间。<BR>护符仅对普通的“粘性”扭曲有效。临时扭曲本身的消散速度就很快，护符来不及起作用，而且用祛邪肥皂就能轻松清除；而永久性扭曲则超出了它的能力范围，无法帮我消除。
 
 thaumicwonders.research.coalescence_matrix.title=聚合矩阵
-thaumicwonders.research.coalescence_matrix.text.stage.1=每当我凝视虚空，我总觉得虚空亦回我以凝视，也许我应该想个办法把这种被凝视感的背后元凶找出来。
-thaumicwonders.research.coalescence_matrix.text.stage.2=利用我所学到的虚空裂隙能量之知识，我相信我已经发展出一种方法来迫使它们在我们的现实中聚合成人形。这个过程需要一个稳定的平台和一个在附近的激活的虚空裂隙。<BR>在使用了世界盐形成平台后，聚合矩阵将开始从附近的虚空裂缝中吸取能量。一旦它满了，我就可以通过使用我的法师护手来触发最后的程式。矩阵本身不太可能在这个过程中幸存下来，但是平台的大部分应该可以幸免遇难。我不知道这个仪式会带来什么，但我认为它不会聚合成某种友善生物。我应该准备好一场艰苦的战斗.
+thaumicwonders.research.coalescence_matrix.text.stage.1=每当我凝视虚空，总隐约感到有什么东西也在回望着我。是时候主动会它一会了。
+thaumicwonders.research.coalescence_matrix.text.stage.2=利用我对虚空裂隙能量的了解，我相信自己已开发出一种能迫使它们在现实世界中聚合成人形的方法。此过程需在一个稳定的平台进行，而且附近需存在一个激活的咒波裂隙。<BR>使用些许世界盐构建平台后，聚合矩阵便会开始从附近的咒波裂隙中汲取能量。能量充满后，我便可借助法师护手之类的媒介启动最终程式。矩阵本身不太可能在在此过程中幸存，但平台的大部分结构应该可回收利用。<BR>我不知道这仪式将塑造出何种事物，但想来绝不是什么友善的存在。我必须做好恶战一场的准备。
 
-thaumicwonders.research.corruption_avatar.title=腐化之尸
-thaumicwonders.research.corruption_avatar.text.stage.1=污染和腐败的力量，被我的魔法仪式强行聚合为人形。它似乎也并不喜欢被这样。<BR>腐化之尸是一个强大而危险的敌人。它会向周围的任何没有被腐化的东西投掷爆炸性的球体。更糟糕的是，它不断地扭曲和污染周围的地区，反过来又从腐化中获得力量.
+thaumicwonders.research.corruption_avatar.title=腐化化身
+thaumicwonders.research.corruption_avatar.text.stage.1=通过我的魔法仪式，这股污秽与腐化的力量被强行塑造成人形。它似乎也对此并不感激。<BR>化身是个强大且危险的敌人。它会向周围任何非邪术或腐化的目标投掷爆炸性法球。更糟的是，它会持续扭曲并污染周围区域，同时从这腐化中获取力量。
 
-thaumicwonders.research.primordial_pearl_growth.title=元始珍珠生长
-thaumicwonders.research.primordial_pearl_growth.text.stage.1=尽管炼金术能够将精华层层覆盖在微粒上并形成小型原初珍珠，但这一过程远谈不上高效。仅有少量精华能够附着于珍珠之上，其余部分均在过程中流失。<BR>我千方百计也无法使珍珠尺寸进一步增大。或许存在某种方法，能将精华层层叠加于已成型的珍珠之上……
-thaumicwonders.research.primordial_pearl_growth.text.stage.2=我认为最近的实验已取得成功。<BR>通过使用贤者之石作为粘合剂，将原始魔力水晶注入已成型珍珠的外表面，我能够使珍珠尺寸进一步增大，这是单靠炼金术无法实现的。<BR>然而，此过程会导致珍珠表面出现细微瑕疵，从而阻止其进一步生长。<BR>只要我小心谨慎，不损坏珍珠的核心，便应能持续地再生其外层。此法虽有不足，但足以满足我大多数需求。
+thaumicwonders.research.dimensional_ripper.title=维度撕裂器
+thaumicwonders.research.dimensional_ripper.text.stage.1=若想持续研究并有效利用这些咒波裂隙，我需要更趁手的工具。现有的方法主要依赖向灵气场中大量灌注咒波，指望新生的裂隙别出现在太远的位置，同时祈祷它们不会再次将我屋内的家具与空间布局搅得天翻地覆。<BR>这种方式不仅过于随机难以掌控，每次现实结构破损后的修复工作也令人不胜其烦。<BR>我需要更精准的手段，最好是对灵气场损耗更小、破坏性更低的选择。
+thaumicwonders.research.dimensional_ripper.text.stage.2=我相信自己在裂隙领域取得了突破性进展。通过以特定方式将高度浓缩的Vitium能量束聚焦于单一节点，我成功在指定位置精准撕裂了现实空间。<BR>但仅凭单台维度撕裂器远远不够，其所需能量也根本无法实现。必须成对使用这类装置。将两者精确间隔十格放置，输出端相互对准，设备便能产生共振效应，将能量放大至足以满足需求的程度。如此部署时，会有微量能量在装置间跃动，标志着连接已建立。<BR>每台设备至少需要注入五十单位Vitium源质才能达到临界状态。向任意一台撕裂器输入红石信号即可使整套系统停机，阻止反应发生。在停机状态下，可向撕裂器供应超出最低标准的额外源质，注入得越多，最终激活时形成的裂隙就越大。我必须提前谨慎规划预期尺寸。<BR>作为安全措施，若感应到目标点以外区域已存在开启的裂隙，撕裂器将无法启动。现实与虚空之间的帷幕经不起反复撕扯，否则不是导致彻底崩坏释放出恐怖存在，就是引发灵气场自身的毁灭性反噬。我还没§o那么§r疯狂到要通过实践去验证具体后果，至少现在还没有……<PAGE>此外，尽管使用Vitium作为能源与裂隙创建媒介，维度撕裂器却无法以任何方式维持或稳定裂隙。毕竟这套装置的初衷仅是开启裂隙，而非维持和操纵。若要对裂隙进行特定干预，还需借助其他专门手段。
 
-thaumicwonders.research.erythurgy.title=溶解术
-thaumicwonders.research.erythurgy.stage.0=坩埚具有将物质从其基本精华中解构并重新排列的能力。结合我在炼金术嬗变与复制方面的实验经验，或许我能找到一种安全解构普通材料的方法。
-thaumicwonders.research.erythurgy.stage.1=我将这种新的解构过程命名为“溶解术”，其手段可谓相当粗陋。它类似于一种非常基础的魔法形式，几乎不需要理解任何魔法原理。与需要智慧和练习的普通魔法不同，溶解术依赖的是魔法上的蛮力：以大量原始要素浸透物品，常常以浪费的方式强行改变其形态。<BR>尽管手段粗糙，溶解术似乎能实现一些我此前忽略的有趣效果。我对“元素”类要素的研究收效甚微，但我发现了一些利用“混沌”（Perditio）和“秩序”（Ordo）的方法。
+thaumicwonders.research.disjunction_cloth.title=驱魔之布
+thaumicwonders.research.disjunction_cloth.text.stage.1=哎！这附魔台有时候真让人抓狂。它太……随机了！而且当得不到想要的魔咒时，我还得从头开始重新制作物品！肯定有更好的解决方法。<BR>我相信炼金术能解决这个问题。现在只需要一种能吸收附魔物品上魔法能量的载体，要是在过程中能不损毁物品就更好了。当然，我需要一件附魔物品来测试。不需要太高级的，简单的保护魔咒就正合适。
+thaumicwonders.research.disjunction_cloth.text.stage.2=我的研究有成果了！虽然不能解决随机附魔的问题，但这种新的驱魔之布可以剥离物品上的所有魔咒，且不会损坏物品本身。<BR>更妙的是，它不仅能吸收魔咒能量，还能将其释放出来！被释放的能量会以魔力形式消散到灵气场中。据我计算，驱魔之布每解除一级魔咒，就会向灵气场释放5点魔力。
 
-thaumicwonders.research.avaric_deconstruction.title=宝石精炼
-thaumicwonders.research.avaric_deconstruction.stage.0=我在有序与混乱溶解术方面的研究，已使我非常接近完全理解从不完美来源中完美回收材料所需的工艺。该过程中的某些现象，与制造金属簇时所用的提纯技术惊人地相似。<BR>这值得进一步探究……
-thaumicwonders.research.avaric_deconstruction.stage.1=这种新工艺，此后将被称为“宝石精炼”，能够以惊人的效率剥离纯净物质周围的杂质。<BR>富含宝石的矿石尤其受益于矿物精炼，周围的岩石被剥离殆尽，留下珍贵的宝石，几乎实现完美产出。
+thaumicwonders.research.end_hedge.title=异域篱畔炼金术
+thaumicwonders.research.end_hedge.text.stage.1=旅途中的种种迹象表明，还存在一个有待探索的全新世界。我得仔细研究在那里找到的一切。
+thaumicwonders.research.end_hedge.text.stage.2=“终末”之地是个极其危险的地方，但其中确实存在一些能很好地用于篱畔炼金术的材料。
 
-thaumicwonders.research.entropic_processing.title=溶解处理
-thaumicwonders.research.entropic_processing.stage.0=溶解术利用大量熵能将材料分解为更小的碎片。据我观察，这种分解效果本可通过手工完成，但过程中使用大量纯粹的熵能显著提升了效率，尽管对某些物品而言成本过高。<BR>我曾尝试用此法从较小的花朵及其较大的同类中提取更多染料，但显然手工制作染料的效率已经达到了极限。这表明，通过某种大型研磨装置，完全可以用非魔法手段达到类似效果。不过，这与魔法研究关系不大——我姑且记下这一点，以备将来参考。
+thaumicwonders.research.entropic_processing.title=熵变处理
+thaumicwonders.research.entropic_processing.text.stage.1=绛术学通过运用大量的熵能将材料分解成更细小的碎片。据我观察，这其实完全可以用手工完成，但在此过程中注入的巨量纯净熵能，确实能显著提升分解效率，尽管对某些物品而言成本过于高昂。<BR>我尝试过用这种方法从小型花朵中提取更多染料，期望能达到与大型花朵相当的产量，但事实证明，手工制取染料的效率本就已达极限。这意味着通过非魔法手段（例如某种大型研磨装置）也能获得相似效果。不过这与魔法研究并无直接关联，姑且记下一笔以备不时之需。
+
+thaumicwonders.research.erythurgy.title=绛术学
+thaumicwonders.research.erythurgy.text.stage.1=坩埚具有从基础源质中解构与重组物质的能力。结合我在炼金嬗变与复制实验中积累的认知，或许能探寻到安全解构普通物质的方法。
+thaumicwonders.research.erythurgy.text.stage.2=我将这种新型解构工艺命名为“绛术学”，往最轻了说，它也实在算不上精妙。这种技艺类似最基础的神秘学形态，几乎无需理解魔法原理。神秘学需要智慧与实践，而绛术学则倚仗魔法蛮力：通过相当浪费的方式将海量元始要素灌注至物品中，从而实现某种形式的转化。<BR>尽管技法粗陋，绛术学却能够实现某些被我忽略的有趣效果。虽然对“基础”要素的研究收获甚微，但我已发现若干运用Perditio与Ordo的途径。
+
+thaumicwonders.research.avaric_deconstruction.title=贪婪精炼
+thaumicwonders.research.avaric_deconstruction.text.stage.1=通过研究有序与熵变绛术学，我几乎完全掌握了从非纯净原料中完美提取物质的关键工序。其中某些过程与制备金属簇时采用的精炼技术惊人地相似。<BR>这值得深入探究……
+thaumicwonders.research.avaric_deconstruction.text.stage.2=这种被命名为“贪婪精炼”的新工艺，能够以惊人的效率剥离杂质并提纯物质。<BR>该技术对富含宝石矿脉的提纯效果尤为显著，当周围岩层被尽数剥离时，宝石几乎能保持完好无损，呈现近乎完美的产出。
+
+thaumicwonders.research.everburning_urn.title=永燃之瓮
+thaumicwonders.research.everburning_urn.text.stage.1=虽然无尽之瓮极其便利，但我确信还能更进一步。制造一种类似的、但适用于其他类型流体的装置。比如说……熔岩？
+thaumicwonders.research.everburning_urn.text.stage.2=通过向无尽之瓮中注入一系列通往地狱的微型传送门，我能够汲取到我所需的全部熔岩。然而，这个过程并非完美无缺。<BR>首先，速度很慢。它水版本的兄弟顷刻间就能填满，但这个被我称为“永燃之瓮”的装置，需要大约一分钟才能生成一桶熔岩。<BR>同时，这个过程对灵气场的消耗也大得多。据我计算，维持传送门网络大约会消耗灵气场中25点魔力。<BR>最后，为了安全起见，我禁用了这个瓮自动填充附近容器的功能。可不能让滚烫的熔岩四处飞溅。
+
+thaumicwonders.research.flux_capacitor.title=咒波收容器
+thaumicwonders.research.flux_capacitor.text.stage.1=我注意到元始珍珠与咒波间有种奇特的联系。显然，二者会相互作用，但其方式我尚未完全理解。也许我可以尝试利用这种关系，设法从中获益。
+thaumicwonders.research.flux_capacitor.text.stage.2=据我的研究揭示，通过适当的操控，元始珍珠能够吸收并将咒波能量束缚于自身。利用这一新发现，我成功设计出了一种名为“咒波收容器”的装置，其原理与魔力电池类似。<BR>放置后，这些装置便会缓慢从灵气场中吸收并容纳咒波。每台收容器只能以此种方式容纳少量咒波，但总归比没有好。<PAGE>施加红石信号会将其容纳的咒波快速释放回灵气场中。由于这些收容器是可携带的，我可以通过这种方法有效地将咒波转移至更容易清理的区域；当然，我也可以直接把它们扔掉，但这似乎太浪费了。<BR>之后我必须研究一个更永久的解决方案，但目前而言，这个装置在清理咒波上还是非常有用的。或者，它也能缓解我进行咒波实验时的压力。
+
+thaumicwonders.research.flux_distiller.title=咒波蒸馏器
+thaumicwonders.research.flux_distiller.text.stage.1=把咒波吸收到收容器里确实不错，但然后呢？如果能有办法，我也不想把咒波重新释放到灵气场中。肯定有什么办法能安全处理这些被束缚的咒波能量，而不是简单地将咒波转移到另一个可能因此出问题的区域。
+thaumicwonders.research.flux_distiller.text.stage.2=我成功将一台咒波凝结器改造升级，使其能够安全处理咒波收容器中束缚的能量。<BR>当这个新装置——我称之为咒波蒸馏器——被放置在咒波收容器顶部时，它会抽走其中被束缚的咒波能量，并将其蒸馏为源质。这一过程的产出并不多，但好在也不需要任何其他输入，所以还不错。毕竟根本目的还是为了消除咒波。<PAGE>蒸馏器本身无法储存太多源质，因此需要用管道从顶部将源质导出。若在装置工作时意外将其破坏，它会保持当前的能量状态，但所有储存的源质都会丢失。<BR>尽管如此，与基础的净化装置相比，这也是对抗咒波污染的正确一步。
+
+thaumicwonders.research.flying_carpet.title=飞毯
+thaumicwonders.research.flying_carpet.text.stage.1=古老的传说讲述了炼金术士制作能够悬浮飞行的丝绸地毯，并精进了此等奇迹技艺的故事。许多传说也提到，其中的诀窍在于地毯的染色工艺，而非编织纺纱。然而，相关知识已经失传，无人知晓如何再次制作这样的物品。<BR>虽然我并不怀疑魔法能让物体飞行，但我相信凭借神秘学，完全可以在复制这种地毯的特性的同时，使其足够小巧以便携带，并且无需用珍贵金属刺绣。毕竟，我又不需要载上一大群人。
+thaumicwonders.research.flying_carpet.text.stage.2=虽然还无法在不借助辅助器具的情况下飞行，但我想我成功重现了某种能赋予我飞行能力的东西：飞毯。<BR>名字听起来不算气派，但它确实名副其实：当放置在地面上时，可以通过右击来乘坐。坐上去后，飞毯就会响应我的指令，朝着我面对的方向前进或后退。<PAGE>飞毯无法直接从灵气场中吸取魔力——添加此类设备会破坏其平衡——因此必须直接在充能基座上充能。飞行时我必须小心监控剩余能量，因为一旦耗尽，飞毯就会从天上掉下来。不过，它应该能保留足够的防护魔法来保护我免受冲击。<BR>此外，它并非最快或最便捷的飞行方式；速度缓慢而且有点转向问题。我确信我能造出更好的个人飞行手段，但在那之前，这飞毯目前还派得上用场。<BR>另外，还可以在工作台中将飞毯与染料（例如骨粉）结合来将其染成不同颜色。如果厌倦了新颜色，可以在炼药锅（§o不是§r坩埚）中将其洗掉。
+
+thaumicwonders.research.hexamite.title=乌洛魔品
+thaumicwonders.research.hexamite.text.stage.1=尽管我尽力与其他神秘使合作，但他们中的一些人更倾向参与冲突。使用世俗科技的非神秘使们也面临这类困境。<BR>然而，正如魔导手册本身和我个人经验所见，此类情况可能永无止境，学识精湛的神秘使也会被这种缠斗浪费时间，而这些时间本可用于研究现实的奥秘。此外，这还会导致我所需要的资源遭受不幸损失。<BR>我决定使用那些更为世俗科技熟知的方式来纠正这种冒犯。<BR>爆炸物。<BR>普通的TNT无法达到预期效果，而使用普通的世俗科技又非我的风格，因此这种情况需要一些……特别的东西……
+thaumicwonders.research.hexamite.text.stage.2=这样就行了。我采用了TNT的基本配方，保留少量火药作为引信，其余部分则填满了不稳定的铝。为了确保效果，我还掺入了一些Vitium碎片作为破片，并添加了一点“RDX”，或者说黑索金。<BR>最终的装置不仅威力比TNT强50%且具有燃烧性，其爆炸还会撕裂并紊乱当地的灵气场，将其完全耗尽。所有这些都不会使用咒波，没有产生裂隙和传播腐化的威胁。被爆炸波及的生物——假设他们能幸存下来——会发现其魔法能力暂时受阻。<BR>虽然我确信我的同僚们会发现这件物品更有用，甚至可能找到更多利用它的方法，但对我来说，它只是一把双刃剑；我也将遭受缺乏魔力所带来的影响，因此我必须携带更多常规武器并准备储存魔力的手段。它或许无法一劳永逸地解决问题，但至少能在应对其他敌对神秘学使用者时提供更多选择。
+
+thaumicwonders.research.inspiration_engine.title=灵感引擎
+thaumicwonders.research.inspiration_engine.text.stage.1=构建神秘学理论是一个漫长且费力的过程，同时会消耗资源。我知道某些物品可以辅助我的研究，但感觉它们的作用范围……很有限。也许我可以用魔法创造出更优越的研究辅助工具。
+thaumicwonders.research.inspiration_engine.text.stage.2=我已为一款我称之为“灵感引擎”的设备拟定了方案。像其他研究辅助工具一样，它必须被放置在研究台的四格范围内，处于同一高度或刚好在其上方或下方。<BR>如果放置正确，我将能够从研究台的界面中选择使用它。然后，当它被注入Cognitio源质后，它会产生想法来帮助我进行理论构建，并将这些想法传递到我的脑海中。<PAGE>这是一种奇怪的感觉，这些外来的想法，虽然有些发痒，但据我测试是良性的。<BR>此外，回想起来，这个设计作为我住所的装饰品也相当不错。
+
+thaumicwonders.research.lethe_water.title=遗忘之水
+thaumicwonders.research.lethe_water.text.stage.1=附魔，无论其目标物品是什么，都会消耗大量的魔法能量，而猎杀怪物来获取这种宝贵资源既繁琐又危险。我更愿意呆在家里，那里温暖且灯火通明。此外，除了极少数例外，我认为这些用于处理怪物的装置既繁琐又不适合神秘使。也许有办法能用炼金术产生这种能量？
+thaumicwonders.research.lethe_water.text.stage.2=在§o第四次§r重复实验之前，我得把这个写下来。<BR>我的调合物算是成功了。它确实赋予了我一种可用于附魔的魔法能量，但它有一个奇特的副作用：它会让我忘记某些事情。经过一些小剂量的可控服用实验后，我确定每一全剂量的这种我称之为“遗忘之水”的酿造物，都会让我忘记一个宝贵的魔法理论。我已经完成并记录在纸上的研究是安全的，因为我清楚地记得它们，基本的观察知识也是如此，但漂浮在我脑海中的理论却不再存在了。<BR>奇怪的是，如果我没有任何未消耗的理论，那么药水似乎没有效果。谢天谢地，我仍然记得我的能力、身体机能、一般记忆、我是谁以及我的身份。无论我喝了多少，都无法抹去这些记忆。
+
+thaumicwonders.research.madness_engine.title=疯狂引擎
+thaumicwonders.research.madness_engine.text.stage.1=经证明，灵感引擎在理论构建工作中非常有价值，但这还不够。如果要破解邪术的秘密，我还需要更多。需要某种东西来为我的思想开启新的视野，而我的某一部分……不愿去探索。<BR>我相信，经过充分的修改，我可以将我的灵感引擎变成别的东西，变成正好能满足我需要的东西。
+thaumicwonders.research.madness_engine.text.stage.2=是的，是的……在对灵感引擎的设计进行了一些大幅度修改和补充之后，这个新版本的引擎将给予我所需的东西。结果证明问题在于Cognitio源质本身。它太有序了，太……按我的标准来看，熟悉和平凡。<BR>通过重新设计引擎，使其改为基于Alienis源质工作，并且使用量比原本使用Cognitio源质时更高，它现在能够让我得以一窥现实的基本秘密。老实讲，这种体验令人不适，但这是为了进步所付出的小小代价。<BR>除此之外，它也是我研究室的绝佳中心装饰品。
+
+thaumicwonders.research.meaty_orb.title=肉质之球
+thaumicwonders.research.meaty_orb.text.stage.1=昨晚我做了一个梦。在梦里，我用气象之球改变了天气，但是从天上落下的不是雨，而是肉，各种各样的肉。我想知道我是否能让这个梦变成现实。或者说，我该不该这样做。
+thaumicwonders.research.meaty_orb.text.stage.2=不管怎么说，我成功了。我创造出了一种新形态的气象之球，直白点讲，就叫它肉质之球吧。说实话，握在手里的触感有点恶心。<BR>不过，随心所欲地扭曲现实确实代价不菲。肉质之球需要Aqua、Victus，和Alienis源质每种各250单位才能运作，启动时还会产生大量咒波。<BR>但一旦启用，它真的能让天空降下肉雨。虽然持续时间很短，作用范围也有限。
+
+thaumicwonders.research.meteorb.title=气象之球
+thaumicwonders.research.meteorb.text.stage.1=既然我能操纵时间流转，那对天气这般相对平凡的事物施以影响自然也不在话下。是时候展开研究了。
+thaumicwonders.research.meteorb.text.stage.2=气象之球，这就是我研究的最终成果。它以源质为动力，操作极为简单。<BR>只需注入50单位对应源质（晴天需要Aer，雨天需要Aqua，雷暴则需要Potentia），然后按下前面控制面板上的按钮即可。每种源质需通过不同的面注入，其上会有对应的要素颜色标注。
+
+thaumicwonders.research.mystic_gardening.title=神秘园艺
+thaumicwonders.research.mystic_gardening.text.stage.1=我在探索中遇到了许多种类的魔法植物。我想自己种植它们，但尚不清楚其繁殖方式。这个谜题激起了我的兴趣。
+thaumicwonders.research.mystic_gardening.text.stage.2=虽然仍不清楚这些物种在野外是如何繁殖的，但我还是设法解决了培育问题。通过用这些植物的精华和一些世界盐注魔普通小麦种子，我可以创造出能产生新子代的魔法植物种子。<BR>水银花种子可以种植在泥土、草方块或耕地上。烈焰草种子可以种植在沙子或硬化的粘土上，但奇怪的是无法种植在普通泥土中，尽管成熟的烈焰草可以在那里存活。纤毛菇孢子基本上可以在任何有固体方块表面播种。<BR>这三种类型的魔法种子都可以像普通作物一样用骨粉或其他机制催熟。
+
+thaumicwonders.research.nether_hedge.title=地狱篱畔炼金术
+thaumicwonders.research.nether_hedge.text.stage.1=篱畔炼金术的原理只适用于这世间的极少数材料，这着实令我有些困扰。或许其他世界中存在着可用这门技艺创造的事物……
+thaumicwonders.research.nether_hedge.text.stage.2=如我所愿，地狱确实存在能被篱畔炼金术复制的材料。奇怪的是，并非所有材料都遵循我在这个世界所熟知的规则。在操作时，我必须谨慎对待这些配方。
+
+thaumicwonders.research.night_vision_goggles.title=夜视护目镜
+thaumicwonders.research.night_vision_goggles.text.stage.1=夜晚总是十分危险，但有些事情只能在此时进行。怪物倒是好应付；我真正想要的是能看得清楚，以免跌入峡谷摔死。<BR>我想我可以随身携带夜视药水或使用世俗科技，但谁愿意每隔几分钟就灌一口难喝的泔水，或者随身携带重的要死的电池组呢？我肯定能想出更好的办法。
+thaumicwonders.research.night_vision_goggles.text.stage.2=既然我的眼睛无法在黑暗中视物，那么解决方案就很明显了，制造能为我做到这一点的镜片。<BR>虽然可以像世俗科技那样简单地放大光线，但在亮度突然过高时，这样有导致失明的风险。因此我选择了另一种方法，通过向揭示之护目镜注入正确的源质，我制作出了夜视护目镜。它们必须在充能基座上充能，但效果持续时间比任何药水都长。而且没有失明风险。<BR>然而，它们不具备揭示功能。作为基底的揭示之护目镜功能在此过程中丢失了，因此如果要进行实地研究或者其他需要该功能的事情，我还得随身携带一副揭示之护目镜。我也无法将两者结合，因为这只会取两者之糟粕，就适得其反了。
+
+thaumicwonders.research.oblivion_essentia_jar.title=湮灭源质罐子
+thaumicwonders.research.oblivion_essentia_jar.text.stage.1=虽然虚空源质罐子足以防止溢出，但有时我只想直接销毁源质。<BR>湮灭罐子会立即销毁任何输入罐中的源质，无需等待罐子装满。
+thaumicwonders.research.oblivion_essentia_jar.text.addenda.1=主手持有标签，副手持有源质物品（如：水晶碎片或安瓿）时右击罐子，可将标签贴到湮灭罐子上，并将物品的源质类型绑定到标签上。
 
 thaumicwonders.research.ordered_deconstruction.title=有序解构
-thaumicwonders.research.ordered_deconstruction.stage.0=尽管许多简单物品可以被压缩成大型方块，但并非所有物品都容易被拆解。有时，生成的方块结构特殊，若想将其分割回可用的组件，往往会损失其中很大一部分。然而，添加大量“秩序”（Ordo）精华后，这一过程得到了极大的改善。
+thaumicwonders.research.ordered_deconstruction.text.stage.1=虽然许多简单物品可以凝聚成大型方块，但并非所有物品都容易被拆解。有时，由于最终形成方块的构造形式，很难在不造成大量损失的前提下将其分割成可用的组件部分。然而，事实证明，通过添加大量的Ordo源质可以大大简化这一过程。
 
-thaumicwonders.research.sharing_tome.title=分享知识
-thaumicwonders.research.sharing_tome.text.stage.1=遗忘之水能够从我身上剥离知识，这让我对这种液体改变心智的复杂特性产生了好奇。<BR>似乎存在着某种交换过程：以我先前获得的见解为代价，换取了魔法能量。由于这种获得的魔法能量可直接注入书籍和物品中，我不禁思考，是否能找到一种方法，直接捕获那些失去的知识。<BR>这需要进一步研究。
-thaumicwonders.research.sharing_tome.text.stage.2=虽然结果并非我最初所期望的那样，但实验仍可视为成功。<BR>通过将遗忘之水的剥离知识能力与神秘之书（Thaumonomicon）的知识存储能力相结合，我制成了一本能够以他人可读的形式记录我自身奥秘知识的书籍。<BR>使用此书将使我能够向他人传授我的知识，但我无法限制所传递知识的范围。任何阅读此书的人，很可能都会开始遭受我正在经历的诸多负面效应。
+thaumicwonders.research.ore_diviner.title=矿石探测
+thaumicwonders.research.ore_diviner.text.stage.1=盲目在地底到处挖掘来寻找矿石既繁琐又低效。要是能在拿起镐子之前，就确切知道我要找的东西在哪里，那就好多了。勘探注魔魔咒效果很好，但要筛选的信息太多了，而且持续时间很短。我确信有更好的方法。
+thaumicwonders.research.ore_diviner.text.stage.2=我成功重现了魔导手册某节中提到的共振水晶，只需要一些微调，将勘探注魔魔咒的特性隔离到单一“频率”，使用水晶作为主共振器，以及镐的残余作为“引物”。<BR>这个我称之为矿石探测器的水晶将帮助我探查隐藏在附近岩石中的矿石位置。<PAGE>当我空手与矿石探测器交互时，它将从灵气场中消耗少量魔力并开始共振一段时间。在共振期间，它会寻找附近的矿石方块并将其位置显示给我。如果有矿石被破坏，探测器将开始新的搜索，并标记在附近发现的其他矿石。<BR>如果我希望搜索特定种类的矿石，可以用任何由该矿石材料制成的常见物品右击矿石探测器。这些物品包括宝石、锭、粉或矿石本身。<BR>向其提供红石信号后，矿石探测器会在开始搜索后持续标记矿石，缓慢消耗环境中的魔力。<BR>若想令探测器停止标记矿石，只需空手对其潜行右击即可。
 
-thaumicwonders.research.seal_research_assistant.title=控制符印：研究助手
-thaumicwonders.research.seal_research_assistant.text.stage.1=我研究工作中的一大烦恼，就是不断需要获取材料来验证我的理论。每次都要翻遍储物柜寻找特定物品，这无疑是在浪费我的宝贵时间。<BR>虽然整理储物空间以便快速找到所需物品是一种解决方案，但谁又有时间做这种事呢？<BR>或许，傀儡术能为我的困境提供答案……
-thaumicwonders.research.seal_research_assistant.text.stage.2=我设计出一种符印，能够侦测附近的研习台，并自动提供所需的材料。<BR>由于傀儡的智能有限，部分逻辑必须由符印自身处理。这意味着符印必须放置在物品容器的侧面。<BR>符印会自动检测抄录工具中的纸张和墨水数量，并相应地进行补充或填充。<BR>当我选择新的研究方向时，任何我缺少的物品都会由符印提出请求，并放入我的物品栏中，前提是这些物品要么存放在“研究助手符印”的箱子内，要么能被附近的傀儡取回。
-thaumicwonders.research.seal_research_assistant.text.addenda.1=测试表明，只有标准的抄录工具可以被补充。魔法变体的工具会干扰符印的功能。
-thaumicwonders.research.seal_research_assistant.text.addenda.2=为了让符印能为我提供所需的研究材料，我必须停留在符印的作用范围内。<BR>若我离开其范围，符印将无法探测到我的存在。
+thaumicwonders.research.panacea.title=万灵果
+thaumicwonders.research.panacea.text.stage.1=尽管金苹果很有用，但我仍然得遭受着施加在我身上的伤害效果的折磨。有时它们会完全抵消甚至压倒我的正面效果，让使用金苹果变得毫无意义。也许炼金术中藏有解决方案？
+thaumicwonders.research.panacea.text.stage.2=利用一些促进健康的源质处理金苹果后，创造出了一种新型食物，我称之为万灵果。除了美味且营养丰富之外，食用万灵果会移除当时困扰我的所有不良效果。故名万灵果。而且，它仍然具有普通金苹果的保护和治疗效果。<BR>如果我足够幸运，能找到一个附魔金苹果，我还可以制造出更强效版本的万灵果。除了移除当前所有的负面效果外，它还会同时保护我的身心。附魔万灵果会像附魔金苹果一样保护我免受伤害，并且还会在短时间内保护我的思维免受扭曲的摧残。
 
-thaumicwonders.research.warp_ring.title=初学者的净化之戒
-thaumicwonders.research.warp_ring.text.stage.1=我所见到的猩红教徒似乎对扭曲（warp）有着奇怪的免疫力。我自身曾短暂接触过我们世界之外的力量，结果却饱受剧烈头痛的折磨，而他们却仿佛生存在一个完全由原始魔力构成的领域之中。<BR>他们必定拥有某种屏蔽自身的方法，而我也可以加以利用。
-thaumicwonders.research.warp_ring.text.stage.2=我终于揭开了猩红教派的一小部分秘密。当一名新成员加入时，他们会获得一枚简单的戒指，这枚戒指能保护他们的精神，并消除许多常见的负面状态。<BR>这枚戒指本身与我在翠绿护符方面的研究有着惊人的相似之处，但它内部并未包含实质性的魔力电池。相反，被消除的每一种效果都会被转化成其他形式，并被戒指吸收。<BR>随着戒指吸收的效果越来越多，它会变得愈发强大，从而进一步保护佩戴者免受扭曲的负面影响。<BR>这件物品似乎没有任何明显的缺点。也许这个教派并不像表面看起来那么糟糕……
+thaumicwonders.research.primal_arrow.title=元始箭矢
+thaumicwonders.research.primal_arrow.text.stage.1=随着我成功重新发明了充能骨弓，另一段记忆浮现在我的脑海中：更高级的魔法箭矢。那个配方是什么来着？
+thaumicwonders.research.primal_arrow.text.stage.2=我的实验成功了。通过用为普通箭矢加装元始魔力碎片，我可以为其灌注非凡的效果。然而，这些箭矢的魔法特性使得它们在射出后无法被重复使用，并且无限魔咒只有三分之一的机会保留箭矢。<BR>每种元始箭矢都有其独特的效果，我将在后续页面中详细说明。<PAGE>§l风之箭§r<DIV>这些箭矢灌注了风的力量，造成正常伤害，在命中时召唤一股强风，击退任何被击中的实体。<BR>此外，这些箭矢在水下射出时不受阻碍。<PAGE>§o地之箭§r<DIV>这些箭矢被大地精华增重，造成正常伤害，但会穿透目标的护甲，使其成为对抗重甲敌人的理想选择。<PAGE>§o火之箭§r<BR>这些箭矢灌注了火焰的原始精华，造成额外伤害，并点燃目标。如果目标已经燃烧，则会助长火势，使其燃烧更长时间。<BR>然而，由于造成的是火焰伤害，这些箭矢不适合对抗地狱居民。<PAGE>§o水之箭§r<DIV>这些箭矢造成的伤害与普通箭矢相同，在命中时使目标寒冷彻骨，显著降低其速度。<BR>此外，它们在水下射出时不受阻碍。<BR>然而，这些箭矢的魔法性质使其与火焰效果（例如火焰魔咒）不兼容。<PAGE>§o秩序之箭§r<DIV>这些箭矢造成的伤害比普通箭矢少，但会极大地削弱任何被击中的目标。<PAGE>§o熵之箭§r<DIV>这些箭矢造成的伤害比普通箭矢少，但其混沌本质会在命中后的几秒钟内蚕食目标，使其受到短时间的凋零效果。
+
+thaumicwonders.research.primal_destroyer.title=元始毁灭者
+thaumicwonders.research.primal_destroyer.text.stage.1=虚空剑——如同任何剑一样——的设计初衷就是致命，但它和同类的唯一区别就是铸造它的金属，因为它本质上仍然是一把剑，一个简单的工具。我想试试看，能否通过施加合适的魔法来制造出更强大的物品。
+thaumicwonders.research.primal_destroyer.text.stage.2=有时我觉得某些物品根本不该被制造出来。这就是其中之一：我担心我犯了一个可怕的错误。<BR>是的，它很成功：将Ignis源质和虚空金属注入下界之星和元始珍珠，便铸就了一把以巨剑为型的强大工具，然而它似乎过于强大了，以至于超出了我的控制。<BR>这把元始毁灭者是由阴影和火焰构成的造物，它几乎是活的，渴望啜饮生灵的精华。如果说普通的虚空剑令人不安，那么这把尤其如此。<BR>据我所知，这把剑拥有多种特性。首先，它能点燃目标——显然是Ignis源质在发挥作用。其次，它能对击中的实体施加高等削弱效果。最后，也许是最有趣的：在击杀敌人时，它能抽干除了源质以外的所有一切，从而将其源质结晶为水晶。这不是获取魔力水晶的最有效方法，但无论如何也算得上是个不错的添头。然而，它不是对所有实体都有效，而且不会从那些本身没有任何源质的实体中生成水晶。<BR>我着实担心如果不能让它保持满足会发生什么……
+thaumicwonders.research.primal_destroyer.text.addenda.1=§o虚空烈焰§r<DIV>当你用附有此魔咒的武器击中敌人时，其会向目标施加腐蚀性火焰，造成无法避免的伤害并降低所受治疗。额外魔咒等级会增加火焰的持续时间。<DIV>§o等级§r：1-3<BR>§o目标§r：武器
+thaumicwonders.research.primal_destroyer.text.addenda.2=好吧，现在我知道了……<BR>元始毁灭者确实§o饥饿§r。无论是对血液、灵魂、生命能量，还是某种更神秘的东西——我无法断言。我清楚的是，如果我不定期用它杀戮，它就会转而将饥饿施加于我身上，直接喂它肉行不通：它要求新鲜、活生生的养料。<BR>此外，我瞥见了这把剑中蕴含的某种……不自然的东西。即使它没有直接说话，那里面肯定有我无法完全辨识或理解的§o什么东西§r。也许最好将这个不洁的造物收容在单独的容器里，当作从未创造过它。
+
+thaumicwonders.research.primordial_pearl_growth.title=元始珍珠培养
+thaumicwonders.research.primordial_pearl_growth.text.stage.1=虽然炼金术能够在晶粒上层叠源质并形成小型元始珍珠，但该过程远远谈不上高效。只有少量源质实际结合到了珍珠上，其余都损失在了此过程中。<BR>尽管我尽力尝试，但也似乎无法进一步增加珍珠的大小。也许有另一种方法可以在已形成的珍珠上层叠源质……
+thaumicwonders.research.primordial_pearl_growth.text.stage.2=我认为最近的实验是成功的。<BR>通过使用世界盐作为粘合剂将元始魔力水晶注入到已形成珍珠的外表面，我能够增加珍珠的大小，甚至能超越仅凭炼金术所能达到的极限。<BR>然而，该过程会导致珍珠表面出现微小瑕疵，使其无法进一步增长。<BR>只要小心别损坏珍珠的核心，我应该能够持续再生外层，这足以满足我大部分的需求。
+
+thaumicwonders.research.primordial_siphon.title=元始虹吸器
+thaumicwonders.research.primordial_siphon.text.stage.1=随着裂隙的衰变，我检测到了有痕量的元始精华逸散而出。裂隙坍塌时释放的能量有时会导致这些痕量要素形成一种全新的物体，其材料构成只能用元始物质来形容。<BR>我得找到一种收集这种物质样本的方法。
+thaumicwonders.research.primordial_siphon.text.stage.2=我已拟定了一个改进版虚空吸管的计划，它能收集痕量的元始物质。<BR>如果收集得足够多，也许我能对这个世界的诞生和魔法的基础有所洞察！
+thaumicwonders.research.primordial_siphon.text.stage.3=太神奇了！虽然过程缓慢，但少量的元始物质似乎相互吸引，一旦达到临界质量，就会形成一颗小晶粒。<BR>这些晶粒包含了元始物质的源质和元始本质，其中没有任何可辨别的要素。我相信，只要能接触到足够的源质，它们可以被重构为适当的元始珍珠。
+research.!TWOND_PRIMORDIAL_GRAIN.text=调查元始晶粒
+
+thaumicwonders.research.seal_research_assistant.title=操控印记：研究助手
+thaumicwonders.research.seal_research_assistant.text.stage.1=我研究的主要困扰之一，就是需要不断获取测试理论所需的材料。在存储空间里翻找特定物品实在是浪费时间。<BR>虽然整理整理存储空间也算是个解决方案，但谁有时间做那个？<BR>傀儡学也许能为我的困境提供解决方案……
+thaumicwonders.research.seal_research_assistant.text.stage.2=我设计了一种能够直接附着在研究台上的印记，能够提供需要的材料。<BR>该印记能自动检测笔与墨中的纸张和墨水数量，并相应地补充物品。<BR>当我选择一个新的研究路径时，印记将请求所有缺少的物品，并放置在我的物品栏中，前提是它们能被附近的傀儡检索到。
+thaumicwonders.research.seal_research_assistant.text.addenda.1=测试表明，只有标准的笔与墨可以被重新填充。其魔法变体会干扰印记的功能。
+thaumicwonders.research.seal_research_assistant.text.addenda.2=为了使印记能够提供我可能需要的研究材料，我必须待在印记附近。<BR>如果我走得太远，印记将无法检测到我的存在，并会忘记先前分配的任务。
+
+thaumicwonders.research.seal_shearing.title=操控印记：修剪
+thaumicwonders.research.seal_shearing.text.stage.1=出于各种自动化目的，我已经构造了不少傀儡印记，接下来得目标之一就是能帮助剪羊毛的印记。
+thaumicwonders.research.seal_shearing.text.stage.2=修剪印记会在指定区域搜索任何未修剪的动物。找到后，傀儡将修剪该生物，掉落该动物被修剪后应该生成的物品。
+thaumicwonders.research.seal_shearing.text.stage.3=现在我可以构建这个印记的高级版本。除了修剪动物外，这个高级版本的印记可以允许傀儡收获可修剪的方块，如藤蔓、树叶或高草。
+thaumicwonders.research.seal_shearing.text.addenda.1=此印记只能与装备了钳型机械臂的傀儡一起使用。
+
+thaumicwonders.research.sharing_tome.title=共享知识
+thaumicwonders.research.sharing_tome.text.stage.1=遗忘之水那种从我自身剥离知识的能力，让我对这种液体改变思维的复杂特性感到好奇。<BR>其作用中发生着某种交换，以牺牲先前获得的洞察力为代价，赋予我魔法能量。由于获得的这种魔法能量可以直接注入书和物品中，我很好奇是否能找到一种直接捕获丢失知识的方法。<BR>这需要进一步研究。
+thaumicwonders.research.sharing_tome.text.stage.2=虽然不完全是我想要达成的目标，但实验还是成功了。<BR>通过将遗忘之水的知识剥离能力，与魔导手册保留知识的能力相结合，我创造出了一本能够将我自己的奥术知识，以可令他人阅读的形式记录下来的书。<BR>使用这本书，我便可以将自己的知识传授给他人，但无法限制所传递的知识。任何阅读它的人都可能开始遭受我正经历的许多负面效果。
+
+thaumicwonders.research.structure_diviner.title=建筑探测
+thaumicwonders.research.structure_diviner.text.stage.1=我的建筑创造并非这世间唯一，但寻找这世界原生的其他建筑是非常碰运气的。随便选个方向一直走最后也确实能找到，但效率太低了，而且消耗的时间和资源也不确定。像我这种水平的神秘使应该能够提前预测这些事情。
+thaumicwonders.research.structure_diviner.text.stage.2=令人惊讶的是，这并不难，但比想象中的更加昂贵。<BR>这个由我校准过的建筑探测器能够追踪灵气场中的某些特定波动，按下按钮便能在当前维度中找到最近自然生成的原版建筑。使用后，它将指向我的目的地，并给我一个非常粗略的距离指示。尽管其外观简单，但这设备颇具潜力。<PAGE>它确实有其局限性：无法检测或识别每个建筑，并且一次只能追踪一个建筑，因此必须使用选个方向一直走的老办法，或其他可用的追踪手段来追踪它们。
+thaumicwonders.research.structure_diviner.text.addenda.1=根据位置的不同，构成“神庙”的方块似乎也各异。<BR>虽然它可以指向沙漠和丛林中的远古遗迹，但也会将我引向寒冷地区的冰屋和沼泽中的不祥小屋。<BR>靠近这些生物群系能增加探测器将我引向所寻求特定神庙的机会。
+
+thaumicwonders.research.teleport_home.title=核心效果：传送回家
+thaumicwonders.research.teleport_home.text.stage.1=虽然传送门系统是真正的发明奇迹，但传送锚无法在没有附近生成器的情况下生成传送门，这使得建立网络有点繁琐。<BR>我之前见到的末影人不需要如此笨重的机制来实现传送，所以也许我可以找到一种方法来复制它们的能力。
+thaumicwonders.research.teleport_home.text.stage.2=虽然不完全是我最初的目标，但我成功创造出了一种能够长距离，甚至跨维度传送的核心效果。<BR>然而，无论我如何尝试，该效果似乎总是将我传送到我上次睡觉的床的位置。<BR>我想我应该为取得如此成就感到自豪，并在需要定向传送时继续使用传送门网络。
+thaumicwonders.research.teleport_home.text.addenda.1=有趣的是，我发现如果通过任何类型的箭矢或抛射核心媒介发射这个法术，击中其他玩家后，会将其送回他们自己的床。<BR>如果想将盟友从危险情况中救出……或者如果有人惹恼了我，我得记住这一点。
+
+thaumicwonders.research.timewinder.title=扭时之钟
+thaumicwonders.research.timewinder.text.stage.1=在我去过的一些异域之地，时间流逝的速率似乎非常的奇怪。我想知道是否能在我安家的维度当中重现这种奇怪现象……
+thaumicwonders.research.timewinder.text.stage.2=尽管回到过去的可能性依然遥不可及，令人沮丧，但我已经学会了如何向未来跳跃。为此，我设计了一种名为扭时之钟的设备。它不仅能像普通时钟一样显示时间，还能操控时间！<BR>我可以通过设备背面的一组按钮直接跳跃到特定的天象事件。具体来说，就是日出和月升。按下白天按钮，我便会立刻跳跃到第二天早晨，就像在自己床上安稳睡了一觉。其他按钮则能让我跳跃到指定月相升起的时刻。<BR>不过这个过程会对局部时空结构造成些许负担。每次使用扭时之钟时，都会在灵气场中产生大量咒波。此外，设备运作需要消耗内部储存的魔力。最后，每次使用后都必须间隔一段时间才能再次启动。
+
+thaumicwonders.research.transmuter_stone.title=矿物嬗变
+thaumicwonders.research.transmuter_stone.text.stage.1=我怀疑催化室还有更多效用，而不仅仅是纯化金属矿石。也许使用不同的催化剂和辅料组，我可以实现其他效果。
+thaumicwonders.research.transmuter_stone.text.stage.2=事实证明，向炼金师之石中注入Permutatio源质后，它变成了完全不同的东西。这种新石头可令某些矿物发生有限嬗变，但也只对特定金属对有效。<BR>这块石头允许我将兼容的矿物转化为另一种矿物，并且可以再转化回来，但它产生咒波的频率似乎比基本的炼金师之石略高。我必须警惕我向灵气场排放了多咒波，我已经受够咒波麻烦了。
+
+thaumicwonders.research.vis_capacitor.title=魔力收容器
+thaumicwonders.research.vis_capacitor.text.stage.1=虽然灵气电池足够用于小规模使用，但其较小的容量还是难以满足从环境中消耗大量魔力的过程来。<BR>也许我可以运用我的知识，用元始珍珠进行实验，打造出一种存储容量更大的增强型电池。
+thaumicwonders.research.vis_capacitor.text.stage.2=我成功创造出了一个增强型的灵气电池，此后称为魔力收容器。<BR>如果当地灵气场超过其正常容量的90%，魔力收容器将缓慢吸收魔力。如果灵气场降至75%以下，它将自动释放魔力。<BR>施加红石信号将快速释放其容纳的所有魔力，无论环境灵气场如何。<BR>虽然吸收释放时间比灵气电池快，但仍然相对较慢。与电池非常相似，答案或许在于数量而非速度。
+
+thaumicwonders.research.void_beacon.title=虚空信标
+thaumicwonders.research.void_beacon.text.stage.1=我已经了解到，无论这些裂隙的另一边是什么——物质、能量，还是更奇怪的东西——都几乎像其他东西一样具有可塑性。随时间释放的少量这种能量，以及在坍塌期间释放的大量能量，能够以我无法再现的方式扭曲周围的灵气场。<BR>如果能利用和控制这种不稳定性，它将为我的研究开启全新领域。这可能是我迄今为止最伟大的发现。
+thaumicwonders.research.void_beacon.text.stage.2=真的，这一定是我的代表作。这个虚空信标能够利用裂隙能量，使当地环境失稳，这种不稳定程度足以将原始源质注入灵气场，而且没有咒波污染的风险。<BR>虽然大多数类型的源质似乎没有任何效果，但Auram源质几乎会完美地分散，导致当地魔力增加。<BR>虚空信标需要几个条件才能运作。<BR>首先，虚空信标必须被启用。对其施加红石信号可以关闭它，还会将其发射的冲天光束一齐关闭。<BR>第二，虚空信标必须露天。像玻璃这样的透明方块不会干扰其功能，但石头或箱子这样的不透明方块会阻碍其工作。迄今为止，我还没有遇到任何能绕过此限制的方法，从整体来看，这个问题无足轻重。<BR>第三，信标必须直接放置在由金属块组成的结构顶部。此结构与普通信标的结构一样，额外的层数会增加魔力生成效果的强度。<BR>第四，虚空信标与附近的咒波裂隙在直线上需没有阻挡。裂隙越大，信标一次能从其中吸取的能量就越多。然而，此过程对裂隙本身有害，随着其精华被吸走，裂隙会逐渐失稳并缩小。<BR>最后，需要从信标侧面输入Auram源质。<BR>一旦满足所有条件，信标将开始缓慢地在当前和附近区域再生魔力。
+thaumicwonders.research.void_beacon.text.addenda.1=看来除了其魔力生成能力外，虚空信标还会赋予附近所有人扭曲守护效果。<BR>只要信标处于激活状态，此效果就会生效，这让我相信这是结构本身的被动副产物。
+
+thaumicwonders.research.void_fortress_armor.title=扭曲要塞盔甲
+thaumicwonders.research.void_fortress_armor.text.stage.1=虚空盔甲既坚固又能自我修复，足以胜任其工作，但我有信心进一步改进它。也许在改进神秘盔甲时学到的经验教训在这里也适用。然而，鉴于虚空金属的矛盾特性，这注定更加困难；我必须调整设计以适应金属的特性。
+thaumicwonders.research.void_fortress_armor.text.stage.2=改进虚空盔甲的努力结出了果实。我创造的这套盔甲是是兼具力量与耐用性的杰作，能提供额外的魔法和火焰伤害防护，而且没有牺牲任何虚空盔甲的独特特性。为了与我先前的努力保持一致，我将这件最新造物命名为扭曲要塞盔甲。<BR>与神秘版本一样，这套盔甲设计上就是要一起穿着的。穿的部件越多，每个部件的保护效果就越好，同时外观也会更加出色。<BR>出于实用性考虑，我确保将一套揭示之护目镜集成到兜鍪的面具中。该面具还复现了嗜血邪妖面具的效果，使盔甲在攻击时偶尔能治疗穿戴者，但也是因此，我无法再附加其他面具效果，这一点与神秘要塞盔甲不同。<BR>其他面具的一些特性也与这套盔甲不太兼容，所以最好也不要尝试组合它们。<BR>最后，这套盔甲似乎与扭曲有着共生关系。我的永久扭曲越多，每件盔甲的韧性就越高。穿上这套盔甲，我将化身为坚不可摧的堡垒，至少在面对大多数类型的伤害时是如此。
+
+thaumicwonders.research.void_portal.title=虚空传送门
+thaumicwonders.research.void_portal.text.stage.1=虽然掌握了物品和源质的传送，但即便是我这样成就卓越的神秘使也必须承认，对于跨维度空间的瞬时传送，我只是触及了可能性的表面。<BR>迄今为止，我对此事的研究在传送生命方面没有产生任何有用或安全的结果。正如……某些不幸的实验所证明的那样，镜子后的领域对任何生命体都过于危险。但如果这么容易就放弃，我就不配称自己为神秘使了。<BR>血腥邪徒能利用传送门进行移动，这是毋庸置疑的事实，我不禁好奇……那些狂热分子是怎么做到的？他们显然找到了某种方法。一定有办法——地狱传送门、末影珍珠、通往各种领域的其他跨维度传送门，以及那些血腥传送门的存在，无一不告诉我这是可能的。一定有办法……
+thaumicwonders.research.void_portal.text.stage.2=经过进一步的研究，以及对血腥传送门及血腥邪徒所为的足够观察后，我相信远距离传送的关键在于拥有正确种类的传送锚点。它一定是某种能跨越遥远距离和维度边界产生共鸣的东西，并且能提供足够保护，使我不会分解成一团血雾或遭遇更糟的情况。我已经为此锚点绘制好了设计蓝图，只剩下构造和测试了。
+thaumicwonders.research.void_portal.text.stage.3=我成功破解了它！经过一番维度工程研究，我现在能制造出一种设备，可以安全地生成穿越虚空抵达另一地点的传送门，无论距离或维度如何。<BR>整套系统需要两个传送锚来稳定传送门，一个传送门链接器来强制链接两个传送门，以及一个传送门生成器为整个系统提供动力。<PAGE>要使用它，首先，在目标地点放置一个传送锚，后文称为“目标锚”。然后，使用传送门链接器在目标锚上记录旅行坐标。<BR>接下来，在传送门生成器附近放置第二个传送锚，后文称为“生成器锚”。再然后，将链接好的传送门链接器放入生成器锚中。<BR>最后，要激活传送门，我需要用法师护手右击生成器锚。如果设置正确，链接的传送锚将从生成器汲取能量，并在生成器锚和目标锚上方形成传送门。<BR>与任一传送门交互都会把我传送到链接的传送门，从而在两个遥远位置之间实现快速旅行。<PAGE>虽然在最初假设中，每个传送门生成器仅能为一组传送锚供能，但实验证明，我大大低估了其输出功率。<BR>每个生成器可以为多个传送锚供能。事实上，与生成器相距的物理距离似乎是唯一的限制。传送锚可以放置在任何地方，只要与生成器在水平方向上相距8格，或垂直方向上相距3格以内即可。
+
+thaumicwonders.research.void_walker_boots.title=虚空行者靴子
+thaumicwonders.research.void_walker_boots.text.stage.1=长期以来，旅行者之靴一直是我装备中不可或缺的一部分，但如今面临的挑战却突显了其防护能力的不足。<BR>也许我可以利用改进神秘盔甲的经验来创造新的东西。
+thaumicwonders.research.void_walker_boots.text.stage.2=我成功将旅行者之靴升级为了更卓越的形式。<BR>与其前身相同，这些新靴子能赋予穿戴者移动加成，但同时拥有远胜前身的物理防御。<BR>制作过程中注入的污秽材料，也使其对非自然物质产生了一定程度的防护。<BR>穿上这双靴子后，行走于炽热或被污染的表面将不再有受伤风险，灵魂沙的减速效果似乎也被无效化了。<BR>现在我只需要鼓起勇气把它们穿在脚上就行了。
+
+thaumicwonders.research.warp_ring.title=学徒净化指环
+thaumicwonders.research.warp_ring.text.stage.1=我见过的血腥邪徒莫名地不受扭曲影响。而我只是与存在于世界之外的力量短暂接触，便会头痛欲裂，他们似乎存在于一个完全由这种原始魔法构成的领域中。<BR>他们肯定有某种我也能利用的方法来抵御这种影响。
+thaumicwonders.research.warp_ring.text.stage.2=我成功发现了血腥邪徒的一个小秘密。新成员入教时，会获得一枚简单的指环，这枚指环能保护他们的心智，并消除许多常见的负面状态。<BR>这枚指环本身与我研究的翠心护符有着惊人的相似之处，只是它内部并未装载大型魔力电池。相反，被消除的负面效果都会被转化并吸收到指环中。<BR>随着吸收的效果越多，指环会变得更加强大，进一步保护佩戴者免受扭曲的负面影响。<BR>这件物品似乎没有任何缺点。也许血腥邪徒并不像他们看起来那么坏……
 
 # Theorycraft Cards
-card.induced_inspiration.name=生产灵感
-card.induced_inspiration.text=灵感引擎直接将想法输入你的大脑，这些想法与你正在进行的研究高度相关。你获得%1$s %2$s，一点灵感，和一个额外研究选项.
-card.induced_madness.name=生产疯狂
-card.induced_madness.text=由疯狂引擎产生的出的异类思想撕裂着你的灵魂，但其中有一些包含着更深层的真相。你将获得20到25个邪术学研究进度，1个灵感和一个额外研究选项。你也会获得扭曲.
+card.induced_inspiration.name=诱生灵感
+card.induced_inspiration.text=灵感引擎将想法直接灌输到你的脑海中，这些想法与你当前进行的研究高度相关。你获得%1$s点%2$s进度，1点灵感，和一次额外的抽卡机会。
+card.induced_madness.name=诱生疯狂
+card.induced_madness.text=疯狂引擎投射出的异域思想撕扯着你的心智，但其中零星碎片却蕴含着深邃真理的启示。你获得20到25点邪术学进度，1点灵感，和一次额外的抽卡机会。同时你也会获得扭曲。
 
+# GroovyScript Wiki
+groovyscript.wiki.thaumicwonders.catalyzation_chamber.title=催化室
+groovyscript.wiki.thaumicwonders.catalyzation_chamber.description=使用催化剂嬗变物品。
+groovyscript.wiki.thaumicwonders.catalyzation_chamber.addRecipe1=以`输入`, `催化剂`, `输出`, `咒波概率`, `粒子颜色`的格式添加催化室配方
+groovyscript.wiki.thaumicwonders.catalyzation_chamber.addRecipe2=以`输入`, `催化剂`, `输出`, `咒波概率`的格式添加催化室配方
+groovyscript.wiki.thaumicwonders.catalyzation_chamber.addAlchemistRecipe=以`输入`, `输出`的格式添加默认炼金师之石的催化配方
+groovyscript.wiki.thaumicwonders.catalyzation_chamber.addAlienistRecipe=以`输入`, `输出`的格式添加默认异学家之石的催化配方
+groovyscript.wiki.thaumicwonders.catalyzation_chamber.addTransmuterRecipe=以`输入`, `输出`的格式添加默认嬗变师之石的催化配方
+groovyscript.wiki.thaumicwonders.catalyzation_chamber.input.value=物品输入（从机器顶部输入）
+groovyscript.wiki.thaumicwonders.catalyzation_chamber.catalyst.value=催化剂物品（放置在机器内部）
+groovyscript.wiki.thaumicwonders.catalyzation_chamber.output.value=输出物品
+groovyscript.wiki.thaumicwonders.catalyzation_chamber.fluxChance.value=该过程产出咒波污染灵气场的概率
+groovyscript.wiki.thaumicwonders.catalyzation_chamber.particleColor.value=制作完成时生成的粒子颜色
 
-thaumicwonders.gui.timewinder.0=满月
-thaumicwonders.gui.timewinder.1=亏凸月
-thaumicwonders.gui.timewinder.2=下弦月
-thaumicwonders.gui.timewinder.3=残月
-thaumicwonders.gui.timewinder.4=新月
-thaumicwonders.gui.timewinder.5=娥眉月
-thaumicwonders.gui.timewinder.6=上弦月
-thaumicwonders.gui.timewinder.7=盈凸月
-thaumicwonders.gui.timewinder.8=白天
-thaumicwonders.gui.meteorb.0=清除天气
-thaumicwonders.gui.meteorb.1=下雨
-thaumicwonders.gui.meteorb.2=雷雨
-thaumicwonders.gui.meaty_orb.0=召唤肉雨！
-thaumicwonders.gui.structure_diviner.0=村庄
-thaumicwonders.gui.structure_diviner.1=沙漠神庙
-thaumicwonders.gui.structure_diviner.2=废弃矿井
-thaumicwonders.gui.structure_diviner.3=海洋神殿
-thaumicwonders.gui.structure_diviner.4=林地府邸
-thaumicwonders.gui.structure_diviner.5=末影要塞
-thaumicwonders.gui.structure_diviner.6=地狱堡垒
-thaumicwonders.gui.structure_diviner.7=末影城
-thaumicwonders.gui.structure_diviner.8=清除选择
-
-event.primal_destroyer.hunger_full=元始毁灭者扭曲它自己的意志并伤害你！
-event.timewinder.offworld=扭时之钟在这里好像无法工作.
-event.timewinder.used=时间突然向前跃迁.
-event.void_portal.no_anchor=这个传送门没有链接到锚上.
-event.void_portal.no_world=这个传送门连接到的维度不存在.
-event.void_portal.invader=似乎有什么东西从传送门中散溢了出来.
-event.void_portal.subvert.lesser_crimson=血腥邪徒破坏了一个不稳定的传送门！
-event.void_portal.subvert.flux_rift=一个不稳定的传送门坍缩为了虚空裂隙！
-event.meteorb.used=天气突然之间发生了变化.
-event.meteorb.offworld=气象之球似乎在这里无法工作.
-event.meteorb.unfueled=气象之球需要更多的源质才能工作.
-event.ore_diviner.not_found=你在附近没有发现任何东西.
-event.ore_diviner.found.down=你感到有什么东西在你的的下方！
-event.ore_diviner.found.up=你感到有什么东西在你的上面！
-event.ore_diviner.found.north=你感到北方似乎有什么东西！
-event.ore_diviner.found.south=南方有一些东西进入了你的感知之中...
-event.ore_diviner.found.west=我隐约察觉到西方向产生的吸引.....
-event.ore_diviner.found.east=你模糊地察觉到东方有什么东西....
-event.meaty_orb.used=是肉雨！好时代，来临叻！
-event.meaty_orb.offworld=嗜肉之球在这里似乎无法工作.
-event.meaty_orb.unfueled=嗜肉之球需要更多的源质才能工作.
-event.structure_diviner.not_found=建筑探测仪没有发现什么特别的.
-event.structure_diviner.found.here=建筑探测仪发现了你上方有些什么东西！
-event.structure_diviner.found.near=建筑探测仪察觉到所探寻之物就在你附近！
-event.structure_diviner.found.far=建筑探测仪在很远的地方有所发现。
-event.structure_diviner.found.very_far=建筑探测仪在非常远的地方有所发现！
-event.structure_diviner.found.extreme=建筑探测仪在极其远的地方找到了你所想找之物！
-event.lethe_water.forgot=你觉得的你遗忘了些什么.
-event.lethe_water.not_found=你没有察觉到什么不同.
-event.corruption_avatar.empower=腐化之尸被附近的虚空裂隙所强化！
-
-itemGroup.thaumicwonders=神秘奇境
-death.attack.primalDestroyerHunger=%s被他自己的元始毁灭者所吞噬
+groovyscript.wiki.thaumicwonders.meaty_orb.title=肉质之球
+groovyscript.wiki.thaumicwonders.meaty_orb.description=消耗源质引发一场局部肉雨
+groovyscript.wiki.thaumicwonders.meaty_orb.add=以`掉落物`, `权重`的格式添加新的肉质之球配方
+groovyscript.wiki.thaumicwonders.meaty_orb.meatStack.value=此物品将生成
+groovyscript.wiki.thaumicwonders.meaty_orb.weight.value=将决定此物品的生成权重，或者说概率
+groovyscript.wiki.thaumicwonders.meaty_orb.remove=移除具有给定输出的所有条目
