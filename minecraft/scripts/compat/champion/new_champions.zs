@@ -12,11 +12,11 @@ import crafttweaker.entity.IEntityLiving;
 import crafttweaker.event.EntityLivingDamageEvent;
 
 import mods.ra.champions.AffixBuilder;
-import mods.ra.utils;
+import mods.ra.champions.utils;
 
 
 //魅魔
-val succubus = AffixBuilder.create("succubus");
+val succubus = AffixBuilder.create("succubus", "DEFENSE");
 succubus.tier = 1;
 succubus.onDamaged = function(living, source, damage, newDamage) {
     if (!isNull(source.getTrueSource())) {
@@ -54,7 +54,7 @@ succubus.onDamaged = function(living, source, damage, newDamage) {
 succubus.register();
 
 //恶臭
-val poopy = AffixBuilder.create("poopy");
+val poopy = AffixBuilder.create("poopy", "DEFENSE");
 poopy.tier = 1;
 poopy.onDeath = function(living, source, event) {
     if (!isNull(source.getTrueSource())) {
