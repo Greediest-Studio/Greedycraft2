@@ -19,3 +19,4 @@ JEI.addDescription(<contenttweaker:dim_item>,"再次右键返回这个维度的�
 JEI.addDescription(<gct_mobs:resonate_debris>, "§f挖不动？使用§cEFLN§f来炸碎它！");
 JEI.addDescription(<mekanism:machineblock:4>,"将你的匠魂工具放入左上角的格子使数字型采矿机获得挖掘等级!");
 JEI.addDescription(<appliedenergistics2:part:300>,"只能破坏ae网络里有的方块!!!");
+JEI.addDescription(<additions:astral_projector>,"在百科全书中可以找到其结构投影");
