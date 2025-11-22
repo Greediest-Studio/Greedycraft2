@@ -103,6 +103,25 @@ addLaser(<ticmat:lizanite>, 9, 40);
 addLaser(<ticmat:cordierite>, 9, 40);
 addLaser(<ticmat:prehnite>, 9, 40);
 addLaser(<ticmat:reditrite>, 18, 27);
+addLaser(<ticmat:insanium>, 22, 25);
+addLaser(<ticmat:ravaging>, 9, 13);
+addLaser(<ticmat:malevolencite>, 113, 26);
+addLaser(<ticmat:photonium>, 15, 27);
+addLaser(<ticmat:aetherium>, 17, 25);
+addLaser(<ticmat:lavarite>, 14, 19);
+addLaser(<ticmat:plasmarite>, 27, 22);
+addLaser(<ticmat:mistium>, 35, 27);
+addLaser(<ticmat:sanite>, 24, 31);
+addLaser(<ticmat:abyssine>, 88, 27);
+addLaser(<ticmat:harcadium>, 35, 29);
+addLaser(<ticmat:botanical_awakened>, 105, 30);
+addLaser(<ticmat:scientificite>, 105, 30);
+addLaser(<ticmat:thermallite>, 80, 31);
+addLaser(<ticmat:zodiacite>, 87, 25);
+addLaser(<ticmat:glowing_crystal>, 8, 12);
+addLaser(<ticmat:twilit>, 65, 29);
+addLaser(<ticmat:pruified>, 80, 27);
+addLaser(<ticmat:undying_ember>, 52, 29);
 //增加激光传导器：材料名、伤害、射程
 
 addEnergy(<ticmat:infinity_metal>, 2147483647);
@@ -262,4 +281,6 @@ addEnergy(<ticmat:ice_alloy>, 2640000);
 addEnergy(<ticmat:densite>, 523000);
 addEnergy(<ticmat:reditrite>, 320000);
 addEnergy(<ticmat:apocalypsium>, 600000);
+addEnergy(<ticmat:dimesium>, 120000);
+addEnergy(<ticmat:vanadium>, 100000);
 //增加电池：材料名、能量
