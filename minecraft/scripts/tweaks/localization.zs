@@ -394,6 +394,7 @@ val localizationMap as string[string][string] = {
         //
         "fluid.liquidlegend": "荣耀浆液",
         //
+        "tile.abyss_liquid.name": "暗渊溶液",
         "journey.boss.name.sentryheart": "§4哨兵之心",
         "jer.worldgen.averageChunk": "平均每区块方块数",
         "death.attack.curse": "%s死于腐化的诅咒。",

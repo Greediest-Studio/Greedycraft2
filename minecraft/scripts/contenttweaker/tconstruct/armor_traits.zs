@@ -3654,3 +3654,19 @@ power_of_herrscherTrait.onHurt = function(trait, armor, player, source, damage, 
     return newDamage;
 };
 power_of_herrscherTrait.register();
+
+val shoggyTrait = ArmorTraitBuilder.create("shoggy");
+shoggyTrait.color = Color.fromHex("ffffff").getIntColor();
+shoggyTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.shoggyTrait.name");
+shoggyTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.shoggyTrait.desc");
+shoggyTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        if (Math.random() < 0.5f) {
+            return 0.0f;
+        } else if (Math.random() < 0.2f) {
+            <entity:abyssalcraft:lessershoggoth>.spawnEntity(player.world, player.position);
+        }
+    }
+    return newDamage;
+};
+shoggyTrait.register();

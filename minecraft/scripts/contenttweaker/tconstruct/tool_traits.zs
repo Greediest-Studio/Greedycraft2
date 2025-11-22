@@ -4528,3 +4528,22 @@ power_of_herrscherTrait.calcDamage = function(trait, tool, attacker, target, ori
     return newDamage;
 };
 power_of_herrscherTrait.register();
+
+val shoggyTrait = TraitBuilder.create("shoggy");
+shoggyTrait.color = Color.fromHex("ffffff").getIntColor(); 
+shoggyTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.shoggyTrait.name");
+shoggyTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.shoggyTrait.desc");
+shoggyTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (Math.random() < 0.005f) {
+            <entity:abyssalcraft:lessershoggoth>.spawnEntity(player.world, player.position);
+        }
+    }   
+};
+shoggyTrait.onBlockHarvestDrops = function(thisTrait, tool, event) {
+    if (Math.random() < 0.001f) {
+        <entity:abyssalcraft:lessershoggoth>.spawnEntity(event.world, event.position);
+    }
+};
+shoggyTrait.register();

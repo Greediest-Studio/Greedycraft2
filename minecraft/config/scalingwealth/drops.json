@@ -3762,6 +3762,24 @@
                     "item": "abyssalcraft:gatekeeperessence"
                 }
             ]
+        },
+        "abyssalcraft:remnant": {
+            "[0, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.3,
+                    "item": "gct_aby:remnant_cookie"
+                }
+            ]
+        },
+        "gct_aby:remnant_wandering": {
+            "[0, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.3,
+                    "item": "gct_aby:remnant_cookie"
+                }
+            ]
         }
     }
 }

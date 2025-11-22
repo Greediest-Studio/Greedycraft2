@@ -2098,6 +2098,8 @@ GameStagesUtil.stageFinal.addIngredients([
     <additions:dragonbone_ice>,
     <additions:dragonbone_fire>,
     <additions:dragonbone_lightning>,
+    <additions:dragonbone_shadow>,
+    <additions:dragonbone_spirit>,
     <additions:dragonbone_block_mixed>,
     <additions:consciousness_brain_mk1>,
     <additions:decode_part>,

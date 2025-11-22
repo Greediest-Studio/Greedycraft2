@@ -525,3 +525,6 @@ RecipeUtil.addShapeless("pe_block", <gct_aby:solid_pot_energy>,
 RecipeUtil.addShapeless("sanite_block", <gct_mobs:sanite_block>, 
     [<gct_mobs:sanite_ingot>, <gct_mobs:sanite_ingot>, <gct_mobs:sanite_ingot>, <gct_mobs:sanite_ingot>, <gct_mobs:sanite_ingot>, <gct_mobs:sanite_ingot>, <gct_mobs:sanite_ingot>, <gct_mobs:sanite_ingot>, <gct_mobs:sanite_ingot>]
 );
+RecipeUtil.addShapeless("shoggoth_tancale_soup", <gct_aby:shoggoth_tancale_soup>, 
+    [<minecraft:bowl>, <gct_aby:shoggothtancale>, <gct_aby:shoggothtancale>, <gct_aby:shoggothtancale>]
+);
