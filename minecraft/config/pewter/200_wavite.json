@@ -2,7 +2,7 @@
   "name": "wavite",
   "tool": {
     "bow": {
-      "speed": 0.88,
+      "speed": 1.14,
       "range": 2.5,
       "bonusDamage": 288
     },
@@ -99,6 +99,12 @@
       "strong_shock"
     ],
     "HEAD": [
+      "wavecrest",
+      "wavetrough",
+      "polarization",
+      "strong_shock"
+    ],
+    "BOW": [
       "wavecrest",
       "wavetrough",
       "polarization",

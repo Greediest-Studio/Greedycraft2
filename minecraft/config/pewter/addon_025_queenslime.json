@@ -15,7 +15,7 @@
       "durability": 100
     },
     "bow": {
-      "speed": 0.5,
+      "speed": 2,
       "range": 1.7,
       "bonusDamage": 8
     }
@@ -78,6 +78,7 @@
   },
   "specificTraits": {
     "HEAD": ["moretcon.overslime", "overdominate"],
+    "BOW": ["moretcon.overslime", "overdominate"],
     "HANDLE": ["moretcon.overslime", "overdominate"],
     "EXTRA": ["moretcon.overslime", "overdominate"],
     "CORE": ["moretcon.overslime", "overdefense_armor"],

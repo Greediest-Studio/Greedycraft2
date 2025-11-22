@@ -15,7 +15,7 @@
       "durability": 300
     },
     "bow": {
-      "speed": 1.9,
+      "speed": 0.526,
       "range": 1.95,
       "bonusDamage": 10
     }
@@ -78,6 +78,7 @@
   },
   "specificTraits": {
     "HEAD": ["moretcon.overslime", "overmelt", "overglue"],
+    "BOW": ["moretcon.overslime", "overmelt", "overglue"],
     "HANDLE": ["moretcon.overslime", "overmelt", "overglue"],
     "EXTRA": ["moretcon.overslime", "overmelt", "overglue"],
     "CORE": ["moretcon.overslime", "overbounce_armor", "overfused_armor"],

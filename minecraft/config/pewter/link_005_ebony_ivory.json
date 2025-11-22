@@ -15,7 +15,7 @@
       "durability": 86
     },
     "bow": {
-      "drawspeed": 2.6,
+      "speed": 0.385,
       "range": 2.8,
       "bonusDamage": 16
     }
@@ -84,6 +84,7 @@
   },
   "specificTraits": {
     "HEAD": ["solemnlament", "soul1", "flying_butterfly", "parasitism"],
+    "BOW": ["solemnlament", "soul1", "flying_butterfly", "parasitism"],
     "HANDLE": ["flying_butterfly", "parasitism"],
     "EXTRA": ["soul1", "parasitism"],
     "CORE": ["funeral_armor", "soul1", "rest_lament_armor", "parasitism_armor"],

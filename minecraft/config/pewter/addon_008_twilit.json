@@ -2,7 +2,7 @@
     "name": "twilit",
     "tool": {
       "bow": {
-        "speed": 0.95,
+        "speed": 1.05,
         "range": 3.1,
         "bonusDamage": 52
       },
@@ -93,6 +93,12 @@
     },
     "specificTraits": {
       "HEAD": [
+        "twilit",
+        "synergy",
+        "crystal_force",
+        "killall"
+      ],
+      "BOW": [
         "twilit",
         "synergy",
         "crystal_force",

@@ -15,7 +15,7 @@
       "durability": 235
     },
     "bow": {
-      "speed": 2.3,
+      "speed": 0.435,
       "range": 2.1,
       "bonusDamage": 12
     }
@@ -78,6 +78,7 @@
   },
   "specificTraits": {
     "HEAD": ["moretcon.overslime", "overattack", "overbreak"],
+    "BOW": ["moretcon.overslime", "overattack", "overbreak"],
     "HANDLE": ["moretcon.overslime", "overattack", "overbreak"],
     "EXTRA": ["moretcon.overslime", "overattack", "overbreak"],
     "CORE": ["moretcon.overslime", "overreflect_armor", "overbreak_armor"],
