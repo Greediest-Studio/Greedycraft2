@@ -258,3 +258,13 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:eye_of_rules>, [
 	[null, <ore:ingotCosmilite>, <ore:scaleDragonOrder>, <ore:scaleDragonOrder>, <ore:scaleDragonOrder>, <ore:ingotCosmilite>, null], 
 	[null, null, <ore:ingotCosmilite>, <ore:ingotCosmilite>, <ore:ingotCosmilite>, null, null]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:decode_part>, [
+	[null, <ore:blockModularium>, null, <ore:blockModularium>, null, <ore:blockModularium>, null], 
+	[<ore:blockModularium>, <ore:blockLumium>, <ore:blockModularium>, <ore:blockScientificite>, <ore:blockModularium>, <ore:blockLumium>, <ore:blockModularium>], 
+	[null, <ore:blockModularium>, null, <ore:blockModularium>, null, <ore:blockModularium>, null], 
+	[<ore:blockModularium>, <ore:blockScientificite>, <ore:blockModularium>, <additions:logic_processor_3>, <ore:blockModularium>, <ore:blockScientificite>, <ore:blockModularium>], 
+	[null, <ore:blockModularium>, null, <ore:blockModularium>, null, <ore:blockModularium>, null], 
+	[<ore:blockModularium>, <ore:blockLumium>, <ore:blockModularium>, <ore:blockScientificite>, <ore:blockModularium>, <ore:blockLumium>, <ore:blockModularium>], 
+	[null, <ore:blockModularium>, null, <ore:blockModularium>, null, <ore:blockModularium>, null]
+]);
