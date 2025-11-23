@@ -63,3 +63,11 @@ ConversionFluid.create(<liquid:liquidantimatter>).addMatchFluid(<liquid:blockflu
 ConversionFluid.create(<liquid:fluxed_electrum>).addMatchFluid(<liquid:electrum_flux>).register();
 ConversionFluid.create(<liquid:primal_metal>).addMatchFluid(<liquid:primordial>).register();
 ConversionFluid.create(<liquid:blackiron>).addMatchFluid(<liquid:black_iron>).register();
+ConversionFluid.create(<liquid:aluminum>).addMatchFluid(<liquid:aluminium>).register();
+ConversionFluid.create(<liquid:clay>).addMatchFluid(<liquid:brick>).register();
+ConversionFluid.create(<liquid:cthughate>).addMatchFluid(<liquid:cthugha>).register();
+ConversionFluid.create(<liquid:neutronium>).addMatchFluid(<liquid:cosmic_neutronium>).register();
+ConversionFluid.create(<liquid:caesium>).addMatchFluid(<liquid:cesium>).register();
+ConversionFluid.create(<liquid:husturite>).addMatchFluid(<liquid:hustur>).register();
+ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:sulphur>).register();
+ConversionFluid.create(<liquid:solarsteel>).addMatchFluid(<liquid:solsteel>).register();
