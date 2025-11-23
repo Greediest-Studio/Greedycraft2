@@ -4472,6 +4472,41 @@ alcrystryTrait.canApplyTogetherTrait = function(thisTrait, otherTrait) {
 };
 alcrystryTrait.register();
 
+val alcrystry_weakTrait = TraitBuilder.create("alcrystry_weak");
+alcrystry_weakTrait.color = Color.fromHex("ffffff").getIntColor(); 
+alcrystry_weakTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.alcrystry_weakTrait.name");
+alcrystry_weakTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.alcrystry_weakTrait.desc");
+alcrystry_weakTrait.onBlockHarvestDrops = function(thisTrait, tool, event) {
+    if (!event.silkTouch) {
+        var block as IBlock = event.block;
+        if (!isNull(itemUtils.getItem(block.definition.id, block.meta))) {
+            var blockItemmed as IItemStack = itemUtils.getItem(block.definition.id, block.meta);
+            if (!isNull(furnace.getSmeltingResult(blockItemmed))) {
+                var smeltedItem as IItemStack = furnace.getSmeltingResult(blockItemmed);
+                if (!(isNull(smeltedItem.ores) || smeltedItem.ores.length == 0)) {
+                    var pass as bool = false;
+                    for od in smeltedItem.ores {
+                        if (od.name has "ingot" && !(od.name has "Draconium")) {
+                            pass = true;
+                            break;
+                        }
+                    }
+                    if (pass) {
+                        event.drops = [smeltedItem * (1 + (Math.random() < 0.5f ? 1 : 0) as int)];
+                    }
+                }
+            }
+        }
+    }
+};
+alcrystry_weakTrait.canApplyTogetherTrait = function(thisTrait, otherTrait) {
+    if (otherTrait == "autosmelt") {
+        return false;
+    }
+    return true;
+};
+alcrystry_weakTrait.register();
+
 val subspaceTrait = TraitBuilder.create("subspace");
 subspaceTrait.color = Color.fromHex("ffffff").getIntColor(); 
 subspaceTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.subspaceTrait.name");
@@ -4547,3 +4582,26 @@ shoggyTrait.onBlockHarvestDrops = function(thisTrait, tool, event) {
     }
 };
 shoggyTrait.register();
+
+val chorusTrait = TraitBuilder.create("chorus");
+chorusTrait.color = Color.fromHex("ffffff").getIntColor(); 
+chorusTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.chorusTrait.name");
+chorusTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.chorusTrait.desc");
+chorusTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    if (owner instanceof IPlayer) {
+        var player as IPlayer = owner;
+        var totalNum as int = 0;
+        for i in 0 to 9 {
+            if (!isNull(player.getHotbarStack(i))) {
+                var item as IItemStack = player.getHotbarStack(i);
+                if (item.definition.id == "minecraft:chorus_fruit") {
+                    totalNum += item.amount;
+                }
+            }
+        }
+        if (Math.random() < 0.00125f * totalNum) {
+            ToolHelper.healTool(tool.mutable().native, 1, player.native);
+        }
+    }
+};
+chorusTrait.register();

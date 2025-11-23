@@ -3670,3 +3670,54 @@ shoggyTrait.onHurt = function(trait, armor, player, source, damage, newDamage, e
     return newDamage;
 };
 shoggyTrait.register();
+
+val shoddy_workmanshipTrait = ArmorTraitBuilder.create("shoddy_workmanship");
+shoddy_workmanshipTrait.color = Color.fromHex("ffffff").getIntColor();
+shoddy_workmanshipTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.shoddy_workmanshipTrait.name");
+shoddy_workmanshipTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.shoddy_workmanshipTrait.desc");
+shoddy_workmanshipTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    return newDamage * 0.8f;
+};
+shoddy_workmanshipTrait.onArmorDamaged = function(trait, armor, damageSource, amount, newAmount, player, index) {
+    return (newAmount * 3) as int;
+};
+shoddy_workmanshipTrait.register();
+
+val chorusTrait = ArmorTraitBuilder.create("chorus");
+chorusTrait.color = Color.fromHex("ffffff").getIntColor();
+chorusTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.chorusTrait.name");
+chorusTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.chorusTrait.desc");
+chorusTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        var totalNum as int = 0;
+        for i in 0 to 9 {
+            if (!isNull(player.getHotbarStack(i))) {
+                var item as IItemStack = player.getHotbarStack(i);
+                if (item.definition.id == "minecraft:chorus_fruit") {
+                    totalNum += item.amount;
+                }
+            }
+        }
+        if (Math.random() < 0.00125f * totalNum) {
+            ToolHelper.healTool(armor.mutable().native, 1, player.native);
+        }
+    }
+};
+chorusTrait.register();
+
+val consonantTrait = ArmorTraitBuilder.create("consonant");
+consonantTrait.color = Color.fromHex("ffffff").getIntColor();
+consonantTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.consonantTrait.name");
+consonantTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.consonantTrait.desc");
+consonantTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        var name as string[] = player.name.toLowerCase().split("");
+        for char in name {
+            if ("bcdfghjklmnpqrstvwxyz" has char) {
+                return newDamage * 0.95f;
+            }
+        }
+    }
+    return newDamage;
+};
+consonantTrait.register();
