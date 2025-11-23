@@ -14,9 +14,9 @@ import crafttweaker.liquid.ILiquidStack;
 
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.MMEvents;
-import mods.modularmachinery.MachineTickEvent;
+import mods.modularmachinery.RecipeCheckEvent;
 import mods.modularmachinery.ControllerGUIRenderEvent;
-import mods.modularmachinery.RecipeTickEvent;
+import mods.modularmachinery.MachineStructureUpdateEvent;
 import mods.modularmachinery.MachineModifier;
 import mods.modularmachinery.IMachineController;
 import mods.modularmachinery.RecipeAdapterBuilder;
@@ -34,7 +34,7 @@ MachineModifier.setMaxThreads("draconic_fusioner", 1);
 MachineModifier.setMaxParallelism("draconic_fusioner", 256);
 MachineModifier.setInternalParallelism("draconic_fusioner", 1);
 
-MMEvents.onMachinePreTick("draconic_fusioner", function(event as MachineTickEvent) {
+MMEvents.onStructureUpdate("draconic_fusioner", function(event as MachineStructureUpdateEvent) {
     var controller = event.controller;
     if (controller.getBlocksInPattern(<additions:basic_fusion_core>) == 1) {
         event.controller.customData = {level : 0 as int};
@@ -73,15 +73,15 @@ function addFusionRecipe(output as IItemStack, input as IIngredient[], ept as lo
         9: "无尽"
     };
     var recipe = RecipeBuilder.newBuilder(output.definition.id + output.metadata + "a", "draconic_fusioner", 200);
+    recipe.addPreCheckHandler(function(event as RecipeCheckEvent) {
+        if (event.controller.getFusionLevel() < level) {
+            event.setFailed("注入核心等级不足！");
+        }
+    });
     recipe.addEnergyPerTickInput(ept);
     for inputItem in input {
         recipe.addItemInput(inputItem);
     }
-    recipe.addPreTickHandler(function(event as RecipeTickEvent) {
-        if (event.controller.getFusionLevel() < level) {
-            event.setFailed(true, "注入核心等级不足！");
-        }
-    });
     recipe.addRecipeTooltip("§d核心等级：" + levelMap[level]);
     recipe.addItemOutput(output);
     recipe.build();
