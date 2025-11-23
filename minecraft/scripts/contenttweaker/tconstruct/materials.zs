@@ -24,9 +24,6 @@ import mods.contenttweaker.Color;
 import mods.contenttweaker.conarm.ExtendedMaterialBuilder;
 import modtweaker.tconstruct.ITICMaterial;
 
-import native.com.existingeevee.moretcon.item.tooltypes.Bomb.ExplosiveMaterialStats;
-import native.slimeknights.tconstruct.library.TinkerRegistry;
-
 function getDrawSpeed(inversed as float) as float {
     return (1.0f / inversed as float) as float;
 }
@@ -216,18 +213,6 @@ coal.addBowMaterialStats(getDrawSpeed(1.8) as float, 1.0, 0.1);
 coal.addProjectileMaterialStats();
 coal.register();
 
-val nitronite = ExtendedMaterialBuilder.create("nitronite");
-nitronite.color = Color.fromHex("a7d100").getIntColor();
-nitronite.craftable = false;
-nitronite.castable = true;
-nitronite.liquid = <liquid:nitronite_fluid>;
-nitronite.representativeItem = <item:additions:nitronite_ingot>;
-nitronite.addItem(<ore:ingotNitronite>);
-nitronite.localizedName = game.localize("greedycraft.tconstruct.material.nitronite.name");
-nitronite.register();
-
-TinkerRegistry.addMaterialStats(TinkerRegistry.getMaterial("nitronite"), ExplosiveMaterialStats(4.0f, 10));
-
 val ethaxium = MaterialBuilder.create("ethaxium");
 ethaxium.color = Color.fromHex("5f7570").getIntColor(); 
 ethaxium.craftable = false;
@@ -389,6 +374,23 @@ terra_alloy.addExtraMaterialStats(6000);
 terra_alloy.addBowMaterialStats(getDrawSpeed(4) as float, 2, 34.0);
 terra_alloy.addProjectileMaterialStats();
 terra_alloy.register();
+
+val nitronite = ExtendedMaterialBuilder.create("nitronite");
+nitronite.color = Color.fromHex("a7d100").getIntColor();
+nitronite.craftable = false;
+nitronite.castable = true;
+nitronite.liquid = <liquid:nitronite_fluid>;
+nitronite.representativeItem = <item:additions:nitronium_ingot>;
+nitronite.addItem(<ore:ingotNitronite>);
+nitronite.localizedName = game.localize("greedycraft.tconstruct.material.nitronite.name");
+nitronite.addHeadMaterialStats(1500, 12.5, 8.4, 4);
+nitronite.addHandleMaterialStats(1.0, 150);
+nitronite.addExtraMaterialStats(250);
+nitronite.addBowMaterialStats(getDrawSpeed(1.25) as float, 1.1, 4.5);
+nitronite.addCoreMaterialStats(60, 29);
+nitronite.addPlatesMaterialStats(3.0, 18, 2.5);
+nitronite.addTrimMaterialStats(25);
+nitronite.register();
 
 val crude_steel = ExtendedMaterialBuilder.create("crude_steel_gc");
 crude_steel.color = Color.fromHex("b9b1ac").getIntColor();
