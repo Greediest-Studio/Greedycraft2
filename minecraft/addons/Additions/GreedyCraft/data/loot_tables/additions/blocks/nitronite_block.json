@@ -1,0 +1,16 @@
+{
+  "preset_block": "additions:nitronite_block",
+  "pools": [
+    {
+      "name": "block_itself_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:nitronite_block"
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_itself"
+}

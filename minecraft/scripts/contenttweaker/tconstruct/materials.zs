@@ -24,6 +24,9 @@ import mods.contenttweaker.Color;
 import mods.contenttweaker.conarm.ExtendedMaterialBuilder;
 import modtweaker.tconstruct.ITICMaterial;
 
+import native.com.existingeevee.moretcon.item.tooltypes.Bomb.ExplosiveMaterialStats;
+import native.slimeknights.tconstruct.library.TinkerRegistry;
+
 function getDrawSpeed(inversed as float) as float {
     return (1.0f / inversed as float) as float;
 }
@@ -212,6 +215,18 @@ coal.addExtraMaterialStats(15);
 coal.addBowMaterialStats(getDrawSpeed(1.8) as float, 1.0, 0.1);
 coal.addProjectileMaterialStats();
 coal.register();
+
+val nitronite = ExtendedMaterialBuilder.create("nitronite");
+nitronite.color = Color.fromHex("a7d100").getIntColor();
+nitronite.craftable = false;
+nitronite.castable = true;
+nitronite.liquid = <liquid:nitronite_fluid>;
+nitronite.representativeItem = <item:additions:nitronite_ingot>;
+nitronite.addItem(<ore:ingotNitronite>);
+nitronite.localizedName = game.localize("greedycraft.tconstruct.material.nitronite.name");
+nitronite.register();
+
+TinkerRegistry.addMaterialStats(TinkerRegistry.getMaterial("nitronite"), ExplosiveMaterialStats(4.0f, 10));
 
 val ethaxium = MaterialBuilder.create("ethaxium");
 ethaxium.color = Color.fromHex("5f7570").getIntColor(); 

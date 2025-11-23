@@ -556,7 +556,6 @@ GameStagesUtil.stageCosmic.addIngredients([
     <additions:fenzium_ore>,
     <additions:rubium_ore>,
     <additions:gallium_ore>,
-    <additions:gallium_ore>,
     <additions:indium_ore>,
     <additions:lighteum_ore>,
     <additions:losessium_ore>,
@@ -633,6 +632,7 @@ GameStagesUtil.stageCosmic.addIngredients([
     <additions:yoggleseum_ingot>,
     <moretcon:ingotgallium>,
     <jaopca:block.antimony>,
+    <moretcon:nuggetgallium>,
     <additions:babyrite_block>,
     <additions:breakium_block>,
     <additions:cestium_block>,
@@ -1267,7 +1267,11 @@ GameStagesUtil.stageHardmode.addIngredients([
     <ore:ingotNiobium>,
     <ore:nuggetNiobium>,
     <ore:blockNiobium>,
-    <ore:dustNiobium>
+    <ore:dustNiobium>,
+    <ore:ingotNitronite>,
+    <ore:nuggetNitronite>,
+    <ore:dustNitronite>,
+    <ore:blockNitronite>
 ], true);
 
 GameStagesUtil.stageInfinity.addIngredients([

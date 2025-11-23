@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "硝化合金块",
+    "ore_dict": "blockNitronite",
+    "type": "additions:block_simple"
+  },
+  "name": "硝化合金块",
+  "material": "minecraft:metal",
+  "hardness": 5.0,
+  "resistance": 30.0,
+  "harvest_level": 4,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}
