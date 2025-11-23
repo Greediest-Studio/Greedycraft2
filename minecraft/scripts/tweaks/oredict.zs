@@ -361,7 +361,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <moretcon:blpick>,
         <moretcon:blshovel>,
         <moretcon:ring>,
-        <moretcon:gauntlet>
+        <moretcon:gauntlet>,
+        <moretcon:bomb>
     ],
     <ore:armorTiC> : [
         <conarm:helmet>,
