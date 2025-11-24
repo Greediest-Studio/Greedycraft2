@@ -229,7 +229,11 @@ GameStagesUtil.stageFusionMatrix.addIngredients([
     <journey:desblock>,
     <journey:desore>,
     <ore:nuggetDes>,
-    <ore:dustDes>
+    <ore:dustDes>,
+    <moretcon:blockrunesteel>,
+    <moretcon:ingotrunesteel>,
+    <moretcon:nuggetrunesteel>,
+    <moretcon:dustrunesteel>
 ], true);
 
 
