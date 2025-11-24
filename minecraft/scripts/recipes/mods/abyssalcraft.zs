@@ -187,12 +187,13 @@ InfusionRitual.removeRitual(<ageofminecraft:fusionasorah>);
 InfusionRitual.removeRitual(<ageofminecraft:fusionchagaroth>);
 InfusionRitual.removeRitual(<ageofminecraft:fusionjzahar>);
 InfusionRitual.removeRitual(<ageofminecraft:fusionsacthoth>);
-
-Rituals.removeRitual("changeRitual");
-
-InfusionRitual.removeRitual(<ageofminecraft:fusionasorah>);
-InfusionRitual.removeRitual(<ageofminecraft:fusionchagaroth>);
-InfusionRitual.removeRitual(<ageofminecraft:fusionjzahar>);
-InfusionRitual.removeRitual(<ageofminecraft:fusionsacthoth>);
+InfusionRitual.removeRitual(<abyssalcraft:dhelmet>);
+InfusionRitual.removeRitual(<abyssalcraft:dplate>);
+InfusionRitual.removeRitual(<abyssalcraft:dlegs>);
+InfusionRitual.removeRitual(<abyssalcraft:dboots>);
+InfusionRitual.removeRitual(<abyssalcraft:depthshelmet>);
+InfusionRitual.removeRitual(<abyssalcraft:depthsplate>);
+InfusionRitual.removeRitual(<abyssalcraft:depthslegs>);
+InfusionRitual.removeRitual(<abyssalcraft:depthsboots>);
 
 Rituals.removeRitual("changeRitual");

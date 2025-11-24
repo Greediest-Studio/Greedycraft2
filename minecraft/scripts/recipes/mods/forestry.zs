@@ -9,6 +9,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
+import crafttweaker.oredict.IOreDictEntry;
+import mods.jei.JEI;
 
 import mods.forestry.Carpenter;
 
@@ -744,3 +746,168 @@ Carpenter.addRecipe(<morebees:diamondfragment>, [
     [<morebees:graincrystal>, <morebees:graincrystal>, <morebees:graincrystal>],
     [null, <morebees:graincrystal>, null]
 ], 100, <liquid:water> * 1000, null);
+
+val List = [
+    <minecraft:apple:0>,
+    <forestry:bee_combs:14>,
+    <forestry:bee_combs:10>,
+    <forestry:bee_combs:16>,
+    <forestry:bee_combs:15>,
+    <forestry:mulch:0>,
+    <minecraft:coal:0>,
+    <minecraft:coal:1>,
+    <natura:redwood_sapling:0>,
+    <minecraft:cookie:0>,
+    <minecraft:nether_wart:0>,
+    <minecraft:sandstone:0>,
+    <minecraft:sapling:0>,
+    <minecraft:sapling:1>,
+    <minecraft:sapling:4>,
+    <minecraft:sapling:5>,
+    <minecraft:sapling:2>,
+    <minecraft:sapling:3>,
+    <minecraft:brick_block:0>,
+    <natura:overworld_logs2:2>,
+    <natura:overworld_logs2:3>,
+    <natura:overworld_logs2:0>,
+    <natura:overworld_logs2:1>,
+    <natura:edibles:1>,
+    <natura:edibles:0>,
+    <natura:edibles:3>,
+    <natura:edibles:2>,
+    <natura:edibles:5>,
+    <natura:edibles:4>,
+    <natura:edibles:7>,
+    <natura:edibles:6>,
+    <natura:edibles:9>,
+    <natura:edibles:8>,
+    <forestry:fertilizer_compound:0>,
+    <natura:materials:8>,
+    <natura:materials:6>,
+    <natura:materials:7>,
+    <natura:materials:0>,
+    <natura:materials:1>,
+    <natura:materials:4>,
+    <natura:materials:5>,
+    <natura:materials:2>,
+    <natura:materials:3>,
+    <forestry:refractory_wax:0>,
+    <natura:saguaro_fruit_item:0>,
+    <forestry:pollen:1>,
+    <forestry:pollen:0>,
+    <natura:overworld_sapling2:3>,
+    <natura:overworld_sapling2:2>,
+    <natura:overworld_sapling2:1>,
+    <natura:overworld_sapling2:0>,
+    <forestry:royal_jelly:0>,
+    <minecraft:log2:0>,
+    <minecraft:log2:1>,
+    <natura:nether_sapling:0>,
+    <natura:nether_sapling:1>,
+    <natura:nether_sapling:2>,
+    <minecraft:mycelium:0>,
+    <forestry:honeydew:0>,
+    <forestry:phosphor:0>,
+    <natura:edibles:10>,
+    <natura:edibles:11>,
+    <minecraft:dye:4>,
+    <natura:apple_sapling:0>,
+    <natura:nether_glowshroom:2>,
+    <natura:nether_glowshroom:0>,
+    <natura:nether_glowshroom:1>,
+    <minecraft:clay_ball:0>,
+    <forestry:apatite:0>,
+    <forestry:peat:0>,
+    <natura:overworld_logs:0>,
+    <natura:overworld_logs:1>,
+    <natura:overworld_logs:2>,
+    <natura:overworld_logs:3>,
+    <forestry:beeswax:0>,
+    <forestry:bog_earth:0>,
+    <forestry:fruits:5>,
+    <forestry:fruits:4>,
+    <forestry:fruits:6>,
+    <forestry:fruits:1>,
+    <forestry:fruits:0>,
+    <forestry:fruits:3>,
+    <forestry:fruits:2>,
+    <natura:redwood_logs:2>,
+    <natura:redwood_logs:1>,
+    <natura:redwood_logs:0>,
+    <forestry:humus:0>,
+    <natura:overworld_seeds:0>,
+    <natura:overworld_seeds:1>,
+    <natura:nether_logs2:0>,
+    <natura:nether_sapling2:0>,
+    <minecraft:log:1>,
+    <minecraft:log:0>,
+    <minecraft:log:3>,
+    <minecraft:log:2>,
+    <natura:nether_logs:1>,
+    <natura:nether_logs:0>,
+    <natura:nether_logs:2>,
+    <minecraft:soul_sand:0>,
+    <minecraft:wheat_seeds:0>,
+    <forestry:propolis:0>,
+    <minecraft:sand:1>,
+    <minecraft:sand:0>,
+    <minecraft:nether_brick:0>,
+    <natura:nether_logs2:15>,
+    <minecraft:dirt:2>,
+    <forestry:ash:0>,
+    <natura:overworld_sapling:0>,
+    <natura:overworld_sapling:2>,
+    <natura:overworld_sapling:1>,
+    <natura:overworld_sapling:3>,
+    <forestry:bee_combs:3>,
+    <forestry:bee_combs:2>,
+    <forestry:bee_combs:1>,
+    <forestry:bee_combs:0>,
+    <forestry:bee_combs:7>,
+    <forestry:bee_combs:6>,
+    <forestry:bee_combs:5>,
+    <forestry:bee_combs:4>,
+    <forestry:bee_combs:8>,
+    <minecraft:dirt>,
+    <minecraft:prismarine:1>,
+    <minecraft:stone>,
+    <thermalfoundation:material:771>
+];
+
+for i in List {
+    Carpenter.removeRecipe(i);
+}
+for i in loadedMods["forestry"].items {
+    if (i.definition.id has "crated") {
+        Carpenter.removeRecipe(i);
+    }
+}
+
+val ODList = [
+    <ore:cropPotato>,
+    <ore:dustRedstone>,
+    <ore:cobblestone>,
+    <ore:obsidian>,
+    <ore:stoneGranite>,
+    <ore:netherrack>,
+    <ore:sugarcane>,
+    <ore:stoneAndesite>,
+    <ore:blockPrismarine>,
+    <ore:ingotTin>,
+    <ore:stoneDiorite>,
+    <ore:cropCactus>,
+    <ore:blockPrismarineDark>,
+    <ore:ingotBronze>,
+    <ore:cropWheat>,
+    <ore:ingotCopper>,
+    <ore:gravel>,
+    <ore:cropCarrot>,
+    <ore:dustGlowstone>
+] as IOreDictEntry[];
+
+for od in ODList {
+    for i in od.items {
+        Carpenter.removeRecipe(i);
+    }
+    Carpenter.removeRecipe(itemUtils.getItem("forestry:crated." + od.name.toLowerCase().replace("ore:", "")));
+}
