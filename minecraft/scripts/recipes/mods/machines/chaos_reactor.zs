@@ -198,7 +198,7 @@ RecipeBuilder.newBuilder("speedwrite","chaos_reactor",20,4)
     .build();
 
 //反应
-RecipeBuilder.newBuilder("chaosreacting","chaos_reactor",2000,0)
+RecipeBuilder.newBuilder("chaosreacting","chaos_reactor",10,0)
     .addItemInput(<mekanism:configurator>).setChance(0.0f)
     .addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
         react(event);
