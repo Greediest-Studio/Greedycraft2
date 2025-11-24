@@ -790,7 +790,16 @@ GameStagesUtil.stageBetweenlandTraveller.addIngredients([
     <moretcon:ingotgravitonium>,
     <moretcon:blockgravitonium>,
     <moretcon:nuggetgravitonium>,
-    <moretcon:blockgravitoniumfaucet>
+    <moretcon:blockgravitoniumfaucet>,
+    <moretcon:blocktrichromadentium>,
+    <moretcon:ingottrichromadentium>,
+    <moretcon:nuggettrichromadentium>,
+    <moretcon:dusttrichromadentium>,
+    <moretcon:itemtrichromadentiumsponge>,
+    <moretcon:itemtrichromadentiumsponge:1>,
+    <moretcon:itemtrichromadentiumsponge:2>,
+    <moretcon:itemtrichromadentiumsponge:3>,
+    <moretcon:itemtrichromadentiumsponge:4>
 ], false);
 
 GameStagesUtil.stageWarped.addIngredients([
@@ -1978,7 +1987,15 @@ GameStagesUtil.stageEpicEngineer.addIngredients([
     <ore:dustSodiumHydrogenPhosphate>,
     <ore:dustSodiumPhosphate>,
     <ore:dustSodiumBicarbonate>,
-    <ore:dustSodiumMolybdate>
+    <ore:dustSodiumMolybdate>,
+    <ore:ingotRadium>,
+    <ore:blockRadium>,
+    <ore:nuggetRadium>,
+    <ore:dustRadium>,
+    <moretcon:ingotirradium>,
+    <moretcon:blockirradium>,
+    <moretcon:nuggetirradium>,
+    <moretcon:dustirradium>
 ], true);
 
 GameStagesUtil.stageChallenger1.addIngredients([

@@ -61,6 +61,8 @@ import scripts.util.oredict as OredictUtil;
 <ore:dustApalachia>.remove(<divinerpg:apalachia_dust>);
 <ore:dustSkythern>.remove(<divinerpg:skythern_dust>);
 <ore:dustMortum>.remove(<divinerpg:mortum_dust>);
+<ore:oreIridium>.remove(<journey:iridiumore>);
+<ore:blockIridium>.remove(<journey:iridiumblock>);
 
 <ore:ingotCthulhurite>.add(<gct_mobs:cthulhurite_ingot>);
 <ore:starlight>.add(<journey:sapphire>);

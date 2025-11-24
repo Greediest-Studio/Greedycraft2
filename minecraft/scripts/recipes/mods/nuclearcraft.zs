@@ -655,3 +655,7 @@ Radiation.setMaterialRadiationLevel("Moscovium", 0.40d);
 Radiation.setMaterialRadiationLevel("Livermorium", 0.49d);
 Radiation.setMaterialRadiationLevel("Tennessine", 0.55d);
 Radiation.setMaterialRadiationLevel("Oganesson", 0.64d);
+
+Radiation.setMaterialRadiationLevel("Iridium192", 0.0000018d);
+Radiation.setMaterialRadiationLevel("Irradium", 0.00085d);
+Radiation.setMaterialRadiationLevel("Nucleum", 0.000012d);
