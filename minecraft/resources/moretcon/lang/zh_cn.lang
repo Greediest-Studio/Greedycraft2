@@ -31,6 +31,9 @@ fluid.moretcon.liquidancientalloy=熔融远古合金
 fluid.moretcon.liquidsanguiseelium=嗜血合金
 fluid.moretcon.liquidzracohlium=熔融泽拉科
 fluid.moretcon.liquidblightsteel=熔融堕灵
+fluid.moretcon.liquidsanguiseelium=熔融嗜血合金
+fluid.moretcon.liquidslimesteel=熔融黏钢
+fluid.moretcon.liquidgeodesium=熔融地华
 fluid.moretcon.mummysludge=木乃伊淤泥
 fluid.moretcon.rottensludge=烂泥
 
@@ -87,6 +90,8 @@ item.moretcon.dustancientalloy.name=远古合金粉
 item.moretcon.dustblightsteel.name=堕灵粉
 item.moretcon.dustsanguiseelium.name=嗜血合金粉
 item.moretcon.dustzracohlium.name=泽拉科粉
+item.moretcon.dustslimesteel.name=黏钢粉
+item.moretcon.dustgeodesium.name=地华粉
 
 item.moretcon.gembloodstone.name=鲜血石
 item.moretcon.gemechostone.name=回响石
@@ -121,6 +126,8 @@ item.moretcon.ingotancientalloy.name=远古合金锭
 item.moretcon.ingotblightsteel.name=堕灵锭
 item.moretcon.ingotsanguiseelium.name=嗜血合金锭
 item.moretcon.ingotzracohlium.name=泽拉科锭
+item.moretcon.ingotslimesteel.name=黏钢锭
+item.moretcon.ingotgeodesium.name=地华锭
 
 item.moretcon.itemsiltclay.name=粉质粘土
 item.moretcon.lightning.name=闪电
@@ -147,6 +154,8 @@ item.moretcon.nuggetancientalloy.name=远古合金粒
 item.moretcon.nuggetblightsteel.name=堕灵粒
 item.moretcon.nuggetsanguiseelium.name=嗜血合金粒
 item.moretcon.nuggetzracohlium.name=泽拉科粒
+item.moretcon.nuggetslimesteel.name=黏钢粒
+item.moretcon.nuggetgeodesium.name=地华粒
 
 item.moretcon.rawsteel.name=钢坯
 item.moretcon.ring.name=戒指
@@ -214,6 +223,8 @@ material.moretcon.ancientalloy.name=远古合金
 material.moretcon.blightsteel.name=堕灵
 material.moretcon.sanguiseelium.name=嗜血合金
 material.moretcon.zracohlium.name=泽拉科
+material.moretcon.slimesteel.name=黏钢
+material.moretcon.geodesium.name=地华
 
 material.uniquetoolpart.name=特殊
 
@@ -405,6 +416,9 @@ tile.moretcon.blockancientalloy.name=远古合金块
 tile.moretcon.blockblightsteel.name=堕灵块
 tile.moretcon.blocksanguiseelium.name=嗜血合金块
 tile.moretcon.blockzracohlium.name=泽拉科块
+tile.moretcon.blockslimesteel.name=黏钢块
+tile.moretcon.blockgeodesium.name=地华块
+
 tile.moretcon.burningsulfurflow.name=熔融硫磺
 tile.moretcon.liquidarkenium.name=熔融阿肯钢
 tile.moretcon.liquidgoldenamber.name=液态金琥珀
@@ -434,6 +448,9 @@ tile.moretcon.liquidancientalloy.name=熔融远古合金
 tile.moretcon.liquidblightsteel.name=熔融堕灵
 tile.moretcon.liquidzracohlium.name=熔融泽拉科
 tile.moretcon.liquidsanguiseelium.name=熔融嗜血合金
+tile.moretcon.liquidslimesteel.name=熔融黏钢
+tile.moretcon.liquidgeodesium.name=熔融地华
+
 tile.moretcon.orearkenium.name=阿肯钢矿石
 tile.moretcon.orebloodstone.name=鲜血石矿石
 tile.moretcon.oreetherstone.name=以太石矿石
@@ -454,6 +471,8 @@ tile.moretcon.oreerythynite.name=永恒石矿石
 tile.moretcon.oreelectarite.name=电纹水晶矿石
 tile.moretcon.orehallowsite.name=圣灵矿石
 tile.moretcon.orezracohlium.name=泽拉科矿石
+tile.moretcon.oregeodesium.name=地华矿石
+
 tile.moretcon.blockotherstone.name=其他石头
 tile.moretcon.rottensludge.name=烂泥
 traits.bloody_arc.slash=血之剑弧
