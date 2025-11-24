@@ -30,6 +30,7 @@ import crafttweaker.potions.IPotionEffect;
 import crafttweaker.util.IAxisAlignedBB;
 import crafttweaker.util.Position3f;
 import crafttweaker.world.IBlockPos;
+import crafttweaker.entity.IEntityLiving;
 
 import mods.ctutils.utils.Math;
 import mods.contenttweaker.tconstruct.Material;
@@ -3721,3 +3722,23 @@ consonantTrait.onHurt = function(trait, armor, player, source, damage, newDamage
     return newDamage;
 };
 consonantTrait.register();
+
+val creeper_defenseTrait = ArmorTraitBuilder.create("creeper_defense");
+creeper_defenseTrait.color = Color.fromHex("ffffff").getIntColor();
+creeper_defenseTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.creeper_defenseTrait.name");
+creeper_defenseTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.creeper_defenseTrait.desc");
+creeper_defenseTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && source.damageType == "explosion") {
+        if (!isNull(source.getTrueSource())) {
+            if (source.getTrueSource() instanceof IEntityLiving) {
+                var entity as IEntityLiving = source.getTrueSource();
+                if (entity.definition.id has "creeper") {
+                    armor.mutable().attemptDamageItemWithEnergy(armor.maxDamage * 0.05f as int, player);
+                    return 0.0f;
+                }
+            }
+        }
+    }
+    return newDamage;
+};
+creeper_defenseTrait.register();

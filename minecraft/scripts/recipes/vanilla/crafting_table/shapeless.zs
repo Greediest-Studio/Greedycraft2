@@ -528,3 +528,9 @@ RecipeUtil.addShapeless("sanite_block", <gct_mobs:sanite_block>,
 RecipeUtil.addShapeless("shoggoth_tancale_soup", <gct_aby:shoggoth_tancale_soup>, 
     [<minecraft:bowl>, <gct_aby:shoggothtancale>, <gct_aby:shoggothtancale>, <gct_aby:shoggothtancale>]
 );
+RecipeUtil.addShapeless("quicksilver", <thaumcraft:quicksilver>, 
+    [<ore:ingotMercury>]
+);
+RecipeUtil.addShapeless("quicksilver_reverse", <additions:mercury_ingot>,
+    [<ore:gemMercury>]
+);

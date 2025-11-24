@@ -4605,3 +4605,9 @@ chorusTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected)
     }
 };
 chorusTrait.register();
+
+val nitrationTrait = TraitBuilder.create("nitration");
+nitrationTrait.color = Color.fromHex("ffffff").getIntColor(); 
+nitrationTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.nitrationTrait.name");
+nitrationTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.nitrationTrait.desc");
+nitrationTrait.register();

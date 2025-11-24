@@ -1489,7 +1489,8 @@ var disabledItems as IIngredient[] = [
     <prefab:item_ender_gateway>,
     <randomportals:vertical_end_portal_frame>,
     <randomportals:upside_down_end_portal_frame>,
-    <thermalexpansion:device:9>
+    <thermalexpansion:device:9>,
+    <tiths:ore_witherium>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [

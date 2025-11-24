@@ -57,6 +57,7 @@ ConversionItem.create(<additions:blackiron_gear>).addMatchItem(<ore:gearBlackIro
 ConversionItem.create(<additions:blackiron_plate>).addMatchItem(<ore:plateBlackIron>).register();
 ConversionItem.create(<tconstruct:materials:17>).addMatchItem(<ore:boneWithered>).register();
 ConversionItem.create(<additions:chloroplast_ore>).addMatchItem(<ore:oreChloroplast>).register();
+ConversionItem.create(<thaumcraft:quicksilver>).addMatchItem(<ore:gemQuicksilver>).register();
 
 ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:burningsulfurflow>).register();
 ConversionFluid.create(<liquid:liquidantimatter>).addMatchFluid(<liquid:blockfluidantimatter>).register();
@@ -71,3 +72,7 @@ ConversionFluid.create(<liquid:caesium>).addMatchFluid(<liquid:cesium>).register
 ConversionFluid.create(<liquid:husturite>).addMatchFluid(<liquid:hustur>).register();
 ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:sulphur>).register();
 ConversionFluid.create(<liquid:solarsteel>).addMatchFluid(<liquid:solsteel>).register();
+ConversionFluid.create(<liquid:liquidslimesteel>).addMatchFluid(<liquid:slimesteel>).register();
+ConversionFluid.create(<liquid:liquidgeodesium>).addMatchFluid(<liquid:geodesium>).register();
+ConversionFluid.create(<liquid:liquidporksteel>).addMatchFluid(<liquid:porksteel>).register();
+ConversionFluid.create(<liquid:nitronite_fluid>).addMatchFluid(<liquid:nitronite>).register();
