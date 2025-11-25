@@ -79,4 +79,17 @@ events.onEntityLivingUpdate(function(event as EntityLivingUpdateEvent) {
         }
     }
 
+    //Fix Gaia maxHealth
+    if (!isNull(entity.definition) && entity.definition.id == "botania:doppleganger") {
+        var playerAmount = 0;
+        val pS = Position3f.create(entity.x + 7,entity.y + 4,entity.z + 7);
+        val pE = Position3f.create(entity.x - 7,entity.y - 4,entity.z - 7);
+        val entityList = entity.world.getEntitiesInArea(pS,pE);
+        for e in entityList {
+            if e instanceof IPlayer {
+                playerAmount += 1;
+            }
+        }
+        entity.getAttribute("generic.maxHealth").setBaseValue((playerAmount == 0 ? 1 : playerAmount) * 320);
+    }
 });
