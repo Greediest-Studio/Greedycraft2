@@ -388,6 +388,7 @@ Melting.removeRecipe(<liquid:argon>, <jaopca:dust.argon>);
 Melting.removeRecipe(<liquid:krypton>, <jaopca:dust.krypton>);
 Melting.removeRecipe(<liquid:xenon>, <jaopca:dust.xenon>);
 Melting.removeRecipe(<liquid:radon>, <jaopca:dust.radon>);
+Melting.removeRecipe(<liquid:iridium>, <journey:iridium>);
 
 Melting.addEntityMelting(<entity:minecraft:cow>, <liquid:milk>);
 Melting.addEntityMelting(<entity:minecraft:enderman>, <liquid:ender>);
