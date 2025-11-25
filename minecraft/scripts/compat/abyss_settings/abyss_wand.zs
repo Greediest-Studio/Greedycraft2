@@ -1275,9 +1275,9 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
                         shog2 = entity;
                         recipeString = "shoggoth";
                     }
-                    if (entity.definition.id == "minecraft:zombie" && entity.isChild && shog1 instanceof IPlayer) {
+                    if (entity.definition.id == "babymobs:babyzombie" && shog1 instanceof IPlayer) {
                         shog1 = entity;
-                    } else if (entity.definition.id == "minecraft:zombie" && entity.isChild && shog2 instanceof IPlayer) {
+                    } else if (entity.definition.id == "babymobs:babyzombie" && shog2 instanceof IPlayer) {
                         shog2 = entity;
                         recipeString = "zombie";
                     }
