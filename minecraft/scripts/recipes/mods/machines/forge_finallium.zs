@@ -84,6 +84,13 @@ RecipeBuilder.newBuilder("finallium_forge", "final_forge", 9600, 1)
         ]
     ).setChance(0.5f)
     .addCatalystInput(
+        <additions:pruified>, ["§e加工时间减少到65%", "§e能量消耗减少到85%", "§e材料产出增加到110%"], [
+            RecipeModifierBuilder.create(TIME, "input", 0.65f, 1, false).build(),
+            RecipeModifierBuilder.create(RF, "input", 0.85f, 1, false).build(),
+            RecipeModifierBuilder.create(ITEM, "output", 1.10f, 1, false).build(),
+        ]
+    ).setChance(0.75f)
+    .addCatalystInput(
         <projectex:matter:4>, ["§e加工时间减少到80%", "§e能量消耗减少到80%", "§e材料产出增加到103%"], [
             RecipeModifierBuilder.create(TIME, "input", 0.8f, 1, false).build(),
             RecipeModifierBuilder.create(RF, "input", 0.8f, 1, false).build(),

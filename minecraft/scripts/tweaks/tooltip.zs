@@ -202,7 +202,9 @@ val tooltipMap as string[][IIngredient] = {
     <additions:mana_lapis> : [odch],
     <additions:mana_quartz> : [odch],
     <contenttweaker:dim_item> : ["在主世界和下界分别右键试试呢"],
-    <contenttweaker:malevolent_fruit> : [game.localize("greedycraft.tooltip.contenttweaker.malevolent_fruit.1"), game.localize("greedycraft.tooltip.contenttweaker.malevolent_fruit.2")]
+    <contenttweaker:malevolent_fruit> : [game.localize("greedycraft.tooltip.contenttweaker.malevolent_fruit.1"), game.localize("greedycraft.tooltip.contenttweaker.malevolent_fruit.2")],
+    <thebetweenlands:empty_amate_map> : [game.localize("greedycraft.tooltip.amatemap.tps")],
+    <thebetweenlands:amate_map> : [game.localize("greedycraft.tooltip.amatemap.tps")]
 } as string[][IIngredient];
 
 for ingredient in tooltipMap {

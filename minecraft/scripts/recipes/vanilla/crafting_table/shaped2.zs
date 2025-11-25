@@ -684,6 +684,11 @@ RecipeUtil.addShaped("cow_egg",<minecraft:spawn_egg>.withTag({EntityTag: {id: "m
    [<minecraft:leather>, <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "spiritus"}]}), <minecraft:leather>],
    [null, <minecraft:leather>, null]
 ]);
+RecipeUtil.addShaped("malevolent_fruit", <contenttweaker:malevolent_fruit>, [
+    [null, <ore:ingotMalevolencite>, null],
+    [<ore:ingotMalevolencite>, <minecraft:golden_apple:1>, <ore:ingotMalevolencite>],
+    [null, <ore:ingotMalevolencite>, null]
+]);
 /*
  * RecipeUtil.addShaped("", , [
  *  [null, null, null],

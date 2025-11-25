@@ -1,0 +1,44 @@
+{
+	title: "§b地震，但是匠魂版",
+	x: 6.0d,
+	y: -3.0d,
+	description: "制作冲击波交错剑刃",
+	text: [
+		"推荐刻印到交错剑上，冲击波可继承面板伤害"
+	],
+	dependencies: [
+		"e7f14578"
+	],
+	tasks: [{
+		uid: "19c9a616",
+		type: "item",
+		items: [{
+			id: "moretcon:blswordblade",
+			tag: {
+				Material: "moretcon.shockwave"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "0849f5b3",
+		type: "item",
+		item: {
+			id: "thebetweenlands:shockwave_sword",
+			tag: {
+				display: {
+					Name: "§f再送你一把"
+				}
+			}
+		}
+	},
+	{
+		uid: "852dd46f",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "f02295a7",
+		type: "xp",
+		xp: 8000
+	}]
+}

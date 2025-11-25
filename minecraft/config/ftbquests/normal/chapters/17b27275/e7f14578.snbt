@@ -1,0 +1,31 @@
+{
+	title: "§b地震",
+	x: 5.0d,
+	y: -1.5d,
+	description: "在阴魂要塞陷阱房中得到冲击波剑",
+	text: [
+		""
+	],
+	dependencies: [
+		"0c618825"
+	],
+	tasks: [{
+		uid: "142ef849",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:shockwave_sword"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ac94ff41",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "0657d97e",
+		type: "xp",
+		xp: 5000
+	}]
+}

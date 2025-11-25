@@ -1,0 +1,39 @@
+{
+	title: "§c【可重复】阴魂不再",
+	x: 7.5d,
+	y: -3.0d,
+	description: "再次击杀原始恶意",
+	text: [
+		""
+	],
+	dependencies: [
+		"e965ae10"
+	],
+	tasks: [{
+		uid: "d28742f1",
+		type: "kill",
+		entity: "thebetweenlands:fortress_boss",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "0ecf1d03",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "2d5b2ab2",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "23bab6a5",
+		type: "item",
+		item: "moretcon:ingotrotiron",
+		count: 16
+	},
+	{
+		uid: "35efd4d7",
+		type: "xp",
+		xp: 10000
+	}]
+}

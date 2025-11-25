@@ -1045,8 +1045,6 @@ var disabledItems as IIngredient[] = [
     <thaumicaugmentation:thaumostatic_harness>,
     <thebetweenlands:ring_of_flight>,
     <thebetweenlands:ring_of_power>,
-    <thebetweenlands:empty_amate_map>,
-    <thebetweenlands:amate_map>,
     <cfm:item_package>,
     <cfm:item_envelope_signed>,
     <cfm:present>,

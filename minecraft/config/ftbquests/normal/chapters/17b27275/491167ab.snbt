@@ -1,0 +1,28 @@
+{
+	title: "§b恶意守望",
+	x: 8.5d,
+	y: -1.5d,
+	description: "使用活跃恶意源泉转化炽炎铁锭，得到恶意钢锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"e965ae10"
+	],
+	tasks: [{
+		uid: "34e23032",
+		type: "item",
+		items: [{
+			item: "additions:malevolencite_ingot"
+		}]
+	},
+	{
+		uid: "160ef953",
+		type: "item",
+		items: [{
+			item: "contenttweaker:bauble_source_of_swamp"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

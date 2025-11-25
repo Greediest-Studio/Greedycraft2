@@ -1,0 +1,43 @@
+{
+	title: "§b神明唾弃之物",
+	x: 6.75d,
+	y: -1.5d,
+	shape: "diamond",
+	description: "进入阴魂要塞顶层，击杀原始恶意",
+	text: [
+		"你必须持有冲击波剑，才能进入阴魂要塞顶层的传送门房间内"
+	],
+	dependencies: [
+		"e7f14578"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "a02341a9",
+		type: "kill",
+		icon: "additions:demon_shard",
+		entity: "thebetweenlands:fortress_boss",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "e5e5eb0f",
+		type: "item",
+		item: "additions:demon_shard",
+		count: 32,
+		random_bonus: 16
+	},
+	{
+		uid: "fdb51d5d",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "f4cad887",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "b71e9b51",
+		type: "xp",
+		xp: 40000
+	}]
+}
