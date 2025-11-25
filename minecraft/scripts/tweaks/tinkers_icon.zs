@@ -12,6 +12,7 @@ IBook.changeMaterialItem("xu_demonic_metal", <extrautils2:ingredients:11>);
 IBook.changeMaterialItem("xu_enchanted_metal", <extrautils2:ingredients:12>);
 IBook.changeMaterialItem("broken_ice", <tiths:broken_ice>);
 
+IBook.setMaterialPriority("moretcon.shockwave", 999000);
 IBook.setMaterialPriority("moretcon.essencore", 999001);
 IBook.setMaterialPriority("moretcon.technoblade", 999002);
 IBook.setMaterialPriority("moretcon.plasma", 999003);

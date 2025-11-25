@@ -2280,7 +2280,18 @@ GameStagesUtil.stageFinal.addIngredients([
     <gct_ores:finallium_container_active>,
     <ore:orePrimordial>,
     <ore:oreGravitonium>,
-    <ore:oreGravitoniumDense>
+    <ore:oreGravitoniumDense>,
+    <ore:ingotValasium>,
+    <ore:dustValasium>,
+    <ore:nuggetValasium>,
+    <ore:blockValasium>,
+    <ore:oreValasium>,
+    <moretcon:itemvalasiumsponge>,
+    <moretcon:itemvalasiumsponge:1>,
+    <moretcon:itemvalasiumsponge:2>,
+    <moretcon:itemvalasiumsponge:3>,
+    <moretcon:itemvalasiumsponge:4>,
+    <moretcon:itemvalasiumsponge:5>    
 ], true);
 
 GameStagesUtil.stageDeepDream.addIngredients([
