@@ -58,6 +58,7 @@ ConversionItem.create(<additions:blackiron_plate>).addMatchItem(<ore:plateBlackI
 ConversionItem.create(<tconstruct:materials:17>).addMatchItem(<ore:boneWithered>).register();
 ConversionItem.create(<additions:chloroplast_ore>).addMatchItem(<ore:oreChloroplast>).register();
 ConversionItem.create(<thaumcraft:quicksilver>).addMatchItem(<ore:gemQuicksilver>).register();
+ConversionItem.create(<tiths:block_mercury_sulfide>).addMatchItem(<ore:blockCinnabar>).register();
 
 ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:burningsulfurflow>).register();
 ConversionFluid.create(<liquid:liquidantimatter>).addMatchFluid(<liquid:blockfluidantimatter>).register();
