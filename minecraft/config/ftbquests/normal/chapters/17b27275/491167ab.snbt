@@ -24,5 +24,22 @@
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "01cfc4d4",
+		type: "item",
+		item: "additions:malevolencite_ingot",
+		count: 12,
+		random_bonus: 8
+	},
+	{
+		uid: "5bcf797e",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "e35ea1bd",
+		type: "xp",
+		xp: 6000
 	}]
 }

@@ -14,6 +14,8 @@ import crafttweaker.world.IFacing;
 import crafttweaker.world.IWorld;
 import crafttweaker.world.IBlockPos;
 
+import crafttweaker.oredict.IOreDictEntry;
+
 import crafttweaker.damage.IDamageSource;
 
 import crafttweaker.data.IData;
@@ -458,6 +460,66 @@ thaumaura.onUpdate = function(subtile, world, pos) {
     }
 };
 thaumaura.register();
+
+val Eles1 as IOreDictEntry[] = [<ore:ingotHydrogen>, <ore:ingotLithium>, <ore:ingotSodium>, <ore:ingotPotassium>, <ore:ingotRubidium>, <ore:ingotCaesium>, <ore:ingotFrancium>];
+val Eles2 as IOreDictEntry[] = [<ore:ingotBeryllium>, <ore:ingotMagnesium>, <ore:ingotCalcium>, <ore:ingotStrontium>, <ore:ingotBarium>, <ore:ingotRadium>];
+val Eles3 as IOreDictEntry[] = [<ore:ingotScandium>, <ore:ingotYttrium>, <ore:ingotLanthanum>, <ore:ingotActinium>];
+val Eles4 as IOreDictEntry[] = [<ore:ingotTitanium>, <ore:ingotZirconium>, <ore:ingotHafnium>, <ore:ingotRutherfordium>];
+val Eles5 as IOreDictEntry[] = [<ore:ingotVanadium>, <ore:ingotNiobium>, <ore:ingotTantalum>, <ore:ingotDubnium>];
+val Eles6 as IOreDictEntry[] = [<ore:ingotChromium>, <ore:ingotMolybdenum>, <ore:ingotTungsten>, <ore:ingotSeaborgium>];
+val Eles7 as IOreDictEntry[] = [<ore:ingotManganese>, <ore:ingotTechnetium>, <ore:ingotRhenium>, <ore:ingotBohrium>];
+val Eles8 as IOreDictEntry[] = [<ore:ingotIron>, <ore:ingotRuthenium>, <ore:ingotOsmium>, <ore:ingotHassium>];
+val Eles9 as IOreDictEntry[] = [<ore:ingotCobalt>, <ore:ingotRhodium>, <ore:ingotIridium>, <ore:ingotMeitnerium>];
+val Eles10 as IOreDictEntry[] = [<ore:ingotNickel>, <ore:ingotPalladium>, <ore:ingotPlatinum>, <ore:ingotDarmstadtium>];
+val Eles11 as IOreDictEntry[] = [<ore:ingotCopper>, <ore:ingotSilver>, <ore:ingotGold>, <ore:ingotRoentgenium>];
+val Eles12 as IOreDictEntry[] = [<ore:ingotZinc>, <ore:ingotCadmium>, <ore:ingotMercury>, <ore:ingotCopernicium>];
+val Eles13 as IOreDictEntry[] = [<ore:ingotBoron>, <ore:ingotAluminum>, <ore:ingotGallium>, <ore:ingotThallium>, <ore:ingotNihonium>];
+val Eles14 as IOreDictEntry[] = [<ore:ingotCarbon>, <ore:ingotSilicon>, <ore:ingotGermanium>, <ore:ingotLead>, <ore:ingotFlerovium>];
+val Eles15 as IOreDictEntry[] = [<ore:ingotNitrogen>, <ore:ingotPhosphorus>, <ore:ingotArsenic>, <ore:ingotBismuth>, <ore:ingotMoscovium>];
+val Eles16 as IOreDictEntry[] = [<ore:ingotOxygen>, <ore:ingotSulfur>, <ore:ingotSelenium>, <ore:ingotPolonium>, <ore:ingotLivermorium>];
+val Eles17 as IOreDictEntry[] = [<ore:ingotFluorine>, <ore:ingotChlorine>, <ore:ingotBromine>, <ore:ingotAstatine>, <ore:ingotTennessine>];
+val Eles18 as IOreDictEntry[] = [<ore:ingotHelium>, <ore:ingotNeon>, <ore:ingotArgon>, <ore:ingotKrypton>, <ore:ingotXenon>, <ore:ingotRadon>, <ore:ingotOganesson>];
+val GroupMap as IOreDictEntry[][int] = {
+    1 : Eles1, 2 : Eles2, 3 : Eles3, 4 : Eles4, 5 : Eles5, 6 : Eles6,
+    7 : Eles7, 8 : Eles8, 9 : Eles9, 10 : Eles10, 11 : Eles11, 12 : Eles12,
+    13 : Eles13, 14 : Eles14, 15 : Eles15, 16 : Eles16, 17 : Eles17, 18 : Eles18
+};
+
+/*var periodic_hibiscus as ISubTileEntityGenerating = VanillaFactory.createSubTileGenerating("periodic_hibiscus", 0xFFFFFF);
+periodic_hibiscus.maxMana = 11800;
+periodic_hibiscus.onUpdate = function(subtile, world, pos) {
+    if (!world.remote) {
+        if (isNull(subtile.data.group)) {
+            subtile.updateCustomData({group : 1});
+        } else {
+            var group as int = subtile.data.group as int;
+            var eles as IOreDictEntry[] = GroupMap[group];
+            for itemEntity in world.getEntityItems() {
+                if (distance3D(pos.x, pos.y, pos.z, itemEntity.x, itemEntity.y, itemEntity.z) <= 3.0d) {
+                    var item as IItemStack = itemEntity.item;
+                    var pass as bool = false;
+                    if (!(isNull(item.ores) || item.ores.length == 0)) {
+                        for ore in item.ores {
+                            for ele in eles {
+                                if (ele.name == ore.name) {
+                                    pass = true;
+                                    break;
+                                }
+                            }
+                            if (pass) {
+                                break;
+                            }
+                        }
+                    }
+                    if (pass) {
+                        itemEntity.onKillCommand();
+                        subtile.addMana()
+                    }
+                }
+            }
+        }
+    }
+}*/
 
 var kg as ISubTileEntityGenerating = VanillaFactory.createSubTileGenerating("kill_generating", 0xFFFFFF);
 kg.maxMana = 6666;

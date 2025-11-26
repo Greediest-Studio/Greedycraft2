@@ -28,6 +28,23 @@ function getDrawSpeed(inversed as float) as float {
     return (1.0f / inversed as float) as float;
 }
 
+val brass = ExtendedMaterialBuilder.create("brass");
+brass.color = Color.fromHex("e1bc80").getIntColor();
+brass.craftable = false;
+brass.castable = true;
+brass.representativeItem = <item:thaumcraft:ingot:2>;
+brass.liquid = <liquid:brass>;
+brass.addItem(<ore:ingotBrass>);
+brass.localizedName = game.localize("greedycraft.tconstruct.material.brass.name");
+brass.addHeadMaterialStats(230, 11, 3, 2);
+brass.addHandleMaterialStats(0.3, 200);
+brass.addExtraMaterialStats(120);
+brass.addBowMaterialStats(getDrawSpeed(0.96) as float, 0.8, 5);
+brass.addCoreMaterialStats(8.9, 12);
+brass.addPlatesMaterialStats(1.1, 0.3, 2);
+brass.addTrimMaterialStats(6);
+brass.register();
+
 val cheese = ExtendedMaterialBuilder.create("cheese");
 cheese.color = Color.fromHex("ffeb3b").getIntColor();
 cheese.craftable = true;
@@ -391,6 +408,23 @@ nitronite.addCoreMaterialStats(60, 29);
 nitronite.addPlatesMaterialStats(3.0, 18, 2.5);
 nitronite.addTrimMaterialStats(25);
 nitronite.register();
+
+val osram as ExtendedMaterialBuilder = ExtendedMaterialBuilder.create("osram");
+osram.color = Color.fromHex("ffd1f7").getIntColor();
+osram.craftable = false;
+osram.castable = true;
+osram.representativeItem = <item:taiga:osram_ingot>;
+osram.liquid = <liquid:osram_fluid>;
+osram.addItem(<ore:ingotOsram>);
+osram.localizedName = game.localize("greedycraft.tconstruct.material.osram.name");
+osram.addHeadMaterialStats(750, 9.5, 9, 4);
+osram.addHandleMaterialStats(1.4, 120);
+osram.addExtraMaterialStats(380);
+osram.addBowMaterialStats(getDrawSpeed(1.1) as float, 1.2, 5.5);
+osram.addCoreMaterialStats(75, 12);
+osram.addPlatesMaterialStats(2.5, 20, 3.0);
+osram.addTrimMaterialStats(30);
+osram.register();
 
 val crude_steel = ExtendedMaterialBuilder.create("crude_steel_gc");
 crude_steel.color = Color.fromHex("b9b1ac").getIntColor();

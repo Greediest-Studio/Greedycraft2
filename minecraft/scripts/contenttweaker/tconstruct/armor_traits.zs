@@ -3742,3 +3742,29 @@ creeper_defenseTrait.onHurt = function(trait, armor, player, source, damage, new
     return newDamage;
 };
 creeper_defenseTrait.register();
+
+val igneousTrait = ArmorTraitBuilder.create("igneous");
+igneousTrait.color = Color.fromHex("ffffff").getIntColor();
+igneousTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.igneousTrait.name");
+igneousTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.igneousTrait.desc");
+igneousTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (Math.random() < 0.33f && !isNull(player)) {
+        player.give(<item:minecraft:stone:1>);
+    }
+    return newDamage;
+};
+igneousTrait.onJumping = function(trait, armor, player, evt) {
+    if (Math.random() < 0.05f && !isNull(player)) {
+        player.give(<item:minecraft:stone:3>);
+    }
+};
+igneousTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        if (player.isSprinting && Math.random() < 0.167f) {
+            if (Math.random() < 0.01f) {
+                player.give(<item:minecraft:stone:5>);
+            }    
+        }
+    }
+};
+igneousTrait.register();

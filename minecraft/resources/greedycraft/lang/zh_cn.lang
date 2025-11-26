@@ -425,6 +425,8 @@ greedycraft.tconstruct.material.kianate.name=空律精华
 greedycraft.tconstruct.material.chloroplast.name=叶绿
 greedycraft.tconstruct.material.niobium.name=铌
 greedycraft.tconstruct.material.nitronite.name=硝化合金
+greedycraft.tconstruct.material.osram.name=熔晶
+greedycraft.tconstruct.material.brass.name=黄铜
 #护甲词条
 greedycraft.tconstruct.armor_trait.wolf_roarTrait.name=月啸
 greedycraft.tconstruct.armor_trait.wolf_roarTrait.desc=§o满月时分……\n§r在满月时增加少量防御。
@@ -815,7 +817,13 @@ greedycraft.tconstruct.armor_trait.consonantTrait.name=辅音
 greedycraft.tconstruct.armor_trait.consonantTrait.desc=§o真的有人触发不了这个吗？\n§r若你的名字中包含辅音字母，则可以抵消5%伤害。
 greedycraft.tconstruct.armor_trait.creeper_defenseTrait.name=蠕变
 greedycraft.tconstruct.armor_trait.creeper_defenseTrait.desc=§o远离爆炸！\n§r以5%护甲耐久免疫苦力怕的爆炸伤害。
+greedycraft.tconstruct.armor_trait.igneousTrait.name=火成
+greedycraft.tconstruct.armor_trait.igneousTrait.desc=§o三废石的力量！\n§r当你受伤时，有几率获得花岗岩；\n§r当你跳跃时，有几率获得闪长岩；\n§r当你疾跑时，有几率获得安山岩。
 #工具词条
+greedycraft.tconstruct.tool_trait.igneousTrait.name=火成
+greedycraft.tconstruct.tool_trait.igneousTrait.desc=§o三废石的力量！\n§r当你进行攻击时，消耗三种“废石”中的几种来达成以下效果：\n花岗岩：暴击时造成1.5倍伤害；\n闪长岩：暴击时附加强大的击退；\n安山岩：增加30%暴击概率。
+greedycraft.tconstruct.tool_trait.fake_goldTrait.name=假金
+greedycraft.tconstruct.tool_trait.fake_goldTrait.desc=§o看起来像金子！\n§r当你挖掘铜矿石时，有50%概率得到金矿石。
 greedycraft.tconstruct.tool_trait.nitrationTrait.name=硝化
 greedycraft.tconstruct.tool_trait.nitrationTrait.desc=§o把它转化为火药！\n§r击杀目标后额外掉落一枚火药。
 greedycraft.tconstruct.tool_trait.chorusTrait.name=合唱

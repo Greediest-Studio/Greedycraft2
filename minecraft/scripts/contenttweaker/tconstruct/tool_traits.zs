@@ -4611,3 +4611,95 @@ nitrationTrait.color = Color.fromHex("ffffff").getIntColor();
 nitrationTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.nitrationTrait.name");
 nitrationTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.nitrationTrait.desc");
 nitrationTrait.register();
+
+val fake_goldTrait = TraitBuilder.create("fake_gold");
+fake_goldTrait.color = Color.fromHex("ffffff").getIntColor(); 
+fake_goldTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.fake_goldTrait.name");
+fake_goldTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.fake_goldTrait.desc");
+fake_goldTrait.onBlockHarvestDrops = function(trait, tool, event) {
+    var newDrops as WeightedItemStack[] = [];
+    for drop in event.drops {
+        var item as IItemStack = drop.stack;
+        if (!(isNull(item.ores) || item.ores.length == 0)) {
+            var pass as bool = false;
+            for ore in item.ores {
+                if (ore.name == "oreCopper") {
+                    pass = true;
+                }
+            }
+            if (pass && Math.random() < 0.5f) {
+                newDrops += <item:minecraft:gold_ore>;
+                continue;
+            }
+        }
+        newDrops += drop;
+    }
+    event.drops = newDrops;
+};
+fake_goldTrait.register();
+
+val igneousTrait = TraitBuilder.create("igneous");
+igneousTrait.color = Color.fromHex("ffffff").getIntColor(); 
+igneousTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.igneousTrait.name");
+igneousTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.igneousTrait.desc");
+igneousTrait.calcCrit = function(trait, tool, attacker, target) {
+    if (Math.random() < 0.3f && attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        var pass as bool = false;
+        for i in 0 to 9 {
+            if (!isNull(player.getHotbarStack(i))) {
+                var item as IItemStack = player.getHotbarStack(i);
+                if (item.definition.id == "minecraft:stone" && item.metadata == 5) {
+                    item.mutable().shrink(1);
+                    pass = true;
+                    break;
+                }
+            }
+        }
+        if (pass) {
+            return true;
+        }
+    }
+    return false;
+};
+igneousTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer && isCritical) {
+        var player as IPlayer = attacker;
+        var pass as bool = false;
+        for i in 0 to 9 {
+            if (!isNull(player.getHotbarStack(i))) {
+                var item as IItemStack = player.getHotbarStack(i);
+                if (item.definition.id == "minecraft:stone" && item.metadata == 1) {
+                    item.mutable().shrink(1);
+                    pass = true;
+                    break;
+                }
+            }
+        }
+        if (pass) {
+            return newDamage * 1.15f;
+        }
+    }
+    return newDamage;
+};
+igneousTrait.calcKnockBack = function(trait, tool, attacker, target, damage, originalKnockBack, newKnockBack, isCritical) {
+    if (attacker instanceof IPlayer && isCritical) {
+        var player as IPlayer = attacker;
+        var pass as bool = false;
+        for i in 0 to 9 {
+            if (!isNull(player.getHotbarStack(i))) {
+                var item as IItemStack = player.getHotbarStack(i);
+                if (item.definition.id == "minecraft:stone" && item.metadata == 3) {
+                    item.mutable().shrink(1);
+                    pass = true;
+                    break;
+                }
+            }
+        }
+        if (pass) {
+            return newKnockBack * 2.5f;
+        }
+    }
+    return newKnockBack;
+};
+igneousTrait.register();
