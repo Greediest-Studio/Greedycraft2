@@ -11,6 +11,10 @@ import scripts.util.lang as LangUtil;
 
 val localizationMap as string[string][string] = {
     zh_cn: {
+        "jei.tofucraft.category.crusher": "豆腐能粉碎机",
+        "jei.tofucraft.category.compressor": "豆腐压缩机",
+        "jei.tofucraft.category.aggregator": "豆腐聚合器",
+        "jei.tofucraft.category.advanced_aggregator": "高级豆腐聚合器",
         "dragon.minion": "龙之侍从",
         "dragon.larva": "龙之幼体",
         "wither.minion": "凋灵侍从",
