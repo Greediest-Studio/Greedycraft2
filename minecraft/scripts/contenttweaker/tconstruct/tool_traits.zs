@@ -4703,3 +4703,57 @@ igneousTrait.calcKnockBack = function(trait, tool, attacker, target, damage, ori
     return newKnockBack;
 };
 igneousTrait.register();
+
+val earthcrashTrait = TraitBuilder.create("earthcrash");
+earthcrashTrait.color = Color.fromHex("ffffff").getIntColor(); 
+earthcrashTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.earthcrashTrait.name");
+earthcrashTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.earthcrashTrait.desc");
+earthcrashTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        var world as IWorld = player.world;
+        var pos as IBlockPos = target.position;
+        if (Math.random() < 0.05f) {
+            if (world.getBlockState(pos.down(1)) != <blockstate:minecraft:air>) {
+                var block as IBlock = world.getBlock(pos.down(1));
+                if (block.definition.harvestLevel <= 0) {
+                    world.destroyBlock(pos.down(1), true);
+                    player.addPotionEffect(<potion:minecraft:strength>.makePotionEffect(100, 2, false, false));
+                    player.addPotionEffect(<potion:minecraft:mining_fatigue>.makePotionEffect(100, 1, false, false));
+                }
+            }
+        }
+    }
+};
+earthcrashTrait.register();
+
+val earthessenceTrait = TraitBuilder.create("earthessence");
+earthessenceTrait.color = Color.fromHex("ffffff").getIntColor(); 
+earthessenceTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.earthessenceTrait.name");
+earthessenceTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.earthessenceTrait.desc");
+earthessenceTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        var world as IWorld = player.world;
+        var pos as IBlockPos = player.position;
+        var mutiplier as int = 0;
+        for i in 1 to pos.y {
+            var block as IBlock = world.getBlock(pos.down(i));
+            if (!(isNull(block.getItem(world, pos.down(i), world.getBlockState(pos.down(i))).ores) || block.getItem(world, pos.down(i), world.getBlockState(pos.down(i))).ores.length == 0)) {
+                var pass as bool = false;
+                for od in block.getItem(world, pos.down(i), world.getBlockState(pos.down(i))).ores {
+                    if (od.name.startsWith("ore")) {
+                        pass = true;
+                        break;
+                    }
+                }
+                if (pass) {
+                    mutiplier += 1;
+                }
+            }
+        }
+        return newDamage * (1.0f + ((mutiplier as float * 0.02f) > 0.3f ? 0.3f : (mutiplier as float * 0.02f)) as float) as float;
+    }
+    return newDamage;
+};
+earthessenceTrait.register();
