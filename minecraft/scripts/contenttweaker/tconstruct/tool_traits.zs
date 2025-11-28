@@ -4757,3 +4757,18 @@ earthessenceTrait.calcDamage = function(trait, tool, attacker, target, originalD
     return newDamage;
 };
 earthessenceTrait.register();
+
+val earthspiritTrait = TraitBuilder.create("earthspirit");
+earthspiritTrait.color = Color.fromHex("ffffff").getIntColor(); 
+earthspiritTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.earthspiritTrait.name");
+earthspiritTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.earthspiritTrait.desc");
+earthspiritTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
+    if (attacker instanceof IPlayer && damageDealt >= 0.0f && wasHit) {
+        var player as IPlayer = attacker;
+        var name as string = player.name;
+        if (target.health <= 0.0f) {
+            server.commandManager.executeCommandSilent(server, "summon twilightforest:loyal_zombie " + target.x + " " + target.y + " " + target.z + " {Tamed:1b,Owner:\"" + name + "\",ActiveEffects:[{Id:12b,Amplifier:0b,Duration:400,ShowParticles:1b}]}");
+        }
+    }
+};
+earthspiritTrait.register();
