@@ -4716,7 +4716,7 @@ earthcrashTrait.onHit = function(trait, tool, attacker, target, damage, isCritic
         if (Math.random() < 0.05f) {
             if (world.getBlockState(pos.down(1)) != <blockstate:minecraft:air>) {
                 var block as IBlock = world.getBlock(pos.down(1));
-                if (block.definition.harvestLevel <= 0) {
+                if (block.definition.harvestLevel <= 0 && block.definition.hardness >= 0.0f) {
                     world.destroyBlock(pos.down(1), true);
                     player.addPotionEffect(<potion:minecraft:strength>.makePotionEffect(100, 2, false, false));
                     player.addPotionEffect(<potion:minecraft:mining_fatigue>.makePotionEffect(100, 1, false, false));
@@ -4738,7 +4738,9 @@ earthessenceTrait.calcDamage = function(trait, tool, attacker, target, originalD
         var pos as IBlockPos = player.position;
         var mutiplier as int = 0;
         for i in 1 to pos.y {
+            if (!isNull(world.getBlock(pos.down(i)))) {
             var block as IBlock = world.getBlock(pos.down(i));
+            if (!isNull(block.getItem(world, pos.down(i), world.getBlockState(pos.down(i))))) {
             if (!(isNull(block.getItem(world, pos.down(i), world.getBlockState(pos.down(i))).ores) || block.getItem(world, pos.down(i), world.getBlockState(pos.down(i))).ores.length == 0)) {
                 var pass as bool = false;
                 for od in block.getItem(world, pos.down(i), world.getBlockState(pos.down(i))).ores {
@@ -4750,6 +4752,8 @@ earthessenceTrait.calcDamage = function(trait, tool, attacker, target, originalD
                 if (pass) {
                     mutiplier += 1;
                 }
+            }
+            }
             }
         }
         return newDamage * (1.0f + ((mutiplier as float * 0.02f) > 0.3f ? 0.3f : (mutiplier as float * 0.02f)) as float) as float;

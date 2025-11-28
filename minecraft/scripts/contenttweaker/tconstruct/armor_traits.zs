@@ -31,6 +31,8 @@ import crafttweaker.util.IAxisAlignedBB;
 import crafttweaker.util.Position3f;
 import crafttweaker.world.IBlockPos;
 import crafttweaker.entity.IEntityLiving;
+import crafttweaker.block.IBlock;
+import crafttweaker.world.IWorld;
 
 import mods.ctutils.utils.Math;
 import mods.contenttweaker.tconstruct.Material;
@@ -3768,3 +3770,73 @@ igneousTrait.onArmorTick = function(trait, armor, world, player) {
     }
 };
 igneousTrait.register();
+
+val earthcrashTrait = ArmorTraitBuilder.create("earthcrash");
+earthcrashTrait.color = Color.fromHex("ffffff").getIntColor();
+earthcrashTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.earthcrashTrait.name");
+earthcrashTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.earthcrashTrait.desc");
+earthcrashTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        var pos as IBlockPos = player.position;
+        var world as IWorld = player.world;
+        if (world.getBlockState(pos.down(1)) != <blockstate:minecraft:air>) {
+            var block as IBlock = world.getBlock(pos.down(1));
+            if (block.definition.harvestLevel <= 0 && block.definition.hardness >= 0.0f) {
+                world.destroyBlock(pos.down(1), true);
+                player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(100, 2));
+            }
+        }
+    }
+    return newDamage;
+};
+earthcrashTrait.register();
+
+val earthessenceTrait = ArmorTraitBuilder.create("earthessence");
+earthessenceTrait.color = Color.fromHex("ffffff").getIntColor();
+earthessenceTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.earthessenceTrait.name");
+earthessenceTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.earthessenceTrait.desc");
+earthessenceTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        var pos as IBlockPos = player.position;
+        var world as IWorld = player.world;
+        var counter as int = 0;
+        for i in 1 to pos.y {
+            if (!isNull(world.getBlock(pos.down(i)))) {
+            var block as IBlock = world.getBlock(pos.down(i));
+            if (!isNull(block.getItem(world, pos.down(i), world.getBlockState(pos.down(i))))) {
+            if (!(isNull(block.getItem(world, pos.down(i), world.getBlockState(pos.down(i))).ores) || block.getItem(world, pos.down(i), world.getBlockState(pos.down(i))).ores.length == 0)) {
+                var pass as bool = false;
+                for ore in block.getItem(world, pos.down(i), world.getBlockState(pos.down(i))).ores {
+                    if (ore.name.startsWith("ore")) {
+                        pass = true;
+                        break;
+                    }
+                }
+                if (pass) {
+                    counter += 1;
+                }
+            }
+            }
+            }
+        }
+        return newDamage * (1.0f - ((counter * 0.03f) > 0.35f ? 0.35f : (counter * 0.03f)));
+    }
+    return newDamage;
+};
+earthessenceTrait.register();
+
+val earthspiritTrait = ArmorTraitBuilder.create("earthspirit");
+earthspiritTrait.color = Color.fromHex("ffffff").getIntColor();
+earthspiritTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.earthspiritTrait.name");
+earthspiritTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.earthspiritTrait.desc");
+earthspiritTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        if (damage >= player.health && Math.random() < 0.25f) {
+            var name as string = player.name;
+            server.commandManager.executeCommandSilent(server, "summon twilightforest:loyal_zombie " + player.x + " " + player.y + " " + player.z + " {Tamed:1b,Owner:\"" + name + "\",ActiveEffects:[{Id:12b,Amplifier:0b,Duration:400,ShowParticles:1b}]}");
+            return 0.1f;
+        }
+    }
+    return newDamage;
+};
+earthspiritTrait.register();
