@@ -238,13 +238,6 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gct_aby:essence_of_warped_ruin
 	[<gct_aby:warped_soul>, <ore:ingotYogsothoth>, <ore:stoneAbyssExtended>, <ore:ingotShubniggurath>, <gct_aby:warped_soul>], 
 	[null, <gct_aby:warped_soul>, <gct_aby:warped_soul>, <gct_aby:warped_soul>, null]
 ]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:blockparallelcontroller>, [
-	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>, <ore:blockModularium>], 
-	[<ore:blockModularium>, <modularmachinery:blockcontroller>, <ore:ingotSteel>, <modularmachinery:blockcontroller>, <ore:blockModularium>], 
-	[<ore:blockRedstone>, <ore:ingotSteel>, <modularmachinery:blockcontroller>, <ore:ingotSteel>, <ore:blockRedstone>], 
-	[<ore:blockModularium>, <modularmachinery:blockcontroller>, <ore:ingotSteel>, <modularmachinery:blockcontroller>, <ore:blockModularium>], 
-	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>, <ore:blockModularium>]
-]);
 mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:blockparallelcontroller:5>, [
 	[<ore:blockModularium>, <ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>, <ore:blockModularium>], 
 	[<ore:blockModularium>, <modularmachinery:blockparallelcontroller>, <ore:ingotStainlessSteel>, <modularmachinery:blockparallelcontroller>, <ore:blockModularium>], 

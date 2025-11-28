@@ -77,3 +77,4 @@ ConversionFluid.create(<liquid:liquidslimesteel>).addMatchFluid(<liquid:slimeste
 ConversionFluid.create(<liquid:liquidgeodesium>).addMatchFluid(<liquid:geodesium>).register();
 ConversionFluid.create(<liquid:liquidporksteel>).addMatchFluid(<liquid:porksteel>).register();
 ConversionFluid.create(<liquid:nitronite_fluid>).addMatchFluid(<liquid:nitronite>).register();
+ConversionFluid.create(<liquid:infinity_metal>).addMatchFluid(<liquid:infinity>).register();

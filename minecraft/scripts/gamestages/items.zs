@@ -91,7 +91,8 @@ GameStagesUtil.stageChaoticDominator.addIngredients([
     <ore:blockIvorium>,
     <ore:dustIvorium>,
     <additions:ebony_and_lvory>,
-    <contenttweaker:chaos_heart>
+    <contenttweaker:chaos_heart>,
+    <ometweaks:blackhole_capacitor>
 ], true);
 
 GameStagesUtil.stageGettingStarted.addIngredients([
@@ -755,7 +756,8 @@ GameStagesUtil.stageBalancedMatrix.addIngredients([
     <additions:demon_shard>,
     <additions:ga_in_p2_press>,
     <additions:reagent_godness>,
-    <additions:unshapable_matter>
+    <additions:unshapable_matter>,
+    <ometweaks:creative_capacitor>
 ], false);
 
 GameStagesUtil.stageBetweenlandTraveller.addIngredients([
@@ -2291,7 +2293,7 @@ GameStagesUtil.stageFinal.addIngredients([
     <moretcon:itemvalasiumsponge:2>,
     <moretcon:itemvalasiumsponge:3>,
     <moretcon:itemvalasiumsponge:4>,
-    <moretcon:itemvalasiumsponge:5>    
+    <moretcon:itemvalasiumsponge:5>
 ], true);
 
 GameStagesUtil.stageDeepDream.addIngredients([

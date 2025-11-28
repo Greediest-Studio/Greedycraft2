@@ -116,3 +116,4 @@ AlloySmelter.addRecipe(<additions:blue_alloy_ingot> * 6, [<ore:ingotEcoBasicAllo
 SagMill.removeRecipe(<minecraft:coal>);
 SagMill.addRecipe([<actuallyadditions:item_dust:7> * 4], [100 as float], <ore:blockQuartzBlack> as IIngredient, "CHANCE_ONLY", 400, [100 as float]);
 SagMill.addRecipe([<additions:ender_complex>], [100 as float], <ore:plantEnd> as IIngredient, "CHANCE_ONLY", 400, [100 as float]);
+

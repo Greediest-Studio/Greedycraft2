@@ -286,7 +286,6 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:gearDensite> : [<gct_ores:densite_gear>],
     <ore:oreIron> : [<sakura:iron_sand>],
     <ore:gemAmber> : [<betterendforge:amber_gem>],
-    //<ore:vetheaDisabled> : [<ore:ingotBrass>],
     <ore:ingotBlackiron> : [<extendedcrafting:material>],
     <ore:blockBlackiron> : [<extendedcrafting:storage>],
     <ore:nuggetBlackiron> : [<extendedcrafting:material:1>],
@@ -1243,7 +1242,19 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:ingotSilver> : [<erebus:materials:45>],
     <ore:ingotTin> : [<erebus:materials:46>],
     <ore:gemGneiss> : [<erebus:materials:47>],
-    <ore:boneWither> : [<tconstruct:materials:17>]
+    <ore:boneWither> : [<tconstruct:materials:17>],
+    <ore:capacitorGrains> : [<enderio:item_capacitor_grainy>],
+    <ore:capacitorBasic> : [<enderio:item_basic_capacitor>],
+    <ore:capacitorDouble> : [<enderio:item_basic_capacitor:1>],
+    <ore:capacitorOctadic> : [<enderio:item_basic_capacitor:2>],
+    <ore:capacitorCrystalline> : [<enderio:item_capacitor_crystalline>],
+    <ore:capacitorMelodic> : [<enderio:item_capacitor_melodic>],
+    <ore:capacitorStellar> : [<enderio:item_capacitor_stellar>],
+    <ore:capacitorTotemic> : [<enderio:item_capacitor_totemic>],
+    <ore:capacitorSilver> : [<enderio:item_capacitor_silver>],
+    <ore:capacitorEnergeticSilver> : [<enderio:item_capacitor_energetic_silver>],
+    <ore:capacitorVivid> : [<enderio:item_capacitor_vivid>],
+    <ore:capacitorInfinity> : [<avaritiaio:infinitecapacitor>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {

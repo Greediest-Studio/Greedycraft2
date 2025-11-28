@@ -689,6 +689,21 @@ RecipeUtil.addShaped("malevolent_fruit", <contenttweaker:malevolent_fruit>, [
     [<ore:ingotMalevolencite>, <minecraft:golden_apple:1>, <ore:ingotMalevolencite>],
     [null, <ore:ingotMalevolencite>, null]
 ]);
+RecipeUtil.addShaped("parallel_controller", <modularmachinery:blockparallelcontroller>, [
+    [<ore:ingotModularium>, <ore:blockRedstone>, <ore:ingotModularium>],
+    [<ore:circuitBasic>, <modularmachinery:blockcontroller>, <ore:circuitBasic>], 
+    [<ore:ingotModularium>, <ore:blockRedstone>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("blackhole_capacitor", <ometweaks:blackhole_capacitor>, [
+    [null, <ore:ingotBlackholeAlloy>, null],
+    [<enderio:item_capacitor_stellar>, <ore:ingotEnderite>, <enderio:item_capacitor_stellar>],
+    [null, <ore:ingotBlackholeAlloy>, null]
+]);
+RecipeUtil.addShaped("creative_capacitor", <ometweaks:creative_capacitor>, [
+    [null, <ore:ingotCreativeAlloy>, null],
+    [<ometweaks:blackhole_capacitor>, <ore:ingotEndestSteel>, <ometweaks:blackhole_capacitor>],
+    [null, <ore:ingotCreativeAlloy>, null]
+]);
 /*
  * RecipeUtil.addShaped("", , [
  *  [null, null, null],
