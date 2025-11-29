@@ -11,6 +11,12 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
+import mods.zenutils.DataUpdateOperation.OVERWRITE;
+import mods.zenutils.DataUpdateOperation.APPEND;
+import mods.zenutils.DataUpdateOperation.MERGE;
+import mods.zenutils.DataUpdateOperation.REMOVE;
+import mods.zenutils.DataUpdateOperation.BUMP;
+
 import scripts.util.lang as LangUtil;
 
 val errorStone = <minecraft:stone>.withTag({display: {Name: LangUtil.translate("greedycraft.misc.bug_stone.name"), Lore: [LangUtil.translate("greedycraft.misc.bug_stone.tooltip.1"), LangUtil.translate("greedycraft.misc.bug_stone.tooltip.2")]}}) as IItemStack;
@@ -74,177 +80,72 @@ function(out, ins, cInfo) {
 
 recipes.addShaped("exp_transport_tool", errorStone, [[<ore:toolTiC>.marked("to"), <additions:experience_transporter>, <ore:toolTiC>.marked("from")]], 
 function(out, ins, cInfo) {
-    if (isNull(ins.from.tag.memberGet("Modifiers") as IData) || isNull(ins.to.tag.memberGet("Modifiers") as IData)) {
+    if (isNull(ins.from.tag) || isNull(ins.to.tag) || isNull(ins.from.tag.Modifiers) || isNull(ins.to.tag.Modifiers)) {
         return null;
     }
-    var modifiersFrom = ins.from.tag.memberGet("Modifiers") as IData;
-    var modifiersTo = ins.to.tag.memberGet("Modifiers") as IData;
-    var toolLevel = {} as IData;
-    var toolLevelOld = {} as IData;
-    var level = -1 as int;
-    var oldLevel = -1 as int;
-    if (modifiersFrom.asString().contains("toolleveling")) {
-        for i in 0 to modifiersFrom.length {
-            var current as IData = modifiersFrom[i];
-            if ("toolleveling" == current.memberGet("identifier")) {
-                toolLevel = current;
-                if(toolLevel has "level") {
-                    level = toolLevel.memberGet("level") as int;
-                }
-                break;
-            }
+    var tD = ins.to.tag as IData;
+    var oL = 1 as int;//等级
+    var eS = 0 as int;//额外槽位
+    var xp = 0 as int;
+    var aS = true;
+    var L = {Modifiers: []} as IData;
+    for m in tD.Modifiers.asList() as IData[] {
+        if (!isNull(m.identifier) && m.identifier == "toolleveling") {
+            oL = m.level;
+            eS = isNull(m.bonus_modifiers) ? 0 : m.bonus_modifiers as int;
+            xp = isNull(m.xp) ? 0 : m.xp as int;
+        }
+        if (m.identifier != "toolleveling") {
+            L = L.deepUpdate({Modifiers: [m]},{Modifiers: APPEND});
         }
     }
-    
-    if (modifiersTo.asString().contains("toolleveling")) {
-        for i in 0 to modifiersTo.length {
-            var current as IData = modifiersTo[i];
-            if ("toolleveling" == current.memberGet("identifier")) {
-                toolLevelOld = current;
-                if(toolLevelOld has "level") {
-                    oldLevel = toolLevelOld.memberGet("level") as int;
-                }
-                break;
-            }
+    for m in ins.from.tag.Modifiers.asList() as IData[] {
+        if (!isNull(m.identifier) && m.identifier == "toolleveling" && m.level > oL) {
+            oL = m.level;
+            eS = isNull(m.bonus_modifiers) ? 0 : m.bonus_modifiers as int;
+            xp = isNull(m.xp) ? 0 : m.xp as int;
+            aS = false;
+            break;
         }
     }
-
-    var newModifier as IData = [];
-    if (!isNull(newModifier) && level >= 0) {
-        for i in 0 to modifiersTo.length {
-            var current as IData = modifiersTo[i];
-            if (isNull(current)) { 
-                break;
-            }
-            if (current.asString().contains("toolleveling")) {
-                newModifier = newModifier.update([current.update(toolLevel)] as IData);
-                break;
-            } else {
-                if(!current.asString().contains("extratrait")) {
-                    newModifier = newModifier.update([current] as IData);
-                }
-            }
-        }
-    }
-
-    var outData as IData = ins.to.tag - "Modifiers";
-    outData = outData + ({Modifiers: newModifier}) as IData;
-
-    var modifierData as IData = [];
-    var tinkerData as IData = {};
-    if((outData has "TinkerData") && (outData.memberGet("TinkerData") has "Modifiers")) {
-        tinkerData = outData.memberGet("TinkerData");
-        tinkerData = tinkerData - "Modifiers";
-        for i in 0 to outData.memberGet("TinkerData").memberGet("Modifiers").length {
-            var current as IData = modifiersTo[i];
-            if(!(current as string).contains("extratrait")) {
-                modifierData = modifierData.update([current] as IData);
-            }
-        }
-        tinkerData = tinkerData.update({Modifiers: modifierData} as IData);
-        outData = outData - "TinkerData";
-        outData = outData.update({TinkerData: tinkerData} as IData);
-    }
-    
-    var statsTag as IData = outData.memberGet("Stats");
-    var freeModifiers as int = statsTag.memberGet("FreeModifiers").asInt();
-    var modifierDiff as int = level - oldLevel;
-    if(modifierDiff < 0) {
-        modifierDiff = 0;
-    }
-    statsTag = statsTag.update({"FreeModifiers": freeModifiers + modifierDiff});
-    outData = outData.update({"Stats": statsTag});
-
-    logger.logInfo("Experience Transfer Performed." + "\nFreeModifiers: " + freeModifiers + "\nStatsTag: " + statsTag as string + "\nTinkerData: " + tinkerData as string + "\nOldLevel: " + oldLevel + "\nNewLevel: " + level + "\nLevelTagOld: " + toolLevelOld as string + "\nLevelTagNew: " + toolLevel as string);
-
-    return ins.to.withTag(outData);
+    tD = tD.deepUpdate(L.deepUpdate({Modifiers: [{identifier: "toolleveling",color: 16777215,level: oL,bonus_modifiers: eS,xp: xp}]},{Modifiers: APPEND}),{Modifiers: OVERWRITE});
+    tD = tD.deepUpdate({Stats: tD.Stats.deepUpdate({FreeModifiers: (aS ? tD.Stats.FreeModifiers : ins.from.tag.Stats.FreeModifiers) as int},{FreeModifiers: OVERWRITE})},{Stats: OVERWRITE});
+    return ins.to.withTag(tD);
 }, null);
 
 recipes.addShaped("exp_transport_armor", errorStone, [[<ore:armorTiC>.marked("to"), <additions:experience_transporter>, <ore:armorTiC>.marked("from")]], 
 function(out, ins, cInfo) {
-    if (isNull(ins.from.tag.memberGet("Modifiers") as IData) || isNull(ins.to.tag.memberGet("Modifiers") as IData)) {
+    if (isNull(ins.from.tag) || isNull(ins.to.tag) || isNull(ins.from.tag.Modifiers) || isNull(ins.to.tag.Modifiers)) {
         return null;
     }
-    var modifiersFrom = ins.from.tag.memberGet("Modifiers") as IData;
-    var modifiersTo = ins.to.tag.memberGet("Modifiers") as IData;
-    var toolLevel = {} as IData;
-    var toolLevelOld = {} as IData;
-    var level = -1 as int;
-    var oldLevel = -1 as int;
-    if (modifiersFrom.asString().contains("leveling_armor")) {
-        for i in 0 to modifiersFrom.length {
-            var current as IData = modifiersFrom[i];
-            if ("leveling_armor" == current.memberGet("identifier")) {
-                toolLevel = current;
-                if(toolLevel has "level") {
-                    level = toolLevel.memberGet("level") as int;
-                }
-                break;
-            }
+    var tD = ins.to.tag as IData;
+    var oL = 1 as int;//等级
+    var eS = 0 as int;//额外槽位
+    var xp = 0 as int;
+    var aS = true;
+    var L = {Modifiers: []} as IData;
+    for m in tD.Modifiers.asList() as IData[] {
+        if (!isNull(m.identifier) && m.identifier == "leveling_armor") {
+            oL = m.level;
+            eS = isNull(m.bonus_modifiers) ? 0 : m.bonus_modifiers as int;
+            xp = isNull(m.xp) ? 0 : m.xp as int;
+        }
+        if (m.identifier != "leveling_armor") {
+            L = L.deepUpdate({Modifiers: [m]},{Modifiers: APPEND});
         }
     }
-    
-    if (modifiersTo.asString().contains("leveling_armor")) {
-        for i in 0 to modifiersTo.length {
-            var current as IData = modifiersTo[i];
-            if ("leveling_armor" == current.memberGet("identifier")) {
-                toolLevelOld = current;
-                if(toolLevelOld has "level") {
-                    oldLevel = toolLevelOld.memberGet("level") as int;
-                }
-                break;
-            }
+    for m in ins.from.tag.Modifiers.asList() as IData[] {
+        if (!isNull(m.identifier) && m.identifier == "leveling_armor" && m.level > oL) {
+            oL = m.level;
+            eS = isNull(m.bonus_modifiers) ? 0 : m.bonus_modifiers as int;
+            xp = isNull(m.xp) ? 0 : m.xp as int;
+            aS = false;
+            break;
         }
     }
-
-    var newModifier as IData = [];
-    if (!isNull(newModifier) && level >= 0) {
-        for i in 0 to modifiersTo.length {
-            var current as IData = modifiersTo[i];
-            if (isNull(current)) { 
-                break;
-            }
-            if (current.asString().contains("leveling_armor")) {
-                newModifier = newModifier.update([current.update(toolLevel)] as IData);
-                break;
-            } else {
-                if(!current.asString().contains("extratrait")) {
-                    newModifier = newModifier.update([current] as IData);
-                }
-            }
-        }
-    }
-    var outData as IData = ins.to.tag - "Modifiers";
-    outData = outData + ({Modifiers: newModifier}) as IData;
-    
-    var modifierData as IData = [];
-    var tinkerData as IData = {};
-    if((outData has "TinkerData") && (outData.memberGet("TinkerData") has "Modifiers")) {
-        tinkerData = outData.memberGet("TinkerData");
-        tinkerData = tinkerData - "Modifiers";
-        for i in 0 to outData.memberGet("TinkerData").memberGet("Modifiers").length {
-            var current as IData = modifiersTo[i];
-            if(!(current as string).contains("extratrait")) {
-                modifierData = modifierData.update([current] as IData);
-            }
-        }
-        tinkerData = tinkerData.update({Modifiers: modifierData} as IData);
-        outData = outData - "TinkerData";
-        outData = outData.update({TinkerData: tinkerData} as IData);
-    }
-    
-    var statsTag as IData = outData.memberGet("Stats");
-    var freeModifiers as int = statsTag.memberGet("FreeModifiers").asInt();
-    var modifierDiff as int = level - oldLevel;
-    if(modifierDiff < 0) {
-        modifierDiff = 0;
-    }
-    statsTag = statsTag.update({"FreeModifiers": freeModifiers + modifierDiff});
-    outData = outData.update({"Stats": statsTag});
-
-    logger.logInfo("Experience Transfer Performed." + "\nFreeModifiers: " + freeModifiers + "\nStatsTag: " + statsTag as string + "\nTinkerData: " + tinkerData as string + "\nOldLevel: " + oldLevel + "\nNewLevel: " + level + "\nLevelTagOld: " + toolLevelOld as string + "\nLevelTagNew: " + toolLevel as string);
-    
-    return ins.to.withTag(outData);
+    tD = tD.deepUpdate(L.deepUpdate({Modifiers: [{identifier: "leveling_armor",color: 16777215,level: oL,bonus_modifiers: eS,xp: xp}]},{Modifiers: APPEND}),{Modifiers: OVERWRITE});
+    tD = tD.deepUpdate({Stats: tD.Stats.deepUpdate({FreeModifiers: (aS ? tD.Stats.FreeModifiers : ins.from.tag.Stats.FreeModifiers) as int},{FreeModifiers: OVERWRITE})},{Stats: OVERWRITE});
+    return ins.to.withTag(tD);
 }, null);
 
 recipes.addShapeless("etablet_dupe", <contenttweaker:tablet_of_enlightenment>,
