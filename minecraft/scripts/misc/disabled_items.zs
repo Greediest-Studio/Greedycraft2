@@ -1489,7 +1489,8 @@ var disabledItems as IIngredient[] = [
     <randomportals:upside_down_end_portal_frame>,
     <thermalexpansion:device:9>,
     <tiths:ore_witherium>,
-    <botania:baublebox>
+    <botania:baublebox>,
+    <variegated:defiled_ground>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [

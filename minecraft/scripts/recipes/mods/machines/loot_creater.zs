@@ -381,3 +381,13 @@ createLootRecipe("aeonsteel_loot", [
     <additions:skythern_ingot> * 8,
     <additions:mortum_ingot> * 8
 ], 20, 5.0E5 as long, 0);
+
+//奖励箱
+createLootRecipe("chromasteel_loot", [
+    <journey:trophy>
+], [
+    <ftbquests:lootcrate>.withTag({type: "loot_level_1"}) * 16,
+    <ftbquests:lootcrate>.withTag({type: "loot_level_2"}) * 8,
+    <ftbquests:lootcrate>.withTag({type: "loot_level_3"}) * 4,
+    <ftbquests:lootcrate>.withTag({type: "loot_level_4"})
+], 20, 5.0E5 as long, 0);
