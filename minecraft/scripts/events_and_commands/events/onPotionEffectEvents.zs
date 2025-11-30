@@ -12,7 +12,7 @@ import crafttweaker.event.PotionEffectExpiryEvent;
 import crafttweaker.entity.IEntityLiving;
 
 events.onPotionEffectRemove(function(event as PotionEffectRemoveEvent) {
-    if (event.potionEffect.potion.name == <potion:contenttweaker:demon_decay>.name) {
+    if (!isNull(event.potionEffect) && event.potionEffect.potion.name == <potion:contenttweaker:demon_decay>.name) {
         if (!isNull(event.entity)) {
             var enemy as IEntityLiving = event.entity;
             enemy.isAIDisabled = false;
@@ -21,7 +21,7 @@ events.onPotionEffectRemove(function(event as PotionEffectRemoveEvent) {
 });
 
 events.onPotionEffectExpiry(function(event as PotionEffectExpiryEvent){
-    if (event.potionEffect.potion.name == <potion:contenttweaker:demon_decay>.name) {
+    if (!isNull(event.potionEffect) && event.potionEffect.potion.name == <potion:contenttweaker:demon_decay>.name) {
         if (!isNull(event.entity)) {
             var enemy as IEntityLiving = event.entity;
             enemy.isAIDisabled = false;
