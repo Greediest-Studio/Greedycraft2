@@ -14,6 +14,7 @@ import crafttweaker.block.IBlockState;
 import crafttweaker.world.IBlockPos;
 import crafttweaker.player.IPlayer;
 import crafttweaker.text.ITextComponent;
+import crafttweaker.entity.IEntityLiving;
 
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Player;
@@ -55,6 +56,19 @@ erebus_protection.shouldRenderHUD = false;
 erebus_protection.badEffectIn = false;
 erebus_protection.beneficial = true;
 erebus_protection.register();
+
+var demon_decay as IPotion = VanillaFactory.createPotion("demon_decay", 0x425379);
+demon_decay.shouldRender = false;
+demon_decay.shouldRenderHUD = false;
+demon_decay.badEffectIn = true;
+demon_decay.beneficial = false;
+demon_decay.performEffect = function(living , amplifier){
+    if (living instanceof IEntityLiving) {
+        var entity as IEntityLiving = living;
+        entity.isAIDisabled = true;
+    }
+};
+demon_decay.register();
 
 var blood as IPotion = VanillaFactory.createPotion("blood", 0x820000);
 blood.shouldRender = false;

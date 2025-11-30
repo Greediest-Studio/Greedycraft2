@@ -15,6 +15,7 @@ import crafttweaker.event.PlayerInteractEvent;
 import crafttweaker.data.IData;
 import crafttweaker.damage.IDamageSource;
 import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.entity.IEntityLiving;
 import crafttweaker.entity.IEntityDefinition;
 import crafttweaker.player.IPlayer;
 import crafttweaker.util.Position3f;
@@ -30,6 +31,9 @@ import crafttweaker.world.IBlockAccess;
 import crafttweaker.command.ICommand;
 import crafttweaker.item.IItemStack;
 import crafttweaker.world.IWorld;
+import crafttweaker.entity.AttributeModifier;
+import crafttweaker.entity.AttributeInstance;
+import crafttweaker.entity.Attribute;
 
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
@@ -69,11 +73,13 @@ events.onPlayerInteractEntity(function(event as PlayerInteractEntityEvent) {
         }
     }
 
-    //Spaceshock trait
+    
     if (event.target instanceof IEntityLivingBase && !event.world.isRemote()) {
         var target as IEntityLivingBase = event.target;
         if (!isNull(player.mainHandHeldItem)) {
             var item as IItemStack = player.mainHandHeldItem;
+
+            //Spaceshock trait
             if (TicLib.isTicTool(item) && TicTraitLib.hasTicTrait(item, "spaceshock") && player.getCooldown(item) <= 0.0f) {
                 if (distance2D(player.x as double, player.z as double, target.x as double, target.z as double) >= 3.5d) {
                     player.setCooldown(item, 160);
@@ -91,6 +97,20 @@ events.onPlayerInteractEntity(function(event as PlayerInteractEntityEvent) {
                     }
                 }
             }
+
+            //Soul Flag trait
+            if (TicLib.isTicTool(item) && TicTraitLib.hasTicTrait(item, "soul_flag")) {
+                if (target instanceof IEntityLiving && !isNull(item.tag.soulFlagCount)) {
+                    var count as int = item.tag.soulFlagCount as int;
+                    var sf_attribute as AttributeModifier = AttributeModifier.createModifier("generic.maxHealth", 0.03d * count as double, 2, "7f6d3a59-b3e4-4c7a-b7a8-54528a929a0e");
+                    if (!target.getAttribute("generic.maxHealth").hasModifier(sf_attribute)) {
+                        target.getAttribute("generic.maxHealth").applyModifier(sf_attribute);
+                        item.mutable().updateTag({soulFlagCount : 0 as int});
+                        player.sendChat("§4灵魂已注入！");
+                    }
+                }
+            }
+
         }
     }
 

@@ -32,6 +32,7 @@ import crafttweaker.event.EntityLivingHealEvent;
 import crafttweaker.potions.IPotion;
 import crafttweaker.potions.IPotionEffect;
 import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.entity.IEntityLiving;
 
 import mods.ctutils.utils.Math;
 import mods.contenttweaker.tconstruct.Material;
@@ -4464,12 +4465,6 @@ alcrystryTrait.onBlockHarvestDrops = function(thisTrait, tool, event) {
         }
     }
 };
-alcrystryTrait.canApplyTogetherTrait = function(thisTrait, otherTrait) {
-    if (otherTrait == "autosmelt") {
-        return false;
-    }
-    return true;
-};
 alcrystryTrait.register();
 
 val alcrystry_weakTrait = TraitBuilder.create("alcrystry_weak");
@@ -4498,12 +4493,6 @@ alcrystry_weakTrait.onBlockHarvestDrops = function(thisTrait, tool, event) {
             }
         }
     }
-};
-alcrystry_weakTrait.canApplyTogetherTrait = function(thisTrait, otherTrait) {
-    if (otherTrait == "autosmelt") {
-        return false;
-    }
-    return true;
 };
 alcrystry_weakTrait.register();
 
@@ -4776,3 +4765,134 @@ earthspiritTrait.afterHit = function(trait, tool, attacker, target, damageDealt,
     }
 };
 earthspiritTrait.register();
+
+val lifelinkTrait = TraitBuilder.create("life_link");
+lifelinkTrait.color = Color.fromHex("ffffff").getIntColor(); 
+lifelinkTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.lifelinkTrait.name");
+lifelinkTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.lifelinkTrait.desc");
+lifelinkTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (!player.world.isRemote()){    
+            if (Math.random() < 0.1f) {
+                var playerHealthPercent = player.health / player.maxHealth;
+                var enemyHealthPercent = target.health / target.maxHealth;
+                if (playerHealthPercent < enemyHealthPercent) {
+                    var newHealth = player.maxHealth * enemyHealthPercent;
+                    player.health = newHealth;
+                    return 0.0f;
+                }
+            }
+        }
+    }
+    return newDamage;
+};
+lifelinkTrait.register();
+
+val demon_decayTrait = TraitBuilder.create("demon_decay");
+demon_decayTrait.color = Color.fromHex("ffffff").getIntColor(); 
+demon_decayTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.demon_decayTrait.name");
+demon_decayTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.demon_decayTrait.desc");
+demon_decayTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (target.isPotionActive(<potion:contenttweaker:demon_decay>)) {
+            return newDamage * 1.15f;
+        }
+    }
+    return newDamage;
+};
+demon_decayTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
+    if (attacker instanceof IPlayer && target instanceof IEntityLiving) {
+        var player as IPlayer = attacker;
+        if (wasHit) {
+            if (!player.world.isRemote()) {
+                if (Math.random() < 0.05f) {
+                    if (!target.isPotionActive(<potion:contenttweaker:demon_decay>)) {
+                        target.addPotionEffect(<potion:contenttweaker:demon_decay>.makePotionEffect(100, 0, false, false));
+                    }
+                }
+            }
+        }
+    }
+};
+demon_decayTrait.register();
+
+val soul_flagTrait = TraitBuilder.create("soul_flag");
+soul_flagTrait.color = Color.fromHex("ffffff").getIntColor(); 
+soul_flagTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.soul_flagTrait.name");
+soul_flagTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.soul_flagTrait.desc");
+soul_flagTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (wasHit && !target.isAlive()) {
+            if (!isNull(tool.tag.soulFlagCount)) {
+                var count as int = tool.tag.soulFlagCount as int;
+                tool.mutable().updateTag({soulFlagCount : count + 1 as int});
+            } else {
+                tool.mutable().updateTag({soulFlagCount : 1 as int});
+            }
+        }
+    }
+};
+soul_flagTrait.onToolDamage = function(trait, tool, unmodifiedAmount, newAmount, holder) {
+    if (holder instanceof IPlayer) {
+        var player as IPlayer = holder;
+        if (!isNull(tool.tag.soulFlagCount)) {
+            var count as int = tool.tag.soulFlagCount as int;
+            return newAmount + count;
+        }
+    }
+    return newAmount;
+};
+soul_flagTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (!isNull(tool.tag.soulFlagCount)) {
+            var count as int = tool.tag.soulFlagCount as int;
+            target.addPotionEffect(<potion:contenttweaker:blood>.makePotionEffect(10 * count, 1, false, false));
+        }
+    }
+};
+soul_flagTrait.extraInfo = function(trait, tool, data) {
+    var result as string[] = [];
+    if (!isNull(tool.tag.soulFlagCount)) {
+        var count as int = tool.tag.soulFlagCount as int;
+        result += "魂幡收集: §a" + count as string;
+    } else {
+        result += "魂幡收集: §a0";
+    }
+    return result;
+};
+soul_flagTrait.register();
+
+
+val order_attackMap as float[int] = {
+    1 : 0.02f,
+    2 : 0.05f,
+    3 : 0.1f,
+    4 : 0.2f,
+    5 : 0.35f,
+    6 : 0.5f,
+    0 : 0.0f
+};
+val order_attackTrait = TraitBuilder.create("order_attack");
+order_attackTrait.color = Color.fromHex("ffffff").getIntColor(); 
+order_attackTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.order_attackTrait.name");
+order_attackTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.order_attackTrait.desc");
+order_attackTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (!isNull(tool.tag.orderCount)) {
+            var count as int = tool.tag.orderCount as int;
+            var modifier as float = order_attackMap[count % 7] as float;
+            tool.mutable().updateTag({orderCount : (count + 1) as int});
+            return newDamage * (0.95f + modifier) as float;
+        } else {
+            tool.mutable().updateTag({orderCount : 1 as int});
+            return newDamage * 0.95f;
+        }
+    }
+    return newDamage;
+};
+order_attackTrait.register();

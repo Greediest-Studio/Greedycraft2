@@ -103,3 +103,13 @@
 <item:moretcon:oregravitonium>.asBlock().definition.setHarvestLevel("pickaxe", 13);
 
 <item:moretcon:oregravitoniumdense>.asBlock().definition.setHarvestLevel("pickaxe", 13);
+
+<item:erebus:ore_jade>.asBlock().definition.setHarvestLevel("pickaxe", 13);
+
+<item:erebus:ore_fossil>.asBlock().definition.setHarvestLevel("pickaxe", 13);
+
+<item:erebus:ore_gneiss>.asBlock().definition.setHarvestLevel("pickaxe", 13);
+
+<item:erebus:ore_petrified_wood>.asBlock().definition.setHarvestLevel("pickaxe", 13);
+
+<item:erebus:ore_temple>.asBlock().definition.setHarvestLevel("pickaxe", 13);

@@ -3840,3 +3840,75 @@ earthspiritTrait.onHurt = function(trait, armor, player, source, damage, newDama
     return newDamage;
 };
 earthspiritTrait.register();
+
+val lifelinkTrait = ArmorTraitBuilder.create("life_link");
+lifelinkTrait.color = Color.fromHex("ffffff").getIntColor();
+lifelinkTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.lifelinkTrait.name");
+lifelinkTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.lifelinkTrait.desc");
+lifelinkTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !player.world.isRemote()) {
+        if (!isNull(source.getTrueSource()) && source.getTrueSource() instanceof IEntityLivingBase) {
+            var attacker as IEntityLivingBase = source.getTrueSource();
+            if (Math.random() < 0.25f) {
+                var playerHealthPercent = player.health / player.maxHealth;
+                var enemyHealthPercent = attacker.health / attacker.maxHealth;
+                if (playerHealthPercent < enemyHealthPercent) {
+                    var newHealth = player.maxHealth * enemyHealthPercent;
+                    player.health = newHealth;
+                    return 0.0f;
+                }
+            }
+        }
+    }
+    return newDamage;
+};
+lifelinkTrait.register();
+
+val demon_decayTrait = ArmorTraitBuilder.create("demon_decay");
+demon_decayTrait.color = Color.fromHex("ffffff").getIntColor();
+demon_decayTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.demon_decayTrait.name");
+demon_decayTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.demon_decayTrait.desc");
+demon_decayTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !player.world.isRemote()) {
+        if (!isNull(source.getTrueSource()) && source.getTrueSource() instanceof IEntityLivingBase) {
+            var attacker as IEntityLivingBase = source.getTrueSource();
+            if (Math.random() < 0.2f) {
+                if (!attacker.isPotionActive(<potion:contenttweaker:demon_decay>)) {
+                    attacker.addPotionEffect(<potion:contenttweaker:demon_decay>.makePotionEffect(100, 0, false, false));
+                }
+                return newDamage * 0.5f;
+            }
+        }
+    }
+    return newDamage;
+};
+demon_decayTrait.register();
+
+val order_defenseMap as float[int] = {
+    1 : 0.02f,
+    2 : 0.05f,
+    3 : 0.1f,
+    4 : 0.2f,
+    5 : 0.35f,
+    6 : 0.5f,
+    0 : 0.0f
+};
+val order_defenseTrait = ArmorTraitBuilder.create("order_defense");
+order_defenseTrait.color = Color.fromHex("ffffff").getIntColor();
+order_defenseTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.order_defenseTrait.name");
+order_defenseTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.order_defenseTrait.desc");
+order_defenseTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        if (!isNull(armor.tag.orderCount)) {
+            var count as int = armor.tag.orderCount as int;
+            var modifier as float = order_defenseMap[count % 7] as float;
+            armor.mutable().updateTag({orderCount : (count + 1) as int});
+            return newDamage * (1.05f - modifier) as float;
+        } else {
+            armor.mutable().updateTag({orderCount : 1 as int});
+            return newDamage * 1.05f;
+        }
+    }
+    return newDamage;
+};
+order_defenseTrait.register();

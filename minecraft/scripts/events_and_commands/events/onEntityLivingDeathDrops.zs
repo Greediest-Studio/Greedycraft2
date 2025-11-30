@@ -20,6 +20,11 @@ events.onEntityLivingDeathDrops(function (event as EntityLivingDeathDropsEvent) 
                 }
 
             }
+
+            // Demon Decay Drop
+            if (entity.isPotionActive(<potion:contenttweaker:demon_decay>)) {
+                event.drops = [];
+            }
         }
     }
 });

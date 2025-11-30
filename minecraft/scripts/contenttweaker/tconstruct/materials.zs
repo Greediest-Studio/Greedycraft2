@@ -864,6 +864,23 @@ bedrock.addBowMaterialStats(getDrawSpeed(16) as float, 8, 150);
 bedrock.addProjectileMaterialStats();
 bedrock.register();
 
+val order_stone = ExtendedMaterialBuilder.create("order_stone");
+order_stone.color = Color.fromHex("bfbdbd").getIntColor(); 
+order_stone.craftable = true;
+order_stone.castable = false;
+order_stone.representativeItem = <item:gct_ores:order_stone>;
+order_stone.addItem(<ore:stoneOrdered>);
+order_stone.localizedName = game.localize("greedycraft.tconstruct.material.order_stone.name");
+order_stone.addHeadMaterialStats(10400, 32, 68.5, 12);
+order_stone.addHandleMaterialStats(3.6, 1200);
+order_stone.addExtraMaterialStats(1200);
+order_stone.addBowMaterialStats(getDrawSpeed(12.5) as float, 6.5, 175);
+order_stone.addProjectileMaterialStats();
+order_stone.addCoreMaterialStats(12000, 72.8);
+order_stone.addPlatesMaterialStats(32, 688, 8);
+order_stone.addTrimMaterialStats(688);
+order_stone.register();
+
 val aeroite = MaterialBuilder.create("aeroite");
 aeroite.color = Color.fromHex("00e5ff").getIntColor(); 
 aeroite.craftable = false;
@@ -2713,3 +2730,19 @@ zirconium.addExtraMaterialStats(1850);//耐久
 zirconium.addBowMaterialStats(getDrawSpeed(0.7) as float, 1.1, 25);//速度 射程 伤害
 zirconium.register();
 
+val zomril = ExtendedMaterialBuilder.create("zomril");
+zomril.color = Color.fromHex("48464f").getIntColor();
+zomril.craftable = false;
+zomril.castable = true;
+zomril.representativeItem = <item:additions:zomril_ingot>;
+zomril.addItem(<item:additions:zomril_ingot>);
+zomril.liquid = <liquid:zomril>;
+zomril.localizedName = game.localize("greedycraft.tconstruct.material.zomril.name");
+zomril.addHeadMaterialStats(9999, 37.5, 181, 13);
+zomril.addHandleMaterialStats(3.1, 2222);
+zomril.addExtraMaterialStats(3333);
+zomril.addBowMaterialStats(getDrawSpeed(1.6) as float, 2.3, 223);
+zomril.addCoreMaterialStats(1820, 189.5);
+zomril.addPlatesMaterialStats(21.6, 850, 19);
+zomril.addTrimMaterialStats(912);
+zomril.register();

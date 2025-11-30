@@ -83,6 +83,7 @@ GameStagesUtil.stageNoviceEngineer.addOreReplacement(<enderio:block_simple_craft
 GameStagesUtil.stageNoviceEngineer.addOreReplacement(<enderio:block_simple_furnace>, <additions:unknown_block>, false);
 GameStagesUtil.stageNoviceEngineer.addOreReplacement(<enderio:block_simple_sag_mill>, <additions:unknown_block>, false);
 GameStagesUtil.stageNoviceEngineer.addOreReplacement(<enderio:block_simple_stirling_generator>, <additions:unknown_block>, false);
+GameStagesUtil.stageNoviceEngineer.addOreReplacement(<tiths:ore_broken_bedrock>, <minecraft:bedrock>, false);
 
 GameStagesUtil.stageSkilledEngineer.addOreReplacement(<mekanism:oreblock>, <minecraft:stone>, false);
 GameStagesUtil.stageSkilledEngineer.addOreReplacement(<netherendingores:ore_end_modded_1:11>, <minecraft:end_stone>, false);

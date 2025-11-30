@@ -42,6 +42,7 @@ Pulverizer.addRecipe(<additions:dragonbone_dust> * 36, <iceandfire:dragon_bone_w
 Pulverizer.addRecipe(<additions:dragonbone_dust> * 18, <iceandfire:dragon_skull>, 4500);
 Pulverizer.addRecipe(<additions:dragonbone_dust> * 18, <iceandfire:dragon_skull:1>, 4500);
 Pulverizer.addRecipe(<additions:dragonbone_dust> * 18, <iceandfire:dragon_skull:2>, 4500);
+Pulverizer.addRecipe(<enderio:item_material:20> * 12, <tiths:broken_bedrock>, 102400);
 
 InductionSmelter.addRecipe(<additions:glowing_signalum_ingot>, <additions:glowing_signalum_dust>, <minecraft:sand>, 4000);
 InductionSmelter.addRecipe(<minecraft:dye:15>, <additions:cytosinite_ingot>, <mekanism:otherdust>, 1000000, <additions:uracilite_ingot>, 2);

@@ -827,11 +827,6 @@ GameStagesUtil.stageOrder.addIngredients([
     <ore:dustFinallium>,
     <ore:nuggetFinallium>,
     <ore:plateFinallium>,
-    <additions:zomril_ingot>,
-    <ore:blockZomril>,
-    <ore:nuggetZomril>,
-    <ore:dustZomril>,
-    <ore:plateZomril>,
     <contenttweaker:ordered_energy_core>,
     <gctcore:ordered_flux_capacitor>,
     <gctcore:ordered_flux_capacitor>.withTag({EnergyL: 4096000000 as long})
@@ -1088,7 +1083,9 @@ GameStagesUtil.stageNoviceEngineer.addIngredients([
     <ore:ingotGodslime>,
     <ore:nuggetGodslime>,
     <ore:blockGodslime>,
-    <ore:dustGodslime>
+    <ore:dustGodslime>,
+    <tiths:ore_broken_bedrock>,
+    <tiths:broken_bedrock>
 ], true);
 
 GameStagesUtil.stageHardmode.addIngredients([
@@ -2293,7 +2290,12 @@ GameStagesUtil.stageFinal.addIngredients([
     <moretcon:itemvalasiumsponge:2>,
     <moretcon:itemvalasiumsponge:3>,
     <moretcon:itemvalasiumsponge:4>,
-    <moretcon:itemvalasiumsponge:5>
+    <moretcon:itemvalasiumsponge:5>,
+    <additions:zomril_ingot>,
+    <ore:blockZomril>,
+    <ore:nuggetZomril>,
+    <ore:dustZomril>,
+    <ore:plateZomril>
 ], true);
 
 GameStagesUtil.stageDeepDream.addIngredients([
