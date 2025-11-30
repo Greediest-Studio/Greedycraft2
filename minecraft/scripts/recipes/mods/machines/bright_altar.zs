@@ -34,7 +34,15 @@ MMEvents.onMachinePreTick("bright_altar", function(event as MachineTickEvent) {
     var x as int = event.controller.pos.x;
     var y as int = event.controller.pos.y;
     var z as int = event.controller.pos.z;
-    if (!event.controller.world.isRemote()) {
+    val d as IData = event.controller.customData;
+    if (!event.controller.world.isRemote() && event.controller.world.getWorldTime() % 100 == 0) {
+        if (event.controller.world.getPlayers().length != 0) {
+            event.controller.customData = d.update({playParticle: 1 as byte});
+        } else {
+            event.controller.customData = d.update({playParticle: 0 as byte});
+        }
+    }
+    if (!event.controller.world.isRemote() && !isNull(d.playParticle) && d.playParticle == 1 as byte) {
         server.commandManager.executeCommandSilent(server, "particleex tickpolarparameter endRod " ~ x as string ~ " " ~ y as string ~ " " ~ z as string ~ " 0 0.8 1 1 240 0 0 0 -10 10 s1,s2,dis=t*100,t*PI/200,t%2+10 0.1 10 20 vy=0.05");
     }
 });
