@@ -2230,6 +2230,27 @@
                 "restriction": "blacklist",
                 "value": [1]
             }
+        },
+        "root": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "tiths:ore_tree_root",
+                    "weight": 100
+                }],
+                "material": "minecraft:log",
+                "cluster-size": 1
+            },
+            "cluster-count": 64,
+            "min-height": 1,
+            "max-height": 50,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [0]
+            }
         }
     }
 }
