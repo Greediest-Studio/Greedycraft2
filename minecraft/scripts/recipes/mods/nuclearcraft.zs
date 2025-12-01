@@ -150,7 +150,7 @@ Melter.addRecipe(<gct_mobs:resonated_scrap>, <liquid:resonant_debris> * 160);
 Melter.addRecipe(<gct_mobs:gravity_debris>, <liquid:gravity_debris> * 320);
 Melter.addRecipe(<gct_mobs:gravity_scrap>, <liquid:gravity_debris> * 160);
 Melter.addRecipe(<tcomplement:materials:1>, <liquid:scorched> * 144);
-Melter.addRecipe(<ore:itemSilicon>, <liquid:silicon> * 36);
+Melter.addRecipe(<ore:itemSilicon>, <liquid:silicon> * 144);
 Melter.addRecipe(<twilightforest:mazebreaker_pickaxe>, <liquid:fracturite> * 432);
 Melter.addRecipe(<ore:ingotArsenic>, <liquid:arsenic> * 144);
 Melter.addRecipe(<ore:dustArsenic>, <liquid:arsenic> * 144);

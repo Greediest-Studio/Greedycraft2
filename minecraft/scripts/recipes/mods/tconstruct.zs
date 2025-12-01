@@ -549,7 +549,7 @@ Melting.addRecipe(<liquid:mercury> * VOLUME_INGOT, <ore:dustMercury>, 300);
 Melting.addRecipe(<liquid:mercury> * VOLUME_INGOT, <ore:plateMercury>, 300);
 Melting.addRecipe(<liquid:mercury> * 72, <ore:rodMercury>, 280);
 Melting.addRecipe(<liquid:mercury> * (VOLUME_INGOT * 4), <ore:gearMercury>, 320);
-Melting.addRecipe(<liquid:silicon> * 36, <ore:itemSilicon>, 1280);
+Melting.addRecipe(<liquid:silicon> * VOLUME_INGOT, <ore:itemSilicon>, 1280);
 Melting.addRecipe(<liquid:decurrium> * VOLUME_NUGGET, <ore:nuggetDecurrium>, 450);
 Melting.addRecipe(<liquid:decurrium> * VOLUME_INGOT, <ore:ingotDecurrium>, 600);
 Melting.addRecipe(<liquid:decurrium> * VOLUME_BLOCK, <ore:blockDecurrium>, 850);

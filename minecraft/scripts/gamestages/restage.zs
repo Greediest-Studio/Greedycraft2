@@ -61,7 +61,8 @@ GameStagesUtil.removeItemStages([
     <extendedcrafting:material:37>,
     <extendedcrafting:storage:5>,
     <nuclearcraft:fission_dust:6>,
-    <ore:nuggetCopper>
+    <ore:nuggetCopper>,
+    <ore:dustQuartz>
 ] as IIngredient[]);
 
 GameStagesUtil.restageItems("wielder_of_infinity", [
@@ -230,4 +231,8 @@ GameStagesUtil.restageItems("epic_engineer", [
 ] as IIngredient[]);
 GameStagesUtil.restageItems("skilled_engineer", [
     <nuclearcraft:alloy:9>
+] as IIngredient[]);
+GameStagesUtil.restageItems("noob_engineer", [
+    <ore:itemSilicon>,
+    <ore:dustQuartz>
 ] as IIngredient[]);
