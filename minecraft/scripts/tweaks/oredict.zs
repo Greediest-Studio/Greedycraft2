@@ -63,6 +63,26 @@ import scripts.util.oredict as OredictUtil;
 <ore:dustMortum>.remove(<divinerpg:mortum_dust>);
 <ore:oreIridium>.remove(<journey:iridiumore>);
 <ore:blockIridium>.remove(<journey:iridiumblock>);
+<ore:oreMoonstone>.remove(<tiths:ore_moon_stone>);
+<ore:gem>.remove(<tiths:brume_jade>);
+<ore:gem>.remove(<tiths:cordierite>);
+<ore:gem>.remove(<tiths:lizanite>);
+<ore:gem>.remove(<tiths:moon_stone>);
+<ore:gem>.remove(<tiths:opal>);
+<ore:gem>.remove(<tiths:phasing_gem>);
+<ore:gem>.remove(<tiths:prehnite>);
+<ore:gem>.remove(<tiths:redins>);
+<ore:gem>.remove(<tiths:spinel>);
+<ore:gem>.remove(<tiths:sun_stone>);
+<ore:gem>.remove(<tiths:topaz>);
+<ore:jade>.remove(<tiths:brume_jade>);
+<ore:cordierite>.remove(<tiths:cordierite>);
+<ore:opal>.remove(<tiths:opal>);
+<ore:prehnite>.remove(<tiths:prehnite>);
+<ore:spinel>.remove(<tiths:spinel>);
+<ore:sunstone>.remove(<tiths:sun_stone>);
+<ore:moonstone>.remove(<tiths:moon_stone>);
+<ore:topaz>.remove(<tiths:topaz>);
 
 <ore:ingotCthulhurite>.add(<gct_mobs:cthulhurite_ingot>);
 <ore:starlight>.add(<journey:sapphire>);
@@ -1254,7 +1274,10 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:capacitorSilver> : [<enderio:item_capacitor_silver>],
     <ore:capacitorEnergeticSilver> : [<enderio:item_capacitor_energetic_silver>],
     <ore:capacitorVivid> : [<enderio:item_capacitor_vivid>],
-    <ore:capacitorInfinity> : [<avaritiaio:infinitecapacitor>]
+    <ore:capacitorInfinity> : [<avaritiaio:infinitecapacitor>],
+    <ore:gemMoonstoneTiths> : [<tiths:moon_stone>],
+    <ore:blockMoonstoneTiths> : [<tiths:block_moon_stone>],
+    <ore:oreMoonstoneTiths> : [<tiths:ore_moon_stone>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {
