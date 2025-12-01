@@ -2296,7 +2296,7 @@ GameStagesUtil.stageFinal.addIngredients([
     <ore:nuggetZomril>,
     <ore:dustZomril>,
     <ore:plateZomril>
-], true);
+], false);
 
 GameStagesUtil.stageDeepDream.addIngredients([
     <contenttweaker:malevolent_fruit>,
