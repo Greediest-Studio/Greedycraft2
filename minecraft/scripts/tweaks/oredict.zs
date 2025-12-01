@@ -1157,7 +1157,7 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:scaleDragonLightning> : [
         <iceandfire:dragonscales_electric>,
         <iceandfire:dragonscales_black>,
-        <iceandfire:dragonscales_sapphire>,
+        <iceandfire:dragonscales_amythest>,
         <iceandfire:dragonscales_copper>
     ],
     <ore:button> : [<minecraft:stone_button>],
