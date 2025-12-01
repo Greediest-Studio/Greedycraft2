@@ -50,13 +50,6 @@ events.onEntityLivingUpdate(function(event as EntityLivingUpdateEvent) {
         }
     }
 
-    // Kill Darkness Dragon
-    if (!isNull(entity.definition)) {
-        if (entity.definition.id == "ageofminecraft:enderdragonhelpful") {
-            entity.world.removeEntity(entity);
-        }
-    }
-
     // Extra Skills of Fortress Boss
     if (!isNull(entity.definition)) {
         if (entity.definition.id == "thebetweenlands:fortress_boss") {
