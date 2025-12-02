@@ -101,7 +101,7 @@ MMEvents.onControllerGUIRender("auto_soul_forge", function(event as ControllerGU
 
 RecipeBuilder.newBuilder("will_absorption", "auto_soul_forge", 10)
     .setParallelized(false)
-    .addWillInput("DEFAULT", 1)
+    .addWillInput("DEFAULT", 1, 1, 2147483647)
     .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
         var ctrl as IMachineController = event.controller;
         var parallel as int = event.activeRecipe.parallelism;
