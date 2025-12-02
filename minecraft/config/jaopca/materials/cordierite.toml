@@ -14,3 +14,12 @@
 	hasEffect = false
 	#Is the storage block of this material small (2x2).
 	isSmallStorageBlock = false
+[molten]
+	#The temperature of this molten fluid.
+	temperature = 1000
+[enderio]
+	#The default byproduct material to output in Ender IO's sagmill.
+	byproduct = "minecraft:cobblestone"
+[mekanism]
+	#The default base to use in Mekanism's Combiner to recreate ores.
+	oreBase = "minecraft:cobblestone"
