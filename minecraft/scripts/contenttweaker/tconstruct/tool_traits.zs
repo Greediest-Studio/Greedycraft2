@@ -35,8 +35,6 @@ import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.entity.IEntityLiving;
 
 import mods.ctutils.utils.Math;
-import mods.contenttweaker.tconstruct.Material;
-import mods.contenttweaker.tconstruct.MaterialBuilder;
 import mods.contenttweaker.Fluid;
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Color;
@@ -57,11 +55,18 @@ import mods.modularmachinery.IMachineController;
 import mods.randomtweaker.botania.IManaItemHandler;
 
 import native.slimeknights.tconstruct.library.utils.ToolHelper;
+import native.slimeknights.tconstruct.library.TinkerRegistry;
+import native.slimeknights.tconstruct.library.materials.Material;
+import native.slimeknights.tconstruct.library.traits.ITrait;
+import native.slimeknights.tconstruct.library.utils.TinkerUtil;
+import native.slimeknights.tconstruct.library.utils.TagUtil;
+
 import native.thebetweenlands.common.world.storage.BetweenlandsWorldStorage;
 import native.thebetweenlands.common.world.event.EventRift;
 import native.thebetweenlands.api.capability.IDecayCapability;
 import native.thebetweenlands.common.capability.decay.DecayStats;
 import native.thebetweenlands.common.registries.CapabilityRegistry;
+
 import native.com.meteor.extrabotany.common.helper.SubspaceHelper;
 
 $expand IItemStack$hasTicTrait(traitid as string) as bool {
@@ -3924,7 +3929,14 @@ wavecrestTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool
 wavecrestTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer) {
         var player as IPlayer = attacker;
-        var traits as string[] = CotTicTraitLib.getTicTrait(tool);
+        var traits as string[] = [];
+        var materialList = TinkerUtil.getMaterialsFromTagList(TagUtil.getBaseMaterialsTagList(tool.native));
+        for material in materialList {
+            for trait in material.getAllTraitsForStats("head") {
+                traits += trait.getIdentifier();
+            }
+        }
+        if (traits.length == 0) return newDamage;
         var maxCounter as int = 0;
         for id in traits {
             var counter as int = 0;
@@ -4930,3 +4942,31 @@ imitationTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelect
     }
 };
 imitationTrait.register();
+
+val stellar_fusionTrait = TraitBuilder.create("stellar_fusion");
+stellar_fusionTrait.color = Color.fromHex("ffffff").getIntColor(); 
+stellar_fusionTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.stellar_fusionTrait.name");
+stellar_fusionTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.stellar_fusionTrait.desc");
+stellar_fusionTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        var traits as string[] = [];
+        var materialList = TinkerUtil.getMaterialsFromTagList(TagUtil.getBaseMaterialsTagList(tool.native));
+        for material in materialList {
+            for trait in material.getAllTraitsForStats("head") {
+                traits += trait.getIdentifier();
+            }
+        }
+        var counter as int = 0;
+        for str in traits {
+            if (str == "stellar_fusion") {
+                counter += 1;
+            }
+        }
+        if (counter >= 4) {
+            return newDamage * (4.5f + Math.random());
+        }
+    }
+    return newDamage;
+};
+stellar_fusionTrait.register();

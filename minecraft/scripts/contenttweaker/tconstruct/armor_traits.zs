@@ -3965,3 +3965,35 @@ imitationTrait.onArmorTick = function(trait, armor, world, player) {
     }
 };
 imitationTrait.register();
+
+val star_orbitTrait = ArmorTraitBuilder.create("star_orbit");
+star_orbitTrait.color = Color.fromHex("ffffff").getIntColor();
+star_orbitTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.star_orbitTrait.name");
+star_orbitTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.star_orbitTrait.desc");
+star_orbitTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !isNull(source.getTrueSource())) {
+        var entity as IEntity = source.getTrueSource();
+        if (!isNull(armor.tag.starOrbit)) {
+            var target1 as int = armor.tag.starOrbit.target1 as int;
+            var target2 as int = armor.tag.starOrbit.target2 as int;
+            if (target1 * target2 != 0) {
+                if (entity.id == target1 || entity.id == target2) {
+                    return newDamage * 0.35f;
+                } else {
+                    armor.mutable().updateTag({starOrbit : {target1 : entity.id as int, target2 : 0 as int}});
+                    return newDamage * 1.2f;
+                }
+            } else if (target1 != 0 && target2 == 0) {
+                if (entity.id != target1) {
+                    armor.mutable().updateTag({starOrbit : {target2 : entity.id as int}});
+                }
+            } else if (target1 == 0 && target2 == 0) {
+                armor.mutable().updateTag({starOrbit : {target1 : entity.id as int}});
+            }
+        } else {
+            armor.mutable().updateTag({starOrbit : {target1 : entity.id as int, target2 : 0 as int}});
+        }
+    }
+    return newDamage;
+};
+star_orbitTrait.register();
