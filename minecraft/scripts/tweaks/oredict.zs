@@ -734,7 +734,7 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:ingotElementium> : [<ore:ingotElvenElementium>],
     <ore:nuggetElementium> : [<ore:nuggetElvenElementium>],
     <ore:blockElementium> : [<botania:storage:2>],
-    <ore:blockCalciumCarbonate> : [<ore:stoneLimestone>, <ore:stoneMarble>],
+    <ore:blockCalciumCarbonate> : [<ore:stoneLimestone>, <ore:stoneMarble>, <oe:coquina>, ],
     <ore:gemManaDiamond> : [<ore:manaDiamond>],
     <ore:gemManaLapis> : [<botanicadds:mana_lapis>],
     <ore:blockManaLapis> : [<botanicadds:mana_lapis_block>],

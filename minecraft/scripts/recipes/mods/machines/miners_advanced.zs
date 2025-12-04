@@ -164,6 +164,7 @@ advOverworld.addItemUpgradeOutput(<journey:shadiumore>, DURASTEEL, 0.008);
 advOverworld.addItemUpgradeOutput(<journey:luniumore>, DURASTEEL, 0.008);
 advOverworld.addItemUpgradeOutput(<taiga:meteorite_block>, DURASTEEL, 0.006);
 advOverworld.addItemUpgradeOutput(<taiga:meteoritecobble_block>, DURASTEEL, 0.01);
+advOverworld.addItemUpgradeOutput(<tiths:ore_broken_bedrock>, DURASTEEL, 0.015);
 //恒钢级
 advOverworld.addItemUpgradeOutput(<taiga:karmesine_ore>, AEONSTEEL, 0.02);
 advOverworld.addItemUpgradeOutput(<taiga:jauxum_ore>, AEONSTEEL, 0.02);

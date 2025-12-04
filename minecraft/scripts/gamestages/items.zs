@@ -1327,7 +1327,10 @@ GameStagesUtil.stageHardmode.addIngredients([
     <tiths:ingot_inert_witherium>,
     <tiths:ore_inert_witherium>,
     <tiths:block_inert_witherium>,
-    <tiths:nugget_inert_witherium>
+    <tiths:nugget_inert_witherium>,
+    <tiths:ingot_solita>,
+    <tiths:block_solita>,
+    <tiths:nugget_solita>
 ], true);
 
 GameStagesUtil.stageInfinity.addIngredients([

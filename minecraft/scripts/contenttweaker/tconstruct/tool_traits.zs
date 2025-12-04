@@ -3005,9 +3005,6 @@ val ethernalTrait = TraitBuilder.create("ethernal");
 ethernalTrait.color = Color.fromHex("ffffff").getIntColor(); 
 ethernalTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.ethernalTrait.name");
 ethernalTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.ethernalTrait.desc");
-ethernalTrait.onToolDamage = function(trait, tool, unmodifiedAmount, newAmount, holder) {
-    return 0;
-};
 ethernalTrait.register();
 
 val fascicledTrait = TraitBuilder.create("fascicled");
@@ -3585,6 +3582,9 @@ leveling_durabilityTrait.localizedName = game.localize("greedycraft.tconstruct.t
 leveling_durabilityTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.leveling_durabilityTrait.desc");
 leveling_durabilityTrait.hidden = true;
 leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, newAmount, holder) {
+    if (unmodifiedAmount == 0) {
+        return 0;
+    }
     if (holder instanceof IPlayer && !holder.world.isRemote()) {
 
         var player as IPlayer = holder;
@@ -3603,6 +3603,20 @@ leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, 
                 return 0;
             }
             return needDamage;
+        }
+
+        if (CotTicTraitLib.hasTicTrait(tool,"imitation")) {
+            if (!isNull(tool.tag.imitationCount)) {
+                var count as int = tool.tag.imitationCount as int;
+                if (count > 0) {
+                    tool.mutable().updateTag({imitationCount : count - 1});
+                    return 0;
+                }
+            }
+        }
+
+        if (CotTicTraitLib.hasTicTrait(tool,"ethernal")) {
+            return 0;
         }
 
         if (needDamage > (tool.maxDamage - tool.damage + extradamage)) {
@@ -4896,3 +4910,23 @@ order_attackTrait.calcDamage = function(trait, tool, attacker, target, originalD
     return newDamage;
 };
 order_attackTrait.register();
+
+val imitationTrait = TraitBuilder.create("imitation");
+imitationTrait.color = Color.fromHex("ffffff").getIntColor(); 
+imitationTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.imitationTrait.name");
+imitationTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.imitationTrait.desc");
+imitationTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    if (owner instanceof IPlayer) {
+        var player as IPlayer = owner;
+        if (!isNull(tool.tag.imitationCount)) {
+            var count as int = tool.tag.imitationCount as int;
+            if (count >= 9) count = 9;
+            if (world.time % 200 == 0) {
+                tool.mutable().updateTag({imitationCount : (count + 1) as int});
+            }
+        } else {
+            tool.mutable().updateTag({imitationCount : 10 as int});
+        }
+    }
+};
+imitationTrait.register();

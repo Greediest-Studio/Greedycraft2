@@ -2046,9 +2046,6 @@ val ethernalTrait = ArmorTraitBuilder.create("ethernal");
 ethernalTrait.color = Color.fromHex("ffffff").getIntColor();
 ethernalTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.ethernalTrait.name");
 ethernalTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.ethernalTrait.desc");
-ethernalTrait.onArmorDamaged = function(trait, armor, damageSource, amount, newAmount, player, index) {
-    return 0;
-};
 ethernalTrait.register();
 
 val fascicledTrait = ArmorTraitBuilder.create("fascicled");
@@ -2672,7 +2669,9 @@ leveling_durabilityTrait.localizedName = game.localize("greedycraft.tconstruct.a
 leveling_durabilityTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.leveling_durabilityTrait.desc");
 leveling_durabilityTrait.hidden = true;
 leveling_durabilityTrait.onArmorDamaged = function(trait, armor, damageSource, amount, newAmount, player, index) {
-
+    if (amount == 0) {
+        return 0;
+    }
     if (!isNull(player) && !player.world.isRemote()) {
 
         var extradamage as int = 0;
@@ -2687,11 +2686,25 @@ leveling_durabilityTrait.onArmorDamaged = function(trait, armor, damageSource, a
         var needDamage = 1 + Math.ceil(pow((difficulty / 256), 1.5));
         needDamage += amount;
 
-        if (CotTicTraitLib.hasTicTrait(armor,"bedrock")) {
+        if (CotTicTraitLib.hasTicTrait(armor,"bedrock_armor")) {
             if (Math.random() < 0.85f) {
                 return 0;
             }
             return needDamage;
+        }
+
+        if (CotTicTraitLib.hasTicTrait(armor,"imitation_armor")) {
+            if (!isNull(armor.tag.imitationCount)) {
+                var count as int = armor.tag.imitationCount as int;
+                if (count > 0) {
+                    armor.mutable().updateTag({imitationCount : (count - 1)});
+                    return 0;
+                }
+            }
+        }
+
+        if (CotTicTraitLib.hasTicTrait(armor,"ethernal_armor")) {
+            return 0;
         }
 
         if (needDamage > (armor.maxDamage - armor.damage + extradamage)) {
@@ -3912,3 +3925,43 @@ order_defenseTrait.onHurt = function(trait, armor, player, source, damage, newDa
     return newDamage;
 };
 order_defenseTrait.register();
+
+val erodingTrait = ArmorTraitBuilder.create("eroding");
+erodingTrait.color = Color.fromHex("ffffff").getIntColor();
+erodingTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.erodingTrait.name");
+erodingTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.erodingTrait.desc");
+erodingTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !isNull(source.getTrueSource())) {
+        if (source.getTrueSource() instanceof IEntityLivingBase) {
+            var entity as IEntityLivingBase = source.getTrueSource();
+            var level as int = -1;
+            if (entity.isPotionActive(<potion:tiths:eroded>)) {
+                level = entity.getActivePotionEffect(<potion:tiths:eroded>).amplifier;
+            }
+            if (level >= 12) level = 12;
+            entity.addPotionEffect(<potion:tiths:eroded>.makePotionEffect(100, level + 3 as int, true, true));
+            return newDamage * 0.98f;
+        }
+    }
+    return newDamage;
+};
+erodingTrait.register();
+
+val imitationTrait = ArmorTraitBuilder.create("imitation");
+imitationTrait.color = Color.fromHex("ffffff").getIntColor();
+imitationTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.imitationTrait.name");
+imitationTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.imitationTrait.desc");
+imitationTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        if (!isNull((armor.tag.imitationCount))) {
+            var count as int = armor.tag.imitationCount as int;
+            if (count > 3) count = 3;
+            if (world.time % 500 == 0) {
+                armor.mutable().updateTag({imitationCount : (count + 1) as int});
+            }
+        } else {
+            armor.mutable().updateTag({imitationCount : 4 as int});
+        }
+    }
+};
+imitationTrait.register();
