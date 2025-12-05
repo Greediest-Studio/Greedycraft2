@@ -1,0 +1,93 @@
+{
+	"minecraft:farmer": {
+		"farmer": [
+			"minecraft:bread",
+			"minecraft:cookie",
+			"minecraft:pumpkin_pie"
+		],
+		"fisherman": [
+			"minecraft:fish",
+			"minecraft:fish:1"
+		],
+		"shepherd": [
+			"minecraft:wool",
+			"minecraft:wool:1",
+			"minecraft:wool:2",
+			"minecraft:wool:3",
+			"minecraft:wool:4",
+			"minecraft:wool:5",
+			"minecraft:wool:6",
+			"minecraft:wool:7",
+			"minecraft:wool:8",
+			"minecraft:wool:9",
+			"minecraft:wool:10",
+			"minecraft:wool:11",
+			"minecraft:wool:12",
+			"minecraft:wool:13",
+			"minecraft:wool:14",
+			"minecraft:wool:15"
+		],
+		"fletcher": [
+			"minecraft:arrow",
+			"minecraft:tipped_arrow{Potion: \"minecraft:fire_resistance\"}",
+			"minecraft:tipped_arrow{Potion: \"minecraft:harming\"}",
+			"minecraft:tipped_arrow{Potion: \"minecraft:healing\"}",
+			"minecraft:tipped_arrow{Potion: \"minecraft:invisibility\"}",
+			"minecraft:tipped_arrow{Potion: \"minecraft:leaping\"}",
+			"minecraft:tipped_arrow{Potion: \"minecraft:night_vision\"}",
+			"minecraft:tipped_arrow{Potion: \"minecraft:poison\"}",
+			"minecraft:tipped_arrow{Potion: \"minecraft:regeneration\"}",
+			"minecraft:tipped_arrow{Potion: \"minecraft:slowness\"}",
+			"minecraft:tipped_arrow{Potion: \"minecraft:strength\"}",
+			"minecraft:tipped_arrow{Potion: \"minecraft:swiftness\"}",
+			"minecraft:tipped_arrow{Potion: \"minecraft:water_breathing\"}",
+			"minecraft:tipped_arrow{Potion: \"minecraft:weakness\"}"
+		]
+	},
+	"minecraft:librarian": {
+		"librarian": [
+			"minecraft:book"
+		],
+		"cartographer": [
+			"minecraft:map",
+			"minecraft:paper"
+		]
+	},
+	"minecraft:priest": {
+		"cleric": [
+			"minecraft:dye:4",
+			"minecraft:redstone"
+		]
+	},
+	"minecraft:smith": {
+		"armor": [
+			"minecraft:chainmail_helmet",
+			"minecraft:chainmail_chestplate",
+			"minecraft:chainmail_leggings",
+			"minecraft:chainmail_boots"
+		],
+		"weapon": [
+			"minecraft:stone_axe",
+			"minecraft:golden_axe",
+			"minecraft:iron_axe"
+		],
+		"tool": [
+			"minecraft:stone_axe",
+			"minecraft:stone_hoe",
+			"minecraft:stone_pickaxe",
+			"minecraft:stone_shovel"
+		]
+	},
+	"minecraft:butcher": {
+		"butcher": [
+			"minecraft:cooked_chicken",
+			"minecraft:cooked_mutton",
+			"minecraft:cooked_porkchop",
+			"minecraft:cooked_rabbit",
+			"minecraft:cooked_beef"
+		],
+		"leather": [
+			"minecraft:leather"
+		]
+	}
+}

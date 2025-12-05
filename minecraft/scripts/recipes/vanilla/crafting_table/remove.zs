@@ -154,7 +154,6 @@ val removedRecipes as IIngredient[] = [
     <hooked:hook>,
     <botania:enderhand>,
     <twilightforest:magic_map_focus>,
-    <extrabitmanipulation:bodypart_template>,
     <cyclicmagic:block_miner>,
     <cyclicmagic:slingshot_weapon>,
     <ambience:soundnizer>,

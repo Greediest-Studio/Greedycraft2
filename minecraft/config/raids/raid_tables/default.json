@@ -1,0 +1,168 @@
+{
+    "entries": [
+        {
+            "entity": "raids:pillager",
+            "spawn_counts": [4, 3, 3, 4, 4, 4, 2],
+            "bonus_spawns": {},
+            "rider": {}
+        },
+        {
+            "entity": "minecraft:vindication_illager",
+            "spawn_counts": [0, 2, 0, 1, 4, 2, 5],
+            "bonus_spawns": {
+				"name": "conditional",
+				"value": {
+					"name": "random",
+					"value": 2
+				},
+				"default": {
+					"name": "conditional",
+					"value": 1,
+					"default": 2,
+					"conditions": [
+						{
+							"name": "game_difficulty",
+							"value": "NORMAL"
+						}
+					]
+				},
+				"conditions": [
+					{
+						"name": "game_difficulty",
+						"value": "EASY"
+					}
+				]
+			},
+            "rider": {}
+        },
+        {
+            "entity": "raids:ravager",
+            "spawn_counts": [0, 1, 0, 0, 0, 0, 2],
+            "bonus_spawns": {
+				"name": "conditional",
+				"value": 1,
+				"default": 0,
+				"conditions": [
+					{
+						"name": "not",
+						"value": {
+							"name": "game_difficulty",
+							"value": "EASY"
+						}
+					},
+					{
+						"name": "is_bonus"
+					}
+				]
+			},
+            "rider": {
+				"name": "conditional",
+				"value": "raids:pillager",
+				"default": {
+					"name": "conditional",
+					"value": {
+						"name": "conditional",
+						"value": "minecraft:evocation_illager",
+						"default": "minecraft:vindication_illager",
+						"conditions": [
+							{
+								"name": "comparison",
+								"type": "int",
+								"operation": ">",
+								"value1": {
+									"name": "number_spawned",
+									"value": "minecraft:evocation_illager"
+								},
+								"value2": 0
+							}
+						]
+					},
+					"default": null,
+					"conditions": [
+						{
+							"name": "comparison",
+							"type": "int",
+							"operation": ">=",
+							"value1": {
+								"name": "add",
+								"value1": {
+									"name": "groups_spawned"
+								},
+								"value2": 1
+							},
+							"value2": {
+								"name": "groups_for_difficulty",
+								"value": "HARD"
+							}
+						}
+					]
+				},
+				"conditions": [
+					{
+						"name": "comparison",
+						"type": "int",
+						"operation": "==",
+						"value1": {
+							"name": "add",
+							"value1": {
+								"name": "groups_spawned"
+							},
+							"value2": 1
+						},
+						"value2": {
+							"name": "groups_for_difficulty",
+							"value": "NORMAL"
+						}
+					}
+				]
+			}
+        },
+        {
+            "entity": "minecraft:witch",
+            "spawn_counts": [0, 0, 0, 3, 0, 0, 1],
+            "bonus_spawns": {
+				"name": "conditional",
+				"value": 0,
+				"default": 1,
+				"conditions": [
+					{
+						"name": "or",
+						"value": [ 
+							{
+								"name": "game_difficulty",
+								"value": "EASY"
+							},
+							{
+								"name": "comparison",
+								"type": "int",
+								"operation": "<=",
+								"value1": {
+									"name": "wave"
+								},
+								"value2": 2
+							},
+							{
+								"name": "comparison",
+								"type": "int",
+								"operation": "==",
+								"value1": {
+									"name": "wave"
+								},
+								"value2": 4
+							}
+						]
+					}
+				]
+			},
+            "rider": {}
+        },
+        {
+            "entity": "minecraft:evocation_illager",
+            "spawn_counts": [0, 0, 1, 0, 1, 0, 2],
+            "bonus_spawns": {},
+            "rider": {}
+        }
+    ],
+    "conditions": [],
+    "sound": "raids:event.raid.horn"
+}
