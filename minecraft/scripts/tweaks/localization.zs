@@ -99,6 +99,7 @@ val localizationMap as string[string][string] = {
         "thaumicaugmentation.text.entered_spire": "你发现了%s。",
         "thaumicaugmentation.text.boss_room_spire": "你发现了尖塔的核心。",
         "death.attack.cinderSpark": "%s被%s的火球烧成了灰烬。",
+        "death.attack.erebus_curse": "%s被腐朽之地的诅咒吞噬了。",
         "botania_tweaks.entrodupe.nicetry": "TNT复制机？给爷爪巴。爷不吃这套。",
         "item.withered_nether_star.name": "暗黑下界之星",
         "entity.ChaosGuardianHelpful.name": "秩序守护使",

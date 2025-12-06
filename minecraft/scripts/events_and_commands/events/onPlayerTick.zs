@@ -4,6 +4,7 @@
  */
 
 #priority 90
+#reloadable
 
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.IPlayerEvent;
@@ -444,6 +445,17 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
                         }
                     }
                 }
+            }
+        }
+    }
+
+    //Erebus Curse
+    if (player.dimension == 66 && !player.creative) {
+        if (!player.isPotionActive(<potion:contenttweaker:erebus_protection>)) {
+            if (player.world.time % 20 == 0 && player.health / player.maxHealth > 0.05f) {
+                player.health -= player.maxHealth * 0.05f;
+            } else {
+                player.attackEntityFrom(IDamageSource.createOfType("erebus_curse"), player.maxHealth);
             }
         }
     }
