@@ -442,37 +442,10 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
                         if (portable == 1) {
                             player.setDimension(42);
                             player.position3f = position3f;
-                            var alfheimDim as IWorld = IWorld.getFromID(42);
-                            if (!isNull(alfheimDim.getBlock(pos))) {
-                                if (alfheimDim.getBlock(pos).definition.id != "botania:dreamwood" || alfheimDim.getBlock(pos).meta != 5) {
-                                    for i in -1 to 2 {
-                                        for j in -2 to 3 {
-                                            for k in 0 to 5 {
-                                                alfheimDim.setBlockState(<blockstate:minecraft:air>, pos.north(i).east(j).up(k));
-                                            }
-                                        }
-                                    }
-                                    var G as IBlockState = <blockstate:botania:dreamwood>.withProperty("variant", "glimmering");
-                                    var D as IBlockState = <blockstate:botania:dreamwood>.withProperty("variant", "default");
-                                    alfheimDim.setBlockState(G, pos);
-                                    alfheimDim.setBlockState(D, pos.west(1));
-                                    alfheimDim.setBlockState(D, pos.east(1));
-                                    alfheimDim.setBlockState(D, pos.west(2).up(1));
-                                    alfheimDim.setBlockState(D, pos.east(2).up(1));
-                                    alfheimDim.setBlockState(G, pos.west(2).up(2));
-                                    alfheimDim.setBlockState(G, pos.east(2).up(2));
-                                    alfheimDim.setBlockState(D, pos.west(2).up(3));
-                                    alfheimDim.setBlockState(D, pos.east(2).up(3));
-                                    alfheimDim.setBlockState(D, pos.west(1).up(4));
-                                    alfheimDim.setBlockState(D, pos.east(1).up(4));
-                                    alfheimDim.setBlockState(G, pos.up(4));
-                                }
-                            }
                         }
                     }
                 }
             }
         }
     }
-
 });
