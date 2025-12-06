@@ -63,6 +63,7 @@ ConversionItem.create(<biomesoplenty:gem:3>).addMatchItem(<tiths:block_topaz>).r
 ConversionItem.create(<biomesoplenty:gem_ore:3>).addMatchItem(<tiths:ore_topaz:3>).register();
 ConversionItem.create(<appliedenergistics2:material:5>).addMatchItem(<ore:itemSilicon>).register();
 ConversionItem.create(<appliedenergistics2:material:3>).addMatchItem(<ore:dustQuartz>).addMatchItem(<ore:dustNetherQuartz>).register();
+ConversionItem.create(<iceandfire:pixie_dust>).addMatchItem(<botania:manaresource:8>).register();
 
 ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:burningsulfurflow>).register();
 ConversionFluid.create(<liquid:liquidantimatter>).addMatchFluid(<liquid:blockfluidantimatter>).register();

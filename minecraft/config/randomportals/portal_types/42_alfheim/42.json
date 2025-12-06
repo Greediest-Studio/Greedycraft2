@@ -1,0 +1,101 @@
+{
+	"frame": {
+		"type": "VERTICAL",
+		"size": {
+			"lateral": {
+				"minWidth": 3,
+				"maxWidth": 3,
+				"minHeight": 3,
+				"maxHeight": 3
+			},
+			"verticalX": {
+				"minWidth": 5,
+				"maxWidth": 5,
+				"minHeight": 5,
+				"maxHeight": 5
+			},
+			"verticalZ": {
+				"minWidth": 5,
+				"maxWidth": 5,
+				"minHeight": 5,
+				"maxHeight": 5
+			}
+		},
+		"blocks": [
+			{
+				"registryName": "botania:dreamwood",
+				"meta": 0,
+				"minimumAmount": 8
+			},
+			{
+				"registryName": "botania:dreamwood",
+				"meta": 5,
+				"minimumAmount": 4
+			}
+		],
+		"requiredCorner": "ANY",
+		"cornerBlocksContributeToMinimumAmount": false,
+		"doGeneratedFramesDrop": false
+	},
+	"activation": {
+		"canBeActivatedByFire": false,
+		"activators": [
+			{
+				"registryName": "gct_mobs:alfheim",
+				"meta": 32767
+			}
+		],
+		"activatorConsumeBehavior": "DO_NOTHING",
+		"spawnFireBeforeActivating": false,
+		"activationSounds": []
+	},
+	"color": {
+		"colors": [
+			"ORANGE"
+		],
+		"dyeBehavior": "DISABLE"
+	},
+	"destination": {
+		"dimensionID": 0,
+		"locationDetectionBehavior": "IGNORE_INITIAL",
+		"initialLocation": {
+			"x": 0,
+			"y": 0,
+			"z": 0,
+			"useTopSolidY": false
+		},
+		"coordinateMultiplier": 1.0,
+		"teleportToPortal": false,
+		"oneWay": true,
+		"ensureReturnToSameDimension": true,
+		"generatePortalIfNotFound": false,
+		"portalGenerationBehavior": "RANDOMIZE",
+		"generatedFrameType": "VERTICAL",
+		"generatedFrameSize": {
+			"lateral": {
+				"minWidth": 0,
+				"maxWidth": 3,
+				"minHeight": 0,
+				"maxHeight": 3
+			},
+			"verticalX": {
+				"minWidth": 4,
+				"maxWidth": 4,
+				"minHeight": 5,
+				"maxHeight": 5
+			},
+			"verticalZ": {
+				"minWidth": 4,
+				"maxWidth": 4,
+				"minHeight": 5,
+				"maxHeight": 5
+			}
+		}
+	},
+	"teleportationDelay": {
+		"lateral": 1,
+		"verticalX": 0,
+		"verticalZ": 0
+	},
+	"decorative": false
+}

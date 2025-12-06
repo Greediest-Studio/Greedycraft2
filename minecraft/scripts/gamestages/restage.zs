@@ -62,7 +62,8 @@ GameStagesUtil.removeItemStages([
     <extendedcrafting:storage:5>,
     <nuclearcraft:fission_dust:6>,
     <ore:nuggetCopper>,
-    <ore:dustQuartz>
+    <ore:dustQuartz>,
+    <iceandfire:pixie_dust>
 ] as IIngredient[]);
 
 GameStagesUtil.restageItems("wielder_of_infinity", [

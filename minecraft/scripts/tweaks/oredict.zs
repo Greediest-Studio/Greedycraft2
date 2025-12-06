@@ -1277,7 +1277,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:capacitorInfinity> : [<avaritiaio:infinitecapacitor>],
     <ore:gemMoonstoneTiths> : [<tiths:moon_stone>],
     <ore:blockMoonstoneTiths> : [<tiths:block_moon_stone>],
-    <ore:oreMoonstoneTiths> : [<tiths:ore_moon_stone>]
+    <ore:oreMoonstoneTiths> : [<tiths:ore_moon_stone>],
+    <ore:elvenPixieDust> : [<iceandfire:pixie_dust>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {

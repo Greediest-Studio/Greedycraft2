@@ -12,6 +12,7 @@
 20 交错次元
 23 糖果世界
 41 裂隙彼端
+42 亚尔夫海姆
 50 深渊荒原
 51 恐惧之地
 52 奥穆索
@@ -92,6 +93,7 @@ GameStagesUtil.stageChaotic.addDimension(100);
 GameStagesUtil.stageChaotic.addDimension(101);
 GameStagesUtil.stageChaotic.addDimension(54);
 GameStagesUtil.stageChaotic.addDimension(324987);
+GameStagesUtil.stageGaiaDeleter.addDimension(42);
 GameStagesUtil.stageBetweenlandTraveller.addDimension(20);
 GameStagesUtil.stageWarped.addDimension(55);
 GameStagesUtil.stageWarped.addDimension(102);

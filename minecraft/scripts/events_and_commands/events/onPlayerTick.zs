@@ -99,20 +99,6 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
         player.removePotionEffect(<potion:minecraft:night_vision>);
     }
 
-    //Check for story advancement
-    if (player.world.getWorldTime() as long % 40 == 0) {
-        grantAdvancement(player, "greedycraft:elysia/root");
-        for stage in advancementMap {
-            if (player.hasGameStageSilent(stage)) {
-                var advancement as string = advancementMap[stage] as string;
-                grantAdvancement(player, advancement);
-            }
-        }
-        if (!isNull(player.currentItem) && player.currentItem.definition.id == "patchouli:guide_book" && !isNull(player.currentItem.tag.memberGet("patchouli:book")) && player.currentItem.tag.memberGet("patchouli:book") == "patchouli:the_elysia_project") {
-            grantAdvancement(player, "greedycraft:elysia/book");
-        }
-    }
-
     // Prevent saturation overdose
     if (!player.creative && player.isPotionActive(<potion:minecraft:saturation>) && player.getActivePotionEffect(<potion:minecraft:saturation>).duration > 1) {
         var effect as IPotionEffect = player.getActivePotionEffect(<potion:minecraft:saturation>);
@@ -255,16 +241,6 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
         }
     }
 
-    /*
-    if (<ore:vetheaDisabled> in player.currentItem && player.getDimension() == 427) {
-        player.currentItem.mutable().shrink(64);
-        player.sendStatusMessage("此物品已经在梦魇世界被禁用！");
-    }
-    if (<ore:vetheaDisabled> in player.offHandHeldItem && player.getDimension() == 427) {
-        player.offHandHeldItem.mutable().shrink(64);
-        player.sendStatusMessage("此物品已经在梦魇世界被禁用！");
-    } */
-
     // Remove radiation if the stage is locked
     if (!(player.hasGameStageSilent("epic_engineer"))) {
         player.setRadiation(0.0d);
@@ -358,7 +334,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
         player.addPotionEffect(<potion:astralsorcery:potiontimefreeze>.makePotionEffect(50, 0, false, false));
     }
 
-    //laser_gun_mode
+    //Laser Gun Mode Lock
     if (!isNull(player.currentItem)) {
         var item = player.currentItem;
         if ((item.definition.id == "plustic:laser_gun") && !isNull(item.tag.Mode) && item.tag.Mode == 1) {
@@ -453,24 +429,50 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
         player.addPotionEffect(<potion:minecraft:blindness>.makePotionEffect(50, 2, false, false));
     }
 
-    //test
-    if (!isNull(player.currentItem)) {
-        var item = player.currentItem;
-        if (TicLib.isTicTool(item)) {
-            if !(TicTraitLib.hasTicTrait(item, "energy_fix")) && (TicTraitLib.hasTicTrait(item, "tconevo.evolved")) {
-                TicTraitLib.addTicTrait(item, "energy_fix", 0xffffff, 1);
-            }
-        }
-    }
-    if (!isNull(player.armorInventory)) {
-        for armor in player.armorInventory {
-            if (!isNull(armor)) {
-                if (TicLib.isTicArmor(armor)) {
-                    if (!(TicTraitLib.hasTicTrait(armor, "energy_fix_armor"))) {
-                        TicTraitLib.addTicTrait(armor, "energy_fix_armor", 0xffffff, 1);
+    //Alfheim Portal
+    if (player.dimension == 0 && player.hasGameStage("gaia_deleter")) {
+        var pos as IBlockPos = player.position.down(1);
+        var position3f as Position3f = player.position3f;
+        if (pos.y >= 1 && pos.y <= 255) {
+            if (!isNull(player.world.getBlock(pos))) {
+                var block as IBlock = player.world.getBlock(pos);
+                if (!(isNull(block.data) || isNull(block.data.ForgeData))) {
+                    if (!isNull(block.data.ForgeData.isPortable)) {
+                        var portable as byte = block.data.ForgeData.isPortable as byte;
+                        if (portable == 1) {
+                            player.setDimension(42);
+                            player.position3f = position3f;
+                            var alfheimDim as IWorld = IWorld.getFromID(42);
+                            if (!isNull(alfheimDim.getBlock(pos))) {
+                                if (alfheimDim.getBlock(pos).definition.id != "botania:dreamwood" || alfheimDim.getBlock(pos).meta != 5) {
+                                    for i in -1 to 2 {
+                                        for j in -2 to 3 {
+                                            for k in 0 to 5 {
+                                                alfheimDim.setBlockState(<blockstate:minecraft:air>, pos.north(i).east(j).up(k));
+                                            }
+                                        }
+                                    }
+                                    var G as IBlockState = <blockstate:botania:dreamwood>.withProperty("variant", "glimmering");
+                                    var D as IBlockState = <blockstate:botania:dreamwood>.withProperty("variant", "default");
+                                    alfheimDim.setBlockState(G, pos);
+                                    alfheimDim.setBlockState(D, pos.west(1));
+                                    alfheimDim.setBlockState(D, pos.east(1));
+                                    alfheimDim.setBlockState(D, pos.west(2).up(1));
+                                    alfheimDim.setBlockState(D, pos.east(2).up(1));
+                                    alfheimDim.setBlockState(G, pos.west(2).up(2));
+                                    alfheimDim.setBlockState(G, pos.east(2).up(2));
+                                    alfheimDim.setBlockState(D, pos.west(2).up(3));
+                                    alfheimDim.setBlockState(D, pos.east(2).up(3));
+                                    alfheimDim.setBlockState(D, pos.west(1).up(4));
+                                    alfheimDim.setBlockState(D, pos.east(1).up(4));
+                                    alfheimDim.setBlockState(G, pos.up(4));
+                                }
+                            }
+                        }
                     }
                 }
             }
         }
     }
+
 });

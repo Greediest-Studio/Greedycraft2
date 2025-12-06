@@ -28,7 +28,7 @@
             }
         ]
     },
-	 {
+	{
         "dimension": 0,
 		"biometype": [
 			"OCEAN"
@@ -36,6 +36,83 @@
         "mobs": [
             {
                 "mob": "minecraft:guardian",
+                "weight": 4,
+                "groupcountmin": 1,
+                "groupcountmax": 3
+            }
+        ]
+    },
+    {
+        "dimension": 42,
+        "mobs": [
+            {
+                "mob": "iceandfire:if_pixie",
+                "weight": 12,
+                "groupcountmin": 2,
+                "groupcountmax": 4
+            },
+            {
+                "mob": "aether_legacy:phyg",
+                "weight": 5,
+                "groupcountmin": 4,
+                "groupcountmax": 6
+            },
+            {
+                "mob": "aether_legacy:sheepuff",
+                "weight": 5,
+                "groupcountmin": 4,
+                "groupcountmax": 6
+            },
+            {
+                "mob": "aether_legacy:flying_cow",
+                "weight": 5,
+                "groupcountmin": 4,
+                "groupcountmax": 6
+            },
+            {
+                "mob": "quark:stoneling",
+                "weight": 2,
+                "groupcountmin": 2,
+                "groupcountmax": 5
+            }
+        ]
+    },
+    {
+        "dimension": 42,
+        "biome": [
+            "gct_mobs:alfheim_forest"
+        ],
+        "mobs": [
+            {
+                "mob": "gct_mobs:elf",
+                "weight": 3,
+                "groupcountmin": 2,
+                "groupcountmax": 4
+            }
+        ]
+    },
+    {
+        "dimension": 42,
+        "biome": [
+            "gct_mobs:reversed_forest"
+        ],
+        "mobs": [
+            {
+                "mob": "gct_mobs:reversed_elf",
+                "weight": 5,
+                "groupcountmin": 3,
+                "groupcountmax": 5
+            }
+        ]
+    },
+    {
+        "dimension": 42,
+        "biome": [
+            "gct_mobs:alfheim_hill"
+        ],
+        "mobs": [
+            {
+                "mob": "twilightforest:stable_ice_core",
                 "weight": 4,
                 "groupcountmin": 1,
                 "groupcountmax": 3

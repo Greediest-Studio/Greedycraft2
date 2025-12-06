@@ -1,0 +1,16 @@
+{
+	"blacklistAllUndefinedDimensions": true,
+	"activationDimensionIDBlacklist": [],
+	"defaultDimensionID": 42,
+	"entitySpawns": {
+		"0": {
+			"rate": 2000,
+			"entities": {
+				"iceandfire:if_pixie": {
+					"nbt": "{}",
+					"weight": 100.0
+				}
+			}
+		}
+	}
+}
