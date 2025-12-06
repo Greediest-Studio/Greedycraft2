@@ -5,7 +5,6 @@
 
 
 #priority 90
-#reloadable
 
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.IPlayerEvent;

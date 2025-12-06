@@ -1,6 +1,3 @@
-#reloadable
-
-
 import crafttweaker.world.IWorld;
 import crafttweaker.world.IBlockPos;
 import crafttweaker.world.IFacing;

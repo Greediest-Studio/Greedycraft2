@@ -4,7 +4,6 @@
  */
 
 
-#reloadable
 #priority 90
 
 import crafttweaker.event.PlayerLoggedInEvent;

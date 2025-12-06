@@ -1,4 +1,5 @@
 #priority 3000
+#reloadable
 #sideonly client
 
 import crafttweaker.item.IItemStack;

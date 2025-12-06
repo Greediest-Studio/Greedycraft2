@@ -3,7 +3,6 @@
  */
 
 #priority 50
-#loader crafttweaker reloadable
 
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.world.IWorld;

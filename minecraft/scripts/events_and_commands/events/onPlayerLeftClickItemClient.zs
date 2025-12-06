@@ -5,7 +5,6 @@
 
 
 #priority 90
-#reloadable
 
 import crafttweaker.player.IPlayer;
 import crafttweaker.item.IItemStack;

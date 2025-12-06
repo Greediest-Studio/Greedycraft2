@@ -4,7 +4,6 @@
 
 
 #priority 50
-#loader crafttweaker reloadable
 
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;

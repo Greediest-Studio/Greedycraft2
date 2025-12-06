@@ -4,8 +4,6 @@
 
 #priority 0
 
-#loader crafttweaker reloadable
-
 import crafttweaker.world.IWorld;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;

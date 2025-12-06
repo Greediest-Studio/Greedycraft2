@@ -3,8 +3,6 @@
  */
 
 #priority 50
-#crafttweaker reloadable
-#reloadable
 
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
