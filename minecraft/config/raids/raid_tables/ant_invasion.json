@@ -1,0 +1,54 @@
+{
+    "entries": [
+        {
+            "entity": "erebus:erebus.fire_ant",
+            "spawn_counts": [3, 3, 3, 3, 3, 3, 3, 0],
+            "bonus_spawns": {},
+            "rider": {},
+            "nbt": "{}"
+        },
+        {
+            "entity": "thebetweenlands:termite",
+            "spawn_counts": [3, 3, 3, 3, 3, 3, 3, 0],
+            "bonus_spawns": {},
+            "rider": {},
+            "nbt": "{}"
+        },
+        {
+            "entity": "erebus:erebus.fire_ant_soldier",
+            "spawn_counts": [0, 1, 1, 2, 2, 2, 2, 0],
+            "bonus_spawns": {},
+            "rider": {},
+            "nbt": "{}"
+        },
+        {
+            "entity": "erebus:erebus.zombie_ant",
+            "spawn_counts": [0, 0, 0, 2, 2, 2, 2, 2],
+            "bonus_spawns": {},
+            "rider": {},
+            "nbt": "{}"
+        },
+        {
+            "entity": "erebus:erebus.zombie_ant_soldier",
+            "spawn_counts": [0, 0, 0, 0, 1, 2, 2, 2],
+            "bonus_spawns": {},
+            "rider": {},
+            "nbt": "{}"
+        },
+        {
+            "entity": "erebus:erebus.corrupted_ant",
+            "spawn_counts": [0, 0, 0, 0, 0, 2, 2, 4],
+            "bonus_spawns": {},
+            "rider": {},
+            "nbt": "{}"
+        },
+        {
+            "entity": "erebus:erebus.corrupted_ant_emperor",
+            "spawn_counts": [0, 0, 0, 0, 0, 0, 0, 1],
+            "bonus_spawns": {},
+            "rider": {},
+            "nbt": "{}"
+        }
+    ],
+    "sound": "raids:event.raid.horn"
+}

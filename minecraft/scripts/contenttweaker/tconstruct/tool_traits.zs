@@ -3419,8 +3419,8 @@ erase_commandTrait.onHit = function(trait, tool, attacker, target, damage, isCri
                 if (entity.health > 100 * level as float) {
                     entity.health -= (100 * level as float);
                 } else {
-                    var dmg as IDamageSource = IDamageSource.createPlayerDamage(player);
-                    entity.attackEntityFrom(dmg, 2147483647.0f);
+                    var dmg as IDamageSource = IDamageSource.createEntityDamage("chaos", player);
+                    entity.attackEntityFrom(dmg, 100.0f);
                 }
             }
         }

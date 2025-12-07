@@ -2305,7 +2305,8 @@ GameStagesUtil.stageDeepDream.addIngredients([
     <contenttweaker:malevolent_fruit>,
     <ore:oreRotiron>,
     <contenttweaker:bauble_source_of_swamp>,
-    <additions:source_of_swamp>
+    <additions:source_of_swamp>,
+    <erebus:materials:*>
 ], true);
 
 GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators", "mekceumoremachine", "mekeng"]);

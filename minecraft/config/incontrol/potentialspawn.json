@@ -118,5 +118,34 @@
                 "groupcountmax": 3
             }
         ]
+    },
+    {
+        "dimension": 78,
+        "mobs": [
+            {
+                "mob": "minecraft:blaze",
+                "weight": 8,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            },
+            {
+                "mob": "thermalfoundation:blizz",
+                "weight": 8,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            },
+            {
+                "mob": "thermalfoundation:basalz",
+                "weight": 8,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            },
+            {
+                "mob": "thermalfoundation:blitz",
+                "weight": 8,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ]
     }
 ]
