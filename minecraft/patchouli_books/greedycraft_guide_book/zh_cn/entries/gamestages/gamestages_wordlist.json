@@ -191,37 +191,105 @@
     },
     {
         "type":"multiblock",
-        "text":"如图，你需要$(6)镶嵌奥里哈刚的梦之木$()*14与$(6)精灵法杖$()*1",
+        "text":"你需要$(6)彩虹桥方块$()*12$(6)活木$()*8$(6)镶嵌奥里哈刚的梦之木$()*6$(6)盖亚水晶$()*6$(6)固态魔力块$()*4$(6)微光活木$()*3$(6)光子块$()*2$(6)暗影块$()*2$(6)奥利哈刚块$()*2$(6)精灵门核心$()*1",
         "symmertrical":true,
         "multiblock":{
             "mapping":{
-                "0":"gct_mobs:orichalcos_dreamwood",
-                "A":"gct_mobs:orichalcos_dreamwood"
+                "0":"botania:alfheimportal",
+                "A":"botania:bifrostperm",
+                "B":"botania:livingwood",
+                "C":"gct_mobs:orichalcos_dreamwood",
+                "D":"botania:pylon[variant=gaia]",
+                "E":"gct_mobs:mana_block",
+                "F":"botania:livingwood[variant=glimmering]",
+                "G":"extrabotany:blockphotonium",
+                "H":"extrabotany:blockshadowium",
+                "I":"extrabotany:blockorichalcos"
             },
             "pattern":[
                 [
-                "0AAA"
+                "     E     ",
+                "           ",
+                "           ",
+                " D       D ",
+                "           ",
+                "           ",
+                "D   BFB   D",
+                "           ",
+                "           ",
+                " D       D ",
+                "           ",
+                "           ",
+                "     E     "
                 ],
                 [
-                "A  A"
+                "     A     ",
+                "           ",
+                "           ",
+                " A       A ",
+                "           ",
+                "           ",
+                "A  B   B  A",
+                "           ",
+                "           ",
+                " A       A ",
+                "           ",
+                "           ",
+                "     A     "
                 ],
                 [
-                "A  A"
+                "     A     ",
+                "           ",
+                "           ",
+                " G       H ",
+                "           ",
+                "           ",
+                "I  F   F  I",
+                "           ",
+                "           ",
+                " H       G ",
+                "           ",
+                "           ",
+                "     A     "
                 ],
                 [
-                "A  A"
+                "     A     ",
+                "           ",
+                "           ",
+                " C       C ",
+                "           ",
+                "           ",
+                "C  B   B  C",
+                "           ",
+                "           ",
+                " C       C ",
+                "           ",
+                "           ",
+                "     A     "
                 ],
                 [
-                "AAAA"
+                "     E     ",
+                "           ",
+                "           ",
+                "           ",
+                "           ",
+                "           ",
+                "    B0B    ",
+                "           ",
+                "           ",
+                "           ",
+                "           ",
+                "           ",
+                "     E     "
                 ]   
             ]
         }
     },
     {
         "type":"spotlight",
-        "item":"gct_mobs:alfheim",
+        "item":"botania:twigwand",
         "link_recipe":true,
-        "text":"$(c)alfheim$()$(2)亚尔夫海姆$()(Dim 42)$(li)搭建出左图结构，手拿$(6)精灵法杖$()右键此多方块结构（跟开地狱门一样）即可激活传送门"
+        "text":"$(c)alfheim$()$(2)亚尔夫海姆$()(Dim 42)$(li)搭建出左图结构，正常激活精灵门即可。$(li)精灵门必须面向$(6)南北$()方向，否则无法激活。图中魔法水晶为渲染错误，实际是盖亚水晶$(li)$(6)注意：$()进入该维度后不会生成返回传送门"
     },
     {
         "type":"multiblock",
@@ -1067,19 +1135,34 @@
         "text":"找到如左图所示的传送门，站在传送门方块上，即可进入$(2)辐射废土$()世界"
     },
     {
-        "type":"spotlight",
-        "item":"contenttweaker:dim_item",
-        "text":"$(c)Dim(114514)$(br)在主世界右键进入超平坦这个世界永昼，再次右键离开该维度"
+        "type":"image",
+        "images":["patchouli_books:midnight.png"],
+        "text":"$(c)midnight$()$(2)午夜世界$()Dim(-23)"
     },
     {
         "type":"spotlight",
-        "item":"contenttweaker:dim_item",
-        "text":"$(c)Dim(-114514)$(br)在下界右键进入虚空世界这个世界永夜，再次右键离开该维度"
+        "item":"midnight:midnight_grass",
+        "text":"$(2)每当夜晚来临，午夜的大门即将开启~$()$(br2)$(5)他们喜欢抓不睡觉的孩子们进入午夜的世界"
+    },
+    {
+        "type":"spotlight",
+        "item":"utilityworlds:portal_garden",
+        "text":"$(c)uw_garden_wordl$()Dim(4)$(br)右击如上方块即可进入类似于超平坦地形的维度"
+    },
+    {
+        "type":"spotlight",
+        "item":"utilityworlds:portal_void",
+        "text":"$(c)uw_void_wordl$()Dim(5)$(br)右击如上方块即可进入一个周围全是虚空的维度"
     },
     {
         "type":"spotlight",
         "item":"compactmachines3:machine:5",
         "text":"$(c)CompactMachines$()$(2)压缩空间$()Dim(144)$(br)使用$(6)传送器$()右键$(5)任意大小$()$(6)压缩空间机械$()进入，再次右键即可离开压缩空间"
+    },
+    {
+        "type":"spotlight",
+        "item":"keletupack:ichorium_pick_adv",
+        "text":"$(c)keletupack$()$(2)基岩世界$()Dim(31871)$(br)使用$(6)觉醒灵宝镐$()左键主世界 Y ≤ 6 高度的基岩打开$(6)基岩世界传送门$()"
     },
     {
         "type":"multiblock",

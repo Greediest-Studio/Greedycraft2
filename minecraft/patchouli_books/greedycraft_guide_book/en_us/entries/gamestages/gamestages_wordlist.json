@@ -191,37 +191,105 @@
     },
     {
         "type":"multiblock",
-        "text":"如图，你需要$(6)镶嵌奥里哈刚的梦之木$()*14与$(6)精灵法杖$()*1",
+        "text":"你需要$(6)彩虹桥方块$()*12$(6)活木$()*8$(6)镶嵌奥里哈刚的梦之木$()*6$(6)盖亚水晶$()*6$(6)固态魔力块$()*4$(6)微光活木$()*3$(6)光子块$()*2$(6)暗影块$()*2$(6)奥利哈刚块$()*2$(6)精灵门核心$()*1",
         "symmertrical":true,
         "multiblock":{
             "mapping":{
-                "0":"gct_mobs:orichalcos_dreamwood",
-                "A":"gct_mobs:orichalcos_dreamwood"
+                "0":"botania:alfheimportal",
+                "A":"botania:bifrostperm",
+                "B":"botania:livingwood",
+                "C":"gct_mobs:orichalcos_dreamwood",
+                "D":"botania:pylon[variant=gaia]",
+                "E":"gct_mobs:mana_block",
+                "F":"botania:livingwood[variant=glimmering]",
+                "G":"extrabotany:blockphotonium",
+                "H":"extrabotany:blockshadowium",
+                "I":"extrabotany:blockorichalcos"
             },
             "pattern":[
                 [
-                "0AAA"
+                "     E     ",
+                "           ",
+                "           ",
+                " D       D ",
+                "           ",
+                "           ",
+                "D   BFB   D",
+                "           ",
+                "           ",
+                " D       D ",
+                "           ",
+                "           ",
+                "     E     "
                 ],
                 [
-                "A  A"
+                "     A     ",
+                "           ",
+                "           ",
+                " A       A ",
+                "           ",
+                "           ",
+                "A  B   B  A",
+                "           ",
+                "           ",
+                " A       A ",
+                "           ",
+                "           ",
+                "     A     "
                 ],
                 [
-                "A  A"
+                "     A     ",
+                "           ",
+                "           ",
+                " G       H ",
+                "           ",
+                "           ",
+                "I  F   F  I",
+                "           ",
+                "           ",
+                " H       G ",
+                "           ",
+                "           ",
+                "     A     "
                 ],
                 [
-                "A  A"
+                "     A     ",
+                "           ",
+                "           ",
+                " C       C ",
+                "           ",
+                "           ",
+                "C  B   B  C",
+                "           ",
+                "           ",
+                " C       C ",
+                "           ",
+                "           ",
+                "     A     "
                 ],
                 [
-                "AAAA"
+                "     E     ",
+                "           ",
+                "           ",
+                "           ",
+                "           ",
+                "           ",
+                "    B0B    ",
+                "           ",
+                "           ",
+                "           ",
+                "           ",
+                "           ",
+                "     E     "
                 ]   
             ]
         }
     },
     {
         "type":"spotlight",
-        "item":"gct_mobs:alfheim",
+        "item":"botania:twigwand",
         "link_recipe":true,
-        "text":"$(c)alfheim$()$(2)亚尔夫海姆$()(Dim 42)$(li)搭建出左图结构，手拿$(6)精灵法杖$()右键此多方块结构（跟开地狱门一样）即可激活传送门"
+        "text":"$(c)alfheim$()$(2)亚尔夫海姆$()(Dim 42)$(li)搭建出左图结构，正常激活精灵门即可。$(li)精灵门必须面向$(6)南北$()方向，否则无法激活。图中魔法水晶为渲染错误，实际是盖亚水晶$(li)$(6)注意：$()进入该维度后不会生成返回传送门"
     },
     {
         "type":"multiblock",
