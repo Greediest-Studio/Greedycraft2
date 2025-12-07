@@ -268,3 +268,13 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:decode_part>, [
 	[<ore:blockModularium>, <ore:blockLumium>, <ore:blockModularium>, <ore:blockScientificite>, <ore:blockModularium>, <ore:blockLumium>, <ore:blockModularium>], 
 	[null, <ore:blockModularium>, null, <ore:blockModularium>, null, <ore:blockModularium>, null]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <teslacorelib:machine_case> * 4, [
+	[<ore:ingotExtreme>, <ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>, <ore:ingotExtreme>], 
+	[<ore:itemRubber>, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, <ore:ingotNiobiumTitanium>, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, <ore:itemRubber>], 
+	[<ore:itemRubber>, <ore:ingotZirconiumMolybdenum>, <ore:ingotExtreme>, <ore:ingotNiobiumTitanium>, <ore:ingotExtreme>, <ore:ingotZirconiumMolybdenum>, <ore:itemRubber>], 
+	[<ore:itemRubber>, <ore:ingotNiobiumTitanium>, <ore:ingotNiobiumTitanium>, <ore:ingotNiobiumTitanium>, <ore:ingotNiobiumTitanium>, <ore:ingotNiobiumTitanium>, <ore:itemRubber>], 
+	[<ore:itemRubber>, <ore:ingotZirconiumMolybdenum>, <ore:ingotExtreme>, <ore:ingotNiobiumTitanium>, <ore:ingotExtreme>, <ore:ingotZirconiumMolybdenum>, <ore:itemRubber>], 
+	[<ore:itemRubber>, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, <ore:ingotNiobiumTitanium>, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, <ore:itemRubber>], 
+	[<ore:ingotExtreme>, <ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>, <ore:ingotExtreme>]
+]);

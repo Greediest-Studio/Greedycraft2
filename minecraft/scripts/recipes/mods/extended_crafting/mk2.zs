@@ -445,3 +445,5 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:eco_basic_alloy_ingo
 	[<ore:ingotCrystallineAlloy>, <ore:ingotDraconium>, <ore:ingotCrystallineAlloy>, <ore:ingotDraconium>, <ore:ingotCrystallineAlloy>], 
 	[null, null, null, null, null]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShapeless(0, <industrialforegoing:plastic> * 3, [<ore:ingotPolyethersulfone>, <ore:ingotZirfon>, <ore:ingotPolytetrafluoroethene>, <ore:ingotPolymethylsilyleneMethylene>, <ore:sheetHDPE>]);

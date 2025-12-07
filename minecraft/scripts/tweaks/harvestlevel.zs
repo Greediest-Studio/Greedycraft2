@@ -4,6 +4,7 @@
  */
 
 #priority 50
+import mods.contenttweaker.Item;
 
 <item:minecraft:bedrock>.asBlock().definition.hardness = 500.0f;
 <item:minecraft:bedrock>.asBlock().definition.setHarvestLevel("pickaxe", 10);
@@ -113,3 +114,6 @@
 <item:erebus:ore_petrified_wood>.asBlock().definition.setHarvestLevel("pickaxe", 13);
 
 <item:erebus:ore_temple>.asBlock().definition.setHarvestLevel("pickaxe", 13);
+
+<industrialforegoing:infinity_drill>.definition.setHarvestLevel("pickaxe", 4);
+<industrialforegoing:infinity_drill>.definition.setHarvestLevel("shovel", 4);

@@ -467,7 +467,8 @@ val removedRecipes as IIngredient[] = [
     <moretcon:itemtrichromadentiumsponge:1>,
     <moretcon:itemvalasiumsponge:1>,
     <erebus:altar_offering>,
-    <erebus:portal_activator>
+    <erebus:portal_activator>,
+    <teslacorelib:machine_case>
 ];
 
 val removedRecipeNames as string[] = [

@@ -2374,7 +2374,7 @@ GameStagesUtil.stageNoobEngineer.addModId(["thermaldynamics", "thermalexpansion"
 GameStagesUtil.stageNoviceEngineer.addModId(["enderio"]);
 GameStagesUtil.stageWyvern.addModId(["blue_skies", "extendedcrafting"]);
 GameStagesUtil.stageGatekeeper.addModId(["gct_aby"]);
-GameStagesUtil.stageEpicEngineer.addModId(["nuclearcraft"]);
+GameStagesUtil.stageEpicEngineer.addModId(["nuclearcraft", "industrialforegoing", "teslacorelib"]);
 GameStagesUtil.stageBetweenlandTraveller.addModId(["thebetweenlands"]);
 GameStagesUtil.stageWitherSlayer.addModId(["crazyae", "nae2", "ecoaeextension", "aewirelesschannel"]);
 GameStagesUtil.stageEnderCharm.addModId(["elementalend"]);
