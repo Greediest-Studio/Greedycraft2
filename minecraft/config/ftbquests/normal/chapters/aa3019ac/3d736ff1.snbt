@@ -1,7 +1,11 @@
 {
-	title: "§b氯铂酸",
+	title: "§bH₂PtCl₆",
 	x: -3.5d,
 	y: 9.5d,
+	description: "合成氯铂酸晶体",
+	text: [
+		"可以用于沉淀重碱金属"
+	],
 	dependencies: [
 		"54050e05"
 	],
@@ -11,5 +15,26 @@
 		items: [{
 			item: "additions:chloroplatinic_acid"
 		}]
+	}],
+	rewards: [{
+		uid: "7f6310f3",
+		type: "item",
+		item: "additions:chloroplatinic_acid",
+		count: 8
+	},
+	{
+		uid: "26726a69",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "37d78d34",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "08208d9d",
+		type: "xp",
+		xp: 1200
 	}]
 }

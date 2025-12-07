@@ -274,6 +274,18 @@ addHellForgeRecipe([<bloodmagic:soul_gem:2>, <bloodmagic:slate:3>, <bloodmagic:b
 <bloodmagic:soul_gem:3>, 100);
 addHellForgeRecipe([<bloodmagic:soul_gem:3>, <ore:netherStar>],
 <bloodmagic:soul_gem:4>, 500);
+addHellForgeRecipe([<bloodmagic:soul_gem:4>, <ore:ingotCrimsonite>, <ore:coreBasic>, <ore:ingotSoularium>],
+<gctcore:soul_gem>, 2000);
+addHellForgeRecipe([<gctcore:soul_gem>, <ore:ingotEthaxium>, <ore:gemRemorseful>, <ore:ingotShadowium>],
+<gctcore:soul_gem:1>, 10000);
+addHellForgeRecipe([<gctcore:soul_gem:1>, <ore:ingotEverite>, <ore:coreExcellent>],
+<gctcore:soul_gem:2>, 50000);
+addHellForgeRecipe([<gctcore:soul_gem:2>, <ore:ingotWigthium>, <ore:ingotCthulhurite>, <ore:ingotGhostMetal>],
+<gctcore:soul_gem:3>, 220000);
+addHellForgeRecipe([<gctcore:soul_gem:3>, <ore:ingotEldritchSteel>, <ore:ingotAzathothium>, <ore:gemHermaphroditic>],
+<gctcore:soul_gem:4>, 1000000);
+addHellForgeRecipe([<gctcore:soul_gem:4>, <ore:ingotMurderite>, <ore:ingotBalancedMatrix>, <ore:coreOrdered>],
+<gctcore:soul_gem:5>, 3600000);
 
 //饰品类
 addHellForgeRecipe([<bloodarsenal:soul_pendant>, <bloodarsenal:gem:2>, <ore:blockRedstone>, <ore:gemLapis>],

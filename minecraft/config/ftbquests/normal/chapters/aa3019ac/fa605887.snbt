@@ -1,6 +1,11 @@
 {
+	title: "§b最活泼的碱金属",
 	x: 4.0d,
 	y: 8.5d,
+	description: "电解氯化铯制得铯锭",
+	text: [
+		""
+	],
 	dependencies: [
 		"b5405543"
 	],
@@ -10,5 +15,21 @@
 		items: [{
 			item: "additions:cesium_ingot"
 		}]
+	}],
+	rewards: [{
+		uid: "efd169a9",
+		type: "item",
+		item: "additions:cesium_ingot",
+		count: 8
+	},
+	{
+		uid: "af1a55ff",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "856c52fa",
+		type: "xp",
+		xp: 5500
 	}]
 }

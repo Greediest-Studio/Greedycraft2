@@ -1,6 +1,11 @@
 {
+	title: "§b雷电法王的回响",
 	x: 0.5d,
 	y: 7.5d,
+	description: "电解氯化钾制得钾锭",
+	text: [
+		""
+	],
 	dependencies: [
 		"b5405543"
 	],
@@ -10,5 +15,21 @@
 		items: [{
 			item: "additions:potassium_ingot"
 		}]
+	}],
+	rewards: [{
+		uid: "c037e08e",
+		type: "item",
+		item: "additions:potassium_ingot",
+		count: 16
+	},
+	{
+		uid: "7e9aa7f6",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "34a7dc1e",
+		type: "xp",
+		xp: 1900
 	}]
 }

@@ -1,6 +1,11 @@
 {
+	title: "§b贵，还是TMD贵",
 	x: 2.5d,
 	y: 7.5d,
+	description: "电解氯化铷制得铷锭",
+	text: [
+		""
+	],
 	dependencies: [
 		"b5405543"
 	],
@@ -10,5 +15,21 @@
 		items: [{
 			item: "additions:rubidium_ingot"
 		}]
+	}],
+	rewards: [{
+		uid: "0785ba85",
+		type: "item",
+		item: "additions:rubidium_ingot",
+		count: 8
+	},
+	{
+		uid: "9b73457a",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "da2f9575",
+		type: "xp",
+		xp: 3700
 	}]
 }

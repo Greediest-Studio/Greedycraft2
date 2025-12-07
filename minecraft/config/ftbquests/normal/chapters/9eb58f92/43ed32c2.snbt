@@ -1,7 +1,11 @@
 {
+	title: "B、Fe、C",
 	x: -17.5d,
 	y: -2.0d,
 	description: "制作高强合金锭",
+	text: [
+		""
+	],
 	dependencies: [
 		"c2402025",
 		"0b7d1407"

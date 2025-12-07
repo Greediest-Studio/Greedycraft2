@@ -25,6 +25,12 @@ TartaricForge.addRecipe(<additions:darkest_ingot> * 2, [<additions:darkest_core>
 TartaricForge.addRecipe(<additions:reagent_ghost>, [<jaopca:dust.wigthium>, <jaopca:dust.darkest>, <tconevo:metal:32>, <minecraft:gunpowder>], 4000.0, 1000.0);
 TartaricForge.addRecipe(<additions:balanced_slate> * 2, [<additions:slate_7>, <gct_ores:balanced_matrix_ingot>], 7200.0, 1800.0);
 TartaricForge.addRecipe(<additions:reagent_godness>, [<jaopca:dust.cosmilite>, <jaopca:dust.scientificite>, <jaopca:dust.eugardite>, <gct_ores:everite_ingot>], 6400.0, 1600.0);
+TartaricForge.addRecipe(<gctcore:soul_gem>, [<bloodmagic:soul_gem:4>, <ore:ingotCrimsonite>, <ore:coreBasic>, <ore:ingotSoularium>], 16000.0, 2000.0);
+TartaricForge.addRecipe(<gctcore:soul_gem:1>, [<gctcore:soul_gem>, <ore:ingotEthaxium>, <ore:gemRemorseful>, <ore:ingotShadowium>], 60000.0, 10000.0);
+TartaricForge.addRecipe(<gctcore:soul_gem:2>, [<gctcore:soul_gem:1>, <ore:ingotEverite>, <ore:coreExcellent>], 240000.0, 50000.0);
+TartaricForge.addRecipe(<gctcore:soul_gem:3>, [<gctcore:soul_gem:2>, <ore:ingotWigthium>, <ore:ingotCthulhurite>, <ore:ingotGhostMetal>], 960000.0, 220000.0);
+TartaricForge.addRecipe(<gctcore:soul_gem:4>, [<gctcore:soul_gem:3>, <ore:ingotEldritchSteel>, <ore:ingotAzathothium>, <ore:gemHermaphroditic>], 4000000.0, 1000000.0);
+TartaricForge.addRecipe(<gctcore:soul_gem:5>, [<gctcore:soul_gem:4>, <ore:ingotMurderite>, <ore:ingotBalancedMatrix>, <ore:coreOrdered>], 15000000.0, 3600000.0);
 
 BloodAltar.removeRecipe(<minecraft:redstone_block>);
 BloodAltar.removeRecipe(<minecraft:diamond>);

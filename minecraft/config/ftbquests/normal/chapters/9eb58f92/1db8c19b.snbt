@@ -1,7 +1,11 @@
 {
+	title: "§b最终幻想",
 	x: -26.5d,
 	y: -2.0d,
 	description: "制作一个科幻锭",
+	text: [
+		""
+	],
 	dependencies: [
 		"02c8a87a",
 		"ef65449f"

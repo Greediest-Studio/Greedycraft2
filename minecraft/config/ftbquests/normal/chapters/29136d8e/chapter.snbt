@@ -30,8 +30,8 @@
 				level: 1
 			}],
 			Stats: {
-				MiningSpeed: 666.0f,
 				FreeModifiers: 5,
+				MiningSpeed: 666.0f,
 				AttackSpeedMultiplier: 1.0f,
 				HarvestLevel: 127,
 				Attack: 32768.0f,
@@ -43,19 +43,19 @@
 					"tool"
 				]
 			},
-			StatsOriginal: {
-				MiningSpeed: 666.0f,
-				FreeModifiers: 3,
-				AttackSpeedMultiplier: 1.0f,
-				HarvestLevel: 127,
-				Attack: 32768.0f,
-				Durability: 121430
-			},
 			Traits: [
 				"tconevo.infinitum",
 				"tconevo.omnipotence",
 				"toolleveling"
-			]
+			],
+			StatsOriginal: {
+				FreeModifiers: 3,
+				MiningSpeed: 666.0f,
+				AttackSpeedMultiplier: 1.0f,
+				HarvestLevel: 127,
+				Attack: 32768.0f,
+				Durability: 121430
+			}
 		}
 	},
 	always_invisible: 0b,

@@ -1,7 +1,11 @@
 {
-	title: "§b锆锭",
+	title: "§b反应堆之心",
 	x: -3.5d,
 	y: 12.5d,
+	description: "获得锆锭",
+	text: [
+		""
+	],
 	dependencies: [
 		"54050e05"
 	],
@@ -11,5 +15,22 @@
 		items: [{
 			item: "nuclearcraft:ingot 1 10"
 		}]
+	}],
+	rewards: [{
+		uid: "1718b94f",
+		type: "item",
+		item: "nuclearcraft:ingot 1 10",
+		count: 32,
+		random_bonus: 32
+	},
+	{
+		uid: "daeab267",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "3476ef9b",
+		type: "xp",
+		xp: 3600
 	}]
 }

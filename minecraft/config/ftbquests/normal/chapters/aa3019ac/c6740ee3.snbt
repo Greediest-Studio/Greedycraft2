@@ -1,11 +1,32 @@
 {
+	title: "§b苏打水（bushi）",
 	x: -1.0d,
 	y: 8.5d,
+	description: "电解氯化钠制得钠锭",
+	text: [
+		""
+	],
 	tasks: [{
 		uid: "cd7df5ff",
 		type: "item",
 		items: [{
 			item: "additions:sodium_ingot"
 		}]
+	}],
+	rewards: [{
+		uid: "573bd497",
+		type: "item",
+		item: "additions:sodium_ingot",
+		count: 16
+	},
+	{
+		uid: "1ddf4eca",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "a5b85e28",
+		type: "xp",
+		xp: 1100
 	}]
 }
