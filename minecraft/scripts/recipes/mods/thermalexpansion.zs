@@ -62,6 +62,7 @@ Transposer.addFillRecipe(<additions:thermallite_ingot>, <additions:thermallite_c
 Transposer.addFillRecipe(<jaopca:dust.husturite>, <jaopca:dust.cthulhurite>, <liquid:aerotheum> * 6400, 400000);
 Transposer.addFillRecipe(<additions:glowing_crystal>, <astralsorcery:itemcraftingcomponent>, <liquid:glowstone> * 750, 3000);
 Transposer.addFillRecipe(<elementalend:arid_eye>, <minecraft:ender_eye>, <liquid:sand> * 5000, 20000);
+Transposer.addFillRecipe(<industrialforegoing:pink_slime_ingot>, <additions:stainless_steel_ingot>, <liquid:if.pink_slime> * 2000, 4000);
 
 Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:1>, 200000);
 Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:2>, 400000);
@@ -71,6 +72,7 @@ Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:5>
 Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:6>, 1200000);
 Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:7>, 1400000);
 Infuser.addRecipe(<draconicevolution:draconium_block:1>, <draconicevolution:draconium_block>, 100000);
+Infuser.addRecipe(<tiths:block_inert_witherium>, <tiths:block_witherium>, 100000);
 
 Coolant.addCoolant(<liquid:cryonium>, 6000000, 75);
 Coolant.addCoolant(<liquid:ice_alloy>, 7000000, 80);

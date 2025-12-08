@@ -532,7 +532,9 @@ GameStagesUtil.stageNether.addIngredients([
     <additions:iciricium_scroll>,
     <additions:gem_of_sing>,
     <additions:balancite_ingot>,
-    <additions:balancite_block>
+    <additions:balancite_block>,
+    <industrialforegoing:pink_slime_ingot>,
+    <industrialforegoing:pink_slime>
 ], true);
 
 GameStagesUtil.stageNether.addIngredients([

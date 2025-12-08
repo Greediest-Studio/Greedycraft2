@@ -1,3 +1,5 @@
-import mods.industrialforegoing.LaserDrill;
+import mods.industrialforegoing.FluidSievingMachine;
 
-LaserDrill.remove(<netherendingores:ore_end_modded_1:13>);
+FluidSievingMachine.remove(<industrialforegoing:pink_slime_ingot>);
+
+FluidSievingMachine.add(<liquid:if.pink_slime> * 2000, <industrialforegoing:pink_slime_ingot>, <additions:stainless_steel_ingot>);
