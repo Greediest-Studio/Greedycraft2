@@ -1,0 +1,29 @@
+{
+	title: "§b另一种八倍矿",
+	x: -15.0d,
+	y: 13.0d,
+	description: "合成洗矿厂，可以配合肉汤实现对矿物的八倍增产",
+	text: [
+		""
+	],
+	dependencies: [
+		"29a88edf"
+	],
+	tasks: [{
+		uid: "32a7e1b1",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:ore_washer"
+		}]
+	}],
+	rewards: [{
+		uid: "3fb681ba",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "a0dc8893",
+		type: "xp",
+		xp: 3000
+	}]
+}

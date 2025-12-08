@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "镉矿石",
+    "tooltip": "§b§o由镭射钻采集获得",
+    "ore_dict": "oreCadmium",
+    "type": "additions:block_simple"
+  },
+  "name": "镉矿石",
+  "material": "minecraft:stone",
+  "hardness": 30.0,
+  "resistance": 4000.0,
+  "harvest_level": 13,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

@@ -1,0 +1,29 @@
+{
+	title: "§b老少分离",
+	x: -11.0d,
+	y: 8.0d,
+	description: "合成幼仔分管机",
+	text: [
+		"养鸡场自动化+1"
+	],
+	dependencies: [
+		"7d02295e"
+	],
+	tasks: [{
+		uid: "b80a6814",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_independence_selector"
+		}]
+	}],
+	rewards: [{
+		uid: "32ba7d2e",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "8921a445",
+		type: "xp",
+		xp: 2500
+	}]
+}

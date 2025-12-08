@@ -1,0 +1,36 @@
+{
+	title: "§b先锋之始",
+	x: -11.0d,
+	y: 11.0d,
+	description: "合成工业先锋系列机器外壳",
+	text: [
+		""
+	],
+	dependencies: [
+		"31f4ba66"
+	],
+	tasks: [{
+		uid: "79a1f9f3",
+		type: "item",
+		items: [{
+			item: "teslacorelib:machine_case"
+		}]
+	}],
+	rewards: [{
+		uid: "2c60de2b",
+		type: "item",
+		item: "industrialforegoing:plastic",
+		count: 8,
+		random_bonus: 4
+	},
+	{
+		uid: "3cb8f947",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "a737c4c2",
+		type: "xp",
+		xp: 2300
+	}]
+}

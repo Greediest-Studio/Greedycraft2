@@ -1,0 +1,41 @@
+{
+	title: "§b下界之星的最终方案",
+	x: -12.0d,
+	y: 13.0d,
+	description: "合成凋灵生成器",
+	text: [
+		"或许是吧……？"
+	],
+	dependencies: [
+		"7d02295e"
+	],
+	tasks: [{
+		uid: "f92b059e",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:wither_builder"
+		}]
+	}],
+	rewards: [{
+		uid: "3bf29233",
+		type: "item",
+		item: "minecraft:skull 1 1",
+		count: 30
+	},
+	{
+		uid: "2439b447",
+		type: "item",
+		item: "minecraft:soul_sand",
+		count: 40
+	},
+	{
+		uid: "07bc4478",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "fa7a92de",
+		type: "xp",
+		xp: 4000
+	}]
+}

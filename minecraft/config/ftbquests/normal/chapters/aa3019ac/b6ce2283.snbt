@@ -1,0 +1,29 @@
+{
+	title: "§b并非流体转置",
+	x: -15.0d,
+	y: 9.0d,
+	description: "合成流体筛分机",
+	text: [
+		"八倍矿的最后一步！"
+	],
+	dependencies: [
+		"29a88edf"
+	],
+	tasks: [{
+		uid: "a64fe0df",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:ore_sieve"
+		}]
+	}],
+	rewards: [{
+		uid: "a42cd48a",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "5f8f7be9",
+		type: "xp",
+		xp: 3000
+	}]
+}

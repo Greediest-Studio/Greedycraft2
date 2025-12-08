@@ -128,12 +128,11 @@
 						},
 						Damage: 0s
 					},
-					nuclearcraft: {
-						id: "patchouli:guide_book",
+					aether_legacy: {
+						id: "aether_legacy:lore_book",
 						Count: 1b,
 						tag: {
-							"akashictome:definedMod": "nuclearcraft",
-							"patchouli:book": "nuclearcraft:guide"
+							"akashictome:definedMod": "aether_legacy"
 						},
 						Damage: 0s
 					},
@@ -153,12 +152,11 @@
 						},
 						Damage: 0s
 					},
-					packagedauto: {
-						id: "patchouli:guide_book",
+					projecte: {
+						id: "projecte:item.pe_manual",
 						Count: 1b,
 						tag: {
-							"akashictome:definedMod": "packagedauto",
-							"patchouli:book": "packagedauto:guide"
+							"akashictome:definedMod": "projecte"
 						},
 						Damage: 0s
 					},
@@ -176,11 +174,12 @@
 						},
 						Damage: 0s
 					},
-					projecte: {
-						id: "projecte:item.pe_manual",
+					packagedauto: {
+						id: "patchouli:guide_book",
 						Count: 1b,
 						tag: {
-							"akashictome:definedMod": "projecte"
+							"akashictome:definedMod": "packagedauto",
+							"patchouli:book": "packagedauto:guide"
 						},
 						Damage: 0s
 					},
@@ -192,11 +191,12 @@
 						},
 						Damage: 0s
 					},
-					aether_legacy: {
-						id: "aether_legacy:lore_book",
+					nuclearcraft: {
+						id: "patchouli:guide_book",
 						Count: 1b,
 						tag: {
-							"akashictome:definedMod": "aether_legacy"
+							"akashictome:definedMod": "nuclearcraft",
+							"patchouli:book": "nuclearcraft:guide"
 						},
 						Damage: 0s
 					},
@@ -441,19 +441,19 @@
 						},
 						Damage: 1s
 					},
-					bloodmagic1: {
-						id: "guideapi:bloodmagic-guide",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "bloodmagic1"
-						},
-						Damage: 0s
-					},
 					rustic: {
 						id: "rustic:book",
 						Count: 1b,
 						tag: {
 							"akashictome:definedMod": "rustic"
+						},
+						Damage: 0s
+					},
+					bloodmagic1: {
+						id: "guideapi:bloodmagic-guide",
+						Count: 1b,
+						tag: {
+							"akashictome:definedMod": "bloodmagic1"
 						},
 						Damage: 0s
 					}

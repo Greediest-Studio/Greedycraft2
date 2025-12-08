@@ -278,3 +278,23 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <teslacorelib:machine_case> * 4
 	[<ore:itemRubber>, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, <ore:ingotNiobiumTitanium>, <ore:ingotZirconiumMolybdenum>, <ore:ingotZirconiumMolybdenum>, <ore:itemRubber>], 
 	[<ore:ingotExtreme>, <ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>, <ore:ingotExtreme>]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <industrialforegoing:laser_drill>, [
+	[<ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>, <industrialforegoing:laser_lens>, <ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>], 
+	[<ore:itemRubber>, <ore:gearCrystalMatrix>, <ore:blockBlueAlloy>, <tiths:block_consolidated_glass>, <ore:blockBlueAlloy>, <ore:gearCrystalMatrix>, <ore:itemRubber>], 
+	[<ore:itemRubber>, <ore:blockBlueAlloy>, <ore:gearCrystalMatrix>, null, <ore:gearCrystalMatrix>, <ore:blockBlueAlloy>, <ore:itemRubber>], 
+	[<industrialforegoing:laser_lens>, <tiths:block_consolidated_glass>, null, <ore:circuitDreamic>, null, <tiths:block_consolidated_glass>, <industrialforegoing:laser_lens>], 
+	[<ore:itemRubber>, <ore:blockBlueAlloy>, <ore:gearCrystalMatrix>, null, <ore:gearCrystalMatrix>, <ore:blockBlueAlloy>, <ore:itemRubber>], 
+	[<ore:itemRubber>, <ore:gearCrystalMatrix>, <ore:blockBlueAlloy>, <tiths:block_consolidated_glass>, <ore:blockBlueAlloy>, <ore:gearCrystalMatrix>, <ore:itemRubber>], 
+	[<ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>, <industrialforegoing:laser_lens>, <ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <industrialforegoing:laser_base>, [
+	[<ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>, <ore:blockRefinedGlowstone>, <ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>], 
+	[<ore:itemRubber>, <ore:gearExtreme>, <ore:gearExtreme>, <ore:blockRefinedGlowstone>, <ore:gearExtreme>, <ore:gearExtreme>, <ore:itemRubber>], 
+	[<ore:itemRubber>, <ore:gearExtreme>, <industrialforegoing:laser_lens:15>, <ore:circuitArcane>, <industrialforegoing:laser_lens:15>, <ore:gearExtreme>, <ore:itemRubber>], 
+	[<ore:blockRefinedGlowstone>, <ore:blockRefinedGlowstone>, <ore:circuitArcane>, <industrialforegoing:laser_lens_inverted:15>, <ore:circuitArcane>, <ore:blockRefinedGlowstone>, <ore:blockRefinedGlowstone>], 
+	[<ore:itemRubber>, <ore:gearExtreme>, <industrialforegoing:laser_lens:15>, <ore:circuitArcane>, <industrialforegoing:laser_lens:15>, <ore:gearExtreme>, <ore:itemRubber>], 
+	[<ore:itemRubber>, <ore:gearExtreme>, <ore:gearExtreme>, <ore:blockRefinedGlowstone>, <ore:gearExtreme>, <ore:gearExtreme>, <ore:itemRubber>], 
+	[<ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>, <ore:blockRefinedGlowstone>, <ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>]
+]);

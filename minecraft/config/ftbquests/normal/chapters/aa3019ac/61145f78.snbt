@@ -1,0 +1,29 @@
+{
+	title: "§b快快长大",
+	x: -12.5d,
+	y: 8.5d,
+	description: "合成动物生长加速器",
+	text: [
+		""
+	],
+	dependencies: [
+		"7d02295e"
+	],
+	tasks: [{
+		uid: "cf0b4c1f",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_growth_increaser"
+		}]
+	}],
+	rewards: [{
+		uid: "f4b7a97a",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "c4c34c2d",
+		type: "xp",
+		xp: 2500
+	}]
+}

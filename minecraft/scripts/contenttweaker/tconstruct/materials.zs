@@ -613,6 +613,23 @@ vivid_alloy.addPlatesMaterialStats(2.5, 25, 2.5);
 vivid_alloy.addTrimMaterialStats(40);
 vivid_alloy.register();
 
+val crystalline_pink_slime = ExtendedMaterialBuilder.create("crystalline_pink_slime_gc");
+crystalline_pink_slime.color = Color.fromHex("fcbff2").getIntColor();
+crystalline_pink_slime.craftable = false;
+crystalline_pink_slime.castable = true;
+crystalline_pink_slime.representativeItem = <item:enderio:item_alloy_endergy_ingot:4>;
+crystalline_pink_slime.liquid = <liquid:crystalline_pink_slime>;
+crystalline_pink_slime.addItem(<ore:ingotCrystallinePinkSlime>);
+crystalline_pink_slime.localizedName = game.localize("greedycraft.tconstruct.material.crystalline_pink_slime.name");
+crystalline_pink_slime.addHeadMaterialStats(1200, 10.5, 12.4, 4);
+crystalline_pink_slime.addHandleMaterialStats(1.3, 300);
+crystalline_pink_slime.addExtraMaterialStats(400);
+crystalline_pink_slime.addBowMaterialStats(getDrawSpeed(1.1) as float, 1.4, 9.0);
+crystalline_pink_slime.addCoreMaterialStats(105, 23);
+crystalline_pink_slime.addPlatesMaterialStats(2.0, 23, 3.0);
+crystalline_pink_slime.addTrimMaterialStats(42);
+crystalline_pink_slime.register();
+
 val stellar_alloy = MaterialBuilder.create("stellar_alloy_gc");
 stellar_alloy.color = Color.fromHex("e0e0e0").getIntColor(); 
 stellar_alloy.craftable = false;

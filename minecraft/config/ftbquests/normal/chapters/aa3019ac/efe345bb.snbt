@@ -1,0 +1,36 @@
+{
+	title: "§b稀散矿石",
+	x: -11.0d,
+	y: 15.0d,
+	description: "使用镭射钻采集并获得镉矿石",
+	text: [
+		"这个矿石只能使用镭射钻采集（没错，甚至没法使用矿机）"
+	],
+	dependencies: [
+		"4962d4b9"
+	],
+	tasks: [{
+		uid: "c1bc8c87",
+		type: "item",
+		items: [{
+			item: "additions:cadmium_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "bd61cca9",
+		type: "item",
+		item: "additions:cadmium_ingot",
+		count: 16,
+		random_bonus: 16
+	},
+	{
+		uid: "08e068e8",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "8acf6c61",
+		type: "xp",
+		xp: 16000
+	}]
+}

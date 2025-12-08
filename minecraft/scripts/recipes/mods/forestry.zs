@@ -13,6 +13,7 @@ import crafttweaker.oredict.IOreDictEntry;
 import mods.jei.JEI;
 
 import mods.forestry.Carpenter;
+import mods.forestry.Centrifuge;
 
 import mods.zenutils.I18n;
 

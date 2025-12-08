@@ -1,0 +1,29 @@
+{
+	title: "§b发酵工程",
+	x: -15.0d,
+	y: 11.0d,
+	description: "合成发酵站，可以发酵矿物肉汤",
+	text: [
+		""
+	],
+	dependencies: [
+		"29a88edf"
+	],
+	tasks: [{
+		uid: "62ffa3ac",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:ore_fermenter"
+		}]
+	}],
+	rewards: [{
+		uid: "8e53d6b5",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "e470e3fd",
+		type: "xp",
+		xp: 3000
+	}]
+}

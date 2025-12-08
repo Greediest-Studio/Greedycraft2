@@ -532,9 +532,7 @@ GameStagesUtil.stageNether.addIngredients([
     <additions:iciricium_scroll>,
     <additions:gem_of_sing>,
     <additions:balancite_ingot>,
-    <additions:balancite_block>,
-    <industrialforegoing:pink_slime_ingot>,
-    <industrialforegoing:pink_slime>
+    <additions:balancite_block>
 ], true);
 
 GameStagesUtil.stageNether.addIngredients([
@@ -2053,7 +2051,12 @@ GameStagesUtil.stageEpicEngineer.addIngredients([
     <moretcon:ingotirradium>,
     <moretcon:blockirradium>,
     <moretcon:nuggetirradium>,
-    <moretcon:dustirradium>
+    <moretcon:dustirradium>,
+    <ore:oreCadmium>,
+    <ore:ingotCadmium>,
+    <ore:nuggetCadmium>,
+    <ore:blockCadmium>,
+    <ore:dustCadmium>
 ], true);
 
 GameStagesUtil.stageChallenger1.addIngredients([

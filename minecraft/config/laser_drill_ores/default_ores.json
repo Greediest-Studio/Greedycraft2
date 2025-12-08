@@ -607,5 +607,18 @@
 				"weight": 6
 			}
 		]
+	},
+	{
+		"item": "oreCadmium",
+		"color": 11,
+		"rarity": [
+			{
+				"whitelist": "",
+				"blacklist": "minecraft:hell, minecraft:sky",
+				"depth_min": 0,
+				"depth_max": 8,
+				"weight": 1
+			}
+		]
 	}
 ]

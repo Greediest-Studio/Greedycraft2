@@ -1,0 +1,41 @@
+{
+	title: "§b看似高科技",
+	x: -10.0d,
+	y: 13.0d,
+	description: "搭建镭射钻结构",
+	text: [
+		"建议多做一些（）"
+	],
+	dependencies: [
+		"7d02295e"
+	],
+	tasks: [{
+		uid: "f0ca7a13",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_base"
+		}]
+	},
+	{
+		uid: "18954461",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_drill"
+		}]
+	}],
+	rewards: [{
+		uid: "3a186825",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "c13d1123",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "811a1757",
+		type: "xp",
+		xp: 6000
+	}]
+}

@@ -1484,7 +1484,8 @@ var disabledItems as IIngredient[] = [
     <thermalexpansion:device:9>,
     <tiths:ore_witherium>,
     <botania:baublebox>,
-    <variegated:defiled_ground>
+    <variegated:defiled_ground>,
+    <extrabees:honey_comb:26>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [

@@ -1,0 +1,29 @@
+{
+	title: "§b哇，有教培",
+	x: -9.5d,
+	y: 8.5d,
+	description: "合成饲育机，用于繁殖动物",
+	text: [
+		""
+	],
+	dependencies: [
+		"7d02295e"
+	],
+	tasks: [{
+		uid: "3ee5b1b2",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:animal_stock_increaser"
+		}]
+	}],
+	rewards: [{
+		uid: "41d399ab",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "c959e50b",
+		type: "xp",
+		xp: 2500
+	}]
+}

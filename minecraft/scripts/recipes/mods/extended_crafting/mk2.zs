@@ -446,4 +446,36 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:eco_basic_alloy_ingo
 	[null, null, null, null, null]
 ]);
 
+mods.extendedcrafting.TableCrafting.addShaped(0, <industrialforegoing:mob_slaughter_factory>, [
+	[<ore:itemRubber>, <ore:itemRubber>, <ore:gearPorpezite>, <ore:itemRubber>, <ore:itemRubber>], 
+	[<ore:itemRubber>, <erebus:jade_sword>, <ore:ingotBreedum>, <erebus:jade_sword>, <ore:itemRubber>], 
+	[<ore:gearPorpezite>, <ore:ingotBreedum>, <teslacorelib:machine_case>, <ore:ingotBreedum>, <ore:gearPorpezite>], 
+	[<ore:itemRubber>, <erebus:jade_sword>, <ore:ingotBreedum>, <erebus:jade_sword>, <ore:itemRubber>], 
+	[<ore:itemRubber>, <ore:itemRubber>, <ore:gearPorpezite>, <ore:itemRubber>, <ore:itemRubber>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <industrialforegoing:ore_sieve>, [
+	[<ore:itemRubber>, <ore:itemRubber>, <ore:barsIron>, <ore:itemRubber>, <ore:itemRubber>], 
+	[<ore:itemRubber>, <ore:blockCrystallinePinkSlime>, <teslacorelib:machine_case>, <ore:blockCrystallinePinkSlime>, <ore:itemRubber>], 
+	[<ore:barsIron>, <teslacorelib:machine_case>, <ore:circuitDreamic>, <teslacorelib:machine_case>, <ore:barsIron>], 
+	[<ore:itemRubber>, <ore:blockCrystallinePinkSlime>, <ore:gearThermallite>, <ore:blockCrystallinePinkSlime>, <ore:itemRubber>], 
+	[<ore:itemRubber>, <ore:itemRubber>, <ore:barsIron>, <ore:itemRubber>, <ore:itemRubber>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <industrialforegoing:ore_washer>, [
+	[<ore:itemRubber>, <ore:itemRubber>, <industrialforegoing:meat_feeder>, <ore:itemRubber>, <ore:itemRubber>], 
+	[<ore:itemRubber>, <ore:circuitArcane>, <teslacorelib:machine_case>, <ore:circuitArcane>, <ore:itemRubber>], 
+	[<industrialforegoing:conveyor:*>, <industrialforegoing:conveyor:*>, <industrialforegoing:conveyor:*>, <industrialforegoing:conveyor:*>, <industrialforegoing:conveyor:*>], 
+	[<ore:itemRubber>, <ore:circuitArcane>, <teslacorelib:machine_case>, <ore:circuitArcane>, <ore:itemRubber>], 
+	[<ore:itemRubber>, <ore:itemRubber>, <ore:gearTwilit>, <ore:itemRubber>, <ore:itemRubber>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <industrialforegoing:ore_fermenter>, [
+	[<ore:itemRubber>, <ore:itemRubber>, <ore:barsIron>, <ore:itemRubber>, <ore:itemRubber>], 
+	[<ore:itemRubber>, <ore:logWood>, <ore:circuitArcane>, <ore:logWood>, <ore:itemRubber>], 
+	[<ore:barsIron>, <ore:circuitArcane>, <ore:gearCreativeAlloy>, <ore:circuitArcane>, <ore:barsIron>], 
+	[<ore:itemRubber>, <ore:logWood>, <ore:circuitArcane>, <ore:logWood>, <ore:itemRubber>], 
+	[<ore:itemRubber>, <ore:itemRubber>, <ore:barsIron>, <ore:itemRubber>, <ore:itemRubber>]
+]);
+
 mods.extendedcrafting.TableCrafting.addShapeless(0, <industrialforegoing:plastic> * 3, [<ore:ingotPolyethersulfone>, <ore:ingotZirfon>, <ore:ingotPolytetrafluoroethene>, <ore:ingotPolymethylsilyleneMethylene>, <ore:sheetHDPE>]);

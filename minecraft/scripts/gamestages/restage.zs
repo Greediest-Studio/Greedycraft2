@@ -127,6 +127,10 @@ GameStagesUtil.restageItems("getting_started", [
     <ore:ingotConstantan>,
     <ore:ingotSignalum>
 ]);
+GameStagesUtil.restageItems("nether", [
+    <industrialforegoing:pink_slime_ingot>,
+    <industrialforegoing:pink_slime>
+]);
 GameStagesUtil.restageItems("fusion_matrix", [ 
     <ore:dustDraconium>,
     <draconicevolution:wyvern_core>,
