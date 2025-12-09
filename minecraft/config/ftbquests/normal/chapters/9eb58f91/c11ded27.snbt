@@ -2,6 +2,10 @@
 	title: "§b修改样板",
 	x: -11.5d,
 	y: 6.0d,
+	description: "合成多功能样板工具",
+	text: [
+		""
+	],
 	dependencies: [
 		"32b91478"
 	],
@@ -13,5 +17,15 @@
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b6698f34",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "f3a662ae",
+		type: "xp",
+		xp: 100
 	}]
 }

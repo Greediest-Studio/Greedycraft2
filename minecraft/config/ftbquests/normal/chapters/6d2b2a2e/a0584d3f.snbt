@@ -1,0 +1,29 @@
+{
+	title: "§b生物诱捕（一）",
+	x: 13.0d,
+	y: 1.5d,
+	description: "在腐朽之地击杀蚂蚁，获得蚂蚁信息素",
+	text: [
+		""
+	],
+	dependencies: [
+		"55bd2e15"
+	],
+	tasks: [{
+		uid: "eb83c6ad",
+		type: "item",
+		items: [{
+			item: "erebus:materials 1 37"
+		}]
+	}],
+	rewards: [{
+		uid: "7d8ff2d8",
+		type: "xp",
+		xp: 12000
+	},
+	{
+		uid: "fa5fd592",
+		type: "random",
+		table: 3
+	}]
+}

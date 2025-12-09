@@ -1,0 +1,34 @@
+{
+	title: "§c【可重复】 截断腐朽",
+	x: 13.0d,
+	y: 5.5d,
+	description: "再次击杀腐朽蚁皇",
+	text: [
+		""
+	],
+	dependencies: [
+		"7d94be17"
+	],
+	tasks: [{
+		uid: "c55a83f1",
+		type: "kill",
+		entity: "erebus:erebus.corrupted_ant_emperor",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "a492370d",
+		type: "item",
+		item: "additions:ant_emperor_ingot",
+		random_bonus: 1
+	},
+	{
+		uid: "7c1e79ec",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "4137a35a",
+		type: "random",
+		table: 4
+	}]
+}

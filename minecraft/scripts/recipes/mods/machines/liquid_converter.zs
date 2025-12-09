@@ -29,7 +29,6 @@ MachineModifier.setInternalParallelism("liquid_converter", 2147483647);
 MachineModifier.setMaxParallelism("liquid_converter", 2147483647);
 
 val converterRecipes as ILiquidStack[][] = [
-    [<liquid:xpjuice> * 100, <liquid:experience> * 100],
     [<liquid:honey> * 100, <liquid:for.honey> * 100],
     [<liquid:milk_chocolate> * 100, <liquid:liquid_chocolate> * 100],
     [<liquid:resin> * 100, <liquid:binnie.resin> * 100],

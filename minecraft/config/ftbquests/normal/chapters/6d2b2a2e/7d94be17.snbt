@@ -1,0 +1,48 @@
+{
+	title: "§b暗紫腐朽",
+	x: 12.0d,
+	y: 5.5d,
+	description: "击杀腐朽蚁皇，获得蚁皇锭",
+	text: [
+		"使用蚁皇诱饵在腐朽之地右键蚁壳即可触发“蚁群入侵”事件",
+		"完成8波蚂蚁入侵后，击杀BOSS腐朽蚁皇"
+	],
+	dependencies: [
+		"b638eb6d",
+		"38e12bd6"
+	],
+	tasks: [{
+		uid: "caa3a112",
+		type: "item",
+		items: [{
+			item: "additions:ant_emperor_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "abd41f54",
+		type: "item",
+		item: "additions:ant_emperor_ingot",
+		count: 3,
+		random_bonus: 2
+	},
+	{
+		uid: "d0c58bee",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "5f368165",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "534d7ed4",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "705f5ef3",
+		type: "xp",
+		xp: 60000
+	}]
+}

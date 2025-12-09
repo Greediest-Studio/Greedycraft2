@@ -86,56 +86,6 @@ import scripts.util.oredict as OredictUtil;
 
 <ore:ingotCthulhurite>.add(<gct_mobs:cthulhurite_ingot>);
 <ore:starlight>.add(<journey:sapphire>);
-/*
-var vetheaDisabled as IItemStack[] = [
-    <waystones:warp_stone>,
-    <waystones:waystone>,
-    <waystones:warp_scroll>,
-    <bountifulbaubles:wormholemirror>,
-    <bountifulbaubles:magicmirror>,
-    <bountifulbaubles:potionrecall>,
-    <bountifulbaubles:potionwormhole>,
-    <draconicevolution:dislocator>,
-    <draconicevolution:dislocator_advanced>,
-    <botania:flugeleye>,
-    <compactmachines3:machine>,
-    <compactmachines3:machine:1>,
-    <compactmachines3:machine:2>,
-    <compactmachines3:machine:3>,
-    <compactmachines3:machine:4>,
-    <compactmachines3:machine:5>,
-    <minecraft:bucket>,
-    <minecraft:water_bucket>,
-    <minecraft:lava_bucket>,
-    <forge:bucketfilled>,
-    <thermalexpansion:florb>,
-    <thermalexpansion:reservoir>,
-    <minecraft:gold_ingot>,
-    <appliedenergistics2:material>,
-    <minecraft:redstone>,
-    <thermalfoundation:material:163>,
-    <thermalfoundation:material:128>,
-    <tcomplement:cast_clay>,
-    <tconstruct:clay_cast>,
-    <minecraft:ender_chest>,
-    <minecraft:ender_eye>,
-    <minecraft:blaze_powder>,
-    <minecraft:ender_pearl>,
-    <minecraft:ender_chest>,
-    <extrautils2:user>,
-    <minecraft:ender_pearl>,
-    <minecraft:ender_eye>,
-    <minecraft:blaze_powder>,
-    <minecraft:blaze_rod>,
-    <minecraft:obsidian>
-];
-if (!isNull(itemUtils.getItem("utilityworlds:portal_void"))) {
-    vetheaDisabled += itemUtils.getItem("utilityworlds:portal_void");
-    vetheaDisabled += itemUtils.getItem("utilityworlds:portal_garden");
-}
-for item in vetheaDisabled {
-    <ore:vetheaDisabled>.add(item);
-} */
 
 var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:logWood> : [
@@ -1278,7 +1228,44 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:gemMoonstoneTiths> : [<tiths:moon_stone>],
     <ore:blockMoonstoneTiths> : [<tiths:block_moon_stone>],
     <ore:oreMoonstoneTiths> : [<tiths:ore_moon_stone>],
-    <ore:elvenPixieDust> : [<iceandfire:pixie_dust>]
+    <ore:elvenPixieDust> : [<iceandfire:pixie_dust>],
+    <ore:plantErebus> : [
+        <erebus:planted_flower>,
+        <erebus:planted_flower:1>,
+        <erebus:planted_flower:2>,
+        <erebus:planted_flower:3>,
+        <erebus:planted_flower:4>,
+        <erebus:planted_flower:5>,
+        <erebus:planted_flower:6>,
+        <erebus:planted_flower:7>,
+        <erebus:planted_flower:8>,
+        <erebus:planted_flower:9>,
+        <erebus:planted_flower:10>,
+        <erebus:planted_flower:11>,
+        <erebus:planted_flower:12>,
+        <erebus:planted_flower:13>,
+        <erebus:planted_flower:14>,
+        <erebus:small_plant>,
+        <erebus:small_plant:1>,
+        <erebus:small_plant:2>,
+        <erebus:small_plant:3>,
+        <erebus:small_plant:4>,
+        <erebus:small_plant:5>,
+        <erebus:small_plant:6>,
+        <erebus:double_plant>,
+        <erebus:double_plant:1>,
+        <erebus:double_plant:2>,
+        <erebus:double_plant:3>,
+        <erebus:double_plant:4>,
+        <erebus:double_plant:5>,
+        <erebus:double_plant:6>,
+        <erebus:double_plant:7>,
+        <erebus:dark_capped_mushroom>,
+        <erebus:sarcastic_czech_mushroom>,
+        <erebus:grandmas_shoes_mushroom>,
+        <erebus:dutch_cap_mushroom>,
+        <erebus:kaizers_fingers_mushroom>
+    ]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {

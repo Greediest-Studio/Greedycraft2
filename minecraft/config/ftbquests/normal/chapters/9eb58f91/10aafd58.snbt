@@ -1,7 +1,11 @@
 {
-	title: "伟大无需多言",
+	title: "§b电子眼",
 	x: -11.5d,
 	y: 4.0d,
+	description: "合成高级网络可视化工具",
+	text: [
+		""
+	],
 	dependencies: [
 		"adddb618"
 	],
@@ -13,5 +17,15 @@
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "18a58b09",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "360e4691",
+		type: "xp",
+		xp: 300
 	}]
 }

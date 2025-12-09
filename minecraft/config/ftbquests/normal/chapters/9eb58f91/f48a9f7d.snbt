@@ -1,7 +1,8 @@
 {
-	title: "§b小知识",
+	title: "§b并非环保",
 	x: -7.0d,
 	y: 4.0d,
+	description: "合成ECO基础合金（点击这里可以查看小知识）",
 	text: [
 		"ECO分为4,6,9级,驱动能力依次增强,",
 		"9级和6级的主机向下兼容",
@@ -15,7 +16,26 @@
 		"73220e86"
 	],
 	tasks: [{
-		uid: "4f4b3268",
-		type: "checkmark"
+		uid: "63e03071",
+		type: "item",
+		items: [{
+			item: "additions:eco_basic_alloy_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "5d92b781",
+		type: "item",
+		item: "additions:eco_basic_alloy_ingot",
+		count: 8
+	},
+	{
+		uid: "35c965c2",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "e440b621",
+		type: "xp",
+		xp: 2000
 	}]
 }

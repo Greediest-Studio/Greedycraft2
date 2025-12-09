@@ -1,0 +1,21 @@
+{
+	title: "§b生物诱捕（二）",
+	x: 12.5d,
+	y: 3.5d,
+	description: "合成蚁皇诱饵",
+	text: [
+		""
+	],
+	dependencies: [
+		"a0584d3f"
+	],
+	tasks: [{
+		uid: "9850c703",
+		type: "item",
+		items: [{
+			item: "additions:ant_emperor_bait"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

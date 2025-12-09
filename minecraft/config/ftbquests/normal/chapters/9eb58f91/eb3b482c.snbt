@@ -2,8 +2,8 @@
 	title: "§b超级大分子",
 	x: -4.0d,
 	y: 6.0d,
+	description: "ECO-F系列是一个超级分子装配室",
 	text: [
-		"ECO-F系列是一个超级分子装配室",
 		"需要加入冷却液才能更好的使用",
 		"并在控制器里确认是否打开超频"
 	],
@@ -16,5 +16,15 @@
 		items: [{
 			item: "ecoaeextension:extendable_fabricator_subsystem_l4"
 		}]
+	}],
+	rewards: [{
+		uid: "f5be05e1",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "e7a2a983",
+		type: "xp",
+		xp: 1000
 	}]
 }

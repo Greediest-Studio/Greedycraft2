@@ -25,6 +25,7 @@ import mods.nuclearcraft.Centrifuge;
 import mods.nuclearcraft.SaltMixer;
 import mods.nuclearcraft.IngotFormer;
 import mods.nuclearcraft.Registration;
+import mods.nuclearcraft.Extractor;
 import mods.tconstruct.Alloy;
 import mods.jaopca.JAOPCA;
 
@@ -565,6 +566,7 @@ Crystallizer.addRecipe(<liquid:zinc_chloride_solution> * 666, <additions:zinc_ch
 Crystallizer.addRecipe(<liquid:manganese_chloride_solution> * 666, <additions:manganese_chloride>);
 Crystallizer.addRecipe(<liquid:sodium_hydrogen_carbonate_solution> * 666, <additions:sodium_hydrogen_carbonate>);
 Crystallizer.addRecipe(<liquid:sodium_molybdate_solution> * 666, <additions:sodium_molybdate>);
+Crystallizer.addRecipe(<liquid:erebus_organic_fluid> * 500, <additions:erebus_complex>);
 
 Enricher.addRecipe(<ore:dustIodine>, <liquid:carbon_tetrachloride> * 200, <liquid:iodine_carbon_tetrachloride_solution> * 200);
 Enricher.addRecipe(<ore:ingotIodine>, <liquid:carbon_tetrachloride> * 200, <liquid:iodine_carbon_tetrachloride_solution> * 200);
@@ -622,6 +624,48 @@ Separator.addRecipe(<ore:dustSodiumChloroplatinate>, PtCl4, NaCl * 2);
 Separator.addRecipe(<ore:dustPotassiumChloroplatinate>, PtCl4, KCl * 2);
 Separator.addRecipe(<ore:dustRubidiumChloroplatinate>, PtCl4, RbCl * 2);
 Separator.addRecipe(<ore:dustCesiumChloroplatinate>, PtCl4, CsCl * 2);
+
+val ErebusPlants as IItemStack[] = [
+    <erebus:planted_flower>,
+    <erebus:planted_flower:1>,
+    <erebus:planted_flower:2>,
+    <erebus:planted_flower:3>,
+    <erebus:planted_flower:4>,
+    <erebus:planted_flower:5>,
+    <erebus:planted_flower:6>,
+    <erebus:planted_flower:7>,
+    <erebus:planted_flower:8>,
+    <erebus:planted_flower:9>,
+    <erebus:planted_flower:10>,
+    <erebus:planted_flower:11>,
+    <erebus:planted_flower:12>,
+    <erebus:planted_flower:13>,
+    <erebus:planted_flower:14>,
+    <erebus:small_plant>,
+    <erebus:small_plant:1>,
+    <erebus:small_plant:2>,
+    <erebus:small_plant:3>,
+    <erebus:small_plant:4>,
+    <erebus:small_plant:5>,
+    <erebus:small_plant:6>,
+    <erebus:double_plant>,
+    <erebus:double_plant:1>,
+    <erebus:double_plant:2>,
+    <erebus:double_plant:3>,
+    <erebus:double_plant:4>,
+    <erebus:double_plant:5>,
+    <erebus:double_plant:6>,
+    <erebus:double_plant:7>,
+    <erebus:dark_capped_mushroom>,
+    <erebus:sarcastic_czech_mushroom>,
+    <erebus:grandmas_shoes_mushroom>,
+    <erebus:dutch_cap_mushroom>,
+    <erebus:kaizers_fingers_mushroom>
+];
+
+for plant in ErebusPlants {
+    Extractor.addRecipe(plant, null, <liquid:erebus_organic_fluid> * 20);
+}
 
 Radiation.setMaterialRadiationLevel("Technetium", 0.000000000985d);
 Radiation.setMaterialRadiationLevel("Promethium", 0.064d);

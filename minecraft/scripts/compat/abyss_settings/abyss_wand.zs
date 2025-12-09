@@ -1286,6 +1286,12 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
                         shog2 = entity;
                         recipeString = "bloody";
                     }
+                    if (entity.definition.id == "erebus:erebus.zombie_ant_soldier" && shog1 instanceof IPlayer && catalyst.definition.id == "jaopca:dust.undead") {
+                        shog1 = entity;
+                    } else if (entity.definition.id == "erebus:erebus.zombie_ant_soldier" && shog2 instanceof IPlayer) {
+                        shog2 = entity;
+                        recipeString = "ant_shell";
+                    }
                 }
             }
             var book1 as IItemStack = <minecraft:stone>;
@@ -1322,6 +1328,8 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
                         addMobFusionToItem(shog1, shog2, <gct_aby:muddy_flesh>, pos, player);
                     } else if (recipeString == "bloody") {
                         addMobFusion(shog1, shog2, <entity:gct_aby:bloody_shoggoth>, pos, player);
+                    } else if (recipeString == "ant_shell") {
+                        addMobFusion(shog1, shog2, <entity:erebus:erebus.ant_shell>, pos, player);
                     }
                 }
             }

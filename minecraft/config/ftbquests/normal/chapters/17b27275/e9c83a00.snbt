@@ -1,7 +1,11 @@
 {
+	title: "§b到底有多少柄镰刀啊",
 	x: -1.0d,
 	y: 4.5d,
 	description: "使用镰刀破坏洞穴生成的地衣获得",
+	text: [
+		""
+	],
 	dependencies: [
 		"527a574f"
 	],

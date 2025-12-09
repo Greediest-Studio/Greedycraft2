@@ -2,7 +2,10 @@
 	title: "§b超级驱动器",
 	x: -7.0d,
 	y: 6.0d,
-	description: "ECO-L系列拥有海量存储空间,妈妈再也不用担心我磁盘满了",
+	description: "ECO-L系列拥有海量存储空间，妈妈再也不用担心我磁盘满了",
+	text: [
+		""
+	],
 	dependencies: [
 		"f48a9f7d"
 	],
@@ -12,5 +15,15 @@
 		items: [{
 			item: "ecoaeextension:extendable_digital_storage_subsystem_l4"
 		}]
+	}],
+	rewards: [{
+		uid: "6bb4c658",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "74e9289b",
+		type: "xp",
+		xp: 1000
 	}]
 }

@@ -1,8 +1,11 @@
 {
-	title: "§b超级超级cpu",
+	title: "§b超级超级CPU",
 	x: -10.0d,
 	y: 6.0d,
-	description: "你说这个cpu有多大?那你不用管,很大就对了",
+	description: "你说这个CPU有多大？那你不用管，很大就对了",
+	text: [
+		""
+	],
 	dependencies: [
 		"f48a9f7d"
 	],
@@ -12,5 +15,15 @@
 		items: [{
 			item: "ecoaeextension:extendable_calculator_subsystem_l4"
 		}]
+	}],
+	rewards: [{
+		uid: "23e05099",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "d0aec0fb",
+		type: "xp",
+		xp: 1000
 	}]
 }

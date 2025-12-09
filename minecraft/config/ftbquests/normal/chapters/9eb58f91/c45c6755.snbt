@@ -2,6 +2,10 @@
 	title: "§b自动请求任务",
 	x: -9.0d,
 	y: -2.0d,
+	description: "合成ME缓存指令器",
+	text: [
+		""
+	],
 	dependencies: [
 		"ddad20c5"
 	],

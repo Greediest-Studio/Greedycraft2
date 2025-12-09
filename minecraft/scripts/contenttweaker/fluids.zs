@@ -3357,3 +3357,15 @@ concentrated_soul_liquid.color = Color.fromHex("afa68b").getIntColor();
 concentrated_soul_liquid.stillLocation = "base:fluids/liquid";
 concentrated_soul_liquid.flowingLocation = "base:fluids/liquid_flow";
 concentrated_soul_liquid.register();
+
+val erebus_organic_fluid = mods.contenttweaker.VanillaFactory.createFluid("erebus_organic_fluid", Color.fromHex("798226").getIntColor());
+erebus_organic_fluid.material = <blockmaterial:water>;
+erebus_organic_fluid.viscosity = 300;
+erebus_organic_fluid.density = 800;
+erebus_organic_fluid.colorize = true;
+erebus_organic_fluid.temperature = 400;
+erebus_organic_fluid.luminosity = 0;
+erebus_organic_fluid.color = Color.fromHex("798226").getIntColor();
+erebus_organic_fluid.stillLocation = "base:fluids/liquid";
+erebus_organic_fluid.flowingLocation = "base:fluids/liquid_flow";
+erebus_organic_fluid.register();

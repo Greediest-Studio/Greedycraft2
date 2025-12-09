@@ -83,3 +83,4 @@ ConversionFluid.create(<liquid:liquidgeodesium>).addMatchFluid(<liquid:geodesium
 ConversionFluid.create(<liquid:liquidporksteel>).addMatchFluid(<liquid:porksteel>).register();
 ConversionFluid.create(<liquid:nitronite_fluid>).addMatchFluid(<liquid:nitronite>).register();
 ConversionFluid.create(<liquid:infinity_metal>).addMatchFluid(<liquid:infinity>).register();
+ConversionFluid.create(<liquid:experience>).addMatchFluid(<liquid:xpjuice>).addMatchFluid(<liquid:essence>).register();

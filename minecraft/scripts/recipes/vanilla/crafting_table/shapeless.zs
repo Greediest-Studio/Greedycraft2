@@ -534,3 +534,6 @@ RecipeUtil.addShapeless("quicksilver", <thaumcraft:quicksilver>,
 RecipeUtil.addShapeless("quicksilver_reverse", <additions:mercury_ingot>,
     [<ore:gemMercury>]
 );
+RecipeUtil.addShapeless("ant_emperor_bait", <additions:ant_emperor_bait>,
+    [<erebus:materials:37>, <erebus:materials:37>, <erebus:materials:37>, <erebus:materials:37>, <ore:dustAurune>, <ore:dustAurune>, <ore:gemHermaphroditic>, <ore:gemHermaphroditic>, <additions:erebus_complex>]
+);

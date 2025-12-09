@@ -2365,7 +2365,13 @@ GameStagesUtil.stageDeepDream.addIngredients([
     <ore:oreRotiron>,
     <contenttweaker:bauble_source_of_swamp>,
     <additions:source_of_swamp>,
-    <erebus:materials:*>
+    <erebus:materials:*>,
+    <additions:erebus_complex>,
+    <additions:ant_emperor_bait>,
+    <ore:ingotAntEmperor>,
+    <ore:nuggetAntEmperor>,
+    <ore:blockAntEmperor>,
+    <ore:dustAntEmperor>
 ], true);
 
 GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators", "mekceumoremachine", "mekeng"]);

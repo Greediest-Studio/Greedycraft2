@@ -1,8 +1,9 @@
 {
+	title: "§bECO存储矩阵",
 	x: -7.0d,
 	y: 8.0d,
+	description: "需要在驱动器放入存储矩阵",
 	text: [
-		"需要在驱动器放入存储矩阵",
 		"shift右键放入存储矩阵"
 	],
 	dependencies: [
@@ -24,5 +25,15 @@
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "647138ec",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "70bea417",
+		type: "xp",
+		xp: 1000
 	}]
 }

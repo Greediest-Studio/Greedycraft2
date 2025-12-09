@@ -1,7 +1,11 @@
 {
+	title: "§bECO样板总线",
 	x: -4.5d,
 	y: 8.0d,
 	description: "在里面可以放入样板",
+	text: [
+		""
+	],
 	dependencies: [
 		"eb3b482c"
 	],
@@ -11,5 +15,15 @@
 		items: [{
 			item: "ecoaeextension:efabricator_pattern_bus"
 		}]
+	}],
+	rewards: [{
+		uid: "d88bd579",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "9f2d932c",
+		type: "xp",
+		xp: 1000
 	}]
 }
