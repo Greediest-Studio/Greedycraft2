@@ -1424,7 +1424,6 @@ var disabledItems as IIngredient[] = [
     <modularmachinery:blockmanaprovideroutput>,
     <modularmachinery:blockaspectproviderinput>,
     <modularmachinery:blockaspectprovideroutput>,
-    <spiceoflife:bookfoodjournal>,
     <nae2:material:1>,
     <nae2:material:2>,
     <nae2:material:3>,
@@ -1485,7 +1484,8 @@ var disabledItems as IIngredient[] = [
     <tiths:ore_witherium>,
     <botania:baublebox>,
     <variegated:defiled_ground>,
-    <extrabees:honey_comb:26>
+    <extrabees:honey_comb:26>,
+    <erebus:wand_of_animation>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [
