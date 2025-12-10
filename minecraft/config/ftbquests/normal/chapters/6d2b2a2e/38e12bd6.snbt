@@ -1,7 +1,7 @@
 {
 	title: "§b掏空了",
-	x: 13.5d,
-	y: 3.5d,
+	x: 13.0d,
+	y: 5.5d,
 	description: "使用融合仪式融合两只僵尸兵蚁，得到蚁壳",
 	text: [
 		"使用§b不死粉§r作为催化剂"
@@ -24,5 +24,15 @@
 		match_type: "entity_id",
 		match: "erebus:erebus.ant_shell",
 		timer: 0L
+	}],
+	rewards: [{
+		uid: "edf8ec97",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "e299d6f2",
+		type: "xp",
+		xp: 10000
 	}]
 }

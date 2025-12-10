@@ -1,0 +1,18 @@
+{
+	title: "§b周期之外",
+	x: -1.5d,
+	y: 0.0d,
+	shape: "octagon",
+	description: "合成元素锭",
+	text: [
+		""
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "582555bd",
+		type: "item",
+		items: [{
+			item: "gct_mobs:elementine_ingot"
+		}]
+	}]
+}

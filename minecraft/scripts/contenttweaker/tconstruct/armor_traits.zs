@@ -3997,3 +3997,31 @@ star_orbitTrait.onHurt = function(trait, armor, player, source, damage, newDamag
     return newDamage;
 };
 star_orbitTrait.register();
+
+val dubhe_nightTrait = ArmorTraitBuilder.create("dubhe_night");
+dubhe_nightTrait.color = Color.fromHex("660099").getIntColor();
+dubhe_nightTrait.addItem(<item:contenttweaker:bauble_dubhe_night_clown>);
+dubhe_nightTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.dubhe_nightTrait.name");
+dubhe_nightTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.dubhe_nightTrait.desc");
+dubhe_nightTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        if (CotTicTraitLib.getPlayerTicHelmetTrait(player) has "dubhe_light_armor") {
+            return newDamage * 1.2f;
+        }
+    }
+    return newDamage;
+};
+dubhe_nightTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        if (CotTicTraitLib.getPlayerTicHelmetTrait(player) has "dubhe_light_armor") {
+            player.addPotionEffect(<potion:contenttweaker:erebus_protection>.makePotionEffect(20, 0, false, false));
+        }
+    }
+};
+dubhe_nightTrait.canApplyTogetherTrait = function(trait, otherTrait) {
+    if (otherTrait has "dubhe_light") {
+        return false;
+    }
+    return true;
+};
+dubhe_nightTrait.register();

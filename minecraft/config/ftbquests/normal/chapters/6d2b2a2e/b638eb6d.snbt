@@ -1,7 +1,7 @@
 {
 	title: "§b生物诱捕（二）",
-	x: 12.5d,
-	y: 3.5d,
+	x: 12.0d,
+	y: 5.5d,
 	description: "合成蚁皇诱饵",
 	text: [
 		""
@@ -17,5 +17,15 @@
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "56ef6390",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "cff27388",
+		type: "xp",
+		xp: 10000
 	}]
 }

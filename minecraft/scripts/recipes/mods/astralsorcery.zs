@@ -27,6 +27,17 @@ Altar.addDiscoveryAltarRecipe("shinydust", <astralsorcery:itemusabledust> * 16, 
     <ore:dustGlowstone>, <additions:astral_star>, <ore:dustGlowstone>,
     null, <ore:dustGlowstone>, null
 ]);
+
+Altar.addConstellationAltarRecipe("philosophers_stone", <projecte:item.pe_philosophers_stone>.withTag({}), 2000, 400, [
+    <astralsorcery:itemusabledust>, null, <astralsorcery:itemusabledust>,
+    null, <ore:manaPearl>, null,
+    <astralsorcery:itemusabledust>, null, <astralsorcery:itemusabledust>,
+    <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>,
+    <ore:dustBlaze>, <ore:dustBlaze>,
+    <ore:dustBlaze>, <ore:dustBlaze>,
+    <ore:dustBlaze>, <ore:dustBlaze>,
+    <ore:dustBlaze>, <ore:dustBlaze>
+]);
             
 Altar.addTraitAltarRecipe("heavite", <gct_mobs:heavite> * 14, 4000, 100, [
     <ore:stoneLerdite>, <ore:stoneAmeralite>, <ore:stoneLerdite>,
@@ -51,32 +62,23 @@ Altar.addTraitAltarRecipe("astral_crystal", <additions:astral_gem_00>, 6500, 100
 ], "astralsorcery.constellation.octans");
 
 Altar.addTraitAltarRecipe("arcane_crystal_ball", <additions:arcane_crystal_ball>, 4500, 400, [
-<ore:ingotThaumium>, <ore:netherStar>, <ore:ingotThaumium>,
-<ore:netherStar>, <thaumcraft:salis_mundus>, <ore:netherStar>,
-<ore:ingotThaumium>, <ore:netherStar>, <ore:ingotThaumium>,
-<astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
-<astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, 
-<astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>,
-<ore:ingotAstralMetal>, <ore:ingotAstralMetal>, <ore:ingotAstralMetal>, <ore:ingotAstralMetal>, <ore:ingotAstralMetal>, <ore:ingotAstralMetal>
+    <ore:ingotThaumium>, <ore:netherStar>, <ore:ingotThaumium>,
+    <ore:netherStar>, <thaumcraft:salis_mundus>, <ore:netherStar>,
+    <ore:ingotThaumium>, <ore:netherStar>, <ore:ingotThaumium>,
+    <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>, <astralsorcery:itemusabledust>,
+    <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, 
+    <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>,
+    <ore:ingotAstralMetal>, <ore:ingotAstralMetal>, <ore:ingotAstralMetal>, <ore:ingotAstralMetal>, <ore:ingotAstralMetal>, <ore:ingotAstralMetal>
 ], "astralsorcery.constellation.evorsio");
 
 Altar.addTraitAltarRecipe("astral_metal", <additions:astral_metal_ingot> * 4, 3000, 200, [
-<ore:ingotAstralStarmetal>, <astralsorcery:itemusabledust>, <ore:ingotAstralStarmetal>,
-<astralsorcery:itemusabledust>, <ore:ingotFusionMatrix>, <astralsorcery:itemusabledust>,
-<ore:ingotAstralStarmetal>, <astralsorcery:itemusabledust>, <ore:ingotAstralStarmetal>,
-<astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>,
-null, null, null, null, null, null, null, null, 
-<ore:ingotIgnite>, <ore:ingotIgnite>, <ore:ingotIgnite>, <ore:ingotIgnite>,
-<additions:astral_star>, <additions:astral_star>, <additions:astral_star>, <additions:astral_star>
+    <ore:ingotAstralStarmetal>, <astralsorcery:itemusabledust>, <ore:ingotAstralStarmetal>,
+    <astralsorcery:itemusabledust>, <ore:ingotFusionMatrix>, <astralsorcery:itemusabledust>,
+    <ore:ingotAstralStarmetal>, <astralsorcery:itemusabledust>, <ore:ingotAstralStarmetal>,
+    <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>, <astralsorcery:itemcraftingcomponent:4>,
+    null, null, null, null, null, null, null, null, 
+    <ore:ingotIgnite>, <ore:ingotIgnite>, <ore:ingotIgnite>, <ore:ingotIgnite>,
+    <additions:astral_star>, <additions:astral_star>, <additions:astral_star>, <additions:astral_star>
 ], "astralsorcery.constellation.aevitas");
 
-Altar.addConstellationAltarRecipe("philosophers_stone", <projecte:item.pe_philosophers_stone>.withTag({}), 2000, 400, [
-            <astralsorcery:itemusabledust>, null, <astralsorcery:itemusabledust>,
-            null, <ore:manaPearl>, null,
-            <astralsorcery:itemusabledust>, null, <astralsorcery:itemusabledust>,
-            <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>, <ore:dustAstralStarmetal>,
-            <ore:dustBlaze>, <ore:dustBlaze>,
-            <ore:dustBlaze>, <ore:dustBlaze>,
-            <ore:dustBlaze>, <ore:dustBlaze>,
-            <ore:dustBlaze>, <ore:dustBlaze>]);
-
+AttunementAltar.addRecipe(<additions:dubhe_orb_night>, <contenttweaker:bauble_dubhe_night_clown>, "astralsorcery.constellation.horologium");

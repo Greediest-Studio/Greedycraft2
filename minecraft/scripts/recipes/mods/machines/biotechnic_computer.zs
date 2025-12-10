@@ -150,6 +150,22 @@ RecipeBuilder.newBuilder("decode_orderkey", "biotechnic_computer", 200)
     })
     .build();
 
+RecipeBuilder.newBuilder("decode_dubhe", "biotechnic_computer", 200)
+    .addItemInput(<additions:dubhe_essence_shard>)
+    .addItemOutput(<additions:dubhe_orb_broken>)
+    .addEnergyPerTickInput(1048576)
+    .setParallelized(false)
+    .setThreadName("解码模块")
+    .addFactoryPostTickHandler(function(event as FactoryRecipeTickEvent) {
+        var controller as IMachineController = event.controller;
+        if (controller.getNutrition() > 0) {
+            controller.removeNutrition(1);
+        } else {
+            controller.addEntropy(2);
+        }
+    })
+    .build();
+
 RecipeBuilder.newBuilder("decode_orderdice", "biotechnic_computer", 200)
     .addItemInput(<additions:ordered_bone_key_dice>).setNBTChecker(function(controller as IMachineController, stack as IItemStack) {
         if (!isNull(stack.tag.coordinateData)) {

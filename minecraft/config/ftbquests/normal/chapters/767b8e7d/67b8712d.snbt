@@ -1,0 +1,17 @@
+{
+	title: "§bAVARITIA'S LIGHT",
+	x: -0.5d,
+	y: 4.0d,
+	description: "合成无尽之锭",
+	text: [
+		""
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "14070aca",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 6"
+		}]
+	}]
+}

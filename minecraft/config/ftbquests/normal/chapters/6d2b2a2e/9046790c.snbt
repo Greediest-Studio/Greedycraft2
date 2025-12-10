@@ -1,0 +1,30 @@
+{
+	title: "§b夜之帷幕",
+	x: 12.0d,
+	y: 9.0d,
+	description: "手持破碎天枢晶核击杀狼育母，获得暗夜天枢晶核",
+	text: [
+		""
+	],
+	dependencies: [
+		"55bd2e15",
+		"fc63c118"
+	],
+	tasks: [{
+		uid: "c6944407",
+		type: "item",
+		items: [{
+			item: "additions:dubhe_orb_night"
+		}]
+	}],
+	rewards: [{
+		uid: "033c0c6b",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "bf4e7c1d",
+		type: "random",
+		table: 4
+	}]
+}

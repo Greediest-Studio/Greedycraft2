@@ -3,5 +3,16 @@
 	icon: "avaritia:resource 1 6",
 	always_invisible: 0b,
 	group: 689139086,
-	default_quest_shape: ""
+	default_quest_shape: "",
+	images: [{
+		x: -0.5d,
+		y: 0.5d,
+		width: 10.5d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/adv10.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	}]
 }

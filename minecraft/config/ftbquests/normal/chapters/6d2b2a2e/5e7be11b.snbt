@@ -1,0 +1,14 @@
+{
+	x: 12.0d,
+	y: 10.5d,
+	dependencies: [
+		"fc63c118"
+	],
+	tasks: [{
+		uid: "f43cfd8a",
+		type: "item",
+		items: [{
+			item: "additions:dubhe_orb_light"
+		}]
+	}]
+}

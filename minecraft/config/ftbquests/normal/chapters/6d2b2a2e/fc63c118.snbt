@@ -1,0 +1,29 @@
+{
+	title: "§b七星之始",
+	x: 10.5d,
+	y: 10.5d,
+	description: "合成天枢源质碎片",
+	text: [
+		""
+	],
+	dependencies: [
+		"94068a81"
+	],
+	tasks: [{
+		uid: "8e3abdad",
+		type: "item",
+		items: [{
+			item: "additions:dubhe_essence_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "6afe9946",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "9a5542ba",
+		type: "xp",
+		xp: 29800
+	}]
+}

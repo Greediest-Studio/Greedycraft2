@@ -1,17 +1,27 @@
 {
 	title: "§b交错之底",
-	x: 14.0d,
-	y: 1.5d,
+	x: 12.0d,
+	y: 7.5d,
 	description: "食用恶意果实，进入腐朽之地",
 	text: [
 		"在腐朽之地，玩家会受到腐朽诅咒，仅有腐朽守护效果可以抵挡",
 		"食用恶意果实将获得120秒腐朽守护"
+	],
+	dependencies: [
+		"94068a81"
 	],
 	tasks: [{
 		uid: "78e4accb",
 		type: "dimension",
 		icon: "erebus:portal",
 		dim: 66
+	},
+	{
+		uid: "2d66e081",
+		type: "item",
+		items: [{
+			item: "contenttweaker:malevolent_fruit"
+		}]
 	}],
 	rewards: [{
 		uid: "a4790ea9",
