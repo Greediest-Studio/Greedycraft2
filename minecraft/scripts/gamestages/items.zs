@@ -2371,7 +2371,11 @@ GameStagesUtil.stageDeepDream.addIngredients([
     <ore:ingotAntEmperor>,
     <ore:nuggetAntEmperor>,
     <ore:blockAntEmperor>,
-    <ore:dustAntEmperor>
+    <ore:dustAntEmperor>,
+    <additions:dubhe_essence_shard>,
+    <additions:dubhe_orb_broken>,
+    <additions:dubhe_orb_light>,
+    <additions:dubhe_orb_night>
 ], true);
 
 GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators", "mekceumoremachine", "mekeng"]);

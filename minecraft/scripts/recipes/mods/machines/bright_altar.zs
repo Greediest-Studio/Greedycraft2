@@ -57,3 +57,14 @@ RecipeBuilder.newBuilder("zodiacite", "bright_altar", 600)
     .addStarlightInput(20000)
     .addItemOutput(<additions:zodiacite_ingot> * 2)
     .build();
+
+RecipeBuilder.newBuilder("dubhe_essence_shard", "bright_altar", 600)
+    .addItemInput(<erebus:materials:2> * 32)
+    .addItemInput(<ore:ingotBreedum> * 24)
+    .addItemInput(<ore:gemJade> * 32)
+    .addItemInput(<ore:ingotBotanical> * 16)
+    .addItemInput(<ore:ingotAntEmperor> * 3)
+    .addItemInput(<additions:erebus_complex> * 4)
+    .addStarlightInput(25000)
+    .addItemOutput(<additions:dubhe_essence_shard>)
+    .build();

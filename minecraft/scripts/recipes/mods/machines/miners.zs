@@ -743,6 +743,19 @@ emptiness.addItemUpgradeOutput(<additions:primal_metal_ore>, FINALLIUM, 0.01);
 emptiness.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 emptiness.setMaxThreads(1).build();
 
+var erebus = RecipeBuilder.newBuilder("erebus", "basic_miner", 200);
+erebus.addEnergyPerTickInput(200);
+erebus.addDimensionInput(66);
+//终焉级
+erebus.addItemUpgradeOutput(<additions:rotiron_ore>, FINALLIUM, 0.01);
+erebus.addItemUpgradeOutput(<erebus:materials:1>, FINALLIUM, 0.01);
+erebus.addItemUpgradeOutput(<erebus:materials:2>, FINALLIUM, 0.02);
+erebus.addItemUpgradeOutput(<erebus:materials:7>, FINALLIUM, 0.02);
+erebus.addItemUpgradeOutput(<erebus:materials:47>, FINALLIUM, 0.02);
+erebus.addItemUpgradeOutput(<erebus:materials:74>, FINALLIUM, 0.015);
+erebus.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+erebus.setMaxThreads(1).build();
+
 RecipeAdapterBuilder.create("advanced_miner", "modularmachinery:basic_miner").build();
 RecipeAdapterBuilder.create("dimensional_miner", "modularmachinery:basic_miner").build();
 
