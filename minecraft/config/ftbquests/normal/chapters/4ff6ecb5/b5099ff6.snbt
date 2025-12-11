@@ -1,0 +1,19 @@
+{
+	title: "§b更简单的方案",
+	x: -12.5d,
+	y: 4.0d,
+	description: "合成奥术凝聚台集成控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"84d29999"
+	],
+	tasks: [{
+		uid: "34d1fd36",
+		type: "item",
+		items: [{
+			item: "modularmachinery:arcane_compressor_factory_controller"
+		}]
+	}]
+}

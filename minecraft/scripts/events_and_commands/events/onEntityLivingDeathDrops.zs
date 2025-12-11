@@ -1,8 +1,11 @@
 
+#reloadable
+
 import crafttweaker.event.EntityLivingDeathDropsEvent;
 import crafttweaker.player.IPlayer;
 import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.item.IItemStack;
+import crafttweaker.entity.IEntityItem;
 
 events.onEntityLivingDeathDrops(function (event as EntityLivingDeathDropsEvent) {
     if (event.isRecentlyHit && !isNull(event.damageSource.getTrueSource()) && !event.entity.world.remote) {

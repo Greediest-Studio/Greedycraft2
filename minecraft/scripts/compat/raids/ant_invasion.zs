@@ -1,4 +1,3 @@
-#reloadable
 
 import crafttweaker.event.PlayerInteractEntityEvent;
 import crafttweaker.entity.IEntityLiving;

@@ -2,7 +2,10 @@
 	title: "§b邪术的最终产物",
 	x: 11.5d,
 	y: 2.0d,
-	description: "获得腐烂金属锭或邪术黏胶",
+	description: "获得腐化金属锭或邪术黏胶",
+	text: [
+		""
+	],
 	dependencies: [
 		"5673aa32"
 	],

@@ -1,0 +1,20 @@
+{
+  "item_block": {
+    "name": "恶血凝胶块",
+    "tooltip": "由§b狼育母§f的死亡转化§4凝血块§f得到",
+    "type": "additions:block_simple"
+  },
+  "name": "恶血凝胶块",
+  "material": "minecraft:grass",
+  "place_sound": "minecraft:block.slime.place",
+  "break_sound": "minecraft:block.slime.break",
+  "hit_sound": "minecraft:block.slime.hit",
+  "step_sound": "minecraft:block.slime.step",
+  "fall_sound": "minecraft:block.slime.fall",
+  "hardness": 0.5,
+  "harvest_tool": "shovel",
+  "light_opacity": 9,
+  "is_slime": true,
+  "semi_transparent": true,
+  "type": "additions:simple"
+}

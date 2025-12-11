@@ -1,0 +1,71 @@
+{
+	title: "§b要素提取",
+	x: -10.5d,
+	y: 4.0d,
+	description: "合成六种纯粹要素锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"a9a5b37b",
+		"b5099ff6"
+	],
+	tasks: [{
+		uid: "4a5a4de3",
+		type: "item",
+		items: [{
+			item: "additions:blazingium_ingot"
+		}]
+	},
+	{
+		uid: "f9eed7d1",
+		type: "item",
+		items: [{
+			item: "additions:tidalium_ingot"
+		}]
+	},
+	{
+		uid: "e6bb64cc",
+		type: "item",
+		items: [{
+			item: "additions:blizzium_ingot"
+		}]
+	},
+	{
+		uid: "3f4e1a62",
+		type: "item",
+		items: [{
+			item: "additions:terranium_ingot"
+		}]
+	},
+	{
+		uid: "5f585912",
+		type: "item",
+		items: [{
+			item: "additions:enlightium_ingot"
+		}]
+	},
+	{
+		uid: "31448d43",
+		type: "item",
+		items: [{
+			item: "additions:debarcium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "6bda8e84",
+		type: "item",
+		item: "additions:pruified",
+		count: 2
+	},
+	{
+		uid: "dc45782e",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "3a56a29a",
+		type: "xp",
+		xp: 12000
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "§b元始霓虹",
+	x: 1.5d,
+	y: 4.0d,
+	description: "击杀元始精灵",
+	text: [
+		""
+	],
+	dependencies: [
+		"bfad910a"
+	],
+	tasks: [{
+		uid: "9b0e43a0",
+		type: "kill",
+		entity: "thaumicaugmentation:primal_wisp",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "8594cccb",
+		type: "item",
+		item: "thaumcraft:primordial_pearl 1 7",
+		random_bonus: 1
+	},
+	{
+		uid: "e8e4577b",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "c0d32eb1",
+		type: "xp",
+		xp: 3000
+	}]
+}

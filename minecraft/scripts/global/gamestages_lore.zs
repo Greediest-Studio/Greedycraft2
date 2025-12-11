@@ -4,7 +4,6 @@
  */ 
 
 #priority 32765
-#reloadable
 
 global gameStagesLore as string[][string][string][string] = {
     zh_cn: {
