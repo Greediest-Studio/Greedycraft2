@@ -143,7 +143,7 @@ GameStagesUtil.stageGettingStarted.addIngredients([
     <ore:dustGold>,
     <ore:blockIron>,
     <ore:blockGold>,
-], true);
+], false);
 
 GameStagesUtil.stageFusionMatrix.addIngredients([
     <zensummoning:altar>,
@@ -541,7 +541,7 @@ GameStagesUtil.stageNether.addIngredients([
     <journey:firestoneclump>,
     <journey:firestoneore>,
     <additions:mana_firestone>
-], true);
+], false);
 
 GameStagesUtil.stageCosmic.addIngredients([
     <gct_ores:ruled_draconium_ingot>,
@@ -705,7 +705,7 @@ GameStagesUtil.stageCosmic.addIngredients([
     <additions:engineering_circuit_printed_3>,
     <additions:logic_circuit_printed_3>,
     <additions:modular_dimensional_magnifier>
-], true);
+], false);
 
 GameStagesUtil.stageBalancedMatrix.addIngredients([
     <additions:betweenland_rune>,
@@ -758,7 +758,7 @@ GameStagesUtil.stageBalancedMatrix.addIngredients([
     <additions:reagent_godness>,
     <additions:unshapable_matter>,
     <ometweaks:creative_capacitor>
-], true);
+], false);
 
 GameStagesUtil.stageBetweenlandTraveller.addIngredients([
     <ore:ingotBetwnite>,
@@ -802,7 +802,7 @@ GameStagesUtil.stageBetweenlandTraveller.addIngredients([
     <moretcon:itemtrichromadentiumsponge:2>,
     <moretcon:itemtrichromadentiumsponge:3>,
     <moretcon:itemtrichromadentiumsponge:4>
-], true);
+], false);
 
 GameStagesUtil.stageWarped.addIngredients([
     <gct_ores:door_key_of_orderland>,
@@ -815,7 +815,7 @@ GameStagesUtil.stageWarped.addIngredients([
     <ore:nuggetAbyssine>,
     <ore:blockAbyssine>,
     <ore:dustAbyssine>
-], true);
+], false);
 
 GameStagesUtil.stageOrder.addIngredients([
     <gct_ores:ordered_metal_ingot>,
@@ -830,7 +830,7 @@ GameStagesUtil.stageOrder.addIngredients([
     <contenttweaker:ordered_energy_core>,
     <gctcore:ordered_flux_capacitor>,
     <gctcore:ordered_flux_capacitor>.withTag({EnergyL: 4096000000 as long})
-], true);
+], false);
 
 GameStagesUtil.stageMindShock.addIngredients([
     <gctcore:frostburn_flux_capacitor>,
@@ -874,7 +874,7 @@ GameStagesUtil.stageMindShock.addIngredients([
     <ore:nuggetAbyssDragonsteel>,
     <ore:dustAbyssDragonsteel>,
     <ore:plateAbyssDragonsteel>
-], true);
+], false);
 
 GameStagesUtil.stageChaotic.addIngredients([
     <ore:ingotChaoticMetal>,
@@ -1543,12 +1543,12 @@ GameStagesUtil.stageGaiaDeleter.addIngredients([
     <ore:runeRaphaelB>,
     <ore:runeGabrielB>,
     <ore:runeSandalphonB>
-], true);
+], false);
 
 GameStagesUtil.stageNoobWizard.addIngredients([
     <additions:star_metal_ore>,
     <additions:star_metal_block>
-], true);
+], false);
 
 GameStagesUtil.stageNoviceWizard.addIngredients([
     <thaumcraft:infusion_matrix>,
@@ -1639,14 +1639,14 @@ GameStagesUtil.stageNoviceWizard.addIngredients([
     <gctcore:soul_gem:8>.withTag({souls: 2147483647.0, demonWillType: "corrosive"}),
     <gctcore:soul_gem:8>.withTag({souls: 2147483647.0, demonWillType: "steadfast"}),
     <gctcore:soul_gem:8>.withTag({souls: 2147483647.0})
-], true);
+], false);
 
 GameStagesUtil.stageSkilledWizard.addIngredients([
     <ore:blockCrimsonite>,
     <ore:ingotCrimsonite>,
     <ore:blockSky>,
     <additions:fabric_of_nature>
-], true);
+], false);
 
 GameStagesUtil.stageMasterWizard.addIngredients([
     <thaumadditions:void_thaumometer>,
@@ -1701,7 +1701,7 @@ GameStagesUtil.stageMasterWizard.addIngredients([
     <additions:astral_gem_12>,
     <additions:astral_aquamarine_ore>,
     <additions:arcane_crystal_ball>
-], true);
+], false);
 
 GameStagesUtil.stageEpicWizard.addIngredients([ 
     <thaumcraft:primordial_pearl>,
@@ -1766,7 +1766,7 @@ GameStagesUtil.stageEpicWizard.addIngredients([
     <ore:dustDisasterMetal>,
     <additions:eldritch_slime>,
     <ore:oreVoid>
-], true);
+], false);
 
 GameStagesUtil.stageEnderCharm.addIngredients([
     <minecraft:end_rod>,
@@ -2358,7 +2358,7 @@ GameStagesUtil.stageFinal.addIngredients([
     <ore:nuggetZomril>,
     <ore:dustZomril>,
     <ore:plateZomril>
-], true);
+], false);
 
 GameStagesUtil.stageDeepDream.addIngredients([
     <contenttweaker:malevolent_fruit>,
@@ -2377,7 +2377,7 @@ GameStagesUtil.stageDeepDream.addIngredients([
     <additions:dubhe_orb_light>,
     <additions:dubhe_orb_night>,
     <contenttweaker:bauble_dubhe_night_clown>
-], true);
+], false);
 
 GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators", "mekceumoremachine", "mekeng"]);
 GameStagesUtil.stageHardmode.addModId(["avaritia", "draconicevolution", "extrabotany", "projecte", "projectex", "taiga"]);
