@@ -1,0 +1,36 @@
+{
+	title: "§b集大成者",
+	x: -12.5d,
+	y: 6.0d,
+	description: "使用奥术凝聚台合成六元合金",
+	text: [
+		""
+	],
+	dependencies: [
+		"153ff242"
+	],
+	tasks: [{
+		uid: "ac43186f",
+		type: "item",
+		items: [{
+			item: "additions:hexacite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "cb718880",
+		type: "item",
+		item: "additions:hexacite_ingot",
+		count: 2,
+		random_bonus: 4
+	},
+	{
+		uid: "b3f08f2f",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "ba890e27",
+		type: "xp",
+		xp: 20000
+	}]
+}

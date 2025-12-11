@@ -1,0 +1,35 @@
+{
+	title: "§b不仅仅是注魔",
+	x: -8.5d,
+	y: 2.0d,
+	description: "合成神秘基座，用于合成基础要素注入神秘锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"55a56909"
+	],
+	tasks: [{
+		uid: "900318d8",
+		type: "item",
+		items: [{
+			item: "thaumicrestoration:block_infuser"
+		}]
+	}],
+	rewards: [{
+		uid: "d6fda879",
+		type: "item",
+		item: "thaumcraft:pedestal_arcane",
+		count: 6
+	},
+	{
+		uid: "7f57752f",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "4ab36a0f",
+		type: "xp",
+		xp: 600
+	}]
+}

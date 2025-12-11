@@ -1,0 +1,37 @@
+{
+	title: "§b另一条路径",
+	x: 1.5d,
+	y: 2.0d,
+	description: "合成缸中裂隙",
+	text: [
+		"使用该物品承装咒波裂隙",
+		"而后将该物品扔到另一个咒波裂隙之中",
+		"即可生成元始精灵",
+		"击杀元始精灵必定掉落元始晶粒"
+	],
+	dependencies: [
+		"4500422a"
+	],
+	tasks: [{
+		uid: "b6b24965",
+		type: "item",
+		items: [{
+			id: "thaumicaugmentation:rift_jar",
+			tag: {
+				seed: 1337,
+				size: 100
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "54035d08",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "bf60b786",
+		type: "xp",
+		xp: 1500
+	}]
+}

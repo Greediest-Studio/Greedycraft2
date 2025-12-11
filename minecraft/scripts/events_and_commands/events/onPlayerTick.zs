@@ -4,7 +4,6 @@
  */
 
 #priority 90
-#reloadable
 
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.IPlayerEvent;
@@ -437,9 +436,9 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
             if (!isNull(player.world.getBlock(pos))) {
                 var block as IBlock = player.world.getBlock(pos);
                 if (!(isNull(block.data) || isNull(block.data.ForgeData))) {
-                    if (!isNull(block.data.ForgeData.isPortable)) {
+                    if (!isNull(block.data.ForgeData.isPortable) && !isNull(block.data.ticksOpen)) {
                         var portable as byte = block.data.ForgeData.isPortable as byte;
-                        if (portable == 1) {
+                        if (portable == 1 && block.data.ticksOpen as int != 0) {
                             player.setDimension(42);
                             player.position3f = position3f;
                         }

@@ -9,7 +9,14 @@
 	tasks: [{
 		uid: "732201fc",
 		type: "kill",
-		icon: "minecraft:diamond_sword",
+		icon: {
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "thaumicwonders:corruption_avatar"
+				}
+			}
+		},
 		entity: "thaumicwonders:corruption_avatar",
 		value: 1L
 	}],
