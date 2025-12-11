@@ -46,7 +46,7 @@ MMEvents.onMachinePreTick("auto_soul_forge", function(event as MachineTickEvent)
     if (isNull(ctrl.customData.willList)) {
         ctrl.customData = ctrl.customData.update({willList : {
             raw : 0 as int,
-            maxCapacity : 100000 as int
+            maxCapacity : 200000000 as int
         }});
     }
 });
@@ -61,7 +61,7 @@ $expand IMachineController$getWillAmount() as int {
 
 $expand IMachineController$addWillAmount(amount as int) {
     var currentAmount as int = this.getWillAmount();
-    var maxCapacity as int = 100000;
+    var maxCapacity as int = 200000000;
     if (!isNull(this.customData.willList.maxCapacity)) {
         maxCapacity = this.customData.willList.maxCapacity as int;
     }
@@ -74,7 +74,7 @@ $expand IMachineController$addWillAmount(amount as int) {
 
 $expand IMachineController$removeWillAmount(amount as int) {
     var currentAmount as int = this.getWillAmount();
-    var maxCapacity as int = 100000;
+    var maxCapacity as int = 200000000;
     if (!isNull(this.customData.willList.maxCapacity)) {
         maxCapacity = this.customData.willList.maxCapacity as int;
     }
@@ -87,7 +87,7 @@ $expand IMachineController$removeWillAmount(amount as int) {
 
 MMEvents.onControllerGUIRender("auto_soul_forge", function(event as ControllerGUIRenderEvent) {
     var ctrl as IMachineController = event.controller;
-    var maxCapacity as int = 100000;
+    var maxCapacity as int = 200000000;
     if (!isNull(ctrl.customData.willList.maxCapacity)) {
         maxCapacity = ctrl.customData.willList.maxCapacity as int;
     }
@@ -101,16 +101,42 @@ MMEvents.onControllerGUIRender("auto_soul_forge", function(event as ControllerGU
 
 RecipeBuilder.newBuilder("will_absorption", "auto_soul_forge", 10)
     .setParallelized(false)
-    .addWillInput("DEFAULT", 1, 1, 2147483647)
+    .addItemInput(<minecraft:dirt>).setChance(0)
+    .addWillInput("DEFAULT", 10, 1, 2147483647)
     .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
         var ctrl as IMachineController = event.controller;
         var parallel as int = event.activeRecipe.parallelism;
         ctrl.addWillAmount(parallel);  
     })
-    .addRecipeTooltip("§a将1点恶魔意志存储到机械中")
+    .addRecipeTooltip("§a将10点恶魔意志存储到机械中")
     .setThreadName("意志汲取模块")
     .build();
 
+RecipeBuilder.newBuilder("will_absorption_1", "auto_soul_forge", 10)
+    .setParallelized(false)
+    .addItemInput(<minecraft:cobblestone>).setChance(0)
+    .addWillInput("DEFAULT", 100, 1, 2147483647)
+    .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
+        var ctrl as IMachineController = event.controller;
+        var parallel as int = event.activeRecipe.parallelism;
+        ctrl.addWillAmount(parallel);  
+    })
+    .addRecipeTooltip("§a将100点恶魔意志存储到机械中")
+    .setThreadName("意志汲取模块")
+    .build();
+
+RecipeBuilder.newBuilder("will_absorption_2", "auto_soul_forge", 10)
+    .setParallelized(false)
+    .addItemInput(<minecraft:stick>).setChance(0)
+    .addWillInput("DEFAULT", 1000, 1, 2147483647)
+    .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
+        var ctrl as IMachineController = event.controller;
+        var parallel as int = event.activeRecipe.parallelism;
+        ctrl.addWillAmount(parallel);  
+    })
+    .addRecipeTooltip("§a将1000点恶魔意志存储到机械中")
+    .setThreadName("意志汲取模块")
+    .build();
 
 function addHellForgeRecipe(inputs as IIngredient[], output as IItemStack, will as int) {
     var builder = RecipeBuilder.newBuilder("hell_forge_" ~ output.definition.id ~ (output.metadata as string), "auto_soul_forge", 100);
@@ -308,3 +334,31 @@ addHellForgeRecipe([<bloodmagic:soul_gem:3>],
 <bloodmagic:soul_gem:3>.withTag({souls: 4096.0}), 4096);
 addHellForgeRecipe([<bloodmagic:soul_gem:4>],
 <bloodmagic:soul_gem:4>.withTag({souls: 16384.0}), 16384);
+
+/*
+var gem =200000000;
+
+RecipeBuilder.newBuilder("will", "auto_soul_forge", 10)
+    .addInput(<bloodmagic:soul_gem:0>).setTag("yizhi")
+    .setNBTChecker(function(ctrl as IMachineController, item as IItemStack) {
+        val soulgem = item.tag.getDouble("souls", 0);
+        val data = ctrl.customData.update({ soulsCache : souls });
+        return true;
+    })
+    .addPreCheckHandler(function(event as RecipeCheckEvent) {
+        var ctrl as IMachineController = event.controller;
+        if (ctrl.getWillAmount() > gem) {
+            event.setFailed("§4意志被灌满了");
+            return;
+        }
+    })
+    .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
+        val ctrl = event.controller;
+        val souls = ctrl.customData.getDouble("souls", 0);
+        ctrl.addWillAmount(souls);
+    })
+    .addOutput(<bloodmagic:soul_gem:0>.withTag({}))
+    .setParallelized(false)
+    .setThreadName("意志汲取模块")
+    .build();
+*/
