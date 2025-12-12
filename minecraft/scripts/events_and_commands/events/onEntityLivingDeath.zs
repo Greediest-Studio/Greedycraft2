@@ -141,9 +141,10 @@ events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
             }
         }
     }
-    //Convertion of Dubhe Orb
+
     if (!isNull(event.entityLivingBase.definition) && !event.entityLivingBase.world.remote) {
         if (event.entityLivingBase.definition.id == "erebus:erebus.tarantula_mini_boss") {
+            //Convertion of Dubhe Orb
             if (!isNull(event.damageSource.getTrueSource())) {
                 if (event.damageSource.getTrueSource() instanceof IPlayer) {
                     var player as IPlayer = event.damageSource.getTrueSource();
@@ -156,6 +157,34 @@ events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
                     }
                 }
             }
+            //Poison Conversion Recipes
+
+            val ConversionList as IBlockState[string[]] = {
+                ["tconstruct:slime", "3"]: <blockstate:additions:evilblood_slime_block>,
+                ["botania:storage", "1"]: <blockstate:jaopca:block.terrasteel_poisonous>
+            };
+            var world as IWorld = event.entityLivingBase.world;
+            var pos as IBlockPos = event.entityLivingBase.position;
+            for i in -7 to 8 {
+                for j in -7 to 8 {
+                    for k in -7 to 8 {
+                        if (!isNull(world.getBlock(pos.east(i).north(j).up(k)))) {
+                            var blockPos as IBlockPos = pos.east(i).north(j).up(k);
+                            var block as IBlock = world.getBlock(blockPos);
+                            var blockState as IBlockState = world.getBlockState(blockPos);
+                            if (!isNull(block.getItem(world, blockPos, blockState))) {
+                                var blockItem as IItemStack = block.getItem(world, blockPos, blockState);
+                                for ConversionSelection in ConversionList.keys {
+                                    if (blockItem.definition.id == ConversionSelection[0] && blockItem.metadata as string == ConversionSelection[1]) {
+                                        world.setBlockState(ConversionList[ConversionSelection], blockPos);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
+
 });

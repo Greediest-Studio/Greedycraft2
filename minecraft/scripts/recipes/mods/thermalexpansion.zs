@@ -17,6 +17,7 @@ import mods.thermalexpansion.Enchanter;
 import mods.thermalexpansion.Crucible;
 import mods.thermalexpansion.Refinery;
 import mods.thermalexpansion.Centrifuge;
+import mods.thermalexpansion.Factorizer;
 
 Transposer.addFillRecipe(<thermalfoundation:fertilizer:1>, <thermalfoundation:fertilizer:0>, <liquid:resin> * 200, 20);
 
@@ -83,3 +84,5 @@ Coolant.addCoolant(<liquid:hecryo_liquid>, 10000000, 100);
 Refinery.addRecipe(<liquid:rich_brine> * 100, null, <liquid:brine> * 1000, 100000);
 Refinery.addRecipe(<liquid:mixed_hydrocarbon> * 100, null, <liquid:refined_fuel> * 150, 50000);
 Refinery.addRecipe(<liquid:serum> * 10, null, <liquid:blood> * 1000, 100000);
+
+Factorizer.removeRecipeSplit(<minecraft:blaze_powder>);

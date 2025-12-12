@@ -316,6 +316,7 @@ Casting.addTableRecipe(<abyssalcraft:abyssalnomicon>.withTag({PotEnergy: 100000.
 Casting.addTableRecipe(<mca:rose_gold_ingot>, <tconstruct:cast_custom>, <liquid:rose_gold>, VOLUME_INGOT, false, 200);
 Casting.addTableRecipe(<tconstruct:pick_head>.withTag({Material: "imitatium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:pick_head"}), <liquid:imitatium>, 432, false, 200);
 Casting.addTableRecipe(<elementalend:order_eye>, <minecraft:ender_eye>, <liquid:balancite>, 1440, true, 200);
+Casting.addTableRecipe(<additions:evilblood_drop>, <additions:eldritch_slime>, <liquid:evilblood_fluid>, 250, true, 200);
 
 Melting.removeRecipe(<liquid:gold>, <minecraft:golden_rail>);
 Melting.removeRecipe(<liquid:iron>, <minecraft:activator_rail>);
@@ -583,6 +584,7 @@ Melting.addRecipe(<liquid:pruified> * 13, <additions:pruified_matter>, 1250);
 Melting.addRecipe(<liquid:fracturite> * 432, <twilightforest:mazebreaker_pickaxe>, 2500);
 Melting.addRecipe(<liquid:imitatium> * VOLUME_INGOT, <tiths:ingot_imitatium>, 1250);
 Melting.addRecipe(<liquid:darkice> * 8, <betterendforge:ancient_emerald_ice>, 500);
+Melting.addRecipe(<liquid:evilblood_fluid> * 100, <additions:evilblood_slime_block>, 800);
 
 Fuel.registerFuel(<liquid:infernium> * 1, 600);
 Fuel.registerFuel(<liquid:cosmilite> * 1, 2400);
