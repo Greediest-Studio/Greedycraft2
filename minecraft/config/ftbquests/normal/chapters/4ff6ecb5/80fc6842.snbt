@@ -1,10 +1,10 @@
 {
-	title: "§b裂痕",
+	title: "§b源自血腥",
 	x: 9.5d,
 	y: -4.0d,
-	description: "传送门具体结构见百科全书",
+	description: "搭建血腥裂隙传送门",
 	text: [
-		""
+		"传送门具体结构见百科全书"
 	],
 	dependencies: [
 		"29eb121f"
@@ -57,5 +57,15 @@
 		items: [{
 			item: "gct_mobs:ruin_holder"
 		}]
+	}],
+	rewards: [{
+		uid: "352c0bc1",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "5dc76363",
+		type: "xp",
+		xp: 4000
 	}]
 }

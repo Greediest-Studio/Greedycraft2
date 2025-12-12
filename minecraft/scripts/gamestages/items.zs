@@ -2357,7 +2357,42 @@ GameStagesUtil.stageFinal.addIngredients([
     <ore:blockZomril>,
     <ore:nuggetZomril>,
     <ore:dustZomril>,
-    <ore:plateZomril>
+    <ore:plateZomril>,
+    <ore:ingotTidalium>,
+    <ore:nuggetTidalium>,
+    <ore:blockTidalium>,
+    <ore:dustTidalium>,
+    <ore:plateTidalium>,
+    <ore:ingotBlazingium>,
+    <ore:nuggetBlazingium>,
+    <ore:blockBlazingium>,
+    <ore:dustBlazingium>,
+    <ore:plateBlazingium>,
+    <ore:ingotBlizzium>,
+    <ore:nuggetBlizzium>,
+    <ore:blockBlizzium>,
+    <ore:dustBlizzium>,
+    <ore:plateBlizzium>,
+    <ore:ingotTerranium>,
+    <ore:nuggetTerranium>,
+    <ore:blockTerranium>,
+    <ore:dustTerranium>,
+    <ore:plateTerranium>,
+    <ore:ingotEnlightium>,
+    <ore:nuggetEnlightium>,
+    <ore:blockEnlightium>,
+    <ore:dustEnlightium>,
+    <ore:plateEnlightium>,
+    <ore:ingotDebarcium>,
+    <ore:nuggetDebarcium>,
+    <ore:blockDebarcium>,
+    <ore:dustDebarcium>,
+    <ore:plateDebarcium>,
+    <ore:ingotHexacite>,
+    <ore:nuggetHexacite>,
+    <ore:blockHexacite>,
+    <ore:dustHexacite>,
+    <ore:plateHexacite>
 ], false);
 
 GameStagesUtil.stageDeepDream.addIngredients([
@@ -2376,7 +2411,9 @@ GameStagesUtil.stageDeepDream.addIngredients([
     <additions:dubhe_orb_broken>,
     <additions:dubhe_orb_light>,
     <additions:dubhe_orb_night>,
-    <contenttweaker:bauble_dubhe_night_clown>
+    <contenttweaker:bauble_dubhe_night_clown>,
+    <additions:evilblood_drop>,
+    <additions:evilblood_slime_block>
 ], false);
 
 GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators", "mekceumoremachine", "mekeng"]);

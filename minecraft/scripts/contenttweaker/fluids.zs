@@ -3369,3 +3369,15 @@ erebus_organic_fluid.color = Color.fromHex("798226").getIntColor();
 erebus_organic_fluid.stillLocation = "base:fluids/liquid";
 erebus_organic_fluid.flowingLocation = "base:fluids/liquid_flow";
 erebus_organic_fluid.register();
+
+val evilblood_fluid = mods.contenttweaker.VanillaFactory.createFluid("evilblood_fluid", Color.fromHex("b62239").getIntColor());
+evilblood_fluid.material = <blockmaterial:water>;
+evilblood_fluid.viscosity = 300;
+evilblood_fluid.density = 800;
+evilblood_fluid.colorize = true;
+evilblood_fluid.temperature = 400;
+evilblood_fluid.luminosity = 0;
+evilblood_fluid.color = Color.fromHex("b62239").getIntColor();
+evilblood_fluid.stillLocation = "base:fluids/liquid";
+evilblood_fluid.flowingLocation = "base:fluids/liquid_flow";
+evilblood_fluid.register();

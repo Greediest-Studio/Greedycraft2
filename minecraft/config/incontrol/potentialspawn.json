@@ -147,5 +147,64 @@
                 "groupcountmax": 2
             }
         ]
+    },
+    {
+        "dimension": 41,
+        "mobs": [
+            {
+                "mob": "natura:imp",
+                "weight": 5,
+                "groupcountmin": 3,
+                "groupcountmax": 6
+            },
+            {
+                "mob": "abyssalcraft:demonpig",
+                "weight": 5,
+                "groupcountmin": 2,
+                "groupcountmax": 4
+            },
+            {
+                "mob": "abyssalcraft:demoncow",
+                "weight": 5,
+                "groupcountmin": 2,
+                "groupcountmax": 4
+            },
+            {
+                "mob": "abyssalcraft:demonchicken",
+                "weight": 5,
+                "groupcountmin": 2,
+                "groupcountmax": 4
+            },
+            {
+                "mob": "abyssalcraft:demonsheep",
+                "weight": 5,
+                "groupcountmin": 2,
+                "groupcountmax": 4
+            },
+            {
+                "mob": "thaumcraft:cultistknight",
+                "weight": 4,
+                "groupcountmin": 1,
+                "groupcountmax": 4
+            },
+            {
+                "mob": "thaumcraft:cultistcleric",
+                "weight": 4,
+                "groupcountmin": 1,
+                "groupcountmax": 4
+            },
+            {
+                "mob": "crimsonrevelations:cultist_archer",
+                "weight": 4,
+                "groupcountmin": 1,
+                "groupcountmax": 4
+            },
+            {
+                "mob": "thaumicconcilium:crimson_paladin",
+                "weight": 3,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ]
     }
 ]

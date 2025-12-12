@@ -390,6 +390,7 @@ val localizationMap as string[string][string] = {
         "fluid.serum": "血浆",
         "fluid.culture_medium": "液体培养基",
         "fluid.erebus_organic_fluid": "腐朽有机液",
+        "fluid.evilblood_fluid": "恶血流质",
         //
         "fluid.liquidlegend": "荣耀浆液",
         //
