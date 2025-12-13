@@ -1,0 +1,36 @@
+{
+	title: "§b血腥迷途",
+	x: 13.5d,
+	y: -4.0d,
+	description: "合成血腥魔戒，击杀血腥教徒可以积攒血腥能量",
+	text: [
+		""
+	],
+	dependencies: [
+		"cb95f28e"
+	],
+	tasks: [{
+		uid: "4be27518",
+		type: "item",
+		items: [{
+			item: "contenttweaker:bauble_crimson_ring"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9cc8cacc",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "cdad5758",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "302facd1",
+		type: "xp",
+		xp: 10000
+	}]
+}

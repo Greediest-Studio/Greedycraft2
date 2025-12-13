@@ -94,7 +94,9 @@ var aspectMap as CTAspectStack[][IIngredient] = {
     <gct_mobs:shubniggurathium_ingot> : [<aspect:tenebrae> * 40, <aspect:abyss> * 40, <aspect:tempus> * 30, <aspect:ordo> * 30, <aspect:perditio> * 30],
     <additions:cthughate_ingot> : [<aspect:ignis> * 60, <aspect:lux> * 20, <aspect:abyss> * 25, <aspect:perditio> * 15],
     <additions:husturite_ingot> : [<aspect:vacuos> * 20, <aspect:aer> * 40, <aspect:tempestas> * 20, <aspect:abyss> * 25, <aspect:perditio> * 15],
-    <gct_aby:abyss_wand> : [<aspect:abyss> * 40, <aspect:perditio> * 30, <aspect:praecantatio> * 60, <aspect:dreadia> * 16, <aspect:cthulhu> * 20, <aspect:coralos> * 10]
+    <gct_aby:abyss_wand> : [<aspect:abyss> * 40, <aspect:perditio> * 30, <aspect:praecantatio> * 60, <aspect:dreadia> * 16, <aspect:cthulhu> * 20, <aspect:coralos> * 10],
+    <biomesoplenty:ash> : [<aspect:pulvis> * 2, <aspect:ignis> * 1],
+    <modularmachinery:itemmodularium> : [<aspect:machina> * 8, <aspect:structura> * 5]
 };
 
 for ingredient in aspectMap {

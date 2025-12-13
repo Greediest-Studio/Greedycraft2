@@ -351,7 +351,7 @@ Infusion.registerRecipe("sanite_siphon", "ABYSSISM_MOBS", <gct_aby:sanite_siphon
 ]);
 
 
-Infusion.registerRecipe("energy_matter_core", "", <additions:energy_matter_core>, 16,[
+Infusion.registerRecipe("energy_matter_core", "", <additions:energy_matter_core>, 16, [
     <aspect:permutatio> * 50,
     <aspect:alienis> * 50,
     <aspect:praecantatio> * 50,
@@ -369,7 +369,7 @@ Infusion.registerRecipe("energy_matter_core", "", <additions:energy_matter_core>
     <ore:ingotChromasteel>
 ]);
 
-Infusion.registerRecipe("wand_blueprint", "", <additions:blueprint_wand>, 55,[
+Infusion.registerRecipe("wand_blueprint", "", <additions:blueprint_wand>, 55, [
     <aspect:praecantatio> * 10,
     <aspect:instrumentum> * 10,
     <aspect:aversio> * 10,
@@ -381,11 +381,45 @@ Infusion.registerRecipe("wand_blueprint", "", <additions:blueprint_wand>, 55,[
     <thaumcraft:vis_resonator>
 ]);
 
+Infusion.registerRecipe("crimson_ring", "", <contenttweaker:bauble_crimson_ring>, 24, [
+    <aspect:victus> * 4800,
+    <aspect:vitium> * 1600,
+    <aspect:exanimis> * 1600,
+    <aspect:dreadia> * 1600,
+    <aspect:auram> * 1200,
+    <aspect:vacuos> * 1200
+], <additions:extended_primordial_block>, [
+    <additions:evilblood_drop>,
+    <additions:evilblood_drop>,
+    <additions:evilblood_drop>,
+    <additions:evilblood_drop>,
+    <additions:evilblood_drop>,
+    <additions:evilblood_drop>,
+    <additions:evilblood_drop>,
+    <additions:evilblood_drop>,
+    <additions:hexacite_ingot>,
+    <additions:hexacite_ingot>,
+    <additions:hexacite_ingot>,
+    <additions:hexacite_ingot>,
+    <additions:hexacite_ingot>,
+    <additions:hexacite_ingot>,
+    <additions:hexacite_ingot>,
+    <additions:hexacite_ingot>,
+    <thaumcraft:curio:6>,
+    <thaumcraft:curio:6>,
+    <thaumcraft:curio:6>,
+    <thaumcraft:curio:6>,
+    <thaumcraft:curio:6>,
+    <thaumcraft:curio:6>,
+    <thaumcraft:curio:6>,
+    <thaumcraft:curio:6>
+]);
+
 Infusion.registerRecipe("crimsonite_ingot", "", <additions:crimsonite_block>, 6, [
-    <aspect:victus>*1000,
-    <aspect:mortuus>*1000,
-    <aspect:aversio>*1000,
-    <aspect:desiderium>*1000
+    <aspect:victus> * 1000,
+    <aspect:mortuus> * 1000,
+    <aspect:aversio> * 1000,
+    <aspect:desiderium> * 1000
 ], <bloodarsenal:blood_diamond:3>, [
     <additions:chromasteel_ingot>,
     <bloodmagic:item_demon_crystal:1>,

@@ -2413,7 +2413,8 @@ GameStagesUtil.stageDeepDream.addIngredients([
     <additions:dubhe_orb_night>,
     <contenttweaker:bauble_dubhe_night_clown>,
     <additions:evilblood_drop>,
-    <additions:evilblood_slime_block>
+    <additions:evilblood_slime_block>,
+    <contenttweaker:bauble_crimson_ring>
 ], false);
 
 GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators", "mekceumoremachine", "mekeng"]);

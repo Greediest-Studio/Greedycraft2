@@ -142,6 +142,7 @@ events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
         }
     }
 
+    //Tarantula Events
     if (!isNull(event.entityLivingBase.definition) && !event.entityLivingBase.world.remote) {
         if (event.entityLivingBase.definition.id == "erebus:erebus.tarantula_mini_boss") {
             //Convertion of Dubhe Orb
@@ -157,8 +158,8 @@ events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
                     }
                 }
             }
-            //Poison Conversion Recipes
 
+            //Poison Conversion Recipes
             val ConversionList as IBlockState[string[]] = {
                 ["tconstruct:slime", "3"]: <blockstate:additions:evilblood_slime_block>,
                 ["botania:storage", "1"]: <blockstate:jaopca:block.terrasteel_poisonous>

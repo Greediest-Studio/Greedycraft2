@@ -32,6 +32,16 @@ events.register(function(event as ItemTooltipEvent) {
 
 events.register(function(event as ItemTooltipEvent) {
     var itemStack as IItemStack = event.getItemStack().wrapper;
+    if (itemStack.definition.id == <contenttweaker:bauble_crimson_ring>.definition.id) {
+        if (!isNull(itemStack.tag.crimsonPower)) {
+            var crimsonPower as int = itemStack.tag.crimsonPower as int;
+            event.getToolTip()[0 .. 3].add("§7血腥意志：" + crimsonPower as string);
+        }
+    }
+});
+
+events.register(function(event as ItemTooltipEvent) {
+    var itemStack as IItemStack = event.getItemStack().wrapper;
     if (TicTraitLib.hasTicTrait(itemStack, "imitation")) {
         var tooltips = event.getToolTip();
         var location as int = -1;
