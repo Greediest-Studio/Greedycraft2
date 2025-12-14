@@ -108,7 +108,7 @@ RecipeBuilder.newBuilder("will_absorption", "auto_soul_forge", 10)
         var parallel as int = event.activeRecipe.parallelism;
         ctrl.addWillAmount(parallel * 10);  
     })
-    .addRecipeTooltip("§a将1点恶魔意志存储到机械中")
+    .addRecipeTooltip("§a将10点恶魔意志存储到机械中")
     .setThreadName("意志汲取模块")
     .build();
 
