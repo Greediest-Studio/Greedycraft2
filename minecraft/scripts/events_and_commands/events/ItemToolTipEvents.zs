@@ -20,68 +20,74 @@ var EIOitemLevelList as string[string] = {
 
 events.register(function(event as ItemTooltipEvent) {
     var itemStack as IItemStack = event.getItemStack().wrapper;
-    if (EIOitemStackString has itemStack.definition.id) {
-        if (GuiScreen.isShiftKeyDown()) {
-            event.getToolTip()[0 .. 1].add("§7机器升级\n增加储能和速率/工作范围");
-        } else {
-            event.getToolTip()[0 .. 1].add("§7机器升级\n§f§o<按住Shift>");
-        }
-        event.getToolTip()[0 .. 3].add(EIOitemLevelList[itemStack.definition.id]);
-    }
-});
-
-events.register(function(event as ItemTooltipEvent) {
-    var itemStack as IItemStack = event.getItemStack().wrapper;
-    if (itemStack.definition.id == <contenttweaker:bauble_crimson_ring>.definition.id) {
-        if (!isNull(itemStack.tag.crimsonPower)) {
-            var crimsonPower as int = itemStack.tag.crimsonPower as int;
-            event.getToolTip()[0 .. 3].add("§7血腥意志：" + crimsonPower as string);
+    
+    //EIO Capacitor Tooltip
+    if (!isNull(itemStack.definition)) {
+        if (EIOitemStackString has itemStack.definition.id) {
+            if (GuiScreen.isShiftKeyDown()) {
+                event.getToolTip()[0 .. 1].add("§7机器升级\n增加储能和速率/工作范围");
+            } else {
+                event.getToolTip()[0 .. 1].add("§7机器升级\n§f§o<按住Shift>");
+            }
+            event.getToolTip()[0 .. 3].add(EIOitemLevelList[itemStack.definition.id]);
         }
     }
-});
 
-events.register(function(event as ItemTooltipEvent) {
-    var itemStack as IItemStack = event.getItemStack().wrapper;
-    if (TicTraitLib.hasTicTrait(itemStack, "imitation")) {
-        var tooltips = event.getToolTip();
-        var location as int = -1;
-        var str as string = "";
-        var count as int = -1;
-        for i in 0 to tooltips.length {
-            var tooltip as string = tooltips[i];
-            if (tooltip has "模拟") {
-                location = i;
-                str = tooltip;
-                break;
+    //Crimson Ring Tooltip
+    if (!isNull(itemStack.definition)) {
+        if (itemStack.definition.id == <contenttweaker:bauble_crimson_ring>.definition.id) {
+            if (!isNull(itemStack.tag.crimsonPower)) {
+                var crimsonPower as int = itemStack.tag.crimsonPower as int;
+                event.getToolTip()[0 .. 3].add("§7血腥意志：" + crimsonPower as string);
             }
         }
-        if (!isNull(itemStack.tag.imitationCount)) {
-            count = itemStack.tag.imitationCount as int;
-        }
-        if (location != -1 && count != -1) {
-            event.getToolTip()[0 .. location].add(str + ": " + count + "/10");
-            event.getToolTip().remove(location + 1);
-        }
     }
-    if (TicTraitLib.hasTicTrait(itemStack, "imitation_armor")) {
-        var tooltips = event.getToolTip();
-        var location as int = -1;
-        var str as string = "";
-        var count as int = -1;
-        for i in 0 to tooltips.length {
-            var tooltip as string = tooltips[i];
-            if (tooltip has "模拟") {
-                location = i;
-                str = tooltip;
-                break;
+
+    //Imitation Trait Tooltip
+    if (!isNull(itemStack.definition)) {
+        if (TicTraitLib.hasTicTrait(itemStack, "imitation")) {
+            var tooltips = event.getToolTip();
+            var location as int = -1;
+            var str as string = "";
+            var count as int = -1;
+            for i in 0 to tooltips.length {
+                var tooltip as string = tooltips[i];
+                if (tooltip has "模拟") {
+                    location = i;
+                    str = tooltip;
+                    break;
+                }
+            }
+            if (!isNull(itemStack.tag.imitationCount)) {
+                count = itemStack.tag.imitationCount as int;
+            }
+            if (location != -1 && count != -1) {
+                event.getToolTip()[0 .. location].add(str + ": " + count + "/10");
+                event.getToolTip().remove(location + 1);
             }
         }
-        if (!isNull(itemStack.tag.imitationCount)) {
-            count = itemStack.tag.imitationCount as int;
-        }
-        if (location != -1 && count != -1) {
-            event.getToolTip()[0 .. location].add(str + ": " + count + "/4");
-            event.getToolTip().remove(location + 1);
+        if (TicTraitLib.hasTicTrait(itemStack, "imitation_armor")) {
+            var tooltips = event.getToolTip();
+            var location as int = -1;
+            var str as string = "";
+            var count as int = -1;
+            for i in 0 to tooltips.length {
+                var tooltip as string = tooltips[i];
+                if (tooltip has "模拟") {
+                    location = i;
+                    str = tooltip;
+                    break;
+                }
+            }
+            if (!isNull(itemStack.tag.imitationCount)) {
+                count = itemStack.tag.imitationCount as int;
+            }
+            if (location != -1 && count != -1) {
+                event.getToolTip()[0 .. location].add(str + ": " + count + "/4");
+                event.getToolTip().remove(location + 1);
+            }
         }
     }
+
 });
+

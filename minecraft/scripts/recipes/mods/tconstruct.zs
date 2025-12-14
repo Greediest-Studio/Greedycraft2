@@ -402,6 +402,9 @@ Melting.addEntityMelting(<entity:minecraft:enderman>, <liquid:ender>);
 Melting.addEntityMelting(<entity:minecraft:snowman>, <liquid:water>);
 Melting.addEntityMelting(<entity:minecraft:villager_golem>, <liquid:iron>);
 Melting.addEntityMelting(<entity:minecraft:zombie_pigman>, <liquid:gold>);
+Melting.addEntityMelting(<entity:thaumcraft:cultistcleric>, <liquid:concentrated_soul_liquid>);
+Melting.addEntityMelting(<entity:thaumcraft:cultistleader>, <liquid:concentrated_soul_liquid>);
+Melting.addEntityMelting(<entity:thaumcraft:cultistknight>, <liquid:concentrated_soul_liquid>);
 
 Melting.addRecipe(<liquid:adaminite> * VOLUME_INGOT, <ore:ingotAdaminite>, 1300);
 Melting.addRecipe(<liquid:aerotheum> * 100, <ore:dustBlitz>, 200);

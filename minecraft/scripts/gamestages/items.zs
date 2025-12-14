@@ -361,7 +361,9 @@ GameStagesUtil.stageAwakened.addIngredients([
     <ore:ingotNiobiumTitanium>,
     <ore:blockNiobiumTitanium>,
     <ore:nuggetNiobiumTitanium>,
-    <ore:dustNiobiumTitanium>
+    <ore:dustNiobiumTitanium>,
+    <moretcon:blockcobbledbedrock>,
+    <moretcon:blockreforgestation>
 ], true);
 
 GameStagesUtil.stageNether.addIngredients([
@@ -1765,7 +1767,14 @@ GameStagesUtil.stageEpicWizard.addIngredients([
     <ore:blockDisasterMetal>,
     <ore:dustDisasterMetal>,
     <additions:eldritch_slime>,
-    <ore:oreVoid>
+    <ore:oreVoid>,
+    <ore:oreBloodInfusedIron>,
+    <ore:oreBloodInfusedDiamond>,
+    <ore:gemSangine>,
+    <ore:ingotDyaquarium>,
+    <ore:nuggetDyaquarium>,
+    <ore:blockDyaquarium>,
+    <ore:dustDyaquarium>
 ], false);
 
 GameStagesUtil.stageEnderCharm.addIngredients([
@@ -2414,7 +2423,8 @@ GameStagesUtil.stageDeepDream.addIngredients([
     <contenttweaker:bauble_dubhe_night_clown>,
     <additions:evilblood_drop>,
     <additions:evilblood_slime_block>,
-    <contenttweaker:bauble_crimson_ring>
+    <contenttweaker:bauble_crimson_ring>,
+    <additions:crimson_token>
 ], false);
 
 GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators", "mekceumoremachine", "mekeng"]);

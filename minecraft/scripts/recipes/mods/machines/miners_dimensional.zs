@@ -1088,6 +1088,9 @@ besidevoid.addPreCheckHandler(function(event as RecipeCheckEvent) {
         event.setFailed("当前维度就是血腥裂隙！");
     }
 });
+//寰宇级
+besidevoid.addItemUpgradeOutput(<additions:blood_infused_iron_ore>, COSMILITE, 0.035);
+besidevoid.addItemUpgradeOutput(<bloodarsenal:blood_diamond>, COSMILITE, 0.015);
 //终焉级
 besidevoid.addItemUpgradeOutput(<additions:losessium_ore>, FINALLIUM, 0.003);
 besidevoid.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");

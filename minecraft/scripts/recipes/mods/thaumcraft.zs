@@ -14,7 +14,9 @@ import crafttweaker.item.IIngredient;
 import mods.thaumcraft.Infusion;
 import mods.thaumcraft.ArcaneWorkbench;
 import mods.thaumcraft.Crucible;
+import mods.thaumicconcilium.ChainedRiftRecipe;
 
+ChainedRiftRecipe.addRecipe("dyaquarium_ingot", "", <additions:dyaquarium_ingot>, <additions:aqualite_ingot>, "victus 6400");
 
 var removedRecipes as IItemStack[] = [
     <thaumcraft:fortress_helm>,

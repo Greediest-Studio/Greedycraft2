@@ -4,6 +4,7 @@
  */ 
 
 #priority 32400
+#reloadable
 
 import native.java.util.Random;
 import native.java.util.HexFormat;

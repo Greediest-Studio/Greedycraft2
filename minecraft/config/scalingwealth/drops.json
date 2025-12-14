@@ -9,8 +9,22 @@
                 }
             ]
         },
+        "thaumcraft:cultistleader": {
+            "[3200, 2147483647]": [
+                {
+                    "amount": "[1,4]",
+                    "chance": 1.0,
+                    "item": "additions:crimson_fabric_enhanced"
+                },
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.05,
+                    "item": "additions:crimson_token"
+                }
+            ]
+        },
         "mca:grimreapermca": {
-            "[4800, 2147483647]": [
+            "[3200, 2147483647]": [
                 {
                     "amount": "[4,10]",
                     "chance": 1.0,

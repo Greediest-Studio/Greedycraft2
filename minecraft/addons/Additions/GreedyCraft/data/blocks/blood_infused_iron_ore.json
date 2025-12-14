@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "注血铁矿石",
+    "ore_dict": "oreBloodInfusedIron",
+    "type": "additions:block_simple"
+  },
+  "name": "注血铁矿石",
+  "material": "minecraft:stone",
+  "hardness": 3.0,
+  "resistance": 15.0,
+  "harvest_level": 8,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

@@ -550,6 +550,10 @@ kungfuTrait.onHurt = function(trait, armor, player, source, damage, newDamage, e
         var attacker as IEntityLivingBase = source.getTrueSource();
         if (attacker.isChild) {
             return (newDamage * 1.125f) as float;
+        } else if (attacker instanceof IEntityLiving) {
+            if (attacker.definition.id has "babymobs:") {
+                return (newDamage * 1.125f) as float;
+            }
         }
     }
     if (!isNull(player) && !source.isDamageAbsolute()) {

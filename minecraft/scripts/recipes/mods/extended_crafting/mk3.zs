@@ -298,3 +298,13 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <industrialforegoing:laser_base
 	[<ore:itemRubber>, <ore:gearExtreme>, <ore:gearExtreme>, <ore:blockRefinedGlowstone>, <ore:gearExtreme>, <ore:gearExtreme>, <ore:itemRubber>], 
 	[<ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>, <ore:blockRefinedGlowstone>, <ore:itemRubber>, <ore:itemRubber>, <ore:itemRubber>]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <minecraft:bedrock> * 2, [
+	[<ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>], 
+	[<ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>], 
+	[<ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>], 
+	[<ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>], 
+	[<ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>], 
+	[<ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>], 
+	[<ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>]
+]);

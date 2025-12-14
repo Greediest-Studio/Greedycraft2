@@ -1349,10 +1349,13 @@
             "generator": {
                 "block": [{
                     "name": "additions:losessium_ore",
-                    "weight": 100
+                    "weight": 10
+                },{
+                    "name": "gct_mobs:corruptrock",
+                    "weight": 90
                 }],
                 "material": "gct_mobs:bloodyrock",
-                "cluster-size": 1
+                "cluster-size": 25
             },
             "min-height": 0,
             "max-height": 128,
@@ -2250,6 +2253,48 @@
             "dimension": {
                 "restriction": "whitelist",
                 "value": [0]
+            }
+        },
+        "blood_infused_iron": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:blood_infused_iron_ore",
+                    "weight": 100
+                }],
+                "material": "gct_mobs:bloodyrock",
+                "cluster-size": 4
+            },
+            "cluster-count": 8,
+            "min-height": 1,
+            "max-height": 50,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [41]
+            }
+        },
+        "blood_infused_diamond": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:blood_infused_diamond_ore",
+                    "weight": 100
+                }],
+                "material": "gct_mobs:bloodyrock",
+                "cluster-size": 4
+            },
+            "cluster-count": 3,
+            "min-height": 1,
+            "max-height": 25,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [41]
             }
         }
     }

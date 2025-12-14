@@ -1,0 +1,17 @@
+{
+  "item_block": {
+    "name": "§b血钻矿石",
+    "ore_dict": "oreBloodInfusedDiamond",
+    "type": "additions:block_simple"
+  },
+  "name": "§b血钻矿石",
+  "material": "minecraft:stone",
+  "hardness": 5.0,
+  "resistance": 15.0,
+  "harvest_level": 9,
+  "harvest_tool": "pickaxe",
+  "light_level": 2,
+  "xp_dropped_min": 3,
+  "xp_dropped_max": 7,
+  "type": "additions:simple"
+}

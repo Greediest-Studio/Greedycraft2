@@ -297,4 +297,42 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
             }
         }
     }
+
+    var casterList as string[] = [
+        "thaumcraft:caster_basic",
+        "thaumicaugmentation:gauntlet"
+    ];
+    //Crimson Portal Summoning Ritual
+    if (!event.world.remote && event.hand == "MAIN_HAND" && event.block.definition.id == "additions:bloody_ancient_stone" && !isNull(event.player.mainHandHeldItem)) {
+        var player as IPlayer = event.player;
+        var pos as IBlockPos = event.position;
+        var world as IWorld = event.world;
+        var item as IItemStack = player.mainHandHeldItem;
+        if (casterList has item.definition.id) {
+            var pass as bool = false;
+            for i in 0 to player.baublesInventory.getSlotCount() {
+                if (!isNull(player.baublesInventory.getStackInSlot(i))) {
+                    var bauble as IItemStack = player.baublesInventory.getStackInSlot(i);
+                    if (bauble.definition.id == "contenttweaker:bauble_crimson_ring") {
+                        if (!isNull(bauble.tag.crimsonPower)) {
+                            var currentPower as int = bauble.tag.crimsonPower as int;
+                            if (currentPower >= 16) {
+                                pass = true;
+                                bauble.mutable().updateTag({crimsonPower : currentPower - 16 as int});
+                                server.commandManager.executeCommandSilent(player, "particleex image endRod " + (pos.x as float - 2.7f) + " " + (pos.y as float + 1.3f) + " " + (pos.z as float + 4.1f) + " bloody_portal_ritual.png 0.25 90 0 0 not 20 5 0 0.01 0 200 a=0.05;(vx,,vz)=(-sin(a),-3.2,-cos(a),,cos(a),-3.2,-sin(a))*(x*2*sin(a),,0.1,,z*2*sin(a))");
+                                world.setBlockState(<blockstate:thaumicaugmentation:stone>.withProperty("ta_stone_type", "ancient_bricks"), pos);
+                                world.catenation().sleep(100).then(function(world, context) {
+                                    <entity:thaumcraft:cultistportalgreater>.spawnEntity(world, pos.up(1));
+                                }).start();
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
+            if (!pass) {
+                player.sendStatusMessage("§c你的血腥魔戒没有足够的能量来完成启门仪式！");
+            }
+        }
+    }
 });
