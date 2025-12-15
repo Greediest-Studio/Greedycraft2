@@ -4,6 +4,7 @@
  */
 
 #priority 90
+#reloadable
 
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.IPlayerEvent;
@@ -40,6 +41,11 @@ import mods.ctintegration.advancement.IAdvancementProgress;
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
 import mods.nuclearcraft.RadiationScrubber;
+
+import native.net.minecraft.entity.player.EntityPlayerMP;
+import native.net.minecraft.inventory.Container;
+import native.net.minecraft.item.ItemStack;
+import native.net.mcreator.gctmobs.gui.GuiKabalahBuilder.GuiContainerMod;
 
 val advancementMap as string[string] = {
     twilight_forest: "greedycraft:elysia/log1",
@@ -456,6 +462,82 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
             } else {
                 player.attackEntityFrom(IDamageSource.createOfType("erebus_curse"), player.maxHealth);
             }
+        }
+    }
+});
+
+$expand Container$isStack(slotIndex as int, stackTarget as IItemStack) as bool {
+    if (!isNull(this.inventorySlots[slotIndex].getStack())) {
+        var stack as ItemStack = this.inventorySlots[slotIndex].getStack();
+        var stackCT as IItemStack = stack.wrapper;
+        if (!(isNull(stackCT) || isNull(stackCT.definition) || isNull(stackCT.definition.id))) {
+            if (stackCT.definition.id == stackTarget.definition.id) {
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
+$expand IItemStack[]$matches(target as IItemStack[]) as bool {
+    if (this.length != target.length) {
+        return false;
+    }
+    for i in 0 to this.length {
+        if (isNull(this[i]) && isNull(target[i])) {
+            continue;
+        } else if (isNull(this[i]) || isNull(target[i])) {
+            return false;
+        } else if (this[i].definition.id != target[i].definition.id) {
+            return false;
+        } else if (this[i].metadata != target[i].metadata) {
+            return false;
+        }
+    }
+    return true;
+}
+
+events.onPlayerTick(function(event as PlayerTickEvent) {
+    if (event.side != "SERVER") {
+        return;
+    }
+    var player as IPlayer = event.player;
+    // Kabalah Builder GUI check
+    if ((player.native as EntityPlayerMP).openContainer instanceof GuiContainerMod) {
+        var container as Container = (player.native as EntityPlayerMP).openContainer;
+        var recipeCheckList as IItemStack[] = [];
+        var recipeLevel as int = 0;
+        for i in 0 to 10 {
+            if (!isNull(container.inventorySlots[i].getStack())) {
+                var stack as ItemStack = container.inventorySlots[i].getStack();
+                var stackCT as IItemStack = stack.wrapper;
+                recipeCheckList += stackCT;
+            } else {
+                recipeCheckList += null;
+            }
+        }
+        if (container.isStack(10, <gct_mobs:kabalah_ring_aur>)) {
+            if (container.isStack(11, <gct_mobs:kabalah_ring_soph>)) {
+                if (container.isStack(12, <gct_mobs:kabalah_ring_ain>)) {
+                    recipeLevel = 3;
+                } else {
+                    recipeLevel = 2;
+                }
+            } else {
+                recipeLevel = 1;
+            }
+        }
+        var targetLevelRecipes as IItemStack[][IItemStack] = KabbalahBuilderRecipeList[recipeLevel];
+        var pass as bool = false;
+        for allMatchedRecipes in targetLevelRecipes {
+            if (targetLevelRecipes[allMatchedRecipes].matches(recipeCheckList)) {
+                container.inventorySlots[13].putStack(allMatchedRecipes.native);
+                pass = true;
+                break;
+            }
+        }
+        if (!pass) {
+            container.inventorySlots[13].putStack(ItemStack.EMPTY);
         }
     }
 });

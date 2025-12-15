@@ -4,6 +4,7 @@
  */
 
 #priority 1400
+#reloadable
 
 import crafttweaker.item.IItemStack;
 
@@ -18,10 +19,10 @@ kabbalahJEI.setIcon(<gct_mobs:kabalah_builder_block>);
 kabbalahJEI.setBackground(IJeiUtils.createBackground(150, 130));
 kabbalahJEI.addRecipeCatalyst(<gct_mobs:kabalah_builder_block>);
 kabbalahJEI.addSlot(IJeiUtils.createItemSlot("1", 70, 10, true, true));
-kabbalahJEI.addSlot(IJeiUtils.createItemSlot("2", 100, 22, true, true));
-kabbalahJEI.addSlot(IJeiUtils.createItemSlot("3", 40, 22, true, true));
-kabbalahJEI.addSlot(IJeiUtils.createItemSlot("4", 100, 46, true, true));
-kabbalahJEI.addSlot(IJeiUtils.createItemSlot("5", 40, 46, true, true));
+kabbalahJEI.addSlot(IJeiUtils.createItemSlot("2", 40, 22, true, true));
+kabbalahJEI.addSlot(IJeiUtils.createItemSlot("3", 100, 22, true, true));
+kabbalahJEI.addSlot(IJeiUtils.createItemSlot("4", 40, 46, true, true));
+kabbalahJEI.addSlot(IJeiUtils.createItemSlot("5", 100, 46, true, true));
 kabbalahJEI.addSlot(IJeiUtils.createItemSlot("6", 70, 58, true, true));
 kabbalahJEI.addSlot(IJeiUtils.createItemSlot("7", 40, 70, true, true));
 kabbalahJEI.addSlot(IJeiUtils.createItemSlot("8", 100, 70, true, true));
@@ -62,26 +63,58 @@ function createKabbalahBuilderJEI(output as IItemStack, slot1 as IItemStack, slo
     recipe.build();
 }
 
-createKabbalahBuilderJEI(<gct_mobs:kabalah_ring_aur>,
-    <gct_mobs:rune_active_1>,
-    <gct_mobs:rune_active_2>,
-    <gct_mobs:rune_active_3>,
-    <gct_mobs:rune_active_4>,
-    <gct_mobs:rune_active_5>,
-    <gct_mobs:rune_active_6>,
-    <gct_mobs:rune_active_7>,
-    <gct_mobs:rune_active_8>,
-    <gct_mobs:rune_active_9>,
-    <gct_mobs:rune_active_10>, 0);
+global KabbalahBuilderRecipeList as IItemStack[][IItemStack][int] = {
+    0 : {
+        <gct_mobs:kabalah_ring_aur> : [
+            <gct_mobs:rune_active_1>,
+            <gct_mobs:rune_active_2>,
+            <gct_mobs:rune_active_3>,
+            <gct_mobs:rune_active_4>,
+            <gct_mobs:rune_active_5>,
+            <gct_mobs:rune_active_6>,
+            <gct_mobs:rune_active_7>,
+            <gct_mobs:rune_active_8>,
+            <gct_mobs:rune_active_9>,
+            <gct_mobs:rune_active_10>
+        ]
+    },
+    1 : {
+        <gct_mobs:elf_passes> * 2 : [
+            <gct_mobs:elementium_fusionplate>,
+            <gct_mobs:elementium_fusionplate>,
+            <gct_mobs:elementium_fusionplate>,
+            <gct_mobs:elementium_fusionplate>,
+            <gct_mobs:elementium_fusionplate>,
+            <gct_mobs:orichalcos_fusionplate>,
+            <gct_mobs:elementium_fusionplate>,
+            <gct_mobs:elementium_fusionplate>,
+            <gct_mobs:elementium_fusionplate>,
+            null
+        ]
+    },
+    2 : {
 
-createKabbalahBuilderJEI(<gct_mobs:elf_passes> * 2, 
-    <gct_mobs:elementium_fusionplate>,
-    <gct_mobs:elementium_fusionplate>,
-    <gct_mobs:elementium_fusionplate>,
-    <gct_mobs:elementium_fusionplate>,
-    <gct_mobs:elementium_fusionplate>,
-    <gct_mobs:orichalcos_fusionplate>,
-    <gct_mobs:elementium_fusionplate>,
-    <gct_mobs:elementium_fusionplate>,
-    <gct_mobs:elementium_fusionplate>,
-    null, 1);
+    },
+    3 : {
+
+    }
+};
+
+for level in KabbalahBuilderRecipeList.keys {
+    for output in KabbalahBuilderRecipeList[level].keys {
+        var inputs as IItemStack[] = KabbalahBuilderRecipeList[level][output];
+        createKabbalahBuilderJEI(output, 
+            inputs[0],
+            inputs[1],
+            inputs[2],
+            inputs[3],
+            inputs[4],
+            inputs[5],
+            inputs[6],
+            inputs[7],
+            inputs[8],
+            inputs[9], 
+            level
+        );
+    }
+}
