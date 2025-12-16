@@ -704,6 +704,11 @@ RecipeUtil.addShaped("creative_capacitor", <ometweaks:creative_capacitor>, [
     [<ometweaks:blackhole_capacitor>, <ore:ingotEndestSteel>, <ometweaks:blackhole_capacitor>],
     [null, <ore:ingotCreativeAlloy>, null]
 ]);
+RecipeUtil.addShaped("slime_block", <minecraft:slime>, [
+    [<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>],
+    [<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>],
+    [<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>]
+]);
 /*
  * RecipeUtil.addShaped("", , [
  *  [null, null, null],

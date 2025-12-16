@@ -474,7 +474,8 @@ val removedRecipes as IIngredient[] = [
     <industrialforegoing:ore_washer>,
     <industrialforegoing:ore_fermenter>,
     <industrialforegoing:laser_drill>,
-    <industrialforegoing:laser_base>
+    <industrialforegoing:laser_base>,
+    <minecraft:slime>
 ];
 
 val removedRecipeNames as string[] = [

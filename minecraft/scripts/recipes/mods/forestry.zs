@@ -17,6 +17,8 @@ import mods.forestry.Centrifuge;
 
 import mods.zenutils.I18n;
 
+Centrifuge.removeRecipe(<extrabees:honey_comb:26>);
+
 val base as IIngredient[] = [<mysticalagriculture:crafting:16>, <mysticalagriculture:crafting:17>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:21>, <mysticalagradditions:insanium:1>];
 val essence as IIngredient[] = [<mysticalagriculture:crafting:5>, <ore:essenceInferium>, <ore:essencePrudentium>, <ore:essenceIntermedium>, <ore:essenceSuperium>, <ore:essenceSupremium>, <ore:essenceInsanium>];
 

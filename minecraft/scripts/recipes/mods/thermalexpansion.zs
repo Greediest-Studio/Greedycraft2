@@ -86,3 +86,5 @@ Refinery.addRecipe(<liquid:mixed_hydrocarbon> * 100, null, <liquid:refined_fuel>
 Refinery.addRecipe(<liquid:serum> * 10, null, <liquid:blood> * 1000, 100000);
 
 Factorizer.removeRecipeSplit(<minecraft:blaze_powder>);
+
+Centrifuge.removeRecipe(<extrabees:honey_comb:26>);
