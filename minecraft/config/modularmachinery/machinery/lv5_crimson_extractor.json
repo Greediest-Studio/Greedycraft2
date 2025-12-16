@@ -1,0 +1,8798 @@
+{
+    "registryname": "crimson_extractor",
+    "localizedname": "§bLV5 - 血腥汲取器",
+    "requires-blueprint": false,
+    "failure-action": "still",
+    "color": "201916",
+    "modifiers": [
+        {
+            "elements": "modularmachinery:blockcasing@1",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方紧挨着的方块换成此方块以降低血腥提取时间至75%！",
+            "modifier": {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.75
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@2",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方紧挨着的方块换成此方块以降低血腥提取时间至50%！",
+            "modifier": {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.50
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@3",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方紧挨着的方块换成此方块以降低血腥提取时间至30%！",
+            "modifier": {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.30
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@5",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方紧挨着的方块换成此方块以降低血腥提取时间至10%！",
+            "modifier": {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.10
+            }
+        }
+    ],
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "thaumadditions:adaminite_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 10,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 12,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "thaumcraft:stairs_greatwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thaumadditions:mithrillium_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "thaumcraft:plank_greatwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "jaopca:block.eldritch_steel@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "thaumadditions:adaminite_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "thaumadditions:mithrillium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thaumadditions:mithrillium_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": 12,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -6,
+            "z": 12,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "thaumadditions:adaminite_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 11,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": -3,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:stairs_greatwood@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 10,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 9,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "thaumcraft:stairs_greatwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "bloodarsenal:blood_infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": -5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 10,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "jaopca:block.eldritch_steel@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "bloodarsenal:blood_infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "thaumcraft:stairs_greatwood@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": -4,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "jaopca:block.eldritch_steel@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 10,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "bloodarsenal:blood_infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 15,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "thaumcraft:stairs_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": -3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:stairs_ancient@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "netherex:ichor@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "thaumcraft:leaves_greatwood@12"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "jaopca:block.eldritch_steel@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "jaopca:block.eldritch_steel@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "netherex:ichor@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "thaumcraft:leaves_greatwood@12"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "thaumcraft:plank_greatwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "netherex:ichor@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 12,
+            "elements": [
+                "thaumcraft:leaves_greatwood@12"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thaumcraft:stairs_greatwood@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "thaumcraft:plank_greatwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "jaopca:block.eldritch_steel@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "jaopca:block.eldritch_steel@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "netherex:ichor@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "netherex:ichor@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "thaumcraft:stairs_greatwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "thaumcraft:stairs_greatwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "z": 9,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "netherex:ichor@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "thaumcraft:stairs_greatwood@5"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "thaumcraft:stairs_greatwood@7"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 10,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "netherex:ichor@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": 11,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 15,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": -4,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "thaumcraft:stairs_greatwood@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "thaumcraft:stairs_greatwood@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 13,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": 13,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": -4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "thaumcraft:plank_greatwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": 13,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 12,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": -4,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 13,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "thaumcraft:plank_greatwood@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "thaumcraft:stairs_greatwood@1"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "thaumcraft:stairs_greatwood@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "tconevo:metal_block@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": -2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "thaumcraft:stairs_greatwood@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 16,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "thaumcraft:leaves_greatwood@12"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "thaumcraft:stairs_greatwood@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 9,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "thaumcraft:plank_greatwood@0"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -12,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "jaopca:block.eldritch_steel@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "jaopca:block.eldritch_steel@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "jaopca:block.eldritch_steel@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "thaumcraft:stairs_greatwood@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "thaumcraft:stairs_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:stairs_ancient@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:stairs_ancient@7"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "z": -1,
+            "elements": [
+                "thaumcraft:plank_greatwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "thaumcraft:stairs_greatwood@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 9,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "thaumcraft:stairs_greatwood@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "tconevo:metal_block@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "bloodarsenal:blood_infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "thaumcraft:leaves_greatwood@12"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "additions:extended_primordial_block@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "bloodarsenal:blood_infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "bloodarsenal:blood_infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "thaumcraft:stairs_greatwood@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thaumcraft:stairs_greatwood@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 12,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 14,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thaumcraft:stairs_greatwood@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "thaumcraft:plank_greatwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "netherex:ichor@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "bloodarsenal:blood_infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "thaumcraft:stairs_greatwood@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 13,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "thaumcraft:stairs_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 14,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "netherex:ichor@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 12,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "thaumcraft:stairs_greatwood@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:stairs_ancient@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "thaumcraft:stairs_greatwood@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "thaumcraft:stairs_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thaumcraft:stairs_greatwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "bloodarsenal:blood_infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:stairs_ancient@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 7,
+            "z": -1,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "thaumcraft:stairs_greatwood@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": -5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 7,
+            "z": 12,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 12,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "thaumcraft:stairs_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "tconevo:metal_block@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 13,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 7,
+            "elements": [
+                "netherex:ichor@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "z": 12,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "netherex:ichor@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "thaumcraft:stairs_greatwood@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "thaumcraft:stairs_greatwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "netherex:ichor@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "thaumadditions:adaminite_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "thaumadditions:mithrillium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "additions:murderite_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "thaumadditions:adaminite_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "netherex:ichor@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -6,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "thaumcraft:stairs_greatwood@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "netherex:ichor@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "thaumadditions:mithrillium_block@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "jaopca:block.eldritch_steel@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "thaumcraft:stairs_greatwood@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -6,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "netherex:ichor@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "bloodarsenal:blood_infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": -5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "thaumcraft:stairs_greatwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "thaumicaugmentation:stairs_ancient@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 10,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 13,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 14,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -6,
+            "z": 12,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": -5,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "bloodarsenal:blood_infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thaumcraft:stairs_greatwood@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "netherex:ichor@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "thaumcraft:stairs_greatwood@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 14,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "tconevo:metal_block@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "bloodarsenal:blood_infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "thaumcraft:stairs_greatwood@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "netherex:ichor@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "thaumcraft:stairs_greatwood@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": -4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 15,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -6,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "thaumcraft:stairs_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "thaumcraft:plank_greatwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:stairs_ancient@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "thaumcraft:stairs_greatwood@5"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "thaumicaugmentation:stairs_ancient@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "thaumicaugmentation:stairs_ancient@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "thaumcraft:stairs_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "thaumcraft:stairs_greatwood@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "bloodarsenal:blood_infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "jaopca:block.eldritch_steel@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "bloodarsenal:blood_infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "netherex:ichor@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -6,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "jaopca:block.eldritch_steel@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "bloodarsenal:blood_infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "thaumcraft:stairs_greatwood@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "jaopca:block.eldritch_steel@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "thaumcraft:stairs_greatwood@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "netherex:ichor@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "thaumcraft:stairs_greatwood@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "netherex:ichor@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": -4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 6,
+            "z": -2,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "netherex:ichor@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -6,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "thaumcraft:stairs_greatwood@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "thaumcraft:stairs_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "thaumcraft:stairs_greatwood@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 12,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "netherex:ichor@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": 12,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 13,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "thaumcraft:stairs_greatwood@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "thaumcraft:stairs_greatwood@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": -3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "thaumcraft:stairs_greatwood@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "netherex:ichor@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "thaumcraft:plank_greatwood@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": -3,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "netherex:ichor@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "thaumcraft:leaves_greatwood@12"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": 12,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "thaumcraft:stairs_greatwood@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -10,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "thaumcraft:plank_greatwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 10,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "jaopca:block.eldritch_steel@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "thaumcraft:plank_greatwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "jaopca:block.eldritch_steel@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "thaumcraft:stairs_greatwood@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "thaumcraft:stairs_greatwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "thaumcraft:plank_greatwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "z": 11,
+            "elements": [
+                "thaumcraft:leaves_greatwood@12"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": -6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": 12,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "thaumcraft:stairs_greatwood@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "thaumcraft:plank_greatwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 11,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 15,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "bloodarsenal:blood_infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "thaumcraft:stairs_greatwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 13,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "thaumicaugmentation:stairs_ancient@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "bloodarsenal:blood_infused_iron_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "z": 11,
+            "elements": [
+                "thaumcraft:plank_greatwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "thaumcraft:stairs_greatwood@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "thaumcraft:stairs_greatwood@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "thaumicaugmentation:stairs_ancient@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -6,
+            "z": 10,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 14,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": 12,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -5,
+            "z": 10,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 8,
+            "z": 11,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -3,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "thaumcraft:stairs_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -11,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "thaumicaugmentation:stairs_ancient@7"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 12,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "bloodarsenal:blood_infused_iron_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "netherex:ichor@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "thaumcraft:plank_greatwood@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "thaumicaugmentation:stairs_ancient@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": -2,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -6,
+            "z": 12,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -6,
+            "z": 11,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "thaumicaugmentation:stairs_ancient@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "thaumcraft:log_greatwood@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 12,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "thaumadditions:adaminite_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "thaumcraft:stairs_greatwood@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 6,
+            "z": 12,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "netherex:ichor@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 6,
+            "z": -1,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "thaumadditions:adaminite_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "thaumcraft:leaves_greatwood@4"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 12,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "thaumicaugmentation:fortified_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 7,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "thaumadditions:mithrillium_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 6,
+            "elements": [
+                "netherex:ichor@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 7,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "thaumcraft:leaves_greatwood@12"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "thaumadditions:adaminite_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "thaumcraft:stairs_greatwood@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "thaumadditions:mithrillium_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "thaumadditions:mithrillium_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -6,
+            "z": 14,
+            "elements": [
+                "thaumcraft:log_greatwood@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "thaumicaugmentation:stone@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -6,
+            "z": 12,
+            "elements": [
+                "thaumcraft:metal_void@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -5,
+            "z": 8,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "thaumcraft:log_greatwood@1"
+            ]
+        }
+    ]}

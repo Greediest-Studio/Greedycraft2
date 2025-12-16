@@ -21,6 +21,7 @@ tieredtooltips.colorStage("novice_wizard", "b5000000", "f0ff9966", "f0ff5e62");
 tieredtooltips.colorStage("skilled_wizard", "b5000000", "f0fc4a1a", "f0f7b733");
 tieredtooltips.colorStage("master_wizard", "b5000000", "f07f00ff", "f0e100ff");
 tieredtooltips.colorStage("epic_wizard", "b5000000", "f078636a", "f06b0050");
+tieredtooltips.colorStage("legend_wizard", "b5000000", "f0c1937c", "f0dbdbb0");
 tieredtooltips.colorStage("wielder_of_infinity", "b5000000", "f0009FFF", "f0ec2F4B");
 tieredtooltips.colorStage("abyssal_conquerer", "b5000000", "f000F260", "f00575E6");
 tieredtooltips.colorStage("wither_slayer", "b5000000", "f0f857a6", "f0ff5858");

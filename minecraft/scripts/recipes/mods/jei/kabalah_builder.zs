@@ -67,10 +67,10 @@ global KabbalahBuilderRecipeList as IItemStack[][IItemStack][int] = {
     0 : {
         <gct_mobs:kabalah_ring_aur> : [
             <gct_mobs:rune_active_1>,
-            <gct_mobs:rune_active_2>,
             <gct_mobs:rune_active_3>,
-            <gct_mobs:rune_active_4>,
+            <gct_mobs:rune_active_2>,
             <gct_mobs:rune_active_5>,
+            <gct_mobs:rune_active_4>,
             <gct_mobs:rune_active_6>,
             <gct_mobs:rune_active_7>,
             <gct_mobs:rune_active_8>,
@@ -90,6 +90,18 @@ global KabbalahBuilderRecipeList as IItemStack[][IItemStack][int] = {
             <gct_mobs:elementium_fusionplate>,
             <gct_mobs:elementium_fusionplate>,
             null
+        ],
+        <additions:plate_of_emberlight> : [
+            <gct_mobs:botanical_ingot_awakened>,
+            <additions:ascensionite_ingot>,
+            <additions:ascensionite_ingot>,
+            <additions:purified_murderite_ingot>,
+            <additions:purified_murderite_ingot>,
+            <additions:gemundyingember>,
+            <additions:purified_murderite_ingot>,
+            <additions:purified_murderite_ingot>,
+            <additions:ascensionite_ingot>,
+            <gct_mobs:botanical_ingot_awakened>
         ]
     },
     2 : {

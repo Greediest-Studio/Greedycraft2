@@ -1,0 +1,29 @@
+{
+	title: "§b金盆洗手",
+	x: 8.5d,
+	y: -0.5d,
+	description: "获得净化血渊锭",
+	text: [
+		"你需要先发展神秘时代相关内容"
+	],
+	dependencies: [
+		"ab3d3969"
+	],
+	tasks: [{
+		uid: "ad970657",
+		type: "item",
+		items: [{
+			item: "additions:purified_murderite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "09ae2268",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "62d540f8",
+		type: "xp",
+		xp: 11111
+	}]
+}

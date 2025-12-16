@@ -2065,7 +2065,9 @@ GameStagesUtil.stageEpicEngineer.addIngredients([
     <ore:ingotCadmium>,
     <ore:nuggetCadmium>,
     <ore:blockCadmium>,
-    <ore:dustCadmium>
+    <ore:dustCadmium>,
+    <ore:dustSodiumSulfate>,
+    <ore:dustMagnesiumSulfateHydroxide>
 ], true);
 
 GameStagesUtil.stageChallenger1.addIngredients([
@@ -2424,7 +2426,12 @@ GameStagesUtil.stageDeepDream.addIngredients([
     <additions:evilblood_drop>,
     <additions:evilblood_slime_block>,
     <contenttweaker:bauble_crimson_ring>,
-    <additions:crimson_token>
+    <additions:crimson_token>,
+    <ore:ingotMurderitePurified>,
+    <ore:nuggetMurderitePurified>,
+    <ore:blockMurderitePurified>,
+    <ore:dustMurderitePurified>,
+    <additions:plate_of_emberlight>
 ], false);
 
 GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators", "mekceumoremachine", "mekeng"]);
@@ -2443,5 +2450,6 @@ GameStagesUtil.stageBetweenlandTraveller.addModId(["thebetweenlands"]);
 GameStagesUtil.stageWitherSlayer.addModId(["crazyae", "nae2", "ecoaeextension", "aewirelesschannel"]);
 GameStagesUtil.stageEnderCharm.addModId(["elementalend"]);
 GameStagesUtil.stageDeepDream.addModId(["erebus"]);
+GameStagesUtil.stageLegendWizard.addModId(["embers", "soot"]);
 
 GameStagesUtil.stageGettingStarted.addRecipeName("tinkersurvival:cobblestone");

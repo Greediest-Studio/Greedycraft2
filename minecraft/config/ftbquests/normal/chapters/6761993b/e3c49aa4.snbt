@@ -1,0 +1,36 @@
+{
+	title: "§b鲜血炼金术",
+	x: 10.5d,
+	y: -0.5d,
+	description: "合成余晖之板",
+	text: [
+		""
+	],
+	dependencies: [
+		"690b718d"
+	],
+	tasks: [{
+		uid: "914bbcb8",
+		type: "item",
+		items: [{
+			item: "additions:plate_of_emberlight"
+		}]
+	}],
+	rewards: [{
+		uid: "ec89fc78",
+		type: "item",
+		item: "additions:purified_murderite_ingot",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		uid: "7b442510",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "46a7a912",
+		type: "xp",
+		xp: 8000
+	}]
+}

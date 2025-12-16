@@ -1,0 +1,29 @@
+{
+	title: "§b重塑吾身",
+	x: 17.5d,
+	y: -4.0d,
+	description: "合成血腥汲取器控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"b798f84f"
+	],
+	tasks: [{
+		uid: "be493287",
+		type: "item",
+		items: [{
+			item: "modularmachinery:crimson_extractor_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "0aee37e9",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "97f4cdbf",
+		type: "xp",
+		xp: 4500
+	}]
+}

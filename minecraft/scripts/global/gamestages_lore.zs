@@ -304,6 +304,17 @@ global gameStagesLore as string[][string][string][string] = {
                 "质能转换核心"
             ]
         },
+        legend_wizard: {
+            alias: ["传说法师"],
+            lore: [
+                "你已经可以在魔法的领域中自由驰骋，几乎无所不能。"
+            ],
+            unlocks: [
+                "更多神秘时代附属",
+                "余烬模组，炼金术",
+                "星辉魔法暗淡星群"
+            ]
+        },
         quardstate: {
             alias: ["四相破除"],
             lore: [

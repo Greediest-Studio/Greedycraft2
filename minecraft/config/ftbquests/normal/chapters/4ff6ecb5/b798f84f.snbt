@@ -1,0 +1,31 @@
+{
+	title: "§b主教陨落",
+	x: 15.5d,
+	y: -4.0d,
+	description: "召唤巨型血腥传送门，击杀血腥主教，获得血魂教皇令",
+	text: [
+		"使用法师护手右键血腥神庙中的荒古血祭符文石，消耗16点血腥能量以召唤巨型血腥传送门"
+	],
+	dependencies: [
+		"642afe7f"
+	],
+	tasks: [{
+		uid: "a6b17024",
+		type: "item",
+		items: [{
+			item: "additions:crimson_token"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b5aa7461",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "3fcbd6fe",
+		type: "xp",
+		xp: 15000
+	}]
+}

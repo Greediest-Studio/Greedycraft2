@@ -155,6 +155,13 @@ GameStagesUtil.restageItems("wyvern", [
     <ore:ingotCosmicNeutronium>,
     <ore:blockCosmicNeutronium>
 ] as IIngredient[]);
+GameStagesUtil.restageItems("cosmic", [
+    <additions:antimony_ingot>,
+    <additions:antimony_ore>,
+    <ore:blockAntimony>,
+    <ore:nuggetAntimony>,
+    <ore:dustAntimony>
+] as IIngredient[]);
 GameStagesUtil.restageItem("awakened", <avaritia:neutronium_compressor>);
 GameStagesUtil.restageItems("hardmode", [
     <cyclicmagic:block_disenchanter>,

@@ -26,8 +26,13 @@ import mods.nuclearcraft.SaltMixer;
 import mods.nuclearcraft.IngotFormer;
 import mods.nuclearcraft.Registration;
 import mods.nuclearcraft.Extractor;
+import mods.nuclearcraft.MultiblockInfiltrator;
+import mods.nuclearcraft.InfiltratorPressureFluid;
 import mods.tconstruct.Alloy;
 import mods.jaopca.JAOPCA;
+
+MultiblockInfiltrator.removeAllRecipes();
+InfiltratorPressureFluid.removeAll();
 
 var GEM as int = 666;
 

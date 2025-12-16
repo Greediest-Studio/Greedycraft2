@@ -1,19 +1,16 @@
-
 [general]
-	#The material blacklist of this module.
+	#The material blacklist of this module. "*" is an alias for all materials, and "*" followed with a material type name is an alias for all materials of that material type. If a material name occurs an odd number of times (including wildcards), then the material is blacklisted. These rules applies to all config material blacklists.
 	materialBlacklist = []
-
 [recipes]
-	#Should the module only add recipes for materials with JAOPCA molten fluids.
-	jaopcaOnly = false
-	#The materials that should not have material melting recipes added.
-	materialToMoltenMaterialBlacklist = []
-	#The materials that should not have nugget melting recipes added.
-	nuggetToMoltenMaterialBlacklist = []
 	#The materials that should not have plate melting recipes added.
 	plateToMoltenMaterialBlacklist = []
 	#The materials that should not have material stamping recipes added.
 	toMaterialMaterialBlacklist = []
+	#Should the module only add recipes for materials with JAOPCA molten fluids.
+	jaopcaOnly = false
+	#The materials that should not have nugget melting recipes added.
+	nuggetToMoltenMaterialBlacklist = []
 	#The materials that should not have plate stamping recipes added.
 	toPlateMaterialBlacklist = []
-
+	#The materials that should not have material melting recipes added.
+	materialToMoltenMaterialBlacklist = []

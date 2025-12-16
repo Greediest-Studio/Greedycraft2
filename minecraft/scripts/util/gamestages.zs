@@ -42,6 +42,7 @@ static stageNoviceWizard as Stage = ZenStager.initStage("novice_wizard");
 static stageSkilledWizard as Stage = ZenStager.initStage("skilled_wizard");
 static stageMasterWizard as Stage = ZenStager.initStage("master_wizard");
 static stageEpicWizard as Stage = ZenStager.initStage("epic_wizard");
+static stageLegendWizard as Stage = ZenStager.initStage("legend_wizard");
 static stageEnderCharm as Stage = ZenStager.initStage("ender_charm");
 static stageTransmutationTable as Stage = ZenStager.initStage("transmutation_table");
 static stageEnergyMatter as Stage = ZenStager.initStage("energy_matter_core");

@@ -156,7 +156,6 @@ RecipeBuilder.newBuilder("grind_overlaite", "elysia_grinder", 100)
         <liquid:togrium> * 105,
         <liquid:yoggleseum> * 105,
         <liquid:soilium> * 480,
-        <liquid:mangisite> * 160,
         <liquid:manyullyn> * 240,
         <liquid:valyrium_fluid> * 80,
         <liquid:manarium> * 80,

@@ -906,6 +906,25 @@ addBuilderRecipe(<modularmachinery:biotechnic_computer_factory_controller>, [
     <gct_ores:shalloite> * 108
 ], 5, 8000);
 
+addBuilderRecipe(<modularmachinery:crimson_extractor_factory_controller>, [
+    <additions:logic_processor_3> * 42,
+    <additions:calculation_processor_3> * 24,
+    <additions:engineering_processor_3> * 24,
+    <crazyae:material:16> * 24,
+    <crazyae:material:17> * 16,
+    <ore:ingotModularium> * 128,
+    <ore:ingotThaumium> * 128,
+    <ore:ingotVoid> * 128,
+    <ore:ingotBloodInfusedIron> * 128,
+    <ore:ingotPrimordial> * 64,
+    <ore:ingotMithrillium> * 48,
+    <ore:ingotEldritchSteel> * 48,
+    <ore:ingotHexacite> * 12,
+    <ore:ingotMurderite> * 2,
+    <ore:ingotCursium> * 2,
+    <crimsonrevelations:embellished_crimson_fabric> * 24
+], 5, 5500);
+
 //Units
 addBuilderRecipe(<modularmachinery:elysia_alloyer_factory_controller>, [
     <gct_ores:blue_print_empty> * 32,
