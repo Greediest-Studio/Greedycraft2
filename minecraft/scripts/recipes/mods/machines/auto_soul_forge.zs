@@ -24,6 +24,7 @@ import mods.modularmachinery.FactoryRecipeFinishEvent;
 import mods.modularmachinery.FactoryRecipeEvent;
 import mods.modularmachinery.RecipeModifierBuilder;
 import mods.modularmachinery.SmartInterfaceUpdateEvent;
+import mods.modularmachinery.MachineStructureUpdateEvent;
 import mods.modularmachinery.Sync;
 import mods.modularmachinery.FactoryRecipeThread;
 import mods.modularmachinery.IMachineController;
@@ -31,7 +32,18 @@ import mods.modularmachinery.IngredientArrayBuilder;
 import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
+import native.net.minecraft.world.World;
+import native.net.minecraft.util.math.BlockPos;
+import native.WayofTime.bloodmagic.demonAura.WorldDemonWillHandler;
+import native.WayofTime.bloodmagic.soul.EnumDemonWillType;
+
 import mods.zenutils.DataUpdateOperation.REMOVE;
+
+/*  DEFAULT,
+    CORROSIVE,
+    DESTRUCTIVE,
+    VENGEFUL,
+    STEADFAST */
 
 MachineModifier.setMaxThreads("auto_soul_forge", 1);
 MachineModifier.setInternalParallelism("auto_soul_forge", 1);
@@ -41,10 +53,22 @@ MachineModifier.addCoreThread("auto_soul_forge", FactoryRecipeThread.createCoreT
     .addRecipe("will_absorption")
 );
 
-MMEvents.onMachinePreTick("auto_soul_forge", function(event as MachineTickEvent) {
+MMEvents.onStructureUpdate("auto_soul_forge", function(event as MachineStructureUpdateEvent) {
     var ctrl as IMachineController = event.controller;
     if (isNull(ctrl.customData.willList)) {
+        var parallel = 1;
+        parallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:0>) * 4;
+        parallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:5>) * 8;
+        parallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:1>) * 16;
+        parallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:6>) * 32;
+        parallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:2>) * 64;
+        parallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:7>) * 128;
+        parallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:3>) * 256;
+        parallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:8>) * 512;
+        parallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:4>) * 1024;
+        parallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:9>) * 2048;
         ctrl.customData = ctrl.customData.update({willList : {
+            parallel : parallel as int,
             raw : 0 as int,
             maxCapacity : 200000000 as int
         }});
@@ -100,47 +124,33 @@ MMEvents.onControllerGUIRender("auto_soul_forge", function(event as ControllerGU
 });
 
 RecipeBuilder.newBuilder("will_absorption", "auto_soul_forge", 10)
-    .setParallelized(false)
-    .addItemInput(<minecraft:dirt>).setChance(0)
-    .addWillInput("DEFAULT", 10, 1, 2147483647)
-    .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
-        var ctrl as IMachineController = event.controller;
-        var parallel as int = event.activeRecipe.parallelism;
-        ctrl.addWillAmount(parallel * 10);  
-    })
-    .addRecipeTooltip("§a将10点恶魔意志存储到机械中")
-    .setThreadName("意志汲取模块")
-    .build();
-
-/*
-RecipeBuilder.newBuilder("will", "auto_soul_forge", 10)
-    .addInput(<bloodmagic:soul_gem>).setTag("yizhi")
-    .setNBTChecker(function(ctrl as IMachineController, item as IItemStack) {
-        val souls as IData = item.tag.memberGet("souls");
-        val data = ctrl.customData;
-        data.asMap()["soulsgem"] =souls;
-        return true;
-    })
     .addPreCheckHandler(function(event as RecipeCheckEvent) {
         val ctrl = event.controller;
-        if (ctrl.getWillAmount() > gem) {
-            event.setFailed("§4被灌满啊");
-            return;
+        val chunkWill = WorldDemonWillHandler.getCurrentWill(ctrl.world.native, ctrl.pos.native, EnumDemonWillType.valueOf("DEFAULT") as EnumDemonWillType);
+        val maxparallelism = isNull(ctrl.customData.willList.parallel) ? 1 : ctrl.customData.willList.parallel;
+        if (chunkWill < 1.0d) {
+            event.setFailed("区块内无恶魔意志");
+        } else {
+            ctrl.activeRecipe.parallelism = min(chunkWill, maxparallelism);
+        }
+    })
+    .addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
+        val ctrl = event.controller;
+        val chunkWill = WorldDemonWillHandler.getCurrentWill(ctrl.world.native, ctrl.pos.native, EnumDemonWillType.valueOf("DEFAULT") as EnumDemonWillType);
+        if (chunkWill < 1.0d) {
+            event.setFailed(true,"区块内无恶魔意志");
         }
     })
     .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
         val ctrl = event.controller;
-        val data = ctrl.customData;
-        val map = data.asMap();
-        val soulsgem = map["soulsgem"];
-        val soulsInt = soulsgem as int;
-        ctrl.addWillAmount(soulsInt);
+        val chunkWill = WorldDemonWillHandler.getCurrentWill(ctrl.world.native, ctrl.pos.native, EnumDemonWillType.valueOf("DEFAULT") as EnumDemonWillType) as double;
+        val parallelism = event.activeRecipe.parallelism as double;
+        WorldDemonWillHandler.drainWill(ctrl.world.native, ctrl.pos.native, EnumDemonWillType.valueOf("DEFAULT") as EnumDemonWillType, min(chunkWill, parallelism), true);
+        ctrl.addWillAmount(min(chunkWill, parallelism) as int);
     })
-    .addOutput(<bloodmagic:soul_gem:0>.withTag({}))
+    .addRecipeTooltip("§a汲取区块内恶魔意志")
     .setThreadName("意志汲取模块")
-    .setParallelized(false)
     .build();
-*/
 
 function addHellForgeRecipe(inputs as IIngredient[], output as IItemStack, will as int) {
     var builder = RecipeBuilder.newBuilder("hell_forge_" ~ output.definition.id ~ (output.metadata as string), "auto_soul_forge", 100);
