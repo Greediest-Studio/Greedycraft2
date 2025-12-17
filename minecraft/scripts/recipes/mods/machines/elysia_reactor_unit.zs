@@ -45,3 +45,25 @@ MMEvents.onControllerGUIRender("elysia_reactor", function(event as ControllerGUI
 RecipeAdapterBuilder.create("elysia_reactor", "nuclearcraft:chemical_reactor")
     .addRecipeTooltip("§d化学反应配方支持模块化电容升级，详情请查询“模块化电容”")
     .build();
+
+function addExtraReactionRecipe(inputs as ILiquidStack[], outputs as ILiquidStack[]) {
+    var builder = RecipeBuilder.newBuilder(inputs[0].definition.name + (inputs.length > 1 ? inputs[1].definition.name : "") + "_reaction", "elysia_reactor", 200);
+    for input in inputs {
+        builder.addFluidInput(input);
+    }
+    for output in outputs {
+        builder.addFluidOutput(output);
+    }
+    builder.addEnergyPerTickInput(5);
+    builder.addRecipeTooltip("§d化学反应配方支持模块化电容升级，详情请查询“模块化电容”");
+    builder.addRecipeTooltip("§a该配方需要扩容升级，详情请查询“模块化电容-扩容”");
+    builder.addPreCheckHandler(function(event as RecipeCheckEvent) {
+        if (!event.controller.hasMachineUpgrade("expand_upg")) {
+            event.setFailed("缺少扩容升级！");
+        }
+    });
+    builder.build();
+}
+
+addExtraReactionRecipe([<liquid:fluorobenzene> * 250, <liquid:carbon_tetrachloride> * 125, <liquid:naoh> * 333], [<liquid:c4_i4_difluorodiphenylmethanone> * 125, <liquid:sodium_chloride> * 333]);
+addExtraReactionRecipe([<liquid:fluorobenzene> * 250, <liquid:carbon_tetrachloride> * 125, <liquid:koh> * 333], [<liquid:c4_i4_difluorodiphenylmethanone> * 125, <liquid:potassium_chloride> * 333]);    

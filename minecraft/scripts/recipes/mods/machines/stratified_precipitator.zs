@@ -47,3 +47,11 @@ RecipeBuilder.newBuilder("hou", "stratified_precipitator", 600)
     .addItemOutput(<additions:sodium_hydrogen_carbonate>)
     .addFluidOutput(<liquid:ammonium_chloride_solution> * 666)
     .build();
+
+RecipeBuilder.newBuilder("caminite", "stratified_precipitator", 600)
+    .addFluidInput(<liquid:magnesium_sulfate_solution> * 1332)
+    .addFluidInput(<liquid:sodium_hydroxide_solution> * 1332)
+    .addEnergyPerTickInput(20000)
+    .addItemOutput(<additions:magnesium_sulfate_hydroxide>)
+    .addFluidOutput(<liquid:sodium_sulfate_solution> * 666)
+    .build();

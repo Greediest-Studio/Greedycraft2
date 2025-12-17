@@ -2068,7 +2068,9 @@ GameStagesUtil.stageEpicEngineer.addIngredients([
     <ore:dustCadmium>,
     <ore:dustSodiumSulfate>,
     <ore:dustMagnesiumSulfateHydroxide>,
-    <ore:sheetLDPE>
+    <ore:sheetLDPE>,
+    <ore:ingotPolyetheretherketone>,
+    <ore:ingotPyroxene>
 ], true);
 
 GameStagesUtil.stageChallenger1.addIngredients([

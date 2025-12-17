@@ -551,6 +551,24 @@ ChemicalReactor.addRecipe(<liquid:manganese_chloride> * 333, <liquid:water> * 50
 ChemicalReactor.addRecipe(<liquid:molybdenum> * 72, <liquid:oxygen> * 750, <liquid:molybdenum_trioxide> * 333, null);
 ChemicalReactor.addRecipe(<liquid:molybdenum_trioxide> * 333, <liquid:sodium_hydroxide_solution> * 666, <liquid:sodium_molybdate_solution> * 333, <liquid:water> * 500);
 ChemicalReactor.addRecipe(<liquid:rich_brine> * 500, <liquid:ammonia> * 500, <liquid:ammonia_brine> * 500, null);
+ChemicalReactor.addRecipe(<liquid:c4_i4_difluorodiphenylmethanone> * 250, <liquid:hydroquinone_solution> * 250, <liquid:polyetheretherketone> * 36, <liquid:hydrofluoric_acid> * 500);
+ChemicalReactor.addRecipe(<liquid:methanol> * 500, <liquid:oxygen> * 250, <liquid:formaldehyde> * 500, <liquid:water> * 500);
+ChemicalReactor.addRecipe(<liquid:formaldehyde> * 500, <liquid:oxygen> * 250, <liquid:formic_acid> * 500, null);
+ChemicalReactor.addRecipe(<liquid:formic_acid> * 250, <liquid:hydrogen> * 500, <liquid:methanol> * 250, <liquid:water> * 250);
+ChemicalReactor.addRecipe(<liquid:benzene> * 250, <liquid:methanol> * 250, <liquid:toluene> * 250, <liquid:water> * 250);
+ChemicalReactor.addRecipe(<liquid:toluene> * 250, <liquid:methanol> * 250, <liquid:paraxylene> * 250, <liquid:water> * 250);
+ChemicalReactor.addRecipe(<liquid:paraxylene> * 250, <liquid:methanol> * 250, <liquid:1_2_4_trimethylbenzene> * 250, <liquid:water> * 250);
+ChemicalReactor.addRecipe(<liquid:1_2_4_trimethylbenzene> * 250, <liquid:methanol> * 250, <liquid:durene> * 250, <liquid:water> * 250);
+ChemicalReactor.addRecipe(<liquid:durene> * 250, <liquid:oxygen> * 1500, <liquid:pyromellitic_acid> * 250, <liquid:water> * 1000);
+ChemicalReactor.addRecipe(<liquid:pyromellitic_acid> * 750, <liquid:phosphorus_pentaoxide> * 333, <liquid:pyromellitic_dianhydride> * 750, <liquid:phosphoric_acid> * 1000);
+ChemicalReactor.addRecipe(<liquid:benzene> * 250, <liquid:liquidchlorine> * 250, <liquid:chlorobenzene> * 250, <liquid:liquidhydrogenchloride> * 250);
+ChemicalReactor.addRecipe(<liquid:chlorobenzene> * 250, <liquid:nitric_acid> * 250, <liquid:p_chloronitrobenzene> * 250, <liquid:water> * 250);
+ChemicalReactor.addRecipe(<liquid:phenol> * 250, <liquid:sulfuric_acid> * 500, <liquid:2_hydroxy_1_3_benzenedisulfonic_acid> * 250, <liquid:water> * 500);
+ChemicalReactor.addRecipe(<liquid:2_hydroxy_1_3_benzenedisulfonic_acid> * 250, <liquid:nitric_acid> * 250, <liquid:2_hydroxy_5_nitro_1_3_benzenedisulfonic_acid> * 250, <liquid:water> * 250);
+ChemicalReactor.addRecipe(<liquid:2_hydroxy_5_nitro_1_3_benzenedisulfonic_acid> * 250, <liquid:water> * 500, <liquid:p_nitrophenol> * 250, <liquid:sulfuric_acid> * 500);
+ChemicalReactor.addRecipe(<liquid:p_nitrophenol> * 250, <liquid:p_chloronitrobenzene> * 250, <liquid:bis_4_nitrophenyl_ether> * 250, <liquid:liquidhydrogenchloride> * 250);
+ChemicalReactor.addRecipe(<liquid:bis_4_nitrophenyl_ether> * 250, <liquid:hydrogen> * 1500, <liquid:c4_i4_diaminodiphenyl_ether> * 250, <liquid:water> * 1000);
+ChemicalReactor.addRecipe(<liquid:pyromellitic_dianhydride> * 250, <liquid:c4_i4_diaminodiphenyl_ether> * 250, <liquid:pyroxene> * 36, <liquid:water> * 500);
 
 Crystallizer.addRecipe(<liquid:iodine_carbon_tetrachloride_solution> * 200, <jaopca:dust.iodine>);
 Crystallizer.addRecipe(<liquid:chloroplatinic_acid_solution> * 666, <additions:chloroplatinic_acid>);
@@ -572,6 +590,7 @@ Crystallizer.addRecipe(<liquid:manganese_chloride_solution> * 666, <additions:ma
 Crystallizer.addRecipe(<liquid:sodium_hydrogen_carbonate_solution> * 666, <additions:sodium_hydrogen_carbonate>);
 Crystallizer.addRecipe(<liquid:sodium_molybdate_solution> * 666, <additions:sodium_molybdate>);
 Crystallizer.addRecipe(<liquid:erebus_organic_fluid> * 500, <additions:erebus_complex>);
+Crystallizer.addRecipe(<liquid:sodium_sulfate_solution> * 666, <additions:sodium_sulfate>);
 
 Enricher.addRecipe(<ore:dustIodine>, <liquid:carbon_tetrachloride> * 200, <liquid:iodine_carbon_tetrachloride_solution> * 200);
 Enricher.addRecipe(<ore:ingotIodine>, <liquid:carbon_tetrachloride> * 200, <liquid:iodine_carbon_tetrachloride_solution> * 200);
@@ -596,6 +615,7 @@ Enricher.addRecipe(<ore:dustManganeseChloride>, <liquid:water> * 1000, <liquid:m
 Enricher.addRecipe(<ore:dustSodiumHydrogenCarbonate>, <liquid:water> * 1000, <liquid:sodium_hydrogen_carbonate_solution> * 666);
 Enricher.addRecipe(<ore:dustCryotheum>, <liquid:liquid_helium> * 1000, <liquid:hecryo_liquid> * 1000);
 Enricher.addRecipe(<ore:dustSodiumMolybdate>, <liquid:water> * 1000, <liquid:sodium_molybdate_solution> * 666);
+Enricher.addRecipe(<ore:dustSodiumSulfate>, <liquid:water> * 1000, <liquid:sodium_sulfate_solution> * 666);
 
 Electrolyzer.addRecipe(<liquid:brine> * 1000, <liquid:sodium_hydroxide_solution> * 666, <liquid:hydrogen> * 500, <liquid:liquidchlorine> * 500, null, 1.0d, 1.0d, 0.0d);
 Electrolyzer.addRecipe(<liquid:sodium_chloride> * 333, <liquid:sodium> * 72, <liquid:liquidchlorine> * 250, null, null);

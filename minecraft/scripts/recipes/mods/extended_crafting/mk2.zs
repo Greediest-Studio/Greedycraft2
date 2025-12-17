@@ -478,4 +478,4 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <industrialforegoing:ore_fermen
 	[<ore:itemRubber>, <ore:itemRubber>, <ore:barsIron>, <ore:itemRubber>, <ore:itemRubber>]
 ]);
 
-mods.extendedcrafting.TableCrafting.addShapeless(0, <industrialforegoing:plastic> * 3, [<ore:ingotPolyethersulfone>, <ore:ingotZirfon>, <ore:ingotPolytetrafluoroethene>, <ore:ingotPolymethylsilyleneMethylene>, <ore:sheetHDPE>]);
+mods.extendedcrafting.TableCrafting.addShapeless(0, <industrialforegoing:plastic> * 3, [<ore:ingotPolyethyleneLowDensity>, <ore:sheetHDPE>, <ore:ingotPolytetrafluoroethene>, <ore:ingotPolyetheretherketone>, <ore:ingotPyroxene>, <ore:ingotPolydimethylsilylene>]);

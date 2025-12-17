@@ -1440,9 +1440,9 @@
                 "material": "gct_mobs:crystalsandstone",
                 "cluster-size": 6
             },
-            "min-height": 0,
-            "max-height": 128,
-            "cluster-count": 5,
+            "min-height": 1,
+            "max-height": 255,
+            "cluster-count": 20,
             "retrogen": "true",
             "dimension": {
                 "restriction": "whitelist",

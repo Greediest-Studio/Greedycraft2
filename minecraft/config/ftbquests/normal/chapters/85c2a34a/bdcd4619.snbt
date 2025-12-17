@@ -1,0 +1,35 @@
+{
+	title: "§b算力基本",
+	x: -7.0d,
+	y: 7.25d,
+	description: "合成蓝晶合金锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"518ac07a"
+	],
+	tasks: [{
+		uid: "91e09dd1",
+		type: "item",
+		items: [{
+			item: "additions:blue_alloy_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "4caa8b37",
+		type: "item",
+		item: "additions:blue_alloy_ingot",
+		count: 2
+	},
+	{
+		uid: "f1e6a9a9",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "e5e43f8f",
+		type: "xp",
+		xp: 10000
+	}]
+}

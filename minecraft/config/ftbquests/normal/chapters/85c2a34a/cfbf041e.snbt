@@ -1,0 +1,35 @@
+{
+	title: "§b神镐不再",
+	x: -7.0d,
+	y: 5.75d,
+	description: "合成解构金属锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"518ac07a"
+	],
+	tasks: [{
+		uid: "e4fc2a96",
+		type: "item",
+		items: [{
+			item: "additions:fracturite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "ad60540d",
+		type: "item",
+		item: "additions:fracturite_ingot",
+		count: 2
+	},
+	{
+		uid: "9f09d455",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "69d88142",
+		type: "xp",
+		xp: 10000
+	}]
+}
