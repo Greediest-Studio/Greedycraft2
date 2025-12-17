@@ -1138,6 +1138,7 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <modularmachinery:elysia_solidifier_factory_controller>,
         <modularmachinery:elysia_vaporizer_factory_controller>,
         <modularmachinery:elysia_pyrolyzer_factory_controller>,
+        <modularmachinery:elysia_polymer_factory_controller>,
         <modularmachinery:factory_4x_factory_controller>,
         <modularmachinery:factory_5x_factory_controller>,
         <modularmachinery:factory_arcanic_astrallizer_factory_controller>,

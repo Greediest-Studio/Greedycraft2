@@ -1019,6 +1019,13 @@ addBuilderRecipe(<modularmachinery:elysia_grinder_factory_controller>, [
     <nuclearcraft:salt_mixer> * 32
 ], 1, 3200);
 
+addBuilderRecipe(<modularmachinery:elysia_polymer_factory_controller>, [
+    <gct_ores:blue_print_empty> * 32,
+    <ore:ingotModularium> * 64,
+    <mekanism:machineblock2:10> * 32,
+    <avaritia:neutron_collector> * 32
+], 1, 3200);
+
 addBuilderRecipe(<modularmachinery:factory_4x_factory_controller>, [
     <gct_ores:blue_print_forge> * 32,
     <ore:ingotModularium> * 64,
