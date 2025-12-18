@@ -1,0 +1,35 @@
+{
+	title: "§b杜绝杂质",
+	x: -9.5d,
+	y: 11.5d,
+	description: "通过化学合成法合成方镁矾",
+	text: [
+		"什么？你说原来那个和匠魂水泥差不多的配方？"
+	],
+	dependencies: [
+		"b8a0c93d"
+	],
+	tasks: [{
+		uid: "f6da2fed",
+		type: "item",
+		items: [{
+			item: "embers:blend_caminite"
+		}]
+	}],
+	rewards: [{
+		uid: "2b63aec3",
+		type: "item",
+		item: "embers:brick_caminite",
+		count: 32
+	},
+	{
+		uid: "dbd0c250",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "8c00d240",
+		type: "xp",
+		xp: 10000
+	}]
+}

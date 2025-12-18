@@ -1,11 +1,11 @@
-#Configurations for material Solarsteel.
+#Configurations for material Putrallium.
 [general]
 	#The module blacklist of this material. "*" is an alias for all modules. If a module name occurs an odd number of times (including wildcards), then the module is blacklisted.
 	moduleBlacklist = []
 	#The alternative names of this material.
-	alternativeNames = ["Solsteel"]
+	alternativeNames = []
 	#The color of this material.
-	color = 16301117
+	color = 10723241
 	#The byproducts of this material.
 	extras = []
 	#The model type of the material.
@@ -17,3 +17,9 @@
 [molten]
 	#The temperature of this molten fluid.
 	temperature = 1000
+[enderio]
+	#The default byproduct material to output in Ender IO's sagmill.
+	byproduct = "minecraft:cobblestone"
+[mekanism]
+	#The default base to use in Mekanism's Combiner to recreate ores.
+	oreBase = "minecraft:cobblestone"

@@ -65,6 +65,12 @@ ConversionItem.create(<appliedenergistics2:material:5>).addMatchItem(<ore:itemSi
 ConversionItem.create(<appliedenergistics2:material:3>).addMatchItem(<ore:dustQuartz>).addMatchItem(<ore:dustNetherQuartz>).register();
 ConversionItem.create(<iceandfire:pixie_dust>).addMatchItem(<botania:manaresource:8>).register();
 ConversionItem.create(<thermalfoundation:material:25>).addMatchItem(<ore:gearGold>).register();
+ConversionItem.create(<actuallyadditions:item_misc:5>).addMatchItem(<botania:quartz>).register();
+ConversionItem.create(<actuallyadditions:block_misc:2>).addMatchItem(<botania:quartztypedark>).register();
+ConversionItem.create(<actuallyadditions:block_misc>).addMatchItem(<botania:quartztypedark:2>).register();
+ConversionItem.create(<actuallyadditions:block_misc:1>).addMatchItem(<botania:quartztypedark:1>).register();
+ConversionItem.create(<actuallyadditions:block_quartz_stair>).addMatchItem(<botania:quartzstairsdark>).register();
+ConversionItem.create(<actuallyadditions:block_quartz_slab>).addMatchItem(<botania:quartzslabdarkhalf>).register();
 
 ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:burningsulfurflow>).register();
 ConversionFluid.create(<liquid:liquidantimatter>).addMatchFluid(<liquid:blockfluidantimatter>).register();
@@ -87,3 +93,4 @@ ConversionFluid.create(<liquid:infinity_metal>).addMatchFluid(<liquid:infinity>)
 ConversionFluid.create(<liquid:experience>).addMatchFluid(<liquid:xpjuice>).addMatchFluid(<liquid:essence>).register();
 ConversionFluid.create(<liquid:xu_demonic_metal>).addMatchFluid(<liquid:demonic_metal>).register();
 ConversionFluid.create(<liquid:ethyne>).addMatchFluid(<liquid:ethylene>).register();
+ConversionFluid.create(<liquid:liquidsolarsteel>).addMatchFluid(<liquid:solarsteel>).register();

@@ -46,3 +46,4 @@ addCrimsonExtractorRecipe(<minecraft:log>, <bloodarsenal:blood_infused_wooden_lo
 addCrimsonExtractorRecipe(<thaumcraft:fabric>, <crimsonrevelations:crimson_fabric>, 5);
 addCrimsonExtractorRecipe(<thaumcraft:fabric>, <additions:crimson_fabric_enhanced>, 50);
 addCrimsonExtractorRecipe(<additions:purified_murderite_ingot>, <additions:murderite_ingot>, 200);
+addCrimsonExtractorRecipe(<additions:spironium_ingot>, <additions:bloody_spironium_ingot>, 50);

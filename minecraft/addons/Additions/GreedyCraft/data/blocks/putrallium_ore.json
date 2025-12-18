@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "§8朽坏矿石",
+    "tooltip": "§7§o深埋于腐朽",
+    "ore_dict": "orePutrallium",
+    "type": "additions:block_simple"
+  },
+  "name": "§8朽坏矿石",
+  "material": "minecraft:stone",
+  "hardness": 50.0,
+  "resistance": 20000.0,
+  "harvest_level": 13,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

@@ -751,6 +751,7 @@ erebus.addEnergyPerTickInput(200);
 erebus.addDimensionInput(66);
 //终焉级
 erebus.addItemUpgradeOutput(<additions:rotiron_ore>, FINALLIUM, 0.01);
+erebus.addItemUpgradeOutput(<additions:putrallium_ore>, FINALLIUM, 0.002);
 erebus.addItemUpgradeOutput(<erebus:materials:1>, FINALLIUM, 0.01);
 erebus.addItemUpgradeOutput(<erebus:materials:2>, FINALLIUM, 0.02);
 erebus.addItemUpgradeOutput(<erebus:materials:7>, FINALLIUM, 0.02);

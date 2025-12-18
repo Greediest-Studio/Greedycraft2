@@ -2189,6 +2189,30 @@
                 "value": [66]
             }
         },
+        "putrallium": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:putrallium_ore",
+                    "weight": 50
+                },{
+                    "name": "erebus:umberstone",
+                    "weight": 50
+                }],
+                "material": "erebus:umberstone",
+                "cluster-size": 1
+            },
+            "cluster-count": 1,
+            "min-height": 1,
+            "max-height": 128,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [66]
+            }
+        },
         "gravitonium": {
             "enabled": "true",
             "distribution": "uniform",

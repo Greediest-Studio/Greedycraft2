@@ -115,3 +115,55 @@ RecipeBuilder.newBuilder("arcane_compression_hexacite", "arcane_compressor", 720
     .addDimensionInput(78)
     .addItemOutput(<additions:hexacite_ingot> * 2)
     .build();
+
+RecipeBuilder.newBuilder("arcane_compression_bloody_spironium", "arcane_compressor", 600)
+    .addItemInput(<ore:ingotManarium> * 4)
+    .addItemInput(<additions:evilblood_drop> * 2)
+    .addItemInput(<additions:crimson_fabric_enhanced>).setChance(0.2)
+    .addFluidInput(<liquid:concentrated_soul_liquid> * 100)
+    .addVisInput(20.0f)
+    .addDimensionInput(41)
+    .addItemOutput(<additions:bloody_spironium_ingot>)
+    .build();
+
+RecipeBuilder.newBuilder("arcane_compression_thaumium_aer", "arcane_compressor", 100)
+    .addItemInput(<ore:ingotThaumium>)
+    .addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}) * 6)
+    .addVisInput(50.0f)
+    .addItemOutput(<thaumicrestoration:item_ingot>)
+    .build();
+
+RecipeBuilder.newBuilder("arcane_compression_thaumium_ignis", "arcane_compressor", 100)
+    .addItemInput(<ore:ingotThaumium>)
+    .addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]}) * 6)
+    .addVisInput(50.0f)
+    .addItemOutput(<thaumicrestoration:item_ingot:1>)
+    .build();
+
+RecipeBuilder.newBuilder("arcane_compression_thaumium_aqua", "arcane_compressor", 100)
+    .addItemInput(<ore:ingotThaumium>)
+    .addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}) * 6)
+    .addVisInput(50.0f)
+    .addItemOutput(<thaumicrestoration:item_ingot:2>)
+    .build();
+
+RecipeBuilder.newBuilder("arcane_compression_thaumium_terra", "arcane_compressor", 100)
+    .addItemInput(<ore:ingotThaumium>)
+    .addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}) * 6)
+    .addVisInput(50.0f)
+    .addItemOutput(<thaumicrestoration:item_ingot:3>)
+    .build();
+
+RecipeBuilder.newBuilder("arcane_compression_thaumium_ordo", "arcane_compressor", 100)
+    .addItemInput(<ore:ingotThaumium>)
+    .addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}) * 6)  
+    .addVisInput(50.0f)
+    .addItemOutput(<thaumicrestoration:item_ingot:4>)
+    .build();
+
+RecipeBuilder.newBuilder("arcane_compression_thaumium_perditio", "arcane_compressor", 100)
+    .addItemInput(<ore:ingotThaumium>)
+    .addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}) * 6)
+    .addVisInput(50.0f)
+    .addItemOutput(<thaumicrestoration:item_ingot:5>)
+    .build();

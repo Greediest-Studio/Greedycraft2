@@ -12,13 +12,16 @@ import crafttweaker.oredict.IOreDictEntry;
 
 import mods.jaopca.JAOPCA;
 
+import native.thelm.jaopca.materials.MaterialHandler;
+import native.thelm.jaopca.materials.Material;
+
 import scripts.util.recipes as RecipeUtil;
 
 var compressingOreDict as string[] = [];
 for name in JAOPCA.getAllMaterials() {
     var nameStr as string = name.name;
     if (!isNull(oreDict.get("ingot" ~ nameStr).firstItem) && !isNull(oreDict.get("block" ~ nameStr).firstItem)) {
-        compressingOreDict += nameStr;
+        if (!MaterialHandler.getMaterial(nameStr).isSmallStorageBlock()) compressingOreDict += nameStr;
     }
 }
 

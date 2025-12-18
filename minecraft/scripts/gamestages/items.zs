@@ -2434,7 +2434,20 @@ GameStagesUtil.stageDeepDream.addIngredients([
     <ore:nuggetMurderitePurified>,
     <ore:blockMurderitePurified>,
     <ore:dustMurderitePurified>,
-    <additions:plate_of_emberlight>
+    <additions:plate_of_emberlight>,
+    <ore:ingotSpironium>,
+    <ore:nuggetSpironium>,
+    <ore:blockSpironium>,
+    <ore:dustSpironium>,
+    <ore:ingotBloodySpironium>,
+    <ore:nuggetBloodySpironium>,
+    <ore:blockBloodySpironium>,
+    <ore:dustBloodySpironium>,
+    <ore:ingotPutrallium>,
+    <ore:nuggetPutrallium>,
+    <ore:blockPutrallium>,
+    <ore:dustPutrallium>,
+    <ore:orePutrallium>
 ], false);
 
 GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators", "mekceumoremachine", "mekeng"]);

@@ -709,6 +709,11 @@ RecipeUtil.addShaped("slime_block", <minecraft:slime>, [
     [<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>],
     [<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>]
 ]);
+RecipeUtil.addShaped("crimson_token_copy", <additions:crimson_token>, [
+    [<ore:ingotSpironium>, <ore:ingotSpironium>, <ore:ingotSpironium>],
+    [<ore:ingotSpironium>, <additions:crimson_token>.reuse(), <ore:ingotSpironium>],
+    [<ore:ingotSpironium>, <ore:ingotSpironium>, <ore:ingotSpironium>]
+]);
 /*
  * RecipeUtil.addShaped("", , [
  *  [null, null, null],

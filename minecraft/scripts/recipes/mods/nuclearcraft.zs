@@ -31,6 +31,9 @@ import mods.nuclearcraft.InfiltratorPressureFluid;
 import mods.tconstruct.Alloy;
 import mods.jaopca.JAOPCA;
 
+import native.thelm.jaopca.materials.MaterialHandler;
+import native.thelm.jaopca.materials.Material;
+
 MultiblockInfiltrator.removeAllRecipes();
 InfiltratorPressureFluid.removeAll();
 
@@ -46,15 +49,18 @@ var SrCl2 as IItemStack = <additions:strontium_chloride>;
 var BaCl2 as IItemStack = <additions:barium_chloride>;
 
 for entry in JAOPCA.getMaterialsForType("INGOTS") {
+    var name as string = entry.name;
+    var material as Material = MaterialHandler.getMaterial(name);
     var ingot as IItemStack = entry.getItemStack("ingot");
     var dust as IItemStack = entry.getItemStack("dust");
     var nugget as IItemStack = entry.getItemStack("nugget");
     var block as IItemStack = entry.getItemStack("block");
     var molten as ILiquidStack = entry.getLiquidStack("molten", 16);
+    var isSmallBlock as bool = material.isSmallStorageBlock();
     Melter.addRecipe(ingot, molten * 9);
     Melter.addRecipe(dust, molten * 9);
     Melter.addRecipe(nugget, molten);
-    Melter.addRecipe(block, molten * 81);
+    Melter.addRecipe(block, molten * 9 * (isSmallBlock ? 4 : 9));
     IngotFormer.addRecipe(ingot, molten * 9);
 }
 
@@ -73,6 +79,8 @@ CreateElementMixer(<ore:ingotPlutonium>, <ore:dustPlutonium>, <nuclearcraft:plut
 
 Melter.removeRecipeWithInput(<nuclearcraft:gem_dust:10>);
 Melter.removeRecipeWithInput(<nuclearcraft:gem:6>);
+Melter.removeRecipeWithInput(<embers:block_caminite_brick>);
+
 Melter.removeRecipeWithOutput(<liquid:sulfur> * 666);
 
 var removeMb as int[] = [16, 144, 1296];
@@ -412,6 +420,8 @@ Melter.addRecipe(<ore:ingotBlueAlloy>, <liquid:blue_alloy> * 144);
 Melter.addRecipe(<ore:dustBlueAlloy>, <liquid:blue_alloy> * 144);
 Melter.addRecipe(<ore:blockBlueAlloy>, <liquid:blue_alloy> * 1296);
 Melter.addRecipe(<ore:nuggetBlueAlloy>, <liquid:blue_alloy> * 16);
+Melter.addRecipe(<additions:ldpe_sheet>, <liquid:polyethylene_low_density> * 144);
+Melter.addRecipe(<mekanism:hdpe_sheet>, <liquid:polyethylene_high_density> * 144);
 
 Melter.addRecipe(<thermalfoundation:material:893>, <liquid:redstone> * 250);
 Melter.addRecipe(<thermalfoundation:material:894>, <liquid:glowstone> * 250);
@@ -436,6 +446,8 @@ IngotFormer.removeRecipeWithOutput(<additions:argon_ingot>);
 IngotFormer.removeRecipeWithOutput(<additions:krypton_ingot>);
 IngotFormer.removeRecipeWithOutput(<additions:xenon_ingot>);
 IngotFormer.removeRecipeWithOutput(<additions:radon_ingot>);
+IngotFormer.addRecipe(<liquid:polyethylene_low_density> * 144, <additions:ldpe_sheet>);
+IngotFormer.addRecipe(<liquid:polyethylene_high_density> * 144, <mekanism:hdpe_sheet>);
 IngotFormer.addRecipe(<liquid:awakened_draconium> * 144, <draconicevolution:draconic_ingot>);
 IngotFormer.addRecipe(<liquid:chaotic_draconium> * 144, <gct_ores:chaotic_draconium_ingot>);
 IngotFormer.addRecipe(<liquid:ruled_draconium> * 144, <gct_ores:ruled_draconium_ingot>);

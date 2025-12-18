@@ -588,6 +588,19 @@ Melting.addRecipe(<liquid:fracturite> * 432, <twilightforest:mazebreaker_pickaxe
 Melting.addRecipe(<liquid:imitatium> * VOLUME_INGOT, <tiths:ingot_imitatium>, 1250);
 Melting.addRecipe(<liquid:darkice> * 8, <betterendforge:ancient_emerald_ice>, 500);
 Melting.addRecipe(<liquid:evilblood_fluid> * 100, <additions:evilblood_slime_block>, 800);
+Melting.addRecipe(<liquid:caminite> * 288, <embers:plate_caminite>, 900);
+Melting.addRecipe(<liquid:caminite> * 288, <embers:plate_caminite_raw>, 900);
+Melting.addRecipe(<liquid:caminite> * 288, <embers:block_caminite_brick_slab>, 900);
+Melting.addRecipe(<liquid:caminite> * 576, <embers:block_caminite_large_brick>, 1100);
+Melting.addRecipe(<liquid:caminite> * 432, <embers:stairs_caminite_brick>, 1000);
+Melting.addRecipe(<liquid:caminite> * 576, <embers:wall_caminite_brick>, 1100);
+Melting.addRecipe(<liquid:caminite> * 576, <soot:caminite_clay>, 1100);
+Melting.addRecipe(<liquid:caminite> * 576, <soot:caminite_tiles>, 1100);
+Melting.addRecipe(<liquid:caminite> * 288, <soot:caminite_tiles_slab>, 900);
+Melting.addRecipe(<liquid:caminite> * 432, <soot:caminite_tiles_stairs>, 1000);
+Melting.addRecipe(<liquid:caminite> * 576, <soot:caminite_large_tile>, 1100);
+Melting.addRecipe(<liquid:caminite> * 288, <soot:caminite_large_tile_slab>, 900);
+Melting.addRecipe(<liquid:caminite> * 432, <soot:caminite_large_tile_stairs>, 1000);
 
 Fuel.registerFuel(<liquid:infernium> * 1, 600);
 Fuel.registerFuel(<liquid:cosmilite> * 1, 2400);
