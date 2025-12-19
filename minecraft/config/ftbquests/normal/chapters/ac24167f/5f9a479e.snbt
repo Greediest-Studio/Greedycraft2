@@ -18,21 +18,5 @@
 		{
 			item: "embers:shard_ember"
 		}]
-	}],
-	rewards: [{
-		uid: "bde4e9e0",
-		type: "item",
-		item: "embers:crystal_ember",
-		count: 8
-	},
-	{
-		uid: "216533c5",
-		type: "random",
-		table: 3
-	},
-	{
-		uid: "b21e9f5e",
-		type: "xp",
-		xp: 8800
 	}]
 }

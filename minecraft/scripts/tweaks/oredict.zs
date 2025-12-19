@@ -1203,7 +1203,6 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:controllerLevel6> : [
         <modularmachinery:element_118_mixer_factory_controller>
     ],
-    <ore:cobblestone> : [<netherized:blackstone>],
     <ore:oreCopper> : [<erebus:ore_copper>],
     <ore:oreSilver> : [<erebus:ore_silver>],
     <ore:oreTin> : [<erebus:ore_tin>],

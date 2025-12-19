@@ -478,8 +478,7 @@ val removedRecipes as IIngredient[] = [
     <minecraft:slime>,
     <embers:blend_caminite>,
     <embers:mixer>,
-    <embers:ember_activator>,
-    <embers:tinker_hammer>
+    <embers:ember_activator>
 ];
 
 val removedRecipeNames as string[] = [

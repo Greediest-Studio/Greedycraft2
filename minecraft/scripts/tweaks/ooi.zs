@@ -71,11 +71,6 @@ ConversionItem.create(<actuallyadditions:block_misc>).addMatchItem(<botania:quar
 ConversionItem.create(<actuallyadditions:block_misc:1>).addMatchItem(<botania:quartztypedark:1>).register();
 ConversionItem.create(<actuallyadditions:block_quartz_stair>).addMatchItem(<botania:quartzstairsdark>).register();
 ConversionItem.create(<actuallyadditions:block_quartz_slab>).addMatchItem(<botania:quartzslabdarkhalf>).register();
-ConversionItem.create(<additions:ancient_debris>).addMatchItem(<netherized:ancient_debris>).register();
-ConversionItem.create(<additions:netherite_scrap>).addMatchItem(<netherized:netherite_scrap>).register();
-ConversionItem.create(<additions:netherite_block>).addMatchItem(<netherized:netherite_block>).register();
-ConversionItem.create(<additions:netherite_ingot>).addMatchItem(<netherized:netherite_ingot>).register();
-ConversionItem.create(<netherendingores:ore_nether_vanilla:3>).addMatchItem(<netherized:nether_gold_ore>).register();
 
 ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:burningsulfurflow>).register();
 ConversionFluid.create(<liquid:liquidantimatter>).addMatchFluid(<liquid:blockfluidantimatter>).register();
