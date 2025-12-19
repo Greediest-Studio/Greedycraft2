@@ -27,8 +27,7 @@ Apothecary.removeRecipe("orechid");
 Apothecary.addRecipe(<botania:specialflower>.withTag({type: "orechid"}), [<ore:petalGray>, <ore:petalGray>, <ore:petalRed>, <ore:petalYellow>, <ore:petalGreen>, <ore:redstoneRoot>, <ore:elvenPixieDust>, <ore:runeGreedB>, <ore:runeMetatronB>, <ore:runeSandalphonB>]);
 
 ElvenTrade.addRecipe([<defiledlands:scarlite>], [<ore:slimeballBlood>, <ore:gemEmerald>, <ore:gemEmerald>]);
-ElvenTrade.addRecipe([<actuallyadditions:item_misc:5>], [<minecraft:obsidian>, <botania:quartz>]);
-ElvenTrade.addRecipe([<actuallyadditions:item_misc:5>], [<ore:gemQuartz>, <ore:charcoal>]);
+ElvenTrade.addRecipe([<actuallyadditions:item_misc:5>], [<botania:quartz:5>, <minecraft:coal>]);
 ElvenTrade.addRecipe([<minecraft:gold_block>], [<ore:shardTime>]);
 ElvenTrade.addRecipe([<gct_mobs:alfheim>], [<botania:twigwand>, <extrabotany:cosmetic:8>]);
 ElvenTrade.addRecipe([<gct_mobs:dreamwood_log>], [<ore:logWoodLiving>]);
