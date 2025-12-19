@@ -16,5 +16,15 @@
 		items: [{
 			item: "embers:ancient_motive_core"
 		}]
+	}],
+	rewards: [{
+		uid: "fd386eee",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "1870d8d5",
+		type: "xp",
+		xp: 10000
 	}]
 }

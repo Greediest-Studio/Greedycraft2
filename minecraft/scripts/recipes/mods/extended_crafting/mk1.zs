@@ -19,3 +19,5 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:lerdite>, [
 	[<blue_skies:lunar_stonebrick>, <ore:shardHeavengem1>, <blue_skies:lunar_stonebrick>], 
 	[<blue_skies:lunar_stonebrick>, <blue_skies:lunar_stonebrick>, <blue_skies:lunar_stonebrick>]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShapeless(0, <industrialforegoing:plastic> * 3, [<ore:ingotPolyethyleneLowDensity>, <ore:sheetHDPE>, <ore:ingotPolytetrafluoroethene>, <ore:ingotPolyetheretherketone>, <ore:ingotPyroxene>, <ore:ingotPolydimethylsilylene>]);

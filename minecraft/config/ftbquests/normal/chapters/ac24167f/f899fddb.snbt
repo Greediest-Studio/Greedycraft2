@@ -1,0 +1,20 @@
+{
+	title: "§b地心提取",
+	x: 4.5d,
+	y: 9.0d,
+	description: "合成地质分离器",
+	text: [
+		"它原来的配方根本没有这么复杂吧（恼）"
+	],
+	dependencies: [
+		"9dd347e7",
+		"9a3cf525"
+	],
+	tasks: [{
+		uid: "68abd894",
+		type: "item",
+		items: [{
+			item: "embers:geo_separator"
+		}]
+	}]
+}

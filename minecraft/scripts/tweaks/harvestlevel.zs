@@ -115,5 +115,9 @@ import mods.contenttweaker.Item;
 
 <item:erebus:ore_temple>.asBlock().definition.setHarvestLevel("pickaxe", 13);
 
+<item:netherized:ancient_debris>.asBlock().definition.hardness = 50.0f;
+<item:netherized:ancient_debris>.asBlock().definition.setHarvestLevel("pickaxe", 6);
+
+
 <industrialforegoing:infinity_drill>.definition.setHarvestLevel("pickaxe", 4);
 <industrialforegoing:infinity_drill>.definition.setHarvestLevel("shovel", 4);

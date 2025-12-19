@@ -1,0 +1,29 @@
+{
+	title: "§b又见合金炉",
+	x: -3.5d,
+	y: 9.0d,
+	description: "合成混合离心器，可用于合成余烬模组的合金",
+	text: [
+		""
+	],
+	dependencies: [
+		"369fe784"
+	],
+	tasks: [{
+		uid: "3efe545e",
+		type: "item",
+		items: [{
+			item: "embers:mixer"
+		}]
+	}],
+	rewards: [{
+		uid: "29bc24e0",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "6be1bd85",
+		type: "xp",
+		xp: 8000
+	}]
+}

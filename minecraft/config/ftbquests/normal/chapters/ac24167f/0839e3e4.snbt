@@ -1,0 +1,29 @@
+{
+	title: "§b动力输出",
+	x: 0.5d,
+	y: 13.5d,
+	description: "合成灰烬能量发射器",
+	text: [
+		""
+	],
+	dependencies: [
+		"7ef4713d"
+	],
+	tasks: [{
+		uid: "b948a4b2",
+		type: "item",
+		items: [{
+			item: "embers:ember_emitter"
+		}]
+	}],
+	rewards: [{
+		uid: "259e152b",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "88c447ea",
+		type: "xp",
+		xp: 5000
+	}]
+}

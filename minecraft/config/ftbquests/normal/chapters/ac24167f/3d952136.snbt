@@ -1,0 +1,30 @@
+{
+	title: "§b降低污染",
+	x: 2.5d,
+	y: 8.5d,
+	description: "合成野火斯特林，可以降低机器的能耗",
+	text: [
+		""
+	],
+	dependencies: [
+		"d1e67326",
+		"f899fddb"
+	],
+	tasks: [{
+		uid: "b27eb867",
+		type: "item",
+		items: [{
+			item: "embers:stirling"
+		}]
+	}],
+	rewards: [{
+		uid: "d86ed45a",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "183feb16",
+		type: "xp",
+		xp: 9000
+	}]
+}
