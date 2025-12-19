@@ -15,5 +15,21 @@
 		items: [{
 			item: "embers:archaic_brick"
 		}]
+	}],
+	rewards: [{
+		uid: "a573e8fc",
+		type: "item",
+		item: "embers:archaic_brick",
+		count: 8
+	},
+	{
+		uid: "13e5047d",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "848cf233",
+		type: "xp",
+		xp: 7500
 	}]
 }

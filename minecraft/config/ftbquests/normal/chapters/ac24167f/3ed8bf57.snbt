@@ -1,0 +1,30 @@
+{
+	title: "§b大号灰烬电池",
+	x: -0.5d,
+	y: 11.5d,
+	description: "合成晶胞灰烬能量单元",
+	text: [
+		"将灰烬晶体泵入能量单元底座可以提升容量"
+	],
+	dependencies: [
+		"c17a6f8b",
+		"394b1421"
+	],
+	tasks: [{
+		uid: "497a321d",
+		type: "item",
+		items: [{
+			item: "embers:crystal_cell"
+		}]
+	}],
+	rewards: [{
+		uid: "1a81aa6d",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "cfdfe2bf",
+		type: "xp",
+		xp: 12500
+	}]
+}

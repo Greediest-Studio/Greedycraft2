@@ -1,0 +1,29 @@
+{
+	title: "§b二营长，你他娘的意大利炮呢？",
+	x: -0.5d,
+	y: 10.0d,
+	description: "合成光束炮",
+	text: [
+		""
+	],
+	dependencies: [
+		"c17a6f8b"
+	],
+	tasks: [{
+		uid: "795b2b8d",
+		type: "item",
+		items: [{
+			item: "embers:beam_cannon"
+		}]
+	}],
+	rewards: [{
+		uid: "de992a01",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "232cdd31",
+		type: "xp",
+		xp: 20000
+	}]
+}

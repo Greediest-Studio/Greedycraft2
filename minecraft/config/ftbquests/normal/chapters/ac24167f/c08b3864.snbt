@@ -15,5 +15,15 @@
 		items: [{
 			item: "embers:ember_bore"
 		}]
+	}],
+	rewards: [{
+		uid: "336d1ae3",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "4fce48aa",
+		type: "xp",
+		xp: 6000
 	}]
 }

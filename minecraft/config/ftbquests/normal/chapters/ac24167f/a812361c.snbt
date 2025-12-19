@@ -1,0 +1,29 @@
+{
+	title: "§b补救措施",
+	x: -4.5d,
+	y: 11.5d,
+	description: "合成灰烬能量虹吸器",
+	text: [
+		"可以强行从其他灰烬机器中抽取能量"
+	],
+	dependencies: [
+		"07871b54"
+	],
+	tasks: [{
+		uid: "61ace04f",
+		type: "item",
+		items: [{
+			item: "embers:ember_siphon"
+		}]
+	}],
+	rewards: [{
+		uid: "f8e560af",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "762cfc93",
+		type: "xp",
+		xp: 8000
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "§b余烬发电机",
+	x: -3.5d,
+	y: 14.5d,
+	description: "合成灰烬能量催化器",
+	text: [
+		"用于产生灰烬能量"
+	],
+	dependencies: [
+		"5f9a479e"
+	],
+	tasks: [{
+		uid: "e867e690",
+		type: "item",
+		items: [{
+			item: "embers:ember_activator"
+		}]
+	}],
+	rewards: [{
+		uid: "782af04d",
+		type: "item",
+		item: "embers:crystal_ember",
+		count: 16
+	},
+	{
+		uid: "2649b815",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "20a70d2a",
+		type: "xp",
+		xp: 10000
+	}]
+}

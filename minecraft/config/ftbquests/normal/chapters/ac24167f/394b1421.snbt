@@ -1,0 +1,34 @@
+{
+	title: "§b灰烬能量电池",
+	x: -2.5d,
+	y: 13.0d,
+	description: "合成铜质灰烬能量单元",
+	text: [
+		""
+	],
+	dependencies: [
+		"07871b54"
+	],
+	tasks: [{
+		uid: "76243ca3",
+		type: "item",
+		items: [{
+			id: "embers:copper_cell",
+			tag: {
+				ember: 0.0d,
+				emberCapacity: 24000.0d
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "38f41ec4",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "95f013db",
+		type: "xp",
+		xp: 5000
+	}]
+}

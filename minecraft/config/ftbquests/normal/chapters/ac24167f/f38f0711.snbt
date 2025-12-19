@@ -1,0 +1,29 @@
+{
+	title: "§b灰烬渗透",
+	x: 2.5d,
+	y: 15.5d,
+	description: "合成灰烬能量漏斗，更高级的灰烬能量接收器",
+	text: [
+		""
+	],
+	dependencies: [
+		"d8181d29"
+	],
+	tasks: [{
+		uid: "ae9af85d",
+		type: "item",
+		items: [{
+			item: "embers:ember_funnel"
+		}]
+	}],
+	rewards: [{
+		uid: "c3506eb1",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "95284768",
+		type: "xp",
+		xp: 10000
+	}]
+}

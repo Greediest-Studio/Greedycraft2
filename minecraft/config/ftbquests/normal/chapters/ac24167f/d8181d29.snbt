@@ -1,0 +1,29 @@
+{
+	title: "§b动力输入",
+	x: 0.5d,
+	y: 15.5d,
+	description: "合成灰烬能量接收器",
+	text: [
+		""
+	],
+	dependencies: [
+		"7ef4713d"
+	],
+	tasks: [{
+		uid: "baf444b8",
+		type: "item",
+		items: [{
+			item: "embers:ember_receiver"
+		}]
+	}],
+	rewards: [{
+		uid: "4c63eeac",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "fca8c6d1",
+		type: "xp",
+		xp: 5000
+	}]
+}

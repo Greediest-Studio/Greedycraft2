@@ -1,0 +1,29 @@
+{
+	title: "§b食之无用，弃之可惜",
+	x: 1.5d,
+	y: 11.5d,
+	description: "合成熔炼炉",
+	text: [
+		""
+	],
+	dependencies: [
+		"07871b54"
+	],
+	tasks: [{
+		uid: "e2c36f17",
+		type: "item",
+		items: [{
+			item: "embers:block_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "b99e578e",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "ae40ee46",
+		type: "xp",
+		xp: 8200
+	}]
+}
