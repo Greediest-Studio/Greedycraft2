@@ -139,7 +139,7 @@ RecipeBuilder.newBuilder("will_absorption", "auto_soul_forge", 10)
     .addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
         val ctrl = event.controller;
         val chunkWill = WorldDemonWillHandler.getCurrentWill(ctrl.world.native, ctrl.pos.native, EnumDemonWillType.valueOf("DEFAULT") as EnumDemonWillType) as int;
-        val maxparallelism = isNull(ctrl.customData.willList.parallel) ? 1 : ctrl.customData.willList.parallel;
+        val maxparallelism = isNull(ctrl.customData.willList) ? 1 : (isNull(ctrl.customData.willList.parallel) ? 1 : ctrl.customData.willList.parallel);
         val parallelism = min(min(maxparallelism as double, chunkWill), (200000000 - ctrl.getWillAmount()));
         if (chunkWill < 1 || ctrl.getWillAmount() >= 200000000) {
             event.setFailed(true,"区块内无恶魔意志或机器内恶魔意志已满");
@@ -150,7 +150,7 @@ RecipeBuilder.newBuilder("will_absorption", "auto_soul_forge", 10)
     .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
         val ctrl = event.controller;
         val chunkWill = WorldDemonWillHandler.getCurrentWill(ctrl.world.native, ctrl.pos.native, EnumDemonWillType.valueOf("DEFAULT") as EnumDemonWillType) as int;
-        val maxparallelism = isNull(ctrl.customData.willList.parallel) ? 1 : ctrl.customData.willList.parallel;
+        val maxparallelism = isNull(ctrl.customData.willList) ? 1 : (isNull(ctrl.customData.willList.parallel) ? 1 : ctrl.customData.willList.parallel);
         val parallelism = min(min(maxparallelism as double, chunkWill), (200000000 - ctrl.getWillAmount()));
         WorldDemonWillHandler.drainWill(ctrl.world.native, ctrl.pos.native, EnumDemonWillType.valueOf("DEFAULT") as EnumDemonWillType, parallelism, true);
         ctrl.addWillAmount(parallelism);
