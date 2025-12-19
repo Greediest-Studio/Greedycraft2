@@ -27,7 +27,7 @@ import crafttweaker.world.IWorld;
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
 import mods.randomtweaker.astralsorcery.AttunementRecipeCompleteEvent;
-/*
+
 events.onAttunementRecipeComplete(function(event as AttunementRecipeCompleteEvent) {
     var world as IWorld = event.world;
     var constellation as string = event.constellation;
@@ -79,4 +79,4 @@ events.onAttunementRecipeComplete(function(event as AttunementRecipeCompleteEven
             }
         }
     }
-}); */
+});
