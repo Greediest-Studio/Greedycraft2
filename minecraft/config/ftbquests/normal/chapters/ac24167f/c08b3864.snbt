@@ -1,0 +1,19 @@
+{
+	title: "§b深度挖掘",
+	x: -7.5d,
+	y: 13.0d,
+	description: "合成灰烬晶体开采机，用于挖掘灰烬晶体",
+	text: [
+		""
+	],
+	dependencies: [
+		"eeb6ec91"
+	],
+	tasks: [{
+		uid: "4d724861",
+		type: "item",
+		items: [{
+			item: "embers:ember_bore"
+		}]
+	}]
+}

@@ -39,6 +39,7 @@ val localizationMap as string[string][string] = {
         "item.thaumadditions:adaminite_robe.name": "铿金神秘使法袍",
         "item.thaumadditions:adaminite_belt.name": "铿金神秘使腰带",
         "item.thaumadditions:adaminite_boots.name": "铿金神秘使靴子",
+        "tile.mixer.name": "混合离心器",
         "item.slimeball.name": "绿色史莱姆球",
         "tile.solarflux:solar_panel_wyvern.name": "飞龙太阳能电池板",
         "research_name.thaumadditions:adaminite": "铿金金属",

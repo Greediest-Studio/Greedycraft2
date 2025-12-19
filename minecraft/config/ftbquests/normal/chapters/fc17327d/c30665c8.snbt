@@ -58,6 +58,7 @@
 	{
 		uid: "66ae6ab2",
 		type: "item",
+		team_reward: 0b,
 		item: "additions:death_counter"
 	},
 	{
@@ -69,6 +70,7 @@
 	{
 		uid: "729b70fe",
 		type: "item",
+		team_reward: 0b,
 		item: {
 			id: "enderutilities:pickupmanager",
 			tag: {

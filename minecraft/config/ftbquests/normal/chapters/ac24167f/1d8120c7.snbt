@@ -1,0 +1,19 @@
+{
+	title: "§b古老的矮人魔法",
+	x: -7.5d,
+	y: 10.0d,
+	description: "使用奥术注魔合成古代砖",
+	text: [
+		""
+	],
+	dependencies: [
+		"eeb6ec91"
+	],
+	tasks: [{
+		uid: "c11ec9c1",
+		type: "item",
+		items: [{
+			item: "embers:archaic_brick"
+		}]
+	}]
+}

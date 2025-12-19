@@ -445,4 +445,15 @@ Infusion.registerRecipe("crimsonite_ingot", "", <additions:crimsonite_block>, 6,
     <bloodmagic:item_demon_crystal:4>
 ]);
 
+Infusion.registerRecipe("ancient_brick", "", <embers:archaic_brick>, 12, [
+    <aspect:ira> * 400,
+    <aspect:ordo> * 1600,
+    <aspect:humanus> * 600
+], <embers:brick_caminite>, [
+    <additions:putrallium_ingot>,
+    <additions:putrallium_ingot>,
+    <additions:putrallium_ingot>,
+    <additions:putrallium_ingot>
+]);
+
 //Infusion.registerRecipe("");

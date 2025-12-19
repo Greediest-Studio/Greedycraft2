@@ -1292,6 +1292,18 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
                         shog2 = entity;
                         recipeString = "ant_shell";
                     }
+                    if (entity.definition.id == "thaumicconcilium:thaumaturge" && shog1 instanceof IPlayer && catalyst.definition.id == "tiths:block_cinnabar") {
+                        shog1 = entity;
+                    } else if (entity.definition.id == "babymobs:babyirongolem" && shog2 instanceof IPlayer) {
+                        shog2 = entity;
+                        recipeString = "quicksilver";
+                    }
+                    if (entity.definition.id == "thaumicconcilium:thaumaturge" && shog1 instanceof IPlayer && catalyst.definition.id == "additions:godslime_slimeball") {
+                        shog1 = entity;
+                    } else if (entity.definition.id == "thermalfoundation:blizz" && shog2 instanceof IPlayer) {
+                        shog2 = entity;
+                        recipeString = "overanimated";
+                    }
                 }
             }
             var book1 as IItemStack = <minecraft:stone>;
@@ -1330,10 +1342,13 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
                         addMobFusion(shog1, shog2, <entity:gct_aby:bloody_shoggoth>, pos, player);
                     } else if (recipeString == "ant_shell") {
                         addMobFusion(shog1, shog2, <entity:erebus:erebus.ant_shell>, pos, player);
+                    } else if (recipeString == "quicksilver") {
+                        addMobFusion(shog1, shog2, <entity:thaumicconcilium:quicksilver_elemental>, pos, player);
+                    } else if (recipeString == "overanimated") {
+                        addMobFusion(shog1, shog2, <entity:thaumicconcilium:overanimated>, pos, player);
                     }
                 }
             }
         }
     }
 });
-

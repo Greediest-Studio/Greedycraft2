@@ -308,3 +308,23 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <minecraft:bedrock> * 2, [
 	[<ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>], 
 	[<ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>, <ore:gemBedrockBroken>]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <embers:mixer>, [
+	[null, <ore:ingotThermallite>, <embers:archaic_bricks>, <embers:mech_core>, <embers:archaic_bricks>, <ore:ingotThermallite>, null], 
+	[<ore:ingotThermallite>, <embers:mech_core>, <ore:blockWolframium>, <ore:ingotMithminite>, <ore:blockWolframium>, <embers:mech_core>, <ore:ingotThermallite>], 
+	[<embers:archaic_bricks>, <ore:blockWolframium>, <embers:mech_core>, <ore:blockWolframium>, <embers:mech_core>, <ore:blockWolframium>, <embers:archaic_bricks>], 
+	[<embers:mech_core>, <ore:ingotMithminite>, <ore:blockWolframium>, <embers:ancient_motive_core>, <ore:blockWolframium>, <ore:ingotMithminite>, <embers:mech_core>], 
+	[<embers:archaic_bricks>, <ore:blockWolframium>, <embers:mech_core>, <ore:blockWolframium>, <embers:mech_core>, <ore:blockWolframium>, <embers:archaic_bricks>], 
+	[<ore:ingotThermallite>, <embers:mech_core>, <ore:blockWolframium>, <ore:ingotMithminite>, <ore:blockWolframium>, <embers:mech_core>, <ore:ingotThermallite>], 
+	[null, <ore:ingotThermallite>, <embers:archaic_bricks>, <embers:mech_core>, <embers:archaic_bricks>, <ore:ingotThermallite>, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <embers:ember_activator>, [
+	[null, null, null, null, null, null, null], 
+	[null, null, null, <embers:archaic_bricks>, null, null, null], 
+	[null, <embers:archaic_bricks>, <embers:archaic_bricks>, <ore:ingotCursium>, <embers:archaic_bricks>, <embers:archaic_bricks>, null], 
+	[null, <embers:archaic_bricks>, <minecraft:furnace>, <embers:archaic_bricks>, <minecraft:furnace>, <embers:archaic_bricks>, null], 
+	[null, <embers:mech_accessor>, <minecraft:furnace>, <embers:mech_core>, <minecraft:furnace>, <embers:mech_accessor>, null], 
+	[null, <embers:archaic_bricks>, <minecraft:furnace>, <ore:blockThermallite>, <minecraft:furnace>, <embers:archaic_bricks>, null], 
+	[<ore:blockCaminite>, <ore:blockCaminite>, <ore:blockCaminite>, <ore:blockCaminite>, <ore:blockCaminite>, <ore:blockCaminite>, <ore:blockCaminite>]
+]);

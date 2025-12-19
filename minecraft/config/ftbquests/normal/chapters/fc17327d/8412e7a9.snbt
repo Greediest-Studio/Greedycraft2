@@ -33,12 +33,14 @@
 	rewards: [{
 		uid: "347e4f4f",
 		type: "item",
+		team_reward: 0b,
 		item: "minecraft:log",
 		count: 32
 	},
 	{
 		uid: "f039df2c",
 		type: "item",
+		team_reward: 0b,
 		item: {
 			id: "pouchofunknown:pouch",
 			tag: {

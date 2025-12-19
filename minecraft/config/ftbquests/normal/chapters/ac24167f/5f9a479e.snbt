@@ -1,0 +1,22 @@
+{
+	title: "§b采集灰烬",
+	x: -5.5d,
+	y: 13.0d,
+	description: "使用灰烬晶体开采机开采灰烬晶体",
+	text: [
+		""
+	],
+	dependencies: [
+		"c08b3864"
+	],
+	tasks: [{
+		uid: "158bbe5c",
+		type: "item",
+		items: [{
+			item: "embers:crystal_ember"
+		},
+		{
+			item: "embers:shard_ember"
+		}]
+	}]
+}

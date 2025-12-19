@@ -52,3 +52,13 @@ createComplexRitualJEI(<minecraft:spawn_egg>.withTag({EntityTag: {id: "erebus:er
     <minecraft:spawn_egg>.withTag({EntityTag: {id: "erebus:erebus.zombie_ant_soldier"}}),
     <minecraft:spawn_egg>.withTag({EntityTag: {id: "erebus:erebus.zombie_ant_soldier"}}),
     <jaopca:dust.undead>);
+
+createComplexRitualJEI(<minecraft:spawn_egg>.withTag({EntityTag: {id: "thaumicconcilium:quicksilver_elemental"}}),
+    <minecraft:spawn_egg>.withTag({EntityTag: {id: "thaumicconcilium:thaumaturge"}}),
+    <minecraft:spawn_egg>.withTag({EntityTag: {id: "babymobs:babyirongolem"}}),
+    <tiths:block_cinnabar>);
+
+createComplexRitualJEI(<minecraft:spawn_egg>.withTag({EntityTag: {id: "thaumicconcilium:overanimated"}}),
+    <minecraft:spawn_egg>.withTag({EntityTag: {id: "thaumicconcilium:thaumaturge"}}),
+    <minecraft:spawn_egg>.withTag({EntityTag: {id: "thermalfoundation:blizz"}}),
+    <additions:godslime_slimeball>);

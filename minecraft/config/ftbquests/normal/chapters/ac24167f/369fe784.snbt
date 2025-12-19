@@ -1,0 +1,20 @@
+{
+	title: "§b灰烬源泉",
+	x: -5.5d,
+	y: 10.0d,
+	description: "使用古代砖块和古代灯笼召唤太古魔像，击杀其将获得太古动力核心",
+	text: [
+		""
+	],
+	dependencies: [
+		"5f9a479e",
+		"1d8120c7"
+	],
+	tasks: [{
+		uid: "42f1e06d",
+		type: "item",
+		items: [{
+			item: "embers:ancient_motive_core"
+		}]
+	}]
+}
