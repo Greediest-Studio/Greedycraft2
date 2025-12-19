@@ -118,7 +118,8 @@ MMEvents.onControllerGUIRender("auto_soul_forge", function(event as ControllerGU
     var info as string[] = [
         "§a///扩展狱火熔炉控制面板///",
         "§a机器名称：§eLV2 - 扩展狱火熔炉",
-        "§a存储意志：§e" ~ (ctrl.getWillAmount() as string) ~ " / " ~ (maxCapacity as string)
+        "§a存储意志：§e" ~ (ctrl.getWillAmount() as string) ~ " / " ~ (maxCapacity as string),
+        "§a最大单次汲取恶魔意志数量：§e" ~ (isNull(ctrl.customData.willList.parallel) ? "1" : (ctrl.customData.willList.parallel as string)),
     ];
     event.extraInfo = info;
 });
@@ -126,28 +127,35 @@ MMEvents.onControllerGUIRender("auto_soul_forge", function(event as ControllerGU
 RecipeBuilder.newBuilder("will_absorption", "auto_soul_forge", 10)
     .addPreCheckHandler(function(event as RecipeCheckEvent) {
         val ctrl = event.controller;
-        val chunkWill = WorldDemonWillHandler.getCurrentWill(ctrl.world.native, ctrl.pos.native, EnumDemonWillType.valueOf("DEFAULT") as EnumDemonWillType);
-        val maxparallelism = isNull(ctrl.customData.willList.parallel) ? 1 : ctrl.customData.willList.parallel;
-        if (chunkWill < 1.0d) {
-            event.setFailed("区块内无恶魔意志");
-        } else {
-            ctrl.activeRecipe.parallelism = min(chunkWill, maxparallelism);
+        val chunkWill = WorldDemonWillHandler.getCurrentWill(ctrl.world.native, ctrl.pos.native, EnumDemonWillType.valueOf("DEFAULT") as EnumDemonWillType) as int;
+        val rawWill = ctrl.getWillAmount() as int;
+        if (chunkWill < 1 || rawWill >= 200000000) {
+            event.setFailed("区块内无恶魔意志或机器内恶魔意志已满");
+        }
+        if (rawWill > 200000000) {
+            ctrl.customData = ctrl.customData.update({willList : {raw : 200000000 as int}});
         }
     })
     .addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
         val ctrl = event.controller;
-        val chunkWill = WorldDemonWillHandler.getCurrentWill(ctrl.world.native, ctrl.pos.native, EnumDemonWillType.valueOf("DEFAULT") as EnumDemonWillType);
-        if (chunkWill < 1.0d) {
-            event.setFailed(true,"区块内无恶魔意志");
+        val chunkWill = WorldDemonWillHandler.getCurrentWill(ctrl.world.native, ctrl.pos.native, EnumDemonWillType.valueOf("DEFAULT") as EnumDemonWillType) as int;
+        val maxparallelism = isNull(ctrl.customData.willList.parallel) ? 1 : ctrl.customData.willList.parallel;
+        val parallelism = min(min(maxparallelism as double, chunkWill), (200000000 - ctrl.getWillAmount()));
+        if (chunkWill < 1 || ctrl.getWillAmount() >= 200000000) {
+            event.setFailed(true,"区块内无恶魔意志或机器内恶魔意志已满");
+        } else {
+            event.preventProgressing("本次配方汲取" ~ (parallelism as string) ~ "点恶魔意志");
         }
     })
     .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
         val ctrl = event.controller;
-        val chunkWill = WorldDemonWillHandler.getCurrentWill(ctrl.world.native, ctrl.pos.native, EnumDemonWillType.valueOf("DEFAULT") as EnumDemonWillType) as double;
-        val parallelism = event.activeRecipe.parallelism as double;
-        WorldDemonWillHandler.drainWill(ctrl.world.native, ctrl.pos.native, EnumDemonWillType.valueOf("DEFAULT") as EnumDemonWillType, min(chunkWill, parallelism), true);
-        ctrl.addWillAmount(min(chunkWill, parallelism) as int);
+        val chunkWill = WorldDemonWillHandler.getCurrentWill(ctrl.world.native, ctrl.pos.native, EnumDemonWillType.valueOf("DEFAULT") as EnumDemonWillType) as int;
+        val maxparallelism = isNull(ctrl.customData.willList.parallel) ? 1 : ctrl.customData.willList.parallel;
+        val parallelism = min(min(maxparallelism as double, chunkWill), (200000000 - ctrl.getWillAmount()));
+        WorldDemonWillHandler.drainWill(ctrl.world.native, ctrl.pos.native, EnumDemonWillType.valueOf("DEFAULT") as EnumDemonWillType, parallelism, true);
+        ctrl.addWillAmount(parallelism);
     })
+    .setParallelized(false)
     .addRecipeTooltip("§a汲取区块内恶魔意志")
     .setThreadName("意志汲取模块")
     .build();
