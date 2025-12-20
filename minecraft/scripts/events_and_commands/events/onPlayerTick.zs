@@ -314,9 +314,8 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
                 TicTraitLib.addTicTrait(item, "leveling_durability", 0xffffff, 1);
             }
             if (TicTraitLib.hasTicTrait(item, "tconevo.astral") && !(TicTraitLib.hasTicTrait(item, "astraling"))) {
-                TicTraitLib.addTicTrait(item, "tconevo.astral", TicTraitLib.getTraitColor(item, "tconevo.astral"), 1);
-                item = player.currentItem;
-                TicTraitLib.removeTicTrait(item, "astraling", TicTraitLib.getTraitColor(item, "tconevo.astral"), 1);
+                TicTraitLib.addTicTrait(item, "astraling", TicTraitLib.getTraitColor(item, "tconevo.astral"), 1);
+                TicTraitLib.removeTicTrait(item, "tconevo.astral", TicTraitLib.getTraitColor(item, "tconevo.astral"), 1);
             }
             if !(TicTraitLib.hasTicTrait(item, "astraling") || TicTraitLib.hasTicTrait(item, "tconevo.astral")) {
                 var str as string = "";
