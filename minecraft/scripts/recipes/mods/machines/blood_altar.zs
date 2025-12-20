@@ -41,6 +41,10 @@ import mods.modularmachinery.FactoryRecipeThread;
 import mods.modularmachinery.RecipeFinishEvent;
 import mods.modularmachinery.RecipeTickEvent;
 
+import native.java.math.BigInteger;
+import native.java.math.BigDecimal;
+import native.java.math.RoundingMode;
+
 MachineModifier.setMaxThreads("blood_altar", 1);
 MachineModifier.setInternalParallelism("blood_altar", 2147483647);
 MachineModifier.setMaxParallelism("blood_altar", 2147483647);
@@ -58,19 +62,19 @@ $expand IMachineController$getAltarLevel() as int {
     }
 }
 
-$expand IMachineController$getAltarCapacity() as long {
+$expand IMachineController$getAltarCapacity() as string {
     if (!isNull(this.customData.capacityLP)) {
-        return this.customData.capacityLP as long;
+        return this.customData.capacityLP as string;
     } else {
-        return 0l;
+        return "0";
     }
 }
 
-$expand IMachineController$getAltarLP() as long {
+$expand IMachineController$getAltarLP() as string {
     if (!isNull(this.customData.LP)) {
-        return this.customData.LP as long;
+        return this.customData.LP as string;
     } else {
-        return 0l;
+        return "0";
     }
 }
 
@@ -164,8 +168,15 @@ MMEvents.onStructureUpdate("blood_altar", function(event as MachineStructureUpda
             event.controller.extraThreadCount = event.controller.getBlocksInPattern(<additions:blood_rune_thread>) as int;
         }
     //定义最大容量
-        var capacity as long = ((pow(1.1, event.controller.getBlocksInPattern(<bloodmagic:blood_rune:7>) as double) as double * 10000L) as long + (2000L * event.controller.getBlocksInPattern(<bloodmagic:blood_rune:6>) as long));
+        var capacity = BigDecimal("10000").multiply(BigDecimal(pow(1.1, event.controller.getBlocksInPattern(<bloodmagic:blood_rune:7>) as double) as string)).add(BigDecimal("2000").multiply(BigDecimal(event.controller.getBlocksInPattern(<bloodmagic:blood_rune:6>) as string))).setScale(0, RoundingMode.DOWN).toString() as string;
         event.controller.customData = event.controller.customData.update({capacityLP : capacity});
+    //转移速率
+        var speed as int = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:1>);
+        var efficiency as int = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:2>);
+        var speedBuffer as double = 1.0d + 0.2d * speed;
+        var efficiencyBuffer as double = pow(1.05d, efficiency as double);
+        var LPperSecond as double = 100.0d * speedBuffer * efficiencyBuffer;
+        event.controller.customData = event.controller.customData.update({speed : LPperSecond as int});
     }
 });
 
@@ -180,78 +191,36 @@ MMEvents.onMachinePreTick("blood_altar", function(event as MachineTickEvent) {
     }
     //初始化祭坛容量
     if (isNull(event.controller.customData.LP)) {
-        event.controller.customData = event.controller.customData.update({LP : 0L});
+        event.controller.customData = event.controller.customData.update({LP : "0"});
     }
     var world = event.controller.world;
     var altar = world.getBlock(event.controller.pos.down(4));
-    var extractNum as int = (pow(1.2, (event.controller.getBlocksInPattern(<bloodmagic:blood_rune:5>) as double)) * 20) as int;
+    var extractNum = BigInteger(pow(1.2, event.controller.getBlocksInPattern(<bloodmagic:blood_rune:5>) as double) as int as string).multiply(BigInteger("20")) as BigInteger;
     var acceleration as int = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int;
-    var checkTime as int = 20 - acceleration;
-    if (checkTime < 1) {
-        checkTime = 1;
-    }
+    var checkTime as int = (20 - acceleration) > 1 ? (20 - acceleration) : 1;
     //外界输入模式
     if (!world.isRemote() && world.getWorldTime() % checkTime == 0 && event.controller.getAltarMode() == 0) {
         if (!isNull(altar) && !isNull(altar.data) && !isNull(altar.data.bloodAltar)) {
-            var currentAltarAmount as int = altar.data.bloodAltar.Amount as int;
-            var controllerAvailableSpace as long = event.controller.getAltarCapacity() - event.controller.getAltarLP();
-            var transferBlood as long = 0L;
-            if(controllerAvailableSpace > 0 && currentAltarAmount > 0) {
-                if(currentAltarAmount > extractNum) {
-                    if(controllerAvailableSpace >= extractNum) {
-                        transferBlood = extractNum as long;
-                    } else {
-                        transferBlood = controllerAvailableSpace;
-                    }
-                } else {
-                    if(controllerAvailableSpace >= currentAltarAmount){
-                        transferBlood = currentAltarAmount as long;
-                    } else {
-                        transferBlood = controllerAvailableSpace;
-                    }
-                }
-                world.setBlockState(<blockstate:bloodmagic:altar>, altar.data.update({bloodAltar : {Amount : currentAltarAmount - (transferBlood as int)}}), event.controller.pos.down(4));
-                event.controller.customData = event.controller.customData.update({LP : event.controller.getAltarLP() + transferBlood});
-            }
+            var currentAltarAmount = BigInteger(altar.data.bloodAltar.Amount as string) as BigInteger;
+            var controllerAvailableSpace= BigInteger(event.controller.getAltarCapacity()).subtract(BigInteger(event.controller.getAltarLP())) as BigInteger;
+            var transferBlood = controllerAvailableSpace.compareTo(currentAltarAmount) == 1 ? currentAltarAmount : controllerAvailableSpace;
+            world.setBlockState(<blockstate:bloodmagic:altar>, altar.data.update({bloodAltar : {Amount : (currentAltarAmount.intValue() - transferBlood.intValue())}}), event.controller.pos.down(4));
+            event.controller.customData = event.controller.customData.update({LP : BigInteger(event.controller.getAltarLP()).add(transferBlood).toString()});
         }
     }
     //向血之祭坛输出模式
     if (!world.isRemote() && world.getWorldTime() % checkTime == 0 && event.controller.getAltarMode() == 1) {
         if (!isNull(altar) && !isNull(altar.data) && !isNull(altar.data.bloodAltar)) {
-            var controllerLP as long = event.controller.getAltarLP();
+            var controllerLP = BigInteger(event.controller.getAltarLP()) as BigInteger;
             var altarCurrentAmount as int = altar.data.bloodAltar.Amount as int;
             var altarCapacity as int = altar.data.bloodAltar.capacity as int;
             var altarAvailableSpace as int = altarCapacity - altarCurrentAmount;
-            if (controllerLP > 0 && altarAvailableSpace > 0) {
-                var transferAmount as long = 0L;
-                if (controllerLP > extractNum) {
-                    if (altarAvailableSpace >= extractNum) {
-                        transferAmount = extractNum as long;
-                    } else {
-                        transferAmount = altarAvailableSpace as long;
-                    }
-                } else {
-                    if (altarAvailableSpace >= controllerLP) {
-                        transferAmount = controllerLP;
-                    } else {
-                        transferAmount = altarAvailableSpace as long;
-                    }
-                }            
-                if (transferAmount > 0) {
-                    world.setBlockState(<blockstate:bloodmagic:altar>, altar.data.update({bloodAltar : {Amount : altarCurrentAmount + (transferAmount as int)}}), event.controller.pos.down(4));
-                    event.controller.customData = event.controller.customData.update({LP : controllerLP - transferAmount});
-                }
+            if (controllerLP.signum() == 1 && altarAvailableSpace > 0) {
+                var transferAmount = BigInteger(altarAvailableSpace as string).compareTo(extractNum) == 1 ? extractNum : BigInteger(altarAvailableSpace as string) as BigInteger;
+                world.setBlockState(<blockstate:bloodmagic:altar>, altar.data.update({bloodAltar : {Amount : altarCurrentAmount + transferAmount.intValue()}}), event.controller.pos.down(4));
+                event.controller.customData = event.controller.customData.update({LP : controllerLP.subtract(transferAmount).toString()});
             }
         }
-    }
-    //记录转移速率
-    if (!world.isRemote() && world.getWorldTime() % 100 == 0) {
-        var speed as int = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:1>);
-        var efficiency as int = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:2>);
-        var speedBuffer as double = 1.0d + 0.2d * speed;
-        var efficiencyBuffer as double = pow(1.05d, efficiency as double);
-        var LPperSecond as double = 100.0d * speedBuffer * efficiencyBuffer;
-        event.controller.customData = event.controller.customData.update({speed : LPperSecond as int});
     }
     //玩家LP转移
     /*
@@ -320,10 +289,10 @@ MMEvents.onControllerGUIRender("blood_altar", function(event as ControllerGUIRen
             info += "§d警告：玩家LP网络最大容量已溢出";
         }
 
-        if (event.controller.getAltarLP() > maxtransform as long) {
+        if (BigInteger(event.controller.getAltarLP()).min(BigInteger("2147483647")).intValue() > maxtransform as int) {
             transform = maxtransform;
         } else {
-            transform = event.controller.getAltarLP() as int;
+            transform = BigInteger(event.controller.getAltarLP()).min(BigInteger("2147483647")).intValue() as int;
         }
         if (transform > maxcapacity - player.soulNetwork.currentEssence) {
             transform = maxcapacity - player.soulNetwork.currentEssence;
@@ -347,7 +316,7 @@ function economyCount(event as FactoryRecipeEvent) as double {
     return pow(0.9, num as double) as double;
 }
 
-function addAltarRecipe(input as IIngredient, output as IItemStack, LP as int, level as int) {
+function addAltarRecipe(input as IIngredient, output as IItemStack, LP as string, level as int) {
     var levelSpeedMutiplierMap as int[int] = {
         1 : 1,
         2 : 1,
@@ -369,23 +338,23 @@ function addAltarRecipe(input as IIngredient, output as IItemStack, LP as int, l
     });
     recipe.addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         var speed as int = event.controller.getAltarSpeed() / 20 * levelSpeedMutiplierMap[level] as int;
-        var time as int = max(1,Math.ceil((LP as double * economyCount(event)) / (speed as double)) as int) as int;
-        event.factoryRecipeThread.addModifier("recipetime", RecipeModifierBuilder.create("modularmachinery:duration", "input", time as float, 1, false).build());
+        var time = BigInteger("1").max(BigDecimal(LP).multiply(BigDecimal(economyCount(event))).divide(BigDecimal(speed as string)).toBigInteger()).intValue() as int;
+        event.factoryRecipeThread.addModifier("recipetime", RecipeModifierBuilder.create("modularmachinery:duration", "input", (time > 1 ? time as float : 1.0f), 1, false).build());
     });
     recipe.addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
         val parallelism as int = event.activeRecipe.parallelism;
         var speed as int = event.controller.getAltarSpeed() / 20 * levelSpeedMutiplierMap[level] as int;
-        var time as int = max(1,Math.ceil((LP as double * economyCount(event)) / (speed as double)) as int) as int;
-        if (event.controller.getAltarLP() < (economyCount(event) * LP * parallelism / time) as long) {
+        var time = BigDecimal("1").max(BigDecimal(LP).multiply(BigDecimal(economyCount(event))).divide(BigDecimal(speed as string))) as BigDecimal;
+        if (BigDecimal(event.controller.getAltarLP()).compareTo(BigDecimal(economyCount(event)).multiply(BigDecimal(LP)).multiply(BigDecimal(parallelism as string)).divide(time,0,RoundingMode.DOWN)) == -1) {
             if (event.activeRecipe.tick > 2) {
                 event.activeRecipe.tick -= 2;
-                event.preventProgressing("生命源质不足，需要每tick" ~ (economyCount(event) * LP * parallelism / time) as long as string ~ "点生命源质");
+                event.preventProgressing("生命源质不足，需要每tick" ~ (BigDecimal(economyCount(event)).multiply(BigDecimal(LP)).multiply(BigDecimal(parallelism as string)).divide(time,0,RoundingMode.DOWN).toBigInteger().toString() ~ "点生命源质"));
             } else {
-                event.setFailed(true,"生命源质不足，需要每tick" ~ (economyCount(event) * LP * parallelism / time) as long as string ~ "点生命源质，合成进度已回退至0");
+                event.setFailed(true,"生命源质不足，需要每tick" ~ (BigDecimal(economyCount(event)).multiply(BigDecimal(LP)).multiply(BigDecimal(parallelism as string)).divide(time,0,RoundingMode.DOWN).toBigInteger().toString() ~ "点生命源质，合成进度已回退至0"));
             }
-            event.controller.customData = event.controller.customData.update({LP : 0 as long});
+            event.controller.customData = event.controller.customData.update({LP : "0"});
         } else {
-            event.controller.customData = event.controller.customData.update({LP : event.controller.getAltarLP() - ((economyCount(event) * LP * parallelism / time) as long) as long});
+            event.controller.customData = event.controller.customData.update({LP : BigDecimal(event.controller.getAltarLP()).subtract(BigDecimal(economyCount(event)).multiply(BigDecimal(LP)).multiply(BigDecimal(parallelism as string)).divide(time,0,RoundingMode.DOWN)).toBigInteger().toString()});
         }
     });
     recipe.addRecipeTooltip("§e需求血之祭坛等级：" ~ (level as string));
@@ -397,25 +366,30 @@ function addAltarRecipe(input as IIngredient, output as IItemStack, LP as int, l
 RecipeBuilder.newBuilder("purify", "blood_altar", 1)
     .addFluidInput(<liquid:substrate_lifeessence>)
     .addPreCheckHandler(function(event as RecipeCheckEvent) {
+        val parallelism as int = event.activeRecipe.parallelism;
+        var output as int = event.controller.getBlocksInPattern(<additions:blood_rune_purify>);
         if (event.controller.getBlocksInPattern(<additions:blood_rune_purify>) < 1) {
             event.setFailed("缺少净化符文");
+        }
+        if (BigInteger(event.controller.getAltarLP()).add(BigInteger((parallelism * output) as string)).compareTo(BigInteger(event.controller.getAltarCapacity())) == 1) {
+            event.setFailed("祭坛容量已满");
         }
     })
     .addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
         val parallelism as int = event.activeRecipe.parallelism;
         var output as int = event.controller.getBlocksInPattern(<additions:blood_rune_purify>);
-        if (event.controller.getAltarLP() + parallelism * output > event.controller.getAltarCapacity()) {
+        if (BigInteger(event.controller.getAltarLP()).add(BigInteger((parallelism * output) as string)).compareTo(BigInteger(event.controller.getAltarCapacity())) == 1) {
             event.preventProgressing("祭坛容量已满");
         }
     })
     .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
         val parallelism as int = event.activeRecipe.parallelism;
         var output as int = event.controller.getBlocksInPattern(<additions:blood_rune_purify>);
-        var newLP as long = event.controller.getAltarLP() + (parallelism * output) as long;
-        if (newLP > event.controller.getAltarCapacity()) {
-            newLP = event.controller.getAltarCapacity();
+        var newLP = BigInteger(event.controller.getAltarLP()).add(BigInteger((parallelism * output) as string)) as BigInteger;
+        if (newLP.compareTo(BigInteger(event.controller.getAltarCapacity())) == 1) {
+            newLP = BigInteger(event.controller.getAltarCapacity());
         }
-        event.controller.customData = event.controller.customData.update({LP : newLP});
+        event.controller.customData = event.controller.customData.update({LP : newLP.toString()});
     })
     .addRecipeTooltip("§a此配方仅在祭坛上有净化符文时生效")
     .setThreadName("源质净化模块")
@@ -464,10 +438,10 @@ RecipeBuilder.newBuilder("orb", "blood_altar", 20)
                 maxcapacity = 2147483647;
             }
 
-            if (event.controller.getAltarLP() > maxtransform as long) {
+            if (BigInteger(event.controller.getAltarLP()).compareTo(BigInteger(maxtransform as string)) == 1) {
                 transform = maxtransform;
             } else {
-                transform = event.controller.getAltarLP() as int;
+                transform = BigInteger(event.controller.getAltarLP()).intValue() as int;
             }
             if (transform > maxcapacity - player.soulNetwork.currentEssence) {
                 transform = maxcapacity - player.soulNetwork.currentEssence;
@@ -480,7 +454,7 @@ RecipeBuilder.newBuilder("orb", "blood_altar", 20)
             }
 
             player.soulNetwork.currentEssence += transform;
-            event.controller.customData = event.controller.customData.update({LP : event.controller.getAltarLP() - transform as long});
+            event.controller.customData = event.controller.customData.update({LP : BigInteger(event.controller.getAltarLP()).subtract(BigInteger(transform as string)).toString()});
         }
     })
     .addRecipeTooltip("§a向玩家LP网络输入生命源质,需至少一个玩家符文")
@@ -531,10 +505,10 @@ RecipeBuilder.newBuilder("orb1", "blood_altar", 20)
                 maxcapacity = 2147483647;
             }
 
-            if (event.controller.getAltarLP() > maxtransform as long) {
+            if (BigInteger(event.controller.getAltarLP()).compareTo(BigInteger(maxtransform as string)) == 1) {
                 transform = maxtransform;
             } else {
-                transform = event.controller.getAltarLP() as int;
+                transform = BigInteger(event.controller.getAltarLP()).intValue() as int;
             }
             if (transform > maxcapacity - player.soulNetwork.currentEssence) {
                 transform = maxcapacity - player.soulNetwork.currentEssence;
@@ -547,7 +521,7 @@ RecipeBuilder.newBuilder("orb1", "blood_altar", 20)
             }
 
             player.soulNetwork.currentEssence += transform;
-            event.controller.customData = event.controller.customData.update({LP : event.controller.getAltarLP() - transform as long});
+            event.controller.customData = event.controller.customData.update({LP : BigInteger(event.controller.getAltarLP()).subtract(BigInteger(transform as string)).toString()});
         }
     })
     .addRecipeTooltip("§a向玩家LP网络输入生命源质,需至少一个玩家符文")

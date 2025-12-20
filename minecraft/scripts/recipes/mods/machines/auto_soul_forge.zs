@@ -84,6 +84,7 @@ $expand IMachineController$getWillAmount() as int {
 }
 
 $expand IMachineController$addWillAmount(amount as int) {
+    var parallel as int = isNull(this.customData.willList) ? 1 : (isNull(this.customData.willList.parallel) ? 1 : this.customData.willList.parallel);
     var currentAmount as int = this.getWillAmount();
     var maxCapacity as int = 200000000;
     if (!isNull(this.customData.willList.maxCapacity)) {
@@ -93,19 +94,20 @@ $expand IMachineController$addWillAmount(amount as int) {
     if (newAmount > maxCapacity) {
         newAmount = maxCapacity;
     }
-    this.customData = this.customData.update({willList : {raw : newAmount, maxCapacity : maxCapacity}});
+    this.customData = this.customData.update({willList : {parallel : parallel, raw : newAmount, maxCapacity : maxCapacity}});
 }
 
 $expand IMachineController$removeWillAmount(amount as int) {
+    var parallel as int = isNull(this.customData.willList) ? 1 : (isNull(this.customData.willList.parallel) ? 1 : this.customData.willList.parallel);
     var currentAmount as int = this.getWillAmount();
     var maxCapacity as int = 200000000;
     if (!isNull(this.customData.willList.maxCapacity)) {
         maxCapacity = this.customData.willList.maxCapacity as int;
     }
     if (currentAmount < amount) {
-        this.customData = this.customData.update({willList : {raw : 0, maxCapacity : maxCapacity}});
+        this.customData = this.customData.update({willList : {parallel : parallel, raw : 0, maxCapacity : maxCapacity}});
     } else {
-        this.customData = this.customData.update({willList : {raw : (currentAmount - amount), maxCapacity : maxCapacity}});
+        this.customData = this.customData.update({willList : {parallel : parallel, raw : (currentAmount - amount), maxCapacity : maxCapacity}});
     }
 }
 
@@ -145,6 +147,7 @@ RecipeBuilder.newBuilder("will_absorption", "auto_soul_forge", 10)
             event.setFailed(true,"区块内无恶魔意志或机器内恶魔意志已满");
         } else {
             event.preventProgressing("本次配方汲取" ~ (parallelism as string) ~ "点恶魔意志");
+            event.activeRecipe.tick += 1;
         }
     })
     .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
