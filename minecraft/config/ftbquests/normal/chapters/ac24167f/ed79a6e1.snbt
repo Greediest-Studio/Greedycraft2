@@ -1,0 +1,29 @@
+{
+	title: "§b炼金大成",
+	x: -1.5d,
+	y: 16.5d,
+	description: "合成耀灵结晶",
+	text: [
+		""
+	],
+	dependencies: [
+		"aed8f5ee"
+	],
+	tasks: [{
+		uid: "bd636916",
+		type: "item",
+		items: [{
+			item: "additions:lumerunine"
+		}]
+	}],
+	rewards: [{
+		uid: "005c68aa",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "6264fd70",
+		type: "xp",
+		xp: 25000
+	}]
+}

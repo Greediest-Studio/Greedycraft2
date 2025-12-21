@@ -1,0 +1,53 @@
+{
+	title: "§b炼金化标识",
+	x: -3.5d,
+	y: 16.5d,
+	description: "合成任意一种元素象征",
+	text: [
+		""
+	],
+	dependencies: [
+		"524f9aea"
+	],
+	tasks: [{
+		uid: "413e3485",
+		type: "item",
+		items: [{
+			item: "embers:aspectus_copper"
+		},
+		{
+			item: "embers:aspectus_dawnstone"
+		},
+		{
+			item: "embers:aspectus_iron"
+		},
+		{
+			item: "embers:aspectus_lead"
+		},
+		{
+			item: "embers:aspectus_silver"
+		},
+		{
+			item: "soot:signet_antimony"
+		},
+		{
+			item: "additions:aspectus_mercury"
+		},
+		{
+			item: "additions:aspectus_salt"
+		},
+		{
+			item: "additions:aspect_sulfur"
+		}]
+	}],
+	rewards: [{
+		uid: "03ebae2b",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "841c69af",
+		type: "xp",
+		xp: 4200
+	}]
+}

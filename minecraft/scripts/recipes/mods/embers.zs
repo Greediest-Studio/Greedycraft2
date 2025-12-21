@@ -30,3 +30,17 @@ Alchemy.add(<additions:lumerunine_scrap> * 4, [
     "salt": 16 .. 48,
     "sulfur": 16 .. 48
 });
+
+Alchemy.add(<additions:ancient_scrab>, [
+    <erebus:materials:35>,
+    <additions:solarys>,
+    <additions:solarys>,
+    <additions:ancient_sand>,
+    <additions:ancient_sand>
+], {
+    "dawnstone": 24 .. 60,
+    "antimony": 24 .. 60,
+    "copper": 24 .. 60,
+    "silver": 24 .. 60,
+    "salt": 24 .. 60
+});

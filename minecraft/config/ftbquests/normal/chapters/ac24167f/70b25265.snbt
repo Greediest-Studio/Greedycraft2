@@ -1,0 +1,35 @@
+{
+	title: "§b以琥珀结晶",
+	x: 0.5d,
+	y: 16.5d,
+	description: "获得耀晶石",
+	text: [
+		"使用含有“辉耀提炼”词条的工具挖掘耀晶石矿石以获得耀晶石"
+	],
+	dependencies: [
+		"ed79a6e1"
+	],
+	tasks: [{
+		uid: "f9479da3",
+		type: "item",
+		items: [{
+			item: "additions:solarys"
+		}]
+	}],
+	rewards: [{
+		uid: "cc5bf25d",
+		type: "item",
+		item: "additions:solarys",
+		count: 2
+	},
+	{
+		uid: "5074246b",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "cbb24bf6",
+		type: "xp",
+		xp: 15000
+	}]
+}

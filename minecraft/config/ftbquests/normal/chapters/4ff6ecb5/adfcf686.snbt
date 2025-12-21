@@ -1,0 +1,31 @@
+{
+	title: "§b朝拜者之狂欢",
+	x: 13.5d,
+	y: -2.0d,
+	description: "合成血腥朝圣之锚，可以定位最近的血腥神殿",
+	text: [
+		""
+	],
+	dependencies: [
+		"642afe7f"
+	],
+	tasks: [{
+		uid: "f50f17c8",
+		type: "item",
+		items: [{
+			item: "gctcore:crimson_anchor"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4c3f6ac0",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "e70f81ab",
+		type: "xp",
+		xp: 9000
+	}]
+}

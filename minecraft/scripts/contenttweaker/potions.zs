@@ -57,6 +57,13 @@ erebus_protection.badEffectIn = false;
 erebus_protection.beneficial = true;
 erebus_protection.register();
 
+var atum_protection as IPotion = VanillaFactory.createPotion("atum_protection", 0xDAA520);
+atum_protection.shouldRender = false;
+atum_protection.shouldRenderHUD = false;
+atum_protection.badEffectIn = false;
+atum_protection.beneficial = true;
+atum_protection.register();
+
 var demon_decay as IPotion = VanillaFactory.createPotion("demon_decay", 0x425379);
 demon_decay.shouldRender = false;
 demon_decay.shouldRenderHUD = false;

@@ -714,6 +714,11 @@ RecipeUtil.addShaped("crimson_token_copy", <additions:crimson_token>, [
     [<ore:ingotSpironium>, <additions:crimson_token>.reuse(), <ore:ingotSpironium>],
     [<ore:ingotSpironium>, <ore:ingotSpironium>, <ore:ingotSpironium>]
 ]);
+RecipeUtil.addShaped("dimension_teleporter", <contenttweaker:dim_item>, [
+    [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+    [<ore:ingotIron>, <ore:shardSpace>, <ore:ingotIron>],
+    [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
+]);
 /*
  * RecipeUtil.addShaped("", , [
  *  [null, null, null],

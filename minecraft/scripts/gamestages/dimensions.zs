@@ -9,6 +9,7 @@
 0 主世界
 1 末地
 7 暮色森林
+17 阿图姆
 20 交错次元
 23 糖果世界
 41 裂隙彼端
@@ -99,3 +100,4 @@ GameStagesUtil.stageWarped.addDimension(55);
 GameStagesUtil.stageWarped.addDimension(102);
 GameStagesUtil.stageFinal.addDimension(2);
 GameStagesUtil.stageDeepDream.addDimension(66);
+GameStagesUtil.stageDeepDream.addDimension(17);

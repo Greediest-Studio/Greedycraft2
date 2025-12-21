@@ -201,6 +201,66 @@ if (!isNull(event.item) && !event.world.isRemote()) {
         }
     }
 
+    //Ancient Scarab
+    if (event.item.definition.id == "additions:ancient_scrab" && event.hand == "MAIN_HAND") {
+        var world as IWorld = event.world;
+        var stack as IItemStack = event.item;
+        var player as IPlayer = event.player;
+        stack.mutable().shrink(1);
+        if (world.dimension != 17) {
+            var x = player.x as int;
+            var y = 64 as int;
+            var z = player.z as int;
+            val destination = IWorld.getFromID(17);
+            var tp = true;
+            if (destination.getBlock(x,y,z).definition.id == "minecraft:air" && destination.getBlock(x,y + 1,z).definition.id == "minecraft:air" && destination.getBlock(x,y - 1,z).definition.id != "minecraft:air" && destination.getBlock(x,y - 1,z).definition.id != "erebus:formic_acid") {
+                server.commandManager.executeCommand(server, "/forge setdimension " ~ player.name ~ " 17 " ~ (x as string) ~ " " ~ (y as string) ~ " " ~ (z as string));
+                tp = false;
+            }
+            if (tp) {
+                var i as int = -16;
+                var j as int = -16;
+                var k as int = -16;
+                while ((i <= 16) && tp) {
+                    while ((j <= 16) && tp) {
+                        while ((k <= 16) && tp) {
+                            if (destination.getBlock(x + i,y + j,z + k).definition.id == "minecraft:air" && destination.getBlock(x + i,y + j + 1,z + k).definition.id == "minecraft:air" && destination.getBlock(x + i,y + j - 1,z + k).definition.id != "minecraft:air" && destination.getBlock(x,y - 1,z).definition.id != "erebus:formic_acid") {
+                                server.commandManager.executeCommand(server, "/forge setdimension " ~ player.name ~ " 17 " ~ (x + i) as string ~ " " ~ (y + j) as string ~ " " ~ (z + k) as string);
+                                tp = false;
+                            }
+                            k += 1;
+                        }
+                        k = -16;
+                        j += 1;
+                    }
+                    j = -16;
+                    i += 1;
+                }
+            }
+            if (tp) {
+                var i as int = -64;
+                var j as int = -63;
+                var k as int = -64;
+                while ((i <= 64) && tp) {
+                    while ((j <= 128) && tp) {
+                        while ((k <= 64) && tp) {
+                            if (destination.getBlock(x + i,y + j,z + k).definition.id == "minecraft:air" && destination.getBlock(x + i,y + j + 1,z + k).definition.id == "minecraft:air" && destination.getBlock(x + i,y + j - 1,z + k).definition.id != "minecraft:air" && destination.getBlock(x,y - 1,z).definition.id != "erebus:formic_acid") {
+                                server.commandManager.executeCommand(server, "/forge setdimension " ~ player.name ~ " 17 " ~ (x + i) as string ~ " " ~ (y + j) as string ~ " " ~ (z + k) as string);
+                                tp = false;
+                            }
+                            k += 1;
+                        }
+                        k = -64;
+                        j += 1;
+                    }
+                    j = -64;
+                    i += 1;
+                }
+            }
+        }
+        player.addPotionEffect(<potion:contenttweaker:atum_protection>.makePotionEffect(2400, 0));
+    }
+
     //请把所有右键物品事件放在这条效果的前面！
     //Clear All the Entities
     if (event.item.definition.id == "additions:emergency_button" && event.hand == "MAIN_HAND") {

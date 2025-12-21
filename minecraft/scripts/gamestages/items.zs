@@ -2448,7 +2448,9 @@ GameStagesUtil.stageDeepDream.addIngredients([
     <ore:blockPutrallium>,
     <ore:dustPutrallium>,
     <ore:orePutrallium>,
-    <gctcore:crimson_anchor>
+    <gctcore:crimson_anchor>,
+    <additions:ancient_sand>,
+    <additions:ancient_scrab>
 ], false);
 
 GameStagesUtil.stageLegendWizard.addIngredients([
@@ -2478,7 +2480,7 @@ GameStagesUtil.stageEpicEngineer.addModId(["nuclearcraft", "industrialforegoing"
 GameStagesUtil.stageBetweenlandTraveller.addModId(["thebetweenlands"]);
 GameStagesUtil.stageWitherSlayer.addModId(["crazyae", "nae2", "ecoaeextension", "aewirelesschannel"]);
 GameStagesUtil.stageEnderCharm.addModId(["elementalend"]);
-GameStagesUtil.stageDeepDream.addModId(["erebus"]);
+GameStagesUtil.stageDeepDream.addModId(["erebus", "atum"]);
 GameStagesUtil.stageLegendWizard.addModId(["embers", "soot"]);
 
 GameStagesUtil.stageGettingStarted.addRecipeName("tinkersurvival:cobblestone");

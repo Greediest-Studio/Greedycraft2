@@ -1,0 +1,35 @@
+{
+	title: "§b沙海谜国",
+	x: 12.0d,
+	y: 11.5d,
+	description: "合成并使用荒古圣甲虫，进入阿图姆",
+	text: [
+		""
+	],
+	dependencies: [
+		"94068a81"
+	],
+	tasks: [{
+		uid: "095663df",
+		type: "item",
+		items: [{
+			item: "additions:ancient_scrab"
+		}]
+	},
+	{
+		uid: "734b9110",
+		type: "dimension",
+		icon: "randomportals:yellow_lateral_nether_portal",
+		dim: 17
+	}],
+	rewards: [{
+		uid: "91a532df",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "c08cd5c8",
+		type: "xp",
+		xp: 20000
+	}]
+}
