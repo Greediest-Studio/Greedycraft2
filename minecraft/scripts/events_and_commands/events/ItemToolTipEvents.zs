@@ -88,6 +88,5 @@ events.register(function(event as ItemTooltipEvent) {
             }
         }
     }
-
 });
 

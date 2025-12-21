@@ -2447,7 +2447,20 @@ GameStagesUtil.stageDeepDream.addIngredients([
     <ore:nuggetPutrallium>,
     <ore:blockPutrallium>,
     <ore:dustPutrallium>,
-    <ore:orePutrallium>
+    <ore:orePutrallium>,
+    <gctcore:crimson_anchor>
+], false);
+
+GameStagesUtil.stageLegendWizard.addIngredients([
+    <ore:gemSolarys>,
+    <ore:oreSolarys>,
+    <ore:nuggetSolarys>,
+    <ore:blockSolarys>,
+    <ore:scrapLumerunine>,
+    <ore:gemLumerunine>,
+    <additions:aspectus_mercury>,
+    <additions:aspectus_salt>,
+    <additions:aspect_sulfur>
 ], false);
 
 GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators", "mekceumoremachine", "mekeng"]);

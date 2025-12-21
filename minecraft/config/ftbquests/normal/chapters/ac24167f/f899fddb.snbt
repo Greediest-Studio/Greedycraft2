@@ -16,5 +16,15 @@
 		items: [{
 			item: "embers:geo_separator"
 		}]
+	}],
+	rewards: [{
+		uid: "e0015f7f",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "04643ffa",
+		type: "xp",
+		xp: 20000
 	}]
 }

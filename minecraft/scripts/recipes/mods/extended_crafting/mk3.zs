@@ -328,3 +328,13 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <embers:ember_activator>, [
 	[null, <embers:archaic_bricks>, <minecraft:furnace>, <ore:blockThermallite>, <minecraft:furnace>, <embers:archaic_bricks>, null], 
 	[<ore:blockCaminite>, <ore:blockCaminite>, <ore:blockCaminite>, <ore:blockCaminite>, <ore:blockCaminite>, <ore:blockCaminite>, <ore:blockCaminite>]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <gctcore:crimson_anchor>, [
+	[null, null, <ore:blockRubium>, null, null, <ore:ingotBloodySpironium>, null], 
+	[null, <ore:blockRubium>, null, null, <ore:ingotBloodySpironium>, <ore:ingotHexacite>, <ore:ingotBloodySpironium>], 
+	[null, <ore:blockRubium>, null, null, <ore:blockLosessium>, <ore:ingotBloodySpironium>, null], 
+	[null, <ore:blockRubium>, null, <ore:blockLosessium>, null, null, null], 
+	[null, <ore:blockLegendite>, <ore:blockLegendite>, null, null, null, <ore:blockRubium>], 
+	[null, <ore:blockLegendite>, <ore:blockLegendite>, <ore:blockRubium>, <ore:blockRubium>, <ore:blockRubium>, null], 
+	[<ore:blockRubium>, null, null, null, null, null, null]
+]);

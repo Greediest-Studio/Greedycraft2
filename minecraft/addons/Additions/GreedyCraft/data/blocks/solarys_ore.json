@@ -1,0 +1,18 @@
+{
+  "item_block": {
+    "name": "§e耀晶石矿石",
+    "tooltip": "§6由黎明石渗透进琥珀结晶而成",
+    "ore_dict": "oreSolarys",
+    "type": "additions:block_simple"
+  },
+  "name": "§e耀晶石矿石",
+  "material": "minecraft:stone",
+  "hardness": 40.0,
+  "resistance": 4000.0,
+  "harvest_level": 13,
+  "harvest_tool": "pickaxe",
+  "light_level": 12,
+  "xp_dropped_min": 20,
+  "xp_dropped_max": 50,
+  "type": "additions:simple"
+}

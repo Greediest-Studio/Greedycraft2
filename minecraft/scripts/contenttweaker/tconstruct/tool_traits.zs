@@ -4970,3 +4970,9 @@ stellar_fusionTrait.calcDamage = function(trait, tool, attacker, target, origina
     return newDamage;
 };
 stellar_fusionTrait.register();
+
+val solarys_refinedTrait = TraitBuilder.create("solarys_refined");
+solarys_refinedTrait.color = Color.fromHex("ffffff").getIntColor(); 
+solarys_refinedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.solarys_refinedTrait.name");
+solarys_refinedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.solarys_refinedTrait.desc");
+solarys_refinedTrait.register();

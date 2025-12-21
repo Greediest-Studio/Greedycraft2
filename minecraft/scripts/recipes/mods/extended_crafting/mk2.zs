@@ -485,3 +485,19 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <embers:tinker_hammer>, [
 	[null, null, <ore:stickHDPE>, null, null], 
 	[null, null, <ore:stickHDPE>, null, null]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <embers:geo_separator>, [
+	[null, null, null, null, null], 
+	[null, <embers:archaic_bricks>, <embers:archaic_bricks>, <embers:archaic_bricks>, null], 
+	[<embers:archaic_bricks>, <ore:blockEarth>, <ore:blockDawnstone>, <ore:blockEarth>, <embers:archaic_bricks>], 
+	[<ore:gearDawnstone>, <ore:blockDawnstone>, <embers:block_tank>, <ore:blockDawnstone>, <ore:gearDawnstone>], 
+	[<ore:blockCaminite>, <ore:blockCaminite>, <ore:latticeDiamond>, <ore:blockCaminite>, <ore:blockCaminite>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:lumerunine>, [
+	[<ore:scrapLumerunine>, <ore:scrapLumerunine>, <ore:scrapLumerunine>, <ore:scrapLumerunine>, <ore:scrapLumerunine>], 
+	[<ore:scrapLumerunine>, <ore:scrapLumerunine>, <ore:scrapLumerunine>, <ore:scrapLumerunine>, <ore:scrapLumerunine>], 
+	[<ore:scrapLumerunine>, <ore:scrapLumerunine>, <ore:scrapLumerunine>, <ore:scrapLumerunine>, <ore:scrapLumerunine>], 
+	[<ore:scrapLumerunine>, <ore:scrapLumerunine>, <ore:scrapLumerunine>, <ore:scrapLumerunine>, <ore:scrapLumerunine>], 
+	[<ore:scrapLumerunine>, <ore:scrapLumerunine>, <ore:scrapLumerunine>, <ore:scrapLumerunine>, <ore:scrapLumerunine>]
+]);

@@ -25,6 +25,7 @@ import crafttweaker.event.BlockHarvestDropsEvent;
 import crafttweaker.event.BlockBreakEvent;
 import crafttweaker.world.IBiome;
 import crafttweaker.world.IBiomeType;
+import crafttweaker.item.IItemStack;
 
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
@@ -49,6 +50,21 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
         if (!isNull(player) && !player.creative && isOcean(event.world.getBiome(event.position), event.world) && event.y < 40.0) {
             var blockState as IBlockState = IBlockState.getBlockState("minecraft:water", [] as string[]);
             event.world.setBlockState(blockState, event.position as IBlockPos);
+        }
+
+        // Prevent drops from Solarys Ore without proper trait
+        var block as IBlock = event.block;
+        if (block.definition.id == "additions:solarys_ore") {
+            var pass as bool = false;
+            if (!isNull(player.mainHandHeldItem)) {
+                var tool as IItemStack = player.mainHandHeldItem;
+                if (TicTraitLib.hasTicTrait(tool, "solarys_refined")) {
+                    pass = true;
+                }
+            }
+            if (!pass) {
+                event.drops = [];
+            }
         }
     }
 });
