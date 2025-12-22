@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "奈布矿石",
+    "tooltip": "§6§o埃及之金",
+    "ore_dict": "oreNebu",
+    "type": "additions:block_simple"
+  },
+  "name": "奈布矿石",
+  "material": "minecraft:stone",
+  "hardness": 40.0,
+  "resistance": 4000.0,
+  "harvest_level": 13,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

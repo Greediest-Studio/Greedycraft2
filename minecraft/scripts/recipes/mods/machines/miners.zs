@@ -760,6 +760,14 @@ erebus.addItemUpgradeOutput(<erebus:materials:74>, FINALLIUM, 0.015);
 erebus.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 erebus.setMaxThreads(1).build();
 
+var atum = RecipeBuilder.newBuilder("atum", "basic_miner", 200);
+atum.addEnergyPerTickInput(200);
+atum.addDimensionInput(17);
+//终焉级
+atum.addItemUpgradeOutput(<additions:nebu_ore>, FINALLIUM, 0.004);
+atum.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+atum.setMaxThreads(1).build();
+
 RecipeAdapterBuilder.create("advanced_miner", "modularmachinery:basic_miner").build();
 RecipeAdapterBuilder.create("dimensional_miner", "modularmachinery:basic_miner").build();
 

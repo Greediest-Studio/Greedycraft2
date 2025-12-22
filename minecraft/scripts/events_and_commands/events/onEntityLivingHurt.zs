@@ -141,6 +141,13 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
     if (player.isPotionActive(<potion:contenttweaker:pure>)) {
         dmg *= 5.0f;
     }
+
+    // Potion effect: Atum Protection
+    if (player.dimension == 17 && (!player.isPotionActive(<potion:contenttweaker:atum_protection>))) {
+        player.sendChat("§c来自阿图姆的沙尘暴轻而易举地撕碎了你的身躯。");
+        player.setDead();
+        player.health = 0.0f;
+    }
     
     event.amount = dmg;
 });

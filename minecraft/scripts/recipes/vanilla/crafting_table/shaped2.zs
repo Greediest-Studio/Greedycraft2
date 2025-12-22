@@ -719,6 +719,11 @@ RecipeUtil.addShaped("dimension_teleporter", <contenttweaker:dim_item>, [
     [<ore:ingotIron>, <ore:shardSpace>, <ore:ingotIron>],
     [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]
 ]);
+RecipeUtil.addShaped("nebu_torch", <atum:pharaoh_torch>, [
+    [null, <additions:nebu_block>, null],
+    [null, <minecraft:torch>, null],
+    [null, <additions:nebu_block>, null]
+]);
 /*
  * RecipeUtil.addShaped("", , [
  *  [null, null, null],

@@ -480,7 +480,8 @@ val removedRecipes as IIngredient[] = [
     <embers:mixer>,
     <embers:ember_activator>,
     <embers:tinker_hammer>,
-    <embers:geo_separator>
+    <embers:geo_separator>,
+    <atum:pharaoh_torch>
 ];
 
 val removedRecipeNames as string[] = [
