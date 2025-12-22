@@ -1,0 +1,13 @@
+filename = 'biolib-1.1.3.jar'
+name = 'Bio Library'
+side = 'both'
+
+[download]
+hash = 'c9de632d1911104c2cbe3e21cec4bb5a2ea563d3'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+
+[update]
+[update.curseforge]
+file-id = 3411757
+project-id = 390354
