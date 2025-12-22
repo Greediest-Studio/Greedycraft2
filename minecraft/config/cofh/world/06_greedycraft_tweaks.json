@@ -2320,6 +2320,27 @@
                 "restriction": "whitelist",
                 "value": [41]
             }
+        },
+        "nebu": {
+            "enabled": "true",
+            "distribution": "uniform",
+            "generator": {
+                "block": [{
+                    "name": "additions:nebu_ore",
+                    "weight": 100
+                }],
+                "material": "atum:limestone",
+                "cluster-size": 2
+            },
+            "cluster-count": 1,
+            "min-height": 1,
+            "max-height": 65,
+            "retrogen": "true",
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [17]
+            }
         }
     }
 }

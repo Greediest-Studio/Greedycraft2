@@ -2450,7 +2450,13 @@ GameStagesUtil.stageDeepDream.addIngredients([
     <ore:orePutrallium>,
     <gctcore:crimson_anchor>,
     <additions:ancient_sand>,
-    <additions:ancient_scrab>
+    <additions:ancient_scrab>,
+    <ore:ingotNebu>,
+    <ore:blockNebu>,
+    <ore:nuggetNebu>,
+    <ore:oreNebu>,
+    <ore:plateNebu>,
+    <ore:dustNebu>
 ], false);
 
 GameStagesUtil.stageLegendWizard.addIngredients([

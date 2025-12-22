@@ -100,7 +100,13 @@
   {
     "identifier": "molten",
     "enabled": true,
-    "entityBlacklist": ["thebetweenlands:dreadful_mummy","thebetweenlands:peat_mummy"],
+    "entityBlacklist": [
+      "thebetweenlands:dreadful_mummy",
+      "thebetweenlands:peat_mummy",
+      "thaumcraft:cultistcleric",
+      "thaumcraft:cultistknight",
+      "thaumcraft:cultistleader"
+    ],
     "alwaysOnEntity": [],
     "tier": 1
   },

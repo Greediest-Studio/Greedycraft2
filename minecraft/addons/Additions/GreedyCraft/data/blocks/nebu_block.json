@@ -1,0 +1,19 @@
+{
+  "item_block": {
+    "name": "奈布块",
+    "ore_dict": "blockNebu",
+    "type": "additions:block_simple"
+  },
+  "name": "奈布块",
+  "material": "minecraft:metal",
+  "place_sound": "minecraft:block.metal.place",
+  "break_sound": "minecraft:block.metal.break",
+  "hit_sound": "minecraft:block.metal.hit",
+  "step_sound": "minecraft:block.metal.step",
+  "fall_sound": "minecraft:block.metal.fall",
+  "hardness": 10.0,
+  "resistance": 4000.0,
+  "harvest_level": 13,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

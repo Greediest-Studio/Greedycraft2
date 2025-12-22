@@ -1,0 +1,29 @@
+{
+	title: "§b幻想之中的装配室",
+	x: -17.5d,
+	y: 6.0d,
+	description: "合成量子装配室",
+	text: [
+		"它拥有你想象不到的合成速度"
+	],
+	dependencies: [
+		"663562f7"
+	],
+	tasks: [{
+		uid: "5abf2ae6",
+		type: "item",
+		items: [{
+			item: "crazyae:quantum_cpu_host"
+		}]
+	}],
+	rewards: [{
+		uid: "8c4db640",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "70b2e803",
+		type: "xp",
+		xp: 2000
+	}]
+}

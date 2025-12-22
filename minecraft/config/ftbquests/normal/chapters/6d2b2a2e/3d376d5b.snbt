@@ -1,0 +1,29 @@
+{
+	title: "§b亵渎圣洁",
+	x: 13.0d,
+	y: 13.5d,
+	description: "合成皇家火炬",
+	text: [
+		"在金字塔石棺四角插上四个皇家火把，可以召唤法老"
+	],
+	dependencies: [
+		"de4fd1bd"
+	],
+	tasks: [{
+		uid: "e764b27c",
+		type: "item",
+		items: [{
+			item: "atum:pharaoh_torch"
+		}]
+	}],
+	rewards: [{
+		uid: "af9854c1",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "9d57f7b2",
+		type: "xp",
+		xp: 17500
+	}]
+}

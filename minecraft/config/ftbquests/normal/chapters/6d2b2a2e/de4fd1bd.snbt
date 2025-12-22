@@ -1,0 +1,36 @@
+{
+	title: "§b沙漠之金",
+	x: 12.0d,
+	y: 13.5d,
+	description: "挖掘奈布矿石，获得奈布锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"fb500710"
+	],
+	tasks: [{
+		uid: "f72d677b",
+		type: "item",
+		items: [{
+			item: "additions:nebu_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "d699543b",
+		type: "item",
+		item: "additions:nebu_ingot",
+		count: 4,
+		random_bonus: 2
+	},
+	{
+		uid: "7fbd7303",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "73de93a3",
+		type: "xp",
+		xp: 30000
+	}]
+}

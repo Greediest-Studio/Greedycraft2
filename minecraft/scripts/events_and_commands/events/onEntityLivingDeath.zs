@@ -185,6 +185,20 @@ events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
                     }
                 }
             }
+        } else if (event.entityLivingBase.definition.id == "atum:pharaoh") {
+            //Converion of Dubhe Orb
+            if (!isNull(event.damageSource.getTrueSource())) {
+                if (event.damageSource.getTrueSource() instanceof IPlayer) {
+                    var player as IPlayer = event.damageSource.getTrueSource();
+                    if (!isNull(player.offHandHeldItem)) {
+                        var item as IItemStack = player.offHandHeldItem;
+                        if (item.definition.id == "additions:dubhe_orb_broken") {
+                            item.mutable().shrink(1);
+                            player.give(<additions:dubhe_orb_light>);
+                        }
+                    }
+                }
+            }
         }
     }
 

@@ -1,0 +1,29 @@
+{
+	title: "§b法老之咒",
+	x: 11.0d,
+	y: 12.0d,
+	description: "获得盗墓者地图，可以定位金字塔",
+	text: [
+		""
+	],
+	dependencies: [
+		"fb500710"
+	],
+	tasks: [{
+		uid: "9f10b94d",
+		type: "item",
+		items: [{
+			item: "atum:graverobbers_map"
+		}]
+	}],
+	rewards: [{
+		uid: "dfc95fd5",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "4db8b325",
+		type: "xp",
+		xp: 25000
+	}]
+}
