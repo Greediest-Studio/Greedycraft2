@@ -330,13 +330,16 @@ end.addItemUpgradeOutput(<draconicevolution:draconium_dust>, AEONSTEEL, 0.02);
 end.addItemUpgradeOutput(<gct_ores:witherium_dust>, AEONSTEEL, 0.02);
 end.addItemUpgradeOutput(<gct_mobs:resonated_scrap>, AEONSTEEL, 0.001);
 //炫钢级
+end.addItemUpgradeOutput(<betterendforge:emerald_ice> , CHROMASTEEL , 0.01);
 end.addItemUpgradeOutput(<endreborn:block_wolframium_ore>, CHROMASTEEL, 0.009);
 end.addItemUpgradeOutput(<additions:plasmarite_ore>, CHROMASTEEL, 0.005);
 end.addItemUpgradeOutput(<biomesoplenty:gem>, CHROMASTEEL, 0.01);
 //寰宇级
+end.addItemUpgradeOutput(<betterendforge:dense_emerald_ice> , COSMILITE , 0.005);
 end.addItemUpgradeOutput(<additions:titanium_ore>, COSMILITE, 0.0015);
 end.addItemUpgradeOutput(<additions:end_harcadium_ore>, COSMILITE, 0.005);
 //终焉级
+end.addItemUpgradeOutput(<betterendforge:ancient_emerald_ice> , FINALLIUM , 0.0025);
 end.addItemUpgradeOutput(<additions:thallium_ore>, FINALLIUM, 0.005);
 end.addItemUpgradeOutput(<additions:manarium_ore>, FINALLIUM, 0.01);
 end.addItemUpgradeOutput(<additions:soilium_ore>, FINALLIUM, 0.008);
