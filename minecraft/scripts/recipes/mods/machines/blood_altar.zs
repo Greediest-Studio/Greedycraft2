@@ -168,7 +168,7 @@ MMEvents.onStructureUpdate("blood_altar", function(event as MachineStructureUpda
             event.controller.extraThreadCount = event.controller.getBlocksInPattern(<additions:blood_rune_thread>) as int;
         }
     //定义最大容量
-        var capacity = BigDecimal("10000").multiply(BigDecimal(pow(1.1, event.controller.getBlocksInPattern(<bloodmagic:blood_rune:7>) as double))).add(BigDecimal("2000").multiply(BigDecimal(event.controller.getBlocksInPattern(<bloodmagic:blood_rune:6>) as string))).setScale(0, RoundingMode.DOWN).toString() as string;
+        var capacity = BigDecimal("10000").multiply(BigDecimal("1.1").pow(event.controller.getBlocksInPattern(<bloodmagic:blood_rune:7>) as int)).add(BigDecimal("2000").multiply(BigDecimal(event.controller.getBlocksInPattern(<bloodmagic:blood_rune:6>) as string))).setScale(0, RoundingMode.DOWN).toString() as string;
         event.controller.customData = event.controller.customData.update({capacityLP : capacity});
     //转移速率
         var speed as int = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:1>);
@@ -464,20 +464,20 @@ RecipeBuilder.newBuilder("orb", "blood_altar", 20)
 
 RecipeBuilder.newBuilder("orb1", "blood_altar", 20)
     .addPreCheckHandler(function(event as RecipeCheckEvent) {
-        if (event.controller.getBlocksInPattern(<additions:blood_rune_personal>) < 1) {
-            event.setFailed("缺少玩家符文");
-        }
         var player = server.getPlayerByUUID(event.controller.ownerUUID);
         if (!isNull(player) && !isNull(player.soulNetwork)) {
             var maxcapacity = ((1.0f + 0.02f * event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>)) * capacity[player.soulNetwork.orbTier]) as int;
             if (maxcapacity < 0) {
                 maxcapacity = 2147483647;
             }
-            if (player.soulNetwork.currentEssence >= maxcapacity) {
-                event.setFailed("玩家LP网络已满");
-            }
             if (!(event.controller.getAltarMode() == 2)) {
                 event.setFailed("未调整至<转移到玩家网络>模式");
+            }
+            else if (event.controller.getBlocksInPattern(<additions:blood_rune_personal>) < 1) {
+                event.setFailed("缺少玩家符文");
+            }
+            else if (player.soulNetwork.currentEssence >= maxcapacity) {
+                event.setFailed("玩家LP网络已满");
             }
         } else {
             event.setFailed("玩家未在线或数据无效");

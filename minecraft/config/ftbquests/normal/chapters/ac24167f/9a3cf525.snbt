@@ -1,13 +1,14 @@
 {
 	title: "§b大地之母",
 	x: 4.5d,
-	y: 5.5d,
+	y: 7.0d,
 	description: "获得大地之锭",
 	text: [
 		""
 	],
 	dependencies: [
-		"956cbb61"
+		"298dd90a",
+		"4a89efb6"
 	],
 	tasks: [{
 		uid: "8af6271e",
