@@ -4056,14 +4056,10 @@ val ingeniousTrait = ArmorTraitBuilder.create("ingenious");
 ingeniousTrait.color = Color.fromHex("ffffff").getIntColor();
 ingeniousTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.ingeniousTrait.name");
 ingeniousTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.ingeniousTrait.desc");
-ingeniousTrait.maxLevel = 3;
 ingeniousTrait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
-        var level as int = CotTicTraitLib.getTraitLevel(armor, "ingenious_bone_armor");
         var time as int = 120;
         var duraPerTime as int = 50;
-        if (level == 1) duraPerTime = 20;
-        if (level == 3) time = 60;
         if (world.time % time == 0 && armor.damage > 0) {
             var pass as bool = false;
             for i in 0 to 36 {
@@ -4088,16 +4084,9 @@ val ingenious_boneTrait = ArmorTraitBuilder.create("ingenious_bone");
 ingenious_boneTrait.color = Color.fromHex("ffffff").getIntColor();
 ingenious_boneTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.ingenious_boneTrait.name");
 ingenious_boneTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.ingenious_boneTrait.desc");
-ingenious_boneTrait.maxLevel = 3;
 ingenious_boneTrait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
-        var level as int = CotTicTraitLib.getTraitLevel(armor, "ingenious_bone_armor");
-        var effectMap as int[][int] = {
-            1 : [0, 900, 920],
-            2 : [1, 440, 460],
-            3 : [1, 900, 900]
-        };
-        if (world.time % effectMap[level][2] == 0) {
+        if (world.time % 900 == 0) {
             var pass as bool = false;
             for i in 0 to 36 {
                 if (!isNull(player.getInventoryStack(i))) {
@@ -4110,7 +4099,7 @@ ingenious_boneTrait.onArmorTick = function(trait, armor, world, player) {
                 }
             }
             if (pass) {
-                player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(effectMap[level][1], effectMap[level][0], true, false));
+                player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(900, 1, true, false));
             }
         }
     }

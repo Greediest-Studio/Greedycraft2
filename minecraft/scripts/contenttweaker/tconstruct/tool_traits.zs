@@ -4981,15 +4981,11 @@ val ingeniousTrait = TraitBuilder.create("ingenious");
 ingeniousTrait.color = Color.fromHex("ffffff").getIntColor(); 
 ingeniousTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.ingeniousTrait.name");
 ingeniousTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.ingeniousTrait.desc");
-ingeniousTrait.maxLevel = 3;
 ingeniousTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
-    if (owner instanceof IPlayer && !isNull(trait.getData(tool))) {
+    if (owner instanceof IPlayer) {
         var player as IPlayer = owner;
-        var level as int = trait.getData(tool).level;
         var time as int = 120;
         var duraPerTime as int = 50;
-        if (level == 1) duraPerTime = 20;
-        if (level == 3) time = 60;
         if (world.time % time == 0 && tool.damage > 0) {
             var pass as bool = false;
             for i in 0 to 36 {
