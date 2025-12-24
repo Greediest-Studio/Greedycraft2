@@ -87,3 +87,4 @@ Altar.addTraitAltarRecipe("astral_metal", <additions:astral_metal_ingot> * 4, 30
 ], "astralsorcery.constellation.aevitas");
 
 AttunementAltar.addRecipe(<additions:dubhe_orb_night>, <contenttweaker:bauble_dubhe_night_clown>, "astralsorcery.constellation.horologium");
+AttunementAltar.addRecipe(<additions:dubhe_orb_light>, <contenttweaker:bauble_dubhe_light_clown>, "astralsorcery.constellation.horologium");

@@ -133,7 +133,7 @@ addFusionRecipe(<gct_ores:ordered_core>, [<ore:gemOrderCrystal>, <ore:coreChaoti
 
 addFusionRecipe(<draconicevolution:crafting_injector:1>, [<draconicevolution:crafting_injector>, <ore:coreBasic> * 2, <ore:coreExcellent>, <ore:blockDraconium>, <ore:gemDiamond> * 4], 1280, 0);
 addFusionRecipe(<draconicevolution:crafting_injector:2>, [<draconicevolution:crafting_injector:1>, <ore:coreExcellent> * 2, <ore:blockDraconiumAwakened>, <ore:gemDiamond> * 4], 8960, 1);
-addFusionRecipe(<draconicevolution:crafting_injector:3>, [<draconicevolution:crafting_injector:2>, <ore:coreEpic>, <ore:dragonEgg>, <ore:gemDiamond> * 4], 24000000, 3);
+addFusionRecipe(<draconicevolution:crafting_injector:3>, [<draconicevolution:crafting_injector:2>, <ore:coreEpic>, <ore:dragonEgg>, <ore:gemDiamond> * 4], 24000000, 2);
 
 addFusionRecipe(<solarflux:solar_panel_wyvern>, [<solarflux:solar_panel_8>, <ore:ingotWyvernMetal> * 4, <draconicevolution:wyvern_energy_core> * 4], 64000, 1);
 addFusionRecipe(<solarflux:solar_panel_draconic>, [<solarflux:solar_panel_wyvern>, <ore:ingotDraconicMetal> * 4, <draconicevolution:draconic_energy_core> * 4], 512000, 2);
@@ -153,7 +153,7 @@ addFusionRecipe(<draconicevolution:reactor_core>, [<ore:gemChaosShard>, <ore:ing
 addFusionRecipe(<draconicevolution:draconium_chest>, [<ore:chest>, <ore:coreBasic> * 2, <ore:blockDraconium>, <minecraft:furnace> * 5, <ore:workbench> * 2], 100000, 0);
 addFusionRecipe(<draconicevolution:ender_energy_manipulator>, [<ore:skullWitherSkeleton>, <ore:coreExcellent>, <ore:coreBasic> * 2, <ore:pearlEnderEye> * 7], 600000, 1);
 addFusionRecipe(<draconicevolution:dislocator_advanced>, [<draconicevolution:dislocator>, <ore:coreExcellent>, <ore:ingotDraconium> * 4, <ore:enderpearl> * 3], 40000, 1);
-addFusionRecipe(<gct_ores:command_core>, [<ore:ingotHarcadium> * 4, <ore:ingotVoidEssence> * 4, <ore:ingotAdamantium> * 4, <ore:blockDraconiumChaotic>, <ore:ingotChromasteel>, <ore:ingotCrimsonite>, <ore:ingotAdaminite>], 10735000, 2);
+addFusionRecipe(<gct_ores:command_core>, [<ore:ingotHarcadium> * 4, <ore:ingotVoidEssence> * 4, <ore:ingotAdamantium> * 4, <ore:blockDraconiumChaotic>, <ore:ingotChromasteel>, <ore:ingotCrimsonite>, <ore:ingotAdaminite>, <ore:circuitUltimate>], 10735000, 2);
 addFusionRecipe(<gct_ores:creepy_wither_doll>, [<ore:blockHarcadium>, <ore:skullWitherSkeleton> * 4, <ore:soulSand> * 4], 16777216, 2);
 addFusionRecipe(<gct_ores:rng_relinquisher>, [<ore:coreChaotic>, <ore:ingotHarcadium> * 2, <ore:ingotVoidEssence> * 2, <ore:metalChaotic> * 4], 83886080, 3);
 addFusionRecipe(<minecraft:command_block>, [<ore:coreCommand>, <ore:coreRelifed> * 8, <ore:coreChaotic>, <ore:bedrock> * 2, <ore:blockAdamantium>], 26214400, 3);
@@ -178,3 +178,4 @@ addFusionRecipe(<packageddraconic:fusion_crafter>, [<draconicevolution:fusion_cr
 addFusionRecipe(<gct_aby:shoggy_slime_purified>, [<gct_aby:shoggy_slime>, <ore:slimecrystalGod> * 8], 565800000, 4);
 addFusionRecipe(<additions:ordered_bone_key>, [<ore:coreBreedum> * 8, <ore:coreOrdered> * 2, <additions:dragonbone_block_mixed> * 4, <gct_ores:door_key_empty> * 4], 2340000000, 4);
 addFusionRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "thaumadditions:blue_wolf"}}), [<thaumadditions:blue_bone> * 2], 204800000, 3);
+addFusionRecipe(<contenttweaker:dubhe_key>, [<additions:dubhe_orb_light>, <additions:dubhe_orb_night>, <ore:blockNebu> * 4, <ore:blockPutrallium> * 4], 256000000, 4);

@@ -1,0 +1,50 @@
+{
+	title: "§b七星指路",
+	x: 15.5d,
+	y: 9.5d,
+	description: "合成天枢之匙，你可以随意造访两个维度了",
+	text: [
+		""
+	],
+	dependencies: [
+		"5e7be11b",
+		"9046790c"
+	],
+	tasks: [{
+		uid: "b2b333c9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:dubhe_key"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fd55b2f4",
+		type: "gamestage",
+		team_reward: 0b,
+		auto: "no_toast",
+		stage: "wake_up"
+	},
+	{
+		uid: "89bb395b",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "d603b4c0",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "bd77d445",
+		type: "xp",
+		xp: 445600
+	},
+	{
+		uid: "2ea43541",
+		type: "item",
+		item: "additions:finallium_block",
+		random_bonus: 1
+	}]
+}

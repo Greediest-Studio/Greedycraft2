@@ -34,24 +34,5 @@ events.onPlayerLeftClickBlock(function(event as PlayerLeftClickBlockEvent) {
     if (!isNull(event.player.mainHandHeldItem)) {
         var item as IItemStack = event.player.mainHandHeldItem;
         var player as IPlayer = event.player;
-        
-        //Clear All the Aggressive Mobs
-        if (item.definition.id == "additions:emergency_button") {
-            player.sendStatusMessage("§c§l已清除所有敌对实体！");
-            server.commandManager.executeCommandSilent(player, "particle lava ~ ~ ~ 1 1 1 1 50 force");
-            item.mutable().shrink(1);
-            if (!isNull(player.activePotionEffects)) {
-                if (player.activePotionEffects.length > 0) {
-                    for effect in player.activePotionEffects {
-                        player.removePotionEffect(effect.potion);
-                    }
-                }
-            }
-            for entity in event.world.getEntities() {
-                if (entity instanceof IEntityMob) {
-                    entity.removeFromWorld();
-                }
-            }
-        }
     }
 });

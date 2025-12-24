@@ -204,7 +204,8 @@ val tooltipMap as string[][IIngredient] = {
     <contenttweaker:dim_item> : ["在主世界和下界分别右键试试呢"],
     <contenttweaker:malevolent_fruit> : [game.localize("greedycraft.tooltip.contenttweaker.malevolent_fruit.1"), game.localize("greedycraft.tooltip.contenttweaker.malevolent_fruit.2")],
     <thebetweenlands:empty_amate_map> : [game.localize("greedycraft.tooltip.amatemap.tps")],
-    <thebetweenlands:amate_map> : [game.localize("greedycraft.tooltip.amatemap.tps")]
+    <thebetweenlands:amate_map> : [game.localize("greedycraft.tooltip.amatemap.tps")],
+    <contenttweaker:dubhe_key> : [game.localize("greedycraft.tooltip.dubhe_key.1"), game.localize("greedycraft.tooltip.dubhe_key.2"), game.localize("greedycraft.tooltip.dubhe_key.3")]
 } as string[][IIngredient];
 
 for ingredient in tooltipMap {

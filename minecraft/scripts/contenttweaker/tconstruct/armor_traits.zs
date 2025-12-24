@@ -4009,7 +4009,7 @@ dubhe_nightTrait.localizedName = game.localize("greedycraft.tconstruct.armor_tra
 dubhe_nightTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.dubhe_nightTrait.desc");
 dubhe_nightTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player)) {
-        if (CotTicTraitLib.getPlayerTicHelmetTrait(player) has "dubhe_light_armor") {
+        if (CotTicTraitLib.getPlayerTicHelmetTrait(player) has "dubhe_night_armor") {
             return newDamage * 1.2f;
         }
     }
@@ -4017,15 +4017,115 @@ dubhe_nightTrait.onHurt = function(trait, armor, player, source, damage, newDama
 };
 dubhe_nightTrait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
-        if (CotTicTraitLib.getPlayerTicHelmetTrait(player) has "dubhe_light_armor") {
+        if (CotTicTraitLib.getPlayerTicHelmetTrait(player) has "dubhe_night_armor") {
             player.addPotionEffect(<potion:contenttweaker:erebus_protection>.makePotionEffect(20, 0, false, false));
         }
     }
 };
-dubhe_nightTrait.canApplyTogetherTrait = function(trait, otherTrait) {
-    if (otherTrait has "dubhe_light") {
-        return false;
-    }
-    return true;
-};
 dubhe_nightTrait.register();
+
+val dubhe_lightTrait = ArmorTraitBuilder.create("dubhe_light");
+dubhe_lightTrait.color = Color.fromHex("ffff66").getIntColor();
+dubhe_lightTrait.addItem(<item:contenttweaker:bauble_dubhe_light_clown>);
+dubhe_lightTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.dubhe_lightTrait.name");
+dubhe_lightTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.dubhe_lightTrait.desc");
+dubhe_lightTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        if (CotTicTraitLib.getPlayerTicHelmetTrait(player) has "dubhe_light_armor") {
+            player.addPotionEffect(<potion:contenttweaker:atum_protection>.makePotionEffect(20, 0, false, false));
+            var armorAttribute as AttributeModifier = AttributeModifier.createModifier("generic.armor", -0.2f, 2, "b6e4f2a3-8c9d-4b71-9c42-1e7f5a3d8b90");
+            if (!player.getAttribute("generic.armor").hasModifier(armorAttribute)) {
+                player.getAttribute("generic.armor").applyModifier(armorAttribute);
+            }
+        }
+    }
+};
+dubhe_lightTrait.onArmorRemove = function(trait, armor, player, index) {
+    if (!isNull(player)) {
+        if (CotTicTraitLib.getPlayerTicHelmetTrait(player) has "dubhe_light_armor") {
+            var armorAttribute as AttributeModifier = AttributeModifier.createModifier("generic.armor", -0.2f, 2, "b6e4f2a3-8c9d-4b71-9c42-1e7f5a3d8b90");
+            if (player.getAttribute("generic.armor").hasModifier(armorAttribute)) {
+                player.getAttribute("generic.armor").removeModifier(armorAttribute);
+            }
+        }
+    }
+};
+dubhe_lightTrait.register();
+
+val ingeniousTrait = ArmorTraitBuilder.create("ingenious");
+ingeniousTrait.color = Color.fromHex("ffffff").getIntColor();
+ingeniousTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.ingeniousTrait.name");
+ingeniousTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.ingeniousTrait.desc");
+ingeniousTrait.maxLevel = 3;
+ingeniousTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        var level as int = CotTicTraitLib.getTraitLevel(armor, "ingenious_bone_armor");
+        var time as int = 120;
+        var duraPerTime as int = 50;
+        if (level == 1) duraPerTime = 20;
+        if (level == 3) time = 60;
+        if (world.time % time == 0 && armor.damage > 0) {
+            var pass as bool = false;
+            for i in 0 to 36 {
+                if (!isNull(player.getInventoryStack(i))) {
+                    var item as IItemStack = player.getInventoryStack(i);
+                    if (item.definition.id == "minecraft:dirt") {
+                        item.mutable().shrink(1);
+                        pass = true;
+                        break;
+                    }
+                }
+            }
+            if (pass) {
+                ToolHelper.healTool(armor.mutable().native, duraPerTime, player.native);
+            }
+        }
+    }
+};
+ingeniousTrait.register();
+
+val ingenious_boneTrait = ArmorTraitBuilder.create("ingenious_bone");
+ingenious_boneTrait.color = Color.fromHex("ffffff").getIntColor();
+ingenious_boneTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.ingenious_boneTrait.name");
+ingenious_boneTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.ingenious_boneTrait.desc");
+ingenious_boneTrait.maxLevel = 3;
+ingenious_boneTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        var level as int = CotTicTraitLib.getTraitLevel(armor, "ingenious_bone_armor");
+        var effectMap as int[][int] = {
+            1 : [0, 900, 920],
+            2 : [1, 440, 460],
+            3 : [1, 900, 900]
+        };
+        if (world.time % effectMap[level][2] == 0) {
+            var pass as bool = false;
+            for i in 0 to 36 {
+                if (!isNull(player.getInventoryStack(i))) {
+                    var item as IItemStack = player.getInventoryStack(i);
+                    if (item.definition.id == "minecraft:dirt") {
+                        item.mutable().shrink(1);
+                        pass = true;
+                        break;
+                    }
+                }
+            }
+            if (pass) {
+                player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(effectMap[level][1], effectMap[level][0], true, false));
+            }
+        }
+    }
+};
+ingenious_boneTrait.register();
+
+val floatwalkTrait = ArmorTraitBuilder.create("floatwalk");
+floatwalkTrait.color = Color.fromHex("ffffff").getIntColor();
+floatwalkTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.floatwalkTrait.name");
+floatwalkTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.floatwalkTrait.desc");
+floatwalkTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        if (player.isInWater) {
+            player.motionY = Math.min(player.motionY + 0.03d, 0.3d);
+        }
+    }
+};
+floatwalkTrait.register();

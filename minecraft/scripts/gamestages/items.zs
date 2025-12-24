@@ -2426,6 +2426,7 @@ GameStagesUtil.stageDeepDream.addIngredients([
     <additions:dubhe_orb_light>,
     <additions:dubhe_orb_night>,
     <contenttweaker:bauble_dubhe_night_clown>,
+    <contenttweaker:bauble_dubhe_light_clown>,
     <additions:evilblood_drop>,
     <additions:evilblood_slime_block>,
     <contenttweaker:bauble_crimson_ring>,
@@ -2456,7 +2457,8 @@ GameStagesUtil.stageDeepDream.addIngredients([
     <ore:nuggetNebu>,
     <ore:oreNebu>,
     <ore:plateNebu>,
-    <ore:dustNebu>
+    <ore:dustNebu>,
+    <contenttweaker:dubhe_key>
 ], false);
 
 GameStagesUtil.stageLegendWizard.addIngredients([
