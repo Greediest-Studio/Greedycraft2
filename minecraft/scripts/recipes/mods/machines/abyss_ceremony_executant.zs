@@ -40,7 +40,7 @@ $expand RecipePrimer$addSacrificeInput() {
         .addIngredients([
             <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:sheep"}}),
             <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:cow"}}),
-            <minecraft:spawn_egg>.withTag({EntityTag: {id: "abyssalcraft:evilchicken"}}),
+            <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:chicken"}}),
             <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:pig"}})
         ])
     );
