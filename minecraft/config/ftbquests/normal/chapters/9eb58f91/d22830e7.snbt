@@ -1,0 +1,26 @@
+{
+	title: "§b能量满满",
+	x: 5.5d,
+	y: -4.5d,
+	description: "制作充能合金锭",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "0714bb17",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "0c7ab8b8",
+		type: "item",
+		item: "enderio:item_alloy_ingot 1 1"
+	},
+	{
+		uid: "eb5727cc",
+		type: "xp",
+		xp: 1000
+	}]
+}

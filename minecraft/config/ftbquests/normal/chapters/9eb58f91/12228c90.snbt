@@ -1,0 +1,33 @@
+{
+	title: "§b选哪一个呢?",
+	x: 7.5d,
+	y: -7.0d,
+	description: "制作八位电容/生动电容",
+	text: [
+		""
+	],
+	min_required_dependencies: 1,
+	dependencies: [
+		"2f4a622c"
+	],
+	tasks: [{
+		uid: "33b50700",
+		type: "item",
+		items: [{
+			item: "enderio:item_basic_capacitor 1 2"
+		},
+		{
+			item: "enderio:item_capacitor_vivid"
+		}]
+	}],
+	rewards: [{
+		uid: "4d9d62af",
+		type: "item",
+		item: "enderio:item_basic_capacitor 1 2"
+	},
+	{
+		uid: "6f687a7e",
+		type: "xp",
+		xp: 1000
+	}]
+}

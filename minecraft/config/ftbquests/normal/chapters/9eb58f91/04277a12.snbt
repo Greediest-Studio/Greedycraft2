@@ -1,0 +1,26 @@
+{
+	title: "§b最基础的电容",
+	x: 3.5d,
+	y: -7.0d,
+	description: "制作基础电容",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "e6f3f4a8",
+		type: "item",
+		items: [{
+			item: "enderio:item_basic_capacitor"
+		}]
+	}],
+	rewards: [{
+		uid: "940f5d48",
+		type: "item",
+		item: "enderio:item_basic_capacitor"
+	},
+	{
+		uid: "7744b968",
+		type: "xp",
+		xp: 100
+	}]
+}

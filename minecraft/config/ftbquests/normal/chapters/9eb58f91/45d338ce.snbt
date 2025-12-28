@@ -1,0 +1,29 @@
+{
+	title: "§b固体电容",
+	x: 9.5d,
+	y: -7.0d,
+	description: "制作晶华电容",
+	text: [
+		""
+	],
+	dependencies: [
+		"3e2d1f55"
+	],
+	tasks: [{
+		uid: "763f10f5",
+		type: "item",
+		items: [{
+			item: "enderio:item_capacitor_crystalline"
+		}]
+	}],
+	rewards: [{
+		uid: "3f1b7889",
+		type: "item",
+		item: "enderio:item_capacitor_crystalline"
+	},
+	{
+		uid: "14b399d8",
+		type: "xp",
+		xp: 2000
+	}]
+}

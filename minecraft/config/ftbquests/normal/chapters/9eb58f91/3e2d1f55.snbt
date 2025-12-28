@@ -1,0 +1,29 @@
+{
+	title: "§b晶体化",
+	x: 9.5d,
+	y: -4.5d,
+	description: "制作晶华合金锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"2f4a622c"
+	],
+	tasks: [{
+		uid: "f6cf88d8",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_endergy_ingot 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "80ba8358",
+		type: "item",
+		item: "enderio:item_alloy_endergy_ingot 1 1"
+	},
+	{
+		uid: "dbbb23cf",
+		type: "xp",
+		xp: 2000
+	}]
+}

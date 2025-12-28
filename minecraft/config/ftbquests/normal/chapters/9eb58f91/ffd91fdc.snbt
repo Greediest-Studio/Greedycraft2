@@ -1,0 +1,30 @@
+{
+	title: "§b双层夹胶???",
+	x: 5.5d,
+	y: -7.0d,
+	description: "制作双层电容",
+	text: [
+		""
+	],
+	dependencies: [
+		"04277a12",
+		"d22830e7"
+	],
+	tasks: [{
+		uid: "f298dcf8",
+		type: "item",
+		items: [{
+			item: "enderio:item_basic_capacitor 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "5c24fc69",
+		type: "item",
+		item: "enderio:item_basic_capacitor 1 1"
+	},
+	{
+		uid: "3357eaa6",
+		type: "xp",
+		xp: 500
+	}]
+}

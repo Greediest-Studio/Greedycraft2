@@ -1,12 +1,13 @@
 {
 	title: "§b做导管很好哦",
-	x: 2.5d,
+	x: 11.5d,
 	y: -4.5d,
 	description: "制作一个旋律合金锭",
 	text: [
 		""
 	],
 	dependencies: [
+		"3e2d1f55",
 		"1fe9930e"
 	],
 	tasks: [{

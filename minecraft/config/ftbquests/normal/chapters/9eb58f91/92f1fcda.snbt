@@ -1,9 +1,26 @@
 {
-	x: 7.5d,
+	title: "§b还有高手?",
+	x: 15.5d,
 	y: -7.0d,
+	description: "制作黑洞电容",
+	text: [
+		""
+	],
 	tasks: [{
-		uid: "246c3b27",
-		type: "gamestage",
-		stage: "chaotic"
+		uid: "a60930e2",
+		type: "item",
+		items: [{
+			item: "ometweaks:blackhole_capacitor"
+		}]
+	}],
+	rewards: [{
+		uid: "999db270",
+		type: "item",
+		item: "ometweaks:blackhole_capacitor"
+	},
+	{
+		uid: "f02faa3a",
+		type: "xp",
+		xp: 3000
 	}]
 }
