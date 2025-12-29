@@ -471,6 +471,31 @@ purifyingTrait.onAbility = function(trait, level, world, player) {
 };
 purifyingTrait.register();
 
+val purifying2Trait = ArmorTraitBuilder.create("purifying2");
+purifying2Trait.color = Color.fromHex("ffffff").getIntColor(); 
+purifying2Trait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.purifying2Trait.name");
+purifying2Trait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.purifyingTrait.desc");
+purifying2Trait.onAbility = function(trait, level, world, player) {
+    if (!isNull(player)) {
+        if (player.isPotionActive(<potion:minecraft:wither>)) {
+            player.removePotionEffect(<potion:minecraft:wither>);
+        }
+        if (player.isPotionActive(<potion:minecraft:blindness>)) {
+            player.removePotionEffect(<potion:minecraft:blindness>);
+        }
+        if (player.isPotionActive(<potion:minecraft:poison>)) {
+            player.removePotionEffect(<potion:minecraft:poison>);
+        }
+        if (player.isPotionActive(<potion:minecraft:slowness>)) {
+            player.removePotionEffect(<potion:minecraft:slowness>);
+        }
+        if (player.isPotionActive(<potion:minecraft:weakness>)) {
+            player.removePotionEffect(<potion:minecraft:weakness>);
+        }
+    }
+};
+purifying2Trait.register();
+
 val milkyTrait = ArmorTraitBuilder.create("milky");
 milkyTrait.color = Color.fromHex("ffffff").getIntColor(); 
 milkyTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.milkyTrait.name");
@@ -4157,3 +4182,51 @@ ecological2Trait.onArmorTick = function(trait, armor, world, player) {
     }
 };
 ecological2Trait.register();
+
+val dreadpurityTrait = ArmorTraitBuilder.create("dreadpurity");
+dreadpurityTrait.color = Color.fromHex("ffffff").getIntColor();
+dreadpurityTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.dreadpurityTrait.name");
+dreadpurityTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.dreadpurityTrait.desc");
+dreadpurityTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !isNull(source.getTrueSource())) {
+        if (source.getTrueSource() instanceof IEntityLivingBase) {
+            var attacker as IEntityLivingBase = source.getTrueSource();
+            if (attacker.isPotionActive(<potion:abyssalcraft:dplague>)) {
+                return newDamage * 0.75f;
+            }
+        }
+    }
+    return newDamage;
+};
+dreadpurityTrait.register();
+
+val dreadplagueTrait = ArmorTraitBuilder.create("dreadplague");
+dreadplagueTrait.color = Color.fromHex("ffffff").getIntColor();
+dreadplagueTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.dreadplagueTrait.name");
+dreadplagueTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.dreadplagueTrait.desc");
+dreadplagueTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        if (!isNull(source.getTrueSource()) && source.getTrueSource() instanceof IEntityLivingBase) {
+            var attacker as IEntityLivingBase = source.getTrueSource();
+            attacker.addPotionEffect(<potion:abyssalcraft:dplague>.makePotionEffect(100, 0, true, true));
+        }
+    }
+    return newDamage;
+};
+dreadplagueTrait.register();
+
+val coraliumplagueTrait = ArmorTraitBuilder.create("coraliumplague");
+coraliumplagueTrait.color = Color.fromHex("ffffff").getIntColor();
+coraliumplagueTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.coraliumplagueTrait.name");
+coraliumplagueTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.coraliumplagueTrait.desc");
+coraliumplagueTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        if (!isNull(source.getTrueSource()) && source.getTrueSource() instanceof IEntityLivingBase) {
+            var attacker as IEntityLivingBase = source.getTrueSource();
+            attacker.addPotionEffect(<potion:abyssalcraft:cplague>.makePotionEffect(100, 0, true, true));
+        }
+    }
+    return newDamage;
+};
+coraliumplagueTrait.register();
+

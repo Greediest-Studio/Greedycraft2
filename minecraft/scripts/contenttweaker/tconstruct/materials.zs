@@ -931,6 +931,22 @@ dusty_bone.addPlatesMaterialStats(14.2, 205, 13);
 dusty_bone.addTrimMaterialStats(205);
 dusty_bone.register();
 
+val petrified_wood = ExtendedMaterialBuilder.create("petrified_wood");
+petrified_wood.color = Color.fromHex("903f2a").getIntColor();
+petrified_wood.craftable = true;
+petrified_wood.castable = false;
+petrified_wood.representativeItem = <item:erebus:materials:7>;
+petrified_wood.addItem(<item:erebus:materials:7>);
+petrified_wood.localizedName = game.localize("greedycraft.tconstruct.material.petrified_wood.name");
+petrified_wood.addHeadMaterialStats(2100, 17.95, 185.5, 13);
+petrified_wood.addHandleMaterialStats(3.62, 210);
+petrified_wood.addExtraMaterialStats(880);
+petrified_wood.addBowMaterialStats(getDrawSpeed(6.5) as float, 3, 333);
+petrified_wood.addCoreMaterialStats(315, 172);
+petrified_wood.addPlatesMaterialStats(16.9, 188, 22.7);
+petrified_wood.addTrimMaterialStats(164);
+petrified_wood.register();
+
 val aeroite = MaterialBuilder.create("aeroite");
 aeroite.color = Color.fromHex("00e5ff").getIntColor(); 
 aeroite.craftable = false;

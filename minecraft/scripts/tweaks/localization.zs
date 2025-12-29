@@ -85,6 +85,7 @@ val localizationMap as string[string][string] = {
         "fluid.tconstruct.niob_fluid.name": "熔融尼博",
         "jaopca.entry.Ambrosium": "神能晶",
         "modifier.curvature.name": "曲度",
+        "modifier.dreadpurity.name": "恐惧克星",
         "material.wood.prefix" : "木 %s",
         "material.gold.prefix": "金 %s",
         "material.xu_demonic_metal.prefix": "恶魔金属 %s",

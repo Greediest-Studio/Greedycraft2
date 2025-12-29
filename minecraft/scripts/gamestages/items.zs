@@ -1640,7 +1640,8 @@ GameStagesUtil.stageNoviceWizard.addIngredients([
     <gctcore:soul_gem:8>.withTag({souls: 2147483647.0, demonWillType: "destructive"}),
     <gctcore:soul_gem:8>.withTag({souls: 2147483647.0, demonWillType: "corrosive"}),
     <gctcore:soul_gem:8>.withTag({souls: 2147483647.0, demonWillType: "steadfast"}),
-    <gctcore:soul_gem:8>.withTag({souls: 2147483647.0})
+    <gctcore:soul_gem:8>.withTag({souls: 2147483647.0}),
+    <forbiddenmagicre:eldritch_orb>
 ], false);
 
 GameStagesUtil.stageSkilledWizard.addIngredients([
