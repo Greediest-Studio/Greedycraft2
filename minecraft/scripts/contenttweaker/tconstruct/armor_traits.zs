@@ -4118,3 +4118,42 @@ floatwalkTrait.onArmorTick = function(trait, armor, world, player) {
     }
 };
 floatwalkTrait.register();
+
+val erebuslessTrait = ArmorTraitBuilder.create("erebusless");
+erebuslessTrait.color = Color.fromHex("ffffff").getIntColor();
+erebuslessTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.erebuslessTrait.name");
+erebuslessTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.erebuslessTrait.desc");
+erebuslessTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !isNull(source.getTrueSource())) {
+        if (source.getTrueSource() instanceof IEntityLivingBase) {
+            var attacker as IEntityLivingBase = source.getTrueSource();
+            if (attacker.definition.id has "erebus:erebus" || player.world.dimension == 66) {
+                return newDamage * 0.7f;
+            }
+        }
+    }
+    return newDamage;
+};
+erebuslessTrait.register();
+
+val ecological2Trait = ArmorTraitBuilder.create("ecological2");
+ecological2Trait.color = Color.fromHex("ffffff").getIntColor();
+ecological2Trait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.ecological2Trait.name");
+ecological2Trait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.ecological2Trait.desc");
+ecological2Trait.onUpdate = function(trait, armor, world, owner, itemSlot, isSelected) {
+    var gears as int[] = [100, 101, 102, 103];
+    if (owner instanceof IPlayer && !(gears has itemSlot)) {
+        var player as IPlayer = owner;
+        if (Math.random() < (1.0f / 600.0f)) {
+            ToolHelper.healTool(armor.mutable().native, 1, player.native);
+        }
+    }
+};
+ecological2Trait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        if (Math.random() < (1.0f / 600.0f)) {
+            ToolHelper.healTool(armor.mutable().native, 1, player.native);
+        }
+    }
+};
+ecological2Trait.register();

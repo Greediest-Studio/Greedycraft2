@@ -5005,3 +5005,36 @@ ingeniousTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelect
     }
 };
 ingeniousTrait.register();
+
+val bane_of_erebusTrait = TraitBuilder.create("bane_of_erebus");
+bane_of_erebusTrait.color = Color.fromHex("ffffff").getIntColor(); 
+bane_of_erebusTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.bane_of_erebusTrait.name");
+bane_of_erebusTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.bane_of_erebusTrait.desc");
+bane_of_erebusTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (!isNull(target.definition)) {
+            if (target.definition.id has "erebus:erebus") {
+                return newDamage * 2.5f;
+            }
+        }
+    }
+    return newDamage * 0.9f;
+};
+bane_of_erebusTrait.register();
+
+val ecological2Trait = TraitBuilder.create("ecological2");
+ecological2Trait.color = Color.fromHex("ffffff").getIntColor(); 
+ecological2Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.ecological2Trait.name");
+ecological2Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.ecological2Trait.desc");
+ecological2Trait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    if (owner instanceof IPlayer) {
+        var player as IPlayer = owner;
+        if (!isSelected) {
+            if (Math.random() < 0.005f) {
+                ToolHelper.healTool(tool.mutable().native, 1, player.native);
+            }
+        }
+    }
+};
+ecological2Trait.register();
