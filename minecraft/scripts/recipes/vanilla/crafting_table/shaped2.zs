@@ -724,6 +724,11 @@ RecipeUtil.addShaped("nebu_torch", <atum:pharaoh_torch>, [
     [null, <minecraft:torch>, null],
     [null, <additions:nebu_block>, null]
 ]);
+RecipeUtil.addShaped("black_quartz_essence", <actuallyadditions:item_misc:5> * 6, [
+    [<mysticalagriculture:black_quartz_essence>, <mysticalagriculture:black_quartz_essence>, <mysticalagriculture:black_quartz_essence>],
+    [<mysticalagriculture:black_quartz_essence>, null, <mysticalagriculture:black_quartz_essence>],
+    [<mysticalagriculture:black_quartz_essence>, <mysticalagriculture:black_quartz_essence>, <mysticalagriculture:black_quartz_essence>]
+]);
 /*
  * RecipeUtil.addShaped("", , [
  *  [null, null, null],

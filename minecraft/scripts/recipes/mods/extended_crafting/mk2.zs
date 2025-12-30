@@ -9,6 +9,8 @@ import mods.avaritia.Compressor;
 import mods.ctintegration.util.RecipePattern;
 import mods.extendedcrafting.TableCrafting;
 
+var orbs as IIngredient = <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:transcendent"}) | <bloodmagic:blood_orb>.withTag({orb: "contenttweaker:eldritch"}) | <bloodmagic:blood_orb>.withTag({orb: "contenttweaker:murder"});
+
 TableCrafting.addShaped(0, <denseneutroncollectors:compressed_neutron_collector>, [
 	[null, null, <ore:ingotCoalescenceMatrix>, null, null], 
 	[null, <ore:ingotIron>, <avaritia:resource:2>, <ore:ingotIron>, null], 
@@ -347,7 +349,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:blood_rune_economy>,
 	[<bloodmagic:blood_rune>, <bloodmagic:blood_rune>, <ore:ingotDullium>, <bloodmagic:blood_rune>, <bloodmagic:blood_rune>], 
 	[<ore:ingotGhostMetal>, <ore:ingotDullium>, <additions:slate_7>, <ore:ingotDullium>, <ore:ingotGhostMetal>], 
 	[<bloodmagic:blood_rune>, <bloodmagic:blood_rune>, <ore:ingotDullium>, <bloodmagic:blood_rune>, <bloodmagic:blood_rune>], 
-	[<bloodmagic:blood_rune>, <bloodmagic:blood_rune>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:transcendent"}).reuse(), <bloodmagic:blood_rune>, <bloodmagic:blood_rune>]
+	[<bloodmagic:blood_rune>, <bloodmagic:blood_rune>, orbs.reuse(), <bloodmagic:blood_rune>, <bloodmagic:blood_rune>]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <additions:blood_rune_personal>, [
@@ -355,7 +357,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:blood_rune_personal>
 	[<bloodmagic:blood_rune>, <bloodmagic:blood_rune>, <additions:city_defender_medal>, <bloodmagic:blood_rune>, <bloodmagic:blood_rune>], 
 	[<ore:ingotOraclium>, <crazyae:material:35>, <additions:slate_7>, <crazyae:material:35>, <ore:ingotOraclium>], 
 	[<bloodmagic:blood_rune>, <bloodmagic:blood_rune>, <appliedenergistics2:material:41>, <bloodmagic:blood_rune>, <bloodmagic:blood_rune>], 
-	[<bloodmagic:blood_rune>, <bloodmagic:blood_rune>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:transcendent"}).reuse(), <bloodmagic:blood_rune>, <bloodmagic:blood_rune>]
+	[<bloodmagic:blood_rune>, <bloodmagic:blood_rune>, orbs.reuse(), <bloodmagic:blood_rune>, <bloodmagic:blood_rune>]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <additions:blood_rune_purify>, [
@@ -363,7 +365,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:blood_rune_purify>, 
 	[<bloodmagic:blood_rune>, <bloodmagic:blood_rune>, <ore:ingotCosmicNeutronium>, <bloodmagic:blood_rune>, <bloodmagic:blood_rune>], 
 	[<ore:ingotMana>, <ore:ingotEthaxium>, <additions:slate_6>, <ore:ingotEthaxium>, <ore:ingotMana>], 
 	[<bloodmagic:blood_rune>, <bloodmagic:blood_rune>, <ore:ingotEthaxium>, <bloodmagic:blood_rune>, <bloodmagic:blood_rune>], 
-	[<bloodmagic:blood_rune>, <bloodmagic:blood_rune>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:transcendent"}).reuse(), <bloodmagic:blood_rune>, <bloodmagic:blood_rune>]
+	[<bloodmagic:blood_rune>, <bloodmagic:blood_rune>, orbs.reuse(), <bloodmagic:blood_rune>, <bloodmagic:blood_rune>]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <additions:blood_rune_thread>, [
@@ -371,7 +373,7 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:blood_rune_thread>, 
 	[<bloodmagic:blood_rune>, <bloodmagic:blood_rune>, <modularmachinery:blockparallelcontroller:1>, <bloodmagic:blood_rune>, <bloodmagic:blood_rune>], 
 	[<ore:ingotDraconiumAwakened>, <ore:blockModularium>, <additions:slate_6>, <ore:blockModularium>, <ore:ingotDraconiumAwakened>], 
 	[<bloodmagic:blood_rune>, <bloodmagic:blood_rune>, <ore:blockModularium>, <bloodmagic:blood_rune>, <bloodmagic:blood_rune>], 
-	[<bloodmagic:blood_rune>, <bloodmagic:blood_rune>, <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:transcendent"}).reuse(), <bloodmagic:blood_rune>, <bloodmagic:blood_rune>]
+	[<bloodmagic:blood_rune>, <bloodmagic:blood_rune>, orbs.reuse(), <bloodmagic:blood_rune>, <bloodmagic:blood_rune>]
 ]);
 
 mods.extendedcrafting.TableCrafting.addShaped(0, <additions:upgrade_efficiency>, [

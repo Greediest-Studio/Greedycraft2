@@ -5038,3 +5038,39 @@ ecological2Trait.onUpdate = function(trait, tool, world, owner, itemSlot, isSele
     }
 };
 ecological2Trait.register();
+
+val hydrogenationTrait = TraitBuilder.create("hydrogenation");
+hydrogenationTrait.color = Color.fromHex("ffffff").getIntColor(); 
+hydrogenationTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.hydrogenationTrait.name");
+hydrogenationTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.hydrogenationTrait.desc");
+hydrogenationTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (isCritical && Math.random() < 0.2f) {
+            target.addPotionEffect(<potion:potioncore:broken_armor>.makePotionEffect(200, 15, false, true));
+        }
+    }
+};
+hydrogenationTrait.register();
+
+val warpTrait = TraitBuilder.create("warp");
+warpTrait.color = Color.fromHex("ffffff").getIntColor(); 
+warpTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.warpTrait.name");
+warpTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.warpTrait.desc");
+warpTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        if (!target instanceof IPlayer) {
+            if (target.getBoundingBox().maxX - target.getBoundingBox().minX < 2.0f) {
+                target.boundingBox = target.getBoundingBox().expand(0.05f, 0.0f, 0.0f);
+            }
+            if (target.getBoundingBox().maxY - target.getBoundingBox().minY < 2.0f) {
+                target.boundingBox = target.getBoundingBox().expand(0.0f, 0.05f, 0.0f);
+            }
+            if (target.getBoundingBox().maxZ - target.getBoundingBox().minZ < 2.0f) {
+                target.boundingBox = target.getBoundingBox().expand(0.0f, 0.0f, 0.05f);
+            }
+        }
+    }
+    return newDamage;
+};
+warpTrait.register();

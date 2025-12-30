@@ -877,6 +877,8 @@ greedycraft.tconstruct.armor_trait.dreadplagueTrait.desc=§o传播恐惧！\n§r
 greedycraft.tconstruct.armor_trait.coraliumplagueTrait.name=珊瑚附加
 greedycraft.tconstruct.armor_trait.coraliumplagueTrait.desc=§o传播珊瑚瘟疫！\n§r受到攻击时使攻击者感染珊瑚瘟疫。
 #工具词条
+greedycraft.tconstruct.tool_trait.warpTrait.name=变换
+greedycraft.tconstruct.tool_trait.warpTrait.desc=§o空间扭曲！\n§r这把工具会放大攻击目标的碰撞箱（最大为2.0×2.0×2.0）。
 greedycraft.tconstruct.tool_trait.ecological2Trait.name=生态 II
 greedycraft.tconstruct.tool_trait.ecological2Trait.desc=§o绿色能源！\n§r可再生资源真好，他们会自动修复！
 greedycraft.tconstruct.tool_trait.bane_of_erebusTrait.name=摧枯拉朽
@@ -925,6 +927,8 @@ greedycraft.tconstruct.tool_trait.alcrystryTrait.name=炼晶术
 greedycraft.tconstruct.tool_trait.alcrystryTrait.desc=§o并非错别字。\n§r相当于一个只针对于锭的*3倍*自动冶炼！
 greedycraft.tconstruct.tool_trait.flops_coreTrait.name=算力核心
 greedycraft.tconstruct.tool_trait.flops_coreTrait.desc=§o可是这里没有研究……\n§b新星工程-联动词条\n§r主世界右键机器控制器绑定，右键铁砧解绑。\n§r基于工具耐久计算最大算力，绑定的机器消耗算力并提供伤害倍率。机器等级越高、运行中时加成越大。算力溢出时伤害归零。
+greedycraft.tconstruct.tool_trait.hydrogenationTrait.name=氢化注入
+greedycraft.tconstruct.tool_trait.hydrogenationTrait.desc=§o氢脆效应！\n§b氢化空岛-联动词条\n§r暴击目标时，有极小概率脆化目标的护甲，令其护甲减效40点。
 greedycraft.tconstruct.tool_trait.spikyTrait.name=荆棘穿刺
 greedycraft.tconstruct.tool_trait.spikyTrait.desc=§o刺穿一切！\n§r在目标的脚下召唤荆棘突刺。
 greedycraft.tconstruct.tool_trait.rift_recoveryTrait.name=抱残守缺

@@ -31,7 +31,8 @@ var removedRecipes as IItemStack[] = [
     <thaumadditions:mithminite_handle>,
     <thaumadditions:entity_summoner>,
     <thaumadditions:dna_sample>,
-    <thaumictinkerer:kamiresource:3>
+    <thaumictinkerer:kamiresource:3>,
+    <forbiddenmagicre:eldritch_orb>
 ];
 
 for removedItem in removedRecipes {
@@ -454,6 +455,55 @@ Infusion.registerRecipe("ancient_brick", "", <embers:archaic_brick>, 12, [
     <additions:putrallium_ingot>,
     <additions:putrallium_ingot>,
     <additions:putrallium_ingot>
+]);
+
+Infusion.registerRecipe("eldritch_orb_contenttweaker", "", <bloodmagic:blood_orb>.withTag({orb: "contenttweaker:eldritch"}), 5, [
+    <aspect:victus> * 250,
+    <aspect:vacuos> * 250,
+    <aspect:alienis> * 200,
+    <aspect:tenebrae> * 125
+], <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:transcendent"}), [
+    <thaumcraft:causality_collapser>,
+    <tconevo:metal:20>,
+    <thaumcraft:causality_collapser>,
+    <thaumcraft:ingot:1>,
+    <thaumcraft:ingot:1>,
+    <minecraft:nether_star>,
+    <thaumcraft:ingot:1>,
+    <thaumcraft:ingot:1>
+]);
+
+Infusion.registerRecipe("murder_orb_contenttweaker", "", <bloodmagic:blood_orb>.withTag({orb: "contenttweaker:murder"}), 21, [
+    <aspect:victus> * 2250,
+    <aspect:vitium> * 2100,
+    <aspect:infernus> * 1850,
+    <aspect:dreadia> * 1850,
+    <aspect:superbia> * 1600,
+    <aspect:structura> * 1600,
+    <aspect:mortuus> * 1600,
+    <aspect:tenebrae> * 1600,
+    <aspect:fabrico> * 1600
+], <bloodmagic:blood_orb>.withTag({orb: "contenttweaker:murder"}), [
+    <additions:murderite_ingot>,
+    <additions:cursium_ingot>,
+    <additions:murderite_ingot>,
+    <additions:cursium_ingot>,
+    <additions:true_blood_sigil>,
+    <additions:murderite_ingot>,
+    <additions:cursium_ingot>,
+    <additions:murderite_ingot>,
+    <additions:cursium_ingot>,
+    <evilcraft:blood_orb:1>,
+    <additions:murderite_ingot>,
+    <additions:cursium_ingot>,
+    <additions:murderite_ingot>,
+    <additions:cursium_ingot>,
+    <tconstruct:slime:3>,
+    <additions:murderite_ingot>,
+    <additions:cursium_ingot>,
+    <additions:murderite_ingot>,
+    <additions:cursium_ingot>,
+    <tiths:block_coagulated_blood_sand>
 ]);
 
 //Infusion.registerRecipe("");
