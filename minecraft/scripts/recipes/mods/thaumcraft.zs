@@ -483,7 +483,7 @@ Infusion.registerRecipe("murder_orb_contenttweaker", "", <bloodmagic:blood_orb>.
     <aspect:mortuus> * 1600,
     <aspect:tenebrae> * 1600,
     <aspect:fabrico> * 1600
-], <bloodmagic:blood_orb>.withTag({orb: "contenttweaker:murder"}), [
+], <bloodmagic:blood_orb>.withTag({orb: "contenttweaker:eldritch"}), [
     <additions:murderite_ingot>,
     <additions:cursium_ingot>,
     <additions:murderite_ingot>,
