@@ -94,8 +94,8 @@ $expand IMachineController$getAltarSpeed() as int {
     }
 }
 
-val capacity = [0,5000,25000,150000,1000000,10000000,30000000,80000000];
-val orbname = ["未绑定气血宝珠","[虚弱]气血宝珠","[学徒]气血宝珠","[法师]气血宝珠","[导师]气血宝珠","[贤者]气血宝珠","[卓越]气血宝珠","[邪术]气血宝珠"];
+val capacity = [0,5000,25000,150000,1000000,10000000,30000000,80000000,200000000];
+val orbname = ["未绑定气血宝珠","[虚弱]气血宝珠","[学徒]气血宝珠","[法师]气血宝珠","[导师]气血宝珠","[贤者]气血宝珠","[卓越]气血宝珠","[邪术]气血宝珠","[咒渊]气血宝珠"];
 
 MMEvents.onStructureUpdate("blood_altar", function(event as MachineStructureUpdateEvent) {
     var levelMap as int[string] = {
@@ -168,7 +168,7 @@ MMEvents.onStructureUpdate("blood_altar", function(event as MachineStructureUpda
             event.controller.extraThreadCount = event.controller.getBlocksInPattern(<additions:blood_rune_thread>) as int;
         }
     //定义最大容量
-        var capacity = BigDecimal("10000").multiply(BigDecimal("1.1").pow(event.controller.getBlocksInPattern(<bloodmagic:blood_rune:7>) as int)).add(BigDecimal("2000").multiply(BigDecimal(event.controller.getBlocksInPattern(<bloodmagic:blood_rune:6>) as string))).setScale(0, RoundingMode.DOWN).toString() as string;
+        var capacity = BigDecimal("10000").multiply(BigDecimal(1.1 as string).pow(event.controller.getBlocksInPattern(<bloodmagic:blood_rune:7>) as int)).add(BigDecimal("2000").multiply(BigDecimal(event.controller.getBlocksInPattern(<bloodmagic:blood_rune:6>) as string))).setScale(0, RoundingMode.DOWN).toString() as string;
         event.controller.customData = event.controller.customData.update({capacityLP : capacity});
     //转移速率
         var speed as int = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:1>);
@@ -383,8 +383,8 @@ RecipeBuilder.newBuilder("purify", "blood_altar", 1)
         }
     })
     .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
-        val parallelism as int = event.activeRecipe.parallelism;
-        var output as int = event.controller.getBlocksInPattern(<additions:blood_rune_purify>);
+        val parallelism = event.activeRecipe.parallelism as long;
+        var output = event.controller.getBlocksInPattern(<additions:blood_rune_purify>) as long;
         var newLP = BigInteger(event.controller.getAltarLP()).add(BigInteger((parallelism * output) as string)) as BigInteger;
         if (newLP.compareTo(BigInteger(event.controller.getAltarCapacity())) == 1) {
             newLP = BigInteger(event.controller.getAltarCapacity());
@@ -417,73 +417,6 @@ RecipeBuilder.newBuilder("orb", "blood_altar", 20)
         }
     })
     .addItemInput(<bloodmagic:blood_orb>).setChance(0.0f).setPreViewNBT({orb: "bloodmagic:weak", display: {Lore: ["任意等级气血宝珠均可"]}})
-    .setParallelized(false)
-    .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
-        val sd = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:1>);
-        var zw = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:5>);
-        val bz = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>);
-        val cj = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>);
-        var wj = event.controller.getBlocksInPattern(<additions:blood_rune_personal>);
-        var player = server.getPlayerByUUID(event.controller.ownerUUID);
-        if (!isNull(player) && !isNull(player.soulNetwork)) {
-            var orbTier = player.soulNetwork.orbTier;
-            var maxcapacity = ((1.0f + 0.02f * bz) * capacity[orbTier]) as int;
-            var maxtransform = (20.0f * (1 + (cj > 19 ? 19 : cj)) as float * (1 + sd / 5) as float * pow(1.2, zw) * pow(2.0, wj)) as int;
-            var transform = 0;
-
-            if (maxtransform < 0) {
-                maxtransform = 2147483647;
-            }
-            if (maxcapacity < 0) {
-                maxcapacity = 2147483647;
-            }
-
-            if (BigInteger(event.controller.getAltarLP()).compareTo(BigInteger(maxtransform as string)) == 1) {
-                transform = maxtransform;
-            } else {
-                transform = BigInteger(event.controller.getAltarLP()).intValue() as int;
-            }
-            if (transform > maxcapacity - player.soulNetwork.currentEssence) {
-                transform = maxcapacity - player.soulNetwork.currentEssence;
-            }
-            if (transform < 0) {
-                transform = 0;
-            }
-            if (player.soulNetwork.currentEssence < 0) {
-                player.soulNetwork.currentEssence = 0;
-            }
-
-            player.soulNetwork.currentEssence += transform;
-            event.controller.customData = event.controller.customData.update({LP : BigInteger(event.controller.getAltarLP()).subtract(BigInteger(transform as string)).toString()});
-        }
-    })
-    .addRecipeTooltip("§a向玩家LP网络输入生命源质,需至少一个玩家符文")
-    .addRecipeTooltip("§a输出速率为20*促进符文数*(1+0.2*速度符文数)*1.2^转位符文数*2^玩家符文数")
-    .setThreadName("宝珠输出模块")
-    .build();
-
-RecipeBuilder.newBuilder("orb1", "blood_altar", 20)
-    .addPreCheckHandler(function(event as RecipeCheckEvent) {
-        var player = server.getPlayerByUUID(event.controller.ownerUUID);
-        if (!isNull(player) && !isNull(player.soulNetwork)) {
-            var maxcapacity = ((1.0f + 0.02f * event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>)) * capacity[player.soulNetwork.orbTier]) as int;
-            if (maxcapacity < 0) {
-                maxcapacity = 2147483647;
-            }
-            if (!(event.controller.getAltarMode() == 2)) {
-                event.setFailed("未调整至<转移到玩家网络>模式");
-            }
-            else if (event.controller.getBlocksInPattern(<additions:blood_rune_personal>) < 1) {
-                event.setFailed("缺少玩家符文");
-            }
-            else if (player.soulNetwork.currentEssence >= maxcapacity) {
-                event.setFailed("玩家LP网络已满");
-            }
-        } else {
-            event.setFailed("玩家未在线或数据无效");
-        }
-    })
-    .addItemInput(<forbiddenmagicre:eldritch_orb>).setChance(0.0f).setPreViewNBT({display: {Lore: ["任意等级气血宝珠均可"]}})
     .setParallelized(false)
     .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
         val sd = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:1>);

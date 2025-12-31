@@ -8,8 +8,8 @@ import native.net.minecraftforge.fml.relauncher.Side;
 import native.net.minecraftforge.fml.common.FMLCommonHandler;
 import native.net.minecraft.client.renderer.block.model.ModelResourceLocation;
 
-static eldritchOrb as BloodOrb = BloodOrb("eldritch", 6, 80000000, 2800);
-static murderOrb as BloodOrb = BloodOrb("murder", 6, 200000000, 6400);
+static eldritchOrb as BloodOrb = BloodOrb("eldritch", 7, 80000000, 2800);
+static murderOrb as BloodOrb = BloodOrb("murder", 8, 200000000, 6400);
 
 events.register(function(event as RegistryEvent.Register) {
     val registerName as string = event.name.toString();

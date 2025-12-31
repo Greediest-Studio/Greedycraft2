@@ -54,8 +54,14 @@ if (!isNull(event.item) && !event.world.isRemote()) {
     var player as IPlayer = event.player;
     
     //orbTier fix
-    if (event.item.definition.id == "forbiddenmagicre:eldritch_orb" && event.hand == "MAIN_HAND") {
-        event.world.catenation().sleep(1).then(function(world as IWorld, context) {player.soulNetwork.orbTier = 7;}).start();
+    if (event.item.definition.id == "bloodmagic:blood_orb" && !isNull(event.item.tag) && !isNull(event.item.tag.orb) && event.hand == "MAIN_HAND") {
+        //if (event.item.tag.orb == "contenttweaker:eldritch") {
+        //    event.world.catenation().sleep(1).then(function(world as IWorld, context) {player.soulNetwork.orbTier = 7;}).start();
+        //} else
+        //if (event.item.tag.orb == "contenttweaker:murder") {
+        //    event.world.catenation().sleep(1).then(function(world as IWorld, context) {player.soulNetwork.orbTier = 8;}).start();
+        //}
+        //event.player.sendChat(player.soulNetwork.orbTier);
     }
 
     //Store the dimension ID in the item tag
