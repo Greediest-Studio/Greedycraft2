@@ -1,0 +1,18 @@
+{
+  "item_block": {
+    "name": "§4浊华块",
+    "ore_dict": "blockDyaquarium",
+    "type": "additions:block_simple"
+  },
+  "name": "§4浊华块",
+  "material": "minecraft:metal",
+  "map_color": "minecraft:diamond",
+  "hardness": 5.0,
+  "resistance": 3000.0,
+  "harvest_level": 7,
+  "harvest_tool": "pickaxe",
+  "light_level": 4,
+  "slipperiness": 0.75,
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

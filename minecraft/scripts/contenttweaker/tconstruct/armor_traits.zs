@@ -385,6 +385,18 @@ firstGuardTrait.onHurt = function(trait, armor, player, source, damage, newDamag
 };
 firstGuardTrait.register();
 
+val firstGuard2Trait = ArmorTraitBuilder.create("first_guard2");
+firstGuard2Trait.color = Color.fromHex("f44336").getIntColor();
+firstGuard2Trait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.firstGuard2Trait.name");
+firstGuard2Trait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.firstGuardTrait.desc");
+firstGuard2Trait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && (player.maxHealth - player.health) as float < 1.0f) {
+        return (newDamage * 0.55f) as float;
+    }
+    return newDamage;
+};
+firstGuard2Trait.register();
+
 val levelingdefenseTrait = ArmorTraitBuilder.create("levelingdefense");
 levelingdefenseTrait.color = Color.fromHex("7e57c2").getIntColor(); 
 levelingdefenseTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.levelingdefenseTrait.name");
@@ -4230,3 +4242,36 @@ coraliumplagueTrait.onHurt = function(trait, armor, player, source, damage, newD
 };
 coraliumplagueTrait.register();
 
+val warpTrait = ArmorTraitBuilder.create("warp");
+warpTrait.color = Color.fromHex("ffffff").getIntColor();
+warpTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.warpTrait.name");
+warpTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.warpTrait.desc");
+warpTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        if (player.getBoundingBox().maxX - player.getBoundingBox().minX >= 0.59d && player.getBoundingBox().maxZ - player.getBoundingBox().minZ >= 0.59d) {
+            player.setBoundingBox(player.getBoundingBox().contract(0.3d, 0.0d, 0.3d));
+        }
+    }
+};
+warpTrait.register();
+
+val thallium_poisonTrait = ArmorTraitBuilder.create("thallium_poison");
+thallium_poisonTrait.color = Color.fromHex("ffffff").getIntColor();
+thallium_poisonTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.thallium_poisonTrait.name");
+thallium_poisonTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.thallium_poisonTrait.desc");
+thallium_poisonTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !isNull(source.getTrueSource())) {
+        var entity as IEntityLivingBase = source.getTrueSource();
+        if (Math.random() < 0.8f) entity.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(1200, 11, false, true));
+        if (Math.random() < 0.2f) player.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(600, 11, false, true));
+        return newDamage * 0.85f;
+    }
+    return newDamage;
+};
+thallium_poisonTrait.onHeal = function(trait, armor, player, amount, newAmount, evt) {
+    if (!isNull(player)) {
+        return newAmount * 0.5f;
+    }
+    return newAmount;
+};
+thallium_poisonTrait.register();

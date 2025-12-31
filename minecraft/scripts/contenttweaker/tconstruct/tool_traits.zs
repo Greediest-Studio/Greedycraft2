@@ -328,6 +328,23 @@ cotlifestealTrait.afterHit = function(trait, tool, attacker, target, damageDealt
 };
 cotlifestealTrait.register();
 
+val cotlifesteal2Trait = TraitBuilder.create("cotlifesteal2");
+cotlifesteal2Trait.color = Color.fromHex("ff5252").getIntColor();
+cotlifesteal2Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.cotlifesteal2Trait.name");
+cotlifesteal2Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.cotlifestealTrait.desc");
+cotlifesteal2Trait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
+    if (attacker instanceof IPlayer && wasHit && target instanceof IEntityMob && !target.isUndead) {
+        if (Math.random() < 0.5) {
+            var heal as float = damageDealt * 0.1f;
+            if (heal > 10.0f) {
+                heal = 10.0f;
+            }
+            attacker.heal(heal);
+        }
+    }
+};
+cotlifesteal2Trait.register();
+
 val superknockpackTrait = TraitBuilder.create("superknockback");
 superknockpackTrait.color = Color.fromHex("7e57c2").getIntColor(); 
 superknockpackTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.superknockpackTrait.name");
@@ -5074,3 +5091,22 @@ warpTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, n
     return newDamage;
 };
 warpTrait.register();
+
+val thallium_poisonTrait = TraitBuilder.create("thallium_poison");
+thallium_poisonTrait.color = Color.fromHex("ffffff").getIntColor(); 
+thallium_poisonTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.thallium_poisonTrait.name");
+thallium_poisonTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.thallium_poisonTrait.desc");
+thallium_poisonTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
+    if (wasHit && attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (Math.random() < 0.15f) {
+            target.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(200, 11, false, true));
+            for potion in target.activePotionEffects {
+                if (Math.random() < 0.2f) {
+                    if (potion.potion.isBeneficial) target.removePotionEffect(potion.potion);
+                }
+            }
+        }
+    }
+};
+thallium_poisonTrait.register();

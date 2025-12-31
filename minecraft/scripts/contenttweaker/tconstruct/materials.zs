@@ -1159,6 +1159,24 @@ aqualite.addBowMaterialStats(getDrawSpeed(0.6) as float, 1.5, 2.6);
 aqualite.addProjectileMaterialStats();
 aqualite.register();
 
+val dyaquarium = ExtendedMaterialBuilder.create("dyaquarium");
+dyaquarium.color = Color.fromHex("811707").getIntColor();
+dyaquarium.craftable = false;
+dyaquarium.castable = true;
+dyaquarium.representativeItem = <item:additions:dyaquarium_ingot>;
+dyaquarium.liquid = <liquid:dyaquarium>;
+dyaquarium.addItem(<ore:ingotDyaquarium>);
+dyaquarium.localizedName = game.localize("greedycraft.tconstruct.material.dyaquarium.name");
+dyaquarium.addHeadMaterialStats(3600, 21.5, 10.8, 7);
+dyaquarium.addHandleMaterialStats(2.1, 1200);
+dyaquarium.addExtraMaterialStats(1000);
+dyaquarium.addBowMaterialStats(getDrawSpeed(0.6) as float, 1.8, 6.2);
+dyaquarium.addProjectileMaterialStats();
+dyaquarium.addCoreMaterialStats(300, 40.5);
+dyaquarium.addPlatesMaterialStats(4, 95, 4.0);
+dyaquarium.addTrimMaterialStats(85);
+dyaquarium.register();
+
 val manganese = MaterialBuilder.create("manganese");
 manganese.color = Color.fromHex("263238").getIntColor(); 
 manganese.craftable = false;
@@ -2795,6 +2813,40 @@ zirconium.addHandleMaterialStats(2.4,3000);//系数 耐久
 zirconium.addExtraMaterialStats(1850);//耐久
 zirconium.addBowMaterialStats(getDrawSpeed(0.7) as float, 1.1, 25);//速度 射程 伤害
 zirconium.register();
+
+val thallium = ExtendedMaterialBuilder.create("thallium");
+thallium.color = Color.fromHex("a1a59f").getIntColor();
+thallium.craftable = false;
+thallium.castable = true;
+thallium.representativeItem = <item:additions:thallium_ingot>;
+thallium.addItem(<item:additions:thallium_ingot>);
+thallium.liquid = <liquid:thallium>;
+thallium.localizedName = game.localize("greedycraft.tconstruct.material.thallium.name");
+thallium.addHeadMaterialStats(800, 11, 248, 13);
+thallium.addHandleMaterialStats(1.8, -200);
+thallium.addExtraMaterialStats(200);
+thallium.addBowMaterialStats(getDrawSpeed(0.59) as float, 3.5, 198);
+thallium.addCoreMaterialStats(81, 221);
+thallium.addPlatesMaterialStats(8.1, 50, 17.5);
+thallium.addTrimMaterialStats(35);
+thallium.register();
+
+val heavyalloy = ExtendedMaterialBuilder.create("heavyalloy");
+heavyalloy.color = Color.fromHex("808986").getIntColor();
+heavyalloy.craftable = false;
+heavyalloy.castable = true;
+heavyalloy.representativeItem = <item:additions:heavyalloy_ingot>;
+heavyalloy.addItem(<item:additions:heavyalloy_ingot>);
+heavyalloy.liquid = <liquid:heavyalloy>;
+heavyalloy.localizedName = game.localize("greedycraft.tconstruct.material.heavyalloy.name");
+heavyalloy.addHeadMaterialStats(5240, 27.5, 198, 13);
+heavyalloy.addHandleMaterialStats(4.5, 1500);
+heavyalloy.addExtraMaterialStats(1750);
+heavyalloy.addBowMaterialStats(getDrawSpeed(1.1) as float, 2.8, 178);
+heavyalloy.addCoreMaterialStats(920, 190);
+heavyalloy.addPlatesMaterialStats(18.5, 650, 20);
+heavyalloy.addTrimMaterialStats(350);
+heavyalloy.register();
 
 val zomril = ExtendedMaterialBuilder.create("zomril");
 zomril.color = Color.fromHex("48464f").getIntColor();

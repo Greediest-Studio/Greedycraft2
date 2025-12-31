@@ -1,0 +1,116 @@
+{
+    "name": "warprack",
+    "tool": {
+      "bow": {
+        "speed": 4.5,
+        "range": 3.5,
+        "bonusDamage": 168
+      },
+      "head": {
+        "attackDamage": 49.3,
+        "speed": 9.4,
+        "durability": 3850,
+        "harvestLevel": 11
+      },
+      "handle": {
+        "modifier": 2.1,
+        "durability": -250
+      },
+      "extra": {
+        "durability": 450
+      }
+    },
+    "color": "#1b4352",
+    "craftable": true,
+    "madeInToolForge": false,
+    "createMeltingRecipes": false,
+    "meltingTemperature": 600,
+    "looks": {
+      "shininess": 0.3,
+      "brightness": 0.1,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Warprack",
+      "zh_cn": "扭曲石"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "gct_aby:warprack"
+      ],
+      "block": [
+      ],
+      "nugget": [
+      ],
+      "ore": [
+      ],
+      "dust": [
+      ],
+      "plate": [
+      ],
+      "gear": [
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "durability": 465,
+        "defense": 53
+      },
+      "plates": {
+        "modifier": 6.9,
+        "durability": -100,
+        "toughness": 6.5
+      },
+      "trim": {
+        "extraDurability": 95
+      }
+    },
+    "specificTraits": {
+      "EXTRA": [
+        "warp"
+      ],
+      "HEAD": [
+        "warp"
+      ],
+      "HANDLE": [
+        "warp"
+      ],
+      "BOW": [
+        "warp"
+      ],
+      "CORE": [
+        "warp_armor"
+      ],
+      "PLATES": [
+        "warp_armor"
+      ],
+      "TRIM": [
+        "warp_armor"
+      ]
+    }
+  }
