@@ -168,7 +168,7 @@ MMEvents.onStructureUpdate("blood_altar", function(event as MachineStructureUpda
             event.controller.extraThreadCount = event.controller.getBlocksInPattern(<additions:blood_rune_thread>) as int;
         }
     //定义最大容量
-        var capacity = BigDecimal("10000").multiply(BigDecimal(1.1 as string).pow(event.controller.getBlocksInPattern(<bloodmagic:blood_rune:7>) as int)).add(BigDecimal("2000").multiply(BigDecimal(event.controller.getBlocksInPattern(<bloodmagic:blood_rune:6>) as string))).setScale(0, RoundingMode.DOWN).toString() as string;
+        var capacity = BigDecimal("10000").multiply(BigDecimal("11").divide(BigDecimal("10")).pow(event.controller.getBlocksInPattern(<bloodmagic:blood_rune:7>) as int)).add(BigDecimal("2000").multiply(BigDecimal(event.controller.getBlocksInPattern(<bloodmagic:blood_rune:6>) as string))).setScale(0, RoundingMode.DOWN).toString() as string;
         event.controller.customData = event.controller.customData.update({capacityLP : capacity});
     //转移速率
         var speed as int = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:1>);
