@@ -31,8 +31,6 @@ LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("pool1").addCond
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("pool2").addConditions([Conditions.randomChance(0.25)]);
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("botania_inject_pool").addConditions([Conditions.randomChance(0.2)]);
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("extrabotany_inject_pool").addConditions([Conditions.randomChance(0.05)]);
-LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("lavacharm").addConditions([Conditions.randomChance(0.15)]);
-LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("slimecube").addConditions([Conditions.randomChance(0.25)]);
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("openmods_inject_pool").addConditions([Conditions.randomChance(0.1)]);
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("power_point").clearConditions();
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("power_point").addConditions([Conditions.randomChance(0.2)]);
@@ -49,7 +47,7 @@ LootTweaker.getTable("minecraft:chests/village_blacksmith").getPool("smart_slab"
 
 LootTweaker.getTable("extrabotany:inject/simple_dungeon").getPool("main").removeEntry("extrabotany:bottledflame");
 
-dungeon.removePool("spectrecoil_number");
+
 LootTweaker.getTable("botania:inject/simple_dungeon").getPool("main").removeEntry("botania:lexicon");
 mainPool.removeEntry("cyclicmagic:item.cyclic_wand_build");
 mainPool.removeEntry("abyssalcraft:tin_ingot");
@@ -68,9 +66,6 @@ if(!VersionUtil.isServerPack()) {
 } else {
     print("The modpack decided that it's currently loading a server pack because resourceloader is not found.");
 }
-
-LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").removePool("spectrecoil_number");
-LootTweaker.getTable("minecraft:chests/end_city_treasure").removePool("spectrecoil_number");
 
 LootTweaker.getTable("minecraft:chests/nether_bridge").getPool("bountifulbaubles_nether_bridge").removeEntry("bountifulbaubles:trinketbrokenheart");
 LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("main").removeEntry("abyssalcraft:copper_ingot");
