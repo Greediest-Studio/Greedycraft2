@@ -690,9 +690,24 @@ RecipeUtil.addShaped("malevolent_fruit", <contenttweaker:malevolent_fruit>, [
     [null, <ore:ingotMalevolencite>, null]
 ]);
 RecipeUtil.addShaped("parallel_controller", <modularmachinery:blockparallelcontroller>, [
-    [<ore:ingotModularium>, <ore:blockRedstone>, <ore:ingotModularium>],
+    [<ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>],
     [<ore:circuitBasic>, <modularmachinery:blockcontroller>, <ore:circuitBasic>], 
-    [<ore:ingotModularium>, <ore:blockRedstone>, <ore:ingotModularium>]
+    [<ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>]
+]);
+RecipeUtil.addShaped("parallel_controller_5", <modularmachinery:blockparallelcontroller:5>, [
+    [<modularmachinery:blockparallelcontroller>, <ore:ingotStainlessSteel>, <modularmachinery:blockparallelcontroller>],
+    [<ore:ingotStainlessSteel>, <modularmachinery:blockcontroller>, <ore:ingotStainlessSteel>], 
+    [<ore:blockModularium>, <ore:ingotStainlessSteel>, <ore:blockModularium>]
+]);
+RecipeUtil.addShaped("parallel_controller_1", <modularmachinery:blockparallelcontroller:1>, [
+    [<modularmachinery:blockparallelcontroller:5>, <ore:ingotDurasteel>, <modularmachinery:blockparallelcontroller:5>],
+    [<ore:ingotDurasteel>, <modularmachinery:blockcontroller>, <ore:ingotDurasteel>], 
+    [<ore:blockModularium>, <ore:ingotDurasteel>, <ore:blockModularium>]
+]);
+RecipeUtil.addShaped("parallel_controller_6", <modularmachinery:blockparallelcontroller:6>, [
+    [<modularmachinery:blockparallelcontroller:1>, <ore:ingotAeonsteel>, <modularmachinery:blockparallelcontroller:1>],
+    [<ore:ingotAeonsteel>, <modularmachinery:blockcontroller>, <ore:ingotAeonsteel>], 
+    [<ore:blockModularium>, <ore:ingotAeonsteel>, <ore:blockModularium>]
 ]);
 RecipeUtil.addShaped("blackhole_capacitor", <ometweaks:blackhole_capacitor>, [
     [null, <ore:ingotBlackholeAlloy>, null],
