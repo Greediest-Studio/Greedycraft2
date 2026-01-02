@@ -1,5 +1,4 @@
 
-#reloadable
 
 import crafttweaker.event.EntityLivingDeathDropsEvent;
 import crafttweaker.player.IPlayer;

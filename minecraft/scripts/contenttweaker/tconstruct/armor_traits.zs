@@ -4275,3 +4275,80 @@ thallium_poisonTrait.onHeal = function(trait, armor, player, amount, newAmount, 
     return newAmount;
 };
 thallium_poisonTrait.register();
+
+val erebus_walkerTrait = ArmorTraitBuilder.create("erebus_walker");
+erebus_walkerTrait.color = Color.fromHex("ffffff").getIntColor();
+erebus_walkerTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.erebus_walkerTrait.name");
+erebus_walkerTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.erebus_walkerTrait.desc");
+erebus_walkerTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        var speedAttribute as AttributeModifier = AttributeModifier.createModifier("generic.movementSpeed", 0.33f, 2, "d4f5e6b7-9c8d-4a71-8c42-2e7f5a3d8c91");
+        if (player.world.dimension == 66) {
+            if (!player.getAttribute("generic.movementSpeed").hasModifier(speedAttribute)) {
+                player.getAttribute("generic.movementSpeed").applyModifier(speedAttribute);
+            }
+        } else {
+            if (player.getAttribute("generic.movementSpeed").hasModifier(speedAttribute)) {
+                player.getAttribute("generic.movementSpeed").removeModifier(speedAttribute);
+            }
+        }
+    }
+};
+erebus_walkerTrait.onArmorRemove = function(trait, armor, player, index) {
+    if (!isNull(player)) {
+        var speedAttribute as AttributeModifier = AttributeModifier.createModifier("generic.movementSpeed", 0.33f, 2, "d4f5e6b7-9c8d-4a71-8c42-2e7f5a3d8c91");
+        if (player.getAttribute("generic.movementSpeed").hasModifier(speedAttribute)) {
+            player.getAttribute("generic.movementSpeed").removeModifier("d4f5e6b7-9c8d-4a71-8c42-2e7f5a3d8c91");
+        }
+    }
+};
+erebus_walkerTrait.register();
+
+val barrierToughTrait = ArmorTraitBuilder.create("barrier_tough");
+barrierToughTrait.color = Color.fromHex("ffffff").getIntColor();
+barrierToughTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.barrier_toughTrait.name");
+barrierToughTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.barrier_toughTrait.desc");
+barrierToughTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        var armorToughAttribute as AttributeModifier = AttributeModifier.createModifier("generic.armorToughness", 1.1f, 1, "e7f6d5c4-1b2a-4c3d-9e5f-3f8f6b4d9e92");
+        if (!player.getAttribute("generic.armorToughness").hasModifier(armorToughAttribute)) {
+            player.getAttribute("generic.armorToughness").applyModifier(armorToughAttribute);
+        }
+    }
+};
+barrierToughTrait.onArmorRemove = function(trait, armor, player, index) {
+    if (!isNull(player)) {
+        var armorToughAttribute as AttributeModifier = AttributeModifier.createModifier("generic.armorToughness", 1.1f, 1, "e7f6d5c4-1b2a-4c3d-9e5f-3f8f6b4d9e92");
+        if (player.getAttribute("generic.armorToughness").hasModifier(armorToughAttribute)) {
+            player.getAttribute("generic.armorToughness").removeModifier("e7f6d5c4-1b2a-4c3d-9e5f-3f8f6b4d9e92");
+        }
+    }
+};
+barrierToughTrait.register();
+
+val rejectionTrait = ArmorTraitBuilder.create("rejection");
+rejectionTrait.color = Color.fromHex("ffffff").getIntColor();
+rejectionTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.rejectionTrait.name");
+rejectionTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.rejectionTrait.desc");
+rejectionTrait.onAbility = function(trait, level, world, player) {
+    if (!isNull(player) && !world.remote && world.time % 100 == 0) {
+        var entities as IEntityLivingBase[] = getEntityLivingBasesInCubeCot(player, 3.0d);
+        for entity in entities {
+            if (entity instanceof IPlayer) {
+                var player2 as IPlayer = entity;
+                if (player2.uuid == player.uuid) continue;
+            } else if (entity.x == player.x && entity.y == player.y && entity.z == player.z) {
+                continue;
+            }
+            var dX as double = entity.x - player.x;
+            var dY as double = entity.y - player.y;
+            var dZ as double = entity.z - player.z;
+            var distance as double = distance3DCot(dX, dY, dZ, 0.0d, 0.0d, 0.0d);
+            var knockbackIndex as double = (distance <= 3.0d) ? ((3.0d - distance) / 3.0d) : 0.0d;
+            entity.motionX += (dX / distance) * 4.0d * knockbackIndex;
+            entity.motionY += (dY / distance) * 4.0d * knockbackIndex;
+            entity.motionZ += (dZ / distance) * 4.0d * knockbackIndex;
+        }
+    }
+};
+rejectionTrait.register();

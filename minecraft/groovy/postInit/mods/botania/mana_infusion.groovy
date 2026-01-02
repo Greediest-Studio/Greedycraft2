@@ -1,0 +1,6 @@
+mods.botania.mana_infusion.recipeBuilder()
+    .input(ore('ingotIron'))
+    .output(item('additions:hexsteel_ingot'))
+    .mana(1200000)
+    .catalyst(blockstate('additions:blight_catalyst'))
+    .register()

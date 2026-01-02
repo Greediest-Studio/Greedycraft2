@@ -33,6 +33,7 @@ import crafttweaker.potions.IPotion;
 import crafttweaker.potions.IPotionEffect;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.entity.IEntityLiving;
+import crafttweaker.text.ITextComponent;
 
 import mods.ctutils.utils.Math;
 import mods.contenttweaker.Fluid;
@@ -5110,3 +5111,69 @@ thallium_poisonTrait.afterHit = function(trait, tool, attacker, target, damageDe
     }
 };
 thallium_poisonTrait.register();
+
+val archaeologistTrait = TraitBuilder.create("archaeologist");
+archaeologistTrait.color = Color.fromHex("ffffff").getIntColor(); 
+archaeologistTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.archaeologistTrait.name");
+archaeologistTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.archaeologistTrait.desc");
+archaeologistTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        var y as float = player.position3f.y;
+        var multiplier as float = 0.0f - (Math.tanh(Math.log(1.5f) * (y - 128.0f) / 128.0f));
+        return newDamage * (1.0f + multiplier) as float;
+    }
+    return newDamage;
+};
+archaeologistTrait.register();
+
+val bloodcurseTrait = TraitBuilder.create("bloodcurse");
+bloodcurseTrait.color = Color.fromHex("ffffff").getIntColor(); 
+bloodcurseTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.bloodcurseTrait.name");
+bloodcurseTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.bloodcurseTrait.desc");
+bloodcurseTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (!isNull(player.soulNetwork)) {
+            var totalLP as int = player.soulNetwork.currentEssence;
+            var costLP as int = totalLP / 10;
+            if (costLP <= 0) return newDamage;
+            var multiplier as float = Math.log10(costLP) as float * 0.2f;
+            player.soulNetwork.syphon(ITextComponent.fromString("bloodcurse"), costLP);
+            return newDamage * (1.0f + multiplier) as float;
+        }
+    }
+    return newDamage;
+};
+bloodcurseTrait.register();
+
+val orbCapacityList as int[int] = {
+    1 : 5000,
+    2 : 25000,
+    3 : 150000,
+    4 : 1000000,
+    5 : 10000000,
+    6 : 30000000,
+    7 : 80000000,
+    8 : 200000000,
+    9 : 600000000,
+    10 : 1500000000,
+    11 : 2147483647
+};
+val bloodriseTrait = TraitBuilder.create("bloodrise");
+bloodriseTrait.color = Color.fromHex("ffffff").getIntColor(); 
+bloodriseTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.bloodriseTrait.name");
+bloodriseTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.bloodriseTrait.desc");
+bloodriseTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
+    if (wasHit && attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (Math.random() < 0.5f && !(isNull(player.soulNetwork.orbTier) || isNull(player.soulNetwork))) {
+            var tier as int = player.soulNetwork.orbTier as int;
+            var capacity as int = orbCapacityList[tier] as int;
+            var now as int = player.soulNetwork.currentEssence;
+            var gainLP as int = Math.min(capacity - now, (damageDealt * 0.5f) as int);
+            player.soulNetwork.add(gainLP, capacity);
+        }
+    }
+};
+bloodriseTrait.register();

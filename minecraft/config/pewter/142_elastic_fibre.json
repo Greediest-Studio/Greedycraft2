@@ -1,0 +1,83 @@
+{
+    "name": "elastic_fibre",
+    "color": "#006633",
+    "craftable": true,
+    "madeInToolForge": false,
+    "createMeltingRecipes": false,
+    "meltingTemperature": 600,
+    "looks": {
+      "shininess": 0.3,
+      "brightness": 0.1,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 1000,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Elastic Fibre",
+      "zh_cn": "弹性纤维"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "erebus:materials:9"
+      ],
+      "block": [
+      ],
+      "nugget": [
+      ],
+      "ore": [
+      ],
+      "dust": [
+      ],
+      "plate": [
+      ],
+      "gear": [
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "durability": 699,
+        "defense": 185
+      },
+      "plates": {
+        "modifier": 23.5,
+        "durability": 269,
+        "toughness": 4
+      },
+      "trim": {
+        "extraDurability": 117
+      }
+    },
+    "specificTraits": {
+      "CORE": [
+        "erebus_walker_armor",
+        "barrier_armor"
+      ],
+      "PLATES": [
+        "erebus_walker_armor",
+        "barrier_armor"
+      ],
+      "TRIM": [
+        "erebus_walker_armor",
+        "barrier_armor"
+      ]
+    }
+  }

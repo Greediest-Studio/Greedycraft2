@@ -947,6 +947,22 @@ petrified_wood.addPlatesMaterialStats(16.9, 188, 22.7);
 petrified_wood.addTrimMaterialStats(164);
 petrified_wood.register();
 
+val fossil = ExtendedMaterialBuilder.create("fossil");
+fossil.color = Color.fromHex("fbfcec").getIntColor();
+fossil.craftable = true;
+fossil.castable = false;
+fossil.representativeItem = <item:erebus:materials:2>;
+fossil.addItem(<item:erebus:materials:2>);
+fossil.localizedName = game.localize("greedycraft.tconstruct.material.fossil.name");
+fossil.addHeadMaterialStats(4200, 29.5, 195, 13);
+fossil.addHandleMaterialStats(2.2, 215);
+fossil.addExtraMaterialStats(2100);
+fossil.addBowMaterialStats(getDrawSpeed(3.1) as float, 2.8, 110);
+fossil.addCoreMaterialStats(410, 194.5);
+fossil.addPlatesMaterialStats(19.5, 213, 19.5);
+fossil.addTrimMaterialStats(198);
+fossil.register();
+
 val aeroite = MaterialBuilder.create("aeroite");
 aeroite.color = Color.fromHex("00e5ff").getIntColor(); 
 aeroite.craftable = false;
@@ -2671,6 +2687,18 @@ malevolencite.addCoreMaterialStats(720, 145);
 malevolencite.addPlatesMaterialStats(16, 300, 10);
 malevolencite.addTrimMaterialStats(205);
 malevolencite.register();
+
+val demon_shard = ExtendedMaterialBuilder.create("demon_shard");
+demon_shard.color = Color.fromHex("4e8590").getIntColor();
+demon_shard.craftable = true;
+demon_shard.castable = false;
+demon_shard.representativeItem = <item:additions:demon_shard>;
+demon_shard.addItem(<item:additions:demon_shard>);
+demon_shard.localizedName = game.localize("greedycraft.tconstruct.material.demon_shard.name");
+demon_shard.addCoreMaterialStats(1150, 119);
+demon_shard.addPlatesMaterialStats(18.5, 400, 20);
+demon_shard.addTrimMaterialStats(550);
+demon_shard.register();
 
 val slimy_bone = mods.contenttweaker.tconstruct.MaterialBuilder.create("slimy_bone");
 slimy_bone.color = Color.fromHex("c1c183").getIntColor();
