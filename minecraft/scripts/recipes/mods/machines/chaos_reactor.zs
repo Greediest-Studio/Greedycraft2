@@ -209,20 +209,6 @@ RecipeBuilder.newBuilder("chaosreacting","chaos_reactor",10,0)
         val map = data.asMap();
         val num = isNull(map["speed"]) ? 1.0f : map["speed"];
         thread.addPermanentModifier("rf", RecipeModifierBuilder.create("modularmachinery:energy", "output", num, 1, false).build());
-        Sync.addSyncTask(function(){
-            val ctrl = event.controller;
-            val world = ctrl.world;
-            val cpos = ctrl.pos;
-            val pos = cpos.getOffset(down , 4);
-        });
-    })
-    .addFactoryFinishHandler(function (event as FactoryRecipeFinishEvent) {
-        Sync.addSyncTask(function(){
-            val ctrl = event.controller;
-            val world = ctrl.world;
-            val cpos = ctrl.pos;
-            val pos = cpos.getOffset(down , 4);
-        });
     })
     .addEnergyPerTickOutput(10000000)
     .addRecipeTooltip("§e1倍产出")

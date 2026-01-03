@@ -67,6 +67,9 @@ var efficiencyUpgrade as MachineUpgradeBuilder = MachineUpgradeBuilder.newBuilde
 efficiencyUpgrade.addDescriptions("§b降低模块化机械配方处理时间至50%\n§b提升模块化机械能耗至200%");
 efficiencyUpgrade.addModifier(false, "efficiency_upgrade_energy", RecipeModifierBuilder.create("modularmachinery:energy", "input", 2.0, 1, false).build());
 efficiencyUpgrade.addModifier(false, "efficiency_upgrade_time", RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.5, 1, false).build());
+efficiencyUpgrade.addIncompatibleMachines("chaos_reactor");
+efficiencyUpgrade.addIncompatibleMachines("exp_power_generator");
+efficiencyUpgrade.addIncompatibleMachines("loot_power_generator");
 efficiencyUpgrade.buildAndRegister();
 
 var energyUpgrade as MachineUpgradeBuilder = MachineUpgradeBuilder.newBuilder("energy_upg", "节能升级", 1, 1);
