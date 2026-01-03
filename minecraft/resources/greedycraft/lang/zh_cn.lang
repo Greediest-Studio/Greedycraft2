@@ -450,7 +450,11 @@ greedycraft.tconstruct.material.thallium.name=铊
 greedycraft.tconstruct.material.heavyalloy.name=重质合金
 greedycraft.tconstruct.material.fossil.name=化石
 greedycraft.tconstruct.material.demon_shard.name=屏障碎片
+greedycraft.tconstruct.material.bloody_spironium.name=血铜
+greedycraft.tconstruct.material.spironium.name=魂铜
 #护甲词条
+greedycraft.tconstruct.armor_trait.bloodlustTrait.name=嗜血
+greedycraft.tconstruct.armor_trait.bloodlustTrait.desc=§o鲜血的呼唤！§r\n§f你的护甲将会以三倍的速度损失耐久，但每次损失耐久时你将恢复3点生命值。
 greedycraft.tconstruct.armor_trait.barrier_toughTrait.name=障壁
 greedycraft.tconstruct.armor_trait.barrier_toughTrait.desc=§o坚不可摧的防御！§r\n§f增加10%的护甲韧性。
 greedycraft.tconstruct.armor_trait.rejectionTrait.name=排斥
@@ -892,6 +896,12 @@ greedycraft.tconstruct.armor_trait.thallium_poisonTrait.name=铊毒
 greedycraft.tconstruct.armor_trait.thallium_poisonTrait.desc=§o我是钾离子。\n§r受到攻击时有大概率令攻击者深陷剧毒（当然，你穿着也不是什么好事）！
 greedycraft.tconstruct.armor_trait.erebus_walkerTrait.name=腐朽行者
 greedycraft.tconstruct.armor_trait.erebus_walkerTrait.desc=§o再无污泥灾祸。\n§r增加玩家在腐朽之地内的移动速度，同时令玩家无视烂泥的减速效果。
+greedycraft.tconstruct.armor_trait.bloodriseTrait.name=魂铸
+greedycraft.tconstruct.armor_trait.bloodriseTrait.desc=§o以血铸魂！\n§r受到攻击后有50%概率回复LP。
+greedycraft.tconstruct.armor_trait.bloodcurseTrait.name=血咒
+greedycraft.tconstruct.armor_trait.bloodcurseTrait.desc=§o以血还血！\n§r每次受到攻击都会使你损失10%的LP，但会降低你受到的伤害。
+greedycraft.tconstruct.armor_trait.atum_visionTrait.name=避沙
+greedycraft.tconstruct.armor_trait.atum_visionTrait.desc=§o重见天日。\n§r让你在阿图姆维度中的视野更清晰。
 #工具词条
 greedycraft.tconstruct.tool_trait.bloodriseTrait.name=魂铸
 greedycraft.tconstruct.tool_trait.bloodriseTrait.desc=§o以血铸魂！\n§r造成伤害后有50%概率回复LP。
