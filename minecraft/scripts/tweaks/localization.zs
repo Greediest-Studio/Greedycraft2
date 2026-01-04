@@ -41,6 +41,7 @@ val localizationMap as string[string][string] = {
         "item.thaumadditions:adaminite_boots.name": "铿金神秘使靴子",
         "item.netherite_ingot.name": "熔岩锭",
         "tile.netherite_block.name": "熔岩块",
+        "tile.ma.intermedium_reprocessor.name": "§6中级种子再处理器",
         "item.actuallyadditions.item_crystal_red.name": "§4通量水晶",
         "item.actuallyadditions.item_crystal_empowered_red.name": "§4充能通量水晶",
         "tile.actuallyadditions.block_crystal_red.name": "§4通量水晶块",

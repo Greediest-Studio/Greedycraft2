@@ -148,6 +148,7 @@ GameStagesUtil.stageGettingStarted.addIngredients([
 GameStagesUtil.stageFusionMatrix.addIngredients([
     <zensummoning:altar>,
     <mysticalagriculture:fusion_matrix_essence>,
+    <mysticalagriculture:witherium_essence>,
     <ore:oreDraconium>,
     <ore:ingotDraconium>,
     <ore:dustDraconium>,
