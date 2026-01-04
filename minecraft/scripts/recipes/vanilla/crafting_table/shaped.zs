@@ -1145,11 +1145,6 @@ RecipeUtil.addShaped("auto_gen_2008269634", <buildinggadgets:buildingtool>, [
     [<ore:ingotBronze>, <ore:gemDiamond>, <ore:ingotBronze>],
     [<ore:ingotStainlessSteel>, <ore:dustRedstone>, <ore:ingotStainlessSteel>]
 ]);
-RecipeUtil.addShaped("witch_essence", <minecraft:spawn_egg>.withTag({EntityTag: {id: "minecraft:witch"}}), [
-    [null, <ore:essenceWitch>, null],
-    [<ore:essenceWitch>, <ore:egg>, <ore:essenceWitch>],
-    [null, <ore:essenceWitch>, null]
-]);
 RecipeUtil.addShaped("nylon_string", <additions:nylon_string>, [
     [<thermalfoundation:material:833>, <thermalfoundation:material:833>, <thermalfoundation:material:833>]
 ]);

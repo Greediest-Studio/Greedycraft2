@@ -1,3 +1,73 @@
+# CUSTOM SEEDS
+item.ma.balanced_matrix_essence.name=平衡矩阵精华
+item.ma.chromium_essence.name=铬精华
+item.ma.stainless_steel_essence.name=不锈钢精华
+item.ma.ignite_essence.name=炽星精华
+item.ma.cytosinite_essence.name=胞嘧精华
+item.ma.thyminite_essence.name=胸腺嘧精华
+item.ma.guaninite_essence.name=鸟嘌呤晶精华
+item.ma.adeninite_essence.name=腺嘌呤晶精华
+item.ma.fusion_matrix_essence.name=聚合矩阵精华
+item.ma.cryonium_essence.name=极寒精华
+item.ma.infernium_essence.name=永燃精华
+item.ma.titanium_essence.name=钛精华
+item.ma.canopium_essence.name=苍穹精华
+item.ma.mistium_essence.name=缥缈精华
+item.ma.aetherium_essence.name=以太精华
+item.ma.bnightium_essence.name=夜明精华
+item.ma.lavarite_essence.name=熔浆精华
+item.ma.plasmarite_essence.name=等离子精华
+item.ma.snowingium_essence.name=碎雪精华
+item.ma.freezite_essence.name=封晶精华
+item.ma.oceanium_essence.name=浩瀚精华
+item.ma.dawnstone_gc_essence.name=黎明石精华
+
+item.ma.balanced_matrix_seed.name=平衡矩阵种子
+item.ma.chromium_seed.name=铬种子
+item.ma.stainless_steel_seed.name=不锈钢种子
+item.ma.ignite_seed.name=炽星种子
+item.ma.cytosinite_seed.name=胞嘧种子
+item.ma.thyminite_seed.name=胸腺嘧种子
+item.ma.guaninite_seed.name=鸟嘌呤晶种子
+item.ma.adeninite_seed.name=腺嘌呤晶种子
+item.ma.fusion_matrix_seed.name=聚合矩阵种子
+item.ma.cryonium_seed.name=极寒种子
+item.ma.infernium_seed.name=永燃种子
+item.ma.titanium_seed.name=钛种子
+item.ma.canopium_seed.name=苍穹种子
+item.ma.mistium_seed.name=缥缈种子
+item.ma.aetherium_seed.name=以太种子
+item.ma.bnightium_seed.name=夜明种子
+item.ma.lavarite_seed.name=熔浆种子
+item.ma.plasmarite_seed.name=等离子种子
+item.ma.snowingium_seed.name=碎雪种子
+item.ma.freezite_seed.name=封晶种子
+item.ma.oceanium_seed.name=浩瀚种子
+item.ma.dawnstone_gc_seed.name=黎明石种子
+
+tile.ma.balanced_matrix_crop.name=平衡矩阵作物
+tile.ma.chromium_crop.name=铬作物
+tile.ma.stainless_steel_crop.name=不锈钢作物
+tile.ma.ignite_crop.name=炽星作物
+tile.ma.cytosinite_crop.name=胞嘧作物
+tile.ma.thyminite_crop.name=胸腺嘧作物
+tile.ma.guaninite_crop.name=鸟嘌呤晶作物
+tile.ma.adeninite_crop.name=腺嘌呤晶作物
+tile.ma.fusion_matrix_crop.name=聚合矩阵作物
+tile.ma.cryonium_crop.name=极寒作物
+tile.ma.infernium_crop.name=永燃作物
+tile.ma.titanium_crop.name=钛作物
+tile.ma.canopium_crop.name=苍穹作物
+tile.ma.mistium_crop.name=缥缈作物
+tile.ma.aetherium_crop.name=以太作物
+tile.ma.bnightium_crop.name=夜明作物
+tile.ma.lavarite_crop.name=熔浆作物
+tile.ma.plasmarite_crop.name=等离子作物
+tile.ma.snowingium_crop.name=碎雪作物
+tile.ma.freezite_crop.name=封晶作物
+tile.ma.oceanium_crop.name=浩瀚作物
+tile.ma.dawnstone_gc_crop.name=黎明石作物
+
 # CREATIVE TAB
 itemGroup.tabMysticalAgriculture=神秘农业
 
@@ -200,6 +270,8 @@ tile.ma.mystical_flower_crop.name=神秘花作物
 tile.ma.manasteel_crop.name=魔力钢作物
 tile.ma.elementium_crop.name=源质钢作物
 tile.ma.terrasteel_crop.name=泰拉钢作物
+
+tile.ma.dawnstone_crop.name=黎明石作物
 
 tile.ma.uranium_238_crop.name=铀238作物
 tile.ma.iridium_ore_crop.name=铱矿作物
@@ -468,6 +540,8 @@ item.ma.manasteel_essence.name=魔力钢精华
 item.ma.elementium_essence.name=源质钢精华
 item.ma.terrasteel_essence.name=泰拉钢精华
 
+item.ma.dawnstone_essence.name=黎明石精华
+
 item.ma.uranium_238_essence.name=铀238精华
 item.ma.iridium_ore_essence.name=铱矿石精华
 
@@ -630,6 +704,8 @@ item.ma.terrasteel_seeds.name=泰拉钢种子
 
 item.ma.uranium_238_seeds.name=铀238种子
 item.ma.iridium_ore_seeds.name=铱矿石种子
+
+item.ma.dawnstone_seeds.name=黎明石种子
 
 item.ma.osmium_seeds.name=锇种子
 item.ma.glowstone_ingot_seeds.name=强化荧石锭种子

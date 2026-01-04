@@ -54,6 +54,7 @@ if (!isNull(event.item) && !event.world.isRemote()) {
     var player as IPlayer = event.player;
     
     //orbTier fix
+    if (isNull(event.item)) return;
     if (event.item.definition.id == "bloodmagic:blood_orb" && !isNull(event.item.tag) && !isNull(event.item.tag.orb) && event.hand == "MAIN_HAND") {
         //if (event.item.tag.orb == "contenttweaker:eldritch") {
         //    event.world.catenation().sleep(1).then(function(world as IWorld, context) {player.soulNetwork.orbTier = 7;}).start();
@@ -65,6 +66,7 @@ if (!isNull(event.item) && !event.world.isRemote()) {
     }
 
     //Store the dimension ID in the item tag
+    if (isNull(event.item)) return;
     if (event.item.definition.id == "additions:modular_dimensional_magnifier" && event.hand == "MAIN_HAND") {
         if (!player.isSneaking) {
             event.item.mutable().updateTag({dim : event.world.dimension as int, display: {Lore: ["§a当前已绑定维度：§9" ~ event.world.getDimensionType() ~ "§a(ID:§9" ~ event.world.dimension ~ "§a)"], Name: "§1维度放大镜(已绑定至" ~ event.world.getDimensionType() ~ ")"}});
@@ -76,6 +78,7 @@ if (!isNull(event.item) && !event.world.isRemote()) {
     }
 
     //Order Container
+    if (isNull(event.item)) return;
     var passedPotionList as IPotion[] = [
         <potion:abyssalcraft:antimatter>,
         <potion:thaumcraft:infectiousvisexhaust>,
@@ -106,6 +109,7 @@ if (!isNull(event.item) && !event.world.isRemote()) {
     }
 
     //Order Compass
+    if (isNull(event.item)) return;
     if (event.item.definition.id == "additions:ordered_bone_key_compass" && event.hand == "MAIN_HAND") {
         var item as IItemStack = event.item;
         if (player.isSneaking) {
@@ -159,6 +163,7 @@ if (!isNull(event.item) && !event.world.isRemote()) {
     }
 
     //Order Dice
+    if (isNull(event.item)) return;
     if (event.item.definition.id == "additions:ordered_bone_key_dice" && event.hand == "MAIN_HAND") {
         var item as IItemStack = event.item;
         if (isNull(item.tag.coordinateData)) {
@@ -178,6 +183,7 @@ if (!isNull(event.item) && !event.world.isRemote()) {
     }
 
     //vethea
+    if (isNull(event.item)) return;
     val whiteList = [
         "tcon",
         "tcom",
@@ -208,6 +214,7 @@ if (!isNull(event.item) && !event.world.isRemote()) {
     }
 
     //Ancient Scarab
+    if (isNull(event.item)) return;
     if (event.item.definition.id == "additions:ancient_scrab" && event.hand == "MAIN_HAND") {
         var world as IWorld = event.world;
         var stack as IItemStack = event.item;
@@ -269,6 +276,7 @@ if (!isNull(event.item) && !event.world.isRemote()) {
 
     //请把所有右键物品事件放在这条效果的前面！
     //Clear All the Entities
+    if (isNull(event.item)) return;
     if (event.item.definition.id == "additions:emergency_button" && event.hand == "MAIN_HAND") {
         player.sendStatusMessage("§c§l已清除所有实体！");
         server.commandManager.executeCommandSilent(player, "particle lava ~ ~ ~ 1 1 1 1 50 force");

@@ -510,11 +510,6 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <botany:stained:*>, 
         <extratrees:stainedglass:*>
     ],
-    <ore:essenceChromium> : [<mysticalcreations:chromium_essence>],
-    <ore:essenceTitanium> : [<mysticalcreations:titanium_essence>],
-    <ore:essenceWitch> : [<mysticalcreations:witch_essence>],
-    <ore:essenceCake> : [<mysticalcreations:cake_essence>],
-    <ore:essenceStainlessSteel> : [<mysticalcreations:stainless_steel_essence>],
     <ore:dustWood> : [<ore:pulpWood>],
     <ore:pulpWood> : [<ore:dustWood>],
     <ore:itemRune> : [<quark:rune:*>],

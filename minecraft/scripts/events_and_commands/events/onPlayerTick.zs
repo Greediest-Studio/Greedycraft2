@@ -47,6 +47,7 @@ import native.net.minecraft.inventory.Container;
 import native.net.minecraft.world.WorldProvider;
 import native.net.minecraft.item.ItemStack;
 import native.net.mcreator.gctmobs.gui.GuiKabalahBuilder.GuiContainerMod;
+import native.com.teammetallurgy.atum.utils.AtumRenderHelper;
 
 val advancementMap as string[string] = {
     twilight_forest: "greedycraft:elysia/log1",
@@ -435,7 +436,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
     //Alfheim Portal
     if (player.dimension == 0 && player.hasGameStage("gaia_deleter")) {
         var pos as IBlockPos = player.position.down(1);
-        var position3f as Position3f = player.position3f;
+        var world as IWorld = player.world;
         if (pos.y >= 1 && pos.y <= 255) {
             if (!isNull(player.world.getBlock(pos))) {
                 var block as IBlock = player.world.getBlock(pos);
@@ -443,8 +444,57 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
                     if (!isNull(block.data.ForgeData.isPortable) && !isNull(block.data.ticksOpen)) {
                         var portable as byte = block.data.ForgeData.isPortable as byte;
                         if (portable == 1 && block.data.ticksOpen as int != 0) {
-                            player.setDimension(42);
-                            player.position3f = position3f;
+                            if (world.dimension != 42) {
+                                var x = player.x as int;
+                                var y = 64 as int;
+                                var z = player.z as int;
+                                val destination = IWorld.getFromID(42);
+                                var tp = true;
+                                if (destination.getBlock(x,y,z).definition.id == "minecraft:air" && destination.getBlock(x,y + 1,z).definition.id == "minecraft:air" && destination.getBlock(x,y - 1,z).definition.id != "minecraft:air" && destination.getBlock(x,y - 1,z).definition.id != "erebus:formic_acid") {
+                                    server.commandManager.executeCommand(server, "/forge setdimension " ~ player.name ~ " 42 " ~ (x as string) ~ " " ~ (y as string) ~ " " ~ (z as string));
+                                    tp = false;
+                                }
+                                if (tp) {
+                                    var i as int = -16;
+                                    var j as int = -16;
+                                    var k as int = -16;
+                                    while ((i <= 16) && tp) {
+                                        while ((j <= 16) && tp) {
+                                            while ((k <= 16) && tp) {
+                                                if (destination.getBlock(x + i,y + j,z + k).definition.id == "minecraft:air" && destination.getBlock(x + i,y + j + 1,z + k).definition.id == "minecraft:air" && destination.getBlock(x + i,y + j - 1,z + k).definition.id != "minecraft:air" && destination.getBlock(x,y - 1,z).definition.id != "erebus:formic_acid") {
+                                                    server.commandManager.executeCommand(server, "/forge setdimension " ~ player.name ~ " 42 " ~ (x + i) as string ~ " " ~ (y + j) as string ~ " " ~ (z + k) as string);
+                                                    tp = false;
+                                                }
+                                                k += 1;
+                                            }
+                                            k = -16;
+                                            j += 1;
+                                        }
+                                        j = -16;
+                                        i += 1;
+                                    }
+                                }
+                                if (tp) {
+                                    var i as int = -64;
+                                    var j as int = -63;
+                                    var k as int = -64;
+                                    while ((i <= 64) && tp) {
+                                        while ((j <= 128) && tp) {
+                                            while ((k <= 64) && tp) {
+                                                if (destination.getBlock(x + i,y + j,z + k).definition.id == "minecraft:air" && destination.getBlock(x + i,y + j + 1,z + k).definition.id == "minecraft:air" && destination.getBlock(x + i,y + j - 1,z + k).definition.id != "minecraft:air" && destination.getBlock(x,y - 1,z).definition.id != "erebus:formic_acid") {
+                                                    server.commandManager.executeCommand(server, "/forge setdimension " ~ player.name ~ " 42 " ~ (x + i) as string ~ " " ~ (y + j) as string ~ " " ~ (z + k) as string);
+                                                    tp = false;
+                                                }
+                                                k += 1;
+                                            }
+                                            k = -64;
+                                            j += 1;
+                                        }
+                                        j = -64;
+                                        i += 1;
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -461,6 +511,24 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
                 player.attackEntityFrom(IDamageSource.createOfType("erebus_curse"), player.maxHealth);
             }
         }
+    }
+
+    //Atum Vision Trait
+    var hasAtumVision as bool = false;
+    if (player.dimension == 17) {
+        if (!(isNull(player.armorInventory) || player.armorInventory.length <= 0)) {
+            for armor in player.armorInventory {
+                if (TicTraitLib.hasTicTrait(armor, "atum_vision_armor")) {
+                    hasAtumVision = true;
+                    break;
+                }
+            }
+        }
+    }
+    if (hasAtumVision) {
+        AtumRenderHelper.setFogAndSandRenderFactor(player.native, 0.2f);
+    } else {
+        AtumRenderHelper.setFogAndSandRenderFactor(player.native, 1.0f);
     }
 
 });

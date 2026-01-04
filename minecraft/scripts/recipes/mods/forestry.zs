@@ -19,8 +19,30 @@ import mods.zenutils.I18n;
 
 Centrifuge.removeRecipe(<extrabees:honey_comb:26>);
 
-val base as IIngredient[] = [<mysticalagriculture:crafting:16>, <mysticalagriculture:crafting:17>, <mysticalagriculture:crafting:18>, <mysticalagriculture:crafting:19>, <mysticalagriculture:crafting:20>, <mysticalagriculture:crafting:21>, <mysticalagradditions:insanium:1>];
-val essence as IIngredient[] = [<mysticalagriculture:crafting:5>, <ore:essenceInferium>, <ore:essencePrudentium>, <ore:essenceIntermedium>, <ore:essenceSuperium>, <ore:essenceSupremium>, <ore:essenceInsanium>];
+val base as IIngredient[] = [
+    <mysticalagriculture:crafting:16>,
+    <mysticalagriculture:crafting:17>,
+    <mysticalagriculture:crafting:18>,
+    <mysticalagriculture:crafting:19>,
+    <mysticalagriculture:crafting:20>,
+    <mysticalagriculture:crafting:21>,
+    <mysticalagradditions:insanium:1>,
+    <additions:seed_tier_7>,
+    <additions:seed_tier_8>,
+    <additions:seed_tier_9>
+];
+val essence as IIngredient[] = [
+    <mysticalagriculture:crafting:5>,
+    <ore:essenceInferium>,
+    <ore:essencePrudentium>,
+    <ore:essenceIntermedium>,
+    <ore:essenceSuperium>,
+    <ore:essenceSupremium>,
+    <ore:essenceInsanium>,
+    <ore:essenceExtremium>,
+    <ore:essenceGodlikeum>,
+    <ore:essenceNonenium>
+];
 
 val seedRecipes as IIngredient[][][IItemStack] = {
     <mysticalagriculture:soularium_seeds> : [
@@ -712,6 +734,11 @@ val seedRecipes as IIngredient[][][IItemStack] = {
         [<ore:gemSlimyBone>, essence[2], <ore:gemSlimyBone>], 
         [essence[2], base[2], essence[2]], 
         [<ore:gemSlimyBone>, essence[2], <ore:gemSlimyBone>]
+    ],
+    <mysticalagriculture:jade_seeds> : [
+        [<ore:gemJade>, essence[4], <ore:gemJade>], 
+        [essence[4], base[4], essence[4]], 
+        [<ore:gemJade>, essence[4], <ore:gemJade>]
     ]
 } as IIngredient[][][IItemStack];
 
@@ -724,9 +751,19 @@ for seed in seedRecipes {
     }
     seed.addTooltip(I18n.format("greedycraft.mysticalagriculture.seed_tooltip", baseItemName));
     mods.jei.JEI.addDescription(seed, I18n.format("greedycraft.mysticalagriculture.jei_info", baseItemName));
-    var time = [60, 75, 80, 100, 140, 210, 1200] as int[];
-    var fluid = [600, 750, 900, 1200, 1600, 2400, 10000] as int[];
-    var fertilizer = [<thermalfoundation:fertilizer>, <thermalfoundation:fertilizer>, <thermalfoundation:fertilizer:1>, <thermalfoundation:fertilizer:1>, <thermalfoundation:fertilizer:2>, <thermalfoundation:fertilizer:2>, <mysticalagriculture:mystical_fertilizer>] as IItemStack[];
+    var time = [60, 75, 80, 100, 140, 210, 1200, 6400, 20000, 60000] as int[];
+    var fluid = [600, 750, 900, 1200, 1600, 2400, 10000, 10000, 10000] as int[];
+    var fertilizer = [
+        <thermalfoundation:fertilizer>,
+        <thermalfoundation:fertilizer>,
+        <thermalfoundation:fertilizer:1>,
+        <thermalfoundation:fertilizer:1>,
+        <thermalfoundation:fertilizer:2>,
+        <thermalfoundation:fertilizer:2>,
+        <mysticalagriculture:mystical_fertilizer>,
+        <additions:between_essence>,
+        <additions:solid_culture_medium>
+    ] as IItemStack[];
     var tier = 0;
     if (<ore:seedsTier1> has seed) {
         tier = 1;
@@ -740,6 +777,12 @@ for seed in seedRecipes {
         tier = 5;
     } else if (<ore:seedsTier6> has seed) {
         tier = 6;
+    } else if (<ore:seedsTier7> has seed) {
+        tier = 7;
+    } else if (<ore:seedsTier8> has seed) {
+        tier = 8;
+    } else if (<ore:seedsTier9> has seed) {
+        tier = 9;
     }
     Carpenter.addRecipe(seed, grid, time[tier], <liquid:organic_fluid> * fluid[tier], fertilizer[tier]);
 }

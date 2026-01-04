@@ -189,7 +189,9 @@ val crops as IItemStack[][] = [
     [<mysticalagriculture:thorium_seeds>, <mysticalagriculture:thorium_essence>],
     [<mysticalagriculture:boron_seeds>, <mysticalagriculture:boron_essence>],
     [<mysticalagriculture:lithium_seeds>, <mysticalagriculture:lithium_essence>],
-    [<mysticalagriculture:dark_gem_seeds>, <mysticalagriculture:dark_gem_essence>]
+    [<mysticalagriculture:dark_gem_seeds>, <mysticalagriculture:dark_gem_essence>],
+    [<mysticalagriculture:jade_seeds>, <mysticalagriculture:jade_essence>],
+    [<mysticalagriculture:magnesium_seeds>, <mysticalagriculture:magnesium_essence>]
 ];
 
 var recipeId = 0;
@@ -213,6 +215,12 @@ for row in crops {
         tier = 5;
     } else if (<ore:seedsTier6> has seed) {
         tier = 6;
+    } else if (<ore:seedsTier7> has seed) {
+        tier = 7;
+    } else if (<ore:seedsTier8> has seed) {
+        tier = 8;
+    } else if (<ore:seedsTier9> has seed) {
+        tier = 9;
     }
     RecipeBuilder.newBuilder(regName + "_grow_" + seed.name + "_" + recipeId, regName, time[tier] * 10, 0)
     .addItemInput(seed).setChance(0.0f)

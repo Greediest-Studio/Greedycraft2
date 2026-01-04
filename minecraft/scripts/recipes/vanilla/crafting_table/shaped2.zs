@@ -744,6 +744,21 @@ RecipeUtil.addShaped("black_quartz_essence", <actuallyadditions:item_misc:5> * 6
     [<mysticalagriculture:black_quartz_essence>, null, <mysticalagriculture:black_quartz_essence>],
     [<mysticalagriculture:black_quartz_essence>, <mysticalagriculture:black_quartz_essence>, <mysticalagriculture:black_quartz_essence>]
 ]);
+RecipeUtil.addShaped("seed_tier_7", <additions:seed_tier_7>, [
+    [null, <ore:essenceExtremium>, null],
+    [<ore:essenceExtremium>, <mysticalagradditions:insanium:1>, <ore:essenceExtremium>],
+    [null, <ore:essenceExtremium>, null]
+]);
+RecipeUtil.addShaped("seed_tier_8", <additions:seed_tier_8>, [
+    [null, <ore:essenceGodlikeum>, null],
+    [<ore:essenceGodlikeum>, <additions:seed_tier_7>, <ore:essenceGodlikeum>],
+    [null, <ore:essenceGodlikeum>, null]
+]);
+RecipeUtil.addShaped("seed_tier_9", <additions:seed_tier_9>, [
+    [null, <ore:essenceNonenium>, null],
+    [<ore:essenceNonenium>, <additions:seed_tier_8>, <ore:essenceNonenium>],
+    [null, <ore:essenceNonenium>, null]
+]);
 /*
  * RecipeUtil.addShaped("", , [
  *  [null, null, null],

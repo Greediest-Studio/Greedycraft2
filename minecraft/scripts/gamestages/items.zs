@@ -147,13 +147,13 @@ GameStagesUtil.stageGettingStarted.addIngredients([
 
 GameStagesUtil.stageFusionMatrix.addIngredients([
     <zensummoning:altar>,
+    <mysticalagriculture:fusion_matrix_essence>,
     <ore:oreDraconium>,
     <ore:ingotDraconium>,
     <ore:dustDraconium>,
     <ore:blockDraconium>,
     <ore:ingotElectronium>,
     <ore:blockElectronium>,
-    <mysticalcreations:fusion_matrix_essence>,
     <gct_ores:fallen_core>,
     <ore:dustWitherium>,
     <tiths:ingot_witherium>,
@@ -706,7 +706,8 @@ GameStagesUtil.stageCosmic.addIngredients([
     <additions:calculation_circuit_printed_3>,
     <additions:engineering_circuit_printed_3>,
     <additions:logic_circuit_printed_3>,
-    <additions:modular_dimensional_magnifier>
+    <additions:modular_dimensional_magnifier>,
+    <ore:essenceTier7>
 ], false);
 
 GameStagesUtil.stageBalancedMatrix.addIngredients([
@@ -803,7 +804,8 @@ GameStagesUtil.stageBetweenlandTraveller.addIngredients([
     <moretcon:itemtrichromadentiumsponge:1>,
     <moretcon:itemtrichromadentiumsponge:2>,
     <moretcon:itemtrichromadentiumsponge:3>,
-    <moretcon:itemtrichromadentiumsponge:4>
+    <moretcon:itemtrichromadentiumsponge:4>,
+    <additions:between_essence>
 ], false);
 
 GameStagesUtil.stageWarped.addIngredients([
@@ -2071,7 +2073,8 @@ GameStagesUtil.stageEpicEngineer.addIngredients([
     <ore:dustMagnesiumSulfateHydroxide>,
     <ore:sheetLDPE>,
     <ore:ingotPolyetheretherketone>,
-    <ore:ingotPyroxene>
+    <ore:ingotPyroxene>,
+    <additions:solid_culture_medium>
 ], true);
 
 GameStagesUtil.stageChallenger1.addIngredients([
@@ -2110,23 +2113,26 @@ GameStagesUtil.stageChallenger5.addIngredients([
 ], true);
 
 GameStagesUtil.stageChallenger6.addIngredients([
+    <ore:seedsTier6>,
     <ore:essenceInsanium>,
     <ore:ingotInsanium>,
     <tinymobfarm:inferno_farm>
 ], true);
 
 GameStagesUtil.stageChallenger7.addIngredients([
-    <ore:seedsTier6>,
+    <ore:seedsTier7>,
     <additions:extremium_essence>,
     <additions:extremium_ingot>
 ], true);
 
 GameStagesUtil.stageChallenger8.addIngredients([
+    <ore:seedsTier8>,
     <additions:godlikeum_essence>,
     <additions:godlikeum_ingot>
 ], true);
 
 GameStagesUtil.stageChallenger9.addIngredients([
+    //<ore:seedTier9>,
     <additions:nonenium_essence>,
     <additions:nonenium_ingot>
 ], true);
@@ -2172,6 +2178,7 @@ GameStagesUtil.stageGatekeeper.addIngredients([
 ], true);
 
 GameStagesUtil.stageFinal.addIngredients([
+    <ore:essenceTier8>,
     <gct_ores:shalloite>,
     <ore:oreArimite>,
     <ore:ingotArimite>,
