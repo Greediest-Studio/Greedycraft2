@@ -4,6 +4,7 @@
  */
 
 #priority 90
+#reloadable
 
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.IPlayerEvent;
@@ -43,6 +44,7 @@ import mods.nuclearcraft.RadiationScrubber;
 
 import native.net.minecraft.entity.player.EntityPlayerMP;
 import native.net.minecraft.inventory.Container;
+import native.net.minecraft.world.WorldProvider;
 import native.net.minecraft.item.ItemStack;
 import native.net.mcreator.gctmobs.gui.GuiKabalahBuilder.GuiContainerMod;
 
@@ -460,6 +462,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
             }
         }
     }
+
 });
 
 $expand Container$isStack(slotIndex as int, stackTarget as IItemStack) as bool {
