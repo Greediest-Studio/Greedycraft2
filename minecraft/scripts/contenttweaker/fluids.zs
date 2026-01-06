@@ -3538,6 +3538,18 @@ culture_medium.stillLocation = "base:fluids/liquid";
 culture_medium.flowingLocation = "base:fluids/liquid_flow";
 culture_medium.register();
 
+val molten_solid_culture_medium = mods.contenttweaker.VanillaFactory.createFluid("molten_solid_culture_medium", Color.fromHex("bdbdbd").getIntColor());
+molten_solid_culture_medium.material = <blockmaterial:water>;
+molten_solid_culture_medium.viscosity = 300;
+molten_solid_culture_medium.density = 800;
+molten_solid_culture_medium.colorize = true;
+molten_solid_culture_medium.temperature = 400;
+molten_solid_culture_medium.luminosity = 0;
+molten_solid_culture_medium.color = Color.fromHex("bdbdbd").getIntColor();
+molten_solid_culture_medium.stillLocation = "base:fluids/liquid";
+molten_solid_culture_medium.flowingLocation = "base:fluids/liquid_flow";
+molten_solid_culture_medium.register();
+
 val concentrated_soul_liquid = mods.contenttweaker.VanillaFactory.createFluid("concentrated_soul_liquid", Color.fromHex("afa68b").getIntColor());
 concentrated_soul_liquid.material = <blockmaterial:water>;
 concentrated_soul_liquid.viscosity = 300;

@@ -84,4 +84,5 @@ events.onEntityLivingUpdate(function(event as EntityLivingUpdateEvent) {
         }
         entity.getAttribute("generic.maxHealth").setBaseValue((playerAmount == 0 ? 1 : playerAmount) * 320);
     }
+
 });

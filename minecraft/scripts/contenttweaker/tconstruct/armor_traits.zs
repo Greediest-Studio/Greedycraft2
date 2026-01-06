@@ -4419,3 +4419,15 @@ atum_visionTrait.color = Color.fromHex("ffffff").getIntColor();
 atum_visionTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.atum_visionTrait.name");
 atum_visionTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.atum_visionTrait.desc");
 atum_visionTrait.register();
+
+val craven_survivalismTrait = ArmorTraitBuilder.create("craven_survivalism");
+craven_survivalismTrait.color = Color.fromHex("ffffff").getIntColor();
+craven_survivalismTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.craven_survivalismTrait.name");
+craven_survivalismTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.craven_survivalismTrait.desc");
+craven_survivalismTrait.register();
+
+val exskeletalTrait = ArmorTraitBuilder.create("exskeletal");
+exskeletalTrait.color = Color.fromHex("ffffff").getIntColor();
+exskeletalTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.exskeletalTrait.name");
+exskeletalTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.exskeletalTrait.desc");
+exskeletalTrait.register();

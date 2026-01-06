@@ -2467,7 +2467,8 @@ GameStagesUtil.stageDeepDream.addIngredients([
     <ore:oreNebu>,
     <ore:plateNebu>,
     <ore:dustNebu>,
-    <contenttweaker:dubhe_key>
+    <contenttweaker:dubhe_key>,
+    <additions:tarantula_leg>
 ], false);
 
 GameStagesUtil.stageLegendWizard.addIngredients([

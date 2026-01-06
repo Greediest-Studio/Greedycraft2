@@ -66,6 +66,7 @@ Transposer.addFillRecipe(<jaopca:dust.husturite>, <jaopca:dust.cthulhurite>, <li
 Transposer.addFillRecipe(<additions:glowing_crystal>, <astralsorcery:itemcraftingcomponent>, <liquid:glowstone> * 750, 3000);
 Transposer.addFillRecipe(<elementalend:arid_eye>, <minecraft:ender_eye>, <liquid:sand> * 5000, 20000);
 Transposer.addFillRecipe(<industrialforegoing:pink_slime_ingot>, <additions:stainless_steel_ingot>, <liquid:if.pink_slime> * 2000, 4000);
+Transposer.addFillRecipe(<additions:between_essence>, <mysticalagriculture:fertilized_essence>, <liquid:betweensludge> * 500, 25600);
 
 Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:1>, 200000);
 Infuser.addRecipe(<thaumcraft:primordial_pearl>, <thaumcraft:primordial_pearl:2>, 400000);

@@ -400,12 +400,26 @@ createLootRecipe("finallium_loot", [
     <additions:ant_emperor_ingot> * 2
 ], 35, 6.0E6 as long, 0);
 
+//狼育母
+createLootRecipe("finallium_loot", [
+    <additions:tarantula_leg>
+], [
+    <additions:tarantula_leg> * 5
+], 35, 8.0E6 as long, 0);
+
+//血腥主教
+createLootRecipe("finallium_loot", [
+    <additions:bloody_spironium_ingot>
+], [
+    <additions:crimson_fabric_enhanced> * 2
+], 40, 5.4E6 as long, 0);
+
 //奖励箱
 createLootRecipe("chromasteel_loot", [
     <journey:trophy>
 ], [
-    <ftbquests:lootcrate>.withTag({type: "loot_level_1"}) * 16,
-    <ftbquests:lootcrate>.withTag({type: "loot_level_2"}) * 8,
-    <ftbquests:lootcrate>.withTag({type: "loot_level_3"}) * 4,
+    <ftbquests:lootcrate>.withTag({type: "loot_level_1"}) * 8,
+    <ftbquests:lootcrate>.withTag({type: "loot_level_2"}) * 4,
+    <ftbquests:lootcrate>.withTag({type: "loot_level_3"}) * 2,
     <ftbquests:lootcrate>.withTag({type: "loot_level_4"})
 ], 20, 5.0E5 as long, 0);

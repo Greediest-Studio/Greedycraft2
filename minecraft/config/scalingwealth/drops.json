@@ -3803,6 +3803,15 @@
                     "item": "additions:ant_emperor_ingot"
                 }
             ]
+        },
+        "erebus:erebus.tarantula_mini_boss": {
+            "[0, 2147483647]": [
+                {
+                    "amount": "[4,8]",
+                    "chance": 1.0,
+                    "item": "additions:tarantula_leg"
+                }
+            ]
         }
     }
 }

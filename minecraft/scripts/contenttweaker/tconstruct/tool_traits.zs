@@ -34,6 +34,9 @@ import crafttweaker.potions.IPotionEffect;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.entity.IEntityLiving;
 import crafttweaker.text.ITextComponent;
+import crafttweaker.entity.AttributeModifier;
+import crafttweaker.entity.AttributeInstance;
+import crafttweaker.entity.Attribute;
 
 import mods.ctutils.utils.Math;
 import mods.contenttweaker.Fluid;
@@ -2199,7 +2202,7 @@ full_of_auraTrait.localizedDescription = game.localize("greedycraft.tconstruct.t
 full_of_auraTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
     if (attacker instanceof IPlayer) {
         var player as IPlayer = attacker;
-        if (target instanceof IEntityLivingBase && target.health == 0) {
+        if (target instanceof IEntityLivingBase && target.health <= 0) {
             var mtpstr = (Math.random() * 45000 + 5000) as string;
             mods.contenttweaker.Commands.call("naaura store " + mtpstr, player, player.world, false, true);
         }
@@ -2214,7 +2217,7 @@ manipulateTrait.localizedDescription = game.localize("greedycraft.tconstruct.too
 manipulateTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
     if (attacker instanceof IPlayer) {
         var player as IPlayer = attacker;
-        if (target instanceof IEntityLivingBase && target.health == 0) {
+        if (target instanceof IEntityLivingBase && target.health <= 0) {
             if (isNull(tool.tag.manipulate)) {
                 tool.mutable().updateTag({manipulate : {a : "null", b : "null", c : "null", d : "null", e : "null"}});
             } else {
@@ -2299,7 +2302,7 @@ soul_eaterTrait.localizedDescription = game.localize("greedycraft.tconstruct.too
 soul_eaterTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
     if (attacker instanceof IPlayer) {
         var player as IPlayer = attacker;
-        if (target instanceof IEntityLivingBase && target.health == 0) {
+        if (target instanceof IEntityLivingBase && target.health <= 0) {
             if (isNull(tool.tag.killcount)) {
                 tool.mutable().updateTag({killcount : 1 as int});
             } else {
@@ -2332,7 +2335,7 @@ soul_eater2Trait.localizedDescription = game.localize("greedycraft.tconstruct.to
 soul_eater2Trait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
     if (attacker instanceof IPlayer) {
         var player as IPlayer = attacker;
-        if (target instanceof IEntityLivingBase && target.health == 0) {
+        if (target instanceof IEntityLivingBase && target.health <= 0) {
             if (isNull(tool.tag.killcount)) {
                 tool.mutable().updateTag({killcount : 1 as int});
             } else {
@@ -2365,7 +2368,7 @@ soul_eater3Trait.localizedDescription = game.localize("greedycraft.tconstruct.to
 soul_eater3Trait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
     if (attacker instanceof IPlayer) {
         var player as IPlayer = attacker;
-        if (target instanceof IEntityLivingBase && target.health == 0) {
+        if (target instanceof IEntityLivingBase && target.health <= 0) {
             if (isNull(tool.tag.killcount)) {
                 tool.mutable().updateTag({killcount : 1 as int});
             } else {
@@ -2398,7 +2401,7 @@ soul_eater4Trait.localizedDescription = game.localize("greedycraft.tconstruct.to
 soul_eater4Trait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
     if (attacker instanceof IPlayer) {
         var player as IPlayer = attacker;
-        if (target instanceof IEntityLivingBase && target.health == 0) {
+        if (target instanceof IEntityLivingBase && target.health <= 0) {
             if (isNull(tool.tag.killcount)) {
                 tool.mutable().updateTag({killcount : 1 as int});
             } else {
@@ -2431,7 +2434,7 @@ soul_eater5Trait.localizedDescription = game.localize("greedycraft.tconstruct.to
 soul_eater5Trait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
     if (attacker instanceof IPlayer) {
         var player as IPlayer = attacker;
-        if (target instanceof IEntityLivingBase && target.health == 0) {
+        if (target instanceof IEntityLivingBase && target.health <= 0) {
             if (isNull(tool.tag.killcount)) {
                 tool.mutable().updateTag({killcount : 1 as int});
             } else {
@@ -2464,7 +2467,7 @@ burntTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_tra
 burntTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
     if (attacker instanceof IPlayer) {
         var player as IPlayer = attacker;
-        if (target instanceof IEntityLivingBase && target.health == 0) {
+        if (target instanceof IEntityLivingBase && target.health <= 0) {
             var x as int = target.getX() as int;
             var y as int = target.getY() as int;
             var z as int = target.getZ() as int;
@@ -3988,7 +3991,7 @@ wavetroughTrait.afterHit = function(trait, tool, attacker, target, damageDealt, 
     if (attacker instanceof IPlayer && target instanceof IEntityLivingBase) {
         var player as IPlayer = attacker;
         var entity as IEntityLivingBase = target;
-        if (target.health == 0 && player.health <= target.maxHealth * 0.5f) {
+        if (target.health <= 0 && player.health <= target.maxHealth * 0.5f) {
             player.heal(8.0f);
         }
     }
@@ -5177,3 +5180,41 @@ bloodriseTrait.afterHit = function(trait, tool, attacker, target, damageDealt, w
     }
 };
 bloodriseTrait.register();
+
+val insect_eaterTrait = TraitBuilder.create("insect_eater");
+insect_eaterTrait.color = Color.fromHex("ffffff").getIntColor(); 
+insect_eaterTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.insect_eaterTrait.name");
+insect_eaterTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.insect_eaterTrait.desc");
+insect_eaterTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (wasHit && target instanceof IEntityLiving && target.health <= 0.0f) {
+            if (player.dimension == 66) {
+                player.foodStats.foodLevel = Math.min(player.foodStats.foodLevel + 2, 20);
+            }
+        }
+    }
+};
+insect_eaterTrait.register();
+
+val craven_survivalismTrait = TraitBuilder.create("craven_survivalism");
+craven_survivalismTrait.color = Color.fromHex("ffffff").getIntColor(); 
+craven_survivalismTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.craven_survivalismTrait.name");
+craven_survivalismTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.craven_survivalismTrait.desc");
+craven_survivalismTrait.register();
+
+val heatstrokeTrait = TraitBuilder.create("heatstroke");
+heatstrokeTrait.color = Color.fromHex("ffffff").getIntColor(); 
+heatstrokeTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.heatstrokeTrait.name");
+heatstrokeTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.heatstrokeTrait.desc");
+heatstrokeTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        var biome as IBiome = player.world.getBiome(player.position);
+        if (biome.rainfall == 0.0f) {
+            return newDamage * 2.5f;
+        }
+    }
+    return newDamage;
+};
+heatstrokeTrait.register();

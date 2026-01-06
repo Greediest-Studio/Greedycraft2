@@ -44,5 +44,6 @@ registerSeedRecipe(<mysticalagriculture:infernium_seeds>, <additions:infernium_i
 registerSeedRecipe(<mysticalagriculture:titanium_seeds>, <additions:titanium_ingot>, 6, 1, <mysticalagriculture:titanium_essence>, <additions:titanium_nugget>);
 
 registerSeedRecipe(<mysticalagriculture:dawnstone_gc_seeds>, <embers:ingot_dawnstone>, 7, 3, <mysticalagriculture:dawnstone_gc_essence>, <embers:nugget_dawnstone>);
+registerSeedRecipe(<mysticalagriculture:uracilite_seeds>, <additions:uracilite_ingot>, 7, 1, <mysticalagriculture:uracilite_essence>, <additions:uracilite_ingot>);
 
 registerSeedRecipe(<mysticalagriculture:balanced_matrix_seeds>, <gct_ores:balanced_matrix_ingot>, 8, 2, <mysticalagriculture:balanced_matrix_essence>, <jaopca:nugget.balanced_matrix>);

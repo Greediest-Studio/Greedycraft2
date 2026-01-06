@@ -29,6 +29,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.entity.IEntityEquipmentSlot;
 import crafttweaker.item.IMutableItemStack;
+import crafttweaker.entity.AttributeModifier;
 import mods.zenutils.DataUpdateOperation.OVERWRITE;
 import mods.zenutils.DataUpdateOperation.APPEND;
 import mods.zenutils.DataUpdateOperation.MERGE;
@@ -42,12 +43,16 @@ import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
 import mods.nuclearcraft.RadiationScrubber;
 
+import native.net.minecraft.util.ResourceLocation;
 import native.net.minecraft.entity.player.EntityPlayerMP;
 import native.net.minecraft.inventory.Container;
 import native.net.minecraft.world.WorldProvider;
 import native.net.minecraft.item.ItemStack;
 import native.net.mcreator.gctmobs.gui.GuiKabalahBuilder.GuiContainerMod;
 import native.com.teammetallurgy.atum.utils.AtumRenderHelper;
+import native.baubles.api.BaublesApi;
+import native.baubles.api.inv.SlotDefinition;
+import native.baubles.common.init.SlotDefinitions;
 
 val advancementMap as string[string] = {
     twilight_forest: "greedycraft:elysia/log1",
@@ -529,6 +534,56 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
         AtumRenderHelper.setFogAndSandRenderFactor(player.native, 0.2f);
     } else {
         AtumRenderHelper.setFogAndSandRenderFactor(player.native, 1.0f);
+    }
+
+    //Heatstroke Trait
+    var heatstrokeModifier = AttributeModifier.createModifier("generic.maxHealth", 0.5f, 1, "19584374-3cb5-4f6d-8f2d-1a2b3c4d5e6f");
+    var isHeatstroke as bool = false;
+    if (!isNull(player.mainHandHeldItem)) {
+        if (TicTraitLib.hasTicTrait(player.mainHandHeldItem, "heatstroke")) isHeatstroke = true;
+    }
+    if (!isNull(player.offHandHeldItem) && !isHeatstroke) {
+        if (TicTraitLib.hasTicTrait(player.offHandHeldItem, "heatstroke")) isHeatstroke = true;
+    }
+    if (isHeatstroke && player.world.getBiome(player.position).rainfall == 0.0f) {
+        if (!player.getAttribute("generic.maxHealth").hasModifier(heatstrokeModifier)) {
+            player.getAttribute("generic.maxHealth").applyModifier(heatstrokeModifier);
+        }
+    } else {
+        if (player.getAttribute("generic.maxHealth").hasModifier(heatstrokeModifier)) {
+            player.getAttribute("generic.maxHealth").removeModifier("19584374-3cb5-4f6d-8f2d-1a2b3c4d5e6f");
+        }
+    }
+
+    //Exskeletal Trait
+    var count as int = 8;
+    if (!(isNull(player.armorInventory) || player.armorInventory.length == 0)) {
+        for armor in player.armorInventory {
+            if (!isNull(armor)) {
+                if (TicTraitLib.hasTicTrait(armor, "exskeletal_armor")) {
+                    count += 1;
+                    continue;
+                }
+            }
+        }
+    }
+    var maxSlot as int = BaublesApi.getBaublesHandler(player.native).getRealBaubleSlots();
+    var ringSlot as int = 0;
+    for i in 0 to maxSlot {
+        var slotDef as SlotDefinition = BaublesApi.getBaublesHandler(player.native).getSlot(i);
+        if (slotDef.getRegistryName().toString() == "baubles:ring") ringSlot += 1;
+    }
+
+    if (count > ringSlot) {
+        for i in 1 to (count - ringSlot + 1) {
+            var newRingSlot as SlotDefinition = SlotDefinitions.get(ResourceLocation("baubles:ring"));
+            BaublesApi.getBaublesHandler(player.native).addSlot(newRingSlot);
+        }
+    } else if (ringSlot > count) {
+        for i in 1 to (ringSlot - count + 1) {
+            var deleteRingSlot as SlotDefinition = SlotDefinitions.get(ResourceLocation("baubles:ring"));
+            BaublesApi.getBaublesHandler(player.native).removeSlot(deleteRingSlot);
+        }
     }
 
 });

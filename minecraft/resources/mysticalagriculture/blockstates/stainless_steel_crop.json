@@ -1,12 +1,12 @@
 {
   "variants": {
-    "age=0": { "model": "mysticalagriculture:stainless_steel_crop0" },
-    "age=1": { "model": "mysticalagriculture:stainless_steel_crop1" },
-    "age=2": { "model": "mysticalagriculture:stainless_steel_crop2" },
-    "age=3": { "model": "mysticalagriculture:stainless_steel_crop2" },
-    "age=4": { "model": "mysticalagriculture:stainless_steel_crop3" },
-    "age=5": { "model": "mysticalagriculture:stainless_steel_crop4" },
-    "age=6": { "model": "mysticalagriculture:stainless_steel_crop4" },
+    "age=0": { "model": "mysticalagriculture:crop0" },
+    "age=1": { "model": "mysticalagriculture:crop1" },
+    "age=2": { "model": "mysticalagriculture:crop2" },
+    "age=3": { "model": "mysticalagriculture:crop2" },
+    "age=4": { "model": "mysticalagriculture:crop3" },
+    "age=5": { "model": "mysticalagriculture:crop4" },
+    "age=6": { "model": "mysticalagriculture:crop4" },
     "age=7": { "model": "mysticalagriculture:stainless_steel_crop" }
   }
 }

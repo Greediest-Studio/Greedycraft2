@@ -317,6 +317,7 @@ Casting.addTableRecipe(<mca:rose_gold_ingot>, <tconstruct:cast_custom>, <liquid:
 Casting.addTableRecipe(<tconstruct:pick_head>.withTag({Material: "imitatium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:pick_head"}), <liquid:imitatium>, 432, false, 200);
 Casting.addTableRecipe(<elementalend:order_eye>, <minecraft:ender_eye>, <liquid:balancite>, 1440, true, 200);
 Casting.addTableRecipe(<additions:evilblood_drop>, <additions:eldritch_slime>, <liquid:evilblood_fluid>, 250, true, 200);
+Casting.addTableRecipe(<additions:solid_culture_medium>, null, <liquid:molten_solid_culture_medium>, 2500, false, 1000);
 
 Melting.removeRecipe(<liquid:gold>, <minecraft:golden_rail>);
 Melting.removeRecipe(<liquid:iron>, <minecraft:activator_rail>);

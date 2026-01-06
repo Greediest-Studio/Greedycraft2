@@ -14,6 +14,11 @@ import crafttweaker.oredict.IOreDictEntry;
 
 import scripts.util.oredict as OredictUtil;
 
+<ore:gemEden>.remove(<divinerpg:eden_gem>);
+<ore:gemWildwood>.remove(<divinerpg:wildwood_gem>);
+<ore:gemApalachia>.remove(<divinerpg:apalachia_gem>);
+<ore:gemSkythern>.remove(<divinerpg:skythern_gem>);
+<ore:gemMortum>.remove(<divinerpg:mortum_gem>);
 <ore:ingotNetherite>.remove(<divinerpg:netherite_ingot>);
 <ore:blockNetherite>.remove(<divinerpg:netherite_block>);
 <ore:oreNetherite>.remove(<divinerpg:netherite_ore>);
@@ -1263,7 +1268,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <erebus:grandmas_shoes_mushroom>,
         <erebus:dutch_cap_mushroom>,
         <erebus:kaizers_fingers_mushroom>
-    ]
+    ],
+    <ore:gemSpiderLegTarantula> : [<additions:tarantula_leg>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {
