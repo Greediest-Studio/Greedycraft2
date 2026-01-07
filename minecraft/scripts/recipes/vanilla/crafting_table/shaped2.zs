@@ -24,12 +24,15 @@ recipes.remove(<mekeng:gas_core_2g>);
 recipes.remove(<enderutilities:enderpart:30>);
 recipes.remove(<enderutilities:handybag:1>);
 recipes.remove(<crazyae:perfect_interface>);
+recipes.remove(<mekanismmultiblockmachine:largewindgenerator>);
+recipes.remove(<mekanismmultiblockmachine:largegasgenerator>);
 recipes.removeByRecipeName("biomesoplenty:amber_block");
 recipes.removeByRecipeName("biomesoplenty:amber");
 recipes.removeByRecipeName("betterendforge:amber_block");
 recipes.removeByRecipeName("botania:quartztypedark_0");
 recipes.removeByRecipeName("thaumictinkerer:black_quartz_block");
 recipes.removeByRecipeName("actuallyadditions:recipes149");
+
 
 
 RecipeUtil.addShaped("me_gas_2g", <mekeng:gas_core_2g>, [
