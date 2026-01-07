@@ -5218,3 +5218,17 @@ heatstrokeTrait.calcDamage = function(trait, tool, attacker, target, originalDam
     return newDamage;
 };
 heatstrokeTrait.register();
+
+val collisionTrait = TraitBuilder.create("collision");
+collisionTrait.color = Color.fromHex("ffffff").getIntColor(); 
+collisionTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.collisionTrait.name");
+collisionTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.collisionTrait.desc");
+collisionTrait.calcKnockBack = function(trait, tool, attacker, target, damage, originalKnockBack, newKnockBack, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        player.addPotionEffect(<potion:minecraft:weakness>.makePotionEffect(300, 15, false, true));
+        return newKnockBack * 2.5f;
+    }
+    return newKnockBack;
+};
+collisionTrait.register();

@@ -4590,6 +4590,32 @@
       "enableFletching": false,
       "enableProjectile": false
     },
+    "name": "rhino_horn",
+    "material": true,
+    "fluid": false,
+    "traits": true,
+    "armorOptions": {
+      "enableArmor": false,
+      "enableCore": false,
+      "enablePlates": false,
+      "enableTrim": false
+    }
+  },
+  {
+    "toolOptions": {
+      "enableTool": false,
+      "enableHead": false,
+      "enableHandle": false,
+      "enableExtra": false
+    },
+    "rangedOptions": {
+      "enableRanged": false,
+      "enableBow": false,
+      "enableBowString": false,
+      "enableShaft": false,
+      "enableFletching": false,
+      "enableProjectile": false
+    },
     "name": "diamatine_actadd_plustic",
     "material": true,
     "fluid": false,

@@ -456,7 +456,14 @@ greedycraft.tconstruct.material.tarantula_leg.name=狼育母蛛腿
 greedycraft.tconstruct.material.nebu.name=奈布
 greedycraft.tconstruct.material.reversed_orichalcos.name=反相奥利哈刚
 greedycraft.tconstruct.material.exoskeleton_plate.name=外骨骼板
+greedycraft.tconstruct.material.extended_exoskeleton_plate.name=增强外骨骼板
+greedycraft.tconstruct.material.mana_diamond.name=魔力钻石
+greedycraft.tconstruct.material.dragonstone.name=龙石
+greedycraft.tconstruct.material.rhino_horn.name=独角仙角
+greedycraft.tconstruct.material.rhino_shell.name=独角仙外壳
 #护甲词条
+greedycraft.tconstruct.armor_trait.reachTrait.name=延伸
+greedycraft.tconstruct.armor_trait.reachTrait.desc=§o天使之臂！\n§r当穿戴这个护甲，你可以触碰的更远。
 greedycraft.tconstruct.armor_trait.bloodlustTrait.name=嗜血
 greedycraft.tconstruct.armor_trait.bloodlustTrait.desc=§o鲜血的呼唤！§r\n§f你的护甲将会以三倍的速度损失耐久，但每次损失耐久时你将恢复3点生命值。
 greedycraft.tconstruct.armor_trait.barrier_toughTrait.name=障壁
@@ -911,6 +918,8 @@ greedycraft.tconstruct.armor_trait.craven_survivalismTrait.desc=§o好死不如�
 greedycraft.tconstruct.armor_trait.exskeletalTrait.name=外骨骼
 greedycraft.tconstruct.armor_trait.exskeletalTrait.desc=§o或许是多了一根手指！\n§r为饰品栏增加一个戒指槽位！
 #工具词条
+greedycraft.tconstruct.tool_trait.collisionTrait.name=冲撞
+greedycraft.tconstruct.tool_trait.collisionTrait.desc=§o昆虫恐惧症！\n§r攻击时造成较强击退，同时附加给对手强力的虚弱效果。
 greedycraft.tconstruct.tool_trait.heatstrokeTrait.name=中暑
 greedycraft.tconstruct.tool_trait.heatstrokeTrait.desc=§o太阳晒得我头晕眼花！\n§r当你在热带群系使用这把工具时，它可以透支你的体力（伤害×2.5）……作为代价，你的最大生命值会临时减半。
 greedycraft.tconstruct.tool_trait.craven_survivalismTrait.name=贪生怕死

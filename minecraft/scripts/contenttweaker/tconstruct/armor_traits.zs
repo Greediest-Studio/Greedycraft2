@@ -4431,3 +4431,26 @@ exskeletalTrait.color = Color.fromHex("ffffff").getIntColor();
 exskeletalTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.exskeletalTrait.name");
 exskeletalTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.exskeletalTrait.desc");
 exskeletalTrait.register();
+
+val reachTrait = ArmorTraitBuilder.create("reach");
+reachTrait.color = Color.fromHex("ffffff").getIntColor();
+reachTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.reachTrait.name");
+reachTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.reachTrait.desc");
+reachTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        var reachAttribute as AttributeModifier = AttributeModifier.createModifier("generic.reachDistance", 5.0f, 0, "a3f1c2d4-9b7e-4a68-8f5d-12e4b0c9a6f1");
+        if (!player.getAttribute("generic.reachDistance").hasModifier(reachAttribute)) {
+            player.getAttribute("generic.reachDistance").applyModifier(reachAttribute);
+        }
+    }
+};
+reachTrait.onArmorRemove = function(trait, armor, player, index) {
+    if (!isNull(player)) {
+        var reachAttribute as AttributeModifier = AttributeModifier.createModifier("generic.reachDistance", 5.0f, 0, "a3f1c2d4-9b7e-4a68-8f5d-12e4b0c9a6f1");
+        if (player.getAttribute("generic.reachDistance").hasModifier(reachAttribute)) {
+            player.getAttribute("generic.reachDistance").removeModifier("a3f1c2d4-9b7e-4a68-8f5d-12e4b0c9a6f1");
+        }
+    }
+};
+reachTrait.register();
+

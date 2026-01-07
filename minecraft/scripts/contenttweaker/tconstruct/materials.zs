@@ -187,6 +187,38 @@ diamond.addBowMaterialStats(getDrawSpeed(1.65) as float, 1.2, 7.0);
 diamond.addProjectileMaterialStats();
 diamond.register();
 
+val mana_diamond = ExtendedMaterialBuilder.create("mana_diamond");
+mana_diamond.color = Color.fromHex("a0f8ff").getIntColor();
+mana_diamond.craftable = true;
+mana_diamond.castable = false;
+mana_diamond.representativeItem = <item:botania:manaresource:2>;
+mana_diamond.addItem(<ore:gemManaDiamond>);
+mana_diamond.localizedName = game.localize("greedycraft.tconstruct.material.mana_diamond.name");
+mana_diamond.addHeadMaterialStats(850, 6.4, 6.2, 3);
+mana_diamond.addHandleMaterialStats(1.3, 650);
+mana_diamond.addExtraMaterialStats(1350);
+mana_diamond.addBowMaterialStats(getDrawSpeed(1.8) as float, 1.3, 7.5);
+mana_diamond.addCoreMaterialStats(95, 17);
+mana_diamond.addPlatesMaterialStats(1.45, 35, 2);
+mana_diamond.addTrimMaterialStats(23);
+mana_diamond.register();
+
+val dragonstone = ExtendedMaterialBuilder.create("dragonstone");
+dragonstone.color = Color.fromHex("f1a8d8").getIntColor();
+dragonstone.craftable = true;
+dragonstone.castable = false;
+dragonstone.representativeItem = <item:botania:manaresource:9>;
+dragonstone.addItem(<ore:gemDragonstone>);
+dragonstone.localizedName = game.localize("greedycraft.tconstruct.material.dragonstone.name");
+dragonstone.addHeadMaterialStats(625, 10.4, 11.8, 4);
+dragonstone.addHandleMaterialStats(0.9, 550);
+dragonstone.addExtraMaterialStats(650);
+dragonstone.addBowMaterialStats(getDrawSpeed(1.2) as float, 2.15, 10);
+dragonstone.addCoreMaterialStats(72, 20);
+dragonstone.addPlatesMaterialStats(1.2, 10, 3);
+dragonstone.addTrimMaterialStats(19);
+dragonstone.register();
+
 val gold = MaterialBuilder.create("gold");
 gold.color = Color.fromHex("fdd835").getIntColor(); 
 gold.craftable = false;
@@ -1009,6 +1041,30 @@ tarantula_leg.addHeadMaterialStats(7500, 4.8, 206, 13);
 tarantula_leg.addExtraMaterialStats(1500);
 tarantula_leg.register();
 
+val rhino_horn = ExtendedMaterialBuilder.create("rhino_horn");
+rhino_horn.color = Color.fromHex("222222").getIntColor();
+rhino_horn.craftable = true;
+rhino_horn.castable = false;
+rhino_horn.representativeItem = <item:erebus:materials:36>;
+rhino_horn.addItem(<item:erebus:materials:36>);
+rhino_horn.localizedName = game.localize("greedycraft.tconstruct.material.rhino_horn.name");
+rhino_horn.addHeadMaterialStats(6775, 33.6, 194.5, 13);
+rhino_horn.addHandleMaterialStats(3.85, -905);
+rhino_horn.addExtraMaterialStats(1305);
+rhino_horn.register();
+
+val rhino_shell = ExtendedMaterialBuilder.create("rhino_shell");
+rhino_shell.color = Color.fromHex("222222").getIntColor();
+rhino_shell.craftable = true;
+rhino_shell.castable = false;
+rhino_shell.representativeItem = <item:erebus:materials:35>;
+rhino_shell.addItem(<item:erebus:materials:35>);
+rhino_shell.localizedName = game.localize("greedycraft.tconstruct.material.rhino_shell.name");
+rhino_shell.addCoreMaterialStats(1054, 196);
+rhino_shell.addPlatesMaterialStats(18, 328, 19);
+rhino_shell.addTrimMaterialStats(341);
+rhino_shell.register();
+
 val exoskeleton_plate = ExtendedMaterialBuilder.create("exoskeleton_plate");
 exoskeleton_plate.color = Color.fromHex("c1c1b6").getIntColor();
 exoskeleton_plate.craftable = true;
@@ -1020,6 +1076,18 @@ exoskeleton_plate.addCoreMaterialStats(975, 150);
 exoskeleton_plate.addPlatesMaterialStats(21, 305, 16);
 exoskeleton_plate.addTrimMaterialStats(295);
 exoskeleton_plate.register();
+
+val extended_exoskeleton_plate = ExtendedMaterialBuilder.create("extended_exoskeleton_plate");
+extended_exoskeleton_plate.color = Color.fromHex("ccccc5").getIntColor();
+extended_exoskeleton_plate.craftable = true;
+extended_exoskeleton_plate.castable = false;
+extended_exoskeleton_plate.representativeItem = <item:erebus:materials:15>;
+extended_exoskeleton_plate.addItem(<item:erebus:materials:15>);
+extended_exoskeleton_plate.localizedName = game.localize("greedycraft.tconstruct.material.extended_exoskeleton_plate.name");
+extended_exoskeleton_plate.addCoreMaterialStats(1025, 175);
+extended_exoskeleton_plate.addPlatesMaterialStats(23, 330, 19);
+extended_exoskeleton_plate.addTrimMaterialStats(305);
+extended_exoskeleton_plate.register();
 
 val aeroite = MaterialBuilder.create("aeroite");
 aeroite.color = Color.fromHex("00e5ff").getIntColor(); 

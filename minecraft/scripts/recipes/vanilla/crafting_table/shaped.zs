@@ -270,11 +270,6 @@ RecipeUtil.addShaped("tofustick", <tofucraft:tofustick>, [
     [<minecraft:gold_block>, <tofucraft:blocktofumomen>, <minecraft:gold_block>],
     [null, <minecraft:stick>, null]
 ]);
-RecipeUtil.addShaped("thaumcraft_nugget", <thaumcraft:nugget:10>, [
-    [null, <minecraft:dirt>, null],
-    [<minecraft:dirt>, <minecraft:gold_block>, <minecraft:dirt>],
-    [null, <minecraft:dirt>, null]
-]);
 RecipeUtil.addShaped("dragonegg", <minecraft:dragon_egg>, [
     [null, <ore:scaleDragonEnder>, null],
     [<ore:scaleDragonEnder>, <ore:netherStar>, <ore:scaleDragonEnder>],
@@ -619,11 +614,6 @@ RecipeUtil.addShaped("auto_gen_-1750189736", <cyclicmagic:cable_wireless_fluid>,
     [<thermalfoundation:material:167>, <minecraft:ender_eye>, <thermalfoundation:material:167>],
     [<minecraft:ender_eye>, <minecraft:bucket>, <minecraft:ender_eye>],
     [<thermalfoundation:material:167>, <minecraft:ender_eye>, <thermalfoundation:material:167>]
-]);
-RecipeUtil.addShaped("auto_gen_-1513078655", <cyclicmagic:battery>, [
-    [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>],
-    [<ore:ingotTin>, <thaumcraft:nugget:10>, <ore:ingotTin>],
-    [<ore:ingotTin>, <ore:ingotTin>, <ore:ingotTin>]
 ]);
 RecipeUtil.addShaped("auto_gen_918073950", <waystones:warp_stone>, [
     [<ore:obsidian>, <ore:gemDiamond>, <ore:obsidian>],
