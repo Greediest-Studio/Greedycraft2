@@ -92,7 +92,8 @@ GameStagesUtil.stageChaoticDominator.addIngredients([
     <ore:dustIvorium>,
     <additions:ebony_and_lvory>,
     <contenttweaker:chaos_heart>,
-    <ometweaks:blackhole_capacitor>
+    <ometweaks:blackhole_capacitor>,
+    <ometweaks:twilit_capacitor>
 ], true);
 
 GameStagesUtil.stageGettingStarted.addIngredients([

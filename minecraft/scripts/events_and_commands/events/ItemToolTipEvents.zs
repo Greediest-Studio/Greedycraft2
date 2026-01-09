@@ -6,15 +6,10 @@ import crafttweaker.item.IItemStack;
 import native.net.minecraftforge.event.entity.player.ItemTooltipEvent;
 import native.net.minecraft.client.gui.GuiScreen;
 
-var EIOitemStackString as string[] = [
-    "ometweaks:blackhole_capacitor",
-    "ometweaks:creative_capacitor",
-    "avaritiaio:infinitecapacitor"
-];
-
 var EIOitemLevelList as string[string] = {
     "ometweaks:blackhole_capacitor": "§7全局等级： §f6.0",
     "ometweaks:creative_capacitor": "§7全局等级： §b7.0",
+    "ometweaks:twilit_capacitor": "§7全局等级： §f6.3",
     "avaritiaio:infinitecapacitor": "§7全局等级： §c1§e0§a.§b0"
 };
 
@@ -23,7 +18,7 @@ events.register(function(event as ItemTooltipEvent) {
     
     //EIO Capacitor Tooltip
     if (!isNull(itemStack.definition)) {
-        if (EIOitemStackString has itemStack.definition.id) {
+        if (EIOitemLevelList.keys has itemStack.definition.id) {
             if (GuiScreen.isShiftKeyDown()) {
                 event.getToolTip()[0 .. 1].add("§7机器升级\n增加储能和速率/工作范围");
             } else {

@@ -8,6 +8,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
+import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 
 import mods.tconstruct.Melting;
@@ -34,6 +35,25 @@ function addBasicTicMetalRecipe(od as string, liquid as ILiquidStack, temperatur
     Melting.addRecipe(liquid * (144 * 4), gearOd, (temperature * 1.15f) as int);
     if (!isNull(ingotOd.firstItem)) Casting.addTableRecipe(ingotOd.firstItem, <tconstruct:cast_custom>, liquid, 144, false, 200);
     if (!isNull(blockOd.firstItem)) Casting.addBasinRecipe(blockOd.firstItem, null, liquid, 1296, false, 300);
+}
+
+function addTableBasicRecipe(output as IItemStack, cast as IIngredient, fluid as ILiquidStack, amount as int, consumeCast as bool, time as int) as void {
+    if (cast instanceof IItemStack) {
+        var castStack as IItemStack = cast;
+        if (castStack.definition.id == "tconstruct:cast_custom") {
+            Casting.addTableRecipe(output, cast, fluid, amount, consumeCast, time);
+            Casting.addTableRecipe(output, itemUtils.getItem("tinkertoolcasts:cast_advanced", castStack.metadata), fluid, amount, consumeCast, (0.8f * time as float) as int);
+            Casting.addTableRecipe(output, itemUtils.getItem("tinkertoolcasts:cast_reinforced", castStack.metadata), fluid, amount, consumeCast, (0.6f * time as float) as int);
+            Casting.addTableRecipe(output, itemUtils.getItem("tinkertoolcasts:cast_iridium", castStack.metadata), fluid, amount, consumeCast, (0.4f * time as float) as int);
+            Casting.addTableRecipe(output, itemUtils.getItem("tinkertoolcasts:cast_ultimate", castStack.metadata), fluid, amount, consumeCast, (0.2f * time as float) as int);
+            Casting.addTableRecipe(output, itemUtils.getItem("tinkertoolcasts:cast_creative", castStack.metadata), fluid, amount, consumeCast, 0);
+        } else {
+            Casting.addTableRecipe(output, cast, fluid, amount, consumeCast, time);
+        }
+    } else {
+        Casting.addTableRecipe(output, cast, fluid, amount, consumeCast, time);
+    }
+    return;
 }
 
 addBasicTicMetalRecipe("Ignite", <liquid:ignite>, 850);
@@ -255,69 +275,69 @@ Casting.addBasinRecipe(<tiths:block_oraclium>, null, <liquid:oraclium>, VOLUME_B
 Casting.addBasinRecipe(<journey:hellstoneblock>, null, <liquid:bloodcrust>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<mca:rose_gold_block>, null, <liquid:rose_gold>, VOLUME_BLOCK, false, 300);
 
-Casting.addTableRecipe(<abyssalcraft:ethaxiumingot>, <tconstruct:cast_custom>, <liquid:ethaxium>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<additions:astral_metal_ingot>, <tconstruct:cast_custom>, <liquid:astral_metal>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<additions:cosmilite_ingot>, <tconstruct:cast_custom>, <liquid:cosmilite>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<additions:crimsonite_ingot>, <tconstruct:cast_custom>, <liquid:crimsonite>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<additions:electronium_ingot>, <tconstruct:cast_custom>, <liquid:electronium>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<additions:cryonic_artifact>, <minecraft:emerald>, <liquid:cryotheum>, 10000, true, 200);
-Casting.addTableRecipe(<additions:experience_ingot>, <tconstruct:cast_custom>, <liquid:experience>, VOLUME_INGOT, false, 80);
-Casting.addTableRecipe(<additions:experience_nugget>, <tconstruct:cast_custom:1>, <liquid:experience>, 16, false, 20);
-Casting.addTableRecipe(<additions:pearl_of_knowledge>, <minecraft:emerald>, <liquid:experience>, 944784, true, 600);
-Casting.addTableRecipe(<additions:stainless_steel_ball>, <tconstruct:cast_custom:2>, <liquid:stainless_steel>, 30, false, 60);
-Casting.addTableRecipe(<additions:netherite_ingot>, <tconstruct:cast_custom>, <liquid:netherite>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<additions:netherite_scrap>, <tconstruct:cast_custom>, <liquid:ancient_debris>, 160, false, 200);
-Casting.addTableRecipe(<additions:protonium_ingot>, <tconstruct:cast_custom>, <liquid:protonium>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<additions:stainless_steel_ingot>, <tconstruct:cast_custom>, <liquid:stainless_steel>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<additions:terra_alloy_ingot>, <tconstruct:cast_custom>, <liquid:terra_alloy>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<additions:manganese_steel_ingot>, <tconstruct:cast_custom>, <liquid:manganese_steel>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<botania:manaresource:14>, <tconstruct:cast_custom>, <liquid:gaia>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<candymod:chocolate_bar>, <tconstruct:cast_custom>, <liquid:cosmilite>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<defiledlands:ravaging_ingot>, <tconstruct:cast_custom>, <liquid:ravaging>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<extrabotany:material:1>, <tconstruct:cast_custom>, <liquid:orichalcos>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<harvestcraft:cheeseitem>, null, <liquid:milk>, 20, false, 200);
-Casting.addTableRecipe(<harvestcraft:cheeseitem>, null, <liquid:milk>, 200, false);
-Casting.addTableRecipe(<minecraft:coal>, <tconstruct:cast_custom:2>, <liquid:coal>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<modularmachinery:itemmodularium>, <tconstruct:cast_custom>, <liquid:modularium>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<tcomplement:materials:1>, <tconstruct:cast_custom>, <liquid:scorched>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<tconevo:material>, <tconstruct:cast_custom>, <liquid:fusion_matrix>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<thaumadditions:adaminite_ingot>, <tconstruct:cast_custom>, <liquid:adaminite>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<thaumadditions:mithminite_ingot>, <tconstruct:cast_custom>, <liquid:mithminite>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<thaumadditions:mithrillium_ingot>, <tconstruct:cast_custom>, <liquid:mithrillium>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<additions:durasteel_ingot>, <tconstruct:cast_custom>, <liquid:durasteel>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<additions:aeonsteel_ingot>, <tconstruct:cast_custom>, <liquid:aeonsteel>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<additions:chromasteel_ingot>, <tconstruct:cast_custom>, <liquid:chromasteel>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<randomthings:ingredient:3>, <tconstruct:cast_custom>, <liquid:spectre>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<botanicadds:gaiasteel_ingot>, <tconstruct:cast_custom>, <liquid:gaiasteel>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<draconicevolution:draconic_ingot>, <tconstruct:cast_custom>, <liquid:awakened_draconium>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<gct_ores:chaotic_draconium_ingot>, <tconstruct:cast_custom>, <liquid:chaotic_draconium>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<gct_ores:balanced_matrix_ingot>, <tconstruct:cast_custom>, <liquid:balanced_matrix>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<additions:titanium_ingot>, <tconstruct:cast_custom>, <liquid:titanium>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<additions:titanium_nugget>, <tconstruct:cast_custom:1>, <liquid:titanium>, VOLUME_INGOT, false, 20);
-Casting.addTableRecipe(<thaumcraft:quicksilver>, <tconstruct:cast_custom:2>, <liquid:mercury>, VOLUME_INGOT, false, 20);
-Casting.addTableRecipe(<tiths:ingot_decurrium>, <tconstruct:cast_custom>, <liquid:decurrium>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<tiths:ingot_oraclium>, <tconstruct:cast_custom>, <liquid:oraclium>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<tiths:nugget_decurrium>, <tconstruct:cast_custom:1>, <liquid:decurrium>, VOLUME_NUGGET, false, 20);
-Casting.addTableRecipe(<tiths:nugget_oraclium>, <tconstruct:cast_custom:1>, <liquid:oraclium>, VOLUME_NUGGET, false, 20);
-Casting.addTableRecipe(<additions:moltenium_ingot>, <tconstruct:cast_custom>, <liquid:moltenium>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<gct_mobs:resonated_scrap>, <tconstruct:cast_custom>, <liquid:resonant_debris>, 160, false, 200);
-Casting.addTableRecipe(<journey:hellstoneingot>, <tconstruct:cast_custom>, <liquid:bloodcrust>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<divinerpg:hellstone_ingot>, <tconstruct:cast_custom>, <liquid:hellstone>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<blue_skies:falsite_ingot>, <tconstruct:cast_custom>, <liquid:falsite>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<blue_skies:ventium_ingot>, <tconstruct:cast_custom>, <liquid:ventium>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<additions:betwnite_ingot>, <tconstruct:cast_custom>, <liquid:betwnite>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<blue_skies:horizonite_ingot>, <tconstruct:cast_custom>, <liquid:horizonite>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<endreborn:item_raw_endorium>, <ore:ingotTungsten>, <liquid:enderium>, 72, true, 80);
-Casting.addTableRecipe(<abyssalcraft:necronomicon>.withTag({PotEnergy: 5000.0 as float}), <ore:necronomiconOverworld>, <liquid:pe>, 72, true, 72);
-Casting.addTableRecipe(<abyssalcraft:necronomicon_cor>.withTag({PotEnergy: 10000.0 as float}), <ore:necronomiconWasteland>, <liquid:pe>, 144, true, 144);
-Casting.addTableRecipe(<abyssalcraft:necronomicon_dre>.withTag({PotEnergy: 20000.0 as float}), <ore:necronomiconDreadland>, <liquid:pe>, 288, true, 288);
-Casting.addTableRecipe(<abyssalcraft:necronomicon_omt>.withTag({PotEnergy: 40000.0 as float}), <ore:necronomiconOmothol>, <liquid:pe>, 576, true, 576);
-Casting.addTableRecipe(<abyssalcraft:abyssalnomicon>.withTag({PotEnergy: 100000.0 as float}), <ore:necronomiconAbyss>, <liquid:pe>, 1440, true, 1440);
-Casting.addTableRecipe(<mca:rose_gold_ingot>, <tconstruct:cast_custom>, <liquid:rose_gold>, VOLUME_INGOT, false, 200);
-Casting.addTableRecipe(<tconstruct:pick_head>.withTag({Material: "imitatium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:pick_head"}), <liquid:imitatium>, 432, false, 200);
-Casting.addTableRecipe(<elementalend:order_eye>, <minecraft:ender_eye>, <liquid:balancite>, 1440, true, 200);
-Casting.addTableRecipe(<additions:evilblood_drop>, <additions:eldritch_slime>, <liquid:evilblood_fluid>, 250, true, 200);
-Casting.addTableRecipe(<additions:solid_culture_medium>, null, <liquid:molten_solid_culture_medium>, 2500, false, 1000);
+addTableBasicRecipe(<abyssalcraft:ethaxiumingot>, <tconstruct:cast_custom>, <liquid:ethaxium>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<additions:astral_metal_ingot>, <tconstruct:cast_custom>, <liquid:astral_metal>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<additions:cosmilite_ingot>, <tconstruct:cast_custom>, <liquid:cosmilite>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<additions:crimsonite_ingot>, <tconstruct:cast_custom>, <liquid:crimsonite>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<additions:electronium_ingot>, <tconstruct:cast_custom>, <liquid:electronium>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<additions:cryonic_artifact>, <minecraft:emerald>, <liquid:cryotheum>, 10000, true, 200);
+addTableBasicRecipe(<additions:experience_ingot>, <tconstruct:cast_custom>, <liquid:experience>, VOLUME_INGOT, false, 80);
+addTableBasicRecipe(<additions:experience_nugget>, <tconstruct:cast_custom:1>, <liquid:experience>, 16, false, 20);
+addTableBasicRecipe(<additions:pearl_of_knowledge>, <minecraft:emerald>, <liquid:experience>, 944784, true, 600);
+addTableBasicRecipe(<additions:stainless_steel_ball>, <tconstruct:cast_custom:2>, <liquid:stainless_steel>, 30, false, 60);
+addTableBasicRecipe(<additions:netherite_ingot>, <tconstruct:cast_custom>, <liquid:netherite>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<additions:netherite_scrap>, <tconstruct:cast_custom>, <liquid:ancient_debris>, 160, false, 200);
+addTableBasicRecipe(<additions:protonium_ingot>, <tconstruct:cast_custom>, <liquid:protonium>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<additions:stainless_steel_ingot>, <tconstruct:cast_custom>, <liquid:stainless_steel>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<additions:terra_alloy_ingot>, <tconstruct:cast_custom>, <liquid:terra_alloy>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<additions:manganese_steel_ingot>, <tconstruct:cast_custom>, <liquid:manganese_steel>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<botania:manaresource:14>, <tconstruct:cast_custom>, <liquid:gaia>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<candymod:chocolate_bar>, <tconstruct:cast_custom>, <liquid:cosmilite>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<defiledlands:ravaging_ingot>, <tconstruct:cast_custom>, <liquid:ravaging>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<extrabotany:material:1>, <tconstruct:cast_custom>, <liquid:orichalcos>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<harvestcraft:cheeseitem>, null, <liquid:milk>, 20, false, 200);
+addTableBasicRecipe(<harvestcraft:cheeseitem>, null, <liquid:milk>, 200, false, 20);
+addTableBasicRecipe(<minecraft:coal>, <tconstruct:cast_custom:2>, <liquid:coal>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<modularmachinery:itemmodularium>, <tconstruct:cast_custom>, <liquid:modularium>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<tcomplement:materials:1>, <tconstruct:cast_custom>, <liquid:scorched>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<tconevo:material>, <tconstruct:cast_custom>, <liquid:fusion_matrix>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<thaumadditions:adaminite_ingot>, <tconstruct:cast_custom>, <liquid:adaminite>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<thaumadditions:mithminite_ingot>, <tconstruct:cast_custom>, <liquid:mithminite>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<thaumadditions:mithrillium_ingot>, <tconstruct:cast_custom>, <liquid:mithrillium>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<additions:durasteel_ingot>, <tconstruct:cast_custom>, <liquid:durasteel>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<additions:aeonsteel_ingot>, <tconstruct:cast_custom>, <liquid:aeonsteel>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<additions:chromasteel_ingot>, <tconstruct:cast_custom>, <liquid:chromasteel>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<randomthings:ingredient:3>, <tconstruct:cast_custom>, <liquid:spectre>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<botanicadds:gaiasteel_ingot>, <tconstruct:cast_custom>, <liquid:gaiasteel>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<draconicevolution:draconic_ingot>, <tconstruct:cast_custom>, <liquid:awakened_draconium>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<gct_ores:chaotic_draconium_ingot>, <tconstruct:cast_custom>, <liquid:chaotic_draconium>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<gct_ores:balanced_matrix_ingot>, <tconstruct:cast_custom>, <liquid:balanced_matrix>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<additions:titanium_ingot>, <tconstruct:cast_custom>, <liquid:titanium>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<additions:titanium_nugget>, <tconstruct:cast_custom:1>, <liquid:titanium>, VOLUME_INGOT, false, 20);
+addTableBasicRecipe(<thaumcraft:quicksilver>, <tconstruct:cast_custom:2>, <liquid:mercury>, VOLUME_INGOT, false, 20);
+addTableBasicRecipe(<tiths:ingot_decurrium>, <tconstruct:cast_custom>, <liquid:decurrium>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<tiths:ingot_oraclium>, <tconstruct:cast_custom>, <liquid:oraclium>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<tiths:nugget_decurrium>, <tconstruct:cast_custom:1>, <liquid:decurrium>, VOLUME_NUGGET, false, 20);
+addTableBasicRecipe(<tiths:nugget_oraclium>, <tconstruct:cast_custom:1>, <liquid:oraclium>, VOLUME_NUGGET, false, 20);
+addTableBasicRecipe(<additions:moltenium_ingot>, <tconstruct:cast_custom>, <liquid:moltenium>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<gct_mobs:resonated_scrap>, <tconstruct:cast_custom>, <liquid:resonant_debris>, 160, false, 200);
+addTableBasicRecipe(<journey:hellstoneingot>, <tconstruct:cast_custom>, <liquid:bloodcrust>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<divinerpg:hellstone_ingot>, <tconstruct:cast_custom>, <liquid:hellstone>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<blue_skies:falsite_ingot>, <tconstruct:cast_custom>, <liquid:falsite>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<blue_skies:ventium_ingot>, <tconstruct:cast_custom>, <liquid:ventium>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<additions:betwnite_ingot>, <tconstruct:cast_custom>, <liquid:betwnite>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<blue_skies:horizonite_ingot>, <tconstruct:cast_custom>, <liquid:horizonite>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<endreborn:item_raw_endorium>, <ore:ingotTungsten>, <liquid:enderium>, 72, true, 80);
+addTableBasicRecipe(<abyssalcraft:necronomicon>.withTag({PotEnergy: 5000.0 as float}), <ore:necronomiconOverworld>, <liquid:pe>, 72, true, 72);
+addTableBasicRecipe(<abyssalcraft:necronomicon_cor>.withTag({PotEnergy: 10000.0 as float}), <ore:necronomiconWasteland>, <liquid:pe>, 144, true, 144);
+addTableBasicRecipe(<abyssalcraft:necronomicon_dre>.withTag({PotEnergy: 20000.0 as float}), <ore:necronomiconDreadland>, <liquid:pe>, 288, true, 288);
+addTableBasicRecipe(<abyssalcraft:necronomicon_omt>.withTag({PotEnergy: 40000.0 as float}), <ore:necronomiconOmothol>, <liquid:pe>, 576, true, 576);
+addTableBasicRecipe(<abyssalcraft:abyssalnomicon>.withTag({PotEnergy: 100000.0 as float}), <ore:necronomiconAbyss>, <liquid:pe>, 1440, true, 1440);
+addTableBasicRecipe(<mca:rose_gold_ingot>, <tconstruct:cast_custom>, <liquid:rose_gold>, VOLUME_INGOT, false, 200);
+addTableBasicRecipe(<tconstruct:pick_head>.withTag({Material: "imitatium"}), <tconstruct:cast>.withTag({PartType: "tconstruct:pick_head"}), <liquid:imitatium>, 432, false, 200);
+addTableBasicRecipe(<elementalend:order_eye>, <minecraft:ender_eye>, <liquid:balancite>, 1440, true, 200);
+addTableBasicRecipe(<additions:evilblood_drop>, <additions:eldritch_slime>, <liquid:evilblood_fluid>, 250, true, 200);
+addTableBasicRecipe(<additions:solid_culture_medium>, null, <liquid:molten_solid_culture_medium>, 2500, false, 1000);
 
 Melting.removeRecipe(<liquid:gold>, <minecraft:golden_rail>);
 Melting.removeRecipe(<liquid:iron>, <minecraft:activator_rail>);

@@ -8,6 +8,7 @@
 import crafttweaker.event.EntityLivingDamageEvent;
 import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.player.IPlayer;
+import mods.ctutils.utils.Math;
 
 events.onEntityLivingDamage(function(event as EntityLivingDamageEvent) {
 
@@ -39,7 +40,7 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent) {
             for armor in player.armorInventory {
                 if (!isNull(armor)) {
                     if (TicTraitLib.hasTicTrait(armor, "craven_survivalism_armor")) {
-                        player.native.dropItem(armor.native, false);
+                        if (Math.random() < 0.97f) player.native.dropItem(armor.native, false);
                         armor.mutable().shrink(1);
                         pass = true;
                         break;

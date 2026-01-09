@@ -4454,3 +4454,12 @@ reachTrait.onArmorRemove = function(trait, armor, player, index) {
 };
 reachTrait.register();
 
+val force_redirectionTrait = ArmorTraitBuilder.create("force_redirection");
+force_redirectionTrait.color = Color.fromHex("ffffff").getIntColor();
+force_redirectionTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.force_redirectionTrait.name");
+force_redirectionTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.force_redirectionTrait.desc");
+force_redirectionTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        
+    }
+}

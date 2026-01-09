@@ -914,7 +914,7 @@ greedycraft.tconstruct.armor_trait.bloodcurseTrait.desc=§o以血还血！\n§r�
 greedycraft.tconstruct.armor_trait.atum_visionTrait.name=避沙
 greedycraft.tconstruct.armor_trait.atum_visionTrait.desc=§o重见天日。\n§r让你在阿图姆维度中的视野更清晰。
 greedycraft.tconstruct.armor_trait.craven_survivalismTrait.name=贪生怕死
-greedycraft.tconstruct.armor_trait.craven_survivalismTrait.desc=§o好死不如赖活着\n§r当你遭受致命伤害时，你将抛出这件护甲，而后免疫此次伤害。
+greedycraft.tconstruct.armor_trait.craven_survivalismTrait.desc=§o好死不如赖活着\n§r当你遭受伤害时，你将抛出这件护甲，而后免疫此次伤害（有3%的概率直接让该护甲消失）。
 greedycraft.tconstruct.armor_trait.exskeletalTrait.name=外骨骼
 greedycraft.tconstruct.armor_trait.exskeletalTrait.desc=§o或许是多了一根手指！\n§r为饰品栏增加一个戒指槽位！
 #工具词条
@@ -923,7 +923,7 @@ greedycraft.tconstruct.tool_trait.collisionTrait.desc=§o昆虫恐惧症！\n§r
 greedycraft.tconstruct.tool_trait.heatstrokeTrait.name=中暑
 greedycraft.tconstruct.tool_trait.heatstrokeTrait.desc=§o太阳晒得我头晕眼花！\n§r当你在热带群系使用这把工具时，它可以透支你的体力（伤害×2.5）……作为代价，你的最大生命值会临时减半。
 greedycraft.tconstruct.tool_trait.craven_survivalismTrait.name=贪生怕死
-greedycraft.tconstruct.tool_trait.craven_survivalismTrait.desc=§o好死不如赖活着\n§r当你遭受致命伤害时，你将抛出这件工具，而后免疫此次伤害。
+greedycraft.tconstruct.tool_trait.craven_survivalismTrait.desc=§o好死不如赖活着\n§r当你遭受伤害时，你将抛出这件工具，而后免疫此次伤害。
 greedycraft.tconstruct.tool_trait.insect_eaterTrait.name=噬虫者
 greedycraft.tconstruct.tool_trait.insect_eaterTrait.desc=§o这东西的蛋白质含量是牛肉的五倍！\n§r在腐朽之地击杀生物可以回复你的饱食度。
 greedycraft.tconstruct.tool_trait.bloodriseTrait.name=魂铸

@@ -34,7 +34,6 @@ recipes.removeByRecipeName("thaumictinkerer:black_quartz_block");
 recipes.removeByRecipeName("actuallyadditions:recipes149");
 
 
-
 RecipeUtil.addShaped("me_gas_2g", <mekeng:gas_core_2g>, [
     [<ore:dustRefinedObsidian>, <appliedenergistics2:material:23>, <ore:dustRefinedObsidian>],
     [<mekeng:gas_core_1g>, <appliedenergistics2:quartz_glass>, <mekeng:gas_core_1g>],
@@ -722,6 +721,11 @@ RecipeUtil.addShaped("creative_capacitor", <ometweaks:creative_capacitor>, [
     [<ometweaks:blackhole_capacitor>, <ore:ingotEndestSteel>, <ometweaks:blackhole_capacitor>],
     [null, <ore:ingotCreativeAlloy>, null]
 ]);
+RecipeUtil.addShaped("twilit_capacitor", <ometweaks:twilit_capacitor>, [
+    [null, <ore:ingotTwilitAlloy>, null],
+    [<enderio:item_capacitor_stellar>, <ore:ingotApocalypsium>, <enderio:item_capacitor_stellar>],
+    [null, <ore:ingotTwilitAlloy>, null]
+]);
 RecipeUtil.addShaped("slime_block", <minecraft:slime>, [
     [<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>],
     [<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>],
@@ -761,6 +765,26 @@ RecipeUtil.addShaped("seed_tier_9", <additions:seed_tier_9>, [
     [null, <ore:essenceNonenium>, null],
     [<ore:essenceNonenium>, <additions:seed_tier_8>, <ore:essenceNonenium>],
     [null, <ore:essenceNonenium>, null]
+]);
+RecipeUtil.addShaped("upgrade_cast_1", <tinkertoolcasts:upgrade_advanced>, [
+    [null, <ore:ingotIridium>, null],
+    [<ore:ingotIridium>, <ore:blockGlass>, <ore:ingotIridium>],
+    [null, <ore:ingotIridium>, null]
+]);
+RecipeUtil.addShaped("upgrade_cast_2", <tinkertoolcasts:upgrade_reinforced>, [
+    [null, <ore:ingotElectronium>, null],
+    [<ore:ingotElectronium>, <tinkertoolcasts:upgrade_advanced>, <ore:ingotElectronium>],
+    [null, <ore:ingotElectronium>, null]
+]);
+RecipeUtil.addShaped("upgrade_cast_3", <tinkertoolcasts:upgrade_iridium>, [
+    [null, <ore:ingotAdamantium>, null],
+    [<ore:ingotAdamantium>, <tinkertoolcasts:upgrade_reinforced>, <ore:ingotAdamantium>],
+    [null, <ore:ingotAdamantium>, null]
+]);
+RecipeUtil.addShaped("upgrade_cast_4", <tinkertoolcasts:upgrade_ultimate>, [
+    [null, <ore:ingotOverlaite>, null],
+    [<ore:ingotOverlaite>, <tinkertoolcasts:upgrade_iridium>, <ore:ingotOverlaite>],
+    [null, <ore:ingotOverlaite>, null]
 ]);
 /*
  * RecipeUtil.addShaped("", , [
