@@ -34,6 +34,7 @@ import crafttweaker.entity.IEntityLiving;
 import crafttweaker.block.IBlock;
 import crafttweaker.world.IWorld;
 import crafttweaker.text.ITextComponent;
+import crafttweaker.block.IBlockState;
 
 import mods.ctutils.utils.Math;
 import mods.contenttweaker.tconstruct.Material;
@@ -4454,12 +4455,41 @@ reachTrait.onArmorRemove = function(trait, armor, player, index) {
 };
 reachTrait.register();
 
+val forceRedirectionMap as IBlockState[IItemStack] = {
+    <item:minecraft:stone> : <blockstate:minecraft:dirt>.withProperty("snowy", "false").withProperty("variant", "coarse_dirt"),
+    <item:minecraft:dirt:1> : <blockstate:minecraft:dirt>.withProperty("snowy", "false").withProperty("variant", "dirt"),
+    <item:minecraft:dirt> : <blockstate:minecraft:gravel>,
+    <item:minecraft:gravel> : <blockstate:minecraft:sand>.withProperty("variant", "sand")
+};
 val force_redirectionTrait = ArmorTraitBuilder.create("force_redirection");
 force_redirectionTrait.color = Color.fromHex("ffffff").getIntColor();
 force_redirectionTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.force_redirectionTrait.name");
 force_redirectionTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.force_redirectionTrait.desc");
 force_redirectionTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player)) {
-        
+        var pass as bool = false;
+        var pos as IBlockPos = player.position;
+        var world as IWorld = player.world;
+        for i in -3 to 4 {
+            for j in -3 to 4 {
+                for k in -3 to 4 {
+                    if (!isNull(world.getBlock(pos.east(i).north(j).up(k)))) {
+                        var newPos as IBlockPos = pos.east(i).north(j).up(k);
+                        var block as IBlock = world.getBlock(newPos);
+                        var blockItem as IItemStack = block.getItem(world, newPos, world.getBlockState(newPos));
+                        if (forceRedirectionMap.keys has blockItem) {
+                            world.setBlockState(forceRedirectionMap[blockItem], newPos);
+                            pass = true;
+                            continue;
+                        }
+                    }
+                }
+            }
+        }
+        if (pass) {
+            return newDamage * 0.75f;
+        }
     }
-}
+    return newDamage;
+};
+force_redirectionTrait.register();

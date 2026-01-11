@@ -1,0 +1,15 @@
+{
+	x: 2.0d,
+	y: -5.5d,
+	dependencies: [
+		"873b054b",
+		"d509d017"
+	],
+	tasks: [{
+		uid: "e9bf9df0",
+		type: "item",
+		items: [{
+			item: "additions:seed_tier_7"
+		}]
+	}]
+}
