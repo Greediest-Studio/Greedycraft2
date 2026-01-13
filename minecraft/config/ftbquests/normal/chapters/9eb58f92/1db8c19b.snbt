@@ -18,13 +18,13 @@
 		}]
 	}],
 	rewards: [{
-		uid: "eda4429c",
-		type: "random",
-		table: 3
+		uid: "d1d5b100",
+		type: "item",
+		item: "additions:scientificite_ingot"
 	},
 	{
-		uid: "5650889e",
+		uid: "342e01a3",
 		type: "xp",
-		xp: 2000
+		xp: 1000
 	}]
 }
