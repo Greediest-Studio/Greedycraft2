@@ -482,3 +482,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:lumerunine>, [
 	[<ore:scrapLumerunine>, <ore:scrapLumerunine>, <ore:scrapLumerunine>, <ore:scrapLumerunine>, <ore:scrapLumerunine>], 
 	[<ore:scrapLumerunine>, <ore:scrapLumerunine>, <ore:scrapLumerunine>, <ore:scrapLumerunine>, <ore:scrapLumerunine>]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <emosupertemplate:emo_pattern_terminal>, [
+	[null, null, null, null, null], 
+	[<crazyae:fluixilized_block>, <additions:engineering_processor_2>, <ore:blockEcoBasicAlloy>, <additions:engineering_processor_2>, <crazyae:fluixilized_block>], 
+	[<ae2fc:fluid_pattern_encoder>, <crazyae:fluixilized_block>, <ae2fc:ultimate_encoder>, <crazyae:fluixilized_block>, <ae2fc:fluid_pattern_encoder>], 
+	[<crazyae:fluixilized_block>, <ae2fc:ultimate_encoder>, <additions:logic_processor_2>, <ae2fc:ultimate_encoder>, <crazyae:fluixilized_block>], 
+	[<crazyae:fluixilized_block>, <crazyae:fluixilized_block>, <crazyae:fluixilized_block>, <crazyae:fluixilized_block>, <crazyae:fluixilized_block>]
+]);

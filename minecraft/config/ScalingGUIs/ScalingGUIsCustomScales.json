@@ -10,6 +10,14 @@
   },
   "customGroupGuiScales": {},
   "loggedGuiClassNames": [],
-  "blacklistGuiClassNames": [],
+  "blacklistGuiClassNames": [
+    "slimeknights.tconstruct.smeltery.client.module.GuiSearedFurnaceSideInventory",
+    "slimeknights.tconstruct.smeltery.client.module.GuiSmelterySideInventory",
+    "slimeknights.tconstruct.tools.common.client.module.GuiButtonsStencilTable",
+    "slimeknights.tconstruct.tools.common.client.module.GuiButtonsToolStation",
+    "slimeknights.tconstruct.tools.common.client.module.GuiInfoPanel",
+    "slimeknights.tconstruct.tools.common.client.module.GuiSideInventory",
+    "slimeknights.tconstruct.tools.common.client.module.GuiTinkerTabs"
+  ],
   "dynamicGuiScales": []
 }

@@ -1,0 +1,34 @@
+{
+	title: "§b给到夯",
+	x: -18.5d,
+	y: 4.0d,
+	description: "合成增强型分子装配室",
+	text: [
+		""
+	],
+	dependencies: [
+		"663562f7"
+	],
+	tasks: [{
+		uid: "c157bb07",
+		type: "item",
+		items: [{
+			item: "crazyae:improved_molecular_assembler"
+		}]
+	}],
+	rewards: [{
+		uid: "b3fc1b3d",
+		type: "item",
+		item: "crazyae:improved_molecular_assembler"
+	},
+	{
+		uid: "513c44e6",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "5144989e",
+		type: "xp",
+		xp: 1000
+	}]
+}

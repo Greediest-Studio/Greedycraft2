@@ -1,0 +1,14 @@
+{
+	x: -16.5d,
+	y: 2.0d,
+	dependencies: [
+		"9ad09ce0"
+	],
+	tasks: [{
+		uid: "fd74372d",
+		type: "item",
+		items: [{
+			item: "ae2exttable:basic_crafting_terminal"
+		}]
+	}]
+}
