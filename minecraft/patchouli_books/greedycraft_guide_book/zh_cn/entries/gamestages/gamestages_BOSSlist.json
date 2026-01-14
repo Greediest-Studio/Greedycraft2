@@ -1,5 +1,5 @@
 {
-    "name": "§9各BOSS图鉴",
+    "name": "§9BOSS图鉴",
     "icon": "additions:sun_totem",
     "category": "patchouli:gamestages_category",
     "pages": [
@@ -261,6 +261,18 @@
     {
         "type": "text",
         "text": "击败混沌守卫后，游戏难度会提升，并且你可以从混沌岛向下挖掘以获得$(5)混沌碎片$()，这是制作混沌核心的原料。在这之后，下一个要做的东西就是无尽催化剂了，请继续完善工业和魔法直到完成毕业设计。"
+    },
+    {
+        "type":"entity",
+        "entity":"gct_aby:ancientshoggoth",
+        "scale":0.9,
+        "offset":-1.5,
+        "text":"“噩梦般的黑亮形体，那无定型的身躯散发出恶臭，向前蠕动着、流淌着……"
+    },
+    {
+        "type":"spotlight",
+        "item":"gct_aby:ancientmud",
+        "text":"$(6)远古淤泥$()需在$(2)黑暗领域$()处召唤！$(br)具体到达方法请参考本书维度图鉴$(c)召唤时请在灵神台座上放置一个黑曜石"
     }
  ]
 }

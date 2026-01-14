@@ -1,7 +1,7 @@
 {
 	"name": "性能和字体大小",
 	"icon": "rftools:computer_module",
-	"category": "patchouli:quick_start_category",
+	"category": "patchouli:misc_category",
 	"pages": [{
 		"type": "text",
 		"text": "$(#ffaa00)$(l)以下方法也许有助于提升性能。如果你觉得很卡的话可以试试。$(br)$(c)请仅在卡顿严重的时候尝试如下操作，否则可能会极大影响您的游戏体验。$()$(br2)$(li)关闭光影或换成低配版光影$(li)调低视距$(li)如果帧数低的厉害，请确保Minecraft是使用独立显卡运行的。N卡用户可以在桌面上右键打开Nvidia控制面板然后把首选图形处理器改成N卡"

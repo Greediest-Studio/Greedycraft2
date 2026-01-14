@@ -3,10 +3,16 @@
     "icon": "botania:lexicon",
     "category": "patchouli:guide_category",
     "pages": [
-       {
+        {
+            "type":"spotlight",
+            "item":"botania:lexicon",
+            "link_recipe":true,
+            "text":"当你找到第一朵$(5)神秘花$()时，你便开始了这段科技与魔法交织的旅途$(br2)你可以在植物魔法百科界面找到任何教程$(br)$(9)$(l:https://www.mcmod.cn/class/332.html)§n$(br)$(c)植物魔法百科传送门"
+        },
+        {
             "type":"spotlight",
             "item":"extrabotany:spiritfuel",
-            "text":"$(6)精神燃料$()由$(4)玩家$()食用$(6)梦魇燃料$()获得$(br)手持魔法词典对着放置有$(6)精神燃料$()的活石祭坛$(c)shift+右键$()即可解锁$(2)植物魔法-额外植物学$()的内容"
-       }
+            "text":"$(6)精神燃料$()由$(4)玩家$()食用$(6)梦魇燃料$()获得$(br2)手持魔法词典对着放置有$(6)精神燃料$()的活石祭坛$(c)shift+右键$()即可解锁$(2)植物魔法-额外植物学$()的内容"
+        }
     ]
 }

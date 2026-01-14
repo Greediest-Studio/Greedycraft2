@@ -9,7 +9,7 @@
         },
         {
             "type": "text",
-            "text": "$(2)TogetherForever队伍$() TogetherForever的组队系统允许你和队友同步游戏阶段和成就进度。使用$(5)/togetherforever$()指令来管理这种组队系统。$(2)/togetherforever invite$()可以邀请玩家加入队伍，$(2)/togetherforever leave$()可以离开队伍。$(2)/togetherforever accept$()可以接受一个组队邀请，$(2)/togetherforever forcesync$()可以强制同步队伍进度。"
+            "text": "$(2)TogetherForever队伍$()$(li)TogetherForever的组队系统允许你和队友同步游戏阶段和成就进度。$(li)使用$(5)/togetherforever$()指令来管理这种组队系统。$(li)$(2)/togetherforever invite$()可以邀请玩家加入队伍，$(2)/togetherforever leave$()可以离开队伍。$(2)/togetherforever accept$()可以接受一个组队邀请$(li)$(2)/togetherforever forcesync$()可以强制同步队伍进度。"
         }
     ]
 }
