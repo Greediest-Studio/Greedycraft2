@@ -137,7 +137,6 @@ advOverworld.addItemOutput(<minecraft:redstone>).setChance(0.045).setIgnoreOutpu
 advOverworld.addItemOutput(<minecraft:dye:4>).setChance(0.035).setIgnoreOutputCheck(true);
 advOverworld.addItemOutput(<minecraft:diamond>).setChance(0.008).setIgnoreOutputCheck(true);
 advOverworld.addItemOutput(<minecraft:emerald>).setChance(0.003).setIgnoreOutputCheck(true);
-advOverworld.addItemOutput(<thaumcraft:amber>).setChance(0.01).setIgnoreOutputCheck(true);
 //不锈钢级
 advOverworld.addItemUpgradeOutput(<astralsorcery:blockmarble>, STAINLESS, 0.03);
 advOverworld.addItemUpgradeOutput(<netherex:basalt>, STAINLESS, 0.03);
@@ -176,6 +175,7 @@ advOverworld.addItemUpgradeOutput(<draconicevolution:draconium_dust>, AEONSTEEL,
 advOverworld.addItemUpgradeOutput(<gct_ores:witherium_dust>, AEONSTEEL, 0.004);
 advOverworld.addItemUpgradeOutput(<taiga:dilithium_crystal>, AEONSTEEL, 0.035);
 advOverworld.addItemUpgradeOutput(<mekanism:fluoriteclump>, AEONSTEEL, 0.02);
+advOverworld.addItemUpgradeOutput(<thaumcraft:ore_amber>, AEONSTEEL, 0.03);
 //炫钢级
 advOverworld.addItemUpgradeOutput(<additions:cryonium_ore>, CHROMASTEEL, 0.005);
 advOverworld.addItemUpgradeOutput(<additions:snowingium_ore>, CHROMASTEEL, 0.005);

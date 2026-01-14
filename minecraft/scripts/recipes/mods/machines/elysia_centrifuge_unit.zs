@@ -258,7 +258,7 @@ RecipeBuilder.newBuilder("centrifuge_nature_endstone", "elysia_centrifuge", 20)
     .addRecipeTooltip("§e需要自然离心升级模块才能使用此配方！")
     .build();
 
-RecipeBuilder.newBuilder("centrifuge_nature_dirt", "centrifuge_nature", 20)
+RecipeBuilder.newBuilder("centrifuge_nature_dirt", "elysia_centrifuge", 20)
     .addItemInput(<ore:dirt>)
     .addEnergyPerTickInput(50)
     .addFluidInput(<liquid:water> * 50)
@@ -281,7 +281,7 @@ RecipeBuilder.newBuilder("centrifuge_nature_dirt", "centrifuge_nature", 20)
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
     .build();
 
-RecipeBuilder.newBuilder("centrifuge_nature_grass", "centrifuge_nature", 20)
+RecipeBuilder.newBuilder("centrifuge_nature_grass", "elysia_centrifuge", 20)
     .addItemInput(<ore:grass>)
     .addEnergyPerTickInput(50)
     .addFluidInput(<liquid:water> * 50)
@@ -305,7 +305,7 @@ RecipeBuilder.newBuilder("centrifuge_nature_grass", "centrifuge_nature", 20)
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
     .build();
 
-RecipeBuilder.newBuilder("centrifuge_nature_snow", "centrifuge_nature", 20)
+RecipeBuilder.newBuilder("centrifuge_nature_snow", "elysia_centrifuge", 20)
     .addItemInput(<minecraft:snow>)
     .addEnergyPerTickInput(50)
     .addFluidInput(<liquid:water> * 50)
@@ -318,7 +318,7 @@ RecipeBuilder.newBuilder("centrifuge_nature_snow", "centrifuge_nature", 20)
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
     .build();
 
-RecipeBuilder.newBuilder("centrifuge_nature_ice", "centrifuge_nature", 20)
+RecipeBuilder.newBuilder("centrifuge_nature_ice", "elysia_centrifuge", 20)
     .addItemInput(<ore:ice>)
     .addEnergyPerTickInput(50)
     .addFluidInput(<liquid:water> * 50)
@@ -331,7 +331,7 @@ RecipeBuilder.newBuilder("centrifuge_nature_ice", "centrifuge_nature", 20)
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
     .build();
 
-RecipeBuilder.newBuilder("centrifuge_nature_jasper", "centrifuge_nature", 20)
+RecipeBuilder.newBuilder("centrifuge_nature_jasper", "elysia_centrifuge", 20)
     .addItemInput(<ore:stoneJasper>)
     .addEnergyPerTickInput(50)
     .addFluidInput(<liquid:water> * 50)
@@ -343,7 +343,7 @@ RecipeBuilder.newBuilder("centrifuge_nature_jasper", "centrifuge_nature", 20)
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
     .build();
 
-RecipeBuilder.newBuilder("centrifuge_nature_brimstone", "centrifuge_nature", 20)
+RecipeBuilder.newBuilder("centrifuge_nature_brimstone", "elysia_centrifuge", 20)
     .addItemInput(<ore:stoneBrimstone>)
     .addEnergyPerTickInput(50)
     .addFluidInput(<liquid:water> * 50)
@@ -355,7 +355,7 @@ RecipeBuilder.newBuilder("centrifuge_nature_brimstone", "centrifuge_nature", 20)
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
     .build();
 
-RecipeBuilder.newBuilder("centrifuge_nature_permafrost", "centrifuge_nature", 20)
+RecipeBuilder.newBuilder("centrifuge_nature_permafrost", "elysia_centrifuge", 20)
     .addItemInput(<ore:stonePermafrost>)
     .addEnergyPerTickInput(50)
     .addFluidInput(<liquid:water> * 50)
@@ -367,7 +367,7 @@ RecipeBuilder.newBuilder("centrifuge_nature_permafrost", "centrifuge_nature", 20
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
     .build();
 
-RecipeBuilder.newBuilder("centrifuge_nature_limestone", "centrifuge_nature", 20)
+RecipeBuilder.newBuilder("centrifuge_nature_limestone", "elysia_centrifuge", 20)
     .addItemInput(<ore:stoneLimestone>)
     .addEnergyPerTickInput(50)
     .addFluidInput(<liquid:water> * 50)
@@ -379,7 +379,7 @@ RecipeBuilder.newBuilder("centrifuge_nature_limestone", "centrifuge_nature", 20)
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
     .build();
 
-RecipeBuilder.newBuilder("centrifuge_nature_prismarine", "centrifuge_nature", 20)
+RecipeBuilder.newBuilder("centrifuge_nature_prismarine", "elysia_centrifuge", 20)
     .addItemInput(<ore:prismarine>)
     .addEnergyPerTickInput(50)
     .addFluidInput(<liquid:water> * 50)
@@ -391,3 +391,11 @@ RecipeBuilder.newBuilder("centrifuge_nature_prismarine", "centrifuge_nature", 20
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
     .build();
 
+RecipeBuilder.newBuilder("centrifuge_amber", "elysia_centrifuge", 20)
+    .addItemInput(<ore:oreAmber>)
+    .addEnergyPerTickInput(50)
+    .addFluidInput(<liquid:water> * 50)
+    .addItemOutput(<thaumcraft:nugget:10>).setChance(0.05f)
+    .addItemOutput(<thaumcraft:amber>)
+    .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
+    .build();    
