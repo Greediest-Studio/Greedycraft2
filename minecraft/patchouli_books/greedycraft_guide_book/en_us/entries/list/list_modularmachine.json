@@ -1,0 +1,457 @@
+{
+    "name":"§2模块化机械图鉴",
+    "icon":"modularmachinery:blockfactorycontroller",
+    "category":"patchouli:list_category",
+    "pages":[
+        {
+            "type": "text",
+            "text": "$(9)模块化机械$()是一种多方块结构，每种机器都有不同的功能。$(br2)在这里你可以找到全部模块化机械的图鉴，包括一些较为复杂的机械的$(6)使用说明$()。$(br2)$(l:guide/guide_modular_machines)点击查看模块化机械基础教程$()"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:builder_1_factory_controller",
+			"title": "基础装配室",
+            "text": "$(2)基础装配室$()是你的第一个装配室，用来制作模块化机械的$(6)控制器$()"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:builder_2_factory_controller",
+			"title": "强化装配室",
+            "text": "$(2)强化装配室$()是比$(2)基础装配室$()$(5)更高$()一级的装配室，能制作$(5)更多$()模块化机械的$(6)控制器$()"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:builder_3_factory_controller",
+			"title": "进阶装配室",
+            "text": "$(2)进阶装配室$()是比$(2)强化装配室$()$(5)更更高$()一级的装配室，能制作$(5)更更多$()模块化机械的$(6)控制器$()"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:builder_4_factory_controller",
+			"title": "炫光装配室",
+            "text": "$(2)炫光装配室$()是比$(2)强化装配室$()$(5)更更更高$()一级的装配室，能制作$(5)更更更多$()模块化机械的$(6)控制器$()"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:builder_5_factory_controller",
+			"title": "终极装配室",
+            "text": "$(2)终极装配室$()是比$(2)炫光装配室$()$(5)更更更更高$()一级的装配室，能制作$(5)更更更更多$()模块化机械的$(6)控制器$()"
+        },
+		{
+            "type": "spotlight",
+			"item": "minecraft:air",
+			"title": "原罪装配室",
+            "text": "$(2)原罪装配室$()未实现，尽情期待~"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:durasteel_forge_factory_controller",
+			"title": "耐钢熔合机",
+            "text": "$(c)耐钢熔合机$()是合成前期$(5)重要$()材料之一$(6)耐钢$()的$(2)必备机器$()！$(br2)$(4)注：八钢融合机可以共用中间的球体哦$()$(br)$(f)但不尽量不要同时运行"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:aeonsteel_forge_factory_controller",
+			"title": "恒钢熔合机",
+            "text": "$(c)恒钢熔合机$()是合成中期$(5)重要$()材料之一$(6)恒钢$()的$(2)必备机器$()！该机器的工作方式与$(c)耐钢熔炉$()$(5)相同$()$(br2)$(4)注：八钢融合机可以共用中间的球体哦$()$(br)$(f)但不尽量不要同时运行"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:chromasteel_forge_factory_controller",
+			"title": "炫钢熔合机",
+            "text": "$(c)炫钢熔合机$()是合成中期$(5)重要$()材料之一$(6)炫钢$()的$(2)必备机器$()！该机器的工作方式与$(c)耐钢熔炉$()$(5)相同$()$(br2)$(4)注：八钢融合机可以共用中间的球体哦$()$(br)$(f)但不尽量不要同时运行"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:cosmic_forge_factory_controller",
+			"title": "寰宇熔合机",
+            "text": "$(c)寰宇熔合机$()是合成后期$(5)重要$()材料之一$(6)寰宇锭$()的$(2)必备机器$()！该机器的工作方式与$(c)耐钢熔炉$()$(5)相同$()$(br2)$(4)注：八钢融合机可以共用中间的球体哦$()$(br)$(f)但不尽量不要同时运行"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:final_forge_factory_controller",
+			"title": "终焉熔合机",
+            "text": "$(c)终焉熔合机$()是合成后期$(5)重要$()材料之一$(6)终焉锭$()的$(2)必备机器$()！该机器的工作方式与$(c)耐钢熔炉$()$(5)相同$()$(br2)$(4)注：八钢融合机可以共用中间的球体哦$()$(br)$(f)但不尽量不要同时运行"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:wave_forge_factory_controller",
+			"title": "波动熔合机",
+            "text": "$(c)波动熔合机$()是合成后期$(5)重要$()材料之一$(6)波动锭$()的$(2)必备机器$()！该机器的工作方式与$(c)耐钢熔炉$()$(5)相同$()$(br2)$(4)注：八钢融合机可以共用中间的球体哦$()$(br)$(f)但不尽量不要同时运行"
+        },
+		{
+            "type": "spotlight",
+			"item": "modularmachinery:basic_miner_factory_controller",
+			"title": "基础采掘机",
+            "text": "$(9)基础矿机$()可以放在$(5)不同维度$()通过消耗$(c)电力$()挖掘$(3)当前维度的$()$(6)矿物$()，十分的方便~ 在升级总线中放入模块化电容来采掘不同阶段的矿！"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:advanced_miner_factory_controller",
+			"title": "精密过滤矿机",
+            "text": "$(9)精密过滤采掘机$()可以在$(5)任何维度$()通过消耗$(c)电力$()挖掘$(c)当前维度以及主世界 地狱 末地的$()$(6)矿物$()（需要对应升级），十分的方便~ 在升级总线中放入模块化电容来采掘不同阶段的矿！"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:dimensional_miner_factory_controller",
+			"title": "时空相位采掘机",
+            "text": "$(9)时空相位采掘机$()可以$(5)直接$()通过消耗$(c)电力$()挖掘$(6)所有维度的矿物$()，请使用$(5)维度放大镜$()来标记维度！十分的方便~$(br2)$(2)矿物自由喽~ 在升级总线中放入模块化电容来采掘不同阶段的矿！"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:elysia_solidifier_factory_controller",
+			"title": "大型凝结单元",
+            "text": "$(b)凝结单元$()可以固化液体，是合成$(6)常温非固态材料$()的$(2)必备机器$()!"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:elysia_liquefier_factory_controller",
+			"title": "大型液化单元",
+            "text": "$(b)液化单元$()可以液化气体，是合成$(6)常温非液态材料$()的$(2)必备机器$()!"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:elysia_centrifuge_factory_controller",
+			"title": "大型离心单元",
+            "text": "$(c)大型离心单元$()集成了固体和液体的功能，可以产出大部分基础矿物，前期强烈推荐。同时还可以分离同位素哦~"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:elysia_smelter_factory_controller",
+			"title": "大型冶炼单元",
+            "text": "$(c)大型冶炼单元$()集成了$(6)熔炉$()的所有配方$(6)速度极快$()！"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:elysia_pyrolyzer_factory_controller",
+			"title": "大型热解单元",
+            "text": "$(c)大型热解单元$()是进行$(6)热解反应$()的必备机器！"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:elysia_crusher_factory_controller",
+			"title": "大型粉碎单元",
+            "text": "$(c)大型粉碎单元$()集成了$(6)磨粉机$()的$(6)全部配方$()！再也不用担心做存储元件时卡磨粉了~"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:elysia_vaporizer_factory_controller",
+			"title": "大型汽化单元",
+            "text": "$(c)大型汽化单元$()是将液体转化为气体的机器！"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:elysia_forger_factory_controller",
+			"title": "大型铸造单元",
+            "text": "$(c)大型铸造单元$()集成了$(6)压缩机$()的全部配方$()打板压齿轮嘎嘎快！"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:elysia_electrolyzer_factory_controller",
+			"title": "大型电解单元",
+            "text": "加大版的$(c)核电电解机$()！你后期会用上的~"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:elysia_alloyer_factory_controller",
+			"title": "大型合金单元",
+            "text": "$(c)大型合金单元$()包括$(6)所有合金炉配方$()，加入扩容升级还可以支持部分匠魂炉配方！"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:elysia_grinder_factory_controller",
+			"title": "大型搅拌单元",
+            "text": "$(c)大型搅拌单元$()是融合$(6)超多流体配方$()的$(2)必备机器$()！"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:elysia_melter_factory_controller",
+			"title": "大型融化单元",
+            "text": "快来融化所有东西！比匠魂炉好用"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:elysia_reactor_factory_controller",
+			"title": "大型反应单元",
+            "text": "核电反应器的大号版本"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:elysia_polymer_factory_controller",
+			"title": "大型聚合单元",
+            "text": "可以合成某些高分子聚合物"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:factory_4x_factory_controller",
+			"title": "模块化四倍矿"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:factory_5x_factory_controller",
+			"title": "模块化五倍矿"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:factory_atomic_vibrator_factory_controller",
+			"title": "模块化六倍矿",
+            "text": "你需要原子震荡工厂、原子衰变工厂、原子酸腐工厂"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:factory_arcanic_infuser_factory_controller",
+			"title": "模块化八倍矿",
+            "text": "你需要自魔注灵工厂、自魔炼化工厂、自魔星引工厂"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:blood_altar_factory_controller",
+			"title": "模块化血之祭坛",
+            "text": "$(b)模块化血之祭坛$()是血魔法原版祭坛的模块化版本，具有更多功能并可以很方便实现自动化。$(li)模块化祭坛分为$(c)1~9级$()。你可以用$(b)石砖$()来代替所有方块，所以前期十分容易建造。$(li)升级祭坛等级时，你只需要把这一层的石砖换成符文，并且将石砖柱子顶上的方块替换为对应的方块(在结构预览中查看)。$(li)将生命源质输入$(6)顶部$()的$(b)原版血之祭坛$()中，即可自动抽取到机器内部。"
+        },
+        {
+            "type": "text",
+            "text": "$(li)它具有更多功能：$()由外界输入血(0);向外界输出血(1);输出到玩家LP网络(2)，在智能数据接口输入对应数值来切换！具体方式请查询jei。"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:mek_changer_factory_controller",
+			"title": "MEK气液转换机",
+            "text": "$(b)MEK气液转换机$()可以将MEK与NuclearCraft中的$(4)气体$()与$(4)液体$(d)相互转换$()，更加便利~"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:vethea_enchanter_factory_controller",
+			"title": "梦魇附魔机",
+            "text": "$(c)梦魇附魔机$()是$(2)梦魇世界$()中的多方块结构，需要在$(2)梦魇世界$()找到$(4)相关结构$()$(d)才$()能够使用，可以使用$(2)梦魇世界$()的各种$(6)球$()合成$(2)梦魇世界$()的专属$(6)锭$()"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:loot_power_generator_factory_controller",
+			"title": "战利品发电机",
+            "text": "$(a)战利品发电机$()可以将一些$(f)你认为$()没有用的战利品丢进去$(c)发电$(br)$(9)分担一些电力~  $()P点终于有用了么！！！"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:exp_power_generator_factory_controller",
+			"title": "经验发电机",
+            "text": "$(a)经验发电机$()可以将$(6)知识精华$()转换为$(4)电量$()$(br)$(2)Konwledge is power!$()$(br)$(9)分担一些电力~"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:liquid_converter_factory_controller",
+			"title": "流体转换机",
+            "text": "$(b)流体转换机$()可以将$(4)不同模组$()的流体进行$(4)相互转换$()更加便利~"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:empowerer_factory_controller",
+			"title": "快速充能台",
+            "text": "AA充能台后继有人了:D"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:end_forge_factory_controller",
+			"title": "末影冶炼炉",
+            "text": "需要添加末影能量使用。向物品输入仓中加入特定物品（请查询JEI）来添加末影能量"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:gene_builder_factory_controller",
+			"title": "基因构造机",
+            "text": "$(c)基因构造机$()是合成$(6)恒钢$()的子材料之一$(6)基因金属锭$()的$(2)必备机器$()！"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:auto_soul_forge_factory_controller",
+			"title": "扩展狱火熔炉",
+            "text": "不用为狱火熔炉自动化发愁了！放置恶魔意志输入仓来吸收区块中的意志，为模块化提供能量。"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:draconic_fusioner_factory_controller",
+			"title": "龙之研究聚合台",
+            "text": "升级聚合等级只需更换对应的注入核心"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:matrix_fusioner_factory_controller",
+			"title": "矩阵聚合仪",
+            "text": "用来合成聚合矩阵，产量比合金炉高多了！"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:organic_infuser_factory_controller",
+			"title": "有机灌注机",
+            "text": "$(b)有机灌注机$()可以消耗$(6)电量$()让$(d)种子$()产出其$(d)矿物精华$()，并有极小概率产出$(6)肥料精华$()并复制出$(4)第二个$()$(d)种子$()"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:mana_liquefactor_factory_controller",
+			"title": "魔力液化机",
+            "text": "$(c)魔力液化机$()可以把$(6)mana魔力$()转换为$(6)元始魔力。$()是一种高效存储魔力的方式，通过$(6)火花魔力输入仓$()来输入魔力"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:mana_powereducer_factory_controller",
+			"title": "魔力释能机",
+            "text": "$(c)魔力释能机$()可以把$(6)元始魔力$()转换为$(6)mana$() 通过火花魔力输出仓输出魔力"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:flux_melter_factory_controller",
+			"title": "通量凝结装置",
+            "text": "$(c)通量凝结装置$()可以将RF转换为液体，是后期存储大量电量的高效方式"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:flux_reducer_factory_controller",
+			"title": "通量还原装置",
+            "text": "$(c)通量还原装置$()可以将液态通量还原为RF"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:air_collector_factory_controller",
+			"title": "空气收集器",
+            "text": "$(b)空气收集器$()能在$(2)主世界$()、$(2)下界$()、$(2)末地$()、$(2)深渊荒原$()、$(2)恐惧之地$()、$(2)奥穆索$()、$(2)深渊-黑暗领域$()收集其维度中的$(d)空气$()$(br)$(2)主世界$()-$(6)空气（气）$()$(br)$(2)下届/地狱$()-$(6)下届空气（气）$(br)$(2)末地$()-$(6)末地空气（气）$()$(br)$(2)深渊荒原$()+$(2)恐惧之地$()+$(2)奥穆索$()+$(2)黑暗领域$()-$(6)深渊空气（气）$()"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:gas_centrifuge_factory_controller",
+			"title": "气体分离机",
+            "text": "$(c)气体分离机$()可以分离$(6)不同维度的气体$()以获得各种$(5)特殊$()$(6)气体$()。"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:abyss_ceremony_executant_factory_controller",
+			"title": "深渊仪式执行者",
+            "text": "$(c)深渊仪式执行者$()可以自动化深渊仪式，需要液体位能驱动！"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:fallen_star_factory_controller",
+			"title": "坠星天矛",
+            "text": "$(c)坠星天矛$()可以直接消耗生命源质来进行追星仪式，并且可以自动挖掘！$(br2)你需要使用匠魂工具右键控制器来绑定挖掘等级"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:unitcell_builder_factory_controller",
+			"title": "晶胞重塑器",
+            "text": "$(c)晶胞重塑器$()是一个大型原子再构机，同时具有复制混沌风暴碎片，产出星辉水晶石的功能。未来会有更多功能哦~"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:arcane_compressor_factory_controller",
+			"title": "奥数凝聚台",
+            "text": "$(c)奥数凝聚台$()是制作六元合金锭下位材料的必备机器！"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:thermal_evaporation_plant_factory_controller",
+			"title": "电热力蒸馏塔",
+            "text": "$(c)蒸馏塔$()可以靠电进行加热啦，超高效率！核聚变离不开它"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:neutron_activator_factory_controller",
+			"title": "大型中子活化",
+            "text": "$(c)大型中子活化装置$()以一抵百，虽然造价也很贵("
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:matrix_balancer_factory_controller",
+			"title": "矩阵平衡仪",
+            "text": "$(c)矩阵平衡仪$()是合成后期$(5)重要$()材料之一$(6)平衡矩阵$()的$(2)必备机器$()！!"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:astral_collector_factory_controller",
+			"title": "星芒收集器",
+            "text": "$(c)星芒收集器$()是$(2)星辉魔法$()的多方块结构，可以放在$(2)永恒星域$()通过收集$(9)星座$()将$(6)空白共鸣水晶$()变成$(c)某个星座的$()$(6)共鸣水晶。$()使用天体聚能水晶连接星辉输入仓来提供星能"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:bright_altar_factory_controller",
+			"title": "璀璨祭坛",
+            "text": "$(c)璀璨祭坛$()是$(2)星辉魔法$()的多方块结构，是合成$(6)星灵锭$()所$(d)必需$()的多方块结构。请使用天体聚能水晶连接星辉输入仓来提供星能"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:aura_crafter_factory_controller",
+			"title": "灵气聚合台",
+            "text": "$(c)灵气聚合台$()可以自动化自然灵气大多数配方并合成灵韵金属锭。使用灵气输入仓来输入灵气"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:impetus_forge_factory_controller",
+			"title": "元动冶炼炉",
+            "text": "制作$(c)元动金属锭$()！只能在虚域使用"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:pe_collector_factory_controller",
+			"title": "位能收集器",
+            "text": "$(c)位能收集器$()可以在深渊维度中收集液态位能，越深层的深渊收集的越快哦"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:loot_creater_factory_controller",
+			"title": "战利品扫荡机",
+            "text": "$(c)战利品扫荡机$()可以产出大部分BOSS的战力品。需要输入精华才能运行。 tip：越高级的精华越赚哦"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:arcane_matrix_factory_controller",
+			"title": "机械注魔矩阵",
+            "text": "你还在为注魔稳定度和自动化烦恼吗？快来试试$(c)机械注魔矩阵$()吧！(当然是有代价的"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:entropy_reverse_factory_controller",
+			"title": "逆熵解离装置",
+            "text": "来试试熵减吧！"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:chaos_reactor_factory_controller",
+			"title": "混沌汲能反应堆",
+            "text": "$(c)混沌汲能反应堆$()可以消耗混沌能量产出大量RF！后期必备！启动混沌汲能反应堆你需要先通入冷却剂(水、极寒之凛冰、凛冰-液氦)，之后再加入燃料(飞龙 觉醒 混沌 风暴 秩序核心)。没有冷却剂你的燃料会直接消失！JEI配方显示的仅为一倍产出，你可以使用智能数据接口来调整产出倍数，当然燃料和冷却消耗也会成倍增长！建议从较小的数慢慢往上调。"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:arcane_melter_factory_controller",
+			"title": "源质升华炉",
+            "text": "没错，这是一比一复刻的$(c)秘银源质冶炼厂$()"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:reverser_factory_controller",
+			"title": "反转灌注机",
+            "text": "物品和$(c)反物质$()会发生什么奇妙反应呢？"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:stratified_precipitator_factory_controller",
+			"title": "沉淀分离机",
+            "text": "没错，就是分离沉淀的"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:aspect_crafter_factory_controller",
+			"title": "元素合成机",
+            "text": "$(c)元素合成机$()可以进行三元素合成"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:biotechnic_computer_factory_controller",
+			"title": "超精密生物质计算机",
+            "text": "输入液体培养基来启动$(c)超精密生物质计算机$()"
+        },
+        {
+            "type": "spotlight",
+			"item": "modularmachinery:crimson_extractor_factory_controller",
+			"title": "血腥汲取仪",
+            "text": "不朽止血量产终于有救了"
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 {
     "name": "§2游戏维度图鉴",
     "icon": "minecraft:portal",
-    "category": "patchouli:gamestages_category",
+    "category": "patchouli:list_category",
     "pages":[
     {
         "type":"text",
@@ -10,6 +10,38 @@
     {
         "type":"text",
         "text":"$(c)overworld$(): $(2)主世界$()(dim 0)$(li)$()你一出生就在这里"
+    },
+    {
+        "type":"multiblock",
+        "text":"如图，你需要$(6)泥土$()*12$(6)水$()*4$(6)暮光宝石$()*1$(6)花$()*12",
+        "symmertrical":true,
+        "multiblock":{
+            "mapping":{
+                "0":"minecraft:dirt",
+                "A":"minecraft:dirt",
+                "B":"minecraft:red_flower",
+                "C":"minecraft:water"
+            },
+            "pattern":[
+                [
+                    "BBBB",
+                    "B  B",
+                    "B  B",
+                    "BBBB"
+                ],
+               [
+                    "0AAA",
+                    "ACCA",
+                    "ACCA",
+                    "AAAA"
+               ]
+            ]
+        }
+    },
+    {
+        "type":"spotlight",
+        "item":"additions:twilight_gem",
+        "text":"搭建如左图所示多方块结构,将$(6)暮光宝石$()扔进$(6)水$()中即可激活暮色森林传送门$(br)$(c)图中的花可以替换任意种类的花$()$(br)$(c)"
     },
     {
         "type":"multiblock",
@@ -43,7 +75,7 @@
         "type":"spotlight",
         "item":"minecraft:portal",
         "link_recipe":true,
-        "text":"$(c)the nether$()$(2)下界$()(Dim -1)$(li)搭建出左图结构，手拿$(6)打火石$()右键此多方块结构即可激活下界传送门$(br)ps:别贪小便宜省四个角的黑曜石"
+        "text":"$(c)the nether$()$(2)下界$()(Dim -1)$(li)搭建出左图结构，手拿$(6)打火石$()右键此多方块结构即可激活下界传送门$(br)ps:别贪小便宜省四个角的黑曜石，不然打不开的（"
     },
     {
         "type":"spotlight",
@@ -187,7 +219,7 @@
         "type":"spotlight",
         "item":"gct_mobs:everheaven",
         "link_recipe":true,
-        "text":"$(c)everheaven$()$(2)深空之域$()(Dim 78)$(li)搭建出左图结构，手拿$(6)深空核心$()右键此多方块结构（跟打开地狱门一样）即可激活深之域传送门"
+        "text":"$(c)everheaven$()$(2)深空之域$()(Dim 78)$(li)搭建出左图结构，手拿$(6)深空核心$()右键此多方块结构（跟打开地狱门一样）即可激活深空之域传送门"
     },
     {
         "type":"multiblock",
@@ -289,7 +321,7 @@
         "type":"spotlight",
         "item":"botania:twigwand",
         "link_recipe":true,
-        "text":"$(c)alfheim$()$(2)亚尔夫海姆$()(Dim 42)$(li)搭建出左图结构，正常激活精灵门即可。$(li)精灵门必须面向$(6)南北$()方向，否则无法激活。图中魔法水晶为渲染错误，实际是盖亚水晶$(li)$(6)注意：$()进入该维度后不会生成返回传送门"
+        "text":"$(c)alfheim$()$(2)亚尔夫海姆$()(Dim 42)$(li)搭建出左图结构，正常激活精灵门即可。$(li)精灵门必须面向$(6)南北$()方向，否则无法激活。图中的魔法水晶为渲染错误，实际是盖亚水晶$(li)$(6)注意：$()进入该维度后不会生成返回传送门"
     },
     {
         "type":"multiblock",
@@ -363,12 +395,6 @@
     },
     {
         "type":"spotlight",
-        "item":"minecraft:flint_and_steel",
-        "link_recipe":true,
-        "text":"$(c)the nether$()$(2)下界$()(Dim -1)$(li)用$(6)黑曜石$()搭建一个像门的结构，站着躺着都行，确保你能钻进去，然后再用$(6)打火石$()右击门中间，即可开启传送门"
-    },
-    {
-        "type":"spotlight",
         "item":"gct_ores:door_key_of_orderland",
         "link_recipe":true,
         "text":"$(c)orderland$()$(2)秩序之地$()(Dim 102)$(li)使用$(6)守则破坏之秩序之门钥匙$()右键任意方块即可召唤出秩序之地传送门"
@@ -378,10 +404,6 @@
         "item":"randomthings:spectrekey",
         "link_recipe":true,
         "text":"$(c)spectre$()$(2)通灵口袋$()(Dim -343800852)$(li)使用$(6)通灵之钥$()长按右键即可传送至通灵口袋，这是一个只属于你的口袋空间，你可以随心所欲的做一切你想做的事"
-    },
-    {
-        "type":"text",
-        "text":"$(c)ExtraYtils2 Quarry_Dim$()(Dim -9999)$(li)这是量子采矿机采矿用的虚拟维度，不用想，你进不去   $(br)$(c)Storage Cell$()(Dim 741)$(li)这是储存元件的虚拟维度，跟前面那个一样，你进不去  "
     },
     {
         "type":"multiblock",
@@ -484,7 +506,7 @@
         "type":"spotlight",
         "item":"minecraft:glowstone",
         "link_recipe":true,
-        "text":"$(c)Aetherl$()$(2)天境$()(Dim 173)$(li)你需要搭建如图所示多方块结构，再使用$(6)水桶$()右键此多方块结构，即可开启天境/以太/天堂传送门"
+        "text":"$(c)Aetherl$()$(2)天境$()(Dim 173)$(li)你需要搭建如图所示多方块结构，再使用$(6)水桶$()右键此多方块结构，即可开启天境传送门$(li)你还可以使用$(6)一键式天境传送门$()来快捷搭建。"
     },
     {
         "type":"multiblock",
@@ -615,7 +637,7 @@
         "type":"spotlight",
         "item":"divinerpg:arcana_portal_frame",
         "link_recipe":true,
-        "text":"$(c)divinerpg:arcana$()$(2)秘界$()(Dim 426)你需要搭建如图所示多方块结构即可开启秘界传送门$(c)$(li)注：因为方块有方向，多以你必须站在该多方块结构的正中心才可以开始搭建多方块结构，否则很有可能无法开启传送门$()$(li)PS图中的方向是错的，但可视化仍然可以识别，不用担心出现问题，什么？你问我为什么是错的，我也不明白，我要是知道就不会错了......."
+        "text":"$(c)divinerpg:arcana$()$(2)秘界$()(Dim 426)$(li)你需要搭建如图所示多方块结构即可开启$(c)秘界传送门$()$(li)这个投影的方向是错的，实际搭建方式与末地门相同，即你需要站在中间向外摆传送门方块，方向错了打不开哦~"
     },
     {
         "type":"multiblock",
@@ -676,7 +698,7 @@
         "type":"spotlight",
         "item":"journey:darkgem",
         "link_recipe":true,
-        "text":"$(c)depths$()$(2)噬渊$()(Dim 821)$(li)搭建如图所示多方块结构，再使用$(6)阴暗宝石$()嵌入每个$(6)噬渊结界石$()中即可开启噬渊传送门$(c)$(li)注：因为方块有方向，多以你必须站在该多方块结构的正中心才可以开始搭建多方块结构，否则很有可能无法开启传送门$()$(li)PS图中的方向是错的，但可视化仍然可以识别，不用担心出现问题，什么？你问我为什么是错的，我也不明白，我要是知道就不会错了......."
+        "text":"$(c)depths$()$(2)噬渊$()(Dim 821)$(li)搭建如图所示多方块结构，再使用$(6)阴暗宝石$()嵌入每个$(6)噬渊结界石$()中即可开启噬渊传送门$(li)这个投影的方向是错的，实际搭建方式与末地门相同，即你需要站在中间向外摆传送门方块，方向错了打不开哦~"
     },
     {
         "type":"multiblock",
@@ -703,7 +725,7 @@
         "type":"spotlight",
         "item":"journey:demoniceye",
         "link_recipe":true,
-        "text":"$(c)corba$()$(2)尘泥沼泽$()(Dim 824)$(li)搭建如图所示多方块结构，再使用$(6)恶魔之眼$()嵌入每个$(6)尘泥沼泽结界石$()中即可开启尘泥沼泽传送门$(c)$(li)注：因为方块有方向，多以你必须站在该多方块结构的正中心才可以开始搭建多方块结构，否则很有可能无法开启传送门$()$(li)PS图中的方向是错的，但可视化仍然可以识别，不用担心出现问题，什么？你问我为什么是错的，我也不明白，我要是知道就不会错了......."
+        "text":"$(c)corba$()$(2)尘泥沼泽$()(Dim 824)$(li)搭建如图所示多方块结构，再使用$(6)恶魔之眼$()嵌入每个$(6)尘泥沼泽结界石$()中即可开启尘泥沼泽传送门$(li)这个投影的方向是错的，实际搭建方式与末地门相同，即你需要站在中间向外摆传送门方块，方向错了打不开哦~"
     },
     {
         "type":"multiblock",
@@ -1036,7 +1058,7 @@
         "type":"spotlight",
         "item":"journey:sentryeye",
         "link_recipe":true,
-        "text":"$(c)senterian$()$(2)黑岩迷宫$()(Dim 829)$(li)搭建如图所示多方块结构，再使用$(6)觉醒之眼$()嵌入每个$(6)黑岩迷宫结界石$()中即可开启黑岩迷宫传送门$(c)$(li)注：因为方块有方向，多以你必须站在该多方块结构的正中心才可以开始搭建多方块结构，否则很有可能无法开启传送门$()$(li)PS图中的方向是错的，但可视化仍然可以识别，不用担心出现问题，什么？你问我为什么是错的，我也不明白，我要是知道就不会错了......."
+        "text":"$(c)senterian$()$(2)黑岩迷宫$()(Dim 829)$(li)搭建如图所示多方块结构，再使用$(6)觉醒之眼$()嵌入每个$(6)黑岩迷宫结界石$()中即可开启黑岩迷宫传送门$(li)这个投影的方向是错的，实际搭建方式与末地门相同，即你需要站在中间向外摆传送门方块，方向错了打不开哦~"
     },
     {
         "type": "multiblock",
@@ -1137,12 +1159,7 @@
     {
         "type":"spotlight",
         "item":"contenttweaker:dim_item",
-        "text":"$(c)Dim(114514)$(br)在主世界右键进入超平坦世界。$(li)这个世界永昼，再次右键离开该维度"
-    },
-    {
-        "type":"spotlight",
-        "item":"contenttweaker:dim_item",
-        "text":"$(c)Dim(-114514)$(br)在下界右键进入虚空世界。$(li)这个世界永夜，再次右键离开该维度"
+        "text":"$(2)超平坦世界$()$(c)Dim(114514)$()$(li)在主世界右键进入超平坦世界。这个世界永昼，再次右键离开该维度$(br2)$(2)虚空世界$()$(c)Dim(-114514)$()$(li)在下界右键进入虚空世界。这个世界永夜，再次右键离开该维度"
     },
     {
         "type":"spotlight",
@@ -1151,35 +1168,49 @@
     },
     {
         "type":"multiblock",
-        "text":"如图，你需要$(6)泥土$()*12$(6)水$()*4$(6)暮光宝石$()*1$(6)花$()*12",
+        "text":"如图，你需要$(6)秩序之石$()*13$(6)终之秩序石$()*1",
         "symmertrical":true,
         "multiblock":{
             "mapping":{
-                "0":"minecraft:dirt",
-                "A":"minecraft:dirt",
-                "B":"minecraft:red_flower",
-                "C":"minecraft:water"
+                "0":"gct_ores:order_stone_final",
+                "A":"gct_ores:order_stone"
             },
             "pattern":[
                 [
-                    "BBBB",
-                    "B  B",
-                    "B  B",
-                    "BBBB"
-                ],
-               [
-                    "0AAA",
-                    "ACCA",
-                    "ACCA",
                     "AAAA"
-               ]
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A  A"
+                ],
+                [
+                    "A0AA"
+                ]
             ]
         }
     },
     {
         "type":"spotlight",
-        "item":"additions:twilight_gem",
-        "text":"搭建如左图所示多方块结构,将$(6)暮光宝石$()扔进$(6)水$()中即可激活暮色森林传送门$(br)$(c)图中的花可以替换任意种类的花$()$(br)$(c)"
+        "item":"additions:order_wand",
+        "link_recipe":true,
+        "text":"$(c)ordercore$()$(2)秩序核心岛$()(Dim 103)$(li)通过解密找到终之秩序石后搭建如图所示多方块结构，使用$(6)秩序嬗变手杖$()右键多方块结构即可激活传送门"
+    },
+    {
+        "type":"spotlight",
+        "item":"contenttweaker:malevolent_fruit",
+        "link_recipe":true,
+        "text":"$(c)erebus$()$(2)腐朽之地$()(Dim 66)$(li)食用$(6)恶意果实$()后可以传送到此维度"
+    },
+    {
+        "type":"spotlight",
+        "item":"additions:ancient_scrab",
+        "link_recipe":true,
+        "text":"$(c)atum$()$(2)阿图姆$()(Dim 17)$(li)右键使用$(6)荒古圣甲虫$()后可以传送到此维度"
     }
 ]
-        }
+}
