@@ -1,10 +1,10 @@
 {
-	title: "§b最大的储罐（某种意义上说）",
+	title: "§b最大的源质储罐（某种意义上说）",
 	x: -16.5d,
-	y: -2.0d,
+	y: -2.5d,
 	description: "制作ME源质终端",
 	text: [
-		""
+		"你需要源质存储元件"
 	],
 	dependencies: [
 		"9ad09ce0"
