@@ -2469,7 +2469,11 @@ GameStagesUtil.stageDeepDream.addIngredients([
     <ore:plateNebu>,
     <ore:dustNebu>,
     <contenttweaker:dubhe_key>,
-    <additions:tarantula_leg>
+    <additions:tarantula_leg>,
+    <ore:ingotIronwoodPetrified>,
+    <ore:nuggetIronwoodPetrified>,
+    <ore:blockIronwoodPetrified>,
+    <ore:dustIronwoodPetrified>
 ], false);
 
 GameStagesUtil.stageLegendWizard.addIngredients([

@@ -33,7 +33,7 @@ function addBasicTicMetalRecipe(od as string, liquid as ILiquidStack, temperatur
     Melting.addRecipe(liquid * 16, nuggetOd, (temperature * 0.7f) as int);
     Melting.addRecipe(liquid * 144, dustOd, temperature);
     Melting.addRecipe(liquid * (144 * 4), gearOd, (temperature * 1.15f) as int);
-    if (!isNull(ingotOd.firstItem)) Casting.addTableRecipe(ingotOd.firstItem, <tconstruct:cast_custom>, liquid, 144, false, 200);
+    if (!isNull(ingotOd.firstItem)) addTableBasicRecipe(ingotOd.firstItem, <tconstruct:cast_custom>, liquid, 144, false, 200);
     if (!isNull(blockOd.firstItem)) Casting.addBasinRecipe(blockOd.firstItem, null, liquid, 1296, false, 300);
 }
 

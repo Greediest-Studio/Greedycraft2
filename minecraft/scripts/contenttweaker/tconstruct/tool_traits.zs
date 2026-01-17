@@ -5238,3 +5238,28 @@ jadeitizationTrait.color = Color.fromHex("ffffff").getIntColor();
 jadeitizationTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.jadeitizationTrait.name");
 jadeitizationTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.jadeitizationTrait.desc");
 jadeitizationTrait.register();
+
+val poison_smogTrait = TraitBuilder.create("poison_smog");
+poison_smogTrait.color = Color.fromHex("76ff03").getIntColor(); 
+poison_smogTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.poison_smogTrait.name");
+poison_smogTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.poison_smogTrait.desc");
+poison_smogTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (target instanceof IEntityLivingBase) {
+        var entity as IEntityLivingBase = target;
+        if (entity.isPotionActive(<potion:minecraft:poison>)) {
+            var multiplier as float = (1.2f + (Math.random() * 0.2f) as float) as float;
+            return newDamage * multiplier;
+        } else {
+            entity.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(100, 7, false, false));
+        }
+    }
+    return newDamage;
+};
+poison_smogTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
+    if (wasHit && attacker instanceof IPlayer && target instanceof IEntityLivingBase) {
+        if (target.health <= 0.0f) {
+            server.commandManager.executeCommandSilent(server, "summon minecraft:area_effect_cloud " + target.x + " " + target.y + " " + target.z + " {Radius:3.0f,Duration:200,RadiusOnUse:0.0f,RadiusPerTick:0.0f,ReapplicationDelay:10,Effects:[{Id:19b,Amplifier:9b,Duration:200,ShowParticles:1b}]}");
+        }
+    }
+};
+poison_smogTrait.register();

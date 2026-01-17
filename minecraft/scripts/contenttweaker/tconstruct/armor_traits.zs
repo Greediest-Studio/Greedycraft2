@@ -4505,3 +4505,30 @@ jadedTrait.onHeal = function(trait, armor, player, amount, newAmount, evt) {
     return newAmount;
 };
 jadedTrait.register();
+
+val poison_smogTrait = ArmorTraitBuilder.create("poison_smog");
+poison_smogTrait.color = Color.fromHex("76ff03").getIntColor();
+poison_smogTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.poison_smogTrait.name");
+poison_smogTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.poison_smogTrait.desc");
+poison_smogTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player) && player.isPotionActive(<potion:minecraft:poison>)) {
+        player.removePotionEffect(<potion:minecraft:poison>);
+    }
+};
+poison_smogTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !player.world.remote) {
+        server.commandManager.executeCommandSilent(server, "summon minecraft:area_effect_cloud " + player.x + " " + player.y + " " + player.z + " {Radius:3.0f,Duration:200,RadiusOnUse:0.0f,RadiusPerTick:0.0f,ReapplicationDelay:10,Effects:[{Id:19b,Amplifier:9b,Duration:200,ShowParticles:1b}]}");
+        if (!isNull(source.getTrueSource()) && source.getTrueSource() instanceof IEntityLivingBase) {
+            var attacker as IEntityLivingBase = source.getTrueSource();
+            if (attacker.isPotionActive(<potion:minecraft:poison>)) {
+                var reduction as float = 1.0f - (0.2f + (Math.random() * 0.2f) as float);
+                return newDamage * reduction as float;
+            } else {
+                attacker.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(100, 7, false, false));
+            }
+        }
+    }
+    return newDamage;
+};
+poison_smogTrait.register();
+

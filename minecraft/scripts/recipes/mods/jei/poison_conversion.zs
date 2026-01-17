@@ -30,3 +30,4 @@ function createPoisonConversionJEI(output as IItemStack, input as IItemStack) {
 
 createPoisonConversionJEI(<additions:evilblood_slime_block>, <tconstruct:slime:3>);
 createPoisonConversionJEI(<jaopca:block.terrasteel_poisonous>, <botania:storage:1>);
+createPoisonConversionJEI(<additions:petrified_ironwood_block>, <twilightforest:block_storage>);

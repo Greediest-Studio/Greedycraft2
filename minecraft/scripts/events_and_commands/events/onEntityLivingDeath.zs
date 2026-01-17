@@ -162,7 +162,8 @@ events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
             //Poison Conversion Recipes
             val ConversionList as IBlockState[string[]] = {
                 ["tconstruct:slime", "3"]: <blockstate:additions:evilblood_slime_block>,
-                ["botania:storage", "1"]: <blockstate:jaopca:block.terrasteel_poisonous>
+                ["botania:storage", "1"]: <blockstate:jaopca:block.terrasteel_poisonous>,
+                ["twilightforest:block_storage", "0"]: <blockstate:additions:petrified_ironwood_block>
             };
             var world as IWorld = event.entityLivingBase.world;
             var pos as IBlockPos = event.entityLivingBase.position;
