@@ -1,6 +1,11 @@
 {
+	title: "§b最大的储罐（某种意义上说）",
 	x: -16.5d,
 	y: -2.0d,
+	description: "制作ME源质终端",
+	text: [
+		""
+	],
 	dependencies: [
 		"9ad09ce0"
 	],
@@ -10,5 +15,15 @@
 		items: [{
 			item: "thaumicenergistics:essentia_terminal"
 		}]
+	}],
+	rewards: [{
+		uid: "935671cb",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "8f3a23a6",
+		type: "random",
+		table: 1
 	}]
 }

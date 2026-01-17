@@ -88,6 +88,7 @@ import scripts.util.oredict as OredictUtil;
 <ore:sunstone>.remove(<tiths:sun_stone>);
 <ore:moonstone>.remove(<tiths:moon_stone>);
 <ore:topaz>.remove(<tiths:topaz>);
+<ore:crystalVoid>.remove(<actuallyadditions:item_crystal:3>);
 
 <ore:ingotCthulhurite>.add(<gct_mobs:cthulhurite_ingot>);
 <ore:starlight>.add(<journey:sapphire>);
@@ -1269,7 +1270,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <erebus:dutch_cap_mushroom>,
         <erebus:kaizers_fingers_mushroom>
     ],
-    <ore:gemSpiderLegTarantula> : [<additions:tarantula_leg>]
+    <ore:gemSpiderLegTarantula> : [<additions:tarantula_leg>],
+    <ore:crystalVoidic> : [<actuallyadditions:item_crystal:3>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {

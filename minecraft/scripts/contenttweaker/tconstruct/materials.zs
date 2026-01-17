@@ -1122,6 +1122,23 @@ rhino_shell.addPlatesMaterialStats(18, 328, 19);
 rhino_shell.addTrimMaterialStats(341);
 rhino_shell.register();
 
+val gneiss = ExtendedMaterialBuilder.create("gneiss");
+gneiss.color = Color.fromHex("b37a6f").getIntColor();
+gneiss.craftable = true;
+gneiss.castable = false;
+gneiss.representativeItem = <item:erebus:materials:47>;
+gneiss.addItem(<item:erebus:gneiss>);
+gneiss.addItem(<item:erebus:materials:47>, 4);
+gneiss.localizedName = game.localize("greedycraft.tconstruct.material.gneiss.name");
+gneiss.addHeadMaterialStats(3250, 22.5, 210, 13);
+gneiss.addHandleMaterialStats(2.75, 300);
+gneiss.addExtraMaterialStats(750);
+gneiss.addBowMaterialStats(getDrawSpeed(4.5) as float, 2.5, 275);
+gneiss.addCoreMaterialStats(512, 210);
+gneiss.addPlatesMaterialStats(22.5, 305, 17);
+gneiss.addTrimMaterialStats(305);
+gneiss.register();
+
 val exoskeleton_plate = ExtendedMaterialBuilder.create("exoskeleton_plate");
 exoskeleton_plate.color = Color.fromHex("c1c1b6").getIntColor();
 exoskeleton_plate.craftable = true;

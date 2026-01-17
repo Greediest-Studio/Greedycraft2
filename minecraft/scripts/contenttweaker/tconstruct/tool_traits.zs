@@ -5232,3 +5232,9 @@ collisionTrait.calcKnockBack = function(trait, tool, attacker, target, damage, o
     return newKnockBack;
 };
 collisionTrait.register();
+
+val jadeitizationTrait = TraitBuilder.create("jadeitization");
+jadeitizationTrait.color = Color.fromHex("ffffff").getIntColor(); 
+jadeitizationTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.jadeitizationTrait.name");
+jadeitizationTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.jadeitizationTrait.desc");
+jadeitizationTrait.register();

@@ -1,6 +1,11 @@
 {
+	title: "§b增广扩容：终极版",
 	x: -19.5d,
 	y: 0.0d,
+	description: "制作ME增广流体样板终端",
+	text: [
+		""
+	],
 	dependencies: [
 		"a67a4c06",
 		"39b7ba59"
@@ -11,5 +16,15 @@
 		items: [{
 			item: "ae2fc:part_fluid_pattern_ex_terminal"
 		}]
+	}],
+	rewards: [{
+		uid: "78687638",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "94d91bf5",
+		type: "random",
+		table: 1
 	}]
 }

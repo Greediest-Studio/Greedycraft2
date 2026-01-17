@@ -111,6 +111,15 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
         player.removePotionEffect(<potion:minecraft:night_vision>);
     }
 
+    // Prevent Resistance Level 5+
+    if (player.isPotionActive(<potion:minecraft:resistance>) && player.getActivePotionEffect(<potion:minecraft:resistance>).amplifier >= 4) {
+        var time as int = player.getActivePotionEffect(<potion:minecraft:resistance>).duration;
+        var particle as bool = player.getActivePotionEffect(<potion:minecraft:resistance>).doesShowParticles;
+        var ambient as bool = player.getActivePotionEffect(<potion:minecraft:resistance>).isAmbient;
+        player.removePotionEffect(<potion:minecraft:resistance>);
+        player.addPotionEffect(<potion:minecraft:resistance>.makePotionEffect(time, 3, ambient, particle));
+    }
+
     // Prevent saturation overdose
     if (!player.creative && player.isPotionActive(<potion:minecraft:saturation>) && player.getActivePotionEffect(<potion:minecraft:saturation>).duration > 1) {
         var effect as IPotionEffect = player.getActivePotionEffect(<potion:minecraft:saturation>);

@@ -4493,3 +4493,15 @@ force_redirectionTrait.onHurt = function(trait, armor, player, source, damage, n
     return newDamage;
 };
 force_redirectionTrait.register();
+
+val jadedTrait = ArmorTraitBuilder.create("jaded");
+jadedTrait.color = Color.fromHex("ffffff").getIntColor();
+jadedTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.jadedTrait.name");
+jadedTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.jadedTrait.desc");
+jadedTrait.onHeal = function(trait, armor, player, amount, newAmount, evt) {
+    if (!isNull(player)) {
+        return newAmount * 1.25f;
+    }
+    return newAmount;
+};
+jadedTrait.register();
