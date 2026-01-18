@@ -1,13 +1,10 @@
 {
 	title: "§b哭泣蓝花瓣",
-	x: 0.0d,
-	y: 3.0d,
+	x: -0.5d,
+	y: 6.5d,
 	description: "生成于湿地群系",
 	text: [
 		""
-	],
-	dependencies: [
-		"0c618825"
 	],
 	tasks: [{
 		uid: "673c892a",

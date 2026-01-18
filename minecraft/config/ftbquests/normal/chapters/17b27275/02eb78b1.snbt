@@ -1,8 +1,8 @@
 {
 	title: "§b最深的深渊",
 	icon: "gct_aby:warprack",
-	x: -19.5d,
-	y: 1.5d,
+	x: -15.0d,
+	y: 10.5d,
 	description: "前往扭曲遗址",
 	text: [
 		""
@@ -10,7 +10,6 @@
 	dependencies: [
 		"f89ebdde"
 	],
-	size: 1.5d,
 	tasks: [{
 		uid: "7d022357",
 		type: "dimension",

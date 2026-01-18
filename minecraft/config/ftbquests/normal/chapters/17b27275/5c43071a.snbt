@@ -1,13 +1,10 @@
 {
 	title: "§b树叶飘落",
-	x: 4.0d,
-	y: 7.5d,
+	x: 5.0d,
+	y: 10.5d,
 	description: "使用赛摩铜剪刀获得落叶",
 	text: [
 		""
-	],
-	dependencies: [
-		"cb82ddcd"
 	],
 	tasks: [{
 		uid: "1c44820e",
