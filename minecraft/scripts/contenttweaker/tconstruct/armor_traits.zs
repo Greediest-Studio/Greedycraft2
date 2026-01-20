@@ -4532,3 +4532,37 @@ poison_smogTrait.onHurt = function(trait, armor, player, source, damage, newDama
 };
 poison_smogTrait.register();
 
+function getNestingPos(pos as IBlockPos) as IBlockPos[] {
+    return [
+        pos.east(1),
+        pos.west(1),
+        pos.north(1),
+        pos.south(1),
+        pos.down(1),
+        pos.east(1).up(1),
+        pos.west(1).up(1),
+        pos.north(1).up(1),
+        pos.south(1).up(1),
+        pos.up(2)
+    ];
+}
+val nestingTrait = ArmorTraitBuilder.create("nesting");
+nestingTrait.color = Color.fromHex("ffffff").getIntColor();
+nestingTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.nestingTrait.name");
+nestingTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.nestingTrait.desc");
+nestingTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        var pos as IBlockPos = player.position;
+        var count as int = 0;
+        for nestPos in getNestingPos(pos) {
+            if (!player.world.isAirBlock(nestPos)) {
+                count += 1;
+            }
+        }
+        if (count > 4) {
+            return newDamage * 0.7f;
+        }
+    }
+    return newDamage;
+};
+nestingTrait.register();

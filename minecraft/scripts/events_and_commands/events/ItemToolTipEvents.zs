@@ -61,7 +61,7 @@ events.register(function(event as ItemTooltipEvent) {
                 event.getToolTip().remove(location + 1);
             }
         }
-        if (TicTraitLib.hasTicTrait(itemStack, "imitation_armor")) {
+        if (TicTraitLib.hasTicTrait(itemStack, "imitation_armor") && !TicTraitLib.hasTicTrait(itemStack, "imitation")) {
             var tooltips = event.getToolTip();
             var location as int = -1;
             var str as string = "";

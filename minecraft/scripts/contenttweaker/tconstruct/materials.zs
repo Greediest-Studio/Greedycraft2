@@ -1197,6 +1197,23 @@ poisonous_terrasteel.addPlatesMaterialStats(27, 229, 25.5);
 poisonous_terrasteel.addTrimMaterialStats(196);
 poisonous_terrasteel.register();
 
+val ant_emperor = ExtendedMaterialBuilder.create("ant_emperor");
+ant_emperor.color = Color.fromHex("5a3968").getIntColor();
+ant_emperor.craftable = false;
+ant_emperor.castable = true;
+ant_emperor.representativeItem = <item:additions:ant_emperor_ingot>;
+ant_emperor.liquid = <liquid:ant_emperor>;
+ant_emperor.addItem(<ore:ingotAntEmperor>);
+ant_emperor.localizedName = game.localize("greedycraft.tconstruct.material.ant_emperor.name");
+ant_emperor.addHeadMaterialStats(9200, 42.5, 209, 13);
+ant_emperor.addHandleMaterialStats(1.2, 2400);
+ant_emperor.addExtraMaterialStats(2400);
+ant_emperor.addBowMaterialStats(getDrawSpeed(0.8) as float, 2.5, 345);
+ant_emperor.addCoreMaterialStats(825, 215);
+ant_emperor.addPlatesMaterialStats(14, 209, 26.7);
+ant_emperor.addTrimMaterialStats(215);
+ant_emperor.register();
+
 val aeroite = MaterialBuilder.create("aeroite");
 aeroite.color = Color.fromHex("00e5ff").getIntColor(); 
 aeroite.craftable = false;

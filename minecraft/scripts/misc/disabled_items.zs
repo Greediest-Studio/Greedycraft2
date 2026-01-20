@@ -1491,7 +1491,10 @@ var disabledItems as IIngredient[] = [
     <nuclearcraft:infiltrator_pressure_chamber>,
     <atum:scarab>,
     <forbiddenmagicre:eldritch_orb>,
-    <erebus:wand_of_preservation>
+    <erebus:wand_of_preservation>,
+    <erebus:silo_supports>,
+    <erebus:silo_tank>,
+    <erebus:silo_roof>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [

@@ -2575,13 +2575,28 @@ air_controlTrait.localizedDescription = game.localize("greedycraft.tconstruct.to
 air_controlTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer) {
         var player as IPlayer = attacker;
-        if (target.y >= (player.y + 6)) {
+        if (target.y >= (player.y + 3.0d)) {
             return newDamage * 1.05f;
         }
     }
     return newDamage;
 };
 air_controlTrait.register();
+
+val air_control2Trait = TraitBuilder.create("air_control2");
+air_control2Trait.color = Color.fromHex("ffffff").getIntColor(); 
+air_control2Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.air_control2Trait.name");
+air_control2Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.air_controlTrait.desc");
+air_control2Trait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (target.y >= (player.y + 1.5d)) {
+            return newDamage * 1.3f;
+        }
+    }
+    return newDamage;
+};
+air_control2Trait.register();
 
 val transitionTrait = TraitBuilder.create("transition");
 transitionTrait.color = Color.fromHex("ffffff").getIntColor(); 
@@ -5263,3 +5278,49 @@ poison_smogTrait.afterHit = function(trait, tool, attacker, target, damageDealt,
     }
 };
 poison_smogTrait.register();
+
+val ant_summoningTrait = TraitBuilder.create("ant_summoning");
+ant_summoningTrait.color = Color.fromHex("ffffff").getIntColor(); 
+ant_summoningTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.ant_summoningTrait.name");
+ant_summoningTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.ant_summoningTrait.desc");
+ant_summoningTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (Math.random() < 0.01f) {
+            for i in 0 to Math.ceil((Math.random() * 3.0f) as double) {
+                <entity:erebus:erebus.summoned_ant>.spawnEntity(target.world, target.position);
+            }
+            tool.mutable().updateTag({antSummoning : true});
+        }
+    }
+};
+ant_summoningTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (!isNull(tool.tag.antSummoning)) {
+            var pass as bool = tool.tag.antSummoning as bool;
+            if (pass) {
+                if (Math.random() < 0.4f) tool.mutable().updateTag({antSummoning : false});
+                return newDamage * 1.2f;
+            } else {
+                return newDamage;
+            }
+        }
+    }
+    return newDamage;
+};
+ant_summoningTrait.register();
+
+val strong_liftTrait = TraitBuilder.create("strong_lift");
+strong_liftTrait.color = Color.fromHex("ffffff").getIntColor(); 
+strong_liftTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.strong_liftTrait.name");
+strong_liftTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.strong_liftTrait.desc");
+strong_liftTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (wasHit && target.y <= player.y) {
+            target.motionY += 1.0f;
+        }
+    }
+};
+strong_liftTrait.register();

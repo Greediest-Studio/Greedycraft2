@@ -7,19 +7,13 @@ import crafttweaker.entity.IEntityItem;
 import crafttweaker.entity.IEntityMob;
 import crafttweaker.entity.IEntityAnimal;
 import crafttweaker.entity.IEntityLivingBase;
-
 import crafttweaker.player.IPlayer;
-
 import crafttweaker.world.IFacing;
 import crafttweaker.world.IWorld;
 import crafttweaker.world.IBlockPos;
-
 import crafttweaker.oredict.IOreDictEntry;
-
 import crafttweaker.damage.IDamageSource;
-
 import crafttweaker.data.IData;
-
 import crafttweaker.block.IBlock;
 import crafttweaker.block.IBlockState;
 
@@ -29,18 +23,17 @@ import mods.randomtweaker.cote.ISubTileEntity;
 import mods.randomtweaker.cote.BlockActivated;
 import mods.randomtweaker.cote.ISubTileEntityFunctional;
 import mods.randomtweaker.cote.Update;
-
 import mods.randomtweaker.utils.ITileData;
-
 import mods.zenutils.DataUpdateOperation.OVERWRITE;
 import mods.zenutils.DataUpdateOperation.APPEND;
 import mods.zenutils.DataUpdateOperation.MERGE;
 import mods.zenutils.DataUpdateOperation.REMOVE;
 import mods.zenutils.DataUpdateOperation.BUMP;
-
 import mods.ctintegration.scalinghealth.DifficultyManager;
-
 import mods.contenttweaker.Commands;
+
+import native.net.minecraft.util.math.BlockPos;
+import native.net.minecraft.block.BlockLiquid;
 
 var Blood_Hydroangeas as ISubTileEntityGenerating = VanillaFactory.createSubTileGenerating("blood_hydroangeas", 0xFFFFFF);
 Blood_Hydroangeas.maxMana = 2000;
@@ -379,6 +372,14 @@ eat_iron.onUpdate = function(subtile, world, pos) {
             if(!isNull(world.getBlock(i))){
                 if(!isNull(world.getBlock(i).definition)){
                     if(world.getBlock(i).definition.id.contains("iron")){
+                        var pass as bool = true;
+                        var worldCt as IWorld = IWorld.getFromID(world.dimension);
+                        if (!isNull(world.getBlock(i).fluid)) {
+                            var posNt as BlockPos = BlockPos(i.x as int, i.y as int, i.z as int);
+                            if (worldCt.native.getBlockState(posNt).getValue(BlockLiquid.LEVEL) != 0) {
+                                pass = false;
+                            }
+                        }
                         Commands.call("playsound minecraft:entity.generic.drink record @p", null, world, false, true);
                         if (!world.remote) {say("§d[作者姬]§r§f：§r§e干了这杯铁!");}
                         world.setBlockState(<blockstate:minecraft:air>, i);
