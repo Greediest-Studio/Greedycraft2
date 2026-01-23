@@ -1596,7 +1596,7 @@ RecipeUtil.addShaped("estorage_cell_fluid_256m", <ecoaeextension:estorage_cell_f
 ]);
 RecipeUtil.addShaped("extendable_fabricator_subsystem_l4", <ecoaeextension:extendable_fabricator_subsystem_l4>, [
     [<ecoaeextension:efabricator_casing>, <additions:logic_processor_2>, <ecoaeextension:efabricator_casing>],
-    [<additions:logic_processor_2>, <threng:machine:4>, <additions:logic_processor_2>],
+    [<additions:logic_processor_2>, <threng:level_maintainer>, <additions:logic_processor_2>],
     [<ecoaeextension:efabricator_casing>, <additions:logic_processor_2>, <ecoaeextension:efabricator_casing>]
 ]);
 RecipeUtil.addShaped("extendable_fabricator_subsystem_l6", <ecoaeextension:extendable_fabricator_subsystem_l6>, [
