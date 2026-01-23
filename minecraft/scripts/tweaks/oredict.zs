@@ -89,6 +89,9 @@ import scripts.util.oredict as OredictUtil;
 <ore:moonstone>.remove(<tiths:moon_stone>);
 <ore:topaz>.remove(<tiths:topaz>);
 <ore:crystalVoid>.remove(<actuallyadditions:item_crystal:3>);
+<ore:seedsTier7>.remove(<mysticalagriculture:tier7_inferium_seeds>);
+<ore:seedsTier8>.remove(<mysticalagriculture:tier8_inferium_seeds>);
+<ore:seedsTier9>.remove(<mysticalagriculture:tier9_inferium_seeds>);
 
 <ore:ingotCthulhurite>.add(<gct_mobs:cthulhurite_ingot>);
 <ore:starlight>.add(<journey:sapphire>);

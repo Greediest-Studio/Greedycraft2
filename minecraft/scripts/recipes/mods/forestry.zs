@@ -680,6 +680,21 @@ val seedRecipes as IIngredient[][][IItemStack] = {
         [essence[3], <mysticalagriculture:tier2_inferium_seeds>, essence[3]], 
         [essence[3], essence[3], essence[3]]
     ],
+    <mysticalagriculture:tier7_inferium_seeds> : [
+        [essence[7], essence[7], essence[7]], 
+        [essence[7], <mysticalagradditions:tier6_inferium_seeds>, essence[7]], 
+        [essence[7], essence[7], essence[7]]
+    ],
+    <mysticalagriculture:tier8_inferium_seeds> : [
+        [essence[8], essence[8], essence[8]], 
+        [essence[8], <mysticalagriculture:tier7_inferium_seeds>, essence[8]], 
+        [essence[8], essence[8], essence[8]]
+    ],
+    <mysticalagriculture:tier9_inferium_seeds> : [
+        [essence[9], essence[9], essence[9]], 
+        [essence[9], <mysticalagriculture:tier8_inferium_seeds>, essence[9]], 
+        [essence[9], essence[9], essence[9]]
+    ],
     <mysticalagriculture:uranium_seeds> : [
         [<ore:ingotUranium>, essence[5], <ore:ingotUranium>], 
         [essence[5], base[5], essence[5]], 
@@ -752,7 +767,7 @@ for seed in seedRecipes {
     seed.addTooltip(I18n.format("greedycraft.mysticalagriculture.seed_tooltip", baseItemName));
     mods.jei.JEI.addDescription(seed, I18n.format("greedycraft.mysticalagriculture.jei_info", baseItemName));
     var time = [60, 75, 80, 100, 140, 210, 1200, 6400, 20000, 60000] as int[];
-    var fluid = [600, 750, 900, 1200, 1600, 2400, 10000, 10000, 10000] as int[];
+    var fluid = [600, 750, 900, 1200, 1600, 2400, 10000, 10000, 10000, 10000] as int[];
     var fertilizer = [
         <thermalfoundation:fertilizer>,
         <thermalfoundation:fertilizer>,
@@ -762,7 +777,8 @@ for seed in seedRecipes {
         <thermalfoundation:fertilizer:2>,
         <mysticalagriculture:mystical_fertilizer>,
         <additions:between_essence>,
-        <additions:solid_culture_medium>
+        <additions:solid_culture_medium>,
+        <additions:creative_soul>
     ] as IItemStack[];
     var tier = 0;
     if (<ore:seedsTier1> has seed) {

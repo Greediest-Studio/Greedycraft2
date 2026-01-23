@@ -2136,7 +2136,7 @@ GameStagesUtil.stageChallenger8.addIngredients([
 ], true);
 
 GameStagesUtil.stageChallenger9.addIngredients([
-    //<ore:seedTier9>,
+    <ore:seedsTier9>,
     <additions:nonenium_essence>,
     <additions:nonenium_ingot>
 ], true);
