@@ -22,6 +22,7 @@ import mods.modularmachinery.RecipePrimer;
 import mods.modularmachinery.MMEvents;
 import mods.modularmachinery.ControllerGUIRenderEvent;
 import mods.modularmachinery.MachineTickEvent;
+import mods.modularmachinery.FactoryRecipeTickEvent;
 import mods.modularmachinery.IMachineController;
 import mods.ctutils.utils.Math;
 import mods.jei.JEI;
@@ -73,6 +74,37 @@ RecipeBuilder.newBuilder("meteor_mine", "fallen_star", 75)
         }
         if (!pass) {event.setFailed("范围内不存在可采集矿石");}
     })
+    .addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
+        val ctrl = event.controller;
+        var pos = ctrl.pos.up(13);
+        var pass = false;
+        var i = -8;
+        var j = -8;
+        var k = -8;
+        if (ctrl.getHarvestLevel() <= 0) {pass = false;}
+        while (k <= 8) {
+            if (pass) {break;}
+            while (j <= 8) {
+                if (pass) {break;}
+                while (i <= 8) {
+                    if (pass) {break;}
+                    val orepos = IBlockPos.create(pos.x + i, pos.y + j, pos.z + k);
+                    val block = ctrl.world.getBlock(orepos);
+                    if ((block.definition.id != "minecraft:obsidian") && (block.definition.id != "minecraft:air")) {
+                        if (block.definition.harvestLevel <= ctrl.getHarvestLevel()) {
+                            pass = true;
+                        }
+                    }
+                    i += 1;
+                }
+                j += 1;
+                i = -8;
+            }
+            k += 1;
+            j = -8;
+        }
+        if (!pass) {event.setFailed(true,"范围内不存在可采集矿石");}
+    })
     .addEnergyPerTickInput(50)
     .addItemOutput(<minecraft:stone>).addItemModifier(function(controller, stack) {
         val ctrl = controller;
@@ -93,11 +125,17 @@ RecipeBuilder.newBuilder("meteor_mine", "fallen_star", 75)
                             ore = block;
                             count += 1;
                             a = false;
-                            ctrl.world.catenation().sleep(5).then(function(world as IWorld, context) {ctrl.world.setBlockState(<blockstate:minecraft:air>,orepos);}).start();
+                            ctrl.world.catenation().sleep(5).then(function(world as IWorld, context) {
+                                ctrl.world.destroyBlock(orepos,false);
+                                ctrl.world.setBlockState(<blockstate:minecraft:air>,orepos);
+                            }).start();
                         }
                         if (!a && block.definition.id == ore.definition.id && block.meta == ore.meta) {
                             count += 1;
-                            ctrl.world.catenation().sleep(5).then(function(world as IWorld, context) {ctrl.world.setBlockState(<blockstate:minecraft:air>,orepos);}).start();
+                            ctrl.world.catenation().sleep(5).then(function(world as IWorld, context) {
+                                ctrl.world.destroyBlock(orepos,false);
+                                ctrl.world.setBlockState(<blockstate:minecraft:air>,orepos);
+                            }).start();
                         }
                     }
                     i += 1;

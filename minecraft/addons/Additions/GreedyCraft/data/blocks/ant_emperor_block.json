@@ -1,0 +1,20 @@
+{
+  "item_block": {
+    "name": "§5蚁皇块",
+    "ore_dict": "blockAntEmperor",
+    "type": "additions:block_simple"
+  },
+  "name": "§5蚁皇块",
+  "material": "minecraft:metal",
+  "place_sound": "minecraft:block.metal.place",
+  "break_sound": "minecraft:block.metal.break",
+  "hit_sound": "minecraft:block.metal.hit",
+  "step_sound": "minecraft:block.metal.step",
+  "fall_sound": "minecraft:block.metal.fall",
+  "hardness": 20.0,
+  "resistance": 2000.0,
+  "harvest_level": 13,
+  "harvest_tool": "pickaxe",
+  "light_level": 5,
+  "type": "additions:simple"
+}

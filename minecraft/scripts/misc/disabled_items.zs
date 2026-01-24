@@ -1202,8 +1202,7 @@ var disabledItems as IIngredient[] = [
     <endreborn:armour_helmet_dragon>,
     <endreborn:armour_chestplate_dragon>,
     <endreborn:armour_leggings_dragon>,
-    <endreborn:armour_boots_dragon>,//末地重铸武器盔甲
-    //临时1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+    <endreborn:armour_boots_dragon>,
     <projecte:item.pe_transmutation_tablet>,
     <projecte:transmutation_table>,
     <projectex:stone_table>,
@@ -1217,7 +1216,6 @@ var disabledItems as IIngredient[] = [
     <projectex:personal_link>,
     <projectex:refined_link>,
     <projectex:compressed_refined_link>,
-    <tinymobfarm:ultimate_farm>,
     <ageofminecraft:mob_spawner_spc>,
     <ageofminecraft:guard_block>,
     <ageofminecraft:mana_collector>,

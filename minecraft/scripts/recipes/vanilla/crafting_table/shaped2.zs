@@ -786,6 +786,11 @@ RecipeUtil.addShaped("upgrade_cast_4", <tinkertoolcasts:upgrade_ultimate>, [
     [<ore:ingotOverlaite>, <tinkertoolcasts:upgrade_iridium>, <ore:ingotOverlaite>],
     [null, <ore:ingotOverlaite>, null]
 ]);
+RecipeUtil.addShaped("ultimate_farm", <tinymobfarm:ultimate_farm>, [
+    [<ore:dragonEgg>, <draconicevolution:draconium_ingot> | <tiths:ingot_witherium>, <ore:dragonEgg>],
+    [<tinymobfarm:inferno_farm>, <additions:creative_shard>, <tinymobfarm:inferno_farm>],
+    [<ore:dragonEgg>, <draconicevolution:draconium_ingot> | <tiths:ingot_witherium>, <ore:dragonEgg>]
+]);
 /*
  * RecipeUtil.addShaped("", , [
  *  [null, null, null],
