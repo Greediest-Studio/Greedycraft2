@@ -1026,6 +1026,13 @@ addBuilderRecipe(<modularmachinery:elysia_polymer_factory_controller>, [
     <avaritia:neutron_collector> * 32
 ], 1, 3200);
 
+addBuilderRecipe(<modularmachinery:elysia_etcher_factory_controller>, [
+    <gct_ores:blue_print_empty> * 32,
+    <ore:ingotModularium> * 64,
+    <ae2stuff:inscriber> * 32,
+    <threng:etcher> * 32
+], 1, 3200);
+
 addBuilderRecipe(<modularmachinery:factory_4x_factory_controller>, [
     <gct_ores:blue_print_forge> * 32,
     <ore:ingotModularium> * 64,
