@@ -126,16 +126,16 @@ NetworkHandler.registerClient2ServerMessage("dragonBodyTraitLeftClick", function
                 poses += [player.x + dx * i as float, player.y + dy * i as float, player.z + dz * i as float] as float[];
             }
             for pos in poses {
-                server.commandManager.executeCommandSilent(player, "particle dragonbreath " + pos[0] + " " + pos[1] + " " + pos[2] + " 0 0 0 0 1 force");
+                server.commandManager.executeCommandSilent(player, "particle dragonbreath " + pos[0] + " " + (pos[1] + 1.0f) + " " + pos[2] + " 0 0 0 0 1 force");
             }
             target.attackEntityFrom(IDamageSource.createEntityDamage("chaos", player), target.isBoss ? Math.min(60.0f, target.maxHealth * 0.05f) : target.maxHealth * 0.05f);
         }
     }
     if (pass) {
         player.playSound("minecraft:entity.enderdragon.ambient", 1.0f, 1.0f);
-        player.getInventoryStack(100).mutable().attemptDamageItemWithEnergy(20, player);
-        player.getInventoryStack(101).mutable().attemptDamageItemWithEnergy(20, player);
-        player.getInventoryStack(102).mutable().attemptDamageItemWithEnergy(20, player);
-        player.getInventoryStack(103).mutable().attemptDamageItemWithEnergy(20, player);
+        player.armorInventory[0].mutable().attemptDamageItemWithEnergy(5, player);
+        player.armorInventory[1].mutable().attemptDamageItemWithEnergy(5, player);
+        player.armorInventory[2].mutable().attemptDamageItemWithEnergy(5, player);
+        player.armorInventory[3].mutable().attemptDamageItemWithEnergy(5, player);
     }
 });
