@@ -2835,7 +2835,7 @@ charitableTrait.onHit = function(trait, tool, attacker, target, damage, isCritic
 charitableTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer && !(target instanceof IPlayer)) {
         var player as IPlayer = attacker;
-        if (!isNull(tool.tag.charitable)) {
+        if (!isNull(tool.tag.charitable) && !isNull(target.definition)) {
             if (target.definition.id == tool.tag.charitable.name as string && tool.tag.charitable.times as int >= 7) {
                 return newDamage * 0.3f;
             }
