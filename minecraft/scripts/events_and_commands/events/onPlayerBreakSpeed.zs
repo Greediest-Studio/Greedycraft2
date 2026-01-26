@@ -46,7 +46,7 @@ events.onPlayerBreakSpeed(function(event as PlayerBreakSpeedEvent) {
         // Ban non-Tinkers' Construct pickaxes with a harvest level greater than 5
         if (!isNull(player.currentItem)) {
             var pickaxe as IItemStack = player.currentItem;
-            if (pickaxe.getHarvestLevel("pickaxe") > 5 && !(TicLib.isTicTool(pickaxe) || pickaxe.definition.id has "draconicevolution")) {
+            if (pickaxe.getHarvestLevel("pickaxe") > 5 && !(TicLib.isTicTool(pickaxe) || pickaxe.definition.id has "draconicevolution:" || pickaxe.definition.id has "avaritia:")) {
                 event.newSpeed = 0;
                 player.sendChat("§4你不能使用挖掘等级大于5的非匠魂镐子挖掘方块！");
                 event.cancel();

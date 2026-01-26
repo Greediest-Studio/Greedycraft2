@@ -4566,3 +4566,80 @@ nestingTrait.onHurt = function(trait, armor, player, source, damage, newDamage, 
     return newDamage;
 };
 nestingTrait.register();
+
+val seriesTrait = ArmorTraitBuilder.create("series");
+seriesTrait.color = Color.fromHex("6495ED").getIntColor();
+seriesTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.seriesTrait.name");
+seriesTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.seriesTrait.desc");
+seriesTrait.onArmorTick = function(trait, armor, world, player) {
+    var hurtTick as IData = {"HurtTick": 0 as int} as IData;
+    var hitTimes as IData = {"HitTimes": 0 as int} as IData;
+    if (!isNull(armor.tag.memberGet("HurtTick"))) {
+        if ((!isNull(armor.tag.memberGet("HitTimes")) && armor.tag.memberGet("HitTimes") != 0) || armor.tag.memberGet("HurtTick").asInt() < 0) {
+            hurtTick = hurtTick.update({"HurtTick": armor.tag.memberGet("HurtTick")+1});
+        }
+        if (armor.tag.memberGet("HurtTick") >= 200) {
+            hurtTick = hurtTick.update({"HurtTick": 0});
+            armor.mutable().updateTag(hitTimes);
+        }
+    }
+    armor.mutable().updateTag(hurtTick);
+};
+seriesTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    var hitTimes as IData = {"HitTimes": 0 as int} as IData;
+    var hurtTick as IData = {"HurtTick": -600 as int} as IData;
+    if (!isNull(armor.tag.memberGet("HurtTick")) && armor.tag.memberGet("HurtTick").asInt() < 0) {
+        return newDamage;
+    }
+    if (!isNull(armor.tag.memberGet("HitTimes"))) {
+        hitTimes = hitTimes.update({"HitTimes": armor.tag.memberGet("HitTimes")+1});
+        if (newDamage * pow(0.5, armor.tag.memberGet("HitTimes").asInt()) <= 1.0f) {
+            hitTimes = hitTimes.update({"HitTimes": 0 as int});
+            armor.mutable().updateTag(hurtTick);
+        }
+        armor.mutable().updateTag(hitTimes);
+        return (newDamage * pow(0.5, armor.tag.memberGet("HitTimes").asInt())) as float;
+    } else {
+        hitTimes = hitTimes.update({"HitTimes": 1 as int});
+        armor.mutable().updateTag(hitTimes);
+        return newDamage;
+    }
+};
+seriesTrait.register();
+
+val rationalityTrait = ArmorTraitBuilder.create("rationality");
+rationalityTrait.color = Color.fromHex("6495ED").getIntColor();
+rationalityTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.rationalityTrait.name");
+rationalityTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.rationalityTrait.desc");
+rationalityTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    var warpTotal = player.warpNormal + player.warpTemporary + player.warpPermanent;
+    if (warpTotal == 0) {
+        return newDamage * 0.9f;
+    }
+    if (warpTotal > 500) {
+        warpTotal = 500;
+    }
+    val amp = 1.0 + (warpTotal as double)/1000.0;
+    return newDamage * (amp as float);
+};
+rationalityTrait.register();
+
+val dragon_bodyTrait = ArmorTraitBuilder.create("dragon_body");
+dragon_bodyTrait.color = Color.fromHex("ff6600").getIntColor();
+dragon_bodyTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.dragon_bodyTrait.name");
+dragon_bodyTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.dragon_bodyTrait.desc");
+dragon_bodyTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        var count as int = 0;
+        count += CotTicTraitLib.getPlayerTicHelmetTrait(player) has "dragon_body_armor" ? 1 : 0;
+        count += CotTicTraitLib.getPlayerTicChestplateTrait(player) has "dragon_body_armor" ? 1 : 0;
+        count += CotTicTraitLib.getPlayerTicLeggingsTrait(player) has "dragon_body_armor" ? 1 : 0;
+        count += CotTicTraitLib.getPlayerTicBootsTrait(player) has "dragon_body_armor" ? 1 : 0;
+        if (count == 3) {
+            player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(20, 0, true, false));
+        } else if (count == 4) {
+            player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(20, 1, true, false));
+        }
+    }
+};
+dragon_bodyTrait.register();

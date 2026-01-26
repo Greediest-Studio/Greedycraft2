@@ -582,7 +582,6 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
         var slotDef as SlotDefinition = BaublesApi.getBaublesHandler(player.native).getSlot(i);
         if (slotDef.getRegistryName().toString() == "baubles:ring") ringSlot += 1;
     }
-
     if (count > ringSlot) {
         for i in 1 to (count - ringSlot + 1) {
             var newRingSlot as SlotDefinition = SlotDefinitions.get(ResourceLocation("baubles:ring"));
@@ -595,6 +594,48 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
         }
     }
 
+    //Dragon Body Trait
+    var hasDragonBody as int = 0;
+    hasDragonBody += TicTraitLib.getPlayerTicHelmetTrait(player) has "dragon_body_armor" ? 1 : 0;
+    hasDragonBody += TicTraitLib.getPlayerTicChestplateTrait(player) has "dragon_body_armor" ? 1 : 0;
+    hasDragonBody += TicTraitLib.getPlayerTicLeggingsTrait(player) has "dragon_body_armor" ? 1 : 0;
+    hasDragonBody += TicTraitLib.getPlayerTicBootsTrait(player) has "dragon_body_armor" ? 1 : 0;
+    var dragonBodyModifier = AttributeModifier.createModifier("generic.movementSpeed", 0.7f + 0.3f * hasDragonBody as float, 1, "abcdefab-1234-5678-9abc-defabcdefabc");
+    if (hasDragonBody >= 2) {
+        if (!player.getAttribute("generic.movementSpeed").hasModifier(dragonBodyModifier)) {
+            player.getAttribute("generic.movementSpeed").applyModifier(dragonBodyModifier);
+        }
+    } else {
+        if (player.getAttribute("generic.movementSpeed").hasModifier(dragonBodyModifier)) {
+            player.getAttribute("generic.movementSpeed").removeModifier("abcdefab-1234-5678-9abc-defabcdefabc");
+        }
+    }
+
+    //Firegun Enhancement
+    if (!isNull(player.mainHandHeldItem)) {
+        if (player.mainHandHeldItem.definition.id == "tinkersarsenal:boomstick") {
+            var firegun as IItemStack = player.mainHandHeldItem;
+            if (!isNull(firegun.tag.bulletCapacity)) {
+                if (firegun.tag.bulletCapacity as int == 0 && firegun.tag.Loaded as byte == 1) {
+                    firegun.mutable().updateTag({bulletCapacity : 20 as int});
+                }
+            } else {
+                firegun.mutable().updateTag({bulletCapacity : 0 as int, Loaded : 0 as byte});
+            }
+        }
+    }
+    if (!isNull(player.offHandHeldItem)) {
+        if (player.offHandHeldItem.definition.id == "tinkersarsenal:boomstick") {
+            var firegun as IItemStack = player.offHandHeldItem;
+            if (!isNull(firegun.tag.bulletCapacity)) {
+                if (firegun.tag.bulletCapacity as int == 0 && firegun.tag.Loaded as byte == 1) {
+                    firegun.mutable().updateTag({bulletCapacity : 20 as int});
+                }
+            } else {
+                firegun.mutable().updateTag({bulletCapacity : 0 as int, Loaded : 0 as byte});
+            }
+        }
+    }
 });
 
 $expand Container$isStack(slotIndex as int, stackTarget as IItemStack) as bool {

@@ -2589,6 +2589,19 @@ molten_eco_basic_alloy.stillLocation = "base:fluids/molten";
 molten_eco_basic_alloy.flowingLocation = "base:fluids/molten_flowing";
 molten_eco_basic_alloy.register();
 
+val molten_calculus = mods.contenttweaker.VanillaFactory.createFluid("calculus", Color.fromHex("ffd700").getIntColor());
+molten_calculus.material = <blockmaterial:lava>;
+molten_calculus.viscosity = 2000;
+molten_calculus.density = 4000;
+molten_calculus.rarity = "EPIC";
+molten_calculus.colorize = true;
+molten_calculus.temperature = 12000;
+molten_calculus.luminosity = 15;
+molten_calculus.color = Color.fromHex("ffd700").getIntColor();
+molten_calculus.stillLocation = "base:fluids/molten";
+molten_calculus.flowingLocation = "base:fluids/molten_flowing";
+molten_calculus.register();
+
 //液化类
 val liquid_air = mods.contenttweaker.VanillaFactory.createFluid("liquid_air", Color.fromHex("ffffff").getIntColor());
 liquid_air.material = <blockmaterial:water>;

@@ -710,7 +710,11 @@ GameStagesUtil.stageCosmic.addIngredients([
     <additions:engineering_circuit_printed_3>,
     <additions:logic_circuit_printed_3>,
     <additions:modular_dimensional_magnifier>,
-    <ore:essenceTier7>
+    <ore:essenceTier7>,
+    <ore:ingotCalculus>,
+    <ore:nuggetCalculus>,
+    <ore:blockCalculus>,
+    <ore:dustCalculus>
 ], false);
 
 GameStagesUtil.stageBalancedMatrix.addIngredients([

@@ -5324,3 +5324,89 @@ strong_liftTrait.afterHit = function(trait, tool, attacker, target, damageDealt,
     }
 };
 strong_liftTrait.register();
+
+val calculusTrait = TraitBuilder.create("calculus");
+calculusTrait.color = Color.fromHex("6495ED").getIntColor(); 
+calculusTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.calculusTrait.name");
+calculusTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.calculusTrait.desc");
+calculusTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    var dmgTick as IData = {"DmgTick": 0} as IData;
+    var currentDps as IData = {"CurrentDps": 0.0 as float} as IData;
+    var sumDmg as IData = {"SumDmg": 0.0 as float} as IData;
+    var dmgTimes as IData = {"DmgTimes": 0} as IData;
+    if ((!isNull(tool.tag.memberGet("DmgTimes")) && tool.tag.memberGet("DmgTimes") != 0)) {
+        if (!isNull(tool.tag.memberGet("DmgTick"))) {
+            dmgTick = dmgTick.update({"DmgTick": tool.tag.memberGet("DmgTick")+1});
+        }
+    }
+    if (!isNull(tool.tag.memberGet("DmgTick")) && tool.tag.memberGet("DmgTick") >= 1200) {
+        dmgTick = dmgTick.update({"DmgTick": 0});
+        tool.mutable().updateTag(sumDmg);
+        tool.mutable().updateTag(dmgTimes);
+    }
+    tool.mutable().updateTag(dmgTick);
+};
+calculusTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    var dmgTick as IData = {"DmgTick": 0} as IData;
+    var sumDmg as IData = {"SumDmg": 0.0 as float} as IData;
+    var dmgTimes as IData = {"DmgTimes": 0} as IData;
+    if (!isNull(tool.tag.memberGet("DmgTimes")) && !isNull(tool.tag.memberGet("CurrentDps")) && tool.tag.memberGet("DmgTimes") == 10) {
+        target.health -= newDamage + tool.tag.memberGet("CurrentDps").asFloat();
+        tool.mutable().updateTag(dmgTick);
+        tool.mutable().updateTag(sumDmg);
+        tool.mutable().updateTag(dmgTimes);
+        return 0.0f;
+    }
+    return newDamage as float;
+};
+calculusTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
+    var sumDmg as IData = {"SumDmg": 0.0 as float} as IData;
+    var dmgTimes as IData = {"DmgTimes": 0} as IData;
+
+    if (!isNull(tool.tag.memberGet("DmgTimes"))) {
+        if (tool.tag.memberGet("DmgTimes") <= 9) {
+            dmgTimes = dmgTimes.update({"DmgTimes": tool.tag.memberGet("DmgTimes")+1});
+        }
+    
+        if (tool.tag.memberGet("DmgTimes") == 9) {
+            if (!isNull(tool.tag.memberGet("SumDmg"))) {
+                var currentDps as IData = {"CurrentDps": (tool.tag.memberGet("SumDmg")+damageDealt)/(tool.tag.memberGet("DmgTick")/20) as float} as IData;
+                tool.mutable().updateTag(currentDps);
+            }
+        }
+
+        if (tool.tag.memberGet("DmgTimes") <= 8) {
+            if (!isNull(tool.tag.memberGet("SumDmg"))) {
+                sumDmg = sumDmg.update({"SumDmg": tool.tag.memberGet("SumDmg")+damageDealt as float});
+            }
+        }
+    } else {
+        dmgTimes = dmgTimes.update({"DmgTimes": 1});
+        sumDmg = sumDmg.update({"SumDmg": damageDealt as float});
+    }
+
+    tool.mutable().updateTag(sumDmg);
+    tool.mutable().updateTag(dmgTimes);
+};
+calculusTrait.register();
+
+val rationalityTrait = TraitBuilder.create("rationality");
+rationalityTrait.color = Color.fromHex("6495ED").getIntColor(); 
+rationalityTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.rationalityTrait.name");
+rationalityTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.rationalityTrait.desc");
+rationalityTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (isNull(target) || !(attacker instanceof IPlayer)) {
+        return newDamage;
+    }
+    val player as IPlayer = attacker;
+    var warpTotal = player.warpNormal + player.warpTemporary + player.warpPermanent;
+    if (warpTotal == 0) {
+        return newDamage * 1.1f;
+    }
+    if (warpTotal > 500) {
+        warpTotal = 500;
+    }
+    val amp = 1.0 - (warpTotal as double)/1000.0;
+    return newDamage * (amp as float);
+};
+rationalityTrait.register();

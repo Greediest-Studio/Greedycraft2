@@ -904,7 +904,17 @@ greedycraft.tconstruct.armor_trait.jadedTrait.name=筋疲力尽
 greedycraft.tconstruct.armor_trait.jadedTrait.desc=§o猫\n§r增加玩家恢复的血量。
 greedycraft.tconstruct.armor_trait.nestingTrait.name=筑巢
 greedycraft.tconstruct.armor_trait.nestingTrait.desc=§o温暖的家\n§r当你紧邻着的非全体积方块数量超过4个时，阻挡30%伤害。
+greedycraft.tconstruct.armor_trait.seriesTrait.name=级数收敛
+greedycraft.tconstruct.armor_trait.seriesTrait.desc=§o无穷级数！§r\n§f受击后一段时间内所受到的攻击以等比数列为系数进行衰减，直至伤害小于1。
+greedycraft.tconstruct.armor_trait.rationalityTrait.name=理性主义
+greedycraft.tconstruct.armor_trait.rationalityTrait.desc=§o保持理性！§r\n§f身上的扭曲值越多，受到伤害越高，扭曲值为0时减少10%伤害。
+greedycraft.tconstruct.armor_trait.dragon_bodyTrait.name=龙躯
+greedycraft.tconstruct.armor_trait.dragon_bodyTrait.desc=§o龙之躯！§r\n§f每件护甲提供20%的飞行伤害减免。\n套装效果：\n2件：每件额外提供30%移速加成。\n3件：每件额外提供1级生命恢复。\n4件：左键空挥时消耗每件盔甲各20耐久向5格内的一切非玩家目标释放附带其生命值5%的混沌龙息效果。
 #工具词条
+greedycraft.tconstruct.tool_trait.calculusTrait.name=微积分
+greedycraft.tconstruct.tool_trait.calculusTrait.desc=§o数学分析！§r\n§f计算十次攻击的DPS，下一次攻击会打出原本伤害与DPS数值叠加后的真伤。
+greedycraft.tconstruct.tool_trait.rationalityTrait.name=理性主义
+greedycraft.tconstruct.tool_trait.rationalityTrait.desc=§o保持理性！§r\n§f身上的扭曲值越多，造成伤害越低，扭曲值为0时增加10%伤害。
 greedycraft.tconstruct.tool_trait.ant_summoningTrait.name=唤蚁
 greedycraft.tconstruct.tool_trait.ant_summoningTrait.desc=§o小小的帮手！\n§r攻击时有小概率召唤一只黑蚁来协助你战斗，之后短暂提升你的攻击伤害。
 greedycraft.tconstruct.tool_trait.strong_liftTrait.name=千斤顶

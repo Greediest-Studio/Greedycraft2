@@ -148,6 +148,16 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
         player.setDead();
         player.health = 0.0f;
     }
+
+    // Dragon Body Trait Damage Reduction
+    var dragonBodyTraitCount as int = 0;
+    dragonBodyTraitCount += TicTraitLib.getPlayerTicHelmetTrait(player) has "dragon_body" ? 1 : 0;
+    dragonBodyTraitCount += TicTraitLib.getPlayerTicChestplateTrait(player) has "dragon_body" ? 1 : 0;
+    dragonBodyTraitCount += TicTraitLib.getPlayerTicLeggingsTrait(player) has "dragon_body" ? 1 : 0;
+    dragonBodyTraitCount += TicTraitLib.getPlayerTicBootsTrait(player) has "dragon_body" ? 1 : 0;
+    if (dragonBodyTraitCount > 0 && player.native.capabilities.isFlying) {
+        dmg *= (1.0f - 0.2f * dragonBodyTraitCount as float);
+    }
     
     event.amount = dmg;
 });

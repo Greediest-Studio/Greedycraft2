@@ -274,6 +274,17 @@ if (!isNull(event.item) && !event.world.isRemote()) {
         player.addPotionEffect(<potion:contenttweaker:atum_protection>.makePotionEffect(2400, 0));
     }
 
+    //Firegun multishot
+    if (isNull(event.item)) return;
+    if (event.item.definition.id == "tinkersarsenal:boomstick") {
+        var item as IItemStack = event.item;
+        if (!isNull(item.tag.bulletCapacity)) {
+            if (item.tag.bulletCapacity as int > 0) {
+                item.mutable().updateTag({bulletCapacity : item.tag.bulletCapacity as int - 1, Loaded : 1 as byte});
+            }
+        }
+    }
+
     //请把所有右键物品事件放在这条效果的前面！
     //Clear All the Entities
     if (isNull(event.item)) return;

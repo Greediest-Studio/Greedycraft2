@@ -12,9 +12,11 @@ import crafttweaker.world.IBlockPos;
 import crafttweaker.world.IWorld;
 import crafttweaker.item.IItemStack;
 import crafttweaker.player.IPlayer;
+import crafttweaker.entity.AttributeModifier;
 
 import mods.contenttweaker.tconstruct.Trait;
 import mods.zenutils.NetworkHandler;
+import mods.contenttweaker.conarm.ArmorTraitBuilder;
 import kbtwkr.event.EventManager;
 import kbtwkr.event.KeyBindingRegisterEvent;
 import kbtwkr.keybinding.KeyBinding;
@@ -164,6 +166,29 @@ zenClass TraitExpandingFunction {
                 }
             }
         });
+    }
+
+    //onArmorAttributeModifier function(modifiers) as void
+    function onArmorAttributeModifier(trait as ArmorTraitBuilder, modifiers as AttributeModifier[]) as void {
+        for modifier in modifiers {
+            trait.onArmorTick = function(trait, armor, world, player) {
+                if (!isNull(player)) {
+                    var attributeType as string = modifier.name;
+                    if (!player.getAttribute(attributeType).hasModifier(modifier)) {
+                        player.getAttribute(attributeType).applyModifier(modifier);
+                    }
+                }
+            };
+            trait.onArmorRemove = function(trait, armor, player, index) {
+                if (!isNull(player)) {
+                    var attributeType as string = modifier.name;
+                    var uuid as string = modifier.uuid;
+                    if (player.getAttribute(attributeType).hasModifier(modifier)) {
+                        player.getAttribute(attributeType).removeModifier(uuid);
+                    }
+                }
+            };
+        }
     }
 }
 
