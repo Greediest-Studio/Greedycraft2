@@ -1,0 +1,36 @@
+{
+    "name": "秩序谜题",
+    "icon": "additions:ordered_bone_key",
+    "category": "patchouli:guide_category",
+    "pages": [
+        {
+            "type":"spotlight",
+            "item":"additions:ordered_bone_key",
+            "text":"滋生矿石挖起来爽不爽？$(br)不过，相信你已经制作出了$(c)秩序骨钥。$()$(br)那么，准备好迎接一系列秩序谜题吧！"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:ordered_bone_key_slate",
+            "text":"很好，你来到了解密的第一步:$(br) $(li)首先，你需要使用$(c)超精密生物质计算机$()将$(c)秩序骨钥$()转化为$(c)幻形石板$()$(li)然后，根据$(c)幻形石板$()上$(a)前四句诗$()，找到对应的$(a)八个锭$()$(li)最后，将$(c)幻形石板$()与对应的八个锭放入$(c)工作台$()合成"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:ordered_bone_key_container",
+            "text":"这没什么好说的$(li)你只需要身上$(a)同时$()有这四种Buff的时候右键$(c)幻型容器$()即可$(br2)$(2)提示：$()脆弱是Potion Core模组的效果"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:ordered_bone_key_compass",
+            "text":"这更没什么好说的$(br)照着去做吧$(br)再坚持一下，马上谜底揭晓"
+        },
+        {
+            "type":"spotlight",
+            "item":"additions:ordered_bone_key_dice",
+            "text":"终于，你来到了解谜的最后一步$(li)右键$(c)幻形骰子$()，聊天栏会出现一些$(a)小方框$()$(li)实心方框代表1，空心方框代表0$(li)这是一段$(a)二进制数字$()，你需要转换成$(a)十进制$()，之后以它为$(a)密码$()给$(c)柔钢板$()命名$(li)把$(c)幻形骰子$()和$(c)柔钢板$()放入$(c)超精密生物质计算机$()，得到写着坐标的纸$(br2)提示：坐标在$(a)正负10000$()以内，超出范围就是你的密码错了！"
+        },
+        {
+            "type":"text",
+            "text":"$(br2)恭喜你，你成功破解了秩序谜题！$(br2)$(9)不过好像还差了点什么？"
+        }
+    ]
+}

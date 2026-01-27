@@ -1,0 +1,45 @@
+{
+    "name": "融合仪式",
+    "icon": "gct_aby:abyss_wand",
+    "category": "patchouli:guide_category",
+    "pages": [
+        {
+            "type":"spotlight",
+            "item":"gct_aby:abyss_wand",
+            "text":"$(li)首先，你需要搭建右侧结构$(li)将需要融合的生物带到该结构旁$(6)3格以内$()$(li)玩家$(a)快捷栏$()携带2本PE总和超过$(a)150000$()的$(c)深渊之书$()$(li)用$(c)灵渊法杖$()右键中间的$(c)窥视石砖$()即可激活融合仪式$(li)如果需要$(c)催化剂$()，可以将其放在$(c)能量基座$()上，并且不会消耗"
+        },
+        {
+            "type":"multiblock",
+            "text":"如图，你需要巨石柱 * 2，巨石块 * 2，能量基座 * 1，窥视石砖 * 1",
+            "symmertrical":true,
+            "multiblock":{
+                "mapping":{
+                    "0":"gct_aby:seek_altar",
+                    "A":"abyssalcraft:monolithpillar",
+                    "B":"abyssalcraft:stone[type=monolithstone]",
+                    "C":"abyssalcraft:energypedestal"
+                },
+                "pattern":[
+                    [
+                        "C"
+                    ],
+                    [
+                        "A"
+                    ],  
+                    [
+                        "B"
+                    ],
+                    [
+                        "0"
+                    ],
+                    [
+                        "B"
+                    ],
+                    [
+                        "A"
+                    ]
+                ]
+            }
+        }
+    ]
+}
