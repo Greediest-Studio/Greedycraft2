@@ -2852,8 +2852,10 @@ murderTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_tr
 murderTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer) {
         var player as IPlayer = attacker;
-        if (target.definition.id == "headcrumbs:human") {
-            return newDamage * 1.5f;
+        if (!isNull(target.definition)) {
+            if (target.definition.id == "headcrumbs:human") {
+                return newDamage * 1.5f;
+            }
         }
     }
     return newDamage;
