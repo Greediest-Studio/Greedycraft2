@@ -5412,3 +5412,17 @@ rationalityTrait.calcDamage = function(trait, tool, attacker, target, originalDa
     return newDamage * (amp as float);
 };
 rationalityTrait.register();
+
+val coulomb_explosionTrait = TraitBuilder.create("coulomb_explosion");
+coulomb_explosionTrait.color = Color.fromHex("ffffff").getIntColor(); 
+coulomb_explosionTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.coulomb_explosionTrait.name");
+coulomb_explosionTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.coulomb_explosionTrait.desc");
+coulomb_explosionTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
+    if (attacker instanceof IPlayer && wasHit) {
+        if (Math.random() < 0.3f) {
+            var player as IPlayer = attacker;
+            player.world.performExplosion(player, target.x, target.y, target.z, 2.0f, false, false);
+        }
+    }
+};
+coulomb_explosionTrait.register();

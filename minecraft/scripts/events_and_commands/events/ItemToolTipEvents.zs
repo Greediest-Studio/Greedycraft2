@@ -83,5 +83,46 @@ events.register(function(event as ItemTooltipEvent) {
             }
         }
     }
+
+    //Radiation Trait Tooltip
+    if (!isNull(itemStack.definition)) {
+        if (TicTraitLib.hasTicTrait(itemStack, "active_source6")) {
+            var hasSlowdown as bool = TicTraitLib.hasTicTrait(itemStack, "slowdown");
+            event.getToolTip()[0 .. 1].add(hasSlowdown ? "§c辐射： 192 mRad/t" : "§c辐射： 384 mRad/t");
+        } else if (TicTraitLib.hasTicTrait(itemStack, "active_source6_armor")) {
+            var hasSlowdown as bool = TicTraitLib.hasTicTrait(itemStack, "slowdown_armor");
+            event.getToolTip()[0 .. 1].add(hasSlowdown ? "§6辐射： 96 mRad/t" : "§c辐射： 192 mRad/t");
+        } else if (TicTraitLib.hasTicTrait(itemStack, "active_source5")) {
+            var hasSlowdown as bool = TicTraitLib.hasTicTrait(itemStack, "slowdown");
+            event.getToolTip()[0 .. 1].add(hasSlowdown ? "§6辐射： 9.6 mRad/t" : "§6辐射： 19.2 mRad/t");
+        } else if (TicTraitLib.hasTicTrait(itemStack, "active_source5_armor")) {
+            var hasSlowdown as bool = TicTraitLib.hasTicTrait(itemStack, "slowdown_armor");
+            event.getToolTip()[0 .. 1].add(hasSlowdown ? "§6辐射： 4.8 mRad/t" : "§6辐射： 9.6 mRad/t");
+        } else if (TicTraitLib.hasTicTrait(itemStack, "active_source4")) {
+            var hasSlowdown as bool = TicTraitLib.hasTicTrait(itemStack, "slowdown");
+            event.getToolTip()[0 .. 1].add(hasSlowdown ? "§e辐射： 480 uRad/t" : "§e辐射： 960 uRad/t");
+        } else if (TicTraitLib.hasTicTrait(itemStack, "active_source4_armor")) {
+            var hasSlowdown as bool = TicTraitLib.hasTicTrait(itemStack, "slowdown_armor");
+            event.getToolTip()[0 .. 1].add(hasSlowdown ? "§e辐射： 240 uRad/t" : "§e辐射： 480 uRad/t");
+        } else if (TicTraitLib.hasTicTrait(itemStack, "active_source3")) {
+            var hasSlowdown as bool = TicTraitLib.hasTicTrait(itemStack, "slowdown");
+            event.getToolTip()[0 .. 1].add(hasSlowdown ? "§e辐射： 24 uRad/t" : "§e辐射： 48 uRad/t");
+        } else if (TicTraitLib.hasTicTrait(itemStack, "active_source3_armor")) {
+            var hasSlowdown as bool = TicTraitLib.hasTicTrait(itemStack, "slowdown_armor");
+            event.getToolTip()[0 .. 1].add(hasSlowdown ? "§e辐射： 12 uRad/t" : "§e辐射： 24 uRad/t");
+        } else if (TicTraitLib.hasTicTrait(itemStack, "active_source2")) {
+            var hasSlowdown as bool = TicTraitLib.hasTicTrait(itemStack, "slowdown");
+            event.getToolTip()[0 .. 1].add(hasSlowdown ? "§e辐射： 1.2 uRad/t" : "§e辐射： 2.4 uRad/t");
+        } else if (TicTraitLib.hasTicTrait(itemStack, "active_source2_armor")) {
+            var hasSlowdown as bool = TicTraitLib.hasTicTrait(itemStack, "slowdown_armor");
+            event.getToolTip()[0 .. 1].add(hasSlowdown ? "§f辐射： 600 nRad/t" : "§e辐射： 1.2 uRad/t");
+        } else if (TicTraitLib.hasTicTrait(itemStack, "active_source")) {
+            var hasSlowdown as bool = TicTraitLib.hasTicTrait(itemStack, "slowdown");
+            event.getToolTip()[0 .. 1].add(hasSlowdown ? "§f辐射： 60 nRad/t" : "§f辐射： 120 nRad/t");
+        } else if (TicTraitLib.hasTicTrait(itemStack, "active_source_armor")) {
+            var hasSlowdown as bool = TicTraitLib.hasTicTrait(itemStack, "slowdown_armor");
+            event.getToolTip()[0 .. 1].add(hasSlowdown ? "§f辐射： 30 nRad/t" : "§f辐射： 60 nRad/t");
+        }
+    }
 });
 

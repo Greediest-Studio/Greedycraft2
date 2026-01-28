@@ -1085,13 +1085,11 @@ val active_sourceTrait = ArmorTraitBuilder.create("active_source");
 active_sourceTrait.color = Color.fromHex("ffffff").getIntColor(); 
 active_sourceTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.active_sourceTrait.name");
 active_sourceTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.active_sourceTrait.desc");
-active_sourceTrait.onAbility = function(trait, level, world, player) {
+active_sourceTrait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
         var slowdown as float = 1.0f;
-        for armor in player.armorInventory {
-            if (CotTicTraitLib.hasTicTrait(armor, "slowdown_armor")) {
-                slowdown -= 0.2f;
-            }
+        if (CotTicTraitLib.hasTicTrait(armor, "slowdown_armor")) {
+            slowdown = 0.5f;
         }
         player.addRadiation(0.00000006d * 1 * slowdown as double, true);
     }
@@ -1101,13 +1099,11 @@ val active_source2Trait = ArmorTraitBuilder.create("active_source2");
 active_source2Trait.color = Color.fromHex("ffffff").getIntColor(); 
 active_source2Trait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.active_source2Trait.name");
 active_source2Trait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.active_sourceTrait.desc");
-active_source2Trait.onAbility = function(trait, level, world, player) {
+active_source2Trait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
         var slowdown as float = 1.0f;
-        for armor in player.armorInventory {
-            if (CotTicTraitLib.hasTicTrait(armor, "slowdown_armor")) {
-                slowdown -= 0.2f;
-            }
+        if (CotTicTraitLib.hasTicTrait(armor, "slowdown_armor")) {
+            slowdown = 0.5f;
         }
         player.addRadiation(0.00000006d * 20 * slowdown as double, true);
     }
@@ -1117,13 +1113,11 @@ val active_source3Trait = ArmorTraitBuilder.create("active_source3");
 active_source3Trait.color = Color.fromHex("ffffff").getIntColor(); 
 active_source3Trait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.active_source3Trait.name");
 active_source3Trait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.active_sourceTrait.desc");
-active_source3Trait.onAbility = function(trait, level, world, player) {
+active_source3Trait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
         var slowdown as float = 1.0f;
-        for armor in player.armorInventory {
-            if (CotTicTraitLib.hasTicTrait(armor, "slowdown_armor")) {
-                slowdown -= 0.2f;
-            }
+        if (CotTicTraitLib.hasTicTrait(armor, "slowdown_armor")) {
+            slowdown = 0.5f;
         }
         player.addRadiation(0.00000006d * 400 * slowdown as double, true);
     }
@@ -1133,13 +1127,11 @@ val active_source4Trait = ArmorTraitBuilder.create("active_source4");
 active_source4Trait.color = Color.fromHex("ffffff").getIntColor(); 
 active_source4Trait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.active_source4Trait.name");
 active_source4Trait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.active_sourceTrait.desc");
-active_source4Trait.onAbility = function(trait, level, world, player) {
+active_source4Trait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
         var slowdown as float = 1.0f;
-        for armor in player.armorInventory {
-            if (CotTicTraitLib.hasTicTrait(armor, "slowdown_armor")) {
-                slowdown -= 0.2f;
-            }
+        if (CotTicTraitLib.hasTicTrait(armor, "slowdown_armor")) {
+            slowdown = 0.5f;
         }
         player.addRadiation(0.00000006d * 8000 * slowdown as double, true);
     }
@@ -1149,13 +1141,11 @@ val active_source5Trait = ArmorTraitBuilder.create("active_source5");
 active_source5Trait.color = Color.fromHex("ffffff").getIntColor(); 
 active_source5Trait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.active_source5Trait.name");
 active_source5Trait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.active_sourceTrait.desc");
-active_source5Trait.onAbility = function(trait, level, world, player) {
+active_source5Trait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
         var slowdown as float = 1.0f;
-        for armor in player.armorInventory {
-            if (CotTicTraitLib.hasTicTrait(armor, "slowdown_armor")) {
-                slowdown -= 0.2f;
-            }
+        if (CotTicTraitLib.hasTicTrait(armor, "slowdown_armor")) {
+            slowdown = 0.5f;
         }
         player.addRadiation(0.00000006d * 160000 * slowdown as double, true);
     }
@@ -1165,13 +1155,11 @@ val active_source6Trait = ArmorTraitBuilder.create("active_source6");
 active_source6Trait.color = Color.fromHex("ffffff").getIntColor(); 
 active_source6Trait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.active_source6Trait.name");
 active_source6Trait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.active_sourceTrait.desc");
-active_source6Trait.onAbility = function(trait, level, world, player) {
+active_source6Trait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
         var slowdown as float = 1.0f;
-        for armor in player.armorInventory {
-            if (CotTicTraitLib.hasTicTrait(armor, "slowdown_armor")) {
-                slowdown -= 0.2f;
-            }
+        if (CotTicTraitLib.hasTicTrait(armor, "slowdown_armor")) {
+            slowdown = 0.5f;
         }
         player.addRadiation(0.00000006d * 3200000 * slowdown as double, true);
     }

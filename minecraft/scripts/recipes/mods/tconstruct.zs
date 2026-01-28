@@ -338,6 +338,14 @@ addTableBasicRecipe(<tconstruct:pick_head>.withTag({Material: "imitatium"}), <tc
 addTableBasicRecipe(<elementalend:order_eye>, <minecraft:ender_eye>, <liquid:balancite>, 1440, true, 200);
 addTableBasicRecipe(<additions:evilblood_drop>, <additions:eldritch_slime>, <liquid:evilblood_fluid>, 250, true, 200);
 addTableBasicRecipe(<additions:solid_culture_medium>, null, <liquid:molten_solid_culture_medium>, 2500, false, 1000);
+addTableBasicRecipe(<additions:twilit_alloy_ball>, <tconstruct:cast_custom:2>, <liquid:twilit_alloy>, 30, false, 60);
+addTableBasicRecipe(<additions:sharpen_alloy_ball>, <tconstruct:cast_custom:2>, <liquid:sharpen_alloy>, 30, false, 60);
+addTableBasicRecipe(<additions:mist_alloy_ball>, <tconstruct:cast_custom:2>, <liquid:mist_alloy>, 30, false, 60);
+addTableBasicRecipe(<additions:killer_alloy_ball>, <tconstruct:cast_custom:2>, <liquid:killer_alloy>, 30, false, 60);
+addTableBasicRecipe(<additions:curse_alloy_ball>, <tconstruct:cast_custom:2>, <liquid:curse_alloy>, 30, false, 60);
+addTableBasicRecipe(<additions:creative_alloy_ball>, <tconstruct:cast_custom:2>, <liquid:creative_alloy>, 30, false, 60);
+addTableBasicRecipe(<additions:clock_alloy_ball>, <tconstruct:cast_custom:2>, <liquid:clock_alloy>, 30, false, 60);
+addTableBasicRecipe(<additions:blackhole_alloy_ball>, <tconstruct:cast_custom:2>, <liquid:blackhole_alloy>, 30, false, 60);
 
 Melting.removeRecipe(<liquid:gold>, <minecraft:golden_rail>);
 Melting.removeRecipe(<liquid:iron>, <minecraft:activator_rail>);
@@ -622,6 +630,14 @@ Melting.addRecipe(<liquid:caminite> * 432, <soot:caminite_tiles_stairs>, 1000);
 Melting.addRecipe(<liquid:caminite> * 576, <soot:caminite_large_tile>, 1100);
 Melting.addRecipe(<liquid:caminite> * 288, <soot:caminite_large_tile_slab>, 900);
 Melting.addRecipe(<liquid:caminite> * 432, <soot:caminite_large_tile_stairs>, 1000);
+Melting.addRecipe(<liquid:twilit_alloy> * 30, <ore:ballTwilitAlloy>, 450);
+Melting.addRecipe(<liquid:sharpen_alloy> * 30, <ore:ballSharpenAlloy>, 450);
+Melting.addRecipe(<liquid:mist_alloy> * 30, <ore:ballMistAlloy>, 450);
+Melting.addRecipe(<liquid:killer_alloy> * 30, <ore:ballKillerAlloy>, 450);
+Melting.addRecipe(<liquid:curse_alloy> * 30, <ore:ballCurseAlloy>, 450);
+Melting.addRecipe(<liquid:creative_alloy> * 30, <ore:ballCreativeAlloy>, 450);
+Melting.addRecipe(<liquid:clock_alloy> * 30, <ore:ballClockAlloy>, 450);
+Melting.addRecipe(<liquid:blackhole_alloy> * 30, <ore:ballBlackholeAlloy>, 450);
 
 Fuel.registerFuel(<liquid:infernium> * 1, 600);
 Fuel.registerFuel(<liquid:cosmilite> * 1, 2400);
