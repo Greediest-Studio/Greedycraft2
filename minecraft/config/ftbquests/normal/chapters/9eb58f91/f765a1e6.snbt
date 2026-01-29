@@ -1,0 +1,29 @@
+{
+	title: "§b二合一",
+	x: -15.5d,
+	y: 4.0d,
+	description: "合成封包供应器",
+	text: [
+		""
+	],
+	dependencies: [
+		"33fc23c0"
+	],
+	tasks: [{
+		uid: "de846a28",
+		type: "item",
+		items: [{
+			item: "packagingprovider:packaging_provider"
+		}]
+	}],
+	rewards: [{
+		uid: "3d2b2f35",
+		type: "item",
+		item: "packagingprovider:packaging_provider"
+	},
+	{
+		uid: "c89a04fe",
+		type: "random",
+		table: 1
+	}]
+}

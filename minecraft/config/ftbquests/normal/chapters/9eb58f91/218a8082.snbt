@@ -1,0 +1,30 @@
+{
+	title: "§b电路板工厂",
+	x: -10.0d,
+	y: 2.0d,
+	description: "合成大型蚀刻单元集成控制器",
+	text: [
+		"制作高级处理器需要升级你的设备呦"
+	],
+	dependencies: [
+		"ddad20c5"
+	],
+	tasks: [{
+		uid: "3119df4e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:elysia_etcher_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5aef2fc1",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "e8088ddd",
+		type: "xp",
+		xp: 1000
+	}]
+}
