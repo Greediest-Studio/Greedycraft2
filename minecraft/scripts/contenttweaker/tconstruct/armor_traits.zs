@@ -4631,3 +4631,35 @@ dragon_bodyTrait.onArmorTick = function(trait, armor, world, player) {
     }
 };
 dragon_bodyTrait.register();
+
+val sukhavatiTrait = ArmorTraitBuilder.create("sukhavati");
+sukhavatiTrait.color = Color.fromHex("ffffff").getIntColor();
+sukhavatiTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.sukhavatiTrait.name");
+sukhavatiTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.sukhavatiTrait.desc");
+sukhavatiTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !isNull(armor.tag.sukhavatiTimer)) {
+        var timer as int = armor.tag.sukhavatiTimer as int;
+        if (!player.isPotionActive(<potion:gctcore:sukhavati>) && timer == 0) {
+            player.update({sukhavatiHurt : 1 as int, sukhavatiKill : 0 as int});
+            player.addPotionEffect(<potion:gctcore:sukhavati>.makePotionEffect(300, 0, false, false));
+            player.sendChat("§f[极乐净土] 击杀数：0 受伤数：1");
+            armor.mutable().updateTag({sukhavatiTimer : 1200 as int});
+            return 0.0f;
+        }
+    }
+    return newDamage;
+};
+sukhavatiTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player) && !world.remote) {
+        if (!isNull(armor.tag.sukhavatiTimer)) {
+            var timer as int = armor.tag.sukhavatiTimer as int;
+            if (timer > 0) {
+                armor.mutable().updateTag({sukhavatiTimer : timer - 1 as int});
+                if (timer == 1) player.sendChat("§f[极乐净土] 技能已就绪！");
+            }
+        } else {
+            armor.mutable().updateTag({sukhavatiTimer : 0 as int});
+        }
+    }
+};
+sukhavatiTrait.register();

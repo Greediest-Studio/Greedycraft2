@@ -440,6 +440,11 @@ greedycraft.tconstruct.material.gneiss.name=片麻岩
 greedycraft.tconstruct.material.petrified_ironwood.name=古化铁树
 greedycraft.tconstruct.material.poisonous_terrasteel.name=毒淬泰拉钢
 greedycraft.tconstruct.material.ant_emperor.name=蚁皇
+greedycraft.tconstruct.material.scaleelectricdragon.name=电蓝龙鳞
+greedycraft.tconstruct.material.scaleamythestdragon.name=晶紫龙鳞
+greedycraft.tconstruct.material.scalecopperdragon.name=铜赤龙鳞
+greedycraft.tconstruct.material.scaleblackdragon.name=曜黑龙鳞
+greedycraft.tconstruct.material.order_scale.name=秩序鳞片
 #护甲词条
 greedycraft.tconstruct.armor_trait.reachTrait.name=延伸
 greedycraft.tconstruct.armor_trait.reachTrait.desc=§o天使之臂！\n§r当穿戴这个护甲，你可以触碰的更远。
@@ -910,6 +915,8 @@ greedycraft.tconstruct.armor_trait.rationalityTrait.name=理性主义
 greedycraft.tconstruct.armor_trait.rationalityTrait.desc=§o保持理性！§r\n§f身上的扭曲值越多，受到伤害越高，扭曲值为0时减少10%伤害。
 greedycraft.tconstruct.armor_trait.dragon_bodyTrait.name=龙躯
 greedycraft.tconstruct.armor_trait.dragon_bodyTrait.desc=§o龙之躯！§r\n§f每件护甲提供20%的飞行伤害减免。\n套装效果：\n2件：每件额外提供30%移速加成。\n3件：每件额外提供1级生命恢复。\n4件：左键空挥时消耗每件盔甲各5耐久向5格内的一切非玩家目标释放附带其生命值5%的混沌龙息效果。
+greedycraft.tconstruct.armor_trait.sukhavatiTrait.name=极乐净土
+greedycraft.tconstruct.armor_trait.sukhavatiTrait.desc=§o净土试炼。§r\n§f首次受击时进入“极乐净土”15秒并免疫该次伤害；期间受到伤害会被抵消并计为受伤次数，击杀生物计为击杀次数。效果自然结束时，若受伤数大于击杀数将遭到反噬死亡（被驱散时直接反噬）。
 #工具词条
 greedycraft.tconstruct.tool_trait.coulomb_explosionTrait.name=库仑爆炸
 greedycraft.tconstruct.tool_trait.coulomb_explosionTrait.desc=§o这才是碱金属遇水爆炸的原因……\n§r命中敌人后有小概率引发二次爆炸。

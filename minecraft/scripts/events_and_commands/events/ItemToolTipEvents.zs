@@ -8,8 +8,13 @@ import native.net.minecraft.client.gui.GuiScreen;
 
 var EIOitemLevelList as string[string] = {
     "ometweaks:blackhole_capacitor": "§7全局等级： §f6.0",
-    "ometweaks:creative_capacitor": "§7全局等级： §b7.0",
+    "ometweaks:creative_capacitor": "§7全局等级： §d7.0",
     "ometweaks:twilit_capacitor": "§7全局等级： §f6.3",
+    "ometweaks:clock_capacitor": "§7全局等级： §b4.4",
+    "ometweaks:curse_capacitor": "§7全局等级： §f6.2",
+    "ometweaks:killer_capacitor": "§7全局等级： §f6.6",
+    "ometweaks:mist_capacitor": "§7全局等级： §b4.7",
+    "ometweaks:sharpen_capacitor": "§7全局等级： §f5.5",
     "avaritiaio:infinitecapacitor": "§7全局等级： §c1§e0§a.§b0"
 };
 

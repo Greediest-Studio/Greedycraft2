@@ -93,7 +93,9 @@ GameStagesUtil.stageChaoticDominator.addIngredients([
     <additions:ebony_and_lvory>,
     <contenttweaker:chaos_heart>,
     <ometweaks:blackhole_capacitor>,
-    <ometweaks:twilit_capacitor>
+    <ometweaks:twilit_capacitor>,
+    <ometweaks:curse_capacitor>,
+    <ometweaks:killer_capacitor>
 ], true);
 
 GameStagesUtil.stageGettingStarted.addIngredients([
@@ -299,7 +301,8 @@ GameStagesUtil.stageWyvern.addIngredients([
     <gct_ores:senterian_builder_lab>,
     <journey:luniteore>,
     <journey:luniteblock>,
-    <journey:lunitechunk>
+    <journey:lunitechunk>,
+    <ometweaks:sharpen_capacitor>
 ], true);
 
 GameStagesUtil.stageAwakened.addIngredients([
@@ -1096,7 +1099,8 @@ GameStagesUtil.stageNoviceEngineer.addIngredients([
     <ore:blockGodslime>,
     <ore:dustGodslime>,
     <tiths:ore_broken_bedrock>,
-    <tiths:broken_bedrock>
+    <tiths:broken_bedrock>,
+    <ometweaks:clock_capacitor>
 ], true);
 
 GameStagesUtil.stageHardmode.addIngredients([
@@ -1341,7 +1345,8 @@ GameStagesUtil.stageHardmode.addIngredients([
     <tiths:nugget_inert_witherium>,
     <tiths:ingot_solita>,
     <tiths:block_solita>,
-    <tiths:nugget_solita>
+    <tiths:nugget_solita>,
+    <ometweaks:mist_capacitor>
 ], true);
 
 GameStagesUtil.stageInfinity.addIngredients([
@@ -2217,6 +2222,7 @@ GameStagesUtil.stageFinal.addIngredients([
     <ore:blockMalevolencite>,
     <ore:dustMalevolencite>,
     <ore:plateMalevolencite>,
+    <additions:spectral_soul>,
     <iceandfire:nest>,
     <iceandfire:dragonscale_red>,
     <iceandfire:dragonscale_green>,

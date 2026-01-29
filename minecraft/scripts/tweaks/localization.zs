@@ -126,6 +126,7 @@ val localizationMap as string[string][string] = {
         "entity.ChaosGuardianHelpful.name": "秩序守护使",
         "item.thaumicenergistics.arcane_inscriber.name": "ME奥术样板终端",
         "item.thaumicenergistics.arcane_terminal.name": "ME奥术合成终端",
+        "item.mekeng:gas_interface_terminal.name": "ME气体接口配置终端",
         "fluid.fusion_matrix": "熔融聚合矩阵",
         "fluid.insanium": "熔融究极精华",
         "jaopca.entry.Infernium": "永燃",
