@@ -49,7 +49,7 @@ events.onPlayerAttackEntity(function(event as PlayerAttackEntityEvent) {
                 player.world.catenation().run(function(world, context) {}).sleep(5).then(function(world, context) {player.removeTag("dummy");}).start();
             }
         }
-        //dummy fix 1
+        //dummy fix +
         if (!isNull(player.mainHandHeldItem) && entity.definition.id == "testdummy:dummy" && (player.mainHandHeldItem.definition.id == "bloodmagic:dagger_of_sacrifice" || player.mainHandHeldItem.definition.id == "bloodarsenal:glass_dagger_of_sacrifice")) {
             if (!player.world.remote) {
                 player.sendRichTextStatusMessage(ITextComponent.fromString("§d显然，试炼假人不喜欢献祭刀"));

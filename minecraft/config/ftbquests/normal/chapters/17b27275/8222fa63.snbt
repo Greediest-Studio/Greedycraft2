@@ -1,13 +1,10 @@
 {
 	title: "§b蘑菇精灵",
-	x: 1.0d,
-	y: 1.5d,
+	x: 7.0d,
+	y: 5.0d,
 	description: "击杀蘑菇精灵获得孢子",
 	text: [
 		"蘑菇精灵于层孔菌上生成"
-	],
-	dependencies: [
-		"0c618825"
 	],
 	tasks: [{
 		uid: "f5c17652",

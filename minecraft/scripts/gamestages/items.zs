@@ -93,7 +93,9 @@ GameStagesUtil.stageChaoticDominator.addIngredients([
     <additions:ebony_and_lvory>,
     <contenttweaker:chaos_heart>,
     <ometweaks:blackhole_capacitor>,
-    <ometweaks:twilit_capacitor>
+    <ometweaks:twilit_capacitor>,
+    <ometweaks:curse_capacitor>,
+    <ometweaks:killer_capacitor>
 ], true);
 
 GameStagesUtil.stageGettingStarted.addIngredients([
@@ -299,10 +301,12 @@ GameStagesUtil.stageWyvern.addIngredients([
     <gct_ores:senterian_builder_lab>,
     <journey:luniteore>,
     <journey:luniteblock>,
-    <journey:lunitechunk>
+    <journey:lunitechunk>,
+    <ometweaks:sharpen_capacitor>
 ], true);
 
 GameStagesUtil.stageAwakened.addIngredients([
+    <iceandfire:ambrosia>,
     <gct_ores:relifed_metal_ingot>,
     <gct_ores:relifed_metal_block>,
     <gct_ores:relifed_metal_nugget>,
@@ -709,7 +713,11 @@ GameStagesUtil.stageCosmic.addIngredients([
     <additions:engineering_circuit_printed_3>,
     <additions:logic_circuit_printed_3>,
     <additions:modular_dimensional_magnifier>,
-    <ore:essenceTier7>
+    <ore:essenceTier7>,
+    <ore:ingotCalculus>,
+    <ore:nuggetCalculus>,
+    <ore:blockCalculus>,
+    <ore:dustCalculus>
 ], false);
 
 GameStagesUtil.stageBalancedMatrix.addIngredients([
@@ -1091,7 +1099,8 @@ GameStagesUtil.stageNoviceEngineer.addIngredients([
     <ore:blockGodslime>,
     <ore:dustGodslime>,
     <tiths:ore_broken_bedrock>,
-    <tiths:broken_bedrock>
+    <tiths:broken_bedrock>,
+    <ometweaks:clock_capacitor>
 ], true);
 
 GameStagesUtil.stageHardmode.addIngredients([
@@ -1336,7 +1345,8 @@ GameStagesUtil.stageHardmode.addIngredients([
     <tiths:nugget_inert_witherium>,
     <tiths:ingot_solita>,
     <tiths:block_solita>,
-    <tiths:nugget_solita>
+    <tiths:nugget_solita>,
+    <ometweaks:mist_capacitor>
 ], true);
 
 GameStagesUtil.stageInfinity.addIngredients([
@@ -2124,7 +2134,8 @@ GameStagesUtil.stageChallenger6.addIngredients([
 GameStagesUtil.stageChallenger7.addIngredients([
     <ore:seedsTier7>,
     <additions:extremium_essence>,
-    <additions:extremium_ingot>
+    <additions:extremium_ingot>,
+    <tinymobfarm:ultimate_farm>
 ], true);
 
 GameStagesUtil.stageChallenger8.addIngredients([
@@ -2134,7 +2145,7 @@ GameStagesUtil.stageChallenger8.addIngredients([
 ], true);
 
 GameStagesUtil.stageChallenger9.addIngredients([
-    //<ore:seedTier9>,
+    <ore:seedsTier9>,
     <additions:nonenium_essence>,
     <additions:nonenium_ingot>
 ], true);
@@ -2211,6 +2222,7 @@ GameStagesUtil.stageFinal.addIngredients([
     <ore:blockMalevolencite>,
     <ore:dustMalevolencite>,
     <ore:plateMalevolencite>,
+    <additions:spectral_soul>,
     <iceandfire:nest>,
     <iceandfire:dragonscale_red>,
     <iceandfire:dragonscale_green>,
@@ -2224,13 +2236,6 @@ GameStagesUtil.stageFinal.addIngredients([
     <iceandfire:dragonscale_amythest>,
     <iceandfire:dragonscale_copper>,
     <iceandfire:dragonscale_black>,
-    <iceandfire:sea_serpent_scale_block_blue>,
-    <iceandfire:sea_serpent_scale_block_bronze>,
-    <iceandfire:sea_serpent_scale_block_deepblue>,
-    <iceandfire:sea_serpent_scale_block_green>,
-    <iceandfire:sea_serpent_scale_block_purple>,
-    <iceandfire:sea_serpent_scale_block_red>,
-    <iceandfire:sea_serpent_scale_block_teal>,
     <iceandfire:dragonscales_red>,
     <iceandfire:dragonscales_green>,
     <iceandfire:dragonscales_bronze>,
@@ -2280,45 +2285,6 @@ GameStagesUtil.stageFinal.addIngredients([
     <iceandfire:summoning_crystal_fire>.withTag({}),
     <iceandfire:summoning_crystal_ice>.withTag({}),
     <iceandfire:summoning_crystal_lightning>.withTag({}),
-    <iceandfire:hippogryph_egg:*>,
-    <iceandfire:hippogryph_talon>,
-    <iceandfire:hippogryph_sword>,
-    <iceandfire:pixie_dust>,
-    <iceandfire:pixie_wings>,
-    <iceandfire:pixie_wand>,
-    <iceandfire:ambrosia>,
-    <iceandfire:cyclops_eye>.withTag({}),
-    <iceandfire:shiny_scales>,
-    <iceandfire:siren_tear>,
-    <iceandfire:siren_flute>,
-    <iceandfire:hippocampus_fin>,
-    <iceandfire:hippocampus_slapper>,
-    <iceandfire:deathworm_chitin:*>,
-    <iceandfire:iceandfire.deathworm_egg:*>,
-    <iceandfire:deathworm_tounge>,
-    <iceandfire:deathworm_gauntlet_red>,
-    <iceandfire:deathworm_gauntlet_yellow>,
-    <iceandfire:deathworm_gauntlet_white>,
-    <iceandfire:cockatrice_eye>,
-    <iceandfire:cockatrice_scepter>,
-    <iceandfire:stymphalian_bird_feather>,
-    <iceandfire:stymphalian_bird_dagger>,
-    <iceandfire:stymphalian_feather_bundle>,
-    <iceandfire:troll_tusk>,
-    <iceandfire:myrmex_desert_egg:*>,
-    <iceandfire:myrmex_jungle_egg:*>,
-    <iceandfire:myrmex_desert_resin>,
-    <iceandfire:myrmex_jungle_chitin>,
-    <iceandfire:myrmex_stinger>,
-    <iceandfire:myrmex_desert_swarm>,
-    <iceandfire:myrmex_jungle_swarm>,
-    <iceandfire:amphithere_feather>,
-    <iceandfire:amphithere_macuahuitl>,
-    <iceandfire:sea_serpent_fang>,
-    <iceandfire:troll_leather_mountain>,
-    <iceandfire:troll_leather_forest>,
-    <iceandfire:troll_leather_frost>,
-    <ore:mythicalSkull>,
     <additions:ender_complex>,
     <ore:oreAmythest>,
     <ore:gemAmythest>,
@@ -2469,7 +2435,11 @@ GameStagesUtil.stageDeepDream.addIngredients([
     <ore:plateNebu>,
     <ore:dustNebu>,
     <contenttweaker:dubhe_key>,
-    <additions:tarantula_leg>
+    <additions:tarantula_leg>,
+    <ore:ingotIronwoodPetrified>,
+    <ore:nuggetIronwoodPetrified>,
+    <ore:blockIronwoodPetrified>,
+    <ore:dustIronwoodPetrified>
 ], false);
 
 GameStagesUtil.stageLegendWizard.addIngredients([
@@ -2491,7 +2461,7 @@ GameStagesUtil.stageNoobWizard.addModId(["astralsorcery"]);
 GameStagesUtil.stageNoviceWizard.addModId(["bloodmagic", "bloodarsenal", "animus", "evilcraft", "thaumicrestoration"]);
 GameStagesUtil.stageSkilledWizard.addModId(["naturesaura", "naturesdestruction", "auraddons"]);
 GameStagesUtil.stageMasterWizard.addModId(["thaumicenergistics"]);
-GameStagesUtil.stageNoobEngineer.addModId(["thermaldynamics", "thermalexpansion", "appliedenergistics2", "ae2wut", "ae_chisel", "ae2exttable", "extendedae", "threng"]);
+GameStagesUtil.stageNoobEngineer.addModId(["thermaldynamics", "thermalexpansion", "appliedenergistics2", "ae2wut", "ae_chisel", "ae2exttable", "extendedae", "threng", "cellterminal"]);
 GameStagesUtil.stageNoviceEngineer.addModId(["enderio"]);
 GameStagesUtil.stageWyvern.addModId(["blue_skies", "extendedcrafting"]);
 GameStagesUtil.stageGatekeeper.addModId(["gct_aby"]);

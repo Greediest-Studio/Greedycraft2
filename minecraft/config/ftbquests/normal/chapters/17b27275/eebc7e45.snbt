@@ -1,10 +1,10 @@
 {
 	title: "§b地震，但是匠魂版",
-	x: 6.0d,
-	y: -3.0d,
-	description: "制作冲击波交错剑刃",
+	x: -3.5d,
+	y: -4.0d,
+	description: "制作冲击波剑刃",
 	text: [
-		"推荐刻印到交错剑上，冲击波可继承面板伤害"
+		"推荐刻印到大剑上，冲击波可继承面板伤害"
 	],
 	dependencies: [
 		"e7f14578"
@@ -13,7 +13,7 @@
 		uid: "19c9a616",
 		type: "item",
 		items: [{
-			id: "moretcon:blswordblade",
+			id: "tconstruct:sword_blade",
 			tag: {
 				Material: "moretcon.shockwave"
 			}

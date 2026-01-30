@@ -1,0 +1,49 @@
+#Config Categories:
+category.misc.name=匠魂军械库 | 杂项
+category.base.name=匠魂军械库 | 基础材料
+category.ore.name=匠魂军械库 | 矿辞材料
+category.foundation.name=匠魂军械库 | 热力材料
+
+#Config Tooltips:
+
+config.disable.text=设置为false以禁用该物品。
+
+#Toolparts
+
+item.boomstick_barrel.name=火枪管
+item.boomstick_handle.name=枪托
+item.bayonet.name=刺刀
+item.bullet.name=弹头
+item.bullet_shell.name=弹壳
+
+#Tools
+
+item.boomstick.name=火枪
+item.boomstick.desc=火枪是一种能够施展强力射击能力的枪械。它必须先通过右键装填，但之后可以随时使用。使用火枪弹药和火药，弹夹为20发/次。
+item.boomstick_shot.name=火枪弹药
+item.boomstick_shot.desc=火枪弹药用于火枪的弹药（与火药一起使用）。一枚就可以提供多次发射次数，并且可以像任何工具一样进行强化。
+item.toolshears.name=剪刀
+item.toolshears.desc=剪刀用于剪下绵羊的羊毛和树叶。
+
+#Materials
+
+material.diamond.name=钻石
+material.gold.name=金
+material.gold.prefix=金 %s
+
+#Ore Dictionary Materials:
+
+material.tin.name=锡
+material.aluminum.name=铝
+material.constantan.name=康铜
+material.nickel.name=镍
+material.platinum.name=铂
+material.iridium.name=铱
+material.mithril.name=蕴魔秘银
+material.invar.name=殷钢
+
+# Thermal Expansion Materials
+
+material.blizz_rod.name=暴雪棒
+material.blitz_rod.name=狂风棒
+material.basalz_rod.name=岩石棒

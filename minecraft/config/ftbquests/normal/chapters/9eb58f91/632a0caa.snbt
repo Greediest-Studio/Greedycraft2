@@ -1,0 +1,53 @@
+{
+	title: "§b比量子环更实惠",
+	x: -11.5d,
+	y: -8.5d,
+	description: "合成无线频道输入/输出总线",
+	text: [
+		""
+	],
+	dependencies: [
+		"a19315fc"
+	],
+	tasks: [{
+		uid: "40fdded3",
+		type: "item",
+		items: [{
+			item: "aewirelesschannel:block_wireless_input_bus"
+		}]
+	},
+	{
+		uid: "93f097c6",
+		type: "item",
+		items: [{
+			item: "aewirelesschannel:block_wireless_output_bus"
+		}]
+	}],
+	rewards: [{
+		uid: "2b2e5c1a",
+		type: "item",
+		item: "aewirelesschannel:item_wireless_key_card"
+	},
+	{
+		uid: "fb60aeac",
+		type: "item",
+		item: "aewirelesschannel:block_wireless_input_bus",
+		count: 4
+	},
+	{
+		uid: "ac4cf6a3",
+		type: "item",
+		item: "aewirelesschannel:block_wireless_output_bus",
+		count: 4
+	},
+	{
+		uid: "a48cb1c8",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "1daa9be4",
+		type: "xp",
+		xp: 1500
+	}]
+}

@@ -87,6 +87,7 @@ events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
             player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.human.spawn"));
         }        
     }
+    
     //Give Chaotic Hearts
     if (!isNull(event.entityLivingBase.definition)) {
         if (event.entityLivingBase.definition.id has "chaosguar") {
@@ -104,6 +105,7 @@ events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
             }
         }
     }
+
     //Give Darkest Cores
     if (!isNull(event.entityLivingBase.definition)) {
         if (event.entityLivingBase.definition.id has "sun" && !(event.entityLivingBase.definition.id has "suns") && !(event.entityLivingBase.definition.id has "sun_")) {
@@ -121,6 +123,7 @@ events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
             }
         }
     }
+
     //Drop Eye of Lightning from Enderman
     if (!isNull(event.entityLivingBase.definition) && !event.entityLivingBase.world.remote) {
         if (event.entityLivingBase.definition.id == "minecraft:enderman") {
@@ -162,7 +165,8 @@ events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
             //Poison Conversion Recipes
             val ConversionList as IBlockState[string[]] = {
                 ["tconstruct:slime", "3"]: <blockstate:additions:evilblood_slime_block>,
-                ["botania:storage", "1"]: <blockstate:jaopca:block.terrasteel_poisonous>
+                ["botania:storage", "1"]: <blockstate:jaopca:block.terrasteel_poisonous>,
+                ["twilightforest:block_storage", "0"]: <blockstate:additions:petrified_ironwood_block>
             };
             var world as IWorld = event.entityLivingBase.world;
             var pos as IBlockPos = event.entityLivingBase.position;
@@ -198,6 +202,24 @@ events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
                         }
                     }
                 }
+            }
+        }
+    }
+
+    //Sukhavati Trait Kill Count
+    if (!isNull(event.damageSource.getTrueSource()) && !event.entity.world.remote) {
+        if (event.damageSource.getTrueSource() instanceof IPlayer) {
+            var player as IPlayer = event.damageSource.getTrueSource();
+            if (player.isPotionActive(<potion:gctcore:sukhavati>)) {
+                if (!isNull(player.nbt) && !isNull(player.nbt.ForgeData) && !isNull(player.nbt.ForgeData.sukhavatiKill)) {
+                    var killCount = player.nbt.ForgeData.sukhavatiKill as int;
+                    player.update({sukhavatiKill : killCount + 1 as int});
+                } else {
+                    player.update({sukhavatiKill : 1 as int});
+                }
+                var killCountNow = (!isNull(player.nbt) && !isNull(player.nbt.ForgeData) && !isNull(player.nbt.ForgeData.sukhavatiKill)) ? (player.nbt.ForgeData.sukhavatiKill as int) : 0;
+                var hurtTime = (!isNull(player.nbt) && !isNull(player.nbt.ForgeData) && !isNull(player.nbt.ForgeData.sukhavatiHurt)) ? (player.nbt.ForgeData.sukhavatiHurt as int) : 0;
+                player.sendChat("§f[极乐净土] 击杀数：" + killCountNow as string + " 受伤数：" + hurtTime as string);
             }
         }
     }

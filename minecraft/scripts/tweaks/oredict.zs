@@ -88,6 +88,10 @@ import scripts.util.oredict as OredictUtil;
 <ore:sunstone>.remove(<tiths:sun_stone>);
 <ore:moonstone>.remove(<tiths:moon_stone>);
 <ore:topaz>.remove(<tiths:topaz>);
+<ore:crystalVoid>.remove(<actuallyadditions:item_crystal:3>);
+<ore:seedsTier7>.remove(<mysticalagriculture:tier7_inferium_seeds>);
+<ore:seedsTier8>.remove(<mysticalagriculture:tier8_inferium_seeds>);
+<ore:seedsTier9>.remove(<mysticalagriculture:tier9_inferium_seeds>);
 
 <ore:ingotCthulhurite>.add(<gct_mobs:cthulhurite_ingot>);
 <ore:starlight>.add(<journey:sapphire>);
@@ -328,14 +332,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <tconstruct:bolt>,
         <tconevo:tool_sceptre>,
         <tcongreedyaddon:battleaxe>,
-        <tcongreedyaddon:dagger>,
         <tcongreedyaddon:greatblade>,
         <tcongreedyaddon:allinonetool>,
-        <moretcon:blbow>,
-        <moretcon:blsword>,
-        <moretcon:blaxe>,
-        <moretcon:blpick>,
-        <moretcon:blshovel>,
         <moretcon:ring>,
         <moretcon:gauntlet>,
         <moretcon:bomb>
@@ -1139,6 +1137,7 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <modularmachinery:elysia_vaporizer_factory_controller>,
         <modularmachinery:elysia_pyrolyzer_factory_controller>,
         <modularmachinery:elysia_polymer_factory_controller>,
+        <modularmachinery:elysia_etcher_factory_controller>,
         <modularmachinery:factory_4x_factory_controller>,
         <modularmachinery:factory_5x_factory_controller>,
         <modularmachinery:factory_arcanic_astrallizer_factory_controller>,
@@ -1269,7 +1268,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <erebus:dutch_cap_mushroom>,
         <erebus:kaizers_fingers_mushroom>
     ],
-    <ore:gemSpiderLegTarantula> : [<additions:tarantula_leg>]
+    <ore:gemSpiderLegTarantula> : [<additions:tarantula_leg>],
+    <ore:crystalVoidic> : [<actuallyadditions:item_crystal:3>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {

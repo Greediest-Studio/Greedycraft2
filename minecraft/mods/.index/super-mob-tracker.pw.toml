@@ -1,0 +1,13 @@
+name = 'Super Mob Tracker'
+filename = 'supermobtracker-1.2.4.jar'
+side = 'both'
+
+[download]
+hash-format = 'sha1'
+hash = '10f3015b55fc92755cb9d748375e5211e035d17e'
+mode = 'metadata:curseforge'
+
+[update]
+[update.curseforge]
+file-id = 7539422
+project-id = 1398067

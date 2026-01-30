@@ -1085,13 +1085,11 @@ val active_sourceTrait = ArmorTraitBuilder.create("active_source");
 active_sourceTrait.color = Color.fromHex("ffffff").getIntColor(); 
 active_sourceTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.active_sourceTrait.name");
 active_sourceTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.active_sourceTrait.desc");
-active_sourceTrait.onAbility = function(trait, level, world, player) {
+active_sourceTrait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
         var slowdown as float = 1.0f;
-        for armor in player.armorInventory {
-            if (CotTicTraitLib.hasTicTrait(armor, "slowdown_armor")) {
-                slowdown -= 0.2f;
-            }
+        if (CotTicTraitLib.hasTicTrait(armor, "slowdown_armor")) {
+            slowdown = 0.5f;
         }
         player.addRadiation(0.00000006d * 1 * slowdown as double, true);
     }
@@ -1101,13 +1099,11 @@ val active_source2Trait = ArmorTraitBuilder.create("active_source2");
 active_source2Trait.color = Color.fromHex("ffffff").getIntColor(); 
 active_source2Trait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.active_source2Trait.name");
 active_source2Trait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.active_sourceTrait.desc");
-active_source2Trait.onAbility = function(trait, level, world, player) {
+active_source2Trait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
         var slowdown as float = 1.0f;
-        for armor in player.armorInventory {
-            if (CotTicTraitLib.hasTicTrait(armor, "slowdown_armor")) {
-                slowdown -= 0.2f;
-            }
+        if (CotTicTraitLib.hasTicTrait(armor, "slowdown_armor")) {
+            slowdown = 0.5f;
         }
         player.addRadiation(0.00000006d * 20 * slowdown as double, true);
     }
@@ -1117,13 +1113,11 @@ val active_source3Trait = ArmorTraitBuilder.create("active_source3");
 active_source3Trait.color = Color.fromHex("ffffff").getIntColor(); 
 active_source3Trait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.active_source3Trait.name");
 active_source3Trait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.active_sourceTrait.desc");
-active_source3Trait.onAbility = function(trait, level, world, player) {
+active_source3Trait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
         var slowdown as float = 1.0f;
-        for armor in player.armorInventory {
-            if (CotTicTraitLib.hasTicTrait(armor, "slowdown_armor")) {
-                slowdown -= 0.2f;
-            }
+        if (CotTicTraitLib.hasTicTrait(armor, "slowdown_armor")) {
+            slowdown = 0.5f;
         }
         player.addRadiation(0.00000006d * 400 * slowdown as double, true);
     }
@@ -1133,13 +1127,11 @@ val active_source4Trait = ArmorTraitBuilder.create("active_source4");
 active_source4Trait.color = Color.fromHex("ffffff").getIntColor(); 
 active_source4Trait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.active_source4Trait.name");
 active_source4Trait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.active_sourceTrait.desc");
-active_source4Trait.onAbility = function(trait, level, world, player) {
+active_source4Trait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
         var slowdown as float = 1.0f;
-        for armor in player.armorInventory {
-            if (CotTicTraitLib.hasTicTrait(armor, "slowdown_armor")) {
-                slowdown -= 0.2f;
-            }
+        if (CotTicTraitLib.hasTicTrait(armor, "slowdown_armor")) {
+            slowdown = 0.5f;
         }
         player.addRadiation(0.00000006d * 8000 * slowdown as double, true);
     }
@@ -1149,13 +1141,11 @@ val active_source5Trait = ArmorTraitBuilder.create("active_source5");
 active_source5Trait.color = Color.fromHex("ffffff").getIntColor(); 
 active_source5Trait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.active_source5Trait.name");
 active_source5Trait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.active_sourceTrait.desc");
-active_source5Trait.onAbility = function(trait, level, world, player) {
+active_source5Trait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
         var slowdown as float = 1.0f;
-        for armor in player.armorInventory {
-            if (CotTicTraitLib.hasTicTrait(armor, "slowdown_armor")) {
-                slowdown -= 0.2f;
-            }
+        if (CotTicTraitLib.hasTicTrait(armor, "slowdown_armor")) {
+            slowdown = 0.5f;
         }
         player.addRadiation(0.00000006d * 160000 * slowdown as double, true);
     }
@@ -1165,13 +1155,11 @@ val active_source6Trait = ArmorTraitBuilder.create("active_source6");
 active_source6Trait.color = Color.fromHex("ffffff").getIntColor(); 
 active_source6Trait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.active_source6Trait.name");
 active_source6Trait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.active_sourceTrait.desc");
-active_source6Trait.onAbility = function(trait, level, world, player) {
+active_source6Trait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
         var slowdown as float = 1.0f;
-        for armor in player.armorInventory {
-            if (CotTicTraitLib.hasTicTrait(armor, "slowdown_armor")) {
-                slowdown -= 0.2f;
-            }
+        if (CotTicTraitLib.hasTicTrait(armor, "slowdown_armor")) {
+            slowdown = 0.5f;
         }
         player.addRadiation(0.00000006d * 3200000 * slowdown as double, true);
     }
@@ -4493,3 +4481,185 @@ force_redirectionTrait.onHurt = function(trait, armor, player, source, damage, n
     return newDamage;
 };
 force_redirectionTrait.register();
+
+val jadedTrait = ArmorTraitBuilder.create("jaded");
+jadedTrait.color = Color.fromHex("ffffff").getIntColor();
+jadedTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.jadedTrait.name");
+jadedTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.jadedTrait.desc");
+jadedTrait.onHeal = function(trait, armor, player, amount, newAmount, evt) {
+    if (!isNull(player)) {
+        return newAmount * 1.25f;
+    }
+    return newAmount;
+};
+jadedTrait.register();
+
+val poison_smogTrait = ArmorTraitBuilder.create("poison_smog");
+poison_smogTrait.color = Color.fromHex("76ff03").getIntColor();
+poison_smogTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.poison_smogTrait.name");
+poison_smogTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.poison_smogTrait.desc");
+poison_smogTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player) && player.isPotionActive(<potion:minecraft:poison>)) {
+        player.removePotionEffect(<potion:minecraft:poison>);
+    }
+};
+poison_smogTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !player.world.remote) {
+        server.commandManager.executeCommandSilent(server, "summon minecraft:area_effect_cloud " + player.x + " " + player.y + " " + player.z + " {Radius:3.0f,Duration:200,RadiusOnUse:0.0f,RadiusPerTick:0.0f,ReapplicationDelay:10,Effects:[{Id:19b,Amplifier:9b,Duration:200,ShowParticles:1b}]}");
+        if (!isNull(source.getTrueSource()) && source.getTrueSource() instanceof IEntityLivingBase) {
+            var attacker as IEntityLivingBase = source.getTrueSource();
+            if (attacker.isPotionActive(<potion:minecraft:poison>)) {
+                var reduction as float = 1.0f - (0.2f + (Math.random() * 0.2f) as float);
+                return newDamage * reduction as float;
+            } else {
+                attacker.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(100, 7, false, false));
+            }
+        }
+    }
+    return newDamage;
+};
+poison_smogTrait.register();
+
+function getNestingPos(pos as IBlockPos) as IBlockPos[] {
+    return [
+        pos.east(1),
+        pos.west(1),
+        pos.north(1),
+        pos.south(1),
+        pos.down(1),
+        pos.east(1).up(1),
+        pos.west(1).up(1),
+        pos.north(1).up(1),
+        pos.south(1).up(1),
+        pos.up(2)
+    ];
+}
+val nestingTrait = ArmorTraitBuilder.create("nesting");
+nestingTrait.color = Color.fromHex("ffffff").getIntColor();
+nestingTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.nestingTrait.name");
+nestingTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.nestingTrait.desc");
+nestingTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        var pos as IBlockPos = player.position;
+        var count as int = 0;
+        for nestPos in getNestingPos(pos) {
+            if (!player.world.isAirBlock(nestPos)) {
+                count += 1;
+            }
+        }
+        if (count > 4) {
+            return newDamage * 0.7f;
+        }
+    }
+    return newDamage;
+};
+nestingTrait.register();
+
+val seriesTrait = ArmorTraitBuilder.create("series");
+seriesTrait.color = Color.fromHex("6495ED").getIntColor();
+seriesTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.seriesTrait.name");
+seriesTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.seriesTrait.desc");
+seriesTrait.onArmorTick = function(trait, armor, world, player) {
+    var hurtTick as IData = {"HurtTick": 0 as int} as IData;
+    var hitTimes as IData = {"HitTimes": 0 as int} as IData;
+    if (!isNull(armor.tag.memberGet("HurtTick"))) {
+        if ((!isNull(armor.tag.memberGet("HitTimes")) && armor.tag.memberGet("HitTimes") != 0) || armor.tag.memberGet("HurtTick").asInt() < 0) {
+            hurtTick = hurtTick.update({"HurtTick": armor.tag.memberGet("HurtTick")+1});
+        }
+        if (armor.tag.memberGet("HurtTick") >= 200) {
+            hurtTick = hurtTick.update({"HurtTick": 0});
+            armor.mutable().updateTag(hitTimes);
+        }
+    }
+    armor.mutable().updateTag(hurtTick);
+};
+seriesTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    var hitTimes as IData = {"HitTimes": 0 as int} as IData;
+    var hurtTick as IData = {"HurtTick": -600 as int} as IData;
+    if (!isNull(armor.tag.memberGet("HurtTick")) && armor.tag.memberGet("HurtTick").asInt() < 0) {
+        return newDamage;
+    }
+    if (!isNull(armor.tag.memberGet("HitTimes"))) {
+        hitTimes = hitTimes.update({"HitTimes": armor.tag.memberGet("HitTimes")+1});
+        if (newDamage * pow(0.5, armor.tag.memberGet("HitTimes").asInt()) <= 1.0f) {
+            hitTimes = hitTimes.update({"HitTimes": 0 as int});
+            armor.mutable().updateTag(hurtTick);
+        }
+        armor.mutable().updateTag(hitTimes);
+        return (newDamage * pow(0.5, armor.tag.memberGet("HitTimes").asInt())) as float;
+    } else {
+        hitTimes = hitTimes.update({"HitTimes": 1 as int});
+        armor.mutable().updateTag(hitTimes);
+        return newDamage;
+    }
+};
+seriesTrait.register();
+
+val rationalityTrait = ArmorTraitBuilder.create("rationality");
+rationalityTrait.color = Color.fromHex("6495ED").getIntColor();
+rationalityTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.rationalityTrait.name");
+rationalityTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.rationalityTrait.desc");
+rationalityTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    var warpTotal = player.warpNormal + player.warpTemporary + player.warpPermanent;
+    if (warpTotal == 0) {
+        return newDamage * 0.9f;
+    }
+    if (warpTotal > 500) {
+        warpTotal = 500;
+    }
+    val amp = 1.0 + (warpTotal as double)/1000.0;
+    return newDamage * (amp as float);
+};
+rationalityTrait.register();
+
+val dragon_bodyTrait = ArmorTraitBuilder.create("dragon_body");
+dragon_bodyTrait.color = Color.fromHex("ff6600").getIntColor();
+dragon_bodyTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.dragon_bodyTrait.name");
+dragon_bodyTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.dragon_bodyTrait.desc");
+dragon_bodyTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        var count as int = 0;
+        count += CotTicTraitLib.getPlayerTicHelmetTrait(player) has "dragon_body_armor" ? 1 : 0;
+        count += CotTicTraitLib.getPlayerTicChestplateTrait(player) has "dragon_body_armor" ? 1 : 0;
+        count += CotTicTraitLib.getPlayerTicLeggingsTrait(player) has "dragon_body_armor" ? 1 : 0;
+        count += CotTicTraitLib.getPlayerTicBootsTrait(player) has "dragon_body_armor" ? 1 : 0;
+        if (count == 3) {
+            player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(20, 0, true, false));
+        } else if (count == 4) {
+            player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(20, 1, true, false));
+        }
+    }
+};
+dragon_bodyTrait.register();
+
+val sukhavatiTrait = ArmorTraitBuilder.create("sukhavati");
+sukhavatiTrait.color = Color.fromHex("ffffff").getIntColor();
+sukhavatiTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.sukhavatiTrait.name");
+sukhavatiTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.sukhavatiTrait.desc");
+sukhavatiTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !isNull(armor.tag.sukhavatiTimer)) {
+        var timer as int = armor.tag.sukhavatiTimer as int;
+        if (!player.isPotionActive(<potion:gctcore:sukhavati>) && timer == 0) {
+            player.update({sukhavatiHurt : 1 as int, sukhavatiKill : 0 as int});
+            player.addPotionEffect(<potion:gctcore:sukhavati>.makePotionEffect(300, 0, false, false));
+            player.sendChat("§f[极乐净土] 击杀数：0 受伤数：1");
+            armor.mutable().updateTag({sukhavatiTimer : 1200 as int});
+            return 0.0f;
+        }
+    }
+    return newDamage;
+};
+sukhavatiTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player) && !world.remote) {
+        if (!isNull(armor.tag.sukhavatiTimer)) {
+            var timer as int = armor.tag.sukhavatiTimer as int;
+            if (timer > 0) {
+                armor.mutable().updateTag({sukhavatiTimer : timer - 1 as int});
+                if (timer == 1) player.sendChat("§f[极乐净土] 技能已就绪！");
+            }
+        } else {
+            armor.mutable().updateTag({sukhavatiTimer : 0 as int});
+        }
+    }
+};
+sukhavatiTrait.register();

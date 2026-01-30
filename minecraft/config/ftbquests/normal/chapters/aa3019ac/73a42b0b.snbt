@@ -1,0 +1,30 @@
+{
+	title: "§b合成高分子",
+	x: -9.0d,
+	y: 11.0d,
+	description: "合成大型聚合单元集成控制器",
+	text: [
+		"尝试写出单体和聚合反应式！"
+	],
+	dependencies: [
+		"54050e05"
+	],
+	tasks: [{
+		uid: "a5e03d2f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:elysia_polymer_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "66fff832",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "7b996f70",
+		type: "xp",
+		xp: 2000
+	}]
+}

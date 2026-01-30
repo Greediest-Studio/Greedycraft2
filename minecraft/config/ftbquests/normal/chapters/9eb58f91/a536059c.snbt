@@ -1,6 +1,11 @@
 {
+	title: "§b迎难而上",
 	x: -16.5d,
-	y: 2.0d,
+	y: 2.5d,
+	description: "制作任意一种拓展合成终端",
+	text: [
+		""
+	],
 	dependencies: [
 		"9ad09ce0"
 	],
@@ -9,6 +14,25 @@
 		type: "item",
 		items: [{
 			item: "ae2exttable:basic_crafting_terminal"
+		},
+		{
+			item: "ae2exttable:advanced_crafting_terminal"
+		},
+		{
+			item: "ae2exttable:elite_crafting_terminal"
+		},
+		{
+			item: "ae2exttable:ultimate_crafting_terminal"
 		}]
+	}],
+	rewards: [{
+		uid: "421f294c",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "7910d06a",
+		type: "random",
+		table: 1
 	}]
 }

@@ -1,23 +1,23 @@
 #Creative Tab
-itemGroup.mctsmelteryio=冶炼厂接口
+itemGroup.smelteryio=冶炼厂接口
 
 #Blocks
-tile.mctsmelteryio:machine.fuel_controller.name=燃料控制器
-tile.mctsmelteryio:machine.casting_machine.name=铸造机
-tile.mctsmelteryio:machine.smeltery_input.name=冶炼厂输入口
-tile.mctsmelteryio:machine.advanced_drain.name=高级排液口
+tile.smelteryio:machine.fuel_controller.name=燃料控制器
+tile.smelteryio:machine.casting_machine.name=铸造机
+tile.smelteryio:machine.smeltery_input.name=冶炼厂输入口
+tile.smelteryio:machine.advanced_drain.name=高级排液口
 
 #Items
-item.mctsmelteryio:powdered_fuel.name=注能燃料
-item.mctsmelteryio:iceball.name=冰球
-item.mctsmelteryio:upgrade.upgrade_base.name=基础升级
-item.mctsmelteryio:upgrade.upgrade_slot1.name=基础容量升级
-item.mctsmelteryio:upgrade.upgrade_slot2.name=中级容量升级
-item.mctsmelteryio:upgrade.upgrade_slot3.name=高级容量升级
-item.mctsmelteryio:upgrade.upgrade_slot4.name=终极容量升级
-item.mctsmelteryio:upgrade.upgrade_basin.name=铸造盆升级
-item.mctsmelteryio:upgrade.upgrade_speed.name=速度升级
-item.mctsmelteryio:upgrade.upgrade_redstone.name=红石升级
+item.smelteryio:powdered_fuel.name=注能燃料
+item.smelteryio:iceball.name=冰球
+item.smelteryio:upgrade.upgrade_base.name=基础升级
+item.smelteryio:upgrade.upgrade_slot1.name=基础容量升级
+item.smelteryio:upgrade.upgrade_slot2.name=中级容量升级
+item.smelteryio:upgrade.upgrade_slot3.name=高级容量升级
+item.smelteryio:upgrade.upgrade_slot4.name=终极容量升级
+item.smelteryio:upgrade.upgrade_basin.name=铸造盆升级
+item.smelteryio:upgrade.upgrade_speed.name=速度升级
+item.smelteryio:upgrade.upgrade_redstone.name=红石升级
 
 #GUI
 container.fuel_controller=燃料控制器

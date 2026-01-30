@@ -28,26 +28,31 @@
 	{
 		uid: "a4ddc019",
 		type: "item",
+		team_reward: 0b,
 		item: "enderio:item_yeta_wrench"
 	},
 	{
 		uid: "7e2f6180",
 		type: "item",
+		team_reward: 0b,
 		item: "actuallyadditions:item_laser_wrench"
 	},
 	{
 		uid: "e29df58d",
 		type: "item",
+		team_reward: 0b,
 		item: "appliedenergistics2:certus_quartz_wrench"
 	},
 	{
 		uid: "f63effe0",
 		type: "item",
+		team_reward: 0b,
 		item: "forestry:wrench"
 	},
 	{
 		uid: "f18f7334",
 		type: "item",
+		team_reward: 0b,
 		item: {
 			id: "botania:twigwand",
 			tag: {
@@ -59,6 +64,7 @@
 	{
 		uid: "c402704b",
 		type: "item",
+		team_reward: 0b,
 		item: "draconicevolution:crystal_binder"
 	},
 	{

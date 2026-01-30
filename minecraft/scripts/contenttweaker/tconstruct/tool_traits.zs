@@ -2575,13 +2575,28 @@ air_controlTrait.localizedDescription = game.localize("greedycraft.tconstruct.to
 air_controlTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer) {
         var player as IPlayer = attacker;
-        if (target.y >= (player.y + 6)) {
+        if (target.y >= (player.y + 3.0d)) {
             return newDamage * 1.05f;
         }
     }
     return newDamage;
 };
 air_controlTrait.register();
+
+val air_control2Trait = TraitBuilder.create("air_control2");
+air_control2Trait.color = Color.fromHex("ffffff").getIntColor(); 
+air_control2Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.air_control2Trait.name");
+air_control2Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.air_controlTrait.desc");
+air_control2Trait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (target.y >= (player.y + 1.5d)) {
+            return newDamage * 1.3f;
+        }
+    }
+    return newDamage;
+};
+air_control2Trait.register();
 
 val transitionTrait = TraitBuilder.create("transition");
 transitionTrait.color = Color.fromHex("ffffff").getIntColor(); 
@@ -2820,7 +2835,7 @@ charitableTrait.onHit = function(trait, tool, attacker, target, damage, isCritic
 charitableTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer && !(target instanceof IPlayer)) {
         var player as IPlayer = attacker;
-        if (!isNull(tool.tag.charitable)) {
+        if (!isNull(tool.tag.charitable) && !isNull(target.definition)) {
             if (target.definition.id == tool.tag.charitable.name as string && tool.tag.charitable.times as int >= 7) {
                 return newDamage * 0.3f;
             }
@@ -2837,8 +2852,10 @@ murderTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_tr
 murderTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer) {
         var player as IPlayer = attacker;
-        if (target.definition.id == "headcrumbs:human") {
-            return newDamage * 1.5f;
+        if (!isNull(target.definition)) {
+            if (target.definition.id == "headcrumbs:human") {
+                return newDamage * 1.5f;
+            }
         }
     }
     return newDamage;
@@ -3273,8 +3290,6 @@ sharper_harvestingTrait.calcDamage = function(trait, tool, attacker, target, ori
             <item:tconstruct:pickaxe>,
             <item:tconstruct:shovel>,
             <item:tconstruct:excavator>,
-            <item:moretcon:blshovel>,
-            <item:moretcon:blpick>
         ];
         for listTool in listTools {
             if (listTool.definition.id == tool.definition.id) {
@@ -3814,8 +3829,10 @@ pureTrait.register();
 events.onEntityLivingHeal(function(event as EntityLivingHealEvent) {
     if (event.entityLivingBase instanceof IPlayer) {
         var player as IPlayer = event.entityLivingBase;
-        if CotTicTraitLib.hasTicTrait(player.currentItem, "pure") || CotTicTraitLib.hasTicTrait(player.offHandHeldItem, "pure") {
-            event.cancel();
+        if (!isNull(player.currentItem)) {
+            if (CotTicTraitLib.hasTicTrait(player.currentItem, "pure") || CotTicTraitLib.hasTicTrait(player.offHandHeldItem, "pure")) {
+                event.cancel();
+            }
         }
     }
 });
@@ -5232,3 +5249,396 @@ collisionTrait.calcKnockBack = function(trait, tool, attacker, target, damage, o
     return newKnockBack;
 };
 collisionTrait.register();
+
+val jadeitizationTrait = TraitBuilder.create("jadeitization");
+jadeitizationTrait.color = Color.fromHex("ffffff").getIntColor(); 
+jadeitizationTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.jadeitizationTrait.name");
+jadeitizationTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.jadeitizationTrait.desc");
+jadeitizationTrait.register();
+
+val poison_smogTrait = TraitBuilder.create("poison_smog");
+poison_smogTrait.color = Color.fromHex("76ff03").getIntColor(); 
+poison_smogTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.poison_smogTrait.name");
+poison_smogTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.poison_smogTrait.desc");
+poison_smogTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (target instanceof IEntityLivingBase) {
+        var entity as IEntityLivingBase = target;
+        if (entity.isPotionActive(<potion:minecraft:poison>)) {
+            var multiplier as float = (1.2f + (Math.random() * 0.2f) as float) as float;
+            return newDamage * multiplier;
+        } else {
+            entity.addPotionEffect(<potion:minecraft:poison>.makePotionEffect(100, 7, false, false));
+        }
+    }
+    return newDamage;
+};
+poison_smogTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
+    if (wasHit && attacker instanceof IPlayer && target instanceof IEntityLivingBase) {
+        if (target.health <= 0.0f) {
+            server.commandManager.executeCommandSilent(server, "summon minecraft:area_effect_cloud " + target.x + " " + target.y + " " + target.z + " {Radius:3.0f,Duration:200,RadiusOnUse:0.0f,RadiusPerTick:0.0f,ReapplicationDelay:10,Effects:[{Id:19b,Amplifier:9b,Duration:200,ShowParticles:1b}]}");
+        }
+    }
+};
+poison_smogTrait.register();
+
+val ant_summoningTrait = TraitBuilder.create("ant_summoning");
+ant_summoningTrait.color = Color.fromHex("ffffff").getIntColor(); 
+ant_summoningTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.ant_summoningTrait.name");
+ant_summoningTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.ant_summoningTrait.desc");
+ant_summoningTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (Math.random() < 0.01f) {
+            for i in 0 to Math.ceil((Math.random() * 3.0f) as double) {
+                <entity:erebus:erebus.summoned_ant>.spawnEntity(target.world, target.position);
+            }
+            tool.mutable().updateTag({antSummoning : true});
+        }
+    }
+};
+ant_summoningTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (!isNull(tool.tag.antSummoning)) {
+            var pass as bool = tool.tag.antSummoning as bool;
+            if (pass) {
+                if (Math.random() < 0.4f) tool.mutable().updateTag({antSummoning : false});
+                return newDamage * 1.2f;
+            } else {
+                return newDamage;
+            }
+        }
+    }
+    return newDamage;
+};
+ant_summoningTrait.register();
+
+val strong_liftTrait = TraitBuilder.create("strong_lift");
+strong_liftTrait.color = Color.fromHex("ffffff").getIntColor(); 
+strong_liftTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.strong_liftTrait.name");
+strong_liftTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.strong_liftTrait.desc");
+strong_liftTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (wasHit && target.y <= player.y) {
+            target.motionY += 1.0f;
+        }
+    }
+};
+strong_liftTrait.register();
+
+val calculusTrait = TraitBuilder.create("calculus");
+calculusTrait.color = Color.fromHex("6495ED").getIntColor(); 
+calculusTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.calculusTrait.name");
+calculusTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.calculusTrait.desc");
+calculusTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    var dmgTick as IData = {"DmgTick": 0} as IData;
+    var currentDps as IData = {"CurrentDps": 0.0 as float} as IData;
+    var sumDmg as IData = {"SumDmg": 0.0 as float} as IData;
+    var dmgTimes as IData = {"DmgTimes": 0} as IData;
+    if ((!isNull(tool.tag.memberGet("DmgTimes")) && tool.tag.memberGet("DmgTimes") != 0)) {
+        if (!isNull(tool.tag.memberGet("DmgTick"))) {
+            dmgTick = dmgTick.update({"DmgTick": tool.tag.memberGet("DmgTick")+1});
+        }
+    }
+    if (!isNull(tool.tag.memberGet("DmgTick")) && tool.tag.memberGet("DmgTick") >= 1200) {
+        dmgTick = dmgTick.update({"DmgTick": 0});
+        tool.mutable().updateTag(sumDmg);
+        tool.mutable().updateTag(dmgTimes);
+    }
+    tool.mutable().updateTag(dmgTick);
+};
+calculusTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    var dmgTick as IData = {"DmgTick": 0} as IData;
+    var sumDmg as IData = {"SumDmg": 0.0 as float} as IData;
+    var dmgTimes as IData = {"DmgTimes": 0} as IData;
+    if (!isNull(tool.tag.memberGet("DmgTimes")) && !isNull(tool.tag.memberGet("CurrentDps")) && tool.tag.memberGet("DmgTimes") == 10) {
+        target.health -= newDamage + tool.tag.memberGet("CurrentDps").asFloat();
+        tool.mutable().updateTag(dmgTick);
+        tool.mutable().updateTag(sumDmg);
+        tool.mutable().updateTag(dmgTimes);
+        return 0.0f;
+    }
+    return newDamage as float;
+};
+calculusTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
+    var sumDmg as IData = {"SumDmg": 0.0 as float} as IData;
+    var dmgTimes as IData = {"DmgTimes": 0} as IData;
+
+    if (!isNull(tool.tag.memberGet("DmgTimes"))) {
+        if (tool.tag.memberGet("DmgTimes") <= 9) {
+            dmgTimes = dmgTimes.update({"DmgTimes": tool.tag.memberGet("DmgTimes")+1});
+        }
+    
+        if (tool.tag.memberGet("DmgTimes") == 9) {
+            if (!isNull(tool.tag.memberGet("SumDmg"))) {
+                var currentDps as IData = {"CurrentDps": (tool.tag.memberGet("SumDmg")+damageDealt)/(tool.tag.memberGet("DmgTick")/20) as float} as IData;
+                tool.mutable().updateTag(currentDps);
+            }
+        }
+
+        if (tool.tag.memberGet("DmgTimes") <= 8) {
+            if (!isNull(tool.tag.memberGet("SumDmg"))) {
+                sumDmg = sumDmg.update({"SumDmg": tool.tag.memberGet("SumDmg")+damageDealt as float});
+            }
+        }
+    } else {
+        dmgTimes = dmgTimes.update({"DmgTimes": 1});
+        sumDmg = sumDmg.update({"SumDmg": damageDealt as float});
+    }
+
+    tool.mutable().updateTag(sumDmg);
+    tool.mutable().updateTag(dmgTimes);
+};
+calculusTrait.register();
+
+val rationalityTrait = TraitBuilder.create("rationality");
+rationalityTrait.color = Color.fromHex("6495ED").getIntColor(); 
+rationalityTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.rationalityTrait.name");
+rationalityTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.rationalityTrait.desc");
+rationalityTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (isNull(target) || !(attacker instanceof IPlayer)) {
+        return newDamage;
+    }
+    val player as IPlayer = attacker;
+    var warpTotal = player.warpNormal + player.warpTemporary + player.warpPermanent;
+    if (warpTotal == 0) {
+        return newDamage * 1.1f;
+    }
+    if (warpTotal > 500) {
+        warpTotal = 500;
+    }
+    val amp = 1.0 - (warpTotal as double)/1000.0;
+    return newDamage * (amp as float);
+};
+rationalityTrait.register();
+
+val coulomb_explosionTrait = TraitBuilder.create("coulomb_explosion");
+coulomb_explosionTrait.color = Color.fromHex("ffffff").getIntColor(); 
+coulomb_explosionTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.coulomb_explosionTrait.name");
+coulomb_explosionTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.coulomb_explosionTrait.desc");
+coulomb_explosionTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
+    if (attacker instanceof IPlayer && wasHit) {
+        if (Math.random() < 0.3f) {
+            var player as IPlayer = attacker;
+            player.world.performExplosion(player, target.x, target.y, target.z, 2.0f, false, false);
+        }
+    }
+};
+coulomb_explosionTrait.register();
+
+$expand int$nextBase(a as int) as int {
+    return (this + a) % 6;
+}
+
+val hexable_basementTrait = TraitBuilder.create("hexable_basement");
+hexable_basementTrait.color = Color.fromHex("ffffff").getIntColor(); 
+hexable_basementTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.hexable_basementTrait.name");
+hexable_basementTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.hexable_basementTrait.desc");
+hexable_basementTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    if (owner instanceof IPlayer) {
+        var player as IPlayer = owner;
+        if (world.time % 40 == 0) {
+            var aquaNew as int = 0;
+            var ignisNew as int = 0;
+            var terraNew as int = 0;
+            var aerNew as int = 0;
+            var ordoNew as int = 0;
+            var perditioNew as int = 0;
+            for i in 0 to player.inventorySize {
+                if (!isNull(player.getInventoryStack(i))) {
+                    var item as IItemStack = player.getInventoryStack(i);
+                    if (item.definition.id == "thaumcraft:crystal_essence") {
+                        var pass as bool = false;
+                        if (!isNull(item.tag.Aspects)) {
+                            var Aspects as IData = item.tag.Aspects as IData;
+                            for Aspect in Aspects.asList() {
+                                if (Aspect.key as string == "aqua") {
+                                    aquaNew += Aspect.amount as int * item.amount as int;
+                                    pass = true;
+                                }
+                                if (Aspect.key as string == "ignis") {
+                                    ignisNew += Aspect.amount as int * item.amount as int;
+                                    pass = true;
+                                }
+                                if (Aspect.key as string == "terra") {
+                                    terraNew += Aspect.amount as int * item.amount as int;
+                                    pass = true;
+                                }
+                                if (Aspect.key as string == "aer") {
+                                    aerNew += Aspect.amount as int * item.amount as int;
+                                    pass = true;
+                                }
+                                if (Aspect.key as string == "ordo") {
+                                    ordoNew += Aspect.amount as int * item.amount as int;
+                                    pass = true;
+                                }
+                                if (Aspect.key as string == "perditio") {
+                                    perditioNew += Aspect.amount as int * item.amount as int;
+                                    pass = true;
+                                }
+                            }
+                        }
+                        if (pass) {
+                            item.mutable().shrink(item.amount);
+                        }
+                    }
+                }
+            }
+            if (!isNull(tool.tag.hexableBasement)) {
+                var aquaOld as int = tool.tag.hexableBasement.aqua as int;
+                var ignisOld as int = tool.tag.hexableBasement.ignis as int;
+                var terraOld as int = tool.tag.hexableBasement.terra as int;
+                var aerOld as int = tool.tag.hexableBasement.aer as int;
+                var ordoOld as int = tool.tag.hexableBasement.ordo as int;
+                var perditioOld as int = tool.tag.hexableBasement.perditio as int;
+                tool.mutable().updateTag({hexableBasement : {
+                    aqua : Math.min(aquaOld + aquaNew, 4000) as int,
+                    ignis : Math.min(ignisOld + ignisNew, 4000) as int,
+                    terra : Math.min(terraOld + terraNew, 4000) as int,
+                    aer : Math.min(aerOld + aerNew, 4000) as int,
+                    ordo : Math.min(ordoOld + ordoNew, 4000) as int,
+                    perditio : Math.min(perditioOld + perditioNew, 4000) as int
+                }});
+            } else {
+                tool.mutable().updateTag({hexableBasement : {
+                    aqua : Math.min(aquaNew, 4000) as int,
+                    ignis : Math.min(ignisNew, 4000) as int,
+                    terra : Math.min(terraNew, 4000) as int,
+                    aer : Math.min(aerNew, 4000) as int,
+                    ordo : Math.min(ordoNew, 4000) as int,
+                    perditio : Math.min(perditioNew, 4000) as int
+                }, hexableTurn : 0 as int});
+            }
+        }
+        if (!isNull(tool.tag.hexableBasement) && tool.damage > 0) {
+            var aqua as int = tool.tag.hexableBasement.aqua as int;
+            var ignis as int = tool.tag.hexableBasement.ignis as int;
+            var terra as int = tool.tag.hexableBasement.terra as int;
+            var aer as int = tool.tag.hexableBasement.aer as int;
+            var ordo as int = tool.tag.hexableBasement.ordo as int;
+            var perditio as int = tool.tag.hexableBasement.perditio as int;
+            var max as int = Math.max(Math.max(Math.max(Math.max(Math.max(aqua, ignis), terra), aer), ordo), perditio) as int;
+            if (aqua == max && max > 0) {
+                tool.mutable().updateTag({hexableBasement : {aqua : aqua - 1 as int}});
+                ToolHelper.healTool(tool.mutable().native, 3, player.native);
+            } else if (ignis == max && max > 0) {
+                tool.mutable().updateTag({hexableBasement : {ignis : ignis - 1 as int}});
+                ToolHelper.healTool(tool.mutable().native, 3, player.native);
+            } else if (terra == max && max > 0) {
+                tool.mutable().updateTag({hexableBasement : {terra : terra - 1 as int}});
+                ToolHelper.healTool(tool.mutable().native, 3, player.native);
+            } else if (aer == max && max > 0) {
+                tool.mutable().updateTag({hexableBasement : {aer : aer - 1 as int}});
+                ToolHelper.healTool(tool.mutable().native, 3, player.native);
+            } else if (ordo == max && max > 0) {
+                tool.mutable().updateTag({hexableBasement : {ordo : ordo - 1 as int}});
+                ToolHelper.healTool(tool.mutable().native, 3, player.native);
+            } else if (perditio == max && max > 0) {
+                tool.mutable().updateTag({hexableBasement : {perditio : perditio - 1 as int}});
+                ToolHelper.healTool(tool.mutable().native, 3, player.native);
+            }
+        }
+    }
+};
+hexable_basementTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        if (!isNull(tool.tag.hexableBasement)) {
+            if (!isNull(tool.tag.hexableTurn)) {
+                var turn as int = tool.tag.hexableTurn as int;
+                var pass as bool = false;
+                if (turn.nextBase(1) == 0) {
+                    var aqua as int = tool.tag.hexableBasement.aqua as int;
+                    if (aqua >= 10 && Math.random() < 0.5f) {
+                        pass = true;
+                        tool.mutable().updateTag({hexableBasement : {aqua : aqua - 10 as int}});
+                    }
+                } else if (turn.nextBase(1) == 1) {
+                    var ignis as int = tool.tag.hexableBasement.ignis as int;
+                    if (ignis >= 10 && Math.random() < 0.5f) {
+                        pass = true;
+                        tool.mutable().updateTag({hexableBasement : {ignis : ignis - 10 as int}});
+                    }
+                } else if (turn.nextBase(1) == 2) {
+                    var terra as int = tool.tag.hexableBasement.terra as int;
+                    if (terra >= 10 && Math.random() < 0.5f) {
+                        pass = true;
+                        tool.mutable().updateTag({hexableBasement : {terra : terra - 10 as int}});
+                    }
+                } else if (turn.nextBase(1) == 3) {
+                    var aer as int = tool.tag.hexableBasement.aer as int;
+                    if (aer >= 10 && Math.random() < 0.5f) {
+                        pass = true;
+                        tool.mutable().updateTag({hexableBasement : {aer : aer - 10 as int}});
+                    }
+                } else if (turn.nextBase(1) == 4) {
+                    var ordo as int = tool.tag.hexableBasement.ordo as int;
+                    if (ordo >= 10 && Math.random() < 0.5f) {
+                        pass = true;
+                        tool.mutable().updateTag({hexableBasement : {ordo : ordo - 10 as int}});
+                    }
+                } else if (turn.nextBase(1) == 5) {
+                    var perditio as int = tool.tag.hexableBasement.perditio as int;
+                    if (perditio >= 10 && Math.random() < 0.5f) {
+                        pass = true;
+                        tool.mutable().updateTag({hexableBasement : {perditio : perditio - 10 as int}});
+                    }
+                }
+                turn = turn.nextBase(1);
+                tool.mutable().updateTag({hexableTurn : turn as int});
+                if (pass) {
+                    return newDamage * 2.5f;
+                }
+            }
+        }
+    }
+    return newDamage;
+};
+hexable_basementTrait.register();
+
+val hexaelementalTrait = TraitBuilder.create("hexaelemental");
+hexaelementalTrait.color = Color.fromHex("ffffff").getIntColor(); 
+hexaelementalTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.hexaelementalTrait.name");
+hexaelementalTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.hexaelementalTrait.desc");
+hexaelementalTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
+    if (attacker instanceof IPlayer && !isNull(tool.tag.hexableTurn) && wasHit) {
+        var player as IPlayer = attacker;
+        var turn as int = tool.tag.hexableTurn as int;
+        var x as double = target.x;
+        var y as double = target.y;
+        var z as double = target.z;
+        if (turn == 1) {
+            server.commandManager.executeCommandSilent(player, "particle lava " + x as string + " " + y as string + " " + z as string + " 0.5 0.5 0.5 0 10 force");
+            target.setFire(10);
+        } else if (turn == 2) {
+            server.commandManager.executeCommandSilent(player, "particle smoke " + x as string + " " + y as string + " " + z as string + " 0.5 0.5 0.5 0 10 force");
+            target.addPotionEffect(<potion:gct_aby:stop>.makePotionEffect(60, 0, false, false));
+        } else if (turn == 3) {
+            server.commandManager.executeCommandSilent(player, "particle cloud " + x as string + " " + y as string + " " + z as string + " 0.5 0.5 0.5 0 10 force");
+            target.motionY += 0.5d;
+        } else if (turn == 4) {
+            server.commandManager.executeCommandSilent(player, "particle spell " + x as string + " " + y as string + " " + z as string + " 0.5 0.5 0.5 0 10 force");
+            target.addPotionEffect(<potion:minecraft:weakness>.makePotionEffect(100, 4, false, false));
+        } else if (turn == 5) {
+            server.commandManager.executeCommandSilent(player, "particle magicCrit " + x as string + " " + y as string + " " + z as string + " 0.5 0.5 0.5 0 10 force");
+            player.world.performExplosion(player, x, y, z, 1.0f, false, false);
+        }
+    }
+};
+hexaelementalTrait.calcKnockBack = function(trait, tool, attacker, target, damage, originalKnockBack, newKnockBack, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (!isNull(tool.tag.hexableTurn)) {
+            var turn as int = tool.tag.hexableTurn as int;
+            var x as double = target.x;
+            var y as double = target.y;
+            var z as double = target.z;
+            if (turn == 0) {
+                server.commandManager.executeCommandSilent(player, "particle dripWater " + x as string + " " + y as string + " " + z as string + " 0.5 0.5 0.5 0 10 force");
+                return newKnockBack * 2.5f;
+            }
+        }
+    }
+    return newKnockBack;
+};
+hexaelementalTrait.register();

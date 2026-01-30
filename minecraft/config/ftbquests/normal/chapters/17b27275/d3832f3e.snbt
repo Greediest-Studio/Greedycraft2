@@ -1,13 +1,10 @@
 {
 	title: "§b黏黏糊糊的……",
-	x: 1.0d,
-	y: 6.0d,
+	x: 3.0d,
+	y: 8.5d,
 	description: "焦油地牢的焦油怪？",
 	text: [
 		""
-	],
-	dependencies: [
-		"0c618825"
 	],
 	tasks: [{
 		uid: "35521029",

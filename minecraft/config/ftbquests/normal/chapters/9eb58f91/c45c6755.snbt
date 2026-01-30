@@ -1,7 +1,7 @@
 {
 	title: "§b自动请求任务",
-	x: -9.0d,
-	y: -2.0d,
+	x: -8.75d,
+	y: -2.5d,
 	description: "合成ME缓存指令器",
 	text: [
 		""
@@ -13,7 +13,7 @@
 		uid: "1f7fcd41",
 		type: "item",
 		items: [{
-			item: "threng:machine 1 4"
+			item: "threng:level_maintainer"
 		}]
 	}],
 	rewards: [{

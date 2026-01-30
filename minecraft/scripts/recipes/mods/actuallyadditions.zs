@@ -31,3 +31,5 @@ Empowerer.addRecipe(<additions:upgrade_dim_overworld>, <additions:upgrade_blank>
 Empowerer.addRecipe(<additions:upgrade_dim_nether>, <additions:upgrade_blank>, <journey:blazierorb>, <additions:netherite_block>, <additions:lock_of_space>, <draconicevolution:draconic_core>, 131072, 200);
 Empowerer.addRecipe(<additions:upgrade_dim_end>, <additions:upgrade_blank>, <divinerpg:horde_horn>,<additions:enderite_block>, <additions:lock_of_space>, <draconicevolution:draconic_core>, 131072, 200);
 Empowerer.addRecipe(<contenttweaker:bauble_horseshoe_balloon>, <minecraft:string>, <bountifulbaubles:trinketballoon>, <minecraft:slime_ball>, <bountifulbaubles:trinketluckyhorseshoe>, <minecraft:slime_ball>, 65536, 100);
+Empowerer.addRecipe(<additions:upgrade_etcher_mk2>, <additions:upgrade_blank>, <additions:germanium_press>, <additions:logic_press_2>, <additions:calculation_press_2>, <additions:engineering_press_2>, 80000, 150);
+Empowerer.addRecipe(<additions:upgrade_etcher_mk3>, <additions:upgrade_blank>, <additions:ga_in_p2_press>, <additions:logic_press_3>, <additions:calculation_press_3>, <additions:engineering_press_3>, 320000, 200);

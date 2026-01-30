@@ -1,6 +1,11 @@
 {
-	x: -16.5d,
-	y: 1.0d,
+	title: "§b都有龙球了你要这个干嘛",
+	x: -17.5d,
+	y: 2.0d,
+	description: "制作ME能量终端",
+	text: [
+		"你需要能量存储元件，不过好像没什么用（"
+	],
 	dependencies: [
 		"9ad09ce0"
 	],
@@ -10,5 +15,15 @@
 		items: [{
 			item: "crazyae:part 1 9"
 		}]
+	}],
+	rewards: [{
+		uid: "0b4306dd",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "420deade",
+		type: "random",
+		table: 1
 	}]
 }

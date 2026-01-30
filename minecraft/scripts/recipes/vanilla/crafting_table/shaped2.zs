@@ -726,6 +726,31 @@ RecipeUtil.addShaped("twilit_capacitor", <ometweaks:twilit_capacitor>, [
     [<enderio:item_capacitor_stellar>, <ore:ingotApocalypsium>, <enderio:item_capacitor_stellar>],
     [null, <ore:ingotTwilitAlloy>, null]
 ]);
+RecipeUtil.addShaped("clock_capacitor", <ometweaks:clock_capacitor>, [
+    [null, <ore:ingotClockAlloy>, null],
+    [<enderio:item_capacitor_melodic>, <ore:ingotEden>, <enderio:item_capacitor_melodic>],
+    [null, <ore:ingotClockAlloy>, null]
+]);
+RecipeUtil.addShaped("curse_capacitor", <ometweaks:curse_capacitor>, [
+    [null, <ore:ingotCurseAlloy>, null],
+    [<ometweaks:blackhole_capacitor>, <ore:ingotBlackiron>, <ometweaks:blackhole_capacitor>],
+    [null, <ore:ingotCurseAlloy>, null]
+]);
+RecipeUtil.addShaped("killer_capacitor", <ometweaks:killer_capacitor>, [
+    [null, <ore:ingotKillerAlloy>, null],
+    [<ometweaks:twilit_capacitor>, <ore:ingotCrimsonite>, <ometweaks:twilit_capacitor>],
+    [null, <ore:ingotKillerAlloy>, null]
+]);
+RecipeUtil.addShaped("mist_capacitor", <ometweaks:mist_capacitor>, [
+    [null, <ore:ingotMistAlloy>, null],
+    [<enderio:item_capacitor_melodic>, <ore:ingotViolium>, <enderio:item_capacitor_melodic>],
+    [null, <ore:ingotMistAlloy>, null]
+]);
+RecipeUtil.addShaped("sharpen_capacitor", <ometweaks:sharpen_capacitor>, [
+    [null, <ore:ingotSharpenAlloy>, null],
+    [<enderio:item_capacitor_stellar> | <ometweaks:mist_capacitor>, <ore:ingotChromasteel>, <enderio:item_capacitor_stellar> | <ometweaks:mist_capacitor>],
+    [null, <ore:ingotSharpenAlloy>, null]
+]);
 RecipeUtil.addShaped("slime_block", <minecraft:slime>, [
     [<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>],
     [<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>],
@@ -785,6 +810,36 @@ RecipeUtil.addShaped("upgrade_cast_4", <tinkertoolcasts:upgrade_ultimate>, [
     [null, <ore:ingotOverlaite>, null],
     [<ore:ingotOverlaite>, <tinkertoolcasts:upgrade_iridium>, <ore:ingotOverlaite>],
     [null, <ore:ingotOverlaite>, null]
+]);
+RecipeUtil.addShaped("ultimate_farm", <tinymobfarm:ultimate_farm>, [
+    [<ore:dragonEgg>, <draconicevolution:draconium_ingot> | <tiths:ingot_witherium>, <ore:dragonEgg>],
+    [<tinymobfarm:inferno_farm>, <additions:creative_shard>, <tinymobfarm:inferno_farm>],
+    [<ore:dragonEgg>, <draconicevolution:draconium_ingot> | <tiths:ingot_witherium>, <ore:dragonEgg>]
+]);
+RecipeUtil.addShaped("charge_sodium", <moretcon:explosive_charge>.withTag({Material: "sodium"}), [
+    [<minecraft:water_bucket>, <ore:gunpowder>, <minecraft:water_bucket>],
+    [<ore:gunpowder>, <ore:blockSodium>, <ore:gunpowder>],
+    [<minecraft:water_bucket>, <ore:gunpowder>, <minecraft:water_bucket>]
+]);
+RecipeUtil.addShaped("charge_potassium", <moretcon:explosive_charge>.withTag({Material: "potassium"}), [
+    [<minecraft:water_bucket>, <ore:gunpowder>, <minecraft:water_bucket>],
+    [<ore:gunpowder>, <ore:blockPotassium>, <ore:gunpowder>],
+    [<minecraft:water_bucket>, <ore:gunpowder>, <minecraft:water_bucket>]
+]);
+RecipeUtil.addShaped("charge_rubidium", <moretcon:explosive_charge>.withTag({Material: "rubidium"}), [
+    [<minecraft:water_bucket>, <ore:gunpowder>, <minecraft:water_bucket>],
+    [<ore:gunpowder>, <ore:blockRubidium>, <ore:gunpowder>],
+    [<minecraft:water_bucket>, <ore:gunpowder>, <minecraft:water_bucket>]
+]);
+RecipeUtil.addShaped("charge_caesium", <moretcon:explosive_charge>.withTag({Material: "caesium"}), [
+    [<minecraft:water_bucket>, <ore:gunpowder>, <minecraft:water_bucket>],
+    [<ore:gunpowder>, <ore:blockCaesium>, <ore:gunpowder>],
+    [<minecraft:water_bucket>, <ore:gunpowder>, <minecraft:water_bucket>]
+]);
+RecipeUtil.addShaped("charge_nitronite", <moretcon:explosive_charge>.withTag({Material: "nitronite"}), [
+    [<minecraft:skull:4>, <ore:ingotNitronite>, <minecraft:skull:4>],
+    [<ore:ingotNitronite>, <minecraft:tnt>, <ore:ingotNitronite>],
+    [<minecraft:skull:4>, <ore:ingotNitronite>, <minecraft:skull:4>]
 ]);
 /*
  * RecipeUtil.addShaped("", , [

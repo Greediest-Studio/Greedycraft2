@@ -28,14 +28,10 @@ val toolTypeStages as string[string] = {
     "tcongreedyaddon:battleaxe": "tinkering_blueprint",
     "moretcon:gauntlet": "ring_blueprint",
     "moretcon:ring": "ring_blueprint",
-    "moretcon:blaxe": "betweenland_traveller",
-    "moretcon:blpick": "betweenland_traveller",
-    "moretcon:blsword": "betweenland_traveller",
-    "moretcon:blshovel": "betweenland_traveller",
-    "moretcon:blbow": "betweenland_traveller",
     "tcongreedyaddon:greatblade": "awakened",
     "tcongreedyaddon:allinonetool": "awakened",
-    "moretcon:bomb": "awakened"
+    "moretcon:bomb": "awakened",
+    "tinkersarsenal:boomstick": "awakened"
 } as string[string];
 
 TinkerStages.addModifierStage("hardmode", "mending_moss");

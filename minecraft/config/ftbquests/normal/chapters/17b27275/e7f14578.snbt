@@ -1,13 +1,13 @@
 {
 	title: "§b地震",
-	x: 5.0d,
-	y: -1.5d,
+	x: -3.5d,
+	y: -2.0d,
 	description: "在阴魂要塞陷阱房中得到冲击波剑",
 	text: [
 		""
 	],
 	dependencies: [
-		"0c618825"
+		"81216f69"
 	],
 	tasks: [{
 		uid: "142ef849",

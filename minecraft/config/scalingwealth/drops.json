@@ -2181,14 +2181,23 @@
                     "item": "additions:reward_ticket_legendary"
                 },
                 {
-                    "amount": "[1,1]",
-                    "chance": 1.0,
-                    "item": "additions:wither_soul"
-                },
-                {
                     "amount": "[1,8]",
                     "chance": 0.8,
                     "item": "additions:ancient_tome_fragment"
+                }
+            ],
+            "[2400, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 1.0,
+                    "item": "additions:wither_soul"
+                }
+            ],
+            "[4000, 2147483647]": [
+                {
+                    "amount": "[2,4]",
+                    "chance": 1.0,
+                    "item": "additions:wither_soul"
                 }
             ]
         },
@@ -2440,14 +2449,23 @@
                     "item": "additions:reward_ticket_legendary"
                 },
                 {
-                    "amount": "[1,1]",
-                    "chance": 1.0,
-                    "item": "additions:dragon_soul"
-                },
-                {
                     "amount": "[1,6]",
                     "chance": 0.8,
                     "item": "additions:ancient_tome_fragment"
+                }
+            ],
+            "[2400, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 1.0,
+                    "item": "additions:dragon_soul"
+                }
+            ],
+            "[4000, 2147483647]": [
+                {
+                    "amount": "[2,4]",
+                    "chance": 1.0,
+                    "item": "additions:dragon_soul"
                 }
             ]
         },
@@ -3810,6 +3828,15 @@
                     "amount": "[4,8]",
                     "chance": 1.0,
                     "item": "additions:tarantula_leg"
+                }
+            ]
+        },
+        "abyssalcraft:dragonboss": {
+            "[4000, 2147483647]": [
+                {
+                    "amount": "[3,5]",
+                    "chance": 1,
+                    "item": "additions:spectral_soul"
                 }
             ]
         }

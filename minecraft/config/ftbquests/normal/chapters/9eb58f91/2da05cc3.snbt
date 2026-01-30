@@ -1,7 +1,7 @@
 {
 	title: "§b自动聚合",
 	x: -12.0d,
-	y: -1.0d,
+	y: -1.5d,
 	description: "制作福鲁伊克斯聚合器",
 	text: [
 		""
@@ -13,7 +13,7 @@
 		uid: "407021a7",
 		type: "item",
 		items: [{
-			item: "threng:machine"
+			item: "threng:aggregator"
 		}]
 	}],
 	rewards: [{

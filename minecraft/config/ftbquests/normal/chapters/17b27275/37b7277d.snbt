@@ -1,13 +1,10 @@
 {
 	title: "§b你 逃 不 掉",
-	x: 5.0d,
-	y: 3.0d,
+	x: 7.0d,
+	y: 12.5d,
 	description: "合成网，用于捕捉壁虎",
 	text: [
 		""
-	],
-	dependencies: [
-		"0c618825"
 	],
 	tasks: [{
 		uid: "7034b363",

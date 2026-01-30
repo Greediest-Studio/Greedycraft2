@@ -63,7 +63,10 @@ GameStagesUtil.removeItemStages([
     <nuclearcraft:fission_dust:6>,
     <ore:nuggetCopper>,
     <ore:dustQuartz>,
-    <iceandfire:pixie_dust>
+    <iceandfire:pixie_dust>,
+    <mysticalagriculture:tier7_inferium_seeds>,
+    <mysticalagriculture:tier8_inferium_seeds>,
+    <mysticalagriculture:tier9_inferium_seeds>
 ] as IIngredient[]);
 
 GameStagesUtil.restageItems("wielder_of_infinity", [

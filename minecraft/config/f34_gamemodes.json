@@ -1,0 +1,40 @@
+{
+  "gameModes": [
+    {
+      "name": "Creative",
+      "iconItem": "minecraft:grass",
+      "commands": [
+        "/gamemode creative"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Survival",
+      "iconItem": "minecraft:iron_sword",
+      "commands": [
+        "/gamemode survival"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Adventure",
+      "iconItem": "minecraft:map",
+      "commands": [
+        "/gamemode adventure"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Spectator",
+      "iconItem": "minecraft:ender_eye",
+      "commands": [
+        "/gamemode spectator"
+      ],
+      "enabled": true
+    }
+  ],
+  "helpText": "f34.help.next",
+  "guiScale": 1.0,
+  "guiXOffset": 0,
+  "guiYOffset": 0
+}

@@ -1,0 +1,30 @@
+{
+	title: "§b想怎么泡就怎么泡",
+	x: -6.5d,
+	y: 3.0d,
+	description: "合成晶胞重塑器集成控制器",
+	text: [
+		"它可以产出你想要的任意数据的水晶石"
+	],
+	dependencies: [
+		"3ee1ac1a"
+	],
+	tasks: [{
+		uid: "6902d6d4",
+		type: "item",
+		items: [{
+			item: "modularmachinery:unitcell_builder_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cc7bb5c4",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "6f15dde7",
+		type: "xp",
+		xp: 3000
+	}]
+}

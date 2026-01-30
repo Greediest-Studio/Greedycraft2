@@ -1,0 +1,3038 @@
+{
+    "registryname": "elysia_etcher",
+    "localizedname": "§cELYSIA单元 - 大型蚀刻单元",
+    "requires-blueprint": false,
+    "failure-action": "still",
+    "color": "703496",
+    "modifiers": [
+        {
+            "elements": "modularmachinery:blockcasing@1",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至75%！",
+            "modifier": {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.75
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@2",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至66%！",
+            "modifier": {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.66
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@3",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至50%！",
+            "modifier": {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.5
+            }
+        },
+        {
+            "elements": "modularmachinery:blockcasing@5",
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至33%！",
+            "modifier": {
+                "io": "input",
+                "target": "modularmachinery:duration",
+                "operation": 1,
+                "multiplier": 0.33
+            }
+        }
+    ],
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcontroller@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "tconstruct:metal@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "casings_upgrade"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 11,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 4,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 7,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "tconstruct:metal@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "tconstruct:metal@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 10,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 7,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "tconstruct:metal@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "tconstruct:metal@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "tconstruct:metal@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 6,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "tconstruct:metal@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 6,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 7,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "tconstruct:metal@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "tconstruct:metal@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 9,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "tconstruct:metal@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 6,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 10,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 10,
+            "z": 7,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 12,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "tconstruct:metal@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "tconstruct:metal@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "tconstruct:metal@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 10,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "tconstruct:metal@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 5,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "tconstruct:metal@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 10,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "tconstruct:metal@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_slab@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "tconstruct:metal@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 10,
+            "elements": [
+                "tconstruct:metal@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 11,
+            "elements": [
+                "tconstruct:metal@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 10,
+            "z": 5,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 4,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 10,
+            "z": 8,
+            "elements": [
+                "minecraft:stone_slab@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "crazyae:fluixilized_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "tconstruct:metal@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "appliedenergistics2:smooth_sky_stone_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 8,
+            "elements": [
+                "chisel:certus@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "chisel:blockcobalt@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "appliedenergistics2:fluix_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "enderio:block_end_iron_bars@0"
+            ]
+        }
+    ]}

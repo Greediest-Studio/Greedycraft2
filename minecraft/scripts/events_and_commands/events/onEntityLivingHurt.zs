@@ -148,6 +148,35 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
         player.setDead();
         player.health = 0.0f;
     }
+
+    // Dragon Body Trait Damage Reduction
+    var dragonBodyTraitCount as int = 0;
+    dragonBodyTraitCount += TicTraitLib.getPlayerTicHelmetTrait(player) has "dragon_body" ? 1 : 0;
+    dragonBodyTraitCount += TicTraitLib.getPlayerTicChestplateTrait(player) has "dragon_body" ? 1 : 0;
+    dragonBodyTraitCount += TicTraitLib.getPlayerTicLeggingsTrait(player) has "dragon_body" ? 1 : 0;
+    dragonBodyTraitCount += TicTraitLib.getPlayerTicBootsTrait(player) has "dragon_body" ? 1 : 0;
+    if (dragonBodyTraitCount > 0 && player.native.capabilities.isFlying) {
+        dmg *= (1.0f - 0.2f * dragonBodyTraitCount as float);
+    }
+
+    //Sukhavati Trait Damage Reduction
+    if (player.isPotionActive(<potion:gctcore:sukhavati>) && !player.world.remote) {
+        if (!isNull(player.nbt) && !isNull(player.nbt.ForgeData) && !isNull(player.nbt.ForgeData.sukhavatiHurt)) {
+            var hurtTime = player.nbt.ForgeData.sukhavatiHurt as int;
+            player.update({sukhavatiHurt : hurtTime + 1 as int});
+        } else {
+            player.update({sukhavatiHurt : 1 as int});
+        }
+        if (!isNull(player.nbt) && !isNull(player.nbt.ForgeData) && !isNull(player.nbt.ForgeData.sukhavatiKill)) {
+            var killCount = player.nbt.ForgeData.sukhavatiKill as int;
+            var hurtTime = (!isNull(player.nbt) && !isNull(player.nbt.ForgeData) && !isNull(player.nbt.ForgeData.sukhavatiHurt)) ? (player.nbt.ForgeData.sukhavatiHurt as int) : 0;
+            player.sendChat("§f[极乐净土] 击杀数：" + killCount as string + " 受伤数：" + hurtTime as string);
+        } else {
+            var hurtTime = (!isNull(player.nbt) && !isNull(player.nbt.ForgeData) && !isNull(player.nbt.ForgeData.sukhavatiHurt)) ? (player.nbt.ForgeData.sukhavatiHurt as int) : 0;
+            player.sendChat("§f[极乐净土] 击杀数：0 受伤数：" + hurtTime as string);
+        }
+        dmg = 0.0f;
+    }
     
     event.amount = dmg;
 });

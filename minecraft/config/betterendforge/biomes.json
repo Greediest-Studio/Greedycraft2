@@ -8,100 +8,126 @@
   "betterendforge": {
     "megalake": {
       "enabled [default: true]": true,
-      "netherapi_weight [default: 80]": 80
+      "netherapi_weight [default: 80]": 80,
+      "fogEnabled [default: true]": true
     },
     "crystal_mountains": {
       "enabled [default: true]": true,
-      "netherapi_weight [default: 80]": 80
+      "netherapi_weight [default: 80]": 80,
+      "fogEnabled [default: true]": true
     },
     "foggy_mushroomland": {
       "enabled [default: true]": true,
-      "netherapi_weight [default: 80]": 80
+      "netherapi_weight [default: 80]": 80,
+      "fogEnabled [default: true]": true
     },
     "megalake_grove": {
       "enabled [default: true]": true,
-      "netherapi_weight [default: 80]": 80
+      "netherapi_weight [default: 80]": 80,
+      "fogEnabled [default: true]": true
     },
     "dust_wastelands": {
       "enabled [default: true]": true,
-      "netherapi_weight [default: 80]": 80
+      "netherapi_weight [default: 80]": 80,
+      "fogEnabled [default: true]": true
     },
     "painted_mountains": {
       "enabled [default: true]": true,
-      "netherapi_weight [default: 80]": 80
+      "netherapi_weight [default: 80]": 80,
+      "fogEnabled [default: true]": true
     },
     "chorus_forest": {
       "enabled [default: true]": true,
-      "netherapi_weight [default: 80]": 80
+      "netherapi_weight [default: 80]": 80,
+      "fogEnabled [default: true]": true
     },
     "shadow_forest": {
       "enabled [default: true]": true,
-      "netherapi_weight [default: 80]": 80
+      "netherapi_weight [default: 80]": 80,
+      "fogEnabled [default: true]": true
     },
     "blossoming_spires": {
       "enabled [default: true]": true,
-      "netherapi_weight [default: 80]": 80
+      "netherapi_weight [default: 80]": 80,
+      "fogEnabled [default: true]": true
     },
     "sulphur_springs": {
       "enabled [default: true]": true,
-      "netherapi_weight [default: 80]": 80
+      "netherapi_weight [default: 80]": 80,
+      "fogEnabled [default: true]": true
     },
     "amber_land": {
       "enabled [default: true]": true,
-      "netherapi_weight [default: 80]": 80
+      "netherapi_weight [default: 80]": 80,
+      "fogEnabled [default: true]": true
     },
     "umbrella_jungle": {
       "enabled [default: true]": true,
-      "netherapi_weight [default: 80]": 80
+      "netherapi_weight [default: 80]": 80,
+      "fogEnabled [default: true]": true
     },
     "glowing_grasslands": {
       "enabled [default: true]": true,
-      "netherapi_weight [default: 80]": 80
+      "netherapi_weight [default: 80]": 80,
+      "fogEnabled [default: true]": true
     },
     "dragon_graveyards": {
       "enabled [default: true]": true,
-      "netherapi_weight [default: 80]": 80
+      "netherapi_weight [default: 80]": 80,
+      "fogEnabled [default: true]": true
     },
     "lantern_woods": {
       "enabled [default: true]": true,
-      "netherapi_weight [default: 80]": 80
+      "netherapi_weight [default: 80]": 80,
+      "fogEnabled [default: true]": true
     },
     "dry_shrubland": {
       "enabled [default: true]": true,
-      "netherapi_weight [default: 80]": 80
+      "netherapi_weight [default: 80]": 80,
+      "fogEnabled [default: true]": true
     },
     "neon_oasis": {
       "enabled [default: true]": true,
-      "netherapi_weight [default: 80]": 80
+      "netherapi_weight [default: 80]": 80,
+      "fogEnabled [default: true]": true
     },
     "umbra_valley": {
       "enabled [default: true]": true,
-      "netherapi_weight [default: 80]": 80
+      "netherapi_weight [default: 80]": 80,
+      "fogEnabled [default: true]": true
     },
     "ice_starfield": {
       "enabled [default: true]": true,
-      "netherapi_weight [default: 80]": 80
+      "netherapi_weight [default: 80]": 80,
+      "fogEnabled [default: true]": true
     },
     "empty_end_cave": {
-      "enabled [default: true]": true
+      "enabled [default: true]": true,
+      "fogEnabled [default: true]": true
     },
     "empty_smaragdant_cave": {
-      "enabled [default: true]": true
+      "enabled [default: true]": true,
+      "fogEnabled [default: true]": true
     },
     "lush_smaragdant_cave": {
-      "enabled [default: true]": true
+      "enabled [default: true]": true,
+      "fogEnabled [default: true]": true
     },
     "empty_aurora_cave": {
-      "enabled [default: true]": true
+      "enabled [default: true]": true,
+      "fogEnabled [default: true]": true
     },
     "lush_aurora_cave": {
-      "enabled [default: true]": true
+      "enabled [default: true]": true,
+      "fogEnabled [default: true]": true
     },
     "end_cave": {
-      "enabled [default: true]": true
+      "enabled [default: true]": true,
+      "fogEnabled [default: true]": true
     },
     "jade_cave": {
-      "enabled [default: true]": true
+      "enabled [default: true]": true,
+      "fogEnabled [default: true]": true
     }
   }
 }

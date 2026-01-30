@@ -1,0 +1,115 @@
+{
+  "name": "calculus",
+  "tool": {
+    "head": {
+      "attackDamage": 128,
+      "speed": 24,
+      "durability": 31415,
+      "harvestLevel": 12
+    },
+    "handle": {
+      "modifier": 1,
+      "durability": 1428
+    },
+    "extra": {
+      "durability": 1428
+    }
+  },
+  "color": "#ffd700",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 3141,
+  "looks": {
+    "shininess": 0.1,
+    "brightness": 0.3,
+    "hueshift": 0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 6000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Calculus",
+    "zh_cn": "微积分金属"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:calculus_ingot"
+    ],
+    "block": [
+      "jaopca:block.calculus"
+    ],
+    "nugget": [
+      "jaopca:nugget.calculus"
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 571.428,
+      "defense": 144
+    },
+    "plates": {
+      "modifier": 1,
+      "durability": 271.828,
+      "toughness": 16.0
+    },
+    "trim": {
+      "extraDurability": 271.828
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "calculus",
+      "rationality"
+    ],
+    "HEAD": [
+      "calculus",
+      "rationality"
+    ],
+    "HANDLE": [
+      "calculus",
+      "rationality"
+    ],
+    "CORE": [
+      "series_armor",
+      "rationality_armor"
+    ],
+    "PLATES": [
+      "series_armor",
+      "rationality_armor"
+    ],
+    "TRIM": [
+      "series_armor",
+      "rationality_armor"
+    ]
+  }
+}

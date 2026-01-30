@@ -1,6 +1,11 @@
 {
+	title: "§b无穷魔力池",
 	x: -15.5d,
-	y: -2.0d,
+	y: -2.5d,
+	description: "制作ME魔力终端",
+	text: [
+		"你需要魔力存储元件"
+	],
 	dependencies: [
 		"9ad09ce0"
 	],
@@ -10,5 +15,15 @@
 		items: [{
 			item: "crazyae:part 1 6"
 		}]
+	}],
+	rewards: [{
+		uid: "dfe692ec",
+		type: "xp",
+		xp: 1200
+	},
+	{
+		uid: "d9ee09e1",
+		type: "random",
+		table: 1
 	}]
 }

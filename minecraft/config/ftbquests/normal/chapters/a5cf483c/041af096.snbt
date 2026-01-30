@@ -2,7 +2,10 @@
 	title: "§b收集星空的力量",
 	x: 1.5d,
 	y: 11.0d,
-	description: "合成星芒收集器控制器",
+	description: "合成星芒收集器集成控制器",
+	text: [
+		""
+	],
 	dependencies: [
 		"1e42800c",
 		"63ebed9c"
