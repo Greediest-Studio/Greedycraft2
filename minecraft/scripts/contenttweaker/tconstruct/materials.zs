@@ -1022,6 +1022,22 @@ order_crystal.addPlatesMaterialStats(28.5, 802, 9);
 order_crystal.addTrimMaterialStats(802);
 order_crystal.register();
 
+val pure_dragonbone = ExtendedMaterialBuilder.create("pure_dragonbone");
+pure_dragonbone.color = Color.fromHex("faecc7").getIntColor();
+pure_dragonbone.craftable = true;
+pure_dragonbone.castable = false;
+pure_dragonbone.representativeItem = <item:additions:pure_dragonbone>;
+pure_dragonbone.addItem(<item:additions:pure_dragonbone>);
+pure_dragonbone.localizedName = game.localize("greedycraft.tconstruct.material.pure_dragonbone.name");
+pure_dragonbone.addHeadMaterialStats(25600, 2, 220, 13);
+pure_dragonbone.addHandleMaterialStats(4.0, 8000);
+pure_dragonbone.addExtraMaterialStats(10000);
+pure_dragonbone.addBowMaterialStats(getDrawSpeed(1.44) as float, 1.5, 100);
+pure_dragonbone.addCoreMaterialStats(3000, 215);
+pure_dragonbone.addPlatesMaterialStats(30, 1500, 20);
+pure_dragonbone.addTrimMaterialStats(1200);
+pure_dragonbone.register();
+
 val dusty_bone = ExtendedMaterialBuilder.create("dusty_bone");
 dusty_bone.color = Color.fromHex("ab9476").getIntColor();
 dusty_bone.craftable = true;

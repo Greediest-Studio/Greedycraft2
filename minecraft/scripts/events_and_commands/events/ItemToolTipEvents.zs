@@ -43,6 +43,34 @@ events.register(function(event as ItemTooltipEvent) {
         }
     }
 
+    //Hexable Basement Trait Tooltip
+    if (!isNull(itemStack.definition)) {
+        if (TicTraitLib.hasTicTrait(itemStack, "hexable_basement")) {
+            var tooltips = event.getToolTip();
+            var location as int = -1;
+            var str as string = "";
+            for i in 0 to tooltips.length {
+                var tooltip as string = tooltips[i];
+                if (tooltip has "六元轮转") {
+                    location = i;
+                    str = tooltip;
+                    break;
+                }
+            }
+            if (!isNull(itemStack.tag.hexableBasement)) {
+                var aqua as int = itemStack.tag.hexableBasement.aqua as int;
+                var ignis as int = itemStack.tag.hexableBasement.ignis as int;
+                var terra as int = itemStack.tag.hexableBasement.terra as int;
+                var aer as int = itemStack.tag.hexableBasement.aer as int;
+                var ordo as int = itemStack.tag.hexableBasement.ordo as int;
+                var perditio as int = itemStack.tag.hexableBasement.perditio as int;
+                if (location != -1) {
+                    event.getToolTip()[0 .. location + 1].add("§3六元-水: " + aqua as string + "/4000§r\n§c六元-火: " + ignis as string + "/4000§r\n§2六元-地: " + terra as string + "/4000§r\n§b六元-风: " + aer as string + "/4000§r\n§f六元-序: " + ordo as string + "/4000§r\n§8六元-熵: " + perditio as string + "/4000§r");
+                }
+            }
+        }
+    }
+
     //Imitation Trait Tooltip
     if (!isNull(itemStack.definition)) {
         if (TicTraitLib.hasTicTrait(itemStack, "imitation")) {

@@ -445,6 +445,7 @@ greedycraft.tconstruct.material.scaleamythestdragon.name=晶紫龙鳞
 greedycraft.tconstruct.material.scalecopperdragon.name=铜赤龙鳞
 greedycraft.tconstruct.material.scaleblackdragon.name=曜黑龙鳞
 greedycraft.tconstruct.material.order_scale.name=秩序鳞片
+greedycraft.tconstruct.material.pure_dragonbone.name=纯粹龙骨
 #护甲词条
 greedycraft.tconstruct.armor_trait.reachTrait.name=延伸
 greedycraft.tconstruct.armor_trait.reachTrait.desc=§o天使之臂！\n§r当穿戴这个护甲，你可以触碰的更远。
@@ -918,6 +919,10 @@ greedycraft.tconstruct.armor_trait.dragon_bodyTrait.desc=§o龙之躯！§r\n§f
 greedycraft.tconstruct.armor_trait.sukhavatiTrait.name=极乐净土
 greedycraft.tconstruct.armor_trait.sukhavatiTrait.desc=§o净土试炼。§r\n§f首次受击时进入“极乐净土”15秒并免疫该次伤害；期间受到伤害会被抵消并计为受伤次数，击杀生物计为击杀次数。效果自然结束时，若受伤数大于击杀数将遭到反噬死亡（被驱散时直接反噬）。
 #工具词条
+greedycraft.tconstruct.tool_trait.hexable_basementTrait.name=六元轮转
+greedycraft.tconstruct.tool_trait.hexable_basementTrait.desc=§o熔万物于一炉！\n§r你的工具可以同时储存六种基础源质要素，并可以使用它们强化你的工具。
+greedycraft.tconstruct.tool_trait.hexaelementalTrait.name=六元素论
+greedycraft.tconstruct.tool_trait.hexaelementalTrait.desc=§o元素之力！\n§r你的工具会根据当前的轮转状态获得不同的打击效果。
 greedycraft.tconstruct.tool_trait.coulomb_explosionTrait.name=库仑爆炸
 greedycraft.tconstruct.tool_trait.coulomb_explosionTrait.desc=§o这才是碱金属遇水爆炸的原因……\n§r命中敌人后有小概率引发二次爆炸。
 greedycraft.tconstruct.tool_trait.calculusTrait.name=微积分

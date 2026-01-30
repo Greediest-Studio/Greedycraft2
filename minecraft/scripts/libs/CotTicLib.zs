@@ -45,7 +45,6 @@ zenClass cotticLib {
         <item:plustic:laser_gun>,
         <item:plustic:katana>,
         <item:tcongreedyaddon:battleaxe>,
-        <item:tcongreedyaddon:dagger>,
         <item:tcongreedyaddon:greatblade>,
         <item:tconevo:tool_sceptre>,
         <item:tcongreedyaddon:allinonetool>,
