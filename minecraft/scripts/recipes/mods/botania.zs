@@ -59,9 +59,9 @@ Apothecary.addRecipe("running_machine", [<minecraft:heavy_weighted_pressure_plat
     recipes.addShapeless("running_machine_float", <botania:floatingspecialflower>.withTag({type: "running_machine"}), [<botania:specialflower>.withTag({type: "running_machine"}), <botania:miniisland:*>]);
 Apothecary.addRecipe("quest", [<ftbquests:book>, <ore:petalLime>, <ore:petalGreen>, <botania:fertilizer>, <botania:cosmetic:31>]);
     recipes.addShapeless("quest_float", <botania:floatingspecialflower>.withTag({type: "quest"}), [<botania:specialflower>.withTag({type: "quest"}), <botania:miniisland:*>]);
-Apothecary.addRecipe("mirror", [<astralsorcery:itemcraftingcomponent:3>, <botania:prism>, <endreborn:item_world_mirror>, <cfm:mirror>, <ore:petalBlue>, <ore:petalLightBlue>]);
+Apothecary.addRecipe("mirror", [<astralsorcery:itemcraftingcomponent:3>, <botania:prism>, <endreborn:item_world_mirror>, <thaumicaugmentation:impetus_mirror>, <cfm:mirror>, <ore:petalBlue>, <ore:petalLightBlue>, <additions:zadkiel_rune>]);
     recipes.addShapeless("mirror_float", <botania:floatingspecialflower>.withTag({type: "mirror"}), [<botania:specialflower>.withTag({type: "mirror"}), <botania:miniisland:*>]);
-Apothecary.addRecipe("eat_iron", [<minecraft:iron_block>, <betterslimes:yellow_slime>, <betterslimes:yellow_slime>, <candymod:gummy:2>, <candymod:gummy:2>, <ore:petalYellow>, <ore:petalYellow>, <openblocks:golden_eye>.withTag({})]);
+Apothecary.addRecipe("eat_iron", [<minecraft:iron_block>, <ore:ingotPhotonium>, <botania:rune:6>, <botania:rune:10>, <betterslimes:yellow_slime>, <candymod:gummy:2>, <ore:petalYellow>, <openblocks:golden_eye>.withTag({})]);
     recipes.addShapeless("eat_iron_float", <botania:floatingspecialflower>.withTag({type: "eat_iron"}), [<botania:specialflower>.withTag({type: "eat_iron"}), <botania:miniisland:*>]);
 Apothecary.addRecipe("cow", [<sakura:foodset:10>, <xlfoodmod:beef_stew>, <xlfoodmod:crescent_roll>, <xlfoodmod:kebab>, <xlfoodmod:hamburger>, <ore:petalBlack>, <ore:petalWhite>, <ore:petalYellow>]);
     recipes.addShapeless("cow_float", <botania:floatingspecialflower>.withTag({type: "cow"}), [<botania:specialflower>.withTag({type: "cow"}), <botania:miniisland:*>]);
