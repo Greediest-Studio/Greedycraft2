@@ -132,7 +132,6 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
         if (!isNull(event.player.currentItem)) {
             var ticToolList as string[] = [
                 "tconstruct:pickaxe",
-                "moretcon:blpick",
                 "tconstruct:hammer",
                 "tcongreedyaddon:allinonetool"
             ];

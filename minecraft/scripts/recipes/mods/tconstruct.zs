@@ -707,8 +707,6 @@ godslime.addPurifier(<ore:slimecrystalGod>, 100);
 godslime.register();
 
 val removeToolPartCrafting as IItemStack[] = [
-    <moretcon:blshovelblade>.withTag({Material: "moretcon.ferroherb"}),
-    <moretcon:blpickhead>.withTag({Material: "moretcon.ferroherb"}),
     <plustic:pipe_piece>.withTag({Material: "moretcon.ferroherb"}),
     <tcomplement:chisel_head>.withTag({Material: "moretcon.ferroherb"}),
     <tconstruct:shard>.withTag({Material: "moretcon.ferroherb"}),
@@ -723,8 +721,6 @@ val removeToolPartCrafting as IItemStack[] = [
     <conarm:leggings_core>.withTag({Material: "moretcon.ferroherb"}),
     <conarm:boots_core>.withTag({Material: "moretcon.ferroherb"}),
     <conarm:polishing_kit>.withTag({Material: "moretcon.ferroherb"}),
-    <moretcon:blaxehead>.withTag({Material: "moretcon.ferroherb"}),
-    <moretcon:blswordblade>.withTag({Material: "moretcon.ferroherb"}),
     <tconstruct:axe_head>.withTag({Material: "moretcon.ferroherb"}),
     <tconstruct:broad_axe_head>.withTag({Material: "moretcon.ferroherb"}),
     <tconstruct:sword_blade>.withTag({Material: "moretcon.ferroherb"}),
@@ -745,8 +741,6 @@ val removeToolPartCrafting as IItemStack[] = [
     <tconstruct:large_plate>.withTag({Material: "moretcon.ferroherb"}),
     <tconstruct:arrow_head>.withTag({Material: "moretcon.ferroherb"}),
     <tconstruct:arrow_shaft>.withTag({Material: "moretcon.ferroherb"}),
-    <moretcon:blshovelblade>.withTag({Material: "moretcon.enderexamite"}),
-    <moretcon:blpickhead>.withTag({Material: "moretcon.enderexamite"}),
     <plustic:pipe_piece>.withTag({Material: "moretcon.enderexamite"}),
     <tcomplement:chisel_head>.withTag({Material: "moretcon.enderexamite"}),
     <tconstruct:shard>.withTag({Material: "moretcon.enderexamite"}),
@@ -761,8 +755,6 @@ val removeToolPartCrafting as IItemStack[] = [
     <conarm:leggings_core>.withTag({Material: "moretcon.enderexamite"}),
     <conarm:boots_core>.withTag({Material: "moretcon.enderexamite"}),
     <conarm:polishing_kit>.withTag({Material: "moretcon.enderexamite"}),
-    <moretcon:blaxehead>.withTag({Material: "moretcon.enderexamite"}),
-    <moretcon:blswordblade>.withTag({Material: "moretcon.enderexamite"}),
     <tconstruct:axe_head>.withTag({Material: "moretcon.enderexamite"}),
     <tconstruct:broad_axe_head>.withTag({Material: "moretcon.enderexamite"}),
     <tconstruct:sword_blade>.withTag({Material: "moretcon.enderexamite"}),

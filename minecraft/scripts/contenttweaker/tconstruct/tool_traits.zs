@@ -3290,8 +3290,6 @@ sharper_harvestingTrait.calcDamage = function(trait, tool, attacker, target, ori
             <item:tconstruct:pickaxe>,
             <item:tconstruct:shovel>,
             <item:tconstruct:excavator>,
-            <item:moretcon:blshovel>,
-            <item:moretcon:blpick>
         ];
         for listTool in listTools {
             if (listTool.definition.id == tool.definition.id) {

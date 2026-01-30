@@ -123,3 +123,53 @@ CombinationCrafting.addRecipe(<additions:dragonbone_lightning>, 640000000, 25600
     <ore:scaleDragonLightning>,
     <ore:scaleDragonLightning>
 ]);
+
+CombinationCrafting.addRecipe(<additions:dragonbone_shadow>, 640000000, 2560000, <additions:godslime_slimeball>, [
+    <ore:dustDragonBone>,
+    <ore:dustDragonBone>,
+    <ore:dustDragonBone>,
+    <ore:dustDragonBone>,
+    <ore:dustDragonBone>,
+    <ore:dustDragonBone>,
+    <ore:dustWitherium>,
+    <ore:dustWitherium>,
+    <ore:dustWitherium>,
+    <ore:dustDraconium>,
+    <ore:dustDraconium>,
+    <ore:dustDraconium>,
+    <ore:gemDragonstone>,
+    <ore:gemDragonstone>,
+    <additions:ender_complex>,
+    <additions:ender_complex>,
+    <additions:ender_complex>,
+    <additions:ender_complex>,
+    <ore:scaleDragonEnder>,
+    <ore:scaleDragonEnder>,
+    <additions:dragon_soul>,
+    <additions:dragon_soul>
+]);
+
+CombinationCrafting.addRecipe(<additions:dragonbone_spirit>, 640000000, 2560000, <additions:godslime_slimeball>, [
+    <ore:dustDragonBone>,
+    <ore:dustDragonBone>,
+    <ore:dustDragonBone>,
+    <ore:dustDragonBone>,
+    <ore:dustDragonBone>,
+    <ore:dustDragonBone>,
+    <ore:dustWitherium>,
+    <ore:dustWitherium>,
+    <ore:dustWitherium>,
+    <ore:dustDraconium>,
+    <ore:dustDraconium>,
+    <ore:dustDraconium>,
+    <ore:gemDragonstone>,
+    <ore:gemDragonstone>,
+    <additions:ender_complex>,
+    <additions:ender_complex>,
+    <additions:ender_complex>,
+    <additions:ender_complex>,
+    <ore:scaleDragonEnder>,
+    <ore:scaleDragonEnder>,
+    <additions:spectral_soul>,
+    <additions:spectral_soul>
+]);

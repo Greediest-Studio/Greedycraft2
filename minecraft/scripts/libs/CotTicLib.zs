@@ -40,11 +40,6 @@ zenClass cotticLib {
         <item:conarm:leggings>,
         <item:conarm:chestplate>,
         <item:conarm:helmet>,
-        <item:moretcon:blaxe>,
-        <item:moretcon:blsword>,
-        <item:moretcon:blshovel>,
-        <item:moretcon:blpick>,
-        <item:moretcon:blbow>,
         <item:moretcon:ring>,
         <item:moretcon:gauntlet>,
         <item:plustic:laser_gun>,
@@ -87,11 +82,6 @@ zenClass cotticLib {
             <item:tconstruct:hatchet>,
             <item:tconstruct:mattock>,
             <item:tconstruct:kama>,
-            <item:moretcon:blaxe>,
-            <item:moretcon:blsword>,
-            <item:moretcon:blshovel>,
-            <item:moretcon:blpick>,
-            <item:moretcon:blbow>,
             <item:plustic:laser_gun>,
             <item:plustic:katana>,
             <item:moretcon:ring>,
@@ -237,8 +227,6 @@ zenClass cotticLib {
             <item:tconstruct:pickaxe>,
             <item:tconstruct:shovel>,
             <item:tconstruct:excavator>,
-            <item:moretcon:blshovel>,
-            <item:moretcon:blpick>,
             <item:tcongreedyaddon:allinonetool>
         ];
 
@@ -386,8 +374,6 @@ zenClass cotticLib {
             <item:tconstruct:pickaxe>,
             <item:tconstruct:shovel>,
             <item:tconstruct:excavator>,
-            <item:moretcon:blshovel>,
-            <item:moretcon:blpick>,
             <item:tcongreedyaddon:allinonetool>
         ];
 
@@ -416,7 +402,6 @@ zenClass cotticLib {
         var pass as bool = false;
 
         var item as IItemStack[] = [
-            <item:moretcon:blbow>,
             <item:tconstruct:shortbow>,
             <item:tconstruct:longbow>,
             <item:tconstruct:crossbow>

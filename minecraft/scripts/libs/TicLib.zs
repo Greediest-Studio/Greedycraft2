@@ -39,17 +39,11 @@ zenClass ticLib {
         <conarm:leggings>,
         <conarm:chestplate>,
         <conarm:helmet>,
-        <moretcon:blaxe>,
-        <moretcon:blsword>,
-        <moretcon:blshovel>,
-        <moretcon:blpick>,
-        <moretcon:blbow>,
         <moretcon:ring>,
         <moretcon:gauntlet>,
         <plustic:laser_gun>,
         <plustic:katana>,
         <tcongreedyaddon:battleaxe>,
-        <tcongreedyaddon:dagger>,
         <tcongreedyaddon:greatblade>,
         <tconevo:tool_sceptre>,
         <tcongreedyaddon:allinonetool>,
@@ -84,17 +78,11 @@ zenClass ticLib {
             <tconstruct:hatchet>,
             <tconstruct:mattock>,
             <tconstruct:kama>,
-            <moretcon:blaxe>,
-            <moretcon:blsword>,
-            <moretcon:blshovel>,
-            <moretcon:blpick>,
-            <moretcon:blbow>,
             <moretcon:ring>,
             <moretcon:gauntlet>,
             <plustic:laser_gun>,
             <plustic:katana>,
             <tcongreedyaddon:battleaxe>,
-            <tcongreedyaddon:dagger>,
             <tcongreedyaddon:greatblade>,
             <tconevo:tool_sceptre>,
             <tcongreedyaddon:allinonetool>,
@@ -214,8 +202,6 @@ zenClass ticLib {
             <tconstruct:pickaxe>,
             <tconstruct:shovel>,
             <tconstruct:excavator>,
-            <moretcon:blshovel>,
-            <moretcon:blpick>,
             <tcongreedyaddon:allinonetool>
         ];
 
@@ -363,8 +349,6 @@ zenClass ticLib {
             <tconstruct:pickaxe>,
             <tconstruct:shovel>,
             <tconstruct:excavator>,
-            <moretcon:blshovel>,
-            <moretcon:blpick>,
             <tcongreedyaddon:allinonetool>
         ];
 
@@ -393,7 +377,6 @@ zenClass ticLib {
         var pass as bool = false;
 
         var item as IItemStack[] = [
-            <moretcon:blbow>,
             <tconstruct:shortbow>,
             <tconstruct:longbow>,
             <tconstruct:crossbow>
