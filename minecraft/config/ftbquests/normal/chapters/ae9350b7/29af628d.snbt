@@ -1,39 +1,36 @@
 {
-	title: "§b声音传遍世界",
+	title: "§b这么大电脑会坏掉的吧？！",
 	tags: [
 		"challenge"
 	],
 	x: 10.5d,
 	y: 10.5d,
-	description: "制作播音器，可以在一个区域内播放音乐",
+	description: "制作顶尖型压缩空间机械",
 	text: [
-		""
+		"127 x 127 x 127",
+		"这么强?!!! 试试你的电脑能不能撑住它的预览（"
 	],
 	tasks: [{
-		uid: "07e83cfc",
+		uid: "32f0fa6a",
 		type: "item",
 		items: [{
-			item: "ambience:soundnizer"
+			item: "compactmachines3:machine 1 10"
 		}]
 	}],
 	rewards: [{
-		uid: "7c99917c",
-		type: "random",
-		table: 0
-	},
-	{
 		uid: "ca0316c1",
 		type: "xp",
-		xp: 200
+		xp: 2000
 	},
 	{
-		uid: "1d8c682a",
+		uid: "326c5112",
 		type: "item",
-		item: "ambience:alarm_pink"
+		item: "compactmachines3:machine 1 10"
 	},
 	{
-		uid: "d02eff67",
+		uid: "c42a8c9c",
 		type: "item",
-		item: "ambience:bell"
+		item: "additions:aeonsteel_ingot",
+		count: 8
 	}]
 }
