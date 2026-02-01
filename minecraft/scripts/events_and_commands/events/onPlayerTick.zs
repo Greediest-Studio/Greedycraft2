@@ -303,13 +303,18 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
     }
 
     //Astral fix
-    if (!isNull(player.armorInventory)) {
+    if (player.world.getWorldTime() as long % 20 == 0 && !isNull(player.armorInventory)) {
         for armor in player.armorInventory {
             if (!isNull(armor)) {
+                if (!(TicTraitLib.hasTicTrait(armor, "leveling_durability"))) {
+                TicTraitLib.addTicTrait(armor, "leveling_durability", 0xffffff, 1);
+                }
+                /*
                 if (TicTraitLib.hasTicTrait(armor, "tconevo.astral_armor") && !(TicTraitLib.hasTicTrait(armor, "astraling_armor"))) {
                     TicTraitLib.addTicTrait(armor, "astraling_armor", TicTraitLib.getTraitColor(armor, "tconevo.astral_armor"), 1);
                     TicTraitLib.removeTicTrait(armor, "tconevo.astral_armor", TicTraitLib.getTraitColor(armor, "tconevo.astral_armor"), 1);
                 }
+                */
                 if !(TicTraitLib.hasTicTrait(armor, "astraling_armor") || TicTraitLib.hasTicTrait(armor, "tconevo.astral_armor")) {
                     var str as string = "";
                     for trait in TicTraitLib.getTicTrait(armor) {
@@ -323,16 +328,18 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
             }
         }
     } 
-    if (!isNull(player.currentItem)) {
+    if (player.world.getWorldTime() as long % 20 == 0 && !isNull(player.currentItem)) {
         var item = player.currentItem;
         if (TicLib.isTicTool(item)) {
             if (!(TicTraitLib.hasTicTrait(item, "leveling_durability"))) {
                 TicTraitLib.addTicTrait(item, "leveling_durability", 0xffffff, 1);
             }
+            /*
             if (TicTraitLib.hasTicTrait(item, "tconevo.astral") && !(TicTraitLib.hasTicTrait(item, "astraling"))) {
                 TicTraitLib.addTicTrait(item, "astraling", TicTraitLib.getTraitColor(item, "tconevo.astral"), 1);
                 TicTraitLib.removeTicTrait(item, "tconevo.astral", TicTraitLib.getTraitColor(item, "tconevo.astral"), 1);
             }
+            */
             if !(TicTraitLib.hasTicTrait(item, "astraling") || TicTraitLib.hasTicTrait(item, "tconevo.astral")) {
                 var str as string = "";
                 for trait in TicTraitLib.getTicTrait(item) {
