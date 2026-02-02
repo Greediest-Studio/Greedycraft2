@@ -918,7 +918,17 @@ greedycraft.tconstruct.armor_trait.dragon_bodyTrait.name=龙躯
 greedycraft.tconstruct.armor_trait.dragon_bodyTrait.desc=§o龙之躯！§r\n§f每件护甲提供20%的飞行伤害减免。\n套装效果：\n2件：每件额外提供30%移速加成。\n3件：每件额外提供1级生命恢复。\n4件：左键空挥时消耗每件盔甲各5耐久向5格内的一切非玩家目标释放附带其生命值5%的混沌龙息效果。
 greedycraft.tconstruct.armor_trait.sukhavatiTrait.name=极乐净土
 greedycraft.tconstruct.armor_trait.sukhavatiTrait.desc=§o净土试炼。§r\n§f首次受击时进入“极乐净土”15秒并免疫该次伤害；期间受到伤害会被抵消并计为受伤次数，击杀生物计为击杀次数。效果自然结束时，若受伤数大于击杀数将遭到反噬死亡（被驱散时直接反噬）。
+greedycraft.tconstruct.armor_trait.hexable_basementTrait.name=六元轮转
+greedycraft.tconstruct.armor_trait.hexable_basementTrait.desc=§o熔万物于一炉！\n§r你的护甲可以同时储存六种基础源质要素，并可以使用它们强化你的护甲。
+greedycraft.tconstruct.armor_trait.hexaelementalTrait.name=六元素论
+greedycraft.tconstruct.armor_trait.hexaelementalTrait.desc=§o元素之力！\n§r你的护甲会根据当前的轮转状态获得不同的防御效果。
+greedycraft.tconstruct.armor_trait.spirit_powerTrait.name=魂能
+greedycraft.tconstruct.armor_trait.spirit_powerTrait.desc=§o过个灵感先。\n§r你快捷栏中的神秘学物品将为你所用。
 #工具词条
+greedycraft.tconstruct.tool_trait.spirit_powerTrait.name=魂能
+greedycraft.tconstruct.tool_trait.spirit_powerTrait.desc=§o过个灵感先。\n§r你快捷栏中的神秘学物品将为你所用。
+greedycraft.tconstruct.tool_trait.return_to_earthTrait.name=落叶归根
+greedycraft.tconstruct.tool_trait.return_to_earthTrait.desc=§o万物终其一生，终将回归大地。\n§r你可以将击杀的生物转换为区块Vis。
 greedycraft.tconstruct.tool_trait.hexable_basementTrait.name=六元轮转
 greedycraft.tconstruct.tool_trait.hexable_basementTrait.desc=§o熔万物于一炉！\n§r你的工具可以同时储存六种基础源质要素，并可以使用它们强化你的工具。
 greedycraft.tconstruct.tool_trait.hexaelementalTrait.name=六元素论

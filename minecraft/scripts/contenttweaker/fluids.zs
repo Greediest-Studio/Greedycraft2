@@ -2593,7 +2593,6 @@ val molten_calculus = mods.contenttweaker.VanillaFactory.createFluid("calculus",
 molten_calculus.material = <blockmaterial:lava>;
 molten_calculus.viscosity = 2000;
 molten_calculus.density = 4000;
-molten_calculus.rarity = "EPIC";
 molten_calculus.colorize = true;
 molten_calculus.temperature = 12000;
 molten_calculus.luminosity = 15;
@@ -2601,6 +2600,18 @@ molten_calculus.color = Color.fromHex("ffd700").getIntColor();
 molten_calculus.stillLocation = "base:fluids/molten";
 molten_calculus.flowingLocation = "base:fluids/molten_flowing";
 molten_calculus.register();
+
+val molten_hexacite = mods.contenttweaker.VanillaFactory.createFluid("hexacite", Color.fromHex("e6e5ff").getIntColor());
+molten_hexacite.material = <blockmaterial:lava>;
+molten_hexacite.viscosity = 3000;
+molten_hexacite.density = 6500;
+molten_hexacite.colorize = true;
+molten_hexacite.temperature = 1000;
+molten_hexacite.luminosity = 10;
+molten_hexacite.color = Color.fromHex("e6e5ff").getIntColor();
+molten_hexacite.stillLocation = "base:fluids/molten";
+molten_hexacite.flowingLocation = "base:fluids/molten_flowing";
+molten_hexacite.register();
 
 //液化类
 val liquid_air = mods.contenttweaker.VanillaFactory.createFluid("liquid_air", Color.fromHex("ffffff").getIntColor());

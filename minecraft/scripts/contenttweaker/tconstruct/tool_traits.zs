@@ -5642,3 +5642,40 @@ hexaelementalTrait.calcKnockBack = function(trait, tool, attacker, target, damag
     return newKnockBack;
 };
 hexaelementalTrait.register();
+
+val return_to_earthTrait = TraitBuilder.create("return_to_earth");
+return_to_earthTrait.color = Color.fromHex("ffffff").getIntColor(); 
+return_to_earthTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.return_to_earthTrait.name");
+return_to_earthTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.return_to_earthTrait.desc");
+return_to_earthTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
+    if (attacker instanceof IPlayer && wasHit) {
+        if (target.health <= 0.0f) {
+            var maxHealth as float = target.maxHealth;
+            var vis as float = (Math.log10(maxHealth) * (1.0d + Math.random() * 3.0d)) as float;
+            target.world.addVis(target.position, vis);
+        }
+    }
+};
+return_to_earthTrait.register();
+
+val spirit_powerTrait = TraitBuilder.create("spirit_power");
+spirit_powerTrait.color = Color.fromHex("ffffff").getIntColor(); 
+spirit_powerTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.spirit_powerTrait.name");
+spirit_powerTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.spirit_powerTrait.desc");
+spirit_powerTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        var mtp as float = 1.0f;
+        for i in 0 to 9 {
+            if (!isNull(player.getHotbarStack(i))) {
+                var item as IItemStack = player.getHotbarStack(i);
+                if (item.definition.id.split(":")[0] has "thaum") {
+                    mtp += 0.1f;
+                }
+            }
+        }
+        return newDamage * mtp;
+    }
+    return newDamage;
+};
+spirit_powerTrait.register();

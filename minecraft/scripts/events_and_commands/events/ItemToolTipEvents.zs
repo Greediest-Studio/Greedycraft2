@@ -45,7 +45,7 @@ events.register(function(event as ItemTooltipEvent) {
 
     //Hexable Basement Trait Tooltip
     if (!isNull(itemStack.definition)) {
-        if (TicTraitLib.hasTicTrait(itemStack, "hexable_basement")) {
+        if (TicTraitLib.hasTicTrait(itemStack, "hexable_basement") || TicTraitLib.hasTicTrait(itemStack, "hexable_basement_armor")) {
             var tooltips = event.getToolTip();
             var location as int = -1;
             var str as string = "";

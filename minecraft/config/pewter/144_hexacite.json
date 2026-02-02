@@ -1,0 +1,131 @@
+{
+  "name": "hexacite",
+  "tool": {
+    "bow": {
+      "speed": 2,
+      "range": 3.6,
+      "bonusDamage": 288
+    },
+    "head": {
+      "attackDamage": 210,
+      "speed": 24.6,
+      "durability": 26540,
+      "harvestLevel": 13
+    },
+    "handle": {
+      "modifier": 3.6,
+      "durability": 6480
+    },
+    "extra": {
+      "durability": 6480
+    }
+  },
+  "color": "#e6e5ff",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 8000,
+  "looks": {
+    "shininess": 0.1,
+    "brightness": 0.05,
+    "hueshift": 0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 75000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Hexacite",
+    "zh_cn": "六元合金"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:hexacite_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 1440,
+      "defense": 192
+    },
+    "plates": {
+      "modifier": 24.6,
+      "durability": 576,
+      "toughness": 24
+    },
+    "trim": {
+      "extraDurability": 576
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "hexable_basement",
+      "hexaelemental",
+      "return_to_earth"
+    ],
+    "HEAD": [
+      "hexable_basement",
+      "hexaelemental",
+      "spirit_power"
+    ],
+    "BOW": [
+      "hexable_basement",
+      "hexaelemental",
+      "spirit_power"
+    ],
+    "HANDLE": [
+      "hexable_basement",
+      "hexaelemental",
+      "return_to_earth"
+    ],
+    "CORE": [
+      "hexable_basement_armor",
+      "hexaelemental_armor",
+      "spirit_power_armor"
+    ],
+    "PLATES": [
+      "hexable_basement_armor",
+      "hexaelemental_armor",
+      "visbarrier_armor"
+    ],
+    "TRIM": [
+      "hexable_basement_armor",
+      "hexaelemental_armor",
+      "visbarrier_armor"
+    ]
+  }
+}

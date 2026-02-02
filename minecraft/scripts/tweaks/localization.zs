@@ -347,6 +347,7 @@ val localizationMap as string[string][string] = {
         "fluid.blue_alloy": "熔融蓝晶合金",
         "fluid.eco_basic_alloy": "熔融ECO基础合金",
         "fluid.calculus": "熔融微积分金属",
+        "fluid.hexacite": "六元凝聚流质",
         //化工相关液体
         "fluid.liquid_air": "液态空气",
         "fluid.hydrochloric_acid": "盐酸",
