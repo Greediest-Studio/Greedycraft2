@@ -90,7 +90,8 @@ LootTweaker.getTable("aether_legacy:entities/bosses/sun_spirit").getPool("main")
 LootTweaker.getTable("journey:mobs/boss/nether_beast").getPool("main").addItemEntry(<additions:hellite_ingot>, 1, 1, [Functions.setCount(1, 1)], []);
 LootTweaker.getTable("journey:mobs/boss/withering_beast").getPool("main").addItemEntry(<additions:hellite_ingot>, 1, 1, [Functions.setCount(1, 1)], []);
 LootTweaker.getTable("journey:mobs/boss/calcia").getPool("main").addItemEntry(<additions:hellite_ingot>, 1, 1, [Functions.setCount(1, 1)], []);
-LootTweaker.getTable("journey:mobs/boss/soul_watcher").getPool("main").addItemEntry(<additions:hellite_ingot>, 1, 1, [Functions.setCount(1, 1)], []);
+//LootTweaker.getTable("journey:mobs/boss/soul_watcher").getPool("main").addItemEntry(<additions:hellite_ingot>, 1, 1, [Functions.setCount(1, 1)], []);
+//LootTweaker.getTable("journey:mobs/boss/soul_watcher").getPool("main").addItemEntry(<journey:trophysoul>,1,1,[Functions.setCount(1, 1)], []);
 
 LootTweaker.getTable("gct_mobs:entities/bligtz").addPool("bligtz", 1, 1, 0, 0).addItemEntry(<gct_mobs:bligtz_rod>, 1, 1, [Functions.setCount(1, 4)], []);
 LootTweaker.getTable("gct_mobs:entities/bninz").addPool("bninz", 1, 1, 0, 0).addItemEntry(<gct_mobs:bninz_rod>, 1, 1, [Functions.setCount(1, 4)], []);
@@ -119,10 +120,12 @@ LootTweaker.getTable("journey:mobs/boss/logger").removePool("journey:logger_helm
 LootTweaker.getTable("journey:mobs/boss/logger").removePool("journey:logger_chest");
 LootTweaker.getTable("journey:mobs/boss/logger").removePool("journey:logger_legs");
 LootTweaker.getTable("journey:mobs/boss/logger").removePool("journey:logger_boots");
+//LootTweaker.getTable("journey:mobs/boss/logger").getPool("main").addItemEntry(<journey:trophylogger>,1,1,[Functions.setCount(1,1)],[]);
 LootTweaker.getTable("divinerpg:entities/boss/soul_fiend").removePool("divinerpg:soul_fiend");
 LootTweaker.getTable("divinerpg:entities/boss/sunstorm").getPool("divinerpg:sunstorm").removeEntry("divinerpg:eden_blitz");
 LootTweaker.getTable("divinerpg:entities/boss/reyvor").removePool("divinerpg:reyvor");
 LootTweaker.getTable("journey:mobs/boss/thunderbird").removePool("journey:thunderbird_weapons");
+//LootTweaker.getTable("journey:mobs/boss/thunderbird").getPool("main").addItemEntry(<journey:trophyroc>,1,1,[Functions.setCount(1,1)],[]);
 LootTweaker.getTable("divinerpg:entities/boss/vamacheron").removePool("divinerpg:vamacheron");
 LootTweaker.getTable("journey:mobs/boss/calcia").removePool("journey:calcia_sword");
 LootTweaker.getTable("divinerpg:entities/boss/experienced_cori").removePool("divinerpg:experienced_cori");
@@ -150,6 +153,7 @@ LootTweaker.getTable("journey:mobs/boss/blazier").removePool("journey:blazier_le
 LootTweaker.getTable("journey:mobs/boss/blazier").removePool("journey:blazier_helmet");
 LootTweaker.getTable("journey:mobs/boss/blazier").removePool("journey:blazier_boots");
 LootTweaker.getTable("journey:mobs/boss/blazier").removePool("journey:blazier_knife");
+//LootTweaker.getTable("journey:mobs/boss/blazier").getPool("main").addItemEntry(<journey:trophyblaze>,1,1,[Functions.setCount(1,1)],[]);
 LootTweaker.getTable("divinerpg:entities/boss/karot").removePool("divinerpg:karot");
 
 if (CalendarUtil.isChristmas()) {
