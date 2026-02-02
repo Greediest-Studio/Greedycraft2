@@ -1,0 +1,42 @@
+commands.akashic_goggles.copy.click=点击复制到剪切板
+commands.akashic_goggles.invalidItem=主手中持有的物品不是阿卡什护目镜
+commands.akashic_goggles.usage=使用 /akashic_goggles <子命令>
+
+commands.akashic_goggles.lock.noChange=阿卡什护目镜已被锁定
+commands.akashic_goggles.lock.success=已锁定阿卡什护目镜
+commands.akashic_goggles.lock.usage=使用 /akashic_goggles lock [玩家] [槽位]
+commands.akashic_goggles.nbt.success=序列化的阿卡什护目镜：%s
+commands.akashic_goggles.nbt.usage=使用 /akashic_goggles nbt [玩家]
+commands.akashic_goggles.pop.all=所有物品
+commands.akashic_goggles.pop.multiple=顶部物品
+commands.akashic_goggles.pop.none=无法从阿卡什护目镜中弹出任何物品
+commands.akashic_goggles.pop.single=顶部物品
+commands.akashic_goggles.pop.success=已从阿卡什护目镜中弹出 %s
+commands.akashic_goggles.pop.usage=使用 /akashic_goggles pop [玩家] [destory|give]
+commands.akashic_goggles.push.all=背包中所有适用的物品
+commands.akashic_goggles.push.invalidItem=副手中持有的物品无法放入阿卡什护目镜
+commands.akashic_goggles.push.invalidItemInventory=无法从背包中推送任何物品到阿卡什护目镜
+commands.akashic_goggles.push.invalidItemProvided=提供的物品无法放入阿卡什护目镜
+commands.akashic_goggles.push.single=物品
+commands.akashic_goggles.push.success=已将 %s 放入阿卡什护目镜
+commands.akashic_goggles.push.tagError=数据标签解析失败：%s
+commands.akashic_goggles.push.usage=使用 /akashic_goggles push [玩家] [<物品> [数据] [数据标签]] 或 /akashic_goggles push [玩家] [consume|keep] [all]
+commands.akashic_goggles.unlock.noChange=阿卡什护目镜未被锁定
+commands.akashic_goggles.unlock.success=阿卡什护目镜已解除锁定
+commands.akashic_goggles.unlock.usage=使用 /akashic_goggles unlock [玩家]
+
+item.akashic_goggles:goggles.name=阿卡什护目镜
+item.akashic_goggles:goggles.locked.name=阿卡什护目镜（已锁定）
+item.akashic_goggles:goggles.tooltip=目镜中的目镜！可同时佩戴多种显示世界信息的眼部装备%s。
+item.akashic_goggles:goggles.tooltip.all=, 通过点击放入或在工作台中与之合成
+item.akashic_goggles:goggles.tooltip.dropInOnly=, 通过点击放入
+item.akashic_goggles:goggles.tooltip.none=
+item.akashic_goggles:goggles.tooltip.locked=
+item.akashic_goggles:goggles.tooltip.recipeOnly=, 通过在工作台中与之合成
+item.akashic_goggles:goggles.tooltip_applicable=此物品可应用于 阿卡什护目镜。
+itemGroup.akashic_goggles.tab=阿卡什护目镜
+
+subtitles.akashic_goggles.item.empty=阿卡什护目镜清空
+subtitles.akashic_goggles.item.equip=阿卡什护目镜沙沙作响
+subtitles.akashic_goggles.item.insert=阿卡什护目镜填充
+
