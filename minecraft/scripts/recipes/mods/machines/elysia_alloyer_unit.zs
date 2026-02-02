@@ -74,7 +74,6 @@ recipe(1 , <modularmachinery:itemmodularium> * 2, [<ore:ingotIron>, <ore:ingotBr
 recipe(2 , <modularmachinery:itemmodularium> * 2, [<ore:ingotConductiveIron>, <ore:ingotBronze>], 2000, 10.0f);
 recipe(3 , <tconevo:material> * 2, [<ore:ingotAdamant>, <ore:ingotManyullyn> * 2, <ore:ingotEnderium> * 2], 7500, 30.0f);
 recipe(4 , <additions:netherite_ingot>, [<ore:gemAncientDebris> * 4, <ore:ingotGold> * 4], 6000, 50.0f);
-recipe(5 , <additions:enderite_ingot>, [<ore:gemResonantDebris> * 4, <ore:ingotIridium> * 4], 6000, 50.0f);
 recipe(6 , <additions:stainless_steel_ingot> * 4, [<ore:ingotManganeseSteel> * 4, <ore:ingotNickel>, <ore:ingotChromium>], 4000, 12.0f);
 recipe(7 , <additions:manganese_steel_ingot> * 2, [<ore:ingotSteel> * 2, <ore:ingotManganese>], 1200, 4.0f);
 recipe(8 , <enderio:item_alloy_ingot:8> * 2, [<ore:obsidian>, <ore:ingotDarkSteel> * 2, <ore:enderpearl>], 800, 2.0f);

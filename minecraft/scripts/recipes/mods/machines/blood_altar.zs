@@ -274,7 +274,7 @@ MMEvents.onControllerGUIRender("blood_altar", function(event as ControllerGUIRen
     val cj = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>);
     var wj = event.controller.getBlocksInPattern(<additions:blood_rune_personal>);
     var player = server.getPlayerByUUID(event.controller.ownerUUID);
-    if (!isNull(player) && !isNull(player.soulNetwork)) {
+    if (!isNull(player) && !isNull(player.soulNetwork) && server.players has player) {
         var orbTier = player.soulNetwork.orbTier;
         var maxcapacity = ((1.0f + 0.02f * bz) * capacity[orbTier]) as int;
         var maxtransform = (20.0f * (1 + (cj > 19 ? 19 : cj)) as float * (1.0f + sd as float / 5) as float * pow(1.2, zw) * pow(2.0, wj)) as int;
@@ -459,6 +459,7 @@ RecipeBuilder.newBuilder("orb", "blood_altar", 20)
     })
     .addRecipeTooltip("§a向玩家LP网络输入生命源质,需至少一个玩家符文")
     .addRecipeTooltip("§a输出速率为20*促进符文数*(1+0.2*速度符文数)*1.2^转位符文数*2^玩家符文数")
+    .addRecipeTooltip("§a祭坛工作模式：2")
     .setThreadName("宝珠输出模块")
     .build();
 

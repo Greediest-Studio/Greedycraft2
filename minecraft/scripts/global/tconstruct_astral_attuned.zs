@@ -48,7 +48,7 @@ events.onAttunementRecipeComplete(function(event as AttunementRecipeCompleteEven
                         }
                     }
                     var traitid as string = "tconevo.attuned_" + constell as string;
-                    event.setOutput(TicTraitLib.addTicTraitAsItem(TicTraitLib.removeTicTraitAsItem(tool,"astraling",TicTraitLib.getTraitColor(tool,"astraling"),1),traitid,0x3cffff,1));
+                    event.setOutput(TicTraitLib.addTicTraitAsItem(tool,traitid,0x3cffff,1));
                 } else {
                     event.setOutput(tool);
                 }
@@ -70,7 +70,7 @@ events.onAttunementRecipeComplete(function(event as AttunementRecipeCompleteEven
                         }
                     }
                     var traitid as string = "tconevo.attuned_" + constell + "_armor" as string;
-                    event.setOutput(TicTraitLib.addTicTraitAsItem(TicTraitLib.removeTicTraitAsItem(armor,"astraling_armor",TicTraitLib.getTraitColor(armor,"astraling_armor"),1),traitid,0x3cffff,1));
+                    event.setOutput(TicTraitLib.addTicTraitAsItem(armor,traitid,0x3cffff,1));
                 } else {
                     event.setOutput(armor);
                 }

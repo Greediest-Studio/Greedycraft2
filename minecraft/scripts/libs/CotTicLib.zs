@@ -86,7 +86,6 @@ zenClass cotticLib {
             <item:moretcon:ring>,
             <item:moretcon:gauntlet>,
             <item:tcongreedyaddon:battleaxe>,
-            <item:tcongreedyaddon:dagger>,
             <item:tcongreedyaddon:greatblade>,
             <item:tconevo:tool_sceptre>,
             <item:tcongreedyaddon:allinonetool>,
