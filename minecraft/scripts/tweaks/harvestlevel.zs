@@ -118,6 +118,7 @@ import mods.contenttweaker.Item;
 <item:netherized:ancient_debris>.asBlock().definition.hardness = 50.0f;
 <item:netherized:ancient_debris>.asBlock().definition.setHarvestLevel("pickaxe", 6);
 
-
 <industrialforegoing:infinity_drill>.definition.setHarvestLevel("pickaxe", 4);
 <industrialforegoing:infinity_drill>.definition.setHarvestLevel("shovel", 4);
+
+<additions:bloody_ancient_stone>.asBlock().definition.hardness = 50.0f;
