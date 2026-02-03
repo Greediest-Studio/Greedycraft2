@@ -64,14 +64,13 @@ import native.slimeknights.tconstruct.library.materials.Material;
 import native.slimeknights.tconstruct.library.traits.ITrait;
 import native.slimeknights.tconstruct.library.utils.TinkerUtil;
 import native.slimeknights.tconstruct.library.utils.TagUtil;
-
 import native.thebetweenlands.common.world.storage.BetweenlandsWorldStorage;
 import native.thebetweenlands.common.world.event.EventRift;
 import native.thebetweenlands.api.capability.IDecayCapability;
 import native.thebetweenlands.common.capability.decay.DecayStats;
 import native.thebetweenlands.common.registries.CapabilityRegistry;
-
 import native.com.meteor.extrabotany.common.helper.SubspaceHelper;
+import native.mezz.jei.color.ColorGetter;
 
 $expand IItemStack$hasTicTrait(traitid as string) as bool {
     return CotTicTraitLib.hasTicTrait(this, traitid);
@@ -2121,8 +2120,6 @@ transmigrationTrait.onHit = function(trait, tool, attacker, target, damage, isCr
 };
 transmigrationTrait.register();
 
-
-
 val blood_reaperTrait = TraitBuilder.create("blood_reaper");
 blood_reaperTrait.color = Color.fromHex("ffee58").getIntColor(); 
 blood_reaperTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.blood_reaperTrait.name");
@@ -2135,6 +2132,19 @@ blood_reaperTrait.calcDamage = function(trait, tool, attacker, target, originalD
     return newDamage;
 };
 blood_reaperTrait.register();
+
+val blood_reaper2Trait = TraitBuilder.create("blood_reaper2");
+blood_reaper2Trait.color = Color.fromHex("ffee58").getIntColor(); 
+blood_reaper2Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.blood_reaper2Trait.name");
+blood_reaper2Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.blood_reaperTrait.desc");
+blood_reaper2Trait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    val entity as IEntityLivingBase = target;
+    if (entity.isPotionActive(<potion:moretcon:bleeding>)) {
+        return newDamage * 1.8f;
+    }
+    return newDamage;
+};
+blood_reaper2Trait.register();
 
 val crystalystTrait = TraitBuilder.create("crystalyst");
 crystalystTrait.color = Color.fromHex("ffee58").getIntColor(); 
@@ -5679,3 +5689,135 @@ spirit_powerTrait.calcDamage = function(trait, tool, attacker, target, originalD
     return newDamage;
 };
 spirit_powerTrait.register();
+
+val aquabaseTrait = TraitBuilder.create("aquabase");
+aquabaseTrait.color = Color.fromHex("ffffff").getIntColor(); 
+aquabaseTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.aquabaseTrait.name");
+aquabaseTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.aquabaseTrait.desc");
+aquabaseTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    if (owner instanceof IPlayer) {
+        var player as IPlayer = owner;
+        if (world.time % 6 == 0) {
+            tool.mutable().updateTag({hexableTurn : 0 as int});
+        }
+    }
+};
+aquabaseTrait.register();
+
+val ignisbaseTrait = TraitBuilder.create("ignisbase");
+ignisbaseTrait.color = Color.fromHex("ffffff").getIntColor(); 
+ignisbaseTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.ignisbaseTrait.name");
+ignisbaseTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.ignisbaseTrait.desc");
+ignisbaseTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    if (owner instanceof IPlayer) {
+        var player as IPlayer = owner;
+        if (world.time % 6 == 1) {
+            tool.mutable().updateTag({hexableTurn : 1 as int});
+        }
+    }
+};
+ignisbaseTrait.register();
+
+val terrabaseTrait = TraitBuilder.create("terrabase");
+terrabaseTrait.color = Color.fromHex("ffffff").getIntColor(); 
+terrabaseTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.terrabaseTrait.name");
+terrabaseTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.terrabaseTrait.desc");
+terrabaseTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    if (owner instanceof IPlayer) {
+        var player as IPlayer = owner;
+        if (world.time % 6 == 2) {
+            tool.mutable().updateTag({hexableTurn : 2 as int});
+        }
+    }
+};
+terrabaseTrait.register();
+
+val aerbaseTrait = TraitBuilder.create("aerbase");
+aerbaseTrait.color = Color.fromHex("ffffff").getIntColor(); 
+aerbaseTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.aerbaseTrait.name");
+aerbaseTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.aerbaseTrait.desc");
+aerbaseTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    if (owner instanceof IPlayer) {
+        var player as IPlayer = owner;
+        if (world.time % 6 == 3) {
+            tool.mutable().updateTag({hexableTurn : 3 as int});
+        }
+    }
+};
+aerbaseTrait.register();
+
+val ordobaseTrait = TraitBuilder.create("ordobase");
+ordobaseTrait.color = Color.fromHex("ffffff").getIntColor(); 
+ordobaseTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.ordobaseTrait.name");
+ordobaseTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.ordobaseTrait.desc");
+ordobaseTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    if (owner instanceof IPlayer) {
+        var player as IPlayer = owner;
+        if (world.time % 6 == 4) {
+            tool.mutable().updateTag({hexableTurn : 4 as int});
+        }
+    }
+};
+ordobaseTrait.register();
+
+val perditiobaseTrait = TraitBuilder.create("perditiobase");
+perditiobaseTrait.color = Color.fromHex("ffffff").getIntColor(); 
+perditiobaseTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.perditiobaseTrait.name");
+perditiobaseTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.perditiobaseTrait.desc");
+perditiobaseTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    if (owner instanceof IPlayer) {
+        var player as IPlayer = owner;
+        if (world.time % 6 == 5) {
+            tool.mutable().updateTag({hexableTurn : 5 as int});
+        }
+    }
+};
+perditiobaseTrait.register();
+
+val brightestTrait = TraitBuilder.create("brightest");
+brightestTrait.color = Color.fromHex("ffffff").getIntColor(); 
+brightestTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.brightestTrait.name");
+brightestTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.brightestTrait.desc");
+brightestTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var mtps as int = 0;
+        for trait in CotTicTraitLib.getTicTrait(tool) {
+            if (trait != "toolleveling" && trait != "leveling_durability") {
+                var color as int = CotTicTraitLib.getTraitColor(tool, trait);
+                var r as int = (color / 65536) % 256;
+                var g as int = (color / 256) % 256;
+                var b as int = color % 256;
+                if (r >= 200 && g >= 200 && b >= 200) {
+                    mtps += 1;
+                }
+            }
+        }
+        return newDamage * pow(1.15d, mtps as double) as float;
+    }
+    return newDamage;
+};
+brightestTrait.register();
+
+val breedTrait = TraitBuilder.create("breed");
+breedTrait.color = Color.fromHex("ffffff").getIntColor(); 
+breedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.breedTrait.name");
+breedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.breedTrait.desc");
+breedTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
+    if (attacker instanceof IPlayer && wasHit) {
+        var player as IPlayer = attacker;
+        if (distance3DCot(player.x, player.y, player.z, target.x, target.y, target.z) <= 6.0d && Math.random() < 0.8f) {
+            player.world.catenation().sleep(20).run(function(world, context) {
+                if (!isNull(target)) {
+                    player.native.attackTargetEntityWithCurrentItem(target.native);
+                }
+            }).start();
+        }
+    }
+};
+breedTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        return newDamage * 0.3f;
+    }
+    return newDamage;
+};
+breedTrait.register();

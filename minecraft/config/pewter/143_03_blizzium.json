@@ -1,0 +1,131 @@
+{
+  "name": "blizzium",
+  "tool": {
+    "bow": {
+      "speed": 0.92,
+      "range": 3.02,
+      "bonusDamage": 185
+    },
+    "head": {
+      "attackDamage": 182,
+      "speed": 17.2,
+      "durability": 15650,
+      "harvestLevel": 12
+    },
+    "handle": {
+      "modifier": 2.6,
+      "durability": 2880
+    },
+    "extra": {
+      "durability": 2880
+    }
+  },
+  "color": "#bffcff",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 8000,
+  "looks": {
+    "shininess": 0.1,
+    "brightness": 0.05,
+    "hueshift": 0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 75000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Blizzium",
+    "zh_cn": "捷风"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:blizzium_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 670,
+      "defense": 168
+    },
+    "plates": {
+      "modifier": 19.1,
+      "durability": 318,
+      "toughness": 20.0
+    },
+    "trim": {
+      "extraDurability": 318
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "aerbase",
+      "hexaelemental",
+      "lightweight"
+    ],
+    "HEAD": [
+      "aerbase",
+      "hexaelemental",
+      "lightweight"
+    ],
+    "BOW": [
+      "aerbase",
+      "hexaelemental",
+      "lightweight"
+    ],
+    "HANDLE": [
+      "aerbase",
+      "hexaelemental",
+      "lightweight"
+    ],
+    "CORE": [
+      "aerbase_armor",
+      "hexaelemental_armor",
+      "lightweight_armor"
+    ],
+    "PLATES": [
+      "aerbase_armor",
+      "hexaelemental_armor",
+      "lightweight_armor"
+    ],
+    "TRIM": [
+      "aerbase_armor",
+      "hexaelemental_armor",
+      "lightweight_armor"
+    ]
+  }
+}

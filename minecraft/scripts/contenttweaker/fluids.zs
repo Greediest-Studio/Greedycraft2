@@ -2613,6 +2613,90 @@ molten_hexacite.stillLocation = "base:fluids/molten";
 molten_hexacite.flowingLocation = "base:fluids/molten_flowing";
 molten_hexacite.register();
 
+val molten_blizzium = mods.contenttweaker.VanillaFactory.createFluid("blizzium", Color.fromHex("b8f4ff").getIntColor());
+molten_blizzium.material = <blockmaterial:lava>;
+molten_blizzium.viscosity = 3000;
+molten_blizzium.density = 6500;
+molten_blizzium.colorize = true;
+molten_blizzium.temperature = 1000;
+molten_blizzium.luminosity = 10;
+molten_blizzium.color = Color.fromHex("b8f4ff").getIntColor();
+molten_blizzium.stillLocation = "base:fluids/molten";
+molten_blizzium.flowingLocation = "base:fluids/molten_flowing";
+molten_blizzium.register();
+
+val molten_blazingium = mods.contenttweaker.VanillaFactory.createFluid("blazingium", Color.fromHex("ffb39e").getIntColor());
+molten_blazingium.material = <blockmaterial:lava>;
+molten_blazingium.viscosity = 3000;
+molten_blazingium.density = 6500;
+molten_blazingium.colorize = true;
+molten_blazingium.temperature = 1000;
+molten_blazingium.luminosity = 10;
+molten_blazingium.color = Color.fromHex("ffb39e").getIntColor();
+molten_blazingium.stillLocation = "base:fluids/molten";
+molten_blazingium.flowingLocation = "base:fluids/molten_flowing";
+molten_blazingium.register();
+
+val molten_tidalium = mods.contenttweaker.VanillaFactory.createFluid("tidalium", Color.fromHex("9ccbed").getIntColor());
+molten_tidalium.material = <blockmaterial:lava>;
+molten_tidalium.viscosity = 3000;
+molten_tidalium.density = 6500;
+molten_tidalium.colorize = true;
+molten_tidalium.temperature = 1000;
+molten_tidalium.luminosity = 10;
+molten_tidalium.color = Color.fromHex("9ccbed").getIntColor();
+molten_tidalium.stillLocation = "base:fluids/molten";
+molten_tidalium.flowingLocation = "base:fluids/molten_flowing";
+molten_tidalium.register();
+
+val molten_terranium = mods.contenttweaker.VanillaFactory.createFluid("terranium", Color.fromHex("b4cf9a").getIntColor());
+molten_terranium.material = <blockmaterial:lava>;
+molten_terranium.viscosity = 3000;
+molten_terranium.density = 6500;
+molten_terranium.colorize = true;
+molten_terranium.temperature = 1000;
+molten_terranium.luminosity = 10;
+molten_terranium.color = Color.fromHex("b4cf9a").getIntColor();
+molten_terranium.stillLocation = "base:fluids/molten";
+molten_terranium.flowingLocation = "base:fluids/molten_flowing";
+molten_terranium.register();
+
+val molten_enlightium = mods.contenttweaker.VanillaFactory.createFluid("enlightium", Color.fromHex("fdfc63").getIntColor());
+molten_enlightium.material = <blockmaterial:lava>;
+molten_enlightium.viscosity = 3000;
+molten_enlightium.density = 6500;
+molten_enlightium.colorize = true;
+molten_enlightium.temperature = 1000;
+molten_enlightium.luminosity = 10;
+molten_enlightium.color = Color.fromHex("fdfc63").getIntColor();
+molten_enlightium.stillLocation = "base:fluids/molten";
+molten_enlightium.flowingLocation = "base:fluids/molten_flowing";
+molten_enlightium.register();
+
+val molten_debarcium = mods.contenttweaker.VanillaFactory.createFluid("debarcium", Color.fromHex("aaa9ad").getIntColor());
+molten_debarcium.material = <blockmaterial:lava>;
+molten_debarcium.viscosity = 3000;
+molten_debarcium.density = 6500;
+molten_debarcium.colorize = true;
+molten_debarcium.temperature = 1000;
+molten_debarcium.luminosity = 10;
+molten_debarcium.color = Color.fromHex("aaa9ad").getIntColor();
+molten_debarcium.stillLocation = "base:fluids/molten";
+molten_debarcium.flowingLocation = "base:fluids/molten_flowing";
+molten_debarcium.register();
+
+val molten_murderite_purified = mods.contenttweaker.VanillaFactory.createFluid("murderite_purified", Color.fromHex("8a696a").getIntColor());
+molten_murderite_purified.material = <blockmaterial:lava>;
+molten_murderite_purified.viscosity = 3000;
+molten_murderite_purified.density = 6500;
+molten_murderite_purified.colorize = true;
+molten_murderite_purified.temperature = 1000;
+molten_murderite_purified.luminosity = 10;
+molten_murderite_purified.color = Color.fromHex("8a696a").getIntColor();
+molten_murderite_purified.stillLocation = "base:fluids/molten";
+molten_murderite_purified.flowingLocation = "base:fluids/molten_flowing";
+molten_murderite_purified.register();
+
 //液化类
 val liquid_air = mods.contenttweaker.VanillaFactory.createFluid("liquid_air", Color.fromHex("ffffff").getIntColor());
 liquid_air.material = <blockmaterial:water>;

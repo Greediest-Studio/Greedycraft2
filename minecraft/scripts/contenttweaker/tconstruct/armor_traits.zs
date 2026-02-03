@@ -1239,6 +1239,21 @@ healthshieldTrait.onHurt = function(trait, armor, player, source, damage, newDam
 };
 healthshieldTrait.register();
 
+val healthshield2Trait = ArmorTraitBuilder.create("health_shield2");
+healthshield2Trait.color = Color.fromHex("ffffff").getIntColor();
+healthshield2Trait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.healthshield2Trait.name");
+healthshield2Trait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.healthshield2Trait.desc");
+healthshield2Trait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        if (player.soulNetwork.currentEssence >= (damage * 2000)) {
+            player.soulNetwork.currentEssence -= (damage * 2000);
+            return newDamage * ((Math.random() * 0.2f) + 0.3f);
+        }
+    }
+    return newDamage;
+};
+healthshield2Trait.register();
+
 val soul_ascendTrait = ArmorTraitBuilder.create("soul_ascend");
 soul_ascendTrait.color = Color.fromHex("ffeb3b").getIntColor();
 soul_ascendTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.soul_ascendTrait.name");
@@ -4976,3 +4991,148 @@ spirit_powerTrait.onHurt = function(trait, armor, player, source, damage, newDam
     return newDamage;
 };
 spirit_powerTrait.register();
+
+val aquabaseTrait = ArmorTraitBuilder.create("aquabase");
+aquabaseTrait.color = Color.fromHex("ffffff").getIntColor();
+aquabaseTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.aquabaseTrait.name");
+aquabaseTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.aquabaseTrait.desc");
+aquabaseTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        if (world.time % 6 == 0) {
+            armor.mutable().updateTag({hexableTurn : 0 as int});
+        }
+    }
+};
+aquabaseTrait.register();
+
+val ignisbaseTrait = ArmorTraitBuilder.create("ignisbase");
+ignisbaseTrait.color = Color.fromHex("ffffff").getIntColor();
+ignisbaseTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.ignisbaseTrait.name");
+ignisbaseTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.ignisbaseTrait.desc");
+ignisbaseTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        if (world.time % 6 == 1) {
+            armor.mutable().updateTag({hexableTurn : 1 as int});
+        }
+    }
+};
+ignisbaseTrait.register();
+
+val terrabaseTrait = ArmorTraitBuilder.create("terrabase");
+terrabaseTrait.color = Color.fromHex("ffffff").getIntColor();
+terrabaseTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.terrabaseTrait.name");
+terrabaseTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.terrabaseTrait.desc");
+terrabaseTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        if (world.time % 6 == 2) {
+            armor.mutable().updateTag({hexableTurn : 2 as int});
+        }
+    }
+};
+terrabaseTrait.register();
+
+val aerbaseTrait = ArmorTraitBuilder.create("aerbase");
+aerbaseTrait.color = Color.fromHex("ffffff").getIntColor();
+aerbaseTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.aerbaseTrait.name");
+aerbaseTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.aerbaseTrait.desc");
+aerbaseTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        if (world.time % 6 == 3) {
+            armor.mutable().updateTag({hexableTurn : 3 as int});
+        }
+    }
+};
+aerbaseTrait.register();
+
+val ordobaseTrait = ArmorTraitBuilder.create("ordobase");
+ordobaseTrait.color = Color.fromHex("ffffff").getIntColor();
+ordobaseTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.ordobaseTrait.name");
+ordobaseTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.ordobaseTrait.desc");
+ordobaseTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        if (world.time % 6 == 4) {
+            armor.mutable().updateTag({hexableTurn : 4 as int});
+        }
+    }
+};
+ordobaseTrait.register();
+
+val perditiobaseTrait = ArmorTraitBuilder.create("perditiobase");
+perditiobaseTrait.color = Color.fromHex("ffffff").getIntColor();
+perditiobaseTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.perditiobaseTrait.name");
+perditiobaseTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.perditiobaseTrait.desc");
+perditiobaseTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        if (world.time % 6 == 5) {
+            armor.mutable().updateTag({hexableTurn : 5 as int});
+        }
+    }
+};
+perditiobaseTrait.register();
+
+val brightestTrait = ArmorTraitBuilder.create("brightest");
+brightestTrait.color = Color.fromHex("ffffff").getIntColor();
+brightestTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.brightestTrait.name");
+brightestTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.brightestTrait.desc");
+brightestTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        var mtps as int = 0;
+        for trait in CotTicTraitLib.getTicTrait(armor) {
+            if (trait != "toolleveling_armor" && trait != "leveling_durability_armor") {
+                var color as int = CotTicTraitLib.getTraitColor(armor, trait);
+                var r as int = (color / 65536) % 256;
+                var g as int = (color / 256) % 256;
+                var b as int = color % 256;
+                if (r >= 200 && g >= 200 && b >= 200) {
+                    mtps += 1;
+                }
+            }
+        }
+        return newDamage * pow(0.8d, mtps as double) as float;
+    }
+    return newDamage;
+};
+brightestTrait.register();
+
+val ender_replacementTrait = ArmorTraitBuilder.create("ender_replacement");
+ender_replacementTrait.color = Color.fromHex("ffffff").getIntColor();
+ender_replacementTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.ender_replacementTrait.name");
+ender_replacementTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.ender_replacementTrait.desc");
+ender_replacementTrait.onDamaged = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        var pass as bool = false;
+        var position as IBlockPos = player.position;
+        for i in -5 to 6 {
+            for j in -5 to 6 {
+                for k in -5 to 6 {
+                    if (!isNull(player.world.getBlock(player.position.north(i).east(j).up(k)))) {
+                        var block as IBlock = player.world.getBlock(player.position.north(i).east(j).up(k));
+                        var pos as IBlockPos = player.position.north(i).east(j).up(k);
+                        if (block.definition.id == "minecraft:end_stone") {
+                            if (!isNull(player.world.getBlock(pos.up(1)))) {
+                                if (player.world.getBlock(pos.up(1)).definition.id == "minecraft:end_stone") {
+                                    pass = true;
+                                    position = pos;
+                                    break;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        if (pass) {
+            player.world.setBlockState(<blockstate:minecraft:air>, position);
+            player.world.setBlockState(<blockstate:minecraft:air>, position.up(1));
+            var position3f as Position3f = position as Position3f;
+            position3f.setX(position.x as float + 0.5f);
+            position3f.setZ(position.z as float + 0.5f);
+            player.position3f = position3f;
+            return 0.0f;
+        } else {
+            return newDamage;
+        }
+    }
+    return newDamage;
+};
+ender_replacementTrait.register();

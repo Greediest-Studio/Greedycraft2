@@ -348,6 +348,13 @@ val localizationMap as string[string][string] = {
         "fluid.eco_basic_alloy": "熔融ECO基础合金",
         "fluid.calculus": "熔融微积分金属",
         "fluid.hexacite": "六元凝聚流质",
+        "fluid.tidalium": "熔融碎浪",
+        "fluid.blazingium": "熔融燃炬",
+        "fluid.blizzium": "熔融捷风",
+        "fluid.terranium": "熔融繁森",
+        "fluid.enlightium": "熔融光萦",
+        "fluid.debarcium": "熔融暗蚀",
+        "fluid.murderite_purified": "净化血渊浆液",
         //化工相关液体
         "fluid.liquid_air": "液态空气",
         "fluid.hydrochloric_acid": "盐酸",

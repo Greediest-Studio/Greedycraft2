@@ -1,0 +1,131 @@
+{
+  "name": "enlightium",
+  "tool": {
+    "bow": {
+      "speed": 0.9,
+      "range": 2.95,
+      "bonusDamage": 193
+    },
+    "head": {
+      "attackDamage": 187,
+      "speed": 16.8,
+      "durability": 15980,
+      "harvestLevel": 12
+    },
+    "handle": {
+      "modifier": 2.58,
+      "durability": 2920
+    },
+    "extra": {
+      "durability": 2920
+    }
+  },
+  "color": "#fdfd5b",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 8000,
+  "looks": {
+    "shininess": 0.1,
+    "brightness": 0.05,
+    "hueshift": 0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 75000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Enlightium",
+    "zh_cn": "光萦"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:enlightium_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 700,
+      "defense": 173
+    },
+    "plates": {
+      "modifier": 19.8,
+      "durability": 334,
+      "toughness": 21.0
+    },
+    "trim": {
+      "extraDurability": 334
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "ordobase",
+      "hexaelemental",
+      "holy"
+    ],
+    "HEAD": [
+      "ordobase",
+      "hexaelemental",
+      "holy"
+    ],
+    "BOW": [
+      "ordobase",
+      "hexaelemental",
+      "holy"
+    ],
+    "HANDLE": [
+      "ordobase",
+      "hexaelemental",
+      "holy"
+    ],
+    "CORE": [
+      "ordobase_armor",
+      "hexaelemental_armor",
+      "blessed_armor"
+    ],
+    "PLATES": [
+      "ordobase_armor",
+      "hexaelemental_armor",
+      "blessed_armor"
+    ],
+    "TRIM": [
+      "ordobase_armor",
+      "hexaelemental_armor",
+      "blessed_armor"
+    ]
+  }
+}

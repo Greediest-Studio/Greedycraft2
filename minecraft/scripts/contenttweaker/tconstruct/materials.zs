@@ -764,6 +764,23 @@ astral_metal.addBowMaterialStats(getDrawSpeed(1) as float, 1.4, 11.0);
 astral_metal.addProjectileMaterialStats();
 astral_metal.register();
 
+val arimite = ExtendedMaterialBuilder.create("arimite");
+arimite.color = Color.fromHex("ff4583").getIntColor();
+arimite.craftable = false;
+arimite.castable = true;
+arimite.representativeItem = <item:additions:arimite_ingot>;
+arimite.liquid = <liquid:arimite>;
+arimite.addItem(<ore:ingotArimite>);
+arimite.localizedName = game.localize("greedycraft.tconstruct.material.arimite.name");
+arimite.addHeadMaterialStats(12480, 13.4, 194, 13);
+arimite.addHandleMaterialStats(3.9, 4154);
+arimite.addExtraMaterialStats(3786);
+arimite.addBowMaterialStats(getDrawSpeed(1.9) as float, 2.1, 76);
+arimite.addCoreMaterialStats(1175, 182);
+arimite.addPlatesMaterialStats(21, 240, 20);
+arimite.addTrimMaterialStats(330);
+arimite.register();
+
 val orichalcos = MaterialBuilder.create("orichalcos");
 orichalcos.color = Color.fromHex("ec407a").getIntColor(); 
 orichalcos.craftable = false;
@@ -3142,6 +3159,23 @@ heavyalloy.addCoreMaterialStats(920, 190);
 heavyalloy.addPlatesMaterialStats(18.5, 650, 20);
 heavyalloy.addTrimMaterialStats(350);
 heavyalloy.register();
+
+val breedum = ExtendedMaterialBuilder.create("breedum");
+breedum.color = Color.fromHex("33ffcc").getIntColor();
+breedum.craftable = false;
+breedum.castable = true;
+breedum.representativeItem = <item:additions:breedum_ingot>;
+breedum.addItem(<item:additions:breedum_ingot>);
+breedum.liquid = <liquid:breedum>;
+breedum.localizedName = game.localize("greedycraft.tconstruct.material.breedum.name");
+breedum.addHeadMaterialStats(9750, 22.5, 186, 13);
+breedum.addHandleMaterialStats(2.6, 1330);
+breedum.addExtraMaterialStats(1500);
+breedum.addBowMaterialStats(getDrawSpeed(1.3) as float, 2.1, 165);
+breedum.addCoreMaterialStats(850, 185);
+breedum.addPlatesMaterialStats(18.5, 800, 23.7);
+breedum.addTrimMaterialStats(745);
+breedum.register();
 
 val zomril = ExtendedMaterialBuilder.create("zomril");
 zomril.color = Color.fromHex("48464f").getIntColor();

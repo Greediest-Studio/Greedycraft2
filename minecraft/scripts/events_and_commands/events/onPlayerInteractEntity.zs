@@ -72,27 +72,6 @@ events.onPlayerInteractEntity(function(event as PlayerInteractEntityEvent) {
             }
         }
     }
-
-    if (!isNull(event.target.definition) && !event.world.remote && event.hand == "MAIN_HAND") {
-        var target as IEntity = event.target;
-        if (target.definition.id == "journey:boss_crystal") {
-            if (!(isNull(target.nbt) || isNull(target.nbt.type)) && (isNull(target.nbt.Items) || target.nbt.Items.asList().length == 0)) {
-                var type as int = target.nbt.type as int;
-                if (type == 2) {
-                    player.give(<journey:trophyblaze>);
-                    player.give(<minecraft:blaze_rod> * 32);
-                } else if (type == 4) {
-                    player.give(<journey:trophyroc>);
-                } else if (type == 5) {
-                    player.give(<journey:trophylogger>);
-                } else if (type == 1) {
-                    player.give(<journey:trophysoul>);
-                    player.give(<additions:hellite_ingot> * Math.ceil((5.0f + 4.0f * Math.random() as float) as double));
-                    player.give(<journey:eucaportalpiece_1>);
-                }
-            }
-        }
-    }
     
     if (event.target instanceof IEntityLivingBase && !event.world.isRemote()) {
         var target as IEntityLivingBase = event.target;

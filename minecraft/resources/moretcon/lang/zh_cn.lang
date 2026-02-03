@@ -102,6 +102,7 @@ item.moretcon.gemerythynite.name=永恒石
 item.moretcon.gemetherstone.name=以太石
 item.moretcon.gemvoidspar.name=虚空晶体
 item.moretcon.gemelectarite.name=电纹水晶
+item.moretcon.gemanthracite.name=玄晶
 
 item.moretcon.hydrogenrichredstonepowder.name=富氢红石粉
 
@@ -225,6 +226,8 @@ material.moretcon.sanguiseelium.name=嗜血合金
 material.moretcon.zracohlium.name=泽拉科
 material.moretcon.slimesteel.name=黏钢
 material.moretcon.geodesium.name=地华
+material.moretcon.anthracite.name=玄晶
+material.moretcon.brinkstone.name=边缘石
 
 material.uniquetoolpart.name=特殊
 
@@ -420,6 +423,8 @@ modifier.moretcon.reforged_projectile.name=投掷再铸
 modifier.moretcon.reforged_projectile.desc=§o什么？！为什么？？§r\n你的投掷物将获得发射器上任何远程再铸的属性加成。
 modifier.moretcon.stormcaller.name=唤雷
 modifier.moretcon.stormcaller.desc=§o宙斯！！给我力量！！§r\n你的工具会在下雨时召唤闪电，获得大幅整体提升。
+modifier.moretcon.embering.name=燋燃
+modifier.moretcon.embering.desc=§o燃烧吧，余烬！！§r\n你的工具会在被点燃时获得显著提升。
 
 modifier.moretcon.galvanized_armor.name=重装上阵
 modifier.moretcon.galvanized_armor.desc=§o更多伤害！！！§r\n你的护甲会为你提供额外的攻击伤害。
@@ -691,6 +696,7 @@ tile.moretcon.blocksanguiseelium.name=嗜血合金块
 tile.moretcon.blockzracohlium.name=泽拉科块
 tile.moretcon.blockslimesteel.name=黏钢块
 tile.moretcon.blockgeodesium.name=地华块
+tile.moretcon.blockanthracite.name=玄晶块
 
 tile.moretcon.burningsulfurflow.name=熔融硫磺
 tile.moretcon.liquidarkenium.name=熔融阿肯钢
@@ -745,6 +751,7 @@ tile.moretcon.orehallowsite.name=圣灵矿石
 tile.moretcon.orezracohlium.name=泽拉科矿石
 tile.moretcon.oregeodesium.name=地华矿石
 tile.moretcon.oremonolite.name=回音水晶矿石
+tile.moretcon.oreanthracite.name=玄晶矿石
 
 tile.moretcon.blockotherstone.name=其他石头
 tile.moretcon.rottensludge.name=烂泥

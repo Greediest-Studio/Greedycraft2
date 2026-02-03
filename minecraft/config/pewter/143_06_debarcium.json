@@ -1,0 +1,131 @@
+{
+  "name": "debarcium",
+  "tool": {
+    "bow": {
+      "speed": 0.78,
+      "range": 2.85,
+      "bonusDamage": 196
+    },
+    "head": {
+      "attackDamage": 191,
+      "speed": 15.4,
+      "durability": 16480,
+      "harvestLevel": 12
+    },
+    "handle": {
+      "modifier": 2.5,
+      "durability": 3050
+    },
+    "extra": {
+      "durability": 3050
+    }
+  },
+  "color": "#969697",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 8000,
+  "looks": {
+    "shininess": 0.1,
+    "brightness": 0.05,
+    "hueshift": 0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 75000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Debarcium",
+    "zh_cn": "暗蚀"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:debarcium_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 710,
+      "defense": 175
+    },
+    "plates": {
+      "modifier": 20.3,
+      "durability": 340,
+      "toughness": 21.5
+    },
+    "trim": {
+      "extraDurability": 340
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "perditiobase",
+      "hexaelemental",
+      "tconevo.warping"
+    ],
+    "HEAD": [
+      "perditiobase",
+      "hexaelemental",
+      "tconevo.warping"
+    ],
+    "BOW": [
+      "perditiobase",
+      "hexaelemental",
+      "tconevo.warping"
+    ],
+    "HANDLE": [
+      "perditiobase",
+      "hexaelemental",
+      "tconevo.warping"
+    ],
+    "CORE": [
+      "perditiobase_armor",
+      "hexaelemental_armor",
+      "tconevo.warping_armor"
+    ],
+    "PLATES": [
+      "perditiobase_armor",
+      "hexaelemental_armor",
+      "tconevo.warping_armor"
+    ],
+    "TRIM": [
+      "perditiobase_armor",
+      "hexaelemental_armor",
+      "tconevo.warping_armor"
+    ]
+  }
+}

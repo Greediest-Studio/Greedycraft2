@@ -1,0 +1,131 @@
+{
+  "name": "tidalium",
+  "tool": {
+    "bow": {
+      "speed": 0.6,
+      "range": 2.95,
+      "bonusDamage": 188
+    },
+    "head": {
+      "attackDamage": 184,
+      "speed": 18.4,
+      "durability": 17745,
+      "harvestLevel": 12
+    },
+    "handle": {
+      "modifier": 2.6,
+      "durability": 3115
+    },
+    "extra": {
+      "durability": 3115
+    }
+  },
+  "color": "#9cc2ec",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 8000,
+  "looks": {
+    "shininess": 0.1,
+    "brightness": 0.05,
+    "hueshift": 0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 75000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Tidalium",
+    "zh_cn": "碎浪"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:tidalium_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 755,
+      "defense": 168
+    },
+    "plates": {
+      "modifier": 20.5,
+      "durability": 358,
+      "toughness": 20
+    },
+    "trim": {
+      "extraDurability": 358
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "aquabase",
+      "hexaelemental",
+      "aquadynamic"
+    ],
+    "HEAD": [
+      "aquabase",
+      "hexaelemental",
+      "aquadynamic"
+    ],
+    "BOW": [
+      "aquabase",
+      "hexaelemental",
+      "aquadynamic"
+    ],
+    "HANDLE": [
+      "aquabase",
+      "hexaelemental",
+      "aquadynamic"
+    ],
+    "CORE": [
+      "aquabase_armor",
+      "hexaelemental_armor",
+      "aquaspeed_armor"
+    ],
+    "PLATES": [
+      "aquabase_armor",
+      "hexaelemental_armor",
+      "aquaspeed_armor"
+    ],
+    "TRIM": [
+      "aquabase_armor",
+      "hexaelemental_armor",
+      "aquaspeed_armor"
+    ]
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "name": "terranium",
+  "tool": {
+    "bow": {
+      "speed": 0.82,
+      "range": 2.9,
+      "bonusDamage": 192
+    },
+    "head": {
+      "attackDamage": 189,
+      "speed": 15.7,
+      "durability": 16850,
+      "harvestLevel": 12
+    },
+    "handle": {
+      "modifier": 2.52,
+      "durability": 3100
+    },
+    "extra": {
+      "durability": 3100
+    }
+  },
+  "color": "#afc996",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 8000,
+  "looks": {
+    "shininess": 0.1,
+    "brightness": 0.05,
+    "hueshift": 0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 75000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Terranium",
+    "zh_cn": "繁森"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:terranium_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 720,
+      "defense": 172
+    },
+    "plates": {
+      "modifier": 20.2,
+      "durability": 346,
+      "toughness": 21.2
+    },
+    "trim": {
+      "extraDurability": 346
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "terrabase",
+      "hexaelemental",
+      "duritos"
+    ],
+    "HEAD": [
+      "terrabase",
+      "hexaelemental",
+      "duritos"
+    ],
+    "BOW": [
+      "terrabase",
+      "hexaelemental",
+      "duritos"
+    ],
+    "HANDLE": [
+      "terrabase",
+      "hexaelemental",
+      "duritos"
+    ],
+    "CORE": [
+      "terrabase_armor",
+      "hexaelemental_armor",
+      "duritos_ranch_armor"
+    ],
+    "PLATES": [
+      "terrabase_armor",
+      "hexaelemental_armor",
+      "duritos_ranch_armor"
+    ],
+    "TRIM": [
+      "terrabase_armor",
+      "hexaelemental_armor",
+      "duritos_ranch_armor"
+    ]
+  }
+}

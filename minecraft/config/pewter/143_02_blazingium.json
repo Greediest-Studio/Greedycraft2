@@ -1,0 +1,131 @@
+{
+  "name": "blazingium",
+  "tool": {
+    "bow": {
+      "speed": 1.1,
+      "range": 2.8,
+      "bonusDamage": 192
+    },
+    "head": {
+      "attackDamage": 188,
+      "speed": 14.2,
+      "durability": 14500,
+      "harvestLevel": 12
+    },
+    "handle": {
+      "modifier": 2.5,
+      "durability": 2785
+    },
+    "extra": {
+      "durability": 2785
+    }
+  },
+  "color": "#e59895",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 8000,
+  "looks": {
+    "shininess": 0.1,
+    "brightness": 0.05,
+    "hueshift": 0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 75000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Blazingium",
+    "zh_cn": "燃炬"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:blazingium_ingot"
+    ],
+    "block": [
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 625,
+      "defense": 174
+    },
+    "plates": {
+      "modifier": 18.7,
+      "durability": 298,
+      "toughness": 21
+    },
+    "trim": {
+      "extraDurability": 298
+    }
+  },
+  "specificTraits": {
+    "EXTRA": [
+      "ignisbase",
+      "hexaelemental",
+      "superheat"
+    ],
+    "HEAD": [
+      "ignisbase",
+      "hexaelemental",
+      "superheat"
+    ],
+    "BOW": [
+      "ignisbase",
+      "hexaelemental",
+      "superheat"
+    ],
+    "HANDLE": [
+      "ignisbase",
+      "hexaelemental",
+      "superheat"
+    ],
+    "CORE": [
+      "ignisbase_armor",
+      "hexaelemental_armor",
+      "superhot_armor"
+    ],
+    "PLATES": [
+      "ignisbase_armor",
+      "hexaelemental_armor",
+      "superhot_armor"
+    ],
+    "TRIM": [
+      "ignisbase_armor",
+      "hexaelemental_armor",
+      "superhot_armor"
+    ]
+  }
+}
