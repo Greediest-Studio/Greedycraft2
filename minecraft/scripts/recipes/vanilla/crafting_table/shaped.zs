@@ -1645,9 +1645,9 @@ RecipeUtil.addShaped("efabricator_vent", <ecoaeextension:efabricator_vent>, [
     [<ecoaeextension:efabricator_casing>, <appliedenergistics2:fluix_block>, <ecoaeextension:efabricator_casing>]
 ]);
 RecipeUtil.addShaped("efabricator_casing", <ecoaeextension:efabricator_casing>, [
-    [null, <appliedenergistics2:material:7>, null],
+    [<ore:ingotEcoBasicAlloy>, <appliedenergistics2:material:7>, <ore:ingotEcoBasicAlloy>],
     [<appliedenergistics2:material:7>, <actuallyadditions:block_misc:2>, <appliedenergistics2:material:7>],
-    [null, <appliedenergistics2:material:7>, null]
+    [<ore:ingotEcoBasicAlloy>, <appliedenergistics2:material:7>, <ore:ingotEcoBasicAlloy>]
 ]);
 
 //别在这里写，文件太长会报错！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！！
