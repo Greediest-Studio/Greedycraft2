@@ -5136,3 +5136,12 @@ ender_replacementTrait.onDamaged = function(trait, armor, player, source, damage
     return newDamage;
 };
 ender_replacementTrait.register();
+
+val discountedTrait = ArmorTraitBuilder.create("discounted");
+discountedTrait.color = Color.fromHex("ffffff").getIntColor();
+discountedTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.discountedTrait.name");
+discountedTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.discountedTrait.desc");
+discountedTrait.onArmorRepair = function(trait, armor, amount) {
+    ToolHelper.healTool(armor.mutable().native, amount / 5, null);
+};
+discountedTrait.register();

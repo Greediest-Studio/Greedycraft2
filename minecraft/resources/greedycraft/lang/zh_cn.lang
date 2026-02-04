@@ -450,6 +450,7 @@ greedycraft.tconstruct.material.arimite.name=冠晶
 greedycraft.tconstruct.material.breedum.name=滋生
 greedycraft.tconstruct.material.solarys.name=耀晶石
 greedycraft.tconstruct.material.putrallium.name=朽坏
+greedycraft.tconstruct.material.limonite.name=褐铁
 #护甲词条
 greedycraft.tconstruct.armor_trait.reachTrait.name=延伸
 greedycraft.tconstruct.armor_trait.reachTrait.desc=§o天使之臂！\n§r当穿戴这个护甲，你可以触碰的更远。
@@ -946,7 +947,11 @@ greedycraft.tconstruct.armor_trait.brightestTrait.name=耀日
 greedycraft.tconstruct.armor_trait.brightestTrait.desc=§o聚焦全场目光§r\n§f你的护甲中白色的部分越多，受到的伤害就越少。
 greedycraft.tconstruct.armor_trait.ender_replacementTrait.name=末影替身
 greedycraft.tconstruct.armor_trait.ender_replacementTrait.desc=§o影遁·末地石替身术！\n§r当你受到伤害时，若你周围存在一个2格高的末地石区域，你传送至之并免疫此次伤害。
+greedycraft.tconstruct.armor_trait.discountedTrait.name=折扣
+greedycraft.tconstruct.armor_trait.discountedTrait.desc=§o每个人的喜欢免费\n§r显著地提高修复护甲时恢复的耐久。
 #工具词条
+greedycraft.tconstruct.tool_trait.discountedTrait.name=折扣
+greedycraft.tconstruct.tool_trait.discountedTrait.desc=§o每个人的喜欢免费\n§r显著地提高修复工具时恢复的耐久。
 greedycraft.tconstruct.tool_trait.breedTrait.name=繁衍
 greedycraft.tconstruct.tool_trait.breedTrait.desc=§o生生不息！\n§r此工具的攻击力将被削减为已有的30%，但是可以持续对目标造成多段伤害。
 greedycraft.tconstruct.tool_trait.brightestTrait.name=耀日

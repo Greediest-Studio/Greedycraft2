@@ -5821,3 +5821,12 @@ breedTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, 
     return newDamage;
 };
 breedTrait.register();
+
+val discountedTrait = TraitBuilder.create("discounted");
+discountedTrait.color = Color.fromHex("ffffff").getIntColor(); 
+discountedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.discountedTrait.name");
+discountedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.discountedTrait.desc");
+discountedTrait.onToolRepair = function(trait, tool, amount) {
+    ToolHelper.healTool(tool.mutable().native, amount / 5, null);
+};
+discountedTrait.register();

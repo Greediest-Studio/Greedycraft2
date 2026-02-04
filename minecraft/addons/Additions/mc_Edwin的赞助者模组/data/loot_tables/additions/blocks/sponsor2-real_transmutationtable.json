@@ -1,0 +1,16 @@
+{
+  "preset_block": "additions:sponsor2-real_transmutationtable",
+  "pools": [
+    {
+      "name": "block_itself_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:sponsor2-real_transmutationtable"
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_itself"
+}

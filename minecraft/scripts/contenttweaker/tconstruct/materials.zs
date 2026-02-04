@@ -167,6 +167,23 @@ experience.addBowMaterialStats(getDrawSpeed(0.72) as float, 1.1, 1.0);
 experience.addProjectileMaterialStats();
 experience.register();
 
+val limonite = ExtendedMaterialBuilder.create("limonite");
+limonite.color = Color.fromHex("e79353").getIntColor();
+limonite.craftable = false;
+limonite.castable = true;
+limonite.representativeItem = <item:additions:limonite_ingot>;
+limonite.addItem(<ore:ingotLimonite>);
+limonite.liquid = <liquid:limonite>;
+limonite.localizedName = game.localize("greedycraft.tconstruct.material.limonite.name");
+limonite.addHeadMaterialStats(250, 3, 2.8, 2);
+limonite.addHandleMaterialStats(0.6, 70);
+limonite.addExtraMaterialStats(75);
+limonite.addBowMaterialStats(getDrawSpeed(2.0) as float, 1.6, 5.5);
+limonite.addCoreMaterialStats(10, 14);
+limonite.addPlatesMaterialStats(0.9, 4, 0);
+limonite.addTrimMaterialStats(3);
+limonite.register();
+
 val infernium = MaterialBuilder.create("infernium");
 infernium.color = Color.fromHex("ff4000").getIntColor(); 
 infernium.craftable = false;
