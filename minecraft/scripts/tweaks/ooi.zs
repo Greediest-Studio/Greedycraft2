@@ -59,7 +59,7 @@ ConversionItem.create(<tconstruct:materials:17>).addMatchItem(<ore:boneWithered>
 ConversionItem.create(<additions:chloroplast_ore>).addMatchItem(<ore:oreChloroplast>).register();
 ConversionItem.create(<thaumcraft:quicksilver>).addMatchItem(<ore:gemQuicksilver>).register();
 ConversionItem.create(<tiths:block_mercury_sulfide>).addMatchItem(<ore:blockCinnabar>).register();
-ConversionItem.create(<biomesoplenty:gem:3>).addMatchItem(<tiths:block_topaz>).register();
+ConversionItem.create(<biomesoplenty:gem_block:3>).addMatchItem(<tiths:block_topaz>).register();
 ConversionItem.create(<biomesoplenty:gem_ore:3>).addMatchItem(<tiths:ore_topaz:3>).register();
 ConversionItem.create(<appliedenergistics2:material:5>).addMatchItem(<ore:itemSilicon>).register();
 ConversionItem.create(<appliedenergistics2:material:3>).addMatchItem(<ore:dustQuartz>).addMatchItem(<ore:dustNetherQuartz>).register();
