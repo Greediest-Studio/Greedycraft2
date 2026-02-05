@@ -2697,6 +2697,18 @@ molten_murderite_purified.stillLocation = "base:fluids/molten";
 molten_murderite_purified.flowingLocation = "base:fluids/molten_flowing";
 molten_murderite_purified.register();
 
+val molten_primordial_extended = mods.contenttweaker.VanillaFactory.createFluid("primordial_extended", Color.fromHex("a7b39c").getIntColor());
+molten_primordial_extended.material = <blockmaterial:lava>;
+molten_primordial_extended.viscosity = 3000;
+molten_primordial_extended.density = 6500;
+molten_primordial_extended.colorize = true;
+molten_primordial_extended.temperature = 1000;
+molten_primordial_extended.luminosity = 10;
+molten_primordial_extended.color = Color.fromHex("a7b39c").getIntColor();
+molten_primordial_extended.stillLocation = "base:fluids/molten";
+molten_primordial_extended.flowingLocation = "base:fluids/molten_flowing";
+molten_primordial_extended.register();
+
 //液化类
 val liquid_air = mods.contenttweaker.VanillaFactory.createFluid("liquid_air", Color.fromHex("ffffff").getIntColor());
 liquid_air.material = <blockmaterial:water>;

@@ -717,7 +717,11 @@ GameStagesUtil.stageCosmic.addIngredients([
     <ore:ingotCalculus>,
     <ore:nuggetCalculus>,
     <ore:blockCalculus>,
-    <ore:dustCalculus>
+    <ore:dustCalculus>,
+    <ore:ingotArkFaded>,
+    <ore:nuggetArkFaded>,
+    <ore:blockArkFaded>,
+    <ore:dustArkFaded>
 ], false);
 
 GameStagesUtil.stageBalancedMatrix.addIngredients([

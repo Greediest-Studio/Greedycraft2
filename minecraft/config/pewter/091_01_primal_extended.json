@@ -1,0 +1,138 @@
+{
+    "name": "primordial_extended",
+    "tool": {
+      "head": {
+        "attackDamage": 40,
+        "speed": 18.6,
+        "durability": 19400,
+        "harvestLevel": 10
+      },
+      "handle": {
+        "modifier": 3,
+        "durability": 2700
+      },
+      "extra": {
+        "durability": 1200
+      },
+      "bow": {
+        "speed": 1.85,
+        "range": 1.75,
+        "bonusDamage": 36.5
+      }
+    },
+    "color": "#a7b39c",
+    "craftable": false,
+    "madeInToolForge": true,
+    "createMeltingRecipes": true,
+    "meltingTemperature": 3000,
+    "looks": {
+      "shininess": 0.8,
+      "brightness": 0.25,
+      "hueshift": -0.1
+    },
+    "fluid": {
+      "viscosity": 8000,
+      "density": 1500,
+      "temperature": 3500,
+      "luminosity": 8
+    },
+    "oreDictSuffixes": [],
+    "matParts": [
+      "HEAD",
+      "HANDLE",
+      "EXTRA",
+      "BOW",
+      "CORE",
+      "PLATES",
+      "TRIM"
+    ],
+    "nameLocales": {
+      "en_us": "Extended Primordial",
+      "zh_cn": "增强元金"
+    },
+    "smeltingItems": {
+      "ingot": [
+        "additions:extended_primal_metal_ingot"
+      ],
+      "block": [
+      ],
+      "nugget": [
+      ],
+      "ore": [
+      ],
+      "dust": [
+      ],
+      "plate": [
+      ],
+      "gear": [
+      ]
+    },
+    "smeltingTags": {
+      "ingot": [],
+      "block": [],
+      "nugget": [],
+      "ore": [],
+      "dust": [],
+      "plate": [],
+      "gear": []
+    },
+    "armor": {
+      "core": {
+        "defense": 88,
+        "durability": 490
+      },
+      "plates": {
+        "toughness": 4.0,
+        "modifier": 6.8,
+        "durability": 129
+      },
+      "trim": {
+        "extraDurability": 148
+      }
+    },
+    "specificTraits": {
+      "HEAD": [
+        "tconevo.culling",
+        "tconevo.corrupting",
+        "bane_of_night",
+        "erudite"
+      ],
+      "HANDLE": [
+        "tconevo.culling",
+        "tconevo.corrupting",
+        "bane_of_night",
+        "erudite"
+      ],
+      "EXTRA": [
+        "tconevo.culling",
+        "tconevo.corrupting",
+        "bane_of_night",
+        "erudite"
+      ],
+      "BOW": [
+        "tconevo.culling",
+        "tconevo.corrupting",
+        "bane_of_night",
+        "erudite"
+      ],
+      "CORE": [
+        "tconevo.gale_force1_armor",
+        "warp_drain_armor",
+        "second_life_armor",
+        "erudite_armor"
+      ],
+      "PLATES": [
+        "tconevo.gale_force1_armor",
+        "warp_drain_armor",
+        "second_life_armor",
+        "erudite_armor"
+      ],
+      "TRIM": [
+        "tconevo.gale_force1_armor",
+        "warp_drain_armor",
+        "second_life_armor",
+        "erudite_armor"
+      ]
+    }
+}
+  
