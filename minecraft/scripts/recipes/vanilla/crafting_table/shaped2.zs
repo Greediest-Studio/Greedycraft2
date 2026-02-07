@@ -841,6 +841,11 @@ RecipeUtil.addShaped("charge_nitronite", <moretcon:explosive_charge>.withTag({Ma
     [<ore:ingotNitronite>, <minecraft:tnt>, <ore:ingotNitronite>],
     [<minecraft:skull:4>, <ore:ingotNitronite>, <minecraft:skull:4>]
 ]);
+RecipeUtil.addShaped("moontemplecellkey", <theaurorian:moontemplecellkeyfragment>, [
+    [null, <ore:ingotMoonstone>, null],
+    [<ore:ingotMoonstone>, <ore:ingotUmbra>, <ore:ingotMoonstone>],
+    [<ore:ingotMoonstone>, <theaurorian:moongem>, <ore:ingotMoonstone>]
+]);
 /*
  * RecipeUtil.addShaped("", , [
  *  [null, null, null],

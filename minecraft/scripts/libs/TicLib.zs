@@ -47,7 +47,11 @@ zenClass ticLib {
         <tcongreedyaddon:greatblade>,
         <tconevo:tool_sceptre>,
         <tcongreedyaddon:allinonetool>,
-        <moretcon:bomb>
+        <moretcon:bomb>,
+        <tcomplement:chisel>,
+        <tinkersarsenal:boomstick>,
+        <tinkersarsenal:toolshears>,
+        <tinkersarsenal:boomstick_shot>
     ];
 
     zenConstructor() {
@@ -86,7 +90,11 @@ zenClass ticLib {
             <tcongreedyaddon:greatblade>,
             <tconevo:tool_sceptre>,
             <tcongreedyaddon:allinonetool>,
-            <moretcon:bomb>
+            <moretcon:bomb>,
+            <tcomplement:chisel>,
+            <tinkersarsenal:boomstick>,
+            <tinkersarsenal:toolshears>,
+            <tinkersarsenal:boomstick_shot>
         ];
 
         for i in tictool{
@@ -202,7 +210,14 @@ zenClass ticLib {
             <tconstruct:pickaxe>,
             <tconstruct:shovel>,
             <tconstruct:excavator>,
-            <tcongreedyaddon:allinonetool>
+            <tconstruct:hammer>,
+            <tconstruct:scythe>,
+            <tconstruct:lumberaxe>,
+            <tconstruct:mattock>,
+            <tconstruct:kama>,
+            <tcongreedyaddon:battleaxe>,
+            <tcongreedyaddon:allinonetool>,
+            <tinkersarsenal:toolshears>
         ];
 
         for i in item{
@@ -349,7 +364,14 @@ zenClass ticLib {
             <tconstruct:pickaxe>,
             <tconstruct:shovel>,
             <tconstruct:excavator>,
-            <tcongreedyaddon:allinonetool>
+            <tconstruct:hammer>,
+            <tconstruct:scythe>,
+            <tconstruct:lumberaxe>,
+            <tconstruct:mattock>,
+            <tconstruct:kama>,
+            <tcongreedyaddon:battleaxe>,
+            <tcongreedyaddon:allinonetool>,
+            <tinkersarsenal:toolshears>
         ];
 
         for i in item{
@@ -379,7 +401,8 @@ zenClass ticLib {
         var item as IItemStack[] = [
             <tconstruct:shortbow>,
             <tconstruct:longbow>,
-            <tconstruct:crossbow>
+            <tconstruct:crossbow>,
+            <tinkersarsenal:boomstick>
         ];
 
         for i in item{

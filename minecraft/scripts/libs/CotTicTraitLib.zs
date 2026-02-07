@@ -52,7 +52,11 @@ zenClass cotticTraitLib {
         <item:tcongreedyaddon:greatblade>,
         <item:tconevo:tool_sceptre>,
         <item:tcongreedyaddon:allinonetool>,
-        <item:moretcon:bomb>
+        <item:moretcon:bomb>,
+        <item:tcomplement:chisel>,
+        <item:tinkersarsenal:boomstick>,
+        <item:tinkersarsenal:toolshears>,
+        <item:tinkersarsenal:boomstick_shot>
     ];
 
     zenConstructor() {
@@ -252,7 +256,11 @@ zenClass cotticTraitLib {
             <item:tcongreedyaddon:greatblade>,
             <item:tconevo:tool_sceptre>,
             <item:tcongreedyaddon:allinonetool>,
-            <item:moretcon:bomb>
+            <item:moretcon:bomb>,
+            <item:tcomplement:chisel>,
+            <item:tinkersarsenal:boomstick>,
+            <item:tinkersarsenal:toolshears>,
+            <item:tinkersarsenal:boomstick_shot>
         ];
 
         for i in allticitem{

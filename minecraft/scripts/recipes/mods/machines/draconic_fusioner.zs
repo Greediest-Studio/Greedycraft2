@@ -180,3 +180,4 @@ addFusionRecipe(<additions:ordered_bone_key>, [<ore:coreBreedum> * 8, <ore:coreO
 addFusionRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "thaumadditions:blue_wolf"}}), [<thaumadditions:blue_bone> * 2], 1024000, 3);
 addFusionRecipe(<contenttweaker:dubhe_key>, [<additions:dubhe_orb_light>, <additions:dubhe_orb_night>, <ore:blockNebu> * 4, <ore:blockPutrallium> * 4], 256000000, 4);
 addFusionRecipe(<additions:calculus_ingot>, [<ore:ingotDraconiumRuled>, <ore:ingotNumbereum> * 6, <additions:arcane_crystal_ball> * 2], 8090170, 3);
+addFusionRecipe(<additions:faded_ark_ingot>, [<ore:ingotStellarAlloy> * 2, <ore:ingotGelidEnderium> * 2, <ore:ingotSentientMetal> * 2, <ore:ingotBoundMetal> * 2, <ore:ingotAdamant>, <ore:ingotChaoticMetal>, <ore:ingotFusionMatrix>, <ore:ingotTerrasteel>, <ore:ingotOrichalcos>, <ore:ingotCosmilite>], 450000000, 4);

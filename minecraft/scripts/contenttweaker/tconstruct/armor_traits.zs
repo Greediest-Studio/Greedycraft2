@@ -66,6 +66,10 @@ import kbtwkr.keybinding.Keys;
 
 import native.slimeknights.tconstruct.library.utils.ToolHelper;
 import native.com.meteor.extrabotany.common.helper.SubspaceHelper;
+import native.thaumcraft.api.capabilities.IPlayerKnowledge;
+import native.thaumcraft.api.capabilities.ThaumcraftCapabilities;
+import native.thaumcraft.api.research.ResearchCategory;
+import native.thaumcraft.api.research.ResearchCategories;
 
 val HachimiBinding as KeyBinding = KeyBinding.createSyncable("greedycraft.keybinding.hachimi_roar", ConflictContext.IN_GAME, Modifier.NONE, Keys.KEY_S, "greedycraft.keycategory");
 val HachimiActive as KeyBinding = KeyBinding.createSyncable("greedycraft.keybinding.hachimi_active", ConflictContext.IN_GAME, Modifier.NONE, Keys.KEY_W, "greedycraft.keycategory");
@@ -5145,3 +5149,46 @@ discountedTrait.onArmorRepair = function(trait, armor, amount) {
     ToolHelper.healTool(armor.mutable().native, amount / 5, null);
 };
 discountedTrait.register();
+
+val ascension_swearingTrait = ArmorTraitBuilder.create("ascension_swearing");
+ascension_swearingTrait.color = Color.fromHex("ffffff").getIntColor();
+ascension_swearingTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.ascension_swearingTrait.name");
+ascension_swearingTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.ascension_swearingTrait.desc");
+ascension_swearingTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !isNull(source.getTrueSource())) {
+        if (!isNull(source.getTrueSource().definition)) {
+            if (source.getTrueSource().definition.id.split(":")[0] == "minecraft") {
+                return newDamage * 0.75f;
+            }
+        }
+    }
+    return newDamage;
+};
+ascension_swearingTrait.register();
+
+function getTheoryKnowledge(player as IPlayer) as int {
+    if (!isNull(ThaumcraftCapabilities.getKnowledge(player.native))) {
+        var knowledge as IPlayerKnowledge = ThaumcraftCapabilities.getKnowledge(player.native);
+        var total as int = 0;
+        var categories = ResearchCategories.researchCategories;
+        for name, category in categories {
+            total += knowledge.getKnowledge(IPlayerKnowledge.EnumKnowledgeType.THEORY, category);
+        }
+        return total;
+    }
+    return 0;
+}
+
+val eruditeTrait = ArmorTraitBuilder.create("erudite");
+eruditeTrait.color = Color.fromHex("ffffff").getIntColor();
+eruditeTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.eruditeTrait.name");
+eruditeTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.eruditeTrait.desc");
+eruditeTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        var mtp as float = Math.log10(getTheoryKnowledge(player) as double) as float;
+        var multiplier as float = Math.min(mtp, 3.0f) as float;
+        return (newDamage / multiplier) as float;
+    }
+    return newDamage;
+};
+eruditeTrait.register();

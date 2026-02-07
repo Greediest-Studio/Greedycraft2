@@ -11,6 +11,7 @@ import crafttweaker.event.PlayerRespawnEvent;
 import crafttweaker.event.PlayerTickEvent;
 import crafttweaker.data.IData;
 import crafttweaker.damage.IDamageSource;
+import crafttweaker.item.IItemStack;
 import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.player.IPlayer;
 import crafttweaker.util.Position3f;
@@ -176,6 +177,19 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
             player.sendChat("§f[极乐净土] 击杀数：0 受伤数：" + hurtTime as string);
         }
         dmg = 0.0f;
+    }
+
+    //Bloody Arrow Trait
+    if (!isNull(player.mainHandHeldItem)) {
+        if (TicTraitLib.hasTicTrait(player.mainHandHeldItem, "bloody_arrow") || TicTraitLib.hasTicTrait(player.mainHandHeldItem, "bloody_arrow2")) {
+            var bow as IItemStack = player.mainHandHeldItem;
+            if (!isNull(bow.tag.bloodyArrow)) {
+                var oldCount as int = bow.tag.bloodyArrow as int;
+                bow.mutable().updateTag({bloodyArrow : (oldCount + 1) as int});
+            } else {
+                bow.mutable().updateTag({bloodyArrow : 1 as int});
+            }
+        }
     }
     
     event.amount = dmg;

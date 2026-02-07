@@ -74,10 +74,28 @@ RecipeBuilder.newBuilder("calcium", "elysia_pyrolyzer", 600)
     .addItemOutput(<additions:calcium_oxide> * 9)
     .addRecipeTooltip("§d热解配方支持模块化电容升级，详情请查询“模块化电容”")
     .build();
+
 RecipeBuilder.newBuilder("coal", "elysia_pyrolyzer", 100)
     .addItemInput(<minecraft:coal> * 8)
     .addEnergyPerTickInput(1024)
     .addItemOutput(<thermalfoundation:material:802> * 8)
     .addFluidOutput(<liquid:creosote> * 2000)
+    .addRecipeTooltip("§d热解配方支持模块化电容升级，详情请查询“模块化电容”")
+    .build();
+
+RecipeBuilder.newBuilder("benzene", "elysia_pyrolyzer", 600)
+    .addItemInput(<thermalfoundation:material:833> * 1)
+    .addEnergyPerTickInput(1024)
+    .addFluidOutput(<liquid:benzene> * 10)
+    .addFluidOutput(<liquid:toluene> * 10)
+    .addRecipeTooltip("§d热解配方支持模块化电容升级，详情请查询“模块化电容”")
+    .build();
+
+RecipeBuilder.newBuilder("hydrocarbon", "elysia_pyrolyzer", 400)
+    .addFluidInput(<liquid:mixed_hydrocarbon> * 1000)
+    .addEnergyPerTickInput(1024)
+    .addFluidOutput(<liquid:methane> * 500)
+    .addFluidOutput(<liquid:ethene> * 250)
+    .addFluidOutput(<liquid:ethyne> * 250) 
     .addRecipeTooltip("§d热解配方支持模块化电容升级，详情请查询“模块化电容”")
     .build();

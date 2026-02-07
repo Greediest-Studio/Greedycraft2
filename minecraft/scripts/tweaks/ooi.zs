@@ -100,3 +100,4 @@ ConversionFluid.create(<liquid:experience>).addMatchFluid(<liquid:xpjuice>).addM
 ConversionFluid.create(<liquid:xu_demonic_metal>).addMatchFluid(<liquid:demonic_metal>).register();
 ConversionFluid.create(<liquid:ethyne>).addMatchFluid(<liquid:ethylene>).register();
 ConversionFluid.create(<liquid:liquidsolarsteel>).addMatchFluid(<liquid:solarsteel>).register();
+ConversionFluid.create(<liquid:void_metal>).addMatchFluid(<liquid:void>).register();

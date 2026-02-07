@@ -2697,6 +2697,18 @@ molten_murderite_purified.stillLocation = "base:fluids/molten";
 molten_murderite_purified.flowingLocation = "base:fluids/molten_flowing";
 molten_murderite_purified.register();
 
+val molten_primordial_extended = mods.contenttweaker.VanillaFactory.createFluid("primordial_extended", Color.fromHex("a7b39c").getIntColor());
+molten_primordial_extended.material = <blockmaterial:lava>;
+molten_primordial_extended.viscosity = 3000;
+molten_primordial_extended.density = 6500;
+molten_primordial_extended.colorize = true;
+molten_primordial_extended.temperature = 1000;
+molten_primordial_extended.luminosity = 10;
+molten_primordial_extended.color = Color.fromHex("a7b39c").getIntColor();
+molten_primordial_extended.stillLocation = "base:fluids/molten";
+molten_primordial_extended.flowingLocation = "base:fluids/molten_flowing";
+molten_primordial_extended.register();
+
 //液化类
 val liquid_air = mods.contenttweaker.VanillaFactory.createFluid("liquid_air", Color.fromHex("ffffff").getIntColor());
 liquid_air.material = <blockmaterial:water>;
@@ -3021,6 +3033,66 @@ acetylene.color = Color.fromHex("666666").getIntColor();
 acetylene.stillLocation = "base:fluids/liquid";
 acetylene.flowingLocation = "base:fluids/liquid_flow";
 acetylene.register();
+
+val cyclohexane = mods.contenttweaker.VanillaFactory.createFluid("cyclohexane", Color.fromHex("dddddd").getIntColor());
+cyclohexane.material = <blockmaterial:water>;
+cyclohexane.viscosity = 3000;
+cyclohexane.density = 6500;
+cyclohexane.colorize = true;
+cyclohexane.temperature = 400;
+cyclohexane.luminosity = 10;
+cyclohexane.color = Color.fromHex("dddddd").getIntColor();
+cyclohexane.stillLocation = "base:fluids/liquid";
+cyclohexane.flowingLocation = "base:fluids/liquid_flow";
+cyclohexane.register();
+
+val cyclohexanone = mods.contenttweaker.VanillaFactory.createFluid("cyclohexanone", Color.fromHex("cccccc").getIntColor());
+cyclohexanone.material = <blockmaterial:water>;
+cyclohexanone.viscosity = 3000;
+cyclohexanone.density = 6500;
+cyclohexanone.colorize = true;
+cyclohexanone.temperature = 400;
+cyclohexanone.luminosity = 10;
+cyclohexanone.color = Color.fromHex("cccccc").getIntColor();
+cyclohexanone.stillLocation = "base:fluids/liquid";
+cyclohexanone.flowingLocation = "base:fluids/liquid_flow";
+cyclohexanone.register();
+
+val cyclohexanone_oxime = mods.contenttweaker.VanillaFactory.createFluid("cyclohexanone_oxime", Color.fromHex("9dfff9").getIntColor());
+cyclohexanone_oxime.material = <blockmaterial:water>;
+cyclohexanone_oxime.viscosity = 3000;
+cyclohexanone_oxime.density = 6500;
+cyclohexanone_oxime.colorize = true;
+cyclohexanone_oxime.temperature = 400;
+cyclohexanone_oxime.luminosity = 10;
+cyclohexanone_oxime.color = Color.fromHex("9dfff9").getIntColor();
+cyclohexanone_oxime.stillLocation = "base:fluids/liquid";
+cyclohexanone_oxime.flowingLocation = "base:fluids/liquid_flow";
+cyclohexanone_oxime.register();
+
+val hydroxylamine = mods.contenttweaker.VanillaFactory.createFluid("hydroxylamine", Color.fromHex("5f8d8c").getIntColor());
+hydroxylamine.material = <blockmaterial:water>;
+hydroxylamine.viscosity = 3000;
+hydroxylamine.density = 6500;
+hydroxylamine.colorize = true;
+hydroxylamine.temperature = 400;
+hydroxylamine.luminosity = 10;
+hydroxylamine.color = Color.fromHex("5f8d8c").getIntColor();
+hydroxylamine.stillLocation = "base:fluids/liquid";
+hydroxylamine.flowingLocation = "base:fluids/liquid_flow";
+hydroxylamine.register();
+
+val caprolactam = mods.contenttweaker.VanillaFactory.createFluid("caprolactam", Color.fromHex("35948a").getIntColor());
+caprolactam.material = <blockmaterial:water>;
+caprolactam.viscosity = 3000;
+caprolactam.density = 6500;
+caprolactam.colorize = true;
+caprolactam.temperature = 400;
+caprolactam.luminosity = 10;
+caprolactam.color = Color.fromHex("35948a").getIntColor();
+caprolactam.stillLocation = "base:fluids/liquid";
+caprolactam.flowingLocation = "base:fluids/liquid_flow";
+caprolactam.register();
 
 val formaldehyde = mods.contenttweaker.VanillaFactory.createFluid("formaldehyde", Color.fromHex("8fbfba").getIntColor());
 formaldehyde.material = <blockmaterial:water>;

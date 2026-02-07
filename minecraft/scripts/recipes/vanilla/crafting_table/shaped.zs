@@ -1135,9 +1135,6 @@ RecipeUtil.addShaped("auto_gen_2008269634", <buildinggadgets:buildingtool>, [
     [<ore:ingotBronze>, <ore:gemDiamond>, <ore:ingotBronze>],
     [<ore:ingotStainlessSteel>, <ore:dustRedstone>, <ore:ingotStainlessSteel>]
 ]);
-RecipeUtil.addShaped("nylon_string", <additions:nylon_string>, [
-    [<thermalfoundation:material:833>, <thermalfoundation:material:833>, <thermalfoundation:material:833>]
-]);
 RecipeUtil.addShaped("nylon_cloth", <additions:nylon_cloth>, [
     [<ore:stringNylon>, <ore:stringNylon>, <ore:stringNylon>],
     [<ore:stringNylon>, <ore:stringNylon>, <ore:stringNylon>],
@@ -1262,7 +1259,7 @@ RecipeUtil.addShaped("ender_hook", <hooked:hook:4>, [
 ]);
 RecipeUtil.addShaped("soul_snare", <bloodmagic:soul_snare> * 8, [
     [null, <ore:dustDreadium>, <minecraft:web>],
-    [null, <ore:stringNylon>, <ore:dustDreadium>],
+    [null, <ore:manaString>, <ore:dustDreadium>],
     [<ore:ingotThaumium>, null, null]
 ]);
 RecipeUtil.addShaped("blood_apple", <variegated:blood_apple>, [

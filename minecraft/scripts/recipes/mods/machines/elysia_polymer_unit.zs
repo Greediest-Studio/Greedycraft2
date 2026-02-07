@@ -30,7 +30,7 @@ MachineModifier.setMaxParallelism("elysia_polymer", 65536);
 
 MMEvents.onControllerGUIRender("elysia_polymer", function(event as ControllerGUIRenderEvent) {
     var info as string[] = [
-        "§e///大型液化单元控制面板///",
+        "§e///大型聚合单元控制面板///",
         "§a机器名称：§eELYSIA单元 - 大型聚合单元"
     ];
     event.extraInfo = info;
@@ -52,6 +52,7 @@ function addPolymerRecipe(inputs as ILiquidStack[], outputs as ILiquidStack[]) {
 //加聚
 addPolymerRecipe([<liquid:ethene> * 1000], [<liquid:polyethylene_low_density> * 144]);
 addPolymerRecipe([<liquid:tetrafluoroethene> * 1000], [<liquid:polytetrafluoroethene> * 144]);
+addPolymerRecipe([<liquid:caprolactam> * 1000], [<liquid:nylon_6> * 144]);
 
 //缩聚
 addPolymerRecipe([<liquid:dfdps> * 666, <liquid:sodium_hydroquinone_solution> * 666], [<liquid:polyethersulfone> * 144, <liquid:sodium_fluoride_solution> * 1332]);

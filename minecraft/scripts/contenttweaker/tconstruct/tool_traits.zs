@@ -42,9 +42,10 @@ import mods.ctutils.utils.Math;
 import mods.contenttweaker.Fluid;
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Color;
-import mods.contenttweaker.tconstruct.Trait;
-import mods.contenttweaker.tconstruct.TraitDataRepresentation;
-import mods.contenttweaker.tconstruct.TraitBuilder;
+import mods.cc.tic.ToolTraitBuilder;
+import mods.cc.tic.ToolTrait;
+import mods.cc.tic.TraitDataRepresentation;
+import mods.cc.CCTagUtil;
 import mods.zenutils.I18n;
 import mods.zenutils.DataUpdateOperation.OVERWRITE;
 import mods.zenutils.DataUpdateOperation.APPEND;
@@ -70,7 +71,10 @@ import native.thebetweenlands.api.capability.IDecayCapability;
 import native.thebetweenlands.common.capability.decay.DecayStats;
 import native.thebetweenlands.common.registries.CapabilityRegistry;
 import native.com.meteor.extrabotany.common.helper.SubspaceHelper;
-import native.mezz.jei.color.ColorGetter;
+import native.thaumcraft.api.capabilities.IPlayerKnowledge;
+import native.thaumcraft.api.capabilities.ThaumcraftCapabilities;
+import native.thaumcraft.api.research.ResearchCategory;
+import native.thaumcraft.api.research.ResearchCategories;
 
 $expand IItemStack$hasTicTrait(traitid as string) as bool {
     return CotTicTraitLib.hasTicTrait(this, traitid);
@@ -287,7 +291,7 @@ function lognum(a as int, b as int) as float {
     return (Math.log(b) as float / Math.log(a) as float) as float;
 }
 
-val poopTrait = TraitBuilder.create("poopy");
+val poopTrait = ToolTraitBuilder.create("poopy");
 poopTrait.color = Color.fromHex("5d4037").getIntColor(); 
 poopTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.poopTrait.name");
 poopTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.poopTrait.desc");
@@ -301,7 +305,7 @@ poopTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
 };
 poopTrait.register();
 
-val pinkyTrait = TraitBuilder.create("pinky");
+val pinkyTrait = ToolTraitBuilder.create("pinky");
 pinkyTrait.color = Color.fromHex("ff80ab").getIntColor(); 
 pinkyTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.pinkyTrait.name");
 pinkyTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.pinkyTrait.desc");
@@ -314,7 +318,7 @@ pinkyTrait.onBlockHarvestDrops = function(trait, tool, event) {
 };
 pinkyTrait.register();
 
-val cotlifestealTrait = TraitBuilder.create("cotlifesteal");
+val cotlifestealTrait = ToolTraitBuilder.create("cotlifesteal");
 cotlifestealTrait.color = Color.fromHex("ff5252").getIntColor(); 
 cotlifestealTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.cotlifestealTrait.name");
 cotlifestealTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.cotlifestealTrait.desc");
@@ -331,7 +335,7 @@ cotlifestealTrait.afterHit = function(trait, tool, attacker, target, damageDealt
 };
 cotlifestealTrait.register();
 
-val cotlifesteal2Trait = TraitBuilder.create("cotlifesteal2");
+val cotlifesteal2Trait = ToolTraitBuilder.create("cotlifesteal2");
 cotlifesteal2Trait.color = Color.fromHex("ff5252").getIntColor();
 cotlifesteal2Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.cotlifesteal2Trait.name");
 cotlifesteal2Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.cotlifestealTrait.desc");
@@ -348,7 +352,7 @@ cotlifesteal2Trait.afterHit = function(trait, tool, attacker, target, damageDeal
 };
 cotlifesteal2Trait.register();
 
-val superknockpackTrait = TraitBuilder.create("superknockback");
+val superknockpackTrait = ToolTraitBuilder.create("superknockback");
 superknockpackTrait.color = Color.fromHex("7e57c2").getIntColor(); 
 superknockpackTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.superknockpackTrait.name");
 superknockpackTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.superknockpackTrait.desc");
@@ -366,7 +370,7 @@ superknockpackTrait.calcKnockBack = function(trait, tool, attacker, target, dama
 };
 superknockpackTrait.register();
 
-val gambleTrait = TraitBuilder.create("gamble");
+val gambleTrait = ToolTraitBuilder.create("gamble");
 gambleTrait.color = Color.fromHex("ffa000").getIntColor(); 
 gambleTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.gambleTrait.name");
 gambleTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.gambleTrait.desc");
@@ -382,7 +386,7 @@ gambleTrait.calcDamage = function(trait, tool, attacker, target, originalDamage,
 };
 gambleTrait.register();
 
-val gamble2Trait = TraitBuilder.create("gamble2");
+val gamble2Trait = ToolTraitBuilder.create("gamble2");
 gamble2Trait.color = Color.fromHex("ffa000").getIntColor(); 
 gamble2Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.gamble2Trait.name");
 gamble2Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.gamble2Trait.desc");
@@ -399,7 +403,7 @@ gamble2Trait.calcDamage = function(trait, tool, attacker, target, originalDamage
 gamble2Trait.register();
 
 
-val ragingTrait = TraitBuilder.create("raging");
+val ragingTrait = ToolTraitBuilder.create("raging");
 ragingTrait.color = Color.fromHex("e040fb").getIntColor(); 
 ragingTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.ragingTrait.name");
 ragingTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.ragingTrait.desc");
@@ -411,7 +415,7 @@ ragingTrait.calcDamage = function(trait, tool, attacker, target, originalDamage,
 };
 ragingTrait.register();
 
-val levelingdamageTrait = TraitBuilder.create("levelingdamage");
+val levelingdamageTrait = ToolTraitBuilder.create("levelingdamage");
 levelingdamageTrait.color = Color.fromHex("7e57c2").getIntColor(); 
 levelingdamageTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.levelingdamageTrait.name");
 levelingdamageTrait.addItem(<ore:plateHonor>);
@@ -482,7 +486,7 @@ levelingdamageTrait.calcDamage = function(trait, tool, attacker, target, origina
 };
 levelingdamageTrait.register();
 
-val thunderingTrait = TraitBuilder.create("lightning");
+val thunderingTrait = ToolTraitBuilder.create("lightning");
 thunderingTrait.color = Color.fromHex("ffee58").getIntColor(); 
 thunderingTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.thunderingTrait.name");
 thunderingTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.thunderingTrait.desc");
@@ -495,7 +499,7 @@ thunderingTrait.afterHit = function(trait, tool, attacker, target, damageDealt, 
 };
 thunderingTrait.register();
 
-val visionTrait = TraitBuilder.create("vision");
+val visionTrait = ToolTraitBuilder.create("vision");
 visionTrait.color = Color.fromHex("ffeb3b").getIntColor(); 
 visionTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.visionTrait.name");
 visionTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.visionTrait.desc");
@@ -509,7 +513,7 @@ visionTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected)
 };
 visionTrait.register();
 
-val fortifiedTrait = TraitBuilder.create("fortified");
+val fortifiedTrait = ToolTraitBuilder.create("fortified");
 fortifiedTrait.color = Color.fromHex("bdbdbd").getIntColor(); 
 fortifiedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.fortifiedTrait.name");
 fortifiedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.fortifiedTrait.desc");
@@ -520,7 +524,7 @@ fortifiedTrait.onBlock = function(trait, tool, player, event) {
 };
 fortifiedTrait.register();
 
-val reliableTrait = TraitBuilder.create("reliable");
+val reliableTrait = ToolTraitBuilder.create("reliable");
 reliableTrait.color = Color.fromHex("78909c").getIntColor(); 
 reliableTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.reliableTrait.name");
 reliableTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.reliableTrait.desc");
@@ -537,7 +541,7 @@ reliableTrait.onToolDamage = function(trait, tool, unmodifiedAmount, newAmount, 
 };
 reliableTrait.register();
 
-val sacrificialTrait = TraitBuilder.create("sacrificial");
+val sacrificialTrait = ToolTraitBuilder.create("sacrificial");
 sacrificialTrait.color = Color.fromHex("c62828").getIntColor(); 
 sacrificialTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.sacrificialTrait.name");
 sacrificialTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.sacrificialTrait.desc");
@@ -553,7 +557,7 @@ sacrificialTrait.calcDamage = function(trait, tool, attacker, target, originalDa
 };
 sacrificialTrait.register();
 
-val halloweenTrait = TraitBuilder.create("halloween");
+val halloweenTrait = ToolTraitBuilder.create("halloween");
 halloweenTrait.color = Color.fromHex("fb8c00").getIntColor(); 
 halloweenTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.halloweenTrait.name");
 halloweenTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.halloweenTrait.desc");
@@ -567,7 +571,7 @@ halloweenTrait.onHit = function(trait, tool, attacker, target, damage, isCritica
 };
 halloweenTrait.register();
 
-val milkyTrait = TraitBuilder.create("milky");
+val milkyTrait = ToolTraitBuilder.create("milky");
 milkyTrait.color = Color.fromHex("ffffff").getIntColor(); 
 milkyTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.milkyTrait.name");
 milkyTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.milkyTrait.desc");
@@ -581,7 +585,7 @@ milkyTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) 
 };
 milkyTrait.register();
 
-val giantslayerTrait = TraitBuilder.create("giantslayer");
+val giantslayerTrait = ToolTraitBuilder.create("giantslayer");
 giantslayerTrait.color = Color.fromHex("ffb74d").getIntColor(); 
 giantslayerTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.giantslayerTrait.name");
 giantslayerTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.giantslayerTrait.desc");
@@ -597,7 +601,7 @@ giantslayerTrait.calcDamage = function(trait, tool, attacker, target, originalDa
 };
 giantslayerTrait.register();
 
-val crystalTrait = TraitBuilder.create("crystal_force");
+val crystalTrait = ToolTraitBuilder.create("crystal_force");
 crystalTrait.color = Color.fromHex("18ffff").getIntColor(); 
 crystalTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.crystalTrait.name");
 crystalTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.crystalTrait.desc");
@@ -613,7 +617,7 @@ crystalTrait.calcDamage = function(trait, tool, attacker, target, originalDamage
 };
 crystalTrait.register();
 
-val spartanTrait = TraitBuilder.create("spartan");
+val spartanTrait = ToolTraitBuilder.create("spartan");
 spartanTrait.color = Color.fromHex("e53935").getIntColor(); 
 spartanTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.spartanTrait.name");
 spartanTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.spartanTrait.desc");
@@ -626,7 +630,7 @@ spartanTrait.calcDamage = function(trait, tool, attacker, target, originalDamage
 };
 spartanTrait.register();
 
-val knowledgefulTrait = TraitBuilder.create("knowledgeful");
+val knowledgefulTrait = ToolTraitBuilder.create("knowledgeful");
 knowledgefulTrait.color = Color.fromHex("76ff03").getIntColor(); 
 knowledgefulTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.knowledgefulTrait.name");
 knowledgefulTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.knowledgefulTrait.desc");
@@ -643,7 +647,7 @@ knowledgefulTrait.calcDamage = function(trait, tool, attacker, target, originalD
 };
 knowledgefulTrait.register();
 
-val matterTrait1 = TraitBuilder.create("matter_condensing1");
+val matterTrait1 = ToolTraitBuilder.create("matter_condensing1");
 matterTrait1.color = Color.fromHex("691b9a").getIntColor(); 
 matterTrait1.localizedName = game.localize("greedycraft.tconstruct.tool_trait.matterTrait1.name");
 matterTrait1.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.matterTrait1.desc");
@@ -655,7 +659,7 @@ matterTrait1.afterHit = function(trait, tool, attacker, target, damageDealt, was
 };
 matterTrait1.register();
 
-val matterTrait2 = TraitBuilder.create("matter_condensing2");
+val matterTrait2 = ToolTraitBuilder.create("matter_condensing2");
 matterTrait2.color = Color.fromHex("691b9a").getIntColor(); 
 matterTrait2.localizedName = game.localize("greedycraft.tconstruct.tool_trait.matterTrait2.name");
 matterTrait2.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.matterTrait2.desc");
@@ -667,7 +671,7 @@ matterTrait2.afterHit = function(trait, tool, attacker, target, damageDealt, was
 };
 matterTrait2.register();
 
-val perfectionist = TraitBuilder.create("perfectionist");
+val perfectionist = ToolTraitBuilder.create("perfectionist");
 perfectionist.color = Color.fromHex("4caf50").getIntColor(); 
 perfectionist.localizedName = game.localize("greedycraft.tconstruct.tool_trait.perfectionist.name");
 perfectionist.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.perfectionist.desc");
@@ -676,7 +680,7 @@ perfectionist.calcDamage = function(trait, tool, attacker, target, originalDamag
 };
 perfectionist.register();
 
-val tidal_force = TraitBuilder.create("tidal_force");
+val tidal_force = ToolTraitBuilder.create("tidal_force");
 tidal_force.color = Color.fromHex("64ffda").getIntColor(); 
 tidal_force.localizedName = game.localize("greedycraft.tconstruct.tool_trait.tidal_force.name");
 tidal_force.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.tidal_force.desc");
@@ -697,7 +701,7 @@ tidal_force.calcDamage = function(trait, tool, attacker, target, originalDamage,
 };
 tidal_force.register();
 
-val holdGroundTrait = TraitBuilder.create("hold_ground");
+val holdGroundTrait = ToolTraitBuilder.create("hold_ground");
 holdGroundTrait.color = Color.fromHex("f44336").getIntColor(); 
 holdGroundTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.holdGroundTrait.name");
 holdGroundTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.holdGroundTrait.desc");
@@ -715,7 +719,7 @@ holdGroundTrait.onBlock = function(trait, tool, player, event) {
 };
 holdGroundTrait.register();
 
-val motionTrait = TraitBuilder.create("motion");
+val motionTrait = ToolTraitBuilder.create("motion");
 motionTrait.color = Color.fromHex("ffee58").getIntColor(); 
 motionTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.motionTrait.name");
 motionTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.motionTrait.desc");
@@ -739,7 +743,7 @@ motionTrait.calcKnockBack = function(trait, tool, attacker, target, damage, orig
 };
 motionTrait.register();
 
-val executionerTrait = TraitBuilder.create("executioner");
+val executionerTrait = ToolTraitBuilder.create("executioner");
 executionerTrait.color = Color.fromHex("e53935").getIntColor(); 
 executionerTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.executionerTrait.name");
 executionerTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.executionerTrait.desc");
@@ -763,7 +767,7 @@ executionerTrait.onHit = function(trait, tool, attacker, target, damage, isCriti
 };
 executionerTrait.register();
 
-val penetrationTrait = TraitBuilder.create("penetration");
+val penetrationTrait = ToolTraitBuilder.create("penetration");
 penetrationTrait.color = Color.fromHex("2979ff").getIntColor(); 
 penetrationTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.penetrationTrait.name");
 penetrationTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.penetrationTrait.desc");
@@ -780,7 +784,7 @@ penetrationTrait.calcDamage = function(trait, tool, attacker, target, originalDa
 };
 penetrationTrait.register();
 
-val thronyTrait = TraitBuilder.create("throny");
+val thronyTrait = ToolTraitBuilder.create("throny");
 thronyTrait.color = Color.fromHex("4caf50").getIntColor(); 
 thronyTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.thronyTrait.name");
 thronyTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.thronyTrait.desc");
@@ -797,7 +801,7 @@ thronyTrait.onBlock = function(trait, tool, player, event) {
 };
 thronyTrait.register();
 
-val nightBaneTrait = TraitBuilder.create("bane_of_night");
+val nightBaneTrait = ToolTraitBuilder.create("bane_of_night");
 nightBaneTrait.color = Color.fromHex("fff176").getIntColor(); 
 nightBaneTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.nightBaneTrait.name");
 nightBaneTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.nightBaneTrait.desc");
@@ -811,7 +815,7 @@ nightBaneTrait.calcDamage = function(trait, tool, attacker, target, originalDama
 };
 nightBaneTrait.register();
 
-val bloodlustTrait = TraitBuilder.create("bloodlust");
+val bloodlustTrait = ToolTraitBuilder.create("bloodlust");
 bloodlustTrait.color = Color.fromHex("f44336").getIntColor(); 
 bloodlustTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.bloodlustTrait.name");
 bloodlustTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.bloodlustTrait.desc");
@@ -821,7 +825,7 @@ bloodlustTrait.calcDamage = function(trait, tool, attacker, target, originalDama
 };
 bloodlustTrait.register();
 
-val assassinTrait = TraitBuilder.create("assassin");
+val assassinTrait = ToolTraitBuilder.create("assassin");
 assassinTrait.color = Color.fromHex("fff176").getIntColor(); 
 assassinTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.assassinTrait.name");
 assassinTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.assassinTrait.desc");
@@ -838,7 +842,7 @@ assassinTrait.calcDamage = function(trait, tool, attacker, target, originalDamag
 assassinTrait.register();
 
 
-val madnessTrait = TraitBuilder.create("madness");
+val madnessTrait = ToolTraitBuilder.create("madness");
 madnessTrait.color = Color.fromHex("2979ff").getIntColor(); 
 madnessTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.madnessTrait.name");
 madnessTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.madnessTrait.desc");
@@ -868,7 +872,7 @@ madnessTrait.calcDamage = function(trait, tool, attacker, target, originalDamage
 };
 madnessTrait.register();
 
-val madness2Trait = TraitBuilder.create("madness2");
+val madness2Trait = ToolTraitBuilder.create("madness2");
 madness2Trait.color = Color.fromHex("2979ff").getIntColor(); 
 madness2Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.madness2Trait.name");
 madness2Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.madnessTrait.desc");
@@ -898,7 +902,7 @@ madness2Trait.calcDamage = function(trait, tool, attacker, target, originalDamag
 };
 madness2Trait.register();
 
-val plasmafusionTrait = TraitBuilder.create("plasmafusion");
+val plasmafusionTrait = ToolTraitBuilder.create("plasmafusion");
 plasmafusionTrait.color = Color.fromHex("ffffff").getIntColor(); 
 plasmafusionTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.plasmafusionTrait.name");
 plasmafusionTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.plasmafusionTrait.desc");
@@ -912,7 +916,7 @@ plasmafusionTrait.onHit = function(trait, tool, attacker, target, damage, isCrit
 };
 plasmafusionTrait.register();
 
-val abysscallingTrait = TraitBuilder.create("abysscalling");
+val abysscallingTrait = ToolTraitBuilder.create("abysscalling");
 abysscallingTrait.color = Color.fromHex("ffffff").getIntColor(); 
 abysscallingTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.abysscallingTrait.name");
 abysscallingTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.abysscallingTrait.desc");
@@ -924,7 +928,7 @@ abysscallingTrait.calcDamage = function(trait, tool, attacker, target, originalD
     return newDamage;
 };
 abysscallingTrait.register();
-val abysscalling2Trait = TraitBuilder.create("abysscalling2");
+val abysscalling2Trait = ToolTraitBuilder.create("abysscalling2");
 abysscalling2Trait.color = Color.fromHex("ffffff").getIntColor(); 
 abysscalling2Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.abysscalling2Trait.name");
 abysscalling2Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.abysscallingTrait.desc");
@@ -937,7 +941,7 @@ abysscalling2Trait.calcDamage = function(trait, tool, attacker, target, original
 };
 abysscalling2Trait.register();
 
-val elementfriendlyTrait = TraitBuilder.create("elementfriendly");
+val elementfriendlyTrait = ToolTraitBuilder.create("elementfriendly");
 elementfriendlyTrait.color = Color.fromHex("ffffff").getIntColor(); 
 elementfriendlyTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.elementfriendlyTrait.name");
 elementfriendlyTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.elementfriendlyTrait.desc");
@@ -974,7 +978,7 @@ elementfriendlyTrait.calcDamage = function(trait, tool, attacker, target, origin
 };
 elementfriendlyTrait.register();
 
-val dnaengineeringTrait = TraitBuilder.create("dnaengineering");
+val dnaengineeringTrait = ToolTraitBuilder.create("dnaengineering");
 dnaengineeringTrait.color = Color.fromHex("ffffff").getIntColor();
 dnaengineeringTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.dnaengineeringTrait.name");
 dnaengineeringTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.dnaengineeringTrait.desc");
@@ -996,7 +1000,7 @@ dnaengineeringTrait.calcDamage = function(trait, tool, attacker, target, origina
 };
 dnaengineeringTrait.register();
 
-val starskyTrait = TraitBuilder.create("starsky");
+val starskyTrait = ToolTraitBuilder.create("starsky");
 starskyTrait.color = Color.fromHex("ffffff").getIntColor();
 starskyTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.starskyTrait.name");
 starskyTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.starskyTrait.desc");
@@ -1010,7 +1014,7 @@ starskyTrait.calcDamage = function(trait, tool, attacker, target, originalDamage
 };
 starskyTrait.register();
 
-val disappearingTrait = TraitBuilder.create("disappearing");
+val disappearingTrait = ToolTraitBuilder.create("disappearing");
 disappearingTrait.color = Color.fromHex("ffffff").getIntColor();
 disappearingTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.disappearingTrait.name");
 disappearingTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.disappearingTrait.desc");
@@ -1024,7 +1028,7 @@ disappearingTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSel
 };
 disappearingTrait.register();
 
-val twilighthand1Trait = TraitBuilder.create("twilight_hand1");
+val twilighthand1Trait = ToolTraitBuilder.create("twilight_hand1");
 twilighthand1Trait.color = Color.fromHex("ffffff").getIntColor();
 twilighthand1Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.twilighthandTrait1.name");
 twilighthand1Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.twilighthandTrait.desc");
@@ -1036,7 +1040,7 @@ twilighthand1Trait.calcDamage = function(trait, tool, attacker, target, original
 };
 twilighthand1Trait.register();
 
-val twilighthand2Trait = TraitBuilder.create("twilight_hand2");
+val twilighthand2Trait = ToolTraitBuilder.create("twilight_hand2");
 twilighthand2Trait.color = Color.fromHex("ffffff").getIntColor();
 twilighthand2Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.twilighthandTrait2.name");
 twilighthand2Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.twilighthandTrait.desc");
@@ -1048,7 +1052,7 @@ twilighthand2Trait.calcDamage = function(trait, tool, attacker, target, original
 };
 twilighthand2Trait.register();
 
-val twilighthand3Trait = TraitBuilder.create("twilight_hand3");
+val twilighthand3Trait = ToolTraitBuilder.create("twilight_hand3");
 twilighthand3Trait.color = Color.fromHex("ffffff").getIntColor();
 twilighthand3Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.twilighthandTrait3.name");
 twilighthand3Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.twilighthandTrait.desc");
@@ -1060,7 +1064,7 @@ twilighthand3Trait.calcDamage = function(trait, tool, attacker, target, original
 };
 twilighthand3Trait.register();
 
-val twilighthand4Trait = TraitBuilder.create("twilight_hand4");
+val twilighthand4Trait = ToolTraitBuilder.create("twilight_hand4");
 twilighthand4Trait.color = Color.fromHex("ffffff").getIntColor();
 twilighthand4Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.twilighthandTrait4.name");
 twilighthand4Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.twilighthandTrait.desc");
@@ -1072,7 +1076,7 @@ twilighthand4Trait.calcDamage = function(trait, tool, attacker, target, original
 };
 twilighthand4Trait.register();
 
-val twilighthand5Trait = TraitBuilder.create("twilight_hand5");
+val twilighthand5Trait = ToolTraitBuilder.create("twilight_hand5");
 twilighthand5Trait.color = Color.fromHex("ffffff").getIntColor();
 twilighthand5Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.twilighthandTrait5.name");
 twilighthand5Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.twilighthandTrait.desc");
@@ -1084,7 +1088,7 @@ twilighthand5Trait.calcDamage = function(trait, tool, attacker, target, original
 };
 twilighthand5Trait.register();
 
-val worldendTrait = TraitBuilder.create("world_end");
+val worldendTrait = ToolTraitBuilder.create("world_end");
 worldendTrait.color = Color.fromHex("ffffff").getIntColor();
 worldendTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.worldendTrait.name");
 worldendTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.worldendTrait.desc");
@@ -1094,7 +1098,7 @@ worldendTrait.calcDamage = function(trait, tool, attacker, target, originalDamag
 };
 worldendTrait.register();
 
-val nightmareTrait = TraitBuilder.create("nightmare");
+val nightmareTrait = ToolTraitBuilder.create("nightmare");
 nightmareTrait.color = Color.fromHex("ffffff").getIntColor();
 nightmareTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.nightmareTrait.name");
 nightmareTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.nightmareTrait.desc");
@@ -1106,7 +1110,7 @@ nightmareTrait.calcDamage = function(trait, tool, attacker, target, originalDama
 };
 nightmareTrait.register();
 
-val strongmoonTrait = TraitBuilder.create("strong_moon");
+val strongmoonTrait = ToolTraitBuilder.create("strong_moon");
 strongmoonTrait.color = Color.fromHex("ffffff").getIntColor(); 
 strongmoonTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.strongmoonTrait.name");
 strongmoonTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.strongmoonTrait.desc");
@@ -1119,7 +1123,7 @@ strongmoonTrait.calcDamage = function(trait, tool, attacker, target, originalDam
 };
 strongmoonTrait.register();
 
-val aurorapowerTrait = TraitBuilder.create("aurora_power");
+val aurorapowerTrait = ToolTraitBuilder.create("aurora_power");
 aurorapowerTrait.color = Color.fromHex("ffffff").getIntColor(); 
 aurorapowerTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.aurorapowerTrait.name");
 aurorapowerTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.aurorapowerTrait.desc");
@@ -1135,7 +1139,7 @@ aurorapowerTrait.calcDamage = function(trait, tool, attacker, target, originalDa
 };
 aurorapowerTrait.register();
 
-val foglightTrait = TraitBuilder.create("fog_light");
+val foglightTrait = ToolTraitBuilder.create("fog_light");
 foglightTrait.color = Color.fromHex("ffffff").getIntColor();
 foglightTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.foglightTrait.name");
 foglightTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.foglightTrait.desc");
@@ -1151,7 +1155,7 @@ foglightTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelecte
 };
 foglightTrait.register();
 
-val soul_absorbTrait = TraitBuilder.create("soul_absorb");
+val soul_absorbTrait = ToolTraitBuilder.create("soul_absorb");
 soul_absorbTrait.color = Color.fromHex("76ff03").getIntColor(); 
 soul_absorbTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.soul_absorbTrait.name");
 soul_absorbTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.soul_absorbTrait.desc");
@@ -1165,7 +1169,7 @@ soul_absorbTrait.calcDamage = function(trait, tool, attacker, target, originalDa
 };
 soul_absorbTrait.register();
 
-val time_turnTrait = TraitBuilder.create("time_turn");
+val time_turnTrait = ToolTraitBuilder.create("time_turn");
 time_turnTrait.color = Color.fromHex("76ff03").getIntColor(); 
 time_turnTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.time_turnTrait.name");
 time_turnTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.time_turnTrait.desc");
@@ -1178,7 +1182,7 @@ time_turnTrait.calcDamage = function(trait, tool, attacker, target, originalDama
 };
 time_turnTrait.register();
 
-val ignitingTrait = TraitBuilder.create("igniting");
+val ignitingTrait = ToolTraitBuilder.create("igniting");
 ignitingTrait.color = Color.fromHex("76ff03").getIntColor(); 
 ignitingTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.ignitingTrait.name");
 ignitingTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.ignitingTrait.desc");
@@ -1192,7 +1196,7 @@ ignitingTrait.calcDamage = function(trait, tool, attacker, target, originalDamag
 };
 ignitingTrait.register();
 
-val freezedTrait = TraitBuilder.create("freezed");
+val freezedTrait = ToolTraitBuilder.create("freezed");
 freezedTrait.color = Color.fromHex("76ff03").getIntColor(); 
 freezedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.freezedTrait.name");
 freezedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.freezedTrait.desc");
@@ -1203,7 +1207,7 @@ freezedTrait.calcDamage = function(trait, tool, attacker, target, originalDamage
 };
 freezedTrait.register();
 
-val demon_hunterTrait = TraitBuilder.create("demon_hunter");
+val demon_hunterTrait = ToolTraitBuilder.create("demon_hunter");
 demon_hunterTrait.color = Color.fromHex("76ff03").getIntColor(); 
 demon_hunterTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.demon_hunterTrait.name");
 demon_hunterTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.demon_hunterTrait.desc");
@@ -1217,7 +1221,7 @@ demon_hunterTrait.calcDamage = function(trait, tool, attacker, target, originalD
 };
 demon_hunterTrait.register();
 
-val self_poisonTrait = TraitBuilder.create("self_poison");
+val self_poisonTrait = ToolTraitBuilder.create("self_poison");
 self_poisonTrait.color = Color.fromHex("76ff03").getIntColor(); 
 self_poisonTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.self_poisonTrait.name");
 self_poisonTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.self_poisonTrait.desc");
@@ -1234,7 +1238,7 @@ self_poisonTrait.calcDamage = function(trait, tool, attacker, target, originalDa
 };
 self_poisonTrait.register();
 
-val babTrait = TraitBuilder.create("battle_and_braver");
+val babTrait = ToolTraitBuilder.create("battle_and_braver");
 babTrait.color = Color.fromHex("ffffff").getIntColor(); 
 babTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.battle_and_braverTrait.name");
 babTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.battle_and_braverTrait.desc");
@@ -1252,7 +1256,7 @@ babTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
 };
 babTrait.register();
 
-val alkalinityTrait = TraitBuilder.create("alkalinity");
+val alkalinityTrait = ToolTraitBuilder.create("alkalinity");
 alkalinityTrait.color = Color.fromHex("ffffff").getIntColor(); 
 alkalinityTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.alkalinityTrait.name");
 alkalinityTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.alkalinityTrait.desc");
@@ -1263,7 +1267,7 @@ alkalinityTrait.onHit = function(trait, tool, attacker, target, damage, isCritic
 };
 alkalinityTrait.register();
 
-val acidityTrait = TraitBuilder.create("acidity");
+val acidityTrait = ToolTraitBuilder.create("acidity");
 acidityTrait.color = Color.fromHex("ffffff").getIntColor(); 
 acidityTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.acidityTrait.name");
 acidityTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.acidityTrait.desc");
@@ -1274,7 +1278,7 @@ acidityTrait.onHit = function(trait, tool, attacker, target, damage, isCritical)
 };
 acidityTrait.register();
 
-val packlightTrait = TraitBuilder.create("pack_light");
+val packlightTrait = ToolTraitBuilder.create("pack_light");
 packlightTrait.color = Color.fromHex("ffffff").getIntColor(); 
 packlightTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.packlightTrait.name");
 packlightTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.packlightTrait.desc");
@@ -1293,7 +1297,7 @@ packlightTrait.calcDamage = function(trait, tool, attacker, target, originalDama
 };
 packlightTrait.register();
 
-val luxuryTrait = TraitBuilder.create("luxury");
+val luxuryTrait = ToolTraitBuilder.create("luxury");
 luxuryTrait.color = Color.fromHex("ffffff").getIntColor(); 
 luxuryTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.luxuryTrait.name");
 luxuryTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.luxuryTrait.desc");
@@ -1313,7 +1317,7 @@ luxuryTrait.onBlockHarvestDrops = function(trait, tool, event) {
 };
 luxuryTrait.register();
 
-val spsTrait = TraitBuilder.create("superposition_state");
+val spsTrait = ToolTraitBuilder.create("superposition_state");
 spsTrait.color = Color.fromHex("ffffff").getIntColor(); 
 spsTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.superposition_stateTrait.name");
 spsTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.superposition_stateTrait.desc");
@@ -1340,7 +1344,7 @@ spsTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, ne
 };
 spsTrait.register();
 
-val strong_shockTrait = TraitBuilder.create("strong_shock");
+val strong_shockTrait = ToolTraitBuilder.create("strong_shock");
 strong_shockTrait.color = Color.fromHex("ffffff").getIntColor(); 
 strong_shockTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.strong_shockTrait.name");
 strong_shockTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.strong_shockTrait.desc");
@@ -1379,10 +1383,10 @@ strong_shockTrait.onBlockHarvestDrops = function(trait, tool, event) {
 strong_shockTrait.register();
 
 for i in 2 to 11 {
-    TraitBuilder.create("lighting" + i).color = Color.fromHex("ffffff").getIntColor(); 
-    TraitBuilder.create("lighting" + i).localizedName = game.localize("greedycraft.tconstruct.tool_trait.lightingTrait" + i + ".name");
-    TraitBuilder.create("lighting" + i).localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.lightingTrait.desc");
-    TraitBuilder.create("lighting" + i).calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    ToolTraitBuilder.create("lighting" + i).color = Color.fromHex("ffffff").getIntColor(); 
+    ToolTraitBuilder.create("lighting" + i).localizedName = game.localize("greedycraft.tconstruct.tool_trait.lightingTrait" + i + ".name");
+    ToolTraitBuilder.create("lighting" + i).localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.lightingTrait.desc");
+    ToolTraitBuilder.create("lighting" + i).calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
         val player as IPlayer = attacker;
         if (player.getDimension() < 830 && player.getDimension() > 819) {
             var amp = (1 + 2 * (Math.log(i) / Math.log(10))) as float;
@@ -1390,10 +1394,10 @@ for i in 2 to 11 {
         }
         return newDamage;
     };
-    TraitBuilder.create("lighting" + i).register();
+    ToolTraitBuilder.create("lighting" + i).register();
 }
 
-val active_sourceTrait = TraitBuilder.create("active_source");
+val active_sourceTrait = ToolTraitBuilder.create("active_source");
 active_sourceTrait.color = Color.fromHex("ffffff").getIntColor(); 
 active_sourceTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.active_sourceTrait.name");
 active_sourceTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.active_sourceTrait.desc");
@@ -1408,7 +1412,7 @@ active_sourceTrait.onUpdate = function(thisTrait, tool, world, entity, itemSlot,
     }
 };
 active_sourceTrait.register();
-val active_source2Trait = TraitBuilder.create("active_source2");
+val active_source2Trait = ToolTraitBuilder.create("active_source2");
 active_source2Trait.color = Color.fromHex("ffffff").getIntColor(); 
 active_source2Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.active_source2Trait.name");
 active_source2Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.active_sourceTrait.desc");
@@ -1423,7 +1427,7 @@ active_source2Trait.onUpdate = function(thisTrait, tool, world, entity, itemSlot
     }
 };
 active_source2Trait.register();
-val active_source3Trait = TraitBuilder.create("active_source3");
+val active_source3Trait = ToolTraitBuilder.create("active_source3");
 active_source3Trait.color = Color.fromHex("ffffff").getIntColor(); 
 active_source3Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.active_source3Trait.name");
 active_source3Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.active_sourceTrait.desc");
@@ -1438,7 +1442,7 @@ active_source3Trait.onUpdate = function(thisTrait, tool, world, entity, itemSlot
     }
 };
 active_source3Trait.register();
-val active_source4Trait = TraitBuilder.create("active_source4");
+val active_source4Trait = ToolTraitBuilder.create("active_source4");
 active_source4Trait.color = Color.fromHex("ffffff").getIntColor(); 
 active_source4Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.active_source4Trait.name");
 active_source4Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.active_sourceTrait.desc");
@@ -1453,7 +1457,7 @@ active_source4Trait.onUpdate = function(thisTrait, tool, world, entity, itemSlot
     }
 };
 active_source4Trait.register();
-val active_source5Trait = TraitBuilder.create("active_source5");
+val active_source5Trait = ToolTraitBuilder.create("active_source5");
 active_source5Trait.color = Color.fromHex("ffffff").getIntColor(); 
 active_source5Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.active_source5Trait.name");
 active_source5Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.active_sourceTrait.desc");
@@ -1468,7 +1472,7 @@ active_source5Trait.onUpdate = function(thisTrait, tool, world, entity, itemSlot
     }
 };
 active_source5Trait.register();
-val active_source6Trait = TraitBuilder.create("active_source6");
+val active_source6Trait = ToolTraitBuilder.create("active_source6");
 active_source6Trait.color = Color.fromHex("ffffff").getIntColor(); 
 active_source6Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.active_source6Trait.name");
 active_source6Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.active_sourceTrait.desc");
@@ -1484,7 +1488,7 @@ active_source6Trait.onUpdate = function(thisTrait, tool, world, entity, itemSlot
 };
 active_source6Trait.register();
 
-val moronismTrait = TraitBuilder.create("moronism");
+val moronismTrait = ToolTraitBuilder.create("moronism");
 moronismTrait.color = Color.fromHex("ffffff").getIntColor(); 
 moronismTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.moronismTrait.name");
 moronismTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.moronismTrait.desc");
@@ -1502,7 +1506,7 @@ moronismTrait.onHit = function(trait, tool, attacker, target, damage, isCritical
 };
 moronismTrait.register();
 
-val thousandfaceTrait = TraitBuilder.create("thousand_face");
+val thousandfaceTrait = ToolTraitBuilder.create("thousand_face");
 thousandfaceTrait.color = Color.fromHex("ffffff").getIntColor(); 
 thousandfaceTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.thousandfaceTrait.name");
 thousandfaceTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.thousandfaceTrait.desc");
@@ -1515,7 +1519,7 @@ thousandfaceTrait.calcDamage = function(trait, tool, attacker, target, originalD
 };
 thousandfaceTrait.register();
 
-val timeattackTrait = TraitBuilder.create("time_attack");
+val timeattackTrait = ToolTraitBuilder.create("time_attack");
 timeattackTrait.color = Color.fromHex("ffffff").getIntColor(); 
 timeattackTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.timeattackTrait.name");
 timeattackTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.timeattackTrait.desc");
@@ -1528,7 +1532,7 @@ timeattackTrait.calcDamage = function(trait, tool, attacker, target, originalDam
 };
 timeattackTrait.register();
 
-val shubTrait = TraitBuilder.create("shub");
+val shubTrait = ToolTraitBuilder.create("shub");
 shubTrait.color = Color.fromHex("ffffff").getIntColor(); 
 shubTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.shubTrait.name");
 shubTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.shubTrait.desc");
@@ -1549,7 +1553,7 @@ shubTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCri
 };
 shubTrait.register();
 
-val IAmetalTrait = TraitBuilder.create("ia_metals");
+val IAmetalTrait = ToolTraitBuilder.create("ia_metals");
 IAmetalTrait.color = Color.fromHex("ffffff").getIntColor(); 
 IAmetalTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.IAmetalTrait.name");
 IAmetalTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.IAmetalTrait.desc");
@@ -1569,7 +1573,7 @@ IAmetalTrait.calcDamage = function(trait, tool, attacker, target, originalDamage
 };
 IAmetalTrait.register();
 
-val IAmetal2Trait = TraitBuilder.create("ia_metals2");
+val IAmetal2Trait = ToolTraitBuilder.create("ia_metals2");
 IAmetal2Trait.color = Color.fromHex("ffffff").getIntColor(); 
 IAmetal2Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.IAmetalTrait2.name");
 IAmetal2Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.IAmetalTrait.desc");
@@ -1589,7 +1593,7 @@ IAmetal2Trait.calcDamage = function(trait, tool, attacker, target, originalDamag
 };
 IAmetal2Trait.register();
 
-val naturalrefinerTrait = TraitBuilder.create("natural_refiner");
+val naturalrefinerTrait = ToolTraitBuilder.create("natural_refiner");
 naturalrefinerTrait.color = Color.fromHex("ffffff").getIntColor(); 
 naturalrefinerTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.naturalrefinerTrait.name");
 naturalrefinerTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.naturalrefinerTrait.desc");
@@ -1600,7 +1604,7 @@ naturalrefinerTrait.onBlockHarvestDrops = function(trait, tool, event) {
 };
 naturalrefinerTrait.register();
 
-val light_discoveryTrait = TraitBuilder.create("light_discovery");
+val light_discoveryTrait = ToolTraitBuilder.create("light_discovery");
 light_discoveryTrait.color = Color.fromHex("ffffff").getIntColor(); 
 light_discoveryTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.light_discoveryTrait.name");
 light_discoveryTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.light_discoveryTrait.desc");
@@ -1617,7 +1621,7 @@ light_discoveryTrait.afterHit = function(trait, tool, attacker, target, damageDe
 };
 light_discoveryTrait.register();
 
-val curseflameTrait = TraitBuilder.create("curseflame");
+val curseflameTrait = ToolTraitBuilder.create("curseflame");
 curseflameTrait.color = Color.fromHex("ffffff").getIntColor(); 
 curseflameTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.curseflameTrait.name");
 curseflameTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.curseflameTrait.desc");
@@ -1628,7 +1632,7 @@ curseflameTrait.afterHit = function(trait, tool, attacker, target, damageDealt, 
 };
 curseflameTrait.register();
 
-val swallow_soulTrait = TraitBuilder.create("swallow_soul");
+val swallow_soulTrait = ToolTraitBuilder.create("swallow_soul");
 swallow_soulTrait.color = Color.fromHex("ffffff").getIntColor(); 
 swallow_soulTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.swallow_soulTrait.name");
 swallow_soulTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.swallow_soulTrait.desc");
@@ -1638,7 +1642,7 @@ swallow_soulTrait.afterHit = function(trait, tool, attacker, target, damageDealt
 };
 swallow_soulTrait.register();
 
-val below_heavenTrait = TraitBuilder.create("below_heaven");
+val below_heavenTrait = ToolTraitBuilder.create("below_heaven");
 below_heavenTrait.color = Color.fromHex("ffffff").getIntColor(); 
 below_heavenTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.below_heavenTrait.name");
 below_heavenTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.below_heavenTrait.desc");
@@ -1667,7 +1671,7 @@ below_heavenTrait.calcDamage = function(trait, tool, attacker, target, originalD
 };
 below_heavenTrait.register();
 
-val antidropTrait = TraitBuilder.create("antidrop");
+val antidropTrait = ToolTraitBuilder.create("antidrop");
 antidropTrait.color = Color.fromHex("ffffff").getIntColor(); 
 antidropTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.antidropTrait.name");
 antidropTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.antidropTrait.desc");
@@ -1678,7 +1682,7 @@ antidropTrait.onBlockHarvestDrops = function(thisTrait, tool, event) {
 };
 antidropTrait.register();
 
-val ghostyTrait = TraitBuilder.create("ghosty");
+val ghostyTrait = ToolTraitBuilder.create("ghosty");
 ghostyTrait.color = Color.fromHex("ffffff").getIntColor(); 
 ghostyTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.ghostyTrait.name");
 ghostyTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.ghostyTrait.desc");
@@ -1696,7 +1700,7 @@ ghostyTrait.onUpdate = function(thisTrait, tool, world, entity, itemSlot, isSele
 };
 ghostyTrait.register();
 
-val woundedTrait = TraitBuilder.create("wounded");
+val woundedTrait = ToolTraitBuilder.create("wounded");
 woundedTrait.color = Color.fromHex("ffffff").getIntColor(); 
 woundedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.woundedTrait.name");
 woundedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.woundedTrait.desc");
@@ -1710,7 +1714,7 @@ woundedTrait.calcDamage = function(trait, tool, attacker, target, originalDamage
 };
 woundedTrait.register();
 
-val cutawayTrait = TraitBuilder.create("cutaway");
+val cutawayTrait = ToolTraitBuilder.create("cutaway");
 cutawayTrait.color = Color.fromHex("ffffff").getIntColor(); 
 cutawayTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.cutawayTrait.name");
 cutawayTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.cutawayTrait.desc");
@@ -1724,7 +1728,7 @@ cutawayTrait.afterHit = function(trait, tool, attacker, target, damageDealt, was
 };
 cutawayTrait.register();
 
-val artTrait = TraitBuilder.create("arty");
+val artTrait = ToolTraitBuilder.create("arty");
 artTrait.color = Color.fromHex("5d4037").getIntColor(); 
 artTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.artTrait.name");
 artTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.artTrait.desc");
@@ -1770,7 +1774,7 @@ artTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
 };
 artTrait.register();
 
-val cooperationTrait = TraitBuilder.create("cooperation");
+val cooperationTrait = ToolTraitBuilder.create("cooperation");
 cooperationTrait.color = Color.fromHex("5d4037").getIntColor(); 
 cooperationTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.cooperationTrait.name");
 cooperationTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.cooperationTrait.desc");
@@ -1787,7 +1791,7 @@ cooperationTrait.onUpdate = function(thisTrait, tool, world, entity, itemSlot, i
 };
 cooperationTrait.register();
 
-val lucklessTrait = TraitBuilder.create("luckless");
+val lucklessTrait = ToolTraitBuilder.create("luckless");
 lucklessTrait.color = Color.fromHex("5d4037").getIntColor(); 
 lucklessTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.lucklessTrait.name");
 lucklessTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.lucklessTrait.desc");
@@ -1801,7 +1805,7 @@ lucklessTrait.onHit = function(trait, tool, attacker, target, damage, isCritical
 };
 lucklessTrait.register();
 
-val trapTrait = TraitBuilder.create("trap");
+val trapTrait = ToolTraitBuilder.create("trap");
 trapTrait.color = Color.fromHex("ffffff").getIntColor(); 
 trapTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.trapTrait.name");
 trapTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.trapTrait.desc");
@@ -1813,7 +1817,7 @@ trapTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCri
 };
 trapTrait.register();
 
-val make_believeTrait = TraitBuilder.create("make_believe");
+val make_believeTrait = ToolTraitBuilder.create("make_believe");
 make_believeTrait.color = Color.fromHex("ffffff").getIntColor(); 
 make_believeTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.make_believeTrait.name");
 make_believeTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.make_believeTrait.desc");
@@ -1825,7 +1829,7 @@ make_believeTrait.calcDamage = function(trait, tool, attacker, target, originalD
 };
 make_believeTrait.register();
 
-val pain_hitTrait = TraitBuilder.create("pain_hit");
+val pain_hitTrait = ToolTraitBuilder.create("pain_hit");
 pain_hitTrait.color = Color.fromHex("ffffff").getIntColor(); 
 pain_hitTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.pain_hitTrait.name");
 pain_hitTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.pain_hitTrait.desc");
@@ -1835,7 +1839,7 @@ pain_hitTrait.calcDamage = function(trait, tool, attacker, target, originalDamag
 };
 pain_hitTrait.register();
 
-val extinctionTrait = TraitBuilder.create("extinction");
+val extinctionTrait = ToolTraitBuilder.create("extinction");
 extinctionTrait.color = Color.fromHex("ffffff").getIntColor(); 
 extinctionTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.extinctionTrait.name");
 extinctionTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.extinctionTrait.desc");
@@ -1846,7 +1850,7 @@ extinctionTrait.calcDamage = function(trait, tool, attacker, target, originalDam
 };
 extinctionTrait.register();
 
-val cutdownTrait = TraitBuilder.create("cutdown");
+val cutdownTrait = ToolTraitBuilder.create("cutdown");
 cutdownTrait.color = Color.fromHex("ffffff").getIntColor(); 
 cutdownTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.cutdownTrait.name");
 cutdownTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.cutdownTrait.desc");
@@ -1859,7 +1863,7 @@ cutdownTrait.afterHit = function(trait, tool, attacker, target, damageDealt, was
 };
 cutdownTrait.register();
 
-val choice_of_godsTrait = TraitBuilder.create("choice_of_gods");
+val choice_of_godsTrait = ToolTraitBuilder.create("choice_of_gods");
 choice_of_godsTrait.color = Color.fromHex("ffffff").getIntColor(); 
 choice_of_godsTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.choice_of_godsTrait.name");
 choice_of_godsTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.choice_of_godsTrait.desc");
@@ -1873,7 +1877,7 @@ choice_of_godsTrait.getMiningSpeed = function(thisTrait, tool, event) {
 };
 choice_of_godsTrait.register();
 
-val weatherturnTrait = TraitBuilder.create("weatherturn");
+val weatherturnTrait = ToolTraitBuilder.create("weatherturn");
 weatherturnTrait.color = Color.fromHex("ffffff").getIntColor(); 
 weatherturnTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.weatherturnTrait.name");
 weatherturnTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.weatherturnTrait.desc");
@@ -1885,7 +1889,7 @@ weatherturnTrait.afterHit = function(trait, tool, attacker, target, damageDealt,
 };
 weatherturnTrait.register();
 
-val meteor_fallTrait = TraitBuilder.create("meteor_fall");
+val meteor_fallTrait = ToolTraitBuilder.create("meteor_fall");
 meteor_fallTrait.color = Color.fromHex("5d4037").getIntColor(); 
 meteor_fallTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.meteor_fallTrait.name");
 meteor_fallTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.meteor_fallTrait.desc");
@@ -1899,7 +1903,7 @@ meteor_fallTrait.onHit = function(trait, tool, attacker, target, damage, isCriti
 };
 meteor_fallTrait.register();
 
-val inserveTrait = TraitBuilder.create("inserve");
+val inserveTrait = ToolTraitBuilder.create("inserve");
 inserveTrait.color = Color.fromHex("5d4037").getIntColor(); 
 inserveTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.inserveTrait.name");
 inserveTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.inserveTrait.desc");
@@ -1913,7 +1917,7 @@ inserveTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected
 };
 inserveTrait.register();
 
-val relifeTrait = TraitBuilder.create("relife");
+val relifeTrait = ToolTraitBuilder.create("relife");
 relifeTrait.color = Color.fromHex("5d4037").getIntColor(); 
 relifeTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.relifeTrait.name");
 relifeTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.relifeTrait.desc");
@@ -1931,7 +1935,7 @@ relifeTrait.calcDamage = function(trait, tool, attacker, target, originalDamage,
 };
 relifeTrait.register();
 
-val depth_abyssTrait = TraitBuilder.create("depth_abyss");
+val depth_abyssTrait = ToolTraitBuilder.create("depth_abyss");
 depth_abyssTrait.color = Color.fromHex("5d4037").getIntColor(); 
 depth_abyssTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.depth_abyssTrait.name");
 depth_abyssTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.depth_abyssTrait.desc");
@@ -1944,7 +1948,7 @@ depth_abyssTrait.onHit = function(trait, tool, attacker, target, damage, isCriti
 };
 depth_abyssTrait.register();
 
-val disorientedTrait = TraitBuilder.create("disoriented");
+val disorientedTrait = ToolTraitBuilder.create("disoriented");
 disorientedTrait.color = Color.fromHex("5d4037").getIntColor(); 
 disorientedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.disorientedTrait.name");
 disorientedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.disorientedTrait.desc");
@@ -1955,7 +1959,7 @@ disorientedTrait.calcDamage = function(trait, tool, attacker, target, originalDa
 };
 disorientedTrait.register();
 
-val killallTrait = TraitBuilder.create("killall");
+val killallTrait = ToolTraitBuilder.create("killall");
 killallTrait.color = Color.fromHex("5d4037").getIntColor(); 
 killallTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.killallTrait.name");
 killallTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.killallTrait.desc");
@@ -1968,7 +1972,7 @@ killallTrait.calcDamage = function(trait, tool, attacker, target, originalDamage
 };
 killallTrait.register();
 
-val true_damageTrait = TraitBuilder.create("true_damage");
+val true_damageTrait = ToolTraitBuilder.create("true_damage");
 true_damageTrait.color = Color.fromHex("5d4037").getIntColor(); 
 true_damageTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.true_damageTrait.name");
 true_damageTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.true_damageTrait.desc");
@@ -1985,7 +1989,7 @@ true_damageTrait.calcDamage = function(trait, tool, attacker, target, originalDa
 };
 true_damageTrait.register();
 
-val blue_screenTrait = TraitBuilder.create("blue_screen");
+val blue_screenTrait = ToolTraitBuilder.create("blue_screen");
 blue_screenTrait.color = Color.fromHex("5d4037").getIntColor(); 
 blue_screenTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.blue_screenTrait.name");
 blue_screenTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.blue_screenTrait.desc");
@@ -1998,7 +2002,7 @@ blue_screenTrait.onHit = function(trait, tool, attacker, target, damage, isCriti
 };
 blue_screenTrait.register();
 
-val vigorousTrait = TraitBuilder.create("vigorous");
+val vigorousTrait = ToolTraitBuilder.create("vigorous");
 vigorousTrait.color = Color.fromHex("5d4037").getIntColor(); 
 vigorousTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.vigorousTrait.name");
 vigorousTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.vigorousTrait.desc");
@@ -2009,7 +2013,7 @@ vigorousTrait.calcDamage = function(trait, tool, attacker, target, originalDamag
 };
 vigorousTrait.register();
 
-val sky_shockingTrait = TraitBuilder.create("sky_shocking");
+val sky_shockingTrait = ToolTraitBuilder.create("sky_shocking");
 sky_shockingTrait.color = Color.fromHex("ffee58").getIntColor(); 
 sky_shockingTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.sky_shockingTrait.name");
 sky_shockingTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.sky_shockingTrait.desc");
@@ -2020,7 +2024,7 @@ sky_shockingTrait.afterHit = function(trait, tool, attacker, target, damageDealt
 };
 sky_shockingTrait.register();
 
-val peakTrait = TraitBuilder.create("peak");
+val peakTrait = ToolTraitBuilder.create("peak");
 peakTrait.color = Color.fromHex("ffee58").getIntColor(); 
 peakTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.peakTrait.name");
 peakTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.peakTrait.desc");
@@ -2033,7 +2037,7 @@ peakTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, n
 };
 peakTrait.register();
 
-val fihTrait = TraitBuilder.create("fire_in_heart");
+val fihTrait = ToolTraitBuilder.create("fire_in_heart");
 fihTrait.color = Color.fromHex("ffee58").getIntColor(); 
 fihTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.fihTrait.name");
 fihTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.fihTrait.desc");
@@ -2072,7 +2076,7 @@ fihTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, ne
 };
 fihTrait.register();
 
-val vowelTrait = TraitBuilder.create("vowel");
+val vowelTrait = ToolTraitBuilder.create("vowel");
 vowelTrait.color = Color.fromHex("ffee58").getIntColor(); 
 vowelTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.vowelTrait.name");
 vowelTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.vowelTrait.desc");
@@ -2089,7 +2093,7 @@ vowelTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, 
 };
 vowelTrait.register();
 
-val sacrificeTrait = TraitBuilder.create("sacrifice");
+val sacrificeTrait = ToolTraitBuilder.create("sacrifice");
 sacrificeTrait.color = Color.fromHex("ffee58").getIntColor(); 
 sacrificeTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.sacrificeTrait.name");
 sacrificeTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.sacrificeTrait.desc");
@@ -2103,7 +2107,7 @@ sacrificeTrait.calcDamage = function(trait, tool, attacker, target, originalDama
 };
 sacrificeTrait.register();
 
-val transmigrationTrait = TraitBuilder.create("transmigration");
+val transmigrationTrait = ToolTraitBuilder.create("transmigration");
 transmigrationTrait.color = Color.fromHex("ffee58").getIntColor(); 
 transmigrationTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.transmigrationTrait.name");
 transmigrationTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.transmigrationTrait.desc");
@@ -2120,7 +2124,7 @@ transmigrationTrait.onHit = function(trait, tool, attacker, target, damage, isCr
 };
 transmigrationTrait.register();
 
-val blood_reaperTrait = TraitBuilder.create("blood_reaper");
+val blood_reaperTrait = ToolTraitBuilder.create("blood_reaper");
 blood_reaperTrait.color = Color.fromHex("ffee58").getIntColor(); 
 blood_reaperTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.blood_reaperTrait.name");
 blood_reaperTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.blood_reaperTrait.desc");
@@ -2133,7 +2137,7 @@ blood_reaperTrait.calcDamage = function(trait, tool, attacker, target, originalD
 };
 blood_reaperTrait.register();
 
-val blood_reaper2Trait = TraitBuilder.create("blood_reaper2");
+val blood_reaper2Trait = ToolTraitBuilder.create("blood_reaper2");
 blood_reaper2Trait.color = Color.fromHex("ffee58").getIntColor(); 
 blood_reaper2Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.blood_reaper2Trait.name");
 blood_reaper2Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.blood_reaperTrait.desc");
@@ -2146,7 +2150,7 @@ blood_reaper2Trait.calcDamage = function(trait, tool, attacker, target, original
 };
 blood_reaper2Trait.register();
 
-val crystalystTrait = TraitBuilder.create("crystalyst");
+val crystalystTrait = ToolTraitBuilder.create("crystalyst");
 crystalystTrait.color = Color.fromHex("ffee58").getIntColor(); 
 crystalystTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.crystalystTrait.name");
 crystalystTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.crystalystTrait.desc");
@@ -2160,7 +2164,7 @@ crystalystTrait.onHit = function(trait, tool, attacker, target, damage, isCritic
 };
 crystalystTrait.register();
 
-val thadTrait = TraitBuilder.create("tinkers_heartwork");
+val thadTrait = ToolTraitBuilder.create("tinkers_heartwork");
 thadTrait.color = Color.fromHex("ffee58").getIntColor();
 thadTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.thadTrait.name");
 thadTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.thadTrait.desc");
@@ -2177,7 +2181,7 @@ thadTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, n
 };
 thadTrait.register();
 
-val aura_infusedTrait = TraitBuilder.create("aura_infused");
+val aura_infusedTrait = ToolTraitBuilder.create("aura_infused");
 aura_infusedTrait.color = Color.fromHex("ffee58").getIntColor();
 aura_infusedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.aura_infusedTrait.name");
 aura_infusedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.aura_infusedTrait.desc");
@@ -2205,7 +2209,7 @@ aura_infusedTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSel
 };
 aura_infusedTrait.register();
 
-val full_of_auraTrait = TraitBuilder.create("full_of_aura");
+val full_of_auraTrait = ToolTraitBuilder.create("full_of_aura");
 full_of_auraTrait.color = Color.fromHex("ffee58").getIntColor(); 
 full_of_auraTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.full_of_auraTrait.name");
 full_of_auraTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.full_of_auraTrait.desc");
@@ -2220,7 +2224,7 @@ full_of_auraTrait.afterHit = function(trait, tool, attacker, target, damageDealt
 };
 full_of_auraTrait.register();
 
-val manipulateTrait = TraitBuilder.create("manipulate");
+val manipulateTrait = ToolTraitBuilder.create("manipulate");
 manipulateTrait.color = Color.fromHex("ffee58").getIntColor(); 
 manipulateTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.manipulateTrait.name");
 manipulateTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.manipulateTrait.desc");
@@ -2261,7 +2265,7 @@ manipulateTrait.calcDamage = function(trait, tool, attacker, target, originalDam
 };
 manipulateTrait.register();
 
-val disarmTrait = TraitBuilder.create("disarm");
+val disarmTrait = ToolTraitBuilder.create("disarm");
 disarmTrait.color = Color.fromHex("ffee58").getIntColor(); 
 disarmTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.disarmTrait.name");
 disarmTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.disarmTrait.desc");
@@ -2279,7 +2283,7 @@ disarmTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasC
 };
 disarmTrait.register();
 
-val test_damageTrait = TraitBuilder.create("test_damage");
+val test_damageTrait = ToolTraitBuilder.create("test_damage");
 test_damageTrait.color = Color.fromHex("ffffff").getIntColor(); 
 test_damageTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.test_damageTrait.name");
 test_damageTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.test_damageTrait.desc");
@@ -2290,7 +2294,7 @@ test_damageTrait.afterHit = function(trait, tool, attacker, target, damageDealt,
 };
 test_damageTrait.register();
 
-val aura_effectTrait = TraitBuilder.create("aura_effect");
+val aura_effectTrait = ToolTraitBuilder.create("aura_effect");
 aura_effectTrait.color = Color.fromHex("ffffff").getIntColor(); 
 aura_effectTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.aura_effectTrait.name");
 aura_effectTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.aura_effectTrait.desc");
@@ -2305,7 +2309,7 @@ aura_effectTrait.calcDamage = function(trait, tool, attacker, target, originalDa
 };
 aura_effectTrait.register();
 
-val soul_eaterTrait = TraitBuilder.create("soul_eater_refined");
+val soul_eaterTrait = ToolTraitBuilder.create("soul_eater_refined");
 soul_eaterTrait.color = Color.fromHex("ffffff").getIntColor(); 
 soul_eaterTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.soul_eaterTrait.name");
 soul_eaterTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.soul_eaterTrait.desc");
@@ -2338,7 +2342,7 @@ soul_eaterTrait.calcDamage = function(trait, tool, attacker, target, originalDam
 };
 soul_eaterTrait.register();
 
-val soul_eater2Trait = TraitBuilder.create("soul_eater_refined2");
+val soul_eater2Trait = ToolTraitBuilder.create("soul_eater_refined2");
 soul_eater2Trait.color = Color.fromHex("ffffff").getIntColor(); 
 soul_eater2Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.soul_eater2Trait.name");
 soul_eater2Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.soul_eaterTrait.desc");
@@ -2371,7 +2375,7 @@ soul_eater2Trait.calcDamage = function(trait, tool, attacker, target, originalDa
 };
 soul_eater2Trait.register();
 
-val soul_eater3Trait = TraitBuilder.create("soul_eater_refined3");
+val soul_eater3Trait = ToolTraitBuilder.create("soul_eater_refined3");
 soul_eater3Trait.color = Color.fromHex("ffffff").getIntColor(); 
 soul_eater3Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.soul_eater3Trait.name");
 soul_eater3Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.soul_eaterTrait.desc");
@@ -2404,7 +2408,7 @@ soul_eater3Trait.calcDamage = function(trait, tool, attacker, target, originalDa
 };
 soul_eater3Trait.register();
 
-val soul_eater4Trait = TraitBuilder.create("soul_eater_refined4");
+val soul_eater4Trait = ToolTraitBuilder.create("soul_eater_refined4");
 soul_eater4Trait.color = Color.fromHex("ffffff").getIntColor(); 
 soul_eater4Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.soul_eater4Trait.name");
 soul_eater4Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.soul_eaterTrait.desc");
@@ -2437,7 +2441,7 @@ soul_eater4Trait.calcDamage = function(trait, tool, attacker, target, originalDa
 };
 soul_eater4Trait.register();
 
-val soul_eater5Trait = TraitBuilder.create("soul_eater_refined5");
+val soul_eater5Trait = ToolTraitBuilder.create("soul_eater_refined5");
 soul_eater5Trait.color = Color.fromHex("ffffff").getIntColor(); 
 soul_eater5Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.soul_eater5Trait.name");
 soul_eater5Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.soul_eaterTrait.desc");
@@ -2470,7 +2474,7 @@ soul_eater5Trait.calcDamage = function(trait, tool, attacker, target, originalDa
 };
 soul_eater5Trait.register();
 
-val burntTrait = TraitBuilder.create("burnt");
+val burntTrait = ToolTraitBuilder.create("burnt");
 burntTrait.color = Color.fromHex("ffffff").getIntColor(); 
 burntTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.burntTrait.name");
 burntTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.burntTrait.desc");
@@ -2487,7 +2491,7 @@ burntTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCr
 };
 burntTrait.register();
 
-val imagineTrait = TraitBuilder.create("imagine");
+val imagineTrait = ToolTraitBuilder.create("imagine");
 imagineTrait.color = Color.fromHex("ffffff").getIntColor(); 
 imagineTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.imagineTrait.name");
 imagineTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.imagineTrait.desc");
@@ -2505,7 +2509,7 @@ imagineTrait.calcDamage = function(trait, tool, attacker, target, originalDamage
 };
 imagineTrait.register();
 
-val state_additionTrait = TraitBuilder.create("state_addition");
+val state_additionTrait = ToolTraitBuilder.create("state_addition");
 state_additionTrait.color = Color.fromHex("ffffff").getIntColor(); 
 state_additionTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.state_additionTrait.name");
 state_additionTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.state_additionTrait.desc");
@@ -2531,7 +2535,7 @@ state_additionTrait.calcDamage = function(trait, tool, attacker, target, origina
 };
 state_additionTrait.register();
 
-val overrunTrait = TraitBuilder.create("overrun");
+val overrunTrait = ToolTraitBuilder.create("overrun");
 overrunTrait.color = Color.fromHex("ffffff").getIntColor(); 
 overrunTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.overrunTrait.name");
 overrunTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.overrunTrait.desc");
@@ -2542,7 +2546,7 @@ overrunTrait.getMiningSpeed = function(trait, tool, event) {
 };
 overrunTrait.register();
 
-val sweepTrait = TraitBuilder.create("sweep");
+val sweepTrait = ToolTraitBuilder.create("sweep");
 sweepTrait.color = Color.fromHex("ffffff").getIntColor(); 
 sweepTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.sweepTrait.name");
 sweepTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.sweepTrait.desc");
@@ -2578,7 +2582,7 @@ sweepTrait.getMiningSpeed = function(trait, tool, event) {
 };
 sweepTrait.register();
 
-val air_controlTrait = TraitBuilder.create("air_control");
+val air_controlTrait = ToolTraitBuilder.create("air_control");
 air_controlTrait.color = Color.fromHex("ffffff").getIntColor(); 
 air_controlTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.air_controlTrait.name");
 air_controlTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.air_controlTrait.desc");
@@ -2593,7 +2597,7 @@ air_controlTrait.calcDamage = function(trait, tool, attacker, target, originalDa
 };
 air_controlTrait.register();
 
-val air_control2Trait = TraitBuilder.create("air_control2");
+val air_control2Trait = ToolTraitBuilder.create("air_control2");
 air_control2Trait.color = Color.fromHex("ffffff").getIntColor(); 
 air_control2Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.air_control2Trait.name");
 air_control2Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.air_controlTrait.desc");
@@ -2608,7 +2612,7 @@ air_control2Trait.calcDamage = function(trait, tool, attacker, target, originalD
 };
 air_control2Trait.register();
 
-val transitionTrait = TraitBuilder.create("transition");
+val transitionTrait = ToolTraitBuilder.create("transition");
 transitionTrait.color = Color.fromHex("ffffff").getIntColor(); 
 transitionTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.transitionTrait.name");
 transitionTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.transitionTrait.desc");
@@ -2649,7 +2653,7 @@ transitionTrait.calcDamage = function(trait, tool, attacker, target, originalDam
 };
 transitionTrait.register();
 
-val transition2Trait = TraitBuilder.create("transition2");
+val transition2Trait = ToolTraitBuilder.create("transition2");
 transition2Trait.color = Color.fromHex("ffffff").getIntColor(); 
 transition2Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.transition2Trait.name");
 transition2Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.transitionTrait.desc");
@@ -2690,7 +2694,7 @@ transition2Trait.calcDamage = function(trait, tool, attacker, target, originalDa
 };
 transition2Trait.register();
 
-val tiredTrait = TraitBuilder.create("tired");
+val tiredTrait = ToolTraitBuilder.create("tired");
 tiredTrait.color = Color.fromHex("ffffff").getIntColor(); 
 tiredTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.tiredTrait.name");
 tiredTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.tiredTrait.desc");
@@ -2728,7 +2732,7 @@ tiredTrait.getMiningSpeed = function(trait, tool, event) {
 };
 tiredTrait.register();
 
-val easier_brokenTrait = TraitBuilder.create("harder_and_easier_broken");
+val easier_brokenTrait = ToolTraitBuilder.create("harder_and_easier_broken");
 easier_brokenTrait.color = Color.fromHex("ffffff").getIntColor(); 
 easier_brokenTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.easier_brokenTrait.name");
 easier_brokenTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.easier_brokenTrait.desc");
@@ -2745,7 +2749,7 @@ easier_brokenTrait.calcDamage = function(trait, tool, attacker, target, original
 };
 easier_brokenTrait.register();
 
-val criticalityTrait = TraitBuilder.create("criticality");
+val criticalityTrait = ToolTraitBuilder.create("criticality");
 criticalityTrait.color = Color.fromHex("ffffff").getIntColor(); 
 criticalityTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.criticalityTrait.name");
 criticalityTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.criticalityTrait.desc");
@@ -2758,7 +2762,7 @@ criticalityTrait.calcDamage = function(trait, tool, attacker, target, originalDa
 };
 criticalityTrait.register();
 
-val dragon_roaringTrait = TraitBuilder.create("dragon_roaring");
+val dragon_roaringTrait = ToolTraitBuilder.create("dragon_roaring");
 dragon_roaringTrait.color = Color.fromHex("ffffff").getIntColor(); 
 dragon_roaringTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.dragon_roaringTrait.name");
 dragon_roaringTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.dragon_roaringTrait.desc");
@@ -2773,7 +2777,7 @@ dragon_roaringTrait.afterHit = function(trait, tool, attacker, target, damageDea
 };
 dragon_roaringTrait.register();
 
-val final_woundTrait = TraitBuilder.create("final_wound");
+val final_woundTrait = ToolTraitBuilder.create("final_wound");
 final_woundTrait.color = Color.fromHex("ffffff").getIntColor(); 
 final_woundTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.final_woundTrait.name");
 final_woundTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.final_woundTrait.desc");
@@ -2786,7 +2790,7 @@ final_woundTrait.afterHit = function(trait, tool, attacker, target, damageDealt,
 };
 final_woundTrait.register();
 
-val adjustment_of_placesTrait = TraitBuilder.create("adjustment_of_places");
+val adjustment_of_placesTrait = ToolTraitBuilder.create("adjustment_of_places");
 adjustment_of_placesTrait.color = Color.fromHex("ffffff").getIntColor(); 
 adjustment_of_placesTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.adjustment_of_placesTrait.name");
 adjustment_of_placesTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.adjustment_of_placesTrait.desc");
@@ -2802,7 +2806,7 @@ adjustment_of_placesTrait.calcDamage = function(trait, tool, attacker, target, o
 };
 adjustment_of_placesTrait.register();
 
-val charitableTrait = TraitBuilder.create("charitable");
+val charitableTrait = ToolTraitBuilder.create("charitable");
 charitableTrait.color = Color.fromHex("ffffff").getIntColor(); 
 charitableTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.charitableTrait.name");
 charitableTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.charitableTrait.desc");
@@ -2855,7 +2859,7 @@ charitableTrait.calcDamage = function(trait, tool, attacker, target, originalDam
 };
 charitableTrait.register();
 
-val murderTrait = TraitBuilder.create("murder");
+val murderTrait = ToolTraitBuilder.create("murder");
 murderTrait.color = Color.fromHex("ffffff").getIntColor(); 
 murderTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.murderTrait.name");
 murderTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.murderTrait.desc");
@@ -2872,7 +2876,7 @@ murderTrait.calcDamage = function(trait, tool, attacker, target, originalDamage,
 };
 murderTrait.register();
 
-val suicideTrait = TraitBuilder.create("suicide");
+val suicideTrait = ToolTraitBuilder.create("suicide");
 suicideTrait.color = Color.fromHex("ffffff").getIntColor(); 
 suicideTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.suicideTrait.name");
 suicideTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.suicideTrait.desc");
@@ -2888,7 +2892,7 @@ suicideTrait.calcDamage = function(trait, tool, attacker, target, originalDamage
 };
 suicideTrait.register();
 
-val compressionTrait = TraitBuilder.create("compression");
+val compressionTrait = ToolTraitBuilder.create("compression");
 compressionTrait.color = Color.fromHex("ffffff").getIntColor(); 
 compressionTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.compressionTrait.name");
 compressionTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.compressionTrait.desc");
@@ -2899,7 +2903,7 @@ compressionTrait.onBlockHarvestDrops = function(thisTrait, tool, event) {
 };
 compressionTrait.register();
 
-val radiatedTrait = TraitBuilder.create("radiated");
+val radiatedTrait = ToolTraitBuilder.create("radiated");
 radiatedTrait.color = Color.fromHex("ffffff").getIntColor(); 
 radiatedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.radiatedTrait.name");
 radiatedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.radiatedTrait.desc");
@@ -2914,7 +2918,7 @@ radiatedTrait.calcDamage = function(trait, tool, attacker, target, originalDamag
 };
 radiatedTrait.register();
 
-val levitatedTrait = TraitBuilder.create("levitated");
+val levitatedTrait = ToolTraitBuilder.create("levitated");
 levitatedTrait.color = Color.fromHex("ffffff").getIntColor(); 
 levitatedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.levitatedTrait.name");
 levitatedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.levitatedTrait.desc");
@@ -2931,7 +2935,7 @@ levitatedTrait.calcDamage = function(trait, tool, attacker, target, originalDama
 };
 levitatedTrait.register();
 
-val amaratsuTrait = TraitBuilder.create("amaratsu");
+val amaratsuTrait = ToolTraitBuilder.create("amaratsu");
 amaratsuTrait.color = Color.fromHex("ffffff").getIntColor(); 
 amaratsuTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.amaratsuTrait.name");
 amaratsuTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.amaratsuTrait.desc");
@@ -2947,7 +2951,7 @@ amaratsuTrait.calcDamage = function(trait, tool, attacker, target, originalDamag
 };
 amaratsuTrait.register();
 
-val taintedTrait = TraitBuilder.create("tainted");
+val taintedTrait = ToolTraitBuilder.create("tainted");
 taintedTrait.color = Color.fromHex("ffffff").getIntColor(); 
 taintedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.taintedTrait.name");
 taintedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.taintedTrait.desc");
@@ -2961,7 +2965,7 @@ taintedTrait.afterHit = function(trait, tool, attacker, target, damageDealt, was
 };
 taintedTrait.register();
 
-val erosionTrait = TraitBuilder.create("erosion");
+val erosionTrait = ToolTraitBuilder.create("erosion");
 erosionTrait.color = Color.fromHex("ffffff").getIntColor(); 
 erosionTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.erosionTrait.name");
 erosionTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.erosionTrait.desc");
@@ -3000,7 +3004,7 @@ erosionTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected
 };
 erosionTrait.register();
 
-val tdotblTrait = TraitBuilder.create("the_devour_of_the_betweenlands");
+val tdotblTrait = ToolTraitBuilder.create("the_devour_of_the_betweenlands");
 tdotblTrait.color = Color.fromHex("ffffff").getIntColor(); 
 tdotblTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.tdotblTrait.name");
 tdotblTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.tdotblTrait.desc");
@@ -3015,7 +3019,7 @@ tdotblTrait.calcDamage = function(trait, tool, attacker, target, originalDamage,
 };
 tdotblTrait.register();
 
-val tdotbl2Trait = TraitBuilder.create("the_devour_of_the_betweenlands2");
+val tdotbl2Trait = ToolTraitBuilder.create("the_devour_of_the_betweenlands2");
 tdotbl2Trait.color = Color.fromHex("ffffff").getIntColor(); 
 tdotbl2Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.tdotblTrait2.name");
 tdotbl2Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.tdotblTrait2.desc");
@@ -3037,13 +3041,13 @@ tdotbl2Trait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected
 };
 tdotbl2Trait.register();
 
-val astralingTrait = TraitBuilder.create("astraling");
+val astralingTrait = ToolTraitBuilder.create("astraling");
 astralingTrait.color = Color.fromHex("3cffff").getIntColor(); 
 astralingTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.astralingTrait.name");
 astralingTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.astralingTrait.desc");
 astralingTrait.register();
 
-val starlight_refinedTrait = TraitBuilder.create("starlight_refined");
+val starlight_refinedTrait = ToolTraitBuilder.create("starlight_refined");
 starlight_refinedTrait.color = Color.fromHex("ffffff").getIntColor(); 
 starlight_refinedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.starlight_refinedTrait.name");
 starlight_refinedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.starlight_refinedTrait.desc");
@@ -3054,13 +3058,13 @@ starlight_refinedTrait.onBlockHarvestDrops = function(thisTrait, tool, event) {
 };
 starlight_refinedTrait.register();
 
-val ethernalTrait = TraitBuilder.create("ethernal");
+val ethernalTrait = ToolTraitBuilder.create("ethernal");
 ethernalTrait.color = Color.fromHex("ffffff").getIntColor(); 
 ethernalTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.ethernalTrait.name");
 ethernalTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.ethernalTrait.desc");
 ethernalTrait.register();
 
-val fascicledTrait = TraitBuilder.create("fascicled");
+val fascicledTrait = ToolTraitBuilder.create("fascicled");
 fascicledTrait.color = Color.fromHex("ffffff").getIntColor(); 
 fascicledTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.fascicledTrait.name");
 fascicledTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.fascicledTrait.desc");
@@ -3103,7 +3107,7 @@ fascicledTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelect
 };
 fascicledTrait.register();
 
-val fragmentationTrait = TraitBuilder.create("fragmentation");
+val fragmentationTrait = ToolTraitBuilder.create("fragmentation");
 fragmentationTrait.color = Color.fromHex("ffffff").getIntColor(); 
 fragmentationTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.fragmentationTrait.name");
 fragmentationTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.fragmentationTrait.desc");
@@ -3128,7 +3132,7 @@ fragmentationTrait.calcDamage = function(trait, tool, attacker, target, original
 };
 fragmentationTrait.register();
 
-val betweenland_controllerTrait = TraitBuilder.create("betweenland_controller");
+val betweenland_controllerTrait = ToolTraitBuilder.create("betweenland_controller");
 betweenland_controllerTrait.color = Color.fromHex("ffffff").getIntColor(); 
 betweenland_controllerTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.betweenland_controllerTrait.name");
 betweenland_controllerTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.betweenland_controllerTrait.desc");
@@ -3144,7 +3148,7 @@ betweenland_controllerTrait.calcDamage = function(trait, tool, attacker, target,
 };
 betweenland_controllerTrait.register();
 
-val malevolenceTrait = TraitBuilder.create("malevolence");
+val malevolenceTrait = ToolTraitBuilder.create("malevolence");
 malevolenceTrait.color = Color.fromHex("ffffff").getIntColor(); 
 malevolenceTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.malevolenceTrait.name");
 malevolenceTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.malevolenceTrait.desc");
@@ -3158,7 +3162,7 @@ malevolenceTrait.onHit = function(trait, tool, attacker, target, damage, isCriti
 };
 malevolenceTrait.register();
 
-val stackedTrait = TraitBuilder.create("stacked");
+val stackedTrait = ToolTraitBuilder.create("stacked");
 stackedTrait.color = Color.fromHex("ffffff").getIntColor(); 
 stackedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.stackedTrait.name");
 stackedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.stackedTrait.desc");
@@ -3173,7 +3177,7 @@ stackedTrait.calcDamage = function(trait, tool, attacker, target, originalDamage
 };
 stackedTrait.register();
 
-val extra_healthTrait = TraitBuilder.create("extra_health");
+val extra_healthTrait = ToolTraitBuilder.create("extra_health");
 extra_healthTrait.color = Color.fromHex("ffffff").getIntColor(); 
 extra_healthTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.extra_healthTrait.name");
 extra_healthTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.extra_healthTrait.desc");
@@ -3187,7 +3191,7 @@ extra_healthTrait.onToolDamage = function(trait, tool, unmodifiedAmount, newAmou
 };
 extra_healthTrait.register();
 
-val radianceTrait = TraitBuilder.create("radiance");
+val radianceTrait = ToolTraitBuilder.create("radiance");
 radianceTrait.color = Color.fromHex("ffffff").getIntColor(); 
 radianceTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.radianceTrait.name");
 radianceTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.radianceTrait.desc");
@@ -3205,7 +3209,7 @@ radianceTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wa
 };
 radianceTrait.register();
 
-val ender_lordTrait = TraitBuilder.create("ender_lord");
+val ender_lordTrait = ToolTraitBuilder.create("ender_lord");
 ender_lordTrait.color = Color.fromHex("ffffff").getIntColor(); 
 ender_lordTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.ender_lordTrait.name");
 ender_lordTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.ender_lordTrait.desc");
@@ -3221,7 +3225,7 @@ ender_lordTrait.calcDamage = function(trait, tool, attacker, target, originalDam
 };
 ender_lordTrait.register();
 
-val parasitismTrait = TraitBuilder.create("parasitism");
+val parasitismTrait = ToolTraitBuilder.create("parasitism");
 parasitismTrait.color = Color.fromHex("ffffff").getIntColor(); 
 parasitismTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.parasitismTrait.name");
 parasitismTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.parasitismTrait.desc");
@@ -3288,7 +3292,7 @@ parasitismTrait.calcDamage = function(trait, tool, attacker, target, originalDam
 };
 parasitismTrait.register();
 
-val sharper_harvestingTrait = TraitBuilder.create("sharper_harvesting");
+val sharper_harvestingTrait = ToolTraitBuilder.create("sharper_harvesting");
 sharper_harvestingTrait.color = Color.fromHex("ffffff").getIntColor(); 
 sharper_harvestingTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.sharper_harvestingTrait.name");
 sharper_harvestingTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.sharper_harvestingTrait.desc");
@@ -3311,7 +3315,7 @@ sharper_harvestingTrait.calcDamage = function(trait, tool, attacker, target, ori
 };
 sharper_harvestingTrait.register();
 
-val solemnlamentTrait = TraitBuilder.create("solemnlament");
+val solemnlamentTrait = ToolTraitBuilder.create("solemnlament");
 solemnlamentTrait.color = Color.fromHex("ffffff").getIntColor(); 
 solemnlamentTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.solemnlamentTrait.name");
 solemnlamentTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.solemnlamentTrait.desc");
@@ -3334,7 +3338,7 @@ solemnlamentTrait.calcDamage = function(trait, tool, attacker, target, originalD
 };
 solemnlamentTrait.register();
 
-val flyingbutterflyTrait = TraitBuilder.create("flying_butterfly");
+val flyingbutterflyTrait = ToolTraitBuilder.create("flying_butterfly");
 flyingbutterflyTrait.color = Color.fromHex("ffffff").getIntColor(); 
 flyingbutterflyTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.flyingbutterflyTrait.name");
 flyingbutterflyTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.flyingbutterflyTrait.desc");
@@ -3360,7 +3364,7 @@ function harvestBlock(blockpos as IBlockPos, tool as IItemStack, player as IPlay
     }
 }
 
-val fractureTrait = TraitBuilder.create("fracture_refined");
+val fractureTrait = ToolTraitBuilder.create("fracture_refined");
 fractureTrait.color = Color.fromHex("ffffff").getIntColor(); 
 fractureTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.fractureTrait.name");
 fractureTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.fractureTrait.desc");
@@ -3377,7 +3381,7 @@ fractureTrait.afterBlockBreak = function(trait, tool, world, blockstate, blockPo
 };
 fractureTrait.register();
 
-val fracture2Trait = TraitBuilder.create("fracture2");
+val fracture2Trait = ToolTraitBuilder.create("fracture2");
 fracture2Trait.color = Color.fromHex("ffffff").getIntColor(); 
 fracture2Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.fracture2Trait.name");
 fracture2Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.fracture2Trait.desc");
@@ -3394,7 +3398,7 @@ fracture2Trait.afterBlockBreak = function(trait, tool, world, blockstate, blockP
 };
 fracture2Trait.register();
 
-val maze_breakerTrait = TraitBuilder.create("maze_breaker");
+val maze_breakerTrait = ToolTraitBuilder.create("maze_breaker");
 maze_breakerTrait.color = Color.fromHex("ffffff").getIntColor(); 
 maze_breakerTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.maze_breakerTrait.name");
 maze_breakerTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.maze_breakerTrait.desc");
@@ -3410,7 +3414,7 @@ maze_breakerTrait.onBlockHarvestDrops = function(thisTrait, tool, event) {
 };
 maze_breakerTrait.register();
 
-val slowdownTrait = TraitBuilder.create("slowdown");
+val slowdownTrait = ToolTraitBuilder.create("slowdown");
 slowdownTrait.color = Color.fromHex("ffffff").getIntColor(); 
 slowdownTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.slowdownTrait.name");
 slowdownTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.slowdownTrait.desc");
@@ -3424,7 +3428,7 @@ function getOverslime(tool as IItemStack) as int {
     return 0;
 }
 
-val overdominateTrait = TraitBuilder.create("overdominate");
+val overdominateTrait = ToolTraitBuilder.create("overdominate");
 overdominateTrait.color = Color.fromHex("ffa000").getIntColor(); 
 overdominateTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.overdominateTrait.name");
 overdominateTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.overdominateTrait.desc");
@@ -3443,7 +3447,7 @@ overdominateTrait.calcDamage = function(trait, tool, attacker, target, originalD
 };
 overdominateTrait.register();
 
-val erase_commandTrait = TraitBuilder.create("erase_command");
+val erase_commandTrait = ToolTraitBuilder.create("erase_command");
 erase_commandTrait.color = Color.fromHex("f64700").getIntColor(); 
 erase_commandTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.erase_commandTrait.name");
 erase_commandTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.erase_commandTrait.desc");
@@ -3474,7 +3478,7 @@ erase_commandTrait.onHit = function(trait, tool, attacker, target, damage, isCri
 };
 erase_commandTrait.register();
 
-val wyvernTrait = TraitBuilder.create("wyvern");
+val wyvernTrait = ToolTraitBuilder.create("wyvern");
 wyvernTrait.color = Color.fromHex("ffa000").getIntColor(); 
 wyvernTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.wyvernTrait.name");
 wyvernTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.wyvernTrait.desc");
@@ -3489,7 +3493,7 @@ wyvernTrait.calcDamage = function(trait, tool, attacker, target, originalDamage,
 };
 wyvernTrait.register();
 
-val fallenTrait = TraitBuilder.create("fallen");
+val fallenTrait = ToolTraitBuilder.create("fallen");
 fallenTrait.color = Color.fromHex("ffa000").getIntColor(); 
 fallenTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.fallenTrait.name");
 fallenTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.fallenTrait.desc");
@@ -3504,7 +3508,7 @@ fallenTrait.calcDamage = function(trait, tool, attacker, target, originalDamage,
 };
 fallenTrait.register();
 
-val draconicTrait = TraitBuilder.create("draconic");
+val draconicTrait = ToolTraitBuilder.create("draconic");
 draconicTrait.color = Color.fromHex("ffa000").getIntColor(); 
 draconicTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.draconicTrait.name");
 draconicTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.draconicTrait.desc");
@@ -3519,7 +3523,7 @@ draconicTrait.calcDamage = function(trait, tool, attacker, target, originalDamag
 };
 draconicTrait.register();
 
-val relifedTrait = TraitBuilder.create("relifed");
+val relifedTrait = ToolTraitBuilder.create("relifed");
 relifedTrait.color = Color.fromHex("ffa000").getIntColor(); 
 relifedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.relifedTrait.name");
 relifedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.relifedTrait.desc");
@@ -3534,7 +3538,7 @@ relifedTrait.calcDamage = function(trait, tool, attacker, target, originalDamage
 };
 relifedTrait.register();
 
-val chaoticTrait = TraitBuilder.create("chaotic");
+val chaoticTrait = ToolTraitBuilder.create("chaotic");
 chaoticTrait.color = Color.fromHex("ffa000").getIntColor(); 
 chaoticTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.chaoticTrait.name");
 chaoticTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.chaoticTrait.desc");
@@ -3551,7 +3555,7 @@ chaoticTrait.calcDamage = function(trait, tool, attacker, target, originalDamage
 };
 chaoticTrait.register();
 
-val stormyTrait = TraitBuilder.create("stormy");
+val stormyTrait = ToolTraitBuilder.create("stormy");
 stormyTrait.color = Color.fromHex("ffa000").getIntColor(); 
 stormyTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.stormyTrait.name");
 stormyTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.stormyTrait.desc");
@@ -3566,7 +3570,7 @@ stormyTrait.calcDamage = function(trait, tool, attacker, target, originalDamage,
 };
 stormyTrait.register();
 
-val orderedTrait = TraitBuilder.create("ordered");
+val orderedTrait = ToolTraitBuilder.create("ordered");
 orderedTrait.color = Color.fromHex("ffa000").getIntColor(); 
 orderedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.orderedTrait.name");
 orderedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.orderedTrait.desc");
@@ -3587,7 +3591,7 @@ function getEntityBiome(entity as IEntity) as IBiome {
 
 //寰球
 //§o探索的时光proooooo\n§r你走过的生物群系将强化你的工具！
-val globiomeTrait = TraitBuilder.create("globiome");
+val globiomeTrait = ToolTraitBuilder.create("globiome");
 globiomeTrait.color = Color.fromHex("ffffff").getIntColor(); 
 globiomeTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.globiomeTrait.name");
 globiomeTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.globiomeTrait.desc");
@@ -3627,7 +3631,7 @@ globiomeTrait.register();
 
 //游戏难度
 //§o快说：谢谢ED！\n§r工具耐久损耗将受到游戏难度加成。
-val leveling_durabilityTrait = TraitBuilder.create("leveling_durability");
+val leveling_durabilityTrait = ToolTraitBuilder.create("leveling_durability");
 leveling_durabilityTrait.color = Color.fromHex("ffffff").getIntColor(); 
 leveling_durabilityTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.leveling_durabilityTrait.name");
 leveling_durabilityTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.leveling_durabilityTrait.desc");
@@ -3711,7 +3715,7 @@ leveling_durabilityTrait.register();
 
 //倒置
 //§o啊？彩蛋！\n§r攻击时使敌人翻转，对翻转的目标造成更高伤害！
-val turning_downTrait = TraitBuilder.create("turning_down");
+val turning_downTrait = ToolTraitBuilder.create("turning_down");
 turning_downTrait.color = Color.fromHex("ffffff").getIntColor(); 
 turning_downTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.turning_downTrait.name");
 turning_downTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.turning_downTrait.desc");
@@ -3742,7 +3746,7 @@ turning_downTrait.register();
 
 //终了结束
 //§o都停下来！\n§r削减对手的护甲！
-val finiteTrait = TraitBuilder.create("finite");
+val finiteTrait = ToolTraitBuilder.create("finite");
 finiteTrait.color = Color.fromHex("ffffff").getIntColor(); 
 finiteTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.finiteTrait.name");
 finiteTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.finiteTrait.desc");
@@ -3767,7 +3771,7 @@ function harvestBlockIfSame(blockposHarvest as IBlockPos, blockposCompare as IBl
 
 //并联
 //§o啥？你故意的吧？\n§r挖掘方块时，可以挖掉其周围的同种方块。
-val parallelingTrait = TraitBuilder.create("paralleling");
+val parallelingTrait = ToolTraitBuilder.create("paralleling");
 parallelingTrait.color = Color.fromHex("ffffff").getIntColor(); 
 parallelingTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.parallelingTrait.name");
 parallelingTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.parallelingTrait.desc");
@@ -3788,7 +3792,7 @@ parallelingTrait.register();
 
 //万象
 //§o兼收并蓄。\n§r对于非原版的生物和方块作用效果更好。
-val panoramaTrait = TraitBuilder.create("panorama");
+val panoramaTrait = ToolTraitBuilder.create("panorama");
 panoramaTrait.color = Color.fromHex("ffffff").getIntColor(); 
 panoramaTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.panoramaTrait.name");
 panoramaTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.panoramaTrait.desc");
@@ -3813,13 +3817,13 @@ panoramaTrait.register();
 
 //基石
 //§o它如基岩一般！\n§r你的工具仅会有20%几率消耗耐久。
-val bedrockTrait = TraitBuilder.create("bedrock");
+val bedrockTrait = ToolTraitBuilder.create("bedrock");
 bedrockTrait.color = Color.fromHex("ffffff").getIntColor(); 
 bedrockTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.bedrockTrait.name");
 bedrockTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.bedrockTrait.desc");
 bedrockTrait.register();
 
-val pureTrait = TraitBuilder.create("pure");
+val pureTrait = ToolTraitBuilder.create("pure");
 pureTrait.color = Color.fromHex("ffffff").getIntColor();
 pureTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.pureTrait.name");
 pureTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.pureTrait.desc");
@@ -3847,7 +3851,7 @@ events.onEntityLivingHeal(function(event as EntityLivingHealEvent) {
     }
 });
 
-val unshapedTrait = TraitBuilder.create("unshaped");
+val unshapedTrait = ToolTraitBuilder.create("unshaped");
 unshapedTrait.color = Color.fromHex("ffffff").getIntColor(); 
 unshapedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.unshapedTrait.name");
 unshapedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.unshapedTrait.desc");
@@ -3862,7 +3866,7 @@ unshapedTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelecte
 unshapedTrait.register();
 
 
-val overattackTrait = TraitBuilder.create("overattack");
+val overattackTrait = ToolTraitBuilder.create("overattack");
 overattackTrait.color = Color.fromHex("ffffff").getIntColor(); 
 overattackTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.overattackTrait.name");
 overattackTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.overattackTrait.desc");
@@ -3881,7 +3885,7 @@ overattackTrait.calcDamage = function(trait, tool, attacker, target, originalDam
 };
 overattackTrait.register();
 
-val overarmyTrait = TraitBuilder.create("overarmy");
+val overarmyTrait = ToolTraitBuilder.create("overarmy");
 overarmyTrait.color = Color.fromHex("ffffff").getIntColor(); 
 overarmyTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.overarmyTrait.name");
 overarmyTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.overarmyTrait.desc");
@@ -3898,7 +3902,7 @@ overarmyTrait.calcDamage = function(trait, tool, attacker, target, originalDamag
 };
 overarmyTrait.register();
 
-val overbreakTrait = TraitBuilder.create("overbreak");
+val overbreakTrait = ToolTraitBuilder.create("overbreak");
 overbreakTrait.color = Color.fromHex("ffffff").getIntColor(); 
 overbreakTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.overbreakTrait.name");
 overbreakTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.overbreakTrait.desc");
@@ -3915,7 +3919,7 @@ overbreakTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelect
 };
 overbreakTrait.register();
 
-val overmeltTrait = TraitBuilder.create("overmelt");
+val overmeltTrait = ToolTraitBuilder.create("overmelt");
 overmeltTrait.color = Color.fromHex("ffffff").getIntColor(); 
 overmeltTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.overmeltTrait.name");
 overmeltTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.overmeltTrait.desc");
@@ -3931,7 +3935,7 @@ overmeltTrait.calcDamage = function(trait, tool, attacker, target, originalDamag
 };
 overmeltTrait.register();
 
-val overglueTrait = TraitBuilder.create("overglue");
+val overglueTrait = ToolTraitBuilder.create("overglue");
 overglueTrait.color = Color.fromHex("ffffff").getIntColor(); 
 overglueTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.overglueTrait.name");
 overglueTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.overglueTrait.desc");
@@ -3944,7 +3948,7 @@ overglueTrait.onHit = function(trait, tool, attacker, target, damage, isCritical
 };
 overglueTrait.register();
 
-val enhancedTrait = TraitBuilder.create("enhanced");
+val enhancedTrait = ToolTraitBuilder.create("enhanced");
 enhancedTrait.color = Color.fromHex("ffffff").getIntColor(); 
 enhancedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.enhancedTrait.name");
 enhancedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.enhancedTrait.desc");
@@ -3953,7 +3957,7 @@ enhancedTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelecte
 };
 enhancedTrait.register();
 
-val loveTrait = TraitBuilder.create("love");
+val loveTrait = ToolTraitBuilder.create("love");
 loveTrait.color = Color.fromHex("ffffff").getIntColor(); 
 loveTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.loveTrait.name");
 loveTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.loveTrait.desc");
@@ -3970,7 +3974,7 @@ loveTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
 };
 loveTrait.register();
 
-val wavecrestTrait = TraitBuilder.create("wavecrest");
+val wavecrestTrait = ToolTraitBuilder.create("wavecrest");
 wavecrestTrait.color = Color.fromHex("ffffff").getIntColor(); 
 wavecrestTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.wavecrestTrait.name");
 wavecrestTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.wavecrestTrait.desc");
@@ -4000,7 +4004,7 @@ wavecrestTrait.calcDamage = function(trait, tool, attacker, target, originalDama
 };
 wavecrestTrait.register();
 
-val wavetroughTrait = TraitBuilder.create("wavetrough");
+val wavetroughTrait = ToolTraitBuilder.create("wavetrough");
 wavetroughTrait.color = Color.fromHex("ffffff").getIntColor(); 
 wavetroughTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.wavetroughTrait.name");
 wavetroughTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.wavetroughTrait.desc");
@@ -4025,7 +4029,7 @@ wavetroughTrait.afterHit = function(trait, tool, attacker, target, damageDealt, 
 };
 wavetroughTrait.register();
 
-val polarizationTrait = TraitBuilder.create("polarization");
+val polarizationTrait = ToolTraitBuilder.create("polarization");
 polarizationTrait.color = Color.fromHex("ffffff").getIntColor(); 
 polarizationTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.polarizationTrait.name");
 polarizationTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.polarizationTrait.desc");
@@ -4059,7 +4063,7 @@ polarizationTrait.calcDamage = function(trait, tool, attacker, target, originalD
 };
 polarizationTrait.register();
 
-val emberTrait = TraitBuilder.create("ember");
+val emberTrait = ToolTraitBuilder.create("ember");
 emberTrait.color = Color.fromHex("ffffff").getIntColor(); 
 emberTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.emberTrait.name");
 emberTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.emberTrait.desc");
@@ -4073,7 +4077,7 @@ emberTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, 
 };
 emberTrait.register();
 
-val rekindledTrait = TraitBuilder.create("rekindled");
+val rekindledTrait = ToolTraitBuilder.create("rekindled");
 rekindledTrait.color = Color.fromHex("ffffff").getIntColor(); 
 rekindledTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.rekindledTrait.name");
 rekindledTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.rekindledTrait.desc");
@@ -4088,7 +4092,7 @@ rekindledTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelect
 };
 rekindledTrait.register();
 
-val burn_bridgesTrait = TraitBuilder.create("burn_bridges");
+val burn_bridgesTrait = ToolTraitBuilder.create("burn_bridges");
 burn_bridgesTrait.color = Color.fromHex("ffffff").getIntColor(); 
 burn_bridgesTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.burn_bridgesTrait.name");
 burn_bridgesTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.burn_bridgesTrait.desc");
@@ -4103,7 +4107,7 @@ burn_bridgesTrait.calcDamage = function(trait, tool, attacker, target, originalD
 };
 burn_bridgesTrait.register();
 
-val world_beginningTrait = TraitBuilder.create("world_beginning");
+val world_beginningTrait = ToolTraitBuilder.create("world_beginning");
 world_beginningTrait.color = Color.fromHex("ffffff").getIntColor(); 
 world_beginningTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.world_beginningTrait.name");
 world_beginningTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.world_beginningTrait.desc");
@@ -4118,7 +4122,7 @@ world_beginningTrait.calcDamage = function(trait, tool, attacker, target, origin
 };
 world_beginningTrait.register();
 
-val six_art_internetTrait = TraitBuilder.create("six_art_internet");
+val six_art_internetTrait = ToolTraitBuilder.create("six_art_internet");
 six_art_internetTrait.color = Color.fromHex("ffffff").getIntColor(); 
 six_art_internetTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.six_art_internetTrait.name");
 six_art_internetTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.six_art_internetTrait.desc");
@@ -4264,7 +4268,7 @@ six_art_internetTrait.calcDamage = function(trait, tool, attacker, target, origi
 };
 six_art_internetTrait.register();
 
-val abstractTrait = TraitBuilder.create("abstract");
+val abstractTrait = ToolTraitBuilder.create("abstract");
 abstractTrait.color = Color.fromHex("ffffff").getIntColor(); 
 abstractTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.abstractTrait.name");
 abstractTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.abstractTrait.desc");
@@ -4281,7 +4285,7 @@ abstractTrait.calcDamage = function(trait, tool, attacker, target, originalDamag
 };
 abstractTrait.register();
 
-val chomperTrait = TraitBuilder.create("chomper");
+val chomperTrait = ToolTraitBuilder.create("chomper");
 chomperTrait.color = Color.fromHex("ffffff").getIntColor();
 chomperTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.chomperTrait.name");
 chomperTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.chomperTrait.desc");
@@ -4316,7 +4320,7 @@ chomperTrait.calcDamage = function(trait, tool, attacker, target, originalDamage
 };
 chomperTrait.register();
 
-val wight_rejectionTrait = TraitBuilder.create("wight_rejection");
+val wight_rejectionTrait = ToolTraitBuilder.create("wight_rejection");
 wight_rejectionTrait.color = Color.fromHex("ffffff").getIntColor(); 
 wight_rejectionTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.wight_rejectionTrait.name");
 wight_rejectionTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.wight_rejectionTrait.desc");
@@ -4342,7 +4346,7 @@ wight_rejectionTrait.calcDamage = function(trait, tool, attacker, target, origin
 };
 wight_rejectionTrait.register();
 
-val calamityTrait = TraitBuilder.create("calamity");
+val calamityTrait = ToolTraitBuilder.create("calamity");
 calamityTrait.color = Color.fromHex("ffffff").getIntColor(); 
 calamityTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.calamityTrait.name");
 calamityTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.calamityTrait.desc");
@@ -4356,7 +4360,7 @@ calamityTrait.calcDamage = function(trait, tool, attacker, target, originalDamag
 };
 calamityTrait.register();
 
-val rift_recoveryTrait = TraitBuilder.create("rift_recovery");
+val rift_recoveryTrait = ToolTraitBuilder.create("rift_recovery");
 rift_recoveryTrait.color = Color.fromHex("ffffff").getIntColor(); 
 rift_recoveryTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.rift_recoveryTrait.name");
 rift_recoveryTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.rift_recoveryTrait.desc");
@@ -4391,7 +4395,7 @@ rift_recoveryTrait.extraInfo = function(trait, tool, data) {
 };
 rift_recoveryTrait.register();
 
-val octibladeTrait = TraitBuilder.create("octiblade");
+val octibladeTrait = ToolTraitBuilder.create("octiblade");
 octibladeTrait.color = Color.fromHex("ffffff").getIntColor(); 
 octibladeTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.octibladeTrait.name");
 octibladeTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.octibladeTrait.desc");
@@ -4410,7 +4414,7 @@ octibladeTrait.calcDamage = function(trait, tool, attacker, target, originalDama
 };
 octibladeTrait.register();
 
-val spikyTrait = TraitBuilder.create("spiky");
+val spikyTrait = ToolTraitBuilder.create("spiky");
 spikyTrait.color = Color.fromHex("ffffff").getIntColor(); 
 spikyTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.spikyTrait.name");
 spikyTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.spikyTrait.desc");
@@ -4446,7 +4450,7 @@ var machineFlopMap as int[int] = {
     0 : 0
 };
 
-val flops_coreTrait = TraitBuilder.create("flops_core");
+val flops_coreTrait = ToolTraitBuilder.create("flops_core");
 flops_coreTrait.color = Color.fromHex("ffffff").getIntColor(); 
 flops_coreTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.flops_coreTrait.name");
 flops_coreTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.flops_coreTrait.desc");
@@ -4512,7 +4516,7 @@ flops_coreTrait.extraInfo = function(trait, tool, data) {
 };
 flops_coreTrait.register();
 
-val alcrystryTrait = TraitBuilder.create("alcrystry");
+val alcrystryTrait = ToolTraitBuilder.create("alcrystry");
 alcrystryTrait.color = Color.fromHex("ffffff").getIntColor(); 
 alcrystryTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.alcrystryTrait.name");
 alcrystryTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.alcrystryTrait.desc");
@@ -4541,7 +4545,7 @@ alcrystryTrait.onBlockHarvestDrops = function(thisTrait, tool, event) {
 };
 alcrystryTrait.register();
 
-val alcrystry_weakTrait = TraitBuilder.create("alcrystry_weak");
+val alcrystry_weakTrait = ToolTraitBuilder.create("alcrystry_weak");
 alcrystry_weakTrait.color = Color.fromHex("ffffff").getIntColor(); 
 alcrystry_weakTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.alcrystry_weakTrait.name");
 alcrystry_weakTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.alcrystry_weakTrait.desc");
@@ -4570,7 +4574,7 @@ alcrystry_weakTrait.onBlockHarvestDrops = function(thisTrait, tool, event) {
 };
 alcrystry_weakTrait.register();
 
-val subspaceTrait = TraitBuilder.create("subspace");
+val subspaceTrait = ToolTraitBuilder.create("subspace");
 subspaceTrait.color = Color.fromHex("ffffff").getIntColor(); 
 subspaceTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.subspaceTrait.name");
 subspaceTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.subspaceTrait.desc");
@@ -4609,13 +4613,13 @@ subspaceTrait.onHit = function(trait, tool, attacker, target, damage, isCritical
 };
 subspaceTrait.register();
 
-val spaceshockTrait = TraitBuilder.create("spaceshock");
+val spaceshockTrait = ToolTraitBuilder.create("spaceshock");
 spaceshockTrait.color = Color.fromHex("ffffff").getIntColor(); 
 spaceshockTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.spaceshockTrait.name");
 spaceshockTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.spaceshockTrait.desc");
 spaceshockTrait.register();
 
-val power_of_herrscherTrait = TraitBuilder.create("power_of_herrscher");
+val power_of_herrscherTrait = ToolTraitBuilder.create("power_of_herrscher");
 power_of_herrscherTrait.color = Color.fromHex("ffffff").getIntColor(); 
 power_of_herrscherTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.power_of_herrscherTrait.name");
 power_of_herrscherTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.power_of_herrscherTrait.desc");
@@ -4627,7 +4631,7 @@ power_of_herrscherTrait.calcDamage = function(trait, tool, attacker, target, ori
 };
 power_of_herrscherTrait.register();
 
-val shoggyTrait = TraitBuilder.create("shoggy");
+val shoggyTrait = ToolTraitBuilder.create("shoggy");
 shoggyTrait.color = Color.fromHex("ffffff").getIntColor(); 
 shoggyTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.shoggyTrait.name");
 shoggyTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.shoggyTrait.desc");
@@ -4646,7 +4650,7 @@ shoggyTrait.onBlockHarvestDrops = function(thisTrait, tool, event) {
 };
 shoggyTrait.register();
 
-val chorusTrait = TraitBuilder.create("chorus");
+val chorusTrait = ToolTraitBuilder.create("chorus");
 chorusTrait.color = Color.fromHex("ffffff").getIntColor(); 
 chorusTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.chorusTrait.name");
 chorusTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.chorusTrait.desc");
@@ -4669,13 +4673,13 @@ chorusTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected)
 };
 chorusTrait.register();
 
-val nitrationTrait = TraitBuilder.create("nitration");
+val nitrationTrait = ToolTraitBuilder.create("nitration");
 nitrationTrait.color = Color.fromHex("ffffff").getIntColor(); 
 nitrationTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.nitrationTrait.name");
 nitrationTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.nitrationTrait.desc");
 nitrationTrait.register();
 
-val fake_goldTrait = TraitBuilder.create("fake_gold");
+val fake_goldTrait = ToolTraitBuilder.create("fake_gold");
 fake_goldTrait.color = Color.fromHex("ffffff").getIntColor(); 
 fake_goldTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.fake_goldTrait.name");
 fake_goldTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.fake_goldTrait.desc");
@@ -4701,7 +4705,7 @@ fake_goldTrait.onBlockHarvestDrops = function(trait, tool, event) {
 };
 fake_goldTrait.register();
 
-val igneousTrait = TraitBuilder.create("igneous");
+val igneousTrait = ToolTraitBuilder.create("igneous");
 igneousTrait.color = Color.fromHex("ffffff").getIntColor(); 
 igneousTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.igneousTrait.name");
 igneousTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.igneousTrait.desc");
@@ -4767,7 +4771,7 @@ igneousTrait.calcKnockBack = function(trait, tool, attacker, target, damage, ori
 };
 igneousTrait.register();
 
-val earthcrashTrait = TraitBuilder.create("earthcrash");
+val earthcrashTrait = ToolTraitBuilder.create("earthcrash");
 earthcrashTrait.color = Color.fromHex("ffffff").getIntColor(); 
 earthcrashTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.earthcrashTrait.name");
 earthcrashTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.earthcrashTrait.desc");
@@ -4790,7 +4794,7 @@ earthcrashTrait.onHit = function(trait, tool, attacker, target, damage, isCritic
 };
 earthcrashTrait.register();
 
-val earthessenceTrait = TraitBuilder.create("earthessence");
+val earthessenceTrait = ToolTraitBuilder.create("earthessence");
 earthessenceTrait.color = Color.fromHex("ffffff").getIntColor(); 
 earthessenceTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.earthessenceTrait.name");
 earthessenceTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.earthessenceTrait.desc");
@@ -4825,7 +4829,7 @@ earthessenceTrait.calcDamage = function(trait, tool, attacker, target, originalD
 };
 earthessenceTrait.register();
 
-val earthspiritTrait = TraitBuilder.create("earthspirit");
+val earthspiritTrait = ToolTraitBuilder.create("earthspirit");
 earthspiritTrait.color = Color.fromHex("ffffff").getIntColor(); 
 earthspiritTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.earthspiritTrait.name");
 earthspiritTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.earthspiritTrait.desc");
@@ -4840,7 +4844,7 @@ earthspiritTrait.afterHit = function(trait, tool, attacker, target, damageDealt,
 };
 earthspiritTrait.register();
 
-val lifelinkTrait = TraitBuilder.create("life_link");
+val lifelinkTrait = ToolTraitBuilder.create("life_link");
 lifelinkTrait.color = Color.fromHex("ffffff").getIntColor(); 
 lifelinkTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.lifelinkTrait.name");
 lifelinkTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.lifelinkTrait.desc");
@@ -4863,7 +4867,7 @@ lifelinkTrait.calcDamage = function(trait, tool, attacker, target, originalDamag
 };
 lifelinkTrait.register();
 
-val demon_decayTrait = TraitBuilder.create("demon_decay");
+val demon_decayTrait = ToolTraitBuilder.create("demon_decay");
 demon_decayTrait.color = Color.fromHex("ffffff").getIntColor(); 
 demon_decayTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.demon_decayTrait.name");
 demon_decayTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.demon_decayTrait.desc");
@@ -4892,7 +4896,7 @@ demon_decayTrait.afterHit = function(trait, tool, attacker, target, damageDealt,
 };
 demon_decayTrait.register();
 
-val soul_flagTrait = TraitBuilder.create("soul_flag");
+val soul_flagTrait = ToolTraitBuilder.create("soul_flag");
 soul_flagTrait.color = Color.fromHex("ffffff").getIntColor(); 
 soul_flagTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.soul_flagTrait.name");
 soul_flagTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.soul_flagTrait.desc");
@@ -4950,7 +4954,7 @@ val order_attackMap as float[int] = {
     6 : 0.5f,
     0 : 0.0f
 };
-val order_attackTrait = TraitBuilder.create("order_attack");
+val order_attackTrait = ToolTraitBuilder.create("order_attack");
 order_attackTrait.color = Color.fromHex("ffffff").getIntColor(); 
 order_attackTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.order_attackTrait.name");
 order_attackTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.order_attackTrait.desc");
@@ -4971,7 +4975,7 @@ order_attackTrait.calcDamage = function(trait, tool, attacker, target, originalD
 };
 order_attackTrait.register();
 
-val imitationTrait = TraitBuilder.create("imitation");
+val imitationTrait = ToolTraitBuilder.create("imitation");
 imitationTrait.color = Color.fromHex("ffffff").getIntColor(); 
 imitationTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.imitationTrait.name");
 imitationTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.imitationTrait.desc");
@@ -4991,7 +4995,7 @@ imitationTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelect
 };
 imitationTrait.register();
 
-val stellar_fusionTrait = TraitBuilder.create("stellar_fusion");
+val stellar_fusionTrait = ToolTraitBuilder.create("stellar_fusion");
 stellar_fusionTrait.color = Color.fromHex("ffffff").getIntColor(); 
 stellar_fusionTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.stellar_fusionTrait.name");
 stellar_fusionTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.stellar_fusionTrait.desc");
@@ -5019,13 +5023,13 @@ stellar_fusionTrait.calcDamage = function(trait, tool, attacker, target, origina
 };
 stellar_fusionTrait.register();
 
-val solarys_refinedTrait = TraitBuilder.create("solarys_refined");
+val solarys_refinedTrait = ToolTraitBuilder.create("solarys_refined");
 solarys_refinedTrait.color = Color.fromHex("ffffff").getIntColor(); 
 solarys_refinedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.solarys_refinedTrait.name");
 solarys_refinedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.solarys_refinedTrait.desc");
 solarys_refinedTrait.register();
 
-val ingeniousTrait = TraitBuilder.create("ingenious");
+val ingeniousTrait = ToolTraitBuilder.create("ingenious");
 ingeniousTrait.color = Color.fromHex("ffffff").getIntColor(); 
 ingeniousTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.ingeniousTrait.name");
 ingeniousTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.ingeniousTrait.desc");
@@ -5054,7 +5058,7 @@ ingeniousTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelect
 };
 ingeniousTrait.register();
 
-val bane_of_erebusTrait = TraitBuilder.create("bane_of_erebus");
+val bane_of_erebusTrait = ToolTraitBuilder.create("bane_of_erebus");
 bane_of_erebusTrait.color = Color.fromHex("ffffff").getIntColor(); 
 bane_of_erebusTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.bane_of_erebusTrait.name");
 bane_of_erebusTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.bane_of_erebusTrait.desc");
@@ -5071,7 +5075,7 @@ bane_of_erebusTrait.calcDamage = function(trait, tool, attacker, target, origina
 };
 bane_of_erebusTrait.register();
 
-val ecological2Trait = TraitBuilder.create("ecological2");
+val ecological2Trait = ToolTraitBuilder.create("ecological2");
 ecological2Trait.color = Color.fromHex("ffffff").getIntColor(); 
 ecological2Trait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.ecological2Trait.name");
 ecological2Trait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.ecological2Trait.desc");
@@ -5087,7 +5091,7 @@ ecological2Trait.onUpdate = function(trait, tool, world, owner, itemSlot, isSele
 };
 ecological2Trait.register();
 
-val hydrogenationTrait = TraitBuilder.create("hydrogenation");
+val hydrogenationTrait = ToolTraitBuilder.create("hydrogenation");
 hydrogenationTrait.color = Color.fromHex("ffffff").getIntColor(); 
 hydrogenationTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.hydrogenationTrait.name");
 hydrogenationTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.hydrogenationTrait.desc");
@@ -5101,7 +5105,7 @@ hydrogenationTrait.onHit = function(trait, tool, attacker, target, damage, isCri
 };
 hydrogenationTrait.register();
 
-val warpTrait = TraitBuilder.create("warp");
+val warpTrait = ToolTraitBuilder.create("warp");
 warpTrait.color = Color.fromHex("ffffff").getIntColor(); 
 warpTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.warpTrait.name");
 warpTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.warpTrait.desc");
@@ -5123,7 +5127,7 @@ warpTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, n
 };
 warpTrait.register();
 
-val thallium_poisonTrait = TraitBuilder.create("thallium_poison");
+val thallium_poisonTrait = ToolTraitBuilder.create("thallium_poison");
 thallium_poisonTrait.color = Color.fromHex("ffffff").getIntColor(); 
 thallium_poisonTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.thallium_poisonTrait.name");
 thallium_poisonTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.thallium_poisonTrait.desc");
@@ -5142,7 +5146,7 @@ thallium_poisonTrait.afterHit = function(trait, tool, attacker, target, damageDe
 };
 thallium_poisonTrait.register();
 
-val archaeologistTrait = TraitBuilder.create("archaeologist");
+val archaeologistTrait = ToolTraitBuilder.create("archaeologist");
 archaeologistTrait.color = Color.fromHex("ffffff").getIntColor(); 
 archaeologistTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.archaeologistTrait.name");
 archaeologistTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.archaeologistTrait.desc");
@@ -5157,7 +5161,7 @@ archaeologistTrait.calcDamage = function(trait, tool, attacker, target, original
 };
 archaeologistTrait.register();
 
-val bloodcurseTrait = TraitBuilder.create("bloodcurse");
+val bloodcurseTrait = ToolTraitBuilder.create("bloodcurse");
 bloodcurseTrait.color = Color.fromHex("ffffff").getIntColor(); 
 bloodcurseTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.bloodcurseTrait.name");
 bloodcurseTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.bloodcurseTrait.desc");
@@ -5190,7 +5194,7 @@ val orbCapacityList as int[int] = {
     10 : 1500000000,
     11 : 2147483647
 };
-val bloodriseTrait = TraitBuilder.create("bloodrise");
+val bloodriseTrait = ToolTraitBuilder.create("bloodrise");
 bloodriseTrait.color = Color.fromHex("ffffff").getIntColor(); 
 bloodriseTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.bloodriseTrait.name");
 bloodriseTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.bloodriseTrait.desc");
@@ -5208,7 +5212,7 @@ bloodriseTrait.afterHit = function(trait, tool, attacker, target, damageDealt, w
 };
 bloodriseTrait.register();
 
-val insect_eaterTrait = TraitBuilder.create("insect_eater");
+val insect_eaterTrait = ToolTraitBuilder.create("insect_eater");
 insect_eaterTrait.color = Color.fromHex("ffffff").getIntColor(); 
 insect_eaterTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.insect_eaterTrait.name");
 insect_eaterTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.insect_eaterTrait.desc");
@@ -5224,13 +5228,13 @@ insect_eaterTrait.afterHit = function(trait, tool, attacker, target, damageDealt
 };
 insect_eaterTrait.register();
 
-val craven_survivalismTrait = TraitBuilder.create("craven_survivalism");
+val craven_survivalismTrait = ToolTraitBuilder.create("craven_survivalism");
 craven_survivalismTrait.color = Color.fromHex("ffffff").getIntColor(); 
 craven_survivalismTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.craven_survivalismTrait.name");
 craven_survivalismTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.craven_survivalismTrait.desc");
 craven_survivalismTrait.register();
 
-val heatstrokeTrait = TraitBuilder.create("heatstroke");
+val heatstrokeTrait = ToolTraitBuilder.create("heatstroke");
 heatstrokeTrait.color = Color.fromHex("ffffff").getIntColor(); 
 heatstrokeTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.heatstrokeTrait.name");
 heatstrokeTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.heatstrokeTrait.desc");
@@ -5246,7 +5250,7 @@ heatstrokeTrait.calcDamage = function(trait, tool, attacker, target, originalDam
 };
 heatstrokeTrait.register();
 
-val collisionTrait = TraitBuilder.create("collision");
+val collisionTrait = ToolTraitBuilder.create("collision");
 collisionTrait.color = Color.fromHex("ffffff").getIntColor(); 
 collisionTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.collisionTrait.name");
 collisionTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.collisionTrait.desc");
@@ -5260,13 +5264,13 @@ collisionTrait.calcKnockBack = function(trait, tool, attacker, target, damage, o
 };
 collisionTrait.register();
 
-val jadeitizationTrait = TraitBuilder.create("jadeitization");
+val jadeitizationTrait = ToolTraitBuilder.create("jadeitization");
 jadeitizationTrait.color = Color.fromHex("ffffff").getIntColor(); 
 jadeitizationTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.jadeitizationTrait.name");
 jadeitizationTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.jadeitizationTrait.desc");
 jadeitizationTrait.register();
 
-val poison_smogTrait = TraitBuilder.create("poison_smog");
+val poison_smogTrait = ToolTraitBuilder.create("poison_smog");
 poison_smogTrait.color = Color.fromHex("76ff03").getIntColor(); 
 poison_smogTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.poison_smogTrait.name");
 poison_smogTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.poison_smogTrait.desc");
@@ -5291,7 +5295,7 @@ poison_smogTrait.afterHit = function(trait, tool, attacker, target, damageDealt,
 };
 poison_smogTrait.register();
 
-val ant_summoningTrait = TraitBuilder.create("ant_summoning");
+val ant_summoningTrait = ToolTraitBuilder.create("ant_summoning");
 ant_summoningTrait.color = Color.fromHex("ffffff").getIntColor(); 
 ant_summoningTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.ant_summoningTrait.name");
 ant_summoningTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.ant_summoningTrait.desc");
@@ -5323,7 +5327,7 @@ ant_summoningTrait.calcDamage = function(trait, tool, attacker, target, original
 };
 ant_summoningTrait.register();
 
-val strong_liftTrait = TraitBuilder.create("strong_lift");
+val strong_liftTrait = ToolTraitBuilder.create("strong_lift");
 strong_liftTrait.color = Color.fromHex("ffffff").getIntColor(); 
 strong_liftTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.strong_liftTrait.name");
 strong_liftTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.strong_liftTrait.desc");
@@ -5337,7 +5341,7 @@ strong_liftTrait.afterHit = function(trait, tool, attacker, target, damageDealt,
 };
 strong_liftTrait.register();
 
-val calculusTrait = TraitBuilder.create("calculus");
+val calculusTrait = ToolTraitBuilder.create("calculus");
 calculusTrait.color = Color.fromHex("6495ED").getIntColor(); 
 calculusTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.calculusTrait.name");
 calculusTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.calculusTrait.desc");
@@ -5402,7 +5406,7 @@ calculusTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wa
 };
 calculusTrait.register();
 
-val rationalityTrait = TraitBuilder.create("rationality");
+val rationalityTrait = ToolTraitBuilder.create("rationality");
 rationalityTrait.color = Color.fromHex("6495ED").getIntColor(); 
 rationalityTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.rationalityTrait.name");
 rationalityTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.rationalityTrait.desc");
@@ -5423,7 +5427,7 @@ rationalityTrait.calcDamage = function(trait, tool, attacker, target, originalDa
 };
 rationalityTrait.register();
 
-val coulomb_explosionTrait = TraitBuilder.create("coulomb_explosion");
+val coulomb_explosionTrait = ToolTraitBuilder.create("coulomb_explosion");
 coulomb_explosionTrait.color = Color.fromHex("ffffff").getIntColor(); 
 coulomb_explosionTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.coulomb_explosionTrait.name");
 coulomb_explosionTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.coulomb_explosionTrait.desc");
@@ -5441,7 +5445,7 @@ $expand int$nextBase(a as int) as int {
     return (this + a) % 6;
 }
 
-val hexable_basementTrait = TraitBuilder.create("hexable_basement");
+val hexable_basementTrait = ToolTraitBuilder.create("hexable_basement");
 hexable_basementTrait.color = Color.fromHex("ffffff").getIntColor(); 
 hexable_basementTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.hexable_basementTrait.name");
 hexable_basementTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.hexable_basementTrait.desc");
@@ -5606,7 +5610,7 @@ hexable_basementTrait.calcDamage = function(trait, tool, attacker, target, origi
 };
 hexable_basementTrait.register();
 
-val hexaelementalTrait = TraitBuilder.create("hexaelemental");
+val hexaelementalTrait = ToolTraitBuilder.create("hexaelemental");
 hexaelementalTrait.color = Color.fromHex("ffffff").getIntColor(); 
 hexaelementalTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.hexaelementalTrait.name");
 hexaelementalTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.hexaelementalTrait.desc");
@@ -5653,7 +5657,7 @@ hexaelementalTrait.calcKnockBack = function(trait, tool, attacker, target, damag
 };
 hexaelementalTrait.register();
 
-val return_to_earthTrait = TraitBuilder.create("return_to_earth");
+val return_to_earthTrait = ToolTraitBuilder.create("return_to_earth");
 return_to_earthTrait.color = Color.fromHex("ffffff").getIntColor(); 
 return_to_earthTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.return_to_earthTrait.name");
 return_to_earthTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.return_to_earthTrait.desc");
@@ -5668,7 +5672,7 @@ return_to_earthTrait.afterHit = function(trait, tool, attacker, target, damageDe
 };
 return_to_earthTrait.register();
 
-val spirit_powerTrait = TraitBuilder.create("spirit_power");
+val spirit_powerTrait = ToolTraitBuilder.create("spirit_power");
 spirit_powerTrait.color = Color.fromHex("ffffff").getIntColor(); 
 spirit_powerTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.spirit_powerTrait.name");
 spirit_powerTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.spirit_powerTrait.desc");
@@ -5690,7 +5694,7 @@ spirit_powerTrait.calcDamage = function(trait, tool, attacker, target, originalD
 };
 spirit_powerTrait.register();
 
-val aquabaseTrait = TraitBuilder.create("aquabase");
+val aquabaseTrait = ToolTraitBuilder.create("aquabase");
 aquabaseTrait.color = Color.fromHex("ffffff").getIntColor(); 
 aquabaseTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.aquabaseTrait.name");
 aquabaseTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.aquabaseTrait.desc");
@@ -5704,7 +5708,7 @@ aquabaseTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelecte
 };
 aquabaseTrait.register();
 
-val ignisbaseTrait = TraitBuilder.create("ignisbase");
+val ignisbaseTrait = ToolTraitBuilder.create("ignisbase");
 ignisbaseTrait.color = Color.fromHex("ffffff").getIntColor(); 
 ignisbaseTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.ignisbaseTrait.name");
 ignisbaseTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.ignisbaseTrait.desc");
@@ -5718,7 +5722,7 @@ ignisbaseTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelect
 };
 ignisbaseTrait.register();
 
-val terrabaseTrait = TraitBuilder.create("terrabase");
+val terrabaseTrait = ToolTraitBuilder.create("terrabase");
 terrabaseTrait.color = Color.fromHex("ffffff").getIntColor(); 
 terrabaseTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.terrabaseTrait.name");
 terrabaseTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.terrabaseTrait.desc");
@@ -5732,7 +5736,7 @@ terrabaseTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelect
 };
 terrabaseTrait.register();
 
-val aerbaseTrait = TraitBuilder.create("aerbase");
+val aerbaseTrait = ToolTraitBuilder.create("aerbase");
 aerbaseTrait.color = Color.fromHex("ffffff").getIntColor(); 
 aerbaseTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.aerbaseTrait.name");
 aerbaseTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.aerbaseTrait.desc");
@@ -5746,7 +5750,7 @@ aerbaseTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected
 };
 aerbaseTrait.register();
 
-val ordobaseTrait = TraitBuilder.create("ordobase");
+val ordobaseTrait = ToolTraitBuilder.create("ordobase");
 ordobaseTrait.color = Color.fromHex("ffffff").getIntColor(); 
 ordobaseTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.ordobaseTrait.name");
 ordobaseTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.ordobaseTrait.desc");
@@ -5760,7 +5764,7 @@ ordobaseTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelecte
 };
 ordobaseTrait.register();
 
-val perditiobaseTrait = TraitBuilder.create("perditiobase");
+val perditiobaseTrait = ToolTraitBuilder.create("perditiobase");
 perditiobaseTrait.color = Color.fromHex("ffffff").getIntColor(); 
 perditiobaseTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.perditiobaseTrait.name");
 perditiobaseTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.perditiobaseTrait.desc");
@@ -5774,7 +5778,7 @@ perditiobaseTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSel
 };
 perditiobaseTrait.register();
 
-val brightestTrait = TraitBuilder.create("brightest");
+val brightestTrait = ToolTraitBuilder.create("brightest");
 brightestTrait.color = Color.fromHex("ffffff").getIntColor(); 
 brightestTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.brightestTrait.name");
 brightestTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.brightestTrait.desc");
@@ -5798,7 +5802,7 @@ brightestTrait.calcDamage = function(trait, tool, attacker, target, originalDama
 };
 brightestTrait.register();
 
-val breedTrait = TraitBuilder.create("breed");
+val breedTrait = ToolTraitBuilder.create("breed");
 breedTrait.color = Color.fromHex("ffffff").getIntColor(); 
 breedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.breedTrait.name");
 breedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.breedTrait.desc");
@@ -5822,7 +5826,7 @@ breedTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, 
 };
 breedTrait.register();
 
-val discountedTrait = TraitBuilder.create("discounted");
+val discountedTrait = ToolTraitBuilder.create("discounted");
 discountedTrait.color = Color.fromHex("ffffff").getIntColor(); 
 discountedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.discountedTrait.name");
 discountedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.discountedTrait.desc");
@@ -5830,3 +5834,56 @@ discountedTrait.onToolRepair = function(trait, tool, amount) {
     ToolHelper.healTool(tool.mutable().native, amount / 5, null);
 };
 discountedTrait.register();
+
+val ascension_swearingTrait = ToolTraitBuilder.create("ascension_swearing");
+ascension_swearingTrait.color = Color.fromHex("ffffff").getIntColor(); 
+ascension_swearingTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.ascension_swearingTrait.name");
+ascension_swearingTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.ascension_swearingTrait.desc");
+ascension_swearingTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (!isNull(target.definition)) {
+            if (target.definition.id.split(":")[0] == "minecraft") {
+                return newDamage * 1.8f;
+            }
+        }
+    }
+    return newDamage;
+};
+ascension_swearingTrait.register();
+
+function getTheoryKnowledge(player as IPlayer) as int {
+    if (!isNull(ThaumcraftCapabilities.getKnowledge(player.native))) {
+        var knowledge as IPlayerKnowledge = ThaumcraftCapabilities.getKnowledge(player.native);
+        var total as int = 0;
+        var categories = ResearchCategories.researchCategories;
+        for name, category in categories {
+            total += knowledge.getKnowledge(IPlayerKnowledge.EnumKnowledgeType.THEORY, category);
+        }
+        return total;
+    }
+    return 0;
+}
+
+val eruditeTrait = ToolTraitBuilder.create("erudite");
+eruditeTrait.color = Color.fromHex("ffffff").getIntColor(); 
+eruditeTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.eruditeTrait.name");
+eruditeTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.eruditeTrait.desc");
+eruditeTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        var mtp as float = Math.log10(getTheoryKnowledge(player) as double) as float;
+        return newDamage * Math.min(mtp, 3.0f);
+    }
+    return newDamage;
+};
+eruditeTrait.register();
+
+val bouncy_stringTrait = ToolTraitBuilder.create("bouncy_string");
+bouncy_stringTrait.color = Color.fromHex("ffffff").getIntColor(); 
+bouncy_stringTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.bouncy_stringTrait.name");
+bouncy_stringTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.bouncy_stringTrait.desc");
+bouncy_stringTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    CotTicLib.addTicDrawSpeed(tool, 2.0f, "bouncy_string");
+};
+bouncy_stringTrait.register();
