@@ -336,7 +336,10 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <tcongreedyaddon:allinonetool>,
         <moretcon:ring>,
         <moretcon:gauntlet>,
-        <moretcon:bomb>
+        <moretcon:bomb>,
+        <tinkersarsenal:boomstick>,
+        <tinkersarsenal:boomstick_shot>,
+        <tinkersarsenal:toolshears>
     ],
     <ore:armorTiC> : [
         <conarm:helmet>,

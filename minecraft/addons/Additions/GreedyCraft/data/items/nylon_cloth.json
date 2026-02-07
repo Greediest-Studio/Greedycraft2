@@ -1,10 +1,6 @@
 {
-  "name": "§9尼龙布",
-  "burn_time": 60,
-  "ore_dict": [
-    "clothNylon",
-    "materialCloth",
-    "silk"
-  ],
+  "name": "§9尼龙-6纤维",
+  "tooltip": "§7§o聚己内酰胺",
+  "ore_dict": "ingotNylon6",
   "type": "additions:simple"
 }

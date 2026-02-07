@@ -582,6 +582,11 @@ ChemicalReactor.addRecipe(<liquid:2_hydroxy_5_nitro_1_3_benzenedisulfonic_acid> 
 ChemicalReactor.addRecipe(<liquid:p_nitrophenol> * 250, <liquid:p_chloronitrobenzene> * 250, <liquid:bis_4_nitrophenyl_ether> * 250, <liquid:liquidhydrogenchloride> * 250);
 ChemicalReactor.addRecipe(<liquid:bis_4_nitrophenyl_ether> * 250, <liquid:hydrogen> * 1500, <liquid:c4_i4_diaminodiphenyl_ether> * 250, <liquid:water> * 1000);
 ChemicalReactor.addRecipe(<liquid:pyromellitic_dianhydride> * 250, <liquid:c4_i4_diaminodiphenyl_ether> * 250, <liquid:pyroxene> * 36, <liquid:water> * 500);
+ChemicalReactor.addRecipe(<liquid:benzene> * 250, <liquid:hydrogen> * 750, <liquid:cyclohexane> * 250, null);
+ChemicalReactor.addRecipe(<liquid:cyclohexane> * 250, <liquid:oxygen> * 250, <liquid:cyclohexanone> * 250, <liquid:water> * 250);
+ChemicalReactor.addRecipe(<liquid:ammonia> * 250, <liquid:hydrogen_peroxide> * 250, <liquid:hydroxylamine> * 250, <liquid:water> * 250);
+ChemicalReactor.addRecipe(<liquid:cyclohexanone> * 250, <liquid:hydroxylamine> * 250, <liquid:cyclohexanone_oxime> * 250, <liquid:water> * 250);
+ChemicalReactor.addRecipe(<liquid:cyclohexanone_oxime> * 250, <liquid:sulfuric_acid> * 100, <liquid:caprolactam> * 250, <liquid:sulfuric_acid> * 100);
 
 Crystallizer.addRecipe(<liquid:iodine_carbon_tetrachloride_solution> * 200, <jaopca:dust.iodine>);
 Crystallizer.addRecipe(<liquid:chloroplatinic_acid_solution> * 666, <additions:chloroplatinic_acid>);
@@ -644,7 +649,6 @@ Electrolyzer.addRecipe(<liquid:barium_chloride> * 333, <liquid:barium> * 72, <li
 Centrifuge.removeRecipeWithInput(<liquid:arsenic_nak> * 144);
 
 Centrifuge.addRecipe(<liquid:arsenic_nak> * 144, <liquid:arsenic> * 288, <liquid:nak> * 144, null, null, null, null);
-Centrifuge.addRecipe(<liquid:mixed_hydrocarbon> * 1000, <liquid:methane> * 500, <liquid:ethene> * 250, <liquid:ethylene> * 250, null, null, null);
 
 Supercooler.addRecipe(<liquid:bromine_gas> * 8000, <liquid:bromine> * 25, 0.9d, 1.0d, 0.0d);
 Supercooler.addRecipe(<liquid:hydrogen> * 8000, <liquid:liquid_hydrogen> * 25, 1.0d, 1.0d, 0.0d);

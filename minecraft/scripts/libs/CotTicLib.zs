@@ -48,7 +48,11 @@ zenClass cotticLib {
         <item:tcongreedyaddon:greatblade>,
         <item:tconevo:tool_sceptre>,
         <item:tcongreedyaddon:allinonetool>,
-        <item:moretcon:bomb>
+        <item:moretcon:bomb>,
+        <item:tcomplement:chisel>,
+        <item:tinkersarsenal:boomstick>,
+        <item:tinkersarsenal:toolshears>,
+        <item:tinkersarsenal:boomstick_shot>
     ];
 
     zenConstructor() {
@@ -89,7 +93,11 @@ zenClass cotticLib {
             <item:tcongreedyaddon:greatblade>,
             <item:tconevo:tool_sceptre>,
             <item:tcongreedyaddon:allinonetool>,
-            <item:moretcon:bomb>
+            <item:moretcon:bomb>,
+            <item:tcomplement:chisel>,
+            <item:tinkersarsenal:boomstick>,
+            <item:tinkersarsenal:toolshears>,
+            <item:tinkersarsenal:boomstick_shot>
         ];
 
         for i in tictool{
@@ -225,7 +233,14 @@ zenClass cotticLib {
             <item:tconstruct:pickaxe>,
             <item:tconstruct:shovel>,
             <item:tconstruct:excavator>,
-            <item:tcongreedyaddon:allinonetool>
+            <item:tconstruct:hammer>,
+            <item:tconstruct:scythe>,
+            <item:tconstruct:lumberaxe>,
+            <item:tconstruct:mattock>,
+            <item:tconstruct:kama>,
+            <item:tcongreedyaddon:battleaxe>,
+            <item:tcongreedyaddon:allinonetool>,
+            <item:tinkersarsenal:toolshears>
         ];
 
         for i in item{
@@ -372,7 +387,14 @@ zenClass cotticLib {
             <item:tconstruct:pickaxe>,
             <item:tconstruct:shovel>,
             <item:tconstruct:excavator>,
-            <item:tcongreedyaddon:allinonetool>
+            <item:tconstruct:hammer>,
+            <item:tconstruct:scythe>,
+            <item:tconstruct:lumberaxe>,
+            <item:tconstruct:mattock>,
+            <item:tconstruct:kama>,
+            <item:tcongreedyaddon:battleaxe>,
+            <item:tcongreedyaddon:allinonetool>,
+            <item:tinkersarsenal:toolshears>
         ];
 
         for i in item{
@@ -402,7 +424,8 @@ zenClass cotticLib {
         var item as IItemStack[] = [
             <item:tconstruct:shortbow>,
             <item:tconstruct:longbow>,
-            <item:tconstruct:crossbow>
+            <item:tconstruct:crossbow>,
+            <item:tinkersarsenal:boomstick>
         ];
 
         for i in item{
@@ -420,11 +443,7 @@ zenClass cotticLib {
         var data as float = itemStack.tag.Stats.DrawSpeed.asFloat();
         if(!hasTicuuid(itemStack, uuid)){
             addTicuuid(itemStack, uuid);
-            if ((level - data) < 0.01f) {
-                itemStack.mutable().updateTag({Stats : {DrawSpeed : 0.01 as float}, StatsOriginal : {DrawSpeed : 0.01 as float}});
-            } else {
-                itemStack.mutable().updateTag({Stats : {DrawSpeed : (level - data) as float}, StatsOriginal : {DrawSpeed : (level - data) as float}});
-            }
+            itemStack.mutable().updateTag({Stats : {DrawSpeed : (level + data) as float}, StatsOriginal : {DrawSpeed : (level + data) as float}});
         }
         return true;
     }

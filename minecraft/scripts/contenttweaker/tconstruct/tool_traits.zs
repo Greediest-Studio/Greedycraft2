@@ -45,6 +45,7 @@ import mods.contenttweaker.Color;
 import mods.cc.tic.ToolTraitBuilder;
 import mods.cc.tic.ToolTrait;
 import mods.cc.tic.TraitDataRepresentation;
+import mods.cc.CCTagUtil;
 import mods.zenutils.I18n;
 import mods.zenutils.DataUpdateOperation.OVERWRITE;
 import mods.zenutils.DataUpdateOperation.APPEND;
@@ -5877,3 +5878,12 @@ eruditeTrait.calcDamage = function(trait, tool, attacker, target, originalDamage
     return newDamage;
 };
 eruditeTrait.register();
+
+val bouncy_stringTrait = ToolTraitBuilder.create("bouncy_string");
+bouncy_stringTrait.color = Color.fromHex("ffffff").getIntColor(); 
+bouncy_stringTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.bouncy_stringTrait.name");
+bouncy_stringTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.bouncy_stringTrait.desc");
+bouncy_stringTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    CotTicLib.addTicDrawSpeed(tool, 2.0f, "bouncy_string");
+};
+bouncy_stringTrait.register();

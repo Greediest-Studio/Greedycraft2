@@ -1714,6 +1714,26 @@ spectre_string.localizedName = game.localize("greedycraft.tconstruct.material.sp
 spectre_string.addBowStringMaterialStats(2.0);
 spectre_string.register();
 
+val crimson_fabric = MaterialBuilder.create("crimson_fabric");
+crimson_fabric.color = Color.fromHex("751e1e").getIntColor();
+crimson_fabric.craftable = true;
+crimson_fabric.castable = false;
+crimson_fabric.representativeItem = <item:crimsonrevelations:crimson_fabric>;
+crimson_fabric.addItem(<item:crimsonrevelations:crimson_fabric>);
+crimson_fabric.localizedName = game.localize("greedycraft.tconstruct.material.crimson_fabric.name");
+crimson_fabric.addBowStringMaterialStats(1.2);
+crimson_fabric.register();
+
+val crimson_fabric_enhanced = MaterialBuilder.create("crimson_fabric_enhanced");
+crimson_fabric_enhanced.color = Color.fromHex("610000").getIntColor();
+crimson_fabric_enhanced.craftable = true;
+crimson_fabric_enhanced.castable = false;
+crimson_fabric_enhanced.representativeItem = <item:additions:crimson_fabric_enhanced>;
+crimson_fabric_enhanced.addItem(<item:additions:crimson_fabric_enhanced>);
+crimson_fabric_enhanced.localizedName = game.localize("greedycraft.tconstruct.material.crimson_fabric_enhanced.name");
+crimson_fabric_enhanced.addBowStringMaterialStats(1.5);
+crimson_fabric_enhanced.register();
+
 val nylon_cloth = MaterialBuilder.create("nylon_cloth");
 nylon_cloth.color = Color.fromHex("3949ab").getIntColor(); 
 nylon_cloth.craftable = true;

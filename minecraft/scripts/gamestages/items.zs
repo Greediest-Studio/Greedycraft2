@@ -2090,7 +2090,11 @@ GameStagesUtil.stageEpicEngineer.addIngredients([
     <ore:sheetLDPE>,
     <ore:ingotPolyetheretherketone>,
     <ore:ingotPyroxene>,
-    <additions:solid_culture_medium>
+    <additions:solid_culture_medium>,
+    <ore:ingotNylon6>,
+    <ore:blockNylon6>,
+    <ore:nuggetNylon6>,
+    <ore:dustNylon6>
 ], true);
 
 GameStagesUtil.stageChallenger1.addIngredients([

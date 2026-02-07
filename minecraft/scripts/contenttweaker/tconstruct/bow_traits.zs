@@ -12,6 +12,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.player.IPlayer;
 import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.world.IVector3d;
 
 import mods.cc.tic.BowTraitBuilder;
 import mods.cc.tic.BowTrait;
@@ -42,17 +43,117 @@ soul_takerTrait.calcArrowDamage = function(trait, bow, arrow, helder, target, wo
 };
 soul_takerTrait.register();
 
+val spectual_arrowTrait = BowTraitBuilder.create("spectual_arrow");
+spectual_arrowTrait.color = Color.fromHex("ffffff").getIntColor();
+spectual_arrowTrait.localizedName = game.localize("greedycraft.tconstruct.bow_trait.spectual_arrowTrait.name");
+spectual_arrowTrait.localizedDescription = game.localize("greedycraft.tconstruct.bow_trait.spectual_arrowTrait.desc");
+spectual_arrowTrait.calcArrowDamage = function(trait, bow, arrow, helder, target, world, originalDamage, newDamage) {
+    if (helder instanceof IPlayer && target instanceof IEntityLivingBase) {
+        var entity as IEntityLivingBase = target;
+        entity.addPotionEffect(<potion:minecraft:glowing>.makePotionEffect(200, 0, true, false));
+    }
+    return newDamage;
+};
+spectual_arrowTrait.register();
+
+val cushioningTrait = BowTraitBuilder.create("cushioning");
+cushioningTrait.color = Color.fromHex("ffffff").getIntColor();
+cushioningTrait.localizedName = game.localize("greedycraft.tconstruct.bow_trait.cushioningTrait.name");
+cushioningTrait.localizedDescription = game.localize("greedycraft.tconstruct.bow_trait.cushioningTrait.desc");
+cushioningTrait.register();
+
+val chemicalTrait = BowTraitBuilder.create("chemical");
+chemicalTrait.color = Color.fromHex("ffffff").getIntColor();
+chemicalTrait.localizedName = game.localize("greedycraft.tconstruct.bow_trait.chemicalTrait.name");
+chemicalTrait.localizedDescription = game.localize("greedycraft.tconstruct.bow_trait.chemicalTrait.desc");
+chemicalTrait.calcArrowDamage = function(trait, bow, arrow, helder, target, world, originalDamage, newDamage) {
+    if (helder instanceof IPlayer && target instanceof IEntityLivingBase) {
+        var entity as IEntityLivingBase = target;
+        if (!isNull(entity.activePotionEffects)) {
+            return newDamage * (1.0f + 0.25f * entity.activePotionEffects.length as float);
+        }
+    }
+    return newDamage;
+};
+chemicalTrait.register();
+
+val oscillationTrait = BowTraitBuilder.create("oscillation");
+oscillationTrait.color = Color.fromHex("ffffff").getIntColor();
+oscillationTrait.localizedName = game.localize("greedycraft.tconstruct.bow_trait.oscillationTrait.name");
+oscillationTrait.localizedDescription = game.localize("greedycraft.tconstruct.bow_trait.oscillationTrait.desc");
+oscillationTrait.onArrowLoose = function(trait, bow, charge, helder, world) {
+    if (helder instanceof IPlayer) {
+        var player as IPlayer = helder;
+        var faceVec as IVector3d = player.lookingDirection;
+        var pushVec as IVector3d = IVector3d.create(faceVec.x, 0.0d, faceVec.z);
+        if (pushVec.x * pushVec.z != 0.0d) {
+            var pushVecNormalized as IVector3d = pushVec.normalized.scale(2.5d);
+            for entity in getEntityLivingBaseInSectorCot(helder, 10.0d, 90.0d) {
+                entity.motionX += pushVecNormalized.x;
+                entity.motionZ += pushVecNormalized.z;
+            }
+        }
+    }
+};
+oscillationTrait.register();
+
+val bloody_arrowTrait = BowTraitBuilder.create("bloody_arrow");
+bloody_arrowTrait.color = Color.fromHex("ffffff").getIntColor();
+bloody_arrowTrait.localizedName = game.localize("greedycraft.tconstruct.bow_trait.bloody_arrowTrait.name");
+bloody_arrowTrait.localizedDescription = game.localize("greedycraft.tconstruct.bow_trait.bloody_arrowTrait.desc");
+bloody_arrowTrait.register();
+
+val bloody_arrow2Trait = BowTraitBuilder.create("bloody_arrow2");
+bloody_arrow2Trait.color = Color.fromHex("ffffff").getIntColor();
+bloody_arrow2Trait.localizedName = game.localize("greedycraft.tconstruct.bow_trait.bloody_arrow2Trait.name");
+bloody_arrow2Trait.localizedDescription = game.localize("greedycraft.tconstruct.bow_trait.bloody_arrow2Trait.desc");
+bloody_arrow2Trait.register();
+
 events.onBowShoot(function(event as onBowShootEvent) {
     if (!event.entity.world.remote && !isNull(event.bow) && !isNull(event.ammo) && !isNull(event.player)) {
         var bow as IItemStack = event.bow;
         var ammo as IItemStack = event.ammo;
+        var totalBonusCount as int = 0;
+        var totalBonusInaccuracy as float = 0.0f;
         
         if (CotTicTraitLib.hasTicTrait(bow, "slimy_shot")) {
-            var count as int = 1;
+            var count as int = 0;
             for i in 0 to 2 {
                 if (Math.random() < 0.5f) count += 1;
             }
-            event.setCount(count);
+            totalBonusCount += count;
         }
+
+        if (CotTicTraitLib.hasTicTrait(bow, "cushioning")) {
+            totalBonusInaccuracy -= 0.25f;
+        }
+
+        if (CotTicTraitLib.hasTicTrait(bow, "bloody_arrow2")) {
+            if (!isNull(bow.tag.bloodyArrow)) {
+                var bloodyArrowCount as int = bow.tag.bloodyArrow as int;
+                if (bloodyArrowCount > 5) {
+                    totalBonusCount += 10;
+                    bow.mutable().updateTag({bloodyArrow : bloodyArrowCount - 5 as int});
+                } else if (bloodyArrowCount > 0) {
+                    totalBonusCount += bloodyArrowCount * 2;
+                    bow.mutable().updateTag({bloodyArrow : 0 as int});
+                }
+            }
+        } else if (CotTicTraitLib.hasTicTrait(bow, "bloody_arrow")) {
+            if (!isNull(bow.tag.bloodyArrow)) {
+                var bloodyArrowCount as int = bow.tag.bloodyArrow as int;
+                if (bloodyArrowCount > 5) {
+                    totalBonusCount += 5;
+                    bow.mutable().updateTag({bloodyArrow : bloodyArrowCount - 5 as int});
+                } else if (bloodyArrowCount > 0) {
+                    totalBonusCount += bloodyArrowCount;
+                    bow.mutable().updateTag({bloodyArrow : 0 as int});
+                }
+            }
+        }
+
+        event.setCount(event.projectileCount + totalBonusCount);
+        event.setBonusInaccuracy(totalBonusInaccuracy);
+
     }
 });
