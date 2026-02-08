@@ -179,7 +179,7 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
                 }).sleep(40).then(function(world as IWorld, context) {
                     player.sendChat("§4§lH");
                 }).sleep(40).then(function(world as IWorld, context) {
-                    server.commandManager.executeCommandSilent(server, "summon mca:grimreapermca " + pos.x + " " + (pos.y + 2) + " " + pos.z + " {Attributes:[{Name:\"generic.maxHealth\",Base:1000000d}],Health:1000000f}");
+                    server.commandManager.executeCommandSilent(server, "summon grimreaper:grimreaper " + pos.x + " " + (pos.y + 2) + " " + pos.z + " {Attributes:[{Name:\"generic.maxHealth\",Base:1500000d}],Health:1500000f}");
                     world.performExplosion(player, pos.x, pos.y, pos.z, 8.0f, true, true);
                     player.sendChat("§4§l死 神 降 临");
                 }).start();

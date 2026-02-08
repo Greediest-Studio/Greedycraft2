@@ -9,6 +9,7 @@ var Tooltipitem as string[IItemStack] = {
     <contenttweaker:bauble_energy_gum> : game.localize('content.bauble_energy_gum_tooltip.name'),
     <contenttweaker:bauble_horseshoe_balloon> : game.localize('content.bauble_horseshoe_balloon_tooltip.name'),
     <contenttweaker:bauble_ranger_badge> : game.localize('content.bauble_ranger_badge_tooltip.name'),
+    <contenttweaker:bauble_damage_viewer> : game.localize('content.bauble_damage_viewer_tooltip.name'),
     <contenttweaker:bauble_wizard_badge> : game.localize('content.bauble_wizard_badge_tooltip.name'),
     <contenttweaker:bauble_warrior_badge> : game.localize('content.bauble_warrior_badge_tooltip.name'),
     <contenttweaker:bauble_source_of_swamp> : game.localize('content.bauble_source_of_swamp_tooltip.name'),
