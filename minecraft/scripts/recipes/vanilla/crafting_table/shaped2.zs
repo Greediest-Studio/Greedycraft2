@@ -846,6 +846,11 @@ RecipeUtil.addShaped("moontemplecellkey", <theaurorian:moontemplecellkeyfragment
     [<ore:ingotMoonstone>, <ore:ingotUmbra>, <ore:ingotMoonstone>],
     [<ore:ingotMoonstone>, <theaurorian:moongem>, <ore:ingotMoonstone>]
 ]);
+RecipeUtil.addShaped("damage_viewer", <contenttweaker:bauble_damage_viewer>, [
+    [null, null, null],
+    [null, <testdummy:dummy>, null],
+    [<minecraft:diamond_sword>, <minecraft:bow>, <minecraft:splash_potion>.withTag({Potion: "minecraft:harming"})]
+]);
 /*
  * RecipeUtil.addShaped("", , [
  *  [null, null, null],
