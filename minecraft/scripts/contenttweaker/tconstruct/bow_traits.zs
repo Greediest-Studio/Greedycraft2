@@ -12,6 +12,7 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.player.IPlayer;
 import crafttweaker.entity.IEntityLivingBase;
+import crafttweaker.entity.IEntityLiving;
 import crafttweaker.world.IVector3d;
 
 import mods.cc.tic.BowTraitBuilder;
@@ -108,6 +109,50 @@ bloody_arrow2Trait.color = Color.fromHex("ffffff").getIntColor();
 bloody_arrow2Trait.localizedName = game.localize("greedycraft.tconstruct.bow_trait.bloody_arrow2Trait.name");
 bloody_arrow2Trait.localizedDescription = game.localize("greedycraft.tconstruct.bow_trait.bloody_arrow2Trait.desc");
 bloody_arrow2Trait.register();
+
+val frightened_trait = BowTraitBuilder.create("frightened");
+frightened_trait.color = Color.fromHex("ffffff").getIntColor();
+frightened_trait.localizedName = game.localize("greedycraft.tconstruct.bow_trait.frightened_trait.name");
+frightened_trait.localizedDescription = game.localize("greedycraft.tconstruct.bow_trait.frightened_trait.desc");
+frightened_trait.calcArrowDamage = function(trait, bow, arrow, helder, target, world, originalDamage, newDamage) {
+    if (target instanceof IEntityLiving && Math.random() < 0.5f) {
+        var entity as IEntityLiving = target;
+        var randomEntityList as IEntityLiving[] = [] as IEntityLiving[];
+        for otherEntity in getEntityLivingBasesInCubeCot(entity, 7.0d) {
+            if (otherEntity.id != entity.id && otherEntity instanceof IEntityLiving) {
+                var otherLiving as IEntityLiving = otherEntity;
+                randomEntityList += otherLiving;
+            }
+        }
+        if (randomEntityList.length > 0) {
+            var randomEntity as IEntityLiving = randomEntityList[entity.world.random.nextInt(0, randomEntityList.length - 1)];
+            entity.revengeTarget = randomEntity;
+        }
+    }
+    return newDamage;
+};
+frightened_trait.register();
+
+val shroudTrait = BowTraitBuilder.create("shroud");
+shroudTrait.color = Color.fromHex("ffffff").getIntColor();
+shroudTrait.localizedName = game.localize("greedycraft.tconstruct.bow_trait.shroudTrait.name");
+shroudTrait.localizedDescription = game.localize("greedycraft.tconstruct.bow_trait.shroudTrait.desc");
+shroudTrait.calcArrowDamage = function(trait, bow, arrow, helder, target, world, originalDamage, newDamage) {
+    if (helder instanceof IPlayer && target instanceof IEntityLivingBase) {
+        var entity as IEntityLivingBase = target;
+        entity.addPotionEffect(<potion:minecraft:slowness>.makePotionEffect(200, 1, false, false));
+        helder.addPotionEffect(<potion:tiths:paralysed>.makePotionEffect(200, 0, false, false));
+        return newDamage * 2.0f;
+    }
+    return newDamage;
+};
+shroudTrait.register();
+
+val flamebowTrait = BowTraitBuilder.create("flamebow");
+flamebowTrait.color = Color.fromHex("ffffff").getIntColor();
+flamebowTrait.localizedName = game.localize("greedycraft.tconstruct.bow_trait.flamebowTrait.name");
+flamebowTrait.localizedDescription = game.localize("greedycraft.tconstruct.bow_trait.flamebowTrait.desc");
+flamebowTrait.register();
 
 events.onBowShoot(function(event as onBowShootEvent) {
     if (!event.entity.world.remote && !isNull(event.bow) && !isNull(event.ammo) && !isNull(event.player)) {
