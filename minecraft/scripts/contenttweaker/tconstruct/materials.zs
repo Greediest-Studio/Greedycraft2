@@ -1734,6 +1734,96 @@ crimson_fabric_enhanced.localizedName = game.localize("greedycraft.tconstruct.ma
 crimson_fabric_enhanced.addBowStringMaterialStats(1.5);
 crimson_fabric_enhanced.register();
 
+val dread_cloth = MaterialBuilder.create("dread_cloth");
+dread_cloth.color = Color.fromHex("930101").getIntColor();
+dread_cloth.craftable = true;
+dread_cloth.castable = false;
+dread_cloth.representativeItem = <item:abyssalcraft:dreadcloth>;
+dread_cloth.addItem(<item:abyssalcraft:dreadcloth>);
+dread_cloth.localizedName = game.localize("greedycraft.tconstruct.material.dread_cloth.name");
+dread_cloth.addBowStringMaterialStats(0.9);
+dread_cloth.register();
+
+val linen_cloth = MaterialBuilder.create("linen_cloth");
+linen_cloth.color = Color.fromHex("d3d3d3").getIntColor();
+linen_cloth.craftable = true;
+linen_cloth.castable = false;
+linen_cloth.representativeItem = <item:atum:linen_cloth>;
+linen_cloth.addItem(<item:atum:linen_cloth>);
+linen_cloth.localizedName = game.localize("greedycraft.tconstruct.material.linen_cloth.name");
+linen_cloth.addBowStringMaterialStats(2.8);
+linen_cloth.register();
+
+val ashen_cloth = MaterialBuilder.create("ashenfabric");
+ashen_cloth.color = Color.fromHex("1f1b1b").getIntColor();
+ashen_cloth.craftable = true;
+ashen_cloth.castable = false;
+ashen_cloth.representativeItem = <item:embers:ashen_cloth>;
+ashen_cloth.addItem(<item:embers:ashen_cloth>);
+ashen_cloth.localizedName = game.localize("greedycraft.tconstruct.material.ashen_cloth.name");
+ashen_cloth.addBowStringMaterialStats(1.75);
+ashen_cloth.register();
+
+val silk = MaterialBuilder.create("silk");
+silk.color = Color.fromHex("f5f6f5").getIntColor();
+silk.craftable = true;
+silk.castable = false;
+silk.representativeItem = <item:sakura:materials:59>;
+silk.addItem(<item:sakura:materials:59>);
+silk.localizedName = game.localize("greedycraft.tconstruct.material.silk.name");
+silk.addBowStringMaterialStats(1.0);
+silk.register();
+
+val spectral_silk = MaterialBuilder.create("spectral_silk");
+spectral_silk.color = Color.fromHex("469e9b").getIntColor();
+spectral_silk.craftable = true;
+spectral_silk.castable = false;
+spectral_silk.representativeItem = <item:theaurorian:spectralsilk>;
+spectral_silk.addItem(<item:theaurorian:spectralsilk>);
+spectral_silk.localizedName = game.localize("greedycraft.tconstruct.material.spectral_silk.name");
+spectral_silk.addBowStringMaterialStats(1.3);
+spectral_silk.register();
+
+val mystical_string = MaterialBuilder.create("mystical_string");
+mystical_string.color = Color.fromHex("b8e0e0").getIntColor();
+mystical_string.craftable = true;
+mystical_string.castable = false;
+mystical_string.representativeItem = <item:mysticalagriculture:crafting:23>;
+mystical_string.addItem(<item:mysticalagriculture:crafting:23>);
+mystical_string.localizedName = game.localize("greedycraft.tconstruct.material.mystical_string.name");
+mystical_string.addBowStringMaterialStats(1.0);
+mystical_string.register();
+
+val golden_string = MaterialBuilder.create("golden_string");
+golden_string.color = Color.fromHex("dede00").getIntColor();
+golden_string.craftable = true;
+golden_string.castable = false;
+golden_string.representativeItem = <item:evilcraft:golden_string>;
+golden_string.addItem(<item:evilcraft:golden_string>);
+golden_string.localizedName = game.localize("greedycraft.tconstruct.material.golden_string.name");
+golden_string.addBowStringMaterialStats(1.5);
+golden_string.register();
+
+val blood_burned_string = MaterialBuilder.create("blood_burned_string");
+blood_burned_string.color = Color.fromHex("973b37").getIntColor();
+blood_burned_string.craftable = true;
+blood_burned_string.castable = false;
+blood_burned_string.representativeItem = <item:bloodarsenal:blood_burned_string>;
+blood_burned_string.addItem(<item:bloodarsenal:blood_burned_string>);
+blood_burned_string.localizedName = game.localize("greedycraft.tconstruct.material.blood_burned_string.name");
+blood_burned_string.addBowStringMaterialStats(1.3);
+blood_burned_string.register();
+
+val red_string = MaterialBuilder.create("red_string");
+red_string.color = Color.fromHex("d30c0c").getIntColor();
+red_string.craftable = true;
+red_string.castable = false;
+red_string.representativeItem = <item:botania:manaresource:12>;
+red_string.addItem(<item:botania:manaresource:12>);
+red_string.localizedName = game.localize("greedycraft.tconstruct.material.red_string.name");
+red_string.addBowStringMaterialStats(0.9);
+red_string.register();
+
 val nylon_cloth = MaterialBuilder.create("nylon_cloth");
 nylon_cloth.color = Color.fromHex("3949ab").getIntColor(); 
 nylon_cloth.craftable = true;

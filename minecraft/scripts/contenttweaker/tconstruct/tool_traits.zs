@@ -43,7 +43,6 @@ import mods.contenttweaker.Fluid;
 import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Color;
 import mods.cc.tic.ToolTraitBuilder;
-import mods.cc.tic.ToolTrait;
 import mods.cc.tic.TraitDataRepresentation;
 import mods.cc.CCTagUtil;
 import mods.zenutils.I18n;

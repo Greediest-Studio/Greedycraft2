@@ -72,11 +72,14 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent) {
                     var bow as IItemStack = player.offHandHeldItem;
                     var damageType as string = event.damageSource.getDamageType();
                     var entityId as int = event.entity.id;
-                    if (isNull(bow.tag.flamebow)) {
+                    if (isNull(bow.tag.flamebow) && !event.damageSource.projectile) {
                         bow.mutable().updateTag({flamebow : {id : entityId, types : [{type : damageType}]}});
                         player.sendStatusMessage("§6【烈弓】§c♥§7 ♦ ♣ ♠§r");
                     } else {
-                        var oldId as int = bow.tag.flamebow.id as int;
+                        var oldId as int = -1;
+                        if (!isNull(bow.tag.flamebow.id)) {
+                            oldId = bow.tag.flamebow.id as int;
+                        }
                         if (oldId != entityId) {
                             bow.mutable().updateTag({flamebow : {id : entityId, types : [{type : damageType}]}});
                             player.sendStatusMessage("§6【烈弓】§c♥§7 ♦ ♣ ♠§r");
@@ -93,9 +96,9 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent) {
                             }
                             if (pass) {
                                 var newData as IData = {type : damageType};
-                                var oldData as IData = bow.tag;
+                                var oldData as IData = bow.tag.flamebow.types;
                                 var length as int = oldTypes.asList().length + 1;
-                                bow.mutable().updateTag(oldData.deepUpdate({flamebow : {types : [newData]}}), MERGE);
+                                bow.mutable().updateTag({flamebow : {types : (oldData + [newData])}});
                                 player.sendStatusMessage("§6【烈弓】§r"
                                     + (length > 0 ? "§c" : "§7") + "♥§r "
                                     + (length > 1 ? "§c" : "§7") + "♦§r "

@@ -14,9 +14,10 @@ import crafttweaker.player.IPlayer;
 import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.entity.IEntityLiving;
 import crafttweaker.world.IVector3d;
+import crafttweaker.world.IBlockPos;
+import crafttweaker.entity.AttributeModifier;
 
 import mods.cc.tic.BowTraitBuilder;
-import mods.cc.tic.BowTrait;
 import mods.cc.event.onBowShootEvent;
 import mods.contenttweaker.Color;
 import mods.zenutils.I18n;
@@ -152,7 +153,76 @@ val flamebowTrait = BowTraitBuilder.create("flamebow");
 flamebowTrait.color = Color.fromHex("ffffff").getIntColor();
 flamebowTrait.localizedName = game.localize("greedycraft.tconstruct.bow_trait.flamebowTrait.name");
 flamebowTrait.localizedDescription = game.localize("greedycraft.tconstruct.bow_trait.flamebowTrait.desc");
+flamebowTrait.calcArrowDamage = function(trait, bow, arrow, helder, target, world, originalDamage, newDamage) {
+    if (helder instanceof IPlayer && target instanceof IEntityLivingBase) {
+        var entity as IEntityLivingBase = target;
+        if (!(isNull(bow.tag.flamebow) || isNull(bow.tag.flamebow.types) || isNull(entity.id) || isNull(bow.tag.flamebow.id))) {
+            var count as int = bow.tag.flamebow.types.asList().length as int;
+            var id as int = bow.tag.flamebow.id as int;
+            bow.mutable().updateTag({flamebow : {id : entity.id, types : []}});
+            if (count == 1 || id != entity.id) {
+                return newDamage;
+            } else if (count == 2) {
+                return newDamage * 2.0f;
+            } else if (count == 3) {
+                return newDamage * 4.0f;
+            } else if (count >= 4) {
+                return newDamage * 8.0f;
+            }
+        }
+    }
+    return newDamage;
+};
 flamebowTrait.register();
+
+val webbingTrait = BowTraitBuilder.create("webbing");
+webbingTrait.color = Color.fromHex("ffffff").getIntColor();
+webbingTrait.localizedName = game.localize("greedycraft.tconstruct.bow_trait.webbingTrait.name");
+webbingTrait.localizedDescription = game.localize("greedycraft.tconstruct.bow_trait.webbingTrait.desc");
+webbingTrait.calcArrowDamage = function(trait, bow, arrow, helder, target, world, originalDamage, newDamage) {
+    if (helder instanceof IPlayer && target instanceof IEntityLivingBase) {
+        var entity as IEntityLivingBase = target;
+        var pos as IBlockPos = entity.position;
+        if (world.isAirBlock(pos)) {
+            world.setBlockState(<blockstate:minecraft:web>, pos);
+        }
+    }
+    return newDamage;
+};
+webbingTrait.register();
+
+val flashbackTrait = BowTraitBuilder.create("flashback");
+flashbackTrait.color = Color.fromHex("ffffff").getIntColor();
+flashbackTrait.localizedName = game.localize("greedycraft.tconstruct.bow_trait.flashbackTrait.name");
+flashbackTrait.localizedDescription = game.localize("greedycraft.tconstruct.bow_trait.flashbackTrait.desc");
+flashbackTrait.calcArrowDamage = function(trait, bow, arrow, helder, target, world, originalDamage, newDamage) {
+    if (helder instanceof IPlayer && target instanceof IEntityLivingBase) {
+        var entity as IEntityLivingBase = target;
+        entity.addPotionEffect(<potion:minecraft:invisibility>.makePotionEffect(200, 0, true, true));
+        helder.addPotionEffect(<potion:minecraft:invisibility>.makePotionEffect(200, 0, true, true));
+    }
+    return newDamage;
+};
+flashbackTrait.register();
+
+val bloodecayTrait = BowTraitBuilder.create("bloodecay");
+bloodecayTrait.color = Color.fromHex("ffffff").getIntColor();
+bloodecayTrait.localizedName = game.localize("greedycraft.tconstruct.bow_trait.bloodecayTrait.name");
+bloodecayTrait.localizedDescription = game.localize("greedycraft.tconstruct.bow_trait.bloodecayTrait.desc");
+bloodecayTrait.calcArrowDamage = function(trait, bow, arrow, helder, target, world, originalDamage, newDamage) {
+    if (helder instanceof IPlayer && target instanceof IEntityLivingBase) {
+        var entity as IEntityLivingBase = target;
+        var rate as float = entity.health / entity.maxHealth as float;
+        if (!isNull(bow.tag.bloodyDecay)) {
+            var oldRate as float = bow.tag.bloodyDecay as float;
+            var oldMtp as float = 0.6f * oldRate;
+            entity.getAttribute("generic.maxHealth").applyModifier(AttributeModifier.createModifier("generic.maxHealth", oldMtp as double, 1, "a7c1f0d4-8b32-4f17-9c6b-5a8e2d14f3b1"));
+        }
+        bow.mutable().updateTag({bloodyDecay : rate as float});
+    }
+    return newDamage;
+};
+bloodecayTrait.register();
 
 events.onBowShoot(function(event as onBowShootEvent) {
     if (!event.entity.world.remote && !isNull(event.bow) && !isNull(event.ammo) && !isNull(event.player)) {
