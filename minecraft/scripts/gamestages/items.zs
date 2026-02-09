@@ -2450,6 +2450,13 @@ GameStagesUtil.stageDeepDream.addIngredients([
     <ore:dustIronwoodPetrified>
 ], false);
 
+GameStagesUtil.stageWakeUp.addIngredients([
+    <ore:ingotTcreoparghiumFake>,
+    <ore:nuggetTcreoparghiumFake>,
+    <ore:blockTcreoparghiumFake>,
+    <ore:dustTcreoparghiumFake>
+], false);
+
 GameStagesUtil.stageLegendWizard.addIngredients([
     <ore:gemSolarys>,
     <ore:oreSolarys>,
