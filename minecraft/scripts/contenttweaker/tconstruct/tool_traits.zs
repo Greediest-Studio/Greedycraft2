@@ -74,6 +74,8 @@ import native.thaumcraft.api.capabilities.IPlayerKnowledge;
 import native.thaumcraft.api.capabilities.ThaumcraftCapabilities;
 import native.thaumcraft.api.research.ResearchCategory;
 import native.thaumcraft.api.research.ResearchCategories;
+import native.net.minecraft.server.MinecraftServer;
+import native.net.minecraftforge.fml.common.FMLCommonHandler;
 
 $expand IItemStack$hasTicTrait(traitid as string) as bool {
     return CotTicTraitLib.hasTicTrait(this, traitid);
@@ -5886,3 +5888,34 @@ bouncy_stringTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSe
     CotTicLib.addTicDrawSpeed(tool, 2.0f, "bouncy_string");
 };
 bouncy_stringTrait.register();
+
+function TPS() as double {
+    if (!isNull(FMLCommonHandler.instance().getMinecraftServerInstance())) {
+        var serverNt as MinecraftServer = FMLCommonHandler.instance().getMinecraftServerInstance();
+        var tickTimes as long[] = serverNt.tickTimeArray;
+        if (tickTimes.length == 0) return 20.0d;
+        var totalTickTime as long = 0l;
+        for time in tickTimes {
+            totalTickTime += time;
+        }
+        var averageTickTimeNs as double = totalTickTime as double / tickTimes.length as double;
+        var averageTickTimeMs as double = averageTickTimeNs / 1000000.0d as double;
+        return Math.min(20.0d, 1000.0d / averageTickTimeMs);
+    } else {
+        return 20.0d;
+    }
+}
+
+val dimensional_strikeTrait = ToolTraitBuilder.create("dimensional_strike");
+dimensional_strikeTrait.color = Color.fromHex("ffffff").getIntColor(); 
+dimensional_strikeTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.dimensional_strikeTrait.name");
+dimensional_strikeTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.dimensional_strikeTrait.desc");
+dimensional_strikeTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        var tps as double = TPS();
+        return newDamage * (1.0f + ((20.0d - tps) / 6.0d) as float);
+    }
+    return newDamage;
+};
+dimensional_strikeTrait.register();

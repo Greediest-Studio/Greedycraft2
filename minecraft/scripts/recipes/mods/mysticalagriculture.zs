@@ -29,6 +29,7 @@ registerSeedRecipe(<mysticalagriculture:guaninite_seeds>, <additions:guaninite_i
 registerSeedRecipe(<mysticalagriculture:adeninite_seeds>, <additions:adeninite_ingot>, 5, 1, <mysticalagriculture:adeninite_essence>, <additions:adeninite_ingot>);
 registerSeedRecipe(<mysticalagriculture:witherium_seeds>, <tiths:ingot_witherium>, 5, 1, <mysticalagriculture:witherium_essence>, null);
 registerSeedRecipe(<mysticalagriculture:germanium_seeds>, <additions:germanium_ingot>, 5, 1, <mysticalagriculture:germanium_essence>, <additions:germanium_ingot>);
+registerSeedRecipe(<mysticalagriculture:hellite_seeds>, <additions:hellite_ingot>, 5, 2, <mysticalagriculture:hellite_essence>, <additions:hellite_ingot>);
 
 registerSeedRecipe(<mysticalagriculture:fusion_matrix_seeds>, <tconevo:material>, 6, 1, <mysticalagriculture:fusion_matrix_essence>, <tconevo:material>);
 registerSeedRecipe(<mysticalagriculture:aetherium_seeds>, <additions:aetherium_ingot>, 6, 3, <mysticalagriculture:aetherium_essence>, <gct_ores:aetherium_nugget>);
