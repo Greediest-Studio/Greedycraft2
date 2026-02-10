@@ -2960,7 +2960,7 @@ taintedTrait.afterHit = function(trait, tool, attacker, target, damageDealt, was
     if (attacker instanceof IPlayer) {
         var player as IPlayer = attacker;
         var dmg as float = player.maxHealth * 0.13f;
-        var source as IDamageSource = IDamageSource.createEntityDamage("chaos", player);
+        var source as IDamageSource = IDamageSource.createEntityDamage("chaos", player).setDamageIsAbsolute();
         target.attackEntityFrom(source, dmg);
     }
 };
@@ -3470,7 +3470,7 @@ erase_commandTrait.onHit = function(trait, tool, attacker, target, damage, isCri
                 if (entity.health > 100 * level as float) {
                     entity.health -= (100 * level as float);
                 } else {
-                    var dmg as IDamageSource = IDamageSource.createEntityDamage("chaos", player);
+                    var dmg as IDamageSource = IDamageSource.createEntityDamage("chaos", player).setDamageIsAbsolute();
                     entity.attackEntityFrom(dmg, 100.0f);
                 }
             }
@@ -3830,7 +3830,8 @@ pureTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.pureT
 pureTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.pureTrait.desc");
 pureTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer) {
-        return newDamage * 3.0f;
+        var player as IPlayer = attacker;
+        if (player.health <= 1.2f) return newDamage * 3.0f;
     }
     return newDamage;
 };
@@ -4040,23 +4041,23 @@ polarizationTrait.calcDamage = function(trait, tool, attacker, target, originalD
         var mtp as float = 1.0f;
         if (Math.random() < 0.05f) {
             mtp -= 0.15f;
-            target.attackEntityFrom(crafttweaker.damage.IDamageSource.FALL(), originalDamage * 0.15f);
+            target.attackEntityFrom(crafttweaker.damage.IDamageSource.FALL().setDamageIsAbsolute(), originalDamage * 0.15f);
         }
         if (Math.random() < 0.05f) {
             mtp -= 0.15f;
-            target.attackEntityFrom(crafttweaker.damage.IDamageSource.IN_FIRE(), originalDamage * 0.15f);
+            target.attackEntityFrom(crafttweaker.damage.IDamageSource.IN_FIRE().setDamageIsAbsolute(), originalDamage * 0.15f);
         }
         if (Math.random() < 0.05f) {
             mtp -= 0.15f;
-            target.attackEntityFrom(crafttweaker.damage.IDamageSource.MAGIC(), originalDamage * 0.15f);
+            target.attackEntityFrom(crafttweaker.damage.IDamageSource.MAGIC().setDamageIsAbsolute(), originalDamage * 0.15f);
         }
         if (Math.random() < 0.05f) {
             mtp -= 0.15f;
-            target.attackEntityFrom(crafttweaker.damage.IDamageSource.OUT_OF_WORLD(), originalDamage * 0.15f);
+            target.attackEntityFrom(crafttweaker.damage.IDamageSource.OUT_OF_WORLD().setDamageIsAbsolute(), originalDamage * 0.15f);
         }
         if (Math.random() < 0.05f) {
             mtp -= 0.15f;
-            target.attackEntityFrom(crafttweaker.damage.IDamageSource.FIREWORKS(), originalDamage * 0.15f);
+            target.attackEntityFrom(crafttweaker.damage.IDamageSource.FIREWORKS().setDamageIsAbsolute(), originalDamage * 0.15f);
         }
         return newDamage * mtp as float;
     }
@@ -4407,7 +4408,7 @@ octibladeTrait.calcDamage = function(trait, tool, attacker, target, originalDama
         if (!isNull(player.native.getCapability(CapabilityRegistry.CAPABILITY_DECAY, null))) {
             var cap as IDecayCapability = player.native.getCapability(CapabilityRegistry.CAPABILITY_DECAY, null);
             var decayLevel as int = cap.getDecayStats().getDecayLevel() as int;
-            entity.attackEntityFrom(IDamageSource.createEntityDamage("FIRE", player), newDamage * (decayLevel as float / 100.0f) as float * 3.0f);
+            entity.attackEntityFrom(IDamageSource.createEntityDamage("FIRE", player).setDamageIsAbsolute(), newDamage * (decayLevel as float / 100.0f) as float * 3.0f);
             return newDamage * (1.0f - (decayLevel as float / 100.0f) as float) as float;
         }
     }
@@ -5919,3 +5920,54 @@ dimensional_strikeTrait.calcDamage = function(trait, tool, attacker, target, ori
     return newDamage;
 };
 dimensional_strikeTrait.register();
+
+val punishment_of_tcTrait = ToolTraitBuilder.create("punishment_of_tc");
+punishment_of_tcTrait.color = Color.fromHex("ffffff").getIntColor(); 
+punishment_of_tcTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.punishment_of_tcTrait.name");
+punishment_of_tcTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.punishment_of_tcTrait.desc");
+punishment_of_tcTrait.applyEffect = function(trait, rootTag, modTag) {
+    if (!isNull(CCTagUtil.getDataByNBT(rootTag).Stats)) {
+        var statsTag as IData = CCTagUtil.getDataByNBT(rootTag).Stats;
+        if (!isNull(statsTag.Attack)) {
+            var oldAttack as float = statsTag.Attack as float;
+            CCTagUtil.setFloat(rootTag, oldAttack - 50.0f, "Attack");
+        }
+        if (!isNull(statsTag.MiningSpeed)) {
+            var oldMiningSpeed as float = statsTag.MiningSpeed as float;
+            CCTagUtil.setFloat(rootTag, oldMiningSpeed - 20.0f, "MiningSpeed");
+        }
+        if (!isNull(statsTag.Durability)) {
+            var oldDurability as int = statsTag.Durability as int;
+            if (!isNull(statsTag.Defense)) {
+                CCTagUtil.setInt(rootTag, oldDurability - 50000, "Durability");
+            } else {
+                CCTagUtil.setInt(rootTag, oldDurability - 10000, "Durability");
+            }
+        }
+        if (!isNull(statsTag.Defense)) {
+            var oldDefense as float = statsTag.Defense as float;
+            CCTagUtil.setFloat(rootTag, oldDefense - 50.0f, "Defense");
+        }
+        if (!isNull(statsTag.Toughness)) {
+            var oldToughness as float = statsTag.Toughness as float;
+            CCTagUtil.setFloat(rootTag, oldToughness - 10.0f, "Toughness");
+        }
+    }
+};
+punishment_of_tcTrait.register();
+
+val additionsTrait = ToolTraitBuilder.create("additions");
+additionsTrait.color = Color.fromHex("ffffff").getIntColor(); 
+additionsTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.additionsTrait.name");
+additionsTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.additionsTrait.desc");
+additionsTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        var uuid as string = player.uuid;
+        if (SponsorListTC has uuid) {
+            return newDamage * 1.25f;
+        }
+    }
+    return newDamage;
+};
+additionsTrait.register();

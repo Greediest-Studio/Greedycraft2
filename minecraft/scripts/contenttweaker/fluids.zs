@@ -2709,6 +2709,18 @@ molten_primordial_extended.stillLocation = "base:fluids/molten";
 molten_primordial_extended.flowingLocation = "base:fluids/molten_flowing";
 molten_primordial_extended.register();
 
+val molten_tcreoparghium_fake = mods.contenttweaker.VanillaFactory.createFluid("tcreoparghium_fake", Color.fromHex("ffb7f5").getIntColor());
+molten_tcreoparghium_fake.material = <blockmaterial:lava>;
+molten_tcreoparghium_fake.viscosity = 3000;
+molten_tcreoparghium_fake.density = 6500;
+molten_tcreoparghium_fake.colorize = true;
+molten_tcreoparghium_fake.temperature = 28500;
+molten_tcreoparghium_fake.luminosity = 15;
+molten_tcreoparghium_fake.color = Color.fromHex("ffb7f5").getIntColor();
+molten_tcreoparghium_fake.stillLocation = "base:fluids/molten";
+molten_tcreoparghium_fake.flowingLocation = "base:fluids/molten_flowing";
+molten_tcreoparghium_fake.register();
+
 //液化类
 val liquid_air = mods.contenttweaker.VanillaFactory.createFluid("liquid_air", Color.fromHex("ffffff").getIntColor());
 liquid_air.material = <blockmaterial:water>;

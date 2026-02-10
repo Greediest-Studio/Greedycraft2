@@ -65,6 +65,31 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
         }
     }
 
+    // Right Translation Trait
+    if (!isNull(event.damageSource.getTrueSource()) && event.damageSource.getTrueSource() instanceof IPlayer) {
+        var player as IPlayer = event.damageSource.getTrueSource();
+        if (!isNull(player.nbt.ForgeData.rightTranslation)) {
+            var level as int = player.nbt.ForgeData.rightTranslation as int;
+            if (level == 1) {
+                event.amount *= 2.0f;
+                player.sendChat("§7§o雷石东直放站！");
+                player.update({rightTranslation : 0 as int});
+            } else if (level == 2) {
+                entity.attackEntityFrom(IDamageSource.createEntityDamage("fire", player).setDamageIsAbsolute(), event.amount);
+                player.sendChat("§7§o大火杆！");
+                player.update({rightTranslation : 0 as int});
+            } else if (level == 3) {
+                entity.attackEntityFrom(IDamageSource.createEntityDamage("anvil", player).setDamageIsAbsolute(), event.amount);
+                player.sendChat("§7§o用你的锻造锤打造国防部！");
+                player.update({rightTranslation : 0 as int});
+            } else if (level == 4) {
+                entity.attackEntityFrom(IDamageSource.createEntityDamage("drown", player).setDamageIsAbsolute(), event.amount);
+                player.sendChat("§7§o银鱼！");
+                player.update({rightTranslation : 0 as int});
+            }
+        }
+    }
+
     if (isNull(entity) || !entity instanceof IPlayer) {
         return;
     }

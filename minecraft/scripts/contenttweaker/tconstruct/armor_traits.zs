@@ -3445,7 +3445,7 @@ primordial_malevolenceTrait.onHurt = function(trait, armor, player, source, dama
     if (!isNull(player)) {
         if (Math.random() < 0.15f) {
             var dmg as float = player.maxHealth * 0.13f;
-            var source as IDamageSource = IDamageSource.createEntityDamage("chaos", player);
+            var source as IDamageSource = IDamageSource.createEntityDamage("chaos", player).setDamageIsAbsolute();
             player.attackEntityFrom(source, dmg);
         }
     }
@@ -3625,7 +3625,7 @@ specular_reflectionTrait.onHurt = function(trait, armor, player, source, damage,
         if (Math.random() < 0.5f) {
             if (source.isMagicDamage() && (!isNull(source.getTrueSource()))) {
                 var entity as IEntityLivingBase = source.getTrueSource();
-                entity.attackEntityFrom(IDamageSource.createEntityDamage("magic", player), newDamage * 0.3f);
+                entity.attackEntityFrom(IDamageSource.createEntityDamage("magic", player).setDamageIsAbsolute(), newDamage * 0.3f);
                 return newDamage * 0.7f;
             }
         }
@@ -3667,7 +3667,7 @@ phase_rushTrait.onArmorTick = function(trait, armor, world, player) {
                 for entity in world.getEntitiesWithinAABBExcludingEntity(IAxisAlignedBB.create(startPos, endPos), player) {
                     if (entity instanceof IEntityLivingBase) {
                         var en as IEntityLivingBase = entity;
-                        en.attackEntityFrom(IDamageSource.createEntityDamage("generic", player), en.maxHealth * 0.05f);
+                        en.attackEntityFrom(IDamageSource.createEntityDamage("generic", player).setDamageIsAbsolute(), en.maxHealth * 0.05f);
                         server.commandManager.executeCommandSilent(server, "particle barrier " ~ en.x ~ " " ~ (en.y + 1.0d) ~ " " ~ en.z ~ " 0 0 0 0 100");
                         server.commandManager.executeCommandSilent(server, "particle hugeexplosion " ~ en.x ~ " " ~ (en.y + 1.0d) ~ " " ~ en.z ~ " 0 0 0 0 1");
                     }
@@ -5192,3 +5192,65 @@ eruditeTrait.onHurt = function(trait, armor, player, source, damage, newDamage, 
     return newDamage;
 };
 eruditeTrait.register();
+
+val frame_of_esportTrait = ArmorTraitBuilder.create("frame_of_esport");
+frame_of_esportTrait.color = Color.fromHex("ffffff").getIntColor();
+frame_of_esportTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.frame_of_esportTrait.name");
+frame_of_esportTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.frame_of_esportTrait.desc");
+frame_of_esportTrait.onDamaged = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        if (!isNull(player.nbt.ForgeData.currentFps)) {
+            var fps as int = player.nbt.ForgeData.currentFps as int;
+            return Math.min(newDamage as double, pow(fps as double, 2.0d) as double) as float;
+        }
+    }
+    return newDamage;
+};
+frame_of_esportTrait.register();
+
+val right_translationTrait = ArmorTraitBuilder.create("right_translation");
+right_translationTrait.color = Color.fromHex("ffffff").getIntColor();
+right_translationTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.right_translationTrait.name");
+right_translationTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.right_translationTrait.desc");
+right_translationTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        var effect as int = player.world.random.nextInt(1, 4);
+        player.update({rightTranslation : effect});
+        return newDamage * 0.5f;
+    }
+    return newDamage;
+};
+right_translationTrait.register();
+
+val asteroidTrait = ArmorTraitBuilder.create("asteroid");
+asteroidTrait.color = Color.fromHex("ffffff").getIntColor();
+asteroidTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.asteroidTrait.name");
+asteroidTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.asteroidTrait.desc");
+asteroidTrait.onJumping = function(trait, armor, player, event) {
+    if (!isNull(player)) {
+        var attackDamage as float = player.totalArmorValue as float;
+        for entity in getEntityLivingBasesInCubeCot(player, 3.0d) {
+            if (entity instanceof IEntityLiving && !entity.isBoss) {
+                entity.attackEntityFrom(IDamageSource.createEntityDamage("fire", player).setDamageIsAbsolute(), 1.0f);
+                entity.health -= attackDamage;
+                entity.setFire(10);
+            }
+        }
+    }
+};
+asteroidTrait.register();
+
+val additionsTrait = ArmorTraitBuilder.create("additions");
+additionsTrait.color = Color.fromHex("ffffff").getIntColor();
+additionsTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.additionsTrait.name");
+additionsTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.additionsTrait.desc");
+additionsTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        var uuid as string = player.uuid;
+        if (SponsorListTC has uuid) {
+            return newDamage * 0.75f;
+        }
+    }
+    return newDamage;
+};
+additionsTrait.register();

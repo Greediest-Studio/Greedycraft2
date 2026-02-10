@@ -1,0 +1,132 @@
+{
+  "name": "tcreoparghium_fake",
+  "tool": {
+    "bow": {
+      "speed": 2.8,
+      "range": 3,
+      "bonusDamage": 310
+    },
+    "head": {
+      "attackDamage": 270,
+      "speed": 20,
+      "durability": 25000,
+      "harvestLevel": 14
+    },
+    "handle": {
+      "modifier": 3.0,
+      "durability": 11000
+    },
+    "extra": {
+      "durability": 14000
+    }
+  },
+  "color": "#ffb7f5",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 8000,
+  "looks": {
+    "shininess": 0.1,
+    "brightness": 0.05,
+    "hueshift": 0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 75000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "PROJECTILE",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Fake TCreoparghium",
+    "zh_cn": "伪·TC金属"
+  },
+  "smeltingItems": {
+    "ingot": [
+      "additions:fake_tcreopargh_ingot"
+    ],
+    "block": [
+      "additions:fake_tcreoparghium_block"
+    ],
+    "nugget": [
+    ],
+    "ore": [
+    ],
+    "dust": [
+    ],
+    "plate": [
+    ],
+    "gear": [
+    ]
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "armor": {
+    "core": {
+      "durability": 5000,
+      "defense": 260
+    },
+    "plates": {
+      "modifier": 20,
+      "durability": 3500,
+      "toughness": 30
+    },
+    "trim": {
+      "extraDurability": 3500
+    }
+  },
+  "specificTraits": {
+    "HEAD": [
+      "punishment_of_tc",
+      "additions",
+      "dimensional_strike"
+    ],
+    "BOW": [
+      "punishment_of_tc",
+      "additions",
+      "dimensional_strike"
+    ],
+    "HANDLE": [
+      "punishment_of_tc",
+      "additions",
+      "clever_translation"
+    ],
+    "EXTRA": [
+      "punishment_of_tc",
+      "additions",
+      "connection_404"
+    ],
+    "CORE": [
+      "punishment_of_tc",
+      "additions_armor",
+      "frame_of_esport_armor"
+    ],
+    "PLATES": [
+      "punishment_of_tc",
+      "additions_armor",
+      "right_translation_armor"
+    ],
+    "TRIM": [
+      "punishment_of_tc",
+      "additions_armor",
+      "asteroid_armor"
+    ]
+  }
+}

@@ -356,6 +356,7 @@ val localizationMap as string[string][string] = {
         "fluid.debarcium": "熔融暗蚀",
         "fluid.murderite_purified": "净化血渊浆液",
         "fluid.primordial_extended": "熔融增强元金",
+        "fluid.tcreoparghium_fake": "伪·TC流质",
         //化工相关液体
         "fluid.liquid_air": "液态空气",
         "fluid.hydrochloric_acid": "盐酸",
