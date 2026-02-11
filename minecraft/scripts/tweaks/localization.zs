@@ -61,6 +61,7 @@ val localizationMap as string[string][string] = {
         "item.ma.tier4_inferium_seeds.name": "下级精华种子",
         "item.ma.tier5_inferium_seeds.name": "下级精华种子",
         "item.ma.tier6_inferium_seeds.name": "下级精华种子",
+        "item.suikecherry._armor_trim_smithing_template.name": "§e无盔甲纹饰",
         "tile.solarflux:solar_panel_wyvern.name": "飞龙太阳能电池板",
         "research_name.thaumadditions:adaminite": "铿金金属",
         "research_stage.thaumadditions:adaminite.2": "我的实验已大获成功！书中它这种新造物称之为“铿金”。我都要疯了！我听说过灵液，神之血，但我认为这金属要远比灵液好，尽管它存在于这世上的任何地方。",
