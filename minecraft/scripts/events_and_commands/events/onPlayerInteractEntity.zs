@@ -110,6 +110,18 @@ events.onPlayerInteractEntity(function(event as PlayerInteractEntityEvent) {
                 }
             }
 
+            //Annihilation Capacitor
+            if (item.definition.id == "additions:annihilation_capacitor_empty" && target instanceof IEntityLiving) {
+                var targetLiving as IEntityLiving = target;
+                if (!isNull(target.definition)) {
+                    if (target.definition.id == "abyssalcraft:remnant") {
+                        target.removeFromWorld();
+                        item.mutable().shrink(1);
+                        player.give(<additions:annihilation_capacitor>);
+                    }
+                }
+            }
+
         }
     }
 

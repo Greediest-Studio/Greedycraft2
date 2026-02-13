@@ -338,3 +338,23 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gctcore:crimson_anchor>, [
 	[null, <ore:blockLegendite>, <ore:blockLegendite>, <ore:blockRubium>, <ore:blockRubium>, <ore:blockRubium>, null], 
 	[<ore:blockRubium>, null, null, null, null, null, null]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <ee:key>, [
+	[null, null, null, <ore:ingotBreedum>, null, null, null], 
+	[null, null, <ore:ingotBreedum>, <ore:ingotEldritchSteel>, <ore:ingotBreedum>, null, null], 
+	[null, null, <ore:ingotBreedum>, <ore:ingotEldritchSteel>, <ore:ingotBreedum>, null, null], 
+	[null, null, null, <ore:ingotBreedum>, null, null, null], 
+	[null, null, null, <ore:blockThallasium>, null, null, null], 
+	[null, null, null, <ore:blockThallasium>, <moretcon:repitem:2>, null, null], 
+	[null, null, null, <ore:blockThallasium>, <moretcon:repitem:2>, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <ee:ash_key>, [
+	[null, <ore:ingotFinallium>, <ore:blockOctine>, <ore:blockOctine>, null, <ore:blockHarcadium>, null], 
+	[null, <ore:blockOctine>, <ore:blockThallasium>, <ore:blockThallasium>, <ore:blockOctine>, null, null], 
+	[null, <ore:blockOctine>, <ore:blockThallasium>, <ore:blockThallasium>, <ore:blockOctine>, null, null], 
+	[null, null, <ore:blockOctine>, <ore:blockOctine>, null, <ore:blockHarcadium>, null], 
+	[null, null, null, <ore:blockDraconiumAwakened>, null, null, null], 
+	[null, null, null, <ore:blockDraconiumAwakened>, <moretcon:repitem:2>, null, null], 
+	[null, null, null, <ore:blockDraconiumAwakened>, <moretcon:repitem:2>, null, null]
+]);

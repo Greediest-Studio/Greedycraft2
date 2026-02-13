@@ -206,7 +206,9 @@ val tooltipMap as string[][IIngredient] = {
     <contenttweaker:malevolent_fruit> : [game.localize("greedycraft.tooltip.contenttweaker.malevolent_fruit.1"), game.localize("greedycraft.tooltip.contenttweaker.malevolent_fruit.2")],
     <thebetweenlands:empty_amate_map> : [game.localize("greedycraft.tooltip.amatemap.tps")],
     <thebetweenlands:amate_map> : [game.localize("greedycraft.tooltip.amatemap.tps")],
-    <contenttweaker:dubhe_key> : [game.localize("greedycraft.tooltip.dubhe_key.1"), game.localize("greedycraft.tooltip.dubhe_key.2"), game.localize("greedycraft.tooltip.dubhe_key.3")]
+    <contenttweaker:dubhe_key> : [game.localize("greedycraft.tooltip.dubhe_key.1"), game.localize("greedycraft.tooltip.dubhe_key.2"), game.localize("greedycraft.tooltip.dubhe_key.3")],
+    <ee:key> : ["§e既可以合成，又可以从宝箱中获得"],
+    <ee:ash_key> : ["§e既可以合成，又可以从宝箱中获得"]
 } as string[][IIngredient];
 
 for ingredient in tooltipMap {

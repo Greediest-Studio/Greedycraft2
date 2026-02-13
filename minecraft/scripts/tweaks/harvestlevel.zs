@@ -31,6 +31,9 @@ import mods.contenttweaker.Item;
 <item:astralsorcery:blockcustomore:1>.asBlock().definition.hardness = 12.0f;
 <item:astralsorcery:blockcustomore:1>.asBlock().definition.setHarvestLevel("pickaxe", 4);
 
+<item:betterendforge:thallasium_ore>.asBlock().definition.hardness = 20.0f;
+<item:betterendforge:thallasium_ore>.asBlock().definition.setHarvestLevel("pickaxe", 11);
+
 <item:moretcon:blockgallium>.asBlock().definition.setHarvestLevel("pickaxe", 9);
 
 <item:divinerpg:netherite_ore>.asBlock().definition.setHarvestLevel("pickaxe", 4);
@@ -115,10 +118,11 @@ import mods.contenttweaker.Item;
 
 <item:erebus:ore_temple>.asBlock().definition.setHarvestLevel("pickaxe", 13);
 
+<item:additions:bloody_ancient_stone>.asBlock().definition.hardness = 50.0f;
+
 <item:netherized:ancient_debris>.asBlock().definition.hardness = 50.0f;
 <item:netherized:ancient_debris>.asBlock().definition.setHarvestLevel("pickaxe", 6);
 
 <industrialforegoing:infinity_drill>.definition.setHarvestLevel("pickaxe", 4);
 <industrialforegoing:infinity_drill>.definition.setHarvestLevel("shovel", 4);
 
-<additions:bloody_ancient_stone>.asBlock().definition.hardness = 50.0f;

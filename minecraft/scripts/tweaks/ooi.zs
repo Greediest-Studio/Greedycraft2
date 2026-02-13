@@ -77,6 +77,7 @@ ConversionItem.create(<additions:netherite_scrap>).addMatchItem(<netherized:neth
 ConversionItem.create(<additions:netherite_block>).addMatchItem(<netherized:netherite_block>).register();
 ConversionItem.create(<additions:netherite_ingot>).addMatchItem(<netherized:netherite_ingot>).register();
 ConversionItem.create(<netherendingores:ore_nether_vanilla:3>).addMatchItem(<netherized:nether_gold_ore>).register();
+ConversionItem.create(<appliedenergistics2:material:46>).addMatchItem(<betterendforge:ender_dust>).register();
 
 ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:burningsulfurflow>).register();
 ConversionFluid.create(<liquid:liquidantimatter>).addMatchFluid(<liquid:blockfluidantimatter>).register();

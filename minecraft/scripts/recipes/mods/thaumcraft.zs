@@ -506,4 +506,21 @@ Infusion.registerRecipe("murder_orb_contenttweaker", "", <bloodmagic:blood_orb>.
     <tiths:block_coagulated_blood_sand>
 ]);
 
+Infusion.registerRecipe("end_shard", "", <thaumictinkerer:kamiresource> * 16, 19, [
+    <aspect:alienis> * 400
+], <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alienis"}]}), [
+    <tiths:ender_crevice_shard>,
+    <ee:soul>,
+    <ee:stalker_hide>,
+    <ee:plate>,
+    <jaopca:dust.endest_steel>,
+    <additions:ender_complex>,
+    <quark:biotite>,
+    <draconicevolution:chaos_shard>,
+    <endreborn:ingot_infused>,
+    <cyclicmagic:ender_eye_orb>,
+    <divinerpg:ender_stone>,
+    <ee:lamented>
+]);
+
 //Infusion.registerRecipe("");

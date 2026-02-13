@@ -95,7 +95,12 @@ GameStagesUtil.stageChaoticDominator.addIngredients([
     <ometweaks:blackhole_capacitor>,
     <ometweaks:twilit_capacitor>,
     <ometweaks:curse_capacitor>,
-    <ometweaks:killer_capacitor>
+    <ometweaks:killer_capacitor>,
+    <betterendforge:thallasium_ingot>,
+    <betterendforge:thallasium_block>,
+    <betterendforge:thallasium_nugget>,
+    <betterendforge:thallasium_ore>,
+    <ore:dustThallasium>
 ], true);
 
 GameStagesUtil.stageGettingStarted.addIngredients([
@@ -1350,7 +1355,15 @@ GameStagesUtil.stageHardmode.addIngredients([
     <tiths:ingot_solita>,
     <tiths:block_solita>,
     <tiths:nugget_solita>,
-    <ometweaks:mist_capacitor>
+    <ometweaks:mist_capacitor>,
+    <ee:dark_ingot>,
+    <ore:blockAshIron>,
+    <ore:nuggetAshIron>,
+    <ore:dustAshIron>,
+    <ee:red_chunk>,
+    <ee:red_crystal_item>,
+    <ee:purple_chunk>,
+    <ee:purple_crystal_item>
 ], true);
 
 GameStagesUtil.stageInfinity.addIngredients([
@@ -2094,7 +2107,11 @@ GameStagesUtil.stageEpicEngineer.addIngredients([
     <ore:ingotNylon6>,
     <ore:blockNylon6>,
     <ore:nuggetNylon6>,
-    <ore:dustNylon6>
+    <ore:dustNylon6>,
+    <betterendforge:terminite_ingot>,
+    <betterendforge:terminite_block>,
+    <betterendforge:terminite_nugget>,
+    <ore:dustTerminite>
 ], true);
 
 GameStagesUtil.stageChallenger1.addIngredients([
@@ -2390,7 +2407,17 @@ GameStagesUtil.stageFinal.addIngredients([
     <ore:nuggetHexacite>,
     <ore:blockHexacite>,
     <ore:dustHexacite>,
-    <ore:plateHexacite>
+    <ore:plateHexacite>,
+    <ee:key_block>,
+    <ee:ash_key_block>,
+    <ee:key>,
+    <ee:ash_key>,
+    <endreborn:ingot_infused>,
+    <ore:blockEndoriumInfused>,
+    <ore:nuggetEndoriumInfused>,
+    <ore:dustEndoriumInfused>,
+    <ee:lamented>,
+    <ee:soul>
 ], false);
 
 GameStagesUtil.stageDeepDream.addIngredients([
@@ -2447,14 +2474,24 @@ GameStagesUtil.stageDeepDream.addIngredients([
     <ore:ingotIronwoodPetrified>,
     <ore:nuggetIronwoodPetrified>,
     <ore:blockIronwoodPetrified>,
-    <ore:dustIronwoodPetrified>
+    <ore:dustIronwoodPetrified>,
+    <ore:gemDubhe>,
+    <ore:blockDubhe>,
+    <ore:nuggetDubhe>,
+    <ore:dustDubhe>
 ], false);
 
 GameStagesUtil.stageWakeUp.addIngredients([
     <ore:ingotTcreoparghiumFake>,
     <ore:nuggetTcreoparghiumFake>,
     <ore:blockTcreoparghiumFake>,
-    <ore:dustTcreoparghiumFake>
+    <ore:dustTcreoparghiumFake>,
+    <additions:annihilation_capacitor_empty>,
+    <additions:annihilation_capacitor>,
+    <ore:ingotTerrasteelPoisonous>,
+    <ore:nuggetTerrasteelPoisonous>,
+    <ore:blockTerrasteelPoisonous>,
+    <ore:dustTerrasteelPoisonous>
 ], false);
 
 GameStagesUtil.stageLegendWizard.addIngredients([
