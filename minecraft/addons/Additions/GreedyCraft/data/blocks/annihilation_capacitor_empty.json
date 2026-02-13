@@ -1,0 +1,17 @@
+{
+  "item_block": {
+    "name": "灭神容器（空）",
+    "tooltip": "§7右键捕捉残存者",
+    "type": "additions:block_simple"
+  },
+  "name": "灭神容器（空）",
+  "material": "minecraft:stone",
+  "hardness": 40.0,
+  "resistance": 4000.0,
+  "harvest_level": 13,
+  "harvest_tool": "pickaxe",
+  "light_opacity": 10,
+  "semi_transparent": true,
+  "bounding_box_max_y": 2.0,
+  "type": "additions:simple"
+}
