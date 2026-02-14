@@ -110,7 +110,7 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
             event.cancel();
         }
     }
-    //Store the dimension ID in the Dimensional Miner
+    //Store or Delete the dimension ID in the Dimensional Miner
     if (event.block.definition.id == "modularmachinery:dimensional_miner_factory_controller" && !event.world.remote && event.hand == "MAIN_HAND") {
         var controller as IMachineController = MachineController.getControllerAt(event.world, event.position);
         if (!isNull(event.player.currentItem)) {
@@ -119,8 +119,19 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
                 if (!isNull(player.currentItem.tag.dim) && !isNull(controller.customData.dims)) {
                     var dim as int = player.currentItem.tag.dim as int;
                     var dimList as int[] = controller.customData.dims as int[];
-                    if (!(dimList has dim)) controller.customData = {dims : dimList.add(dim) as int[]};
-                    player.sendChat("§a已将维度数据绑定到时空相位采掘机！");
+                    if (!(dimList has dim)) {
+                        controller.customData = {dims : dimList.add(dim) as int[]};
+                        player.sendChat("§a已将维度数据绑定到时空相位采掘机！");
+                    } else {
+                        var newDimList as int[] = [];
+                        for dimension in dimList {
+                            if (dimension != dim) {
+                                newDimList += dimension;
+                            }
+                        }
+                        controller.customData = {dims : newDimList as int[]};
+                        player.sendChat("§a维度数据已解绑！");
+                    }
                     event.cancel();
                 }
             }
