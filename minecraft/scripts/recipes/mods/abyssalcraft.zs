@@ -15,6 +15,10 @@ import mods.abyssalcraft.InfusionRitual;
 import mods.abyssalcraft.Rituals;
 import mods.abyssalcraft.necronomicon.internal;
 import mods.abyssalcraft.Materializer;
+import mods.acremnanttweaker.Remnant;
+
+Remnant.addTrade("butcher", <additions:abyss_remnant_coin> * 20, <abyssalcraft:dreadcloth> * 8, <additions:nefrath_cloth>);
+Remnant.addTrade("blacksmith", <additions:abyss_remnant_coin> * 30, <abyssalcraft:shadowgem> * 8, <additions:remnant_gem>);
 
 Transmutator.removeTransmutationOutput(<abyssalcraft:solidlava>);
 

@@ -23,6 +23,8 @@ AtomicReconstructor.addRecipe(<tofucraft:material:25>, <tofucraft:material:18>, 
 AtomicReconstructor.addRecipe(<thaumicwonders:primordial_grain>, <tconevo:metal:22>, 12000);
 AtomicReconstructor.addRecipe(<moretcon:oregravitonium> * 4, <moretcon:oregravitoniumdense>, 2000);
 AtomicReconstructor.addRecipe(<embers:blend_caminite>, <additions:magnesium_sulfate_hydroxide>, 8000);
+AtomicReconstructor.addRecipe(<additions:dubhe_crystal>, <additions:dubhe_orb_light>, 10000);
+AtomicReconstructor.addRecipe(<additions:dubhe_crystal>, <additions:dubhe_orb_night>, 10000);
 
 BallOfFur.addReturn(<additions:reward_ticket_common>, 1);
 

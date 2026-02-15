@@ -102,3 +102,4 @@ ConversionFluid.create(<liquid:xu_demonic_metal>).addMatchFluid(<liquid:demonic_
 ConversionFluid.create(<liquid:ethyne>).addMatchFluid(<liquid:ethylene>).register();
 ConversionFluid.create(<liquid:liquidsolarsteel>).addMatchFluid(<liquid:solarsteel>).register();
 ConversionFluid.create(<liquid:void_metal>).addMatchFluid(<liquid:void>).register();
+ConversionFluid.create(<liquid:molten_ichorium>).addMatchFluid(<liquid:ichorium>).register();

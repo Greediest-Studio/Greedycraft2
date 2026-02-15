@@ -66,7 +66,14 @@ GameStagesUtil.removeItemStages([
     <iceandfire:pixie_dust>,
     <mysticalagriculture:tier7_inferium_seeds>,
     <mysticalagriculture:tier8_inferium_seeds>,
-    <mysticalagriculture:tier9_inferium_seeds>
+    <mysticalagriculture:tier9_inferium_seeds>,
+    <da:moss_block>,
+    <da:moss_carpet>,
+    <da:aza_vines>,
+    <da:azaela_leaf>,
+    <da:az_fence>,
+    <da:aza_vines_berries>,
+    <da:glow_berry>
 ] as IIngredient[]);
 
 GameStagesUtil.restageItems("wielder_of_infinity", [
@@ -132,7 +139,15 @@ GameStagesUtil.restageItems("getting_started", [
 ]);
 GameStagesUtil.restageItems("nether", [
     <industrialforegoing:pink_slime_ingot>,
-    <industrialforegoing:pink_slime>
+    <industrialforegoing:pink_slime>,
+    <da:change_block>,
+    <da:fire_stone_half>,
+    <da:enflamed_meat>,
+    <da:fire_stone>,
+    <da:chisled_fire_stone>,
+    <da:fire_stone_lit>,
+    <da:fire_stone_stairs>,
+    <da:fire_stone_wall>
 ]);
 GameStagesUtil.restageItems("fusion_matrix", [ 
     <ore:dustDraconium>,

@@ -1,0 +1,451 @@
+entity.wreath_knight.name=Test Boss
+entity.void_blossom.name=虚空之花
+entity.mini_blossom.name=迷你杜鹃花
+entity.spore_bomb.name=孢子囊炸弹
+entity.spore_cloud.name=孢子云
+entity.void_spike.name=植物尖刺
+entity.nether_aberant.name=异响之灵
+entity.flame_knight.name=焚狱之骑
+entity.pearl_projectile.name=异构珍珠
+entity.aoe_tile.name=野心之火
+entity.flame_sling.name=悬吊之焰
+entity.flame_projectile.name=野心之焰
+entity.nether_pyre.name=古代方尖碑
+entity.fire_resist_item.name=抗火之物
+entity.ancient_knight.name=古代观风者
+entity.ancient_knight_rapier.name=风暴剑士
+entity.ancient_fallen.name=堕落观风者
+entity.rot_spike.name=腐败之锥
+entity.soul_star.name=魂灵之心
+entity.lily_locator.name=飘渺定位器
+entity.night_lich.name=暗夜巫妖
+entity.magic_missile.name=巫妖魔导弹
+entity.magic_fireball.name=巫妖魔火球
+entity.lich_staff.name=永夜妖之杖
+entity.track_missile.name=追踪魔导弹
+entity.ground_missile.name=巫妖范围法术
+entity.lich_spawn.name=巫妖生物生成
+entity.levitation_block_entity=悬浮实体块
+entity.wyrk.name=极寒破坏者
+entity.ice_spike.name=冰刺
+entity.ice_bullet.name=冰弹
+entity.frost_draugr.name=霜生尸鬼
+entity.frost_draugr_ranger.name=霜夜游侠
+entity.soul_bullet.name=尸鬼之魂
+entity.frost_draugr_elite.name=霜冠尸鬼
+entity.frost_locator.name=霜生水晶
+entity.great_wyrk.name=远古破坏者
+entity.frost_magic.name=冰霜破坏法术
+entity.wyrk_foot.name=破坏者之足
+entity.wyrk_lazer.name=破坏者激光
+entity.imperial_halberd.name=高廷的锋戟
+entity.imperial_sword.name=高廷的利刃
+entity.sky_lightning_bolt.name=魔电师
+entity.sky_arrow.name=仙踪箭
+entity.sky_tornado.name=至高风暴
+entity.trident_gargoyle.name=天侍石像鬼
+entity.mage_gargoyle.name=远古天侍石像鬼
+entity.farum_dart.name=石像鬼残片
+entity.light_ring_projectile.name=光环
+entity.gargoyle_lazer.name=耀光
+entity.friend_wyrk.name=友好破坏者
+entity.dark_assassin.name=崇秽刺客
+entity.shadow_hand.name=秽影之手
+entity.high_king_drake.name=天顶的帝王
+entity.storm_tornado.name=风流之息
+entity.storm_breath.name=天龙风暴之息
+entity.dragon_aoe.name=残空锥刺
+entity.dragon_special.name=至高之戒
+entity.sky_locator_projectile.name=寻光弹
+entity.high_king.name=曜日的君冕
+entity.king_holy_aoe.name=补天锥刺
+entity.holy_wave_projectile.name=圣爪
+entity.blood_pile.name=天王之血
+entity.blood_ball_proj.name=天王之腥
+entity.imperial_knight_friendly.name=受召的锋戟
+entity.burning_flame_projectile.name=灼焰探险者
+entity.incendium_spirit.name=天灾之灵
+entity.volatile_spirit.name=不稳定的天灾之灵
+entity.bareant.name=匍匐火焰
+entity.dark_sorcerer.name=崇秽术士
+entity.dark_royal.name=崇秽皇储
+item.void_leaf.name=虚空叶片
+item.spore.name=虚空孢子
+item.crystal_fruit.name=水晶果
+item.void_thorns.name=无量棘刺
+item.void_dagger.name=飘渺短剑
+item.abberrant_eye.name=炼狱解构碎片
+item.endless_enderpearl.name=异构珍珠
+item.ambition_flame.name=野心之烬
+item.enflamed_meat.name=余烬肉排
+item.ambition_sword.name=枭雄大剑
+item.projectile_flame.name=野心之燃
+item.fake_healing_potion.name=虚假治疗药水(仅创造模式)
+item.flame_helmet.name=灼焰战盔
+item.flame_chestplate.name=灼焰胸铠
+item.flame_leggings.name=灼焰护腿
+item.flame_boots.name=灼焰战靴
+item.flame_metal_scrap.name=灼焰原料
+item.knight_shard.name=暴风碎片
+item.knight_ingot.name=暴风锭
+item.knight_key.name=腐朽地牢钥匙
+item.knight_rapier.name=观风者之剑
+item.glow_berry.name=荧光浆果
+item.soul_star_item.name=灵魂之心
+item.magic_projectile.name=魔导弹
+item.magic_fireball.name=魔火球
+item.ancient_mana.name=古代魔法
+item.missile_projectile.name=追踪魔导弹
+item.spear_staff.name=无魂法师之矛
+item.spear_weapon.name=无魂勇士之矛
+item.red_ancient_mana.name=赤热古魔法
+item.lich_helmet.name=魂飞魄散之冠
+item.bomd_mod_logo.name=BOMD + DA Mod Logo
+item.frost_shard.name=摧神尖刺
+item.frost_ingot.name=祸乱水晶
+item.frost_bullet.name=冰霜弹
+item.frost_key.name=凛冬城堡钥匙
+item.frost_sword.name=霜生剑
+item.champion_axe.name=霜冠斧
+item.draugr_shard.name=霜生碎片
+item.draugr_ingot.name=霜生锭
+item.draugr_shield.name=截冬盾
+item.draugr_helmet.name=霜生头盔
+item.draugr_chestplate.name=霜生胸甲
+item.great_wyrk_mana.name=淬灭古魔法
+item.imperial_halberd_item.name=殊荣之击
+item.sword_spear.name=崇高天剑枪
+item.sword_spear_blood.name=残空天剑枪
+item.king_helmet.name=负咒天冠
+da.desc.draugr_shield_name=霜生盾
+da.desc.dragon_shield_name=勇气天龙盾
+item.frost_locator.name=冰魂之星
+item.wyrk_helmet.name=破坏者头盔
+item.wyrk_boots.name=破坏者靴
+item.wyrk_snack.name=生者尽饥
+item.wyrk_staff.name=古毁法杖
+item.wyrk_totem.name=灾元素图腾
+item.sky_arrow.name=仙踪箭
+item.lightning_shard.name=天辉碎片
+item.lightning_ingot.name=天辉锭
+item.lightning_smithing_stone.name=龙锻石
+item.lightning_key.name=高廷密钥
+item.light_ring.name=碎霆之戒
+item.imperial_sword_item.name=破敌之师
+item.divine_scroll.name=殊荣卷轴
+item.crumble_berries.name=裂天果
+item.light_mana.name=至圣之术
+item.imperial_chestplate.name=天辉甲胄
+item.imperial_helmet.name=天辉战盔
+item.imperial_leggings.name=天辉护腿
+item.imperial_boots.name=天辉战靴
+item.dark_mana.name=崇秽之术
+item.dark_core.name=崇秽核心
+item.dark_locator.name=崇秽之眼
+item.dark_dagger.name=崇秽短剑
+item.storm_tornado.name=巨风暴
+item.dragon_scale.name=天龙残鳞
+item.divine_metal.name=神空碎片
+item.sky_locator.name=日穹之光
+item.sky_locator_proj.name=耀光弹
+item.holy_wave.name=神圣浪潮
+item.blood_ball.name=猩红弹
+item.king_claw.name=崇高爪套
+item.king_aid.name=天王呼助
+item.dragon_bow.name=勇者天龙弓
+item.flame_locator.name=灼焰火花
+item.incendium_core.name=炽穹核心
+item.volatile_orb.name=不稳定火球
+item.crypt_plate.name=崇秽之板
+item.sealed_flame.name=封印之焰
+tile.spore_blossom.name=虚空杜鹃花
+tile.moss_block.name=苔藓块
+tile.moss_carpet.name=苔藓地衣
+tile.mossy_spruce.name=覆藓云杉木板
+tile.strong_block.name=生花方块
+tile.az_fence.name=藤蔓墙
+tile.cave_spawner.name=生成器
+tile.aza_vines.name=杜鹃藤蔓
+tile.aza_vines_berries.name=浆果藤蔓
+tile.mega_structure.name=超结构块
+tile.azaela_leaf.name=藤叶
+tile.fire_stone.name=炽热石砖
+tile.fire_stone_lit.name=炽热镶宝砖
+tile.fire_stone_stairs.name=炽热石砖楼梯
+tile.fire_stone_wall.name=炽热石砖围墙
+tile.fire_stone_half.name=炽热石砖台阶
+tile.fire_stone_double.name=炽热石砖台阶块
+tile.change_block.name=绯红灵门
+tile.knight_stone.name=风暴装饰块
+tile.knight_key_block.name=腐朽钥匙块
+tile.moss_spawner.name=秘苔藓块
+tile.gloom_stone.name=幽暗圆石
+tile.gloom_brick.name=幽暗石砖
+tile.gloom_smooth.name=平滑幽暗石砖
+tile.gloom_carved.name=幽暗雕花石砖
+tile.gloom_pillar.name=幽暗支柱
+tile.gloom_rough.name=粗糙幽暗石
+tile.gloom_triangle.name=暗雕花三角砖
+tile.gloom_stone_stairs.name=幽暗圆石楼梯
+tile.gloom_smooth_stairs.name=幽暗平滑石砖楼梯
+tile.gloom_brick_stairs.name=幽暗石砖楼梯
+tile.gloom_stone_half.name=幽暗圆石台阶
+tile.gloom_stone_double.name=幽暗圆石双层台阶
+tile.gloom_smooth_half.name=幽暗台阶
+tile.gloom_smooth_double.name=幽暗双层台阶
+tile.gloom_brick_half.name=幽暗砖台阶
+tile.gloom_brick_double.name=幽暗双层砖台阶
+tile.gloom_stone_wall.name=幽暗圆石墙
+tile.gloom_smooth_wall.name=幽暗平滑石墙
+tile.gloom_brick_wall.name=幽暗石砖墙
+tile.soul_star_block.name=灵魂祭坛
+tile.void_lily.name=虚空百合
+tile.levitation_block.name=升腾祭坛
+tile.cold_stone.name=寒霜岩
+tile.cold_brick.name=寒霜岩砖
+tile.cold_smooth.name=平滑寒霜岩
+tile.cold_carved.name=錾制寒霜岩
+tile.cold_rough.name=寒霜石
+tile.cold_pillar.name=寒霜石柱
+tile.cold_triangle.name=寒霜雕纹石柱
+tile.snow_cold_brick.name=冰雪寒霜石砖
+tile.cold_brick_stairs.name=寒霜石砖楼梯
+tile.cold_stone_stairs.name=寒霜岩楼梯
+tile.cold_smooth_stairs.name=平滑寒霜岩楼梯
+tile.cold_stone_half.name=寒霜岩半砖
+tile.cold_stone_double.name=双寒霜岩半砖
+tile.cold_smooth_half.name=平滑寒霜岩台阶
+tile.cold_smooth_double.name=双平滑寒霜岩台阶
+tile.cold_brick_half.name=寒霜砖半砖
+tile.cold_brick_double.name=双寒霜砖半砖
+tile.cold_stone_wall.name=寒霜岩墙
+tile.cold_smooth_wall.name=平滑寒霜墙
+tile.cold_brick_wall.name=寒霜砖墙
+tile.frost_icicle.name=冰霜柱
+tile.frost_key_block.name=凛冬钥匙块
+tile.city_brick.name=高廷石砖
+tile.city_brick_alt.name=高廷地砖
+tile.city_decoration.name=錾制高廷砖
+tile.city_pillar.name=高廷柱
+tile.city_pillar_chisled.name=雕纹高廷柱
+tile.city_smooth.name=磨制高廷石
+tile.city_tile.name=高廷瓷砖
+tile.city_chisled.name=雕纹高廷砖
+tile.city_brick_stairs.name=高廷砖楼梯
+tile.city_brick_stairs_alt.name=高廷地砖楼梯
+tile.city_tile_stairs.name=高廷瓷砖楼梯
+tile.city_brick_half.name=高廷砖台阶
+tile.city_brick_double.name=双高廷砖台阶
+tile.city_brick_alt_half.name=高廷地砖台阶
+tile.city_brick_alt_double.name=双高廷地砖台阶
+tile.city_tile_half.name=高廷瓷砖台阶
+tile.city_tile_double.name=双高廷瓷砖台阶
+tile.city_brick_wall_alt.name=高廷地砖墙
+tile.city_brick_wall.name=高廷砖墙
+tile.city_tile_wall.name=高廷瓷砖墙
+tile.city_smooth_wall.name=磨制高廷石墙
+tile.gold_city_brick.name=烫金高廷砖
+tile.gold_city_brick_stairs.name=烫金高廷砖楼梯
+tile.gold_city_brick_half.name=烫金高廷砖台阶
+tile.gold_city_brick_double.name=烫金双高廷砖台阶
+tile.gold_city_brick_wall.name=烫金高廷砖墙
+tile.farum_rope.name=通天绳
+tile.farum_lantern.name=高廷灯笼
+tile.high_spawner.name=天穹感召台
+tile.sky_key_block.name=高廷钥匙块
+tile.chisled_fire_stone.name=炽穹雕纹砖
+tile.farum_stone.name=高廷石
+
+itemGroup.dungeon_additions=祸乱鬼魅
+itemGroup.dungeon_additions_blocks=祸乱鬼魅-方块
+
+da.lich_spawn.soul_star=也许是星星形状的东西？
+da.lich_wrong_time=必须让太阳先落山
+da.within_bounds=您正在目标结构范围内，定位器已重置
+da.friend_wyrk=已有一个友方的破坏者受你调令！
+da.friend_halberd=已有一个友方的锋戟受你调令！
+da.sky_arrow_fail=没有瞄准，射击失败！
+
+da.desc.regen_fruit=提供短暂的生命恢复和抗性提升
+da.desc.crafting_material=材料
+da.desc.dagger_desc=右键发射荆棘攻击
+da.desc.pearl_desc=可重复使用，并在传送后给予短暂的抗性提升
+da.desc.flame_of_ambition=用于照亮炼狱地牢中漂浮的方尖碑来召唤焚狱骑士
+da.desc.flame_meat=进食时提供 2 分钟的抗火
+da.desc.flame_sword=愿它点燃你前进的光火！此剑抗火.右键触发范围攻击
+da.desc.flame_armor_desc=全套提供 抗火 1，你现在配得上枭雄大剑！
+da.desc.fire_stone_desc=破坏它会掉落些小玩意
+da.desc.rot_knight_key=用于解锁腐朽结构的钥匙块
+da.desc.rapier_desc=制作精良，更快且比铁更好
+da.desc.soul_star_desc=它通向何方？
+da.desc.void_lily_desc=花粉指何处？
+da.desc.soul_spear_desc=右键发射魔导弹/Shift + 右键发射彗星
+da.desc.soul_weapon_desc=右键发射特殊魔导弹/Shift + 右键发射范围伤害
+da.desc.night_lich_desc=提供对毒药的抗性并大大提高无魂之矛技能的伤害
+da.desc.levitation_block_desc=如果附近生物没有中效果，则给附近的生物漂浮，当中效果时则给玩家这个效果
+da.desc.dungeon_frost_key_desc=用于凛冬城堡的巨型房间内
+da.desc.champion_axe_desc=你的生命值越低，伤害就越高。跳劈暴击会抵消此效果
+da.desc.draugr_sword_desc=攻击造成减速效果
+da.desc.draugr_shield_desc=曾受征服海洋之人所用
+da.desc.dragon_shield_desc=在副手时提供生命值加成
+da.desc.draugr_armor_desc=全套允许在受伤时有几率获得力量效果。你的生命值越低，几率就越高
+da.desc.wyrk_helmet_desc=提供对减速的抗性。全套让你生命值越低，就越有可能获得再生效果
+da.desc.wyrk_boots_desc=在冰上时提供速度。全套让你生命值越低，就越有可能获得再生效果
+da.desc.frost_locator_desc=天寒依你，指去某处
+da.desc.wyrk_snack_desc=不消耗食物而消耗耐久度
+da.desc.wyrk_staff_desc=潜行并按住右键将充能激光，根据充能时间增加伤害
+da.desc.wyrk_totem_desc=右键召唤一个友好的破坏者跟随你
+da.desc.snow_cold_brick_desc=若有冰块置其上，其下冰柱亦可生
+da.desc.sky_arrow_desc=若可瞄准来犯敌，此箭担保无空矢
+da.desc.imperial_halberd_desc=右键召唤来自天穹的雷霆之击
+da.desc.lighting_key_desc=你将召唤统治天空的英雄
+da.desc.lightning_stone_desc=在铁砧上升级任何本模组内的武器（祸乱鬼魅）
+da.desc.imperial_sword_desc=右键以招架敌人的攻击，成功则抵消这次攻击并反伤，失败则自身会受到 “虚弱II” 
+da.desc.crumble_berries_desc=给予自身 “伤害吸收” 1分钟和 “速度提升” 30秒
+da.desc.imperial_armor_desc=全套允许对攻击你的实体召唤雷霆之击并给予自身“伤害吸收”Buff 30秒。自身生命值越低越可能触发
+da.desc.imperial_helmet_desc=提供虚弱抗性。全套允许对攻击你的实体召唤雷霆之击并给予自身“伤害吸收”Buff 30秒。自身生命值越低越可能触发
+da.desc.dark_dagger_desc=右键以让自己“后撤”，向后闪避并重置摔落距离
+da.desc.sky_locator_desc=请随日穹之光的指引......
+da.desc.sword_spear_desc=右键向前方发射碎日光轮切割敌人/Shift+右键使用“天穹之击”，使自身短暂悬空，然后快速落地以自身为中心召唤碎空锥刺攻击
+da.desc.sword_spear_blood_desc=右键向前发射三枚填空之腥攻击敌人/Shift+鼠标右键使用“穿云之血”，蓄力后向前快速突刺，之后在路径上召唤负咒血锥攻击敌人
+da.desc.king_helmet_desc=免疫 “凋零” 和 “挖掘疲劳” ，但赋予自身 “失明” 。还能提高“崇高天剑枪”和“残空天剑枪”的伤害。
+da.desc.king_claw_desc=右键使用“崩地爪”攻击，降低另一爪子的冷却时间/小幅增加投掷伤害/自身生命值低于75%时授予自身“速度”
+da.desc.king_aid_desc=右键召唤一位友好的锋戟前来助战
+da.desc.dragon_bow_desc=只能搭载仙踪箭。对目标造成大量伤害，成功发射后进入冷却状态
+da.desc.flame_locator_desc=这是在引你去下界的哪里？
+death.attack.da:maelstrom=%1$s 窒息于无尽虚空
+death.attack.da:mobMaelstrom=%1$s 被 %2$s 杀死
+death.attack.da:playerMaelstrom=%1$s 被 %2$s 杀死
+death.attack.da:thrownMaelstrom=%1$s 被 %2$s 砸死
+death.attack.da:explosionMaelstrom=%1$s 被炸得四分五裂
+death.attack.da:explosionMaelstrom.player=%1$s 在与 %2$s 战斗时被炸成火花
+death.attack.da:magicMaelstrom=%1$s 被 %2$s 的魔法杀死
+death.attack.da.champion_axe=%1$s 死于 %2$s 无尽的愤怒
+death.attack.da.champion_axe.item=%1$s 被 %2$s 使用 %3$s 粉碎
+death.attadk.da.wyrk_staff=%1$s 死于 %2$s
+death.attack.da.wyrk_staff.item=%1$s被 %2$s 使用 %3$s 施法致死
+death.attack.da.magma_stomp=%1$s 被 %2$s 焚烧殆尽
+
+advancements.da.root.title=地牢展开
+advancements.da.root.description=欢迎来到祸乱鬼魅，全新的BOSS与副本内容！
+#Stormvier
+advancements.da.kill_fallen_stormvier.title=旅程就此开始！
+advancements.da.kill_fallen_stormvier.description=在腐朽城堡内击杀堕落观风者
+#Void Blossom
+advancements.da.kill_void_blossom.title=绽放于渺茫
+advancements.da.kill_void_blossom.description=击杀虚空之花
+#Night Lich
+advancements.da.kill_night_lich.title=巫妖行迹永夜
+advancements.da.kill_night_lich.description=击杀暗夜巫妖
+#Aberrant Spirit
+advancements.da.kill_abberrant.title=竞技场邀请函
+advancements.da.kill_abberrant.description=找到燃烧的焚狱竞技场
+#Knight of Burning Flame
+advancements.da.kill_kobf.title=烈火燃尽一切
+advancements.da.kill_kobf.description=击杀焚狱之骑
+#Draugr Champion
+advancements.da.kill_elite_draugr.title=维京人之王
+advancements.da.kill_elite_draugr.description=击杀霜冠尸鬼
+#Ancient Wyrk
+advancements.da.kill_great_wyrk.title=极冰的深度
+advancements.da.kill_great_wyrk.description=杀死远古破坏者
+#Kill High Court Halbidier
+advancements.da.kill_imperial_halberd.title=未界定的遗忘
+advancements.da.kill_imperial_halberd.description=击杀高廷的锋戟
+#Kill Cult of Rah Assassin
+advancements.da.kill_dark_assassin.title=向天顶致意
+advancements.da.kill_dark_assassin.description=击杀崇秽刺客
+#Kill the High King
+advancements.da.kill_high_king.title=废黜傲慢天顶！
+advancements.da.kill_high_king.description=斩杀曜日的君冕
+#Find Soul Star
+advancements.da.find_soul_star.title=星引前路
+advancements.da.find_soul_star.description=获得灵魂之星
+#Find Draugr Ingot
+advancements.da.craft_draugr_ingot.title=试与亡者共谈
+advancements.da.craft_draugr_ingot.description=制造或找到霜生锭
+#Craft Champion Axe
+advancements.da.craft_draugr_axe.title=当下谁臣谁王！
+advancements.da.craft_draugr_axe.description=制造霜冠斧
+#Craft Draugr Shield
+advancements.da.craft_draugr_shield.title=甚爱此盾，汝当何待？
+advancements.da.craft_draugr_shield.description=制造霜生盾
+#Craft Draugr Armor
+advancements.da.craft_draugr_armor.title=真正之用
+advancements.da.craft_draugr_armor.description=制造霜生盔甲
+#Find Gloom Stone
+advancements.da.find_gloom_stone.title=霜月照冷石
+advancements.da.find_gloom_stone.description=我的寒霜岩
+#Craft Void Lily
+advancements.da.craft_void_lily.title=植物问题
+advancements.da.craft_void_lily.description=制作虚空百合
+#Craft Flame Metal
+advancements.da.craft_flame_metal.title=重燃漫天火！
+advancements.da.craft_flame_metal.description=制造灼焰盔甲
+#Craft Soulless Spear of the Warrior
+advancements.da.craft_spear_warrior.title=火法并行
+advancements.da.craft_spear_warrior.description=制作无魂勇士之矛
+#Craft Soulless Spear of the Mage
+advancements.da.craft_spear_staff.title=夜妖之作
+advancements.da.craft_spear_staff.description=制作无魂法师之矛
+#Craft Levitation Altar
+advancements.da.craft_lich_altar.title=现在直上云霄！
+advancements.da.craft_lich_altar.description=制造悬浮祭坛
+#Craft Endless EnderPearl
+advancements.da.craft_endless_pearl.title=无尽技术
+advancements.da.craft_endless_pearl.description=制造异构珍珠
+#Craft Void Dagger
+advancements.da.craft_void_dagger.title=尖锐或内敛
+advancements.da.craft_void_dagger.description=制造飘渺短剑
+#Craft Frost Locator
+advancements.da.craft_frost_locator.title=风雪狂啸
+advancements.da.craft_frost_locator.description=制造或找到冰魂之星
+#Craft Sky Locator
+advancements.da.craft_sky_locator.title=流明之风
+advancements.da.craft_sky_locator.description=制作一个日穹之光
+#Craft Wyrk Staff
+advancements.da.craft_wyrk_staff.title=尤爱做法
+advancements.da.craft_wyrk_staff.description=制造古毁法杖
+#Craft Wyrk Armor
+advancements.da.craft_wyrk_armor.title=霜人成行
+advancements.da.craft_wyrk_armor.description=制作两件破坏者装备
+#Craft Wyrk Snack
+advancements.da.craft_wyrk_snack.title=无不饥渴难耐！
+advancements.da.craft_wyrk_snack.description=制造生者尽饥
+#Craft Wyrk Totem
+advancements.da.craft_wyrk_totem.title=时而友伴吹霜
+advancements.da.craft_wyrk_totem.description=制造破坏元素图腾
+#Craft Imperial Armor
+advancements.da.craft_imperial_armor.title=我可以和你耗一整天
+advancements.da.craft_imperial_armor.description=打造全套天辉盔甲
+#Craft Imperial Halberd
+advancements.da.craft_imperial_halberd.title=启示录之源
+advancements.da.craft_imperial_halberd.description=打造殊荣之击
+#Craft Imperial Sword
+advancements.da.craft_parry_sword.title=我将截杀黑夜！
+advancements.da.craft_parry_sword.description=打造破敌之师
+#Craft Dark Assassin Blade
+advancements.da.craft_dark_dagger.title=子夜之死
+advancements.da.craft_dark_dagger.description=打造拜秽短剑
+#Craft Bloody Sword Spear
+advancements.da.craft_bloody_sword_spear.title=悲苦吻我而报之以割
+advancements.da.craft_bloody_sword_spear.description=打造残空天剑枪
+#Craft Sword Spear
+advancements.da.craft_sword_spear.title=王侯将相宁有种乎！
+advancements.da.craft_sword_spear.description=打造崇高天剑枪
+#Craft Dragon Bow
+advancements.da.craft_dragon_bow.title=天龙与弩炮何在！
+advancements.da.craft_dragon_bow.description=打造勇者天龙弓
+#Craft the Dragon Shield
+advancements.da.craft_dragon_shield.title=顺命和殉道
+advancements.da.craft_dragon_shield.description=打造勇气天龙盾
+# Craft the King's Aid
+advancements.da.craft_king_aid.title=召必回
+advancements.da.craft_king_aid.description=打造天王呼助
+#Craft the Lithic Claws
+advancements.da.craft_king_claw.title=近身为主场
+advancements.da.craft_king_claw.description=打造崇高爪套
+#Craft the King's Crown
+advancements.da.craft_king_helmet.title=新天帝
+advancements.da.craft_king_helmet.description=打造负咒天冠
+

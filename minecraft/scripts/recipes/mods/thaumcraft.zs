@@ -31,7 +31,6 @@ var removedRecipes as IItemStack[] = [
     <thaumadditions:mithminite_handle>,
     <thaumadditions:entity_summoner>,
     <thaumadditions:dna_sample>,
-    <thaumictinkerer:kamiresource:3>,
     <forbiddenmagicre:eldritch_orb>
 ];
 
@@ -506,7 +505,7 @@ Infusion.registerRecipe("murder_orb_contenttweaker", "", <bloodmagic:blood_orb>.
     <tiths:block_coagulated_blood_sand>
 ]);
 
-Infusion.registerRecipe("end_shard", "", <thaumictinkerer:kamiresource> * 16, 19, [
+Infusion.registerRecipe("end_shard", "", <thaumictinkerer:kamiresource> * 2, 19, [
     <aspect:alienis> * 400
 ], <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alienis"}]}), [
     <tiths:ender_crevice_shard>,
@@ -523,4 +522,36 @@ Infusion.registerRecipe("end_shard", "", <thaumictinkerer:kamiresource> * 16, 19
     <ee:lamented>
 ]);
 
-//Infusion.registerRecipe("");
+Infusion.registerRecipe("nether_shard", "", <thaumictinkerer:kamiresource:1> * 2, 19, [
+    <aspect:infernum> * 400
+], <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "infernum"}]}), [
+    <netherex:ghast_queen_tear>,
+    <betternether:cincinnasite>,
+    <embers:ingot_dawnstone>,
+    <minecraft:nether_star>,
+    <additions:netherite_ingot>,
+    <minecraft:quartz>,
+    <additions:mana_firestone>,
+    <divinerpg:molten_stone>,
+    <da:incendium_core>,
+    <da:abberrant_eye>,
+    <da:volatile_orb>,
+    <da:flame_metal_scrap>
+]);
+
+Infusion.registerRecipe("remnant_soul", "REMNANT_SOUL", <additions:remnant_soul>, 21, [
+    <aspect:abyss> * 1000,
+    <aspect:cthulhu> * 800,
+    <aspect:imperium> * 800,
+    <aspect:caeles> * 800,
+    <aspect:alienis> * 1200
+], <botania:manaresource:5>, [
+    <gct_aby:solid_pot_energy>,
+    <additions:annihilation_capacitor>,
+    <gct_aby:solid_pot_energy>,
+    <additions:annihilation_capacitor>,
+    <gct_aby:solid_pot_energy>,
+    <additions:annihilation_capacitor>,
+    <gct_aby:solid_pot_energy>,
+    <additions:annihilation_capacitor>
+]);

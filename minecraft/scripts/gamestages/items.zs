@@ -2491,7 +2491,24 @@ GameStagesUtil.stageWakeUp.addIngredients([
     <ore:ingotTerrasteelPoisonous>,
     <ore:nuggetTerrasteelPoisonous>,
     <ore:blockTerrasteelPoisonous>,
-    <ore:dustTerrasteelPoisonous>
+    <ore:dustTerrasteelPoisonous>,
+    <thaumictinkerer:kamiresource>,
+    <thaumictinkerer:kamiresource:1>,
+    <thaumictinkerer:kamiresource:2>,
+    <thaumictinkerer:kamiresource:3>,
+    <thaumictinkerer:kamiresource:4>,
+    <thaumictinkerer:kamiresource:5>,
+    <thaumictinkerer:ichor_block>,
+    <ore:blockIchorium>,
+    <ore:dustIchorium>,
+    <additions:remnant_soul>,
+    <additions:remnant_data>,
+    <additions:abyss_remnant_coin>,
+    <additions:nefrath_cloth>,
+    <ore:gemRemnant>,
+    <ore:blockRemnant>,
+    <ore:nuggetRemnant>,
+    <ore:dustRemnant>
 ], false);
 
 GameStagesUtil.stageLegendWizard.addIngredients([
@@ -2523,5 +2540,6 @@ GameStagesUtil.stageWitherSlayer.addModId(["crazyae", "nae2", "ecoaeextension", 
 GameStagesUtil.stageEnderCharm.addModId(["elementalend"]);
 GameStagesUtil.stageDeepDream.addModId(["erebus", "atum"]);
 GameStagesUtil.stageLegendWizard.addModId(["embers", "soot"]);
+GameStagesUtil.stageFinal.addModId(["da"]);
 
 GameStagesUtil.stageGettingStarted.addRecipeName("tinkersurvival:cobblestone");

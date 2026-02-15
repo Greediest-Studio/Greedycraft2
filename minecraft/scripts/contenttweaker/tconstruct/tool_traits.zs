@@ -5971,3 +5971,12 @@ additionsTrait.calcDamage = function(trait, tool, attacker, target, originalDama
     return newDamage;
 };
 additionsTrait.register();
+
+val ichorTrait = ToolTraitBuilder.create("ichor");
+ichorTrait.color = Color.fromHex("ffffff").getIntColor(); 
+ichorTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.ichorTrait.name");
+ichorTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.ichorTrait.desc");
+ichorTrait.applyEffect = function(trait, rootTag, modTag) {
+    CCTagUtil.setInt(rootTag, 4, "HarvestLevel");
+};
+ichorTrait.register();
