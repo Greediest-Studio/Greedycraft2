@@ -1744,8 +1744,10 @@ endershellTrait.localizedDescription = game.localize("greedycraft.tconstruct.arm
 endershellTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player) && !isNull(source.getTrueSource()) && source.getTrueSource() instanceof IEntityLivingBase) {
         var attacker as IEntityLivingBase = source.getTrueSource();
-        if ((attacker.definition.name has "ender")||(attacker.definition.name has "Ender")) {
-            return newDamage * 0.2f;
+        if (!isNull(attacker.definfinition)) {
+            if ((attacker.definition.name has "ender")||(attacker.definition.name has "Ender")) {
+                return newDamage * 0.2f;
+            }
         }
     }
     return newDamage;
