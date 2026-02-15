@@ -1,0 +1,13 @@
+name = 'Cherry_on_1.12.2'
+filename = 'Cherry_on-1.12.2-1.3.34.jar'
+side = 'both'
+
+[download]
+hash-format = 'sha1'
+hash = '02eb7097b2c2c928e4b227214e3171f5620d0c44'
+mode = 'metadata:curseforge'
+
+[update]
+[update.curseforge]
+file-id = 7607556
+project-id = 1122982
