@@ -1,0 +1,22 @@
+{
+  "preset_block": "additions:senterian_case_5",
+  "preset_dropStack": {
+    "item": "journey:lament_deconstructor_terrania"
+  },
+  "preset_dropMin": 1,
+  "pools": [
+    {
+      "name": "item_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "journey:lament_deconstructor_terrania",
+          "weight": 1,
+          "functions": []
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_item_drop"
+}

@@ -3,6 +3,7 @@
  */
 
 #priority 50
+#ikwid
 
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
@@ -51,7 +52,7 @@ MMEvents.onControllerGUIRender("unitcell_builder", function(event as ControllerG
 });
 
 function addCFFusionRecipe(input as IIngredient, output as IItemStack, cost as int) {
-    RecipeBuilder.newBuilder("cf_" + output.definition.id + output.metadata, "unitcell_builder", 10)
+    RecipeBuilder.newBuilder("cf_" + output.definition.id + output.metadata + "_from_" + (input instanceof IItemStack ? input.items[0].definition.id : ""), "unitcell_builder", 10)
         .addItemInput(input)
         .addItemOutput(output)
         .addEnergyPerTickInput(cost / 10)
