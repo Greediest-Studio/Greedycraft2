@@ -3,7 +3,9 @@
   "checkEnumsWhenRunningTime": false,
   "runOnAbsoluteSafeEnvironment": false,
   "type": "block",
-  "contains": [],
+  "contains": [
+    "modularmachinery"
+  ],
   "prefix": [
     "com.google.common.util.concurrent.DirectExecutor",
     "net.minecraftforge.fml.common.network.NetworkRegistry"
