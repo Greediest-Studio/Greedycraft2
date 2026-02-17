@@ -380,10 +380,12 @@ eat_iron.onUpdate = function(subtile, world, pos) {
                                 pass = false;
                             }
                         }
-                        Commands.call("playsound minecraft:entity.generic.drink record @p", null, world, false, true);
-                        if (!world.remote) {say("§d[作者姬]§r§f：§r§e干了这杯铁!");}
-                        world.setBlockState(<blockstate:minecraft:air>, i);
-                        subtile.addMana(1000);
+                        if (pass) {
+                            Commands.call("playsound minecraft:entity.generic.drink record @p", null, world, false, true);
+                            if (!world.remote) {say("§d[作者姬]§r§f：§r§e干了这杯铁!");}
+                            world.setBlockState(<blockstate:minecraft:air>, i);
+                            subtile.addMana(1000);
+                        }
                     }
                 }
             }

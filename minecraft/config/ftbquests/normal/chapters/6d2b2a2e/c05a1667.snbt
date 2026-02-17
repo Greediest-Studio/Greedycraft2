@@ -1,0 +1,36 @@
+{
+	title: "§b以灵代血",
+	x: 2.5d,
+	y: 20.5d,
+	description: "合成天渊催化剂，可作为坠星仪式的催化剂",
+	text: [
+		""
+	],
+	dependencies: [
+		"e4a1156e"
+	],
+	tasks: [{
+		uid: "b44dbfd1",
+		type: "item",
+		items: [{
+			item: "additions:abyss_catalyst"
+		}]
+	}],
+	rewards: [{
+		uid: "b26e0514",
+		type: "item",
+		item: "additions:dubhe_crystal",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		uid: "aff38529",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "c7fcd25c",
+		type: "xp",
+		xp: 20000
+	}]
+}

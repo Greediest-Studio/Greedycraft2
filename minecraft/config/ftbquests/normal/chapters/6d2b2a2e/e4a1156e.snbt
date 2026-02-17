@@ -1,0 +1,35 @@
+{
+	title: "§b古神末路？",
+	x: 3.5d,
+	y: 18.5d,
+	description: "合成亵渎锭",
+	text: [
+		"其原料§c亵渎之布§r可由残存者交易获得"
+	],
+	dependencies: [
+		"08c4180e"
+	],
+	tasks: [{
+		uid: "f4c2cb8c",
+		type: "item",
+		items: [{
+			item: "additions:nefrathite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "03818f3a",
+		type: "item",
+		item: "additions:nefrathite_ingot",
+		count: 2
+	},
+	{
+		uid: "a9079fe7",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "7bd261ee",
+		type: "xp",
+		xp: 30000
+	}]
+}

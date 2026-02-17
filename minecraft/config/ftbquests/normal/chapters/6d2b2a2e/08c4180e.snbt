@@ -1,0 +1,35 @@
+{
+	title: "§b做出来是要被关监狱的（",
+	x: 3.0d,
+	y: 16.5d,
+	description: "合成扭曲遗址暗渊代币",
+	text: [
+		""
+	],
+	dependencies: [
+		"9aad660d"
+	],
+	tasks: [{
+		uid: "26a6ed7d",
+		type: "item",
+		items: [{
+			item: "additions:abyss_remnant_coin"
+		}]
+	}],
+	rewards: [{
+		uid: "840f1591",
+		type: "item",
+		item: "additions:abyss_remnant_coin",
+		count: 16
+	},
+	{
+		uid: "6b81b79b",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "722418ae",
+		type: "xp",
+		xp: 25000
+	}]
+}

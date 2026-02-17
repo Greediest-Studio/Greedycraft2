@@ -1,0 +1,34 @@
+{
+	title: "§b重塑躯壳前的一步",
+	x: 4.0d,
+	y: 16.5d,
+	description: "与残存者交易获得残存宝石",
+	text: [
+		""
+	],
+	dependencies: [
+		"08c4180e"
+	],
+	tasks: [{
+		uid: "1cd340a3",
+		type: "item",
+		items: [{
+			item: "additions:remnant_gem"
+		}]
+	}],
+	rewards: [{
+		uid: "685721b2",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "ab2c4476",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "6bb42281",
+		type: "xp",
+		xp: 16000
+	}]
+}

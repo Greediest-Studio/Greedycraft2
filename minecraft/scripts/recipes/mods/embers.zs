@@ -65,3 +65,17 @@ Alchemy.add(<additions:ancient_scrab>, [
     "silver": 24 .. 60,
     "salt": 24 .. 60
 });
+
+Alchemy.add(<additions:nefrathite_ingot> * 2, [
+    <gct_mobs:cthulhurite_block>,
+    <additions:nefrath_cloth>,
+    <additions:nefrath_cloth>,
+    <additions:nefrath_cloth>,
+    <additions:nefrath_cloth>
+], {
+    "silver": 32 .. 80,
+    "sulfur": 32 .. 80,
+    "lead": 16 .. 50,
+    "salt": 16 .. 50,
+    "dawnstone": 16 .. 50
+});

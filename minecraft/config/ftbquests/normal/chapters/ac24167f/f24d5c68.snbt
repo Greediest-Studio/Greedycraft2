@@ -1,0 +1,29 @@
+{
+	title: "§b喷发之焰",
+	x: 4.5d,
+	y: 14.5d,
+	description: "合成灰烬能量多方向爆射器",
+	text: [
+		""
+	],
+	dependencies: [
+		"66d671e1"
+	],
+	tasks: [{
+		uid: "d7a2e6a6",
+		type: "item",
+		items: [{
+			item: "soot:ember_burst"
+		}]
+	}],
+	rewards: [{
+		uid: "ac394491",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "5d26a857",
+		type: "xp",
+		xp: 15000
+	}]
+}

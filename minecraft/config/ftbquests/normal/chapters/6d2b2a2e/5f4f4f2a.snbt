@@ -1,0 +1,36 @@
+{
+	title: "§b封印容器",
+	x: 5.0d,
+	y: 10.5d,
+	description: "合成灭神容器，用于捕获残存者",
+	text: [
+		"你可以跟随魔导手册上的指引完成接下来的一系列任务"
+	],
+	dependencies: [
+		"b0904562"
+	],
+	tasks: [{
+		uid: "7b084c13",
+		type: "item",
+		items: [{
+			item: "additions:annihilation_capacitor_empty"
+		}]
+	}],
+	rewards: [{
+		uid: "7810fa1a",
+		type: "item",
+		item: "thaumadditions:adaminite_ingot",
+		count: 32,
+		random_bonus: 64
+	},
+	{
+		uid: "61ddc92b",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "b6087ebb",
+		type: "xp",
+		xp: 15000
+	}]
+}

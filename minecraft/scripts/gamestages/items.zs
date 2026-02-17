@@ -855,50 +855,6 @@ GameStagesUtil.stageOrder.addIngredients([
     <gctcore:ordered_flux_capacitor>.withTag({EnergyL: 4096000000 as long})
 ], false);
 
-GameStagesUtil.stageMindShock.addIngredients([
-    <gctcore:frostburn_flux_capacitor>,
-    <gctcore:frostburn_flux_capacitor>.withTag({EnergyL: 16384000000 as long}),
-    <contenttweaker:frostburn_energy_core>,
-    <ore:coreFrostburn>,
-    <ore:ingotFrostburnMetal>,
-    <ore:blockFrostburnMetal>,
-    <ore:nuggetFrostburnMetal>,
-    <ore:dustFrostburnMetal>,
-    <ore:plateFrostburnMetal>,
-    <ore:gearFrostburnMetal>,
-    <iceandfire:tide_trident>,
-    <ore:ingotBasicDragonsteel>,
-    <ore:blockBasicDragonsteel>,
-    <ore:nuggetBasicDragonsteel>,
-    <ore:dustBasicDragonsteel>,
-    <ore:plateBasicDragonsteel>,
-    <ore:ingotFireDragonsteel>,
-    <ore:blockFireDragonsteel>,
-    <ore:nuggetFireDragonsteel>,
-    <ore:dustFireDragonsteel>,
-    <ore:plateFireDragonsteel>,
-    <ore:ingotIceDragonsteel>,
-    <ore:blockIceDragonsteel>,
-    <ore:nuggetIceDragonsteel>,
-    <ore:dustIceDragonsteel>,
-    <ore:plateIceDragonsteel>,
-    <ore:ingotLightningDragonsteel>,
-    <ore:blockLightningDragonsteel>,
-    <ore:nuggetLightningDragonsteel>,
-    <ore:dustLightningDragonsteel>,
-    <ore:plateLightningDragonsteel>,
-    <ore:ingotEnderDragonsteel>,
-    <ore:blockEnderDragonsteel>,
-    <ore:nuggetEnderDragonsteel>,
-    <ore:dustEnderDragonsteel>,
-    <ore:plateEnderDragonsteel>,
-    <ore:ingotAbyssDragonsteel>,
-    <ore:blockAbyssDragonsteel>,
-    <ore:nuggetAbyssDragonsteel>,
-    <ore:dustAbyssDragonsteel>,
-    <ore:plateAbyssDragonsteel>
-], false);
-
 GameStagesUtil.stageChaotic.addIngredients([
     <ore:ingotChaoticMetal>,
     <ore:blockChaoticMetal>,
@@ -2508,7 +2464,60 @@ GameStagesUtil.stageWakeUp.addIngredients([
     <ore:gemRemnant>,
     <ore:blockRemnant>,
     <ore:nuggetRemnant>,
-    <ore:dustRemnant>
+    <ore:dustRemnant>,
+    <ore:ingotNefrathite>,
+    <ore:nuggetNefrathite>,
+    <ore:blockNefrathite>,
+    <ore:dustNefrathite>,
+    <additions:abyss_catalyst>
+], false);
+
+GameStagesUtil.stageMindShock.addIngredients([
+    <gctcore:frostburn_flux_capacitor>,
+    <gctcore:frostburn_flux_capacitor>.withTag({EnergyL: 16384000000 as long}),
+    <contenttweaker:frostburn_energy_core>,
+    <ore:coreFrostburn>,
+    <ore:ingotFrostburnMetal>,
+    <ore:blockFrostburnMetal>,
+    <ore:nuggetFrostburnMetal>,
+    <ore:dustFrostburnMetal>,
+    <ore:plateFrostburnMetal>,
+    <ore:gearFrostburnMetal>,
+    <iceandfire:tide_trident>,
+    <ore:ingotBasicDragonsteel>,
+    <ore:blockBasicDragonsteel>,
+    <ore:nuggetBasicDragonsteel>,
+    <ore:dustBasicDragonsteel>,
+    <ore:plateBasicDragonsteel>,
+    <ore:ingotFireDragonsteel>,
+    <ore:blockFireDragonsteel>,
+    <ore:nuggetFireDragonsteel>,
+    <ore:dustFireDragonsteel>,
+    <ore:plateFireDragonsteel>,
+    <ore:ingotIceDragonsteel>,
+    <ore:blockIceDragonsteel>,
+    <ore:nuggetIceDragonsteel>,
+    <ore:dustIceDragonsteel>,
+    <ore:plateIceDragonsteel>,
+    <ore:ingotLightningDragonsteel>,
+    <ore:blockLightningDragonsteel>,
+    <ore:nuggetLightningDragonsteel>,
+    <ore:dustLightningDragonsteel>,
+    <ore:plateLightningDragonsteel>,
+    <ore:ingotEnderDragonsteel>,
+    <ore:blockEnderDragonsteel>,
+    <ore:nuggetEnderDragonsteel>,
+    <ore:dustEnderDragonsteel>,
+    <ore:plateEnderDragonsteel>,
+    <ore:ingotAbyssDragonsteel>,
+    <ore:blockAbyssDragonsteel>,
+    <ore:nuggetAbyssDragonsteel>,
+    <ore:dustAbyssDragonsteel>,
+    <ore:plateAbyssDragonsteel>,
+    <ore:ingotWavite>,
+    <ore:blockWavite>,
+    <ore:nuggetWavite>,
+    <ore:dustWavite>
 ], false);
 
 GameStagesUtil.stageLegendWizard.addIngredients([
@@ -2534,7 +2543,7 @@ GameStagesUtil.stageNoobEngineer.addModId(["thermaldynamics", "thermalexpansion"
 GameStagesUtil.stageNoviceEngineer.addModId(["enderio"]);
 GameStagesUtil.stageWyvern.addModId(["blue_skies", "extendedcrafting"]);
 GameStagesUtil.stageGatekeeper.addModId(["gct_aby"]);
-GameStagesUtil.stageEpicEngineer.addModId(["nuclearcraft", "industrialforegoing", "teslacorelib"]);
+GameStagesUtil.stageEpicEngineer.addModId(["nuclearcraft", "industrialforegoing", "teslacorelib", "trinity"]);
 GameStagesUtil.stageBetweenlandTraveller.addModId(["thebetweenlands"]);
 GameStagesUtil.stageWitherSlayer.addModId(["crazyae", "nae2", "ecoaeextension", "aewirelesschannel"]);
 GameStagesUtil.stageEnderCharm.addModId(["elementalend"]);

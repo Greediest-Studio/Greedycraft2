@@ -95,6 +95,12 @@ ArcaneWorkbench.registerShapedRecipe("me_cell_2g", "ESSENTIASTORAGE64k", 10, [],
     [<thaumicenergistics:essentia_component_1g>, <appliedenergistics2:quartz_glass>, <thaumicenergistics:essentia_component_1g>],
     [<thaumcraft:salis_mundus>, <thaumcraft:salis_mundus>, <thaumcraft:salis_mundus>]
 ]);
+ArcaneWorkbench.registerShapedRecipe("remnant_coin", "REMNANT_SOUL", 25, [<aspect:perditio> * 25], <additions:abyss_remnant_coin> * 12, [
+    [null, <ore:ingotAbyssine>, null],
+    [<ore:ingotAbyssine>, <additions:remnant_data>, <ore:ingotAbyssine>],
+    [null, <ore:ingotAbyssine>, null]
+]);
+
 ArcaneWorkbench.registerShapedRecipe("magic_eye", "", 50, [
     <aspect:aer> * 5,
     <aspect:ignis> * 5,
@@ -539,7 +545,7 @@ Infusion.registerRecipe("nether_shard", "", <thaumictinkerer:kamiresource:1> * 2
     <da:flame_metal_scrap>
 ]);
 
-Infusion.registerRecipe("remnant_soul", "REMNANT_SOUL", <additions:remnant_soul>, 21, [
+Infusion.registerRecipe("remnant_soul", "ABYSSISM_MOBS_REMNANT", <additions:remnant_soul>, 21, [
     <aspect:abyss> * 1000,
     <aspect:cthulhu> * 800,
     <aspect:imperium> * 800,

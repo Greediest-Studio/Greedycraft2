@@ -1319,6 +1319,32 @@
                       "efficiency": 0.5
                     }
                   }
+                },
+                {
+                  "elements": [
+                    {
+                      "oredict": "ingotGold",
+                      "type": "oredict",
+                      "modules": {}
+                    },
+                    {
+                      "oredict": "dustGold",
+                      "type": "oredict",
+                      "modules": {}
+                    }
+                  ],
+                  "type": "list",
+                  "modules": {
+                    "nuclearcraft:overhaul_msr:irradiator_stats": {
+                      "heat": 0.0,
+                      "output": {
+                        "oredict": "dustGold198",
+                        "type": "oredict",
+                        "modules": {}
+                      },
+                      "efficiency": 0.0
+                    }
+                  }
                 }
               ]
             },
@@ -5453,6 +5479,11 @@
               "modules": {}
             },
             {
+              "oredict": "dustGold198",
+              "type": "oredict",
+              "modules": {}
+            },
+            {
               "name": "nuclearcraft:ingot_block",
               "metadata": 8,
               "blockstate": {
@@ -5515,6 +5546,17 @@
                 "plannerator:tags": {
                   "tags": [
                     "dustPolonium"
+                  ]
+                }
+              }
+            },
+            {
+              "name": "trinity:dust_au_198",
+              "type": "legacy_item",
+              "modules": {
+                "plannerator:tags": {
+                  "tags": [
+                    "dustGold198"
                   ]
                 }
               }
@@ -7365,6 +7407,32 @@
                         "modules": {}
                       },
                       "efficiency": 0.5
+                    }
+                  }
+                },
+                {
+                  "elements": [
+                    {
+                      "oredict": "ingotGold",
+                      "type": "oredict",
+                      "modules": {}
+                    },
+                    {
+                      "oredict": "dustGold",
+                      "type": "oredict",
+                      "modules": {}
+                    }
+                  ],
+                  "type": "list",
+                  "modules": {
+                    "nuclearcraft:overhaul_sfr:irradiator_stats": {
+                      "heat": 0.0,
+                      "output": {
+                        "oredict": "dustGold198",
+                        "type": "oredict",
+                        "modules": {}
+                      },
+                      "efficiency": 0.0
                     }
                   }
                 }
@@ -9888,6 +9956,11 @@
               "modules": {}
             },
             {
+              "oredict": "dustGold198",
+              "type": "oredict",
+              "modules": {}
+            },
+            {
               "name": "nuclearcraft:ingot_block",
               "metadata": 8,
               "blockstate": {
@@ -10922,6 +10995,17 @@
                 "plannerator:tags": {
                   "tags": [
                     "dustPolonium"
+                  ]
+                }
+              }
+            },
+            {
+              "name": "trinity:dust_au_198",
+              "type": "legacy_item",
+              "modules": {
+                "plannerator:tags": {
+                  "tags": [
+                    "dustGold198"
                   ]
                 }
               }

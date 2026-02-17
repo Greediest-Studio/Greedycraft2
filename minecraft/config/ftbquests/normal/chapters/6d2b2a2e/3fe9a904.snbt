@@ -1,0 +1,35 @@
+{
+	title: "§b灵魂禁锢",
+	x: 4.0d,
+	y: 12.5d,
+	description: "从灭神容器中获取残存之灵",
+	text: [
+		""
+	],
+	dependencies: [
+		"5f4f4f2a"
+	],
+	tasks: [{
+		uid: "17260440",
+		type: "item",
+		items: [{
+			item: "additions:remnant_soul"
+		}]
+	}],
+	rewards: [{
+		uid: "74acbba0",
+		type: "item",
+		item: "additions:remnant_soul",
+		count: 2
+	},
+	{
+		uid: "e86c2b45",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "29236f18",
+		type: "xp",
+		xp: 10000
+	}]
+}

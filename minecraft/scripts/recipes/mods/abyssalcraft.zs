@@ -19,6 +19,7 @@ import mods.acremnanttweaker.Remnant;
 
 Remnant.addTrade("butcher", <additions:abyss_remnant_coin> * 20, <abyssalcraft:dreadcloth> * 8, <additions:nefrath_cloth>);
 Remnant.addTrade("blacksmith", <additions:abyss_remnant_coin> * 30, <abyssalcraft:shadowgem> * 8, <additions:remnant_gem>);
+Remnant.addTrade("librarian", <additions:remnant_data>, <abyssalcraft:eldercoin> * 45, <additions:remnant_data> * 2);
 
 Transmutator.removeTransmutationOutput(<abyssalcraft:solidlava>);
 

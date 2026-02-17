@@ -173,3 +173,15 @@ CombinationCrafting.addRecipe(<additions:dragonbone_spirit>, 640000000, 2560000,
     <additions:spectral_soul>,
     <additions:spectral_soul>
 ]);
+
+CombinationCrafting.addRecipe(<additions:abyss_catalyst>, 136000000, 1048576, <additions:dubhe_crystal>, [
+    <ore:ingotNefrathite>,
+    <gct_aby:warped_soul>,
+    <gct_aby:warped_soul>,
+    <gct_aby:warped_soul>,
+    <gct_aby:warped_soul>,
+    <gct_aby:warped_soul>,
+    <gct_aby:warped_soul>,
+    <gct_aby:warped_soul>,
+    <gct_aby:warped_soul>
+]);

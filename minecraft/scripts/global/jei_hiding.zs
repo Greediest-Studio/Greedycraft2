@@ -141,4 +141,5 @@ JEI.hide(<liquid:uranium_238_carbide>);
 JEI.hide(<liquid:uranium_238_nitride>);
 JEI.hide(<liquid:uranium_238_oxide>);
 JEI.hide(<liquid:uranium_238_z_a>);
-
+JEI.hide(<liquid:gold_198>);
+JEI.hide(<liquid:lithium_6_deuteride>);

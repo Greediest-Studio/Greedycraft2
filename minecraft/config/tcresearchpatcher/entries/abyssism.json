@@ -203,6 +203,7 @@
             "category": "ABYSSISM",
             "location": [8, -2],
             "parents": ["ABYSS_WAND", "SHOGGOTH_MUD_COLLECTION"],
+            "reward_item": ["gct_aby:muddy_flesh"],
             "stages": [
                 {
                     "text": "tc.research.MUDDY_FLESH.stage.1"
@@ -241,6 +242,7 @@
             "category": "ABYSSISM",
             "location": [-12, 0],
             "parents": ["BLOODY_SHOGGOTH"],
+            "reward_item": ["gct_aby:ancient_shoggoth_mud"],
             "stages": [
                 {
                     "text": "tc.research.ANCIENT_SHOGGOTH.stage.1",
@@ -249,6 +251,71 @@
                 {
                     "text": "tc.research.ANCIENT_SHOGGOTH.stage.2",
                     "warp": 10
+                }
+            ]
+        },
+        {
+            "key": "ABYSSISM_MOBS_REMNANT",
+            "name": "tc.research.ABYSSISM_MOBS_REMNANT.name",
+            "icons": ["additions:annihilation_capacitor_empty"],
+            "category": "ABYSSISM",
+            "location": [-5, -2],
+            "parents": ["ABYSSISM_MOBS"],
+            "reward_item": ["additions:annihilation_capacitor_empty"],
+            "stages": [
+                {
+                    "text": "tc.research.ABYSSISM_MOBS_REMNANT.stage.1",
+                    "required_item": ["additions:annihilation_capacitor_empty"],
+                    "warp": 3
+                }
+            ]
+        },
+        {
+            "key": "REMNANT_SOUL",
+            "name": "tc.research.REMNANT_SOUL.name",
+            "icons": ["additions:remnant_soul"],
+            "category": "ABYSSISM",
+            "location": [-8, -2],
+            "parents": ["ABYSSISM_MOBS_REMNANT"],
+            "reward_item": ["additions:remnant_soul"],
+            "stages": [
+                {
+                    "text": "tc.research.REMNANT_SOUL.stage.1",
+                    "required_item": ["additions:remnant_soul"],
+                    "warp": 5
+                }
+            ]
+        },
+        {
+            "key": "DATA_COPY",
+            "name": "tc.research.DATA_COPY.name",
+            "icons": ["additions:remnant_data"],
+            "category": "ABYSSISM",
+            "location": [-8, -5],
+            "parents": ["REMNANT_SOUL"],
+            "reward_item": ["additions:remnant_data"],
+            "stages": [
+                {
+                    "text": "tc.research.DATA_COPY.stage.1"
+                }
+            ]
+        },
+        {
+            "key": "REMNANT_COIN",
+            "name": "tc.research.REMNANT_COIN.name",
+            "icons": ["additions:abyss_remnant_coin"],
+            "category": "ABYSSISM",
+            "location": [-11, -2],
+            "parents": ["REMNANT_SOUL"],
+            "reward_item": ["additions:abyss_remnant_coin;10","additions:remnant_data;5"],
+            "stages": [
+                {
+                    "text": "tc.research.REMNANT_COIN.stage.1",
+                    "required_item": ["additions:abyss_remnant_coin"],
+                    "warp": 5
+                },
+                {
+                    "text": "tc.research.REMNANT_COIN.stage.2"
                 }
             ]
         }

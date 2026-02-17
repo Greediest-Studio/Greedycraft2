@@ -1,0 +1,29 @@
+{
+	title: "§b数据提取",
+	x: 3.5d,
+	y: 14.5d,
+	description: "使用超精密生物质计算机加工残存之灵，获得已解析的残存者数据",
+	text: [
+		"建议制作一个后与残存者交易来复制"
+	],
+	dependencies: [
+		"3fe9a904"
+	],
+	tasks: [{
+		uid: "4af8b523",
+		type: "item",
+		items: [{
+			item: "additions:remnant_data"
+		}]
+	}],
+	rewards: [{
+		uid: "6ef10c20",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "a879331f",
+		type: "xp",
+		xp: 10000
+	}]
+}
