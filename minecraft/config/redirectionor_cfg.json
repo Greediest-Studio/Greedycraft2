@@ -4,7 +4,8 @@
   "runOnAbsoluteSafeEnvironment": false,
   "type": "block",
   "contains": [
-    "modularmachinery"
+    "modularmachinery",
+    "ecoaeextension"
   ],
   "prefix": [
     "com.google.common.util.concurrent.DirectExecutor",
