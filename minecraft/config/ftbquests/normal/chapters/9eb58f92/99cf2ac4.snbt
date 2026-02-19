@@ -1,0 +1,53 @@
+{
+	title: "§b当代能源之基石",
+	x: -17.5d,
+	y: 6.0d,
+	shape: "gear",
+	description: "合成固态燃料裂变控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"43ed32c2"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "8b0aa551",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:solid_fission_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "9f779918",
+		type: "item",
+		item: "nuclearcraft:fission_casing",
+		count: 128
+	},
+	{
+		uid: "2de41f65",
+		type: "item",
+		item: "nuclearcraft:fission_glass",
+		count: 64
+	},
+	{
+		uid: "ef3e3cc8",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "1ea6bb0b",
+		type: "xp",
+		xp: 50000
+	},
+	{
+		uid: "7a1ab765",
+		type: "item",
+		item: {
+			id: "nuclearcraft:multitool",
+			tag: {
+				ncMultitool: {}
+			}
+		}
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "§b回去！",
+	x: -15.5d,
+	y: 8.0d,
+	description: "合成中子反射器，可以反射中子流",
+	text: [
+		""
+	],
+	dependencies: [
+		"99cf2ac4"
+	],
+	tasks: [{
+		uid: "524c3af5",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_reflector"
+		},
+		{
+			item: "nuclearcraft:fission_reflector 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "0a1abdbd",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "5f2d1a2c",
+		type: "xp",
+		xp: 5000
+	}]
+}

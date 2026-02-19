@@ -1,0 +1,29 @@
+{
+	title: "§b中子活化",
+	x: -19.5d,
+	y: 4.0d,
+	description: "合成重水减速剂，一种强大的中子慢化剂",
+	text: [
+		""
+	],
+	dependencies: [
+		"99cf2ac4"
+	],
+	tasks: [{
+		uid: "09bd00bb",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:heavy_water_moderator"
+		}]
+	}],
+	rewards: [{
+		uid: "12ad9c12",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "649b2f24",
+		type: "xp",
+		xp: 5000
+	}]
+}

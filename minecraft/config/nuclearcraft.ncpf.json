@@ -5164,7 +5164,7 @@
           "neutron_reach": 4,
           "cooling_efficiency_leniency": 10,
           "min_size": 1,
-          "max_size": 24
+          "max_size": 64
         },
         "plannerator:global_elements": {
           "elements": [
@@ -9366,7 +9366,7 @@
           "neutron_reach": 4,
           "cooling_efficiency_leniency": 10,
           "min_size": 1,
-          "max_size": 24
+          "max_size": 64
         },
         "plannerator:global_elements": {
           "elements": [

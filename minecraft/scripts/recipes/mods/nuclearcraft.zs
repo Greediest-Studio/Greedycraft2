@@ -28,11 +28,38 @@ import mods.nuclearcraft.Registration;
 import mods.nuclearcraft.Extractor;
 import mods.nuclearcraft.MultiblockInfiltrator;
 import mods.nuclearcraft.InfiltratorPressureFluid;
+import mods.nuclearcraft.DecayHastener;
 import mods.tconstruct.Alloy;
 import mods.jaopca.JAOPCA;
 
 import native.thelm.jaopca.materials.MaterialHandler;
 import native.thelm.jaopca.materials.Material;
+
+val m as string = "m";
+val u as string = "u";
+val n as string = "n";
+val p as string = "p";
+val f as string = "f";
+val a as string = "a";
+val z as string = "z";
+
+function number(base as double, SI as string) as double {
+    if (SI == "m") {
+        return base * 1.0E-3;
+    } else if (SI == "u") {
+        return base * 1.0E-6;
+    } else if (SI == "n") {
+        return base * 1.0E-9;
+    } else if (SI == "p") {
+        return base * 1.0E-12;
+    } else if (SI == "f") {
+        return base * 1.0E-15;
+    } else if (SI == "a") {
+        return base * 1.0E-18;
+    } else if (SI == "z") {
+        return base * 1.0E-21;
+    }
+}
 
 MultiblockInfiltrator.removeAllRecipes();
 InfiltratorPressureFluid.removeAll();
@@ -709,10 +736,14 @@ for plant in ErebusPlants {
     Extractor.addRecipe(plant, null, <liquid:erebus_organic_fluid> * 20);
 }
 
+DecayHastener.addRecipe(<ore:ingotAstatine>, <nuclearcraft:fission_dust>, 0.025d, 1.0d, 2.5d);
+DecayHastener.addRecipe(<ore:ingotRadon>, <thermalfoundation:material:67>, 0.06d, 1.0d, number(24.5d, m));
+DecayHastener.addRecipe(<ore:ingotFrancium>, <thermalfoundation:material:67>, 0.0175d, 1.0d, 1.3d);
+
 Radiation.setMaterialRadiationLevel("Technetium", 0.000000000985d);
 Radiation.setMaterialRadiationLevel("Promethium", 0.064d);
 Radiation.setMaterialRadiationLevel("Astatine", 1.28d);
-Radiation.setMaterialRadiationLevel("Radon", 0.000032d);
+Radiation.setMaterialRadiationLevel("Radon", 0.032d);
 Radiation.setMaterialRadiationLevel("Francium", 0.144d);
 Radiation.setMaterialRadiationLevel("Actinium", 0.00054d);
 Radiation.setMaterialRadiationLevel("Protactinium", 1.4d);
@@ -742,6 +773,6 @@ Radiation.setMaterialRadiationLevel("Livermorium", 0.49d);
 Radiation.setMaterialRadiationLevel("Tennessine", 0.55d);
 Radiation.setMaterialRadiationLevel("Oganesson", 0.64d);
 
-Radiation.setMaterialRadiationLevel("Iridium192", 0.0000018d);
+Radiation.setMaterialRadiationLevel("Iridium192", 0.00018d);
 Radiation.setMaterialRadiationLevel("Irradium", 0.00085d);
 Radiation.setMaterialRadiationLevel("Nucleum", 0.000012d);

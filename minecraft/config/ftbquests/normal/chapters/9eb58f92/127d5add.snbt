@@ -1,0 +1,29 @@
+{
+	title: "§b中子发射",
+	x: -15.5d,
+	y: 4.0d,
+	description: "合成裂变中子源，用于启动反应堆",
+	text: [
+		"用红石信号激活"
+	],
+	dependencies: [
+		"99cf2ac4"
+	],
+	tasks: [{
+		uid: "27f13d08",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_source"
+		}]
+	}],
+	rewards: [{
+		uid: "782e5a5b",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "28acc4b7",
+		type: "xp",
+		xp: 5000
+	}]
+}

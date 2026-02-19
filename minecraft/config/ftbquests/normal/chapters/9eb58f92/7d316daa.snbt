@@ -1,0 +1,36 @@
+{
+	title: "§b或许是裂变堆的最佳用途",
+	x: -17.5d,
+	y: 9.0d,
+	description: "合成裂变中子辐照器及其端口",
+	text: [
+		""
+	],
+	dependencies: [
+		"99cf2ac4"
+	],
+	tasks: [{
+		uid: "80a922f8",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_irradiator_port"
+		}]
+	},
+	{
+		uid: "b335458e",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_irradiator"
+		}]
+	}],
+	rewards: [{
+		uid: "9196b6cc",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "8db2a878",
+		type: "xp",
+		xp: 5000
+	}]
+}

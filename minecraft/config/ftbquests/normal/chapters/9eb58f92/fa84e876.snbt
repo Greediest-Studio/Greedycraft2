@@ -1,0 +1,36 @@
+{
+	title: "§b散热抉择",
+	x: -19.5d,
+	y: 8.0d,
+	description: "合成空散热器外壳",
+	text: [
+		"不同种类的散热器有着不同的效能，也有着不同的摆放需求",
+		"好了，下面请考虑使用哪些材料吧（笑）"
+	],
+	dependencies: [
+		"99cf2ac4"
+	],
+	tasks: [{
+		uid: "0d4fe416",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:part 1 14"
+		}]
+	}],
+	rewards: [{
+		uid: "45febf0d",
+		type: "item",
+		item: "nuclearcraft:part 1 14",
+		count: 32
+	},
+	{
+		uid: "7f50ebcd",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "a2bd49f8",
+		type: "xp",
+		xp: 5000
+	}]
+}

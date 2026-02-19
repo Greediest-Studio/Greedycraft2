@@ -1,0 +1,36 @@
+{
+	title: "§b裂变核心",
+	x: -20.5d,
+	y: 6.0d,
+	description: "合成裂变燃料单元端口，可以输入和输出裂变燃料",
+	text: [
+		""
+	],
+	dependencies: [
+		"99cf2ac4"
+	],
+	tasks: [{
+		uid: "e8248f6a",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_cell_port"
+		}]
+	},
+	{
+		uid: "b76ffb65",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:solid_fission_cell"
+		}]
+	}],
+	rewards: [{
+		uid: "b37428ec",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "3cc0fb6d",
+		type: "xp",
+		xp: 5000
+	}]
+}

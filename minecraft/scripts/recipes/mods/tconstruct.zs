@@ -638,6 +638,8 @@ Melting.addRecipe(<liquid:curse_alloy> * 30, <ore:ballCurseAlloy>, 450);
 Melting.addRecipe(<liquid:creative_alloy> * 30, <ore:ballCreativeAlloy>, 450);
 Melting.addRecipe(<liquid:clock_alloy> * 30, <ore:ballClockAlloy>, 450);
 Melting.addRecipe(<liquid:blackhole_alloy> * 30, <ore:ballBlackholeAlloy>, 450);
+Melting.addRecipe(<liquid:polonium> * 16, <ore:PoloniumPellet>, 620);
+Melting.addRecipe(<liquid:plutonium> * 16, <ore:PlutoniumPellet>, 1080);
 
 Fuel.registerFuel(<liquid:infernium> * 1, 600);
 Fuel.registerFuel(<liquid:cosmilite> * 1, 2400);

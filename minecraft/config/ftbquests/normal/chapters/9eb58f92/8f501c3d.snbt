@@ -1,0 +1,29 @@
+{
+	title: "§b外壳降温",
+	x: -14.5d,
+	y: 6.0d,
+	description: "合成裂变反应堆出入口，可以输入冷却外壳的冷却液",
+	text: [
+		""
+	],
+	dependencies: [
+		"99cf2ac4"
+	],
+	tasks: [{
+		uid: "355cd407",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_vent"
+		}]
+	}],
+	rewards: [{
+		uid: "b4705db4",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "6036f85f",
+		type: "xp",
+		xp: 5000
+	}]
+}
