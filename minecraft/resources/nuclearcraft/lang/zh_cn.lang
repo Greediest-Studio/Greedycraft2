@@ -7355,3 +7355,13 @@ fluid.bismuth=熔融铋
 fluid.sponge=熔融海绵
 fluid.magma_slime=熔融岩浆膏
 #=================================================================================================================#
+
+tile.nuclearcraft.solid_fission_sink_sodium.name=钠裂变散热器
+tile.nuclearcraft.solid_fission_sink_potassium.name=钾裂变散热器
+tile.nuclearcraft.solid_fission_sink_rubidium.name=铷裂变散热器
+tile.nuclearcraft.solid_fission_sink_cesium.name=铯裂变散热器
+
+nc.sf.sodium_sink0=%s有效的钠散热器
+nc.sf.potassium_sink0=%s有效的钾散热器
+nc.sf.rubidium_sink0=%s有效的铷散热器
+nc.sf.cesium_sink0=%s有效的铯散热器

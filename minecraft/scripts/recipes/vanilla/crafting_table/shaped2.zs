@@ -856,6 +856,26 @@ RecipeUtil.addShaped("lamented_eye", <ee:lamented>, [
     [<ore:blockAmethyst>, <ee:lamented>.giveBack(<ee:lamented>), <ore:blockAmethyst>],
     [null, <ore:ingotFinallium>, null]
 ]);
+RecipeUtil.addShaped("sink_sodium", <nuclearcraft:solid_fission_sink_sodium>, [
+    [null, <ore:ingotSodium>, null],
+    [<ore:ingotSodium>, <nuclearcraft:part:14>, <ore:ingotSodium>],
+    [null, <ore:ingotSodium>, null]
+]);
+RecipeUtil.addShaped("sink_potassium", <nuclearcraft:solid_fission_sink_potassium>, [
+    [null, <ore:ingotPotassium>, null],
+    [<ore:ingotPotassium>, <nuclearcraft:part:14>, <ore:ingotPotassium>],
+    [null, <ore:ingotPotassium>, null]
+]);
+RecipeUtil.addShaped("sink_rubidium", <nuclearcraft:solid_fission_sink_rubidium>, [
+    [null, <ore:ingotRubidium>, null],
+    [<ore:ingotRubidium>, <nuclearcraft:part:14>, <ore:ingotRubidium>],
+    [null, <ore:ingotRubidium>, null]
+]);
+RecipeUtil.addShaped("sink_caesium", <nuclearcraft:solid_fission_sink_cesium>, [
+    [null, <ore:ingotCaesium>, null],
+    [<ore:ingotCaesium>, <nuclearcraft:part:14>, <ore:ingotCaesium>],
+    [null, <ore:ingotCaesium>, null]
+]);
 /*
  * RecipeUtil.addShaped("", , [
  *  [null, null, null],

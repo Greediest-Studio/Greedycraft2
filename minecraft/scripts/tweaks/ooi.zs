@@ -78,6 +78,11 @@ ConversionItem.create(<additions:netherite_block>).addMatchItem(<netherized:neth
 ConversionItem.create(<additions:netherite_ingot>).addMatchItem(<netherized:netherite_ingot>).register();
 ConversionItem.create(<netherendingores:ore_nether_vanilla:3>).addMatchItem(<netherized:nether_gold_ore>).register();
 ConversionItem.create(<appliedenergistics2:material:46>).addMatchItem(<betterendforge:ender_dust>).register();
+ConversionItem.create(<mekanism:ingot:8>).addMatchItem(<ore:ingotUranium>).register();
+ConversionItem.create(<mekanism:dust:7>).addMatchItem(<ore:dustUranium>).register();
+ConversionItem.create(<mekanism:basicblock2:10>).addMatchItem(<ore:blockUranium>).register();
+ConversionItem.create(<mekanism:nugget:8>).addMatchItem(<ore:nuggetUranium>).register();
+ConversionItem.create(<mekanism:oreblock:5>).addMatchItem(<ore:oreUranium>).register();
 
 ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:burningsulfurflow>).register();
 ConversionFluid.create(<liquid:liquidantimatter>).addMatchFluid(<liquid:blockfluidantimatter>).register();

@@ -103,6 +103,10 @@ Alloy.addRecipe(<liquid:uranium> * 10, [<liquid:uranium_238> * 9, <liquid:uraniu
 
 CreateElementMixer(<ore:ingotNeptunium>, <ore:dustNeptunium>, <nuclearcraft:neptunium:5>, <nuclearcraft:neptunium>, <liquid:neptunium>, <liquid:neptunium_237>, <liquid:neptunium_236>, 5, 1);
 CreateElementMixer(<ore:ingotPlutonium>, <ore:dustPlutonium>, <nuclearcraft:plutonium:15>, <nuclearcraft:plutonium:5>, <liquid:plutonium>, <liquid:plutonium_242>, <liquid:plutonium_239>, 5, 1);
+CreateElementMixer(<ore:ingotAmericium>, <ore:dustAmericium>, <nuclearcraft:americium>, <nuclearcraft:americium:10>, <liquid:americium>, <liquid:americium_241>, <liquid:americium_243>, 3, 1);
+CreateElementMixer(<ore:ingotCurium>, <ore:dustCurium>, <nuclearcraft:curium:15>, <nuclearcraft:curium:5>, <liquid:curium>, <liquid:curium_247>, <liquid:curium_245>, 5, 1);
+CreateElementMixer(<ore:ingotBerkelium>, <ore:dustBerkelium>, <nuclearcraft:berkelium>, <nuclearcraft:berkelium:5>, <liquid:berkelium>, <liquid:berkelium_247>, <liquid:berkelium_248>, 4, 1);
+CreateElementMixer(<ore:ingotCalifornium>, <ore:dustCalifornium>, <nuclearcraft:californium:10>, <nuclearcraft:californium>, <liquid:californium>, <liquid:californium_251>, <liquid:californium_249>, 3, 2);
 
 Melter.removeRecipeWithInput(<nuclearcraft:gem_dust:10>);
 Melter.removeRecipeWithInput(<nuclearcraft:gem:6>);
@@ -736,9 +740,13 @@ for plant in ErebusPlants {
     Extractor.addRecipe(plant, null, <liquid:erebus_organic_fluid> * 20);
 }
 
+DecayHastener.addRecipe(<ore:dustIridium192>, <mekanism:dust:2>, 0.12d, 1.0d, number(850.0d, u));
+DecayHastener.addRecipe(<ore:dustGold198>, <thaumcraft:quicksilver>, 0.059d, 1.0d, 20.5d);
 DecayHastener.addRecipe(<ore:ingotAstatine>, <nuclearcraft:fission_dust>, 0.025d, 1.0d, 2.5d);
 DecayHastener.addRecipe(<ore:ingotRadon>, <thermalfoundation:material:67>, 0.06d, 1.0d, number(24.5d, m));
 DecayHastener.addRecipe(<ore:ingotFrancium>, <thermalfoundation:material:67>, 0.0175d, 1.0d, 1.3d);
+DecayHastener.addRecipe(<ore:ingotActinium>, <thermalfoundation:material:67>, 1.0d, 1.0d, number(26.0d, n));
+DecayHastener.addRecipe(<ore:ingotProtactinium>, <jaopca:dust.actinium>, 5.2d, 1.0d, number(32.0d, n));
 
 Radiation.setMaterialRadiationLevel("Technetium", 0.000000000985d);
 Radiation.setMaterialRadiationLevel("Promethium", 0.064d);
@@ -746,12 +754,12 @@ Radiation.setMaterialRadiationLevel("Astatine", 1.28d);
 Radiation.setMaterialRadiationLevel("Radon", 0.032d);
 Radiation.setMaterialRadiationLevel("Francium", 0.144d);
 Radiation.setMaterialRadiationLevel("Actinium", 0.00054d);
-Radiation.setMaterialRadiationLevel("Protactinium", 1.4d);
+Radiation.setMaterialRadiationLevel("Protactinium", 0.0000014d);
 Radiation.setMaterialRadiationLevel("Neptunium", 0.00000025d);
 Radiation.setMaterialRadiationLevel("Americium", 0.00086d);
 Radiation.setMaterialRadiationLevel("Curium", 0.00027d);
 Radiation.setMaterialRadiationLevel("Berkelium", 0.00095d);
-Radiation.setMaterialRadiationLevel("Californium", 0.004d);
+Radiation.setMaterialRadiationLevel("Californium", 0.0008d);
 Radiation.setMaterialRadiationLevel("Einsteinium", 0.006d);
 Radiation.setMaterialRadiationLevel("Fermium", 0.0085d);
 Radiation.setMaterialRadiationLevel("Mendelevium", 0.009d);
