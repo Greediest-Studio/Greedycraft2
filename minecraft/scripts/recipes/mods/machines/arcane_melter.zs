@@ -42,24 +42,18 @@ import mods.zenutils.ItemHandler;
 MMEvents.onControllerGUIRender("arcane_melter", function(event as ControllerGUIRenderEvent) {
     val ctrl = event.controller;
     var info as string[] = ["§a///源质升华炉控制面板///", "§a机器名称：§eLV4 - 源质升华炉"];
-    info += "§a最大单次处理数量：" ~ (isNull(ctrl.customData.parallel) ? 1 : ctrl.customData.parallel) as string;
+    info += "§a最大单次处理数量：" ~ (isNull(ctrl.customData.baseparallel) ? 1 : ctrl.customData.baseparallel) as string;
     info += "§a物品输入仓数量：" ~ ((isNull(ctrl.customData.inputPos) || ctrl.customData.inputPos.length == 0) ? "未识别到" : ctrl.customData.inputPos.asList().length as string);
     info += "§a能源输入仓坐标：" ~ ((isNull(ctrl.customData.energyInputPos) || ctrl.customData.energyInputPos.length == 0) ? "未识别到" : ctrl.customData.energyInputPos[0] as string ~ "," ~ ctrl.customData.energyInputPos[1] as string ~ "," ~ ctrl.customData.energyInputPos[2] as string);
     info += "§a源质输出仓坐标：" ~ ((isNull(ctrl.customData.outputPos) || ctrl.customData.outputPos.length == 0) ? "未识别到" : ctrl.customData.outputPos[0] as string ~ "," ~ ctrl.customData.outputPos[1] as string ~ "," ~ ctrl.customData.outputPos[2] as string);
+    info += ctrl.customData.a;
     event.extraInfo = info;
 });
 
 MMEvents.onStructureUpdate("arcane_melter", function(event as MachineStructureUpdateEvent) {
     val ctrl = event.controller;
-    var data = ctrl.customData;
-    
     if (!ctrl.world.isRemote()) {
         var baseparallel = 16 as int;
-        var posStart = [ctrl.pos.x,ctrl.pos.y,ctrl.pos.z];
-        var posEnd = [ctrl.pos.x,ctrl.pos.y,ctrl.pos.z];
-        var input = [] as int[];
-        var output = [] as int[];
-        var energyInput = [] as int[];
         baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:0>) * 4;
         baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:5>) * 8;
         baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:1>) * 16;
@@ -70,73 +64,46 @@ MMEvents.onStructureUpdate("arcane_melter", function(event as MachineStructureUp
         baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:8>) * 512;
         baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:4>) * 1024;
         baseparallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:9>) * 2048;
-        data = data.update({baseParallel: baseparallel});
 
-        if (ctrl.facing == IFacing.west()) {
-            posStart[0] = posStart[0] + 14;
-            posStart[1] = posStart[1] + 10;
-            posStart[2] = posStart[2] + 8;
-            posEnd[0] = posEnd[0] - 1;
-            posEnd[1] = posEnd[1] - 5;
-            posEnd[2] = posEnd[2] - 7;
-        }
-        else if (ctrl.facing == IFacing.south()) {
-            posStart[0] = posStart[0] + 8;
-            posStart[1] = posStart[1] + 10;
-            posStart[2] = posStart[2] + 1;
-            posEnd[0] = posEnd[0] - 7;
-            posEnd[1] = posEnd[1] - 5;
-            posEnd[2] = posEnd[2] - 14;
-        }
-        else if (ctrl.facing == IFacing.north()) {
-            posStart[0] = posStart[0] + 7;
-            posStart[1] = posStart[1] + 10;
-            posStart[2] = posStart[2] + 14;
-            posEnd[0] = posEnd[0] - 8;
-            posEnd[1] = posEnd[1] - 5;
-            posEnd[2] = posEnd[2] - 1;
-        }
-        else if (ctrl.facing == IFacing.east()) {
-            posStart[0] = posStart[0] + 1;
-            posStart[1] = posStart[1] + 10;
-            posStart[2] = posStart[2] + 7;
-            posEnd[0] = posEnd[0] - 14;
-            posEnd[1] = posEnd[1] - 5;
-            posEnd[2] = posEnd[2] - 8;
-        }
-    
-        var x = posStart[0];
-        var y = posStart[1];
-        var z = posStart[2];
-
-        if (!isNull(data.inputPos)) {
-            data = data.deepUpdate({inputPos: data.inputPos},REMOVE);
-        }
-        while (x >= posEnd[0]) {
-            while (y >= posEnd[1]) {
-                while (z >= posEnd[2]) {
-                    var block = ctrl.world.getBlock(x,y,z);
-                    if ((block.definition.id has "modularmachinery:blockinputbus") || (block.definition.id == "modularmachinery:blockmeiteminputbus") || (block.definition.id == "modularmachinery:blockmepatternprovider")) {
-                        input = [x,y,z];
-                        data = data.deepUpdate({inputPos: [input]},{inputPos: APPEND});
-                    }
-                    else if ((block.definition.id has "gugu-utils:aspecthatch") || (block.definition.id == "whimcraft:blockmeaspectoutputbus")) {
-                        output = [x,y,z];
-                        data = data.deepUpdate({outputPos: output},{outputPos: OVERWRITE});
-                    }
-                    else if (block.definition.id has "modularmachinery:blockenergyinputhatch") {
-                        energyInput = [x,y,z];
-                        data = data.deepUpdate({energyInputPos: energyInput},{energyInputPos: OVERWRITE});
-                    }
-                    z -= 1;
-                }
-                y -= 1;
-                z = posStart[2];
+        var inputPosList = ctrl.getBlockPosInPattern(<modularmachinery:blockinputbus:*>) as IBlockPos[];
+        if (ctrl.getBlocksInPattern(<modularmachinery:blockmeiteminputbus>) != 0) {
+            for pos in ctrl.getBlockPosInPattern(<modularmachinery:blockmeiteminputbus>) {
+                inputPosList += pos;
             }
-            x -= 1;
-            y = posStart[1];
         }
-        ctrl.customData = data;
+        if (ctrl.getBlocksInPattern(<modularmachinery:blockmepatternprovider>) != 0) {
+            for pos in ctrl.getBlockPosInPattern(<modularmachinery:blockmepatternprovider>) {
+                inputPosList += pos;
+            }
+        }
+        var outputPosList = ctrl.getBlocksInPattern(<gugu-utils:aspecthatch:1>) == 0 ? ctrl.getBlockPosInPattern(<whimcraft:blockmeaspectoutputbus>) as IBlockPos[] : ctrl.getBlockPosInPattern(<gugu-utils:aspecthatch:1>) as IBlockPos[];
+        var energyPosList = ctrl.getBlockPosInPattern(<modularmachinery:blockenergyinputhatch:*>) as IBlockPos[];
+
+        var inputPos = {inputPos: []} as IData;
+        if (inputPosList.length != 0) {
+            for pos in inputPosList {
+                inputPos = inputPos.deepUpdate({inputPos: [[ctrl.pos.x + pos.x,ctrl.pos.y + pos.y,ctrl.pos.z + pos.z]]},{inputPos: APPEND});
+            }
+        }
+        var outputPos = [] as int[];
+        if (outputPosList.length != 0) {
+            for pos in outputPosList {
+                outputPos += ctrl.pos.x + pos.x;
+                outputPos += ctrl.pos.y + pos.y;
+                outputPos += ctrl.pos.z + pos.z;
+                break;
+            }
+        }
+        var energyPos = [] as int[];
+        if (energyPosList.length != 0) {
+            for pos in energyPosList {
+                energyPos += ctrl.pos.x + pos.x;
+                energyPos += ctrl.pos.y + pos.y;
+                energyPos += ctrl.pos.z + pos.z;
+                break;
+            }
+        }
+        ctrl.customData = inputPos.deepUpdate({outputPos: outputPos},APPEND).deepUpdate({energyInputPos: energyPos},APPEND).deepUpdate({baseParallel: baseparallel},APPEND).deepUpdate({a: inputPosList.length},APPEND);
     }
 });
 
