@@ -46,7 +46,6 @@ MMEvents.onControllerGUIRender("arcane_melter", function(event as ControllerGUIR
     info += "§a物品输入仓数量：" ~ ((isNull(ctrl.customData.inputPos) || ctrl.customData.inputPos.length == 0) ? "未识别到" : ctrl.customData.inputPos.asList().length as string);
     info += "§a能源输入仓坐标：" ~ ((isNull(ctrl.customData.energyInputPos) || ctrl.customData.energyInputPos.length == 0) ? "未识别到" : ctrl.customData.energyInputPos[0] as string ~ "," ~ ctrl.customData.energyInputPos[1] as string ~ "," ~ ctrl.customData.energyInputPos[2] as string);
     info += "§a源质输出仓坐标：" ~ ((isNull(ctrl.customData.outputPos) || ctrl.customData.outputPos.length == 0) ? "未识别到" : ctrl.customData.outputPos[0] as string ~ "," ~ ctrl.customData.outputPos[1] as string ~ "," ~ ctrl.customData.outputPos[2] as string);
-    info += ctrl.customData.a;
     event.extraInfo = info;
 });
 
@@ -103,7 +102,7 @@ MMEvents.onStructureUpdate("arcane_melter", function(event as MachineStructureUp
                 break;
             }
         }
-        ctrl.customData = inputPos.deepUpdate({outputPos: outputPos},APPEND).deepUpdate({energyInputPos: energyPos},APPEND).deepUpdate({baseParallel: baseparallel},APPEND).deepUpdate({a: inputPosList.length},APPEND);
+        ctrl.customData = inputPos.deepUpdate({outputPos: outputPos},APPEND).deepUpdate({energyInputPos: energyPos},APPEND).deepUpdate({baseParallel: baseparallel},APPEND);
     }
 });
 
