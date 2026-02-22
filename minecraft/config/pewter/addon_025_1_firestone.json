@@ -1,0 +1,88 @@
+{
+  "name": "firestone",
+  "tool": {
+    "head": {
+      "attackDamage": 6,
+      "speed": 7.5,
+      "durability": 900,
+      "harvestLevel": 3
+    },
+    "handle": {
+      "modifier": 0.8,
+      "durability": 200
+    },
+    "extra": {
+      "durability": 300
+    },
+    "bow": {
+      "speed": 0.385,
+      "range": 1.4,
+      "bonusDamage": 2
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 30,
+      "defense": 21.5
+    },
+    "plates": {
+      "modifier": 1.4,
+      "durability": 11,
+      "toughness": 0
+    },
+    "trim": {
+      "extraDurability": 15
+    }
+  },
+  "color": "#fe9700",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 0,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Firestone",
+    "zh_cn": "耐火石"
+  },
+  "smeltingItems": {
+    "ingot": ["journey:firestoneclump"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["lighting3", "igniting"],
+    "HANDLE": ["lighting3", "igniting"],
+    "EXTRA": ["lighting3", "igniting"],
+    "BOW": ["lighting3", "igniting"],
+    "CORE": ["lighting3_armor", "tconevo.hearth_embrace_armor"],
+    "PLATES": ["lighting3_armor", "tconevo.hearth_embrace_armor"],
+    "TRIM": ["lighting3_armor", "tconevo.hearth_embrace_armor"]
+  }
+}

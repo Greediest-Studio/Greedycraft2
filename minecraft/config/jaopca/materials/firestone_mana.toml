@@ -11,6 +11,6 @@
 	#The model type of the material.
 	modelType = "crystal"
 	#Should items of this material have the enchanted glow.
-	hasEffect = false
+	hasEffect = true
 	#Is the storage block of this material small (2x2).
 	isSmallStorageBlock = false

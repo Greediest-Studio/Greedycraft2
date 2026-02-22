@@ -1,0 +1,32 @@
+{
+	title: "§b致命之绿",
+	x: -17.5d,
+	y: 12.5d,
+	description: "挖掘铀矿石",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "f829ab54",
+		type: "item",
+		items: [{
+			item: "mekanism:oreblock 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "23b34c28",
+		type: "item",
+		item: "mekanism:ingot 1 8",
+		count: 64
+	},
+	{
+		uid: "153a0bfa",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "016a60b4",
+		type: "xp",
+		xp: 2000
+	}]
+}

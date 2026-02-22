@@ -1,0 +1,36 @@
+{
+	title: "§b简易分离",
+	x: -17.5d,
+	y: 11.0d,
+	description: "分离出活性铀-235和贫铀",
+	text: [
+		""
+	],
+	dependencies: [
+		"4d724b6a"
+	],
+	tasks: [{
+		uid: "312c7ac9",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:uranium 1 5"
+		}]
+	},
+	{
+		uid: "c817b3fc",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:uranium 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "38fd0c44",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "ae910324",
+		type: "xp",
+		xp: 5000
+	}]
+}

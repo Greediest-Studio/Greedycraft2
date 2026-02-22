@@ -1,0 +1,45 @@
+{
+	title: "§b第一颗燃料",
+	x: -17.5d,
+	y: 9.5d,
+	description: "合成任意一种铀-235燃料丸",
+	text: [
+		"重复如上操作，你就可以合成一些锕系超铀元素了"
+	],
+	dependencies: [
+		"b24d2e3b",
+		"99cf2ac4"
+	],
+	tasks: [{
+		uid: "a9bd3dff",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fuel_uranium 1 9"
+		},
+		{
+			item: "nuclearcraft:fuel_uranium 1 10"
+		},
+		{
+			item: "nuclearcraft:fuel_uranium 1 11"
+		},
+		{
+			item: "nuclearcraft:fuel_uranium 1 13"
+		},
+		{
+			item: "nuclearcraft:fuel_uranium 1 14"
+		},
+		{
+			item: "nuclearcraft:fuel_uranium 1 15"
+		}]
+	}],
+	rewards: [{
+		uid: "abb02319",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "244ec60c",
+		type: "xp",
+		xp: 8000
+	}]
+}

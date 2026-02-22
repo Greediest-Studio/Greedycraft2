@@ -1,0 +1,35 @@
+{
+	title: "§b只有一个集群",
+	x: -18.5d,
+	y: 8.5d,
+	description: "合成裂变反应堆导体，可以将两个独立的集群连接起来",
+	text: [
+		""
+	],
+	dependencies: [
+		"99cf2ac4"
+	],
+	tasks: [{
+		uid: "85b4222b",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fission_conductor"
+		}]
+	}],
+	rewards: [{
+		uid: "2e9c89e5",
+		type: "item",
+		item: "nuclearcraft:fission_conductor",
+		count: 64
+	},
+	{
+		uid: "291dd0ad",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "6b7e013d",
+		type: "xp",
+		xp: 5000
+	}]
+}

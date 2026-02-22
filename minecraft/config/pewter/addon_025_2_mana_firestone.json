@@ -1,0 +1,88 @@
+{
+  "name": "mana_firestone",
+  "tool": {
+    "head": {
+      "attackDamage": 8,
+      "speed": 9,
+      "durability": 1030,
+      "harvestLevel": 4
+    },
+    "handle": {
+      "modifier": 0.8,
+      "durability": 270
+    },
+    "extra": {
+      "durability": 385
+    },
+    "bow": {
+      "speed": 0.42,
+      "range": 1.5,
+      "bonusDamage": 3
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 33,
+      "defense": 24
+    },
+    "plates": {
+      "modifier": 1.4,
+      "durability": 14,
+      "toughness": 0
+    },
+    "trim": {
+      "extraDurability": 20
+    }
+  },
+  "color": "#ff8fa7",
+  "craftable": true,
+  "madeInToolForge": false,
+  "createMeltingRecipes": false,
+  "meltingTemperature": 0,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Mana Firestone",
+    "zh_cn": "淬魔耐火石"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:mana_firestone"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["lighting3", "tconevo.mana_infused", "curseflame"],
+    "HANDLE": ["lighting3", "tconevo.mana_infused", "curseflame"],
+    "EXTRA": ["lighting3", "tconevo.mana_infused", "curseflame"],
+    "BOW": ["lighting3", "tconevo.mana_infused", "curseflame"],
+    "CORE": ["lighting3_armor", "tconevo.mana_infused_armor", "soul_ascend_armor"],
+    "PLATES": ["lighting3_armor", "tconevo.mana_infused_armor", "soul_ascend_armor"],
+    "TRIM": ["lighting3_armor", "tconevo.mana_infused_armor", "soul_ascend_armor"]
+  }
+}

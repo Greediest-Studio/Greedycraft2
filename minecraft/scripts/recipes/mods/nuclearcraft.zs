@@ -547,6 +547,8 @@ ChemicalReactor.removeRecipeWithInput(<liquid:sulfur> * 333, <liquid:hydrogen> *
 ChemicalReactor.removeRecipeWithInput(<liquid:sodium> * 144, <liquid:sulfur> * 333);
 ChemicalReactor.removeRecipeWithInput(<liquid:potassium> * 144, <liquid:sulfur> * 333);
 ChemicalReactor.removeRecipeWithInput(<liquid:sulfur> * 333, <liquid:oxygen> * 500);
+ChemicalReactor.removeRecipeWithInput(<liquid:nitrogen_dioxide> * 3000, <liquid:water> * 1000);
+ChemicalReactor.removeRecipeWithInput(<liquid:witherite_water> * 1000, <liquid:nitric_acid> * 2000);
 
 ChemicalReactor.addRecipe(<liquid:nitric_acid> * 250, <liquid:hydrofluoric_acid> * 750, <liquid:aqua_fluoride> * 1000, null);
 ChemicalReactor.addRecipe(<liquid:nitric_acid> * 250, <liquid:liquidhydrofluricacid> * 750, <liquid:aqua_fluoride> * 1000, null);
@@ -618,6 +620,8 @@ ChemicalReactor.addRecipe(<liquid:cyclohexane> * 250, <liquid:oxygen> * 250, <li
 ChemicalReactor.addRecipe(<liquid:ammonia> * 250, <liquid:hydrogen_peroxide> * 250, <liquid:hydroxylamine> * 250, <liquid:water> * 250);
 ChemicalReactor.addRecipe(<liquid:cyclohexanone> * 250, <liquid:hydroxylamine> * 250, <liquid:cyclohexanone_oxime> * 250, <liquid:water> * 250);
 ChemicalReactor.addRecipe(<liquid:cyclohexanone_oxime> * 250, <liquid:sulfuric_acid> * 100, <liquid:caprolactam> * 250, <liquid:sulfuric_acid> * 100);
+ChemicalReactor.addRecipe(<liquid:witherite_water> * 333, <liquid:hydrochloric_acid> * 1000, <liquid:barium_chloride_solution> * 333, <liquid:carbon_dioxide> * 500);
+ChemicalReactor.addRecipe(<liquid:witherite_water> * 333, <liquid:nitric_acid> * 1000, <liquid:barium_nitrate_solution> * 333, <liquid:carbon_dioxide> * 500);
 
 Crystallizer.addRecipe(<liquid:iodine_carbon_tetrachloride_solution> * 200, <jaopca:dust.iodine>);
 Crystallizer.addRecipe(<liquid:chloroplatinic_acid_solution> * 666, <additions:chloroplatinic_acid>);
@@ -641,6 +645,8 @@ Crystallizer.addRecipe(<liquid:sodium_molybdate_solution> * 666, <additions:sodi
 Crystallizer.addRecipe(<liquid:erebus_organic_fluid> * 500, <additions:erebus_complex>);
 Crystallizer.addRecipe(<liquid:sodium_sulfate_solution> * 666, <additions:sodium_sulfate>);
 
+Enricher.removeRecipeWithOutput(<liquid:barium_nitrate_solution> * 1332);
+
 Enricher.addRecipe(<ore:dustIodine>, <liquid:carbon_tetrachloride> * 200, <liquid:iodine_carbon_tetrachloride_solution> * 200);
 Enricher.addRecipe(<ore:ingotIodine>, <liquid:carbon_tetrachloride> * 200, <liquid:iodine_carbon_tetrachloride_solution> * 200);
 Enricher.addRecipe(<ore:dustChloroplatinicAcid>, <liquid:water> * 1000, <liquid:chloroplatinic_acid_solution> * 666);
@@ -656,7 +662,7 @@ Enricher.addRecipe(<ore:dustSodiumPhosphate>, <liquid:water> * 1000, <liquid:sod
 Enricher.addRecipe(<ore:dustSodiumDihydrogenPhosphate>, <liquid:water> * 1000, <liquid:sodium_dihydrogen_phosphate_solution> * 666);
 Enricher.addRecipe(<ore:dustSodiumHydrogenPhosphate>, <liquid:water> * 1000, <liquid:sodium_hydrogen_phosphate_solution> * 666);
 Enricher.addRecipe(<ore:dustPhosphorusPentaoxide>, <liquid:water> * 3000, <liquid:phosphoric_acid> * 2000);
-Enricher.addRecipe(<ore:dustAmmoniumChloride>, <liquid:water> * 1000, <liquid:ammonium_chloride_solution> * 666);
+Enricher.addRecipe(<ore:dustAmmoniumChloride>, <liquid:water> * 1000, <liquid:ammoniu m_chloride_solution> * 666);
 Enricher.addRecipe(<ore:dustMagnesiumSulfate>, <liquid:water> * 1000, <liquid:magnesium_sulfate_solution> * 666);
 Enricher.addRecipe(<ore:dustIron(II)Sulfate>, <liquid:water> * 1000, <liquid:iron_2_sulfate_solution> * 666);
 Enricher.addRecipe(<ore:dustZincChloride>, <liquid:water> * 1000, <liquid:zinc_chloride_solution> * 666);
@@ -665,6 +671,8 @@ Enricher.addRecipe(<ore:dustSodiumHydrogenCarbonate>, <liquid:water> * 1000, <li
 Enricher.addRecipe(<ore:dustCryotheum>, <liquid:liquid_helium> * 1000, <liquid:hecryo_liquid> * 1000);
 Enricher.addRecipe(<ore:dustSodiumMolybdate>, <liquid:water> * 1000, <liquid:sodium_molybdate_solution> * 666);
 Enricher.addRecipe(<ore:dustSodiumSulfate>, <liquid:water> * 1000, <liquid:sodium_sulfate_solution> * 666);
+Enricher.addRecipe(<ore:dustBariumOxide>, <liquid:nitric_acid> * 2000, <liquid:barium_nitrate_solution> * 666);
+Enricher.addRecipe(<ore:dustBariumOxide>, <liquid:hydrochloric_acid> * 2000, <liquid:barium_chloride_solution> * 666);
 
 Electrolyzer.addRecipe(<liquid:brine> * 1000, <liquid:sodium_hydroxide_solution> * 666, <liquid:hydrogen> * 500, <liquid:liquidchlorine> * 500, null, 1.0d, 1.0d, 0.0d);
 Electrolyzer.addRecipe(<liquid:sodium_chloride> * 333, <liquid:sodium> * 72, <liquid:liquidchlorine> * 250, null, null);
@@ -755,31 +763,31 @@ Radiation.setMaterialRadiationLevel("Radon", 0.032d);
 Radiation.setMaterialRadiationLevel("Francium", 0.144d);
 Radiation.setMaterialRadiationLevel("Actinium", 0.00054d);
 Radiation.setMaterialRadiationLevel("Protactinium", 0.0000014d);
-Radiation.setMaterialRadiationLevel("Neptunium", 0.00000025d);
-Radiation.setMaterialRadiationLevel("Americium", 0.00086d);
-Radiation.setMaterialRadiationLevel("Curium", 0.00027d);
+Radiation.setMaterialRadiationLevel("Neptunium", 0.00000075d);
+Radiation.setMaterialRadiationLevel("Americium", 0.00122d);
+Radiation.setMaterialRadiationLevel("Curium", 0.0000405d);
 Radiation.setMaterialRadiationLevel("Berkelium", 0.00095d);
-Radiation.setMaterialRadiationLevel("Californium", 0.0008d);
+Radiation.setMaterialRadiationLevel("Californium", 0.0016d);
 Radiation.setMaterialRadiationLevel("Einsteinium", 0.006d);
 Radiation.setMaterialRadiationLevel("Fermium", 0.0085d);
 Radiation.setMaterialRadiationLevel("Mendelevium", 0.009d);
 Radiation.setMaterialRadiationLevel("Nobelium", 0.015d);
-Radiation.setMaterialRadiationLevel("Lawrencium", 0.02d);
-Radiation.setMaterialRadiationLevel("Rutherfordium", 0.032d);
-Radiation.setMaterialRadiationLevel("Dubnium", 0.048d);
-Radiation.setMaterialRadiationLevel("Seaborgium", 0.06d);
-Radiation.setMaterialRadiationLevel("Bohrium", 0.072d);
-Radiation.setMaterialRadiationLevel("Hassium", 0.085d);
-Radiation.setMaterialRadiationLevel("Meitnerium", 0.11d);
-Radiation.setMaterialRadiationLevel("Darmstadtium", 0.16d);
-Radiation.setMaterialRadiationLevel("Roentgenium", 0.2d);
-Radiation.setMaterialRadiationLevel("Copernicium", 0.25d);
-Radiation.setMaterialRadiationLevel("Nihonium", 0.29d);
-Radiation.setMaterialRadiationLevel("Flerovium", 0.34d);
-Radiation.setMaterialRadiationLevel("Moscovium", 0.40d);
-Radiation.setMaterialRadiationLevel("Livermorium", 0.49d);
-Radiation.setMaterialRadiationLevel("Tennessine", 0.55d);
-Radiation.setMaterialRadiationLevel("Oganesson", 0.64d);
+Radiation.setMaterialRadiationLevel("Lawrencium", 0.06d);
+Radiation.setMaterialRadiationLevel("Rutherfordium", 0.15d);
+Radiation.setMaterialRadiationLevel("Dubnium", 0.48d);
+Radiation.setMaterialRadiationLevel("Seaborgium", 0.6d);
+Radiation.setMaterialRadiationLevel("Bohrium", 0.72d);
+Radiation.setMaterialRadiationLevel("Hassium", 1.85d);
+Radiation.setMaterialRadiationLevel("Meitnerium", 2.11d);
+Radiation.setMaterialRadiationLevel("Darmstadtium", 3.16d);
+Radiation.setMaterialRadiationLevel("Roentgenium", 5.2d);
+Radiation.setMaterialRadiationLevel("Copernicium", 6.0d);
+Radiation.setMaterialRadiationLevel("Nihonium", 10.5d);
+Radiation.setMaterialRadiationLevel("Flerovium", 1.8d);
+Radiation.setMaterialRadiationLevel("Moscovium", 15.6d);
+Radiation.setMaterialRadiationLevel("Livermorium", 20.5d);
+Radiation.setMaterialRadiationLevel("Tennessine", 30.0d);
+Radiation.setMaterialRadiationLevel("Oganesson", 42.0d);
 
 Radiation.setMaterialRadiationLevel("Iridium192", 0.00018d);
 Radiation.setMaterialRadiationLevel("Irradium", 0.00085d);
