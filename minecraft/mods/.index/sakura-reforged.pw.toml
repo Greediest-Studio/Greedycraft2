@@ -1,0 +1,13 @@
+name = "Sakura Reforged"
+filename = "sakura-1.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "28acedab9e381c83bd6e6890a07711d0d1be3b58"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7623410
+project-id = 1461245

@@ -35,7 +35,6 @@ LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("openmods_inject
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("power_point").clearConditions();
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("power_point").addConditions([Conditions.randomChance(0.2)]);
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("forestry_apiculture_bees").addConditions([Conditions.randomChance(0.2)]);
-LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("tconevo_artifacts").addConditions([Conditions.randomChance(0.1)]);
 
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("smart_slab").addConditions([Conditions.randomChance(0.005)]);
 LootTweaker.getTable("minecraft:chests/stronghold_corridor").getPool("smart_slab").addConditions([Conditions.randomChance(0.0075)]);
