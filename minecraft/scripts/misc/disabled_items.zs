@@ -1088,7 +1088,6 @@ var disabledItems as IIngredient[] = [
     <evilcraft:spirit_furnace>,
     <tiths:ore_tanatonium>,
     <additions:sanite_ore>,
-    <botanicadds:mana_tesseract>,
     <modularmachinery:blockstarlightproviderinput>,
     <modularmachinery:blockstarlightprovideroutput>,
     <modularmachinery:blockconstellationprovider>,

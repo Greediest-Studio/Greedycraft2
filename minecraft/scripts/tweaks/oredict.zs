@@ -375,7 +375,6 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <ore:gemShadow>, 
         <ore:record>,
         <journey:tomatoseeds>,
-        <journey:loot_pouch>,
         <journey:magic_dust>
     ],
     <ore:dungeonLootTier2> : [
@@ -429,7 +428,6 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <charm:totem_of_shielding>,
         <ore:dungeonShield>,
         <ore:inventoryPet>,
-        <journey:loot_pouch_gold>,
         <journey:xp_catalyst>,
         <advanced-fishing:blazing_fishing_pole:*>
     ],
@@ -444,8 +442,7 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <additions:one_punch>,
         <additions:experiment_note>,
         <mowziesmobs:wrought_helmet>,
-        <mowziesmobs:wrought_axe>,
-        <journey:loot_pouch_diamond>
+        <mowziesmobs:wrought_axe>
     ],
     <ore:metalGene> : [
         <additions:cytosinite_ingot>,
