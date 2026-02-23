@@ -3041,8 +3041,8 @@ val emperoricTrait = ArmorTraitBuilder.create("emperoric");
 emperoricTrait.color = Color.fromHex("ffffff").getIntColor();
 emperoricTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.emperoricTrait.name");
 emperoricTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.emperoricTrait.desc");
-emperoricTrait.onArmorTick = function(trait, armor, world, player) {
-    if (!isNull(player)) {
+emperoricTrait.onArmorEquip = function(trait, armor, player, i) {
+    if (!isNull(player) && <ore:armorTiC> has armor) {
         var defadd as float = armor.tag.StatsOriginal.Defense as float * 0.2f;
         CotTicLib.addTicDefense(armor, defadd, "emperoric");
         var toughadd as float = armor.tag.StatsOriginal.Toughness as float * 0.2f;
