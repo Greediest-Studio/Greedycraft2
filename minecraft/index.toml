@@ -21090,7 +21090,7 @@ hash = "ca8de11d94bb0cd70c0a5694006e0d483b57965b225f31ce1d58909fb0aa4080"
 
 [[files]]
 file = "config/baubles.cfg"
-hash = "92a1ce72131ba730b021cbb4918307bfa68c96885fb7ce8e277976d2be0d841f"
+hash = "52c6610935a8050eb18679ed04000d52fb0b089695893d7898277e3d4df3e8f8"
 
 [[files]]
 file = "config/baubles/slots.json"
@@ -23043,6 +23043,10 @@ hash = "abcd4dd42ed03eb526817caa5ccdd89db710c262d59c0993bf4c4051417659d7"
 [[files]]
 file = "config/findme.cfg"
 hash = "4234e6963bc9031a4a7f83d18bb1128d5bd4306c3c38791cd6b4cc5979cc7e16"
+
+[[files]]
+file = "config/flare/flare.cfg"
+hash = "6ca8690a3d5233eb62e4475fc9e78e7492a6c2368f3f25640af6b771d271a265"
 
 [[files]]
 file = "config/fluiddrawers.cfg"
@@ -29386,7 +29390,7 @@ hash = "cd22e0b1988022f0ad99d33116d90a8585a273d215199c2c08dddd82a3911418"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/fc17327d/fc69c87b.snbt"
-hash = "273689c738197e2576a5fcaeaa408d011a2efaeddd0ad558a086412a6a2b803c"
+hash = "76198d7a427766bdf0439ad79a82ceb63d9489121aae388d22c5fe14f99d52be"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/index.snbt"
@@ -31138,7 +31142,7 @@ hash = "d4fac6895f55f12bb9558299981968133d2833c4684b183b4b85bf2391ae8526"
 
 [[files]]
 file = "config/jaopca/materials/firestone.toml"
-hash = "e4d6b32ccbe37e6aedf4ba9e74f86829fb005c7245ec378a11fa7579cdbf36a0"
+hash = "1df2b9bbf0edb2dac1bd1601b94f82504c95aa8af1edb0d6384c025057d63697"
 
 [[files]]
 file = "config/jaopca/materials/firestone_mana.toml"
@@ -33762,7 +33766,7 @@ hash = "bbaeb7d527eba8a066660054b6f231e4b53684800636f7c638ab251864250950"
 
 [[files]]
 file = "config/mca.cfg"
-hash = "4ab08dab158a6abe6a0b9d115582bb59e70bf2fe54fbfa4278d8a620d6c93968"
+hash = "4a0194e0636a0ad4907232f4d98ae208b73005831a3e42e892e0d4729f05453b"
 
 [[files]]
 file = "config/mcjtylib.cfg"
@@ -36386,7 +36390,7 @@ hash = "d42e3d6ef186dfeb2c790875f6a8517d993906abd47b1d1f70c2e05fc7091f6f"
 
 [[files]]
 file = "config/tconstruct_oredictcache.dat"
-hash = "dac70d6c93e2ec4fc85a898d08d2bc79272720ab7d05a26aaff418bfe609b8d2"
+hash = "50c00485e7d19aa76508afc54dda592af90fe296fb0b6e4d058a75ffcf991e4a"
 
 [[files]]
 file = "config/tcresearchpatcher.cfg"
@@ -36470,7 +36474,11 @@ hash = "601c2d733aab273f9e8805041567923cae56fefcf2f9d74e1dd9e6a833531c91"
 
 [[files]]
 file = "config/thaumicjei.cfg"
-hash = "f191208cedaf0c19ccdbfb4ec58af40a317383f7ba1e4385dc43dc591aeb4faa"
+hash = "35eff0b4ba7da596ed9151aee10550a565d8c0ad662981e8204cb846682c2b57"
+
+[[files]]
+file = "config/thaumicjei_itemstack_aspects.nbt"
+hash = "df27c70983aa41c9a8f9f1f9fffb72302c451dce2a5a14247b02fb39b601cefd"
 
 [[files]]
 file = "config/thaumictinkerer.cfg"
@@ -36746,7 +36754,7 @@ hash = "7df1419056d5c11603d55f7b0d351967fda8e249c4ab3d0c93d74cf1977c2c95"
 
 [[files]]
 file = "config/trinity.cfg"
-hash = "35a320c56a30310f4998583481de380ca093157a9e73720fbc4eda9f78b3fc6f"
+hash = "da6e1b0c61240104eda98f9d01cb62cd3cbc5d47e1b1a2648b10917bffa2c832"
 
 [[files]]
 file = "config/tumbleweed.cfg"
@@ -37194,11 +37202,6 @@ hash = "08208e061e5baa0fc9c192972ea1ffdadeae695651185565510f54654fd60ebb"
 metafile = true
 
 [[files]]
-file = "mods/.index/better-signs.pw.toml"
-hash = "60fd545f4dab17f45604cb7f03816d9cbd3fad49bdca781a6602225f5e0e0799"
-metafile = true
-
-[[files]]
 file = "mods/.index/better-slimes-rotn-edition.pw.toml"
 hash = "27bf161eddecc4ce4f5f18c50c07cb48fbe2f997342ae6f3a680948789dba5ee"
 metafile = true
@@ -37339,11 +37342,6 @@ hash = "af71f8f04546075c36675046836b2a642b19ab54a912e5cb8f6295c2eb0b8db6"
 metafile = true
 
 [[files]]
-file = "mods/.index/bubblesex.pw.toml"
-hash = "0369f42daf9edfe655552ea8453e39384f4530e3fb758ccbbbc413bf80570d63"
-metafile = true
-
-[[files]]
 file = "mods/.index/building-gadgets.pw.toml"
 hash = "c8ee6b8c56dc5011af73660d1063d881376b6d66b7b3686c6ab73edb6f598c14"
 metafile = true
@@ -37471,6 +37469,11 @@ metafile = true
 [[files]]
 file = "mods/.index/compatskills-fork.pw.toml"
 hash = "df56ba5b3c6b8cedf49632c95df2df422467069c6f2cd4968e36a6584566e32c"
+metafile = true
+
+[[files]]
+file = "mods/.index/component-model-hider.pw.toml"
+hash = "c54fc0b6e46b1e28514a1932400cf5eeed1ab589c1a8b8de985483b007ba16cf"
 metafile = true
 
 [[files]]
@@ -37726,6 +37729,11 @@ metafile = true
 [[files]]
 file = "mods/.index/findme.pw.toml"
 hash = "121e1e09c5ed36fba71199f5976589f26c5ff8ae8f4d43f0398c03b62c8a9196"
+metafile = true
+
+[[files]]
+file = "mods/.index/flare.pw.toml"
+hash = "de273d83365a71eadb97eb0feb2f690e9678436601dfd0c85e7acc591829923f"
 metafile = true
 
 [[files]]
@@ -38154,6 +38162,11 @@ hash = "92892386e51376cbe799f9441d2f309fa7364b40db3d2ce7dd3fb3af50e9c5d2"
 metafile = true
 
 [[files]]
+file = "mods/.index/minecraft-comes-alive-reforged.pw.toml"
+hash = "6fa0eb49aa922c862d0e099612f1833d99b2c0fd01c1e7d90907a886243c7526"
+metafile = true
+
+[[files]]
 file = "mods/.index/minieffects-legacy-extended-life.pw.toml"
 hash = "61223d38ebe4fa770cc5c32dd8edd15649dbe7cd40968372ac183ce2c02af724"
 metafile = true
@@ -38359,8 +38372,8 @@ hash = "a550c1ae3f3e585e4ffe2aa7c39b17e8a1066e65865c1dec9f918191786056d0"
 metafile = true
 
 [[files]]
-file = "mods/.index/ore-stages.pw.toml"
-hash = "a449e11f5e7d411848c3c6a317a1d1318c666461890d61d132eca8bc222f50db"
+file = "mods/.index/ore-stages-restaged.pw.toml"
+hash = "0d3a34a158c759bf0132e40fc40b0421fb3b6d9b0e066a9ae27277a069dec097"
 metafile = true
 
 [[files]]
@@ -38649,8 +38662,8 @@ hash = "44c607417a29295c8b6b90d08a9274e8acdc84b201d44d0c1ec424f84a10d9e3"
 metafile = true
 
 [[files]]
-file = "mods/.index/sakura.pw.toml"
-hash = "1228d31273f8836cfcaab73157b923d6bbaef60d0076480babc8c182384bf1a8"
+file = "mods/.index/sakura-reforged.pw.toml"
+hash = "80293f835613eece29e71c0e3100bcbce154b1ac6636660c0dbdaee5f1bc5599"
 metafile = true
 
 [[files]]
@@ -38811,11 +38824,6 @@ metafile = true
 [[files]]
 file = "mods/.index/thaumic-equivalence.pw.toml"
 hash = "4cd7ef7b323bac3cef5dbf91df5fe7c1826df63a410946138d043b4c6329b4bf"
-metafile = true
-
-[[files]]
-file = "mods/.index/thaumic-jei.pw.toml"
-hash = "3dcef794ba03565241c47808178e96d5d8db82d4a9659d2a340fd3966ac107a1"
 metafile = true
 
 [[files]]
@@ -39099,11 +39107,6 @@ hash = "9b56c87a5c4a4086096082adef912aa826248ed2a1b3dec4259c16bbc4bf448c"
 metafile = true
 
 [[files]]
-file = "mods/.index/yungs-better-mineshafts-forge.pw.toml"
-hash = "2c3cceb0d52ba37f139070fe8396bc090571d36003f94a3c92ce99ee96c1fea1"
-metafile = true
-
-[[files]]
 file = "mods/.index/zen-summoning.pw.toml"
 hash = "963dccdeceee729733c7b02c98c93ee00ec4598582fc7a1a5d3ccee8657e5414"
 metafile = true
@@ -39158,7 +39161,11 @@ hash = "ed9e27f77383964b0df5fc94a5aa05e56ef5e82b88e4d00896950c4812e946f2"
 
 [[files]]
 file = "mods/Botanic Additions-12.2.7.jar"
-hash = "d6a889842b6214c8bdf75bac35f8f8058a30416e310011f15de931f077914450"
+hash = "84d8fee49b1ceba4d9d38ea34f00527765e9f1e2e0f9c6a0acd23ca529c06a69"
+
+[[files]]
+file = "mods/BubblesEX-1.6.5.jar"
+hash = "9783c94178c103631cee3b4591942e3574bd9eec23e4269aaf079e15e0ac9b6d"
 
 [[files]]
 file = "mods/CrazyAE-1.12.2-v0.6.0.2-patched.jar"
@@ -39231,10 +39238,6 @@ hash = "533a0a4eb0b9fca14d1caa2b11a69a476fbb04d1fd16d89e141d373a54291f29"
 [[files]]
 file = "mods/KeyBindingTweaker-Forge-1.12.2-1.0.0.jar"
 hash = "61eb9803093b02beb790a89c98689f3972ab56e3d83dd0aac6e29564ff08b584"
-
-[[files]]
-file = "mods/MCA-1.0.6-patched.jar"
-hash = "87958048bef807c291ace28e63d0e1bb87a12d81fc4f7da74479e7935bc88398"
 
 [[files]]
 file = "mods/Mekanism-CE-Unofficial-All-9.9.2.235-patched.jar"
@@ -39311,6 +39314,10 @@ hash = "22d4af5c28a2059b0c367a4097cca1af32936bf5a13ed75002eaebed7d7a74d9"
 [[files]]
 file = "mods/ThaumicComputers-MC1.12.2-0.5.1.jar"
 hash = "e78344d41d77e7cfcbea79cf3ecb7a84ddbb097dbc41a61f0aaaa8005da54e4e"
+
+[[files]]
+file = "mods/ThaumicJEI-1.0.0.jar"
+hash = "624a2a306cd12ab7b17c64bf61ae6cc2ee4f5a9139ef09e4e8b74f1818579467"
 
 [[files]]
 file = "mods/ThaumicRestoration-1.5.0.jar"
@@ -39409,11 +39416,6 @@ file = "mods/eventtweaker-1.6.jar"
 hash = "a387689cf69cc91b04991406fcffb7804ec55b3aaf1a4e01d0b2a546a7f91e9e"
 
 [[files]]
-file = "mods/flare.pw.toml"
-hash = "de273d83365a71eadb97eb0feb2f690e9678436601dfd0c85e7acc591829923f"
-metafile = true
-
-[[files]]
 file = "mods/fluidintetweaker-1.5.4.jar"
 hash = "7623c994df91a3d50a0631afbbe13ca2174a80dcaf7a5eb49327c2f91c56d95f"
 
@@ -39462,11 +39464,6 @@ file = "mods/lrbp-0.1.jar"
 hash = "570d388dbdf719aac1c33a043c0032dce5f7def66d4890e257d148eef6e1b7a2"
 
 [[files]]
-file = "mods/minecraft-comes-alive-reforged.pw.toml"
-hash = "6fa0eb49aa922c862d0e099612f1833d99b2c0fd01c1e7d90907a886243c7526"
-metafile = true
-
-[[files]]
 file = "mods/moretcon-V14.jar"
 hash = "375f9a89f3263b0fbb7992b8112228af9c95eb682700c06c1cf71e2e2fd22389"
 
@@ -39499,17 +39496,12 @@ file = "mods/random_complement-1.8.9.jar"
 hash = "ec27e94b0ca9e73ae03652f5df1a0f2f8dafc6998630a7fa57fa42f94bf820d4"
 
 [[files]]
-file = "mods/sakura-reforged.pw.toml"
-hash = "80293f835613eece29e71c0e3100bcbce154b1ac6636660c0dbdaee5f1bc5599"
-metafile = true
-
-[[files]]
 file = "mods/sampleintegration-1.0.3.jar"
 hash = "52803b50c732fd714ee70b5022357c1845e4de45781bf9e5377ea39cb5019efc"
 
 [[files]]
-file = "mods/searchonmcmod-forge-1.12.2-0.0.7.1.jar"
-hash = "908d0b096e4c6033bd6a975d9dc6c5b22791757d02193944dbfd9cc6403ecc2a"
+file = "mods/searchonmcmod-forge-1.12.2-0.0.8.jar"
+hash = "dc8b1f3b3c605e7bb510e85278432adbd8d397773b51445f672ef078ac9d7ba9"
 
 [[files]]
 file = "mods/stellarfluidconduit-1.12.2-1.1.5.jar"
@@ -39545,7 +39537,7 @@ hash = "5cb9cf345981fc053f7be1f21390e34eb4d5632b53410708d9430b152a3e1a7c"
 
 [[files]]
 file = "options.txt"
-hash = "ed588161001c928492d2f129f37397eee82f9fd8e556e8bdcfbc65ebc179eab3"
+hash = "3c35ebbf9c994964767ef0b101188912b7120c73954da09da51f9130c8c41abf"
 
 [[files]]
 file = "optionsof.txt"
@@ -40349,15 +40341,19 @@ hash = "9b9888f0e6667eba44410e18509aca5bff30b6107626d6e320709eaa37fb6537"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/en_us/categories/difficulty_category.json"
-hash = "336f6210cdbd1262c8db0ca486cbae310d67c3c0fe75c74b5689a8b4c88dda9e"
+hash = "79bda52297579f66232140c8b910800f525cafc56e74d9c44d5b241ca9005fbd"
+
+[[files]]
+file = "patchouli_books/greedycraft_guide_book/en_us/categories/faq_category.json"
+hash = "1935f72686139518eb52c4a9b156a7fe321afceb54b5dc724000218963e4a76e"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/en_us/categories/guide_category.json"
-hash = "8d6725868c8d3be21ae7c54640f95c88877a82be0d58bc4cbf277872685ccafd"
+hash = "7c4f18710bb8da3869a9feea648e85c4616a580cc8f8fc37fa691844dab36cee"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/en_us/categories/list_category.json"
-hash = "03edab02e385b220abc4d3c93ba1dffa239f06b20372f9a8f7c61e5ad11c75a6"
+hash = "beff0a693392b822228441cf274746b9b46844c78a2e072d4d8d547cba85324a"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/en_us/categories/misc_category.json"
@@ -40370,10 +40366,6 @@ hash = "ca0d183afaa554e3f7943d266f790c12765742731824d3babc1a9c892bf8f700"
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/en_us/categories/quick_start_category.json"
 hash = "af1b5799f358c75930954410119608fac5072b443a9545167bf3367ba63f7d2a"
-
-[[files]]
-file = "patchouli_books/greedycraft_guide_book/en_us/categories/skill_category.json"
-hash = "580e4c5016a7ef5ec6c10fafee9eee1789f2a8e8619628645754552add86a53d"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/en_us/entries/difficulty/difficulty_factors.json"
@@ -40452,10 +40444,6 @@ file = "patchouli_books/greedycraft_guide_book/en_us/entries/guide/guide_riddle.
 hash = "56295bd6098908aebbab84885099eae6fd3b62f9d4bdc3d16e781decbcc7c521"
 
 [[files]]
-file = "patchouli_books/greedycraft_guide_book/en_us/entries/guide/guide_side_quests.json"
-hash = "6f518641ce371c4b76613c4112b69c319613b5d077c2b2db429ef92901b9d35f"
-
-[[files]]
 file = "patchouli_books/greedycraft_guide_book/en_us/entries/guide/guide_tconstruct.json"
 hash = "31f737c9123f2ca15262a15df72664deefaef46a4436aad7590ad4b3b384817e"
 
@@ -40485,7 +40473,7 @@ hash = "c8db1989b26d631bf7ed3bc9e78ec1cb5d69c6b12d9b7415156625e8d608164c"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/en_us/entries/misc/commands.json"
-hash = "09b498c541e653c083bba7858a7a69bcd54797a5c37e659f1d8f62fcba9f251d"
+hash = "33c8b90eb4ddd05e440e5811f5c76382ef53b530fe8dadfcfc0696ceb68e8395"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/en_us/entries/misc/demagnetizer.json"
@@ -40497,11 +40485,7 @@ hash = "aa2abf82ebf4c57c4a997e01bfef89a2e011594250148dbf92f0fa2cffc7d212"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/en_us/entries/misc/keybinds.json"
-hash = "8641ce5b39bcf5f65f23ee257c793dce20d70141bc7fd4d1feba456aecb08ac5"
-
-[[files]]
-file = "patchouli_books/greedycraft_guide_book/en_us/entries/misc/misc_recipes.json"
-hash = "324ff934223586f0f54815ccc2cc0841c0ebc9baec0175dbec6fa0e93ad41e47"
+hash = "c202fc4e245472a8429c8c7405f4fcd8f02ffd0810167c48c78cc5ea334aba48"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/en_us/entries/misc/music.json"
@@ -40561,15 +40545,15 @@ hash = "e4f5bee4a4b3ba09658979bb7efb25b5b610184ca0cced49c755218c27dc47af"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/en_us/entries/quick_start/food_introduction.json"
-hash = "d1777925c8c1ec1297fe54f36d4f657cefb9bcdeaaddbfd5c411f471028abaeb"
+hash = "6cc6a6bf419852fe1275c15cc800c98f8e5b1cb66fa60623ce2b5c40ef507902"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/en_us/entries/quick_start/guide_first_things_to_do.json"
-hash = "753d845fbe77c79c5f2603f83bb6cb6d1044fae6ca6e1a66fca3b184c5d33f93"
+hash = "86c922acf0480fa49e447980e3265bf22ea77d4f292e5894fb408fabca315c41"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/en_us/entries/quick_start/packmodes.json"
-hash = "f9047372b994195c191a98069766a4702e4eaa07e59d7642a7a272d0560337da"
+hash = "8c1c4b8e87967b995f8ea37f6d4ae15907290652334aa24ca9e0ea21e6d3dc72"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/en_us/entries/quick_start/pouch_of_unkonw.json"
@@ -40577,39 +40561,35 @@ hash = "1aba4b55068b09e0a52b0cdb0e064a115be3bbc53f90c521246bdee259dd1062"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/en_us/entries/quick_start/pro_tips.json"
-hash = "8cd76eecd42dd5a2670b67f5d5b281750ba0e71d934521b3dad1ffdb5f603f61"
+hash = "b0b08ef56686a1cd25830f71bfc070ce44aaf91b452f084ea3a7ba3befd8fd03"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/en_us/entries/quick_start/quests.json"
-hash = "a2eac2db228876c918c0c3bfd27218c93f53aa40cd441a62719a7c83bf6dddb0"
+hash = "f55852453860989ec36364970fd9e3105a75484407b088bafce0da259875fb39"
 
 [[files]]
-file = "patchouli_books/greedycraft_guide_book/en_us/entries/quick_start/story.json"
-hash = "6f1f2f0129ec6053a5bb4fe86381e07fd7a6a10caa70bf97cdec8f02ef0d6020"
+file = "patchouli_books/greedycraft_guide_book/en_us/entries/quick_start/skills_introduction.json"
+hash = "a22e87b37740def032a68257b22b894573a2c284d99e18a5ca402c9bb04a7906"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/en_us/entries/quick_start/teleport.json"
 hash = "abe9e1a1bd4e92e6560f1c7c419f74da6aa48182f25d2bd117893804f228e6b9"
 
 [[files]]
-file = "patchouli_books/greedycraft_guide_book/en_us/entries/skills/skills_attributes.json"
-hash = "ad1962b46db959ae26a1931e02b61110a482d0d467cd7079cf41fa0d0cbbc387"
-
-[[files]]
-file = "patchouli_books/greedycraft_guide_book/en_us/entries/skills/skills_introduction.json"
-hash = "2d56fae853909bc8d25fad05df201872d0f3cfb62b86c4e5e33c8cf8cd2ed44d"
-
-[[files]]
 file = "patchouli_books/greedycraft_guide_book/zh_cn/categories/difficulty_category.json"
-hash = "336f6210cdbd1262c8db0ca486cbae310d67c3c0fe75c74b5689a8b4c88dda9e"
+hash = "79bda52297579f66232140c8b910800f525cafc56e74d9c44d5b241ca9005fbd"
+
+[[files]]
+file = "patchouli_books/greedycraft_guide_book/zh_cn/categories/faq_category.json"
+hash = "1935f72686139518eb52c4a9b156a7fe321afceb54b5dc724000218963e4a76e"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/zh_cn/categories/guide_category.json"
-hash = "8d6725868c8d3be21ae7c54640f95c88877a82be0d58bc4cbf277872685ccafd"
+hash = "7c4f18710bb8da3869a9feea648e85c4616a580cc8f8fc37fa691844dab36cee"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/zh_cn/categories/list_category.json"
-hash = "03edab02e385b220abc4d3c93ba1dffa239f06b20372f9a8f7c61e5ad11c75a6"
+hash = "beff0a693392b822228441cf274746b9b46844c78a2e072d4d8d547cba85324a"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/zh_cn/categories/misc_category.json"
@@ -40622,10 +40602,6 @@ hash = "ca0d183afaa554e3f7943d266f790c12765742731824d3babc1a9c892bf8f700"
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/zh_cn/categories/quick_start_category.json"
 hash = "af1b5799f358c75930954410119608fac5072b443a9545167bf3367ba63f7d2a"
-
-[[files]]
-file = "patchouli_books/greedycraft_guide_book/zh_cn/categories/skill_category.json"
-hash = "580e4c5016a7ef5ec6c10fafee9eee1789f2a8e8619628645754552add86a53d"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/zh_cn/entries/difficulty/difficulty_factors.json"
@@ -40704,10 +40680,6 @@ file = "patchouli_books/greedycraft_guide_book/zh_cn/entries/guide/guide_riddle.
 hash = "56295bd6098908aebbab84885099eae6fd3b62f9d4bdc3d16e781decbcc7c521"
 
 [[files]]
-file = "patchouli_books/greedycraft_guide_book/zh_cn/entries/guide/guide_side_quests.json"
-hash = "6f518641ce371c4b76613c4112b69c319613b5d077c2b2db429ef92901b9d35f"
-
-[[files]]
 file = "patchouli_books/greedycraft_guide_book/zh_cn/entries/guide/guide_tconstruct.json"
 hash = "31f737c9123f2ca15262a15df72664deefaef46a4436aad7590ad4b3b384817e"
 
@@ -40737,7 +40709,7 @@ hash = "c8db1989b26d631bf7ed3bc9e78ec1cb5d69c6b12d9b7415156625e8d608164c"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/zh_cn/entries/misc/commands.json"
-hash = "09b498c541e653c083bba7858a7a69bcd54797a5c37e659f1d8f62fcba9f251d"
+hash = "33c8b90eb4ddd05e440e5811f5c76382ef53b530fe8dadfcfc0696ceb68e8395"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/zh_cn/entries/misc/demagnetizer.json"
@@ -40749,11 +40721,7 @@ hash = "aa2abf82ebf4c57c4a997e01bfef89a2e011594250148dbf92f0fa2cffc7d212"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/zh_cn/entries/misc/keybinds.json"
-hash = "8641ce5b39bcf5f65f23ee257c793dce20d70141bc7fd4d1feba456aecb08ac5"
-
-[[files]]
-file = "patchouli_books/greedycraft_guide_book/zh_cn/entries/misc/misc_recipes.json"
-hash = "324ff934223586f0f54815ccc2cc0841c0ebc9baec0175dbec6fa0e93ad41e47"
+hash = "c202fc4e245472a8429c8c7405f4fcd8f02ffd0810167c48c78cc5ea334aba48"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/zh_cn/entries/misc/music.json"
@@ -40813,15 +40781,15 @@ hash = "e4f5bee4a4b3ba09658979bb7efb25b5b610184ca0cced49c755218c27dc47af"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/zh_cn/entries/quick_start/food_introduction.json"
-hash = "d1777925c8c1ec1297fe54f36d4f657cefb9bcdeaaddbfd5c411f471028abaeb"
+hash = "6cc6a6bf419852fe1275c15cc800c98f8e5b1cb66fa60623ce2b5c40ef507902"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/zh_cn/entries/quick_start/guide_first_things_to_do.json"
-hash = "753d845fbe77c79c5f2603f83bb6cb6d1044fae6ca6e1a66fca3b184c5d33f93"
+hash = "86c922acf0480fa49e447980e3265bf22ea77d4f292e5894fb408fabca315c41"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/zh_cn/entries/quick_start/packmodes.json"
-hash = "f9047372b994195c191a98069766a4702e4eaa07e59d7642a7a272d0560337da"
+hash = "8c1c4b8e87967b995f8ea37f6d4ae15907290652334aa24ca9e0ea21e6d3dc72"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/zh_cn/entries/quick_start/pouch_of_unkonw.json"
@@ -40829,27 +40797,19 @@ hash = "1aba4b55068b09e0a52b0cdb0e064a115be3bbc53f90c521246bdee259dd1062"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/zh_cn/entries/quick_start/pro_tips.json"
-hash = "8cd76eecd42dd5a2670b67f5d5b281750ba0e71d934521b3dad1ffdb5f603f61"
+hash = "b0b08ef56686a1cd25830f71bfc070ce44aaf91b452f084ea3a7ba3befd8fd03"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/zh_cn/entries/quick_start/quests.json"
-hash = "a2eac2db228876c918c0c3bfd27218c93f53aa40cd441a62719a7c83bf6dddb0"
+hash = "f55852453860989ec36364970fd9e3105a75484407b088bafce0da259875fb39"
 
 [[files]]
-file = "patchouli_books/greedycraft_guide_book/zh_cn/entries/quick_start/story.json"
-hash = "6f1f2f0129ec6053a5bb4fe86381e07fd7a6a10caa70bf97cdec8f02ef0d6020"
+file = "patchouli_books/greedycraft_guide_book/zh_cn/entries/quick_start/skills_introduction.json"
+hash = "a22e87b37740def032a68257b22b894573a2c284d99e18a5ca402c9bb04a7906"
 
 [[files]]
 file = "patchouli_books/greedycraft_guide_book/zh_cn/entries/quick_start/teleport.json"
 hash = "abe9e1a1bd4e92e6560f1c7c419f74da6aa48182f25d2bd117893804f228e6b9"
-
-[[files]]
-file = "patchouli_books/greedycraft_guide_book/zh_cn/entries/skills/skills_attributes.json"
-hash = "ad1962b46db959ae26a1931e02b61110a482d0d467cd7079cf41fa0d0cbbc387"
-
-[[files]]
-file = "patchouli_books/greedycraft_guide_book/zh_cn/entries/skills/skills_introduction.json"
-hash = "2d56fae853909bc8d25fad05df201872d0f3cfb62b86c4e5e33c8cf8cd2ed44d"
 
 [[files]]
 file = "patchouli_books/the_elysia_project/book.json"
@@ -43544,10 +43504,6 @@ file = "resources/enderio/textures/items/item_capacitor_stellar.png"
 hash = "b2e38bfacff7262463ea9c9a864c0c569db34725462afc01da2dd308d6525da6"
 
 [[files]]
-file = "resources/energymeters/lang/zh_CN.lang"
-hash = "d1a8a340d7b043f11511a7872bf2f26512fddb326863cccad6569fe1e44d3845"
-
-[[files]]
 file = "resources/erebus/lang/zh_cn.lang"
 hash = "89614892f573f68c75fefad339470892471b265c1e5bace7a899bbe98da8bfcb"
 
@@ -43665,7 +43621,7 @@ hash = "0b12f2c691d495163b0b53f2ae3d9600693c1864c21457aef038c8a265e65cc2"
 
 [[files]]
 file = "resources/greedycraft/lang/zh_cn.lang"
-hash = "b05871070be083422c464a73690e98f5c12e3bdf313eaaa19879e5c79c5ac2b0"
+hash = "a7c064fc7d2dddc5aed3a7bb66dbf4c280040533f4a52da8fb46ef4e136e020a"
 
 [[files]]
 file = "resources/greedycraft/mainmenu/account.png"
@@ -49021,7 +48977,7 @@ hash = "f66ec58445ca28d706219cd7ceb37bf5d38e25867d787ac2116a317d47f929a3"
 
 [[files]]
 file = "scripts/contenttweaker/tconstruct/armor_traits.zs"
-hash = "5f5d11bfce578a35103bb0dabdb877854eafb9493f293c6ea3f839c00723570f"
+hash = "5ff6d81a7fa3611c926bcf3fa4abebea6a82986615464f2ea321a1c831fd5dc4"
 
 [[files]]
 file = "scripts/contenttweaker/tconstruct/bow_traits.zs"
@@ -49385,7 +49341,7 @@ hash = "59d26f43ff61b0d41cff565a24d1693ba5e063aea3300c22e26b9cc0141b130b"
 
 [[files]]
 file = "scripts/loot_tables/tweaks.zs"
-hash = "aad230d5eb26044322a3e3dd16d644bf2a1cca85d88905124f825a3097f20a00"
+hash = "479ed806060ecbb7f4946009f8a052bcc722645537641dac706c50e605d53522"
 
 [[files]]
 file = "scripts/loot_tables/urn.zs"
@@ -49977,7 +49933,7 @@ hash = "86f540804a48449fa70b9bfeebee0557db96eb87af138f06a9eea7d7da82db3c"
 
 [[files]]
 file = "scripts/tweaks/tooltip.zs"
-hash = "7c4b3fa41286ea576b386378c06f4bfe67145d76f1433ada8c56e77d78b54a69"
+hash = "914b4863a8de3c50aff98939787bc38ca26a4eff2b8b50eac06f5517858bd87c"
 
 [[files]]
 file = "scripts/util/date.zs"
