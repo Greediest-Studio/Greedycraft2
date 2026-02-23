@@ -400,7 +400,6 @@ GameStagesUtil.stageNether.addIngredients([
     <additions:sponsor2-chest_fragment>,
     <additions:sponsor2-chest>,
     <botanicadds:gaia_plate>,
-    <botanicadds:terra_catalyst>,
     <ore:crystalPureNetherQuartz>,
     <abyssalcraft:eoa>,
     <abyssalcraft:oc>,
