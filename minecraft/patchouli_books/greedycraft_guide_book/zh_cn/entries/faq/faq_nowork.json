@@ -1,0 +1,11 @@
+{
+    "name": "§2为什么模块化机械不工作？",
+    "icon": "minecraft:observer",
+    "category": "patchouli:faq_category",
+    "pages": [
+        {
+            "type":"text",
+            "text":"Q:$(br)$(2)为什么材料齐全，但我的模块化机械不工作？$()$(br)A:$(br)请核对JEI来检查模块化机械是否安装了足够的物品输出仓，当输出格子数量少于JEI显示的数量时，模块化机械将不会工作。"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "name": "§2能否开光影？",
+    "icon": "minecraft:observer",
+    "category": "patchouli:faq_category",
+    "pages": [
+        {
+            "type":"text",
+            "text":"Q:$(br)$(2)能否开光影？$()$(br)A:$(br)目前我们$(3)不完全$()支持光影！$()$(br)你可以尝试开启光影，但个别维度会出现黑屏问题，比如：虚域等修改了天空渲染的维度。如果你出现了崩溃问题，请首先关闭光影！"
+        }
+    ]
+}

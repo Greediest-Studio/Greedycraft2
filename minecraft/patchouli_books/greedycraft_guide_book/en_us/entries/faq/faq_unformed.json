@@ -1,0 +1,11 @@
+{
+    "name": "§2为什么模块化机械不成型？",
+    "icon": "minecraft:observer",
+    "category": "patchouli:faq_category",
+    "pages": [
+        {
+            "type":"text",
+            "text":"Q:$(br)$(2)为什么我把机械外壳替换成其他方块后模块化不成型？$()$(br)A:$(br)部分模块化机械的方块需要放置在特定的位置，比如升级总线和并行控制器。你需要查看JEI结构预览来确认他们的安装位置。"
+        }
+    ]
+}

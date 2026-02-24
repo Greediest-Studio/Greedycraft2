@@ -1,0 +1,37 @@
+{
+	title: "§b还能跨纬度传输魔力？！",
+	x: 9.5d,
+	y: 0.0d,
+	description: "合成魔力超立方体",
+	text: [
+		""
+	],
+	dependencies: [
+		"5d12810f",
+		"2cb88975"
+	],
+	tasks: [{
+		uid: "53ef029b",
+		type: "item",
+		items: [{
+			item: "botanicadds:mana_tesseract"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d9b7af6b",
+		type: "item",
+		item: "botanicadds:mana_tesseract"
+	},
+	{
+		uid: "b3225edf",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "60cdae82",
+		type: "random",
+		table: 1
+	}]
+}

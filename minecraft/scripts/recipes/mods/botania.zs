@@ -93,7 +93,9 @@ RuneAltar.addRecipe(<botaniverse:morerune> * 2, [<ore:runeWaterB>, <ore:runeAirB
 RuneAltar.addRecipe(<botaniverse:morerune:1> * 2, [<ore:runeSpringB>, <ore:runeSummerB>, <ore:runeAutumnB>, <ore:runeWinterB>, <ore:ingotLavarite>], 200000);
 RuneAltar.addRecipe(<botaniverse:morerune:2> * 3, [<ore:runeGreedB>, <ore:runePrideB>, <ore:runeWrathB>, <ore:runeEnvyB>, <ore:runeSlothB>, <ore:runeLustB>, <ore:runeGluttonyB>, <ore:ingotBnightium>], 400000);
 RuneAltar.addRecipe(<botaniverse:morerune:3> * 4, [<ore:runeMetatronB>, <ore:runeRatzielB>, <ore:runeZaphkielB>, <ore:runeZadkielB>, <ore:runeChamaelB>, <ore:runeMichaelB>, <ore:runeHanielB>, <ore:runeRaphaelB>, <ore:runeGabrielB>, <ore:runeSandalphonB>, <ore:ingotEverite>], 750000);
+RuneAltar.addRecipe(<botanicadds:mana_tesseract>, [<botania:spreader:3>, <ore:ingotGaia>, <ore:ingotGaia>, <botanicadds:rune_tp>, <botanicadds:rune_energy>, <botania:rune:8>], 10000);
 
+RuneAltar.removeRecipe(<botanicadds:mana_tesseract>);
 RuneAltar.removeRecipe(<extrabotany:material:5>);
 RuneAltar.removeRecipe(<botaniverse:morerune>);
 RuneAltar.removeRecipe(<botaniverse:morerune:1>);
