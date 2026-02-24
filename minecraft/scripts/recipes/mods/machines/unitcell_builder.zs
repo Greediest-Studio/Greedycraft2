@@ -3,7 +3,6 @@
  */
 
 #priority 50
-#ikwid
 
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
@@ -51,8 +50,17 @@ MMEvents.onControllerGUIRender("unitcell_builder", function(event as ControllerG
     event.extraInfo = info;
 });
 
-function addCFFusionRecipe(input as IIngredient, output as IItemStack, cost as int) {
-    RecipeBuilder.newBuilder("cf_" + output.definition.id + output.metadata + "_from_" + (input instanceof IItemStack ? input.items[0].definition.id : ""), "unitcell_builder", 10)
+function addCFFusionRecipe(input as IItemStack, output as IItemStack, cost as int) {
+    RecipeBuilder.newBuilder(((input.definition.id + input.metadata) as string).replaceAll(":","").replaceAll("_",""), "unitcell_builder", 10)
+        .addItemInput(input)
+        .addItemOutput(output)
+        .addEnergyPerTickInput(cost / 10)
+        .addSmartInterfaceDataInput("模式", 0)
+        .addRecipeTooltip("§a运行模式：原子再构")
+        .build();
+}
+function addCFFusionRecipeOre(input as IOreDictEntry, output as IItemStack, cost as int) {
+    RecipeBuilder.newBuilder(input.name, "unitcell_builder", 10)
         .addItemInput(input)
         .addItemOutput(output)
         .addEnergyPerTickInput(cost / 10)
@@ -121,18 +129,18 @@ $expand IMachineController$removeSize(num as double) {
     this.setSize(this.getSize() - num);
 }
 
-addCFFusionRecipe(<ore:blockRedstone>, <actuallyadditions:block_crystal>, 400);
-addCFFusionRecipe(<ore:blockLapis>, <actuallyadditions:block_crystal:1>, 400);
-addCFFusionRecipe(<ore:blockDiamond>, <actuallyadditions:block_crystal:2>, 600);
-addCFFusionRecipe(<ore:blockEmerald>, <actuallyadditions:block_crystal:4>, 1000);
-addCFFusionRecipe(<ore:blockCoal>, <actuallyadditions:block_crystal:3>, 600);
-addCFFusionRecipe(<ore:blockIron>, <actuallyadditions:block_crystal:5>, 800);
-addCFFusionRecipe(<ore:dustRedstone>, <actuallyadditions:item_crystal>, 40);
-addCFFusionRecipe(<ore:gemLapis>, <actuallyadditions:item_crystal:1>, 40);
-addCFFusionRecipe(<ore:gemDiamond>, <actuallyadditions:item_crystal:2>, 60);
-addCFFusionRecipe(<ore:gemEmerald>, <actuallyadditions:item_crystal:4>, 100);
-addCFFusionRecipe(<ore:gemCoal>, <actuallyadditions:item_crystal:3>, 60);
-addCFFusionRecipe(<ore:ingotIron>, <actuallyadditions:item_crystal:5>, 80);
+addCFFusionRecipeOre(<ore:blockRedstone>, <actuallyadditions:block_crystal>, 400);
+addCFFusionRecipeOre(<ore:blockLapis>, <actuallyadditions:block_crystal:1>, 400);
+addCFFusionRecipeOre(<ore:blockDiamond>, <actuallyadditions:block_crystal:2>, 600);
+addCFFusionRecipeOre(<ore:blockEmerald>, <actuallyadditions:block_crystal:4>, 1000);
+addCFFusionRecipeOre(<ore:blockCoal>, <actuallyadditions:block_crystal:3>, 600);
+addCFFusionRecipeOre(<ore:blockIron>, <actuallyadditions:block_crystal:5>, 800);
+addCFFusionRecipeOre(<ore:dustRedstone>, <actuallyadditions:item_crystal>, 40);
+addCFFusionRecipeOre(<ore:gemLapis>, <actuallyadditions:item_crystal:1>, 40);
+addCFFusionRecipeOre(<ore:gemDiamond>, <actuallyadditions:item_crystal:2>, 60);
+addCFFusionRecipeOre(<ore:gemEmerald>, <actuallyadditions:item_crystal:4>, 100);
+addCFFusionRecipeOre(<ore:gemCoal>, <actuallyadditions:item_crystal:3>, 60);
+addCFFusionRecipeOre(<ore:ingotIron>, <actuallyadditions:item_crystal:5>, 80);
 addCFFusionRecipe(<actuallyadditions:item_misc:18>, <actuallyadditions:item_color_lens>, 5000);
 addCFFusionRecipe(<actuallyadditions:item_color_lens>, <actuallyadditions:item_explosion_lens>, 5000);
 addCFFusionRecipe(<actuallyadditions:item_explosion_lens>, <actuallyadditions:item_damage_lens>, 5000);
@@ -140,21 +148,21 @@ addCFFusionRecipe(<actuallyadditions:item_damage_lens>, <actuallyadditions:item_
 addCFFusionRecipe(<actuallyadditions:block_laser_relay>, <actuallyadditions:block_laser_relay_fluids>, 2000);
 addCFFusionRecipe(<actuallyadditions:block_laser_relay_fluids>, <actuallyadditions:block_laser_relay_item>, 2000);
 addCFFusionRecipe(<actuallyadditions:block_laser_relay_item>, <actuallyadditions:block_laser_relay>, 2000);
-addCFFusionRecipe(<ore:sand>, <minecraft:soul_sand>, 20000);
-addCFFusionRecipe(<ore:rottenFlesh>, <minecraft:leather>, 8000);
+addCFFusionRecipeOre(<ore:sand>, <minecraft:soul_sand>, 20000);
+addCFFusionRecipeOre(<ore:rottenFlesh>, <minecraft:leather>, 8000);
 addCFFusionRecipe(<minecraft:red_mushroom>, <minecraft:nether_wart>, 150000);
-addCFFusionRecipe(<ore:gemQuartz>, <minecraft:prismarine_shard>, 30000);
-addCFFusionRecipe(<ore:seedCanola>, <actuallyadditions:item_misc:23>, 2000);
+addCFFusionRecipeOre(<ore:gemQuartz>, <minecraft:prismarine_shard>, 30000);
+addCFFusionRecipeOre(<ore:seedCanola>, <actuallyadditions:item_misc:23>, 2000);
 addCFFusionRecipe(<minecraft:quartz_block>, <actuallyadditions:block_testifi_bucks_white_wall>, 10);
 addCFFusionRecipe(<minecraft:quartz_block:1>, <actuallyadditions:block_testifi_bucks_green_wall>, 10);
-addCFFusionRecipe(<ore:gemRedstone>, <thermalfoundation:material:893>, 4000);
-addCFFusionRecipe(<ore:dustGlowstone>, <thermalfoundation:material:894>, 1500);
-addCFFusionRecipe(<ore:enderpearl>, <thermalfoundation:material:895>, 2000);
-addCFFusionRecipe(<ore:gemCertusQuartz>, <appliedenergistics2:material:1>, 1500);
-addCFFusionRecipe(<ore:gemTofu>, <tofucraft:material:25>, 2500);
-addCFFusionRecipe(<ore:nuggetPrimordial>, <thaumicwonders:primordial_grain>, 12000);
+addCFFusionRecipeOre(<ore:gemRedstone>, <thermalfoundation:material:893>, 4000);
+addCFFusionRecipeOre(<ore:dustGlowstone>, <thermalfoundation:material:894>, 1500);
+addCFFusionRecipeOre(<ore:enderpearl>, <thermalfoundation:material:895>, 2000);
+addCFFusionRecipeOre(<ore:gemCertusQuartz>, <appliedenergistics2:material:1>, 1500);
+addCFFusionRecipeOre(<ore:gemTofu>, <tofucraft:material:25>, 2500);
+addCFFusionRecipeOre(<ore:nuggetPrimordial>, <thaumicwonders:primordial_grain>, 12000);
 addCFFusionRecipe(<moretcon:oregravitoniumdense>, <moretcon:oregravitonium> * 4, 2000);
-addCFFusionRecipe(<ore:dustMagnesiumSulfateHydroxide>, <embers:blend_caminite>, 8000);
+addCFFusionRecipeOre(<ore:dustMagnesiumSulfateHydroxide>, <embers:blend_caminite>, 8000);
 addCFFusionRecipe(<additions:dubhe_orb_light>, <additions:dubhe_crystal>, 10000);
 addCFFusionRecipe(<additions:dubhe_orb_night>, <additions:dubhe_crystal>, 10000);
 
