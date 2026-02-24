@@ -938,7 +938,8 @@ addBuilderRecipe(<modularmachinery:elysia_centrifuge_factory_controller>, [
     <gct_ores:blue_print_empty> * 32,
     <ore:ingotModularium> * 64,
     <plustic:centrifuge> * 16,
-    <thermalexpansion:machine:10>.withTag({Level : 4 as byte}) * 16
+    <thermalexpansion:machine:10> * 16,
+    <thermalfoundation:upgrade:35> * 16
 ], 1, 3200);
 
 addBuilderRecipe(<modularmachinery:elysia_crusher_factory_controller>, [
@@ -946,7 +947,8 @@ addBuilderRecipe(<modularmachinery:elysia_crusher_factory_controller>, [
     <ore:ingotModularium> * 64,
     <enderio:block_sag_mill> * 8,
     <enderio:block_simple_sag_mill> * 16,
-    <thermalexpansion:machine:1>.withTag({Level : 4 as byte}) * 16
+    <thermalexpansion:machine:1> * 16,
+    <thermalfoundation:upgrade:35> * 16
 ], 1, 3200);
 
 addBuilderRecipe(<modularmachinery:elysia_electrolyzer_factory_controller>, [
@@ -959,7 +961,8 @@ addBuilderRecipe(<modularmachinery:elysia_electrolyzer_factory_controller>, [
 addBuilderRecipe(<modularmachinery:elysia_forger_factory_controller>, [
     <gct_ores:blue_print_empty> * 32,
     <ore:ingotModularium> * 64,
-    <thermalexpansion:machine:5>.withTag({Level : 4 as byte}) * 16,
+    <thermalexpansion:machine:5> * 16,
+    <thermalfoundation:upgrade:35> * 16,
     <nuclearcraft:pressurizer> * 16
 ], 1, 3200);
 
@@ -967,13 +970,15 @@ addBuilderRecipe(<modularmachinery:elysia_liquefier_factory_controller>, [
     <gct_ores:blue_print_empty> * 32,
     <ore:ingotModularium> * 64,
     <aether_legacy:freezer> * 16,
-    <thermalexpansion:machine:14>.withTag({Level : 4 as byte}) * 16
+    <thermalexpansion:machine:14> * 16,
+    <thermalfoundation:upgrade:35> * 16
 ], 1, 3200);
 
 addBuilderRecipe(<modularmachinery:elysia_melter_factory_controller>, [
     <gct_ores:blue_print_empty> * 32,
     <ore:ingotModularium> * 64,
-    <thermalexpansion:machine:6>.withTag({Level : 4 as byte}) * 16,
+    <thermalexpansion:machine:6> * 16,
+    <thermalfoundation:upgrade:35> * 16,
     <nuclearcraft:melter> * 16
 ], 1, 3200);
 
@@ -1008,7 +1013,8 @@ addBuilderRecipe(<modularmachinery:elysia_vaporizer_factory_controller>, [
 addBuilderRecipe(<modularmachinery:elysia_smelter_factory_controller>, [
     <gct_ores:blue_print_empty> * 32,
     <ore:ingotModularium> * 64,
-    <thermalexpansion:machine>.withTag({Level : 4 as byte}) * 32,
+    <thermalexpansion:machine:12> * 32,
+    <thermalfoundation:upgrade:35> * 32,
     <tconstruct:seared_furnace_controller> * 32
 ], 1, 3200);
 
