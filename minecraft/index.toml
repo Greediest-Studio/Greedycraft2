@@ -19993,12 +19993,8 @@ file = "addons/Additions/杂项/pack.mcmeta"
 hash = "b586bff02693b04a509152c0fca3d6bd49f76eeb068e178982abb6dcb9669828"
 
 [[files]]
-file = "ambience_music/ambience.properties"
-hash = "4f36b10534d77bfc0213cfc8b79f43e7551614b5e7fef0d8284d19414a0a6b6e"
-
-[[files]]
 file = "bansoukou/ModularMachinery-CE-2.3.2.jar"
-hash = "5b1096efeba91019d85b34adf7d4813a6850299390accdd3ab0b481dd7ec04a3"
+hash = "6e1ca27725c0b6965a457c3cd7d3098b792f383347159b014e415521f0652575"
 
 [[files]]
 file = "bansoukou/ThermalExpansion-1.12.2-5.5.7.1-universal.jar"
@@ -20555,14 +20551,6 @@ hash = "745ab23042d8cfdd2388a753ac759a55e7acaa778ee1672f9e3a8c9a9733ed42"
 [[files]]
 file = "config/additions.cfg"
 hash = "34f57984d6daa3113363bde24de99ea93ddadb190e2eba0038b391a8e5624870"
-
-[[files]]
-file = "config/additions/problems/problems_2026-02-04_16.05.11.txt"
-hash = "ec8d69bead8355c9187d038b16eb6d426b78f0898cf62e9a1939dfe779791564"
-
-[[files]]
-file = "config/additions/problems/problems_2026-02-04_16.20.02.txt"
-hash = "32861eb062f1b01ca0b26898ceb86c49145afe920be6bde8ffe2f5f228ae420e"
 
 [[files]]
 file = "config/adlods/Deposits/abyssalnite.cfg"
@@ -21163,30 +21151,6 @@ hash = "8999f56e14773568a91a10b07c23a30bfbc766efba4fa4eb1dbf1740c3f57a8a"
 [[files]]
 file = "config/bettermineshafts-1_12_2.cfg"
 hash = "585d4b96f28007837d117c853ab9af60ffd7c47cffb8e353d19188163534d453"
-
-[[files]]
-file = "config/bettermineshafts/1_12_2/README.txt"
-hash = "97e5e5d429818dd16cfaa32df50897a9fd56d8bdbf2147494155abda0316b62d"
-
-[[files]]
-file = "config/bettermineshafts/1_12_2/biomeTags.txt"
-hash = "30ab719da2a37f3ac6dc08aa2ba2b654f76175337a1b90587fcd9c0577161f4a"
-
-[[files]]
-file = "config/bettermineshafts/1_12_2/variants.json"
-hash = "102565ebfb645e38647307e780f6454dfa455c383fd6e255a526f91335ada677"
-
-[[files]]
-file = "config/bettermineshafts/1_12_2/variants.json.disabled"
-hash = "242197ce82885bcbb062985b97a19f9e7e52ff82e68898d8652a9ecd359d550b"
-
-[[files]]
-file = "config/bettermineshafts/1_12_2/variants.json.disabled2"
-hash = "7bd4110c6dc02bac75b6a509c51ef59a18819401a8dd36e8d6ceea1ba5d628e8"
-
-[[files]]
-file = "config/bettermineshafts/README.txt"
-hash = "5e4216e07280b8881466f5b1010f8006ff9477054b366a1f4c0b24cba0b8d030"
 
 [[files]]
 file = "config/bettermobgriefinggamerule.cfg"
@@ -29553,10 +29517,6 @@ file = "config/hookt/hookt.json"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
-file = "config/hydrogenation_tinker.cfg"
-hash = "08dbf0da1df8dc12b9ce934d9c58085d4212ad876bfbc05c460596f01ff632d5"
-
-[[files]]
 file = "config/iblis_headshots.cfg"
 hash = "62dcbf8d3eedbdc5373c71cd6306828a29157e08026fef5ef782cc9816d61b1c"
 
@@ -37588,6 +37548,11 @@ hash = "6798022617c1bb13715d44fb2f81e4f1c183b81b40139096d749685dbe8a7c9f"
 metafile = true
 
 [[files]]
+file = "mods/.index/depths-of-madness.pw.toml"
+hash = "5f003147d222f6e15cb24d8c3cc6b1d7dbc21ae9323bdcd9ed99609f40b5288a"
+metafile = true
+
+[[files]]
 file = "mods/.index/dimension-stages.pw.toml"
 hash = "a431f0861bfbfbf3309c616cdc4a7914e1025ff12537b5902d948db6fe3391ec"
 metafile = true
@@ -37875,6 +37840,11 @@ metafile = true
 [[files]]
 file = "mods/.index/hungertweaker.pw.toml"
 hash = "40525a0019de048f77412dce6dbe44400c6893c450d0c605c1f02ac81cf89b40"
+metafile = true
+
+[[files]]
+file = "mods/.index/ifpatcher.pw.toml"
+hash = "7d1efe5b1bfb6e1408dab46f0a8ed8b8195ba524e4baa046419a3da41a8e471f"
 metafile = true
 
 [[files]]
@@ -38323,6 +38293,16 @@ hash = "78c2a3d060bb60a73e797ce2c3036729a9cc471d37601149181b030ee8b7b6c9"
 metafile = true
 
 [[files]]
+file = "mods/.index/netherized-kedition.pw.toml"
+hash = "04f1d66505eb4872b7805274ba876ffb715a23d856be7fea10a652e0b5e4fe79"
+metafile = true
+
+[[files]]
+file = "mods/.index/new-crimson-revelations.pw.toml"
+hash = "6b0446077349e2ff872a9bd0b6c8b51fa7597755c55142323ddd99ac95556fc9"
+metafile = true
+
+[[files]]
 file = "mods/.index/nuclearcraft-overhauled.pw.toml"
 hash = "c66f31686d87a2a4ba595732a7733181f6456040248286af18efb9029cb10677"
 metafile = true
@@ -38410,6 +38390,11 @@ metafile = true
 [[files]]
 file = "mods/.index/packagedexcrafting.pw.toml"
 hash = "80478521b8a760e16cd5f0764de2cf9a15372def0efd4ed28c91c4ac6a0b9e8e"
+metafile = true
+
+[[files]]
+file = "mods/.index/packagedfluidcrafting.pw.toml"
+hash = "104dbffb02ae79c0b079639bce234267a29bbd18b8c5395d7fcf5820b2f1bff6"
 metafile = true
 
 [[files]]
@@ -38608,6 +38593,11 @@ hash = "9a93facc6f69c5a44dae5f0fa53014eac7888e0f9cba76c5558ffeff0fdebdbe"
 metafile = true
 
 [[files]]
+file = "mods/.index/reforbidden-magic.pw.toml"
+hash = "91daff692de6edb227560418373ce8cdb74a7dc9228a303bdaf94d569f95aa77"
+metafile = true
+
+[[files]]
 file = "mods/.index/reid.pw.toml"
 hash = "00d7446d2718ebb3f716920ea03b816e0dd3cd5ae6de9b689edbd2005a04c772"
 metafile = true
@@ -38783,6 +38773,11 @@ hash = "ac5990d26bc1c6a1ed17187db52a186775f3697f44ea6c96f0ee71a909c98162"
 metafile = true
 
 [[files]]
+file = "mods/.index/tesla-core-lib.pw.toml"
+hash = "a59ce34f44040f07fdd4cd7df09113ef13790166abe529ab5556322da7bd6363"
+metafile = true
+
+[[files]]
 file = "mods/.index/thaumcraft-integration.pw.toml"
 hash = "9e0a2c2052053d73fb71a161d903ecf868b598b2595cf9f8ff70b57ff051d79a"
 metafile = true
@@ -38815,6 +38810,11 @@ metafile = true
 [[files]]
 file = "mods/.index/thaumic-augmentation.pw.toml"
 hash = "7f3efb3e6ba215116c810f7239847a941961db13b6d0582eebc8e9f360c344ee"
+metafile = true
+
+[[files]]
+file = "mods/.index/thaumic-concilium-kedition.pw.toml"
+hash = "05b108b1e2076c73fa119586cb21889eb65d49150cee8a74af1048e4137878c7"
 metafile = true
 
 [[files]]
@@ -38898,6 +38898,16 @@ hash = "56210fbe0d097ae208332b671d0346216919d926962f1be7e0022bd8d2c6c436"
 metafile = true
 
 [[files]]
+file = "mods/.index/tinkers-antique.pw.toml"
+hash = "8f8483ffd1a52e4fe0e01c48a4e9a90c92b03174de7889ada41b8a9c6acc1377"
+metafile = true
+
+[[files]]
+file = "mods/.index/tinkers-arsenal-reloaded.pw.toml"
+hash = "62c07f68febb4d5e4e5b862f45a529e06e075ec1b6c94c0e9751e85b361e0a5a"
+metafile = true
+
+[[files]]
 file = "mods/.index/tinkers-complement.pw.toml"
 hash = "d2ea631f738d6cd7423210f2d34c4157149d358a15b763f054f53c25cfb91284"
 metafile = true
@@ -38978,6 +38988,11 @@ hash = "f6022fc35531601f4203ddc770697e781e3190cf4c54db3113a8d942f45e25f2"
 metafile = true
 
 [[files]]
+file = "mods/.index/trident-mod.pw.toml"
+hash = "130e03c00c535a8c0ca9a140364b45d760c1c037cee2ae9d2b71432c88a9f4ba"
+metafile = true
+
+[[files]]
 file = "mods/.index/trinity.pw.toml"
 hash = "ffb2ef1f15815d529a17d8aa7ec74ce8d2329e5357103bf07f7d62f4813fbe89"
 metafile = true
@@ -39010,6 +39025,11 @@ metafile = true
 [[files]]
 file = "mods/.index/universal-tweaks.pw.toml"
 hash = "bac5bb4b388e2e2102d0b2bc8fc103b524e41613b3a76a6e97fc8e91609f2257"
+metafile = true
+
+[[files]]
+file = "mods/.index/unseens-dungeon-additions.pw.toml"
+hash = "884d4a1e864aa864b6456f25a8e540e6e699a38c695307e21a68a06d97ad3832"
 metafile = true
 
 [[files]]
@@ -39128,12 +39148,8 @@ hash = "da72aafd04397428e0e2b3430308cfc8d543357a0ce87e1767fea6097720b98b"
 metafile = true
 
 [[files]]
-file = "mods/AbyssalCraft-Integration-1.0.3.jar"
+file = "mods/AbyssalCraft-Integration-1.0.3-patched.jar"
 hash = "c32efe755a1f8a6f6c27f2ff7f34024354433efbb8ee77fb02cc5da2af96b18c"
-
-[[files]]
-file = "mods/Ambience_fix-1.12.2-1.7.8-patched.jar"
-hash = "2b31df9f41b3aac9ba940213db00a31590ec4538ac153729b31f25f964b993c3"
 
 [[files]]
 file = "mods/Atlas-Lib-1.12.2-1.1.9.jar"
@@ -39156,11 +39172,11 @@ file = "mods/BiomesOPlenty-1.12.2-7.0.1.2844-universal-patched.jar"
 hash = "ed9e27f77383964b0df5fc94a5aa05e56ef5e82b88e4d00896950c4812e946f2"
 
 [[files]]
-file = "mods/Botanic Additions-12.2.8.jar"
+file = "mods/Botanic Additions-12.2.8-patched.jar"
 hash = "13ecc56365b3b99ac9f0424c9c8c56df72a306931b69f7943f9f39ffe8400024"
 
 [[files]]
-file = "mods/BubblesEX-1.6.5.jar"
+file = "mods/BubblesEX-1.6.5-patched.jar"
 hash = "9783c94178c103631cee3b4591942e3574bd9eec23e4269aaf079e15e0ac9b6d"
 
 [[files]]
@@ -39193,7 +39209,7 @@ hash = "1d63ec6630ace5febc7091c82c0ec553a690698f6d196deef909db715e0e5100"
 
 [[files]]
 file = "mods/Gct-Core-1.0.12.jar"
-hash = "77d4bf1198cdc8d8b090abff59d90a16f259e167fffe9c317316eeeb0406b5bb"
+hash = "626be845d88e57b3a4c44bce5f8f4b6fc33fa4ad950e1255c03fc08c64ac7356"
 
 [[files]]
 file = "mods/Gctweaker-1.0.1.jar"
@@ -39212,20 +39228,12 @@ file = "mods/HardCoreItemStages-1.0.9-patched.jar"
 hash = "ad1d48a544bd447df7fd0e5d12b22d593e5e5ca19b9b6bbd3fbcd6f062888c4b"
 
 [[files]]
-file = "mods/IFPatcher-2.4.0.jar"
-hash = "5359241f1b410384f6e5ff0b9c85ac5d7ed54e3b95521233e1c5b2db977d5342"
-
-[[files]]
 file = "mods/IceAndFireRotN-1.9.1-1.3.3-patched.jar"
 hash = "f910d70a9265a8756f875af16b2437d82a336ce72d5dbcd0721f85cce172f02b"
 
 [[files]]
 file = "mods/InertiaCancellation-1.0.jar"
 hash = "54c5799f16a9b583c8f112c022813ad2fc8432fdef4fb802ce214022d00599dd"
-
-[[files]]
-file = "mods/Into The Dungeons - 1.6.jar"
-hash = "22afffd4ee6ddbbfeea465c1650db5e237fb5ed02d45b79de07e9546ce2312cc"
 
 [[files]]
 file = "mods/JAOPCA-1.12.2-2.3.13.34.jar"
@@ -39256,14 +39264,6 @@ file = "mods/Nether-API-v1.4.2-mc1.12.2.jar"
 hash = "2b1cb40a5bbc2047a99a43099403d7ff0867c5218a247d2c25c18a1c34c2a4cf"
 
 [[files]]
-file = "mods/Netherized-1.12.2-0.3.7B.jar"
-hash = "79a08440900d7d727ccbf0eedbba21abf3176e70279bcdcc404aaea08ad57378"
-
-[[files]]
-file = "mods/New-Crimson-Revelations-1.12.2-1.4.6.jar"
-hash = "4901d3ea6f20ae4c30ec733b5df9f72399a3f0cb598169e6056be6d8a8a80bb3"
-
-[[files]]
 file = "mods/NoNausea-MC1.12-1.0.jar"
 hash = "e3943bba152ddcb27d5eb8d7c664e5ad0aa967d8317abc79572fa9b89f631e16"
 
@@ -39280,20 +39280,12 @@ file = "mods/OptiFine_1.12.2_HD_U_G5.jar"
 hash = "3b0006797771feb97f2d0d2908ae7c9a78cefb2e730af1c2e85d08a839ba271e"
 
 [[files]]
-file = "mods/PackagedFluidCrafting-1.12.2-1.0.0.3.jar"
-hash = "882f49fb256f948148876285e76b32196e765da4e4fb5eb2efea1500516da0a7"
-
-[[files]]
 file = "mods/QuarkRotN-r1.6-191-patched.jar"
 hash = "e079a7efc900b4eb34a1aa81ac5c59ffcdc129f4406403eb09b5ac798dba3254"
 
 [[files]]
 file = "mods/Raids-Backport-1.12.2-1.1.5.jar"
 hash = "7e03102df1acaff2b37fdec6a38540033f912bd52d3606879f363091c5387b6a"
-
-[[files]]
-file = "mods/ReForbidden Magic-1.12.2-v1.1.0.jar"
-hash = "dfa5b81569bfe720abcdf8f546eabd7ddc0d816963da633ea827a538449d6241"
 
 [[files]]
 file = "mods/Ruins-1.12.2-patched.jar"
@@ -39320,20 +39312,8 @@ file = "mods/ThaumicRestoration-1.5.0.jar"
 hash = "14b8e3690aa1dfed7a49f8aea4daa1b0a5fc335e54b66865b555eebed564aca2"
 
 [[files]]
-file = "mods/The Depths of Madness - 0.2.jar"
-hash = "26060c08f334facd402d0ab3d44c11ce199cbe6cf79a1ffd52c88664e1643a5d"
-
-[[files]]
-file = "mods/TinkersAntique-1.12.2-2.13.0.204.jar"
-hash = "d7ca6a89ece64e3397dfa7b644dd6cfc9aaf2470b0600d5a1a80cd96dbea55e5"
-
-[[files]]
 file = "mods/TinyMobFarm-1.0.5-patched.jar"
 hash = "686c336c9dd5843529e69991526828204791dfb30a264b55b8cddbdcec77fc30"
-
-[[files]]
-file = "mods/Trident-1.0.5.jar"
-hash = "a5d045e2d5ac154993f35a6178f0a7b070483aaaaa3473f1a3ab33cfd7d715ff"
 
 [[files]]
 file = "mods/[gct]Gct_aby-1.12.2.jar"
@@ -39428,11 +39408,6 @@ file = "mods/iblis_headshots-0.6.5.jar"
 hash = "3a4a42ce8f76532f583609b48e4354fee59dc693240f061e279d761cae62625b"
 
 [[files]]
-file = "mods/ifpatcher.pw.toml"
-hash = "7d1efe5b1bfb6e1408dab46f0a8ed8b8195ba524e4baa046419a3da41a8e471f"
-metafile = true
-
-[[files]]
 file = "mods/isorropia-1.12.2-kedition-2.1.1.jar"
 hash = "1d311f38ad49e61f99e93fb5334dc241954cc469de7efef9b17bed699d6b1c56"
 
@@ -39467,16 +39442,6 @@ hash = "570d388dbdf719aac1c33a043c0032dce5f7def66d4890e257d148eef6e1b7a2"
 [[files]]
 file = "mods/moretcon-V14.jar"
 hash = "375f9a89f3263b0fbb7992b8112228af9c95eb682700c06c1cf71e2e2fd22389"
-
-[[files]]
-file = "mods/netherized-kedition.pw.toml"
-hash = "04f1d66505eb4872b7805274ba876ffb715a23d856be7fea10a652e0b5e4fe79"
-metafile = true
-
-[[files]]
-file = "mods/new-crimson-revelations.pw.toml"
-hash = "6b0446077349e2ff872a9bd0b6c8b51fa7597755c55142323ddd99ac95556fc9"
-metafile = true
 
 [[files]]
 file = "mods/ocsensors-1.0.4-b23.jar"
@@ -39523,25 +39488,8 @@ file = "mods/stygian-1.0.5.jar"
 hash = "493c0f77b21da5ec803d9748a3f4965b5bc7d12396af7a70ed21af19463d21bc"
 
 [[files]]
-file = "mods/tesla-core-lib-1.12.2-1.0.18.jar"
-hash = "2e65e880be07a2cac3784490f93ddcba241160dbeb5191716f0e26b44b9d89d0"
-
-[[files]]
-file = "mods/tesla-core-lib.pw.toml"
-hash = "a59ce34f44040f07fdd4cd7df09113ef13790166abe529ab5556322da7bd6363"
-metafile = true
-
-[[files]]
 file = "mods/thaumic-energistics-extended-life-1.12.2-2.3.5-patched.jar"
 hash = "18a4c3345720d14275adf3a7ab51cdc039155eef0c05424e4e033a617d8ec195"
-
-[[files]]
-file = "mods/thaumicconcilium-1.2.0.jar"
-hash = "316de663ae73ea37295d88c8faa5005752ff753f8179b79729c6e780ab7d9b74"
-
-[[files]]
-file = "mods/tinkersarsenal-0.7.2.jar"
-hash = "c6e70edc270ca181f36acaa764729455b2855ad30393ee91bb3a198872b84ba2"
 
 [[files]]
 file = "mods/tinkersoc-0.6.jar"
@@ -39550,11 +39498,6 @@ hash = "0e1089caf9740cbe881fe69691f9baf8103725b7f4b7f443bc3af1232be4df63"
 [[files]]
 file = "mods/tiths-alpha-1.12.2-0.3.19.0.jar"
 hash = "5cb9cf345981fc053f7be1f21390e34eb4d5632b53410708d9430b152a3e1a7c"
-
-[[files]]
-file = "mods/unseens-dungeon-additions.pw.toml"
-hash = "884d4a1e864aa864b6456f25a8e540e6e699a38c695307e21a68a06d97ad3832"
-metafile = true
 
 [[files]]
 file = "options.txt"
@@ -39567,10 +39510,6 @@ hash = "a0e922107a45126b72470f98629e8078252f2d55623cf36ea766e6da915d3c5a"
 [[files]]
 file = "optionsshaders.txt"
 hash = "11e4dc3c4543dbe804a069daffc843f7c619ad2b0e3a5bb6afed2e751e302f6a"
-
-[[files]]
-file = "oresources/ambience/lang/zh_cn.lang"
-hash = "30db8fffce7a2e0c616a7f28c3b9c17a2c19b3969a93241b6d24f319529c6f75"
 
 [[files]]
 file = "oresources/armoryexpansion/lang/zh_cn.lang"
@@ -49362,7 +49301,7 @@ hash = "59d26f43ff61b0d41cff565a24d1693ba5e063aea3300c22e26b9cc0141b130b"
 
 [[files]]
 file = "scripts/loot_tables/tweaks.zs"
-hash = "479ed806060ecbb7f4946009f8a052bcc722645537641dac706c50e605d53522"
+hash = "2b4c06d96188b4c7fc47a26072a2b79a06c64cb6af8d021af6763e50b13d70b2"
 
 [[files]]
 file = "scripts/loot_tables/urn.zs"
