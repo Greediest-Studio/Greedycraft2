@@ -1006,7 +1006,13 @@ greedycraft.tconstruct.armor_trait.asteroidTrait.name=行星坠落
 greedycraft.tconstruct.armor_trait.asteroidTrait.desc=§o鲁迅：我没说过这话。\n§r跳跃时令周围目标受到等同于你护甲值的伤害并着火。
 greedycraft.tconstruct.armor_trait.additionsTrait.name=追加奖赏
 greedycraft.tconstruct.armor_trait.additionsTrait.desc=§o依旧有效！\n§r如果你是贪婪整合包I的赞助者，你的护甲将会略微加强。
+greedycraft.tconstruct.armor_trait.smoke_checkerTrait.name=烟感
+greedycraft.tconstruct.armor_trait.smoke_checkerTrait.desc=§o你猜这里面有没有放射性物质？\n§r区块的辐射水平越高，受到的伤害就越少。
 #工具词条
+greedycraft.tconstruct.tool_trait.smoke_checkerTrait.name=烟感
+greedycraft.tconstruct.tool_trait.smoke_checkerTrait.desc=§o你猜这里面有没有放射性物质？\n§r区块的辐射水平越高，攻击力就越强。
+greedycraft.tconstruct.tool_trait.backTrait.name=回溯
+greedycraft.tconstruct.tool_trait.backTrait.desc=§o后悔药！\n§r当你手持这个工具死亡后，该工具会记录你的死亡位置，潜行右键可以将你传送回去（每次死亡仅限一次）。
 greedycraft.tconstruct.tool_trait.ichorTrait.name=灵心
 greedycraft.tconstruct.tool_trait.ichorTrait.desc=§o灵宝的诅咒。\n§r此工具的挖掘等级锁定为4。
 greedycraft.tconstruct.tool_trait.additionsTrait.name=追加奖赏

@@ -285,6 +285,28 @@ if (!isNull(event.item) && !event.world.isRemote()) {
         }
     }
 
+    //Back Trait
+    if (isNull(event.item)) return;
+    if (TicTraitLib.hasTicTrait(event.item, "back") && event.hand == "MAIN_HAND") {
+        var tool as IItemStack = event.item;
+        var player as IPlayer = event.player;
+        if (!isNull(tool.tag.back) && player.isSneaking) {
+            var x as double = tool.tag.back.x as double;
+            var y as double = tool.tag.back.y as double;
+            var z as double = tool.tag.back.z as double;
+            var dimension as int = tool.tag.back.dimension as int;
+            tool.mutable().updateTag({back : {dim : 1919810}});
+            if (dimension != 1919810) {
+                server.commandManager.executeCommandSilent(server, "forge setdimension " + player.name + " " + dimension as string + " " + x as string + " " + y as string + " " + z as string);
+                player.sendChat("§e已回溯到死亡点！§r");
+            } else {
+                player.sendChat("§c没有死亡点数据！§r");
+            }
+        } else if (player.isSneaking) {
+            player.sendChat("§c没有死亡点数据！§r");
+        }
+    }
+
     //请把所有右键物品事件放在这条效果的前面！
     //Clear All the Entities
     if (isNull(event.item)) return;

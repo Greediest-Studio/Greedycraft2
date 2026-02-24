@@ -70,6 +70,10 @@ import native.thaumcraft.api.capabilities.IPlayerKnowledge;
 import native.thaumcraft.api.capabilities.ThaumcraftCapabilities;
 import native.thaumcraft.api.research.ResearchCategory;
 import native.thaumcraft.api.research.ResearchCategories;
+import native.nc.radiation.RadiationHelper;
+import native.nc.capability.radiation.source.IRadiationSource;
+
+import native.net.minecraft.util.math.BlockPos;
 
 val HachimiBinding as KeyBinding = KeyBinding.createSyncable("greedycraft.keybinding.hachimi_roar", ConflictContext.IN_GAME, Modifier.NONE, Keys.KEY_S, "greedycraft.keycategory");
 val HachimiActive as KeyBinding = KeyBinding.createSyncable("greedycraft.keybinding.hachimi_active", ConflictContext.IN_GAME, Modifier.NONE, Keys.KEY_W, "greedycraft.keycategory");
@@ -5256,3 +5260,21 @@ additionsTrait.onHurt = function(trait, armor, player, source, damage, newDamage
     return newDamage;
 };
 additionsTrait.register();
+
+val smoke_checkerTrait = ArmorTraitBuilder.create("smoke_checker");
+smoke_checkerTrait.color = Color.fromHex("ffffff").getIntColor();
+smoke_checkerTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.smoke_checkerTrait.name");
+smoke_checkerTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.smoke_checkerTrait.desc");
+smoke_checkerTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        var world as IWorld = player.world;
+        var radiationSource as IRadiationSource = RadiationHelper.getRadiationSource(world.native.getChunk(BlockPos(player.x as int, player.y as int, player.z as int)));
+        var radiation as double = radiationSource.getRadiationLevel();
+        var mtp as float = 0.07f * (Math.log10(radiation / 0.00000001d) as float);
+        var reduction as float = Math.min(Math.max(mtp as double, 0.0d) as float, 1.0f) as float;
+        return newDamage * (1.0f - reduction);
+    }
+    return newDamage;
+};
+smoke_checkerTrait.register();
+

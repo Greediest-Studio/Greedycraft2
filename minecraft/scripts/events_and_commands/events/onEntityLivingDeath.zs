@@ -85,7 +85,19 @@ events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
             */
             server.commandManager.executeCommand(server, "/summon headcrumbs:human " + (player.x + offset) + " " + (player.y + 1) + " "+ (player.z + offset) +" {Username:\"" + player.name + "\"}");
             player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.event.human.spawn"));
-        }        
+        }
+
+        // Back Trait
+        if (!isNull(player.mainHandHeldItem)) {
+            var item as IItemStack = player.mainHandHeldItem;
+            if (TicTraitLib.hasTicTrait(item, "back")) {
+                var x as double = player.x;
+                var y as double = player.y;
+                var z as double = player.z;
+                var dim as int = player.dimension;
+                item.mutable().updateTag({back : {x : x, y : y, z : z, dim : dim}});
+            }
+        }    
     }
     
     //Give Chaotic Hearts
