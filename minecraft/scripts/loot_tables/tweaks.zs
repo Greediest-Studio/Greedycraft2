@@ -53,19 +53,6 @@ mainPool.removeEntry("abyssalcraft:tin_ingot");
 mainPool.removeEntry("abyssalcraft:copper_ingot");
 dungeon.getPool("bountifulbaubles_dungeon").removeEntry("bountifulbaubles:trinketbrokenheart");
 
-if(!VersionUtil.isServerPack()) {
-    print("The modpack decided that it's currently not loading a server pack because resourceloader is found.");
-    print("Some loot table changes will not apply.");
-    LootTweaker.getTable("minecraft:chests/jungle_temple").removePool("jungleTemple");
-    LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").removePool("abandonedMineshaft");
-    LootTweaker.getTable("minecraft:chests/end_city_treasure").removePool("endCity");
-    LootTweaker.getTable("minecraft:chests/desert_pyramid").removePool("desertPyramid");
-    LootTweaker.getTable("minecraft:chests/village_blacksmith").removePool("villageBlocksmith");
-    LootTweaker.getTable("minecraft:chests/simple_dungeon").removePool("simpleDungeon");
-} else {
-    print("The modpack decided that it's currently loading a server pack because resourceloader is not found.");
-}
-
 LootTweaker.getTable("minecraft:chests/nether_bridge").getPool("bountifulbaubles_nether_bridge").removeEntry("bountifulbaubles:trinketbrokenheart");
 LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("main").removeEntry("abyssalcraft:copper_ingot");
 LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("main").removeEntry("abyssalcraft:tin_ingot");

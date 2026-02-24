@@ -24786,7 +24786,7 @@ hash = "0e963f4777070776ec16ea7a73bad3e3a610b662aa1d34c79669063d553375de"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/29136d8e/chapter.snbt"
-hash = "c0c4b74fd91383120bd021ba33cd5e795936d606aaaa629a9a06dc79722ba357"
+hash = "cc8c8316490b48e1b5b0c6609849f527898135b4938dbfa6f23b9cca13d2d648"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/2eed2dbe/chapter.snbt"
@@ -28190,7 +28190,7 @@ hash = "dfb69ef3c2d93f176564af85709ea94122284b219196b8ddb7312afed0bcbd9e"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/ae9350b7/999edaaa.snbt"
-hash = "bd719a8473f7d2886e8d5e166d6d051a972da33eb2a8047675ef25fd465f3457"
+hash = "206706c07ee4a8b34e6b08d7761e8c2775d191b0a59f1c57572ec991661f7378"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/ae9350b7/9a5208f6.snbt"
@@ -28890,7 +28890,7 @@ hash = "2b054a177ee9dbef9c1c67c093d4e84cb4404f44947a04cb397131159a398ee2"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/d96368f0/chapter.snbt"
-hash = "f63efc4ded81ebb898e4d121ededbb386a8c7714f35e01d73a360d1aa88bf7ac"
+hash = "8aa410772e08963b7ee9d3289b8333d15965c4a0d7f2acb2a9e23f444a762042"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/eec68a41/01988e6d.snbt"
@@ -29190,7 +29190,7 @@ hash = "d037b8943113928842c3ad24519cf8885b8df68b76a297f6e4f6c63f8a92eece"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/ef7cde26/chapter.snbt"
-hash = "b8af255e3a862638589b9a05ab2f6cf6f7329783cb05667800d4af627d8ccce6"
+hash = "4387b42c94c3e8e0eeae048d7089d3a6591f7a9473028cdff646da4058e5e40c"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/fc17327d/002596c6.snbt"
@@ -29242,7 +29242,7 @@ hash = "d6b9462bb3f63d97af0fb81eb7371d17a2ba079036db4ca018f35e6af8545a8a"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/fc17327d/5c93e631.snbt"
-hash = "1d0c2541fd05114804350c339e338cdcc94da83ab90ac6609c8acc6484756def"
+hash = "02258d015f554cbcc2ba44ef62c18a1f509404c89a91773109b8c325570c3544"
 
 [[files]]
 file = "config/ftbquests/normal/chapters/fc17327d/5d0a6239.snbt"
@@ -36445,10 +36445,6 @@ file = "config/thaumcraft_misc.cfg"
 hash = "da295fa932222961e867530f77f96eda1c711abad1491fac46a7a9d0b69ebe63"
 
 [[files]]
-file = "config/thaumcraft_smelter.dat"
-hash = "e9d6db2199b9d21693f14c987ae2f88eeac50f1de6604ac7f24dc29c29dbac63"
-
-[[files]]
 file = "config/thaumcraft_world.cfg"
 hash = "b9dff64c9610024e7654b3d75fb48aa3e7053000a916c91a5c1858719ab459ee"
 
@@ -39160,8 +39156,8 @@ file = "mods/BiomesOPlenty-1.12.2-7.0.1.2844-universal-patched.jar"
 hash = "ed9e27f77383964b0df5fc94a5aa05e56ef5e82b88e4d00896950c4812e946f2"
 
 [[files]]
-file = "mods/Botanic Additions-12.2.7.jar"
-hash = "84d8fee49b1ceba4d9d38ea34f00527765e9f1e2e0f9c6a0acd23ca529c06a69"
+file = "mods/Botanic Additions-12.2.8.jar"
+hash = "13ecc56365b3b99ac9f0424c9c8c56df72a306931b69f7943f9f39ffe8400024"
 
 [[files]]
 file = "mods/BubblesEX-1.6.5.jar"
@@ -48845,7 +48841,7 @@ hash = "ab6bfeaeac16b792b41d74c6ff0521c52fe0611ae81fa19f293d690ca66d72b6"
 
 [[files]]
 file = "scripts/compat/thaumcraft_aspects.zs"
-hash = "4d504cec4c5720f834d76b9b4f02af4f1e9baccee99517026f166a6ebc8137bf"
+hash = "a3f2b8c75b189e4ed2cae1dcfb8d56e1bcbf430bbdbe79831715491c9a52ae14"
 
 [[files]]
 file = "scripts/compat/tinkertoolleveling.zs"
@@ -49177,7 +49173,7 @@ hash = "2aa779c7b81ea3ed5ff84fbe048f5aed79176a511fac08236a117c06805b7a8e"
 
 [[files]]
 file = "scripts/gamestages/items.zs"
-hash = "f864df34b0d6a58db2436a3348a8513cf00a0db462d1d6adfb16987d743dbdeb"
+hash = "beee72dbd2719541aba7f03378807b0aedc6292f14bc9ad40ec890de4112528e"
 
 [[files]]
 file = "scripts/gamestages/liquid.zs"
@@ -49449,7 +49445,7 @@ hash = "5fd08c3043fb446a0ef4e4f8d1e02c942c0c033820ad94ac193b42f12d5ddc56"
 
 [[files]]
 file = "scripts/recipes/mods/botania.zs"
-hash = "3c84299d123ff1b98a6da55cec225ef60888cb8f12d4ecdd2629d8f231cbc935"
+hash = "55a8529c572716c5d5affe47b4de4766b75e75c467ab68c220d8a1aa3e4ac2e6"
 
 [[files]]
 file = "scripts/recipes/mods/chisel.zs"
@@ -49873,11 +49869,11 @@ hash = "fa052947b01f94c65a0fbb9bfc5245ddf14e3a87e1294473442f7f29a2c9dd9d"
 
 [[files]]
 file = "scripts/recipes/vanilla/crafting_table/remove.zs"
-hash = "bcd519bd0ed5e1977ae13da0a8b9be43c3b0cea89609ae06825ecdbbc9cb5093"
+hash = "52d00caa9f9cddd081709a651f0c3ef756c0aa889f189390a6e0da8acf182ce5"
 
 [[files]]
 file = "scripts/recipes/vanilla/crafting_table/shaped.zs"
-hash = "80270a5a2acb37c937ef97e04c4a6b2d360912c3185f47aa474019448082bb18"
+hash = "7ce5dada69a0f2a2c14cef08aa88656a8f4d35f0a95b79feadd071c3b3baa8f4"
 
 [[files]]
 file = "scripts/recipes/vanilla/crafting_table/shaped2.zs"

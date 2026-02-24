@@ -1327,8 +1327,6 @@ GameStagesUtil.stageInfinity.addIngredients([
     <ore:blockCompressedInfinity>,
     <ore:blockDoubleCompressedInfinity>,
     <extrabotany:managenerator>,
-    <ambience:horn>,
-    <ambience:ocarina>,
     <additions:creative_soul>,
     <additions:difficulty_changer>,
     <additions:creative_controller>,

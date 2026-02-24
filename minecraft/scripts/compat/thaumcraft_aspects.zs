@@ -56,8 +56,6 @@ var aspectMap as CTAspectStack[][IIngredient] = {
     <tconevo:metal:10> : [<aspect:draco> * 200, <aspect:caeles> * 100, <aspect:perditio> * 100],
     <minecraft:noteblock> : [<aspect:sonus> * 30],
     <minecraft:jukebox> : [<aspect:sonus> * 40],
-    <ambience:speaker> : [<aspect:sonus> * 40],
-    <ambience:soundnizer> : [<aspect:sonus> * 30],
     <additions:cryonium_ingot> : [<aspect:gelum> * 100],
     <additions:infernium_ingot> : [<aspect:ignis> * 100, <aspect:sol> * 50],
     <additions:shadowium_ingot> : [<aspect:tenebrae> * 50, <aspect:vacuos> * 20],

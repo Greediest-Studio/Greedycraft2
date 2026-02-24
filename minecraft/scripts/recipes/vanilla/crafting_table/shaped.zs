@@ -713,16 +713,6 @@ RecipeUtil.addShaped("auto_gen_1077378325", <minecraft:vine>, [
     [<ore:plantFibre>, <ore:plantFibre>, <ore:plantFibre>],
     [<ore:plantFibre>, null, <ore:plantFibre>]
 ]);
-RecipeUtil.addShaped("auto_gen_-1896387144", <ambience:ocarina>, [
-    [null, <minecraft:light_blue_glazed_terracotta>, null],
-    [<minecraft:light_blue_glazed_terracotta>, <ore:soulCreative>, <minecraft:light_blue_glazed_terracotta>],
-    [null, <minecraft:light_blue_glazed_terracotta>, null]
-]);
-RecipeUtil.addShaped("auto_gen_-1617883388", <ambience:horn>, [
-    [null, <ore:soulCreative>, null],
-    [<ore:soulCreative>, <twilightforest:crumble_horn>, <ore:soulCreative>],
-    [null, <ore:soulCreative>, null]
-]);
 RecipeUtil.addShaped("auto_gen_1397188541", <hooked:hook>, [
     [<ore:stickWood>, <ore:stickWood>, <minecraft:stone_pickaxe>],
     [null, <ore:string>, <ore:stickWood>],
@@ -752,11 +742,6 @@ RecipeUtil.addShaped("auto_gen_-1848316431", <cyclicmagic:slingshot_weapon>, [
     [<ore:stickWood>, <ore:string>, <ore:stickWood>],
     [null, <ore:stickWood>, null],
     [null, <ore:stickWood>, null]
-]);
-RecipeUtil.addShaped("auto_gen_1438924738", <ambience:soundnizer>, [
-    [<ore:itemCoal>, <ore:itemCoal>, <ore:itemCoal>],
-    [<ore:itemCoal>, null, <ore:itemCoal>],
-    [<ore:itemCoal>, null, null]
 ]);
 RecipeUtil.addShaped("auto_gen_-14951606", <zensummoning:altar>, [
     [<ore:pearlEnderEye>, <tconevo:material>, <ore:pearlEnderEye>],
