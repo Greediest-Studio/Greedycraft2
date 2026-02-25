@@ -3,22 +3,6 @@
 	icon: {
 		id: "tcomplement:chisel",
 		tag: {
-			Special: {
-				Categories: [
-					"chisel",
-					"tool",
-					"aoe",
-					"weapon"
-				]
-			},
-			Stats: {
-				FreeModifiers: 5,
-				MiningSpeed: 666.0f,
-				AttackSpeedMultiplier: 1.0f,
-				HarvestLevel: 127,
-				Attack: 32767.0f,
-				Durability: 180886
-			},
 			TinkerData: {
 				Materials: [
 					"infinity_metal",
@@ -26,6 +10,22 @@
 				],
 				Modifiers: [
 					"toolleveling"
+				]
+			},
+			Stats: {
+				MiningSpeed: 666.0f,
+				FreeModifiers: 5,
+				AttackSpeedMultiplier: 1.0f,
+				HarvestLevel: 127,
+				Attack: 32767.0f,
+				Durability: 180886
+			},
+			Special: {
+				Categories: [
+					"chisel",
+					"tool",
+					"aoe",
+					"weapon"
 				]
 			},
 			Modifiers: [{
@@ -44,8 +44,8 @@
 				level: 1
 			}],
 			StatsOriginal: {
-				MiningSpeed: 666.0f,
 				FreeModifiers: 3,
+				MiningSpeed: 666.0f,
 				AttackSpeedMultiplier: 1.0f,
 				HarvestLevel: 127,
 				Attack: 32767.0f,

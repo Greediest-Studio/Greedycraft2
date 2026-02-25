@@ -308,6 +308,25 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
         }
     }
 
+    //Tconstruct Pioneer Trait
+    if (!event.world.remote && event.hand == "MAIN_HAND") {
+        if (!isNull(player.mainHandHeldItem)) {
+            if (TicTraitLib.hasTicTrait(player.mainHandHeldItem, "pioneer")) {
+                var tool as IItemStack = player.mainHandHeldItem;
+                if (!isNull(tool.tag.pioneer)) {
+                    var killCount as int = tool.tag.pioneer as int;
+                    if (killCount >= 3) {
+                        var pos as IBlockPos = event.position;
+                        var x as int = pos.x;
+                        var z as int = pos.z;
+                        tool.mutable().updateTag({pioneerPos : {x : x as int, z : z as int}, pioneer : 0 as int});
+                        player.sendChat("§e[先驱]§a已绑定位于X=" + x + ",Z=" + z + "的方块§r");
+                    }
+                }
+            }
+        }
+    }
+
     var casterList as string[] = [
         "thaumcraft:caster_basic",
         "thaumicaugmentation:gauntlet"

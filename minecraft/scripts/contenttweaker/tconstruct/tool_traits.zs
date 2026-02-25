@@ -6008,3 +6008,42 @@ smoke_checkerTrait.calcDamage = function(trait, tool, attacker, target, original
     return newDamage;
 };
 smoke_checkerTrait.register();
+
+val pioneerTrait = ToolTraitBuilder.create("pioneer");
+pioneerTrait.color = Color.fromHex("ffffff").getIntColor(); 
+pioneerTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.pioneerTrait.name");
+pioneerTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.pioneerTrait.desc");
+pioneerTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
+    if (attacker instanceof IPlayer && wasHit && target instanceof IEntityLiving) {
+        var player as IPlayer = attacker;
+        if (target.health <= 0.0f) {
+            var killCount as int = isNull(tool.tag.pioneer) ? 0 : tool.tag.pioneer.asInt();
+            tool.mutable().updateTag({pioneer : killCount + 1 as int});
+            if (killCount + 1 >= 3) player.sendChat("§e[先驱]§a绑定方块条件已达成！§r");
+        }
+    }
+};
+pioneerTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var player as IPlayer = attacker;
+        if (!isNull(tool.tag.pioneerPos)) {
+            var x as double = tool.tag.pioneerPos.x as int as double;
+            var z as double = tool.tag.pioneerPos.z as int as double;
+            var playerX as double = player.x;
+            var playerZ as double = player.z;
+            var distance as double = distance2DCot(playerX, playerZ, x, z);
+            distance = Math.max(Math.min(distance, 20.0d), 1.0d);
+            var distanceFl as float = distance as float;
+            var mtp as float = 0.00424f * pow(distanceFl as double, 2.0d) as float - 0.146f * distanceFl + 2.14176f;
+            return newDamage * mtp;
+        }
+    }
+    return newDamage;
+};
+pioneerTrait.register();
+
+/*val fault_tolerantTrait = ToolTraitBuilder.create("fault_tolerant");
+fault_tolerantTrait.color = Color.fromHex("ffffff").getIntColor(); 
+fault_tolerantTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.fault_tolerantTrait.name");
+fault_tolerantTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.fault_tolerantTrait.desc");
+fault_tolerantTrait*/
