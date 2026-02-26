@@ -1,0 +1,94 @@
+{
+  "name": "americium",
+  "tool": {
+    "head": {
+      "attackDamage": 169,
+      "speed": 18.0,
+      "durability": 6850,
+      "harvestLevel": 13
+    },
+    "handle": {
+      "modifier": 2.2,
+      "durability": 1890
+    },
+    "extra": {
+      "durability": 2120
+    },
+    "bow": {
+      "speed": 0.345,
+      "range": 3.2,
+      "bonusDamage": 124
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 623.0,
+      "defense": 183.0
+    },
+    "plates": {
+      "modifier": 4.1,
+      "durability": 488.0,
+      "toughness": 13.0
+    },
+    "trim": {
+      "extraDurability": 440.0
+    }
+  },
+  "color": "#767676",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Americium",
+    "zh_cn": "镅"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:americium_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["back","active_source4"],
+    "HANDLE": ["smoke_checker","active_source4"],
+    "EXTRA": ["smoke_checker","active_source4"],
+    "BOW": ["back","active_source4"],
+    "CORE": ["smoke_checker_armor","active_source4_armor"],
+    "PLATES": ["smoke_checker_armor","active_source4_armor"],
+    "TRIM": ["smoke_checker_armor","active_source4_armor"]
+  }
+}

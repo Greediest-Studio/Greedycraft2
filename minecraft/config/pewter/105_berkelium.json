@@ -1,0 +1,94 @@
+{
+  "name": "berkelium",
+  "tool": {
+    "head": {
+      "attackDamage": 192,
+      "speed": 24.0,
+      "durability": 5650,
+      "harvestLevel": 13
+    },
+    "handle": {
+      "modifier": 1.6,
+      "durability": 1215
+    },
+    "extra": {
+      "durability": 1605
+    },
+    "bow": {
+      "speed": 0.2778,
+      "range": 3.9,
+      "bonusDamage": 137
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 528.0,
+      "defense": 197.0
+    },
+    "plates": {
+      "modifier": 4.6,
+      "durability": 436.0,
+      "toughness": 15.5
+    },
+    "trim": {
+      "extraDurability": 400.0
+    }
+  },
+  "color": "#595079",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Berkelium",
+    "zh_cn": "锫"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:berkelium_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["energy_overstock","active_source4"],
+    "HANDLE": ["sweep","active_source4"],
+    "EXTRA": ["sweep","active_source4"],
+    "BOW": ["energy_overstock","active_source4"],
+    "CORE": ["comfort_armor","active_source4_armor"],
+    "PLATES": ["comfort_armor","active_source4_armor"],
+    "TRIM": ["comfort_armor","active_source4_armor"]
+  }
+}

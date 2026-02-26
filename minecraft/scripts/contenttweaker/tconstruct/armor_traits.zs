@@ -75,6 +75,10 @@ import native.nc.capability.radiation.source.IRadiationSource;
 
 import native.net.minecraft.util.math.BlockPos;
 
+import native.java.math.BigDecimal;
+import native.java.math.MathContext;
+import native.java.math.RoundingMode;
+
 val HachimiBinding as KeyBinding = KeyBinding.createSyncable("greedycraft.keybinding.hachimi_roar", ConflictContext.IN_GAME, Modifier.NONE, Keys.KEY_S, "greedycraft.keycategory");
 val HachimiActive as KeyBinding = KeyBinding.createSyncable("greedycraft.keybinding.hachimi_active", ConflictContext.IN_GAME, Modifier.NONE, Keys.KEY_W, "greedycraft.keycategory");
 val phaseRushActive as KeyBinding = KeyBinding.createSyncable("greedycraft.keybinding.phaserush_active", ConflictContext.IN_GAME, Modifier.NONE, Keys.KEY_X, "greedycraft.keycategory");
@@ -5278,3 +5282,63 @@ smoke_checkerTrait.onHurt = function(trait, armor, player, source, damage, newDa
 };
 smoke_checkerTrait.register();
 
+function roundUpToSignificant(value as float) as float {
+    if (value == 0.0f) return 0.0f;
+    var bd as BigDecimal = BigDecimal(value as string);
+    bd = bd.round(MathContext(2, RoundingMode.FLOOR));
+    return bd.floatValue();
+}
+
+val fault_tolerantTrait = ArmorTraitBuilder.create("fault_tolerant");
+fault_tolerantTrait.color = Color.fromHex("ffffff").getIntColor();
+fault_tolerantTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.fault_tolerantTrait.name");
+fault_tolerantTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.fault_tolerantTrait.desc");
+fault_tolerantTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        return roundUpToSignificant(newDamage);
+    }
+    return newDamage;
+};
+fault_tolerantTrait.register();
+
+val lagTrait = ArmorTraitBuilder.create("lag");
+lagTrait.color = Color.fromHex("ffffff").getIntColor();
+lagTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.lagTrait.name");
+lagTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.lagTrait.desc");
+lagTrait.onDamaged = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player)) {
+        var currentStored as float = 0.0f;
+        if (!isNull(armor.tag.lag) && !isNull(armor.tag.lag.stored)) {
+            currentStored = armor.tag.lag.stored as float;
+        }
+        var refundedDamage as float = 0.0f;
+        var newStored as float = 0.0f;
+        if (!isNull(armor.tag.lag) && !isNull(armor.tag.lag.stored)) {
+            refundedDamage = (currentStored * 0.5f + damage * 0.6f) as float;
+            newStored = (currentStored + damage * 0.4f - currentStored * 0.5f) as float;
+        } else {
+            refundedDamage = (damage * 0.6f) as float;
+            newStored = (damage * 0.4f) as float;
+        }
+        if (newStored < 0.0f) {
+            newStored = 0.0f;
+        }
+        armor.mutable().updateTag({lag : {stored : newStored as float}});
+        return (newDamage - refundedDamage) as float;
+    }
+    return newDamage;
+};
+lagTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        var currentStored as float = 0.0f;
+        if (!isNull(armor.tag.lag) && !isNull(armor.tag.lag.stored)) {
+            currentStored = armor.tag.lag.stored as float;
+        }
+        if (currentStored > 0.0f) {
+            var nextStored as float = (currentStored - 5.0f) as float;
+            if (nextStored < 0.0f) nextStored = 0.0f;
+            armor.mutable().updateTag({lag : {stored : nextStored as float}});
+        }
+    }
+};
+lagTrait.register();

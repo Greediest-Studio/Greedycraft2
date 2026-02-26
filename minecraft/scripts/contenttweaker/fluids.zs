@@ -2169,6 +2169,54 @@ molten_neptunium.stillLocation = "base:fluids/molten";
 molten_neptunium.flowingLocation = "base:fluids/molten_flowing";
 molten_neptunium.register();
 
+val molten_americium = mods.contenttweaker.VanillaFactory.createFluid("americium", Color.fromHex("a9a9a9").getIntColor());
+molten_americium.material = <blockmaterial:lava>;
+molten_americium.viscosity = 3000;
+molten_americium.density = 6500;
+molten_americium.colorize = true;
+molten_americium.temperature = 1000;
+molten_americium.luminosity = 10;
+molten_americium.color = Color.fromHex("a9a9a9").getIntColor();
+molten_americium.stillLocation = "base:fluids/molten";
+molten_americium.flowingLocation = "base:fluids/molten_flowing";
+molten_americium.register();
+
+val molten_curium = mods.contenttweaker.VanillaFactory.createFluid("curium", Color.fromHex("6d4a45").getIntColor());
+molten_curium.material = <blockmaterial:lava>;
+molten_curium.viscosity = 3000;
+molten_curium.density = 6500;
+molten_curium.colorize = true;
+molten_curium.temperature = 1000;
+molten_curium.luminosity = 10;
+molten_curium.color = Color.fromHex("6d4a45").getIntColor();
+molten_curium.stillLocation = "base:fluids/molten";
+molten_curium.flowingLocation = "base:fluids/molten_flowing";
+molten_curium.register();
+
+val molten_berkelium = mods.contenttweaker.VanillaFactory.createFluid("berkelium", Color.fromHex("595079").getIntColor());
+molten_berkelium.material = <blockmaterial:lava>;
+molten_berkelium.viscosity = 3000;
+molten_berkelium.density = 6500;
+molten_berkelium.colorize = true;
+molten_berkelium.temperature = 1000;
+molten_berkelium.luminosity = 10;
+molten_berkelium.color = Color.fromHex("595079").getIntColor();
+molten_berkelium.stillLocation = "base:fluids/molten";
+molten_berkelium.flowingLocation = "base:fluids/molten_flowing";
+molten_berkelium.register();
+
+val molten_californium = mods.contenttweaker.VanillaFactory.createFluid("californium", Color.fromHex("955010").getIntColor());
+molten_californium.material = <blockmaterial:lava>;
+molten_californium.viscosity = 3000;
+molten_californium.density = 6500;
+molten_californium.colorize = true;
+molten_californium.temperature = 1000;
+molten_californium.luminosity = 10;
+molten_californium.color = Color.fromHex("955010").getIntColor();
+molten_californium.stillLocation = "base:fluids/molten";
+molten_californium.flowingLocation = "base:fluids/molten_flowing";
+molten_californium.register();
+
 val molten_endusium = mods.contenttweaker.VanillaFactory.createFluid("endusium", Color.fromHex("6b7030").getIntColor());
 molten_endusium.material = <blockmaterial:lava>;
 molten_endusium.viscosity = 3000;

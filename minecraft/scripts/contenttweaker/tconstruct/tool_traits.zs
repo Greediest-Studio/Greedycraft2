@@ -82,6 +82,10 @@ import native.net.minecraft.server.MinecraftServer;
 import native.net.minecraft.util.math.BlockPos;
 import native.net.minecraftforge.fml.common.FMLCommonHandler;
 
+import native.java.math.BigDecimal;
+import native.java.math.MathContext;
+import native.java.math.RoundingMode;
+
 $expand IItemStack$hasTicTrait(traitid as string) as bool {
     return CotTicTraitLib.hasTicTrait(this, traitid);
 }
@@ -6042,8 +6046,71 @@ pioneerTrait.calcDamage = function(trait, tool, attacker, target, originalDamage
 };
 pioneerTrait.register();
 
-/*val fault_tolerantTrait = ToolTraitBuilder.create("fault_tolerant");
+function roundUpToSignificant(value as float) as float {
+    if (value == 0.0f) return 0.0f;
+    var bd as BigDecimal = BigDecimal(value as string);
+    bd = bd.round(MathContext(2, RoundingMode.CEILING));
+    return bd.floatValue();
+}
+
+val fault_tolerantTrait = ToolTraitBuilder.create("fault_tolerant");
 fault_tolerantTrait.color = Color.fromHex("ffffff").getIntColor(); 
 fault_tolerantTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.fault_tolerantTrait.name");
 fault_tolerantTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.fault_tolerantTrait.desc");
-fault_tolerantTrait*/
+fault_tolerantTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        return roundUpToSignificant(newDamage);
+    }
+    return newDamage;
+};
+fault_tolerantTrait.register();
+
+val energy_overstockTrait = ToolTraitBuilder.create("energy_overstock");
+energy_overstockTrait.color = Color.fromHex("ffffff").getIntColor();
+energy_overstockTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.energy_overstockTrait.name");
+energy_overstockTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.energy_overstockTrait.desc");
+energy_overstockTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
+    if (owner instanceof IPlayer) {
+        var overstockStorage as int = isNull(tool.tag.overstock) ? 0 : tool.tag.overstock.asInt();
+        tool.mutable().updateTag({overstock : Math.min(overstockStorage + 1, 10000) as int});
+    }
+};
+energy_overstockTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer) {
+        var overstockStorage as int = isNull(tool.tag.overstock) ? 0 : tool.tag.overstock.asInt();
+        if (overstockStorage >= 150) {
+            tool.mutable().updateTag({overstock : overstockStorage - 150 as int});
+            return newDamage * 1.5f;
+        }
+    }
+    return newDamage;
+};
+energy_overstockTrait.register();
+
+val venge_attractionTrait = ToolTraitBuilder.create("venge_attraction");
+venge_attractionTrait.color = Color.fromHex("ffffff").getIntColor();
+venge_attractionTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.venge_attractionTrait.name");
+venge_attractionTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.venge_attractionTrait.desc");
+venge_attractionTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (attacker instanceof IPlayer && target instanceof IEntityLiving) {
+        var player as IPlayer = attacker;
+        var entity as IEntityLiving = target;
+        if (!isNull(entity.revengeTarget)) {
+            var revengeTarget as IEntityLivingBase = entity.revengeTarget;
+            var pass as bool = false;
+            if (!(revengeTarget instanceof IPlayer)) {
+                pass = true;
+            } else {
+                var revengePlayer as IPlayer = revengeTarget;
+                if (revengePlayer.uuid != player.uuid) {
+                    pass = true;
+                }
+            }
+            if (pass) {
+                return newDamage * 2.0f;
+            }
+        }
+    }
+    return newDamage;
+};
+venge_attractionTrait.register();

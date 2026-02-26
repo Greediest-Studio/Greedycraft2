@@ -1,0 +1,94 @@
+{
+  "name": "curium",
+  "tool": {
+    "head": {
+      "attackDamage": 177,
+      "speed": 21.0,
+      "durability": 4300,
+      "harvestLevel": 13
+    },
+    "handle": {
+      "modifier": 1.8,
+      "durability": 935
+    },
+    "extra": {
+      "durability": 1120
+    },
+    "bow": {
+      "speed": 0.3125,
+      "range": 3.4,
+      "bonusDamage": 131
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 416.0,
+      "defense": 191.0
+    },
+    "plates": {
+      "modifier": 4.3,
+      "durability": 302.0,
+      "toughness": 14.0
+    },
+    "trim": {
+      "extraDurability": 278.0
+    }
+  },
+  "color": "#6d4a45",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Curium",
+    "zh_cn": "锔"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:curium_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["pioneer","active_source3"],
+    "HANDLE": ["fault_tolerant","active_source3"],
+    "EXTRA": ["fault_tolerant","active_source3"],
+    "BOW": ["back","active_source3"],
+    "CORE": ["fault_tolerant_armor","active_source3_armor"],
+    "PLATES": ["fault_tolerant_armor","active_source3_armor"],
+    "TRIM": ["fault_tolerant_armor","active_source3_armor"]
+  }
+}
