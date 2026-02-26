@@ -1,0 +1,13 @@
+name = 'Pale Bloom'
+filename = 'palebloom-1.0.0.jar'
+side = 'both'
+
+[download]
+hash-format = 'sha1'
+hash = '3d55549dd3547073ce4c7be234105ac73069dcee'
+mode = 'metadata:curseforge'
+
+[update]
+[update.curseforge]
+file-id = 7169494
+project-id = 1375465

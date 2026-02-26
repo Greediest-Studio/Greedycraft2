@@ -1,0 +1,13 @@
+name = 'Lightning Rod Backport'
+filename = 'lrbp-0.1.jar'
+side = 'server'
+
+[download]
+hash-format = 'sha1'
+hash = 'cf1dc92a8402527c3d0d885bf13e0fbb7554d668'
+mode = 'metadata:curseforge'
+
+[update]
+[update.curseforge]
+file-id = 7163188
+project-id = 1374669

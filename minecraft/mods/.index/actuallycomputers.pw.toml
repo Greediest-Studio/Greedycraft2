@@ -1,0 +1,13 @@
+name = 'ActuallyComputers'
+filename = 'actuallycomputers-2.2.0.jar'
+side = 'server'
+
+[download]
+hash-format = 'sha1'
+hash = '3629f6c8684b7e8ef3b78bfe37d6b259b9739701'
+mode = 'metadata:curseforge'
+
+[update]
+[update.curseforge]
+file-id = 3083325
+project-id = 253005
