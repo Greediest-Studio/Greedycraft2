@@ -97,23 +97,160 @@
 		}
 	},
 	{
-		uid: "5d528324",
+		uid: "4064a6c4",
 		type: "item",
-		item: "minecraft:leather_helmet"
-	},
-	{
-		uid: "02fb4b3b",
-		type: "item",
-		item: "minecraft:leather_chestplate"
-	},
-	{
-		uid: "5cb4c5f1",
-		type: "item",
-		item: "minecraft:leather_leggings"
-	},
-	{
-		uid: "0a8cf6d3",
-		type: "item",
-		item: "minecraft:leather_boots"
+		item: {
+			id: "retro_sophisticated_backpacks:backpack_leather",
+			ForgeCaps: {
+				Parent: {
+					MemoryRespectNBT: [B;
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b
+					],
+					LockedSlots: [B;
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b
+					],
+					UUIDMost: -7148773437481662599L,
+					UpgradeSlotsSize: 1,
+					MemoryItems: {
+						Items: []
+					},
+					UUIDLeast: -8255804355819049088L,
+					BackpackInventory: {
+						Items: []
+					},
+					UpgradeSlots: {
+						Items: []
+					},
+					BackpackInventorySize: 27,
+					SortType: 0b
+				},
+				"retro_sophisticated_backpacks:backpack_capability": {
+					MemoryRespectNBT: [B;
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b
+					],
+					LockedSlots: [B;
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b,
+						0b
+					],
+					UUIDMost: 5187514244019996649L,
+					UpgradeSlotsSize: 1,
+					MemoryItems: {
+						Items: []
+					},
+					UUIDLeast: -5625861515401414554L,
+					BackpackInventory: {
+						Items: []
+					},
+					UpgradeSlots: {
+						Items: []
+					},
+					BackpackInventorySize: 27,
+					SortType: 0b
+				}
+			}
+		}
 	}]
 }
