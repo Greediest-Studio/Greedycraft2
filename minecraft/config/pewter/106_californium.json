@@ -1,0 +1,94 @@
+{
+  "name": "californium",
+  "tool": {
+    "head": {
+      "attackDamage": 252,
+      "speed": 45.0,
+      "durability": 7285,
+      "harvestLevel": 14
+    },
+    "handle": {
+      "modifier": 1.6,
+      "durability": 1680
+    },
+    "extra": {
+      "durability": 1910
+    },
+    "bow": {
+      "speed": 0.263,
+      "range": 4.2,
+      "bonusDamage": 215
+    }
+  },
+  "armor": {
+    "core": {
+      "durability": 700.0,
+      "defense": 235.0
+    },
+    "plates": {
+      "modifier": 5.0,
+      "durability": 515.0,
+      "toughness": 19.0
+    },
+    "trim": {
+      "extraDurability": 485.0
+    }
+  },
+  "color": "#955010",
+  "craftable": false,
+  "madeInToolForge": true,
+  "createMeltingRecipes": true,
+  "meltingTemperature": 1000,
+  "looks": {
+    "shininess": 0.25,
+    "brightness": 0.25,
+    "hueshift": -0.1
+  },
+  "fluid": {
+    "viscosity": 8000,
+    "density": 1500,
+    "temperature": 1000,
+    "luminosity": 8
+  },
+  "oreDictSuffixes": [],
+  "matParts": [
+    "HEAD",
+    "HANDLE",
+    "EXTRA",
+    "BOW",
+    "CORE",
+    "PLATES",
+    "TRIM"
+  ],
+  "nameLocales": {
+    "en_us": "Californium",
+    "zh_cn": "锎"
+  },
+  "smeltingItems": {
+    "ingot": ["additions:californium_ingot"],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "smeltingTags": {
+    "ingot": [],
+    "block": [],
+    "nugget": [],
+    "ore": [],
+    "dust": [],
+    "plate": [],
+    "gear": []
+  },
+  "specificTraits": {
+    "HEAD": ["soul_eater_refined4","active_source4"],
+    "HANDLE": ["venge_attraction","active_source4"],
+    "EXTRA": ["venge_attraction","active_source4"],
+    "BOW": ["soul_eater_refined4","active_source4"],
+    "CORE": ["lag_armor","active_source4_armor"],
+    "PLATES": ["lag_armor","active_source4_armor"],
+    "TRIM": ["lag_armor","active_source4_armor"]
+  }
+}
