@@ -50,7 +50,6 @@ MachineModifier.setMaxThreads("chaos_reactor", 0 as int);
 MachineModifier.addCoreThread("chaos_reactor", ReactThead);
 MachineModifier.addCoreThread("chaos_reactor", FuelThead);
 MachineModifier.addCoreThread("chaos_reactor", Coolingdown);
-MachineModifier.addCoreThread("chaos_reactor", CraftingThead);
 MachineModifier.addCoreThread("chaos_reactor", SpeedThead);
 MachineModifier.setMaxParallelism("chaos_reactor",1);
 
@@ -108,31 +107,38 @@ function react(event as FactoryRecipeTickEvent) {
     ctrl.customData = data;
 }
 
-//检查&同步
-function check(event as FactoryRecipeStartEvent) {
+//检查速度&冷却剂
+function speedcheck(event as FactoryRecipeStartEvent) {
     val ctrl = event.controller;
     var data = ctrl.customData;
     var map = data.asMap();
     var speedget = ctrl.getSmartInterfaceData("speed");
     var speed = isNull(speedget) ? 1 as float : speedget.value;
-    var fuel = isNull(map["fuel"]) ? 0.0f : map["fuel"].asFloat();
     if (speed < 0.0001f || speed > 100000000.0f) {
         speedget.value = 1 as float;
     }
+    map["speed"] = speed;
+    ctrl.customData = data;
+}
+
+function coolingcheck(event as FactoryRecipeTickEvent) {
+    val ctrl = event.controller;
+    var data = ctrl.customData;
+    var map = data.asMap();
+    var fuel = isNull(map["fuel"]) ? 0.0f : map["fuel"].asFloat();
     var cooling as float = isNull(map["cool"]) ? 0.0f : map["cool"].asFloat();
     if (cooling <= 0.0f) {
         map["fuel"] = 0.0f;
+        ctrl.customData = data;
     }
-    map["speed"] = speed;
-    ctrl.customData = data;
-} 
+}
 
 //添加
 function addfuel(event as FactoryRecipeFinishEvent,amount as float) {
     val ctrl = event.controller;
     var data = ctrl.customData;
     var map = data.asMap();
-    val fuel = map["fuel"].asFloat();
+    val fuel = isNull(map["fuel"]) ? 0.0f : map["fuel"].asFloat();
     map["fuel"] = fuel + amount;
     ctrl.customData = data;
 }
@@ -173,7 +179,7 @@ for cool , amount in Coolingmap {
             val ctrl = event.controller;
             var data = ctrl.customData;
             var map = data.asMap();
-            val cool = isNull(map["cool"]) ? 1.0f : map["cool"].asFloat();
+            val cool = isNull(map["cool"]) ? 0.0f : map["cool"].asFloat();
             if (cool > 1000000000.0f) {event.setFailed("调律场充能已满");}
         })
         .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
@@ -186,10 +192,10 @@ for cool , amount in Coolingmap {
 }
 
 //写入速度&判断
-RecipeBuilder.newBuilder("speedwrite","chaos_reactor",20,4)
+RecipeBuilder.newBuilder("speedwrite","chaos_reactor",20,3)
     .addSmartInterfaceDataInput("speed",0.00001,100000000.0)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
-        check(event);
+        speedcheck(event);
     })
     .addRecipeTooltip("§e同步秩序与混沌")
     .setThreadName("混沌同步系统")
@@ -200,6 +206,7 @@ RecipeBuilder.newBuilder("speedwrite","chaos_reactor",20,4)
 RecipeBuilder.newBuilder("chaosreacting","chaos_reactor",10,0)
     .addItemInput(<mekanism:configurator>).setChance(0.0f)
     .addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
+        coolingcheck(event);
         react(event);
     })
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
