@@ -170,11 +170,11 @@
 					BackpackInventory: {
 						Items: []
 					},
+					SortType: 0b,
+					BackpackInventorySize: 27,
 					UpgradeSlots: {
 						Items: []
-					},
-					BackpackInventorySize: 27,
-					SortType: 0b
+					}
 				},
 				"retro_sophisticated_backpacks:backpack_capability": {
 					MemoryRespectNBT: [B;
@@ -244,11 +244,11 @@
 					BackpackInventory: {
 						Items: []
 					},
+					SortType: 0b,
+					BackpackInventorySize: 27,
 					UpgradeSlots: {
 						Items: []
-					},
-					BackpackInventorySize: 27,
-					SortType: 0b
+					}
 				}
 			}
 		}
