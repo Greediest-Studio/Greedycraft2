@@ -1,0 +1,34 @@
+{
+	title: "§b还不错",
+	x: 8.5d,
+	y: 7.5d,
+	description: "合成穆斯贝尔海姆火花",
+	text: [
+		""
+	],
+	dependencies: [
+		"0a0840da"
+	],
+	tasks: [{
+		uid: "781caa9b",
+		type: "item",
+		items: [{
+			item: "botaniverse:spark_muspelheim"
+		}]
+	}],
+	rewards: [{
+		uid: "d3c4738e",
+		type: "item",
+		item: "botaniverse:spark_muspelheim"
+	},
+	{
+		uid: "54dceb85",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "02140cdc",
+		type: "xp",
+		xp: 3000
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "§b给我...给我蛋糕",
+	x: 19.0d,
+	y: 7.5d,
+	description: "合成贪食花",
+	text: [
+		"前期很好用，推荐胡萝卜蛋糕"
+	],
+	tasks: [{
+		uid: "670fcc9d",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "kekimurus"
+			}
+		}]
+	}]
+}

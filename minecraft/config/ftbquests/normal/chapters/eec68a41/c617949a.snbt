@@ -1,8 +1,8 @@
 {
-	title: "§b我要画个圆",
-	x: 1.5d,
-	y: 2.0d,
-	description: "制作盖世六分仪",
+	title: "§b随身携带！",
+	x: -2.5d,
+	y: 3.0d,
+	description: "制作魔力之戒",
 	text: [
 		""
 	],
@@ -10,10 +10,11 @@
 		"2e345458"
 	],
 	tasks: [{
-		uid: "8758945e",
+		uid: "180c95bf",
 		type: "item",
 		items: [{
-			item: "botania:sextant"
+			id: "botania:manaring",
+			tag: {}
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b

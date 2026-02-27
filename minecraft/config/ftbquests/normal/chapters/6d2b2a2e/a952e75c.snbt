@@ -15,7 +15,8 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:biotechnic_computer_factory_controller"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "582a56ca",

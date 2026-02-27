@@ -1,0 +1,43 @@
+{
+	title: "§b起猛了，看见魔力进AE了",
+	x: 19.0d,
+	y: 4.5d,
+	description: "合成魔力输入/输出总线",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "197e4754",
+		type: "item",
+		items: [{
+			item: "crazyae:part 1 5"
+		}]
+	},
+	{
+		uid: "45d45fb7",
+		type: "item",
+		items: [{
+			item: "crazyae:part 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "db716791",
+		type: "item",
+		item: "crazyae:part 1 5"
+	},
+	{
+		uid: "67a1d3b3",
+		type: "item",
+		item: "crazyae:part 1 4"
+	},
+	{
+		uid: "baf7ba65",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "227e7002",
+		type: "xp",
+		xp: 1000
+	}]
+}

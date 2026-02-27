@@ -1,0 +1,29 @@
+{
+	title: "§b比隔壁太阳能板快多了",
+	x: -20.0d,
+	y: 5.0d,
+	description: "合成ME增强太阳能板",
+	text: [
+		""
+	],
+	dependencies: [
+		"20f9d942"
+	],
+	tasks: [{
+		uid: "d270fca8",
+		type: "item",
+		items: [{
+			item: "crazyae:improved_solar_panel"
+		}]
+	}],
+	rewards: [{
+		uid: "ce5a14f2",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "bf2e3487",
+		type: "xp",
+		xp: 1000
+	}]
+}

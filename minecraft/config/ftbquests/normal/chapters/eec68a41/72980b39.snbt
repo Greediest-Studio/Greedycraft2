@@ -1,0 +1,34 @@
+{
+	title: "§b够用了！",
+	x: 10.0d,
+	y: 7.5d,
+	description: "合成赫尔海姆火花",
+	text: [
+		""
+	],
+	dependencies: [
+		"719ea237"
+	],
+	tasks: [{
+		uid: "cc1981e5",
+		type: "item",
+		items: [{
+			item: "botaniverse:spark_alfheim"
+		}]
+	}],
+	rewards: [{
+		uid: "62244e75",
+		type: "item",
+		item: "botaniverse:spark_alfheim"
+	},
+	{
+		uid: "c71267e2",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "321e3991",
+		type: "xp",
+		xp: 5000
+	}]
+}

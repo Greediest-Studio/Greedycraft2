@@ -1,0 +1,26 @@
+{
+	title: "§bCrazy！",
+	x: 23.5d,
+	y: 4.5d,
+	description: "合成2GB魔力存储元件",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "9a304c94",
+		type: "item",
+		items: [{
+			item: "crazyae:material 1 29"
+		}]
+	}],
+	rewards: [{
+		uid: "71b57c57",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "daf9c5e5",
+		type: "xp",
+		xp: 10000
+	}]
+}

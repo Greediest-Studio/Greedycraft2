@@ -1,0 +1,30 @@
+{
+	title: "§b为什么不能转成RF",
+	x: -20.0d,
+	y: 8.0d,
+	description: "合成ME完美太阳能板",
+	text: [
+		"AE再也不缺电了！",
+		"好吧，暂时的（"
+	],
+	dependencies: [
+		"8df644c6"
+	],
+	tasks: [{
+		uid: "baa52cba",
+		type: "item",
+		items: [{
+			item: "crazyae:perfect_solar_panel"
+		}]
+	}],
+	rewards: [{
+		uid: "6468af2d",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "14cdadfc",
+		type: "xp",
+		xp: 3000
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "§b史诗级提升",
+	x: -18.5d,
+	y: 6.5d,
+	description: "合成完美能源元件",
+	text: [
+		""
+	],
+	dependencies: [
+		"2adb405f"
+	],
+	tasks: [{
+		uid: "9a8901fa",
+		type: "item",
+		items: [{
+			id: "crazyae:perfect_energy_cell",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "15e78db0",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "01e02df8",
+		type: "xp",
+		xp: 5000
+	}]
+}

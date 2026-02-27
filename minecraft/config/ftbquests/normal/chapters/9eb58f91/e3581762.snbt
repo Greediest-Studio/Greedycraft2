@@ -1,0 +1,31 @@
+{
+	title: "§b增强网络承载力",
+	x: -18.5d,
+	y: 3.5d,
+	description: "合成能源元件",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "eca98b48",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:energy_cell",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "19869f4f",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:energy_cell",
+			tag: {}
+		}
+	},
+	{
+		uid: "06f94225",
+		type: "xp",
+		xp: 1000
+	}]
+}

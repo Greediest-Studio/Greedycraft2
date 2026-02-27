@@ -1,0 +1,32 @@
+{
+	title: "§b急速转化",
+	x: 23.5d,
+	y: 6.0d,
+	description: "合成白雏活化处理仓",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "0126fd1d",
+		type: "item",
+		items: [{
+			item: "crazyae:mechanical_puredaisy"
+		}]
+	}],
+	rewards: [{
+		uid: "4ee55baa",
+		type: "item",
+		item: "crazyae:material 1 33",
+		count: 16
+	},
+	{
+		uid: "e391a56f",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "7743924b",
+		type: "xp",
+		xp: 1000
+	}]
+}

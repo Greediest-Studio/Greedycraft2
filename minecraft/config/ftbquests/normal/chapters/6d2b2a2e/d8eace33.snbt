@@ -14,7 +14,8 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:aspect_crafter_factory_controller"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "8a3a6d71",

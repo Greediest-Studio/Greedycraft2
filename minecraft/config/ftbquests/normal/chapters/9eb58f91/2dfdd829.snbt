@@ -1,0 +1,30 @@
+{
+	title: "§b一个到毕业！",
+	x: -18.5d,
+	y: 8.0d,
+	description: "合成量子能源元件",
+	text: [
+		""
+	],
+	dependencies: [
+		"7a5cb433"
+	],
+	tasks: [{
+		uid: "0d93515d",
+		type: "item",
+		items: [{
+			id: "crazyae:quantum_energy_cell",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "3c49d1df",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "7a1d074f",
+		type: "xp",
+		xp: 9000
+	}]
+}

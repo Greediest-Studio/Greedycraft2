@@ -1,0 +1,35 @@
+{
+	title: "§b最终的归宿",
+	x: -21.5d,
+	y: 0.0d,
+	description: "好好好好好大~",
+	text: [
+		""
+	],
+	dependencies: [
+		"a67a4c06"
+	],
+	tasks: [{
+		uid: "d90ac629",
+		type: "item",
+		items: [{
+			item: "emosupertemplate:emo_pattern_terminal"
+		}]
+	}],
+	rewards: [{
+		uid: "17eda569",
+		type: "item",
+		item: "appliedenergistics2:material 1 52",
+		count: 64
+	},
+	{
+		uid: "d4b1c787",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "ae9e19dc",
+		type: "random",
+		table: 2
+	}]
+}

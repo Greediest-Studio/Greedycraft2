@@ -1,0 +1,21 @@
+{
+	title: "§b食铁生",
+	x: 22.0d,
+	y: 7.5d,
+	description: "合成食铁花",
+	text: [
+		"喝滚烫的铁水！",
+		"也许你能找到不消耗铁水的方法",
+		"小心刷屏~"
+	],
+	tasks: [{
+		uid: "8176a406",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "eat_iron"
+			}
+		}]
+	}]
+}

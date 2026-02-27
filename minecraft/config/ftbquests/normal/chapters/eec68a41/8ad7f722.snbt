@@ -1,0 +1,33 @@
+{
+	title: "§b最快的自动化",
+	x: 20.5d,
+	y: 6.0d,
+	description: "合成符文祭坛处理仓",
+	text: [
+		"不要做9个材料以上的配方！",
+		"会崩！！！"
+	],
+	tasks: [{
+		uid: "1f1383c7",
+		type: "item",
+		items: [{
+			item: "crazyae:mechanical_runealtar"
+		}]
+	}],
+	rewards: [{
+		uid: "f1d4db18",
+		type: "item",
+		item: "crazyae:material 1 34",
+		count: 16
+	},
+	{
+		uid: "6698b401",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "45920a44",
+		type: "xp",
+		xp: 1000
+	}]
+}

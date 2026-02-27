@@ -1,13 +1,13 @@
 {
 	title: "§b能连上火花的祭坛",
-	x: 6.5d,
-	y: 1.5d,
+	x: 0.0d,
+	y: -5.0d,
 	description: "将符文祭坛升级为精灵祭坛",
 	text: [
 		""
 	],
 	dependencies: [
-		"f5b9401b"
+		"bb25425b"
 	],
 	tasks: [{
 		uid: "c53d8de2",

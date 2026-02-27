@@ -1,13 +1,12 @@
 {
 	title: "§b神灵",
-	x: 8.0d,
-	y: -4.5d,
+	x: 7.0d,
+	y: -3.0d,
 	description: "获得神话钢锭",
 	text: [
 		""
 	],
 	dependencies: [
-		"424e1f9c",
 		"67169fcd"
 	],
 	tasks: [{

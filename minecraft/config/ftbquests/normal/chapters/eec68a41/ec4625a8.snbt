@@ -1,0 +1,39 @@
+{
+	title: "§b无穷无尽",
+	x: -0.5d,
+	y: 3.0d,
+	description: "制作大师魔力之戒",
+	text: [
+		"推荐使用火花+弥散升级来充能"
+	],
+	dependencies: [
+		"2e345458",
+		"c617949a"
+	],
+	tasks: [{
+		uid: "7675ae12",
+		type: "item",
+		items: [{
+			id: "extrabotany:mastermanaring",
+			tag: {}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7631a814",
+		type: "item",
+		item: "botania:sparkupgrade"
+	},
+	{
+		uid: "998d868f",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "72b501ea",
+		type: "item",
+		item: "botania:blacklotus 1 1",
+		count: 10
+	}]
+}

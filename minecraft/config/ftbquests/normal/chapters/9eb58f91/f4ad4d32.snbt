@@ -1,0 +1,31 @@
+{
+	title: "§b压缩空间专属",
+	x: -21.5d,
+	y: 5.0d,
+	description: "合成ME功能适配器",
+	text: [
+		"需配合压缩空间模组的“接口”使用"
+	],
+	tasks: [{
+		uid: "2d9aff0f",
+		type: "item",
+		items: [{
+			item: "rf-capability-adapter:aecapabilityadapter"
+		}]
+	}],
+	rewards: [{
+		uid: "28b67f30",
+		type: "item",
+		item: "rf-capability-adapter:aecapabilityadapter"
+	},
+	{
+		uid: "a4a464f2",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "2c191c9f",
+		type: "xp",
+		xp: 1000
+	}]
+}

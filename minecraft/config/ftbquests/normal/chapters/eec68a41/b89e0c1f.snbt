@@ -1,13 +1,13 @@
 {
 	title: "§b银光璀璨",
-	x: 6.5d,
-	y: 0.0d,
+	x: 7.0d,
+	y: 4.5d,
 	description: "合成精灵魔力发射器",
 	text: [
 		""
 	],
 	dependencies: [
-		"f5b9401b"
+		"dfe561a2"
 	],
 	tasks: [{
 		uid: "1f81176f",

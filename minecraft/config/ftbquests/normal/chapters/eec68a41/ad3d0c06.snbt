@@ -1,0 +1,32 @@
+{
+	title: "§b自动精灵交易！",
+	x: 17.5d,
+	y: 6.0d,
+	description: "合成精灵交易处理仓",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "80305623",
+		type: "item",
+		items: [{
+			item: "crazyae:mechanical_elventrade"
+		}]
+	}],
+	rewards: [{
+		uid: "b1bcf709",
+		type: "item",
+		item: "crazyae:material 1 30",
+		count: 16
+	},
+	{
+		uid: "0cabbbcf",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "89b31157",
+		type: "xp",
+		xp: 1000
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "§b好像很容易填满呢",
+	x: 11.5d,
+	y: 6.0d,
+	description: "合成阿斯加德魔力池",
+	text: [
+		""
+	],
+	dependencies: [
+		"14381392"
+	],
+	tasks: [{
+		uid: "664bae81",
+		type: "item",
+		items: [{
+			item: "botaniverse:morepool 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "476e18d3",
+		type: "item",
+		item: "botaniverse:morepool 1 3"
+	},
+	{
+		uid: "f57b7e9e",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "b3bf17f5",
+		type: "xp",
+		xp: 7000
+	}]
+}

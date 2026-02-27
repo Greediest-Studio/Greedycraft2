@@ -1,0 +1,34 @@
+{
+	title: "§b粉粉嫩嫩",
+	x: 11.5d,
+	y: 4.5d,
+	description: "合成穆斯贝尔海姆魔力发射器",
+	text: [
+		""
+	],
+	dependencies: [
+		"56aab35b"
+	],
+	tasks: [{
+		uid: "6f1faebd",
+		type: "item",
+		items: [{
+			item: "botaniverse:morespreader 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "8d315b9d",
+		type: "item",
+		item: "botaniverse:morespreader 1 1"
+	},
+	{
+		uid: "89cbe697",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "4df65460",
+		type: "xp",
+		xp: 3000
+	}]
+}

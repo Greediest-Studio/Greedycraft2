@@ -1,0 +1,34 @@
+{
+	title: "§b最强火花",
+	x: 11.5d,
+	y: 7.5d,
+	description: "合成阿斯加德火花",
+	text: [
+		""
+	],
+	dependencies: [
+		"72980b39"
+	],
+	tasks: [{
+		uid: "28b6bdac",
+		type: "item",
+		items: [{
+			item: "botaniverse:spark_asgard"
+		}]
+	}],
+	rewards: [{
+		uid: "fc9e42a0",
+		type: "item",
+		item: "botaniverse:spark_asgard"
+	},
+	{
+		uid: "9eac32e2",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "3f35b732",
+		type: "xp",
+		xp: 7000
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "§b链接魔力池",
+	x: 20.5d,
+	y: 4.5d,
+	description: "合成魔力连接器",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "ac7382bc",
+		type: "item",
+		items: [{
+			item: "crazyae:mana_connector"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "828d9e22",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "560a3e56",
+		type: "xp",
+		xp: 3000
+	}]
+}

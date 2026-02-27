@@ -1,13 +1,13 @@
 {
 	title: "§b比量子环更实惠",
-	x: -11.5d,
+	x: -10.0d,
 	y: -8.5d,
 	description: "合成无线频道输入/输出总线",
 	text: [
 		""
 	],
 	dependencies: [
-		"a19315fc"
+		"29b1605b"
 	],
 	tasks: [{
 		uid: "40fdded3",

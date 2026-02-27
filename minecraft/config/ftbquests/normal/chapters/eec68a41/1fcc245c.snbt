@@ -1,0 +1,31 @@
+{
+	title: "§b效率大爆炸",
+	x: 22.0d,
+	y: 4.5d,
+	description: "合成堆叠卡",
+	text: [
+		"感受起飞的效率"
+	],
+	tasks: [{
+		uid: "ab408549",
+		type: "item",
+		items: [{
+			item: "crazyae:upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "14b8c649",
+		type: "item",
+		item: "crazyae:upgrade"
+	},
+	{
+		uid: "cb65622e",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "82d75a07",
+		type: "xp",
+		xp: 1000
+	}]
+}

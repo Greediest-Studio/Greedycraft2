@@ -1,0 +1,34 @@
+{
+	title: "§b哦，又是这个！",
+	x: 7.0d,
+	y: 7.5d,
+	description: "合成尼福尔海姆火花",
+	text: [
+		""
+	],
+	dependencies: [
+		"91643b3b"
+	],
+	tasks: [{
+		uid: "9b0ed3c9",
+		type: "item",
+		items: [{
+			item: "botaniverse:spark_nilfheim"
+		}]
+	}],
+	rewards: [{
+		uid: "b9780770",
+		type: "item",
+		item: "botaniverse:spark_nilfheim"
+	},
+	{
+		uid: "eeb40916",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "158b5c7c",
+		type: "xp",
+		xp: 1000
+	}]
+}

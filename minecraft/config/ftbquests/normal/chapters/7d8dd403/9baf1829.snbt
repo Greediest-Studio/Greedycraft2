@@ -17,7 +17,8 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:gene_builder_factory_controller"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "4397aa11",

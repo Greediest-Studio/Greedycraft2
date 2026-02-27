@@ -1,0 +1,34 @@
+{
+	title: "§b这射的有力气！",
+	x: 13.0d,
+	y: 4.5d,
+	description: "合成赫尔海姆魔力发射器",
+	text: [
+		""
+	],
+	dependencies: [
+		"24cd249b"
+	],
+	tasks: [{
+		uid: "1e07174b",
+		type: "item",
+		items: [{
+			item: "botaniverse:morespreader 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "00094b04",
+		type: "item",
+		item: "botaniverse:morespreader 1 2"
+	},
+	{
+		uid: "5b7f3316",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "25336d97",
+		type: "xp",
+		xp: 5000
+	}]
+}

@@ -1,6 +1,6 @@
 {
 	title: "§b自然合金",
-	x: 2.0d,
+	x: 0.75d,
 	y: -1.5d,
 	description: "使用泰拉凝聚板制作泰拉钢",
 	text: [
@@ -9,7 +9,6 @@
 	dependencies: [
 		"20897b55"
 	],
-	size: 1.5d,
 	tasks: [{
 		uid: "b45355c4",
 		type: "item",

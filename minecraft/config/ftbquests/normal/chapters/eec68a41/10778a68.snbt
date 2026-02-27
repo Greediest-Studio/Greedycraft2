@@ -1,0 +1,31 @@
+{
+	title: "§b没写错地方吧？",
+	x: 17.5d,
+	y: 4.5d,
+	description: "合成魔力处理器",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "17bb3892",
+		type: "item",
+		items: [{
+			item: "crazyae:material 1 17"
+		}]
+	}],
+	rewards: [{
+		uid: "3cc32506",
+		type: "item",
+		item: "crazyae:material 1 17"
+	},
+	{
+		uid: "f5e3b113",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "7b1cf2f8",
+		type: "xp",
+		xp: 100
+	}]
+}

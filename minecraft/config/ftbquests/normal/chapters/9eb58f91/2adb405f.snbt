@@ -1,0 +1,34 @@
+{
+	title: "§b压缩能源",
+	x: -18.5d,
+	y: 5.0d,
+	description: "合成压缩能源元件",
+	text: [
+		""
+	],
+	dependencies: [
+		"e3581762"
+	],
+	tasks: [{
+		uid: "017160c0",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:dense_energy_cell",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "565561d1",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:dense_energy_cell",
+			tag: {}
+		}
+	},
+	{
+		uid: "6e96c6f6",
+		type: "xp",
+		xp: 2000
+	}]
+}

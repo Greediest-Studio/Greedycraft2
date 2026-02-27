@@ -1,0 +1,34 @@
+{
+	title: "§b更大的",
+	x: 7.0d,
+	y: 6.0d,
+	description: "合成尼福尔海姆魔力池",
+	text: [
+		""
+	],
+	dependencies: [
+		"49679eba"
+	],
+	tasks: [{
+		uid: "4375cb5f",
+		type: "item",
+		items: [{
+			item: "botaniverse:morepool"
+		}]
+	}],
+	rewards: [{
+		uid: "e1d564b7",
+		type: "item",
+		item: "botaniverse:morepool"
+	},
+	{
+		uid: "fcb76624",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "4deaf025",
+		type: "xp",
+		xp: 1000
+	}]
+}

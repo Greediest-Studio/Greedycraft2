@@ -1,0 +1,34 @@
+{
+	title: "§b21亿哦",
+	x: -5.0d,
+	y: -6.5d,
+	description: "制作量子魔力缓存器",
+	text: [
+		"他有21亿容量！"
+	],
+	dependencies: [
+		"440280ec"
+	],
+	tasks: [{
+		uid: "d9509dca",
+		type: "item",
+		items: [{
+			item: "extrabotany:quantummanabuffer"
+		}]
+	}],
+	rewards: [{
+		uid: "ab93c179",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "0a76135d",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "f57922fe",
+		type: "xp",
+		xp: 10000
+	}]
+}

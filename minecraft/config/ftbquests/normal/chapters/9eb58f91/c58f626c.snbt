@@ -1,13 +1,10 @@
 {
 	title: "§b量子延伸",
-	x: -11.5d,
-	y: -4.5d,
+	x: -21.5d,
+	y: 6.5d,
 	description: "合成量子频道增幅器，可以增加ME网络的频道数",
 	text: [
 		""
-	],
-	dependencies: [
-		"a19315fc"
 	],
 	tasks: [{
 		uid: "31c67dba",

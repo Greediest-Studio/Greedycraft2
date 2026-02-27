@@ -1,0 +1,16 @@
+{
+	title: "§b基础魔力池",
+	x: 5.5d,
+	y: 6.0d,
+	description: "合成魔力池",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "97d7ab30",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}]
+	}]
+}

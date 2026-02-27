@@ -1,0 +1,20 @@
+{
+	title: "§b好像要长脑子了",
+	x: 20.5d,
+	y: 7.5d,
+	description: "合成启命英",
+	text: [
+		"如果你能弄懂他的机制，据说还挺好用的。",
+		"我是看不懂（"
+	],
+	tasks: [{
+		uid: "597a1b37",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "dandelifeon"
+			}
+		}]
+	}]
+}

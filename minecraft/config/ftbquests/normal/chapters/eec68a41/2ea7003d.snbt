@@ -1,7 +1,8 @@
 {
 	title: "§b大地守护者III",
-	x: 15.5d,
+	x: 14.5d,
 	y: -1.5d,
+	shape: "gear",
 	description: "击败盖亚守护者III，打开潘多拉魔盒获得英雄勋章",
 	text: [
 		""
@@ -10,6 +11,7 @@
 		"3d85e814"
 	],
 	dependency_requirement: "one_completed",
+	size: 1.5d,
 	tasks: [{
 		uid: "a3315563",
 		type: "item",

@@ -15,7 +15,8 @@
 		type: "item",
 		items: [{
 			item: "modularmachinery:matrix_balancer_factory_controller"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "9ff18f3a",

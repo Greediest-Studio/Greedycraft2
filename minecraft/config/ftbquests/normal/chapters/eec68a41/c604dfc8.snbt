@@ -1,0 +1,32 @@
+{
+	title: "§b一池化万物",
+	x: 19.0d,
+	y: 6.0d,
+	description: "合成魔力灌注处理仓",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "5c06f349",
+		type: "item",
+		items: [{
+			item: "crazyae:mechanical_manapool"
+		}]
+	}],
+	rewards: [{
+		uid: "d8826cf0",
+		type: "item",
+		item: "crazyae:material 1 31",
+		count: 16
+	},
+	{
+		uid: "898839b7",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "065e1169",
+		type: "xp",
+		xp: 1000
+	}]
+}

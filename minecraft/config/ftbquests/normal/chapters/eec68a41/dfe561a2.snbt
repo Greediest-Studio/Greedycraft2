@@ -1,0 +1,16 @@
+{
+	title: "§b最初的起点",
+	x: 5.5d,
+	y: 4.5d,
+	description: "合成魔力发射器",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "4e2ac1d6",
+		type: "item",
+		items: [{
+			item: "botania:spreader"
+		}]
+	}]
+}

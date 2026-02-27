@@ -1,0 +1,34 @@
+{
+	title: "§b能满足需求吗？",
+	x: 14.5d,
+	y: 4.5d,
+	description: "合成阿斯加德魔力发射器",
+	text: [
+		"包能的"
+	],
+	dependencies: [
+		"3f51a907"
+	],
+	tasks: [{
+		uid: "353a64b6",
+		type: "item",
+		items: [{
+			item: "botaniverse:morespreader 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "93e37121",
+		type: "item",
+		item: "botaniverse:morespreader 1 3"
+	},
+	{
+		uid: "0a0e619d",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "5840d277",
+		type: "xp",
+		xp: 7000
+	}]
+}

@@ -1,14 +1,13 @@
 {
 	title: "§b还能跨纬度传输魔力？！",
-	x: 9.5d,
-	y: 0.0d,
+	x: 8.5d,
+	y: 3.0d,
 	description: "合成魔力超立方体",
 	text: [
 		""
 	],
 	dependencies: [
-		"5d12810f",
-		"2cb88975"
+		"5d12810f"
 	],
 	tasks: [{
 		uid: "53ef029b",

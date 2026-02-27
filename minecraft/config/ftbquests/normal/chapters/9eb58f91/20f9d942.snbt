@@ -1,0 +1,26 @@
+{
+	title: "§b前期最好的供电方式",
+	x: -20.0d,
+	y: 3.5d,
+	description: "合成ME基础太阳能板",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "d8c21ad6",
+		type: "item",
+		items: [{
+			item: "crazyae:basic_solar_panel"
+		}]
+	}],
+	rewards: [{
+		uid: "6e551e3e",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "fdc260c1",
+		type: "xp",
+		xp: 1000
+	}]
+}

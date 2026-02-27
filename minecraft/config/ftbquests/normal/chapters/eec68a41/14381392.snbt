@@ -1,0 +1,34 @@
+{
+	title: "§b谁不喜欢更大的呢",
+	x: 10.0d,
+	y: 6.0d,
+	description: "合成赫尔海姆魔力池",
+	text: [
+		""
+	],
+	dependencies: [
+		"a7a51905"
+	],
+	tasks: [{
+		uid: "c109078e",
+		type: "item",
+		items: [{
+			item: "botaniverse:morepool 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "597674ce",
+		type: "item",
+		item: "botaniverse:morepool 1 2"
+	},
+	{
+		uid: "a9dd6c30",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "a7596086",
+		type: "xp",
+		xp: 5000
+	}]
+}

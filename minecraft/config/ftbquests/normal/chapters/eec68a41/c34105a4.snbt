@@ -1,0 +1,33 @@
+{
+	title: "§b我的火红连矩阵有救了",
+	x: 22.0d,
+	y: 6.0d,
+	description: "合成花瓣炼制处理仓",
+	text: [
+		"不要做9个材料以上的配方！",
+		"会崩！！！"
+	],
+	tasks: [{
+		uid: "d91b22f1",
+		type: "item",
+		items: [{
+			item: "crazyae:mechanical_petal"
+		}]
+	}],
+	rewards: [{
+		uid: "749aa73a",
+		type: "item",
+		item: "crazyae:material 1 32",
+		count: 16
+	},
+	{
+		uid: "734b765e",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "2d905871",
+		type: "xp",
+		xp: 1000
+	}]
+}

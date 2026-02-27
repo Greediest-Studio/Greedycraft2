@@ -1,0 +1,19 @@
+{
+	title: "§b依旧起步之花",
+	x: 17.5d,
+	y: 7.5d,
+	description: "合成火红连",
+	text: [
+		"学个自动化装置吧"
+	],
+	tasks: [{
+		uid: "5fa58508",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "endoflame"
+			}
+		}]
+	}]
+}

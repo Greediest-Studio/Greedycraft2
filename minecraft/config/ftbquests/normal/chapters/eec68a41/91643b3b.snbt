@@ -1,0 +1,16 @@
+{
+	title: "§b植物界的无线传输！",
+	x: 5.5d,
+	y: 7.5d,
+	description: "合成火花",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "b71375fb",
+		type: "item",
+		items: [{
+			item: "botania:spark"
+		}]
+	}]
+}
