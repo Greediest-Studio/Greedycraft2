@@ -876,6 +876,11 @@ RecipeUtil.addShaped("sink_caesium", <nuclearcraft:solid_fission_sink_cesium>, [
     [<ore:ingotCaesium>, <nuclearcraft:part:14>, <ore:ingotCaesium>],
     [null, <ore:ingotCaesium>, null]
 ]);
+RecipeUtil.addShaped("mechanical_teraplate", <crazyae:mechanical_teraplate>, [
+    [<ore:blockMythsteel>, <ore:ingotOrichalcos>, <ore:blockMythsteel>],
+    [<crazyae:crafting_accelerator_1024x>, <botania:terraplate>, <crazyae:crafting_accelerator_1024x>],
+    [<ore:blockMythsteel>, <ore:ingotOrichalcos>, <ore:blockMythsteel>]
+]);
 /*
  * RecipeUtil.addShaped("", , [
  *  [null, null, null],
