@@ -1,6 +1,6 @@
 {
 	title: "§b链接魔力池",
-	x: 20.5d,
+	x: 22.0d,
 	y: 4.5d,
 	description: "合成魔力连接器",
 	text: [
@@ -18,7 +18,7 @@
 	rewards: [{
 		uid: "828d9e22",
 		type: "random",
-		table: 2
+		table: 1
 	},
 	{
 		uid: "560a3e56",

@@ -1,0 +1,34 @@
+{
+	title: "§b厉害的都在后面",
+	x: 25.0d,
+	y: 6.0d,
+	description: "合成魔力凝聚处理仓",
+	text: [
+		"它可以合成任何凝聚板配方",
+		"需要手动往 凝聚板标记格 放入对应的凝聚板",
+		"不能jei拖拽哦"
+	],
+	tasks: [{
+		uid: "36c533cb",
+		type: "item",
+		items: [{
+			item: "crazyae:mechanical_teraplate"
+		}]
+	}],
+	rewards: [{
+		uid: "6237b1f6",
+		type: "item",
+		item: "crazyae:material 1 49",
+		count: 16
+	},
+	{
+		uid: "84595f40",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "242b3a95",
+		type: "xp",
+		xp: 1000
+	}]
+}

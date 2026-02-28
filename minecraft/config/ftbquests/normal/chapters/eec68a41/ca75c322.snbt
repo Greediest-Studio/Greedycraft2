@@ -1,0 +1,31 @@
+{
+	title: "§b输出魔力",
+	x: 20.5d,
+	y: 4.5d,
+	description: "合成魔力输出总线",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "8c1878c1",
+		type: "item",
+		items: [{
+			item: "crazyae:part 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "95388d52",
+		type: "item",
+		item: "crazyae:part 1 5"
+	},
+	{
+		uid: "5952c752",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "94708a19",
+		type: "xp",
+		xp: 1000
+	}]
+}

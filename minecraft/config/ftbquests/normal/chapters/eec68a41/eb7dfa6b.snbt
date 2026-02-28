@@ -7,13 +7,6 @@
 		""
 	],
 	tasks: [{
-		uid: "197e4754",
-		type: "item",
-		items: [{
-			item: "crazyae:part 1 5"
-		}]
-	},
-	{
 		uid: "45d45fb7",
 		type: "item",
 		items: [{
@@ -21,11 +14,6 @@
 		}]
 	}],
 	rewards: [{
-		uid: "db716791",
-		type: "item",
-		item: "crazyae:part 1 5"
-	},
-	{
 		uid: "67a1d3b3",
 		type: "item",
 		item: "crazyae:part 1 4"
@@ -33,7 +21,7 @@
 	{
 		uid: "baf7ba65",
 		type: "random",
-		table: 2
+		table: 1
 	},
 	{
 		uid: "227e7002",
