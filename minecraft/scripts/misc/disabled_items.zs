@@ -19,7 +19,6 @@ import scripts.util.lang as LangUtil;
 
 var disabledItems as IIngredient[] = [
     <actuallyadditions:item_drill:3>,
-    <crazyae:mechanical_teraplate>,
     <cyclicmagic:battery>,
     <moretcon:blockvalkyriemetal>,
     <moretcon:ingotvalkyriemetal>,
