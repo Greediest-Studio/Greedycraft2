@@ -1,0 +1,27 @@
+{
+	title: "§b监视数据",
+	x: 1.5d,
+	y: -8.0d,
+	description: "合成裂隙监测仪",
+	text: [
+		"右键切换模式",
+		"可以检测大小和稳定度"
+	],
+	tasks: [{
+		uid: "0183129a",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:rift_monitor"
+		}]
+	}],
+	rewards: [{
+		uid: "6710c7f2",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "1d65f8c8",
+		type: "xp",
+		xp: 100
+	}]
+}

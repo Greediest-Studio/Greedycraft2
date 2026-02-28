@@ -1,0 +1,30 @@
+{
+	title: "§b宝珠助手",
+	x: -11.5d,
+	y: -2.5d,
+	description: "合成宝珠符文",
+	text: [
+		"每一个宝珠符文提升宝珠2%的储量上限"
+	],
+	dependencies: [
+		"1ca32822"
+	],
+	tasks: [{
+		uid: "0838d10f",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 8"
+		}]
+	}],
+	rewards: [{
+		uid: "af6d5415",
+		type: "item",
+		item: "bloodmagic:blood_rune 1 8",
+		count: 3
+	},
+	{
+		uid: "7797e928",
+		type: "random",
+		table: 1
+	}]
+}

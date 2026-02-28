@@ -1,0 +1,30 @@
+{
+	title: "§b有配方了！",
+	x: -13.5d,
+	y: 5.5d,
+	description: "合成效率符文",
+	text: [
+		"提高血之祭坛的工作效率至105%",
+		"仅在模块化祭坛上生效"
+	],
+	dependencies: [
+		"7ecb983e"
+	],
+	tasks: [{
+		uid: "bbee33a1",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "0090a431",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "d8abb14b",
+		type: "xp",
+		xp: 1000
+	}]
+}

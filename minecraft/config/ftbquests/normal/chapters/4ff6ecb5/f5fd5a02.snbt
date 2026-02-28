@@ -1,13 +1,14 @@
 {
 	title: "§b重塑吾身",
-	x: 17.5d,
-	y: -4.0d,
+	x: 11.5d,
+	y: 2.0d,
 	description: "合成血腥汲取器控制器",
 	text: [
 		""
 	],
 	dependencies: [
-		"b798f84f"
+		"642afe7f",
+		"77f190aa"
 	],
 	tasks: [{
 		uid: "be493287",

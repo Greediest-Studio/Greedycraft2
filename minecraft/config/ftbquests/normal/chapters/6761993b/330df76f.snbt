@@ -1,0 +1,26 @@
+{
+	title: "§b知识的力量",
+	x: -15.5d,
+	y: 7.5d,
+	description: "合成知识宝珠",
+	text: [
+		"啊，被知识灌满了"
+	],
+	tasks: [{
+		uid: "f8513b7e",
+		type: "item",
+		items: [{
+			item: "additions:pearl_of_knowledge"
+		}]
+	}],
+	rewards: [{
+		uid: "d54a5a86",
+		type: "item",
+		item: "additions:pearl_of_knowledge"
+	},
+	{
+		uid: "b08b4446",
+		type: "random",
+		table: 2
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "§b增加容量",
+	x: -10.5d,
+	y: -2.5d,
+	description: "合成增容符文",
+	text: [
+		"每一个增容符文增加血之祭坛2000LP储存上限"
+	],
+	dependencies: [
+		"1ca32822"
+	],
+	tasks: [{
+		uid: "d99451f7",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "c65c2fac",
+		type: "item",
+		item: "bloodmagic:blood_rune 1 6",
+		count: 3
+	},
+	{
+		uid: "fb018117",
+		type: "random",
+		table: 1
+	}]
+}

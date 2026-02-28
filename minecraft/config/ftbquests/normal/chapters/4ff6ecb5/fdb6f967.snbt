@@ -1,0 +1,29 @@
+{
+	title: "§b封包合成",
+	x: -6.5d,
+	y: 4.0d,
+	description: "制作奥术封包合成器",
+	text: [
+		""
+	],
+	dependencies: [
+		"84fd0af3"
+	],
+	tasks: [{
+		uid: "7a2280fd",
+		type: "item",
+		items: [{
+			item: "packagedthaumic:arcane_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "d665334f",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "ad8df678",
+		type: "xp",
+		xp: 100
+	}]
+}

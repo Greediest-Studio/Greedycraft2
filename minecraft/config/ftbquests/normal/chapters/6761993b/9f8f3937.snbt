@@ -1,0 +1,31 @@
+{
+	title: "§b机械充能",
+	x: -17.5d,
+	y: 5.5d,
+	description: "合成玩家符文",
+	text: [
+		"自动将生命源质输出到玩家的LP网络中（需放置宝珠符文）,每个速率x2",
+		"仅在模块化祭坛上生效"
+	],
+	dependencies: [
+		"7ecb983e"
+	],
+	tasks: [{
+		uid: "af8f1818",
+		type: "item",
+		items: [{
+			item: "additions:blood_rune_personal"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0a174a8d",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "234630e0",
+		type: "xp",
+		xp: 1000
+	}]
+}

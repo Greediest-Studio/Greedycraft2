@@ -1,0 +1,32 @@
+{
+	title: "§b加速充能",
+	x: -15.5d,
+	y: -2.5d,
+	description: "合成充能符文",
+	text: [
+		"充能符文每个工作周期充能速度 = 10 * 充能符文数 * (1 + 速度符文数÷10) ，将祭坛中的lp1:1转化为充能点数",
+		"使用祭坛合成物品时将会优先使用充能点数，如充能点数≥合成所需lp则将直接完成合成",
+		"工作周期：默认20tick，每一个促进符文-1tick，最小为1tick"
+	],
+	dependencies: [
+		"1ca32822"
+	],
+	tasks: [{
+		uid: "920d9213",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 10"
+		}]
+	}],
+	rewards: [{
+		uid: "4ef3715f",
+		type: "item",
+		item: "bloodmagic:blood_rune 1 10",
+		count: 3
+	},
+	{
+		uid: "c2aace5c",
+		type: "random",
+		table: 1
+	}]
+}

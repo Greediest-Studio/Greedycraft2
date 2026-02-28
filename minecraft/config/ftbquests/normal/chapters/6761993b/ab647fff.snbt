@@ -1,0 +1,32 @@
+{
+	title: "§b形状不定",
+	x: -17.5d,
+	y: 7.5d,
+	description: "合成不定型物质",
+	text: [
+		"你一定在被纯净折磨吧"
+	],
+	tasks: [{
+		uid: "9d678392",
+		type: "item",
+		items: [{
+			item: "additions:unshapable_matter"
+		}]
+	}],
+	rewards: [{
+		uid: "94749857",
+		type: "item",
+		item: "additions:unshapable_matter",
+		count: 4
+	},
+	{
+		uid: "76c36d89",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "8a9d36f2",
+		type: "random",
+		table: 2
+	}]
+}

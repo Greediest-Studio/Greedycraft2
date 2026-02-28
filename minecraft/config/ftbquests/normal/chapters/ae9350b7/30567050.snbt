@@ -1,27 +1,24 @@
 {
-	title: "§bDeep Dark……",
+	title: "§b万物皆可阿卡什",
 	tags: [
 		"challenge"
 	],
 	x: 0.0d,
 	y: 9.0d,
-	description: "合成漆黑之门，进入漆黑世界",
+	description: "合成阿卡什护目镜",
 	text: [
-		""
+		"可以收纳你的所有眼镜！"
 	],
 	tasks: [{
-		uid: "da8473cb",
+		uid: "795cea80",
 		type: "item",
 		items: [{
-			item: "extrautils2:teleporter 1 1"
-		}]
+			item: "akashic_goggles:goggles"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "1ed3329d",
-		type: "item",
-		item: "extrautils2:compressedcobblestone 1 4"
-	},
-	{
 		uid: "66b73999",
 		type: "random",
 		table: 1

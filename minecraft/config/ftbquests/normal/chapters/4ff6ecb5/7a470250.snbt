@@ -1,0 +1,26 @@
+{
+	title: "§b这是一个复杂的过程",
+	x: 5.5d,
+	y: -8.0d,
+	description: "制作源质合成机",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "43d2b9f9",
+		type: "item",
+		items: [{
+			item: "thaumadditions:aspect_combiner"
+		}]
+	}],
+	rewards: [{
+		uid: "680799d5",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "6eb0ecd1",
+		type: "xp",
+		xp: 1000
+	}]
+}

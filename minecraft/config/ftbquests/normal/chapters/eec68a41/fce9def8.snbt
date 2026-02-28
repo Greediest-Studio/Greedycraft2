@@ -11,6 +11,14 @@
 		type: "dimension",
 		icon: "extrautils2:teleporter 1 1",
 		dim: -11325
+	},
+	{
+		uid: "c1ffcd19",
+		type: "item",
+		items: [{
+			item: "extrautils2:teleporter 1 1"
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "7c1e9295",

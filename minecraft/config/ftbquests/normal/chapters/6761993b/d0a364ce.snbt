@@ -1,0 +1,31 @@
+{
+	title: "§b多线程处理",
+	x: -11.5d,
+	y: 5.5d,
+	description: "合成线程符文",
+	text: [
+		"每一个为血之祭坛增加一个线程",
+		"最多生效15个",
+		"仅在模块化祭坛上生效"
+	],
+	dependencies: [
+		"7ecb983e"
+	],
+	tasks: [{
+		uid: "210d45e8",
+		type: "item",
+		items: [{
+			item: "additions:blood_rune_thread"
+		}]
+	}],
+	rewards: [{
+		uid: "6751e1c3",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "c00b808c",
+		type: "xp",
+		xp: 1000
+	}]
+}

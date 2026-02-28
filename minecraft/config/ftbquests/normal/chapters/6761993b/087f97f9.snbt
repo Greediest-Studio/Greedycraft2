@@ -1,0 +1,27 @@
+{
+	title: "§b我看功能很完善嘛",
+	x: -11.5d,
+	y: 7.5d,
+	description: "合成不完整仪式石",
+	text: [
+		"JEI中按Ctrl + S 跳转百科查看它的功能",
+		"很好用的"
+	],
+	tasks: [{
+		uid: "dba95f3c",
+		type: "item",
+		items: [{
+			item: "bloodmagic:ritual_controller 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "5c0d4bb3",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "19f50e0a",
+		type: "xp",
+		xp: 1000
+	}]
+}

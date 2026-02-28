@@ -1,12 +1,13 @@
 {
 	title: "§b冶炼厂升级了",
-	x: -0.5d,
+	x: -2.5d,
 	y: -4.0d,
 	description: "制作神秘源质冶炼厂",
 	text: [
 		""
 	],
 	dependencies: [
+		"2e83a821",
 		"76754ed6"
 	],
 	tasks: [{

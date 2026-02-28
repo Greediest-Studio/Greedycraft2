@@ -1,13 +1,13 @@
 {
 	title: "§b基础结构",
-	x: -6.5d,
-	y: 2.5d,
+	x: -13.5d,
+	y: -0.5d,
 	description: "合成空白符文，用于搭建血之祭坛结构",
 	text: [
 		""
 	],
 	dependencies: [
-		"4580a6aa"
+		"30e20165"
 	],
 	tasks: [{
 		uid: "5ed23516",

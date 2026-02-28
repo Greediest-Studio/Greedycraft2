@@ -1,0 +1,30 @@
+{
+	title: "§b献祭生物",
+	x: -12.5d,
+	y: -2.5d,
+	description: "合成献祭符文",
+	text: [
+		"每一个献祭符文增加生物/怪物献祭时获得的生命源质数量10%"
+	],
+	dependencies: [
+		"1ca32822"
+	],
+	tasks: [{
+		uid: "96a5aa81",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "16fe35a3",
+		type: "item",
+		item: "bloodmagic:blood_rune 1 3",
+		count: 3
+	},
+	{
+		uid: "696eaf89",
+		type: "random",
+		table: 1
+	}]
+}

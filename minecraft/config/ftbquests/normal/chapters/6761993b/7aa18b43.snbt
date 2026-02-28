@@ -1,13 +1,14 @@
 {
 	title: "§b蕴含了各种意志的金属",
 	x: 0.5d,
-	y: 5.5d,
+	y: -0.5d,
 	description: "制作猩红锭",
 	text: [
 		"各种意识碎片可由结晶共鸣仪式获取"
 	],
 	dependencies: [
-		"cb767f8b"
+		"cb767f8b",
+		"cf69ca7e"
 	],
 	size: 1.5d,
 	tasks: [{

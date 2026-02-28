@@ -1,0 +1,33 @@
+{
+	title: "§b盖亚的馈赠",
+	x: 10.0d,
+	y: 0.0d,
+	description: "获得奥丁之戒",
+	text: [
+		"+20生命值",
+		"提供多种伤害免疫"
+	],
+	dependencies: [
+		"ef72cb25"
+	],
+	tasks: [{
+		uid: "b0dc2be0",
+		type: "item",
+		items: [{
+			id: "botania:odinring",
+			tag: {}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e39cd3e2",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "6ab65923",
+		type: "xp",
+		xp: 1000
+	}]
+}

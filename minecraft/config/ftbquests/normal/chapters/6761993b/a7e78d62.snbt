@@ -1,0 +1,31 @@
+{
+	title: "§b指数增长",
+	x: -9.5d,
+	y: -2.5d,
+	description: "合成超容符文",
+	text: [
+		"每一个超容符文提供血之祭坛原始储量10%的原始最大储量，叠加为乘算",
+		"放置19以上时效果超过增容符文"
+	],
+	dependencies: [
+		"b5a3eedb"
+	],
+	tasks: [{
+		uid: "c69be6d5",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 7"
+		}]
+	}],
+	rewards: [{
+		uid: "7f9b85df",
+		type: "item",
+		item: "bloodmagic:blood_rune 1 7",
+		count: 3
+	},
+	{
+		uid: "c40506a1",
+		type: "random",
+		table: 1
+	}]
+}

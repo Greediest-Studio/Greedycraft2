@@ -1,10 +1,11 @@
 {
 	title: "§b蕴含恶魔意志的金属",
-	x: -5.5d,
-	y: 3.5d,
+	x: -3.5d,
+	y: -4.5d,
 	description: "制作感知锭",
 	dependencies: [
-		"4c9da309"
+		"6f1f4f73",
+		"154afd91"
 	],
 	tasks: [{
 		uid: "c2be2a5d",

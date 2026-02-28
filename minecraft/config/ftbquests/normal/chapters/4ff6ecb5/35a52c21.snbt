@@ -1,0 +1,35 @@
+{
+	title: "§b物理方式！",
+	x: -4.5d,
+	y: -6.0d,
+	description: "制作蒸馏器",
+	text: [
+		"放在源质冶炼厂上方",
+		"可以多叠几个"
+	],
+	dependencies: [
+		"76754ed6"
+	],
+	tasks: [{
+		uid: "41c01db0",
+		type: "item",
+		items: [{
+			item: "thaumcraft:alembic"
+		}]
+	}],
+	rewards: [{
+		uid: "1a28c6d3",
+		type: "item",
+		item: "thaumcraft:alembic"
+	},
+	{
+		uid: "1f3138d2",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "294c98e9",
+		type: "xp",
+		xp: 100
+	}]
+}

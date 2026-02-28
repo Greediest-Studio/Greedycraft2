@@ -34,18 +34,20 @@
 		count: 16
 	},
 	{
-		uid: "ff1cefa7",
+		uid: "6085c865",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "5e6f19f5",
 		type: "item",
 		item: {
 			id: "astralsorcery:itemsextant",
 			tag: {
-				astralsorcery: {}
+				astralsorcery: {
+					advanced: 1b
+				}
 			}
 		}
-	},
-	{
-		uid: "6085c865",
-		type: "random",
-		table: 1
 	}]
 }

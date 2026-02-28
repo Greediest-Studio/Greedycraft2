@@ -1,0 +1,30 @@
+{
+	title: "§b提高转移速度",
+	x: -13.5d,
+	y: -2.5d,
+	description: "合成转位符文",
+	text: [
+		"每个转位符文会将基础LP转移速度提升为基础的1.2倍"
+	],
+	dependencies: [
+		"1ca32822"
+	],
+	tasks: [{
+		uid: "acd55ea0",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "313b5df5",
+		type: "item",
+		item: "bloodmagic:blood_rune 1 5",
+		count: 3
+	},
+	{
+		uid: "ed83c665",
+		type: "random",
+		table: 1
+	}]
+}

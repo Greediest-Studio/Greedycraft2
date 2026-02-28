@@ -1,0 +1,31 @@
+{
+	title: "§b节能省流",
+	x: -15.5d,
+	y: 5.5d,
+	description: "合成节流符文",
+	text: [
+		"每个减少当前10%生命源质消耗",
+		"最多生效15个",
+		"仅在模块化祭坛上生效"
+	],
+	dependencies: [
+		"7ecb983e"
+	],
+	tasks: [{
+		uid: "5b766259",
+		type: "item",
+		items: [{
+			item: "additions:blood_rune_economy"
+		}]
+	}],
+	rewards: [{
+		uid: "bfa55034",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "3b9b729d",
+		type: "xp",
+		xp: 1000
+	}]
+}

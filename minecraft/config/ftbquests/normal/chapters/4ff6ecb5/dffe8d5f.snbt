@@ -1,0 +1,26 @@
+{
+	title: "§b稳定它干什么？！",
+	x: -0.5d,
+	y: -8.0d,
+	description: "合成裂隙稳定器",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "2a48814c",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:stability_field_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "1f95108d",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "79cb12c9",
+		type: "xp",
+		xp: 1000
+	}]
+}

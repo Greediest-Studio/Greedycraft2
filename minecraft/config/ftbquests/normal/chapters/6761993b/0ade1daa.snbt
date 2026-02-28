@@ -1,17 +1,13 @@
 {
-	title: "§b我能看到源质的数量了",
-	x: -5.5d,
-	y: -0.5d,
+	title: "§b独特的见解",
+	x: -9.5d,
+	y: 7.5d,
 	description: "合成见解印记",
 	text: [
 		""
 	],
-	dependencies: [
-		"4c9da309",
-		"154afd91"
-	],
 	tasks: [{
-		uid: "e38f0683",
+		uid: "ae1c4dd8",
 		type: "item",
 		items: [{
 			item: "bloodmagic:sigil_seer"
@@ -20,13 +16,13 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "6fd4660f",
-		type: "xp",
-		xp: 400
-	},
-	{
-		uid: "dec57933",
+		uid: "372e9a14",
 		type: "random",
 		table: 1
+	},
+	{
+		uid: "a391dd33",
+		type: "xp",
+		xp: 500
 	}]
 }

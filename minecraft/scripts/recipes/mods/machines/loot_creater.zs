@@ -232,7 +232,7 @@ createLootRecipe("aeonsteel_loot", [
 ], [
     <minecraft:dragon_egg> * 2,
     <draconicevolution:dragon_heart> * 1,
-    <bountifulbaubles:enderdragonscale> * 1
+    <bountifulbaubles:enderdragonscale> * 4
 ], 30, 1.0E5 as long, 0);
 
 //毁灭者
@@ -265,7 +265,7 @@ createLootRecipe("chromasteel_loot", [
 createLootRecipe("wavite_loot", [
     <additions:final_scythe>
 ], [
-    <additions:zomril_ingot> * 2
+    <additions:zomril_ingot> * 4
 ], 30, 1.5E7 as long, 0);
 
 //滑行者
@@ -310,7 +310,7 @@ createLootRecipe("cosmilite_loot", [
 createLootRecipe("cosmilite_loot", [
     <gct_ores:creepy_witherstorm_doll>
 ], [
-    <gct_ores:stormy_shard> * 5,
+    <gct_ores:stormy_shard> * 6,
     <ageofminecraft:withered_nether_star> * 1,
     <additions:withered_nether_star_shard> * 2
 ], 40, 2.0E6 as long, 0);
@@ -397,21 +397,23 @@ createLootRecipe("finallium_loot", [
     <jaopca:nugget.ant_emperor> * 4,
     <additions:ant_emperor_bait>
 ], [
-    <additions:ant_emperor_ingot> * 2
+    <additions:ant_emperor_ingot> * 4
 ], 35, 6.0E6 as long, 0);
 
 //狼育母
 createLootRecipe("finallium_loot", [
     <additions:tarantula_leg>
+    <tconstruct:slime:3> * 16
 ], [
     <additions:tarantula_leg> * 5
+    <additions:evilblood_slime_block> * 16
 ], 35, 8.0E6 as long, 0);
 
 //血腥主教
 createLootRecipe("finallium_loot", [
     <additions:bloody_spironium_ingot>
 ], [
-    <additions:crimson_fabric_enhanced> * 2
+    <additions:crimson_fabric_enhanced> * 4
 ], 40, 5.4E6 as long, 0);
 
 //奖励箱

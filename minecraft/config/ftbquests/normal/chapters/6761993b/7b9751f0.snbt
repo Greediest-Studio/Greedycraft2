@@ -1,0 +1,30 @@
+{
+	title: "§b加速",
+	x: -16.5d,
+	y: -2.5d,
+	description: "合成速度符文",
+	text: [
+		"每一个速度符文提供血之祭坛20%的合成效率"
+	],
+	dependencies: [
+		"1ca32822"
+	],
+	tasks: [{
+		uid: "f6361b55",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "559164c7",
+		type: "item",
+		item: "bloodmagic:blood_rune 1 1",
+		count: 3
+	},
+	{
+		uid: "f298fdff",
+		type: "random",
+		table: 1
+	}]
+}

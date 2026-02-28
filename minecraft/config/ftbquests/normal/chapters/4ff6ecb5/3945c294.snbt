@@ -1,13 +1,13 @@
 {
 	title: "§bFE→vis",
-	x: -4.5d,
-	y: 4.0d,
+	x: -6.5d,
+	y: 6.0d,
 	description: "合成自魔奥术封包合成器",
 	text: [
 		""
 	],
 	dependencies: [
-		"84fd0af3"
+		"fdb6f967"
 	],
 	tasks: [{
 		uid: "2629d6a9",

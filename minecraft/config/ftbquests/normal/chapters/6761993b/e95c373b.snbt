@@ -1,0 +1,19 @@
+{
+	title: "§b净化污血",
+	x: -9.5d,
+	y: 5.5d,
+	description: "合成净化符文",
+	text: [
+		"每个增加1点生命源质底物转换产出"
+	],
+	dependencies: [
+		"7ecb983e"
+	],
+	tasks: [{
+		uid: "96c7495d",
+		type: "item",
+		items: [{
+			item: "additions:blood_rune_purify"
+		}]
+	}]
+}

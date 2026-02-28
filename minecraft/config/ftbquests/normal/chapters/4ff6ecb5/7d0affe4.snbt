@@ -1,14 +1,13 @@
 {
 	title: "§b这是冶炼炉吗？",
 	x: 7.5d,
-	y: 0.0d,
+	y: 4.0d,
 	description: "制作元动冶炼炉控制器",
 	text: [
 		""
 	],
 	dependencies: [
 		"5ddf9c2a",
-		"bf814a1f",
 		"2b12b14d"
 	],
 	tasks: [{

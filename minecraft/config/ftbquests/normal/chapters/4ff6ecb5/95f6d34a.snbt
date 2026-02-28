@@ -1,0 +1,26 @@
+{
+	title: "§b喂养裂隙",
+	x: 3.5d,
+	y: -8.0d,
+	description: "合成咒波引流仪",
+	text: [
+		"快来投喂我！"
+	],
+	tasks: [{
+		uid: "a86c7532",
+		type: "item",
+		items: [{
+			item: "thaumicaugmentation:rift_feeder"
+		}]
+	}],
+	rewards: [{
+		uid: "26585fd4",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "a2400c60",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "§b牺牲自己",
+	x: -14.5d,
+	y: -2.5d,
+	description: "合成牺牲符文",
+	text: [
+		"每一个牺牲符文增加玩家献祭时获得的生命源质数量10%"
+	],
+	dependencies: [
+		"1ca32822"
+	],
+	tasks: [{
+		uid: "ff5e251e",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 4"
+		}]
+	}],
+	rewards: [{
+		uid: "3cef8542",
+		type: "item",
+		item: "bloodmagic:blood_rune 1 4",
+		count: 3
+	},
+	{
+		uid: "8acee6e6",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "§b别催啦",
+	x: -17.5d,
+	y: -2.5d,
+	description: "合成促进符文",
+	text: [
+		"每一个促进符文可以使祭坛的血液转移速度与充能符文的工作时间加快1tick的时间，最少为1tick",
+		"即最多生效19个"
+	],
+	dependencies: [
+		"7b9751f0"
+	],
+	tasks: [{
+		uid: "2bab9701",
+		type: "item",
+		items: [{
+			item: "bloodmagic:blood_rune 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "505b7cce",
+		type: "item",
+		item: "bloodmagic:blood_rune 1 9",
+		count: 3
+	},
+	{
+		uid: "a881b470",
+		type: "random",
+		table: 1
+	}]
+}

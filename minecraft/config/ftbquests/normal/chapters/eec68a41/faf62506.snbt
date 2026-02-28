@@ -1,0 +1,31 @@
+{
+	title: "§b化身律者",
+	x: 14.5d,
+	y: 1.5d,
+	description: "获得律者核心",
+	text: [
+		"最好的飞行道具，提供伤害加成"
+	],
+	dependencies: [
+		"d97d3f15"
+	],
+	tasks: [{
+		uid: "7459aaa4",
+		type: "item",
+		items: [{
+			id: "extrabotany:coregod",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ac5232a0",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "d3969f84",
+		type: "xp",
+		xp: 10000
+	}]
+}
