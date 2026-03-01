@@ -1,0 +1,20 @@
+{
+  "item_block": {
+    "name": "§1阴生浆果树叶",
+    "type": "additions:block_simple"
+  },
+  "name": "§1阴生浆果树叶",
+  "material": "minecraft:leaves",
+  "place_sound": "minecraft:block.grass.place",
+  "break_sound": "minecraft:block.grass.break",
+  "hit_sound": "minecraft:block.grass.hit",
+  "step_sound": "minecraft:block.grass.step",
+  "fall_sound": "minecraft:block.grass.fall",
+  "hardness": 0.2,
+  "resistance": 1.0,
+  "harvest_tool": "shears",
+  "light_opacity": 1,
+  "flammability": 100,
+  "fire_spread_speed": 60,
+  "type": "additions:simple"
+}

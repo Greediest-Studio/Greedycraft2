@@ -64,6 +64,13 @@ atum_protection.badEffectIn = false;
 atum_protection.beneficial = true;
 atum_protection.register();
 
+val reversed_vision as IPotion = VanillaFactory.createPotion("reversed_vision", 0x111111);
+reversed_vision.shouldRender = false;
+reversed_vision.shouldRenderHUD = false;
+reversed_vision.badEffectIn = false;
+reversed_vision.beneficial = true;
+reversed_vision.register();
+
 var demon_decay as IPotion = VanillaFactory.createPotion("demon_decay", 0x425379);
 demon_decay.shouldRender = false;
 demon_decay.shouldRenderHUD = false;
@@ -98,7 +105,7 @@ blood.performEffect = function(living , amplifier ){
             living.health -= living.health * 0.08;
         }
         if(living instanceof IPlayer){
-            player.sendMessage("§4正在流血中...");
+            player.sendMessage("§4正在流血中...§r");
         }
     }
 };

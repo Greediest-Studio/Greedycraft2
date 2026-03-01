@@ -364,4 +364,12 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
             }
         }
     }
+
+    //Shadowberry
+    if (!event.world.remote && event.block.definition.id == "additions:shadowberry_leaves" && event.player.hasGameStage("wake_up")) {
+        var pos as IBlockPos = event.position;
+        var player as IPlayer = event.player;
+        event.world.setBlockState(<blockstate:gct_mobs:reversed_dreamwood_leaves>, pos);
+        player.give(<additions:shadowberry> * event.world.random.nextInt(1, 3));
+    }
 });

@@ -1,0 +1,13 @@
+{
+  "name": "§1阴生浆果",
+  "tooltip": "§5§o在亚尔夫海姆地下的洞窟中采集",
+  "hunger": 3,
+  "saturation": 0.083333336,
+  "eaten_effects": [
+    {
+      "potion_type": "potioncore:blindness",
+      "type": "additions:potion"
+    }
+  ],
+  "type": "additions:food"
+}

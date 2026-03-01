@@ -2497,7 +2497,9 @@ GameStagesUtil.stageWakeUp.addIngredients([
     <ore:nuggetNefrathite>,
     <ore:blockNefrathite>,
     <ore:dustNefrathite>,
-    <additions:abyss_catalyst>
+    <additions:abyss_catalyst>,
+    <additions:shadowberry_leaves>,
+    <additions:shadowberry>
 ], false);
 
 GameStagesUtil.stageMindShock.addIngredients([
