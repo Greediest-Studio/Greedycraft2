@@ -406,7 +406,7 @@ createLootRecipe("finallium_loot", [
     <additions:tarantula_leg>,
     <tconstruct:slime:3> * 16
 ], [
-    <additions:tarantula_leg> * 5
+    <additions:tarantula_leg> * 5,
     <additions:evilblood_slime_block> * 16
 ], 35, 8.0E6 as long, 0);
 
