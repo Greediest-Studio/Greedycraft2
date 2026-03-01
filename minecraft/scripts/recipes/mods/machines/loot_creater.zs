@@ -312,7 +312,8 @@ createLootRecipe("cosmilite_loot", [
 ], [
     <gct_ores:stormy_shard> * 6,
     <ageofminecraft:withered_nether_star> * 1,
-    <additions:withered_nether_star_shard> * 2
+    <additions:withered_nether_star_shard> * 2,
+    <minecraft:command_block> * 1
 ], 40, 2.0E6 as long, 0);
 
 //哨兵之心
@@ -402,7 +403,7 @@ createLootRecipe("finallium_loot", [
 
 //狼育母
 createLootRecipe("finallium_loot", [
-    <additions:tarantula_leg>
+    <additions:tarantula_leg>,
     <tconstruct:slime:3> * 16
 ], [
     <additions:tarantula_leg> * 5
