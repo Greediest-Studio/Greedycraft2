@@ -374,12 +374,6 @@ eat_iron.onUpdate = function(subtile, world, pos) {
                     if(world.getBlock(i).definition.id.contains("iron")){
                         var pass as bool = true;
                         var worldCt as IWorld = IWorld.getFromID(world.dimension);
-                        if (!isNull(world.getBlock(i).fluid)) {
-                            var posNt as BlockPos = BlockPos(i.x as int, i.y as int, i.z as int);
-                            if (worldCt.native.getBlockState(posNt).getValue(BlockLiquid.LEVEL) != 0) {
-                                pass = false;
-                            }
-                        }
                         if (pass) {
                             Commands.call("playsound minecraft:entity.generic.drink record @p", null, world, false, true);
                             if (!world.remote) {say("§d[作者姬]§r§f：§r§e干了这杯铁!");}
