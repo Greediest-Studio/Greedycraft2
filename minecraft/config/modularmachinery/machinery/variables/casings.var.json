@@ -53,6 +53,11 @@
         "modularmachinery:blockcasing@0",
         "modularmachinery:blockupgradebus"
     ],
+    "casings_parallel_and_upgrade":[
+        "modularmachinery:blockcasing@0",
+        "modularmachinery:blockparallelcontroller",
+        "modularmachinery:blockupgradebus"
+    ],
     "casings_speed": [
         "modularmachinery:blockcasing@1",
         "modularmachinery:blockcasing@2",
