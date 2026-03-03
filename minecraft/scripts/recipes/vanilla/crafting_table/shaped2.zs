@@ -881,6 +881,11 @@ RecipeUtil.addShaped("mechanical_teraplate", <crazyae:mechanical_teraplate>, [
     [<crazyae:crafting_accelerator_1024x>, <botania:terraplate>, <crazyae:crafting_accelerator_1024x>],
     [<ore:blockMythsteel>, <ore:ingotOrichalcos>, <ore:blockMythsteel>]
 ]);
+RecipeUtil.addShaped("elder_prismarine", <quark:elder_prismarine>, [
+    [<additions:time_fragment>, <additions:time_fragment>, <additions:time_fragment>],
+    [<additions:time_fragment>, <minecraft:prismarine>, <additions:time_fragment>],
+    [<additions:time_fragment>, <additions:time_fragment>, <additions:time_fragment>]
+]);
 /*
  * RecipeUtil.addShaped("", , [
  *  [null, null, null],
