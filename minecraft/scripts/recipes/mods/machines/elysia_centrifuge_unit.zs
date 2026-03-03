@@ -51,10 +51,6 @@ RecipeAdapterBuilder.create("elysia_centrifuge", "nuclearcraft:separator")
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
     .build();
 
-RecipeAdapterBuilder.create("elysia_centrifuge", "thermalexpansion:centrifuge")
-    .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
-    .build();
-
 RecipeBuilder.newBuilder("centrifuge_nature_stone", "elysia_centrifuge", 20)
     .addPreCheckHandler(function (event as RecipeCheckEvent) {
         if (!event.controller.hasMachineUpgrade("nature_centrifuge_upg")) {
