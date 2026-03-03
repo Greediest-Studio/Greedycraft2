@@ -27,7 +27,7 @@
                     "y": -1,
                     "z": 1,
                     "elements": [
-                        "ecoaeextension:efabricator_pattern_bus"
+                        "ecoaeextension:efabricator_pattern_bus@0"
                     ]
                 },
                 {
@@ -35,7 +35,7 @@
                     "y": -1,
                     "z": 0,
                     "elements": [
-                        "ecoaeextension:efabricator_parallel_proc_l4"
+                        "ecoaeextension:efabricator_parallel_proc_l4@2"
                     ]
                 },
                 {
@@ -43,7 +43,7 @@
                     "y": 0,
                     "z": 0,
                     "elements": [
-                        "ecoaeextension:efabricator_worker"
+                        "ecoaeextension:efabricator_worker@2"
                     ]
                 },
                 {
@@ -51,7 +51,7 @@
                     "y": 0,
                     "z": 1,
                     "elements": [
-                        "ecoaeextension:efabricator_vent"
+                        "ecoaeextension:efabricator_vent@2"
                     ]
                 },
                 {
@@ -59,7 +59,7 @@
                     "y": 1,
                     "z": 1,
                     "elements": [
-                        "ecoaeextension:efabricator_pattern_bus"
+                        "ecoaeextension:efabricator_pattern_bus@0"
                     ]
                 },
                 {
@@ -67,7 +67,7 @@
                     "y": 1,
                     "z": 0,
                     "elements": [
-                        "ecoaeextension:efabricator_parallel_proc_l4"
+                        "ecoaeextension:efabricator_parallel_proc_l4@2"
                     ]
                 }
             ],
@@ -77,7 +77,7 @@
                     "y": -1,
                     "z": 1,
                     "elements": [
-                        "ecoaeextension:efabricator_casing"
+                        "ecoaeextension:efabricator_casing@0"
                     ]
                 },
                 {
@@ -85,7 +85,7 @@
                     "y": -1,
                     "z": 0,
                     "elements": [
-                        "ecoaeextension:efabricator_casing"
+                        "ecoaeextension:efabricator_casing@0"
                     ]
                 },
                 {
@@ -93,7 +93,7 @@
                     "y": 0,
                     "z": 0,
                     "elements": [
-                        "ecoaeextension:efabricator_casing"
+                        "ecoaeextension:efabricator_casing@0"
                     ]
                 },
                 {
@@ -101,7 +101,7 @@
                     "y": 0,
                     "z": 1,
                     "elements": [
-                        "ecoaeextension:efabricator_casing"
+                        "ecoaeextension:efabricator_casing@0"
                     ]
                 },
                 {
@@ -109,7 +109,7 @@
                     "y": 1,
                     "z": 1,
                     "elements": [
-                        "ecoaeextension:efabricator_casing"
+                        "ecoaeextension:efabricator_casing@0"
                     ]
                 },
                 {
@@ -117,7 +117,7 @@
                     "y": 1,
                     "z": 0,
                     "elements": [
-                        "ecoaeextension:efabricator_casing"
+                        "ecoaeextension:efabricator_casing@0"
                     ]
                 }
             ]
@@ -129,7 +129,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "ecoaeextension:efabricator_me_channel"
+                "ecoaeextension:efabricator_me_channel@0"
             ]
         },
         {
@@ -157,7 +157,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "ecoaeextension:efabricator_vent"
+                "ecoaeextension:efabricator_vent@2"
             ]
         },
         {
@@ -165,7 +165,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "ecoaeextension:efabricator_casing"
+                "ecoaeextension:efabricator_casing@0"
             ]
         },
         {
@@ -173,7 +173,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "ecoaeextension:efabricator_casing"
+                "ecoaeextension:efabricator_casing@0"
             ]
         },
         {
@@ -181,7 +181,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "ecoaeextension:efabricator_vent"
+                "ecoaeextension:efabricator_vent@2"
             ]
         },
         {
@@ -189,7 +189,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "ecoaeextension:efabricator_casing"
+                "ecoaeextension:efabricator_casing@0"
             ]
         },
         {
@@ -197,7 +197,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "ecoaeextension:efabricator_casing"
+                "ecoaeextension:efabricator_casing@0"
             ]
         },
         {
@@ -205,7 +205,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "ecoaeextension:efabricator_casing"
+                "ecoaeextension:efabricator_casing@0"
             ]
         },
         {
@@ -213,7 +213,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "ecoaeextension:efabricator_casing"
+                "ecoaeextension:efabricator_casing@0"
             ]
         },
         {
@@ -221,7 +221,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "ecoaeextension:efabricator_casing"
+                "ecoaeextension:efabricator_casing@0"
             ]
         },
         {
@@ -229,7 +229,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "ecoaeextension:efabricator_casing"
+                "ecoaeextension:efabricator_casing@0"
             ]
         },
         {
@@ -237,7 +237,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "ecoaeextension:efabricator_casing"
+                "ecoaeextension:efabricator_casing@0"
             ]
         },
         {
@@ -245,7 +245,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "ecoaeextension:efabricator_casing"
+                "ecoaeextension:efabricator_casing@0"
             ]
         },
         {
@@ -253,7 +253,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "ecoaeextension:efabricator_casing"
+                "ecoaeextension:efabricator_casing@0"
             ]
         },
         {
@@ -261,7 +261,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "ecoaeextension:efabricator_casing"
+                "ecoaeextension:efabricator_casing@0"
             ]
         }
     ]
