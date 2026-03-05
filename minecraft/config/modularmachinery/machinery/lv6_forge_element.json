@@ -8,9 +8,9 @@
         {
             "elements": "modularmachinery:blockcasing@1",
             "x": 0,
-            "y": -1,
+            "y": 1,
             "z": 0,
-            "description": "将控制器下方紧挨着的方块换成此方块以降低配方制作时间至80%！",
+            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至80%！",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",
@@ -21,9 +21,9 @@
         {
             "elements": "modularmachinery:blockcasing@2",
             "x": 0,
-            "y": -1,
+            "y": 1,
             "z": 0,
-            "description": "将控制器下方紧挨着的方块换成此方块以降低配方制作时间至70%！",
+            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至70%！",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",
@@ -34,9 +34,9 @@
         {
             "elements": "modularmachinery:blockcasing@3",
             "x": 0,
-            "y": -1,
+            "y": 1,
             "z": 0,
-            "description": "将控制器下方紧挨着的方块换成此方块以降低配方制作时间至60%！",
+            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至60%！",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",
@@ -47,9 +47,9 @@
         {
             "elements": "modularmachinery:blockcasing@5",
             "x": 0,
-            "y": -1,
+            "y": 1,
             "z": 0,
-            "description": "将控制器下方紧挨着的方块换成此方块以降低配方制作时间至50%！",
+            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至50%！",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",
