@@ -325,14 +325,6 @@ global omnipedia as IItemStack = <akashictome:tome>.withTag({
 			},
 			Damage: 0 as short
 		},
-		opencomputers: {
-			id: "opencomputers:tool",
-			Count: 1 as byte,
-			tag: {
-				"akashictome:definedMod": "opencomputers"
-			},
-			Damage: 4 as short
-		},
 		theoneprobe: {
 			id: "theoneprobe:probenote",
 			Count: 1 as byte,

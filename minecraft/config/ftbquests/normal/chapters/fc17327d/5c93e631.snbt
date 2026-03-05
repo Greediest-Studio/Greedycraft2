@@ -336,14 +336,6 @@
 						},
 						Damage: 0s
 					},
-					opencomputers: {
-						id: "opencomputers:tool",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "opencomputers"
-						},
-						Damage: 4s
-					},
 					theoneprobe: {
 						id: "theoneprobe:probenote",
 						Count: 1b,
