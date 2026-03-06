@@ -22,7 +22,7 @@ events.register(function(event as ItemTooltipEvent) {
     var itemStack as IItemStack = event.getItemStack().wrapper;
     
     //EIO Capacitor Tooltip
-    if (!isNull(itemStack.definition)) {
+    if (!isNull(itemStack) && !isNull(itemStack.definition)) {
         if (EIOitemLevelList.keys has itemStack.definition.id) {
             if (GuiScreen.isShiftKeyDown()) {
                 event.getToolTip()[0 .. 1].add("§7机器升级\n增加储能和速率/工作范围");
@@ -34,7 +34,7 @@ events.register(function(event as ItemTooltipEvent) {
     }
 
     //Crimson Ring Tooltip
-    if (!isNull(itemStack.definition)) {
+    if (!isNull(itemStack) && !isNull(itemStack.definition)) {
         if (itemStack.definition.id == <contenttweaker:bauble_crimson_ring>.definition.id) {
             if (!isNull(itemStack.tag.crimsonPower)) {
                 var crimsonPower as int = itemStack.tag.crimsonPower as int;
@@ -44,7 +44,7 @@ events.register(function(event as ItemTooltipEvent) {
     }
 
     //Hexable Basement Trait Tooltip
-    if (!isNull(itemStack.definition)) {
+    if (!isNull(itemStack) && !isNull(itemStack.definition)) {
         if (TicTraitLib.hasTicTrait(itemStack, "hexable_basement") || TicTraitLib.hasTicTrait(itemStack, "hexable_basement_armor")) {
             var tooltips = event.getToolTip();
             var location as int = -1;
@@ -72,7 +72,7 @@ events.register(function(event as ItemTooltipEvent) {
     }
 
     //Imitation Trait Tooltip
-    if (!isNull(itemStack.definition)) {
+    if (!isNull(itemStack) && !isNull(itemStack.definition)) {
         if (TicTraitLib.hasTicTrait(itemStack, "imitation")) {
             var tooltips = event.getToolTip();
             var location as int = -1;
@@ -118,7 +118,7 @@ events.register(function(event as ItemTooltipEvent) {
     }
 
     //Radiation Trait Tooltip
-    if (!isNull(itemStack.definition)) {
+    if (!isNull(itemStack) && !isNull(itemStack.definition)) {
         if (TicTraitLib.hasTicTrait(itemStack, "active_source6")) {
             var hasSlowdown as bool = TicTraitLib.hasTicTrait(itemStack, "slowdown");
             event.getToolTip()[0 .. 1].add(hasSlowdown ? "§c辐射： 192 mRad/t" : "§c辐射： 384 mRad/t");

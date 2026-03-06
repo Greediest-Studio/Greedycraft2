@@ -878,7 +878,7 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:blockNeutronium> : [<avaritia:block_resource>],
     <ore:nuggetNeutronium> : [<avaritia:resource:3>],
     <ore:blockPhotonium> : [<extrabotany:blockphotonium>],
-    <ore:blockGaia> : [<avaritiatweaks:gaia_block>],
+    <ore:blockGaia> : [<avaritia:gaia_block>],
     <ore:treeSaplingLiving> : [<treetweaker:livingwood>],
     <ore:treeSaplingDream> : [<treetweaker:dreamwood>, <treetweaker:redreamwood>],
     <ore:treeSapling> : [<treetweaker:evileye>],

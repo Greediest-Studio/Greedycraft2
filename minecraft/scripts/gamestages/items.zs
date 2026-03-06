@@ -54,7 +54,7 @@ GameStagesUtil.stageChaoticDominator.addIngredients([
     <additions:death_coin>,
     <scalinghealth:difficultychanger:*>,
     <additions:difficulty_changer>,
-    <avaritiatweaks:infinitato>,
+    <avaritia:infinitato>,
     <additions:blackhole_alloy_ingot>,
     <ore:blockBlackholeAlloy>,
     <ore:nuggetBlackholeAlloy>,
