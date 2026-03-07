@@ -475,11 +475,6 @@ RecipeUtil.addShaped("auto_gen_-1873046907", <additions:medkit_super>, [
     [<scalinghealth:heartcontainer>, <additions:medkit_big>, <scalinghealth:heartcontainer>],
     [null, <scalinghealth:heartcontainer>, null]
 ]);
-RecipeUtil.addShaped("auto_gen_1179581625", <lazymystical:accelerator1> * 1, [
-    [<mysticalagriculture:storage:3>, <mysticalagriculture:storage:1>, <mysticalagriculture:storage:3>],
-    [<mysticalagriculture:storage:1>, <ore:metalGene>, <mysticalagriculture:storage:1>],
-    [<mysticalagriculture:storage:3>, <mysticalagriculture:storage:1>, <mysticalagriculture:storage:3>]
-]);
 RecipeUtil.addShaped("page0", <additions:ancient_tome_page> , [
     [<additions:ancient_tome_fragment>, <additions:ancient_tome_fragment>, <additions:ancient_tome_fragment>],
     [<additions:ancient_tome_fragment>, <additions:ancient_tome_fragment>, <additions:ancient_tome_fragment>],

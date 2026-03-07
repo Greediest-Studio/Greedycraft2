@@ -1,19 +1,24 @@
 {
-	title: "§b还能再快吗？",
+	title: "§b种田好帮手",
 	tags: [
 		"challenge"
 	],
 	x: 3.0d,
 	y: 12.0d,
-	description: "合成一个最高等级的生长加速器",
+	description: "合成一个最高等级的洒水壶",
 	text: [
-		""
+		"此乃神器"
 	],
 	tasks: [{
-		uid: "28084ce8",
+		uid: "7d7426c8",
 		type: "item",
 		items: [{
-			item: "lazymystical:accelerator6"
+			id: "thermalcultivation:watering_can",
+			Damage: 4s,
+			tag: {
+				Water: 60000,
+				Mode: 4
+			}
 		}]
 	}],
 	rewards: [{
@@ -24,12 +29,16 @@
 	{
 		uid: "57f6ea6b",
 		type: "item",
-		item: "lazymystical:accelerator6"
+		item: {
+			id: "thermalexpansion:reservoir",
+			Damage: 4s,
+			tag: {}
+		}
 	},
 	{
 		uid: "0bd507e6",
 		type: "item",
-		item: "lazymystical:accelerator1",
+		item: "randomthings:fertilizeddirt",
 		count: 8
 	},
 	{
