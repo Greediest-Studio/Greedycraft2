@@ -82,6 +82,12 @@
 						EnderChargeAmount: 1000000000
 					},
 					Slot: 0b
+				},
+				{
+					id: "enderutilities:linkcrystal",
+					Count: 1,
+					Damage: 1s,
+					Slot: 1b
 				}],
 				UUID: {
 					UUIDM: -1166285284906348607L,
