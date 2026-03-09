@@ -68,7 +68,6 @@ LootUtil.addItem(<minecraft:glowstone_dust>, 8, 1, 12, 32);
 LootUtil.addItem(<mysticalagriculture:crafting>, 8, 1, 16, 40);
 LootUtil.addItem(<minecraft:quartz>, 10, 1, 16, 30);
 LootUtil.addItem(<fluxnetworks:fluxcore>, 3, 1, 5, 10);
-LootUtil.addItem(<touhou_little_maid:gashapon_coin>, 2, 1, 4, 12);
 LootUtil.addItem(<additions:time_fragment>, 18, 1, 1, 3);
 LootUtil.addItem(<additions:time_shard>, 3, 1, 1, 1);
 LootUtil.addItem(<tofucraft:tofu_food>, 16, 1, 24, 64);

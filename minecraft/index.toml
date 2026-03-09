@@ -20453,10 +20453,6 @@ file = "config/TinkersArsenal.cfg"
 hash = "9c5393f53f51f159e61331bc19aaee1e9f04a70ec94a0dcaa48642face2d598f"
 
 [[files]]
-file = "config/TouhouLittleMaid.cfg"
-hash = "6adea74efd09bd6ae569d1033eeec7d1e9b5ab57ad8bd8f7950f930e8236dfab"
-
-[[files]]
 file = "config/Universal Tweaks - Bugfixes.cfg"
 hash = "d078de5e45dd68486bf3b0c8fb4fb6f2c384117c30c2255a3ef120126bbef4a9"
 
@@ -36637,86 +36633,6 @@ file = "config/totaltinkers/materials/terrasteel.json"
 hash = "95d6c66ea974580de03727895bd5db057d0ba952331ea8dcf599abaf9987b621"
 
 [[files]]
-file = "config/touhou_little_maid/hata_texture/1.png"
-hash = "40b86148a650dc2b5ef760d24f6d3b90ce0f433a55d84ff4dcc2d46707a17c87"
-
-[[files]]
-file = "config/touhou_little_maid/hata_texture/10.png"
-hash = "6d01836fdff613fd990747d9fb448aedc28ce304ea37b5735b1a9b4338f29542"
-
-[[files]]
-file = "config/touhou_little_maid/hata_texture/11.png"
-hash = "6b0fd3ee7ea5375594b09b3c9974bfc7af29c691f75a8df472dd73ce9cd8760f"
-
-[[files]]
-file = "config/touhou_little_maid/hata_texture/12.png"
-hash = "80a6bf22b36051279e589c51be863539eac2384fbb9d98706d08bcafb9ca8aff"
-
-[[files]]
-file = "config/touhou_little_maid/hata_texture/13.png"
-hash = "7ca300e2f97e59ca9aaa883006e326131d3968be536f2ff5df79bb29b4dab708"
-
-[[files]]
-file = "config/touhou_little_maid/hata_texture/14.png"
-hash = "7690bb006fc476bc24cc3ea0cdc88f56781f9ea3d2a81bcb869aee76a79a87e4"
-
-[[files]]
-file = "config/touhou_little_maid/hata_texture/15.png"
-hash = "4b1f49440a992aeceb43c764673a02abeadffaf5c3c7cc64bf0d0cb83a57e0b1"
-
-[[files]]
-file = "config/touhou_little_maid/hata_texture/16.png"
-hash = "09cb93677ed71a4bae2495807d451c6b010205b3faee8c0ed3185d9093228f56"
-
-[[files]]
-file = "config/touhou_little_maid/hata_texture/17.png"
-hash = "2d22e34820f1232393f3c415b379cca9aec3e6dc1f7a1fceca8f351aac325315"
-
-[[files]]
-file = "config/touhou_little_maid/hata_texture/18.png"
-hash = "27b4e3b62fc73c40c393b2406745841a1e445980b729a975014dd229da399e2b"
-
-[[files]]
-file = "config/touhou_little_maid/hata_texture/19.png"
-hash = "44450ebc9a29074e662ba20188254176ba784ed5b05450c67a4c1f9b43d8dd25"
-
-[[files]]
-file = "config/touhou_little_maid/hata_texture/2.png"
-hash = "bc1a7fca4c0309fa1b3247248bb02b2e9106b1bd096e231712d6c976e234185e"
-
-[[files]]
-file = "config/touhou_little_maid/hata_texture/20.png"
-hash = "d5a141d531313f73998646921eafc5e081158e27cbeee5644fdb7e9eaea59661"
-
-[[files]]
-file = "config/touhou_little_maid/hata_texture/3.png"
-hash = "b8b935c3637c4040f698ecb6eef7cd454a49cfacc20e3bcf72ef69cd86ef377b"
-
-[[files]]
-file = "config/touhou_little_maid/hata_texture/4.png"
-hash = "c965d646d16096effd2f3bfa87d38df07b855753b39bdbf9a78f07d0125ffc4a"
-
-[[files]]
-file = "config/touhou_little_maid/hata_texture/5.png"
-hash = "b739d20cdfea7608dc8122de4e816f11aeb138759b6e2445fec70a76cbc59998"
-
-[[files]]
-file = "config/touhou_little_maid/hata_texture/6.png"
-hash = "460dbf115feb25df2bfc8ba50b79f4be68c6fe97f47ca1772e6951e577a04d21"
-
-[[files]]
-file = "config/touhou_little_maid/hata_texture/7.png"
-hash = "30e5680b33e23dd4be2cc9a2e3ff5f7807c3124c4beb4eada0d9122146d927bd"
-
-[[files]]
-file = "config/touhou_little_maid/hata_texture/8.png"
-hash = "773865fe3a032f0ba964637f9e3a16c43f138b003dbde70e52eb08319f147e15"
-
-[[files]]
-file = "config/touhou_little_maid/hata_texture/9.png"
-hash = "ec44a9730d4014ac98a255cd4ea9e10fadcaba5473e14dd614c3900e40e414f9"
-
-[[files]]
 file = "config/trident.cfg"
 hash = "7df1419056d5c11603d55f7b0d351967fda8e249c4ab3d0c93d74cf1977c2c95"
 
@@ -39037,11 +38953,6 @@ metafile = true
 [[files]]
 file = "mods/.index/torohud.pw.toml"
 hash = "3a6b2d6bc5d68f16d9c5df319f7c6a93e580ca5587713ca85b4e36297bf5ffcc"
-metafile = true
-
-[[files]]
-file = "mods/.index/touhou-little-maid.pw.toml"
-hash = "88f0e129a606601a53dd3133013bec497e7f08c5eea86eb8473e165d8fe0b2e4"
 metafile = true
 
 [[files]]
@@ -49864,10 +49775,6 @@ hash = "e84a8c1952f600279a74c8865934b119b37bb73b079b822c49e53871a61b6302"
 [[files]]
 file = "scripts/recipes/mods/thermalexpansion.zs"
 hash = "82fb3297fe875aa137b5fc1d0624c4443826aff91291f0d25f0988604efb8585"
-
-[[files]]
-file = "scripts/recipes/mods/touhou_little_maid.zs"
-hash = "0781c5530bfe52da131131ff6737f7e075775eb1bea5c23580c532dd79177c72"
 
 [[files]]
 file = "scripts/recipes/vanilla/brewing.zs"

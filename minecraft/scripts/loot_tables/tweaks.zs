@@ -32,17 +32,8 @@ LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("pool2").addCond
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("botania_inject_pool").addConditions([Conditions.randomChance(0.2)]);
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("extrabotany_inject_pool").addConditions([Conditions.randomChance(0.05)]);
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("openmods_inject_pool").addConditions([Conditions.randomChance(0.1)]);
-LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("power_point").clearConditions();
-LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("power_point").addConditions([Conditions.randomChance(0.2)]);
 LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("forestry_apiculture_bees").addConditions([Conditions.randomChance(0.2)]);
 
-LootTweaker.getTable("minecraft:chests/simple_dungeon").getPool("smart_slab").addConditions([Conditions.randomChance(0.005)]);
-LootTweaker.getTable("minecraft:chests/stronghold_corridor").getPool("smart_slab").addConditions([Conditions.randomChance(0.0075)]);
-LootTweaker.getTable("minecraft:chests/stronghold_crossing").getPool("smart_slab").addConditions([Conditions.randomChance(0.0075)]);
-LootTweaker.getTable("minecraft:chests/nether_bridge").getPool("smart_slab").addConditions([Conditions.randomChance(0.0075)]);
-LootTweaker.getTable("minecraft:chests/desert_pyramid").getPool("smart_slab").addConditions([Conditions.randomChance(0.0075)]);
-LootTweaker.getTable("minecraft:chests/abandoned_mineshaft").getPool("smart_slab").addConditions([Conditions.randomChance(0.0075)]);
-LootTweaker.getTable("minecraft:chests/village_blacksmith").getPool("smart_slab").addConditions([Conditions.randomChance(0.0075)]);
 
 LootTweaker.getTable("extrabotany:inject/simple_dungeon").getPool("main").removeEntry("extrabotany:bottledflame");
 

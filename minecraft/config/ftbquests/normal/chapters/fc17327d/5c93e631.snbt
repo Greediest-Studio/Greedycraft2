@@ -96,15 +96,6 @@
 						},
 						Damage: 0s
 					},
-					touhou_little_maid: {
-						id: "patchouli:guide_book",
-						Count: 1b,
-						tag: {
-							"akashictome:definedMod": "touhou_little_maid",
-							"patchouli:book": "touhou_little_maid:memorizable_gensokyo"
-						},
-						Damage: 0s
-					},
 					astralsorcery: {
 						id: "astralsorcery:itemjournal",
 						Count: 1b,

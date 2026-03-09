@@ -26,10 +26,6 @@ MachineModifier.setMaxThreads("loot_power_generator", 1);
 MachineModifier.setInternalParallelism("loot_power_generator", 1);
 MachineModifier.setMaxParallelism("loot_power_generator", 256);
 
-RecipeBuilder.newBuilder(regName + "_t0", regName, speed / 2, 0)
-    .addItemInput(<ore:dungeonLootTier0>)
-    .addEnergyPerTickOutput(1024)
-    .build();
 
 RecipeBuilder.newBuilder(regName + "_t1", regName, speed, 0)
     .addItemInput(<ore:dungeonLootTier1>)

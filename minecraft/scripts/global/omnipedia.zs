@@ -93,15 +93,6 @@ global omnipedia as IItemStack = <akashictome:tome>.withTag({
 			},
 			Damage: 0 as short
 		},
-		touhou_little_maid: {
-			id: "patchouli:guide_book",
-			Count: 1 as byte,
-			tag: {
-				"patchouli:book": "touhou_little_maid:memorizable_gensokyo",
-				"akashictome:definedMod": "touhou_little_maid"
-			},
-			Damage: 0 as short
-		},
 		astralsorcery: {
 			id: "astralsorcery:itemjournal",
 			Count: 1 as byte,

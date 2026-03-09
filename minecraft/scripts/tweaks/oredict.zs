@@ -347,9 +347,6 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <conarm:leggings>,
         <conarm:boots>
     ],
-    <ore:dungeonLootTier0> : [
-        <touhou_little_maid:power_point>
-    ],
     <ore:dungeonLootTier1> : [
         <additions:medkit_small>,
         <additions:bag_of_dyes>,

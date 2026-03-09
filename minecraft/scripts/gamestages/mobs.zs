@@ -10,8 +10,6 @@ import mods.MobStages;
 import scripts.util.gamestages as GameStagesUtil;
 
 val mobStages as string[string] = {
-    "touhou_little_maid:entity.monster.fairy": "nether",
-    "touhou_little_maid:entity.monster.rinnosuke": "nether",
     "minecraft:wither_skeleton": "twilight_shield",
     "thaumcraft:eldritchguardian": "novice_wizard",
     "thaumcraft:cultistportallesser": "novice_wizard",

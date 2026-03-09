@@ -417,9 +417,6 @@ RecipeUtil.addShapeless("rotten_flesh_block_1", <charm:rotten_flesh_block>,
 RecipeUtil.addShapeless("rotten_flesh_block_2", <thaumcraft:flesh_block>,
     [<charm:rotten_flesh_block>]
 );
-RecipeUtil.addShapeless("maid_token", <touhou_little_maid:gashapon_coin>,
-    [<touhou_little_maid:gashapon_coin>]
-);
 RecipeUtil.addShapeless("crimsonite_rev", <additions:crimsonite_ingot> * 9,
     [<ore:blockCrimsonite>]
 );
