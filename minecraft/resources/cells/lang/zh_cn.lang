@@ -1,0 +1,442 @@
+# Misc
+itemGroup.cells=C.E.L.L.S
+tooltip.cells.wip_do_not_use=§c⚠ 未完成——请勿使用 ⚠§r
+tooltip.cells.card.separator=、
+tooltip.cells.card.compatible=兼容：%s
+tooltip.cells.type.compact=ME压缩元件
+tooltip.cells.type.hyperdensity=超高密度ME存储元件
+tooltip.cells.type.hyperdensity_compact=超高密度ME压缩元件
+tooltip.cells.type.import_interface=输入接口
+tooltip.cells.nbt_size=NBT大小：%s
+tooltip.cells.nbt_size.warning=§c⚠ NBT大小超出安全上限！可能会导致卡顿或崩溃。将一些NBT过大的物品转移至其他区块和网络中，以避免崩溃。§r
+tooltip.cells.previous_page=上一页
+tooltip.cells.next_page=下一页
+tooltip.cells.jei_view_contents=§7按[§b%s§7]查看内容§r
+
+# Messages
+message.cells.disassemble_fail_content=无法拆解存有内容的元件！请先清空元件。
+
+# Config (GUI)
+cells.config.category.general=通用
+cells.config.category.idle_drain=待机能耗
+cells.config.category.enabled_cells=启用的元件
+
+cells.config.hdItemMaxTypes=超高密度物品元件最大类型数
+cells.config.hdFluidMaxTypes=超高密度流体元件最大类型数
+cells.config.hdItemMaxTypes.tooltip=超高密度物品存储元件能容纳的最大物品类型数量（1-16384）。注意：设置过高可能导致NBT数据过大致使崩溃。
+cells.config.hdFluidMaxTypes.tooltip=超高密度流体存储元件能容纳的最大流体类型数量（1-16384）。注意：设置过高可能导致NBT数据过大致使崩溃。
+cells.config.nbtSizeWarningThresholdKB=NBT大小警告阈值（KB）
+cells.config.nbtSizeWarningThresholdKB.tooltip=NBT大小的警告阈值，以KB为单位（1-10000）。NBT大小超出该阈值时，元件的提示框中会显示警告信息。
+cells.config.enableNbtSizeTooltip=启用NBT大小提示框
+cells.config.enableNbtSizeTooltip.tooltip=启用NBT大小计算并显示在元件提示框中。禁用该功能以提高元件性能。
+
+cells.config.compactingIdleDrain=压缩元件的待机能耗
+cells.config.hdIdleDrain=超高密度物品元件的待机能耗
+cells.config.hdCompactingIdleDrain=超高密度压缩元件的待机能耗
+cells.config.fluidHdIdleDrain=超高密度流体元件的待机能耗
+cells.config.compactingIdleDrain.tooltip=压缩元件的待机能耗（被动AE/t消耗）
+cells.config.hdIdleDrain.tooltip=超高密度元件的待机能耗（被动AE/t消耗）
+cells.config.hdCompactingIdleDrain.tooltip=超高密度压缩元件的待机能耗（被动AE/t消耗）
+cells.config.fluidHdIdleDrain.tooltip=超高密度流体元件的待机能耗（被动AE/t消耗）
+
+cells.config.enableCompactingCell=启用压缩元件
+cells.config.enableHDCells=启用超高密度元件
+cells.config.enableHDCompactingCells=启用超高密度压缩元件
+cells.config.enableFluidHDCells=启用超高密度流体元件
+cells.config.enableCompactingCells.tooltip=启用压缩存储元件
+cells.config.enableHDCells.tooltip=启用超高密度物品存储元件
+cells.config.enableHDCompactingCells.tooltip=启用超高密度压缩存储元件
+cells.config.enableFluidHDCells.tooltip=启用超高密度流体存储元件
+
+# Compacting Cells
+item.cells.compacting_cell.1k.name=1k-ME压缩元件
+item.cells.compacting_cell.4k.name=4k-ME压缩元件
+item.cells.compacting_cell.16k.name=16k-ME压缩元件
+item.cells.compacting_cell.64k.name=64k-ME压缩元件
+item.cells.compacting_cell.256k.name=256k-ME压缩元件
+item.cells.compacting_cell.1m.name=1MB-ME压缩元件
+item.cells.compacting_cell.4m.name=4MB-ME压缩元件
+item.cells.compacting_cell.16m.name=16MB-ME压缩元件
+item.cells.compacting_cell.64m.name=64MB-ME压缩元件
+item.cells.compacting_cell.256m.name=256MB-ME压缩元件
+item.cells.compacting_cell.1g.name=1GB-ME压缩元件
+item.cells.compacting_cell.2g.name=2GB-ME压缩元件
+
+# Compacting Components
+item.cells.compacting_component.1k.name=1k-ME压缩组件
+item.cells.compacting_component.4k.name=4k-ME压缩组件
+item.cells.compacting_component.16k.name=16k-ME压缩组件
+item.cells.compacting_component.64k.name=64k-ME压缩组件
+item.cells.compacting_component.256k.name=256k-ME压缩组件
+item.cells.compacting_component.1m.name=1MB-ME压缩组件
+item.cells.compacting_component.4m.name=4MB-ME压缩组件
+item.cells.compacting_component.16m.name=16MB-ME压缩组件
+item.cells.compacting_component.64m.name=64MB-ME压缩组件
+item.cells.compacting_component.256m.name=256MB-ME压缩组件
+item.cells.compacting_component.1g.name=1GB-ME压缩组件
+item.cells.compacting_component.2g.name=2GB-ME压缩组件
+
+# Overflow Card
+item.cells.overflow_card.name=溢出销毁卡
+tooltip.cells.overflow_card.desc=在元件已满时销毁溢出的物品
+
+# Ore Dictionary Card
+item.cells.oredict_card.name=矿物词典卡
+tooltip.cells.oredict_card.desc=允许输入矿物词典等效的物品
+
+# Trash Unselected Card
+item.cells.trash_unselected_card.name=过滤销毁卡
+tooltip.cells.trash_unselected_card.desc=销毁不匹配过滤设置的物品
+tooltip.cells.trash_unselected_card.warning=警告：该卡没有任何保护措施！请谨慎使用。
+
+# Equal Distribution Card
+item.cells.equal_distribution_card.1x.name=均分卡（1x）
+item.cells.equal_distribution_card.2x.name=均分卡（2x）
+item.cells.equal_distribution_card.4x.name=均分卡（4x）
+item.cells.equal_distribution_card.8x.name=均分卡（8x）
+item.cells.equal_distribution_card.16x.name=均分卡（16x）
+item.cells.equal_distribution_card.32x.name=均分卡（32x）
+item.cells.equal_distribution_card.63x.name=均分卡（63x）
+item.cells.equal_distribution_card.infinite.name=均分卡（无限制）
+tooltip.cells.equal_distribution_card.desc=将元件可容纳类型限制为%d，并均分容量
+tooltip.cells.equal_distribution_card.desc.infinite=将容量均分给所有类型。如果你在配置中增加了“最大类型数”，使用该升级卡。
+
+# Compression Tier Card
+item.cells.compression_tier_card.3x.name=压缩等级卡（3x）
+item.cells.compression_tier_card.6x.name=压缩等级卡（6x）
+item.cells.compression_tier_card.9x.name=压缩等级卡（9x）
+item.cells.compression_tier_card.12x.name=压缩等级卡（12x）
+item.cells.compression_tier_card.15x.name=压缩等级卡（15x）
+tooltip.cells.compression_tier_card.desc=支持最多%d级压缩。安装后需重新放入元件以应用新的压缩等级。
+
+# Decompression Tier Card
+item.cells.decompression_tier_card.3x.name=解压等级卡（3x）
+item.cells.decompression_tier_card.6x.name=解压等级卡（6x）
+item.cells.decompression_tier_card.9x.name=解压等级卡（9x）
+item.cells.decompression_tier_card.12x.name=解压等级卡（12x）
+item.cells.decompression_tier_card.15x.name=解压等级卡（15x）
+tooltip.cells.decompression_tier_card.desc=支持最多%d级解压。安装后需重新放入元件以应用新的解压等级。
+
+# Hyper-Density Cells (1k-1G max, each displayed byte represents ~2.1B actual storage)
+item.cells.hyper_density_cell.1k.name=1k-超高密度ME存储元件
+item.cells.hyper_density_cell.4k.name=4k-超高密度ME存储元件
+item.cells.hyper_density_cell.16k.name=16k-超高密度ME存储元件
+item.cells.hyper_density_cell.64k.name=64k-超高密度ME存储元件
+item.cells.hyper_density_cell.256k.name=256k-超高密度ME存储元件
+item.cells.hyper_density_cell.1m.name=1MB-超高密度ME存储元件
+item.cells.hyper_density_cell.4m.name=4MB-超高密度ME存储元件
+item.cells.hyper_density_cell.16m.name=16MB-超高密度ME存储元件
+item.cells.hyper_density_cell.64m.name=64MB-超高密度ME存储元件
+item.cells.hyper_density_cell.256m.name=256MB-超高密度ME存储元件
+item.cells.hyper_density_cell.1g.name=1GB-超高密度ME存储元件
+
+# Hyper-Density Components
+item.cells.hyper_density_component.1k.name=1k-超高密度ME存储组件
+item.cells.hyper_density_component.4k.name=4k-超高密度ME存储组件
+item.cells.hyper_density_component.16k.name=16k-超高密度ME存储组件
+item.cells.hyper_density_component.64k.name=64k-超高密度ME存储组件
+item.cells.hyper_density_component.256k.name=256k-超高密度ME存储组件
+item.cells.hyper_density_component.1m.name=1MB-超高密度ME存储组件
+item.cells.hyper_density_component.4m.name=4MB-超高密度ME存储组件
+item.cells.hyper_density_component.16m.name=16MB-超高密度ME存储组件
+item.cells.hyper_density_component.64m.name=64MB-超高密度ME存储组件
+item.cells.hyper_density_component.256m.name=256MB-超高密度ME存储组件
+item.cells.hyper_density_component.1g.name=1GB-超高密度ME存储组件
+
+# Hyper-Density Compacting Cells (1k-1G max, each displayed byte represents ~2.1B actual storage)
+item.cells.hyper_density_compacting_cell.1k.name=1k-超高密度ME压缩元件
+item.cells.hyper_density_compacting_cell.4k.name=4k-超高密度ME压缩元件
+item.cells.hyper_density_compacting_cell.16k.name=16k-超高密度ME压缩元件
+item.cells.hyper_density_compacting_cell.64k.name=64k-超高密度ME压缩元件
+item.cells.hyper_density_compacting_cell.256k.name=256k-超高密度ME压缩元件
+item.cells.hyper_density_compacting_cell.1m.name=1MB-超高密度ME压缩元件
+item.cells.hyper_density_compacting_cell.4m.name=4MB-超高密度ME压缩元件
+item.cells.hyper_density_compacting_cell.16m.name=16MB-超高密度ME压缩元件
+item.cells.hyper_density_compacting_cell.64m.name=64MB-超高密度ME压缩元件
+item.cells.hyper_density_compacting_cell.256m.name=256MB-超高密度ME压缩元件
+item.cells.hyper_density_compacting_cell.1g.name=1GB-超高密度ME压缩元件
+
+# Hyper-Density Compacting Components
+item.cells.hyper_density_compacting_component.1k.name=1k-超高密度ME压缩组件
+item.cells.hyper_density_compacting_component.4k.name=4k-超高密度ME压缩组件
+item.cells.hyper_density_compacting_component.16k.name=16k-超高密度ME压缩组件
+item.cells.hyper_density_compacting_component.64k.name=64k-超高密度ME压缩组件
+item.cells.hyper_density_compacting_component.256k.name=256k-超高密度ME压缩组件
+item.cells.hyper_density_compacting_component.1m.name=1MB-超高密度ME压缩组件
+item.cells.hyper_density_compacting_component.4m.name=4MB-超高密度ME压缩组件
+item.cells.hyper_density_compacting_component.16m.name=16MB-超高密度ME压缩组件
+item.cells.hyper_density_compacting_component.64m.name=64MB-超高密度ME压缩组件
+item.cells.hyper_density_compacting_component.256m.name=256MB-超高密度ME压缩组件
+item.cells.hyper_density_compacting_component.1g.name=1GB-超高密度ME压缩组件
+
+# Hyper-Density Fluid Cells (1k-1G)
+item.cells.hyper_density_fluid_cell.1k.name=1k-超高密度ME流体存储元件
+item.cells.hyper_density_fluid_cell.4k.name=4k-超高密度ME流体存储元件
+item.cells.hyper_density_fluid_cell.16k.name=16k-超高密度ME流体存储元件
+item.cells.hyper_density_fluid_cell.64k.name=64k-超高密度ME流体存储元件
+item.cells.hyper_density_fluid_cell.256k.name=256k-超高密度ME流体存储元件
+item.cells.hyper_density_fluid_cell.1m.name=1MB-超高密度ME流体存储元件
+item.cells.hyper_density_fluid_cell.4m.name=4MB-超高密度ME流体存储元件
+item.cells.hyper_density_fluid_cell.16m.name=16MB-超高密度ME流体存储元件
+item.cells.hyper_density_fluid_cell.64m.name=64MB-超高密度ME流体存储元件
+item.cells.hyper_density_fluid_cell.256m.name=256MB-超高密度ME流体存储元件
+item.cells.hyper_density_fluid_cell.1g.name=1GB-超高密度ME流体存储元件
+
+# Hyper-Density Fluid Components
+item.cells.hyper_density_fluid_component.1k.name=1k-超高密度ME流体存储组件
+item.cells.hyper_density_fluid_component.4k.name=4k-超高密度ME流体存储组件
+item.cells.hyper_density_fluid_component.16k.name=16k-超高密度ME流体存储组件
+item.cells.hyper_density_fluid_component.64k.name=64k-超高密度ME流体存储组件
+item.cells.hyper_density_fluid_component.256k.name=256k-超高密度ME流体存储组件
+item.cells.hyper_density_fluid_component.1m.name=1MB-超高密度ME流体存储组件
+item.cells.hyper_density_fluid_component.4m.name=4MB-超高密度ME流体存储组件
+item.cells.hyper_density_fluid_component.16m.name=16MB-超高密度ME流体存储组件
+item.cells.hyper_density_fluid_component.64m.name=64MB-超高密度ME流体存储组件
+item.cells.hyper_density_fluid_component.256m.name=256MB-超高密度ME流体存储组件
+item.cells.hyper_density_fluid_component.1g.name=1GB-超高密度ME流体存储组件
+
+# Compacting Cell Tooltips
+tooltip.cells.compacting_cell.not_partitioned=需进行分区才能使用
+tooltip.cells.compacting_cell.stores_one_type=以压缩形式存储一种物品类型
+tooltip.cells.compacting_cell.insert_to_set_compression=放入分区设定的物品以设置压缩链
+tooltip.cells.compacting_cell.converts_up=压缩为：%s
+tooltip.cells.compacting_cell.converts_down=解压为：%s
+tooltip.cells.compacting_cell.no_compression=该物品无可用的压缩形式。确保分区的物品存在有效的2x2或3x3可逆合成配方。
+tooltip.cells.compacting_cell.ioport_warning=如果在IO端口中使用它们，可能会导致所在的AE2网络中出现“幽灵物品”。重启服务器即可解决该问题。
+
+# Hyper-Density Tooltips
+tooltip.cells.hyper_density_cell.info=超高密度：每字节约17.2B物品
+tooltip.cells.hyper_density_component.info=超高密度ME存储组件
+tooltip.cells.hyper_density_fluid_cell.info=超高密度流体：每字节约17.2M桶
+tooltip.cells.hyper_density_fluid_component.info=超高密度ME流体存储组件
+
+# Upgrade Tooltips
+tooltip.cells.upgrade.overflow_active=溢出销毁
+tooltip.cells.upgrade.equal_distribution_active=分割为%d种类型
+tooltip.cells.upgrade.equal_distribution_active.infinite=启用均分
+tooltip.cells.upgrade.compression_tier_active=压缩等级：%d
+tooltip.cells.upgrade.decompression_tier_active=解压等级：%d
+tooltip.cells.upgrade.oredict_active=矿物词典转换已激活
+
+# Configurable Storage Cell
+item.cells.configurable_cell.name=可配置ME存储元件
+item.cells.configurable_cell.name_configured=可配置ME存储元件（%s）
+tooltip.cells.configurable_cell.no_component=未安装组件！放入ME存储组件来定义容量。
+tooltip.cells.configurable_cell.info=可接受任意ME存储组件以定义容量和类型。自带内置的均分功能。
+tooltip.cells.component.configurable_compatible=§b兼容可配置元件§r
+tooltip.cells.configurable_cell.capacity_per_type.item=每种类型上限：%s物品
+tooltip.cells.configurable_cell.capacity_per_type.fluid=每种类型上限：%s mB
+tooltip.cells.configurable_cell.capacity_per_type.essentia=每种类型上限：%s源质
+tooltip.cells.configurable_cell.capacity_per_type.gas=每种类型上限：%s mB气体
+
+# Configurable Cell GUI
+gui.cells.configurable_cell.capacity_title.none=每种类型容量：
+gui.cells.configurable_cell.capacity_title.item=每种类型容量（物品）：
+gui.cells.configurable_cell.capacity_title.fluid=每种类型容量（mB）：
+gui.cells.configurable_cell.capacity_title.essentia=每种类型容量（源质）：
+gui.cells.configurable_cell.capacity_title.gas=每种类型容量（mB气体）：
+gui.cells.configurable_cell.no_component=未知
+gui.cells.configurable_cell.types_title=类型：
+
+# Configurable Cell Config
+cells.config.configurableCellIdleDrain=可配置元件的待机能耗
+cells.config.configurableCellIdleDrain.tooltip=可配置元件的待机能耗（被动AE/t消耗）
+cells.config.enableConfigurableCells=启用可配置元件
+cells.config.enableConfigurableCells.tooltip=启用可配置存储元件
+cells.config.configurableCellItemMaxTypes=可配置物品元件最大类型数
+cells.config.configurableCellItemMaxTypes.tooltip=可配置物品元件能容纳的最大类型数量（1-16384）
+cells.config.configurableCellFluidMaxTypes=可配置流体元件最大类型数
+cells.config.configurableCellFluidMaxTypes.tooltip=可配置流体元件能容纳的最大类型数量（1-16384）
+cells.config.configurableCellEssentiaMaxTypes=可配置源质元件最大类型数
+cells.config.configurableCellEssentiaMaxTypes.tooltip=可配置源质元件能容纳的最大类型数量（1-16384）
+cells.config.configurableCellGasMaxTypes=可配置气体元件最大类型数
+cells.config.configurableCellGasMaxTypes.tooltip=可配置气体元件能容纳的最大类型数量（1-16384）
+
+# Compressed Calculation Prints
+item.cells.compressed_calculation_print.compressed.name=压缩运算电路板
+item.cells.compressed_calculation_print.double_compressed.name=二重压缩运算电路板
+item.cells.compressed_calculation_print.triple_compressed.name=三重压缩运算电路板
+item.cells.compressed_calculation_print.quadruple_compressed.name=四重压缩运算电路板
+
+# Compressed Engineering Prints
+item.cells.compressed_engineering_print.compressed.name=压缩工程电路板
+item.cells.compressed_engineering_print.double_compressed.name=二重压缩工程电路板
+item.cells.compressed_engineering_print.triple_compressed.name=三重压缩工程电路板
+item.cells.compressed_engineering_print.quadruple_compressed.name=四重压缩工程电路板
+
+# Compressed Logic Prints
+item.cells.compressed_logic_print.compressed.name=压缩逻辑电路板
+item.cells.compressed_logic_print.double_compressed.name=二重压缩逻辑电路板
+item.cells.compressed_logic_print.triple_compressed.name=三重压缩逻辑电路板
+item.cells.compressed_logic_print.quadruple_compressed.name=四重压缩逻辑电路板
+
+# Compressed Silicon Prints
+item.cells.compressed_silicon_print.compressed.name=压缩硅板
+item.cells.compressed_silicon_print.double_compressed.name=二重压缩硅板
+item.cells.compressed_silicon_print.triple_compressed.name=三重压缩硅板
+item.cells.compressed_silicon_print.quadruple_compressed.name=四重压缩硅板
+
+# Overclocked Processors
+item.cells.overclocked_processor.calculation.name=超频运算处理器
+item.cells.overclocked_processor.engineering.name=超频工程处理器
+item.cells.overclocked_processor.logic.name=超频逻辑处理器
+
+# Singularity Processors
+item.cells.singularity_processor.calculation.name=奇点运算处理器
+item.cells.singularity_processor.engineering.name=奇点工程处理器
+item.cells.singularity_processor.logic.name=奇点逻辑处理器
+
+# Import Interface
+tile.cells.import_interface.name=输入接口
+item.cells.part.import_interface.name=输入接口
+gui.cells.import_interface.title=输入接口
+gui.cells.import_interface.max_slot_size=槽位最大容量
+gui.cells.import_interface.max_slot_size.tooltip=槽位中容纳的最大物品（或流体）数。
+gui.cells.import_interface.max_slot_size.items.tooltip=槽位容量：§b%d§r 物品
+gui.cells.import_interface.max_slot_size.fluids.tooltip=槽位容量：§b%d§r mB
+gui.cells.import_interface.polling_rate=轮询率
+gui.cells.polling_rate.title=询率
+gui.cells.import_interface.polling_rate.tooltip=输入物品的固定时间间隔（0=AE2的默认值，设置为非零值时以刻为单位）
+gui.cells.import_interface.polling_rate.adaptive.tooltip=轮询率：自适应
+gui.cells.import_interface.polling_rate.custom.tooltip=轮询率：§r每§b%s§r输入一次
+gui.cells.import_interface.clear_filters=清空过滤项
+gui.cells.import_interface.clear_filters.tooltip=清除所有过滤槽位。将跳过存有物品/流体的过滤槽位。
+tooltip.cells.import_interface.info=通过过滤槽位将物品输入至ME网络。不支持补货或合成。
+message.cells.memory_card.filters_saved=已将设置与过滤项保存至内存卡。
+
+# Import Interface warnings
+message.cells.import_interface.storage_not_empty=无法在存储槽位非空时更改过滤项。
+message.cells.import_interface.filter_duplicate=其他槽位中已存在该过滤项。
+message.cells.import_interface.filters_not_added=有%d个过滤项无法被添加（无可用槽位）：\n- %s
+
+# Configurable Cell warnings
+message.cells.configurable_cell.split_stack=在插入组件前，需先拆分元件堆叠。
+message.cells.configurable_cell.types_min=类型上限最低为1。
+message.cells.configurable_cell.types_over_config=类型上限不能大于配置的最大值。
+message.cells.configurable_cell.types_below_stored=类型上限不能小于当前已存储的类型数。
+message.cells.configurable_cell.types_capacity_exceeded=类型上限将超出已存储内容的每种类型容量。
+
+# Fluid Import Interface
+tile.cells.import_fluid_interface.name=流体输入接口
+item.cells.part.import_fluid_interface.name=流体输入接口
+gui.cells.import_fluid_interface.title=流体输入接口
+tooltip.cells.import_fluid_interface.info=通过过滤槽位将流体输入至ME网络。不支持补货或合成。
+tooltip.cells.type.import_fluid_interface=流体输入接口
+tooltip.cells.fluid_import_interface.amount=%d/%d mB
+
+# Fluid Import Interface warnings
+message.cells.import_fluid_interface.filter_duplicate=其他槽位中已存在该流体过滤项。
+message.cells.import_fluid_interface.not_fluid_container=该物品内不含流体。
+message.cells.import_fluid_interface.filters_not_added=有%d个流体过滤项无法被添加（无可用槽位）：\n- %s
+
+# Import Interface no space error
+message.cells.import_interface.no_filter_space=无可用的空闲过滤槽位。
+
+# Export Interface
+tile.cells.export_interface.name=输出接口
+item.cells.part.export_interface.name=输出接口
+gui.cells.export_interface.title=输出接口
+gui.cells.export_interface.max_slot_size=最大槽位容量
+gui.cells.export_interface.max_slot_size.tooltip=槽位中容纳的最大物品数。
+gui.cells.export_interface.max_slot_size.items.tooltip=槽位容量：§b%d§r 物品
+gui.cells.export_interface.polling_rate=轮询率
+gui.cells.export_interface.polling_rate.tooltip=输出物品的时间间隔（0=AE2的默认值，设置为非零值时以刻为单位）
+gui.cells.export_interface.polling_rate.adaptive.tooltip=轮询率：自适应
+gui.cells.export_interface.polling_rate.custom.tooltip=轮询率：§r每§b%s§r输出一次
+gui.cells.export_interface.clear_filters=清空过滤项
+gui.cells.export_interface.clear_filters.tooltip=清除所有过滤项，并将存储的物品/流体发送回网络。
+tooltip.cells.export_interface.info=通过过滤槽位从ME网络输出物品。物品可由管道或漏斗提取。
+tooltip.cells.type.export_interface=输出接口
+
+# Export Interface warnings
+message.cells.export_interface.filter_duplicate=该其他槽位中已存在该过滤项。
+message.cells.export_interface.filters_not_added=有%d个过滤项无法被添加（无可用槽位）：\n- %s
+
+# Fluid Export Interface
+tile.cells.export_fluid_interface.name=流体输出接口
+item.cells.part.export_fluid_interface.name=流体输出接口
+gui.cells.export_fluid_interface.title=流体输出接口
+gui.cells.export_fluid_interface.max_slot_size=M最大槽位容量
+gui.cells.export_fluid_interface.max_slot_size.tooltip=槽位中容纳的最大流体数（mB）。
+gui.cells.export_fluid_interface.max_slot_size.fluids.tooltip=槽位容量：§b%d§r mB
+gui.cells.export_fluid_interface.polling_rate=P轮询率
+gui.cells.export_fluid_interface.polling_rate.tooltip=输出流体的时间间隔（0=AE2的默认值，设置为非零值时以刻为单位）
+gui.cells.export_fluid_interface.polling_rate.adaptive.tooltip=P轮询率：自适应
+gui.cells.export_fluid_interface.polling_rate.custom.tooltip=轮询率：§r每§b%s§r输出一次
+tooltip.cells.export_fluid_interface.info=通过过滤槽位从ME网络输出流体。流体可由管道提取。
+tooltip.cells.type.export_fluid_interface=流体输出接口
+tooltip.cells.export_fluid_interface.amount=%d/%d mB
+
+# Fluid Export Interface warnings
+message.cells.export_fluid_interface.filter_duplicate=其他槽位中已存在该流体过滤项。
+message.cells.export_fluid_interface.not_fluid_container=该物品内不含流体。
+message.cells.export_fluid_interface.filters_not_added=有%d个流体过滤项无法被添加（无可用槽位）：\n- %s
+
+# Import Interface Controls Help
+gui.cells.controls.use_settings=通过调高§b槽位容量§r和§b轮询率§r来获得最佳性能。
+gui.cells.controls.use_cards=§6溢出销毁卡§r和§6过滤销毁卡§r应优先于垃圾桶等其他方案使用。
+gui.cells.controls.capacity_cards=使用§6容量卡§r来增加更多过滤页。
+gui.cells.controls.memory_card_sneak=潜行 + 右键点击：保存设置。
+gui.cells.controls.memory_card_filter=潜行 + §b%s§r + 右键点击：保存设置和过滤项。
+gui.cells.controls.key_not_set=（未设置）
+gui.cells.controls.quick_add=§b%s§r：将悬停物品添加到首个空闲过滤槽位。
+gui.cells.controls.jei_drag=从JEI拖拽以添加到过滤项。
+
+# Chat messages
+chat.cells.polling_rate_delayed=§e轮询率已保存，会在下次连接到AE2网络时生效。§r
+
+# Keybinds
+key.cells.category=C.E.L.L.S
+key.cells.memory_card_include_filters.desc=将设置与过滤项保存至内存卡
+key.cells.quick_add_to_filter.desc=快速添加到过滤项
+
+# JEI Cell View
+jei.cells.cellview.title=元件内容
+jei.cells.cellview.size=大小：
+jei.cells.cellview.types=类型：
+jei.cells.cellview.per_type=每种类型
+jei.cells.cellview.nbt_size=NBT大小：
+jei.cells.cellview.no_data=无可用元件数据
+jei.cells.cellview.not_partitioned=未分区
+jei.cells.cellview.chain_pending=等待首次放入
+jei.cells.cellview.compression_tiers=（压缩%s级，解压%s级）
+jei.cells.cellview.tier=等级
+jei.cells.cellview.tiers=等级
+
+# JEI Cell View - Units
+jei.cells.cellview.unit.items=物品
+jei.cells.cellview.unit.fluid=mB
+jei.cells.cellview.unit.essentia=源质
+jei.cells.cellview.unit.gas=mB 气体
+
+# JEI Cell View - Item Tooltips
+jei.cells.cellview.tooltip.stored_units=已存储：%s %s
+jei.cells.cellview.tooltip.bytes_used=字节：%s
+jei.cells.cellview.tooltip.virtual_form=压缩/解压自（虚拟）
+
+# JEI Cell View - Size Row Tooltips
+jei.cells.cellview.tooltip.size_full=大小：%s / %s 字节
+jei.cells.cellview.tooltip.hd_explanation=超高密度元件内部具有存储倍率
+jei.cells.cellview.tooltip.hd_multiplier=每字节存储约%s物品/桶流体
+
+# JEI Cell View - Types Row Tooltips
+jei.cells.cellview.tooltip.types_info=每种存储的类型都会预留开销字节
+jei.cells.cellview.tooltip.overhead_info=每种类型字节：%s
+jei.cells.cellview.tooltip.overhead_total=类型总开销：%s 字节
+jei.cells.cellview.tooltip.equal_distribution_builtin=内置均分（可配置元件）
+jei.cells.cellview.tooltip.equal_distribution_upgrade=均分已启用（来自升级卡）
+jei.cells.cellview.tooltip.equal_distribution_explain=总容量在所有类型槽位间均分
+jei.cells.cellview.tooltip.configurable_types=均分：容量按类型分割
+jei.cells.cellview.tooltip.per_type_limit=每种类型最大数量：%s
+jei.cells.cellview.tooltip.max_types_limit=最大类型数量：%s
+
+# JEI Cell View - Compacting Cell Tooltips
+jei.cells.cellview.tooltip.partition_required=元件使用前需进行分区
+jei.cells.cellview.tooltip.chain_pending_explain=物品压缩链将在首次放入时设定
+jei.cells.cellview.tooltip.compression_explain=物品会以单一池形式存储，可呈现多种形态
+jei.cells.cellview.tooltip.tiers_up=%s层更高%s（压缩）
+jei.cells.cellview.tooltip.tiers_down=%s层更低%s（解压）
+jei.cells.cellview.tooltip.oredict_enabled=矿物词典：接受等效物品
+
+# JEI Cell View - NBT Tooltip
+jei.cells.cellview.tooltip.nbt_info=NBT数据过大会致使崩溃或存档损坏。

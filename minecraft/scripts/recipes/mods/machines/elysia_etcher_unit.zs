@@ -105,6 +105,12 @@ function addEtcherRecipe(output as IItemStack, inputs as IItemStack[], level as 
 addEtcherRecipe(<appliedenergistics2:material:22>, [<minecraft:gold_ingot>, <minecraft:redstone>, <appliedenergistics2:material:5>], 1);
 addEtcherRecipe(<appliedenergistics2:material:23>, [<appliedenergistics2:material:10>, <minecraft:redstone>, <appliedenergistics2:material:5>], 1);
 addEtcherRecipe(<appliedenergistics2:material:24>, [<minecraft:diamond>, <minecraft:redstone>, <appliedenergistics2:material:5>], 1);
+addEtcherRecipe(<cells:overclocked_processor>, [<cells:compressed_calculation_print>, <appliedenergistics2:material:6>, <cells:compressed_silicon_print>], 1);
+addEtcherRecipe(<cells:overclocked_processor:1>, [<cells:compressed_engineering_print>, <appliedenergistics2:material:6>, <cells:compressed_silicon_print>], 1);
+addEtcherRecipe(<cells:overclocked_processor:2>, [<cells:compressed_logic_print>, <appliedenergistics2:material:6>, <cells:compressed_silicon_print>], 1);
+addEtcherRecipe(<cells:singularity_processor>, [<cells:compressed_calculation_print:3>, <avaritia:resource:4>, <cells:compressed_silicon_print:3>], 1);
+addEtcherRecipe(<cells:singularity_processor:1>, [<cells:compressed_engineering_print:3>, <avaritia:resource:4>, <cells:compressed_silicon_print:3>], 1);
+addEtcherRecipe(<cells:singularity_processor:2>, [<cells:compressed_logic_print:3>, <avaritia:resource:4>, <cells:compressed_silicon_print:3>], 1);
 addEtcherRecipe(<threng:material:6>, [<threng:material:5>, <minecraft:redstone>, <appliedenergistics2:material:5>], 1);
 addEtcherRecipe(<threng:material:14>, [<threng:material:13>, <minecraft:redstone>, <appliedenergistics2:material:5>], 1);
 addEtcherRecipe(<crazyae:material:16>, [<appliedenergistics2:material:22>, <appliedenergistics2:material:6>, <appliedenergistics2:material:24>], 1);

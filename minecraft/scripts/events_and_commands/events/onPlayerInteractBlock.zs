@@ -329,7 +329,8 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
 
     var casterList as string[] = [
         "thaumcraft:caster_basic",
-        "thaumicaugmentation:gauntlet"
+        "thaumicaugmentation:gauntlet",
+        "avaritia:crystal_caster"
     ];
     //Crimson Portal Summoning Ritual
     if (!event.world.remote && event.hand == "MAIN_HAND" && event.block.definition.id == "additions:bloody_ancient_stone" && !isNull(event.player.mainHandHeldItem)) {
