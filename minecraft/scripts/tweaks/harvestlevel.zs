@@ -31,9 +31,6 @@ import mods.contenttweaker.Item;
 <item:astralsorcery:blockcustomore:1>.asBlock().definition.hardness = 12.0f;
 <item:astralsorcery:blockcustomore:1>.asBlock().definition.setHarvestLevel("pickaxe", 4);
 
-<item:betterendforge:thallasium_ore>.asBlock().definition.hardness = 20.0f;
-<item:betterendforge:thallasium_ore>.asBlock().definition.setHarvestLevel("pickaxe", 11);
-
 <item:moretcon:blockgallium>.asBlock().definition.setHarvestLevel("pickaxe", 9);
 
 <item:divinerpg:netherite_ore>.asBlock().definition.setHarvestLevel("pickaxe", 4);

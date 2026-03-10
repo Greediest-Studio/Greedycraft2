@@ -28,7 +28,6 @@ recipes.remove(<mekanismmultiblockmachine:largewindgenerator>);
 recipes.remove(<mekanismmultiblockmachine:largegasgenerator>);
 recipes.removeByRecipeName("biomesoplenty:amber_block");
 recipes.removeByRecipeName("biomesoplenty:amber");
-recipes.removeByRecipeName("betterendforge:amber_block");
 recipes.removeByRecipeName("botania:quartztypedark_0");
 recipes.removeByRecipeName("thaumictinkerer:black_quartz_block");
 recipes.removeByRecipeName("actuallyadditions:recipes149");

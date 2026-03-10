@@ -95,12 +95,7 @@ GameStagesUtil.stageChaoticDominator.addIngredients([
     <ometweaks:blackhole_capacitor>,
     <ometweaks:twilit_capacitor>,
     <ometweaks:curse_capacitor>,
-    <ometweaks:killer_capacitor>,
-    <betterendforge:thallasium_ingot>,
-    <betterendforge:thallasium_block>,
-    <betterendforge:thallasium_nugget>,
-    <betterendforge:thallasium_ore>,
-    <ore:dustThallasium>
+    <ometweaks:killer_capacitor>
 ], true);
 
 GameStagesUtil.stageGettingStarted.addIngredients([
@@ -2058,10 +2053,6 @@ GameStagesUtil.stageEpicEngineer.addIngredients([
     <ore:blockNylon6>,
     <ore:nuggetNylon6>,
     <ore:dustNylon6>,
-    <betterendforge:terminite_ingot>,
-    <betterendforge:terminite_block>,
-    <betterendforge:terminite_nugget>,
-    <ore:dustTerminite>,
     <ore:ingotNeptunium>,
     <ore:blockNeptunium>,
     <ore:nuggetNeptunium>,

@@ -560,7 +560,6 @@ val removedRecipeNames as string[] = [
     "mysticalagriculture:ingotsoularium",
     "gct_ores:command_dismantler_craft",
     "superfactorymanager:manager",
-    "betterendforge:ender_block",
     "unidict:ingotenderiron_x1_size.2",
     "enderutilities:ender_part_ender_alloy_advanced",
     "enderutilities:ender_part_ender_alloy_enhanced",

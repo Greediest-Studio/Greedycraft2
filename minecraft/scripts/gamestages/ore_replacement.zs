@@ -107,7 +107,6 @@ GameStagesUtil.stageWitherSlayer.addOreReplacement(<journey:shadiumore>, <minecr
 GameStagesUtil.stageWitherSlayer.addOreReplacement(<journey:luniumore>, <minecraft:stone>, false);
 
 GameStagesUtil.stageChaoticDominator.addOreReplacement(<gct_mobs:gravity_debris>, <aether_legacy:holystone>, false);
-GameStagesUtil.stageChaoticDominator.addOreReplacement(<betterendforge:thallasium_ore>, <minecraft:end_stone>, false);
 
 GameStagesUtil.stageChaotic.addOreReplacement(<additions:harcadium_ore>, <minecraft:stone>, false);
 GameStagesUtil.stageChaotic.addOreReplacement(<additions:nether_harcadium_ore>, <minecraft:stone>, false);

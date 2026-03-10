@@ -15,16 +15,11 @@ ConversionItem.create(<thermalfoundation:material:866>).addMatchItem(<ore:crysta
 ConversionItem.create(<mekanism:fluoriteclump>).addMatchItem(<ore:gemFluorite>).register();
 ConversionItem.create(<botania:quartztypemana>).addMatchItem(<ore:blockManaQuartz>).register();
 ConversionItem.create(<thebetweenlands:scabyst_block>).addMatchItem(<ore:blockScabyst>).register();
-ConversionItem.create(<additions:sulfur_ingot>)
-    .addMatchItem(<ore:ingotSulfur>)
-    .addMatchItem(<betterendforge:crystalline_sulphur>)
-    .addMatchItem(<betterendforge:sulphur_crystal>).register();
+ConversionItem.create(<additions:sulfur_ingot>).addMatchItem(<ore:ingotSulfur>).register();
 ConversionItem.create(<tiths:nitre>).addMatchItem(<ore:dustSaltpeter>).register();
 ConversionItem.create(<tiths:block_nitre>).addMatchItem(<ore:blockSaltpeter>).register();
 ConversionItem.create(<thaumcraft:amber>).addMatchItem(<ore:gemAmber>).register();
-ConversionItem.create(<thaumcraft:amber_block>)
-    .addMatchItem(<biomesoplenty:gem_block:7>)
-    .addMatchItem(<betterendforge:amber_block>).register();
+ConversionItem.create(<thaumcraft:amber_block>).addMatchItem(<biomesoplenty:gem_block:7>).register();
 ConversionItem.create(<quark:end_bricks_stairs>)
     .addMatchItem(<ee:end_stone_stairs>)
     .addMatchItem(<endreborn:e_end_bricks_stairs>).register();
@@ -77,7 +72,6 @@ ConversionItem.create(<additions:netherite_scrap>).addMatchItem(<netherized:neth
 ConversionItem.create(<additions:netherite_block>).addMatchItem(<netherized:netherite_block>).register();
 ConversionItem.create(<additions:netherite_ingot>).addMatchItem(<netherized:netherite_ingot>).register();
 ConversionItem.create(<netherendingores:ore_nether_vanilla:3>).addMatchItem(<netherized:nether_gold_ore>).register();
-ConversionItem.create(<appliedenergistics2:material:46>).addMatchItem(<betterendforge:ender_dust>).register();
 ConversionItem.create(<mekanism:ingot:8>).addMatchItem(<ore:ingotUranium>).register();
 ConversionItem.create(<mekanism:dust:7>).addMatchItem(<ore:dustUranium>).register();
 ConversionItem.create(<mekanism:basicblock2:10>).addMatchItem(<ore:blockUranium>).register();
