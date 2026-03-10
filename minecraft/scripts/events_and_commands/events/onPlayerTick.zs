@@ -50,7 +50,6 @@ import native.net.minecraft.entity.player.EntityPlayerMP;
 import native.net.minecraft.inventory.Container;
 import native.net.minecraft.world.WorldProvider;
 import native.net.minecraft.item.ItemStack;
-import native.net.minecraft.client.Minecraft;
 import native.net.mcreator.gctmobs.gui.GuiKabalahBuilder.GuiContainerMod;
 import native.com.teammetallurgy.atum.utils.AtumRenderHelper;
 import native.baubles.api.BaublesApi;
@@ -107,15 +106,6 @@ NetworkHandler.registerClient2ServerMessage("fps", function(server, byteBuf, pla
 });
 
 events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
-
-    if (event.side == "CLIENT") {
-        if (event.player.world.getWorldTime() % 20 == 0) {
-            var fps as int = Minecraft.getDebugFPS();
-            NetworkHandler.sendToServer("fps", function(bytebuf) {
-                bytebuf.writeInt(fps);
-            });
-        }
-    }
 
     if (event.phase != "END" || event.side != "SERVER") {
         return;

@@ -2123,7 +2123,7 @@ fascicledTrait.onHurt = function(trait, armor, player, source, damage, newDamage
                 if (isNull(armor.tag.fascicled)) {
                     player.currentItem.mutable().shrink(1);
                     armor.mutable().updateTag({fascicled : 1 as int}); 
-                    client.player.sendChat("§f你的护甲已经附着了 1 枚法罗钠晶簇！");  
+                    player.sendChat("§f你的护甲已经附着了 1 枚法罗钠晶簇！");  
                 } else {
                     var new as int = armor.tag.fascicled as int + 1;
                     var pass as bool = true;
@@ -2131,9 +2131,9 @@ fascicledTrait.onHurt = function(trait, armor, player, source, damage, newDamage
                     if (pass) {
                         player.currentItem.mutable().shrink(1);
                         armor.mutable().updateTag({fascicled : new as int});
-                        client.player.sendChat("§f你的护甲已经附着了 " + new as string + " 枚法罗钠晶簇！");
+                        player.sendChat("§f你的护甲已经附着了 " + new as string + " 枚法罗钠晶簇！");
                     } else {
-                        client.player.sendChat("§f你的护甲附着的法罗钠晶簇数量已达到上限！");
+                        player.sendChat("§f你的护甲附着的法罗钠晶簇数量已达到上限！");
                     }
                 }
             }

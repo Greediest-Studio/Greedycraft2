@@ -75,9 +75,12 @@ $expand IItemStack$getLevel() as int {
 
 events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     var player as IPlayer = event.player;
+    if (event.world.remote) {
+        return;
+    }
     //Remove the uncrafting table
     if (event.block.definition.id == "twilightforest:uncrafting_table" && !event.world.remote) {
-        client.player.sendChat("§emc_Edwin§f: 喂，你在干什么？还在想着拆物品吗？");
+        player.sendChat("§emc_Edwin§f: 喂，你在干什么？还在想着拆物品吗？");
         event.player.health = 0.0f;
         event.cancel();
     }

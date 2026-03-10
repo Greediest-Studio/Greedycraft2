@@ -2299,7 +2299,8 @@ test_damageTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trai
 test_damageTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.test_damageTrait.desc");
 test_damageTrait.afterHit = function(trait, tool, attacker, target, damageDealt, wasCritical, wasHit) {
     if (attacker instanceof IPlayer) {
-        client.player.sendChat("\u00A7b\u4F60\u9020\u6210\u4E86" + damageDealt as string + "\u70B9\u4F24\u5BB3");
+        var player as IPlayer = attacker;
+        player.sendChat("\u00A7b\u4F60\u9020\u6210\u4E86" + damageDealt as string + "\u70B9\u4F24\u5BB3");
     }
 };
 test_damageTrait.register();
@@ -3086,7 +3087,7 @@ fascicledTrait.calcDamage = function(trait, tool, attacker, target, originalDama
                 if (isNull(tool.tag.fascicled)) {
                     player.getItemInSlot(offhand).mutable().shrink(1);
                     tool.mutable().updateTag({fascicled : 1 as int}); 
-                    client.player.sendChat("\u00A7f\u4F60\u7684\u5DE5\u5177\u5DF2\u7ECF\u9644\u7740\u4E86 1 \u679A\u6CD5\u7F57\u94A0\u6676\u7C07\uFF01");  
+                    player.sendChat("\u00A7f\u4F60\u7684\u5DE5\u5177\u5DF2\u7ECF\u9644\u7740\u4E86 1 \u679A\u6CD5\u7F57\u94A0\u6676\u7C07\uFF01");  
                 } else {
                     var new as int = tool.tag.fascicled as int + 1;
                     var pass as bool = true;
@@ -3094,9 +3095,9 @@ fascicledTrait.calcDamage = function(trait, tool, attacker, target, originalDama
                     if (pass) {
                         player.getItemInSlot(offhand).mutable().shrink(1);
                         tool.mutable().updateTag({fascicled : new as int});
-                        client.player.sendChat("\u00A7f\u4F60\u7684\u5DE5\u5177\u5DF2\u7ECF\u9644\u7740\u4E86 " + new as string + " \u679A\u6CD5\u7F57\u94A0\u6676\u7C07\uFF01");
+                        player.sendChat("\u00A7f\u4F60\u7684\u5DE5\u5177\u5DF2\u7ECF\u9644\u7740\u4E86 " + new as string + " \u679A\u6CD5\u7F57\u94A0\u6676\u7C07\uFF01");
                     } else {
-                        client.player.sendChat("\u00A7f\u4F60\u7684\u5DE5\u5177\u9644\u7740\u7684\u6CD5\u7F57\u94A0\u6676\u7C07\u6570\u91CF\u5DF2\u8FBE\u5230\u4E0A\u9650\uFF01");
+                        player.sendChat("\u00A7f\u4F60\u7684\u5DE5\u5177\u9644\u7740\u7684\u6CD5\u7F57\u94A0\u6676\u7C07\u6570\u91CF\u5DF2\u8FBE\u5230\u4E0A\u9650\uFF01");
                     }
                 }
             }
