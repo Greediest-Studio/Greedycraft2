@@ -462,7 +462,7 @@ Infusion.registerRecipe("ancient_brick", "", <embers:archaic_brick>, 12, [
     <additions:putrallium_ingot>
 ]);
 
-Infusion.registerRecipe("eldritch_orb_contenttweaker", "", <bloodmagic:blood_orb>.withTag({orb: "contenttweaker:eldritch"}), 5, [
+Infusion.registerRecipe("eldritch_orb_contenttweaker", "", <bloodmagic:blood_orb>.withTag({orb: "gctcore:eldritch"}), 5, [
     <aspect:victus> * 250,
     <aspect:vacuos> * 250,
     <aspect:alienis> * 200,
@@ -478,7 +478,7 @@ Infusion.registerRecipe("eldritch_orb_contenttweaker", "", <bloodmagic:blood_orb
     <thaumcraft:ingot:1>
 ]);
 
-Infusion.registerRecipe("murder_orb_contenttweaker", "", <bloodmagic:blood_orb>.withTag({orb: "contenttweaker:murder"}), 21, [
+Infusion.registerRecipe("murder_orb_contenttweaker", "", <bloodmagic:blood_orb>.withTag({orb: "gctcore:murder"}), 21, [
     <aspect:victus> * 2250,
     <aspect:vitium> * 2100,
     <aspect:infernus> * 1850,
@@ -488,7 +488,7 @@ Infusion.registerRecipe("murder_orb_contenttweaker", "", <bloodmagic:blood_orb>.
     <aspect:mortuus> * 1600,
     <aspect:tenebrae> * 1600,
     <aspect:fabrico> * 1600
-], <bloodmagic:blood_orb>.withTag({orb: "contenttweaker:eldritch"}), [
+], <bloodmagic:blood_orb>.withTag({orb: "gctcore:eldritch"}), [
     <additions:murderite_ingot>,
     <additions:cursium_ingot>,
     <additions:murderite_ingot>,
