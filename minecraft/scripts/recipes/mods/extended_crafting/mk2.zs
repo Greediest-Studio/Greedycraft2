@@ -9,7 +9,15 @@ import mods.avaritia.Compressor;
 import mods.ctintegration.util.RecipePattern;
 import mods.extendedcrafting.TableCrafting;
 
-var orbs as IIngredient = <bloodmagic:blood_orb>.withTag({orb: "bloodmagic:transcendent"}) | <bloodmagic:blood_orb>.withTag({orb: "contenttweaker:eldritch"}) | <bloodmagic:blood_orb>.withTag({orb: "contenttweaker:murder"});
+var orbs as IIngredient = 
+	<bloodmagic:blood_orb>.withTag({orb: "bloodmagic:transcendent"}) | 
+	<bloodmagic:blood_orb>.withTag({orb: "gctcore:eldritch"}) | 
+	<bloodmagic:blood_orb>.withTag({orb: "gctcore:murder"}) |
+	<bloodmagic:blood_orb>.withTag({orb: "gctcore:truth"}) |
+	<bloodmagic:blood_orb>.withTag({orb: "gctcore:endless"}) |
+	<bloodmagic:blood_orb>.withTag({orb: "gctcore:origin"}) |
+	<bloodmagic:blood_orb>.withTag({orb: "gctcore:the_end"}) |
+	<avaritia:armok_orb>;
 
 TableCrafting.addShaped(0, <denseneutroncollectors:compressed_neutron_collector>, [
 	[null, null, <ore:ingotCoalescenceMatrix>, null, null], 

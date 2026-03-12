@@ -2488,7 +2488,8 @@ GameStagesUtil.stageWakeUp.addIngredients([
     <ore:dustNefrathite>,
     <additions:abyss_catalyst>,
     <additions:shadowberry_leaves>,
-    <additions:shadowberry>
+    <additions:shadowberry>,
+    <additions:reversed_elven_passes>
 ], false);
 
 GameStagesUtil.stageMindShock.addIngredients([
