@@ -5342,3 +5342,14 @@ lagTrait.onArmorTick = function(trait, armor, world, player) {
     }
 };
 lagTrait.register();
+
+val reversed_visionTrait = ArmorTraitBuilder.create("reversed_vision");
+reversed_visionTrait.color = Color.fromHex("ffffff").getIntColor();
+reversed_visionTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.reversed_visionTrait.name");
+reversed_visionTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.reversed_visionTrait.desc");
+reversed_visionTrait.onArmorTick = function(trait, armor, world, player) {
+    if (!isNull(player)) {
+        player.addPotionEffect(<potion:contenttweaker:reversed_vision>.makePotionEffect(20, 0, false, false));
+    }
+};
+reversed_visionTrait.register();
