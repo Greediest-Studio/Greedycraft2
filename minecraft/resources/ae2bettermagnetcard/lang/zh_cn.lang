@@ -1,0 +1,35 @@
+item.appliedenergistics2.material.card_magnet.store=安装在终端中时，中键点击以开关存储到ME网络功能
+item.appliedenergistics2.material.card_magnet.shift=按住Shift临时禁用磁引卡。
+
+gui.tooltips.appliedenergistics2.Magnet=磁引
+gui.tooltips.appliedenergistics2.MagnetEnabled=已启用
+gui.tooltips.appliedenergistics2.MagnetDisabled=已禁用
+
+gui.tooltips.appliedenergistics2.StoreToNetwork=存储到网络
+gui.tooltips.appliedenergistics2.StoreToNetworkEnabled=已启用
+gui.tooltips.appliedenergistics2.StoreToNetworkDisabled=已禁用
+
+item.ae2bettermagnetcard.magnet.available_upgrades=支持的升级：
+
+# Hint lines (with %s)
+item.appliedenergistics2.material.card_magnet.hold_shift=按住 %s 查看详细信息。
+item.appliedenergistics2.material.card_magnet.hold_shift_m=按住 %s 查看兼容的终端。
+
+# Section headers
+item.appliedenergistics2.material.card_magnet.controls=控制
+item.appliedenergistics2.material.card_magnet.configuration=配置
+item.appliedenergistics2.material.card_magnet.compatible=兼容的终端：
+
+item.ae2bettermagnetcard.hold_shift=按住 %s 查看详细信息。
+item.ae2bettermagnetcard.hold_shift_m=按住 %s 查看兼容的物品/方块。
+item.ae2bettermagnetcard.compatible_with=可安装于：
+item.ae2bettermagnetcard.bmc_upgrade.details=详细信息
+item.ae2bettermagnetcard.bmc_upgrade.generic_no_details=无附加详细信息。
+
+item.ae2bettermagnetcard.bmc_upgrade.range.name=范围卡
+item.ae2bettermagnetcard.bmc_upgrade.range.effect_short=将磁引卡的拾取半径加倍。
+item.ae2bettermagnetcard.bmc_upgrade.range.detail_range=拾取半径: %d → %d 方块
+
+item.ae2bettermagnetcard.bmc_upgrade.advanced_range.name=高级范围卡
+item.ae2bettermagnetcard.bmc_upgrade.advanced_range.effect_short=将磁引卡的拾取半径增加三倍。
+item.ae2bettermagnetcard.bmc_upgrade.advanced_range.detail_range=拾取半径: %d → %d 方块

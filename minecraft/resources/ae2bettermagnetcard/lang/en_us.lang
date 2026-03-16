@@ -1,0 +1,64 @@
+######################################################################
+# AE2BetterMagnetCard - Localization
+######################################################################
+
+
+#############################
+# Magnet Card - custom lines
+#############################
+
+item.appliedenergistics2.material.card_magnet.store=Middle click while equipped on a terminal to toggle Store into ME
+item.appliedenergistics2.material.card_magnet.shift=Hold Shift to temporarily disable the magnet.
+
+gui.tooltips.appliedenergistics2.Magnet=Magnet
+gui.tooltips.appliedenergistics2.MagnetEnabled=Enabled
+gui.tooltips.appliedenergistics2.MagnetDisabled=Disabled
+
+gui.tooltips.appliedenergistics2.StoreToNetwork=Store into Network
+gui.tooltips.appliedenergistics2.StoreToNetworkEnabled=Enabled
+gui.tooltips.appliedenergistics2.StoreToNetworkDisabled=Disabled
+
+item.ae2bettermagnetcard.magnet.available_upgrades=Supported upgrades:
+
+
+############################################
+# Magnet Card - AE2 hint lines / headers
+############################################
+
+# Hint lines
+item.appliedenergistics2.material.card_magnet.hold_shift=Hold %s for details.
+item.appliedenergistics2.material.card_magnet.hold_shift_m=Hold %s for compatible Terminals.
+
+# Section headers
+item.appliedenergistics2.material.card_magnet.controls=Controls
+item.appliedenergistics2.material.card_magnet.configuration=Configuration
+item.appliedenergistics2.material.card_magnet.compatible=Compatible terminals:
+
+
+###########################################
+# BMC Upgrade Cards - global tooltip keys
+###########################################
+
+item.ae2bettermagnetcard.hold_shift=Hold %s for details.
+item.ae2bettermagnetcard.hold_shift_m=Hold %s to show supported items / blocks.
+item.ae2bettermagnetcard.compatible_with=Installable in:
+item.ae2bettermagnetcard.bmc_upgrade.details=Details
+item.ae2bettermagnetcard.bmc_upgrade.generic_no_details=No additional details.
+
+
+##########################
+# BMC Upgrade: Range Card
+##########################
+
+item.ae2bettermagnetcard.bmc_upgrade.range.name=Range Card
+item.ae2bettermagnetcard.bmc_upgrade.range.effect_short=Doubles the Magnet Card pickup radius.
+item.ae2bettermagnetcard.bmc_upgrade.range.detail_range=Pickup radius: %d → %d blocks
+
+
+###################################
+# BMC Upgrade: Advanced Range Card
+###################################
+
+item.ae2bettermagnetcard.bmc_upgrade.advanced_range.name=Advanced Range Card
+item.ae2bettermagnetcard.bmc_upgrade.advanced_range.effect_short=Triples the Magnet Card pickup radius.
+item.ae2bettermagnetcard.bmc_upgrade.advanced_range.detail_range=Pickup radius: %d → %d blocks
