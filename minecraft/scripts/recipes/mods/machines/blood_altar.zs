@@ -338,13 +338,13 @@ function addAltarRecipe(input as IIngredient, output as IItemStack, LP as string
     });
     recipe.addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         var speed as string = (max(event.controller.getAltarSpeed() / 20 * levelSpeedMutiplierMap[level],1)) as string;
-        var time = BigInteger("1").max(BigDecimal(LP).multiply(BigDecimal(economyCount(event) as string)).divide(BigDecimal(speed),0,RoundingMode.DOWN).toBigInteger()).intValue() as int;
+        var time = BigInteger("1").max(BigDecimal(LP as string).multiply(BigDecimal(economyCount(event) as string)).divide(BigDecimal(speed as string),0,RoundingMode.DOWN).toBigInteger()).intValue() as int;
         event.factoryRecipeThread.addModifier("recipetime", RecipeModifierBuilder.create("modularmachinery:duration", "input", (time > 1 ? time as float : 1.0f), 1, false).build());
     });
     recipe.addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
         val parallelism as int = event.activeRecipe.parallelism;
         var speed as string = (max(event.controller.getAltarSpeed() / 20 * levelSpeedMutiplierMap[level],1)) as string;
-        var time = BigDecimal("1").max(BigDecimal(LP).multiply(BigDecimal(economyCount(event) as string)).divide(BigDecimal(speed),0,RoundingMode.DOWN)) as BigDecimal;
+        var time = BigDecimal("1").max(BigDecimal(LP as string).multiply(BigDecimal(economyCount(event) as string)).divide(BigDecimal(speed as string),0,RoundingMode.DOWN)) as BigDecimal;
         if (time.toBigInteger().intValue() <= 1) {
             if (BigDecimal(event.controller.getAltarLP()).compareTo(BigDecimal(economyCount(event) as string).multiply(BigDecimal(LP)).multiply(BigDecimal(parallelism as string)).divide(time,0,RoundingMode.DOWN)) == -1) {
                 event.controller.customData = event.controller.customData.update({LP : "0"});
@@ -367,7 +367,7 @@ function addAltarRecipe(input as IIngredient, output as IItemStack, LP as string
     recipe.addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
         val parallelism as int = event.activeRecipe.parallelism;
         var speed as string = (max(event.controller.getAltarSpeed() / 20 * levelSpeedMutiplierMap[level],1)) as string;
-        var time = BigDecimal("1").max(BigDecimal(LP).multiply(BigDecimal(economyCount(event) as string)).divide(BigDecimal(speed),0,RoundingMode.DOWN)) as BigDecimal;
+        var time = BigDecimal("1").max(BigDecimal(LP as string).multiply(BigDecimal(economyCount(event) as string)).divide(BigDecimal(speed as string),0,RoundingMode.DOWN)) as BigDecimal;
         if (event.activeRecipe.totalTick <= 1) {
             event.controller.customData = event.controller.customData.update({LP : BigDecimal(event.controller.getAltarLP()).subtract(BigDecimal(economyCount(event) as string).multiply(BigDecimal(LP)).multiply(BigDecimal(parallelism as string)).divide(time,0,RoundingMode.DOWN)).toBigInteger().toString()});
         }
