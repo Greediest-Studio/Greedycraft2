@@ -1,0 +1,13 @@
+name = 'P2PDetails'
+filename = 'p2pdetails-1.0.4.jar'
+side = 'both'
+
+[download]
+hash-format = 'sha1'
+hash = 'ae5366db570214897d5afc887736c07520905bc0'
+mode = 'metadata:curseforge'
+
+[update]
+[update.curseforge]
+file-id = 7774743
+project-id = 1485240

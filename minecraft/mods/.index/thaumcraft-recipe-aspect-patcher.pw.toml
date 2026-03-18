@@ -1,0 +1,13 @@
+name = 'Thaumcraft Recipe Aspect Patcher'
+filename = 'trap-1.3.0.jar'
+side = 'both'
+
+[download]
+hash-format = 'sha1'
+hash = '4926c9912cbbee7fa390db5ea0f7d21afa130124'
+mode = 'metadata:curseforge'
+
+[update]
+[update.curseforge]
+file-id = 7766760
+project-id = 1487033
