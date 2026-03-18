@@ -12,6 +12,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.item.IIngredient;
 
+import mods.randomtweaker.thaumcraft.IAspectList;
+
 var aspectMap as CTAspectStack[][IIngredient] = {
     <minecraft:wooden_axe> : [<aspect:instrumentum> * 5, <aspect:herba> * 5],
     <minecraft:wooden_pickaxe> : [<aspect:instrumentum> * 5, <aspect:herba> * 5],
@@ -95,7 +97,9 @@ var aspectMap as CTAspectStack[][IIngredient] = {
     <gct_aby:abyss_wand> : [<aspect:abyss> * 40, <aspect:perditio> * 30, <aspect:praecantatio> * 60, <aspect:dreadia> * 16, <aspect:cthulhu> * 20, <aspect:coralos> * 10],
     <biomesoplenty:ash> : [<aspect:pulvis> * 2, <aspect:ignis> * 1],
     <modularmachinery:itemmodularium> : [<aspect:machina> * 8, <aspect:structura> * 5],
-    <additions:elfsteel_ingot> : [<aspect:praecantatio> * 20, <aspect:alienis> * 5, <aspect:potentia> * 5]
+    <additions:elfsteel_ingot> : [<aspect:praecantatio> * 20, <aspect:alienis> * 5, <aspect:potentia> * 5],
+    <additions:mythsteel_ingot> : [<aspect:praecantatio> * 50, <aspect:ordo> * 15, <aspect:volatus> * 15, <aspect:auram> * 10, <aspect:caeles> * 10],
+    <gct_mobs:holysteel_ingot> : [<aspect:desiderium> * 10, <aspect:lux> * 8, <aspect:mythus> * 5]
 };
 
 for ingredient in aspectMap {
