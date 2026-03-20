@@ -122,6 +122,17 @@ events.onPlayerInteractEntity(function(event as PlayerInteractEntityEvent) {
                 }
             }
 
+            //Reversed Elven Trade
+            if (item.definition.id == "additions:reversed_elven_passes" && target instanceof IEntityLiving) {
+                var targetLiving as IEntityLiving = target;
+                if (!isNull(target.definition)) {
+                    if (target.definition.id == "gctcore:reversed_alf_master" && (isNull(targetLiving.revengeTarget) ? true : !(targetLiving.revengeTarget instanceof IPlayer)) && player.isPotionActive(<potion:contenttweaker:reversed_vision>)) {
+                        item.mutable().shrink(1);
+                        player.give(<additions:cerlinite>);
+                    }
+                }
+            }
+
         }
     }
 

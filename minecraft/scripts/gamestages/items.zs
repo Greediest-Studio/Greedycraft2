@@ -2489,7 +2489,11 @@ GameStagesUtil.stageWakeUp.addIngredients([
     <additions:abyss_catalyst>,
     <additions:shadowberry_leaves>,
     <additions:shadowberry>,
-    <additions:reversed_elven_passes>
+    <additions:reversed_elven_passes>,
+    <ore:gemCerlinite>,
+    <ore:blockCerlinite>,
+    <ore:nuggetCerlinite>,
+    <ore:dustCerlinite>
 ], false);
 
 GameStagesUtil.stageMindShock.addIngredients([
@@ -2570,5 +2574,6 @@ GameStagesUtil.stageEnderCharm.addModId(["elementalend"]);
 GameStagesUtil.stageDeepDream.addModId(["erebus", "atum"]);
 GameStagesUtil.stageLegendWizard.addModId(["embers", "soot"]);
 GameStagesUtil.stageFinal.addModId(["da"]);
+GameStagesUtil.stageWakeUp.addModId(["gaiapro"]);
 
 GameStagesUtil.stageGettingStarted.addRecipeName("tinkersurvival:cobblestone");

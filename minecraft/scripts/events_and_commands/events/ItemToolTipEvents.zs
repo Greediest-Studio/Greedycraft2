@@ -43,6 +43,32 @@ events.register(function(event as ItemTooltipEvent) {
         }
     }
 
+    //Botania Reward Bag Tooltip
+    if (!isNull(itemStack) && !isNull(itemStack.definition)) {
+        if (itemStack.definition.id == <additions:reward_bag_funf>.definition.id) {
+            if (GuiScreen.isShiftKeyDown()) {
+                event.getToolTip()[0 .. 1].add("§7开启后有概率获得以下物品§r\n" +
+                    "§f英雄勋章 x3 12.20%§r\n" +
+                    "§f神话钢锭 x4 12.20%§r\n" +
+                    "§f植物之魂 x5 9.76%§r\n" +
+                    "§f奥利哈刚锭 x3 8.13%§r\n" +
+                    "§f植物魂锭 x3 8.13%§r\n" +
+                    "§f蒲公英锭 x5 6.50%§r\n" +
+                    "§f金雏菊锭 x5 6.50%§r\n" +
+                    "§f勿忘我锭 x5 6.50%§r\n" +
+                    "§f血玫瑰锭 x5 6.50%§r\n" +
+                    "§f秋海棠锭 x5 6.50%§r\n" +
+                    "§f康乃馨锭 x5 6.50%§r\n" +
+                    "§f盖亚之心 x2 4.88%§r\n" +
+                    "§f挑战券 x2 4.88%§r\n" +
+                    "§6二十二径源泉（Ain Soph Aur）x1 0.81%§r"
+                );
+            } else {
+                event.getToolTip()[0 .. 1].add("§7按住§bSHIFT§7显示更多§r");
+            }
+        }
+    }
+
     //Hexable Basement Trait Tooltip
     if (!isNull(itemStack) && !isNull(itemStack.definition)) {
         if (TicTraitLib.hasTicTrait(itemStack, "hexable_basement") || TicTraitLib.hasTicTrait(itemStack, "hexable_basement_armor")) {

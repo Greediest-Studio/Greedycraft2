@@ -885,6 +885,11 @@ RecipeUtil.addShaped("elder_prismarine", <quark:elder_prismarine>, [
     [<additions:time_fragment>, <minecraft:prismarine>, <additions:time_fragment>],
     [<additions:time_fragment>, <additions:time_fragment>, <additions:time_fragment>]
 ]);
+RecipeUtil.addShaped("reversed_elven_passes", <additions:reversed_elven_passes>, [
+    [null, <additions:shadowberry>, null],
+    [<additions:shadowberry>, <gct_mobs:elf_passes>, <additions:shadowberry>],
+    [null, <additions:shadowberry>, null]
+]);
 /*
  * RecipeUtil.addShaped("", , [
  *  [null, null, null],
