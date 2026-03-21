@@ -61,7 +61,7 @@ events.register(function(event as ItemTooltipEvent) {
                     "§f康乃馨锭 x5 6.50%§r\n" +
                     "§f盖亚之心 x2 4.88%§r\n" +
                     "§f挑战券 x2 4.88%§r\n" +
-                    "§6二十二径源泉（Ain Soph Aur）x1 0.81%§r"
+                    "§6二十二径源泉(Ain Soph Aur) x1 0.81%§r"
                 );
             } else {
                 event.getToolTip()[0 .. 1].add("§7按住§bSHIFT§7显示更多§r");

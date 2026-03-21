@@ -3276,6 +3276,22 @@
                 }
             ]
         },
+        "gaiapro:gaiapro": {
+            "[0, 2147483647]": [
+                {
+                    "amount": "[1,2]",
+                    "chance": 1,
+                    "item": "extrabotany:treasurebox"
+                }
+            ],
+            "[2000, 2147483647]": [
+                {
+                    "amount": "[7,10]",
+                    "chance": 1,
+                    "item": "additions:reward_bag_funf"
+                }
+            ]
+        },
         "abyssalcraft:jzahar": {
             "[0, 2147483647]": [
                 {
