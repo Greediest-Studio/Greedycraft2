@@ -358,3 +358,13 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <ee:ash_key>, [
 	[null, null, null, <ore:blockDraconiumAwakened>, <moretcon:repitem:2>, null, null], 
 	[null, null, null, <ore:blockDraconiumAwakened>, <moretcon:repitem:2>, null, null]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <gaiapro:cerlinite_calling>, [
+	[<ore:blockManarium>, <ore:blockManarium>, <ore:blockManarium>, <ore:blockManarium>, <ore:blockManarium>, <ore:blockManarium>, <ore:blockManarium>], 
+	[<ore:blockManarium>, <ore:blockManarium>, <ore:blockManarium>, <ore:gemCerlinite>, <ore:blockManarium>, <ore:blockManarium>, <ore:blockManarium>], 
+	[null, <ore:ingotMithrillium>, <ore:ingotKianate>, <ore:ingotKianate>, <ore:ingotKianate>, <ore:ingotMithrillium>, null], 
+	[null, <ore:gemCerlinite>, <ore:ingotKianate>, <extrabotany:material:6>, <ore:ingotKianate>, <ore:gemCerlinite>, null], 
+	[null, <ore:ingotMithrillium>, <ore:ingotKianate>, <ore:ingotKianate>, <ore:ingotKianate>, <ore:ingotMithrillium>, null], 
+	[<ore:blockManarium>, <ore:blockManarium>, <ore:blockManarium>, <ore:gemCerlinite>, <ore:blockManarium>, <ore:blockManarium>, <ore:blockManarium>], 
+	[<ore:blockManarium>, <ore:blockManarium>, <ore:blockManarium>, <ore:blockManarium>, <ore:blockManarium>, <ore:blockManarium>, <ore:blockManarium>]
+]);

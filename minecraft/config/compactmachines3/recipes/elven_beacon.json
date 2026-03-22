@@ -1,0 +1,216 @@
+{
+  "name": "compactmachines3:elven_beacon",
+  "target-item": "gaiapro:elven_beacon",
+  "target-count": 1,
+  "duration": 200,
+  "catalyst": "gct_mobs:earth_orb",
+  "input-types": {
+    "a": {
+      "id": "minecraft:glass",
+      "meta": 0
+    },
+    "b": {
+      "id": "draconicevolution:infused_obsidian",
+      "meta": 0
+    },
+    "c": {
+      "id": "botania:elfglass",
+      "meta": 0
+    },
+    "d": {
+      "id": "jaopca:block.terrasteel_poisonous",
+      "meta": 0
+    },
+    "e": {
+      "id": "minecraft:obsidian",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "_",
+        "c",
+        "_",
+        "a"
+      ],
+      [
+        "a",
+        "c",
+        "d",
+        "c",
+        "a"
+      ],
+      [
+        "a",
+        "_",
+        "c",
+        "_",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "c",
+        "d",
+        "c",
+        "a"
+      ],
+      [
+        "a",
+        "d",
+        "d",
+        "d",
+        "a"
+      ],
+      [
+        "a",
+        "c",
+        "d",
+        "c",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "_",
+        "c",
+        "_",
+        "a"
+      ],
+      [
+        "a",
+        "c",
+        "d",
+        "c",
+        "a"
+      ],
+      [
+        "a",
+        "_",
+        "c",
+        "_",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "e",
+        "e",
+        "e",
+        "b"
+      ],
+      [
+        "b",
+        "e",
+        "e",
+        "e",
+        "b"
+      ],
+      [
+        "b",
+        "e",
+        "e",
+        "e",
+        "b"
+      ],
+      [
+        "b",
+        "b",
+        "b",
+        "b",
+        "b"
+      ]
+    ]
+  ]
+}
