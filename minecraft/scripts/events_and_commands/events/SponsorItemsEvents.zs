@@ -20,7 +20,7 @@ import native.net.minecraft.entity.player.EntityPlayerMP;
 import native.net.minecraft.util.text.TextComponentString;
 
 events.onPlayerRightClickItem(function(event as PlayerRightClickItemEvent) {
-    if (!event.world.remote && !isNull(event.item.definition)) {
+    if (!event.world.remote && !isNull(event.item) && !isNull(event.item.definition)) {
         var item as IItemStack = event.item;
         var world as IWorld = event.world;
         var player as IPlayer = event.player;
