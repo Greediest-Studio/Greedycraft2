@@ -232,7 +232,7 @@ val tooltipMap as string[][IIngredient] = {
     <gct_mobs:resonate_debris> : [game.localize("greedycraft.tooltip.gct_mobs.resonate_debris")],
     <mekanism:machineblock:4> : [game.localize("greedycraft.tooltip.mekanism.miner")],
     <appliedenergistics2:part:300> : [game.localize("greedycraft.tooltip.ae2.blockbreaker")],
-    <additions:astral_projector> : [game.localize("greedycraft.tooltip.additions.astral_projector")],
+    <additions:astral_projector> : [game.localize("greedycraft.tooltip.additions.astral_projector")]
 } as string[][IIngredient];
 
 for ingredient in tooltipMap {
