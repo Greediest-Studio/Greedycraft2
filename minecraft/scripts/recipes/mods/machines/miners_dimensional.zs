@@ -189,8 +189,9 @@ overworld.addItemUpgradeOutput(<nuclearcraft:ore:5>, FINALLIUM, 0.01);
 overworld.addItemUpgradeOutput(<nuclearcraft:ore:6>, FINALLIUM, 0.007);
 overworld.addItemUpgradeOutput(<nuclearcraft:ore:3>, FINALLIUM, 0.005);
 overworld.addItemUpgradeOutput(<mekanism:oreblock:5>, FINALLIUM, 0.015);
-overworld.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+overworld.addRecipeTooltip("§d§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 overworld.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了主世界维度标记！");
+overworld.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 overworld.setMaxThreads(1).build();
 
 var nether = RecipeBuilder.newBuilder("dim_nether", "dimensional_miner", 200);
@@ -248,8 +249,9 @@ nether.addItemUpgradeOutput(<additions:mangisite_ore>, FINALLIUM, 0.008);
 nether.addItemUpgradeOutput(<additions:oneo_ore>, FINALLIUM, 0.007);
 nether.addItemUpgradeOutput(<additions:xenidium_ore>, FINALLIUM, 0.006);
 nether.addItemUpgradeOutput(<additions:rapesesium_ore>, FINALLIUM, 0.003);
-nether.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+nether.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 nether.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了下界维度标记！");
+nether.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 nether.setMaxThreads(1).build();
 
 var end = RecipeBuilder.newBuilder("dim_end", "dimensional_miner", 200);
@@ -304,8 +306,9 @@ end.addItemUpgradeOutput(<additions:technetium_ore>, FINALLIUM, 0.003);
 end.addItemUpgradeOutput(<moretcon:oregravitonium>, FINALLIUM, 0.02);
 //波动级
 end.addItemUpgradeOutput(<additions:breedum_ore>, WAVITE, 0.0015);
-end.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+end.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 end.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了末地维度标记！");
+end.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 end.setMaxThreads(1).build();
 
 var twilightf = RecipeBuilder.newBuilder("dim_twilight_forest", "dimensional_miner", 200);
@@ -341,8 +344,9 @@ twilightf.addItemUpgradeOutput(<twilightforest:giant_obsidian>, STAINLESS, 0.005
 twilightf.addItemUpgradeOutput(<moretcon:nuggetpenguinite>, DURASTEEL, 0.01);
 //炫钢级
 twilightf.addItemUpgradeOutput(<additions:canopium_ore>, CHROMASTEEL, 0.005);
-twilightf.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+twilightf.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 twilightf.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了暮色森林维度标记！");
+twilightf.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 twilightf.setMaxThreads(1).build();
 
 var aether = RecipeBuilder.newBuilder("dim_aether", "dimensional_miner", 200);
@@ -374,8 +378,9 @@ aether.addItemUpgradeOutput(<additions:aetherium_ore>, CHROMASTEEL, 0.005);
 //终焉级
 aether.addItemUpgradeOutput(<additions:cloudite_ore>, FINALLIUM, 0.008);
 aether.addItemUpgradeOutput(<additions:molybdenum_ore>, FINALLIUM, 0.006);
-aether.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+aether.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 aether.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了天境维度标记！");
+aether.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 aether.setMaxThreads(1).build();
 
 var abysswaste = RecipeBuilder.newBuilder("dim_abyss_wasteland", "dimensional_miner", 200);
@@ -404,8 +409,9 @@ abysswaste.addItemUpgradeOutput(<additions:guaninite_ore>, AEONSTEEL, 0.012);
 //终焉级
 abysswaste.addItemUpgradeOutput(<additions:stripium_ore>, FINALLIUM, 0.009);
 abysswaste.addItemUpgradeOutput(<additions:ttwo_ore>, FINALLIUM, 0.008);
-abysswaste.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+abysswaste.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 abysswaste.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了深渊荒原维度标记！");
+abysswaste.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 abysswaste.setMaxThreads(1).build();
 
 var dreadland = RecipeBuilder.newBuilder("dim_dreadland", "dimensional_miner", 200);
@@ -431,8 +437,9 @@ dreadland.addItemUpgradeOutput(<additions:adeninite_ore>, AEONSTEEL, 0.012);
 //终焉级
 dreadland.addItemUpgradeOutput(<additions:togrium_ore>, FINALLIUM, 0.004);
 dreadland.addItemUpgradeOutput(<additions:antimony_ore>, FINALLIUM, 0.004);
-dreadland.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+dreadland.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 dreadland.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了恐惧之地维度标记！");
+dreadland.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 dreadland.setMaxThreads(1).build();
 
 var omothol = RecipeBuilder.newBuilder("dim_omothol", "dimensional_miner", 200);
@@ -456,8 +463,9 @@ omothol.addItemUpgradeOutput(<additions:mistium_ore>, COSMILITE, 0.008);
 omothol.addItemUpgradeOutput(<additions:yoggleseum_ore>, FINALLIUM, 0.007);
 omothol.addItemUpgradeOutput(<additions:circlium_ore>, FINALLIUM, 0.003);
 omothol.addItemUpgradeOutput(<additions:dimesium_ore>, FINALLIUM, 0.005);
-omothol.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+omothol.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 omothol.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了奥穆索维度标记！");
+omothol.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 omothol.setMaxThreads(1).build();
 
 var darkrealm = RecipeBuilder.newBuilder("dim_dark_realm", "dimensional_miner", 200);
@@ -479,8 +487,9 @@ darkrealm.addPreCheckHandler(function(event as RecipeCheckEvent) {
 darkrealm.addItemUpgradeOutput(<abyssalcraft:shadowgem>, STAINLESS, 0.01);
 //寰宇级
 darkrealm.addItemUpgradeOutput(<additions:bnightium_ore>, COSMILITE, 0.008);
-darkrealm.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+darkrealm.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 darkrealm.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了黑暗领域维度标记！");
+darkrealm.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 darkrealm.setMaxThreads(1).build();
 
 var darkerrealm = RecipeBuilder.newBuilder("dim_darker_realm", "dimensional_miner", 200);
@@ -502,8 +511,9 @@ darkerrealm.addPreCheckHandler(function(event as RecipeCheckEvent) {
 darkerrealm.addItemUpgradeOutput(<gct_aby:dreadiumore>, COSMILITE, 0.03);
 darkerrealm.addItemUpgradeOutput(<gct_aby:ethauxiumore>, COSMILITE, 0.01);
 darkerrealm.addItemUpgradeOutput(<gct_aby:saniteore>, COSMILITE, 0.004);
-darkerrealm.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+darkerrealm.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 darkerrealm.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了深暗领域维度标记！");
+darkerrealm.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 darkerrealm.setMaxThreads(1).build();
 
 var warpland = RecipeBuilder.newBuilder("dim_warp_land", "dimensional_miner", 200);
@@ -526,8 +536,9 @@ warpland.addItemUpgradeOutput(<gct_aby:azathothium_ore_complex>, FINALLIUM, 0.01
 warpland.addItemUpgradeOutput(<gct_aby:nyralathotepium_ore_complex>, FINALLIUM, 0.01);
 warpland.addItemUpgradeOutput(<gct_aby:yogsothothium_ore_complex>, FINALLIUM, 0.01);
 warpland.addItemUpgradeOutput(<gct_aby:shubniggurathium_ore_complex>, FINALLIUM, 0.01);
-warpland.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+warpland.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 warpland.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了扭曲遗址维度标记！");
+warpland.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 warpland.setMaxThreads(1).build();
 
 var iceika = RecipeBuilder.newBuilder("dim_iceika", "dimensional_miner", 200);
@@ -554,8 +565,9 @@ iceika.addItemOutput(<divinerpg:molten_shards>).setChance(0.04).setIgnoreOutputC
 iceika.addItemUpgradeOutput(<additions:iciricium_ore>, DURASTEEL, 0.01);
 //恒钢级
 iceika.addItemUpgradeOutput(<thermalfoundation:material:1025>, AEONSTEEL, 0.01);
-iceika.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+iceika.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 iceika.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了冰晶雪原维度标记！");
+iceika.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 iceika.setMaxThreads(1).build();
 
 var arcana = RecipeBuilder.newBuilder("dim_arcana", "dimensional_miner", 200);
@@ -575,8 +587,9 @@ arcana.addPreCheckHandler(function(event as RecipeCheckEvent) {
 });
 //恒钢级
 arcana.addItemUpgradeOutput(<divinerpg:raw_arcanium>, AEONSTEEL, 0.03);
-arcana.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+arcana.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 arcana.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了秘界维度标记！");
+arcana.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 arcana.setMaxThreads(1).build();
 
 var aurorian = RecipeBuilder.newBuilder("dim_aurorian", "dimensional_miner", 200);
@@ -604,8 +617,9 @@ aurorian.addItemUpgradeOutput(<theaurorian:scrapumbra>, DURASTEEL, 0.02);
 aurorian.addItemUpgradeOutput(<theaurorian:scrapcrystalline>, DURASTEEL, 0.02);
 //恒钢级
 aurorian.addItemUpgradeOutput(<thermalfoundation:material:1027>, AEONSTEEL, 0.01);
-aurorian.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+aurorian.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 aurorian.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了极光幽境维度标记！");
+aurorian.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 aurorian.setMaxThreads(1).build();
 
 var frozenlands = RecipeBuilder.newBuilder("dim_frozen_lands", "dimensional_miner", 200);
@@ -626,8 +640,9 @@ frozenlands.addPreCheckHandler(function(event as RecipeCheckEvent) {
 //恒钢级
 frozenlands.addItemUpgradeOutput(<additions:chillinium_ore>, AEONSTEEL, 0.04);
 frozenlands.addItemUpgradeOutput(<additions:germanium_ore>, AEONSTEEL, 0.03);
-frozenlands.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+frozenlands.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 frozenlands.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了遗忘冰川维度标记！");
+frozenlands.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 frozenlands.setMaxThreads(1).build();
 
 var boiling = RecipeBuilder.newBuilder("dim_boiling_point", "dimensional_miner", 200);
@@ -650,8 +665,9 @@ boiling.addItemUpgradeOutput(<additions:flamium_ore>, AEONSTEEL, 0.04);
 boiling.addItemUpgradeOutput(<additions:sorrowium_ore>, AEONSTEEL, 0.02);
 boiling.addItemUpgradeOutput(<journey:blazium>, AEONSTEEL, 0.03);
 boiling.addItemUpgradeOutput(<thermalfoundation:material:1024>, AEONSTEEL, 0.01);
-boiling.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+boiling.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 boiling.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了怒焰石林维度标记！");
+boiling.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 boiling.setMaxThreads(1).build();
 
 var euca = RecipeBuilder.newBuilder("dim_euca", "dimensional_miner", 200);
@@ -676,8 +692,9 @@ euca.addItemUpgradeOutput(<journey:mekyumore>, CHROMASTEEL, 0.03);
 euca.addItemUpgradeOutput(<journey:storonore>, CHROMASTEEL, 0.03);
 //终焉级
 euca.addItemUpgradeOutput(<gct_mobs:lumixeium_dust>, FINALLIUM, 0.01);
-euca.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+euca.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 euca.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了桉域维度标记！");
+euca.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 euca.setMaxThreads(1).build();
 
 var depth = RecipeBuilder.newBuilder("dim_depth", "dimensional_miner", 200);
@@ -701,8 +718,9 @@ depth.addItemUpgradeOutput(<journey:desore>, CHROMASTEEL, 0.03);
 //终焉级
 depth.addItemUpgradeOutput(<additions:barite_ore>, CHROMASTEEL, 0.04);
 depth.addItemUpgradeOutput(<gct_mobs:noxexeum_dust>, FINALLIUM, 0.01);
-depth.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+depth.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 depth.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了噬渊维度标记！");
+depth.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 depth.setMaxThreads(1).build();
 
 var corba = RecipeBuilder.newBuilder("dim_corba", "dimensional_miner", 200);
@@ -725,8 +743,9 @@ corba.addItemUpgradeOutput(<journey:orbaditeore>, CHROMASTEEL, 0.03);
 corba.addItemUpgradeOutput(<journey:gorbitegem>, CHROMASTEEL, 0.04);
 //终焉级
 corba.addItemUpgradeOutput(<gct_mobs:naturaeum_dust>, FINALLIUM, 0.01);
-corba.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+corba.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 corba.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了尘泥沼泽维度标记！");
+corba.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 corba.setMaxThreads(1).build();
 
 var terrania = RecipeBuilder.newBuilder("dim_terrania", "dimensional_miner", 200);
@@ -746,8 +765,9 @@ terrania.addPreCheckHandler(function(event as RecipeCheckEvent) {
 });
 //寰宇级
 terrania.addItemUpgradeOutput(<additions:chloroplast_ore>, COSMILITE, 0.04);
-terrania.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+terrania.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 terrania.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了迷雾丛林维度标记！");
+terrania.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 terrania.setMaxThreads(1).build();
 
 var cloudia = RecipeBuilder.newBuilder("dim_cloudia", "dimensional_miner", 200);
@@ -769,8 +789,9 @@ cloudia.addPreCheckHandler(function(event as RecipeCheckEvent) {
 cloudia.addItemUpgradeOutput(<journey:lunitechunk>, COSMILITE, 0.04);
 //终焉级
 cloudia.addItemUpgradeOutput(<gct_mobs:tonitruium_dust>, FINALLIUM, 0.01);
-cloudia.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+cloudia.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 cloudia.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了苍穹之城维度标记！");
+cloudia.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 cloudia.setMaxThreads(1).build();
 
 var deepdark = RecipeBuilder.newBuilder("dim_deep_dark", "dimensional_miner", 200);
@@ -790,8 +811,9 @@ deepdark.addPreCheckHandler(function(event as RecipeCheckEvent) {
 });
 //炫钢级
 deepdark.addItemUpgradeOutput(<additions:shadowium_ore>, CHROMASTEEL, 0.02);
-deepdark.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+deepdark.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 deepdark.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了漆黑世界维度标记！");
+deepdark.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 deepdark.setMaxThreads(1).build();
 
 var city = RecipeBuilder.newBuilder("dim_lost_city", "dimensional_miner", 200);
@@ -812,8 +834,9 @@ city.addPreCheckHandler(function(event as RecipeCheckEvent) {
 //炫钢级
 city.addItemUpgradeOutput(<additions:limonite_ore>, DURASTEEL, 0.03);
 city.addItemUpgradeOutput(<additions:rosite_ore>, DURASTEEL, 0.025);
-city.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+city.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 city.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了失落城市维度标记！");
+city.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 city.setMaxThreads(1).build();
 
 var everdawn = RecipeBuilder.newBuilder("dim_everdawn", "dimensional_miner", 200);
@@ -839,8 +862,9 @@ everdawn.addItemUpgradeOutput(<blue_skies:turquoise_gem>, CHROMASTEEL, 0.03);
 everdawn.addItemUpgradeOutput(<blue_skies:charoite>, CHROMASTEEL, 0.03);
 everdawn.addItemUpgradeOutput(<blue_skies:moonstone>, CHROMASTEEL, 0.03);
 everdawn.addItemUpgradeOutput(<minecraft:emerald>, CHROMASTEEL, 0.03);
-everdawn.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+everdawn.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 everdawn.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了恒晓之地维度标记！");
+everdawn.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 everdawn.setMaxThreads(1).build();
 
 var everbright = RecipeBuilder.newBuilder("dim_everbright", "dimensional_miner", 200);
@@ -867,8 +891,9 @@ everbright.addItemUpgradeOutput(<blue_skies:turquoise_gem>, CHROMASTEEL, 0.03);
 everbright.addItemUpgradeOutput(<blue_skies:charoite>, CHROMASTEEL, 0.03);
 everbright.addItemUpgradeOutput(<blue_skies:moonstone>, CHROMASTEEL, 0.03);
 everbright.addItemUpgradeOutput(<minecraft:emerald>, CHROMASTEEL, 0.03);
-everbright.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+everbright.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 everbright.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了永昼之地维度标记！");
+everbright.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 everbright.setMaxThreads(1).build();
 
 var everheaven = RecipeBuilder.newBuilder("dim_everheaven", "dimensional_miner", 200);
@@ -893,8 +918,9 @@ everheaven.addItemUpgradeOutput(<tiths:ore_tonium>, COSMILITE, 0.008);
 everheaven.addItemUpgradeOutput(<tiths:ore_polarium>, COSMILITE, 0.008);
 everheaven.addItemUpgradeOutput(<tiths:ore_hothium>, COSMILITE, 0.008);
 everheaven.addItemUpgradeOutput(<tiths:ore_stellarium>, COSMILITE, 0.004);
-everheaven.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+everheaven.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 everheaven.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了深空之地维度标记！");
+everheaven.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 everheaven.setMaxThreads(1).build();
 
 var voidland = RecipeBuilder.newBuilder("dim_void", "dimensional_miner", 200);
@@ -916,8 +942,9 @@ voidland.addPreCheckHandler(function(event as RecipeCheckEvent) {
 voidland.addItemUpgradeOutput(<minecraft:bedrock>, COSMILITE, 0.3);
 voidland.addItemUpgradeOutput(<additions:void_harcadium_ore>, COSMILITE, 0.1);
 voidland.addItemUpgradeOutput(<additions:void_ore>, COSMILITE, 0.02);
-voidland.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+voidland.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 voidland.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了虚空之地维度标记！");
+voidland.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 voidland.setMaxThreads(1).build();
 
 var nowhere = RecipeBuilder.newBuilder("dim_nowhere", "dimensional_miner", 200);
@@ -941,8 +968,9 @@ nowhere.addItemUpgradeOutput(<additions:void_ore>, COSMILITE, 0.06);
 nowhere.addItemUpgradeOutput(<additions:adamantium_ore>, COSMILITE, 0.02);
 //终焉级
 nowhere.addItemUpgradeOutput(<additions:dawnium_ore>, FINALLIUM, 0.008);
-nowhere.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+nowhere.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 nowhere.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了无名之地维度标记！");
+nowhere.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 nowhere.setMaxThreads(1).build();
 
 var order = RecipeBuilder.newBuilder("dim_order", "dimensional_miner", 200);
@@ -962,8 +990,9 @@ order.addPreCheckHandler(function(event as RecipeCheckEvent) {
 });
 //终焉级
 order.addItemUpgradeOutput(<gct_ores:order_crystal>, FINALLIUM, 0.0005);
-order.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+order.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 order.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了秩序之地维度标记！");
+order.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 order.setMaxThreads(1).build();
 
 var betweenland = RecipeBuilder.newBuilder("dim_betweenland", "dimensional_miner", 200);
@@ -994,8 +1023,9 @@ betweenland.addItemUpgradeOutput(<thebetweenlands:aqua_middle_gem>, FINALLIUM, 0
 betweenland.addItemUpgradeOutput(<thebetweenlands:life_crystal>, FINALLIUM, 0.025);
 //波动级
 betweenland.addItemUpgradeOutput(<additions:izumium_ore>, WAVITE, 0.02);
-betweenland.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+betweenland.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 betweenland.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了交错次元维度标记！");
+betweenland.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 betweenland.setMaxThreads(1).build();
 
 var alfheim = RecipeBuilder.newBuilder("dim_alfheim", "dimensional_miner", 200);
@@ -1019,8 +1049,9 @@ alfheim.addItemUpgradeOutput(<gct_mobs:terrasteel_ore>, COSMILITE, 0.008);
 //终焉级
 alfheim.addItemUpgradeOutput(<gct_mobs:orichalcos_ore>, FINALLIUM, 0.005);
 alfheim.addItemUpgradeOutput(<gct_mobs:botanical_stone>, FINALLIUM, 0.004);
-alfheim.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+alfheim.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 alfheim.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了亚尔夫海姆维度标记！");
+alfheim.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 alfheim.setMaxThreads(1).build();
 
 var starland = RecipeBuilder.newBuilder("dim_starland", "dimensional_miner", 200);
@@ -1047,8 +1078,9 @@ starland.addItemUpgradeOutput(<additions:nasalum_ore>, FINALLIUM, 0.01);
 starland.addItemUpgradeOutput(<additions:lunarine_ore>, FINALLIUM, 0.02);
 //波动级
 starland.addItemUpgradeOutput(<additions:arimite_ore>, WAVITE, 0.005);
-starland.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+starland.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 starland.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了永恒星域维度标记！");
+starland.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 starland.setMaxThreads(1).build();
 
 var atlantis = RecipeBuilder.newBuilder("dim_atlantis", "dimensional_miner", 200);
@@ -1069,8 +1101,9 @@ atlantis.addPreCheckHandler(function(event as RecipeCheckEvent) {
 //寰宇级
 atlantis.addItemUpgradeOutput(<additions:tanatonium_ore>, COSMILITE, 0.015);
 atlantis.addItemUpgradeOutput(<additions:imitatium_ore>, COSMILITE, 0.015);
-atlantis.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+atlantis.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 atlantis.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了亚特兰蒂斯维度标记！");
+atlantis.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 atlantis.setMaxThreads(1).build();
 
 var besidevoid = RecipeBuilder.newBuilder("dim_besidevoid", "dimensional_miner", 200);
@@ -1093,8 +1126,9 @@ besidevoid.addItemUpgradeOutput(<additions:blood_infused_iron_ore>, COSMILITE, 0
 besidevoid.addItemUpgradeOutput(<bloodarsenal:blood_diamond>, COSMILITE, 0.015);
 //终焉级
 besidevoid.addItemUpgradeOutput(<additions:losessium_ore>, FINALLIUM, 0.003);
-besidevoid.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+besidevoid.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 besidevoid.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了血腥裂隙维度标记！");
+besidevoid.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 besidevoid.setMaxThreads(1).build();
 
 var emptiness = RecipeBuilder.newBuilder("dim_emptiness", "dimensional_miner", 200);
@@ -1116,8 +1150,9 @@ emptiness.addPreCheckHandler(function(event as RecipeCheckEvent) {
 emptiness.addItemUpgradeOutput(<additions:void_metal_ore>, COSMILITE, 0.02);
 //终焉级
 emptiness.addItemUpgradeOutput(<additions:primal_metal_ore>, FINALLIUM, 0.01);
-emptiness.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+emptiness.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 emptiness.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了虚域维度标记！");
+emptiness.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 emptiness.setMaxThreads(1).build();
 
 var erebus = RecipeBuilder.newBuilder("dim_erebus", "dimensional_miner", 200);
@@ -1143,8 +1178,9 @@ erebus.addItemUpgradeOutput(<erebus:materials:2>, FINALLIUM, 0.02);
 erebus.addItemUpgradeOutput(<erebus:materials:7>, FINALLIUM, 0.02);
 erebus.addItemUpgradeOutput(<erebus:materials:47>, FINALLIUM, 0.02);
 erebus.addItemUpgradeOutput(<erebus:materials:74>, FINALLIUM, 0.015);
-erebus.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+erebus.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 erebus.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了腐朽之地维度标记！");
+erebus.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 erebus.setMaxThreads(1).build();
 
 var atum = RecipeBuilder.newBuilder("dim_atum", "dimensional_miner", 200);
@@ -1164,8 +1200,9 @@ atum.addPreCheckHandler(function(event as RecipeCheckEvent) {
 });
 //终焉级
 atum.addItemUpgradeOutput(<additions:nebu_ore>, FINALLIUM, 0.004);
-atum.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+atum.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 atum.addRecipeTooltip("§e需要时空采掘升级且控制器绑定了阿图姆维度标记！");
+atum.addRecipeTooltip("§c请使用维度放大镜来标记/解绑维度");
 atum.setMaxThreads(1).build();
 
 MMEvents.onControllerGUIRender("dimensional_miner", function(event as ControllerGUIRenderEvent) {

@@ -209,7 +209,7 @@ advOverworld.addItemUpgradeOutput(<nuclearcraft:ore:5>, FINALLIUM, 0.01);
 advOverworld.addItemUpgradeOutput(<nuclearcraft:ore:6>, FINALLIUM, 0.007);
 advOverworld.addItemUpgradeOutput(<nuclearcraft:ore:3>, FINALLIUM, 0.005);
 advOverworld.addItemUpgradeOutput(<mekanism:oreblock:5>, FINALLIUM, 0.015);
-advOverworld.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+advOverworld.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 advOverworld.addRecipeTooltip("§e需要主世界维度强化组件");
 advOverworld.setMaxThreads(1).build();
 
@@ -264,7 +264,7 @@ advNether.addItemUpgradeOutput(<additions:mangisite_ore>, FINALLIUM, 0.008);
 advNether.addItemUpgradeOutput(<additions:oneo_ore>, FINALLIUM, 0.007);
 advNether.addItemUpgradeOutput(<additions:xenidium_ore>, FINALLIUM, 0.006);
 advNether.addItemUpgradeOutput(<additions:rapesesium_ore>, FINALLIUM, 0.003);
-advNether.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+advNether.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 advNether.addRecipeTooltip("§e需要下界维度强化组件");
 advNether.setMaxThreads(1).build();
 
@@ -316,6 +316,6 @@ advEnd.addItemUpgradeOutput(<additions:technetium_ore>, FINALLIUM, 0.003);
 advEnd.addItemUpgradeOutput(<moretcon:oregravitonium>, FINALLIUM, 0.02);
 //波动级
 advEnd.addItemUpgradeOutput(<additions:breedum_ore>, WAVITE, 0.0015);
-advEnd.addRecipeTooltip("§d请注意，绝大部分高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
+advEnd.addRecipeTooltip("§d高级矿石产出需要机器强化组件，具体请查询“模块化电容”");
 advEnd.addRecipeTooltip("§e需要末地维度强化组件");
 advEnd.setMaxThreads(1).build();
