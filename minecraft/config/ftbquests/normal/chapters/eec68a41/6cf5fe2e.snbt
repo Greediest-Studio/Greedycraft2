@@ -1,0 +1,35 @@
+{
+	title: "§b颜色翻转",
+	x: 19.0d,
+	y: 0.0d,
+	description: "合成反·精灵通行证",
+	text: [
+		""
+	],
+	dependencies: [
+		"3138ece8"
+	],
+	tasks: [{
+		uid: "19876261",
+		type: "item",
+		items: [{
+			item: "additions:reversed_elven_passes"
+		}]
+	}],
+	rewards: [{
+		uid: "ad1d293e",
+		type: "item",
+		item: "gct_mobs:elf_passes",
+		count: 4
+	},
+	{
+		uid: "47ec551c",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "eedb84e4",
+		type: "xp",
+		xp: 10000
+	}]
+}

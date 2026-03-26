@@ -1,0 +1,19 @@
+{
+	title: "§b原始之呼唤",
+	x: 22.0d,
+	y: 0.0d,
+	description: "合成苍灵之唤，用于召唤盖亚4",
+	text: [
+		""
+	],
+	dependencies: [
+		"9f68bdb3"
+	],
+	tasks: [{
+		uid: "b462fca3",
+		type: "item",
+		items: [{
+			item: "gaiapro:cerlinite_calling"
+		}]
+	}]
+}

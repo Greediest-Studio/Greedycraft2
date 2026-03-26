@@ -1,0 +1,36 @@
+{
+	title: "§b锻炼视力",
+	x: 19.0d,
+	y: -1.5d,
+	description: "在亚尔夫海姆地下的反相梦之树上采集阴生浆果",
+	text: [
+		""
+	],
+	dependencies: [
+		"cdb6d00e"
+	],
+	tasks: [{
+		uid: "64d942d3",
+		type: "item",
+		items: [{
+			item: "additions:shadowberry"
+		}]
+	}],
+	rewards: [{
+		uid: "17b22258",
+		type: "item",
+		item: "additions:shadowberry",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		uid: "482a071b",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "59526bdc",
+		type: "xp",
+		xp: 5000
+	}]
+}

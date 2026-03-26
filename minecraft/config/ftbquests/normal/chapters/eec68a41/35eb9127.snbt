@@ -1,0 +1,20 @@
+{
+	title: "§b大地天灾",
+	x: 22.0d,
+	y: -1.5d,
+	description: "使用苍灵之唤在亚尔夫海姆召唤并击败盖亚守护者IV",
+	text: [
+		"请使用§c精灵信标§r搭建盖亚祭坛"
+	],
+	dependencies: [
+		"6a82122c",
+		"362a27d5"
+	],
+	tasks: [{
+		uid: "2ac1e44a",
+		type: "item",
+		items: [{
+			item: "additions:reward_bag_funf"
+		}]
+	}]
+}

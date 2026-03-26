@@ -74,20 +74,22 @@
 						0b,
 						0b
 					],
+					AccentColor: 0,
 					UUIDMost: 332086630677105214L,
 					UpgradeSlotsSize: 1,
 					MemoryItems: {
 						Items: []
 					},
-					UUIDLeast: -8579907796692191083L,
 					BackpackInventory: {
 						Items: []
 					},
+					MainColor: 0,
 					SortType: 0b,
 					BackpackInventorySize: 27,
 					UpgradeSlots: {
 						Items: []
-					}
+					},
+					UUIDLeast: -8579907796692191083L
 				},
 				"retro_sophisticated_backpacks:backpack_capability": {
 					MemoryRespectNBT: [B;
@@ -148,20 +150,22 @@
 						0b,
 						0b
 					],
+					AccentColor: 0,
 					UUIDMost: 3619241023421173401L,
 					UpgradeSlotsSize: 1,
 					MemoryItems: {
 						Items: []
 					},
-					UUIDLeast: -8210574535832402145L,
 					BackpackInventory: {
 						Items: []
 					},
+					MainColor: 0,
 					SortType: 0b,
 					BackpackInventorySize: 27,
 					UpgradeSlots: {
 						Items: []
-					}
+					},
+					UUIDLeast: -8210574535832402145L
 				}
 			}
 		}],

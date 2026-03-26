@@ -1,0 +1,19 @@
+{
+	title: "§b更加碧绿",
+	x: 20.5d,
+	y: -1.5d,
+	description: "合成精灵信标",
+	text: [
+		""
+	],
+	dependencies: [
+		"907884c9"
+	],
+	tasks: [{
+		uid: "d14debae",
+		type: "item",
+		items: [{
+			item: "gaiapro:elven_beacon"
+		}]
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "§b普天下之苍生",
+	x: 20.5d,
+	y: 0.0d,
+	description: "通过与反·精灵长老交易获得苍灵石",
+	text: [
+		""
+	],
+	dependencies: [
+		"6cf5fe2e"
+	],
+	tasks: [{
+		uid: "2a0c4f6e",
+		type: "item",
+		items: [{
+			item: "additions:cerlinite"
+		}]
+	}],
+	rewards: [{
+		uid: "d5c611a1",
+		type: "item",
+		item: "additions:cerlinite",
+		random_bonus: 1
+	},
+	{
+		uid: "ef534407",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "c04610fe",
+		type: "xp",
+		xp: 8000
+	}]
+}
