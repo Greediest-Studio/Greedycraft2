@@ -20,12 +20,12 @@ jobs:
 
     steps:
       - name: 1. 检出仓库
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
       - name: 2. 设置 Go 语言环境
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v6
         with:
           go-version: "1.23.3"
           cache: false
@@ -53,7 +53,7 @@ jobs:
           unzip -O UTF-8 "$FILE_PATH" -d unzipped/
 
       - name: 7. 上传至 Artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: ${{ env.FILE_NAME }}
           path: minecraft/unzipped/
