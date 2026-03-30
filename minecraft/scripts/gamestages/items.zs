@@ -2494,7 +2494,8 @@ GameStagesUtil.stageWakeUp.addIngredients([
     <ore:blockCerlinite>,
     <ore:nuggetCerlinite>,
     <ore:dustCerlinite>,
-    <contenttweaker:bauble_core_of_22_pass>
+    <contenttweaker:bauble_core_of_22_pass>,
+    <additions:original_spirit>
 ], false);
 
 GameStagesUtil.stageMindShock.addIngredients([

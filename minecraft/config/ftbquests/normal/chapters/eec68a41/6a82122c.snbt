@@ -1,6 +1,6 @@
 {
 	title: "§b更加碧绿",
-	x: 20.5d,
+	x: 23.5d,
 	y: -1.5d,
 	description: "合成精灵信标",
 	text: [
@@ -15,5 +15,15 @@
 		items: [{
 			item: "gaiapro:elven_beacon"
 		}]
+	}],
+	rewards: [{
+		uid: "81d776eb",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "45256079",
+		type: "xp",
+		xp: 13000
 	}]
 }

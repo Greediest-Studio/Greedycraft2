@@ -1,0 +1,37 @@
+{
+	title: "§b真正的虚空产魔（一）",
+	x: 23.5d,
+	y: 1.5d,
+	description: "从奖励袋中获得最基础的二十二径源泉",
+	text: [
+		""
+	],
+	dependencies: [
+		"35eb9127"
+	],
+	tasks: [{
+		uid: "811e6e6e",
+		type: "item",
+		items: [{
+			item: "contenttweaker:bauble_core_of_22_pass"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fa80048a",
+		type: "item",
+		item: "botania:blacklotus 1 1",
+		count: 100
+	},
+	{
+		uid: "135f26f7",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "bc62a7cb",
+		type: "xp",
+		xp: 100000
+	}]
+}

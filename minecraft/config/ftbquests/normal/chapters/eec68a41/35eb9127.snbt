@@ -1,7 +1,7 @@
 {
 	title: "§b大地天灾",
-	x: 22.0d,
-	y: -1.5d,
+	x: 23.5d,
+	y: 0.0d,
 	description: "使用苍灵之唤在亚尔夫海姆召唤并击败盖亚守护者IV",
 	text: [
 		"请使用§c精灵信标§r搭建盖亚祭坛"
@@ -14,7 +14,34 @@
 		uid: "2ac1e44a",
 		type: "item",
 		items: [{
-			item: "additions:reward_bag_funf"
+			item: "additions:original_spirit"
 		}]
+	}],
+	rewards: [{
+		uid: "91b8bbe5",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "c0ec9b3a",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "f3e26e55",
+		type: "xp",
+		xp: 24000
+	},
+	{
+		uid: "cfb35aed",
+		type: "item",
+		item: "additions:original_spirit",
+		count: 4
+	},
+	{
+		uid: "25edb4f4",
+		type: "item",
+		item: "additions:reward_bag_funf",
+		count: 4
 	}]
 }

@@ -15,5 +15,15 @@
 		items: [{
 			item: "gaiapro:cerlinite_calling"
 		}]
+	}],
+	rewards: [{
+		uid: "d69d7ce1",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "058d9d90",
+		type: "xp",
+		xp: 8000
 	}]
 }
