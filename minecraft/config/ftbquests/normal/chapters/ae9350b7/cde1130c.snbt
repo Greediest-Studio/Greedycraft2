@@ -1,19 +1,24 @@
 {
-	title: "§b封包合成",
+	title: "§b能源衔接",
 	tags: [
 		"challenge"
 	],
 	x: 12.0d,
 	y: 10.5d,
-	description: "合成打包机，用于进行复杂的AE自动化合成",
+	description: "合成通量能源端口",
 	text: [
-		""
+		"可以将龙球或者疏导矩阵直接连接到通量网络",
+		"使其充当大型“通量容器”",
+		"放置在龙球或疏导矩阵旁边即可"
 	],
 	tasks: [{
-		uid: "f4738897",
+		uid: "9296c5ae",
 		type: "item",
 		items: [{
-			item: "packagedauto:packager"
+			item: "more_flux_storage:energy_pylon_flux"
+		},
+		{
+			item: "more_flux_storage:induction_port_flux"
 		}]
 	}],
 	rewards: [{

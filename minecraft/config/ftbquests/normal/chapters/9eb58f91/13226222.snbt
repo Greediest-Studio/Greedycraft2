@@ -1,0 +1,29 @@
+{
+	title: "§b通用型",
+	x: -14.0d,
+	y: 4.0d,
+	description: "合成ME通用缓存指令器",
+	text: [
+		"不仅支持物品！"
+	],
+	dependencies: [
+		"c45c6755"
+	],
+	tasks: [{
+		uid: "5f935888",
+		type: "item",
+		items: [{
+			item: "ae2fc:fluid_level_maintainer"
+		}]
+	}],
+	rewards: [{
+		uid: "cc72f21a",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "e5a5b001",
+		type: "xp",
+		xp: 1000
+	}]
+}

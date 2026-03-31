@@ -1,0 +1,47 @@
+{
+	title: "§b发现外星科技",
+	x: -17.0d,
+	y: -2.0d,
+	description: "找到四种压印模板",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "622f78a4",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 13"
+		}]
+	},
+	{
+		uid: "848c08d1",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 14"
+		}]
+	},
+	{
+		uid: "c37aa54e",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 15"
+		}]
+	},
+	{
+		uid: "1766b120",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 19"
+		}]
+	}],
+	rewards: [{
+		uid: "9c099fab",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "5bb480a2",
+		type: "xp",
+		xp: 200
+	}]
+}

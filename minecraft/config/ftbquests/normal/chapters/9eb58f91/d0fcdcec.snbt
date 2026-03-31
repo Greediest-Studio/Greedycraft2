@@ -1,0 +1,26 @@
+{
+	title: "§b连接AE与模块化机械",
+	x: -17.5d,
+	y: 13.0d,
+	description: "合成ME机械物品输入总线",
+	text: [
+		"从AE向模块化机械输入物品"
+	],
+	tasks: [{
+		uid: "04aa4b0f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockmeiteminputbus"
+		}]
+	}],
+	rewards: [{
+		uid: "6bacb5c5",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "2de5fbd4",
+		type: "xp",
+		xp: 100
+	}]
+}

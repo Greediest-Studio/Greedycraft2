@@ -1,0 +1,28 @@
+{
+	title: "§b便捷调节优先级",
+	x: -14.5d,
+	y: 14.5d,
+	description: "合成优先级调节器",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "aac1d8ab",
+		type: "item",
+		items: [{
+			item: "ae2powertools:priority_tuner"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "446cff05",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "bf152fd6",
+		type: "xp",
+		xp: 100
+	}]
+}

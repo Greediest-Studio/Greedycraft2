@@ -1,0 +1,26 @@
+{
+	title: "§b加强版输出总线",
+	x: -16.0d,
+	y: 11.5d,
+	description: "更快更强",
+	text: [
+		"支持堆叠卡！"
+	],
+	tasks: [{
+		uid: "0423e6be",
+		type: "item",
+		items: [{
+			item: "crazyae:part 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "96ae54d5",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "bf639f4a",
+		type: "xp",
+		xp: 100
+	}]
+}

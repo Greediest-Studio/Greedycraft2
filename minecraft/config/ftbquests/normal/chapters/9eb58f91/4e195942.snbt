@@ -1,13 +1,10 @@
 {
 	title: "§b黑色的天外来物",
-	x: -11.75d,
-	y: 0.0d,
+	x: -21.0d,
+	y: -2.0d,
 	description: "在世界中寻找并采集陨石",
 	text: [
 		""
-	],
-	dependencies: [
-		"ddad20c5"
 	],
 	tasks: [{
 		uid: "a8b3a42b",

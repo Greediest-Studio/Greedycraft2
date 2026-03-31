@@ -1,0 +1,26 @@
+{
+	title: "§b好大的容量",
+	x: -20.5d,
+	y: 11.5d,
+	description: "制作容量卡",
+	text: [
+		"增加部分AE方块缓存容量"
+	],
+	tasks: [{
+		uid: "e4e90149",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 27"
+		}]
+	}],
+	rewards: [{
+		uid: "816c50ac",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "1d622c4b",
+		type: "xp",
+		xp: 100
+	}]
+}

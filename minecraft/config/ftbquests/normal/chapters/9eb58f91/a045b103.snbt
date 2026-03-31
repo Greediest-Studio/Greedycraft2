@@ -1,0 +1,26 @@
+{
+	title: "§b配置元件",
+	x: -19.0d,
+	y: 11.5d,
+	description: "制作元件工作台",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "224a21f8",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:cell_workbench"
+		}]
+	}],
+	rewards: [{
+		uid: "cc85d34f",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "12865433",
+		type: "xp",
+		xp: 100
+	}]
+}

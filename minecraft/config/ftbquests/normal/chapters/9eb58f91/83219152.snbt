@@ -1,0 +1,26 @@
+{
+	title: "§b配套一对",
+	x: -16.0d,
+	y: 13.0d,
+	description: "合成ME机械物品输出总线",
+	text: [
+		"将模块化机械的产物输出到AE中"
+	],
+	tasks: [{
+		uid: "1f227aee",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockmeitemoutputbus"
+		}]
+	}],
+	rewards: [{
+		uid: "0aa9dd3d",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "31302267",
+		type: "xp",
+		xp: 100
+	}]
+}

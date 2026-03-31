@@ -1,0 +1,27 @@
+{
+	title: "§b更强大的输入",
+	x: -16.0d,
+	y: 10.0d,
+	description: "合成输出接口",
+	text: [
+		"最多可以同时输出180种物品",
+		"还有流体，气体，源质类型"
+	],
+	tasks: [{
+		uid: "c5e6b357",
+		type: "item",
+		items: [{
+			item: "cells:export_interface"
+		}]
+	}],
+	rewards: [{
+		uid: "473736d0",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "cd85f0aa",
+		type: "xp",
+		xp: 100
+	}]
+}

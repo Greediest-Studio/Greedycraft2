@@ -1,38 +1,25 @@
 {
-	title: "§b万能指环",
+	title: "§b超级工厂！",
 	tags: [
 		"challenge"
 	],
 	x: 1.5d,
 	y: 3.0d,
-	description: "合成精灵王指环",
+	description: "合成工厂管理器",
 	text: [
-		""
+		"可以写脚本也可以图形化！"
 	],
 	tasks: [{
-		uid: "5725b57e",
+		uid: "9fca98f5",
 		type: "item",
 		items: [{
-			item: "extrabotany:elvenking"
-		}],
-		ignore_nbt: 1b
+			item: "superfactorymanager:manager"
+		},
+		{
+			item: "superfactorymanager:manager_advanced"
+		}]
 	}],
 	rewards: [{
-		uid: "d76e2d86",
-		type: "item",
-		item: "bountifulbaubles:disintegrationtablet"
-	},
-	{
-		uid: "4d5e1b46",
-		type: "item",
-		item: "bountifulbaubles:phantomprism"
-	},
-	{
-		uid: "c2fcd6b3",
-		type: "item",
-		item: "bountifulbaubles:spectralsilt"
-	},
-	{
 		uid: "48d53d0a",
 		type: "xp",
 		xp: 230
@@ -41,5 +28,11 @@
 		uid: "3a7e791e",
 		type: "random",
 		table: 1
+	},
+	{
+		uid: "28025f17",
+		type: "item",
+		item: "superfactorymanager:cable",
+		count: 16
 	}]
 }

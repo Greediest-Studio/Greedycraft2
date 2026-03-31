@@ -1,0 +1,26 @@
+{
+	title: "§b？！强强！？",
+	x: -19.0d,
+	y: 14.5d,
+	description: "能放35个元件",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "a785adac",
+		type: "item",
+		items: [{
+			item: "crazyae:improved_drive"
+		}]
+	}],
+	rewards: [{
+		uid: "f41bfc0d",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "86c8c8f9",
+		type: "xp",
+		xp: 100
+	}]
+}

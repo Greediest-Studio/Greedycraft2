@@ -1,0 +1,40 @@
+{
+	title: "§b支持“矿辞”的样板",
+	x: -19.5d,
+	y: 7.0d,
+	description: "制作智能样板",
+	text: [
+		"将样板扩展器接入AE网络",
+		"手持智能样板右键样板扩展器打开GUI编写样板",
+		"支持矿辞通配符，批量生成配方"
+	],
+	dependencies: [
+		"32b91478"
+	],
+	tasks: [{
+		uid: "554508ac",
+		type: "item",
+		items: [{
+			item: "sampleintegration:pattern_integrations"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "08e7644b",
+		type: "item",
+		items: [{
+			item: "sampleintegration:pattern_expander"
+		}]
+	}],
+	rewards: [{
+		uid: "4dbcfbed",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "0149d7e9",
+		type: "xp",
+		xp: 1000
+	}]
+}

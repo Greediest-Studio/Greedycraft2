@@ -1,0 +1,29 @@
+{
+	title: "§b随时随地配置元件",
+	x: -23.5d,
+	y: 5.0d,
+	description: "合成元件终端",
+	text: [
+		""
+	],
+	dependencies: [
+		"9ad09ce0"
+	],
+	tasks: [{
+		uid: "f23f2262",
+		type: "item",
+		items: [{
+			item: "cellterminal:cell_terminal"
+		}]
+	}],
+	rewards: [{
+		uid: "bd8664fb",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "2d3e3ffe",
+		type: "xp",
+		xp: 1000
+	}]
+}

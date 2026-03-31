@@ -1,0 +1,35 @@
+{
+	title: "§b其他合成器下岗！",
+	x: -19.0d,
+	y: 10.0d,
+	description: "合成AE2自动合成器",
+	text: [
+		"支持不消耗物品，具有耐久的物品的自动合成！",
+		"支持速度升级，最高4096物品/s",
+		"接入AE后自动消耗物品进行合成",
+		"如果不识别含有不消耗物品的样板请尝试清空NBT(如贤者之石)",
+		"被动合成，不过你可以想点办法变成主动合成"
+	],
+	tasks: [{
+		uid: "c4635ea3",
+		type: "item",
+		items: [{
+			item: "ae2powertools:auto_crafter"
+		}]
+	}],
+	rewards: [{
+		uid: "0711721b",
+		type: "item",
+		item: "ae2powertools:crafter_speed_upgrade"
+	},
+	{
+		uid: "db8658ec",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "92e5ba55",
+		type: "xp",
+		xp: 100
+	}]
+}

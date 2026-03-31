@@ -1,0 +1,28 @@
+{
+	title: "§b磁力加强",
+	x: -20.5d,
+	y: 10.0d,
+	description: "支持将物品吸入AE网络",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "73f2fd05",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:material",
+			Damage: 60s,
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "018bf619",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "3bc9fd81",
+		type: "xp",
+		xp: 100
+	}]
+}

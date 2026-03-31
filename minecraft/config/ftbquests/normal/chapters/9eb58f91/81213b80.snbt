@@ -1,0 +1,31 @@
+{
+	title: "§b给你的网络体个检！",
+	x: -14.5d,
+	y: 13.0d,
+	description: "自动检查你的AE网络问题",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "478cf46c",
+		type: "item",
+		items: [{
+			id: "ae2powertools:network_health_scanner",
+			tag: {
+				DeviceId: 10875364700500L
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cc43ee62",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "193880c5",
+		type: "xp",
+		xp: 100
+	}]
+}

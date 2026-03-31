@@ -1,0 +1,26 @@
+{
+	title: "§b是否一模一样？",
+	x: -16.0d,
+	y: 14.5d,
+	description: "合成ME机械样板镜像",
+	text: [
+		"堆机器时也许有点用"
+	],
+	tasks: [{
+		uid: "76c01faa",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockmepatternmirrorimage"
+		}]
+	}],
+	rewards: [{
+		uid: "3028870d",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "d8eedbc8",
+		type: "xp",
+		xp: 100
+	}]
+}

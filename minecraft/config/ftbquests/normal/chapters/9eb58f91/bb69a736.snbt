@@ -1,12 +1,14 @@
 {
 	title: "§b基础电路板",
-	x: -13.5d,
+	x: -19.0d,
 	y: 0.0d,
 	description: "制作三种电路板",
 	text: [
 		""
 	],
 	dependencies: [
+		"ddad20c5",
+		"58a60abe",
 		"4e195942"
 	],
 	tasks: [{

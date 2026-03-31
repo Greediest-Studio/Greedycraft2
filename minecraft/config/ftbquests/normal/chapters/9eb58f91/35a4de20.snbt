@@ -1,0 +1,27 @@
+{
+	title: "§b比高版本接口还强",
+	x: -17.5d,
+	y: 10.0d,
+	description: "合成输入接口",
+	text: [
+		"最多可以同时输入180种物品",
+		"还有流体，气体，源质类型"
+	],
+	tasks: [{
+		uid: "be25e869",
+		type: "item",
+		items: [{
+			item: "cells:import_interface"
+		}]
+	}],
+	rewards: [{
+		uid: "34799a2c",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "9156b33e",
+		type: "xp",
+		xp: 100
+	}]
+}

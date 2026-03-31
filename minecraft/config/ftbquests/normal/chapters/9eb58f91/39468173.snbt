@@ -1,0 +1,26 @@
+{
+	title: "§b加强版输入总线",
+	x: -17.5d,
+	y: 11.5d,
+	description: "更快更强！",
+	text: [
+		"支持堆叠卡！"
+	],
+	tasks: [{
+		uid: "8bdb1f0a",
+		type: "item",
+		items: [{
+			item: "crazyae:part"
+		}]
+	}],
+	rewards: [{
+		uid: "8553c6f0",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "d13f6ff1",
+		type: "xp",
+		xp: 100
+	}]
+}

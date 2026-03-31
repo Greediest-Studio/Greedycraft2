@@ -1,0 +1,26 @@
+{
+	title: "§b更大的胃口",
+	x: -20.5d,
+	y: 13.0d,
+	description: "制作样板扩展卡",
+	text: [
+		"增加ME接口放置的样板数量"
+	],
+	tasks: [{
+		uid: "aeb2ec5d",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 58"
+		}]
+	}],
+	rewards: [{
+		uid: "58a34164",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "e6895d02",
+		type: "xp",
+		xp: 100
+	}]
+}

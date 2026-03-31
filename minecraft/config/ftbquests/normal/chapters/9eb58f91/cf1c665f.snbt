@@ -1,0 +1,27 @@
+{
+	title: "§b模块化的ME接口？",
+	x: -17.5d,
+	y: 14.5d,
+	description: "制作ME机械样板供应器",
+	text: [
+		"直接发配物品到模块化",
+		"在其中放入样板，同时支持多种模式"
+	],
+	tasks: [{
+		uid: "f4f8c7a3",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockmepatternprovider"
+		}]
+	}],
+	rewards: [{
+		uid: "a3ac6c8b",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "e16c067e",
+		type: "xp",
+		xp: 100
+	}]
+}

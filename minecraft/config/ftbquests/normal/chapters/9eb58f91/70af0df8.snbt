@@ -1,0 +1,35 @@
+{
+	title: "§b我也支持一对多！",
+	x: -13.5d,
+	y: -5.5d,
+	description: "合成无线连接枢纽",
+	text: [
+		""
+	],
+	dependencies: [
+		"848e51e0"
+	],
+	tasks: [{
+		uid: "02e0e15d",
+		type: "item",
+		items: [{
+			item: "ae2stuff:wireless_hub"
+		}]
+	}],
+	rewards: [{
+		uid: "6a064084",
+		type: "item",
+		item: "ae2stuff:wireless",
+		count: 4
+	},
+	{
+		uid: "b72cfa6f",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "4833a4ce",
+		type: "xp",
+		xp: 400
+	}]
+}

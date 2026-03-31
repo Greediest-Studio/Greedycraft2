@@ -1,0 +1,27 @@
+{
+	title: "§b真·智能",
+	x: -20.5d,
+	y: 14.5d,
+	description: "合成工作自动完成卡",
+	text: [
+		"在ME接口发配物品后直接判定合成已完成",
+		"假合成不用点取消了！"
+	],
+	tasks: [{
+		uid: "2c28187a",
+		type: "item",
+		items: [{
+			item: "nae2:upgrade 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "a0a23013",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "0ead1f2d",
+		type: "xp",
+		xp: 100
+	}]
+}
