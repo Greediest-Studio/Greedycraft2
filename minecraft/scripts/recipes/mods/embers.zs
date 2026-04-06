@@ -38,7 +38,7 @@ Alchemy.addAspect("mercury", <additions:aspectus_mercury>);
 Alchemy.addAspect("salt", <additions:aspectus_salt>);
 Alchemy.addAspect("sulfur", <additions:aspect_sulfur>);
 
-Alchemy.add(<additions:lumerunine_scrap> * 4, [
+Alchemy.add(<additions:lumerunine_scrap> * 5, [
     <additions:gemundyingember>,
     <extendedcrafting:material:7>,
     <additions:extended_primal_metal_ingot>,

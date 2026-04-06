@@ -77,6 +77,7 @@ ConversionItem.create(<mekanism:dust:7>).addMatchItem(<ore:dustUranium>).registe
 ConversionItem.create(<mekanism:basicblock2:10>).addMatchItem(<ore:blockUranium>).register();
 ConversionItem.create(<mekanism:nugget:8>).addMatchItem(<ore:nuggetUranium>).register();
 ConversionItem.create(<mekanism:oreblock:5>).addMatchItem(<ore:oreUranium>).register();
+ConversionItem.create(<quark:quartz_wall>).addMatchItem(<netherex:quartz_wall>).register();
 
 ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:burningsulfurflow>).register();
 ConversionFluid.create(<liquid:liquidantimatter>).addMatchFluid(<liquid:blockfluidantimatter>).register();
