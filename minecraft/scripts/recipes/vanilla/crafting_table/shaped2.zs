@@ -23,7 +23,6 @@ recipes.remove(<tconstruct:piggybackpack>.withTag({}));
 recipes.remove(<mekeng:gas_core_2g>);
 recipes.remove(<enderutilities:enderpart:30>);
 recipes.remove(<enderutilities:handybag:1>);
-recipes.remove(<crazyae:perfect_interface>);
 recipes.remove(<mekanismmultiblockmachine:largewindgenerator>);
 recipes.remove(<mekanismmultiblockmachine:largegasgenerator>);
 recipes.removeByRecipeName("biomesoplenty:amber_block");
@@ -891,10 +890,9 @@ RecipeUtil.addShaped("reversed_elven_passes", <additions:reversed_elven_passes>,
     [null, <additions:shadowberry>, null]
 ]);
 /*
- * RecipeUtil.addShaped("", , [
- *  [null, null, null],
- *  [null, null, null],
- *  [null, null, null]
- *]);
- *
+RecipeUtil.addShaped("", , [
+  [null, null, null],
+  [null, null, null],
+  [null, null, null]
+]);
  */
