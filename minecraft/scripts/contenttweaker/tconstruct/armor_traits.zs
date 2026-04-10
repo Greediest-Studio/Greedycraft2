@@ -1847,6 +1847,9 @@ comfortTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_
 comfortTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player) && !isNull(source.getTrueSource()) && source.getTrueSource() instanceof IEntityLivingBase) {
         var entity as IEntityLivingBase = source.getTrueSource();
+        if (isNull(entity)) {
+            return newDamage;
+        }
         var id as string = entity.definition.id as string;
         if (isNull(armor.tag.comfort)) {
             armor.mutable().updateTag(
