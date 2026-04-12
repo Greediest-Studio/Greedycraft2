@@ -1851,9 +1851,9 @@ comfortTrait.onHurt = function(trait, armor, player, source, damage, newDamage, 
             return newDamage;
         }
         var id as string = entity.definition.id as string;
-        if(isNull(id))(
-            return newDamage
-        )
+        if(isNull(id)){
+            return newDamage;
+        }
         if (isNull(armor.tag.comfort)) {
             armor.mutable().updateTag(
                 {
