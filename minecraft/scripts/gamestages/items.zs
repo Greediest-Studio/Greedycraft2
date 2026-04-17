@@ -1102,7 +1102,6 @@ GameStagesUtil.stageHardmode.addIngredients([
     <ore:nuggetSnowingium>,
     <plustic:osgloglasingot>,
     <minecraft:elytra:*>,
-    <colytra:elytra_bauble:*>,
     <plustic:osmiridiumingot>,
     <biomesoplenty:gem:*>,
     <ore:ingotCytosinite>,
