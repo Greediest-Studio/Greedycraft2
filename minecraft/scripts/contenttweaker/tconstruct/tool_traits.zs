@@ -1974,9 +1974,12 @@ killallTrait.color = Color.fromHex("5d4037").getIntColor();
 killallTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.killallTrait.name");
 killallTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.killallTrait.desc");
 killallTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+    if (!(target instanceof IEntityLivingBase)) {
+        return newDamage;
+    }
     val entity as IEntityLivingBase = target;
-    if(entity.health > entity.maxHealth * 0.9f){
-        return newDamage + entity.maxHealth * 0.1f;
+    if (entity.health > entity.maxHealth * 0.9f) {
+        entity.attackEntityFrom(crafttweaker.damage.IDamageSource.OUT_OF_WORLD().setDamageIsAbsolute(), entity.maxHealth * 0.1f);
     }
     return newDamage;
 };
