@@ -2,6 +2,8 @@ name: build (Curseforge)
 
 on:
   push:
+    branches:
+      - main
     paths:
       - "minecraft/**"
   workflow_dispatch:
