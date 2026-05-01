@@ -624,32 +624,6 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
             player.getAttribute("generic.movementSpeed").removeModifier("abcdefab-1234-5678-9abc-defabcdefabc");
         }
     }
-
-    //Firegun Enhancement
-    if (!isNull(player.mainHandHeldItem)) {
-        if (player.mainHandHeldItem.definition.id == "tinkersarsenal:boomstick") {
-            var firegun as IItemStack = player.mainHandHeldItem;
-            if (!isNull(firegun.tag.bulletCapacity)) {
-                if (firegun.tag.bulletCapacity as int == 0 && firegun.tag.Loaded as byte == 1) {
-                    firegun.mutable().updateTag({bulletCapacity : 20 as int});
-                }
-            } else {
-                firegun.mutable().updateTag({bulletCapacity : 0 as int, Loaded : 0 as byte});
-            }
-        }
-    }
-    if (!isNull(player.offHandHeldItem)) {
-        if (player.offHandHeldItem.definition.id == "tinkersarsenal:boomstick") {
-            var firegun as IItemStack = player.offHandHeldItem;
-            if (!isNull(firegun.tag.bulletCapacity)) {
-                if (firegun.tag.bulletCapacity as int == 0 && firegun.tag.Loaded as byte == 1) {
-                    firegun.mutable().updateTag({bulletCapacity : 20 as int});
-                }
-            } else {
-                firegun.mutable().updateTag({bulletCapacity : 0 as int, Loaded : 0 as byte});
-            }
-        }
-    }
 });
 
 $expand Container$isStack(slotIndex as int, stackTarget as IItemStack) as bool {

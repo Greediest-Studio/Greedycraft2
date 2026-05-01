@@ -30,8 +30,7 @@ val toolTypeStages as string[string] = {
     "moretcon:ring": "ring_blueprint",
     "tcongreedyaddon:greatblade": "awakened",
     "tcongreedyaddon:allinonetool": "awakened",
-    "moretcon:bomb": "awakened",
-    "tinkersarsenal:boomstick": "awakened"
+    "moretcon:bomb": "awakened"
 } as string[string];
 
 TinkerStages.addModifierStage("hardmode", "mending_moss");

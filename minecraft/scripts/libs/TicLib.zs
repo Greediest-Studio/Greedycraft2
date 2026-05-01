@@ -48,10 +48,7 @@ zenClass ticLib {
         <tconevo:tool_sceptre>,
         <tcongreedyaddon:allinonetool>,
         <moretcon:bomb>,
-        <tcomplement:chisel>,
-        <tinkersarsenal:boomstick>,
-        <tinkersarsenal:toolshears>,
-        <tinkersarsenal:boomstick_shot>
+        <tcomplement:chisel>
     ];
 
     zenConstructor() {
@@ -91,10 +88,7 @@ zenClass ticLib {
             <tconevo:tool_sceptre>,
             <tcongreedyaddon:allinonetool>,
             <moretcon:bomb>,
-            <tcomplement:chisel>,
-            <tinkersarsenal:boomstick>,
-            <tinkersarsenal:toolshears>,
-            <tinkersarsenal:boomstick_shot>
+            <tcomplement:chisel>
         ];
 
         for i in tictool{
@@ -216,8 +210,7 @@ zenClass ticLib {
             <tconstruct:mattock>,
             <tconstruct:kama>,
             <tcongreedyaddon:battleaxe>,
-            <tcongreedyaddon:allinonetool>,
-            <tinkersarsenal:toolshears>
+            <tcongreedyaddon:allinonetool>
         ];
 
         for i in item{
@@ -370,8 +363,7 @@ zenClass ticLib {
             <tconstruct:mattock>,
             <tconstruct:kama>,
             <tcongreedyaddon:battleaxe>,
-            <tcongreedyaddon:allinonetool>,
-            <tinkersarsenal:toolshears>
+            <tcongreedyaddon:allinonetool>
         ];
 
         for i in item{
@@ -401,8 +393,7 @@ zenClass ticLib {
         var item as IItemStack[] = [
             <tconstruct:shortbow>,
             <tconstruct:longbow>,
-            <tconstruct:crossbow>,
-            <tinkersarsenal:boomstick>
+            <tconstruct:crossbow>
         ];
 
         for i in item{

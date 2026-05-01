@@ -51,10 +51,7 @@ zenClass ticTraitLib {
         <tconevo:tool_sceptre>,
         <tcongreedyaddon:allinonetool>,
         <moretcon:bomb>,
-        <tcomplement:chisel>,
-        <tinkersarsenal:boomstick>,
-        <tinkersarsenal:toolshears>,
-        <tinkersarsenal:boomstick_shot>
+        <tcomplement:chisel>
     ];
 
     zenConstructor() {
@@ -259,10 +256,7 @@ zenClass ticTraitLib {
         <tconevo:tool_sceptre>,
         <tcongreedyaddon:allinonetool>,
         <moretcon:bomb>,
-        <tcomplement:chisel>,
-        <tinkersarsenal:boomstick>,
-        <tinkersarsenal:toolshears>,
-        <tinkersarsenal:boomstick_shot>
+        <tcomplement:chisel>
         ];
 
         for i in allticitem{

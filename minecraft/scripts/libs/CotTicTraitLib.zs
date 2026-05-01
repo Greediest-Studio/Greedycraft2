@@ -53,10 +53,7 @@ zenClass cotticTraitLib {
         <item:tconevo:tool_sceptre>,
         <item:tcongreedyaddon:allinonetool>,
         <item:moretcon:bomb>,
-        <item:tcomplement:chisel>,
-        <item:tinkersarsenal:boomstick>,
-        <item:tinkersarsenal:toolshears>,
-        <item:tinkersarsenal:boomstick_shot>
+        <item:tcomplement:chisel>
     ];
 
     zenConstructor() {
@@ -257,10 +254,7 @@ zenClass cotticTraitLib {
             <item:tconevo:tool_sceptre>,
             <item:tcongreedyaddon:allinonetool>,
             <item:moretcon:bomb>,
-            <item:tcomplement:chisel>,
-            <item:tinkersarsenal:boomstick>,
-            <item:tinkersarsenal:toolshears>,
-            <item:tinkersarsenal:boomstick_shot>
+            <item:tcomplement:chisel>
         ];
 
         for i in allticitem{

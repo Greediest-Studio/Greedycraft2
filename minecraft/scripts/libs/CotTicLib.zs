@@ -49,10 +49,7 @@ zenClass cotticLib {
         <item:tconevo:tool_sceptre>,
         <item:tcongreedyaddon:allinonetool>,
         <item:moretcon:bomb>,
-        <item:tcomplement:chisel>,
-        <item:tinkersarsenal:boomstick>,
-        <item:tinkersarsenal:toolshears>,
-        <item:tinkersarsenal:boomstick_shot>
+        <item:tcomplement:chisel>
     ];
 
     zenConstructor() {
@@ -94,10 +91,7 @@ zenClass cotticLib {
             <item:tconevo:tool_sceptre>,
             <item:tcongreedyaddon:allinonetool>,
             <item:moretcon:bomb>,
-            <item:tcomplement:chisel>,
-            <item:tinkersarsenal:boomstick>,
-            <item:tinkersarsenal:toolshears>,
-            <item:tinkersarsenal:boomstick_shot>
+            <item:tcomplement:chisel>
         ];
 
         for i in tictool{
@@ -239,8 +233,7 @@ zenClass cotticLib {
             <item:tconstruct:mattock>,
             <item:tconstruct:kama>,
             <item:tcongreedyaddon:battleaxe>,
-            <item:tcongreedyaddon:allinonetool>,
-            <item:tinkersarsenal:toolshears>
+            <item:tcongreedyaddon:allinonetool>
         ];
 
         for i in item{
@@ -393,8 +386,7 @@ zenClass cotticLib {
             <item:tconstruct:mattock>,
             <item:tconstruct:kama>,
             <item:tcongreedyaddon:battleaxe>,
-            <item:tcongreedyaddon:allinonetool>,
-            <item:tinkersarsenal:toolshears>
+            <item:tcongreedyaddon:allinonetool>
         ];
 
         for i in item{
@@ -424,8 +416,7 @@ zenClass cotticLib {
         var item as IItemStack[] = [
             <item:tconstruct:shortbow>,
             <item:tconstruct:longbow>,
-            <item:tconstruct:crossbow>,
-            <item:tinkersarsenal:boomstick>
+            <item:tconstruct:crossbow>
         ];
 
         for i in item{
