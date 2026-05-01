@@ -551,13 +551,13 @@ Infusion.registerRecipe("remnant_soul", "ABYSSISM_MOBS_REMNANT", <additions:remn
     <aspect:imperium> * 800,
     <aspect:caeles> * 800,
     <aspect:alienis> * 1200
-], <botania:manaresource:5>, [
+], <additions:annihilation_capacitor>, [
     <gct_aby:solid_pot_energy>,
-    <additions:annihilation_capacitor>,
+    <botania:manaresource:5>,
     <gct_aby:solid_pot_energy>,
-    <additions:annihilation_capacitor>,
+    <botania:manaresource:5>,
     <gct_aby:solid_pot_energy>,
-    <additions:annihilation_capacitor>,
+    <botania:manaresource:5>,
     <gct_aby:solid_pot_energy>,
-    <additions:annihilation_capacitor>
+    <botania:manaresource:5>
 ]);

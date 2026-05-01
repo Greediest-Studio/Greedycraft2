@@ -1,17 +1,17 @@
 {
-	title: "§b比高版本接口还强",
+	title: "§b更强大的输入端口",
 	x: -17.5d,
 	y: 10.0d,
-	description: "合成输入接口",
+	description: "合成通用输入接口",
 	text: [
-		"最多可以同时输入180种物品",
-		"还有流体，气体，源质类型"
+		"最多可以同时输入180种",
+		"支持物品，流体，气体，源质所有类型"
 	],
 	tasks: [{
 		uid: "be25e869",
 		type: "item",
 		items: [{
-			item: "cells:import_interface"
+			item: "cells:import_combined_interface"
 		}]
 	}],
 	rewards: [{

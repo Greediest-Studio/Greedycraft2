@@ -1,17 +1,17 @@
 {
-	title: "§b更强大的输入",
+	title: "§b更强大的输出端口",
 	x: -16.0d,
 	y: 10.0d,
-	description: "合成输出接口",
+	description: "合成通用输出接口",
 	text: [
-		"最多可以同时输出180种物品",
-		"还有流体，气体，源质类型"
+		"最多可以同时输出180种",
+		"支持物品，流体，气体，源质所有类型"
 	],
 	tasks: [{
 		uid: "c5e6b357",
 		type: "item",
 		items: [{
-			item: "cells:export_interface"
+			item: "cells:export_combined_interface"
 		}]
 	}],
 	rewards: [{
