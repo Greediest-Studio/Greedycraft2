@@ -2562,7 +2562,7 @@ GameStagesUtil.stageHardmode.addModId(["avaritia", "draconicevolution", "extrabo
 GameStagesUtil.stageNether.addModId(["aether_legacy", "cyclicmagic", "aeble", "theaurorian", "lost_aether"]);
 GameStagesUtil.stageNoobWizard.addModId(["astralsorcery"]);
 GameStagesUtil.stageNoviceWizard.addModId(["bloodmagic", "bloodarsenal", "animus", "evilcraft", "thaumicrestoration"]);
-GameStagesUtil.stageSkilledWizard.addModId(["naturesaura", "naturesdestruction", "auraddons"]);
+GameStagesUtil.stageSkilledWizard.addModId(["naturesaura", "auraddons"]);
 GameStagesUtil.stageMasterWizard.addModId(["thaumicenergistics"]);
 GameStagesUtil.stageNoobEngineer.addModId(["thermaldynamics", "thermalexpansion", "appliedenergistics2", "ae2wut", "ae_chisel", "ae2exttable", "extendedae", "threng", "cellterminal", "cells"]);
 GameStagesUtil.stageNoviceEngineer.addModId(["enderio"]);
