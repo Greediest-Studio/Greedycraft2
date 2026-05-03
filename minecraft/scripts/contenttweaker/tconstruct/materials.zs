@@ -283,21 +283,6 @@ cryonium.addArrowShaftMaterialStats(1.5, 32);
 cryonium.addProjectileMaterialStats();
 cryonium.register();
 
-val alubrass = MaterialBuilder.create("alubrass");
-alubrass.color = Color.fromHex("fbc02d").getIntColor(); 
-alubrass.craftable = false;
-alubrass.castable = true;
-alubrass.representativeItem = <item:tconstruct:ingots:5>;
-alubrass.liquid = <liquid:alubrass>;
-alubrass.addItem(<ore:ingotAlubrass>);
-alubrass.localizedName = game.localize("greedycraft.tconstruct.material.alubrass.name");
-alubrass.addHeadMaterialStats(200, 4.5, 5.0, 1);
-alubrass.addHandleMaterialStats(1.2, 30);
-alubrass.addExtraMaterialStats(850);
-alubrass.addBowMaterialStats(getDrawSpeed(1.65) as float, 1.3, 6.2);
-alubrass.addProjectileMaterialStats();
-alubrass.register();
-
 val diamond = MaterialBuilder.create("diamond");
 diamond.color = Color.fromHex("18ffff").getIntColor(); 
 diamond.craftable = true;
