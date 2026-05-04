@@ -425,77 +425,6 @@ ragingTrait.calcDamage = function(trait, tool, attacker, target, originalDamage,
 };
 ragingTrait.register();
 
-val levelingdamageTrait = ToolTraitBuilder.create("levelingdamage");
-levelingdamageTrait.color = Color.fromHex("7e57c2").getIntColor(); 
-levelingdamageTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.levelingdamageTrait.name");
-levelingdamageTrait.addItem(<ore:plateHonor>);
-levelingdamageTrait.maxLevel = 3;
-levelingdamageTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.levelingdamageTrait.desc");
-levelingdamageTrait.extraInfo = function(thisTrait, item, tag) {
-    if (isNull(tag) || isNull(tag.memberGet("Modifiers"))) {
-        return [] as string[];
-    }
-    var modifiers = tag.memberGet("Modifiers") as IData;
-    var toolLevel = {} as IData;
-    if (modifiers.asString().contains("toolleveling")) {
-        for i in 0 to modifiers.length {
-            var current as IData = modifiers[i];
-            if (current.asString().contains("toolleveling")) {
-                toolLevel = current;
-                break;
-            }
-        }
-    }
-    var multiplier = 1.0;
-    if (!isNull(toolLevel.memberGet("level"))) {
-        var level = toolLevel.memberGet("level").asInt() as int;
-        multiplier += 0.025f * level as float;
-        if (multiplier > 1.5) {
-            multiplier = 1.5 + (multiplier - 1.5) / 4;
-        }
-    }
-    var data as TraitDataRepresentation = thisTrait.getData(item);
-    var level = 0;
-    if (!isNull(data)) {
-        level = data.level;
-    }
-    multiplier = (multiplier - 1.0f) * (level / 3) + 1.0f;
-    var percentage as int = Math.round((multiplier - 1.0) * 100) as int;
-    return [I18n.format("greedycraft.tool_trait.tooltip.damage_increase", "" + percentage)] as string[];
-};
-levelingdamageTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
-    var modifiers = tool.tag.memberGet("Modifiers") as IData;
-    var toolLevel = {} as IData;
-    if (modifiers.asString().contains("toolleveling")) {
-        for i in 0 to modifiers.length {
-            var current as IData = modifiers[i];
-            if (current.asString().contains("toolleveling")) {
-                toolLevel = current;
-                break;
-            }
-        }
-    }
-    var multiplier = 1.0;
-    if (!isNull(toolLevel.memberGet("level"))) {
-        var level = toolLevel.memberGet("level").asInt() as int;
-        while(level > 0) {
-            level -= 1;
-            multiplier += 0.05;
-        }
-        if (multiplier > 2.0) {
-            multiplier = 2.0 + (multiplier - 2.0) / 4;
-        }
-    }    
-    var data as TraitDataRepresentation = trait.getData(tool);
-    var level = 0;
-    if (!isNull(data)) {
-        level = data.level;
-    }
-    multiplier = (multiplier - 1.0f) * (level as float / 3.0f) + 1.0f;
-    return newDamage * multiplier as float;
-};
-levelingdamageTrait.register();
-
 val thunderingTrait = ToolTraitBuilder.create("lightning");
 thunderingTrait.color = Color.fromHex("ffee58").getIntColor(); 
 thunderingTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.thunderingTrait.name");
@@ -3460,37 +3389,6 @@ overdominateTrait.calcDamage = function(trait, tool, attacker, target, originalD
     return newDamage;
 };
 overdominateTrait.register();
-
-val erase_commandTrait = ToolTraitBuilder.create("erase_command");
-erase_commandTrait.color = Color.fromHex("f64700").getIntColor(); 
-erase_commandTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.erase_commandTrait.name");
-erase_commandTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.erase_commandTrait.desc");
-erase_commandTrait.maxLevel = 5;
-erase_commandTrait.countPerLevel = 1;
-erase_commandTrait.addItem(<item:gct_ores:command_core>);
-erase_commandTrait.onHit = function(trait, tool, attacker, target, damage, isCritical) {
-    if (attacker instanceof IPlayer && target instanceof IEntityLivingBase) {
-        var entity as IEntityLivingBase = target;
-        var player as IPlayer = attacker;
-        if (!isNull(entity.definition)) {
-            if (entity.definition.id has "witherstorm") {
-                var level as int = trait.getData(tool).level as int;
-                if (!isNull(<ticontrait:stormy>.getData(tool))) {
-                    if (<ticontrait:stormy>.getData(tool).level == 1) {
-                        level *= 2;
-                    }
-                }
-                if (entity.health > 100 * level as float) {
-                    entity.health -= (100 * level as float);
-                } else {
-                    var dmg as IDamageSource = IDamageSource.createEntityDamage("chaos", player).setDamageIsAbsolute();
-                    entity.attackEntityFrom(dmg, 100.0f);
-                }
-            }
-        }
-    }
-};
-erase_commandTrait.register();
 
 val wyvernTrait = ToolTraitBuilder.create("wyvern");
 wyvernTrait.color = Color.fromHex("ffa000").getIntColor(); 
