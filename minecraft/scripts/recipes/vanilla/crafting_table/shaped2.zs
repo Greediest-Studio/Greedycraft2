@@ -889,10 +889,15 @@ RecipeUtil.addShaped("reversed_elven_passes", <additions:reversed_elven_passes>,
     [<additions:shadowberry>, <gct_mobs:elf_passes>, <additions:shadowberry>],
     [null, <additions:shadowberry>, null]
 ]);
+RecipeUtil.addShaped("extendedcrafting_interface", <extendedcrafting:interface>, [
+    [<ore:ingotBlackiron>, <extendedcrafting:material:9>, <ore:ingotBlackiron>],
+    [<extendedcrafting:material:15>, <extendedcrafting:frame>, <extendedcrafting:material:15>],
+    [<ore:ingotBlackiron>, <extendedcrafting:material:2>, <ore:ingotBlackiron>]
+]);
 /*
 RecipeUtil.addShaped("", , [
-  [null, null, null],
-  [null, null, null],
-  [null, null, null]
+    [null, null, null],
+    [null, null, null],
+    [null, null, null]
 ]);
  */

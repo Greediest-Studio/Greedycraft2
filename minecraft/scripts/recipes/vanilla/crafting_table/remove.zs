@@ -488,7 +488,8 @@ val removedRecipes as IIngredient[] = [
     <tinkertoolcasts:upgrade_ultimate>,
     <emosupertemplate:emo_pattern_terminal>,
     <tinymobfarm:ultimate_farm>,
-    <crazyae:mechanical_teraplate>
+    <crazyae:mechanical_teraplate>,
+    <extendedcrafting:interface>
 ];
 
 val removedRecipeNames as string[] = [
