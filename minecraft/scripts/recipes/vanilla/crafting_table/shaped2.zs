@@ -894,6 +894,66 @@ RecipeUtil.addShaped("extendedcrafting_interface", <extendedcrafting:interface>,
     [<extendedcrafting:material:15>, <extendedcrafting:frame>, <extendedcrafting:material:15>],
     [<ore:ingotBlackiron>, <extendedcrafting:material:2>, <ore:ingotBlackiron>]
 ]);
+RecipeUtil.addShaped("fun_stone_t1", <functionalstoragelegacy:stone_generation_upgrade_t1>, [
+    [<thermalexpansion:machine:15>, <thermalexpansion:machine:15>, <thermalexpansion:machine:15>],
+    [<thermalexpansion:machine:15>, <thermalexpansion:machine:15>, <thermalexpansion:machine:15>],
+    [<thermalexpansion:machine:15>, <thermalexpansion:machine:15>, <thermalexpansion:machine:15>]
+]);
+RecipeUtil.addShaped("fun_stone_t2", <functionalstoragelegacy:stone_generation_upgrade_t2>, [
+    [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>],
+    [<functionalstoragelegacy:stone_generation_upgrade_t1>, <functionalstoragelegacy:stone_generation_upgrade_t1>, <functionalstoragelegacy:stone_generation_upgrade_t1>],
+    [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]
+]);
+RecipeUtil.addShaped("fun_stone_t3", <functionalstoragelegacy:stone_generation_upgrade_t3>, [
+    [<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>],
+    [<functionalstoragelegacy:stone_generation_upgrade_t2>, <functionalstoragelegacy:stone_generation_upgrade_t2>, <functionalstoragelegacy:stone_generation_upgrade_t2>],
+    [<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>]
+]);
+RecipeUtil.addShaped("fun_stone_t4", <functionalstoragelegacy:stone_generation_upgrade_t4>, [
+    [<ore:ingotManyullyn>, <ore:ingotManyullyn>, <ore:ingotManyullyn>],
+    [<functionalstoragelegacy:stone_generation_upgrade_t3>, <nuclearcraft:cobblestone_generator_compact>, <functionalstoragelegacy:stone_generation_upgrade_t3>],
+    [<ore:ingotManyullyn>, <ore:ingotManyullyn>, <ore:ingotManyullyn>]
+]);
+RecipeUtil.addShaped("fun_universal_t1", <functionalstoragelegacy:universal_item_generation_t1>, [
+    [<additions:sand_of_time>, <additions:sand_of_time>, <additions:sand_of_time>],
+    [<additions:sand_of_time>, <additions:sand_of_time>, <additions:sand_of_time>],
+    [<additions:sand_of_time>, <additions:sand_of_time>, <additions:sand_of_time>]
+]);
+RecipeUtil.addShaped("fun_universal_t2 ", <functionalstoragelegacy:universal_item_generation_t2>, [
+    [<functionalstoragelegacy:universal_item_generation_t1>, <functionalstoragelegacy:universal_item_generation_t1>, <functionalstoragelegacy:universal_item_generation_t1>],
+    [<functionalstoragelegacy:universal_item_generation_t1>, <naturesaura:clock_hand>, <functionalstoragelegacy:universal_item_generation_t1>],
+    [<functionalstoragelegacy:universal_item_generation_t1>, <functionalstoragelegacy:universal_item_generation_t1>, <functionalstoragelegacy:universal_item_generation_t1>]
+]);
+RecipeUtil.addShaped("fun_universal_t3", <functionalstoragelegacy:universal_item_generation_t3>, [
+    [<functionalstoragelegacy:universal_item_generation_t2>, <functionalstoragelegacy:universal_item_generation_t2>, <functionalstoragelegacy:universal_item_generation_t2>],
+    [<functionalstoragelegacy:universal_item_generation_t2>, <naturesaura:clock_hand>, <functionalstoragelegacy:universal_item_generation_t2>],
+    [<functionalstoragelegacy:universal_item_generation_t2>, <functionalstoragelegacy:universal_item_generation_t2>, <functionalstoragelegacy:universal_item_generation_t2>]
+]);
+RecipeUtil.addShaped("fun_universal_t4", <functionalstoragelegacy:universal_item_generation_t4>, [
+    [<functionalstoragelegacy:universal_item_generation_t3>, <functionalstoragelegacy:universal_item_generation_t3>, <functionalstoragelegacy:universal_item_generation_t3>],
+    [<functionalstoragelegacy:universal_item_generation_t3>, <naturesaura:clock_hand>, <functionalstoragelegacy:universal_item_generation_t3>],
+    [<functionalstoragelegacy:universal_item_generation_t3>, <functionalstoragelegacy:universal_item_generation_t3>, <functionalstoragelegacy:universal_item_generation_t3>]
+]);
+RecipeUtil.addShaped("fun_water_t1", <functionalstoragelegacy:water_generation_upgrade_t1>, [
+    [<minecraft:water_bucket>, <minecraft:glass>, <minecraft:water_bucket>],
+    [<minecraft:glass>, <functionalstoragelegacy:fluid_1>, <minecraft:glass>],
+    [<minecraft:water_bucket>, <minecraft:glass>, <minecraft:water_bucket>]
+]);
+RecipeUtil.addShaped("fun_water_t2", <functionalstoragelegacy:water_generation_upgrade_t2>, [
+    [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>],
+    [<functionalstoragelegacy:water_generation_upgrade_t1>, <functionalstoragelegacy:fluid_1>, <functionalstoragelegacy:water_generation_upgrade_t1>],
+    [<ore:ingotCopper>, <ore:ingotCopper>, <ore:ingotCopper>]
+]);
+RecipeUtil.addShaped("fun_water_t3", <functionalstoragelegacy:water_generation_upgrade_t3>, [
+    [<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>],
+    [<functionalstoragelegacy:water_generation_upgrade_t2>, <functionalstoragelegacy:fluid_1>, <functionalstoragelegacy:water_generation_upgrade_t2>],
+    [<ore:gemDiamond>, <ore:gemDiamond>, <ore:gemDiamond>]
+]);
+RecipeUtil.addShaped("fun_water_t4", <functionalstoragelegacy:water_generation_upgrade_t4>, [
+    [<ore:ingotManyullyn>, <ore:ingotManyullyn>, <ore:ingotManyullyn>],
+    [<functionalstoragelegacy:water_generation_upgrade_t3>, <functionalstoragelegacy:fluid_1>, <functionalstoragelegacy:water_generation_upgrade_t3>],
+    [<ore:ingotManyullyn>, <ore:ingotManyullyn>, <ore:ingotManyullyn>]
+]);
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],

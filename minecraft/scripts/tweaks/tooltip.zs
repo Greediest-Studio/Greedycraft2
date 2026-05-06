@@ -32,6 +32,7 @@ val cant_set_spawn = game.localize("greedycraft.tooltip.constant.cant_set_spawn"
 val machinery_upgrade_guide = game.localize("greedycraft.tooltip.constant.machinery_upgrade_guide");
 val machinery_upgrade_warning = game.localize("greedycraft.tooltip.constant.machinery_upgrade_warning");
 val odch = game.localize("greedycraft.tooltip.odct");
+val universal_item_generation = game.localize("greedycraft.tooltip.universal_item_generation");
 
 val tooltipMap as string[][IIngredient] = {
     <mysticalagriculture:supremium_helmet> : [flight_disabled],
@@ -232,7 +233,11 @@ val tooltipMap as string[][IIngredient] = {
     <gct_mobs:resonate_debris> : [game.localize("greedycraft.tooltip.gct_mobs.resonate_debris")],
     <mekanism:machineblock:4> : [game.localize("greedycraft.tooltip.mekanism.miner")],
     <appliedenergistics2:part:300> : [game.localize("greedycraft.tooltip.ae2.blockbreaker")],
-    <additions:astral_projector> : [game.localize("greedycraft.tooltip.additions.astral_projector")]
+    <additions:astral_projector> : [game.localize("greedycraft.tooltip.additions.astral_projector")],
+    <functionalstoragelegacy:universal_item_generation_t1> : [universal_item_generation],
+    <functionalstoragelegacy:universal_item_generation_t2> : [universal_item_generation],
+    <functionalstoragelegacy:universal_item_generation_t3> : [universal_item_generation],
+    <functionalstoragelegacy:universal_item_generation_t4> : [universal_item_generation]
 } as string[][IIngredient];
 
 for ingredient in tooltipMap {
