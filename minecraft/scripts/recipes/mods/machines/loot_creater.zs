@@ -98,6 +98,7 @@ for essence in essenceList {
         })
         .addRecipeTooltip("增加" + essenceList[essence] + "点精华值")
         .setThreadName("精华收集模块")
+        .setMaxThreads(1)
         .build();
 }
 
@@ -179,6 +180,7 @@ function createLootRecipe(license as string, consume as IItemStack[], output as 
     });
     builder.addRecipeTooltip("§e消耗" + essence + "点精华值");
     builder.addRecipeTooltip("§a需要升级：" + licenseMap[license]);
+    builder.setMaxThreads(1);
     builder.build();
 }
 

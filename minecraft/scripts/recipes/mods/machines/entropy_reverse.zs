@@ -40,6 +40,7 @@ RecipeBuilder.newBuilder("entropy_1", "entropy_reverse", 20)
     .addEnergyPerTickInput(1000000)
     .addFluidOutput(<liquid:cryotheum> * 1000)
     .addFluidOutput(<liquid:pyrotheum> * 1000)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("entropy_2", "entropy_reverse", 200)
@@ -47,4 +48,5 @@ RecipeBuilder.newBuilder("entropy_2", "entropy_reverse", 200)
     .addEnergyPerTickInput(1000000)
     .addFluidOutput(<liquid:liquid_air> * 1000)
     .addFluidOutput(<liquid:liquidantimatter> * 1000)
+    .setMaxThreads(1)
     .build();

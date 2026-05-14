@@ -34,5 +34,6 @@ MMEvents.onControllerGUIRender("elysia_melter", function(event as ControllerGUIR
 
 RecipeAdapterBuilder.create("elysia_melter", "nuclearcraft:melter")
     .addRecipeTooltip("§d熔化配方支持模块化电容升级，详情请查询“模块化电容”")
+    .setMaxThreads(1)
     .build();
 

@@ -46,6 +46,7 @@ function addPolymerRecipe(inputs as ILiquidStack[], outputs as ILiquidStack[]) {
     }
     builder.addEnergyPerTickInput(480000);
     builder.addRecipeTooltip("§d聚合配方支持模块化电容升级，详情请查询“模块化电容”");
+    builder.setMaxThreads(1);
     builder.build();
 }
 

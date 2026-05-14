@@ -33,6 +33,7 @@ RecipeBuilder.newBuilder("arcane_compression_voidmetal", "arcane_compressor", 12
     .addFluxInput(20)
     .addAspcetInput(20, "vacuos")
     .addItemOutput(<thaumcraft:ingot:1>)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("arcane_compression_primordial", "arcane_compressor", 300)
@@ -41,6 +42,7 @@ RecipeBuilder.newBuilder("arcane_compression_primordial", "arcane_compressor", 3
     .addItemInput(<thaumicwonders:primordial_grain> * 8)
     .addAspcetInput(30, "metallum")
     .addItemOutput(<tconevo:metal:20>)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("arcane_compression_aer", "arcane_compressor", 360)
@@ -51,6 +53,7 @@ RecipeBuilder.newBuilder("arcane_compression_aer", "arcane_compressor", 360)
     .addAspcetInput(1200, "aer")
     .addDimensionInput(822)
     .addItemOutput(<additions:blizzium_ingot>)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("arcane_compression_fire", "arcane_compressor", 360)
@@ -61,6 +64,7 @@ RecipeBuilder.newBuilder("arcane_compression_fire", "arcane_compressor", 360)
     .addAspcetInput(1200, "ignis")
     .addDimensionInput(822)
     .addItemOutput(<additions:blazingium_ingot>)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("arcane_compression_water", "arcane_compressor", 360)
@@ -71,6 +75,7 @@ RecipeBuilder.newBuilder("arcane_compression_water", "arcane_compressor", 360)
     .addAspcetInput(1200, "aqua")
     .addDimensionInput(823)
     .addItemOutput(<additions:tidalium_ingot>)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("arcane_compression_earth", "arcane_compressor", 360)
@@ -81,6 +86,7 @@ RecipeBuilder.newBuilder("arcane_compression_earth", "arcane_compressor", 360)
     .addAspcetInput(1200, "terra")
     .addDimensionInput(824)
     .addItemOutput(<additions:terranium_ingot>)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("arcane_compression_order", "arcane_compressor", 360)
@@ -91,6 +97,7 @@ RecipeBuilder.newBuilder("arcane_compression_order", "arcane_compressor", 360)
     .addAspcetInput(1200, "ordo")
     .addDimensionInput(820)
     .addItemOutput(<additions:enlightium_ingot>)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("arcane_compression_chaos", "arcane_compressor", 360)
@@ -101,6 +108,7 @@ RecipeBuilder.newBuilder("arcane_compression_chaos", "arcane_compressor", 360)
     .addAspcetInput(1200, "perditio")
     .addDimensionInput(821)
     .addItemOutput(<additions:debarcium_ingot>)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("arcane_compression_hexacite", "arcane_compressor", 720)
@@ -114,6 +122,7 @@ RecipeBuilder.newBuilder("arcane_compression_hexacite", "arcane_compressor", 720
     .addImpetusInput(480)
     .addDimensionInput(78)
     .addItemOutput(<additions:hexacite_ingot> * 2)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("arcane_compression_bloody_spironium", "arcane_compressor", 600)
@@ -124,6 +133,7 @@ RecipeBuilder.newBuilder("arcane_compression_bloody_spironium", "arcane_compress
     .addVisInput(20.0f)
     .addDimensionInput(41)
     .addItemOutput(<additions:bloody_spironium_ingot>)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("arcane_compression_thaumium_aer", "arcane_compressor", 100)
@@ -131,6 +141,7 @@ RecipeBuilder.newBuilder("arcane_compression_thaumium_aer", "arcane_compressor",
     .addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]}) * 6)
     .addVisInput(50.0f)
     .addItemOutput(<thaumicrestoration:item_ingot>)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("arcane_compression_thaumium_ignis", "arcane_compressor", 100)
@@ -138,6 +149,7 @@ RecipeBuilder.newBuilder("arcane_compression_thaumium_ignis", "arcane_compressor
     .addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]}) * 6)
     .addVisInput(50.0f)
     .addItemOutput(<thaumicrestoration:item_ingot:1>)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("arcane_compression_thaumium_aqua", "arcane_compressor", 100)
@@ -145,6 +157,7 @@ RecipeBuilder.newBuilder("arcane_compression_thaumium_aqua", "arcane_compressor"
     .addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]}) * 6)
     .addVisInput(50.0f)
     .addItemOutput(<thaumicrestoration:item_ingot:2>)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("arcane_compression_thaumium_terra", "arcane_compressor", 100)
@@ -152,6 +165,7 @@ RecipeBuilder.newBuilder("arcane_compression_thaumium_terra", "arcane_compressor
     .addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]}) * 6)
     .addVisInput(50.0f)
     .addItemOutput(<thaumicrestoration:item_ingot:3>)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("arcane_compression_thaumium_ordo", "arcane_compressor", 100)
@@ -159,6 +173,7 @@ RecipeBuilder.newBuilder("arcane_compression_thaumium_ordo", "arcane_compressor"
     .addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]}) * 6)  
     .addVisInput(50.0f)
     .addItemOutput(<thaumicrestoration:item_ingot:4>)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("arcane_compression_thaumium_perditio", "arcane_compressor", 100)
@@ -166,4 +181,5 @@ RecipeBuilder.newBuilder("arcane_compression_thaumium_perditio", "arcane_compres
     .addItemInput(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]}) * 6)
     .addVisInput(50.0f)
     .addItemOutput(<thaumicrestoration:item_ingot:5>)
+    .setMaxThreads(1)
     .build();

@@ -67,6 +67,7 @@ function recipe(recipenum as int, output as IIngredient, input as IIngredient[],
             }
         });
     }
+    builder.setMaxThreads(1);
     builder.build();
 }
 

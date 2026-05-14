@@ -49,6 +49,7 @@ function addBuilderRecipe(controller as IItemStack, inputs as IIngredient[], lev
         builder.addEnergyPerTickInput((pow(4, i as double - 1) as int) * 256);
         builder.addFluidPerTickInput(<liquid:redstone> * 10);
         builder.addItemOutput(controller);
+        builder.setMaxThreads(1);
         builder.build();
         tick /= 2;
     }

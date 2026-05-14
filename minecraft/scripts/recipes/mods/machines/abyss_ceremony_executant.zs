@@ -61,6 +61,7 @@ function addRitualRecipe(output as IItemStack, inputs as IIngredient[], potEnerg
     if (sacrifice) {
         builder.addSacrificeInput();
     }
+    builder.setMaxThreads(1);
     builder.build();
 }
 

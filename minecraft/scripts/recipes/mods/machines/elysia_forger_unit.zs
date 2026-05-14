@@ -48,6 +48,7 @@ RecipeAdapterBuilder.create("elysia_forger", "thermalexpansion:compactor_plate")
     })
     .addRecipeTooltip("§d铸造配方支持模块化电容升级，详情请查询“模块化电容”")
     .addRecipeTooltip("§e需求智能数据接口数值：0")
+    .setMaxThreads(1)
     .build();
 
 RecipeAdapterBuilder.create("elysia_forger", "thermalexpansion:compactor_gear")
@@ -58,4 +59,5 @@ RecipeAdapterBuilder.create("elysia_forger", "thermalexpansion:compactor_gear")
     })
     .addRecipeTooltip("§d铸造配方支持模块化电容升级，详情请查询“模块化电容”")
     .addRecipeTooltip("§e需求智能数据接口数值：1")
+    .setMaxThreads(1)
     .build();

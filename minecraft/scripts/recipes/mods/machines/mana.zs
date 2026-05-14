@@ -72,38 +72,18 @@ RecipeBuilder.newBuilder("mana_reduction6", "mana_powereducer", 1, 0).addFluidIn
 
 MMEvents.onStructureUpdate("mana_liquefactor", function(event as MachineStructureUpdateEvent) {
     val ctrl = event.controller;
-    var data = ctrl.customData;
-    var posStart = [(ctrl.pos.x + 3),(ctrl.pos.y + 3),(ctrl.pos.z + 3)];
-    var posEnd = [(ctrl.pos.x - 3),(ctrl.pos.y + 2),(ctrl.pos.z - 3)];
-    var x = posStart[0];
-    var y = posStart[1];
-    var z = posStart[2];
+    var data = ctrl.customData as IData;
     if (!isNull(data.inputPos)) {
         data = data.deepUpdate({inputPos: data.inputPos},REMOVE);
     }
-    if (!isNull(data.outputPos)) {
-        data = data.deepUpdate({outputPos: data.outputPos},REMOVE);
+    for pos in ctrl.getBlockPosInPattern(<gugu-utils:sparkmanahatch:0>) {
+        var input = [(pos.x + ctrl.pos.x), (pos.y + ctrl.pos.y), (pos.z + ctrl.pos.z)] as int[];
+        data = data.deepUpdate({inputPos: [input]},APPEND);
     }
-    while (x >= posEnd[0]) {
-        while (y >= posEnd[1]) {
-            while (z >= posEnd[2]) {
-                val block = ctrl.world.getBlock(x,y,z);
-                if (block.definition.id == "gugu-utils:sparkmanahatch" && block.meta == 0) {
-                    var input = [x,y,z] as int[];
-                    data = data.deepUpdate({inputPos: [input]},APPEND);
-                }
-                else if (block.definition.id has "modularmachinery:blockfluidoutputhatch") {
-                    var output = [x,y,z] as int[];
-                    data = data.deepUpdate({outputPos: [output]},APPEND);
-                }
-                z = z - 1;
-            }
-            y = y - 1;
-            z = posStart[2];
-        }
-        x = x - 1;
-        y = posStart[1];
-    }
+    //for pos in ctrl.getBlockPosInPattern(<modularmachinery:blockfluidoutputhatch:*>) {
+    //    var output = [pos.x + ctrl.pos.x, pos.y + ctrl.pos.y, pos.z + ctrl.pos.z] as int[];
+    //    data = data.deepUpdate({outputPos: [output]},APPEND);
+    //}
     ctrl.customData = data;
 });
 
@@ -221,7 +201,8 @@ MMEvents.onMachinePreTick("mana_liquefactor", function(event as MachineTickEvent
 
 RecipeBuilder.newBuilder("mana","mana_liquefactor", 1)
     .addPreCheckHandler(function(event as RecipeCheckEvent) {
-        if (isNull(event.controller.customData.parallel) || event.controller.customData.parallel == 0 || event.controller.customData.parallel < 1000) {
+        val data = event.controller.customData;
+        if (isNull(data.parallel) || data.parallel == 0 || data.parallel < 1000) {
             event.setFailed("§9缺少魔力输入");
         }
     })

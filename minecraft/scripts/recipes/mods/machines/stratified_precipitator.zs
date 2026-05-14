@@ -38,6 +38,7 @@ RecipeBuilder.newBuilder("alkali", "stratified_precipitator", 600)
     .addItemOutput(<additions:rubidium_chloroplatinate>).setChance(0.1f)
     .addItemOutput(<additions:cesium_chloroplatinate>).setChance(0.15f)
     .addFluidOutput(<liquid:water> * 10000)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("hou", "stratified_precipitator", 600)
@@ -46,6 +47,7 @@ RecipeBuilder.newBuilder("hou", "stratified_precipitator", 600)
     .addEnergyPerTickInput(20000)
     .addItemOutput(<additions:sodium_hydrogen_carbonate>)
     .addFluidOutput(<liquid:ammonium_chloride_solution> * 666)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("caminite", "stratified_precipitator", 600)
@@ -54,4 +56,5 @@ RecipeBuilder.newBuilder("caminite", "stratified_precipitator", 600)
     .addEnergyPerTickInput(20000)
     .addItemOutput(<additions:magnesium_sulfate_hydroxide>)
     .addFluidOutput(<liquid:sodium_sulfate_solution> * 666)
+    .setMaxThreads(1)
     .build();
