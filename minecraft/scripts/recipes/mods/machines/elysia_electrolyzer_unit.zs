@@ -38,4 +38,5 @@ MMEvents.onControllerGUIRender("elysia_electrolyzer", function(event as Controll
 
 RecipeAdapterBuilder.create("elysia_electrolyzer", "nuclearcraft:electrolyzer")
     .addRecipeTooltip("§d电解配方支持模块化电容升级，详情请查询“模块化电容”")
+    .setMaxThreads(1)
     .build();

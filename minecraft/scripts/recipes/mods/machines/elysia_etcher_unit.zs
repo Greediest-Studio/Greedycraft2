@@ -68,6 +68,7 @@ function addEtcherRecipe(output as IItemStack, inputs as IItemStack[], level as 
         builder.addOutput(output);
         builder.addEnergyPerTickInput(200);
         builder.addRecipeTooltip("§d蚀刻配方支持模块化电容升级，详情请查询“模块化电容”");
+        builder.setMaxThreads(1);
         builder.build();
     } else if (level == 2) {
         var builder = RecipeBuilder.newBuilder(output.definition.id + "_" + output.metadata + "_etcher_recipe", "elysia_etcher", 200);
@@ -83,6 +84,7 @@ function addEtcherRecipe(output as IItemStack, inputs as IItemStack[], level as 
                 event.setFailed("缺少2级蚀刻升级！");
             }
         });
+        builder.setMaxThreads(1);
         builder.build();
     } else if (level == 3) {
         var builder = RecipeBuilder.newBuilder(output.definition.id + "_" + output.metadata + "_etcher_recipe", "elysia_etcher", 300);
@@ -98,6 +100,7 @@ function addEtcherRecipe(output as IItemStack, inputs as IItemStack[], level as 
                 event.setFailed("缺少3级蚀刻升级！");
             }
         });
+        builder.setMaxThreads(1);
         builder.build();
     }
 }

@@ -44,6 +44,7 @@ function addLiquefaction(output as ILiquidStack, gas as IGasStack) {
     .addEnergyPerTickInput(200)
     .addFluidOutput(output)
     .addRecipeTooltip("§d液化配方支持模块化电容升级，详情请查询“模块化电容”")
+    .setMaxThreads(1)
     .build();
 }
 

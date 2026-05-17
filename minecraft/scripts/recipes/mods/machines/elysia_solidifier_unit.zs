@@ -45,6 +45,7 @@ function addSolidification(output as IItemStack, liquid as ILiquidStack, cooler 
         .addEnergyPerTickInput(50000)
         .addItemOutput(output)
         .addRecipeTooltip("§d凝结配方支持模块化电容升级，详情请查询“模块化电容”")
+        .setMaxThreads(1)
         .build();
 }
 
@@ -62,4 +63,5 @@ addSolidification(<additions:radon_ingot>, <liquid:liquid_radon> * 144, <liquid:
 
 RecipeAdapterBuilder.create("elysia_solidifier", "nuclearcraft:ingot_former")
     .addRecipeTooltip("§d凝结配方支持模块化电容升级，详情请查询“模块化电容”")
+    .setMaxThreads(1)
     .build();

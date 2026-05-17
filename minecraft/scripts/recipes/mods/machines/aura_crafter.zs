@@ -48,6 +48,7 @@ RecipeBuilder.newBuilder("aurune_craft", "aura_crafter", 240)
     .addGasInput(<gas:airnether> * 1000)
     .addGasInput(<gas:airend> * 1000)
     .addItemOutput(<additions:aurune_ingot> * 3)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("sky_craft", "aura_crafter", 120)
@@ -57,6 +58,7 @@ RecipeBuilder.newBuilder("sky_craft", "aura_crafter", 120)
     .addGasInput(<gas:air> * 500)
     .addGasInput(<gas:airnether> * 500)
     .addItemOutput(<naturesaura:sky_ingot> * 2)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("earth_craft", "aura_crafter", 180)
@@ -66,10 +68,12 @@ RecipeBuilder.newBuilder("earth_craft", "aura_crafter", 180)
     .addGasInput(<gas:air> * 800)
     .addGasInput(<gas:airend> * 800)
     .addItemOutput(<gct_mobs:earth_ingot> * 2)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("iron_craft", "aura_crafter", 100)
     .addItemInput(<ore:ingotIron>)
     .addAuraInput(100, true)
     .addItemOutput(<naturesaura:infused_iron>)
+    .setMaxThreads(1)
     .build();

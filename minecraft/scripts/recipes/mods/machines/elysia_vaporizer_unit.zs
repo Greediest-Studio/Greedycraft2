@@ -44,6 +44,7 @@ function addVaporization(output as ILiquidStack, gas as IGasStack) {
     .addEnergyPerTickInput(200)
     .addGasOutput(gas * 320)
     .addRecipeTooltip("§d汽化配方支持模块化电容升级，详情请查询“模块化电容”")
+    .setMaxThreads(1)
     .build();
 }
 

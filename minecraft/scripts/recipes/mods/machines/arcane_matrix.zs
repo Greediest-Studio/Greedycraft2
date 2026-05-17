@@ -36,6 +36,7 @@ MachineModifier.setInternalParallelism("arcane_matrix", 1);
 RecipeAdapterBuilder.create("arcane_matrix", "thaumcraft:whimcraft_infusion_matrix_research")
     .addEnergyPerTickInput(3600)
     .addRecipeTooltip("§e实际加工时间将乘以0.04（缩短到1/25）")
+    .setMaxThreads(1)
     .build();
 
 MMEvents.onMachinePreTick("arcane_matrix", function(event as MachineTickEvent) {

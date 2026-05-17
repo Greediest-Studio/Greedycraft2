@@ -226,20 +226,21 @@ for row in crops {
         tier = 9;
     }
     RecipeBuilder.newBuilder(regName + "_grow_" + seed.name + "_" + recipeId, regName, time[tier] * 10, 0)
-    .addItemInput(seed).setChance(0.0f)
-    .addEnergyPerTickInput(energy[tier])
-    .addItemOutput(seed)
-    .setChance(seedChance[tier] as float)
-    .addItemOutput(essence)
-    .addItemOutput(essence)
-    .setChance(0.5f)
-    .addItemOutput(essence)
-    .setChance(0.25f)
-    .addItemOutput(essence)
-    .setChance(0.125f)
-    .addItemOutput(<mysticalagriculture:fertilized_essence>)
-    .setChance(0.03f)
-    .build();
+        .addItemInput(seed).setChance(0.0f)
+        .addEnergyPerTickInput(energy[tier])
+        .addItemOutput(seed)
+        .setChance(seedChance[tier] as float)
+        .addItemOutput(essence)
+        .addItemOutput(essence)
+        .setChance(0.5f)
+        .addItemOutput(essence)
+        .setChance(0.25f)
+        .addItemOutput(essence)
+        .setChance(0.125f)
+        .addItemOutput(<mysticalagriculture:fertilized_essence>)
+        .setChance(0.03f)
+        .setMaxThreads(1)
+        .build();
     
     recipeId += 1;
 }

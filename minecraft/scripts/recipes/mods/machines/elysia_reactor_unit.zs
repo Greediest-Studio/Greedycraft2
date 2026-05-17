@@ -44,6 +44,7 @@ MMEvents.onControllerGUIRender("elysia_reactor", function(event as ControllerGUI
 
 RecipeAdapterBuilder.create("elysia_reactor", "nuclearcraft:chemical_reactor")
     .addRecipeTooltip("§d化学反应配方支持模块化电容升级，详情请查询“模块化电容”")
+    .setMaxThreads(1)
     .build();
 
 function addExtraReactionRecipe(inputs as ILiquidStack[], outputs as ILiquidStack[]) {
@@ -62,6 +63,7 @@ function addExtraReactionRecipe(inputs as ILiquidStack[], outputs as ILiquidStac
             event.setFailed("缺少扩容升级！");
         }
     });
+    builder.setMaxThreads(1);
     builder.build();
 }
 

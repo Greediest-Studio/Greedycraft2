@@ -60,6 +60,7 @@ for row in converterRecipes {
     for i in 1 to row.length {
         builder.addFluidOutput(row[i] as ILiquidStack);
     }
+    builder.setMaxThreads(1);
     builder.build();
     
     var builderReversed = RecipeBuilder.newBuilder(regName + "_alloy_" + inputStack.definition.name + "_reversed", regName, alloySpeed, 0);
@@ -68,6 +69,7 @@ for row in converterRecipes {
     }
     builderReversed.addEnergyPerTickInput(alloyEnergy);
     builderReversed.addFluidOutput(inputStack);
+    builderReversed.setMaxThreads(1);
     builderReversed.build();
 }
 

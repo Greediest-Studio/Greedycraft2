@@ -44,4 +44,5 @@ MMEvents.onControllerGUIRender("elysia_smelter", function(event as ControllerGUI
 
 RecipeAdapterBuilder.create("elysia_smelter", "minecraft:furnace")
     .addRecipeTooltip("§d烧炼配方支持模块化电容升级，详情请查询“模块化电容”")
+    .setMaxThreads(1)
     .build();

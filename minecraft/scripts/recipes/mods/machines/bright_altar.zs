@@ -19,8 +19,8 @@ import mods.modularmachinery.ControllerGUIRenderEvent;
 import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
-MachineModifier.setMaxThreads("bright_altar", 16);
-MachineModifier.setMaxParallelism("bright_altar", 4);
+MachineModifier.setMaxThreads("bright_altar", 4);
+MachineModifier.setMaxParallelism("bright_altar", 16);
 MachineModifier.setInternalParallelism("bright_altar", 1);
 
 MMEvents.onControllerGUIRender("bright_altar", function(event as ControllerGUIRenderEvent) {
@@ -58,6 +58,7 @@ RecipeBuilder.newBuilder("zodiacite", "bright_altar", 600)
     .addFluidInput(<liquid:astralsorcery.liquidstarlight> * 16000)
     .addStarlightInput(20000)
     .addItemOutput(<additions:zodiacite_ingot> * 2)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("dubhe_essence_shard", "bright_altar", 600)
@@ -69,4 +70,5 @@ RecipeBuilder.newBuilder("dubhe_essence_shard", "bright_altar", 600)
     .addItemInput(<additions:erebus_complex> * 4)
     .addStarlightInput(25000)
     .addItemOutput(<additions:dubhe_essence_shard>)
+    .setMaxThreads(1)
     .build();

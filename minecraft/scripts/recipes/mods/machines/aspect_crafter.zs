@@ -34,8 +34,8 @@ MMEvents.onControllerGUIRender("aspect_crafter", function(event as ControllerGUI
     event.extraInfo = info;
 });
 
-MachineModifier.setMaxThreads("aspect_crafter", 65536);
-MachineModifier.setMaxParallelism("aspect_crafter", 1);
+MachineModifier.setMaxThreads("aspect_crafter", 128);
+MachineModifier.setMaxParallelism("aspect_crafter", 65536);
 MachineModifier.setInternalParallelism("aspect_crafter", 1);
 
 for aspect in aspects {
@@ -50,6 +50,7 @@ for aspect in aspects {
                 .addAspcetInput(1, tag2)
                 .addAspcetOutput(1, tag0)
                 .addEnergyPerTickInput(100)
+                .setMaxThreads(1)
                 .build();
         }
     }
@@ -61,4 +62,5 @@ RecipeBuilder.newBuilder("aspect_craftcthulhu", "aspect_crafter", 1)
     .addAspcetInput(1, "abyss")
     .addAspcetOutput(1, "cthulhu")
     .addEnergyPerTickInput(100)
+    .setMaxThreads(1)
     .build();

@@ -49,6 +49,7 @@ MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_nature>, "nature_centrif
 
 RecipeAdapterBuilder.create("elysia_centrifuge", "nuclearcraft:separator")
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("centrifuge_nature_stone", "elysia_centrifuge", 20)
@@ -91,6 +92,7 @@ RecipeBuilder.newBuilder("centrifuge_nature_stone", "elysia_centrifuge", 20)
     .addItemOutput(<thermalfoundation:material:2053>).setChance(0.006f)
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
     .addRecipeTooltip("§e需要自然离心升级模块才能使用此配方！")
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("centrifuge_nature_leave", "elysia_centrifuge", 20)
@@ -112,6 +114,7 @@ RecipeBuilder.newBuilder("centrifuge_nature_leave", "elysia_centrifuge", 20)
     .addItemOutput(<mysticalagriculture:nature_essence>).setChance(0.05f)
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
     .addRecipeTooltip("§e需要自然离心升级模块才能使用此配方！")
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("centrifuge_nature_log", "elysia_centrifuge", 20)
@@ -129,6 +132,7 @@ RecipeBuilder.newBuilder("centrifuge_nature_log", "elysia_centrifuge", 20)
     .addItemOutput(<mysticalagriculture:wood_essence>).setChance(0.05f)
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
     .addRecipeTooltip("§e需要自然离心升级模块才能使用此配方！")
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("centrifuge_nature_gravel", "elysia_centrifuge", 20)
@@ -158,6 +162,7 @@ RecipeBuilder.newBuilder("centrifuge_nature_gravel", "elysia_centrifuge", 20)
     .addItemOutput(<thermalfoundation:material:2053>).setChance(0.005f)
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
     .addRecipeTooltip("§e需要自然离心升级模块才能使用此配方！")
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("centrifuge_nature_sand", "elysia_centrifuge", 20)
@@ -182,6 +187,7 @@ RecipeBuilder.newBuilder("centrifuge_nature_sand", "elysia_centrifuge", 20)
     .addItemOutput(<thermalfoundation:material:866>).setChance(0.0075f)
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
     .addRecipeTooltip("§e需要自然离心升级模块才能使用此配方！")
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("centrifuge_nature_sandstone", "elysia_centrifuge", 20)
@@ -206,6 +212,7 @@ RecipeBuilder.newBuilder("centrifuge_nature_sandstone", "elysia_centrifuge", 20)
     .addItemOutput(<thermalfoundation:material:866>).setChance(0.0075f)
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
     .addRecipeTooltip("§e需要自然离心升级模块才能使用此配方！")
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("centrifuge_nature_netherrack", "elysia_centrifuge", 20)
@@ -231,6 +238,7 @@ RecipeBuilder.newBuilder("centrifuge_nature_netherrack", "elysia_centrifuge", 20
     .addItemOutput(<additions:netherite_scrap>).setChance(0.00025f)
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
     .addRecipeTooltip("§e需要自然离心升级模块才能使用此配方！")
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("centrifuge_nature_endstone", "elysia_centrifuge", 20)
@@ -252,6 +260,7 @@ RecipeBuilder.newBuilder("centrifuge_nature_endstone", "elysia_centrifuge", 20)
     .addItemOutput(<minecraft:elytra>).setChance(0.000003f)
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
     .addRecipeTooltip("§e需要自然离心升级模块才能使用此配方！")
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("centrifuge_nature_dirt", "elysia_centrifuge", 20)
@@ -275,6 +284,7 @@ RecipeBuilder.newBuilder("centrifuge_nature_dirt", "elysia_centrifuge", 20)
     .addItemOutput(<minecraft:carrot>).setChance(0.003f)
     .addItemOutput(<additions:delivery_order>).setChance(0.000375f)
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("centrifuge_nature_grass", "elysia_centrifuge", 20)
@@ -299,6 +309,7 @@ RecipeBuilder.newBuilder("centrifuge_nature_grass", "elysia_centrifuge", 20)
     .addItemOutput(<additions:lucky_clover>).setChance(0.001f)
     .addItemOutput(<additions:delivery_order>).setChance(0.000625f)
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("centrifuge_nature_snow", "elysia_centrifuge", 20)
@@ -312,6 +323,7 @@ RecipeBuilder.newBuilder("centrifuge_nature_snow", "elysia_centrifuge", 20)
     .addItemOutput(<mysticalagriculture:water_essence>).setChance(0.025f)
     .addItemOutput(<thermalfoundation:material:2049>).setChance(0.0125f)
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("centrifuge_nature_ice", "elysia_centrifuge", 20)
@@ -325,6 +337,7 @@ RecipeBuilder.newBuilder("centrifuge_nature_ice", "elysia_centrifuge", 20)
     .addItemOutput(<mysticalagriculture:water_essence>).setChance(0.025f)
     .addItemOutput(<thermalfoundation:material:2049>).setChance(0.0125f)
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("centrifuge_nature_jasper", "elysia_centrifuge", 20)
@@ -337,6 +350,7 @@ RecipeBuilder.newBuilder("centrifuge_nature_jasper", "elysia_centrifuge", 20)
     .addItemOutput(<thermalfoundation:material:771>).setChance(0.005f)
     .addItemOutput(<appliedenergistics2:material:5>).setChance(0.02f)
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("centrifuge_nature_brimstone", "elysia_centrifuge", 20)
@@ -349,6 +363,7 @@ RecipeBuilder.newBuilder("centrifuge_nature_brimstone", "elysia_centrifuge", 20)
     .addItemOutput(<thermalfoundation:material:771>).setChance(0.02f)
     .addItemOutput(<appliedenergistics2:material:5>).setChance(0.02f)
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("centrifuge_nature_permafrost", "elysia_centrifuge", 20)
@@ -361,6 +376,7 @@ RecipeBuilder.newBuilder("centrifuge_nature_permafrost", "elysia_centrifuge", 20
     .addItemOutput(<minecraft:snowball>).setChance(0.1f)
     .addItemOutput(<appliedenergistics2:material:5>).setChance(0.02f)
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("centrifuge_nature_limestone", "elysia_centrifuge", 20)
@@ -373,6 +389,7 @@ RecipeBuilder.newBuilder("centrifuge_nature_limestone", "elysia_centrifuge", 20)
     .addItemOutput(<thermalfoundation:material:771>).setChance(0.0025f)
     .addItemOutput(<appliedenergistics2:material:5>).setChance(0.02f)
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("centrifuge_nature_prismarine", "elysia_centrifuge", 20)
@@ -385,6 +402,7 @@ RecipeBuilder.newBuilder("centrifuge_nature_prismarine", "elysia_centrifuge", 20
     .addItemOutput(<minecraft:sponge>).setChance(0.005f)
     .addItemOutput(<appliedenergistics2:material:5>).setChance(0.02f)
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("centrifuge_amber", "elysia_centrifuge", 20)
@@ -394,4 +412,5 @@ RecipeBuilder.newBuilder("centrifuge_amber", "elysia_centrifuge", 20)
     .addItemOutput(<thaumcraft:nugget:10>).setChance(0.05f)
     .addItemOutput(<thaumcraft:amber>)
     .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
+    .setMaxThreads(1)
     .build();    

@@ -53,6 +53,7 @@ RecipeBuilder.newBuilder("grind_adamant_1", "elysia_grinder", 100)
     .addRecipeTooltip("§d搅拌配方支持模块化电容升级，详情请查询“模块化电容”")
     .addEnergyPerTickInput(2000)
     .addFluidOutput(<liquid:adamant_fluid> * 144)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("grind_adamant_2", "elysia_grinder", 100)
@@ -69,6 +70,7 @@ RecipeBuilder.newBuilder("grind_adamant_2", "elysia_grinder", 100)
     .addRecipeTooltip("§d搅拌配方支持模块化电容升级，详情请查询“模块化电容”")
     .addEnergyPerTickInput(2000)
     .addFluidOutput(<liquid:adamant_fluid> * 144)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("grind_adamant_3", "elysia_grinder", 100)
@@ -86,6 +88,7 @@ RecipeBuilder.newBuilder("grind_adamant_3", "elysia_grinder", 100)
     .addRecipeTooltip("§d搅拌配方支持模块化电容升级，详情请查询“模块化电容”")
     .addEnergyPerTickInput(2000)
     .addFluidOutput(<liquid:adamant_fluid> * 144)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("grind_flashite", "elysia_grinder", 100)
@@ -124,6 +127,7 @@ RecipeBuilder.newBuilder("grind_flashite", "elysia_grinder", 100)
     .addRecipeTooltip("§d搅拌配方支持模块化电容升级，详情请查询“模块化电容”")
     .addEnergyPerTickInput(2000)
     .addFluidOutput(<liquid:flashite> * 162)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("grind_overlaite", "elysia_grinder", 100)
@@ -167,6 +171,7 @@ RecipeBuilder.newBuilder("grind_overlaite", "elysia_grinder", 100)
     .addRecipeTooltip("§d搅拌配方支持模块化电容升级，详情请查询“模块化电容”")
     .addEnergyPerTickInput(2000)
     .addFluidOutput(<liquid:overlaite> * 120)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("grind_deusiotium", "elysia_grinder", 100)
@@ -193,6 +198,7 @@ RecipeBuilder.newBuilder("grind_deusiotium", "elysia_grinder", 100)
     .addRecipeTooltip("§d搅拌配方支持模块化电容升级，详情请查询“模块化电容”")
     .addEnergyPerTickInput(2000)
     .addFluidOutput(<liquid:deusiotium> * 180)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("grind_culture", "elysia_grinder", 100)
@@ -212,6 +218,7 @@ RecipeBuilder.newBuilder("grind_culture", "elysia_grinder", 100)
     .addRecipeTooltip("§d搅拌配方支持模块化电容升级，详情请查询“模块化电容”")
     .addEnergyPerTickInput(2000)
     .addFluidOutput(<liquid:culture_medium> * 180)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("grind_scientificite", "elysia_grinder", 100)
@@ -227,6 +234,7 @@ RecipeBuilder.newBuilder("grind_scientificite", "elysia_grinder", 100)
     .addRecipeTooltip("§d搅拌配方支持模块化电容升级，详情请查询“模块化电容”")
     .addEnergyPerTickInput(2000)
     .addFluidOutput(<liquid:scientificite> * 162)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("grind_eco_basic_alloy", "elysia_grinder", 100)
@@ -243,4 +251,5 @@ RecipeBuilder.newBuilder("grind_eco_basic_alloy", "elysia_grinder", 100)
     .addRecipeTooltip("§d搅拌配方支持模块化电容升级，详情请查询“模块化电容”")
     .addEnergyPerTickInput(2000)
     .addFluidOutput(<liquid:eco_basic_alloy> * 216)
+    .setMaxThreads(1)
     .build();
