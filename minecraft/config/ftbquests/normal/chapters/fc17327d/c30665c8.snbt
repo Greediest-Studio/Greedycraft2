@@ -68,31 +68,20 @@
 		count: 32
 	},
 	{
-		uid: "729b70fe",
+		uid: "e2cf0c5b",
 		type: "item",
-		team_reward: 0b,
 		item: {
 			id: "enderutilities:pickupmanager",
 			tag: {
 				Items: [{
+					Slot: 0b,
 					id: "enderutilities:endercapacitor",
-					Count: 1,
-					Damage: 3s,
+					Count: 1b,
 					tag: {
-						EnderChargeAmount: 1000000000
+						EnderChargeAmount: 500000
 					},
-					Slot: 0b
-				},
-				{
-					id: "enderutilities:linkcrystal",
-					Count: 1,
-					Damage: 1s,
-					Slot: 1b
-				}],
-				UUID: {
-					UUIDM: -1166285284906348607L,
-					UUIDL: -8421149215119217982L
-				}
+					Damage: 2s
+				}]
 			}
 		}
 	}]
