@@ -26,7 +26,6 @@ val toolTypeStages as string[string] = {
     "tconstruct:cleaver": "tactic_blueprint",
     "tconstruct:shuriken": "shuriken_blueprint",
     "tcongreedyaddon:battleaxe": "tinkering_blueprint",
-    "moretcon:gauntlet": "ring_blueprint",
     "moretcon:ring": "ring_blueprint",
     "tcongreedyaddon:greatblade": "awakened",
     "tcongreedyaddon:allinonetool": "awakened",

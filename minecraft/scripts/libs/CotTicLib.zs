@@ -41,7 +41,6 @@ zenClass cotticLib {
         <item:conarm:chestplate>,
         <item:conarm:helmet>,
         <item:moretcon:ring>,
-        <item:moretcon:gauntlet>,
         <item:plustic:laser_gun>,
         <item:plustic:katana>,
         <item:tcongreedyaddon:battleaxe>,
@@ -85,7 +84,6 @@ zenClass cotticLib {
             <item:plustic:laser_gun>,
             <item:plustic:katana>,
             <item:moretcon:ring>,
-            <item:moretcon:gauntlet>,
             <item:tcongreedyaddon:battleaxe>,
             <item:tcongreedyaddon:greatblade>,
             <item:tconevo:tool_sceptre>,
@@ -114,8 +112,7 @@ zenClass cotticLib {
             <item:conarm:leggings>,
             <item:conarm:chestplate>,
             <item:conarm:helmet>,
-            <item:moretcon:ring>,
-            <item:moretcon:gauntlet>
+            <item:moretcon:ring>
         ];
 
         for i in ticarmor{

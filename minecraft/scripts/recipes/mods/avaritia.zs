@@ -216,6 +216,7 @@ ExtremeCrafting.addShaped("custom_avaritia_recipe_49", <thermalinnovation:saw:32
 }).ingredients);
 
 //中子素收集器
+ExtremeCrafting.remove(<avaritia:neutron_collector>);
 recipes.remove(<denseneutroncollectors:compressed_neutron_collector>);
 recipes.remove(<denseneutroncollectors:double_compressed_neutron_collector>);
 recipes.remove(<denseneutroncollectors:triple_compressed_neutron_collector>);

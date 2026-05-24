@@ -40,7 +40,6 @@ zenClass ticLib {
         <conarm:chestplate>,
         <conarm:helmet>,
         <moretcon:ring>,
-        <moretcon:gauntlet>,
         <plustic:laser_gun>,
         <plustic:katana>,
         <tcongreedyaddon:battleaxe>,
@@ -80,7 +79,6 @@ zenClass ticLib {
             <tconstruct:mattock>,
             <tconstruct:kama>,
             <moretcon:ring>,
-            <moretcon:gauntlet>,
             <plustic:laser_gun>,
             <plustic:katana>,
             <tcongreedyaddon:battleaxe>,
@@ -111,8 +109,7 @@ zenClass ticLib {
             <conarm:leggings>,
             <conarm:chestplate>,
             <conarm:helmet>,
-            <moretcon:ring>,
-            <moretcon:gauntlet>
+            <moretcon:ring>
         ];
 
         for i in ticarmor{
