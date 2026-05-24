@@ -792,3 +792,5 @@ Radiation.setMaterialRadiationLevel("Oganesson", 42.0d);
 Radiation.setMaterialRadiationLevel("Iridium192", 0.00018d);
 Radiation.setMaterialRadiationLevel("Irradium", 0.00085d);
 Radiation.setMaterialRadiationLevel("Nucleum", 0.000012d);
+Radiation.setMaterialRadiationLevel("CadmiumPolonide", number(191.0d, m));
+Radiation.setMaterialRadiationLevel("CadmiumChalcogenide", number(186.4d, m));

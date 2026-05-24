@@ -2083,7 +2083,31 @@ GameStagesUtil.stageEpicEngineer.addIngredients([
     <ore:ingotFermium>,
     <ore:blockFermium>,
     <ore:nuggetFermium>,
-    <ore:dustFermium>
+    <ore:dustFermium>,
+    <ore:gemCadmiumOxide>,
+    <ore:blockCadmiumOxide>,
+    <ore:nuggetCadmiumOxide>,
+    <ore:dustCadmiumOxide>,
+    <ore:gemCadmiumSulfide>,
+    <ore:blockCadmiumSulfide>,
+    <ore:nuggetCadmiumSulfide>,
+    <ore:dustCadmiumSulfide>,
+    <ore:gemCadmiumSelenide>,
+    <ore:blockCadmiumSelenide>,
+    <ore:nuggetCadmiumSelenide>,
+    <ore:dustCadmiumSelenide>,
+    <ore:gemCadmiumTelluride>,
+    <ore:blockCadmiumTelluride>,
+    <ore:nuggetCadmiumTelluride>,
+    <ore:dustCadmiumTelluride>,
+    <ore:gemCadmiumPolonide>,
+    <ore:blockCadmiumPolonide>,
+    <ore:nuggetCadmiumPolonide>,
+    <ore:dustCadmiumPolonide>,
+    <ore:ingotCadmiumChalcogenide>,
+    <ore:blockCadmiumChalcogenide>,
+    <ore:nuggetCadmiumChalcogenide>,
+    <ore:dustCadmiumChalcogenide>
 ], true);
 
 GameStagesUtil.stageChallenger1.addIngredients([
@@ -2570,7 +2594,7 @@ GameStagesUtil.stageWyvern.addModId(["blue_skies", "extendedcrafting"]);
 GameStagesUtil.stageGatekeeper.addModId(["gct_aby"]);
 GameStagesUtil.stageEpicEngineer.addModId(["nuclearcraft", "industrialforegoing", "teslacorelib", "trinity"]);
 GameStagesUtil.stageBetweenlandTraveller.addModId(["thebetweenlands"]);
-GameStagesUtil.stageWitherSlayer.addModId(["crazyae", "nae2", "ecoaeextension", "aewirelesschannel"]);
+GameStagesUtil.stageWitherSlayer.addModId(["crazyae", "nae2", "ecoaeextension", "aewirelesschannel", "ae2enhanced"]);
 GameStagesUtil.stageEnderCharm.addModId(["elementalend"]);
 GameStagesUtil.stageDeepDream.addModId(["erebus", "atum"]);
 GameStagesUtil.stageLegendWizard.addModId(["embers", "soot"]);

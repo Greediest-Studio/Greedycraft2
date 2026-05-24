@@ -1,0 +1,19 @@
+{
+	title: "§b三级半导体",
+	x: -25.5d,
+	y: -0.5d,
+	description: "使用化学反应机合成磷化镓铟，三级半导体",
+	text: [
+		"三级电路板的必经之路"
+	],
+	dependencies: [
+		"ef65449f"
+	],
+	tasks: [{
+		uid: "a096b35c",
+		type: "item",
+		items: [{
+			item: "additions:gallium_indium_phosphide"
+		}]
+	}]
+}
