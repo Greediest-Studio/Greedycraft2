@@ -612,7 +612,7 @@ Melting.addRecipe(<liquid:falsite> * VOLUME_BLOCK, <ore:blockFalsite>, 1050);
 Melting.addRecipe(<liquid:horizonite> * VOLUME_BLOCK, <ore:blockHorizonite>, 1050);
 Melting.addRecipe(<liquid:ventium> * VOLUME_BLOCK, <ore:blockVentium>, 1050);
 Melting.addRecipe(<liquid:unshapable_liquid> * 1000, <additions:unshapable_matter>, 200);
-Melting.addRecipe(<liquid:pruified> * 13, <additions:pruified_matter>, 1250);
+Melting.addRecipe(<liquid:pruified> * 72, <additions:pruified_matter>, 1250);
 Melting.addRecipe(<liquid:fracturite> * 432, <twilightforest:mazebreaker_pickaxe>, 2500);
 Melting.addRecipe(<liquid:imitatium> * VOLUME_INGOT, <tiths:ingot_imitatium>, 1250);
 Melting.addRecipe(<liquid:evilblood_fluid> * 100, <additions:evilblood_slime_block>, 800);
