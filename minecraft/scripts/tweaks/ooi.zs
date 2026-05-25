@@ -78,6 +78,8 @@ ConversionItem.create(<mekanism:basicblock2:10>).addMatchItem(<ore:blockUranium>
 ConversionItem.create(<mekanism:nugget:8>).addMatchItem(<ore:nuggetUranium>).register();
 ConversionItem.create(<mekanism:oreblock:5>).addMatchItem(<ore:oreUranium>).register();
 ConversionItem.create(<quark:quartz_wall>).addMatchItem(<netherex:quartz_wall>).register();
+ConversionItem.create(<nuclearcraft:ingot2:7>).addMatchItem(<ore:ingotHolmium>).register();
+ConversionItem.create(<nuclearcraft:ingot2:8>).addMatchItem(<ore:ingotDysprosium>).register();
 
 ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:burningsulfurflow>).register();
 ConversionFluid.create(<liquid:liquidantimatter>).addMatchFluid(<liquid:blockfluidantimatter>).register();
@@ -104,3 +106,4 @@ ConversionFluid.create(<liquid:liquidsolarsteel>).addMatchFluid(<liquid:solarste
 ConversionFluid.create(<liquid:void_metal>).addMatchFluid(<liquid:void>).register();
 ConversionFluid.create(<liquid:molten_ichorium>).addMatchFluid(<liquid:ichorium>).register();
 ConversionFluid.create(<liquid:nitrogen_oxide>).addMatchFluid(<liquid:nitric_oxide>).register();
+ConversionFluid.create(<liquid:magma_fluid>).addMatchFluid(<liquid:magma_slime>).register();

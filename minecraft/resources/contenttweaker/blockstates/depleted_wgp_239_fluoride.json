@@ -1,0 +1,12 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "forge:fluid",
+    "custom": {
+      "fluid": "depleted_wgp_239_fluoride"
+    }
+  },
+  "variants": {
+    "normal": [{}]
+  }
+}

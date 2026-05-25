@@ -1,0 +1,12 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "forge:fluid",
+    "custom": {
+      "fluid": "depleted_xecm_245_fluoride"
+    }
+  },
+  "variants": {
+    "normal": [{}]
+  }
+}

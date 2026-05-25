@@ -4,7 +4,7 @@
 
 import crafttweaker.player.IPlayer;
 
-<ticontrait:tooltrait>.calcDamage = function (trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
+<ticontrait:tooltrait>.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer) {
         attacker.sendMessage("success");
     }

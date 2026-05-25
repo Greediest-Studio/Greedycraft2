@@ -2769,6 +2769,44 @@ molten_tcreoparghium_fake.stillLocation = "base:fluids/molten";
 molten_tcreoparghium_fake.flowingLocation = "base:fluids/molten_flowing";
 molten_tcreoparghium_fake.register();
 
+val molten_bone = mods.contenttweaker.VanillaFactory.createFluid("bone", Color.fromHex("FFFDE8").getIntColor());
+molten_bone.material = <blockmaterial:lava>;
+molten_bone.viscosity = 3000;
+molten_bone.density = 6500;
+molten_bone.colorize = true;
+molten_bone.temperature = 1300;
+molten_bone.luminosity = 0;
+molten_bone.color = Color.fromHex("FFFDE8").getIntColor();
+molten_bone.stillLocation = "base:fluids/molten";
+molten_bone.flowingLocation = "base:fluids/molten_flowing";
+molten_bone.register();
+
+val molten_magma_slime = mods.contenttweaker.VanillaFactory.createFluid("magma_slime", Color.fromHex("CC9A00").getIntColor());
+molten_magma_slime.material = <blockmaterial:lava>;
+molten_magma_slime.viscosity = 3000;
+molten_magma_slime.density = 6500;
+molten_magma_slime.colorize = true;
+molten_magma_slime.temperature = 1300;
+molten_magma_slime.luminosity = 0;
+molten_magma_slime.color = Color.fromHex("CC9A00").getIntColor();
+molten_magma_slime.stillLocation = "base:fluids/molten";
+molten_magma_slime.flowingLocation = "base:fluids/molten_flowing";
+molten_magma_slime.register();
+
+val molten_sponge = mods.contenttweaker.VanillaFactory.createFluid("sponge", Color.fromHex("C6C858").getIntColor());
+molten_sponge.material = <blockmaterial:lava>;
+molten_sponge.viscosity = 3000;
+molten_sponge.density = 6500;
+molten_sponge.colorize = true;
+molten_sponge.temperature = 1300;
+molten_sponge.luminosity = 0;
+molten_sponge.color = Color.fromHex("C6C858").getIntColor();
+molten_sponge.stillLocation = "base:fluids/molten";
+molten_sponge.flowingLocation = "base:fluids/molten_flowing";
+molten_sponge.register();
+
+
+
 //液化类
 val liquid_air = mods.contenttweaker.VanillaFactory.createFluid("liquid_air", Color.fromHex("ffffff").getIntColor());
 liquid_air.material = <blockmaterial:water>;

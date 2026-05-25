@@ -2667,34 +2667,25 @@ fluid.sponge=Molten Sponge
 fluid.magma_slime=Molten Magma Cream
 
 
-# MoarReactorFunctionality-1.10.2
+# MoarReactorComponents-1.0.1
 
-item.contenttweaker.blaster.name=Small Compression Charge
-item.contenttweaker.compressed_air_canister.name=Can of Compressed Air (Deprecated)
-item.contenttweaker.radio_waste.name=Standardized Reprocessed Nuclear Waste Pellet
+tile.contenttweaker.water_mod.name=Light Water Moderator
+tile.contenttweaker.pu_schmeared_be_mod.name=Plutonium-238 Schmeared Beryllium Moderator
+tile.contenttweaker.hydrocarbon_mod.name=Hydrocarbon Moderator
+tile.contenttweaker.yttriumhydride_mod.name=Yttrium Hydride Moderator
 
-fluid.liquid_air=Lesser Air Products
-fluid.nether_air=Nether Air
-fluid.end_air=End Air
-fluid.well_pressed_water=Well Pressurized Water
-fluid.super_critical_steam=Supercritical Steam
-fluid.crap_steam=Crap Steam
-fluid.hot_nitrogen=Hot Nitrogen
-fluid.hot_carbon_dioxide=Hot Carbon Dioxide
-fluid.hot_helium=Hot Helium
-fluid.hot_argon=Hot Argon
-fluid.krypton=Krypton
-fluid.hot_krypton=Hot Krypton
-fluid.xenon=Xenon
-fluid.hot_xenon=Hot Xenon
-fluid.hot_neon=Hot Neon
-fluid.compr_carbon_dioxide=Compressed Carbon Dioxide
-fluid.supercritical_carbon_dioxide=Supercritical Carbon Dioxide
-fluid.critical_exhaust_carbon_dioxide=Critical Exhaust Carbon Dioxide
+tile.contenttweaker.cf_neutron_multiplier.name=Neutron Reflector-Multiplier
+tile.contenttweaker.gold_reflector.name=Gold-Carbon Neutron Reflector
 
-fluid.cold_nrg=Lukewarm Liquid Energy
-fluid.hot_nrg=Hot Liquid Energy
-fluid.hot_deuterium=Hot Deuterium Plasma
-fluid.hot_tritium=Hot Tritium Plasma
+tile.nuclearcraft.fission_shield_gadolinium.name=Gadolinium Neutron Shield
 
-itemGroup.moar_reactor_functionality=Moar Reactor Functionality
+item.contenttweaker.yttrium_hydride.name=Yttrium Hydride Ingot
+item.contenttweaker.gadolinium_dust.name=Gadolinium Dust
+
+itemGroup.moar_reactor_components=Moar Reactor Components
+
+tile.nuclearcraft.fission_source_actinium.name=Ac-Be Fission Neutron Source
+tile.nuclearcraft.fission_source_curium244.name=Cm-Be Fission Neutron Source
+tile.nuclearcraft.fission_source_curium250.name=Cm-250 Fission Neutron Source
+tile.nuclearcraft.fission_source_fermium257.name=Fm-257 Fission Neutron Source
+tile.nuclearcraft.fission_source_californium254.name=Cf-254 Fission Neutron Source
