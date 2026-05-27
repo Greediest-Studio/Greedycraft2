@@ -25,6 +25,7 @@ recipes.remove(<enderutilities:enderpart:30>);
 recipes.remove(<enderutilities:handybag:1>);
 recipes.remove(<mekanismmultiblockmachine:largewindgenerator>);
 recipes.remove(<mekanismmultiblockmachine:largegasgenerator>);
+recipes.remove(<functionalstoragelegacy:netherite_upgrade>);
 recipes.removeByRecipeName("biomesoplenty:amber_block");
 recipes.removeByRecipeName("biomesoplenty:amber");
 recipes.removeByRecipeName("botania:quartztypedark_0");
@@ -953,6 +954,11 @@ RecipeUtil.addShaped("fun_water_t4", <functionalstoragelegacy:water_generation_u
     [<ore:ingotManyullyn>, <ore:ingotManyullyn>, <ore:ingotManyullyn>],
     [<functionalstoragelegacy:water_generation_upgrade_t3>, <functionalstoragelegacy:fluid_1>, <functionalstoragelegacy:water_generation_upgrade_t3>],
     [<ore:ingotManyullyn>, <ore:ingotManyullyn>, <ore:ingotManyullyn>]
+]);
+RecipeUtil.addShaped("fun_netherite_upgrade", <functionalstoragelegacy:netherite_upgrade>, [
+    [<ore:chest>, <minecraft:obsidian>, <ore:chest>],
+    [<ore:ingotNetherite>, <functionalstoragelegacy:diamond_upgrade>, <ore:ingotNetherite>],
+    [<ore:chest>, <minecraft:obsidian>, <ore:chest>]
 ]);
 /*
 RecipeUtil.addShaped("", , [
