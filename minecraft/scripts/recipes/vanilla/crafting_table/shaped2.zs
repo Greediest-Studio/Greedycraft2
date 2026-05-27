@@ -955,6 +955,26 @@ RecipeUtil.addShaped("fun_water_t4", <functionalstoragelegacy:water_generation_u
     [<functionalstoragelegacy:water_generation_upgrade_t3>, <functionalstoragelegacy:fluid_1>, <functionalstoragelegacy:water_generation_upgrade_t3>],
     [<ore:ingotManyullyn>, <ore:ingotManyullyn>, <ore:ingotManyullyn>]
 ]);
+RecipeUtil.addShaped("spark_elf", <gctcore:alf_spark>, [
+    [null, <ore:nuggetTerrasteel>, null],
+    [<botania:spark>, <ore:ingotElvenElementium>, <botania:spark>],
+    [null, <ore:nuggetTerrasteel>, null]
+]);
+RecipeUtil.addShaped("spark_gaia", <gctcore:gaia_spark>, [
+    [null, <ore:nuggetElfsteel>, null],
+    [<gctcore:alf_spark>, <ore:ingotGaia>, <gctcore:alf_spark>],
+    [null, <ore:nuggetElfsteel>, null]
+]);
+RecipeUtil.addShaped("spark_niflheim", <botaniverse:spark_nilfheim>, [
+    [null, <ore:runeNilfheim>, null],
+    [<gctcore:gaia_spark>, <ore:runeNilfheim>, <gctcore:gaia_spark>],
+    [null, <ore:runeNilfheim>, null]
+]);
+RecipeUtil.addShaped("manapool_myth", <botania:pool:3>, [
+    [<botania:shimmerrock>, <botania:shimmerrock>, <botania:shimmerrock>],
+    [<botania:shimmerrock>, <botanicadds:pool_dreaming>, <botania:shimmerrock>],
+    [<ore:nuggetElfsteel>, <ore:nuggetElfsteel>, <ore:nuggetElfsteel>]
+]);
 RecipeUtil.addShaped("fun_netherite_upgrade", <functionalstoragelegacy:netherite_upgrade>, [
     [<ore:chest>, <minecraft:obsidian>, <ore:chest>],
     [<ore:ingotNetherite>, <functionalstoragelegacy:diamond_upgrade>, <ore:ingotNetherite>],

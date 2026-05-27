@@ -1,0 +1,34 @@
+{
+	title: "§b没有RGB",
+	x: 8.5d,
+	y: 7.5d,
+	description: "合成盖亚火花",
+	text: [
+		""
+	],
+	dependencies: [
+		"95199b16"
+	],
+	tasks: [{
+		uid: "32bb0ba3",
+		type: "item",
+		items: [{
+			item: "gctcore:gaia_spark"
+		}]
+	}],
+	rewards: [{
+		uid: "44ec836e",
+		type: "item",
+		item: "gctcore:gaia_spark"
+	},
+	{
+		uid: "8d3d4a6d",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "5d6b57ba",
+		type: "xp",
+		xp: 800
+	}]
+}

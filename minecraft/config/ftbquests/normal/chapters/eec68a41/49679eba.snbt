@@ -12,5 +12,20 @@
 		items: [{
 			item: "botania:pool"
 		}]
+	}],
+	rewards: [{
+		uid: "1fdd3003",
+		type: "item",
+		item: "botania:pool"
+	},
+	{
+		uid: "29d4a253",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "8a4df06d",
+		type: "xp",
+		xp: 200
 	}]
 }

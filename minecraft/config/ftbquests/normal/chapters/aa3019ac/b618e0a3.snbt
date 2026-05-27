@@ -1,0 +1,36 @@
+{
+	title: "§b伯里克利",
+	x: -3.5d,
+	y: 15.0d,
+	description: "合成锫锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"7dd88c54",
+		"0d90c4f7"
+	],
+	tasks: [{
+		uid: "d246c48e",
+		type: "item",
+		items: [{
+			item: "additions:berkelium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "5cec7682",
+		type: "item",
+		item: "additions:berkelium_ingot",
+		count: 4
+	},
+	{
+		uid: "8106b451",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "c8f94aa6",
+		type: "xp",
+		xp: 8000
+	}]
+}

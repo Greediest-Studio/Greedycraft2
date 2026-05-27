@@ -489,7 +489,9 @@ val removedRecipes as IIngredient[] = [
     <emosupertemplate:emo_pattern_terminal>,
     <tinymobfarm:ultimate_farm>,
     <crazyae:mechanical_teraplate>,
-    <extendedcrafting:interface>
+    <extendedcrafting:interface>,
+    <botaniverse:spark_nilfheim>,
+    <botania:pool:3>,
 ];
 
 val removedRecipeNames as string[] = [

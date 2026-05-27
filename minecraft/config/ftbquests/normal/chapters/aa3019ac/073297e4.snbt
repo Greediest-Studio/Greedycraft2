@@ -1,0 +1,36 @@
+{
+	title: "§b阿美莉卡",
+	x: -6.5d,
+	y: 15.0d,
+	description: "合成镅锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"3a425cb2",
+		"0d90c4f7"
+	],
+	tasks: [{
+		uid: "dd3afe59",
+		type: "item",
+		items: [{
+			item: "additions:americium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "0888f7a8",
+		type: "item",
+		item: "additions:americium_ingot",
+		count: 4
+	},
+	{
+		uid: "763f52d8",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "2761c001",
+		type: "xp",
+		xp: 8000
+	}]
+}

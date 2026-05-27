@@ -1,0 +1,36 @@
+{
+	title: "§b这原本是核电的终点",
+	x: -2.5d,
+	y: 14.0d,
+	description: "合成锎锭",
+	text: [
+		"或许你选择了这样一条路来获得你的第一个14级材料"
+	],
+	dependencies: [
+		"0d90c4f7",
+		"b618e0a3"
+	],
+	tasks: [{
+		uid: "5bbd32b7",
+		type: "item",
+		items: [{
+			item: "additions:californium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "1292a2b9",
+		type: "item",
+		item: "additions:californium_ingot",
+		count: 4
+	},
+	{
+		uid: "b0701128",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "80e5533e",
+		type: "xp",
+		xp: 16000
+	}]
+}

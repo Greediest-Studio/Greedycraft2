@@ -1,0 +1,36 @@
+{
+	title: "§b居里家族的神话",
+	x: -5.0d,
+	y: 15.5d,
+	description: "合成锔锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"073297e4",
+		"0d90c4f7"
+	],
+	tasks: [{
+		uid: "6cea39bc",
+		type: "item",
+		items: [{
+			item: "additions:curium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "7bcc0d66",
+		type: "item",
+		item: "additions:curium_ingot",
+		count: 4
+	},
+	{
+		uid: "1dc7f03e",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "49b9895f",
+		type: "xp",
+		xp: 8000
+	}]
+}

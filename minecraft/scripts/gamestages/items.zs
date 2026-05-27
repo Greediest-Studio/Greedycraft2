@@ -2107,7 +2107,12 @@ GameStagesUtil.stageEpicEngineer.addIngredients([
     <ore:ingotCadmiumChalcogenide>,
     <ore:blockCadmiumChalcogenide>,
     <ore:nuggetCadmiumChalcogenide>,
-    <ore:dustCadmiumChalcogenide>
+    <ore:dustCadmiumChalcogenide>,
+    <contenttweaker:water_mod>,
+    <contenttweaker:pu_schmeared_be_mod>,
+    <contenttweaker:hydrocarbon_mod>,
+    <contenttweaker:cf_neutron_multiplier>,
+    <contenttweaker:gold_reflector>
 ], true);
 
 GameStagesUtil.stageChallenger1.addIngredients([
@@ -2602,3 +2607,45 @@ GameStagesUtil.stageFinal.addModId(["da"]);
 GameStagesUtil.stageWakeUp.addModId(["gaiapro"]);
 
 GameStagesUtil.stageGettingStarted.addRecipeName("tinkersurvival:cobblestone");
+
+val nuclearItems as string[] = [
+    "thorium",
+    "uranium",
+    "neptunium",
+    "plutonium",
+    "americium",
+    "curium",
+    "berkelium",
+    "californium",
+    "einsteinium",
+    "fermium",
+    "cbc",
+    "pbp",
+    "candu",
+    "aneel",
+    "rtg",
+    "u_2",
+    "n_2",
+    "p_2",
+    "a_2",
+    "cm_2",
+    "b_2",
+    "cf_2",
+    "e_2",
+    "u2",
+    "n2",
+    "p2",
+    "a2",
+    "cm2",
+    "b2",
+    "cf2"
+];
+
+for item in loadedMods["contenttweaker"].items {
+    for keyWord in nuclearItems {
+        if (item.definition.id has keyWord) {
+            GameStagesUtil.stageEpicEngineer.addIngredients([item], true);
+            break;
+        }
+    }
+}

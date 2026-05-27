@@ -1,0 +1,34 @@
+{
+	title: "§bRGB",
+	x: 8.5d,
+	y: 6.0d,
+	description: "合成神话魔力池，相当于5个魔力池",
+	text: [
+		""
+	],
+	dependencies: [
+		"d087338f"
+	],
+	tasks: [{
+		uid: "bf022540",
+		type: "item",
+		items: [{
+			item: "botania:pool 1 3"
+		}]
+	}],
+	rewards: [{
+		uid: "729403d9",
+		type: "item",
+		item: "botania:pool 1 3"
+	},
+	{
+		uid: "add4e52d",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "c088eba0",
+		type: "xp",
+		xp: 800
+	}]
+}

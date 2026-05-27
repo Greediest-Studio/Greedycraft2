@@ -1,0 +1,36 @@
+{
+	title: "§b最后的自然元素",
+	x: -7.5d,
+	y: 14.0d,
+	description: "合成钚锭",
+	text: [
+		"或者你也可以通过Mek的核反应堆获得一小点钚"
+	],
+	dependencies: [
+		"545e9b70",
+		"0d90c4f7"
+	],
+	tasks: [{
+		uid: "4df4773a",
+		type: "item",
+		items: [{
+			item: "additions:plutonium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "542f3d68",
+		type: "item",
+		item: "additions:plutonium_ingot",
+		count: 4
+	},
+	{
+		uid: "cf24169f",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "0e651611",
+		type: "xp",
+		xp: 8000
+	}]
+}

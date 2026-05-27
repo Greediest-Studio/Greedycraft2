@@ -1,0 +1,36 @@
+{
+	title: "§b海王星之力",
+	x: -8.0d,
+	y: 12.5d,
+	description: "合成镎锭",
+	text: [
+		"欢迎来到超铀元素大家庭",
+		"你需要通过逐级核裂变来获得从镎到锿这几种锕系金属"
+	],
+	dependencies: [
+		"0d90c4f7"
+	],
+	tasks: [{
+		uid: "17495963",
+		type: "item",
+		items: [{
+			item: "additions:neptunium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "9fcdc750",
+		type: "item",
+		item: "additions:neptunium_ingot",
+		count: 4
+	},
+	{
+		uid: "7e1846aa",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "cd6a0c52",
+		type: "xp",
+		xp: 8000
+	}]
+}

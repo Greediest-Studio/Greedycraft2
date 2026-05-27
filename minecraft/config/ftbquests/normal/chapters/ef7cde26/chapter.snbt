@@ -38,8 +38,8 @@
 				AttackSpeedMultiplier: 1.0f,
 				Attack: 20884.0f,
 				Range: 2.0f,
-				ProjectileBonusDamage: 0.0f,
-				Durability: 97533
+				Durability: 97533,
+				ProjectileBonusDamage: 0.0f
 			},
 			Special: {
 				Categories: [
@@ -48,11 +48,6 @@
 					"tool"
 				]
 			},
-			Traits: [
-				"tconevo.infinitum",
-				"tconevo.omnipotence",
-				"toolleveling"
-			],
 			StatsOriginal: {
 				MiningSpeed: 333.0f,
 				HarvestLevel: 127,
@@ -61,9 +56,14 @@
 				AttackSpeedMultiplier: 1.0f,
 				Attack: 20884.0f,
 				Range: 2.0f,
-				ProjectileBonusDamage: 0.0f,
-				Durability: 97533
-			}
+				Durability: 97533,
+				ProjectileBonusDamage: 0.0f
+			},
+			Traits: [
+				"tconevo.infinitum",
+				"tconevo.omnipotence",
+				"toolleveling"
+			]
 		}
 	},
 	always_invisible: 0b,

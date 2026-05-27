@@ -1,0 +1,34 @@
+{
+	title: "§b增强火花",
+	x: 7.0d,
+	y: 7.5d,
+	description: "合成精灵火花",
+	text: [
+		""
+	],
+	dependencies: [
+		"91643b3b"
+	],
+	tasks: [{
+		uid: "23ecad2a",
+		type: "item",
+		items: [{
+			item: "gctcore:alf_spark"
+		}]
+	}],
+	rewards: [{
+		uid: "12c3e010",
+		type: "item",
+		item: "gctcore:alf_spark"
+	},
+	{
+		uid: "8e3b9a11",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "11ab98d4",
+		type: "xp",
+		xp: 400
+	}]
+}

@@ -1,0 +1,34 @@
+{
+	title: "§b成倍",
+	x: 7.0d,
+	y: 6.0d,
+	description: "合成梦之魔力池，相当于两个魔力池",
+	text: [
+		""
+	],
+	dependencies: [
+		"49679eba"
+	],
+	tasks: [{
+		uid: "72bc3fa6",
+		type: "item",
+		items: [{
+			item: "botanicadds:pool_dreaming"
+		}]
+	}],
+	rewards: [{
+		uid: "a9842f79",
+		type: "item",
+		item: "botanicadds:pool_dreaming"
+	},
+	{
+		uid: "e39d9dc4",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "106ed875",
+		type: "xp",
+		xp: 400
+	}]
+}

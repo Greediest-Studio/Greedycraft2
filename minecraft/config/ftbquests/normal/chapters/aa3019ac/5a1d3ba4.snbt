@@ -1,0 +1,38 @@
+{
+	title: "§b爱因斯坦",
+	x: -2.0d,
+	y: 12.5d,
+	description: "合成锿锭",
+	text: [
+		"也许你可以从核反应堆中获取一些锿的同位素……",
+		"不过合成锿锭的核心材料§a锿-252§r只能通过分离三位一体石获得",
+		"（至少目前如此）"
+	],
+	dependencies: [
+		"335e1c37",
+		"0d90c4f7"
+	],
+	tasks: [{
+		uid: "c3f1dab5",
+		type: "item",
+		items: [{
+			item: "additions:einsteinium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "50740d38",
+		type: "item",
+		item: "additions:einsteinium_ingot",
+		count: 4
+	},
+	{
+		uid: "1313fc63",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "da0f249f",
+		type: "xp",
+		xp: 16000
+	}]
+}
