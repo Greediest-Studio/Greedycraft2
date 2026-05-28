@@ -387,12 +387,13 @@ createLootRecipe("aeonsteel_loot", [
 //秩序守护使
 createLootRecipe("finallium_loot", [
     <gct_ores:finallium_container>,
-    <gct_ores:ordered_core>
+    <gct_ores:ordered_core>,
+    <additions:order_scale> * 1
 ], [
     <gct_ores:order_crystal> * 8,
     <contenttweaker:chaos_heart> * 4,
     <additions:pure_dragonbone> * 16,
-    <additions:order_scale> * 16
+    <additions:order_scale> * 18
 ], 50, 1.4E7 as long, 0);
 
 //腐朽蚁皇

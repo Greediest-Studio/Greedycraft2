@@ -926,6 +926,26 @@ addBuilderRecipe(<modularmachinery:crimson_extractor_factory_controller>, [
     <crimsonrevelations:embellished_crimson_fabric> * 24
 ], 5, 5500);
 
+addBuilderRecipe(<modularmachinery:ion_exchange_column_factory_controller>, [
+    <additions:logic_processor_3> * 28,
+    <additions:calculation_processor_3> * 20,
+    <additions:engineering_processor_3> * 56,
+    <crazyae:material:16> * 30,
+    <crazyae:material:48> * 8,
+    <ore:ingotModularium> * 144,
+    <ore:ingotZirconiumMolybdenum> * 120,
+    <ore:ingotRaisium> * 80,
+    <ore:ingotExtreme> * 64,
+    <ore:ingotEnderironex> * 48,
+    <ore:ingotMagnesiumDiboride> * 32,
+    <ore:ingotDysprosium> * 24,
+    <ore:ingotHolmium> * 24,
+    <ore:ingotFinallium> * 16,
+    <ore:ingotCalifornium> * 4,
+    <erebus:materials:40> * 256,
+    <ore:latticeDiamond> * 128
+], 5, 6000);
+
 //Units
 addBuilderRecipe(<modularmachinery:elysia_alloyer_factory_controller>, [
     <gct_ores:blue_print_empty> * 32,

@@ -752,7 +752,6 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:gemNaturalline> : [<gct_mobs:naturalline>],
     <ore:gemGlistenQuartz> : [<gctcore:raw_quartz>],
     <ore:gemGlistenQuartzProcessed> : [<gctcore:shaped_quartz>],
-    <ore:blockGlistenQuartz> : [<gctcore:storage_raw_quartz>],
     <ore:blockGlistenQuartzProcessed> : [<gctcore:storage_shaped_quartz>],
     <ore:armorAurorianite> : [
         <theaurorian:aurorianitepickaxe>,
