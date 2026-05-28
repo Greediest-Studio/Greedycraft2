@@ -3,6 +3,7 @@
     "localizedname": "§3LV2 - 有机灌注机",
     "requires-blueprint": false,
     "failure-action": "still",
+    "even-parallelism-distribution": true,
     "color": "e0e6e8",
     "modifiers": [
         {

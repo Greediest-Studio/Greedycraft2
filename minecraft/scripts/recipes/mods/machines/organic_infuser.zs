@@ -46,9 +46,9 @@ MMEvents.onControllerGUIRender("organic_infuser", function(event as ControllerGU
     event.extraInfo = info;
 });
 
-MachineModifier.setMaxParallelism("organic_infuser", 256);
+MachineModifier.setMaxParallelism("organic_infuser", 512);
 MachineModifier.setInternalParallelism("organic_infuser", 1);
-MachineModifier.setMaxThreads("organic_infuser", 8);
+MachineModifier.setMaxThreads("organic_infuser", 16);
 
 val crops as IItemStack[][] = [
     [<mysticalagriculture:dirt_seeds>, <mysticalagriculture:dirt_essence>],
@@ -226,10 +226,35 @@ for row in crops {
         tier = 9;
     }
     RecipeBuilder.newBuilder(regName + "_grow_" + seed.name + "_" + recipeId, regName, time[tier] * 10, 0)
+    .addItemInput(seed).setChance(0.0f)
+    .addEnergyPerTickInput(energy[tier])
+    .addItemOutput(seed)
+    .setChance(seedChance[tier] as float)
+    .addItemOutput(essence)
+    .addItemOutput(essence)
+    .setChance(0.5f)
+    .addItemOutput(essence)
+    .setChance(0.25f)
+    .addItemOutput(essence)
+    .setChance(0.125f)
+    .addItemOutput(<mysticalagriculture:fertilized_essence>)
+    .setChance(0.03f)
+    .setMaxThreads(1)
+    .build();
+    
+    recipeId += 1;
+}
+
+// Thaumcraft's Vis Seeds
+for seed in loadedMods["thaumadditions"].items {
+    if (seed.name has "thaumadditions:vis_seeds/") {
+        var aspect = seed.name.split("/")[1];
+        var essence = <thaumadditions:vis_pod>.withTag({Aspect: aspect});
+        RecipeBuilder.newBuilder(regName + "_grow_" + aspect + "_" + recipeId, regName, 100, 0)
         .addItemInput(seed).setChance(0.0f)
-        .addEnergyPerTickInput(energy[tier])
+        .addEnergyPerTickInput(320)
         .addItemOutput(seed)
-        .setChance(seedChance[tier] as float)
+        .setChance(0.2f)
         .addItemOutput(essence)
         .addItemOutput(essence)
         .setChance(0.5f)
@@ -237,10 +262,9 @@ for row in crops {
         .setChance(0.25f)
         .addItemOutput(essence)
         .setChance(0.125f)
-        .addItemOutput(<mysticalagriculture:fertilized_essence>)
-        .setChance(0.03f)
         .setMaxThreads(1)
         .build();
-    
-    recipeId += 1;
+
+        recipeId += 1;
+    }
 }
