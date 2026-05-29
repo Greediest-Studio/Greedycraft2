@@ -43,6 +43,10 @@ minecraft/patchouli_data.json
 minecraft/usercache.json
 minecraft/usernamecache.json
 
+/minecraft/mods/*
+!/minecraft/mods/.index/
+!/minecraft/mods/submods/
+
 instance.cfg
 mmc-pack.json
 modlist.html
