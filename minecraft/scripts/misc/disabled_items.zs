@@ -1166,7 +1166,8 @@ var disabledItems as IIngredient[] = [
     <erebus:wand_of_preservation>,
     <erebus:silo_supports>,
     <erebus:silo_tank>,
-    <erebus:silo_roof>
+    <erebus:silo_roof>,
+    <gct_mobs:kabalah_builder_block>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [
