@@ -229,6 +229,12 @@ alias = "mods/AutoRegLib-1.3-32.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/avaritia-1.1x-kedition.pw.toml"
+hash = "e89ff50d6aad18605333c738522f77dd0916b0d90779147ef7376ad26bda230b"
+alias = "mods/Avaritia-Kedition-1.6.2.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/avaritia-io.pw.toml"
 hash = "b2d02ac6eb323891c185fce558d55f528d31a2c05260d6f23feaf18fbee18275"
 alias = "mods/avaritiaio-1.4.jar"
@@ -955,6 +961,12 @@ alias = "mods/findme-1.12.2-1.1.0-8.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/fineopti.pw.toml"
+hash = "39be4dfe52a17994f9eeb07992aeede8cc8210062435b10b16566211c1cb9975"
+alias = "mods/OptiFine_1.12.2_HD_U_G5 (1).jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/flare.pw.toml"
 hash = "6df47abeee68551699ac6734c79eb62f17111c767270f152af3f717609938388"
 alias = "mods/flare-0.8.0.jar"
@@ -1027,9 +1039,21 @@ alias = "mods/FTBUtilities-5.4.1.131.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/ftbu-xaero-compat.pw.toml"
+hash = "0800e2affe393756fbc16b7997a349421c15ceb949cdd70e6716e3dea6e37b23"
+alias = "mods/ftbuxaerocompat-1.0.1-beta.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/fugue.pw.toml"
 hash = "d9c7ca2bb3dca9aaf8f5e557cb9d508b0d6552df7829df625671210dcc571528"
 alias = "mods/+Fugue-0.23.4.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/gadothaumy.pw.toml"
+hash = "b43d0bd71cde2e7732fa89ae643064717340dd2df04ee642f8665d45a95a4db3"
+alias = "mods/Gadothaumy-1.1.3.jar"
 metafile = true
 
 [[files]]
@@ -1423,6 +1447,12 @@ alias = "mods/LunatriusCore-1.12.2-1.2.0.42-universal.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/magic-bees-kedition.pw.toml"
+hash = "49b5c22a5a1ade5ea7f6df98a025919595a1a4ffd8f8ab543f66ba89a6889413"
+alias = "mods/MagicBees-1.12.2-kedition-0.1.0.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/mantle.pw.toml"
 hash = "07b12cbbc6e3006eae2fe300f137f65eca116b39ff4d31de2c8111300cae9cc5"
 alias = "mods/Mantle-1.12-1.3.3.55.jar"
@@ -1654,6 +1684,18 @@ metafile = true
 file = "mods/.index/new-crimson-revelations.pw.toml"
 hash = "ad1354a53c42015a917d5a22dbb62e17ed7950336a360a739c7a568caa7278d2"
 alias = "mods/New-Crimson-Revelations-1.12.2-1.5.2.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/nonausea.pw.toml"
+hash = "5b695f52e3d7516bf73ae7fc5d0e4f25b33c9ee2542a80ab43311320acd85bb9"
+alias = "mods/NoNausea-MC1.12-1.0.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/nuclearcraft-overhauled.pw.toml"
+hash = "d17fe6ae6816cca29b7cdeb15d7133fc3ee66f19c5122aa870193f2ab788833c"
+alias = "mods/nuclearcraft-1.12.2-2o.9.6.jar"
 metafile = true
 
 [[files]]
@@ -1918,6 +1960,12 @@ metafile = true
 file = "mods/.index/random-complement.pw.toml"
 hash = "5e8e8208d9ee547fc4b0d05f32ea9b40d1fe9f112973af0332d5566a9b393092"
 alias = "mods/random_complement-1.9.2.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/randomaddon.pw.toml"
+hash = "8e9b19110791b73b70719d51cc7e84f1b029cf037bd58db2ccb4924c752780af"
+alias = "mods/random_addon-0.7.3.jar"
 metafile = true
 
 [[files]]
@@ -2257,6 +2305,12 @@ alias = "mods/ThaumicAugmentation-1.12.2-2.1.14.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/thaumic-concilium-kedition.pw.toml"
+hash = "c9a66fe89d18b6f6390a585020927c5744e63c7619e9c146c8a894a0094d79fa"
+alias = "mods/thaumicconcilium-1.2.1.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/thaumic-equivalence.pw.toml"
 hash = "a878c5788cae901d4a8fe76363d4f19b82f82824ec6c1986cc4c2bb9f539107b"
 alias = "mods/ThaumicEquivalence-1.12.2-1.0.5.jar"
@@ -2572,6 +2626,12 @@ metafile = true
 file = "mods/.index/xl-food-mod.pw.toml"
 hash = "ca75a382091495ba067439c53c259a6be658238f8303560ad99bc321426c0db4"
 alias = "mods/XL-Food-Mod-1.12.2-1.9.2.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/xnet-additions.pw.toml"
+hash = "9dcef6aa68699532fd7120b370a229effea182c4c09627977cc17d18a9dfd256"
+alias = "mods/XNetAdditions-0.1.1.jar"
 metafile = true
 
 [[files]]
