@@ -6,9 +6,12 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "7acb0db5aa9ce641fc7daf861c6b91328174b8027dcb1b2b5c8a84b4bc2a1f27"
+hash = "83d858e9198242be3559f54a8c391a896b5dbd45c61e6e0b7b02e93ca3f6cfd8"
 
 [versions]
 forge = "14.23.5.2860"
 minecraft = "1.12.2"
 quilt = "0.17.0"
+
+[export.curseforge]
+project-id = 0
