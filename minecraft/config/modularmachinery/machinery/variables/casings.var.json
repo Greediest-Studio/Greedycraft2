@@ -45,7 +45,11 @@
         "whimcraft:blockmeaspectinputbus",
         "whimcraft:blockmeaspectoutputbus",
         "mmce_complement:flux_input_hatch",
-        "mmce_complement:flux_output_hatch"
+        "mmce_complement:flux_output_hatch",
+        "mmce_complement:me_energy_input_bus",
+        "mmce_complement:me_energy_output_bus",
+        "mmce_complement:me_mana_input_bus",
+        "mmce_complement:me_mana_output_bus"
     ],
     "casings_parallel": [
         "modularmachinery:blockcasing@0",
