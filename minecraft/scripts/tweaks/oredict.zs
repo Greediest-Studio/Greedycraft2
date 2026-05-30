@@ -1031,7 +1031,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <modularmachinery:builder_4_factory_controller>,
         <modularmachinery:thermal_evaporation_plant_factory_controller>,
         <modularmachinery:arcane_compressor_factory_controller>,
-        <modularmachinery:neutron_activator_factory_controller>
+        <modularmachinery:neutron_activator_factory_controller>,
+        <modularmachinery:arcane_alchemical_pot_factory_controller>
     ],
     <ore:controllerLevel4> : [
         <modularmachinery:aura_crafter_factory_controller>,
