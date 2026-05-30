@@ -558,6 +558,22 @@ addBuilderRecipe(<modularmachinery:neutron_activator_factory_controller>, [
     <ore:ingotOsgloglas> * 12
 ], 3, 3200);
 
+addBuilderRecipe(<modularmachinery:arcane_alchemical_pot_factory_controller>, [
+    <additions:logic_processor_2> * 4,
+    <additions:calculation_processor_2> * 20,
+    <additions:engineering_processor_2> * 10,
+    <crazyae:material:16> * 4,
+    <crazyae:material:17> * 20,
+    <ore:ingotModularium> * 64,
+    <ore:ingotThaumium> * 64,
+    <ore:ingotHellite> * 32,
+    <ore:ingotVoid> * 16,
+    <ore:ingotFusionMatrix> * 16,
+    <ore:ingotPrimordial> * 4,
+    <ore:ingotMithrillium> * 4,
+    <thaumcraft:stone_arcane> * 96
+], 3, 4000);
+
 addBuilderRecipe(<modularmachinery:builder_4_factory_controller>, [
     <additions:logic_processor_2> * 48,
     <additions:calculation_processor_2> * 48,
