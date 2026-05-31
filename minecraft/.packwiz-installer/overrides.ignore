@@ -1,0 +1,23 @@
+# PackWorkbench CurseForge overrides ignore
+# Syntax is similar to .gitignore. One pattern per line; # starts a comment.
+# These rules apply only when building overrides/ for CurseForge export.
+
+.git/
+.gradle/
+.idea/
+build/
+gradle/
+src/
+.packwiz-installer/
+
+pack.toml
+index.toml
+PLAN.md
+README.md
+LICENSE
+*.zip
+
+mods/.index/
+resourcepacks/.index/
+shaderpacks/.index/
+mods/*.jar

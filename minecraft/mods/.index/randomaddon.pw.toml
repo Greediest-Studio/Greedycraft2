@@ -1,0 +1,12 @@
+name = "RandomAddon"
+filename = "random_addon-0.7.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6a2123c66e57ea9333ec2f6c2044e8679ea1f179"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 7231469
+project-id = 1322317
