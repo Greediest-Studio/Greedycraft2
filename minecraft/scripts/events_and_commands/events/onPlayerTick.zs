@@ -50,7 +50,6 @@ import native.net.minecraft.entity.player.EntityPlayerMP;
 import native.net.minecraft.inventory.Container;
 import native.net.minecraft.world.WorldProvider;
 import native.net.minecraft.item.ItemStack;
-import native.net.mcreator.gctmobs.gui.GuiKabalahBuilder.GuiContainerMod;
 import native.com.teammetallurgy.atum.utils.AtumRenderHelper;
 import native.baubles.api.BaublesApi;
 import native.baubles.api.inv.SlotDefinition;
@@ -657,47 +656,3 @@ $expand IItemStack[]$matches(target as IItemStack[]) as bool {
     return true;
 }
 
-events.onPlayerTick(function(event as PlayerTickEvent) {
-    if (event.side != "SERVER") {
-        return;
-    }
-    var player as IPlayer = event.player;
-    // Kabalah Builder GUI check
-    if ((player.native as EntityPlayerMP).openContainer instanceof GuiContainerMod) {
-        var container as Container = (player.native as EntityPlayerMP).openContainer;
-        var recipeCheckList as IItemStack[] = [];
-        var recipeLevel as int = 0;
-        for i in 0 to 10 {
-            if (!isNull(container.inventorySlots[i].getStack())) {
-                var stack as ItemStack = container.inventorySlots[i].getStack();
-                var stackCT as IItemStack = stack.wrapper;
-                recipeCheckList += stackCT;
-            } else {
-                recipeCheckList += null;
-            }
-        }
-        if (container.isStack(10, <gct_mobs:kabalah_ring_aur>)) {
-            if (container.isStack(11, <gct_mobs:kabalah_ring_soph>)) {
-                if (container.isStack(12, <gct_mobs:kabalah_ring_ain>)) {
-                    recipeLevel = 3;
-                } else {
-                    recipeLevel = 2;
-                }
-            } else {
-                recipeLevel = 1;
-            }
-        }
-        var targetLevelRecipes as IItemStack[][IItemStack] = KabbalahBuilderRecipeList[recipeLevel];
-        var pass as bool = false;
-        for allMatchedRecipes in targetLevelRecipes {
-            if (targetLevelRecipes[allMatchedRecipes].matches(recipeCheckList)) {
-                container.inventorySlots[13].putStack(allMatchedRecipes.native);
-                pass = true;
-                break;
-            }
-        }
-        if (!pass) {
-            container.inventorySlots[13].putStack(ItemStack.EMPTY);
-        }
-    }
-});

@@ -1,0 +1,35 @@
+{
+	title: "§b助我破鼎！",
+	x: -8.5d,
+	y: -4.0d,
+	description: "合成奥术炼金釜集成控制器",
+	text: [
+		"其实是个炼丹炉"
+	],
+	dependencies: [
+		"75992ca5"
+	],
+	tasks: [{
+		uid: "9320a59f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:arcane_alchemical_pot_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "3df51b23",
+		type: "item",
+		item: "thaumcraft:salis_mundus",
+		count: 64
+	},
+	{
+		uid: "a8ad2fc3",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "8962e24b",
+		type: "xp",
+		xp: 1200
+	}]
+}

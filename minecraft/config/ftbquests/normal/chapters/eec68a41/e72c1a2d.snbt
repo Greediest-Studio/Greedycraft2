@@ -4,27 +4,16 @@
 	y: -4.5d,
 	description: "合成生命树构建器",
 	text: [
-		"机器GUI文字说明：",
-		"左侧3个槽位(Ain Soph Aur):放置对应能量环,绝大部分合成需要对应的能量环支持",
-		"1——Kether——王冠",
-		"2——Chokmah——智慧",
-		"3——Binah——理解",
-		"4——Chesed——慈悲",
-		"5——Gevurah——严格",
-		"6——Tiphareth——美丽",
-		"7——Netzach——胜利",
-		"8——Hod——光辉",
-		"9——Yesod——基础",
-		"10——Malkuth——王国"
+		""
 	],
 	dependencies: [
 		"cdb6d00e"
 	],
 	tasks: [{
-		uid: "dacfb745",
+		uid: "b0668fb1",
 		type: "item",
 		items: [{
-			item: "gct_mobs:kabalah_builder_block"
+			item: "modularmachinery:kabalah_builder_factory_controller"
 		}]
 	}],
 	rewards: [{

@@ -718,28 +718,6 @@ addBuilderRecipe(<modularmachinery:bright_altar_factory_controller>, [
     <additions:astral_gem_12>
 ], 4, 16000);
 
-addBuilderRecipe(<modularmachinery:builder_5_factory_controller>, [
-    <additions:logic_processor_3> * 20,
-    <additions:calculation_processor_3> * 20,
-    <additions:engineering_processor_3> * 20,
-    <crazyae:material:16> * 32,
-    <crazyae:material:17> * 32,
-    <crazyae:material:48> * 32,
-    <additions:wireless_processor> * 32,
-    <threng:material:14> * 24,
-    <ore:ingotModularium> * 180,
-    <ore:ingotCompressite> * 40,
-    <ore:ingotCosmilite> * 32,
-    <ore:ingotBalancedMatrix> * 16,
-    <ore:ingotFinallium> * 12,
-    <ore:ingotAbyssine> * 4,
-    <ore:ingotZodiacite> * 4,
-    <ore:ingotBotanicalAwakened> * 4,
-    <ore:ingotAurune> * 4,
-    <ore:ingotCreativeAlloy> * 4,
-    <ore:ingotPruified> * 4
-], 4, 2400);
-
 addBuilderRecipe(<modularmachinery:reverser_factory_controller>, [
     <additions:logic_processor_3> * 16,
     <additions:calculation_processor_3> * 8,
@@ -867,6 +845,45 @@ addBuilderRecipe(<modularmachinery:arcane_matrix_factory_controller>, [
     <ore:ingotAdamant> * 8,
     <gct_mobs:primordial_stone> * 64
 ], 4, 1200);
+
+addBuilderRecipe(<modularmachinery:kabalah_builder_factory_controller>, [
+    <additions:logic_processor_2> * 24,
+    <additions:calculation_processor_2> * 22,
+    <additions:engineering_processor_2> * 10,
+    <crazyae:material:17> * 30,
+    <ore:ingotModularium> * 64,
+    <ore:ingotManasteel> * 64,
+    <ore:ingotElementium> * 48,
+    <ore:ingotTerrasteel> * 48,
+    <ore:ingotOrichalcos> * 32,
+    <ore:ingotElfsteel> * 32,
+    <ore:ingotPhotonium> * 24,
+    <botania:dreamwood> * 64,
+    <botaniverse:morewood> * 16,
+    <botaniverse:morewood:1> * 8
+], 4, 1800);
+
+addBuilderRecipe(<modularmachinery:builder_5_factory_controller>, [
+    <additions:logic_processor_3> * 20,
+    <additions:calculation_processor_3> * 20,
+    <additions:engineering_processor_3> * 20,
+    <crazyae:material:16> * 32,
+    <crazyae:material:17> * 32,
+    <crazyae:material:48> * 32,
+    <additions:wireless_processor> * 32,
+    <threng:material:14> * 24,
+    <ore:ingotModularium> * 180,
+    <ore:ingotCompressite> * 40,
+    <ore:ingotCosmilite> * 32,
+    <ore:ingotBalancedMatrix> * 16,
+    <ore:ingotFinallium> * 12,
+    <ore:ingotAbyssine> * 4,
+    <ore:ingotZodiacite> * 4,
+    <ore:ingotBotanicalAwakened> * 4,
+    <ore:ingotAurune> * 4,
+    <ore:ingotCreativeAlloy> * 4,
+    <ore:ingotPruified> * 4
+], 4, 2400);
 
 //LV5
 
