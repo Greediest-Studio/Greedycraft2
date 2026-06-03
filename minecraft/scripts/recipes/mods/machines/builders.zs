@@ -1093,6 +1093,14 @@ addBuilderRecipe(<modularmachinery:elysia_etcher_factory_controller>, [
     <threng:etcher> * 32
 ], 1, 3200);
 
+addBuilderRecipe(<modularmachinery:elysia_enricher_factory_controller>, [
+    <gct_ores:blue_print_empty> * 32,
+    <ore:ingotModularium> * 64,
+    <thermalexpansion:machine:7> * 32,
+    <thermalfoundation:upgrade:35> * 32,
+    <forestry:still> * 32
+], 1, 3200);
+
 addBuilderRecipe(<modularmachinery:factory_4x_factory_controller>, [
     <gct_ores:blue_print_forge> * 32,
     <ore:ingotModularium> * 64,

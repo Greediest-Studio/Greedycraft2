@@ -10,7 +10,6 @@ change my word, further away ~
 */
 
 #priority 5000
-#norun
 
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
