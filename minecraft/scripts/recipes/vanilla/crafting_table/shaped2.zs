@@ -980,6 +980,31 @@ RecipeUtil.addShaped("fun_netherite_upgrade", <functionalstoragelegacy:netherite
     [<ore:ingotNetherite>, <functionalstoragelegacy:diamond_upgrade>, <ore:ingotNetherite>],
     [<ore:chest>, <minecraft:obsidian>, <ore:chest>]
 ]);
+RecipeUtil.addShaped("casing_upgrade_5", <mmce_complement:blockcasing>, [
+    [<ore:blockCosmilite>, <ore:ingotModularium>, <ore:blockCosmilite>],
+    [<ore:ingotModularium>, <modularmachinery:blockcasing:5>, <ore:ingotModularium>],
+    [<ore:blockCosmilite>, <ore:ingotModularium>, <ore:blockCosmilite>]
+]);
+RecipeUtil.addShaped("casing_upgrade_6", <mmce_complement:blockcasing:1>, [
+    [<ore:blockFinallium>, <ore:ingotModularium>, <ore:blockFinallium>],
+    [<ore:ingotModularium>, <mmce_complement:blockcasing>, <ore:ingotModularium>],
+    [<ore:blockFinallium>, <ore:ingotModularium>, <ore:blockFinallium>]
+]);
+RecipeUtil.addShaped("casing_upgrade_7", <mmce_complement:blockcasing:2>, [
+    [<ore:blockWavite>, <ore:ingotModularium>, <ore:blockWavite>],
+    [<ore:ingotModularium>, <mmce_complement:blockcasing:1>, <ore:ingotModularium>],
+    [<ore:blockWavite>, <ore:ingotModularium>, <ore:blockWavite>]
+]);
+RecipeUtil.addShaped("casing_glass_1", <mmce_complement:machine_glass>, [
+    [null, <ore:ingotModularium>, null],
+    [<ore:ingotModularium>, <ore:blockGlass>, <ore:ingotModularium>],
+    [null, <ore:ingotModularium>, null]
+]);
+RecipeUtil.addShaped("casing_glass_2", <mmce_complement:machine_glass> * 4, [
+    [null, <ore:ingotModularium>, null],
+    [<ore:ingotModularium>, <ore:blockGlassHardened>, <ore:ingotModularium>],
+    [null, <ore:ingotModularium>, null]
+]);
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],

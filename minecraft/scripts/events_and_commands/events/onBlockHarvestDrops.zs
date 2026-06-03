@@ -52,6 +52,16 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
             event.world.setBlockState(blockState, event.position as IBlockPos);
         }
 
+        // Prevent bottom's end Trait drops doubled bedrock
+        if (!isNull(player) && event.block.definition.id == "minecraft:bedrock") {
+            if (!isNull(player.mainHandHeldItem)) {
+                var tool as IItemStack = player.mainHandHeldItem;
+                if (TicTraitLib.hasTicTrait(tool, "moretcon.bottomsend")) {
+                    event.drops = [];
+                }
+            }
+        }
+
         // Prevent drops from Solarys Ore without proper trait
         var block as IBlock = event.block;
         if (block.definition.id == "additions:solarys_ore") {

@@ -1,0 +1,29 @@
+{
+	title: "§b别把产物倒了",
+	x: -17.0d,
+	y: -13.0d,
+	description: "合成大型精炼单元集成控制器",
+	text: [
+		""
+	],
+	dependencies: [
+		"f1ed4344"
+	],
+	tasks: [{
+		uid: "3d062915",
+		type: "item",
+		items: [{
+			item: "modularmachinery:elysia_enricher_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "5efef83c",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "48af93e0",
+		type: "xp",
+		xp: 1000
+	}]
+}

@@ -50,7 +50,8 @@
         "mmce_complement:me_energy_output_bus",
         "mmce_complement:me_mana_input_bus",
         "mmce_complement:me_mana_output_bus",
-        "mmce_complement:machine_glass"
+        "mmce_complement:machine_glass",
+        "mmce_complement:blockcasing"
     ],
     "casings_parallel": [
         "modularmachinery:blockcasing@0",
@@ -70,7 +71,8 @@
         "modularmachinery:blockcasing@2",
         "modularmachinery:blockcasing@3",
         "modularmachinery:blockcasing@4",
-        "modularmachinery:blockcasing@5"
+        "modularmachinery:blockcasing@5",
+        "modularmachinery:blockcasing"
     ],
     "bloody_rune": [
         "bloodmagic:blood_rune@0",

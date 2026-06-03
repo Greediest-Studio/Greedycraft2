@@ -717,7 +717,8 @@ GameStagesUtil.stageCosmic.addIngredients([
     <ore:ingotArkFaded>,
     <ore:nuggetArkFaded>,
     <ore:blockArkFaded>,
-    <ore:dustArkFaded>
+    <ore:dustArkFaded>,
+    <mmce_complement:blockcasing>
 ], false);
 
 GameStagesUtil.stageBalancedMatrix.addIngredients([
@@ -2418,7 +2419,8 @@ GameStagesUtil.stageFinal.addIngredients([
     <ore:nuggetEndoriumInfused>,
     <ore:dustEndoriumInfused>,
     <ee:lamented>,
-    <ee:soul>
+    <ee:soul>,
+    <mmce_complement:blockcasing:1>
 ], false);
 
 GameStagesUtil.stageDeepDream.addIngredients([
@@ -2572,6 +2574,10 @@ GameStagesUtil.stageMindShock.addIngredients([
     <ore:blockWavite>,
     <ore:nuggetWavite>,
     <ore:dustWavite>
+], false);
+
+GameStagesUtil.stageWaving.addIngredients([
+    <mmce_complement:blockcasing:2>
 ], false);
 
 GameStagesUtil.stageLegendWizard.addIngredients([

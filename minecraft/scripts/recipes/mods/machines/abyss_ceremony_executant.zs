@@ -118,7 +118,7 @@ addRitualRecipe(<abyssalcraft:spirit_altar>, [
     <abyssalcraft:cobblestone> * 5,
     <ore:ingotGold> * 3,
     <ore:gemShadow>
-], 1000, 32767, true);
+], 1000, -1, true);
 
 addRitualRecipe(<abyssalcraft:statue>, [
     <abyssalcraft:shoggothflesh> * 5,

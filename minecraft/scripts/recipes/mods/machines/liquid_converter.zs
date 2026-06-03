@@ -28,6 +28,11 @@ MachineModifier.setMaxThreads("liquid_converter", 64);
 MachineModifier.setInternalParallelism("liquid_converter", 2147483647);
 MachineModifier.setMaxParallelism("liquid_converter", 2147483647);
 
+MMEvents.onControllerGUIRender("liquid_converter", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = ["§a///流体转换机控制面板///", "§a机器名称：§eLV1 - 流体转换机"];
+    event.extraInfo = info;
+});
+
 val converterRecipes as ILiquidStack[][] = [
     [<liquid:honey> * 100, <liquid:for.honey> * 100],
     [<liquid:milk_chocolate> * 100, <liquid:liquid_chocolate> * 100],

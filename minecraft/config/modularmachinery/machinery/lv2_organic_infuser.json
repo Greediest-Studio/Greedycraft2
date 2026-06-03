@@ -5,13 +5,13 @@
     "failure-action": "still",
     "even-parallelism-distribution": true,
     "color": "e0e6e8",
-    "modifiers": [
+            "modifiers": [
         {
             "elements": "modularmachinery:blockcasing@1",
-            "x": 0,
+            "x": 1,
             "y": 1,
             "z": 0,
-            "description": "将控制器上方的紧挨着的方块换成此方块以提高25%种子产出率及副产品产出率！",
+            "description": "将控制器上方紧挨着的方块换成此方块以提高25%产品产出率！",
             "modifier": {
                 "io": "output",
                 "target": "modularmachinery:item",
@@ -22,10 +22,10 @@
         },
         {
             "elements": "modularmachinery:blockcasing@2",
-            "x": 0,
+            "x": 1,
             "y": 1,
             "z": 0,
-            "description": "将控制器上方的紧挨着的方块换成此方块以提高50%种子产出率及副产品产出率！",
+            "description": "将控制器上方紧挨着的方块换成此方块以提高50%产品产出率！",
             "modifier": {
                 "io": "output",
                 "target": "modularmachinery:item",
@@ -36,10 +36,10 @@
         },
         {
             "elements": "modularmachinery:blockcasing@3",
-            "x": 0,
+            "x": 1,
             "y": 1,
             "z": 0,
-            "description": "将控制器上方的紧挨着的方块换成此方块以提高75%种子产出率及副产品产出率！",
+            "description": "将控制器上方紧挨着的方块换成此方块以提高75%产品产出率！",
             "modifier": {
                 "io": "output",
                 "target": "modularmachinery:item",
@@ -50,15 +50,99 @@
         },
         {
             "elements": "modularmachinery:blockcasing@5",
-            "x": 0,
+            "x": 1,
             "y": 1,
             "z": 0,
-            "description": "将控制器上方的紧挨着的方块换成此方块以提高100%种子产出率及副产品产出率！",
+            "description": "将控制器上方紧挨着的方块换成此方块以提高100%产品产出率！",
             "modifier": {
                 "io": "output",
                 "target": "modularmachinery:item",
                 "operation": 1,
                 "multiplier": 2,
+                "affectChance": true
+            }
+        },
+        {
+            "elements": "mmce_complement:blockcasing@0",
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方紧挨着的方块换成此方块以提高125%产品产出率！",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 2.25,
+                "affectChance": true
+            }
+        },
+        {
+            "elements": "mmce_complement:blockcasing@1",
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方紧挨着的方块换成此方块以提高150%产品产出率！",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 2.5,
+                "affectChance": true
+            }
+        },
+        {
+            "elements": "mmce_complement:blockcasing@2",
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方紧挨着的方块换成此方块以提高175%产品产出率！",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 2.75,
+                "affectChance": true
+            }
+        },
+        {
+            "elements": "mmce_complement:blockcasing@3",
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方紧挨着的方块换成此方块以提高200%产品产出率！",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 3,
+                "affectChance": true
+            }
+        },
+        {
+            "elements": "mmce_complement:blockcasing@4",
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方紧挨着的方块换成此方块以提高225%产品产出率！",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 3.25,
+                "affectChance": true
+            }
+        },
+        {
+            "elements": "mmce_complement:blockcasing@5",
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "description": "将控制器上方紧挨着的方块换成此方块以提高250%产品产出率！",
+            "modifier": {
+                "io": "output",
+                "target": "modularmachinery:item",
+                "operation": 1,
+                "multiplier": 3.5,
                 "affectChance": true
             }
         }
@@ -4081,3 +4165,4 @@
             ]
         }
     ]}
+

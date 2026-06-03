@@ -196,7 +196,7 @@ val tooltipMap as string[][IIngredient] = {
     <minecraft:structure_block> : [game.localize("greedycraft.tooltip.command_block")],
     <contenttweaker:tablet_of_enlightenment>: [game.localize("greedycraft.tooltip.contenttweaker.tablet_of_enlightenment.1"), game.localize("greedycraft.tooltip.contenttweaker.tablet_of_enlightenment.2"), game.localize("greedycraft.tooltip.contenttweaker.tablet_of_enlightenment.3"), game.localize("greedycraft.tooltip.contenttweaker.tablet_of_enlightenment.4"), game.localize("greedycraft.tooltip.contenttweaker.tablet_of_enlightenment.5")],
     <modularmachinery:itemmodularium> : [game.localize("greedycraft.tooltip.contenttweaker.modularblock")],
-    <modularmachinery:blockcasing:*> : [game.localize("greedycraft.tooltip.contenttweaker.modularblock")],
+    <modularmachinery:blockcasing:0> : [game.localize("greedycraft.tooltip.contenttweaker.modularblock")],
     <divinerpg:teaker_lump> : [game.localize("greedycraft.tooltip.lumps")],
     <divinerpg:amthirmis_lump> : [game.localize("greedycraft.tooltip.lumps")],
     <divinerpg:darven_lump> : [game.localize("greedycraft.tooltip.lumps")],
