@@ -32,6 +32,7 @@ import mods.modularmachinery.ControllerGUIRenderEvent;
 import mods.modularmachinery.MMEvents;
 import mods.modularmachinery.FactoryRecipeTickEvent;
 import mods.modularmachinery.MachineStructureUpdateEvent;
+import mods.modularmachinery.FactoryRecipeStartEvent;
 import mods.ctutils.utils.Math;
 import mods.gctweaker.oreOutput;
 
@@ -177,6 +178,13 @@ MMEvents.onControllerGUIRender("dimensional_miner", function(event as Controller
 
 //配方
 RecipeBuilder.newBuilder("basic_miner_main","basic_miner",200)
+    .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
+        val ctrl = event.controller;
+        val data = ctrl.customData;
+        val bx = isNull(data.bx) ? 1 : data.bx;
+        val thread = event.factoryRecipeThread;
+        thread.addModifier("rf", RecipeModifierBuilder.create("modularmachinery:energy","input",bx,1,false).build());
+    })
     .addEnergyPerTickInput(200)
     .addItemOutput(<minecraft:grass>)
     .addItemModifier(function(ctrl as IMachineController, item as IItemStack) as IItemStack {return null;})
@@ -187,7 +195,7 @@ RecipeBuilder.newBuilder("basic_miner_main","basic_miner",200)
         var output = [] as IItemStack[];
 
         for u in upgradeList {
-            val list = oreOutput.getOreOutputList(dim,u,bx) as IItemStack[];
+            val list = oreOutput.getOreOutputList(dim,u,bx,false) as IItemStack[];
             if (list.length != 0 && (u == BASIC || ctrl.hasMachineUpgrade(u))) {
                 for i in list {
                     output += i;
@@ -203,19 +211,28 @@ RecipeBuilder.newBuilder("basic_miner_main","basic_miner",200)
     .build();
 
 RecipeBuilder.newBuilder("advanced_miner_main","advanced_miner",200)
+    .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
+        val ctrl = event.controller;
+        val data = ctrl.customData;
+        val bx = isNull(data.bx) ? 1 : data.bx;
+        val thread = event.factoryRecipeThread;
+        val dimList = isNull(data.dims) ? [] as int[] : data.dims as int[];
+        thread.addModifier("rf", RecipeModifierBuilder.create("modularmachinery:energy","input",(bx * max(1,dimList.length)),1,false).build());
+    })
     .addEnergyPerTickInput(200)
     .addItemOutput(<minecraft:grass>)
     .addItemModifier(function(ctrl as IMachineController, item as IItemStack) as IItemStack {return null;})
     .setIgnoreOutputCheck(true)//别删
     .addDynamicOutput(function(ctrl as IMachineController) {
-        val dimList = isNull(ctrl.customData.dims) ? [] as int[] : ctrl.customData.dims as int[];
-        val bx = ctrl.customData.bx;
+        val data = ctrl.customData;
+        val dimList = isNull(data.dims) ? [] as int[] : data.dims as int[];
+        val bx = data.bx;
         var output = [] as IItemStack[];
 
         if (dimList.length != 0) {
             for dim in dimList {
                 for u in upgradeList {
-                    val list = oreOutput.getOreOutputList(dim,u,(bx / dimList.length) as int) as IItemStack[];
+                    val list = oreOutput.getOreOutputList(dim,u,(bx / max(1,dimList.length)) as int,false) as IItemStack[];
                     if (list.length != 0 && (u == BASIC || ctrl.hasMachineUpgrade(u))) {
                         for i in list {
                             output += i;
@@ -233,20 +250,29 @@ RecipeBuilder.newBuilder("advanced_miner_main","advanced_miner",200)
     .build();
 
 RecipeBuilder.newBuilder("dimensional_miner_main","dimensional_miner",200)
+    .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
+        val ctrl = event.controller;
+        val data = ctrl.customData;
+        val bx = isNull(data.bx) ? 1 : data.bx;
+        val thread = event.factoryRecipeThread;
+        val dimList = isNull(data.dims) ? [] as int[] : data.dims as int[];
+        thread.addModifier("rf", RecipeModifierBuilder.create("modularmachinery:energy","input",(bx * max(1,dimList.length)),1,false).build());
+    })
     .addEnergyPerTickInput(200)
     .addItemOutput(<minecraft:grass>)
     .addItemModifier(function(ctrl as IMachineController, item as IItemStack) as IItemStack {return null;})
     .setIgnoreOutputCheck(true)//别删
     .addDynamicOutput(function(ctrl as IMachineController) {
-        val dimList = isNull(ctrl.customData.dims) ? [] as int[] : ctrl.customData.dims as int[];
-        val bx = ctrl.customData.bx;
+        val data = ctrl.customData;
+        val dimList = isNull(data.dims) ? [] as int[] : data.dims as int[];
+        val bx = data.bx;
         var output = [] as IItemStack[];
 
         if (dimList.length != 0) {
             for dim in dimList {
                 if (ctrl.hasMachineUpgrade("miner_upg_multidim") || dim == ctrl.world.dimension) {
                     for u in upgradeList {
-                        val list = oreOutput.getOreOutputList(dim,u,(bx / dimList.length) as int) as IItemStack[];
+                        val list = oreOutput.getOreOutputList(dim,u,(bx / max(1,dimList.length)) as int,false) as IItemStack[];
                         if (list.length != 0 && (u == BASIC || ctrl.hasMachineUpgrade(u))) {
                             for i in list {
                                 output += i;
