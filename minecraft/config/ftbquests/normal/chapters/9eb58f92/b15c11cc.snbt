@@ -1,0 +1,27 @@
+{
+	title: "§b烧点乙烯吧",
+	x: -2.5d,
+	y: -6.0d,
+	description: "合成燃气发电机",
+	text: [
+		"§a燃气发电机§f是前期非常好用的发电设备，搭建一条§a乙烯§f产线吧！"
+	],
+	tasks: [{
+		uid: "d897972f",
+		type: "item",
+		items: [{
+			item: "mekanismgenerators:generator 1 3"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cffe253e",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "b3b3b95f",
+		type: "random",
+		table: 1
+	}]
+}

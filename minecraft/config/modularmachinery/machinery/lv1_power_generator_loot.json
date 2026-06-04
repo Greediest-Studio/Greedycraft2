@@ -4,8 +4,7 @@
     "requires-blueprint": false,
     "failure-action": "still",
     "color": "ffeb3b",
-            "modifiers": [
-        {
+        "modifiers": [{
             "elements": "modularmachinery:blockcasing@1",
             "x": 2,
             "y": 1,

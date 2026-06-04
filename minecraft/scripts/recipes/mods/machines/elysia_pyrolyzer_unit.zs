@@ -38,7 +38,7 @@ MMEvents.onControllerGUIRender("elysia_pyrolyzer", function(event as ControllerG
     event.extraInfo = info;
 });
 
-RecipeBuilder.newBuilder("phosphorus", "elysia_pyrolyzer", 400)
+RecipeBuilder.newBuilder("phosphorus", "elysia_pyrolyzer", 100)
     .addItemInput(<ore:gemApatite> * 2)
     .addItemInput(<ore:gemQuartz> * 3)
     .addItemInput(<ore:fuelCoke> * 5)
@@ -50,7 +50,7 @@ RecipeBuilder.newBuilder("phosphorus", "elysia_pyrolyzer", 400)
     .setMaxThreads(1)
     .build();
 
-RecipeBuilder.newBuilder("strontium", "elysia_pyrolyzer", 400)
+RecipeBuilder.newBuilder("strontium", "elysia_pyrolyzer", 100)
     .addItemInput(<ore:dustStrontiumSulfate> * 1)
     .addItemInput(<ore:fuelCoke> * 4)
     .addEnergyPerTickInput(1024)
@@ -60,7 +60,7 @@ RecipeBuilder.newBuilder("strontium", "elysia_pyrolyzer", 400)
     .setMaxThreads(1)
     .build();
 
-RecipeBuilder.newBuilder("barium", "elysia_pyrolyzer", 400)
+RecipeBuilder.newBuilder("barium", "elysia_pyrolyzer", 100)
     .addItemInput(<ore:dustBariumSulfate> * 1)
     .addItemInput(<ore:fuelCoke> * 4)
     .addEnergyPerTickInput(1024)
@@ -70,7 +70,7 @@ RecipeBuilder.newBuilder("barium", "elysia_pyrolyzer", 400)
     .setMaxThreads(1)
     .build();
 
-RecipeBuilder.newBuilder("calcium", "elysia_pyrolyzer", 600)
+RecipeBuilder.newBuilder("calcium", "elysia_pyrolyzer", 150)
     .addItemInput(<ore:blockCalciumCarbonate> * 1)
     .addEnergyPerTickInput(1024)
     .addGasOutput(<gas:carbonoxide> * 9000)
@@ -79,16 +79,16 @@ RecipeBuilder.newBuilder("calcium", "elysia_pyrolyzer", 600)
     .setMaxThreads(1)
     .build();
 
-RecipeBuilder.newBuilder("coal", "elysia_pyrolyzer", 100)
+RecipeBuilder.newBuilder("coal", "elysia_pyrolyzer", 25)
     .addItemInput(<minecraft:coal> * 8)
     .addEnergyPerTickInput(1024)
-    .addItemOutput(<thermalfoundation:material:802> * 8)
+    .addItemOutput(<ore:fuelCoke> * 8)
     .addFluidOutput(<liquid:creosote> * 2000)
     .addRecipeTooltip("§d热解配方支持模块化电容升级，详情请查询“模块化电容”")
     .setMaxThreads(1)
     .build();
 
-RecipeBuilder.newBuilder("benzene", "elysia_pyrolyzer", 600)
+RecipeBuilder.newBuilder("benzene", "elysia_pyrolyzer", 150)
     .addItemInput(<thermalfoundation:material:833> * 1)
     .addEnergyPerTickInput(1024)
     .addFluidOutput(<liquid:benzene> * 10)
@@ -97,12 +97,22 @@ RecipeBuilder.newBuilder("benzene", "elysia_pyrolyzer", 600)
     .setMaxThreads(1)
     .build();
 
-RecipeBuilder.newBuilder("hydrocarbon", "elysia_pyrolyzer", 400)
+RecipeBuilder.newBuilder("hydrocarbon", "elysia_pyrolyzer", 100)
     .addFluidInput(<liquid:mixed_hydrocarbon> * 1000)
     .addEnergyPerTickInput(1024)
     .addFluidOutput(<liquid:methane> * 500)
     .addFluidOutput(<liquid:ethene> * 250)
     .addFluidOutput(<liquid:ethyne> * 250) 
+    .addRecipeTooltip("§d热解配方支持模块化电容升级，详情请查询“模块化电容”")
+    .setMaxThreads(1)
+    .build();
+
+RecipeBuilder.newBuilder("calcium_carbide", "elysia_pyrolyzer", 40)
+    .addItemInput(<ore:dustCalciumOxide>)
+    .addItemInput(<ore:fuelCoke> * 3)
+    .addEnergyPerTickInput(1024)
+    .addItemOutput(<additions:calcium_carbide>)
+    .addGasOutput(<gas:carbonoxide> * 1000)
     .addRecipeTooltip("§d热解配方支持模块化电容升级，详情请查询“模块化电容”")
     .setMaxThreads(1)
     .build();

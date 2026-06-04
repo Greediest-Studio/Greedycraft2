@@ -247,3 +247,12 @@ hecryo_gas.setNeedBucket(true);
 hecryo_gas.setNeedFluid(false);
 hecryo_gas.setIcon("blocks/gas_clear");
 hecryo_gas.register();
+
+var ethyne = GasFactory.createGas("ethyne");
+ethyne.setUnlocalizedName("ethyne");
+ethyne.setColorize(true);
+ethyne.setColor(0xbaae5b);
+ethyne.setNeedBucket(true);
+ethyne.setNeedFluid(false);
+ethyne.setIcon("blocks/gas_clear");
+ethyne.register();

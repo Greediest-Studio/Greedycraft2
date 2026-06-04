@@ -58,6 +58,7 @@ val localizationMap as string[string][string] = {
         "tc.aspect.superbia": "傲慢，自大，轻蔑",
         "tc.aspect.desidia": "怠惰，懒散，拖延",
         "tile.modularmachinery.blockcasing.firebox.name": "机械燃烧室",
+        "fluid.bio.ethanol": "生物乙醇",
         "tile.ma.tier1_inferium_crop.name": "1级下级精华作物",
         "tile.ma.tier2_inferium_crop.name": "2级下级精华作物",
         "tile.ma.tier3_inferium_crop.name": "3级下级精华作物",

@@ -978,6 +978,7 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <modularmachinery:blood_altar_factory_controller>,
         <modularmachinery:basic_miner_factory_controller>,
         <modularmachinery:exp_power_generator_factory_controller>,
+        <modularmachinery:gas_power_generator_factory_controller>,
         <modularmachinery:empowerer_factory_controller>,
         <modularmachinery:loot_power_generator_factory_controller>,
         <modularmachinery:builder_2_factory_controller>,

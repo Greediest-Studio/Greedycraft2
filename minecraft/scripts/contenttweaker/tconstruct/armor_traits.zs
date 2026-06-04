@@ -5359,3 +5359,18 @@ reversed_visionTrait.onArmorTick = function(trait, armor, world, player) {
     }
 };
 reversed_visionTrait.register();
+
+val brandTrait = ArmorTraitBuilder.create("brand");
+brandTrait.color = Color.fromHex("ffffff").getIntColor();
+brandTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.brandTrait.name");
+brandTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.brandTrait.desc");
+brandTrait.onDamaged = function(trait, armor, player, source, damage, newDamage, evt) {
+    if (!isNull(player) && !isNull(source.getTrueSource())) {
+        if (player.health / player.maxHealth < 0.4f) {
+            var armorToughness as float = player.getAttribute("generic.armorToughness").attributeValue as float;
+            return newDamage * (1.0f / (1.0f + armorToughness / 5.0f));
+        }
+    }
+    return newDamage;
+};
+brandTrait.register();

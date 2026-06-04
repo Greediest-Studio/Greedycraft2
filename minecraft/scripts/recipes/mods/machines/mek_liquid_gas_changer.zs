@@ -449,3 +449,15 @@ RecipeBuilder.newBuilder("gas_phosphine", "mek_changer", 1)
 .addGasOutput(<gas:phosphine> * 10)
 .setMaxThreads(1)
 .build();
+
+RecipeBuilder.newBuilder("liquid_ethyne", "mek_changer", 1)
+.addGasInput(<gas:ethyne> * 10)
+.addFluidOutput(<liquid:ethyne> * 10)
+.setMaxThreads(1)
+.build();
+
+RecipeBuilder.newBuilder("gas_ethyne", "mek_changer", 1)
+.addFluidInput(<liquid:ethyne> * 10)
+.addGasOutput(<gas:ethyne> * 10)
+.setMaxThreads(1)
+.build();

@@ -188,6 +188,31 @@ addBuilderRecipe(<modularmachinery:empowerer_factory_controller>, [
     <actuallyadditions:item_crystal_empowered:5> * 4
 ], 1, 3200);
 
+addBuilderRecipe(<modularmachinery:liquid_converter_factory_controller>, [
+    <appliedenergistics2:material:22> * 10,
+    <appliedenergistics2:material:23> * 8,
+    <appliedenergistics2:material:24> * 12,
+    <ore:ingotModularium> * 48,
+    <ore:ingotAlubrass> * 32,
+    <ore:ingotFlamium> * 16,
+    <ore:ingotChillinium> * 16,
+    <ore:ingotEnergeticAlloy> * 12,
+    <ore:ingotVibrantAlloy> * 8,
+    <ore:ingotGelidEnderium> * 8
+], 1, 1600);
+
+addBuilderRecipe(<modularmachinery:gas_power_generator_factory_controller>, [
+    <appliedenergistics2:material:22> * 8,
+    <appliedenergistics2:material:23> * 12,
+    <appliedenergistics2:material:24> * 10,
+    <ore:ingotModularium> * 32,
+    <ore:ingotOsgloglas> * 32,
+    <ore:ingotStainlessSteel> * 24,
+    <ore:ingotVibrantAlloy> * 16,
+    <ore:alloyAdvanced> * 64,
+    <ore:gemSilicon> * 32
+], 1, 3600);
+
 addBuilderRecipe(<modularmachinery:builder_2_factory_controller>, [
     <additions:logic_processor_2> * 6,
     <additions:calculation_processor_2> * 6,
@@ -204,19 +229,6 @@ addBuilderRecipe(<modularmachinery:builder_2_factory_controller>, [
     <ore:ingotAdamant> * 4,
     <ore:ingotGodslime> * 4
 ], 1, 2400);
-
-addBuilderRecipe(<modularmachinery:liquid_converter_factory_controller>,[
-    <appliedenergistics2:material:22> * 10,
-    <appliedenergistics2:material:23> * 8,
-    <appliedenergistics2:material:24> * 12,
-    <ore:ingotModularium> * 48,
-    <ore:ingotAlubrass> * 32,
-    <ore:ingotFlamium> * 16,
-    <ore:ingotChillinium> * 16,
-    <ore:ingotEnergeticAlloy> * 12,
-    <ore:ingotVibrantAlloy> * 8,
-    <ore:ingotGelidEnderium> * 8
-], 1, 1600);
 
 //LV2
 addBuilderRecipe(<modularmachinery:gene_builder_factory_controller>, [

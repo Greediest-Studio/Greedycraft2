@@ -1005,6 +1005,37 @@ RecipeUtil.addShaped("casing_glass_2", <mmce_complement:machine_glass> * 4, [
     [<ore:ingotModularium>, <ore:blockGlassHardened>, <ore:ingotModularium>],
     [null, <ore:ingotModularium>, null]
 ]);
+RecipeUtil.addShaped("me_muffler_hatch", <godular_tachinery:me_muffler_hatch>, [
+    [<ore:ingotModularium>, <appliedenergistics2:part:56>, <ore:ingotModularium>],
+    [<ore:ingotChromasteel>, <godular_tachinery:huge_muffler_hatch>, <ore:ingotChromasteel>],
+    [<ore:blockModularium>, <additions:logic_circuit_printed_2>, <ore:blockModularium>]
+]);
+RecipeUtil.addShaped("huge_muffler_hatch", <godular_tachinery:huge_muffler_hatch>, [
+    [<ore:ingotModularium>, <thermaldynamics:duct_32:*>, <ore:ingotModularium>],
+    [<ore:ingotAeonsteel>, <godular_tachinery:large_muffler_hatch>, <ore:ingotAeonsteel>],
+    [<ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>]
+]);
+RecipeUtil.addShaped("large_muffler_hatch", <godular_tachinery:large_muffler_hatch>, [
+    [<ore:ingotModularium>, <thermaldynamics:duct_32:*>, <ore:ingotModularium>],
+    [<ore:ingotDurasteel>, <godular_tachinery:medium_muffler_hatch>, <ore:ingotDurasteel>],
+    [<ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>]
+]);
+RecipeUtil.addShaped("medium_muffler_hatch", <godular_tachinery:medium_muffler_hatch>, [
+    [<ore:ingotModularium>, <thermaldynamics:duct_32:*>, <ore:ingotModularium>],
+    [<ore:ingotStainlessSteel>, <godular_tachinery:muffler_hatch>, <ore:ingotStainlessSteel>],
+    [<ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>]
+]);
+RecipeUtil.addShaped("small_muffler_hatch", <godular_tachinery:muffler_hatch>, [
+    [<ore:ingotModularium>, <thermaldynamics:duct_32:*>, <ore:ingotModularium>],
+    [<ore:ingotSteel>, <modularmachinery:blockcasing:4>, <ore:ingotSteel>],
+    [<ore:blockModularium>, <ore:blockRedstone>, <ore:blockModularium>]
+]);
+RecipeUtil.addShaped("modular_terminal", <modularmachinery_terminal:terminal>, [
+    [null, <appliedenergistics2:material:41>, null],
+    [null, <modularmachinery:blockcontroller>, null],
+    [null, <appliedenergistics2:dense_energy_cell>, null]
+]);
+
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],

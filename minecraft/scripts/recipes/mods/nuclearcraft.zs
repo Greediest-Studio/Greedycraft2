@@ -673,6 +673,7 @@ Enricher.addRecipe(<ore:dustSodiumMolybdate>, <liquid:water> * 1000, <liquid:sod
 Enricher.addRecipe(<ore:dustSodiumSulfate>, <liquid:water> * 1000, <liquid:sodium_sulfate_solution> * 666);
 Enricher.addRecipe(<ore:dustBariumOxide>, <liquid:nitric_acid> * 2000, <liquid:barium_nitrate_solution> * 666);
 Enricher.addRecipe(<ore:dustBariumOxide>, <liquid:hydrochloric_acid> * 2000, <liquid:barium_chloride_solution> * 666);
+Enricher.addRecipe(<ore:gemCalciumCarbide>, <liquid:water> * 2000, <liquid:ethyne> * 1000, 0.05d);
 
 Electrolyzer.addRecipe(<liquid:brine> * 1000, <liquid:sodium_hydroxide_solution> * 666, <liquid:hydrogen> * 500, <liquid:liquidchlorine> * 500, null, 1.0d, 1.0d, 0.0d);
 Electrolyzer.addRecipe(<liquid:sodium_chloride> * 333, <liquid:sodium> * 72, <liquid:liquidchlorine> * 250, null, null);

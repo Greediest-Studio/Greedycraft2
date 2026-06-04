@@ -1,0 +1,22 @@
+{
+	title: "§b充分释放化学能",
+	x: -0.5d,
+	y: -6.0d,
+	description: "合成燃气发电机集成控制器",
+	text: [
+		"§b大型燃气发电机§f是一种效率很高的燃气发电设备",
+		"把你的乙烯供给它吧，加上并行它的速度会很快的",
+		"该机器需要一个§m借鉴自格雷科技的§b消声仓§f，希望你会喜欢它"
+	],
+	dependencies: [
+		"b15c11cc",
+		"f25405b3"
+	],
+	tasks: [{
+		uid: "2159148d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:gas_power_generator_factory_controller"
+		}]
+	}]
+}
