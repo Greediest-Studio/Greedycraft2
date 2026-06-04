@@ -1035,6 +1035,11 @@ RecipeUtil.addShaped("modular_terminal", <modularmachinery_terminal:terminal>, [
     [null, <modularmachinery:blockcontroller>, null],
     [null, <appliedenergistics2:dense_energy_cell>, null]
 ]);
+RecipeUtil.addShaped("modular_bulid_tool", <gctcore:mmce_builder_tool>, [
+    [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
+    [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
+    [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
+]);
 
 /*
 RecipeUtil.addShaped("", , [
