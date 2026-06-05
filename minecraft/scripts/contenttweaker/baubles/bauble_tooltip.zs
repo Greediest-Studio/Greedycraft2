@@ -16,6 +16,7 @@ var Tooltipitem as string[IItemStack] = {
     <contenttweaker:bauble_dubhe_night_clown> : game.localize('content.bauble_dubhe_night_clown_tooltip.name'),
     <contenttweaker:bauble_dubhe_light_clown>: game.localize('content.bauble_dubhe_light_clown_tooltip.name'),
     <contenttweaker:bauble_crimson_ring> : game.localize('content.bauble_crimson_ring_tooltip.name'),
+    <contenttweaker:bauble_blood_pact>: game.localize('content.bauble_blood_pact_tooltip.name'),
     <contenttweaker:bauble_core_of_22_pass> : game.localize('content.bauble_core_of_22_pass_tooltip.name')
 };
 
