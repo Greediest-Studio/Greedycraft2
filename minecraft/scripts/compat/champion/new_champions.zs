@@ -10,6 +10,7 @@ import crafttweaker.world.IWorld;
 import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.entity.IEntityLiving;
 import crafttweaker.event.EntityLivingDamageEvent;
+import crafttweaker.damage.IDamageSource;
 
 import mods.ra.champions.AffixBuilder;
 import mods.ra.champions.utils;
@@ -64,6 +65,18 @@ poopy.onDeath = function(living, source, event) {
     }
 };
 poopy.register();
+
+//现实
+val reality = AffixBuilder.create("reality", "DEFENSE");
+reality.tier = 1;
+reality.onHurt = function(living, source, dmg, newDmg) {
+    if (source.damageType == "magic" ||source.damageType == "indirectMagic") {
+        return dmg * 0.0f;
+    }else{
+        return dmg * 2.0f;
+    }
+};
+reality.register();
 
 events.onEntityLivingDamage(function(event as EntityLivingDamageEvent) {
     if (!isNull(event.damageSource.getTrueSource())) {
