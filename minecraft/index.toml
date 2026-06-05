@@ -1549,6 +1549,12 @@ alias = "mods/ModularMachinery-CE-2.3.2.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/modularmachinery-terminal.pw.toml"
+hash = "370286ed5efc6636a9b98fe731bddb2d6cb9e75e26b36f5d9c41ed5efde11901"
+alias = "mods/modularmachinery_terminal-1.0.0.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/modularui.pw.toml"
 hash = "ce2be9918905fba331309fed6a2712229202a9d9b7e0c516391eab5e89ca8784"
 alias = "mods/modularui-3.1.6.jar"
@@ -2248,6 +2254,12 @@ metafile = true
 file = "mods/.index/super-mob-tracker.pw.toml"
 hash = "7012ab8ff8fa0028442f121fd09d138d5518ec0b7fbec8688b2cbacb1a9123d9"
 alias = "mods/supermobtracker-1.2.5.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/supreme-crafting-backport.pw.toml"
+hash = "b100a42d31bad8a0ee20403021c521662c6b15f83d9f2d696576d00490fbe93b"
+alias = "mods/supreme_crafting-1.0.1.jar"
 metafile = true
 
 [[files]]

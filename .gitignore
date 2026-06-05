@@ -18,12 +18,16 @@
 /minecraft/tv-cache
 /minecraft/xaero
 /minecraft/Xaero*
+/minecraft/assets
+/minecraft/libraries
+/minecraft/versions
 
 /minecraft/config/Loot Overhaul/Useful Info
 /minecraft/CustomSkinLoader/ExtraList
 /minecraft/CustomSkinLoader/LocalSkin
 /minecraft/CustomSkinLoader/Plugins
 /minecraft/CustomSkinLoader/ProfileCache
+/minecraft/CustomSkinLoader/caches
 /minecraft/local/client
 
 minecraft/config/customloadingscreen_timings.nbt
@@ -53,3 +57,7 @@ modlist.html
 .gitignore
 minecraft/.packwiz-installer/config.toml
 minecraft/.packwiz-installer/packwiz.json
+minecraft/launcher_profiles.json
+
+minecraft/config/cleanroom_load_timings.dat
+minecraft/config/stellarcore_stitcher_cache_vanilla.dat
