@@ -74,7 +74,7 @@
  {
     "tier": 10,
     "color": 2171169,
-    "affixes": 9,
+    "affixes": 8,
     "growthFactor": 50,
     "chance": 0.1,
     "potions": ["minecraft:fire_resistance;1","minecraft:regeneration;4","minecraft:resistance;2"]
@@ -90,7 +90,7 @@
   {
     "tier": 12,
     "color": 9205843,
-    "affixes": 10,
+    "affixes": 9,
     "growthFactor": 75,
     "chance": 0.05,
     "potions": ["potioncore:cure","minecraft:regeneration;4","minecraft:resistance;3","potioncore:strong_diamond_skin","minecraft:fire_resistance;1"]
@@ -98,7 +98,7 @@
   {
     "tier": 13,
     "color": 13734517,
-    "affixes": 10,
+    "affixes": 9,
     "growthFactor": 90,
     "chance": 0.05,
     "potions": ["potioncore:cure","minecraft:regeneration;4","minecraft:resistance;3","potioncore:strong_diamond_skin;1","minecraft:fire_resistance;1","potioncore:strong_magic_shield","minecraft:long_swiftness"]
@@ -106,56 +106,56 @@
   {
     "tier": 14,
     "color": 8855416,
-    "affixes": 11,
-    "growthFactor": 120,
+    "affixes": 9,
+    "growthFactor": 110,
     "chance": 0.05,
     "potions": ["minecraft:fire_resistance;1","minecraft:regeneration;4","minecraft:resistance;3","potioncore:strong_diamond_skin;1","potioncore:strong_magic_shield;1","minecraft:long_swiftness;1"]
   },
   {
     "tier": 15,
     "color": 13467442,
-    "affixes": 11,
-    "growthFactor": 150,
+    "affixes": 10,
+    "growthFactor": 120,
     "chance": 0.05,
     "potions": ["minecraft:fire_resistance;1","minecraft:regeneration;4","minecraft:resistance;3","potioncore:strong_diamond_skin;1","potioncore:strong_magic_shield;1","minecraft:long_swiftness;2"]
   },
   {
     "tier": 16,
     "color": 15736380,
-    "affixes": 12,
-    "growthFactor": 200,
+    "affixes": 10,
+    "growthFactor": 150,
     "chance": 0.05,
     "potions": ["minecraft:fire_resistance;1","minecraft:regeneration;4","minecraft:resistance;3","potioncore:strong_diamond_skin;2","potioncore:strong_magic_shield;1","minecraft:long_swiftness;2"]
   },
   {
     "tier": 17,
     "color": 2010192,
-    "affixes": 12,
-    "growthFactor": 250,
+    "affixes": 10,
+    "growthFactor": 200,
     "chance": 0.05,
     "potions": ["minecraft:fire_resistance;1","minecraft:regeneration;5","minecraft:resistance;3","potioncore:strong_diamond_skin;2","potioncore:strong_magic_shield;2","minecraft:long_swiftness;2"]
    },
    {
     "tier": 18,
     "color": 2659061,
-    "affixes": 13,
-    "growthFactor": 300,
+    "affixes": 11,
+    "growthFactor": 250,
     "chance": 0.05,
     "potions": ["minecraft:fire_resistance;1","minecraft:regeneration;5","minecraft:resistance;3","potioncore:strong_diamond_skin;3","potioncore:strong_magic_shield;2","minecraft:long_swiftness;3"]
    },
    {
     "tier": 19,
     "color": 16158238,
-    "affixes": 13,
-    "growthFactor": 350,
+    "affixes": 11,
+    "growthFactor": 300,
     "chance": 0.05,
     "potions": ["minecraft:fire_resistance;1","minecraft:regeneration;5","minecraft:resistance;3","potioncore:strong_diamond_skin;3","potioncore:strong_magic_shield;3","minecraft:long_swiftness;3"]
    },
    {
     "tier": 20,
     "color": 14493916,
-    "affixes": 14,
-    "growthFactor": 500,
+    "affixes": 12,
+    "growthFactor": 400,
     "chance": 0.05,
     "potions": ["minecraft:fire_resistance;1","minecraft:regeneration;5","minecraft:resistance;3","potioncore:strong_diamond_skin;4","potioncore:strong_magic_shield;3","minecraft:long_swiftness;4"]
   }

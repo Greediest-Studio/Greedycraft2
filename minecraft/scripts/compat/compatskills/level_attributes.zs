@@ -95,7 +95,7 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
                     attribute.applyModifier(modifier);
                 } else if (skillName == "attack") {
                     var attribute as AttributeInstance = player.getAttribute("generic.attackDamage");
-                    var amount as double = 0.03 * getLevel(level);
+                    var amount as double = 0.02 * getLevel(level);
                     var modifier as AttributeModifier = AttributeModifier.createModifier("reskillable_skill_boost_" + skillName, amount, 1, uuid);
                     if (!isNull(attribute.getModifier(uuid))) {
                         attribute.removeModifier(uuid);
@@ -119,7 +119,7 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
                     attribute.applyModifier(modifier);
                 } else if (skillName == "farming") {
                     var attribute as AttributeInstance = player.getAttribute("generic.maxHealth");
-                    var amount as double = 1.0 * getLevel(level);
+                    var amount as double = 2.0 * getLevel(level);
                     var modifier as AttributeModifier = AttributeModifier.createModifier("reskillable_skill_boost_" + skillName, amount, 0, uuid);
                     if (!isNull(attribute.getModifier(uuid))) {
                         attribute.removeModifier(uuid);
@@ -140,7 +140,7 @@ events.onPlayerTick(function(event as PlayerTickEvent) {
                     attribute.applyModifier(modifier);
                 } else if (skillName == "mining") {
                     var attribute as AttributeInstance = player.getAttribute("generic.attackSpeed");
-                    var amount as double = 0.03 * getLevel(level);
+                    var amount as double = 0.02 * getLevel(level);
                     var modifier as AttributeModifier = AttributeModifier.createModifier("reskillable_skill_boost_" + skillName, amount, 0, uuid);
                     if (!isNull(attribute.getModifier(uuid))) {
                         attribute.removeModifier(uuid);
