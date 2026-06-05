@@ -25,17 +25,17 @@ import mods.modularmachinery.RecipeModifierBuilder;
 import mods.jei.JEI;
 
 MMEvents.onControllerGUIRender("arcane_alchemical_pot", function(event as ControllerGUIRenderEvent) {
-    var info as string[] = ["§a///机械注魔矩阵控制面板///", "§a机器名称：§eLV3 - 奥术炼金釜"];
+    var info as string[] = ["§a///奥术炼金釜控制面板///", "§a机器名称：§eLV3 - 奥术炼金釜"];
     event.extraInfo = info;
 });
 
 MachineModifier.setMaxThreads("arcane_alchemical_pot", 32);
-MachineModifier.setMaxParallelism("arcane_alchemical_pot", 1);
+MachineModifier.setMaxParallelism("arcane_alchemical_pot", 16384);
 MachineModifier.setInternalParallelism("arcane_alchemical_pot", 1);
 
 RecipeAdapterBuilder.create("arcane_alchemical_pot", "thaumcraft:whimcraft_crucible")
     .addEnergyPerTickInput(360)
-    .setMaxThreads(1)
+    //.setMaxThreads(1)
     .build();
 
 /*MMEvents.onMachinePreTick("arcane_alchemical_pot", function(event as MachineTickEvent) {
