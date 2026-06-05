@@ -1037,7 +1037,7 @@ RecipeUtil.addShaped("modular_terminal", <modularmachinery_terminal:terminal>, [
 ]);
 RecipeUtil.addShaped("modular_bulid_tool", <gctcore:mmce_builder_tool>, [
     [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
-    [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
+    [<ore:stickWood>, <ore:ingotModularium>, <ore:stickWood>],
     [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
 ]);
 
