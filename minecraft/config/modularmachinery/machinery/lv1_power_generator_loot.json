@@ -4,11 +4,11 @@
     "requires-blueprint": false,
     "failure-action": "still",
     "color": "ffeb3b",
-        "modifiers": [{
+    "modifiers": [{
             "elements": "modularmachinery:blockcasing@1",
-            "x": 2,
+            "x": 0,
             "y": 1,
-            "z": 2,
+            "z": 0,
             "description": "将控制器上方紧挨着的方块换成此方块以提高25%产能！",
             "modifier": {
                 "io": "output",
@@ -19,9 +19,9 @@
         },
         {
             "elements": "modularmachinery:blockcasing@2",
-            "x": 2,
+            "x": 0,
             "y": 1,
-            "z": 2,
+            "z": 0,
             "description": "将控制器上方紧挨着的方块换成此方块以提高50%产能！",
             "modifier": {
                 "io": "output",
@@ -32,9 +32,9 @@
         },
         {
             "elements": "modularmachinery:blockcasing@3",
-            "x": 2,
+            "x": 0,
             "y": 1,
-            "z": 2,
+            "z": 0,
             "description": "将控制器上方紧挨着的方块换成此方块以提高100%产能！",
             "modifier": {
                 "io": "output",
@@ -45,9 +45,9 @@
         },
         {
             "elements": "modularmachinery:blockcasing@5",
-            "x": 2,
+            "x": 0,
             "y": 1,
-            "z": 2,
+            "z": 0,
             "description": "将控制器上方紧挨着的方块换成此方块以提高150%产能！",
             "modifier": {
                 "io": "output",
@@ -58,9 +58,9 @@
         },
         {
             "elements": "mmce_complement:blockcasing@0",
-            "x": 2,
+            "x": 0,
             "y": 1,
-            "z": 2,
+            "z": 0,
             "description": "将控制器上方紧挨着的方块换成此方块以提高200%产能！",
             "modifier": {
                 "io": "output",
@@ -71,9 +71,9 @@
         },
         {
             "elements": "mmce_complement:blockcasing@1",
-            "x": 2,
+            "x": 0,
             "y": 1,
-            "z": 2,
+            "z": 0,
             "description": "将控制器上方紧挨着的方块换成此方块以提高250%产能！",
             "modifier": {
                 "io": "output",
@@ -84,9 +84,9 @@
         },
         {
             "elements": "mmce_complement:blockcasing@2",
-            "x": 2,
+            "x": 0,
             "y": 1,
-            "z": 2,
+            "z": 0,
             "description": "将控制器上方紧挨着的方块换成此方块以提高300%产能！",
             "modifier": {
                 "io": "output",
@@ -97,9 +97,9 @@
         },
         {
             "elements": "mmce_complement:blockcasing@3",
-            "x": 2,
+            "x": 0,
             "y": 1,
-            "z": 2,
+            "z": 0,
             "description": "将控制器上方紧挨着的方块换成此方块以提高350%产能！",
             "modifier": {
                 "io": "output",
@@ -110,9 +110,9 @@
         },
         {
             "elements": "mmce_complement:blockcasing@4",
-            "x": 2,
+            "x": 0,
             "y": 1,
-            "z": 2,
+            "z": 0,
             "description": "将控制器上方紧挨着的方块换成此方块以提高400%产能！",
             "modifier": {
                 "io": "output",
@@ -123,9 +123,9 @@
         },
         {
             "elements": "mmce_complement:blockcasing@5",
-            "x": 2,
+            "x": 0,
             "y": 1,
-            "z": 2,
+            "z": 0,
             "description": "将控制器上方紧挨着的方块换成此方块以提高450%产能！",
             "modifier": {
                 "io": "output",

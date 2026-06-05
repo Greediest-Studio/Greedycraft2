@@ -4,13 +4,13 @@
     "requires-blueprint": false,
     "failure-action": "still",
     "color": "3d56d0",
-        "modifiers": [
+    "modifiers": [
         {
             "elements": "modularmachinery:blockcasing@1",
-            "x": -1,
-            "y": 2,
-            "z": 1,
-            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至80%！",
+            "x": 0,
+            "y": 7,
+            "z": 0,
+            "description": "将机器顶端的方块换成此方块以降低配方制作时间至80%！",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",
@@ -20,10 +20,10 @@
         },
         {
             "elements": "modularmachinery:blockcasing@2",
-            "x": -1,
-            "y": 2,
-            "z": 1,
-            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至53%！",
+            "x": 0,
+            "y": 7,
+            "z": 0,
+            "description": "将机器顶端的方块换成此方块以降低配方制作时间至53%！",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",
@@ -33,10 +33,10 @@
         },
         {
             "elements": "modularmachinery:blockcasing@3",
-            "x": -1,
-            "y": 2,
-            "z": 1,
-            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至36%！",
+            "x": 0,
+            "y": 7,
+            "z": 0,
+            "description": "将机器顶端的方块换成此方块以降低配方制作时间至36%！",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",
@@ -46,10 +46,10 @@
         },
         {
             "elements": "modularmachinery:blockcasing@5",
-            "x": -1,
-            "y": 2,
-            "z": 1,
-            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至24%！",
+            "x": 0,
+            "y": 7,
+            "z": 0,
+            "description": "将机器顶端的方块换成此方块以降低配方制作时间至24%！",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",
@@ -59,10 +59,10 @@
         },
         {
             "elements": "mmce_complement:blockcasing@0",
-            "x": -1,
-            "y": 2,
-            "z": 1,
-            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至16%！",
+            "x": 0,
+            "y": 7,
+            "z": 0,
+            "description": "将机器顶端的方块换成此方块以降低配方制作时间至16%！",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",
@@ -72,10 +72,10 @@
         },
         {
             "elements": "mmce_complement:blockcasing@1",
-            "x": -1,
-            "y": 2,
-            "z": 1,
-            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至10%！",
+            "x": 0,
+            "y": 7,
+            "z": 0,
+            "description": "将机器顶端的方块换成此方块以降低配方制作时间至10%！",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",
@@ -85,10 +85,10 @@
         },
         {
             "elements": "mmce_complement:blockcasing@2",
-            "x": -1,
-            "y": 2,
-            "z": 1,
-            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至7%！",
+            "x": 0,
+            "y": 7,
+            "z": 0,
+            "description": "将机器顶端的方块换成此方块以降低配方制作时间至7%！",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",
@@ -98,10 +98,10 @@
         },
         {
             "elements": "mmce_complement:blockcasing@3",
-            "x": -1,
-            "y": 2,
-            "z": 1,
-            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至5%！",
+            "x": 0,
+            "y": 7,
+            "z": 0,
+            "description": "将机器顶端的方块换成此方块以降低配方制作时间至5%！",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",
@@ -111,10 +111,10 @@
         },
         {
             "elements": "mmce_complement:blockcasing@4",
-            "x": -1,
-            "y": 2,
-            "z": 1,
-            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至3%！",
+            "x": 0,
+            "y": 7,
+            "z": 0,
+            "description": "将机器顶端的方块换成此方块以降低配方制作时间至3%！",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",
@@ -124,10 +124,10 @@
         },
         {
             "elements": "mmce_complement:blockcasing@5",
-            "x": -1,
-            "y": 2,
-            "z": 1,
-            "description": "将控制器上方紧挨着的方块换成此方块以降低配方制作时间至2%！",
+            "x": 0,
+            "y": 7,
+            "z": 0,
+            "description": "将机器顶端的方块换成此方块以降低配方制作时间至2%！",
             "modifier": {
                 "io": "input",
                 "target": "modularmachinery:duration",
