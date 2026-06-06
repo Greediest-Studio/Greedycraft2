@@ -32,11 +32,11 @@ MachineModifier.setInternalParallelism("builder_2", 1);
 MachineModifier.setInternalParallelism("builder_3", 1);
 MachineModifier.setInternalParallelism("builder_4", 1);
 MachineModifier.setInternalParallelism("builder_5", 1);
-MachineModifier.setMaxParallelism("builder_1", 256);
-MachineModifier.setMaxParallelism("builder_2", 256);
-MachineModifier.setMaxParallelism("builder_3", 256);
-MachineModifier.setMaxParallelism("builder_4", 256);
-MachineModifier.setMaxParallelism("builder_5", 256);
+MachineModifier.setMaxParallelism("builder_1", 4096);
+MachineModifier.setMaxParallelism("builder_2", 4096);
+MachineModifier.setMaxParallelism("builder_3", 4096);
+MachineModifier.setMaxParallelism("builder_4", 4096);
+MachineModifier.setMaxParallelism("builder_5", 4096);
 
 
 function addBuilderRecipe(controller as IItemStack, inputs as IIngredient[], level as int, basicTick as int) {
@@ -990,6 +990,24 @@ addBuilderRecipe(<modularmachinery:ion_exchange_column_factory_controller>, [
     <erebus:materials:40> * 256,
     <ore:latticeDiamond> * 128
 ], 5, 6000);
+
+addBuilderRecipe(<modularmachinery:radiation_cleaner_factory_controller>, [
+    <additions:logic_processor_3> * 50,
+    <additions:calculation_processor_3> * 30,
+    <additions:engineering_processor_3> * 24,
+    <crazyae:material:16> * 16,
+    <crazyae:material:48> * 24,
+    <threng:material:6> * 10,
+    <ore:ingotModularium> * 100,
+    <ore:ingotCarbon> * 96,
+    <ore:ingotZirconia> * 96,
+    <ore:ingotHeavyalloy> * 64,
+    <ore:ingotStellarium> * 64,
+    <ore:ingotUranium> * 64,
+    <ore:ingotProtonium> * 32,
+    <ore:ingotIrradium> * 16,
+    <minecraft:sponge> * 128
+], 5, 4000);
 
 //Units
 addBuilderRecipe(<modularmachinery:elysia_alloyer_factory_controller>, [

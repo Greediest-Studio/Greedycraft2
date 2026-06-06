@@ -31,7 +31,7 @@ import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
 MachineModifier.setMaxThreads("pe_collector", 1);
-MachineModifier.setMaxParallelism("pe_collector", 256);
+MachineModifier.setMaxParallelism("pe_collector", 4096);
 MachineModifier.setInternalParallelism("pe_collector", 1);
 
 MMEvents.onControllerGUIRender("pe_collector", function(event as ControllerGUIRenderEvent) {

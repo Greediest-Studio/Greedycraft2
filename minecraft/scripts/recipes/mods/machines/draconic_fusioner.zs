@@ -29,7 +29,7 @@ import mods.zenutils.DataUpdateOperation.REMOVE;
 import mods.zenutils.DataUpdateOperation.BUMP;
 
 MachineModifier.setMaxThreads("draconic_fusioner", 1);
-MachineModifier.setMaxParallelism("draconic_fusioner", 256);
+MachineModifier.setMaxParallelism("draconic_fusioner", 4096);
 MachineModifier.setInternalParallelism("draconic_fusioner", 1);
 
 MMEvents.onStructureUpdate("draconic_fusioner", function(event as MachineStructureUpdateEvent) {

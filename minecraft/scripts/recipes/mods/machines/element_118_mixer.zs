@@ -20,7 +20,7 @@ import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
 MachineModifier.setMaxThreads("element_118_mixer", 1);
-MachineModifier.setMaxParallelism("element_118_mixer", 256);
+MachineModifier.setMaxParallelism("element_118_mixer", 4096);
 MachineModifier.setInternalParallelism("element_118_mixer", 1);
 
 MMEvents.onControllerGUIRender("element_118_mixer", function(event as ControllerGUIRenderEvent) {

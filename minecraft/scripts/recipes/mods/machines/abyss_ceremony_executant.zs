@@ -31,7 +31,7 @@ import mods.modularmachinery.IngredientArrayBuilder;
 import mods.modularmachinery.MMEvents;
 import mods.ctutils.utils.Math;
 
-MachineModifier.setMaxParallelism("abyss_ceremony_executant", 256);
+MachineModifier.setMaxParallelism("abyss_ceremony_executant", 4096);
 MachineModifier.setInternalParallelism("abyss_ceremony_executant", 1);
 MachineModifier.setMaxThreads("abyss_ceremony_executant", 8);
 

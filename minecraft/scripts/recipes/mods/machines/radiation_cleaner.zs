@@ -1,9 +1,4 @@
-/*
- * This script is created for the GreedyCraft Tweaks by mc_Edwin.
- */
-
-#priority 50
-
+#priority 30
 
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.item.IItemStack;
@@ -26,25 +21,22 @@ import mods.modularmachinery.ControllerGUIRenderEvent;
 import mods.modularmachinery.MMEvents;
 import mods.ctutils.utils.Math;
 
-import scripts.util.machines as MMUtil;
+MachineModifier.setMaxParallelism("radiation_cleaner", 4096);
+MachineModifier.setInternalParallelism("radiation_cleaner", 1);
+MachineModifier.setMaxThreads("radiation_cleaner", 1);
 
-MachineModifier.setMaxParallelism("gene_builder", 4096);
-MachineModifier.setInternalParallelism("gene_builder", 1);
-MachineModifier.setMaxThreads("gene_builder", 1);
-
-RecipeBuilder.newBuilder("genite_build", "gene_builder", 1000, 0)
-    .addItemInput(<additions:cytosinite_ingot>)
-    .addItemInput(<additions:thyminite_ingot>)
-    .addItemInput(<additions:guaninite_ingot>)
-    .addItemInput(<additions:adeninite_ingot>)
-    .addEnergyPerTickInput(1150)
-    .addItemOutput(<gct_ores:genite_ingot>)
-    .build();
-
-MMEvents.onControllerGUIRender("gene_builder", function(event as ControllerGUIRenderEvent) {
+MMEvents.onControllerGUIRender("radiation_cleaner", function(event as ControllerGUIRenderEvent) {
     var info as string[] = [
-        "§a///基因构造机控制面板///",
-        "§a机器名称：§eLV2 - 基因构造机"
+        "§a///辐射清洁器控制面板///",
+        "§a机器名称：§eLV5 - 辐射清洁器"
     ];
     event.extraInfo = info;
 });
+
+RecipeBuilder.newBuilder("clean_radiation", "radiation_cleaner", 1000)
+    .addRadiationInput(1, 1)
+    .addEnergyPerTickInput(124800000)
+    .addItemOutput(<jaopca:nugget.electronium>).setChance(0.01f)
+    .addItemOutput(<jaopca:nugget.protonium>).setChance(0.01f)
+    .addItemOutput(<avaritia:resource:3>).setChance(0.01f)
+    .build();

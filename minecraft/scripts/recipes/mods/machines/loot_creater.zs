@@ -33,7 +33,7 @@ import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
 MachineModifier.setMaxThreads("loot_creater", 4);
-MachineModifier.setMaxParallelism("loot_creater", 256);
+MachineModifier.setMaxParallelism("loot_creater", 4096);
 MachineModifier.setInternalParallelism("loot_creater", 1);
 
 MachineModifier.addCoreThread("loot_creater", FactoryRecipeThread.createCoreThread("精华收集模块")

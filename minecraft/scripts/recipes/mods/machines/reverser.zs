@@ -20,7 +20,7 @@ import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
 MachineModifier.setMaxThreads("reverser", 1);
-MachineModifier.setMaxParallelism("reverser", 256);
+MachineModifier.setMaxParallelism("reverser", 4096);
 MachineModifier.setInternalParallelism("reverser", 1);
 
 MMEvents.onControllerGUIRender("reverser", function(event as ControllerGUIRenderEvent) {

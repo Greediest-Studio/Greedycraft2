@@ -26,7 +26,7 @@ MachineModifier.setMaxThreads("entropy_reverse", 3);
 
 MachineModifier.addCoreThread("entropy_reverse", FactoryRecipeThread.createCoreThread("物质重构"));
 
-MachineModifier.setMaxParallelism("entropy_reverse", 256);
+MachineModifier.setMaxParallelism("entropy_reverse", 4096);
 MachineModifier.setInternalParallelism("entropy_reverse", 1);
 
 MMEvents.onControllerGUIRender("entropy_reverse", function(event as ControllerGUIRenderEvent) {

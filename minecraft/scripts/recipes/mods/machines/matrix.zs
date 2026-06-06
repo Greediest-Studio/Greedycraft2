@@ -30,10 +30,10 @@ import scripts.util.machines as MMUtil;
 
 MachineModifier.setMaxThreads("matrix_fusioner", 1);
 MachineModifier.setInternalParallelism("matrix_fusioner", 1);
-MachineModifier.setMaxParallelism("matrix_fusioner", 256);
+MachineModifier.setMaxParallelism("matrix_fusioner", 4096);
 MachineModifier.setMaxThreads("matrix_balancer", 1);
 MachineModifier.setInternalParallelism("matrix_balancer", 1);
-MachineModifier.setMaxParallelism("matrix_balancer", 256);
+MachineModifier.setMaxParallelism("matrix_balancer", 4096);
 
 RecipeBuilder.newBuilder("fusion_matrix", "matrix_fusioner", 200)
     .addItemInput(<ore:ingotEnderium> * 1)

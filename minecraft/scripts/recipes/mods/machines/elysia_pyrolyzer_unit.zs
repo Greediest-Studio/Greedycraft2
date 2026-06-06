@@ -116,3 +116,12 @@ RecipeBuilder.newBuilder("calcium_carbide", "elysia_pyrolyzer", 40)
     .addRecipeTooltip("§d热解配方支持模块化电容升级，详情请查询“模块化电容”")
     .setMaxThreads(1)
     .build();
+
+RecipeBuilder.newBuilder("tetrafluorosilicic_acid", "elysia_pyrolyzer", 60)
+    .addFluidInput(<liquid:fluorosilicic_acid_solution> * 500)
+    .addEnergyPerTickInput(1024)
+    .addFluidOutput(<liquid:silicon_tetrafluoride> * 500)
+    .addFluidOutput(<liquid:hydrofluoric_acid> * 1000)
+    .addRecipeTooltip("§d热解配方支持模块化电容升级，详情请查询“模块化电容”")
+    .setMaxThreads(1)
+    .build();

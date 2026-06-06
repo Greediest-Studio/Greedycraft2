@@ -1821,6 +1821,18 @@ molten_sodium_chloride.stillLocation = "base:fluids/molten";
 molten_sodium_chloride.flowingLocation = "base:fluids/molten_flowing";
 molten_sodium_chloride.register();
 
+val molten_sodium_fluoride = mods.contenttweaker.VanillaFactory.createFluid("sodium_fluoride", Color.fromHex("ffd700").getIntColor());
+molten_sodium_fluoride.material = <blockmaterial:lava>;
+molten_sodium_fluoride.viscosity = 3000;
+molten_sodium_fluoride.density = 6500;
+molten_sodium_fluoride.colorize = true;
+molten_sodium_fluoride.temperature = 1000;
+molten_sodium_fluoride.luminosity = 10;
+molten_sodium_fluoride.color = Color.fromHex("ffd700").getIntColor();
+molten_sodium_fluoride.stillLocation = "base:fluids/molten";
+molten_sodium_fluoride.flowingLocation = "base:fluids/molten_flowing";
+molten_sodium_fluoride.register();
+
 val molten_potassium_chloride = mods.contenttweaker.VanillaFactory.createFluid("potassium_chloride", Color.fromHex("ffffff").getIntColor());
 molten_potassium_chloride.material = <blockmaterial:lava>;
 molten_potassium_chloride.viscosity = 3000;
@@ -2916,6 +2928,18 @@ hydrogen_fluoride.stillLocation = "base:fluids/liquid";
 hydrogen_fluoride.flowingLocation = "base:fluids/liquid_flow";
 hydrogen_fluoride.register();
 
+val silicon_tetrafluoride = mods.contenttweaker.VanillaFactory.createFluid("silicon_tetrafluoride", Color.fromHex("c7d7d9").getIntColor());
+silicon_tetrafluoride.material = <blockmaterial:water>;
+silicon_tetrafluoride.viscosity = 3000;
+silicon_tetrafluoride.density = -1000;
+silicon_tetrafluoride.colorize = true;
+silicon_tetrafluoride.temperature = 400;
+silicon_tetrafluoride.luminosity = 0;
+silicon_tetrafluoride.color = Color.fromHex("c7d7d9").getIntColor();
+silicon_tetrafluoride.stillLocation = "base:fluids/liquid";
+silicon_tetrafluoride.flowingLocation = "base:fluids/liquid_flow";
+silicon_tetrafluoride.register();
+
 val phosphine = mods.contenttweaker.VanillaFactory.createFluid("phosphine", Color.fromHex("8a5144").getIntColor());
 phosphine.material = <blockmaterial:water>;
 phosphine.viscosity = 3000;
@@ -3107,6 +3131,90 @@ chloroplatinic_acid_solution.color = Color.fromHex("563028").getIntColor();
 chloroplatinic_acid_solution.stillLocation = "base:fluids/liquid";
 chloroplatinic_acid_solution.flowingLocation = "base:fluids/liquid_flow";
 chloroplatinic_acid_solution.register();
+
+val fluorosilicic_acid_solution = mods.contenttweaker.VanillaFactory.createFluid("fluorosilicic_acid_solution", Color.fromHex("5bb8d6").getIntColor());
+fluorosilicic_acid_solution.material = <blockmaterial:water>;
+fluorosilicic_acid_solution.viscosity = 3000;
+fluorosilicic_acid_solution.density = 6500;
+fluorosilicic_acid_solution.colorize = true;
+fluorosilicic_acid_solution.temperature = 400;
+fluorosilicic_acid_solution.luminosity = 10;
+fluorosilicic_acid_solution.color = Color.fromHex("5bb8d6").getIntColor();
+fluorosilicic_acid_solution.stillLocation = "base:fluids/liquid";
+fluorosilicic_acid_solution.flowingLocation = "base:fluids/liquid_flow";
+fluorosilicic_acid_solution.register();
+
+val trinitite_leachate = mods.contenttweaker.VanillaFactory.createFluid("trinitite_leachate", Color.fromHex("7b8d4a").getIntColor());
+trinitite_leachate.material = <blockmaterial:water>;
+trinitite_leachate.viscosity = 3000;
+trinitite_leachate.density = 6500;
+trinitite_leachate.colorize = true;
+trinitite_leachate.temperature = 400;
+trinitite_leachate.luminosity = 10;
+trinitite_leachate.color = Color.fromHex("7b8d4a").getIntColor();
+trinitite_leachate.stillLocation = "base:fluids/liquid";
+trinitite_leachate.flowingLocation = "base:fluids/liquid_flow";
+trinitite_leachate.register();
+
+val actinide_solution = mods.contenttweaker.VanillaFactory.createFluid("actinide_solution", Color.fromHex("6f6f6f").getIntColor());
+actinide_solution.material = <blockmaterial:water>;
+actinide_solution.viscosity = 3000;
+actinide_solution.density = 6500;
+actinide_solution.colorize = true;
+actinide_solution.temperature = 400;
+actinide_solution.luminosity = 10;
+actinide_solution.color = Color.fromHex("6f6f6f").getIntColor();
+actinide_solution.stillLocation = "base:fluids/liquid";
+actinide_solution.flowingLocation = "base:fluids/liquid_flow";
+actinide_solution.register();
+
+val uranyl_nitrate_solution = mods.contenttweaker.VanillaFactory.createFluid("uranyl_nitrate_solution", Color.fromHex("c4b43a").getIntColor());
+uranyl_nitrate_solution.material = <blockmaterial:water>;
+uranyl_nitrate_solution.viscosity = 3000;
+uranyl_nitrate_solution.density = 6500;
+uranyl_nitrate_solution.colorize = true;
+uranyl_nitrate_solution.temperature = 400;
+uranyl_nitrate_solution.luminosity = 10;
+uranyl_nitrate_solution.color = Color.fromHex("c4b43a").getIntColor();
+uranyl_nitrate_solution.stillLocation = "base:fluids/liquid";
+uranyl_nitrate_solution.flowingLocation = "base:fluids/liquid_flow";
+uranyl_nitrate_solution.register();
+
+val neptunyl_nitrate_solution = mods.contenttweaker.VanillaFactory.createFluid("neptunyl_nitrate_solution", Color.fromHex("7d6cc2").getIntColor());
+neptunyl_nitrate_solution.material = <blockmaterial:water>;
+neptunyl_nitrate_solution.viscosity = 3000;
+neptunyl_nitrate_solution.density = 6500;
+neptunyl_nitrate_solution.colorize = true;
+neptunyl_nitrate_solution.temperature = 400;
+neptunyl_nitrate_solution.luminosity = 10;
+neptunyl_nitrate_solution.color = Color.fromHex("7d6cc2").getIntColor();
+neptunyl_nitrate_solution.stillLocation = "base:fluids/liquid";
+neptunyl_nitrate_solution.flowingLocation = "base:fluids/liquid_flow";
+neptunyl_nitrate_solution.register();
+
+val plutonyl_nitrate_solution = mods.contenttweaker.VanillaFactory.createFluid("plutonyl_nitrate_solution", Color.fromHex("9b5ea6").getIntColor());
+plutonyl_nitrate_solution.material = <blockmaterial:water>;
+plutonyl_nitrate_solution.viscosity = 3000;
+plutonyl_nitrate_solution.density = 6500;
+plutonyl_nitrate_solution.colorize = true;
+plutonyl_nitrate_solution.temperature = 400;
+plutonyl_nitrate_solution.luminosity = 10;
+plutonyl_nitrate_solution.color = Color.fromHex("9b5ea6").getIntColor();
+plutonyl_nitrate_solution.stillLocation = "base:fluids/liquid";
+plutonyl_nitrate_solution.flowingLocation = "base:fluids/liquid_flow";
+plutonyl_nitrate_solution.register();
+
+val heavy_actinide_nitrate_solution = mods.contenttweaker.VanillaFactory.createFluid("heavy_actinide_nitrate_solution", Color.fromHex("4f4f4f").getIntColor());
+heavy_actinide_nitrate_solution.material = <blockmaterial:water>;
+heavy_actinide_nitrate_solution.viscosity = 3000;
+heavy_actinide_nitrate_solution.density = 6500;
+heavy_actinide_nitrate_solution.colorize = true;
+heavy_actinide_nitrate_solution.temperature = 400;
+heavy_actinide_nitrate_solution.luminosity = 10;
+heavy_actinide_nitrate_solution.color = Color.fromHex("4f4f4f").getIntColor();
+heavy_actinide_nitrate_solution.stillLocation = "base:fluids/liquid";
+heavy_actinide_nitrate_solution.flowingLocation = "base:fluids/liquid_flow";
+heavy_actinide_nitrate_solution.register();
 
 val sodium_chloroplatinate_solution = mods.contenttweaker.VanillaFactory.createFluid("sodium_chloroplatinate_solution", Color.fromHex("cd7322").getIntColor());
 sodium_chloroplatinate_solution.material = <blockmaterial:water>;

@@ -33,7 +33,7 @@ val ITEM as string = "modularmachinery:item";
 val TIME as string = "modularmachinery:duration";
 val RF as string = "modularmachinery:energy";
 
-MachineModifier.setMaxParallelism("final_forge", 256);
+MachineModifier.setMaxParallelism("final_forge", 4096);
 MachineModifier.setInternalParallelism("final_forge", 1);
 MachineModifier.setMaxThreads("final_forge", 1);
 

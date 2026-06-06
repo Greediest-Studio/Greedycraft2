@@ -47,7 +47,7 @@ import mods.zenutils.DataUpdateOperation.REMOVE;
 
 MachineModifier.setMaxThreads("auto_soul_forge", 1);
 MachineModifier.setInternalParallelism("auto_soul_forge", 1);
-MachineModifier.setMaxParallelism("auto_soul_forge", 256);
+MachineModifier.setMaxParallelism("auto_soul_forge", 4096);
 
 MachineModifier.addCoreThread("auto_soul_forge", FactoryRecipeThread.createCoreThread("意志汲取模块")
     .addRecipe("will_absorption")

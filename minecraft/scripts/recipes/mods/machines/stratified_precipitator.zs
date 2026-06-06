@@ -21,7 +21,7 @@ import mods.jei.JEI;
 
 MachineModifier.setMaxThreads("stratified_precipitator", 8);
 MachineModifier.setInternalParallelism("stratified_precipitator", 1);
-MachineModifier.setMaxParallelism("stratified_precipitator", 256);
+MachineModifier.setMaxParallelism("stratified_precipitator", 4096);
 
 MMEvents.onControllerGUIRender("stratified_precipitator", function(event as ControllerGUIRenderEvent) {
     var info as string[] = ["§a///沉淀分离机控制面板///", "§a机器名称：§eLV4 - 沉淀分离机"];

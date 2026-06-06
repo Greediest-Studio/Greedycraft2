@@ -386,7 +386,7 @@ RecipeUtil.addShaped("meteor_provider_output", <modularmachineryaddons:blockmete
     [<ore:ingotModularium>, <ore:blockPorpezite>, <ore:ingotModularium>]
 ]);
 RecipeUtil.addShaped("scrubber_provider_input", <modularmachineryaddons:blockscrubberproviderinput>, [
-    [<ore:ingotModularium>, <ore:ingotPruified>, <ore:ingotModularium>],
+    [<ore:ingotModularium>, <ore:ingotWavite>, <ore:ingotModularium>],
     [<ore:ingotPruified>, <modularmachinery:blockcasing>, <ore:ingotPruified>], 
     [<ore:ingotModularium>, <ore:ingotPruified>, <ore:ingotModularium>]
 ]);

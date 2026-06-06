@@ -22,7 +22,7 @@ import mods.modularmachinery.ControllerGUIRenderEvent;
 import mods.modularmachinery.MMEvents;
 import mods.ctutils.utils.Math;
 
-MachineModifier.setMaxParallelism("air_collector", 256);
+MachineModifier.setMaxParallelism("air_collector", 4096);
 MachineModifier.setInternalParallelism("air_collector", 1);
 MachineModifier.setMaxThreads("air_collector", 1);
 

@@ -34,7 +34,7 @@ import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
 MachineModifier.setMaxThreads("astral_collector", 1);
-MachineModifier.setMaxParallelism("astral_collector", 256);
+MachineModifier.setMaxParallelism("astral_collector", 4096);
 MachineModifier.setInternalParallelism("astral_collector", 1);
 
 MMEvents.onControllerGUIRender("astral_collector", function(event as ControllerGUIRenderEvent) {

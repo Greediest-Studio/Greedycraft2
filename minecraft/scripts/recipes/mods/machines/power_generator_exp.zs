@@ -28,7 +28,7 @@ val speed = 100;
 
 MachineModifier.setMaxThreads("exp_power_generator", 1);
 MachineModifier.setInternalParallelism("exp_power_generator", 1);
-MachineModifier.setMaxParallelism("exp_power_generator", 256);
+MachineModifier.setMaxParallelism("exp_power_generator", 4096);
 
 RecipeBuilder.newBuilder(regName + "_general", regName, speed, 0)
     .addFluidInput(<liquid:experience> * 100)

@@ -26,7 +26,7 @@ import mods.modularmachinery.ControllerGUIRenderEvent;
 import mods.modularmachinery.MMEvents;
 import mods.ctutils.utils.Math;
 
-MachineModifier.setMaxParallelism("gas_centrifuge", 256);
+MachineModifier.setMaxParallelism("gas_centrifuge", 4096);
 MachineModifier.setInternalParallelism("gas_centrifuge", 1);
 MachineModifier.setMaxThreads("gas_centrifuge", 1);
 

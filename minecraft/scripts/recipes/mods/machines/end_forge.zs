@@ -27,7 +27,7 @@ import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
 MachineModifier.setMaxThreads("end_forge", 0);
-MachineModifier.setMaxParallelism("end_forge", 256);
+MachineModifier.setMaxParallelism("end_forge", 4096);
 MachineModifier.setInternalParallelism("end_forge", 1);
 MachineModifier.addCoreThread("end_forge", FactoryRecipeThread.createCoreThread("能量输入模块"));
 MachineModifier.addCoreThread("end_forge", FactoryRecipeThread.createCoreThread("末影锻造模块"));

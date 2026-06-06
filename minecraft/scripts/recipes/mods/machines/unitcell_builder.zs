@@ -26,7 +26,7 @@ import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
 MachineModifier.setMaxThreads("unitcell_builder", 1);
-MachineModifier.setMaxParallelism("unitcell_builder", 256);
+MachineModifier.setMaxParallelism("unitcell_builder", 4096);
 MachineModifier.setInternalParallelism("unitcell_builder", 1);
 
 MachineModifier.addSmartInterfaceType("unitcell_builder", SmartInterfaceType.create("模式", 0.0f).setHeaderInfo("§e///运行模式设置///"));
