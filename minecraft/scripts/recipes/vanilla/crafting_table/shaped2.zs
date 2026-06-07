@@ -850,9 +850,9 @@ RecipeUtil.addShaped("damage_viewer", <contenttweaker:bauble_damage_viewer>, [
     [null, <testdummy:dummy>, null],
     [<minecraft:diamond_sword>, <minecraft:bow>, <minecraft:splash_potion>.withTag({Potion: "minecraft:harming"})]
 ]);
-RecipeUtil.addShaped("lamented_eye", <ee:lamented>, [
+RecipeUtil.addShaped("lamented_eye", <endexpansion:lamented>, [
     [null, <ore:blockAmethyst>, null],
-    [<ore:blockAmethyst>, <ee:lamented>.giveBack(<ee:lamented>), <ore:blockAmethyst>],
+    [<ore:blockAmethyst>, <endexpansion:lamented>.giveBack(<endexpansion:lamented>), <ore:blockAmethyst>],
     [null, <ore:ingotFinallium>, null]
 ]);
 RecipeUtil.addShaped("sink_sodium", <nuclearcraft:solid_fission_sink_sodium>, [

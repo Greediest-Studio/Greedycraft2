@@ -13,7 +13,7 @@ EnderCrafting.addShaped(<modularmachinery:itemblueprint>.withTag({dynamicmachine
 ]);
 
 EnderCrafting.addShaped(<endreborn:ingot_infused> * 2, [
-	[<ee:dark_ingot>, <ore:ingotThallium>, <ore:ingotEndorium>], 
-	[<ee:infused_crystal>, <gct_ores:shalloite>, <ee:infused_crystal>], 
-	[<ore:ingotEndorium>, <ore:ingotThallium>, <ee:dark_ingot>]
+	[<endexpansion:dark_ingot>, <ore:ingotThallium>, <ore:ingotEndorium>], 
+	[<endexpansion:infused_crystal>, <gct_ores:shalloite>, <endexpansion:infused_crystal>], 
+	[<ore:ingotEndorium>, <ore:ingotThallium>, <endexpansion:dark_ingot>]
 ]);

@@ -515,9 +515,9 @@ Infusion.registerRecipe("end_shard", "", <thaumictinkerer:kamiresource> * 2, 19,
     <aspect:alienis> * 400
 ], <thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "alienis"}]}), [
     <tiths:ender_crevice_shard>,
-    <ee:soul>,
-    <ee:stalker_hide>,
-    <ee:plate>,
+    <endexpansion:soul>,
+    <endexpansion:stalker_hide>,
+    <endexpansion:plate>,
     <jaopca:dust.endest_steel>,
     <additions:ender_complex>,
     <quark:biotite>,
@@ -525,7 +525,7 @@ Infusion.registerRecipe("end_shard", "", <thaumictinkerer:kamiresource> * 2, 19,
     <endreborn:ingot_infused>,
     <cyclicmagic:ender_eye_orb>,
     <divinerpg:ender_stone>,
-    <ee:lamented>
+    <endexpansion:lamented>
 ]);
 
 Infusion.registerRecipe("nether_shard", "", <thaumictinkerer:kamiresource:1> * 2, 19, [

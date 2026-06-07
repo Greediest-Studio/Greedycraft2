@@ -198,11 +198,11 @@ global omnipedia as IItemStack = <akashictome:tome>.withTag({
 			},
 			Damage: 0 as short
 		},
-		ee: {
-			id: "ee:end_info_book",
+		endexpansion: {
+			id: "endexpansion:end_info_book",
 			Count: 1 as byte,
 			tag: {
-				"akashictome:definedMod": "ee"
+				"akashictome:definedMod": "endexpansion"
 			},
 			Damage: 0 as short
 		},

@@ -1,0 +1,12 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "forge:fluid",
+    "custom": {
+      "fluid": "dtpa_lactic_acid_eluent"
+    }
+  },
+  "variants": {
+    "normal": [{}]
+  }
+}

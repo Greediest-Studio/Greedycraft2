@@ -173,7 +173,7 @@ GameStagesUtil.stageFinal.addOreReplacement(<additions:breedum_ore>, <minecraft:
 GameStagesUtil.stageFinal.addOreReplacement(<additions:primal_metal_ore>, <thaumicaugmentation:stone>, false);
 GameStagesUtil.stageFinal.addOreReplacement(<moretcon:oregravitonium>, <minecraft:end_stone>, false);
 GameStagesUtil.stageFinal.addOreReplacement(<moretcon:oregravitoniumdense>, <minecraft:end_stone>, false);
-GameStagesUtil.stageFinal.addOreReplacement(<ee:key_block>, <minecraft:purpur_block>, false);
-GameStagesUtil.stageFinal.addOreReplacement(<ee:ash_key_block>, <ee:ash_brick>, false);
+GameStagesUtil.stageFinal.addOreReplacement(<endexpansion:key_block>, <minecraft:purpur_block>, false);
+GameStagesUtil.stageFinal.addOreReplacement(<endexpansion:ash_key_block>, <endexpansion:ash_brick>, false);
 
 GameStagesUtil.stageWakeUp.addOreReplacement(<additions:shadowberry_leaves>, <gct_mobs:reversed_dreamwood_leaves>, false);

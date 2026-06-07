@@ -1303,14 +1303,14 @@ GameStagesUtil.stageHardmode.addIngredients([
     <tiths:block_solita>,
     <tiths:nugget_solita>,
     <ometweaks:mist_capacitor>,
-    <ee:dark_ingot>,
+    <endexpansion:dark_ingot>,
     <ore:blockAshIron>,
     <ore:nuggetAshIron>,
     <ore:dustAshIron>,
-    <ee:red_chunk>,
-    <ee:red_crystal_item>,
-    <ee:purple_chunk>,
-    <ee:purple_crystal_item>
+    <endexpansion:red_chunk>,
+    <endexpansion:red_crystal_item>,
+    <endexpansion:purple_chunk>,
+    <endexpansion:purple_crystal_item>
 ], true);
 
 GameStagesUtil.stageInfinity.addIngredients([
@@ -2410,16 +2410,16 @@ GameStagesUtil.stageFinal.addIngredients([
     <ore:blockHexacite>,
     <ore:dustHexacite>,
     <ore:plateHexacite>,
-    <ee:key_block>,
-    <ee:ash_key_block>,
-    <ee:key>,
-    <ee:ash_key>,
+    <endexpansion:key_block>,
+    <endexpansion:ash_key_block>,
+    <endexpansion:key>,
+    <endexpansion:ash_key>,
     <endreborn:ingot_infused>,
     <ore:blockEndoriumInfused>,
     <ore:nuggetEndoriumInfused>,
     <ore:dustEndoriumInfused>,
-    <ee:lamented>,
-    <ee:soul>,
+    <endexpansion:lamented>,
+    <endexpansion:soul>,
     <mmce_complement:blockcasing:1>
 ], false);
 

@@ -21,11 +21,11 @@ ConversionItem.create(<tiths:block_nitre>).addMatchItem(<ore:blockSaltpeter>).re
 ConversionItem.create(<thaumcraft:amber>).addMatchItem(<ore:gemAmber>).register();
 ConversionItem.create(<thaumcraft:amber_block>).addMatchItem(<biomesoplenty:gem_block:7>).register();
 ConversionItem.create(<quark:end_bricks_stairs>)
-    .addMatchItem(<ee:end_stone_stairs>)
+    .addMatchItem(<endexpansion:end_stone_stairs>)
     .addMatchItem(<endreborn:e_end_bricks_stairs>).register();
-ConversionItem.create(<quark:end_bricks_slab>).addMatchItem(<ee:end_brick_half>).register();
+ConversionItem.create(<quark:end_bricks_slab>).addMatchItem(<endexpansion:end_brick_half>).register();
 ConversionItem.create(<quark:end_bricks_wall>)
-    .addMatchItem(<ee:end_stone_wall>)
+    .addMatchItem(<endexpansion:end_stone_wall>)
     .addMatchItem(<endreborn:e_end_bricks_wall>).register();
 ConversionItem.create(<thermalfoundation:material:132>).addMatchItem(<ore:ingotAluminum>).register();
 ConversionItem.create(<thermalfoundation:material:163>).addMatchItem(<ore:ingotBronze>).register();

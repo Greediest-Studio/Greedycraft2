@@ -36,6 +36,10 @@ for i,array in IsoNames{
 	}
 }
 
+var es252 = VanillaFactory.createItem("einsteinium52");
+es252.creativeTab = <creativetab:moar_fuels>;
+es252.register();
+
 // fuels generation
 var FuelNames= ["californium_fuel","californium_fuel_carbide","californium_fuel_triso","californium_fuel_oxide","californium_fuel_nitride","californium_fuel_zirconium","einsteinium_fuel","einsteinium_fuel_carbide","einsteinium_fuel_triso","einsteinium_fuel_oxide","einsteinium_fuel_nitride","einsteinium_fuel_zirconium","fermium_fuel","fermium_fuel_carbide","fermium_fuel_triso","fermium_fuel_oxide","fermium_fuel_nitride","fermium_fuel_zirconium","hcalifornium_fuel","hcalifornium_fuel_carbide","hcalifornium_fuel_triso","hcalifornium_fuel_oxide","hcalifornium_fuel_nitride","hcalifornium_fuel_zirconium","heinsteinium_fuel","heinsteinium_fuel_carbide","heinsteinium_fuel_triso","heinsteinium_fuel_oxide","heinsteinium_fuel_nitride","heinsteinium_fuel_zirconium","rplutonium_fuel","rplutonium_fuel_carbide","rplutonium_fuel_triso","rplutonium_fuel_oxide","rplutonium_fuel_nitride","rplutonium_fuel_zirconium","ramericium_fuel","ramericium_fuel_carbide","ramericium_fuel_triso","ramericium_fuel_oxide","ramericium_fuel_nitride","ramericium_fuel_zirconium","rcalifornium_fuel","rcalifornium_fuel_carbide","rcalifornium_fuel_triso","rcalifornium_fuel_oxide","rcalifornium_fuel_nitride","rcalifornium_fuel_zirconium"] as string[];
 for item in FuelNames{
