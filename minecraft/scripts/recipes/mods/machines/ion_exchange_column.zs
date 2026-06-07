@@ -32,8 +32,7 @@ MMEvents.onControllerGUIRender("ion_exchange_column", function(event as Controll
 });
 
 RecipeBuilder.newBuilder("ion_exchange_trinite_solution", "ion_exchange_column", 1200)
-    .addFluidInput(<liquid:actinide_solution> * 5000)
-    .addFluidInput(<liquid:nitric_acid> * 5000)
+    .addFluidInput(<liquid:actinide_solution> * 10000)
     .addEnergyPerTickInput(60000000)
     .addFluidOutput(<liquid:uranyl_nitrate_solution> * 7500)
     .addFluidOutput(<liquid:neptunyl_nitrate_solution> * 1000)
