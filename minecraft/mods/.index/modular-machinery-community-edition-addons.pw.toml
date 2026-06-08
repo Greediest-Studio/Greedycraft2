@@ -1,13 +1,12 @@
-name = 'Modular Machinery Addons'
-filename = 'ModularMachinery-Addons-1.2.4.jar'
-side = 'both'
+name = "Modular Machinery Community Edition: Addons"
+filename = "ModularMachinery-Addons-2.0.2.jar"
+side = "both"
 
 [download]
-hash-format = 'sha1'
-hash = '7df9473b76f910ac047a96171f9b5d3e12ac5dd1'
-mode = 'metadata:curseforge'
+hash-format = "sha1"
+hash = "de2f9673b59ea63f3429b18eda6aa71240c9c151"
+mode = "metadata:curseforge"
 
-[update]
 [update.curseforge]
-file-id = 6996064
+file-id = 8175673
 project-id = 1236022
