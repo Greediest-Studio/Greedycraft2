@@ -2,17 +2,17 @@
   "usergroups": {
     "creative": {
       "filters": [
-        "{mode:1,id:\"mode\"}"
+        "{id:\"mode\",mode:1}"
       ]
     },
     "survival": {
       "filters": [
-        "{mode:0,id:\"mode\"}"
+        "{id:\"mode\",mode:0}"
       ]
     },
     "adventure": {
       "filters": [
-        "{mode:2,id:\"mode\"}"
+        "{id:\"mode\",mode:2}"
       ]
     }
   }
