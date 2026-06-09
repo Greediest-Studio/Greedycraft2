@@ -130,25 +130,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <journey:heartsen>, [
 	[null, null, <ore:ingotDullium>, null, null]
 ]);
 mods.extendedcrafting.TableCrafting.addShaped(0, <additions:heaven_gem>, [
-	[null, null, <ore:shardHeavengem1>, null, null], 
+	[null, null, <ore:ingotDaynight>, null, null], 
 	[null, null, <ore:ingotDaynight>, null, null], 
 	[null, <ore:ingotDaynight>, <ore:ingotDaynight>, <ore:ingotDaynight>, null], 
 	[null, null, <ore:ingotDaynight>, null, null], 
-	[null, null, <ore:shardHeavengem2>, null, null]
-]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <additions:everbright_gem>, [
-	[null, null, <blue_skies:diopside_block>, null, null], 
-	[null, <blue_skies:lunar_stone>, <blue_skies:moonstone>, <blue_skies:lunar_stone>, null], 
-	[<blue_skies:turquoise_block>, <blue_skies:moonstone>, <extendedcrafting:material:40>, <blue_skies:moonstone>, <blue_skies:pyrope_block>], 
-	[null, <blue_skies:lunar_stone>, <blue_skies:moonstone>, <blue_skies:lunar_stone>, null], 
-	[null, null, <blue_skies:charoite_block>, null, null]
-]);
-mods.extendedcrafting.TableCrafting.addShaped(0, <additions:everdawn_gem>, [
-	[null, null, <blue_skies:diopside_block>, null, null], 
-	[null, <blue_skies:lunar_stone>, <blue_skies:moonstone>, <blue_skies:lunar_stone>, null], 
-	[<blue_skies:turquoise_block>, <blue_skies:moonstone>, <minecraft:nether_star>, <blue_skies:moonstone>, <blue_skies:pyrope_block>], 
-	[null, <blue_skies:lunar_stone>, <blue_skies:moonstone>, <blue_skies:lunar_stone>, null], 
-	[null, null, <blue_skies:charoite_block>, null, null]
+	[null, null, <ore:ingotDaynight>, null, null]
 ]);
 mods.extendedcrafting.TableCrafting.addShaped(0, <gct_mobs:everheaven>, [
 	[<extendedcrafting:material:48>, <ore:ingotUmbrium>, <extendedcrafting:material:48>, <ore:ingotUmbrium>, <extendedcrafting:material:48>], 

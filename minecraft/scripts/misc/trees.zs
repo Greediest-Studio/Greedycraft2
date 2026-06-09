@@ -121,48 +121,6 @@ redreamwood.setDimWhitelist(42);
 redreamwood.addSapling();
 redreamwood.register();
 
-var starlit = TreeFactory.createTree("starlit1");
-starlit.setTreeType("CANOPY");
-starlit.setLog("blue_skies:starlit_log");
-starlit.setLeaf("blue_skies:starlit_leaves");
-starlit.setMinHeight(8);
-starlit.setExtraHeight(8);
-starlit.setGenFrequency(2);
-starlit.setGenAttempts(2);
-starlit.extraThick = false;
-starlit.setGenBiome("gct_mobs:aries_forest");
-starlit.setBaseBlock("gct_mobs:star_grass");
-starlit.setDimWhitelist(80);
-starlit.register();
-
-var starlit2 = TreeFactory.createTree("starlit2");
-starlit2.setTreeType("CANOPY");
-starlit2.setLog("blue_skies:starlit_log");
-starlit2.setLeaf("blue_skies:starlit_leaves");
-starlit2.setMinHeight(8);
-starlit2.setExtraHeight(4);
-starlit2.setGenFrequency(1);
-starlit2.setGenAttempts(2);
-starlit2.extraThick = false;
-starlit2.setGenBiome("gct_mobs:sagittarius_denseforest");
-starlit2.setBaseBlock("gct_mobs:star_grass");
-starlit2.setDimWhitelist(80);
-starlit2.register();
-
-var starlit3 = TreeFactory.createTree("starlit3");
-starlit3.setTreeType("OAK");
-starlit3.setLog("blue_skies:starlit_log");
-starlit3.setLeaf("blue_skies:starlit_leaves");
-starlit3.setMinHeight(4);
-starlit3.setExtraHeight(4);
-starlit3.setGenFrequency(4);
-starlit3.setGenAttempts(2);
-starlit3.extraThick = false;
-starlit3.setGenBiome("gct_mobs:taurus_plataeu");
-starlit3.setBaseBlock("gct_mobs:star_grass");
-starlit3.setDimWhitelist(80);
-starlit3.register();
-
 var infused1 = TreeFactory.createTree("infused");
 infused1.setTreeType("SPRUCE");
 infused1.setLog("astralsorcery:blockinfusedwood");

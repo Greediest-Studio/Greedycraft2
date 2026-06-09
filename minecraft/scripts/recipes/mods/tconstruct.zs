@@ -323,10 +323,7 @@ addTableBasicRecipe(<additions:moltenium_ingot>, <tconstruct:cast_custom>, <liqu
 addTableBasicRecipe(<gct_mobs:resonated_scrap>, <tconstruct:cast_custom>, <liquid:resonant_debris>, 160, false, 200);
 addTableBasicRecipe(<journey:hellstoneingot>, <tconstruct:cast_custom>, <liquid:bloodcrust>, VOLUME_INGOT, false, 200);
 addTableBasicRecipe(<divinerpg:hellstone_ingot>, <tconstruct:cast_custom>, <liquid:hellstone>, VOLUME_INGOT, false, 200);
-addTableBasicRecipe(<blue_skies:falsite_ingot>, <tconstruct:cast_custom>, <liquid:falsite>, VOLUME_INGOT, false, 200);
-addTableBasicRecipe(<blue_skies:ventium_ingot>, <tconstruct:cast_custom>, <liquid:ventium>, VOLUME_INGOT, false, 200);
 addTableBasicRecipe(<additions:betwnite_ingot>, <tconstruct:cast_custom>, <liquid:betwnite>, VOLUME_INGOT, false, 200);
-addTableBasicRecipe(<blue_skies:horizonite_ingot>, <tconstruct:cast_custom>, <liquid:horizonite>, VOLUME_INGOT, false, 200);
 addTableBasicRecipe(<endreborn:item_raw_endorium>, <ore:ingotTungsten>, <liquid:enderium>, 72, true, 80);
 addTableBasicRecipe(<abyssalcraft:necronomicon>.withTag({PotEnergy: 5000.0 as float}), <ore:necronomiconOverworld>, <liquid:pe>, 72, true, 72);
 addTableBasicRecipe(<abyssalcraft:necronomicon_cor>.withTag({PotEnergy: 10000.0 as float}), <ore:necronomiconWasteland>, <liquid:pe>, 144, true, 144);
@@ -605,9 +602,6 @@ Melting.addRecipe(<liquid:resonant_debris> * 320, <ore:oreResonantDebris>, 3540)
 Melting.addRecipe(<liquid:resonant_debris> * 160, <gct_mobs:resonate_debris_cracked>, 3540);
 Melting.addRecipe(<liquid:gravity_debris> * 160, <ore:gemGravityDebris>, 4430);
 Melting.addRecipe(<liquid:gravity_debris> * 320, <ore:oreGravityDebris>, 4430);
-Melting.addRecipe(<liquid:falsite> * VOLUME_INGOT, <ore:ingotFalsite>, 780);
-Melting.addRecipe(<liquid:horizonite> * VOLUME_INGOT, <ore:ingotHorizonite>, 780);
-Melting.addRecipe(<liquid:ventium> * VOLUME_INGOT, <ore:ingotVentium>, 780);
 Melting.addRecipe(<liquid:falsite> * VOLUME_BLOCK, <ore:blockFalsite>, 1050);
 Melting.addRecipe(<liquid:horizonite> * VOLUME_BLOCK, <ore:blockHorizonite>, 1050);
 Melting.addRecipe(<liquid:ventium> * VOLUME_BLOCK, <ore:blockVentium>, 1050);
