@@ -72,7 +72,7 @@ addGasFuel(<liquid:empoweredoil>, 32000, 500);
 addGasFuel(<liquid:creosote>, 1000, 500);
 addGasFuel(<liquid:tree_oil>, 4000, 500);
 addGasFuel(<liquid:coal>, 10000, 200);
-addGasFuel(<liquid:rocket_fuel>, 320000, 25);
+addGasFuel(<liquid:rocket_fuel>, 30000, 25);
 addGasFuel(<liquid:fire_water>, 10000, 150);
 addGasFuel(<liquid:refined_biofuel>, 8000, 300);
 addGasFuel(<liquid:bio.ethanol>, 40000, 90);

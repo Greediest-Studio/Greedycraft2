@@ -181,3 +181,5 @@ addFusionRecipe(<minecraft:spawn_egg>.withTag({EntityTag: {id: "thaumadditions:b
 addFusionRecipe(<contenttweaker:dubhe_key>, [<additions:dubhe_orb_light>, <additions:dubhe_orb_night>, <ore:blockNebu> * 4, <ore:blockPutrallium> * 4], 256000000, 4);
 addFusionRecipe(<additions:calculus_ingot>, [<ore:ingotDraconiumRuled>, <ore:ingotNumbereum> * 6, <additions:arcane_crystal_ball> * 2], 8090170, 3);
 addFusionRecipe(<additions:faded_ark_ingot>, [<ore:ingotStellarAlloy> * 2, <ore:ingotGelidEnderium> * 2, <ore:ingotSentientMetal> * 2, <ore:ingotBoundMetal> * 2, <ore:ingotAdamant>, <ore:ingotChaoticMetal>, <ore:ingotFusionMatrix>, <ore:ingotTerrasteel>, <ore:ingotOrichalcos>, <ore:ingotCosmilite>], 450000000, 4);
+addFusionRecipe(<additions:lerdite>, [<appliedenergistics2:smooth_sky_stone_block>, <ore:dustRuby>, <ore:dustLavaSolid>, <ore:dustDreadium>, <ore:dustPyrotheum>], 102400, 2);
+addFusionRecipe(<additions:ameralite>, [<appliedenergistics2:smooth_sky_stone_block>, <ore:dustEmerald>, <ore:dustSlimesteel>, <ore:dustLiquifiedCoralium>, <ore:dustCryotheum>], 102400, 2);

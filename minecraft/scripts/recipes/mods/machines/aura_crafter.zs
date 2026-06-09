@@ -77,3 +77,13 @@ RecipeBuilder.newBuilder("iron_craft", "aura_crafter", 100)
     .addItemOutput(<naturesaura:infused_iron>)
     .setMaxThreads(1)
     .build();
+
+RecipeBuilder.newBuilder("daynight_craft", "aura_crafter", 100)
+    .addItemInput(<ore:ingotApollonium>)
+    .addItemInput(<ore:ingotAurorianSteel>)
+    .addItemInput(<ore:gemGorbite> * 4)
+    .addFluidInput(<liquid:daynight> * 72)
+    .addAuraInput(200, true)
+    .addItemOutput(<additions:daynight_ingot> * 4)
+    .setMaxThreads(1)
+    .build();

@@ -452,3 +452,15 @@ FusionCrafting.add(<additions:calculus_ingot>, <gct_ores:ruled_draconium_ingot>,
     <additions:arcane_crystal_ball>,
     <additions:arcane_crystal_ball>
 ]);
+FusionCrafting.add(<additions:lerdite>, <appliedenergistics2:smooth_sky_stone_block>, 2, 20480000, [
+    <ore:dustRuby>,
+    <ore:dustLavaSolid>,
+    <ore:dustDreadium>,
+    <ore:dustPyrotheum>
+]);
+FusionCrafting.add(<additions:ameralite>, <appliedenergistics2:smooth_sky_stone_block>, 2, 20480000, [
+    <ore:dustEmerald>,
+    <ore:dustSlimesteel>,
+    <ore:dustLiquifiedCoralium>,
+    <ore:dustCryotheum>
+]);

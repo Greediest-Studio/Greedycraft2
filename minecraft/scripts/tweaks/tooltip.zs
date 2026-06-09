@@ -232,8 +232,6 @@ val tooltipMap as string[][IIngredient] = {
     <modularmachinery:blockparallelcontroller:7> : [game.localize("greedycraft.tooltip.modularmachinery.blockparallelcontroller")],
     <modularmachinery:blockparallelcontroller:8> : [game.localize("greedycraft.tooltip.modularmachinery.blockparallelcontroller")],
     <modularmachinery:blockparallelcontroller:9> : [game.localize("greedycraft.tooltip.modularmachinery.blockparallelcontroller")],
-    <additions:heaven_gem_shard1> : [game.localize("greedycraft.tooltip.additions.heaven_gem_shard1")],
-    <additions:heaven_gem_shard2> : [game.localize("greedycraft.tooltip.additions.heaven_gem_shard2")],
     <nuclearcraft:ingot:8> : [game.localize("greedycraft.tooltip.nuclearcraft.ingot.8")],
     <contenttweaker:dim_item> : [game.localize("greedycraft.tooltip.contenttweaker.dim_item.1"), game.localize("greedycraft.tooltip.contenttweaker.dim_item.2")],
     <gct_mobs:resonate_debris> : [game.localize("greedycraft.tooltip.gct_mobs.resonate_debris")],

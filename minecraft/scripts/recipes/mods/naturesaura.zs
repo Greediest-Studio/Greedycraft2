@@ -38,3 +38,14 @@ TreeRitual.addRecipe("eb_altar", <minecraft:sapling>, <gct_mobs:earthbound_altar
     <botania:manaresource:3>,
     <additions:token_emotion>,
 ]);
+
+TreeRitual.addRecipe("daynight_ingot", <minecraft:sapling>, <additions:daynight_ingot> * 4, 150, [
+    <additions:apollonium_ingot>,
+    <journey:gorbitegem>,
+    <theaurorian:auroriansteel>,
+    <journey:gorbitegem>,
+    <gct_ores:fallen_metal_nugget>,
+    <journey:gorbitegem>,
+    <tconevo:metal:2>,
+    <journey:gorbitegem>
+]);
