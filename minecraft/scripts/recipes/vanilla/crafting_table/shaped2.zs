@@ -1071,7 +1071,11 @@ RecipeUtil.addShaped("potential_energy_provider_input_hatch", <modularmachinerya
     [<abyssalcraft:stone:7>, <abyssalcraft:tieredenergycontainer:3>, <abyssalcraft:stone:7>],
     [<ore:ingotModularium>, <abyssalcraft:stone:7>, <ore:ingotModularium>]
 ]);
-
+RecipeUtil.addShaped("order", <whimcraft:order>, [
+    [null, <ore:paper>, null],
+    [<ore:paper>, <cyclicmagic:carbon_paper>, <ore:paper>],
+    [null, <ore:paper>, null]
+]);
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],

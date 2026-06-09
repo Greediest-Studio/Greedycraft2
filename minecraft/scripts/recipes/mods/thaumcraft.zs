@@ -31,7 +31,8 @@ var removedRecipes as IItemStack[] = [
     <thaumadditions:mithminite_handle>,
     <thaumadditions:entity_summoner>,
     <thaumadditions:dna_sample>,
-    <forbiddenmagicre:eldritch_orb>
+    <forbiddenmagicre:eldritch_orb>,
+    <avaritia:extremely_primordial_pearl>
 ];
 
 for removedItem in removedRecipes {
