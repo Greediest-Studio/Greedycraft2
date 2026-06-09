@@ -1,0 +1,12 @@
+name = "ZNet"
+filename = "XNet-1.8.20.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a0275a9d1c582f9df5d4a504d3c2e538284e8944"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8083909
+project-id = 1335763

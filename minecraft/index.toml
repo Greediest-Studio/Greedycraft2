@@ -169,12 +169,6 @@ alias = "mods/AquaAcrobatics-1.15.4.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/armoreablemobs.pw.toml"
-hash = "b45f15586c5d239bd4153586c458f2507c611a37e026e72f47c8d1384d573080"
-alias = "mods/armoreablemobs-1.12.2-1.1.8.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/armory-expansion.pw.toml"
 hash = "68ba983e56bf3e1abc7555289b5929ec441c05407b715ef83131815df13a58f4"
 alias = "mods/armoryexpansion-2.0.0-alpha.jar"
@@ -322,12 +316,6 @@ metafile = true
 file = "mods/.index/better-mobgriefing-gamerule.pw.toml"
 hash = "84d11a726e4a5075b7bfdf790536e1983e0f9ae3aed5e873bad0aad379d81cab"
 alias = "mods/bettermobgriefinggamerule-1.12.2-7.1.0.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/better-pet-teleporting.pw.toml"
-hash = "7ee3f66e736dd57c116fc6af98e123d18f2694a9c67056b78c8f8c8f865a591d"
-alias = "mods/BetterPetTeleporting-1.3.jar"
 metafile = true
 
 [[files]]
@@ -2546,8 +2534,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/universal-tweaks.pw.toml"
-hash = "f0a0b34b80f091d2eeb4f34adb8160ced9313e243c66c93396043fd4358cec7e"
-alias = "mods/UniversalTweaks-1.12.2-1.19.1.jar"
+hash = "0a36b807f8e524828c6875c469c953d994fa57d0793fd4960c18d09073ee7562"
+alias = "mods/UniversalTweaks-1.12.2-1.20.1.jar"
 metafile = true
 
 [[files]]
@@ -2624,8 +2612,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/xnet-additions.pw.toml"
-hash = "553e8cc3323b899e6a8ec51d1bd6a8bb035a2de9eaeb1b888d924f0d66997231"
-alias = "mods/XNetAdditions-0.1.1.jar"
+hash = "47e14ea1aaee1979c1a008f771c3c83575897bfd1f176629926364a5ef239557"
+alias = "mods/XNetAdditions-0.1.6.jar"
 metafile = true
 
 [[files]]
@@ -2644,18 +2632,6 @@ metafile = true
 file = "mods/.index/ymadditions.pw.toml"
 hash = "acc643944f9e291bad2e423c63002c673233fc0a11831d028bb81a435488e01c"
 alias = "mods/YM-Additions-0.2.0.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/ynet-an-xnet-fork.pw.toml"
-hash = "c13f1b37f3f6ff6f1731419eef5907e318f9d19e14ab4a2f25327f13c76197b1"
-alias = "mods/xnet-1.12-1.8.4-ynet.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/ynot.pw.toml"
-hash = "224d68dad3dfaeedc2951150525cbcd0cf5c32df8854ca207407dc3ac1e4d1df"
-alias = "mods/YNot-0.2.4.jar"
 metafile = true
 
 [[files]]
@@ -2692,6 +2668,12 @@ metafile = true
 file = "mods/.index/zenutil.pw.toml"
 hash = "b90d9357cb0bac4f0e4c96d517a798dc1f151dce4e2f970394c1a1b602fdc17c"
 alias = "mods/zenutils-1.27.0.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/znet.pw.toml"
+hash = "3aa9a8d27e86eb24b2fdb4facc8979ebaaa8f64b2c84b93859d4acf5bd12cf76"
+alias = "mods/XNet-1.8.20.jar"
 metafile = true
 
 [[files]]
