@@ -10,7 +10,7 @@ import mods.versioner.Versioner;
 import mods.versioner.Sponsors;
 
 function isPatreon(player as IPlayer) as bool {
-    return 0;
+    return false;
 }
 
 function getSponsorLevel(player as IPlayer) as int {

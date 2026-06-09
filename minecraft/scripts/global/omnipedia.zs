@@ -259,14 +259,6 @@ global omnipedia as IItemStack = <akashictome:tome>.withTag({
 			},
 			Damage: 0 as short
 		},
-		blue_skies: {
-			id: "blue_skies:blue_lore",
-			Count: 1 as byte,
-			tag: {
-				"akashictome:definedMod": "blue_skies"
-			},
-			Damage: 0 as short
-		},
 		solcarrot: {
 			id: "solcarrot:food_book",
 			Count: 1 as byte,

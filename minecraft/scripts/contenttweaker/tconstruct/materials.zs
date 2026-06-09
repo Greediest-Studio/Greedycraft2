@@ -2085,48 +2085,6 @@ chloroplast.addPlatesMaterialStats(3.1, 80, 3.2);
 chloroplast.addTrimMaterialStats(90);
 chloroplast.register();
 
-val horizonite = mods.contenttweaker.tconstruct.MaterialBuilder.create("horizonite");
-horizonite.color = Color.fromHex("f26c29").getIntColor();
-horizonite.craftable = false;
-horizonite.castable = true;
-horizonite.representativeItem = <item:blue_skies:horizonite_ingot>;
-horizonite.addItem(<item:blue_skies:horizonite_ingot>);
-horizonite.liquid = <liquid:horizonite>;
-horizonite.localizedName = game.localize("greedycraft.tconstruct.material.horizonite.name");
-horizonite.addHeadMaterialStats(1400, 6.75, 11.5, 6);
-horizonite.addHandleMaterialStats(1.2, 500);
-horizonite.addExtraMaterialStats(750);
-horizonite.addBowMaterialStats(getDrawSpeed(1.9) as float, 1.6, 10);
-horizonite.register();
-
-val falsite = mods.contenttweaker.tconstruct.MaterialBuilder.create("falsite");
-falsite.color = Color.fromHex("6338d8").getIntColor();
-falsite.craftable = false;
-falsite.castable = true;
-falsite.representativeItem = <item:blue_skies:falsite_ingot>;
-falsite.addItem(<item:blue_skies:falsite_ingot>);
-falsite.liquid = <liquid:falsite>;
-falsite.localizedName = game.localize("greedycraft.tconstruct.material.falsite.name");
-falsite.addHeadMaterialStats(1600, 7.5, 8, 6);
-falsite.addHandleMaterialStats(1.3, 300);
-falsite.addExtraMaterialStats(180);
-falsite.addBowMaterialStats(getDrawSpeed(2.2) as float, 1.9, 8);
-falsite.register();
-
-val ventium = mods.contenttweaker.tconstruct.MaterialBuilder.create("ventium");
-ventium.color = Color.fromHex("c31a1f").getIntColor();
-ventium.craftable = false;
-ventium.castable = true;
-ventium.representativeItem = <item:blue_skies:ventium_ingot>;
-ventium.addItem(<item:blue_skies:ventium_ingot>);
-ventium.liquid = <liquid:ventium>;
-ventium.localizedName = game.localize("greedycraft.tconstruct.material.ventium.name");
-ventium.addHeadMaterialStats(500, 1.6, 8, 6);
-ventium.addHandleMaterialStats(1.1, 40);
-ventium.addExtraMaterialStats(40);
-ventium.addBowMaterialStats(getDrawSpeed(0.9) as float, 1.7, 4);
-ventium.register();
-
 val mekyum = mods.contenttweaker.tconstruct.MaterialBuilder.create("mekyum");
 mekyum.color = Color.fromHex("9c289c").getIntColor();
 mekyum.craftable = false;

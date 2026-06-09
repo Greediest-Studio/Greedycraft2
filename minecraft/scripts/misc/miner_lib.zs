@@ -520,25 +520,6 @@ oreOutput.create("漆黑世界",-11325,CHROMASTEEL,<additions:shadowium_ore>,1,0
 oreOutput.create("失落的城市",111,DURASTEEL,<additions:limonite_ore>,1,0.03);
 oreOutput.create("失落的城市",111,DURASTEEL,<additions:rosite_ore>,1,0.025);
 
-//恒晓之地 炫钢级
-oreOutput.create("恒晓之地",77,CHROMASTEEL,<blue_skies:horizonite_ore>,1,0.02);
-oreOutput.create("恒晓之地",77,CHROMASTEEL,<blue_skies:diopside_gem>,1,0.03);
-oreOutput.create("恒晓之地",77,CHROMASTEEL,<blue_skies:pyrope_gem>,1,0.03);
-oreOutput.create("恒晓之地",77,CHROMASTEEL,<blue_skies:turquoise_gem>,1,0.03);
-oreOutput.create("恒晓之地",77,CHROMASTEEL,<blue_skies:charoite>,1,0.03);
-oreOutput.create("恒晓之地",77,CHROMASTEEL,<blue_skies:moonstone>,1,0.03);
-oreOutput.create("恒晓之地",77,CHROMASTEEL,<minecraft:emerald>,1,0.03);
-
-//永昼之地 炫钢级
-oreOutput.create("永昼之地",76,CHROMASTEEL,<blue_skies:falsite_ore>,1,0.02);
-oreOutput.create("永昼之地",76,CHROMASTEEL,<blue_skies:ventium_ore>,1,0.02);
-oreOutput.create("永昼之地",76,CHROMASTEEL,<blue_skies:diopside_gem>,1,0.03);
-oreOutput.create("永昼之地",76,CHROMASTEEL,<blue_skies:pyrope_gem>,1,0.03);
-oreOutput.create("永昼之地",76,CHROMASTEEL,<blue_skies:turquoise_gem>,1,0.03);
-oreOutput.create("永昼之地",76,CHROMASTEEL,<blue_skies:charoite>,1,0.03);
-oreOutput.create("永昼之地",76,CHROMASTEEL,<blue_skies:moonstone>,1,0.03);
-oreOutput.create("永昼之地",76,CHROMASTEEL,<minecraft:emerald>,1,0.03);
-
 //深空之域 寰宇级
 oreOutput.create("深空之域",78,COSMILITE,<tiths:ore_halleium>,1,0.008);
 oreOutput.create("深空之域",78,COSMILITE,<tiths:ore_altairium>,1,0.008);
