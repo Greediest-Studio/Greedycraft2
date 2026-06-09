@@ -1041,6 +1041,37 @@ RecipeUtil.addShaped("modular_bulid_tool", <gctcore:mmce_builder_tool>, [
     [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
 ]);
 
+RecipeUtil.addShaped("laser_input_hatch", <modularmachineryaddons:blocklaserinput>, [
+    [<mekanismgenerators:reactorglass:1>, <ore:blockModularium>, <ore:ingotModularium>],
+    [<ore:ingotModularium>, <mekanismmultiblockmachine:laserlenses>, <mekanism:machineblock2:14>],
+    [<mekanismgenerators:reactorglass:1>, <ore:blockModularium>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("heat_output_hatch", <modularmachineryaddons:blockheatoutput>, [
+    [<ore:ingotModularium>, <ore:blockModularium>, <ore:ingotModularium>],
+    [<mekanism:transmitter:6>.withTag({tier: 3}).onlyWithTag({tier: 3}), <forge:bucketfilled>.withTag({FluidName: "hecryo_liquid", Amount: 1000}).onlyWithTag({FluidName: "hecryo_liquid", Amount: 1000}), <mekanism:transmitter:6>.withTag({tier: 3}).onlyWithTag({tier: 3})],
+    [<ore:ingotModularium>, <ore:blockModularium>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("heat_input_hatch", <modularmachineryaddons:blockheatinput>, [
+    [<ore:ingotModularium>, <ore:blockModularium>, <ore:ingotModularium>],
+    [<mekanism:machineblock3:4>, <mekanism:machineblock3:4>, <mekanism:machineblock3:4>],
+    [<ore:ingotModularium>, <ore:blockModularium>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("dragon_breath_input_hatch", <modularmachineryaddons:blockdragonbreathinput>, [
+    [<ore:ingotModularium>, <iceandfire:dragonforge_lightning_input>, <ore:ingotModularium>],
+    [<iceandfire:dragonforge_fire_input>, <ore:ingotFrostburnMetal>, <iceandfire:dragonforge_ice_input>],
+    [<ore:ingotFrostburnMetal>, <ore:blockModularium>, <ore:ingotFrostburnMetal>]
+]);
+RecipeUtil.addShaped("potential_energy_provider_output_hatch", <modularmachineryaddons:blockpotentialenergyprovideroutput>, [
+    [<ore:ingotModularium>, <abyssalcraft:stone:7>, <ore:ingotModularium>],
+    [<abyssalcraft:stone:7>, <abyssalcraft:tieredenergycontainer:3>, <abyssalcraft:stone:7>],
+    [<ore:ingotModularium>, <abyssalcraft:tieredenergycollector:3>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("potential_energy_provider_input_hatch", <modularmachineryaddons:blockpotentialenergyproviderinput>, [
+    [<ore:ingotModularium>, <abyssalcraft:tieredenergycollector:3>, <ore:ingotModularium>],
+    [<abyssalcraft:stone:7>, <abyssalcraft:tieredenergycontainer:3>, <abyssalcraft:stone:7>],
+    [<ore:ingotModularium>, <abyssalcraft:stone:7>, <ore:ingotModularium>]
+]);
+
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],

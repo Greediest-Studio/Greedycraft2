@@ -1135,7 +1135,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <erebus:kaizers_fingers_mushroom>
     ],
     <ore:gemSpiderLegTarantula> : [<additions:tarantula_leg>],
-    <ore:crystalVoidic> : [<actuallyadditions:item_crystal:3>]
+    <ore:crystalVoidic> : [<actuallyadditions:item_crystal:3>],
+    <ore:ingotEinsteinium252All> : [<contenttweaker:einsteinium52>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {

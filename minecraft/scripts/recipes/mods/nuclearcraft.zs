@@ -29,6 +29,7 @@ import mods.nuclearcraft.Extractor;
 import mods.nuclearcraft.MultiblockInfiltrator;
 import mods.nuclearcraft.InfiltratorPressureFluid;
 import mods.nuclearcraft.DecayHastener;
+import mods.nuclearcraft.Assembler;
 import mods.tconstruct.Alloy;
 import mods.jaopca.JAOPCA;
 
@@ -622,9 +623,6 @@ ChemicalReactor.addRecipe(<liquid:manganese_chloride> * 333, <liquid:water> * 50
 ChemicalReactor.addRecipe(<liquid:molybdenum> * 72, <liquid:oxygen> * 750, <liquid:molybdenum_trioxide> * 333, null);
 ChemicalReactor.addRecipe(<liquid:molybdenum_trioxide> * 333, <liquid:sodium_hydroxide_solution> * 666, <liquid:sodium_molybdate_solution> * 333, <liquid:water> * 500);
 ChemicalReactor.addRecipe(<liquid:rich_brine> * 500, <liquid:ammonia> * 500, <liquid:ammonia_brine> * 500, null);
-Enricher.addRecipe(<additions:alpha_hydroxyisobutyric_acid>, <liquid:ammonia> * 1000, <liquid:ammonium_alpha_hydroxyisobutyrate_solution> * 1000, 2.0d, 4.0d, 0.0d);
-Enricher.addRecipe(<additions:lactic_acid_powder>, <liquid:water> * 1000, <liquid:lactic_acid> * 1000, 1.0d, 2.0d, 0.0d);
-Enricher.addRecipe(<additions:dtpa>, <liquid:lactic_acid> * 1000, <liquid:dtpa_lactic_acid_eluent> * 1000, 2.0d, 6.0d, 0.0d);
 ChemicalReactor.addRecipe(<liquid:c4_i4_difluorodiphenylmethanone> * 250, <liquid:hydroquinone_solution> * 250, <liquid:polyetheretherketone> * 36, <liquid:hydrofluoric_acid> * 500);
 ChemicalReactor.addRecipe(<liquid:uranyl_nitrate> * 666, <liquid:hydrogen> * 1500, <liquid:uranium> * 144, <liquid:nitrogen_dioxide> * 250, 2.0d, 4.0d, 0.0d);
 ChemicalReactor.addRecipe(<liquid:neptunyl_nitrate> * 666, <liquid:hydrogen> * 1500, <liquid:neptunium> * 144, <liquid:nitrogen_dioxide> * 250, 2.0d, 4.0d, 0.0d);
@@ -637,6 +635,18 @@ ChemicalReactor.addRecipe(<liquid:einsteinium_252_nitrate> * 666, <liquid:hydrog
 ChemicalReactor.addRecipe(<liquid:methanol> * 500, <liquid:oxygen> * 250, <liquid:formaldehyde> * 500, <liquid:water> * 500);
 ChemicalReactor.addRecipe(<liquid:formaldehyde> * 500, <liquid:oxygen> * 250, <liquid:formic_acid> * 500, null);
 ChemicalReactor.addRecipe(<liquid:formic_acid> * 250, <liquid:hydrogen> * 500, <liquid:methanol> * 250, <liquid:water> * 250);
+ChemicalReactor.addRecipe(<liquid:ethanol> * 500, <liquid:oxygen> * 250, <liquid:acetaldehyde> * 500, <liquid:water> * 500);
+ChemicalReactor.addRecipe(<liquid:acetaldehyde> * 500, <liquid:oxygen> * 250, <liquid:acetic_acid> * 500, null);
+ChemicalReactor.addRecipe(<liquid:carbon_monoxide> * 500, <liquid:ammonia> * 500, <liquid:formamide> * 500, null);
+ChemicalReactor.addRecipe(<liquid:formamide> * 1500, <liquid:phosphorus_pentaoxide> * 333, <liquid:hydrogen_cyanide> * 1500, <liquid:phosphoric_acid> * 1000);
+ChemicalReactor.addRecipe(<liquid:acetone> * 500, <liquid:hydrogen_cyanide> * 500, <liquid:2_hydroxy_2_methylpropanenitrile> * 500, null);
+ChemicalReactor.addRecipe(<liquid:2_hydroxy_2_methylpropanenitrile> * 500, <liquid:water> * 1000, <liquid:alpha_hydroxyisobutyric_acid_solution> * 333, <liquid:ammonia> * 500);
+ChemicalReactor.addRecipe(<liquid:ethene> * 1000, <liquid:liquidchlorine> * 1000, <liquid:1_2_dichloroethane> * 1000, null);
+ChemicalReactor.addRecipe(<liquid:1_2_dichloroethane> * 1000, <liquid:ammonia> * 4000, <liquid:ethylenediamine> * 1000, <liquid:ammonium_chloride_solution> * 1332);
+ChemicalReactor.addRecipe(<liquid:1_2_dichloroethane> * 1000, <liquid:ammonia> * 2000, <liquid:2_chloroethylamine> * 1000, <liquid:ammonium_chloride_solution> * 666);
+ChemicalReactor.addRecipe(<liquid:ethylenediamine> * 1000, <liquid:2_chloroethylamine> * 1000, <liquid:diethylenetriamine> * 1000, <liquid:liquidhydrogenchloride> * 1000);
+ChemicalReactor.addRecipe(<liquid:acetic_acid> * 1000, <liquid:liquidchlorine> * 1000, <liquid:chloroacetic_acid> * 1000, <liquid:liquidhydrogenchloride> * 1000);
+ChemicalReactor.addRecipe(<liquid:diethylenetriaminepentaacetic_acid_pentasodium_salt_solution> * 1000, <liquid:hydrochloric_acid> * 5000, <liquid:diethylenetriaminepentaacetic_acid_solution> * 666, <liquid:sodium_chloride> * 3330, 2.0d, 6.0d, 0.0d);
 ChemicalReactor.addRecipe(<liquid:benzene> * 250, <liquid:methanol> * 250, <liquid:toluene> * 250, <liquid:water> * 250);
 ChemicalReactor.addRecipe(<liquid:toluene> * 250, <liquid:methanol> * 250, <liquid:paraxylene> * 250, <liquid:water> * 250);
 ChemicalReactor.addRecipe(<liquid:paraxylene> * 250, <liquid:methanol> * 250, <liquid:1_2_4_trimethylbenzene> * 250, <liquid:water> * 250);
@@ -681,6 +691,10 @@ Crystallizer.addRecipe(<liquid:sodium_hydrogen_carbonate_solution> * 666, <addit
 Crystallizer.addRecipe(<liquid:sodium_molybdate_solution> * 666, <additions:sodium_molybdate>);
 Crystallizer.addRecipe(<liquid:erebus_organic_fluid> * 500, <additions:erebus_complex>);
 Crystallizer.addRecipe(<liquid:sodium_sulfate_solution> * 666, <additions:sodium_sulfate>);
+Crystallizer.addRecipe(<liquid:calcium_acetate_solution> * 666, <additions:calcium_acetate>);
+Crystallizer.addRecipe(<liquid:lactic_acid> * 666, <additions:lactic_acid_powder>, 1.0d, 2.0d, 0.0d);
+Crystallizer.addRecipe(<liquid:alpha_hydroxyisobutyric_acid_solution> * 666, <additions:alpha_hydroxyisobutyric_acid>, 2.0d, 4.0d, 0.0d);
+Crystallizer.addRecipe(<liquid:diethylenetriaminepentaacetic_acid_solution> * 666, <additions:dtpa>, 2.0d, 6.0d, 0.0d);
 Crystallizer.addRecipe(<liquid:uranyl_nitrate_solution> * 666, UN, 2.0d, 4.0d, 0.0d);
 Crystallizer.addRecipe(<liquid:neptunyl_nitrate_solution> * 666, NpN, 2.0d, 4.0d, 0.0d);
 Crystallizer.addRecipe(<liquid:plutonyl_nitrate_solution> * 666, PuN, 2.0d, 4.0d, 0.0d);
@@ -736,7 +750,15 @@ Enricher.addRecipe(Es252N, <liquid:water> * 1000, <liquid:einsteinium_252_nitrat
 Enricher.addRecipe(<ore:dustBariumOxide>, <liquid:nitric_acid> * 2000, <liquid:barium_nitrate_solution> * 666);
 Enricher.addRecipe(<ore:dustBariumOxide>, <liquid:hydrochloric_acid> * 2000, <liquid:barium_chloride_solution> * 666);
 Enricher.addRecipe(<ore:gemCalciumCarbide>, <liquid:water> * 2000, <liquid:ethyne> * 1000, 0.05d);
+Enricher.addRecipe(<additions:calcium_oxide>, <liquid:acetic_acid> * 2000, <liquid:calcium_acetate_solution> * 666);
+Enricher.addRecipe(<additions:calcium_carbonate> * 2, <liquid:sugar> * 144, <liquid:calcium_lactate_solution> * 2000, 100.0d);
 Enricher.addRecipe(<trinity:trinitite_shard>, <liquid:hydrofluoric_acid> * 1000, <liquid:trinitite_leachate> * 1000, 2.5d);
+Enricher.addRecipe(<additions:alpha_hydroxyisobutyric_acid>, <liquid:ammonia> * 1000, <liquid:ammonium_alpha_hydroxyisobutyrate_solution> * 1000, 2.0d, 4.0d, 0.0d);
+Enricher.addRecipe(<additions:lactic_acid_powder>, <liquid:water> * 1000, <liquid:lactic_acid> * 666, 1.0d, 2.0d, 0.0d);
+Enricher.addRecipe(<additions:dtpa>, <liquid:lactic_acid> * 1000, <liquid:diethylenetriaminepentaacetic_acid_lactic_acid_eluent> * 1000, 2.0d, 6.0d, 0.0d);
+Enricher.addRecipe(<additions:dtpa>, <liquid:water> * 1000, <liquid:diethylenetriaminepentaacetic_acid_solution> * 1000, 2.0d, 6.0d, 0.0d);
+Enricher.addRecipe(<additions:alpha_hydroxyisobutyric_acid>, <liquid:water> * 1000, <liquid:alpha_hydroxyisobutyric_acid_solution> * 666);
+Enricher.addRecipe(<additions:calcium_acetate>, <liquid:water> * 1000, <liquid:calcium_acetate_solution> * 666);
 
 Electrolyzer.addRecipe(<liquid:brine> * 1000, <liquid:sodium_hydroxide_solution> * 666, <liquid:hydrogen> * 500, <liquid:liquidchlorine> * 500, null, 1.0d, 1.0d, 0.0d);
 Electrolyzer.addRecipe(<liquid:sodium_chloride> * 333, <liquid:sodium> * 72, <liquid:liquidchlorine> * 250, null, null);
@@ -770,6 +792,23 @@ Separator.addRecipe(<ore:dustSodiumChloroplatinate>, PtCl4, NaCl * 2);
 Separator.addRecipe(<ore:dustPotassiumChloroplatinate>, PtCl4, KCl * 2);
 Separator.addRecipe(<ore:dustRubidiumChloroplatinate>, PtCl4, RbCl * 2);
 Separator.addRecipe(<ore:dustCesiumChloroplatinate>, PtCl4, CsCl * 2);
+
+val Sgl as IItemStack = <appliedenergistics2:material:47>;
+
+Assembler.addRecipe(<modularmachinery:blockinputbus>, Sgl * 2, null, null, <modularmachineryaddons:blocksingularityiteminputbus>);
+Assembler.addRecipe(<modularmachinery:blockinputbus:1>, Sgl * 4, null, null, <modularmachineryaddons:blocksingularityiteminputbus:1>);
+Assembler.addRecipe(<modularmachinery:blockinputbus:2>, Sgl * 8, null, null, <modularmachineryaddons:blocksingularityiteminputbus:2>);
+Assembler.addRecipe(<modularmachinery:blockinputbus:3>, Sgl * 16, null, null, <modularmachineryaddons:blocksingularityiteminputbus:3>);
+Assembler.addRecipe(<modularmachinery:blockinputbus:4>, Sgl * 32, null, null, <modularmachineryaddons:blocksingularityiteminputbus:4>);
+Assembler.addRecipe(<modularmachinery:blockinputbus:5>, Sgl * 64, null, null, <modularmachineryaddons:blocksingularityiteminputbus:5>);
+Assembler.addRecipe(<modularmachinery:blockinputbus:6>, Sgl * 64, Sgl * 64, null, <modularmachineryaddons:blocksingularityiteminputbus:6>);
+Assembler.addRecipe(<modularmachinery:blockoutputbus>, Sgl * 2, null, null, <modularmachineryaddons:blocksingularityitemoutputbus>);
+Assembler.addRecipe(<modularmachinery:blockoutputbus:1>, Sgl * 4, null, null, <modularmachineryaddons:blocksingularityitemoutputbus:1>);
+Assembler.addRecipe(<modularmachinery:blockoutputbus:2>, Sgl * 8, null, null, <modularmachineryaddons:blocksingularityitemoutputbus:2>);
+Assembler.addRecipe(<modularmachinery:blockoutputbus:3>, Sgl * 16, null, null, <modularmachineryaddons:blocksingularityitemoutputbus:3>);
+Assembler.addRecipe(<modularmachinery:blockoutputbus:4>, Sgl * 32, null, null, <modularmachineryaddons:blocksingularityitemoutputbus:4>);
+Assembler.addRecipe(<modularmachinery:blockoutputbus:5>, Sgl * 64, null, null, <modularmachineryaddons:blocksingularityitemoutputbus:5>);
+Assembler.addRecipe(<modularmachinery:blockoutputbus:6>, Sgl * 64, Sgl * 64, null, <modularmachineryaddons:blocksingularityitemoutputbus:6>);
 
 val ErebusPlants as IItemStack[] = [
     <erebus:planted_flower>,

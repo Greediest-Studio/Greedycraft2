@@ -58,3 +58,12 @@ RecipeBuilder.newBuilder("caminite", "stratified_precipitator", 600)
     .addFluidOutput(<liquid:sodium_sulfate_solution> * 666)
     .setMaxThreads(1)
     .build();
+
+RecipeBuilder.newBuilder("calcium_carbonate_precipitation", "stratified_precipitator", 600)
+    .addFluidInput(<liquid:calcium_hydroxide_solution> * 666)
+    .addFluidInput(<liquid:carbon_dioxide> * 1000)
+    .addEnergyPerTickInput(20000)
+    .addItemOutput(<additions:calcium_carbonate>)
+    .addFluidOutput(<liquid:water> * 1000)
+    .setMaxThreads(1)
+    .build();

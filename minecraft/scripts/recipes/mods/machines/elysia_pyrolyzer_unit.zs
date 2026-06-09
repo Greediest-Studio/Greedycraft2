@@ -18,6 +18,7 @@ import mods.modularmachinery.FactoryRecipeTickEvent;
 import mods.modularmachinery.FactoryRecipeFinishEvent;
 import mods.modularmachinery.RecipeModifierBuilder;
 import mods.modularmachinery.RecipeAdapterBuilder;
+import mods.modularmachinery.IngredientArrayBuilder;
 import mods.modularmachinery.MMEvents;
 import mods.modularmachinery.ControllerGUIRenderEvent;
 import mods.modularmachinery.IMachineController;
@@ -71,7 +72,11 @@ RecipeBuilder.newBuilder("barium", "elysia_pyrolyzer", 100)
     .build();
 
 RecipeBuilder.newBuilder("calcium", "elysia_pyrolyzer", 150)
-    .addItemInput(<ore:blockCalciumCarbonate> * 1)
+    .addIngredientArrayInput(
+        IngredientArrayBuilder.newBuilder()
+            .addIngredient(<ore:blockCalciumCarbonate> * 1)
+            .addIngredient(<ore:dustCalciumCarbonate> * 9)
+    )
     .addEnergyPerTickInput(1024)
     .addGasOutput(<gas:carbonoxide> * 9000)
     .addItemOutput(<additions:calcium_oxide> * 9)
@@ -114,6 +119,15 @@ RecipeBuilder.newBuilder("calcium_carbide", "elysia_pyrolyzer", 40)
     .addItemOutput(<additions:calcium_carbide>)
     .addGasOutput(<gas:carbonoxide> * 1000)
     .addRecipeTooltip("§d热解配方支持模块化电容升级，详情请查询“模块化电容”")
+    .setMaxThreads(1)
+    .build();
+
+RecipeBuilder.newBuilder("calcium_acetate", "elysia_pyrolyzer", 80)
+    .addItemInput(<additions:calcium_acetate>)
+    .addEnergyPerTickInput(1024)
+    .addFluidOutput(<liquid:acetone> * 1000)
+    .addItemOutput(<additions:calcium_carbonate>)
+    .addRecipeTooltip("Pyrolysis recipe supports modular capacitor upgrades.")
     .setMaxThreads(1)
     .build();
 
