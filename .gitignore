@@ -1,7 +1,6 @@
 /flame
 /libraries
 /patches
-/src
 
 /minecraft/asm
 /minecraft/astralsorcery
@@ -62,3 +61,6 @@ minecraft/launcher_profiles.json
 minecraft/config/cleanroom_load_timings.dat
 minecraft/config/stellarcore_stitcher_cache_vanilla.dat
 minecraft/mods/submods/FTBQ Edit-1.0.1.jar
+/.idea
+/src
+minecraft/config/ProjectE/mapping.cfg
