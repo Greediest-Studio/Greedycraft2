@@ -3804,6 +3804,42 @@ paraxylene.stillLocation = "base:fluids/liquid";
 paraxylene.flowingLocation = "base:fluids/liquid_flow";
 paraxylene.register();
 
+val ethylbenzene = mods.contenttweaker.VanillaFactory.createFluid("ethylbenzene", Color.fromHex("76706a").getIntColor());
+ethylbenzene.material = <blockmaterial:water>;
+ethylbenzene.viscosity = 3000;
+ethylbenzene.density = 6500;
+ethylbenzene.colorize = true;
+ethylbenzene.temperature = 400;
+ethylbenzene.luminosity = 8;
+ethylbenzene.color = Color.fromHex("76706a").getIntColor();
+ethylbenzene.stillLocation = "base:fluids/liquid";
+ethylbenzene.flowingLocation = "base:fluids/liquid_flow";
+ethylbenzene.register();
+
+val styrene = mods.contenttweaker.VanillaFactory.createFluid("styrene", Color.fromHex("8a8276").getIntColor());
+styrene.material = <blockmaterial:water>;
+styrene.viscosity = 3000;
+styrene.density = 6500;
+styrene.colorize = true;
+styrene.temperature = 400;
+styrene.luminosity = 8;
+styrene.color = Color.fromHex("8a8276").getIntColor();
+styrene.stillLocation = "base:fluids/liquid";
+styrene.flowingLocation = "base:fluids/liquid_flow";
+styrene.register();
+
+val polystyrene = mods.contenttweaker.VanillaFactory.createFluid("polystyrene", Color.fromHex("d8d0bf").getIntColor());
+polystyrene.material = <blockmaterial:water>;
+polystyrene.viscosity = 3000;
+polystyrene.density = 6500;
+polystyrene.colorize = true;
+polystyrene.temperature = 400;
+polystyrene.luminosity = 8;
+polystyrene.color = Color.fromHex("d8d0bf").getIntColor();
+polystyrene.stillLocation = "base:fluids/liquid";
+polystyrene.flowingLocation = "base:fluids/liquid_flow";
+polystyrene.register();
+
 val c1_2_4_trimethylbenzene = mods.contenttweaker.VanillaFactory.createFluid("1_2_4_trimethylbenzene", Color.fromHex("6d6d6d").getIntColor());
 c1_2_4_trimethylbenzene.material = <blockmaterial:water>;
 c1_2_4_trimethylbenzene.viscosity = 3000;
@@ -3911,6 +3947,30 @@ c2_hydroxy_5_nitro_1_3_benzenedisulfonic_acid.color = Color.fromHex("666633").ge
 c2_hydroxy_5_nitro_1_3_benzenedisulfonic_acid.stillLocation = "base:fluids/liquid";
 c2_hydroxy_5_nitro_1_3_benzenedisulfonic_acid.flowingLocation = "base:fluids/liquid_flow";
 c2_hydroxy_5_nitro_1_3_benzenedisulfonic_acid.register();
+
+val chlorosulfonic_acid = mods.contenttweaker.VanillaFactory.createFluid("chlorosulfonic_acid", Color.fromHex("b8b39a").getIntColor());
+chlorosulfonic_acid.material = <blockmaterial:water>;
+chlorosulfonic_acid.viscosity = 3000;
+chlorosulfonic_acid.density = 6500;
+chlorosulfonic_acid.colorize = true;
+chlorosulfonic_acid.temperature = 400;
+chlorosulfonic_acid.luminosity = 8;
+chlorosulfonic_acid.color = Color.fromHex("b8b39a").getIntColor();
+chlorosulfonic_acid.stillLocation = "base:fluids/liquid";
+chlorosulfonic_acid.flowingLocation = "base:fluids/liquid_flow";
+chlorosulfonic_acid.register();
+
+val sulfonated_polystyrene = mods.contenttweaker.VanillaFactory.createFluid("sulfonated_polystyrene", Color.fromHex("8f5a45").getIntColor());
+sulfonated_polystyrene.material = <blockmaterial:water>;
+sulfonated_polystyrene.viscosity = 3000;
+sulfonated_polystyrene.density = 6500;
+sulfonated_polystyrene.colorize = true;
+sulfonated_polystyrene.temperature = 400;
+sulfonated_polystyrene.luminosity = 8;
+sulfonated_polystyrene.color = Color.fromHex("8f5a45").getIntColor();
+sulfonated_polystyrene.stillLocation = "base:fluids/liquid";
+sulfonated_polystyrene.flowingLocation = "base:fluids/liquid_flow";
+sulfonated_polystyrene.register();
 
 val mixed_hydrocarbon = mods.contenttweaker.VanillaFactory.createFluid("mixed_hydrocarbon", Color.fromHex("999999").getIntColor());
 mixed_hydrocarbon.material = <blockmaterial:water>;

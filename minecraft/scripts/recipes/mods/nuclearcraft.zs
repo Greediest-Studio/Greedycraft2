@@ -649,6 +649,8 @@ ChemicalReactor.addRecipe(<liquid:acetic_acid> * 1000, <liquid:liquidchlorine> *
 ChemicalReactor.addRecipe(<liquid:diethylenetriaminepentaacetic_acid_pentasodium_salt_solution> * 1000, <liquid:hydrochloric_acid> * 5000, <liquid:diethylenetriaminepentaacetic_acid_solution> * 666, <liquid:sodium_chloride> * 3330, 2.0d, 6.0d, 0.0d);
 ChemicalReactor.addRecipe(<liquid:benzene> * 250, <liquid:methanol> * 250, <liquid:toluene> * 250, <liquid:water> * 250);
 ChemicalReactor.addRecipe(<liquid:toluene> * 250, <liquid:methanol> * 250, <liquid:paraxylene> * 250, <liquid:water> * 250);
+ChemicalReactor.addRecipe(<liquid:liquidhydrogenchloride> * 1000, <liquid:sulfur_trioxide> * 1000, <liquid:chlorosulfonic_acid> * 1000, null);
+ChemicalReactor.addRecipe(<liquid:benzene> * 1000, <liquid:ethene> * 1000, <liquid:ethylbenzene> * 1000, null);
 ChemicalReactor.addRecipe(<liquid:paraxylene> * 250, <liquid:methanol> * 250, <liquid:1_2_4_trimethylbenzene> * 250, <liquid:water> * 250);
 ChemicalReactor.addRecipe(<liquid:1_2_4_trimethylbenzene> * 250, <liquid:methanol> * 250, <liquid:durene> * 250, <liquid:water> * 250);
 ChemicalReactor.addRecipe(<liquid:durene> * 250, <liquid:oxygen> * 1500, <liquid:pyromellitic_acid> * 250, <liquid:water> * 1000);

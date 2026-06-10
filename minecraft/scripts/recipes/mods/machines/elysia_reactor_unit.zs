@@ -70,5 +70,6 @@ function addExtraReactionRecipe(inputs as ILiquidStack[], outputs as ILiquidStac
 addExtraReactionRecipe([<liquid:fluorobenzene> * 250, <liquid:carbon_tetrachloride> * 125, <liquid:naoh> * 333], [<liquid:c4_i4_difluorodiphenylmethanone> * 125, <liquid:sodium_chloride> * 333]);
 addExtraReactionRecipe([<liquid:fluorobenzene> * 250, <liquid:carbon_tetrachloride> * 125, <liquid:koh> * 333], [<liquid:c4_i4_difluorodiphenylmethanone> * 125, <liquid:potassium_chloride> * 333]);    
 addExtraReactionRecipe([<liquid:diethylenetriamine> * 500, <liquid:chloroacetic_acid> * 2500, <liquid:sodium_hydroxide_solution> * 3330], [<liquid:diethylenetriaminepentaacetic_acid_pentasodium_salt_solution> * 500, <liquid:sodium_chloride> * 1665, <liquid:water> * 5000]);
+addExtraReactionRecipe([<liquid:polystyrene> * 144, <liquid:chlorosulfonic_acid> * 1000], [<liquid:sulfonated_polystyrene> * 144, <liquid:liquidhydrogenchloride> * 1000]);
 
 addExtraReactionRecipe([<liquid:calcium_lactate_solution> * 1000, <liquid:sulfuric_acid> * 1000], [<liquid:lactic_acid> * 1332, <liquid:calcium_sulfate_solution> * 666]);
