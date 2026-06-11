@@ -53,6 +53,7 @@ function addPolymerRecipe(inputs as ILiquidStack[], outputs as ILiquidStack[]) {
 //加聚
 addPolymerRecipe([<liquid:ethene> * 1000], [<liquid:polyethylene_low_density> * 144]);
 addPolymerRecipe([<liquid:styrene> * 1000], [<liquid:polystyrene> * 144]);
+addPolymerRecipe([<liquid:styrene> * 900, <liquid:divinylbenzene> * 100], [<liquid:styrene_divinylbenzene_copolymer> * 144]);
 addPolymerRecipe([<liquid:tetrafluoroethene> * 1000], [<liquid:polytetrafluoroethene> * 144]);
 addPolymerRecipe([<liquid:caprolactam> * 1000], [<liquid:nylon_6> * 144]);
 

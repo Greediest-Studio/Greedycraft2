@@ -344,6 +344,8 @@ addTableBasicRecipe(<additions:creative_alloy_ball>, <tconstruct:cast_custom:2>,
 addTableBasicRecipe(<additions:clock_alloy_ball>, <tconstruct:cast_custom:2>, <liquid:clock_alloy>, 30, false, 60);
 addTableBasicRecipe(<additions:blackhole_alloy_ball>, <tconstruct:cast_custom:2>, <liquid:blackhole_alloy>, 30, false, 60);
 addTableBasicRecipe(<additions:sulfonated_polystyrene_resin>, <erebus:materials:40>, <liquid:sulfonated_polystyrene>, 576, true, 100);
+addTableBasicRecipe(<additions:chelated_cation_exchange_resin>, <erebus:materials:40>, <liquid:chelating_cation_resin_base_solution>, 576, true, 100);
+addTableBasicRecipe(<additions:ultrafine_cation_exchange_resin>, <erebus:materials:40>, <liquid:ultrafine_cation_exchange_resin_base_solution>, 576, true, 100);
 
 Melting.removeRecipe(<liquid:gold>, <minecraft:golden_rail>);
 Melting.removeRecipe(<liquid:iron>, <minecraft:activator_rail>);

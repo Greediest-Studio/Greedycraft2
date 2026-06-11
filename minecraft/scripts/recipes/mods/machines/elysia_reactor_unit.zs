@@ -3,6 +3,7 @@
  */
 
 #priority 0
+#ikwid
 
 import crafttweaker.world.IWorld;
 import crafttweaker.item.IItemStack;
@@ -71,5 +72,17 @@ addExtraReactionRecipe([<liquid:fluorobenzene> * 250, <liquid:carbon_tetrachlori
 addExtraReactionRecipe([<liquid:fluorobenzene> * 250, <liquid:carbon_tetrachloride> * 125, <liquid:koh> * 333], [<liquid:c4_i4_difluorodiphenylmethanone> * 125, <liquid:potassium_chloride> * 333]);    
 addExtraReactionRecipe([<liquid:diethylenetriamine> * 500, <liquid:chloroacetic_acid> * 2500, <liquid:sodium_hydroxide_solution> * 3330], [<liquid:diethylenetriaminepentaacetic_acid_pentasodium_salt_solution> * 500, <liquid:sodium_chloride> * 1665, <liquid:water> * 5000]);
 addExtraReactionRecipe([<liquid:polystyrene> * 144, <liquid:chlorosulfonic_acid> * 1000], [<liquid:sulfonated_polystyrene> * 144, <liquid:liquidhydrogenchloride> * 1000]);
+addExtraReactionRecipe([<liquid:styrene_divinylbenzene_copolymer> * 144, <liquid:formaldehyde> * 1000, <liquid:liquidhydrogenchloride> * 1000], [<liquid:chloromethylated_styrene_divinylbenzene_copolymer> * 144, <liquid:water> * 1000]);
+addExtraReactionRecipe([<liquid:chloroacetic_acid> * 2000, <liquid:ammonia> * 1000, <liquid:sodium_hydroxide_solution> * 1332], [<liquid:iminodiacetic_acid_solution> * 666, <liquid:sodium_chloride> * 1332, <liquid:water> * 2000]);
+addExtraReactionRecipe([<liquid:chloromethylated_styrene_divinylbenzene_copolymer> * 144, <liquid:iminodiacetic_acid_solution> * 666, <liquid:sodium_hydroxide_solution> * 666], [<liquid:chelating_cation_resin_base_solution> * 144, <liquid:sodium_chloride> * 666, <liquid:water> * 1000]);
+addExtraReactionRecipe([<liquid:phosphorus_trichloride> * 1000, <liquid:water> * 3000], [<liquid:phosphorous_acid> * 1000, <liquid:liquidhydrogenchloride> * 3000]);
+addExtraReactionRecipe([<liquid:ethylene_glycol> * 5000], [<liquid:pentaethylene_glycol> * 1000, <liquid:water> * 4000]);
+addExtraReactionRecipe([<liquid:pentaethylene_glycol> * 1000, <liquid:liquidhydrogenchloride> * 2000], [<liquid:dichloropentaethylene_glycol> * 1000, <liquid:water> * 2000]);
+addExtraReactionRecipe([<liquid:4_nitrocatechol> * 1000, <liquid:dichloropentaethylene_glycol> * 1000, <liquid:sodium_hydroxide_solution> * 1332], [<liquid:nitrobenzo_18_crown_6_solution> * 666, <liquid:sodium_chloride> * 1332, <liquid:water> * 2000]);
+addExtraReactionRecipe([<liquid:nitrobenzo_18_crown_6_solution> * 666, <liquid:hydrogen> * 1500], [<liquid:aminobenzo_18_crown_6_solution> * 666, <liquid:water> * 1000]);
+addExtraReactionRecipe([<liquid:chloromethylated_styrene_divinylbenzene_copolymer> * 144, <liquid:phosphorous_acid> * 1000, <liquid:sodium_hydroxide_solution> * 666], [<liquid:phosphonated_styrene_divinylbenzene_copolymer> * 144, <liquid:sodium_chloride> * 666, <liquid:water> * 1000]);
+addExtraReactionRecipe([<liquid:phosphonated_styrene_divinylbenzene_copolymer> * 144, <liquid:aminobenzo_18_crown_6_solution> * 666, <liquid:formaldehyde> * 1000], [<liquid:crown_ether_phosphonated_styrene_divinylbenzene_copolymer> * 144, <liquid:water> * 1000]);
+addExtraReactionRecipe([<liquid:crown_ether_phosphonated_styrene_divinylbenzene_copolymer> * 144, <liquid:chlorosulfonic_acid> * 1000], [<liquid:crown_ether_phosphonic_sulfonated_styrene_divinylbenzene_copolymer> * 144, <liquid:liquidhydrogenchloride> * 1000]);
+addExtraReactionRecipe([<liquid:crown_ether_phosphonic_sulfonated_styrene_divinylbenzene_copolymer> * 144, <liquid:hydrochloric_acid> * 1000, <liquid:water> * 1000], [<liquid:ultrafine_cation_exchange_resin_base_solution> * 144]);
 
 addExtraReactionRecipe([<liquid:calcium_lactate_solution> * 1000, <liquid:sulfuric_acid> * 1000], [<liquid:lactic_acid> * 1332, <liquid:calcium_sulfate_solution> * 666]);

@@ -121,6 +121,15 @@ RecipeBuilder.newBuilder("ethylbenzene_dehydrogenation", "elysia_pyrolyzer", 120
     .setMaxThreads(1)
     .build();
 
+RecipeBuilder.newBuilder("p_diethylbenzene_dehydrogenation", "elysia_pyrolyzer", 120)
+    .addFluidInput(<liquid:p_diethylbenzene> * 1000)
+    .addEnergyPerTickInput(1024)
+    .addFluidOutput(<liquid:divinylbenzene> * 1000)
+    .addFluidOutput(<liquid:hydrogen> * 2000)
+    .addRecipeTooltip("Pyrolysis recipe supports modular capacitor upgrades.")
+    .setMaxThreads(1)
+    .build();
+
 RecipeBuilder.newBuilder("calcium_carbide", "elysia_pyrolyzer", 40)
     .addItemInput(<ore:dustCalciumOxide>)
     .addItemInput(<ore:fuelCoke> * 3)

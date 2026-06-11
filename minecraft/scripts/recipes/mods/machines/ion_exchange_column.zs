@@ -43,7 +43,7 @@ RecipeBuilder.newBuilder("ion_exchange_trinite_solution", "ion_exchange_column",
     .build();
 
 RecipeBuilder.newBuilder("ion_exchange_heavy_actinide_primary_cut", "ion_exchange_column", 1800)
-    .addItemInput(<additions:sulfonated_polystyrene_resin>)
+    .addItemInput(<additions:sulfonated_polystyrene_resin>).setChance(0.5f)
     .addFluidInput(<liquid:heavy_actinide_nitrate_solution> * 1000)
     .addFluidInput(<liquid:ammonium_alpha_hydroxyisobutyrate_solution> * 4000)
     .addEnergyPerTickInput(80000000)
@@ -54,7 +54,7 @@ RecipeBuilder.newBuilder("ion_exchange_heavy_actinide_primary_cut", "ion_exchang
     .build();
 
 RecipeBuilder.newBuilder("ion_exchange_americium_curium_cut", "ion_exchange_column", 1800)
-    .addItemInput(<additions:sulfonated_polystyrene_resin>)
+    .addItemInput(<additions:sulfonated_polystyrene_resin>).setChance(0.5f)
     .addFluidInput(<liquid:americium_curium_nitrate_solution> * 1000)
     .addFluidInput(<liquid:ammonium_alpha_hydroxyisobutyrate_solution> * 4000)
     .addEnergyPerTickInput(80000000)
@@ -65,7 +65,7 @@ RecipeBuilder.newBuilder("ion_exchange_americium_curium_cut", "ion_exchange_colu
     .build();
 
 RecipeBuilder.newBuilder("ion_exchange_transcurium_cut", "ion_exchange_column", 2400)
-    .addItemInput(<additions:chelated_cation_exchange_resin>)
+    .addItemInput(<additions:chelated_cation_exchange_resin>).setChance(0.5f)
     .addFluidInput(<liquid:transcurium_nitrate_solution> * 1000)
     .addFluidInput(<liquid:diethylenetriaminepentaacetic_acid_lactic_acid_eluent> * 5000)
     .addEnergyPerTickInput(100000000)
@@ -76,7 +76,7 @@ RecipeBuilder.newBuilder("ion_exchange_transcurium_cut", "ion_exchange_column", 
     .build();
 
 RecipeBuilder.newBuilder("ion_exchange_einsteinium_252_tail_cut", "ion_exchange_column", 3600)
-    .addItemInput(<additions:ultrafine_cation_exchange_resin>)
+    .addItemInput(<additions:ultrafine_cation_exchange_resin>).setChance(0.5f)
     .addFluidInput(<liquid:californium_einsteinium_nitrate_solution> * 1000)
     .addFluidInput(<liquid:diethylenetriaminepentaacetic_acid_lactic_acid_eluent> * 8000)
     .addEnergyPerTickInput(120000000)

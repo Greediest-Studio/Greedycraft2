@@ -814,7 +814,8 @@ GameStagesUtil.stageBetweenlandTraveller.addIngredients([
     <moretcon:itemtrichromadentiumsponge:2>,
     <moretcon:itemtrichromadentiumsponge:3>,
     <moretcon:itemtrichromadentiumsponge:4>,
-    <additions:between_essence>
+    <additions:between_essence>,
+    <additions:dirtshape>
 ], false);
 
 GameStagesUtil.stageWarped.addIngredients([
@@ -2044,6 +2045,7 @@ GameStagesUtil.stageEpicEngineer.addIngredients([
     <ore:sheetLDPE>,
     <ore:ingotPolyetheretherketone>,
     <ore:ingotPyroxene>,
+    <ore:ingotPolystyrene>,
     <additions:solid_culture_medium>,
     <ore:ingotNylon6>,
     <ore:blockNylon6>,
@@ -2109,7 +2111,24 @@ GameStagesUtil.stageEpicEngineer.addIngredients([
     <contenttweaker:pu_schmeared_be_mod>,
     <contenttweaker:hydrocarbon_mod>,
     <contenttweaker:cf_neutron_multiplier>,
-    <contenttweaker:gold_reflector>
+    <contenttweaker:gold_reflector>,
+    <ore:gemCalciumCarbide>,
+    <ore:dustUranylNitrate>,
+    <ore:dustNeptunylNitrate>,
+    <ore:dustPlutonylNitrate>,
+    <ore:dustAmericiumNitrate>,
+    <ore:dustCuriumNitrate>,
+    <ore:dustBerkeliumNitrate>,
+    <ore:dustCaliforniumNitrate>,
+    <ore:dustEinsteinium252Nitrate>,
+    <ore:dustSulfonatedPolystyreneResin>,
+    <ore:dustChelatedCationExchangeResin>,
+    <ore:dustUltrafineCationExchangeResin>,
+    <ore:dustZincChloride>,
+    <ore:dustCalciumAcetate>,
+    <ore:dustAlphaHydroxyisobutyricAcid>,
+    <ore:dustLacticAcid>,
+    <ore:dustDTPA>
 ], true);
 
 GameStagesUtil.stageChallenger1.addIngredients([
@@ -2416,7 +2435,8 @@ GameStagesUtil.stageFinal.addIngredients([
     <ore:dustEndoriumInfused>,
     <endexpansion:lamented>,
     <endexpansion:soul>,
-    <mmce_complement:blockcasing:1>
+    <mmce_complement:blockcasing:1>,
+    <additions:dragonbone_dust>
 ], false);
 
 GameStagesUtil.stageDeepDream.addIngredients([
@@ -2477,7 +2497,8 @@ GameStagesUtil.stageDeepDream.addIngredients([
     <ore:gemDubhe>,
     <ore:blockDubhe>,
     <ore:nuggetDubhe>,
-    <ore:dustDubhe>
+    <ore:dustDubhe>,
+    <additions:crimson_fabric_enhanced>
 ], false);
 
 GameStagesUtil.stageWakeUp.addIngredients([
