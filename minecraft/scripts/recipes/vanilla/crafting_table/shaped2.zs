@@ -1076,6 +1076,51 @@ RecipeUtil.addShaped("order", <whimcraft:order>, [
     [<ore:paper>, <cyclicmagic:carbon_paper>, <ore:paper>],
     [null, <ore:paper>, null]
 ]);
+RecipeUtil.addShaped("mana_eco_le4", <eco_expand:estorage_cell_mana_16m>, [
+    [null, <additions:durasteel_ingot>, null],
+    [<additions:durasteel_ingot>, <crazyae:material:25>, <additions:durasteel_ingot>],
+    [null, <additions:durasteel_ingot>, null]
+]);
+RecipeUtil.addShaped("mana_eco_le6", <eco_expand:estorage_cell_mana_64m>, [
+    [null, <additions:aeonsteel_ingot>, null],
+    [<additions:aeonsteel_ingot>, <eco_expand:estorage_cell_mana_16m>, <additions:aeonsteel_ingot>],
+    [null, <additions:aeonsteel_ingot>, null]
+]);
+RecipeUtil.addShaped("mana_eco_le9", <eco_expand:estorage_cell_mana_256m>, [
+    [null, <additions:chromasteel_ingot>, null],
+    [<additions:chromasteel_ingot>, <eco_expand:estorage_cell_mana_64m>, <additions:chromasteel_ingot>],
+    [null, <additions:chromasteel_ingot>, null]
+]);
+RecipeUtil.addShaped("rf_eco_le4", <eco_expand:estorage_cell_energy_16m>, [
+    [null, <additions:durasteel_ingot>, null],
+    [<additions:durasteel_ingot>, <crazyae:material:43>, <additions:durasteel_ingot>],
+    [null, <additions:durasteel_ingot>, null]
+]);
+RecipeUtil.addShaped("rf_eco_le6", <eco_expand:estorage_cell_energy_64m>, [
+    [null, <additions:aeonsteel_ingot>, null],
+    [<additions:aeonsteel_ingot>, <eco_expand:estorage_cell_energy_16m>, <additions:aeonsteel_ingot>],
+    [null, <additions:aeonsteel_ingot>, null]
+]);
+RecipeUtil.addShaped("rf_eco_le9", <eco_expand:estorage_cell_energy_256m>, [
+    [null, <additions:chromasteel_ingot>, null],
+    [<additions:chromasteel_ingot>, <eco_expand:estorage_cell_energy_64m>, <additions:chromasteel_ingot>],
+    [null, <additions:chromasteel_ingot>, null]
+]);
+RecipeUtil.addShaped("essentia_eco_le4", <eco_expand:estorage_cell_essentia_16m>, [
+    [null, <additions:durasteel_ingot>, null],
+    [<additions:durasteel_ingot>, <thaumicenergistics:essentia_component_16m>, <additions:durasteel_ingot>],
+    [null, <additions:durasteel_ingot>, null]
+]);
+RecipeUtil.addShaped("essentia_eco_le6", <eco_expand:estorage_cell_essentia_64m>, [
+    [null, <additions:aeonsteel_ingot>, null],
+    [<additions:aeonsteel_ingot>, <eco_expand:estorage_cell_essentia_16m>, <additions:aeonsteel_ingot>],
+    [null, <additions:aeonsteel_ingot>, null]
+]);
+RecipeUtil.addShaped("essentia_eco_le9", <eco_expand:estorage_cell_essentia_256m>, [
+    [null, <additions:chromasteel_ingot>, null],
+    [<additions:chromasteel_ingot>, <eco_expand:estorage_cell_essentia_64m>, <additions:chromasteel_ingot>],
+    [null, <additions:chromasteel_ingot>, null]
+]);
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],
