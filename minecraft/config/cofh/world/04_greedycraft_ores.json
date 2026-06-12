@@ -908,68 +908,6 @@
                 "value": [-1, 1]
             }
         },
-        "leaves": {
-            "enabled": "true",
-            "distribution": "cave",
-            "generator": {
-                "type": "large-vein",
-                "block": [{
-                        "name": "minecraft:leaves",
-                        "metadata": 4,
-                        "weight": 70
-                    },
-                    {
-                        "name": "minecraft:mossy_cobblestone",
-                        "weight": 30
-                    }
-                ],
-                "material": "minecraft:stone",
-                "cluster-size": 320
-            },
-            "cluster-count": 3,
-            "ceiling": "true",
-            "retrogen": "true",
-            "biome": {
-                "restriction": "whitelist",
-                "value": [{
-                        "type": "dictionary",
-                        "entry": "JUNGLE"
-                    },
-                    {
-                        "type": "dictionary",
-                        "entry": "DENSE"
-                    },
-                    {
-                        "type": "dictionary",
-                        "entry": "SWAMP"
-                    },
-                    {
-                        "type": "dictionary",
-                        "entry": "FOREST"
-                    },
-                    {
-                        "type": "dictionary",
-                        "entry": "LUSH"
-                    },
-                    {
-                        "type": "dictionary",
-                        "entry": "SPARSE"
-                    },
-                    {
-                        "type": "dictionary",
-                        "entry": "CONIFEROUS"
-                    },
-                    {
-                        "type": "dictionary",
-                        "entry": "SAVANNA"
-                    }
-                ]
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [-1, 1]
-            }
-        },
         "stalactite": {
             "enabled": "true",
             "distribution": "cave",
