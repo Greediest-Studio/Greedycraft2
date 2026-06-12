@@ -39,7 +39,7 @@ events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent
             } else {
                 server.commandManager.executeCommand(server, "/scoreboard players set " + LangUtil.translate("greedycraft.scoreboard.cheat_mode") + " title 1");
             }
-        } else if (player.hasGameStageSilent("truehero") && server.getCurrentPlayerCount() <= 1) {
+        } else if (player.hasGameStageSilent("truehero") && server.getPlayerCount() <= 1) {
             server.commandManager.executeCommand(server, "/scoreboard players set " + LangUtil.format("greedycraft.scoreboard.true_hero", player.name) + " title 1");
         }
         server.commandManager.executeCommand(server, "/scoreboard objectives setdisplay sidebar title");

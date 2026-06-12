@@ -9,15 +9,15 @@ import crafttweaker.text.ITextComponent;
 
 events.onWorldTick(function(event as crafttweaker.event.WorldTickEvent) {
     if (event.world.getWorldTime() as long % 100 == 0 && event.phase == "END" && event.side == "SERVER") {
-        event.world.setOrCreateGameRule("keepInventory", "true");
+        event.world.gameRules.setOrCreateGameRule("keepInventory", "true");
     }
 });
 
 events.onPlayerRespawn(function(event as crafttweaker.event.PlayerRespawnEvent) {
-    event.player.world.setOrCreateGameRule("keepInventory", "true");
+    event.player.world.gameRules.setOrCreateGameRule("keepInventory", "true");
 });
 
 events.onPlayerLoggedIn(function(event as crafttweaker.event.PlayerLoggedInEvent) {
-    event.player.world.setOrCreateGameRule("keepInventory", "true");
+    event.player.world.gameRules.setOrCreateGameRule("keepInventory", "true");
     server.commandManager.executeCommand(server, "/gamerule keepInventory true");
 });

@@ -637,18 +637,6 @@ alias = "mods/CraftingTweaks_1.12.2-9.0.1.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/crafttweaker-integration.pw.toml"
-hash = "0377fb8be919f959e79822a22aa49641e022b8160264e8dbeefd1927212ea03f"
-alias = "mods/ctintegration-1.8.0.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/crafttweaker-utils.pw.toml"
-hash = "607fa28ff96131e8ec58c8a2146d71016bb043181b4dc694695a1e01ca0dbf46"
-alias = "mods/crafttweakerutils-0.7.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/crafttweaker.pw.toml"
 hash = "c9ff684bf78472f09e6dbb4623cf636ddb0dc88c911bdc4cf0eb3dc32197f4d4"
 alias = "mods/CraftTweaker2-1.12-4.1.20.715.jar"
@@ -1447,12 +1435,6 @@ alias = "mods/MekanismMixinHelp-1.1.2.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/mekatweaker.pw.toml"
-hash = "181eab3362c4fc0153f27b0bb8fa0e4b6f947d767ec1ba718313dea05fbd7509"
-alias = "mods/mekatweaker-1.12-1.2.0.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/meowmeldrawers.pw.toml"
 hash = "23b1b5543062b6dd096f43421ad047f24f3ba6d2d6671806a5785e85adf37173"
 alias = "mods/MeowmelDrawers-1.12.2-5.6.0.jar"
@@ -2047,9 +2029,9 @@ alias = "mods/rftoolsctrl-1.12-2.0.2.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/rocky-tweaks.pw.toml"
-hash = "f18eafb7692f49ecb6a7f82bc16277b16ae5d6d67930c4c1765db8c63079b4d0"
-alias = "mods/rockytweaks-1.12.2-0.6.1.jar"
+file = "mods/.index/roid-s-tweaker.pw.toml"
+hash = "4fed2e5b4af2ac55946ed125c456270b303f5f4f4f3982a55be0ce5da24b1736"
+alias = "mods/roidtweaker-1.3.1.jar"
 metafile = true
 
 [[files]]

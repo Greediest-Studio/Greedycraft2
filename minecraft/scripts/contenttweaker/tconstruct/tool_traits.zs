@@ -131,7 +131,7 @@ $expand IItemStack$hasEnergy() as bool {
         return false;
     }
 }
-$expand IItemStack$getEnergy() as int {
+$expand IItemStack$getCustomEnergy() as int {
     if (this.hasEnergy()) {
         if (!isNull(this.tag.EvolvedEnergy)) {
             return this.tag.EvolvedEnergy as int;
@@ -163,19 +163,19 @@ $expand IMutableItemStack$setEnergy(num as int) as void {
 }
 $expand IMutableItemStack$addEnergy(num as int) as void {
     if (this.hasEnergy()) {
-        this.setEnergy(this.getEnergy() + num);
+        this.setEnergy(this.getCustomEnergy() + num);
     }
 }
 $expand IMutableItemStack$removeEnergy(num as int) as void {
     if (this.hasEnergy()) {
-        this.setEnergy(this.getEnergy() - num);
+        this.setEnergy(this.getCustomEnergy() - num);
     }
 }
 
 $expand IMutableItemStack$attemptDamageItemWithEnergy(num as int, player as IPlayer) as void {
     var slime as int = this.getOverslime();
     if (this.hasEnergy()) {
-        var energyDura as int = this.getEnergy() / 640;
+        var energyDura as int = this.getCustomEnergy() / 640;
         if (energyDura >= num) {
             this.removeEnergy(num * 640);
         } else {
@@ -297,8 +297,8 @@ function getManaBaublesAndItems(player as IPlayer) as IItemStack[] {
     return outputList;
 }
 
-function lognum(a as int, b as int) as float {
-    return (Math.log(b) as float / Math.log(a) as float) as float;
+function lognum(a as double, b as double) as float {
+    return (Math.log(b) / Math.log(a)) as float;
 }
 
 val poopTrait = ToolTraitBuilder.create("poopy");
@@ -1328,7 +1328,7 @@ for i in 2 to 11 {
     ToolTraitBuilder.create("lighting" + i).calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
         val player as IPlayer = attacker;
         if (player.getDimension() < 830 && player.getDimension() > 819) {
-            var amp = (1 + 2 * (Math.log(i) / Math.log(10))) as float;
+            var amp = (1 + 2 * (Math.log(i as double) / Math.log(10 as double))) as float;
             return newDamage * amp;
         }
         return newDamage;
@@ -5067,7 +5067,7 @@ archaeologistTrait.calcDamage = function(trait, tool, attacker, target, original
     if (attacker instanceof IPlayer) {
         var player as IPlayer = attacker;
         var y as float = player.position3f.y;
-        var multiplier as float = 0.0f - (Math.tanh(Math.log(1.5f) * (y - 128.0f) / 128.0f));
+        var multiplier as float = 0.0f - (Math.tanh(Math.log(1.5 as double) * (y - 128.0f) / 128.0f));
         return newDamage * (1.0f + multiplier) as float;
     }
     return newDamage;

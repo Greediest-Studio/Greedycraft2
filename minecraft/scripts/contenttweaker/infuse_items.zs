@@ -1,6 +1,5 @@
-#priority 2201
+#modloaded roidtweaker mekanism
 
-import crafttweaker.oredict.IOreDictEntry;
 import mods.mekatweaker.InfuserType;
 
 InfuserType.addTypeObject(<ore:dustOsgloglas>, "OSGLOGLAS", 10);
