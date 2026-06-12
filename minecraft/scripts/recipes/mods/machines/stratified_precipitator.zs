@@ -67,3 +67,13 @@ RecipeBuilder.newBuilder("calcium_carbonate_precipitation", "stratified_precipit
     .addFluidOutput(<liquid:water> * 1000)
     .setMaxThreads(1)
     .build();
+
+RecipeBuilder.newBuilder("selenous_acid_reduction", "stratified_precipitator", 600)
+    .addFluidInput(<liquid:selenous_acid_solution> * 1000)
+    .addFluidInput(<liquid:sulfur_dioxide> * 1000)
+    .addFluidInput(<liquid:water> * 1000)
+    .addEnergyPerTickInput(20000)
+    .addItemOutput(<jaopca:dust.selenium>)
+    .addFluidOutput(<liquid:sulfuric_acid> * 1000)
+    .setMaxThreads(1)
+    .build();

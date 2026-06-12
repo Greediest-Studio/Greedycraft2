@@ -16,10 +16,10 @@
 		items: [{
 			id: "forestry:bee_queen_ge",
 			tag: {
-				IsAnalyzed: 0b,
-				Health: 40,
 				MaxH: 40,
-				Genome: {
+				Health: 40,
+				IsAnalyzed: 0b,
+				Mate: {
 					Chromosomes: [{
 						Slot: 0b,
 						UID0: "forestry.speciesIndustrious",
@@ -86,7 +86,7 @@
 						UID1: "forestry.effectNone"
 					}]
 				},
-				Mate: {
+				Genome: {
 					Chromosomes: [{
 						Slot: 0b,
 						UID0: "forestry.speciesIndustrious",

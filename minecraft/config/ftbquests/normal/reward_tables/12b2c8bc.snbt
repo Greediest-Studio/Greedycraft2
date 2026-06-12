@@ -96,10 +96,10 @@
 			id: "draconicevolution:draconium_capacitor",
 			Damage: 1s,
 			tag: {
+				Energy: 768000000,
 				DEUpgrades: {
 					rfCap: 4b
-				},
-				Energy: 768000000
+				}
 			}
 		},
 		count: 2,

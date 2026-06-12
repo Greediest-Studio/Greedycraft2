@@ -28,8 +28,8 @@
 		item: {
 			id: "forge:bucketfilled",
 			tag: {
-				FluidName: "astralsorcery.liquidstarlight",
-				Amount: 1000
+				Amount: 1000,
+				FluidName: "astralsorcery.liquidstarlight"
 			}
 		},
 		count: 3

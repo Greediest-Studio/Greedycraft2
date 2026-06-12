@@ -16,7 +16,6 @@
 		items: [{
 			id: "thermalexpansion:device",
 			tag: {
-				Facing: 3b,
 				SideCache: [B;
 					0b,
 					1b,
@@ -25,6 +24,7 @@
 					0b,
 					0b
 				],
+				Facing: 3b,
 				RSControl: 0b,
 				Energy: 0
 			}

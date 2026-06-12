@@ -13,15 +13,15 @@
 			id: "astralsorcery:blockcollectorcrystal",
 			tag: {
 				astralsorcery: {
-					constellationName: "astralsorcery.constellation.discidia",
+					collectorType: 0,
 					crystalProperties: {
-						collectiveCapability: 100,
 						size: 400,
-						fract: 0,
+						sizeOverride: -1,
 						purity: 100,
-						sizeOverride: -1
+						collectiveCapability: 100,
+						fract: 0
 					},
-					collectorType: 0
+					constellationName: "astralsorcery.constellation.discidia"
 				}
 			}
 		},

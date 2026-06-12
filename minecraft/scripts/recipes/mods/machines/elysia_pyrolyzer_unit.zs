@@ -117,7 +117,7 @@ RecipeBuilder.newBuilder("ethylbenzene_dehydrogenation", "elysia_pyrolyzer", 120
     .addEnergyPerTickInput(1024)
     .addFluidOutput(<liquid:styrene> * 1000)
     .addFluidOutput(<liquid:hydrogen> * 1000)
-    .addRecipeTooltip("Pyrolysis recipe supports modular capacitor upgrades.")
+    .addRecipeTooltip("§d热解配方支持模块化电容升级，详情请查询“模块化电容”")
     .setMaxThreads(1)
     .build();
 
@@ -126,7 +126,7 @@ RecipeBuilder.newBuilder("p_diethylbenzene_dehydrogenation", "elysia_pyrolyzer",
     .addEnergyPerTickInput(1024)
     .addFluidOutput(<liquid:divinylbenzene> * 1000)
     .addFluidOutput(<liquid:hydrogen> * 2000)
-    .addRecipeTooltip("Pyrolysis recipe supports modular capacitor upgrades.")
+    .addRecipeTooltip("§d热解配方支持模块化电容升级，详情请查询“模块化电容”")
     .setMaxThreads(1)
     .build();
 
@@ -145,7 +145,7 @@ RecipeBuilder.newBuilder("calcium_acetate", "elysia_pyrolyzer", 80)
     .addEnergyPerTickInput(1024)
     .addFluidOutput(<liquid:acetone> * 1000)
     .addItemOutput(<additions:calcium_carbonate>)
-    .addRecipeTooltip("Pyrolysis recipe supports modular capacitor upgrades.")
+    .addRecipeTooltip("§d热解配方支持模块化电容升级，详情请查询“模块化电容”")
     .setMaxThreads(1)
     .build();
 
@@ -154,6 +154,26 @@ RecipeBuilder.newBuilder("tetrafluorosilicic_acid", "elysia_pyrolyzer", 60)
     .addEnergyPerTickInput(1024)
     .addFluidOutput(<liquid:silicon_tetrafluoride> * 500)
     .addFluidOutput(<liquid:hydrofluoric_acid> * 1000)
+    .addRecipeTooltip("§d热解配方支持模块化电容升级，详情请查询“模块化电容”")
+    .setMaxThreads(1)
+    .build();
+
+RecipeBuilder.newBuilder("selenium_tellurium_sulfur_ore_roasting", "elysia_pyrolyzer", 120)
+    .addItemInput(<ore:oreSulfur>)
+    .addFluidInput(<liquid:oxygen> * 1000)
+    .addEnergyPerTickInput(1024)
+    .addFluidOutput(<liquid:sulfur_dioxide> * 1000)
+    .addFluidOutput(<liquid:selenium_dioxide> * 144)
+    .addItemOutput(<additions:tellurium_calcine>)
+    .addRecipeTooltip("§d热解配方支持模块化电容升级，详情请查询“模块化电容”")
+    .setMaxThreads(1)
+    .build();
+
+RecipeBuilder.newBuilder("tellurium_calcine_alkaline_leaching", "elysia_pyrolyzer", 90)
+    .addItemInput(<additions:tellurium_calcine>)
+    .addFluidInput(<liquid:sodium_hydroxide_solution> * 666)
+    .addEnergyPerTickInput(1024)
+    .addFluidOutput(<liquid:sodium_tellurite_solution> * 666)
     .addRecipeTooltip("§d热解配方支持模块化电容升级，详情请查询“模块化电容”")
     .setMaxThreads(1)
     .build();

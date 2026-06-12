@@ -1039,7 +1039,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <modularmachinery:wave_forge_factory_controller>,
         <modularmachinery:crimson_extractor_factory_controller>,
         <modularmachinery:radiation_cleaner_factory_controller>,
-        <modularmachinery:ion_exchange_column_factory_controller>
+        <modularmachinery:ion_exchange_column_factory_controller>,
+        <modularmachinery:great_laser_alloyer_factory_controller>
     ],
     <ore:controllerLevel6> : [
         <modularmachinery:element_118_mixer_factory_controller>,
@@ -1114,7 +1115,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     ],
     <ore:gemSpiderLegTarantula> : [<additions:tarantula_leg>],
     <ore:crystalVoidic> : [<actuallyadditions:item_crystal:3>],
-    <ore:ingotEinsteinium252All> : [<contenttweaker:einsteinium52>]
+    <ore:ingotEinsteinium252All> : [<contenttweaker:einsteinium52>],
+    <ore:oreSulfur> : [<soot:sulfur_ore>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {

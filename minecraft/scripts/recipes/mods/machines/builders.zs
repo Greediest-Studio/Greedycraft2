@@ -415,6 +415,23 @@ addBuilderRecipe(<modularmachinery:aeonsteel_forge_factory_controller>, [
     <ore:ingotNetherite> * 4
 ], 2, 9600);
 
+addBuilderRecipe(<modularmachinery:solar_power_generator_factory_controller>, [
+    <additions:logic_processor_2> * 10,
+    <additions:calculation_processor_2> * 8,
+    <additions:engineering_processor_2> * 16,
+    <crazyae:material:48> * 16,
+    <threng:material:6> * 4,
+    <ore:ingotModularium> * 64,
+    <ore:ingotSilicon> * 48,
+    <ore:ingotGermanium> * 48,
+    <ore:ingotSteel> * 32,
+    <ore:ingotStainlessSteel> * 24,
+    <ore:ingotPulsatingIron> * 24,
+    <ore:ingotEndSteel> * 12,
+    <ore:ingotDurasteel> * 8
+], 2, 4800);
+
+
 addBuilderRecipe(<modularmachinery:builder_3_factory_controller>, [
     <additions:logic_processor_2> * 12,
     <additions:calculation_processor_2> * 12,
@@ -1008,6 +1025,24 @@ addBuilderRecipe(<modularmachinery:radiation_cleaner_factory_controller>, [
     <ore:ingotIrradium> * 16,
     <minecraft:sponge> * 128
 ], 5, 4000);
+
+addBuilderRecipe(<modularmachinery:great_laser_alloyer_factory_controller>, [
+    <additions:logic_processor_3> * 45,
+    <additions:calculation_processor_3> * 18,
+    <additions:engineering_processor_3> * 25,
+    <crazyae:material:16> * 32,
+    <threng:material:6> * 24,
+    <threng:material:14> * 16,
+    <ore:ingotModularium> * 150,
+    <ore:ingotRedstoneAlloy> * 128,
+    <ore:ingotOsgloglas> * 96,
+    <ore:ingotNebu> * 64,
+    <ore:ingotZirconiumMolybdenum> * 64,
+    <ore:ingotCosmilite> * 48,
+    <ore:ingotExtreme> * 48,
+    <ore:ingotPlutonium> * 32,
+    <ore:gemJade> * 64
+], 5, 5000);
 
 //Units
 addBuilderRecipe(<modularmachinery:elysia_alloyer_factory_controller>, [

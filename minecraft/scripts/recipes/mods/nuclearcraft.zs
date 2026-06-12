@@ -123,6 +123,7 @@ CreateElementMixer(<ore:ingotAmericium>, <ore:dustAmericium>, <nuclearcraft:amer
 CreateElementMixer(<ore:ingotCurium>, <ore:dustCurium>, <nuclearcraft:curium:15>, <nuclearcraft:curium:5>, <liquid:curium>, <liquid:curium_247>, <liquid:curium_245>, 5, 1);
 CreateElementMixer(<ore:ingotBerkelium>, <ore:dustBerkelium>, <nuclearcraft:berkelium>, <nuclearcraft:berkelium:5>, <liquid:berkelium>, <liquid:berkelium_247>, <liquid:berkelium_248>, 4, 1);
 CreateElementMixer(<ore:ingotCalifornium>, <ore:dustCalifornium>, <nuclearcraft:californium:10>, <nuclearcraft:californium>, <liquid:californium>, <liquid:californium_251>, <liquid:californium_249>, 3, 2);
+CreateElementMixer(<ore:ingotEinsteinium>, <ore:dustEinsteinium>, <contenttweaker:einsteinium55>, <contenttweaker:einsteinium52>, <liquid:einsteinium>, <liquid:einsteinium_255>, <liquid:einsteinium_252>, 5, 1);
 
 Melter.removeRecipeWithInput(<nuclearcraft:gem_dust:10>);
 Melter.removeRecipeWithInput(<nuclearcraft:gem:6>);
@@ -623,6 +624,14 @@ ChemicalReactor.addRecipe(<liquid:zinc_chloride> * 333, <liquid:water> * 500, <l
 ChemicalReactor.addRecipe(<liquid:manganese_chloride> * 333, <liquid:water> * 500, <liquid:manganese_chloride_solution> * 333, null);
 ChemicalReactor.addRecipe(<liquid:molybdenum> * 72, <liquid:oxygen> * 750, <liquid:molybdenum_trioxide> * 333, null);
 ChemicalReactor.addRecipe(<liquid:molybdenum_trioxide> * 333, <liquid:sodium_hydroxide_solution> * 666, <liquid:sodium_molybdate_solution> * 333, <liquid:water> * 500);
+ChemicalReactor.addRecipe(<liquid:cadmium> * 144, <liquid:oxygen> * 500, <liquid:cadmium_oxide> * 666, null);
+ChemicalReactor.addRecipe(<liquid:cadmium> * 144, <liquid:sulfur> * 144, <liquid:cadmium_sulfide> * 666, null);
+ChemicalReactor.addRecipe(<liquid:cadmium> * 144, <liquid:selenium> * 144, <liquid:cadmium_selenide> * 666, null);
+ChemicalReactor.addRecipe(<liquid:cadmium> * 144, <liquid:tellurium> * 144, <liquid:cadmium_telluride> * 666, null);
+ChemicalReactor.addRecipe(<liquid:cadmium> * 144, <liquid:polonium> * 144, <liquid:cadmium_polonide> * 666, null);
+ChemicalReactor.addRecipe(<liquid:selenium_dioxide> * 144, <liquid:water> * 1000, <liquid:selenous_acid_solution> * 1000, null);
+ChemicalReactor.addRecipe(<liquid:sodium_tellurite_solution> * 666, <liquid:sulfuric_acid> * 1000, <liquid:tellurous_acid_solution> * 666, <liquid:sodium_sulfate_solution> * 666);
+ChemicalReactor.addRecipe(<liquid:tellurous_acid_solution> * 666, <liquid:hydrogen> * 1000, <liquid:tellurium> * 144, <liquid:water> * 1000);
 ChemicalReactor.addRecipe(<liquid:rich_brine> * 500, <liquid:ammonia> * 500, <liquid:ammonia_brine> * 500, null);
 ChemicalReactor.addRecipe(<liquid:c4_i4_difluorodiphenylmethanone> * 250, <liquid:hydroquinone_solution> * 250, <liquid:polyetheretherketone> * 36, <liquid:hydrofluoric_acid> * 500);
 ChemicalReactor.addRecipe(<liquid:uranyl_nitrate> * 666, <liquid:hydrogen> * 1500, <liquid:uranium> * 144, <liquid:nitrogen_dioxide> * 250, 2.0d, 4.0d, 0.0d);
@@ -912,7 +921,7 @@ Radiation.setMaterialRadiationLevel("AmericiumNitrate", number(1.22d, m));
 Radiation.setMaterialRadiationLevel("CuriumNitrate", number(40.5d, u));
 Radiation.setMaterialRadiationLevel("BerkeliumNitrate", number(950.0d, u));
 Radiation.setMaterialRadiationLevel("CaliforniumNitrate", number(1.6d, m));
-Radiation.setMaterialRadiationLevel("Einsteinium252", 0.012d);
+Radiation.setMaterialRadiationLevel("Einsteinium252All", 0.012d);
 Radiation.setMaterialRadiationLevel("Einsteinium252Nitrate", 0.006d);
 
 Radiation.setMaterialPrefixRadiationMultiplier("gem", 1.0d);

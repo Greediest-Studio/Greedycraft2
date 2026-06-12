@@ -16,7 +16,6 @@
 			id: "thermalexpansion:machine",
 			Damage: 1s,
 			tag: {
-				Facing: 3b,
 				SideCache: [B;
 					3b,
 					1b,
@@ -25,9 +24,10 @@
 					2b,
 					2b
 				],
+				Facing: 3b,
 				RSControl: 0b,
-				Energy: 0,
-				Level: 0b
+				Level: 0b,
+				Energy: 0
 			}
 		}],
 		ignore_nbt: 1b

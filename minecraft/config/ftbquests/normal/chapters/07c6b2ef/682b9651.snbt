@@ -16,9 +16,9 @@
 			id: "thermalexpansion:dynamo",
 			Damage: 5s,
 			tag: {
+				Energy: 0,
 				Facing: 1b,
 				RSControl: 0b,
-				Energy: 0,
 				Level: 0b
 			}
 		}],

@@ -993,6 +993,42 @@ molten_niobium.stillLocation = "base:fluids/molten";
 molten_niobium.flowingLocation = "base:fluids/molten_flowing";
 molten_niobium.register();
 
+val molten_horizonite = mods.contenttweaker.VanillaFactory.createFluid("horizonite", Color.fromHex("fcab39").getIntColor()); 
+molten_horizonite.material = <blockmaterial:lava>;
+molten_horizonite.viscosity = 3000;
+molten_horizonite.density = 6500;
+molten_horizonite.colorize = true;
+molten_horizonite.temperature = 1000;
+molten_horizonite.luminosity = 10;
+molten_horizonite.color = Color.fromHex("fcab39").getIntColor();
+molten_horizonite.stillLocation = "base:fluids/molten";
+molten_horizonite.flowingLocation = "base:fluids/molten_flowing";
+molten_horizonite.register();
+
+val molten_falsite = mods.contenttweaker.VanillaFactory.createFluid("falsite", Color.fromHex("7561e2").getIntColor()); 
+molten_falsite.material = <blockmaterial:lava>;
+molten_falsite.viscosity = 3000;
+molten_falsite.density = 6500;
+molten_falsite.colorize = true;
+molten_falsite.temperature = 1000;
+molten_falsite.luminosity = 10;
+molten_falsite.color = Color.fromHex("7561e2").getIntColor();
+molten_falsite.stillLocation = "base:fluids/molten";
+molten_falsite.flowingLocation = "base:fluids/molten_flowing";
+molten_falsite.register();
+
+val molten_ventium = mods.contenttweaker.VanillaFactory.createFluid("ventium", Color.fromHex("cf2532").getIntColor()); 
+molten_ventium.material = <blockmaterial:lava>;
+molten_ventium.viscosity = 3000;
+molten_ventium.density = 6500;
+molten_ventium.colorize = true;
+molten_ventium.temperature = 1000;
+molten_ventium.luminosity = 10;
+molten_ventium.color = Color.fromHex("cf2532").getIntColor();
+molten_ventium.stillLocation = "base:fluids/molten";
+molten_ventium.flowingLocation = "base:fluids/molten_flowing";
+molten_ventium.register();
+
 val molten_apocalypsium = mods.contenttweaker.VanillaFactory.createFluid("apocalypsium", Color.fromHex("8b0000").getIntColor()); 
 molten_apocalypsium.material = <blockmaterial:lava>;
 molten_apocalypsium.viscosity = 3000;
@@ -4631,6 +4667,54 @@ concentrated_soul_liquid.color = Color.fromHex("afa68b").getIntColor();
 concentrated_soul_liquid.stillLocation = "base:fluids/liquid";
 concentrated_soul_liquid.flowingLocation = "base:fluids/liquid_flow";
 concentrated_soul_liquid.register();
+
+val selenium_dioxide = mods.contenttweaker.VanillaFactory.createFluid("selenium_dioxide", Color.fromHex("fff3c4").getIntColor());
+selenium_dioxide.material = <blockmaterial:water>;
+selenium_dioxide.viscosity = 120;
+selenium_dioxide.density = -100;
+selenium_dioxide.colorize = true;
+selenium_dioxide.temperature = 590;
+selenium_dioxide.luminosity = 0;
+selenium_dioxide.color = Color.fromHex("fff3c4").getIntColor();
+selenium_dioxide.stillLocation = "base:fluids/liquid";
+selenium_dioxide.flowingLocation = "base:fluids/liquid_flow";
+selenium_dioxide.register();
+
+val selenous_acid_solution = mods.contenttweaker.VanillaFactory.createFluid("selenous_acid_solution", Color.fromHex("f2e6b6").getIntColor());
+selenous_acid_solution.material = <blockmaterial:water>;
+selenous_acid_solution.viscosity = 500;
+selenous_acid_solution.density = 1200;
+selenous_acid_solution.colorize = true;
+selenous_acid_solution.temperature = 400;
+selenous_acid_solution.luminosity = 0;
+selenous_acid_solution.color = Color.fromHex("f2e6b6").getIntColor();
+selenous_acid_solution.stillLocation = "base:fluids/liquid";
+selenous_acid_solution.flowingLocation = "base:fluids/liquid_flow";
+selenous_acid_solution.register();
+
+val sodium_tellurite_solution = mods.contenttweaker.VanillaFactory.createFluid("sodium_tellurite_solution", Color.fromHex("c6d0d4").getIntColor());
+sodium_tellurite_solution.material = <blockmaterial:water>;
+sodium_tellurite_solution.viscosity = 600;
+sodium_tellurite_solution.density = 1300;
+sodium_tellurite_solution.colorize = true;
+sodium_tellurite_solution.temperature = 400;
+sodium_tellurite_solution.luminosity = 0;
+sodium_tellurite_solution.color = Color.fromHex("c6d0d4").getIntColor();
+sodium_tellurite_solution.stillLocation = "base:fluids/liquid";
+sodium_tellurite_solution.flowingLocation = "base:fluids/liquid_flow";
+sodium_tellurite_solution.register();
+
+val tellurous_acid_solution = mods.contenttweaker.VanillaFactory.createFluid("tellurous_acid_solution", Color.fromHex("d9d2bd").getIntColor());
+tellurous_acid_solution.material = <blockmaterial:water>;
+tellurous_acid_solution.viscosity = 700;
+tellurous_acid_solution.density = 1400;
+tellurous_acid_solution.colorize = true;
+tellurous_acid_solution.temperature = 400;
+tellurous_acid_solution.luminosity = 0;
+tellurous_acid_solution.color = Color.fromHex("d9d2bd").getIntColor();
+tellurous_acid_solution.stillLocation = "base:fluids/liquid";
+tellurous_acid_solution.flowingLocation = "base:fluids/liquid_flow";
+tellurous_acid_solution.register();
 
 val erebus_organic_fluid = mods.contenttweaker.VanillaFactory.createFluid("erebus_organic_fluid", Color.fromHex("798226").getIntColor());
 erebus_organic_fluid.material = <blockmaterial:water>;

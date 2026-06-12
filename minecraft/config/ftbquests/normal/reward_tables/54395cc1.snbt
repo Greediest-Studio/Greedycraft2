@@ -221,6 +221,13 @@
 		item: {
 			id: "minecraft:potion",
 			tag: {
+				display: {
+					Name: "§b§o卡其脱离太",
+					Lore: [
+						"§a感受疾风吧！"
+					]
+				},
+				CustomPotionColor: 720859,
 				CustomPotionEffects: [{
 					ShowParticles: 0b,
 					Duration: 2400,
@@ -232,14 +239,7 @@
 					Duration: 2400,
 					Id: 8,
 					Amplifier: 126
-				}],
-				CustomPotionColor: 720859,
-				display: {
-					Lore: [
-						"§a感受疾风吧！"
-					],
-					Name: "§b§o卡其脱离太"
-				}
+				}]
 			}
 		}
 	},
@@ -273,16 +273,16 @@
 		item: {
 			id: "minecraft:stick",
 			tag: {
+				display: {
+					Name: "§b击退之杖",
+					Lore: [
+						"§d§o你不要过来啊！！！"
+					]
+				},
 				ench: [{
 					lvl: 10,
 					id: 19
-				}],
-				display: {
-					Lore: [
-						"§d§o你不要过来啊！！！"
-					],
-					Name: "§b击退之杖"
-				}
+				}]
 			}
 		}
 	},
@@ -290,248 +290,248 @@
 		item: {
 			id: "minecraft:blue_shulker_box",
 			tag: {
+				display: {
+					Name: "§c套娃之箱",
+					Lore: [
+						"§b禁止套娃！！"
+					]
+				},
 				BlockEntityTag: {
 					Items: [{
 						Slot: 0,
 						id: "blue_shulker_box",
 						Count: 1,
 						tag: {
+							display: {
+								Name: "§c套娃之箱",
+								Lore: [
+									"§b禁止套娃！！"
+								]
+							},
 							BlockEntityTag: {
 								Items: [{
 									Slot: 0,
 									id: "blue_shulker_box",
 									Count: 1,
 									tag: {
+										display: {
+											Name: "§c套娃之箱",
+											Lore: [
+												"§b禁止套娃！！"
+											]
+										},
 										BlockEntityTag: {
 											Items: [{
 												Slot: 0,
 												id: "blue_shulker_box",
 												Count: 1,
 												tag: {
+													display: {
+														Name: "§c套娃之箱",
+														Lore: [
+															"§b禁止套娃！！"
+														]
+													},
 													BlockEntityTag: {
 														Items: [{
 															Slot: 0,
 															id: "blue_shulker_box",
 															Count: 1,
 															tag: {
+																display: {
+																	Name: "§c套娃之箱",
+																	Lore: [
+																		"§b禁止套娃！！"
+																	]
+																},
 																BlockEntityTag: {
 																	Items: [{
 																		Slot: 0,
 																		id: "blue_shulker_box",
 																		Count: 1,
 																		tag: {
+																			display: {
+																				Name: "§c套娃之箱",
+																				Lore: [
+																					"§b禁止套娃！！"
+																				]
+																			},
 																			BlockEntityTag: {
 																				Items: [{
 																					Slot: 0,
 																					id: "blue_shulker_box",
 																					Count: 1,
 																					tag: {
+																						display: {
+																							Name: "§c套娃之箱",
+																							Lore: [
+																								"§b禁止套娃！！"
+																							]
+																						},
 																						BlockEntityTag: {
 																							Items: [{
 																								Slot: 0,
 																								id: "blue_shulker_box",
 																								Count: 1,
 																								tag: {
+																									display: {
+																										Name: "§c套娃之箱",
+																										Lore: [
+																											"§b禁止套娃！！"
+																										]
+																									},
 																									BlockEntityTag: {
 																										Items: [{
 																											Slot: 0,
 																											id: "blue_shulker_box",
 																											Count: 1,
 																											tag: {
+																												display: {
+																													Name: "§c套娃之箱",
+																													Lore: [
+																														"§b禁止套娃！！"
+																													]
+																												},
 																												BlockEntityTag: {
 																													Items: [{
 																														Slot: 0,
 																														id: "blue_shulker_box",
 																														Count: 1,
 																														tag: {
+																															display: {
+																																Name: "§c套娃之箱",
+																																Lore: [
+																																	"§b禁止套娃！！"
+																																]
+																															},
 																															BlockEntityTag: {
 																																Items: [{
 																																	Slot: 0,
 																																	id: "blue_shulker_box",
 																																	Count: 1,
 																																	tag: {
+																																		display: {
+																																			Name: "§c套娃之箱",
+																																			Lore: [
+																																				"§b禁止套娃！！"
+																																			]
+																																		},
 																																		BlockEntityTag: {
 																																			Items: [{
 																																				Slot: 0,
 																																				id: "blue_shulker_box",
 																																				Count: 1,
 																																				tag: {
+																																					display: {
+																																						Name: "§c套娃之箱",
+																																						Lore: [
+																																							"§b禁止套娃！！"
+																																						]
+																																					},
 																																					BlockEntityTag: {
 																																						Items: [{
 																																							Slot: 0,
 																																							id: "blue_shulker_box",
 																																							Count: 1,
 																																							tag: {
+																																								display: {
+																																									Name: "§c套娃之箱",
+																																									Lore: [
+																																										"§b禁止套娃！！"
+																																									]
+																																								},
 																																								BlockEntityTag: {
 																																									Items: [{
 																																										Slot: 0,
 																																										id: "blue_shulker_box",
 																																										Count: 1,
 																																										tag: {
+																																											display: {
+																																												Name: "§c套娃之箱",
+																																												Lore: [
+																																													"§b禁止套娃！！"
+																																												]
+																																											},
 																																											BlockEntityTag: {
 																																												Items: [{
 																																													Slot: 0,
 																																													id: "blue_shulker_box",
 																																													Count: 1,
 																																													tag: {
+																																														display: {
+																																															Name: "§c套娃之箱",
+																																															Lore: [
+																																																"§b禁止套娃！！"
+																																															]
+																																														},
 																																														BlockEntityTag: {
 																																															Items: [{
 																																																Slot: 0,
 																																																id: "blue_shulker_box",
 																																																Count: 1,
 																																																tag: {
+																																																	display: {
+																																																		Name: "§d§o最后的箱子",
+																																																		Lore: [
+																																																			"§b§o看来你已经到达了终点。"
+																																																		]
+																																																	},
 																																																	BlockEntityTag: {
 																																																		Items: [{
 																																																			Slot: 0,
-																																																			id: "gold_block",
-																																																			Count: 32
+																																																			Count: 32,
+																																																			id: "gold_block"
 																																																		},
 																																																		{
 																																																			Slot: 1,
-																																																			id: "diamond_block",
-																																																			Count: 16
+																																																			Count: 16,
+																																																			id: "diamond_block"
 																																																		}]
-																																																	},
-																																																	display: {
-																																																		Lore: [
-																																																			"§b§o看来你已经到达了终点。"
-																																																		],
-																																																		Name: "§d§o最后的箱子"
 																																																	}
 																																																}
 																																															}]
-																																														},
-																																														display: {
-																																															Lore: [
-																																																"§b禁止套娃！！"
-																																															],
-																																															Name: "§c套娃之箱"
 																																														}
 																																													}
 																																												}]
-																																											},
-																																											display: {
-																																												Lore: [
-																																													"§b禁止套娃！！"
-																																												],
-																																												Name: "§c套娃之箱"
 																																											}
 																																										}
 																																									}]
-																																								},
-																																								display: {
-																																									Lore: [
-																																										"§b禁止套娃！！"
-																																									],
-																																									Name: "§c套娃之箱"
 																																								}
 																																							}
 																																						}]
-																																					},
-																																					display: {
-																																						Lore: [
-																																							"§b禁止套娃！！"
-																																						],
-																																						Name: "§c套娃之箱"
 																																					}
 																																				}
 																																			}]
-																																		},
-																																		display: {
-																																			Lore: [
-																																				"§b禁止套娃！！"
-																																			],
-																																			Name: "§c套娃之箱"
 																																		}
 																																	}
 																																}]
-																															},
-																															display: {
-																																Lore: [
-																																	"§b禁止套娃！！"
-																																],
-																																Name: "§c套娃之箱"
 																															}
 																														}
 																													}]
-																												},
-																												display: {
-																													Lore: [
-																														"§b禁止套娃！！"
-																													],
-																													Name: "§c套娃之箱"
 																												}
 																											}
 																										}]
-																									},
-																									display: {
-																										Lore: [
-																											"§b禁止套娃！！"
-																										],
-																										Name: "§c套娃之箱"
 																									}
 																								}
 																							}]
-																						},
-																						display: {
-																							Lore: [
-																								"§b禁止套娃！！"
-																							],
-																							Name: "§c套娃之箱"
 																						}
 																					}
 																				}]
-																			},
-																			display: {
-																				Lore: [
-																					"§b禁止套娃！！"
-																				],
-																				Name: "§c套娃之箱"
 																			}
 																		}
 																	}]
-																},
-																display: {
-																	Lore: [
-																		"§b禁止套娃！！"
-																	],
-																	Name: "§c套娃之箱"
 																}
 															}
 														}]
-													},
-													display: {
-														Lore: [
-															"§b禁止套娃！！"
-														],
-														Name: "§c套娃之箱"
 													}
 												}
 											}]
-										},
-										display: {
-											Lore: [
-												"§b禁止套娃！！"
-											],
-											Name: "§c套娃之箱"
 										}
 									}
 								}]
-							},
-							display: {
-								Lore: [
-									"§b禁止套娃！！"
-								],
-								Name: "§c套娃之箱"
 							}
 						}
 					}]
-				},
-				display: {
-					Lore: [
-						"§b禁止套娃！！"
-					],
-					Name: "§c套娃之箱"
 				}
 			}
 		}
@@ -759,13 +759,13 @@
 			tag: {
 				SkullOwner: {
 					Id: "2d06868c-6d9b-433a-a356-1a7993b62b8d",
+					Name: "TCreopargh",
 					Properties: {
 						textures: [{
-							Signature: "O0XiCmq/OoNtTpR6LkV2ktMJ0Ao1Y8hReDuOjUeol4fPgOo4+nwDdlcRn/+yammpzHwZRHGLxVbBWhY7cMfXQtAh3jTQ8WLl+6HGzGZsx2SFi0wc8PTrETwkb9Ax/MrHK1rqe/dcA1P0OHBl+khHce0dnhELMb2ZPo321UUlt+wvkGR+sTxJuplu5BUVyD9iX7tuylecg0JYg7M2RIKQ0F2cQppgs/bXc5kGim88pb577qKVnHeOPNi2is59/izYf2emJngfmpU5WR1qyTLAvwSdngEKGgczCj3+NMLERicJKA3Mmo7aJVmkIk+GJHxZIt3V4p6x9nhcYCDxQP2Mghb+OdtjNZrgIVwa9bAY/uODSPxB58IbtExttnfwfCn/K+x2kLX0vjuTYexLiqDEW3ryU9dV0MxCAXdTBWtuZiPgfQmhMTtqnmwFaJhL2DU+QUTtWUxkpn/F+dzO0qzA5Gxfy2+vysHjWdBVrBAA2APvIAGrTOwk/tFdxVZMDh6De5BoyK7JEClYGiD+7m7nAcnf5NsZQx86tZIxB+pZcK8uqs0ZhMApwsGd1ZIZ2aEDvk+Cv2X2M6YtzYeWMTqh7Z6KzZBvo67lYHRGv7LzkzXQISHBoxhtXNGh0qS3/7P0UbyBT7ZQQXJSchCXuA9IYFnbQeO16HsvMeI9gJQlCD8=",
-							Value: "ewogICJ0aW1lc3RhbXAiIDogMTU5NzkyODU1Njg0MywKICAicHJvZmlsZUlkIiA6ICIyZDA2ODY4YzZkOWI0MzNhYTM1NjFhNzk5M2I2MmI4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUQ3Jlb3BhcmdoIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE5Zjc4MTI1OTc4NTQ2NzZlYjljOGNkYjBkNjAzZjY4MDgxM2E0ZjQ1MGIyZWMyODE3OGE2ZWE4ZWI2YjE4MDYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+							Value: "ewogICJ0aW1lc3RhbXAiIDogMTU5NzkyODU1Njg0MywKICAicHJvZmlsZUlkIiA6ICIyZDA2ODY4YzZkOWI0MzNhYTM1NjFhNzk5M2I2MmI4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUQ3Jlb3BhcmdoIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE5Zjc4MTI1OTc4NTQ2NzZlYjljOGNkYjBkNjAzZjY4MDgxM2E0ZjQ1MGIyZWMyODE3OGE2ZWE4ZWI2YjE4MDYiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+							Signature: "O0XiCmq/OoNtTpR6LkV2ktMJ0Ao1Y8hReDuOjUeol4fPgOo4+nwDdlcRn/+yammpzHwZRHGLxVbBWhY7cMfXQtAh3jTQ8WLl+6HGzGZsx2SFi0wc8PTrETwkb9Ax/MrHK1rqe/dcA1P0OHBl+khHce0dnhELMb2ZPo321UUlt+wvkGR+sTxJuplu5BUVyD9iX7tuylecg0JYg7M2RIKQ0F2cQppgs/bXc5kGim88pb577qKVnHeOPNi2is59/izYf2emJngfmpU5WR1qyTLAvwSdngEKGgczCj3+NMLERicJKA3Mmo7aJVmkIk+GJHxZIt3V4p6x9nhcYCDxQP2Mghb+OdtjNZrgIVwa9bAY/uODSPxB58IbtExttnfwfCn/K+x2kLX0vjuTYexLiqDEW3ryU9dV0MxCAXdTBWtuZiPgfQmhMTtqnmwFaJhL2DU+QUTtWUxkpn/F+dzO0qzA5Gxfy2+vysHjWdBVrBAA2APvIAGrTOwk/tFdxVZMDh6De5BoyK7JEClYGiD+7m7nAcnf5NsZQx86tZIxB+pZcK8uqs0ZhMApwsGd1ZIZ2aEDvk+Cv2X2M6YtzYeWMTqh7Z6KzZBvo67lYHRGv7LzkzXQISHBoxhtXNGh0qS3/7P0UbyBT7ZQQXJSchCXuA9IYFnbQeO16HsvMeI9gJQlCD8="
 						}]
-					},
-					Name: "TCreopargh"
+					}
 				}
 			}
 		},
@@ -789,11 +789,8 @@
 		item: {
 			id: "minecraft:diamond_sword",
 			tag: {
-				ench: [{
-					lvl: 1,
-					id: 255
-				}],
 				display: {
+					Name: "§c至§6尊§e欧§a皇§b之§9剑",
 					Lore: [
 						"§9+2147483647 近战伤害",
 						"§7锋利 32767",
@@ -806,9 +803,12 @@
 						"§b无法破坏",
 						"§d有0.0000114514%概率从奖励箱获得",
 						"§0§o以上均为胡扯§r"
-					],
-					Name: "§c至§6尊§e欧§a皇§b之§9剑"
-				}
+					]
+				},
+				ench: [{
+					lvl: 1,
+					id: 255
+				}]
 			}
 		}
 	},
@@ -823,8 +823,8 @@
 					Name: "§eTCreopargh§b的刷怪蛋"
 				},
 				EntityTag: {
-					Username: "TCreopargh",
-					id: "headcrumbs:human"
+					id: "headcrumbs:human",
+					Username: "TCreopargh"
 				}
 			}
 		}
@@ -878,16 +878,16 @@
 		item: {
 			id: "minecraft:stick",
 			tag: {
+				display: {
+					Name: "§b击退之杖",
+					Lore: [
+						"§d§o你不要过来啊！！！"
+					]
+				},
 				ench: [{
 					lvl: 10,
 					id: 19
-				}],
-				display: {
-					Lore: [
-						"§d§o你不要过来啊！！！"
-					],
-					Name: "§b击退之杖"
-				}
+				}]
 			}
 		}
 	},
@@ -906,10 +906,10 @@
 			id: "cyclicmagic:emerald_sword",
 			tag: {
 				display: {
+					Name: "§c叛徒之剑",
 					Lore: [
 						"§4§o这把剑会违抗它主人的意愿。"
-					],
-					Name: "§c叛徒之剑"
+					]
 				}
 			}
 		}

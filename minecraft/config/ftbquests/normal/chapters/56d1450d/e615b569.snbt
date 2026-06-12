@@ -15,10 +15,10 @@
 		items: [{
 			id: "forestry:bee_queen_ge",
 			tag: {
-				IsAnalyzed: 0b,
-				Health: 70,
 				MaxH: 70,
-				Genome: {
+				Health: 70,
+				IsAnalyzed: 0b,
+				Mate: {
 					Chromosomes: [{
 						Slot: 0b,
 						UID0: "magicbees.speciesDraconic",
@@ -85,7 +85,7 @@
 						UID1: "forestry.effectMisanthrope"
 					}]
 				},
-				Mate: {
+				Genome: {
 					Chromosomes: [{
 						Slot: 0b,
 						UID0: "magicbees.speciesDraconic",

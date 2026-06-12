@@ -15,8 +15,8 @@
 		items: [{
 			id: "embers:copper_cell",
 			tag: {
-				ember: 0.0d,
-				emberCapacity: 24000.0d
+				emberCapacity: 24000.0d,
+				ember: 0.0d
 			}
 		}],
 		ignore_nbt: 1b

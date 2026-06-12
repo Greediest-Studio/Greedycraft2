@@ -40,6 +40,7 @@ RecipeBuilder.newBuilder("ion_exchange_trinite_solution", "ion_exchange_column",
     .addFluidOutput(<liquid:plutonyl_nitrate_solution> * 1000)
     .addFluidOutput(<liquid:heavy_actinide_nitrate_solution> * 500)
     .addRadiationOutput(1, 1)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("ion_exchange_heavy_actinide_primary_cut", "ion_exchange_column", 1800)
@@ -51,6 +52,7 @@ RecipeBuilder.newBuilder("ion_exchange_heavy_actinide_primary_cut", "ion_exchang
     .addFluidOutput(<liquid:transcurium_nitrate_solution> * 400)
     .addFluidOutput(<liquid:nitric_acid> * 500)
     .addRadiationOutput(2, 1)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("ion_exchange_americium_curium_cut", "ion_exchange_column", 1800)
@@ -62,6 +64,7 @@ RecipeBuilder.newBuilder("ion_exchange_americium_curium_cut", "ion_exchange_colu
     .addFluidOutput(<liquid:curium_nitrate_solution> * 500)
     .addFluidOutput(<liquid:nitric_acid> * 500)
     .addRadiationOutput(2, 1)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("ion_exchange_transcurium_cut", "ion_exchange_column", 2400)
@@ -73,6 +76,7 @@ RecipeBuilder.newBuilder("ion_exchange_transcurium_cut", "ion_exchange_column", 
     .addFluidOutput(<liquid:californium_einsteinium_nitrate_solution> * 500)
     .addFluidOutput(<liquid:nitric_acid> * 500)
     .addRadiationOutput(3, 1)
+    .setMaxThreads(1)
     .build();
 
 RecipeBuilder.newBuilder("ion_exchange_einsteinium_252_tail_cut", "ion_exchange_column", 3600)
@@ -84,4 +88,5 @@ RecipeBuilder.newBuilder("ion_exchange_einsteinium_252_tail_cut", "ion_exchange_
     .addFluidOutput(<liquid:einsteinium_252_nitrate_solution> * 20)
     .addFluidOutput(<liquid:nitric_acid> * 500)
     .addRadiationOutput(5, 1)
+    .setMaxThreads(1)
     .build();

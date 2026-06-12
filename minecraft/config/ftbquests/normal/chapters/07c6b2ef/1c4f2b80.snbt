@@ -15,7 +15,6 @@
 		items: [{
 			id: "thermalexpansion:machine",
 			tag: {
-				Facing: 3b,
 				SideCache: [B;
 					1b,
 					1b,
@@ -24,9 +23,10 @@
 					2b,
 					2b
 				],
+				Facing: 3b,
 				RSControl: 0b,
-				Energy: 0,
-				Level: 0b
+				Level: 0b,
+				Energy: 0
 			}
 		}],
 		ignore_nbt: 1b

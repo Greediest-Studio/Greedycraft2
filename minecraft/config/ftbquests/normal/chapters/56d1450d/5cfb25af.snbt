@@ -16,10 +16,10 @@
 		items: [{
 			id: "forestry:bee_queen_ge",
 			tag: {
-				IsAnalyzed: 0b,
-				Health: 30,
 				MaxH: 30,
-				Genome: {
+				Health: 30,
+				IsAnalyzed: 0b,
+				Mate: {
 					Chromosomes: [{
 						Slot: 0b,
 						UID0: "extrabees.species.rock",
@@ -86,7 +86,7 @@
 						UID1: "forestry.effectNone"
 					}]
 				},
-				Mate: {
+				Genome: {
 					Chromosomes: [{
 						Slot: 0b,
 						UID0: "extrabees.species.rock",
@@ -163,10 +163,10 @@
 		item: {
 			id: "forestry:bee_princess_ge",
 			tag: {
-				IsAnalyzed: 0b,
-				Health: 30,
 				MaxH: 30,
-				Genome: {
+				Health: 30,
+				IsAnalyzed: 0b,
+				Mate: {
 					Chromosomes: [{
 						Slot: 0b,
 						UID0: "extrabees.species.rock",
@@ -233,7 +233,7 @@
 						UID1: "forestry.effectNone"
 					}]
 				},
-				Mate: {
+				Genome: {
 					Chromosomes: [{
 						Slot: 0b,
 						UID0: "extrabees.species.rock",

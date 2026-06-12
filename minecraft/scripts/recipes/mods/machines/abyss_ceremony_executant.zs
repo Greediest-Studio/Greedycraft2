@@ -48,21 +48,30 @@ $expand RecipePrimer$addSacrificeInput() {
 
 function addRitualRecipe(output as IItemStack, inputs as IIngredient[], potEnergy as int, dim as int, sacrifice as bool) {
     var builder = RecipeBuilder.newBuilder(output.definition.id ~ (output.metadata as string), "abyss_ceremony_executant", 200);
+    var builderAsPE = RecipeBuilder.newBuilder(output.definition.id ~ (output.metadata as string) ~ "_pe", "abyss_ceremony_executant", 200);
     var pe as int = Math.floor(0.0144d * potEnergy) as int;
     builder.addFluidInput(<liquid:pe> * pe);
+    builderAsPE.addPotentialEnergyInput(potEnergy);
     for input in inputs {
         builder.addItemInput(input);
+        builderAsPE.addItemInput(input);
     }
     builder.addItemOutput(output);
+    builderAsPE.addItemOutput(output);
     builder.addEnergyPerTickInput(4096);
+    builderAsPE.addEnergyPerTickInput(4096);
     if (dim != -1) {
         builder.addDimensionInput(dim);
+        builderAsPE.addDimensionInput(dim);
     }
     if (sacrifice) {
         builder.addSacrificeInput();
+        builderAsPE.addSacrificeInput();
     }
     builder.setMaxThreads(1);
+    builderAsPE.setMaxThreads(1);
     builder.build();
+    builderAsPE.build();
 }
 
 MMEvents.onControllerGUIRender("abyss_ceremony_executant", function(event as ControllerGUIRenderEvent) {

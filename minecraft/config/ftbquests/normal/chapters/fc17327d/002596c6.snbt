@@ -55,24 +55,20 @@
 		item: {
 			id: "enderutilities:handybag",
 			tag: {
-				UUID: {
-					UUIDM: 5914914740620903385L,
-					UUIDL: -5513126133122502059L
-				},
 				Items: [{
-					id: "enderutilities:enderpart",
+					Slot: 0b,
 					Count: 1,
 					Damage: 52s,
 					tag: {
 						HandyBag: {
-							PickupMode: 1b,
-							UpdateMask: 0L
+							UpdateMask: 0L,
+							PickupMode: 1b
 						}
 					},
-					Slot: 0b
+					id: "enderutilities:enderpart"
 				},
 				{
-					id: "enderutilities:enderpart",
+					Slot: 1b,
 					Count: 1,
 					Damage: 52s,
 					tag: {
@@ -80,8 +76,12 @@
 							PickupMode: 1b
 						}
 					},
-					Slot: 1b
+					id: "enderutilities:enderpart"
 				}],
+				UUID: {
+					UUIDM: 5914914740620903385L,
+					UUIDL: -5513126133122502059L
+				},
 				Selected_memorycard_items: 1b
 			}
 		}

@@ -17,11 +17,11 @@
 			tag: {
 				astralsorcery: {
 					crystalProperties: {
-						collectiveCapability: 100,
 						size: 900,
-						fract: 0,
+						sizeOverride: -1,
 						purity: 100,
-						sizeOverride: -1
+						collectiveCapability: 100,
+						fract: 0
 					}
 				}
 			}

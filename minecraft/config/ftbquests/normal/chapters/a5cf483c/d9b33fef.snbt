@@ -29,8 +29,8 @@
 			id: "openblocks:tank",
 			tag: {
 				tank: {
-					FluidName: "astralsorcery.liquidstarlight",
-					Amount: 16000
+					Amount: 16000,
+					FluidName: "astralsorcery.liquidstarlight"
 				}
 			}
 		}

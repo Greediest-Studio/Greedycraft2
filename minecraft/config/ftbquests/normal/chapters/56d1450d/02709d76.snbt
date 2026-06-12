@@ -24,8 +24,8 @@
 			Damage: 1s,
 			tag: {
 				Fluid: {
-					FluidName: "organic_fluid",
-					Amount: 1000
+					Amount: 1000,
+					FluidName: "organic_fluid"
 				}
 			}
 		},

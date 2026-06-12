@@ -75,12 +75,12 @@
 			tag: {
 				Items: [{
 					Slot: 0b,
+					Damage: 2s,
 					id: "enderutilities:endercapacitor",
 					Count: 1b,
 					tag: {
 						EnderChargeAmount: 500000
-					},
-					Damage: 2s
+					}
 				}]
 			}
 		}

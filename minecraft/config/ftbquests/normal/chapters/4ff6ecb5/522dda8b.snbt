@@ -13,8 +13,8 @@
 			id: "thaumcraft:crystal_essence",
 			tag: {
 				Aspects: [{
-					key: "aer",
-					amount: 1
+					amount: 1,
+					key: "aer"
 				}]
 			}
 		},
@@ -22,8 +22,8 @@
 			id: "thaumcraft:crystal_essence",
 			tag: {
 				Aspects: [{
-					key: "ignis",
-					amount: 1
+					amount: 1,
+					key: "ignis"
 				}]
 			}
 		},
@@ -31,8 +31,8 @@
 			id: "thaumcraft:crystal_essence",
 			tag: {
 				Aspects: [{
-					key: "aqua",
-					amount: 1
+					amount: 1,
+					key: "aqua"
 				}]
 			}
 		},
@@ -40,8 +40,8 @@
 			id: "thaumcraft:crystal_essence",
 			tag: {
 				Aspects: [{
-					key: "ordo",
-					amount: 1
+					amount: 1,
+					key: "ordo"
 				}]
 			}
 		},
@@ -49,8 +49,8 @@
 			id: "thaumcraft:crystal_essence",
 			tag: {
 				Aspects: [{
-					key: "perditio",
-					amount: 1
+					amount: 1,
+					key: "perditio"
 				}]
 			}
 		},
@@ -58,8 +58,8 @@
 			id: "thaumcraft:crystal_essence",
 			tag: {
 				Aspects: [{
-					key: "terra",
-					amount: 1
+					amount: 1,
+					key: "terra"
 				}]
 			}
 		}],
@@ -83,8 +83,8 @@
 			id: "thaumcraft:crystal_essence",
 			tag: {
 				Aspects: [{
-					key: "sol",
-					amount: 1
+					amount: 1,
+					key: "sol"
 				}]
 			}
 		}
@@ -96,8 +96,8 @@
 			id: "thaumcraft:crystal_essence",
 			tag: {
 				Aspects: [{
-					key: "tempus",
-					amount: 1
+					amount: 1,
+					key: "tempus"
 				}]
 			}
 		}

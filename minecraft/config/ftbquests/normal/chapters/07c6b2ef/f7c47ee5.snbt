@@ -15,9 +15,9 @@
 		items: [{
 			id: "thermalexpansion:dynamo",
 			tag: {
+				Energy: 0,
 				Facing: 1b,
 				RSControl: 0b,
-				Energy: 0,
 				Level: 0b
 			}
 		}],

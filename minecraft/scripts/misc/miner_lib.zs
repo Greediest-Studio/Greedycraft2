@@ -390,11 +390,13 @@ oreOutput.create("暮色森林",7,CHROMASTEEL,<additions:canopium_ore>,1,0.005);
 
 //天境 基础级
 oreOutput.create("天境",173,BASIC,<aether_legacy:ambrosium_shard>,1,0.06);
+oreOutput.create("天境",173,BASIC,<aether_legacy:icestone>, 1, 0.15);
 //天境 不锈钢级
 oreOutput.create("天境",173,STAINLESS,<aether_legacy:gravitite_ore>,1,0.01);
 oreOutput.create("天境",173,STAINLESS,<aether_legacy:zanite_gemstone>,1,0.035);
 //天境 耐钢级
 oreOutput.create("天境",173,DURASTEEL,<additions:asgardium_ore>,1,0.02);
+oreOutput.create("天境",173,DURASTEEL,<aether_legacy:golden_amber>,1,0.01);
 //天境 恒钢级
 oreOutput.create("天境",173,AEONSTEEL,<gct_mobs:gravity_scrap>,1,0.001);
 oreOutput.create("天境",173,AEONSTEEL,<thermalfoundation:material:1026>,1,0.01);

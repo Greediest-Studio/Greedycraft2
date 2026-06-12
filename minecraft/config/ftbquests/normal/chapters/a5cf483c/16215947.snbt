@@ -25,10 +25,10 @@
 				astralsorcery: {
 					crystalProperties: {
 						size: 900,
+						sizeOverride: -1,
 						purity: 100,
 						collectiveCapability: 100,
-						fract: 0,
-						sizeOverride: -1
+						fract: 0
 					}
 				}
 			}

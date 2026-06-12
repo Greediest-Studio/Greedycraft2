@@ -19,16 +19,11 @@ customization {
 }
 
 customization {
-  identifier = %id=1%
-  action = hidebutton
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = mid-centered
   x = -5
   action = movebutton
-  y = 23
+  y = -1
 }
 
 customization {
@@ -43,7 +38,7 @@ customization {
   orientation = mid-centered
   x = -5
   action = movebutton
-  y = 48
+  y = 35
 }
 
 customization {
@@ -64,7 +59,7 @@ customization {
   orientation = mid-centered
   x = -5
   action = movebutton
-  y = 123
+  y = 119
 }
 
 customization {
@@ -84,7 +79,7 @@ customization {
   orientation = mid-centered
   x = -5
   action = movebutton
-  y = -2
+  y = -26
 }
 
 customization {
@@ -99,7 +94,7 @@ customization {
   orientation = mid-centered
   x = 80
   action = movebutton
-  y = 48
+  y = 35
 }
 
 customization {
@@ -107,12 +102,6 @@ customization {
   width = 75
   action = resizebutton
   height = 20
-}
-
-customization {
-  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
-  action = setbuttonlabel
-  value = 模组
 }
 
 customization {
@@ -236,22 +225,8 @@ customization {
   width = 75
   action = addbutton
   actionid = 522e63ad-6bc8-4290-b23e-90f45d3a1ef81709111897182
-  y = 73
+  y = 60
   label = MC百科
-  height = 20
-}
-
-customization {
-  orientation = mid-centered
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  buttonaction = join_last_world%btnaction_splitter_fm%
-  x = -5
-  width = 160
-  action = addbutton
-  actionid = 80e1919c-78af-4be1-b142-95920aee82681709111899774
-  y = -27
-  label = 继续游戏
   height = 20
 }
 
@@ -264,7 +239,7 @@ customization {
   width = 75
   action = addbutton
   actionid = 47c07593-f2c9-4c35-b980-ee76daca25671709112716424
-  y = 73
+  y = 60
   label = GitHub
   height = 20
 }
@@ -278,7 +253,7 @@ customization {
   width = 75
   action = addbutton
   actionid = a5760942-35fe-4f57-83d0-c7587eca72dc1709112725874
-  y = 98
+  y = 85
   label = 更新日志
   height = 20
 }
@@ -292,7 +267,7 @@ customization {
   width = 75
   action = addbutton
   actionid = 85cb2cff-e30e-43b4-bb8b-3070cad743c51709112737024
-  y = 98
+  y = 85
   label = 赞助一下
   height = 20
 }
