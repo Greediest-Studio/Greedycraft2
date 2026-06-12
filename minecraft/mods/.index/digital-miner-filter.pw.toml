@@ -1,0 +1,13 @@
+name = 'Digital Miner Filter'
+filename = 'minerfilter-1.0.1.jar'
+side = 'both'
+
+[download]
+hash-format = 'sha1'
+hash = '2397f4e35edff52201d13db3ea0660f093b62b49'
+mode = 'metadata:curseforge'
+
+[update]
+[update.curseforge]
+file-id = 8205005
+project-id = 1566477
