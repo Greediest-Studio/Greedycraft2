@@ -1,5 +1,4 @@
-#loader mekatweaker
-
+#loader preinit
 #priority 2201
 
 import mods.mekatweaker.GasFactory;
@@ -7,7 +6,6 @@ import mods.mekatweaker.Gas;
 
 var nitrogen = GasFactory.createGas("nitrogen");
 nitrogen.setUnlocalizedName("nitrogen");
-nitrogen.setColorize(true);
 nitrogen.setColor(0xa3b0a3);
 nitrogen.setNeedBucket(true);
 nitrogen.setNeedFluid(false);
@@ -16,7 +14,6 @@ nitrogen.register();
 
 var helium = GasFactory.createGas("helium");
 helium.setUnlocalizedName("helium");
-helium.setColorize(true);
 helium.setColor(0xffb90f);
 helium.setNeedBucket(true);
 helium.setNeedFluid(false);
@@ -25,7 +22,6 @@ helium.register();
 
 var neon = GasFactory.createGas("neon");
 neon.setUnlocalizedName("neon");
-neon.setColorize(true);
 neon.setColor(0xff0000);
 neon.setNeedBucket(true);
 neon.setNeedFluid(false);
@@ -34,7 +30,6 @@ neon.register();
 
 var argon = GasFactory.createGas("argon");
 argon.setUnlocalizedName("argon");
-argon.setColorize(true);
 argon.setColor(0x9900ff);
 argon.setNeedBucket(true);
 argon.setNeedFluid(false);
@@ -43,7 +38,6 @@ argon.register();
 
 var krypton = GasFactory.createGas("krypton");
 krypton.setUnlocalizedName("krypton");
-krypton.setColorize(true);
 krypton.setColor(0x8ec21f);
 krypton.setNeedBucket(true);
 krypton.setNeedFluid(false);
@@ -52,7 +46,6 @@ krypton.register();
 
 var xenon = GasFactory.createGas("xenon");
 xenon.setUnlocalizedName("xenon");
-xenon.setColorize(true);
 xenon.setColor(0xffebb5);
 xenon.setNeedBucket(true);
 xenon.setNeedFluid(false);
@@ -61,7 +54,6 @@ xenon.register();
 
 var radon = GasFactory.createGas("radon");
 radon.setUnlocalizedName("radon");
-radon.setColorize(true);
 radon.setColor(0x008f0a);
 radon.setNeedBucket(true);
 radon.setNeedFluid(false);
@@ -70,7 +62,6 @@ radon.register();
 
 var nitrogenoxide = GasFactory.createGas("nitrogenoxide");
 nitrogenoxide.setUnlocalizedName("nitrogenoxide");
-nitrogenoxide.setColorize(true);
 nitrogenoxide.setColor(0x82a3c6);
 nitrogenoxide.setNeedBucket(true);
 nitrogenoxide.setNeedFluid(false);
@@ -79,7 +70,6 @@ nitrogenoxide.register();
 
 var nitrogendioxide = GasFactory.createGas("nitrogendioxide");
 nitrogendioxide.setUnlocalizedName("nitrogendioxide");
-nitrogendioxide.setColorize(true);
 nitrogendioxide.setColor(0x8aaac6);
 nitrogendioxide.setNeedBucket(true);
 nitrogendioxide.setNeedFluid(false);
@@ -88,7 +78,6 @@ nitrogendioxide.register();
 
 var nitricacid = GasFactory.createGas("nitricacid");
 nitricacid.setUnlocalizedName("nitricacid");
-nitricacid.setColorize(true);
 nitricacid.setColor(0x1200e1);
 nitricacid.setNeedBucket(true);
 nitricacid.setNeedFluid(false);
@@ -97,7 +86,6 @@ nitricacid.register();
 
 var carbonoxide = GasFactory.createGas("carbonoxide");
 carbonoxide.setUnlocalizedName("carbonoxide");
-carbonoxide.setColorize(true);
 carbonoxide.setColor(0x9a9c9a);
 carbonoxide.setNeedBucket(true);
 carbonoxide.setNeedFluid(false);
@@ -106,7 +94,6 @@ carbonoxide.register();
 
 var carbondioxide = GasFactory.createGas("carbondioxide");
 carbondioxide.setUnlocalizedName("carbondioxide");
-carbondioxide.setColorize(true);
 carbondioxide.setColor(0x8a8b8a);
 carbondioxide.setNeedBucket(true);
 carbondioxide.setNeedFluid(false);
@@ -115,7 +102,6 @@ carbondioxide.register();
 
 var hydrochloricacid = GasFactory.createGas("hydrochloricacid");
 hydrochloricacid.setUnlocalizedName("hydrochloricacid");
-hydrochloricacid.setColorize(true);
 hydrochloricacid.setColor(0x9fd3cd);
 hydrochloricacid.setNeedBucket(true);
 hydrochloricacid.setNeedFluid(false);
@@ -124,7 +110,6 @@ hydrochloricacid.register();
 
 var air = GasFactory.createGas("air");
 air.setUnlocalizedName("air");
-air.setColorize(true);
 air.setColor(0xffffff);
 air.setNeedBucket(true);
 air.setNeedFluid(false);
@@ -133,7 +118,6 @@ air.register();
 
 var airnether = GasFactory.createGas("airnether");
 airnether.setUnlocalizedName("airnether");
-airnether.setColorize(true);
 airnether.setColor(0x733c3d);
 airnether.setNeedBucket(true);
 airnether.setNeedFluid(false);
@@ -142,7 +126,6 @@ airnether.register();
 
 var airend = GasFactory.createGas("airend");
 airend.setUnlocalizedName("airend");
-airend.setColorize(true);
 airend.setColor(0x111111);
 airend.setNeedBucket(true);
 airend.setNeedFluid(false);
@@ -151,7 +134,6 @@ airend.register();
 
 var airabyss = GasFactory.createGas("airabyss");
 airabyss.setUnlocalizedName("airabyss");
-airabyss.setColorize(true);
 airabyss.setColor(0x00aaaa);
 airabyss.setNeedBucket(true);
 airabyss.setNeedFluid(false);
@@ -160,7 +142,6 @@ airabyss.register();
 
 var bromine = GasFactory.createGas("bromine");
 bromine.setUnlocalizedName("bromine");
-bromine.setColorize(true);
 bromine.setColor(0xa52a2a);
 bromine.setNeedBucket(true);
 bromine.setNeedFluid(false);
@@ -169,7 +150,6 @@ bromine.register();
 
 var iodine = GasFactory.createGas("iodine");
 iodine.setUnlocalizedName("iodine");
-iodine.setColorize(true);
 iodine.setColor(0xe066ff);
 iodine.setNeedBucket(true);
 iodine.setNeedFluid(false);
@@ -178,7 +158,6 @@ iodine.register();
 
 var phosphine = GasFactory.createGas("phosphine");
 phosphine.setUnlocalizedName("phosphine");
-phosphine.setColorize(true);
 phosphine.setColor(0x9f5343);
 phosphine.setNeedBucket(true);
 phosphine.setNeedFluid(false);
@@ -187,7 +166,6 @@ phosphine.register();
 
 var ozone = GasFactory.createGas("ozone");
 ozone.setUnlocalizedName("ozone");
-ozone.setColorize(true);
 ozone.setColor(0x006fff);
 ozone.setNeedBucket(true);
 ozone.setNeedFluid(false);
@@ -196,7 +174,6 @@ ozone.register();
 
 var fluorine = GasFactory.createGas("fluorine");
 fluorine.setUnlocalizedName("fluorine");
-fluorine.setColorize(true);
 fluorine.setColor(0xfefb5d);
 fluorine.setNeedBucket(true);
 fluorine.setNeedFluid(false);
@@ -205,7 +182,6 @@ fluorine.register();
 
 var hydrogenfluoride = GasFactory.createGas("hydrogenfluoride");
 hydrogenfluoride.setUnlocalizedName("hydrogenfluoride");
-hydrogenfluoride.setColorize(true);
 hydrogenfluoride.setColor(0x8abec0);
 hydrogenfluoride.setNeedBucket(true);
 hydrogenfluoride.setNeedFluid(false);
@@ -214,7 +190,6 @@ hydrogenfluoride.register();
 
 var ammonia = GasFactory.createGas("ammonia");
 ammonia.setUnlocalizedName("ammonia");
-ammonia.setColorize(true);
 ammonia.setColor(0x728f81);
 ammonia.setNeedBucket(true);
 ammonia.setNeedFluid(false);
@@ -223,7 +198,6 @@ ammonia.register();
 
 var sodiumhydroxide = GasFactory.createGas("sodiumhydroxide");
 sodiumhydroxide.setUnlocalizedName("sodiumhydroxide");
-sodiumhydroxide.setColorize(true);
 sodiumhydroxide.setColor(0xa49a9e);
 sodiumhydroxide.setNeedBucket(true);
 sodiumhydroxide.setNeedFluid(false);
@@ -232,7 +206,6 @@ sodiumhydroxide.register();
 
 var impurelifeessence = GasFactory.createGas("impurelifeessence");
 impurelifeessence.setUnlocalizedName("impurelifeessence");
-impurelifeessence.setColorize(true);
 impurelifeessence.setColor(0x9b3937);
 impurelifeessence.setNeedBucket(true);
 impurelifeessence.setNeedFluid(false);
@@ -241,7 +214,6 @@ impurelifeessence.register();
 
 var hecryo_gas = GasFactory.createGas("hecryo_gas");
 hecryo_gas.setUnlocalizedName("hecryo_gas");
-hecryo_gas.setColorize(true);
 hecryo_gas.setColor(0x9370db);
 hecryo_gas.setNeedBucket(true);
 hecryo_gas.setNeedFluid(false);
@@ -250,7 +222,6 @@ hecryo_gas.register();
 
 var ethyne = GasFactory.createGas("ethyne");
 ethyne.setUnlocalizedName("ethyne");
-ethyne.setColorize(true);
 ethyne.setColor(0xbaae5b);
 ethyne.setNeedBucket(true);
 ethyne.setNeedFluid(false);

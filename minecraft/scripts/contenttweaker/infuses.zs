@@ -1,8 +1,6 @@
-#loader mekatweaker
+#loader contenttweaker
+#modloaded roidtweaker mekanism
 
-#priority 2201
-
-import crafttweaker.oredict.IOreDictEntry;
 import mods.mekatweaker.InfuserType;
 
 InfuserType.addType("OSGLOGLAS");

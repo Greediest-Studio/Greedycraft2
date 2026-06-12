@@ -21,7 +21,7 @@ import native.slimeknights.tconstruct.library.utils.ToolHelper;
 
 $expand IMutableItemStack$attemptDamageItemWithEnergy(num as int, player as IPlayer) as void {
     if (this.hasEnergy()) {
-        var energyDura as int = this.getEnergy() / 640;
+        var energyDura as int = this.energyStorage.energyStored / 640;
         if (energyDura >= num) {
             this.removeEnergy(num * 640);
         } else {
