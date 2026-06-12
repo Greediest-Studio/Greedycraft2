@@ -993,42 +993,6 @@ molten_niobium.stillLocation = "base:fluids/molten";
 molten_niobium.flowingLocation = "base:fluids/molten_flowing";
 molten_niobium.register();
 
-val molten_horizonite = mods.contenttweaker.VanillaFactory.createFluid("horizonite", Color.fromHex("fcab39").getIntColor()); 
-molten_horizonite.material = <blockmaterial:lava>;
-molten_horizonite.viscosity = 3000;
-molten_horizonite.density = 6500;
-molten_horizonite.colorize = true;
-molten_horizonite.temperature = 1000;
-molten_horizonite.luminosity = 10;
-molten_horizonite.color = Color.fromHex("fcab39").getIntColor();
-molten_horizonite.stillLocation = "base:fluids/molten";
-molten_horizonite.flowingLocation = "base:fluids/molten_flowing";
-molten_horizonite.register();
-
-val molten_falsite = mods.contenttweaker.VanillaFactory.createFluid("falsite", Color.fromHex("7561e2").getIntColor()); 
-molten_falsite.material = <blockmaterial:lava>;
-molten_falsite.viscosity = 3000;
-molten_falsite.density = 6500;
-molten_falsite.colorize = true;
-molten_falsite.temperature = 1000;
-molten_falsite.luminosity = 10;
-molten_falsite.color = Color.fromHex("7561e2").getIntColor();
-molten_falsite.stillLocation = "base:fluids/molten";
-molten_falsite.flowingLocation = "base:fluids/molten_flowing";
-molten_falsite.register();
-
-val molten_ventium = mods.contenttweaker.VanillaFactory.createFluid("ventium", Color.fromHex("cf2532").getIntColor()); 
-molten_ventium.material = <blockmaterial:lava>;
-molten_ventium.viscosity = 3000;
-molten_ventium.density = 6500;
-molten_ventium.colorize = true;
-molten_ventium.temperature = 1000;
-molten_ventium.luminosity = 10;
-molten_ventium.color = Color.fromHex("cf2532").getIntColor();
-molten_ventium.stillLocation = "base:fluids/molten";
-molten_ventium.flowingLocation = "base:fluids/molten_flowing";
-molten_ventium.register();
-
 val molten_apocalypsium = mods.contenttweaker.VanillaFactory.createFluid("apocalypsium", Color.fromHex("8b0000").getIntColor()); 
 molten_apocalypsium.material = <blockmaterial:lava>;
 molten_apocalypsium.viscosity = 3000;

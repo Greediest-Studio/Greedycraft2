@@ -127,7 +127,6 @@ Alloy.addRecipe(<liquid:balancite> * 2, [<liquid:aqualite>, <liquid:aeroite>, <l
 Alloy.addRecipe(<liquid:shadow_bar>, [<liquid:rupee>, <liquid:realmite>]);
 Alloy.addRecipe(<liquid:glowing_signalum> * 144, [<liquid:signalum> * 144, <liquid:glowstone> * 1000]);
 Alloy.addRecipe(<liquid:twilight_crystal>, [<liquid:eden>, <liquid:wildwood>, <liquid:apalachia>, <liquid:skythern>, <liquid:mortum>]);
-Alloy.addRecipe(<liquid:daynight>, [<liquid:falsite>, <liquid:ventium>, <liquid:horizonite>]);
 Alloy.addRecipe(<liquid:cthulhurite> * 2, [<liquid:abyssalnite>, <liquid:liquified_coralium>, <liquid:dreadium>, <liquid:ethaxium>, <liquid:sanite>]);
 Alloy.addRecipe(<liquid:steamium> * 2, [<liquid:steel> * 4, <liquid:tanatonium> * 3, <liquid:liquid_air> * 1]);
 Alloy.addRecipe(<liquid:astronicium> * 2, [<liquid:oraclium>, <liquid:halleium>, <liquid:hothium>, <liquid:tonium>]);
@@ -605,9 +604,6 @@ Melting.addRecipe(<liquid:resonant_debris> * 320, <ore:oreResonantDebris>, 3540)
 Melting.addRecipe(<liquid:resonant_debris> * 160, <gct_mobs:resonate_debris_cracked>, 3540);
 Melting.addRecipe(<liquid:gravity_debris> * 160, <ore:gemGravityDebris>, 4430);
 Melting.addRecipe(<liquid:gravity_debris> * 320, <ore:oreGravityDebris>, 4430);
-Melting.addRecipe(<liquid:falsite> * VOLUME_BLOCK, <ore:blockFalsite>, 1050);
-Melting.addRecipe(<liquid:horizonite> * VOLUME_BLOCK, <ore:blockHorizonite>, 1050);
-Melting.addRecipe(<liquid:ventium> * VOLUME_BLOCK, <ore:blockVentium>, 1050);
 Melting.addRecipe(<liquid:unshapable_liquid> * 1000, <additions:unshapable_matter>, 200);
 Melting.addRecipe(<liquid:pruified> * 72, <additions:pruified_matter>, 1250);
 Melting.addRecipe(<liquid:fracturite> * 432, <twilightforest:mazebreaker_pickaxe>, 2500);
