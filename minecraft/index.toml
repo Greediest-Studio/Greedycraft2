@@ -613,12 +613,6 @@ alias = "mods/MMCE-ComponentModelHider-1.0.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/config-checker.pw.toml"
-hash = "94e4b5e8959bd860596b5b6058a321f3552f0299fca5bbf191c8b8f8b4e94605"
-alias = "mods/Modpack Configuration Checker-1.12.2-v1.9.5.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/contenttweaker.pw.toml"
 hash = "330b4357ad6a77a9fad55ccca2da53973deffcc3c17352f9275c4b2b2d50ae06"
 alias = "mods/ContentTweaker-1.12.2-4.10.0.jar"
@@ -754,6 +748,12 @@ metafile = true
 file = "mods/.index/depths-of-madness.pw.toml"
 hash = "3c682e79b940cd7886b6bf28e537a0bd9ffec4153bf6888b6acf258773c14364"
 alias = "mods/The Depths of Madness - 0.2.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/digital-miner-filter.pw.toml"
+hash = "8d4e1b68950e444f464f29f8dbc12321c322c5cf7c880aaec1258616db16ff09"
+alias = "mods/minerfilter-1.0.1.jar"
 metafile = true
 
 [[files]]
@@ -1376,7 +1376,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/lolasm.pw.toml"
-hash = "67af7460d6828a4e1d7a19e8985c63d33843b93e74019ca45c2293e0cea61c41"
+hash = "8256cb066a88c8cdcc420d41b28b00400deb5c0343e280dcbdb6b79bc22dddab"
 alias = "mods/loliasm-5.32.jar"
 metafile = true
 
@@ -2558,8 +2558,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/whimcraft.pw.toml"
-hash = "3b2571dc7149d91e47f3c95ce2959131e88654ff9a6f14138a9cd9af47a7d1de"
-alias = "mods/WhimCraft-0.1.7.jar"
+hash = "5fc17e9c3f85534e6c85411db3754d758df1ec0835e234934ee43218d58068a5"
+alias = "mods/WhimCraft-0.1.4.jar"
 metafile = true
 
 [[files]]
