@@ -1121,6 +1121,26 @@ RecipeUtil.addShaped("essentia_eco_le9", <eco_expand:estorage_cell_essentia_256m
     [<additions:chromasteel_ingot>, <eco_expand:estorage_cell_essentia_64m>, <additions:chromasteel_ingot>],
     [null, <additions:chromasteel_ingot>, null]
 ]);
+RecipeUtil.addShaped("universal_eco_le4", <eco_expand:estorage_cell_universal_16m>, [
+    [<crazyae:material:2>, <additions:chromasteel_ingot>, <thaumicenergistics:essentia_component_4m>],
+    [<additions:chromasteel_ingot>, <crazyae:material:24>, <additions:chromasteel_ingot>],
+    [<mekeng:gas_core_4m>, <additions:chromasteel_ingot>, <crazyae:material:10>]
+]);
+RecipeUtil.addShaped("universal_eco_le6", <eco_expand:estorage_cell_universal_64m>, [
+    [<additions:upgrade_cosmilite>, <additions:cosmilite_ingot>, <additions:upgrade_cosmilite>],
+    [<additions:cosmilite_ingot>, <eco_expand:estorage_cell_universal_16m>, <additions:cosmilite_ingot>],
+    [<additions:upgrade_cosmilite>, <additions:cosmilite_ingot>, <additions:upgrade_cosmilite>]
+]);
+RecipeUtil.addShaped("universal_eco_le9", <eco_expand:estorage_cell_universal_256m>, [
+    [<additions:upgrade_finallium>, <gct_ores:finallium_ingot>, <additions:upgrade_finallium>],
+    [<gct_ores:finallium_ingot>, <eco_expand:estorage_cell_universal_64m>, <gct_ores:finallium_ingot>],
+    [<additions:upgrade_finallium>, <gct_ores:finallium_ingot>, <additions:upgrade_finallium>]
+]);
+RecipeUtil.addShaped("universal_eco_le12", <eco_expand:estorage_cell_universal_1024m>, [
+    [<additions:upgrade_wavite>, <gct_mobs:wavite_ingot>, <additions:upgrade_wavite>],
+    [<gct_mobs:wavite_ingot>, <eco_expand:estorage_cell_universal_256m>, <gct_mobs:wavite_ingot>],
+    [<additions:upgrade_wavite>, <gct_mobs:wavite_ingot>, <additions:upgrade_wavite>]
+]);
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],
