@@ -1003,7 +1003,11 @@ GameStagesUtil.stageChaotic.addIngredients([
     <tiths:ingot_steamium>,
     <tiths:block_steamium>,
     <tiths:nugget_steamium>,
-    <ore:dustSteamium>
+    <ore:dustSteamium>,
+    <ore:ingotEcoEnhancedAlloy>,
+    <ore:dustEcoEnhancedAlloy>,
+    <ore:nuggetEcoEnhancedAlloy>,
+    <ore:blockEcoEnhancedAlloy>
 ], true);
 
 GameStagesUtil.stageStormBreaker.addIngredients([
@@ -2622,7 +2626,7 @@ GameStagesUtil.stageWyvern.addModId(["extendedcrafting"]);
 GameStagesUtil.stageGatekeeper.addModId(["gct_aby"]);
 GameStagesUtil.stageEpicEngineer.addModId(["nuclearcraft", "industrialforegoing", "teslacorelib", "trinity"]);
 GameStagesUtil.stageBetweenlandTraveller.addModId(["thebetweenlands"]);
-GameStagesUtil.stageWitherSlayer.addModId(["crazyae", "nae2", "ecoaeextension", "aewirelesschannel"]);
+GameStagesUtil.stageWitherSlayer.addModId(["crazyae", "nae2", "ecoaeextension", "aewirelesschannel", "eco_expand"]);
 GameStagesUtil.stageEnderCharm.addModId(["elementalend"]);
 GameStagesUtil.stageDeepDream.addModId(["erebus", "atum"]);
 GameStagesUtil.stageLegendWizard.addModId(["embers", "soot"]);

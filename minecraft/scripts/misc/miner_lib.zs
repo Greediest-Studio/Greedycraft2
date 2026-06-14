@@ -81,6 +81,7 @@ MachineUpgradeBuilder.newBuilder("efficiency_upg", "超频升级", 1, 1)
     .addIncompatibleMachines("exp_power_generator")
     .addIncompatibleMachines("loot_power_generator")
     .addIncompatibleMachines("gas_power_generator")
+    .addIncompatibleMachines("solar_power_generator")
     .buildAndRegister();
 
 MachineUpgradeBuilder.newBuilder("energy_upg", "节能升级", 1, 1)
@@ -95,6 +96,7 @@ MachineUpgradeBuilder.newBuilder("generation_upg", "产能升级", 1, 1)
     .addCompatibleMachines("exp_power_generator")
     .addCompatibleMachines("chaos_reactor")
     .addCompatibleMachines("gas_power_generator")
+    .addCompatibleMachines("solar_power_generator")
     .buildAndRegister();
 
 MachineUpgradeBuilder.newBuilder(STAINLESS, "不锈钢采掘升级", 1, 1)

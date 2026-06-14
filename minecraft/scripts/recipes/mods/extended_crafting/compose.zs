@@ -185,3 +185,19 @@ CombinationCrafting.addRecipe(<additions:abyss_catalyst>, 136000000, 1048576, <a
     <gct_aby:warped_soul>,
     <gct_aby:warped_soul>
 ]);
+
+CombinationCrafting.addRecipe(<additions:eco_enhanced_alloy_ingot>, 5000000, 200000, <additions:blue_alloy_ingot>, [
+    <ore:ingotEcoBasicAlloy>,
+    <ore:ingotEcoBasicAlloy>,
+    <ore:ingotEcoBasicAlloy>,
+    <ore:ingotEcoBasicAlloy>,
+    <ore:ingotSignalum>,
+    <ore:ingotLumium>,
+    <ore:ingotEnderium>,
+    <ore:ingotStellarium>,
+    <ore:ingotCryonium>,
+    <ore:ingotSnowingium>,
+    <ore:ingotNetherite>,
+    <ore:ingotStellarAlloy>,
+    <ore:ingotFlux>
+]);

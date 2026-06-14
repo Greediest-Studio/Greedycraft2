@@ -467,3 +467,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <emosupertemplate:emo_pattern_t
 	[<crazyae:fluixilized_block>, <ae2fc:ultimate_encoder>, <additions:logic_processor_2>, <ae2fc:ultimate_encoder>, <crazyae:fluixilized_block>], 
 	[<crazyae:fluixilized_block>, <crazyae:fluixilized_block>, <crazyae:fluixilized_block>, <crazyae:fluixilized_block>, <crazyae:fluixilized_block>]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <eco_expand:estorage_cell_universal_16m>, [
+	[<ore:ingotEcoEnhancedAlloy>, <ore:ingotEcoEnhancedAlloy>, <ore:ingotEcoEnhancedAlloy>, <ore:ingotEcoEnhancedAlloy>, <ore:ingotGermanium>], 
+	[<additions:calculation_processor_2>, <crazyae:material:2>, <ore:ingotEcoEnhancedAlloy>, <crazyae:material:10>, <ore:ingotGermanium>], 
+	[<additions:logic_processor_2>, <crazyae:material:24>, <ore:ingotEcoEnhancedAlloy>, <crazyae:material:42>, <ore:ingotGermanium>], 
+	[<additions:calculation_processor_2>, <mekeng:gas_core_4m>, <ore:ingotEcoEnhancedAlloy>, <thaumicenergistics:essentia_component_4m>, null], 
+	[<ore:ingotEcoEnhancedAlloy>, <ore:ingotEcoEnhancedAlloy>, <ore:ingotEcoEnhancedAlloy>, <ore:ingotEcoEnhancedAlloy>, null]
+]);

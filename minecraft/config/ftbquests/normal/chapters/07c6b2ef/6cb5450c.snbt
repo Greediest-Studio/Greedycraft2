@@ -1,0 +1,25 @@
+{
+	title: "§b靠天吃饭",
+	x: -26.5d,
+	y: -5.0d,
+	description: "合成光伏集成阵列集成控制器",
+	text: [
+		"该机器拥有§b并行奖赏§r，放入的同种太阳能板越多，单个太阳能板的发电效率就越高",
+		"最高可达§b224%§r，但如果只放入单个太阳能板则只能吃到80%的效率"
+	],
+	dependencies: [
+		"8dbac590"
+	],
+	tasks: [{
+		uid: "34eaa094",
+		type: "item",
+		items: [{
+			item: "modularmachinery:solar_power_generator_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "a3c57832",
+		type: "random",
+		table: 2
+	}]
+}
