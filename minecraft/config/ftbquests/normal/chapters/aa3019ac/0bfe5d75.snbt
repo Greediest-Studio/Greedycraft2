@@ -1,0 +1,61 @@
+{
+	title: "§b世界核平",
+	x: -2.5d,
+	y: 13.0d,
+	description: "制作裂变弹并引爆",
+	text: [
+		"建议在沙子较多的地方引爆，你需要收集§b三位一体石"
+	],
+	tasks: [{
+		uid: "84f02b9e",
+		type: "item",
+		title: "任意裂变弹",
+		items: [{
+			item: "trinity:bomb_u233"
+		},
+		{
+			item: "trinity:bomb_am242"
+		},
+		{
+			item: "trinity:bomb_u235"
+		},
+		{
+			item: "trinity:bomb_cf249"
+		},
+		{
+			item: "trinity:bomb_bk248"
+		},
+		{
+			item: "trinity:bomb_cf251"
+		},
+		{
+			item: "trinity:bomb_pu239"
+		},
+		{
+			item: "trinity:bomb_np237"
+		},
+		{
+			item: "trinity:bomb_cm247"
+		}]
+	}],
+	rewards: [{
+		uid: "052afc34",
+		type: "item",
+		item: "trinity:detonator"
+	},
+	{
+		uid: "15915f17",
+		type: "item",
+		item: "minecraft:totem_of_undying"
+	},
+	{
+		uid: "1f777290",
+		type: "xp",
+		xp: 15000
+	},
+	{
+		uid: "028703e4",
+		type: "random",
+		table: 4
+	}]
+}

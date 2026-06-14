@@ -1,11 +1,15 @@
 {
 	title: "§b贪婪自己的铂处",
-	x: -3.5d,
+	x: -3.25d,
 	y: 16.5d,
 	description: "通过三位一体石锿处理线获得锿-252",
 	text: [
 		"§b锿处理§r或许是你从Mek倍矿产线后遇到的第一条长产线",
 		"三种§b离子交换树脂§r的制作配方很复杂，加油吧"
+	],
+	dependencies: [
+		"4443329b",
+		"e685914f"
 	],
 	tasks: [{
 		uid: "7f73b722",
@@ -13,5 +17,21 @@
 		items: [{
 			item: "contenttweaker:einsteinium52"
 		}]
+	}],
+	rewards: [{
+		uid: "3408f5c0",
+		type: "item",
+		item: "contenttweaker:einsteinium52",
+		count: 4
+	},
+	{
+		uid: "4d752be0",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "ba11dd60",
+		type: "xp",
+		xp: 12000
 	}]
 }
