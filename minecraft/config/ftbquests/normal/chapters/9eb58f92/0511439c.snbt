@@ -1,0 +1,33 @@
+{
+	title: "§b提纯原料",
+	x: -27.5d,
+	y: 8.0d,
+	description: "挖掘任意种类的硫磺矿石",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "cc6b8530",
+		type: "item",
+		items: [{
+			id: "itemfilters:filter",
+			tag: {
+				display: {
+					Name: "Any oreSulfur"
+				}
+			},
+			ForgeCaps: {
+				Parent: {
+					id: "ore",
+					data: "oreSulfur"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e47d7c43",
+		type: "item",
+		item: "thebetweenlands:sulfur_ore",
+		count: 128
+	}]
+}

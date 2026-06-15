@@ -15,6 +15,7 @@ var EIOitemLevelList as string[string] = {
     "ometweaks:killer_capacitor": "§7全局等级： §f6.6",
     "ometweaks:mist_capacitor": "§7全局等级： §b4.7",
     "ometweaks:sharpen_capacitor": "§7全局等级： §f5.5",
+    "ometweaks:boundless_capacitor": "§7全局等级： §d7.5",
     "avaritiaio:infinitecapacitor": "§7全局等级： §c1§e0§a.§b0"
 };
 

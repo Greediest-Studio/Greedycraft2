@@ -1,0 +1,35 @@
+{
+	title: "§b烂大蒜味",
+	x: -27.5d,
+	y: 9.5d,
+	description: "合成碲锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"0511439c"
+	],
+	tasks: [{
+		uid: "0c9bef1d",
+		type: "item",
+		items: [{
+			item: "additions:tellurium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "c45dda07",
+		type: "item",
+		item: "additions:tellurium_ingot",
+		count: 8
+	},
+	{
+		uid: "e10e2586",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "494cf46a",
+		type: "xp",
+		xp: 7500
+	}]
+}

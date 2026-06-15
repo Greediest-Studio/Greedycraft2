@@ -1,0 +1,26 @@
+{
+	title: "§b强放射废料",
+	x: -22.5d,
+	y: 8.0d,
+	description: "利用Mek聚变制作一些钋球",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "e988f9f2",
+		type: "item",
+		items: [{
+			item: "mekanism:poloniumpellet"
+		}]
+	}],
+	rewards: [{
+		uid: "62be61ec",
+		type: "xp",
+		xp: 7500
+	},
+	{
+		uid: "05c4e6d1",
+		type: "random",
+		table: 3
+	}]
+}

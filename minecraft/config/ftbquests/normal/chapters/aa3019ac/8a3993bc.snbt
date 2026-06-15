@@ -1,0 +1,29 @@
+{
+	title: "§b核冬天之后",
+	x: -7.0d,
+	y: 9.0d,
+	description: "合成辐射清洁器集成控制器",
+	text: [
+		"顾名思义，可以清除区块辐射"
+	],
+	dependencies: [
+		"54050e05"
+	],
+	tasks: [{
+		uid: "01541048",
+		type: "item",
+		items: [{
+			item: "modularmachinery:radiation_cleaner_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "46478295",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "2d76710a",
+		type: "xp",
+		xp: 10000
+	}]
+}

@@ -1136,6 +1136,51 @@ RecipeUtil.addShaped("universal_eco_le12", <eco_expand:estorage_cell_universal_1
     [<gct_mobs:wavite_ingot>, <eco_expand:estorage_cell_universal_256m>, <gct_mobs:wavite_ingot>],
     [<additions:upgrade_wavite>, <gct_mobs:wavite_ingot>, <additions:upgrade_wavite>]
 ]);
+RecipeUtil.addShaped("trinity_pit_cf253", <additions:pit_cf253>, [
+    [<contenttweaker:californium53>, <contenttweaker:californium53>, <contenttweaker:californium53>],
+    [<contenttweaker:californium53>, <trinity:neutron_initiator>, <contenttweaker:californium53>],
+    [<contenttweaker:californium53>, <contenttweaker:californium53>, <contenttweaker:californium53>]
+]);
+RecipeUtil.addShaped("trinity_pit_es254", <additions:pit_es254>, [
+    [<contenttweaker:einsteinium54>, <contenttweaker:einsteinium54>, <contenttweaker:einsteinium54>],
+    [<contenttweaker:einsteinium54>, <trinity:neutron_initiator>, <contenttweaker:einsteinium54>],
+    [<contenttweaker:einsteinium54>, <contenttweaker:einsteinium54>, <contenttweaker:einsteinium54>]
+]);
+RecipeUtil.addShaped("trinity_pit_cf253_wg", <additions:pit_cf253>, [
+    [<contenttweaker:wgcf_253>, <contenttweaker:wgcf_253>, <contenttweaker:wgcf_253>],
+    [<contenttweaker:wgcf_253>, <trinity:neutron_initiator>, <contenttweaker:wgcf_253>],
+    [<contenttweaker:wgcf_253>, <contenttweaker:wgcf_253>, <contenttweaker:wgcf_253>]
+]);
+RecipeUtil.addShaped("trinity_pit_es254_wg", <additions:pit_es254>, [
+    [<contenttweaker:wge_254>, <contenttweaker:wge_254>, <contenttweaker:wge_254>],
+    [<contenttweaker:wge_254>, <trinity:neutron_initiator>, <contenttweaker:wge_254>],
+    [<contenttweaker:wge_254>, <contenttweaker:wge_254>, <contenttweaker:wge_254>]
+]);
+RecipeUtil.addShaped("trinity_core_cf253", <trinity:core_cf253>, [
+    [<ore:ingotUranium238>, <ore:ingotUranium238>, <ore:ingotUranium238>],
+    [<ore:ingotUranium238>, <additions:pit_cf253>, <ore:ingotUranium238>],
+    [<ore:ingotUranium238>, <ore:ingotUranium238>, <ore:ingotUranium238>]
+]);
+RecipeUtil.addShaped("trinity_core_es254", <trinity:core_es254>, [
+    [<ore:ingotUranium238>, <ore:ingotUranium238>, <ore:ingotUranium238>],
+    [<ore:ingotUranium238>, <additions:pit_es254>, <ore:ingotUranium238>],
+    [<ore:ingotUranium238>, <ore:ingotUranium238>, <ore:ingotUranium238>]
+]);
+RecipeUtil.addShaped("trinity_salted_core_cf253", <trinity:salted_core_cf253>, [
+    [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>],
+    [<ore:ingotGold>, <additions:pit_cf253>, <ore:ingotGold>],
+    [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]
+]);
+RecipeUtil.addShaped("trinity_salted_core_es254", <trinity:salted_core_es254>, [
+    [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>],
+    [<ore:ingotGold>, <additions:pit_es254>, <ore:ingotGold>],
+    [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]
+]);
+RecipeUtil.addShaped("boundless_ball", <additions:boundless_alloy_ball> * 24, [
+    [null, <ore:ingotBoundlessAlloy>, null],
+    [<ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>],
+    [null, <ore:ingotBoundlessAlloy>, null]
+]);
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],

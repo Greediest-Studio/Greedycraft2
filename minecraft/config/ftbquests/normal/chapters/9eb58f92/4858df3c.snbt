@@ -1,0 +1,44 @@
+{
+	title: "§b四级电路板！",
+	x: -25.0d,
+	y: 11.0d,
+	description: "使用激光真空组合机制作镉-氧族共晶体锭，四级电路板的核心材料",
+	text: [
+		""
+	],
+	dependencies: [
+		"3d228c52",
+		"76dab410",
+		"9bcf074a",
+		"223f7bba"
+	],
+	tasks: [{
+		uid: "f18f110f",
+		type: "item",
+		items: [{
+			item: "additions:cadmium_chalcogenide_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "957eb25f",
+		type: "item",
+		item: "additions:cadmium_chalcogenide_ingot",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		uid: "d5c6894b",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "ed660bef",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "7dbbb901",
+		type: "xp",
+		xp: 32000
+	}]
+}

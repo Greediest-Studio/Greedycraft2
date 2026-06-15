@@ -1,0 +1,35 @@
+{
+	title: "§b放射性结晶？",
+	x: -22.5d,
+	y: 11.0d,
+	description: "使用化学反应器合成钋化镉",
+	text: [
+		""
+	],
+	dependencies: [
+		"ef6d78b5"
+	],
+	tasks: [{
+		uid: "99564040",
+		type: "item",
+		items: [{
+			item: "additions:cadmium_polonide"
+		}]
+	}],
+	rewards: [{
+		uid: "fe22902b",
+		type: "item",
+		item: "additions:cadmium_polonide",
+		count: 4
+	},
+	{
+		uid: "cbb6f4b2",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "48935092",
+		type: "xp",
+		xp: 18000
+	}]
+}

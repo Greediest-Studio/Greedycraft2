@@ -1,0 +1,31 @@
+{
+	title: "§b激光炖屎炉？",
+	x: -25.0d,
+	y: 12.5d,
+	description: "合成激光真空组合机集成控制器",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "5775053c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:great_laser_alloyer_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "b94d01db",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "24213982",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "f6b37ce3",
+		type: "xp",
+		xp: 22000
+	}]
+}

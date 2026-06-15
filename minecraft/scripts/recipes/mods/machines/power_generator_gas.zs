@@ -58,7 +58,7 @@ function addGasFuelAsGas(gas as IGasStack, energyPerTick as int, burnTime as int
 addGasFuel(<liquid:liquidhydrogen>, 20480, 2);
 addGasFuel(<liquid:liquidethene>, 32000, 100);
 addGasFuel(<liquid:methane>, 50000, 40);
-addGasFuel(<liquid:ethyne>, 120000, 10);
+addGasFuel(<liquid:ethyne>, 120000, 20);
 addGasFuel(<liquid:crude_oil>, 2000, 500);
 addGasFuel(<liquid:refined_oil>, 6000, 300);
 addGasFuel(<liquid:refined_fuel>, 16000, 200);

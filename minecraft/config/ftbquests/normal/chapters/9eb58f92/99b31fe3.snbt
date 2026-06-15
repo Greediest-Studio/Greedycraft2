@@ -1,0 +1,35 @@
+{
+	title: "§b能抗癌也能致癌",
+	x: -25.0d,
+	y: 8.0d,
+	description: "合成硒锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"0511439c"
+	],
+	tasks: [{
+		uid: "668e936b",
+		type: "item",
+		items: [{
+			item: "additions:selenium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "7141e21d",
+		type: "item",
+		item: "additions:selenium_ingot",
+		count: 8
+	},
+	{
+		uid: "ebfa6c2b",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "4e338070",
+		type: "xp",
+		xp: 7500
+	}]
+}

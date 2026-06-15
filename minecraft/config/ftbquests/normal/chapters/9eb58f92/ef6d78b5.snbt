@@ -1,0 +1,31 @@
+{
+	title: "§b毫无波兰",
+	x: -22.5d,
+	y: 9.5d,
+	description: "合成钋锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"0657847f",
+		"7d316daa"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "09802203",
+		type: "item",
+		items: [{
+			item: "additions:polonium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "ab473d01",
+		type: "xp",
+		xp: 9000
+	},
+	{
+		uid: "681d2ddf",
+		type: "random",
+		table: 3
+	}]
+}

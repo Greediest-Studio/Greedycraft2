@@ -129,4 +129,7 @@
     <grindingball name="Curse Alloy Ball" grinding="2.0" chance="1.7" power="1.7" durability="240000">
         <item name="ballCurseAlloy"/>
     </grindingball>
+    <grindingball name="Boundless Alloy Ball" grinding="2.3" chance="2.7" power="2.0" durability="560000">
+        <item name="ballBoundlessAlloy"/>
+    </grindingball>
 </enderio:recipes>

@@ -1044,6 +1044,10 @@ addBuilderRecipe(<modularmachinery:great_laser_alloyer_factory_controller>, [
     <ore:gemJade> * 64
 ], 5, 5000);
 
+/*addBuilderRecipe(<modularmachinery:nuclear_bomb_reactor_factory_controller>, [
+
+])*/
+
 //Units
 addBuilderRecipe(<modularmachinery:elysia_alloyer_factory_controller>, [
     <gct_ores:blue_print_empty> * 32,

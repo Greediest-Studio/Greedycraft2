@@ -1680,7 +1680,15 @@ GameStagesUtil.stageMasterWizard.addIngredients([
     <additions:astral_gem_11>,
     <additions:astral_gem_12>,
     <additions:astral_aquamarine_ore>,
-    <additions:arcane_crystal_ball>
+    <additions:arcane_crystal_ball>,
+    <ore:ingotSelenium>,
+    <ore:nuggetSelenium>,
+    <ore:blockSelenium>,
+    <ore:dustSelenium>,
+    <ore:ingotTellurium>,
+    <ore:nuggetTellurium>,
+    <ore:blockTellurium>,
+    <ore:dustTellurium>
 ], false);
 
 GameStagesUtil.stageEpicWizard.addIngredients([ 
@@ -1837,6 +1845,10 @@ GameStagesUtil.stageSkilledEngineer.addIngredients([
     <ore:blockGelidEnderium>,
     <ore:ingotGelidEnderium>,
     <ore:nuggetGelidEnderium>,
+    <ore:ingotPolonium>,
+    <ore:blockPolonium>,
+    <ore:nuggetPolonium>,
+    <ore:dustPolonium>
 ], true);
 
 GameStagesUtil.stageMasterEngineer.addIngredients([
@@ -2132,7 +2144,9 @@ GameStagesUtil.stageEpicEngineer.addIngredients([
     <ore:dustCalciumAcetate>,
     <ore:dustAlphaHydroxyisobutyricAcid>,
     <ore:dustLacticAcid>,
-    <ore:dustDTPA>
+    <ore:dustDTPA>,
+    <additions:pit_cf253>,
+    <additions:pit_es254>
 ], true);
 
 GameStagesUtil.stageChallenger1.addIngredients([
@@ -2546,7 +2560,13 @@ GameStagesUtil.stageWakeUp.addIngredients([
     <ore:nuggetCerlinite>,
     <ore:dustCerlinite>,
     <contenttweaker:bauble_core_of_22_pass>,
-    <additions:original_spirit>
+    <additions:original_spirit>,
+    <ore:ingotBoundlessAlloy>,
+    <ore:nuggetBoundlessAlloy>,
+    <ore:blockBoundlessAlloy>,
+    <ore:dustBoundlessAlloy>,
+    <ore:ballBoundlessAlloy>,
+    <ometweaks:boundless_capacitor>
 ], false);
 
 GameStagesUtil.stageMindShock.addIngredients([

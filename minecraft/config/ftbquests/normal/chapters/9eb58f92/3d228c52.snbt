@@ -1,0 +1,35 @@
+{
+	title: "§b超级能带",
+	x: -27.5d,
+	y: 11.0d,
+	description: "使用化学反应器合成碲化镉",
+	text: [
+		""
+	],
+	dependencies: [
+		"69f54af3"
+	],
+	tasks: [{
+		uid: "ac69c50d",
+		type: "item",
+		items: [{
+			item: "additions:cadmium_telluride"
+		}]
+	}],
+	rewards: [{
+		uid: "b733204e",
+		type: "item",
+		item: "additions:cadmium_telluride",
+		count: 8
+	},
+	{
+		uid: "4f96d0be",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "f06131fc",
+		type: "xp",
+		xp: 8000
+	}]
+}

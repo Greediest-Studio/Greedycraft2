@@ -155,6 +155,12 @@ Alloy.addRecipe(<liquid:zincargentum> * 3, [<liquid:zinc> * 2, <liquid:silver>])
 Alloy.addRecipe(<liquid:niobium_titanium>, [<liquid:niobium>, <liquid:titanium>]);
 Alloy.addRecipe(<liquid:decatine> * 144, [<liquid:liquidoctine> * 144, <liquid:blood> * 40, <liquid:mummysludge> * 72]);
 Alloy.addRecipe(<liquid:blue_alloy> * 6, [<liquid:eco_basic_alloy>, <liquid:crystalline_alloy> * 8, <liquid:platinum> * 12]);
+Alloy.addRecipe(<liquid:shibuichi> * 4, [<liquid:copper> * 3, <liquid:silver>]);
+Alloy.addRecipe(<liquid:signalum> * 72, [<liquid:shibuichi> * 72, <liquid:redstone> * 125]);
+Alloy.addRecipe(<liquid:tin_silver> * 4, [<liquid:tin> * 3, <liquid:silver>]);
+Alloy.addRecipe(<liquid:zircaloy> * 2, [<liquid:zirconium> * 2, <liquid:tin>]);
+Alloy.addRecipe(<liquid:hastelloy> * 4, [<liquid:nichrome> * 3, <liquid:molybdenum>]);
+Alloy.addRecipe(<liquid:nichrome> * 2, [<liquid:nickel>, <liquid:chromium>]);
 
 Casting.removeBasinRecipe(<tcomplement:scorched_block:10>);
 Casting.removeBasinRecipe(<tcomplement:scorched_block:1>);
@@ -342,6 +348,7 @@ addTableBasicRecipe(<additions:curse_alloy_ball>, <tconstruct:cast_custom:2>, <l
 addTableBasicRecipe(<additions:creative_alloy_ball>, <tconstruct:cast_custom:2>, <liquid:creative_alloy>, 30, false, 60);
 addTableBasicRecipe(<additions:clock_alloy_ball>, <tconstruct:cast_custom:2>, <liquid:clock_alloy>, 30, false, 60);
 addTableBasicRecipe(<additions:blackhole_alloy_ball>, <tconstruct:cast_custom:2>, <liquid:blackhole_alloy>, 30, false, 60);
+addTableBasicRecipe(<additions:boundless_alloy_ball>, <tconstruct:cast_custom:2>, <liquid:boundless_alloy>, 30, false, 60);
 addTableBasicRecipe(<additions:sulfonated_polystyrene_resin>, <erebus:materials:40>, <liquid:sulfonated_polystyrene>, 576, true, 100);
 addTableBasicRecipe(<additions:chelated_cation_exchange_resin>, <erebus:materials:40>, <liquid:chelating_cation_resin_base_solution>, 576, true, 100);
 addTableBasicRecipe(<additions:ultrafine_cation_exchange_resin>, <erebus:materials:40>, <liquid:ultrafine_cation_exchange_resin_base_solution>, 576, true, 100);

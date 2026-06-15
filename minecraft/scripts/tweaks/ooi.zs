@@ -107,3 +107,6 @@ ConversionFluid.create(<liquid:void_metal>).addMatchFluid(<liquid:void>).registe
 ConversionFluid.create(<liquid:molten_ichorium>).addMatchFluid(<liquid:ichorium>).register();
 ConversionFluid.create(<liquid:nitrogen_oxide>).addMatchFluid(<liquid:nitric_oxide>).register();
 ConversionFluid.create(<liquid:magma_fluid>).addMatchFluid(<liquid:magma_slime>).register();
+ConversionFluid.create(<liquid:sic_sic_cmc>).addMatchFluid(<liquid:si_c_si_c_c_m_c>).register();
+ConversionFluid.create(<liquid:sic>).addMatchFluid(<liquid:sic_vapor>).register();
+ConversionFluid.create(<liquid:h_s_l_a_steel>).addMatchFluid(<liquid:hsla>).register();

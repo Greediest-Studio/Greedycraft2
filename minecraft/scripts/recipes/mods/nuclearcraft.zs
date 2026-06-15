@@ -876,6 +876,17 @@ DecayHastener.addRecipe(<ore:ingotFrancium>, <thermalfoundation:material:67>, 0.
 DecayHastener.addRecipe(<ore:ingotActinium>, <thermalfoundation:material:67>, 1.0d, 1.0d, number(26.0d, n));
 DecayHastener.addRecipe(<ore:ingotProtactinium>, <jaopca:dust.actinium>, 5.2d, 1.0d, number(32.0d, n));
 
+Radiation.setRadiationLevel(<additions:pit_cf253>, 2.65d);
+Radiation.setRadiationLevel(<additions:pit_es254>, 1.36d);
+Radiation.setRadiationLevel(<trinity:core_cf253>, number(2.65d, m));
+Radiation.setRadiationLevel(<trinity:core_es254>, number(1.36d, m));
+Radiation.setRadiationLevel(<trinity:salted_core_cf253>, number(2.65d, m));
+Radiation.setRadiationLevel(<trinity:salted_core_es254>, number(1.36d, m));
+Radiation.setRadiationLevel(<trinity:bomb_cf253>, number(26.5d, u));
+Radiation.setRadiationLevel(<trinity:bomb_es254>, number(13.6d, u));
+Radiation.setRadiationLevel(<trinity:salted_bomb_cf253>, number(26.5d, u));
+Radiation.setRadiationLevel(<trinity:salted_bomb_es254>, number(13.6d, u));
+
 Radiation.setMaterialRadiationLevel("Technetium", 0.000000000985d);
 Radiation.setMaterialRadiationLevel("Promethium", 0.064d);
 Radiation.setMaterialRadiationLevel("Astatine", 1.28d);
@@ -925,3 +936,11 @@ Radiation.setMaterialRadiationLevel("Einsteinium252All", 0.012d);
 Radiation.setMaterialRadiationLevel("Einsteinium252Nitrate", 0.006d);
 
 Radiation.setMaterialPrefixRadiationMultiplier("gem", 1.0d);
+Radiation.setMaterialPrefixRadiationMultiplier("brewed", 0.8d);
+Radiation.setMaterialPrefixRadiationMultiplier("compound", 0.8d);
+Radiation.setMaterialPrefixRadiationMultiplier("infused", 0.8d);
+Radiation.setMaterialPrefixRadiationMultiplier("pured", 0.8d);
+Radiation.setMaterialPrefixRadiationMultiplier("radiation", 1.5d);
+Radiation.setMaterialPrefixRadiationMultiplier("reduced", 0.8d);
+Radiation.setMaterialPrefixRadiationMultiplier("starlight", 0.8d);
+Radiation.setMaterialPrefixRadiationMultiplier("cluster", 0.8d);

@@ -2,6 +2,7 @@
 	title: "§b人造矿物",
 	x: -2.5d,
 	y: 15.0d,
+	shape: "gear",
 	description: "在核弹爆炸的废墟中收集三位一体石",
 	text: [
 		""
@@ -9,6 +10,7 @@
 	dependencies: [
 		"0bfe5d75"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "57b9f5c2",
 		type: "item",

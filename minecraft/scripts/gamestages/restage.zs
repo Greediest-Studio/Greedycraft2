@@ -73,7 +73,10 @@ GameStagesUtil.removeItemStages([
     <da:azaela_leaf>,
     <da:az_fence>,
     <da:aza_vines_berries>,
-    <da:glow_berry>
+    <da:glow_berry>,
+    <ore:ingotShibuichi>,
+    <ore:ingotTinSilver>,
+    <ore:ingotLeadPlatinum>
 ] as IIngredient[]);
 
 GameStagesUtil.restageItems("wielder_of_infinity", [

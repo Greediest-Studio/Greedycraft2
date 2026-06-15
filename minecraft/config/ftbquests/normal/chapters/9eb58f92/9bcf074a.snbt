@@ -1,0 +1,35 @@
+{
+	title: "§b红硒化物",
+	x: -25.0d,
+	y: 9.5d,
+	description: "使用化学反应器合成硒化镉",
+	text: [
+		""
+	],
+	dependencies: [
+		"99b31fe3"
+	],
+	tasks: [{
+		uid: "fad414f2",
+		type: "item",
+		items: [{
+			item: "additions:cadmium_selenide"
+		}]
+	}],
+	rewards: [{
+		uid: "74cb41ce",
+		type: "item",
+		item: "additions:cadmium_selenide",
+		count: 8
+	},
+	{
+		uid: "7bf25b44",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "73ab20a8",
+		type: "xp",
+		xp: 8000
+	}]
+}
