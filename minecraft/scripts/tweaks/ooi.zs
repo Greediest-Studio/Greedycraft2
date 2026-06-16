@@ -26,7 +26,8 @@ ConversionItem.create(<quark:end_bricks_stairs>)
 ConversionItem.create(<quark:end_bricks_slab>).addMatchItem(<endexpansion:end_brick_half>).register();
 ConversionItem.create(<quark:end_bricks_wall>)
     .addMatchItem(<endexpansion:end_stone_wall>)
-    .addMatchItem(<endreborn:e_end_bricks_wall>).register();
+    .addMatchItem(<endreborn:e_end_bricks_wall>)
+    .addMatchItem(<futuremc:end_stone_brick_wall>).register();
 ConversionItem.create(<thermalfoundation:material:132>).addMatchItem(<ore:ingotAluminum>).register();
 ConversionItem.create(<thermalfoundation:material:163>).addMatchItem(<ore:ingotBronze>).register();
 ConversionItem.create(<thermalfoundation:material:128>).addMatchItem(<ore:ingotCopper>).register();
@@ -80,6 +81,21 @@ ConversionItem.create(<mekanism:oreblock:5>).addMatchItem(<ore:oreUranium>).regi
 ConversionItem.create(<quark:quartz_wall>).addMatchItem(<netherex:quartz_wall>).register();
 ConversionItem.create(<nuclearcraft:ingot2:7>).addMatchItem(<ore:ingotHolmium>).register();
 ConversionItem.create(<nuclearcraft:ingot2:8>).addMatchItem(<ore:ingotDysprosium>).register();
+ConversionItem.create(<oe:blue_ice>).addMatchItem(<futuremc:blue_ice>).register();
+ConversionItem.create(<oe:nautilus_shell>).addMatchItem(<futuremc:nautilus_shell>).register();
+ConversionItem.create(<quark:brick_wall>).addMatchItem(<futuremc:brick_wall>).register();
+ConversionItem.create(<quark:stone_granite_wall>).addMatchItem(<futuremc:granite_wall>).register();
+ConversionItem.create(<quark:stone_diorite_wall>).addMatchItem(<futuremc:diorite_wall>).register();
+ConversionItem.create(<quark:stone_andesite_wall>).addMatchItem(<futuremc:andesite_wall>).register();
+ConversionItem.create(<quark:sandstone_wall>).addMatchItem(<futuremc:sandstone_wall>).register();
+ConversionItem.create(<quark:red_sandstone_wall>).addMatchItem(<futuremc:red_sandstone_wall>).register();
+ConversionItem.create(<quark:stonebrick_wall>)
+    .addMatchItem(<endexpansion:stone_brick_wall>)
+    .addMatchItem(<futuremc:stone_brick_wall>).register();
+ConversionItem.create(<quark:stonebrick_mossy_wall>).addMatchItem(<futuremc:mossy_stone_brick_wall>).register();
+ConversionItem.create(<netherex:nether_brick_wall>).addMatchItem(<futuremc:nether_brick_wall>).register();
+ConversionItem.create(<netherex:red_nether_brick_wall>).addMatchItem(<futuremc:red_nether_brick_wall>).register();
+ConversionItem.create(<quark:prismarine_rough_wall>).addMatchItem(<futuremc:prismarine_wall>).register();
 
 ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:burningsulfurflow>).register();
 ConversionFluid.create(<liquid:liquidantimatter>).addMatchFluid(<liquid:blockfluidantimatter>).register();

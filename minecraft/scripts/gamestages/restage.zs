@@ -269,3 +269,6 @@ GameStagesUtil.restageItems("noob_engineer", [
     <ore:itemSilicon>,
     <ore:dustQuartz>
 ] as IIngredient[]);
+GameStagesUtil.restageItems("ender_charm", [
+    <cyclicmagic:ender_lightning>
+] as IIngredient[]);

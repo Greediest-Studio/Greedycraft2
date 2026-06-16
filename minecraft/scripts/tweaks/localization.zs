@@ -106,6 +106,7 @@ val localizationMap as string[string][string] = {
         "item.duranite_nugget.name": "耐力金属粒",
         "item.duranite_dust.name": "耐力金属粉",
         "item.duranite_ingot.name": "耐力金属锭",
+        "tile.futuremc.scaffolding": "脚手架",
         "fluid.tconstruct.duranite_fluid.name": "熔融耐力金属",
         "info.nuclearcraft.moderator.desc": "在燃料单元之间传导并增加中子通量。",
         "info.nuclearcraft.electrode.desc": "可以作为大型电解机的阴极或阳极。",
