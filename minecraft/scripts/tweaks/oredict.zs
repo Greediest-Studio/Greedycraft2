@@ -285,8 +285,6 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <astralsorcery:itemconstellationpaper>,
         <additions:loli_lolipop>,
         <openblocks:trophy:*>,
-        <charm:charged_emerald>,
-        <charm:totem_of_shielding>,
         <ore:dungeonShield>,
         <ore:inventoryPet>,
         <journey:xp_catalyst>,
@@ -378,7 +376,7 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:pulpWood> : [<ore:dustWood>],
     <ore:itemRune> : [<quark:rune:*>],
     <ore:gemTerrestrial> : [<biomesoplenty:terrestrial_artifact>],
-    <ore:blockRottenFlesh> : [<thaumcraft:flesh_block>, <charm:rotten_flesh_block>],
+    <ore:blockRottenFlesh> : [<thaumcraft:flesh_block>],
     <ore:rottenFlesh> : [<minecraft:rotten_flesh>],
     <ore:spiderEye> : [<minecraft:spider_eye>],
     <ore:mycelium> : [

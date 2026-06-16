@@ -64,7 +64,6 @@ val fuelList as int[IItemStack] = {
     <additions:harcadium_ingot> : 16,
     <additions:harcadium_block> : 160,
     <endreborn:item_end_essence> : 4,
-    <charm:ender_pearl_block> : 40,
     <actuallyadditions:block_misc:6> : 20
 };
 

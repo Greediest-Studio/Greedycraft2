@@ -499,12 +499,6 @@ alias = "mods/champions-1.12.2-1.0.11.10.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/charm.pw.toml"
-hash = "3c70231adf9d30c42c7cb9054135c19a6dc92e0e0e87d9b75e519595e9cc9dd9"
-alias = "mods/Charm-1.12.2-1.4.1.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/chatflow.pw.toml"
 hash = "cc8c3b2c889c1ffee3244273c878fe2c51b2ca13f2865a32f19f6500d595fa06"
 alias = "mods/ChatFlow-1.4-7.jar"
@@ -1018,6 +1012,12 @@ metafile = true
 file = "mods/.index/fugue.pw.toml"
 hash = "d9c7ca2bb3dca9aaf8f5e557cb9d508b0d6552df7829df625671210dcc571528"
 alias = "mods/+Fugue-0.23.4.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/future-mc.pw.toml"
+hash = "1b84ef8a1599790662fc26d83967df8d17c08d757fc22d89e7178e202a0e30db"
+alias = "mods/Future-MC-0.2.21.jar"
 metafile = true
 
 [[files]]

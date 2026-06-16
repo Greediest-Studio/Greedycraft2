@@ -194,14 +194,11 @@ LootUtil.addItem(<natura:edibles:7>, 1, 1, 1, 4);
 LootUtil.addItem(<natura:edibles:8>, 1, 1, 1, 4);
 LootUtil.addItem(<natura:edibles:9>, 1, 1, 1, 4);
 LootUtil.addItem(<additions:catalyst_star>, 2, 1, 1, 1);
-LootUtil.addItem(<charm:suspicious_soup>, 10, 1, 1, 1);
 LootUtil.addItem(<additions:slime_crown>, 2, 1, 1, 1);
 LootUtil.addItem(<extrabotany:rewardbag:3>.withTag({weight: 189}), 2, 1, 1, 2);
 LootUtil.addItem(<extrabotany:rewardbag:1>.withTag({weight: 76}), 2, 1, 1, 2);
 LootUtil.addItem(<extrabotany:rewardbag>.withTag({weight: 96}), 4, 1, 1, 2);
 LootUtil.addItem(<oeintegration:excavatemodifier>, 3, 1, 1, 3);
-LootUtil.addItem(<charm:iron_lantern>, 4, 1, 4, 12);
-LootUtil.addItem(<charm:gold_lantern>, 3, 1, 2, 6);
 LootUtil.addItem(<mutantbeasts:chemical_x>, 4, 1, 1, 2);
 
 LootUtil.addHardmodeItem(<extrabotany:rewardbag:2>.withTag({weight: 113}), 2, 1, 1, 2);

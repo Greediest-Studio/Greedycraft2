@@ -26,7 +26,6 @@ var disabledItems as IIngredient[] = [
     <moretcon:dustvalkyriemetal>,
     <moretcon:oreirradium>,
     <actuallyadditions:item_bag>,
-    <charm:totem_of_shielding>,
     <tiths:ore_steamium>,
     <actuallyadditions:block_phantom_breaker>,
     <nuclearcraft:alloy_furnace>,

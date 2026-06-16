@@ -411,12 +411,6 @@ RecipeUtil.addShapeless("neutronium_combination", <avaritia:resource:4> * 2,
 RecipeUtil.addShapeless("neutronium_block_combination", <avaritia:block_resource> * 2,
     [<ore:blockProtonium>, <ore:blockElectronium>]
 );
-RecipeUtil.addShapeless("rotten_flesh_block_1", <charm:rotten_flesh_block>,
-    [<thaumcraft:flesh_block>]
-);
-RecipeUtil.addShapeless("rotten_flesh_block_2", <thaumcraft:flesh_block>,
-    [<charm:rotten_flesh_block>]
-);
 RecipeUtil.addShapeless("crimsonite_rev", <additions:crimsonite_ingot> * 9,
     [<ore:blockCrimsonite>]
 );

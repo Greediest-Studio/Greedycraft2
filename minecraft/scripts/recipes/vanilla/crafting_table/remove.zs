@@ -254,7 +254,6 @@ val removedRecipes as IIngredient[] = [
     <randomthings:chunkanalyzer>,
     <cyclicmagic:harvester_block>,
     <mysticalagriculture:mystical_fertilizer>,
-    <charm:rotten_flesh_block>,
     <extrabotany:goblinslayerhelm>,
     <extrabotany:goblinslayerchest>,
     <extrabotany:goblinslayerlegs>,
