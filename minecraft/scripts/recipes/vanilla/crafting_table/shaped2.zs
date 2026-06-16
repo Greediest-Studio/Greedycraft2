@@ -750,6 +750,11 @@ RecipeUtil.addShaped("sharpen_capacitor", <ometweaks:sharpen_capacitor>, [
     [<enderio:item_capacitor_stellar> | <ometweaks:mist_capacitor>, <ore:ingotChromasteel>, <enderio:item_capacitor_stellar> | <ometweaks:mist_capacitor>],
     [null, <ore:ingotSharpenAlloy>, null]
 ]);
+RecipeUtil.addShaped("boundless_capacitor", <ometweaks:boundless_capacitor>, [
+    [null, <ore:ingotBoundlessAlloy>, null],
+    [<ometweaks:blackhole_capacitor>, <ore:ingotAetherite>, <ometweaks:blackhole_capacitor>],
+    [null, <ore:ingotBoundlessAlloy>, null]
+]);
 RecipeUtil.addShaped("slime_block", <minecraft:slime>, [
     [<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>],
     [<minecraft:slime_ball>, <minecraft:slime_ball>, <minecraft:slime_ball>],

@@ -48,3 +48,14 @@ RecipeBuilder.newBuilder("laseralloy_cadmium_chachalcogenide", "great_laser_allo
     .setMaxThreads(1)
     .addFluidOutput(<liquid:cadmium_chalcogenide> * 2880)
     .build();
+
+RecipeBuilder.newBuilder("laseralloy_boundless_alloy", "great_laser_alloyer", 200)
+    .addItemInput(<ore:dustSky> * 8)
+    .addItemInput(<ore:dustVoid> * 8)
+    .addItemInput(<ore:dustAetherium> * 4)
+    .addItemInput(<ore:dustCreativeAlloy> * 2)
+    .addLaserInput(1.0E7)
+    .addEnergyPerTickInput(800000000)
+    .setMaxThreads(1)
+    .addFluidOutput(<liquid:boundless_alloy> * 2880)
+    .build();

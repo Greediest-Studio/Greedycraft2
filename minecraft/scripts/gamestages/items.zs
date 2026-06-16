@@ -1625,6 +1625,8 @@ GameStagesUtil.stageSkilledWizard.addIngredients([
     <ore:blockCrimsonite>,
     <ore:ingotCrimsonite>,
     <ore:blockSky>,
+    <ore:dustSky>,
+    <ore:nuggetSky>,
     <additions:fabric_of_nature>
 ], false);
 

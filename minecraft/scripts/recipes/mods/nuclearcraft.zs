@@ -685,6 +685,7 @@ ChemicalReactor.addRecipe(<liquid:cyclohexanone_oxime> * 250, <liquid:sulfuric_a
 ChemicalReactor.addRecipe(<liquid:witherite_water> * 333, <liquid:hydrochloric_acid> * 1000, <liquid:barium_chloride_solution> * 333, <liquid:carbon_dioxide> * 500);
 ChemicalReactor.addRecipe(<liquid:witherite_water> * 333, <liquid:nitric_acid> * 1000, <liquid:barium_nitrate_solution> * 333, <liquid:carbon_dioxide> * 500);
 ChemicalReactor.addRecipe(<liquid:silicon_tetrafluoride> * 250, <liquid:sodium> * 144, <liquid:sodium_fluoride> * 666, <liquid:silicon> * 36);
+ChemicalReactor.addRecipe(<liquid:carbon> * 144, <liquid:silicon> * 144, <liquid:sic> * 144, null);
 
 Crystallizer.addRecipe(<liquid:iodine_carbon_tetrachloride_solution> * 200, <jaopca:dust.iodine>);
 Crystallizer.addRecipe(<liquid:chloroplatinic_acid_solution> * 666, <additions:chloroplatinic_acid>);
