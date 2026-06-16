@@ -148,6 +148,16 @@ RecipeBuilder.newBuilder("upgrade_etcher_mk3", "empowerer", "40")
     .addItemOutput(<additions:upgrade_etcher_mk3> * 1)
     .build();
 
+RecipeBuilder.newBuilder("upgrade_etcher_mk4", "empowerer", "40")
+    .addItemInput(<additions:upgrade_blank> * 1)
+    .addItemInput(<additions:cd_chalcogenite_press> * 1)
+    .addItemInput(<additions:logic_press_4> * 1)
+    .addItemInput(<additions:calculation_press_4> * 1)
+    .addItemInput(<additions:engineering_press_4> * 1)
+    .addEnergyPerTickInput(100000)
+    .addItemOutput(<additions:upgrade_etcher_mk4> * 1)
+    .build();
+
 RecipeBuilder.newBuilder("bauble_horseshoe_balloon" , "empowerer" , "40")
     .addItemInput(<minecraft:string> * 1)
     .addItemInput(<bountifulbaubles:trinketballoon> * 1)

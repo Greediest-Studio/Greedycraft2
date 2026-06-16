@@ -48,8 +48,14 @@ upgradeMK3.addDescriptions("§b令ELYSIA蚀刻单元可以刻蚀3级电路板");
 upgradeMK3.addCompatibleMachines("elysia_etcher");
 upgradeMK3.buildAndRegister();
 
+var upgradeMK4 as MachineUpgradeBuilder = MachineUpgradeBuilder.newBuilder("etcher_mk4_upg", "4级蚀刻升级", 1, 1);
+upgradeMK4.addDescriptions("§b使ELYSIA蚀刻单元可以刻蚀4级电路板");
+upgradeMK4.addCompatibleMachines("elysia_etcher");
+upgradeMK4.buildAndRegister();
+
 MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_etcher_mk2>, "etcher_mk2_upg");
 MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_etcher_mk3>, "etcher_mk3_upg");
+MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_etcher_mk4>, "etcher_mk4_upg");
 
 MMEvents.onControllerGUIRender("elysia_etcher", function(event as ControllerGUIRenderEvent) {
     var info as string[] = [
@@ -102,6 +108,22 @@ function addEtcherRecipe(output as IItemStack, inputs as IItemStack[], level as 
         });
         builder.setMaxThreads(1);
         builder.build();
+    } else if (level == 4) {
+        var builder = RecipeBuilder.newBuilder(output.definition.id + "_" + output.metadata + "_etcher_recipe", "elysia_etcher", 400);
+        for input in inputs {
+            builder.addInput(input);
+        }
+        builder.addOutput(output);
+        builder.addEnergyPerTickInput(1600);
+        builder.addRecipeTooltip("§d蚀刻配方支持模块化电容升级，详情请查询“模块化电容”");
+        builder.addRecipeTooltip("§a该配方需要4级蚀刻升级，详情请查询“模块化电容-蚀刻4”");
+        builder.addPreCheckHandler(function(event as RecipeCheckEvent) {
+            if (!event.controller.hasMachineUpgrade("etcher_mk4_upg")) {
+                event.setFailed("缺少4级蚀刻升级！");
+            }
+        });
+        builder.setMaxThreads(1);
+        builder.build();
     }
 }
 
@@ -125,3 +147,6 @@ addEtcherRecipe(<additions:engineering_processor_2>, [<defiledlands:scarlite>, <
 addEtcherRecipe(<additions:logic_processor_3>, [<additions:porpezite_ingot>, <minecraft:redstone>, <additions:gallium_indium_phosphide>], 3);
 addEtcherRecipe(<additions:calculation_processor_3>, [<avaritia:resource:1>, <minecraft:redstone>, <additions:gallium_indium_phosphide>], 3);
 addEtcherRecipe(<additions:engineering_processor_3>, [<nuclearcraft:gem:1>, <minecraft:redstone>, <additions:gallium_indium_phosphide>], 3);
+addEtcherRecipe(<additions:logic_processor_4>, [<moretcon:ingotirradium>, <minecraft:redstone>, <additions:cadmium_chalcogenide_ingot>], 4);
+addEtcherRecipe(<additions:calculation_processor_4>, [<additions:arimite_ingot>, <minecraft:redstone>, <additions:cadmium_chalcogenide_ingot>], 4);
+addEtcherRecipe(<additions:engineering_processor_4>, [<additions:gemundyingember>, <minecraft:redstone>, <additions:cadmium_chalcogenide_ingot>], 4);

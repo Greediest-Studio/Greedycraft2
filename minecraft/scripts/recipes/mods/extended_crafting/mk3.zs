@@ -358,3 +358,43 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gaiapro:cerlinite_calling>, [
 	[<ore:blockManarium>, <ore:blockManarium>, <ore:blockManarium>, <ore:gemCerlinite>, <ore:blockManarium>, <ore:blockManarium>, <ore:blockManarium>], 
 	[<ore:blockManarium>, <ore:blockManarium>, <ore:blockManarium>, <ore:blockManarium>, <ore:blockManarium>, <ore:blockManarium>, <ore:blockManarium>]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:engineering_press_4>, [
+	[<ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>], 
+	[<ore:ingotBoundlessAlloy>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotPrimordialExtended>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotBoundlessAlloy>], 
+	[<ore:ingotBoundlessAlloy>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotPrimordialExtended>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotBoundlessAlloy>], 
+	[<ore:ingotBoundlessAlloy>, <ore:ingotPrimordialExtended>, <ore:ingotPrimordialExtended>, <additions:engineering_press_3>, <ore:ingotPrimordialExtended>, <ore:ingotPrimordialExtended>, <ore:ingotBoundlessAlloy>], 
+	[<ore:ingotBoundlessAlloy>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotPrimordialExtended>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotBoundlessAlloy>], 
+	[<ore:ingotBoundlessAlloy>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotPrimordialExtended>, <ore:ingotBreedum>, <ore:ingotBoundlessAlloy>, null], 
+	[<ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:logic_press_4>, [
+	[<ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>], 
+	[<ore:ingotBoundlessAlloy>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotPrimordialExtended>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotBoundlessAlloy>], 
+	[<ore:ingotBoundlessAlloy>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotPrimordialExtended>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotBoundlessAlloy>], 
+	[<ore:ingotBoundlessAlloy>, <ore:ingotPrimordialExtended>, <ore:ingotPrimordialExtended>, <additions:logic_press_3>, <ore:ingotPrimordialExtended>, <ore:ingotPrimordialExtended>, <ore:ingotBoundlessAlloy>], 
+	[<ore:ingotBoundlessAlloy>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotPrimordialExtended>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotBoundlessAlloy>], 
+	[<ore:ingotBoundlessAlloy>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotPrimordialExtended>, <ore:ingotBreedum>, <ore:ingotBoundlessAlloy>, null], 
+	[<ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:calculation_press_4>, [
+	[<ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>], 
+	[<ore:ingotBoundlessAlloy>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotPrimordialExtended>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotBoundlessAlloy>], 
+	[<ore:ingotBoundlessAlloy>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotPrimordialExtended>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotBoundlessAlloy>], 
+	[<ore:ingotBoundlessAlloy>, <ore:ingotPrimordialExtended>, <ore:ingotPrimordialExtended>, <additions:calculation_press_3>, <ore:ingotPrimordialExtended>, <ore:ingotPrimordialExtended>, <ore:ingotBoundlessAlloy>], 
+	[<ore:ingotBoundlessAlloy>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotPrimordialExtended>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotBoundlessAlloy>], 
+	[<ore:ingotBoundlessAlloy>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotPrimordialExtended>, <ore:ingotBreedum>, <ore:ingotBoundlessAlloy>, null], 
+	[<ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <additions:cd_chalcogenite_press>, [
+	[<ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>], 
+	[<ore:ingotBoundlessAlloy>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotPrimordialExtended>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotBoundlessAlloy>], 
+	[<ore:ingotBoundlessAlloy>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotPrimordialExtended>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotBoundlessAlloy>], 
+	[<ore:ingotBoundlessAlloy>, <ore:ingotPrimordialExtended>, <ore:ingotPrimordialExtended>, <additions:ga_in_p2_press>, <ore:ingotPrimordialExtended>, <ore:ingotPrimordialExtended>, <ore:ingotBoundlessAlloy>], 
+	[<ore:ingotBoundlessAlloy>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotPrimordialExtended>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotBoundlessAlloy>], 
+	[<ore:ingotBoundlessAlloy>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotPrimordialExtended>, <ore:ingotBreedum>, <ore:ingotBoundlessAlloy>, null], 
+	[<ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, null, null]
+]);

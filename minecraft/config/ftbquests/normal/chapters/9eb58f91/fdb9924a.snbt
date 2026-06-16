@@ -1,0 +1,29 @@
+{
+	title: "§b澄澈天空",
+	x: 15.5d,
+	y: -8.0d,
+	description: "合成无垠电容",
+	text: [
+		""
+	],
+	dependencies: [
+		"c3b1be4b"
+	],
+	tasks: [{
+		uid: "3b3f2763",
+		type: "item",
+		items: [{
+			item: "ometweaks:boundless_capacitor"
+		}]
+	}],
+	rewards: [{
+		uid: "c2a3c5ec",
+		type: "item",
+		item: "ometweaks:boundless_capacitor"
+	},
+	{
+		uid: "1c1d3be3",
+		type: "xp",
+		xp: 8000
+	}]
+}

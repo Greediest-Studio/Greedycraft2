@@ -1,0 +1,35 @@
+{
+	title: "§b你今天炖屎了吗？",
+	x: 15.5d,
+	y: -5.5d,
+	description: "制作一个无垠合金锭",
+	text: [
+		"请查询§c熔融无垠合金§r的配方"
+	],
+	dependencies: [
+		"bfd73469"
+	],
+	tasks: [{
+		uid: "c0b45026",
+		type: "item",
+		items: [{
+			item: "additions:boundless_alloy_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "11e25663",
+		type: "item",
+		item: "additions:boundless_alloy_ingot",
+		count: 4
+	},
+	{
+		uid: "3b94bda6",
+		type: "xp",
+		xp: 10000
+	},
+	{
+		uid: "c1022daa",
+		type: "random",
+		table: 3
+	}]
+}

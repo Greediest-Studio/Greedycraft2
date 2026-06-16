@@ -2568,7 +2568,18 @@ GameStagesUtil.stageWakeUp.addIngredients([
     <ore:blockBoundlessAlloy>,
     <ore:dustBoundlessAlloy>,
     <ore:ballBoundlessAlloy>,
-    <ometweaks:boundless_capacitor>
+    <ometweaks:boundless_capacitor>,
+    <additions:calculation_press_4>,
+    <additions:engineering_press_4>,
+    <additions:logic_press_4>,
+    <additions:cd_chalcogenite_press>,
+    <additions:cadmium_chalcogenide_plate>,
+    <additions:calculation_circuit_printed_4>,
+    <additions:engineering_circuit_printed_4>,
+    <additions:logic_circuit_printed_4>,
+    <additions:calculation_processor_4>,
+    <additions:engineering_processor_4>,
+    <additions:logic_processor_4>
 ], false);
 
 GameStagesUtil.stageMindShock.addIngredients([

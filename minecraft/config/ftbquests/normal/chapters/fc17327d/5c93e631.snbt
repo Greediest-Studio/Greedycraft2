@@ -121,14 +121,13 @@
 						Damage: 0s,
 						id: "rftools:rftools_manual"
 					},
-					nuclearcraft: {
+					aether_legacy: {
 						Count: 1b,
 						tag: {
-							"akashictome:definedMod": "nuclearcraft",
-							"patchouli:book": "nuclearcraft:guide"
+							"akashictome:definedMod": "aether_legacy"
 						},
 						Damage: 0s,
-						id: "patchouli:guide_book"
+						id: "aether_legacy:lore_book"
 					},
 					bloodmagic: {
 						Count: 1b,
@@ -146,14 +145,13 @@
 						Damage: 0s,
 						id: "thermalfoundation:tome_lexicon"
 					},
-					packagedauto: {
+					projecte: {
 						Count: 1b,
 						tag: {
-							"akashictome:definedMod": "packagedauto",
-							"patchouli:book": "packagedauto:guide"
+							"akashictome:definedMod": "projecte"
 						},
 						Damage: 0s,
-						id: "patchouli:guide_book"
+						id: "projecte:item.pe_manual"
 					},
 					endreborn: {
 						Count: 1b,
@@ -169,13 +167,14 @@
 						Damage: 0s,
 						id: "patchouli:guide_book"
 					},
-					projecte: {
+					packagedauto: {
 						Count: 1b,
 						tag: {
-							"akashictome:definedMod": "projecte"
+							"akashictome:definedMod": "packagedauto",
+							"patchouli:book": "packagedauto:guide"
 						},
 						Damage: 0s,
-						id: "projecte:item.pe_manual"
+						id: "patchouli:guide_book"
 					},
 					ftbquests: {
 						Count: 1b,
@@ -185,13 +184,14 @@
 						Damage: 0s,
 						id: "ftbquests:book"
 					},
-					aether_legacy: {
+					nuclearcraft: {
 						Count: 1b,
 						tag: {
-							"akashictome:definedMod": "aether_legacy"
+							"akashictome:definedMod": "nuclearcraft",
+							"patchouli:book": "nuclearcraft:guide"
 						},
 						Damage: 0s,
-						id: "aether_legacy:lore_book"
+						id: "patchouli:guide_book"
 					},
 					extendedcrafting: {
 						Count: 1b,
