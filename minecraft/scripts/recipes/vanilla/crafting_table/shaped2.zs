@@ -1186,6 +1186,11 @@ RecipeUtil.addShaped("boundless_ball", <additions:boundless_alloy_ball> * 24, [
     [<ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>],
     [null, <ore:ingotBoundlessAlloy>, null]
 ]);
+RecipeUtil.addShaped("basic_solar_panel", <crazyae:basic_solar_panel>, [
+    [<solarflux:photovoltaic_cell_1>, <solarflux:photovoltaic_cell_1>, <solarflux:photovoltaic_cell_1>],
+    [<ore:ingotFluixSteel>, <solarflux:solar_panel_alchemical>, <ore:ingotFluixSteel>],
+    [<appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>]
+]);
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],

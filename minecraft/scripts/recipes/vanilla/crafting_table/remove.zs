@@ -254,6 +254,7 @@ val removedRecipes as IIngredient[] = [
     <randomthings:chunkanalyzer>,
     <cyclicmagic:harvester_block>,
     <mysticalagriculture:mystical_fertilizer>,
+    <charm:rotten_flesh_block>,
     <extrabotany:goblinslayerhelm>,
     <extrabotany:goblinslayerchest>,
     <extrabotany:goblinslayerlegs>,
@@ -491,6 +492,10 @@ val removedRecipes as IIngredient[] = [
     <extendedcrafting:interface>,
     <botaniverse:spark_nilfheim>,
     <botania:pool:3>,
+    <crazyae:basic_solar_panel>,
+    <crazyae:improved_solar_panel>,
+    <crazyae:advanced_solar_panel>,
+    <crazyae:perfect_solar_panel>
 ];
 
 val removedRecipeNames as string[] = [

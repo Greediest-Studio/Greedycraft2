@@ -3,7 +3,7 @@
  */
 
 #priority 0
-#ikwid
+//#ikwid
 
 import crafttweaker.world.IWorld;
 import crafttweaker.item.IItemStack;
@@ -49,7 +49,14 @@ RecipeAdapterBuilder.create("elysia_reactor", "nuclearcraft:chemical_reactor")
     .build();
 
 function addExtraReactionRecipe(inputs as ILiquidStack[], outputs as ILiquidStack[]) {
-    var builder = RecipeBuilder.newBuilder(inputs[0].definition.name + (inputs.length > 1 ? inputs[1].definition.name : "") + "_reaction", "elysia_reactor", 200);
+    var recipeName = "ER";
+    for i in inputs {
+        recipeName += i.definition.name.replace("liquid:", "I");
+    }
+    for o in outputs {
+        recipeName += o.definition.name.replace("liquid:", "O");
+    }
+    var builder = RecipeBuilder.newBuilder(recipeName, "elysia_reactor", 200);
     for input in inputs {
         builder.addFluidInput(input);
     }

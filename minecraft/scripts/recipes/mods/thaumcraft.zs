@@ -101,6 +101,11 @@ ArcaneWorkbench.registerShapedRecipe("remnant_coin", "REMNANT_SOUL", 25, [<aspec
     [<ore:ingotAbyssine>, <additions:remnant_data>, <ore:ingotAbyssine>],
     [null, <ore:ingotAbyssine>, null]
 ]);
+ArcaneWorkbench.registerShapedRecipe("improved_solar_panel", "", 100, [], <crazyae:improved_solar_panel>, [
+    [<solarflux:photovoltaic_cell_2>, <solarflux:solar_panel_alchemical_brass>, <solarflux:photovoltaic_cell_2>],
+    [<crazyae:material:17>, <crazyae:basic_solar_panel>, <crazyae:material:17>],
+    [<ore:blockBrass>, <ore:blockBrass>, <ore:blockBrass>]
+]);
 
 ArcaneWorkbench.registerShapedRecipe("magic_eye", "", 50, [
     <aspect:aer> * 5,
@@ -561,4 +566,32 @@ Infusion.registerRecipe("remnant_soul", "ABYSSISM_MOBS_REMNANT", <additions:remn
     <botania:manaresource:5>,
     <gct_aby:solid_pot_energy>,
     <botania:manaresource:5>
+]);
+
+Infusion.registerRecipe("advanced_solar_panel", "", <crazyae:advanced_solar_panel>, 8, [
+    <aspect:sol> * 75,
+    <aspect:potentia> * 20
+], <crazyae:improved_solar_panel>, [
+    <crazyae:material:16>,
+    <thaumcraft:mechanism_simple>,
+    <appliedenergistics2:smooth_sky_stone_block>,
+    <thaumcraft:mechanism_simple>,
+    <appliedenergistics2:smooth_sky_stone_block>,
+    <thaumcraft:mechanism_simple>,
+    <crazyae:material:16>,
+    <solarflux:solar_panel_thaumium>
+]);
+
+Infusion.registerRecipe("perfect_solar_panel", "", <crazyae:perfect_solar_panel>, 12, [
+    <aspect:sol> * 200,
+    <aspect:potentia> * 80
+], <crazyae:advanced_solar_panel>, [
+    <crazyae:material:16>,
+    <thaumcraft:mechanism_complex>,
+    <thaumcraft:stone_arcane>,
+    <thaumcraft:mechanism_complex>,
+    <thaumcraft:stone_arcane>,
+    <thaumcraft:mechanism_complex>,
+    <crazyae:material:16>,
+    <solarflux:solar_panel_void_metal>
 ]);
