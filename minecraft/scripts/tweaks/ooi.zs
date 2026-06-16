@@ -70,8 +70,10 @@ ConversionItem.create(<actuallyadditions:block_quartz_stair>).addMatchItem(<bota
 ConversionItem.create(<actuallyadditions:block_quartz_slab>).addMatchItem(<botania:quartzslabdarkhalf>).register();
 ConversionItem.create(<additions:ancient_debris>).addMatchItem(<netherized:ancient_debris>).register();
 ConversionItem.create(<additions:netherite_scrap>).addMatchItem(<netherized:netherite_scrap>).register();
-ConversionItem.create(<additions:netherite_block>).addMatchItem(<netherized:netherite_block>).register();
-ConversionItem.create(<additions:netherite_ingot>).addMatchItem(<netherized:netherite_ingot>).register();
+ConversionItem.create(<additions:netherite_block>).addMatchItem(<netherized:netherite_block>)
+    .addMatchItem(<futuremc:netherite_block>).register();
+ConversionItem.create(<additions:netherite_ingot>).addMatchItem(<netherized:netherite_ingot>)
+    .addMatchItem(<futuremc:netherite_ingot>).register();
 ConversionItem.create(<netherendingores:ore_nether_vanilla:3>).addMatchItem(<netherized:nether_gold_ore>).register();
 ConversionItem.create(<mekanism:ingot:8>).addMatchItem(<ore:ingotUranium>).register();
 ConversionItem.create(<mekanism:dust:7>).addMatchItem(<ore:dustUranium>).register();
