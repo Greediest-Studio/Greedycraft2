@@ -32,14 +32,14 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent) {
         //Craven Survivalism Trait
         var pass as bool = false;
         if (!isNull(player.mainHandHeldItem) && !pass) {
-            if (TicTraitLib.hasTicTrait(player.mainHandHeldItem, "craven_survivalism")) {
+            if (player.mainHandHeldItem.hasTicTrait("craven_survivalism")) {
                 player.native.dropItem(player.mainHandHeldItem.native, false);
                 player.mainHandHeldItem.mutable().shrink(1);
                 pass = true;
             }
         }
         if (!isNull(player.offHandHeldItem) && !pass) {
-            if (TicTraitLib.hasTicTrait(player.offHandHeldItem, "craven_survivalism")) {
+            if (player.offHandHeldItem.hasTicTrait("craven_survivalism")) {
                 player.native.dropItem(player.offHandHeldItem.native, false);
                 player.offHandHeldItem.mutable().shrink(1);
                 pass = true;
@@ -48,7 +48,7 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent) {
         if (!(isNull(player.armorInventory) || player.armorInventory.length == 0) && !pass) {
             for armor in player.armorInventory {
                 if (!isNull(armor)) {
-                    if (TicTraitLib.hasTicTrait(armor, "craven_survivalism_armor")) {
+                    if (armor.hasTicTrait("craven_survivalism_armor")) {
                         if (Math.random() < 0.97f) player.native.dropItem(armor.native, false);
                         armor.mutable().shrink(1);
                         pass = true;
@@ -68,7 +68,7 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent) {
         if (event.damageSource.getTrueSource() instanceof IPlayer) {
             var player as IPlayer = event.damageSource.getTrueSource();
             if (!isNull(player.offHandHeldItem)) {
-                if (TicTraitLib.hasTicTrait(player.offHandHeldItem, "flamebow")) {
+                if (player.offHandHeldItem.hasTicTrait("flamebow")) {
                     var bow as IItemStack = player.offHandHeldItem;
                     var damageType as string = event.damageSource.getDamageType();
                     var entityId as int = event.entity.id;

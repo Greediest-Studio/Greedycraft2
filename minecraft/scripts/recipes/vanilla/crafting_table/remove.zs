@@ -498,6 +498,10 @@ val removedRecipes as IIngredient[] = [
 ];
 
 val removedRecipeNames as string[] = [
+    "crazyae:block/solars/basic_solar",
+    "crazyae:block/solars/imp_solar",
+    "crazyae:block/solars/adv_solar",
+    "crazyae:block/solars/per_solar",
     "thaumictinkerer:black_quartz_block",
     "botania:quartztypedark_0",
     "projecte:conversions/emerald_to_diamond",

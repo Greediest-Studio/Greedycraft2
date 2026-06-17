@@ -28,14 +28,14 @@ import crafttweaker.item.IItemStack;
 events.onEntityTravelToDimension(function(event as EntityTravelToDimensionEvent) {
     if (event.entity instanceof IPlayer) {
         var player as IPlayer = event.entity;
-        if (TicTraitLib.getPlayerTicArmorTrait(player) has "world_beginning_armor") {
+        if (player.getPlayerTicArmorTrait() has "world_beginning_armor") {
             player.addPotionEffect(<potion:contenttweaker:worldguard>.makePotionEffect(1000, 0, false, false));
         } else if (!isNull(player.mainHandHeldItem)) {
-            if (TicTraitLib.getTicTrait(player.mainHandHeldItem) has "world_beginning") {
+            if (player.mainHandHeldItem.getTicTrait() has "world_beginning") {
                 player.addPotionEffect(<potion:contenttweaker:worldguard>.makePotionEffect(1000, 0, false, false));
             }
         } else if (!isNull(player.offHandHeldItem)) {
-            if (TicTraitLib.getTicTrait(player.offHandHeldItem) has "world_beginning") {
+            if (player.offHandHeldItem.getTicTrait() has "world_beginning") {
                 player.addPotionEffect(<potion:contenttweaker:worldguard>.makePotionEffect(1000, 0, false, false));
             }
         }

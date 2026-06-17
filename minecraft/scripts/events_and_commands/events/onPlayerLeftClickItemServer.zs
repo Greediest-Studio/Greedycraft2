@@ -60,7 +60,7 @@ function getManaBaublesAndItems(player as IPlayer) as IItemStack[] {
 NetworkHandler.registerClient2ServerMessage("subspaceLeftClick", function(server, byteBuf, player) {
     if (!isNull(player.mainHandHeldItem)) {
         var item as IItemStack = player.mainHandHeldItem;
-        if (TicLib.isTicTool(item) && TicTraitLib.hasTicTrait(item, "subspace")) {
+        if (item.isTicTool() && item.hasTicTrait("subspace")) {
             for manaItem in getManaBaublesAndItems(player) {
                 if (IManaItemHandler.requestManaExactForTool(manaItem, player, 600, true)) {
                     var damage as float = ToolHelper.getActualAttack(item.native);

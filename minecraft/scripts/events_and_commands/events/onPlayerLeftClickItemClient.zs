@@ -25,17 +25,17 @@ events.register(function(event as LeftClickEmpty) {
     var player as IPlayer = event.getEntityPlayer().wrapper;
     if (!isNull(player.mainHandHeldItem)) {
         var item as IItemStack = player.mainHandHeldItem;
-        if (TicLib.isTicTool(item) && TicTraitLib.hasTicTrait(item, "subspace")) {
+        if (item.isTicTool() && item.hasTicTrait("subspace")) {
             NetworkHandler.sendToServer("subspaceLeftClick");
         }
         if (item.definition.id == "additions:emergency_button") {
             player.sendStatusMessage("§c§l已清除所有敌对实体！");
             NetworkHandler.sendToServer("emergencyButtonLeftClick");
         }
-        if (TicTraitLib.getPlayerTicHelmetTrait(player) has "dragon_body_armor") {
-            if (TicTraitLib.getPlayerTicChestplateTrait(player) has "dragon_body_armor" &&
-                TicTraitLib.getPlayerTicLeggingsTrait(player) has "dragon_body_armor" &&
-                TicTraitLib.getPlayerTicBootsTrait(player) has "dragon_body_armor") {
+        if (player.getPlayerTicHelmetTrait() has "dragon_body_armor") {
+            if (player.getPlayerTicChestplateTrait() has "dragon_body_armor" &&
+                player.getPlayerTicLeggingsTrait() has "dragon_body_armor" &&
+                player.getPlayerTicBootsTrait() has "dragon_body_armor") {
                     NetworkHandler.sendToServer("dragonBodyTraitLeftClick");
             }
         }

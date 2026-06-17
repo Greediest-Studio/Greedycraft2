@@ -15,5 +15,22 @@
 		items: [{
 			item: "additions:gallium_indium_phosphide"
 		}]
+	}],
+	rewards: [{
+		uid: "ede47cc6",
+		type: "item",
+		item: "additions:gallium_indium_phosphide",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		uid: "60fbbc29",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "e5f9598d",
+		type: "xp",
+		xp: 5000
 	}]
 }

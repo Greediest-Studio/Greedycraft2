@@ -1,0 +1,29 @@
+{
+	title: "§b想要什么词条？",
+	x: -6.0d,
+	y: 10.0d,
+	description: "合成工具再铸站",
+	text: [
+		""
+	],
+	dependencies: [
+		"518ac07a"
+	],
+	tasks: [{
+		uid: "860dec43",
+		type: "item",
+		items: [{
+			item: "moretcon:blockreforgestation"
+		}]
+	}],
+	rewards: [{
+		uid: "34f15253",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "c2871da7",
+		type: "xp",
+		xp: 100000
+	}]
+}

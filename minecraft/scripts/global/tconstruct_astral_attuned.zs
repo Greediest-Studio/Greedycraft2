@@ -6,6 +6,7 @@
 
 #priority 90
 
+import mods.ticlib.TicTool;
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.IPlayerEvent;
 import crafttweaker.event.PlayerRespawnEvent;
@@ -35,9 +36,9 @@ events.onAttunementRecipeComplete(function(event as AttunementRecipeCompleteEven
     if (!world.remote) {
         if (event.input.definition.ores has <ore:toolTiC>) {
             var tool = event.input;
-            if (TicTraitLib.hasTicTrait(tool, "astraling")) {
+            if (tool.hasTicTrait("astraling")) {
                 var pass as bool = true;
-                for trait in TicTraitLib.getTicTrait(tool) {
+                for trait in tool.getTicTrait() {
                     if (trait has "tconevo.attuned_") pass = false;
                 }
                 if (!isNull(constellation) && pass) {
@@ -48,7 +49,7 @@ events.onAttunementRecipeComplete(function(event as AttunementRecipeCompleteEven
                         }
                     }
                     var traitid as string = "tconevo.attuned_" + constell as string;
-                    event.setOutput(TicTraitLib.addTicTraitAsItem(tool,traitid,0x3cffff,1));
+                    event.setOutput(TicTool.withRegisteredTrait(tool, traitid, 0x3cffff, 1));
                 } else {
                     event.setOutput(tool);
                 }
@@ -57,9 +58,9 @@ events.onAttunementRecipeComplete(function(event as AttunementRecipeCompleteEven
             }
         } else if (event.input.definition.ores has <ore:armorTiC>) {
             var armor = event.input;
-            if (TicTraitLib.hasTicTrait(armor, "astraling_armor")) {
+            if (armor.hasTicTrait("astraling_armor")) {
                 var pass as bool = true;
-                for trait in TicTraitLib.getTicTrait(armor) {
+                for trait in armor.getTicTrait() {
                     if (trait has "tconevo.attuned_") pass = false;
                 }
                 if (!isNull(constellation) && pass) {
@@ -70,7 +71,7 @@ events.onAttunementRecipeComplete(function(event as AttunementRecipeCompleteEven
                         }
                     }
                     var traitid as string = "tconevo.attuned_" + constell + "_armor" as string;
-                    event.setOutput(TicTraitLib.addTicTraitAsItem(armor,traitid,0x3cffff,1));
+                    event.setOutput(TicTool.withRegisteredTrait(armor, traitid, 0x3cffff, 1));
                 } else {
                     event.setOutput(armor);
                 }

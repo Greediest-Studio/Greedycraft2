@@ -231,7 +231,7 @@ events.onBowShoot(function(event as onBowShootEvent) {
         var totalBonusCount as int = 0;
         var totalBonusInaccuracy as float = 0.0f;
         
-        if (CotTicTraitLib.hasTicTrait(bow, "slimy_shot")) {
+        if (bow.hasTicTrait("slimy_shot")) {
             var count as int = 0;
             for i in 0 to 2 {
                 if (Math.random() < 0.5f) count += 1;
@@ -239,11 +239,11 @@ events.onBowShoot(function(event as onBowShootEvent) {
             totalBonusCount += count;
         }
 
-        if (CotTicTraitLib.hasTicTrait(bow, "cushioning")) {
+        if (bow.hasTicTrait("cushioning")) {
             totalBonusInaccuracy -= 0.25f;
         }
 
-        if (CotTicTraitLib.hasTicTrait(bow, "bloody_arrow2")) {
+        if (bow.hasTicTrait("bloody_arrow2")) {
             if (!isNull(bow.tag.bloodyArrow)) {
                 var bloodyArrowCount as int = bow.tag.bloodyArrow as int;
                 if (bloodyArrowCount > 5) {
@@ -254,7 +254,7 @@ events.onBowShoot(function(event as onBowShootEvent) {
                     bow.mutable().updateTag({bloodyArrow : 0 as int});
                 }
             }
-        } else if (CotTicTraitLib.hasTicTrait(bow, "bloody_arrow")) {
+        } else if (bow.hasTicTrait("bloody_arrow")) {
             if (!isNull(bow.tag.bloodyArrow)) {
                 var bloodyArrowCount as int = bow.tag.bloodyArrow as int;
                 if (bloodyArrowCount > 5) {

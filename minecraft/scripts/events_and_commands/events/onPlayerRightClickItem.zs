@@ -277,7 +277,7 @@ if (!isNull(event.item) && !event.world.isRemote()) {
 
     //Back Trait
     if (isNull(event.item)) return;
-    if (TicTraitLib.hasTicTrait(event.item, "back") && event.hand == "MAIN_HAND") {
+    if (event.item.hasTicTrait("back") && event.hand == "MAIN_HAND") {
         var tool as IItemStack = event.item;
         var player as IPlayer = event.player;
         if (!isNull(tool.tag.back) && player.isSneaking) {

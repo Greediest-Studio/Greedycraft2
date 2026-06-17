@@ -8,7 +8,7 @@ events.register(function(event as PlayerMudWalkEvent) {
     var pass as bool = false;
     if (!(isNull(player.armorInventory) || isNull(player.armorInventory.length == 0))) {
         for armor in player.armorInventory {
-            if (TicTraitLib.hasTicTrait(armor, "erebus_walker_armor")) {
+            if (armor.hasTicTrait("erebus_walker_armor")) {
                 pass = true;
                 break;
             }

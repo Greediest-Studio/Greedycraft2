@@ -90,7 +90,7 @@ events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
         // Back Trait
         if (!isNull(player.mainHandHeldItem)) {
             var item as IItemStack = player.mainHandHeldItem;
-            if (TicTraitLib.hasTicTrait(item, "back")) {
+            if (item.hasTicTrait("back")) {
                 var x as double = player.x;
                 var y as double = player.y;
                 var z as double = player.z;

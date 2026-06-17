@@ -247,11 +247,11 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     //Tconstruct Rift Recovery Trait
     if (!isNull(event.block.fluid) && !event.world.remote && event.hand == "MAIN_HAND") {
         if (!isNull(player.mainHandHeldItem)) {
-            if (TicLib.isTicTool(player.mainHandHeldItem)) {
+            if (player.mainHandHeldItem.isTicTool()) {
                 var tool as IItemStack = player.mainHandHeldItem;
                 var fluid as ILiquidDefinition = event.block.fluid;
                 var pos as IBlockPos = event.position;
-                if (TicTraitLib.hasTicTrait(tool, "rift_recovery") && fluid.name has "swamp_water") {
+                if (tool.hasTicTrait("rift_recovery") && fluid.name has "swamp_water") {
                     if (!isNull(tool.tag.riftRecovery)) {
                         var point as int = tool.tag.riftRecovery as int;
                         if (point >= 100) {
@@ -268,10 +268,10 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     //Tconstruct Flops Core Trait
     if (!event.world.remote && event.hand == "MAIN_HAND" && event.world.dimension == 0) {
         if (!isNull(player.mainHandHeldItem)) {
-            if (TicLib.isTicTool(player.mainHandHeldItem)) {
+            if (player.mainHandHeldItem.isTicTool()) {
                 var tool as IItemStack = player.mainHandHeldItem;
                 var pos as IBlockPos = event.position;
-                if (TicTraitLib.hasTicTrait(tool, "flops_core") && !isNull(MachineController.getControllerAt(event.world, pos))) {
+                if (tool.hasTicTrait("flops_core") && !isNull(MachineController.getControllerAt(event.world, pos))) {
                     var controller as IMachineController = MachineController.getControllerAt(event.world, pos);
                     var controllerBlock as IItemStack = event.world.getBlock(pos).getItem(event.world, pos, event.world.getBlockState(pos));
                     if (!(isNull(tool.tag.flopMachines) || tool.tag.flopMachines.asList().length == 0)) {
@@ -302,7 +302,7 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
                         tool.mutable().updateTag({flopMachines : [newMachineData]});
                     }
                     event.cancel();
-                } else if (TicTraitLib.hasTicTrait(tool, "flops_core") && event.block.definition.id == "minecraft:anvil") {
+                } else if (tool.hasTicTrait("flops_core") && event.block.definition.id == "minecraft:anvil") {
                     tool.mutable().updateTag({flopMachines : []});
                     player.sendStatusMessage("§a已清除所有绑定的机器数据！");
                     event.cancel();
@@ -314,7 +314,7 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
     //Tconstruct Pioneer Trait
     if (!event.world.remote && event.hand == "MAIN_HAND") {
         if (!isNull(player.mainHandHeldItem)) {
-            if (TicTraitLib.hasTicTrait(player.mainHandHeldItem, "pioneer")) {
+            if (player.mainHandHeldItem.hasTicTrait("pioneer")) {
                 var tool as IItemStack = player.mainHandHeldItem;
                 if (!isNull(tool.tag.pioneer)) {
                     var killCount as int = tool.tag.pioneer as int;

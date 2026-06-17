@@ -1191,6 +1191,12 @@ RecipeUtil.addShaped("basic_solar_panel", <crazyae:basic_solar_panel>, [
     [<ore:ingotFluixSteel>, <solarflux:solar_panel_alchemical>, <ore:ingotFluixSteel>],
     [<appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>, <appliedenergistics2:smooth_sky_stone_block>]
 ]);
+RecipeUtil.addShaped("modifier_worktable", <tt2:modifier_worktable>, [
+    [<ore:blockSeared>, <ore:blockSeared>, <ore:blockSeared>],
+    [<minecraft:stone>, <additions:experience_transporter>, <minecraft:stone>],
+    [<minecraft:stone>, null, <minecraft:stone>]
+]);
+
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],

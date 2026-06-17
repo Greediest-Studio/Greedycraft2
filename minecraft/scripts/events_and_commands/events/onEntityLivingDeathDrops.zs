@@ -15,15 +15,15 @@ events.onEntityLivingDeathDrops(function (event as EntityLivingDeathDropsEvent) 
             var entity as IEntityLivingBase = event.entityLivingBase;
             if (!isNull(player.mainHandHeldItem)) {
                 var item as IItemStack = player.mainHandHeldItem;
-                if (TicLib.isTicTool(item)) {
+                if (item.isTicTool()) {
                     
                     // Nitration Trait Drop
-                    if (TicTraitLib.hasTicTrait(item, "nitration")) {
+                    if (item.hasTicTrait("nitration")) {
                         event.drops += <minecraft:gunpowder>.createEntityItem(entity.world, entity.x as float, entity.y as float, entity.z as float);
                     }
 
                     // Jadeitization Trait Drop
-                    if (TicTraitLib.hasTicTrait(item, "jadeitization")) {
+                    if (item.hasTicTrait("jadeitization")) {
                         for i in 0 to Math.ceil((Math.random() * 3.0f) as double) as int {
                             event.drops += <erebus:materials:55>.createEntityItem(entity.world, entity.x as float, entity.y as float, entity.z as float);
                         }

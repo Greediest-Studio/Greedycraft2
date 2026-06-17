@@ -1,0 +1,34 @@
+{
+	title: "§b继承",
+	x: -8.0d,
+	y: 10.0d,
+	description: "合成强化调配台",
+	text: [
+		""
+	],
+	dependencies: [
+		"518ac07a"
+	],
+	tasks: [{
+		uid: "b281704b",
+		type: "item",
+		items: [{
+			item: "tt2:modifier_worktable"
+		}]
+	}],
+	rewards: [{
+		uid: "ad6cf84c",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "aa9a27d3",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "d2d3cafb",
+		type: "xp",
+		xp: 2500
+	}]
+}

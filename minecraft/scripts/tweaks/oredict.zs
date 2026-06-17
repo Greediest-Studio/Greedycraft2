@@ -203,13 +203,22 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <tcongreedyaddon:greatblade>,
         <tcongreedyaddon:allinonetool>,
         <moretcon:ring>,
-        <moretcon:bomb>
+        <moretcon:bomb>,
+        <tt2:swift_shield>,
+        <tt2:heavy_shield>,
+        <tt2:nunchaku>,
+        <tt2:doppelhander>,
+        <tt2:maraca>
     ],
     <ore:armorTiC> : [
         <conarm:helmet>,
         <conarm:chestplate>,
         <conarm:leggings>,
-        <conarm:boots>
+        <conarm:boots>,
+        <tt2:scout_helmet>,
+        <tt2:scout_chestplate>,
+        <tt2:scout_leggings>,
+        <tt2:scout_boots>
     ],
     <ore:dungeonLootTier1> : [
         <additions:medkit_small>,

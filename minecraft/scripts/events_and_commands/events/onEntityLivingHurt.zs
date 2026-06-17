@@ -177,10 +177,10 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
 
     // Dragon Body Trait Damage Reduction
     var dragonBodyTraitCount as int = 0;
-    dragonBodyTraitCount += TicTraitLib.getPlayerTicHelmetTrait(player) has "dragon_body" ? 1 : 0;
-    dragonBodyTraitCount += TicTraitLib.getPlayerTicChestplateTrait(player) has "dragon_body" ? 1 : 0;
-    dragonBodyTraitCount += TicTraitLib.getPlayerTicLeggingsTrait(player) has "dragon_body" ? 1 : 0;
-    dragonBodyTraitCount += TicTraitLib.getPlayerTicBootsTrait(player) has "dragon_body" ? 1 : 0;
+    dragonBodyTraitCount += player.getPlayerTicHelmetTrait() has "dragon_body" ? 1 : 0;
+    dragonBodyTraitCount += player.getPlayerTicChestplateTrait() has "dragon_body" ? 1 : 0;
+    dragonBodyTraitCount += player.getPlayerTicLeggingsTrait() has "dragon_body" ? 1 : 0;
+    dragonBodyTraitCount += player.getPlayerTicBootsTrait() has "dragon_body" ? 1 : 0;
     if (dragonBodyTraitCount > 0 && player.native.capabilities.isFlying) {
         dmg *= (1.0f - 0.2f * dragonBodyTraitCount as float);
     }
@@ -206,7 +206,7 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
 
     //Bloody Arrow Trait
     if (!isNull(player.mainHandHeldItem)) {
-        if (TicTraitLib.hasTicTrait(player.mainHandHeldItem, "bloody_arrow") || TicTraitLib.hasTicTrait(player.mainHandHeldItem, "bloody_arrow2")) {
+        if (player.mainHandHeldItem.hasTicTrait("bloody_arrow") || player.mainHandHeldItem.hasTicTrait("bloody_arrow2")) {
             var bow as IItemStack = player.mainHandHeldItem;
             if (!isNull(bow.tag.bloodyArrow)) {
                 var oldCount as int = bow.tag.bloodyArrow as int;

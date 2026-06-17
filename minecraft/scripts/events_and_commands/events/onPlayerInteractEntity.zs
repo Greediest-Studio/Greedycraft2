@@ -79,12 +79,12 @@ events.onPlayerInteractEntity(function(event as PlayerInteractEntityEvent) {
             var item as IItemStack = player.mainHandHeldItem;
 
             //Spaceshock trait
-            if (TicLib.isTicTool(item) && TicTraitLib.hasTicTrait(item, "spaceshock") && player.getCooldown(item) <= 0.0f) {
+            if (item.isTicTool() && item.hasTicTrait("spaceshock") && player.getCooldown(item) <= 0.0f) {
                 if (distance2D(player.x as double, player.z as double, target.x as double, target.z as double) >= 3.5d) {
                     player.setCooldown(item, 160);
                     var attack as float = ToolHelper.getActualAttack(item.native);
                     var baseRange as int = 2;
-                    if (TicTraitLib.hasTicTrait(item, "power_of_herrscher")) baseRange = 3;
+                    if (item.hasTicTrait("power_of_herrscher")) baseRange = 3;
                     for ent in event.world.getEntitiesInArea(target.position.up(2).north(2).east(2), target.position.down(2).south(2).west(2)) {
                         if (ent instanceof IEntityLivingBase && !(ent instanceof IPlayer)) {
                             var entity as IEntityLivingBase = ent;
@@ -98,7 +98,7 @@ events.onPlayerInteractEntity(function(event as PlayerInteractEntityEvent) {
             }
 
             //Soul Flag trait
-            if (TicLib.isTicTool(item) && TicTraitLib.hasTicTrait(item, "soul_flag")) {
+            if (item.isTicTool() && item.hasTicTrait("soul_flag")) {
                 if (target instanceof IEntityLiving && !isNull(item.tag.soulFlagCount)) {
                     var count as int = item.tag.soulFlagCount as int;
                     var sf_attribute as AttributeModifier = AttributeModifier.createModifier("generic.maxHealth", 0.03d * count as double, 2, "7f6d3a59-b3e4-4c7a-b7a8-54528a929a0e");

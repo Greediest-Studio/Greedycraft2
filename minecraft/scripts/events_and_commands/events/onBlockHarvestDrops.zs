@@ -56,7 +56,7 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
         if (!isNull(player) && event.block.definition.id == "minecraft:bedrock") {
             if (!isNull(player.mainHandHeldItem)) {
                 var tool as IItemStack = player.mainHandHeldItem;
-                if (TicTraitLib.hasTicTrait(tool, "moretcon.bottomsend")) {
+                if (tool.hasTicTrait("moretcon.bottomsend")) {
                     event.drops = [];
                 }
             }
@@ -68,7 +68,7 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
             var pass as bool = false;
             if (!isNull(player.mainHandHeldItem)) {
                 var tool as IItemStack = player.mainHandHeldItem;
-                if (TicTraitLib.hasTicTrait(tool, "solarys_refined")) {
+                if (tool.hasTicTrait("solarys_refined")) {
                     pass = true;
                 }
             }

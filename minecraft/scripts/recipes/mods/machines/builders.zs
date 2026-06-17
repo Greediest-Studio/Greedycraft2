@@ -1044,9 +1044,28 @@ addBuilderRecipe(<modularmachinery:great_laser_alloyer_factory_controller>, [
     <ore:gemJade> * 64
 ], 5, 5000);
 
-/*addBuilderRecipe(<modularmachinery:nuclear_bomb_reactor_factory_controller>, [
-
-])*/
+addBuilderRecipe(<modularmachinery:nuclear_bomb_reactor_factory_controller>, [
+    <additions:logic_processor_4> * 40,
+    <additions:calculation_processor_4> * 60,
+    <additions:engineering_processor_4> * 40,
+    <cells:singularity_processor:1> * 40,
+    <crazyae:material:16> * 48,
+    <crazyae:material:48> * 32,
+    <threng:material:6> * 16,
+    <ore:ingotModularium> * 256,
+    <ore:ingotIron> * 256,
+    <ore:ingotZirconium> * 96,
+    <ore:ingotUranium> * 64,
+    <ore:ingotPlutonium> * 64,
+    <ore:ingotBlackiron> * 64,
+    <ore:ingotAeonsteel> * 48,
+    <ore:ingotIrradium> * 32,
+    <ore:ingotProtonium> * 32,
+    <ore:ingotHeavyalloy> * 32,
+    <ore:ingotEinsteinium> * 16,
+    <ore:ingotPruified> * 4,
+    <ore:ingotFinallium> * 4
+], 5, 8000);
 
 //Units
 addBuilderRecipe(<modularmachinery:elysia_alloyer_factory_controller>, [
