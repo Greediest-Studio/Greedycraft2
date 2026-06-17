@@ -1,13 +1,12 @@
-name = 'Digital Miner Filter'
-filename = 'minerfilter-1.0.1.jar'
-side = 'both'
+name = "Digital Miner Filter"
+filename = "minerfilter-1.0.2.jar"
+side = "both"
 
 [download]
-hash-format = 'sha1'
-hash = '2397f4e35edff52201d13db3ea0660f093b62b49'
-mode = 'metadata:curseforge'
+hash-format = "sha1"
+hash = "63ab0ad002c267b828bdf8590ea23514166bfc8e"
+mode = "metadata:curseforge"
 
-[update]
 [update.curseforge]
-file-id = 8205005
+file-id = 8237192
 project-id = 1566477

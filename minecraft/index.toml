@@ -439,6 +439,12 @@ alias = "mods/BrandonsCore-1.12.2-2.4.20.162-universal.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/brewin-and-chewin-legacy.pw.toml"
+hash = "3e96805ee2b41cf0c3f72201b2f1fdec0586fa9a781a8f4d3e4a5a38b27b82b3"
+alias = "mods/brewin-and-chewin-legacy-1.0.0.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/brigo.pw.toml"
 hash = "748f7c15cbd4446cd6a47ef5ae7bc9b61b2ef0cea262dd7ed4d4b9e819ffd2e7"
 alias = "mods/brigo_forge-1.1.1+1.12.x.jar"
@@ -728,8 +734,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/digital-miner-filter.pw.toml"
-hash = "8d4e1b68950e444f464f29f8dbc12321c322c5cf7c880aaec1258616db16ff09"
-alias = "mods/minerfilter-1.0.1.jar"
+hash = "1e0df435d5b87e71365e565a5a3644008113e2b83bb42be941630cca25391c50"
+alias = "mods/minerfilter-1.0.2.jar"
 metafile = true
 
 [[files]]
@@ -1261,12 +1267,6 @@ alias = "mods/jetif-1.12.2-1.5.2.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/just-enough-brewcraft.pw.toml"
-hash = "264ee0aa211deda47e1a6d562841559a48dc933027418fa462dfc129a91b7e0c"
-alias = "mods/just-enough-brewcraft-1.12.2-1.0.2.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/just-enough-calculation.pw.toml"
 hash = "b5a84c2a64b2f62c5fe8264e9d59af0de5bbd41125237d22c2b116a8b2afc24d"
 alias = "mods/JustEnoughCalculation-1.12.2-3.2.7.jar"
@@ -1370,8 +1370,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/lolasm.pw.toml"
-hash = "8256cb066a88c8cdcc420d41b28b00400deb5c0343e280dcbdb6b79bc22dddab"
-alias = "mods/loliasm-5.32.jar"
+hash = "9385220744887626601e90b6f044b38414412152f7902f7c0be443fbe381b064"
+alias = "mods/loliasm-5.33.jar"
 metafile = true
 
 [[files]]
@@ -1502,8 +1502,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/modularmachinery-terminal.pw.toml"
-hash = "370286ed5efc6636a9b98fe731bddb2d6cb9e75e26b36f5d9c41ed5efde11901"
-alias = "mods/modularmachinery_terminal-1.0.0.jar"
+hash = "46c579006d006d618d7055e6b9730eac3370f8fbfc6b480e47d54f432027359a"
+alias = "mods/modularmachinery_terminal-1.0.1.jar"
 metafile = true
 
 [[files]]
@@ -1786,12 +1786,6 @@ metafile = true
 file = "mods/.index/pale-bloom.pw.toml"
 hash = "fa2ef59842862abb1863ced95914e74470875712adfc0807f7e612464c6356b3"
 alias = "mods/palebloom-1.0.0.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/pams-brewcraft.pw.toml"
-hash = "76a405e2e996daf8dea52da19a8941b040db6f07e788746145dfb613c5c5c346"
-alias = "mods/Pam's BrewCraft 1.12.2-1.0.2.jar"
 metafile = true
 
 [[files]]
@@ -2257,6 +2251,12 @@ alias = "mods/Thaumcraft-1.12.2-6.1.BETA26.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/thaumcraft6-research-helper.pw.toml"
+hash = "c61714b9936e57f7739d931c90845d937309442a1ef2a6622ba7bfcef0d92605"
+alias = "mods/researchhelper-1.0.0.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/thaumcraftfix.pw.toml"
 hash = "c59244709ce03769c8a9067a030ba374ef888213e5230fa3b93750ccd03a557e"
 alias = "mods/ThaumcraftFix-1.12.2-1.1.10.jar"
@@ -2642,8 +2642,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/zenutil.pw.toml"
-hash = "90cd38405b087fa7d21b3f4b837a7b78848eb719d7931d76d9cdb484123cb47f"
-alias = "mods/zenutils-1.27.2.jar"
+hash = "43063c2b3d30742a1285fa890fac8c943638d1296d6500dca3fab47d8e46bce8"
+alias = "mods/zenutils-1.27.3.jar"
 metafile = true
 
 [[files]]
