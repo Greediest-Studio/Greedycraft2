@@ -4,8 +4,15 @@
     "refillDmgThreshold": 1,
     "enableHotbarSwap": true,
     "sortSound": "soundphysics:gui_clicks",
-    "buttonColor": "#ffffffff",
-    "buttonEnabled": true
+    "buttonColor": "#FFFFFFFF",
+    "buttonEnabled": true,
+    "enableHotbarSorting": false,
+    "lockIconAlign": 0,
+    "lockIconColor": "#FF42A5F5",
+    "lockIconX": -1,
+    "lockIconY": -1,
+    "lockIconScale": 0.65,
+    "lockOnlyBlockSorting": false
   },
   "ItemSortRules": [
     {
