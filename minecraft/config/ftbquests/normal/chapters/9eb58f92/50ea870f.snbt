@@ -1,0 +1,26 @@
+{
+	title: "§b你能把它堆到64吗？",
+	x: -29.0d,
+	y: 1.0d,
+	description: "合成核电工艺机器的速度升级",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "c3686ad9",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "a993126e",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "35239dc5",
+		type: "xp",
+		xp: 1000
+	}]
+}

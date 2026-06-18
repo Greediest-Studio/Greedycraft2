@@ -1,0 +1,26 @@
+{
+	title: "§b增强防护",
+	x: -2.0d,
+	y: 5.5d,
+	description: "合成中型辐射防护板，兼容匠魂盔甲",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "cc921d77",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:rad_shielding 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "1a3f9924",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "5292ad02",
+		type: "xp",
+		xp: 5000
+	}]
+}

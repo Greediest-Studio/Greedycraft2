@@ -1,0 +1,35 @@
+{
+	title: "§b辐射消退",
+	x: -4.0d,
+	y: 3.5d,
+	description: "合成抗辐宁或者缓效抗辐宁",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "23b1cad8",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:radaway"
+		},
+		{
+			item: "nuclearcraft:radaway_slow"
+		}]
+	}],
+	rewards: [{
+		uid: "eb413a55",
+		type: "item",
+		item: "nuclearcraft:radaway",
+		count: 100
+	},
+	{
+		uid: "f6cc8ec3",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "d61c9818",
+		type: "xp",
+		xp: 4440
+	}]
+}

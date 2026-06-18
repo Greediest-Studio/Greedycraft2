@@ -53,6 +53,7 @@ global commonStages as string[] = [
     "shuriken_blueprint",
     "laser_gun_blueprint",
     "tinkering_blueprint",
+    "shield_blueprint",
     "ring_blueprint",
     "abyssal_conquerer",
     "cosmic_ripper",
@@ -151,6 +152,7 @@ global listStages as string[] = [
     "warped",
     "vethea_breaker",
     "tinkering_blueprint",
+    "shield_blueprint",
     "ring_blueprint",
     "mind_shock",
     "quardstate"

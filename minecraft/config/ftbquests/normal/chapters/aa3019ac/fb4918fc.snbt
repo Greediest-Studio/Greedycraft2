@@ -1,0 +1,32 @@
+{
+	title: "§b主动免疫",
+	x: -2.0d,
+	y: 3.5d,
+	description: "获得降辐剂",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "57515f0f",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:rad_x"
+		}]
+	}],
+	rewards: [{
+		uid: "0504dbff",
+		type: "item",
+		item: "nuclearcraft:rad_x",
+		count: 20
+	},
+	{
+		uid: "73f9900b",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "a8ff1500",
+		type: "xp",
+		xp: 6660
+	}]
+}

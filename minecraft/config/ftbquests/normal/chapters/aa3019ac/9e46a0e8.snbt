@@ -1,0 +1,31 @@
+{
+	title: "§b以毒攻毒",
+	x: 0.0d,
+	y: 5.5d,
+	description: "合成重型辐射防护板，兼容匠魂盔甲",
+	text: [
+		"这玩意本身就带有一点辐射……"
+	],
+	tasks: [{
+		uid: "296adf33",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:rad_shielding 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "9946575f",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "b09ac677",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "601acd75",
+		type: "xp",
+		xp: 10000
+	}]
+}

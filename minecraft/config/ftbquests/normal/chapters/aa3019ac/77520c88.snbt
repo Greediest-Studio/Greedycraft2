@@ -1,0 +1,26 @@
+{
+	title: "§b阻挡在外",
+	x: -4.0d,
+	y: 5.5d,
+	description: "合成轻型辐射防护板，兼容匠魂盔甲",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "369a23c2",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:rad_shielding"
+		}]
+	}],
+	rewards: [{
+		uid: "901854d6",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "14ba5980",
+		type: "xp",
+		xp: 2000
+	}]
+}

@@ -70,6 +70,7 @@ static stageMindShock as Stage = ZenStager.initStage("mind_shock");
 static stageWaving as Stage = ZenStager.initStage("waving");
 static stageEpicEngineer as Stage = ZenStager.initStage("epic_engineer");
 static stageTinkeringBlueprint as Stage = ZenStager.initStage("tinkering_blueprint");
+static stageShieldBlueprint as Stage = ZenStager.initStage("shield_blueprint");
 static stageWarped as Stage = ZenStager.initStage("warped");
 
 static zenStageMap as Stage[string] = ZenStager.getStageMap();

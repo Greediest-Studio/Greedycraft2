@@ -352,19 +352,18 @@ global gameStagesLore as string[][string][string][string] = {
             ]
         },
         ring_blueprint : {
-            alias: ["饰品蓝图"],
+            alias: ["戒指蓝图"],
             lore: [
-                "解锁了匠魂饰品的制作配方。"
+                "解锁了戒指的制作配方。"
             ],
             unlocks: [
-                "可以制作戒指",
-                "可以制作手套"
+                "可以制作戒指"
             ]
         },
         tinkering_blueprint: {
-            alias: ["匠艺蓝图"],
+            alias: ["战斧蓝图"],
             lore: [
-                "解锁了一部分匠魂武器的制作配方。"
+                "解锁了战斧的制作配方。"
             ],
             unlocks: [
                 "可以制作战斧"
@@ -380,6 +379,19 @@ global gameStagesLore as string[][string][string][string] = {
                 "可以制作长剑",
                 "可以制作武士刀",
                 "可以制作西洋剑"
+            ]
+        },
+        shield_blueprint: {
+            alias: ["防御蓝图"],
+            lore: [
+                "解锁了一部分辅助武器的制作配方。"
+            ],
+            unlocks: [
+                "可以制作两种盾牌",
+                "可以制作双手剑",
+                "可以制作双节棍",
+                "可以制作斥候套装",
+                "可以制作沙锤"
             ]
         },
         challenger_a: {

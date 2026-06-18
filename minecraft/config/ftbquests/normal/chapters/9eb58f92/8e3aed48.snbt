@@ -1,0 +1,26 @@
+{
+	title: "§b超频消耗↓",
+	x: -27.0d,
+	y: 1.0d,
+	description: "合成核电工艺机器的能量升级",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "703e9016",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:upgrade 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "a95f8d99",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "9a0db670",
+		type: "xp",
+		xp: 1000
+	}]
+}
