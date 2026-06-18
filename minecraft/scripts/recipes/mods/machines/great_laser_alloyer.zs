@@ -59,3 +59,19 @@ RecipeBuilder.newBuilder("laseralloy_boundless_alloy", "great_laser_alloyer", 20
     .setMaxThreads(1)
     .addFluidOutput(<liquid:boundless_alloy> * 2880)
     .build();
+
+RecipeBuilder.newBuilder("laseralloy_thermallite", "great_laser_alloyer", 80)
+    .addItemInput(<ore:dustBalancedMatrix>)
+    .addItemInput(<ore:dustPyrotheum> * 40)
+    .addItemInput(<ore:dustCryotheum> * 40)
+    .addItemInput(<ore:dustAerotheum> * 40)
+    .addItemInput(<ore:dustPetrotheum> * 40)
+    .addItemInput(<ore:dustLumixeium> * 40)
+    .addItemInput(<ore:dustNoxexeum> * 40)
+    .addItemInput(<ore:dustTonitruium> * 40)
+    .addItemInput(<ore:dustNaturaeum> * 40)
+    .addLaserInput(1.0E7)
+    .addEnergyPerTickInput(640000000)
+    .setMaxThreads(1)
+    .addFluidOutput(<liquid:thermallite> * 288)
+    .build();
