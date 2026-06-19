@@ -1348,7 +1348,6 @@ GameStagesUtil.stageGraduated.addIngredients([
     <botania:pool:1>,
     <additions:creative_controller>,
     <thermalfoundation:upgrade:256>,
-    <storagedrawers:upgrade_creative:1>,
     <thaumicwonders:creative_essentia_jar>,
     <randomthings:creativeplayerinterface>,
     <draconicevolution:creative_exchanger>,

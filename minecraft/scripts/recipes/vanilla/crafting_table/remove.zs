@@ -133,7 +133,6 @@ val removedRecipes as IIngredient[] = [
     <cyclicmagic:heart_food>,
     <astralsorcery:blockblackmarble>,
     <thermalfoundation:material:23>,
-    <cfm:item_log>,
     <projecte:item.pe_swrg>,
     <actuallyadditions:item_wings_of_the_bats>,
     <cyclicmagic:cyclic_wand_build>,

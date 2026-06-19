@@ -39,7 +39,6 @@ val emcMapping as long[IIngredient] = {
     <cookingforblockheads:recipe_book:1> : 0 as long,
     <cookingforblockheads:recipe_book:0> : 0 as long,
     <conarm:book:0> : 0 as long,
-    <cfm:item_recipe_book:0> : 0 as long,
     <botania:lexicon:0> : 0 as long,
     <scalinghealth:crystalshard:0> : 0 as long,
     <additions:infinity_block_block_block:0> : 9223372036854775807 as long,

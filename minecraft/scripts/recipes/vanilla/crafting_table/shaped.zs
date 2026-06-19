@@ -38,9 +38,6 @@ recipes.remove(<journey:boilingportalframe>);
 recipes.remove(<divinerpg:horde_horn>);
 recipes.remove(<divinerpg:call_of_the_watcher>);
 recipes.remove(<naturesaura:gold_fiber>);
-recipes.remove(<storagedrawers:upgrade_redstone>);
-recipes.remove(<storagedrawers:upgrade_redstone:1>);
-recipes.remove(<storagedrawers:upgrade_redstone:2>);
 recipes.remove(<cyclicmagic:beacon_potion>);
 recipes.remove(<extrautils2:spike_iron>*4);
 recipes.remove(<extrautils2:spike_wood>*4);
@@ -616,10 +613,6 @@ RecipeUtil.addShaped("auto_gen_2018337295", <thermalfoundation:material:23>, [
     [null, <ore:cobblestone>, null],
     [<ore:cobblestone>, null, <ore:cobblestone>],
     [null, <ore:cobblestone>, null]
-]);
-RecipeUtil.addShaped("auto_gen_-1351813342", <cfm:item_log> * 16, [
-    [<ore:logWood>, <ore:logWood>],
-    [null, null]
 ]);
 RecipeUtil.addShaped("auto_gen_272915411", <minecraft:crafting_table> * 4, [
     [<ore:workbench>, <ore:workbench>],

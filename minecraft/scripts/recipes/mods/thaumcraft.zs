@@ -321,7 +321,6 @@ Infusion.registerRecipe("disaster_metal_ingot", "", <additions:disaster_metal_in
 ], <taiga:nihilite_ingot>, [
     <sakura:futon>,
     <minecraft:bed:11>,
-    <cfm:modern_bed_bottom:11>,
     <tconevo:metal_block:1>,
     <thaumicaugmentation:material:3>,
     <tconevo:metal:20>,

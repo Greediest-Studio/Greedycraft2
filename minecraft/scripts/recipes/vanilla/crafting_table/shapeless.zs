@@ -249,12 +249,6 @@ RecipeUtil.addShapeless("auto_gen_-983697411", <forge:bucketfilled>,
 RecipeUtil.addShapeless("auto_gen_-628920196", <minecraft:experience_bottle>,
     [<minecraft:glass_bottle>, <actuallyadditions:item_crystal_empowered:1>]
 );
-RecipeUtil.addShapeless("auto_gen_-2041446050", <storagedrawers:upgrade_creative> * 32,
-    [<storagedrawers:upgrade_template>, <ore:shardCreative>]
-);
-RecipeUtil.addShapeless("auto_gen_-2041446051", <storagedrawers:upgrade_creative>,
-    [<storagedrawers:upgrade_template>, <draconicevolution:awakened_core>]
-);
 RecipeUtil.addShapeless("auto_gen_-60414065", <mysticalagradditions:insanium> * 9,
     [<ore:blockInsaniumEssence>]
 );
