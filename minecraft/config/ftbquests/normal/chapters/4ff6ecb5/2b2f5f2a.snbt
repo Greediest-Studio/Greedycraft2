@@ -2,7 +2,7 @@
 	title: "§b万恶之源！",
 	x: -8.5d,
 	y: 0.0d,
-	description: "抽卡时代的开始",
+	description: "抽卡时代的开始。不过，有人助你一臂之力！",
 	text: [
 		"世界盐怎么做？"
 	],
@@ -36,5 +36,10 @@
 		title: "自动获得最初的进度",
 		team_reward: 0b,
 		command: "/thaumcraft research @p FIRSTSTEPS"
+	},
+	{
+		uid: "9d9bd75e",
+		type: "item",
+		item: "researchhelper:research_compass"
 	}]
 }
