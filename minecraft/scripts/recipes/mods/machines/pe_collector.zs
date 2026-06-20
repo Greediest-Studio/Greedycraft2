@@ -41,36 +41,36 @@ MMEvents.onControllerGUIRender("pe_collector", function(event as ControllerGUIRe
 
 RecipeBuilder.newBuilder("pe_1", "pe_collector", 100)
     .addDimensionInput(0)
-    .addPotentialEnergyOutput(100)
+    .addFluidOutput(<liquid:pe> * 1)
     .build();
 
 RecipeBuilder.newBuilder("pe_2", "pe_collector", 60)
     .addDimensionInput(50)
-    .addPotentialEnergyOutput(100)
+    .addFluidOutput(<liquid:pe> * 1)
     .build();
 
 RecipeBuilder.newBuilder("pe_3", "pe_collector", 30)
     .addDimensionInput(51)
-    .addPotentialEnergyOutput(100)
+    .addFluidOutput(<liquid:pe> * 1)
     .build();
 
 RecipeBuilder.newBuilder("pe_4", "pe_collector", 10)
     .addDimensionInput(52)
-    .addPotentialEnergyOutput(100)
+    .addFluidOutput(<liquid:pe> * 1)
     .build();
 
 RecipeBuilder.newBuilder("pe_5", "pe_collector", 10)
     .addDimensionInput(53)
-    .addPotentialEnergyOutput(100)
+    .addFluidOutput(<liquid:pe> * 1)
     .build();
 
 RecipeBuilder.newBuilder("pe_6", "pe_collector", 10)
     .addDimensionInput(54)
-    .addPotentialEnergyOutput(100)
+    .addFluidOutput(<liquid:pe> * 1)
     .build();
 
 RecipeBuilder.newBuilder("pe_7", "pe_collector", 4)
     .addDimensionInput(55)
-    .addPotentialEnergyOutput(100)
+    .addFluidOutput(<liquid:pe> * 1)
     .build();
 
