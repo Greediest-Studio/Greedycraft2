@@ -67,23 +67,6 @@ events.onPlayerAttackEntity(function(event as PlayerAttackEntityEvent) {
             }
         }
 
-        //Order Guardian
-        if (!isNull(entity.definition) && !player.world.remote) {
-            if (entity.definition.id == "ageofchaos:chaosguardianhelpful") {
-                if (entity.health >= 10.0f) {
-                    entity.health -= 10.0f;
-                } else if (entity.health > 0.0f) {
-                    entity.attackEntityFrom(IDamageSource.createEntityDamage("GENERIC", player), 65536.0f);
-                    entity.health = 0.0f;
-                    player.give(<gct_ores:order_crystal> * 48);
-                    player.give(<additions:pure_dragonbone> * 32);
-                    player.give(<additions:order_scale> * 32);
-                    player.give(<contenttweaker:chaos_heart> * 5);
-                    player.give(<draconicevolution:dragon_heart> * 16);
-                }
-            }
-        }
-
         //print entity.definition.id
         /*
         if (!isNull(player.currentItem) && player.currentItem.definition.id == "minecraft:stick") {

@@ -212,11 +212,15 @@ bloodecayTrait.localizedDescription = game.localize("greedycraft.tconstruct.bow_
 bloodecayTrait.calcArrowDamage = function(trait, bow, arrow, helder, target, world, originalDamage, newDamage) {
     if (helder instanceof IPlayer && target instanceof IEntityLivingBase) {
         var entity as IEntityLivingBase = target;
-        var rate as float = entity.health / entity.maxHealth as float;
+        var rate as float = 1.0f;
+        if (entity.maxHealth > 0.0f) {
+            rate = Math.clamp(entity.health / entity.maxHealth as float, 0.0f, 1.0f) as float;
+        }
         if (!isNull(bow.tag.bloodyDecay)) {
-            var oldRate as float = bow.tag.bloodyDecay as float;
-            var oldMtp as float = 0.6f * oldRate;
-            entity.getAttribute("generic.maxHealth").applyModifier(AttributeModifier.createModifier("generic.maxHealth", oldMtp as double, 1, "a7c1f0d4-8b32-4f17-9c6b-5a8e2d14f3b1"));
+            var oldRate as float = Math.clamp(bow.tag.bloodyDecay as float, 0.0f, 1.0f) as float;
+            var oldMtp as float = -0.6f * (1.0f - oldRate);
+            entity.getAttribute("generic.maxHealth").removeModifier("a7c1f0d4-8b32-4f17-9c6b-5a8e2d14f3b1");
+            entity.getAttribute("generic.maxHealth").applyModifier(AttributeModifier.createModifier("bloody_decay", oldMtp as double, 2, "a7c1f0d4-8b32-4f17-9c6b-5a8e2d14f3b1"));
         }
         bow.mutable().updateTag({bloodyDecay : rate as float});
     }

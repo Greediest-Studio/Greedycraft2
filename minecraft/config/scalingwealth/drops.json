@@ -3342,6 +3342,35 @@
                 }
             ]
         },
+        "ageofchaos:chaosguardianhelpful": {
+            "[4800, 2147483647]": [
+                {
+                    "amount": "[32,64]",
+                    "chance": 1.0,
+                    "item": "gct_ores:order_crystal"
+                },
+                {
+                    "amount": "[30,40]",
+                    "chance": 1.0,
+                    "item": "additions:pure_dragonbone"
+                },
+                {
+                    "amount": "[32,32]",
+                    "chance": 1.0,
+                    "item": "additions:order_scale"
+                },
+                {
+                    "amount": "[5,8]",
+                    "chance": 1.0,
+                    "item": "contenttweaker:chaos_heart"
+                },
+                {
+                    "amount": "[12,16]",
+                    "chance": 1.0,
+                    "item": "draconicevolution:dragon_heart"
+                }
+            ]
+        },
         "abyssalcraft:dragonboss": {
             "[4000, 2147483647]": [
                 {
