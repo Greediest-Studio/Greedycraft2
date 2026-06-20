@@ -255,8 +255,7 @@ RecipeBuilder.newBuilder("dimensional_miner_main","dimensional_miner",200)
         val data = ctrl.customData;
         val bx = isNull(data.bx) ? 1 : data.bx;
         val thread = event.factoryRecipeThread;
-        val dimList = isNull(data.dims) ? [] as int[] : data.dims as int[];
-        thread.addModifier("rf", RecipeModifierBuilder.create("modularmachinery:energy","input",(bx * max(1,dimList.length)),1,false).build());
+        thread.addModifier("rf", RecipeModifierBuilder.create("modularmachinery:energy","input",bx,1,false).build());
     })
     .addEnergyPerTickInput(200)
     .addItemOutput(<minecraft:grass>)
