@@ -703,7 +703,6 @@ var disabledItems as IIngredient[] = [
     <journey:essence_shuriken>,
     <cyclicmagic:fluid_drain>,
     <evilcraft:primed_pendant>,
-    <evilcraft:broom>,
     <theaurorian:absorptionorb>,
     <thaumicaugmentation:thaumostatic_harness>,
     <thebetweenlands:ring_of_flight>,
