@@ -10,7 +10,7 @@
             }
         ]
     },
-	 {
+	{
         "dimension": 0,
 		"biome": [
 			"abyssalcraft:darklands",
@@ -145,6 +145,35 @@
                 "weight": 8,
                 "groupcountmin": 1,
                 "groupcountmax": 2
+            }
+        ]
+    },
+    {
+        "dimension": 100,
+        "mobs": [
+            {
+                "mob": "minecraft:wither",
+                "weight": 1,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            },
+            {
+                "mob": "babymobs:babywither",
+                "weight": 1,
+                "groupcountmin": 2,
+                "groupcountmax": 2
+            },
+            {
+                "mob": "minecraft:wither_skeleton",
+                "weight": 12,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            },
+            {
+                "mob": "mekanism:babywitherskeleton",
+                "weight": 12,
+                "groupcountmin": 2,
+                "groupcountmax": 4
             }
         ]
     },

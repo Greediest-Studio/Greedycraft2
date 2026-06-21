@@ -1,6 +1,8 @@
 [
     {
-        "mob": ["minecraft:guardian"],
+        "mob": [
+            "minecraft:guardian"
+        ],
         "mincount": {
             "amount": 16,
             "perplayer": true
@@ -8,7 +10,9 @@
         "result": "deny"
     },
     {
-        "mob": ["pvj:pvj_starfish"],
+        "mob": [
+            "pvj:pvj_starfish"
+        ],
         "mincount": {
             "amount": 5,
             "perplayer": false
@@ -29,8 +33,10 @@
         "result": "allow"
     },
     {
+        "mob": [
+            "minecraft:squid"
+        ],
         "dimension": -1,
-        "mob": ["minecraft:squid"],
         "result": "deny"
     },
     {
@@ -41,8 +47,12 @@
         "result": "deny"
     },
     {
+        "mob": [
+            "pvj:pvj_goon",
+            "pvj:pvj_clam",
+            "pvj:pvj_small_spider"
+        ],
         "onjoin": true,
-        "mob": ["pvj:pvj_goon", "pvj:pvj_clam", "pvj:pvj_small_spider"],
         "result": "deny"
     },
     {
@@ -99,7 +109,10 @@
         "result": "deny"
     },
     {
-        "mob": ["minecraft:zombie_horse", "minecraft:skeleton_horse"],
+        "mob": [
+            "minecraft:zombie_horse",
+            "minecraft:skeleton_horse"
+        ],
         "mincount": {
             "amount": 16,
             "mod": "minecraft",
@@ -108,7 +121,9 @@
         "result": "deny"
     },
     {
-        "mob": ["minecraft:bat"],
+        "mob": [
+            "minecraft:bat"
+        ],
         "mincount": {
             "amount": 6,
             "perplayer": true
@@ -116,7 +131,9 @@
         "result": "deny"
     },
     {
-        "mob": ["minecraft:wolf"],
+        "mob": [
+            "minecraft:wolf"
+        ],
         "mincount": {
             "amount": 20,
             "perplayer": true
@@ -125,8 +142,10 @@
         "result": "deny"
     },
     {
+        "mob": [
+            "headcrumbs:human"
+        ],
         "dimension": 111,
-        "mob": "headcrumbs:human",
         "mincount": {
             "amount": 28,
             "hostile": true,
@@ -143,8 +162,10 @@
         "speedmultiply": 0.75
     },
     {
+        "mob": [
+            "thermalfoundation:basalz"
+        ],
         "dimension": 0,
-        "mob": "thermalfoundation:basalz",
         "mincount": {
             "amount": 8,
             "hostile": true,
@@ -163,8 +184,10 @@
         "result": "deny"
     },
     {
+        "mob": [
+            "abyssalcraft:shadowmonster"
+        ],
         "dimension": 0,
-        "mob": "abyssalcraft:shadowmonster",
         "mincount": {
             "amount": 18,
             "hostile": true,
@@ -173,8 +196,10 @@
         "result": "deny"
     },
     {
+        "mob": [
+            "abyssalcraft:omotholghoul"
+        ],
         "dimension": 52,
-        "mob": "abyssalcraft:omotholghoul",
         "mincount": {
             "amount": 24,
             "hostile": true,
@@ -182,9 +207,16 @@
         },
         "result": "deny"
     },
-    {"block":["ore:logWood","minecraft:brown_mushroom_block","minecraft:red_mushroom_block","bedrockores:bedrock_ore"],"result": "deny"},
     {
-        "onjoin": true,
+        "block": [
+            "ore:logWood",
+            "minecraft:brown_mushroom_block",
+            "minecraft:red_mushroom_block",
+            "bedrockores:bedrock_ore"
+        ],
+        "result": "deny"
+    },
+    {
         "mob": [
             "divinerpg:whale",
             "divinerpg:shark",
@@ -205,6 +237,7 @@
             "pvj:pvj_starfish",
             "ageofminecraft:enderdragonhelpful"
         ],
-        "result" : "deny"
+        "onjoin": true,
+        "result": "deny"
     }
 ]

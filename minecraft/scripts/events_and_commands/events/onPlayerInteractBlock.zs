@@ -266,32 +266,35 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
         }
     }
     //Tconstruct Flops Core Trait
-    if (!event.world.remote && event.hand == "MAIN_HAND" && event.world.dimension == 0) {
+    if (!event.world.remote && event.hand == "MAIN_HAND") {
         if (!isNull(player.mainHandHeldItem)) {
             if (player.mainHandHeldItem.isTicTool()) {
                 var tool as IItemStack = player.mainHandHeldItem;
                 var pos as IBlockPos = event.position;
-                if (tool.hasTicTrait("flops_core") && !isNull(MachineController.getControllerAt(event.world, pos))) {
+                if (tool.hasTicTrait("flops_core") && event.world.dimension == 0 && !isNull(MachineController.getControllerAt(event.world, pos))) {
                     var controller as IMachineController = MachineController.getControllerAt(event.world, pos);
                     var controllerBlock as IItemStack = event.world.getBlock(pos).getItem(event.world, pos, event.world.getBlockState(pos));
                     if (!(isNull(tool.tag.flopMachines) || tool.tag.flopMachines.asList().length == 0)) {
                         var machineDataList as IData = tool.tag.flopMachines;
+                        var isBound as bool = false;
                         for machineData in machineDataList.asList() {
                             var posData as int[] = machineData.machinePos as int[];
-                            var pass as bool = true;
                             if (posData[0] == pos.x && posData[1] == pos.y && posData[2] == pos.z) {
-                                player.sendStatusMessage("§c该机器已被绑定！");
-                                pass = false;
+                                isBound = true;
+                                machineDataList = machineDataList.deepUpdate([machineData], REMOVE);
                             }
-                            if (pass) {
-                                var newMachineData as IData = {
-                                    machinePos : [pos.x as int, pos.y as int, pos.z as int] as int[],
-                                    level : controllerBlock.getLevel() as int,
-                                    isWorking : controller.isWorking as bool
-                                };
-                                tool.mutable().updateTag({flopMachines : machineDataList.deepUpdate([newMachineData], MERGE)});
-                                player.sendStatusMessage("§a已绑定位于X:" + pos.x + " Y:" + pos.y + " Z:" + pos.z + "的机器！");
-                            }
+                        }
+                        if (isBound) {
+                            tool.mutable().updateTag({flopMachines : machineDataList});
+                            player.sendStatusMessage("§a已解除位于X:" + pos.x + " Y:" + pos.y + " Z:" + pos.z + "的机器绑定！");
+                        } else {
+                            var newMachineData as IData = {
+                                machinePos : [pos.x as int, pos.y as int, pos.z as int] as int[],
+                                level : controllerBlock.getLevel() as int,
+                                isWorking : controller.isWorking as bool
+                            };
+                            tool.mutable().updateTag({flopMachines : machineDataList.deepUpdate([newMachineData], MERGE)});
+                            player.sendStatusMessage("§a已绑定位于X:" + pos.x + " Y:" + pos.y + " Z:" + pos.z + "的机器！");
                         }
                     } else {
                         var newMachineData as IData = {
@@ -300,6 +303,7 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
                             isWorking : controller.isWorking as bool
                         };
                         tool.mutable().updateTag({flopMachines : [newMachineData]});
+                        player.sendStatusMessage("§a已绑定位于X:" + pos.x + " Y:" + pos.y + " Z:" + pos.z + "的机器！");
                     }
                     event.cancel();
                 } else if (tool.hasTicTrait("flops_core") && event.block.definition.id == "minecraft:anvil") {
