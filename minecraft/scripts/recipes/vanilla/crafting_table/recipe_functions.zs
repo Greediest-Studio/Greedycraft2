@@ -26,6 +26,7 @@ function(out, ins, cInfo) {
     var name = ins.nametag.displayName;
     return <minecraft:spawn_egg>.withTag({display: {Name: "§e" + name + LangUtil.translate("greedycraft.misc.spawn_egg")}, EntityTag: {Username: name, id: "headcrumbs:human"}});
 }, null);
+
 recipes.addShapeless("head_to_human_spawn_egg", <minecraft:spawn_egg>, [<minecraft:skull:3>.marked("head"), <minecraft:egg>], 
 function(out, ins, cInfo) {
     var name = "null";
@@ -152,5 +153,13 @@ recipes.addShapeless("etablet_dupe", <contenttweaker:tablet_of_enlightenment>,
     [<contenttweaker:tablet_of_enlightenment>.marked("tablet")],
     function(out, ins, cInfo) {
         return ins.tablet.updateTag({});
+    }, null
+);
+
+recipes.addShapeless("mininglevel",<buildinggadgets:buildingtool>,
+    [<tconstruct:pickaxe>.marked("tool").reuse(),<buildinggadgets:buildingtool>],
+    function(out, ins, cInfo) {
+        val level = ins.tool.getHarvestLevel("pickaxe");
+        return out.withTag({miningLevel: level});
     }, null
 );
