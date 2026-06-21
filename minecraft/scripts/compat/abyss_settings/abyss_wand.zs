@@ -1282,7 +1282,7 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
                     }
                     if (entity.definition.id == "gct_aby:mixture_shoggoth" && shog1 instanceof IPlayer && catalyst.definition.id == "gct_aby:shoggy_slime_purified") {
                         shog1 = entity;
-                    } else if (entity.definition.id == "abyssalcraft:lesserdreadbeast" && shog2 instanceof IPlayer) {
+                    } else if (entity.definition.id == "abyssalcraft:dreadspawn" && shog2 instanceof IPlayer) {
                         shog2 = entity;
                         recipeString = "bloody";
                     }

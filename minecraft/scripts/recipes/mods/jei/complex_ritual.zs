@@ -45,7 +45,7 @@ createComplexRitualJEI(<minecraft:spawn_egg>.withTag({EntityTag: {id: "gct_aby:m
 
 createComplexRitualJEI(<minecraft:spawn_egg>.withTag({EntityTag: {id: "gct_aby:bloody_shoggoth"}}),
     <minecraft:spawn_egg>.withTag({EntityTag: {id: "gct_aby:mixture_shoggoth"}}),
-    <minecraft:spawn_egg>.withTag({EntityTag: {id: "abyssalcraft:lesserdreadbeast"}}),
+    <minecraft:spawn_egg>.withTag({EntityTag: {id: "abyssalcraft:dreadspawn"}}),
     <gct_aby:shoggy_slime_purified>);
 
 createComplexRitualJEI(<minecraft:spawn_egg>.withTag({EntityTag: {id: "erebus:erebus.ant_shell"}}),
