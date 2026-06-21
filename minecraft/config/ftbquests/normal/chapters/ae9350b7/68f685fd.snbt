@@ -13,7 +13,7 @@
 		uid: "c5f2af3d",
 		type: "item",
 		items: [{
-			item: "storagedrawers:upgrade_creative 1 1"
+			item: "functionalstoragelegacy:creative_vending_upgrade"
 		}]
 	}],
 	rewards: [{
@@ -29,7 +29,7 @@
 	{
 		uid: "70e477e4",
 		type: "item",
-		item: "storagedrawers:upgrade_creative",
+		item: "functionalstoragelegacy:max_storage_upgrade",
 		count: 4
 	}]
 }
