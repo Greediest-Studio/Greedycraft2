@@ -6,8 +6,10 @@
 
 仅支持 Java 25，推荐使用 Graalvm JDK 25 启动，Microsoft Openjdk 25 有BUG可能无法启动
 
-开发版请在 Action 处下载，更新频繁且不稳定，请谨慎下载
+开发版请在 `Action` (文件带有 `dev` 标签)下载，更新频繁且不稳定，请谨慎下载
 
-稳定版请在 Releases 或者交流群下载
+稳定版请在 `Releases` 或者 `Action` (文件带有 `main` 标签)下载
+
+Action 下载的文件中 `GreedyCraft2-xxx-build(dev)-xxx` 是开发版，`GreedyCraft2-xxx-build(main)-xxx` 是稳定版
 
 安装/更新 教程详见 MC百科-贪婪2: https://www.mcmod.cn/post/5730.html
