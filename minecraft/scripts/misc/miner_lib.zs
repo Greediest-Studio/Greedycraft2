@@ -355,9 +355,11 @@ oreOutput.create("末地",1,AEONSTEEL,<gct_mobs:resonated_scrap>,1,0.001);
 oreOutput.create("末地",1,CHROMASTEEL,<endreborn:block_wolframium_ore>,1,0.009);
 oreOutput.create("末地",1,CHROMASTEEL,<additions:plasmarite_ore>,1,0.005);
 oreOutput.create("末地",1,CHROMASTEEL,<biomesoplenty:gem>,1,0.01);
+oreOutput.create("末地",1,CHROMASTEEL,<betterendforge:emerald_ice>,1,0.01);
 //末地 寰宇级
 oreOutput.create("末地",1,COSMILITE,<additions:titanium_ore>,1,0.0015);
 oreOutput.create("末地",1,COSMILITE,<additions:end_harcadium_ore>,1,0.005);
+oreOutput.create("末地",1,COSMILITE,<betterendforge:dense_emerald_ice>,1,0.005);
 //末地 终焉级
 oreOutput.create("末地",1,FINALLIUM,<additions:thallium_ore>,1,0.005);
 oreOutput.create("末地",1,FINALLIUM,<additions:manarium_ore>,1,0.01);
@@ -367,6 +369,7 @@ oreOutput.create("末地",1,FINALLIUM,<additions:fenzium_ore>,1,0.012);
 oreOutput.create("末地",1,FINALLIUM,<additions:sissidium_ore>,1,0.0045);
 oreOutput.create("末地",1,FINALLIUM,<additions:technetium_ore>,1,0.003);
 oreOutput.create("末地",1,FINALLIUM,<moretcon:oregravitonium>,1,0.02);
+oreOutput.create("末地",1,FINALLIUM,<betterendforge:ancient_emerald_ice>,1,0.0025);
 //末地 波动级
 oreOutput.create("末地",1,WAVITE,<additions:breedum_ore>,1,0.0015);
 

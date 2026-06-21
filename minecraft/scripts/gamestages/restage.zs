@@ -188,7 +188,12 @@ GameStagesUtil.restageItems("hardmode", [
     <cyclicmagic:block_disenchanter>,
     <extendedcrafting:storage:2>,
     <nuclearcraft:ingot_block2:1>,
-    <nuclearcraft:ingot2:1>
+    <nuclearcraft:ingot2:1>,
+    <da:gem_end_stone>,
+    <da:gem_end_stone_half>,
+    <da:gem_end_stone_stairs>,
+    <da:gem_end_stone_wall>,
+    <da:gem_chisled_end_stone>
 ]);
 GameStagesUtil.restageItem("fusion_matrix", <cyclicmagic:ender_lightning>);
 GameStagesUtil.restageItems("graduated", [

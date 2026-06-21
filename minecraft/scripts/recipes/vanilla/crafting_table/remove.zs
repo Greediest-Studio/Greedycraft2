@@ -568,7 +568,9 @@ val removedRecipeNames as string[] = [
     "enderutilities:ender_part_ender_alloy_advanced",
     "enderutilities:ender_part_ender_alloy_enhanced",
     "actuallyadditions:recipes154",
-    "netherized:materials/netherite_ingot"
+    "netherized:materials/netherite_ingot",
+    "betterendforge:ender_block",
+    "betterendforge:amber_block"
 ];
 
 for ingredient in removedRecipes {

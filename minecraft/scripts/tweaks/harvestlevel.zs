@@ -114,6 +114,9 @@ import mods.contenttweaker.Item;
 <item:netherized:ancient_debris>.asBlock().definition.hardness = 50.0f;
 <item:netherized:ancient_debris>.asBlock().definition.setHarvestLevel("pickaxe", 6);
 
+<item:betterendforge:thallasium_ore>.asBlock().definition.hardness = 20.0f;
+<item:betterendforge:thallasium_ore>.asBlock().definition.setHarvestLevel("pickaxe", 11);
+
 <industrialforegoing:infinity_drill>.definition.setHarvestLevel("pickaxe", 4);
 <industrialforegoing:infinity_drill>.definition.setHarvestLevel("shovel", 4);
 

@@ -1,7 +1,3 @@
-/*
- * This script is created for the GreedyCraft modpack by TCreopargh.
- * You may NOT use this script in any other publicly distributed modpack without my permission.
- */
 
 #priority 950
 
@@ -95,7 +91,12 @@ GameStagesUtil.stageChaoticDominator.addIngredients([
     <ometweaks:blackhole_capacitor>,
     <ometweaks:twilit_capacitor>,
     <ometweaks:curse_capacitor>,
-    <ometweaks:killer_capacitor>
+    <ometweaks:killer_capacitor>,
+    <betterendforge:thallasium_ingot>,
+    <betterendforge:thallasium_block>,
+    <betterendforge:thallasium_nugget>,
+    <betterendforge:thallasium_ore>,
+    <ore:dustThallasium>
 ], true);
 
 GameStagesUtil.stageGettingStarted.addIngredients([
