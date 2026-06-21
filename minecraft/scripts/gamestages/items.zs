@@ -2579,7 +2579,12 @@ GameStagesUtil.stageWakeUp.addIngredients([
     <additions:logic_circuit_printed_4>,
     <additions:calculation_processor_4>,
     <additions:engineering_processor_4>,
-    <additions:logic_processor_4>
+    <additions:logic_processor_4>,
+    <gctcore:apathy_ore>,
+    <gctcore:apathy_ingot>,
+    <ore:nuggetApathy>,
+    <ore:blockApathy>,
+    <ore:dustApathy>
 ], false);
 
 GameStagesUtil.stageMindShock.addIngredients([
