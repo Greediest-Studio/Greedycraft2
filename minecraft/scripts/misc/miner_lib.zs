@@ -584,6 +584,7 @@ oreOutput.create("永恒星域",80,WAVITE,<additions:arimite_ore>,1,0.005);
 //亚特兰蒂斯 寰宇级
 oreOutput.create("亚特兰蒂斯",324987,COSMILITE,<additions:tanatonium_ore>,1,0.015);
 oreOutput.create("亚特兰蒂斯",324987,COSMILITE,<additions:imitatium_ore>,1,0.015);
+oreOutput.create("亚特兰蒂斯",324987,COSMILITE,<additions:immersed_silver_ore>,1,0.002);
 
 //血腥裂隙 寰宇级
 oreOutput.create("血腥裂隙",41,COSMILITE,<additions:blood_infused_iron_ore>,1,0.035);
