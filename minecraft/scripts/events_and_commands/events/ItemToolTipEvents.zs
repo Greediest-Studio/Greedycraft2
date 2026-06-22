@@ -25,19 +25,21 @@ events.register(function(event as ItemTooltipEvent) {
     //EIO Capacitor Tooltip
     if (!isNull(itemStack) && !isNull(itemStack.definition)) {
         if (EIOitemLevelList.keys has itemStack.definition.id) {
-            if (GuiScreen.isShiftKeyDown()) {
+            if (GuiScreen.isShiftKeyDown() && event.getToolTip().length >= 2) {
                 event.getToolTip()[0 .. 1].add("§7机器升级\n增加储能和速率/工作范围");
             } else {
                 event.getToolTip()[0 .. 1].add("§7机器升级\n§f§o<按住Shift>");
             }
-            event.getToolTip()[0 .. 3].add(EIOitemLevelList[itemStack.definition.id]);
+            if (event.getToolTip().length >= 4) {
+                event.getToolTip()[0 .. 3].add(EIOitemLevelList[itemStack.definition.id]);
+            }
         }
     }
 
     //Crimson Ring Tooltip
     if (!isNull(itemStack) && !isNull(itemStack.definition)) {
         if (itemStack.definition.id == <contenttweaker:bauble_crimson_ring>.definition.id) {
-            if (!isNull(itemStack.tag.crimsonPower)) {
+            if (!isNull(itemStack.tag.crimsonPower) && event.getToolTip().length >= 4) {
                 var crimsonPower as int = itemStack.tag.crimsonPower as int;
                 event.getToolTip()[0 .. 3].add("§7血腥意志：" + crimsonPower as string);
             }
@@ -47,7 +49,7 @@ events.register(function(event as ItemTooltipEvent) {
     //Botania Reward Bag Tooltip
     if (!isNull(itemStack) && !isNull(itemStack.definition)) {
         if (itemStack.definition.id == <additions:reward_bag_funf>.definition.id) {
-            if (GuiScreen.isShiftKeyDown()) {
+            if (GuiScreen.isShiftKeyDown() && event.getToolTip().length >= 2) {
                 event.getToolTip()[0 .. 1].add("§7开启后有概率获得以下物品§r\n" +
                     "§f英雄勋章 x3 12.20%§r\n" +
                     "§f神话钢锭 x4 12.20%§r\n" +
@@ -91,7 +93,7 @@ events.register(function(event as ItemTooltipEvent) {
                 var aer as int = itemStack.tag.hexableBasement.aer as int;
                 var ordo as int = itemStack.tag.hexableBasement.ordo as int;
                 var perditio as int = itemStack.tag.hexableBasement.perditio as int;
-                if (location != -1) {
+                if (location != -1 && event.getToolTip().length >= location + 2) {
                     event.getToolTip()[0 .. location + 1].add("§3六元-水: " + aqua as string + "/4000§r\n§c六元-火: " + ignis as string + "/4000§r\n§2六元-地: " + terra as string + "/4000§r\n§b六元-风: " + aer as string + "/4000§r\n§f六元-序: " + ordo as string + "/4000§r\n§8六元-熵: " + perditio as string + "/4000§r");
                 }
             }
@@ -116,7 +118,7 @@ events.register(function(event as ItemTooltipEvent) {
             if (!isNull(itemStack.tag.imitationCount)) {
                 count = itemStack.tag.imitationCount as int;
             }
-            if (location != -1 && count != -1) {
+            if (location != -1 && count != -1 && event.getToolTip().length >= location + 2) {
                 event.getToolTip()[0 .. location].add(str + ": " + count + "/10");
                 event.getToolTip().remove(location + 1);
             }
@@ -137,7 +139,7 @@ events.register(function(event as ItemTooltipEvent) {
             if (!isNull(itemStack.tag.imitationCount)) {
                 count = itemStack.tag.imitationCount as int;
             }
-            if (location != -1 && count != -1) {
+            if (location != -1 && count != -1 && event.getToolTip().length >= location + 2) {
                 event.getToolTip()[0 .. location].add(str + ": " + count + "/4");
                 event.getToolTip().remove(location + 1);
             }
@@ -145,7 +147,7 @@ events.register(function(event as ItemTooltipEvent) {
     }
 
     //Radiation Trait Tooltip
-    if (!isNull(itemStack) && !isNull(itemStack.definition)) {
+    if (!isNull(itemStack) && !isNull(itemStack.definition) && event.getToolTip().length >= 2) {
         if (itemStack.hasTicTrait("active_source6")) {
             var hasSlowdown as bool = itemStack.hasTicTrait("slowdown");
             event.getToolTip()[0 .. 1].add(hasSlowdown ? "§c辐射： 192 mRad/t" : "§c辐射： 384 mRad/t");
