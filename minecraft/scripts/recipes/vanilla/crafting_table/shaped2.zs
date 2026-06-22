@@ -1134,7 +1134,11 @@ RecipeUtil.addShaped("modifier_worktable", <tt2:modifier_worktable>, [
     [<minecraft:stone>, <additions:experience_transporter>, <minecraft:stone>],
     [<minecraft:stone>, null, <minecraft:stone>]
 ]);
-
+RecipeUtil.addShaped("max_storage_upgrade", <functionalstoragelegacy:max_storage_upgrade> * 4, [
+    [<functionalstoragelegacy:netherite_upgrade>, <functionalstoragelegacy:diamond_upgrade>, <functionalstoragelegacy:netherite_upgrade>],
+    [<additions:creative_shard>, <functionalstoragelegacy:oak_1>, <additions:creative_shard>],
+    [<functionalstoragelegacy:netherite_upgrade>, <functionalstoragelegacy:diamond_upgrade>, <functionalstoragelegacy:netherite_upgrade>]
+]);
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],
