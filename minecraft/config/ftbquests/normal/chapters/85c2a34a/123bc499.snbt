@@ -1,7 +1,10 @@
 {
 	x: 4.0d,
-	y: 9.5d,
-	description: "制作一个饰品蓝图",
+	y: 8.0d,
+	description: "制作一个戒指蓝图",
+	text: [
+		""
+	],
 	dependencies: [
 		"b5ab2c55"
 	],
