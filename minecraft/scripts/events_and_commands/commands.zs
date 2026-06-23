@@ -108,7 +108,7 @@ syncDifficultyCommand.execute = function(command, server, sender, args) {
                     maxDifficulty = difficulty;
                 }
             }
-            player.difficulty = maxDifficulty;
+            player.shDiff = maxDifficulty;
             sender.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.syncDifficultyCommand.chat1", ["§6" + player.name  + "§e", "§6" + maxDifficulty + "§e"] as string[]));
             player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.syncDifficultyCommand.chat2", "§6" + maxDifficulty + "§e"));
         }
@@ -555,7 +555,7 @@ redPacketCommand.execute = function(command, server, sender, args) {
     }
     for player in players {
         if (!isNull(player)) {
-            var xp as int = Math.floor((50.0 + Math.random() * 300.0 + Math.random() * 0.75 * (pow(player.difficulty, 1.5)))) as int;
+            var xp as int = Math.floor((50.0 + Math.random() * 300.0 + Math.random() * 0.75 * (pow(player.shDiff, 1.5)))) as int;
             player.addExperience(xp);
             player.sendRichTextMessage(ITextComponent.fromTranslation("greedycraft.command.red_packet", "§6" + xp + "§c"));
         }

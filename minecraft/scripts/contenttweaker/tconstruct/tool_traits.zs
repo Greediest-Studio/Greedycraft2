@@ -3555,7 +3555,7 @@ leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, 
         if (!isNull(tool.tag.EvolvedEnergy)) {extradamage = tool.tag.EvolvedEnergy.asInt();}
         extradamage = (extradamage / 640);
 
-        var difficulty as float = player.difficulty as float;
+        var difficulty as float = player.shDiff as float;
         var needDamage as int = 1 * Math.max(Math.ceil(Math.sqrt(unmodifiedAmount)), Math.ceil(pow((difficulty / 256), 1.5)));
         if (tool.hasTicTrait("bedrock")) {
             if (Math.random() < 0.85f) {

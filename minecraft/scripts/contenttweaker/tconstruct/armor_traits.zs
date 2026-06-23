@@ -2744,7 +2744,7 @@ leveling_durabilityTrait.onArmorDamaged = function(trait, armor, damageSource, a
 
         extradamage = (extradamage / 640);
 
-        var difficulty as float = player.difficulty as float;
+        var difficulty as float = player.shDiff as float;
         var needDamage = 1 + Math.ceil(pow((difficulty / 256), 1.5));
         needDamage += amount;
 

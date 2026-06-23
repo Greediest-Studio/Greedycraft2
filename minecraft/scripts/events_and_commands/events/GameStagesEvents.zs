@@ -60,9 +60,9 @@ events.onGameStageAdd(function(event as GameStageAddEvent) {
                 maxDifficulty = difficulty;
             }
         }
-        if (player.difficulty != maxDifficulty) {
-            data += [{translate: "greedycraft.event.stage.lore.difficulty"}, {text: "   "}, {text: "" + Math.round(player.difficulty) as int, color: "green"}, {text: " >> ", color: "yellow"}, {text: "" + maxDifficulty as int + "\n", color: "red"}];
-            player.difficulty = maxDifficulty;
+        if (player.shDiff != maxDifficulty) {
+            data += [{translate: "greedycraft.event.stage.lore.difficulty"}, {text: "   "}, {text: "" + Math.round(player.shDiff) as int, color: "green"}, {text: " >> ", color: "yellow"}, {text: "" + maxDifficulty as int + "\n", color: "red"}];
+            player.shDiff = maxDifficulty;
         }
         data += [delimiter] as IData;
         player.sendRichTextMessage(ITextComponent.fromData(data));
