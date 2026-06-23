@@ -1,7 +1,8 @@
 {
 	title: "§b七星指路",
-	x: 14.5d,
-	y: 9.5d,
+	x: 2.0d,
+	y: -2.5d,
+	shape: "rsquare",
 	description: "合成天枢之匙，你可以随意造访两个维度了",
 	text: [
 		""
@@ -10,6 +11,7 @@
 		"5e7be11b",
 		"9046790c"
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "b2b333c9",
 		type: "item",
