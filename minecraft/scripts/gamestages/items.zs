@@ -2584,7 +2584,12 @@ GameStagesUtil.stageWakeUp.addIngredients([
     <gctcore:apathy_ingot>,
     <ore:nuggetApathy>,
     <ore:blockApathy>,
-    <ore:dustApathy>
+    <ore:dustApathy>,
+    <ore:gemOnyx>,
+    <ore:blockOnyx>,
+    <ore:dustOnyx>,
+    <ore:oreOnyx>,
+    <ore:nuggetOnyx>
 ], false);
 
 GameStagesUtil.stageMindShock.addIngredients([

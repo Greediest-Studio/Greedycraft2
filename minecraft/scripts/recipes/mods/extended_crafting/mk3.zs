@@ -398,3 +398,13 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <additions:cd_chalcogenite_pres
 	[<ore:ingotBoundlessAlloy>, <ore:ingotBreedum>, <ore:ingotBreedum>, <ore:ingotPrimordialExtended>, <ore:ingotBreedum>, <ore:ingotBoundlessAlloy>, null], 
 	[<ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, <ore:ingotBoundlessAlloy>, null, null]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <da:frost_locator>, [
+	[null, null, null, <ore:ingotApathy>, null, null, null], 
+	[null, null, null, <ore:ingotApathy>, null, null, null], 
+	[null, null, <ore:ingotApathy>, <ore:gemSing>, <ore:ingotApathy>, null, null], 
+	[<ore:ingotApathy>, <ore:ingotApathy>, <ore:gemSing>, <ore:netherStarWithered>, <ore:gemSing>, <ore:ingotApathy>, <ore:ingotApathy>], 
+	[null, null, <ore:ingotApathy>, <ore:gemSing>, <ore:ingotApathy>, null, null], 
+	[null, null, null, <ore:ingotApathy>, null, null, null], 
+	[null, null, null, <ore:ingotApathy>, null, null, null]
+]);

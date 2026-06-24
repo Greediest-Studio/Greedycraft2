@@ -1,0 +1,58 @@
+{
+  "preset_block": "additions:onyx_ore",
+  "preset_dropStack": {
+    "item": "minecraft:stone"
+  },
+  "preset_dropMin": 1,
+  "preset_fortunable": true,
+  "preset_silkTouchable": true,
+  "pools": [
+    {
+      "name": "item_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:onyx",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "lootoverhaul:fortune_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "lootoverhaul:not",
+          "conditions": [
+            {
+              "condition": "lootoverhaul:silk_touch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "silk_touch_pool",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "additions:onyx_ore",
+          "weight": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "lootoverhaul:silk_touch"
+        }
+      ]
+    }
+  ],
+  "preset_type": "additions:block_item_drop"
+}
