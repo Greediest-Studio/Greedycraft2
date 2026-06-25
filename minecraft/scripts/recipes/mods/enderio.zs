@@ -113,7 +113,7 @@ AlloySmelter.addRecipe(<plustic:alumiteingot> * 3, [<ore:ingotAluminum> * 5, <or
 AlloySmelter.addRecipe(<tiths:ingot_magiga>, [<ore:ingotManyullyn>, <ore:ingotIron>, <ore:ingotGold>], 4000, 10.0f);
 AlloySmelter.addRecipe(<additions:blue_alloy_ingot> * 6, [<ore:ingotEcoBasicAlloy>, <ore:ingotCrystallineAlloy> * 8, <ore:ingotPlatinum> * 12], 20000, 80.0f);
 AlloySmelter.addRecipe(<nuclearcraft:alloy:7> * 4, [<ore:ingotCopper> * 3, <ore:ingotSilver>], 4000, 10.0f);
-AlloySmelter.addRecipe(<thermalfoundation:material:165> * 2, [<ore:ingotShibuishi> * 2, <ore:dustRedstone> * 5], 4000, 10.0f);
+AlloySmelter.addRecipe(<thermalfoundation:material:165> * 2, [<ore:ingotShibuichi> * 2, <ore:dustRedstone> * 5], 4000, 10.0f);
 AlloySmelter.addRecipe(<mca:rose_gold_ingot> * 3, [<ore:ingotCopper>, <ore:ingotSilver>, <ore:ingotGold>], 4000, 10.0f);
 AlloySmelter.addRecipe(<nuclearcraft:alloy:8> * 4, [<ore:ingotTin> * 3, <ore:ingotSilver>], 4000, 10.0f);
 
