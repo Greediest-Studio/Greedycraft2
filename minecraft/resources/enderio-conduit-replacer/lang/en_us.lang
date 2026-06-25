@@ -1,25 +1,25 @@
 # Conduit Replacer Language File
 
 # Item
-item.enderio-conduit-replacer.conduit_replacer.name=导管替换器
-enderio-conduit-replacer.gui.title=导管替换器
-enderio-conduit-replacer.gui.source=源导管
-enderio-conduit-replacer.gui.replacement=替换为
-enderio-conduit-replacer.gui.category=类别：%s
-enderio-conduit-replacer.gui.ready=就绪，Start替换！
-enderio-conduit-replacer.gui.category_mismatch=类别不匹配！
+item.enderio-conduit-replacer.conduit_replacer.name=Conduit Replacer
+enderio-conduit-replacer.gui.title=Conduit Replacer
+enderio-conduit-replacer.gui.source=Source
+enderio-conduit-replacer.gui.replacement=Replace
+enderio-conduit-replacer.gui.category=Category: %s
+enderio-conduit-replacer.gui.ready=Ready to replace!
+enderio-conduit-replacer.gui.category_mismatch=Category mismatch!
 enderio-conduit-replacer.gui.category_mismatch_detail=%s != %s
-enderio-conduit-replacer.gui.set_replacement=设置替换导管
-enderio-conduit-replacer.gui.set_source=设置源导管
-enderio-conduit-replacer.gui.set_conduits=设置上方导管
-enderio-conduit-replacer.gui.category_none=无
-enderio-conduit-replacer.message.set_both=请先在界面中设置源导管与替换导管（右键）
-enderio-conduit-replacer.message.invalid_items=配置的导管 Item无效
-enderio-conduit-replacer.message.replaced=已替换 %d 个导管
-enderio-conduit-replacer.message.insufficient=需要 %d 个导管，拥有 %d 个。
-enderio-conduit-replacer.message.upgrades_drop=部分 Upgrade/过滤器无法保留，将会掉落。双击右键以确认。
-enderio-conduit-replacer.message.source_not_found=在该导管束中未找到源导管类型
-enderio-conduit-replacer.message.category_mismatch=源导管与替换导管必须属于同一类别（例如都为 Energy导管）
-enderio-conduit-replacer.message.no_conduits_replaced=未替换任何导管
-enderio-conduit-replacer.message.source_set=源导管已设置为：%s
-enderio-conduit-replacer.message.replacement_set=替换导管已设置为：%s
+enderio-conduit-replacer.gui.set_replacement=Set replacement conduit
+enderio-conduit-replacer.gui.set_source=Set source conduit
+enderio-conduit-replacer.gui.set_conduits=Set conduits above
+enderio-conduit-replacer.gui.category_none=
+enderio-conduit-replacer.message.set_both=Set both source and replacement conduits in the GUI first (right-click)
+enderio-conduit-replacer.message.invalid_items=Invalid conduit items configured
+enderio-conduit-replacer.message.replaced=%d conduit(s) replaced
+enderio-conduit-replacer.message.insufficient=Need %d conduit(s), have %d.
+enderio-conduit-replacer.message.upgrades_drop=Some upgrades/filters cannot be preserved and will be dropped. Double-right-click to confirm.
+enderio-conduit-replacer.message.source_not_found=Source conduit type not found in this bundle
+enderio-conduit-replacer.message.category_mismatch=Source and replacement conduits must be the same category (e.g., both energy conduits)
+enderio-conduit-replacer.message.no_conduits_replaced=No conduits were replaced
+enderio-conduit-replacer.message.source_set=Set source conduit to %s
+enderio-conduit-replacer.message.replacement_set=Set replacement conduit to %s
