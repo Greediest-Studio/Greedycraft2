@@ -1,0 +1,7444 @@
+# Mystery Modid Review
+These modids are unknown/custom — translations proposed but NOT written to lang files.
+Review and copy accepted entries into the respective en_us.lang files.
+
+
+## da
+
+- `entity.wreath_knight.name`
+  - ZH: `Test Boss`
+  - EN: `Test Boss`
+- `entity.void_blossom.name`
+  - ZH: `虚空之花`
+  - EN: `Void之 Flower`
+- `entity.mini_blossom.name`
+  - ZH: `迷你杜鹃花`
+  - EN: `迷你杜鹃 Flower`
+- `entity.spore_bomb.name`
+  - ZH: `孢子囊炸弹`
+  - EN: `Spore囊炸弹`
+- `entity.spore_cloud.name`
+  - ZH: `孢子云`
+  - EN: `Spore云`
+- `entity.void_spike.name`
+  - ZH: `植物尖刺`
+  - EN: `Plant尖刺`
+- `entity.nether_aberant.name`
+  - ZH: `异响之灵`
+  - EN: `异响之灵`
+- `entity.flame_knight.name`
+  - ZH: `焚狱骑士`
+  - EN: `焚狱骑士`
+- `entity.pearl_projectile.name`
+  - ZH: `异构珍珠`
+  - EN: `异构珍珠`
+- `entity.aoe_tile.name`
+  - ZH: `野心之火`
+  - EN: `野心之火`
+- `entity.flame_sling.name`
+  - ZH: `悬吊之焰`
+  - EN: `悬吊之焰`
+- `entity.flame_projectile.name`
+  - ZH: `野心之焰`
+  - EN: `野心之焰`
+- `entity.nether_pyre.name`
+  - ZH: `古代方尖碑`
+  - EN: `Ancient方尖碑`
+- `entity.fire_resist_item.name`
+  - ZH: `抗火之物`
+  - EN: `抗火之物`
+- `entity.ancient_knight.name`
+  - ZH: `古代观风者`
+  - EN: `Ancient观风者`
+- `entity.ancient_knight_rapier.name`
+  - ZH: `风暴剑士`
+  - EN: `风暴 Sword士`
+- `entity.ancient_fallen.name`
+  - ZH: `堕落观风者`
+  - EN: `堕落观风者`
+- `entity.rot_spike.name`
+  - ZH: `腐败之锥`
+  - EN: `Corruption之锥`
+- `entity.soul_star.name`
+  - ZH: `魂灵之心`
+  - EN: `Soul灵之心`
+- `entity.lily_locator.name`
+  - ZH: `飘渺定位器`
+  - EN: `飘渺定位器`
+- `entity.night_lich.name`
+  - ZH: `暗夜巫妖`
+  - EN: `暗夜巫妖`
+- `entity.magic_missile.name`
+  - ZH: `巫妖魔导弹`
+  - EN: `巫妖魔导弹`
+- `entity.magic_fireball.name`
+  - ZH: `巫妖魔火球`
+  - EN: `巫妖魔火球`
+- `entity.lich_staff.name`
+  - ZH: `永夜妖之杖`
+  - EN: `永夜妖之杖`
+- `entity.track_missile.name`
+  - ZH: `追踪魔导弹`
+  - EN: `追踪魔导弹`
+- `entity.ground_missile.name`
+  - ZH: `巫妖范围法术`
+  - EN: `巫妖 Range法术`
+- `entity.lich_spawn.name`
+  - ZH: `巫妖生物生成`
+  - EN: `巫妖生物 Generate`
+- `entity.levitation_block_entity`
+  - ZH: `悬浮实体块`
+  - EN: `悬浮实体 Block`
+- `entity.wyrk.name`
+  - ZH: `极寒破坏者`
+  - EN: `极寒破坏者`
+- `entity.ice_spike.name`
+  - ZH: `冰刺`
+  - EN: `冰刺`
+- `entity.ice_bullet.name`
+  - ZH: `冰弹`
+  - EN: `冰弹`
+- `entity.frost_draugr.name`
+  - ZH: `霜生尸鬼`
+  - EN: `霜生尸鬼`
+- `entity.frost_draugr_ranger.name`
+  - ZH: `霜夜游侠`
+  - EN: `霜夜游侠`
+- `entity.soul_bullet.name`
+  - ZH: `尸鬼之魂`
+  - EN: `尸鬼之 Soul`
+- `entity.frost_draugr_elite.name`
+  - ZH: `霜冠尸鬼`
+  - EN: `霜冠尸鬼`
+- `entity.frost_locator.name`
+  - ZH: `霜生水晶`
+  - EN: `霜生 Crystal`
+- `entity.great_wyrk.name`
+  - ZH: `远古破坏者`
+  - EN: `远古破坏者`
+- `entity.frost_magic.name`
+  - ZH: `冰霜破坏法术`
+  - EN: `Frost破坏法术`
+- `entity.wyrk_foot.name`
+  - ZH: `破坏者之足`
+  - EN: `破坏者之足`
+- `entity.wyrk_lazer.name`
+  - ZH: `破坏者激光`
+  - EN: `破坏者激光`
+- `entity.imperial_halberd.name`
+  - ZH: `高廷的锋戟`
+  - EN: `高廷的锋戟`
+- `entity.imperial_sword.name`
+  - ZH: `高廷的利刃`
+  - EN: `高廷的利刃`
+- `entity.sky_lightning_bolt.name`
+  - ZH: `魔电师`
+  - EN: `魔电师`
+- `entity.sky_arrow.name`
+  - ZH: `仙踪箭`
+  - EN: `仙踪 Arrow`
+- `entity.sky_tornado.name`
+  - ZH: `至高风暴`
+  - EN: `至高风暴`
+- `entity.trident_gargoyle.name`
+  - ZH: `天侍石像鬼`
+  - EN: `天侍石像鬼`
+- `entity.mage_gargoyle.name`
+  - ZH: `远古天侍石像鬼`
+  - EN: `远古天侍石像鬼`
+- `entity.farum_dart.name`
+  - ZH: `石像鬼残片`
+  - EN: `石像鬼残片`
+- `entity.light_ring_projectile.name`
+  - ZH: `光环`
+  - EN: `光环`
+- `entity.gargoyle_lazer.name`
+  - ZH: `耀光`
+  - EN: `耀光`
+- `entity.friend_wyrk.name`
+  - ZH: `友好破坏者`
+  - EN: `友好破坏者`
+- `entity.dark_assassin.name`
+  - ZH: `崇秽刺客`
+  - EN: `崇秽刺客`
+- `entity.shadow_hand.name`
+  - ZH: `秽影之手`
+  - EN: `秽影之手`
+- `entity.high_king_drake.name`
+  - ZH: `天顶的帝王`
+  - EN: `天顶的帝王`
+- `entity.storm_tornado.name`
+  - ZH: `风流之息`
+  - EN: `风流之息`
+- `entity.storm_breath.name`
+  - ZH: `天龙风暴之息`
+  - EN: `天龙风暴之息`
+- `entity.dragon_aoe.name`
+  - ZH: `残空锥刺`
+  - EN: `残空锥刺`
+- `entity.dragon_special.name`
+  - ZH: `至高之戒`
+  - EN: `至高之戒`
+- `entity.sky_locator_projectile.name`
+  - ZH: `寻光弹`
+  - EN: `寻光弹`
+- `entity.high_king.name`
+  - ZH: `曜日的君冕`
+  - EN: `曜日的君冕`
+- `entity.king_holy_aoe.name`
+  - ZH: `补天锥刺`
+  - EN: `补天锥刺`
+- `entity.holy_wave_projectile.name`
+  - ZH: `圣爪`
+  - EN: `圣 Claw`
+- `entity.blood_pile.name`
+  - ZH: `天王之血`
+  - EN: `天王之血`
+- `entity.blood_ball_proj.name`
+  - ZH: `天王之腥`
+  - EN: `天王之腥`
+- `entity.imperial_knight_friendly.name`
+  - ZH: `受召的锋戟`
+  - EN: `受召的锋戟`
+- `entity.burning_flame_projectile.name`
+  - ZH: `炽穹探险者`
+  - EN: `炽穹探险者`
+- `entity.incendium_spirit.name`
+  - ZH: `天灾之灵`
+  - EN: `天灾之灵`
+- `entity.bareant.name`
+  - ZH: `颓靡之灵`
+  - EN: `颓靡之灵`
+- `entity.volatile_spirit.name`
+  - ZH: `挥发之灵`
+  - EN: `挥发之灵`
+- `entity.flame_spit.name`
+  - ZH: `挥发之火`
+  - EN: `挥发之火`
+- `entity.volatile_orb.name`
+  - ZH: `挥发火圈`
+  - EN: `挥发火圈`
+- `entity.flame_blade_proj.name`
+  - ZH: `烈焰刃射弹`
+  - EN: `烈焰刃射弹`
+- `entity.dark_sorcerer.name`
+  - ZH: `暗黑巫师`
+  - EN: `暗黑巫师`
+- `entity.proj_dark_matter.name`
+  - ZH: `虚空魔法`
+  - EN: `Void魔法`
+- `entity.dark_royal.name`
+  - ZH: `暗黑皇卫`
+  - EN: `暗黑皇卫`
+- `entity.puzzle_orb.name`
+  - ZH: `谜题球`
+  - EN: `谜题球`
+- `entity.scutter_beetle.name`
+  - ZH: `滑行甲虫`
+  - EN: `滑行甲虫`
+- `entity.aegyptia.name`
+  - ZH: `古埃及沙虫`
+  - EN: `古埃及 Sand虫`
+- `entity.obsidilith.name`
+  - ZH: `黑曜石柱`
+  - EN: `Obsidian柱`
+- `entity.blue_wave.name`
+  - ZH: `黑曜石魔法`
+  - EN: `Obsidian魔法`
+- `entity.voidiant.name`
+  - ZH: `虚空支配者`
+  - EN: `Void支配者`
+- `entity.voidclysm.name`
+  - ZH: `虚空灾变`
+  - EN: `Void灾变`
+- `entity.voidclysm_bolt.name`
+  - ZH: `湮灾箭`
+  - EN: `湮灾 Arrow`
+- `entity.void_bomb.name`
+  - ZH: `混沌爆弹`
+  - EN: `Chaos爆弹`
+- `entity.voidclysm_spike.name`
+  - ZH: `湮灾刺`
+  - EN: `湮灾刺`
+- `entity.void_projectile.name`
+  - ZH: `追踪虚空魔法`
+  - EN: `追踪 Void魔法`
+- `entity.void_hole.name`
+  - ZH: `灾厄黑洞`
+  - EN: `灾厄黑洞`
+- `entity.desert_storm.name`
+  - ZH: `旱沙风暴`
+  - EN: `旱 Sand风暴`
+- `entity.everator.name`
+  - ZH: `永恒者`
+  - EN: `永恒者`
+- `entity.yellow_wave.name`
+  - ZH: `黄沙浪潮`
+  - EN: `黄 Sand浪潮`
+- `entity.reanimate.name`
+  - ZH: `咒亡魂`
+  - EN: `咒亡 Soul`
+- `entity.apathyr.name`
+  - ZH: `阿帕瑟尔`
+  - EN: `阿帕瑟尔`
+- `entity.apathyr_ghost.name`
+  - ZH: `阿帕瑟尔幽灵`
+  - EN: `阿帕瑟尔幽灵`
+- `entity.ultra_attack.name`
+  - ZH: `英灵水晶领域`
+  - EN: `英灵 Crystal领域`
+- `entity.crystal_wave.name`
+  - ZH: `水晶波`
+  - EN: `Crystal波`
+- `entity.apathyr_speear.name`
+  - ZH: `阿帕瑟尔之锐`
+  - EN: `阿帕瑟尔之锐`
+- `entity.apathyr_eye.name`
+  - ZH: `阿帕瑟尔之目`
+  - EN: `阿帕瑟尔之目`
+- `entity.cursed_revenant.name`
+  - ZH: `友好咒亡魂`
+  - EN: `友好咒亡 Soul`
+- `entity.cursed_sentinel.name`
+  - ZH: `恶缠斥候`
+  - EN: `恶缠斥候`
+- `entity.cursed_sentinel_friendly.name`
+  - ZH: `咒傀`
+  - EN: `咒傀`
+- `entity.mysterious_trader.name`
+  - ZH: `神秘行商`
+  - EN: `Mystical行商`
+- `entity.aegyptian_warlord.name`
+  - ZH: `古埃及军阀`
+  - EN: `古埃及军阀`
+- `entity.aegyptian_colossus.name`
+  - ZH: `法老巨像`
+  - EN: `法老巨像`
+- `entity.delayed_explosion_da.name`
+  - ZH: `延迟爆炸`
+  - EN: `延迟 Explosion`
+- `entity.summoned_mace.name`
+  - ZH: `巨像之锤`
+  - EN: `巨像之锤`
+- `entity.thousand_cuts.name`
+  - ZH: `千道切`
+  - EN: `千道切`
+- `entity.colossus_sigil.name`
+  - ZH: `巨像印记`
+  - EN: `巨像印记`
+- `entity.scutter_beetle_friendly.name`
+  - ZH: `友好滑行甲虫`
+  - EN: `友好滑行甲虫`
+- `item.void_leaf.name`
+  - ZH: `虚空叶片`
+  - EN: `Void叶片`
+- `item.spore.name`
+  - ZH: `虚空孢子`
+  - EN: `Void Spore`
+- `item.crystal_fruit.name`
+  - ZH: `水晶果`
+  - EN: `Crystal果`
+- `item.void_thorns.name`
+  - ZH: `无量棘刺`
+  - EN: `无量棘刺`
+- `item.void_dagger.name`
+  - ZH: `飘渺短剑`
+  - EN: `飘渺短 Sword`
+- `item.abberrant_eye.name`
+  - ZH: `炼狱解构碎片`
+  - EN: `炼狱解构 Fragment`
+- `item.endless_enderpearl.name`
+  - ZH: `异构珍珠`
+  - EN: `异构珍珠`
+- `item.ambition_flame.name`
+  - ZH: `野心之烬`
+  - EN: `野心之烬`
+- `item.enflamed_meat.name`
+  - ZH: `余烬肉排`
+  - EN: `余烬肉排`
+- `item.ambition_sword.name`
+  - ZH: `枭雄大剑`
+  - EN: `枭雄大 Sword`
+- `item.projectile_flame.name`
+  - ZH: `野心之燃`
+  - EN: `野心之燃`
+- `item.fake_healing_potion.name`
+  - ZH: `虚假治疗药水(仅创造模式)`
+  - EN: `虚假治疗 Potion(仅创造模式)`
+- `item.flame_helmet.name`
+  - ZH: `炼狱金属战盔`
+  - EN: `炼狱 Gold属战盔`
+- `item.flame_chestplate.name`
+  - ZH: `炼狱金属胸铠`
+  - EN: `炼狱 Gold属胸铠`
+- `item.flame_leggings.name`
+  - ZH: `炼狱金属护腿`
+  - EN: `炼狱 Gold属 Leggings`
+- `item.flame_boots.name`
+  - ZH: `炼狱金属战靴`
+  - EN: `炼狱 Gold属战靴`
+- `item.flame_metal_scrap.name`
+  - ZH: `炼狱金属原料`
+  - EN: `炼狱 Gold属原料`
+- `item.knight_shard.name`
+  - ZH: `悉风碎片`
+  - EN: `悉风 Fragment`
+- `item.knight_ingot.name`
+  - ZH: `悉风锭`
+  - EN: `Knight Ingot`
+- `item.knight_key.name`
+  - ZH: `腐朽地牢钥匙`
+  - EN: `腐朽地牢钥匙`
+- `item.knight_rapier.name`
+  - ZH: `观风者之剑`
+  - EN: `观风者之 Sword`
+- `item.glow_berry.name`
+  - ZH: `荧光浆果`
+  - EN: `荧光浆果`
+- `item.soul_star_item.name`
+  - ZH: `灵魂之心`
+  - EN: `Soul之心`
+- `item.magic_projectile.name`
+  - ZH: `魔导弹`
+  - EN: `魔导弹`
+- `item.magic_fireball.name`
+  - ZH: `魔火球`
+  - EN: `魔火球`
+- `item.ancient_mana.name`
+  - ZH: `古代魔法`
+  - EN: `Ancient魔法`
+- `item.missile_projectile.name`
+  - ZH: `追踪魔导弹`
+  - EN: `追踪魔导弹`
+- `item.spear_staff.name`
+  - ZH: `无魂法师之矛`
+  - EN: `无 Soul法师之矛`
+- `item.spear_weapon.name`
+  - ZH: `无魂勇士之矛`
+  - EN: `无 Soul Warrior之矛`
+- `item.red_ancient_mana.name`
+  - ZH: `赤热古魔法`
+  - EN: `赤热古魔法`
+- `item.lich_helmet.name`
+  - ZH: `魂飞魄散之冠`
+  - EN: `Soul飞魄散之冠`
+- `item.bomd_mod_logo.name`
+  - ZH: `BOMD + DA Mod Logo`
+  - EN: `BOMD + DA Mod Logo`
+- `item.frost_shard.name`
+  - ZH: `摧神尖刺`
+  - EN: `摧神尖刺`
+- `item.frost_ingot.name`
+  - ZH: `祸乱水晶`
+  - EN: `Frost Ingot`
+- `item.frost_bullet.name`
+  - ZH: `冰霜弹`
+  - EN: `Frost弹`
+- `item.frost_key.name`
+  - ZH: `凛冬城堡钥匙`
+  - EN: `凛冬城堡钥匙`
+- `item.frost_sword.name`
+  - ZH: `霜生剑`
+  - EN: `霜生 Sword`
+- `item.champion_axe.name`
+  - ZH: `霜冠斧`
+  - EN: `霜冠 Axe`
+- `item.draugr_shard.name`
+  - ZH: `霜生碎片`
+  - EN: `霜生 Fragment`
+- `item.draugr_ingot.name`
+  - ZH: `霜生锭`
+  - EN: `Draugr Ingot`
+- `item.draugr_shield.name`
+  - ZH: `截冬盾`
+  - EN: `截冬盾`
+- `item.draugr_helmet.name`
+  - ZH: `霜生头盔`
+  - EN: `霜生 Helmet`
+- `item.draugr_chestplate.name`
+  - ZH: `霜生胸甲`
+  - EN: `霜生 Chestplate`
+- `item.great_wyrk_mana.name`
+  - ZH: `淬灭古魔法`
+  - EN: `淬灭古魔法`
+- `item.imperial_halberd_item.name`
+  - ZH: `殊荣之击`
+  - EN: `殊荣之击`
+- `item.sword_spear.name`
+  - ZH: `崇高天剑枪`
+  - EN: `崇高天 Sword枪`
+- `item.sword_spear_blood.name`
+  - ZH: `残空天剑枪`
+  - EN: `残空天 Sword枪`
+- `item.king_helmet.name`
+  - ZH: `负咒天冠`
+  - EN: `负咒天冠`
+- `item.crypt_plate.name`
+  - ZH: `邃暗金属板`
+  - EN: `Crypt Plate`
+- `item.dark_metal_helmet.name`
+  - ZH: `邃暗金属头盔`
+  - EN: `邃暗 Gold属 Helmet`
+- `item.dark_metal_chestplate.name`
+  - ZH: `邃暗金属胸甲`
+  - EN: `邃暗 Gold属 Chestplate`
+- `item.dark_metal_leggings.name`
+  - ZH: `邃暗金属护腿`
+  - EN: `邃暗 Gold属 Leggings`
+- `item.dark_metal_boots.name`
+  - ZH: `邃暗金属靴子`
+  - EN: `邃暗 Gold属 Boots`
+- `item.kopis.name`
+  - ZH: `古埃及切割者`
+  - EN: `古埃及切割者`
+- `item.gladiator_idol.name`
+  - ZH: `角斗士神像`
+  - EN: `角斗士神像`
+- `item.aegyptia_bone.name`
+  - ZH: `古埃及沙虫骨`
+  - EN: `古埃及 Sand虫 Bone`
+- `item.aegyptia_metal.name`
+  - ZH: `金沙钢碎片`
+  - EN: `Gold Sand钢 Fragment`
+- `item.aegyptia_metal_ingot.name`
+  - ZH: `金沙钢锭`
+  - EN: `Aegyptia Metal Ingot`
+- `item.sealed_tornado.name`
+  - ZH: `封禁龙卷风瓶`
+  - EN: `封禁龙卷风瓶`
+- `item.desert_storm.name`
+  - ZH: `沙漠风暴投射器`
+  - EN: `Sand漠风暴投射器`
+- `item.stalwart_summoner.name`
+  - ZH: `坚定召唤者`
+  - EN: `坚定召唤者`
+- `da.desc.draugr_shield_name`
+  - ZH: `霜生盾`
+  - EN: `霜生盾`
+- `da.desc.dragon_shield_name`
+  - ZH: `勇气天龙盾`
+  - EN: `勇气天龙盾`
+- `da.desc.flame_shield_name`
+  - ZH: `炽舌盾`
+  - EN: `炽舌盾`
+- `da.desc.dark_shield_name`
+  - ZH: `邃暗金属盾`
+  - EN: `邃暗 Gold属盾`
+- `da.desc.obsidian_shield_name`
+  - ZH: `黑曜之牢`
+  - EN: `黑曜之牢`
+- `da.desc.everator_shield_name`
+  - ZH: `永恒之护`
+  - EN: `永恒之护`
+- `item.dragon_shield.name`
+  - ZH: `龙灾之盾`
+  - EN: `龙灾之盾`
+- `item.frost_locator.name`
+  - ZH: `冰魂之星`
+  - EN: `冰 Soul之星`
+- `item.wyrk_helmet.name`
+  - ZH: `破坏者头盔`
+  - EN: `破坏者 Helmet`
+- `item.wyrk_boots.name`
+  - ZH: `破坏者靴`
+  - EN: `破坏者靴`
+- `item.wyrk_snack.name`
+  - ZH: `生者尽饥`
+  - EN: `生者尽饥`
+- `item.wyrk_staff.name`
+  - ZH: `古毁法杖`
+  - EN: `古毁 Staff`
+- `item.wyrk_totem.name`
+  - ZH: `灾元素图腾`
+  - EN: `灾元素图腾`
+- `item.sky_arrow.name`
+  - ZH: `仙踪箭`
+  - EN: `仙踪 Arrow`
+- `item.lightning_shard.name`
+  - ZH: `澄空遗产`
+  - EN: `澄空遗产`
+- `item.lightning_ingot.name`
+  - ZH: `天辉锭`
+  - EN: `Lightning Ingot`
+- `item.lightning_smithing_stone.name`
+  - ZH: `龙锻石`
+  - EN: `龙锻石`
+- `item.lightning_key.name`
+  - ZH: `高廷密钥`
+  - EN: `高廷密钥`
+- `item.light_ring.name`
+  - ZH: `碎霆之戒`
+  - EN: `碎霆之戒`
+- `item.imperial_sword_item.name`
+  - ZH: `破敌之师`
+  - EN: `破敌之师`
+- `item.divine_scroll.name`
+  - ZH: `殊荣卷轴`
+  - EN: `殊荣卷轴`
+- `item.crumble_berries.name`
+  - ZH: `裂天果`
+  - EN: `裂天果`
+- `item.light_mana.name`
+  - ZH: `至圣之术`
+  - EN: `至圣之术`
+- `item.imperial_chestplate.name`
+  - ZH: `天辉甲胄`
+  - EN: `天辉甲胄`
+- `item.imperial_helmet.name`
+  - ZH: `天辉战盔`
+  - EN: `天辉战盔`
+- `item.imperial_leggings.name`
+  - ZH: `天辉护腿`
+  - EN: `天辉 Leggings`
+- `item.imperial_boots.name`
+  - ZH: `天辉战靴`
+  - EN: `天辉战靴`
+- `item.dark_mana.name`
+  - ZH: `崇秽之术`
+  - EN: `崇秽之术`
+- `item.dark_core.name`
+  - ZH: `崇秽核心`
+  - EN: `崇秽核心`
+- `item.dark_locator.name`
+  - ZH: `崇秽之眼`
+  - EN: `崇秽之眼`
+- `item.dark_dagger.name`
+  - ZH: `拜秽短剑`
+  - EN: `拜秽短 Sword`
+- `item.storm_tornado.name`
+  - ZH: `巨风暴`
+  - EN: `巨风暴`
+- `item.dragon_scale.name`
+  - ZH: `天龙残鳞`
+  - EN: `天龙残鳞`
+- `item.divine_metal.name`
+  - ZH: `神空碎片`
+  - EN: `神空 Fragment`
+- `item.sky_locator.name`
+  - ZH: `日穹之光`
+  - EN: `日穹之光`
+- `item.sky_locator_proj.name`
+  - ZH: `耀光弹`
+  - EN: `耀光弹`
+- `item.holy_wave.name`
+  - ZH: `神圣浪潮`
+  - EN: `Divine浪潮`
+- `item.blood_ball.name`
+  - ZH: `猩红弹`
+  - EN: `猩红弹`
+- `item.king_claw.name`
+  - ZH: `崇高爪套`
+  - EN: `崇高 Claw套`
+- `item.king_aid.name`
+  - ZH: `天王呼助`
+  - EN: `天王呼助`
+- `item.dragon_bow.name`
+  - ZH: `勇者天龙弓`
+  - EN: `勇者天龙 Bow`
+- `item.flame_locator.name`
+  - ZH: `炽穹火花`
+  - EN: `炽穹火 Flower`
+- `item.incendium_core.name`
+  - ZH: `炽穹核心`
+  - EN: `炽穹核心`
+- `item.incendium_helmet.name`
+  - ZH: `炽金头盔`
+  - EN: `炽 Gold Helmet`
+- `item.incendium_leggings.name`
+  - ZH: `炽金护腿`
+  - EN: `炽 Gold Leggings`
+- `item.flame_blade.name`
+  - ZH: `灼妄想之刃`
+  - EN: `灼妄想之刃`
+- `item.sealed_flame.name`
+  - ZH: `密封燃烧瓶`
+  - EN: `密封 Burning瓶`
+- `item.volatile_orb.name`
+  - ZH: `挥发珍珠`
+  - EN: `挥发珍珠`
+- `item.proj_flame_blade.name`
+  - ZH: `焰刀射弹`
+  - EN: `焰刀射弹`
+- `item.flame_shield.name`
+  - ZH: `炽舌盾`
+  - EN: `炽舌盾`
+- `item.obsidian_shield.name`
+  - ZH: `终末盾`
+  - EN: `终末盾`
+- `item.dark_sicle.name`
+  - ZH: `邃暗金属镰刀`
+  - EN: `邃暗 Gold属镰刀`
+- `item.soul_key.name`
+  - ZH: `灵魂之钥`
+  - EN: `Soul之钥`
+- `item.beetle_shell.name`
+  - ZH: `虫几丁质`
+  - EN: `虫几丁质`
+- `item.desert_locator_projectile.name`
+  - ZH: `遗痕神庙定位器`
+  - EN: `遗痕神庙定位器`
+- `item.desert_locator.name`
+  - ZH: `荒芜饰品`
+  - EN: `荒芜饰品`
+- `item.rot_locator.name`
+  - ZH: `腐化核心`
+  - EN: `腐化核心`
+- `item.beetle_morsel.name`
+  - ZH: `生甲虫肉`
+  - EN: `生甲虫肉`
+- `item.cooked_beetle_morsel.name`
+  - ZH: `熟甲虫肉`
+  - EN: `熟甲虫肉`
+- `item.obsdian_heart.name`
+  - ZH: `黑曜之心`
+  - EN: `黑曜之心`
+- `item.obsidian_eye.name`
+  - ZH: `黑曜之眼`
+  - EN: `黑曜之眼`
+- `item.voidiant_core.name`
+  - ZH: `虚岩核心`
+  - EN: `虚岩核心`
+- `item.voidiant_catalyst.name`
+  - ZH: `虚岩催化剂`
+  - EN: `虚岩催化剂`
+- `item.voidiant_chestplate.name`
+  - ZH: `虚岩胸甲`
+  - EN: `虚岩 Chestplate`
+- `item.voidclysm_bolt.name`
+  - ZH: `湮裂箭`
+  - EN: `湮裂 Arrow`
+- `item.voidclysm_crystal.name`
+  - ZH: `裂变水晶`
+  - EN: `Fission Crystal`
+- `item.obsidian_locator.name`
+  - ZH: `虚空的呼唤`
+  - EN: `Void的呼唤`
+- `item.void_hammer.name`
+  - ZH: `虚空裂变锤`
+  - EN: `Void Fission锤`
+- `item.obsidian_helm.name`
+  - ZH: `裂灭头盔`
+  - EN: `裂灭 Helmet`
+- `item.flower_crown.name`
+  - ZH: `无尽绽放之冠`
+  - EN: `无尽绽放之冠`
+- `item.void_staff.name`
+  - ZH: `虚空撕裂法杖`
+  - EN: `Void撕裂 Staff`
+- `item.yellow_wave.name`
+  - ZH: `黄色波动弹`
+  - EN: `黄色波动弹`
+- `item.gaelon_shard.name`
+  - ZH: `傀儡碎片`
+  - EN: `Golem Fragment`
+- `item.gaelon_ingot.name`
+  - ZH: `傀儡锭`
+  - EN: `Golem Ingot`
+- `item.ghost_bolt.name`
+  - ZH: `傀儡幽灵弹`
+  - EN: `Golem幽灵弹`
+- `item.novik_plate.name`
+  - ZH: `永痕金属板`
+  - EN: `Novik Plate`
+- `item.novik_helmet.name`
+  - ZH: `永痕头盔`
+  - EN: `永痕 Helmet`
+- `item.novik_chestplate.name`
+  - ZH: `永痕战甲`
+  - EN: `永痕战甲`
+- `item.novik_leggings.name`
+  - ZH: `永痕护腿`
+  - EN: `永痕 Leggings`
+- `item.novik_boots.name`
+  - ZH: `永痕战靴`
+  - EN: `永痕战靴`
+- `item.novik_sword.name`
+  - ZH: `长生剑`
+  - EN: `长生 Sword`
+- `item.apathyr_heart.name`
+  - ZH: `永恒之心`
+  - EN: `永恒之心`
+- `item.fast_crystal.name`
+  - ZH: `迅捷幽晶`
+  - EN: `Fast Crystal`
+- `item.crystal_wave.name`
+  - ZH: `水晶波动弹`
+  - EN: `Crystal波动弹`
+- `item.golden_apathyr_heart.name`
+  - ZH: `永恒金心`
+  - EN: `永恒 Gold心`
+- `item.unbridled_soul.name`
+  - ZH: `奔放之魂`
+  - EN: `奔放之 Soul`
+- `item.apathyr_helmet.name`
+  - ZH: `阿帕瑟尔之盔`
+  - EN: `阿帕瑟尔之盔`
+- `item.call_to_arms.name`
+  - ZH: `战斗号角`
+  - EN: `战斗号角`
+- `item.apathyr_axe.name`
+  - ZH: `午夜统治`
+  - EN: `午夜统治`
+- `item.sentinel_part.name`
+  - ZH: `斥候残骸`
+  - EN: `斥候残骸`
+- `item.gaelon_locator.name`
+  - ZH: `秘之圣器`
+  - EN: `秘之圣器`
+- `item.sealed_spear_wave.name`
+  - ZH: `密封矛浪潮`
+  - EN: `密封矛浪潮`
+- `item.golem_cannon.name`
+  - ZH: `斥候加农炮`
+  - EN: `斥候加农炮`
+- `item.copper_coin.name`
+  - ZH: `商贸铜币`
+  - EN: `商贸 Copper币`
+- `item.silver_coin.name`
+  - ZH: `商贸银币`
+  - EN: `商贸 Silver币`
+- `item.golden_coin.name`
+  - ZH: `商贸金币`
+  - EN: `商贸 Gold币`
+- `item.trader_bag.name`
+  - ZH: `神秘行商袋`
+  - EN: `Mystical行商袋`
+- `item.boots_trinket.name`
+  - ZH: `疾跑者`
+  - EN: `疾跑者`
+- `item.flame_trinket.name`
+  - ZH: `烈焰之怒`
+  - EN: `烈焰之怒`
+- `item.death_trinket.name`
+  - ZH: `亡者昌盛`
+  - EN: `亡者昌盛`
+- `item.glass_cannon_trinket.name`
+  - ZH: `玻璃大炮`
+  - EN: `Glass大炮`
+- `item.crystal_trinket.name`
+  - ZH: `冰封水晶`
+  - EN: `冰封 Crystal`
+- `item.creeper_trinket.name`
+  - ZH: `爬行者意志`
+  - EN: `爬行者意志`
+- `item.shield_trinket.name`
+  - ZH: `神话坚盾`
+  - EN: `Mythical坚盾`
+- `item.diamond_shield_trinket.name`
+  - ZH: `崇高盾牌`
+  - EN: `崇高 Shield`
+- `item.charm_trinket.name`
+  - ZH: `魔能护符`
+  - EN: `魔能护符`
+- `item.weakness_trinket.name`
+  - ZH: `虚荣螺旋`
+  - EN: `虚荣螺旋`
+- `item.void_trinket.name`
+  - ZH: `虚无之用`
+  - EN: `虚无之用`
+- `item.slam_trinket.name`
+  - ZH: `寒冬猛击`
+  - EN: `寒冬猛击`
+- `item.gamble_trinket.name`
+  - ZH: `幸运碎片`
+  - EN: `幸运 Fragment`
+- `item.poison_trinket.name`
+  - ZH: `剧毒之触`
+  - EN: `剧 Poison之触`
+- `item.vampire_trinket.name`
+  - ZH: `汲血牙`
+  - EN: `汲血牙`
+- `item.heart_trinket.name`
+  - ZH: `活力之旅`
+  - EN: `活力之旅`
+- `item.wind_trinket.name`
+  - ZH: `迎灾之风`
+  - EN: `迎灾之风`
+- `item.void_hand_trinket.name`
+  - ZH: `邪教经典`
+  - EN: `邪教经典`
+- `item.confetti_trinket.name`
+  - ZH: `派对达人`
+  - EN: `派对达人`
+- `item.magic_leather.name`
+  - ZH: `注魔皮革`
+  - EN: `注魔 Leather`
+- `item.adventure_metal.name`
+  - ZH: `险途锭`
+  - EN: `险途 Ingot`
+- `item.adventure_helmet.name`
+  - ZH: `冒险者头盔`
+  - EN: `冒险者 Helmet`
+- `item.adventure_chestplate.name`
+  - ZH: `冒险者胸甲`
+  - EN: `冒险者 Chestplate`
+- `item.adventure_leggings.name`
+  - ZH: `冒险者护腿`
+  - EN: `冒险者 Leggings`
+- `item.adventure_boots.name`
+  - ZH: `冒险者靴子`
+  - EN: `冒险者 Boots`
+- `item.adventure_sword.name`
+  - ZH: `险途之剑`
+  - EN: `险途之 Sword`
+- `item.mage_helmet.name`
+  - ZH: `施法者之帽`
+  - EN: `施法者之帽`
+- `item.mage_chestplate.name`
+  - ZH: `施法者胸甲`
+  - EN: `施法者 Chestplate`
+- `item.mage_leggings.name`
+  - ZH: `施法者护腿`
+  - EN: `施法者 Leggings`
+- `item.mage_boots.name`
+  - ZH: `施法者靴子`
+  - EN: `施法者 Boots`
+- `item.mage_staff.name`
+  - ZH: `法者战斗杖`
+  - EN: `法者战斗杖`
+- `item.dungeon_bread.name`
+  - ZH: `地下城面包`
+  - EN: `地下城面包`
+- `item.desert_projectile.name`
+  - ZH: `战神投射物`
+  - EN: `战神投射物`
+- `item.warlord_crystal.name`
+  - ZH: `古结晶魔力`
+  - EN: `Warlord Crystal`
+- `item.colossus_bone.name`
+  - ZH: `远古骨头`
+  - EN: `远古 Bone`
+- `item.aegyptian_key.name`
+  - ZH: `古埃及魂钥`
+  - EN: `古埃及 Soul钥`
+- `item.golden_mark_trinket.name`
+  - ZH: `黄金印记`
+  - EN: `黄 Gold印记`
+- `item.golden_vow.name`
+  - ZH: `金誓盟约`
+  - EN: `Gold誓盟约`
+- `item.golden_devotion.name`
+  - ZH: `光辉奉献`
+  - EN: `光辉奉献`
+- `item.aegyptian_flute.name`
+  - ZH: `古埃及之笛`
+  - EN: `古埃及之笛`
+- `item.colossus_mace.name`
+  - ZH: `巨人之锤`
+  - EN: `巨人之锤`
+- `item.exalted_kopis.name`
+  - ZH: `尊荣之切`
+  - EN: `尊荣之切`
+- `item.sigil_trinket.name`
+  - ZH: `黄金仪式`
+  - EN: `黄 Gold仪式`
+- `item.warlord_helmet.name`
+  - ZH: `上古战神头盔`
+  - EN: `上古战神 Helmet`
+- `item.colossus_chestplate.name`
+  - ZH: `上古巨人胸甲`
+  - EN: `上古巨人 Chestplate`
+- `item.poison_garnish.name`
+  - ZH: `涂毒药剂`
+  - EN: `涂 Poison药剂`
+- `item.fiery_respite.name`
+  - ZH: `火焰佳酿`
+  - EN: `Flame佳酿`
+- `item.magic_boost_trinket.name`
+  - ZH: `魔法水库`
+  - EN: `魔法水库`
+- `item.arrow_trinket.name`
+  - ZH: `染血之箭`
+  - EN: `染血之 Arrow`
+- `tile.spore_blossom.name`
+  - ZH: `虚空杜鹃花`
+  - EN: `Void杜鹃 Flower`
+- `tile.moss_block.name`
+  - ZH: `苔藓块`
+  - EN: `Moss Block`
+- `tile.moss_carpet.name`
+  - ZH: `苔藓地衣`
+  - EN: `苔藓地衣`
+- `tile.mossy_spruce.name`
+  - ZH: `覆藓云杉木板`
+  - EN: `覆藓云杉 Planks`
+- `tile.strong_block.name`
+  - ZH: `生花方块`
+  - EN: `Strong Block`
+- `tile.az_fence.name`
+  - ZH: `藤蔓墙`
+  - EN: `藤蔓墙`
+- `tile.cave_spawner.name`
+  - ZH: `生成器`
+  - EN: `Generate器`
+- `tile.aza_vines.name`
+  - ZH: `杜鹃藤蔓`
+  - EN: `杜鹃藤蔓`
+- `tile.aza_vines_berries.name`
+  - ZH: `浆果藤蔓`
+  - EN: `浆果藤蔓`
+- `tile.mega_structure.name`
+  - ZH: `超结构块`
+  - EN: `超结构 Block`
+- `tile.azaela_leaf.name`
+  - ZH: `藤叶`
+  - EN: `藤叶`
+- `tile.fire_stone.name`
+  - ZH: `炽热石砖`
+  - EN: `炽热 Stone Bricks`
+- `tile.fire_stone_lit.name`
+  - ZH: `炽热镶宝砖`
+  - EN: `炽热镶宝 Brick`
+- `tile.fire_stone_stairs.name`
+  - ZH: `炽热石砖楼梯`
+  - EN: `炽热 Stone Bricks Stairs`
+- `tile.fire_stone_wall.name`
+  - ZH: `炽热石砖围墙`
+  - EN: `炽热 Stone Bricks围墙`
+- `tile.fire_stone_half.name`
+  - ZH: `炽热石砖台阶`
+  - EN: `炽热 Stone Bricks Slab`
+- `tile.fire_stone_double.name`
+  - ZH: `炽热石砖台阶块`
+  - EN: `炽热 Stone Bricks Slab Block`
+- `tile.change_block.name`
+  - ZH: `绯红灵门`
+  - EN: `Change Block`
+- `tile.knight_stone.name`
+  - ZH: `风暴装饰块`
+  - EN: `风暴装饰 Block`
+- `tile.knight_key_block.name`
+  - ZH: `腐朽钥匙块`
+  - EN: `Knight Key Block`
+- `tile.moss_spawner.name`
+  - ZH: `秘苔藓块`
+  - EN: `秘苔藓 Block`
+- `tile.gloom_stone.name`
+  - ZH: `幽暗圆石`
+  - EN: `幽暗圆石`
+- `tile.gloom_brick.name`
+  - ZH: `幽暗石砖`
+  - EN: `幽暗 Stone Bricks`
+- `tile.gloom_smooth.name`
+  - ZH: `平滑幽暗石砖`
+  - EN: `平滑幽暗 Stone Bricks`
+- `tile.gloom_carved.name`
+  - ZH: `幽暗雕花石砖`
+  - EN: `幽暗雕 Flower Stone Bricks`
+- `tile.gloom_pillar.name`
+  - ZH: `幽暗支柱`
+  - EN: `幽暗支柱`
+- `tile.gloom_rough.name`
+  - ZH: `粗糙幽暗石`
+  - EN: `粗糙幽暗石`
+- `tile.gloom_triangle.name`
+  - ZH: `暗雕花三角砖`
+  - EN: `暗雕 Flower三角 Brick`
+- `tile.gloom_stone_stairs.name`
+  - ZH: `幽暗圆石楼梯`
+  - EN: `幽暗圆石 Stairs`
+- `tile.gloom_smooth_stairs.name`
+  - ZH: `幽暗平滑石砖楼梯`
+  - EN: `幽暗平滑 Stone Bricks Stairs`
+- `tile.gloom_brick_stairs.name`
+  - ZH: `幽暗石砖楼梯`
+  - EN: `幽暗 Stone Bricks Stairs`
+- `tile.gloom_stone_half.name`
+  - ZH: `幽暗圆石台阶`
+  - EN: `幽暗圆石 Slab`
+- `tile.gloom_stone_double.name`
+  - ZH: `幽暗圆石双层台阶`
+  - EN: `幽暗圆石双层 Slab`
+- `tile.gloom_smooth_half.name`
+  - ZH: `幽暗台阶`
+  - EN: `幽暗 Slab`
+- `tile.gloom_smooth_double.name`
+  - ZH: `幽暗双层台阶`
+  - EN: `幽暗双层 Slab`
+- `tile.gloom_brick_half.name`
+  - ZH: `幽暗砖台阶`
+  - EN: `幽暗 Brick Slab`
+- `tile.gloom_brick_double.name`
+  - ZH: `幽暗双层砖台阶`
+  - EN: `幽暗双层 Brick Slab`
+- `tile.gloom_stone_wall.name`
+  - ZH: `幽暗圆石墙`
+  - EN: `幽暗圆石墙`
+- `tile.gloom_smooth_wall.name`
+  - ZH: `幽暗平滑石墙`
+  - EN: `幽暗平滑石墙`
+- `tile.gloom_brick_wall.name`
+  - ZH: `幽暗石砖墙`
+  - EN: `幽暗 Stone Bricks墙`
+- `tile.soul_star_block.name`
+  - ZH: `灵魂祭坛`
+  - EN: `Soul Star Block`
+- `tile.void_lily.name`
+  - ZH: `虚空百合`
+  - EN: `Void百合`
+- `tile.levitation_block.name`
+  - ZH: `升腾祭坛`
+  - EN: `Levitation Block`
+- `tile.cold_stone.name`
+  - ZH: `寒霜岩`
+  - EN: `寒霜岩`
+- `tile.cold_brick.name`
+  - ZH: `寒霜岩砖`
+  - EN: `寒霜岩 Brick`
+- `tile.cold_smooth.name`
+  - ZH: `平滑寒霜岩`
+  - EN: `平滑寒霜岩`
+- `tile.cold_carved.name`
+  - ZH: `錾制寒霜岩`
+  - EN: `錾制寒霜岩`
+- `tile.cold_rough.name`
+  - ZH: `寒霜石`
+  - EN: `寒霜石`
+- `tile.cold_pillar.name`
+  - ZH: `寒霜石柱`
+  - EN: `寒霜石柱`
+- `tile.cold_triangle.name`
+  - ZH: `寒霜雕纹石柱`
+  - EN: `寒霜雕纹石柱`
+- `tile.snow_cold_brick.name`
+  - ZH: `冰雪寒霜石砖`
+  - EN: `冰雪寒霜 Stone Bricks`
+- `tile.cold_brick_stairs.name`
+  - ZH: `寒霜石砖楼梯`
+  - EN: `寒霜 Stone Bricks Stairs`
+- `tile.cold_stone_stairs.name`
+  - ZH: `寒霜岩楼梯`
+  - EN: `寒霜岩 Stairs`
+- `tile.cold_smooth_stairs.name`
+  - ZH: `平滑寒霜岩楼梯`
+  - EN: `平滑寒霜岩 Stairs`
+- `tile.cold_stone_half.name`
+  - ZH: `寒霜岩半砖`
+  - EN: `寒霜岩半 Brick`
+- `tile.cold_stone_double.name`
+  - ZH: `双寒霜岩半砖`
+  - EN: `双寒霜岩半 Brick`
+- `tile.cold_smooth_half.name`
+  - ZH: `平滑寒霜岩台阶`
+  - EN: `平滑寒霜岩 Slab`
+- `tile.cold_smooth_double.name`
+  - ZH: `双平滑寒霜岩台阶`
+  - EN: `双平滑寒霜岩 Slab`
+- `tile.cold_brick_half.name`
+  - ZH: `寒霜砖半砖`
+  - EN: `寒霜 Brick半 Brick`
+- `tile.cold_brick_double.name`
+  - ZH: `双寒霜砖半砖`
+  - EN: `双寒霜 Brick半 Brick`
+- `tile.cold_stone_wall.name`
+  - ZH: `寒霜岩墙`
+  - EN: `寒霜岩墙`
+- `tile.cold_smooth_wall.name`
+  - ZH: `平滑寒霜墙`
+  - EN: `平滑寒霜墙`
+- `tile.cold_brick_wall.name`
+  - ZH: `寒霜砖墙`
+  - EN: `寒霜 Brick墙`
+- `tile.frost_icicle.name`
+  - ZH: `冰霜柱`
+  - EN: `Frost柱`
+- `tile.frost_key_block.name`
+  - ZH: `凛冬钥匙块`
+  - EN: `Frost Key Block`
+- `tile.city_brick.name`
+  - ZH: `高廷石砖`
+  - EN: `高廷 Stone Bricks`
+- `tile.city_brick_alt.name`
+  - ZH: `高廷地砖`
+  - EN: `高廷地 Brick`
+- `tile.city_decoration.name`
+  - ZH: `錾制高廷砖`
+  - EN: `錾制高廷 Brick`
+- `tile.city_pillar.name`
+  - ZH: `高廷柱`
+  - EN: `高廷柱`
+- `tile.city_pillar_chisled.name`
+  - ZH: `雕纹高廷柱`
+  - EN: `雕纹高廷柱`
+- `tile.city_smooth.name`
+  - ZH: `磨制高廷石`
+  - EN: `磨制高廷石`
+- `tile.city_tile.name`
+  - ZH: `高廷瓷砖`
+  - EN: `高廷瓷 Brick`
+- `tile.city_chisled.name`
+  - ZH: `雕纹高廷砖`
+  - EN: `雕纹高廷 Brick`
+- `tile.city_brick_stairs.name`
+  - ZH: `高廷砖楼梯`
+  - EN: `高廷 Brick Stairs`
+- `tile.city_brick_stairs_alt.name`
+  - ZH: `高廷地砖楼梯`
+  - EN: `高廷地 Brick Stairs`
+- `tile.city_tile_stairs.name`
+  - ZH: `高廷瓷砖楼梯`
+  - EN: `高廷瓷 Brick Stairs`
+- `tile.city_brick_half.name`
+  - ZH: `高廷砖台阶`
+  - EN: `高廷 Brick Slab`
+- `tile.city_brick_double.name`
+  - ZH: `双高廷砖台阶`
+  - EN: `双高廷 Brick Slab`
+- `tile.city_brick_alt_half.name`
+  - ZH: `高廷地砖台阶`
+  - EN: `高廷地 Brick Slab`
+- `tile.city_brick_alt_double.name`
+  - ZH: `双高廷地砖台阶`
+  - EN: `双高廷地 Brick Slab`
+- `tile.city_tile_half.name`
+  - ZH: `高廷瓷砖台阶`
+  - EN: `高廷瓷 Brick Slab`
+- `tile.city_tile_double.name`
+  - ZH: `双高廷瓷砖台阶`
+  - EN: `双高廷瓷 Brick Slab`
+- `tile.city_brick_wall_alt.name`
+  - ZH: `高廷地砖墙`
+  - EN: `高廷地 Brick墙`
+- `tile.city_brick_wall.name`
+  - ZH: `高廷砖墙`
+  - EN: `高廷 Brick墙`
+- `tile.city_tile_wall.name`
+  - ZH: `高廷瓷砖墙`
+  - EN: `高廷瓷 Brick墙`
+- `tile.city_smooth_wall.name`
+  - ZH: `磨制高廷石墙`
+  - EN: `磨制高廷石墙`
+- `tile.gold_city_brick.name`
+  - ZH: `烫金高廷砖`
+  - EN: `烫 Gold高廷 Brick`
+- `tile.gold_city_brick_stairs.name`
+  - ZH: `烫金高廷砖楼梯`
+  - EN: `烫 Gold高廷 Brick Stairs`
+- `tile.gold_city_brick_half.name`
+  - ZH: `烫金高廷砖台阶`
+  - EN: `烫 Gold高廷 Brick Slab`
+- `tile.gold_city_brick_double.name`
+  - ZH: `烫金双高廷砖台阶`
+  - EN: `烫 Gold双高廷 Brick Slab`
+- `tile.gold_city_brick_wall.name`
+  - ZH: `烫金高廷砖墙`
+  - EN: `烫 Gold高廷 Brick墙`
+- `tile.farum_rope.name`
+  - ZH: `通天绳`
+  - EN: `通天绳`
+- `tile.farum_lantern.name`
+  - ZH: `高廷灯笼`
+  - EN: `高廷灯笼`
+- `tile.high_spawner.name`
+  - ZH: `天穹感召台`
+  - EN: `天穹感召台`
+- `tile.sky_key_block.name`
+  - ZH: `高廷钥匙块`
+  - EN: `Sky Key Block`
+- `tile.chisled_fire_stone.name`
+  - ZH: `炽穹雕纹砖`
+  - EN: `炽穹雕纹 Brick`
+- `tile.farum_stone.name`
+  - ZH: `高廷石`
+  - EN: `高廷石`
+- `tile.grum_brick.name`
+  - ZH: `浑浊砖块`
+  - EN: `浑浊 Bricks`
+- `tile.grum_tile.name`
+  - ZH: `浑浊瓷砖`
+  - EN: `浑浊瓷 Brick`
+- `tile.grum_stone.name`
+  - ZH: `浑浊石`
+  - EN: `浑浊石`
+- `tile.grum_pillar.name`
+  - ZH: `浑浊柱`
+  - EN: `浑浊柱`
+- `tile.grum_chisled.name`
+  - ZH: `雕纹浑浊石`
+  - EN: `雕纹浑浊石`
+- `tile.grum_chisled_tile.name`
+  - ZH: `雕纹浑浊瓷砖`
+  - EN: `雕纹浑浊瓷 Brick`
+- `tile.grum_smooth.name`
+  - ZH: `平滑浑浊石`
+  - EN: `平滑浑浊石`
+- `tile.grum_brick_stairs.name`
+  - ZH: `浑浊砖楼梯`
+  - EN: `浑浊 Brick Stairs`
+- `tile.grum_brick_half.name`
+  - ZH: `浑浊砖台阶`
+  - EN: `浑浊 Brick Slab`
+- `tile.grum_brick_double.name`
+  - ZH: `双层浑浊砖台阶`
+  - EN: `双层浑浊 Brick Slab`
+- `tile.grum_brick_wall.name`
+  - ZH: `浑浊砖墙`
+  - EN: `浑浊 Brick墙`
+- `tile.puzzle_mirror.name`
+  - ZH: `浊光仪式透镜`
+  - EN: `浊光仪式透镜`
+- `tile.grum_displacer.name`
+  - ZH: `浊光位移透镜`
+  - EN: `浊光位移透镜`
+- `tile.grum_dispenser.name`
+  - ZH: `浑浊燃料发射器`
+  - EN: `浑浊 Fuel Dispenser`
+- `tile.grum_blocker.name`
+  - ZH: `浑浊封印眼罐`
+  - EN: `浑浊封印眼罐`
+- `tile.grum_tile_r.name`
+  - ZH: `浑浊密封砖`
+  - EN: `浑浊密封 Brick`
+- `tile.temple_spawner.name`
+  - ZH: `遗忘神庙消失刷怪笼`
+  - EN: `遗忘神庙消失刷怪笼`
+- `tile.boss_resummon.name`
+  - ZH: `魂灵祭坛`
+  - EN: `Soul灵祭坛`
+- `tile.dark_brick.name`
+  - ZH: `暗光石砖`
+  - EN: `暗光 Stone Bricks`
+- `tile.obsidilith_rune.name`
+  - ZH: `黑曜基柱符文`
+  - EN: `黑曜基柱 Rune`
+- `tile.fake_obsidian.name`
+  - ZH: `黑曜基柱符文点`
+  - EN: `黑曜基柱 Rune点`
+- `tile.obsidian_end_frame.name`
+  - ZH: `黑曜末地框架`
+  - EN: `黑曜 The End框架`
+- `tile.end_spawner.name`
+  - ZH: `末地刷怪笼`
+  - EN: `The End刷怪笼`
+- `tile.dungeon_brick.name`
+  - ZH: `地牢石砖`
+  - EN: `地牢 Stone Bricks`
+- `tile.mossy_dungeon_brick.name`
+  - ZH: `苔石地牢石砖`
+  - EN: `苔石地牢 Stone Bricks`
+- `tile.dungeon_brick_half.name`
+  - ZH: `地牢石砖台阶`
+  - EN: `地牢 Stone Bricks Slab`
+- `tile.dungeon_brick_double.name`
+  - ZH: `双地牢石砖台阶`
+  - EN: `双地牢 Stone Bricks Slab`
+- `tile.dungeon_brick_stairs.name`
+  - ZH: `地牢石砖楼梯`
+  - EN: `地牢 Stone Bricks Stairs`
+- `tile.dungeon_brick_wall.name`
+  - ZH: `地牢石砖墙`
+  - EN: `地牢 Stone Bricks墙`
+- `tile.cold_brick_lamp.name`
+  - ZH: `寒霜辉光灯`
+  - EN: `寒霜辉光灯`
+- `tile.darkglow_bricks.name`
+  - ZH: `暗辉砖块`
+  - EN: `暗辉 Bricks`
+- `tile.darkglow_decoration_bricks.name`
+  - ZH: `暗辉装饰砖`
+  - EN: `暗辉装饰 Brick`
+- `tile.darkglow_stonebricks.name`
+  - ZH: `暗辉石砖`
+  - EN: `暗辉 Stone Bricks`
+- `tile.darkglow_tile.name`
+  - ZH: `暗辉石瓦`
+  - EN: `暗辉石瓦`
+- `tile.darkglow_pillar.name`
+  - ZH: `暗辉柱`
+  - EN: `暗辉柱`
+- `tile.darkglow_stonebrick_stairs.name`
+  - ZH: `暗辉石砖楼梯`
+  - EN: `暗辉 Stone Bricks Stairs`
+- `tile.darkglow_brick_stairs.name`
+  - ZH: `暗辉砖楼梯`
+  - EN: `暗辉 Brick Stairs`
+- `tile.darkglow_stonebrick_double.name`
+  - ZH: `双暗辉石砖台阶`
+  - EN: `双暗辉 Stone Bricks Slab`
+- `tile.darkglow_stonebrick_half.name`
+  - ZH: `暗辉石砖台阶`
+  - EN: `暗辉 Stone Bricks Slab`
+- `tile.darkglow_brick_double.name`
+  - ZH: `双层暗辉砖台阶`
+  - EN: `双层暗辉 Brick Slab`
+- `tile.darkglow_brick_half.name`
+  - ZH: `暗辉砖台阶`
+  - EN: `暗辉 Brick Slab`
+- `tile.darkglow_stonebrick_wall.name`
+  - ZH: `暗辉石砖墙`
+  - EN: `暗辉 Stone Bricks墙`
+- `tile.darkglow_brick_wall.name`
+  - ZH: `暗辉砖墙`
+  - EN: `暗辉 Brick墙`
+- `tile.darkglow_bars.name`
+  - ZH: `暗辉栏杆`
+  - EN: `暗辉栏杆`
+- `tile.darkglow_lit_decoration_bricks.name`
+  - ZH: `微光暗辉雕纹砖`
+  - EN: `微光暗辉雕纹 Brick`
+- `tile.darkglow_lit_bricks.name`
+  - ZH: `微光暗辉砖`
+  - EN: `微光暗辉 Brick`
+- `tile.gaelon_crystal.name`
+  - ZH: `傀儡水晶`
+  - EN: `Golem Crystal`
+- `tile.gaelon_chunk.name`
+  - ZH: `傀儡矿簇`
+  - EN: `Golem矿簇`
+- `tile.darkglow_pillar_lit.name`
+  - ZH: `暗辉光柱`
+  - EN: `暗辉光柱`
+- `tile.darkglow_pillar_eye.name`
+  - ZH: `暗辉近卫之眼`
+  - EN: `暗辉近卫之眼`
+- `tile.alfera_planks.name`
+  - ZH: `阿尔费拉木板`
+  - EN: `阿尔费拉 Planks`
+- `tile.alfera_planks_rod.name`
+  - ZH: `加固阿尔费拉木板`
+  - EN: `加固阿尔费拉 Planks`
+- `tile.alfera_crate.name`
+  - ZH: `阿尔费拉板条箱`
+  - EN: `阿尔费拉 Plate条箱`
+- `tile.stormvier_block.name`
+  - ZH: `悉风块`
+  - EN: `Stormvier Block`
+- `tile.frostborn_block.name`
+  - ZH: `霜生块`
+  - EN: `Frostborn Block`
+- `tile.adventure_block.name`
+  - ZH: `险途块`
+  - EN: `Adventure Block`
+- `tile.crypt_block.name`
+  - ZH: `邃暗金属板块`
+  - EN: `Crypt Block`
+- `tile.novik_block.name`
+  - ZH: `永痕金属板块`
+  - EN: `Novik Block`
+- `tile.litic_block.name`
+  - ZH: `天辉块`
+  - EN: `Litic Block`
+- `tile.aegyptia_block.name`
+  - ZH: `金沙钢块`
+  - EN: `Aegyptia Block`
+- `tile.gaelon_spawner.name`
+  - ZH: `遗痕圣所刷怪笼`
+  - EN: `遗痕圣所刷怪笼`
+- `tile.aegyptian_spawner.name`
+  - ZH: `往昔之颅`
+  - EN: `往昔之颅`
+- `itemGroup.dungeon_additions`
+  - ZH: `祸乱鬼魅`
+  - EN: `祸乱鬼魅`
+- `itemGroup.dungeon_additions_blocks`
+  - ZH: `祸乱鬼魅-方块`
+  - EN: `祸乱鬼魅-Block`
+- `da.lich_spawn.soul_star`
+  - ZH: `也许是星星形状的东西？`
+  - EN: `也许是星星形状的东西？`
+- `da.lich_wrong_time`
+  - ZH: `必须让太阳先落山`
+  - EN: `必须让太阳先落山`
+- `da.within_bounds`
+  - ZH: `您正在目标结构范围内，定位器已重置`
+  - EN: `您正在目标结构 Range内，定位器已重置`
+- `da.friend_wyrk`
+  - ZH: `已有一个友方的破坏者受你调令！`
+  - EN: `已有一个友方的破坏者受你调令！`
+- `da.friend_halberd`
+  - ZH: `已有一个友方的锋戟受你调令！`
+  - EN: `已有一个友方的锋戟受你调令！`
+- `da.sky_arrow_fail`
+  - ZH: `没有瞄准，射击失败！`
+  - EN: `没有瞄准，射击失败！`
+- `da.volatile_orb`
+  - ZH: `火候未满，附近仍有残余的火元素`
+  - EN: `火候未满，附近仍有残余的火元素`
+- `da.no_structure`
+  - ZH: `搜索半径内无目标结构`
+  - EN: `搜索半径内无目标结构`
+- `da.required_advancement`
+  - ZH: `你尚未击败此首领，无法重新召唤`
+  - EN: `你尚未 Defeat此首领，无法重新召唤`
+- `da.solo_mode`
+  - ZH: `你必须孤身一人……`
+  - EN: `你必须孤身一人……`
+- `da.other_players`
+  - ZH: `仪式无法进行，因为附近有其他玩家……`
+  - EN: `仪式无法进行，因为附近有其他玩家……`
+- `da.heart_required`
+  - ZH: `需要心脏`
+  - EN: `需要心脏`
+- `description.dungeon_additions.scaled_weapon.name`
+  - ZH: `附魔属性随武器能力而变化`
+  - EN: `附魔属性随 Weapon能力而变化`
+- `description.dungeon_additions.trinket_item.name`
+  - ZH: `效果在物品栏任意位置均生效`
+  - EN: `效果在 Item栏任意位置均生效`
+- `description.dungeon_additions.shield_pre.name`
+  - ZH: `格挡时，按 -> 键可使用能力`
+  - EN: `格挡时，按 -> 键可 Use能力`
+- `potion.da.hunters_mark`
+  - ZH: `猎手印记`
+  - EN: `Hunter印记`
+- `potion.da.golden_vow`
+  - ZH: `金誓盟约`
+  - EN: `Gold誓盟约`
+- `potion.da.golden_devotion`
+  - ZH: `黄金虔诚`
+  - EN: `黄 Gold虔诚`
+- `key.categories.da`
+  - ZH: `无形地下城扩展`
+  - EN: `无形地下城扩展`
+- `key.da.shield_ability`
+  - ZH: `能力动作`
+  - EN: `能力动作`
+- `effect.da.hunters_mark`
+  - ZH: `猎手印记`
+  - EN: `Hunter印记`
+- `effect.da.golden_vow`
+  - ZH: `金誓盟约`
+  - EN: `Gold誓盟约`
+- `effect.da.golden_devotion`
+  - ZH: `黄金虔诚`
+  - EN: `黄 Gold虔诚`
+- `effect.da.poison_garnish`
+  - ZH: `毒药涂层`
+  - EN: `Poison药涂层`
+- `effect.da.fiery_respite`
+  - ZH: `火焰喘息`
+  - EN: `Flame喘息`
+- `effect.da.golden_devotion.0.desc`
+  - ZH: `大幅提升最大生命值，并增强防御能力`
+  - EN: `大幅 Enhance最大 Life值，并增强 Defense能力`
+- `effect.da.golden_vow.0.desc`
+  - ZH: `提升移动速度，免疫跌落伤害，并在使用时增加攻击伤害`
+  - EN: `Enhance移动 Speed，Immunity跌落 Damage，并在 Use时 Increase攻击 Damage`
+- `effect.da.hunters_mark.0.desc`
+  - ZH: `带有此效果时，受到的所有来源伤害都将增加`
+  - EN: `带有此效果时，受到的所有来源 Damage都将 Increase`
+- `effect.da.poison_garnish.0.desc`
+  - ZH: `使被你击中的敌人长时间中毒，并对已中毒的目标造成额外伤害，但自身受到的伤害也会增加`
+  - EN: `使被你击中的敌人长时间中 Poison，并对已中 Poison的目标造成额外 Damage，但自身受到的 Damage也会 Increase`
+- `effect.da.fiery_respite.0.desc`
+  - ZH: `减少攻击冷却时间，并使敌人着火`
+  - EN: `Decrease攻击 Cooling时间，并使敌人着火`
+- `potion.effect.potionHuntersMark`
+  - ZH: `猎手印记药水`
+  - EN: `Hunter印记 Potion`
+- `splash_potion.effect.potionHuntersMark`
+  - ZH: `喷溅型猎手印记药水`
+  - EN: `喷溅型 Hunter印记 Potion`
+- `lingering_potion.effect.potionHuntersMark`
+  - ZH: `滞留型猎手印记药水`
+  - EN: `滞留型 Hunter印记 Potion`
+- `tipped_arrow.effect.potionHuntersMark`
+  - ZH: `猎手印记之箭`
+  - EN: `Hunter印记之 Arrow`
+- `da.desc.regen_fruit`
+  - ZH: `提供短暂的生命恢复和抗性提升`
+  - EN: `提供短暂的 Life恢复和 Resistance Enhance`
+- `da.desc.crafting_material`
+  - ZH: `材料`
+  - EN: `材料`
+- `da.desc.dagger_desc`
+  - ZH: `右键发射荆棘攻击`
+  - EN: `右键发射荆棘攻击`
+- `da.desc.pearl_desc`
+  - ZH: `可重复使用，并在传送后给予短暂的抗性提升`
+  - EN: `可重复 Use，并在传送后给予短暂的 Resistance Enhance`
+- `da.desc.flame_of_ambition`
+  - ZH: `用于照亮炼狱地牢中漂浮的方尖碑来召唤焚狱骑士`
+  - EN: `用于照亮炼狱地牢中漂浮的方尖碑来召唤焚狱骑士`
+- `da.desc.flame_meat`
+  - ZH: `进食时提供 2 分钟的抗火`
+  - EN: `进食时提供 2 分钟的抗火`
+- `da.desc.flame_sword`
+  - ZH: `愿它点燃你前进的光火！此剑抗火.右键触发范围攻击`
+  - EN: `愿它点燃你前进的光火！此 Sword抗火.右键触发 Range攻击`
+- `da.desc.flame_armor_desc`
+  - ZH: `全套提供 抗火 1，你现在配得上枭雄大剑！`
+  - EN: `全套提供 抗火 1，你现在配得上枭雄大 Sword！`
+- `da.desc.fire_stone_desc`
+  - ZH: `破坏它会掉落些小玩意`
+  - EN: `破坏它会掉落些小玩意`
+- `da.desc.rot_knight_key`
+  - ZH: `用于解锁腐朽结构的钥匙块`
+  - EN: `用于解锁腐朽结构的钥匙 Block`
+- `da.desc.rapier_desc`
+  - ZH: `制作精良，更快且比铁更好`
+  - EN: `Craft精良，更快且比 Iron更好`
+- `da.desc.soul_star_desc`
+  - ZH: `它通向何方？`
+  - EN: `它通向何方？`
+- `da.desc.void_lily_desc`
+  - ZH: `花粉指何处？`
+  - EN: `Pollen指何处？`
+- `da.desc.soul_spear_desc`
+  - ZH: `右键发射魔导弹/Shift + 右键发射彗星`
+  - EN: `右键发射魔导弹/Shift + 右键发射彗星`
+- `da.desc.soul_weapon_desc`
+  - ZH: `右键发射特殊魔导弹/Shift + 右键发射范围伤害`
+  - EN: `右键发射特殊魔导弹/Shift + 右键发射 Range Damage`
+- `da.desc.night_lich_desc`
+  - ZH: `提供对毒药的抗性并大大提高无魂之矛技能的伤害`
+  - EN: `提供对 Poison药的 Resistance并大大提高无 Soul之矛 Skill的 Damage`
+- `da.desc.levitation_block_desc`
+  - ZH: `如果附近生物没有中效果，则给附近的生物漂浮，当中效果时则给玩家这个效果`
+  - EN: `如果附近生物没有中效果，则给附近的生物漂浮，当中效果时则给玩家这个效果`
+- `da.desc.dungeon_frost_key_desc`
+  - ZH: `用于凛冬城堡的巨型房间内`
+  - EN: `用于凛冬城堡的巨型房间内`
+- `da.desc.champion_axe_desc`
+  - ZH: `你的生命值越低，伤害就越高。跳劈暴击会抵消此效果`
+  - EN: `你的 Life值越低，Damage就越高。跳劈暴击会抵消此效果`
+- `da.desc.draugr_sword_desc`
+  - ZH: `攻击造成减速效果`
+  - EN: `攻击造成减速效果`
+- `da.desc.draugr_shield_desc`
+  - ZH: `格挡会为盾牌充能，充能5次后可以发动冲撞`
+  - EN: `格挡会为 Shield Charge，Charge5次后可以发动冲撞`
+- `da.desc.everator_shield_desc`
+  - ZH: `格挡会为盾牌充能，至少充能3次后可以释放波形攻击`
+  - EN: `格挡会为 Shield Charge，至少 Charge3次后可以释放波形攻击`
+- `da.desc.dragon_shield_desc`
+  - ZH: `在副手时提供生命值加成`
+  - EN: `在副手时提供 Life值加成`
+- `da.desc.draugr_armor_desc`
+  - ZH: `全套允许在受伤时有几率获得力量效果。你的生命值越低，几率就越高`
+  - EN: `全套允许在受伤时有几率 Obtain Strength效果。你的 Life值越低，几率就越高`
+- `da.desc.wyrk_helmet_desc`
+  - ZH: `提供对减速的抗性。全套让你生命值越低，就越有可能获得再生效果`
+  - EN: `提供对减速的 Resistance。全套让你 Life值越低，就越有可能 Obtain再生效果`
+- `da.desc.wyrk_boots_desc`
+  - ZH: `在冰上时提供速度。全套让你生命值越低，就越有可能获得再生效果`
+  - EN: `在冰上时提供 Speed。全套让你 Life值越低，就越有可能 Obtain再生效果`
+- `da.desc.frost_locator_desc`
+  - ZH: `天寒依你，指去某处`
+  - EN: `天寒依你，指去某处`
+- `da.desc.wyrk_snack_desc`
+  - ZH: `不消耗食物而消耗耐久度`
+  - EN: `不 Consume食物而 Consume耐久度`
+- `da.desc.wyrk_staff_desc`
+  - ZH: `潜行并按住右键将充能激光，根据充能时间增加伤害`
+  - EN: `潜行并按住右键将 Charge激光，根据 Charge时间 Increase Damage`
+- `da.desc.wyrk_totem_desc`
+  - ZH: `右键召唤一个友好的破坏者跟随你`
+  - EN: `右键召唤一个友好的破坏者跟随你`
+- `da.desc.snow_cold_brick_desc`
+  - ZH: `若有冰块置其上，其下冰柱亦可生`
+  - EN: `若有冰 Block置其上，其下冰柱亦可生`
+- `da.desc.sky_arrow_desc`
+  - ZH: `若可瞄准来犯敌，此箭担保无空矢`
+  - EN: `若可瞄准来犯敌，此 Arrow担保无空矢`
+- `da.desc.imperial_halberd_desc`
+  - ZH: `右键召唤来自天穹的雷霆之击`
+  - EN: `右键召唤来自天穹的雷霆之击`
+- `da.desc.lighting_key_desc`
+  - ZH: `你将召唤统治天空的英雄`
+  - EN: `你将召唤统治天空的英雄`
+- `da.desc.lightning_stone_desc`
+  - ZH: `在铁砧上升级任何本模组内的武器（祸乱鬼魅）`
+  - EN: `在 Anvil上 Upgrade任何本模组内的 Weapon（祸乱鬼魅）`
+- `da.desc.imperial_sword_desc`
+  - ZH: `右键以招架敌人的攻击，成功则抵消这次攻击并反伤，失败则自身会受到 “虚弱II”`
+  - EN: `右键以招架敌人的攻击，成功则抵消这次攻击并反伤，失败则自身会受到 “虚弱II”`
+- `da.desc.crumble_berries_desc`
+  - ZH: `给予自身 “伤害吸收” 1分钟和 “速度提升” 30秒`
+  - EN: `给予自身 “Damage吸收” 1分钟和 “Speed Enhance” 30秒`
+- `da.desc.imperial_armor_desc`
+  - ZH: `全套允许对攻击你的实体召唤雷霆之击并给予自身“伤害吸收”Buff 30秒。自身生命值越低越可能触发`
+  - EN: `全套允许对攻击你的实体召唤雷霆之击并给予自身“Damage吸收”Buff 30秒。自身 Life值越低越可能触发`
+- `da.desc.imperial_helmet_desc`
+  - ZH: `提供虚弱抗性。全套允许对攻击你的实体召唤雷霆之击并给予自身“伤害吸收”Buff 30秒。自身生命值越低越可能触发`
+  - EN: `提供虚弱 Resistance。全套允许对攻击你的实体召唤雷霆之击并给予自身“Damage吸收”Buff 30秒。自身 Life值越低越可能触发`
+- `da.desc.dark_dagger_desc`
+  - ZH: `右键以让自己“后撤”，向后闪避并重置摔落距离`
+  - EN: `右键以让自己“后撤”，向后闪避并重置摔落距离`
+- `da.desc.sky_locator_desc`
+  - ZH: `请随日穹之光的指引......`
+  - EN: `请随日穹之光的指引......`
+- `da.desc.sword_spear_desc`
+  - ZH: `右键向前方发射碎日光轮切割敌人/Shift+右键使用“天穹之击”，使自身短暂悬空，然后快速落地以自身为中心召唤碎空锥刺攻击`
+  - EN: `右键向前方发射碎日光轮切割敌人/Shift+右键 Use“天穹之击”，使自身短暂悬空，然后快速落地以自身为中心召唤碎空锥刺攻击`
+- `da.desc.sword_spear_blood_desc`
+  - ZH: `右键向前发射三枚填空之腥攻击敌人/Shift+鼠标右键使用“穿云之血”，蓄力后向前快速突刺，之后在路径上召唤负咒血锥攻击敌人`
+  - EN: `右键向前发射三枚填空之腥攻击敌人/Shift+鼠标右键 Use“穿云之血”，蓄力后向前快速突刺，之后在路径上召唤负咒血锥攻击敌人`
+- `da.desc.king_helmet_desc`
+  - ZH: `免疫 “凋零” 和 “挖掘疲劳” ，但赋予自身 “失明” 。还能提高“崇高天剑枪”和“残空天剑枪”的伤害。`
+  - EN: `Immunity “凋零” 和 “挖掘疲劳” ，但赋予自身 “失明” 。还能提高“崇高天 Sword枪”和“残空天 Sword枪”的 Damage。`
+- `da.desc.king_claw_desc`
+  - ZH: `右键使用“崩地爪”攻击，降低另一爪子的冷却时间/小幅增加投掷伤害/自身生命值低于75%%时授予自身“速度”`
+  - EN: `右键 Use“崩地 Claw”攻击，降低另一 Claw子的 Cooling时间/小幅 Increase投掷 Damage/自身 Life值低于75%%时授予自身“Speed”`
+- `da.desc.king_aid_desc`
+  - ZH: `右键召唤一位友好的锋戟前来助战`
+  - EN: `右键召唤一位友好的锋戟前来助战`
+- `da.desc.dragon_bow_desc`
+  - ZH: `只能搭载仙踪箭。对目标造成大量伤害，成功发射后进入冷却状态`
+  - EN: `只能搭载仙踪 Arrow。对目标造成大量 Damage，成功发射后 Enter Cooling状态`
+- `da.desc.flame_locator_desc`
+  - ZH: `这是在引你去下界的哪里？`
+  - EN: `这是在引你去 Nether的哪里？`
+- `da.desc.incendium_helmet_desc`
+  - ZH: `强化灼妄想之刃的技能效果/全套额外提供4点生命上限`
+  - EN: `Enhanced灼妄想之刃的 Skill效果/全套额外提供4点 Life上限`
+- `da.desc.incendium_leggings_desc`
+  - ZH: `使用炽舌盾时提供短暂的速度效果/全套额外提供4点生命上限`
+  - EN: `Use炽舌盾时提供短暂的 Speed效果/全套额外提供4点 Life上限`
+- `da.desc.flame_blade_desc`
+  - ZH: `右键发射燃烧飞剑，可穿透多个敌人`
+  - EN: `右键发射 Burning飞 Sword，可穿透多个敌人`
+- `da.desc.sealed_flame_desc`
+  - ZH: `右键投下火焰波`
+  - EN: `右键投下 Flame波`
+- `da.desc.flame_shield_desc`
+  - ZH: `格挡为盾牌充能/潜行并格挡时盾牌会发射烈焰`
+  - EN: `格挡为 Shield Charge/潜行并格挡时 Shield会发射烈焰`
+- `da.desc.dark_metal_desc`
+  - ZH: `全套提升炽舌盾的技能伤害`
+  - EN: `全套 Enhance炽舌盾的 Skill Damage`
+- `da.desc.dark_metal_helmet_desc`
+  - ZH: `在夜间提供夜视效果/全套提升炽舌盾的技能伤害`
+  - EN: `在夜间提供夜视效果/全套 Enhance炽舌盾的 Skill Damage`
+- `da.desc.dark_shield_desc`
+  - ZH: `格挡成功为盾牌充能，每五次充能后释放一次范围攻击`
+  - EN: `格挡成功为 Shield Charge，每五次 Charge后释放一次 Range攻击`
+- `da.desc.dark_sicle_desc`
+  - ZH: `横扫攻击/右键发射暗物质射弹`
+  - EN: `横扫攻击/右键发射暗物质射弹`
+- `da.desc.soul_key_desc`
+  - ZH: `用于在灵魂祭坛上重新召唤已被击败的首领。`
+  - EN: `用于在 Soul祭坛上重新召唤已被 Defeat的首领。`
+- `da.desc.desert_locator_desc`
+  - ZH: `它渴望着回到它的文明故地`
+  - EN: `它渴望着回到它的文明故地`
+- `da.desc.rot_locator_desc`
+  - ZH: `迟钝、古老、被遗忘。或许它会引向某个更有生气的地方`
+  - EN: `迟钝、古老、被遗忘。或许它会引向某个更有生气的地方`
+- `da.desc.beetle_morsel_desc`
+  - ZH: `看起来很恶心……`
+  - EN: `看起来很恶心……`
+- `da.desc.cooked_beetle_morsel_desc`
+  - ZH: `在短时间内提供 夜视 和 速度 效果`
+  - EN: `在短时间内提供 夜视 和 Speed 效果`
+- `da.desc.kopis_desc`
+  - ZH: `跳跃会对目标引发千道切攻击。速度提升技能伤害`
+  - EN: `跳跃会对目标引发千道切攻击。Speed Enhance Skill Damage`
+- `da.desc.obsidian_eye_desc`
+  - ZH: `用于黑曜石基柱的竞技场`
+  - EN: `用于 Obsidian基柱的竞技场`
+- `da.desc.voidiant_catalyst_desc`
+  - ZH: `右键将朝你的方向发射激光。若处于着火状态，装填时间更快且伤害更高`
+  - EN: `右键将朝你的方向发射激光。若处于着火状态，装填时间更快且 Damage更高`
+- `da.desc.voidiant_armor_desc`
+  - ZH: `受到攻击会为这件胸甲充能，当符文粒子出现并潜行时你可以在当前位置发动爆炸攻击`
+  - EN: `受到攻击会为这件 Chestplate Charge，当 Rune Nugget子出现并潜行时你可以在当前位置发动 Explosion攻击`
+- `da.desc.obsidian_shield_desc`
+  - ZH: `格挡攻击为盾牌充能。充能5次后使用技能键，将对你注视的实体释放魔法攻击`
+  - EN: `格挡攻击为 Shield Charge。Charge5次后 Use Skill键，将对你注视的实体释放魔法攻击`
+- `da.desc.obsidian_locator_desc`
+  - ZH: `虚空似乎在呼唤你的名字……`
+  - EN: `Void似乎在呼唤你的名字……`
+- `da.desc.void_hammer_desc`
+  - ZH: `右键发射3个投射物，Shift+右键召唤黑洞。此外，该武器的一半伤害无视护甲并附带横扫攻击`
+  - EN: `右键发射3个投射物，Shift+右键召唤黑洞。此外，该 Weapon的一半 Damage无视护甲并附带横扫攻击`
+- `da.desc.obsidian_armor_desc`
+  - ZH: `免疫 漂浮 和 失明。多次受到伤害后，火焰符文粒子将开始在你周围生成，潜行时可在你周围召唤火焰波`
+  - EN: `Immunity 漂浮 和 失明。多次受到 Damage后，Flame Rune Nugget子将 Start在你周围 Generate，潜行时可在你周围召唤 Flame波`
+- `da.desc.flower_crown_desc`
+  - ZH: `受数次攻击后，最后一个击中你的实体将被召唤虚空荆棘攻击。`
+  - EN: `受数次攻击后，最后一个击中你的实体将被召唤 Void荆棘攻击。`
+- `da.desc.void_staff_desc`
+  - ZH: `右键发射湮裂箭，潜行时右键使用范围效果。满生命值时造成额外伤害`
+  - EN: `右键发射湮裂 Arrow，潜行时右键 Use Range效果。满 Life值时造成额外 Damage`
+- `da.desc.sealed_tornado_desc`
+  - ZH: `右键将释放一场旱沙风暴`
+  - EN: `右键将释放一场旱 Sand风暴`
+- `da.desc.gaelon_ingot_desc`
+  - ZH: `可修复地下城扩展中的任何护甲或武器！`
+  - EN: `可修复地下城扩展中的任何护甲或 Weapon！`
+- `da.desc.novik_armor_desc`
+  - ZH: `全套装备加成对亡灵生物造成20%%额外伤害`
+  - EN: `全套装备加成对亡灵生物造成20%%额外 Damage`
+- `da.desc.novik_helmet_desc`
+  - ZH: `10%%几率使最后攻击的实体获得虚弱效果。全套装备加成对亡灵生物造成20%%额外伤害`
+  - EN: `10%%几率使最后攻击的实体 Obtain虚弱效果。全套装备加成对亡灵生物造成20%%额外 Damage`
+- `da.desc.novik_sword_desc`
+  - ZH: `右键将使你进入专注状态。每次击中你将恢复半颗心`
+  - EN: `右键将使你 Enter专注状态。每次击中你将恢复半颗心`
+- `da.desc.apathyr_heart_desc`
+  - ZH: `它似乎由珍贵资源制成，不知道会通向何处？`
+  - EN: `它似乎由珍贵资源制成，不知道会通向何处？`
+- `da.desc.golden_apathyr_heart_desc`
+  - ZH: `允许你与其他冒险者一同挑战阿帕瑟尔！`
+  - EN: `允许你与其他冒险者一同挑战阿帕瑟尔！`
+- `da.desc.apathyr_helmet_desc`
+  - ZH: `当生命值低于一半时，你的近战武器将额外造成2点伤害。该效果也与永痕套装的全套加成兼容`
+  - EN: `当 Life值低于一半时，你的近战 Weapon将额外造成2点 Damage。该效果也与永痕套装的全套加成兼容`
+- `da.desc.call_to_arms_desc`
+  - ZH: `右键召唤一名友好的咒亡魂协助你，其生命值和攻击伤害将根据你击败的BOSS数提升`
+  - EN: `右键召唤一名友好的咒亡 Soul协助你，其 Life值和攻击 Damage将根据你 Defeat的BOSS数 Enhance`
+- `da.desc.apathyr_axe_desc`
+  - ZH: `右键将向你注视的生物投掷长矛。Shift+右键点击将在你面前召唤一道波。在黑暗环境中技能伤害增加`
+  - EN: `右键将向你注视的生物投掷长矛。Shift+右键点击将在你面前召唤一道波。在 Darkness环境中 Skill Damage Increase`
+- `da.desc.gaelon_locator_desc`
+  - ZH: `我感觉它在呼唤我……`
+  - EN: `我感觉它在呼唤我……`
+- `da.desc.novik_block_desc`
+  - ZH: `堆叠两个并在上方放一个南瓜，召唤一名友好的恶缠斥候`
+  - EN: `堆叠两个并在上方放一个南瓜，召唤一名友好的恶缠斥候`
+- `da.desc.sealed_spear_wave_desc`
+  - ZH: `右键将在施法者周围召唤一道巨大波形攻击`
+  - EN: `右键将在施法者周围召唤一道巨大波形攻击`
+- `da.desc.golem_cannon_desc`
+  - ZH: `需要傀儡碎片作为弹药。右键将发射强力碎片子弹`
+  - EN: `需要 Golem Fragment作为弹药。右键将发射强力 Fragment子弹`
+- `da.desc.trader_coin_desc`
+  - ZH: `用于与神秘行商交易……`
+  - EN: `用于与 Mystical行商交易……`
+- `da.desc.crystal_trinket_desc`
+  - ZH: `10%%几率使受到的伤害减半`
+  - EN: `10%%几率使受到的 Damage减半`
+- `da.desc.flame_trinket_desc`
+  - ZH: `提升近战武器伤害，若自身着火则提升更多`
+  - EN: `Enhance近战 Weapon Damage，若自身着火则 Enhance更多`
+- `da.desc.death_trinket_desc`
+  - ZH: `击杀敌人时有7%%几率恢复生命值`
+  - EN: `击杀敌人时有7%%几率恢复 Life值`
+- `da.desc.glass_cannon_trinket_desc`
+  - ZH: `只要处于满生命值，便持续获得力量效果`
+  - EN: `只要处于满 Life值，便 Duration Obtain Strength效果`
+- `da.desc.boots_trinket_desc`
+  - ZH: `只要处于满生命值，便持续获得速度效果`
+  - EN: `只要处于满 Life值，便 Duration Obtain Speed效果`
+- `da.desc.shield_trinket_desc`
+  - ZH: `根据你当前的护甲值增加额外护甲`
+  - EN: `根据你当前的护甲值 Increase额外护甲`
+- `da.desc.diamond_shield_trinket_desc`
+  - ZH: `根据你当前的数值增加额外护甲韧性`
+  - EN: `根据你当前的数值 Increase额外护甲韧性`
+- `da.desc.charm_trinket_desc`
+  - ZH: `受伤时有10%%几率在你周围召唤长矛`
+  - EN: `受伤时有10%%几率在你周围召唤长矛`
+- `da.desc.creeper_trinket_desc`
+  - ZH: `死亡时爆炸。不会破坏地形或物品`
+  - EN: `Death时 Explosion。不会破坏地形或 Item`
+- `da.desc.weakness_trinket_desc`
+  - ZH: `被攻击时5%%使敌人获得虚弱效果`
+  - EN: `被攻击时5%%使敌人 Obtain虚弱效果`
+- `da.desc.poison_trinket_desc`
+  - ZH: `被攻击时10%%使敌人获得中毒效果`
+  - EN: `被攻击时10%%使敌人 Obtain中 Poison效果`
+- `da.desc.void_trinket_desc`
+  - ZH: `当被施加虚弱效果时，你将获得抗性提升`
+  - EN: `当被施加虚弱效果时，你将 Obtain Resistance Enhance`
+- `da.desc.gamble_trinket_desc`
+  - ZH: `击杀生物时有3%%几率将其掉落物替换为一枚铜币`
+  - EN: `击杀生物时有3%%几率将其掉落物替换为一枚 Copper币`
+- `da.desc.slam_trinket_desc`
+  - ZH: `受到的跌落伤害将根据伤害量召唤一次寒冰砸地攻击`
+  - EN: `受到的跌落 Damage将根据 Damage量召唤一次寒冰砸地攻击`
+- `da.desc.heart_trinket_desc`
+  - ZH: `根据你当前的生命值增加额外生命`
+  - EN: `根据你当前的 Life值 Increase额外 Life`
+- `da.desc.vampire_trinket_desc`
+  - ZH: `击中实体时有5%%几率恢复一颗心`
+  - EN: `击中实体时有5%%几率恢复一颗心`
+- `da.desc.wind_trinket_desc`
+  - ZH: `潜行时跳跃将在脚下召唤一道龙卷风，将你向上弹射`
+  - EN: `潜行时跳跃将在脚下召唤一道龙卷风，将你向上弹射`
+- `da.desc.void_hand_trinket_desc`
+  - ZH: `当你受到负面药水效果影响时，每秒有3%%几率在你附近召唤虚空之手`
+  - EN: `当你受到负面 Potion效果影响时，每秒有3%%几率在你附近召唤 Void之手`
+- `da.desc.confetti_trinket_desc`
+  - ZH: `死亡时生成彩带，并给予附近玩家生命恢复效果`
+  - EN: `Death时 Generate彩带，并给予附近玩家 Life恢复效果`
+- `da.desc.adventure_set_desc`
+  - ZH: `基础金属套装，装备任意部件可使你承受一次致命打击，每个部件在触发该效果时额外增加一颗心`
+  - EN: `基础 Gold属套装，装备任意部件可使你承受一次致命打击，每个部件在触发该效果时额外 Increase一颗心`
+- `da.desc.adventure_sword_desc`
+  - ZH: `右键将使你跃向空中，最后砸地攻击`
+  - EN: `右键将使你跃向空中，最后砸地攻击`
+- `da.desc.mage_set_desc`
+  - ZH: `基础施法者套装，每个部件减少10%%魔法伤害。此外每个部件增加武器施放的投射物伤害`
+  - EN: `基础施法者套装，每个部件 Decrease10%%魔法 Damage。此外每个部件 Increase Weapon施放的投射物 Damage`
+- `da.desc.mage_staff_desc`
+  - ZH: `右键将使你的法杖进入战斗模式，暂时提升伤害。Shift+右键将在你前方召唤一次延迟爆炸`
+  - EN: `右键将使你的 Staff Enter战斗模式，暂时 Enhance Damage。Shift+右键将在你前方召唤一次延迟 Explosion`
+- `da.desc.aegyptian_key_desc`
+  - ZH: `用于在遗痕神庙中使一位强大的英灵复活`
+  - EN: `用于在遗痕神庙中使一位强大的英灵 Revive`
+- `da.desc.golden_mark_trinket_desc`
+  - ZH: `被生物伤害时有15%%几率对其施加猎手印记`
+  - EN: `被生物 Damage时有15%%几率对其施加 Hunter印记`
+- `da.desc.golden_devotion_desc`
+  - ZH: `大幅提升最大生命值，并增强防御能力`
+  - EN: `大幅 Enhance最大 Life值，并增强 Defense能力`
+- `da.desc.golden_vow_desc`
+  - ZH: `提升移动速度，免疫跌落伤害，并在使用时增加攻击伤害`
+  - EN: `Enhance移动 Speed，Immunity跌落 Damage，并在 Use时 Increase攻击 Damage`
+- `da.desc.aegyptian_flute_desc`
+  - ZH: `使用时将召唤一只友好的滑行甲虫`
+  - EN: `Use时将召唤一只友好的滑行甲虫`
+- `da.desc.stalwart_summoner_desc`
+  - ZH: `使用召唤物时，你的召唤物进入战场将获得力量和速度效果。`
+  - EN: `Use召唤物时，你的召唤物 Enter战场将 Obtain Strength和 Speed效果。`
+- `da.desc.exalted_kopis_desc`
+  - ZH: `右键可招架。成功招架3次后，下一次右键点击将变为一次高伤害冲刺`
+  - EN: `右键可招架。成功招架3次后，下一次右键点击将变为一次高 Damage冲刺`
+- `da.desc.colossus_mace_desc`
+  - ZH: `右键范围攻击，生命值越低，攻击范围越远。Shift+右键将召唤标记以追踪附近的生物`
+  - EN: `右键 Range攻击，Life值越低，攻击 Range越远。Shift+右键将召唤标记以追踪附近的生物`
+- `da.desc.sigil_trinket_desc`
+  - ZH: `战斗中潜行将在你头顶召唤一个标记，向周围的生物攻击`
+  - EN: `战斗中潜行将在你头顶召唤一个标记，向周围的生物攻击`
+- `da.desc.warlord_helmet_desc`
+  - ZH: `免疫凋零，对除亡灵和节肢生物外的所有目标造成额外伤害。并减少10%魔法伤害`
+  - EN: `Immunity凋零，对除亡灵和节肢生物外的所有目标造成额外 Damage。并 Decrease10%魔法 Damage`
+- `da.desc.colossus_chestplate_desc`
+  - ZH: `当生命值低于一半时，你将暂时获得生命恢复效果。并减少5%魔法伤害`
+  - EN: `当 Life值低于一半时，你将暂时 Obtain Life恢复效果。并 Decrease5%魔法 Damage`
+- `da.desc.poison_garnish_desc`
+  - ZH: `使你击中的所有敌人长时间中毒，并对已中毒的目标造成额外伤害，但自身受到的伤害也会增加`
+  - EN: `使你击中的所有敌人长时间中 Poison，并对已中 Poison的目标造成额外 Damage，但自身受到的 Damage也会 Increase`
+- `da.desc.fiery_respite_desc`
+  - ZH: `减少攻击冷却时间，并使敌人着火`
+  - EN: `Decrease攻击 Cooling时间，并使敌人着火`
+- `da.desc.magic_boost_trinket_desc`
+  - ZH: `提升法术或攻击造成的魔法伤害`
+  - EN: `Enhance法术或攻击造成的魔法 Damage`
+- `da.desc.arrow_trinket_desc`
+  - ZH: `用箭击中实体时15%%对其施加猎手印记`
+  - EN: `用 Arrow击中实体时15%%对其施加 Hunter印记`
+- `death.attack.da:maelstrom`
+  - ZH: `%1$s 窒息于无尽虚空`
+  - EN: `%1$s 窒息于无尽 Void`
+- `death.attack.da:mobMaelstrom`
+  - ZH: `%1$s 被 %2$s 杀死`
+  - EN: `%1$s 被 %2$s 杀死`
+- `death.attack.da:playerMaelstrom`
+  - ZH: `%1$s 被 %2$s 杀死`
+  - EN: `%1$s 被 %2$s 杀死`
+- `death.attack.da:thrownMaelstrom`
+  - ZH: `%1$s 被 %2$s 砸死`
+  - EN: `%1$s 被 %2$s 砸死`
+- `death.attack.da:explosionMaelstrom`
+  - ZH: `%1$s 被炸得四分五裂`
+  - EN: `%1$s 被炸得四分五裂`
+- `death.attack.da:explosionMaelstrom.player`
+  - ZH: `%1$s 在与 %2$s 战斗时被炸成火花`
+  - EN: `%1$s 在与 %2$s 战斗时被炸成火 Flower`
+- `death.attack.da:magicMaelstrom`
+  - ZH: `%1$s 被 %2$s 的魔法杀死`
+  - EN: `%1$s 被 %2$s 的魔法杀死`
+- `death.attack.da.champion_axe`
+  - ZH: `%1$s 死于 %2$s 无尽的愤怒`
+  - EN: `%1$s 死于 %2$s 无尽的愤怒`
+- `death.attack.da.champion_axe.item`
+  - ZH: `%1$s 被 %2$s 使用 %3$s 粉碎`
+  - EN: `%1$s 被 %2$s Use %3$s Dust碎`
+- `death.attadk.da.wyrk_staff`
+  - ZH: `%1$s 死于 %2$s`
+  - EN: `%1$s 死于 %2$s`
+- `death.attack.da.wyrk_staff.item`
+  - ZH: `%1$s被 %2$s 使用 %3$s 施法致死`
+  - EN: `%1$s被 %2$s Use %3$s 施法致死`
+- `death.attack.da.magma_stomp`
+  - ZH: `%1$s 被 %2$s 焚烧殆尽`
+  - EN: `%1$s 被 %2$s 焚烧殆尽`
+- `advancements.da.root.title`
+  - ZH: `地牢展开`
+  - EN: `地牢展开`
+- `advancements.da.root.description`
+  - ZH: `欢迎来到祸乱鬼魅，全新的BOSS与副本内容！`
+  - EN: `欢迎来到祸乱鬼魅，全新的BOSS与副本内容！`
+- `advancements.da.kill_fallen_stormvier.title`
+  - ZH: `旅程就此开始！`
+  - EN: `旅程就此 Start！`
+- `advancements.da.kill_fallen_stormvier.description`
+  - ZH: `在腐朽城堡内击杀堕落观风者`
+  - EN: `在腐朽城堡内击杀堕落观风者`
+- `advancements.da.kill_void_blossom.title`
+  - ZH: `绽放于渺茫`
+  - EN: `绽放于渺茫`
+- `advancements.da.kill_void_blossom.description`
+  - ZH: `击杀虚空之花`
+  - EN: `击杀 Void之 Flower`
+- `advancements.da.kill_night_lich.title`
+  - ZH: `巫妖行迹永夜`
+  - EN: `巫妖行迹永夜`
+- `advancements.da.kill_night_lich.description`
+  - ZH: `击杀暗夜巫妖`
+  - EN: `击杀暗夜巫妖`
+- `advancements.da.kill_abberrant.title`
+  - ZH: `竞技场邀请函`
+  - EN: `竞技场邀请函`
+- `advancements.da.kill_abberrant.description`
+  - ZH: `找到燃烧的焚狱竞技场`
+  - EN: `找到 Burning的焚狱竞技场`
+- `advancements.da.kill_kobf.title`
+  - ZH: `烈火燃尽一切`
+  - EN: `烈火燃尽一切`
+- `advancements.da.kill_kobf.description`
+  - ZH: `击杀焚狱之骑`
+  - EN: `击杀焚狱之骑`
+- `advancements.da.kill_elite_draugr.title`
+  - ZH: `维京人之王`
+  - EN: `维京人之王`
+- `advancements.da.kill_elite_draugr.description`
+  - ZH: `击杀霜冠尸鬼`
+  - EN: `击杀霜冠尸鬼`
+- `advancements.da.kill_great_wyrk.title`
+  - ZH: `极冰的深度`
+  - EN: `极冰的深度`
+- `advancements.da.kill_great_wyrk.description`
+  - ZH: `杀死远古破坏者`
+  - EN: `杀死远古破坏者`
+- `advancements.da.kill_imperial_halberd.title`
+  - ZH: `未界定的遗忘`
+  - EN: `未界定的遗忘`
+- `advancements.da.kill_imperial_halberd.description`
+  - ZH: `击杀高廷的锋戟`
+  - EN: `击杀高廷的锋戟`
+- `advancements.da.kill_dark_assassin.title`
+  - ZH: `向天顶致意`
+  - EN: `向天顶致意`
+- `advancements.da.kill_dark_assassin.description`
+  - ZH: `击杀崇秽刺客`
+  - EN: `击杀崇秽刺客`
+- `advancements.da.kill_high_king.title`
+  - ZH: `废黜傲慢天顶！`
+  - EN: `废黜傲慢天顶！`
+- `advancements.da.kill_high_king.description`
+  - ZH: `斩杀曜日的君冕`
+  - EN: `斩杀曜日的君冕`
+- `advancements.da.kill_volatile_spirit.title`
+  - ZH: `守门人`
+  - EN: `守门人`
+- `advancements.da.kill_volatile_spirit.description`
+  - ZH: `击杀一只挥发之灵`
+  - EN: `击杀一只挥发之灵`
+- `advancements.da.kill_dark_royal.title`
+  - ZH: `恶人不得安魂`
+  - EN: `恶人不得安 Soul`
+- `advancements.da.kill_dark_royal.description`
+  - ZH: `击杀一名暗黑皇卫`
+  - EN: `击杀一名暗黑皇卫`
+- `advancements.da.kill_obsidilith.title`
+  - ZH: `飘渺之石`
+  - EN: `飘渺之石`
+- `advancements.da.kill_obsidilith.description`
+  - ZH: `击杀黑曜石柱`
+  - EN: `击杀 Obsidian柱`
+- `advancements.da.kill_voidclysm.title`
+  - ZH: `千钧一发！`
+  - EN: `千钧一发！`
+- `advancements.da.kill_voidclysm.description`
+  - ZH: `击杀虚空灾变`
+  - EN: `击杀 Void灾变`
+- `advancements.da.kill_cursed_sentinel.title`
+  - ZH: `忘记意义的驻守`
+  - EN: `忘记意义的驻守`
+- `advancements.da.kill_cursed_sentinel.description`
+  - ZH: `击杀一名恶缠斥候`
+  - EN: `击杀一名恶缠斥候`
+- `advancements.da.kill_apathyr.title`
+  - ZH: `步入英灵之域`
+  - EN: `步入英灵之域`
+- `advancements.da.kill_apathyr.description`
+  - ZH: `击杀阿帕瑟尔。`
+  - EN: `击杀阿帕瑟尔。`
+- `advancements.da.kill_scutter_beetle.title`
+  - ZH: `惹人爱`
+  - EN: `惹人爱`
+- `advancements.da.kill_scutter_beetle.description`
+  - ZH: `击杀一只滑行甲虫`
+  - EN: `击杀一只滑行甲虫`
+- `advancements.da.kill_aegyptia.title`
+  - ZH: `蜥蜴人在幕后操纵！`
+  - EN: `蜥蜴人在幕后操纵！`
+- `advancements.da.kill_aegyptia.description`
+  - ZH: `击杀一只古埃及沙虫`
+  - EN: `击杀一只古埃及 Sand虫`
+- `advancements.da.kill_everator.title`
+  - ZH: `名垂青史`
+  - EN: `名垂青史`
+- `advancements.da.kill_everator.description`
+  - ZH: `击杀永恒者`
+  - EN: `击杀永恒者`
+- `advancements.da.kill_aegyptian_colossus.title`
+  - ZH: `从大厅坠落`
+  - EN: `从大厅坠落`
+- `advancements.da.kill_aegyptian_colossus.description`
+  - ZH: `击杀法老巨像`
+  - EN: `击杀法老巨像`
+- `advancements.da.kill_aegyptian_warlord.title`
+  - ZH: `四处飞沙`
+  - EN: `四处飞 Sand`
+- `advancements.da.kill_aegyptian_warlord.description`
+  - ZH: `击杀古埃及军阀`
+  - EN: `击杀古埃及军阀`
+- `advancements.da.find_soul_star.title`
+  - ZH: `星引前路`
+  - EN: `星引前路`
+- `advancements.da.find_soul_star.description`
+  - ZH: `获得灵魂之星`
+  - EN: `Obtain Soul之星`
+- `advancements.da.craft_draugr_ingot.title`
+  - ZH: `试与亡者共谈`
+  - EN: `试与亡者共谈`
+- `advancements.da.craft_draugr_ingot.description`
+  - ZH: `制造或找到霜生锭`
+  - EN: `Craft Draugr Ingot`
+- `advancements.da.craft_draugr_axe.title`
+  - ZH: `当下谁臣谁王！`
+  - EN: `当下谁臣谁王！`
+- `advancements.da.craft_draugr_axe.description`
+  - ZH: `制造霜冠斧`
+  - EN: `制造霜冠 Axe`
+- `advancements.da.craft_draugr_shield.title`
+  - ZH: `甚爱此盾，汝当何待？`
+  - EN: `甚爱此盾，汝当何待？`
+- `advancements.da.craft_draugr_shield.description`
+  - ZH: `制造霜生盾`
+  - EN: `制造霜生盾`
+- `advancements.da.craft_draugr_armor.title`
+  - ZH: `真正之用`
+  - EN: `真正之用`
+- `advancements.da.craft_draugr_armor.description`
+  - ZH: `制造霜生盔甲`
+  - EN: `制造霜生 Armor`
+- `advancements.da.find_gloom_stone.title`
+  - ZH: `霜月照冷石`
+  - EN: `霜月照冷石`
+- `advancements.da.find_gloom_stone.description`
+  - ZH: `我的寒霜岩`
+  - EN: `我的寒霜岩`
+- `advancements.da.craft_void_lily.title`
+  - ZH: `植物问题`
+  - EN: `Plant问题`
+- `advancements.da.craft_void_lily.description`
+  - ZH: `制作虚空百合`
+  - EN: `Craft Void百合`
+- `advancements.da.craft_flame_locator.title`
+  - ZH: `地狱之道`
+  - EN: `地狱之道`
+- `advancements.da.craft_flame_locator.description`
+  - ZH: `打造炽穹火花`
+  - EN: `打造炽穹火 Flower`
+- `advancements.da.craft_incendium_armor.title`
+  - ZH: `焚尘炼火`
+  - EN: `焚尘炼火`
+- `advancements.da.craft_incendium_armor.description`
+  - ZH: `打造两件炽金盔甲`
+  - EN: `打造两件炽 Gold Armor`
+- `advancements.da.craft_flame_blade.title`
+  - ZH: `粉碎机化身`
+  - EN: `Dust碎机化身`
+- `advancements.da.craft_flame_blade.description`
+  - ZH: `打造灼妄想之刃`
+  - EN: `打造灼妄想之刃`
+- `advancements.da.craft_flame_shield.title`
+  - ZH: `天火铸盾`
+  - EN: `天火铸盾`
+- `advancements.da.craft_flame_shield.description`
+  - ZH: `打造炽舌盾`
+  - EN: `打造炽舌盾`
+- `advancements.da.craft_sealed_flame.title`
+  - ZH: `瓶口装火`
+  - EN: `瓶口装火`
+- `advancements.da.craft_sealed_flame.description`
+  - ZH: `打造密封燃烧瓶`
+  - EN: `打造密封 Burning瓶`
+- `advancements.da.craft_flame_metal.title`
+  - ZH: `重燃漫天火！`
+  - EN: `重燃漫天火！`
+- `advancements.da.craft_flame_metal.description`
+  - ZH: `制造炼狱金属盔甲`
+  - EN: `制造炼狱 Gold属 Armor`
+- `advancements.da.craft_spear_warrior.title`
+  - ZH: `巫法映火痕`
+  - EN: `巫法映火痕`
+- `advancements.da.craft_spear_warrior.description`
+  - ZH: `制作无魂勇士之矛`
+  - EN: `Craft无 Soul Warrior之矛`
+- `advancements.da.craft_spear_staff.title`
+  - ZH: `夜妖之作`
+  - EN: `夜妖之作`
+- `advancements.da.craft_spear_staff.description`
+  - ZH: `制作无魂法师之矛`
+  - EN: `Craft无 Soul法师之矛`
+- `advancements.da.craft_lich_altar.title`
+  - ZH: `现在直上云霄！`
+  - EN: `现在直上云霄！`
+- `advancements.da.craft_lich_altar.description`
+  - ZH: `制造悬浮祭坛`
+  - EN: `制造悬浮祭坛`
+- `advancements.da.craft_endless_pearl.title`
+  - ZH: `无尽技术`
+  - EN: `无尽技术`
+- `advancements.da.craft_endless_pearl.description`
+  - ZH: `制造异构珍珠`
+  - EN: `制造异构珍珠`
+- `advancements.da.craft_void_dagger.title`
+  - ZH: `尖锐或内敛`
+  - EN: `尖锐或内敛`
+- `advancements.da.craft_void_dagger.description`
+  - ZH: `制造飘渺短剑`
+  - EN: `制造飘渺短 Sword`
+- `advancements.da.craft_frost_locator.title`
+  - ZH: `风雪狂啸`
+  - EN: `风雪狂啸`
+- `advancements.da.craft_frost_locator.description`
+  - ZH: `制造或找到冰魂之星`
+  - EN: `制造或找到冰 Soul之星`
+- `advancements.da.craft_sky_locator.title`
+  - ZH: `流明之风`
+  - EN: `流明之风`
+- `advancements.da.craft_sky_locator.description`
+  - ZH: `制作一个日穹之光`
+  - EN: `Craft一个日穹之光`
+- `advancements.da.craft_wyrk_staff.title`
+  - ZH: `尤爱做法`
+  - EN: `尤爱做法`
+- `advancements.da.craft_wyrk_staff.description`
+  - ZH: `制造古毁法杖`
+  - EN: `制造古毁 Staff`
+- `advancements.da.craft_wyrk_armor.title`
+  - ZH: `霜人成行`
+  - EN: `霜人成行`
+- `advancements.da.craft_wyrk_armor.description`
+  - ZH: `制作两件破坏者装备`
+  - EN: `Craft两件破坏者装备`
+- `advancements.da.craft_wyrk_snack.title`
+  - ZH: `无不饥渴难耐！`
+  - EN: `无不饥渴难耐！`
+- `advancements.da.craft_wyrk_snack.description`
+  - ZH: `制造生者尽饥`
+  - EN: `制造生者尽饥`
+- `advancements.da.craft_wyrk_totem.title`
+  - ZH: `时而友伴吹霜`
+  - EN: `时而友伴吹霜`
+- `advancements.da.craft_wyrk_totem.description`
+  - ZH: `制造破坏元素图腾`
+  - EN: `制造破坏元素图腾`
+- `advancements.da.craft_imperial_armor.title`
+  - ZH: `我可以跟你耗一整天`
+  - EN: `我可以跟你耗一整天`
+- `advancements.da.craft_imperial_armor.description`
+  - ZH: `打造全套天辉盔甲`
+  - EN: `打造全套天辉 Armor`
+- `advancements.da.craft_imperial_halberd.title`
+  - ZH: `启示录之源`
+  - EN: `启示录之源`
+- `advancements.da.craft_imperial_halberd.description`
+  - ZH: `打造殊荣之击`
+  - EN: `打造殊荣之击`
+- `advancements.da.craft_parry_sword.title`
+  - ZH: `我将截杀黑夜！`
+  - EN: `我将截杀黑夜！`
+- `advancements.da.craft_parry_sword.description`
+  - ZH: `打造破敌之师`
+  - EN: `打造破敌之师`
+- `advancements.da.craft_dark_dagger.title`
+  - ZH: `子夜之死`
+  - EN: `子夜之死`
+- `advancements.da.craft_dark_dagger.description`
+  - ZH: `打造拜秽短剑`
+  - EN: `打造拜秽短 Sword`
+- `advancements.da.craft_bloody_sword_spear.title`
+  - ZH: `悲苦吻我而报之以割`
+  - EN: `悲苦吻我而报之以割`
+- `advancements.da.craft_bloody_sword_spear.description`
+  - ZH: `打造残空天剑枪`
+  - EN: `打造残空天 Sword枪`
+- `advancements.da.craft_sword_spear.title`
+  - ZH: `王侯将相宁有种乎！`
+  - EN: `王侯将相宁有种乎！`
+- `advancements.da.craft_sword_spear.description`
+  - ZH: `打造崇高天剑枪`
+  - EN: `打造崇高天 Sword枪`
+- `advancements.da.craft_dragon_bow.title`
+  - ZH: `天龙与弩炮何在！`
+  - EN: `天龙与 Crossbow炮何在！`
+- `advancements.da.craft_dragon_bow.description`
+  - ZH: `打造勇者天龙弓`
+  - EN: `打造勇者天龙 Bow`
+- `advancements.da.craft_dragon_shield.title`
+  - ZH: `顺命和殉道`
+  - EN: `顺命和殉道`
+- `advancements.da.craft_dragon_shield.description`
+  - ZH: `打造勇气天龙盾`
+  - EN: `打造勇气天龙盾`
+- `advancements.da.craft_king_aid.title`
+  - ZH: `召必回`
+  - EN: `召必回`
+- `advancements.da.craft_king_aid.description`
+  - ZH: `打造天王呼助`
+  - EN: `打造天王呼助`
+- `advancements.da.craft_king_claw.title`
+  - ZH: `近身主场`
+  - EN: `近身主场`
+- `advancements.da.craft_king_claw.description`
+  - ZH: `打造崇高爪套`
+  - EN: `打造崇高 Claw套`
+- `advancements.da.craft_king_helmet.title`
+  - ZH: `新天帝`
+  - EN: `新天帝`
+- `advancements.da.craft_king_helmet.description`
+  - ZH: `打造负咒天冠`
+  - EN: `打造负咒天冠`
+- `advancements.da.craft_dark_metal_armor.title`
+  - ZH: `午夜骑士`
+  - EN: `午夜骑士`
+- `advancements.da.craft_dark_metal_armor.description`
+  - ZH: `打造邃暗金属套装`
+  - EN: `打造邃暗 Gold属套装`
+- `advancements.da.craft_dark_shield.title`
+  - ZH: `人见狗嫌但有效`
+  - EN: `人见狗嫌但有效`
+- `advancements.da.craft_dark_shield.description`
+  - ZH: `打造邃暗金属盾`
+  - EN: `打造邃暗 Gold属盾`
+- `advancements.da.craft_dark_sicle.title`
+  - ZH: `夺魂的欢愉`
+  - EN: `夺 Soul的欢愉`
+- `advancements.da.craft_dark_sicle.description`
+  - ZH: `打造邃暗金属镰刀`
+  - EN: `打造邃暗 Gold属镰刀`
+- `advancements.da.craft_obsidian_eye.title`
+  - ZH: `监管者之钥`
+  - EN: `监管者之钥`
+- `advancements.da.craft_obsidian_eye.description`
+  - ZH: `找到黑曜之眼`
+  - EN: `找到黑曜之眼`
+- `advancements.da.craft_voidiant_catalyst.title`
+  - ZH: `太空旅人`
+  - EN: `太空旅人`
+- `advancements.da.craft_voidiant_catalyst.description`
+  - ZH: `打造裂变水晶`
+  - EN: `打造 Fission Crystal`
+- `advancements.da.craft_voidiant_chestplate.title`
+  - ZH: `我中了！我中了！`
+  - EN: `我中了！我中了！`
+- `advancements.da.craft_voidiant_chestplate.description`
+  - ZH: `打造虚岩胸甲`
+  - EN: `打造虚岩 Chestplate`
+- `advancements.da.craft_obsidian_shield.title`
+  - ZH: `万物尽在掌握！`
+  - EN: `万物尽在掌握！`
+- `advancements.da.craft_obsidian_shield.description`
+  - ZH: `打造黑曜之牢`
+  - EN: `打造黑曜之牢`
+- `advancements.da.craft_obsidian_locator.title`
+  - ZH: `你问虚无，虚无问你`
+  - EN: `你问虚无，虚无问你`
+- `advancements.da.craft_obsidian_locator.description`
+  - ZH: `打造虚空的呼唤`
+  - EN: `打造 Void的呼唤`
+- `advancements.da.find_grum_stone.title`
+  - ZH: `过往之境`
+  - EN: `过往之境`
+- `advancements.da.find_grum_stone.description`
+  - ZH: `开采浑浊石。`
+  - EN: `开采浑浊石。`
+- `advancements.da.find_farum_stone.title`
+  - ZH: `高空建筑师`
+  - EN: `高空建筑师`
+- `advancements.da.find_farum_stone.description`
+  - ZH: `开采高廷石`
+  - EN: `开采高廷石`
+- `advancements.da.craft_void_hammer.title`
+  - ZH: `无形的重撼`
+  - EN: `无形的重撼`
+- `advancements.da.craft_void_hammer.description`
+  - ZH: `打造虚空裂变锤`
+  - EN: `打造 Void Fission锤`
+- `advancements.da.craft_void_staff.title`
+  - ZH: `法师竞技场。`
+  - EN: `法师竞技场。`
+- `advancements.da.craft_void_staff.description`
+  - ZH: `制作虚空撕裂法杖。`
+  - EN: `Craft Void撕裂 Staff。`
+- `advancements.da.craft_obsidian_helm.title`
+  - ZH: `身负甲胄，魂不外漏`
+  - EN: `身负甲胄，Soul不外漏`
+- `advancements.da.craft_obsidian_helm.description`
+  - ZH: `制作裂灭头盔。`
+  - EN: `Craft裂灭 Helmet。`
+- `advancements.da.craft_flower_crown.title`
+  - ZH: `优雅是我的风度。`
+  - EN: `优雅是我的风度。`
+- `advancements.da.craft_flower_crown.description`
+  - ZH: `制作虚空绽放之冠`
+  - EN: `Craft Void绽放之冠`
+- `advancements.da.craft_gaelon_locator.title`
+  - ZH: `额外奖励`
+  - EN: `额外奖励`
+- `advancements.da.craft_gaelon_locator.description`
+  - ZH: `制作秘之圣器。`
+  - EN: `Craft秘之圣器。`
+- `advancements.da.craft_gaelon_shard.title`
+  - ZH: `现代钥匙`
+  - EN: `现代钥匙`
+- `advancements.da.craft_gaelon_shard.description`
+  - ZH: `从矿簇中收集一块傀儡碎片。`
+  - EN: `从矿簇中 Collect一 Block Golem Fragment。`
+- `advancements.da.craft_novik_armor.title`
+  - ZH: `猎手之铠`
+  - EN: `Hunter之铠`
+- `advancements.da.craft_novik_armor.description`
+  - ZH: `制作全套永痕护甲。`
+  - EN: `Craft全套永痕护甲。`
+- `advancements.da.craft_novik_sword.title`
+  - ZH: `刺杀命运的长夜`
+  - EN: `刺杀命运的长夜`
+- `advancements.da.craft_novik_sword.description`
+  - ZH: `制作长生剑。`
+  - EN: `Craft长生 Sword。`
+- `advancements.da.craft_apathyr_heart.title`
+  - ZH: `英灵觉醒`
+  - EN: `英灵觉醒`
+- `advancements.da.craft_apathyr_heart.description`
+  - ZH: `制作永恒之心。`
+  - EN: `Craft永恒之心。`
+- `advancements.da.craft_apathyr_helmet.title`
+  - ZH: `无羁之王`
+  - EN: `无羁之王`
+- `advancements.da.craft_apathyr_helmet.description`
+  - ZH: `制作阿帕瑟尔头盔。`
+  - EN: `Craft阿帕瑟尔 Helmet。`
+- `advancements.da.craft_apathyr_axe.title`
+  - ZH: `当下大敌当我……`
+  - EN: `当下大敌当我……`
+- `advancements.da.craft_apathyr_axe.description`
+  - ZH: `制作午夜统治。`
+  - EN: `Craft午夜统治。`
+- `advancements.da.craft_call_to_arms.title`
+  - ZH: `责任在己`
+  - EN: `责任在己`
+- `advancements.da.craft_call_to_arms.description`
+  - ZH: `制作战斗号角。`
+  - EN: `Craft战斗号角。`
+- `advancements.da.sealed_spear_wave.title`
+  - ZH: `魔法行家`
+  - EN: `魔法行家`
+- `advancements.da.sealed_spear_wave.description`
+  - ZH: `制作一个密封瓶。`
+  - EN: `Craft一个密封瓶。`
+- `advancements.da.golem_cannon.title`
+  - ZH: `子弹上膛`
+  - EN: `子弹上膛`
+- `advancements.da.golem_cannon.description`
+  - ZH: `制作斥候加农炮。`
+  - EN: `Craft斥候加农炮。`
+- `advancements.da.craft_dungeon_bread.title`
+  - ZH: `牢中咸苦`
+  - EN: `牢中咸苦`
+- `advancements.da.craft_dungeon_bread.description`
+  - ZH: `找到地牢面包。`
+  - EN: `找到地牢面包。`
+- `advancements.da.craft_stormvier_locator.title`
+  - ZH: `初来乍到心猿意马`
+  - EN: `初来乍到心猿意马`
+- `advancements.da.craft_stormvier_locator.description`
+  - ZH: `打造腐化核心。`
+  - EN: `打造腐化核心。`
+- `advancements.da.craft_poison_garnish.title`
+  - ZH: `玫瑰之刺亦有其心`
+  - EN: `玫瑰之刺亦有其心`
+- `advancements.da.craft_poison_garnish.description`
+  - ZH: `制作一瓶毒药涂层。`
+  - EN: `Craft一瓶 Poison药涂层。`
+- `advancements.da.craft_copper_coin.title`
+  - ZH: `赌局隆隆响`
+  - EN: `赌局隆隆响`
+- `advancements.da.craft_copper_coin.description`
+  - ZH: `获得一枚商贸铜币。交给神秘商人即可兑换！`
+  - EN: `Obtain一枚商贸 Copper币。交给 Mystical商人即可兑换！`
+- `advancements.da.craft_silver_coin.title`
+  - ZH: `这能驱赶吸血鬼吗？`
+  - EN: `这能驱赶 Vampiric鬼吗？`
+- `advancements.da.craft_silver_coin.description`
+  - ZH: `获得一枚商贸银币。`
+  - EN: `Obtain一枚商贸 Silver币。`
+- `advancements.da.craft_gold_coin.title`
+  - ZH: `我们发财啦！`
+  - EN: `我们发财啦！`
+- `advancements.da.craft_gold_coin.description`
+  - ZH: `获得一枚商贸金币。`
+  - EN: `Obtain一枚商贸 Gold币。`
+- `advancements.da.craft_magic_leather.title`
+  - ZH: `巫师来袭`
+  - EN: `巫师来袭`
+- `advancements.da.craft_magic_leather.description`
+  - ZH: `用霜生碎片在神秘商人处获得注魔皮革。`
+  - EN: `用霜生 Fragment在 Mystical商人处 Obtain注魔 Leather。`
+- `advancements.da.craft_adventure_metal.title`
+  - ZH: `近卫出击`
+  - EN: `近卫出击`
+- `advancements.da.craft_adventure_metal.description`
+  - ZH: `用悉风碎片在神秘商人处获得险途金属锭。`
+  - EN: `用悉风 Fragment在 Mystical商人处 Obtain险途 Gold属 Ingot。`
+- `advancements.da.craft_mage_armor.title`
+  - ZH: `后方切入`
+  - EN: `后方切入`
+- `advancements.da.craft_mage_armor.description`
+  - ZH: `制作全套施法者套装。`
+  - EN: `Craft全套施法者套装。`
+- `advancements.da.craft_adventure_armor.title`
+  - ZH: `妙手`
+  - EN: `妙手`
+- `advancements.da.craft_adventure_armor.description`
+  - ZH: `制作全套险途套装。`
+  - EN: `Craft全套险途套装。`
+- `advancements.da.craft_adventure_sword.title`
+  - ZH: `怒火滔天，似来时路`
+  - EN: `怒火滔天，似来时路`
+- `advancements.da.craft_adventure_sword.description`
+  - ZH: `制作险途之剑`
+  - EN: `Craft险途之 Sword`
+- `advancements.da.craft_mage_staff.title`
+  - ZH: `用途颇广`
+  - EN: `用途颇广`
+- `advancements.da.craft_mage_staff.description`
+  - ZH: `制作法者战斗杖`
+  - EN: `Craft法者战斗杖`
+- `advancements.da.confetti_trinket.title`
+  - ZH: `派对时间！`
+  - EN: `派对时间！`
+- `advancements.da.confetti_trinket.description`
+  - ZH: `把这个给你那个经常挂掉的朋友。`
+  - EN: `把这个给你那个经常挂掉的朋友。`
+- `advancements.da.craft_desert_locator.title`
+  - ZH: `鞋中沙`
+  - EN: `鞋中 Sand`
+- `advancements.da.craft_desert_locator.description`
+  - ZH: `制作荒芜饰品`
+  - EN: `Craft荒芜饰品`
+- `advancements.da.craft_cooked_beetle_morsel.title`
+  - ZH: `食虫者`
+  - EN: `食虫者`
+- `advancements.da.craft_cooked_beetle_morsel.description`
+  - ZH: `烹饪一个甲虫块`
+  - EN: `烹饪一个甲虫 Block`
+- `advancements.da.craft_aegyptian_flute.title`
+  - ZH: `甲虫笛手`
+  - EN: `甲虫笛手`
+- `advancements.da.craft_aegyptian_flute.description`
+  - ZH: `制作古埃及之笛`
+  - EN: `Craft古埃及之笛`
+- `advancements.da.craft_kopis.description`
+  - ZH: `制作古埃及切割者`
+  - EN: `Craft古埃及切割者`
+- `advancements.da.craft_everator_shield.title`
+  - ZH: `壮如坚墙`
+  - EN: `壮如坚墙`
+- `advancements.da.craft_everator_shield.description`
+  - ZH: `打造永恒之护`
+  - EN: `打造永恒之护`
+- `advancements.da.craft_fiery_respite.title`
+  - ZH: `火焰啊火焰!`
+  - EN: `Flame啊 Flame!`
+- `advancements.da.craft_fiery_respite.description`
+  - ZH: `制作一瓶火焰喘息`
+  - EN: `Craft一瓶 Flame喘息`
+- `advancements.da.craft_colossus_mace.title`
+  - ZH: `庞然之撼`
+  - EN: `庞然之撼`
+- `advancements.da.craft_colossus_mace.description`
+  - ZH: `打造巨像之锤。`
+  - EN: `打造巨像之锤。`
+- `advancements.da.craft_colossus_chestplate.title`
+  - ZH: `而坚毅如钢`
+  - EN: `而坚毅如钢`
+- `advancements.da.craft_colossus_chestplate.description`
+  - ZH: `制作上古巨人胸甲`
+  - EN: `Craft上古巨人 Chestplate`
+- `advancements.da.craft_golden_devotion.title`
+  - ZH: `唯毅力不倒`
+  - EN: `唯毅力不倒`
+- `advancements.da.craft_golden_devotion.description`
+  - ZH: `制作一瓶黄金虔诚`
+  - EN: `Craft一瓶黄 Gold虔诚`
+- `advancements.da.craft_exalted_kopis.title`
+  - ZH: `大师之愿`
+  - EN: `大师之愿`
+- `advancements.da.craft_exalted_kopis.description`
+  - ZH: `打造尊荣之切`
+  - EN: `打造尊荣之切`
+- `advancements.da.craft_golden_mark_trinket.title`
+  - ZH: `仇恨标记`
+  - EN: `仇恨标记`
+- `advancements.da.craft_golden_mark_trinket.description`
+  - ZH: `制作黄金印记`
+  - EN: `Craft黄 Gold印记`
+- `advancements.da.craft_warlord_helmet.title`
+  - ZH: `战火如我`
+  - EN: `战火如我`
+- `advancements.da.craft_warlord_helmet.description`
+  - ZH: `制作上古战神头盔。`
+  - EN: `Craft上古战神 Helmet。`
+- `advancements.da.craft_golden_vow.title`
+  - ZH: `天光映我身形`
+  - EN: `天光映我身形`
+- `advancements.da.craft_golden_vow.description`
+  - ZH: `制作一瓶金誓盟约`
+  - EN: `Craft一瓶 Gold誓盟约`
+
+## db
+
+- `tile.disappearing_spawner.name`
+  - ZH: `正在消失的刷怪笼`
+  - EN: `正在消失的刷怪笼`
+- `tile.mega_structure_block.name`
+  - ZH: `巨型结构`
+  - EN: `Mega Structure Block`
+- `tile.temple_brick.name`
+  - ZH: `神殿砖`
+  - EN: `神殿 Brick`
+- `tile.temple_brick_stairs.name`
+  - ZH: `神殿砖楼梯`
+  - EN: `神殿 Brick Stairs`
+- `tile.temple_brick_slab_half.name`
+  - ZH: `神殿石半砖`
+  - EN: `神殿石半 Brick`
+- `tile.temple_brick_slab_double.name`
+  - ZH: `双层神殿石砖`
+  - EN: `双层神殿 Stone Bricks`
+- `tile.temple_cobble_slab_half.name`
+  - ZH: `神殿圆石半砖`
+  - EN: `神殿圆石半 Brick`
+- `tile.temple_cobble_slab_double.name`
+  - ZH: `双层神殿圆石砖`
+  - EN: `双层神殿圆 Stone Bricks`
+- `tile.temple_pillar.name`
+  - ZH: `神殿柱`
+  - EN: `神殿柱`
+- `tile.temple_polish.name`
+  - ZH: `平滑神殿砖`
+  - EN: `平滑神殿 Brick`
+- `tile.temple_cobble.name`
+  - ZH: `神殿圆石`
+  - EN: `神殿圆石`
+- `tile.temple_gold_brick.name`
+  - ZH: `金神殿砖`
+  - EN: `Gold神殿 Brick`
+- `tile.gold_chisle_brick.name`
+  - ZH: `金雕饰砖`
+  - EN: `Gold雕饰 Brick`
+- `tile.temple_chisle_brick.name`
+  - ZH: `神殿雕饰砖`
+  - EN: `神殿雕饰 Brick`
+- `tile.temple_lamp.name`
+  - ZH: `神殿灯`
+  - EN: `神殿灯`
+- `entity.hierophant.name`
+  - ZH: `希罗芬特`
+  - EN: `希罗芬特`
+- `entity.claw.name`
+  - ZH: `远古海刺陷阱`
+  - EN: `远古海刺陷阱`
+- `entity.static_box.name`
+  - ZH: `爪之掌握`
+  - EN: `Claw之掌握`
+- `entity.entity_aura.name`
+  - ZH: `希罗芬特之目`
+  - EN: `希罗芬特之目`
+- `entity.entity_jail.name`
+  - ZH: `希罗芬特之囚`
+  - EN: `希罗芬特之囚`
+- `entity.claw_two.name`
+  - ZH: `夹子陷阱`
+  - EN: `夹子陷阱`
+- `item.orb.name`
+  - ZH: `诡异宝珠`
+  - EN: `诡异宝珠`
+- `item.staff.name`
+  - ZH: `被遗忘之人`
+  - EN: `被遗忘之人`
+- `entity.thrall.name`
+  - ZH: `被奴役之人`
+  - EN: `被奴役之人`
+- `entity.hiero_spike.name`
+  - ZH: `刺钉`
+  - EN: `刺钉`
+- `entity.hiero_spike_up.name`
+  - ZH: `升起的刺钉`
+  - EN: `升起的刺钉`
+- `death.attack.db:maelstrom`
+  - ZH: `%1$s 屈于虚空`
+  - EN: `%1$s 屈于 Void`
+- `death.attack.db:mobMaelstrom`
+  - ZH: `%1$s 被 %2$s 击杀`
+  - EN: `%1$s 被 %2$s 击杀`
+- `death.attack.db:playerMaelstrom`
+  - ZH: `%1$s 被 %2$s 击杀`
+  - EN: `%1$s 被 %2$s 击杀`
+- `death.attack.db:thrownMaelstrom`
+  - ZH: `%1$s 被 %2$s 砸死`
+  - EN: `%1$s 被 %2$s 砸死`
+- `death.attack.db:explosionMaelstrom`
+  - ZH: `%1$s 被炸死`
+  - EN: `%1$s 被炸死`
+- `death.attack.db:explosionMaelstrom.player`
+  - ZH: `%1$s 在与 %2$s 战斗时被炸碎`
+  - EN: `%1$s 在与 %2$s 战斗时被炸碎`
+- `death.attack.db:magicMaelstrom`
+  - ZH: `%1$s 被 %2$s 施了魔法`
+  - EN: `%1$s 被 %2$s 施了魔法`
+- `db.desc.staff_desc`
+  - ZH: `一根神秘的法杖，似乎有希罗芬特使用的一些力量.早已失传，早已被遗忘......`
+  - EN: `一根 Mystical的 Staff，似乎有希罗芬特 Use的一些 Strength.早已失传，早已被遗忘......`
+
+## ee
+
+- `item.invisible.name`
+  - ZH: `隐形物品`
+  - EN: `隐形 Item`
+- `item.crystalball.name`
+  - ZH: `水晶刺球`
+  - EN: `Crystal刺球`
+- `item.spinsword.name`
+  - ZH: `千刃剑`
+  - EN: `千刃 Sword`
+- `item.lamented.name`
+  - ZH: `哀影之眼`
+  - EN: `哀影之眼`
+- `item.sword.name`
+  - ZH: `哀影之剑`
+  - EN: `哀影之 Sword`
+- `item.endfall_sword.name`
+  - ZH: `末路之剑`
+  - EN: `末路之 Sword`
+- `item.end_info_book.name`
+  - ZH: `末地指南`
+  - EN: `The End指南`
+- `entity.end_king.name`
+  - ZH: `灰烬之王`
+  - EN: `Ash之王`
+- `entity.red_crystal.name`
+  - ZH: `邪恶尖刺`
+  - EN: `Red Crystal`
+- `entity.red_sword.name`
+  - ZH: `邪恶之剑`
+  - EN: `邪恶之 Sword`
+- `entity.fire_ball_red.name`
+  - ZH: `邪恶火球`
+  - EN: `邪恶火球`
+- `entity.nuke.name`
+  - ZH: `邪恶核弹`
+  - EN: `邪恶核弹`
+- `entity.crystal_boss.name`
+  - ZH: `哀影者`
+  - EN: `哀影者`
+- `entity.end_knight.name`
+  - ZH: `堕落骑士`
+  - EN: `堕落骑士`
+- `entity.end_mage.name`
+  - ZH: `堕落法师`
+  - EN: `堕落法师`
+- `entity.end_shield.name`
+  - ZH: `堕落守卫`
+  - EN: `堕落守卫`
+- `entity.snatcher.name`
+  - ZH: `末地潜行者`
+  - EN: `The End潜行者`
+- `entity.end_lord.name`
+  - ZH: `邪恶骑士`
+  - EN: `邪恶骑士`
+- `entity.heal_aura.name`
+  - ZH: `治疗光环`
+  - EN: `治疗光环`
+- `entity.buffker.name`
+  - ZH: `潜影构装体`
+  - EN: `潜影构装体`
+- `entity.crystal_ball.name`
+  - ZH: `尖刺水晶`
+  - EN: `尖刺 Crystal`
+- `entity.purple_ball.name`
+  - ZH: `充能水晶`
+  - EN: `Charge Crystal`
+- `entity.crytsal_ground.name`
+  - ZH: `哀影者的尖刺`
+  - EN: `哀影者的尖刺`
+- `entity.entity_idle.name`
+  - ZH: `空置生物`
+  - EN: `空置生物`
+- `entity.end_bug.name`
+  - ZH: `灰烬寄生虫`
+  - EN: `Ash寄生虫`
+- `entity.ghost_king_phase.name`
+  - ZH: `灰烬之王的幽灵`
+  - EN: `Ash之王的幽灵`
+- `entity.ring_eye.name`
+  - ZH: `王之凝视`
+  - EN: `王之凝视`
+- `entity.controller.name`
+  - ZH: `古镀灵`
+  - EN: `古镀灵`
+- `entity.lame_eye.name`
+  - ZH: `哀影之眼`
+  - EN: `哀影之眼`
+- `entity.ghost_arm.name`
+  - ZH: `王之幽灵手臂`
+  - EN: `王之幽灵手臂`
+- `entity.mini_nuke.name`
+  - ZH: `微型核弹`
+  - EN: `微型核弹`
+- `entity.pghost_king.name`
+  - ZH: `王的影子`
+  - EN: `王的影子`
+- `entity.end_seeker.name`
+  - ZH: `末地探索者`
+  - EN: `The End Explore者`
+- `entity.end_seeker_prime.name`
+  - ZH: `末地探索者长老`
+  - EN: `The End Explore者长老`
+- `entity.end_eye.name`
+  - ZH: `末影之眼`
+  - EN: `Eye of Ender`
+- `entity.sword_attack.name`
+  - ZH: `王之剑`
+  - EN: `王之 Sword`
+- `entity.friend_king.name`
+  - ZH: `灰烬之王的幽灵`
+  - EN: `Ash之王的幽灵`
+- `entity.golem_b.name`
+  - ZH: `荒芜傀儡`
+  - EN: `荒芜 Golem`
+- `entity.depths_chomper.name`
+  - ZH: `深渊吞噬者`
+  - EN: `Abyss吞噬者`
+- `entity.large_aoe.name`
+  - ZH: `大范围AOE攻击`
+  - EN: `大 RangeAOE攻击`
+- `entity.sword_spike.name`
+  - ZH: `吞噬者之牙`
+  - EN: `吞噬者之牙`
+- `entity.avalon.name`
+  - ZH: `阿瓦隆商人`
+  - EN: `阿瓦隆商人`
+- `entity.mini_avalon.name`
+  - ZH: `迷你阿瓦隆`
+  - EN: `迷你阿瓦隆`
+- `entity.aoe_avalon.name`
+  - ZH: `阿瓦隆的AOE攻击`
+  - EN: `阿瓦隆的AOE攻击`
+- `entity.barrend_parasite.name`
+  - ZH: `荒芜寄生虫`
+  - EN: `荒芜寄生虫`
+- `entity.lamentor_wave.name`
+  - ZH: `哀影者攻击波`
+  - EN: `哀影者攻击波`
+- `entity.lidoped.name`
+  - ZH: `利多普`
+  - EN: `利多普`
+- `entity.mad_spirit.name`
+  - ZH: `疯狂之灵`
+  - EN: `疯狂之灵`
+- `entity.void_tripod.name`
+  - ZH: `荒芜行者`
+  - EN: `荒芜行者`
+- `entity.big_rick.name`
+  - ZH: `进化荒芜寄生虫`
+  - EN: `进化荒芜寄生虫`
+- `entity.move_tile_aoe.name`
+  - ZH: `Boss AOE攻击波`
+  - EN: `Boss AOE攻击波`
+- `entity.parasite_bomb.name`
+  - ZH: `蓄电酸液炸弹`
+  - EN: `蓄电酸液炸弹`
+- `entity.parasite_bomb_aoe.name`
+  - ZH: `寄生虫酸液炸弹`
+  - EN: `寄生虫酸液炸弹`
+- `entity.barrend_guard.name`
+  - ZH: `秘境守卫`
+  - EN: `秘境守卫`
+- `entity.blood_slash.name`
+  - ZH: `领主血刃`
+  - EN: `领主血刃`
+- `tile.lamented_end_stone.name`
+  - ZH: `哀影末地石`
+  - EN: `哀影 End Stone`
+- `tile.end_ash.name`
+  - ZH: `灰烬末地石`
+  - EN: `Ash End Stone`
+- `tile.ash_brick.name`
+  - ZH: `灰烬砖`
+  - EN: `Ash Brick`
+- `tile.ash_brick_half.name`
+  - ZH: `灰烬砖台阶`
+  - EN: `Ash Brick Slab`
+- `tile.ash_brick_double.name`
+  - ZH: `双层灰烬砖台阶`
+  - EN: `双层 Ash Brick Slab`
+- `tile.end_brick_half.name`
+  - ZH: `末地石砖台阶`
+  - EN: `End Stone Brick Slab`
+- `tile.end_stone_stairs.name`
+  - ZH: `末地石砖楼梯`
+  - EN: `End Stone Brick Stairs`
+- `tile.end_stone_wall.name`
+  - ZH: `末地石砖墙`
+  - EN: `End Stone Brick墙`
+- `tile.end_brick_double.name`
+  - ZH: `双层末地石砖台阶`
+  - EN: `双层 End Stone Brick Slab`
+- `tile.ash_brick_stairs.name`
+  - ZH: `灰烬砖楼梯`
+  - EN: `Ash Brick Stairs`
+- `tile.ash_brick_wall.name`
+  - ZH: `灰烬砖墙`
+  - EN: `Ash Brick墙`
+- `tile.ash_brick_pillar.name`
+  - ZH: `灰烬支柱`
+  - EN: `Ash支柱`
+- `tile.ash_skull.name`
+  - ZH: `錾制灰烬骷髅砖`
+  - EN: `錾制 Ash Skeleton Brick`
+- `tile.brown_stone.name`
+  - ZH: `烧焦的末地石`
+  - EN: `烧焦的 End Stone`
+- `tile.brown_brick.name`
+  - ZH: `烧焦的末地砖`
+  - EN: `烧焦的 The End Brick`
+- `tile.brown_smooth.name`
+  - ZH: `烧焦的平滑末地石`
+  - EN: `烧焦的平滑 End Stone`
+- `tile.purple_crystal.name`
+  - ZH: `纯净水晶块`
+  - EN: `Purple Crystal`
+- `tile.purple_crystal_top.name`
+  - ZH: `小型纯净水晶块`
+  - EN: `小型纯净 Crystal Block`
+- `tile.door_on.name`
+  - ZH: `激活的信号控制块`
+  - EN: `Activate的信号控制 Block`
+- `tile.ash_door.name`
+  - ZH: `信号控制块`
+  - EN: `信号控制 Block`
+- `tile.reverse_on.name`
+  - ZH: `激活的反向信号块`
+  - EN: `Activate的反向信号 Block`
+- `tile.reverse_off.name`
+  - ZH: `反向信号块`
+  - EN: `反向信号 Block`
+- `tile.source_on.name`
+  - ZH: `激活的信号块`
+  - EN: `Activate的信号 Block`
+- `tile.source_off.name`
+  - ZH: `信号块`
+  - EN: `信号 Block`
+- `tile.ash_trap_floor.name`
+  - ZH: `灰烬陷阱块`
+  - EN: `Ash陷阱 Block`
+- `tile.ash_chisle.name`
+  - ZH: `錾制灰烬砖`
+  - EN: `錾制 Ash Brick`
+- `tile.end_barrier.name`
+  - ZH: `卢斯特里亚屏障`
+  - EN: `卢斯特里亚屏障`
+- `tile.end_door.name`
+  - ZH: `屏障生成器`
+  - EN: `屏障 Generate器`
+- `tile.red_crystal.name`
+  - ZH: `卢斯特里亚水晶块`
+  - EN: `Red Crystal`
+- `tile.red_crystal_top.name`
+  - ZH: `小型卢斯特里亚水晶块`
+  - EN: `小型卢斯特里亚 Crystal Block`
+- `tile.red_lamp.name`
+  - ZH: `灰烬动力灯`
+  - EN: `Ash动力灯`
+- `tile.key_block.name`
+  - ZH: `哀影钥匙孔`
+  - EN: `Key Block`
+- `tile.end_pillar.name`
+  - ZH: `末地石砖替代品`
+  - EN: `End Stone Brick替代品`
+- `tile.compulsor.name`
+  - ZH: `末影引力块`
+  - EN: `末影引力 Block`
+- `tile.mini_nuke.name`
+  - ZH: `微型核弹`
+  - EN: `微型核弹`
+- `tile.ash_key_block.name`
+  - ZH: `灰烬钥匙孔`
+  - EN: `Ash Key Block`
+- `tile.bare_sand.name`
+  - ZH: `荒芜砂岩`
+  - EN: `荒芜砂岩`
+- `tile.bare_stone.name`
+  - ZH: `荒芜石`
+  - EN: `荒芜石`
+- `tile.bare_stone_wall.name`
+  - ZH: `平滑荒芜石墙`
+  - EN: `平滑荒芜石墙`
+- `tile.bare_stone_half.name`
+  - ZH: `荒芜石台阶`
+  - EN: `荒芜石 Slab`
+- `tile.bare_stone_double.name`
+  - ZH: `双层荒芜石台阶`
+  - EN: `双层荒芜石 Slab`
+- `tile.bare_vine.name`
+  - ZH: `荒芜血藤`
+  - EN: `荒芜血藤`
+- `tile.bare_grass.name`
+  - ZH: `荒芜杂草`
+  - EN: `荒芜杂草`
+- `tile.bare_acid.name`
+  - ZH: `荒芜黏液`
+  - EN: `荒芜黏液`
+- `tile.eye_stone_lit.name`
+  - ZH: `荒芜狂乱之石`
+  - EN: `荒芜狂乱之石`
+- `fluid.bare_acid.name`
+  - ZH: `荒芜黏液`
+  - EN: `荒芜黏液`
+- `tile.eye_stone.name`
+  - ZH: `雕纹荒芜石`
+  - EN: `雕纹荒芜石`
+- `tile.bare_stone_smooth.name`
+  - ZH: `平滑荒芜石`
+  - EN: `平滑荒芜石`
+- `tile.bare_plant.name`
+  - ZH: `荒芜血草`
+  - EN: `荒芜血草`
+- `tile.bare_stairs.name`
+  - ZH: `荒芜石楼梯`
+  - EN: `荒芜石 Stairs`
+- `tile.bare_leaves.name`
+  - ZH: `荒芜树叶`
+  - EN: `荒芜树叶`
+- `tile.bare_bark.name`
+  - ZH: `荒芜原木`
+  - EN: `荒芜 Log`
+- `tile.bare_bark_hole.name`
+  - ZH: `荒芜树洞`
+  - EN: `荒芜树洞`
+- `tile.end_h_plant.name`
+  - ZH: `图里姆植物`
+  - EN: `图里姆 Plant`
+- `tile.ash_chute.name`
+  - ZH: `灰烬间歇泉`
+  - EN: `Ash间歇泉`
+- `tile.sprout_plant.name`
+  - ZH: `深渊藤芽`
+  - EN: `Abyss藤芽`
+- `tile.sprout_vine.name`
+  - ZH: `深渊藤蔓`
+  - EN: `Abyss藤蔓`
+- `tile.sprout_stone.name`
+  - ZH: `深渊覆藤石`
+  - EN: `Abyss覆藤石`
+- `tile.amber_ore.name`
+  - ZH: `心源矿石`
+  - EN: `Amber Ore`
+- `tile.ash_spawner.name`
+  - ZH: `已删除的灰烬刷怪笼`
+  - EN: `已删除的 Ash刷怪笼`
+- `tile.disappearing_spawner.name`
+  - ZH: `已删除的刷怪笼`
+  - EN: `已删除的刷怪笼`
+- `tile.mega_structure_block.name`
+  - ZH: `巨型结构块`
+  - EN: `Mega Structure Block`
+- `tile.amber_torch.name`
+  - ZH: `心源火把`
+  - EN: `心源火把`
+- `tile.smooth_obi.name`
+  - ZH: `古代平滑黑曜石`
+  - EN: `Ancient平滑 Obsidian`
+- `tile.eyed_obi.name`
+  - ZH: `古代有孔黑曜石`
+  - EN: `Ancient有孔 Obsidian`
+- `tile.obi_health.name`
+  - ZH: `阿瓦隆生命球`
+  - EN: `阿瓦隆 Life球`
+- `tile.stone_brick_wall.name`
+  - ZH: `石砖墙`
+  - EN: `Stone Bricks墙`
+- `tile.unending_arena.name`
+  - ZH: `荒芜竞技场刷怪笼`
+  - EN: `荒芜竞技场刷怪笼`
+- `tile.green_crystal.name`
+  - ZH: `瓦库安水晶块`
+  - EN: `Green Crystal`
+- `tile.green_crystal_top.name`
+  - ZH: `小型瓦库安水晶块`
+  - EN: `小型瓦库安 Crystal Block`
+- `tile.bark_hole_filled.name`
+  - ZH: `填满的荒芜树洞`
+  - EN: `填满的荒芜树洞`
+- `tile.bare_stone_cobble.name`
+  - ZH: `荒芜圆石`
+  - EN: `荒芜圆石`
+- `tile.bare_planks.name`
+  - ZH: `荒芜木板`
+  - EN: `荒芜 Planks`
+- `tile.bare_planks_stairs.name`
+  - ZH: `荒芜木楼梯`
+  - EN: `荒芜木 Stairs`
+- `tile.bare_planks_half.name`
+  - ZH: `荒芜木台阶`
+  - EN: `荒芜木 Slab`
+- `tile.bare_planks_double.name`
+  - ZH: `双层荒芜木台阶`
+  - EN: `双层荒芜木 Slab`
+- `tile.bare_bricks.name`
+  - ZH: `荒芜地牢砖`
+  - EN: `荒芜地牢 Brick`
+- `tile.bare_bricks_hole.name`
+  - ZH: `破损荒芜地牢砖`
+  - EN: `破损荒芜地牢 Brick`
+- `tile.bare_bricks_crack.name`
+  - ZH: `裂纹荒芜地牢砖`
+  - EN: `裂纹荒芜地牢 Brick`
+- `tile.bare_small_pot.name`
+  - ZH: `小型密室陶罐`
+  - EN: `小型密室陶罐`
+- `tile.bare_door.name`
+  - ZH: `荒芜大门`
+  - EN: `荒芜大门`
+- `tile.bare_door_connect.name`
+  - ZH: `荒芜大门连接器`
+  - EN: `荒芜大门 Connect器`
+- `item.key.name`
+  - ZH: `末地哀影钥匙`
+  - EN: `The End哀影钥匙`
+- `item.red_crystal_item.name`
+  - ZH: `卢斯特里亚水晶`
+  - EN: `卢斯特里亚 Crystal`
+- `item.purple_crystal_item.name`
+  - ZH: `纯净水晶`
+  - EN: `纯净 Crystal`
+- `item.infused_crystal.name`
+  - ZH: `灌注水晶`
+  - EN: `Infused Crystal`
+- `item.infusion_core.name`
+  - ZH: `灌注核心`
+  - EN: `灌注核心`
+- `item.stalker_hide.name`
+  - ZH: `潜行者皮`
+  - EN: `潜行者皮`
+- `item.carapace.name`
+  - ZH: `寄生虫甲壳`
+  - EN: `寄生虫甲壳`
+- `item.soul.name`
+  - ZH: `停滞灵魂`
+  - EN: `停滞 Soul`
+- `item.plate.name`
+  - ZH: `镀灵板`
+  - EN: `镀灵 Plate`
+- `item.medal.name`
+  - ZH: `被遗忘的徽章`
+  - EN: `被遗忘的徽章`
+- `item.dark_ingot.name`
+  - ZH: `焦铁锭`
+  - EN: `Dark Ingot`
+- `item.red_sword.name`
+  - ZH: `卢斯特里亚剑`
+  - EN: `卢斯特里亚 Sword`
+- `item.dark_helmet.name`
+  - ZH: `焦铁头盔`
+  - EN: `焦 Iron Helmet`
+- `item.dark_chestplate.name`
+  - ZH: `焦铁胸甲`
+  - EN: `焦 Iron Chestplate`
+- `item.bug_food.name`
+  - ZH: `寄生虫肉`
+  - EN: `寄生虫肉`
+- `item.end_bow.name`
+  - ZH: `末路之弓`
+  - EN: `末路之 Bow`
+- `item.red_chunk.name`
+  - ZH: `卢斯特里亚水晶碎片`
+  - EN: `卢斯特里亚 Crystal Fragment`
+- `item.purple_chunk.name`
+  - ZH: `纯净水晶碎片`
+  - EN: `纯净 Crystal Fragment`
+- `item.endfall_helmet.name`
+  - ZH: `末路头盔`
+  - EN: `末路 Helmet`
+- `item.endfall_chestplate.name`
+  - ZH: `末路胸甲`
+  - EN: `末路 Chestplate`
+- `item.endfall_leggings.name`
+  - ZH: `末路护腿`
+  - EN: `末路 Leggings`
+- `item.endfall_boots.name`
+  - ZH: `末路靴子`
+  - EN: `末路 Boots`
+- `item.endfall_pickaxe.name`
+  - ZH: `灌注镐`
+  - EN: `灌注 Pickaxe`
+- `item.efstaff.name`
+  - ZH: `末路法杖`
+  - EN: `末路 Staff`
+- `item.durable_shield.name`
+  - ZH: `镀灵盾`
+  - EN: `镀灵盾`
+- `item.ash_key.name`
+  - ZH: `末地灰烬钥匙`
+  - EN: `The End Ash钥匙`
+- `item.projpurp.name`
+  - ZH: `紫晶刺球`
+  - EN: `紫 Crystal刺球`
+- `item.gun.name`
+  - ZH: `推进枪`
+  - EN: `推进枪`
+- `item.heal_food.name`
+  - ZH: `图里姆球茎`
+  - EN: `图里姆球茎`
+- `item.king_crown.name`
+  - ZH: `旧时代王冠`
+  - EN: `旧时代王冠`
+- `item.amber_ingot.name`
+  - ZH: `心源锭`
+  - EN: `Amber Ingot`
+- `item.amber_raw.name`
+  - ZH: `心源粗矿`
+  - EN: `心源粗矿`
+- `item.amber_chestplate.name`
+  - ZH: `心源胸甲`
+  - EN: `心源 Chestplate`
+- `item.amber_helmet.name`
+  - ZH: `心源头盔`
+  - EN: `心源 Helmet`
+- `item.amber_leggings.name`
+  - ZH: `心源护腿`
+  - EN: `心源 Leggings`
+- `item.amber_boots.name`
+  - ZH: `心源靴子`
+  - EN: `心源 Boots`
+- `item.brick_rod.name`
+  - ZH: `灰烬砖棍`
+  - EN: `Ash Brick棍`
+- `item.amber_axe.name`
+  - ZH: `心源斧`
+  - EN: `心源 Axe`
+- `item.chomper_tooth.name`
+  - ZH: `吞噬者之牙`
+  - EN: `吞噬者之牙`
+- `item.amber_dagger.name`
+  - ZH: `心源匕首`
+  - EN: `心源匕首`
+- `item.amber_pickaxe.name`
+  - ZH: `心源镐`
+  - EN: `心源 Pickaxe`
+- `item.mod_arrow_chomper.name`
+  - ZH: `吞噬者之箭`
+  - EN: `吞噬者之 Arrow`
+- `item.mod_arrow_unholy.name`
+  - ZH: `卢斯特里亚药箭`
+  - EN: `卢斯特里亚药 Arrow`
+- `item.mod_arrow_green.name`
+  - ZH: `瓦库安药箭`
+  - EN: `瓦库安药 Arrow`
+- `item.red_axe.name`
+  - ZH: `卢斯特里亚斧`
+  - EN: `卢斯特里亚 Axe`
+- `item.pure_axe.name`
+  - ZH: `终末反抗之斧`
+  - EN: `终末反抗之 Axe`
+- `item.amber_sword.name`
+  - ZH: `心源剑`
+  - EN: `心源 Sword`
+- `item.obi_coin.name`
+  - ZH: `阿瓦隆之币`
+  - EN: `阿瓦隆之币`
+- `item.bomb_proj.name`
+  - ZH: `阿瓦隆投掷物`
+  - EN: `阿瓦隆投掷物`
+- `item.green_orb.name`
+  - ZH: `荒芜投掷物`
+  - EN: `荒芜投掷物`
+- `item.lamented_islands_item.name`
+  - ZH: `哀影群岛画卷`
+  - EN: `哀影群岛画卷`
+- `item.arena_key_1.name`
+  - ZH: `一级荒芜竞技场钥匙`
+  - EN: `一级荒芜竞技场钥匙`
+- `item.arena_key_2.name`
+  - ZH: `二级荒芜竞技场钥匙`
+  - EN: `二级荒芜竞技场钥匙`
+- `item.arena_key_3.name`
+  - ZH: `三级荒芜竞技场钥匙`
+  - EN: `三级荒芜竞技场钥匙`
+- `item.arena_key_4.name`
+  - ZH: `四级荒芜竞技场钥匙`
+  - EN: `四级荒芜竞技场钥匙`
+- `item.arena_key_5.name`
+  - ZH: `五级荒芜竞技场钥匙`
+  - EN: `五级荒芜竞技场钥匙`
+- `item.green_chunk.name`
+  - ZH: `瓦库安水晶碎片`
+  - EN: `瓦库安 Crystal Fragment`
+- `item.green_crystal_item.name`
+  - ZH: `瓦库安水晶`
+  - EN: `瓦库安 Crystal`
+- `item.bloodweed_refined.name`
+  - ZH: `精炼血草`
+  - EN: `精炼血草`
+- `item.lidoped_shell.name`
+  - ZH: `利多普甲壳`
+  - EN: `利多普甲壳`
+- `item.lidoped_helmet.name`
+  - ZH: `利多普头盔`
+  - EN: `利多普 Helmet`
+- `item.lidoped_bucket.name`
+  - ZH: `桶装`
+  - EN: `桶装`
+- `item.spirit_goop.name`
+  - ZH: `疯狂黏液`
+  - EN: `疯狂黏液`
+- `item.ultra_goop.name`
+  - ZH: `魔法黏液合剂`
+  - EN: `魔法黏液合剂`
+- `item.memory_stone.name`
+  - ZH: `记忆之石`
+  - EN: `记忆之石`
+- `item.parasitebomb.name`
+  - ZH: `充能寄生虫炸弹`
+  - EN: `Charge寄生虫炸弹`
+- `item.barrend_tablet.name`
+  - ZH: `Malid的庇护`
+  - EN: `Malid的庇护`
+- `item.blood_reinforce.name`
+  - ZH: `血草强化套件`
+  - EN: `血草 Enhanced套件`
+- `item.madness_berries.name`
+  - ZH: `灵莓`
+  - EN: `灵莓`
+- `item.madness_trinket.name`
+  - ZH: `敏捷护符`
+  - EN: `敏捷护符`
+- `item.mad_trinket.name`
+  - ZH: `疯狂护符`
+  - EN: `疯狂护符`
+- `item.bold_trinket.name`
+  - ZH: `勇气护符`
+  - EN: `勇气护符`
+- `item.amber_sword_reinforced.name`
+  - ZH: `强化心源剑`
+  - EN: `Enhanced心源 Sword`
+- `item.amber_dagger_reinforced.name`
+  - ZH: `强化心源匕首`
+  - EN: `Enhanced心源匕首`
+- `item.red_sword_reinforced.name`
+  - ZH: `强化卢斯特里亚剑`
+  - EN: `Enhanced卢斯特里亚 Sword`
+- `item.red_axe_reinforced.name`
+  - ZH: `强化卢斯特里亚斧`
+  - EN: `Enhanced卢斯特里亚 Axe`
+- `entity.acid_proj.name`
+  - ZH: `寄生酸液`
+  - EN: `寄生酸液`
+- `entity.bomb_proj.name`
+  - ZH: `阿瓦隆炸弹`
+  - EN: `阿瓦隆炸弹`
+- `entity.controller_lift.name`
+  - ZH: `镀灵发射点`
+  - EN: `镀灵发射点`
+- `entity.chomper_arrow.name`
+  - ZH: `吞噬者之箭`
+  - EN: `吞噬者之 Arrow`
+- `entity.unholy_arrow.name`
+  - ZH: `卢斯特里亚箭`
+  - EN: `卢斯特里亚 Arrow`
+- `entity.green_arrow.name`
+  - ZH: `瓦库安箭`
+  - EN: `瓦库安 Arrow`
+- `enitty.lamented_islands_painting.name`
+  - ZH: `哀影群岛画卷`
+  - EN: `哀影群岛画卷`
+- `itemGroup.expansion`
+  - ZH: `末地扩展`
+  - EN: `The End扩展`
+- `potion.corrupted`
+  - ZH: `狂暴之怒`
+  - EN: `狂暴之怒`
+- `potion.entrapped`
+  - ZH: `囚禁`
+  - EN: `囚禁`
+- `potion.the_madness`
+  - ZH: `疯狂`
+  - EN: `疯狂`
+- `ee.dialog.king_talk_0`
+  - ZH: `你就只会做这些吗...`
+  - EN: `你就只会做这些吗...`
+- `ee.dialog.king_talk_1`
+  - ZH: `你四处挥舞那把剑，挑战所有挡在你面前的人。`
+  - EN: `你四处挥舞那把 Sword，挑战所有挡在你面前的人。`
+- `ee.dialog.king_talk_2`
+  - ZH: `你和我比你想像的要有更多共同点。`
+  - EN: `你和我比你想像的要有更多共同点。`
+- `ee.dialog.king_talk_3`
+  - ZH: `你的旅程到此为止了...`
+  - EN: `你的旅程到此为止了...`
+- `ee.dialog.king_talk_4`
+  - ZH: `是时候把你的梦想埋葬了...`
+  - EN: `是时候把你的梦想埋葬了...`
+- `ee.dialog.king_talk_5`
+  - ZH: `旅行者...`
+  - EN: `旅行者...`
+- `ee.dialog.king_transform_1`
+  - ZH: `你的愤怒再次点燃我`
+  - EN: `你的愤怒再次点燃我`
+- `ee.dialog.king_death_1`
+  - ZH: `现在这片被诅咒的土地归你处理了... 旅行者...`
+  - EN: `现在这片被诅咒的 Dirt地归你处理了... 旅行者...`
+- `advancements.ee.root.title`
+  - ZH: `末地扩展`
+  - EN: `The End扩展`
+- `advancements.ee.root.description`
+  - ZH: `发现末地的新秘密。`
+  - EN: `Discover The End的新秘密。`
+- `advancements.ee.kill_constructor.title`
+  - ZH: `古老遗迹`
+  - EN: `古老遗迹`
+- `advancements.ee.kill_constructor.description`
+  - ZH: `击杀一只潜影构装体，或许可以试试用镐子？`
+  - EN: `击杀一只潜影构装体，或许可以试试用 Pickaxe子？`
+- `advancements.ee.kill_end_bug.title`
+  - ZH: `恐怖爬虫`
+  - EN: `恐怖爬虫`
+- `advancements.ee.kill_end_bug.description`
+  - ZH: `击杀一只灰烬寄生虫。`
+  - EN: `击杀一只 Ash寄生虫。`
+- `advancements.ee.kill_lamentor.title`
+  - ZH: `昔日统治者`
+  - EN: `昔日统治者`
+- `advancements.ee.kill_lamentor.description`
+  - ZH: `在哀影群岛击杀一位昔日的精英战士。`
+  - EN: `在哀影群岛击杀一位昔日的 Elite战士。`
+- `advancements.ee.kill_seeker.title`
+  - ZH: `你到底是什么？`
+  - EN: `你到底是什么？`
+- `advancements.ee.kill_seeker.description`
+  - ZH: `击杀一只末地探索者，仅存在于末地地牢中。`
+  - EN: `击杀一只 The End Explore者，仅存在于 The End地牢中。`
+- `advancements.ee.kill_vault.title`
+  - ZH: `地牢征服者`
+  - EN: `地牢征服者`
+- `advancements.ee.kill_vault.description`
+  - ZH: `享受潜藏在末地地牢底层的威胁。`
+  - EN: `享受潜藏在 The End地牢底层的威胁。`
+- `advancements.ee.kill_controller.title`
+  - ZH: `你用方块做什么？`
+  - EN: `你用 Block做什么？`
+- `advancements.ee.kill_controller.description`
+  - ZH: `击杀一只古镀灵，他们可能掉落一些有用的物品。`
+  - EN: `击杀一只古镀灵，他们可能掉落一些有用的 Item。`
+- `advancements.ee.kill_stalker.title`
+  - ZH: `紧盯目标！`
+  - EN: `紧盯目标！`
+- `advancements.ee.kill_stalker.description`
+  - ZH: `击杀一只末影潜行者，需要谨慎行事。`
+  - EN: `击杀一只末影潜行者，需要谨慎行事。`
+- `advancements.ee.kill_knight.title`
+  - ZH: `骑士杀手！`
+  - EN: `骑士杀手！`
+- `advancements.ee.kill_knight.description`
+  - ZH: `通过击败末地的骑士获得暗铁锭。`
+  - EN: `通过 Defeat The End的骑士 Obtain暗 Iron Ingot。`
+- `advancements.ee.kill_king.title`
+  - ZH: `黑暗堡垒`
+  - EN: `Darkness堡垒`
+- `advancements.ee.kill_king.description`
+  - ZH: `投下阴影之人位于堡垒之巅，祝你好运。`
+  - EN: `投下阴影之人位于堡垒之巅，祝你好运。`
+- `advancements.ee.kill_lord.title`
+  - ZH: `水晶的奥秘`
+  - EN: `Crystal的奥秘`
+- `advancements.ee.kill_lord.description`
+  - ZH: `击败堕落骑士，可以在堡垒中找到他，或在其他结构中偶尔出现。`
+  - EN: `Defeat堕落骑士，可以在堡垒中找到他，或在其他结构中偶尔出现。`
+- `advancements.ee.kill_barrend.title`
+  - ZH: `漫长的攀登`
+  - EN: `漫长的攀登`
+- `advancements.ee.kill_barrend.description`
+  - ZH: `击败占据灰烬高塔的生物。`
+  - EN: `Defeat占据 Ash高塔的生物。`
+- `advancements.ee.kill_chomper.title`
+  - ZH: `好吧，我让你睡`
+  - EN: `好吧，我让你睡`
+- `advancements.ee.kill_chomper.description`
+  - ZH: `击杀一只深渊吞噬者。`
+  - EN: `击杀一只 Abyss吞噬者。`
+- `advancements.ee.kill_avalon.title`
+  - ZH: `击杀阿瓦隆`
+  - EN: `击杀阿瓦隆`
+- `advancements.ee.kill_avalon.description`
+  - ZH: `位于被黑曜石柱包围的地表。`
+  - EN: `位于被 Obsidian柱包围的地表。`
+- `advancements.ee.kill_lidoped.title`
+  - ZH: `甜美的小东西`
+  - EN: `甜美的小东西`
+- `advancements.ee.kill_lidoped.description`
+  - ZH: `击败一只利多普，以解锁其相关条目。`
+  - EN: `Defeat一只利多普，以解锁其相关条目。`
+- `advancements.ee.craft_compulsor.title`
+  - ZH: `机器轰鸣...`
+  - EN: `Machine轰鸣...`
+- `advancements.ee.craft_compulsor.description`
+  - ZH: `制作或获取一个末影引力块`
+  - EN: `Craft或获取一个末影引力 Block`
+- `advancements.ee.craft_medal.title`
+  - ZH: `千眼勋章`
+  - EN: `千眼勋章`
+- `advancements.ee.craft_medal.description`
+  - ZH: `制作一枚勋章，据说它能给哀影之眼带来额外的用途。`
+  - EN: `Craft一枚勋章，据说它能给哀影之眼带来额外的用途。`
+- `advancements.ee.craft_book.title`
+  - ZH: `深入研究`
+  - EN: `深入 Research`
+- `advancements.ee.craft_book.description`
+  - ZH: `制作一本末地指南，它对探索末地非常有帮助。`
+  - EN: `Craft一本 The End指南，它对 Explore The End非常有帮助。`
+- `advancements.ee.turium.title`
+  - ZH: `最佳PvP物品！`
+  - EN: `最佳PvP Item！`
+- `advancements.ee.turium.description`
+  - ZH: `在末地地牢或地表发现的新食物来源。`
+  - EN: `在 The End地牢或地表 Discover的新食物来源。`
+- `advancements.ee.purple_find.title`
+  - ZH: `空心紫晶`
+  - EN: `空心紫 Crystal`
+- `advancements.ee.purple_find.description`
+  - ZH: `主要在末地地牢中发现，但在哀影群岛也偶尔可见。`
+  - EN: `主要在 The End地牢中 Discover，但在哀影群岛也偶尔可见。`
+- `advancements.ee.craft_shield.title`
+  - ZH: `魔法坦克`
+  - EN: `魔法坦克`
+- `advancements.ee.craft_shield.description`
+  - ZH: `只有最好的盾牌才能做到攻防兼备。`
+  - EN: `只有最好的 Shield才能做到攻防兼备。`
+- `advancements.ee.find_red.title`
+  - ZH: `末地之影`
+  - EN: `The End之影`
+- `advancements.ee.find_red.description`
+  - ZH: `进入荒原，击碎红色水晶...`
+  - EN: `Enter荒原，击碎红色 Crystal...`
+- `advancements.ee.find_core.title`
+  - ZH: `创造之钥`
+  - EN: `创造之钥`
+- `advancements.ee.find_core.description`
+  - ZH: `看来只有灰烬寄生虫有能力挖掘出这些？`
+  - EN: `看来只有 Ash寄生虫有能力挖掘出这些？`
+- `advancements.ee.craft_crystal.title`
+  - ZH: `拼图的一部分`
+  - EN: `拼图的一部分`
+- `advancements.ee.craft_crystal.description`
+  - ZH: `制作末路套装的重要组件之一。`
+  - EN: `Craft Crystal`
+- `advancements.ee.craft_brick.title`
+  - ZH: `深渊之砖`
+  - EN: `Abyss之 Brick`
+- `advancements.ee.craft_brick.description`
+  - ZH: `制作灰烬砖，可能对很多机器有用。`
+  - EN: `Craft Ash Brick，可能对很多 Machine有用。`
+- `advancements.ee.craft_lamp.title`
+  - ZH: `照亮黑暗`
+  - EN: `照亮 Darkness`
+- `advancements.ee.craft_lamp.description`
+  - ZH: `这些灯可能对你的建筑装饰很有用。`
+  - EN: `这些灯可能对你的建筑装饰很有用。`
+- `advancements.ee.craft_key.title`
+  - ZH: `无线红石？`
+  - EN: `无线 Redstone？`
+- `advancements.ee.craft_key.description`
+  - ZH: `制作一个信号控制块，用于无线激活其他机器。`
+  - EN: `Craft一个信号控制 Block，用于无线 Activate其他 Machine。`
+- `advancements.ee.craft_trap.title`
+  - ZH: `怪物农场9000`
+  - EN: `怪物农场9000`
+- `advancements.ee.craft_trap.description`
+  - ZH: `制作一个灰烬陷阱方块。`
+  - EN: `Craft一个 Ash陷阱 Block。`
+- `advancements.ee.craft_door.title`
+  - ZH: `此路不通`
+  - EN: `此路不通`
+- `advancements.ee.craft_door.description`
+  - ZH: `制作一个屏障生成器，也可作为桥梁。`
+  - EN: `Craft一个屏障 Generate器，也可作为桥梁。`
+- `advancements.ee.craft_dark_gear.title`
+  - ZH: `骑士精神`
+  - EN: `骑士 Spirit`
+- `advancements.ee.craft_dark_gear.description`
+  - ZH: `制作暗铁套装。`
+  - EN: `Craft暗 Iron套装。`
+- `advancements.ee.craft_infused_pickaxe.title`
+  - ZH: `最佳升级！`
+  - EN: `最佳 Upgrade！`
+- `advancements.ee.craft_infused_pickaxe.description`
+  - ZH: `制作一把灌注镐。`
+  - EN: `Craft一把灌注 Pickaxe。`
+- `advancements.ee.find_soul.title`
+  - ZH: `孤独的灵魂`
+  - EN: `孤独的 Soul`
+- `advancements.ee.find_soul.description`
+  - ZH: `获得国王之魂。`
+  - EN: `Obtain国王之 Soul。`
+- `advancements.ee.craft_end_gear.title`
+  - ZH: `追随者们`
+  - EN: `追随者们`
+- `advancements.ee.craft_end_gear.description`
+  - ZH: `制作末地能提供的最好的最终装备！`
+  - EN: `Craft The End能提供的最好的最终装备！`
+- `advancements.ee.craft_staff.title`
+  - ZH: `解锁魔法！`
+  - EN: `解锁魔法！`
+- `advancements.ee.craft_staff.description`
+  - ZH: `制作一把末路法杖。`
+  - EN: `Craft一把末路 Staff。`
+- `advancements.ee.craft_end_sword.title`
+  - ZH: `灵魂之剑`
+  - EN: `Soul之 Sword`
+- `advancements.ee.craft_end_sword.description`
+  - ZH: `制作一把末路之剑。`
+  - EN: `Craft一把末路之 Sword。`
+- `advancements.ee.craft_end_bow.title`
+  - ZH: `无法触及！`
+  - EN: `无法触及！`
+- `advancements.ee.craft_end_bow.description`
+  - ZH: `制作一把末路之弓。`
+  - EN: `Craft一把末路之 Bow。`
+- `advancements.ee.craft_mini_nuke.title`
+  - ZH: `谁伤害了你？`
+  - EN: `谁 Damage了你？`
+- `advancements.ee.craft_mini_nuke.description`
+  - ZH: `制作一个微型核弹。`
+  - EN: `Craft一个微型核弹。`
+- `advancements.ee.find_cordium.title`
+  - ZH: `荒原深处`
+  - EN: `荒原深处`
+- `advancements.ee.find_cordium.decription`
+  - ZH: `在荒原深处发现新矿石。`
+  - EN: `在荒原深处 Discover新 Ore。`
+- `advancements.ee.craft_amber_armor.title`
+  - ZH: `现在你无处可藏！`
+  - EN: `现在你无处可藏！`
+- `advancements.ee.craft_amber_armor.description`
+  - ZH: `制作一整套心源盔甲。`
+  - EN: `Craft一整套心源 Armor。`
+- `advancements.ee.craft_amber_torch.title`
+  - ZH: `现在安全了吗？`
+  - EN: `现在安全了吗？`
+- `advancements.ee.craft_amber_torch.description`
+  - ZH: `制作心源火把。`
+  - EN: `Craft心源火把。`
+- `advancements.ee.find_coin.title`
+  - ZH: `末地之秘`
+  - EN: `The End之秘`
+- `advancements.ee.find_coin.description`
+  - ZH: `找到一枚阿瓦隆的硬币`
+  - EN: `找到一枚阿瓦隆的硬币`
+- `advancements.ee.craft_memory_stone.title`
+  - ZH: `潜藏之恶`
+  - EN: `潜藏之恶`
+- `advancements.ee.craft_memory_stone.description`
+  - ZH: `制作一块记忆之石。`
+  - EN: `Craft一 Block记忆之石。`
+- `advancements.ee.find_arena_key.title`
+  - ZH: `竞技场在等你！`
+  - EN: `竞技场在等你！`
+- `advancements.ee.find_arena_key.description`
+  - ZH: `找到一把一级荒芜竞技场钥匙。`
+  - EN: `找到一把一级荒芜竞技场钥匙。`
+- `ee.status.ash_key_block`
+  - ZH: `您尚未击败哀影者`
+  - EN: `Ash Key Block`
+- `ee.status.arena_block`
+  - ZH: `您尚未击败一位末地探索者长老`
+  - EN: `Arena Block`
+- `ee.status.barrend_crypt`
+  - ZH: `您尚未击败灰烬之王`
+  - EN: `您尚未 Defeat Ash之王`
+- `ee.desc.amber_desc`
+  - ZH: `全套装备提供急迫效果，并使你能够看见附近的生物`
+  - EN: `全套装备提供急迫效果，并使你能够看见附近的生物`
+- `ee.desc.dimensional_key`
+  - ZH: `右击哀影钥匙孔以唤醒哀影者`
+  - EN: `右击哀影钥匙孔以唤醒哀影者`
+- `ee.desc.lamented_eye`
+  - ZH: `右击获得一段时间的漂浮IV`
+  - EN: `右击 Obtain一段时间的漂浮IV`
+- `ee.desc.sword_desc`
+  - ZH: `哀影之剑，一把迅捷而致命的利刃。右击使用能力`
+  - EN: `哀影之 Sword，一把迅捷而致命的利刃。右击 Use能力`
+- `ee.desc.red_crystal`
+  - ZH: `一种不稳定的晶体，用于激活各种机器和制作装备`
+  - EN: `Red Crystal`
+- `ee.desc.purple_crystal`
+  - ZH: `一种稳定的晶体，用于改变重力和增强魔法物品`
+  - EN: `Purple Crystal`
+- `ee.desc.infuse`
+  - ZH: `通过结合两种晶体，你现在解锁了新的潜能...`
+  - EN: `通过结合两种 Crystal，你现在解锁了新的潜能...`
+- `ee.desc.core`
+  - ZH: `一种能够在工作台中将两种晶体结合在一起的组件`
+  - EN: `一种能够在 Crafting Table中将两种 Crystal结合在一起的组件`
+- `ee.desc.guide`
+  - ZH: `一本小型手册，涵盖了末地拓展的所有内容`
+  - EN: `一本小型手册，涵盖了 The End拓展的所有内容`
+- `ee.desc.unholy_sword_desc`
+  - ZH: `被狂暴之怒诅咒`
+  - EN: `被狂暴之怒诅咒`
+- `ee.desc.medal_desc`
+  - ZH: `使用这枚奖章将召唤一只眼睛。当生物靠近时，会被随机传送远离你`
+  - EN: `Use这枚奖章将召唤一只眼睛。当生物靠近时，会被随机传送远离你`
+- `ee.desc.efsword_desc`
+  - ZH: `经过校准和完善，右击将召唤一只幽灵手臂在你面前挥动`
+  - EN: `经过校准和完善，右击将召唤一只幽灵手臂在你面前挥动`
+- `ee.desc.nuke_desc`
+  - ZH: `一种由原始邪恶能量制成的核武器，结果可能导致混乱`
+  - EN: `一种由原始邪恶 Energy制成的核 Weapon，结果可能导致混乱`
+- `ee.desc.bow_desc`
+  - ZH: `当放在主手时，任何靠得太近的生物都将受到千剑的攻击`
+  - EN: `当放在主手时，任何靠得太近的生物都将受到千 Sword的攻击`
+- `ee.desc.shield_name_desc`
+  - ZH: `镀灵盾`
+  - EN: `镀灵盾`
+- `ee.desc.shield_desc`
+  - ZH: `当你防御时，将在周围召唤一圈尖刺`
+  - EN: `当你 Defense时，将在周围召唤一圈尖刺`
+- `ee.desc.dark_desc`
+  - ZH: `全套装备可无视狂暴之怒效果`
+  - EN: `全套装备可无视狂暴之怒效果`
+- `ee.desc.compulsor_desc`
+  - ZH: `激活后，此机器会吸引任何物品/实体到其位置。非常适合怪物农场`
+  - EN: `Activate后，此 Machine会吸引任何 Item/实体到其位置。非常适合怪物农场`
+- `ee.desc.ash_key_desc`
+  - ZH: `右击灰烬钥匙孔以唤醒灰烬之王`
+  - EN: `右击 Ash钥匙孔以唤醒 Ash之王`
+- `ee.desc.ef_desc`
+  - ZH: `全套装备提供速度I，跳跃提升I`
+  - EN: `全套装备提供 SpeedI，跳跃 EnhanceI`
+- `ee.desc.efstaff_desc`
+  - ZH: `右键将击飞敌人并施加狂暴之怒，左键将发射一个投掷物`
+  - EN: `右键将击飞敌人并施加狂暴之怒，左键将发射一个投掷物`
+- `ee.desc.gun_desc`
+  - ZH: `这是末地探索者身体能发射晶体的有趣部位`
+  - EN: `这是 The End Explore者身体能发射 Crystal的有趣部位`
+- `ee.desc.hf_desc`
+  - ZH: `食用后将获得短暂的再生II，食用过多可能会导致不好的事情发生`
+  - EN: `食用后将 Obtain短暂的再生II，食用过多可能会导致不好的事情发生`
+- `ee.desc.crown_desc`
+  - ZH: `拥有这件宝物，就能够召唤出荒原神将，灰烬之王！`
+  - EN: `拥有这件宝物，就能够召唤出荒原神将，Ash之王！`
+- `ee.desc.dagger_desc`
+  - ZH: `右击将使你向后弹射并获得一段时间的速度II`
+  - EN: `右击将使你向后弹射并 Obtain一段时间的 SpeedII`
+- `ee.desc.desc_amber_torch`
+  - ZH: `虽然只是一支火把，但它能赶走靠近的末地潜行者`
+  - EN: `虽然只是一支火把，但它能赶走靠近的 The End潜行者`
+- `ee.desc.red_axe_desc`
+  - ZH: `被狂暴之怒诅咒，右击将获得一段时间的力量II`
+  - EN: `被狂暴之怒诅咒，右击将 Obtain一段时间的 StrengthII`
+- `ee.desc.pure_axe_desc`
+  - ZH: `一件遗失在时间长河中的罕见武器，右击将使你跳向空中，在空中停留的时间越长，落地时的冲击力越大`
+  - EN: `一件遗失在时间长河中的罕见 Weapon，右击将使你跳向空中，在空中停留的时间越长，落地时的冲击力越大`
+- `ee.desc.amber_sword_desc`
+  - ZH: `右击将在你附近的实体下方召唤尖刺`
+  - EN: `右击将在你附近的实体下方召唤尖刺`
+- `ee.desc.coin_desc`
+  - ZH: `在阿瓦隆面前投掷此硬币，你将获得一份特别奖励`
+  - EN: `在阿瓦隆面前投掷此硬币，你将 Obtain一份特别奖励`
+- `ee.desc.painting_desc`
+  - ZH: `哀影者自我囚禁的失落之地`
+  - EN: `哀影者自我囚禁的失落之地`
+- `ee.desc.arena_key_desc`
+  - ZH: `在荒芜沼泽生物群中的竞技场使用，等级对应难度。更多信息请阅读荒芜沼泽相关介绍`
+  - EN: `在荒芜沼泽生物群中的竞技场 Use，Level对应难度。更多信息请阅读荒芜沼泽相关介绍`
+- `ee.desc.green_crystal`
+  - ZH: `散发出未知能量，使用时需小心。这里的野生动物似乎不太喜欢它`
+  - EN: `Green Crystal`
+- `ee.desc.bloodweed_refined_desc`
+  - ZH: `与灌注水晶结合后，会变得异常坚固`
+  - EN: `与灌注 Crystal结合后，会变得异常坚固`
+- `ee.desc.lidoped_helmet_desc`
+  - ZH: `穿戴后能够清除疯狂效果`
+  - EN: `穿戴后能够清除疯狂效果`
+- `ee.desc.ultra_goop_desc`
+  - ZH: `在铁砧上使用它可将任何末地扩张的武器或盔甲修复至满耐久度`
+  - EN: `在 Anvil上 Use它可将任何 The End扩张的 Weapon或 Armor修复至满耐久度`
+- `ee.desc.blood_armor_desc`
+  - ZH: `在铁砧上使用它可升级非BOSS近战武器，提升伤害并减少冷却时间`
+  - EN: `在 Anvil上 Use它可 Upgrade非BOSS近战 Weapon，Enhance Damage并 Decrease Cooling时间`
+- `ee.desc.barrend_tablet_desc`
+  - ZH: `位于主手或副手并受到疯狂效果影响时，你将获得抗性提升`
+  - EN: `位于主手或副手并受到疯狂效果影响时，你将 Obtain Resistance Enhance`
+- `ee.desc.fast_trinket_desc`
+  - ZH: `右击将使你向后弹射，并在原位产生范围伤害`
+  - EN: `右击将使你向后弹射，并在原位产生 Range Damage`
+- `ee.desc.reinforced_amber_desc`
+  - ZH: `右击将在你附近的实体下方召唤尖刺，冷却时间减少`
+  - EN: `右击将在你附近的实体下方召唤尖刺，Cooling时间 Decrease`
+- `ee.desc.reinforced_amber_dagger`
+  - ZH: `右击将使你向后弹射并获得一段时间的速度II。冷却时间和伤害减少`
+  - EN: `右击将使你向后弹射并 Obtain一段时间的 SpeedII。Cooling时间和 Damage Decrease`
+- `ee.desc.reinforced_red_sword`
+  - ZH: `被狂暴之怒诅咒`
+  - EN: `被狂暴之怒诅咒`
+- `ee.desc.reinforced_red_axe`
+  - ZH: `被狂暴之怒诅咒，右击将获得一段时间的力量II，冷却时间减少`
+  - EN: `被狂暴之怒诅咒，右击将 Obtain一段时间的 StrengthII，Cooling时间 Decrease`
+- `ee.desc.madness_berries_desc`
+  - ZH: `提供长时间的再生II效果，但会附加疯狂效果`
+  - EN: `提供长时间的再生II效果，但会附加疯狂效果`
+- `ee.desc.mad_trinket_desc`
+  - ZH: `Idea not in yet`
+  - EN: `Idea not in yet`
+- `ee.desc.bold_trinket_desc`
+  - ZH: `右击后短暂免疫伤害`
+  - EN: `右击后短暂 Immunity Damage`
+- `death.attack.ee:maelstrom`
+  - ZH: `%1$s 被虚空吞噬`
+  - EN: `%1$s 被 Void吞噬`
+- `death.attack.ee:mobMaelstrom`
+  - ZH: `%1$s 被 %2$s 杀死了`
+  - EN: `%1$s 被 %2$s 杀死了`
+- `death.attack.ee:playerMaelstrom`
+  - ZH: `%1$s 因 %2$s 而死`
+  - EN: `%1$s 因 %2$s 而死`
+- `death.attack.ee:thrownMaelstrom`
+  - ZH: `%1$s 被 %2$s 撞击而死`
+  - EN: `%1$s 被 %2$s 撞击而死`
+- `death.attack.ee:explosionMaelstrom`
+  - ZH: `%1$s 被炸死了`
+  - EN: `%1$s 被炸死了`
+- `death.attack.ee:explosionMaelstrom.player`
+  - ZH: `%1$s 在与 %2$s 的战斗中被炸飞了`
+  - EN: `%1$s 在与 %2$s 的战斗中被炸飞了`
+- `death.attack.ee:magicMaelstrom`
+  - ZH: `%1$s 被 %2$s 使用的魔法杀死了`
+  - EN: `%1$s 被 %2$s Use的魔法杀死了`
+- `title.locked_entry`
+  - ZH: `锁定条目`
+  - EN: `锁定条目`
+- `desc.locked_adv`
+  - ZH: `所需进度：`
+  - EN: `所需进度：`
+- `desc.intro_0`
+  - ZH: `众所周知，`
+  - EN: `众所周知，`
+- `desc.intro_1`
+  - ZH: `末地蕴藏着许多秘密。`
+  - EN: `The End蕴藏着许多秘密。`
+- `desc.intro_2`
+  - ZH: `这本书将作为你旅行的指南，`
+  - EN: `这本书将作为你旅行的指南，`
+- `desc.intro_3`
+  - ZH: `并在你探索时解锁新的笔记。`
+  - EN: `并在你 Explore时解锁新的笔记。`
+- `desc.intro_4`
+  - ZH: `但是，旅行者请小心，`
+  - EN: `但是，旅行者请小心，`
+- `desc.intro_5`
+  - ZH: `那里还有许多额外的威胁，`
+  - EN: `那里还有许多额外的威胁，`
+- `desc.intro_6`
+  - ZH: `需要你去发现！`
+  - EN: `需要你去 Discover！`
+- `desc.intro_7`
+  - ZH: ``
+  - EN: ``
+- `desc.intro_8`
+  - ZH: `解锁条目的关键在于：`
+  - EN: `解锁条目的关键在于：`
+- `desc.intro_9`
+  - ZH: `击败怪物、战胜Boss，`
+  - EN: `Defeat怪物、战胜Boss，`
+- `desc.intro_10`
+  - ZH: `以及发现模组中的资源。`
+  - EN: `以及 Discover模组中的资源。`
+- `desc.intro_11`
+  - ZH: ``
+  - EN: ``
+- `title.pure_cry_0`
+  - ZH: `纯净水晶`
+  - EN: `纯净 Crystal`
+- `title.pure_cry_1`
+  - ZH: `纯净水晶（续）`
+  - EN: `纯净 Crystal（续）`
+- `desc.pure_cry_6`
+  - ZH: `纯净水晶，`
+  - EN: `纯净 Crystal，`
+- `desc.pure_cry_7`
+  - ZH: `一种用于多个配方中的资源，`
+  - EN: `一种用于多个配方中的资源，`
+- `desc.pure_cry_8`
+  - ZH: `并且被视为末地发展的主要途径。`
+  - EN: `并且被视为 The End发展的主要途径。`
+- `desc.pure_cry_9`
+  - ZH: `然而，`
+  - EN: `然而，`
+- `desc.pure_cry_10`
+  - ZH: `它们很难找到，`
+  - EN: `它们很难找到，`
+- `desc.pure_cry_11`
+  - ZH: `只能在末地地牢或哀影群岛上找到。`
+  - EN: `只能在 The End地牢或哀影群岛上找到。`
+- `desc.pure_cry_12`
+  - ZH: `§5`
+  - EN: `§5`
+- `desc.cont_cry_6`
+  - ZH: `在收集到许多碎片后，`
+  - EN: `在 Collect到许多 Fragment后，`
+- `desc.cont_cry_7`
+  - ZH: `你可以将九个碎片结合在一起，`
+  - EN: `你可以将九个 Fragment结合在一起，`
+- `desc.cont_cry_8`
+  - ZH: `以形成一个更强大的水晶。`
+  - EN: `以形成一个更强大的 Crystal。`
+- `desc.cont_cry_9`
+  - ZH: `§5`
+  - EN: `§5`
+- `title.vaults_0`
+  - ZH: `末地地牢`
+  - EN: `The End地牢`
+- `desc.vaults_0`
+  - ZH: `这些结构隐藏在岛屿内部。`
+  - EN: `这些结构隐藏在岛屿内部。`
+- `desc.vaults_1`
+  - ZH: `不过，`
+  - EN: `不过，`
+- `desc.vaults_2`
+  - ZH: `发现它们的最佳途径是寻找其入口，`
+  - EN: `Discover它们的最佳途径是寻找其入口，`
+- `desc.vaults_3`
+  - ZH: `入口看起来就像末地中的一口井。`
+  - EN: `入口看起来就像 The End中的一口井。`
+- `desc.vaults_4`
+  - ZH: `在这些地牢里，`
+  - EN: `在这些地牢里，`
+- `desc.vaults_5`
+  - ZH: `你通常会发现纯净水晶，`
+  - EN: `你通常会 Discover纯净 Crystal，`
+- `desc.vaults_6`
+  - ZH: `它们通常被锁藏，`
+  - EN: `它们通常被锁藏，`
+- `desc.vaults_7`
+  - ZH: `因为它们被末地生物视为稀有资源。`
+  - EN: `因为它们被 The End生物视为 Rare资源。`
+- `desc.vaults_8`
+  - ZH: `§5`
+  - EN: `§5`
+- `desc.seeker_6`
+  - ZH: `末地地牢的主要守护者。`
+  - EN: `The End地牢的主要 Guardian者。`
+- `desc.seeker_7`
+  - ZH: `可能给予倒下的潜影构装体又一次机会，`
+  - EN: `可能给予倒下的潜影构装体又一次机会，`
+- `desc.seeker_8`
+  - ZH: `你会看到末地探索者的独眼`
+  - EN: `你会看到 The End Explore者的独眼`
+- `desc.seeker_9`
+  - ZH: `试图在潜影构装体倒下之前触碰它。`
+  - EN: `试图在潜影构装体倒下之前触碰它。`
+- `desc.seeker_10`
+  - ZH: `然而，`
+  - EN: `然而，`
+- `desc.seeker_11`
+  - ZH: `有时由于?????材料的原因，`
+  - EN: `有时由于?????材料的原因，`
+- `desc.seeker_12`
+  - ZH: `这可能会引起突变。`
+  - EN: `这可能会引起突变。`
+- `desc.guilder_6`
+  - ZH: `居住在末地的种族之一，`
+  - EN: `居住在 The End的种族之一，`
+- `desc.guilder_7`
+  - ZH: `以改变方块的能力而著称。`
+  - EN: `以改变 Block的能力而著称。`
+- `desc.guilder_8`
+  - ZH: `通过与它们互动，`
+  - EN: `通过与它们互动，`
+- `desc.guilder_9`
+  - ZH: `可以更换它们头部内的方块。`
+  - EN: `可以更换它们头部内的 Block。`
+- `desc.guilder_10`
+  - ZH: `然后它们会寻找那个方块，`
+  - EN: `然后它们会寻找那个 Block，`
+- `desc.guilder_11`
+  - ZH: `并将其改变为另一种方块。`
+  - EN: `并将其改变为另一种 Block。`
+- `desc.guilder_12`
+  - ZH: `§5`
+  - EN: `§5`
+- `title.chart_1`
+  - ZH: `古镀灵转换图表`
+  - EN: `古镀灵转换图表`
+- `title.chart_1_cont`
+  - ZH: `转换图表（续）`
+  - EN: `转换图表（续）`
+- `desc.chart_6`
+  - ZH: `这里是详细转换图表`
+  - EN: `这里是详细转换图表`
+- `desc.chart_7`
+  - ZH: `§5`
+  - EN: `§5`
+- `desc.chart_8`
+  - ZH: `第一格是与古镀灵互动的物品。`
+  - EN: `第一格是与古镀灵互动的 Item。`
+- `desc.chart_9`
+  - ZH: `第二格是需要古镀灵转换的方块。`
+  - EN: `第二格是需要古镀灵转换的 Block。`
+- `desc.chart_10`
+  - ZH: `第三格是转换后的方块。`
+  - EN: `第三格是转换后的 Block。`
+- `desc.chart_11`
+  - ZH: `§5`
+  - EN: `§5`
+- `desc.chart_12`
+  - ZH: `§5`
+  - EN: `§5`
+- `title.lame_0`
+  - ZH: `哀影群岛`
+  - EN: `哀影群岛`
+- `desc.lame_0`
+  - ZH: `Found as a structure in the base`
+  - EN: `Found as a structure in the base`
+- `desc.lame_1`
+  - ZH: `biome, the Lamented islands are seen`
+  - EN: `biome, the Lamented islands are seen`
+- `desc.lame_2`
+  - ZH: `as the End's strangest architecture.`
+  - EN: `as the End's strangest architecture.`
+- `desc.lame_3`
+  - ZH: `This structure acts like a jail cell`
+  - EN: `This structure acts like a jail cell`
+- `desc.lame_4`
+  - ZH: `where an ancient race remains trapped`
+  - EN: `where an ancient race remains trapped`
+- `desc.lame_5`
+  - ZH: `within. It is required to seek`
+  - EN: `within. It is required to seek`
+- `desc.lame_6`
+  - ZH: `out one of these buildings before`
+  - EN: `out one of these buildings before`
+- `desc.lame_7`
+  - ZH: `progressing to any other biomes. But`
+  - EN: `progressing to any other biomes. But`
+- `desc.lame_8`
+  - ZH: `be wary traveller, as danger is high`
+  - EN: `be wary traveller, as danger is high`
+- `desc.lame_9`
+  - ZH: `in Lamented Islands.`
+  - EN: `in Lamented Islands.`
+- `desc.lame_10`
+  - ZH: `Defeating the Lamentor is required`
+  - EN: `Defeating the Lamentor is required`
+- `desc.lame_11`
+  - ZH: `to progress in the mod.`
+  - EN: `to progress in the mod.`
+- `desc.cons_6`
+  - ZH: `哀影群岛中地牢的主要居民之一，`
+  - EN: `哀影群岛中地牢的主要居民之一，`
+- `desc.cons_7`
+  - ZH: `这些生物与潜影贝有关，`
+  - EN: `这些生物与潜影贝有关，`
+- `desc.cons_8`
+  - ZH: `但是移动更加灵活，行为更像傀儡。`
+  - EN: `但是移动更加灵活，行为更像 Golem。`
+- `desc.cons_9`
+  - ZH: `它们还能在普通的末地岛屿上生成，`
+  - EN: `它们还能在 Common的 The End岛屿上 Generate，`
+- `desc.cons_10`
+  - ZH: `尽管不如末影人常见，`
+  - EN: `尽管不如 Enderman常见，`
+- `desc.cons_11`
+  - ZH: `但它们也是潜影盒的重要来源。`
+  - EN: `但它们也是潜影盒的重要来源。`
+- `desc.cons_12`
+  - ZH: `§5`
+  - EN: `§5`
+- `desc.cons_13`
+  - ZH: `§5`
+  - EN: `§5`
+- `desc.cboss_6`
+  - ZH: `这些守卫者曾是末地最初的管理者。`
+  - EN: `这些 Guardian曾是 The End最初的管理者。`
+- `desc.cboss_7`
+  - ZH: `他们高超的剑术和敏捷的身手，`
+  - EN: `他们高超的 Sword术和敏捷的身手，`
+- `desc.cboss_8`
+  - ZH: `对灰烬之王的军队构成了巨大威胁。`
+  - EN: `对 Ash之王的军队构成了巨大威胁。`
+- `desc.cboss_9`
+  - ZH: `然而，`
+  - EN: `然而，`
+- `desc.cboss_10`
+  - ZH: `他们最终在那场导致灰烬荒原形成的`
+  - EN: `他们最终在那场导致 Ash荒原形成的`
+- `desc.cboss_11`
+  - ZH: `灾难性事件中落败。`
+  - EN: `灾难性事件中落败。`
+- `desc.cboss_12`
+  - ZH: `§5`
+  - EN: `§5`
+- `desc.cboss_13`
+  - ZH: `§5`
+  - EN: `§5`
+- `title.cboss_0`
+  - ZH: `哀影者（续）`
+  - EN: `哀影者（续）`
+- `skill.cboss_0`
+  - ZH: `激活位于哀影群岛中心的钥匙孔，`
+  - EN: `Activate位于哀影群岛中心的钥匙孔，`
+- `skill.cboss_1`
+  - ZH: `将召唤出他们中的一员。`
+  - EN: `将召唤出他们中的一员。`
+- `skill.cboss_2`
+  - ZH: `击败它后，`
+  - EN: `Defeat它后，`
+- `skill.cboss_3`
+  - ZH: `会掉落以下两件物品中的一件：`
+  - EN: `会掉落以下两件 Item中的一件：`
+- `skill.cboss_4`
+  - ZH: `其一是它的眼睛，`
+  - EN: `其一是它的眼睛，`
+- `skill.cboss_5`
+  - ZH: `使用可以获得一段时间的漂浮。`
+  - EN: `Use可以 Obtain一段时间的漂浮。`
+- `skill.cboss_6`
+  - ZH: `另一件是它的剑，`
+  - EN: `另一件是它的 Sword，`
+- `skill.cboss_7`
+  - ZH: `使用可以快速向一个方向冲刺。`
+  - EN: `Use可以快速向一个方向冲刺。`
+- `skill.cboss_8`
+  - ZH: `§5`
+  - EN: `§5`
+- `skill.cboss_9`
+  - ZH: `挑战哀影者绝非易事，`
+  - EN: `挑战哀影者绝非易事，`
+- `skill.cboss_10`
+  - ZH: `建议至少装备基础的钻石盔甲`
+  - EN: `建议至少装备基础的 Diamond Armor`
+- `skill.cboss_11`
+  - ZH: `以及一把配有充足箭矢的弓。`
+  - EN: `以及一把配有充足 Arrow的 Bow。`
+- `skill.cboss_12`
+  - ZH: `§5`
+  - EN: `§5`
+- `skill.cboss_13`
+  - ZH: `§5`
+  - EN: `§5`
+- `title.lame_eye_0`
+  - ZH: `被遗忘的徽章`
+  - EN: `被遗忘的徽章`
+- `skill.mdl_6`
+  - ZH: `这枚徽章在防御方面表现出色。`
+  - EN: `这枚徽章在 Defense方面表现出色。`
+- `skill.mdl_7`
+  - ZH: `当激活它时，`
+  - EN: `当 Activate它时，`
+- `skill.mdl_8`
+  - ZH: `一个哀影之眼将环绕在你周围盘旋。`
+  - EN: `一个哀影之眼将环绕在你周围盘旋。`
+- `skill.mdl_9`
+  - ZH: `当生物接近你时，`
+  - EN: `当生物接近你时，`
+- `skill.mdl_10`
+  - ZH: `哀影之眼会自动消失，`
+  - EN: `哀影之眼会自动消失，`
+- `skill.mdl_11`
+  - ZH: `并将怪物随机传送到远处。`
+  - EN: `并将怪物随机传送到远处。`
+- `title.shield_0`
+  - ZH: `镀灵盾`
+  - EN: `镀灵盾`
+- `skill.shield_6`
+  - ZH: `经过纯净水晶强化后，`
+  - EN: `经过纯净 Crystal Enhanced后，`
+- `skill.shield_7`
+  - ZH: `这面盾牌的远超普通盾牌。`
+  - EN: `这面 Shield的远超 Common Shield。`
+- `skill.shield_8`
+  - ZH: `在右键格挡时，`
+  - EN: `在右键格挡时，`
+- `skill.shield_9`
+  - ZH: `它会召唤出一圈尖刺环绕在你周围。`
+  - EN: `它会召唤出一圈尖刺环绕在你周围。`
+- `skill.shield_10`
+  - ZH: `这使得它的防御力大大增强，`
+  - EN: `这使得它的 Defense力大大增强，`
+- `skill.shield_11`
+  - ZH: `并进一步确保使用者的安全。`
+  - EN: `并进一步确保 Use者的安全。`
+- `skill.shield_12`
+  - ZH: `§5`
+  - EN: `§5`
+- `skill.shield_13`
+  - ZH: `§5`
+  - EN: `§5`
+- `title.compulsor_0`
+  - ZH: `末影引力块`
+  - EN: `末影引力 Block`
+- `block.cmp_6`
+  - ZH: `一个实用的机器，`
+  - EN: `一个实用的 Machine，`
+- `block.cmp_7`
+  - ZH: `被红石信号激活时，`
+  - EN: `被 Redstone信号 Activate时，`
+- `block.cmp_8`
+  - ZH: `它会吸引物品和生物，`
+  - EN: `它会吸引 Item和生物，`
+- `block.cmp_9`
+  - ZH: `这使得它在运输和怪物农场方面非常有用。`
+  - EN: `这使得它在运输和怪物农场方面非常有用。`
+- `block.cmp_10`
+  - ZH: `它也可以作为某些结构中陷阱的基础。`
+  - EN: `它也可以作为某些结构中陷阱的基础。`
+- `block.cmp_11`
+  - ZH: `§5`
+  - EN: `§5`
+- `block.cmp_12`
+  - ZH: `§5`
+  - EN: `§5`
+- `title.biome_0`
+  - ZH: `Ash Wastelands`
+  - EN: `Ash Wastelands`
+- `desc.ash_0`
+  - ZH: `This biome is the result of an`
+  - EN: `This biome is the result of an`
+- `desc.ash_1`
+  - ZH: `all out war. The End has never`
+  - EN: `all out war. The End has never`
+- `desc.ash_2`
+  - ZH: `seen anything of this scale, a vast`
+  - EN: `seen anything of this scale, a vast`
+- `desc.ash_3`
+  - ZH: ` part of the End is forever scarred.`
+  - EN: `part of the End is forever scarred.`
+- `desc.ash_4`
+  - ZH: `The biome shows this hostility with`
+  - EN: `The biome shows this hostility with`
+- `desc.ash_5`
+  - ZH: `the dark shroud that encompasses it`
+  - EN: `the dark shroud that encompasses it`
+- `desc.ash_6`
+  - ZH: `when entering. Limiting visibility`
+  - EN: `when entering. Limiting visibility`
+- `desc.ash_7`
+  - ZH: `to a short distance for those that`
+  - EN: `to a short distance for those that`
+- `desc.ash_8`
+  - ZH: `enter. However, life finds a way,`
+  - EN: `enter. However, life finds a way,`
+- `desc.ash_9`
+  - ZH: `and creatures have mutated to`
+  - EN: `and creatures have mutated to`
+- `desc.ash_10`
+  - ZH: `adopt this new environment and`
+  - EN: `adopt this new environment and`
+- `desc.ash_11`
+  - ZH: `is also birth of many new`
+  - EN: `is also birth of many new`
+- `desc.ash_12`
+  - ZH: `creations such as Lustrian`
+  - EN: `creations such as Lustrian`
+- `desc.ash_13`
+  - ZH: `crystals.`
+  - EN: `crystals.`
+- `desc.ash_block_6`
+  - ZH: `Created from End Ash, Ash Bricks`
+  - EN: `Created from End Ash, Ash Bricks`
+- `desc.ash_block_7`
+  - ZH: `are the new main block used in`
+  - EN: `are the new main block used in`
+- `desc.ash_block_8`
+  - ZH: `this biome. You can make all`
+  - EN: `this biome. You can make all`
+- `desc.ash_block_9`
+  - ZH: `the block variants plus they are`
+  - EN: `the block variants plus they are`
+- `desc.ash_block_10`
+  - ZH: `used within some of the`
+  - EN: `used within some of the`
+- `desc.ash_block_11`
+  - ZH: `contraptions that can be made`
+  - EN: `contraptions that can be made`
+- `desc.ash_block_12`
+  - ZH: `from the biome's resources.`
+  - EN: `from the biome's resources.`
+- `title.cont_red`
+  - ZH: `Lustrian Crystals Cont.`
+  - EN: `Lustrian Crystals Cont.`
+- `desc.red_6`
+  - ZH: `Found in Ash Wastelands, these`
+  - EN: `Found in Ash Wastelands, these`
+- `desc.red_7`
+  - ZH: `crystals are empowered with an`
+  - EN: `crystals are empowered with an`
+- `desc.red_8`
+  - ZH: `unsightly rage. Many creatures`
+  - EN: `unsightly rage. Many creatures`
+- `desc.red_9`
+  - ZH: `within the Ash wastelands can be`
+  - EN: `within the Ash wastelands can be`
+- `desc.red_10`
+  - ZH: `seen with traces of this crystal`
+  - EN: `seen with traces of this crystal`
+- `desc.red_11`
+  - ZH: `on there bodies. There is many`
+  - EN: `on there bodies. There is many`
+- `desc.red_12`
+  - ZH: `uses for this crystal however.`
+  - EN: `uses for this crystal however.`
+- `desc.cont_red_6`
+  - ZH: `Likewise with Pure Crystals`
+  - EN: `Likewise with Pure Crystals`
+- `desc.cont_red_7`
+  - ZH: `you can combine nine chunks to`
+  - EN: `you can combine nine chunks to`
+- `desc.cont_red_8`
+  - ZH: `create an Lustrian Crystal with`
+  - EN: `create an Lustrian Crystal with`
+- `desc.cont_red_9`
+  - ZH: `greater power imbued into it.`
+  - EN: `greater power imbued into it.`
+- `desc.lamp_6`
+  - ZH: `The common light source found`
+  - EN: `The common light source found`
+- `desc.lamp_7`
+  - ZH: `in the Ash Wastelands.`
+  - EN: `in the Ash Wastelands.`
+- `desc.hole_6`
+  - ZH: `These devices work in tandem`
+  - EN: `These devices work in tandem`
+- `desc.hole_7`
+  - ZH: `with Door Creators, upon entering`
+  - EN: `with Door Creators, upon entering`
+- `desc.hole_8`
+  - ZH: `a Lustrian crystal in it. It will`
+  - EN: `a Lustrian crystal in it. It will`
+- `desc.hole_9`
+  - ZH: `de-activate any Door Creators within`
+  - EN: `de-activate any Door Creators within`
+- `desc.hole_10`
+  - ZH: `7 blocks of each of it's axis.`
+  - EN: `7 blocks of each of it's axis.`
+- `desc.hole_11`
+  - ZH: `Used commonly in structures as a`
+  - EN: `Used commonly in structures as a`
+- `desc.hole_12`
+  - ZH: `gate to keep any unwanted pests`
+  - EN: `gate to keep any unwanted pests`
+- `desc.hole_13`
+  - ZH: `from entering.`
+  - EN: `from entering.`
+- `desc.crea_6`
+  - ZH: `This contraption when powered by`
+  - EN: `This contraption when powered by`
+- `desc.crea_7`
+  - ZH: `redstone, will create a 7 block`
+  - EN: `redstone, will create a 7 block`
+- `desc.crea_8`
+  - ZH: `barrier in the direction that it has`
+  - EN: `barrier in the direction that it has`
+- `desc.crea_9`
+  - ZH: `been placed. Can be used as doors,`
+  - EN: `been placed. Can be used as doors,`
+- `desc.crea_10`
+  - ZH: `bridges, and so on.`
+  - EN: `bridges, and so on.`
+- `desc.trap_6`
+  - ZH: `Ever wanted to have your base`
+  - EN: `Ever wanted to have your base`
+- `desc.trap_7`
+  - ZH: `protected? These devices don't`
+  - EN: `protected? These devices don't`
+- `desc.trap_8`
+  - ZH: `require redstone to be activated.`
+  - EN: `require redstone to be activated.`
+- `desc.trap_9`
+  - ZH: `They instead when any creature with`
+  - EN: `They instead when any creature with`
+- `desc.trap_10`
+  - ZH: `the exception of the Fell Knights,`
+  - EN: `the exception of the Fell Knights,`
+- `desc.trap_11`
+  - ZH: `will launch a spike from the floor`
+  - EN: `will launch a spike from the floor`
+- `desc.trap_12`
+  - ZH: `when stepped on. Ouch!`
+  - EN: `when stepped on. Ouch!`
+- `desc.brick_rod_6`
+  - ZH: `A common material used in weapon`
+  - EN: `A common material used in weapon`
+- `desc.brick_rod_7`
+  - ZH: `crafting and other misc. items`
+  - EN: `crafting and other misc. items`
+- `desc.brick_rod_8`
+  - ZH: `that you may come across.`
+  - EN: `that you may come across.`
+- `desc.amber_ore_6`
+  - ZH: `This ore is only found below Y`
+  - EN: `This ore is only found below Y`
+- `desc.amber_ore_7`
+  - ZH: `level 40 in the Depths part of`
+  - EN: `level 40 in the Depths part of`
+- `desc.amber_ore_8`
+  - ZH: `the Wastelands. It's properties`
+  - EN: `the Wastelands. It's properties`
+- `desc.amber_ore_9`
+  - ZH: `are quite unique as all weapons`
+  - EN: `are quite unique as all weapons`
+- `desc.amber_ore_10`
+  - ZH: `made from this perform vastly`
+  - EN: `made from this perform vastly`
+- `desc.amber_ore_11`
+  - ZH: `different.`
+  - EN: `different.`
+- `desc.amber_torch_6`
+  - ZH: `If you're having a problem`
+  - EN: `If you're having a problem`
+- `desc.amber_torch_7`
+  - ZH: `with Stalker's sneaking up`
+  - EN: `with Stalker's sneaking up`
+- `desc.amber_torch_8`
+  - ZH: `on you or you'd like to not`
+  - EN: `on you or you'd like to not`
+- `desc.amber_torch_9`
+  - ZH: `get spooked in a base you make.`
+  - EN: `get spooked in a base you make.`
+- `desc.amber_torch_10`
+  - ZH: `These torches for some reason,`
+  - EN: `These torches for some reason,`
+- `desc.amber_torch_11`
+  - ZH: `cause Stalker's to run away.`
+  - EN: `cause Stalker's to run away.`
+- `desc.amber_torch_12`
+  - ZH: `Maybe it's to bright for them?`
+  - EN: `Maybe it's to bright for them?`
+- `desc.amber_pickaxe_6`
+  - ZH: `A great option for those`
+  - EN: `A great option for those`
+- `desc.amber_pickaxe_7`
+  - ZH: `who don't wish to expand`
+  - EN: `who don't wish to expand`
+- `desc.amber_pickaxe_8`
+  - ZH: `there more precious tools`
+  - EN: `there more precious tools`
+- `desc.amber_pickaxe_9`
+  - ZH: `while mining in the`
+  - EN: `while mining in the`
+- `desc.amber_pickaxe_10`
+  - ZH: `wastelands.`
+  - EN: `wastelands.`
+- `desc.amber_axe_6`
+  - ZH: `While there may not be any`
+  - EN: `While there may not be any`
+- `desc.amber_axe_7`
+  - ZH: `Trees in the End, as of`
+  - EN: `Trees in the End, as of`
+- `desc.amber_axe_8`
+  - ZH: `currently. This axe proves`
+  - EN: `currently. This axe proves`
+- `desc.amber_axe_9`
+  - ZH: `superior with it's quicker`
+  - EN: `superior with it's quicker`
+- `desc.amber_axe_10`
+  - ZH: `attack speed and slightly`
+  - EN: `attack speed and slightly`
+- `desc.amber_axe_11`
+  - ZH: `more damage to other`
+  - EN: `more damage to other`
+- `desc.amber_axe_12`
+  - ZH: `axes.`
+  - EN: `axes.`
+- `desc.amber_dagger_6`
+  - ZH: `Not the highest of`
+  - EN: `Not the highest of`
+- `desc.amber_dagger_7`
+  - ZH: `durability, but this`
+  - EN: `durability, but this`
+- `desc.amber_dagger_8`
+  - ZH: `fiesty dagger provides a`
+  - EN: `fiesty dagger provides a`
+- `desc.amber_dagger_9`
+  - ZH: `nice dashing away from foes`
+  - EN: `nice dashing away from foes`
+- `desc.amber_dagger_10`
+  - ZH: `along with Speed II for`
+  - EN: `along with Speed II for`
+- `desc.amber_dagger_11`
+  - ZH: `a short period of time.`
+  - EN: `a short period of time.`
+- `desc.if_cry_6`
+  - ZH: `By combining both, you unlock a`
+  - EN: `By combining both, you unlock a`
+- `desc.if_cry_7`
+  - ZH: `new potential. Used as a major`
+  - EN: `new potential. Used as a major`
+- `desc.if_cry_8`
+  - ZH: `crafting material for the End's`
+  - EN: `crafting material for the End's`
+- `desc.if_cry_9`
+  - ZH: `finest armor, weapons, and magical`
+  - EN: `finest armor, weapons, and magical`
+- `desc.if_cry_10`
+  - ZH: `abilities. One of the other major`
+  - EN: `abilities. One of the other major`
+- `desc.if_cry_11`
+  - ZH: `components is what lies inside`
+  - EN: `components is what lies inside`
+- `desc.if_cry_12`
+  - ZH: `every living being. Perhaps you`
+  - EN: `every living being. Perhaps you`
+- `desc.if_cry_13`
+  - ZH: `should head to the eerie fortress.`
+  - EN: `should head to the eerie fortress.`
+- `desc.pick_6`
+  - ZH: `A major step up from a diamond`
+  - EN: `A major step up from a diamond`
+- `desc.pick_7`
+  - ZH: `pickaxe offering quick mining speed.`
+  - EN: `pickaxe offering quick mining speed.`
+- `desc.pick_8`
+  - ZH: `Let this be a taste of the power of`
+  - EN: `Let this be a taste of the power of`
+- `desc.pick_9`
+  - ZH: `using Infused Crystals in your`
+  - EN: `using Infused Crystals in your`
+- `desc.pick_10`
+  - ZH: `equipment.`
+  - EN: `equipment.`
+- `title.amber_armor_0`
+  - ZH: `The Cordium Armor Set`
+  - EN: `The Cordium Armor Set`
+- `title.amber_armor_0_cont`
+  - ZH: `Cordium Armor Set Cont.`
+  - EN: `Cordium Armor Set Cont.`
+- `desc.amber_armor_6`
+  - ZH: `Probably the greatest set for`
+  - EN: `Probably the greatest set for`
+- `desc.amber_armor_7`
+  - ZH: `mining expeditions and making`
+  - EN: `mining expeditions and making`
+- `desc.amber_armor_8`
+  - ZH: `some of the weapons from this`
+  - EN: `some of the weapons from this`
+- `desc.amber_armor_9`
+  - ZH: `material can make you a`
+  - EN: `material can make you a`
+- `desc.amber_armor_10`
+  - ZH: `tricky traveller to catch.`
+  - EN: `tricky traveller to catch.`
+- `desc.amber_armor_11`
+  - ZH: `Full set provides Haste I,`
+  - EN: `Full set provides Haste I,`
+- `desc.amber_armor_12`
+  - ZH: `and nearby entities glow.`
+  - EN: `and nearby entities glow.`
+- `desc.chomper_6`
+  - ZH: `Only found in the Depths part`
+  - EN: `Only found in the Depths part`
+- `desc.chomper_7`
+  - ZH: `of the wastelands, digging in`
+  - EN: `of the wastelands, digging in`
+- `desc.chomper_8`
+  - ZH: `the ground and warning anyone`
+  - EN: `the ground and warning anyone`
+- `desc.chomper_9`
+  - ZH: `who comes close. If you do wake`
+  - EN: `who comes close. If you do wake`
+- `desc.chomper_10`
+  - ZH: `them up they might try to`
+  - EN: `them up they might try to`
+- `desc.chomper_11`
+  - ZH: `latch onto your head and bite`
+  - EN: `latch onto your head and bite`
+- `desc.chomper_12`
+  - ZH: `it off, literally.`
+  - EN: `it off, literally.`
+- `desc.bug_6`
+  - ZH: ` These critters occasionally dig up`
+  - EN: `These critters occasionally dig up`
+- `desc.bug_7`
+  - ZH: `Infusion Cores, and will do it faster`
+  - EN: `Infusion Cores, and will do it faster`
+- `desc.bug_8`
+  - ZH: `if given Lustrian Crystals and it will`
+  - EN: `if given Lustrian Crystals and it will`
+- `desc.bug_9`
+  - ZH: `pacify them for the time being, also`
+  - EN: `pacify them for the time being, also`
+- `desc.bug_10`
+  - ZH: `they will try to attack you while`
+  - EN: `they will try to attack you while`
+- `desc.bug_11`
+  - ZH: `attempting to pacify them. They also`
+  - EN: `attempting to pacify them. They also`
+- `desc.bug_12`
+  - ZH: `drop a carapace and food upon being`
+  - EN: `drop a carapace and food upon being`
+- `desc.bug_13`
+  - ZH: `slain.`
+  - EN: `slain.`
+- `desc.stal_6`
+  - ZH: `Terrifying creatures that seem to`
+  - EN: `Terrifying creatures that seem to`
+- `desc.stal_7`
+  - ZH: `have some relations to Endermen.`
+  - EN: `have some relations to Endermen.`
+- `desc.stal_8`
+  - ZH: `They like to stalk there prey while`
+  - EN: `They like to stalk there prey while`
+- `desc.stal_9`
+  - ZH: `slowly approaching. If they get close`
+  - EN: `slowly approaching. If they get close`
+- `desc.stal_10`
+  - ZH: `enough they will frantically attack`
+  - EN: `enough they will frantically attack`
+- `desc.stal_11`
+  - ZH: `there target. If you see them before`
+  - EN: `there target. If you see them before`
+- `desc.stal_12`
+  - ZH: `they attack, they'll run back into`
+  - EN: `they attack, they'll run back into`
+- `desc.stal_13`
+  - ZH: `the darkness only to disappear again.`
+  - EN: `the darkness only to disappear again.`
+- `title.end_fort_0`
+  - ZH: `The Ashed King's Fortress`
+  - EN: `The Ashed King's Fortress`
+- `desc.fort_0`
+  - ZH: `The mighty fortress that shrouds atop`
+  - EN: `The mighty fortress that shrouds atop`
+- `desc.fort_1`
+  - ZH: `the Wastelands. Could what's up there`
+  - EN: `the Wastelands. Could what's up there`
+- `desc.fort_2`
+  - ZH: `be the cause of such treachery?`
+  - EN: `be the cause of such treachery?`
+- `desc.fort_3`
+  - ZH: `Would it even be wise to go up there?`
+  - EN: `Would it even be wise to go up there?`
+- `desc.fort_4`
+  - ZH: `It is recommended to have your absolute`
+  - EN: `It is recommended to have your absolute`
+- `desc.fort_5`
+  - ZH: `best gear when attempting this dungeon.`
+  - EN: `best gear when attempting this dungeon.`
+- `desc.fort_6`
+  - ZH: `Stock up on food, healing potions,`
+  - EN: `Stock up on food, healing potions,`
+- `desc.fort_7`
+  - ZH: `anything to give you the needed boost`
+  - EN: `anything to give you the needed boost`
+- `desc.fort_8`
+  - ZH: `traveller. It's time to end this.`
+  - EN: `traveller. It's time to end this.`
+- `title.ot_str_0`
+  - ZH: `Other Structures`
+  - EN: `Other Structures`
+- `desc.ot_0`
+  - ZH: `Theres many other structures that lie`
+  - EN: `Theres many other structures that lie`
+- `desc.ot_1`
+  - ZH: `within the Ash Wastelands. Such as`
+  - EN: `within the Ash Wastelands. Such as`
+- `desc.ot_2`
+  - ZH: `The Ashed Towers that can prove`
+  - EN: `The Ashed Towers that can prove`
+- `desc.ot_3`
+  - ZH: `a pre-test to the actual Fortress.`
+  - EN: `a pre-test to the actual Fortress.`
+- `desc.ot_4`
+  - ZH: `There are other structures such as`
+  - EN: `There are other structures such as`
+- `desc.ot_5`
+  - ZH: `Ashed Mines that are underground,`
+  - EN: `Ashed Mines that are underground,`
+- `desc.ot_6`
+  - ZH: `and outposts out in the distance.`
+  - EN: `and outposts out in the distance.`
+- `desc.ot_7`
+  - ZH: `Hunting for these ruins in the`
+  - EN: `Hunting for these ruins in the`
+- `desc.ot_8`
+  - ZH: `wastelands can prove beneficial.`
+  - EN: `wastelands can prove beneficial.`
+- `title.knights_0`
+  - ZH: `The Fell Household`
+  - EN: `The Fell Household`
+- `desc.knig_6`
+  - ZH: `Although not native to the end, the`
+  - EN: `Although not native to the end, the`
+- `desc.knig_7`
+  - ZH: `knights are far from what they once`
+  - EN: `knights are far from what they once`
+- `desc.knig_8`
+  - ZH: `we're. These crazed power hungry`
+  - EN: `we're. These crazed power hungry`
+- `desc.knig_9`
+  - ZH: `fanatics invaded the End just to`
+  - EN: `fanatics invaded the End just to`
+- `desc.knig_10`
+  - ZH: `feel their love for war again.`
+  - EN: `feel their love for war again.`
+- `desc.knig_11`
+  - ZH: `However, following using Lustrian`
+  - EN: `However, following using Lustrian`
+- `desc.knig_12`
+  - ZH: `Crystals they have seemed to lost`
+  - EN: `Crystals they have seemed to lost`
+- `desc.knig_13`
+  - ZH: `there sentience and only seek more.`
+  - EN: `there sentience and only seek more.`
+- `title.knights_1`
+  - ZH: `The Fell Household Cont.`
+  - EN: `The Fell Household Cont.`
+- `desc.mage_0`
+  - ZH: `These knights have specializations,`
+  - EN: `These knights have specializations,`
+- `desc.mage_1`
+  - ZH: `and have different methods of combat.`
+  - EN: `and have different methods of combat.`
+- `desc.mage_2`
+  - ZH: `Mages, cast spells, heal there allies,`
+  - EN: `Mages, cast spells, heal there allies,`
+- `desc.mage_3`
+  - ZH: `and can perform a ritual to turn on of`
+  - EN: `and can perform a ritual to turn on of`
+- `desc.mage_4`
+  - ZH: `there own into something stronger.`
+  - EN: `there own into something stronger.`
+- `desc.mage_5`
+  - ZH: `Swordsmen are fast and barbaric in`
+  - EN: `Swordsmen are fast and barbaric in`
+- `desc.mage_6`
+  - ZH: `there style, closing the gap and`
+  - EN: `there style, closing the gap and`
+- `desc.mage_7`
+  - ZH: `releasing a flurry of attacks. While`
+  - EN: `releasing a flurry of attacks. While`
+- `desc.mage_8`
+  - ZH: `the shielder is slow but highly`
+  - EN: `the shielder is slow but highly`
+- `desc.mage_9`
+  - ZH: `defensive. As tough as they seem to`
+  - EN: `defensive. As tough as they seem to`
+- `desc.mage_10`
+  - ZH: `be removed. A timed parry can disable`
+  - EN: `be removed. A timed parry can disable`
+- `desc.mage_11`
+  - ZH: `there shield for a short period of`
+  - EN: `there shield for a short period of`
+- `desc.mage_12`
+  - ZH: `time allowing you to strike them.`
+  - EN: `time allowing you to strike them.`
+- `desc.dd_helm_6`
+  - ZH: `The Dark armour set, this set only`
+  - EN: `The Dark armour set, this set only`
+- `desc.dd_helm_7`
+  - ZH: `contains it's helmet and chest`
+  - EN: `contains it's helmet and chest`
+- `desc.dd_helm_8`
+  - ZH: `piece for the full bonus to take`
+  - EN: `piece for the full bonus to take`
+- `desc.dd_helm_9`
+  - ZH: `effect. With the bonus being`
+  - EN: `effect. With the bonus being`
+- `desc.dd_helm_10`
+  - ZH: `immunity to the Red Rage`
+  - EN: `immunity to the Red Rage`
+- `desc.dd_helm_11`
+  - ZH: `potion effect.`
+  - EN: `potion effect.`
+- `desc.dd_cont_6`
+  - ZH: `In other words, basically allowing`
+  - EN: `In other words, basically allowing`
+- `desc.dd_cont_7`
+  - ZH: `you to carry Lustrian Crystals, Chunks,`
+  - EN: `you to carry Lustrian Crystals, Chunks,`
+- `desc.dd_cont_8`
+  - ZH: `and the Lustrian sword and any attacks`
+  - EN: `and the Lustrian sword and any attacks`
+- `desc.dd_cont_9`
+  - ZH: `that deliver the Red Rage.`
+  - EN: `that deliver the Red Rage.`
+- `desc.chad_6`
+  - ZH: `This beast of a warrior is created`
+  - EN: `This beast of a warrior is created`
+- `desc.chad_7`
+  - ZH: `by Mages casting a curse on other`
+  - EN: `by Mages casting a curse on other`
+- `desc.chad_8`
+  - ZH: `Knights. They are very fast in there`
+  - EN: `Knights. They are very fast in there`
+- `desc.chad_9`
+  - ZH: `attacks, and will even try to block`
+  - EN: `attacks, and will even try to block`
+- `desc.chad_10`
+  - ZH: `your melee attacks. Not many get to`
+  - EN: `your melee attacks. Not many get to`
+- `desc.chad_11`
+  - ZH: `witness one of these warriors in`
+  - EN: `witness one of these warriors in`
+- `desc.chad_12`
+  - ZH: `action as you'll be lucky to leave`
+  - EN: `action as you'll be lucky to leave`
+- `desc.chad_13`
+  - ZH: `alive.`
+  - EN: `alive.`
+- `desc.king_6`
+  - ZH: `The one to blame for this blasphemy.`
+  - EN: `The one to blame for this blasphemy.`
+- `desc.king_7`
+  - ZH: `He is the one kindling all together,`
+  - EN: `He is the one kindling all together,`
+- `desc.king_8`
+  - ZH: `he alone was the power to break the`
+  - EN: `he alone was the power to break the`
+- `desc.king_9`
+  - ZH: `End. He must be stopped at all costs.`
+  - EN: `End. He must be stopped at all costs.`
+- `desc.king_10`
+  - ZH: `You may find him atop the main`
+  - EN: `You may find him atop the main`
+- `desc.king_11`
+  - ZH: `fortress by using an Ashed Key on`
+  - EN: `fortress by using an Ashed Key on`
+- `desc.king_12`
+  - ZH: `the key block. As he unlocks your`
+  - EN: `the key block. As he unlocks your`
+- `desc.king_13`
+  - ZH: `full potential.`
+  - EN: `full potential.`
+- `title.barrend_bogs.name`
+  - ZH: `The Barrend Bogs`
+  - EN: `The Barrend Bogs`
+- `desc.barrend_bogs_0`
+  - ZH: `Driven with Madness and an`
+  - EN: `Driven with Madness and an`
+- `desc.barrend_bogs_1`
+  - ZH: `unorthodox beauty, This biome`
+  - EN: `unorthodox beauty, This biome`
+- `desc.barrend_bogs_2`
+  - ZH: `brings a more hidden sense`
+  - EN: `brings a more hidden sense`
+- `desc.barrend_bogs_3`
+  - ZH: `of despair unlike how the`
+  - EN: `of despair unlike how the`
+- `desc.barrend_bogs_4`
+  - ZH: `Ash Wastelands is more frontal.`
+  - EN: `Ash Wastelands is more frontal.`
+- `desc.barrend_bogs_5`
+  - ZH: `While the creatures here are`
+  - EN: `While the creatures here are`
+- `desc.barrend_bogs_6`
+  - ZH: ` more neutral to outside`
+  - EN: `more neutral to outside`
+- `desc.barrend_bogs_7`
+  - ZH: `guests. Tampering too much`
+  - EN: `guests. Tampering too much`
+- `desc.barrend_bogs_8`
+  - ZH: `may result in a quick fate.`
+  - EN: `may result in a quick fate.`
+- `desc.barrend_bogs_9`
+  - ZH: `This biome seems to hold a`
+  - EN: `This biome seems to hold a`
+- `desc.barrend_bogs_10`
+  - ZH: `older culture and civilization`
+  - EN: `older culture and civilization`
+- `desc.barrend_bogs_11`
+  - ZH: `going back before the war`
+  - EN: `going back before the war`
+- `desc.barrend_bogs_12`
+  - ZH: `between the Fell Knights`
+  - EN: `between the Fell Knights`
+- `desc.barrend_bogs_13`
+  - ZH: `and the End's resistance.`
+  - EN: `and the End's resistance.`
+- `title.barrend_arena.name`
+  - ZH: `Barrend Arena`
+  - EN: `Barrend Arena`
+- `desc.barrend_arena_6`
+  - ZH: `By inserting Arena keys`
+  - EN: `By inserting Arena keys`
+- `desc.barrend_arena_7`
+  - ZH: `into this. It will lock`
+  - EN: `into this. It will lock`
+- `desc.barrend_arena_8`
+  - ZH: `you in and you'll fight`
+  - EN: `you in and you'll fight`
+- `desc.barrend_arena_9`
+  - ZH: `waves of monsters. Upon`
+  - EN: `waves of monsters. Upon`
+- `desc.barrend_arena_10`
+  - ZH: `completion you'll be`
+  - EN: `completion you'll be`
+- `desc.barrend_arena_11`
+  - ZH: `rewarded, with the chance`
+  - EN: `rewarded, with the chance`
+- `desc.barrend_arena_12`
+  - ZH: `of exclusive loot.`
+  - EN: `of exclusive loot.`
+- `title.barrend_wood.name`
+  - ZH: `Barrend Wood & Stone`
+  - EN: `Barrend Wood & Stone`
+- `title.eye_stone.name`
+  - ZH: `Barrend Eye Stone`
+  - EN: `Barrend Eye Stone`
+- `desc.bare_wood_6`
+  - ZH: `Throughout the Barrend Bogs,`
+  - EN: `Throughout the Barrend Bogs,`
+- `desc.bare_wood_7`
+  - ZH: `several trees and other stone`
+  - EN: `several trees and other stone`
+- `desc.bare_wood_8`
+  - ZH: `materials can be found. You,`
+  - EN: `materials can be found. You,`
+- `desc.bare_wood_9`
+  - ZH: `traveller can use these to add`
+  - EN: `traveller can use these to add`
+- `desc.bare_wood_10`
+  - ZH: `to your home or shape the`
+  - EN: `to your home or shape the`
+- `desc.bare_wood_11`
+  - ZH: `environment to your liking.`
+  - EN: `environment to your liking.`
+- `desc.bare_wood_12`
+  - ZH: `Walls, Slabs, and stairs can`
+  - EN: `Walls, Slabs, and stairs can`
+- `desc.bare_wood_13`
+  - ZH: `be made with these.`
+  - EN: `be made with these.`
+- `desc.memory_stone_6`
+  - ZH: `Using this, you'll`
+  - EN: `Using this, you'll`
+- `desc.memory_stone_7`
+  - ZH: `be able to unlock the door`
+  - EN: `be able to unlock the door`
+- `desc.memory_stone_8`
+  - ZH: `to the Barrend Crypts. This`
+  - EN: `to the Barrend Crypts. This`
+- `desc.memory_stone_9`
+  - ZH: `trinket has several uses, allowing`
+  - EN: `trinket has several uses, allowing`
+- `desc.memory_stone_10`
+  - ZH: `for multiple opens of different`
+  - EN: `for multiple opens of different`
+- `desc.memory_stone_11`
+  - ZH: `doors. Just be wary what you find`
+  - EN: `doors. Just be wary what you find`
+- `desc.memory_stone_12`
+  - ZH: `down there.`
+  - EN: `down there.`
+- `desc.lidoped_6`
+  - ZH: `This cute little creature can`
+  - EN: `This cute little creature can`
+- `desc.lidoped_7`
+  - ZH: `make a nice farming for`
+  - EN: `make a nice farming for`
+- `desc.lidoped_8`
+  - ZH: `Bloodweed. By having a holed`
+  - EN: `Bloodweed. By having a holed`
+- `desc.lidoped_9`
+  - ZH: `Barrend Bark nearby and some`
+  - EN: `Barrend Bark nearby and some`
+- `desc.lidoped_10`
+  - ZH: `Barrend Plants. This little guy`
+  - EN: `Barrend Plants. This little guy`
+- `desc.lidoped_11`
+  - ZH: `will harvest and return Refined`
+  - EN: `will harvest and return Refined`
+- `desc.lidoped_12`
+  - ZH: `Bloodweed to the hole. These`
+  - EN: `Bloodweed to the hole. These`
+- `desc.lidoped_13`
+  - ZH: `creatures can also be bucketed.`
+  - EN: `creatures can also be bucketed.`
+- `desc.lido_helmet_6`
+  - ZH: `On the slight chance of getting`
+  - EN: `On the slight chance of getting`
+- `desc.lido_helmet_7`
+  - ZH: `a shell from slaying a Lidoped.`
+  - EN: `a shell from slaying a Lidoped.`
+- `desc.lido_helmet_8`
+  - ZH: `You can make a helmet with the`
+  - EN: `You can make a helmet with the`
+- `desc.lido_helmet_9`
+  - ZH: `other materials. This helmet`
+  - EN: `other materials. This helmet`
+- `desc.lido_helmet_10`
+  - ZH: `negates the Madness effect,`
+  - EN: `negates the Madness effect,`
+- `desc.lido_helmet_11`
+  - ZH: `however items requiring Madness`
+  - EN: `however items requiring Madness`
+- `desc.lido_helmet_12`
+  - ZH: ` will not work with this helmet`
+  - EN: `will not work with this helmet`
+- `desc.lido_helmet_13`
+  - ZH: `on.`
+  - EN: `on.`
+- `desc.kit_6`
+  - ZH: `Taking one of these and`
+  - EN: `Taking one of these and`
+- `desc.kit_7`
+  - ZH: `putting it into an anvil`
+  - EN: `putting it into an anvil`
+- `desc.kit_8`
+  - ZH: `along with a non-boss weapon.`
+  - EN: `along with a non-boss weapon.`
+- `desc.kit_9`
+  - ZH: `Will upgrade the weapon with`
+  - EN: `Will upgrade the weapon with`
+- `desc.kit_10`
+  - ZH: `higher damage, a reduced cooldown,`
+  - EN: `higher damage, a reduced cooldown,`
+- `desc.kit_11`
+  - ZH: `and typically heightening the`
+  - EN: `and typically heightening the`
+- `desc.kit_12`
+  - ZH: `weapons ability. Weapons can`
+  - EN: `weapons ability. Weapons can`
+- `desc.kit_13`
+  - ZH: `only be upgraded once.`
+  - EN: `only be upgraded once.`
+- `desc.end_mod_6`
+  - ZH: `Congrats on your quest traveller,`
+  - EN: `Congrats on your quest traveller,`
+- `desc.end_mod_7`
+  - ZH: `although the End will never be`
+  - EN: `although the End will never be`
+- `desc.end_mod_8`
+  - ZH: `restored to what it once was. You`
+  - EN: `restored to what it once was. You`
+- `desc.end_mod_9`
+  - ZH: `atleast rid the parasite that has`
+  - EN: `atleast rid the parasite that has`
+- `desc.end_mod_10`
+  - ZH: `decimated it. You have reached`
+  - EN: `decimated it. You have reached`
+- `desc.end_mod_11`
+  - ZH: `the true ending of the mod's`
+  - EN: `the true ending of the mod's`
+- `desc.end_mod_12`
+  - ZH: `progression line.`
+  - EN: `progression line.`
+- `desc.end_cont_6`
+  - ZH: `As the last final pages, will`
+  - EN: `As the last final pages, will`
+- `desc.end_cont_7`
+  - ZH: `show you the recipes for the`
+  - EN: `show you the recipes for the`
+- `desc.end_cont_8`
+  - ZH: `rewards you deserve. The End`
+  - EN: `rewards you deserve. The End`
+- `desc.end_cont_9`
+  - ZH: `Fall set is one of high`
+  - EN: `Fall set is one of high`
+- `desc.end_cont_10`
+  - ZH: `durability along with having`
+  - EN: `durability along with having`
+- `desc.end_cont_11`
+  - ZH: `magical attributes. The full`
+  - EN: `magical attributes. The full`
+- `desc.end_cont_12`
+  - ZH: `armour set provides Speed I,`
+  - EN: `armour set provides Speed I,`
+- `desc.end_cont_13`
+  - ZH: `and Jump Boost I.`
+  - EN: `and Jump Boost I.`
+- `desc.ef_arm`
+  - ZH: `End Fall Leggings & Boots`
+  - EN: `End Fall Leggings & Boots`
+- `desc.mn_6`
+  - ZH: `harnessing the Ashed King's power`
+  - EN: `harnessing the Ashed King's power`
+- `desc.mn_7`
+  - ZH: `inside of one block. Just make`
+  - EN: `inside of one block. Just make`
+- `desc.mn_8`
+  - ZH: `sure you keep your distance when`
+  - EN: `sure you keep your distance when`
+- `desc.mn_9`
+  - ZH: `igniting this explosive.`
+  - EN: `igniting this explosive.`
+- `skill.sword_6`
+  - ZH: `Forever rotating it's crystals`
+  - EN: `Forever rotating it's crystals`
+- `skill.sword_7`
+  - ZH: `around the blade. This lethal`
+  - EN: `around the blade. This lethal`
+- `skill.sword_8`
+  - ZH: `swords ability allows the user`
+  - EN: `swords ability allows the user`
+- `skill.sword_9`
+  - ZH: `to summon the Ashed King's ghost`
+  - EN: `to summon the Ashed King's ghost`
+- `skill.sword_10`
+  - ZH: `arm in front of them. Dealing`
+  - EN: `arm in front of them. Dealing`
+- `skill.sword_11`
+  - ZH: `1.5x damage to anyone in stands`
+  - EN: `1.5x damage to anyone in stands`
+- `skill.sword_12`
+  - ZH: `against you.`
+  - EN: `against you.`
+- `skill.ef_bow_6`
+  - ZH: `Great for a user who doesn't`
+  - EN: `Great for a user who doesn't`
+- `skill.ef_bow_7`
+  - ZH: `wish anyone to interrupt there`
+  - EN: `wish anyone to interrupt there`
+- `skill.ef_bow_8`
+  - ZH: `archery skills. Anyone who gets`
+  - EN: `archery skills. Anyone who gets`
+- `skill.ef_bow_9`
+  - ZH: `close to you while equipping this`
+  - EN: `close to you while equipping this`
+- `skill.ef_bow_10`
+  - ZH: `bow will be dealt with by the`
+  - EN: `bow will be dealt with by the`
+- `skill.ef_bow_11`
+  - ZH: `thousand swords.`
+  - EN: `thousand swords.`
+- `skill.ef_st_6`
+  - ZH: `With this staff you'll be able to`
+  - EN: `With this staff you'll be able to`
+- `skill.ef_st_7`
+  - ZH: `spread the Red Rage onto your`
+  - EN: `spread the Red Rage onto your`
+- `skill.ef_st_8`
+  - ZH: `opponents. By Right clicking, any`
+  - EN: `opponents. By Right clicking, any`
+- `skill.ef_st_9`
+  - ZH: `living being close to you will be`
+  - EN: `living being close to you will be`
+- `skill.ef_st_10`
+  - ZH: `launched and applied with the Red`
+  - EN: `launched and applied with the Red`
+- `skill.ef_st_11`
+  - ZH: `Rage. While Left clicking will shoot`
+  - EN: `Rage. While Left clicking will shoot`
+- `skill.ef_st_12`
+  - ZH: `a projectile every 3 seconds.`
+  - EN: `a projectile every 3 seconds.`
+
+## elementalend
+
+- `item.elementalend.aether_eye.name`
+  - ZH: `天境之眼`
+  - EN: `天境之眼`
+- `item.elementalend.aether_eye.tooltip`
+  - ZH: `帝王云鲸掉落的材料合成`
+  - EN: `帝王云鲸掉落的材料 Craft`
+- `tile.elementalend.aether_frame.name`
+  - ZH: `天境末地传送门框架`
+  - EN: `天境 The End传送门框架`
+- `item.elementalend.arid_eye.name`
+  - ZH: `沙丘之眼`
+  - EN: `Sand丘之眼`
+- `item.elementalend.arid_eye.tooltip`
+  - ZH: `由泥浆灌注末影之眼获得`
+  - EN: `由泥浆灌注 Eye of Ender Obtain`
+- `tile.elementalend.arid_frame.name`
+  - ZH: `沙丘末地传送门框架`
+  - EN: `Sand丘 The End传送门框架`
+- `item.elementalend.chaos_eye.name`
+  - ZH: `混乱之眼`
+  - EN: `混乱之眼`
+- `item.elementalend.chaos_eye.tooltip`
+  - ZH: `在一场爆炸中获得！砰！（注：请一次性转化多个末影之眼，单个末影之眼可能无法承受混乱能量的冲击）`
+  - EN: `在一场 Explosion中 Obtain！砰！（注：请一次性转化多个 Eye of Ender，单个 Eye of Ender可能无法承受混乱 Energy的冲击）`
+- `tile.elementalend.chaos_frame.name`
+  - ZH: `混乱末地传送门框架`
+  - EN: `混乱 The End传送门框架`
+- `item.elementalend.earth_eye.name`
+  - ZH: `自然之眼`
+  - EN: `自然之眼`
+- `item.elementalend.earth_eye.tooltip`
+  - ZH: `魔力凝聚的产物`
+  - EN: `Mana凝聚的产物`
+- `tile.elementalend.earth_frame.name`
+  - ZH: `自然末地传送门框架`
+  - EN: `自然 The End传送门框架`
+- `item.elementalend.fire_eye.name`
+  - ZH: `燋燎之眼`
+  - EN: `燋燎之眼`
+- `item.elementalend.fire_eye.tooltip`
+  - ZH: `由怒焰石林的材料合成`
+  - EN: `由怒焰石林的材料 Craft`
+- `tile.elementalend.fire_frame.name`
+  - ZH: `燋燎末地传送门框架`
+  - EN: `燋燎 The End传送门框架`
+- `item.elementalend.icy_eye.name`
+  - ZH: `霜冻之眼`
+  - EN: `霜冻之眼`
+- `item.elementalend.icy_eye.tooltip`
+  - ZH: `由遗忘冰川的材料合成`
+  - EN: `由遗忘冰川的材料 Craft`
+- `tile.elementalend.icy_frame.name`
+  - ZH: `霜冻末地传送门框架`
+  - EN: `霜冻 The End传送门框架`
+- `item.elementalend.lightning_eye.name`
+  - ZH: `雷霆之眼`
+  - EN: `雷霆之眼`
+- `item.elementalend.lightning_eye.tooltip`
+  - ZH: `由高压爬行者炸死一只末影人获得`
+  - EN: `由高压爬行者炸死一只 Enderman Obtain`
+- `tile.elementalend.lightning_frame.name`
+  - ZH: `雷霆末地传送门框架`
+  - EN: `雷霆 The End传送门框架`
+- `item.elementalend.magic_eye.name`
+  - ZH: `奥秘之眼`
+  - EN: `奥秘之眼`
+- `item.elementalend.magic_eye.tooltip`
+  - ZH: `神秘学的结晶（确信）`
+  - EN: `Mystical学的 Crystallized（确信）`
+- `tile.elementalend.magic_frame.name`
+  - ZH: `奥秘末地传送门框架`
+  - EN: `奥秘 The End传送门框架`
+- `item.elementalend.nether_eye.name`
+  - ZH: `下界之眼`
+  - EN: `Nether之眼`
+- `item.elementalend.nether_eye.tooltip`
+  - ZH: `由下界材料合成`
+  - EN: `由 Nether材料 Craft`
+- `tile.elementalend.nether_frame.name`
+  - ZH: `下界末地传送门框架`
+  - EN: `Nether The End传送门框架`
+- `item.elementalend.order_eye.name`
+  - ZH: `调谐之眼`
+  - EN: `调谐之眼`
+- `item.elementalend.order_eye.tooltip`
+  - ZH: `它和守恒合金一样遵守“共生”的原则`
+  - EN: `它和守恒 Alloy一样遵守“共生”的原则`
+- `tile.elementalend.order_frame.name`
+  - ZH: `守恒末地传送门框架`
+  - EN: `守恒 The End传送门框架`
+- `item.elementalend.void_eye.name`
+  - ZH: `渊虚之眼`
+  - EN: `渊虚之眼`
+- `item.elementalend.void_eye.tooltip`
+  - ZH: `在深渊仪式中合成`
+  - EN: `在 Abyss仪式中 Craft`
+- `tile.elementalend.void_frame.name`
+  - ZH: `渊虚末地传送门框架`
+  - EN: `渊虚 The End传送门框架`
+- `item.elementalend.water_eye.name`
+  - ZH: `潮汐之眼`
+  - EN: `潮汐之眼`
+- `item.elementalend.water_eye.tooltip`
+  - ZH: `由水之造物合成`
+  - EN: `由水之造物 Craft`
+- `tile.elementalend.water_frame.name`
+  - ZH: `潮汐末地传送门框架`
+  - EN: `潮汐 The End传送门框架`
+
+## palebloom
+
+- `death.attack.palebloom.hydraweed_jaw`
+  - ZH: `%1$s被黑暗吞噬`
+  - EN: `%1$s被 Darkness吞噬`
+- `description.palebloom.creaking_lantern.desc1`
+  - ZH: `穿戴时嘎枝会忽视你`
+  - EN: `穿戴时嘎枝会忽视你`
+- `description.palebloom.resin_bulb.quantity`
+  - ZH: `树脂团 x%s`
+  - EN: `树脂团 x%s`
+- `description.palebloom.resin_bulb.desc1`
+  - ZH: `白天会从附近的苍白植物采集树脂`
+  - EN: `白天会从附近的苍白 Plant采集树脂`
+- `description.palebloom.resin_bulb.desc2`
+  - ZH: `夜间特殊苍白植物会从中汲取树脂`
+  - EN: `夜间特殊苍白 Plant会从中汲取树脂`
+- `description.palebloom.painting_1.name`
+  - ZH: `侵蚀的停顿`
+  - EN: `侵蚀的停顿`
+- `description.palebloom.painting_1.artist`
+  - ZH: `鱿爵士`
+  - EN: `鱿爵士`
+- `description.palebloom.painting_1.dimensions`
+  - ZH: `3x3`
+  - EN: `3x3`
+- `description.palebloom.pale_moss_cloak.name`
+  - ZH: `活性联结`
+  - EN: `活性联结`
+- `description.palebloom.nightlight_bulb.effect`
+  - ZH: `琥珀之眼（%s）`
+  - EN: `琥珀之眼（%s）`
+- `description.palebloom.pale_pumpkin_pie.effect`
+  - ZH: `琥珀之眼（%s）`
+  - EN: `琥珀之眼（%s）`
+- `description.palebloom.cultivar_item.day`
+  - ZH: `夜间觉醒`
+  - EN: `夜间觉醒`
+- `description.palebloom.cultivar_item.night_title`
+  - ZH: `觉醒效果：`
+  - EN: `觉醒效果：`
+- `description.palebloom.cultivar_item.night_damage`
+  - ZH: ` +%s 伤害`
+  - EN: `+%s Damage`
+- `description.palebloom.cultivar_item.night_harvest`
+  - ZH: ` +%s 采掘等级`
+  - EN: `+%s 采掘 Level`
+- `description.palebloom.cultivar_item.night_mine_speed`
+  - ZH: ` x%s 挖掘速度`
+  - EN: `x%s 挖掘 Speed`
+- `description.palebloom.cultivar_item.night_repair`
+  - ZH: ` +使用球茎中的树脂修复`
+  - EN: `+Use球茎中的树脂修复`
+- `description.palebloom.cultivar_axe.night`
+  - ZH: ` +采伐原木时爆裂出荆棘`
+  - EN: `+采伐 Log时爆裂出荆棘`
+- `description.palebloom.cultivar_hoe.night`
+  - ZH: ` +攻击时召唤附近苍白生物协助`
+  - EN: `+攻击时召唤附近苍白生物协助`
+- `description.palebloom.cultivar_shovel.night`
+  - ZH: ` +攻击地面时发射6枚荆棘`
+  - EN: `+攻击地面时发射6枚荆棘`
+- `description.palebloom.cultivar_pickaxe.night`
+  - ZH: ` +击杀生物时放置2-3份树脂`
+  - EN: `+击杀生物时 Place2-3份树脂`
+- `description.palebloom.cultivar_sword.night`
+  - ZH: ` +攻击时传递中毒与凋零`
+  - EN: `+攻击时传递中 Poison与凋零`
+- `description.palebloom.pale_moss_cloak.base_desc`
+  - ZH: `收割柳会守护你`
+  - EN: `收割柳会 Guardian你`
+- `description.palebloom.pale_moss_cloak.slot_empty`
+  - ZH: ` -空槽位`
+  - EN: `-空槽位`
+- `description.palebloom.pale_moss_cloak.pale_creeper`
+  - ZH: ` +爬行者类实体对你中立`
+  - EN: `+爬行者类实体对你中立`
+- `description.palebloom.pale_moss_cloak.resin_bulb`
+  - ZH: ` +苍白特性可从你物品栏收割树脂团 ~`
+  - EN: `+苍白特性可从你 Item栏收割树脂团 ~`
+- `description.palebloom.pale_moss_cloak.live_root`
+  - ZH: ` +提升护甲属性`
+  - EN: `+Enhance护甲属性`
+- `description.palebloom.pale_moss_cloak.live_root.preformed`
+  - ZH: ` +提升护甲属性`
+  - EN: `+Enhance护甲属性`
+- `description.palebloom.pale_moss_cloak.bramble`
+  - ZH: ` +对攻击者造成3点伤害`
+  - EN: `+对攻击者造成3点 Damage`
+- `description.palebloom.pale_moss_cloak.hollow`
+  - ZH: ` +饮用苍白橡木糖浆时获得再生（0:30） ~`
+  - EN: `+饮用苍白橡木糖浆时 Obtain再生（0:30） ~`
+- `description.palebloom.pale_moss_cloak.creaking_heart`
+  - ZH: ` +附近树脂球茎可吸收50%伤害`
+  - EN: `+附近树脂球茎可吸收50%Damage`
+- `description.palebloom.pale_moss_cloak.blooming_pale_oak`
+  - ZH: ` +静止时提供抗性II ~`
+  - EN: `+静止时提供 ResistanceII ~`
+- `description.palebloom.pale_moss_cloak.sucker_roots`
+  - ZH: ` +消耗你的生命值自我修复`
+  - EN: `+Consume你的 Life值自我修复`
+- `effect.palebloom.ambereyes.name`
+  - ZH: `琥珀之眼`
+  - EN: `琥珀之眼`
+- `entity.palebloom.creaking.name`
+  - ZH: `嘎枝`
+  - EN: `嘎枝`
+- `entity.palebloom.mannequin.name`
+  - ZH: `木偶`
+  - EN: `木偶`
+- `entity.palebloom.pale_creeper.name`
+  - ZH: `苍白爬行者`
+  - EN: `苍白爬行者`
+- `entity.palebloom.pale_oak_boat.name`
+  - ZH: `苍白橡木船`
+  - EN: `苍白橡木船`
+- `entity.palebloom.reaping_willow.name`
+  - ZH: `收割柳`
+  - EN: `收割柳`
+- `entity.palebloom.thorn.name`
+  - ZH: `荆棘刺`
+  - EN: `荆棘刺`
+- `entity.palebloom.hydraweed_jaw.name`
+  - ZH: `九头藻颚`
+  - EN: `九头藻颚`
+- `tile.palebloom.creaking_heart.name`
+  - ZH: `尖啸之心`
+  - EN: `尖啸之心`
+- `tile.palebloom.eyeblossom_closed.name`
+  - ZH: `闭合的眼花`
+  - EN: `闭合的眼 Flower`
+- `tile.palebloom.eyeblossom_open.name`
+  - ZH: `绽放的眼花`
+  - EN: `绽放的眼 Flower`
+- `tile.palebloom.pale_hanging_moss.name`
+  - ZH: `苍白垂苔`
+  - EN: `苍白垂苔`
+- `tile.palebloom.pale_moss_block.name`
+  - ZH: `苍白苔藓`
+  - EN: `Pale Moss Block`
+- `tile.palebloom.pale_moss_carpet.name`
+  - ZH: `苍白苔藓地毯`
+  - EN: `苍白苔藓 Carpet`
+- `tile.palebloom.pale_oak_door.name`
+  - ZH: `苍白橡木门`
+  - EN: `苍白橡木门`
+- `tile.palebloom.pale_oak_fence.name`
+  - ZH: `苍白橡木栅栏`
+  - EN: `苍白橡木栅栏`
+- `tile.palebloom.pale_oak_fence_gate.name`
+  - ZH: `苍白橡木栅栏门`
+  - EN: `苍白橡木栅栏门`
+- `tile.palebloom.pale_oak_trapdoor.name`
+  - ZH: `苍白橡木活板门`
+  - EN: `苍白橡木活 Plate门`
+- `tile.palebloom.pale_oak_leaves.name`
+  - ZH: `苍白橡木树叶`
+  - EN: `苍白橡木树叶`
+- `tile.palebloom.pale_oak_log.name`
+  - ZH: `苍白橡木原木`
+  - EN: `苍白橡木 Log`
+- `tile.palebloom.pale_oak_planks.name`
+  - ZH: `苍白橡木木板`
+  - EN: `苍白橡木 Planks`
+- `tile.palebloom.pale_oak_sapling.name`
+  - ZH: `苍白橡木树苗`
+  - EN: `苍白橡木树苗`
+- `tile.palebloom.pale_oak_slab.name`
+  - ZH: `苍白橡木台阶`
+  - EN: `苍白橡木 Slab`
+- `tile.palebloom.pale_oak_slab_double.name`
+  - ZH: `双层苍白橡木台阶`
+  - EN: `双层苍白橡木 Slab`
+- `tile.palebloom.pale_oak_stairs.name`
+  - ZH: `苍白橡木楼梯`
+  - EN: `苍白橡木 Stairs`
+- `tile.palebloom.resin_block.name`
+  - ZH: `树脂块`
+  - EN: `Resin Block`
+- `tile.palebloom.resin_bricks.name`
+  - ZH: `树脂砖`
+  - EN: `树脂 Brick`
+- `tile.palebloom.resin_brick_slab.name`
+  - ZH: `树脂砖台阶`
+  - EN: `树脂 Brick Slab`
+- `tile.palebloom.resin_brick_slab_double.name`
+  - ZH: `双层树脂砖台阶`
+  - EN: `双层树脂 Brick Slab`
+- `tile.palebloom.resin_brick_stairs.name`
+  - ZH: `树脂砖楼梯`
+  - EN: `树脂 Brick Stairs`
+- `tile.palebloom.resin_brick_wall.name`
+  - ZH: `树脂砖墙`
+  - EN: `树脂 Brick墙`
+- `tile.palebloom.resin_brick_chiseled.name`
+  - ZH: `雕纹树脂砖`
+  - EN: `雕纹树脂 Brick`
+- `tile.palebloom.bramble.name`
+  - ZH: `荆棘`
+  - EN: `荆棘`
+- `tile.palebloom.blooming_pale_oak_leaves.name`
+  - ZH: `盛开的苍白橡木树叶`
+  - EN: `盛开的苍白橡木树叶`
+- `tile.palebloom.blooming_pale_oak_sapling.name`
+  - ZH: `盛开的苍白橡木树苗`
+  - EN: `盛开的苍白橡木树苗`
+- `tile.palebloom.hydraweed_body.name`
+  - ZH: `九头藻主体`
+  - EN: `九头藻主体`
+- `tile.palebloom.incense_thorns.name`
+  - ZH: `熏香荆棘`
+  - EN: `熏香荆棘`
+- `tile.palebloom.reaping_willow_sapling.name`
+  - ZH: `收割柳树苗`
+  - EN: `收割柳树苗`
+- `tile.palebloom.resin_bulb.name`
+  - ZH: `树脂球茎`
+  - EN: `树脂球茎`
+- `tile.palebloom.pale_petals.name`
+  - ZH: `苍白花瓣`
+  - EN: `苍白 Petal`
+- `tile.palebloom.pale_oak_hollow.name`
+  - ZH: `苍白橡木空洞`
+  - EN: `苍白橡木空洞`
+- `tile.palebloom.seed_bomb.name`
+  - ZH: `种子炸弹`
+  - EN: `Seed炸弹`
+- `tile.palebloom.sucker_root_nodule.name`
+  - ZH: `吸根结节`
+  - EN: `吸根结节`
+- `tile.palebloom.sucker_roots.name`
+  - ZH: `吸根`
+  - EN: `吸根`
+- `tile.palebloom.pale_pumpkin.name`
+  - ZH: `苍白南瓜`
+  - EN: `苍白南瓜`
+- `tile.palebloom.pale_carved_pumpkin.name`
+  - ZH: `苍白雕刻南瓜`
+  - EN: `苍白雕刻南瓜`
+- `tile.palebloom.pale_jack_o_lantern.name`
+  - ZH: `苍白南瓜灯`
+  - EN: `苍白南瓜灯`
+- `tile.palebloom.pale_soul_jack_o_lantern.name`
+  - ZH: `苍白灵魂南瓜灯`
+  - EN: `苍白 Soul南瓜灯`
+- `tile.palebloom.nightlight.name`
+  - ZH: `夜光花`
+  - EN: `夜光 Flower`
+- `tile.palebloom.peeping_birch_sapling.name`
+  - ZH: `窥视桦树苗`
+  - EN: `窥视桦树苗`
+- `tile.palebloom.peeping_birch_log.name`
+  - ZH: `窥视桦木原木`
+  - EN: `窥视桦木 Log`
+- `tile.palebloom.pollenhead.name`
+  - ZH: `花粉头`
+  - EN: `Pollen头`
+- `tile.palebloom.creaking_lantern.name`
+  - ZH: `尖啸灯笼`
+  - EN: `尖啸灯笼`
+- `tile.palebloom.epiales.name`
+  - ZH: `苍白土`
+  - EN: `苍白 Dirt`
+- `tile.palebloom.eyeblossom_bush.name`
+  - ZH: `眼花灌木`
+  - EN: `眼 Flower灌木`
+- `tile.palebloom.stiffpod.name`
+  - ZH: `硬荚`
+  - EN: `硬荚`
+- `item.palebloom.resin_brick.name`
+  - ZH: `树脂砖`
+  - EN: `树脂 Brick`
+- `item.palebloom.resin_clump.name`
+  - ZH: `树脂团`
+  - EN: `树脂团`
+- `item.tile.palebloom.pale_oak_door.name`
+  - ZH: `苍白橡木门`
+  - EN: `苍白橡木门`
+- `item.palebloom.amber_valve.name`
+  - ZH: `琥珀阀门`
+  - EN: `琥珀阀门`
+- `item.palebloom.live_root.name`
+  - ZH: `怪异根`
+  - EN: `怪异根`
+- `item.palebloom.mannequin.name`
+  - ZH: `木偶`
+  - EN: `木偶`
+- `item.palebloom.mannequin_dead.name`
+  - ZH: `未激活的木偶`
+  - EN: `未 Activate的木偶`
+- `item.palebloom.nightlight_bulb.name`
+  - ZH: `夜光花苞`
+  - EN: `夜光 Flower苞`
+- `item.palebloom.pale_creeper_husk.name`
+  - ZH: `苍白爬行者外壳`
+  - EN: `苍白爬行者外壳`
+- `item.palebloom.pale_moss_cloak.name`
+  - ZH: `苍白苔藓斗篷`
+  - EN: `苍白苔藓斗篷`
+- `item.palebloom.pale_oak_boat.name`
+  - ZH: `苍白橡木船`
+  - EN: `苍白橡木船`
+- `item.palebloom.pale_oak_sap.name`
+  - ZH: `苍白橡木树液`
+  - EN: `苍白橡木树液`
+- `item.palebloom.pale_painting.name`
+  - ZH: `诡异画作`
+  - EN: `诡异画作`
+- `item.palebloom.pale_pumpkin_pie.name`
+  - ZH: `苍白南瓜派`
+  - EN: `苍白南瓜派`
+- `item.palebloom.cultivar_axe.name`
+  - ZH: `园艺嫁接斧`
+  - EN: `园艺嫁接 Axe`
+- `item.palebloom.cultivar_hoe.name`
+  - ZH: `园艺嫁接锄`
+  - EN: `园艺嫁接 Hoe`
+- `item.palebloom.cultivar_shovel.name`
+  - ZH: `园艺嫁接铲`
+  - EN: `园艺嫁接 Shovel`
+- `item.palebloom.cultivar_pickaxe.name`
+  - ZH: `园艺嫁接镐`
+  - EN: `园艺嫁接 Pickaxe`
+- `item.palebloom.cultivar_sword.name`
+  - ZH: `园艺嫁接剑`
+  - EN: `园艺嫁接 Sword`
+- `potion.effect.palebloom.ambereyes`
+  - ZH: `琥珀之眼药水`
+  - EN: `琥珀之眼 Potion`
+- `splash_potion.effect.palebloom.ambereyes`
+  - ZH: `喷溅型琥珀之眼药水`
+  - EN: `喷溅型琥珀之眼 Potion`
+- `lingering_potion.effect.palebloom.ambereyes`
+  - ZH: `滞留型琥珀之眼药水`
+  - EN: `滞留型琥珀之眼 Potion`
+- `tipped_arrow.effect.palebloom.ambereyes`
+  - ZH: `琥珀之眼之箭`
+  - EN: `琥珀之眼之 Arrow`
+- `subtitles.palebloom.block.creaking_heart.ambient`
+  - ZH: `怪异声响`
+  - EN: `怪异声响`
+- `subtitles.palebloom.block.creaking_heart.spawn`
+  - ZH: `尖啸之心：苏醒`
+  - EN: `尖啸之心：苏醒`
+- `subtitles.palebloom.block.creaking_heart.trail`
+  - ZH: `尖啸之心：低鸣`
+  - EN: `尖啸之心：低鸣`
+- `subtitles.palebloom.block.pale_hanging_moss.ambient`
+  - ZH: `怪异声响`
+  - EN: `怪异声响`
+- `subtitles.palebloom.block.eyeblossom.ambient`
+  - ZH: `怪异声响`
+  - EN: `怪异声响`
+- `subtitles.palebloom.block.eyeblossom.close`
+  - ZH: `眼花：闭合`
+  - EN: `眼 Flower：闭合`
+- `subtitles.palebloom.block.eyeblossom.open`
+  - ZH: `眼花：绽放`
+  - EN: `眼 Flower：绽放`
+- `subtitles.palebloom.block.nightlight.close`
+  - ZH: `夜光花：闭合`
+  - EN: `夜光 Flower：闭合`
+- `subtitles.palebloom.block.nightlight.open`
+  - ZH: `夜光花：开放`
+  - EN: `夜光 Flower：开放`
+- `subtitles.palebloom.block.pollenhead.ambient`
+  - ZH: `怪异声响`
+  - EN: `怪异声响`
+- `subtitles.palebloom.block.pollenhead.awake`
+  - ZH: `花粉头：苏醒`
+  - EN: `Pollen头：苏醒`
+- `subtitles.palebloom.block.pollenhead.close`
+  - ZH: `花粉头：闭合`
+  - EN: `Pollen头：闭合`
+- `subtitles.palebloom.block.pollenhead.open`
+  - ZH: `花粉头：展开`
+  - EN: `Pollen头：展开`
+- `subtitles.palebloom.block.resin_bulb.inflate`
+  - ZH: `树脂球茎：翻涌`
+  - EN: `树脂球茎：翻涌`
+- `subtitles.palebloom.block.resin_bulb.deflate`
+  - ZH: `树脂球茎：回缩`
+  - EN: `树脂球茎：回缩`
+- `subtitles.palebloom.block.plant.resin_draw`
+  - ZH: `植物：汲取树脂`
+  - EN: `Plant：汲取树脂`
+- `subtitles.palebloom.entity.hydraweed_jaw.death`
+  - ZH: `九头藻：被斩断`
+  - EN: `九头藻：被斩断`
+- `subtitles.palebloom.entity.hydraweed_jaw.hurt`
+  - ZH: `九头藻：受伤`
+  - EN: `九头藻：受伤`
+- `subtitles.palebloom.entity.hydraweed_jaw.attack`
+  - ZH: `九头藻：啮咬`
+  - EN: `九头藻：啮咬`
+- `subtitles.palebloom.entity.hydraweed_jaw.burrow`
+  - ZH: `九头藻颚：钻入`
+  - EN: `九头藻颚：钻入`
+- `subtitles.palebloom.entity.hydraweed_jaw.step`
+  - ZH: `地下轰鸣`
+  - EN: `地下轰鸣`
+- `subtitles.palebloom.entity.hydraweed_jaw.emerge`
+  - ZH: `九头藻颚：破土`
+  - EN: `九头藻颚：破 Dirt`
+- `subtitles.palebloom.block.hydraweed_body.ambient`
+  - ZH: `怪异声响`
+  - EN: `怪异声响`
+- `subtitles.palebloom.block.hydraweed_body.spawn`
+  - ZH: `九头藻：长出新颚`
+  - EN: `九头藻：长出新颚`
+- `subtitles.palebloom.block.hydraweed_body.trail`
+  - ZH: `九头藻：颈部回缩`
+  - EN: `九头藻：颈部回缩`
+- `subtitles.palebloom.block.plant.convert`
+  - ZH: `植物：完成杂交`
+  - EN: `Plant：Complete杂交`
+- `subtitles.palebloom.block.resin_bulb.collect`
+  - ZH: `树脂球茎：收割树脂`
+  - EN: `树脂球茎：收割树脂`
+- `subtitles.palebloom.block.nightlight.grow`
+  - ZH: `夜光花：生长`
+  - EN: `夜光 Flower：生长`
+- `subtitles.palebloom.entity.pale_creeper.notarget`
+  - ZH: `苍白爬行者：冷静`
+  - EN: `苍白爬行者：冷静`
+- `subtitles.palebloom.entity.pale_creeper.target`
+  - ZH: `苍白爬行者：注视`
+  - EN: `苍白爬行者：注视`
+- `subtitles.palebloom.entity.mannequin.death`
+  - ZH: `木偶：倒下`
+  - EN: `木偶：倒下`
+- `subtitles.palebloom.entity.mannequin.activate`
+  - ZH: `木偶：苏醒`
+  - EN: `木偶：苏醒`
+- `subtitles.palebloom.entity.mannequin.aggravate`
+  - ZH: `木偶：怒视`
+  - EN: `木偶：怒视`
+- `subtitles.palebloom.entity.mannequin.attack`
+  - ZH: `木偶：挥击`
+  - EN: `木偶：挥击`
+- `subtitles.palebloom.entity.mannequin.notarget`
+  - ZH: `木偶：安静`
+  - EN: `木偶：安静`
+- `subtitles.palebloom.entity.mannequin.pacify`
+  - ZH: `木偶：平息`
+  - EN: `木偶：平息`
+- `subtitles.palebloom.entity.mannequin.spawn`
+  - ZH: `木偶：显形`
+  - EN: `木偶：显形`
+- `subtitles.palebloom.entity.mannequin.sway`
+  - ZH: `木偶：被击中`
+  - EN: `木偶：被击中`
+- `subtitles.palebloom.entity.mannequin.target`
+  - ZH: `木偶：注视`
+  - EN: `木偶：注视`
+- `subtitles.palebloom.entity.creaking.ambient`
+  - ZH: `嘎枝：嘎吱`
+  - EN: `嘎枝：嘎吱`
+- `subtitles.palebloom.entity.creaking.attack`
+  - ZH: `嘎枝：攻击`
+  - EN: `嘎枝：攻击`
+- `subtitles.palebloom.entity.creaking.death`
+  - ZH: `嘎枝：崩塌`
+  - EN: `嘎枝：崩塌`
+- `subtitles.palebloom.entity.creaking.freeze`
+  - ZH: `嘎枝：停滞`
+  - EN: `嘎枝：停滞`
+- `subtitles.palebloom.entity.creaking.notarget`
+  - ZH: `嘎枝：冷静`
+  - EN: `嘎枝：冷静`
+- `subtitles.palebloom.entity.creaking.spawn`
+  - ZH: `嘎枝：显形`
+  - EN: `嘎枝：显形`
+- `subtitles.palebloom.entity.creaking.sway`
+  - ZH: `嘎枝：被击中`
+  - EN: `嘎枝：被击中`
+- `subtitles.palebloom.entity.creaking.target`
+  - ZH: `嘎枝：注视`
+  - EN: `嘎枝：注视`
+- `subtitles.palebloom.entity.creaking.twitch`
+  - ZH: `嘎枝：抽搐`
+  - EN: `嘎枝：抽搐`
+- `subtitles.palebloom.entity.creaking.unfreeze`
+  - ZH: `嘎枝：恢复行动`
+  - EN: `嘎枝：恢复行动`
+- `subtitles.palebloom.entity.mannequin.place`
+  - ZH: `木偶：被放置`
+  - EN: `木偶：被 Place`
+- `subtitles.palebloom.entity.mannequin.break`
+  - ZH: `木偶：破碎`
+  - EN: `木偶：破碎`
+- `subtitles.palebloom.entity.reaping_willow.ambient`
+  - ZH: `收割柳：沙沙作响`
+  - EN: `收割柳：Sand Sand作响`
+- `subtitles.palebloom.entity.reaping_willow.angry`
+  - ZH: `收割柳：愤怒地沙沙作响`
+  - EN: `收割柳：愤怒地 Sand Sand作响`
+- `subtitles.palebloom.entity.reaping_willow.attack`
+  - ZH: `收割柳：发动攻击`
+  - EN: `收割柳：发动攻击`
+- `subtitles.palebloom.entity.reaping_willow.death`
+  - ZH: `收割柳：枯萎`
+  - EN: `收割柳：枯萎`
+- `subtitles.palebloom.entity.reaping_willow.hurt`
+  - ZH: `收割柳：受伤`
+  - EN: `收割柳：受伤`
+- `subtitles.palebloom.entity.reaping_willow.notarget`
+  - ZH: `收割柳：平静`
+  - EN: `收割柳：平静`
+- `subtitles.palebloom.entity.reaping_willow.spawn`
+  - ZH: `收割柳：苏醒`
+  - EN: `收割柳：苏醒`
+- `subtitles.palebloom.entity.reaping_willow.target`
+  - ZH: `收割柳：注视`
+  - EN: `收割柳：注视`
+- `subtitles.palebloom.event.garden.call`
+  - ZH: `苍白花园的呼唤`
+  - EN: `苍白 Flower园的呼唤`
+- `config.palebloom.title`
+  - ZH: `苍白绽放`
+  - EN: `苍白绽放`
+- `config.palebloom.block`
+  - ZH: `方块配置`
+  - EN: `Block配置`
+- `config.palebloom.block.awakenedFloraBlocks`
+  - ZH: `觉醒植物方块配置`
+  - EN: `觉醒 Plant Block配置`
+- `config.palebloom.block.awakenedFloraBlocks.creakingHeart`
+  - ZH: `尖啸之心配置`
+  - EN: `尖啸之心配置`
+- `config.palebloom.block.awakenedFloraBlocks.creakingHeart.enableCreakingHeart`
+  - ZH: `启用尖啸之心`
+  - EN: `启用尖啸之心`
+- `config.palebloom.block.awakenedFloraBlocks.creakingHeart.alertReapingWillows`
+  - ZH: `警示收割柳`
+  - EN: `警示收割柳`
+- `config.palebloom.block.awakenedFloraBlocks.creakingHeart.unnaturalResinClumps`
+  - ZH: `非自然之心放置树脂`
+  - EN: `非自然之心 Place树脂`
+- `config.palebloom.block.awakenedFloraBlocks.creakingHeart.naturalResinClumps`
+  - ZH: `自然之心放置树脂`
+  - EN: `自然之心 Place树脂`
+- `config.palebloom.block.awakenedFloraBlocks.creakingHeart.naturalAmberValveDrop`
+  - ZH: `掉落琥珀阀门`
+  - EN: `掉落琥珀阀门`
+- `config.palebloom.block.awakenedFloraBlocks.creakingLantern`
+  - ZH: `尖啸灯笼配置`
+  - EN: `尖啸灯笼配置`
+- `config.palebloom.block.awakenedFloraBlocks.creakingLantern.enableCreakingLantern`
+  - ZH: `启用尖啸灯笼`
+  - EN: `启用尖啸灯笼`
+- `config.palebloom.block.awakenedFloraBlocks.creakingLantern.creakingsIgnoreWearer`
+  - ZH: `嘎枝忽视灯笼佩戴者`
+  - EN: `嘎枝忽视灯笼佩戴者`
+- `config.palebloom.block.awakenedFloraBlocks.hydraweed_body`
+  - ZH: `九头藻主体配置`
+  - EN: `九头藻主体配置`
+- `config.palebloom.block.awakenedFloraBlocks.hydraweed_body.enableHydraweedBody`
+  - ZH: `启用九头藻主体（含颚实体）`
+  - EN: `启用九头藻主体（含颚实体）`
+- `config.palebloom.block.awakenedFloraBlocks.incenseThorns`
+  - ZH: `熏香荆棘配置`
+  - EN: `熏香荆棘配置`
+- `config.palebloom.block.awakenedFloraBlocks.incenseThorns.enableIncenseThorns`
+  - ZH: `启用熏香荆棘`
+  - EN: `启用熏香荆棘`
+- `config.palebloom.block.awakenedFloraBlocks.nightlight`
+  - ZH: `夜光花配置`
+  - EN: `夜光 Flower配置`
+- `config.palebloom.block.awakenedFloraBlocks.nightlight.enableNightlight`
+  - ZH: `启用夜光花`
+  - EN: `启用夜光 Flower`
+- `config.palebloom.block.awakenedFloraBlocks.paleOakHollow`
+  - ZH: `苍白橡木空洞配置`
+  - EN: `苍白橡木空洞配置`
+- `config.palebloom.block.awakenedFloraBlocks.paleOakHollow.enablePaleOakHollow`
+  - ZH: `启用苍白橡木空洞`
+  - EN: `启用苍白橡木空洞`
+- `config.palebloom.block.awakenedFloraBlocks.paleOakHollow.resinToSapQuantity`
+  - ZH: `树脂转化树液数量`
+  - EN: `树脂转化树液数量`
+- `config.palebloom.block.awakenedFloraBlocks.pollenhead`
+  - ZH: `花粉头配置`
+  - EN: `Pollen头配置`
+- `config.palebloom.block.awakenedFloraBlocks.pollenhead.enablePollenhead`
+  - ZH: `启用花粉头`
+  - EN: `启用 Pollen头`
+- `config.palebloom.block.awakenedFloraBlocks.pollenhead.pollenheadHybridizeList`
+  - ZH: `花粉头杂交列表`
+  - EN: `Pollen头杂交列表`
+- `config.palebloom.block.awakenedFloraBlocks.reapingWillowSapling`
+  - ZH: `收割柳树苗配置`
+  - EN: `收割柳树苗配置`
+- `config.palebloom.block.awakenedFloraBlocks.reapingWillowSapling.enableReapingWillowSapling`
+  - ZH: `启用收割柳树苗`
+  - EN: `启用收割柳树苗`
+- `config.palebloom.block.awakenedFloraBlocks.resinBulb`
+  - ZH: `树脂球茎配置`
+  - EN: `树脂球茎配置`
+- `config.palebloom.block.awakenedFloraBlocks.resinBulb.enableResinBulb`
+  - ZH: `启用树脂球茎`
+  - EN: `启用树脂球茎`
+- `config.palebloom.block.awakenedFloraBlocks.resinBulb.resinBulbCollectList`
+  - ZH: `树脂球茎采集列表`
+  - EN: `树脂球茎采集列表`
+- `config.palebloom.block.awakenedFloraBlocks.resinBulb.activeCreakingHeartResinAmount`
+  - ZH: `活跃尖啸之心树脂汲取量`
+  - EN: `活跃尖啸之心树脂汲取量`
+- `config.palebloom.block.awakenedFloraBlocks.enableSuckerRootNodule`
+  - ZH: `启用吸根结节`
+  - EN: `启用吸根结节`
+- `config.palebloom.block.floraBlocks`
+  - ZH: `植物方块配置`
+  - EN: `Plant Block配置`
+- `config.palebloom.block.floraBlocks.enableEyeblossom`
+  - ZH: `启用眼花`
+  - EN: `启用眼 Flower`
+- `config.palebloom.block.floraBlocks.eyeblossomFullbright`
+  - ZH: `眼花全亮渲染`
+  - EN: `眼 Flower全亮渲染`
+- `config.palebloom.block.floraBlocks.enablePalePetals`
+  - ZH: `启用苍白花瓣`
+  - EN: `启用苍白 Petal`
+- `config.palebloom.block.floraBlocks.enableBramble`
+  - ZH: `启用荆棘`
+  - EN: `启用荆棘`
+- `config.palebloom.block.floraBlocks.enableDoublePalePlants`
+  - ZH: `启用双高苍白植物`
+  - EN: `启用双高苍白 Plant`
+- `config.palebloom.block.floraBlocks.palePumpkin`
+  - ZH: `苍白南瓜配置`
+  - EN: `苍白南瓜配置`
+- `config.palebloom.block.floraBlocks.palePumpkin.enablePalePumpkin`
+  - ZH: `启用苍白南瓜`
+  - EN: `启用苍白南瓜`
+- `config.palebloom.block.floraBlocks.palePumpkin.enablePaleCarvedPumpkin`
+  - ZH: `启用苍白雕刻南瓜`
+  - EN: `启用苍白雕刻南瓜`
+- `config.palebloom.block.floraBlocks.palePumpkin.enablePaleJackoLantern`
+  - ZH: `启用苍白南瓜灯`
+  - EN: `启用苍白南瓜灯`
+- `config.palebloom.block.floraBlocks.palePumpkin.enablePaleSoulJackoLantern`
+  - ZH: `启用苍白灵魂南瓜灯`
+  - EN: `启用苍白 Soul南瓜灯`
+- `config.palebloom.block.treeBlocks`
+  - ZH: `树木方块配置`
+  - EN: `Tree Block配置`
+- `config.palebloom.block.treeBlocks.enablePaleSaplings`
+  - ZH: `启用苍白树苗`
+  - EN: `启用苍白树苗`
+- `config.palebloom.block.treeBlocks.paleOak`
+  - ZH: `苍白橡木方块配置`
+  - EN: `苍白橡木 Block配置`
+- `config.palebloom.block.treeBlocks.paleOak.enablePaleOakLeaves`
+  - ZH: `启用苍白橡木树叶`
+  - EN: `启用苍白橡木树叶`
+- `config.palebloom.block.treeBlocks.paleOak.enablePaleOakWoods`
+  - ZH: `启用苍白橡木木材`
+  - EN: `启用苍白橡木 Wood`
+- `config.palebloom.block.treeBlocks.paleOak.paleOakSapling`
+  - ZH: `苍白橡木树苗配置`
+  - EN: `苍白橡木树苗配置`
+- `config.palebloom.block.treeBlocks.paleOak.paleOakSapling.creakingHeartChance`
+  - ZH: `尖啸之心生成概率`
+  - EN: `尖啸之心 Generate概率`
+- `config.palebloom.block.treeBlocks.paleOak.creakingHeart.naturalCreakingHeartChance`
+  - ZH: `尖啸之心为自然生成概率`
+  - EN: `尖啸之心为自然 Generate概率`
+- `config.palebloom.block.treeBlocks.bloomingPaleOak`
+  - ZH: `盛开的苍白橡木方块配置`
+  - EN: `盛开的苍白橡木 Block配置`
+- `config.palebloom.block.treeBlocks.bloomingPaleOak.enableBloomingPaleOakLeaves`
+  - ZH: `启用盛开的苍白橡木树叶`
+  - EN: `启用盛开的苍白橡木树叶`
+- `config.palebloom.block.treeBlocks.bloomingPaleOak.enableSuckerRoots`
+  - ZH: `启用吸根`
+  - EN: `启用吸根`
+- `config.palebloom.block.treeBlocks.bloomingPaleOak.bloomingLeavesDropSapling`
+  - ZH: `盛开树叶掉落盛开树苗`
+  - EN: `盛开树叶掉落盛开树苗`
+- `config.palebloom.block.treeBlocks.bloomingPaleOak.bloomingSapling`
+  - ZH: `盛开的苍白橡木树苗配置`
+  - EN: `盛开的苍白橡木树苗配置`
+- `config.palebloom.block.treeBlocks.bloomingPaleOak.bloomingSapling.creakingHeartChance`
+  - ZH: `尖啸之心生成概率`
+  - EN: `尖啸之心 Generate概率`
+- `config.palebloom.block.treeBlocks.bloomingPaleOak.bloomingSapling.naturalCreakingHeartChance`
+  - ZH: `尖啸之心为自然生成概率`
+  - EN: `尖啸之心为自然 Generate概率`
+- `config.palebloom.block.treeBlocks.peepingBirch`
+  - ZH: `窥视桦木方块配置`
+  - EN: `窥视桦木 Block配置`
+- `config.palebloom.block.treeBlocks.peepingBirch.enablePeepingBirchLog`
+  - ZH: `启用窥视桦木原木`
+  - EN: `启用窥视桦木 Log`
+- `config.palebloom.block.resinBlocks`
+  - ZH: `树脂方块配置`
+  - EN: `树脂 Block配置`
+- `config.palebloom.block.resinBlocks.enableResinClump`
+  - ZH: `启用树脂团`
+  - EN: `启用树脂团`
+- `config.palebloom.block.resinBlocks.enableResinBlock`
+  - ZH: `启用树脂块`
+  - EN: `启用树脂 Block`
+- `config.palebloom.block.resinBlocks.enableResinBricks`
+  - ZH: `启用树脂砖方块`
+  - EN: `启用树脂 Brick Block`
+- `config.palebloom.block.paleMossReplacable`
+  - ZH: `苍白苔藓可替换`
+  - EN: `苍白苔藓可替换`
+- `config.palebloom.block.enableSeedBomb`
+  - ZH: `启用种子炸弹`
+  - EN: `启用 Seed炸弹`
+- `config.palebloom.paleGarden`
+  - ZH: `苍白花园配置`
+  - EN: `苍白 Flower园配置`
+- `config.palebloom.paleGarden.enablePaleGarden`
+  - ZH: `启用苍白花园`
+  - EN: `启用苍白 Flower园`
+- `config.palebloom.paleGarden.subbiomeOfDarkOak`
+  - ZH: `黑森林子生物群系`
+  - EN: `黑森林子生物群系`
+- `config.palebloom.paleGarden.fog`
+  - ZH: `雾效配置`
+  - EN: `雾效配置`
+- `config.palebloom.paleGarden.fog.enableFog`
+  - ZH: `启用雾效`
+  - EN: `启用雾效`
+- `config.palebloom.paleGarden.fog.creativeIgnoresFog`
+  - ZH: `创造模式无视雾效`
+  - EN: `创造模式无视雾效`
+- `config.palebloom.paleGarden.fog.fogFarDistance`
+  - ZH: `雾的远处距离`
+  - EN: `雾的远处距离`
+- `config.palebloom.paleGarden.treeGen`
+  - ZH: `树木生成`
+  - EN: `Tree Generate`
+- `config.palebloom.paleGarden.treeGen.darkOakChance`
+  - ZH: `深色橡树生成概率`
+  - EN: `深色橡树 Generate概率`
+- `config.palebloom.paleGarden.treeGen.paleOakTree`
+  - ZH: `苍白橡树生成`
+  - EN: `苍白橡树 Generate`
+- `config.palebloom.paleGarden.treeGen.paleOakTree.dyingTreeChance`
+  - ZH: `枯萎树机率`
+  - EN: `枯萎树机率`
+- `config.palebloom.paleGarden.treeGen.paleOakTree.creakingHeartChance`
+  - ZH: `尖啸之心生成概率`
+  - EN: `尖啸之心 Generate概率`
+- `config.palebloom.paleGarden.treeGen.paleOakTree.naturalCreakingHeartChance`
+  - ZH: `尖啸之心为自然生成概率`
+  - EN: `尖啸之心为自然 Generate概率`
+- `config.palebloom.paleGarden.understoryGen`
+  - ZH: `林下植被生成`
+  - EN: `林下植被 Generate`
+- `config.palebloom.paleGarden.understoryGen.eyeblossomChance`
+  - ZH: `眼花簇生成概率`
+  - EN: `眼 Flower簇 Generate概率`
+- `config.palebloom.paleGarden.understoryGen.brambleChance`
+  - ZH: `荆棘簇生成概率`
+  - EN: `荆棘簇 Generate概率`
+- `config.palebloom.paleGarden.understoryGen.doublePalePlantChance`
+  - ZH: `双高苍白植物生成概率`
+  - EN: `双高苍白 Plant Generate概率`
+- `config.palebloom.paleGarden.understoryGen.shrubChance`
+  - ZH: `苍白灌木生成概率`
+  - EN: `苍白灌木 Generate概率`
+- `config.palebloom.entity`
+  - ZH: `生物配置`
+  - EN: `生物配置`
+- `config.palebloom.entity.creaking`
+  - ZH: `嘎枝配置`
+  - EN: `嘎枝配置`
+- `config.palebloom.entity.creaking.enableCreaking`
+  - ZH: `启用嘎枝`
+  - EN: `启用嘎枝`
+- `config.palebloom.entity.creaking.chaseSpeedMult`
+  - ZH: `嘎枝追击速度倍率`
+  - EN: `嘎枝追击 Speed倍率`
+- `config.palebloom.entity.creaking.attackDamage`
+  - ZH: `嘎枝攻击伤害`
+  - EN: `嘎枝攻击 Damage`
+- `config.palebloom.entity.mannequin`
+  - ZH: `木偶配置`
+  - EN: `木偶配置`
+- `config.palebloom.entity.mannequin.enableMannequin`
+  - ZH: `启用木偶`
+  - EN: `启用木偶`
+- `config.palebloom.entity.mannequin.chaseSpeedMult`
+  - ZH: `木偶追击速度倍率`
+  - EN: `木偶追击 Speed倍率`
+- `config.palebloom.entity.mannequin.attackDamage`
+  - ZH: `木偶攻击伤害`
+  - EN: `木偶攻击 Damage`
+- `config.palebloom.entity.mannequin.attackDamage.tooltip`
+  - ZH: `不得不说，我有点难过/n这一行换行有效吗？`
+  - EN: `不得不说，我有点难过/n这一行换行有效吗？`
+- `config.palebloom.entity.pale_creeper`
+  - ZH: `苍白爬行者配置`
+  - EN: `苍白爬行者配置`
+- `config.palebloom.entity.pale_creeper.enablePaleCreeper`
+  - ZH: `启用苍白爬行者`
+  - EN: `启用苍白爬行者`
+- `config.palebloom.entity.pale_creeper.paleCreeperReplacementChance`
+  - ZH: `爬行者替换为苍白爬行者的概率`
+  - EN: `爬行者替换为苍白爬行者的概率`
+- `config.palebloom.entity.reapingWillow`
+  - ZH: `收割柳配置`
+  - EN: `收割柳配置`
+- `config.palebloom.entity.reapingWillow.enableReapingWillow`
+  - ZH: `启用收割柳`
+  - EN: `启用收割柳`
+- `config.palebloom.entity.reapingWillow.reapingWillowIsntApathetic`
+  - ZH: `收割柳守护花园生命`
+  - EN: `收割柳 Guardian Flower园 Life`
+- `config.palebloom.item`
+  - ZH: `物品配置`
+  - EN: `Item配置`
+- `config.palebloom.item.enableAmberValve`
+  - ZH: `启用琥珀阀门`
+  - EN: `启用琥珀阀门`
+- `config.palebloom.item.enableEeriePainting`
+  - ZH: `启用诡异画作`
+  - EN: `启用诡异画作`
+- `config.palebloom.item.enableLiveRoot`
+  - ZH: `启用怪异根`
+  - EN: `启用怪异根`
+- `config.palebloom.item.enablePaleCreeperHusk`
+  - ZH: `启用苍白爬行者外壳`
+  - EN: `启用苍白爬行者外壳`
+- `config.palebloom.item.enablePaleOakBoat`
+  - ZH: `启用苍白橡木船`
+  - EN: `启用苍白橡木船`
+- `config.palebloom.item.enablePaleOakSap`
+  - ZH: `启用苍白橡木树液`
+  - EN: `启用苍白橡木树液`
+- `config.palebloom.item.enableResinBrick`
+  - ZH: `启用树脂砖`
+  - EN: `启用树脂 Brick`
+- `config.palebloom.item.foods`
+  - ZH: `食物配置`
+  - EN: `食物配置`
+- `config.palebloom.item.foods.enableNightligtBulb`
+  - ZH: `启用夜光花苞`
+  - EN: `启用夜光 Flower苞`
+- `config.palebloom.item.foods.nightlightBulbEffectLength`
+  - ZH: `夜光花苞效果时长`
+  - EN: `夜光 Flower苞效果时长`
+- `config.palebloom.item.foods.enablePalePumpkinPie`
+  - ZH: `启用苍白南瓜派`
+  - EN: `启用苍白南瓜派`
+- `config.palebloom.item.foods.palePumpkinPieEffectLength`
+  - ZH: `苍白南瓜派效果时长`
+  - EN: `苍白南瓜派效果时长`
+- `config.palebloom.item.cultivarTools`
+  - ZH: `园艺嫁接工具配置`
+  - EN: `园艺嫁接 Tool配置`
+- `config.palebloom.item.cultivarTools.cultivarAxe`
+  - ZH: `园艺嫁接斧配置`
+  - EN: `园艺嫁接 Axe配置`
+- `config.palebloom.item.cultivarTools.cultivarAxe.enableCultivarAxe`
+  - ZH: `启用园艺嫁接斧`
+  - EN: `启用园艺嫁接 Axe`
+- `config.palebloom.item.cultivarTools.cultivarAxe.awakenedThornBurst`
+  - ZH: `觉醒荆棘爆裂能力`
+  - EN: `觉醒荆棘爆裂能力`
+- `config.palebloom.item.cultivarTools.cultivarAxe.awakenedThornBurstCooldown`
+  - ZH: `觉醒荆棘爆裂冷却`
+  - EN: `觉醒荆棘爆裂 Cooling`
+- `config.palebloom.item.cultivarTools.cultivarAxe.awakenedBulbHealing`
+  - ZH: `觉醒树脂球茎修复`
+  - EN: `觉醒树脂球茎修复`
+- `config.palebloom.item.cultivarTools.cultivarAxe.awakenedHarvestLevel`
+  - ZH: `觉醒采掘等级`
+  - EN: `觉醒采掘 Level`
+- `config.palebloom.item.cultivarTools.cultivarAxe.awakenedMiningSpeed`
+  - ZH: `觉醒挖掘速度`
+  - EN: `觉醒挖掘 Speed`
+- `config.palebloom.item.cultivarTools.cultivarHoe`
+  - ZH: `园艺嫁接锄配置`
+  - EN: `园艺嫁接 Hoe配置`
+- `config.palebloom.item.cultivarTools.cultivarHoe.enableCultivarHoe`
+  - ZH: `启用园艺嫁接锄`
+  - EN: `启用园艺嫁接 Hoe`
+- `config.palebloom.item.cultivarTools.cultivarHoe.awakenedGardenCall`
+  - ZH: `觉醒花园呼唤能力`
+  - EN: `觉醒 Flower园呼唤能力`
+- `config.palebloom.item.cultivarTools.cultivarHoe.awakenedGardenCallCooldown`
+  - ZH: `觉醒花园呼唤冷却`
+  - EN: `觉醒 Flower园呼唤 Cooling`
+- `config.palebloom.item.cultivarTools.cultivarHoe.awakenedBulbHealing`
+  - ZH: `觉醒树脂球茎修复`
+  - EN: `觉醒树脂球茎修复`
+- `config.palebloom.item.cultivarTools.cultivarHoe.awakenedHarvestLevel`
+  - ZH: `觉醒采掘等级`
+  - EN: `觉醒采掘 Level`
+- `config.palebloom.item.cultivarTools.cultivarHoe.awakenedMiningSpeed`
+  - ZH: `觉醒挖掘速度`
+  - EN: `觉醒挖掘 Speed`
+- `config.palebloom.item.cultivarTools.cultivarPickaxe`
+  - ZH: `园艺嫁接镐配置`
+  - EN: `园艺嫁接 Pickaxe配置`
+- `config.palebloom.item.cultivarTools.cultivarPickaxe.enableCultivarPickaxe`
+  - ZH: `启用园艺嫁接镐`
+  - EN: `启用园艺嫁接 Pickaxe`
+- `config.palebloom.item.cultivarTools.cultivarPickaxe.awakenedResinBlood`
+  - ZH: `觉醒树脂之血能力`
+  - EN: `觉醒树脂之血能力`
+- `config.palebloom.item.cultivarTools.cultivarPickaxe.awakenedResinBloodCooldown`
+  - ZH: `觉醒树脂之血冷却`
+  - EN: `觉醒树脂之血 Cooling`
+- `config.palebloom.item.cultivarTools.cultivarPickaxe.awakenedBulbHealing`
+  - ZH: `觉醒树脂球茎修复`
+  - EN: `觉醒树脂球茎修复`
+- `config.palebloom.item.cultivarTools.cultivarPickaxe.awakenedHarvestLevel`
+  - ZH: `觉醒采掘等级`
+  - EN: `觉醒采掘 Level`
+- `config.palebloom.item.cultivarTools.cultivarPickaxe.awakenedMiningSpeed`
+  - ZH: `觉醒挖掘速度`
+  - EN: `觉醒挖掘 Speed`
+- `config.palebloom.item.cultivarTools.cultivarShovel`
+  - ZH: `园艺嫁接铲配置`
+  - EN: `园艺嫁接 Shovel配置`
+- `config.palebloom.item.cultivarTools.cultivarShovel.enableCultivarShovel`
+  - ZH: `启用园艺嫁接铲`
+  - EN: `启用园艺嫁接 Shovel`
+- `config.palebloom.item.cultivarTools.cultivarShovel.awakenedThornStroke`
+  - ZH: `觉醒荆棘突刺能力`
+  - EN: `觉醒荆棘突刺能力`
+- `config.palebloom.item.cultivarTools.cultivarShovel.awakenedThornStrokeCooldown`
+  - ZH: `觉醒荆棘突刺冷却`
+  - EN: `觉醒荆棘突刺 Cooling`
+- `config.palebloom.item.cultivarTools.cultivarShovel.awakenedBulbHealing`
+  - ZH: `觉醒树脂球茎修复`
+  - EN: `觉醒树脂球茎修复`
+- `config.palebloom.item.cultivarTools.cultivarShovel.awakenedHarvestLevel`
+  - ZH: `觉醒采掘等级`
+  - EN: `觉醒采掘 Level`
+- `config.palebloom.item.cultivarTools.cultivarShovel.awakenedMiningSpeed`
+  - ZH: `觉醒挖掘速度`
+  - EN: `觉醒挖掘 Speed`
+- `config.palebloom.item.cultivarTools.cultivarSword`
+  - ZH: `园艺嫁接剑配置`
+  - EN: `园艺嫁接 Sword配置`
+- `config.palebloom.item.cultivarTools.cultivarSword.enableCultivarSword`
+  - ZH: `启用园艺嫁接剑`
+  - EN: `启用园艺嫁接 Sword`
+- `config.palebloom.item.cultivarTools.cultivarSword.awakenedTransfer`
+  - ZH: `觉醒传导能力`
+  - EN: `觉醒传导能力`
+- `config.palebloom.item.cultivarTools.cultivarSword.awakenedTransferCooldown`
+  - ZH: `觉醒传导冷却`
+  - EN: `觉醒传导 Cooling`
+- `config.palebloom.item.cultivarTools.cultivarSword.awakenedBulbHealing`
+  - ZH: `觉醒树脂球茎修复`
+  - EN: `觉醒树脂球茎修复`
+- `config.palebloom.item.cultivarTools.cultivarSword.awakenedDamage`
+  - ZH: `觉醒伤害`
+  - EN: `觉醒 Damage`
+- `config.palebloom.item.paleMossCloak`
+  - ZH: `苍白苔藓斗篷配置`
+  - EN: `苍白苔藓斗篷配置`
+- `config.palebloom.item.paleMossCloak.enablePaleMossCloak`
+  - ZH: `启用苍白苔藓斗篷`
+  - EN: `启用苍白苔藓斗篷`
+- `config.palebloom.item.paleMossCloak.reapingWillowsDefendCloakWearers`
+  - ZH: `收割柳守护斗篷持有者`
+  - EN: `收割柳 Guardian斗篷持有者`
+- `config.palebloom.item.paleMossCloak.reapingWillowsIgnoreCrimes`
+  - ZH: `收割柳忽视斗篷持有者的冒犯`
+  - EN: `收割柳忽视斗篷持有者的冒犯`
+- `jei.palebloom.category.pollenhead_hybridization`
+  - ZH: `杂交配方`
+  - EN: `杂交配方`
+- `jei.palebloom.incense_thorns.desc`
+  - ZH: `熏香荆棘会在夜间燃烧树脂，为附近的玩家和生物施加绑定的药水效果。\n\n夜晚时进入清醒状态，主动寻找树脂球茎。采集到树脂后转为觉醒状态，释放雾气，并将绑定的药水效果赋予10x10x10方块范围内的所有实体。觉醒状态下每6秒消耗1点树脂（若无附加效果则每16秒消耗1点）。`
+  - EN: `熏香荆棘会在夜间 Burning树脂，为附近的玩家和生物施加绑定的 Potion效果。\n\n夜晚时 Enter清醒状态，主动寻找树脂球茎。采集到树脂后转为觉醒状态，释放雾气，并将绑定的 Potion效果赋予10x10x10Block Range内的所有实体。觉醒状态下每6秒 Consume1点树脂（若无附加效果则每16秒 Consume1点）。`
+- `jei.palebloom.pale_oak_hollow.desc`
+  - ZH: `苍白橡木空洞会在夜间把树脂转化为可装瓶的苍白橡木树液。\n\n夜晚时转为觉醒状态，主动寻找树脂球茎。\n\n收集到的树脂会以每8树脂提升1层树液的速度缓慢累积，最高4层，并改变外观。\n\n用玻璃瓶取满的苍白橡木空洞可获得苍白橡木树液，空洞随后重置为无储量。`
+  - EN: `苍白橡木空洞会在夜间把树脂转化为可装瓶的苍白橡木树液。\n\n夜晚时转为觉醒状态，主动寻找树脂球茎。\n\n Collect到的树脂会以每8树脂 Enhance1层树液的 Speed缓慢累积，最高4层，并改变外观。\n\n用 Glass瓶取满的苍白橡木空洞可 Obtain苍白橡木树液，空洞随后重置为无储量。`
+- `jei.palebloom.pollenhead.desc`
+  - ZH: `花粉头会在夜间把树脂转化为花粉云，使附近的玩家和生物中毒，同时将普通植物改造成苍白对应物。\n\n夜晚时进入清醒状态，主动寻找树脂球茎。采集到树脂后转为觉醒状态，释放花粉并对8x8x8方块范围内的所有实体施加中毒。\n\n同范围内的植物有概率被转化为苍白对应物，每次消耗8点树脂。觉醒状态下每10秒消耗1点树脂。`
+  - EN: `Pollen头会在夜间把树脂转化为 Pollen云，使附近的玩家和生物中 Poison，同时将 Common Plant改造成苍白对应物。\n\n夜晚时 Enter清醒状态，主动寻找树脂球茎。采集到树脂后转为觉醒状态，释放 Pollen并对8x8x8Block Range内的所有实体施加中 Poison。\n\n同 Range内的 Plant有概率被转化为苍白对应物，每次 Consume8点树脂。觉醒状态下每10秒 Consume1点树脂。`
+- `jei.palebloom.resin_bulb.desc`
+  - ZH: `树脂球茎会借由附近的苍白植物生成树脂。\n\n白天每3秒会在以球茎为中心的64x64x100范围内随机检索一个位置，若为苍白植物，球茎便获得树脂。\n\n获得的树脂数量取决于该植物。\n\n夜间若100x100x100范围内存在活跃的尖啸之心，树脂球茎每10秒会从其处获得8点树脂，此效果仅对一颗心生效。`
+  - EN: `树脂球茎会借由附近的苍白 Plant Generate树脂。\n\n白天每3秒会在以球茎为中心的64x64x100Range内随机检索一个位置，若为苍白 Plant，球茎便 Obtain树脂。\n\n Obtain的树脂数量取决于该 Plant。\n\n夜间若100x100x100Range内存在活跃的尖啸之心，树脂球茎每10秒会从其处 Obtain8点树脂，此效果仅对一颗心生效。`
+
+## taiga
+
+- `modifier.informations`
+  - ZH: `信息`
+  - EN: `信息`
+- `material.basalt.name`
+  - ZH: `玄武岩`
+  - EN: `玄武岩`
+- `material.dilithium.name`
+  - ZH: `双锂`
+  - EN: `双 Lithium`
+- `material.tiberium.name`
+  - ZH: `泰伯利亚`
+  - EN: `泰伯利亚`
+- `material.aurorium.name`
+  - ZH: `奥罗拉`
+  - EN: `奥罗拉`
+- `material.prometheum.name`
+  - ZH: `钷`
+  - EN: `钷`
+- `material.duranite.name`
+  - ZH: `杜兰特`
+  - EN: `杜兰特`
+- `material.valyrium.name`
+  - ZH: `瓦雷利亚`
+  - EN: `瓦雷利亚`
+- `material.vibranium.name`
+  - ZH: `振金`
+  - EN: `振 Gold`
+- `material.karmesine.name`
+  - ZH: `卡梅塞恩`
+  - EN: `卡梅塞恩`
+- `material.jauxum.name`
+  - ZH: `杰西姆`
+  - EN: `杰西姆`
+- `material.ovium.name`
+  - ZH: `欧维姆`
+  - EN: `欧维姆`
+- `material.terrax.name`
+  - ZH: `地母`
+  - EN: `地母`
+- `material.palladium.name`
+  - ZH: `钯`
+  - EN: `Palladium`
+- `material.uru.name`
+  - ZH: `乌鲁`
+  - EN: `乌鲁`
+- `material.osram.name`
+  - ZH: `欧司朗`
+  - EN: `欧司朗`
+- `material.abyssum.name`
+  - ZH: `深渊金属`
+  - EN: `Abyss Gold属`
+- `material.eezo.name`
+  - ZH: `零素`
+  - EN: `零素`
+- `material.triberium.name`
+  - ZH: `泰伯利安`
+  - EN: `泰伯利安`
+- `material.fractum.name`
+  - ZH: `碎金`
+  - EN: `碎 Gold`
+- `material.violium.name`
+  - ZH: `瑟蓝`
+  - EN: `瑟蓝`
+- `material.proxii.name`
+  - ZH: `普罗克希`
+  - EN: `普罗克希`
+- `material.tritonite.name`
+  - ZH: `漩金`
+  - EN: `漩 Gold`
+- `material.ignitz.name`
+  - ZH: `焰晶`
+  - EN: `焰 Crystal`
+- `material.imperomite.name`
+  - ZH: `帝金`
+  - EN: `帝 Gold`
+- `material.solarium.name`
+  - ZH: `阳光合金`
+  - EN: `阳光 Alloy`
+- `material.nihilite.name`
+  - ZH: `虚金`
+  - EN: `虚 Gold`
+- `material.adamant.name`
+  - ZH: `精金`
+  - EN: `精 Gold`
+- `material.dyonite.name`
+  - ZH: `狄奥尼`
+  - EN: `狄奥尼`
+- `material.nucleum.name`
+  - ZH: `辐光合金`
+  - EN: `辐光 Alloy`
+- `material.lumix.name`
+  - ZH: `流明`
+  - EN: `流明`
+- `material.seismum.name`
+  - ZH: `赛姆`
+  - EN: `赛姆`
+- `material.astrium.name`
+  - ZH: `阿斯特里姆`
+  - EN: `阿斯特里姆`
+- `material.niob.name`
+  - ZH: `铌`
+  - EN: `Niobium`
+- `material.yrdeen.name`
+  - ZH: `原金`
+  - EN: `原 Gold`
+- `material.iox.name`
+  - ZH: `离金`
+  - EN: `离 Gold`
+- `material.meteorite.name`
+  - ZH: `陨铁`
+  - EN: `陨 Iron`
+- `material.obsidiorite.name`
+  - ZH: `黑陨铁`
+  - EN: `黑陨 Iron`
+- `material.magma.name`
+  - ZH: `岩浆`
+  - EN: `Lava`
+- `material.nitronite.name`
+  - ZH: `硝化合金`
+  - EN: `硝化 Alloy`
+- `tile.basalt_block.name`
+  - ZH: `玄武岩块`
+  - EN: `Basalt Block`
+- `tile.dilithium_block.name`
+  - ZH: `双锂块`
+  - EN: `Dilithium Block`
+- `tile.tiberium_block.name`
+  - ZH: `泰伯利亚块`
+  - EN: `Tiberium Block`
+- `tile.aurorium_block.name`
+  - ZH: `奥罗拉块`
+  - EN: `Aurorium Block`
+- `tile.prometheum_block.name`
+  - ZH: `钷块`
+  - EN: `Prometheum Block`
+- `tile.duranite_block.name`
+  - ZH: `杜兰特块`
+  - EN: `Duranite Block`
+- `tile.valyrium_block.name`
+  - ZH: `瓦雷利亚块`
+  - EN: `Valyrium Block`
+- `tile.vibranium_block.name`
+  - ZH: `振金块`
+  - EN: `Vibranium Block`
+- `tile.karmesine_block.name`
+  - ZH: `卡梅塞恩块`
+  - EN: `Karmesine Block`
+- `tile.jauxum_block.name`
+  - ZH: `杰西姆块`
+  - EN: `Jauxum Block`
+- `tile.ovium_block.name`
+  - ZH: `欧维姆块`
+  - EN: `Ovium Block`
+- `tile.terrax_block.name`
+  - ZH: `地母块`
+  - EN: `Terrax Block`
+- `tile.palladium_block.name`
+  - ZH: `钯块`
+  - EN: `Palladium Block`
+- `tile.uru_block.name`
+  - ZH: `乌鲁块`
+  - EN: `Uru Block`
+- `tile.osram_block.name`
+  - ZH: `欧司朗块`
+  - EN: `Osram Block`
+- `tile.abyssum_block.name`
+  - ZH: `深渊金属块`
+  - EN: `Abyssum Block`
+- `tile.eezo_block.name`
+  - ZH: `零素块`
+  - EN: `Eezo Block`
+- `tile.triberium_block.name`
+  - ZH: `泰伯利安块`
+  - EN: `Triberium Block`
+- `tile.fractum_block.name`
+  - ZH: `碎金块`
+  - EN: `Fractum Block`
+- `tile.violium_block.name`
+  - ZH: `瑟蓝块`
+  - EN: `Violium Block`
+- `tile.proxii_block.name`
+  - ZH: `普罗克希块`
+  - EN: `Proxii Block`
+- `tile.tritonite_block.name`
+  - ZH: `漩金块`
+  - EN: `Tritonite Block`
+- `tile.ignitz_block.name`
+  - ZH: `焰晶块`
+  - EN: `Ignitz Block`
+- `tile.imperomite_block.name`
+  - ZH: `帝金块`
+  - EN: `Imperomite Block`
+- `tile.solarium_block.name`
+  - ZH: `阳光合金块`
+  - EN: `Solarium Block`
+- `tile.nihilite_block.name`
+  - ZH: `虚金块`
+  - EN: `Nihilite Block`
+- `tile.adamant_block.name`
+  - ZH: `精金块`
+  - EN: `Adamant Block`
+- `tile.dyonite_block.name`
+  - ZH: `狄奥尼块`
+  - EN: `Dyonite Block`
+- `tile.nucleum_block.name`
+  - ZH: `辐光合金块`
+  - EN: `Nucleum Block`
+- `tile.lumix_block.name`
+  - ZH: `流明块`
+  - EN: `Lumix Block`
+- `tile.seismum_block.name`
+  - ZH: `赛姆块`
+  - EN: `Seismum Block`
+- `tile.astrium_block.name`
+  - ZH: `阿斯特里姆块`
+  - EN: `Astrium Block`
+- `tile.niob_block.name`
+  - ZH: `铌块`
+  - EN: `Niobium Block`
+- `tile.yrdeen_block.name`
+  - ZH: `原金块`
+  - EN: `Yrdeen Block`
+- `tile.iox_block.name`
+  - ZH: `离金块`
+  - EN: `Iox Block`
+- `tile.meteorite_block.name`
+  - ZH: `陨铁块`
+  - EN: `Meteorite Block`
+- `tile.obsidiorite_block.name`
+  - ZH: `黑陨铁块`
+  - EN: `Obsidiorite Block`
+- `tile.magma_block.name`
+  - ZH: `岩浆块`
+  - EN: `Lava Block`
+- `tile.nitronite_block.name`
+  - ZH: `硝化合金块`
+  - EN: `Nitronite Block`
+- `tile.meteoritecobble_block.name`
+  - ZH: `陨石圆石块`
+  - EN: `Meteoritecobble Block`
+- `tile.obsidioritecobble_block.name`
+  - ZH: `黑陨铁圆石块`
+  - EN: `Obsidioritecobble Block`
+- `tile.basalt_ore.name`
+  - ZH: `玄武岩矿石`
+  - EN: `Basalt Ore`
+- `tile.tiberium_ore.name`
+  - ZH: `双锂矿石`
+  - EN: `Tiberium Ore`
+- `tile.dilithium_ore.name`
+  - ZH: `泰伯利亚矿石`
+  - EN: `Dilithium Ore`
+- `tile.aurorium_ore.name`
+  - ZH: `奥罗拉矿石`
+  - EN: `Aurorium Ore`
+- `tile.prometheum_ore.name`
+  - ZH: `钷矿石`
+  - EN: `Prometheum Ore`
+- `tile.duranite_ore.name`
+  - ZH: `杜兰特矿石`
+  - EN: `Duranite Ore`
+- `tile.valyrium_ore.name`
+  - ZH: `瓦雷利亚矿石`
+  - EN: `Valyrium Ore`
+- `tile.vibranium_ore.name`
+  - ZH: `振金矿石`
+  - EN: `Vibranium Ore`
+- `tile.karmesine_ore.name`
+  - ZH: `卡梅塞恩矿石`
+  - EN: `Karmesine Ore`
+- `tile.jauxum_ore.name`
+  - ZH: `杰西姆矿石`
+  - EN: `Jauxum Ore`
+- `tile.ovium_ore.name`
+  - ZH: `欧维姆矿石`
+  - EN: `Ovium Ore`
+- `tile.terrax_ore.name`
+  - ZH: `地母矿石`
+  - EN: `Terrax Ore`
+- `tile.palladium_ore.name`
+  - ZH: `钯矿石`
+  - EN: `Palladium Ore`
+- `tile.uru_ore.name`
+  - ZH: `乌鲁矿石`
+  - EN: `Uru Ore`
+- `tile.osram_ore.name`
+  - ZH: `欧司朗矿石`
+  - EN: `Osram Ore`
+- `tile.abyssum_ore.name`
+  - ZH: `深渊金属矿石`
+  - EN: `Abyssum Ore`
+- `tile.eezo_ore.name`
+  - ZH: `零素矿石`
+  - EN: `Eezo Ore`
+- `tile.triberium_ore.name`
+  - ZH: `泰伯利安矿石`
+  - EN: `Triberium Ore`
+- `tile.fractum_ore.name`
+  - ZH: `碎金矿石`
+  - EN: `Fractum Ore`
+- `tile.violium_ore.name`
+  - ZH: `瑟蓝矿石`
+  - EN: `Violium Ore`
+- `tile.proxii_ore.name`
+  - ZH: `普罗克希矿石`
+  - EN: `Proxii Ore`
+- `tile.tritonite_ore.name`
+  - ZH: `漩金矿石`
+  - EN: `Tritonite Ore`
+- `tile.ignitz_ore.name`
+  - ZH: `焰晶矿石`
+  - EN: `Ignitz Ore`
+- `tile.imperomite_ore.name`
+  - ZH: `帝金矿石`
+  - EN: `Imperomite Ore`
+- `tile.solarium_ore.name`
+  - ZH: `阳光合金矿石`
+  - EN: `Solarium Ore`
+- `tile.nihilite_ore.name`
+  - ZH: `虚金矿石`
+  - EN: `Nihilite Ore`
+- `tile.adamant_ore.name`
+  - ZH: `精金矿石`
+  - EN: `Adamant Ore`
+- `tile.dyonite_ore.name`
+  - ZH: `狄奥尼矿石`
+  - EN: `Dyonite Ore`
+- `tile.nucleum_ore.name`
+  - ZH: `辐光合金矿石`
+  - EN: `Nucleum Ore`
+- `tile.lumix_ore.name`
+  - ZH: `流明矿石`
+  - EN: `Lumix Ore`
+- `tile.seismum_ore.name`
+  - ZH: `赛姆矿石`
+  - EN: `Seismum Ore`
+- `tile.astrium_ore.name`
+  - ZH: `阿斯特里姆矿石`
+  - EN: `Astrium Ore`
+- `tile.niob_ore.name`
+  - ZH: `铌矿石`
+  - EN: `Niobium Ore`
+- `tile.yrdeen_ore.name`
+  - ZH: `原金矿石`
+  - EN: `Yrdeen Ore`
+- `tile.iox_ore.name`
+  - ZH: `离金矿石`
+  - EN: `Iox Ore`
+- `tile.meteorite_ore.name`
+  - ZH: `陨铁矿石`
+  - EN: `Meteorite Ore`
+- `tile.obsidiorite_ore.name`
+  - ZH: `黑陨铁矿石`
+  - EN: `Obsidiorite Ore`
+- `tile.magma_ore.name`
+  - ZH: `岩浆矿石`
+  - EN: `Lava Ore`
+- `tile.nitronite_ore.name`
+  - ZH: `硝化合金矿石`
+  - EN: `Nitronite Ore`
+- `item.dilithium_crystal.name`
+  - ZH: `双锂水晶`
+  - EN: `Dilithium Crystal`
+- `item.tiberium_crystal.name`
+  - ZH: `泰伯利亚水晶`
+  - EN: `Tiberium Crystal`
+- `item.basalt_nugget.name`
+  - ZH: `玄武岩粒`
+  - EN: `Basalt Nugget`
+- `item.dilithium_nugget.name`
+  - ZH: `双锂粒`
+  - EN: `Dilithium Nugget`
+- `item.tiberium_nugget.name`
+  - ZH: `泰伯利亚粒`
+  - EN: `Tiberium Nugget`
+- `item.aurorium_nugget.name`
+  - ZH: `奥罗拉粒`
+  - EN: `Aurorium Nugget`
+- `item.prometheum_nugget.name`
+  - ZH: `钷粒`
+  - EN: `Prometheum Nugget`
+- `item.duranite_nugget.name`
+  - ZH: `杜兰特粒`
+  - EN: `Duranite Nugget`
+- `item.valyrium_nugget.name`
+  - ZH: `瓦雷利亚粒`
+  - EN: `Valyrium Nugget`
+- `item.vibranium_nugget.name`
+  - ZH: `振金粒`
+  - EN: `Vibranium Nugget`
+- `item.karmesine_nugget.name`
+  - ZH: `卡梅塞恩粒`
+  - EN: `Karmesine Nugget`
+- `item.jauxum_nugget.name`
+  - ZH: `杰西姆粒`
+  - EN: `Jauxum Nugget`
+- `item.ovium_nugget.name`
+  - ZH: `欧维姆粒`
+  - EN: `Ovium Nugget`
+- `item.terrax_nugget.name`
+  - ZH: `地母粒`
+  - EN: `Terrax Nugget`
+- `item.palladium_nugget.name`
+  - ZH: `钯粒`
+  - EN: `Palladium Nugget`
+- `item.uru_nugget.name`
+  - ZH: `乌鲁粒`
+  - EN: `Uru Nugget`
+- `item.osram_nugget.name`
+  - ZH: `欧司朗粒`
+  - EN: `Osram Nugget`
+- `item.abyssum_nugget.name`
+  - ZH: `深渊金属粒`
+  - EN: `Abyssum Nugget`
+- `item.eezo_nugget.name`
+  - ZH: `零素粒`
+  - EN: `Eezo Nugget`
+- `item.triberium_nugget.name`
+  - ZH: `泰伯利安粒`
+  - EN: `Triberium Nugget`
+- `item.fractum_nugget.name`
+  - ZH: `碎金粒`
+  - EN: `Fractum Nugget`
+- `item.violium_nugget.name`
+  - ZH: `瑟蓝粒`
+  - EN: `Violium Nugget`
+- `item.proxii_nugget.name`
+  - ZH: `普罗克希粒`
+  - EN: `Proxii Nugget`
+- `item.tritonite_nugget.name`
+  - ZH: `漩金粒`
+  - EN: `Tritonite Nugget`
+- `item.ignitz_nugget.name`
+  - ZH: `焰晶粒`
+  - EN: `Ignitz Nugget`
+- `item.imperomite_nugget.name`
+  - ZH: `帝金粒`
+  - EN: `Imperomite Nugget`
+- `item.solarium_nugget.name`
+  - ZH: `阳光合金粒`
+  - EN: `Solarium Nugget`
+- `item.nihilite_nugget.name`
+  - ZH: `虚金粒`
+  - EN: `Nihilite Nugget`
+- `item.adamant_nugget.name`
+  - ZH: `精金粒`
+  - EN: `Adamant Nugget`
+- `item.dyonite_nugget.name`
+  - ZH: `狄奥尼粒`
+  - EN: `Dyonite Nugget`
+- `item.nucleum_nugget.name`
+  - ZH: `辐光合金粒`
+  - EN: `Nucleum Nugget`
+- `item.lumix_nugget.name`
+  - ZH: `流明粒`
+  - EN: `Lumix Nugget`
+- `item.seismum_nugget.name`
+  - ZH: `赛姆粒`
+  - EN: `Seismum Nugget`
+- `item.astrium_nugget.name`
+  - ZH: `阿斯特里姆粒`
+  - EN: `Astrium Nugget`
+- `item.niob_nugget.name`
+  - ZH: `铌粒`
+  - EN: `Niobium Nugget`
+- `item.yrdeen_nugget.name`
+  - ZH: `原金粒`
+  - EN: `Yrdeen Nugget`
+- `item.iox_nugget.name`
+  - ZH: `离金粒`
+  - EN: `Iox Nugget`
+- `item.meteorite_nugget.name`
+  - ZH: `陨铁粒`
+  - EN: `Meteorite Nugget`
+- `item.obsidiorite_nugget.name`
+  - ZH: `黑陨铁粒`
+  - EN: `Obsidiorite Nugget`
+- `item.magma_nugget.name`
+  - ZH: `岩浆粒`
+  - EN: `Lava Nugget`
+- `item.nitronite_nugget.name`
+  - ZH: `硝化合金粒`
+  - EN: `Nitronite Nugget`
+- `item.iron_nugget.name`
+  - ZH: `铁粒`
+  - EN: `Iron Nugget`
+- `item.basalt_dust.name`
+  - ZH: `玄武岩粉`
+  - EN: `Basalt Dust`
+- `item.tiberium_dust.name`
+  - ZH: `双锂粉`
+  - EN: `Tiberium Dust`
+- `item.dilithium_dust.name`
+  - ZH: `泰伯利亚粉`
+  - EN: `Dilithium Dust`
+- `item.aurorium_dust.name`
+  - ZH: `奥罗拉粉`
+  - EN: `Aurorium Dust`
+- `item.prometheum_dust.name`
+  - ZH: `钷粉`
+  - EN: `Prometheum Dust`
+- `item.duranite_dust.name`
+  - ZH: `杜兰特粉`
+  - EN: `Duranite Dust`
+- `item.valyrium_dust.name`
+  - ZH: `瓦雷利亚粉`
+  - EN: `Valyrium Dust`
+- `item.vibranium_dust.name`
+  - ZH: `振金粉`
+  - EN: `Vibranium Dust`
+- `item.karmesine_dust.name`
+  - ZH: `卡梅塞恩粉`
+  - EN: `Karmesine Dust`
+- `item.jauxum_dust.name`
+  - ZH: `杰西姆粉`
+  - EN: `Jauxum Dust`
+- `item.ovium_dust.name`
+  - ZH: `欧维姆粉`
+  - EN: `Ovium Dust`
+- `item.terrax_dust.name`
+  - ZH: `地母粉`
+  - EN: `Terrax Dust`
+- `item.palladium_dust.name`
+  - ZH: `钯粉`
+  - EN: `Palladium Dust`
+- `item.uru_dust.name`
+  - ZH: `乌鲁粉`
+  - EN: `Uru Dust`
+- `item.osram_dust.name`
+  - ZH: `欧司朗粉`
+  - EN: `Osram Dust`
+- `item.abyssum_dust.name`
+  - ZH: `深渊金属粉`
+  - EN: `Abyssum Dust`
+- `item.eezo_dust.name`
+  - ZH: `零素粉`
+  - EN: `Eezo Dust`
+- `item.triberium_dust.name`
+  - ZH: `泰伯利安粉`
+  - EN: `Triberium Dust`
+- `item.fractum_dust.name`
+  - ZH: `碎金粉`
+  - EN: `Fractum Dust`
+- `item.violium_dust.name`
+  - ZH: `瑟蓝粉`
+  - EN: `Violium Dust`
+- `item.proxii_dust.name`
+  - ZH: `普罗克希粉`
+  - EN: `Proxii Dust`
+- `item.tritonite_dust.name`
+  - ZH: `漩金粉`
+  - EN: `Tritonite Dust`
+- `item.ignitz_dust.name`
+  - ZH: `焰晶粉`
+  - EN: `Ignitz Dust`
+- `item.imperomite_dust.name`
+  - ZH: `帝金粉`
+  - EN: `Imperomite Dust`
+- `item.solarium_dust.name`
+  - ZH: `阳光合金粉`
+  - EN: `Solarium Dust`
+- `item.nihilite_dust.name`
+  - ZH: `虚金粉`
+  - EN: `Nihilite Dust`
+- `item.adamant_dust.name`
+  - ZH: `精金粉`
+  - EN: `Adamant Dust`
+- `item.dyonite_dust.name`
+  - ZH: `狄奥尼粉`
+  - EN: `Dyonite Dust`
+- `item.nucleum_dust.name`
+  - ZH: `辐光合金粉`
+  - EN: `Nucleum Dust`
+- `item.lumix_dust.name`
+  - ZH: `流明粉`
+  - EN: `Lumix Dust`
+- `item.seismum_dust.name`
+  - ZH: `赛姆粉`
+  - EN: `Seismum Dust`
+- `item.astrium_dust.name`
+  - ZH: `阿斯特里姆粉`
+  - EN: `Astrium Dust`
+- `item.niob_dust.name`
+  - ZH: `铌粉`
+  - EN: `Niobium Dust`
+- `item.yrdeen_dust.name`
+  - ZH: `原金粉`
+  - EN: `Yrdeen Dust`
+- `item.iox_dust.name`
+  - ZH: `离金粉`
+  - EN: `Iox Dust`
+- `item.meteorite_dust.name`
+  - ZH: `陨铁粉`
+  - EN: `Meteorite Dust`
+- `item.obsidiorite_dust.name`
+  - ZH: `黑陨铁锭`
+  - EN: `Obsidiorite Dust`
+- `item.magma_dust.name`
+  - ZH: `岩浆粉`
+  - EN: `Lava Dust`
+- `item.nitronite_dust.name`
+  - ZH: `硝化合金粉`
+  - EN: `Nitronite Dust`
+- `item.basalt_ingot.name`
+  - ZH: `玄武岩锭`
+  - EN: `Basalt Ingot`
+- `item.tiberium_ingot.name`
+  - ZH: `双锂锭`
+  - EN: `Tiberium Ingot`
+- `item.dilithium_ingot.name`
+  - ZH: `泰伯利亚锭`
+  - EN: `Dilithium Ingot`
+- `item.aurorium_ingot.name`
+  - ZH: `奥罗拉锭`
+  - EN: `Aurorium Ingot`
+- `item.prometheum_ingot.name`
+  - ZH: `钷锭`
+  - EN: `Prometheum Ingot`
+- `item.duranite_ingot.name`
+  - ZH: `杜兰特锭`
+  - EN: `Duranite Ingot`
+- `item.valyrium_ingot.name`
+  - ZH: `瓦雷利亚锭`
+  - EN: `Valyrium Ingot`
+- `item.vibranium_ingot.name`
+  - ZH: `振金锭`
+  - EN: `Vibranium Ingot`
+- `item.karmesine_ingot.name`
+  - ZH: `卡梅塞恩锭`
+  - EN: `Karmesine Ingot`
+- `item.jauxum_ingot.name`
+  - ZH: `杰西姆锭`
+  - EN: `Jauxum Ingot`
+- `item.ovium_ingot.name`
+  - ZH: `欧维姆锭`
+  - EN: `Ovium Ingot`
+- `item.terrax_ingot.name`
+  - ZH: `地母锭`
+  - EN: `Terrax Ingot`
+- `item.palladium_ingot.name`
+  - ZH: `钯锭`
+  - EN: `Palladium Ingot`
+- `item.uru_ingot.name`
+  - ZH: `乌鲁锭`
+  - EN: `Uru Ingot`
+- `item.osram_ingot.name`
+  - ZH: `欧司朗锭`
+  - EN: `Osram Ingot`
+- `item.abyssum_ingot.name`
+  - ZH: `深渊金属锭`
+  - EN: `Abyssum Ingot`
+- `item.eezo_ingot.name`
+  - ZH: `零素锭`
+  - EN: `Eezo Ingot`
+- `item.triberium_ingot.name`
+  - ZH: `泰伯利安锭`
+  - EN: `Triberium Ingot`
+- `item.fractum_ingot.name`
+  - ZH: `碎金锭`
+  - EN: `Fractum Ingot`
+- `item.violium_ingot.name`
+  - ZH: `瑟蓝锭`
+  - EN: `Violium Ingot`
+- `item.proxii_ingot.name`
+  - ZH: `普罗克希锭`
+  - EN: `Proxii Ingot`
+- `item.tritonite_ingot.name`
+  - ZH: `漩金锭`
+  - EN: `Tritonite Ingot`
+- `item.ignitz_ingot.name`
+  - ZH: `焰晶锭`
+  - EN: `Ignitz Ingot`
+- `item.imperomite_ingot.name`
+  - ZH: `帝金锭`
+  - EN: `Imperomite Ingot`
+- `item.solarium_ingot.name`
+  - ZH: `阳光合金锭`
+  - EN: `Solarium Ingot`
+- `item.nihilite_ingot.name`
+  - ZH: `虚金锭`
+  - EN: `Nihilite Ingot`
+- `item.adamant_ingot.name`
+  - ZH: `精金锭`
+  - EN: `Adamant Ingot`
+- `item.dyonite_ingot.name`
+  - ZH: `狄奥尼锭`
+  - EN: `Dyonite Ingot`
+- `item.nucleum_ingot.name`
+  - ZH: `辐光合金锭`
+  - EN: `Nucleum Ingot`
+- `item.lumix_ingot.name`
+  - ZH: `流明锭`
+  - EN: `Lumix Ingot`
+- `item.seismum_ingot.name`
+  - ZH: `赛姆锭`
+  - EN: `Seismum Ingot`
+- `item.astrium_ingot.name`
+  - ZH: `阿斯特里姆锭`
+  - EN: `Astrium Ingot`
+- `item.niob_ingot.name`
+  - ZH: `铌锭`
+  - EN: `Niobium Ingot`
+- `item.yrdeen_ingot.name`
+  - ZH: `原金锭`
+  - EN: `Yrdeen Ingot`
+- `item.iox_ingot.name`
+  - ZH: `离金锭`
+  - EN: `Iox Ingot`
+- `item.meteorite_ingot.name`
+  - ZH: `陨铁锭`
+  - EN: `Meteorite Ingot`
+- `item.obsidiorite_ingot.name`
+  - ZH: `黑陨铁锭`
+  - EN: `Obsidiorite Ingot`
+- `item.magma_ingot.name`
+  - ZH: `岩浆锭`
+  - EN: `Lava Ingot`
+- `item.nitronite_ingot.name`
+  - ZH: `硝化合金锭`
+  - EN: `Nitronite Ingot`
+- `fluid.tconstruct.basalt_fluid.name`
+  - ZH: `熔融玄武岩`
+  - EN: `Basalt Fluid`
+- `fluid.tconstruct.tiberium_fluid.name`
+  - ZH: `熔融双锂`
+  - EN: `Tiberium Fluid`
+- `fluid.tconstruct.dilithium_fluid.name`
+  - ZH: `熔融泰伯利亚`
+  - EN: `Dilithium Fluid`
+- `fluid.tconstruct.aurorium_fluid.name`
+  - ZH: `熔融奥罗拉`
+  - EN: `Aurorium Fluid`
+- `fluid.tconstruct.prometheum_fluid.name`
+  - ZH: `熔融钷`
+  - EN: `Prometheum Fluid`
+- `fluid.tconstruct.duranite_fluid.name`
+  - ZH: `熔融杜兰特`
+  - EN: `Duranite Fluid`
+- `fluid.tconstruct.valyrium_fluid.name`
+  - ZH: `熔融瓦雷利亚`
+  - EN: `Valyrium Fluid`
+- `fluid.tconstruct.vibranium_fluid.name`
+  - ZH: `熔融振金`
+  - EN: `Vibranium Fluid`
+- `fluid.tconstruct.karmesine_fluid.name`
+  - ZH: `熔融卡梅塞恩`
+  - EN: `Karmesine Fluid`
+- `fluid.tconstruct.jauxum_fluid.name`
+  - ZH: `熔融杰西姆`
+  - EN: `Jauxum Fluid`
+- `fluid.tconstruct.ovium_fluid.name`
+  - ZH: `熔融欧维姆`
+  - EN: `Ovium Fluid`
+- `fluid.tconstruct.terrax_fluid.name`
+  - ZH: `熔融地母`
+  - EN: `Terrax Fluid`
+- `fluid.tconstruct.palladium_fluid.name`
+  - ZH: `熔融钯`
+  - EN: `Molten Palladium`
+- `fluid.tconstruct.uru_fluid.name`
+  - ZH: `熔融乌鲁`
+  - EN: `Uru Fluid`
+- `fluid.tconstruct.osram_fluid.name`
+  - ZH: `熔融欧司朗`
+  - EN: `Osram Fluid`
+- `fluid.tconstruct.abyssum_fluid.name`
+  - ZH: `熔融深渊金属`
+  - EN: `Abyssum Fluid`
+- `fluid.tconstruct.eezo_fluid.name`
+  - ZH: `熔融零素`
+  - EN: `Eezo Fluid`
+- `fluid.tconstruct.triberium_fluid.name`
+  - ZH: `熔融泰伯利安`
+  - EN: `Triberium Fluid`
+- `fluid.tconstruct.fractum_fluid.name`
+  - ZH: `熔融碎金`
+  - EN: `Fractum Fluid`
+- `fluid.tconstruct.violium_fluid.name`
+  - ZH: `熔融瑟蓝`
+  - EN: `Violium Fluid`
+- `fluid.tconstruct.proxii_fluid.name`
+  - ZH: `熔融普罗克希`
+  - EN: `Proxii Fluid`
+- `fluid.tconstruct.tritonite_fluid.name`
+  - ZH: `熔融漩金`
+  - EN: `Tritonite Fluid`
+- `fluid.tconstruct.ignitz_fluid.name`
+  - ZH: `熔融焰晶`
+  - EN: `Ignitz Fluid`
+- `fluid.tconstruct.imperomite_fluid.name`
+  - ZH: `熔融帝金`
+  - EN: `Imperomite Fluid`
+- `fluid.tconstruct.solarium_fluid.name`
+  - ZH: `熔融阳光合金`
+  - EN: `Solarium Fluid`
+- `fluid.tconstruct.nihilite_fluid.name`
+  - ZH: `熔融虚金`
+  - EN: `Nihilite Fluid`
+- `fluid.tconstruct.adamant_fluid.name`
+  - ZH: `熔融精金`
+  - EN: `Adamant Fluid`
+- `fluid.tconstruct.dyonite_fluid.name`
+  - ZH: `熔融狄奥尼`
+  - EN: `Dyonite Fluid`
+- `fluid.tconstruct.nucleum_fluid.name`
+  - ZH: `熔融辐光合金`
+  - EN: `Nucleum Fluid`
+- `fluid.tconstruct.lumix_fluid.name`
+  - ZH: `熔融流明`
+  - EN: `Lumix Fluid`
+- `fluid.tconstruct.seismum_fluid.name`
+  - ZH: `熔融赛姆`
+  - EN: `Seismum Fluid`
+- `fluid.tconstruct.astrium_fluid.name`
+  - ZH: `熔融阿斯特里姆`
+  - EN: `Astrium Fluid`
+- `fluid.tconstruct.niob_fluid.name`
+  - ZH: `熔融铌`
+  - EN: `Molten Niobium`
+- `fluid.tconstruct.yrdeen_fluid.name`
+  - ZH: `熔融原金`
+  - EN: `Yrdeen Fluid`
+- `fluid.tconstruct.iox_fluid.name`
+  - ZH: `熔融离金`
+  - EN: `Iox Fluid`
+- `fluid.tconstruct.meteorite_fluid.name`
+  - ZH: `熔融陨铁`
+  - EN: `Meteorite Fluid`
+- `fluid.tconstruct.obsidiorite_fluid.name`
+  - ZH: `熔融黑陨铁`
+  - EN: `Obsidiorite Fluid`
+- `fluid.tconstruct.magma_fluid.name`
+  - ZH: `熔融岩浆`
+  - EN: `Molten Lava`
+- `fluid.tconstruct.nitronite_fluid.name`
+  - ZH: `熔融硝化合金`
+  - EN: `Nitronite Fluid`
+- `modifier.catcher_changed.name`
+  - ZH: `捕手`
+  - EN: `捕手`
+- `modifier.catcher_changed.desc`
+  - ZH: `§o一网打尽！§r\n杀死目标生物后，将其捕捉，之后可以释放。`
+  - EN: `§o一网打尽！§r\n杀死目标生物后，将其捕捉，之后可以释放。`
+- `modifier.analysing_changed.name`
+  - ZH: `解析`
+  - EN: `解析`
+- `modifier.analysing_changed.desc`
+  - ZH: `§o我知道你在想什么！§r\n减少掉落物，获得更多的（？）经验，不一定哦。`
+  - EN: `§o我知道你在想什么！§r\n Decrease掉落物，Obtain更多的（？）Experience，不一定哦。`
+- `modifier.congenial_changed.name`
+  - ZH: `投机`
+  - EN: `投机`
+- `modifier.congenial_changed.desc`
+  - ZH: `§o你是我的对手！§r\n对已知的某一个敌人伤害加倍，但对其他所有敌人几乎不造成伤害。`
+  - EN: `§o你是我的对手！§r\n对已知的某一个敌人 Damage加倍，但对其他所有敌人几乎不造成 Damage。`
+- `modifier.arcane_changed.name`
+  - ZH: `奥术`
+  - EN: `Arcane`
+- `modifier.arcane_changed.desc`
+  - ZH: `§o天黑了，让我们去挖矿吧！§r\n在晚上，工具会更加耐用。`
+  - EN: `§o天黑了，让我们去挖矿吧！§r\n在晚上，Tool会更加耐用。`
+- `modifier.blind_changed.name`
+  - ZH: `失明`
+  - EN: `失明`
+- `modifier.blind_changed.desc`
+  - ZH: `§o在黑暗的夜晚，梦魇开始苏醒...§r\n夜晚会使得你失明和虚弱，但即使是白天也有可能发生。`
+  - EN: `§o在 Darkness的夜晚，梦魇 Start苏醒...§r\n夜晚会使得你失明和虚弱，但即使是白天也有可能发生。`
+- `modifier.bright_changed.name`
+  - ZH: `发光`
+  - EN: `发光`
+- `modifier.bright_changed.desc`
+  - ZH: `§o只有这明亮的阳光下，才能感到丝毫的安全...§r\n白天会使你发光，同时增强你的攻击力。`
+  - EN: `§o只有这明亮的阳光下，才能感到丝毫的安全...§r\n白天会使你发光，同时增强你的攻击力。`
+- `modifier.cascade_changed.name`
+  - ZH: `振动`
+  - EN: `振动`
+- `modifier.cascade_changed.desc`
+  - ZH: `§o这个工具在振动！§r\n破坏方块时额外随机破坏大量方块。`
+  - EN: `§o这个 Tool在振动！§r\n破坏 Block时额外随机破坏大量 Block。`
+- `modifier.curvature_changed.name`
+  - ZH: `曲度`
+  - EN: `曲度`
+- `modifier.curvature_changed.desc`
+  - ZH: `§o它在拉着我！§r\n有时候它会让你和你周围的事物随机传送，有时它也会帮助你进行并不随机的传送。`
+  - EN: `§o它在拉着我！§r\n有时候它会让你和你周围的事物随机传送，有时它也会帮助你进行并不随机的传送。`
+- `modifier.dark_changed.name`
+  - ZH: `黑暗`
+  - EN: `Darkness`
+- `modifier.dark_changed.desc`
+  - ZH: `§o天黑了，让我们战斗吧！§r\n夜晚使你更具战斗力。`
+  - EN: `§o天黑了，让我们战斗吧！§r\n夜晚使你更具战斗力。`
+- `modifier.diffuse_changed.name`
+  - ZH: `漫散`
+  - EN: `漫散`
+- `modifier.diffuse_changed.desc`
+  - ZH: `§o如此多的经验...或者什么都没有？§r\n经常会使破坏方块掉落额外的经验(真的吗，我是不敢保证)，但是掉落物可能会消失。`
+  - EN: `§o如此多的 Experience...或者什么都没有？§r\n经常会使破坏 Block掉落额外的 Experience(真的吗，我是不敢保证)，但是掉落物可能会消失。`
+- `modifier.dissolving_changed.name`
+  - ZH: `消溶`
+  - EN: `消溶`
+- `modifier.dissolving_changed.desc`
+  - ZH: `§o看起来挺多的，事实上呢...§r\n使得经验掉落变得毫无章法毫无规律（悲）`
+  - EN: `§o看起来挺多的，事实上呢...§r\n使得 Experience掉落变得毫无章法毫无规律（悲）`
+- `modifier.fracture_changed.name`
+  - ZH: `碎灭`
+  - EN: `碎灭`
+- `modifier.fracture_changed.desc`
+  - ZH: `§o激光束？§r\n进行长距离直线破坏。`
+  - EN: `§o激光束？§r\n进行长距离直线破坏。`
+- `modifier.fracture_fixed.name`
+  - ZH: `碎灭`
+  - EN: `碎灭`
+- `modifier.fracture_fixed.desc`
+  - ZH: `§o激光束？§r\n进行随机距离直线破坏。`
+  - EN: `§o激光束？§r\n进行随机距离直线破坏。`
+- `modifier.fragile_changed.name`
+  - ZH: `脆度`
+  - EN: `脆度`
+- `modifier.fragile_changed.desc`
+  - ZH: `§o一种地震。§r\n你的工具会额外损失耐久使目标方块会变得更脆弱。`
+  - EN: `§o一种地震。§r\n你的 Tool会额外损失耐久使目标 Block会变得更脆弱。`
+- `modifier.fragile_fixed.name`
+  - ZH: `脆度`
+  - EN: `脆度`
+- `modifier.fragile_fixed.desc`
+  - ZH: `§o一种地震。§r\n你的工具会额外损失耐久击碎周围的方块。`
+  - EN: `§o一种地震。§r\n你的 Tool会额外损失耐久击碎周围的 Block。`
+- `modifier.garishly_changed.name`
+  - ZH: `炙热`
+  - EN: `炙热`
+- `modifier.garishly_changed.desc`
+  - ZH: `§o它太热了。§r\n它会将掉落物烤成很热的东西...（译注：不会减少原先的掉落物）`
+  - EN: `§o它太热了。§r\n它会将掉落物烤成很热的东西...（译注：不会 Decrease原先的掉落物）`
+- `modifier.garishly_fixed.name`
+  - ZH: `炙热`
+  - EN: `炙热`
+- `modifier.garishly_fixed.desc`
+  - ZH: `§o它太热了。§r\n它会将掉落物烤成很热的东西...并且使得你损失大部分挖掘掉落物`
+  - EN: `§o它太热了。§r\n它会将掉落物烤成很热的东西...并且使得你损失大部分挖掘掉落物`
+- `modifier.glimmer_changed.name`
+  - ZH: `微光`
+  - EN: `微光`
+- `modifier.glimmer_changed.desc`
+  - ZH: `§o对我而言，所谓的黑暗不存在。§r\n有时候你会发光，使得你能看清周围环境，也使得环境能看清你...`
+  - EN: `§o对我而言，所谓的 Darkness不存在。§r\n有时候你会发光，使得你能看清周围环境，也使得环境能看清你...`
+- `modifier.heroic_changed.name`
+  - ZH: `英勇`
+  - EN: `英勇`
+- `modifier.heroic_changed.desc`
+  - ZH: `§o至死方休§r\n你或你的工具的生命接近尽头时，你的攻击能力会获得极大的提升。`
+  - EN: `§o至死方休§r\n你或你的 Tool的 Life接近尽头时，你的攻击能力会 Obtain极大的 Enhance。`
+- `modifier.hollow_changed.name`
+  - ZH: `虚伪`
+  - EN: `虚伪`
+- `modifier.hollow_changed.desc`
+  - ZH: `§o脑梗（）§r\n你的攻击会使得敌人降智，对世界以外的目标无效。\n但是如果敌人智商太低了，可能会忘记怎么掉落战利品（）`
+  - EN: `§o脑梗（）§r\n你的攻击会使得敌人降智，对世界以外的目标无效。\n但是如果敌人智商太低了，可能会忘记怎么掉落战利品（）`
+- `modifier.unstable_changed.name`
+  - ZH: `不稳定`
+  - EN: `不稳定`
+- `modifier.unstable_changed.desc`
+  - ZH: `§o你真的这么觉得？§r\n真的，它很不稳定！`
+  - EN: `§o你真的这么觉得？§r\n真的，它很不稳定！`
+- `modifier.naturebound_changed.name`
+  - ZH: `自然之束`
+  - EN: `自然之束`
+- `modifier.naturebound_changed.desc`
+  - ZH: `§o你与自然融为一体！§r\n在被植物环绕的环境中，你的工具会被慢慢修复。（准确来说是站在草丛里）`
+  - EN: `§o你与自然融为一体！§r\n在被 Plant环绕的环境中，你的 Tool会被慢慢修复。（准确来说是站在草丛里）`
+- `modifier.pulverizing_changed.name`
+  - ZH: `摧毁`
+  - EN: `摧毁`
+- `modifier.pulverizing_changed.desc`
+  - ZH: `§o反物质...?§r\n湮灭掉你的一切掉落物，以此交换极高的挖掘速度。`
+  - EN: `§o反物质...?§r\n湮灭掉你的一切掉落物，以此交换极高的挖掘 Speed。`
+- `modifier.pulverizing_fixed.name`
+  - ZH: `摧毁`
+  - EN: `摧毁`
+- `modifier.pulverizing_fixed.desc`
+  - ZH: `§o反物质...?§r\n湮灭掉你的大部分掉落物，以此交换极高的挖掘速度。`
+  - EN: `§o反物质...?§r\n湮灭掉你的大部分掉落物，以此交换极高的挖掘 Speed。`
+- `modifier.resonance_changed.name`
+  - ZH: `共振`
+  - EN: `共振`
+- `modifier.resonance_changed.desc`
+  - ZH: `§o感受振动！§r\n有时会发出震波击飞你的敌人？`
+  - EN: `§o感受振动！§r\n有时会发出震波击飞你的敌人？`
+- `modifier.slaughtering_changed.name`
+  - ZH: `屠宰`
+  - EN: `屠宰`
+- `modifier.slaughtering_changed.desc`
+  - ZH: `§o恩，美味！§r\n有肉吃谁还需要经验？`
+  - EN: `§o恩，美味！§r\n有肉吃谁还需要 Experience？`
+- `modifier.softy_changed.name`
+  - ZH: `柔软`
+  - EN: `柔软`
+- `modifier.softy_changed.desc`
+  - ZH: `§o我爱泥土！§r\n挖泥土能回复耐久！\n也许指的是相对于挖掘石头会高速毁灭你的工具而言吧...`
+  - EN: `§o我爱 Dirt！§r\n挖 Dirt能回复耐久！\n也许指的是相对于挖掘 Stone会高速毁灭你的 Tool而言吧...`
+- `modifier.uncertain_changed.name`
+  - ZH: `不常`
+  - EN: `不常`
+- `modifier.uncertain_changed.desc`
+  - ZH: `§o用的时候有点危险。§r\n至少他不是不稳定的...吗？`
+  - EN: `§o用的时候有点危险。§r\n至少他不是不稳定的...吗？`
+- `modifier.reviving_changed.name`
+  - ZH: `复苏`
+  - EN: `复苏`
+- `modifier.reviving_changed.desc`
+  - ZH: `§o请把它彻底杀死！§r\n看起来你的敌人不是那么容易死去，至少不是一次就行...`
+  - EN: `§o请把它彻底杀死！§r\n看起来你的敌人不是那么容易死去，至少不是一次就行...`
+- `modifier.melting_changed.name`
+  - ZH: `熔化`
+  - EN: `熔化`
+- `modifier.melting_changed.desc`
+  - ZH: `§o如同火山爆发§r\n在你激发出它的力量后，它可以将石头化为熔岩。`
+  - EN: `§o如同火山爆发§r\n在你激发出它的 Strength后，它可以将 Stone化为 Lava。`
+- `modifier.cursed_changed.name`
+  - ZH: `诅咒`
+  - EN: `诅咒`
+- `modifier.cursed_changed.desc`
+  - ZH: `§o真正的诅咒：-80%最大生命，白天燃烧，无法接触水，每MC日被传送到岩浆池，无法主手持有物品...这个诅咒太逊了（）§r\n有时对你造成随机伤害，手持时间越久，对你造成随机伤害的几率越大。`
+  - EN: `§o真正的诅咒：-80%最大 Life，白天 Burning，无法接触水，每MC日被传送到 Lava池，无法主手持有 Item...这个诅咒太逊了（）§r\n有时对你造成随机 Damage，手持时间越久，对你造成随机 Damage的几率越大。`
+- `modifier.superheavy_changed.name`
+  - ZH: `千斤沉重`
+  - EN: `千斤沉重`
+- `modifier.superheavy_changed.desc`
+  - ZH: `§o远超9000吨！§r\n当你不断挖掘，它会使你挖的更慢（不是挖掘疲劳）`
+  - EN: `§o远超9000吨！§r\n当你不断挖掘，它会使你挖的更慢（不是挖掘疲劳）`
+- `modifier.whirl_changed.name`
+  - ZH: `旋风`
+  - EN: `旋风`
+- `modifier.whirl_changed.desc`
+  - ZH: `§o近似海绵！§r\n移除以自己为中心的水。`
+  - EN: `§o近似海绵！§r\n移除以自己为中心的水。`
+- `modifier.souleater_fixed.name`
+  - ZH: `噬魂者`
+  - EN: `噬 Soul者`
+- `modifier.souleater_fixed.desc`
+  - ZH: `§o血刀之名的代表...§r\n伤害会随着杀敌数增加。`
+  - EN: `§o血刀之名的代表...§r\n Damage会随着杀敌数 Increase。`
+- `modifier.souleater_changed.name`
+  - ZH: `噬魂者`
+  - EN: `噬 Soul者`
+- `modifier.souleater_changed.desc`
+  - ZH: `§o虚刃之名的代表...§r\n杀死敌人会永久提升伤害，但虚金现在真的虚了，每杀死一个敌人提升的攻击会随着杀敌数衰减。`
+  - EN: `§o虚刃之名的代表...§r\n杀死敌人会永久 Enhance Damage，但虚 Gold现在真的虚了，每杀死一个敌人 Enhance的攻击会随着杀敌数衰减。`
+- `modifier.berserk_changed.name`
+  - ZH: `狂暴`
+  - EN: `狂暴`
+- `modifier.berserk_changed.desc`
+  - ZH: `§o爷怒了§r\n激活它获得3倍的攻击和速度！但是消耗大量耐久...`
+  - EN: `§o爷怒了§r\n Activate它 Obtain3倍的攻击和 Speed！但是 Consume大量耐久...`
+- `modifier.tantrum_changed.name`
+  - ZH: `暴怒`
+  - EN: `暴怒`
+- `modifier.tantrum_changed.desc`
+  - ZH: `§o爆发吧！§r\n这件工具可以吸收爆炸，并在激活时释放出来。`
+  - EN: `§o爆发吧！§r\n这件 Tool可以吸收 Explosion，并在 Activate时释放出来。`
+- `modifier.decay_changed.name`
+  - ZH: `衰变`
+  - EN: `衰变`
+- `modifier.decay_changed.desc`
+  - ZH: `§o放射性！!§r\n随着时间的推移你的工具将变得越来越弱...`
+  - EN: `§oRadioactive！!§r\n随着时间的推移你的 Tool将变得越来越弱...`
+- `modifier.ported_changed.name`
+  - ZH: `传送`
+  - EN: `传送`
+- `modifier.ported_changed.desc`
+  - ZH: `§o带我飞翔~§r\n激活这个工具以消耗大量耐久向上传送。`
+  - EN: `§o带我飞翔~§r\n Activate这个 Tool以 Consume大量耐久向上传送。`
+- `modifier.crushing_changed.name`
+  - ZH: `粉碎`
+  - EN: `Dust碎`
+- `modifier.crushing_changed.desc`
+  - ZH: `§o亏本...§r\n挖掘的石头会随机变成各种低价值方块。`
+  - EN: `§o亏本...§r\n挖掘的 Stone会随机变成各种低价值 Block。`
+- `modifier.mutate_changed.name`
+  - ZH: `变异`
+  - EN: `变异`
+- `modifier.mutate_changed.desc`
+  - ZH: `§oβ射线？§r\n使得你准备挖掘的方块有几率变成别的东西，肯定是没用的东西...`
+  - EN: `§oβ射线？§r\n使得你准备挖掘的 Block有几率变成别的东西，肯定是没用的东西...`
+- `modifier.leveled.name`
+  - ZH: `等级`
+  - EN: `Level`
+- `modifier.leveled.desc`
+  - ZH: `未完成`
+  - EN: `未 Complete`
+- `gui.taiga_configuration.mainTitle`
+  - ZH: `TAIGA|配置`
+  - EN: `TAIGA|配置`
+- `itemGroup.taiga_block`
+  - ZH: `TAIGA|方块`
+  - EN: `TAIGA|Block`
+- `itemGroup.taiga_item`
+  - ZH: `TAIGA|物品`
+  - EN: `TAIGA|Item`
+- `key.taiga.alt_action`
+  - ZH: `TAIGA激活键`
+  - EN: `TAIGA Activate键`
+- `harvestlevel.valyrium`
+  - ZH: `%1$sValyrium(瓦雷利亚)%2$s`
+  - EN: `%1$sValyrium(瓦雷利亚)%2$s`
+- `harvestlevel.duranite`
+  - ZH: `%1$sDuranite(杜兰特)%2$s`
+  - EN: `%1$sDuranite(杜兰特)%2$s`
+- `harvestlevel.vibranium`
+  - ZH: `%1$sVibranium(振金)%2$s`
+  - EN: `%1$sVibranium(振 Gold)%2$s`
+
+## trinity
+
+- `tile.trinity.bomb_cf253.name`
+  - ZH: `锎-253 裂变弹`
+  - EN: `锎-253 Fission弹`
+- `tile.trinity.bomb_es254.name`
+  - ZH: `锿-254 裂变弹`
+  - EN: `锿-254 Fission弹`
+- `tile.trinity.salted_bomb_cf253.name`
+  - ZH: `锎-253 裂变盐弹`
+  - EN: `锎-253 Fission盐弹`
+- `tile.trinity.salted_bomb_es254.name`
+  - ZH: `锿-254 裂变盐弹`
+  - EN: `锿-254 Fission盐弹`
+- `tile.trinity.core_cf253.name`
+  - ZH: `锎-253 裂变弹芯`
+  - EN: `锎-253 Fission弹芯`
+- `tile.trinity.core_es254.name`
+  - ZH: `锿-254 裂变弹芯`
+  - EN: `锿-254 Fission弹芯`
+- `tile.trinity.salted_core_cf253.name`
+  - ZH: `锎-253 裂变盐弹芯`
+  - EN: `锎-253 Fission盐弹芯`
+- `tile.trinity.salted_core_es254.name`
+  - ZH: `锿-254 裂变盐弹芯`
+  - EN: `锿-254 Fission盐弹芯`
+
+## whimcraft
+
+- `itemGroup.whimcraft_tab`
+  - ZH: `奇思妙想`
+  - EN: `奇思妙想`
+- `tooltip.whimcraft.pattern_encoder.name`
+  - ZH: `由 %s 编码`
+  - EN: `由 %s 编码`
+- `tooltip.whimcraft.tile_me_base.missing_channel`
+  - ZH: `设备缺少频道`
+  - EN: `设备缺少频道`
+- `tooltip.whimcraft.tile_me_base.online`
+  - ZH: `设备开启`
+  - EN: `设备开启`
+- `tooltip.whimcraft.tile_me_base.offline`
+  - ZH: `设备关闭`
+  - EN: `设备关闭`
+- `tooltip.whimcraft.blockshareinfhandler.error`
+  - ZH: `连接错误`
+  - EN: `Connect错误`
+- `tooltip.whimcraft.blockshareinfhandler.online`
+  - ZH: `已连接`
+  - EN: `已 Connect`
+- `tooltip.whimcraft.blockshareinfhandler.offline`
+  - ZH: `未设置连接`
+  - EN: `未设置 Connect`
+- `key.whimcraft.desc`
+  - ZH: `奇思妙想`
+  - EN: `奇思妙想`
+- `key.whimcraft.getItemId`
+  - ZH: `获取物品ID`
+  - EN: `获取 ItemID`
+- `key.whimcraft.getItemIdList`
+  - ZH: `获取物品ID列表`
+  - EN: `获取 ItemID列表`
+- `key.whimcraft.getItemIdListOut`
+  - ZH: `导出物品ID列表`
+  - EN: `导出 ItemID列表`
+- `item.whimcraft.link_card.name`
+  - ZH: `闪存卡`
+  - EN: `闪存卡`
+- `tile.whimcraft.blockshareinfhandler.name`
+  - ZH: `ME机械样板供应器库存共享总线`
+  - EN: `ME机械样 Plate供应器库存共享总线`
+- `tile.whimcraft.blockmeaspectinputbus.name`
+  - ZH: `ME机械源质输入总线`
+  - EN: `ME机械源质 Input总线`
+- `tile.whimcraft.blockmeaspectoutputbus.name`
+  - ZH: `ME机械源质输出总线`
+  - EN: `ME机械源质 Output总线`
+- `tile.whimcraft.blockmeaspectinputbusmmce.name`
+  - ZH: `MMCE-ME机械源质输入总线`
+  - EN: `MMCE-ME机械源质 Input总线`
+- `tile.whimcraft.blockmeaspectoutputbusmmce.name`
+  - ZH: `MMCE-ME机械源质输出总线`
+  - EN: `MMCE-ME机械源质 Output总线`
+- `message.whimcraft.linkgard.clear`
+  - ZH: `§a清除坐标成功`
+  - EN: `§a清除坐标成功`
+- `message.whimcraft.linkgard.save`
+  - ZH: `§a保存坐标成功`
+  - EN: `§a保存坐标成功`
+- `message.whimcraft.linkgard.error.noShare`
+  - ZH: `§c设置失败，目标不是库存共享总线`
+  - EN: `§c设置失败，目标不是库存共享总线`
+- `message.whimcraft.linkgard.error.noPos`
+  - ZH: `§c设置失败，未保存坐标`
+  - EN: `§c设置失败，未保存坐标`
+- `message.whimcraft.titleshareinfhandler.error.noShare`
+  - ZH: `§c设置失败，闪存卡保存坐标不是样板总线`
+  - EN: `§c设置失败，闪存卡保存坐标不是样 Plate总线`
+- `message.whimcraft.titleshareinfhandler.suc`
+  - ZH: `§a设置成功`
+  - EN: `§a设置成功`
+- `tooltip.whimcraft.linkgard.noPos`
+  - ZH: `未保存坐标`
+  - EN: `未保存坐标`
+- `tooltip.whimcraft.titleshareinfhandler.connect`
+  - ZH: `连接至:`
+  - EN: `Connect至:`
