@@ -1,0 +1,25 @@
+# Conduit Replacer Language File
+
+# Item
+item.enderio-conduit-replacer.conduit_replacer.name=__UNTRANSLATED__导管替换器
+enderio-conduit-replacer.gui.title=__UNTRANSLATED__导管替换器
+enderio-conduit-replacer.gui.source=__UNTRANSLATED__源导管
+enderio-conduit-replacer.gui.replacement=__UNTRANSLATED__替换为
+enderio-conduit-replacer.gui.category=__UNTRANSLATED__类别：%s
+enderio-conduit-replacer.gui.ready=__UNTRANSLATED__就绪，开始替换！
+enderio-conduit-replacer.gui.category_mismatch=__UNTRANSLATED__类别不匹配！
+enderio-conduit-replacer.gui.category_mismatch_detail=__UNTRANSLATED__%s != %s
+enderio-conduit-replacer.gui.set_replacement=__UNTRANSLATED__设置替换导管
+enderio-conduit-replacer.gui.set_source=__UNTRANSLATED__设置源导管
+enderio-conduit-replacer.gui.set_conduits=__UNTRANSLATED__设置上方导管
+enderio-conduit-replacer.gui.category_none=__UNTRANSLATED__无
+enderio-conduit-replacer.message.set_both=__UNTRANSLATED__请先在界面中设置源导管与替换导管（右键）
+enderio-conduit-replacer.message.invalid_items=__UNTRANSLATED__配置的导管物品无效
+enderio-conduit-replacer.message.replaced=__UNTRANSLATED__已替换 %d 个导管
+enderio-conduit-replacer.message.insufficient=__UNTRANSLATED__需要 %d 个导管，拥有 %d 个。
+enderio-conduit-replacer.message.upgrades_drop=__UNTRANSLATED__部分升级/过滤器无法保留，将会掉落。双击右键以确认。
+enderio-conduit-replacer.message.source_not_found=__UNTRANSLATED__在该导管束中未找到源导管类型
+enderio-conduit-replacer.message.category_mismatch=__UNTRANSLATED__源导管与替换导管必须属于同一类别（例如都为能量导管）
+enderio-conduit-replacer.message.no_conduits_replaced=__UNTRANSLATED__未替换任何导管
+enderio-conduit-replacer.message.source_set=__UNTRANSLATED__源导管已设置为：%s
+enderio-conduit-replacer.message.replacement_set=__UNTRANSLATED__替换导管已设置为：%s
