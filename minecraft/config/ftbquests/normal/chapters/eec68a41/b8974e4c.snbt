@@ -1,0 +1,30 @@
+{
+	title: "§b冰霜后裔",
+	x: 28.0d,
+	y: -1.5d,
+	description: "在尼福尔海姆中获取霜生锭",
+	text: [
+		"仅在寒霜城堡中生成，或者通过击杀寒霜城堡的小怪掉落",
+		"没错，这也是14级材料"
+	],
+	dependencies: [
+		"cc3feb03"
+	],
+	tasks: [{
+		uid: "424bb28b",
+		type: "item",
+		items: [{
+			item: "da:draugr_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "b5ba8b89",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "ddce1922",
+		type: "xp",
+		xp: 60000
+	}]
+}

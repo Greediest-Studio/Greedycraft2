@@ -1,0 +1,29 @@
+{
+	title: "§b寒霜指引",
+	x: 28.0d,
+	y: 0.0d,
+	description: "制作冰魂之星，可以用来定位寒霜城堡",
+	text: [
+		""
+	],
+	dependencies: [
+		"3a50f27c"
+	],
+	tasks: [{
+		uid: "191d74a6",
+		type: "item",
+		items: [{
+			item: "da:frost_locator"
+		}]
+	}],
+	rewards: [{
+		uid: "f1ccf11a",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "8dc9fb90",
+		type: "xp",
+		xp: 12000
+	}]
+}

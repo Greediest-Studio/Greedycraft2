@@ -1139,6 +1139,11 @@ RecipeUtil.addShaped("max_storage_upgrade", <functionalstoragelegacy:max_storage
     [<additions:creative_shard>, <functionalstoragelegacy:oak_1>, <additions:creative_shard>],
     [<functionalstoragelegacy:netherite_upgrade>, <functionalstoragelegacy:diamond_upgrade>, <functionalstoragelegacy:netherite_upgrade>]
 ]);
+RecipeUtil.addShaped("original_steel_ingot", <additions:original_steel_ingot>, [
+    [null, <ore:soulOriginal>, null],
+    [<ore:soulOriginal>, <ore:ingotOrichalcos>, <ore:soulOriginal>],
+    [null, <ore:soulOriginal>, null]
+]);
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],

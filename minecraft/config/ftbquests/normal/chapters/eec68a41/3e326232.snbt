@@ -15,5 +15,15 @@
 				type: "entropinnyum"
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "34104159",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "56408b97",
+		type: "xp",
+		xp: 3600
 	}]
 }

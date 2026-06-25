@@ -475,3 +475,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <eco_expand:estorage_cell_unive
 	[<additions:calculation_processor_2>, <mekeng:gas_core_4m>, <ore:ingotEcoEnhancedAlloy>, <thaumicenergistics:essentia_component_4m>, null], 
 	[<ore:ingotEcoEnhancedAlloy>, <ore:ingotEcoEnhancedAlloy>, <ore:ingotEcoEnhancedAlloy>, <ore:ingotEcoEnhancedAlloy>, null]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <gctcore:nilfheim_portal_core>, [
+	[<botaniverse:morewood>, <botaniverse:morewood:4>, <ore:ingotOriginalSteel>, <botaniverse:morewood:4>, <botaniverse:morewood>], 
+	[<botaniverse:morewood>, <ore:ingotOriginalSteel>, <ore:blockIceAlloy>, <ore:ingotOriginalSteel>, <botaniverse:morewood>], 
+	[<botaniverse:morewood>, <botaniverse:morewood:4>, <ore:ingotBotanicalAwakened>, <botaniverse:morewood:4>, <botaniverse:morewood>], 
+	[<botaniverse:morewood>, <ore:ingotOriginalSteel>, <ore:blockIceAlloy>, <ore:ingotOriginalSteel>, <botaniverse:morewood>], 
+	[<botaniverse:morewood>, <botaniverse:morewood:4>, <ore:ingotOriginalSteel>, <botaniverse:morewood:4>, <botaniverse:morewood>]
+]);

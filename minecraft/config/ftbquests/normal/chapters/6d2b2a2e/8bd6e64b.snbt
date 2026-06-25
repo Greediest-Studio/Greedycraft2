@@ -1,0 +1,27 @@
+{
+	title: "§b云鲸幻灭",
+	x: 17.0d,
+	y: 10.0d,
+	shape: "octagon",
+	description: "通过天境-约顿海姆支线获得摇光结晶",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "907bf526",
+		type: "item",
+		items: [{
+			item: "additions:alkaid_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "160e82ae",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "3e2a48d1",
+		type: "xp",
+		xp: 30000
+	}]
+}

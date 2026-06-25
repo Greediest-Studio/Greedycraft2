@@ -1,0 +1,27 @@
+{
+	title: "§b雾霭之国度",
+	x: 13.5d,
+	y: 12.0d,
+	shape: "hexagon",
+	description: "通过植物魔法-尼福尔海姆线获得霜生锭",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "f27aae76",
+		type: "item",
+		items: [{
+			item: "da:draugr_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "4888f111",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "07da9cb1",
+		type: "xp",
+		xp: 30000
+	}]
+}

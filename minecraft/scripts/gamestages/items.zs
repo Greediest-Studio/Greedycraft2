@@ -1474,7 +1474,6 @@ GameStagesUtil.stageWitherSlayer.addIngredients([
 GameStagesUtil.stageGaiaDeleter.addIngredients([
     <godagglomerationplate:godagglomerationplate>,
     <gct_mobs:reserver>,
-    <gct_mobs:alfheim>,
     <gct_mobs:orichalcos_dreamwood>,
     <gct_mobs:elementium_ore>,
     <gct_mobs:terrasteel_ore>,
@@ -2589,7 +2588,14 @@ GameStagesUtil.stageWakeUp.addIngredients([
     <ore:blockOnyx>,
     <ore:dustOnyx>,
     <ore:oreOnyx>,
-    <ore:nuggetOnyx>
+    <ore:nuggetOnyx>,
+    <ore:ingotOriginalSteel>,
+    <ore:blockOriginalSteel>,
+    <ore:nuggetOriginalSteel>,
+    <ore:dustOriginalSteel>,
+    <gctcore:nilfheim_portal_core>,
+    <gctcore:imaginative_snowball>,
+    <thaumictinkerer:sky_pearl>
 ], false);
 
 GameStagesUtil.stageMindShock.addIngredients([

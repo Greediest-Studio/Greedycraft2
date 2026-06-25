@@ -108,7 +108,11 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <betterendforge:helix_tree_planks>,
         <betterendforge:umbrella_tree_planks>,
         <betterendforge:jellyshroom_planks>,
-        <betterendforge:lucernia_planks>
+        <betterendforge:lucernia_planks>,
+        <endexpansion:bare_planks>
+    ],
+    <ore:logWood> : [
+        <endexpansion:bare_bark>
     ],
     <ore:treeSapling> : [
         <betterendforge:hydralux_sapling>,
@@ -153,7 +157,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <journey:sizzlerwoodleaves>,
         <journey:earthennetherleaves>,
         <journey:eucadarkgreenleaves>,
-        <journey:eucalightgreenleaves>
+        <journey:eucalightgreenleaves>,
+        <endexpansion:bare_leaves>
     ],
     <ore:slabWood> : [
         <betterendforge:mossy_glowshroom_slab>,
@@ -166,6 +171,7 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <betterendforge:umbrella_tree_slab>,
         <betterendforge:jellyshroom_slab>,
         <betterendforge:lucernia_slab>,
+        <endexpansion:bare_planks_half>
     ],
     <ore:stairWood> : [
         <betterendforge:mossy_glowshroom_stairs>,
@@ -177,7 +183,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <betterendforge:helix_tree_stairs>,
         <betterendforge:umbrella_tree_stairs>,
         <betterendforge:jellyshroom_stairs>,
-        <betterendforge:lucernia_stairs>
+        <betterendforge:lucernia_stairs>,
+        <endexpansion:bare_planks_stairs>
     ],
     <ore:plantEnd> : [
         <betterendforge:umbrella_moss>,
@@ -239,7 +246,9 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <betterendforge:small_amaranita_mushroom>,
         <stygian:endglow>,
         <stygian:endtallgrass>,
-        <stygian:endcactus>
+        <stygian:endcactus>,
+        <endexpansion:bare_grass>,
+        <endexpansion:bare_plant>
     ],
     <ore:gemAmber> : [<betterendforge:amber_gem>],
     <ore:blockAmber> : [<betterendforge:amber_block>],
@@ -1236,7 +1245,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:gemSpiderLegTarantula> : [<additions:tarantula_leg>],
     <ore:crystalVoidic> : [<actuallyadditions:item_crystal:3>],
     <ore:ingotEinsteinium252All> : [<contenttweaker:einsteinium52>],
-    <ore:oreSulfur> : [<soot:sulfur_ore>]
+    <ore:oreSulfur> : [<soot:sulfur_ore>],
+    <ore:soulOriginal> : [<additions:original_spirit>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {

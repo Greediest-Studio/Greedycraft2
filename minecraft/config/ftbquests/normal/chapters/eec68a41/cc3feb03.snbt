@@ -1,0 +1,33 @@
+{
+	title: "§b蚀雾之地",
+	x: 26.5d,
+	y: -1.5d,
+	description: "激活尼福尔海姆传送门，进入尼福尔海姆",
+	text: [
+		"尼福尔海姆传送门结构与§a精灵传送门§r极为相似（不含聚焦矩阵结构）",
+		"将§c活木§r换为§b尼福尔海姆之木§r，§c微光活木§r换为§b微光尼福尔海姆之木§r",
+		"且周围存在4个§b尼福尔海姆水晶§r和4个§b任意魔力池§r时，用§a冰雪幻象之珠§r右键激活",
+		"开启传送门需要共计§e40.000,000（40池）§rMana",
+		"§c小心！当你在该维度较暗处时会积累蚀雾值，蚀雾值积满时将会对玩家造成缓慢DEBUFF和百分比伤害！"
+	],
+	dependencies: [
+		"6dd45e4d",
+		"690fc3f0"
+	],
+	tasks: [{
+		uid: "576670d3",
+		type: "dimension",
+		icon: "gctcore:rimesteel_stone",
+		dim: 43
+	}],
+	rewards: [{
+		uid: "efc0b453",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "31367645",
+		type: "xp",
+		xp: 28000
+	}]
+}

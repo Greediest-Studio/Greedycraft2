@@ -17,5 +17,15 @@
 				type: "eat_iron"
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "c872fb87",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "9d5bccb6",
+		type: "xp",
+		xp: 1200
 	}]
 }

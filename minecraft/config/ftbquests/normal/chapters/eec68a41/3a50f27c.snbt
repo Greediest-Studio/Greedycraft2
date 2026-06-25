@@ -1,0 +1,40 @@
+{
+	title: "§b冻僵",
+	x: 26.5d,
+	y: 0.0d,
+	description: "在尼福尔海姆沉泪渊群系中挖掘失感矿石，获得失感锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"cc3feb03"
+	],
+	tasks: [{
+		uid: "400f88ac",
+		type: "item",
+		items: [{
+			item: "gctcore:apathy_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "1c9cac65",
+		type: "item",
+		item: "gctcore:apathy_ingot",
+		count: 8
+	},
+	{
+		uid: "28cada84",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "30a8696c",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "386e5cb9",
+		type: "xp",
+		xp: 16000
+	}]
+}

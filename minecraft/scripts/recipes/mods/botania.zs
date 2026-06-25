@@ -29,7 +29,6 @@ Apothecary.addRecipe(<botania:specialflower>.withTag({type: "orechid"}), [<ore:p
 ElvenTrade.addRecipe([<defiledlands:scarlite>], [<ore:slimeballBlood>, <ore:gemEmerald>, <ore:gemEmerald>]);
 ElvenTrade.addRecipe([<actuallyadditions:item_misc:5>], [<botania:quartz:5>, <minecraft:coal>]);
 ElvenTrade.addRecipe([<minecraft:gold_block>], [<ore:shardTime>]);
-ElvenTrade.addRecipe([<gct_mobs:alfheim>], [<botania:twigwand>, <extrabotany:cosmetic:8>]);
 ElvenTrade.addRecipe([<gct_mobs:dreamwood_log>], [<ore:logWoodLiving>]);
 ElvenTrade.addRecipe([<gct_mobs:dreamwood_leaves>], [<ore:treeLeavesLiving>]);
 ElvenTrade.addRecipe([<gct_mobs:alf_stone>], [<ore:stoneMana>]);

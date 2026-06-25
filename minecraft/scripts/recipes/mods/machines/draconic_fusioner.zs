@@ -183,3 +183,4 @@ addFusionRecipe(<additions:calculus_ingot>, [<ore:ingotDraconiumRuled>, <ore:ing
 addFusionRecipe(<additions:faded_ark_ingot>, [<ore:ingotStellarAlloy> * 2, <ore:ingotGelidEnderium> * 2, <ore:ingotSentientMetal> * 2, <ore:ingotBoundMetal> * 2, <ore:ingotAdamant>, <ore:ingotChaoticMetal>, <ore:ingotFusionMatrix>, <ore:ingotTerrasteel>, <ore:ingotOrichalcos>, <ore:ingotCosmilite>], 450000000, 4);
 addFusionRecipe(<additions:lerdite>, [<appliedenergistics2:smooth_sky_stone_block>, <ore:dustRuby>, <ore:dustLavaSolid>, <ore:dustDreadium>, <ore:dustPyrotheum>], 102400, 2);
 addFusionRecipe(<additions:ameralite>, [<appliedenergistics2:smooth_sky_stone_block>, <ore:dustEmerald>, <ore:dustSlimesteel>, <ore:dustLiquifiedCoralium>, <ore:dustCryotheum>], 102400, 2);
+addFusionRecipe(<gctcore:imaginative_snowball>, [<thaumictinkerer:sky_pearl> * 2, <ore:goldweave> * 4, <additions:cryonic_artifact> * 2, <ore:blockBismuth> * 2, <ore:blockDarkice> * 2], 2560000000, 4);

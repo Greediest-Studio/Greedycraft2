@@ -16,5 +16,15 @@
 				type: "dandelifeon"
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "704009cd",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "f75207fb",
+		type: "xp",
+		xp: 1200
 	}]
 }
