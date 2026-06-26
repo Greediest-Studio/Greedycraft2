@@ -3240,24 +3240,6 @@
                 }
             ]
         },
-        "blue_skies:alchemist_illager": {
-            "[0, 2147483647]": [
-                {
-                    "amount": "[16,16]",
-                    "chance": 1.0,
-                    "item": "additions:heaven_gem_shard1"
-                }
-            ]
-        },
-        "blue_skies:summoner_illager": {
-            "[0, 2147483647]": [
-                {
-                    "amount": "[16,16]",
-                    "chance": 1.0,
-                    "item": "additions:heaven_gem_shard2"
-                }
-            ]
-        },
         "extrabotany:gaiaiii": {
             "[2000, 2147483647]": [
                 {
@@ -3330,6 +3312,15 @@
                     "amount": "[1,3]",
                     "chance": 1.0,
                     "item": "additions:ant_emperor_ingot"
+                }
+            ]
+        },
+        "betterslimes:quazar": {
+            "[64, 2147483647]": [
+                {
+                    "amount": "[1,1]",
+                    "chance": 0.5,
+                    "item": "contenttweaker:bauble_energy_gum"
                 }
             ]
         },
