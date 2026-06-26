@@ -1,0 +1,24 @@
+{
+    "catalystStack": {
+      "registryName": {
+        "domain": "additions",
+        "path": "abyss_catalyst"
+      },
+      "meta": 0
+    },
+    "components": [
+      {
+        "weight": 100,
+        "oreName": "stoneDreamlands"
+      },
+      {
+        "weight": 5,
+        "oreName": "oreOnyx"
+      }
+    ],
+    "explosionStrength": 6.0,
+    "radius": 6,
+    "maxWeight": 1500,
+    "version": 4,
+    "cost": 9000000
+  }

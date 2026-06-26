@@ -41,6 +41,10 @@ import scripts.misc.miner_lib.upgradeList;
 import scripts.misc.miner_lib.getParallelism;
 import scripts.misc.miner_lib.upgradeTooltip;
 
+MachineModifier.setMaxParallelism("simple_miner", 1);
+MachineModifier.setMaxThreads("simple_miner", 0);
+MachineModifier.addCoreThread("simple_miner", FactoryRecipeThread.createCoreThread("简易采掘模块").addRecipe("simple_miner_main_1").addRecipe("simple_miner_main_2"));
+
 MachineModifier.setMaxParallelism("basic_miner", 65536);
 MachineModifier.setMaxThreads("basic_miner", 0);
 MachineModifier.addCoreThread("basic_miner", FactoryRecipeThread.createCoreThread("基础采掘模块").addRecipe("basic_miner_main"));
@@ -52,6 +56,35 @@ MachineModifier.addCoreThread("advanced_miner", FactoryRecipeThread.createCoreTh
 MachineModifier.setMaxParallelism("dimensional_miner", 65536);
 MachineModifier.setMaxThreads("dimensional_miner", 0);
 MachineModifier.addCoreThread("dimensional_miner", FactoryRecipeThread.createCoreThread("时空采掘模块").addRecipe("dimensional_miner_main"));
+
+//饿啊
+$expand RecipePrimer$addItemUpgradeOutput(item as IItemStack, upgrade as string, chance as float) as RecipePrimer {
+    var tooltip as string = "";
+    if (upgrade == BASIC) {
+        tooltip = "§a无需采掘升级";
+    } else if (upgrade == STAINLESS) {
+        tooltip = "§a需求：不锈钢采掘升级";
+    } else if (upgrade == DURASTEEL) {
+        tooltip = "§a需求：耐钢采掘升级";
+    } else if (upgrade == AEONSTEEL) {
+        tooltip = "§a需求：恒钢采掘升级";
+    } else if (upgrade == CHROMASTEEL) {
+        tooltip = "§a需求：炫钢采掘升级";
+    } else if (upgrade == COSMILITE) {
+        tooltip = "§a需求：寰宇采掘升级";
+    } else if (upgrade == FINALLIUM) {
+        tooltip = "§a需求：终焉采掘升级";
+    } else if (upgrade == WAVITE) {
+        tooltip = "§a需求：波动采掘升级";
+    }
+    return this.addItemOutput(item).setChance(chance).addItemModifier(function(ctrl as IMachineController, item as IItemStack) as IItemStack {
+        if (upgrade == BASIC || ctrl.hasMachineUpgrade(upgrade)) {
+            return item;
+        } else {
+            return null;
+        }
+    }).setPreViewNBT({display:{Lore:[tooltip as string]}}).setIgnoreOutputCheck(true);
+}
 
 //结构更新
 MMEvents.onStructureUpdate("basic_miner", function(event as MachineStructureUpdateEvent) {
@@ -123,6 +156,21 @@ MMEvents.onStructureUpdate("dimensional_miner", function(event as MachineStructu
 });
 
 //GUI
+MMEvents.onControllerGUIRender("simple_miner", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = [
+        "§a///简易采掘机控制面板///",
+        "§a机器名称：§eLV0 - 简易采掘机",
+        "§a并行数：" ~ (isNull(event.controller.customData.bx) ? 1 : event.controller.customData.bx)
+    ];
+    if (event.controller.world.dimension != 0 && event.controller.world.dimension != -1) {
+        info += "§a采掘维度：错误，简易采掘机仅可在主世界和下界采掘";
+    } else {
+        info += "§a采掘维度：" ~ oreOutput.getdimName(event.controller.world.dimension);
+    }
+
+    event.extraInfo = info;
+});
+
 MMEvents.onControllerGUIRender("basic_miner", function(event as ControllerGUIRenderEvent) {
     var info as string[] = [
         "§a///基础采掘机控制面板///",
@@ -177,6 +225,83 @@ MMEvents.onControllerGUIRender("dimensional_miner", function(event as Controller
 });
 
 //配方
+RecipeBuilder.newBuilder("simple_miner_main_1","simple_miner",200)
+    .addDimensionInput(0)
+    .addEnergyPerTickInput(200)
+    .addItemUpgradeOutput(<minecraft:iron_ore>, BASIC, 0.15)
+    .addItemUpgradeOutput(<minecraft:gold_ore>, BASIC, 0.1)
+    .addItemUpgradeOutput(<thermalfoundation:ore>, BASIC, 0.125)
+    .addItemUpgradeOutput(<thermalfoundation:ore:1>, BASIC, 0.125)
+    .addItemUpgradeOutput(<thermalfoundation:ore:2>, BASIC, 0.1)
+    .addItemUpgradeOutput(<thermalfoundation:ore:3>, BASIC, 0.1)
+    .addItemUpgradeOutput(<thermalfoundation:ore:4>, BASIC, 0.175)
+    .addItemUpgradeOutput(<thermalfoundation:ore:5>, BASIC, 0.1)
+    .addItemUpgradeOutput(<thermalfoundation:ore:6>, BASIC, 0.025)
+    .addItemUpgradeOutput(<thermalfoundation:ore:7>, BASIC, 0.01)
+    .addItemUpgradeOutput(<actuallyadditions:block_misc:3>, BASIC, 0.075)
+    .addItemUpgradeOutput(<additions:chromium_ore>, BASIC, 0.025)
+    .addItemUpgradeOutput(<mekanism:oreblock>, BASIC, 0.075)
+    .addItemUpgradeOutput(<additions:zinc_ore>, BASIC, 0.1)
+    .addItemUpgradeOutput(<divinerpg:rupee_ore>, BASIC, 0.05)
+    .addItemUpgradeOutput(<divinerpg:realmite_ore>, BASIC, 0.05)
+    .addItemUpgradeOutput(<divinerpg:arlemite_ore>, BASIC, 0.04)
+    .addItemUpgradeOutput(<minecraft:coal>, BASIC, 0.2)
+    .addItemUpgradeOutput(<thermalfoundation:material:893>, BASIC, 0.2)
+    .addItemUpgradeOutput(<minecraft:redstone>, BASIC, 0.225)
+    .addItemUpgradeOutput(<minecraft:dye:4>, BASIC, 0.175)
+    .addItemUpgradeOutput(<minecraft:diamond>, BASIC, 0.04)
+    .addItemUpgradeOutput(<minecraft:emerald>, BASIC, 0.015)
+    .addItemUpgradeOutput(<astralsorcery:blockmarble>, STAINLESS, 0.15)
+    .addItemUpgradeOutput(<netherex:basalt>, STAINLESS, 0.15)
+    .addItemUpgradeOutput(<minecraft:obsidian>, STAINLESS, 0.1)
+    .addItemUpgradeOutput(<astralsorcery:blockcustomore:1>, STAINLESS, 0.04)
+    .addItemUpgradeOutput(<appliedenergistics2:material>, STAINLESS, 0.1)
+    .addItemUpgradeOutput(<appliedenergistics2:material:1>, STAINLESS, 0.03)
+    .addItemUpgradeOutput(<mysticalagriculture:crafting:5>, STAINLESS, 0.2)
+    .addItemUpgradeOutput(<additions:experience_ingot>, STAINLESS, 0.2)
+    .addItemUpgradeOutput(<mysticalagriculture:crafting>, STAINLESS, 0.2)
+    .addItemUpgradeOutput(<thermalfoundation:material:772>, STAINLESS, 0.075)
+    .addItemUpgradeOutput(<minecraft:flint>, STAINLESS, 0.1)
+    .addItemUpgradeOutput(<minecraft:quartz>, STAINLESS, 0.1)
+    .addItemUpgradeOutput(<astralsorcery:itemcraftingcomponent>, STAINLESS, 0.05)
+    .addItemUpgradeOutput(<additions:manganese_ore>, DURASTEEL, 0.15)
+    .addItemUpgradeOutput(<nuclearcraft:ore:7>, DURASTEEL, 0.125)
+    .addItemUpgradeOutput(<additions:aqualite_ore>, DURASTEEL, 0.075)
+    .addItemUpgradeOutput(<additions:aeroite_ore>, DURASTEEL, 0.1)
+    .addItemUpgradeOutput(<thaumcraft:ore_cinnabar>, DURASTEEL, 0.15)
+    .addItemUpgradeOutput(<abyssalcraft:abyore>, DURASTEEL, 0.075)
+    .addItemUpgradeOutput(<journey:shadiumore>, DURASTEEL, 0.04)
+    .addItemUpgradeOutput(<journey:luniumore>, DURASTEEL, 0.04)
+    .addItemUpgradeOutput(<taiga:meteorite_block>, DURASTEEL, 0.03)
+    .addItemUpgradeOutput(<taiga:meteoritecobble_block>, DURASTEEL, 0.05)
+    .addItemUpgradeOutput(<tiths:ore_broken_bedrock>, DURASTEEL, 0.075)
+    .setThreadName("简易采掘模块")
+    .setParallelized(false)
+    .build();
+RecipeBuilder.newBuilder("simple_miner_main_2","simple_miner",200)
+    .addDimensionInput(-1)
+    .addEnergyPerTickInput(200)
+    .addItemUpgradeOutput(<minecraft:soul_sand>, BASIC, 0.5)
+    .addItemUpgradeOutput(<minecraft:magma>, BASIC, 0.15)
+    .addItemUpgradeOutput(<minecraft:quartz>, BASIC, 0.3)
+    .addItemUpgradeOutput(<betternether:cincinnasite>, BASIC, 0.3)
+    .addItemUpgradeOutput(<netherex:rime_crystal>, BASIC, 0.2)
+    .addItemUpgradeOutput(<minecraft:glowstone_dust>, BASIC, 0.3)
+    .addItemUpgradeOutput(<thermalfoundation:material:894>, BASIC, 0.15)
+    .addItemUpgradeOutput(<tconstruct:ore>, STAINLESS, 0.15)
+    .addItemUpgradeOutput(<tconstruct:ore:1>, STAINLESS, 0.15)
+    .addItemUpgradeOutput(<divinerpg:netherite_ore>, STAINLESS, 0.15)
+    .addItemUpgradeOutput(<journey:hellstoneore>, STAINLESS, 0.1)
+    .addItemUpgradeOutput(<netherendingores:ore_nether_modded_1:4>, STAINLESS, 0.05)
+    .addItemUpgradeOutput(<rftools:dimensional_shard>, STAINLESS, 0.1)
+    .addItemUpgradeOutput(<divinerpg:bloodgem>, STAINLESS, 0.09)
+    .addItemUpgradeOutput(<additions:emberstone_ore>, DURASTEEL, 0.075)
+    .addItemUpgradeOutput(<additions:netherite_scrap>, DURASTEEL, 0.005)
+    .addItemUpgradeOutput(<journey:firestoneclump>, DURASTEEL, 0.075)
+    .setThreadName("简易采掘模块")
+    .setParallelized(false)
+    .build();
+
 RecipeBuilder.newBuilder("basic_miner_main","basic_miner",200)
     .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
         val ctrl = event.controller;

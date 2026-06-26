@@ -18,11 +18,9 @@ FITweaker.addJEIRecipeWrapper(<blockstate:minecraft:cobblestone>, <liquid:liquid
 FITweaker.addJEIRecipeWrapper(<blockstate:minecraft:stonebrick>, <liquid:liquidcoralium>, 2, FITweaker.outputBuilder()
     .addEvent(FITweaker.eventBuilder().createSetBlockEvent(<blockstate:abyssalcraft:abybrick>.withProperty("type", "normal"))));
 FITweaker.addJEIRecipeWrapper(<blockstate:minecraft:lapis_ore>, <liquid:liquidcoralium>, 2, FITweaker.outputBuilder()
-    .addEvent(FITweaker.eventBuilder().createSpawnEntityItemEvent(<abyssalcraft:coralium>, 1)));
+    .addEvent(FITweaker.eventBuilder().createSetBlockEvent(<blockstate:abyssalcraft:abycorore>)));
 FITweaker.addJEIRecipeWrapper(<blockstate:minecraft:redstone_ore>, <liquid:liquidcoralium>, 2, FITweaker.outputBuilder()
-    .addEvent(FITweaker.eventBuilder().createSpawnEntityItemEvent(<abyssalcraft:coralium>, 1)));
-FITweaker.addJEIRecipeWrapper(<blockstate:minecraft:coal_ore>, <liquid:liquidcoralium>, 2, FITweaker.outputBuilder()
-    .addEvent(FITweaker.eventBuilder().createSpawnEntityItemEvent(<abyssalcraft:coralium>, 1)));
+    .addEvent(FITweaker.eventBuilder().createSetBlockEvent(<blockstate:abyssalcraft:abycorore>)));
 FITweaker.addJEIRecipeWrapper(<blockstate:minecraft:iron_ore>, <liquid:liquidcoralium>, 2, FITweaker.outputBuilder()
     .addEvent(FITweaker.eventBuilder().createSetBlockEvent(<blockstate:abyssalcraft:abyiroore>)));
 FITweaker.addJEIRecipeWrapper(<blockstate:minecraft:gold_ore>, <liquid:liquidcoralium>, 2, FITweaker.outputBuilder()

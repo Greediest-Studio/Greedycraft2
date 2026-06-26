@@ -89,6 +89,7 @@ MMEvents.onControllerGUIRender("builder_5", function(event as ControllerGUIRende
 MachineModifier.setMachinePrefix("mek_changer", "§f§l初始");
 MachineModifier.setMachinePrefix("vethea_enchanter", "§f§l初始");
 MachineModifier.setMachinePrefix("builder_1", "§f§l初始");
+MachineModifier.setMachinePrefix("simple_miner", "§f§l初始");
 MachineModifier.setMachinePrefix("extendable_calculator_subsystem_l4", "§c§lECO");
 MachineModifier.setMachinePrefix("extendable_calculator_subsystem_l6", "§c§lECO");
 MachineModifier.setMachinePrefix("extendable_calculator_subsystem_l9", "§c§lECO");

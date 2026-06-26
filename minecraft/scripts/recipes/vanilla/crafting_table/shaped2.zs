@@ -1144,6 +1144,21 @@ RecipeUtil.addShaped("original_steel_ingot", <additions:original_steel_ingot>, [
     [<ore:soulOriginal>, <ore:ingotOrichalcos>, <ore:soulOriginal>],
     [null, <ore:soulOriginal>, null]
 ]);
+RecipeUtil.addShaped("maintainance_hatch", <godular_tachinery:maintenance_hatch>, [
+    [<ore:ingotModularium>, <tconstruct:pickaxe>.anyDamage(), <ore:ingotModularium>],
+    [<tconstruct:shovel>.anyDamage(), <modularmachinery:blockcasing>, <tconstruct:hatchet>.anyDamage()],
+    [<ore:ingotModularium>, <tcomplement:chisel>.anyDamage(), <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("maintainance_hatch_auto", <godular_tachinery:auto_maintenance_hatch>, [
+    [<ore:ingotModularium>, <ore:ingotAeonsteel>, <ore:ingotModularium>],
+    [<ore:ingotAeonsteel>, <godular_tachinery:maintenance_hatch>, <ore:ingotAeonsteel>],
+    [<ore:ingotModularium>, <ore:ingotAeonsteel>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("basic_miner", <modularmachinery:simple_miner_factory_controller>, [
+    [<ore:blockModularium>, <ore:gearDark>, <ore:blockModularium>],
+    [<ore:gearDimensionalShard>, <modularmachinery:blockcontroller>, <ore:gearDimensionalShard>],
+    [<ore:blockModularium>, <ore:gearDark>, <ore:blockModularium>]
+]);
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],

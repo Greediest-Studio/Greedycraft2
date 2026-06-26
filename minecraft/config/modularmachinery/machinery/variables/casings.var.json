@@ -78,14 +78,20 @@
         "modularmachinery:blockcasing@3",
         "modularmachinery:blockcasing@4",
         "modularmachinery:blockcasing@5",
-        "modularmachinery:blockcasing"
+        "mmce_complement:blockcasing"
     ],
     "casings_muffler": [
         "godular_tachinery:muffler_hatch",
         "godular_tachinery:medium_muffler_hatch",
         "godular_tachinery:large_muffler_hatch",
         "godular_tachinery:huge_muffler_hatch",
-        "godular_tachinery:me_muffler_hatch"
+        "godular_tachinery:me_muffler_hatch",
+        "modularmachinery:blockcasing@0"
+    ],
+    "casings_maintenance": [
+        "godular_tachinery:maintenance_hatch",
+        "godular_tachinery:auto_maintenance_hatch",
+        "modularmachinery:blockcasing@0"
     ],
     "bloody_rune": [
         "bloodmagic:blood_rune@0",

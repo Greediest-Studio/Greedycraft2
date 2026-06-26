@@ -46,12 +46,6 @@
         "dimension": 42,
         "mobs": [
             {
-                "mob": "iceandfire:if_pixie",
-                "weight": 12,
-                "groupcountmin": 2,
-                "groupcountmax": 4
-            },
-            {
                 "mob": "aether_legacy:phyg",
                 "weight": 5,
                 "groupcountmin": 4,
@@ -71,9 +65,15 @@
             },
             {
                 "mob": "quark:stoneling",
-                "weight": 2,
+                "weight": 5,
                 "groupcountmin": 2,
                 "groupcountmax": 5
+            },
+            {
+                "mob": "lycanitesmobs:nymph",
+                "weight": 5,
+                "groupcountmin": 1,
+                "groupcountmax": 2
             }
         ]
     },
@@ -85,7 +85,7 @@
         "mobs": [
             {
                 "mob": "gct_mobs:elf",
-                "weight": 3,
+                "weight": 10,
                 "groupcountmin": 2,
                 "groupcountmax": 4
             }
@@ -99,7 +99,7 @@
         "mobs": [
             {
                 "mob": "gct_mobs:reversed_elf",
-                "weight": 5,
+                "weight": 10,
                 "groupcountmin": 3,
                 "groupcountmax": 5
             }
@@ -108,12 +108,12 @@
     {
         "dimension": 42,
         "biome": [
-            "gct_mobs:alfheim_hill"
+            "gct_mobs:alfheim_plain_hill"
         ],
         "mobs": [
             {
                 "mob": "twilightforest:stable_ice_core",
-                "weight": 4,
+                "weight": 10,
                 "groupcountmin": 1,
                 "groupcountmax": 3
             }

@@ -14,6 +14,8 @@ import mods.botania.Apothecary;
 import mods.botania.PureDaisy;
 import mods.botania.RuneAltar;
 import mods.botania.ManaInfusion;
+import mods.botania.OrechidIgnem;
+import mods.botania.Orechid;
 import mods.botanicadds.GaiaPlate;
 import mods.botaniatweaks.Agglomeration;
 import mods.godagglomerationplate.GodAgglomeration;
@@ -110,6 +112,11 @@ PureDaisy.removeRecipe(<minecraft:obsidian>);
 
 GaiaPlate.remove(<botanicadds:gaiasteel_ingot>);
 GaiaPlate.add(<botanicadds:gaiasteel_ingot> * 4, 1000000, [<defiledlands:remorseful_gem>, <botania:manaresource:14>, <botania:manaresource:9>, <minecraft:nether_star>]);
+
+Orechid.removeOre(<ore:oreYellorite>);
+Orechid.removeOre(<ore:oreAdamantium>);
+
+OrechidIgnem.removeOre(<ore:oreOnyx>);
 
 ManaInfusion.removeRecipe(<botania:manacookie>);
 
