@@ -119,4 +119,3 @@ import mods.contenttweaker.Item;
 
 <industrialforegoing:infinity_drill>.definition.setHarvestLevel("pickaxe", 4);
 <industrialforegoing:infinity_drill>.definition.setHarvestLevel("shovel", 4);
-

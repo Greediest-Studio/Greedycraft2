@@ -8,3 +8,7 @@
 import mods.projecte.WorldTransmutation;
 
 WorldTransmutation.add(<blockstate:additions:matter_block>, <blockstate:abyssalcraft:antiwater>);
+WorldTransmutation.add(<blockstate:abyssalcraft:antiwater>, <blockstate:additions:matter_block>);
+
+WorldTransmutation.add(<blockstate:nuclearcraft:wasteland_portal>, <blockstate:nuclearcraft:fluid_corium>);
+WorldTransmutation.add(<blockstate:nuclearcraft:fluid_corium>, <blockstate:nuclearcraft:wasteland_portal>);
