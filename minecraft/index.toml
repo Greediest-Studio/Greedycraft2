@@ -1051,6 +1051,12 @@ alias = "mods/gendustry-1.6.5.8-mc1.12.2.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/godular-tachinery.pw.toml"
+hash = "03de59a592ed3837039b63cf4bbfcf022dc6f66113cd4a17a96e73c3a956be93"
+alias = "mods/godular_tachinery-1.1.1.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/graduated-cylinders.pw.toml"
 hash = "968e5378f4914911751ba717d3d1c951d65830579dc6c81fb2538d96434e1585"
 alias = "mods/graduatedcylinders-3.1.1.jar"
@@ -1483,9 +1489,21 @@ alias = "mods/ModularMachinery-Addons-2.0.2.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/modular-machinery-community-edition.pw.toml"
+hash = "186b982cf6954e2759c0b5e63dfa9649cde3c2207678d7dba9df53437f1c3bcf"
+alias = "mods/ModularMachinery-CE-2.3.2.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/modular-routers.pw.toml"
 hash = "483ad8426c133dfee568038ca3b103cede2d74e8be93e940080b98c50ea0a9d6"
 alias = "mods/modular-routers-1.12.2-3.3.0-33.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/modularmachinery-community-edition-complement.pw.toml"
+hash = "cc3a6bf474d0bd17f1fd3b2d77f95740ed444cca8c2fb00ac7b7e50e99d8b00a"
+alias = "mods/mmce_complement-1.0.0.jar"
 metafile = true
 
 [[files]]
@@ -2137,6 +2155,12 @@ alias = "mods/spatialservermod-1.3.1.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/specified-spawning.pw.toml"
+hash = "58373ba65c2baadfe7ed09c07d9ae7a7939622c3e8f8999abc53cdf118e70db4"
+alias = "mods/specifiedspawning-1.12.2-0.6.2.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/spice-of-life-carrot-edition.pw.toml"
 hash = "3c488bc1200c41f69e61d86b87389afcd936fac6e9378df07961458cb1f459de"
 alias = "mods/solcarrot-1.12.2-1.8.4.jar"
@@ -2278,6 +2302,12 @@ metafile = true
 file = "mods/.index/the-aurorian.pw.toml"
 hash = "11e592e95e6e2133d9d1792d9badc42a967ed99d97b43f2e9639a20904e02ca1"
 alias = "mods/theaurorian-1.12.2-1.2.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/the-impossible-library.pw.toml"
+hash = "7ad5fc0f2516e0d5376978f1f375c486b9dc92ae0c91682aa77ad03da37dee2b"
+alias = "mods/theimpossiblelibrary-0.4.7.jar"
 metafile = true
 
 [[files]]
@@ -2639,6 +2669,10 @@ hash = "f829616aa6ec84831e06e08ee747165c8601b6388f086ca84ea8524adff95dbb"
 [[files]]
 file = "resourcepacks/GreedyCraft2相关内容.zip"
 hash = "e0f48936c92760d8f407313ea5c6fa80ed5d2a645328900ddb190fd5df41d1a5"
+
+[[files]]
+file = "resourcepacks/Lycanites Redux 1.12.2-v8.2.1.zip"
+hash = "176e6ed680897153c362e0501f9ca955080107ff5911f9921df32cf83d94b36f"
 
 [[files]]
 file = "resourcepacks/Minecraft-Mod-Language-Modpack.zip"
