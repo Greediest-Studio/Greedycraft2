@@ -2,7 +2,7 @@
   "name": "fire",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 8,
   "ignoreDimensions": true,
   "ignoreBiomes": true,

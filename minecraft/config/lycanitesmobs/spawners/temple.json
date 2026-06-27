@@ -2,7 +2,7 @@
   "name": "temple",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 8,
   "ignoreBiomes": true,
   "ignoreLightLevel": true,

@@ -2,7 +2,7 @@
   "name": "animal",
   "type": "spawner",
   "enabled": false,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 8,
   "ignoreBiomes": false,
   "ignoreLightLevel": false,

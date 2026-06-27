@@ -2,7 +2,7 @@
   "name": "endsky",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 2,
   "ignoreBiomes": true,
   "ignoreLightLevel": true,

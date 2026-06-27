@@ -46,28 +46,22 @@
         "dimension": 42,
         "mobs": [
             {
-                "mob": "aether_legacy:phyg",
-                "weight": 5,
-                "groupcountmin": 4,
-                "groupcountmax": 6
-            },
-            {
-                "mob": "aether_legacy:sheepuff",
-                "weight": 5,
-                "groupcountmin": 4,
-                "groupcountmax": 6
-            },
-            {
-                "mob": "aether_legacy:flying_cow",
-                "weight": 5,
-                "groupcountmin": 4,
-                "groupcountmax": 6
-            },
-            {
                 "mob": "lycanitesmobs:nymph",
-                "weight": 5,
+                "weight": 4,
                 "groupcountmin": 1,
                 "groupcountmax": 2
+            },
+            {
+                "mob": "lycanitesmobs:wisp",
+                "weight": 2,
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            },
+            {
+                "mob": "lycanitesmobs:roc",
+                "weight": 2,
+                "groupcountmin": 1,
+                "groupcountmax": 1
             }
         ]
     },
@@ -82,6 +76,12 @@
                 "weight": 10,
                 "groupcountmin": 3,
                 "groupcountmax": 5
+            },
+            {
+                "mob": "lycanitesmobs:triffid",
+                "weight": 2,
+                "groupcountmin": 1,
+                "groupcountmax": 1
             }
         ]
     },

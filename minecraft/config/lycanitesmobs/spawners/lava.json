@@ -2,7 +2,7 @@
   "name": "lava",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 4,
   "ignoreDimensions": true,
   "ignoreBiomes": true,

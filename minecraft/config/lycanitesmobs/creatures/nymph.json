@@ -6,26 +6,25 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityNymph",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelNymph",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [],
-    "disableSubspecies": false,
+    "disableSubspecies": true,
     "dimensionIds": [
-      -1,
-      1
+      42
     ],
-    "dimensionListType": "blacklist",
-    "ignoreBiome": false,
+    "dimensionListType": "whitelist",
+    "ignoreBiome": true,
     "biomeTags": [],
-    "spawnWeight": 2,
+    "spawnWeight": 10,
     "dungeonWeight": 0,
-    "spawnAreaLimit": 1,
+    "spawnAreaLimit": 4,
     "spawnGroupMin": 1,
-    "spawnGroupMax": 1,
+    "spawnGroupMax": 4,
     "spawnsInLight": true,
-    "spawnsInDark": false,
+    "spawnsInDark": true,
     "worldDayMin": -1,
     "despawnNatural": true,
     "despawnForced": false
@@ -158,12 +157,6 @@
       "minAmount": 1,
       "maxAmount": 3,
       "chance": 0.1
-    },
-    {
-      "item": "lycanitesmobs:faeboltcharge",
-      "minAmount": 1,
-      "maxAmount": 3,
-      "chance": 1
     },
     {
       "item": "lycanitesmobs:immunizer",

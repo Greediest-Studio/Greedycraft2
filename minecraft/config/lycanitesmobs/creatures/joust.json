@@ -7,10 +7,10 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityJoust",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelJoust",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
-    "enabled": true,
+    "enabled": false,
     "spawners": [
       "creature",
       "animal"

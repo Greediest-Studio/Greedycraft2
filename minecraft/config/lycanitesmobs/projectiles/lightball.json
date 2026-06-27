@@ -2,7 +2,7 @@
   "name": "lightball",
   "entityClass": "com.lycanitesmobs.core.entity.CustomProjectileModelEntity",
   "modelClass": "com.lycanitesmobs.client.model.projectile.LightBallModel",
-  "loadDefault": true,
+  "loadDefault": false,
   "width": 1.0,
   "height": 1.0,
   "scale": 2,

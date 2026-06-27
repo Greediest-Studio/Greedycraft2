@@ -2,7 +2,7 @@
   "name": "new_moon",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 6,
   "ignoreBiomes": true,
   "ignoreLightLevel": false,

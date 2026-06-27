@@ -2,7 +2,7 @@
   "name": "saltytree",
   "type": "event",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "channel": "world",
   "duration": 1200,
   "conditions": [

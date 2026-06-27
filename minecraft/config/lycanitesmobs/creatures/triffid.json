@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityTriffid",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelTriffid",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -14,23 +14,19 @@
       "monster",
       "beast"
     ],
-    "disableSubspecies": false,
+    "disableSubspecies": true,
     "dimensionIds": [
-      -1,
-      1
+      42
     ],
-    "dimensionListType": "blacklist",
-    "ignoreBiome": false,
-    "biomeTags": [
-      "swamp",
-      "spooky"
-    ],
+    "dimensionListType": "whitelist",
+    "ignoreBiome": true,
+    "biomeTags": [],
     "spawnWeight": 8,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,
     "spawnGroupMax": 3,
-    "spawnsInLight": false,
+    "spawnsInLight": true,
     "spawnsInDark": true,
     "worldDayMin": -1,
     "despawnNatural": true,

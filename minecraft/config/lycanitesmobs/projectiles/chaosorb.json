@@ -2,7 +2,7 @@
   "name": "chaosorb",
   "entityClass": "com.lycanitesmobs.core.entity.CustomProjectileModelEntity",
   "modelClass": "com.lycanitesmobs.client.model.projectile.ChaosOrbModel",
-  "loadDefault": true,
+  "loadDefault": false,
   "width": 0.75,
   "height": 0.75,
   "scale": 1.0,

@@ -2,7 +2,7 @@
   "name": "aberrant_assimilation_landspawner",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 5,
   "ignoreDimensions": true,
   "ignoreBiomes": true,

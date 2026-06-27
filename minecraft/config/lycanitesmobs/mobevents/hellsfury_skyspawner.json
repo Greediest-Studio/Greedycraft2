@@ -2,7 +2,7 @@
   "name": "hellsfury_skyspawner",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 5,
   "ignoreDimensions": true,
   "ignoreBiomes": true,

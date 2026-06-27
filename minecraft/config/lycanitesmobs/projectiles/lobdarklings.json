@@ -2,7 +2,7 @@
   "name": "lobdarklings",
   "entityClass": "com.lycanitesmobs.core.entity.CustomProjectileModelEntity",
   "modelClass": "com.lycanitesmobs.client.model.projectile.LobDarklingsModel",
-  "loadDefault": true,
+  "loadDefault": false,
   "width": 2.0,
   "height": 2.0,
   "scale": 1.25,

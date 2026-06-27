@@ -2,7 +2,7 @@
   "name": "aetherwave",
   "entityClass": "com.lycanitesmobs.core.entity.CustomProjectileModelEntity",
   "modelClass": "com.lycanitesmobs.client.model.projectile.AetherwaveModel",
-  "loadDefault": true,
+  "loadDefault": false,
   "width": 2.0,
   "height": 2.0,
   "scale": 1.0,

@@ -2,7 +2,7 @@
   "name": "sleep",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 1,
   "ignoreDimensions": true,
   "ignoreBiomes": true,

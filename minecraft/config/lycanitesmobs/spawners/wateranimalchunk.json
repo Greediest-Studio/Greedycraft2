@@ -3,7 +3,7 @@
   "sharedName": "wateranimal",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 4,
   "ignoreBiomes": false,
   "ignoreLightLevel": true,

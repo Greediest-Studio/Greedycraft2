@@ -2,7 +2,7 @@
   "name": "darkness",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "conditionsRequired": 0,
   "triggersRequired": 3,
   "multipleLocations": "combine",

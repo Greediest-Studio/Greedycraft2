@@ -2,7 +2,7 @@
   "name": "sky",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 6,
   "ignoreBiomes": false,
   "ignoreLightLevel": false,

@@ -6,26 +6,20 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityRoc",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelRoc",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
     "spawners": [
       "sky"
     ],
-    "disableSubspecies": false,
+    "disableSubspecies": true,
     "dimensionIds": [
-      -1,
-      1
+      42
     ],
-    "dimensionListType": "blacklist",
-    "ignoreBiome": false,
-    "biomeTags": [
-      "plains",
-      "savanna",
-      "forest",
-      "-snowy"
-    ],
+    "dimensionListType": "whitelist",
+    "ignoreBiome": true,
+    "biomeTags": [],
     "spawnWeight": 16,
     "dungeonWeight": 200,
     "spawnAreaLimit": 2,

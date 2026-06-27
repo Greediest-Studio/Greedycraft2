@@ -2,7 +2,7 @@
   "name": "tsunami_spawner",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 5,
   "ignoreDimensions": true,
   "ignoreBiomes": true,

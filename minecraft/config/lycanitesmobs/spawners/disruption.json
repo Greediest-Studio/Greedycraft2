@@ -3,7 +3,7 @@
   "type": "spawner",
   "enabled": true,
   "triggersRequired": 3,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 1,
   "ignoreDimensions": true,
   "ignoreBiomes": true,

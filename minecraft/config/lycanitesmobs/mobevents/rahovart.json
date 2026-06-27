@@ -2,7 +2,7 @@
   "name": "rahovart",
   "type": "event",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "channel": "boss",
   "duration": 600,
   "conditions": [

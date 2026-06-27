@@ -3,7 +3,7 @@
   "sharedName": "fire",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 2,
   "ignoreDimensions": true,
   "ignoreBiomes": true,
