@@ -7,9 +7,25 @@
     "maintenance": true,
     "parts": [
         {
-            "x": -1,
+            "x": 0,
             "y": 0,
-            "z": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcontroller@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "additions:manganese_steel_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
             "elements": [
                 "casings_all"
             ]
@@ -19,7 +35,31 @@
             "y": 3,
             "z": 1,
             "elements": [
+                "additions:manganese_steel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "additions:manganese_steel_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
                 "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "additions:manganese_steel_block@0"
             ]
         },
         {
@@ -27,7 +67,207 @@
             "y": 2,
             "z": 1,
             "elements": [
+                "additions:manganese_steel_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
                 "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "additions:manganese_steel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "additions:manganese_steel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "additions:manganese_steel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "additions:manganese_steel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "additions:manganese_steel_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "additions:manganese_steel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "additions:manganese_steel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "additions:manganese_steel_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "additions:manganese_steel_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "casings_maintenance"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "additions:manganese_steel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "additions:manganese_steel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "additions:manganese_steel_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "additions:manganese_steel_block@0"
             ]
         },
         {
@@ -35,13 +275,13 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "additions:manganese_steel_block"
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
-            "x": 1,
+            "x": 2,
             "y": 0,
-            "z": 1,
+            "z": 3,
             "elements": [
                 "casings_all"
             ]
@@ -51,127 +291,127 @@
             "y": 3,
             "z": 0,
             "elements": [
-                "additions:manganese_steel_block"
+                "casings_all"
             ]
         },
         {
             "x": 1,
-            "y": 1,
-            "z": 1,
+            "y": 0,
+            "z": 4,
             "elements": [
-                "additions:manganese_steel_block"
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "additions:manganese_steel_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "casings_all"
             ]
         },
         {
             "x": 0,
             "y": 0,
             "z": 2,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "additions:manganese_steel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
             "elements": [
                 "casings_upgrade"
             ]
         },
         {
             "x": -1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "additions:manganese_steel_block"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "additions:manganese_steel_block"
-            ]
-        },
-        {
-            "x": -1,
             "y": 0,
-            "z": 0,
+            "z": 3,
             "elements": [
-                "casings_maintenance"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 0,
-            "elements": [
-                "casings_maintenance"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "additions:manganese_steel_block"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "additions:manganese_steel_block"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "additions:manganese_steel_block"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "additions:manganese_steel_block"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "additions:manganese_steel_block"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "additions:manganese_steel_block"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "additions:manganese_steel_block"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "additions:manganese_steel_block"
+                "additions:manganese_steel_block@0"
             ]
         },
         {
@@ -179,7 +419,7 @@
             "y": 4,
             "z": 1,
             "elements": [
-                "additions:manganese_steel_block"
+                "casings_all"
             ]
         },
         {
@@ -187,23 +427,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "additions:manganese_steel_block"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "casings_all"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "casings_all"
+                "modularmachinery:blockcasing@4"
             ]
         },
         {
@@ -211,7 +435,15 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "casings_all"
+                "additions:manganese_steel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "additions:manganese_steel_block@0"
             ]
         }
     ]}
