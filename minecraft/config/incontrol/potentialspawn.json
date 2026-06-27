@@ -64,30 +64,10 @@
                 "groupcountmax": 6
             },
             {
-                "mob": "quark:stoneling",
-                "weight": 5,
-                "groupcountmin": 2,
-                "groupcountmax": 5
-            },
-            {
                 "mob": "lycanitesmobs:nymph",
                 "weight": 5,
                 "groupcountmin": 1,
                 "groupcountmax": 2
-            }
-        ]
-    },
-    {
-        "dimension": 42,
-        "biome": [
-            "gct_mobs:alfheim_forest"
-        ],
-        "mobs": [
-            {
-                "mob": "gct_mobs:elf",
-                "weight": 10,
-                "groupcountmin": 2,
-                "groupcountmax": 4
             }
         ]
     },
@@ -102,20 +82,6 @@
                 "weight": 10,
                 "groupcountmin": 3,
                 "groupcountmax": 5
-            }
-        ]
-    },
-    {
-        "dimension": 42,
-        "biome": [
-            "gct_mobs:alfheim_plain_hill"
-        ],
-        "mobs": [
-            {
-                "mob": "twilightforest:stable_ice_core",
-                "weight": 10,
-                "groupcountmin": 1,
-                "groupcountmax": 3
             }
         ]
     },
