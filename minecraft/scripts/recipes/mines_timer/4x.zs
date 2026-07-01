@@ -30,6 +30,7 @@ for entry in Entries {
         .addGasInput(<gas:oxygen> * 500)
         .addEnergyPerTickInput(20000)
         .addItemOutput(entry.getItemStack("ingot") * 4)
+        .setMaxThreads(1)
         .build();
     RecipeBuilder.newBuilder("ore_4x_crystals_" + entry.name as string, "factory_4x", 20)
         .addItemInput(entry.getOreDictEntry("crystal"))
@@ -37,6 +38,7 @@ for entry in Entries {
         .addGasInput(<gas:oxygen> * 100)
         .addEnergyPerTickInput(20000)
         .addItemOutput(entry.getItemStack("ingot"))
+        .setMaxThreads(1)
         .build();
     furnace.addRecipe(entry.getItemStack("ingot"), entry.getOreDictEntry("ore"), 0.1f);
 }

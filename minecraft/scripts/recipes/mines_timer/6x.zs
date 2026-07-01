@@ -88,23 +88,27 @@ for EntryItem in Entries {
             .addItemInput(EntryItem.getOreDictEntry("ore"))
             .addEnergyPerTickInput(10000)
             .addItemOutput(EntryItem.getItemStack("radiation") * 6)
+            .setMaxThreads(1)
             .build();
         RecipeBuilder.newBuilder("vib2_" ~ lowerCase(EntryItem.name), "factory_atomic_vibrator", 8)
             .addFluidInput(<liquid:neutronium> * 96)
             .addItemInput(EntryItem.getOreDictEntry("starlight"))
             .addEnergyPerTickInput(10000)
             .addItemOutput(EntryItem.getItemStack("radiation"))
+            .setMaxThreads(1)
             .build();
         RecipeBuilder.newBuilder("dec_" ~ lowerCase(EntryItem.name), "factory_atomic_decayer", 10)
             .addItemInput(EntryItem.getOreDictEntry("radiation"))
             .addEnergyPerTickInput(40000)
             .addItemOutput(EntryItem.getItemStack("pured"))
+            .setMaxThreads(1)
             .build();
         RecipeBuilder.newBuilder("aci_" ~ lowerCase(EntryItem.name), "factory_atomic_acider", 15)
             .addFluidInput(<liquid:aqua_fluoride> * 100)
             .addItemInput(EntryItem.getOreDictEntry("pured"))
             .addEnergyPerTickInput(20000)
             .addItemOutput(EntryItem.getItemStack("compound"))
+            .setMaxThreads(1)
             .build();
     }
 }
