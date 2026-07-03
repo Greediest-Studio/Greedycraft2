@@ -1357,6 +1357,12 @@ alias = "mods/llibrary-1.7.20-1.12.2.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/loadingscreen.pw.toml"
+hash = "3e80af15583256b44cd2446e6d80987274c0e17589205fbf5ec90a0f3a9dae62"
+alias = "mods/loadingscreens-1.0.1.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/lolasm.pw.toml"
 hash = "9385220744887626601e90b6f044b38414412152f7902f7c0be443fbe381b064"
 alias = "mods/loliasm-5.33.jar"
