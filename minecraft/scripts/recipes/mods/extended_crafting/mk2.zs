@@ -19,6 +19,8 @@ var orbs as IIngredient =
 	<bloodmagic:blood_orb>.withTag({orb: "gctcore:the_end"}) |
 	<avaritia:armok_orb>;
 
+mods.extendedcrafting.TableCrafting.addShapeless(0, <gct_ores:rainboquartz> * 24, [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:nuggetChromasteel>]);
+
 TableCrafting.addShaped(0, <denseneutroncollectors:compressed_neutron_collector>, [
 	[null, null, <ore:ingotCoalescenceMatrix>, null, null], 
 	[null, <ore:ingotIron>, <avaritia:resource:2>, <ore:ingotIron>, null], 
