@@ -9,17 +9,16 @@
   "loadDefault": false,
   "enabled": true,
   "spawning": {
-    "enabled": false,
+    "enabled": true,
     "spawners": [
       "sky",
       "ooze"
     ],
-    "disableSubspecies": false,
+    "disableSubspecies": true,
     "dimensionIds": [
-      -1,
-      1
+      43
     ],
-    "dimensionListType": "blacklist",
+    "dimensionListType": "whitelist",
     "ignoreBiome": false,
     "biomeTags": [
       "cold",
@@ -27,12 +26,12 @@
       "coniferous",
       "-end"
     ],
-    "spawnWeight": 8,
+    "spawnWeight": 4,
     "dungeonWeight": 200,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,
     "spawnGroupMax": 3,
-    "spawnsInLight": false,
+    "spawnsInLight": true,
     "spawnsInDark": true,
     "worldDayMin": -1,
     "despawnNatural": true,
@@ -99,12 +98,6 @@
       "minAmount": 1,
       "maxAmount": 8,
       "chance": 0.25
-    },
-    {
-      "item": "lycanitesmobs:icefireballcharge",
-      "minAmount": 1,
-      "maxAmount": 3,
-      "chance": 1
     }
   ],
   "sizeScale": 1,

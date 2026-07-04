@@ -86,6 +86,97 @@
         ]
     },
     {
+        "dimension": 43,
+        "biome": [
+            "gctcore:mistveil_depths"
+        ],
+        "mobs": [
+            {
+                "mob": "lycanitesmobs:wendigo",
+                "weight": 1,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ]
+    },
+    {
+        "dimension": 43,
+        "biome": [
+            "gctcore:howling_icefield",
+            "gctcore:rimefang_mountains"
+        ],
+        "mobs": [
+            {
+                "mob": "lycanitesmobs:maug",
+                "weight": 1,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ]
+    },
+    {
+        "dimension": 43,
+        "biome": [
+            "gctcore:soul_ember_plains",
+            "gctcore:glimmering_hollow"
+        ],
+        "mobs": [
+            {
+                "mob": "lycanitesmobs:bobeko",
+                "weight": 4,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ]
+    },
+    {
+        "dimension": 43,
+        "biome": [
+            "gctcore:hvergelmir_throat"
+        ],
+        "mobs": [
+            {
+                "mob": "lycanitesmobs:frostweaver",
+                "weight": 4,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ]
+    },
+    {
+        "dimension": 43,
+        "biome": [
+            "gctcore:howling_icefield",
+            "gctcore:rimefang_mountains",
+            "gctcore:hvergelmir_throat",
+            "gctcore:mistveil_depths",
+            "gctcore:soul_ember_plains",
+            "gctcore:glimmering_hollow"
+        ],
+        "mobs": [
+            {
+                "mob": "lycanitesmobs:arix",
+                "weight": 2,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ]
+    },
+    {
+        "dimension": 43,
+        "biome": [
+            "gctcore:sunken_tear"
+        ],
+        "mobs": [
+            {
+                "mob": "lycanitesmobs:ioray",
+                "weight": 2,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ]
+    },
+    {
         "dimension": 78,
         "mobs": [
             {

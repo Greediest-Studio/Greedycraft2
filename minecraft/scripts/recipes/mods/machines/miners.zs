@@ -155,7 +155,7 @@ MMEvents.onControllerGUIRender("simple_miner", function(event as ControllerGUIRe
         "§a机器名称：§eLV0 - 简易采掘机"
     ];
     if (event.controller.world.dimension != 0 && event.controller.world.dimension != -1) {
-        info += "§a采掘维度：错误，简易采掘机仅可在主世界和下界采掘";
+        info += "§a采掘维度：错误，简易采掘机仅可在主世界和下界运行";
     } else {
         info += "§a采掘维度：" ~ oreOutput.getdimName(event.controller.world.dimension);
     }
@@ -221,8 +221,8 @@ RecipeBuilder.newBuilder("simple_miner_main","simple_miner",200)
     .addPreCheckHandler(function(event as RecipeCheckEvent) {
         val ctrl = event.controller;
         val dim = ctrl.world.dimension;
-        if (dim != 0 || dim != -1 || dim != 1) {
-            event.setFailed("错误，简易采掘机仅可在主世界和下界采掘");
+        if (dim != 0 && dim != -1) {
+            event.setFailed("错误，简易采掘机仅可在主世界和下界运行");
         }
     })
     .addEnergyPerTickInput(200)

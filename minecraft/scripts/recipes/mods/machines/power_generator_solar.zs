@@ -108,15 +108,15 @@ function addSolarPanelRecipe(panel as IItemStack, baseRF as long) {
         .addEnergyPerTickOutput(baseRF)
         .addFactoryStartHandler(function(event as FactoryRecipeStartEvent) {
             var parallel as int = event.activeRecipe.parallelism;
-            var parallelBonus as float = 0.8f + (parallel as float * 0.04f);
-            if (parallelBonus > 2.24f) {
-                parallelBonus = 2.24f;
+            var parallelBonus as float = 0.8f + (parallel as float * 0.08f);
+            if (parallelBonus > 3.68f) {
+                parallelBonus = 3.68f;
             }
             var efficiency as float = isNull(event.controller.customData.solarEfficiency) ? 0.0f : event.controller.customData.solarEfficiency as float;
             event.factoryRecipeThread.addModifier("solar_generation_bonus", RecipeModifierBuilder.create("modularmachinery:energy", "output", parallelBonus * efficiency, 1, false).build());
         })
         .setMaxThreads(1)
-        .addRecipeTooltip("§b实际发电量拥有§c并行奖赏§b机制，其单位输出电量将乘以(0.8+0.04×并行数)")
+        .addRecipeTooltip("§b实际发电量拥有§c并行奖赏§b机制，其单位输出电量将乘以(0.8+0.08×并行数)")
         .addRecipeTooltip("§b该机器的最大并行数和最大线程数均为§e36")
         .build();
 }

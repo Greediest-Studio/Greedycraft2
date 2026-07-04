@@ -9,22 +9,21 @@
   "loadDefault": false,
   "enabled": true,
   "spawning": {
-    "enabled": false,
+    "enabled": true,
     "spawners": [
       "water",
       "waterfloor"
     ],
-    "disableSubspecies": false,
+    "disableSubspecies": true,
     "dimensionIds": [
-      -1,
-      1
+      43
     ],
-    "dimensionListType": "blacklist",
+    "dimensionListType": "whitelist",
     "ignoreBiome": false,
     "biomeTags": [
-      "ocean"
+      "water"
     ],
-    "spawnWeight": 4,
+    "spawnWeight": 2,
     "dungeonWeight": 200,
     "spawnAreaLimit": 3,
     "spawnGroupMin": 1,
@@ -122,12 +121,6 @@
       "minAmount": 1,
       "maxAmount": 1,
       "chance": 0.25
-    },
-    {
-      "item": "lycanitesmobs:waterjetcharge",
-      "minAmount": 1,
-      "maxAmount": 3,
-      "chance": 1
     }
   ],
   "sizeScale": 1,

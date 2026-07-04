@@ -10,18 +10,17 @@
   "loadDefault": false,
   "enabled": true,
   "spawning": {
-    "enabled": false,
+    "enabled": true,
     "spawners": [
       "monster",
       "beast",
       "ooze"
     ],
-    "disableSubspecies": false,
+    "disableSubspecies": true,
     "dimensionIds": [
-      -1,
-      1
+      43
     ],
-    "dimensionListType": "blacklist",
+    "dimensionListType": "whitelist",
     "ignoreBiome": false,
     "biomeTags": [
       "cold",
@@ -29,7 +28,7 @@
       "coniferous",
       "-end"
     ],
-    "spawnWeight": 4,
+    "spawnWeight": 2,
     "dungeonWeight": 0,
     "spawnAreaLimit": 1,
     "spawnGroupMin": 1,
@@ -98,12 +97,6 @@
       "minAmount": 1,
       "maxAmount": 8,
       "chance": 0.25
-    },
-    {
-      "item": "lycanitesmobs:tundracharge",
-      "minAmount": 1,
-      "maxAmount": 3,
-      "chance": 1
     },
     {
       "item": "lycanitesmobs:frostyfur",

@@ -1,6 +1,6 @@
 {
 	title: "§b蚀雾之地",
-	x: 26.5d,
+	x: 28.0d,
 	y: -1.5d,
 	description: "激活尼福尔海姆传送门，进入尼福尔海姆",
 	text: [
@@ -12,6 +12,7 @@
 	],
 	dependencies: [
 		"6dd45e4d",
+		"2ff890a5",
 		"690fc3f0"
 	],
 	tasks: [{
