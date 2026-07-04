@@ -1900,6 +1900,7 @@ GameStagesUtil.stageEpicEngineer.addIngredients([
     <ore:dustUranium>,
     <ore:oreUranium>,
     <ore:blockUranium>,
+    <ore:oreUranium235>,
     <ore:oreBarite>,
     <ore:gemBarite>,
     <ore:oreBismuth>,
@@ -2076,6 +2077,7 @@ GameStagesUtil.stageEpicEngineer.addIngredients([
     <ore:blockPlutonium>,
     <ore:nuggetPlutonium>,
     <ore:dustPlutonium>,
+    <ore:orePlutonium>,
     <ore:ingotAmericium>,
     <ore:blockAmericium>,
     <ore:nuggetAmericium>,
@@ -2146,6 +2148,7 @@ GameStagesUtil.stageEpicEngineer.addIngredients([
     <ore:dustAlphaHydroxyisobutyricAcid>,
     <ore:dustLacticAcid>,
     <ore:dustDTPA>,
+    <ore:oreZirconium>,
     <additions:pit_cf253>,
     <additions:pit_es254>
 ], true);

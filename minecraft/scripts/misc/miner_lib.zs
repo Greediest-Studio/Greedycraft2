@@ -573,6 +573,9 @@ oreOutput.create("亚尔夫海姆",42,COSMILITE,<gct_mobs:terrasteel_ore>,1,0.00
 oreOutput.create("亚尔夫海姆",42,FINALLIUM,<gct_mobs:orichalcos_ore>,1,0.005);
 oreOutput.create("亚尔夫海姆",42,FINALLIUM,<gct_mobs:botanical_stone>,1,0.004);
 
+//尼福尔海姆 波动级
+oreOutput.create("尼福尔海姆",43,WAVITE,<gctcore:apathy_ore>,1,0.02);
+
 //永恒星域 寰宇级
 oreOutput.create("永恒星域",80,COSMILITE,<astralsorcery:itemcraftingcomponent>,1,0.05);
 oreOutput.create("永恒星域",80,COSMILITE,<additions:star_metal_ore>,1,0.04);
@@ -610,3 +613,9 @@ oreOutput.create("腐朽之地",66,FINALLIUM,<erebus:materials:74>,1,0.015);
 
 //阿图姆 终焉级
 oreOutput.create("阿图姆",17,FINALLIUM,<additions:nebu_ore>,1,0.004);
+
+//辐射废土 终焉级
+oreOutput.create("辐射废土",4598,FINALLIUM,<mekanism:oreblock:5>,1,0.04);
+oreOutput.create("辐射废土",4598,FINALLIUM,<additions:uranium_235_ore>,1,0.03);
+oreOutput.create("辐射废土",4598,FINALLIUM,<additions:plutonium_ore>,1,0.01);
+oreOutput.create("辐射废土",4598,FINALLIUM,<additions:zirconium_ore>,1,0.02);

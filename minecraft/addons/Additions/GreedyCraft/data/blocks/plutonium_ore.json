@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "钚矿石",
+    "tooltip": "§9辐射侵蚀的产物",
+    "ore_dict": "orePlutonium",
+    "type": "additions:block_simple"
+  },
+  "name": "钚矿石",
+  "material": "minecraft:stone",
+  "hardness": 40.0,
+  "resistance": 4000.0,
+  "harvest_level": 13,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

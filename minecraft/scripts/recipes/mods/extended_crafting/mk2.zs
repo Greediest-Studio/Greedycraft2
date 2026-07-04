@@ -19,7 +19,9 @@ var orbs as IIngredient =
 	<bloodmagic:blood_orb>.withTag({orb: "gctcore:the_end"}) |
 	<avaritia:armok_orb>;
 
-TableCrafting.addShaped(0, <denseneutroncollectors:compressed_neutron_collector>, [
+mods.extendedcrafting.TableCrafting.addShapeless(0, <gct_ores:rainboquartz> * 24, [<ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:gemQuartz>, <ore:nuggetChromasteel>]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <denseneutroncollectors:compressed_neutron_collector>, [
 	[null, null, <ore:ingotCoalescenceMatrix>, null, null], 
 	[null, <ore:ingotIron>, <avaritia:resource:2>, <ore:ingotIron>, null], 
 	[<ore:ingotCoalescenceMatrix>, <avaritia:resource:2>, <avaritia:neutron_collector>, <avaritia:resource:2>, <ore:ingotCoalescenceMatrix>], 
@@ -483,3 +485,4 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gctcore:nilfheim_portal_core>,
 	[<botaniverse:morewood>, <ore:ingotOriginalSteel>, <ore:blockIceAlloy>, <ore:ingotOriginalSteel>, <botaniverse:morewood>], 
 	[<botaniverse:morewood>, <botaniverse:morewood:4>, <ore:ingotOriginalSteel>, <botaniverse:morewood:4>, <botaniverse:morewood>]
 ]);
+

@@ -1,0 +1,30 @@
+{
+	title: "§b核子末世",
+	x: -7.0d,
+	y: 7.0d,
+	description: "通过辐射废土传送门，进入辐射废土",
+	text: [
+		"使用§c贤者之石§r转换§b液态堆芯熔融物§r即可将其变为传送门",
+		"该维度拥有极强的背景辐射，在没有充足防护的情况下死亡速度极快",
+		"如果想要在该世界稳定立足，建议先准备好§b辐射净化仪§r的全部材料"
+	],
+	dependencies: [
+		"c88cd23c"
+	],
+	tasks: [{
+		uid: "a2b091c7",
+		type: "dimension",
+		icon: "nuclearcraft:wasteland_portal",
+		dim: 4598
+	}],
+	rewards: [{
+		uid: "6fc66abb",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "93ae93a7",
+		type: "xp",
+		xp: 19450
+	}]
+}

@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "铀-235矿石",
+    "ore_dict": "oreUranium235",
+    "type": "additions:block_simple"
+  },
+  "name": "铀-235矿石",
+  "material": "minecraft:stone",
+  "hardness": 15.0,
+  "resistance": 4000.0,
+  "harvest_level": 12,
+  "harvest_tool": "pickaxe",
+  "light_level": 4,
+  "type": "additions:simple"
+}

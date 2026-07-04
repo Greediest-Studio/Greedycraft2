@@ -5272,7 +5272,18 @@ calculusTrait.calcDamage = function(trait, tool, attacker, target, originalDamag
     var sumDmg as IData = {"SumDmg": 0.0 as float} as IData;
     var dmgTimes as IData = {"DmgTimes": 0} as IData;
     if (!isNull(tool.tag.memberGet("DmgTimes")) && !isNull(tool.tag.memberGet("CurrentDps")) && tool.tag.memberGet("DmgTimes") == 10) {
-        target.health -= newDamage + tool.tag.memberGet("CurrentDps").asFloat();
+        var trueDamage as float = (newDamage + tool.tag.memberGet("CurrentDps").asFloat()) as float;
+        if (target instanceof IEntityLivingBase && attacker instanceof IPlayer && !attacker.world.isRemote()) {
+            var livingNative as native.net.minecraft.entity.EntityLivingBase = (target as IEntityLivingBase).native;
+            var currentHealth as float = livingNative.func_110143_aJ() as float;
+            var maxHealth as float = livingNative.func_110138_aP() as float;
+            var nextHealth as float = Math.max(0.0f, Math.min(maxHealth, currentHealth - trueDamage));
+            var manager as native.net.minecraft.network.datasync.EntityDataManager = livingNative.func_184212_Q();
+            manager.func_187227_b(native.net.minecraft.entity.EntityLivingBase.field_184632_c, nextHealth as float);
+            if (nextHealth <= 0.0f) {
+                livingNative.func_70645_a(IDamageSource.createEntityDamage("gct.calculus.absolute", attacker).native);
+            }
+        }
         tool.mutable().updateTag(dmgTick);
         tool.mutable().updateTag(sumDmg);
         tool.mutable().updateTag(dmgTimes);
