@@ -1,0 +1,35 @@
+{
+	title: "§b这科学吗？",
+	x: -6.0d,
+	y: 5.5d,
+	description: "在辐射废土挖掘钚矿石",
+	text: [
+		"这样就不需要继续去爬铀-钚线了"
+	],
+	dependencies: [
+		"1edc99e8"
+	],
+	tasks: [{
+		uid: "32a212fa",
+		type: "item",
+		items: [{
+			item: "additions:plutonium_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "3d7cbb2d",
+		type: "item",
+		item: "additions:plutonium_ingot",
+		count: 8
+	},
+	{
+		uid: "8e5543ee",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "424da45d",
+		type: "xp",
+		xp: 5000
+	}]
+}
