@@ -2662,7 +2662,11 @@ GameStagesUtil.stageLegendWizard.addIngredients([
     <ore:gemLumerunine>,
     <additions:aspectus_mercury>,
     <additions:aspectus_salt>,
-    <additions:aspect_sulfur>
+    <additions:aspect_sulfur>,
+    <ore:ingotHafnium>,
+    <ore:nuggetHafnium>,
+    <ore:blockHafnium>,
+    <ore:dustHafnium>
 ], false);
 
 GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators", "mekceumoremachine", "mekeng"]);
