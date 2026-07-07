@@ -105,15 +105,8 @@
     "tier": 1
   },
   {
-    "identifier": "succubus",
-    "enabled": true,
-    "entityBlacklist": [],
-    "alwaysOnEntity": [],
-    "tier": 1
-  },
-  {
-    "identifier": "reality",
-    "enabled": true,
+    "identifier": "molten",
+    "enabled": false,
     "entityBlacklist": [],
     "alwaysOnEntity": [],
     "tier": 1
@@ -126,8 +119,15 @@
     "tier": 1
   },
   {
-    "identifier": "molten",
-    "enabled": false,
+    "identifier": "succubus",
+    "enabled": true,
+    "entityBlacklist": [],
+    "alwaysOnEntity": [],
+    "tier": 1
+  },
+  {
+    "identifier": "reality",
+    "enabled": true,
     "entityBlacklist": [],
     "alwaysOnEntity": [],
     "tier": 1

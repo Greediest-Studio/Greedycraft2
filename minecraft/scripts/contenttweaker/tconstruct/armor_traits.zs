@@ -3469,7 +3469,7 @@ watcherTrait.onHurt = function(trait, armor, player, source, damage, newDamage, 
     if (!isNull(player)) {
         if (source.damageType == "mob") {
             return newDamage * 0.9f;
-         } else if (source.damageType == "magic" || source.damageType == "indirectMagic") {
+         } else if (source.isMagicDamage()) {
             return newDamage * 0.93f;
         }
     }
@@ -3588,7 +3588,7 @@ broken_armorTrait.localizedName = game.localize("greedycraft.tconstruct.armor_tr
 broken_armorTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.broken_armorTrait.desc");
 broken_armorTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player)) {
-        if (source.damageType == "magic" || source.damageType == "indirectMagic") {
+        if (source.isMagicDamage()) {
             return newDamage * 0.5f;
         } else if (source.damageType == "generic") {
             return newDamage * 2.0f;
