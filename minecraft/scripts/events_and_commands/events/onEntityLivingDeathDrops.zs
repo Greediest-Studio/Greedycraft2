@@ -6,6 +6,7 @@ import crafttweaker.entity.IEntityLivingBase;
 import crafttweaker.item.IItemStack;
 import crafttweaker.entity.IEntityItem;
 
+import mods.ticlib.TicTool;
 import mods.ctutils.utils.Math;
 
 events.onEntityLivingDeathDrops(function (event as EntityLivingDeathDropsEvent) {
@@ -15,15 +16,15 @@ events.onEntityLivingDeathDrops(function (event as EntityLivingDeathDropsEvent) 
             var entity as IEntityLivingBase = event.entityLivingBase;
             if (!isNull(player.mainHandHeldItem)) {
                 var item as IItemStack = player.mainHandHeldItem;
-                if (item.isTicTool()) {
+                if (TicTool.isTool(item)) {
                     
                     // Nitration Trait Drop
-                    if (item.hasTicTrait("nitration")) {
+                    if (TicTool.hasTrait(item, "nitration")) {
                         event.drops += <minecraft:gunpowder>.createEntityItem(entity.world, entity.x as float, entity.y as float, entity.z as float);
                     }
 
                     // Jadeitization Trait Drop
-                    if (item.hasTicTrait("jadeitization")) {
+                    if (TicTool.hasTrait(item, "jadeitization")) {
                         for i in 0 to Math.ceil((Math.random() * 3.0f) as double) as int {
                             event.drops += <erebus:materials:55>.createEntityItem(entity.world, entity.x as float, entity.y as float, entity.z as float);
                         }

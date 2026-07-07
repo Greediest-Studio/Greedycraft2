@@ -6,6 +6,7 @@
 
 #priority 90
 
+import mods.ticlib.TicTool;
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.IPlayerEvent;
 import crafttweaker.event.PlayerRespawnEvent;
@@ -28,14 +29,14 @@ import crafttweaker.item.IItemStack;
 events.onEntityTravelToDimension(function(event as EntityTravelToDimensionEvent) {
     if (event.entity instanceof IPlayer) {
         var player as IPlayer = event.entity;
-        if (player.getPlayerTicArmorTrait() has "world_beginning_armor") {
+        if (TicTool.getArmorTraits(player) has "world_beginning_armor") {
             player.addPotionEffect(<potion:contenttweaker:worldguard>.makePotionEffect(1000, 0, false, false));
         } else if (!isNull(player.mainHandHeldItem)) {
-            if (player.mainHandHeldItem.getTicTrait() has "world_beginning") {
+            if (TicTool.getTraits(player.mainHandHeldItem) has "world_beginning") {
                 player.addPotionEffect(<potion:contenttweaker:worldguard>.makePotionEffect(1000, 0, false, false));
             }
         } else if (!isNull(player.offHandHeldItem)) {
-            if (player.offHandHeldItem.getTicTrait() has "world_beginning") {
+            if (TicTool.getTraits(player.offHandHeldItem) has "world_beginning") {
                 player.addPotionEffect(<potion:contenttweaker:worldguard>.makePotionEffect(1000, 0, false, false));
             }
         }

@@ -6,6 +6,7 @@
 #priority 90
 #reloadable
 
+import mods.ticlib.TicTool;
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.IPlayerEvent;
 import crafttweaker.event.PlayerRespawnEvent;
@@ -188,7 +189,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
                 isInOcean = false;
             }
         }
-        if ((player as IPlayer).getPlayerTicHelmetTrait() has "amphibious_armor") {
+        if (TicTool.getArmorSlotTraits(player, "helmet") has "amphibious_armor") {
             var i = 1;
             while (i <= player.armorInventory[3].tag.Modifiers.length - 1) {
                 if (player.armorInventory[3].tag.Modifiers[i].identifier == "amphibious_armor") {
@@ -231,7 +232,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
     // Vethea
     if (!isNull(player.currentItem)) {
         val item = player.currentItem;
-        if (item.isTicTool() || item.isTicArmor()) {
+        if (TicTool.isTool(item) || TicTool.isArmor(item)) {
             if (!player.hasGameStage("vethea_breaker") && player.getDimension() != 427 && isNull(item.tag.vetheaBreaker)) {
                 item.mutable().updateTag({vetheaBreaker: 0 as byte});
             }
@@ -245,7 +246,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
     }
     if (!isNull(player.armorInventory)) {
         for armor in player.armorInventory {
-            if (armor.isTicArmor()) {
+            if (TicTool.isArmor(armor)) {
                 if (!player.hasGameStage("vethea_breaker") && player.getDimension() != 427 && isNull(armor.tag.vetheaBreaker)) {
                     armor.mutable().updateTag({vetheaBreaker: 0 as byte});
                 }
@@ -287,9 +288,9 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
     if (!isNull(player.armorInventory)) {
         for armor in player.armorInventory {
             if (!isNull(armor)) {
-                if (armor.isTicArmor()) {
-                    if (!(armor.hasTicTrait("leveling_durability_armor"))) {
-                        armor.addTicTrait("leveling_durability_armor", 0xffffff, 1);
+                if (TicTool.isArmor(armor)) {
+                    if (!(TicTool.hasTrait(armor, "leveling_durability_armor"))) {
+                        TicTool.applyRegisteredTrait(armor, "leveling_durability_armor", 0xff0000, 1);
                     }
                 }
             }
@@ -297,13 +298,13 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
     }
     if (!isNull(player.currentItem)) {
         var item = player.currentItem;
-        if (item.isTicTool()) {
-            if (!(item.hasTicTrait("leveling_durability"))) {
-                item.addTicTrait("leveling_durability", 0xffffff, 1);
+        if (TicTool.isTool(item)) {
+            if (!(TicTool.hasTrait(item, "leveling_durability"))) {
+                TicTool.applyRegisteredTrait(item, "leveling_durability", 0xff0000, 1);
             }
-        } else if (item.isTicArmor()) {
-            if (!(item.hasTicTrait("leveling_durability_armor"))) {
-                item.addTicTrait("leveling_durability_armor", 0xffffff, 1);
+        } else if (TicTool.isArmor(item)) {
+            if (!(TicTool.hasTrait(item, "leveling_durability_armor"))) {
+                TicTool.applyRegisteredTrait(item, "leveling_durability_armor", 0xff0000, 1);
             }
         }
     }
@@ -312,49 +313,31 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
     if (player.world.getWorldTime() as long % 20 == 0 && !isNull(player.armorInventory)) {
         for armor in player.armorInventory {
             if (!isNull(armor)) {
-                if (!(armor.hasTicTrait("leveling_durability"))) {
-                armor.addTicTrait("leveling_durability", 0xffffff, 1);
-                }
-                /*
-                if (armor.hasTicTrait("tconevo.astral_armor") && !(armor.hasTicTrait("astraling_armor"))) {
-                    armor.addTicTrait("astraling_armor", armor.getTraitColor("tconevo.astral_armor"), 1);
-                    armor.removeTicTrait("tconevo.astral_armor");
-                }
-                */
-                if !(armor.hasTicTrait("astraling_armor") || armor.hasTicTrait("tconevo.astral_armor")) {
+                if !(TicTool.hasTrait(armor, "astraling_armor") || TicTool.hasTrait(armor, "tconevo.astral_armor")) {
                     var str as string = "";
-                    for trait in armor.getTicTrait() {
+                    for trait in TicTool.getTraits(armor) {
                         if (trait has "tconevo.attuned_") {
                             str = trait;
                             break;
                         }
                     }
-                    armor.removeTicTrait(str);
+                    TicTool.removeRegisteredTrait(armor, str);
                 }
             }
         }
     } 
     if (player.world.getWorldTime() as long % 20 == 0 && !isNull(player.currentItem)) {
         var item = player.currentItem;
-        if (item.isTicTool()) {
-            if (!(item.hasTicTrait("leveling_durability"))) {
-                item.addTicTrait("leveling_durability", 0xffffff, 1);
-            }
-            /*
-            if (item.hasTicTrait("tconevo.astral") && !(item.hasTicTrait("astraling"))) {
-                item.addTicTrait("astraling", item.getTraitColor("tconevo.astral"), 1);
-                item.removeTicTrait("tconevo.astral");
-            }
-            */
-            if !(item.hasTicTrait("astraling") || item.hasTicTrait("tconevo.astral")) {
+        if (TicTool.isTool(item)) {
+            if !(TicTool.hasTrait(item, "astraling") || TicTool.hasTrait(item, "tconevo.astral")) {
                 var str as string = "";
-                for trait in item.getTicTrait() {
+                for trait in TicTool.getTraits(item) {
                     if (trait has "tconevo.attuned_") {
                         str = trait;
                         break;
                     }
                 }
-                item.removeTicTrait(str);
+                TicTool.removeRegisteredTrait(item, str);
             }
         }
     }
@@ -545,7 +528,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
     if (player.dimension == 17) {
         if (!(isNull(player.armorInventory) || player.armorInventory.length <= 0)) {
             for armor in player.armorInventory {
-                if (armor.hasTicTrait("atum_vision_armor")) {
+                if (TicTool.hasTrait(armor, "atum_vision_armor")) {
                     hasAtumVision = true;
                     break;
                 }
@@ -562,10 +545,10 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
     var heatstrokeModifier = AttributeModifier.createModifier("generic.maxHealth", 0.5f, 1, "19584374-3cb5-4f6d-8f2d-1a2b3c4d5e6f");
     var isHeatstroke as bool = false;
     if (!isNull(player.mainHandHeldItem)) {
-        if (player.mainHandHeldItem.hasTicTrait("heatstroke")) isHeatstroke = true;
+        if (TicTool.hasTrait(player.mainHandHeldItem, "heatstroke")) isHeatstroke = true;
     }
     if (!isNull(player.offHandHeldItem) && !isHeatstroke) {
-        if (player.offHandHeldItem.hasTicTrait("heatstroke")) isHeatstroke = true;
+        if (TicTool.hasTrait(player.offHandHeldItem, "heatstroke")) isHeatstroke = true;
     }
     if (isHeatstroke && player.world.getBiome(player.position).rainfall == 0.0f) {
         if (!player.getAttribute("generic.maxHealth").hasModifier(heatstrokeModifier)) {
@@ -582,7 +565,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
     if (!(isNull(player.armorInventory) || player.armorInventory.length == 0)) {
         for armor in player.armorInventory {
             if (!isNull(armor)) {
-                if (armor.hasTicTrait("exskeletal_armor")) {
+                if (TicTool.hasTrait(armor, "exskeletal_armor")) {
                     count += 1;
                     continue;
                 }
@@ -609,10 +592,10 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 
     //Dragon Body Trait
     var hasDragonBody as int = 0;
-    hasDragonBody += player.getPlayerTicHelmetTrait() has "dragon_body_armor" ? 1 : 0;
-    hasDragonBody += player.getPlayerTicChestplateTrait() has "dragon_body_armor" ? 1 : 0;
-    hasDragonBody += player.getPlayerTicLeggingsTrait() has "dragon_body_armor" ? 1 : 0;
-    hasDragonBody += player.getPlayerTicBootsTrait() has "dragon_body_armor" ? 1 : 0;
+    hasDragonBody += TicTool.getArmorSlotTraits(player, "helmet") has "dragon_body_armor" ? 1 : 0;
+    hasDragonBody += TicTool.getArmorSlotTraits(player, "chestplate") has "dragon_body_armor" ? 1 : 0;
+    hasDragonBody += TicTool.getArmorSlotTraits(player, "leggings") has "dragon_body_armor" ? 1 : 0;
+    hasDragonBody += TicTool.getArmorSlotTraits(player, "boots") has "dragon_body_armor" ? 1 : 0;
     var dragonBodyModifier = AttributeModifier.createModifier("generic.movementSpeed", 0.7f + 0.3f * hasDragonBody as float, 1, "abcdefab-1234-5678-9abc-defabcdefabc");
     if (hasDragonBody >= 2) {
         if (!player.getAttribute("generic.movementSpeed").hasModifier(dragonBodyModifier)) {

@@ -5,6 +5,7 @@ import crafttweaker.item.IItemStack;
 
 import native.net.minecraftforge.event.entity.player.ItemTooltipEvent;
 import native.net.minecraft.client.gui.GuiScreen;
+import mods.ticlib.TicTool;
 
 var EIOitemLevelList as string[string] = {
     "ometweaks:blackhole_capacitor": "§7全局等级： §f6.0",
@@ -74,7 +75,7 @@ events.register(function(event as ItemTooltipEvent) {
 
     //Hexable Basement Trait Tooltip
     if (!isNull(itemStack) && !isNull(itemStack.definition)) {
-        if (itemStack.hasTicTrait("hexable_basement") || itemStack.hasTicTrait("hexable_basement_armor")) {
+        if (TicTool.hasTrait(itemStack, "hexable_basement") || TicTool.hasTrait(itemStack, "hexable_basement_armor")) {
             var tooltips = event.getToolTip();
             var location as int = -1;
             var str as string = "";
@@ -102,7 +103,7 @@ events.register(function(event as ItemTooltipEvent) {
 
     //Imitation Trait Tooltip
     if (!isNull(itemStack) && !isNull(itemStack.definition)) {
-        if (itemStack.hasTicTrait("imitation")) {
+        if (TicTool.hasTrait(itemStack, "imitation")) {
             var tooltips = event.getToolTip();
             var location as int = -1;
             var str as string = "";
@@ -123,7 +124,7 @@ events.register(function(event as ItemTooltipEvent) {
                 event.getToolTip().remove(location + 1);
             }
         }
-        if (itemStack.hasTicTrait("imitation_armor") && !itemStack.hasTicTrait("imitation")) {
+        if (TicTool.hasTrait(itemStack, "imitation_armor") && !TicTool.hasTrait(itemStack, "imitation")) {
             var tooltips = event.getToolTip();
             var location as int = -1;
             var str as string = "";
@@ -148,41 +149,41 @@ events.register(function(event as ItemTooltipEvent) {
 
     //Radiation Trait Tooltip
     if (!isNull(itemStack) && !isNull(itemStack.definition) && event.getToolTip().length >= 2) {
-        if (itemStack.hasTicTrait("active_source6")) {
-            var hasSlowdown as bool = itemStack.hasTicTrait("slowdown");
+        if (TicTool.hasTrait(itemStack, "active_source6")) {
+            var hasSlowdown as bool = TicTool.hasTrait(itemStack, "slowdown");
             event.getToolTip()[0 .. 1].add(hasSlowdown ? "§c辐射： 192 mRad/t" : "§c辐射： 384 mRad/t");
-        } else if (itemStack.hasTicTrait("active_source6_armor")) {
-            var hasSlowdown as bool = itemStack.hasTicTrait("slowdown_armor");
+        } else if (TicTool.hasTrait(itemStack, "active_source6_armor")) {
+            var hasSlowdown as bool = TicTool.hasTrait(itemStack, "slowdown_armor");
             event.getToolTip()[0 .. 1].add(hasSlowdown ? "§6辐射： 96 mRad/t" : "§c辐射： 192 mRad/t");
-        } else if (itemStack.hasTicTrait("active_source5")) {
-            var hasSlowdown as bool = itemStack.hasTicTrait("slowdown");
+        } else if (TicTool.hasTrait(itemStack, "active_source5")) {
+            var hasSlowdown as bool = TicTool.hasTrait(itemStack, "slowdown");
             event.getToolTip()[0 .. 1].add(hasSlowdown ? "§6辐射： 9.6 mRad/t" : "§6辐射： 19.2 mRad/t");
-        } else if (itemStack.hasTicTrait("active_source5_armor")) {
-            var hasSlowdown as bool = itemStack.hasTicTrait("slowdown_armor");
+        } else if (TicTool.hasTrait(itemStack, "active_source5_armor")) {
+            var hasSlowdown as bool = TicTool.hasTrait(itemStack, "slowdown_armor");
             event.getToolTip()[0 .. 1].add(hasSlowdown ? "§6辐射： 4.8 mRad/t" : "§6辐射： 9.6 mRad/t");
-        } else if (itemStack.hasTicTrait("active_source4")) {
-            var hasSlowdown as bool = itemStack.hasTicTrait("slowdown");
+        } else if (TicTool.hasTrait(itemStack, "active_source4")) {
+            var hasSlowdown as bool = TicTool.hasTrait(itemStack, "slowdown");
             event.getToolTip()[0 .. 1].add(hasSlowdown ? "§e辐射： 480 uRad/t" : "§e辐射： 960 uRad/t");
-        } else if (itemStack.hasTicTrait("active_source4_armor")) {
-            var hasSlowdown as bool = itemStack.hasTicTrait("slowdown_armor");
+        } else if (TicTool.hasTrait(itemStack, "active_source4_armor")) {
+            var hasSlowdown as bool = TicTool.hasTrait(itemStack, "slowdown_armor");
             event.getToolTip()[0 .. 1].add(hasSlowdown ? "§e辐射： 240 uRad/t" : "§e辐射： 480 uRad/t");
-        } else if (itemStack.hasTicTrait("active_source3")) {
-            var hasSlowdown as bool = itemStack.hasTicTrait("slowdown");
+        } else if (TicTool.hasTrait(itemStack, "active_source3")) {
+            var hasSlowdown as bool = TicTool.hasTrait(itemStack, "slowdown");
             event.getToolTip()[0 .. 1].add(hasSlowdown ? "§e辐射： 24 uRad/t" : "§e辐射： 48 uRad/t");
-        } else if (itemStack.hasTicTrait("active_source3_armor")) {
-            var hasSlowdown as bool = itemStack.hasTicTrait("slowdown_armor");
+        } else if (TicTool.hasTrait(itemStack, "active_source3_armor")) {
+            var hasSlowdown as bool = TicTool.hasTrait(itemStack, "slowdown_armor");
             event.getToolTip()[0 .. 1].add(hasSlowdown ? "§e辐射： 12 uRad/t" : "§e辐射： 24 uRad/t");
-        } else if (itemStack.hasTicTrait("active_source2")) {
-            var hasSlowdown as bool = itemStack.hasTicTrait("slowdown");
+        } else if (TicTool.hasTrait(itemStack, "active_source2")) {
+            var hasSlowdown as bool = TicTool.hasTrait(itemStack, "slowdown");
             event.getToolTip()[0 .. 1].add(hasSlowdown ? "§e辐射： 1.2 uRad/t" : "§e辐射： 2.4 uRad/t");
-        } else if (itemStack.hasTicTrait("active_source2_armor")) {
-            var hasSlowdown as bool = itemStack.hasTicTrait("slowdown_armor");
+        } else if (TicTool.hasTrait(itemStack, "active_source2_armor")) {
+            var hasSlowdown as bool = TicTool.hasTrait(itemStack, "slowdown_armor");
             event.getToolTip()[0 .. 1].add(hasSlowdown ? "§f辐射： 600 nRad/t" : "§e辐射： 1.2 uRad/t");
-        } else if (itemStack.hasTicTrait("active_source")) {
-            var hasSlowdown as bool = itemStack.hasTicTrait("slowdown");
+        } else if (TicTool.hasTrait(itemStack, "active_source")) {
+            var hasSlowdown as bool = TicTool.hasTrait(itemStack, "slowdown");
             event.getToolTip()[0 .. 1].add(hasSlowdown ? "§f辐射： 60 nRad/t" : "§f辐射： 120 nRad/t");
-        } else if (itemStack.hasTicTrait("active_source_armor")) {
-            var hasSlowdown as bool = itemStack.hasTicTrait("slowdown_armor");
+        } else if (TicTool.hasTrait(itemStack, "active_source_armor")) {
+            var hasSlowdown as bool = TicTool.hasTrait(itemStack, "slowdown_armor");
             event.getToolTip()[0 .. 1].add(hasSlowdown ? "§f辐射： 30 nRad/t" : "§f辐射： 60 nRad/t");
         }
     }

@@ -36,9 +36,9 @@ events.onAttunementRecipeComplete(function(event as AttunementRecipeCompleteEven
     if (!world.remote) {
         if (event.input.definition.ores has <ore:toolTiC>) {
             var tool = event.input;
-            if (tool.hasTicTrait("astraling")) {
+            if (TicTool.hasTrait(tool, "astraling")) {
                 var pass as bool = true;
-                for trait in tool.getTicTrait() {
+                for trait in TicTool.getTraits(tool) {
                     if (trait has "tconevo.attuned_") pass = false;
                 }
                 if (!isNull(constellation) && pass) {
@@ -58,9 +58,9 @@ events.onAttunementRecipeComplete(function(event as AttunementRecipeCompleteEven
             }
         } else if (event.input.definition.ores has <ore:armorTiC>) {
             var armor = event.input;
-            if (armor.hasTicTrait("astraling_armor")) {
+            if (TicTool.hasTrait(armor, "astraling_armor")) {
                 var pass as bool = true;
-                for trait in armor.getTicTrait() {
+                for trait in TicTool.getTraits(armor) {
                     if (trait has "tconevo.attuned_") pass = false;
                 }
                 if (!isNull(constellation) && pass) {

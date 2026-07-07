@@ -29,6 +29,7 @@ import crafttweaker.item.IItemStack;
 
 import mods.ctutils.utils.Math;
 import mods.ctutils.world.IGameRules;
+import mods.ticlib.TicTool;
 
 function isOcean(biome as IBiome, world as IWorld) as bool {
     if(world.dimension != 0) {
@@ -56,7 +57,7 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
         if (!isNull(player) && event.block.definition.id == "minecraft:bedrock") {
             if (!isNull(player.mainHandHeldItem)) {
                 var tool as IItemStack = player.mainHandHeldItem;
-                if (tool.hasTicTrait("moretcon.bottomsend")) {
+                if (TicTool.hasTrait(tool, "moretcon.bottomsend")) {
                     event.drops = [];
                 }
             }
@@ -68,7 +69,7 @@ events.onBlockHarvestDrops(function(event as BlockHarvestDropsEvent) {
             var pass as bool = false;
             if (!isNull(player.mainHandHeldItem)) {
                 var tool as IItemStack = player.mainHandHeldItem;
-                if (tool.hasTicTrait("solarys_refined")) {
+                if (TicTool.hasTrait(tool, "solarys_refined")) {
                     pass = true;
                 }
             }
