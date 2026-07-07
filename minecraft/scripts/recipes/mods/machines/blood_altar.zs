@@ -184,6 +184,12 @@ MMEvents.onStructureUpdate("blood_altar", function(event as MachineStructureUpda
 });
 
 MMEvents.onMachinePreTick("blood_altar", function(event as MachineTickEvent) {
+    val world = event.controller.world;
+    val altar = world.getBlock(event.controller.pos.down(4));
+    var extractNum = CrTBigInteger.create(pow(1.2, event.controller.getBlocksInPattern(<bloodmagic:blood_rune:5>) as double) as int as string).multiply(CrTBigInteger.create("20")) as BigInteger;
+    var acceleration as int = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int;
+    var checkTime as int = (20 - acceleration) > 1 ? (20 - acceleration) : 1;
+    
     //定义祭坛模式
     if (!isNull(event.controller.getSmartInterfaceData("模式")) && world.getWorldTime() % 20 == 0) {
         if (event.controller.getSmartInterfaceData("模式").value > 2.0f || event.controller.getSmartInterfaceData("模式").value < 0.0f) {
@@ -196,11 +202,6 @@ MMEvents.onMachinePreTick("blood_altar", function(event as MachineTickEvent) {
     if (isNull(event.controller.customData.LP)) {
         event.controller.customData = event.controller.customData.update({LP : "0"});
     }
-    var world = event.controller.world;
-    var altar = world.getBlock(event.controller.pos.down(4));
-    var extractNum = CrTBigInteger.create(pow(1.2, event.controller.getBlocksInPattern(<bloodmagic:blood_rune:5>) as double) as int as string).multiply(CrTBigInteger.create("20")) as BigInteger;
-    var acceleration as int = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int;
-    var checkTime as int = (20 - acceleration) > 1 ? (20 - acceleration) : 1;
     //外界输入模式
     if (!world.isRemote() && world.getWorldTime() % checkTime == 0 && event.controller.getAltarMode() == 0) {
         if (!isNull(altar) && !isNull(altar.data) && !isNull(altar.data.bloodAltar)) {
