@@ -1,0 +1,41 @@
+{
+	title: "§b我真的没笑",
+	x: -7.0d,
+	y: 3.5d,
+	description: "通过地质分离从锆矿中获取铪",
+	text: [
+		""
+	],
+	dependencies: [
+		"72bb20bd"
+	],
+	tasks: [{
+		uid: "ee433291",
+		type: "item",
+		items: [{
+			item: "additions:hafnium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "46ccc289",
+		type: "item",
+		item: "additions:hafnium_ingot",
+		count: 4,
+		random_bonus: 4
+	},
+	{
+		uid: "5338d5c5",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "9ef5c286",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "c65eb984",
+		type: "xp",
+		xp: 7500
+	}]
+}
