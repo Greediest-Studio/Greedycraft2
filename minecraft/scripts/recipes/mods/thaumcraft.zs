@@ -120,6 +120,8 @@ ArcaneWorkbench.registerShapedRecipe("magic_eye", "", 50, [
     [null, <thaumcraft:salis_mundus>, null]
 ]);
 
+Crucible.removeRecipe(<planarartifice:bismuth_ingot>);
+
 Crucible.registerRecipe("salis_mundus", "", <thaumcraft:salis_mundus> * 2, <thaumcraft:salis_mundus>, [<aspect:praecantatio> * 3, <aspect:auram> * 3]);
 Crucible.registerRecipe("smithstoneore", "", <journey:smithstoneore>, <journey:enderilliumblock>, [<aspect:vitreus> * 20, <aspect:alienis> * 25]);
 

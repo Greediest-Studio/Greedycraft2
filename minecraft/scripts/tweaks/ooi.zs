@@ -101,6 +101,7 @@ ConversionItem.create(<netherex:nether_brick_wall>).addMatchItem(<futuremc:nethe
 ConversionItem.create(<netherex:red_nether_brick_wall>).addMatchItem(<futuremc:red_nether_brick_wall>).register();
 ConversionItem.create(<quark:prismarine_rough_wall>).addMatchItem(<futuremc:prismarine_wall>).register();
 ConversionItem.create(<appliedenergistics2:material:46>).addMatchItem(<betterendforge:ender_dust>).register();
+ConversionItem.create(<additions:bismuth_ingot>).addMatchItem(<ore:ingotBismuth>).register();
 
 ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:burningsulfurflow>).register();
 ConversionFluid.create(<liquid:liquidantimatter>).addMatchFluid(<liquid:blockfluidantimatter>).register();
