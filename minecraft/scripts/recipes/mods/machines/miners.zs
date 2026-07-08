@@ -231,12 +231,11 @@ RecipeBuilder.newBuilder("simple_miner_main","simple_miner",200)
     .setIgnoreOutputCheck(true)//别删
     .addDynamicOutput(function(ctrl as IMachineController) {
         val dim = ctrl.world.dimension;
-        val bx = ctrl.customData.bx;
         var output = [] as IItemStack[];
 
-        if (dim == 0 || dim == -1 || dim == 1) {
+        if (dim == 0 || dim == -1) {
             for u in upgradeList {
-                val list = oreOutput.getOreOutputList(dim,u,bx,5.0,false) as IItemStack[];
+                val list = oreOutput.getOreOutputList(dim,u,1,5.0,false) as IItemStack[];
                 if (list.length != 0 && (u == BASIC || ctrl.hasMachineUpgrade(u))) {
                    for i in list {
                         output += i;
