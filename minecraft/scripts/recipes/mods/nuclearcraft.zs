@@ -669,7 +669,7 @@ ChemicalReactor.addRecipe(<liquid:durene> * 250, <liquid:oxygen> * 1500, <liquid
 ChemicalReactor.addRecipe(<liquid:pyromellitic_acid> * 750, <liquid:phosphorus_pentaoxide> * 333, <liquid:pyromellitic_dianhydride> * 750, <liquid:phosphoric_acid> * 1000);
 ChemicalReactor.addRecipe(<liquid:benzene> * 250, <liquid:liquidchlorine> * 250, <liquid:chlorobenzene> * 250, <liquid:liquidhydrogenchloride> * 250);
 ChemicalReactor.addRecipe(<liquid:chlorobenzene> * 250, <liquid:nitric_acid> * 250, <liquid:p_chloronitrobenzene> * 250, <liquid:water> * 250);
-ChemicalReactor.addRecipe(<liquid:phenol> * 1000, <liquid:hydrogen_peroxide> * 1000, <liquid:catechol> * 1000, <liquid:water> * 1000);
+ChemicalReactor.addRecipe(<liquid:phenol> * 1000, <liquid:ammonium_persulfate_solution> * 1000, <liquid:catechol> * 1000, <liquid:ammonium_bisulfate_solution> * 666);
 ChemicalReactor.addRecipe(<liquid:catechol> * 1000, <liquid:nitric_acid> * 1000, <liquid:4_nitrocatechol> * 1000, <liquid:water> * 1000);
 ChemicalReactor.addRecipe(<liquid:phenol> * 250, <liquid:sulfuric_acid> * 500, <liquid:2_hydroxy_1_3_benzenedisulfonic_acid> * 250, <liquid:water> * 500);
 ChemicalReactor.addRecipe(<liquid:2_hydroxy_1_3_benzenedisulfonic_acid> * 250, <liquid:nitric_acid> * 250, <liquid:2_hydroxy_5_nitro_1_3_benzenedisulfonic_acid> * 250, <liquid:water> * 250);
