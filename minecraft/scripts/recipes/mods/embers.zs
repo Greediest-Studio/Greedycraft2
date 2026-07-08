@@ -3,6 +3,7 @@
 import mods.embers.Mixer;
 import mods.embers.Alchemy;
 import mods.embers.Stamper;
+import mods.embers.Melter;
 
 Mixer.remove(<liquid:dawnstone> * 8);
 
@@ -32,6 +33,8 @@ Stamper.remove(<jaopca:plate.radon>);
 Stamper.add(<additions:aspectus_mercury>, <liquid:mercury> * 144, <embers:stamp_plate>, <embers:shard_ember>);
 Stamper.add(<additions:aspectus_salt>, <liquid:brine> * 150, <embers:stamp_plate>, <embers:shard_ember>);
 Stamper.add(<additions:aspect_sulfur>, <liquid:sulfur> * 144, <embers:stamp_plate>, <embers:shard_ember>);
+
+Melter.add(<liquid:zirconium> * 288, <ore:oreZirconium>, <liquid:hafnium> * 16);
 
 Alchemy.addAspect("antimony", <soot:signet_antimony>);
 Alchemy.addAspect("mercury", <additions:aspectus_mercury>);

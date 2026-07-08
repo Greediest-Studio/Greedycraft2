@@ -101,6 +101,7 @@ MachineUpgradeBuilder.newBuilder("generation_upg", "产能升级", 1, 1)
 
 MachineUpgradeBuilder.newBuilder(STAINLESS, "不锈钢采掘升级", 1, 1)
     .addDescriptions("§b使模块化矿机拥有采集不锈钢阶段矿物的能力\n§b矿机能耗变为原来的2倍")
+    .addCompatibleMachines("simple_miner")
     .addCompatibleMachines("basic_miner")
     .addCompatibleMachines("advanced_miner")
     .addCompatibleMachines("dimensional_miner")
@@ -109,6 +110,7 @@ MachineUpgradeBuilder.newBuilder(STAINLESS, "不锈钢采掘升级", 1, 1)
 
 MachineUpgradeBuilder.newBuilder(DURASTEEL, "耐钢采掘升级", 1, 1)
     .addDescriptions("§b使模块化矿机拥有采集耐钢阶段矿物的能力\n§b矿机能耗变为原来的4倍")
+    .addCompatibleMachines("simple_miner")
     .addCompatibleMachines("basic_miner")
     .addCompatibleMachines("advanced_miner")
     .addCompatibleMachines("dimensional_miner")
@@ -355,9 +357,11 @@ oreOutput.create("末地",1,AEONSTEEL,<gct_mobs:resonated_scrap>,1,0.001);
 oreOutput.create("末地",1,CHROMASTEEL,<endreborn:block_wolframium_ore>,1,0.009);
 oreOutput.create("末地",1,CHROMASTEEL,<additions:plasmarite_ore>,1,0.005);
 oreOutput.create("末地",1,CHROMASTEEL,<biomesoplenty:gem>,1,0.01);
+oreOutput.create("末地",1,CHROMASTEEL,<betterendforge:emerald_ice>,1,0.01);
 //末地 寰宇级
 oreOutput.create("末地",1,COSMILITE,<additions:titanium_ore>,1,0.0015);
 oreOutput.create("末地",1,COSMILITE,<additions:end_harcadium_ore>,1,0.005);
+oreOutput.create("末地",1,COSMILITE,<betterendforge:dense_emerald_ice>,1,0.005);
 //末地 终焉级
 oreOutput.create("末地",1,FINALLIUM,<additions:thallium_ore>,1,0.005);
 oreOutput.create("末地",1,FINALLIUM,<additions:manarium_ore>,1,0.01);
@@ -367,6 +371,7 @@ oreOutput.create("末地",1,FINALLIUM,<additions:fenzium_ore>,1,0.012);
 oreOutput.create("末地",1,FINALLIUM,<additions:sissidium_ore>,1,0.0045);
 oreOutput.create("末地",1,FINALLIUM,<additions:technetium_ore>,1,0.003);
 oreOutput.create("末地",1,FINALLIUM,<moretcon:oregravitonium>,1,0.02);
+oreOutput.create("末地",1,FINALLIUM,<betterendforge:ancient_emerald_ice>,1,0.0025);
 //末地 波动级
 oreOutput.create("末地",1,WAVITE,<additions:breedum_ore>,1,0.0015);
 
@@ -568,6 +573,9 @@ oreOutput.create("亚尔夫海姆",42,COSMILITE,<gct_mobs:terrasteel_ore>,1,0.00
 oreOutput.create("亚尔夫海姆",42,FINALLIUM,<gct_mobs:orichalcos_ore>,1,0.005);
 oreOutput.create("亚尔夫海姆",42,FINALLIUM,<gct_mobs:botanical_stone>,1,0.004);
 
+//尼福尔海姆 波动级
+oreOutput.create("尼福尔海姆",43,WAVITE,<gctcore:apathy_ore>,1,0.02);
+
 //永恒星域 寰宇级
 oreOutput.create("永恒星域",80,COSMILITE,<astralsorcery:itemcraftingcomponent>,1,0.05);
 oreOutput.create("永恒星域",80,COSMILITE,<additions:star_metal_ore>,1,0.04);
@@ -581,6 +589,7 @@ oreOutput.create("永恒星域",80,WAVITE,<additions:arimite_ore>,1,0.005);
 //亚特兰蒂斯 寰宇级
 oreOutput.create("亚特兰蒂斯",324987,COSMILITE,<additions:tanatonium_ore>,1,0.015);
 oreOutput.create("亚特兰蒂斯",324987,COSMILITE,<additions:imitatium_ore>,1,0.015);
+oreOutput.create("亚特兰蒂斯",324987,COSMILITE,<additions:immersed_silver_ore>,1,0.002);
 
 //血腥裂隙 寰宇级
 oreOutput.create("血腥裂隙",41,COSMILITE,<additions:blood_infused_iron_ore>,1,0.035);
@@ -604,3 +613,9 @@ oreOutput.create("腐朽之地",66,FINALLIUM,<erebus:materials:74>,1,0.015);
 
 //阿图姆 终焉级
 oreOutput.create("阿图姆",17,FINALLIUM,<additions:nebu_ore>,1,0.004);
+
+//辐射废土 终焉级
+oreOutput.create("辐射废土",4598,FINALLIUM,<mekanism:oreblock:5>,1,0.04);
+oreOutput.create("辐射废土",4598,FINALLIUM,<additions:uranium_235_ore>,1,0.03);
+oreOutput.create("辐射废土",4598,FINALLIUM,<additions:plutonium_ore>,1,0.01);
+oreOutput.create("辐射废土",4598,FINALLIUM,<additions:zirconium_ore>,1,0.02);

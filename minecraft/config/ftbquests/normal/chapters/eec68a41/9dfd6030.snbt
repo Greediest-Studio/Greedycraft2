@@ -40,5 +40,15 @@
 		uid: "990db72b",
 		type: "random",
 		table: 0
+	},
+	{
+		uid: "30faab02",
+		type: "item",
+		item: {
+			id: "botania:specialflower",
+			tag: {
+				type: "endoflame"
+			}
+		}
 	}]
 }

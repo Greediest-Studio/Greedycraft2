@@ -101,6 +101,7 @@ AlloySmelter.addRecipe(<nuclearcraft:alloy:12> * 2, [<ore:ingotZirconium> * 2, <
 AlloySmelter.addRecipe(<moretcon:ingotirradium> * 2, [<ore:ingotIridium>, <ore:ingotRadium>], 4000, 10.0f);
 AlloySmelter.addRecipe(<additions:blueprint_laser_gun>, [<ore:ingotPhotonium>, <additions:blueprint>, <ore:ingotCrystalMatrix>], 800000, 400.0f);
 AlloySmelter.addRecipe(<additions:blueprint_ring>, [<ore:ingotValkyrie>, <additions:blueprint>, <ore:ingotEverite>], 1600000, 600.0f);
+AlloySmelter.addRecipe(<additions:blueprint_shield>, [<netherized:crying_obsidian> * 4, <additions:blueprint>, <draconicevolution:infused_obsidian>], 2000000, 600.0f);
 AlloySmelter.addRecipe(<additions:ascensionite_ingot> * 2, [<ore:ingotLimonite> * 4, <ore:ingotRosite> * 2, <ore:ingotEmberstone> * 1], 4000, 10.0f);
 AlloySmelter.addRecipe(<additions:heavyalloy_ingot> * 2, [<ore:ingotLead> * 9, <ore:ingotThallium> * 2, <ore:ingotBismuth> * 4], 3000, 10.0f);
 AlloySmelter.addRecipe(<additions:zincargentum_ingot> * 3, [<ore:ingotZinc> * 2, <ore:ingotSilver>], 2000, 10.0f);

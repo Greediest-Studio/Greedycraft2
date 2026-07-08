@@ -1336,7 +1336,7 @@ active_sourceTrait.onUpdate = function(thisTrait, tool, world, entity, itemSlot,
     if (entity instanceof IPlayer) {
         val player as IPlayer = entity;
         var slowdown as float = 1.0f;
-        if (tool.hasTicTrait("slowdown")) {
+        if (TicTool.hasTrait(tool, "slowdown")) {
             slowdown = 0.5f;
         }
         player.addRadiation(0.00000012d * 1 * slowdown as double, true);
@@ -1351,7 +1351,7 @@ active_source2Trait.onUpdate = function(thisTrait, tool, world, entity, itemSlot
     if (entity instanceof IPlayer) {
         val player as IPlayer = entity;
         var slowdown as float = 1.0f;
-        if (tool.hasTicTrait("slowdown")) {
+        if (TicTool.hasTrait(tool, "slowdown")) {
             slowdown = 0.5f;
         }
         player.addRadiation(0.00000012d * 20 * slowdown as double, true);
@@ -1366,7 +1366,7 @@ active_source3Trait.onUpdate = function(thisTrait, tool, world, entity, itemSlot
     if (entity instanceof IPlayer) {
         val player as IPlayer = entity;
         var slowdown as float = 1.0f;
-        if (tool.hasTicTrait("slowdown")) {
+        if (TicTool.hasTrait(tool, "slowdown")) {
             slowdown = 0.5f;
         }
         player.addRadiation(0.00000012d * 400 * slowdown as double, true);
@@ -1381,7 +1381,7 @@ active_source4Trait.onUpdate = function(thisTrait, tool, world, entity, itemSlot
     if (entity instanceof IPlayer) {
         val player as IPlayer = entity;
         var slowdown as float = 1.0f;
-        if (tool.hasTicTrait("slowdown")) {
+        if (TicTool.hasTrait(tool, "slowdown")) {
             slowdown = 0.5f;
         }
         player.addRadiation(0.00000012d * 8000 * slowdown as double, true);
@@ -1396,7 +1396,7 @@ active_source5Trait.onUpdate = function(thisTrait, tool, world, entity, itemSlot
     if (entity instanceof IPlayer) {
         val player as IPlayer = entity;
         var slowdown as float = 1.0f;
-        if (tool.hasTicTrait("slowdown")) {
+        if (TicTool.hasTrait(tool, "slowdown")) {
             slowdown = 0.5f;
         }
         player.addRadiation(0.00000012d * 160000 * slowdown as double, true);
@@ -1411,7 +1411,7 @@ active_source6Trait.onUpdate = function(thisTrait, tool, world, entity, itemSlot
     if (entity instanceof IPlayer) {
         val player as IPlayer = entity;
         var slowdown as float = 1.0f;
-        if (tool.hasTicTrait("slowdown")) {
+        if (TicTool.hasTrait(tool, "slowdown")) {
             slowdown = 0.5f;
         }
         player.addRadiation(0.00000012d * 3200000 * slowdown as double, true);
@@ -2104,7 +2104,7 @@ thadTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.thadT
 thadTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.thadTrait.desc");
 thadTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer) {
-        var multiplier as int = tool.getTicTrait().length - 2 as int;
+        var multiplier as int = TicTool.getTraits(tool).length - 2 as int;
             if (multiplier <= 28) {
                 return newDamage * (pow(1.05, multiplier) - 1) as float;
             } else {
@@ -3171,11 +3171,11 @@ parasitismTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelec
             tool.mutable().updateTag({parasitism : 0 as int});
         }
         if (Math.random() < 0.001) {
-            var traits as string[] = tool.getTicTrait();
+            var traits as string[] = TicTool.getTraits(tool);
             var traitcounts as int = traits.length as int;
             var count as int = Math.floor((Math.random() as float * traitcounts as float)) as int;
             var choice as string = traits[count];
-            if ((tool.getTraitColor("parasitism") != tool.getTraitColor(choice)) && (choice != "tool_leveling") && (choice != "parasitism") && (choice != "leveling_durability") && !(choice has "draconic_") && !(choice has "evolved")) {
+            if ((TicTool.getTraitColor(tool, "parasitism") != TicTool.getTraitColor(tool, choice)) && (choice != "tool_leveling") && (choice != "parasitism") && (choice != "leveling_durability") && !(choice has "draconic_") && !(choice has "evolved")) {
                 var pass as bool = true;
                 if (!isNull(tool.tag.parasitismTraits)) {
                     for i in 0 to tool.tag.parasitismTraits.length {
@@ -3183,7 +3183,7 @@ parasitismTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelec
                     }
                 }
                 if (pass) {
-                    tool.removeTicTrait(choice);
+                    TicTool.removeRegisteredTrait(tool, choice);
                     var time as int = tool.tag.parasitism as int + 1;
                     var data as IData = [{name : choice as string}];
                     tool.mutable().updateTag({parasitism : time, parasitismTraits : tool.tag.parasitismTraits.deepUpdate(data, MERGE)});
@@ -3199,9 +3199,9 @@ parasitismTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelec
         }
         if (!isNull(tool.tag.parasitismTraits)) {
             for i in 0 to tool.tag.parasitismTraits.length {
-                for traitid in tool.getTicTrait() {
+                for traitid in TicTool.getTraits(tool) {
                     if (tool.tag.parasitismTraits[i].name as string == traitid) {
-                        tool.removeTicTrait(traitid);
+                        TicTool.removeRegisteredTrait(tool, traitid);
                     }
                 }
             }
@@ -3555,16 +3555,16 @@ leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, 
         if (!isNull(tool.tag.EvolvedEnergy)) {extradamage = tool.tag.EvolvedEnergy.asInt();}
         extradamage = (extradamage / 640);
 
-        var difficulty as float = player.difficulty as float;
+        var difficulty as float = player.shDiff as float;
         var needDamage as int = 1 * Math.max(Math.ceil(Math.sqrt(unmodifiedAmount)), Math.ceil(pow((difficulty / 256), 1.5)));
-        if (tool.hasTicTrait("bedrock")) {
+        if (TicTool.hasTrait(tool, "bedrock")) {
             if (Math.random() < 0.85f) {
                 return 0;
             }
             return needDamage;
         }
 
-        if (tool.hasTicTrait("imitation")) {
+        if (TicTool.hasTrait(tool, "imitation")) {
             if (!isNull(tool.tag.imitationCount)) {
                 var count as int = tool.tag.imitationCount as int;
                 if (count > 0) {
@@ -3574,7 +3574,7 @@ leveling_durabilityTrait.onToolDamage = function(trait, tool, unmodifiedAmount, 
             }
         }
 
-        if (tool.hasTicTrait("ethernal")) {
+        if (TicTool.hasTrait(tool, "ethernal")) {
             return 0;
         }
 
@@ -3749,7 +3749,7 @@ events.onEntityLivingHeal(function(event as EntityLivingHealEvent) {
     if (event.entityLivingBase instanceof IPlayer) {
         var player as IPlayer = event.entityLivingBase;
         if (!isNull(player.currentItem)) {
-            if (player.currentItem.hasTicTrait("pure") || player.offHandHeldItem.hasTicTrait("pure")) {
+            if (TicTool.hasTrait(player.currentItem, "pure") || TicTool.hasTrait(player.offHandHeldItem, "pure")) {
                 event.cancel();
             }
         }
@@ -3798,7 +3798,7 @@ overarmyTrait.calcDamage = function(trait, tool, attacker, target, originalDamag
     if (attacker instanceof IPlayer && tool.hasOverslime()) {
         var player as IPlayer = attacker;
         var count as int = 0;
-        for counter in player.getPlayerTicArmorTrait() {
+        for counter in TicTool.getArmorTraits(player) {
             if (counter == "moretcon.overslime") count += 1;
         }
         return newDamage * (1.0f + 0.3f * count as float) as float;
@@ -3817,7 +3817,7 @@ overbreakTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelect
         if (!isNull(tool.tag.Stats.Broken) && isNull(tool.tag.overbreak)) {
             if (tool.tag.Stats.Broken as byte == 0 as byte) {
                 tool.mutable().updateTag({overbreak : 1 as byte});
-                TicTool.addIntStat(tool, "FreeModifiers", 2, "overbreak");
+                TicTool.addStat(tool, "FreeModifiers", 2, "overbreak");
             }
         }
     }
@@ -3858,7 +3858,7 @@ enhancedTrait.color = Color.fromHex("ffffff").getIntColor();
 enhancedTrait.localizedName = game.localize("greedycraft.tconstruct.tool_trait.enhancedTrait.name");
 enhancedTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_trait.enhancedTrait.desc");
 enhancedTrait.onUpdate = function(trait, tool, world, owner, itemSlot, isSelected) {
-    TicTool.addIntStat(tool, "FreeModifiers", 2, "enhanced");
+    TicTool.addStat(tool, "FreeModifiers", 2, "enhanced");
 };
 enhancedTrait.register();
 
@@ -4491,7 +4491,7 @@ subspaceTrait.onHit = function(trait, tool, attacker, target, damage, isCritical
             if (IManaItemHandler.requestManaExactForTool(manaItem, player, 600, true)) {
                 var damage as float = ToolHelper.getActualAttack(tool.native);
                 SubspaceHelper.summonSubspaceFromPlayerWithEffect(player.world.native, player.native, damage);
-                if (Math.random() < 0.2f && tool.hasTicTrait("power_of_herrscher") && !world.remote) {
+                if (Math.random() < 0.2f && TicTool.hasTrait(tool, "power_of_herrscher") && !world.remote) {
                     var centerPos as IBlockPos = target.position;
                     var targetX as float = centerPos.x as float;
                     var targetY as float = centerPos.y as float;
@@ -5272,7 +5272,18 @@ calculusTrait.calcDamage = function(trait, tool, attacker, target, originalDamag
     var sumDmg as IData = {"SumDmg": 0.0 as float} as IData;
     var dmgTimes as IData = {"DmgTimes": 0} as IData;
     if (!isNull(tool.tag.memberGet("DmgTimes")) && !isNull(tool.tag.memberGet("CurrentDps")) && tool.tag.memberGet("DmgTimes") == 10) {
-        target.health -= newDamage + tool.tag.memberGet("CurrentDps").asFloat();
+        var trueDamage as float = (newDamage + tool.tag.memberGet("CurrentDps").asFloat()) as float;
+        if (target instanceof IEntityLivingBase && attacker instanceof IPlayer && !attacker.world.isRemote()) {
+            var livingNative as native.net.minecraft.entity.EntityLivingBase = (target as IEntityLivingBase).native;
+            var currentHealth as float = livingNative.func_110143_aJ() as float;
+            var maxHealth as float = livingNative.func_110138_aP() as float;
+            var nextHealth as float = Math.max(0.0f, Math.min(maxHealth, currentHealth - trueDamage));
+            var manager as native.net.minecraft.network.datasync.EntityDataManager = livingNative.func_184212_Q();
+            manager.func_187227_b(native.net.minecraft.entity.EntityLivingBase.field_184632_c, nextHealth as float);
+            if (nextHealth <= 0.0f) {
+                livingNative.func_70645_a(IDamageSource.createEntityDamage("gct.calculus.absolute", attacker).native);
+            }
+        }
         tool.mutable().updateTag(dmgTick);
         tool.mutable().updateTag(sumDmg);
         tool.mutable().updateTag(dmgTimes);
@@ -5690,9 +5701,9 @@ brightestTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool
 brightestTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     if (attacker instanceof IPlayer) {
         var mtps as int = 0;
-        for trait in tool.getTicTrait() {
+        for trait in TicTool.getTraits(tool) {
             if (trait != "toolleveling" && trait != "leveling_durability") {
-                var color as int = tool.getTraitColor(trait);
+                var color as int = TicTool.getTraitColor(tool, trait);
                 var r as int = (color / 65536) % 256;
                 var g as int = (color / 256) % 256;
                 var b as int = color % 256;

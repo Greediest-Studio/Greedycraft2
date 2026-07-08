@@ -93,7 +93,7 @@ $expand int$nextBase(a as int) as int {
     return (this + a) % 6;
 }
 $expand IItemStack$getOverslime() as int {
-    if (this.isTicTool() || this.isTicArmor()) {
+    if (TicTool.isTool(this) || TicTool.isArmor(this)) {
         if (!isNull(this.tag."moretcon.overslime".remaining)) {
             return this.tag."moretcon.overslime".remaining as int;
         }
@@ -102,7 +102,7 @@ $expand IItemStack$getOverslime() as int {
     }
 }
 $expand IMutableItemStack$setOverslime(num as int) as void {
-    if (this.hasTicTrait("moretcon.overslime")) {
+    if (TicTool.hasTrait(this, "moretcon.overslime")) {
         this.updateTag({"moretcon.overslime" : {remaining : num as int}});
     }
 }
@@ -117,7 +117,7 @@ $expand IMutableItemStack$removeOverslime(num as int) as void {
     }
 }
 $expand IItemStack$hasOverslime() as bool {
-    if (this.hasTicTrait("moretcon.overslime") && this.getOverslime() != 0) {
+    if (TicTool.hasTrait(this, "moretcon.overslime") && this.getOverslime() != 0) {
         return true;
     } else {
         return false;
@@ -1096,7 +1096,7 @@ active_sourceTrait.localizedDescription = game.localize("greedycraft.tconstruct.
 active_sourceTrait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
         var slowdown as float = 1.0f;
-        if (armor.hasTicTrait("slowdown_armor")) {
+        if (TicTool.hasTrait(armor, "slowdown_armor")) {
             slowdown = 0.5f;
         }
         player.addRadiation(0.00000006d * 1 * slowdown as double, true);
@@ -1110,7 +1110,7 @@ active_source2Trait.localizedDescription = game.localize("greedycraft.tconstruct
 active_source2Trait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
         var slowdown as float = 1.0f;
-        if (armor.hasTicTrait("slowdown_armor")) {
+        if (TicTool.hasTrait(armor, "slowdown_armor")) {
             slowdown = 0.5f;
         }
         player.addRadiation(0.00000006d * 20 * slowdown as double, true);
@@ -1124,7 +1124,7 @@ active_source3Trait.localizedDescription = game.localize("greedycraft.tconstruct
 active_source3Trait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
         var slowdown as float = 1.0f;
-        if (armor.hasTicTrait("slowdown_armor")) {
+        if (TicTool.hasTrait(armor, "slowdown_armor")) {
             slowdown = 0.5f;
         }
         player.addRadiation(0.00000006d * 400 * slowdown as double, true);
@@ -1138,7 +1138,7 @@ active_source4Trait.localizedDescription = game.localize("greedycraft.tconstruct
 active_source4Trait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
         var slowdown as float = 1.0f;
-        if (armor.hasTicTrait("slowdown_armor")) {
+        if (TicTool.hasTrait(armor, "slowdown_armor")) {
             slowdown = 0.5f;
         }
         player.addRadiation(0.00000006d * 8000 * slowdown as double, true);
@@ -1152,7 +1152,7 @@ active_source5Trait.localizedDescription = game.localize("greedycraft.tconstruct
 active_source5Trait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
         var slowdown as float = 1.0f;
-        if (armor.hasTicTrait("slowdown_armor")) {
+        if (TicTool.hasTrait(armor, "slowdown_armor")) {
             slowdown = 0.5f;
         }
         player.addRadiation(0.00000006d * 160000 * slowdown as double, true);
@@ -1166,7 +1166,7 @@ active_source6Trait.localizedDescription = game.localize("greedycraft.tconstruct
 active_source6Trait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
         var slowdown as float = 1.0f;
-        if (armor.hasTicTrait("slowdown_armor")) {
+        if (TicTool.hasTrait(armor, "slowdown_armor")) {
             slowdown = 0.5f;
         }
         player.addRadiation(0.00000006d * 3200000 * slowdown as double, true);
@@ -1553,7 +1553,7 @@ thadTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.thad
 thadTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.thadTrait.desc");
 thadTrait.onDamaged = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player)) {
-        var multiplier as int = armor.getTicTrait().length - 2 as int;
+        var multiplier as int = TicTool.getTraits(armor).length - 2 as int;
         if (multiplier > 28) {
             multiplier = 28;
         }
@@ -2211,31 +2211,31 @@ element_forceTrait.onHurt = function(trait, armor, player, source, damage, newDa
         if (Math.random() as double < (1.0d / 3.0d) as double) {
             player.world.catenation()
                 .run(function(world, context) {
-                    armor.addTicTrait("moretcon.modredgem", 0xff0000, 1);
+                    TicTool.applyRegisteredTrait(armor, "moretcon.modredgem", 0xff0000, 1);
                 })
                 .sleep(20)
                 .onStop(function(world, context) {
-                    armor.removeTicTrait("moretcon.modredgem");
+                    TicTool.removeRegisteredTrait(armor, "moretcon.modredgem");
                 })
                 .start();
         } else if (Math.random() as double < (1.0d / 2.0d) as double) {
             player.world.catenation()
                 .run(function(world, context) {
-                    armor.addTicTrait("moretcon.modbluegem", 0x0000ff, 1);
+                    TicTool.applyRegisteredTrait(armor, "moretcon.modbluegem", 0xff0000, 1);
                 })
                 .sleep(20)
                 .onStop(function(world, context) {
-                    armor.removeTicTrait("moretcon.modbluegem");
+                    TicTool.removeRegisteredTrait(armor, "moretcon.modbluegem");
                 })
                 .start();
         } else {
             player.world.catenation()
                 .run(function(world, context) {
-                    armor.addTicTrait("moretcon.modgreengem", 0x00ff00, 1);
+                    TicTool.applyRegisteredTrait(armor, "moretcon.modgreengem", 0xff0000, 1);
                 })
                 .sleep(20)
                 .onStop(function(world, context) {
-                    armor.removeTicTrait("moretcon.modgreengem");
+                    TicTool.removeRegisteredTrait(armor, "moretcon.modgreengem");
                 })
                 .start();
         }
@@ -2244,9 +2244,9 @@ element_forceTrait.onHurt = function(trait, armor, player, source, damage, newDa
 };
 element_forceTrait.onArmorRemove = function(trait, armor, player, index) {
     if (!isNull(player)) {
-        armor.removeTicTrait("moretcon.modredgem");
-        armor.removeTicTrait("moretcon.modbluegem");
-        armor.removeTicTrait("moretcon.modgreengem");
+        TicTool.removeRegisteredTrait(armor, "moretcon.modredgem");
+        TicTool.removeRegisteredTrait(armor, "moretcon.modbluegem");
+        TicTool.removeRegisteredTrait(armor, "moretcon.modgreengem");
     }
 };
 element_forceTrait.register();
@@ -2364,11 +2364,11 @@ parasitismTrait.onArmorTick = function(trait, armor, world, player) {
             armor.mutable().updateTag({parasitism : 0 as int});
         }
         if (Math.random() < 0.001) {
-            var traits as string[] = armor.getTicTrait();
+            var traits as string[] = TicTool.getTraits(armor);
             var traitcounts as int = traits.length as int;
             var count as int = Math.floor((Math.random() as float * traitcounts as float)) as int;
             var choice as string = traits[count];
-            if ((armor.getTraitColor("parasitism_armor") != armor.getTraitColor(choice)) && (choice != "leveling_armor") && (choice != "parasitism_armor") && (choice != "leveling_durability_armor") && !(choice has "draconic_") && !(choice has "evolved")) {
+            if ((TicTool.getTraitColor(armor, "parasitism_armor") != TicTool.getTraitColor(armor, choice)) && (choice != "leveling_armor") && (choice != "parasitism_armor") && (choice != "leveling_durability_armor") && !(choice has "draconic_") && !(choice has "evolved")) {
                 var pass as bool = true;
                 if (!isNull(armor.tag.parasitismTraits)) {
                     for i in 0 to armor.tag.parasitismTraits.length {
@@ -2376,7 +2376,7 @@ parasitismTrait.onArmorTick = function(trait, armor, world, player) {
                     }
                 }
                 if (pass) {
-                    armor.removeTicTrait(choice);
+                    TicTool.removeRegisteredTrait(armor, choice);
                     var time as int = armor.tag.parasitism as int + 1;
                     var data as IData = [{name : choice as string}];
                     armor.mutable().updateTag({parasitism : time, parasitismTraits : armor.tag.parasitismTraits.deepUpdate(data, MERGE)});
@@ -2392,9 +2392,9 @@ parasitismTrait.onArmorTick = function(trait, armor, world, player) {
         }
         if (!isNull(armor.tag.parasitismTraits)) {
             for i in 0 to armor.tag.parasitismTraits.length {
-                for traitid in armor.getTicTrait() {
+                for traitid in TicTool.getTraits(armor) {
                     if (armor.tag.parasitismTraits[i].name as string == traitid) {
-                        armor.removeTicTrait(traitid);
+                        TicTool.removeRegisteredTrait(armor, traitid);
                     }
                 }
             }
@@ -2744,18 +2744,18 @@ leveling_durabilityTrait.onArmorDamaged = function(trait, armor, damageSource, a
 
         extradamage = (extradamage / 640);
 
-        var difficulty as float = player.difficulty as float;
+        var difficulty as float = player.shDiff as float;
         var needDamage = 1 + Math.ceil(pow((difficulty / 256), 1.5));
         needDamage += amount;
 
-        if (armor.hasTicTrait("bedrock_armor")) {
+        if (TicTool.hasTrait(armor, "bedrock_armor")) {
             if (Math.random() < 0.85f) {
                 return 0;
             }
             return needDamage;
         }
 
-        if (armor.hasTicTrait("imitation_armor")) {
+        if (TicTool.hasTrait(armor, "imitation_armor")) {
             if (!isNull(armor.tag.imitationCount)) {
                 var count as int = armor.tag.imitationCount as int;
                 if (count > 0) {
@@ -2765,7 +2765,7 @@ leveling_durabilityTrait.onArmorDamaged = function(trait, armor, damageSource, a
             }
         }
 
-        if (armor.hasTicTrait("ethernal_armor")) {
+        if (TicTool.hasTrait(armor, "ethernal_armor")) {
             return 0;
         }
 
@@ -3184,7 +3184,7 @@ overbreakTrait.onArmorTick = function(trait, armor, world, player) {
         if (!isNull(armor.tag.Stats.Broken) && isNull(armor.tag.overbreak)) {
             if (armor.tag.Stats.Broken as byte == 0 as byte) {
                 armor.mutable().updateTag({overbreak : 1 as byte});
-                TicTool.addIntStat(armor, "FreeModifiers", 2, "overbreak");
+                TicTool.addStat(armor, "FreeModifiers", 2, "overbreak");
             }
         }
     }
@@ -3262,7 +3262,7 @@ enhancedTrait.color = Color.fromHex("ffffff").getIntColor();
 enhancedTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.enhancedTrait.name");
 enhancedTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.enhancedTrait.desc");
 enhancedTrait.onArmorTick = function(trait, armor, world, player) {
-    TicTool.addIntStat(armor, "FreeModifiers", 2, "enhanced");
+    TicTool.addStat(armor, "FreeModifiers", 2, "enhanced");
 };
 enhancedTrait.register();
 
@@ -3469,7 +3469,7 @@ watcherTrait.onHurt = function(trait, armor, player, source, damage, newDamage, 
     if (!isNull(player)) {
         if (source.damageType == "mob") {
             return newDamage * 0.9f;
-         } else if (source.damageType == "magic" || source.damageType == "indirectMagic") {
+         } else if (source.isMagicDamage()) {
             return newDamage * 0.93f;
         }
     }
@@ -3588,7 +3588,7 @@ broken_armorTrait.localizedName = game.localize("greedycraft.tconstruct.armor_tr
 broken_armorTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.broken_armorTrait.desc");
 broken_armorTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player)) {
-        if (source.damageType == "magic" || source.damageType == "indirectMagic") {
+        if (source.isMagicDamage()) {
             return newDamage * 0.5f;
         } else if (source.damageType == "generic") {
             return newDamage * 2.0f;
@@ -3649,7 +3649,7 @@ phase_rushTrait.localizedDescription = game.localize("greedycraft.tconstruct.arm
 phase_rushTrait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
         var cooldownBasic as int = 200;
-        if (armor.hasTicTrait("power_of_herrscher_armor")) cooldownBasic = 100;
+        if (TicTool.hasTrait(armor, "power_of_herrscher_armor")) cooldownBasic = 100;
         if (isNull(armor.tag.phaseRushCooldown)) {
             armor.mutable().updateTag({phaseRushCooldown : cooldownBasic as int, phaseRushActive : 0 as int});
         } else {
@@ -3699,7 +3699,7 @@ apostle_of_collapseTrait.onHurt = function(trait, armor, player, source, damage,
     if (!isNull(player) && !isNull(source.getTrueSource())) {
         var entity as IEntity = source.getTrueSource();
         var rate as float = 0.05f;
-        if (armor.hasTicTrait("power_of_herrscher_armor")) rate += 0.05f;
+        if (TicTool.hasTrait(armor, "power_of_herrscher_armor")) rate += 0.05f;
         if (Math.random() < rate) {
             player.position3f = entity.position3f;
             var x as float = entity.x as float;
@@ -4067,7 +4067,7 @@ dubhe_nightTrait.localizedName = game.localize("greedycraft.tconstruct.armor_tra
 dubhe_nightTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.dubhe_nightTrait.desc");
 dubhe_nightTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player)) {
-        if (player.getPlayerTicHelmetTrait() has "dubhe_night_armor") {
+        if (TicTool.getArmorSlotTraits(player, "helmet") has "dubhe_night_armor") {
             return newDamage * 1.2f;
         }
     }
@@ -4075,7 +4075,7 @@ dubhe_nightTrait.onHurt = function(trait, armor, player, source, damage, newDama
 };
 dubhe_nightTrait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
-        if (player.getPlayerTicHelmetTrait() has "dubhe_night_armor") {
+        if (TicTool.getArmorSlotTraits(player, "helmet") has "dubhe_night_armor") {
             player.addPotionEffect(<potion:contenttweaker:erebus_protection>.makePotionEffect(20, 0, false, false));
         }
     }
@@ -4089,7 +4089,7 @@ dubhe_lightTrait.localizedName = game.localize("greedycraft.tconstruct.armor_tra
 dubhe_lightTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.dubhe_lightTrait.desc");
 dubhe_lightTrait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
-        if (player.getPlayerTicHelmetTrait() has "dubhe_light_armor") {
+        if (TicTool.getArmorSlotTraits(player, "helmet") has "dubhe_light_armor") {
             player.addPotionEffect(<potion:contenttweaker:atum_protection>.makePotionEffect(20, 0, false, false));
             var armorAttribute as AttributeModifier = AttributeModifier.createModifier("generic.armor", -0.2f, 2, "b6e4f2a3-8c9d-4b71-9c42-1e7f5a3d8b90");
             if (!player.getAttribute("generic.armor").hasModifier(armorAttribute)) {
@@ -4100,7 +4100,7 @@ dubhe_lightTrait.onArmorTick = function(trait, armor, world, player) {
 };
 dubhe_lightTrait.onArmorRemove = function(trait, armor, player, index) {
     if (!isNull(player)) {
-        if (player.getPlayerTicHelmetTrait() has "dubhe_light_armor") {
+        if (TicTool.getArmorSlotTraits(player, "helmet") has "dubhe_light_armor") {
             var armorAttribute as AttributeModifier = AttributeModifier.createModifier("generic.armor", -0.2f, 2, "b6e4f2a3-8c9d-4b71-9c42-1e7f5a3d8b90");
             if (player.getAttribute("generic.armor").hasModifier(armorAttribute)) {
                 player.getAttribute("generic.armor").removeModifier(armorAttribute);
@@ -4650,10 +4650,10 @@ dragon_bodyTrait.localizedDescription = game.localize("greedycraft.tconstruct.ar
 dragon_bodyTrait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
         var count as int = 0;
-        count += player.getPlayerTicHelmetTrait() has "dragon_body_armor" ? 1 : 0;
-        count += player.getPlayerTicChestplateTrait() has "dragon_body_armor" ? 1 : 0;
-        count += player.getPlayerTicLeggingsTrait() has "dragon_body_armor" ? 1 : 0;
-        count += player.getPlayerTicBootsTrait() has "dragon_body_armor" ? 1 : 0;
+        count += TicTool.getArmorSlotTraits(player, "helmet") has "dragon_body_armor" ? 1 : 0;
+        count += TicTool.getArmorSlotTraits(player, "chestplate") has "dragon_body_armor" ? 1 : 0;
+        count += TicTool.getArmorSlotTraits(player, "leggings") has "dragon_body_armor" ? 1 : 0;
+        count += TicTool.getArmorSlotTraits(player, "boots") has "dragon_body_armor" ? 1 : 0;
         if (count == 3) {
             player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(20, 0, true, false));
         } else if (count == 4) {
@@ -4710,13 +4710,13 @@ hexable_basementTrait.onArmorTick = function(trait, armor, world, player) {
     var feet as IItemStack = player.getItemInSlot(IEntityEquipmentSlot.feet());
 
     var leader as IItemStack = null;
-    if (!isNull(head) && head.hasTicTrait("hexable_basement_armor")) {
+    if (!isNull(head) && TicTool.hasTrait(head, "hexable_basement_armor")) {
         leader = head;
-    } else if (!isNull(chest) && chest.hasTicTrait("hexable_basement_armor")) {
+    } else if (!isNull(chest) && TicTool.hasTrait(chest, "hexable_basement_armor")) {
         leader = chest;
-    } else if (!isNull(legs) && legs.hasTicTrait("hexable_basement_armor")) {
+    } else if (!isNull(legs) && TicTool.hasTrait(legs, "hexable_basement_armor")) {
         leader = legs;
-    } else if (!isNull(feet) && feet.hasTicTrait("hexable_basement_armor")) {
+    } else if (!isNull(feet) && TicTool.hasTrait(feet, "hexable_basement_armor")) {
         leader = feet;
     }
 
@@ -4771,7 +4771,7 @@ hexable_basementTrait.onArmorTick = function(trait, armor, world, player) {
         var target as IItemStack = null;
         var minTotal as int = 2147483647;
 
-        if (!isNull(head) && head.hasTicTrait("hexable_basement_armor")) {
+        if (!isNull(head) && TicTool.hasTrait(head, "hexable_basement_armor")) {
             var headTotal as int = 0;
             if (!isNull(head.tag.hexableBasement)) {
                 headTotal = (head.tag.hexableBasement.aqua as int)
@@ -4786,7 +4786,7 @@ hexable_basementTrait.onArmorTick = function(trait, armor, world, player) {
                 target = head;
             }
         }
-        if (!isNull(chest) && chest.hasTicTrait("hexable_basement_armor")) {
+        if (!isNull(chest) && TicTool.hasTrait(chest, "hexable_basement_armor")) {
             var chestTotal as int = 0;
             if (!isNull(chest.tag.hexableBasement)) {
                 chestTotal = (chest.tag.hexableBasement.aqua as int)
@@ -4801,7 +4801,7 @@ hexable_basementTrait.onArmorTick = function(trait, armor, world, player) {
                 target = chest;
             }
         }
-        if (!isNull(legs) && legs.hasTicTrait("hexable_basement_armor")) {
+        if (!isNull(legs) && TicTool.hasTrait(legs, "hexable_basement_armor")) {
             var legsTotal as int = 0;
             if (!isNull(legs.tag.hexableBasement)) {
                 legsTotal = (legs.tag.hexableBasement.aqua as int)
@@ -4816,7 +4816,7 @@ hexable_basementTrait.onArmorTick = function(trait, armor, world, player) {
                 target = legs;
             }
         }
-        if (!isNull(feet) && feet.hasTicTrait("hexable_basement_armor")) {
+        if (!isNull(feet) && TicTool.hasTrait(feet, "hexable_basement_armor")) {
             var feetTotal as int = 0;
             if (!isNull(feet.tag.hexableBasement)) {
                 feetTotal = (feet.tag.hexableBasement.aqua as int)
@@ -5089,9 +5089,9 @@ brightestTrait.localizedDescription = game.localize("greedycraft.tconstruct.armo
 brightestTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
     if (!isNull(player)) {
         var mtps as int = 0;
-        for trait in armor.getTicTrait() {
+        for trait in TicTool.getTraits(armor) {
             if (trait != "toolleveling_armor" && trait != "leveling_durability_armor") {
-                var color as int = armor.getTraitColor(trait);
+                var color as int = TicTool.getTraitColor(armor, trait);
                 var r as int = (color / 65536) % 256;
                 var g as int = (color / 256) % 256;
                 var b as int = color % 256;

@@ -15,5 +15,15 @@
 				type: "kekimurus"
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "fb5a0b18",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "10656a09",
+		type: "xp",
+		xp: 1000
 	}]
 }

@@ -36,12 +36,21 @@ jobs:
       - name: 3. 安装 packwiz
         run: go install github.com/packwiz/packwiz@latest
 
-      - name: 4. 导出 Curseforge 整合包
+      - name: 4. 打包前合并 submods
+        run: |
+          if [ -d mods/submods ]; then
+            find mods/submods -mindepth 1 -maxdepth 1 -type f -print0 | while IFS= read -r -d '' file; do
+              mv -- "$file" mods/
+            done
+            rmdir mods/submods || true
+          fi
+
+      - name: 5. 导出 Curseforge 整合包
         id: export
         run: |
           packwiz curseforge export
 
-      - name: 5. 重命名整合包文件
+      - name: 6. 重命名整合包文件
         run: |
           original_name=$(ls *.zip | head -n 1 | sed 's/.zip$//')
           branch_name="${GITHUB_REF_NAME}"
@@ -51,12 +60,12 @@ jobs:
           echo "FILE_PATH=${new_name}.zip" >> $GITHUB_ENV
           echo "FILE_NAME=${new_name}" >> $GITHUB_ENV
 
-      - name: 6. 创建空目录并解压
+      - name: 7. 创建空目录并解压
         run: |
           mkdir -p unzipped
           unzip -O UTF-8 "$FILE_PATH" -d unzipped/
 
-      - name: 7. 上传至 Artifact
+      - name: 8. 上传至 Artifact
         uses: actions/upload-artifact@v6
         with:
           name: ${{ env.FILE_NAME }}

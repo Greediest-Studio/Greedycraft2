@@ -1,0 +1,30 @@
+{
+	title: "§b第三站：霜与雾的国度",
+	x: 26.5d,
+	y: -1.5d,
+	description: "合成霜雾之门核心",
+	text: [
+		""
+	],
+	dependencies: [
+		"0ea91681",
+		"223f6864"
+	],
+	tasks: [{
+		uid: "5b65a57a",
+		type: "item",
+		items: [{
+			item: "gctcore:nilfheim_portal_core"
+		}]
+	}],
+	rewards: [{
+		uid: "64e7cfed",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "3969040a",
+		type: "xp",
+		xp: 15000
+	}]
+}

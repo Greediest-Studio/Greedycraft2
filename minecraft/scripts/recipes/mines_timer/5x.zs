@@ -30,6 +30,7 @@ for entry in Entries {
         .addFluidInput(<liquid:water> * 1000)
         .addEnergyPerTickInput(25000)
         .addItemOutput(entry.getItemStack("crystal") * 5)
+        .setMaxThreads(1)
         .build();
     RecipeBuilder.newBuilder("compound_5x_" + entry.name as string, "factory_5x", 20)
         .addItemInput(entry.getOreDictEntry("compound"))
@@ -37,5 +38,6 @@ for entry in Entries {
         .addFluidInput(<liquid:water> * 200)
         .addEnergyPerTickInput(25000)
         .addItemOutput(entry.getItemStack("crystal"))
+        .setMaxThreads(1)
         .build();
 }

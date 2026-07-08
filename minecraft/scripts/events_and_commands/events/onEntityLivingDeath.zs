@@ -36,6 +36,7 @@ import native.net.minecraft.init.Items;
 
 import scripts.util.patreons as PatreonUtil;
 import scripts.util.lang as LangUtil;
+import mods.ticlib.TicTool;
 
 events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
     if (event.entityLivingBase instanceof IPlayer) {
@@ -90,7 +91,7 @@ events.onEntityLivingDeath(function (event as EntityLivingDeathEvent) {
         // Back Trait
         if (!isNull(player.mainHandHeldItem)) {
             var item as IItemStack = player.mainHandHeldItem;
-            if (item.hasTicTrait("back")) {
+            if (TicTool.hasTrait(item, "back")) {
                 var x as double = player.x;
                 var y as double = player.y;
                 var z as double = player.z;

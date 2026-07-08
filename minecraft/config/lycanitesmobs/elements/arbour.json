@@ -1,0 +1,14 @@
+{
+  "name": "arbour",
+  "loadDefault": false,
+  "buffs": [
+    "lycanitesmobs:rejuvenation"
+  ],
+  "debuffs": [
+    "minecraft:poison"
+  ],
+  "components": [
+    "water",
+    "earth"
+  ]
+}

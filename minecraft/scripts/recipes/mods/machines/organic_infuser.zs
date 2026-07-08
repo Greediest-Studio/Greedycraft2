@@ -206,24 +206,26 @@ for row in crops {
     var seed = row[0] as IItemStack;
     var essence = row[1] as IItemStack;
     var tier = 0;
-    if (<ore:seedsTier1> has seed) {
-        tier = 1;
-    } else if (<ore:seedsTier2> has seed) {
-        tier = 2;
-    } else if (<ore:seedsTier3> has seed) {
-        tier = 3;
-    } else if (<ore:seedsTier4> has seed) {
-        tier = 4;
-    } else if (<ore:seedsTier5> has seed) {
-        tier = 5;
-    } else if (<ore:seedsTier6> has seed) {
-        tier = 6;
-    } else if (<ore:seedsTier7> has seed) {
-        tier = 7;
-    } else if (<ore:seedsTier8> has seed) {
-        tier = 8;
-    } else if (<ore:seedsTier9> has seed) {
-        tier = 9;
+    if (essence.definition.id != "mysticalagriculture:crafting") {
+        if (<ore:seedsTier1> has seed) {
+            tier = 1;
+        } else if (<ore:seedsTier2> has seed) {
+            tier = 2;
+        } else if (<ore:seedsTier3> has seed) {
+            tier = 3;
+        } else if (<ore:seedsTier4> has seed) {
+            tier = 4;
+        } else if (<ore:seedsTier5> has seed) {
+            tier = 5;
+        } else if (<ore:seedsTier6> has seed) {
+            tier = 6;
+        } else if (<ore:seedsTier7> has seed) {
+            tier = 7;
+        } else if (<ore:seedsTier8> has seed) {
+            tier = 8;
+        } else if (<ore:seedsTier9> has seed) {
+            tier = 9;
+        }
     }
     RecipeBuilder.newBuilder(regName + "_grow_" + seed.name + "_" + recipeId, regName, time[tier] * 10, 0)
     .addItemInput(seed).setChance(0.0f)

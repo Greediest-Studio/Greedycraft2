@@ -328,13 +328,11 @@ RecipeUtil.addShaped("mystical_Dreadium", <abyssalcraft:dreadiumingot>, [
     [<mysticalagriculture:dreadium_essence>, null, <mysticalagriculture:dreadium_essence>],
     [<mysticalagriculture:dreadium_essence>, <mysticalagriculture:dreadium_essence>, <mysticalagriculture:dreadium_essence>]
 ]);
-/* 
-RecipeUtil.addShaped("machine_assembler", <modularmachineryaddons:advancedmachineassembler>, [
+RecipeUtil.addShaped("machine_assembler", <gctcore:mmce_builder_tool>, [
     [null, <ore:ingotManyullyn>, null],
     [null, <ore:ingotManyullyn>, null],
     [null, <ore:stickWood>, null]
 ]);
-*/
 RecipeUtil.addShaped("machine_assembler2", <additions:basic_assembler>, [
     [null, <ore:ingotAluminum>, null],
     [null, <ore:ingotAluminum>, null],
@@ -1136,7 +1134,31 @@ RecipeUtil.addShaped("modifier_worktable", <tt2:modifier_worktable>, [
     [<minecraft:stone>, <additions:experience_transporter>, <minecraft:stone>],
     [<minecraft:stone>, null, <minecraft:stone>]
 ]);
-
+RecipeUtil.addShaped("max_storage_upgrade", <functionalstoragelegacy:max_storage_upgrade> * 4, [
+    [<functionalstoragelegacy:netherite_upgrade>, <functionalstoragelegacy:diamond_upgrade>, <functionalstoragelegacy:netherite_upgrade>],
+    [<additions:creative_shard>, <functionalstoragelegacy:oak_1>, <additions:creative_shard>],
+    [<functionalstoragelegacy:netherite_upgrade>, <functionalstoragelegacy:diamond_upgrade>, <functionalstoragelegacy:netherite_upgrade>]
+]);
+RecipeUtil.addShaped("original_steel_ingot", <additions:original_steel_ingot>, [
+    [null, <ore:soulOriginal>, null],
+    [<ore:soulOriginal>, <ore:ingotOrichalcos>, <ore:soulOriginal>],
+    [null, <ore:soulOriginal>, null]
+]);
+RecipeUtil.addShaped("maintainance_hatch", <godular_tachinery:maintenance_hatch>, [
+    [<ore:ingotModularium>, <tconstruct:pickaxe>.anyDamage(), <ore:ingotModularium>],
+    [<tconstruct:shovel>.anyDamage(), <modularmachinery:blockcasing>, <tconstruct:hatchet>.anyDamage()],
+    [<ore:ingotModularium>, <tcomplement:chisel>.anyDamage(), <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("maintainance_hatch_auto", <godular_tachinery:auto_maintenance_hatch>, [
+    [<ore:ingotModularium>, <ore:ingotAeonsteel>, <ore:ingotModularium>],
+    [<ore:ingotAeonsteel>, <godular_tachinery:maintenance_hatch>, <ore:ingotAeonsteel>],
+    [<ore:ingotModularium>, <ore:ingotAeonsteel>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("basic_miner", <modularmachinery:simple_miner_factory_controller>, [
+    [<ore:blockModularium>, <ore:gearDark>, <ore:blockModularium>],
+    [<ore:gearDimensionalShard>, <modularmachinery:blockcontroller>, <ore:gearDimensionalShard>],
+    [<ore:blockModularium>, <ore:gearDark>, <ore:blockModularium>]
+]);
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],

@@ -1,0 +1,14 @@
+{
+  "name": "shadow",
+  "loadDefault": false,
+  "buffs": [
+    "minecraft:invisibility"
+  ],
+  "debuffs": [
+    "minecraft:blindness"
+  ],
+  "components": [
+    "fire",
+    "chaos"
+  ]
+}

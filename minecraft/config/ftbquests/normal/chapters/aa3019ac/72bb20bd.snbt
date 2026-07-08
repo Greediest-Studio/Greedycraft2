@@ -1,0 +1,35 @@
+{
+	title: "§b卡在辐射仓了？",
+	x: -8.0d,
+	y: 5.5d,
+	description: "在辐射废土挖掘锆矿石",
+	text: [
+		"锆矿石的余烬熔炼副产物为§b铪§r，这是唯一一个在第七章获取铪的途径"
+	],
+	dependencies: [
+		"1edc99e8"
+	],
+	tasks: [{
+		uid: "01c2eca2",
+		type: "item",
+		items: [{
+			item: "additions:zirconium_ore"
+		}]
+	}],
+	rewards: [{
+		uid: "ff0b934c",
+		type: "item",
+		item: "nuclearcraft:ingot_block 1 10",
+		count: 16
+	},
+	{
+		uid: "72ba8e09",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "f14f1e78",
+		type: "xp",
+		xp: 4000
+	}]
+}

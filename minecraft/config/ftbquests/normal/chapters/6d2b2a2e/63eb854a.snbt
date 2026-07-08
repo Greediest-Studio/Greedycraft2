@@ -1,0 +1,44 @@
+{
+	title: "§b幻梦晶核",
+	x: 14.25d,
+	y: 9.75d,
+	description: "使用天渊催化剂召唤陨星，而后挖掘其中的缟玛瑙矿石",
+	text: [
+		"为此，你需要想办法获得一个14级材料",
+		"你可以从下面6条线路中优先挑选一条完成……"
+	],
+	dependencies: [
+		"125405d4",
+		"bcbb8db2",
+		"9ae9cce5",
+		"4fe7ee2b",
+		"99a08d9d",
+		"8bd6e64b",
+		"c05a1667"
+	],
+	dependency_requirement: "one_completed",
+	size: 1.5d,
+	tasks: [{
+		uid: "7fd6c63e",
+		type: "item",
+		items: [{
+			item: "additions:onyx"
+		}]
+	}],
+	rewards: [{
+		uid: "f7115517",
+		type: "item",
+		item: "additions:onyx",
+		count: 16
+	},
+	{
+		uid: "4e0daf17",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "0a1f96a0",
+		type: "xp",
+		xp: 50000
+	}]
+}

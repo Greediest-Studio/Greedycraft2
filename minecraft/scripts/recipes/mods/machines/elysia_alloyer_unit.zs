@@ -171,6 +171,7 @@ recipe(99 , <additions:blue_alloy_ingot> * 6, [<ore:ingotEcoBasicAlloy>, <ore:in
 recipe(100, <nuclearcraft:alloy:7> * 4, [<ore:ingotCopper> * 3, <ore:ingotSilver>], 4000, 10.0f);
 recipe(101, <thermalfoundation:material:165> * 2, [<ore:ingotShibuishi> * 2, <ore:dustRedstone> * 5], 4000, 10.0f);
 recipe(102, <nuclearcraft:alloy:8> * 4, [<ore:ingotTin> * 3, <ore:ingotSilver>], 4000, 10.0f);
+recipe(103, <additions:blueprint_shield>, [<netherized:crying_obsidian> * 4, <additions:blueprint>, <draconicevolution:infused_obsidian>], 2000000, 600.0f);
 
 recipe(1000 , <nuclearcraft:alloy:2> * 2, [<ore:ingotGraphite> * 2, <ore:gemDiamond> * 1], 8000, 10.0f); 
 recipe(1001 , <enderio:item_material:48> * 2, [<ore:itemPlantgreen> * 12, <ore:slimeball> * 1], 2000, 10.0f); 

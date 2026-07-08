@@ -46,48 +46,22 @@
         "dimension": 42,
         "mobs": [
             {
-                "mob": "iceandfire:if_pixie",
-                "weight": 12,
-                "groupcountmin": 2,
-                "groupcountmax": 4
+                "mob": "lycanitesmobs:nymph",
+                "weight": 4,
+                "groupcountmin": 1,
+                "groupcountmax": 2
             },
             {
-                "mob": "aether_legacy:phyg",
-                "weight": 5,
-                "groupcountmin": 4,
-                "groupcountmax": 6
-            },
-            {
-                "mob": "aether_legacy:sheepuff",
-                "weight": 5,
-                "groupcountmin": 4,
-                "groupcountmax": 6
-            },
-            {
-                "mob": "aether_legacy:flying_cow",
-                "weight": 5,
-                "groupcountmin": 4,
-                "groupcountmax": 6
-            },
-            {
-                "mob": "quark:stoneling",
+                "mob": "lycanitesmobs:wisp",
                 "weight": 2,
-                "groupcountmin": 2,
-                "groupcountmax": 5
-            }
-        ]
-    },
-    {
-        "dimension": 42,
-        "biome": [
-            "gct_mobs:alfheim_forest"
-        ],
-        "mobs": [
+                "groupcountmin": 1,
+                "groupcountmax": 1
+            },
             {
-                "mob": "gct_mobs:elf",
-                "weight": 3,
-                "groupcountmin": 2,
-                "groupcountmax": 4
+                "mob": "lycanitesmobs:roc",
+                "weight": 2,
+                "groupcountmin": 1,
+                "groupcountmax": 1
             }
         ]
     },
@@ -99,23 +73,106 @@
         "mobs": [
             {
                 "mob": "gct_mobs:reversed_elf",
-                "weight": 5,
+                "weight": 10,
                 "groupcountmin": 3,
                 "groupcountmax": 5
+            },
+            {
+                "mob": "lycanitesmobs:triffid",
+                "weight": 2,
+                "groupcountmin": 1,
+                "groupcountmax": 1
             }
         ]
     },
     {
-        "dimension": 42,
+        "dimension": 43,
         "biome": [
-            "gct_mobs:alfheim_hill"
+            "gctcore:mistveil_depths"
         ],
         "mobs": [
             {
-                "mob": "twilightforest:stable_ice_core",
+                "mob": "lycanitesmobs:wendigo",
+                "weight": 1,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ]
+    },
+    {
+        "dimension": 43,
+        "biome": [
+            "gctcore:howling_icefield",
+            "gctcore:rimefang_mountains"
+        ],
+        "mobs": [
+            {
+                "mob": "lycanitesmobs:maug",
+                "weight": 1,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ]
+    },
+    {
+        "dimension": 43,
+        "biome": [
+            "gctcore:soul_ember_plains",
+            "gctcore:glimmering_hollow"
+        ],
+        "mobs": [
+            {
+                "mob": "lycanitesmobs:bobeko",
                 "weight": 4,
                 "groupcountmin": 1,
-                "groupcountmax": 3
+                "groupcountmax": 2
+            }
+        ]
+    },
+    {
+        "dimension": 43,
+        "biome": [
+            "gctcore:hvergelmir_throat"
+        ],
+        "mobs": [
+            {
+                "mob": "lycanitesmobs:frostweaver",
+                "weight": 4,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ]
+    },
+    {
+        "dimension": 43,
+        "biome": [
+            "gctcore:howling_icefield",
+            "gctcore:rimefang_mountains",
+            "gctcore:hvergelmir_throat",
+            "gctcore:mistveil_depths",
+            "gctcore:soul_ember_plains",
+            "gctcore:glimmering_hollow"
+        ],
+        "mobs": [
+            {
+                "mob": "lycanitesmobs:arix",
+                "weight": 2,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ]
+    },
+    {
+        "dimension": 43,
+        "biome": [
+            "gctcore:sunken_tear"
+        ],
+        "mobs": [
+            {
+                "mob": "lycanitesmobs:ioray",
+                "weight": 2,
+                "groupcountmin": 1,
+                "groupcountmax": 2
             }
         ]
     },

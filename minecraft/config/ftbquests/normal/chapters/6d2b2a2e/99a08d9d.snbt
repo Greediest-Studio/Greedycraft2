@@ -1,0 +1,24 @@
+{
+	title: "§b奥法瘟疫",
+	x: 16.5d,
+	y: 11.0d,
+	shape: "pentagon",
+	description: "通过神秘时代灵识学分支获得巨口之角",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "69e3139c",
+		type: "custom"
+	}],
+	rewards: [{
+		uid: "033f2597",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "47793f3a",
+		type: "xp",
+		xp: 30000
+	}]
+}

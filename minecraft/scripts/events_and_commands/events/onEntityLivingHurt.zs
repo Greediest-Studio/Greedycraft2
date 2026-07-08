@@ -5,6 +5,7 @@
 
 #priority 90
 
+import mods.ticlib.TicTool;
 import crafttweaker.event.PlayerLoggedInEvent;
 import crafttweaker.event.IPlayerEvent;
 import crafttweaker.event.PlayerRespawnEvent;
@@ -140,7 +141,7 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
     // Scales projectile damage
     if (!isNull(event.damageSource.getTrueSource()) && event.damageSource.getTrueSource() instanceof IEntityLivingBase && event.damageSource.isProjectile()) {
         if (!event.damageSource.getTrueSource().isBoss) {
-            dmg *= (1.0 + 0.0012 * player.difficulty) as double;
+            dmg *= (1.0 + 0.0012 * player.shDiff) as double;
             if (!isNull(event.damageSource.getTrueSource().definition) && skeletonEntities has event.damageSource.getTrueSource().definition.id) {
                 dmg *= 2.0f;
             }
@@ -151,7 +152,7 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
     if (!isNull(event.damageSource.getTrueSource()) && event.damageSource.getTrueSource() instanceof IEntityLivingBase) {
         if (event.damageSource.getTrueSource().isBoss) {
             if (!(damageScalingBlacklist has event.damageSource.getTrueSource().definition.id)) {
-                dmg *= (1.0 + 0.0016 * player.difficulty) as double;     
+                dmg *= (1.0 + 0.0016 * player.shDiff) as double;
             }
         }
     }
@@ -177,10 +178,10 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
 
     // Dragon Body Trait Damage Reduction
     var dragonBodyTraitCount as int = 0;
-    dragonBodyTraitCount += player.getPlayerTicHelmetTrait() has "dragon_body" ? 1 : 0;
-    dragonBodyTraitCount += player.getPlayerTicChestplateTrait() has "dragon_body" ? 1 : 0;
-    dragonBodyTraitCount += player.getPlayerTicLeggingsTrait() has "dragon_body" ? 1 : 0;
-    dragonBodyTraitCount += player.getPlayerTicBootsTrait() has "dragon_body" ? 1 : 0;
+    dragonBodyTraitCount += TicTool.getArmorSlotTraits(player, "helmet") has "dragon_body" ? 1 : 0;
+    dragonBodyTraitCount += TicTool.getArmorSlotTraits(player, "chestplate") has "dragon_body" ? 1 : 0;
+    dragonBodyTraitCount += TicTool.getArmorSlotTraits(player, "leggings") has "dragon_body" ? 1 : 0;
+    dragonBodyTraitCount += TicTool.getArmorSlotTraits(player, "boots") has "dragon_body" ? 1 : 0;
     if (dragonBodyTraitCount > 0 && player.native.capabilities.isFlying) {
         dmg *= (1.0f - 0.2f * dragonBodyTraitCount as float);
     }
@@ -206,7 +207,7 @@ events.onEntityLivingHurt(function(event as EntityLivingHurtEvent) {
 
     //Bloody Arrow Trait
     if (!isNull(player.mainHandHeldItem)) {
-        if (player.mainHandHeldItem.hasTicTrait("bloody_arrow") || player.mainHandHeldItem.hasTicTrait("bloody_arrow2")) {
+        if (TicTool.hasTrait(player.mainHandHeldItem, "bloody_arrow") || TicTool.hasTrait(player.mainHandHeldItem, "bloody_arrow2")) {
             var bow as IItemStack = player.mainHandHeldItem;
             if (!isNull(bow.tag.bloodyArrow)) {
                 var oldCount as int = bow.tag.bloodyArrow as int;

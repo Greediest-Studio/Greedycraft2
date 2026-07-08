@@ -1,0 +1,18 @@
+{
+	x: 4.0d,
+	y: 11.0d,
+	description: "制作一个防御蓝图",
+	text: [
+		""
+	],
+	dependencies: [
+		"b5ab2c55"
+	],
+	tasks: [{
+		uid: "04430812",
+		type: "item",
+		items: [{
+			item: "additions:blueprint_shield"
+		}]
+	}]
+}

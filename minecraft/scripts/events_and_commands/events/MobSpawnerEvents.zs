@@ -60,7 +60,7 @@ events.onBlockBreak(function(event as BlockBreakEvent) {
                     mobEffectiveSpawned = 20;
                 }
                 var bonusXP as int = mobEffectiveSpawned * 2 + (Math.random() * (mobEffectiveSpawned * 5) as double) as int;
-                var difficultyBonusPercent as int = (event.player.difficulty * 2.0) as int;
+                var difficultyBonusPercent as int = (event.player.shDiff * 2.0) as int;
                 var totalXP as int = Math.ceil(bonusXP as double * (difficultyBonusPercent as double / 100.0 + 1.0)) as int;
                 event.experience += totalXP;
                 player.sendRichTextMessage(ITextComponent.fromData(["", {translate: "greedycraft.event.mob_spawner.kills", color: "red"}, {text: "" + mobSpawned, color: "yellow"}, {text: "    "}, {translate: "greedycraft.event.mob_spawner.kill_bonus", color: "green"}, {text: "" + totalXP + "XP ", color: "yellow"}, {text: "(+" + difficultyBonusPercent + "% ", color: "aqua"}, {translate: "greedycraft.event.mob_spawner.difficulty_bonus", color: "aqua"}, {text: ")", color: "aqua"}]));

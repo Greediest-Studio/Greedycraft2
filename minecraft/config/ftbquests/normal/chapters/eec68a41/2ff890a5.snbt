@@ -1,0 +1,29 @@
+{
+	title: "§b雾霭水晶",
+	x: 26.5d,
+	y: 0.0d,
+	description: "合成尼福尔海姆水晶",
+	text: [
+		""
+	],
+	dependencies: [
+		"0ea91681"
+	],
+	tasks: [{
+		uid: "1d7bb6f3",
+		type: "item",
+		items: [{
+			item: "botaniverse:morepylon"
+		}]
+	}],
+	rewards: [{
+		uid: "9b463d57",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "2b93c2f1",
+		type: "xp",
+		xp: 15000
+	}]
+}

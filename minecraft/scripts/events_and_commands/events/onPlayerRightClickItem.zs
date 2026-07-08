@@ -46,6 +46,7 @@ import mods.zenutils.DataUpdateOperation.BUMP;
 import native.c4.conarm.lib.armor.ArmorCore;
 
 import scripts.util.key as Key;
+import mods.ticlib.TicTool;
 
 events.onPlayerRightClickItem(function(event as PlayerRightClickItemEvent) {
 
@@ -277,7 +278,7 @@ if (!isNull(event.item) && !event.world.isRemote()) {
 
     //Back Trait
     if (isNull(event.item)) return;
-    if (event.item.hasTicTrait("back") && event.hand == "MAIN_HAND") {
+    if (TicTool.hasTrait(event.item, "back") && event.hand == "MAIN_HAND") {
         var tool as IItemStack = event.item;
         var player as IPlayer = event.player;
         if (!isNull(tool.tag.back) && player.isSneaking) {

@@ -144,7 +144,6 @@ Alloy.addRecipe(<liquid:eugardite> * 4, [<liquid:decurrium> * 3, <liquid:photoni
 Alloy.addRecipe(<liquid:solita> * 3, [<liquid:reditrite> * 16, <liquid:soularium>, <liquid:adaminite>]);
 Alloy.addRecipe(<liquid:shallowbreath> * 100, [<liquid:betweensludge> * 10, <liquid:stagnant_water> * 10000, <liquid:swamp_water> * 10000]);
 Alloy.addRecipe(<liquid:zirconium_molybdenum> * 2, [<liquid:zirconium> * 1, <liquid:molybdenum> * 1]);
-Alloy.addRecipe(<liquid:enderite> * 144, [<liquid:iridium> * 576, <liquid:resonant_debris> * 576]);
 Alloy.addRecipe(<liquid:aetherite> * 144, [<liquid:asgardium> * 576, <liquid:gravity_debris> * 576]);
 Alloy.addRecipe(<liquid:liquidirradium> * 2, [<liquid:iridium> * 1, <liquid:radium> * 1]);
 Alloy.addRecipe(<liquid:ascensionite> * 2, [<liquid:limonite> * 4, <liquid:rosite> * 2, <liquid:emberstone> * 1]);
@@ -639,6 +638,7 @@ Melting.addRecipe(<liquid:clock_alloy> * 30, <ore:ballClockAlloy>, 450);
 Melting.addRecipe(<liquid:blackhole_alloy> * 30, <ore:ballBlackholeAlloy>, 450);
 Melting.addRecipe(<liquid:polonium> * 16, <ore:PoloniumPellet>, 620);
 Melting.addRecipe(<liquid:plutonium> * 16, <ore:PlutoniumPellet>, 1080);
+Melting.addRecipe(<liquid:darkice> * 8, <betterendforge:ancient_emerald_ice>, 500);
 
 Fuel.registerFuel(<liquid:infernium> * 1, 600);
 Fuel.registerFuel(<liquid:cosmilite> * 1, 2400);

@@ -1,0 +1,41 @@
+{
+	title: "§c【可重复】 冰霜巨口Max",
+	x: 29.5d,
+	y: -3.0d,
+	description: "击败寒霜城堡的BOSS：远古破坏者",
+	text: [
+		""
+	],
+	can_repeat: 1b,
+	dependencies: [
+		"b8974e4c"
+	],
+	tasks: [{
+		uid: "0d5c83df",
+		type: "kill",
+		entity: "da:great_wyrk",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "876d3637",
+		type: "item",
+		item: "da:draugr_ingot",
+		count: 8,
+		random_bonus: 4
+	},
+	{
+		uid: "2dd09b8b",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "9359cb22",
+		type: "random",
+		table: 4
+	},
+	{
+		uid: "f95a3228",
+		type: "xp",
+		xp: 78000
+	}]
+}

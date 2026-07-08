@@ -1,0 +1,14 @@
+{
+  "item_block": {
+    "name": "锆矿石",
+    "ore_dict": "oreZirconium",
+    "type": "additions:block_simple"
+  },
+  "name": "锆矿石",
+  "material": "minecraft:stone",
+  "hardness": 25.0,
+  "resistance": 4000.0,
+  "harvest_level": 12,
+  "harvest_tool": "pickaxe",
+  "type": "additions:simple"
+}

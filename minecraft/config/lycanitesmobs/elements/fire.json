@@ -1,0 +1,11 @@
+{
+  "name": "fire",
+  "loadDefault": false,
+  "canBurn": false,
+  "buffs": [
+    "minecraft:fire_resistance"
+  ],
+  "debuffs": [
+    "burning"
+  ]
+}

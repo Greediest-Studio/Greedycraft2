@@ -254,7 +254,7 @@ $expand IItemStack$addTicAttack(level as float, uuid as string) as bool {
 
 
 $expand IItemStack$addTicFreeModifiers(level as int, uuid as string) as bool {
-    if(TicTool.addIntStat(this, "FreeModifiers", level, uuid)) return true;
+    if(TicTool.addStat(this, "FreeModifiers", level, uuid)) return true;
     
     var pass as bool = false;
 
@@ -371,7 +371,7 @@ $expand IItemStack$addTicToughness(level as float, uuid as string) as bool {
 
 
 $expand IItemStack$addTicHarvestLevel(level as int, uuid as string) as bool {
-    if(TicTool.addIntStat(this, "HarvestLevel", level, uuid)) return true;
+    if(TicTool.addStat(this, "HarvestLevel", level, uuid)) return true;
     
     var pass as bool = false;
 

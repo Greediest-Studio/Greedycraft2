@@ -1,0 +1,41 @@
+{
+	title: "§b九界之心",
+	x: 25.0d,
+	y: 0.0d,
+	description: "合成始源钢锭",
+	text: [
+		""
+	],
+	dependencies: [
+		"35eb9127"
+	],
+	tasks: [{
+		uid: "d7d27b8a",
+		type: "item",
+		items: [{
+			item: "additions:original_steel_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "2aa11647",
+		type: "item",
+		item: "extrabotany:material 1 1",
+		count: 16
+	},
+	{
+		uid: "b78d04c9",
+		type: "item",
+		item: "additions:original_steel_ingot",
+		count: 2
+	},
+	{
+		uid: "9eb79831",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "1c640aa9",
+		type: "xp",
+		xp: 18000
+	}]
+}

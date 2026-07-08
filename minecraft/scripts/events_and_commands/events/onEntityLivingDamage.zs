@@ -18,6 +18,7 @@ import mods.zenutils.DataUpdateOperation.APPEND;
 import mods.zenutils.DataUpdateOperation.MERGE;
 import mods.zenutils.DataUpdateOperation.REMOVE;
 import mods.zenutils.DataUpdateOperation.BUMP;
+import mods.ticlib.TicTool;
 
 events.onEntityLivingDamage(function(event as EntityLivingDamageEvent) {
 
@@ -32,14 +33,14 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent) {
         //Craven Survivalism Trait
         var pass as bool = false;
         if (!isNull(player.mainHandHeldItem) && !pass) {
-            if (player.mainHandHeldItem.hasTicTrait("craven_survivalism")) {
+            if (TicTool.hasTrait(player.mainHandHeldItem, "craven_survivalism")) {
                 player.native.dropItem(player.mainHandHeldItem.native, false);
                 player.mainHandHeldItem.mutable().shrink(1);
                 pass = true;
             }
         }
         if (!isNull(player.offHandHeldItem) && !pass) {
-            if (player.offHandHeldItem.hasTicTrait("craven_survivalism")) {
+            if (TicTool.hasTrait(player.offHandHeldItem, "craven_survivalism")) {
                 player.native.dropItem(player.offHandHeldItem.native, false);
                 player.offHandHeldItem.mutable().shrink(1);
                 pass = true;
@@ -48,7 +49,7 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent) {
         if (!(isNull(player.armorInventory) || player.armorInventory.length == 0) && !pass) {
             for armor in player.armorInventory {
                 if (!isNull(armor)) {
-                    if (armor.hasTicTrait("craven_survivalism_armor")) {
+                    if (TicTool.hasTrait(armor, "craven_survivalism_armor")) {
                         if (Math.random() < 0.97f) player.native.dropItem(armor.native, false);
                         armor.mutable().shrink(1);
                         pass = true;
@@ -68,7 +69,7 @@ events.onEntityLivingDamage(function(event as EntityLivingDamageEvent) {
         if (event.damageSource.getTrueSource() instanceof IPlayer) {
             var player as IPlayer = event.damageSource.getTrueSource();
             if (!isNull(player.offHandHeldItem)) {
-                if (player.offHandHeldItem.hasTicTrait("flamebow")) {
+                if (TicTool.hasTrait(player.offHandHeldItem, "flamebow")) {
                     var bow as IItemStack = player.offHandHeldItem;
                     var damageType as string = event.damageSource.getDamageType();
                     var entityId as int = event.entity.id;

@@ -1,0 +1,27 @@
+{
+	title: "§b你认输了？",
+	x: 16.5d,
+	y: 9.0d,
+	shape: "heart",
+	description: "签署禁忌协议，获得伪·TC金属锭",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "6f467deb",
+		type: "item",
+		items: [{
+			item: "additions:fake_tcreopargh_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "322d714f",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "1de878ab",
+		type: "xp",
+		xp: 30000
+	}]
+}

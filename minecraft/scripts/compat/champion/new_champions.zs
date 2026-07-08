@@ -12,14 +12,12 @@ import crafttweaker.entity.IEntityLiving;
 import crafttweaker.event.EntityLivingDamageEvent;
 import crafttweaker.damage.IDamageSource;
 
-import mods.ra.champions.AffixBuilder;
-import mods.ra.champions.utils;
-
+import mods.champions.AffixBuilder;
 
 //魅魔
 val succubus = AffixBuilder.create("succubus", "DEFENSE");
 succubus.tier = 1;
-succubus.onDamaged = function(living, source, damage, newDamage) {
+succubus.onDamaged = function(living, source, damage, newDamage, event) {
     if (!isNull(source.getTrueSource())) {
         if (source.getTrueSource() instanceof IPlayer) {
             var player as IPlayer = source.getTrueSource();
@@ -66,25 +64,13 @@ poopy.onDeath = function(living, source, event) {
 };
 poopy.register();
 
-//现实
-val reality = AffixBuilder.create("reality", "DEFENSE");
-reality.tier = 1;
-reality.onHurt = function(living, source, dmg, newDmg) {
-    if (source.damageType == "magic" ||source.damageType == "indirectMagic") {
-        return dmg * 0.0f;
-    }else{
-        return dmg * 2.0f;
-    }
-};
-reality.register();
-
 events.onEntityLivingDamage(function(event as EntityLivingDamageEvent) {
     if (!isNull(event.damageSource.getTrueSource())) {
         var sourceEntity as IEntityLivingBase = event.damageSource.getTrueSource();
         if (sourceEntity instanceof IEntityLiving) {
             var entity as IEntityLiving = sourceEntity;
-            if (utils.isChampion(entity)) {
-                if (utils.getAffixes(entity) has "succubus") {
+            if (entity.isChampion()) {
+                if (entity.getChampionAffixes() has "succubus") {
                     if (!isNull(entity.nbt.succubusDamageMutiplier)) {
                         var extra as float = entity.nbt.succubusDamageMutiplier as float;
                         entity.update({succubusDamageMutiplier : 0.0f});

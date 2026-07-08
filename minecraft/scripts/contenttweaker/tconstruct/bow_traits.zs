@@ -9,6 +9,7 @@
 
 #priority 2601
 
+import mods.ticlib.TicTool;
 import crafttweaker.item.IItemStack;
 import crafttweaker.player.IPlayer;
 import crafttweaker.entity.IEntityLivingBase;
@@ -235,7 +236,7 @@ events.onBowShoot(function(event as onBowShootEvent) {
         var totalBonusCount as int = 0;
         var totalBonusInaccuracy as float = 0.0f;
         
-        if (bow.hasTicTrait("slimy_shot")) {
+        if (TicTool.hasTrait(bow, "slimy_shot")) {
             var count as int = 0;
             for i in 0 to 2 {
                 if (Math.random() < 0.5f) count += 1;
@@ -243,11 +244,11 @@ events.onBowShoot(function(event as onBowShootEvent) {
             totalBonusCount += count;
         }
 
-        if (bow.hasTicTrait("cushioning")) {
+        if (TicTool.hasTrait(bow, "cushioning")) {
             totalBonusInaccuracy -= 0.25f;
         }
 
-        if (bow.hasTicTrait("bloody_arrow2")) {
+        if (TicTool.hasTrait(bow, "bloody_arrow2")) {
             if (!isNull(bow.tag.bloodyArrow)) {
                 var bloodyArrowCount as int = bow.tag.bloodyArrow as int;
                 if (bloodyArrowCount > 5) {
@@ -258,7 +259,7 @@ events.onBowShoot(function(event as onBowShootEvent) {
                     bow.mutable().updateTag({bloodyArrow : 0 as int});
                 }
             }
-        } else if (bow.hasTicTrait("bloody_arrow")) {
+        } else if (TicTool.hasTrait(bow, "bloody_arrow")) {
             if (!isNull(bow.tag.bloodyArrow)) {
                 var bloodyArrowCount as int = bow.tag.bloodyArrow as int;
                 if (bloodyArrowCount > 5) {

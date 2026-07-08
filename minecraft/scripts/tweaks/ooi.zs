@@ -15,12 +15,16 @@ ConversionItem.create(<thermalfoundation:material:866>).addMatchItem(<ore:crysta
 ConversionItem.create(<mekanism:fluoriteclump>).addMatchItem(<ore:gemFluorite>).register();
 ConversionItem.create(<botania:quartztypemana>).addMatchItem(<ore:blockManaQuartz>).register();
 ConversionItem.create(<thebetweenlands:scabyst_block>).addMatchItem(<ore:blockScabyst>).register();
-ConversionItem.create(<additions:sulfur_ingot>).addMatchItem(<ore:ingotSulfur>).register();
+ConversionItem.create(<additions:sulfur_ingot>)
+    .addMatchItem(<ore:ingotSulfur>)
+    .addMatchItem(<betterendforge:crystalline_sulphur>)
+    .addMatchItem(<betterendforge:sulphur_crystal>).register();
 ConversionItem.create(<tiths:nitre>).addMatchItem(<ore:dustSaltpeter>).register();
 ConversionItem.create(<tiths:block_nitre>).addMatchItem(<ore:blockSaltpeter>).register();
 ConversionItem.create(<thaumcraft:amber>).addMatchItem(<ore:gemAmber>).register();
-ConversionItem.create(<thaumcraft:amber_block>).addMatchItem(<biomesoplenty:gem_block:7>).register();
-ConversionItem.create(<quark:end_bricks_stairs>)
+ConversionItem.create(<thaumcraft:amber_block>)
+    .addMatchItem(<biomesoplenty:gem_block:7>)
+    .addMatchItem(<betterendforge:amber_block>).register();ConversionItem.create(<quark:end_bricks_stairs>)
     .addMatchItem(<endexpansion:end_stone_stairs>)
     .addMatchItem(<endreborn:e_end_bricks_stairs>).register();
 ConversionItem.create(<quark:end_bricks_slab>).addMatchItem(<endexpansion:end_brick_half>).register();
@@ -96,6 +100,7 @@ ConversionItem.create(<quark:stonebrick_mossy_wall>).addMatchItem(<futuremc:moss
 ConversionItem.create(<netherex:nether_brick_wall>).addMatchItem(<futuremc:nether_brick_wall>).register();
 ConversionItem.create(<netherex:red_nether_brick_wall>).addMatchItem(<futuremc:red_nether_brick_wall>).register();
 ConversionItem.create(<quark:prismarine_rough_wall>).addMatchItem(<futuremc:prismarine_wall>).register();
+ConversionItem.create(<appliedenergistics2:material:46>).addMatchItem(<betterendforge:ender_dust>).register();
 
 ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:burningsulfurflow>).register();
 ConversionFluid.create(<liquid:liquidantimatter>).addMatchFluid(<liquid:blockfluidantimatter>).register();

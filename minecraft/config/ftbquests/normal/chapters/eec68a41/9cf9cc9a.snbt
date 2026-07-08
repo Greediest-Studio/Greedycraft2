@@ -16,5 +16,15 @@
 				type: "agricultural"
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "ef1b658d",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "0372d520",
+		type: "xp",
+		xp: 7200
 	}]
 }

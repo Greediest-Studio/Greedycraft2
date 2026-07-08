@@ -67,17 +67,20 @@ for EntryItem in Entries {
         .addAuraInput(512, true)
         .addManaInput(40000)
         .addItemOutput(EntryItem.getOreDictEntry("infused") * 8)
+        .setMaxThreads(1)
         .build();
     RecipeBuilder.newBuilder("bre_" + lowerCase(EntryItem.name), "factory_arcanic_brewer", 10)
         .addItemInput(EntryItem.getOreDictEntry("infused"))
         .addFluidPerTickInput(<liquid:lifeessence> * 200)
         .addAspcetInput(5, "metallum")
         .addItemOutput(EntryItem.getOreDictEntry("brewed"))
+        .setMaxThreads(1)
         .build();
     RecipeBuilder.newBuilder("ast_" + lowerCase(EntryItem.name), "factory_arcanic_astrallizer", 20)
         .addItemInput(EntryItem.getOreDictEntry("brewed"))
         .addStarlightInput(4000)
         .addVisInput(1)
         .addItemOutput(EntryItem.getOreDictEntry("starlight"))
+        .setMaxThreads(1)
         .build();
 }

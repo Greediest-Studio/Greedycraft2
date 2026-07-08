@@ -1,0 +1,27 @@
+{
+	title: "§b那很能等了",
+	x: 15.5d,
+	y: 12.0d,
+	shape: "rsquare",
+	description: "通过自然灵气支线合成四季合金锭",
+	text: [
+		"或许是最便宜的一条路径，如果你愿意等上游戏中的一年四季来制作这个材料的话……"
+	],
+	tasks: [{
+		uid: "bdd2d694",
+		type: "item",
+		items: [{
+			item: "additions:seasonite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "ee26128f",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "9d0df501",
+		type: "xp",
+		xp: 30000
+	}]
+}

@@ -15,5 +15,15 @@
 				type: "endoflame"
 			}
 		}]
+	}],
+	rewards: [{
+		uid: "e1461e89",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "ee6da47a",
+		type: "xp",
+		xp: 500
 	}]
 }

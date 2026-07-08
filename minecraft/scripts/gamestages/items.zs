@@ -1,7 +1,3 @@
-/*
- * This script is created for the GreedyCraft modpack by TCreopargh.
- * You may NOT use this script in any other publicly distributed modpack without my permission.
- */
 
 #priority 950
 
@@ -95,7 +91,12 @@ GameStagesUtil.stageChaoticDominator.addIngredients([
     <ometweaks:blackhole_capacitor>,
     <ometweaks:twilit_capacitor>,
     <ometweaks:curse_capacitor>,
-    <ometweaks:killer_capacitor>
+    <ometweaks:killer_capacitor>,
+    <betterendforge:thallasium_ingot>,
+    <betterendforge:thallasium_block>,
+    <betterendforge:thallasium_nugget>,
+    <betterendforge:thallasium_ore>,
+    <ore:dustThallasium>
 ], true);
 
 GameStagesUtil.stageGettingStarted.addIngredients([
@@ -1473,7 +1474,6 @@ GameStagesUtil.stageWitherSlayer.addIngredients([
 GameStagesUtil.stageGaiaDeleter.addIngredients([
     <godagglomerationplate:godagglomerationplate>,
     <gct_mobs:reserver>,
-    <gct_mobs:alfheim>,
     <gct_mobs:orichalcos_dreamwood>,
     <gct_mobs:elementium_ore>,
     <gct_mobs:terrasteel_ore>,
@@ -1900,6 +1900,7 @@ GameStagesUtil.stageEpicEngineer.addIngredients([
     <ore:dustUranium>,
     <ore:oreUranium>,
     <ore:blockUranium>,
+    <ore:oreUranium235>,
     <ore:oreBarite>,
     <ore:gemBarite>,
     <ore:oreBismuth>,
@@ -2076,6 +2077,7 @@ GameStagesUtil.stageEpicEngineer.addIngredients([
     <ore:blockPlutonium>,
     <ore:nuggetPlutonium>,
     <ore:dustPlutonium>,
+    <ore:orePlutonium>,
     <ore:ingotAmericium>,
     <ore:blockAmericium>,
     <ore:nuggetAmericium>,
@@ -2146,6 +2148,7 @@ GameStagesUtil.stageEpicEngineer.addIngredients([
     <ore:dustAlphaHydroxyisobutyricAcid>,
     <ore:dustLacticAcid>,
     <ore:dustDTPA>,
+    <ore:oreZirconium>,
     <additions:pit_cf253>,
     <additions:pit_es254>
 ], true);
@@ -2578,7 +2581,24 @@ GameStagesUtil.stageWakeUp.addIngredients([
     <additions:logic_circuit_printed_4>,
     <additions:calculation_processor_4>,
     <additions:engineering_processor_4>,
-    <additions:logic_processor_4>
+    <additions:logic_processor_4>,
+    <gctcore:apathy_ore>,
+    <gctcore:apathy_ingot>,
+    <ore:nuggetApathy>,
+    <ore:blockApathy>,
+    <ore:dustApathy>,
+    <ore:gemOnyx>,
+    <ore:blockOnyx>,
+    <ore:dustOnyx>,
+    <ore:oreOnyx>,
+    <ore:nuggetOnyx>,
+    <ore:ingotOriginalSteel>,
+    <ore:blockOriginalSteel>,
+    <ore:nuggetOriginalSteel>,
+    <ore:dustOriginalSteel>,
+    <gctcore:nilfheim_portal_core>,
+    <gctcore:imaginative_snowball>,
+    <thaumictinkerer:sky_pearl>
 ], false);
 
 GameStagesUtil.stageMindShock.addIngredients([
@@ -2642,7 +2662,11 @@ GameStagesUtil.stageLegendWizard.addIngredients([
     <ore:gemLumerunine>,
     <additions:aspectus_mercury>,
     <additions:aspectus_salt>,
-    <additions:aspect_sulfur>
+    <additions:aspect_sulfur>,
+    <ore:ingotHafnium>,
+    <ore:nuggetHafnium>,
+    <ore:blockHafnium>,
+    <ore:dustHafnium>
 ], false);
 
 GameStagesUtil.stageSkilledEngineer.addModId(["mekanism", "mekanismgenerators", "mekceumoremachine", "mekeng"]);

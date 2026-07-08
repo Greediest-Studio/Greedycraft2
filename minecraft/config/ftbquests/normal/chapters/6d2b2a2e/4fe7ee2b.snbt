@@ -1,0 +1,27 @@
+{
+	title: "§b核能之光",
+	x: 14.5d,
+	y: 12.5d,
+	shape: "gear",
+	description: "通过核电工艺线获得锎锭",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "33e6b42c",
+		type: "item",
+		items: [{
+			item: "additions:californium_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "eb3f6249",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "b70fa33e",
+		type: "xp",
+		xp: 30000
+	}]
+}

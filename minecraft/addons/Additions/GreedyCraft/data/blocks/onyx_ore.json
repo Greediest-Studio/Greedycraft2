@@ -1,0 +1,17 @@
+{
+  "item_block": {
+    "name": "§1缟玛瑙矿石",
+    "tooltip": "§7§o来自幻梦境的神秘矿物",
+    "ore_dict": "oreOnyx",
+    "type": "additions:block_simple"
+  },
+  "name": "§1缟玛瑙矿石",
+  "material": "minecraft:stone",
+  "hardness": 80.0,
+  "resistance": 20000.0,
+  "harvest_level": 14,
+  "harvest_tool": "pickaxe",
+  "xp_dropped_min": 8,
+  "xp_dropped_max": 20,
+  "type": "additions:simple"
+}

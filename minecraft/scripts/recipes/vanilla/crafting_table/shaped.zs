@@ -1100,7 +1100,7 @@ RecipeUtil.addShaped("mekanism_casing", <mekanism:basicblock:8>, [
     [<ore:blockGlassHardened>, <ore:ingotOsmium>, <ore:blockGlassHardened>],
     [<ore:ingotStainlessSteel>, <ore:blockGlassHardened>, <ore:ingotStainlessSteel>]
 ]);
-RecipeUtil.addShaped("auto_gen_2008269634", <buildinggadgets:buildingtool>, [
+RecipeUtil.addShaped("auto_gen_2008269634", <buildinggadgets:buildingtool>.withTag({miningLevel: 0}), [
     [<ore:ingotStainlessSteel>, <ore:dustRedstone>, <ore:ingotStainlessSteel>],
     [<ore:ingotBronze>, <ore:gemDiamond>, <ore:ingotBronze>],
     [<ore:ingotStainlessSteel>, <ore:dustRedstone>, <ore:ingotStainlessSteel>]

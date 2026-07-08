@@ -289,12 +289,6 @@ alias = "mods/BetterBuildersWands-1.12.2-0.13.2.271+5997513.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/better-hurt-timer.pw.toml"
-hash = "8ac73a4e9fc64b28b25092dd419a3cddb8ff51f6328ad0b6746f27ace13df6cf"
-alias = "mods/BetterHurtTimer-1.12.2-1.5.0.6.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/better-loading-screen.pw.toml"
 hash = "2a1972a3a503f84def89480dfe6f18906d071b07db6ae3eec20141b00bb4b12a"
 alias = "mods/CustomLoadingScreen-1.12.2-1.5.9.jar"
@@ -328,6 +322,12 @@ metafile = true
 file = "mods/.index/betterdrawhoveringtext.pw.toml"
 hash = "ceff19cb5b6199cdf544f9594f97e2e6f738fad8b63770bcf1950848d31c067f"
 alias = "mods/betterDrawHoveringText-1.0.1.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/betterendforge-backport.pw.toml"
+hash = "7080fa6e97176c9f63844e0a7ba9988a2d5d756cad092b6c18c8ca69b939c3f9"
+alias = "mods/BetterEndForge-Unofficial-GBPort-1.12.2-1.3.9.jar"
 metafile = true
 
 [[files]]
@@ -457,12 +457,6 @@ alias = "mods/BTFixes-1.12.2-1.2.2.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/building-gadgets.pw.toml"
-hash = "46979bdaaa6056aa748c6ec2cb5692cf3b4f22e0d9da1aabf13426c1ad241c86"
-alias = "mods/BuildingGadgets-2.8.4.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/candy-world.pw.toml"
 hash = "b1471441b2b4fbbc52cbf10362d3c0753bcaaa833b55e308ec6be84cf8d13840"
 alias = "mods/candyworld-1.1.5.jar"
@@ -484,18 +478,6 @@ metafile = true
 file = "mods/.index/cells.pw.toml"
 hash = "36811cf45eb9dfd452bcdeeb1e325e0a34c1fbd17da84034b47c0c0bb397dcf8"
 alias = "mods/cells-0.5.15-beta.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/chameleon.pw.toml"
-hash = "146aab22482968e297222ed346e2be4a8b11bb8319b413ed86a6387851130462"
-alias = "mods/Chameleon-1.12-4.1.3.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/champions.pw.toml"
-hash = "5e3943eb9c36c5c270e476c04f2b8f4c35f2501f3c242e24ad00c81426484d79"
-alias = "mods/champions-1.12.2-1.0.11.10.jar"
 metafile = true
 
 [[files]]
@@ -919,6 +901,12 @@ alias = "mods/FarmingForBlockheads_1.12.2-3.1.28.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/fermiumbooterdepoliticization.pw.toml"
+hash = "965ac17895f2ae27eef8855902717632083a4df61bf2b5d00f48f5918ce4ac04"
+alias = "mods/`fermiumbooter-1.3.13.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/findme.pw.toml"
 hash = "5c485624f0654a16c04ec14396daa75c01fdbb45d190e7f556978fb6f0f99b6a"
 alias = "mods/findme-1.12.2-1.1.0-8.jar"
@@ -1057,9 +1045,9 @@ alias = "mods/gendustry-1.6.5.8-mc1.12.2.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/global-gamerules.pw.toml"
-hash = "4cf95b75165a577db4df414483da93f8e2a6f55575d81dc376f06220654afe91"
-alias = "mods/GlobalGameRules-1.12.2-2.2.7.jar"
+file = "mods/.index/godular-tachinery.pw.toml"
+hash = "fd6a33a0919bc34bcbee521eb39fc50f874082ca85ff08bc86fc3376bbda3077"
+alias = "mods/godular_tachinery-1.1.1.jar"
 metafile = true
 
 [[files]]
@@ -1363,6 +1351,12 @@ alias = "mods/llibrary-1.7.20-1.12.2.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/loadingscreen.pw.toml"
+hash = "3e80af15583256b44cd2446e6d80987274c0e17589205fbf5ec90a0f3a9dae62"
+alias = "mods/loadingscreens-1.0.1.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/lolasm.pw.toml"
 hash = "9385220744887626601e90b6f044b38414412152f7902f7c0be443fbe381b064"
 alias = "mods/loliasm-5.33.jar"
@@ -1402,6 +1396,12 @@ metafile = true
 file = "mods/.index/lunatriuscore.pw.toml"
 hash = "24cfbe64640f66d4f4e8a963b08e4384b4d10e07068e499f4d4db710bacc3bdb"
 alias = "mods/LunatriusCore-1.12.2-1.2.0.42-universal.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/lycanites-mobs.pw.toml"
+hash = "cd60f16a280a3387eb51793c119d0b8a7d926ed9d1769f7123e1a6c8abc2c582"
+alias = "mods/lycanitesmobs-1.12.2-2.0.8.10.jar"
 metafile = true
 
 [[files]]
@@ -1471,6 +1471,12 @@ alias = "mods/modnametooltip_1.12.2-1.10.1.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/modernsunspirit.pw.toml"
+hash = "67bae4ef8cf8dd92a28073d5a6ddd43683888e5ee29e12addd5f7d7b6f2daaba"
+alias = "mods/ModernSunSpirit-1.3.0.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/modtweaker.pw.toml"
 hash = "37c50bd705bd4436e945e9b49cd1fc6c2aa356a2dd2339fb06a1dbb6494a4c89"
 alias = "mods/modtweaker-4.0.20.11.jar"
@@ -1486,6 +1492,12 @@ metafile = true
 file = "mods/.index/modular-routers.pw.toml"
 hash = "c3976f461454cae2e8e3d586ac0fb7381133bba950a2233c6da1e8768832164c"
 alias = "mods/modular-routers-1.12.2-3.3.0-33.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/modularmachinery-community-edition-complement.pw.toml"
+hash = "6a2ec39e6e0e52e030495e5962d41ab9b330852e585f85406c8bae521412fe15"
+alias = "mods/mmce_complement-1.0.0.jar"
 metafile = true
 
 [[files]]
@@ -1795,12 +1807,6 @@ alias = "mods/Patchouli-1.0-28.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/persistency.pw.toml"
-hash = "cd3919846718ed7f16d76fe1c7704b6ff5119593336678962d098deffe04c01e"
-alias = "mods/persistency-1.2.0.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/pewter.pw.toml"
 hash = "e533de04640cc8449ef10e346ee9422289a8641f081882610a5fa686bddefd79"
 alias = "mods/Pewter-1.4.3.jar"
@@ -1903,12 +1909,6 @@ alias = "mods/random_complement-1.9.2.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/randomaddon.pw.toml"
-hash = "e15b19e80f09c65d7c3b7ce732c83a0bd632ca8057d8c5b6fd03e2c1c529cac4"
-alias = "mods/random_addon-0.7.3.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/randomtweaker.pw.toml"
 hash = "f8a38353f4216e495767b25683231bcd57da51d2b41281ce2e6fae3684c07af5"
 alias = "mods/RandomTweaker-1.4.10.jar"
@@ -2006,8 +2006,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/retro-sophisticated-backpacks.pw.toml"
-hash = "fa9a4d43105f40a3e2faf62aea1094de76b538c7f8995eb706c7c6ad4993603a"
-alias = "mods/Retro-Sophisticated-Backpacks-1.1.3.jar"
+hash = "e776ce9c091e496f9cab1897de33b1d3179df792a3480dbbb6fba40e0afd71c3"
+alias = "mods/Retro-Sophisticated-Backpacks-1.1.1.jar"
 metafile = true
 
 [[files]]
@@ -2059,12 +2059,6 @@ alias = "mods/Scalar Legacy-1.0.1.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/scaling-wealth.pw.toml"
-hash = "f0cb3ff0d51bb47a9c91ede46964b8778171cb5b0f078808a71d033f39e89eef"
-alias = "mods/ScalingWealth-1.0.1.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/scalingguis.pw.toml"
 hash = "2aa6f8b598fb14e365059a83c7186dd5a23368f080524f20e10cedce0034fe7c"
 alias = "mods/scalingguis-1.12.2-1.0.3.1.jar"
@@ -2098,12 +2092,6 @@ metafile = true
 file = "mods/.index/shoulder-surfing-reloaded.pw.toml"
 hash = "3c1460451ad6d9561b8b4efa7eb021d5c737e3b9d8589ed829fc17c2a17371d0"
 alias = "mods/ShoulderSurfing-1.12.2-2.9.6.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/silent-lib.pw.toml"
-hash = "d6959d7cdaf4fedc2701080e080ddf555a341bbb8b140b966a7f86388472ecb6"
-alias = "mods/SilentLib-1.12.2-3.0.14+168.jar"
 metafile = true
 
 [[files]]
@@ -2269,9 +2257,15 @@ alias = "mods/ThaumicEquivalence-1.12.2-1.0.5.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/thaumic-information.pw.toml"
+hash = "727e3ad15fac0ca2ad9bad05918fc394727361d464a2a9eab2b690d5e8d53270"
+alias = "mods/thaumicinfo-1.1.2.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/thaumic-speedup.pw.toml"
-hash = "49ce11cd75bf9669e357221911c4032155cebc8748dc148ca6f8fa2b279a5076"
-alias = "mods/thaumicspeedup-4.0.jar"
+hash = "e9fe023090ab4a3bca37af5bcbb23c524f42d55f96c1e5c7205e8ef244b092ca"
+alias = "mods/thaumicspeedup-5.0.jar"
 metafile = true
 
 [[files]]
@@ -2551,12 +2545,6 @@ alias = "mods/WhimCraft-0.1.4.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/worldgen-block-replacer.pw.toml"
-hash = "3f0d8801c90c7cc7b2cf7decd2e1aea77dfb19fd248a854c39216d6db971f054"
-alias = "mods/WorldGen-Block-Replacer-2.3.3+1.12.2.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/wrapup.pw.toml"
 hash = "53d8ede11ebb74ccc0ab1f03944dad970cc60c2a0e61f3eae68b01b5e8c00332"
 alias = "mods/WrapUp-1.12-1.1.3.jar"
@@ -2653,12 +2641,12 @@ file = "resourcepacks/GreedyCraft2相关内容.zip"
 hash = "e0f48936c92760d8f407313ea5c6fa80ed5d2a645328900ddb190fd5df41d1a5"
 
 [[files]]
-file = "resourcepacks/Minecraft-Mod-Language-Modpack.zip"
-hash = "91837addc0bed17acd8c7946e38f0c066e772e76f1bfe723c0332ac3a0e44df8"
+file = "resourcepacks/Lycanites Redux 1.12.2-v8.2.1.zip"
+hash = "176e6ed680897153c362e0501f9ca955080107ff5911f9921df32cf83d94b36f"
 
 [[files]]
-file = "shaderpacks/ComplementaryShaders_v4.0.2.zip"
-hash = "b84dec0332b3096b3b3d0ee19c3da4bec6620541f0e92b166a3c52a657c5cb61"
+file = "resourcepacks/Minecraft-Mod-Language-Modpack.zip"
+hash = "91837addc0bed17acd8c7946e38f0c066e772e76f1bfe723c0332ac3a0e44df8"
 
 [[files]]
 file = "shaderpacks/ComplementaryShaders_v4.7.2.zip"

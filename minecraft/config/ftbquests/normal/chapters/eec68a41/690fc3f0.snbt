@@ -1,0 +1,26 @@
+{
+	title: "§b风雪珍珠",
+	x: 28.0d,
+	y: -3.0d,
+	description: "合成冰雪幻象之珠，用于激活尼福尔海姆传送门",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "91944126",
+		type: "item",
+		items: [{
+			item: "gctcore:imaginative_snowball"
+		}]
+	}],
+	rewards: [{
+		uid: "86ac9119",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "faf15d00",
+		type: "xp",
+		xp: 10000
+	}]
+}
