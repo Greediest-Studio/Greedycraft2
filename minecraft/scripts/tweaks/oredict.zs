@@ -417,8 +417,7 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <openblocks:trophy:*>,
         <ore:dungeonShield>,
         <ore:inventoryPet>,
-        <journey:xp_catalyst>,
-        <advanced-fishing:blazing_fishing_pole:*>
+        <journey:xp_catalyst>
     ],
     <ore:dungeonLootTier3> : [
         <additions:goodie_bag>,
