@@ -1,0 +1,43 @@
+{
+	title: "§b速度UPUP",
+	x: -21.5d,
+	y: 1.0d,
+	description: "制作封包加速卡和封包储能卡",
+	text: [
+		"手持卡片shift右键封包方块打开升级界面"
+	],
+	dependencies: [
+		"33fc23c0"
+	],
+	tasks: [{
+		uid: "4505e8bc",
+		type: "item",
+		items: [{
+			item: "packaged_acceleration:speed_card"
+		}]
+	},
+	{
+		uid: "8322b5d3",
+		type: "item",
+		items: [{
+			item: "packaged_acceleration:energy_card"
+		}]
+	}],
+	rewards: [{
+		uid: "be6ba9a4",
+		type: "item",
+		item: "packaged_acceleration:speed_card",
+		count: 9
+	},
+	{
+		uid: "9e924984",
+		type: "item",
+		item: "packaged_acceleration:energy_card",
+		count: 9
+	},
+	{
+		uid: "7a64e1f6",
+		type: "xp",
+		xp: 1000
+	}]
+}
