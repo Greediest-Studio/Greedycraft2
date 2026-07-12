@@ -17,7 +17,6 @@ val removedRecipes as IItemStack[] = [
     <theaurorian:scrapaurorianite>,
     <theaurorian:scrapumbra>,
     <nuclearcraft:ingot:11>,
-    <minecraft:iron_ingot>,
     <industrialforegoing:plastic>,
     <netherized:netherite_scrap>
 ] as IItemStack[];
