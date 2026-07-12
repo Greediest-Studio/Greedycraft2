@@ -1044,8 +1044,6 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:dustGorbite> : [<journey:gorbitedust>],
     <ore:dustOrbadite> : [<journey:orbaditedust>],
     <ore:dustDiamond> : [<journey:diamonddust>],
-    <ore:dustGold> : [<journey:golddust>],
-    <ore:dustIron> : [<journey:irondust>],
     <ore:dustBleedstone> : [<journey:bleedstonedust>],
     <ore:dustSmithstone> : [<journey:smithstonedust>],
     <ore:dustAshual> : [<journey:ash>],
