@@ -489,7 +489,9 @@ val removedRecipes as IIngredient[] = [
     <crazyae:improved_solar_panel>,
     <crazyae:advanced_solar_panel>,
     <crazyae:perfect_solar_panel>,
-    <da:frost_locator>
+    <da:frost_locator>,
+    <packaged_acceleration:energy_card>,
+    <packaged_acceleration:speed_card>
 ];
 
 val removedRecipeNames as string[] = [

@@ -1159,6 +1159,16 @@ RecipeUtil.addShaped("basic_miner", <modularmachinery:simple_miner_factory_contr
     [<ore:gearDimensionalShard>, <modularmachinery:blockcontroller>, <ore:gearDimensionalShard>],
     [<ore:blockModularium>, <ore:gearDark>, <ore:blockModularium>]
 ]);
+RecipeUtil.addShaped("packaged_speed_card", <packaged_acceleration:speed_card>, [
+    [<ore:dustRedstone>, <ore:ingotDraconium>, <ore:dustRedstone>],
+    [<ore:ingotPlatinum>, <packagedauto:package_component>, <ore:ingotPlatinum>],
+    [<ore:dustRedstone>, <appliedenergistics2:material:28>, <ore:dustRedstone>]
+]);
+RecipeUtil.addShaped("packaged_energy_card", <packaged_acceleration:energy_card>, [
+    [<ore:dustRedstone>, <ore:ingotDraconium>, <ore:dustRedstone>],
+    [<ore:ingotApalachia>, <packagedauto:package_component>, <ore:ingotApalachia>],
+    [<ore:dustRedstone>, <appliedenergistics2:material:28>, <ore:dustRedstone>]
+]);
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],
