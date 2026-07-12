@@ -34,6 +34,7 @@ Stamper.add(<additions:aspectus_mercury>, <liquid:mercury> * 144, <embers:stamp_
 Stamper.add(<additions:aspectus_salt>, <liquid:brine> * 150, <embers:stamp_plate>, <embers:shard_ember>);
 Stamper.add(<additions:aspect_sulfur>, <liquid:sulfur> * 144, <embers:stamp_plate>, <embers:shard_ember>);
 
+Melter.remove(<additions:zirconium_ore>);
 Melter.add(<liquid:zirconium> * 288, <ore:oreZirconium>, <liquid:hafnium> * 16);
 
 Alchemy.addAspect("antimony", <soot:signet_antimony>);
