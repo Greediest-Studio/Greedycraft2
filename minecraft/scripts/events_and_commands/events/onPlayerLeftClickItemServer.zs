@@ -118,3 +118,8 @@ NetworkHandler.registerClient2ServerMessage("dragonBodyTraitLeftClick", function
         player.armorInventory[3].mutable().attemptDamageItemWithEnergy(5, player);
     }
 });
+
+NetworkHandler.registerClient2ServerMessage("fps", function(server, byteBuf, player) {
+    var fps as int = byteBuf.readInt();
+    player.update({currentFps: fps});
+});

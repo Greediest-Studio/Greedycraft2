@@ -4,7 +4,6 @@
  */
 
 #priority 90
-#reloadable
 
 import mods.ticlib.TicTool;
 import crafttweaker.event.PlayerLoggedInEvent;
@@ -51,7 +50,6 @@ import native.net.minecraft.entity.player.EntityPlayerMP;
 import native.net.minecraft.inventory.Container;
 import native.net.minecraft.world.WorldProvider;
 import native.net.minecraft.item.ItemStack;
-import native.com.teammetallurgy.atum.utils.AtumRenderHelper;
 import native.baubles.api.BaublesApi;
 import native.baubles.api.inv.SlotDefinition;
 import native.baubles.common.init.SlotDefinitions;
@@ -99,11 +97,6 @@ function grantAdvancement(player as IPlayer, advancementId as string) {
         }
     } 
 }
-
-NetworkHandler.registerClient2ServerMessage("fps", function(server, byteBuf, player) {
-    var fps as int = byteBuf.readInt();
-    player.update({currentFps: fps});
-});
 
 events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
 
@@ -521,24 +514,6 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
                 player.attackEntityFrom(IDamageSource.createOfType("erebus_curse"), player.maxHealth);
             }
         }
-    }
-
-    //Atum Vision Trait
-    var hasAtumVision as bool = false;
-    if (player.dimension == 17) {
-        if (!(isNull(player.armorInventory) || player.armorInventory.length <= 0)) {
-            for armor in player.armorInventory {
-                if (TicTool.hasTrait(armor, "atum_vision_armor")) {
-                    hasAtumVision = true;
-                    break;
-                }
-            }
-        }
-    }
-    if (hasAtumVision) {
-        AtumRenderHelper.setFogAndSandRenderFactor(player.native, 0.2f);
-    } else {
-        AtumRenderHelper.setFogAndSandRenderFactor(player.native, 1.0f);
     }
 
     //Heatstroke Trait
