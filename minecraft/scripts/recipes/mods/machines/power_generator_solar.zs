@@ -11,7 +11,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.world.IBlockPos;
 
-import native.net.minecraft.world.World;
+import crafttweaker.world.IWorldProvider;
 
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.MachineModifier;
@@ -49,8 +49,8 @@ MMEvents.onMachinePreTick("solar_power_generator", function(event as MachineTick
     val ctrl as IMachineController = event.controller;
     if (!ctrl.world.isRemote() && ctrl.world.getWorldTime() % 100 == 0) {
         var panelLight as int = ctrl.checkPanelLight();
-        var nativeWorld as World = ctrl.world.native as World;
-        var worldBrightness as float = nativeWorld.getSunBrightness(1.0f);
+        var World = IWorldProvider.getFromID(ctrl.world.getDimension());
+        var worldBrightness as float = World.getSunBrightness(1.0F);
         var efficiency as float = (panelLight as float / 36.0f) * worldBrightness;
         ctrl.customData = ctrl.customData.update({
             solarPanelLight: panelLight as int,

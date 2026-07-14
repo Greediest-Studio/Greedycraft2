@@ -9,11 +9,11 @@ import crafttweaker.player.IPlayer;
 
 import mods.zenutils.NetworkHandler;
 
-import native.net.minecraft.client.Minecraft;
+import mods.eventtweaker.Minecraft;
 
 events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
     if (event.player.world.getWorldTime() % 20 == 0) {
-        var fps as int = Minecraft.getDebugFPS();
+        var fps as int = Minecraft.getfps();
         NetworkHandler.sendToServer("fps", function(bytebuf) {
             bytebuf.writeInt(fps);
         });

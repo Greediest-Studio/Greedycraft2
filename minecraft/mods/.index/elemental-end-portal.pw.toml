@@ -1,13 +1,12 @@
-name = 'Elemental End Portal'
-filename = 'elementalend-1.0.0.jar'
-side = 'both'
+name = "Elemental End Portal"
+filename = "elementalend-1.0.1.jar"
+side = "both"
 
 [download]
-hash-format = 'sha1'
-hash = 'd28ec0f9c7693cf393cfd6da5b3c4f1915842ba4'
-mode = 'metadata:curseforge'
+hash-format = "sha1"
+hash = "83d1837f4223e62e45ef39022d622bb74b690c11"
+mode = "metadata:curseforge"
 
-[update]
 [update.curseforge]
-file-id = 6964833
+file-id = 7030090
 project-id = 1341345
