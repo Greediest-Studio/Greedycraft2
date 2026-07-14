@@ -973,6 +973,12 @@ alias = "mods/FTBUtilities-5.4.1.131.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/ftbu-xaero-compat.pw.toml"
+hash = "62a1f0ac44d12d2aecaff5d40729696c38cc41bcc94096b05f4a25190f06104b"
+alias = "mods/ftbuxaerocompat-1.1.1.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/fugue.pw.toml"
 hash = "df1ec3ba954111919995f021bd9f5218017b2aa31eeb3e72f3e49f087da6cfac"
 alias = "mods/+Fugue-0.23.7.jar"
