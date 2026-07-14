@@ -26,19 +26,18 @@ events.register(function(event as LeftClickEmpty) {
     var player as IPlayer = event.getEntityPlayer().wrapper;
     if (!isNull(player.mainHandHeldItem)) {
         var item as IItemStack = player.mainHandHeldItem;
-        if (TicTool.isTool(item) && TicTool.hasTrait(item, "subspace")) {
+        if (item.isTool() && item.hasTrait("subspace")) {
             NetworkHandler.sendToServer("subspaceLeftClick");
         }
         if (item.definition.id == "additions:emergency_button") {
             player.sendStatusMessage("§c§l已清除所有敌对实体！");
             NetworkHandler.sendToServer("emergencyButtonLeftClick");
         }
-        if (TicTool.getArmorSlotTraits(player, "helmet") has "dragon_body_armor") {
-            if (TicTool.getArmorSlotTraits(player, "chestplate") has "dragon_body_armor" &&
-                TicTool.getArmorSlotTraits(player, "leggings") has "dragon_body_armor" &&
-                TicTool.getArmorSlotTraits(player, "boots") has "dragon_body_armor") {
-                    NetworkHandler.sendToServer("dragonBodyTraitLeftClick");
-            }
+        if (player.hasArmorSlotTrait("helmet","dragon_body_armor") &&
+            player.getArmorSlotTraits("chestplate","dragon_body_armor") &&
+            player.getArmorSlotTraits("leggings","dragon_body_armor") &&
+            player.getArmorSlotTraits("boots","dragon_body_armor")) {
+            NetworkHandler.sendToServer("dragonBodyTraitLeftClick");
         }
     }
 });
