@@ -2107,12 +2107,6 @@ alias = "mods/soundphysics-1.2.1.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/spatialcompat.pw.toml"
-hash = "734d7b7d9d725c56cab491786c913316bf547b33f52bafb9cacd16303ebbff87"
-alias = "mods/spatialservermod-1.3.1.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/spice-of-life-carrot-edition.pw.toml"
 hash = "6d38386930d2ffa02d5858ebe32f927d3fe10bf9dbdd6b3826828047b176451d"
 alias = "mods/solcarrot-1.12.2-1.8.4.jar"
@@ -2350,6 +2344,12 @@ metafile = true
 file = "mods/.index/tinkers-planner-antique.pw.toml"
 hash = "a7676e500deeb1662d886565b2f44dbcecc1d57bc7ab0af41a7b4ed03b38285d"
 alias = "mods/TinkersPlannerAntique-1.12.2-1.0.3.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/tinkers-tactical-toughness.pw.toml"
+hash = "c7ebe2df75fdb69d2231f2e43a7a108f17af0707cd49a554c5e4281257291159"
+alias = "mods/TinkersTacticalToughness-1.7.3.jar"
 metafile = true
 
 [[files]]
