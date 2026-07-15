@@ -39,9 +39,11 @@ jobs:
       - name: 4. 打包前合并 submods
         run: |
           if [ -d mods/submods ]; then
-            find mods/submods -mindepth 1 -maxdepth 1 -type f -print0 | while IFS= read -r -d '' file; do
-              mv -- "$file" mods/
-            done
+            if [ -d mods/submods/client ]; then
+              find mods/submods/client -maxdepth 1 -type f -print0 | xargs -0 -I {} mv {} mods/
+              rmdir mods/submods/client || true
+            fi
+            find mods/submods -maxdepth 1 -type f -print0 | xargs -0 -I {} mv {} mods/
             rmdir mods/submods || true
           fi
 
