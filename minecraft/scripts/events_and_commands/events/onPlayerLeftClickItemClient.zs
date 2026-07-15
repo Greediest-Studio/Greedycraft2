@@ -34,9 +34,9 @@ events.register(function(event as LeftClickEmpty) {
             NetworkHandler.sendToServer("emergencyButtonLeftClick");
         }
         if (player.hasArmorSlotTrait("helmet","dragon_body_armor") &&
-            player.hasArmorSlotTraits("chestplate","dragon_body_armor") &&
-            player.hasArmorSlotTraits("leggings","dragon_body_armor") &&
-            player.hasArmorSlotTraits("boots","dragon_body_armor")) {
+            player.hasArmorSlotTrait("chestplate","dragon_body_armor") &&
+            player.hasArmorSlotTrait("leggings","dragon_body_armor") &&
+            player.hasArmorSlotTrait("boots","dragon_body_armor")) {
             NetworkHandler.sendToServer("dragonBodyTraitLeftClick");
         }
     }
