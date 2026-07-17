@@ -1169,6 +1169,11 @@ RecipeUtil.addShaped("packaged_energy_card", <packaged_acceleration:energy_card>
     [<ore:ingotApalachia>, <packagedauto:package_component>, <ore:ingotApalachia>],
     [<ore:dustRedstone>, <appliedenergistics2:material:28>, <ore:dustRedstone>]
 ]);
+RecipeUtil.addShaped("mininglevel_upgrade", <gctcore:mining_level_upgrade>, [
+    [null, <ore:circuitAdvanced>, null],
+    [<ore:alloyAdvanced>, <minecraft:diamond_pickaxe>, <ore:alloyAdvanced>],
+    [null, <ore:circuitAdvanced>, null]
+]);
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],

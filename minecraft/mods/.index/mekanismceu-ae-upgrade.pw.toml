@@ -1,0 +1,13 @@
+filename = 'MekanismCeu-AE-Upgrade-1.1.0.jar'
+name = 'MekanismCeu-AE-Upgrade'
+side = 'both'
+
+[download]
+hash = 'b8f50125d39ec06308b3e1bc94219d7753eda5bf'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+
+[update]
+[update.curseforge]
+file-id = 8416019
+project-id = 1606943

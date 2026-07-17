@@ -1,13 +1,12 @@
-name = "MekanismMixinHelp"
-filename = "MekanismMixinHelp-1.1.2.jar"
-side = "both"
+filename = 'MekanismMixinHelp-1.2.0.jar'
+name = 'MekanismMixinHelp'
+side = ''
 
 [download]
-hash-format = "sha1"
-hash = "a783d15acb4ee3a17c55997cb2aeab62a24709bf"
-mode = "metadata:curseforge"
+hash = '0d0abf71d9b8fbe7962c9b3b717db63ff607dcd4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
 
-[update]
 [update.curseforge]
-file-id = 7872855
+file-id = 8411943
 project-id = 1193452
