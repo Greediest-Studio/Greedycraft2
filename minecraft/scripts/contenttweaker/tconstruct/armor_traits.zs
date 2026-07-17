@@ -66,7 +66,7 @@ import kbtwkr.keybinding.Modifier;
 import kbtwkr.keybinding.Keys;
 
 import native.slimeknights.tconstruct.library.utils.ToolHelper;
-import native.com.meteor.extrabotany.common.helper.SubspaceHelper;
+import native.com.smd.gctcore.common.integration.extrabotany.SubspaceHelper;
 import native.thaumcraft.api.capabilities.IPlayerKnowledge;
 import native.thaumcraft.api.capabilities.ThaumcraftCapabilities;
 import native.thaumcraft.api.research.ResearchCategory;

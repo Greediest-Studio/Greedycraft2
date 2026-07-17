@@ -17,7 +17,7 @@ import mods.zenutils.NetworkHandler;
 import mods.randomtweaker.botania.IManaItemHandler;
 import mods.ctutils.utils.Math;
 
-import native.com.meteor.extrabotany.common.helper.SubspaceHelper;
+import native.com.smd.gctcore.common.integration.extrabotany.SubspaceHelper;
 import native.slimeknights.tconstruct.library.utils.ToolHelper;
 
 $expand IMutableItemStack$attemptDamageItemWithEnergy(num as int, player as IPlayer) as void {

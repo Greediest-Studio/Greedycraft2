@@ -71,7 +71,7 @@ import native.thebetweenlands.common.world.event.EventRift;
 import native.thebetweenlands.api.capability.IDecayCapability;
 import native.thebetweenlands.common.capability.decay.DecayStats;
 import native.thebetweenlands.common.registries.CapabilityRegistry;
-import native.com.meteor.extrabotany.common.helper.SubspaceHelper;
+import native.com.smd.gctcore.common.integration.extrabotany.SubspaceHelper;
 import native.thaumcraft.api.capabilities.IPlayerKnowledge;
 import native.thaumcraft.api.capabilities.ThaumcraftCapabilities;
 import native.thaumcraft.api.research.ResearchCategory;
