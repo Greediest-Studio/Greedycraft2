@@ -365,7 +365,6 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <ore:itemPoop>, 
         <ore:gemShadow>, 
         <ore:record>,
-        <journey:tomatoseeds>,
         <journey:magic_dust>
     ],
     <ore:dungeonLootTier2> : [
