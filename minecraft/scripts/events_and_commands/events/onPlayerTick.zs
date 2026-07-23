@@ -449,52 +449,18 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
                         if (portable == 1 && block.data.ticksOpen as int != 0) {
                             if (world.dimension != 42) {
                                 var x = player.x as int;
-                                var y = 64 as int;
+                                var y = 255 as int;
                                 var z = player.z as int;
-                                val destination = IWorld.getFromID(42);
-                                var tp = true;
-                                if (destination.getBlock(x,y,z).definition.id == "minecraft:air" && destination.getBlock(x,y + 1,z).definition.id == "minecraft:air" && destination.getBlock(x,y - 1,z).definition.id != "minecraft:air" && destination.getBlock(x,y - 1,z).definition.id != "erebus:formic_acid") {
-                                    server.commandManager.executeCommand(server, "/forge setdimension " ~ player.name ~ " 42 " ~ (x as string) ~ " " ~ (y as string) ~ " " ~ (z as string));
-                                    tp = false;
-                                }
-                                if (tp) {
-                                    var i as int = -16;
-                                    var j as int = -16;
-                                    var k as int = -16;
-                                    while ((i <= 16) && tp) {
-                                        while ((j <= 16) && tp) {
-                                            while ((k <= 16) && tp) {
-                                                if (destination.getBlock(x + i,y + j,z + k).definition.id == "minecraft:air" && destination.getBlock(x + i,y + j + 1,z + k).definition.id == "minecraft:air" && destination.getBlock(x + i,y + j - 1,z + k).definition.id != "minecraft:air" && destination.getBlock(x,y - 1,z).definition.id != "erebus:formic_acid") {
-                                                    server.commandManager.executeCommand(server, "/forge setdimension " ~ player.name ~ " 42 " ~ (x + i) as string ~ " " ~ (y + j) as string ~ " " ~ (z + k) as string);
-                                                    tp = false;
-                                                }
-                                                k += 1;
-                                            }
-                                            k = -16;
-                                            j += 1;
+                                val dim = IWorld.getFromID(42);
+                                while (y > 0) {
+                                    if (dim.getBlock(x,(y - 1),z).definition.id != "minecraft:air") {
+                                        if (dim.getBlock(x,(y - 1),z).definition.id == "erebus:formic_acid") {
+                                            dim.setBlockState(<blockstate:minecraft:grass>,IBlockPos.create(x,(y - 1),z));
                                         }
-                                        j = -16;
-                                        i += 1;
-                                    }
-                                }
-                                if (tp) {
-                                    var i as int = -64;
-                                    var j as int = -63;
-                                    var k as int = -64;
-                                    while ((i <= 64) && tp) {
-                                        while ((j <= 128) && tp) {
-                                            while ((k <= 64) && tp) {
-                                                if (destination.getBlock(x + i,y + j,z + k).definition.id == "minecraft:air" && destination.getBlock(x + i,y + j + 1,z + k).definition.id == "minecraft:air" && destination.getBlock(x + i,y + j - 1,z + k).definition.id != "minecraft:air" && destination.getBlock(x,y - 1,z).definition.id != "erebus:formic_acid") {
-                                                    server.commandManager.executeCommand(server, "/forge setdimension " ~ player.name ~ " 42 " ~ (x + i) as string ~ " " ~ (y + j) as string ~ " " ~ (z + k) as string);
-                                                    tp = false;
-                                                }
-                                                k += 1;
-                                            }
-                                            k = -64;
-                                            j += 1;
-                                        }
-                                        j = -64;
-                                        i += 1;
+                                        server.commandManager.executeCommand(server, "/forge setdimension " ~ player.name ~ " 42 " ~ (x as string) ~ " " ~ (y as string) ~ " " ~ (z as string));
+                                        break;
+                                    } else {
+                                        y -= 1;
                                     }
                                 }
                             }
