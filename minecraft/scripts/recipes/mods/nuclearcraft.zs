@@ -561,6 +561,11 @@ IngotFormer.addRecipe(<liquid:dilithium_fluid> * 144, <taiga:dilithium_ingot>);
 IngotFormer.addRecipe(<liquid:eco_basic_alloy> * 144, <additions:eco_basic_alloy_ingot>);
 IngotFormer.addRecipe(<liquid:blue_alloy> * 144, <additions:blue_alloy_ingot>);
 IngotFormer.addRecipe(<liquid:sodium_fluoride> * 666, <nuclearcraft:compound:3>);
+IngotFormer.addRecipe(<liquid:cadmium_oxide> * 666, <additions:cadmium_oxide>);
+IngotFormer.addRecipe(<liquid:cadmium_sulfide> * 666, <additions:cadmium_sulfide>);
+IngotFormer.addRecipe(<liquid:cadmium_selenide> * 666, <additions:cadmium_selenide>);
+IngotFormer.addRecipe(<liquid:cadmium_telluride> * 666, <additions:cadmium_telluride>);
+IngotFormer.addRecipe(<liquid:cadmium_polonide> * 666, <additions:cadmium_polonide>);
 
 SaltMixer.removeRecipeWithInput(<liquid:arsenic> * 1332, <liquid:nak> * 144);
 
