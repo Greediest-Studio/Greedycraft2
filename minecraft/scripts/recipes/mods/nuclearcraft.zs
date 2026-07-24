@@ -686,6 +686,13 @@ ChemicalReactor.addRecipe(<liquid:witherite_water> * 333, <liquid:hydrochloric_a
 ChemicalReactor.addRecipe(<liquid:witherite_water> * 333, <liquid:nitric_acid> * 1000, <liquid:barium_nitrate_solution> * 333, <liquid:carbon_dioxide> * 500);
 ChemicalReactor.addRecipe(<liquid:silicon_tetrafluoride> * 250, <liquid:sodium> * 144, <liquid:sodium_fluoride> * 666, <liquid:silicon> * 36);
 ChemicalReactor.addRecipe(<liquid:carbon> * 144, <liquid:silicon> * 144, <liquid:sic> * 144, null);
+ChemicalReactor.addRecipe(<liquid:polystyrene> * 144, <liquid:chlorosulfonic_acid> * 1000, <liquid:sulfonated_polystyrene> * 144, <liquid:liquidhydrogenchloride> * 1000);
+ChemicalReactor.addRecipe(<liquid:phosphorus_trichloride> * 1000, <liquid:water> * 3000, <liquid:phosphorous_acid> * 1000, <liquid:liquidhydrogenchloride> * 3000);
+ChemicalReactor.addRecipe(<liquid:ethylene_glycol> * 5000, null, <liquid:pentaethylene_glycol> * 1000, <liquid:water> * 4000);
+ChemicalReactor.addRecipe(<liquid:pentaethylene_glycol> * 1000, <liquid:liquidhydrogenchloride> * 2000, <liquid:dichloropentaethylene_glycol> * 1000, <liquid:water> * 2000);
+ChemicalReactor.addRecipe(<liquid:nitrobenzo_18_crown_6_solution> * 666, <liquid:hydrogen> * 1500, <liquid:aminobenzo_18_crown_6_solution> * 666, <liquid:water> * 1000);
+ChemicalReactor.addRecipe(<liquid:crown_ether_phosphonated_styrene_divinylbenzene_copolymer> * 144, <liquid:chlorosulfonic_acid> * 1000, <liquid:crown_ether_phosphonic_sulfonated_styrene_divinylbenzene_copolymer> * 144, <liquid:liquidhydrogenchloride> * 1000);
+ChemicalReactor.addRecipe(<liquid:calcium_lactate_solution> * 1000, <liquid:sulfuric_acid> * 1000, <liquid:lactic_acid> * 1332, <liquid:calcium_sulfate_solution> * 666);
 
 Crystallizer.addRecipe(<liquid:iodine_carbon_tetrachloride_solution> * 200, <jaopca:dust.iodine>);
 Crystallizer.addRecipe(<liquid:chloroplatinic_acid_solution> * 666, <additions:chloroplatinic_acid>);
