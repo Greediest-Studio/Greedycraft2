@@ -75,7 +75,7 @@ global serverTranslations as string[string][string] = {
         "greedycraft.scoreboard.title": "§b§l贪婪整合包§r §6v%s",
         "greedycraft.scoreboard.author": "原作：§dTCreopargh",
         "greedycraft.scoreboard.author2": "改进：§dGreediest工作室",
-        "greedycraft.scoreboard.mode.adventure": "§9游戏模式：§6冒险"
+        "greedycraft.scoreboard.mode.adventure": "§9游戏模式：§6冒险",
         "greedycraft.stage.unfamiliar.name": "§5§ka§r §d未知物品 §5§ka§r",
         "greedycraft.stage.wither_skull.name": "§c无法直视的头颅",
         "greedycraft.stage.disabled_item.name": "§4已禁用的物品",
