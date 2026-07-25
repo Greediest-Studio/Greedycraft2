@@ -937,7 +937,6 @@ Radiation.setMaterialRadiationLevel("Iridium192", 0.00018d);
 Radiation.setMaterialRadiationLevel("Irradium", 0.00085d);
 Radiation.setMaterialRadiationLevel("Nucleum", 0.000012d);
 Radiation.setMaterialRadiationLevel("CadmiumPolonide", number(191.0d, m));
-Radiation.setMaterialRadiationLevel("CadmiumChalcogenide", number(186.4d, m));
 Radiation.setMaterialRadiationLevel("UranylNitrate", number(2.2d, n));
 Radiation.setMaterialRadiationLevel("NeptunylNitrate", number(750.0d, n));
 Radiation.setMaterialRadiationLevel("PlutonylNitrate", number(42.0d, u));
