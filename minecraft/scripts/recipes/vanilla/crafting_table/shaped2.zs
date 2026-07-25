@@ -1174,6 +1174,37 @@ RecipeUtil.addShaped("mininglevel_upgrade", <gctcore:mining_level_upgrade>, [
     [<ore:alloyAdvanced>, <minecraft:diamond_pickaxe>, <ore:alloyAdvanced>],
     [null, <ore:circuitAdvanced>, null]
 ]);
+RecipeUtil.addShaped("energy_input_bus", <mmce_complement:me_energy_input_bus>, [
+    [<modularmachinery:blockcasing>, <crazyae:part:7>, <modularmachinery:blockcasing>],
+    [<crazyae:part:7>, <enderio:block_cap_bank:3>, <crazyae:part:7>],
+    [<modularmachinery:blockcasing>, <crazyae:part:7>, <modularmachinery:blockcasing>]
+]);
+RecipeUtil.addShaped("energy_output_bus", <mmce_complement:me_energy_output_bus>, [
+    [<modularmachinery:blockcasing>, <crazyae:part:8>, <modularmachinery:blockcasing>],
+    [<crazyae:part:8>, <enderio:block_cap_bank:3>, <crazyae:part:8>],
+    [<modularmachinery:blockcasing>, <crazyae:part:8>, <modularmachinery:blockcasing>]
+]);
+RecipeUtil.addShaped("mana_input_bus", <mmce_complement:me_mana_input_bus>, [
+    [<modularmachinery:blockcasing>, <crazyae:part:4>, <modularmachinery:blockcasing>],
+    [<crazyae:part:4>, <extrabotany:manabarrel>, <crazyae:part:4>],
+    [<modularmachinery:blockcasing>, <crazyae:part:4>, <modularmachinery:blockcasing>]
+]);
+RecipeUtil.addShaped("mana_output_bus", <mmce_complement:me_mana_output_bus>, [
+    [<modularmachinery:blockcasing>, <crazyae:part:5>, <modularmachinery:blockcasing>],
+    [<crazyae:part:5>, <extrabotany:manabarrel>, <crazyae:part:5>],
+    [<modularmachinery:blockcasing>, <crazyae:part:5>, <modularmachinery:blockcasing>]
+]);
+RecipeUtil.addShaped("flux_network_input_bus", <mmce_complement:flux_input_hatch>, [
+    [<modularmachinery:blockcasing>, <fluxnetworks:fluxpoint>, <modularmachinery:blockcasing>],
+    [<fluxnetworks:fluxpoint>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxpoint>],
+    [<modularmachinery:blockcasing>, <fluxnetworks:fluxpoint>, <modularmachinery:blockcasing>]
+]);
+RecipeUtil.addShaped("flux_network_output_bus", <mmce_complement:flux_output_hatch>, [
+    [<modularmachinery:blockcasing>, <fluxnetworks:fluxplug>, <modularmachinery:blockcasing>],
+    [<fluxnetworks:fluxplug>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxplug>],
+    [<modularmachinery:blockcasing>, <fluxnetworks:fluxplug>, <modularmachinery:blockcasing>]
+]);
+
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],
