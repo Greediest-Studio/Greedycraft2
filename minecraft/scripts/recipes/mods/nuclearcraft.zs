@@ -780,7 +780,7 @@ Enricher.addRecipe(<ore:dustBariumOxide>, <liquid:nitric_acid> * 2000, <liquid:b
 Enricher.addRecipe(<ore:dustBariumOxide>, <liquid:hydrochloric_acid> * 2000, <liquid:barium_chloride_solution> * 666);
 Enricher.addRecipe(<ore:gemCalciumCarbide>, <liquid:water> * 2000, <liquid:ethyne> * 1000, 0.05d);
 Enricher.addRecipe(<additions:calcium_oxide>, <liquid:acetic_acid> * 2000, <liquid:calcium_acetate_solution> * 666);
-Enricher.addRecipe(<additions:calcium_carbonate> * 2, <liquid:sugar> * 144, <liquid:calcium_lactate_solution> * 2000, 100.0d);
+Enricher.addRecipe(<additions:calcium_carbonate> * 2, <liquid:sugar> * 144, <liquid:calcium_lactate_solution> * 2000, 5.0d);
 Enricher.addRecipe(<trinity:trinitite_shard>, <liquid:hydrofluoric_acid> * 1000, <liquid:trinitite_leachate> * 1000, 2.5d);
 Enricher.addRecipe(<additions:alpha_hydroxyisobutyric_acid>, <liquid:ammonia> * 1000, <liquid:ammonium_alpha_hydroxyisobutyrate_solution> * 1000, 2.0d, 4.0d, 0.0d);
 Enricher.addRecipe(<additions:lactic_acid_powder>, <liquid:water> * 1000, <liquid:lactic_acid> * 666, 1.0d, 2.0d, 0.0d);
