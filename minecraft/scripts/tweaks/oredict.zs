@@ -270,7 +270,7 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:gemCarminite> : [<twilightforest:carminite>],
     <ore:blockCarminite> : [<twilightforest:block_storage:4>],
     <ore:slimeball> : [<defiledlands:foul_slime>, <thermalfoundation:material:833>],
-    <ore:workbench> : [<ore:craftingTableWood>, <randomthings:customworkbench:*>],
+    <ore:workbench> : [<ore:craftingTableWood>],
     <ore:plantFibre> : [<hooked:microcrafting>],
     <ore:string> : [<hooked:microcrafting:1>],
     <ore:dirt> : [<biomesoplenty:dirt:*>],

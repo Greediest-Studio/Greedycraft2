@@ -1059,6 +1059,7 @@ var disabledItems as IIngredient[] = [
     <betterendforge:crystalite_chestplate>,
     <betterendforge:crystalite_leggings>,
     <betterendforge:crystalite_boots>,
+    <mekanism:machineblock:13>,
     <modularmachineryaddons:advancedmachineassembler>
 ] as IIngredient[];
 
@@ -1105,10 +1106,6 @@ for item in loadedMods["mekanism"].items {
     if (item.definition.id has "gastank") && (item.displayName has "创造") {
         JEI.hide(item);
     }
-}
-
-if (!isNull(itemUtils.getItem("utilityworlds:portal_void"))) {
-    disabledItems += itemUtils.getItem("utilityworlds:portal_mining");
 }
 
 for ingredient in disabledItems {
