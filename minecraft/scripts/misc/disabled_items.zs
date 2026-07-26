@@ -921,7 +921,6 @@ var disabledItems as IIngredient[] = [
     <thaumicwonders:disjunction_cloth>,
     <evilcraft:spirit_furnace>,
     <tiths:ore_tanatonium>,
-    <additions:sanite_ore>,
     <modularmachinery:blockstarlightproviderinput>,
     <modularmachinery:blockstarlightprovideroutput>,
     <modularmachinery:blockconstellationprovider>,
@@ -1059,7 +1058,6 @@ var disabledItems as IIngredient[] = [
     <betterendforge:crystalite_chestplate>,
     <betterendforge:crystalite_leggings>,
     <betterendforge:crystalite_boots>,
-    <mekanism:machineblock:13>,
     <modularmachineryaddons:advancedmachineassembler>
 ] as IIngredient[];
 
