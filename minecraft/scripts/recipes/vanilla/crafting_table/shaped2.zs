@@ -1204,6 +1204,11 @@ RecipeUtil.addShaped("flux_network_output_bus", <mmce_complement:flux_output_hat
     [<fluxnetworks:fluxplug>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxplug>],
     [<modularmachinery:blockcasing>, <fluxnetworks:fluxplug>, <modularmachinery:blockcasing>]
 ]);
+RecipeUtil.addShaped("ae_chisel", <ae_chisel:ae_chisel>, [
+    [<appliedenergistics2:material:38>, <chisel:chisel_hitech>, <appliedenergistics2:material:38>],
+    [<appliedenergistics2:interface>, <appliedenergistics2:molecular_assembler>, <appliedenergistics2:interface>],
+    [<appliedenergistics2:material:58>, <chisel:auto_chisel>, <appliedenergistics2:material:58>]
+]);
 
 /*
 RecipeUtil.addShaped("", , [
