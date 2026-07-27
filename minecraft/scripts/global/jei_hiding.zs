@@ -8,17 +8,6 @@ for fluidItems in pewter.items {
     JEI.hide(fluidItems);
 }
 
-val contenttweaker as IMod = loadedMods["contenttweaker"];
-for oreItems in contenttweaker.items {
-    if (!isNull(oreItems.ores)) {
-        if (oreItems.ores.length != 0) {
-            if (oreItems.ores[0].name has "ore") {
-                JEI.hide(oreItems);
-            }
-        }
-    }
-}
-
 val modularmachinery as IMod = loadedMods["modularmachinery"];
 for controller in modularmachinery.items {
     if (controller.definition.id has "_controller" && !(controller.definition.id has "_factory_controller")) {
