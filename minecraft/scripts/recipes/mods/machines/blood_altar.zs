@@ -25,7 +25,6 @@ import mods.modularmachinery.FactoryRecipeTickEvent;
 import mods.modularmachinery.FactoryRecipeFinishEvent;
 import mods.modularmachinery.FactoryRecipeEvent;
 import mods.modularmachinery.RecipeModifierBuilder;
-import mods.modularmachinery.SmartInterfaceUpdateEvent;
 import mods.modularmachinery.MachineStructureUpdateEvent;
 import mods.modularmachinery.Sync;
 
@@ -34,12 +33,12 @@ import mods.modularmachinery.ControllerGUIRenderEvent;
 import mods.modularmachinery.MachineTickEvent;
 
 import mods.modularmachinery.IMachineController;
-import mods.modularmachinery.SmartInterfaceData;
 import mods.modularmachinery.MachineModifier;
-import mods.modularmachinery.SmartInterfaceType;
 import mods.modularmachinery.FactoryRecipeThread;
 import mods.modularmachinery.RecipeFinishEvent;
 import mods.modularmachinery.RecipeTickEvent;
+import mods.mmceguiext.MMCEGEEvents;
+import mods.mmceguiext.ControllerButtonClickEvent;
 
 import mods.gctweaker.IBigInteger;
 import mods.gctweaker.IBigDecimal;
@@ -47,8 +46,6 @@ import mods.gctweaker.IBigDecimal;
 MachineModifier.setMaxThreads("blood_altar", 1);
 MachineModifier.setInternalParallelism("blood_altar", 2147483647);
 MachineModifier.setMaxParallelism("blood_altar", 2147483647);
-
-MachineModifier.addSmartInterfaceType("blood_altar", SmartInterfaceType.create("模式", 0));
 
 MachineModifier.addCoreThread("blood_altar", FactoryRecipeThread.createCoreThread("源质净化模块").addRecipe("purify"));
 MachineModifier.addCoreThread("blood_altar", FactoryRecipeThread.createCoreThread("宝珠输出模块"));
@@ -186,15 +183,7 @@ MMEvents.onMachinePreTick("blood_altar", function(event as MachineTickEvent) {
     var extractNum = IBigInteger.create((IBigDecimal.create("1.2").pow(event.controller.getBlocksInPattern(<bloodmagic:blood_rune:5>)) * IBigDecimal.create("20")).toStringScale0());
     var acceleration as int = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int;
     var checkTime as int = (20 - acceleration) > 1 ? (20 - acceleration) : 1;
-    
-    //定义祭坛模式
-    if (!isNull(event.controller.getSmartInterfaceData("模式")) && world.getWorldTime() % 20 == 0) {
-        if (event.controller.getSmartInterfaceData("模式").value > 2.0f || event.controller.getSmartInterfaceData("模式").value < 0.0f) {
-            event.controller.customData = event.controller.customData.update({mode : 0});
-        } else {
-            event.controller.customData = event.controller.customData.update({mode : event.controller.getSmartInterfaceData("模式").value as int});
-        }
-    }
+
     //初始化祭坛容量
     if (isNull(event.controller.customData.LP)) {
         event.controller.customData = event.controller.customData.update({LP : "0"});
@@ -265,7 +254,8 @@ MMEvents.onControllerGUIRender("blood_altar", function(event as ControllerGUIRen
         "§d增容符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:6>) as string ~ "     §d速度符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:1>) as string ~ "     §d超容符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:7>) as string,
         "§d转位符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:5>) as string ~ "     §d促进符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as string ~ "     §d效率符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:2>) as string,
         "§d线程符文§e * " ~ event.controller.getBlocksInPattern(<additions:blood_rune_thread>) as string ~ "     §d节流符文§e * " ~ event.controller.getBlocksInPattern(<additions:blood_rune_economy>) as string ~ "     §d净化符文§e * " ~ event.controller.getBlocksInPattern(<additions:blood_rune_purify>) as string,
-        "§d宝珠符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>) as string ~ "     §d玩家符文§e * " ~ event.controller.getBlocksInPattern(<additions:blood_rune_personal>) as string
+        "§d宝珠符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>) as string ~ "     §d玩家符文§e * " ~ event.controller.getBlocksInPattern(<additions:blood_rune_personal>) as string ~ "     §d献祭符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:3>) as string,
+        "§d牺牲符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:4>)
     ];
 
     val sd = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:1>);
@@ -308,6 +298,36 @@ MMEvents.onControllerGUIRender("blood_altar", function(event as ControllerGUIRen
     }
 
     event.extraInfo = info;
+});
+
+MMCEGEEvents.onControllerButtonClick("blood_altar", function(event as ControllerButtonClickEvent) {
+    val ctrl = event.controller;
+    val data = ctrl.customData;
+    val mode = event.getCustomFloat("mode");
+    val count = event.getCustomFloat("count");
+    if (!event.controller.world.isRemote() || event.buttonId == "event_mode") {
+        if (count == 0 || count == 1 || count == 2 || count == 3) {
+            event.setCustomFloat("count", count + 1);
+            print(count + 1);
+        } else {
+            event.setCustomFloat("count", 0);
+            print(0);
+        }
+
+        if (count == 0 || count == 1) {
+            event.setCustomFloat("mode", 0);
+        } else {
+            event.setCustomFloat("mode", 1);
+        }
+        //if (mode == 0) {
+        //    event.setCustomFloat("mode", 1);
+        //    print(1);
+        //} else {
+        //    event.setCustomFloat("mode", 0);
+        //    print(0);
+        //}
+        event.syncController();
+    }
 });
 
 function economyCount(event as FactoryRecipeEvent) as IBigDecimal {
