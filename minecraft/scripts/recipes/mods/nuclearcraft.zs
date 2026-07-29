@@ -479,6 +479,7 @@ Melter.addRecipe(<ore:blockBlueAlloy>, <liquid:blue_alloy> * 1296);
 Melter.addRecipe(<ore:nuggetBlueAlloy>, <liquid:blue_alloy> * 16);
 Melter.addRecipe(<additions:ldpe_sheet>, <liquid:polyethylene_low_density> * 144);
 Melter.addRecipe(<mekanism:hdpe_sheet>, <liquid:polyethylene_high_density> * 144);
+Melter.addRecipe(<contenttweaker:einsteinium52>, <liquid:einsteinium_252> * 144);
 
 Melter.addRecipe(<thermalfoundation:material:893>, <liquid:redstone> * 250);
 Melter.addRecipe(<thermalfoundation:material:894>, <liquid:glowstone> * 250);

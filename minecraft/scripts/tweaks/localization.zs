@@ -74,6 +74,7 @@ val localizationMap as string[string][string] = {
         "item.suikecherry._armor_trim_smithing_template.name": "§e无盔甲纹饰",
         "item.key.name": "末地哀影钥匙",
         "tile.solarflux:solar_panel_wyvern.name": "飞龙太阳能电池板",
+        "tile.ae2stuff.wireless_hub.name": "无线接入总线",
         "research_name.thaumadditions:adaminite": "铿金金属",
         "research_stage.thaumadditions:adaminite.2": "我的实验已大获成功！书中它这种新造物称之为“铿金”。我都要疯了！我听说过灵液，神之血，但我认为这金属要远比灵液好，尽管它存在于这世上的任何地方。",
         "research_name.thaumadditions:adaminite_smelter": "铿金源质冶炼厂",

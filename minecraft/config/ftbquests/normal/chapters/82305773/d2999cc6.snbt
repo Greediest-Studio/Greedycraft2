@@ -1,0 +1,32 @@
+{
+	title: "§b最简单，最复杂",
+	x: -5.25d,
+	y: 4.5d,
+	description: "制作你的第一块模块化合金",
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "08a3f3d0",
+		type: "item",
+		items: [{
+			item: "modularmachinery:itemmodularium"
+		}]
+	}],
+	rewards: [{
+		uid: "7f2da262",
+		type: "item",
+		item: "modularmachinery:itemmodularium",
+		count: 16
+	},
+	{
+		uid: "bbfcbc49",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "cfcc8e80",
+		type: "xp",
+		xp: 500
+	}]
+}

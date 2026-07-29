@@ -28,8 +28,9 @@ Apothecary.addRecipe(<botania:specialflower>.withTag({type: "reikarlily"}), [<or
 Apothecary.removeRecipe("orechid");
 Apothecary.addRecipe(<botania:specialflower>.withTag({type: "orechid"}), [<ore:petalGray>, <ore:petalGray>, <ore:petalRed>, <ore:petalYellow>, <ore:petalGreen>, <ore:redstoneRoot>, <ore:elvenPixieDust>, <ore:runeGreedB>, <ore:runeMetatronB>, <ore:runeSandalphonB>]);
 
+ElvenTrade.removeRecipe(<botania:quartz>);
+
 ElvenTrade.addRecipe([<defiledlands:scarlite>], [<ore:slimeballBlood>, <ore:gemEmerald>, <ore:gemEmerald>]);
-ElvenTrade.addRecipe([<actuallyadditions:item_misc:5>], [<botania:quartz:5>, <minecraft:coal>]);
 ElvenTrade.addRecipe([<minecraft:gold_block>], [<ore:shardTime>]);
 ElvenTrade.addRecipe([<gct_mobs:dreamwood_log>], [<ore:logWoodLiving>]);
 ElvenTrade.addRecipe([<gct_mobs:dreamwood_leaves>], [<ore:treeLeavesLiving>]);
@@ -40,6 +41,7 @@ ElvenTrade.addRecipe([<gct_mobs:alf_grass>], [<ore:grassMana>]);
 ElvenTrade.addRecipe([<gct_mobs:elementium_ore>], [<ore:oreManasteel>, <ore:oreManasteel>]);
 ElvenTrade.addRecipe([<treetweaker:dreamwood>], [<treetweaker:livingwood>]);
 ElvenTrade.addRecipe([<gct_mobs:alf_sand>], [<ore:sand>]);
+ElvenTrade.addRecipe([<actuallyadditions:item_misc:5>], [<botania:quartz:5>, <ore:dustCoal>]);
 
 Apothecary.addRecipe(<additions:bag_of_dyes>, [<ore:petalGreen>, <ore:petalRed>, <ore:petalBlue>, <ore:petalYellow>, <ore:petalGreen>, <ore:petalRed>, <ore:petalBlue>, <ore:petalYellow>]);
 

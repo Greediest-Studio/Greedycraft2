@@ -492,7 +492,8 @@ val removedRecipes as IIngredient[] = [
     <da:frost_locator>,
     <packaged_acceleration:energy_card>,
     <packaged_acceleration:speed_card>,
-    <ae_chisel:ae_chisel>
+    <ae_chisel:ae_chisel>,
+    <tt2:modifier_worktable>
 ];
 
 val removedRecipeNames as string[] = [
