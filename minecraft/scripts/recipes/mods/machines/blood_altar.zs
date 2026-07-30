@@ -304,28 +304,14 @@ MMCEGEEvents.onControllerButtonClick("blood_altar", function(event as Controller
     val ctrl = event.controller;
     val data = ctrl.customData;
     val mode = event.getCustomFloat("mode");
-    val count = event.getCustomFloat("count");
-    if (!event.controller.world.isRemote() || event.buttonId == "event_mode") {
-        if (count == 0 || count == 1 || count == 2 || count == 3) {
-            event.setCustomFloat("count", count + 1);
-            print(count + 1);
+    if (event.buttonId == "event_mode") {
+        if (mode == 0) {
+            event.setCustomFloat("mode", 1);
+            print(1);
         } else {
-            event.setCustomFloat("count", 0);
+            event.setCustomFloat("mode", 0);
             print(0);
         }
-
-        if (count == 0 || count == 1) {
-            event.setCustomFloat("mode", 0);
-        } else {
-            event.setCustomFloat("mode", 1);
-        }
-        //if (mode == 0) {
-        //    event.setCustomFloat("mode", 1);
-        //    print(1);
-        //} else {
-        //    event.setCustomFloat("mode", 0);
-        //    print(0);
-        //}
         event.syncController();
     }
 });
