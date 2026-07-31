@@ -186,7 +186,7 @@ mods.nuclearcraft.Assembler.addRecipe(pbpFuels[1]*9, <ore:dustGraphite>, <nuclea
 if (oreDict has "QuantumTraverseWhyCanISteamMyCrabs") {
 	mods.nuclearcraft.SolidFission.addRecipe(pebble, dpbpFuels[0], stats[3][0], stats[3][1], eff, stats[3][2], 0, 0.075, false, burnrad);
 }else{
-	mods.nuclearcraft.PebbleFission.addRecipe(pebble, dpbpFuels[0], stats[0][0], stats[0][1], eff, stats[2][2], 10, 0.075, false, burnrad);
+	mods.nuclearcraft.PebbleFission.addRecipe(pebble, dpbpFuels[0], stats[3][0], stats[3][1], eff, stats[3][2], 10, 0.075, false, burnrad);
 }
 mods.nuclearcraft.Radiation.setRadiationLevel(pebble, 7.75E-01);
 realOreDictList[0].add(pebble);
