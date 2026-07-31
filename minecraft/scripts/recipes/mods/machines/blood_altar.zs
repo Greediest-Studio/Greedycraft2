@@ -91,6 +91,30 @@ $expand IMachineController$getAltarSpeed() as int {
     }
 }
 
+function addCommas(input as string) as string {
+    // 1. 处理空字符串或长度小于等于3的字符串
+    if (input.length <= 3) {
+        return input;
+    }
+    // 2. 初始化一个空的字符串数组，用于存储结果
+    var result as string = "";
+    var len = input.length as int;
+    // 3. 从后往前遍历，每次处理3个字符
+    for i in 0 to ((len - 1) / 3) {
+        var startIndex = len - (i + 1) * 3;
+        if startIndex < 0 {
+            startIndex = 0;
+        }
+        // 计算当前截取的结束位置（不包含）
+        var endIndex = len - i * 3;
+        // 截取子字符串
+        var part = input.substring(startIndex, endIndex);
+        // 将截取的部分添加到结果字符串的前面
+        result = part + (i == 0 ? "" : ",") + result;
+    }
+    return result;
+}
+
 val capacity = [0,5000,25000,150000,1000000,10000000,30000000,80000000,200000000];
 val orbname = ["未绑定气血宝珠","[虚弱]气血宝珠","[学徒]气血宝珠","[法师]气血宝珠","[导师]气血宝珠","[贤者]气血宝珠","[卓越]气血宝珠","[邪术]气血宝珠","[咒渊]气血宝珠"];
 
@@ -246,8 +270,8 @@ MMEvents.onControllerGUIRender("blood_altar", function(event as ControllerGUIRen
         "§a///血之祭坛控制面板///",
         "§a机器名称：§eLV1 - 血之祭坛",
         "§a祭坛等级：§e" ~ levelName[event.controller.getAltarLevel()] as string,
-        "§a祭坛容量：§e" ~ event.controller.getAltarCapacity() as string,
-        "§a已储存生命源质：§e" ~ event.controller.getAltarLP() as string,
+        "§a祭坛容量：§e" ~ addCommas(event.controller.getAltarCapacity() as string),
+        "§a已储存LP：§e" ~ addCommas(event.controller.getAltarLP() as string),
         "§a祭坛模式：§e" ~ modeName[event.controller.getAltarMode()] as string,
         "§a工作效率：§e" ~ (event.controller.getAltarSpeed() * levelSpeedMutiplierMap[event.controller.getAltarLevel()]) as string ~ "mB每" ~ ((20 - event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int) > 1 ? (20 - event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int) : 1 as string) ~ "tick",
         "§a转位效率：§e" ~ ((pow(1.2, (event.controller.getBlocksInPattern(<bloodmagic:blood_rune:5>) as double)) * 20) as int as string) ~ "mB每" ~ ((20 - event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int) > 1 ? (20 - event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int) : 1 as string) ~ "tick",
