@@ -406,7 +406,7 @@ for i, array in paFuels{
 	if (oreDict has "QuantumTraverseWhyCanISteamMyCrabs") {
 		mods.nuclearcraft.SolidFission.addRecipe(pebbles[i], dpaFuels[i][0], paStats[i][3][0], paStats[i][3][1], paeff[i], paStats[i][3][2], 0, decayFactor[i], false, burnrad[i]);
 	}else{
-		mods.nuclearcraft.PebbleFission.addRecipe(pebbles[i], dpaFuels[i][0], paStats[i][3][0], paStats[i][0][1], paeff[i], paStats[i][3][2], 10, decayFactor[i], false, burnrad[i]);
+		mods.nuclearcraft.PebbleFission.addRecipe(pebbles[i], dpaFuels[i][0], paStats[i][3][0], paStats[i][3][1], paeff[i], paStats[i][3][2], 10, decayFactor[i], false, burnrad[i]);
 	}
 	mods.nuclearcraft.Radiation.setRadiationLevel(pebbles[i], decayRad[i+2]);
 	realOreDictList[i].add(trisoFuels[i]);
