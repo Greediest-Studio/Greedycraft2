@@ -366,7 +366,7 @@ for i,array in allFuels{
 	if (oreDict has "QuantumTraverseWhyCanISteamMyCrabs") {
 		mods.nuclearcraft.SolidFission.addRecipe(trisoFuels[i], dFuels[i][0], fuelStats[i][2][0], (3 * fuelStats[i][2][1]), fuelCrits[i][3], fuelStats[i][2][2], 0, decayFactor[i], true, trisoStatsAlt[i][1]);
 	}else{
-		mods.nuclearcraft.PebbleFission.addRecipe(trisoFuels[i], dFuels[i][0], trisoStats[i][0], (3 * trisoStats[i][1]), trisoStatsAlt[i][0], fuelCrits[i][0], 10, decayFactor[i], true, trisoStatsAlt[i][1]);
+		mods.nuclearcraft.PebbleFission.addRecipe(trisoFuels[i], dFuels[i][0], trisoStats[i][0], (3 * trisoStats[i][1]), trisoStatsAlt[i][0], fuelCrits[i][3], 10, decayFactor[i], true, trisoStatsAlt[i][1]);
 	}
 	mods.nuclearcraft.Radiation.setRadiationLevel(trisoFuels[i], decayRad[3+i]);
 	realOreDictList[i].add(trisoFuels[i]);
@@ -458,7 +458,7 @@ function theMediumCheese(pellet as IItemStack[], triso as IItemStack, dpellet as
 	if (oreDict has "QuantumTraverseWhyCanISteamMyCrabs") {
 		mods.nuclearcraft.SolidFission.addRecipe(triso, dpellet[0], fuelInts[3][0], fuelInts[3][1], fuelDoubles[0], fuelInts[3][2], 0, fuelDoubles[5], selfPriming, fuelDoubles[2]);
 	}else{
-		mods.nuclearcraft.PebbleFission.addRecipe(triso, dpellet[0], fuelInts[0][0], fuelInts[0][1], fuelDoubles[0], fuelInts[2][2], 10, fuelDoubles[5], selfPriming, fuelDoubles[2]);
+		mods.nuclearcraft.PebbleFission.addRecipe(triso, dpellet[0], fuelInts[3][0], fuelInts[3][1], fuelDoubles[0], fuelInts[3][2], 10, fuelDoubles[5], selfPriming, fuelDoubles[2]);
 	}
 
 	//oxide
