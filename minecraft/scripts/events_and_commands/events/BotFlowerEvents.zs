@@ -109,7 +109,6 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
     var player as IPlayer = event.player;
     var blockpos as IBlockPos = event.position;
     var world as IWorld = event.world;
-    var data as IData = world.getBlock(blockpos).data;
 
     var x as int = blockpos.getX();
     var y as int = blockpos.getY();
@@ -118,9 +117,10 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
     if(world.isRemote()) return;
     if(isNull(player.currentItem)) return;
     if(player.currentItem.definition.id != "minecraft:diamond") return;
+    if(world.getBlock(blockpos).definition.id != "botania:specialflower") return;
 
-    if(world.getBlock(blockpos).definition.id == "botania:specialflower"){
-        var amount as int = player.currentItem.amount;
+    var data as IData = world.getBlock(blockpos).data;
+
         if(isNull(player.currentItem.tag.itemmirrorpos)){
             if(data.subTileName.asString() == "mirror"){
                 var tile as SubTileEntityInGame = world.getSubTileEntityInGame(blockpos);
@@ -181,8 +181,6 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
                 var itemmirrorpos as string = player.currentItem.tag.itemmirrorpos.asString();
                 var tile as SubTileEntityInGame = world.getSubTileEntityInGame(blockpos);
                 
-                var amount as int = player.currentItem.amount;
-
                 var mirrorpos as IBlockPos = getPosFromStr(itemmirrorpos);
 
                 if (!isNull(world.getSubTileEntityInGame(mirrorpos))){
@@ -220,7 +218,6 @@ events.onPlayerInteractBlock(function(event as crafttweaker.event.PlayerInteract
                 if (!world.remote) {player.sendMessage("§d[作者姬]§r§f：§r§e请勿套娃!");}
             }
         }
-    }
         
 });
 

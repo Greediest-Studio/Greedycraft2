@@ -1,11 +1,13 @@
 {
 	title: "§b最简单，最复杂",
-	x: -5.25d,
-	y: 4.5d,
+	x: -5.5d,
+	y: 9.5d,
+	shape: "gear",
 	description: "制作你的第一块模块化合金",
 	text: [
 		""
 	],
+	size: 1.5d,
 	tasks: [{
 		uid: "08a3f3d0",
 		type: "item",

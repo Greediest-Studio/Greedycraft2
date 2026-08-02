@@ -443,24 +443,26 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
         if (pos.y >= 1 && pos.y <= 255) {
             if (!isNull(player.world.getBlock(pos))) {
                 var block as IBlock = player.world.getBlock(pos);
-                if (!(isNull(block.data) || isNull(block.data.ForgeData))) {
-                    if (!isNull(block.data.ForgeData.isPortable) && !isNull(block.data.ticksOpen)) {
-                        var portable as byte = block.data.ForgeData.isPortable as byte;
-                        if (portable == 1 && block.data.ticksOpen as int != 0) {
-                            if (world.dimension != 42) {
-                                var x = player.x as int;
-                                var y = 255 as int;
-                                var z = player.z as int;
-                                val dim = IWorld.getFromID(42);
-                                while (y > 0) {
-                                    if (dim.getBlock(x,(y - 1),z).definition.id != "minecraft:air") {
-                                        if (dim.getBlock(x,(y - 1),z).definition.id == "erebus:formic_acid") {
-                                            dim.setBlockState(<blockstate:minecraft:grass>,IBlockPos.create(x,(y - 1),z));
+                if (block.definition.id == "botania:alfheimportal") {
+                    if (!(isNull(block.data) || isNull(block.data.ForgeData))) {
+                        if (!isNull(block.data.ForgeData.isPortable) && !isNull(block.data.ticksOpen)) {
+                            var portable as byte = block.data.ForgeData.isPortable as byte;
+                            if (portable == 1 && block.data.ticksOpen as int != 0) {
+                                if (world.dimension != 42) {
+                                    var x = player.x as int;
+                                    var y = 255 as int;
+                                    var z = player.z as int;
+                                    val dim = IWorld.getFromID(42);
+                                    while (y > 0) {
+                                        if (dim.getBlock(x,(y - 1),z).definition.id != "minecraft:air") {
+                                            if (dim.getBlock(x,(y - 1),z).definition.id == "erebus:formic_acid") {
+                                                dim.setBlockState(<blockstate:minecraft:grass>,IBlockPos.create(x,(y - 1),z));
+                                            }
+                                            server.commandManager.executeCommand(server, "/forge setdimension " ~ player.name ~ " 42 " ~ (x as string) ~ " " ~ (y as string) ~ " " ~ (z as string));
+                                            break;
+                                        } else {
+                                            y -= 1;
                                         }
-                                        server.commandManager.executeCommand(server, "/forge setdimension " ~ player.name ~ " 42 " ~ (x as string) ~ " " ~ (y as string) ~ " " ~ (z as string));
-                                        break;
-                                    } else {
-                                        y -= 1;
                                     }
                                 }
                             }
@@ -579,4 +581,3 @@ $expand IItemStack[]$matches(target as IItemStack[]) as bool {
     }
     return true;
 }
-
