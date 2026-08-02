@@ -1141,6 +1141,12 @@ alias = "mods/IonChests-1.0.0.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/iron-chests-with-netherite-chest.pw.toml"
+hash = "b9b6c2594ed0b81d57c4048d440d24b2a5a4d8981ce4bdc5424a03b29c47619b"
+alias = "mods/ironchest-netherite-1.12.2-1.0.2.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/iron-chests.pw.toml"
 hash = "f5e51601becf4c9f8878530d40cd2ecf232e89e5d9fae6218959a15eee12417d"
 alias = "mods/ironchest-1.12.2-7.0.72.847.jar"
