@@ -160,6 +160,7 @@ Alloy.addRecipe(<liquid:tin_silver> * 4, [<liquid:tin> * 3, <liquid:silver>]);
 Alloy.addRecipe(<liquid:zircaloy> * 2, [<liquid:zirconium> * 2, <liquid:tin>]);
 Alloy.addRecipe(<liquid:hastelloy> * 4, [<liquid:nichrome> * 3, <liquid:molybdenum>]);
 Alloy.addRecipe(<liquid:nichrome> * 2, [<liquid:nickel>, <liquid:chromium>]);
+Alloy.addRecipe(<liquid:h_s_l_a_steel> * 16, [<liquid:steel> * 13, <liquid:niobium_titanium>, <liquid:vanadium>, <liquid:aluminum>]);
 
 Casting.removeBasinRecipe(<tcomplement:scorched_block:10>);
 Casting.removeBasinRecipe(<tcomplement:scorched_block:1>);

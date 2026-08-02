@@ -251,3 +251,4 @@ recipe(2009 , <additions:eucite_ingot> * 3, [<ore:ingotCelestium>, <ore:ingotKor
 recipe(2010 , <tiths:ingot_decurrium> * 6, [<ore:ingotEucite> * 3, <ore:ingotCorbite> * 2, <ore:ingotChloroplast> * 2, <ore:ingotIrisia> * 3], 51200, 10.0f);
 recipe(2011 , <gct_ores:everite_ingot>, [<ore:ingotTerraAlloy>, <ore:ingotSkyAlloy>, <ore:ingotFireAlloy>, <ore:ingotIceAlloy>], 51200, 10.0f);
 recipe(2012 , <plustic:mirioningot> * 4, [<botania:manaresource:4> * 1, <botania:manaresource> * 1, <botania:manaresource:7> * 1, <ore:ingotCobalt> * 1, <minecraft:glass> * 1], 51200, 10.0f);
+recipe(2013 , <nuclearcraft:alloy:15> * 16, [<ore:ingotSteel> * 13, <ore:ingotNiobiumTitanium> * 1, <ore:ingotVanadium> * 1, <ore:ingotAluminum> * 1], 51200, 10.0f);
