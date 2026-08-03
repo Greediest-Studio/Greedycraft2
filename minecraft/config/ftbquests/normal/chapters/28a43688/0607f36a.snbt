@@ -1,0 +1,31 @@
+{
+	title: "§b龙首机械",
+	x: -9.0d,
+	y: 10.0d,
+	description: "合成龙之研究聚合台集成控制器",
+	text: [
+		"这是一台非常有用的，便于你进行§c聚合合成§r自动化的机器",
+		"它在【冒险·陆】以后是必做的，不过现在你也可以开始着手准备了",
+		"造价可能会略高……但它真的很好用"
+	],
+	dependencies: [
+		"44b179ac"
+	],
+	tasks: [{
+		uid: "c0b373fa",
+		type: "item",
+		items: [{
+			item: "modularmachinery:draconic_fusioner_factory_controller"
+		}]
+	}],
+	rewards: [{
+		uid: "c522b341",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "40247a18",
+		type: "xp",
+		xp: 4000
+	}]
+}

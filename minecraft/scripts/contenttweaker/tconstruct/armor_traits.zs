@@ -2316,41 +2316,48 @@ land_of_illusionTrait.color = Color.fromHex("ffffff").getIntColor();
 land_of_illusionTrait.localizedName = game.localize("greedycraft.tconstruct.armor_trait.land_of_illusionTrait.name");
 land_of_illusionTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.land_of_illusionTrait.desc");
 land_of_illusionTrait.onHurt = function(trait, armor, player, source, damage, newDamage, evt) {
-    if (!isNull(player)) {
-        if (Math.random() < 0.1) {
-            player.world.catenation()
-                .run(function(world, context) {
-                    player.sendChat("§a[太虚幻境] 隐形！");
-                    var mode as int = 0;
-                    if (player.creative) mode = 1;
-                    var x as float = player.x as float;
-                    var y as float = player.y as float;
-                    var z as float = player.z as float;
-                    armor.mutable().updateTag({loi : {gamemode : mode, dx : x, dy : y, dz : z}});
-                })
-                .sleep(1)
-                .then(function(world, context) {
-                    mods.contenttweaker.Commands.call("gamemode 3 @p", player, player.world, false, true);
-                })
-                .sleep(60)
-                .then(function(world, context) {
-                    if (!isNull(armor.tag.loi)) {
-                        if (armor.tag.loi.gamemode as int == 1) {
-                            mods.contenttweaker.Commands.call("gamemode 1 @p", player, player.world, false, true);
-                        } else {
-                            mods.contenttweaker.Commands.call("gamemode 0 @p", player, player.world, false, true);
-                        }
-                        player.teleport(crafttweaker.util.Position3f.create(armor.tag.loi.dx as float, armor.tag.loi.dy as float, armor.tag.loi.dz as float));
-                    } else {
-                        mods.contenttweaker.Commands.call("gamemode 0 @p", player, player.world, false, true);
-                    }
-                })
-                .onStop(function(world, context) {
-                    player.sendChat("§a[太虚幻境] 显形！");
-                })
-                .start();
-        }
+    if (isNull(player) || player.world.remote || Math.random() >= 0.1) {
+        return newDamage;
     }
+
+    if (!isNull(player.data.greedycraftLandOfIllusionActive) && player.data.greedycraftLandOfIllusionActive as byte == 1) {
+        return newDamage;
+    }
+
+    var mode as int = 0;
+    if (player.creative) {
+        mode = 1;
+    } else if (player.adventure) {
+        mode = 2;
+    }
+    var dimension as int = player.dimension;
+    var x as float = player.x as float;
+    var y as float = player.y as float;
+    var z as float = player.z as float;
+
+    player.update({greedycraftLandOfIllusionActive : 1 as byte});
+    player.sendChat("§a[太虚幻境] 隐形！");
+    player.world.catenation()
+        .sleep(1)
+        .then(function(world, context) {
+            if (player.dimension == dimension) {
+                mods.contenttweaker.Commands.call("gamemode 3 " + player.name, player, player.world, false, true);
+            } else {
+                context.stop();
+            }
+        })
+        .sleep(60)
+        .then(function(world, context) {
+            mods.contenttweaker.Commands.call("gamemode " + mode + " " + player.name, player, player.world, false, true);
+            if (player.dimension == dimension) {
+                player.teleport(Position3f.create(x, y, z));
+            }
+        })
+        .onStop(function(world, context) {
+            player.update({greedycraftLandOfIllusionActive : 0 as byte});
+            player.sendChat("§a[太虚幻境] 显形！");
+        })
+        .start();
     return newDamage;
 };
 land_of_illusionTrait.register();

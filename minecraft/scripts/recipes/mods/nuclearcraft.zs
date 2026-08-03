@@ -841,6 +841,11 @@ Assembler.addRecipe(<modularmachinery:blockoutputbus:3>, Sgl * 16, null, null, <
 Assembler.addRecipe(<modularmachinery:blockoutputbus:4>, Sgl * 32, null, null, <modularmachineryaddons:blocksingularityitemoutputbus:4>);
 Assembler.addRecipe(<modularmachinery:blockoutputbus:5>, Sgl * 64, null, null, <modularmachineryaddons:blocksingularityitemoutputbus:5>);
 Assembler.addRecipe(<modularmachinery:blockoutputbus:6>, Sgl * 64, Sgl * 64, null, <modularmachineryaddons:blocksingularityitemoutputbus:6>);
+Assembler.addRecipe(<mmce_complement:input_assembly_hatch>, <modularmachinery:blocksmartinterface>, <ore:circuitFinal>, null, <mmce_complement:data_input_assembly_hatch>);
+Assembler.addRecipe(<mmce_complement:input_assembly_hatch:1>, <modularmachinery:blocksmartinterface>, <ore:circuitFinal>, null, <mmce_complement:data_input_assembly_hatch:1>);
+Assembler.addRecipe(<mmce_complement:input_assembly_hatch:2>, <modularmachinery:blocksmartinterface>, <ore:circuitFinal>, null, <mmce_complement:data_input_assembly_hatch:2>);
+Assembler.addRecipe(<mmce_complement:input_assembly_hatch:3>, <modularmachinery:blocksmartinterface>, <ore:circuitFinal>, null, <mmce_complement:data_input_assembly_hatch:3>);
+Assembler.addRecipe(<mmce_complement:input_assembly_hatch:4>, <modularmachinery:blocksmartinterface>, <ore:circuitFinal>, null, <mmce_complement:data_input_assembly_hatch:4>);
 
 val ErebusPlants as IItemStack[] = [
     <erebus:planted_flower>,

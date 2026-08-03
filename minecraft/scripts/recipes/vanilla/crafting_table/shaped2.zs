@@ -1229,7 +1229,226 @@ RecipeUtil.addShaped("extendedcrafting_assembler_mk4", <gctcore:ultimate_extende
     [<extendedcrafting:material:17>, <gctcore:elite_extended_assembler>, <extendedcrafting:material:17>],
     [<extendedcrafting:material:17>, <ore:circuitFinest>, <extendedcrafting:material:17>]
 ]);
-
+RecipeUtil.addShaped("4x_fluid_input_hatch_tiny", <mmce_complement:quad_fluid_input_hatch_tiny>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidinputhatch>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_output_hatch_tiny", <mmce_complement:quad_fluid_output_hatch_tiny>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidoutputhatch>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_input_hatch_small", <mmce_complement:quad_fluid_input_hatch_tiny:1>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidinputhatch:1>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_output_hatch_small", <mmce_complement:quad_fluid_output_hatch_tiny:1>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidoutputhatch:1>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_input_hatch_medium", <mmce_complement:quad_fluid_input_hatch_tiny:2>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidinputhatch:2>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_output_hatch_medium", <mmce_complement:quad_fluid_output_hatch_tiny:2>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidoutputhatch:2>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_input_hatch_enhanced", <mmce_complement:quad_fluid_input_hatch_tiny:3>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidinputhatch:3>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_output_hatch_enhanced", <mmce_complement:quad_fluid_output_hatch_tiny:3>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidoutputhatch:3>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_input_hatch_big", <mmce_complement:quad_fluid_input_hatch_tiny:4>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidinputhatch:4>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_output_hatch_big", <mmce_complement:quad_fluid_output_hatch_tiny:4>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidoutputhatch:4>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_input_hatch_giant", <mmce_complement:quad_fluid_input_hatch_tiny:5>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidinputhatch:5>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_output_hatch_giant", <mmce_complement:quad_fluid_output_hatch_tiny:5>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidoutputhatch:5>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_input_hatch_super", <mmce_complement:quad_fluid_input_hatch_tiny:6>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidinputhatch:6>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_output_hatch_super", <mmce_complement:quad_fluid_output_hatch_tiny:6>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidoutputhatch:6>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_input_hatch_vaccum", <mmce_complement:quad_fluid_input_hatch_tiny:7>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidinputhatch:7>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_output_hatch_vaccum", <mmce_complement:quad_fluid_output_hatch_tiny:7>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidoutputhatch:7>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("9x_fluid_input_hatch_medium", <mmce_complement:nine_fluid_input_hatch_normal:2>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <mmce_complement:quad_fluid_input_hatch_tiny:2>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("9x_fluid_output_hatch_medium", <mmce_complement:nine_fluid_output_hatch_normal:2>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <mmce_complement:quad_fluid_output_hatch_tiny:2>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("9x_fluid_input_hatch_enhanced", <mmce_complement:nine_fluid_input_hatch_normal:3>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <mmce_complement:quad_fluid_input_hatch_tiny:3>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("9x_fluid_output_hatch_enhanced", <mmce_complement:nine_fluid_output_hatch_normal:3>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <mmce_complement:quad_fluid_output_hatch_tiny:3>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("9x_fluid_input_hatch_big", <mmce_complement:nine_fluid_input_hatch_normal:4>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <mmce_complement:quad_fluid_input_hatch_tiny:4>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("9x_fluid_output_hatch_big", <mmce_complement:nine_fluid_output_hatch_normal:4>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <mmce_complement:quad_fluid_output_hatch_tiny:4>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("9x_fluid_input_hatch_giant", <mmce_complement:nine_fluid_input_hatch_normal:5>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <mmce_complement:quad_fluid_input_hatch_tiny:5>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("9x_fluid_output_hatch_giant", <mmce_complement:nine_fluid_output_hatch_normal:5>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <mmce_complement:quad_fluid_output_hatch_tiny:5>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("9x_fluid_input_hatch_super", <mmce_complement:nine_fluid_input_hatch_normal:6>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <mmce_complement:quad_fluid_input_hatch_tiny:6>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("9x_fluid_output_hatch_super", <mmce_complement:nine_fluid_output_hatch_normal:6>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <mmce_complement:quad_fluid_output_hatch_tiny:6>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("9x_fluid_input_hatch_vaccum", <mmce_complement:nine_fluid_input_hatch_normal:7>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <mmce_complement:quad_fluid_input_hatch_tiny:7>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("9x_fluid_output_hatch_vaccum", <mmce_complement:nine_fluid_output_hatch_normal:7>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <mmce_complement:quad_fluid_output_hatch_tiny:7>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("energizer_hatch_tiny", <mmce_complement:liquid_energizer_hatch>, [
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockfluidinputhatch>, <modularmachinery:blockcasing:4>],
+    [<ore:blockEnergeticSilver>, <modularmachinery:flux_reducer_factory_controller>, <ore:blockEnergeticSilver>],
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockenergyinputhatch:2>, <modularmachinery:blockcasing:4>]
+]);
+RecipeUtil.addShaped("energizer_hatch_small", <mmce_complement:liquid_energizer_hatch:1>, [
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockfluidinputhatch:1>, <modularmachinery:blockcasing:4>],
+    [<ore:blockEnergeticSilver>, <modularmachinery:flux_reducer_factory_controller>, <ore:blockEnergeticSilver>],
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockenergyinputhatch:2>, <modularmachinery:blockcasing:4>]
+]);
+RecipeUtil.addShaped("energizer_hatch_medium", <mmce_complement:liquid_energizer_hatch:2>, [
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockfluidinputhatch:2>, <modularmachinery:blockcasing:4>],
+    [<ore:blockEnergeticSilver>, <modularmachinery:flux_reducer_factory_controller>, <ore:blockEnergeticSilver>],
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockenergyinputhatch:2>, <modularmachinery:blockcasing:4>]
+]);
+RecipeUtil.addShaped("energizer_hatch_enhanced", <mmce_complement:liquid_energizer_hatch:3>, [
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockfluidinputhatch:3>, <modularmachinery:blockcasing:4>],
+    [<ore:blockEnergeticSilver>, <modularmachinery:flux_reducer_factory_controller>, <ore:blockEnergeticSilver>],
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockenergyinputhatch:2>, <modularmachinery:blockcasing:4>]
+]);
+RecipeUtil.addShaped("energizer_hatch_big", <mmce_complement:liquid_energizer_hatch:4>, [
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockfluidinputhatch:4>, <modularmachinery:blockcasing:4>],
+    [<ore:blockEnergeticSilver>, <modularmachinery:flux_reducer_factory_controller>, <ore:blockEnergeticSilver>],
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockenergyinputhatch:2>, <modularmachinery:blockcasing:4>]
+]);
+RecipeUtil.addShaped("energizer_hatch_giant", <mmce_complement:liquid_energizer_hatch:5>, [
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockfluidinputhatch:5>, <modularmachinery:blockcasing:4>],
+    [<ore:blockEnergeticSilver>, <modularmachinery:flux_reducer_factory_controller>, <ore:blockEnergeticSilver>],
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockenergyinputhatch:2>, <modularmachinery:blockcasing:4>]
+]);
+RecipeUtil.addShaped("energizer_hatch_super", <mmce_complement:liquid_energizer_hatch:6>, [
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockfluidinputhatch:6>, <modularmachinery:blockcasing:4>],
+    [<ore:blockEnergeticSilver>, <modularmachinery:flux_reducer_factory_controller>, <ore:blockEnergeticSilver>],
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockenergyinputhatch:2>, <modularmachinery:blockcasing:4>]
+]);
+RecipeUtil.addShaped("energizer_hatch_vaccum", <mmce_complement:liquid_energizer_hatch:7>, [
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockfluidinputhatch:7>, <modularmachinery:blockcasing:4>],
+    [<ore:blockEnergeticSilver>, <modularmachinery:flux_reducer_factory_controller>, <ore:blockEnergeticSilver>],
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockenergyinputhatch:2>, <modularmachinery:blockcasing:4>]
+]);
+RecipeUtil.addShaped("input_assembly_hatch_medium", <mmce_complement:input_assembly_hatch:1>, [
+    [<ore:ingotModularium>, <ore:ingotAeonsteel>, <ore:ingotModularium>],
+    [<ore:ingotAeonsteel>, <mmce_complement:input_assembly_hatch>, <ore:ingotAeonsteel>],
+    [<ore:ingotModularium>, <ore:ingotAeonsteel>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("input_assembly_hatch_large", <mmce_complement:input_assembly_hatch:2>, [
+    [<ore:ingotModularium>, <ore:ingotChromasteel>, <ore:ingotModularium>],
+    [<ore:ingotChromasteel>, <mmce_complement:input_assembly_hatch:1>, <ore:ingotChromasteel>],
+    [<ore:ingotModularium>, <ore:ingotChromasteel>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("input_assembly_hatch_giant", <mmce_complement:input_assembly_hatch:3>, [
+    [<ore:ingotModularium>, <ore:ingotCosmilite>, <ore:ingotModularium>],
+    [<ore:ingotCosmilite>, <mmce_complement:input_assembly_hatch:2>, <ore:ingotCosmilite>],
+    [<ore:ingotModularium>, <ore:ingotCosmilite>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("input_assembly_hatch_super", <mmce_complement:input_assembly_hatch:4>, [
+    [<ore:ingotModularium>, <ore:ingotFinallium>, <ore:ingotModularium>],
+    [<ore:ingotFinallium>, <mmce_complement:input_assembly_hatch:3>, <ore:ingotFinallium>],
+    [<ore:ingotModularium>, <ore:ingotFinallium>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("output_assembly_hatch_medium", <mmce_complement:output_assembly_hatch:1>, [
+    [<ore:ingotModularium>, <ore:ingotAeonsteel>, <ore:ingotModularium>],
+    [<ore:ingotAeonsteel>, <mmce_complement:output_assembly_hatch>, <ore:ingotAeonsteel>],
+    [<ore:ingotModularium>, <ore:ingotAeonsteel>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("output_assembly_hatch_large", <mmce_complement:output_assembly_hatch:2>, [
+    [<ore:ingotModularium>, <ore:ingotChromasteel>, <ore:ingotModularium>],
+    [<ore:ingotChromasteel>, <mmce_complement:output_assembly_hatch:1>, <ore:ingotChromasteel>],
+    [<ore:ingotModularium>, <ore:ingotChromasteel>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("output_assembly_hatch_giant", <mmce_complement:output_assembly_hatch:3>, [
+    [<ore:ingotModularium>, <ore:ingotCosmilite>, <ore:ingotModularium>],
+    [<ore:ingotCosmilite>, <mmce_complement:output_assembly_hatch:2>, <ore:ingotCosmilite>],
+    [<ore:ingotModularium>, <ore:ingotCosmilite>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("output_assembly_hatch_super", <mmce_complement:output_assembly_hatch:4>, [
+    [<ore:ingotModularium>, <ore:ingotFinallium>, <ore:ingotModularium>],
+    [<ore:ingotFinallium>, <mmce_complement:output_assembly_hatch:3>, <ore:ingotFinallium>],
+    [<ore:ingotModularium>, <ore:ingotFinallium>, <ore:ingotModularium>]
+]);
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],

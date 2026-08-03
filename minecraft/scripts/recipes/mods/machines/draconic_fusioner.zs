@@ -184,3 +184,5 @@ addFusionRecipe(<additions:faded_ark_ingot>, [<ore:ingotStellarAlloy> * 2, <ore:
 addFusionRecipe(<additions:lerdite>, [<appliedenergistics2:smooth_sky_stone_block>, <ore:dustRuby>, <ore:dustLavaSolid>, <ore:dustDreadium>, <ore:dustPyrotheum>], 102400, 2);
 addFusionRecipe(<additions:ameralite>, [<appliedenergistics2:smooth_sky_stone_block>, <ore:dustEmerald>, <ore:dustSlimesteel>, <ore:dustLiquifiedCoralium>, <ore:dustCryotheum>], 102400, 2);
 addFusionRecipe(<gctcore:imaginative_snowball>, [<thaumictinkerer:sky_pearl> * 2, <ore:goldweave> * 4, <additions:cryonic_artifact> * 2, <ore:blockBismuth> * 2, <ore:blockDarkice> * 2], 2560000000, 4);
+addFusionRecipe(<mmce_complement:input_assembly_hatch>, [<modularmachinery:blockcasing>, <ore:ingotDurasteel> * 2, <ore:chest>, <minecraft:bucket>, <ore:circuitElite> * 2, <ore:ingotGenite> * 2], 2560, 0);
+addFusionRecipe(<mmce_complement:output_assembly_hatch>, [<modularmachinery:blockcasing>, <ore:ingotDurasteel> * 2, <minecraft:hopper>, <minecraft:bucket>, <ore:circuitElite> * 2, <ore:ingotGenite> * 2], 2560, 0);

@@ -464,3 +464,23 @@ FusionCrafting.add(<additions:ameralite>, <appliedenergistics2:smooth_sky_stone_
     <ore:dustLiquifiedCoralium>,
     <ore:dustCryotheum>
 ]);
+FusionCrafting.add(<mmce_complement:input_assembly_hatch>, <modularmachinery:blockcasing>, 0, 512000, [
+    <ore:ingotDurasteel>,
+    <ore:ingotDurasteel>,
+    <ore:chest>,
+    <minecraft:bucket>,
+    <ore:circuitElite>,
+    <ore:circuitElite>,
+    <ore:ingotGenite>,
+    <ore:ingotGenite>
+]);
+FusionCrafting.add(<mmce_complement:output_assembly_hatch>, <modularmachinery:blockcasing>, 0, 512000, [
+    <ore:ingotDurasteel>,
+    <ore:ingotDurasteel>,
+    <minecraft:hopper>,
+    <minecraft:bucket>,
+    <ore:circuitElite>,
+    <ore:circuitElite>,
+    <ore:ingotGenite>,
+    <ore:ingotGenite>
+]);

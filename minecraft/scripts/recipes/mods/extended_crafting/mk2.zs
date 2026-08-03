@@ -486,3 +486,18 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gctcore:nilfheim_portal_core>,
 	[<botaniverse:morewood>, <botaniverse:morewood:4>, <ore:ingotOriginalSteel>, <botaniverse:morewood:4>, <botaniverse:morewood>]
 ]);
 
+mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:blockmepatternprovider>, [
+	[<ore:ingotModularium>, <ore:ingotModularium>, <ore:blockModularium>, <ore:ingotModularium>, <ore:ingotModularium>], 
+	[<ore:ingotModularium>, <ore:plateBlueAlloy>, <appliedenergistics2:controller>, <ore:plateBlueAlloy>, <ore:ingotModularium>], 
+	[<ore:blockModularium>, <ae2fc:trio_interface>, <modularmachinery:blockinputbus:5>, <ae2fc:trio_interface>, <ore:blockModularium>], 
+	[<ore:ingotModularium>, <ore:plateBlueAlloy>, <appliedenergistics2:controller>, <ore:plateBlueAlloy>, <ore:ingotModularium>], 
+	[<ore:ingotModularium>, <ore:ingotModularium>, <ore:blockModularium>, <ore:ingotModularium>, <ore:ingotModularium>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <mmce_complement:me_ore_dict_input_bus>, [
+	[<modularmachinery:blockcasing:4>, <ore:ingotModularium>, <ore:ingotModularium>, <ore:ingotModularium>, <modularmachinery:blockcasing:4>], 
+	[<ore:ingotModularium>, <appliedenergistics2:material:43>, <crazyae:part>, <appliedenergistics2:material:43>, <ore:ingotModularium>], 
+	[<ore:ingotModularium>, <crazyae:part>, <appliedenergistics2:part:222>, <crazyae:part>, <ore:ingotModularium>], 
+	[<ore:ingotModularium>, <appliedenergistics2:material:43>, <crazyae:part>, <appliedenergistics2:material:43>, <ore:ingotModularium>], 
+	[<modularmachinery:blockcasing:4>, <ore:ingotModularium>, <modularmachinery:blockmeiteminputbus>, <ore:ingotModularium>, <modularmachinery:blockcasing:4>]
+]);
