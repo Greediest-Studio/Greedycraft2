@@ -38,6 +38,8 @@ MachineModifier.setMaxThreads("elysia_etcher", 8);
 MachineModifier.setInternalParallelism("elysia_etcher", 4);
 MachineModifier.setMaxParallelism("elysia_etcher", 65536);
 
+MachineModifier.addSmartInterfaceType("elysia_etcher", SmartInterfaceType.create("模式", 0));
+
 var upgradeMK2 as MachineUpgradeBuilder = MachineUpgradeBuilder.newBuilder("etcher_mk2_upg", "2级蚀刻升级", 1, 1);
 upgradeMK2.addDescriptions("§b令ELYSIA蚀刻单元可以刻蚀2级电路板");
 upgradeMK2.addCompatibleMachines("elysia_etcher");
@@ -75,6 +77,7 @@ function addEtcherRecipe(output as IItemStack, inputs as IItemStack[], level as 
         builder.addEnergyPerTickInput(200);
         builder.addRecipeTooltip("§d蚀刻配方支持模块化电容升级，详情请查询“模块化电容”");
         builder.setMaxThreads(1);
+        builder.addSmartInterfaceDataInput("模式", 0);
         builder.build();
     } else if (level == 2) {
         var builder = RecipeBuilder.newBuilder(output.definition.id + "_" + output.metadata + "_etcher_recipe", "elysia_etcher", 200);
@@ -91,6 +94,7 @@ function addEtcherRecipe(output as IItemStack, inputs as IItemStack[], level as 
             }
         });
         builder.setMaxThreads(1);
+        builder.addSmartInterfaceDataInput("模式", 0);
         builder.build();
     } else if (level == 3) {
         var builder = RecipeBuilder.newBuilder(output.definition.id + "_" + output.metadata + "_etcher_recipe", "elysia_etcher", 300);
@@ -107,6 +111,7 @@ function addEtcherRecipe(output as IItemStack, inputs as IItemStack[], level as 
             }
         });
         builder.setMaxThreads(1);
+        builder.addSmartInterfaceDataInput("模式", 0);
         builder.build();
     } else if (level == 4) {
         var builder = RecipeBuilder.newBuilder(output.definition.id + "_" + output.metadata + "_etcher_recipe", "elysia_etcher", 400);
@@ -123,6 +128,7 @@ function addEtcherRecipe(output as IItemStack, inputs as IItemStack[], level as 
             }
         });
         builder.setMaxThreads(1);
+        builder.addSmartInterfaceDataInput("模式", 0);
         builder.build();
     }
 }
@@ -150,3 +156,39 @@ addEtcherRecipe(<additions:engineering_processor_3>, [<nuclearcraft:gem:1>, <min
 addEtcherRecipe(<additions:logic_processor_4>, [<moretcon:ingotirradium>, <minecraft:redstone>, <additions:cadmium_chalcogenide_ingot>], 4);
 addEtcherRecipe(<additions:calculation_processor_4>, [<additions:arimite_ingot>, <minecraft:redstone>, <additions:cadmium_chalcogenide_ingot>], 4);
 addEtcherRecipe(<additions:engineering_processor_4>, [<additions:gemundyingember>, <minecraft:redstone>, <additions:cadmium_chalcogenide_ingot>], 4);
+
+function addInscriberRecipe(output as IItemStack, input as IIngredient, level as int) {
+    var builder = RecipeBuilder.newBuilder(output.definition.id + "_" + output.metadata + "_inscriber_recipe", "elysia_etcher", 60);
+    builder.addInput(input)
+        .addOutput(output)
+        .addEnergyPerTickInput(800)
+        .addRecipeTooltip("§d蚀刻配方支持模块化电容升级，详情请查询“模块化电容”")
+        .setMaxThreads(1)
+        .addSmartInterfaceDataInput("模式", 1);
+    if (level > 1) {
+        builder.addRecipeTooltip("§a该配方需要" + level + "级蚀刻升级，详情请查询“模块化电容-蚀刻" + level + "”");
+        builder.addPreCheckHandler(function(event as RecipeCheckEvent) {
+            if (!event.controller.hasMachineUpgrade("etcher_mk" + level + "_upg")) {
+                event.setFailed("缺少" + level + "级蚀刻升级！");
+            }
+        });
+    }
+    builder.build();
+}
+
+addInscriberRecipe(<appliedenergistics2:material:20>, <ore:itemSilicon>, 1);
+addInscriberRecipe(<appliedenergistics2:material:16>, <ore:crystalPureFluix>, 1);
+addInscriberRecipe(<appliedenergistics2:material:17>, <ore:gemDiamond>, 1);
+addInscriberRecipe(<appliedenergistics2:material:18>, <ore:ingotGold>, 1);
+addInscriberRecipe(<additions:germanium_plate>, <ore:ingotGermanium>, 2);
+addInscriberRecipe(<additions:calculation_circuit_printed_2>, <ore:crystalEmeraldic>, 2);
+addInscriberRecipe(<additions:engineering_circuit_printed_2>, <ore:gemRuby>, 2);
+addInscriberRecipe(<additions:logic_circuit_printed_2>, <ore:ingotPlatinum>, 2);
+addInscriberRecipe(<additions:ga_in_p2_plate>, <ore:ingotGalliumIndiumPhosphide>, 3);
+addInscriberRecipe(<additions:calculation_circuit_printed_3>, <ore:ingotCrystalMatrix>, 3);
+addInscriberRecipe(<additions:engineering_circuit_printed_3>, <ore:gemBoronNitride>, 3);
+addInscriberRecipe(<additions:logic_circuit_printed_3>, <ore:ingotPorpezite>, 3);
+addInscriberRecipe(<additions:cadmium_chalcogenide_plate>, <ore:ingotCadmiumChalcogenide>, 4);
+addInscriberRecipe(<additions:calculation_circuit_printed_4>, <ore:ingotArimite>, 4);
+addInscriberRecipe(<additions:engineering_circuit_printed_4>, <ore:gemUndyingEmber>, 4);
+addInscriberRecipe(<additions:logic_circuit_printed_4>, <ore:ingotIrradium>, 4);

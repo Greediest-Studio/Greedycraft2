@@ -1209,6 +1209,26 @@ RecipeUtil.addShaped("ae_chisel", <ae_chisel:ae_chisel>, [
     [<appliedenergistics2:interface>, <appliedenergistics2:molecular_assembler>, <appliedenergistics2:interface>],
     [<appliedenergistics2:material:58>, <chisel:auto_chisel>, <appliedenergistics2:material:58>]
 ]);
+RecipeUtil.addShaped("extendedcrafting_assembler_mk1", <gctcore:basic_extended_assembler>, [
+    [<extendedcrafting:material:14>, <extendedcrafting:table_basic>, <extendedcrafting:material:14>],
+    [<extendedcrafting:material:14>, <appliedenergistics2:molecular_assembler>, <extendedcrafting:material:14>],
+    [<extendedcrafting:material:14>, <ore:circuitFinal>, <extendedcrafting:material:14>]
+]);
+RecipeUtil.addShaped("extendedcrafting_assembler_mk2", <gctcore:advanced_extended_assembler>, [
+    [<extendedcrafting:material:15>, <extendedcrafting:table_advanced>, <extendedcrafting:material:15>],
+    [<extendedcrafting:material:15>, <gctcore:basic_extended_assembler>, <extendedcrafting:material:15>],
+    [<extendedcrafting:material:15>, <ore:circuitArcane>, <extendedcrafting:material:15>]
+]);
+RecipeUtil.addShaped("extendedcrafting_assembler_mk3", <gctcore:elite_extended_assembler>, [
+    [<extendedcrafting:material:16>, <extendedcrafting:table_elite>, <extendedcrafting:material:16>],
+    [<extendedcrafting:material:16>, <gctcore:advanced_extended_assembler>, <extendedcrafting:material:16>],
+    [<extendedcrafting:material:16>, <ore:circuitDreamic>, <extendedcrafting:material:16>]
+]);
+RecipeUtil.addShaped("extendedcrafting_assembler_mk4", <gctcore:ultimate_extended_assembler>, [
+    [<extendedcrafting:material:17>, <extendedcrafting:table_ultimate>, <extendedcrafting:material:17>],
+    [<extendedcrafting:material:17>, <gctcore:elite_extended_assembler>, <extendedcrafting:material:17>],
+    [<extendedcrafting:material:17>, <ore:circuitFinest>, <extendedcrafting:material:17>]
+]);
 
 /*
 RecipeUtil.addShaped("", , [

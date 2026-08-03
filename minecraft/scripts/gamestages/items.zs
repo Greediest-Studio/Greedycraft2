@@ -301,7 +301,27 @@ GameStagesUtil.stageWyvern.addIngredients([
     <journey:luniteore>,
     <journey:luniteblock>,
     <journey:lunitechunk>,
-    <ometweaks:sharpen_capacitor>
+    <ometweaks:sharpen_capacitor>,
+    <gctcore:basic_blank_extended_pattern>,
+    <gctcore:advanced_blank_extended_pattern>,
+    <gctcore:elite_blank_extended_pattern>,
+    <gctcore:ultimate_blank_extended_pattern>,
+    <gctcore:basic_encoded_extended_pattern>,
+    <gctcore:advanced_encoded_extended_pattern>,
+    <gctcore:elite_encoded_extended_pattern>,
+    <gctcore:ultimate_encoded_extended_pattern>,
+    <gctcore:basic_extended_assembler>,
+    <gctcore:advanced_extended_assembler>,
+    <gctcore:elite_extended_assembler>,
+    <gctcore:ultimate_extended_assembler>,
+    <gctcore:basic_extended_interface>,
+    <gctcore:advanced_extended_interface>,
+    <gctcore:elite_extended_interface>,
+    <gctcore:ultimate_extended_interface>,
+    <gctcore:basic_extended_pattern_terminal>,
+    <gctcore:advanced_extended_pattern_terminal>,
+    <gctcore:elite_extended_pattern_terminal>,
+    <gctcore:ultimate_extended_pattern_terminal>
 ], true);
 
 GameStagesUtil.stageAwakened.addIngredients([

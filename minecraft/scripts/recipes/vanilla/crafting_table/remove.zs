@@ -493,7 +493,11 @@ val removedRecipes as IIngredient[] = [
     <packaged_acceleration:energy_card>,
     <packaged_acceleration:speed_card>,
     <ae_chisel:ae_chisel>,
-    <tt2:modifier_worktable>
+    <tt2:modifier_worktable>,
+    <gctcore:basic_extended_assembler>,
+    <gctcore:advanced_extended_assembler>,
+    <gctcore:elite_extended_assembler>,
+    <gctcore:ultimate_extended_assembler>
 ];
 
 val removedRecipeNames as string[] = [
