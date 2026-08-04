@@ -501,3 +501,11 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <mmce_complement:me_ore_dict_in
 	[<ore:ingotModularium>, <appliedenergistics2:material:43>, <crazyae:part>, <appliedenergistics2:material:43>, <ore:ingotModularium>], 
 	[<modularmachinery:blockcasing:4>, <ore:ingotModularium>, <modularmachinery:blockmeiteminputbus>, <ore:ingotModularium>, <modularmachinery:blockcasing:4>]
 ]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <mmce_complement:self_cycle_assembly_hatch>, [
+	[<ore:ingotEcoBasicAlloy>, null, null, <ore:blockModularium>, <ore:blockModularium>], 
+	[null, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotPorpezite>, <ore:blockModularium>], 
+	[null, <ore:ingotIridium>, <mmce_complement:input_assembly_hatch:3>, <ore:ingotIridium>, null], 
+	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:ingotIridium>, <ore:ingotIridium>, null], 
+	[<ore:blockModularium>, <ore:blockModularium>, null, null, <ore:ingotEcoBasicAlloy>]
+]);

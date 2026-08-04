@@ -1449,6 +1449,20 @@ RecipeUtil.addShaped("output_assembly_hatch_super", <mmce_complement:output_asse
     [<ore:ingotFinallium>, <mmce_complement:output_assembly_hatch:3>, <ore:ingotFinallium>],
     [<ore:ingotModularium>, <ore:ingotFinallium>, <ore:ingotModularium>]
 ]);
+RecipeUtil.addShaped("filtered_fluid_output_hatch", <mmce_complement:filtered_fluid_output_hatch>, [
+    [<ore:ingotModularium>, <compactmachines3:wallbreakable>, <ore:ingotModularium>],
+    [<thermaldynamics:filter:3>, <functionalstoragelegacy:fluid_1>, <thermaldynamics:retriever:3>],
+    [<ore:ingotModularium>, <compactmachines3:wallbreakable>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("filtered_item_output_hatch", <mmce_complement:filtered_item_output_hatch>, [
+    [<ore:ingotModularium>, <compactmachines3:wallbreakable>, <ore:ingotModularium>],
+    [<thermaldynamics:filter:3>, <functionalstoragelegacy:oak_1>|<functionalstoragelegacy:spruce_1>|<functionalstoragelegacy:birch_1>|<functionalstoragelegacy:jungle_1>|<functionalstoragelegacy:acacia_1>|<functionalstoragelegacy:dark_oak_1>, <thermaldynamics:retriever:3>],
+    [<ore:ingotModularium>, <compactmachines3:wallbreakable>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("batch_hatch", <mmce_complement:batch_hatch>, [
+    [<ore:ingotModularium>, <ore:ingotStainlessSteel>, <ore:ingotStainlessSteel>],
+    [<ore:ingotStainlessSteel>, <threng:material:6>, <ore:ingotStainlessSteel>],
+    [<ore:ingotStainlessSteel>, <ore:ingotStainlessSteel>, <ore:ingotModularium>]]);
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],

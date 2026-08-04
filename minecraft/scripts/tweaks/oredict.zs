@@ -1242,7 +1242,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:crystalVoidic> : [<actuallyadditions:item_crystal:3>],
     <ore:ingotEinsteinium252All> : [<contenttweaker:einsteinium52>],
     <ore:oreSulfur> : [<soot:sulfur_ore>],
-    <ore:soulOriginal> : [<additions:original_spirit>]
+    <ore:soulOriginal> : [<additions:original_spirit>],
+    <ore:dustFierymetal> : [<moretcon:dustfiery>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {

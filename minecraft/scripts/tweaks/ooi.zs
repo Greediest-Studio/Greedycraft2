@@ -103,6 +103,7 @@ ConversionItem.create(<quark:prismarine_rough_wall>).addMatchItem(<futuremc:pris
 ConversionItem.create(<appliedenergistics2:material:46>).addMatchItem(<betterendforge:ender_dust>).register();
 ConversionItem.create(<additions:bismuth_ingot>).addMatchItem(<ore:ingotBismuth>).register();
 ConversionItem.create(<gct_aby:saniteore>).addMatchItem(<additions:sanite_ore>).register();
+ConversionItem.create(<moretcon:dustfiery>).addMatchItem(<ore:dustFierymetal>).register();
 
 ConversionFluid.create(<liquid:sulfur>).addMatchFluid(<liquid:burningsulfurflow>).register();
 ConversionFluid.create(<liquid:liquidantimatter>).addMatchFluid(<liquid:blockfluidantimatter>).register();
