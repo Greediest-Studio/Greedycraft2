@@ -1449,6 +1449,12 @@ RecipeUtil.addShaped("output_assembly_hatch_super", <mmce_complement:output_asse
     [<ore:ingotFinallium>, <mmce_complement:output_assembly_hatch:3>, <ore:ingotFinallium>],
     [<ore:ingotModularium>, <ore:ingotFinallium>, <ore:ingotModularium>]
 ]);
+RecipeUtil.addShaped("energymk2_upgrade", <gctcore:energy_mk2_upgrade>, [
+    [null, <ore:blockGlassHardened>, null],
+    [<ore:alloyUltimate>, <ore:ingotDurasteel>, <ore:alloyUltimate>],
+    [null, <ore:blockGlassHardened>, null]
+]);
+
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],
