@@ -1462,7 +1462,14 @@ RecipeUtil.addShaped("filtered_item_output_hatch", <mmce_complement:filtered_ite
 RecipeUtil.addShaped("batch_hatch", <mmce_complement:batch_hatch>, [
     [<ore:ingotModularium>, <ore:ingotStainlessSteel>, <ore:ingotStainlessSteel>],
     [<ore:ingotStainlessSteel>, <threng:material:6>, <ore:ingotStainlessSteel>],
-    [<ore:ingotStainlessSteel>, <ore:ingotStainlessSteel>, <ore:ingotModularium>]]);
+    [<ore:ingotStainlessSteel>, <ore:ingotStainlessSteel>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("energymk2_upgrade", <gctcore:energy_mk2_upgrade>, [
+    [null, <ore:blockGlassHardened>, null],
+    [<ore:alloyUltimate>, <ore:ingotDurasteel>, <ore:alloyUltimate>],
+    [null, <ore:blockGlassHardened>, null]
+]);
+
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],
