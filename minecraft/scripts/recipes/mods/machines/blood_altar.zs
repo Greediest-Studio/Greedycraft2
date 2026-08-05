@@ -287,7 +287,7 @@ MMEvents.onControllerGUIRender("blood_altar", function(event as ControllerGUIRen
     val bz = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>);
     val cj = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>);
     val wj = event.controller.getBlocksInPattern(<additions:blood_rune_personal>);
-    val player = server.getPlayerByUUID(event.controller.ownerUUID);
+    val player = event.controller.ownerPlayer;
     if (!isNull(player) && !isNull(player.soulNetwork) && server.players has player && event.controller.world.getPlayers() has player) {
         val orbTier = player.soulNetwork.orbTier;
         var maxcapacity = ((1.0f + 0.02f * bz) * capacity[orbTier]) as int;
@@ -455,7 +455,7 @@ RecipeBuilder.newBuilder("purify", "blood_altar", 1)
 
 RecipeBuilder.newBuilder("orb", "blood_altar", 20)
     .addPreCheckHandler(function(event as RecipeCheckEvent) {
-        var player = server.getPlayerByUUID(event.controller.ownerUUID);
+        var player = event.controller.ownerPlayer;
         if (!isNull(player) && !isNull(player.soulNetwork)) {
             var maxcapacity = ((1.0f + 0.02f * event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>)) * capacity[player.soulNetwork.orbTier]) as int;
             if (maxcapacity < 0) {
@@ -476,7 +476,7 @@ RecipeBuilder.newBuilder("orb", "blood_altar", 20)
         val bz = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>);
         val cj = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>);
         val wj = event.controller.getBlocksInPattern(<additions:blood_rune_personal>);
-        val player = server.getPlayerByUUID(event.controller.ownerUUID);
+        val player = event.controller.ownerPlayer;
         if (!isNull(player) && !isNull(player.soulNetwork)) {
             val orbTier = player.soulNetwork.orbTier;
             var maxcapacity = ((1.0f + 0.02f * bz) * capacity[orbTier]) as int;
@@ -512,7 +512,7 @@ RecipeBuilder.newBuilder("orb", "blood_altar", 20)
 
 RecipeBuilder.newBuilder("orb1", "blood_altar", 20)
     .addPreCheckHandler(function(event as RecipeCheckEvent) {
-        var player = server.getPlayerByUUID(event.controller.ownerUUID);
+        var player = event.controller.ownerPlayer;
         if (!isNull(player) && !isNull(player.soulNetwork)) {
             var maxcapacity = ((1.0f + 0.02f * event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>)) * capacity[player.soulNetwork.orbTier]) as int;
             if (maxcapacity < 0) {
@@ -535,7 +535,7 @@ RecipeBuilder.newBuilder("orb1", "blood_altar", 20)
         val bz = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>);
         val cj = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>);
         val wj = event.controller.getBlocksInPattern(<additions:blood_rune_personal>);
-        val player = server.getPlayerByUUID(event.controller.ownerUUID);
+        val player = event.controller.ownerPlayer;
         if (!isNull(player) && !isNull(player.soulNetwork)) {
             val orbTier = player.soulNetwork.orbTier;
             var maxcapacity = ((1.0f + 0.02f * bz) * capacity[orbTier]) as int;
