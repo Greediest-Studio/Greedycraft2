@@ -1,0 +1,15 @@
+{
+  "item_block": {
+    "name": "§c始源钢块",
+    "ore_dict": "blockOriginalSteel",
+    "type": "additions:block_simple"
+  },
+  "name": "§c始源钢块",
+  "material": "minecraft:metal",
+  "hardness": 6.0,
+  "resistance": 2000.0,
+  "harvest_level": 10,
+  "harvest_tool": "pickaxe",
+  "is_beacon_base": true,
+  "type": "additions:simple"
+}

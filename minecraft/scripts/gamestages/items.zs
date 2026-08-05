@@ -388,7 +388,8 @@ GameStagesUtil.stageAwakened.addIngredients([
     <ore:nuggetNiobiumTitanium>,
     <ore:dustNiobiumTitanium>,
     <moretcon:blockcobbledbedrock>,
-    <moretcon:blockreforgestation>
+    <moretcon:blockreforgestation>,
+    <gct_ores:everite_machine_frame>
 ], true);
 
 GameStagesUtil.stageNether.addIngredients([
@@ -835,6 +836,7 @@ GameStagesUtil.stageBetweenlandTraveller.addIngredients([
     <moretcon:itemtrichromadentiumsponge:2>,
     <moretcon:itemtrichromadentiumsponge:3>,
     <moretcon:itemtrichromadentiumsponge:4>,
+    <additions:trichromadentium_frame>,
     <additions:between_essence>,
     <additions:dirtshape>
 ], false);
@@ -1332,7 +1334,9 @@ GameStagesUtil.stageHardmode.addIngredients([
     <endexpansion:red_chunk>,
     <endexpansion:red_crystal_item>,
     <endexpansion:purple_chunk>,
-    <endexpansion:purple_crystal_item>
+    <endexpansion:purple_crystal_item>,
+    <gct_ores:genite_machine_frame>,
+    <gct_ores:orichalcos_machine_frame>
 ], true);
 
 GameStagesUtil.stageInfinity.addIngredients([
@@ -1388,6 +1392,7 @@ GameStagesUtil.stageAbyssalConquerer.addIngredients([
 GameStagesUtil.stageWitherSlayer.addIngredients([
     <botanicadds:gaiasteel_ingot>,
     <botanicadds:gaiasteel_block>,
+    <gct_ores:gaia_steel_machine_frame>,
     <additions:bravery_certificate>,
     <enderio:block_reinforced_obsidian>,
     <mysticalagriculture:witherproof_block>,
@@ -2616,6 +2621,7 @@ GameStagesUtil.stageWakeUp.addIngredients([
     <ore:blockOriginalSteel>,
     <ore:nuggetOriginalSteel>,
     <ore:dustOriginalSteel>,
+    <ore:frameOriginalSteel>,
     <gctcore:nilfheim_portal_core>,
     <gctcore:imaginative_snowball>,
     <thaumictinkerer:sky_pearl>

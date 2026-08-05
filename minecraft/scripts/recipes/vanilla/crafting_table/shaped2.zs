@@ -1469,7 +1469,16 @@ RecipeUtil.addShaped("energymk2_upgrade", <gctcore:energy_mk2_upgrade>, [
     [<ore:alloyUltimate>, <ore:ingotDurasteel>, <ore:alloyUltimate>],
     [null, <ore:blockGlassHardened>, null]
 ]);
-
+RecipeUtil.addShaped("trichromadentium_frame", <additions:trichromadentium_frame>, [
+    [<ore:ingotTrichromadentium>, null, <ore:ingotTrichromadentium>],
+    [null, <ore:gearTrichromadentium>, null],
+    [<ore:ingotTrichromadentium>, null, <ore:ingotTrichromadentium>]
+]);
+RecipeUtil.addShaped("original_steel_frame", <additions:original_steel_frame>, [
+    [<ore:ingotOriginalSteel>, null, <ore:ingotOriginalSteel>],
+    [null, <ore:gearOriginalSteel>, null],
+    [<ore:ingotOriginalSteel>, null, <ore:ingotOriginalSteel>]
+]);
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],

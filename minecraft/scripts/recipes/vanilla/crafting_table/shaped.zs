@@ -23,10 +23,6 @@ recipes.remove(<divinerpg:mysterious_clock>);
 recipes.remove(<divinerpg:twilight_clock>);
 recipes.remove(<theaurorian:aurorianportalframebricks>);
 recipes.remove(<journey:eucaportalframe>);
-if (!isNull(itemUtils.getItem("utilityworlds:portal_void"))) {
-    recipes.remove(itemUtils.getItem("utilityworlds:portal_void"));
-    recipes.remove(itemUtils.getItem("utilityworlds:portal_garden"));
-}
 recipes.remove(<divinerpg:infernal_flame>);
 recipes.remove(<avaritia:neutron_collector>);
 recipes.remove(<additions:slime_crown>);
@@ -43,9 +39,6 @@ recipes.remove(<extrautils2:spike_iron>*4);
 recipes.remove(<extrautils2:spike_wood>*4);
 recipes.remove(<extrautils2:spike_stone>*4);
 recipes.remove(<divinerpg:serenade_of_health>);
-
-
-
 
 recipes.addShaped(<gugu-utils:starlightinputhatch:2>, [[<modularmachinery:itemmodularium>, <ore:ingotAstralMetal>, <modularmachinery:itemmodularium>],[<ore:ingotAstralMetal>, <gugu-utils:starlightinputhatch:1>, <ore:ingotAstralMetal>], [<modularmachinery:itemmodularium>, <ore:ingotAstralMetal>, <modularmachinery:itemmodularium>]]);
 recipes.addShaped(<additions:elfsteel_block>, [[<ore:ingotElfsteel>, <ore:ingotElfsteel>, <ore:ingotElfsteel>],[<ore:ingotElfsteel>, <ore:ingotElfsteel>, <ore:ingotElfsteel>], [<ore:ingotElfsteel>, <ore:ingotElfsteel>, <ore:ingotElfsteel>]]);

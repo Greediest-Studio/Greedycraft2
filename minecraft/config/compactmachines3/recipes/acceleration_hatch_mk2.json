@@ -1,0 +1,222 @@
+{
+  "name": "compactmachines3:acceleration_hatch_mk2",
+  "target-item": "mmce_complement:accelerator_hatch",
+  "target-meta": 1,
+  "target-count": 1,
+  "duration": 150,
+  "symmetrical": true,
+  "catalyst": "mekanism:speedupgrade",
+  "input-types": {
+    "a": {
+      "id": "additions:compressed_1x_modularium_block",
+      "meta": 0
+    },
+    "c": {
+      "id": "additions:aeonsteel_block",
+      "meta": 0
+    },
+    "d": {
+      "id": "botania:storage",
+      "meta": 2
+    },
+    "e": {
+      "id": "additions:sky_block",
+      "meta": 0
+    },
+    "f": {
+      "id": "thaumcraft:metal_void",
+      "meta": 0
+    },
+    "g": {
+      "id": "tconevo:metal_block",
+      "meta": 6
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "a",
+        "_",
+        "c",
+        "_",
+        "a"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "_",
+        "d",
+        "e",
+        "d",
+        "_"
+      ],
+      [
+        "_",
+        "e",
+        "f",
+        "e",
+        "_"
+      ],
+      [
+        "_",
+        "d",
+        "e",
+        "d",
+        "_"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "_",
+        "c",
+        "_",
+        "a"
+      ],
+      [
+        "_",
+        "e",
+        "f",
+        "e",
+        "_"
+      ],
+      [
+        "c",
+        "f",
+        "g",
+        "f",
+        "c"
+      ],
+      [
+        "_",
+        "e",
+        "f",
+        "e",
+        "_"
+      ],
+      [
+        "a",
+        "_",
+        "c",
+        "_",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "_",
+        "d",
+        "e",
+        "d",
+        "_"
+      ],
+      [
+        "_",
+        "e",
+        "f",
+        "e",
+        "_"
+      ],
+      [
+        "_",
+        "d",
+        "e",
+        "d",
+        "_"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ]
+    ],
+    [
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "a",
+        "_",
+        "c",
+        "_",
+        "a"
+      ],
+      [
+        "a",
+        "_",
+        "_",
+        "_",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a",
+        "a",
+        "a"
+      ]
+    ]
+  ]
+}
