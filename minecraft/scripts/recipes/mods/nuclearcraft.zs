@@ -847,7 +847,7 @@ Assembler.addRecipe(<mmce_complement:input_assembly_hatch:2>, <modularmachinery:
 Assembler.addRecipe(<mmce_complement:input_assembly_hatch:3>, <modularmachinery:blocksmartinterface>, <ore:circuitFinal>, null, <mmce_complement:data_input_assembly_hatch:3>);
 Assembler.addRecipe(<mmce_complement:input_assembly_hatch:4>, <modularmachinery:blocksmartinterface>, <ore:circuitFinal>, null, <mmce_complement:data_input_assembly_hatch:4>);
 
-Pressurizer.addRecipe(<ore:compressed1xCobblestone> * 3, <compactmachines3:wallbreakable>, 0.25d, 0.25d);
+Pressurizer.addRecipe(<ore:compressed1xCobblestone> * 3, <compactmachines3:wallbreakable> * 32, 0.25d, 0.25d);
 
 val ErebusPlants as IItemStack[] = [
     <erebus:planted_flower>,
