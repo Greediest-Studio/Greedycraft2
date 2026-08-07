@@ -1,0 +1,32 @@
+{
+    "name": "forbiddenmagicre:tainted",
+    "mod": "forbiddenmagicre",
+    "sapling": {
+        "name": "forbiddenmagicre:sapling_tainted",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "minecraft:stick",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "forbiddenmagicre:log_tainted",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "forbiddenmagicre:leaves_tainted",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "forbiddenmagicre:sapling_tainted",
+            "data": 0,
+            "type": "SAPLING"
+        }
+    ],
+    "compatibleSoilTags": ["dirt", "grass"]
+}

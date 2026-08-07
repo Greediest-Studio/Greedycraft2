@@ -1,0 +1,32 @@
+{
+    "name": "betterendforge:lucernia",
+    "mod": "betterendforge",
+    "sapling": {
+        "name": "betterendforge:lucernia_sapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "minecraft:stick",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "betterendforge:lucernia_log",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "betterendforge:lucernia_leaves",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "betterendforge:lucernia_sapling",
+            "data": 0,
+            "type": "SAPLING"
+        }
+    ],
+    "compatibleSoilTags": ["rutiscus"]
+}

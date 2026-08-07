@@ -1,0 +1,64 @@
+{
+  "type": "sakura:maple_green",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "sakura:maple_leaves_green",
+      "meta": 4
+    },
+    "b": {
+      "name": "sakura:maple_log",
+      "meta": 0
+    },
+    "c": {
+      "name": "sakura:chestnut_burr",
+      "meta": 1
+    },
+    "d": {
+      "name": "sakura:chestnut_burr",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      " aaaa",
+      "aaaa ",
+      "   d ",
+      "     "
+    ],
+    [
+      "  a  ",
+      " aaa ",
+      "aaaaa",
+      "aaaaa",
+      "     ",
+      "     "
+    ],
+    [
+      " aaa ",
+      " aba ",
+      "aabaa",
+      "aabaa",
+      " cb  ",
+      "  b  "
+    ],
+    [
+      "  a  ",
+      " aa  ",
+      "aaaaa",
+      "aaaaa",
+      " d  d",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      "aaaa ",
+      "aaaaa",
+      "   d ",
+      "     "
+    ]
+  ]
+}

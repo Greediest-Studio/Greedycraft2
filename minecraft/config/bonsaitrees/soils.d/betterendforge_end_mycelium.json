@@ -1,0 +1,14 @@
+{
+    "name": "betterendforge:end_mycelium",
+    "mod": "betterendforge",
+    "soil": {
+        "name": "betterendforge:end_mycelium",
+        "data": 0,
+        "ignoreMeta": true
+    },
+    "modifiers": {
+        "growTime": 1,
+        "dropChance": 1
+    },
+    "providedTags": ["end_stone", "end_mycelium"]
+}

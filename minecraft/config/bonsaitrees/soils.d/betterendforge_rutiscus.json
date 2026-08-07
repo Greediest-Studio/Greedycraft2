@@ -1,0 +1,14 @@
+{
+    "name": "betterendforge:rutiscus",
+    "mod": "betterendforge",
+    "soil": {
+        "name": "betterendforge:rutiscus",
+        "data": 0,
+        "ignoreMeta": true
+    },
+    "modifiers": {
+        "growTime": 1,
+        "dropChance": 1
+    },
+    "providedTags": ["end_stone", "rutiscus"]
+}

@@ -1,0 +1,29 @@
+{
+    "name": "netherized:crimson",
+    "mod": "netherized",
+    "sapling": {
+        "name": "netherized:crimson_fungus",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "netherized:crimson_stem",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "netherized:crimson_wart_block",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "netherized:shroomlight",
+            "data": 0,
+            "type": "CUSTOM",
+            "count": 1,
+            "chance": 0.8
+        }
+    ],
+    "compatibleSoilTags": ["crimson_nylium"]
+}

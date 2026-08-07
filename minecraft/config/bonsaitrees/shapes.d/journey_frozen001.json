@@ -1,0 +1,82 @@
+{
+  "type": "journey:frozen",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "journey:frozenleaves",
+      "meta": 0
+    },
+    "b": {
+      "name": "journey:frozenlog",
+      "meta": 2
+    }
+  },
+  "shape": [
+    [
+      "      ",
+      "      ",
+      "      ",
+      "      ",
+      "      ",
+      "  aa  ",
+      "      ",
+      "      ",
+      "      "
+    ],
+    [
+      "      ",
+      "  aa  ",
+      "      ",
+      " aaaa ",
+      "  aa  ",
+      " aaaa ",
+      "      ",
+      "      ",
+      "      "
+    ],
+    [
+      "  aa  ",
+      " aaaa ",
+      "  bb  ",
+      " abba ",
+      " abba ",
+      "aabbaa",
+      "  bb  ",
+      "  bb  ",
+      "  bb  "
+    ],
+    [
+      "  aa  ",
+      " aaaa ",
+      "  bb  ",
+      " abba ",
+      " abba ",
+      "aabbaa",
+      "  bb  ",
+      "  bb  ",
+      "  bb  "
+    ],
+    [
+      "      ",
+      "  aa  ",
+      "      ",
+      " aaaa ",
+      "  aa  ",
+      " aaaa ",
+      "      ",
+      "      ",
+      "      "
+    ],
+    [
+      "      ",
+      "      ",
+      "      ",
+      "      ",
+      "      ",
+      "  aa  ",
+      "      ",
+      "      ",
+      "      "
+    ]
+  ]
+}

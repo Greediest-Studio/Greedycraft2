@@ -1,0 +1,90 @@
+{
+  "type": "evilcraft:undead",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "evilcraft:undead_leaves",
+      "meta": 1
+    },
+    "b": {
+      "name": "evilcraft:undead_log",
+      "meta": 1
+    },
+    "c": {
+      "name": "evilcraft:undead_leaves",
+      "meta": 3
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      " aca ",
+      "ccca ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "  a  ",
+      " aa  ",
+      "caaac",
+      "aaaac",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      " aaa ",
+      " aba ",
+      "cabaa",
+      "aabaa",
+      "  b  ",
+      "  b  ",
+      "  b  ",
+      "  b  ",
+      "  b  ",
+      "  b  ",
+      "  b  ",
+      "  b  "
+    ],
+    [
+      "  a  ",
+      " aa  ",
+      "aaaaa",
+      "caaac",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      "caac ",
+      "aaac ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     "
+    ]
+  ]
+}

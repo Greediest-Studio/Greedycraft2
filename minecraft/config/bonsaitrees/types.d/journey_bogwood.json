@@ -1,0 +1,39 @@
+{
+    "name": "journey:bogwood",
+    "mod": "journey",
+    "sapling": {
+        "name": "journey:bogwood_sapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "minecraft:stick",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "journey:bogwood_log",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "journey:bogwood_leaves",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "journey:bogwood_sapling",
+            "data": 0,
+            "type": "SAPLING"
+        },
+        {
+            "name": "journey:swamp_shelf",
+            "data": 0,
+            "type": "CUSTOM",
+            "count": 1,
+            "chance": 0.5
+        }
+    ],
+    "compatibleSoilTags": ["dirt", "grass"]
+}

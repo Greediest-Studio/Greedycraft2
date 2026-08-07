@@ -1,0 +1,14 @@
+{
+    "name": "divinerpg:eden_grass",
+    "mod": "divinerpg",
+    "soil": {
+        "name": "divinerpg:eden_grass",
+        "data": 0,
+        "ignoreMeta": true
+    },
+    "modifiers": {
+        "growTime": 1,
+        "dropChance": 1
+    },
+    "providedTags": ["eden_grass"]
+}

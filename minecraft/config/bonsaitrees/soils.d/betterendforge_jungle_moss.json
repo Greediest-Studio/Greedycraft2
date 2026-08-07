@@ -1,0 +1,14 @@
+{
+    "name": "betterendforge:jungle_moss",
+    "mod": "betterendforge",
+    "soil": {
+        "name": "betterendforge:jungle_moss",
+        "data": 0,
+        "ignoreMeta": true
+    },
+    "modifiers": {
+        "growTime": 1,
+        "dropChance": 1
+    },
+    "providedTags": ["end_stone", "jungle_moss"]
+}

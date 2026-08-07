@@ -1,0 +1,14 @@
+{
+    "name": "gct_mobs:bloodygrass",
+    "mod": "gct_mobs",
+    "soil": {
+        "name": "gct_mobs:bloodygrass",
+        "data": 0,
+        "ignoreMeta": true
+    },
+    "modifiers": {
+        "growTime": 1,
+        "dropChance": 1
+    },
+    "providedTags": ["bloody_grass"]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "divinerpg:wildwood",
+    "mod": "divinerpg",
+    "sapling": {
+        "name": "divinerpg:wildwood_sapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "minecraft:stick",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "divinerpg:wildwood_log",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "divinerpg:wildwood_leaves",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "divinerpg:wildwood_sapling",
+            "data": 0,
+            "type": "SAPLING"
+        }
+    ],
+    "compatibleSoilTags": ["wildwood_dirt", "wildwood_grass"]
+}

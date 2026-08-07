@@ -1,0 +1,32 @@
+{
+    "name": "divinerpg:skythern",
+    "mod": "divinerpg",
+    "sapling": {
+        "name": "divinerpg:skythern_sapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "minecraft:stick",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "divinerpg:skythern_log",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "divinerpg:skythern_leaves",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "divinerpg:skythern_sapling",
+            "data": 0,
+            "type": "SAPLING"
+        }
+    ],
+    "compatibleSoilTags": ["skythern_dirt", "skythern_grass"]
+}

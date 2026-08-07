@@ -1,0 +1,46 @@
+{
+  "type": "journey:boil",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "journey:burningleaves",
+      "meta": 0
+    },
+    "b": {
+      "name": "journey:boilinglog",
+      "meta": 2
+    }
+  },
+  "shape": [
+    [
+      "  a  ",
+      "  a  ",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "  a  ",
+      "     ",
+      "     "
+    ],
+    [
+      "a a a",
+      "aabaa",
+      "  b  ",
+      "  b  "
+    ],
+    [
+      "     ",
+      "  a  ",
+      "     ",
+      "     "
+    ],
+    [
+      "  a  ",
+      "  a  ",
+      "     ",
+      "     "
+    ]
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "type": "pvj:willow",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "pvj:log_willow",
+      "meta": 0
+    },
+    "b": {
+      "name": "minecraft:vine",
+      "meta": 4
+    },
+    "c": {
+      "name": "pvj:leaves_willow",
+      "meta": 1
+    },
+    "d": {
+      "name": "pvj:leaves_willow",
+      "meta": 0
+    },
+    "e": {
+      "name": "minecraft:vine",
+      "meta": 2
+    },
+    "f": {
+      "name": "minecraft:vine",
+      "meta": 1
+    },
+    "g": {
+      "name": "minecraft:vine",
+      "meta": 8
+    }
+  },
+  "shape": [
+    [
+      "         ",
+      "         ",
+      "     dd  ",
+      "    cdd  ",
+      "     d   ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "   e     ",
+      "   e     ",
+      " e e cdb ",
+      " e eddddc",
+      " e ecdadd",
+      " e e  ab ",
+      " e e cd  ",
+      " e       ",
+      " e       ",
+      "         ",
+      "      a  "
+    ],
+    [
+      "  dcc    ",
+      "         ",
+      "fcc cdcdc",
+      "fcddddddd",
+      "f   cdadc",
+      "f   ddad ",
+      "f    d d ",
+      "f        ",
+      "      a  ",
+      "      a  ",
+      "      a  "
+    ],
+    [
+      "ccddc    ",
+      "ccddd    ",
+      " ddddddc ",
+      "cddddddc ",
+      " dddddac ",
+      "     cd  ",
+      "     ccd ",
+      "      a  ",
+      "      a  ",
+      "         ",
+      "      a  "
+    ],
+    [
+      " dcdd    ",
+      " dddd    ",
+      " caaadc  ",
+      " daaaadcd",
+      " ddddda  ",
+      "      a  ",
+      "      a  ",
+      "      a  ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "ccdcdd   ",
+      "ccdddd   ",
+      " dddddd  ",
+      " cddddd  ",
+      "cdddddd  ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "  c d    ",
+      "  cdc    ",
+      "  cddcd  ",
+      " ddcd    ",
+      " cdddcdc ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "         "
+    ],
+    [
+      "         ",
+      "         ",
+      "         ",
+      "         ",
+      "  gg     ",
+      "  gg     ",
+      "  gg     ",
+      "  gg     ",
+      "  gg     ",
+      "         ",
+      "         "
+    ]
+  ]
+}

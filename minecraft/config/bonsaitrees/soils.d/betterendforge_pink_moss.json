@@ -1,0 +1,14 @@
+{
+    "name": "betterendforge:pink_moss",
+    "mod": "betterendforge",
+    "soil": {
+        "name": "betterendforge:pink_moss",
+        "data": 0,
+        "ignoreMeta": true
+    },
+    "modifiers": {
+        "growTime": 1,
+        "dropChance": 1
+    },
+    "providedTags": ["end_stone", "pink_moss"]
+}

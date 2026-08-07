@@ -1,0 +1,27 @@
+{
+    "name": "betterendforge:umbrella_tree",
+    "mod": "betterendforge",
+    "sapling": {
+        "name": "betterendforge:umbrella_tree_sapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "betterendforge:umbrella_tree_log",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "betterendforge:umbrella_tree_membrane",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "betterendforge:umbrella_tree_sapling",
+            "data": 0,
+            "type": "SAPLING"
+        }
+    ],
+    "compatibleSoilTags": ["jungle_moss"]
+}

@@ -35,13 +35,18 @@ import scripts.util.mystical_agriculture.timeCarpenter;
 import scripts.util.mystical_agriculture.fluidCarpenter;
 import scripts.util.mystical_agriculture.seedChance;
 
+import native.org.dave.bonsaitrees.BonsaiTrees;
+import native.org.dave.bonsaitrees.api.IBonsaiTreeType;
+import native.org.dave.bonsaitrees.api.TreeTypeDrop;
+
 val regName = "organic_infuser";
 val speed = 200;
 
 MMEvents.onControllerGUIRender("organic_infuser", function(event as ControllerGUIRenderEvent) {
     var info as string[] = [
         "§a///有机灌注机控制面板///",
-        "§a机器名称：§eLV2 - 有机灌注机"
+        "§a机器名称：§eLV2 - 有机灌注机",
+        "§a附属模块：" + (event.controller.hasModule("tree") ? "§e树场模块" : "§c无")
     ];
     event.extraInfo = info;
 });
@@ -270,3 +275,24 @@ for seed in loadedMods["thaumadditions"].items {
         recipeId += 1;
     }
 }
+
+// Tree Recipes
+RecipeAdapterBuilder.create("organic_infuser", "gctcore:bonsaitrees")
+    .withModule(["tree"])
+    .addRecipeTooltip("§a需要模块：树场模块")
+    .setMaxThreads(1)
+    .addEnergyPerTickInput(240)
+    .addCatalystInput(<thermalfoundation:fertilizer>, ["§e产物产出增加到150%"], [
+        RecipeModifierBuilder.create("modularmachinery:item", "output", 1.50f, 1, false).build()
+    ])
+    .addCatalystInput(<thermalfoundation:fertilizer:1>, ["§e产物产出增加到250%"], [
+        RecipeModifierBuilder.create("modularmachinery:item", "output", 2.50f, 1, false).build()
+    ])
+    .addCatalystInput(<thermalfoundation:fertilizer:2>, ["§e产物产出增加到400%"], [
+        RecipeModifierBuilder.create("modularmachinery:item", "output", 4.00f, 1, false).build()
+    ])
+    .addCatalystInput(<ore:gemApatite> * 8, ["§e加工时间减少到50%"], [
+        RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.50f, 1, false).build()
+    ])
+    .build();
+    

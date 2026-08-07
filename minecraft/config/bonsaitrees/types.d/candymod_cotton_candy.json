@@ -1,0 +1,27 @@
+{
+    "name": "candymod:cotton_candy",
+    "mod": "candymod",
+    "sapling": {
+        "name": "candymod:cotton_candy_sapling_block",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "candymod:candy_cane_block",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "candymod:cotton_candy_leaves_block",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "candymod:cotton_candy_sapling_block",
+            "data": 0,
+            "type": "SAPLING"
+        }
+    ],
+    "compatibleSoilTags": ["grass", "dirt"]
+}

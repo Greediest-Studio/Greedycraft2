@@ -1,0 +1,56 @@
+{
+  "type": "sakura:maple_red",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "sakura:maple_leaves_red",
+      "meta": 4
+    },
+    "b": {
+      "name": "sakura:maple_log",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      "aaaa ",
+      " aaa ",
+      "     ",
+      "     "
+    ],
+    [
+      "  a  ",
+      "  aa ",
+      "aaaaa",
+      "aaaaa",
+      "     ",
+      "     "
+    ],
+    [
+      " aaa ",
+      " aba ",
+      "aabaa",
+      "aabaa",
+      "  b  ",
+      "  b  "
+    ],
+    [
+      "  a  ",
+      " aa  ",
+      "aaaaa",
+      "aaaaa",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      " aaa ",
+      " aaaa",
+      "     ",
+      "     "
+    ]
+  ]
+}

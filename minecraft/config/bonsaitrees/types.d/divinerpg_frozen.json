@@ -1,0 +1,32 @@
+{
+    "name": "divinerpg:frozen",
+    "mod": "divinerpg",
+    "sapling": {
+        "name": "divinerpg:frozen_sapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "minecraft:stick",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "divinerpg:frozen_log",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "divinerpg:brittle_leaves",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "divinerpg:frozen_sapling",
+            "data": 0,
+            "type": "SAPLING"
+        }
+    ],
+    "compatibleSoilTags": ["frozen_dirt", "frozen_grass"]
+}

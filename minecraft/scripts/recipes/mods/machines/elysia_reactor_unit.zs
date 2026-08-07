@@ -3,7 +3,6 @@
  */
 
 #priority 0
-//#ikwid
 
 import crafttweaker.world.IWorld;
 import crafttweaker.item.IItemStack;

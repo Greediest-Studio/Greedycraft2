@@ -1,0 +1,75 @@
+{
+  "type": "divinerpg:mortum",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "divinerpg:mortum_leaves",
+      "meta": 0
+    },
+    "b": {
+      "name": "divinerpg:mortum_log",
+      "meta": 0
+    },
+    "c": {
+      "name": "divinerpg:mortum_leaves",
+      "meta": 8
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      " aaa ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      " bbb "
+    ],
+    [
+      "     ",
+      "  a  ",
+      "aaaaa",
+      " aaa ",
+      "     ",
+      "     ",
+      "     ",
+      "  b  ",
+      "bbbbb"
+    ],
+    [
+      "  a  ",
+      " aaa ",
+      "aaaaa",
+      " aba ",
+      "  b  ",
+      "  b  ",
+      "  b  ",
+      " bbb ",
+      "bbbbb"
+    ],
+    [
+      "     ",
+      " ca  ",
+      "caaaa",
+      " aaa ",
+      "     ",
+      "     ",
+      "     ",
+      "  b  ",
+      "bbbbb"
+    ],
+    [
+      "     ",
+      "     ",
+      " caa ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      " bbb "
+    ]
+  ]
+}

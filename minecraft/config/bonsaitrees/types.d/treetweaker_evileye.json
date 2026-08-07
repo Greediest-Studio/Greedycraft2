@@ -1,0 +1,27 @@
+{
+    "name": "treetweaker:evileye",
+    "mod": "treetweaker",
+    "sapling": {
+        "name": "treetweaker:evileye",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "gct_mobs:evileye_log",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "gct_mobs:evileye_leaves",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "treetweaker:evileye",
+            "data": 0,
+            "type": "SAPLING"
+        }
+    ],
+    "compatibleSoilTags": ["bloody_grass"]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "netherized:warped_nylium",
+    "mod": "netherized",
+    "soil": {
+        "name": "netherized:warped_nylium",
+        "data": 0,
+        "ignoreMeta": true
+    },
+    "modifiers": {
+        "growTime": 1,
+        "dropChance": 1
+    },
+    "providedTags": ["warped_nylium"]
+}

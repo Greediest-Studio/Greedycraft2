@@ -1,0 +1,32 @@
+{
+    "name": "betterendforge:dragon_tree",
+    "mod": "betterendforge",
+    "sapling": {
+        "name": "betterendforge:dragon_tree_sapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "minecraft:stick",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "betterendforge:dragon_tree_log",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "betterendforge:dragon_tree_leaves",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "betterendforge:dragon_tree_sapling",
+            "data": 0,
+            "type": "SAPLING"
+        }
+    ],
+    "compatibleSoilTags": ["shadow_grass"]
+}

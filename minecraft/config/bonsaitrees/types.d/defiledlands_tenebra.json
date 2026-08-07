@@ -1,0 +1,32 @@
+{
+    "name": "defiledlands:tenebra",
+    "mod": "defiledlands",
+    "sapling": {
+        "name": "defiledlands:tenebra_sapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "minecraft:stick",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "defiledlands:tenebra_log",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "defiledlands:tenebra_leaves",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "defiledlands:tenebra_sapling",
+            "data": 0,
+            "type": "SAPLING"
+        }
+    ],
+    "compatibleSoilTags": ["defiled_grass", "defiled_dirt"]
+}

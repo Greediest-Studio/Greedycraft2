@@ -1,0 +1,65 @@
+{
+  "type": "divinerpg:divine",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "divinerpg:divine_leaves",
+      "meta": 0
+    },
+    "b": {
+      "name": "divinerpg:divine_leaves",
+      "meta": 8
+    },
+    "c": {
+      "name": "divinerpg:divine_log",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      " bba ",
+      "bbba ",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "  a  ",
+      "  a  ",
+      "aaaaa",
+      "baaaa",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      " aaa ",
+      " aca ",
+      "aacab",
+      "bacab",
+      "  c  ",
+      "  c  ",
+      "  c  "
+    ],
+    [
+      "  a  ",
+      " aaa ",
+      "baaab",
+      "baaab",
+      "     ",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      " babb",
+      " bbbb",
+      "     ",
+      "     ",
+      "     "
+    ]
+  ]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "divinerpg:wildwood_dirt",
+    "mod": "divinerpg",
+    "soil": {
+        "name": "divinerpg:wildwood_dirt",
+        "data": 0,
+        "ignoreMeta": true
+    },
+    "modifiers": {
+        "growTime": 1,
+        "dropChance": 1
+    },
+    "providedTags": ["wildwood_dirt"]
+}

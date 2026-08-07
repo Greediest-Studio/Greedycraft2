@@ -1,0 +1,22 @@
+{
+    "name": "tofucraft:tofu",
+    "mod": "tofucraft",
+    "sapling": {
+        "name": "tofucraft:sapling_tofu",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "tofucraft:blocktofuishi",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "tofucraft:leaves_tofu",
+            "data": 0,
+            "type": "LEAVES"
+        }
+    ],
+    "compatibleSoilTags": ["grass", "dirt"]
+}

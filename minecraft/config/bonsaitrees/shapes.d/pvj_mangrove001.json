@@ -1,0 +1,80 @@
+{
+  "type": "pvj:mangrove",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "pvj:leaves_mangrove",
+      "meta": 1
+    },
+    "b": {
+      "name": "pvj:leaves_mangrove",
+      "meta": 0
+    },
+    "c": {
+      "name": "pvj:log_mangrove",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      "aaaaa",
+      "aaaba",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "  c  ",
+      "  c  "
+    ],
+    [
+      "     ",
+      " aaa ",
+      "abaaa",
+      "baaba",
+      " baa ",
+      "     ",
+      "     ",
+      "  c  ",
+      "     ",
+      "     "
+    ],
+    [
+      "  a  ",
+      " aca ",
+      "aacab",
+      "aacba",
+      " bcb ",
+      "  c  ",
+      "  c  ",
+      " ccc ",
+      "c   c",
+      "c   c"
+    ],
+    [
+      "     ",
+      " aab ",
+      "aaaaa",
+      "babaa",
+      " baa ",
+      "     ",
+      "  c  ",
+      "  c  ",
+      "  c  ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      "aaaaa",
+      "abbaa",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "  c  ",
+      "  c  "
+    ]
+  ]
+}

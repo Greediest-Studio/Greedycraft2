@@ -1,0 +1,32 @@
+{
+    "name": "sakura:sakura",
+    "mod": "sakura",
+    "sapling": {
+        "name": "sakura:sakura_sapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "minecraft:stick",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "sakura:sakura_log",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "sakura:sakuraleaves",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "sakura:sakura_sapling",
+            "data": 0,
+            "type": "SAPLING"
+        }
+    ],
+    "compatibleSoilTags": ["dirt", "grass"]
+}

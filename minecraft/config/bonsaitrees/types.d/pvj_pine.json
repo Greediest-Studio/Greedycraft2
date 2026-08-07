@@ -1,0 +1,32 @@
+{
+    "name": "pvj:pine",
+    "mod": "pvj",
+    "sapling": {
+        "name": "pvj:sapling_pine",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "minecraft:stick",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "pvj:log_pine",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "pvj:leaves_pine",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "pvj:sapling_pine",
+            "data": 0,
+            "type": "SAPLING"
+        }
+    ],
+    "compatibleSoilTags": ["dirt", "grass"]
+}

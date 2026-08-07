@@ -1,0 +1,32 @@
+{
+    "name": "betterendforge:lacugrove",
+    "mod": "betterendforge",
+    "sapling": {
+        "name": "betterendforge:lacugrove_sapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "minecraft:stick",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "betterendforge:lacugrove_log",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "betterendforge:lacugrove_leaves",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "betterendforge:lacugrove_sapling",
+            "data": 0,
+            "type": "SAPLING"
+        }
+    ],
+    "compatibleSoilTags": ["end_moss"]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "pvj:cherry_pink",
+    "mod": "pvj",
+    "sapling": {
+        "name": "pvj:sapling_pink_cherry_blossom",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "minecraft:stick",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "pvj:log_cherry_blossom",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "pvj:leaves_pink_cherry_blossom",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "pvj:sapling_pink_cherry_blossom",
+            "data": 0,
+            "type": "SAPLING"
+        }
+    ],
+    "compatibleSoilTags": ["dirt", "grass"]
+}

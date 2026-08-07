@@ -1,0 +1,14 @@
+{
+    "name": "divinerpg:apalachia_dirt",
+    "mod": "divinerpg",
+    "soil": {
+        "name": "divinerpg:apalachia_dirt",
+        "data": 0,
+        "ignoreMeta": true
+    },
+    "modifiers": {
+        "growTime": 1,
+        "dropChance": 1
+    },
+    "providedTags": ["apalachia_dirt"]
+}

@@ -1,0 +1,32 @@
+{
+    "name": "divinerpg:apalachia",
+    "mod": "divinerpg",
+    "sapling": {
+        "name": "divinerpg:apalachia_sapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "minecraft:stick",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "divinerpg:apalachia_log",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "divinerpg:apalachia_leaves",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "divinerpg:apalachia_sapling",
+            "data": 0,
+            "type": "SAPLING"
+        }
+    ],
+    "compatibleSoilTags": ["apalachia_dirt", "apalachia_grass"]
+}
