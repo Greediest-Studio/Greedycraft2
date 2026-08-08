@@ -1,5 +1,8 @@
 {
   "name": "理解符文",
-  "ore_dict": "runeZaphkielB",
+  "ore_dict": [
+    "runeZaphkielB",
+    "runeForth3B"
+  ],
   "type": "additions:simple"
 }

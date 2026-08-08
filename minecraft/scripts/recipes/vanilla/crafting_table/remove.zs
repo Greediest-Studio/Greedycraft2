@@ -440,9 +440,7 @@ val removedRecipes as IIngredient[] = [
     <bountifulbaubles:reforger>,
     <projecte:item.pe_hyperkinetic_lens>,
     <projecte:item.pe_destruction_catalyst>,
-    <thebetweenlands:bl_bucket_plant_tonic>,
     <thebetweenlands:amulet>,
-    <thebetweenlands:bl_bucket_plant_tonic:1>,
     <mekanism:machineblock:5>,
     <mekanism:machineblock:6>,
     <mekanism:machineblock:7>,
@@ -579,7 +577,9 @@ val removedRecipeNames as string[] = [
     "actuallyadditions:recipes154",
     "netherized:materials/netherite_ingot",
     "betterendforge:ender_block",
-    "betterendforge:amber_block"
+    "betterendforge:amber_block",
+    "thebetweenlands:recipe_plant_tonic_syrmorite",
+    "thebetweenlands:recipe_plant_tonic_weedwood"
 ];
 
 for ingredient in removedRecipes {

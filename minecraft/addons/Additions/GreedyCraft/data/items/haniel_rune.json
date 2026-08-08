@@ -1,5 +1,8 @@
 {
   "name": "胜利符文",
-  "ore_dict": "runeHanielB",
+  "ore_dict": [
+    "runeHanielB",
+    "runeForth7B"
+  ],
   "type": "additions:simple"
 }

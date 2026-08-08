@@ -1,5 +1,8 @@
 {
   "name": "慈悲符文",
-  "ore_dict": "runeZadkielB",
+  "ore_dict": [
+    "runeZadkielB",
+    "runeForth4B"
+  ],
   "type": "additions:simple"
 }

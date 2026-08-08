@@ -60,9 +60,24 @@ MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_etcher_mk3>, "etcher_mk3
 MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_etcher_mk4>, "etcher_mk4_upg");
 
 MMEvents.onControllerGUIRender("elysia_etcher", function(event as ControllerGUIRenderEvent) {
+    var hasRuneModule = event.controller.hasModule("rune");
+    var hasAdvancedModule = event.controller.hasModule("advanced");
+    var ModuleList as string[] = [];
+    if (hasRuneModule) ModuleList += "§e符文模块";
+    if (hasAdvancedModule) ModuleList += "§e升级模块";
+    if (ModuleList.length == 0) ModuleList += "§c无";
+    var showModule as string = "";
+    for Module in ModuleList {
+        if (Module != ModuleList[0]) {
+            showModule = showModule + " " + Module;
+        } else {
+            showModule = Module;
+        }
+    }
     var info as string[] = [
         "§e///大型蚀刻单元控制面板///",
-        "§a机器名称：§eELYSIA单元 - 大型蚀刻单元"
+        "§a机器名称：§eELYSIA单元 - 大型蚀刻单元",
+        "§a附属模块：" + showModule
     ];
     event.extraInfo = info;
 });

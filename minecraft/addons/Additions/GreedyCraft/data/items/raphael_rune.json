@@ -1,5 +1,8 @@
 {
   "name": "光辉符文",
-  "ore_dict": "runeRaphaelB",
+  "ore_dict": [
+    "runeRaphaelB",
+    "runeForth8B"
+  ],
   "type": "additions:simple"
 }

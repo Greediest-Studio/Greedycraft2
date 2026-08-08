@@ -43,10 +43,26 @@ val regName = "organic_infuser";
 val speed = 200;
 
 MMEvents.onControllerGUIRender("organic_infuser", function(event as ControllerGUIRenderEvent) {
+    var hasTreeModule = event.controller.hasModule("tree");
+    var hasFishModule = event.controller.hasModule("fish");
+    var hasAdvancedModule = event.controller.hasModule("advanced");
+    var ModuleList as string[] = [];
+    if (hasTreeModule) ModuleList += "§e树场模块";
+    if (hasFishModule) ModuleList += "§e渔场模块";
+    if (hasAdvancedModule) ModuleList += "§e高级模块";
+    if (ModuleList.length == 0) ModuleList += "§c无";
+    var showModule as string = "";
+    for Module in ModuleList {
+        if (Module != ModuleList[0]) {
+            showModule = showModule + " " + Module;
+        } else {
+            showModule = Module;
+        }
+    }
     var info as string[] = [
         "§a///有机灌注机控制面板///",
         "§a机器名称：§eLV2 - 有机灌注机",
-        "§a附属模块：" + (event.controller.hasModule("tree") ? "§e树场模块" : "§c无")
+        "§a附属模块：" + showModule
     ];
     event.extraInfo = info;
 });
@@ -295,4 +311,73 @@ RecipeAdapterBuilder.create("organic_infuser", "gctcore:bonsaitrees")
         RecipeModifierBuilder.create("modularmachinery:duration", "input", 0.50f, 1, false).build()
     ])
     .build();
-    
+
+val fishes as IItemStack[] = [
+    <minecraft:fish>,
+    <minecraft:fish:1>,
+    <minecraft:fish:2>,
+    <minecraft:fish:3>,
+    <atum:fish_forsaken>,
+    <atum:fish_mummified>,
+    <atum:fish_jeweled>,
+    <atum:fish_skeletal>,
+    <betterendforge:end_fish_raw>,
+    <lycanitesmobs:raw_silex_meat>,
+    <harvestcraft:calamarirawitem>,
+    <harvestcraft:shrimprawitem>,
+    <harvestcraft:eelrawitem>,
+    <harvestcraft:anchovyrawitem>,
+    <harvestcraft:bassrawitem>,
+    <harvestcraft:carprawitem>,
+    <harvestcraft:catfishrawitem>,
+    <harvestcraft:charrrawitem>,
+    <harvestcraft:grouperrawitem>,
+    <harvestcraft:herringrawitem>,
+    <harvestcraft:mudfishrawitem>,
+    <harvestcraft:octopusrawitem>,
+    <harvestcraft:perchrawitem>,
+    <harvestcraft:snapperrawitem>,
+    <harvestcraft:tilapiarawitem>,
+    <harvestcraft:troutrawitem>,
+    <harvestcraft:tunarawitem>,
+    <harvestcraft:walleyerawitem>,
+    <harvestcraft:greenheartfishitem>,
+    <harvestcraft:sardinerawitem>,
+    <harvestcraft:crabrawitem>,
+    <harvestcraft:crayfishrawitem>,
+    <harvestcraft:scalloprawitem>,
+    <harvestcraft:musselrawitem>,
+    <harvestcraft:clamrawitem>,
+    <harvestcraft:turtlerawitem>,
+    <harvestcraft:oysterrawitem>,
+    <pvj:raw_squid>,
+    <sakura:foodset:78>,
+    <tofucraft:foodset:11>,
+    <thebetweenlands:anadia>,
+    <thebetweenlands:critter>,
+    <thebetweenlands:bubbler_crab>,
+    <thebetweenlands:silt_crab>
+];
+
+var advancedModId as string[] = [
+    "atum",
+    "thebetweenlands",
+    "lycanitesmobs"
+];
+
+var recipeIdFish as int = 1;
+for fish in fishes {
+    RecipeBuilder.newBuilder(regName + "_fish_" + recipeIdFish, regName, (advancedModId has fish.definition.id.split(":")[0]) ? 1200 : 400)
+        .withModule(["fish"])
+        .addItemInput(fish).setChance(0.0f)
+        .addEnergyPerTickInput(360)
+        .addItemOutput(fish * 8)
+        .addItemOutput(fish * 2).setChance(0.5f)
+        .addItemOutput(fish * 2).setChance(0.5f)
+        .addItemOutput(fish * 2).setChance(0.5f)
+        .addItemOutput(fish * 2).setChance(0.5f)
+        .setMaxThreads(1)
+        .addRecipeTooltip("§a需要模块：渔场模块")
+        .build();
+    recipeIdFish += 1;
+}

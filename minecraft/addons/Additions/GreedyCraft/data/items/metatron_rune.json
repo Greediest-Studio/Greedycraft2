@@ -1,5 +1,8 @@
 {
   "name": "王冠符文",
-  "ore_dict": "runeMetatronB",
+  "ore_dict": [
+    "runeMetatronB",
+    "runeForth1B"
+  ],
   "type": "additions:simple"
 }

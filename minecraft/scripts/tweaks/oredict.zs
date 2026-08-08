@@ -93,11 +93,21 @@ import scripts.util.oredict as OredictUtil;
 <ore:seedsTier8>.remove(<mysticalagriculture:tier8_inferium_seeds>);
 <ore:seedsTier9>.remove(<mysticalagriculture:tier9_inferium_seeds>);
 <ore:ingotAethernim>.remove(<betterendforge:aeternium_ingot>);
+<ore:runeNilfheim>.remove(<botaniverse:morerune>);
+<ore:runeMuspelheim>.remove(<botaniverse:morerune:1>);
+<ore:runeAlfheim>.remove(<botaniverse:morerune:2>);
+<ore:runeAsgard>.remove(<botaniverse:morerune:3>);
 
 <ore:ingotCthulhurite>.add(<gct_mobs:cthulhurite_ingot>);
 <ore:starlight>.add(<journey:sapphire>);
 
 var oredictMap as IIngredient[][IOreDictEntry] = {
+    <ore:runeElementB> : [<botaniverse:morerune>],
+    <ore:runeSeasonB> : [<botaniverse:morerune:1>],
+    <ore:runeSinsB> : [<botaniverse:morerune:2>],
+    <ore:runeTreeB> : [<botaniverse:morerune:3>],
+    <ore:runeTeleportB> : [<botanicadds:rune_tp>],
+    <ore:runeEnergyB> : [<botanicadds:rune_energy>],
     <ore:plankWood> : [
         <betterendforge:mossy_glowshroom_planks>,
         <betterendforge:lacugrove_planks>,

@@ -328,11 +328,6 @@ RecipeUtil.addShaped("mystical_Dreadium", <abyssalcraft:dreadiumingot>, [
     [<mysticalagriculture:dreadium_essence>, null, <mysticalagriculture:dreadium_essence>],
     [<mysticalagriculture:dreadium_essence>, <mysticalagriculture:dreadium_essence>, <mysticalagriculture:dreadium_essence>]
 ]);
-RecipeUtil.addShaped("machine_assembler", <gctcore:mmce_builder_tool>, [
-    [null, <ore:ingotManyullyn>, null],
-    [null, <ore:ingotManyullyn>, null],
-    [null, <ore:stickWood>, null]
-]);
 RecipeUtil.addShaped("machine_assembler2", <additions:basic_assembler>, [
     [null, <ore:ingotAluminum>, null],
     [null, <ore:ingotAluminum>, null],
@@ -978,12 +973,6 @@ RecipeUtil.addShaped("modular_terminal", <modularmachinery_terminal:terminal>, [
     [null, <modularmachinery:blockcontroller>, null],
     [null, <appliedenergistics2:dense_energy_cell>, null]
 ]);
-RecipeUtil.addShaped("modular_bulid_tool", <gctcore:mmce_builder_tool>, [
-    [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
-    [<ore:stickWood>, <ore:ingotModularium>, <ore:stickWood>],
-    [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
-]);
-
 RecipeUtil.addShaped("laser_input_hatch", <modularmachineryaddons:blocklaserinput>, [
     [<mekanismgenerators:reactorglass:1>, <ore:blockModularium>, <ore:ingotModularium>],
     [<ore:ingotModularium>, <mekanismmultiblockmachine:laserlenses>, <mekanism:machineblock2:14>],
@@ -1478,6 +1467,11 @@ RecipeUtil.addShaped("original_steel_frame", <additions:original_steel_frame>, [
     [<ore:ingotOriginalSteel>, null, <ore:ingotOriginalSteel>],
     [null, <ore:gearOriginalSteel>, null],
     [<ore:ingotOriginalSteel>, null, <ore:ingotOriginalSteel>]
+]);
+RecipeUtil.addShaped("mmce_builder_tool", <gctcore:mmce_builder_tool>, [
+    [<ore:gemQuartz>, <ore:ingotModularium>, <ore:gemQuartz>],
+    [<additions:basic_assembler>, <ore:circuitBasic>, <modularmachineryaddons:advancedmachinedisassembler>],
+    [<ore:gemQuartz>, <ore:ingotModularium>, <ore:gemQuartz>]
 ]);
 /*
 RecipeUtil.addShaped("", , [
