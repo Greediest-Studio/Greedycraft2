@@ -1425,6 +1425,7 @@ GameStagesUtil.stageWitherSlayer.addIngredients([
     <ore:blockGermanium>,
     <ore:nuggetGermanium>,
     <ore:dustGermanium>,
+    <contenttweaker:gemgermanium>,
     <additions:wireless_processor>,
     <additions:germanium_press>,
     <additions:wireless_processor>,

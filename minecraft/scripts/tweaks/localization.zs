@@ -560,6 +560,9 @@ val localizationMap as string[string][string] = {
         "fluid.erebus_organic_fluid": "腐朽有机液",
         "fluid.evilblood_fluid": "恶血流质",
         "fluid.concentrated_soul_liquid": "浓缩灵魂源质",
+        "fluid.concentrated_plant_essence": "浓缩植物精华",
+        "fluid.diluted_plant_essence": "稀释植物精华",
+        "fluid.concentrated_plant_essence_precursor": "浓缩植物精华前体",
         //
         "fluid.liquidlegend": "荣耀浆液",
         //

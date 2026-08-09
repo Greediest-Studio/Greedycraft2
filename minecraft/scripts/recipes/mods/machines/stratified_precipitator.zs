@@ -77,3 +77,12 @@ RecipeBuilder.newBuilder("selenous_acid_reduction", "stratified_precipitator", 6
     .addFluidOutput(<liquid:sulfuric_acid> * 1000)
     .setMaxThreads(1)
     .build();
+
+RecipeBuilder.newBuilder("concentrated_plant_essence_precipitation", "stratified_precipitator", 600)
+    .addFluidInput(<liquid:concentrated_plant_essence_precursor> * 1000)
+    .addFluidInput(<liquid:phosphoric_acid> * 500)
+    .addEnergyPerTickInput(20000)
+    .addFluidOutput(<liquid:concentrated_plant_essence> * 1000)
+    .addItemOutput(<botania:manaresource:23> * 2)
+    .setMaxThreads(1)
+    .build();

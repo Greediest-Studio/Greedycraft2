@@ -24,6 +24,7 @@ import mods.nuclearcraft.Enricher;
 import mods.nuclearcraft.Centrifuge;
 import mods.nuclearcraft.SaltMixer;
 import mods.nuclearcraft.IngotFormer;
+import mods.nuclearcraft.Infuser;
 import mods.nuclearcraft.Registration;
 import mods.nuclearcraft.Extractor;
 import mods.nuclearcraft.MultiblockInfiltrator;
@@ -504,6 +505,8 @@ IngotFormer.removeRecipeWithOutput(<additions:argon_ingot>);
 IngotFormer.removeRecipeWithOutput(<additions:krypton_ingot>);
 IngotFormer.removeRecipeWithOutput(<additions:xenon_ingot>);
 IngotFormer.removeRecipeWithOutput(<additions:radon_ingot>);
+
+IngotFormer.addRecipe(<liquid:livingrock> * 72, <additions:empty_rune>);
 IngotFormer.addRecipe(<liquid:polyethylene_low_density> * 144, <additions:ldpe_sheet>);
 IngotFormer.addRecipe(<liquid:polyethylene_high_density> * 144, <mekanism:hdpe_sheet>);
 IngotFormer.addRecipe(<liquid:awakened_draconium> * 144, <draconicevolution:draconic_ingot>);
@@ -575,6 +578,7 @@ SaltMixer.removeRecipeWithInput(<liquid:arsenic> * 1332, <liquid:nak> * 144);
 SaltMixer.addRecipe(<liquid:arsenic> * 288, <liquid:nak> * 144, <liquid:arsenic_nak> * 144);
 SaltMixer.addRecipe(<liquid:cryotheum> * 250, <liquid:liquid_helium> * 1000, <liquid:hecryo_liquid> * 1000);
 SaltMixer.addRecipe(<liquid:meat> * 150, <liquid:culture_medium> * 50, <liquid:molten_solid_culture_medium> * 200);
+SaltMixer.addRecipe(<liquid:concentrated_plant_essence> * 100, <liquid:mysterious_soul> * 400, <liquid:diluted_plant_essence> * 500);
 
 ChemicalReactor.removeRecipeWithInput(<liquid:boron> * 72, <liquid:arsenic> * 333);
 ChemicalReactor.removeRecipeWithInput(<liquid:liquidhydrogen> * 250, <liquid:fluorine> * 250);
@@ -791,6 +795,9 @@ Enricher.addRecipe(<additions:dtpa>, <liquid:lactic_acid> * 1000, <liquid:diethy
 Enricher.addRecipe(<additions:dtpa>, <liquid:water> * 1000, <liquid:diethylenetriaminepentaacetic_acid_solution> * 1000, 2.0d, 6.0d, 0.0d);
 Enricher.addRecipe(<additions:alpha_hydroxyisobutyric_acid>, <liquid:water> * 1000, <liquid:alpha_hydroxyisobutyric_acid_solution> * 666);
 Enricher.addRecipe(<additions:calcium_acetate>, <liquid:water> * 1000, <liquid:calcium_acetate_solution> * 666);
+Enricher.addRecipe(<botania:specialflower>, <liquid:diluted_plant_essence> * 100, <liquid:concentrated_plant_essence_precursor> * 100);
+
+Infuser.addRecipe(<botania:manaresource:5>, <liquid:concentrated_plant_essence> * 250, <gct_mobs:botanical_soul>, 2.0d, 8.0d);
 
 Electrolyzer.addRecipe(<liquid:brine> * 1000, <liquid:sodium_hydroxide_solution> * 666, <liquid:hydrogen> * 500, <liquid:liquidchlorine> * 500, null, 1.0d, 1.0d, 0.0d);
 Electrolyzer.addRecipe(<liquid:sodium_chloride> * 333, <liquid:sodium> * 72, <liquid:liquidchlorine> * 250, null, null);
@@ -890,6 +897,9 @@ val ErebusPlants as IItemStack[] = [
 for plant in ErebusPlants {
     Extractor.addRecipe(plant, null, <liquid:erebus_organic_fluid> * 20);
 }
+
+Extractor.addRecipe(<gct_mobs:botanical_soul>, <botania:manaresource:5>, <liquid:concentrated_plant_essence> * 200, 10.0d, 8.0d);
+Extractor.addRecipe(<gct_mobs:botanical_stone>, <gct_mobs:alf_stone>, <liquid:concentrated_plant_essence> * 50, 1.5d, 4.0d);
 
 DecayHastener.addRecipe(<ore:dustIridium192>, <mekanism:dust:2>, 0.12d, 1.0d, number(850.0d, u));
 DecayHastener.addRecipe(<ore:dustGold198>, <thaumcraft:quicksilver>, 0.059d, 1.0d, 20.5d);

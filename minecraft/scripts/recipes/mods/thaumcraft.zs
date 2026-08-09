@@ -596,3 +596,19 @@ Infusion.registerRecipe("perfect_solar_panel", "", <crazyae:perfect_solar_panel>
     <crazyae:material:16>,
     <solarflux:solar_panel_void_metal>
 ]);
+
+Infusion.registerRecipe("botanical_soul", "", <gct_mobs:botanical_soul> * 6, 25, [
+    <aspect:herba> * 640,
+    <aspect:terra> * 640,
+    <aspect:primitivus> * 320
+], <ore:eternalLifeEssence>, [
+    <forge:bucketfilled>.withTag({FluidName: "concentrated_plant_essence", Amount: 1000}),
+    <ore:powderMana>,
+    <ore:powderMana>,
+    <ore:dustPrimordial>,
+    <ore:dustPrimordial>,
+    <ore:dustPrimordial>,
+    <ore:dustPrimordial>,
+    <gctcore:alf_spark>,
+    <gctcore:alf_spark>
+]);

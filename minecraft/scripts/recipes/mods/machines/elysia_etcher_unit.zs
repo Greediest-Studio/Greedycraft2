@@ -207,3 +207,52 @@ addInscriberRecipe(<additions:cadmium_chalcogenide_plate>, <ore:ingotCadmiumChal
 addInscriberRecipe(<additions:calculation_circuit_printed_4>, <ore:ingotArimite>, 4);
 addInscriberRecipe(<additions:engineering_circuit_printed_4>, <ore:gemUndyingEmber>, 4);
 addInscriberRecipe(<additions:logic_circuit_printed_4>, <ore:ingotIrradium>, 4);
+
+function addManaRuneRecipe(output as IItemStack, id as int, level as int, input as IIngredient) {
+    val catalystList as IIngredient[] = [
+        <ore:dustManasteel>,
+        <ore:dustElvenElementium>,
+        <ore:dustTerrasteel>,
+        <ore:dustOrichalcos>,
+        <ore:dustOriginalSteel>
+    ];
+
+    RecipeBuilder.newBuilder("rune_etcher_recipe_" + level + "_" + id, "elysia_etcher", 100)
+        .addItemInput(catalystList[level]).setChance(0.0f)
+        .addItemInput(<ore:runeEmptyB> * 4)
+        .addItemInput(input)
+        .addItemOutput(output * 4)
+        .addEnergyPerTickInput(800)
+        .addRecipeTooltip("§d蚀刻配方支持模块化电容升级，详情请查询“模块化电容”")
+        .addRecipeTooltip("§a需要模块：符文模块")
+        .setMaxThreads(1)
+        .withModule(["rune"])
+        .addSmartInterfaceDataInput("模式", 2)
+        .build();
+}
+
+addManaRuneRecipe(<botania:rune:8>, 1, 0, <ore:manaPearl>);
+addManaRuneRecipe(<botanicadds:rune_tp>, 2, 0, <actuallyadditions:block_misc:6>);
+addManaRuneRecipe(<botanicadds:rune_energy>, 3, 0, <ore:blockRedstone>);
+
+addManaRuneRecipe(<botania:rune:0>, 1, 1, <ore:sugarcane>);
+addManaRuneRecipe(<botania:rune:1>, 2, 1, <ore:ingotBrickNether>);
+addManaRuneRecipe(<botania:rune:2>, 3, 1, <ore:blockCoal>);
+addManaRuneRecipe(<botania:rune:3>, 4, 1, <ore:feather>);
+
+addManaRuneRecipe(<botania:rune:4>, 1, 2, <ore:treeSapling>);
+addManaRuneRecipe(<botania:rune:5>, 2, 2, <ore:slimeball>);
+addManaRuneRecipe(<botania:rune:6>, 3, 2, <ore:spiderEye>);
+addManaRuneRecipe(<botania:rune:7>, 4, 2, <minecraft:snow>);
+
+addManaRuneRecipe(<botania:rune:9>, 1, 3, <minecraft:saddle>);
+addManaRuneRecipe(<botania:rune:10>, 2, 3, <ore:foodChocolate>);
+addManaRuneRecipe(<botania:rune:11>, 3, 3, <ore:gemDiamond>);
+addManaRuneRecipe(<botania:rune:12>, 4, 3, <ore:bed>);
+addManaRuneRecipe(<botania:rune:13>, 5, 3, <ore:rodBlaze>);
+addManaRuneRecipe(<botania:rune:14>, 6, 3, <ore:pearlEnderEye>);
+addManaRuneRecipe(<botania:rune:15>, 7, 3, <ore:nuggetNetherStar>);
+
+addManaRuneRecipe(<additions:asgard_rune>, 1, 4, <minecraft:golden_apple:1>);
+addManaRuneRecipe(<additions:vanaheim_rune>, 2, 4, <ore:ingotTerraAlloy>);
+addManaRuneRecipe(<additions:alfheim_rune>, 3, 4, <ore:soulBotanical>);
