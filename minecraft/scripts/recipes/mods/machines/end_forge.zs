@@ -125,3 +125,4 @@ MMEvents.onMachinePreTick("end_forge", function(event as MachineTickEvent) {
 addEndForgeRecipe(<additions:endest_steel_ingot>, [<ore:ingotDarkice> * 2, <ore:ingotEnderite> * 2, <ore:dustEnderium> * 2], 200, 400);
 addEndForgeRecipe(<additions:ender_light>, [<ore:ingotEndestSteel> * 2, <ore:dustDraconiumChaotic> * 9, <moretcon:repitem:2> * 2], 300, 600);
 addEndForgeRecipe(<additions:enderite_ingot>, [<ore:gemResonantDebris> * 3, <ore:dustIridium> * 4], 40, 80);
+addEndForgeRecipe(<endexpansion:plate>, [<ore:ingotEnderiron> * 3, <ore:dustUru> * 2], 50, 100);

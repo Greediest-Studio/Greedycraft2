@@ -253,6 +253,13 @@ addManaRuneRecipe(<botania:rune:13>, 5, 3, <ore:rodBlaze>);
 addManaRuneRecipe(<botania:rune:14>, 6, 3, <ore:pearlEnderEye>);
 addManaRuneRecipe(<botania:rune:15>, 7, 3, <ore:nuggetNetherStar>);
 
-addManaRuneRecipe(<additions:asgard_rune>, 1, 4, <minecraft:golden_apple:1>);
+addManaRuneRecipe(<additions:asgard_rune>, 1, 4, <ore:ingotSkyAlloy>);
 addManaRuneRecipe(<additions:vanaheim_rune>, 2, 4, <ore:ingotTerraAlloy>);
 addManaRuneRecipe(<additions:alfheim_rune>, 3, 4, <ore:soulBotanical>);
+addManaRuneRecipe(<additions:midgard_rune>, 4, 4, <ore:compressed4xDirt>);
+addManaRuneRecipe(<additions:jotunheim_rune>, 5, 4, <ore:eyeCyclops>);
+addManaRuneRecipe(<additions:nidavellir_rune>, 6, 4, <ore:ingotDullium>);
+addManaRuneRecipe(<additions:muspelheim_rune>, 7, 4, <ore:ingotFireAlloy>);
+addManaRuneRecipe(<additions:niflheim_rune>, 8, 4, <ore:ingotIceAlloy>);
+addManaRuneRecipe(<additions:helheim_rune>, 9, 4, <ore:gemRemorseful>);
+addManaRuneRecipe(<additions:ginnunga_rune>, 10, 4, <minecraft:golden_apple:1>);
