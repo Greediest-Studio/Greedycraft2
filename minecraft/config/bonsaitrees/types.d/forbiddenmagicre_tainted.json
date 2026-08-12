@@ -26,6 +26,13 @@
             "name": "forbiddenmagicre:sapling_tainted",
             "data": 0,
             "type": "SAPLING"
+        },
+        {
+            "name": "forbiddenmagicre:taint_fruit",
+            "data": 0,
+            "type": "CUSTOM",
+            "chance": 0.25,
+            "count": 1
         }
     ],
     "compatibleSoilTags": ["dirt", "grass"]

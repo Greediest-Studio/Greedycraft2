@@ -37,8 +37,8 @@ RecipeAdapterBuilder.create("elysia_crusher", "thermalexpansion:pulverizer")
     //.setMaxThreads(1)
     .build();
 
-function addCrusherRecipe(input as IItemStack, output as IIngredient, energy as int, tick as int) {
-    RecipeBuilder.newBuilder(input.definition.id, "elysia_crusher", tick)
+function addCrusherRecipe(id as int, input as IIngredient, output as IItemStack, energy as int, tick as int) {
+    RecipeBuilder.newBuilder("crusher_more_recipe_" + id, "elysia_crusher", tick)
         .addInput(input)
         .addOutput(output)
         .addEnergyPerTickInput(energy)
@@ -46,4 +46,4 @@ function addCrusherRecipe(input as IItemStack, output as IIngredient, energy as 
         .build();
 }
 
-addCrusherRecipe(<ore:itemPulsatingCrystal>, <ore:itemPulsatingPowder>, 20, 100);
+addCrusherRecipe(1, <ore:itemPulsatingCrystal>, <enderio:item_material:36>, 20, 100);

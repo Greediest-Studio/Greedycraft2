@@ -1,0 +1,29 @@
+[
+  {
+    "inputs": [
+      "appliedenergistics2:material:1",
+      "appliedenergistics2:quartz_block:0"
+    ],
+    "fluid": "minecraft:water",
+    "consumeFluid": false,
+    "output": "ae2_meteorite_addon:budding_certus_quartz:3"
+  },
+  {
+    "inputs": [
+      "appliedenergistics2:material:1",
+      "ae2_meteorite_addon:budding_certus_quartz:3"
+    ],
+    "fluid": "minecraft:water",
+    "consumeFluid": false,
+    "output": "ae2_meteorite_addon:budding_certus_quartz:2"
+  },
+  {
+    "inputs": [
+      "appliedenergistics2:material:1",
+      "ae2_meteorite_addon:budding_certus_quartz:2"
+    ],
+    "fluid": "minecraft:water",
+    "consumeFluid": false,
+    "output": "ae2_meteorite_addon:budding_certus_quartz:1"
+  }
+]

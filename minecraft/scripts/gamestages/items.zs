@@ -2625,7 +2625,17 @@ GameStagesUtil.stageWakeUp.addIngredients([
     <ore:frameOriginalSteel>,
     <gctcore:nilfheim_portal_core>,
     <gctcore:imaginative_snowball>,
-    <thaumictinkerer:sky_pearl>
+    <thaumictinkerer:sky_pearl>,
+    <additions:asgard_rune>,
+    <additions:vanaheim_rune>,
+    <additions:alfheim_rune>,
+    <additions:jotunheim_rune>,
+    <additions:midgard_rune>,
+    <additions:niflheim_rune>,
+    <additions:muspelheim_rune>,
+    <additions:nidavellir_rune>,
+    <additions:helheim_rune>,
+    <additions:ginnunga_rune>
 ], false);
 
 GameStagesUtil.stageMindShock.addIngredients([

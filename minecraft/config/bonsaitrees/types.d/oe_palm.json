@@ -26,6 +26,13 @@
             "name": "oe:palm_sapling",
             "data": 0,
             "type": "SAPLING"
+        },
+        {
+            "name": "oe:coconut",
+            "data": 0,
+            "type": "CUSTOM",
+            "chance": 0.4,
+            "count": 1
         }
     ],
     "compatibleSoilTags": ["dirt", "grass"]
