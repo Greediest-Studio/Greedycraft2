@@ -37,6 +37,12 @@ alias = "mods/AE2CT-Legacy-0.1.2.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/ae2-meteorite-addon.pw.toml"
+hash = "a48fc063eac4d1af9089b048087fccc76ea4d3736423f093ed71f9439c322180"
+alias = "mods/ae2_meteorite_addon-1.5.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/ae2-mod-id-view-cell.pw.toml"
 hash = "686f5604d01f31aea19d39793e7ac9f870ede14a65fc3a1342406fe4e6a5b1ce"
 alias = "mods/ae2-modIdViewCell-v1.1.5.jar"
@@ -52,6 +58,12 @@ metafile = true
 file = "mods/.index/ae2-powertools.pw.toml"
 hash = "b7bee53fbe108bf9f04955930b7d1b81890d87b588332603535197d9d17b4ec3"
 alias = "mods/ae2powertools-1.5.5.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/ae2-quick-calculation.pw.toml"
+hash = "b02c658956a59106d9f3581baaa2e87348293ad496c417c65c1ba91bde7d76dd"
+alias = "mods/ae2-quick-calculation-1.12.2-1.0.1.jar"
 metafile = true
 
 [[files]]
@@ -376,6 +388,12 @@ metafile = true
 file = "mods/.index/bookshelf.pw.toml"
 hash = "b1fb57b228c59338b92e5427d82dad7ea93090f6f9e89c5ae8531da14a60d042"
 alias = "mods/Bookshelf-1.12.2-2.3.590.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/botania-applie.pw.toml"
+hash = "e9d5f96998f29e812e5b1015380c6b147f6690d5b077209872716d09a7bbe600"
+alias = "mods/botania_applie-1.2.2.jar"
 metafile = true
 
 [[files]]
@@ -919,6 +937,12 @@ alias = "mods/fluidict-1.2.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/flux-applied.pw.toml"
+hash = "a9bffa5bbef5db0ac9d1a0f670ff2fa65e1d9cbd81d36d9e43d19fcb7dcaed56"
+alias = "mods/flux_applied-1.2.2.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/flux-networks.pw.toml"
 hash = "98ebd4301557b869b85f07eea21b0ce4e8c6479a62fb94e6f1ed460f77485a7b"
 alias = "mods/FluxNetworks-1.12.2-4.1.1.34.jar"
@@ -1436,8 +1460,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/modularmachinery-community-edition-complement.pw.toml"
-hash = "d752e3d2c9577e99c512eeac01245b8e81bcf095e4c95aa5ba09c36d58f004cd"
-alias = "mods/mmce_complement-1.3.1.jar"
+hash = "28eebeefc2dbdfcf870486c90cffce57b2de77bb364beb29e7f2244163d31cfe"
+alias = "mods/mmce_complement-1.3.2.jar"
 metafile = true
 
 [[files]]
@@ -2122,6 +2146,12 @@ metafile = true
 file = "mods/.index/taiga-replant-replant.pw.toml"
 hash = "a1a5316e6feda0d8a5c01204163cfd803e8f6033bd68eee4e53c8a0e0af84e3f"
 alias = "mods/TAIGA-Replant-Replant(1.0.0-beta).jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/terminal-interaction-integration.pw.toml"
+hash = "dd084df1d1235f5ad3e40cb1fc2c4e11fd082f1de8c9b46678685ad533d52248"
+alias = "mods/terminal_interaction_integration-1.2.1.jar"
 metafile = true
 
 [[files]]
