@@ -184,6 +184,10 @@ if (!isNull(event.item) && !event.world.isRemote()) {
     }
 
     //vethea
+    if (!event.world.remote && event.item.definition.id == "waystones:warp_stone" && event.player.world.dimension == 427) {
+        player.sendChat("§e保险起见，你取消了使用传送石");
+        event.cancel();
+    }
     if (isNull(event.item)) return;
     val whiteList = [
         "tcon",

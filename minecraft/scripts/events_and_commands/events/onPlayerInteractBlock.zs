@@ -86,6 +86,10 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
         event.cancel();
     }
     //vethea
+    if (event.block.definition.id == "waystones:waystone" && !event.world.remote && event.player.world.dimension == 427) {
+        player.sendChat("§e保险起见，你取消了使用指路石");
+        event.cancel();
+    }
     val whiteList = [
         "tcon",
         "tcom",
