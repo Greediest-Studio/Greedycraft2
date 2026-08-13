@@ -1,1 +1,1171 @@
-[]
+[
+  {
+    "targetID": "botanicadds:mana_lapis",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "additions:mana_lapis",
+        "meta": 0
+      },
+      {
+        "oreName": "gemManaLapis"
+      }
+    ]
+  },
+  {
+    "targetID": "botania:quartz",
+    "targetMeta": 1,
+    "matchItems": [
+      {
+        "id": "additions:mana_quartz",
+        "meta": 0
+      },
+      {
+        "oreName": "gemManaQuartz"
+      }
+    ]
+  },
+  {
+    "targetID": "botania:manaresource",
+    "targetMeta": 2,
+    "matchItems": [
+      {
+        "id": "additions:manadiamond",
+        "meta": 0
+      },
+      {
+        "oreName": "gemManaDiamond"
+      }
+    ]
+  },
+  {
+    "targetID": "aether_legacy:ambrosium_block",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "jaopca:block.ambrosium",
+        "meta": 0
+      },
+      {
+        "oreName": "blockAmbrosium"
+      }
+    ]
+  },
+  {
+    "targetID": "astralsorcery:itemcraftingcomponent",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "divinerpg:aquamarine",
+        "meta": 0
+      },
+      {
+        "oreName": "gemAquamarine"
+      }
+    ]
+  },
+  {
+    "targetID": "thermalfoundation:material",
+    "targetMeta": 866,
+    "matchItems": [
+      {
+        "id": "tiths:mercury_sulfide",
+        "meta": 0
+      },
+      {
+        "oreName": "crystalCinnabar"
+      }
+    ]
+  },
+  {
+    "targetID": "mekanism:fluoriteclump",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "nuclearcraft:gem",
+        "meta": 2
+      },
+      {
+        "oreName": "gemFluorite"
+      }
+    ]
+  },
+  {
+    "targetID": "botania:quartztypemana",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "jaopca:block.mana_quartz",
+        "meta": 0
+      },
+      {
+        "oreName": "blockManaQuartz"
+      }
+    ]
+  },
+  {
+    "targetID": "thebetweenlands:scabyst_block",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "jaopca:block.scabyst",
+        "meta": 0
+      },
+      {
+        "oreName": "blockScabyst"
+      }
+    ]
+  },
+  {
+    "targetID": "additions:sulfur_ingot",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "betterendforge:crystalline_sulphur",
+        "meta": 0
+      },
+      {
+        "id": "betterendforge:sulphur_crystal",
+        "meta": 0
+      },
+      {
+        "oreName": "ingotSulfur"
+      }
+    ]
+  },
+  {
+    "targetID": "tiths:nitre",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "abyssalcraft:nitre",
+        "meta": 0
+      },
+      {
+        "id": "bloodmagic:component",
+        "meta": 24
+      },
+      {
+        "id": "thermalfoundation:material",
+        "meta": 772
+      },
+      {
+        "oreName": "dustSaltpeter"
+      }
+    ]
+  },
+  {
+    "targetID": "tiths:block_nitre",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "jaopca:block.saltpeter",
+        "meta": 0
+      },
+      {
+        "oreName": "blockSaltpeter"
+      }
+    ]
+  },
+  {
+    "targetID": "thaumcraft:amber",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "betterendforge:amber_gem",
+        "meta": 0
+      },
+      {
+        "id": "biomesoplenty:gem",
+        "meta": 7
+      },
+      {
+        "id": "cyclicmagic:crystallized_amber",
+        "meta": 0
+      },
+      {
+        "oreName": "gemAmber"
+      }
+    ]
+  },
+  {
+    "targetID": "thaumcraft:amber_block",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "betterendforge:amber_block",
+        "meta": 0
+      },
+      {
+        "id": "biomesoplenty:gem_block",
+        "meta": 7
+      }
+    ]
+  },
+  {
+    "targetID": "quark:end_bricks_stairs",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "endexpansion:end_stone_stairs",
+        "meta": 0
+      },
+      {
+        "id": "endreborn:e_end_bricks_stairs",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "quark:end_bricks_slab",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "endexpansion:end_brick_half",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "quark:end_bricks_wall",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "endexpansion:end_stone_wall",
+        "meta": 0
+      },
+      {
+        "id": "endreborn:e_end_bricks_wall",
+        "meta": 0
+      },
+      {
+        "id": "futuremc:end_stone_brick_wall",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "thermalfoundation:material",
+    "targetMeta": 132,
+    "matchItems": [
+      {
+        "id": "erebus:materials",
+        "meta": 42
+      },
+      {
+        "id": "nuclearcraft:ingot",
+        "meta": 12
+      },
+      {
+        "id": "tconstruct:common_ingots",
+        "meta": 2
+      },
+      {
+        "oreName": "ingotAluminum"
+      }
+    ]
+  },
+  {
+    "targetID": "thermalfoundation:material",
+    "targetMeta": 163,
+    "matchItems": [
+      {
+        "id": "forestry:ingot_bronze",
+        "meta": 0
+      },
+      {
+        "id": "mekanism:ingot",
+        "meta": 2
+      },
+      {
+        "id": "nuclearcraft:alloy",
+        "meta": 0
+      },
+      {
+        "id": "tconstruct:common_ingots",
+        "meta": 3
+      },
+      {
+        "oreName": "ingotBronze"
+      }
+    ]
+  },
+  {
+    "targetID": "thermalfoundation:material",
+    "targetMeta": 128,
+    "matchItems": [
+      {
+        "id": "abyssalcraft:copperingot",
+        "meta": 0
+      },
+      {
+        "id": "erebus:materials",
+        "meta": 43
+      },
+      {
+        "id": "forestry:ingot_copper",
+        "meta": 0
+      },
+      {
+        "id": "iceandfire:copper_ingot",
+        "meta": 0
+      },
+      {
+        "id": "mekanism:ingot",
+        "meta": 5
+      },
+      {
+        "id": "nuclearcraft:ingot",
+        "meta": 0
+      },
+      {
+        "id": "tconstruct:common_ingots",
+        "meta": 0
+      },
+      {
+        "oreName": "ingotCopper"
+      }
+    ]
+  },
+  {
+    "targetID": "thermalfoundation:material",
+    "targetMeta": 129,
+    "matchItems": [
+      {
+        "id": "abyssalcraft:tiningot",
+        "meta": 0
+      },
+      {
+        "id": "erebus:materials",
+        "meta": 46
+      },
+      {
+        "id": "forestry:ingot_tin",
+        "meta": 0
+      },
+      {
+        "id": "mekanism:ingot",
+        "meta": 6
+      },
+      {
+        "id": "nuclearcraft:ingot",
+        "meta": 1
+      },
+      {
+        "id": "tconstruct:common_ingots",
+        "meta": 1
+      },
+      {
+        "oreName": "ingotTin"
+      }
+    ]
+  },
+  {
+    "targetID": "additions:manganese_ingot",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "nuclearcraft:ingot",
+        "meta": 11
+      },
+      {
+        "oreName": "ingotManganese"
+      }
+    ]
+  },
+  {
+    "targetID": "additions:titanium_ingot",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "tiths:ingot_titanium",
+        "meta": 0
+      },
+      {
+        "oreName": "ingotTitanium"
+      }
+    ]
+  },
+  {
+    "targetID": "additions:shadowium_ingot",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "extrabotany:material",
+        "meta": 5
+      }
+    ]
+  },
+  {
+    "targetID": "thermalfoundation:storage",
+    "targetMeta": 4,
+    "matchItems": [
+      {
+        "id": "nuclearcraft:ingot_block",
+        "meta": 12
+      }
+    ]
+  },
+  {
+    "targetID": "tconstruct:metal",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "nuclearcraft:material_block",
+        "meta": 2
+      }
+    ]
+  },
+  {
+    "targetID": "taiga:palladium_block",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "nuclearcraft:ingot_block2",
+        "meta": 1
+      }
+    ]
+  },
+  {
+    "targetID": "taiga:palladium_ingot",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "nuclearcraft:ingot2",
+        "meta": 1
+      },
+      {
+        "oreName": "ingotPalladium"
+      }
+    ]
+  },
+  {
+    "targetID": "biomesoplenty:gem",
+    "targetMeta": 6,
+    "matchItems": [
+      {
+        "id": "iceandfire:sapphire_gem",
+        "meta": 0
+      },
+      {
+        "id": "journey:sapphire",
+        "meta": 0
+      },
+      {
+        "oreName": "gemSapphire"
+      }
+    ]
+  },
+  {
+    "targetID": "biomesoplenty:gem_block",
+    "targetMeta": 6,
+    "matchItems": [
+      {
+        "id": "iceandfire:sapphire_block",
+        "meta": 0
+      },
+      {
+        "id": "journey:sapphireblock",
+        "meta": 0
+      },
+      {
+        "oreName": "blockSapphire"
+      }
+    ]
+  },
+  {
+    "targetID": "biomesoplenty:gem_ore",
+    "targetMeta": 6,
+    "matchItems": [
+      {
+        "id": "iceandfire:sapphire_ore",
+        "meta": 0
+      },
+      {
+        "id": "journey:sapphireore",
+        "meta": 0
+      },
+      {
+        "id": "netherendingores:ore_end_modded_2",
+        "meta": 2
+      },
+      {
+        "id": "netherendingores:ore_nether_modded_2",
+        "meta": 2
+      },
+      {
+        "oreName": "oreSapphire"
+      }
+    ]
+  },
+  {
+    "targetID": "thermalfoundation:material",
+    "targetMeta": 192,
+    "matchItems": [
+      {
+        "id": "iceandfire:copper_nugget",
+        "meta": 0
+      },
+      {
+        "id": "magicbees:orepart",
+        "meta": 3
+      },
+      {
+        "id": "mekanism:nugget",
+        "meta": 5
+      },
+      {
+        "id": "tconstruct:common_nuggets",
+        "meta": 0
+      },
+      {
+        "id": "thaumcraft:nugget",
+        "meta": 1
+      },
+      {
+        "oreName": "nuggetCopper"
+      }
+    ]
+  },
+  {
+    "targetID": "thermalfoundation:material",
+    "targetMeta": 194,
+    "matchItems": [
+      {
+        "id": "iceandfire:silver_nugget",
+        "meta": 0
+      },
+      {
+        "id": "thaumcraft:nugget",
+        "meta": 3
+      },
+      {
+        "oreName": "nuggetSilver"
+      }
+    ]
+  },
+  {
+    "targetID": "additions:imitatium_ore",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "tiths:ore_imitatium",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "extendedcrafting:material",
+    "targetMeta": 36,
+    "matchItems": [
+      {
+        "id": "enderutilities:enderpart",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "enderio:item_alloy_ingot",
+    "targetMeta": 8,
+    "matchItems": [
+      {
+        "id": "enderutilities:enderpart",
+        "meta": 1
+      }
+    ]
+  },
+  {
+    "targetID": "thermalfoundation:material",
+    "targetMeta": 167,
+    "matchItems": [
+      {
+        "id": "enderutilities:enderpart",
+        "meta": 2
+      }
+    ]
+  },
+  {
+    "targetID": "additions:blackiron_dust",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "jaopca:dust.black_iron",
+        "meta": 0
+      },
+      {
+        "oreName": "dustBlackIron"
+      }
+    ]
+  },
+  {
+    "targetID": "additions:blackiron_gear",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "jaopca:gear.black_iron",
+        "meta": 0
+      },
+      {
+        "oreName": "gearBlackIron"
+      }
+    ]
+  },
+  {
+    "targetID": "additions:blackiron_plate",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "jaopca:plate.black_iron",
+        "meta": 0
+      },
+      {
+        "oreName": "plateBlackIron"
+      }
+    ]
+  },
+  {
+    "targetID": "tconstruct:materials",
+    "targetMeta": 17,
+    "matchItems": [
+      {
+        "id": "iceandfire:witherbone",
+        "meta": 0
+      },
+      {
+        "id": "netherex:wither_bone",
+        "meta": 0
+      },
+      {
+        "oreName": "boneWithered"
+      }
+    ]
+  },
+  {
+    "targetID": "additions:chloroplast_ore",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "tiths:ore_chloroplast",
+        "meta": 0
+      },
+      {
+        "oreName": "oreChloroplast"
+      }
+    ]
+  },
+  {
+    "targetID": "thaumcraft:quicksilver",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "tiths:cinnabar",
+        "meta": 0
+      },
+      {
+        "oreName": "gemQuicksilver"
+      }
+    ]
+  },
+  {
+    "targetID": "tiths:block_mercury_sulfide",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "jaopca:block.cinnabar",
+        "meta": 0
+      },
+      {
+        "oreName": "blockCinnabar"
+      }
+    ]
+  },
+  {
+    "targetID": "biomesoplenty:gem",
+    "targetMeta": 3,
+    "matchItems": [
+      {
+        "id": "tiths:topaz",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "biomesoplenty:gem_block",
+    "targetMeta": 3,
+    "matchItems": [
+      {
+        "id": "tiths:block_topaz",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "biomesoplenty:gem_ore",
+    "targetMeta": 3,
+    "matchItems": [
+      {
+        "id": "tiths:ore_topaz",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "appliedenergistics2:material",
+    "targetMeta": 5,
+    "matchItems": [
+      {
+        "id": "enderio:item_material",
+        "meta": 5
+      },
+      {
+        "id": "nuclearcraft:gem",
+        "meta": 6
+      },
+      {
+        "oreName": "itemSilicon"
+      }
+    ]
+  },
+  {
+    "targetID": "appliedenergistics2:material",
+    "targetMeta": 3,
+    "matchItems": [
+      {
+        "id": "actuallyadditions:item_dust",
+        "meta": 5
+      },
+      {
+        "id": "enderio:item_material",
+        "meta": 33
+      },
+      {
+        "id": "nuclearcraft:gem_dust",
+        "meta": 2
+      },
+      {
+        "oreName": "dustNetherQuartz"
+      },
+      {
+        "oreName": "dustQuartz"
+      }
+    ]
+  },
+  {
+    "targetID": "iceandfire:pixie_dust",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "botania:manaresource",
+        "meta": 8
+      }
+    ]
+  },
+  {
+    "targetID": "thermalfoundation:material",
+    "targetMeta": 25,
+    "matchItems": [
+      {
+        "id": "mysticalmechanics:gear_gold",
+        "meta": 0
+      },
+      {
+        "oreName": "gearGold"
+      }
+    ]
+  },
+  {
+    "targetID": "actuallyadditions:item_misc",
+    "targetMeta": 5,
+    "matchItems": [
+      {
+        "id": "botania:quartz",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "actuallyadditions:block_misc",
+    "targetMeta": 2,
+    "matchItems": [
+      {
+        "id": "botania:quartztypedark",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "actuallyadditions:block_misc",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "botania:quartztypedark",
+        "meta": 2
+      }
+    ]
+  },
+  {
+    "targetID": "actuallyadditions:block_misc",
+    "targetMeta": 1,
+    "matchItems": [
+      {
+        "id": "botania:quartztypedark",
+        "meta": 1
+      }
+    ]
+  },
+  {
+    "targetID": "actuallyadditions:block_quartz_stair",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "botania:quartzstairsdark",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "actuallyadditions:block_quartz_slab",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "botania:quartzslabdarkhalf",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "additions:ancient_debris",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "netherized:ancient_debris",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "additions:netherite_scrap",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "netherized:netherite_scrap",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "additions:netherite_block",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "netherized:netherite_block",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "additions:netherite_ingot",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "netherized:netherite_ingot",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "netherendingores:ore_nether_vanilla",
+    "targetMeta": 3,
+    "matchItems": [
+      {
+        "id": "netherized:nether_gold_ore",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "mekanism:ingot",
+    "targetMeta": 8,
+    "matchItems": [
+      {
+        "id": "nuclearcraft:ingot",
+        "meta": 4
+      },
+      {
+        "oreName": "ingotUranium"
+      }
+    ]
+  },
+  {
+    "targetID": "mekanism:dust",
+    "targetMeta": 7,
+    "matchItems": [
+      {
+        "id": "nuclearcraft:dust",
+        "meta": 4
+      },
+      {
+        "oreName": "dustUranium"
+      }
+    ]
+  },
+  {
+    "targetID": "mekanism:basicblock2",
+    "targetMeta": 10,
+    "matchItems": [
+      {
+        "id": "nuclearcraft:ingot_block",
+        "meta": 4
+      },
+      {
+        "oreName": "blockUranium"
+      }
+    ]
+  },
+  {
+    "targetID": "mekanism:nugget",
+    "targetMeta": 8,
+    "matchItems": [
+      {
+        "oreName": "nuggetUranium"
+      }
+    ]
+  },
+  {
+    "targetID": "mekanism:oreblock",
+    "targetMeta": 5,
+    "matchItems": [
+      {
+        "id": "netherendingores:ore_end_modded_1",
+        "meta": 12
+      },
+      {
+        "id": "netherendingores:ore_nether_modded_1",
+        "meta": 12
+      },
+      {
+        "id": "nuclearcraft:ore",
+        "meta": 4
+      },
+      {
+        "oreName": "oreUranium"
+      }
+    ]
+  },
+  {
+    "targetID": "quark:quartz_wall",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "netherex:quartz_wall",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "nuclearcraft:ingot2",
+    "targetMeta": 7,
+    "matchItems": [
+      {
+        "id": "additions:holmium_ingot",
+        "meta": 0
+      },
+      {
+        "oreName": "ingotHolmium"
+      }
+    ]
+  },
+  {
+    "targetID": "nuclearcraft:ingot2",
+    "targetMeta": 8,
+    "matchItems": [
+      {
+        "id": "additions:dysprosium_ingot",
+        "meta": 0
+      },
+      {
+        "oreName": "ingotDysprosium"
+      }
+    ]
+  },
+  {
+    "targetID": "oe:blue_ice",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "futuremc:blue_ice",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "oe:nautilus_shell",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "futuremc:nautilus_shell",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "quark:brick_wall",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "futuremc:brick_wall",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "quark:stone_granite_wall",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "futuremc:granite_wall",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "quark:stone_diorite_wall",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "futuremc:diorite_wall",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "quark:stone_andesite_wall",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "futuremc:andesite_wall",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "quark:sandstone_wall",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "futuremc:sandstone_wall",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "quark:red_sandstone_wall",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "futuremc:red_sandstone_wall",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "quark:stonebrick_wall",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "endexpansion:stone_brick_wall",
+        "meta": 0
+      },
+      {
+        "id": "futuremc:stone_brick_wall",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "quark:stonebrick_mossy_wall",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "futuremc:mossy_stone_brick_wall",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "netherex:nether_brick_wall",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "futuremc:nether_brick_wall",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "netherex:red_nether_brick_wall",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "futuremc:red_nether_brick_wall",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "quark:prismarine_rough_wall",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "futuremc:prismarine_wall",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "appliedenergistics2:material",
+    "targetMeta": 46,
+    "matchItems": [
+      {
+        "id": "betterendforge:ender_dust",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "additions:bismuth_ingot",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "planarartifice:bismuth_ingot",
+        "meta": 0
+      },
+      {
+        "oreName": "ingotBismuth"
+      }
+    ]
+  },
+  {
+    "targetID": "gct_aby:saniteore",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "additions:sanite_ore",
+        "meta": 0
+      }
+    ]
+  },
+  {
+    "targetID": "moretcon:dustfiery",
+    "targetMeta": 0,
+    "matchItems": [
+      {
+        "id": "jaopca:dust.fierymetal",
+        "meta": 0
+      },
+      {
+        "oreName": "dustFierymetal"
+      }
+    ]
+  }
+]

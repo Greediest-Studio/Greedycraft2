@@ -348,6 +348,14 @@ gui.cells.export_interface.clear_filters.tooltip=清除所有过滤项，并将�
 tooltip.cells.export_interface.info=通过过滤槽位从ME网络输出物品。物品可由管道或漏斗提取。
 tooltip.cells.type.export_interface=输出接口
 
+tile.cells.import_interface.combined.name=四合一输入接口
+tile.cells.export_interface.combined.name=四合一输出接口
+item.cells.part.import_combined_interface.name=四合一输入接口
+item.cells.part.export_combined_interface.name=四合一输出接口
+cells.import_interface.combined.title=四合一输入接口
+cells.export_interface.combined.title=四合一输出接口
+
+
 # Export Interface warnings
 message.cells.export_interface.filter_duplicate=该其他槽位中已存在该过滤项。
 message.cells.export_interface.filters_not_added=有%d个过滤项无法被添加（无可用槽位）：\n- %s

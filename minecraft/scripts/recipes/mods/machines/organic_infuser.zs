@@ -49,7 +49,7 @@ MMEvents.onControllerGUIRender("organic_infuser", function(event as ControllerGU
     var ModuleList as string[] = [];
     if (hasTreeModule) ModuleList += "§e树场模块";
     if (hasFishModule) ModuleList += "§e渔场模块";
-    if (hasAdvancedModule) ModuleList += "§e高级模块";
+    if (hasAdvancedModule) ModuleList += "§e升级模块";
     if (ModuleList.length == 0) ModuleList += "§c无";
     var showModule as string = "";
     for Module in ModuleList {

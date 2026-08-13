@@ -586,7 +586,6 @@ ChemicalReactor.removeRecipeWithInput(<liquid:sulfur> * 333, <liquid:hydrogen> *
 ChemicalReactor.removeRecipeWithInput(<liquid:sodium> * 144, <liquid:sulfur> * 333);
 ChemicalReactor.removeRecipeWithInput(<liquid:potassium> * 144, <liquid:sulfur> * 333);
 ChemicalReactor.removeRecipeWithInput(<liquid:sulfur> * 333, <liquid:oxygen> * 500);
-ChemicalReactor.removeRecipeWithInput(<liquid:nitrogen_dioxide> * 3000, <liquid:water> * 1000);
 ChemicalReactor.removeRecipeWithInput(<liquid:witherite_water> * 1000, <liquid:nitric_acid> * 2000);
 
 ChemicalReactor.addRecipe(<liquid:nitric_acid> * 250, <liquid:hydrofluoric_acid> * 750, <liquid:aqua_fluoride> * 1000, null);
@@ -602,7 +601,6 @@ ChemicalReactor.addRecipe(<liquid:hydrogen> * 250, <liquid:fluorine> * 250, <liq
 ChemicalReactor.addRecipe(<liquid:boron> * 72, <liquid:arsenic> * 72, <liquid:bas> * 333, null);
 ChemicalReactor.addRecipe(<liquid:burningsulfurflow> * 36, <liquid:oxygen> * 250, <liquid:sulfur_dioxide> * 250, null);
 ChemicalReactor.addRecipe(<liquid:ammonia> * 400, <liquid:oxygen> * 500, <liquid:nitrogen_oxide> * 400, <liquid:water> * 600);
-ChemicalReactor.addRecipe(<liquid:nitrogen_oxide> * 500, <liquid:oxygen> * 250, <liquid:nitrogen_dioxide> * 500, null);
 ChemicalReactor.addRecipe(<liquid:nitrogen_dioxide> * 750, <liquid:water> * 250, <liquid:nitric_acid> * 500, <liquid:nitrogen_oxide> * 250);
 ChemicalReactor.addRecipe(<liquid:methane> * 250, <liquid:fluorine> * 250, <liquid:fluoromethane> * 250, <liquid:hydrogen_fluoride> * 250);
 ChemicalReactor.addRecipe(<liquid:methane> * 250, <liquid:liquidchlorine> * 250, <liquid:chloromethane> * 250, <liquid:liquidhydrogenchloride> * 250);

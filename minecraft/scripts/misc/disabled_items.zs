@@ -1058,7 +1058,12 @@ var disabledItems as IIngredient[] = [
     <betterendforge:crystalite_chestplate>,
     <betterendforge:crystalite_leggings>,
     <betterendforge:crystalite_boots>,
-    <modularmachineryaddons:advancedmachineassembler>
+    <modularmachineryaddons:advancedmachineassembler>,
+    <mekceumoremachine:voidmineralgenerator>.withTag({tier: 0}),
+    <mekceumoremachine:voidmineralgenerator>.withTag({tier: 1}),
+    <mekceumoremachine:voidmineralgenerator>.withTag({tier: 2}),
+    <mekceumoremachine:voidmineralgenerator>.withTag({tier: 3}),
+    <mekceumoremachine:voidmineralgenerator>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [
