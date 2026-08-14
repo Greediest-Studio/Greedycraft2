@@ -8,7 +8,6 @@
             "x": 0,
             "y": 0,
             "z": 0,
-            "nbt": {"mmceComplementThreadHatchCounts":"rotation":"1b","machine":"modularmachinery:elysia_etcher","virtualSmartInterfaces":[{"pos":"6047850823613L""parent":"modularmachinery:elysia_etcher","type":"模式","value":"0.0f"}],"owner":"e122d039-6ca5-4b79-a185-d406ef898094","casingColor":"7353494","ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[]"isRunning":"0b"}"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d""shieldingRadResistance":"0.0d"}},"id":"minecraft:tilefactorycontroller","totalParallelism":"4","items":{"inSlots":"outSlots":,"miscSlots":,"inventoryArray":[{"holderId":"0""holderEmpty":"1b"}],"sides":},"parentMachine":"modularmachinery:elysia_etcher","mmceComplementModules":["rune"],"mmceComplementThreadHatchTier":"0b","extraThreadCount":"0s","status":{"type":"2b""message":"component.missing.modularmachinery.energy.input"}},
             "elements": [
                 "modularmachinery:elysia_etcher_factory_controller@2"
             ]
@@ -57,7 +56,6 @@
             "x": 7,
             "y": 4,
             "z": -1,
-            "nbt": {"parallelism":"4""ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[]"isRunning":"0b"}"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d""shieldingRadResistance":"0.0d"}},"casingColor":"16730368","maxParallelism":"4","id":"minecraft:tileparallelcontroller"},
             "elements": [
                 "modularmachinery:blockparallelcontroller@0"
             ]
@@ -322,7 +320,6 @@
             "x": 6,
             "y": 3,
             "z": 12,
-            "nbt": {"casingColor":"16730368""ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[]"isRunning":"0b"}"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d""shieldingRadResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -475,7 +472,6 @@
             "x": -6,
             "y": 4,
             "z": 12,
-            "nbt": {"casingColor":"16730368""ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[]"isRunning":"0b"}"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d""shieldingRadResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -580,7 +576,6 @@
             "x": 7,
             "y": 3,
             "z": -1,
-            "nbt": {"casingColor":"16730368""ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[]"isRunning":"0b"}"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d""shieldingRadResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -693,7 +688,6 @@
             "x": -7,
             "y": 3,
             "z": -1,
-            "nbt": {"casingColor":"16730368""ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[]"isRunning":"0b"}"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d""shieldingRadResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -1174,7 +1168,6 @@
             "x": -7,
             "y": 4,
             "z": -1,
-            "nbt": {"parallelism":"4""ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[]"isRunning":"0b"}"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d""shieldingRadResistance":"0.0d"}},"casingColor":"16730368","maxParallelism":"4","id":"minecraft:tileparallelcontroller"},
             "elements": [
                 "modularmachinery:blockparallelcontroller@0"
             ]
@@ -1271,7 +1264,6 @@
             "x": 6,
             "y": 4,
             "z": 0,
-            "nbt": {"casingColor":"16730368""ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[]"isRunning":"0b"}"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d""shieldingRadResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -1344,7 +1336,6 @@
             "x": 6,
             "y": 3,
             "z": 0,
-            "nbt": {"casingColor":"16730368""ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[]"isRunning":"0b"}"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d""shieldingRadResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -1385,7 +1376,6 @@
             "x": -7,
             "y": 4,
             "z": 13,
-            "nbt": {"parallelism":"4""ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[]"isRunning":"0b"}"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d""shieldingRadResistance":"0.0d"}},"casingColor":"16730368","maxParallelism":"4","id":"minecraft:tileparallelcontroller"},
             "elements": [
                 "modularmachinery:blockparallelcontroller@0"
             ]
@@ -1474,7 +1464,6 @@
             "x": -7,
             "y": 3,
             "z": 13,
-            "nbt": {"casingColor":"16730368""ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[]"isRunning":"0b"}"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d""shieldingRadResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -1867,7 +1856,6 @@
             "x": -6,
             "y": 4,
             "z": 0,
-            "nbt": {"casingColor":"16730368""ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[]"isRunning":"0b"}"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d""shieldingRadResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -1964,7 +1952,6 @@
             "x": -6,
             "y": 3,
             "z": 0,
-            "nbt": {"casingColor":"16730368""ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[]"isRunning":"0b"}"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d""shieldingRadResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -2117,7 +2104,6 @@
             "x": -6,
             "y": 3,
             "z": 12,
-            "nbt": {"casingColor":"16730368""ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[]"isRunning":"0b"}"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d""shieldingRadResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -2254,7 +2240,6 @@
             "x": 6,
             "y": 4,
             "z": 12,
-            "nbt": {"casingColor":"16730368""ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[]"isRunning":"0b"}"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d""shieldingRadResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
@@ -2359,7 +2344,6 @@
             "x": 7,
             "y": 4,
             "z": 13,
-            "nbt": {"parallelism":"4""ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[]"isRunning":"0b"}"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d""shieldingRadResistance":"0.0d"}},"casingColor":"16730368","maxParallelism":"4","id":"minecraft:tileparallelcontroller"},
             "elements": [
                 "modularmachinery:blockparallelcontroller@0"
             ]
@@ -2552,7 +2536,6 @@
             "x": 7,
             "y": 3,
             "z": 13,
-            "nbt": {"casingColor":"16730368""ForgeCaps":{"abyssalcraft:itemtransfer":{"configurations":[]"isRunning":"0b"}"nuclearcraft:capability_default_radiation_resistance":{"radiationResistance":"0.0d""shieldingRadResistance":"0.0d"}},"id":"minecraft:tilecolorablemachinecomponent"},
             "elements": [
                 "modularmachinery:blockcasing@0"
             ]
