@@ -123,7 +123,6 @@ ConversionFluid.create(<liquid:liquidgeodesium>).addMatchFluid(<liquid:geodesium
 ConversionFluid.create(<liquid:liquidporksteel>).addMatchFluid(<liquid:porksteel>).register();
 ConversionFluid.create(<liquid:nitronite_fluid>).addMatchFluid(<liquid:nitronite>).register();
 ConversionFluid.create(<liquid:infinity_metal>).addMatchFluid(<liquid:infinity>).register();
-//ConversionFluid.create(<liquid:experience>).addMatchFluid(<liquid:xpjuice>).addMatchFluid(<liquid:essence>).register();
 ConversionFluid.create(<liquid:xu_demonic_metal>).addMatchFluid(<liquid:demonic_metal>).register();
 ConversionFluid.create(<liquid:ethyne>).addMatchFluid(<liquid:ethylene>).register();
 ConversionFluid.create(<liquid:liquidsolarsteel>).addMatchFluid(<liquid:solarsteel>).register();
@@ -131,6 +130,6 @@ ConversionFluid.create(<liquid:void_metal>).addMatchFluid(<liquid:void>).registe
 ConversionFluid.create(<liquid:molten_ichorium>).addMatchFluid(<liquid:ichorium>).register();
 ConversionFluid.create(<liquid:nitrogen_oxide>).addMatchFluid(<liquid:nitric_oxide>).register();
 ConversionFluid.create(<liquid:magma_fluid>).addMatchFluid(<liquid:magma_slime>).register();
+ConversionFluid.create(<liquid:h_s_l_a_steel>).addMatchFluid(<liquid:hsla>).register();
 ConversionFluid.create(<liquid:sic_sic_cmc>).addMatchFluid(<liquid:si_c_si_c_c_m_c>).register();
 ConversionFluid.create(<liquid:sic>).addMatchFluid(<liquid:sic_vapor>).register();
-ConversionFluid.create(<liquid:h_s_l_a_steel>).addMatchFluid(<liquid:hsla>).register();

@@ -168,23 +168,22 @@
     ]
   },
   {
-    "targetID": "water",
+    "targetID": "h_s_l_a_steel",
     "matchFluids": [
-      "si_c_si_c_c_m_c",
-      "sic_vapor"
+      "hsla",
+      "h_s_l_a_steel"
+    ]
+  },
+  {
+    "targetID": "sic_sic_cmc",
+    "matchFluids": [
+      "si_c_si_c_c_m_c"
     ]
   },
   {
     "targetID": "sic",
     "matchFluids": [
-      "water"
-    ]
-  },
-  {
-    "targetID": "h_s_l_a_steel",
-    "matchFluids": [
-      "hsla",
-      "h_s_l_a_steel"
+      "sic_vapor"
     ]
   }
 ]
