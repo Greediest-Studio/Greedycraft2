@@ -83,7 +83,7 @@ function exChance(ctrl as IMachineController) as float {
 MMEvents.onStructureUpdate("basic_miner", function(event as MachineStructureUpdateEvent) {
     val ctrl as IMachineController = event.controller;
     val bx = getParallelism(ctrl) as int;
-    ctrl.customData = {bx: bx};
+    ctrl.customData = {bx: bx,ex: exChance(ctrl)};
 });
 
 MMEvents.onStructureUpdate("advanced_miner", function(event as MachineStructureUpdateEvent) {
@@ -134,7 +134,7 @@ MMEvents.onStructureUpdate("advanced_miner", function(event as MachineStructureU
         }
     }
 
-    ctrl.customData = {bx: bx,dims: list};
+    ctrl.customData = {bx: bx,dims: list,ex: exChance(ctrl)};
 });
 
 MMEvents.onStructureUpdate("dimensional_miner", function(event as MachineStructureUpdateEvent) {
@@ -144,7 +144,7 @@ MMEvents.onStructureUpdate("dimensional_miner", function(event as MachineStructu
     if (isNull(ctrl.customData.dims)) {
         ctrl.customData = {bx: bx,dims:[],sk: sk};
     } else {
-        ctrl.customData = {bx: bx,dims: ctrl.customData.dims,sk: sk};
+        ctrl.customData = {bx: bx,dims: ctrl.customData.dims,sk: sk,ex: exChance(ctrl)};
     }
 });
 
@@ -265,11 +265,12 @@ RecipeBuilder.newBuilder("basic_miner_main","basic_miner",200)
     .setIgnoreOutputCheck(true)//别删
     .addDynamicOutput(function(ctrl as IMachineController) {
         val dim = ctrl.world.dimension;
-        val bx = ctrl.customData.bx;
+        val bx = isNull(data.bx) ? 1 : ctrl.customData.bx;
+        val ex = isNull(data.ex) ? 1.0f : ctrl.customData.ex as float;
         var output = [] as IItemStack[];
 
         for u in upgradeList {
-            val list = oreOutput.getOreOutputList(dim,u,bx,exChance(ctrl),false) as IItemStack[];
+            val list = oreOutput.getOreOutputList(dim,u,bx,ex,false) as IItemStack[];
             if (list.length != 0 && (u == BASIC || ctrl.hasMachineUpgrade(u))) {
                 for i in list {
                     output += i;
@@ -300,13 +301,14 @@ RecipeBuilder.newBuilder("advanced_miner_main","advanced_miner",200)
     .addDynamicOutput(function(ctrl as IMachineController) {
         val data = ctrl.customData;
         val dimList = isNull(data.dims) ? [] as int[] : data.dims as int[];
-        val bx = data.bx;
+        val bx = isNull(data.bx) ? 1 : data.bx;
+        val ex = isNull(data.ex) ? 1.0f : data.ex as float;
         var output = [] as IItemStack[];
 
         if (dimList.length != 0) {
             for dim in dimList {
                 for u in upgradeList {
-                    val list = oreOutput.getOreOutputList(dim,u,(bx / max(1,dimList.length)) as int,exChance(ctrl),false) as IItemStack[];
+                    val list = oreOutput.getOreOutputList(dim,u,(bx / max(1,dimList.length)) as int,ex,false) as IItemStack[];
                     if (list.length != 0 && (u == BASIC || ctrl.hasMachineUpgrade(u))) {
                         for i in list {
                             output += i;
@@ -338,14 +340,15 @@ RecipeBuilder.newBuilder("dimensional_miner_main","dimensional_miner",200)
     .addDynamicOutput(function(ctrl as IMachineController) {
         val data = ctrl.customData;
         val dimList = isNull(data.dims) ? [] as int[] : data.dims as int[];
-        val bx = data.bx;
+        val bx = isNull(data.bx) ? 1 : data.bx;
+        val ex = isNull(data.ex) ? 1.0f : data.ex as float;
         var output = [] as IItemStack[];
 
         if (dimList.length != 0) {
             for dim in dimList {
                 if (ctrl.hasMachineUpgrade("miner_upg_multidim") || dim == ctrl.world.dimension) {
                     for u in upgradeList {
-                        val list = oreOutput.getOreOutputList(dim,u,(bx / max(1,dimList.length)) as int,exChance(ctrl),false) as IItemStack[];
+                        val list = oreOutput.getOreOutputList(dim,u,(bx / max(1,dimList.length)) as int,ex,false) as IItemStack[];
                         if (list.length != 0 && (u == BASIC || ctrl.hasMachineUpgrade(u))) {
                             for i in list {
                                 output += i;
