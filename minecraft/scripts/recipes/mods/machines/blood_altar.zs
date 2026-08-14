@@ -280,13 +280,13 @@ MMEvents.onControllerGUIRender("blood_altar", function(event as ControllerGUIRen
         "§a祭坛容量：§e" ~ addCommas(event.controller.getAltarCapacity() as string),
         "§a已储存LE：§e" ~ addCommas(event.controller.getAltarLP() as string),
         "§a祭坛模式：§e" ~ modeName[event.controller.getAltarMode()] as string,
-        "§a工作效率：§e" ~ (event.controller.getAltarSpeed() * levelSpeedMutiplierMap[event.controller.getAltarLevel()]) as string ~ "mB每" ~ ((20 - event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int) > 1 ? (20 - event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int) : 1 as string) ~ "tick",
-        "§a转位效率：§e" ~ ((pow(1.2, (event.controller.getBlocksInPattern(<bloodmagic:blood_rune:5>) as double)) * 20) as int as string) ~ "mB每" ~ ((20 - event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int) > 1 ? (20 - event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int) : 1 as string) ~ "tick",
+        "§a工作效率：§e" ~ (IBigInteger.create(event.controller.getAltarSpeed()as string) * IBigInteger.create(levelSpeedMutiplierMap[event.controller.getAltarLevel()] as string)).toString() ~ "mB每" ~ ((20 - event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int) > 1 ? (20 - event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int) : 1 as string) ~ "tick",
+        "§a转位效率：§e" ~ (IBigDecimal.create("1.2").pow(event.controller.getBlocksInPattern(<bloodmagic:blood_rune:5>)) * IBigDecimal.create("20")).toStringScale0() ~ "mB每" ~ ((20 - event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int) > 1 ? (20 - event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int) : 1 as string) ~ "tick",
         "§d增容符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:6>) as string ~ "     §d速度符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:1>) as string ~ "     §d超容符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:7>) as string,
         "§d转位符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:5>) as string ~ "     §d促进符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as string ~ "     §d效率符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:2>) as string,
         "§d线程符文§e * " ~ event.controller.getBlocksInPattern(<additions:blood_rune_thread>) as string ~ "     §d节流符文§e * " ~ event.controller.getBlocksInPattern(<additions:blood_rune_economy>) as string ~ "     §d净化符文§e * " ~ event.controller.getBlocksInPattern(<additions:blood_rune_purify>) as string,
         "§d宝珠符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:8>) as string ~ "     §d玩家符文§e * " ~ event.controller.getBlocksInPattern(<additions:blood_rune_personal>) as string ~ "     §d献祭符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:3>) as string,
-        "§d牺牲符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:4>)
+        "§d牺牲符文§e * " ~ event.controller.getBlocksInPattern(<bloodmagic:blood_rune:4>) as string
     ];
 
     val sd = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:1>);
