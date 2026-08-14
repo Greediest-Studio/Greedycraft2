@@ -265,8 +265,9 @@ RecipeBuilder.newBuilder("basic_miner_main","basic_miner",200)
     .setIgnoreOutputCheck(true)//别删
     .addDynamicOutput(function(ctrl as IMachineController) {
         val dim = ctrl.world.dimension;
-        val bx = isNull(data.bx) ? 1 : ctrl.customData.bx;
-        val ex = isNull(data.ex) ? 1.0f : ctrl.customData.ex as float;
+        val data = ctrl.customData;
+        val bx = isNull(data.bx) ? 1 : data.bx;
+        val ex = isNull(data.ex) ? 1.0f : data.ex as float;
         var output = [] as IItemStack[];
 
         for u in upgradeList {
