@@ -1082,8 +1082,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/had-enough-items.pw.toml"
-hash = "9eb479ee35fbfbfa4d41a64d296e98fc46719475aef742977331025eed73a26e"
-alias = "mods/HadEnoughItems_1.12.2-4.32.0.jar"
+hash = "be7ed8bbf07cdfad6ea2c8a47fe4d77af95e2775e91c0bd456520f7bfd953a5a"
+alias = "mods/HadEnoughItems_1.12.2-4.34.3.jar"
 metafile = true
 
 [[files]]
@@ -1216,6 +1216,12 @@ metafile = true
 file = "mods/.index/just-enough-calculation.pw.toml"
 hash = "b5a84c2a64b2f62c5fe8264e9d59af0de5bbd41125237d22c2b116a8b2afc24d"
 alias = "mods/JustEnoughCalculation-1.12.2-3.2.7.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/just-enough-characters.pw.toml"
+hash = "5e8429b0437792ddb71a53d6d198ef702ed042681a25fee7668ad36e1556afaa"
+alias = "mods/jecharacters-1.12.0-3.7.3.jar"
 metafile = true
 
 [[files]]
@@ -1388,8 +1394,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/mekanism-ce-unofficial.pw.toml"
-hash = "0101500f87a743a9dc642912d9273424f2b37ba5603fe53512a5872b583b0297"
-alias = "mods/Mekanism-CE-Unofficial-All-10.0.2.540.jar"
+hash = "89e45fbbe96ec2e636412a58c9c127cdf614ea42d0e6b9081b702d61404f7d2e"
+alias = "mods/Mekanism-CE-Unofficial-All-10.0.3.555.jar"
 metafile = true
 
 [[files]]
@@ -1400,8 +1406,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/mekanismceu-moremachine.pw.toml"
-hash = "23a5d0c9b7444fbdc2b5dbf71762dd1543698a6f33e0b3a2451922bd79146c18"
-alias = "mods/MekanismCeU-MoreMachine-1.7.0.jar"
+hash = "067d8077f2ffd06e3a859ca62a47398b0a86d4e18084ea80431f7f34c7b9b04e"
+alias = "mods/MekanismCeU-MoreMachine-1.8.0.jar"
 metafile = true
 
 [[files]]
@@ -1444,6 +1450,12 @@ metafile = true
 file = "mods/.index/mod-name-tooltip.pw.toml"
 hash = "2ec6f690c73072dc127cc0e04bdf02fba70952f374e3d51fcdf6aa8d3f15219b"
 alias = "mods/modnametooltip_1.12.2-1.10.1.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/modtweaker-community-edition.pw.toml"
+hash = "dc7189f5fbcdab2b5bdbd0a9f9c80ad801014028478944983e6cd75c4361857a"
+alias = "mods/modtweaker-5.0.010.jar"
 metafile = true
 
 [[files]]
