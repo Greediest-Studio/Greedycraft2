@@ -32,11 +32,11 @@ MachineModifier.setInternalParallelism("builder_2", 1);
 MachineModifier.setInternalParallelism("builder_3", 1);
 MachineModifier.setInternalParallelism("builder_4", 1);
 MachineModifier.setInternalParallelism("builder_5", 1);
-MachineModifier.setMaxParallelism("builder_1", 4096);
-MachineModifier.setMaxParallelism("builder_2", 4096);
-MachineModifier.setMaxParallelism("builder_3", 4096);
-MachineModifier.setMaxParallelism("builder_4", 4096);
-MachineModifier.setMaxParallelism("builder_5", 4096);
+MachineModifier.setMaxParallelism("builder_1", 65536);
+MachineModifier.setMaxParallelism("builder_2", 65536);
+MachineModifier.setMaxParallelism("builder_3", 65536);
+MachineModifier.setMaxParallelism("builder_4", 65536);
+MachineModifier.setMaxParallelism("builder_5", 65536);
 
 
 function addBuilderRecipe(controller as IItemStack, inputs as IIngredient[], level as int, basicTick as int) {

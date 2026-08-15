@@ -22,7 +22,7 @@ import scripts.util.machines as MMUtil;
 
 MachineModifier.setMaxThreads("empowerer", 1);
 MachineModifier.setInternalParallelism("empowerer", 1);
-MachineModifier.setMaxParallelism("empowerer", 4096);
+MachineModifier.setMaxParallelism("empowerer", 65536);
 
 RecipeBuilder.newBuilder("redstone" , "empowerer" , "40")
     .addItemInput(<actuallyadditions:block_crystal:0> * 1)

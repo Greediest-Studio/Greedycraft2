@@ -28,7 +28,7 @@ import mods.modularmachinery.FactoryRecipeThread;
 
 import scripts.util.machines as MMUtil;
 
-MachineModifier.setMaxParallelism("aura_crafter", 4096);
+MachineModifier.setMaxParallelism("aura_crafter", 65536);
 MachineModifier.setInternalParallelism("aura_crafter", 1);
 MachineModifier.setMaxThreads("aura_crafter", 16);
 

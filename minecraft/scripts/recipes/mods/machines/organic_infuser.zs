@@ -67,7 +67,7 @@ MMEvents.onControllerGUIRender("organic_infuser", function(event as ControllerGU
     event.extraInfo = info;
 });
 
-MachineModifier.setMaxParallelism("organic_infuser", 512);
+MachineModifier.setMaxParallelism("organic_infuser", 65536);
 MachineModifier.setInternalParallelism("organic_infuser", 1);
 MachineModifier.setMaxThreads("organic_infuser", 16);
 

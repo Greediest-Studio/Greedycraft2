@@ -20,7 +20,7 @@ import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
 MachineModifier.setMaxThreads("bright_altar", 4);
-MachineModifier.setMaxParallelism("bright_altar", 16);
+MachineModifier.setMaxParallelism("bright_altar", 65536);
 MachineModifier.setInternalParallelism("bright_altar", 1);
 
 MMEvents.onControllerGUIRender("bright_altar", function(event as ControllerGUIRenderEvent) {

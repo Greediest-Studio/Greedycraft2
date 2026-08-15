@@ -20,7 +20,7 @@ import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
 MachineModifier.setMaxThreads("nuclear_bomb_reactor", 1);
-MachineModifier.setMaxParallelism("nuclear_bomb_reactor", 4096);
+MachineModifier.setMaxParallelism("nuclear_bomb_reactor", 65536);
 MachineModifier.setInternalParallelism("nuclear_bomb_reactor", 1);
 
 MMEvents.onControllerGUIRender("nuclear_bomb_reactor", function(event as ControllerGUIRenderEvent) {

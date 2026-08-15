@@ -24,7 +24,7 @@ val speed = 100;
 
 MachineModifier.setMaxThreads("loot_power_generator", 1);
 MachineModifier.setInternalParallelism("loot_power_generator", 1);
-MachineModifier.setMaxParallelism("loot_power_generator", 4096);
+MachineModifier.setMaxParallelism("loot_power_generator", 65536);
 
 
 RecipeBuilder.newBuilder(regName + "_t1", regName, speed, 0)
