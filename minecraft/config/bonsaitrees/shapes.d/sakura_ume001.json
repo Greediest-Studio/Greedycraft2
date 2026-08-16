@@ -1,0 +1,60 @@
+{
+  "type": "sakura:ume",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "sakura:umeleaves",
+      "meta": 12
+    },
+    "b": {
+      "name": "sakura:umeleaves",
+      "meta": 4
+    },
+    "c": {
+      "name": "sakura:ume_log",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      " aaa ",
+      " aaa ",
+      "     ",
+      "     "
+    ],
+    [
+      "  b  ",
+      " bbb ",
+      "bbbba",
+      "bbbbb",
+      "     ",
+      "     "
+    ],
+    [
+      " bbb ",
+      " bcb ",
+      "abcba",
+      "abcba",
+      "  c  ",
+      "  c  "
+    ],
+    [
+      "  b  ",
+      " bbb ",
+      "abbba",
+      "abbbb",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      " bbaa",
+      " aaa ",
+      "     ",
+      "     "
+    ]
+  ]
+}

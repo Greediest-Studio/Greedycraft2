@@ -1,0 +1,34 @@
+{
+    "name": "sakura:ume",
+    "mod": "sakura",
+    "sapling": {
+        "name": "sakura:ume_sapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "sakura:ume_log",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "sakura:umeleaves",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "sakura:ume_sapling",
+            "data": 0,
+            "type": "SAPLING"
+        },
+        {
+            "name": "sakura:foodset",
+            "data": 166,
+            "type": "CUSTOM",
+            "chance": 0.5,
+            "count": 1
+        }
+    ],
+    "compatibleSoilTags": ["dirt", "grass"]
+}
