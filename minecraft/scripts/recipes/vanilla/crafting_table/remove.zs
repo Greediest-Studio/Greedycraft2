@@ -568,7 +568,6 @@ val removedRecipeNames as string[] = [
     "thermalfoundation:dreadium_ingot_1",
     "thermalfoundation:dreadium_ingot_2",
     "mysticalagriculture:ingotdreadium",
-    "mysticalagriculture:ingotsoularium",
     "gct_ores:command_dismantler_craft",
     "superfactorymanager:manager",
     "unidict:ingotenderiron_x1_size.2",
