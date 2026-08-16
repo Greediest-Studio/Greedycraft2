@@ -12,18 +12,18 @@ item.crazyae.storage_cell_256mb.name=§b256MB§r-ME存储元件
 item.crazyae.storage_cell_1gb.name=§11GB§r-ME存储元件
 item.crazyae.storage_cell_2gb.name=§d2GB§r-ME存储元件
 
-item.crazyae.energy_cell_1k.name=§61k§r-ME能量存储元件
-item.crazyae.energy_cell_4k.name=§e4k§r-ME能量存储元件
-item.crazyae.energy_cell_16k.name=§a16k§r-ME能量存储元件
-item.crazyae.energy_cell_64k.name=§b64k§r-ME能量存储元件
-item.crazyae.energy_cell_256k.name=§c256k§r-ME能量存储元件
-item.crazyae.energy_cell_1mb.name=§61MB§r-ME能量存储元件
-item.crazyae.energy_cell_4mb.name=§e4MB§r-ME能量存储元件
-item.crazyae.energy_cell_16mb.name=§a16MB§r-ME能量存储元件
-item.crazyae.energy_cell_64mb.name=§264MB§r-ME能量存储元件
-item.crazyae.energy_cell_256mb.name=§b256MB§r-ME能量存储元件
-item.crazyae.energy_cell_1gb.name=§11GB§r-ME能量存储元件
-item.crazyae.energy_cell_2gb.name=§d2GB§r-ME能量存储元件
+item.crazyae.energy_cell_1k.name=§61k§r-ME通量存储元件
+item.crazyae.energy_cell_4k.name=§e4k§r-ME通量存储元件
+item.crazyae.energy_cell_16k.name=§a16k§r-ME通量存储元件
+item.crazyae.energy_cell_64k.name=§b64k§r-ME通量存储元件
+item.crazyae.energy_cell_256k.name=§c256k§r-ME通量存储元件
+item.crazyae.energy_cell_1mb.name=§61MB§r-ME通量存储元件
+item.crazyae.energy_cell_4mb.name=§e4MB§r-ME通量存储元件
+item.crazyae.energy_cell_16mb.name=§a16MB§r-ME通量存储元件
+item.crazyae.energy_cell_64mb.name=§264MB§r-ME通量存储元件
+item.crazyae.energy_cell_256mb.name=§b256MB§r-ME通量存储元件
+item.crazyae.energy_cell_1gb.name=§11GB§r-ME通量存储元件
+item.crazyae.energy_cell_2gb.name=§d2GB§r-ME通量存储元件
 
 item.crazyae.mana_cell_1k.name=§61k§r-ME魔力存储元件
 item.crazyae.mana_cell_4k.name=§e4k§r-ME魔力存储元件
@@ -64,18 +64,18 @@ item.crazyae.material.cell_part_8gb.name=§a8GB§r-ME存储组件
 item.crazyae.material.cell_part_32gb.name=§532GB§r-ME存储组件
 item.crazyae.material.cell_part_128gb.name=§4128GB§r-ME存储组件
 
-item.crazyae.material.energy_part_1k.name=§61k§r-ME能量存储组件
-item.crazyae.material.energy_part_4k.name=§e4k§r-ME能量存储组件
-item.crazyae.material.energy_part_16k.name=§a16k§r-ME能量存储组件
-item.crazyae.material.energy_part_64k.name=§b64k§r-ME能量存储组件
-item.crazyae.material.energy_part_256k.name=§c256k§r-ME能量存储组件
-item.crazyae.material.energy_part_1mb.name=§61MB§r-ME能量存储组件
-item.crazyae.material.energy_part_4mb.name=§e4MB§r-ME能量存储组件
-item.crazyae.material.energy_part_16mb.name=§a16MB§r-ME能量存储组件
-item.crazyae.material.energy_part_64mb.name=§264MB§r-ME能量存储组件
-item.crazyae.material.energy_part_256mb.name=§b256MB§r-ME能量存储组件
-item.crazyae.material.energy_part_1gb.name=§11GB§r-ME能量存储组件
-item.crazyae.material.energy_part_2gb.name=§d2GB§r-ME能量存储组件
+item.crazyae.material.energy_part_1k.name=§61k§r-ME通量存储组件
+item.crazyae.material.energy_part_4k.name=§e4k§r-ME通量存储组件
+item.crazyae.material.energy_part_16k.name=§a16k§r-ME通量存储组件
+item.crazyae.material.energy_part_64k.name=§b64k§r-ME通量存储组件
+item.crazyae.material.energy_part_256k.name=§c256k§r-ME通量存储组件
+item.crazyae.material.energy_part_1mb.name=§61MB§r-ME通量存储组件
+item.crazyae.material.energy_part_4mb.name=§e4MB§r-ME通量存储组件
+item.crazyae.material.energy_part_16mb.name=§a16MB§r-ME通量存储组件
+item.crazyae.material.energy_part_64mb.name=§264MB§r-ME通量存储组件
+item.crazyae.material.energy_part_256mb.name=§b256MB§r-ME通量存储组件
+item.crazyae.material.energy_part_1gb.name=§11GB§r-ME通量存储组件
+item.crazyae.material.energy_part_2gb.name=§d2GB§r-ME通量存储组件
 
 item.crazyae.material.mana_part_1k.name=§61k§r-ME魔力存储组件
 item.crazyae.material.mana_part_4k.name=§e4k§r-ME魔力存储组件
@@ -128,7 +128,7 @@ item.crazyae.teraplate_encoded_pattern.name=魔力凝聚编码样板
 item.crazyae.brewery_encoded_pattern.name=植物酿造编码样板
 
 item.crazyae.creative_mana_cell.name=创造ME魔力存储元件
-item.crazyae.creative_energy_cell.name=创造ME能量存储元件
+item.crazyae.creative_energy_cell.name=创造ME通量存储元件
 
 
 tooltip.crazyae.colorizer_desc.name=用于调整本模组的Gui与文本颜色。
@@ -149,13 +149,13 @@ item.crazyae.part.mana_import_bus.name=ME魔力输入总线
 item.crazyae.part.mana_export_bus.name=ME魔力输出总线
 item.crazyae.part.mana_term.name=ME魔力终端
 
-item.crazyae.part.energy_term.name=ME能量终端
+item.crazyae.part.energy_term.name=ME通量终端
 item.crazyae.part.part_drive.name=ME Drive
 item.crazyae.part.patterns_iface.name=§8ME样板接口§r
 item.crazyae.part.perfect_iface.name=§cME完美接口§r
 
-item.crazyae.part.energy_export_bus.name=ME能量输出总线
-item.crazyae.part.energy_import_bus.name=ME能量输入总线
+item.crazyae.part.energy_export_bus.name=ME通量输出总线
+item.crazyae.part.energy_import_bus.name=ME通量输入总线
 
 item.crazyae.part.part_patterns_iface.name=§8ME样板接口§r
 item.crazyae.part.part_perfect_iface.name=§cME完美接口§r

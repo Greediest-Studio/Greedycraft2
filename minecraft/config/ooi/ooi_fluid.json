@@ -177,13 +177,15 @@
   {
     "targetID": "sic_sic_cmc",
     "matchFluids": [
-      "si_c_si_c_c_m_c"
+      "si_c_si_c_c_m_c",
+      "sic_sic_cmc"
     ]
   },
   {
     "targetID": "sic",
     "matchFluids": [
-      "sic_vapor"
+      "sic_vapor",
+      "sic"
     ]
   }
 ]

@@ -31,6 +31,7 @@ import mods.nuclearcraft.MultiblockInfiltrator;
 import mods.nuclearcraft.InfiltratorPressureFluid;
 import mods.nuclearcraft.DecayHastener;
 import mods.nuclearcraft.Assembler;
+import mods.nuclearcraft.AlloyFurnace;
 import mods.tconstruct.Alloy;
 import mods.jaopca.JAOPCA;
 
@@ -494,6 +495,22 @@ Melter.addRecipe(<gct_mobs:naturaeum_dust>, <liquid:naturaeum> * 250);
 Melter.addRecipe(<gct_mobs:tonitruium_dust>, <liquid:tonitruium> * 250);
 Melter.addRecipe(<gct_mobs:lumixeium_dust>, <liquid:lumixeium> * 250);
 Melter.addRecipe(<gct_mobs:noxexeum_dust>, <liquid:noxexeum> * 250);
+
+AlloyFurnace.removeRecipeWithOutput(<ore:ingotBrass> * 4);
+AlloyFurnace.removeRecipeWithOutput(<ore:blockBrass> * 4);
+AlloyFurnace.removeRecipeWithOutput(<ore:nuggetBrass> * 4);
+AlloyFurnace.removeRecipeWithOutput(<ore:ingotConstructionAlloy> * 3);
+AlloyFurnace.removeRecipeWithOutput(<ore:ingotRedstoneAlloy>);
+AlloyFurnace.removeRecipeWithOutput(<ore:ingotElectricalSteel>);
+AlloyFurnace.removeRecipeWithOutput(<ore:ingotHSLASteel> * 16);
+AlloyFurnace.removeRecipeWithOutput(<ore:ingotSiliconCarbide> * 2);
+
+AlloyFurnace.addRecipe(<ore:ingotCopper>|<ore:dustCopper> * 2, <ore:ingotZinc>|<ore:dustZinc>, <ore:ingotBrass> * 3);
+AlloyFurnace.addRecipe(<ore:blockCopper> * 2, <ore:blockZinc>, <ore:blockBrass> * 3, 9.0d);
+AlloyFurnace.addRecipe(<ore:nuggetCopper> * 2, <ore:nuggetZinc>, <ore:nuggetBrass> * 3, (1.0d / 9.0d));
+AlloyFurnace.addRecipe(<ore:dustRedstone>, <ore:gemSilicon>, <ore:ingotRedstoneAlloy>, 0.8d);
+AlloyFurnace.addRecipe(<ore:ingotSteel>|<ore:dustSteel>, <ore:gemSilicon>, <ore:ingotElectricalSteel>, 1.5d);
+AlloyFurnace.addRecipe(<ore:ingotSilicon>|<ore:dustSilicon>, <ore:ingotCarbon>|<ore:dustCarbon>, <ore:ingotSiliconCarbide> * 2, 3.0d);
 
 IngotFormer.removeRecipeWithOutput(<additions:hydrogen_ingot>);
 IngotFormer.removeRecipeWithOutput(<additions:helium_ingot>);
