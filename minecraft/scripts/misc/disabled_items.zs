@@ -28,7 +28,6 @@ var disabledItems as IIngredient[] = [
     <actuallyadditions:item_bag>,
     <tiths:ore_steamium>,
     <actuallyadditions:block_phantom_breaker>,
-    <nuclearcraft:alloy_furnace>,
     <openblocks:block_placer>,
     <cyclicmagic:placer_block>,
     <actuallyadditions:block_placer>,
