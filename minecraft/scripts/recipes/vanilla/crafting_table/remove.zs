@@ -495,7 +495,10 @@ val removedRecipes as IIngredient[] = [
     <gctcore:basic_extended_assembler>,
     <gctcore:advanced_extended_assembler>,
     <gctcore:elite_extended_assembler>,
-    <gctcore:ultimate_extended_assembler>
+    <gctcore:ultimate_extended_assembler>,
+    <ae2_utilix:common_interface>,
+    <ae2_utilix:common_import_bus>,
+    <ae2_utilix:common_export_bus>
 ];
 
 val removedRecipeNames as string[] = [

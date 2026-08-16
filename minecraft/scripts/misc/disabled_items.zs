@@ -1062,7 +1062,11 @@ var disabledItems as IIngredient[] = [
     <mekceumoremachine:voidmineralgenerator>.withTag({tier: 1}),
     <mekceumoremachine:voidmineralgenerator>.withTag({tier: 2}),
     <mekceumoremachine:voidmineralgenerator>.withTag({tier: 3}),
-    <mekceumoremachine:voidmineralgenerator>
+    <mekceumoremachine:voidmineralgenerator>,
+    <botania_applie:mana_card_basic>,
+    <botania_applie:mana_card_advanced>,
+    <flux_applied:energy_import_bus>,
+    <ae2_utilix:overflow_destruction_card>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [
