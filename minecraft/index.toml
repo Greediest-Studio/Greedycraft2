@@ -67,6 +67,12 @@ alias = "mods/ae2-ToggleableViewCells-v1.0.2.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/ae2-utilix.pw.toml"
+hash = "6918dfec3385dbd1b4c4e7ead2f04ecfd7422e20c44e26182311f549d538823e"
+alias = "mods/ae2_utilix-1.1.3.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/ae2uel-wireless-universal-terminal.pw.toml"
 hash = "224be4457722646220bef0492113edfb3a4cee0397af59fae0b511549ec38b03"
 alias = "mods/ae2wut-1.2.10.jar"
@@ -490,6 +496,12 @@ metafile = true
 file = "mods/.index/cells.pw.toml"
 hash = "fdaf627d0eb6860d13e20be40d127cec0518a5d747a3d82dc330ac2eb1c80b71"
 alias = "mods/cells-0.6.7-beta2.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/chat-heads-vintage.pw.toml"
+hash = "c859b3df27250ab3b4d1c15774a75144cc588d10b58b284c45241f31301d96c0"
+alias = "mods/chat_heads-0.1.2.jar"
 metafile = true
 
 [[files]]
@@ -2158,6 +2170,12 @@ metafile = true
 file = "mods/.index/tesla-core-lib.pw.toml"
 hash = "77998f202a8add270517a447379ddb78bf15278a9f48ca735d7ba9b5034c2d93"
 alias = "mods/tesla-core-lib-1.12.2-1.0.18.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/thaumcraft-aspect-annotations.pw.toml"
+hash = "3ac694ff22ec27ec8ea9cb34ff62c3fcab57af902d2f9a09a8ff30a662402392"
+alias = "mods/thaumcraftaspectannotations-1.0.0.jar"
 metafile = true
 
 [[files]]
