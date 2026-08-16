@@ -46,7 +46,6 @@ import scripts.util.oredict as OredictUtil;
 <ore:blockBlackIron>.remove(<extendedcrafting:storage>);
 <ore:nuggetBlackIron>.remove(<extendedcrafting:material:1>);
 <ore:oreGallium>.remove(<moretcon:oregallium>);
-<ore:ingotShadowium>.remove(<extrabotany:material:5>);
 <ore:tungstenIngot>.remove(<endreborn:item_ingot_wolframium>);
 <ore:Geardensite>.remove(<gct_ores:densite_gear>);
 <ore:gemMoonstone>.remove(<tiths:moon_stone>);
