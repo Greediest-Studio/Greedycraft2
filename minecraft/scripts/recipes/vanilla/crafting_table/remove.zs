@@ -498,7 +498,18 @@ val removedRecipes as IIngredient[] = [
     <gctcore:ultimate_extended_assembler>,
     <ae2_utilix:common_interface>,
     <ae2_utilix:common_import_bus>,
-    <ae2_utilix:common_export_bus>
+    <ae2_utilix:common_export_bus>,
+    <botania_applie:mana_storage_component_1k>,
+    <botania_applie:mana_storage_component_4k>,
+    <botania_applie:mana_storage_component_16k>,
+    <botania_applie:mana_storage_component_64k>,
+    <botania_applie:mana_storage_component_256k>,
+    <botania_applie:mana_storage_component_1m>,
+    <botania_applie:mana_storage_component_4m>,
+    <botania_applie:mana_storage_component_16m>,
+    <botania_applie:mana_storage_component_64m>,
+    <botania_applie:mana_storage_component_256m>,
+    <botania_applie:mana_storage_component_1g>
 ];
 
 val removedRecipeNames as string[] = [

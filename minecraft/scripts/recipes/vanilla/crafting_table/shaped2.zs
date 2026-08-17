@@ -1473,6 +1473,52 @@ RecipeUtil.addShaped("mmce_builder_tool", <gctcore:mmce_builder_tool>, [
     [<additions:basic_assembler>, <ore:circuitBasic>, <modularmachineryaddons:advancedmachinedisassembler>],
     [<ore:gemQuartz>, <ore:ingotModularium>, <ore:gemQuartz>]
 ]);
+RecipeUtil.addShaped("myth_mana_storage_component_1k", <botania_applie:mana_storage_component_1k>, [
+    [<ore:nuggetMythsteel>, <ore:elvenPixieDust>, <ore:nuggetMythsteel>],
+    [<ore:elvenPixieDust>, <crazyae:material:18>, <ore:elvenPixieDust>],
+    [<ore:nuggetMythsteel>, <ore:elvenPixieDust>, <ore:nuggetMythsteel>]
+]);
+RecipeUtil.addShaped("myth_mana_storage_component_4k", <botania_applie:mana_storage_component_4k>, [
+    [<ore:dustManaLapis>, <ore:ingotElvenElementium>, <ore:dustManaLapis>],
+    [<botania_applie:mana_storage_component_1k>, <botania:elfglass>, <botania_applie:mana_storage_component_1k>],
+    [<ore:dustManaLapis>, <botania_applie:mana_storage_component_1k>, <ore:dustManaLapis>]
+]);
+RecipeUtil.addShaped("myth_mana_storage_component_16k", <botania_applie:mana_storage_component_16k>, [
+    [<ore:dustManaLapis>, <ore:ingotElvenElementium>, <ore:dustManaLapis>],
+    [<botania_applie:mana_storage_component_4k>, <botania:elfglass>, <botania_applie:mana_storage_component_4k>],
+    [<ore:dustManaLapis>, <botania_applie:mana_storage_component_4k>, <ore:dustManaLapis>]
+]);
+RecipeUtil.addShaped("myth_mana_storage_component_64k", <botania_applie:mana_storage_component_64k>, [
+    [<ore:dustManaLapis>, <ore:ingotElvenElementium>, <ore:dustManaLapis>],
+    [<botania_applie:mana_storage_component_16k>, <botania:elfglass>, <botania_applie:mana_storage_component_16k>],
+    [<ore:dustManaLapis>, <botania_applie:mana_storage_component_16k>, <ore:dustManaLapis>]
+]);
+RecipeUtil.addShaped("myth_mana_storage_component_256k", <botania_applie:mana_storage_component_256k>, [
+    [<ore:dustFirestoneMana>, <ore:ingotGaiasteel>, <ore:dustFirestoneMana>],
+    [<botania_applie:mana_storage_component_64k>, <botania:elfglass>, <botania_applie:mana_storage_component_64k>],
+    [<ore:dustFirestoneMana>, <botania_applie:mana_storage_component_64k>, <ore:dustFirestoneMana>]
+]);
+RecipeUtil.addShaped("myth_mana_storage_component_1m", <botania_applie:mana_storage_component_1m>, [
+    [<ore:dustFirestoneMana>, <ore:ingotGaiasteel>, <ore:dustFirestoneMana>],
+    [<botania_applie:mana_storage_component_256k>, <botania:elfglass>, <botania_applie:mana_storage_component_256k>],
+    [<ore:dustFirestoneMana>, <botania_applie:mana_storage_component_256k>, <ore:dustFirestoneMana>]
+]);
+RecipeUtil.addShaped("myth_mana_storage_component_4m", <botania_applie:mana_storage_component_4m>, [
+    [<ore:dustFirestoneMana>, <ore:ingotGaiasteel>, <ore:dustFirestoneMana>],
+    [<botania_applie:mana_storage_component_1m>, <botania:elfglass>, <botania_applie:mana_storage_component_1m>],
+    [<ore:dustFirestoneMana>, <botania_applie:mana_storage_component_1m>, <ore:dustFirestoneMana>]
+]);
+RecipeUtil.addShaped("myth_mana_storage_component_16m", <botania_applie:mana_storage_component_16m>, [
+    [<ore:dustFirestoneMana>, <ore:ingotGaiasteel>, <ore:dustFirestoneMana>],
+    [<botania_applie:mana_storage_component_4m>, <botania:elfglass>, <botania_applie:mana_storage_component_4m>],
+    [<ore:dustFirestoneMana>, <botania_applie:mana_storage_component_4m>, <ore:dustFirestoneMana>]
+]);
+/*RecipeUtil.addShaped("myth_mana_storage_component_64m", <botania_applie:mana_storage_component_64m>, [
+    [<ore:dustFirestoneMana>, <ore:ingotGaiasteel>, <ore:dustFirestoneMana>],
+    [<botania_applie:mana_storage_component_16m>, <botania:elfglass>, <botania_applie:mana_storage_component_16m>],
+    [<ore:dustFirestoneMana>, <botania_applie:mana_storage_component_16m>, <ore:dustFirestoneMana>]
+]);*/
+
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],

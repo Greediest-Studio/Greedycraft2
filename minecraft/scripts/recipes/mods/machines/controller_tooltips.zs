@@ -11,7 +11,7 @@ val tooltip as string[][IItemStack] = {
         "§e机械分类：§b单元",
         "§e附属模块：",
         "  §6升级模块（advanced）：",
-        "  §a允许安装高级仓（具体请查询任务书）",
+        "  §a允许安装额外2个高级仓（具体请查询任务书）",
         "  §a允许安装额外4个并行控制器"
     ],
     <modularmachinery:elysia_etcher_factory_controller> : [
@@ -26,7 +26,7 @@ val tooltip as string[][IItemStack] = {
         "  §6符文模块（rune）：",
         "  §a允许机器雕刻植物魔法符文",
         "  §6升级模块（advanced）：",
-        "  §a允许安装高级仓（具体请查询任务书）",
+        "  §a允许安装额外2个高级仓（具体请查询任务书）",
         "  §a允许安装额外4个并行控制器"
     ],
     <modularmachinery:organic_infuser_factory_controller> : [
@@ -38,8 +38,8 @@ val tooltip as string[][IItemStack] = {
         "§e机械分类：§b等级2",
         "§e附属模块：",
         "  §6升级模块（advanced）：",
-        "  §a允许安装高级仓（具体请查询任务书）",
-        "  §a允许安装额外4个并行控制器",
+        "  §a允许安装额外1个高级仓（具体请查询任务书）",
+        "  §a允许安装额外2个并行控制器",
         "  §6树场模块（tree）：",
         "  §a允许机器处理盆栽配方",
         "  §6渔场模块（fish）：",
