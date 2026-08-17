@@ -1,0 +1,30 @@
+{
+	title: "§a跳过人生(",
+	x: -0.5d,
+	y: 6.0d,
+	description: "还有高手",
+	text: [
+		"跳过注魔抽取源质阶段并提供10点注魔稳定性.",
+		"放在注魔中心基座下方并在下面放置源质供应器使用."
+	],
+	dependencies: [
+		"577b454a"
+	],
+	tasks: [{
+		uid: "7f2b8354",
+		type: "item",
+		items: [{
+			item: "random_additions:infusion_interceptor"
+		}]
+	}],
+	rewards: [{
+		uid: "b4a812c1",
+		type: "loot",
+		table: 2
+	},
+	{
+		uid: "d21c63bd",
+		type: "item",
+		item: "thaumcraft:matrix_speed"
+	}]
+}
