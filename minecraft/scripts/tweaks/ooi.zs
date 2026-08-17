@@ -133,3 +133,4 @@ ConversionFluid.create(<liquid:magma_fluid>).addMatchFluid(<liquid:magma_slime>)
 ConversionFluid.create(<liquid:h_s_l_a_steel>).addMatchFluid(<liquid:hsla>).register();
 ConversionFluid.create(<liquid:sic_sic_cmc>).addMatchFluid(<liquid:si_c_si_c_c_m_c>).register();
 ConversionFluid.create(<liquid:sic>).addMatchFluid(<liquid:sic_vapor>).register();
+ConversionFluid.create(<liquid:mana>).addMatchFluid(<liquid:fluidedmana>).register();

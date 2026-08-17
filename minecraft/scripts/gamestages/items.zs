@@ -1030,7 +1030,8 @@ GameStagesUtil.stageChaotic.addIngredients([
     <ore:ingotEcoEnhancedAlloy>,
     <ore:dustEcoEnhancedAlloy>,
     <ore:nuggetEcoEnhancedAlloy>,
-    <ore:blockEcoEnhancedAlloy>
+    <ore:blockEcoEnhancedAlloy>,
+    <moretcon:repitem:3>
 ], true);
 
 GameStagesUtil.stageStormBreaker.addIngredients([
@@ -1336,7 +1337,9 @@ GameStagesUtil.stageHardmode.addIngredients([
     <endexpansion:purple_chunk>,
     <endexpansion:purple_crystal_item>,
     <gct_ores:genite_machine_frame>,
-    <gct_ores:orichalcos_machine_frame>
+    <gct_ores:orichalcos_machine_frame>,
+    <moretcon:repitem:5>,
+    <moretcon:repitem:2>
 ], true);
 
 GameStagesUtil.stageInfinity.addIngredients([
