@@ -273,18 +273,19 @@ for seed in loadedMods["thaumadditions"].items {
     if (seed.name has "thaumadditions:vis_seeds/") {
         var aspect = seed.name.split("/")[1];
         var essence = <thaumadditions:vis_pod>.withTag({Aspect: aspect});
-        RecipeBuilder.newBuilder(regName + "_grow_" + aspect + "_" + recipeId, regName, 100, 0)
+        RecipeBuilder.newBuilder(regName + "_grow_" + aspect + "_" + recipeId, regName, 200, 0)
         .addItemInput(seed).setChance(0.0f)
         .addEnergyPerTickInput(320)
         .addItemOutput(seed)
         .setChance(0.2f)
         .addItemOutput(essence)
         .addItemOutput(essence)
-        .setChance(0.5f)
+        .setChance(0.4f)
         .addItemOutput(essence)
-        .setChance(0.25f)
+        .setChance(0.2f)
         .addItemOutput(essence)
-        .setChance(0.125f)
+        .setChance(0.1f)
+        .addAspcetInput(6, "herba")
         .setMaxThreads(1)
         .build();
 
