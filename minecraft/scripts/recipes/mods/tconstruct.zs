@@ -189,6 +189,7 @@ Casting.removeBasinRecipe(<jaopca:block.argon>);
 Casting.removeBasinRecipe(<jaopca:block.krypton>);
 Casting.removeBasinRecipe(<jaopca:block.xenon>);
 Casting.removeBasinRecipe(<jaopca:block.radon>);
+Casting.removeBasinRecipe(<botania:quartztypedark:*>);
 
 Casting.removeTableRecipe(<tcomplement:materials:1>);
 Casting.removeTableRecipe(<tiths:ingot_titanium>);
@@ -281,6 +282,7 @@ Casting.addBasinRecipe(<tiths:block_decurrium>, null, <liquid:decurrium>, VOLUME
 Casting.addBasinRecipe(<tiths:block_oraclium>, null, <liquid:oraclium>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<journey:hellstoneblock>, null, <liquid:bloodcrust>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<mca:rose_gold_block>, null, <liquid:rose_gold>, VOLUME_BLOCK, false, 300);
+Casting.addBasinRecipe(<actuallyadditions:block_misc:2>, null, <liquid:quartz_black>, 2664, false, 700);
 
 addTableBasicRecipe(<abyssalcraft:ethaxiumingot>, <tconstruct:cast_custom>, <liquid:ethaxium>, VOLUME_INGOT, false, 200);
 addTableBasicRecipe(<additions:astral_metal_ingot>, <tconstruct:cast_custom>, <liquid:astral_metal>, VOLUME_INGOT, false, 200);
