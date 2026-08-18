@@ -61,6 +61,12 @@ alias = "mods/ae2powertools-1.6.7-hotfix2.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/ae2-search-optimization.pw.toml"
+hash = "65f83b98092493fe61d790b3860f5c06fb70dfc4691f0e1b30e331db7cdff5db"
+alias = "mods/ae2searchoptimization-1.0.0.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/ae2-toggleable-view-cells.pw.toml"
 hash = "37764990817f1cc023364fbbf672412f5e61c84eae5736a3a905aa33a30b461b"
 alias = "mods/ae2-ToggleableViewCells-v1.0.2.jar"
@@ -68,8 +74,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/ae2-utilix.pw.toml"
-hash = "6918dfec3385dbd1b4c4e7ead2f04ecfd7422e20c44e26182311f549d538823e"
-alias = "mods/ae2_utilix-1.1.3.jar"
+hash = "6ea162f4ffdb87e69b41e55efe331b15f4e291ebcacb5417f3916253d4ce75fb"
+alias = "mods/ae2_utilix-1.2.0.jar"
 metafile = true
 
 [[files]]
@@ -166,6 +172,12 @@ metafile = true
 file = "mods/.index/aqua-acrobatics.pw.toml"
 hash = "f6c261ef8648ae19911f3babe769ad1b26d8b4e1d9c081f8570f4c8201c1452b"
 alias = "mods/AquaAcrobatics-1.15.4.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/arcane-patternworks.pw.toml"
+hash = "dab2f4faf675707043110cf2a9a7be06acd54d82a6db29f444202cc1d831c657"
+alias = "mods/arcane-patternworks-1.1.5.jar"
 metafile = true
 
 [[files]]
@@ -392,8 +404,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/botania-applie.pw.toml"
-hash = "ade3d804caf59177b335879a33929d7b664c55359b1145d2808dac5405a87bd1"
-alias = "mods/botania_applie-1.2.2.jar"
+hash = "12d2b1b08db6c35dfb518dc379c21c626642f09f5bb07fdbd97501964169daf6"
+alias = "mods/botania_applie-1.2.3.jar"
 metafile = true
 
 [[files]]
@@ -1478,8 +1490,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/modularmachinery-community-edition-complement.pw.toml"
-hash = "28eebeefc2dbdfcf870486c90cffce57b2de77bb364beb29e7f2244163d31cfe"
-alias = "mods/mmce_complement-1.3.2.jar"
+hash = "36120bb7ecb7dd3675cd3b93839b129895e3a5b8e642afff7d32a331456be1eb"
+alias = "mods/mmce_complement-1.3.3.jar"
 metafile = true
 
 [[files]]
