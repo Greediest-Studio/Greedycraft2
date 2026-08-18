@@ -225,7 +225,7 @@ addHellForgeRecipe([<bloodmagic:component:27>, <bloodmagic:sigil_holding>, <ore:
 <bloodarsenal:sigil_augmented_holding>, 1600);
 addHellForgeRecipe([<bloodmagic:soul_gem:3>, <bloodmagic:sigil_blood_light>, <bloodarsenal:gem:2>, <bloodmagic:sigil_air>],
 <bloodarsenal:sigil_sentience>, 4096);
-addHellForgeRecipe([<ore:ingotGold>, <bloodarsenal:base_item:2>, <bloodmagic:component:8>, <forge:bucketfilled>.withTag({FluidName: "lifeessence", Amount: 1000})],
+addHellForgeRecipe([<ore:ingotIron>, <bloodarsenal:base_item:2>, <bloodmagic:component:8>, <forge:bucketfilled>.withTag({FluidName: "lifeessence", Amount: 1000})],
 <bloodarsenal:base_item:3>, 32);
 addHellForgeRecipe([<bloodmagic:soul_gem>, <ore:ingotStainlessSteel>],
 <tconevo:metal:30>, 2);

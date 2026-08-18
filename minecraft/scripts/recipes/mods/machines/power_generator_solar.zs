@@ -113,7 +113,8 @@ function addSolarPanelRecipe(panel as IItemStack, baseRF as long) {
                 parallelBonus = 3.68f;
             }
             var efficiency as float = isNull(event.controller.customData.solarEfficiency) ? 0.0f : event.controller.customData.solarEfficiency as float;
-            event.factoryRecipeThread.addModifier("solar_generation_bonus", RecipeModifierBuilder.create("modularmachinery:energy", "output", parallelBonus * efficiency, 1, false).build());
+            var upgBonus as float = event.controller.hasMachineUpgrade("generation_upg") ? 1.6f : 1.0f;
+            event.factoryRecipeThread.addModifier("solar_generation_bonus", RecipeModifierBuilder.create("modularmachinery:energy", "output", parallelBonus * efficiency * upgBonus, 1, false).build());
         })
         .setMaxThreads(1)
         .addRecipeTooltip("§b实际发电量拥有§c并行奖赏§b机制，其单位输出电量将乘以(0.8+0.08×并行数)")
