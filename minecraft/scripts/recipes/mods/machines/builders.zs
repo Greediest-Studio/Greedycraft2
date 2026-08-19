@@ -117,7 +117,7 @@ addBuilderRecipe(<modularmachinery:durasteel_forge_factory_controller>, [
     <ore:ingotEmperorslime> * 4
 ], 1, 8000);
 
-addBuilderRecipe(<modularmachinery:blood_altar_factory_controller>, [
+addBuilderRecipe(<gctcore:blood_altar>, [
     <appliedenergistics2:material:22> * 10,
     <appliedenergistics2:material:23> * 8,
     <appliedenergistics2:material:24> * 4,

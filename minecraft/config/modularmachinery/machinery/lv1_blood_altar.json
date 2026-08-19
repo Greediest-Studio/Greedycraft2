@@ -7,6 +7,14 @@
     "parts": [
         {
             "x": 0,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "gctcore:blood_altar"
+            ]
+        },
+        {
+            "x": 0,
             "y": -4,
             "z": 0,
             "elements": [
@@ -7021,36 +7029,6 @@
                 "minecraft:stonebrick@0"
             ]
         }
-    ],
-    "mmce_gui_ext": {
-        "factoryController": {
-            "backgroundTexture": "mmcege:textures/bloodaltargui.png",
-            "hideDefaultBackground": true,
-            "guiWidth": 280,
-            "guiHeight": 213,
-            "disableRightExtension": true,
-            "specialThreadBackgroundColor": "B2E5FF",
-            "threadQueueX": 8,
-            "threadQueueY": 8,
-            "threadScrollbarX": 94,
-            "threadScrollbarY": 8,
-            "threadVisibleRows": 7,
-            "threadRowWidth": 86,
-            "threadRowHeight": 32
-        },
-        "buttons": [
-            {
-                "id": "event_mode",
-                "buttonId": "event_mode",
-                "x": 255,
-                "y": 111,
-                "width": 18,
-                "height": 18,
-                "label": "切换模式",
-                "action": "event",
-                "page": "main"
-            }
-        ]
-    }
+    ]
 }
 

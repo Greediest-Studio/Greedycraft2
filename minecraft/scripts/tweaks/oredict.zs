@@ -1086,7 +1086,7 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     ],
     <ore:controllerLevel1> : [
         <modularmachinery:durasteel_forge_factory_controller>,
-        <modularmachinery:blood_altar_factory_controller>,
+        <gctcore:blood_altar>,
         <modularmachinery:basic_miner_factory_controller>,
         <modularmachinery:exp_power_generator_factory_controller>,
         <modularmachinery:gas_power_generator_factory_controller>,
