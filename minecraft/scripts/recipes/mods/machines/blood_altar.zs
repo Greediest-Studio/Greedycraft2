@@ -33,7 +33,9 @@ import mods.modularmachinery.ControllerGUIRenderEvent;
 import mods.modularmachinery.MachineTickEvent;
 
 import mods.modularmachinery.IMachineController;
+import mods.modularmachinery.SmartInterfaceData;
 import mods.modularmachinery.MachineModifier;
+import mods.modularmachinery.SmartInterfaceType;
 import mods.modularmachinery.FactoryRecipeThread;
 import mods.modularmachinery.RecipeFinishEvent;
 import mods.modularmachinery.RecipeTickEvent;
@@ -46,6 +48,8 @@ import mods.gctweaker.IBigDecimal;
 MachineModifier.setMaxThreads("blood_altar", 1);
 MachineModifier.setInternalParallelism("blood_altar", 2147483647);
 MachineModifier.setMaxParallelism("blood_altar", 2147483647);
+
+MachineModifier.addSmartInterfaceType("blood_altar", SmartInterfaceType.create("模式", 0));
 
 MachineModifier.addCoreThread("blood_altar", FactoryRecipeThread.createCoreThread("源质净化模块").addRecipe("purify"));
 MachineModifier.addCoreThread("blood_altar", FactoryRecipeThread.createCoreThread("宝珠输出模块"));
@@ -215,6 +219,14 @@ MMEvents.onMachinePreTick("blood_altar", function(event as MachineTickEvent) {
     var acceleration as int = event.controller.getBlocksInPattern(<bloodmagic:blood_rune:9>) as int;
     var checkTime as int = (20 - acceleration) > 1 ? (20 - acceleration) : 1;
 
+    //定义祭坛模式
+    if (!isNull(event.controller.getSmartInterfaceData("模式")) && world.getWorldTime() % 20 == 0) {
+        if (event.controller.getSmartInterfaceData("模式").value > 2.0f || event.controller.getSmartInterfaceData("模式").value < 0.0f) {
+            event.controller.customData = event.controller.customData.update({mode : 0});
+        } else {
+            event.controller.customData = event.controller.customData.update({mode : event.controller.getSmartInterfaceData("模式").value as int});
+        }
+    }
     //初始化祭坛容量
     if (isNull(event.controller.customData.LP)) {
         event.controller.customData = event.controller.customData.update({LP : "0"});
@@ -338,10 +350,8 @@ MMCEGEEvents.onControllerButtonClick("blood_altar", function(event as Controller
     if (event.buttonId == "event_mode") {
         if (mode == 0) {
             event.setCustomFloat("mode", 1);
-            print(1);
         } else {
             event.setCustomFloat("mode", 0);
-            print(0);
         }
         event.syncController();
     }
