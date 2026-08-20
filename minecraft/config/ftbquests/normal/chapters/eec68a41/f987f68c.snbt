@@ -1,0 +1,14 @@
+{
+	x: 8.5d,
+	y: 6.0d,
+	dependencies: [
+		"890c300a"
+	],
+	tasks: [{
+		uid: "a0921d38",
+		type: "item",
+		items: [{
+			item: "gctcore:gct_mana_pool 1 1"
+		}]
+	}]
+}
