@@ -68,22 +68,11 @@ MMEvents.onControllerGUIRender("kabalah_builder", function(event as ControllerGU
     event.extraInfo = info;
 });
 
-MMEvents.onMachinePreTick("kabalah_builder", function(event as MachineTickEvent) {
-    if (!event.controller.world.isRemote()) {
-        event.controller.customData = event.controller.customData.deepUpdate({manaLoopActive: 0}, OVERWRITE);
-    }
-});
-
 MachineModifier.addCoreThread("kabalah_builder", FactoryRecipeThread.createCoreThread("魔力环流").addRecipe("mana_circulation"));
 
 RecipeBuilder.newBuilder("mana_circulation", "kabalah_builder", 1)
     .addManaInput(100000)
     .addManaOutput(99999)
-    .addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
-        if (!event.controller.world.isRemote()) {
-            event.controller.customData = event.controller.customData.deepUpdate({manaLoopActive: 1}, OVERWRITE);
-        }
-    })
     .setThreadName("魔力环流")
     .setParallelized(false)
     .addRecipeTooltip("§b每tick运行一次，用于维持生命树构建器的魔力环流")
@@ -123,7 +112,15 @@ function createKabalahBuilderNormalRecipe(
             }
         })
         .addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
-            if (isNull(event.controller.customData.manaLoopActive) || event.controller.customData.manaLoopActive.asInt() != 1) {
+            val list = event.controller.activeRecipeList;
+            var run = false;
+            for r in list {
+                if (r.registryName == "mana_circulation") {
+                    run = true;
+                }
+            }
+
+            if (!run) {
                 event.preventProgressing("魔力环流未正常运行");
             }
         })
