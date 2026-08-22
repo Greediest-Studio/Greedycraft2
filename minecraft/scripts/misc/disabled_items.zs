@@ -1067,7 +1067,8 @@ var disabledItems as IIngredient[] = [
     <botania_applie:mana_card_advanced>,
     <flux_applied:energy_import_bus>,
     <ae2_utilix:overflow_destruction_card>,
-    <tiths:block_punji_cloud>
+    <tiths:block_punji_cloud>,
+    <betterbuilderswandsfix:break_core>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [
