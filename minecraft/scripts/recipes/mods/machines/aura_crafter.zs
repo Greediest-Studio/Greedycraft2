@@ -87,3 +87,10 @@ RecipeBuilder.newBuilder("daynight_craft", "aura_crafter", 100)
     .addItemOutput(<additions:daynight_ingot> * 4)
     .setMaxThreads(1)
     .build();
+
+RecipeBuilder.newBuilder("arcanium_craft", "aura_crafter", 100)
+    .addItemInput(<ore:oreArcanium>)
+    .addAuraInput(400, true)
+    .addItemOutput(<divinerpg:arcanium> * 2)
+    .setMaxThreads(1)
+    .build();

@@ -1,0 +1,19 @@
+{
+	title: "§b想要来点橙汁吗",
+	x: 7.0d,
+	y: 4.5d,
+	description: "合成约顿海姆魔力发射器",
+	text: [
+		""
+	],
+	dependencies: [
+		"56aab35b"
+	],
+	tasks: [{
+		uid: "90b4641b",
+		type: "item",
+		items: [{
+			item: "gctcore:gct_mana_spreader"
+		}]
+	}]
+}

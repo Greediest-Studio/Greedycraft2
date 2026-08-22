@@ -1,0 +1,14 @@
+{
+	x: 8.5d,
+	y: 7.5d,
+	dependencies: [
+		"4ba0eba9"
+	],
+	tasks: [{
+		uid: "b2733d61",
+		type: "item",
+		items: [{
+			item: "gctcore:nidavellir_spark"
+		}]
+	}]
+}

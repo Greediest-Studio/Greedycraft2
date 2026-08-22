@@ -1,0 +1,19 @@
+{
+	title: "§b中央贯通",
+	x: 11.5d,
+	y: 4.5d,
+	description: "合成华纳海姆魔力发射器",
+	text: [
+		""
+	],
+	dependencies: [
+		"24cd249b"
+	],
+	tasks: [{
+		uid: "ee6020e4",
+		type: "item",
+		items: [{
+			item: "gctcore:gct_mana_spreader 1 2"
+		}]
+	}]
+}

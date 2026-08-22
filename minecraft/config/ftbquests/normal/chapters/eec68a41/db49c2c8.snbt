@@ -1,0 +1,19 @@
+{
+	title: "§b暗黑魔网",
+	x: 8.5d,
+	y: 4.5d,
+	description: "合成尼德威阿尔魔力发射器",
+	text: [
+		""
+	],
+	dependencies: [
+		"c3f03772"
+	],
+	tasks: [{
+		uid: "9498371b",
+		type: "item",
+		items: [{
+			item: "gctcore:gct_mana_spreader 1 1"
+		}]
+	}]
+}
