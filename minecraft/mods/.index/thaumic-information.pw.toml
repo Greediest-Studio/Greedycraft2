@@ -1,0 +1,13 @@
+filename = 'thaumicinfo-1.2.1.jar'
+name = 'Thaumic Information'
+side = 'both'
+
+[download]
+hash = '43d7cbe25c8462305033b57c55d1f14abab127e7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+
+[update]
+[update.curseforge]
+file-id = 8513668
+project-id = 1590952
