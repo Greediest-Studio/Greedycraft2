@@ -62,8 +62,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/ae2-search-optimization.pw.toml"
-hash = "65f83b98092493fe61d790b3860f5c06fb70dfc4691f0e1b30e331db7cdff5db"
-alias = "mods/ae2searchoptimization-1.0.0.jar"
+hash = "b525d42ef24110218427cb956876853ae5abb50848e80e98fa2b0f71377c665a"
+alias = "mods/ae2searchoptimization-1.0.1.jar"
 metafile = true
 
 [[files]]
@@ -1724,8 +1724,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/packagedauto-wireless.pw.toml"
-hash = "6fb809b481ddf297e5759794c2a2dd25684a38e267b4e8c33cc85e5005ea0ea3"
-alias = "mods/packagedautowireless-1.0.0.jar"
+hash = "d3d85d9a9da1d5a4744237acbde96ed7b73f84e0bc452cde94e97a6df5bc0477"
+alias = "mods/packagedautowireless-1.0.1.jar"
 metafile = true
 
 [[files]]
@@ -1756,12 +1756,6 @@ metafile = true
 file = "mods/.index/packagedfluidcrafting.pw.toml"
 hash = "473c6de8a18bb4307d703409a55dde14752a254e2ed77ecf31dd72d2ddc57d3c"
 alias = "mods/PackagedFluidCrafting-1.12.2-1.0.0.3.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/packagedthaumic.pw.toml"
-hash = "111c435e4c9ee6d8b72e8dbdafde071d26137ba20543c493a569b16e4ff27394"
-alias = "mods/PackagedThaumic-1.12.2-1.0.3.20.jar"
 metafile = true
 
 [[files]]
@@ -2174,8 +2168,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/terminal-interaction-integration.pw.toml"
-hash = "47253c041536d6c9da26605666dbfa8f2f8a44d8d0f4dabe867bcbc9f437eec0"
-alias = "mods/terminal_interaction_integration-1.2.1.jar"
+hash = "4000202207b9f3bfb81641a752171551a1647c1bd0fa28613138d6e9a9c12423"
+alias = "mods/terminal_interaction_integration-1.2.2.jar"
 metafile = true
 
 [[files]]
@@ -2245,9 +2239,21 @@ alias = "mods/thaumicconcilium-1.2.3.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/thaumic-energistics-interaction.pw.toml"
+hash = "90d69402837c5be9e18a013ef8aadaedd8e255352efac24c50db46c02b9ed27a"
+alias = "mods/thaumic_energistics_interaction-1.0.0.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/thaumic-equivalence.pw.toml"
 hash = "a878c5788cae901d4a8fe76363d4f19b82f82824ec6c1986cc4c2bb9f539107b"
 alias = "mods/ThaumicEquivalence-1.12.2-1.0.5.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/thaumic-information.pw.toml"
+hash = "9240f33bc9456721645ea7134ace096befcde2fa03653344958e863e094dd997"
+alias = "mods/thaumicinfo-1.2.1.jar"
 metafile = true
 
 [[files]]
