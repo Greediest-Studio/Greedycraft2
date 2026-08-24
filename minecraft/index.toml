@@ -1502,8 +1502,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/modularmachinery-terminal.pw.toml"
-hash = "ec56da04278eecbf3be3f776f693a75707655280fa802bd2d18a0e025aac168c"
-alias = "mods/modularmachinery_terminal-1.0.1.jar"
+hash = "1803ed616a61feaba1da4952a36abbe20b5a90c381e923000dd2355019253ed3"
+alias = "mods/modularmachinery_terminal-1.0.3.jar"
 metafile = true
 
 [[files]]
@@ -2242,6 +2242,12 @@ metafile = true
 file = "mods/.index/thaumic-concilium-kedition.pw.toml"
 hash = "04cfd9e7c31845ae51a5cb4e01193b7ff8c02c7033ed3302f6c28a75cf061bf3"
 alias = "mods/thaumicconcilium-1.2.3.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/thaumic-energistics-interaction.pw.toml"
+hash = "24d5ae8f81fa409b39d775044d6f5e7a5c5f2c92ab0aed54cf0cf195209ed2d1"
+alias = "mods/thaumic_energistics_interaction-1.0.1.jar"
 metafile = true
 
 [[files]]
