@@ -57,7 +57,7 @@ for capacitorlist in capacitors {
         .addModifier(false, capacitorlist.definition.id, RecipeModifierBuilder.create("modularmachinery:duration", "input", 1.0f / (capacitors[capacitorlist][0] as float), 1, false).build())
         .addPreRecipeCheckHandler(function(event as MachineEvent, upgrade as MachineUpgrade) {
             if (!isNull(event.controller.activeRecipe)) {
-                event.controller.activeRecipe.maxParallelism = capacitors[capacitorlist][1] as int;
+                event.controller.activeRecipe.maxParallelism += capacitors[capacitorlist][1] as int;
             }
         })
         .addCompatibleMachines("elysia_alloyer")

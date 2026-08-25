@@ -43,6 +43,7 @@ function addCrusherRecipe(id as int, input as IIngredient, output as IItemStack,
         .addOutput(output)
         .addEnergyPerTickInput(energy)
         .addRecipeTooltip("§d粉碎配方支持模块化电容升级，详情请查询“模块化电容”")
+        .setMaxThreads(1)
         .build();
 }
 
