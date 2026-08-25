@@ -21,7 +21,6 @@ import mods.jei.JEI;
 
 MachineModifier.setMaxThreads("ion_exchange_column", 1);
 MachineModifier.setMaxParallelism("ion_exchange_column", 65536);
-MachineModifier.setInternalParallelism("ion_exchange_column", 1);
 
 MMEvents.onControllerGUIRender("ion_exchange_column", function(event as ControllerGUIRenderEvent) {
     var info as string[] = [
