@@ -208,10 +208,10 @@ RecipeUtil.addShaped("aspcet_gugu_input", <whimcraft:blockmeaspectinputbus>, [
     [<thaumicenergistics:essentia_import>,<thaumicenergistics:infusion_provider>,<thaumicenergistics:essentia_import>],
     [<modularmachinery:blockcasing>,<thaumicenergistics:essentia_import>,<modularmachinery:blockcasing>]
 ]);
-RecipeUtil.addShaped("pattern_provider_share", <whimcraft:blockshareinfhandler>, [
+RecipeUtil.addShaped("pattern_provider_share", <modularmachinery:blockmepatternmirrorimage>, [
     [<ore:blockModularium>, <additions:wireless_processor>, <ore:blockModularium>],
     [<appliedenergistics2:material:52>, <modularmachinery:blockmepatternprovider>, <appliedenergistics2:material:52>],
-    [<ore:blockModularium>, <additions:wireless_processor>, <ore:blockModularium>]
+    [<ore:blockModularium>, <additions:engineering_processor_2>, <ore:blockModularium>]
 ]);
 RecipeUtil.addShaped("cordless_YM", <ymadditions:network_hub>, [
     [<crazyae:material:16>,<appliedenergistics2:quantum_link>,<additions:wireless_processor>],
