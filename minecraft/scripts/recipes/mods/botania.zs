@@ -254,7 +254,6 @@ GodAgglomeration.addRecipe(<botaniverse:morepylon>, [
     <ore:ingotGhostMetal>,
     <ore:ingotCryonium>,
     <ore:ingotMistium>,
-    <ore:runeNilfheim>,
     <ore:runeForth4B>,
     <ore:runeForth8B>
 ], 10000000, 0xe8d26c, 0xf3825f, <additions:elfsteel_block>, <jaopca:block.mythsteel>, <additions:elfsteel_block>, null, null);

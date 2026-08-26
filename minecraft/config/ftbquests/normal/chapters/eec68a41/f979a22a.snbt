@@ -1,6 +1,11 @@
 {
+	title: "§b这就是华纳神族打不过阿萨神族的原因吗（悲）",
 	x: 11.5d,
 	y: 6.0d,
+	description: "合成华纳海姆魔力池",
+	text: [
+		""
+	],
 	dependencies: [
 		"a7a51905"
 	],
@@ -10,5 +15,20 @@
 		items: [{
 			item: "gctcore:gct_mana_pool 1 2"
 		}]
+	}],
+	rewards: [{
+		uid: "e71bf966",
+		type: "item",
+		item: "gctcore:gct_mana_pool 1 2"
+	},
+	{
+		uid: "22558f47",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "d94581bd",
+		type: "xp",
+		xp: 4000
 	}]
 }

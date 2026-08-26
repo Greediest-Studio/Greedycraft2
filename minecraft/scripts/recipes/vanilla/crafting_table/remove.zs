@@ -509,7 +509,14 @@ val removedRecipes as IIngredient[] = [
     <botania_applie:mana_storage_component_16m>,
     <botania_applie:mana_storage_component_64m>,
     <botania_applie:mana_storage_component_256m>,
-    <botania_applie:mana_storage_component_1g>
+    <botania_applie:mana_storage_component_1g>,
+    <botaniverse:morewood:4>,
+    <botaniverse:morewood:5>,
+    <botaniverse:morewood:6>,
+    <botaniverse:morewood:7>,
+    <gctcore:gct_mana_wood:3>,
+    <gctcore:gct_mana_wood:4>,
+    <gctcore:gct_mana_wood:5>
 ];
 
 val removedRecipeNames as string[] = [
