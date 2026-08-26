@@ -239,7 +239,8 @@ GameStagesUtil.stageFusionMatrix.addIngredients([
     <moretcon:blockrunesteel>,
     <moretcon:ingotrunesteel>,
     <moretcon:nuggetrunesteel>,
-    <moretcon:dustrunesteel>
+    <moretcon:dustrunesteel>,
+    <gct_ores:awakened_draconium_dust>
 ], true);
 
 
