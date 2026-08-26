@@ -15,5 +15,20 @@
 		items: [{
 			item: "gctcore:gct_mana_pool"
 		}]
+	}],
+	rewards: [{
+		uid: "62347cee",
+		type: "item",
+		item: "gctcore:gct_mana_pool"
+	},
+	{
+		uid: "b2216834",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "7a794603",
+		type: "xp",
+		xp: 1500
 	}]
 }

@@ -208,10 +208,10 @@ RecipeUtil.addShaped("aspcet_gugu_input", <whimcraft:blockmeaspectinputbus>, [
     [<thaumicenergistics:essentia_import>,<thaumicenergistics:infusion_provider>,<thaumicenergistics:essentia_import>],
     [<modularmachinery:blockcasing>,<thaumicenergistics:essentia_import>,<modularmachinery:blockcasing>]
 ]);
-RecipeUtil.addShaped("pattern_provider_share", <whimcraft:blockshareinfhandler>, [
+RecipeUtil.addShaped("pattern_provider_share", <modularmachinery:blockmepatternmirrorimage>, [
     [<ore:blockModularium>, <additions:wireless_processor>, <ore:blockModularium>],
     [<appliedenergistics2:material:52>, <modularmachinery:blockmepatternprovider>, <appliedenergistics2:material:52>],
-    [<ore:blockModularium>, <additions:wireless_processor>, <ore:blockModularium>]
+    [<ore:blockModularium>, <additions:engineering_processor_2>, <ore:blockModularium>]
 ]);
 RecipeUtil.addShaped("cordless_YM", <ymadditions:network_hub>, [
     [<crazyae:material:16>,<appliedenergistics2:quantum_link>,<additions:wireless_processor>],
@@ -904,14 +904,44 @@ RecipeUtil.addShaped("spark_gaia", <gctcore:gaia_spark>, [
     [null, <ore:nuggetElfsteel>, null]
 ]);
 RecipeUtil.addShaped("spark_niflheim", <botaniverse:spark_nilfheim>, [
-    [null, <ore:runeNilfheim>, null],
-    [<gctcore:gaia_spark>, <ore:runeNilfheim>, <gctcore:gaia_spark>],
-    [null, <ore:runeNilfheim>, null]
+    [null, <ore:nuggetOrichalcos>, null],
+    [<gctcore:gaia_spark>, <ore:ingotMythsteel>, <gctcore:gaia_spark>],
+    [null, <ore:nuggetOrichalcos>, null]
+]);
+RecipeUtil.addShaped("spark_jotunheim", <gctcore:joetunheim_spark>, [
+    [null, <ore:nuggetBotanical>, null],
+    [<botaniverse:spark_nilfheim>, <ore:ingotKianate>, <botaniverse:spark_nilfheim>],
+    [null, <ore:nuggetBotanical>, null]
 ]);
 RecipeUtil.addShaped("manapool_myth", <botania:pool:3>, [
     [<botania:shimmerrock>, <botania:shimmerrock>, <botania:shimmerrock>],
     [<botania:shimmerrock>, <botanicadds:pool_dreaming>, <botania:shimmerrock>],
     [<ore:nuggetElfsteel>, <ore:nuggetElfsteel>, <ore:nuggetElfsteel>]
+]);
+RecipeUtil.addShaped("manapool_niflheim", <botaniverse:morepool>, [
+    [<botaniverse:morerock>, <botaniverse:morerock>, <botaniverse:morerock>],
+    [<botaniverse:morerock>, <botania:pool:3>, <botaniverse:morerock>],
+    [<ore:nuggetOrichalcos>, <ore:nuggetOrichalcos>, <ore:nuggetOrichalcos>]
+]);
+RecipeUtil.addShaped("manapool_jotunheim", <gctcore:gct_mana_pool>, [
+    [<gctcore:gct_mana_rock>, <gctcore:gct_mana_rock>, <gctcore:gct_mana_rock>],
+    [<gctcore:gct_mana_rock>, <botaniverse:morepool>, <gctcore:gct_mana_rock>],
+    [<ore:nuggetBotanical>, <ore:nuggetBotanical>, <ore:nuggetBotanical>]
+]);
+RecipeUtil.addShaped("manapool_nidavellir", <gctcore:gct_mana_pool:1>, [
+    [<gctcore:gct_mana_rock:1>, <gctcore:gct_mana_rock:1>, <gctcore:gct_mana_rock:1>],
+    [<gctcore:gct_mana_rock:1>, <gctcore:gct_mana_pool>, <gctcore:gct_mana_rock:1>],
+    [<ore:nuggetBotanicalAwakened>, <ore:nuggetBotanicalAwakened>, <ore:nuggetBotanicalAwakened>]
+]);
+RecipeUtil.addShaped("manaspreader_jotunheim", <gctcore:gct_mana_spreader>, [
+    [<gctcore:gct_mana_wood>, <gctcore:gct_mana_wood>, <gctcore:gct_mana_wood>],
+    [<ore:soulBotanical>, <botaniverse:morespreader>, <botania:petalblock:1>],
+    [<gctcore:gct_mana_wood>, <gctcore:gct_mana_wood>, <gctcore:gct_mana_wood>]
+]);
+RecipeUtil.addShaped("manaspreader_nidavellir", <gctcore:gct_mana_spreader:1>, [
+    [<gctcore:gct_mana_wood:1>, <gctcore:gct_mana_wood:1>, <gctcore:gct_mana_wood:1>],
+    [<ore:soulOriginal>, <gctcore:gct_mana_spreader>, <botania:petalblock:15>],
+    [<gctcore:gct_mana_wood:1>, <gctcore:gct_mana_wood:1>, <gctcore:gct_mana_wood:1>]
 ]);
 RecipeUtil.addShaped("fun_netherite_upgrade", <functionalstoragelegacy:netherite_upgrade>, [
     [<ore:chest>, <minecraft:obsidian>, <ore:chest>],
@@ -1518,7 +1548,11 @@ RecipeUtil.addShaped("myth_mana_storage_component_16m", <botania_applie:mana_sto
     [<botania_applie:mana_storage_component_16m>, <botania:elfglass>, <botania_applie:mana_storage_component_16m>],
     [<ore:dustFirestoneMana>, <botania_applie:mana_storage_component_16m>, <ore:dustFirestoneMana>]
 ]);*/
-
+RecipeUtil.addShaped("glowing_niflheim_wood", <botaniverse:morewood:4>, [
+    [<botaniverse:morewood>, <ore:dustCerlinite>, null],
+    [null, null, null],
+    [null, null, null]
+]);
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],

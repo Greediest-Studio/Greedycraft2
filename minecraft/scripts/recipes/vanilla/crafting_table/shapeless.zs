@@ -531,3 +531,9 @@ RecipeUtil.addShapeless("universal_import_bus", <ae2_utilix:common_import_bus> *
 RecipeUtil.addShapeless("universal_export_bus", <ae2_utilix:common_export_bus> * 2, 
     [<appliedenergistics2:part:260>, <appliedenergistics2:part:261>, <mekeng:gas_export_bus>, <crazyae:part:5>, <crazyae:part:8>, <thaumicenergistics:essentia_export>]
 );
+RecipeUtil.addShapeless("pattern_mirror_turning_1", <modularmachinery:blockmepatternmirrorimage>,
+    [<whimcraft:blockshareinfhandler>]
+);
+RecipeUtil.addShapeless("pattern_mirror_turning_2", <whimcraft:blockshareinfhandler>,
+    [<modularmachinery:blockmepatternmirrorimage>]
+);

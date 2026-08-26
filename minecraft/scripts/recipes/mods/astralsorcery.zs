@@ -43,6 +43,28 @@ Altar.addConstellationAltarRecipe("philosophers_stone", <projecte:item.pe_philos
     <ore:dustBlaze>, <ore:dustBlaze>,
     <ore:dustBlaze>, <ore:dustBlaze>
 ]);
+
+Altar.addConstellationAltarRecipe("niflheim_wood", <botaniverse:morewood> * 4, 1000, 40, [
+    <botania:dreamwood>, <ore:runeElementB>, <botania:dreamwood>,
+    <ore:runeElementB>, <ore:ingotDarkice>, <ore:runeElementB>,
+    <botania:dreamwood>, <ore:runeElementB>, <botania:dreamwood>,
+    <astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>,
+    <ore:gemRime>, <ore:gemRime>,
+    <ore:gemRime>, <ore:gemRime>,
+    <ore:gemRime>, <ore:gemRime>,
+    <ore:gemRime>, <ore:gemRime>
+]);
+
+Altar.addConstellationAltarRecipe("niflheim_rock", <botaniverse:morerock> * 4, 1000, 40, [
+    <botanicadds:dreamrock>, <ore:runeElementB>, <botanicadds:dreamrock>,
+    <ore:runeElementB>, <ore:ingotDarkice>, <ore:runeElementB>,
+    <botanicadds:dreamrock>, <ore:runeElementB>, <botanicadds:dreamrock>,
+    <astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>,
+    <ore:gemRime>, <ore:gemRime>,
+    <ore:gemRime>, <ore:gemRime>,
+    <ore:gemRime>, <ore:gemRime>,
+    <ore:gemRime>, <ore:gemRime>    
+]);
             
 Altar.addTraitAltarRecipe("heavite", <gct_mobs:heavite> * 14, 4000, 100, [
     <ore:stoneLerdite>, <ore:stoneAmeralite>, <ore:stoneLerdite>,

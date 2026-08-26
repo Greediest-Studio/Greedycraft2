@@ -15,5 +15,20 @@
 		items: [{
 			item: "gctcore:gct_mana_spreader"
 		}]
+	}],
+	rewards: [{
+		uid: "8ef3456b",
+		type: "item",
+		item: "gctcore:gct_mana_spreader"
+	},
+	{
+		uid: "5a3f6415",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "60f83a58",
+		type: "xp",
+		xp: 1500
 	}]
 }

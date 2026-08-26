@@ -1,6 +1,11 @@
 {
+	title: "§b条已过半",
 	x: 7.0d,
 	y: 7.5d,
+	description: "合成约顿海姆火花",
+	text: [
+		""
+	],
 	dependencies: [
 		"0a0840da"
 	],
@@ -10,5 +15,20 @@
 		items: [{
 			item: "gctcore:joetunheim_spark"
 		}]
+	}],
+	rewards: [{
+		uid: "4a0d0c6a",
+		type: "item",
+		item: "gctcore:joetunheim_spark"
+	},
+	{
+		uid: "8ff721c1",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "4ca070ed",
+		type: "xp",
+		xp: 1500
 	}]
 }
