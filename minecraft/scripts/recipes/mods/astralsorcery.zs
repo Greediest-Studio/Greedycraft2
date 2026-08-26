@@ -17,6 +17,7 @@ val errorStone = <minecraft:stone>.withTag({display: {Name: LangUtil.translate("
 
 StarlightInfusion.addInfusion(<biomesoplenty:gem:1>, <additions:resonating_ruby>, false, 0.7, 200);
 StarlightInfusion.addInfusion(<astralsorcery:blockmarble>, <gct_mobs:astral_portal_core>, true, 1.0, 400);
+StarlightInfusion.addInfusion(<minecraft:stone>, <gct_mobs:polarisite>, true, 0.3, 60);
 
 AttunementAltar.addRecipe(<ore:toolTiC>, errorStone);
 AttunementAltar.addRecipe(<ore:armorTiC>, errorStone);

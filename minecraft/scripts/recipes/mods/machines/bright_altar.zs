@@ -72,3 +72,10 @@ RecipeBuilder.newBuilder("dubhe_essence_shard", "bright_altar", 600)
     .addItemOutput(<additions:dubhe_essence_shard>)
     .setMaxThreads(1)
     .build();
+
+RecipeBuilder.newBuilder("spirit_fuel", "bright_altar", 600)
+    .addItemInput(<extrabotany:nightmarefuel> * 16)
+    .addStarlightInput(18000)
+    .addItemOutput(<extrabotany:spiritfuel> * 16)
+    .setMaxThreads(1)
+    .build();
