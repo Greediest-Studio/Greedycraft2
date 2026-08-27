@@ -34,9 +34,22 @@ MachineModifier.setInternalParallelism("elysia_centrifuge", 4);
 MachineModifier.setMaxParallelism("elysia_centrifuge", 65536);
 
 MMEvents.onControllerGUIRender("elysia_centrifuge", function(event as ControllerGUIRenderEvent) {
+    var hasAdvancedModule = event.controller.hasModule("advanced");
+    var ModuleList as string[] = [];
+    if (hasAdvancedModule) ModuleList += "§e升级模块";
+    if (ModuleList.length == 0) ModuleList += "§c无";
+    var showModule as string = "";
+    for Module in ModuleList {
+        if (Module != ModuleList[0]) {
+            showModule = showModule + " " + Module;
+        } else {
+            showModule = Module;
+        }
+    }
     var info as string[] = [
         "§e///大型离心单元控制面板///",
-        "§a机器名称：§eELYSIA单元 - 大型离心单元"
+        "§a机器名称：§eELYSIA单元 - 大型离心单元",
+        "§a附属模块：" + showModule
     ];
     event.extraInfo = info;
 });
@@ -52,10 +65,17 @@ RecipeAdapterBuilder.create("elysia_centrifuge", "nuclearcraft:separator")
     .setMaxThreads(1)
     .build();
 
+RecipeAdapterBuilder.create("elysia_centrifuge", "gctcore:nuclearcraft_centrifuge")
+    .addRecipeTooltip("§d离心配方支持模块化电容升级，详情请查询“模块化电容”")
+    .addRecipeTooltip("§a需要模块：升级模块")
+    .withModule(["advanced"])
+    .setMaxThreads(1)
+    .build();
+
 RecipeBuilder.newBuilder("centrifuge_nature_stone", "elysia_centrifuge", 20)
     .addPreCheckHandler(function (event as RecipeCheckEvent) {
         if (!event.controller.hasMachineUpgrade("nature_centrifuge_upg")) {
-            event.setFailed("缺少自然离心升级模块！");
+            event.setFailed("缺少自然离心升级！");
         }
     })
     .addIngredientArrayInput(

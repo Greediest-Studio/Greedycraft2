@@ -1033,6 +1033,12 @@ alias = "mods/+Fugue-0.23.7.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/functionalstoragelegacy.pw.toml"
+hash = "6e5c223576b3ef0367e414709209470123e3eb14f21dfadd1a657325cc0485ea"
+alias = "mods/FunctionalStorageLegacy-1.1.1.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/future-mc.pw.toml"
 hash = "b1e98c1429496227b389e0d1069d220ee7f72c20540618369a677bbe9c5d43f0"
 alias = "mods/Future-MC-0.2.21.jar"
@@ -1429,12 +1435,6 @@ alias = "mods/Mekanism-CE-Unofficial-All-10.0.3.555.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/mekanismceu-ae-upgrade.pw.toml"
-hash = "27c51cb61b5fd71681bc474804e495161d8e397367025d78475e3126c4523e23"
-alias = "mods/MekanismCeu-AE-Upgrade-1.2.0.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/mekanismceu-moremachine.pw.toml"
 hash = "067d8077f2ffd06e3a859ca62a47398b0a86d4e18084ea80431f7f34c7b9b04e"
 alias = "mods/MekanismCeU-MoreMachine-1.8.0.jar"
@@ -1496,8 +1496,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/modularmachinery-community-edition-complement.pw.toml"
-hash = "36120bb7ecb7dd3675cd3b93839b129895e3a5b8e642afff7d32a331456be1eb"
-alias = "mods/mmce_complement-1.3.3.jar"
+hash = "8d70c1be82ec5c6adfd2b16540a475e2fafe842bcae32964cf72595ad554e13e"
+alias = "mods/mmce_complement-1.4.0.jar"
 metafile = true
 
 [[files]]
@@ -2164,6 +2164,12 @@ metafile = true
 file = "mods/.index/super-mob-tracker.pw.toml"
 hash = "2496a55a8c8520c84f2dce36f2ea7b6dd40cafd283ecb8e109ab3254b84ce951"
 alias = "mods/supermobtracker-1.4.1.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/supreme-crafting-backport.pw.toml"
+hash = "8b27e72c4177eb84bc5ee7d8959cd387b956339c77adede0768aefc02eed842a"
+alias = "mods/supreme_crafting-1.0.2.jar"
 metafile = true
 
 [[files]]
