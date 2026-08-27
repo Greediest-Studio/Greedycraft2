@@ -142,6 +142,7 @@ function registerSeedRecipe(seed as IItemStack, baseItem as IItemStack, tier as 
             .setChance(0.125f)
             .addItemOutput(<mysticalagriculture:fertilized_essence>)
             .setChance(0.03f)
+            .setMaxThreads(1)
             .build();
     }
 }

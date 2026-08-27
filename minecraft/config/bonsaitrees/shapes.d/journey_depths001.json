@@ -1,0 +1,61 @@
+{
+  "type": "journey:depths",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "journey:depthsleaves",
+      "meta": 0
+    },
+    "b": {
+      "name": "journey:depthslog",
+      "meta": 2
+    }
+  },
+  "shape": [
+    [
+      " aa  ",
+      " aaa ",
+      " aaa ",
+      " aaa ",
+      " a a ",
+      "     ",
+      "     "
+    ],
+    [
+      "aaaaa",
+      "aaaaa",
+      "aaaaa",
+      "aaaaa",
+      "a   a",
+      "     ",
+      "     "
+    ],
+    [
+      "aaaaa",
+      "aaaaa",
+      "aabaa",
+      "aabaa",
+      "  b  ",
+      "  b  ",
+      "  b  "
+    ],
+    [
+      "aaaaa",
+      "aaaaa",
+      "aaaaa",
+      "aaaaa",
+      "a   a",
+      "     ",
+      "     "
+    ],
+    [
+      " aaa ",
+      " aaa ",
+      " aaa ",
+      " aaa ",
+      " a a ",
+      "     ",
+      "     "
+    ]
+  ]
+}

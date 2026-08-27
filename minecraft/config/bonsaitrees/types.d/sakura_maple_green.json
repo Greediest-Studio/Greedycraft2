@@ -1,0 +1,39 @@
+{
+    "name": "sakura:maple_green",
+    "mod": "sakura",
+    "sapling": {
+        "name": "sakura:maple_sapling_green",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "minecraft:stick",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "sakura:maple_log",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "sakura:maple_leaves_green",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "sakura:maple_sapling_green",
+            "data": 0,
+            "type": "SAPLING"
+        },
+        {
+            "name": "sakura:materials",
+            "data": 15,
+            "type": "CUSTOM",
+            "chance": 0.6,
+            "count": 1
+        }
+    ],
+    "compatibleSoilTags": ["dirt", "grass"]
+}

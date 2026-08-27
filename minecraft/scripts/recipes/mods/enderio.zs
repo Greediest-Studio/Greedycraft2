@@ -86,7 +86,7 @@ AlloySmelter.addRecipe(<additions:martisite_ingot> * 3, [<ore:ingotCestium> * 4,
 AlloySmelter.addRecipe(<additions:flashite_ingot> * 3, [<ore:ingotFraxinium> * 2, <ore:ingotTreasurite> * 2, <ore:ingotErrorite> * 2], 2000, 10.0f);
 AlloySmelter.addRecipe(<additions:overlaite_ingot> * 1, [<ore:ingotMartisite>, <ore:ingotClearite>], 2000, 10.0f);
 AlloySmelter.addRecipe(<plustic:osgloglasingot>, [<ore:ingotOsmium>, <ore:ingotRefinedGlowstone>, <ore:ingotRefinedObsidian>], 2000, 10.0f);
-AlloySmelter.addRecipe(<nuclearcraft:alloy:16> * 2, [<ore:ingotZirconium>, <ore:ingotMolybdenum>], 2000, 10.0f);
+AlloySmelter.addRecipe(<nuclearcraft:alloy:16> * 16, [<ore:ingotZirconium>, <ore:ingotMolybdenum> * 15], 16000, 10.0f);
 AlloySmelter.addRecipe(<additions:clock_alloy_ingot> * 2, [<ore:dustTime>, <ore:ingotMelodicAlloy> * 2, <divinerpg:mysterious_clock>], 10000, 60.0f);
 AlloySmelter.addRecipe(<additions:twilit_alloy_ingot> * 3, [<twilightforest:torchberries> * 6, <ore:ingotBlackholeAlloy> * 1, <ore:ingotApocalypsium> * 2], 500000, 150.0f);
 AlloySmelter.addRecipe(<additions:mist_alloy_ingot>, [<ore:ingotMelodicAlloy> * 2, <ore:ingotCrystallineAlloy>, <abyssalcraft:stone:6> * 4], 25000, 55.0f);
@@ -97,7 +97,7 @@ AlloySmelter.addRecipe(<additions:blackhole_alloy_ingot> * 2, [<ore:ingotStellar
 AlloySmelter.addRecipe(<additions:creative_alloy_ingot> * 2, [<ore:ingotBlackholeAlloy> * 2, <ore:ingotBalancedMatrix>, <ore:shardCreative>], 1000000, 1000.0f);
 AlloySmelter.addRecipe(<additions:porpezite_ingot> * 2, [<ore:ingotRuthenium>, <ore:ingotRhodium>, <ore:ingotPalladium> * 3], 4000, 10.0f);
 AlloySmelter.addRecipe(<plustic:osmiridiumingot> * 2, [<ore:ingotOsmium>, <ore:ingotIridium>], 2000, 10.0f);
-AlloySmelter.addRecipe(<nuclearcraft:alloy:12> * 2, [<ore:ingotZirconium> * 2, <ore:ingotTin>], 2000, 10.0f);
+AlloySmelter.addRecipe(<nuclearcraft:alloy:12> * 8, [<ore:ingotZirconium> * 7, <ore:ingotTin>], 8000, 10.0f);
 AlloySmelter.addRecipe(<moretcon:ingotirradium> * 2, [<ore:ingotIridium>, <ore:ingotRadium>], 4000, 10.0f);
 AlloySmelter.addRecipe(<additions:blueprint_laser_gun>, [<ore:ingotPhotonium>, <additions:blueprint>, <ore:ingotCrystalMatrix>], 800000, 400.0f);
 AlloySmelter.addRecipe(<additions:blueprint_ring>, [<ore:ingotValkyrie>, <additions:blueprint>, <ore:ingotEverite>], 1600000, 600.0f);

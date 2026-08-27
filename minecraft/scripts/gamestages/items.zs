@@ -239,7 +239,8 @@ GameStagesUtil.stageFusionMatrix.addIngredients([
     <moretcon:blockrunesteel>,
     <moretcon:ingotrunesteel>,
     <moretcon:nuggetrunesteel>,
-    <moretcon:dustrunesteel>
+    <moretcon:dustrunesteel>,
+    <gct_ores:awakened_draconium_dust>
 ], true);
 
 
@@ -301,7 +302,27 @@ GameStagesUtil.stageWyvern.addIngredients([
     <journey:luniteore>,
     <journey:luniteblock>,
     <journey:lunitechunk>,
-    <ometweaks:sharpen_capacitor>
+    <ometweaks:sharpen_capacitor>,
+    <gctcore:basic_blank_extended_pattern>,
+    <gctcore:advanced_blank_extended_pattern>,
+    <gctcore:elite_blank_extended_pattern>,
+    <gctcore:ultimate_blank_extended_pattern>,
+    <gctcore:basic_encoded_extended_pattern>,
+    <gctcore:advanced_encoded_extended_pattern>,
+    <gctcore:elite_encoded_extended_pattern>,
+    <gctcore:ultimate_encoded_extended_pattern>,
+    <gctcore:basic_extended_assembler>,
+    <gctcore:advanced_extended_assembler>,
+    <gctcore:elite_extended_assembler>,
+    <gctcore:ultimate_extended_assembler>,
+    <gctcore:basic_extended_interface>,
+    <gctcore:advanced_extended_interface>,
+    <gctcore:elite_extended_interface>,
+    <gctcore:ultimate_extended_interface>,
+    <gctcore:basic_extended_pattern_terminal>,
+    <gctcore:advanced_extended_pattern_terminal>,
+    <gctcore:elite_extended_pattern_terminal>,
+    <gctcore:ultimate_extended_pattern_terminal>
 ], true);
 
 GameStagesUtil.stageAwakened.addIngredients([
@@ -368,7 +389,8 @@ GameStagesUtil.stageAwakened.addIngredients([
     <ore:nuggetNiobiumTitanium>,
     <ore:dustNiobiumTitanium>,
     <moretcon:blockcobbledbedrock>,
-    <moretcon:blockreforgestation>
+    <moretcon:blockreforgestation>,
+    <gct_ores:everite_machine_frame>
 ], true);
 
 GameStagesUtil.stageNether.addIngredients([
@@ -815,6 +837,7 @@ GameStagesUtil.stageBetweenlandTraveller.addIngredients([
     <moretcon:itemtrichromadentiumsponge:2>,
     <moretcon:itemtrichromadentiumsponge:3>,
     <moretcon:itemtrichromadentiumsponge:4>,
+    <additions:trichromadentium_frame>,
     <additions:between_essence>,
     <additions:dirtshape>
 ], false);
@@ -1008,7 +1031,8 @@ GameStagesUtil.stageChaotic.addIngredients([
     <ore:ingotEcoEnhancedAlloy>,
     <ore:dustEcoEnhancedAlloy>,
     <ore:nuggetEcoEnhancedAlloy>,
-    <ore:blockEcoEnhancedAlloy>
+    <ore:blockEcoEnhancedAlloy>,
+    <moretcon:repitem:3>
 ], true);
 
 GameStagesUtil.stageStormBreaker.addIngredients([
@@ -1312,7 +1336,11 @@ GameStagesUtil.stageHardmode.addIngredients([
     <endexpansion:red_chunk>,
     <endexpansion:red_crystal_item>,
     <endexpansion:purple_chunk>,
-    <endexpansion:purple_crystal_item>
+    <endexpansion:purple_crystal_item>,
+    <gct_ores:genite_machine_frame>,
+    <gct_ores:orichalcos_machine_frame>,
+    <moretcon:repitem:5>,
+    <moretcon:repitem:2>
 ], true);
 
 GameStagesUtil.stageInfinity.addIngredients([
@@ -1368,6 +1396,7 @@ GameStagesUtil.stageAbyssalConquerer.addIngredients([
 GameStagesUtil.stageWitherSlayer.addIngredients([
     <botanicadds:gaiasteel_ingot>,
     <botanicadds:gaiasteel_block>,
+    <gct_ores:gaia_steel_machine_frame>,
     <additions:bravery_certificate>,
     <enderio:block_reinforced_obsidian>,
     <mysticalagriculture:witherproof_block>,
@@ -1400,6 +1429,7 @@ GameStagesUtil.stageWitherSlayer.addIngredients([
     <ore:blockGermanium>,
     <ore:nuggetGermanium>,
     <ore:dustGermanium>,
+    <contenttweaker:gemgermanium>,
     <additions:wireless_processor>,
     <additions:germanium_press>,
     <additions:wireless_processor>,
@@ -2596,9 +2626,20 @@ GameStagesUtil.stageWakeUp.addIngredients([
     <ore:blockOriginalSteel>,
     <ore:nuggetOriginalSteel>,
     <ore:dustOriginalSteel>,
+    <ore:frameOriginalSteel>,
     <gctcore:nilfheim_portal_core>,
     <gctcore:imaginative_snowball>,
-    <thaumictinkerer:sky_pearl>
+    <thaumictinkerer:sky_pearl>,
+    <additions:asgard_rune>,
+    <additions:vanaheim_rune>,
+    <additions:alfheim_rune>,
+    <additions:jotunheim_rune>,
+    <additions:midgard_rune>,
+    <additions:niflheim_rune>,
+    <additions:muspelheim_rune>,
+    <additions:nidavellir_rune>,
+    <additions:helheim_rune>,
+    <additions:ginnunga_rune>
 ], false);
 
 GameStagesUtil.stageMindShock.addIngredients([
@@ -2676,13 +2717,13 @@ GameStagesUtil.stageNoobWizard.addModId(["astralsorcery"]);
 GameStagesUtil.stageNoviceWizard.addModId(["bloodmagic", "bloodarsenal", "animus", "evilcraft", "thaumicrestoration"]);
 GameStagesUtil.stageSkilledWizard.addModId(["naturesaura", "auraddons"]);
 GameStagesUtil.stageMasterWizard.addModId(["thaumicenergistics"]);
-GameStagesUtil.stageNoobEngineer.addModId(["thermaldynamics", "thermalexpansion", "appliedenergistics2", "ae2wut", "ae_chisel", "ae2exttable", "extendedae", "threng", "cellterminal", "cells"]);
+GameStagesUtil.stageNoobEngineer.addModId(["thermaldynamics", "thermalexpansion", "appliedenergistics2", "ae2wut", "ae_chisel", "ae2exttable", "extendedae", "threng", "cellterminal", "cells", "ae2_utilix"]);
 GameStagesUtil.stageNoviceEngineer.addModId(["enderio"]);
 GameStagesUtil.stageWyvern.addModId(["extendedcrafting"]);
 GameStagesUtil.stageGatekeeper.addModId(["gct_aby"]);
 GameStagesUtil.stageEpicEngineer.addModId(["nuclearcraft", "industrialforegoing", "teslacorelib", "trinity"]);
 GameStagesUtil.stageBetweenlandTraveller.addModId(["thebetweenlands"]);
-GameStagesUtil.stageWitherSlayer.addModId(["crazyae", "nae2", "ecoaeextension", "aewirelesschannel", "eco_expand"]);
+GameStagesUtil.stageWitherSlayer.addModId(["crazyae", "nae2", "ecoaeextension", "aewirelesschannel", "eco_expand", "flux_applied", "botania_applie"]);
 GameStagesUtil.stageEnderCharm.addModId(["elementalend"]);
 GameStagesUtil.stageDeepDream.addModId(["erebus", "atum"]);
 GameStagesUtil.stageLegendWizard.addModId(["embers", "soot"]);

@@ -1,0 +1,14 @@
+{
+    "name": "divinerpg:frozen_dirt",
+    "mod": "divinerpg",
+    "soil": {
+        "name": "divinerpg:frozen_dirt",
+        "data": 0,
+        "ignoreMeta": true
+    },
+    "modifiers": {
+        "growTime": 1,
+        "dropChance": 1
+    },
+    "providedTags": ["frozen_dirt"]
+}

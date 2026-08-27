@@ -1,0 +1,22 @@
+{
+    "name": "thebetweenlands:spirit_tree",
+    "mod": "thebetweenlands",
+    "sapling": {
+        "name": "thebetweenlands:sapling_spirit_tree",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "thebetweenlands:log_spirit_tree",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "thebetweenlands:leaves_spirit_tree_top",
+            "data": 0,
+            "type": "LEAVES"
+        }
+    ],
+    "compatibleSoilTags": ["grass", "dirt"]
+}

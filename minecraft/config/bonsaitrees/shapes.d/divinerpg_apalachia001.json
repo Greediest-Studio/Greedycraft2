@@ -1,0 +1,75 @@
+{
+  "type": "divinerpg:apalachia",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "divinerpg:apalachia_leaves",
+      "meta": 0
+    },
+    "b": {
+      "name": "divinerpg:apalachia_log",
+      "meta": 0
+    },
+    "c": {
+      "name": "divinerpg:apalachia_leaves",
+      "meta": 8
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      "  a  ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      " bbb "
+    ],
+    [
+      "     ",
+      "  a  ",
+      " aaa ",
+      " aaa ",
+      "     ",
+      "     ",
+      "     ",
+      "  b  ",
+      "bbbbb"
+    ],
+    [
+      "  a  ",
+      " aaa ",
+      "aaaaa",
+      " aba ",
+      "  b  ",
+      "  b  ",
+      "  b  ",
+      " bbb ",
+      "bbbbb"
+    ],
+    [
+      "     ",
+      " ca  ",
+      "caaa ",
+      " aaa ",
+      "     ",
+      "     ",
+      "     ",
+      "  b  ",
+      "bbbbb"
+    ],
+    [
+      "     ",
+      "     ",
+      " ca  ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      " bbb "
+    ]
+  ]
+}

@@ -1,0 +1,34 @@
+{
+	title: "§b巨人用的魔力池",
+	x: 7.0d,
+	y: 6.0d,
+	description: "合成约顿海姆魔力池",
+	text: [
+		""
+	],
+	dependencies: [
+		"1697a5b7"
+	],
+	tasks: [{
+		uid: "1a9e0881",
+		type: "item",
+		items: [{
+			item: "gctcore:gct_mana_pool"
+		}]
+	}],
+	rewards: [{
+		uid: "62347cee",
+		type: "item",
+		item: "gctcore:gct_mana_pool"
+	},
+	{
+		uid: "b2216834",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "7a794603",
+		type: "xp",
+		xp: 1500
+	}]
+}

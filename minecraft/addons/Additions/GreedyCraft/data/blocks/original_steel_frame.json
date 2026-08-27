@@ -1,0 +1,20 @@
+{
+  "item_block": {
+    "name": "始源钢机器构架",
+    "ore_dict": "frameOriginalSteel",
+    "type": "additions:block_simple"
+  },
+  "name": "始源钢机器构架",
+  "material": "minecraft:metal",
+  "place_sound": "minecraft:block.metal.place",
+  "break_sound": "minecraft:block.metal.break",
+  "hit_sound": "minecraft:block.metal.hit",
+  "step_sound": "minecraft:block.metal.step",
+  "fall_sound": "minecraft:block.metal.fall",
+  "hardness": 3.0,
+  "resistance": 2000.0,
+  "harvest_level": 2,
+  "harvest_tool": "pickaxe",
+  "light_opacity": 0,
+  "type": "additions:simple"
+}

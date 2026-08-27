@@ -16,7 +16,7 @@ global HARDMODE_MAX_ROLLS as int = 3;
 // IF YOU DON'T USE A SUPPORTED LANGUAGE (LISTED BELOW), DO NOT SET THIS.
 // Note that only a few languages are supported, if you don't set this to a supported language it will be forced to en_us
 
-global DEFAULT_LANGUAGE as string = "";
+global DEFAULT_LANGUAGE as string = "zh_cn";
 
 // Only these languages are supported!
 

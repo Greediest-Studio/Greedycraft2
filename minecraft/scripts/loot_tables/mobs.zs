@@ -129,7 +129,7 @@ LootTweaker.getTable("divinerpg:entities/boss/densos").removePool("divinerpg:den
 LootTweaker.getTable("divinerpg:entities/boss/twilight_demon").removePool("divinerpg:twilight_demon");
 LootTweaker.getTable("divinerpg:entities/boss/termasect").clear();
 LootTweaker.getTable("divinerpg:entities/boss/termasect").addPool("divinerpg:wildwood_fragments",1,1,0,0).addItemEntry(<divinerpg:wildwood_fragments>,1,1,[Functions.setCount(1,4),Functions.lootingEnchantBonus(1,2,8)],[]);
-LootTweaker.getTable("divinerpg:entities/boss/termasect").addPool("divinerpg:wildwood_heart",1,1,0,0).addItemEntry(<divinerpg:wildwood_heart>,1,1,[Functions.setCount(1,4),Functions.lootingEnchantBonus(0,1,1)],[]);
+LootTweaker.getTable("divinerpg:entities/boss/termasect").addPool("divinerpg:wildwood_heart",1,1,0,0).addItemEntry(<divinerpg:wildwood_heart>,1,1,[Functions.setCount(1,4),Functions.lootingEnchantBonus(0,1,0)],[]);
 LootTweaker.getTable("divinerpg:entities/boss/termasect").addPool("divinerpg:wildwood_log",1,1,0,0).addItemEntry(<divinerpg:wildwood_log>,1,1,[Functions.setCount(64,100)],[]);
 LootTweaker.getTable("divinerpg:entities/boss/termasect").addPool("divinerpg:termasect_statue",1,1,0,0).addItemEntry(<divinerpg:termasect_statue>,1,1,[Functions.setCount(1,1)],[Conditions.killedByPlayer()]);
 LootTweaker.getTable("divinerpg:entities/boss/karot").removePool("divinerpg:karot");

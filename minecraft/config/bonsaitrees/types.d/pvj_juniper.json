@@ -1,0 +1,32 @@
+{
+    "name": "pvj:juniper",
+    "mod": "pvj",
+    "sapling": {
+        "name": "pvj:sapling_juniper",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "minecraft:stick",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "pvj:log_juniper",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "pvj:leaves_juniper",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "pvj:sapling_juniper",
+            "data": 0,
+            "type": "SAPLING"
+        }
+    ],
+    "compatibleSoilTags": ["dirt", "grass"]
+}

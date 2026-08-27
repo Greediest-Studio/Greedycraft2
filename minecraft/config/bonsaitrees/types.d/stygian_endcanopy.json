@@ -1,0 +1,32 @@
+{
+    "name": "stygian:endcanopy",
+    "mod": "stygian",
+    "sapling": {
+        "name": "stygian:endcanopysapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "minecraft:stick",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "stygian:endlog",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "stygian:endleaves",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "stygian:endcanopysapling",
+            "data": 0,
+            "type": "SAPLING"
+        }
+    ],
+    "compatibleSoilTags": ["end_stone", "end_grass"]
+}

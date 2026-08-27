@@ -27,7 +27,7 @@ import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
 MachineModifier.setMaxThreads("end_forge", 0);
-MachineModifier.setMaxParallelism("end_forge", 4096);
+MachineModifier.setMaxParallelism("end_forge", 65536);
 MachineModifier.setInternalParallelism("end_forge", 1);
 MachineModifier.addCoreThread("end_forge", FactoryRecipeThread.createCoreThread("能量输入模块"));
 MachineModifier.addCoreThread("end_forge", FactoryRecipeThread.createCoreThread("末影锻造模块"));
@@ -125,3 +125,4 @@ MMEvents.onMachinePreTick("end_forge", function(event as MachineTickEvent) {
 addEndForgeRecipe(<additions:endest_steel_ingot>, [<ore:ingotDarkice> * 2, <ore:ingotEnderite> * 2, <ore:dustEnderium> * 2], 200, 400);
 addEndForgeRecipe(<additions:ender_light>, [<ore:ingotEndestSteel> * 2, <ore:dustDraconiumChaotic> * 9, <moretcon:repitem:2> * 2], 300, 600);
 addEndForgeRecipe(<additions:enderite_ingot>, [<ore:gemResonantDebris> * 3, <ore:dustIridium> * 4], 40, 80);
+addEndForgeRecipe(<endexpansion:plate>, [<ore:ingotEnderiron> * 3, <ore:dustUru> * 2], 50, 100);

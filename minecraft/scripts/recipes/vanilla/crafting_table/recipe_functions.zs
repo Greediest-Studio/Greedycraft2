@@ -163,3 +163,21 @@ recipes.addShapeless("mininglevel",<buildinggadgets:buildingtool>,
         return out.withTag({miningLevel: level});
     }, null
 );
+
+recipes.addShapeless("gct_mining_level_upgrade", <gctcore:mining_level_upgrade>,
+    [
+        (
+            <tconstruct:pickaxe> |
+            <tconstruct:hammer> |
+            <tcongreedyaddon:allinonetool>
+        ).marked("tool").reuse(), <gctcore:mining_level_upgrade>
+    ],
+    function(out, ins, cInfo) {
+        var toolClass as string = "pickaxe";
+        if (ins.tool.definition.id == "tcongreedyaddon:allinonetool") {
+            toolClass = "allinonetool";
+        }
+        var level as int = ins.tool.getHarvestLevel(toolClass);
+        return out.withTag({gctMiningLevel: level as int});
+    }, null
+);

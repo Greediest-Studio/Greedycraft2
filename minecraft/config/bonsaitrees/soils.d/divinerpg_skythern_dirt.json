@@ -1,0 +1,14 @@
+{
+    "name": "divinerpg:skythern_dirt",
+    "mod": "divinerpg",
+    "soil": {
+        "name": "divinerpg:skythern_dirt",
+        "data": 0,
+        "ignoreMeta": true
+    },
+    "modifiers": {
+        "growTime": 1,
+        "dropChance": 1
+    },
+    "providedTags": ["skythern_dirt"]
+}

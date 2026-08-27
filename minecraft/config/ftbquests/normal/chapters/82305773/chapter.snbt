@@ -1,0 +1,18 @@
+{
+	title: "【机械】",
+	icon: "modularmachinery:blockfactorycontroller",
+	always_invisible: 0b,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: -5.5d,
+		y: 15.5d,
+		width: 10.5d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/modular.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	}]
+}

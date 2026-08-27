@@ -46,7 +46,6 @@ import scripts.util.oredict as OredictUtil;
 <ore:blockBlackIron>.remove(<extendedcrafting:storage>);
 <ore:nuggetBlackIron>.remove(<extendedcrafting:material:1>);
 <ore:oreGallium>.remove(<moretcon:oregallium>);
-<ore:ingotShadowium>.remove(<extrabotany:material:5>);
 <ore:tungstenIngot>.remove(<endreborn:item_ingot_wolframium>);
 <ore:Geardensite>.remove(<gct_ores:densite_gear>);
 <ore:gemMoonstone>.remove(<tiths:moon_stone>);
@@ -93,11 +92,21 @@ import scripts.util.oredict as OredictUtil;
 <ore:seedsTier8>.remove(<mysticalagriculture:tier8_inferium_seeds>);
 <ore:seedsTier9>.remove(<mysticalagriculture:tier9_inferium_seeds>);
 <ore:ingotAethernim>.remove(<betterendforge:aeternium_ingot>);
+<ore:runeNilfheim>.remove(<botaniverse:morerune>);
+<ore:runeMuspelheim>.remove(<botaniverse:morerune:1>);
+<ore:runeAlfheim>.remove(<botaniverse:morerune:2>);
+<ore:runeAsgard>.remove(<botaniverse:morerune:3>);
 
 <ore:ingotCthulhurite>.add(<gct_mobs:cthulhurite_ingot>);
 <ore:starlight>.add(<journey:sapphire>);
 
 var oredictMap as IIngredient[][IOreDictEntry] = {
+    <ore:runeElementB> : [<botaniverse:morerune>],
+    <ore:runeSeasonB> : [<botaniverse:morerune:1>],
+    <ore:runeSinsB> : [<botaniverse:morerune:2>],
+    <ore:runeTreeB> : [<botaniverse:morerune:3>],
+    <ore:runeTeleportB> : [<botanicadds:rune_tp>],
+    <ore:runeEnergyB> : [<botanicadds:rune_energy>],
     <ore:plankWood> : [
         <betterendforge:mossy_glowshroom_planks>,
         <betterendforge:lacugrove_planks>,
@@ -270,7 +279,7 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:gemCarminite> : [<twilightforest:carminite>],
     <ore:blockCarminite> : [<twilightforest:block_storage:4>],
     <ore:slimeball> : [<defiledlands:foul_slime>, <thermalfoundation:material:833>],
-    <ore:workbench> : [<ore:craftingTableWood>, <randomthings:customworkbench:*>],
+    <ore:workbench> : [<ore:craftingTableWood>],
     <ore:plantFibre> : [<hooked:microcrafting>],
     <ore:string> : [<hooked:microcrafting:1>],
     <ore:dirt> : [<biomesoplenty:dirt:*>],
@@ -365,7 +374,6 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <ore:itemPoop>, 
         <ore:gemShadow>, 
         <ore:record>,
-        <journey:tomatoseeds>,
         <journey:magic_dust>
     ],
     <ore:dungeonLootTier2> : [
@@ -417,8 +425,7 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <openblocks:trophy:*>,
         <ore:dungeonShield>,
         <ore:inventoryPet>,
-        <journey:xp_catalyst>,
-        <advanced-fishing:blazing_fishing_pole:*>
+        <journey:xp_catalyst>
     ],
     <ore:dungeonLootTier3> : [
         <additions:goodie_bag>,
@@ -1045,8 +1052,6 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:dustGorbite> : [<journey:gorbitedust>],
     <ore:dustOrbadite> : [<journey:orbaditedust>],
     <ore:dustDiamond> : [<journey:diamonddust>],
-    <ore:dustGold> : [<journey:golddust>],
-    <ore:dustIron> : [<journey:irondust>],
     <ore:dustBleedstone> : [<journey:bleedstonedust>],
     <ore:dustSmithstone> : [<journey:smithstonedust>],
     <ore:dustAshual> : [<journey:ash>],
@@ -1246,7 +1251,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:crystalVoidic> : [<actuallyadditions:item_crystal:3>],
     <ore:ingotEinsteinium252All> : [<contenttweaker:einsteinium52>],
     <ore:oreSulfur> : [<soot:sulfur_ore>],
-    <ore:soulOriginal> : [<additions:original_spirit>]
+    <ore:soulOriginal> : [<additions:original_spirit>],
+    <ore:dustFierymetal> : [<moretcon:dustfiery>]
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {

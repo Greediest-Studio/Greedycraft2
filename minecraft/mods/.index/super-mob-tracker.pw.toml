@@ -1,13 +1,12 @@
-name = 'Super Mob Tracker'
-filename = 'supermobtracker-1.2.5.jar'
-side = 'both'
+name = "Super Mob Tracker"
+filename = "supermobtracker-1.4.1.jar"
+side = "both"
 
 [download]
-hash-format = 'sha1'
-hash = 'd7c91210db3a562c9dd5e6b713beba800d41abd9'
-mode = 'metadata:curseforge'
+hash-format = "sha1"
+hash = "fdea5020e44b18f2d3b1f3376ac05f4154cf07cf"
+mode = "metadata:curseforge"
 
-[update]
 [update.curseforge]
-file-id = 7887144
+file-id = 8420489
 project-id = 1398067

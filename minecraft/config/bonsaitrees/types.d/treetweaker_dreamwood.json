@@ -1,0 +1,27 @@
+{
+    "name": "treetweaker:dreamwood",
+    "mod": "treetweaker",
+    "sapling": {
+        "name": "treetweaker:dreamwood",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "gct_mobs:dreamwood_log",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "gct_mobs:dreamwood_leaves",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "treetweaker:dreamwood",
+            "data": 0,
+            "type": "SAPLING"
+        }
+    ],
+    "compatibleSoilTags": ["alf_grass"]
+}

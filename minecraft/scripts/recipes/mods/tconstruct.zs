@@ -143,7 +143,7 @@ Alloy.addRecipe(<liquid:legendite> * 18, [<liquid:liquidlegend> * 125, <liquid:g
 Alloy.addRecipe(<liquid:eugardite> * 4, [<liquid:decurrium> * 3, <liquid:photonium> * 2, <liquid:solita> * 1, <liquid:dullium> * 2]);
 Alloy.addRecipe(<liquid:solita> * 3, [<liquid:reditrite> * 16, <liquid:soularium>, <liquid:adaminite>]);
 Alloy.addRecipe(<liquid:shallowbreath> * 100, [<liquid:betweensludge> * 10, <liquid:stagnant_water> * 10000, <liquid:swamp_water> * 10000]);
-Alloy.addRecipe(<liquid:zirconium_molybdenum> * 2, [<liquid:zirconium> * 1, <liquid:molybdenum> * 1]);
+Alloy.addRecipe(<liquid:zirconium_molybdenum> * 16, [<liquid:zirconium> * 1, <liquid:molybdenum> * 15]);
 Alloy.addRecipe(<liquid:aetherite> * 144, [<liquid:asgardium> * 576, <liquid:gravity_debris> * 576]);
 Alloy.addRecipe(<liquid:liquidirradium> * 2, [<liquid:iridium> * 1, <liquid:radium> * 1]);
 Alloy.addRecipe(<liquid:ascensionite> * 2, [<liquid:limonite> * 4, <liquid:rosite> * 2, <liquid:emberstone> * 1]);
@@ -157,9 +157,10 @@ Alloy.addRecipe(<liquid:blue_alloy> * 6, [<liquid:eco_basic_alloy>, <liquid:crys
 Alloy.addRecipe(<liquid:shibuichi> * 4, [<liquid:copper> * 3, <liquid:silver>]);
 Alloy.addRecipe(<liquid:signalum> * 72, [<liquid:shibuichi> * 72, <liquid:redstone> * 125]);
 Alloy.addRecipe(<liquid:tin_silver> * 4, [<liquid:tin> * 3, <liquid:silver>]);
-Alloy.addRecipe(<liquid:zircaloy> * 2, [<liquid:zirconium> * 2, <liquid:tin>]);
+Alloy.addRecipe(<liquid:zircaloy> * 8, [<liquid:zirconium> * 7, <liquid:tin>]);
 Alloy.addRecipe(<liquid:hastelloy> * 4, [<liquid:nichrome> * 3, <liquid:molybdenum>]);
 Alloy.addRecipe(<liquid:nichrome> * 2, [<liquid:nickel>, <liquid:chromium>]);
+Alloy.addRecipe(<liquid:h_s_l_a_steel> * 16, [<liquid:steel> * 13, <liquid:niobium_titanium>, <liquid:vanadium>, <liquid:aluminum>]);
 
 Casting.removeBasinRecipe(<tcomplement:scorched_block:10>);
 Casting.removeBasinRecipe(<tcomplement:scorched_block:1>);
@@ -188,6 +189,7 @@ Casting.removeBasinRecipe(<jaopca:block.argon>);
 Casting.removeBasinRecipe(<jaopca:block.krypton>);
 Casting.removeBasinRecipe(<jaopca:block.xenon>);
 Casting.removeBasinRecipe(<jaopca:block.radon>);
+Casting.removeBasinRecipe(<botania:quartztypedark:*>);
 
 Casting.removeTableRecipe(<tcomplement:materials:1>);
 Casting.removeTableRecipe(<tiths:ingot_titanium>);
@@ -272,12 +274,15 @@ Casting.addBasinRecipe(<gct_ores:terrasteel_machine_frame>, <thermalexpansion:fr
 Casting.addBasinRecipe(<gct_ores:gaia_spirit_machine_frame>, <thermalexpansion:frame>, <liquid:gaia>, 576, false, 100);
 Casting.addBasinRecipe(<gct_ores:gaia_steel_machine_frame>, <thermalexpansion:frame>, <liquid:gaiasteel>, 576, false, 100);
 Casting.addBasinRecipe(<gct_ores:orichalcos_machine_frame>, <thermalexpansion:frame>, <liquid:orichalcos>, 576, false, 100);
+Casting.addBasinRecipe(<additions:trichromadentium_frame>, <thermalexpansion:frame>, <liquid:liquidtrichromadentium>, 576, false, 100);
+Casting.addBasinRecipe(<additions:original_steel_frame>, <thermalexpansion:frame>, <liquid:original_steel>, 576, false, 100);
 Casting.addBasinRecipe(<gct_ores:balanced_matrix_block>, null, <liquid:balanced_matrix>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<additions:titanium_block>, null, <liquid:titanium>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<tiths:block_decurrium>, null, <liquid:decurrium>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<tiths:block_oraclium>, null, <liquid:oraclium>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<journey:hellstoneblock>, null, <liquid:bloodcrust>, VOLUME_BLOCK, false, 300);
 Casting.addBasinRecipe(<mca:rose_gold_block>, null, <liquid:rose_gold>, VOLUME_BLOCK, false, 300);
+Casting.addBasinRecipe(<actuallyadditions:block_misc:2>, null, <liquid:quartz_black>, 2664, false, 700);
 
 addTableBasicRecipe(<abyssalcraft:ethaxiumingot>, <tconstruct:cast_custom>, <liquid:ethaxium>, VOLUME_INGOT, false, 200);
 addTableBasicRecipe(<additions:astral_metal_ingot>, <tconstruct:cast_custom>, <liquid:astral_metal>, VOLUME_INGOT, false, 200);

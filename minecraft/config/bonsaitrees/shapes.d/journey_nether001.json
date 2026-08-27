@@ -1,0 +1,60 @@
+{
+  "type": "journey:nether",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "journey:sizzlerwoodleaves",
+      "meta": 0
+    },
+    "b": {
+      "name": "journey:sizzlerwoodlog",
+      "meta": 2
+    },
+    "c": {
+      "name": "journey:bleedheartfruit",
+      "meta": 6
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      "     ",
+      "  a  ",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "  a  ",
+      "     ",
+      " aaa ",
+      "     ",
+      "     "
+    ],
+    [
+      "  a  ",
+      " aba ",
+      "  b  ",
+      "aabaa",
+      "  bc ",
+      "  b  "
+    ],
+    [
+      "     ",
+      "  a  ",
+      "     ",
+      " aaa ",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      "     ",
+      "  a  ",
+      "     ",
+      "     "
+    ]
+  ]
+}

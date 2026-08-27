@@ -557,7 +557,7 @@ oreOutput.create("交错次元",20,FINALLIUM,<thebetweenlands:octine_ore>,1,0.04
 oreOutput.create("交错次元",20,FINALLIUM,<thebetweenlands:syrmorite_ore>,1,0.04);
 oreOutput.create("交错次元",20,FINALLIUM,<thebetweenlands:items_misc:19>,1,0.03);
 oreOutput.create("交错次元",20,FINALLIUM,<thebetweenlands:items_misc:39>,1,0.05);
-oreOutput.create("交错次元",20,FINALLIUM,<thebetweenlands:items_misc:18>,1,0.08);
+oreOutput.create("交错次元",20,FINALLIUM,<thebetweenlands:sulfur_ore>,1,0.08);
 oreOutput.create("交错次元",20,FINALLIUM,<thebetweenlands:items_misc:14>,1,0.05);
 oreOutput.create("交错次元",20,FINALLIUM,<thebetweenlands:crimson_middle_gem>,1,0.015);
 oreOutput.create("交错次元",20,FINALLIUM,<thebetweenlands:green_middle_gem>,1,0.015);

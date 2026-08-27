@@ -208,10 +208,10 @@ RecipeUtil.addShaped("aspcet_gugu_input", <whimcraft:blockmeaspectinputbus>, [
     [<thaumicenergistics:essentia_import>,<thaumicenergistics:infusion_provider>,<thaumicenergistics:essentia_import>],
     [<modularmachinery:blockcasing>,<thaumicenergistics:essentia_import>,<modularmachinery:blockcasing>]
 ]);
-RecipeUtil.addShaped("pattern_provider_share", <whimcraft:blockshareinfhandler>, [
+RecipeUtil.addShaped("pattern_provider_share", <modularmachinery:blockmepatternmirrorimage>, [
     [<ore:blockModularium>, <additions:wireless_processor>, <ore:blockModularium>],
     [<appliedenergistics2:material:52>, <modularmachinery:blockmepatternprovider>, <appliedenergistics2:material:52>],
-    [<ore:blockModularium>, <additions:wireless_processor>, <ore:blockModularium>]
+    [<ore:blockModularium>, <additions:engineering_processor_2>, <ore:blockModularium>]
 ]);
 RecipeUtil.addShaped("cordless_YM", <ymadditions:network_hub>, [
     [<crazyae:material:16>,<appliedenergistics2:quantum_link>,<additions:wireless_processor>],
@@ -327,11 +327,6 @@ RecipeUtil.addShaped("mystical_Dreadium", <abyssalcraft:dreadiumingot>, [
     [<mysticalagriculture:dreadium_essence>, <mysticalagriculture:dreadium_essence>, <mysticalagriculture:dreadium_essence>],
     [<mysticalagriculture:dreadium_essence>, null, <mysticalagriculture:dreadium_essence>],
     [<mysticalagriculture:dreadium_essence>, <mysticalagriculture:dreadium_essence>, <mysticalagriculture:dreadium_essence>]
-]);
-RecipeUtil.addShaped("machine_assembler", <gctcore:mmce_builder_tool>, [
-    [null, <ore:ingotManyullyn>, null],
-    [null, <ore:ingotManyullyn>, null],
-    [null, <ore:stickWood>, null]
 ]);
 RecipeUtil.addShaped("machine_assembler2", <additions:basic_assembler>, [
     [null, <ore:ingotAluminum>, null],
@@ -909,14 +904,44 @@ RecipeUtil.addShaped("spark_gaia", <gctcore:gaia_spark>, [
     [null, <ore:nuggetElfsteel>, null]
 ]);
 RecipeUtil.addShaped("spark_niflheim", <botaniverse:spark_nilfheim>, [
-    [null, <ore:runeNilfheim>, null],
-    [<gctcore:gaia_spark>, <ore:runeNilfheim>, <gctcore:gaia_spark>],
-    [null, <ore:runeNilfheim>, null]
+    [null, <ore:nuggetOrichalcos>, null],
+    [<gctcore:gaia_spark>, <ore:ingotMythsteel>, <gctcore:gaia_spark>],
+    [null, <ore:nuggetOrichalcos>, null]
+]);
+RecipeUtil.addShaped("spark_jotunheim", <gctcore:joetunheim_spark>, [
+    [null, <ore:nuggetBotanical>, null],
+    [<botaniverse:spark_nilfheim>, <ore:ingotKianate>, <botaniverse:spark_nilfheim>],
+    [null, <ore:nuggetBotanical>, null]
 ]);
 RecipeUtil.addShaped("manapool_myth", <botania:pool:3>, [
     [<botania:shimmerrock>, <botania:shimmerrock>, <botania:shimmerrock>],
     [<botania:shimmerrock>, <botanicadds:pool_dreaming>, <botania:shimmerrock>],
     [<ore:nuggetElfsteel>, <ore:nuggetElfsteel>, <ore:nuggetElfsteel>]
+]);
+RecipeUtil.addShaped("manapool_niflheim", <botaniverse:morepool>, [
+    [<botaniverse:morerock>, <botaniverse:morerock>, <botaniverse:morerock>],
+    [<botaniverse:morerock>, <botania:pool:3>, <botaniverse:morerock>],
+    [<ore:nuggetOrichalcos>, <ore:nuggetOrichalcos>, <ore:nuggetOrichalcos>]
+]);
+RecipeUtil.addShaped("manapool_jotunheim", <gctcore:gct_mana_pool>, [
+    [<gctcore:gct_mana_rock>, <gctcore:gct_mana_rock>, <gctcore:gct_mana_rock>],
+    [<gctcore:gct_mana_rock>, <botaniverse:morepool>, <gctcore:gct_mana_rock>],
+    [<ore:nuggetBotanical>, <ore:nuggetBotanical>, <ore:nuggetBotanical>]
+]);
+RecipeUtil.addShaped("manapool_nidavellir", <gctcore:gct_mana_pool:1>, [
+    [<gctcore:gct_mana_rock:1>, <gctcore:gct_mana_rock:1>, <gctcore:gct_mana_rock:1>],
+    [<gctcore:gct_mana_rock:1>, <gctcore:gct_mana_pool>, <gctcore:gct_mana_rock:1>],
+    [<ore:nuggetBotanicalAwakened>, <ore:nuggetBotanicalAwakened>, <ore:nuggetBotanicalAwakened>]
+]);
+RecipeUtil.addShaped("manaspreader_jotunheim", <gctcore:gct_mana_spreader>, [
+    [<gctcore:gct_mana_wood>, <gctcore:gct_mana_wood>, <gctcore:gct_mana_wood>],
+    [<ore:soulBotanical>, <botaniverse:morespreader>, <botania:petalblock:1>],
+    [<gctcore:gct_mana_wood>, <gctcore:gct_mana_wood>, <gctcore:gct_mana_wood>]
+]);
+RecipeUtil.addShaped("manaspreader_nidavellir", <gctcore:gct_mana_spreader:1>, [
+    [<gctcore:gct_mana_wood:1>, <gctcore:gct_mana_wood:1>, <gctcore:gct_mana_wood:1>],
+    [<ore:soulOriginal>, <gctcore:gct_mana_spreader>, <botania:petalblock:15>],
+    [<gctcore:gct_mana_wood:1>, <gctcore:gct_mana_wood:1>, <gctcore:gct_mana_wood:1>]
 ]);
 RecipeUtil.addShaped("fun_netherite_upgrade", <functionalstoragelegacy:netherite_upgrade>, [
     [<ore:chest>, <minecraft:obsidian>, <ore:chest>],
@@ -978,12 +1003,6 @@ RecipeUtil.addShaped("modular_terminal", <modularmachinery_terminal:terminal>, [
     [null, <modularmachinery:blockcontroller>, null],
     [null, <appliedenergistics2:dense_energy_cell>, null]
 ]);
-RecipeUtil.addShaped("modular_bulid_tool", <gctcore:mmce_builder_tool>, [
-    [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>],
-    [<ore:stickWood>, <ore:ingotModularium>, <ore:stickWood>],
-    [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]
-]);
-
 RecipeUtil.addShaped("laser_input_hatch", <modularmachineryaddons:blocklaserinput>, [
     [<mekanismgenerators:reactorglass:1>, <ore:blockModularium>, <ore:ingotModularium>],
     [<ore:ingotModularium>, <mekanismmultiblockmachine:laserlenses>, <mekanism:machineblock2:14>],
@@ -1158,6 +1177,381 @@ RecipeUtil.addShaped("basic_miner", <modularmachinery:simple_miner_factory_contr
     [<ore:blockModularium>, <ore:gearDark>, <ore:blockModularium>],
     [<ore:gearDimensionalShard>, <modularmachinery:blockcontroller>, <ore:gearDimensionalShard>],
     [<ore:blockModularium>, <ore:gearDark>, <ore:blockModularium>]
+]);
+RecipeUtil.addShaped("packaged_speed_card", <packaged_acceleration:speed_card>, [
+    [<ore:dustRedstone>, <ore:ingotDraconium>, <ore:dustRedstone>],
+    [<ore:ingotVibrantAlloy>, <packagedauto:package_component>, <ore:ingotVibrantAlloy>],
+    [<ore:dustRedstone>, <appliedenergistics2:material:28>, <ore:dustRedstone>]
+]);
+RecipeUtil.addShaped("packaged_energy_card", <packaged_acceleration:energy_card>, [
+    [<ore:dustRedstone>, <ore:ingotDraconium>, <ore:dustRedstone>],
+    [<ore:ingotEnergeticAlloy>, <packagedauto:package_component>, <ore:ingotEnergeticAlloy>],
+    [<ore:dustRedstone>, <appliedenergistics2:material:28>, <ore:dustRedstone>]
+]);
+RecipeUtil.addShaped("mininglevel_upgrade", <gctcore:mining_level_upgrade>, [
+    [null, <ore:circuitAdvanced>, null],
+    [<ore:alloyAdvanced>, <minecraft:diamond_pickaxe>, <ore:alloyAdvanced>],
+    [null, <ore:circuitAdvanced>, null]
+]);
+RecipeUtil.addShaped("energy_input_bus", <mmce_complement:me_energy_input_bus>, [
+    [<modularmachinery:blockcasing>, <crazyae:part:7>, <modularmachinery:blockcasing>],
+    [<crazyae:part:7>, <enderio:block_cap_bank:3>, <crazyae:part:7>],
+    [<modularmachinery:blockcasing>, <crazyae:part:7>, <modularmachinery:blockcasing>]
+]);
+RecipeUtil.addShaped("energy_output_bus", <mmce_complement:me_energy_output_bus>, [
+    [<modularmachinery:blockcasing>, <crazyae:part:8>, <modularmachinery:blockcasing>],
+    [<crazyae:part:8>, <enderio:block_cap_bank:3>, <crazyae:part:8>],
+    [<modularmachinery:blockcasing>, <crazyae:part:8>, <modularmachinery:blockcasing>]
+]);
+RecipeUtil.addShaped("mana_input_bus", <mmce_complement:me_mana_input_bus>, [
+    [<modularmachinery:blockcasing>, <crazyae:part:4>, <modularmachinery:blockcasing>],
+    [<crazyae:part:4>, <extrabotany:manabarrel>, <crazyae:part:4>],
+    [<modularmachinery:blockcasing>, <crazyae:part:4>, <modularmachinery:blockcasing>]
+]);
+RecipeUtil.addShaped("mana_output_bus", <mmce_complement:me_mana_output_bus>, [
+    [<modularmachinery:blockcasing>, <crazyae:part:5>, <modularmachinery:blockcasing>],
+    [<crazyae:part:5>, <extrabotany:manabarrel>, <crazyae:part:5>],
+    [<modularmachinery:blockcasing>, <crazyae:part:5>, <modularmachinery:blockcasing>]
+]);
+RecipeUtil.addShaped("flux_network_input_bus", <mmce_complement:flux_input_hatch>, [
+    [<modularmachinery:blockcasing>, <fluxnetworks:fluxpoint>, <modularmachinery:blockcasing>],
+    [<fluxnetworks:fluxpoint>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxpoint>],
+    [<modularmachinery:blockcasing>, <fluxnetworks:fluxpoint>, <modularmachinery:blockcasing>]
+]);
+RecipeUtil.addShaped("flux_network_output_bus", <mmce_complement:flux_output_hatch>, [
+    [<modularmachinery:blockcasing>, <fluxnetworks:fluxplug>, <modularmachinery:blockcasing>],
+    [<fluxnetworks:fluxplug>, <fluxnetworks:fluxblock>, <fluxnetworks:fluxplug>],
+    [<modularmachinery:blockcasing>, <fluxnetworks:fluxplug>, <modularmachinery:blockcasing>]
+]);
+RecipeUtil.addShaped("ae_chisel", <ae_chisel:ae_chisel>, [
+    [<appliedenergistics2:material:38>, <chisel:chisel_hitech>, <appliedenergistics2:material:38>],
+    [<appliedenergistics2:interface>, <appliedenergistics2:molecular_assembler>, <appliedenergistics2:interface>],
+    [<appliedenergistics2:material:58>, <chisel:auto_chisel>, <appliedenergistics2:material:58>]
+]);
+RecipeUtil.addShaped("extendedcrafting_assembler_mk1", <gctcore:basic_extended_assembler>, [
+    [<extendedcrafting:material:14>, <extendedcrafting:table_basic>, <extendedcrafting:material:14>],
+    [<extendedcrafting:material:14>, <appliedenergistics2:molecular_assembler>, <extendedcrafting:material:14>],
+    [<extendedcrafting:material:14>, <ore:circuitFinal>, <extendedcrafting:material:14>]
+]);
+RecipeUtil.addShaped("extendedcrafting_assembler_mk2", <gctcore:advanced_extended_assembler>, [
+    [<extendedcrafting:material:15>, <extendedcrafting:table_advanced>, <extendedcrafting:material:15>],
+    [<extendedcrafting:material:15>, <gctcore:basic_extended_assembler>, <extendedcrafting:material:15>],
+    [<extendedcrafting:material:15>, <ore:circuitArcane>, <extendedcrafting:material:15>]
+]);
+RecipeUtil.addShaped("extendedcrafting_assembler_mk3", <gctcore:elite_extended_assembler>, [
+    [<extendedcrafting:material:16>, <extendedcrafting:table_elite>, <extendedcrafting:material:16>],
+    [<extendedcrafting:material:16>, <gctcore:advanced_extended_assembler>, <extendedcrafting:material:16>],
+    [<extendedcrafting:material:16>, <ore:circuitDreamic>, <extendedcrafting:material:16>]
+]);
+RecipeUtil.addShaped("extendedcrafting_assembler_mk4", <gctcore:ultimate_extended_assembler>, [
+    [<extendedcrafting:material:17>, <extendedcrafting:table_ultimate>, <extendedcrafting:material:17>],
+    [<extendedcrafting:material:17>, <gctcore:elite_extended_assembler>, <extendedcrafting:material:17>],
+    [<extendedcrafting:material:17>, <ore:circuitFinest>, <extendedcrafting:material:17>]
+]);
+RecipeUtil.addShaped("4x_fluid_input_hatch_tiny", <mmce_complement:quad_fluid_input_hatch_tiny>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidinputhatch>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_output_hatch_tiny", <mmce_complement:quad_fluid_output_hatch_tiny>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidoutputhatch>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_input_hatch_small", <mmce_complement:quad_fluid_input_hatch_tiny:1>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidinputhatch:1>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_output_hatch_small", <mmce_complement:quad_fluid_output_hatch_tiny:1>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidoutputhatch:1>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_input_hatch_medium", <mmce_complement:quad_fluid_input_hatch_tiny:2>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidinputhatch:2>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_output_hatch_medium", <mmce_complement:quad_fluid_output_hatch_tiny:2>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidoutputhatch:2>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_input_hatch_enhanced", <mmce_complement:quad_fluid_input_hatch_tiny:3>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidinputhatch:3>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_output_hatch_enhanced", <mmce_complement:quad_fluid_output_hatch_tiny:3>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidoutputhatch:3>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_input_hatch_big", <mmce_complement:quad_fluid_input_hatch_tiny:4>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidinputhatch:4>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_output_hatch_big", <mmce_complement:quad_fluid_output_hatch_tiny:4>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidoutputhatch:4>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_input_hatch_giant", <mmce_complement:quad_fluid_input_hatch_tiny:5>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidinputhatch:5>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_output_hatch_giant", <mmce_complement:quad_fluid_output_hatch_tiny:5>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidoutputhatch:5>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_input_hatch_super", <mmce_complement:quad_fluid_input_hatch_tiny:6>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidinputhatch:6>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_output_hatch_super", <mmce_complement:quad_fluid_output_hatch_tiny:6>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidoutputhatch:6>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_input_hatch_vaccum", <mmce_complement:quad_fluid_input_hatch_tiny:7>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidinputhatch:7>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("4x_fluid_output_hatch_vaccum", <mmce_complement:quad_fluid_output_hatch_tiny:7>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <modularmachinery:blockfluidoutputhatch:7>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("9x_fluid_input_hatch_medium", <mmce_complement:nine_fluid_input_hatch_normal:2>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <mmce_complement:quad_fluid_input_hatch_tiny:2>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("9x_fluid_output_hatch_medium", <mmce_complement:nine_fluid_output_hatch_normal:2>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <mmce_complement:quad_fluid_output_hatch_tiny:2>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("9x_fluid_input_hatch_enhanced", <mmce_complement:nine_fluid_input_hatch_normal:3>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <mmce_complement:quad_fluid_input_hatch_tiny:3>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("9x_fluid_output_hatch_enhanced", <mmce_complement:nine_fluid_output_hatch_normal:3>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <mmce_complement:quad_fluid_output_hatch_tiny:3>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("9x_fluid_input_hatch_big", <mmce_complement:nine_fluid_input_hatch_normal:4>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <mmce_complement:quad_fluid_input_hatch_tiny:4>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("9x_fluid_output_hatch_big", <mmce_complement:nine_fluid_output_hatch_normal:4>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <mmce_complement:quad_fluid_output_hatch_tiny:4>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("9x_fluid_input_hatch_giant", <mmce_complement:nine_fluid_input_hatch_normal:5>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <mmce_complement:quad_fluid_input_hatch_tiny:5>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("9x_fluid_output_hatch_giant", <mmce_complement:nine_fluid_output_hatch_normal:5>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <mmce_complement:quad_fluid_output_hatch_tiny:5>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("9x_fluid_input_hatch_super", <mmce_complement:nine_fluid_input_hatch_normal:6>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <mmce_complement:quad_fluid_input_hatch_tiny:6>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("9x_fluid_output_hatch_super", <mmce_complement:nine_fluid_output_hatch_normal:6>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <mmce_complement:quad_fluid_output_hatch_tiny:6>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("9x_fluid_input_hatch_vaccum", <mmce_complement:nine_fluid_input_hatch_normal:7>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <mmce_complement:quad_fluid_input_hatch_tiny:7>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("9x_fluid_output_hatch_vaccum", <mmce_complement:nine_fluid_output_hatch_normal:7>, [
+    [null, <ore:plateModularium>, null],
+    [<ore:plateModularium>, <mmce_complement:quad_fluid_output_hatch_tiny:7>, <ore:plateModularium>],
+    [null, <ore:plateModularium>, null]
+]);
+RecipeUtil.addShaped("energizer_hatch_tiny", <mmce_complement:liquid_energizer_hatch>, [
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockfluidinputhatch>, <modularmachinery:blockcasing:4>],
+    [<ore:blockEnergeticSilver>, <modularmachinery:flux_reducer_factory_controller>, <ore:blockEnergeticSilver>],
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockenergyinputhatch:2>, <modularmachinery:blockcasing:4>]
+]);
+RecipeUtil.addShaped("energizer_hatch_small", <mmce_complement:liquid_energizer_hatch:1>, [
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockfluidinputhatch:1>, <modularmachinery:blockcasing:4>],
+    [<ore:blockEnergeticSilver>, <modularmachinery:flux_reducer_factory_controller>, <ore:blockEnergeticSilver>],
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockenergyinputhatch:2>, <modularmachinery:blockcasing:4>]
+]);
+RecipeUtil.addShaped("energizer_hatch_medium", <mmce_complement:liquid_energizer_hatch:2>, [
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockfluidinputhatch:2>, <modularmachinery:blockcasing:4>],
+    [<ore:blockEnergeticSilver>, <modularmachinery:flux_reducer_factory_controller>, <ore:blockEnergeticSilver>],
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockenergyinputhatch:2>, <modularmachinery:blockcasing:4>]
+]);
+RecipeUtil.addShaped("energizer_hatch_enhanced", <mmce_complement:liquid_energizer_hatch:3>, [
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockfluidinputhatch:3>, <modularmachinery:blockcasing:4>],
+    [<ore:blockEnergeticSilver>, <modularmachinery:flux_reducer_factory_controller>, <ore:blockEnergeticSilver>],
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockenergyinputhatch:2>, <modularmachinery:blockcasing:4>]
+]);
+RecipeUtil.addShaped("energizer_hatch_big", <mmce_complement:liquid_energizer_hatch:4>, [
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockfluidinputhatch:4>, <modularmachinery:blockcasing:4>],
+    [<ore:blockEnergeticSilver>, <modularmachinery:flux_reducer_factory_controller>, <ore:blockEnergeticSilver>],
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockenergyinputhatch:2>, <modularmachinery:blockcasing:4>]
+]);
+RecipeUtil.addShaped("energizer_hatch_giant", <mmce_complement:liquid_energizer_hatch:5>, [
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockfluidinputhatch:5>, <modularmachinery:blockcasing:4>],
+    [<ore:blockEnergeticSilver>, <modularmachinery:flux_reducer_factory_controller>, <ore:blockEnergeticSilver>],
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockenergyinputhatch:2>, <modularmachinery:blockcasing:4>]
+]);
+RecipeUtil.addShaped("energizer_hatch_super", <mmce_complement:liquid_energizer_hatch:6>, [
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockfluidinputhatch:6>, <modularmachinery:blockcasing:4>],
+    [<ore:blockEnergeticSilver>, <modularmachinery:flux_reducer_factory_controller>, <ore:blockEnergeticSilver>],
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockenergyinputhatch:2>, <modularmachinery:blockcasing:4>]
+]);
+RecipeUtil.addShaped("energizer_hatch_vaccum", <mmce_complement:liquid_energizer_hatch:7>, [
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockfluidinputhatch:7>, <modularmachinery:blockcasing:4>],
+    [<ore:blockEnergeticSilver>, <modularmachinery:flux_reducer_factory_controller>, <ore:blockEnergeticSilver>],
+    [<modularmachinery:blockcasing:4>, <modularmachinery:blockenergyinputhatch:2>, <modularmachinery:blockcasing:4>]
+]);
+RecipeUtil.addShaped("input_assembly_hatch_medium", <mmce_complement:input_assembly_hatch:1>, [
+    [<ore:ingotModularium>, <ore:ingotAeonsteel>, <ore:ingotModularium>],
+    [<ore:ingotAeonsteel>, <mmce_complement:input_assembly_hatch>, <ore:ingotAeonsteel>],
+    [<ore:ingotModularium>, <ore:ingotAeonsteel>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("input_assembly_hatch_large", <mmce_complement:input_assembly_hatch:2>, [
+    [<ore:ingotModularium>, <ore:ingotChromasteel>, <ore:ingotModularium>],
+    [<ore:ingotChromasteel>, <mmce_complement:input_assembly_hatch:1>, <ore:ingotChromasteel>],
+    [<ore:ingotModularium>, <ore:ingotChromasteel>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("input_assembly_hatch_giant", <mmce_complement:input_assembly_hatch:3>, [
+    [<ore:ingotModularium>, <ore:ingotCosmilite>, <ore:ingotModularium>],
+    [<ore:ingotCosmilite>, <mmce_complement:input_assembly_hatch:2>, <ore:ingotCosmilite>],
+    [<ore:ingotModularium>, <ore:ingotCosmilite>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("input_assembly_hatch_super", <mmce_complement:input_assembly_hatch:4>, [
+    [<ore:ingotModularium>, <ore:ingotFinallium>, <ore:ingotModularium>],
+    [<ore:ingotFinallium>, <mmce_complement:input_assembly_hatch:3>, <ore:ingotFinallium>],
+    [<ore:ingotModularium>, <ore:ingotFinallium>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("output_assembly_hatch_medium", <mmce_complement:output_assembly_hatch:1>, [
+    [<ore:ingotModularium>, <ore:ingotAeonsteel>, <ore:ingotModularium>],
+    [<ore:ingotAeonsteel>, <mmce_complement:output_assembly_hatch>, <ore:ingotAeonsteel>],
+    [<ore:ingotModularium>, <ore:ingotAeonsteel>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("output_assembly_hatch_large", <mmce_complement:output_assembly_hatch:2>, [
+    [<ore:ingotModularium>, <ore:ingotChromasteel>, <ore:ingotModularium>],
+    [<ore:ingotChromasteel>, <mmce_complement:output_assembly_hatch:1>, <ore:ingotChromasteel>],
+    [<ore:ingotModularium>, <ore:ingotChromasteel>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("output_assembly_hatch_giant", <mmce_complement:output_assembly_hatch:3>, [
+    [<ore:ingotModularium>, <ore:ingotCosmilite>, <ore:ingotModularium>],
+    [<ore:ingotCosmilite>, <mmce_complement:output_assembly_hatch:2>, <ore:ingotCosmilite>],
+    [<ore:ingotModularium>, <ore:ingotCosmilite>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("output_assembly_hatch_super", <mmce_complement:output_assembly_hatch:4>, [
+    [<ore:ingotModularium>, <ore:ingotFinallium>, <ore:ingotModularium>],
+    [<ore:ingotFinallium>, <mmce_complement:output_assembly_hatch:3>, <ore:ingotFinallium>],
+    [<ore:ingotModularium>, <ore:ingotFinallium>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("filtered_fluid_output_hatch", <mmce_complement:filtered_fluid_output_hatch>, [
+    [<ore:ingotModularium>, <compactmachines3:wallbreakable>, <ore:ingotModularium>],
+    [<thermaldynamics:filter:3>, <functionalstoragelegacy:fluid_1>, <thermaldynamics:retriever:3>],
+    [<ore:ingotModularium>, <compactmachines3:wallbreakable>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("filtered_item_output_hatch", <mmce_complement:filtered_item_output_hatch>, [
+    [<ore:ingotModularium>, <compactmachines3:wallbreakable>, <ore:ingotModularium>],
+    [<thermaldynamics:filter:3>, <functionalstoragelegacy:oak_1>|<functionalstoragelegacy:spruce_1>|<functionalstoragelegacy:birch_1>|<functionalstoragelegacy:jungle_1>|<functionalstoragelegacy:acacia_1>|<functionalstoragelegacy:dark_oak_1>, <thermaldynamics:retriever:3>],
+    [<ore:ingotModularium>, <compactmachines3:wallbreakable>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("batch_hatch", <mmce_complement:batch_hatch>, [
+    [<ore:ingotModularium>, <ore:ingotStainlessSteel>, <ore:ingotStainlessSteel>],
+    [<ore:ingotStainlessSteel>, <threng:material:6>, <ore:ingotStainlessSteel>],
+    [<ore:ingotStainlessSteel>, <ore:ingotStainlessSteel>, <ore:ingotModularium>]
+]);
+RecipeUtil.addShaped("energymk2_upgrade", <gctcore:energy_mk2_upgrade>, [
+    [null, <ore:blockGlassHardened>, null],
+    [<ore:alloyUltimate>, <ore:ingotDurasteel>, <ore:alloyUltimate>],
+    [null, <ore:blockGlassHardened>, null]
+]);
+RecipeUtil.addShaped("trichromadentium_frame", <additions:trichromadentium_frame>, [
+    [<ore:ingotTrichromadentium>, null, <ore:ingotTrichromadentium>],
+    [null, <ore:gearTrichromadentium>, null],
+    [<ore:ingotTrichromadentium>, null, <ore:ingotTrichromadentium>]
+]);
+RecipeUtil.addShaped("original_steel_frame", <additions:original_steel_frame>, [
+    [<ore:ingotOriginalSteel>, null, <ore:ingotOriginalSteel>],
+    [null, <ore:gearOriginalSteel>, null],
+    [<ore:ingotOriginalSteel>, null, <ore:ingotOriginalSteel>]
+]);
+RecipeUtil.addShaped("mmce_builder_tool", <gctcore:mmce_builder_tool>, [
+    [<ore:gemQuartz>, <ore:ingotModularium>, <ore:gemQuartz>],
+    [<additions:basic_assembler>, <ore:circuitBasic>, <modularmachineryaddons:advancedmachinedisassembler>],
+    [<ore:gemQuartz>, <ore:ingotModularium>, <ore:gemQuartz>]
+]);
+RecipeUtil.addShaped("myth_mana_storage_component_1k", <botania_applie:mana_storage_component_1k>, [
+    [<ore:nuggetMythsteel>, <ore:elvenPixieDust>, <ore:nuggetMythsteel>],
+    [<ore:elvenPixieDust>, <crazyae:material:18>, <ore:elvenPixieDust>],
+    [<ore:nuggetMythsteel>, <ore:elvenPixieDust>, <ore:nuggetMythsteel>]
+]);
+RecipeUtil.addShaped("myth_mana_storage_component_4k", <botania_applie:mana_storage_component_4k>, [
+    [<ore:dustManaLapis>, <ore:ingotElvenElementium>, <ore:dustManaLapis>],
+    [<botania_applie:mana_storage_component_1k>, <botania:elfglass>, <botania_applie:mana_storage_component_1k>],
+    [<ore:dustManaLapis>, <botania_applie:mana_storage_component_1k>, <ore:dustManaLapis>]
+]);
+RecipeUtil.addShaped("myth_mana_storage_component_16k", <botania_applie:mana_storage_component_16k>, [
+    [<ore:dustManaLapis>, <ore:ingotElvenElementium>, <ore:dustManaLapis>],
+    [<botania_applie:mana_storage_component_4k>, <botania:elfglass>, <botania_applie:mana_storage_component_4k>],
+    [<ore:dustManaLapis>, <botania_applie:mana_storage_component_4k>, <ore:dustManaLapis>]
+]);
+RecipeUtil.addShaped("myth_mana_storage_component_64k", <botania_applie:mana_storage_component_64k>, [
+    [<ore:dustManaLapis>, <ore:ingotElvenElementium>, <ore:dustManaLapis>],
+    [<botania_applie:mana_storage_component_16k>, <botania:elfglass>, <botania_applie:mana_storage_component_16k>],
+    [<ore:dustManaLapis>, <botania_applie:mana_storage_component_16k>, <ore:dustManaLapis>]
+]);
+RecipeUtil.addShaped("myth_mana_storage_component_256k", <botania_applie:mana_storage_component_256k>, [
+    [<ore:dustFirestoneMana>, <ore:ingotGaiasteel>, <ore:dustFirestoneMana>],
+    [<botania_applie:mana_storage_component_64k>, <botania:elfglass>, <botania_applie:mana_storage_component_64k>],
+    [<ore:dustFirestoneMana>, <botania_applie:mana_storage_component_64k>, <ore:dustFirestoneMana>]
+]);
+RecipeUtil.addShaped("myth_mana_storage_component_1m", <botania_applie:mana_storage_component_1m>, [
+    [<ore:dustFirestoneMana>, <ore:ingotGaiasteel>, <ore:dustFirestoneMana>],
+    [<botania_applie:mana_storage_component_256k>, <botania:elfglass>, <botania_applie:mana_storage_component_256k>],
+    [<ore:dustFirestoneMana>, <botania_applie:mana_storage_component_256k>, <ore:dustFirestoneMana>]
+]);
+RecipeUtil.addShaped("myth_mana_storage_component_4m", <botania_applie:mana_storage_component_4m>, [
+    [<ore:dustFirestoneMana>, <ore:ingotGaiasteel>, <ore:dustFirestoneMana>],
+    [<botania_applie:mana_storage_component_1m>, <botania:elfglass>, <botania_applie:mana_storage_component_1m>],
+    [<ore:dustFirestoneMana>, <botania_applie:mana_storage_component_1m>, <ore:dustFirestoneMana>]
+]);
+RecipeUtil.addShaped("myth_mana_storage_component_16m", <botania_applie:mana_storage_component_16m>, [
+    [<ore:dustFirestoneMana>, <ore:ingotGaiasteel>, <ore:dustFirestoneMana>],
+    [<botania_applie:mana_storage_component_4m>, <botania:elfglass>, <botania_applie:mana_storage_component_4m>],
+    [<ore:dustFirestoneMana>, <botania_applie:mana_storage_component_4m>, <ore:dustFirestoneMana>]
+]);
+/*RecipeUtil.addShaped("myth_mana_storage_component_64m", <botania_applie:mana_storage_component_64m>, [
+    [<ore:dustFirestoneMana>, <ore:ingotGaiasteel>, <ore:dustFirestoneMana>],
+    [<botania_applie:mana_storage_component_16m>, <botania:elfglass>, <botania_applie:mana_storage_component_16m>],
+    [<ore:dustFirestoneMana>, <botania_applie:mana_storage_component_16m>, <ore:dustFirestoneMana>]
+]);*/
+RecipeUtil.addShaped("glowing_niflheim_wood", <botaniverse:morewood:4>, [
+    [<botaniverse:morewood>, <ore:dustCerlinite>, null],
+    [null, null, null],
+    [null, null, null]
 ]);
 /*
 RecipeUtil.addShaped("", , [

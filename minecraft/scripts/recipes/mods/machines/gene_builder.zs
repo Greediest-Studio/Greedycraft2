@@ -28,7 +28,7 @@ import mods.ctutils.utils.Math;
 
 import scripts.util.machines as MMUtil;
 
-MachineModifier.setMaxParallelism("gene_builder", 4096);
+MachineModifier.setMaxParallelism("gene_builder", 65536);
 MachineModifier.setInternalParallelism("gene_builder", 1);
 MachineModifier.setMaxThreads("gene_builder", 1);
 

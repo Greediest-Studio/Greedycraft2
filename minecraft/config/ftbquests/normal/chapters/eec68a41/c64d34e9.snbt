@@ -1,0 +1,34 @@
+{
+	title: "§b再次强化",
+	x: 8.5d,
+	y: 7.5d,
+	description: "合成尼德威阿尔火花",
+	text: [
+		""
+	],
+	dependencies: [
+		"4ba0eba9"
+	],
+	tasks: [{
+		uid: "b2733d61",
+		type: "item",
+		items: [{
+			item: "gctcore:nidavellir_spark"
+		}]
+	}],
+	rewards: [{
+		uid: "4e2aaeab",
+		type: "item",
+		item: "gctcore:nidavellir_spark"
+	},
+	{
+		uid: "35e7a435",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "a0e4c8ec",
+		type: "xp",
+		xp: 2000
+	}]
+}

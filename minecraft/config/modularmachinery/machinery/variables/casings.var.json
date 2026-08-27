@@ -4,14 +4,29 @@
         "modularmachinery:blockinputbus",
         "modularmachinery:blockenergyinputhatch",
         "modularmachinery:blockfluidinputhatch",
+        "mmce_complement:quad_fluid_input_hatch_tiny",
+        "mmce_complement:nine_fluid_input_hatch_normal@2",
+        "mmce_complement:nine_fluid_input_hatch_normal@3",
+        "mmce_complement:nine_fluid_input_hatch_normal@4",
+        "mmce_complement:nine_fluid_input_hatch_normal@5",
+        "mmce_complement:nine_fluid_input_hatch_normal@6",
+        "mmce_complement:nine_fluid_input_hatch_normal@7",
         "modularmachinery:blockoutputbus",
         "modularmachinery:blockenergyoutputhatch",
         "modularmachinery:blockfluidoutputhatch",
+        "mmce_complement:quad_fluid_output_hatch_tiny",
+        "mmce_complement:nine_fluid_output_hatch_normal@2",
+        "mmce_complement:nine_fluid_output_hatch_normal@3",
+        "mmce_complement:nine_fluid_output_hatch_normal@4",
+        "mmce_complement:nine_fluid_output_hatch_normal@5",
+        "mmce_complement:nine_fluid_output_hatch_normal@6",
+        "mmce_complement:nine_fluid_output_hatch_normal@7",
         "gugu-utils:environmenthatch",
         "gugu-utils:energyoutputport",
         "gugu-utils:sparkmanahatch",
         "gugu-utils:starlightinputhatch",
         "gugu-utils:aurainputhatch",
+        "gugu-utils:auraoutputhatch",
         "gugu-utils:aspecthatch",
         "gugu-utils:emberinputhatch",
         "modularmachinery:blocksmartinterface",
@@ -56,23 +71,45 @@
         "mmce_complement:me_energy_output_bus",
         "mmce_complement:me_mana_input_bus",
         "mmce_complement:me_mana_output_bus",
+        "mmce_complement:me_ore_dict_input_bus",
+        "mmce_complement:liquid_energizer_hatch",
+        "mmce_complement:self_cycle_assembly_hatch",
+        "mmce_complement:input_assembly_hatch",
+        "mmce_complement:output_assembly_hatch",
+        "mmce_complement:data_input_assembly_hatch",
+        "mmce_complement:filtered_fluid_output_hatch",
+        "mmce_complement:filtered_item_output_hatch",
         "mmce_complement:machine_glass",
-        "mmce_complement:blockcasing"
+        "mmce_complement:blockcasing",
+        "mmce_complement:batch_hatch",
+        "mmceparallelequalizer:parallel_equalizer_hatch"
+    ],
+    "casings_advanced": [
+        "modularmachinery:blockcasing@0",
+        "mmce_complement:machine_glass",
+        "mmce_complement:thread_hatch",
+        "mmce_complement:overclock_hatch",
+        "mmce_complement:accelerator_hatch"
     ],
     "casings_parallel": [
         "modularmachinery:blockcasing@0",
+        "mmce_complement:machine_glass",
         "modularmachinery:blockparallelcontroller"
     ],
     "casings_upgrade": [
         "modularmachinery:blockcasing@0",
+        "mmce_complement:machine_glass",
         "modularmachinery:blockupgradebus"
     ],
     "casings_parallel_and_upgrade":[
         "modularmachinery:blockcasing@0",
+        "mmce_complement:machine_glass",
         "modularmachinery:blockparallelcontroller",
         "modularmachinery:blockupgradebus"
     ],
     "casings_speed": [
+        "modularmachinery:blockcasing@0",
+        "mmce_complement:machine_glass",
         "modularmachinery:blockcasing@1",
         "modularmachinery:blockcasing@2",
         "modularmachinery:blockcasing@3",
@@ -86,12 +123,14 @@
         "godular_tachinery:large_muffler_hatch",
         "godular_tachinery:huge_muffler_hatch",
         "godular_tachinery:me_muffler_hatch",
-        "modularmachinery:blockcasing@0"
+        "modularmachinery:blockcasing@0",
+        "mmce_complement:machine_glass"
     ],
     "casings_maintenance": [
         "godular_tachinery:maintenance_hatch",
         "godular_tachinery:auto_maintenance_hatch",
-        "modularmachinery:blockcasing@0"
+        "modularmachinery:blockcasing@0",
+        "mmce_complement:machine_glass"
     ],
     "bloody_rune": [
         "bloodmagic:blood_rune@0",

@@ -486387,4 +486387,22 @@
                 "minecraft:concrete@7"
             ]
         }
-    ]}
+    ],
+    "mmce_gui_ext": {
+        "factoryController": {
+            "backgroundTexture": "mmcege:textures/guifactory.png",
+            "hideDefaultBackground": true,
+            "guiWidth": 280,
+            "guiHeight": 213,
+            "disableRightExtension": true,
+            "specialThreadBackgroundColor": "B2E5FF",
+            "threadQueueX": 8,
+            "threadQueueY": 8,
+            "threadScrollbarX": 94,
+            "threadScrollbarY": 8,
+            "threadVisibleRows": 7,
+            "threadRowWidth": 86,
+            "threadRowHeight": 32
+        }
+    }
+}

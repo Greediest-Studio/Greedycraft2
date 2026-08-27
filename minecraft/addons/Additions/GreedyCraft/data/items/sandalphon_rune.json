@@ -1,5 +1,8 @@
 {
   "name": "王国符文",
-  "ore_dict": "runeSandalphonB",
+  "ore_dict": [
+    "runeSandalphonB",
+    "runeForth10B"
+  ],
   "type": "additions:simple"
 }

@@ -1,0 +1,14 @@
+{
+    "name": "defiledlands:grass_defiled",
+    "mod": "defiledlands",
+    "soil": {
+        "name": "defiledlands:grass_defiled",
+        "data": 0,
+        "ignoreMeta": true
+    },
+    "modifiers": {
+        "growTime": 1,
+        "dropChance": 1
+    },
+    "providedTags": ["defiled_grass"]
+}

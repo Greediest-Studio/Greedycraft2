@@ -1,13 +1,13 @@
 name = "Classic Bar Legacy"
-filename = "classicbar-0.5.8.jar"
-side = "both"
+filename = "classicbar-0.6.0.jar"
+side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "26ba5c74f4f75437129a799da869344bedd334ec"
+hash = "ec9f8045ececd538ffb3cf4563af0857d8a7850a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6136009
+file-id = 8227355
 project-id = 1153317

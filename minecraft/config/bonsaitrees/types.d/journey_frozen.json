@@ -1,0 +1,32 @@
+{
+    "name": "journey:frozen",
+    "mod": "journey",
+    "sapling": {
+        "name": "journey:frozensapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "minecraft:stick",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "journey:frozenlog",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "journey:frozenleaves",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "journey:frozensapling",
+            "data": 0,
+            "type": "SAPLING"
+        }
+    ],
+    "compatibleSoilTags": ["dirt", "grass"]
+}

@@ -20,7 +20,7 @@ import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
 MachineModifier.setMaxThreads("bright_altar", 4);
-MachineModifier.setMaxParallelism("bright_altar", 16);
+MachineModifier.setMaxParallelism("bright_altar", 65536);
 MachineModifier.setInternalParallelism("bright_altar", 1);
 
 MMEvents.onControllerGUIRender("bright_altar", function(event as ControllerGUIRenderEvent) {
@@ -70,5 +70,12 @@ RecipeBuilder.newBuilder("dubhe_essence_shard", "bright_altar", 600)
     .addItemInput(<additions:erebus_complex> * 4)
     .addStarlightInput(25000)
     .addItemOutput(<additions:dubhe_essence_shard>)
+    .setMaxThreads(1)
+    .build();
+
+RecipeBuilder.newBuilder("spirit_fuel", "bright_altar", 600)
+    .addItemInput(<extrabotany:nightmarefuel> * 16)
+    .addStarlightInput(18000)
+    .addItemOutput(<extrabotany:spiritfuel> * 16)
     .setMaxThreads(1)
     .build();

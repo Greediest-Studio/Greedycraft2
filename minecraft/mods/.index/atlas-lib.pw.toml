@@ -1,13 +1,12 @@
-name = 'Atlas Lib'
-filename = 'Atlas-Lib-1.12.2-1.1.10.jar'
-side = 'both'
+name = "Atlas Lib"
+filename = "Atlas-Lib-1.12.2-1.1.11.jar"
+side = "both"
 
 [download]
-hash-format = 'sha1'
-hash = '21de74818e763f939bff0568405b83be5cc7c96d'
-mode = 'metadata:curseforge'
+hash-format = "sha1"
+hash = "6d707db466168435050414a2ea65ccd700ec9c3e"
+mode = "metadata:curseforge"
 
-[update]
 [update.curseforge]
-file-id = 7845224
+file-id = 8206890
 project-id = 463826

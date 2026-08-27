@@ -25,21 +25,21 @@ alias = "mods/Additions-0.5.2.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/advanced-fishing.pw.toml"
-hash = "8b11ac5dadbc988893a0ed0943fa32340bf0a19a3ba1fb3e32bae34f9cf2b037"
-alias = "mods/Advanced-Fishing-1.12.2-1.3.3.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/ae2-better-magnet-card.pw.toml"
-hash = "1b2e8dc24a20310dd89222b4688d6ff924ef14093b7d60a4396f48b5646d7e9e"
-alias = "mods/BetterMagnetCard-1.1.3.jar"
+hash = "1d477e04c47fa55cd8d04f58736ce99ab961f4cac9a6478eae46eef0dc70b07c"
+alias = "mods/BetterMagnetCard-1.2.2.jar"
 metafile = true
 
 [[files]]
 file = "mods/.index/ae2-crafting-tree-legacy.pw.toml"
 hash = "6ad73841211a521befe66296f38bc330ccd215e607a54536caa9f14e60c21b10"
 alias = "mods/AE2CT-Legacy-0.1.2.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/ae2-meteorite-addon.pw.toml"
+hash = "efff7ec51825a67a980b172e8a9220393685a04f6794aaa97503673df9ab8e52"
+alias = "mods/ae2_meteorite_addon-1.5.jar"
 metafile = true
 
 [[files]]
@@ -56,14 +56,26 @@ metafile = true
 
 [[files]]
 file = "mods/.index/ae2-powertools.pw.toml"
-hash = "b7bee53fbe108bf9f04955930b7d1b81890d87b588332603535197d9d17b4ec3"
-alias = "mods/ae2powertools-1.5.5.jar"
+hash = "12f9a45d1a4ab45e60cd411ca366caa8d719efc2e9a5a746f266e6f225f16e4b"
+alias = "mods/ae2powertools-1.6.7-hotfix2.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/ae2-search-optimization.pw.toml"
+hash = "b525d42ef24110218427cb956876853ae5abb50848e80e98fa2b0f71377c665a"
+alias = "mods/ae2searchoptimization-1.0.1.jar"
 metafile = true
 
 [[files]]
 file = "mods/.index/ae2-toggleable-view-cells.pw.toml"
 hash = "37764990817f1cc023364fbbf672412f5e61c84eae5736a3a905aa33a30b461b"
 alias = "mods/ae2-ToggleableViewCells-v1.0.2.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/ae2-utilix.pw.toml"
+hash = "6ea162f4ffdb87e69b41e55efe331b15f4e291ebcacb5417f3916253d4ce75fb"
+alias = "mods/ae2_utilix-1.2.0.jar"
 metafile = true
 
 [[files]]
@@ -110,8 +122,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/akashic-goggles.pw.toml"
-hash = "235c6a6285839fce16d08bf0bc5a971c47c9bf91a9cbc0ddbe8c0ed6b873a127"
-alias = "mods/Akashic-Goggles-v1.0.2-mc1.12.2.jar"
+hash = "0f53b8f0d19d6864d2958bfc25f527629cef02333f932c99e9dd9dd5bf3db8e6"
+alias = "mods/Akashic-Goggles-v1.0.3-mc1.12.2.jar"
 metafile = true
 
 [[files]]
@@ -134,8 +146,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/antique-armory.pw.toml"
-hash = "3fadeef71ef4209ecc938f9f2d08a60115c500d76e7c8a1cd3e2bd5e5db492ce"
-alias = "mods/AntiqueArmory-1.12.2-1.2.9.jar"
+hash = "2c7c753a8009b8132b602d2a18c91aa521f81f734cc60e118bf332e7204054a0"
+alias = "mods/AntiqueArmory-1.12.2-1.3.0.jar"
 metafile = true
 
 [[files]]
@@ -160,6 +172,12 @@ metafile = true
 file = "mods/.index/aqua-acrobatics.pw.toml"
 hash = "f6c261ef8648ae19911f3babe769ad1b26d8b4e1d9c081f8570f4c8201c1452b"
 alias = "mods/AquaAcrobatics-1.15.4.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/arcane-patternworks.pw.toml"
+hash = "dab2f4faf675707043110cf2a9a7be06acd54d82a6db29f444202cc1d831c657"
+alias = "mods/arcane-patternworks-1.1.5.jar"
 metafile = true
 
 [[files]]
@@ -194,8 +212,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/atlas-lib.pw.toml"
-hash = "e8632ffa9b38cc2d3408effc33f124d45fbf932bc8198cd6e988f06d33a43d9d"
-alias = "mods/Atlas-Lib-1.12.2-1.1.10.jar"
+hash = "b3657f5c4d43b92352ff21bdcc8d9f4a683b9ef3e4d746ec2075dddf788564a8"
+alias = "mods/Atlas-Lib-1.12.2-1.1.11.jar"
 metafile = true
 
 [[files]]
@@ -260,8 +278,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/bansoko.pw.toml"
-hash = "cb1b44e0ef33e0cfc94aa483e8f8293ca21594808d4bb43908301bbf3e0ab4c1"
-alias = "mods/!bansoukou-6.0.0.jar"
+hash = "45a7ee829f2876de372f34e0eea588866d5b05aca3c8d431dc4be754222a8164"
+alias = "mods/!bansoukou-6.2.0.jar"
 metafile = true
 
 [[files]]
@@ -290,7 +308,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/better-loading-screen.pw.toml"
-hash = "2a1972a3a503f84def89480dfe6f18906d071b07db6ae3eec20141b00bb4b12a"
+hash = "eb16a35ac2259bf9881a96041ad8a54afe92a77f1e469bed6e58a9223e2bb537"
 alias = "mods/CustomLoadingScreen-1.12.2-1.5.9.jar"
 metafile = true
 
@@ -320,7 +338,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/betterdrawhoveringtext.pw.toml"
-hash = "ceff19cb5b6199cdf544f9594f97e2e6f738fad8b63770bcf1950848d31c067f"
+hash = "2369b9af9a8b91b1e1f1df3334045d3464ae4b9ca82cbdad1e87d1ffe5a78c30"
 alias = "mods/betterDrawHoveringText-1.0.1.jar"
 metafile = true
 
@@ -332,7 +350,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/betterer-p2p.pw.toml"
-hash = "7444cfb1b1629e7c51d9a7fd779e38f25bdac8a547fa8ddae321183bfcc856af"
+hash = "afcb5c2c6fb24147fbe5a76ec338795fc84d67aa3ae0b1965f5d6593ce760344"
 alias = "mods/betterp2p-1.12.2-1.3.3.jar"
 metafile = true
 
@@ -368,7 +386,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/blur.pw.toml"
-hash = "431351b95770999002d6674eb60f0d2ff6f324f2a1895de785ab9123db2e94f2"
+hash = "3cae160d1022a63850fc67bc18142fc7cc471e96d32899c63f61baf7a505f11c"
 alias = "mods/Blur-1.0.4-14.jar"
 metafile = true
 
@@ -382,6 +400,12 @@ metafile = true
 file = "mods/.index/bookshelf.pw.toml"
 hash = "b1fb57b228c59338b92e5427d82dad7ea93090f6f9e89c5ae8531da14a60d042"
 alias = "mods/Bookshelf-1.12.2-2.3.590.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/botania-applie.pw.toml"
+hash = "12d2b1b08db6c35dfb518dc379c21c626642f09f5bb07fdbd97501964169daf6"
+alias = "mods/botania_applie-1.2.3.jar"
 metafile = true
 
 [[files]]
@@ -434,14 +458,20 @@ metafile = true
 
 [[files]]
 file = "mods/.index/brewin-and-chewin-legacy.pw.toml"
-hash = "3e96805ee2b41cf0c3f72201b2f1fdec0586fa9a781a8f4d3e4a5a38b27b82b3"
-alias = "mods/brewin-and-chewin-legacy-1.0.0.jar"
+hash = "4b20528c7a45becaba9a4d59fcbbd6701cd1ff5d462acda865caeee924f19068"
+alias = "mods/brewin-and-chewin-legacy-1.1.3.jar"
 metafile = true
 
 [[files]]
 file = "mods/.index/brigo.pw.toml"
 hash = "748f7c15cbd4446cd6a47ef5ae7bc9b61b2ef0cea262dd7ed4d4b9e819ffd2e7"
 alias = "mods/brigo_forge-1.1.1+1.12.x.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/brilliant-text-remixin.pw.toml"
+hash = "e54bfb0c4968e023821414fa1e16f194428406c97d285f0524f967aca46432e8"
+alias = "mods/Brilliant Text Remixin-0.2.1.jar"
 metafile = true
 
 [[files]]
@@ -470,14 +500,20 @@ metafile = true
 
 [[files]]
 file = "mods/.index/cell-terminal.pw.toml"
-hash = "dd220df7538b78c607ada5f902ccd65ac08624d4ef33fe6d3e453f26ce6fae61"
-alias = "mods/cell-terminal-1.6.0-beta.jar"
+hash = "a3068b9a81b58458acf28711608621785e9995e3176ed0538fe3f60dad4dc7c0"
+alias = "mods/cell-terminal-1.6.7.jar"
 metafile = true
 
 [[files]]
 file = "mods/.index/cells.pw.toml"
-hash = "36811cf45eb9dfd452bcdeeb1e325e0a34c1fbd17da84034b47c0c0bb397dcf8"
-alias = "mods/cells-0.5.15-beta.jar"
+hash = "fdaf627d0eb6860d13e20be40d127cec0518a5d747a3d82dc330ac2eb1c80b71"
+alias = "mods/cells-0.6.7-beta2.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/chat-heads-vintage.pw.toml"
+hash = "c859b3df27250ab3b4d1c15774a75144cc588d10b58b284c45241f31301d96c0"
+alias = "mods/chat_heads-0.1.2.jar"
 metafile = true
 
 [[files]]
@@ -518,8 +554,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/classic-bar-legacy.pw.toml"
-hash = "bed735941985f2574ddf2d952259aca023e57f075671d0d646d0da53a7824208"
-alias = "mods/classicbar-0.5.8.jar"
+hash = "7acb6bbaf0a5ea1516362c7a957162e9088e3c47acdddc0f8ee96a61c2b74092"
+alias = "mods/classicbar-0.6.0.jar"
 metafile = true
 
 [[files]]
@@ -530,8 +566,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/codechicken-lib-cre.pw.toml"
-hash = "901ef19951e1f001ce9bf7b1c6eec098bcab81e97db1a3612a0ea4819c14a49e"
-alias = "mods/codechickenlib-3.3.5-universal.jar"
+hash = "724842feb023b1cce67c5400b55c0981612305ed1f73cff45831e7b5bd309164"
+alias = "mods/codechickenlib-3.3.8-universal.jar"
 metafile = true
 
 [[files]]
@@ -572,8 +608,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/compatskills-fork.pw.toml"
-hash = "8b6273d6089ce3ea51c9f4b12dcf73ad8a0961ec623dd11f264d7f5b4ecd8435"
-alias = "mods/CompatSkills-1.12.2-1.17.2.jar"
+hash = "bd37e77ecb096ea032b07a002829e66e62a2eeeb8731ae602a6f08b1cda40d7a"
+alias = "mods/CompatSkills-1.12.2-1.17.3.jar"
 metafile = true
 
 [[files]]
@@ -608,8 +644,14 @@ metafile = true
 
 [[files]]
 file = "mods/.index/crafttweaker.pw.toml"
-hash = "c9ff684bf78472f09e6dbb4623cf636ddb0dc88c911bdc4cf0eb3dc32197f4d4"
+hash = "1ecbff321c2152556747c41192bf88d57ffd20302f2e1f3064bf73d24d8d1d62"
 alias = "mods/CraftTweaker2-1.12-4.1.20.715.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/crazyae-nyonification.pw.toml"
+hash = "c6c1a99d9782c52242911dcc26b86a094d995aa127de4bf026bb8406d1a368ed"
+alias = "mods/crazyae_nyonification-1.0.0.jar"
 metafile = true
 
 [[files]]
@@ -637,15 +679,9 @@ alias = "mods/CustomStartingGear-1.12-1.2.0.9-universal.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/customfishing.pw.toml"
-hash = "0ed00604efd6295607bae0bd7d7e81ad48a7d49778a0dab7f1db66a90e02abad"
-alias = "mods/CustomFishing-0.1.6.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/customskinloader.pw.toml"
-hash = "5d0586b2f5c522ad9864b9c510f65354fdd7469519f91bb3942cbf0b55af4923"
-alias = "mods/CustomSkinLoader_ForgeV1-14.28.jar"
+hash = "5d79dd805aa6236bbc9ab0497d89127e76bc473a7256ee670b30811126ff45f2"
+alias = "mods/CustomSkinLoader_Universal-15.0.1.jar"
 metafile = true
 
 [[files]]
@@ -662,8 +698,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/damagenumberlegacy.pw.toml"
-hash = "a6ca2430e939d95d5a5b5a02bc6df140a37af4bb4aec1c28445f6aa962d29904"
-alias = "mods/DamageNumber-1.4.jar"
+hash = "1c3594fd84a80876a7ebc1888f84e150492e1ee268a61b0bacdad1b32c115968"
+alias = "mods/DamageNumber-1.5.jar"
 metafile = true
 
 [[files]]
@@ -710,8 +746,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/digital-miner-filter.pw.toml"
-hash = "1e0df435d5b87e71365e565a5a3644008113e2b83bb42be941630cca25391c50"
-alias = "mods/minerfilter-1.0.2.jar"
+hash = "f3cbe10693c63eb48c1dc84f34933d7b857370d6db3be13c794277ce3915802e"
+alias = "mods/minerfilter-1.1.0.jar"
 metafile = true
 
 [[files]]
@@ -730,12 +766,6 @@ metafile = true
 file = "mods/.index/dungeons-mod.pw.toml"
 hash = "d174248bdfe1d32de97fdec07bd3f3db059610fc6001bc18f3b74df8a9c8e68a"
 alias = "mods/DungeonsMod-1.12.2-1.0.8.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/dynamic-dynamos.pw.toml"
-hash = "2b4c4f461c3e3ccbaf5e2af7168aca9b264709b428eb6d2928e47ecdd3fbc624"
-alias = "mods/DynamicDynamos-1.12.2-1.10.jar"
 metafile = true
 
 [[files]]
@@ -764,14 +794,14 @@ metafile = true
 
 [[files]]
 file = "mods/.index/elemental-end-portal.pw.toml"
-hash = "789b35692f5f22bae285caf0ab3443e5906f01addfdba8c6f35f2102e7610e91"
-alias = "mods/elementalend-1.0.0.jar"
+hash = "9a1a29dd5089483e81b6c06369880718a66d12160e803fba542069e373323fab"
+alias = "mods/elementalend-1.0.1.jar"
 metafile = true
 
 [[files]]
 file = "mods/.index/embers-extended-life.pw.toml"
-hash = "9efcb33b06e3fb8fe6ae76b127b8c9de8b5d930805a640fe1e84fff3be7f89f0"
-alias = "mods/embers-1.25.6.jar"
+hash = "ed17268b081f3a7e71f20e7b8c0fa4744ffc9c57f6f65dcc2f8d710303b91af6"
+alias = "mods/embers-1.26.1.jar"
 metafile = true
 
 [[files]]
@@ -782,8 +812,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/end-s-delight-legacy.pw.toml"
-hash = "39bf21860b486f40a28ed4d20de6e3781973e2266f799c975afe5743d488421f"
-alias = "mods/ends-delight-legacy-1.0.2.jar"
+hash = "060e57f7320db6d2e6f69f153b40eef0e84c1855a53bbcac84a7314377be717f"
+alias = "mods/ends-delight-legacy-1.0.3.jar"
 metafile = true
 
 [[files]]
@@ -842,7 +872,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/eventtweaker.pw.toml"
-hash = "7c2ac6f8293314b5333919a8b58ca5d36812115eb39d8e736b965852c6cc2bf0"
+hash = "033d5770734224f7eabe36082789b11dde4add2d781bc70bdaac700bf86c5088"
 alias = "mods/eventtweaker-1.8.jar"
 metafile = true
 
@@ -854,8 +884,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/ex-pattern-provider.pw.toml"
-hash = "b9a9a0906861bfc670d561f5aeb016903b5f25f2da3fc3c68c39df3b85c18f75"
-alias = "mods/ExtendedAE-1.12-0.0.1.jar"
+hash = "664cd95981e53424f627dd602a61034d4331f2a149a9dc8bd3a02ce1ccc3317a"
+alias = "mods/ExtendedAE-1.12-0.0.2.jar"
 metafile = true
 
 [[files]]
@@ -883,27 +913,27 @@ alias = "mods/extrautils2-1.12-1.9.9.jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/extrabotany.pw.toml"
+hash = "256531717287ffe4978bbdcea28c221bd7366f9325de2c73f792f6a48cc6c532"
+alias = "mods/ExtraBotany-r1.1-60-beta-hotfix.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/fancymenu.pw.toml"
-hash = "7c3ece84820d3e3e6e672a011d4a3db2aa71e4c2dcb4bbf70a26ee0e4bf7ac23"
+hash = "8af63cc3490a71c977dfaf0df2d21bde7e5054be63746138a857e79bbaa4740c"
 alias = "mods/fancymenu_forge_2.14.9_MC_1.12-1.12.2.jar"
 metafile = true
 
 [[files]]
 file = "mods/.index/farmer-s-delight-legacy.pw.toml"
-hash = "9fd815afebca9d328576d5026fe6dcf0d74701fcc7bbd179f4e917237f85d63f"
-alias = "mods/FarmersDelightLegacy-1.1.0.jar"
+hash = "dbc278243002d341ab423398e8b90afe634f846eed102a263793bd7835061091"
+alias = "mods/FarmersDelightLegacy-1.1.3.jar"
 metafile = true
 
 [[files]]
 file = "mods/.index/farming-for-blockheads.pw.toml"
 hash = "8f89aa362696e69a9c0cdae7400de176cd21082fcf9feb5567acf4e942c0113e"
 alias = "mods/FarmingForBlockheads_1.12.2-3.1.28.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/fermiumbooterdepoliticization.pw.toml"
-hash = "965ac17895f2ae27eef8855902717632083a4df61bf2b5d00f48f5918ce4ac04"
-alias = "mods/`fermiumbooter-1.3.13.jar"
 metafile = true
 
 [[files]]
@@ -914,14 +944,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/fineopti.pw.toml"
-hash = "df65a3cc169c20482f74593f680937b8982aadcfe3be9b3bd51a6f59ec4f28da"
+hash = "2b155304972aa89d534c3aa4331b77f979bad22203b5795726acf89c91a72986"
 alias = "mods/OptiFine_1.12.2_HD_U_G5 (1).jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/flare.pw.toml"
-hash = "6df47abeee68551699ac6734c79eb62f17111c767270f152af3f717609938388"
-alias = "mods/flare-0.8.0.jar"
 metafile = true
 
 [[files]]
@@ -934,6 +958,12 @@ metafile = true
 file = "mods/.index/fluidict.pw.toml"
 hash = "76500df508614c710751fd75f71578a2fe40efec6264f6343d42627bae5fb74e"
 alias = "mods/fluidict-1.2.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/flux-applied.pw.toml"
+hash = "122e7e2c3d2d41f60345f925aff962397ebd138af54c3796dad127852eb54025"
+alias = "mods/flux_applied-1.2.2.jar"
 metafile = true
 
 [[files]]
@@ -962,8 +992,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/forgelin-continuous.pw.toml"
-hash = "bc1cd93e03b2f32008f8ad88504a3a0fafc0a024dfdd1a17daf98243a7b56ed3"
-alias = "mods/Forgelin-Continuous-2.3.20.0.jar"
+hash = "7649c2c8e9367bbe427e1778a5970823c2c117d3aaeb2e8d1a894195f62ffb4c"
+alias = "mods/Forgelin-Continuous-2.4.0.0.jar"
 metafile = true
 
 [[files]]
@@ -992,19 +1022,19 @@ metafile = true
 
 [[files]]
 file = "mods/.index/ftbu-xaero-compat.pw.toml"
-hash = "13b14a71a9bfc238d13906c26e62be8a0c2c17f2bbc6185555d86afe29b8a2ee"
-alias = "mods/ftbuxaerocompat-1.1.1-beta.jar"
+hash = "c477fcbc89f8bc693c8dad0e186cc3323162a1f5d72063c95d403c85d95fa226"
+alias = "mods/ftbuxaerocompat-1.1.1.jar"
 metafile = true
 
 [[files]]
 file = "mods/.index/fugue.pw.toml"
-hash = "d9c7ca2bb3dca9aaf8f5e557cb9d508b0d6552df7829df625671210dcc571528"
-alias = "mods/+Fugue-0.23.4.jar"
+hash = "f94f142ad38f5e9c45c336ea6e6ea9f8cca0e746373a395f746c30d67acd1e42"
+alias = "mods/+Fugue-0.23.7.jar"
 metafile = true
 
 [[files]]
 file = "mods/.index/future-mc.pw.toml"
-hash = "1b84ef8a1599790662fc26d83967df8d17c08d757fc22d89e7178e202a0e30db"
+hash = "b1e98c1429496227b389e0d1069d220ee7f72c20540618369a677bbe9c5d43f0"
 alias = "mods/Future-MC-0.2.21.jar"
 metafile = true
 
@@ -1063,12 +1093,6 @@ alias = "mods/gravestone-1.10.3.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/groovyscript.pw.toml"
-hash = "f7ce647dc8ba9922b8a7c10fd0f27dcba1841ed7e0c1600fc5e092735c508201"
-alias = "mods/groovyscript-1.4.3.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/guide-api.pw.toml"
 hash = "a4fb4b385e0a93a3bfaf826d7a4d24339afefeb445208fc1361f79fcdf4649ba"
 alias = "mods/Guide-API-1.12-2.1.8-63.jar"
@@ -1088,14 +1112,14 @@ metafile = true
 
 [[files]]
 file = "mods/.index/had-enough-items.pw.toml"
-hash = "72b16d9e7bf2cfa3627b725154aaf4ddd810e0bab24d030dedf607b209cff413"
-alias = "mods/HadEnoughItems_1.12.2-4.31.2.jar"
+hash = "be7ed8bbf07cdfad6ea2c8a47fe4d77af95e2775e91c0bd456520f7bfd953a5a"
+alias = "mods/HadEnoughItems_1.12.2-4.34.3.jar"
 metafile = true
 
 [[files]]
 file = "mods/.index/hammer-lib.pw.toml"
-hash = "c541562c9744d827a19b6dd27c08ef95703ebabb2c93631f446ac2d1c83d9dd5"
-alias = "mods/HammerLib-1.12.2-12.2.58.jar"
+hash = "fec05b0f80d44438e20b2028ac97c5992bda7acc99c68405d9c85797f76b31d5"
+alias = "mods/HammerLib-1.12.2-12.2.66.jar"
 metafile = true
 
 [[files]]
@@ -1129,12 +1153,6 @@ alias = "mods/IFPatcher-2.4.0.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/igiexteneded.pw.toml"
-hash = "dea989e6f032d83a2f45b6fced561b959eb55ab5e16b856d196d759eed57ecf1"
-alias = "mods/IGIExtended-1.12.2-1.1.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/in-control.pw.toml"
 hash = "d92b4f84720af5511e32d46458db79b61b994035b92c7993547463ef686e6e14"
 alias = "mods/incontrol-1.12-3.9.18.jar"
@@ -1147,27 +1165,9 @@ alias = "mods/industrialforegoing-1.12.2-1.12.13-237.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/ingame-info-xml-addon-blood-magic.pw.toml"
-hash = "bd19cf8122281dde2ff71008c5f6473b13c662a150b4761bb34f48fe9d1a472b"
-alias = "mods/IGI-BloodMagic-1.2.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/ingame-info-xml-addon-thaumcraft.pw.toml"
-hash = "71741b15eca8f47506d49a5e48c67004b7361c473442176067e4f3181d587560"
-alias = "mods/IGI-Thaumcraft-1.0a.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/ingame-info-xml-serene-seasons.pw.toml"
-hash = "7de26edf3a97e42fa6f21ebe2f63774b54850521c6ee3090b7c91b8a48ffc4d9"
-alias = "mods/igisereneseasons-1.0.0.1.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/ingame-info-xml.pw.toml"
-hash = "77ca17f4ad94df0eebaa8ac262eb61c5165135a612c41b844f673d5569e0dad0"
-alias = "mods/InGameInfoXML-1.12.2-2.8.2.94-universal.jar"
+file = "mods/.index/ingame-info-xml-canoeedition.pw.toml"
+hash = "32f448b94e0f6de6ccc1bc0a61c0e94f858fdf9c86d4efeea6e206d1682a55c6"
+alias = "mods/ingameinfoxml-3.0.0.20.jar"
 metafile = true
 
 [[files]]
@@ -1178,14 +1178,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/inventory-bogosorter.pw.toml"
-hash = "c1a65bee26e630d4b9b98b9132e8cf735e35226c94f653748807f21a72937cca"
+hash = "dc0d452c0dd9297a2b38f972b5845933b4c493536029f1022cf892543b41d293"
 alias = "mods/bogosorter-1.6.4.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/invmove-forge.pw.toml"
-hash = "b5126c15d6f3dfdf15a318e5cfa40e4d0eefef69a54be6ed478165ce962b1562"
-alias = "mods/InvMove-1.12.2-0.4.6.jar"
 metafile = true
 
 [[files]]
@@ -1195,9 +1189,9 @@ alias = "mods/IonChests-1.0.0.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/iron-chests.pw.toml"
-hash = "a163c8b589d27e0f26f2833457d148800d5d91c7e58373ac7babd057babe7122"
-alias = "mods/ironchest-1.12.2-7.0.72.847.jar"
+file = "mods/.index/iron-chests-with-netherite-chest.pw.toml"
+hash = "b239bc8e87335bcd1dacba35e8734c724a1f3e259d390440e2240a126dd7f11b"
+alias = "mods/ironchest-netherite-1.12.2-1.0.2.jar"
 metafile = true
 
 [[files]]
@@ -1232,7 +1226,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/jei-area-fixer.pw.toml"
-hash = "4795d056bc1e3ae139b9a9931f52b019fc68609ba93b2e9e8b95e5d44d1a5a7e"
+hash = "29b0a0dfbaa2f0f5357facfe5b11dbc65de7054515a7f7669be7b95889985517"
 alias = "mods/jei_area_fixer-2.4.0.jar"
 metafile = true
 
@@ -1252,6 +1246,12 @@ metafile = true
 file = "mods/.index/just-enough-calculation.pw.toml"
 hash = "b5a84c2a64b2f62c5fe8264e9d59af0de5bbd41125237d22c2b116a8b2afc24d"
 alias = "mods/JustEnoughCalculation-1.12.2-3.2.7.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/just-enough-characters.pw.toml"
+hash = "5e8429b0437792ddb71a53d6d198ef702ed042681a25fee7668ad36e1556afaa"
+alias = "mods/jecharacters-1.12.0-3.7.3.jar"
 metafile = true
 
 [[files]]
@@ -1310,8 +1310,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/lazy-ae2-patch.pw.toml"
-hash = "09da7ad9a39d400c65a2cd7f3912d0dd42847c8481bfb4be0bdd3a495ba6ee5e"
-alias = "mods/lazy-ae2-patch-1.2.1.jar"
+hash = "aa881a0ade03025503f21eec708134f82f6de7f392a8dea81c74f13ec82960f3"
+alias = "mods/lazy-ae2-patch-1.2.2.jar"
 metafile = true
 
 [[files]]
@@ -1352,13 +1352,13 @@ metafile = true
 
 [[files]]
 file = "mods/.index/loadingscreen.pw.toml"
-hash = "3e80af15583256b44cd2446e6d80987274c0e17589205fbf5ec90a0f3a9dae62"
+hash = "419593df591bceda7d01aa91d2c1c5529b5f56744ce75e8dc0a826cff4145da0"
 alias = "mods/loadingscreens-1.0.1.jar"
 metafile = true
 
 [[files]]
 file = "mods/.index/lolasm.pw.toml"
-hash = "9385220744887626601e90b6f044b38414412152f7902f7c0be443fbe381b064"
+hash = "fd656cd0888e3e175a44a5680756e1524147d1f75522f71ee2a1da46a4c14a65"
 alias = "mods/loliasm-5.33.jar"
 metafile = true
 
@@ -1393,12 +1393,6 @@ alias = "mods/lostcities-1.12-3.0.0.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/lunatriuscore.pw.toml"
-hash = "24cfbe64640f66d4f4e8a963b08e4384b4d10e07068e499f4d4db710bacc3bdb"
-alias = "mods/LunatriusCore-1.12.2-1.2.0.42-universal.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/lycanites-mobs.pw.toml"
 hash = "cd60f16a280a3387eb51793c119d0b8a7d926ed9d1769f7123e1a6c8abc2c582"
 alias = "mods/lycanitesmobs-1.12.2-2.0.8.10.jar"
@@ -1424,14 +1418,32 @@ metafile = true
 
 [[files]]
 file = "mods/.index/mct-smeltery-io.pw.toml"
-hash = "56e53db4a172394d6aa152a958d4ff4964c8f0e3559150d450221d4c3cb01fb5"
-alias = "mods/MCT-SmelteryIO-1.12.2-1.3.70.jar"
+hash = "1c91952bad53c67f486f099d2e16d089d60e27f4dfa5578b02f0c4c2b6c2d178"
+alias = "mods/MCT-SmelteryIO-1.12.2-1.3.71-release.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/mekanism-ce-unofficial.pw.toml"
+hash = "89e45fbbe96ec2e636412a58c9c127cdf614ea42d0e6b9081b702d61404f7d2e"
+alias = "mods/Mekanism-CE-Unofficial-All-10.0.3.555.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/mekanismceu-ae-upgrade.pw.toml"
+hash = "27c51cb61b5fd71681bc474804e495161d8e397367025d78475e3126c4523e23"
+alias = "mods/MekanismCeu-AE-Upgrade-1.2.0.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/mekanismceu-moremachine.pw.toml"
+hash = "067d8077f2ffd06e3a859ca62a47398b0a86d4e18084ea80431f7f34c7b9b04e"
+alias = "mods/MekanismCeU-MoreMachine-1.8.0.jar"
 metafile = true
 
 [[files]]
 file = "mods/.index/mekanismmixinhelp.pw.toml"
-hash = "256f88b0d82792eab90a44cd15659f2f7ae694f28dc68fed35e59f8083a3ed88"
-alias = "mods/MekanismMixinHelp-1.1.2.jar"
+hash = "7a0a99e6c7f1135a892881cc21408551f9b2ec931a417af9e5ce16582d833e27"
+alias = "mods/MekanismMixinHelp-1.2.0.jar"
 metafile = true
 
 [[files]]
@@ -1448,8 +1460,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/mmmmmmmmmmmm.pw.toml"
-hash = "df3a73ca411fa24da46a8ba2d87e87624219e1f5812cbbb2289010b8f8aea87e"
-alias = "mods/MmmMmmMmmMmm-1.12-2.0.6.jar"
+hash = "b003a042d2152a6c72bb4a04e1086e61b2af53d2aa046b09eca26fa1889eac7e"
+alias = "mods/MmmMmmMmmMmm-1.12-2.0.7.jar"
 metafile = true
 
 [[files]]
@@ -1471,21 +1483,9 @@ alias = "mods/modnametooltip_1.12.2-1.10.1.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/modernsunspirit.pw.toml"
-hash = "67bae4ef8cf8dd92a28073d5a6ddd43683888e5ee29e12addd5f7d7b6f2daaba"
-alias = "mods/ModernSunSpirit-1.3.0.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/modtweaker.pw.toml"
-hash = "37c50bd705bd4436e945e9b49cd1fc6c2aa356a2dd2339fb06a1dbb6494a4c89"
-alias = "mods/modtweaker-4.0.20.11.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/modular-machinery-community-edition-addons.pw.toml"
-hash = "abb8d12671aa9a96a7e5ffac2968ca0d75719ce297dc9d4b46d73834ca46c9fd"
-alias = "mods/ModularMachinery-Addons-2.0.2.jar"
+file = "mods/.index/modtweaker-community-edition.pw.toml"
+hash = "dc7189f5fbcdab2b5bdbd0a9f9c80ad801014028478944983e6cd75c4361857a"
+alias = "mods/modtweaker-5.0.010.jar"
 metafile = true
 
 [[files]]
@@ -1496,14 +1496,14 @@ metafile = true
 
 [[files]]
 file = "mods/.index/modularmachinery-community-edition-complement.pw.toml"
-hash = "6a2ec39e6e0e52e030495e5962d41ab9b330852e585f85406c8bae521412fe15"
-alias = "mods/mmce_complement-1.0.0.jar"
+hash = "36120bb7ecb7dd3675cd3b93839b129895e3a5b8e642afff7d32a331456be1eb"
+alias = "mods/mmce_complement-1.3.3.jar"
 metafile = true
 
 [[files]]
 file = "mods/.index/modularmachinery-terminal.pw.toml"
-hash = "46c579006d006d618d7055e6b9730eac3370f8fbfc6b480e47d54f432027359a"
-alias = "mods/modularmachinery_terminal-1.0.1.jar"
+hash = "1803ed616a61feaba1da4952a36abbe20b5a90c381e923000dd2355019253ed3"
+alias = "mods/modularmachinery_terminal-1.0.3.jar"
 metafile = true
 
 [[files]]
@@ -1526,7 +1526,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/mouse-tweaks-unofficial.pw.toml"
-hash = "e8c4b5bb4e63e3edb35019f264a55e9f66d8a89f34083113798bc25df326757e"
+hash = "c0040970e6282674615483eb4d018bfaa5c1f6d28b2d30fba7440589a76c55d8"
 alias = "mods/mousetweaks-1.12.2-3.1.5.jar"
 metafile = true
 
@@ -1544,8 +1544,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/mutant-creatures-legacy.pw.toml"
-hash = "fb55fc89fb8697eb814db43a8389b4a86b47ffb0c1cf47c339c85712e59269d4"
-alias = "mods/MutantCreaturesLegacy-1.12.2-1.0.3.jar"
+hash = "c3b2f23fc6821d27f297e87f0c0838b7aa6192fbb0d9c725811ce9538d031a9f"
+alias = "mods/MutantCreaturesLegacy-1.12.2-1.0.4.jar"
 metafile = true
 
 [[files]]
@@ -1592,8 +1592,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/natura-legacy.pw.toml"
-hash = "d0a7212fc69572536c56045c924c642d6334d0e43cfbffd6fc2452ae1c97aeff"
-alias = "mods/natura-legacy-1.12.2-4.4.1.jar"
+hash = "e33c0ca8dff0b57891ba4731071933c8095f9293a3ef7d081328235cdb64570b"
+alias = "mods/natura-legacy-1.12.2-4.6.1.jar"
 metafile = true
 
 [[files]]
@@ -1616,14 +1616,14 @@ metafile = true
 
 [[files]]
 file = "mods/.index/nether-api.pw.toml"
-hash = "584984658809651471d8bb87d626e2a7a6ae04c6b1ea059d9facdcb6e2726e3e"
-alias = "mods/Nether-API-v1.4.2-mc1.12.2.jar"
+hash = "6dd299baec3ce9332cf393f4291a27276da6865c09ecebff7fb93af740818a44"
+alias = "mods/Nether-API-v1.4.5-mc1.12.2.jar"
 metafile = true
 
 [[files]]
 file = "mods/.index/nether-s-delight-legacy.pw.toml"
-hash = "2b92720fa7bc44bc4835be49f18568bc42736a5245e47ea3ee913e7626e458eb"
-alias = "mods/nethers-delight-legacy-1.0.3.jar"
+hash = "4d85bc806ef5cfddd62e38470f431582131a90e0196468c192d5bfa8c264fc00"
+alias = "mods/nethers-delight-legacy-1.0.5.jar"
 metafile = true
 
 [[files]]
@@ -1640,7 +1640,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/new-crimson-revelations.pw.toml"
-hash = "3c28276047b8c1d63a67a504d52b0ac0d4ab1e52f978586d7889219f695c963b"
+hash = "55bde1330473294af31307589c870883b86b481d7a0c1f6a9394df17dab7e635"
 alias = "mods/New-Crimson-Revelations-1.12.2-1.5.3.jar"
 metafile = true
 
@@ -1682,8 +1682,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/onlyoneitem.pw.toml"
-hash = "01905b3dface88e41a7f6d50f7c711ddc8e86fe51e7d31d788d831500c0d539c"
-alias = "mods/only_one_item-1.2.4.jar"
+hash = "b27065558d8cf5939b3d60e62e92153fb609c1be39bb38c2da14f867b447f90d"
+alias = "mods/+only_one_item-1.3.2.jar"
 metafile = true
 
 [[files]]
@@ -1717,15 +1717,21 @@ alias = "mods/OreLib-1.12.2-3.6.0.1.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/p2pdetails.pw.toml"
-hash = "98a67841ad2bf1f116b8220300df8ddb8c011517a2a6dc7f14bf771fc311f7b5"
-alias = "mods/p2pdetails-1.0.4.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/packagedastral.pw.toml"
 hash = "7bd63f5e88288a7b914450a004e1974e84c61fa2d3b1a92f72e3c8fd67c76e8e"
 alias = "mods/PackagedAstral-1.12.2-1.0.5.24.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/packagedauto-acceleration.pw.toml"
+hash = "cb860c7a88ca18194159a79ea85ad2e57c5413eebd68d1e530200eaa6c0e1e78"
+alias = "mods/packaged_acceleration-1.0.1.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/packagedauto-wireless.pw.toml"
+hash = "d3d85d9a9da1d5a4744237acbde96ed7b73f84e0bc452cde94e97a6df5bc0477"
+alias = "mods/packagedautowireless-1.0.1.jar"
 metafile = true
 
 [[files]]
@@ -1756,12 +1762,6 @@ metafile = true
 file = "mods/.index/packagedfluidcrafting.pw.toml"
 hash = "473c6de8a18bb4307d703409a55dde14752a254e2ed77ecf31dd72d2ddc57d3c"
 alias = "mods/PackagedFluidCrafting-1.12.2-1.0.0.3.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/packagedthaumic.pw.toml"
-hash = "111c435e4c9ee6d8b72e8dbdafde071d26137ba20543c493a569b16e4ff27394"
-alias = "mods/PackagedThaumic-1.12.2-1.0.3.20.jar"
 metafile = true
 
 [[files]]
@@ -1813,15 +1813,9 @@ alias = "mods/Pewter-1.4.3.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/placebo.pw.toml"
-hash = "41a451553662f65051cfd438dcf389e3eaf28e0842a4cd651dd76b8733f130e6"
-alias = "mods/Placebo-1.12.2-1.6.1.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/planar-artifice-reflected.pw.toml"
-hash = "3171c619e1bd4458a47d14e802e249b8dc8309af50d63c2018bdd9725c1ec553"
-alias = "mods/planarartifice-2.0.3.jar"
+hash = "8f91a7ea4113b2412db965de3df288fa04ee43554e7d2edf4e4612e8b9e11d20"
+alias = "mods/planarartifice-2.0.4.jar"
 metafile = true
 
 [[files]]
@@ -1844,8 +1838,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/prefab.pw.toml"
-hash = "13d4ee37bd8b2c63a26d35a423e801fc07c82d18f7e1ab939f0af79c2e2c312a"
-alias = "mods/prefab-1.3.1.7.jar"
+hash = "ea299de7746d2b1c5aa42809f1b20de83028e47e4d7afbd9926c60f9d15e8ff7"
+alias = "mods/prefab-1.3.1.8.jar"
 metafile = true
 
 [[files]]
@@ -1892,8 +1886,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/quantum-things.pw.toml"
-hash = "b43fca176e5a7f2abf7cd5edc2cdbdc28f2598bae1db1841b6323c407d29f2ad"
-alias = "mods/QuantumThings-MC-1.12.2-1.2.0.jar"
+hash = "ff5cc67945512beab2726244cbea510940c822265314a237589b29444f58e9bc"
+alias = "mods/QuantumThings-MC-1.12.2-1.3.0.jar"
 metafile = true
 
 [[files]]
@@ -1904,14 +1898,14 @@ metafile = true
 
 [[files]]
 file = "mods/.index/random-complement.pw.toml"
-hash = "5e8e8208d9ee547fc4b0d05f32ea9b40d1fe9f112973af0332d5566a9b393092"
-alias = "mods/random_complement-1.9.2.jar"
+hash = "e55d52d530b0da454fdcf00f29cc4c1686fc72702ec620ece62532e067875f27"
+alias = "mods/random_complement-1.9.5.jar"
 metafile = true
 
 [[files]]
 file = "mods/.index/randomtweaker.pw.toml"
-hash = "f8a38353f4216e495767b25683231bcd57da51d2b41281ce2e6fae3684c07af5"
-alias = "mods/RandomTweaker-1.4.10.jar"
+hash = "d5d472c5b51d55051e1dbfbb9fa270467ae5ca52f92689d5622972cd0ba3cc65"
+alias = "mods/RandomTweaker-1.4.11.jar"
 metafile = true
 
 [[files]]
@@ -1946,8 +1940,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/recurrent-complex.pw.toml"
-hash = "a54544531473f1e045c67847afcf9e76ba7476e97009d44de284ea76569ca975"
-alias = "mods/RecurrentComplex-1.4.8.6.jar"
+hash = "9eb929e89edd326426ab4d11d1693079f754affebcf64c04daa60a359b181b8f"
+alias = "mods/RecurrentComplex-1.4.8.7.jar"
 metafile = true
 
 [[files]]
@@ -1982,7 +1976,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/reid.pw.toml"
-hash = "f99f0163dafbb6410af47e6e31d0b9cc4336a21ff39ffdf681f173622db01312"
+hash = "a98fee183e27f3e69b1bd79d887e367cf9bf4a2d415c13a84dd73317500bc9b6"
 alias = "mods/RoughlyEnoughIDs-2.3.1.jar"
 metafile = true
 
@@ -2006,8 +2000,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/retro-sophisticated-backpacks.pw.toml"
-hash = "e776ce9c091e496f9cab1897de33b1d3179df792a3480dbbb6fba40e0afd71c3"
-alias = "mods/Retro-Sophisticated-Backpacks-1.1.1.jar"
+hash = "8524f930a95745556efbbf362e280550c3a0d39bcd994c216e05fed53e9e3960"
+alias = "mods/Retro-Sophisticated-Backpacks-1.1.4.jar"
 metafile = true
 
 [[files]]
@@ -2018,7 +2012,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/roid-s-tweaker.pw.toml"
-hash = "4fed2e5b4af2ac55946ed125c456270b303f5f4f4f3982a55be0ce5da24b1736"
+hash = "60663435d8832403de923b5cd6535c908cfa3f506c35d97c4f0149c32cf1af5e"
 alias = "mods/roidtweaker-1.3.1.jar"
 metafile = true
 
@@ -2042,8 +2036,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/sakura-reforged.pw.toml"
-hash = "6a90cf64c7606a9cc839b56faf5e9d19df4cf9bd00a4a18db6c5bc2370880f7d"
-alias = "mods/sakura-1.1.4.jar"
+hash = "a78d767dbd57d6ca072c2a6febc07d0713265722a965ba5e6f26eed68bb82681"
+alias = "mods/sakura-1.2.0.jar"
 metafile = true
 
 [[files]]
@@ -2090,7 +2084,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/shoulder-surfing-reloaded.pw.toml"
-hash = "3c1460451ad6d9561b8b4efa7eb021d5c737e3b9d8589ed829fc17c2a17371d0"
+hash = "139c6401bda06b7dddbb4d2e7b6f5fdb965121d48634dfd2c1fbd533a05d05f7"
 alias = "mods/ShoulderSurfing-1.12.2-2.9.6.jar"
 metafile = true
 
@@ -2102,7 +2096,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/smooth-font.pw.toml"
-hash = "47894d4ae1ffa28f271682ed8e62365d23a9a72fe71689118468344d8d083132"
+hash = "6a8d949a749e2f9c6d02387b779a40123e19c0c0283f211acc4e2c77f7694d14"
 alias = "mods/SmoothFont-mc1.12.2-2.1.4.jar"
 metafile = true
 
@@ -2126,14 +2120,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/sound-physics-remixin.pw.toml"
-hash = "8c29030528687ec97def20019f130742d2ee26eaacb00b71add9ea3b9233cbd9"
-alias = "mods/soundphysics-1.1.17.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/spatialcompat.pw.toml"
-hash = "734d7b7d9d725c56cab491786c913316bf547b33f52bafb9cacd16303ebbff87"
-alias = "mods/spatialservermod-1.3.1.jar"
+hash = "e24239cda0600434550cd3db5f8fb1676e264ddc787f4d134bc902a654e9557d"
+alias = "mods/soundphysics-1.2.1.jar"
 metafile = true
 
 [[files]]
@@ -2162,7 +2150,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/stuff-a-sock-in-it.pw.toml"
-hash = "7ed504181cf26d2d68abb193a16d742052ec6990236d00921d3c26ff2f0220b0"
+hash = "28bb5484fe528c00bf0d37c996f9ecd51941916816b92b0f8613e5268314ff1d"
 alias = "mods/StuffASockInIt-1.12.2-1.1.32.jar"
 metafile = true
 
@@ -2174,14 +2162,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/super-mob-tracker.pw.toml"
-hash = "7012ab8ff8fa0028442f121fd09d138d5518ec0b7fbec8688b2cbacb1a9123d9"
-alias = "mods/supermobtracker-1.2.5.jar"
-metafile = true
-
-[[files]]
-file = "mods/.index/supreme-crafting-backport.pw.toml"
-hash = "b100a42d31bad8a0ee20403021c521662c6b15f83d9f2d696576d00490fbe93b"
-alias = "mods/supreme_crafting-1.0.1.jar"
+hash = "2496a55a8c8520c84f2dce36f2ea7b6dd40cafd283ecb8e109ab3254b84ce951"
+alias = "mods/supermobtracker-1.4.1.jar"
 metafile = true
 
 [[files]]
@@ -2191,9 +2173,21 @@ alias = "mods/TAIGA-Replant-Replant(1.0.0-beta).jar"
 metafile = true
 
 [[files]]
+file = "mods/.index/terminal-interaction-integration.pw.toml"
+hash = "4000202207b9f3bfb81641a752171551a1647c1bd0fa28613138d6e9a9c12423"
+alias = "mods/terminal_interaction_integration-1.2.2.jar"
+metafile = true
+
+[[files]]
 file = "mods/.index/tesla-core-lib.pw.toml"
 hash = "77998f202a8add270517a447379ddb78bf15278a9f48ca735d7ba9b5034c2d93"
 alias = "mods/tesla-core-lib-1.12.2-1.0.18.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/thaumcraft-aspect-annotations.pw.toml"
+hash = "3ac694ff22ec27ec8ea9cb34ff62c3fcab57af902d2f9a09a8ff30a662402392"
+alias = "mods/thaumcraftaspectannotations-1.0.0.jar"
 metafile = true
 
 [[files]]
@@ -2222,13 +2216,13 @@ metafile = true
 
 [[files]]
 file = "mods/.index/thaumcraft6-research-helper.pw.toml"
-hash = "c61714b9936e57f7739d931c90845d937309442a1ef2a6622ba7bfcef0d92605"
+hash = "3165789efdea74feef7fb71a0c8d9f2abb790cf780c0ed4e7549eb9248001361"
 alias = "mods/researchhelper-1.0.0.jar"
 metafile = true
 
 [[files]]
 file = "mods/.index/thaumcraftfix.pw.toml"
-hash = "6aa804f9eb766977c663cda36881c112b132e1009411cabc1c168eb8980cd89a"
+hash = "2e4a8c6e8ce270a65ccf26b7dd3425e8a2e52040c04772e953b277d11b9c85c9"
 alias = "mods/ThaumcraftFix-1.12.2-1.1.11.jar"
 metafile = true
 
@@ -2246,8 +2240,14 @@ metafile = true
 
 [[files]]
 file = "mods/.index/thaumic-concilium-kedition.pw.toml"
-hash = "f12d3ca3b7e45804515d30eacbb01de69c1c0bb56c9b4db86648b72d5f3d86d7"
-alias = "mods/thaumicconcilium-1.2.1.jar"
+hash = "04cfd9e7c31845ae51a5cb4e01193b7ff8c02c7033ed3302f6c28a75cf061bf3"
+alias = "mods/thaumicconcilium-1.2.3.jar"
+metafile = true
+
+[[files]]
+file = "mods/.index/thaumic-energistics-interaction.pw.toml"
+hash = "24d5ae8f81fa409b39d775044d6f5e7a5c5f2c92ab0aed54cf0cf195209ed2d1"
+alias = "mods/thaumic_energistics_interaction-1.0.1.jar"
 metafile = true
 
 [[files]]
@@ -2258,26 +2258,26 @@ metafile = true
 
 [[files]]
 file = "mods/.index/thaumic-information.pw.toml"
-hash = "727e3ad15fac0ca2ad9bad05918fc394727361d464a2a9eab2b690d5e8d53270"
-alias = "mods/thaumicinfo-1.1.2.jar"
+hash = "9240f33bc9456721645ea7134ace096befcde2fa03653344958e863e094dd997"
+alias = "mods/thaumicinfo-1.2.1.jar"
 metafile = true
 
 [[files]]
 file = "mods/.index/thaumic-speedup.pw.toml"
-hash = "e9fe023090ab4a3bca37af5bcbb23c524f42d55f96c1e5c7205e8ef244b092ca"
+hash = "5edb5dfcb43ea69d35ffa63739852848d743a8955a5c775f4507eb0b09a9dfaa"
 alias = "mods/thaumicspeedup-5.0.jar"
 metafile = true
 
 [[files]]
 file = "mods/.index/thaumic-wonders-unofficial.pw.toml"
-hash = "d976b0949a9cbc1669a6b9793c373253892c35db02381ad021c8b3477d95c2ed"
-alias = "mods/thaumicwonders-2.2.4.jar"
+hash = "deb5c9df20698b62705466a28b3aa16034dd1328c07b9eb667bafda63f82e17c"
+alias = "mods/thaumicwonders-2.3.4.jar"
 metafile = true
 
 [[files]]
 file = "mods/.index/thaumicapi.pw.toml"
-hash = "410796e226c9ff6cd36022081ba6571475600c00df3463df17880b8717a51dd6"
-alias = "mods/thaumicapi-1.1.0.jar"
+hash = "8f0ef19c16b9ead9236cb679f642338b191949552f8e77685b5700160a9ca97f"
+alias = "mods/thaumicapi-1.1.4.jar"
 metafile = true
 
 [[files]]
@@ -2288,8 +2288,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/the-one-probe-community-edition.pw.toml"
-hash = "70a9d7b2b2f44b5f39aedcedc4cf36f9e1fd0f47cc37a7751cdee7443e5175c8"
-alias = "mods/TheOneProbe-CE-1.12-1.3.7-fix1.jar"
+hash = "9ff266352d2bcd194aeb8d62eda10ba8ba9e2c6f553fdd8891e0fbd125fa9031"
+alias = "mods/TheOneProbe-CE-1.12-1.3.9.jar"
 metafile = true
 
 [[files]]
@@ -2354,8 +2354,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/tinkers-antique.pw.toml"
-hash = "26715163a7fb383dc32509937f7bfa4dd2fb5f2848ab7cf44cd76578cb5143ed"
-alias = "mods/TinkersAntique-1.12.2-2.13.0.207.jar"
+hash = "74537f8874d3a7849026669e12e2400667de89d2d61376bce25eca0dd3e17774"
+alias = "mods/TinkersAntique-1.12.2-2.13.0.208.jar"
 metafile = true
 
 [[files]]
@@ -2378,8 +2378,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/tinkers-planner-antique.pw.toml"
-hash = "a7676e500deeb1662d886565b2f44dbcecc1d57bc7ab0af41a7b4ed03b38285d"
-alias = "mods/TinkersPlannerAntique-1.12.2-1.0.3.jar"
+hash = "1b9a70906f0f3af6ec33982e5302094e9dcaf4f64af47b6db3cb03378dded300"
+alias = "mods/TinkersPlannerAntique-1.12.2-1.2.0.jar"
 metafile = true
 
 [[files]]
@@ -2390,7 +2390,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/tips.pw.toml"
-hash = "3b7e028cef4b569299055a07adcddd45f2a79f7362520bca13a9593b8a32b986"
+hash = "abfde4ccbfd86fa0163cf95d6ddc7f6e3adf9d79f0bf58ae312f5f92745ad5bd"
 alias = "mods/Tips-1.12.2-1.0.9.jar"
 metafile = true
 
@@ -2414,8 +2414,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/topalldependents.pw.toml"
-hash = "9c188abc99f5b0969161bf8aa618c6fb83ca81bb558bcc03e43e3cf9b8e4c45d"
-alias = "mods/TopAllDependents-1.4.jar"
+hash = "d9e3cd833aab2713d72bcdc695ebcb0b56a8ac2ca9ef1a479ccd05691c5009bd"
+alias = "mods/TopAllDependents-1.5.jar"
 metafile = true
 
 [[files]]
@@ -2432,7 +2432,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/torohud.pw.toml"
-hash = "2ade27843abde34d2d04aedf153f86e592bc167175c77b8670e01acb0411e382"
+hash = "743a34493914804300298972c48b844fc084e1f503fc10b19668bf5a49d935f2"
 alias = "mods/torohud-1.12.2-5.jar"
 metafile = true
 
@@ -2455,12 +2455,6 @@ alias = "mods/treetweaker-1.6.1.jar"
 metafile = true
 
 [[files]]
-file = "mods/.index/trinity-unofficial.pw.toml"
-hash = "58113025d5efeeeed2816d2748522aa5cba351fa5fa0b57db6958db7113607aa"
-alias = "mods/Trinity-Unofficial-1.12.2-1.6.a.jar"
-metafile = true
-
-[[files]]
 file = "mods/.index/tumbleweed.pw.toml"
 hash = "f46f7fc546a46280874e01ebdc94f5524d990902c43d138a38d6e83b70d66144"
 alias = "mods/tumbleweed-1.12-0.4.7.jar"
@@ -2474,8 +2468,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/twilight-delight-legacy.pw.toml"
-hash = "35dee00cbb289d017da885d6cfb34174f46a5f90d1db6039aaf829b4eb13058c"
-alias = "mods/TwilightDelightLegacy-1.0.2.jar"
+hash = "855a10e84447417bde9734b6b89e153e24fe40661bee17b0c773116b5f18f447"
+alias = "mods/TwilightDelightLegacy-1.2.0.jar"
 metafile = true
 
 [[files]]
@@ -2498,14 +2492,14 @@ metafile = true
 
 [[files]]
 file = "mods/.index/universal-tweaks.pw.toml"
-hash = "0a36b807f8e524828c6875c469c953d994fa57d0793fd4960c18d09073ee7562"
+hash = "d4dcdf1bb9ed2e5679720ada2bb02160e309f9987ffaf78ff9d2506f30526e36"
 alias = "mods/UniversalTweaks-1.12.2-1.20.1.jar"
 metafile = true
 
 [[files]]
 file = "mods/.index/unseens-dungeon-additions.pw.toml"
-hash = "d38ed78a28dea94df3ab0cc9a6b4a42bc01c01fd7f933bc4d6b755d38b733b1d"
-alias = "mods/unseens-dungeon-additions-1.7.2.jar"
+hash = "5d7cc32f29c50bbb82fc12a8cf6283c8977202e44d1ec40e0121d3260f13f533"
+alias = "mods/unseens_dungeon_additions-1.7.4.1.jar"
 metafile = true
 
 [[files]]
@@ -2570,14 +2564,14 @@ metafile = true
 
 [[files]]
 file = "mods/.index/xnet-additions.pw.toml"
-hash = "47e14ea1aaee1979c1a008f771c3c83575897bfd1f176629926364a5ef239557"
+hash = "680006a97b87a79a8d65ec53db5641b66c4ea8b9002aadf20000f3904e7c31a3"
 alias = "mods/XNetAdditions-0.1.6.jar"
 metafile = true
 
 [[files]]
 file = "mods/.index/xp-orb-clump.pw.toml"
-hash = "8cf0232ae467290867def9d6d99e8de4721181d054681e28fc0e4a3810d09234"
-alias = "mods/Fixeroo-2.3.6.jar"
+hash = "2e9b4989e136a14a690f94a489d00d3fb5352504469c2e4d2335b7972026d14a"
+alias = "mods/Fixeroo-2.3.7.jar"
 metafile = true
 
 [[files]]
@@ -2588,8 +2582,8 @@ metafile = true
 
 [[files]]
 file = "mods/.index/ymadditions.pw.toml"
-hash = "acc643944f9e291bad2e423c63002c673233fc0a11831d028bb81a435488e01c"
-alias = "mods/YM-Additions-0.2.0.jar"
+hash = "b3d89557d9e3133b1f6e307cd731b260383442610f06b1ded554cbabc1dced33"
+alias = "mods/YM-Additions-0.2.1.jar"
 metafile = true
 
 [[files]]
@@ -2618,19 +2612,19 @@ metafile = true
 
 [[files]]
 file = "mods/.index/zenutil.pw.toml"
-hash = "43063c2b3d30742a1285fa890fac8c943638d1296d6500dca3fab47d8e46bce8"
-alias = "mods/zenutils-1.27.3.jar"
+hash = "edcb7f9fcb55a0317d147d0c78539dff634f73b48079c1bbcb3181536dd2c684"
+alias = "mods/zenutils-1.28.3.jar"
 metafile = true
 
 [[files]]
 file = "mods/.index/znet.pw.toml"
-hash = "3aa9a8d27e86eb24b2fdb4facc8979ebaaa8f64b2c84b93859d4acf5bd12cf76"
-alias = "mods/XNet-1.8.20.jar"
+hash = "f03939f26e4cc3b63481a90c56c89922ecd8c76856656e2dac09164103c18081"
+alias = "mods/XNet-1.8.22.jar"
 metafile = true
 
 [[files]]
 file = "resourcepacks/Dark Mode-2.4.0.zip"
-hash = "c19edb3f71c0ace084e693a2f696d6957d68c61a37fa45ecb0db3723be1dcd44"
+hash = "7f58f7bdc3fcabd01f38341d0464f6ce8ccfd8e60bdfc837145dc65b78e4d755"
 
 [[files]]
 file = "resourcepacks/Dark Modern GUIs - 1.0.2.zip"

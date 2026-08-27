@@ -1,0 +1,34 @@
+{
+	title: "§b再大一号的",
+	x: 8.5d,
+	y: 6.0d,
+	description: "合成尼德威阿尔魔力池",
+	text: [
+		""
+	],
+	dependencies: [
+		"890c300a"
+	],
+	tasks: [{
+		uid: "a0921d38",
+		type: "item",
+		items: [{
+			item: "gctcore:gct_mana_pool 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "edc429dd",
+		type: "item",
+		item: "gctcore:gct_mana_pool 1 1"
+	},
+	{
+		uid: "714df97d",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "83bf2b51",
+		type: "xp",
+		xp: 2000
+	}]
+}

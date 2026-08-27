@@ -83,7 +83,7 @@ function exChance(ctrl as IMachineController) as float {
 MMEvents.onStructureUpdate("basic_miner", function(event as MachineStructureUpdateEvent) {
     val ctrl as IMachineController = event.controller;
     val bx = getParallelism(ctrl) as int;
-    ctrl.customData = {bx: bx};
+    ctrl.customData = {bx: bx,ex: exChance(ctrl)};
 });
 
 MMEvents.onStructureUpdate("advanced_miner", function(event as MachineStructureUpdateEvent) {
@@ -134,7 +134,7 @@ MMEvents.onStructureUpdate("advanced_miner", function(event as MachineStructureU
         }
     }
 
-    ctrl.customData = {bx: bx,dims: list};
+    ctrl.customData = {bx: bx,dims: list,ex: exChance(ctrl)};
 });
 
 MMEvents.onStructureUpdate("dimensional_miner", function(event as MachineStructureUpdateEvent) {
@@ -144,7 +144,7 @@ MMEvents.onStructureUpdate("dimensional_miner", function(event as MachineStructu
     if (isNull(ctrl.customData.dims)) {
         ctrl.customData = {bx: bx,dims:[],sk: sk};
     } else {
-        ctrl.customData = {bx: bx,dims: ctrl.customData.dims,sk: sk};
+        ctrl.customData = {bx: bx,dims: ctrl.customData.dims,sk: sk,ex: exChance(ctrl)};
     }
 });
 
@@ -231,12 +231,11 @@ RecipeBuilder.newBuilder("simple_miner_main","simple_miner",200)
     .setIgnoreOutputCheck(true)//别删
     .addDynamicOutput(function(ctrl as IMachineController) {
         val dim = ctrl.world.dimension;
-        val bx = ctrl.customData.bx;
         var output = [] as IItemStack[];
 
-        if (dim == 0 || dim == -1 || dim == 1) {
+        if (dim == 0 || dim == -1) {
             for u in upgradeList {
-                val list = oreOutput.getOreOutputList(dim,u,bx,5.0,false) as IItemStack[];
+                val list = oreOutput.getOreOutputList(dim,u,1,5.0,false) as IItemStack[];
                 if (list.length != 0 && (u == BASIC || ctrl.hasMachineUpgrade(u))) {
                    for i in list {
                         output += i;
@@ -266,11 +265,13 @@ RecipeBuilder.newBuilder("basic_miner_main","basic_miner",200)
     .setIgnoreOutputCheck(true)//别删
     .addDynamicOutput(function(ctrl as IMachineController) {
         val dim = ctrl.world.dimension;
-        val bx = ctrl.customData.bx;
+        val data = ctrl.customData;
+        val bx = isNull(data.bx) ? 1 : data.bx;
+        val ex = isNull(data.ex) ? 1.0f : data.ex as float;
         var output = [] as IItemStack[];
 
         for u in upgradeList {
-            val list = oreOutput.getOreOutputList(dim,u,bx,exChance(ctrl),false) as IItemStack[];
+            val list = oreOutput.getOreOutputList(dim,u,bx,ex,false) as IItemStack[];
             if (list.length != 0 && (u == BASIC || ctrl.hasMachineUpgrade(u))) {
                 for i in list {
                     output += i;
@@ -301,13 +302,14 @@ RecipeBuilder.newBuilder("advanced_miner_main","advanced_miner",200)
     .addDynamicOutput(function(ctrl as IMachineController) {
         val data = ctrl.customData;
         val dimList = isNull(data.dims) ? [] as int[] : data.dims as int[];
-        val bx = data.bx;
+        val bx = isNull(data.bx) ? 1 : data.bx;
+        val ex = isNull(data.ex) ? 1.0f : data.ex as float;
         var output = [] as IItemStack[];
 
         if (dimList.length != 0) {
             for dim in dimList {
                 for u in upgradeList {
-                    val list = oreOutput.getOreOutputList(dim,u,(bx / max(1,dimList.length)) as int,exChance(ctrl),false) as IItemStack[];
+                    val list = oreOutput.getOreOutputList(dim,u,(bx / max(1,dimList.length)) as int,ex,false) as IItemStack[];
                     if (list.length != 0 && (u == BASIC || ctrl.hasMachineUpgrade(u))) {
                         for i in list {
                             output += i;
@@ -339,14 +341,15 @@ RecipeBuilder.newBuilder("dimensional_miner_main","dimensional_miner",200)
     .addDynamicOutput(function(ctrl as IMachineController) {
         val data = ctrl.customData;
         val dimList = isNull(data.dims) ? [] as int[] : data.dims as int[];
-        val bx = data.bx;
+        val bx = isNull(data.bx) ? 1 : data.bx;
+        val ex = isNull(data.ex) ? 1.0f : data.ex as float;
         var output = [] as IItemStack[];
 
         if (dimList.length != 0) {
             for dim in dimList {
                 if (ctrl.hasMachineUpgrade("miner_upg_multidim") || dim == ctrl.world.dimension) {
                     for u in upgradeList {
-                        val list = oreOutput.getOreOutputList(dim,u,(bx / max(1,dimList.length)) as int,exChance(ctrl),false) as IItemStack[];
+                        val list = oreOutput.getOreOutputList(dim,u,(bx / max(1,dimList.length)) as int,ex,false) as IItemStack[];
                         if (list.length != 0 && (u == BASIC || ctrl.hasMachineUpgrade(u))) {
                             for i in list {
                                 output += i;
@@ -365,7 +368,7 @@ RecipeBuilder.newBuilder("dimensional_miner_main","dimensional_miner",200)
     .build();
 
 //JEI配方
-val miners = ["simple_miner","basic_miner","advanced_miner","dimensional_miner"];
+val miners = ["basic_miner","advanced_miner","dimensional_miner"];
 for dimId, dimName in oreOutput.getDimList() {
     for m in miners {
         val r = RecipeBuilder.newBuilder(m ~ dimId,m,200)
@@ -389,15 +392,7 @@ for dimId, dimName in oreOutput.getDimList() {
             r.addRecipeTooltip("§d需使用§a维度放大镜§d来§a标记§d/§a解绑§d维度");
             r.addRecipeTooltip("§d仅在安装§a时空采掘升级§d时可跨维度采掘");
         }
-        if (m == "simple_miner" && (dimId == -1 || dimId == 0 || dimId == 1)) {
-            for upgrade in [BASIC,STAINLESS,DURASTEEL] {
-                val list = oreOutput.getoreList(dimId,upgrade);
-                for o in list {
-                    var tooltip = upgradeTooltip(o);
-                    r.addItemOutput(o.ore * o.amount).setChance(o.chance).setPreViewNBT({display:{Lore:[tooltip,"§3请注意输出仓大小，超出容量的部分将被§d全部销毁"]}});
-                }
-            }
-        } else {
+        else {
             for upgrade in oreOutput.getUpgradeList(dimId) {
                 val list = oreOutput.getoreList(dimId,upgrade);
                 for o in list {
@@ -408,4 +403,20 @@ for dimId, dimName in oreOutput.getDimList() {
         }
         r.build();
     }
+}
+for dimId in [-1,0,1] {
+    val r = RecipeBuilder.newBuilder("simple_miner" ~ dimId,"simple_miner",200)
+        .addEnergyPerTickInput(200)
+        .addDimensionInput(dimId)
+        .addRecipeTooltip("§d以上矿石产自§a" ~ oreOutput.getDimName(dimId) ~ "§d(§aId: " ~ dimId ~ "§d)")
+        .addRecipeTooltip("§d高级矿石产出需要§a模块化升级组件§d，具体请查询§a模块化电容§d")
+        .setThreadName("114514");
+    for upgrade in [BASIC,STAINLESS,DURASTEEL] {
+        val list = oreOutput.getoreList(dimId,upgrade);
+        for o in list {
+            var tooltip = upgradeTooltip(o);
+            r.addItemOutput(o.ore * o.amount).setChance(o.chance * 5.0f).setPreViewNBT({display:{Lore:[tooltip,"§3请注意输出仓大小，超出容量的部分将被§d全部销毁"]}});
+        }
+    }
+    r.build();
 }

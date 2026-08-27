@@ -47,7 +47,7 @@ import mods.zenutils.DataUpdateOperation.REMOVE;
 
 MachineModifier.setMaxThreads("auto_soul_forge", 1);
 MachineModifier.setInternalParallelism("auto_soul_forge", 1);
-MachineModifier.setMaxParallelism("auto_soul_forge", 4096);
+MachineModifier.setMaxParallelism("auto_soul_forge", 65536);
 
 MachineModifier.addCoreThread("auto_soul_forge", FactoryRecipeThread.createCoreThread("意志汲取模块")
     .addRecipe("will_absorption")
@@ -225,7 +225,7 @@ addHellForgeRecipe([<bloodmagic:component:27>, <bloodmagic:sigil_holding>, <ore:
 <bloodarsenal:sigil_augmented_holding>, 1600);
 addHellForgeRecipe([<bloodmagic:soul_gem:3>, <bloodmagic:sigil_blood_light>, <bloodarsenal:gem:2>, <bloodmagic:sigil_air>],
 <bloodarsenal:sigil_sentience>, 4096);
-addHellForgeRecipe([<ore:ingotGold>, <bloodarsenal:base_item:2>, <bloodmagic:component:8>, <forge:bucketfilled>.withTag({FluidName: "lifeessence", Amount: 1000})],
+addHellForgeRecipe([<ore:ingotIron>, <bloodarsenal:base_item:2>, <bloodmagic:component:8>, <forge:bucketfilled>.withTag({FluidName: "lifeessence", Amount: 1000})],
 <bloodarsenal:base_item:3>, 32);
 addHellForgeRecipe([<bloodmagic:soul_gem>, <ore:ingotStainlessSteel>],
 <tconevo:metal:30>, 2);

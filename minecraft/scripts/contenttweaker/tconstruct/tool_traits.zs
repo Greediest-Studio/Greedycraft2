@@ -71,7 +71,7 @@ import native.thebetweenlands.common.world.event.EventRift;
 import native.thebetweenlands.api.capability.IDecayCapability;
 import native.thebetweenlands.common.capability.decay.DecayStats;
 import native.thebetweenlands.common.registries.CapabilityRegistry;
-import native.com.meteor.extrabotany.common.helper.SubspaceHelper;
+import native.com.smd.gctcore.common.integration.extrabotany.SubspaceHelper;
 import native.thaumcraft.api.capabilities.IPlayerKnowledge;
 import native.thaumcraft.api.capabilities.ThaumcraftCapabilities;
 import native.thaumcraft.api.research.ResearchCategory;
@@ -1855,7 +1855,7 @@ relifeTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_tr
 relifeTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     val player as IPlayer = attacker;
     val entity as IEntityMob = target;
-    if(player.health < player.health * 0.15f){
+    if(player.health < player.maxHealth * 0.15f){
         player.addPotionEffect(<potion:minecraft:fire_resistance>.makePotionEffect(20, 0, false, false));
         entity.setFire(10);
         if(entity.isBurning){

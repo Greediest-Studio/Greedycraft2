@@ -77,13 +77,6 @@
       "checkPNG": false,
       "model": "auto",
       "cape": "https://dl.labymod.net/capes/{STANDARD_UUID}"
-    },
-    {
-      "name": "Cosmetica",
-      "type": "Legacy",
-      "checkPNG": false,
-      "model": "auto",
-      "cape": "https://api.cosmetica.cc/get/cloak?username\u003d{USERNAME}\u0026uuid\u003d{STANDARD_UUID}\u0026nothirdparty"
     }
   ],
   "enableDynamicSkull": true,

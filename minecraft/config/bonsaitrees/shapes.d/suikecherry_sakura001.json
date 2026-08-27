@@ -1,0 +1,75 @@
+{
+  "type": "suikecherry:sakura",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "suikecherry:cherry_leaves",
+      "meta": 0
+    },
+    "b": {
+      "name": "suikecherry:cherry_log",
+      "meta": 0
+    },
+    "c": {
+      "name": "suikecherry:cherry_log",
+      "meta": 8
+    }
+  },
+  "shape": [
+    [
+      "            ",
+      "        aa  ",
+      "  aaa  aaaa ",
+      " aaaaaaaaa  ",
+      "   aaa a    ",
+      "     a      ",
+      "            ",
+      "            ",
+      "            "
+    ],
+    [
+      "        aa  ",
+      "   a  aaaaa ",
+      " aaaaaaaaaaa",
+      "aaaaaaaaaaa ",
+      " aaaaaaaaa  ",
+      "  aa   aa   ",
+      "   a    a   ",
+      "            ",
+      "            "
+    ],
+    [
+      "       aaa  ",
+      "  aa aaaaaa ",
+      " aaaaaaabaaa",
+      "aabaaaaabaa ",
+      " accbaabca  ",
+      " aaacc b    ",
+      "      bc    ",
+      "      b     ",
+      "      b     "
+    ],
+    [
+      "        aa  ",
+      "  a   aaaaa ",
+      " aaaaaaaaaaa",
+      "aaaaaaaaaaa ",
+      " aaa aaaaa  ",
+      "  aa   a    ",
+      "  a         ",
+      "            ",
+      "            "
+    ],
+    [
+      "            ",
+      "        aa  ",
+      "  aa   aaaa ",
+      " aaaaaaa a  ",
+      "  a  aa     ",
+      "     a      ",
+      "            ",
+      "            ",
+      "            "
+    ]
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "type": "divinerpg:skythern",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "divinerpg:skythern_leaves",
+      "meta": 0
+    },
+    "b": {
+      "name": "divinerpg:skythern_log",
+      "meta": 0
+    },
+    "c": {
+      "name": "divinerpg:skythern_leaves",
+      "meta": 8
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      " cc  ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      " bbb "
+    ],
+    [
+      "     ",
+      " ccc ",
+      "cacc ",
+      " acc ",
+      "     ",
+      "     ",
+      "     ",
+      "  b  ",
+      "bbbbb"
+    ],
+    [
+      "  a  ",
+      " aaa ",
+      "aaaac",
+      " aba ",
+      "  b  ",
+      "  b  ",
+      "  b  ",
+      " bbb ",
+      "bbbbb"
+    ],
+    [
+      "     ",
+      "  a  ",
+      " aaa ",
+      " aaa ",
+      "     ",
+      "     ",
+      "     ",
+      "  b  ",
+      "bbbbb"
+    ],
+    [
+      "     ",
+      "     ",
+      "  a  ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      "     ",
+      " bbb "
+    ]
+  ]
+}

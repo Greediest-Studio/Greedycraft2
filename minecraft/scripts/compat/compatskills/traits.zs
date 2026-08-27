@@ -120,17 +120,6 @@ magic_brew.onPlayerTick = function(event as crafttweaker.event.PlayerTickEvent) 
     }
 };
 
-var strip_miner = TraitCreator.createTrait("strip_miner", 3, 3, "reskillable:mining", 14, "reskillable:mining|30", "reskillable:defense|25");
-strip_miner.name = game.localize("greedycraft.compatskills.traits.strip_miner.name");
-strip_miner.description = game.localize("greedycraft.compatskills.traits.strip_miner.description");
-strip_miner.changeIcon("greedycraft:skills/strip_miner.png");
-strip_miner.setEnabled(true);
-strip_miner.getBreakSpeed = function(event as crafttweaker.event.PlayerBreakSpeedEvent) {
-    if(event.block.definition.id.contains("hardened_stone")) {
-        event.newSpeed = ((event.newSpeed * 5.0f) as float);
-    }
-};
-
 var building_master = TraitCreator.createTrait("building_master", 0, 3, "reskillable:building", 12, "reskillable:agility|16", "reskillable:building|20");
 building_master.name = game.localize("greedycraft.compatskills.traits.building_master.name");
 building_master.description = game.localize("greedycraft.compatskills.traits.building_master.description");

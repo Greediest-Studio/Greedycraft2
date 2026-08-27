@@ -1,5 +1,8 @@
 {
   "name": "智慧符文",
-  "ore_dict": "runeRatzielB",
+  "ore_dict": [
+    "runeRatzielB",
+    "runeForth2B"
+  ],
   "type": "additions:simple"
 }

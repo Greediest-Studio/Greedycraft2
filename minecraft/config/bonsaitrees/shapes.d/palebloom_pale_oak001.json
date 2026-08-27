@@ -1,0 +1,100 @@
+{
+  "type": "palebloom:pale_oak",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "palebloom:pale_oak_leaves",
+      "meta": 0
+    },
+    "b": {
+      "name": "palebloom:pale_hanging_moss",
+      "meta": 0
+    },
+    "c": {
+      "name": "palebloom:pale_oak_log",
+      "meta": 1
+    }
+  },
+  "shape": [
+    [
+      "        ",
+      "        ",
+      " aaaaa  ",
+      "    aaa ",
+      "        ",
+      "        ",
+      "        ",
+      "        "
+    ],
+    [
+      "        ",
+      "   aa   ",
+      " aaaaaa ",
+      " aaaaaaa",
+      "     b  ",
+      "     b  ",
+      "        ",
+      "        "
+    ],
+    [
+      "        ",
+      "  aaaa  ",
+      "aaaaaaaa",
+      " aaaacaa",
+      "    bc  ",
+      "     c  ",
+      "     c  ",
+      "        "
+    ],
+    [
+      "   aa   ",
+      " aaaaaa ",
+      "aaaccaaa",
+      " aaccaaa",
+      "  bcc   ",
+      "  bcc   ",
+      "  bcc   ",
+      "  bcc   "
+    ],
+    [
+      "   aa   ",
+      " aaaaaa ",
+      "aaaccaaa",
+      " aacccaa",
+      "  bcccb ",
+      "   cc b ",
+      "   cc b ",
+      "   cc b "
+    ],
+    [
+      "        ",
+      "  aaaa  ",
+      "aaaaaaaa",
+      " aaaccaa",
+      "  b ccb ",
+      "  b ccb ",
+      "  b c b ",
+      "  b   b "
+    ],
+    [
+      "        ",
+      "   aa   ",
+      "aaaaaaaa",
+      " aaaaaaa",
+      "  b  b  ",
+      "     b  ",
+      "        ",
+      "        "
+    ],
+    [
+      "        ",
+      "        ",
+      " aaaaa  ",
+      "   aaaa ",
+      "    b   ",
+      "        ",
+      "        ",
+      "        "
+    ]
+  ]
+}

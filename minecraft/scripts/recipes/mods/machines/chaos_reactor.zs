@@ -10,6 +10,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.oredict.IOreDictEntry;
 import crafttweaker.data.IData;
+import crafttweaker.world.IBlockPos;
 
 import mods.modularmachinery.RecipePrimer;
 import mods.modularmachinery.RecipeBuilder;
@@ -23,6 +24,7 @@ import mods.modularmachinery.Sync;
 
 import mods.modularmachinery.MMEvents;
 import mods.modularmachinery.ControllerGUIRenderEvent;
+import mods.modularmachinery.MachineTickEvent;
 
 import mods.modularmachinery.IMachineController;
 import mods.modularmachinery.SmartInterfaceData;

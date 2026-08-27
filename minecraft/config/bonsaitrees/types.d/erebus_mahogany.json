@@ -1,0 +1,32 @@
+{
+    "name": "erebus:mahogany",
+    "mod": "erebus",
+    "sapling": {
+        "name": "erebus:sapling_mahogany",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "minecraft:stick",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "erebus:log_mahogany",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "erebus:leaves_mahogany",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "erebus:sapling_mahogany",
+            "data": 0,
+            "type": "SAPLING"
+        }
+    ],
+    "compatibleSoilTags": ["dirt", "grass"]
+}

@@ -135,7 +135,7 @@ recipe(62 , <additions:martisite_ingot> * 3, [<ore:ingotCestium> * 4, <ore:ingot
 recipe(63 , <additions:flashite_ingot> * 3, [<ore:ingotFraxinium> * 2, <ore:ingotTreasurite> * 2, <ore:ingotErrorite> * 2], 2000, 10.0f);
 recipe(64 , <additions:overlaite_ingot> * 1, [<ore:ingotMartisite>, <ore:ingotClearite>], 2000, 10.0f);
 recipe(65 , <plustic:osgloglasingot>, [<ore:ingotOsmium>, <ore:ingotRefinedGlowstone>, <ore:ingotRefinedObsidian>], 2000, 10.0f);
-recipe(66 , <nuclearcraft:alloy:16> * 2, [<ore:ingotZirconium>, <ore:ingotMolybdenum>], 2000, 10.0f);
+recipe(66 , <nuclearcraft:alloy:16> * 16, [<ore:ingotZirconium>, <ore:ingotMolybdenum> * 15], 16000, 10.0f);
 recipe(67 , <additions:clock_alloy_ingot> * 2, [<ore:dustTime>, <ore:ingotMelodicAlloy> * 2, <divinerpg:mysterious_clock>], 10000, 60.0f);
 recipe(68 , <additions:twilit_alloy_ingot> * 3, [<twilightforest:torchberries> * 6, <ore:ingotBlackholeAlloy> * 1, <ore:ingotApocalypsium> * 2], 500000, 150.0f);
 recipe(69 , <additions:mist_alloy_ingot>, [<ore:ingotMelodicAlloy> * 2, <ore:ingotCrystallineAlloy>, <abyssalcraft:stone:6> * 4], 25000, 55.0f);
@@ -147,7 +147,7 @@ recipe(74 , <additions:creative_alloy_ingot> * 2, [<ore:ingotBlackholeAlloy> * 2
 recipe(75 , <tconevo:material> * 2, [<ore:ingotManyullyn> * 2, <ore:ingotAdamant>, <ore:ingotEnderium> * 2], 50000, 20.0f);
 recipe(77 , <additions:porpezite_ingot> * 2, [<ore:ingotRuthenium>, <ore:ingotRhodium>, <ore:ingotPalladium> * 3], 4000, 10.0f);
 recipe(78 , <plustic:osmiridiumingot> * 2, [<ore:ingotOsmium>, <ore:ingotIridium>], 2000, 10.0f);
-recipe(79 , <nuclearcraft:alloy:12> * 2, [<ore:ingotZirconium> * 2, <ore:ingotTin>], 2000, 10.0f);
+recipe(79 , <nuclearcraft:alloy:12> * 8, [<ore:ingotZirconium> * 7, <ore:ingotTin>], 8000, 10.0f);
 recipe(80 , <moretcon:ingotirradium> * 2, [<ore:ingotIridium>, <ore:ingotRadium>], 4000, 10.0f);
 recipe(81 , <additions:blueprint_laser_gun>, [<ore:ingotPhotonium>, <additions:blueprint>, <ore:ingotCrystalMatrix>], 800000, 400.0f);
 recipe(82 , <additions:blueprint_ring>, [<ore:ingotValkyrie>, <additions:blueprint>, <ore:ingotEverite>], 1600000, 600.0f);
@@ -212,7 +212,6 @@ recipe(1035 , <thermalfoundation:material:166> * 4, [<ore:ingotTin> * 3, <ore:in
 recipe(1036 , <enderio:item_material:39> * 4, [<ore:ingotLead> * 3, <ore:ingotPlatinum> * 1, <ore:enderpearl> * 4], 4000, 10.0f); 
 recipe(1037 , <nuclearcraft:alloy:3> * 3, [<ore:ingotBoron> * 2, <ore:ingotMagnesium> * 1], 4000, 10.0f); 
 recipe(1038 , <nuclearcraft:alloy:4> * 2, [<ore:ingotLithium> * 1, <ore:ingotManganeseDioxide> * 1], 6000, 10.0f); 
-recipe(1039 , <nuclearcraft:alloy:16> * 2, [<ore:ingotZirconium> * 1, <ore:ingotMolybdenum> * 1], 2000, 10.0f); 
 recipe(1040 , <enderio:item_alloy_ingot:1> * 1, [<ore:dustRedstone> * 1, <ore:ingotGold> * 1, <ore:dustGlowstone> * 1], 10000, 10.0f); 
 recipe(1041 , <enderio:item_alloy_ingot:7> * 1, [<ore:soulSand> * 1, <ore:ingotGold> * 1], 10000, 10.0f); 
 recipe(1042 , <enderio:item_alloy_endergy_ingot:1> * 1, [<ore:ingotGold> * 1, <ore:itemPulsatingPowder> * 1], 10000, 10.0f); 
@@ -251,3 +250,4 @@ recipe(2009 , <additions:eucite_ingot> * 3, [<ore:ingotCelestium>, <ore:ingotKor
 recipe(2010 , <tiths:ingot_decurrium> * 6, [<ore:ingotEucite> * 3, <ore:ingotCorbite> * 2, <ore:ingotChloroplast> * 2, <ore:ingotIrisia> * 3], 51200, 10.0f);
 recipe(2011 , <gct_ores:everite_ingot>, [<ore:ingotTerraAlloy>, <ore:ingotSkyAlloy>, <ore:ingotFireAlloy>, <ore:ingotIceAlloy>], 51200, 10.0f);
 recipe(2012 , <plustic:mirioningot> * 4, [<botania:manaresource:4> * 1, <botania:manaresource> * 1, <botania:manaresource:7> * 1, <ore:ingotCobalt> * 1, <minecraft:glass> * 1], 51200, 10.0f);
+recipe(2013 , <nuclearcraft:alloy:15> * 16, [<ore:ingotSteel> * 13, <ore:ingotNiobiumTitanium> * 1, <ore:ingotVanadium> * 1, <ore:ingotAluminum> * 1], 51200, 10.0f);

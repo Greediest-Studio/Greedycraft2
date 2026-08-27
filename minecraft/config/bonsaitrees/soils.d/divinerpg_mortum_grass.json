@@ -1,0 +1,14 @@
+{
+    "name": "divinerpg:mortum_grass",
+    "mod": "divinerpg",
+    "soil": {
+        "name": "divinerpg:mortum_grass",
+        "data": 0,
+        "ignoreMeta": true
+    },
+    "modifiers": {
+        "growTime": 1,
+        "dropChance": 1
+    },
+    "providedTags": ["mortum_grass"]
+}

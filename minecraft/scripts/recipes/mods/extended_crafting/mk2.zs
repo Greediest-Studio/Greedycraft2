@@ -486,3 +486,82 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <gctcore:nilfheim_portal_core>,
 	[<botaniverse:morewood>, <botaniverse:morewood:4>, <ore:ingotOriginalSteel>, <botaniverse:morewood:4>, <botaniverse:morewood>]
 ]);
 
+mods.extendedcrafting.TableCrafting.addShaped(0, <modularmachinery:blockmepatternprovider>, [
+	[<ore:ingotModularium>, <ore:ingotModularium>, <ore:blockModularium>, <ore:ingotModularium>, <ore:ingotModularium>], 
+	[<ore:ingotModularium>, <ore:plateBlueAlloy>, <appliedenergistics2:controller>, <ore:plateBlueAlloy>, <ore:ingotModularium>], 
+	[<ore:blockModularium>, <ae2fc:trio_interface>, <modularmachinery:blockinputbus:5>, <ae2fc:trio_interface>, <ore:blockModularium>], 
+	[<ore:ingotModularium>, <ore:plateBlueAlloy>, <appliedenergistics2:controller>, <ore:plateBlueAlloy>, <ore:ingotModularium>], 
+	[<ore:ingotModularium>, <ore:ingotModularium>, <ore:blockModularium>, <ore:ingotModularium>, <ore:ingotModularium>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <mmce_complement:me_ore_dict_input_bus>, [
+	[<modularmachinery:blockcasing:4>, <ore:ingotModularium>, <ore:ingotModularium>, <ore:ingotModularium>, <modularmachinery:blockcasing:4>], 
+	[<ore:ingotModularium>, <appliedenergistics2:material:43>, <crazyae:part>, <appliedenergistics2:material:43>, <ore:ingotModularium>], 
+	[<ore:ingotModularium>, <crazyae:part>, <appliedenergistics2:part:222>, <crazyae:part>, <ore:ingotModularium>], 
+	[<ore:ingotModularium>, <appliedenergistics2:material:43>, <crazyae:part>, <appliedenergistics2:material:43>, <ore:ingotModularium>], 
+	[<modularmachinery:blockcasing:4>, <ore:ingotModularium>, <modularmachinery:blockmeiteminputbus>, <ore:ingotModularium>, <modularmachinery:blockcasing:4>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <mmce_complement:self_cycle_assembly_hatch>, [
+	[<ore:ingotEcoBasicAlloy>, null, null, <ore:blockModularium>, <ore:blockModularium>], 
+	[null, <ore:ingotIridium>, <ore:ingotIridium>, <ore:ingotPorpezite>, <ore:blockModularium>], 
+	[null, <ore:ingotIridium>, <mmce_complement:input_assembly_hatch:3>, <ore:ingotIridium>, null], 
+	[<ore:blockModularium>, <ore:ingotPorpezite>, <ore:ingotIridium>, <ore:ingotIridium>, null], 
+	[<ore:blockModularium>, <ore:blockModularium>, null, null, <ore:ingotEcoBasicAlloy>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <mmce_complement:overclock_hatch>, [
+	[<ore:blockModularium>, <ore:ingotModularium>, <ore:ingotBoundMetal>, <ore:ingotModularium>, <ore:blockModularium>], 
+	[<ore:ingotModularium>, <ore:plateLumix>, <ore:ingotAeonsteel>, <ore:plateCorbite>, <ore:ingotModularium>], 
+	[<ore:ingotSolarium>, <ore:ingotAeonsteel>, <ore:frameGenite>, <ore:ingotAeonsteel>, <ore:ingotSolarium>], 
+	[<ore:ingotModularium>, <ore:plateWildwood>, <ore:ingotAeonsteel>, <ore:plateIox>, <ore:ingotModularium>], 
+	[<ore:blockModularium>, <ore:ingotModularium>, <ore:ingotBoundMetal>, <ore:ingotModularium>, <ore:blockModularium>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <mmce_complement:overclock_hatch:1>, [
+	[<ore:blockModularium>, <ore:ingotModularium>, <ore:ingotPrimordial>, <ore:ingotModularium>, <ore:blockModularium>], 
+	[<ore:ingotModularium>, <ore:plateRelifedMetal>, <ore:ingotChromasteel>, <ore:plateDullium>, <ore:ingotModularium>], 
+	[<ore:ingotStellarium>, <ore:ingotChromasteel>, <ore:frameEverite>, <ore:ingotChromasteel>, <ore:ingotStellarium>], 
+	[<ore:ingotModularium>, <ore:plateChaoticMetal>, <ore:ingotChromasteel>, <ore:plateDraconicMetal>, <ore:ingotModularium>], 
+	[<ore:blockModularium>, <ore:ingotModularium>, <ore:ingotPrimordial>, <ore:ingotModularium>, <ore:blockModularium>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <mmce_complement:overclock_hatch:2>, [
+	[<ore:blockModularium>, <ore:ingotModularium>, <ore:ingotGhostMetal>, <ore:ingotModularium>, <ore:blockModularium>], 
+	[<ore:ingotModularium>, <ore:platePorpezite>, <ore:ingotCosmilite>, <ore:plateOverlaite>, <ore:ingotModularium>], 
+	[<ore:ingotEldritchSteel>, <ore:ingotCosmilite>, <ore:frameTrichromadentium>, <ore:ingotCosmilite>, <ore:ingotEldritchSteel>], 
+	[<ore:ingotModularium>, <ore:plateFlashite>, <ore:ingotCosmilite>, <ore:plateWitheriumEquipment>, <ore:ingotModularium>], 
+	[<ore:blockModularium>, <ore:ingotModularium>, <ore:ingotGhostMetal>, <ore:ingotModularium>, <ore:blockModularium>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <mmce_complement:thread_hatch>, [
+	[<ore:blockModularium>, <ore:ingotModularium>, <ore:compressed1xModularium>, <ore:ingotModularium>, <ore:blockModularium>], 
+	[<ore:ingotModularium>, <ore:controllerLevel1>, <ore:ingotAeonsteel>, <ore:controllerLevel1>, <ore:ingotModularium>], 
+	[<ore:compressed2xModularium>, <ore:ingotAeonsteel>, <ore:frameTerrasteel>, <ore:ingotAeonsteel>, <ore:compressed2xModularium>], 
+	[<ore:ingotModularium>, <ore:controllerLevel1>, <ore:ingotAeonsteel>, <ore:controllerLevel1>, <ore:ingotModularium>], 
+	[<ore:blockModularium>, <ore:ingotModularium>, <ore:compressed1xModularium>, <ore:ingotModularium>, <ore:blockModularium>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <mmce_complement:thread_hatch:1>, [
+	[<ore:blockModularium>, <ore:ingotModularium>, <ore:compressed1xModularium>, <ore:ingotModularium>, <ore:blockModularium>], 
+	[<ore:ingotModularium>, <ore:controllerLevel2>, <ore:ingotChromasteel>, <ore:controllerLevel2>, <ore:ingotModularium>], 
+	[<ore:compressed2xModularium>, <ore:ingotChromasteel>, <ore:frameGaiasteel>, <ore:ingotChromasteel>, <ore:compressed2xModularium>], 
+	[<ore:ingotModularium>, <ore:controllerLevel2>, <ore:ingotChromasteel>, <ore:controllerLevel2>, <ore:ingotModularium>], 
+	[<ore:blockModularium>, <ore:ingotModularium>, <ore:compressed1xModularium>, <ore:ingotModularium>, <ore:blockModularium>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <mmce_complement:thread_hatch:2>, [
+	[<ore:blockModularium>, <ore:ingotModularium>, <ore:compressed1xModularium>, <ore:ingotModularium>, <ore:blockModularium>], 
+	[<ore:ingotModularium>, <ore:controllerLevel3>, <ore:ingotCosmilite>, <ore:controllerLevel3>, <ore:ingotModularium>], 
+	[<ore:compressed2xModularium>, <ore:ingotCosmilite>, <ore:frameOrichalcos>, <ore:ingotCosmilite>, <ore:compressed2xModularium>], 
+	[<ore:ingotModularium>, <ore:controllerLevel3>, <ore:ingotCosmilite>, <ore:controllerLevel3>, <ore:ingotModularium>], 
+	[<ore:blockModularium>, <ore:ingotModularium>, <ore:compressed1xModularium>, <ore:ingotModularium>, <ore:blockModularium>]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(0, <mmce_complement:thread_hatch:3>, [
+	[<ore:blockModularium>, <ore:ingotModularium>, <ore:compressed1xModularium>, <ore:ingotModularium>, <ore:blockModularium>], 
+	[<ore:ingotModularium>, <ore:controllerLevel4>, <ore:ingotFinallium>, <ore:controllerLevel4>, <ore:ingotModularium>], 
+	[<ore:compressed2xModularium>, <ore:ingotFinallium>, <ore:frameOriginalSteel>, <ore:ingotFinallium>, <ore:compressed2xModularium>], 
+	[<ore:ingotModularium>, <ore:controllerLevel4>, <ore:ingotFinallium>, <ore:controllerLevel4>, <ore:ingotModularium>], 
+	[<ore:blockModularium>, <ore:ingotModularium>, <ore:compressed1xModularium>, <ore:ingotModularium>, <ore:blockModularium>]
+]);

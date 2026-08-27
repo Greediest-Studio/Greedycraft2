@@ -28,7 +28,7 @@ import mods.modularmachinery.FactoryRecipeThread;
 
 import scripts.util.machines as MMUtil;
 
-MachineModifier.setMaxParallelism("aura_crafter", 4096);
+MachineModifier.setMaxParallelism("aura_crafter", 65536);
 MachineModifier.setInternalParallelism("aura_crafter", 1);
 MachineModifier.setMaxThreads("aura_crafter", 16);
 
@@ -85,5 +85,12 @@ RecipeBuilder.newBuilder("daynight_craft", "aura_crafter", 100)
     .addFluidInput(<liquid:daynight> * 72)
     .addAuraInput(200, true)
     .addItemOutput(<additions:daynight_ingot> * 4)
+    .setMaxThreads(1)
+    .build();
+
+RecipeBuilder.newBuilder("arcanium_craft", "aura_crafter", 100)
+    .addItemInput(<ore:oreArcanium>)
+    .addAuraInput(400, true)
+    .addItemOutput(<divinerpg:arcanium> * 2)
     .setMaxThreads(1)
     .build();

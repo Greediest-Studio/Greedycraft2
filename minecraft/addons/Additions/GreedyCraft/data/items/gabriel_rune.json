@@ -1,5 +1,8 @@
 {
   "name": "基础符文",
-  "ore_dict": "runeGabrielB",
+  "ore_dict": [
+    "runeGabrielB",
+    "runeForth9B"
+  ],
   "type": "additions:simple"
 }

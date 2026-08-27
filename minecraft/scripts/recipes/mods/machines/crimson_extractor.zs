@@ -20,7 +20,7 @@ import mods.ctutils.utils.Math;
 import mods.jei.JEI;
 
 MachineModifier.setMaxThreads("crimson_extractor", 1);
-MachineModifier.setMaxParallelism("crimson_extractor", 4096);
+MachineModifier.setMaxParallelism("crimson_extractor", 65536);
 MachineModifier.setInternalParallelism("crimson_extractor", 1);
 
 MMEvents.onControllerGUIRender("crimson_extractor", function(event as ControllerGUIRenderEvent) {

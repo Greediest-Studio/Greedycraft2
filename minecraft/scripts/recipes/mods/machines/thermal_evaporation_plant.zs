@@ -22,7 +22,7 @@ MachineModifier.addSmartInterfaceType("thermal_evaporation_plant", SmartInterfac
 
 MachineModifier.setInternalParallelism("thermal_evaporation_plant", 32);
 MachineModifier.setMaxThreads("thermal_evaporation_plant", 1);
-MachineModifier.setMaxParallelism("thermal_evaporation_plant", 4096);
+MachineModifier.setMaxParallelism("thermal_evaporation_plant", 65536);
 
 RecipeBuilder.newBuilder("r1","thermal_evaporation_plant",1)
     .addEnergyPerTickInput(100000)

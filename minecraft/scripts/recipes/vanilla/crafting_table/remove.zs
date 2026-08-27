@@ -440,9 +440,7 @@ val removedRecipes as IIngredient[] = [
     <bountifulbaubles:reforger>,
     <projecte:item.pe_hyperkinetic_lens>,
     <projecte:item.pe_destruction_catalyst>,
-    <thebetweenlands:bl_bucket_plant_tonic>,
     <thebetweenlands:amulet>,
-    <thebetweenlands:bl_bucket_plant_tonic:1>,
     <mekanism:machineblock:5>,
     <mekanism:machineblock:6>,
     <mekanism:machineblock:7>,
@@ -489,7 +487,36 @@ val removedRecipes as IIngredient[] = [
     <crazyae:improved_solar_panel>,
     <crazyae:advanced_solar_panel>,
     <crazyae:perfect_solar_panel>,
-    <da:frost_locator>
+    <da:frost_locator>,
+    <packaged_acceleration:energy_card>,
+    <packaged_acceleration:speed_card>,
+    <ae_chisel:ae_chisel>,
+    <tt2:modifier_worktable>,
+    <gctcore:basic_extended_assembler>,
+    <gctcore:advanced_extended_assembler>,
+    <gctcore:elite_extended_assembler>,
+    <gctcore:ultimate_extended_assembler>,
+    <ae2_utilix:common_interface>,
+    <ae2_utilix:common_import_bus>,
+    <ae2_utilix:common_export_bus>,
+    <botania_applie:mana_storage_component_1k>,
+    <botania_applie:mana_storage_component_4k>,
+    <botania_applie:mana_storage_component_16k>,
+    <botania_applie:mana_storage_component_64k>,
+    <botania_applie:mana_storage_component_256k>,
+    <botania_applie:mana_storage_component_1m>,
+    <botania_applie:mana_storage_component_4m>,
+    <botania_applie:mana_storage_component_16m>,
+    <botania_applie:mana_storage_component_64m>,
+    <botania_applie:mana_storage_component_256m>,
+    <botania_applie:mana_storage_component_1g>,
+    <botaniverse:morewood:4>,
+    <botaniverse:morewood:5>,
+    <botaniverse:morewood:6>,
+    <botaniverse:morewood:7>,
+    <gctcore:gct_mana_wood:3>,
+    <gctcore:gct_mana_wood:4>,
+    <gctcore:gct_mana_wood:5>
 ];
 
 val removedRecipeNames as string[] = [
@@ -562,7 +589,6 @@ val removedRecipeNames as string[] = [
     "thermalfoundation:dreadium_ingot_1",
     "thermalfoundation:dreadium_ingot_2",
     "mysticalagriculture:ingotdreadium",
-    "mysticalagriculture:ingotsoularium",
     "gct_ores:command_dismantler_craft",
     "superfactorymanager:manager",
     "unidict:ingotenderiron_x1_size.2",
@@ -571,7 +597,9 @@ val removedRecipeNames as string[] = [
     "actuallyadditions:recipes154",
     "netherized:materials/netherite_ingot",
     "betterendforge:ender_block",
-    "betterendforge:amber_block"
+    "betterendforge:amber_block",
+    "thebetweenlands:recipe_plant_tonic_syrmorite",
+    "thebetweenlands:recipe_plant_tonic_weedwood"
 ];
 
 for ingredient in removedRecipes {

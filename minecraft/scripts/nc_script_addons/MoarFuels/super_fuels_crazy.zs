@@ -141,7 +141,7 @@ function theBigCheese(fis as IIngredient[], fert as IIngredient[], pellet as IIt
 	if (oreDict has "QuantumTraverseWhyCanISteamMyCrabs") {
 		mods.nuclearcraft.SolidFission.addRecipe(triso, dpellet[0], fuelInts[3][0], fuelInts[3][1], fuelDoubles[0], fuelInts[3][2], 0, fuelDoubles[5], selfPriming, fuelDoubles[2]);
 	}else{
-		mods.nuclearcraft.PebbleFission.addRecipe(triso, dpellet[0], fuelInts[0][0], fuelInts[0][1], fuelDoubles[0], fuelInts[2][2], 10, fuelDoubles[5], selfPriming, fuelDoubles[2]);
+		mods.nuclearcraft.PebbleFission.addRecipe(triso, dpellet[0], fuelInts[3][0], fuelInts[3][1], fuelDoubles[0], fuelInts[3][2], 10, fuelDoubles[5], selfPriming, fuelDoubles[2]);
 	}
 
 	//oxide

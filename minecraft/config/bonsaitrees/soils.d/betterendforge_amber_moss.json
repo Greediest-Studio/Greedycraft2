@@ -1,0 +1,14 @@
+{
+    "name": "betterendforge:amber_moss",
+    "mod": "betterendforge",
+    "soil": {
+        "name": "betterendforge:amber_moss",
+        "data": 0,
+        "ignoreMeta": true
+    },
+    "modifiers": {
+        "growTime": 1,
+        "dropChance": 1
+    },
+    "providedTags": ["end_stone", "amber_moss"]
+}

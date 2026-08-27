@@ -28,7 +28,7 @@ import mods.modularmachinery.FactoryRecipeThread;
 
 import scripts.util.machines as MMUtil;
 
-MachineModifier.setMaxParallelism("great_laser_alloyer", 4096);
+MachineModifier.setMaxParallelism("great_laser_alloyer", 65536);
 MachineModifier.setInternalParallelism("great_laser_alloyer", 1);
 MachineModifier.setMaxThreads("great_laser_alloyer", 8);
 

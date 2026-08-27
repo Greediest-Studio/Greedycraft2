@@ -22,14 +22,13 @@ import mods.godagglomerationplate.GodAgglomeration;
 import mods.jei.JEI;
 
 Apothecary.removeRecipe("entropinnyum");
-Apothecary.addRecipe(<botania:specialflower>.withTag({type: "entropinnyum"}), [<ore:petalRed>, <ore:petalRed>, <ore:petalGray>, <ore:petalGray>, <ore:petalWhite>, <ore:petalWhite>, <ore:runeWrathB>, <ore:runeChamaelB>]);
+Apothecary.addRecipe(<botania:specialflower>.withTag({type: "entropinnyum"}), [<ore:petalRed>, <ore:petalRed>, <ore:petalGray>, <ore:petalGray>, <ore:petalWhite>, <ore:petalWhite>, <ore:runeWrathB>, <ore:runeForth5B>]);
 Apothecary.removeRecipe("reikarlily");
-Apothecary.addRecipe(<botania:specialflower>.withTag({type: "reikarlily"}), [<ore:ingotGaia>, <ore:ingotGaia>, <ore:runeEnvyB>, <ore:runeHanielB>, <ore:runeRaphaelB>, <ore:petalBlue>, <ore:petalCyan>, <ore:petalCyan>, <ore:petalLightBlue>, <ore:petalLightBlue>]);
+Apothecary.addRecipe(<botania:specialflower>.withTag({type: "reikarlily"}), [<ore:ingotGaia>, <ore:ingotGaia>, <ore:runeEnvyB>, <ore:runeForth7B>, <ore:runeForth8B>, <ore:petalBlue>, <ore:petalCyan>, <ore:petalCyan>, <ore:petalLightBlue>, <ore:petalLightBlue>]);
 Apothecary.removeRecipe("orechid");
-Apothecary.addRecipe(<botania:specialflower>.withTag({type: "orechid"}), [<ore:petalGray>, <ore:petalGray>, <ore:petalRed>, <ore:petalYellow>, <ore:petalGreen>, <ore:redstoneRoot>, <ore:elvenPixieDust>, <ore:runeGreedB>, <ore:runeMetatronB>, <ore:runeSandalphonB>]);
+Apothecary.addRecipe(<botania:specialflower>.withTag({type: "orechid"}), [<ore:petalGray>, <ore:petalGray>, <ore:petalRed>, <ore:petalYellow>, <ore:petalGreen>, <ore:redstoneRoot>, <ore:elvenPixieDust>, <ore:runeGreedB>, <ore:runeForth1B>, <ore:runeForth10B>]);
 
 ElvenTrade.addRecipe([<defiledlands:scarlite>], [<ore:slimeballBlood>, <ore:gemEmerald>, <ore:gemEmerald>]);
-ElvenTrade.addRecipe([<actuallyadditions:item_misc:5>], [<botania:quartz:5>, <minecraft:coal>]);
 ElvenTrade.addRecipe([<minecraft:gold_block>], [<ore:shardTime>]);
 ElvenTrade.addRecipe([<gct_mobs:dreamwood_log>], [<ore:logWoodLiving>]);
 ElvenTrade.addRecipe([<gct_mobs:dreamwood_leaves>], [<ore:treeLeavesLiving>]);
@@ -40,6 +39,7 @@ ElvenTrade.addRecipe([<gct_mobs:alf_grass>], [<ore:grassMana>]);
 ElvenTrade.addRecipe([<gct_mobs:elementium_ore>], [<ore:oreManasteel>, <ore:oreManasteel>]);
 ElvenTrade.addRecipe([<treetweaker:dreamwood>], [<treetweaker:livingwood>]);
 ElvenTrade.addRecipe([<gct_mobs:alf_sand>], [<ore:sand>]);
+ElvenTrade.addRecipe([<actuallyadditions:item_misc:5>], [<botania:quartz:5>, <ore:dustCoal>]);
 
 Apothecary.addRecipe(<additions:bag_of_dyes>, [<ore:petalGreen>, <ore:petalRed>, <ore:petalBlue>, <ore:petalYellow>, <ore:petalGreen>, <ore:petalRed>, <ore:petalBlue>, <ore:petalYellow>]);
 
@@ -50,9 +50,9 @@ Apothecary.addRecipe("remove_difficulty", [<scalinghealth:crystalshard>, <ore:ge
     recipes.addShapeless("remove_difficulty_float", <botania:floatingspecialflower>.withTag({type: "remove_difficulty"}), [<botania:specialflower>.withTag({type: "remove_difficulty"}), <botania:miniisland:*>]);
 Apothecary.addRecipe("add_difficulty", [<scalinghealth:crystalshard>, <ore:ingotGold>, <ore:petalGreen>, <ore:petalYellow>, <additions:ratziel_rune>]);
     recipes.addShapeless("add_difficulty_float", <botania:floatingspecialflower>.withTag({type: "add_difficulty"}), [<botania:specialflower>.withTag({type: "add_difficulty"}), <botania:miniisland:*>]);
-Apothecary.addRecipe("bread_fanatic", [<botania:blacklotus>, <minecraft:bread>, <botania:specialflower>.withTag({type: "endoflame"}), <ore:petalGreen>, <botania:rune:2>]);
+Apothecary.addRecipe("bread_fanatic", [<botania:blacklotus>, <minecraft:bread>, <botania:specialflower>.withTag({type: "endoflame"}), <ore:petalGreen>, <ore:runeEarthB>]);
     recipes.addShapeless("bread_fanatic_float", <botania:floatingspecialflower>.withTag({type: "bread_fanatic"}), [<botania:specialflower>.withTag({type: "bread_fanatic"}), <botania:miniisland:*>]);
-Apothecary.addRecipe("lightning", [<botanicadds:rune_energy>, <botania:specialflower>.withTag({type: "reikarlily"}), <minecraft:potion>.withTag({Potion: "potioncore:lightning"}), <botania:shimmerrock>, <ore:petalPink>, <ore:petalPurple>]);
+Apothecary.addRecipe("lightning", [<ore:runeEnergyB>, <botania:specialflower>.withTag({type: "reikarlily"}), <minecraft:potion>.withTag({Potion: "potioncore:lightning"}), <botania:shimmerrock>, <ore:petalPink>, <ore:petalPurple>]);
     recipes.addShapeless("lightning_float", <botania:floatingspecialflower>.withTag({type: "lightning"}), [<botania:specialflower>.withTag({type: "lightning"}), <botania:miniisland:*>]);
 Apothecary.addRecipe("agricultural", [<ore:ingotBotanicalAwakened>, <ore:petalYellow>, <ore:petalLime>, <additions:ratziel_rune>, <additions:raphael_rune>, <minecraft:wooden_hoe>, <minecraft:carrot>, <minecraft:potato>, <minecraft:hay_block>]);
     recipes.addShapeless("agricultural_float", <botania:floatingspecialflower>.withTag({type: "agricultural"}), [<botania:specialflower>.withTag({type: "agricultural"}), <botania:miniisland:*>]);
@@ -62,39 +62,16 @@ Apothecary.addRecipe("quest", [<ftbquests:book>, <ore:petalLime>, <ore:petalGree
     recipes.addShapeless("quest_float", <botania:floatingspecialflower>.withTag({type: "quest"}), [<botania:specialflower>.withTag({type: "quest"}), <botania:miniisland:*>]);
 Apothecary.addRecipe("mirror", [<astralsorcery:itemcraftingcomponent:3>, <botania:prism>, <endreborn:item_world_mirror>, <thaumicaugmentation:impetus_mirror>, <ore:petalBlue>, <ore:petalLightBlue>, <additions:zadkiel_rune>]);
     recipes.addShapeless("mirror_float", <botania:floatingspecialflower>.withTag({type: "mirror"}), [<botania:specialflower>.withTag({type: "mirror"}), <botania:miniisland:*>]);
-Apothecary.addRecipe("eat_iron", [<minecraft:iron_block>, <ore:ingotPhotonium>, <botania:rune:6>, <botania:rune:10>, <betterslimes:yellow_slime>, <candymod:gummy:2>, <ore:petalYellow>, <ore:ingotElfsteel>]);
+Apothecary.addRecipe("eat_iron", [<minecraft:iron_block>, <ore:ingotPhotonium>, <ore:runeAutumnB>, <ore:runeGluttonyB>, <betterslimes:yellow_slime>, <candymod:gummy:2>, <ore:petalYellow>, <ore:ingotElfsteel>]);
     recipes.addShapeless("eat_iron_float", <botania:floatingspecialflower>.withTag({type: "eat_iron"}), [<botania:specialflower>.withTag({type: "eat_iron"}), <botania:miniisland:*>]);
 Apothecary.addRecipe("cow", [<sakura:foodset:10>, <xlfoodmod:beef_stew>, <xlfoodmod:crescent_roll>, <xlfoodmod:kebab>, <xlfoodmod:hamburger>, <ore:petalBlack>, <ore:petalWhite>, <ore:petalYellow>]);
     recipes.addShapeless("cow_float", <botania:floatingspecialflower>.withTag({type: "cow"}), [<botania:specialflower>.withTag({type: "cow"}), <botania:miniisland:*>]);
-Apothecary.addRecipe("thaumaura", [<ore:petalPink>, <ore:petalPink>, <ore:petalPurple>, <ore:ingotAurune>, <ore:ingotMithrillium>, <ore:runeHanielB>, <ore:runeGabrielB>, <ore:runeSandalphonB>]);
+Apothecary.addRecipe("thaumaura", [<ore:petalPink>, <ore:petalPink>, <ore:petalPurple>, <ore:ingotAurune>, <ore:ingotMithrillium>, <ore:runeForth7B>, <ore:runeForth9B>, <ore:runeForth10B>]);
     recipes.addShapeless("thaumaura_float", <botania:floatingspecialflower>.withTag({type: "thaumaura"}), [<botania:specialflower>.withTag({type: "thaumaura"}), <botania:miniisland:*>]);
 
 PureDaisy.addRecipe(<minecraft:grass>, <minecraft:dirt>, 200);
 PureDaisy.addRecipe(<ore:treeLeaves>, <gct_mobs:livingwood_leaves>, 100);
 PureDaisy.addRecipe(<ore:treeSapling>, <treetweaker:livingwood>, 1200);
-
-RuneAltar.addRecipe(<twilightforest:aurora_block> * 32, [<ore:stone>, <quark:rune:*>], 50);
-RuneAltar.addRecipe(<twilightforest:castle_rune_brick> * 32, [<ore:brickStone>, <quark:rune:*>, <ore:dyePink>], 50);
-RuneAltar.addRecipe(<twilightforest:castle_rune_brick:1> * 32, [<ore:brickStone>, <quark:rune:*>, <ore:dyeLightBlue>], 50);
-RuneAltar.addRecipe(<twilightforest:castle_rune_brick:2> * 32, [<ore:brickStone>, <quark:rune:*>, <ore:dyeYellow>], 50);
-RuneAltar.addRecipe(<twilightforest:castle_rune_brick:3> * 32, [<ore:brickStone>, <quark:rune:*>, <ore:dyePurple>], 50);
-RuneAltar.addRecipe(<botania:manacookie> * 4, [<ore:foodCookie>, <ore:foodCookie>, <ore:foodCookie>, <ore:foodCookie>, <ore:manaPearl>, <ore:manaDiamond>], 3200);
-RuneAltar.addRecipe(<additions:metatron_rune> * 2, [<botania:rune:15>, <botania:rune:13>, <botania:rune:9>, <ore:ingotOrichalcos>, <ore:ingotAsgardium>, <ore:ingotEvilMetal>], 50000);
-RuneAltar.addRecipe(<additions:ratziel_rune> * 2, [<botania:rune:14>, <botania:rune:10>, <botania:rune:12>, <ore:ingotOrichalcos>, <ore:ingotExperience>, <ore:ingotOraclium>], 50000);
-RuneAltar.addRecipe(<additions:zaphkiel_rune> * 2, [<botania:rune:11>, <botania:rune:15>, <botania:rune:13>, <ore:ingotOrichalcos>, <ore:dustTime>, <ore:ingotShadowium>], 50000);
-RuneAltar.addRecipe(<additions:zadkiel_rune> * 2, [<botania:rune:9>, <botania:rune:14>, <botania:rune:10>, <ore:ingotOrichalcos>, <ore:ingotAqualite>, <ore:ingotDecurrium>], 50000);
-RuneAltar.addRecipe(<additions:chamael_rune> * 2, [<botania:rune:12>, <botania:rune:11>, <botania:rune:15>, <ore:ingotOrichalcos>, <ore:ingotHellite>, <ore:dustPyrotheum>], 50000);
-RuneAltar.addRecipe(<additions:michael_rune> * 2, [<botania:rune:13>, <botania:rune:9>, <botania:rune:14>, <ore:ingotOrichalcos>, <ore:dustSpace>, <ore:ingotAstralMetal>], 50000);
-RuneAltar.addRecipe(<additions:haniel_rune> * 2, [<botania:rune:10>, <botania:rune:12>, <botania:rune:11>, <ore:ingotOrichalcos>, <ore:ingotLiquifiedCoralium>, <journey:spawnerbar>], 50000);
-RuneAltar.addRecipe(<additions:raphael_rune> * 2, [<botania:rune:15>, <botania:rune:9>, <botania:rune:10>, <ore:ingotOrichalcos>, <ore:ingotAeroite>, <aether_legacy:ambrosium_shard>], 50000);
-RuneAltar.addRecipe(<additions:gabriel_rune> * 2, [<botania:rune:13>, <botania:rune:14>, <botania:rune:12>, <ore:ingotOrichalcos>, <ore:ingotAurorianSteel>, <ore:ingotManyullyn>], 50000);
-RuneAltar.addRecipe(<additions:sandalphon_rune> * 2, [<botania:rune:11>, <botania:rune:10>, <botania:rune:14>, <ore:ingotOrichalcos>, <ore:ingotEezo>, <ore:ingotTerrax>], 50000);
-RuneAltar.addRecipe(<gct_mobs:orichalcos_dreamwood>, [<botania:dreamwood:5>, <ore:ingotOrichalcos>, <ore:ingotEugardite>, <ore:nuggetCosmilite>], 100000);
-RuneAltar.addRecipe(<botaniverse:morerune> * 2, [<ore:runeWaterB>, <ore:runeAirB>, <ore:runeFireB>, <ore:runeEarthB>, <ore:ingotShadowium>], 100000);
-RuneAltar.addRecipe(<botaniverse:morerune:1> * 2, [<ore:runeSpringB>, <ore:runeSummerB>, <ore:runeAutumnB>, <ore:runeWinterB>, <ore:ingotLavarite>], 200000);
-RuneAltar.addRecipe(<botaniverse:morerune:2> * 3, [<ore:runeGreedB>, <ore:runePrideB>, <ore:runeWrathB>, <ore:runeEnvyB>, <ore:runeSlothB>, <ore:runeLustB>, <ore:runeGluttonyB>, <ore:ingotBnightium>], 400000);
-RuneAltar.addRecipe(<botaniverse:morerune:3> * 4, [<ore:runeMetatronB>, <ore:runeRatzielB>, <ore:runeZaphkielB>, <ore:runeZadkielB>, <ore:runeChamaelB>, <ore:runeMichaelB>, <ore:runeHanielB>, <ore:runeRaphaelB>, <ore:runeGabrielB>, <ore:runeSandalphonB>, <ore:ingotEverite>], 750000);
-RuneAltar.addRecipe(<botanicadds:mana_tesseract>, [<botania:spreader:3>, <ore:ingotGaia>, <ore:ingotGaia>, <botanicadds:rune_tp>, <botanicadds:rune_energy>, <botania:rune:8>], 10000);
 
 RuneAltar.removeRecipe(<botanicadds:mana_tesseract>);
 RuneAltar.removeRecipe(<extrabotany:material:5>);
@@ -109,6 +86,29 @@ PureDaisy.removeRecipe(<minecraft:cobblestone>);
 PureDaisy.removeRecipe(<minecraft:sand>);
 PureDaisy.removeRecipe(<minecraft:packed_ice>);
 PureDaisy.removeRecipe(<minecraft:obsidian>);
+
+RuneAltar.addRecipe(<twilightforest:aurora_block> * 32, [<ore:stone>, <quark:rune:*>], 50);
+RuneAltar.addRecipe(<twilightforest:castle_rune_brick> * 32, [<ore:brickStone>, <quark:rune:*>, <ore:dyePink>], 50);
+RuneAltar.addRecipe(<twilightforest:castle_rune_brick:1> * 32, [<ore:brickStone>, <quark:rune:*>, <ore:dyeLightBlue>], 50);
+RuneAltar.addRecipe(<twilightforest:castle_rune_brick:2> * 32, [<ore:brickStone>, <quark:rune:*>, <ore:dyeYellow>], 50);
+RuneAltar.addRecipe(<twilightforest:castle_rune_brick:3> * 32, [<ore:brickStone>, <quark:rune:*>, <ore:dyePurple>], 50);
+RuneAltar.addRecipe(<botania:manacookie> * 4, [<ore:foodCookie>, <ore:foodCookie>, <ore:foodCookie>, <ore:foodCookie>, <ore:manaPearl>, <ore:manaDiamond>], 3200);
+RuneAltar.addRecipe(<additions:metatron_rune> * 2, [<ore:runePrideB>.reuse(), <ore:runeWrathB>.reuse(), <ore:runeLustB>.reuse(), <ore:ingotOrichalcos>, <ore:ingotAsgardium>, <ore:ingotEvilMetal>], 50000);
+RuneAltar.addRecipe(<additions:ratziel_rune> * 2, [<ore:runeEnvyB>.reuse(), <ore:runeGluttonyB>.reuse(), <ore:runeSlothB>.reuse(), <ore:ingotOrichalcos>, <ore:ingotExperience>, <ore:ingotOraclium>], 50000);
+RuneAltar.addRecipe(<additions:zaphkiel_rune> * 2, [<ore:runeGreedB>.reuse(), <ore:runePrideB>.reuse(), <ore:runeWrathB>.reuse(), <ore:ingotOrichalcos>, <ore:dustTime>, <ore:ingotShadowium>], 50000);
+RuneAltar.addRecipe(<additions:zadkiel_rune> * 2, [<ore:runeLustB>.reuse(), <ore:runeEnvyB>.reuse(), <ore:runeGluttonyB>.reuse(), <ore:ingotOrichalcos>, <ore:ingotAqualite>, <ore:ingotDecurrium>], 50000);
+RuneAltar.addRecipe(<additions:chamael_rune> * 2, [<ore:runeSlothB>.reuse(), <ore:runeGreedB>.reuse(), <ore:runePrideB>.reuse(), <ore:ingotOrichalcos>, <ore:ingotHellite>, <ore:dustPyrotheum>], 50000);
+RuneAltar.addRecipe(<additions:michael_rune> * 2, [<ore:runeWrathB>.reuse(), <ore:runeLustB>.reuse(), <ore:runeEnvyB>.reuse(), <ore:ingotOrichalcos>, <ore:dustSpace>, <ore:ingotAstralMetal>], 50000);
+RuneAltar.addRecipe(<additions:haniel_rune> * 2, [<ore:runeGluttonyB>.reuse(), <ore:runeSlothB>.reuse(), <ore:runeGreedB>.reuse(), <ore:ingotOrichalcos>, <ore:ingotLiquifiedCoralium>, <journey:spawnerbar>], 50000);
+RuneAltar.addRecipe(<additions:raphael_rune> * 2, [<ore:runePrideB>.reuse(), <ore:runeLustB>.reuse(), <ore:runeGluttonyB>.reuse(), <ore:ingotOrichalcos>, <ore:ingotAeroite>, <aether_legacy:ambrosium_shard>], 50000);
+RuneAltar.addRecipe(<additions:gabriel_rune> * 2, [<ore:runeWrathB>.reuse(), <ore:runeEnvyB>.reuse(), <ore:runeSlothB>.reuse(), <ore:ingotOrichalcos>, <ore:ingotAurorianSteel>, <ore:ingotManyullyn>], 50000);
+RuneAltar.addRecipe(<additions:sandalphon_rune> * 2, [<ore:runeGreedB>.reuse(), <ore:runeGluttonyB>.reuse(), <ore:runeEnvyB>.reuse(), <ore:ingotOrichalcos>, <ore:ingotEezo>, <ore:ingotTerrax>], 50000);
+RuneAltar.addRecipe(<gct_mobs:orichalcos_dreamwood>, [<botania:dreamwood:5>, <ore:ingotOrichalcos>, <ore:ingotEugardite>, <ore:nuggetCosmilite>], 100000);
+RuneAltar.addRecipe(<botaniverse:morerune> * 2, [<ore:runeWaterB>.reuse(), <ore:runeAirB>.reuse(), <ore:runeFireB>.reuse(), <ore:runeEarthB>.reuse(), <ore:ingotShadowium>], 100000);
+RuneAltar.addRecipe(<botaniverse:morerune:1> * 2, [<ore:runeSpringB>.reuse(), <ore:runeSummerB>.reuse(), <ore:runeAutumnB>.reuse(), <ore:runeWinterB>.reuse(), <ore:ingotLavarite>], 200000);
+RuneAltar.addRecipe(<botaniverse:morerune:2> * 3, [<ore:runeGreedB>.reuse(), <ore:runePrideB>.reuse(), <ore:runeWrathB>.reuse(), <ore:runeEnvyB>.reuse(), <ore:runeSlothB>.reuse(), <ore:runeLustB>.reuse(), <ore:runeGluttonyB>.reuse(), <ore:ingotBnightium>], 400000);
+RuneAltar.addRecipe(<botaniverse:morerune:3> * 4, [<ore:runeForth1B>.reuse(), <ore:runeForth2B>.reuse(), <ore:runeForth3B>.reuse(), <ore:runeForth4B>.reuse(), <ore:runeForth5B>.reuse(), <ore:runeForth6B>.reuse(), <ore:runeForth7B>.reuse(), <ore:runeForth8B>.reuse(), <ore:runeForth9B>.reuse(), <ore:runeForth10B>.reuse(), <ore:ingotEverite>], 750000);
+RuneAltar.addRecipe(<botanicadds:mana_tesseract>, [<botania:spreader:3>, <ore:ingotGaia>, <ore:ingotGaia>, <ore:runeTeleportB>, <ore:runeEnergyB>, <ore:runeManaB>], 10000);
 
 GaiaPlate.remove(<botanicadds:gaiasteel_ingot>);
 GaiaPlate.add(<botanicadds:gaiasteel_ingot> * 4, 1000000, [<defiledlands:remorseful_gem>, <botania:manaresource:14>, <botania:manaresource:9>, <minecraft:nether_star>]);
@@ -182,66 +182,66 @@ GodAgglomeration.addRecipe(<gct_mobs:botanical_ingot_awakened> * 2, [
     <ore:ingotBalancedMatrix>
 ], 40000000, 0xe8d26c, 0x7eb98c, <additions:elfsteel_block>, <jaopca:block.mythsteel>, <additions:elfsteel_block>, null, null);
 GodAgglomeration.addRecipe(<gct_mobs:begonium_ingot>, [
-    <ore:runeMetatronB>,
-    <ore:runeRatzielB>,
-    <ore:runeZaphkielB>,
-    <ore:runeZadkielB>,
-    <ore:runeChamaelB>,
+    <ore:runeForth1B>,
+    <ore:runeForth2B>,
+    <ore:runeForth3B>,
+    <ore:runeForth4B>,
+    <ore:runeForth5B>,
     <ore:heartGaia>,
     <ore:ingotBotanical>,
     <ore:blockDiamondSakura>,
     <ore:blockMana>
 ], 8000000, 0xe8d26c, 0xffb7ff, <additions:elfsteel_block>, <jaopca:block.mythsteel>, <additions:elfsteel_block>, null, null);
 GodAgglomeration.addRecipe(<gct_mobs:carnationium_ingot>, [
-    <ore:runeMetatronB>,
-    <ore:runeZaphkielB>,
-    <ore:runeChamaelB>,
-    <ore:runeHanielB>,
-    <ore:runeGabrielB>,
+    <ore:runeForth1B>,
+    <ore:runeForth3B>,
+    <ore:runeForth5B>,
+    <ore:runeForth7B>,
+    <ore:runeForth9B>,
     <ore:heartGaia>,
     <ore:ingotBotanical>,
     <ore:blockPhotonium>,
     <ore:blockMana>
 ], 8000000, 0xe8d26c, 0xffffff, <additions:elfsteel_block>, <jaopca:block.mythsteel>, <additions:elfsteel_block>, null, null);
 GodAgglomeration.addRecipe(<gct_mobs:chrysanthemium_ingot>, [
-    <ore:runeMichaelB>,
-    <ore:runeHanielB>,
-    <ore:runeRaphaelB>,
-    <ore:runeGabrielB>,
-    <ore:runeSandalphonB>,
+    <ore:runeForth6B>,
+    <ore:runeForth7B>,
+    <ore:runeForth8B>,
+    <ore:runeForth9B>,
+    <ore:runeForth10B>,
     <ore:heartGaia>,
     <ore:ingotBotanical>,
     <ore:blockValkyrie>,
     <ore:blockMana>
 ], 8000000, 0xe8d26c, 0xffffff, <additions:elfsteel_block>, <jaopca:block.mythsteel>, <additions:elfsteel_block>, null, null);
 GodAgglomeration.addRecipe(<gct_mobs:myosotisium_ingot>, [
-    <ore:runeRatzielB>,
-    <ore:runeZadkielB>,
-    <ore:runeMichaelB>,
-    <ore:runeRaphaelB>,
-    <ore:runeSandalphonB>,
+    <ore:runeForth2B>,
+    <ore:runeForth4B>,
+    <ore:runeForth6B>,
+    <ore:runeForth8B>,
+    <ore:runeForth10B>,
     <ore:heartGaia>,
     <ore:ingotBotanical>,
     <ore:blockShadowium>,
     <ore:blockMana>
 ], 8000000, 0xe8d26c, 0xa07bff, <additions:elfsteel_block>, <jaopca:block.mythsteel>, <additions:elfsteel_block>, null, null);
 GodAgglomeration.addRecipe(<gct_mobs:dandelionium_ingot>, [
-    <ore:runeMetatronB>,
-    <ore:runeZadkielB>,
-    <ore:runeHanielB>,
-    <ore:runeSandalphonB>,
-    <ore:runeZaphkielB>,
+    <ore:runeForth1B>,
+    <ore:runeForth4B>,
+    <ore:runeForth7B>,
+    <ore:runeForth10B>,
+    <ore:runeForth3B>,
     <ore:heartGaia>,
     <ore:ingotBotanical>,
     <ore:blockBalancite>,
     <ore:blockMana>
 ], 8000000, 0xe8d26c, 0xcff2f9, <additions:elfsteel_block>, <jaopca:block.mythsteel>, <additions:elfsteel_block>, null, null);
 GodAgglomeration.addRecipe(<gct_mobs:rosium_ingot>, [
-    <ore:runeRatzielB>,
-    <ore:runeChamaelB>,
-    <ore:runeRaphaelB>,
-    <ore:runeMichaelB>,
-    <ore:runeGabrielB>,
+    <ore:runeForth2B>,
+    <ore:runeForth5B>,
+    <ore:runeForth8B>,
+    <ore:runeForth6B>,
+    <ore:runeForth9B>,
     <ore:heartGaia>,
     <ore:ingotBotanical>,
     <ore:blockScarlite>,
@@ -254,9 +254,8 @@ GodAgglomeration.addRecipe(<botaniverse:morepylon>, [
     <ore:ingotGhostMetal>,
     <ore:ingotCryonium>,
     <ore:ingotMistium>,
-    <ore:runeNilfheim>,
-    <ore:runeZadkielB>,
-    <ore:runeRaphaelB>
+    <ore:runeForth4B>,
+    <ore:runeForth8B>
 ], 10000000, 0xe8d26c, 0xf3825f, <additions:elfsteel_block>, <jaopca:block.mythsteel>, <additions:elfsteel_block>, null, null);
 
 for input in pureDaisyTransmutations {

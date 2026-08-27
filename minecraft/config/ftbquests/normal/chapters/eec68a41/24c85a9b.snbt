@@ -1,0 +1,34 @@
+{
+	title: "§b够用吗？",
+	x: 11.5d,
+	y: 7.5d,
+	description: "合成华纳海姆火花",
+	text: [
+		""
+	],
+	dependencies: [
+		"719ea237"
+	],
+	tasks: [{
+		uid: "3c153e29",
+		type: "item",
+		items: [{
+			item: "gctcore:vanaheim_spark"
+		}]
+	}],
+	rewards: [{
+		uid: "b6d3ce76",
+		type: "item",
+		item: "gctcore:vanaheim_spark"
+	},
+	{
+		uid: "3a329199",
+		type: "random",
+		table: 3
+	},
+	{
+		uid: "eb5f0001",
+		type: "xp",
+		xp: 4000
+	}]
+}

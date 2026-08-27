@@ -36,3 +36,15 @@ RecipeAdapterBuilder.create("elysia_crusher", "thermalexpansion:pulverizer")
     .addRecipeTooltip("§d粉碎配方支持模块化电容升级，详情请查询“模块化电容”")
     //.setMaxThreads(1)
     .build();
+
+function addCrusherRecipe(id as int, input as IIngredient, output as IItemStack, energy as int, tick as int) {
+    RecipeBuilder.newBuilder("crusher_more_recipe_" + id, "elysia_crusher", tick)
+        .addInput(input)
+        .addOutput(output)
+        .addEnergyPerTickInput(energy)
+        .addRecipeTooltip("§d粉碎配方支持模块化电容升级，详情请查询“模块化电容”")
+        .setMaxThreads(1)
+        .build();
+}
+
+addCrusherRecipe(1, <ore:itemPulsatingCrystal>, <enderio:item_material:36>, 20, 100);

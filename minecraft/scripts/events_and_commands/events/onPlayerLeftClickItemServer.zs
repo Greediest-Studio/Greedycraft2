@@ -17,7 +17,7 @@ import mods.zenutils.NetworkHandler;
 import mods.randomtweaker.botania.IManaItemHandler;
 import mods.ctutils.utils.Math;
 
-import native.com.meteor.extrabotany.common.helper.SubspaceHelper;
+import native.com.smd.gctcore.common.integration.extrabotany.SubspaceHelper;
 import native.slimeknights.tconstruct.library.utils.ToolHelper;
 
 $expand IMutableItemStack$attemptDamageItemWithEnergy(num as int, player as IPlayer) as void {
@@ -117,4 +117,9 @@ NetworkHandler.registerClient2ServerMessage("dragonBodyTraitLeftClick", function
         player.armorInventory[2].mutable().attemptDamageItemWithEnergy(5, player);
         player.armorInventory[3].mutable().attemptDamageItemWithEnergy(5, player);
     }
+});
+
+NetworkHandler.registerClient2ServerMessage("fps", function(server, byteBuf, player) {
+    var fps as int = byteBuf.readInt();
+    player.update({currentFps: fps});
 });

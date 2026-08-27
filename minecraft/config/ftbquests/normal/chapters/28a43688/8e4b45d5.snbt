@@ -1,0 +1,47 @@
+{
+	title: "§b自动化：二选一？",
+	x: -20.0d,
+	y: -2.5d,
+	description: "合成任意一种合成拓展自动化方块",
+	text: [
+		"其实都还算好用"
+	],
+	dependencies: [
+		"ae295542"
+	],
+	tasks: [{
+		uid: "de4a2ca1",
+		type: "item",
+		items: [{
+			item: "packagedexcrafting:advanced_crafter"
+		},
+		{
+			item: "packagedexcrafting:elite_crafter"
+		},
+		{
+			item: "packagedexcrafting:ultimate_crafter"
+		},
+		{
+			item: "gctcore:basic_extended_assembler"
+		},
+		{
+			item: "gctcore:advanced_extended_assembler"
+		},
+		{
+			item: "gctcore:elite_extended_assembler"
+		},
+		{
+			item: "gctcore:ultimate_extended_assembler"
+		}]
+	}],
+	rewards: [{
+		uid: "585f3cd2",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "96feabaf",
+		type: "xp",
+		xp: 5000
+	}]
+}

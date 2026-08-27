@@ -10985,5 +10985,2842 @@
                 "mekanism:reinforcedplasticblock@7"
             ]
         }
-    ]}
+    ],
+    "modules": [{
+        "id": "advanced",
+        "parts": [
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:ingot_block2@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 9,
+            "elements": [
+                "nuclearcraft:ingot_block2@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:ingot_block2@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "jaopca:block.tough@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:ingot_block2@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:ingot_block2@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:ingot_block2@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 4,
+            "elements": [
+                "jaopca:block.tough@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:ingot_block2@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 3,
+            "elements": [
+                "jaopca:block.tough@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "casings_advanced"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@5"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "jaopca:block.tough@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:ingot_block2@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 3,
+            "elements": [
+                "nuclearcraft:ingot_block2@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 13,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:ingot_block2@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 8,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 9,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:ingot_block2@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 9,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "jaopca:block.cadmium_chalcogenide@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "jaopca:block.tough@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "jaopca:block.cadmium_chalcogenide@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "extendedcrafting:storage@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 13,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "jaopca:block.extreme@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 12,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 9,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "jaopca:block.extreme@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "jaopca:block.extreme@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "jaopca:block.extreme@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "casings_advanced"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 12,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "extendedcrafting:storage@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 9,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:turbine_rotor_shaft@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@3"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 12,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "jaopca:block.extreme@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:ingot_block2@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "jaopca:block.extreme@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 14,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 6,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "jaopca:block.extreme@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:turbine_rotor_shaft@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 6,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "jaopca:block.extreme@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:turbine_rotor_shaft@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 6,
+            "elements": [
+                "extendedcrafting:storage@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "jaopca:block.extreme@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:ingot_block2@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 10,
+            "elements": [
+                "jaopca:block.tough@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:ingot_block2@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:ingot_block2@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "jaopca:block.cadmium_chalcogenide@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@3"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "jaopca:block.tough@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "z": 8,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 7,
+            "z": 8,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:ingot_block2@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:ingot_block2@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 7,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@5"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:ingot_block2@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:ingot_block2@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 5,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "jaopca:block.cadmium_chalcogenide@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 14,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 6,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 8,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 0,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 6,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 14,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 6,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 8,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 11,
+            "elements": [
+                "jaopca:block.cadmium_chalcogenide@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "extendedcrafting:storage@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "z": 7,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 7,
+            "z": 6,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 7,
+            "elements": [
+                "jaopca:block.extreme@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 9,
+            "z": 8,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 11,
+            "elements": [
+                "nuclearcraft:ingot_block2@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "mekanism:reinforcedplasticblock@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:turbine_rotor_shaft@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 8,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 8,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 11,
+            "elements": [
+                "jaopca:block.tough@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 5,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 7,
+            "elements": [
+                "jaopca:block.extreme@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 8,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:turbine_rotor_shaft@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "z": 9,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 8,
+            "elements": [
+                "minecraft:water@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 9,
+            "z": 8,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 7,
+            "elements": [
+                "jaopca:block.extreme@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 7,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 5,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 5,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 9,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "mekanism:reinforcedplasticblock@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "thebetweenlands:syrmorite_hopper@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": 8,
+            "elements": [
+                "nuclearcraft:ingot_block2@7"
+            ]
+        }]
+    }]
+}
 

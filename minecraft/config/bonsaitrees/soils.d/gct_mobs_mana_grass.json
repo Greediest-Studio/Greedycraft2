@@ -1,0 +1,14 @@
+{
+    "name": "gct_mobs:mana_grass",
+    "mod": "gct_mobs",
+    "soil": {
+        "name": "gct_mobs:mana_grass",
+        "data": 0,
+        "ignoreMeta": true
+    },
+    "modifiers": {
+        "growTime": 1,
+        "dropChance": 1
+    },
+    "providedTags": ["mana_grass"]
+}

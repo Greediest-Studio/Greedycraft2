@@ -120,6 +120,8 @@ ArcaneWorkbench.registerShapedRecipe("magic_eye", "", 50, [
     [null, <thaumcraft:salis_mundus>, null]
 ]);
 
+Crucible.removeRecipe(<planarartifice:bismuth_ingot>);
+
 Crucible.registerRecipe("salis_mundus", "", <thaumcraft:salis_mundus> * 2, <thaumcraft:salis_mundus>, [<aspect:praecantatio> * 3, <aspect:auram> * 3]);
 Crucible.registerRecipe("smithstoneore", "", <journey:smithstoneore>, <journey:enderilliumblock>, [<aspect:vitreus> * 20, <aspect:alienis> * 25]);
 
@@ -593,4 +595,20 @@ Infusion.registerRecipe("perfect_solar_panel", "", <crazyae:perfect_solar_panel>
     <thaumcraft:mechanism_complex>,
     <crazyae:material:16>,
     <solarflux:solar_panel_void_metal>
+]);
+
+Infusion.registerRecipe("botanical_soul", "", <gct_mobs:botanical_soul> * 6, 25, [
+    <aspect:herba> * 640,
+    <aspect:terra> * 640,
+    <aspect:primitivus> * 320
+], <ore:eternalLifeEssence>, [
+    <forge:bucketfilled>.withTag({FluidName: "concentrated_plant_essence", Amount: 1000}),
+    <ore:powderMana>,
+    <ore:powderMana>,
+    <ore:dustPrimordial>,
+    <ore:dustPrimordial>,
+    <ore:dustPrimordial>,
+    <ore:dustPrimordial>,
+    <gctcore:alf_spark>,
+    <gctcore:alf_spark>
 ]);

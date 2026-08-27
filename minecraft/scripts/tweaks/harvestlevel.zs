@@ -20,6 +20,42 @@ import mods.contenttweaker.Item;
 <item:divinerpg:arcanium_extractor>.asBlock().definition.hardness = 200.0f;
 <item:divinerpg:arcanium_extractor>.asBlock().definition.setHarvestLevel("pickaxe", 9);
 
+<item:divinerpg:soul_stone>.asBlock().definition.setHarvestLevel("pickaxe", 10);
+<item:divinerpg:ancient_stone>.asBlock().definition.setHarvestLevel("pickaxe", 10);
+<item:divinerpg:soul_sludge>.asBlock().definition.setHarvestLevel("pickaxe", 10);
+<item:divinerpg:ancient_tile>.asBlock().definition.setHarvestLevel("pickaxe", 10);
+<item:divinerpg:degraded_bricks>.asBlock().definition.setHarvestLevel("pickaxe", 10);
+<item:divinerpg:ancient_bricks>.asBlock().definition.setHarvestLevel("pickaxe", 10);
+<item:divinerpg:dungeon_lamp>.asBlock().definition.setHarvestLevel("pickaxe", 10);
+<item:divinerpg:degraded_brick_wall>.asBlock().definition.setHarvestLevel("pickaxe", 10);
+<item:divinerpg:arcanium_power>.asBlock().definition.setHarvestLevel("pickaxe", 10);
+<item:divinerpg:degraded_brick_door>.asBlock().definition.setHarvestLevel("pickaxe", 10);
+<item:divinerpg:ancient_brick_door>.asBlock().definition.setHarvestLevel("pickaxe", 10);
+<item:divinerpg:arcanium_metal>.asBlock().definition.setHarvestLevel("pickaxe", 10);
+<item:divinerpg:degraded_brick_stairs>.asBlock().definition.setHarvestLevel("pickaxe", 10);
+<item:divinerpg:heat_trap_on>.asBlock().definition.setHarvestLevel("pickaxe", 10);
+<item:divinerpg:heat_trap>.asBlock().definition.setHarvestLevel("pickaxe", 10);
+<item:divinerpg:ancient_tile>.asBlock().definition.setHarvestLevel("pickaxe", 10);
+<item:minecraft:bedrock>.asBlock().definition.setHarvestLevel("pickaxe", 10);
+
+<item:divinerpg:soul_stone>.asBlock().definition.hardness = 200.0f;
+<item:divinerpg:ancient_stone>.asBlock().definition.hardness = 200.0f;
+<item:divinerpg:soul_sludge>.asBlock().definition.hardness = 200.0f;
+<item:divinerpg:ancient_tile>.asBlock().definition.hardness = 200.0f;
+<item:divinerpg:degraded_bricks>.asBlock().definition.hardness = 200.0f;
+<item:divinerpg:ancient_bricks>.asBlock().definition.hardness = 200.0f;
+<item:divinerpg:dungeon_lamp>.asBlock().definition.hardness = 200.0f;
+<item:divinerpg:degraded_brick_wall>.asBlock().definition.hardness = 200.0f;
+<item:divinerpg:arcanium_power>.asBlock().definition.hardness = 200.0f;
+<item:divinerpg:degraded_brick_door>.asBlock().definition.hardness = 200.0f;
+<item:divinerpg:ancient_brick_door>.asBlock().definition.hardness = 200.0f;
+<item:divinerpg:arcanium_metal>.asBlock().definition.hardness = 200.0f;
+<item:divinerpg:degraded_brick_stairs>.asBlock().definition.hardness = 200.0f;
+<item:divinerpg:heat_trap_on>.asBlock().definition.hardness = 200.0f;
+<item:divinerpg:heat_trap>.asBlock().definition.hardness = 200.0f;
+<item:divinerpg:ancient_tile>.asBlock().definition.hardness = 200.0f;
+
+
 <item:minecraft:barrier>.asBlock().definition.hardness = 1000.0f;
 <item:minecraft:barrier>.asBlock().definition.setHarvestLevel("pickaxe", 12);
 

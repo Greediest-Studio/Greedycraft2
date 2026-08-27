@@ -92,5 +92,6 @@ global furnaceRecipes as IItemStack[IIngredient] = {
     <abyssalcraft:coin> : <minecraft:iron_ingot> * 4,
     <actuallyadditions:item_misc:20> : <minecraft:iron_ingot> * 2,
     <ore:clusterIron> : <minecraft:iron_ingot> * 2,
-    <sakura:iron_sand> : <minecraft:iron_ingot>
+    <sakura:iron_sand> : <minecraft:iron_ingot>,
+    <ore:dustPolonium> : <additions:polonium_ingot>
 } as IItemStack[IIngredient];

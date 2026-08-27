@@ -1,0 +1,32 @@
+{
+    "name": "betterendforge:tenanea",
+    "mod": "betterendforge",
+    "sapling": {
+        "name": "betterendforge:tenanea_sapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "minecraft:stick",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "betterendforge:tenanea_log",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "betterendforge:tenanea_leaves",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "betterendforge:tenanea_sapling",
+            "data": 0,
+            "type": "SAPLING"
+        }
+    ],
+    "compatibleSoilTags": ["pink_moss"]
+}

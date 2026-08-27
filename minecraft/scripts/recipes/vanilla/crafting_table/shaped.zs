@@ -23,10 +23,6 @@ recipes.remove(<divinerpg:mysterious_clock>);
 recipes.remove(<divinerpg:twilight_clock>);
 recipes.remove(<theaurorian:aurorianportalframebricks>);
 recipes.remove(<journey:eucaportalframe>);
-if (!isNull(itemUtils.getItem("utilityworlds:portal_void"))) {
-    recipes.remove(itemUtils.getItem("utilityworlds:portal_void"));
-    recipes.remove(itemUtils.getItem("utilityworlds:portal_garden"));
-}
 recipes.remove(<divinerpg:infernal_flame>);
 recipes.remove(<avaritia:neutron_collector>);
 recipes.remove(<additions:slime_crown>);
@@ -43,9 +39,6 @@ recipes.remove(<extrautils2:spike_iron>*4);
 recipes.remove(<extrautils2:spike_wood>*4);
 recipes.remove(<extrautils2:spike_stone>*4);
 recipes.remove(<divinerpg:serenade_of_health>);
-
-
-
 
 recipes.addShaped(<gugu-utils:starlightinputhatch:2>, [[<modularmachinery:itemmodularium>, <ore:ingotAstralMetal>, <modularmachinery:itemmodularium>],[<ore:ingotAstralMetal>, <gugu-utils:starlightinputhatch:1>, <ore:ingotAstralMetal>], [<modularmachinery:itemmodularium>, <ore:ingotAstralMetal>, <modularmachinery:itemmodularium>]]);
 recipes.addShaped(<additions:elfsteel_block>, [[<ore:ingotElfsteel>, <ore:ingotElfsteel>, <ore:ingotElfsteel>],[<ore:ingotElfsteel>, <ore:ingotElfsteel>, <ore:ingotElfsteel>], [<ore:ingotElfsteel>, <ore:ingotElfsteel>, <ore:ingotElfsteel>]]);
@@ -141,13 +134,13 @@ recipes.addShaped(<gct_mobs:earth_orb>, [[<ore:obsidian>, <ore:ingotTerrasteel>,
 recipes.addShaped(<gct_mobs:earthbound_receiver>, [[<ore:livingwoodTwig>, <ore:ingotSky>, <ore:livingwoodTwig>],[<ore:livingwoodTwig>, <gct_mobs:earthbound_core>, <ore:livingwoodTwig>], [<ore:blockMud>, <ore:blockMud>, <ore:blockMud>]]);
 recipes.addShaped(<gct_mobs:earthbound_core>, [[<ore:livingwoodTwig>, <ore:ingotAuraIron>, <ore:livingwoodTwig>],[<ore:livingwoodTwig>, <gct_mobs:holysteel_ingot>, <ore:livingwoodTwig>], [<naturesaura:infused_brick>, <naturesaura:infused_brick>, <naturesaura:infused_brick>]]);
 recipes.addShaped(<gugu-utils:aurainputhatch>, [[<ore:ingotModularium>, <ore:ingotSky>, <ore:ingotModularium>],[<ore:ingotAuraIron>, <modularmachinery:blockcasing>, <ore:ingotAuraIron>], [<ore:ingotModularium>, <ore:ingotEarth>, <ore:ingotModularium>]]);
+recipes.addShaped(<gugu-utils:auraoutputhatch>, [[<ore:ingotModularium>, <ore:ingotEarth>, <ore:ingotModularium>],[<ore:ingotAuraIron>, <modularmachinery:blockcasing>, <ore:ingotAuraIron>], [<ore:ingotModularium>, <ore:ingotSky>, <ore:ingotModularium>]]);
 recipes.addShaped(<gct_ores:gaia_spirit_machine_frame>, [[<ore:ingotGaia>, null, <ore:ingotGaia>],[null, <ore:gearGaia>, null], [<ore:ingotGaia>, null, <ore:ingotGaia>]]);
 recipes.addShaped(<gct_ores:gaia_steel_machine_frame>, [[<ore:ingotGaiasteel>, null, <ore:ingotGaiasteel>],[null, <ore:gearGaiasteel>, null], [<ore:ingotGaiasteel>, null, <ore:ingotGaiasteel>]]);
 recipes.addShaped(<gct_ores:orichalcos_machine_frame>, [[<ore:ingotOrichalcos>, null, <ore:ingotOrichalcos>],[null, <ore:gearOrichalcos>, null], [<ore:ingotOrichalcos>, null, <ore:ingotOrichalcos>]]);
 recipes.addShaped(<gct_ores:elemetiumsteel_machine_frame>, [[<ore:ingotElvenElementium>, null, <ore:ingotElvenElementium>],[null, <ore:gearElvenElementium>, null], [<ore:ingotElvenElementium>, null, <ore:ingotElvenElementium>]]);
 recipes.addShaped(<gct_ores:manasteel_machine_frame>, [[<ore:ingotManasteel>, null, <ore:ingotManasteel>],[null, <ore:gearManasteel>, null], [<ore:ingotManasteel>, null, <ore:ingotManasteel>]]);
 recipes.addShaped(<gct_ores:terrasteel_machine_frame>, [[<ore:ingotTerrasteel>, null, <ore:ingotTerrasteel>],[null, <ore:gearTerrasteel>, null], [<ore:ingotTerrasteel>, null, <ore:ingotTerrasteel>]]);
-recipes.addShaped(<modularmachinery:blockmepatternprovider>, [[<modularmachinery:itemmodularium>, <modularmachinery:blockcasing>, <modularmachinery:itemmodularium>],[<modularmachinery:itemmodularium>, <appliedenergistics2:material:52>, <modularmachinery:itemmodularium>], [<modularmachinery:itemmodularium>, <modularmachinery:blockcasing>, <modularmachinery:itemmodularium>]]);
 recipes.addShaped(<modularmachinery:blockmegasinputbus>, [[<modularmachinery:itemmodularium>, <mekeng:gas_import_bus>, <modularmachinery:itemmodularium>],[<modularmachinery:itemmodularium>, <appliedenergistics2:material:43>, <modularmachinery:itemmodularium>], [<modularmachinery:itemmodularium>, <modularmachinery:blockcasing>, <modularmachinery:itemmodularium>]]);
 recipes.addShaped(<modularmachinery:blockmefluidinputbus>, [[<modularmachinery:itemmodularium>, <appliedenergistics2:part:241>, <modularmachinery:itemmodularium>],[<modularmachinery:itemmodularium>, <appliedenergistics2:material:43>, <modularmachinery:itemmodularium>], [<modularmachinery:itemmodularium>, <modularmachinery:blockcasing>, <modularmachinery:itemmodularium>]]);
 recipes.addShaped(<modularmachinery:blockmeiteminputbus>, [[<modularmachinery:itemmodularium>, <appliedenergistics2:part:240>, <modularmachinery:itemmodularium>],[<modularmachinery:itemmodularium>, <appliedenergistics2:material:43>, <modularmachinery:itemmodularium>], [<modularmachinery:itemmodularium>, <modularmachinery:blockcasing>, <modularmachinery:itemmodularium>]]);

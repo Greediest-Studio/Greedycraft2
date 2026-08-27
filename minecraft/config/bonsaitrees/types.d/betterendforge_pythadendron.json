@@ -1,0 +1,32 @@
+{
+    "name": "betterendforge:pythadendron",
+    "mod": "betterendforge",
+    "sapling": {
+        "name": "betterendforge:pythadendron_sapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "minecraft:stick",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "betterendforge:pythadendron_log",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "betterendforge:pythadendron_leaves",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "betterendforge:pythadendron_sapling",
+            "data": 0,
+            "type": "SAPLING"
+        }
+    ],
+    "compatibleSoilTags": ["chorus_nylium"]
+}

@@ -17,6 +17,7 @@ val errorStone = <minecraft:stone>.withTag({display: {Name: LangUtil.translate("
 
 StarlightInfusion.addInfusion(<biomesoplenty:gem:1>, <additions:resonating_ruby>, false, 0.7, 200);
 StarlightInfusion.addInfusion(<astralsorcery:blockmarble>, <gct_mobs:astral_portal_core>, true, 1.0, 400);
+StarlightInfusion.addInfusion(<minecraft:stone>, <gct_mobs:polarisite>, true, 0.3, 60);
 
 AttunementAltar.addRecipe(<ore:toolTiC>, errorStone);
 AttunementAltar.addRecipe(<ore:armorTiC>, errorStone);
@@ -43,7 +44,53 @@ Altar.addConstellationAltarRecipe("philosophers_stone", <projecte:item.pe_philos
     <ore:dustBlaze>, <ore:dustBlaze>,
     <ore:dustBlaze>, <ore:dustBlaze>
 ]);
-            
+
+Altar.addConstellationAltarRecipe("niflheim_wood", <botaniverse:morewood> * 4, 1000, 40, [
+    <botania:dreamwood>, <ore:runeElementB>, <botania:dreamwood>,
+    <ore:runeElementB>, <ore:ingotDarkice>, <ore:runeElementB>,
+    <botania:dreamwood>, <ore:runeElementB>, <botania:dreamwood>,
+    <astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>,
+    <ore:gemRime>, <ore:gemRime>,
+    <ore:gemRime>, <ore:gemRime>,
+    <ore:gemRime>, <ore:gemRime>,
+    <ore:gemRime>, <ore:gemRime>
+]);
+
+Altar.addConstellationAltarRecipe("niflheim_rock", <botaniverse:morerock> * 4, 1000, 40, [
+    <botanicadds:dreamrock>, <ore:runeElementB>, <botanicadds:dreamrock>,
+    <ore:runeElementB>, <ore:ingotDarkice>, <ore:runeElementB>,
+    <botanicadds:dreamrock>, <ore:runeElementB>, <botanicadds:dreamrock>,
+    <astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>, <astralsorcery:itemusabledust:1>,
+    <ore:gemRime>, <ore:gemRime>,
+    <ore:gemRime>, <ore:gemRime>,
+    <ore:gemRime>, <ore:gemRime>,
+    <ore:gemRime>, <ore:gemRime>    
+]);
+
+Altar.addTraitAltarRecipe("jotunheim_wood", <gctcore:gct_mana_wood> * 4, 5000, 40, [
+    <botaniverse:morewood>, <ore:runeSeasonB>, <botaniverse:morewood>,
+    <ore:runeSeasonB>, <ore:eyeCyclops>, <ore:runeSeasonB>,
+    <botaniverse:morewood>, <ore:runeSeasonB>, <botaniverse:morewood>,
+    <twilightforest:giant_obsidian>, <twilightforest:giant_obsidian>, <twilightforest:giant_obsidian>, <twilightforest:giant_obsidian>,
+    <ore:dustDraconiumAwakened>, <ore:dustDraconiumAwakened>,
+    <ore:dustDraconiumAwakened>, <ore:dustDraconiumAwakened>,
+    <ore:dustDraconiumAwakened>, <ore:dustDraconiumAwakened>,
+    <ore:dustDraconiumAwakened>, <ore:dustDraconiumAwakened>,
+    <ore:ingotPhotonium>, <ore:ingotPhotonium>, <ore:ingotPhotonium>, <ore:ingotPhotonium>
+], "astralsorcery.constellation.lucerna");
+
+Altar.addTraitAltarRecipe("jotunheim_rock", <gctcore:gct_mana_rock> * 4, 5000, 40, [
+    <botaniverse:morerock>, <ore:runeSeasonB>, <botaniverse:morerock>,
+    <ore:runeSeasonB>, <ore:eyeCyclops>, <ore:runeSeasonB>,
+    <botaniverse:morerock>, <ore:runeSeasonB>, <botaniverse:morerock>,
+    <twilightforest:giant_obsidian>, <twilightforest:giant_obsidian>, <twilightforest:giant_obsidian>, <twilightforest:giant_obsidian>,
+    <ore:dustDraconiumAwakened>, <ore:dustDraconiumAwakened>,
+    <ore:dustDraconiumAwakened>, <ore:dustDraconiumAwakened>,
+    <ore:dustDraconiumAwakened>, <ore:dustDraconiumAwakened>,
+    <ore:dustDraconiumAwakened>, <ore:dustDraconiumAwakened>,
+    <ore:ingotPhotonium>, <ore:ingotPhotonium>, <ore:ingotPhotonium>, <ore:ingotPhotonium>
+], "astralsorcery.constellation.lucerna");
+
 Altar.addTraitAltarRecipe("heavite", <gct_mobs:heavite> * 14, 4000, 100, [
     <ore:stoneLerdite>, <ore:stoneAmeralite>, <ore:stoneLerdite>,
     <ore:stoneAmeralite>, <ore:blockDaynight>, <ore:stoneAmeralite>,

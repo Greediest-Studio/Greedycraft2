@@ -1,0 +1,12 @@
+name = "ModTweaker Community Edition"
+filename = "modtweaker-5.0.010.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c620d1e22a4825fd825b08fd7fe2a32c669c7192"
+mode = "metadata:curseforge"
+
+[update.curseforge]
+file-id = 8614693
+project-id = 1643877

@@ -1,0 +1,14 @@
+{
+    "name": "betterendforge:chorus_nylium",
+    "mod": "betterendforge",
+    "soil": {
+        "name": "betterendforge:chorus_nylium",
+        "data": 0,
+        "ignoreMeta": true
+    },
+    "modifiers": {
+        "growTime": 1,
+        "dropChance": 1
+    },
+    "providedTags": ["end_stone", "chorus_nylium"]
+}

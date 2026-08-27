@@ -1,0 +1,32 @@
+{
+    "name": "thebetweenlands:sap",
+    "mod": "thebetweenlands",
+    "sapling": {
+        "name": "thebetweenlands:sapling_sap",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "minecraft:stick",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "thebetweenlands:log_sap",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "thebetweenlands:leaves_sap_tree",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "thebetweenlands:sapling_sap",
+            "data": 0,
+            "type": "SAPLING"
+        }
+    ],
+    "compatibleSoilTags": ["grass", "dirt"]
+}

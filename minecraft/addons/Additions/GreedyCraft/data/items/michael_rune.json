@@ -1,5 +1,8 @@
 {
   "name": "美丽符文",
-  "ore_dict": "runeMichaelB",
+  "ore_dict": [
+    "runeMichaelB",
+    "runeForth6B"
+  ],
   "type": "additions:simple"
 }

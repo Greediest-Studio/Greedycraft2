@@ -11,7 +11,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.world.IBlockPos;
 
-import native.net.minecraft.world.World;
+import crafttweaker.world.IWorldProvider;
 
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.MachineModifier;
@@ -49,8 +49,8 @@ MMEvents.onMachinePreTick("solar_power_generator", function(event as MachineTick
     val ctrl as IMachineController = event.controller;
     if (!ctrl.world.isRemote() && ctrl.world.getWorldTime() % 100 == 0) {
         var panelLight as int = ctrl.checkPanelLight();
-        var nativeWorld as World = ctrl.world.native as World;
-        var worldBrightness as float = nativeWorld.getSunBrightness(1.0f);
+        var World = IWorldProvider.getFromID(ctrl.world.getDimension());
+        var worldBrightness as float = World.getSunBrightness(1.0F);
         var efficiency as float = (panelLight as float / 36.0f) * worldBrightness;
         ctrl.customData = ctrl.customData.update({
             solarPanelLight: panelLight as int,
@@ -113,7 +113,8 @@ function addSolarPanelRecipe(panel as IItemStack, baseRF as long) {
                 parallelBonus = 3.68f;
             }
             var efficiency as float = isNull(event.controller.customData.solarEfficiency) ? 0.0f : event.controller.customData.solarEfficiency as float;
-            event.factoryRecipeThread.addModifier("solar_generation_bonus", RecipeModifierBuilder.create("modularmachinery:energy", "output", parallelBonus * efficiency, 1, false).build());
+            var upgBonus as float = event.controller.hasMachineUpgrade("generation_upg") ? 1.6f : 1.0f;
+            event.factoryRecipeThread.addModifier("solar_generation_bonus", RecipeModifierBuilder.create("modularmachinery:energy", "output", parallelBonus * efficiency * upgBonus, 1, false).build());
         })
         .setMaxThreads(1)
         .addRecipeTooltip("§b实际发电量拥有§c并行奖赏§b机制，其单位输出电量将乘以(0.8+0.08×并行数)")

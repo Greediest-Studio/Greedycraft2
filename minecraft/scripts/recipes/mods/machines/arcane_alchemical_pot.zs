@@ -30,7 +30,7 @@ MMEvents.onControllerGUIRender("arcane_alchemical_pot", function(event as Contro
 });
 
 MachineModifier.setMaxThreads("arcane_alchemical_pot", 32);
-MachineModifier.setMaxParallelism("arcane_alchemical_pot", 16384);
+MachineModifier.setMaxParallelism("arcane_alchemical_pot", 65536);
 MachineModifier.setInternalParallelism("arcane_alchemical_pot", 1);
 
 RecipeAdapterBuilder.create("arcane_alchemical_pot", "thaumcraft:whimcraft_crucible")

@@ -1,0 +1,32 @@
+{
+    "name": "journey:earthern",
+    "mod": "journey",
+    "sapling": {
+        "name": "journey:earthensapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "minecraft:stick",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "journey:earthennetherlog",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "journey:earthennetherleaves",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "journey:earthensapling",
+            "data": 0,
+            "type": "SAPLING"
+        }
+    ],
+    "compatibleSoilTags": ["dirt", "grass"]
+}

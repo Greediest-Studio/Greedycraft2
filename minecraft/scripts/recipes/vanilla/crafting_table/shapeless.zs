@@ -522,3 +522,18 @@ RecipeUtil.addShapeless("quicksilver_reverse", <additions:mercury_ingot>,
 RecipeUtil.addShapeless("ant_emperor_bait", <additions:ant_emperor_bait>,
     [<erebus:materials:37>, <erebus:materials:37>, <erebus:materials:37>, <erebus:materials:37>, <ore:dustAurune>, <ore:dustAurune>, <ore:gemHermaphroditic>, <ore:gemHermaphroditic>, <additions:erebus_complex>]
 );
+RecipeUtil.addShapeless("universal_interface", <ae2_utilix:common_interface>, 
+    [<ae2fc:trio_interface>, <additions:calculation_processor_2>, <additions:logic_processor_2>, <additions:engineering_processor_2>]
+);
+RecipeUtil.addShapeless("universal_import_bus", <ae2_utilix:common_import_bus> * 2, 
+    [<appliedenergistics2:part:240>, <appliedenergistics2:part:241>, <mekeng:gas_import_bus>, <crazyae:part:4>, <crazyae:part:7>, <thaumicenergistics:essentia_import>]
+);
+RecipeUtil.addShapeless("universal_export_bus", <ae2_utilix:common_export_bus> * 2, 
+    [<appliedenergistics2:part:260>, <appliedenergistics2:part:261>, <mekeng:gas_export_bus>, <crazyae:part:5>, <crazyae:part:8>, <thaumicenergistics:essentia_export>]
+);
+RecipeUtil.addShapeless("pattern_mirror_turning_1", <modularmachinery:blockmepatternmirrorimage>,
+    [<whimcraft:blockshareinfhandler>]
+);
+RecipeUtil.addShapeless("pattern_mirror_turning_2", <whimcraft:blockshareinfhandler>,
+    [<modularmachinery:blockmepatternmirrorimage>]
+);

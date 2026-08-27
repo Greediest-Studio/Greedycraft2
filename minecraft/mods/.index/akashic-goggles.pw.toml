@@ -1,13 +1,12 @@
-name = 'Akashic Goggles'
-filename = 'Akashic-Goggles-v1.0.2-mc1.12.2.jar'
-side = 'both'
+name = "Akashic Goggles"
+filename = "Akashic-Goggles-v1.0.3-mc1.12.2.jar"
+side = "both"
 
 [download]
-hash-format = 'sha1'
-hash = '5da8c5133948e75ba197347621a76c5164912405'
-mode = 'metadata:curseforge'
+hash-format = "sha1"
+hash = "b63c94ccca0e73a4652eed602358f63dc6584abe"
+mode = "metadata:curseforge"
 
-[update]
 [update.curseforge]
-file-id = 7852898
+file-id = 8324837
 project-id = 1304321

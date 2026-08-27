@@ -1,12 +1,13 @@
-name = "Thaumic Information"
-filename = "thaumicinfo-1.1.2.jar"
-side = "both"
+filename = 'thaumicinfo-1.2.1.jar'
+name = 'Thaumic Information'
+side = 'both'
 
 [download]
-hash-format = "sha1"
-hash = "483d8b3d4b30a645feb7e39bee59a2036bbf38b9"
-mode = "metadata:curseforge"
+hash = '43d7cbe25c8462305033b57c55d1f14abab127e7'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
 
+[update]
 [update.curseforge]
-file-id = 8355648
+file-id = 8513668
 project-id = 1590952

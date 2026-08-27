@@ -241,7 +241,29 @@ val tooltipMap as string[][IIngredient] = {
     <functionalstoragelegacy:universal_item_generation_t1> : [universal_item_generation],
     <functionalstoragelegacy:universal_item_generation_t2> : [universal_item_generation],
     <functionalstoragelegacy:universal_item_generation_t3> : [universal_item_generation],
-    <functionalstoragelegacy:universal_item_generation_t4> : [universal_item_generation]
+    <functionalstoragelegacy:universal_item_generation_t4> : [universal_item_generation],
+    <botania:pool:2> : [game.localize("greedycraft.tooltip.botania.manapool_capacity.diluted")],
+    <botania:pool> : [game.localize("greedycraft.tooltip.botania.manapool_capacity.basic")],
+    <botanicadds:pool_dreaming> : [game.localize("greedycraft.tooltip.botania.manapool_capacity.dream")],
+    <botania:pool:3> : [game.localize("greedycraft.tooltip.botania.manapool_capacity.gaia")],
+    <botaniverse:morepool> : [game.localize("greedycraft.tooltip.botania.manapool_capacity.niflheim")],
+    <gctcore:gct_mana_pool> : [game.localize("greedycraft.tooltip.botania.manapool_capacity.joetunheim")],
+    <gctcore:gct_mana_pool:1> : [game.localize("greedycraft.tooltip.botania.manapool_capacity.nidavellir")],
+    <botaniverse:morepool:1> : [game.localize("greedycraft.tooltip.botania.manapool_capacity.muspelheim")],
+    <gctcore:gct_mana_pool:2> : [game.localize("greedycraft.tooltip.botania.manapool_capacity.vanaheim")],
+    <botaniverse:morepool:2>: [game.localize("greedycraft.tooltip.botania.manapool_capacity.helheim")],
+    <botaniverse:morepool:3>: [game.localize("greedycraft.tooltip.botania.manapool_capacity.asgard")],
+    <botania:spreader> : [game.localize("greedycraft.tooltip.botania.manaspreader.basic")],
+    <botania:spreader:1> : [game.localize("greedycraft.tooltip.botania.manaspreader.basic")],
+    <botania:spreader:2> : [game.localize("greedycraft.tooltip.botania.manaspreader.dream")],
+    <botania:spreader:3> : [game.localize("greedycraft.tooltip.botania.manaspreader.gaia")],
+    <botaniverse:morespreader> : [game.localize("greedycraft.tooltip.botania.manaspreader.niflheim")],
+    <gctcore:gct_mana_spreader> : [game.localize("greedycraft.tooltip.botania.manaspreader.joetunheim")],
+    <gctcore:gct_mana_spreader:1> : [game.localize("greedycraft.tooltip.botania.manaspreader.nidavellir")],
+    <botaniverse:morespreader:1> : [game.localize("greedycraft.tooltip.botania.manaspreader.muspelheim")],
+    <gctcore:gct_mana_spreader:2> : [game.localize("greedycraft.tooltip.botania.manaspreader.vanaheim")],
+    <botaniverse:morespreader:2> : [game.localize("greedycraft.tooltip.botania.manaspreader.helheim")],
+    <botaniverse:morespreader:3> : [game.localize("greedycraft.tooltip.botania.manaspreader.asgard")]
 } as string[][IIngredient];
 
 for ingredient in tooltipMap {

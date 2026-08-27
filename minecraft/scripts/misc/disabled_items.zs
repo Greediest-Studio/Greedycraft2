@@ -28,7 +28,6 @@ var disabledItems as IIngredient[] = [
     <actuallyadditions:item_bag>,
     <tiths:ore_steamium>,
     <actuallyadditions:block_phantom_breaker>,
-    <nuclearcraft:alloy_furnace>,
     <openblocks:block_placer>,
     <cyclicmagic:placer_block>,
     <actuallyadditions:block_placer>,
@@ -921,7 +920,6 @@ var disabledItems as IIngredient[] = [
     <thaumicwonders:disjunction_cloth>,
     <evilcraft:spirit_furnace>,
     <tiths:ore_tanatonium>,
-    <additions:sanite_ore>,
     <modularmachinery:blockstarlightproviderinput>,
     <modularmachinery:blockstarlightprovideroutput>,
     <modularmachinery:blockconstellationprovider>,
@@ -1059,7 +1057,18 @@ var disabledItems as IIngredient[] = [
     <betterendforge:crystalite_chestplate>,
     <betterendforge:crystalite_leggings>,
     <betterendforge:crystalite_boots>,
-    <modularmachineryaddons:advancedmachineassembler>
+    <modularmachineryaddons:advancedmachineassembler>,
+    <mekceumoremachine:voidmineralgenerator>.withTag({tier: 0}),
+    <mekceumoremachine:voidmineralgenerator>.withTag({tier: 1}),
+    <mekceumoremachine:voidmineralgenerator>.withTag({tier: 2}),
+    <mekceumoremachine:voidmineralgenerator>.withTag({tier: 3}),
+    <mekceumoremachine:voidmineralgenerator>,
+    <botania_applie:mana_card_basic>,
+    <botania_applie:mana_card_advanced>,
+    <flux_applied:energy_import_bus>,
+    <ae2_utilix:overflow_destruction_card>,
+    <tiths:block_punji_cloud>,
+    <betterbuilderswandsfix:break_core>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [
@@ -1105,10 +1114,6 @@ for item in loadedMods["mekanism"].items {
     if (item.definition.id has "gastank") && (item.displayName has "创造") {
         JEI.hide(item);
     }
-}
-
-if (!isNull(itemUtils.getItem("utilityworlds:portal_void"))) {
-    disabledItems += itemUtils.getItem("utilityworlds:portal_mining");
 }
 
 for ingredient in disabledItems {

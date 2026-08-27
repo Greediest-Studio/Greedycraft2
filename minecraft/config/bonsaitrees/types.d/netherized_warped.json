@@ -1,0 +1,29 @@
+{
+    "name": "netherized:warped",
+    "mod": "netherized",
+    "sapling": {
+        "name": "netherized:warped_fungus",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "netherized:warped_stem",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "netherized:warped_wart_block",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "netherized:shroomlight",
+            "data": 0,
+            "type": "CUSTOM",
+            "count": 1,
+            "chance": 0.8
+        }
+    ],
+    "compatibleSoilTags": ["warped_nylium"]
+}

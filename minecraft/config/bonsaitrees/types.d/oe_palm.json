@@ -1,0 +1,39 @@
+{
+    "name": "oe:palm",
+    "mod": "oe",
+    "sapling": {
+        "name": "oe:palm_sapling",
+        "data": 0
+    },
+    "growTimeMultiplier": 1.0,
+    "drops": [
+        {
+            "name": "minecraft:stick",
+            "data": 0,
+            "type": "STICK"
+        },
+        {
+            "name": "oe:palm_log",
+            "data": 0,
+            "type": "WOOD"
+        },
+        {
+            "name": "oe:palm_leaves",
+            "data": 0,
+            "type": "LEAVES"
+        },
+        {
+            "name": "oe:palm_sapling",
+            "data": 0,
+            "type": "SAPLING"
+        },
+        {
+            "name": "oe:coconut",
+            "data": 0,
+            "type": "CUSTOM",
+            "chance": 0.4,
+            "count": 1
+        }
+    ],
+    "compatibleSoilTags": ["dirt", "grass"]
+}

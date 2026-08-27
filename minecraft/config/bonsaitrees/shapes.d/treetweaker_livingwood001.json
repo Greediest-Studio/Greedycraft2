@@ -1,0 +1,56 @@
+{
+  "type": "treetweaker:livingwood",
+  "version": 2,
+  "ref": {
+    "a": {
+      "name": "gct_mobs:livingwood_leaves",
+      "meta": 0
+    },
+    "b": {
+      "name": "gct_mobs:livingwood_log",
+      "meta": 3
+    }
+  },
+  "shape": [
+    [
+      "     ",
+      "     ",
+      " aaa ",
+      " aaaa",
+      "     ",
+      "     "
+    ],
+    [
+      "  a  ",
+      " aa  ",
+      "aaaaa",
+      "aaaaa",
+      "     ",
+      "     "
+    ],
+    [
+      " aaa ",
+      " aba ",
+      "aabaa",
+      "aabaa",
+      "  b  ",
+      "  b  "
+    ],
+    [
+      "  a  ",
+      " aa  ",
+      "aaaaa",
+      "aaaaa",
+      "     ",
+      "     "
+    ],
+    [
+      "     ",
+      "     ",
+      " aaa ",
+      "aaaaa",
+      "     ",
+      "     "
+    ]
+  ]
+}
