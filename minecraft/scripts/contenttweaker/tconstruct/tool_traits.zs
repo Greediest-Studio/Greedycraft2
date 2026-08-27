@@ -1855,7 +1855,7 @@ relifeTrait.localizedDescription = game.localize("greedycraft.tconstruct.tool_tr
 relifeTrait.calcDamage = function(trait, tool, attacker, target, originalDamage, newDamage, isCritical) {
     val player as IPlayer = attacker;
     val entity as IEntityMob = target;
-    if(player.health < player.health * 0.15f){
+    if(player.health < player.maxHealth * 0.15f){
         player.addPotionEffect(<potion:minecraft:fire_resistance>.makePotionEffect(20, 0, false, false));
         entity.setFire(10);
         if(entity.isBurning){
