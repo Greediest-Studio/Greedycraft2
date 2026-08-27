@@ -42,7 +42,7 @@ RecipeBuilder.newBuilder("wavite_forge", "wave_forge", 10800, 1)
         <ore:ingotFinallium>,
         <ore:ingotFrostburnMetal>,
         <ore:ingotAuric>,
-        <ore:ingotEinsteinium>,
+        <ore:ingotCalifornium>,
         <ore:ingotDuskstone>,
         <ore:ingotEldium>,
         <ore:ingotFlux>,
