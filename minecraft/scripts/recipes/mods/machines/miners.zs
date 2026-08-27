@@ -368,7 +368,7 @@ RecipeBuilder.newBuilder("dimensional_miner_main","dimensional_miner",200)
     .build();
 
 //JEI配方
-val miners = ["simple_miner","basic_miner","advanced_miner","dimensional_miner"];
+val miners = ["basic_miner","advanced_miner","dimensional_miner"];
 for dimId, dimName in oreOutput.getDimList() {
     for m in miners {
         val r = RecipeBuilder.newBuilder(m ~ dimId,m,200)
@@ -392,15 +392,7 @@ for dimId, dimName in oreOutput.getDimList() {
             r.addRecipeTooltip("§d需使用§a维度放大镜§d来§a标记§d/§a解绑§d维度");
             r.addRecipeTooltip("§d仅在安装§a时空采掘升级§d时可跨维度采掘");
         }
-        if (m == "simple_miner" && (dimId == -1 || dimId == 0 || dimId == 1)) {
-            for upgrade in [BASIC,STAINLESS,DURASTEEL] {
-                val list = oreOutput.getoreList(dimId,upgrade);
-                for o in list {
-                    var tooltip = upgradeTooltip(o);
-                    r.addItemOutput(o.ore * o.amount).setChance(o.chance).setPreViewNBT({display:{Lore:[tooltip,"§3请注意输出仓大小，超出容量的部分将被§d全部销毁"]}});
-                }
-            }
-        } else {
+        else {
             for upgrade in oreOutput.getUpgradeList(dimId) {
                 val list = oreOutput.getoreList(dimId,upgrade);
                 for o in list {
@@ -411,4 +403,20 @@ for dimId, dimName in oreOutput.getDimList() {
         }
         r.build();
     }
+}
+for dimId in [-1,0,1] {
+    val r = RecipeBuilder.newBuilder("simple_miner" ~ dimId,"simple_miner",200)
+        .addEnergyPerTickInput(200)
+        .addDimensionInput(dimId)
+        .addRecipeTooltip("§d以上矿石产自§a" ~ oreOutput.getDimName(dimId) ~ "§d(§aId: " ~ dimId ~ "§d)")
+        .addRecipeTooltip("§d高级矿石产出需要§a模块化升级组件§d，具体请查询§a模块化电容§d")
+        .setThreadName("114514");
+    for upgrade in [BASIC,STAINLESS,DURASTEEL] {
+        val list = oreOutput.getoreList(dimId,upgrade);
+        for o in list {
+            var tooltip = upgradeTooltip(o);
+            r.addItemOutput(o.ore * o.amount).setChance(o.chance * 5.0f).setPreViewNBT({display:{Lore:[tooltip,"§3请注意输出仓大小，超出容量的部分将被§d全部销毁"]}});
+        }
+    }
+    r.build();
 }
