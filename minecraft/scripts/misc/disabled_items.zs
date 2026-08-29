@@ -1068,7 +1068,8 @@ var disabledItems as IIngredient[] = [
     <flux_applied:energy_import_bus>,
     <ae2_utilix:overflow_destruction_card>,
     <tiths:block_punji_cloud>,
-    <betterbuilderswandsfix:break_core>
+    <betterbuilderswandsfix:break_core>,
+    <mmce_complement:batch_hatch>
 ] as IIngredient[];
 
 val disabledRecipeRegex as string[] = [
