@@ -48,6 +48,10 @@ MachineModifier.addCoreThread("loot_creater", FactoryRecipeThread.createCoreThre
     .addRecipe("essence_generation_essenceNonenium")
 );
 
+MachineModifier.addCoreThread("loot_creater", FactoryRecipeThread.createCoreThread("流体产出模块")
+    .addRecipe("liquid_output_legendite")
+);
+
 $expand IMachineController$getEssence() as long {
     if (!isNull(this.customData.essence)) {
         return this.customData.essence as long;
@@ -68,12 +72,48 @@ $expand IMachineController$removeEssence(amount as long) {
     this.setEssence(this.getEssence() - amount as long);
 }
 
+$expand IMachineController$getLegendCount() as long {
+    if (!isNull(this.customData.legendCount)) {
+        return this.customData.legendCount as long;
+    } else {
+        return 0 as long;
+    }
+}
+
+$expand IMachineController$setLegendCount(amount as long) {
+    this.customData = this.customData.update({legendCount : amount as long});
+}
+
+$expand IMachineController$addLegendCount(amount as long) {
+    this.setLegendCount(this.getLegendCount() + amount as long);
+}
+
+$expand IMachineController$removeLegendCount(amount as long) {
+    this.setLegendCount(this.getLegendCount() - amount as long);
+}
+
 MMEvents.onControllerGUIRender("loot_creater", function(event as ControllerGUIRenderEvent) {
+    var hasLegendModule = event.controller.hasModule("legend");
+    var ModuleList as string[] = [];
+    if (hasLegendModule) ModuleList += "§e荣耀模块";
+    if (ModuleList.length == 0) ModuleList += "§c无";
+    var showModule as string = "";
+    for Module in ModuleList {
+        if (Module != ModuleList[0]) {
+            showModule = showModule + " " + Module;
+        } else {
+            showModule = Module;
+        }
+    }
     var info as string[] = [
         "§a///战利品扫荡机控制面板///", 
         "§a机器名称：§eLV4 - 战利品扫荡机",
+        "§a附属模块：" + showModule,
         "§a精华储存：§e" + event.controller.getEssence() + "点"
     ];
+    if (hasLegendModule) {
+        info += "§a荣耀储存：§e" + event.controller.getLegendCount() + "点";
+    }
     event.extraInfo = info;
 });
 
@@ -144,6 +184,22 @@ WaviteUpgrade.addDescriptions("§b使战利品扫荡机拥有产出波动阶段�
 WaviteUpgrade.buildAndRegister();
 MachineUpgradeHelper.addFixedUpgrade(<additions:upgrade_wavite>, "wavite_loot");
 
+RecipeBuilder.newBuilder("liquid_output_legendite", "loot_creater", 1)
+    .addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
+        var controller as IMachineController = event.controller;
+        var totalLegend as long = controller.getLegendCount();
+        var consumeLegend as int = Math.min(totalLegend, 2147483647 as long) as int;
+        if (consumeLegend <= 0) event.setFailed(true, "没有足够的荣耀值！");
+        if (!controller.hasModule("legend")) event.setFailed(true, "没有安装荣耀模块！");
+        controller.removeLegendCount(consumeLegend as long);
+        if (!controller.hasModifier("parallelism_bonus") && !controller.world.remote) controller.addModifier("parallelism_bonus", RecipeModifierBuilder.create("modularmachinery:fluid", "output", consumeLegend as float, 1, false).build());
+    })
+    .addFluidOutput(<liquid:liquidlegend> * 20)
+    .addRecipeTooltip("§e1点§6荣耀§e对应20mB§6荣耀浆液")
+    .setParallelized(false)
+    .setThreadName("流体产出模块")
+    .build();
+
 function createLootRecipe(license as string, consume as IItemStack[], output as IItemStack[], time as int, essence as long, priority as int) {
     val licenseMap as string[string] = {
         "stainless_loot" : "不锈钢扫荡升级",
@@ -176,7 +232,11 @@ function createLootRecipe(license as string, consume as IItemStack[], output as 
     });
     builder.addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
         var parallelism as int = event.activeRecipe.parallelism;
-        event.controller.removeEssence(essence * parallelism);
+        var controller as IMachineController = event.controller;
+        if (controller.hasModule("legend")) {
+            controller.addLegendCount(parallelism);
+        }
+        controller.removeEssence(essence * parallelism);
     });
     builder.addRecipeTooltip("§e消耗" + essence + "点精华值");
     builder.addRecipeTooltip("§a需要升级：" + licenseMap[license]);

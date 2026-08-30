@@ -1478,11 +1478,6 @@ RecipeUtil.addShaped("filtered_item_output_hatch", <mmce_complement:filtered_ite
     [<thermaldynamics:filter:3>, <functionalstoragelegacy:oak_1>|<functionalstoragelegacy:spruce_1>|<functionalstoragelegacy:birch_1>|<functionalstoragelegacy:jungle_1>|<functionalstoragelegacy:acacia_1>|<functionalstoragelegacy:dark_oak_1>, <thermaldynamics:retriever:3>],
     [<ore:ingotModularium>, <compactmachines3:wallbreakable>, <ore:ingotModularium>]
 ]);
-RecipeUtil.addShaped("batch_hatch", <mmce_complement:batch_hatch>, [
-    [<ore:ingotModularium>, <ore:ingotStainlessSteel>, <ore:ingotStainlessSteel>],
-    [<ore:ingotStainlessSteel>, <threng:material:6>, <ore:ingotStainlessSteel>],
-    [<ore:ingotStainlessSteel>, <ore:ingotStainlessSteel>, <ore:ingotModularium>]
-]);
 RecipeUtil.addShaped("energymk2_upgrade", <gctcore:energy_mk2_upgrade>, [
     [null, <ore:blockGlassHardened>, null],
     [<ore:alloyUltimate>, <ore:ingotDurasteel>, <ore:alloyUltimate>],
@@ -1543,11 +1538,21 @@ RecipeUtil.addShaped("myth_mana_storage_component_16m", <botania_applie:mana_sto
     [<botania_applie:mana_storage_component_4m>, <botania:elfglass>, <botania_applie:mana_storage_component_4m>],
     [<ore:dustFirestoneMana>, <botania_applie:mana_storage_component_4m>, <ore:dustFirestoneMana>]
 ]);
-/*RecipeUtil.addShaped("myth_mana_storage_component_64m", <botania_applie:mana_storage_component_64m>, [
-    [<ore:dustFirestoneMana>, <ore:ingotGaiasteel>, <ore:dustFirestoneMana>],
+RecipeUtil.addShaped("myth_mana_storage_component_64m", <botania_applie:mana_storage_component_64m>, [
+    [<ore:dustGorbite>, <ore:ingotOrichalcos>, <ore:dustGorbite>],
     [<botania_applie:mana_storage_component_16m>, <botania:elfglass>, <botania_applie:mana_storage_component_16m>],
-    [<ore:dustFirestoneMana>, <botania_applie:mana_storage_component_16m>, <ore:dustFirestoneMana>]
-]);*/
+    [<ore:dustGorbite>, <botania_applie:mana_storage_component_16m>, <ore:dustGorbite>]
+]);
+RecipeUtil.addShaped("myth_mana_storage_component_256m", <botania_applie:mana_storage_component_256m>, [
+    [<ore:dustGorbite>, <ore:ingotOrichalcos>, <ore:dustGorbite>],
+    [<botania_applie:mana_storage_component_64m>, <botania:elfglass>, <botania_applie:mana_storage_component_64m>],
+    [<ore:dustGorbite>, <botania_applie:mana_storage_component_64m>, <ore:dustGorbite>]
+]);
+RecipeUtil.addShaped("myth_mana_storage_component_1b", <botania_applie:mana_storage_component_1g>, [
+    [<ore:dustGorbite>, <ore:ingotOrichalcos>, <ore:dustGorbite>],
+    [<botania_applie:mana_storage_component_256m>, <botania:elfglass>, <botania_applie:mana_storage_component_256m>],
+    [<ore:dustGorbite>, <botania_applie:mana_storage_component_256m>, <ore:dustGorbite>]
+]);
 RecipeUtil.addShaped("glowing_niflheim_wood", <botaniverse:morewood:4>, [
     [<botaniverse:morewood>, <ore:dustCerlinite>, null],
     [null, null, null],
