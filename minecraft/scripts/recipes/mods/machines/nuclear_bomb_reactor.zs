@@ -21,7 +21,6 @@ import mods.jei.JEI;
 
 MachineModifier.setMaxThreads("nuclear_bomb_reactor", 1);
 MachineModifier.setMaxParallelism("nuclear_bomb_reactor", 65536);
-MachineModifier.setInternalParallelism("nuclear_bomb_reactor", 1);
 
 MMEvents.onControllerGUIRender("nuclear_bomb_reactor", function(event as ControllerGUIRenderEvent) {
     var info as string[] = ["§a///重型核爆反应釜控制面板///", "§a机器名称：§eLV5 - 重型核爆反应釜"];
