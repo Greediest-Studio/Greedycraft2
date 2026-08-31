@@ -237,7 +237,7 @@ MMEvents.onMachinePreTick("blood_altar", function(event as MachineTickEvent) {
     }
     //初始化并修正祭坛 LE
     if (!world.isRemote()) {
-        if (isNull(event.controller.customData.LP)) {
+        if (isNull(event.controller.customData.LP) && world.getWorldTime() % 20 == 0) {
             setStoredAltarLP(event.controller, IBigInteger.zero());
         } else {
             val rawLP = IBigInteger.create(event.controller.getAltarLP());
@@ -442,29 +442,32 @@ RecipeBuilder.newBuilder("purify", "blood_altar", 1)
     .addPreCheckHandler(function(event as RecipeCheckEvent) {
         val parallelism = event.activeRecipe.parallelism as long;
         val output = event.controller.getBlocksInPattern(<additions:blood_rune_purify>) as long;
+        val maxLP = IBigInteger.create(event.controller.getAltarCapacity());
         val ctrlLP = getStoredAltarLP(event.controller);
         if (event.controller.getBlocksInPattern(<additions:blood_rune_purify>) < 1) {
             event.setFailed("缺少净化符文");
         }
-        if ((ctrlLP + IBigInteger.create((parallelism * output) as string)).min(ctrlLP) == ctrlLP) {
+        if ((ctrlLP + IBigInteger.create((parallelism * output) as string)).min(maxLP) == maxLP) {
             event.setFailed("祭坛容量已满");
         }
     })
     .addFactoryPreTickHandler(function(event as FactoryRecipeTickEvent) {
         val parallelism = event.activeRecipe.parallelism as long;
         val output = event.controller.getBlocksInPattern(<additions:blood_rune_purify>) as long;
+        val maxLP = IBigInteger.create(event.controller.getAltarCapacity());
         val ctrlLP = getStoredAltarLP(event.controller);
-        if ((ctrlLP + IBigInteger.create((parallelism * output) as string)).min(ctrlLP) == ctrlLP) {
+        if ((ctrlLP + IBigInteger.create((parallelism * output) as string)).min(maxLP) == maxLP) {
             event.preventProgressing("祭坛容量已满");
         }
     })
     .addFactoryFinishHandler(function(event as FactoryRecipeFinishEvent) {
         val parallelism = event.activeRecipe.parallelism as long;
         val output = event.controller.getBlocksInPattern(<additions:blood_rune_purify>) as long;
+        val maxLP = IBigInteger.create(event.controller.getAltarCapacity());
         val ctrlLP = getStoredAltarLP(event.controller);
         var newLP = ctrlLP + IBigInteger.create((parallelism * output) as string);
-        if (newLP.min(ctrlLP) == ctrlLP) {
-            newLP = ctrlLP;
+        if (newLP.min(maxLP) == maxLP) {
+            newLP = maxLP;
         }
         setStoredAltarLP(event.controller, newLP);
     })
