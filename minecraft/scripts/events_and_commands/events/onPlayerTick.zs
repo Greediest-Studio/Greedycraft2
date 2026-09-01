@@ -534,11 +534,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
     }
 
     //Dragon Body Trait
-    var hasDragonBody as int = 0;
-    hasDragonBody += TicTool.getArmorSlotTraits(player, "helmet") has "dragon_body_armor" ? 1 : 0;
-    hasDragonBody += TicTool.getArmorSlotTraits(player, "chestplate") has "dragon_body_armor" ? 1 : 0;
-    hasDragonBody += TicTool.getArmorSlotTraits(player, "leggings") has "dragon_body_armor" ? 1 : 0;
-    hasDragonBody += TicTool.getArmorSlotTraits(player, "boots") has "dragon_body_armor" ? 1 : 0;
+    var hasDragonBody as int = player.hasTraitAmount("dragon_body_armor");
     var dragonBodyModifier = AttributeModifier.createModifier("generic.movementSpeed", 0.7f + 0.3f * hasDragonBody as float, 1, "abcdefab-1234-5678-9abc-defabcdefabc");
     if (hasDragonBody >= 2) {
         if (!player.getAttribute("generic.movementSpeed").hasModifier(dragonBodyModifier)) {

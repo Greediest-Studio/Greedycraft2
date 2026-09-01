@@ -4656,11 +4656,7 @@ dragon_bodyTrait.localizedName = game.localize("greedycraft.tconstruct.armor_tra
 dragon_bodyTrait.localizedDescription = game.localize("greedycraft.tconstruct.armor_trait.dragon_bodyTrait.desc");
 dragon_bodyTrait.onArmorTick = function(trait, armor, world, player) {
     if (!isNull(player)) {
-        var count as int = 0;
-        count += TicTool.getArmorSlotTraits(player, "helmet") has "dragon_body_armor" ? 1 : 0;
-        count += TicTool.getArmorSlotTraits(player, "chestplate") has "dragon_body_armor" ? 1 : 0;
-        count += TicTool.getArmorSlotTraits(player, "leggings") has "dragon_body_armor" ? 1 : 0;
-        count += TicTool.getArmorSlotTraits(player, "boots") has "dragon_body_armor" ? 1 : 0;
+        var count as int = player.hasTraitAmount("dragon_body_armor");
         if (count == 3) {
             player.addPotionEffect(<potion:minecraft:regeneration>.makePotionEffect(20, 0, true, false));
         } else if (count == 4) {
