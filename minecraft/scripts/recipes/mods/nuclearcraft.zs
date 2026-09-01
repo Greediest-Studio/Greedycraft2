@@ -722,7 +722,7 @@ ChemicalReactor.addRecipe(<liquid:pentaethylene_glycol> * 1000, <liquid:liquidhy
 ChemicalReactor.addRecipe(<liquid:nitrobenzo_18_crown_6_solution> * 666, <liquid:hydrogen> * 1500, <liquid:aminobenzo_18_crown_6_solution> * 666, <liquid:water> * 1000);
 ChemicalReactor.addRecipe(<liquid:crown_ether_phosphonated_styrene_divinylbenzene_copolymer> * 144, <liquid:chlorosulfonic_acid> * 1000, <liquid:crown_ether_phosphonic_sulfonated_styrene_divinylbenzene_copolymer> * 144, <liquid:liquidhydrogenchloride> * 1000);
 ChemicalReactor.addRecipe(<liquid:calcium_lactate_solution> * 1000, <liquid:sulfuric_acid> * 1000, <liquid:lactic_acid> * 1332, <liquid:calcium_sulfate_solution> * 666);
-ChemicalReactor.addRecipe(<liquid:sodium_nitrite_solution> * 666, <liquid:sulfuric_acid> * 500, <liquid:nitrous_acid_solution> * 666, <liquid:sodium_sulfate_solution> * 333);
+ChemicalReactor.addRecipe(<liquid:sodium_nitrite_solution> * 666, <liquid:sulfuric_acid> * 500, <liquid:nitrous_acid_solution> * 1000, <liquid:sodium_sulfate_solution> * 333);
 ChemicalReactor.addRecipe(<liquid:boron> * 72, <liquid:fluorine> * 750, <liquid:boron_trifluoride> * 500, null);
 ChemicalReactor.addRecipe(<liquid:boron_trifluoride> * 250, <liquid:hydrofluoric_acid> * 250, <liquid:fluoroboric_acid> * 250, null);
 ChemicalReactor.addRecipe(<liquid:nitrobenzene> * 250, <liquid:hydrogen> * 750, <liquid:aniline> * 250, <liquid:water> * 500);

@@ -34,13 +34,6 @@ MachineModifier.setMaxThreads("elysia_reactor", 8);
 MachineModifier.setInternalParallelism("elysia_reactor", 4);
 MachineModifier.setMaxParallelism("elysia_reactor", 65536);
 
-RecipeBuilder.newBuilder("sodium_nitrite_solution", "elysia_reactor", 120)
-    .addFluidInput(<liquid:nitrogen_oxide> * 250)
-    .addFluidInput(<liquid:nitrogen_dioxide> * 250)
-    .addFluidInput(<liquid:sodium_hydroxide_solution> * 333)
-    .addFluidOutput(<liquid:sodium_nitrite_solution> * 333)
-    .build();
-
 MMEvents.onControllerGUIRender("elysia_reactor", function(event as ControllerGUIRenderEvent) {
     var info as string[] = [
         "§e///大型反应单元控制面板///",
@@ -92,3 +85,4 @@ addExtraReactionRecipe([<liquid:4_nitrocatechol> * 1000, <liquid:dichloropentaet
 addExtraReactionRecipe([<liquid:chloromethylated_styrene_divinylbenzene_copolymer> * 144, <liquid:phosphorous_acid> * 1000, <liquid:sodium_hydroxide_solution> * 666], [<liquid:phosphonated_styrene_divinylbenzene_copolymer> * 144, <liquid:sodium_chloride> * 666, <liquid:water> * 1000]);
 addExtraReactionRecipe([<liquid:phosphonated_styrene_divinylbenzene_copolymer> * 144, <liquid:aminobenzo_18_crown_6_solution> * 666, <liquid:formaldehyde> * 1000], [<liquid:crown_ether_phosphonated_styrene_divinylbenzene_copolymer> * 144, <liquid:water> * 1000]);
 addExtraReactionRecipe([<liquid:crown_ether_phosphonic_sulfonated_styrene_divinylbenzene_copolymer> * 144, <liquid:hydrochloric_acid> * 1000, <liquid:water> * 1000], [<liquid:ultrafine_cation_exchange_resin_base_solution> * 144]);
+addExtraReactionRecipe([<liquid:nitrogen_oxide> * 250, <liquid:nitrogen_dioxide> * 250, <liquid:sodium_hydroxide_solution> * 333], [<liquid:sodium_nitrite_solution> * 333]);

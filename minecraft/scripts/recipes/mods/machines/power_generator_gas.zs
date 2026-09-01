@@ -145,6 +145,7 @@ addGasFuel(<liquid:toluene>, 60000, 100);
 addGasFuel(<liquid:paraxylene>, 60000, 100);
 addGasFuel(<liquid:1_2_4_trimethylbenzene>, 60000, 100);
 addGasFuel(<liquid:durene>, 60000, 100);
+addGasFuel(<liquid:nitrobenzene>, 90000, 80);
 addGasFuel(<liquid:mixed_hydrocarbon>, 10000, 50);
 addGasFuel(<liquid:carbon_monoxide>, 10240, 2);
 addGasFuel(<liquid:smoldering_tar>, 4000, 500);
