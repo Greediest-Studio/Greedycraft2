@@ -28,13 +28,6 @@ import mods.modularmachinery.FactoryRecipeThread;
 import mod.mekanism.gas.IGasStack;
 
 MachineModifier.setMaxThreads("elysia_pyrolyzer", 8);
-
-RecipeBuilder.newBuilder("benzenediazonium_tetrafluoroborate", "elysia_pyrolyzer", 100)
-    .addItemInput(<ore:dustBenzenediazoniumTetrafluoroborate>)
-    .addFluidOutput(<liquid:fluorobenzene> * 1000)
-    .addFluidOutput(<liquid:boron_trifluoride> * 1000)
-    .addFluidOutput(<liquid:nitrogen> * 1000)
-    .build();
 MachineModifier.setInternalParallelism("elysia_pyrolyzer", 4);
 MachineModifier.setMaxParallelism("elysia_pyrolyzer", 65536);
 
@@ -181,6 +174,16 @@ RecipeBuilder.newBuilder("tellurium_calcine_alkaline_leaching", "elysia_pyrolyze
     .addFluidInput(<liquid:sodium_hydroxide_solution> * 666)
     .addEnergyPerTickInput(1024)
     .addFluidOutput(<liquid:sodium_tellurite_solution> * 666)
+    .addRecipeTooltip("§d热解配方支持模块化电容升级，详情请查询“模块化电容”")
+    .setMaxThreads(1)
+    .build();
+
+RecipeBuilder.newBuilder("benzenediazonium_tetrafluoroborate", "elysia_pyrolyzer", 100)
+    .addItemInput(<ore:dustBenzenediazoniumTetrafluoroborate>)
+    .addEnergyPerTickInput(1024)
+    .addFluidOutput(<liquid:fluorobenzene> * 1000)
+    .addFluidOutput(<liquid:boron_trifluoride> * 1000)
+    .addFluidOutput(<liquid:nitrogen> * 1000)
     .addRecipeTooltip("§d热解配方支持模块化电容升级，详情请查询“模块化电容”")
     .setMaxThreads(1)
     .build();
