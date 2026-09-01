@@ -23,14 +23,6 @@ MachineModifier.setMaxThreads("stratified_precipitator", 8);
 MachineModifier.setInternalParallelism("stratified_precipitator", 1);
 MachineModifier.setMaxParallelism("stratified_precipitator", 65536);
 
-RecipeBuilder.newBuilder("benzenediazonium_tetrafluoroborate_precipitation", "stratified_precipitator", 120)
-    .addFluidInput(<liquid:aniline> * 1000)
-    .addFluidInput(<liquid:nitrous_acid_solution> * 1000)
-    .addFluidInput(<liquid:fluoroboric_acid> * 1000)
-    .addItemOutput(<additions:benzenediazonium_tetrafluoroborate>)
-    .addFluidOutput(<liquid:water> * 2000)
-    .build();
-
 MMEvents.onControllerGUIRender("stratified_precipitator", function(event as ControllerGUIRenderEvent) {
     var info as string[] = ["§a///沉淀分离机控制面板///", "§a机器名称：§eLV4 - 沉淀分离机"];
     event.extraInfo = info;
@@ -92,5 +84,15 @@ RecipeBuilder.newBuilder("concentrated_plant_essence_precipitation", "stratified
     .addEnergyPerTickInput(20000)
     .addFluidOutput(<liquid:concentrated_plant_essence> * 1000)
     .addItemOutput(<botania:manaresource:23> * 2)
+    .setMaxThreads(1)
+    .build();
+
+RecipeBuilder.newBuilder("benzenediazonium_tetrafluoroborate_precipitation", "stratified_precipitator", 120)
+    .addFluidInput(<liquid:aniline> * 1000)
+    .addFluidInput(<liquid:nitrous_acid_solution> * 1000)
+    .addFluidInput(<liquid:fluoroboric_acid> * 1000)
+    .addEnergyPerTickInput(20000)
+    .addFluidOutput(<liquid:water> * 2000)
+    .addItemOutput(<additions:benzenediazonium_tetrafluoroborate>)
     .setMaxThreads(1)
     .build();
