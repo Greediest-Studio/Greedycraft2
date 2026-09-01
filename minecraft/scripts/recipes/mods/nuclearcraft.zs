@@ -604,6 +604,8 @@ ChemicalReactor.removeRecipeWithInput(<liquid:sodium> * 144, <liquid:sulfur> * 3
 ChemicalReactor.removeRecipeWithInput(<liquid:potassium> * 144, <liquid:sulfur> * 333);
 ChemicalReactor.removeRecipeWithInput(<liquid:sulfur> * 333, <liquid:oxygen> * 500);
 ChemicalReactor.removeRecipeWithInput(<liquid:witherite_water> * 1000, <liquid:nitric_acid> * 2000);
+ChemicalReactor.removeRecipeWithInput(<liquid:oxygen> * 250, <liquid:fluorine> * 500);
+ChemicalReactor.removeRecipeWithInput(<liquid:water> * 250, <liquid:fso_vapor> * 250);
 
 ChemicalReactor.addRecipe(<liquid:nitric_acid> * 250, <liquid:hydrofluoric_acid> * 750, <liquid:aqua_fluoride> * 1000, null);
 ChemicalReactor.addRecipe(<liquid:nitric_acid> * 250, <liquid:liquidhydrofluricacid> * 750, <liquid:aqua_fluoride> * 1000, null);
@@ -720,6 +722,12 @@ ChemicalReactor.addRecipe(<liquid:pentaethylene_glycol> * 1000, <liquid:liquidhy
 ChemicalReactor.addRecipe(<liquid:nitrobenzo_18_crown_6_solution> * 666, <liquid:hydrogen> * 1500, <liquid:aminobenzo_18_crown_6_solution> * 666, <liquid:water> * 1000);
 ChemicalReactor.addRecipe(<liquid:crown_ether_phosphonated_styrene_divinylbenzene_copolymer> * 144, <liquid:chlorosulfonic_acid> * 1000, <liquid:crown_ether_phosphonic_sulfonated_styrene_divinylbenzene_copolymer> * 144, <liquid:liquidhydrogenchloride> * 1000);
 ChemicalReactor.addRecipe(<liquid:calcium_lactate_solution> * 1000, <liquid:sulfuric_acid> * 1000, <liquid:lactic_acid> * 1332, <liquid:calcium_sulfate_solution> * 666);
+ChemicalReactor.addRecipe(<liquid:sodium_nitrite_solution> * 666, <liquid:sulfuric_acid> * 500, <liquid:nitrous_acid_solution> * 666, <liquid:sodium_sulfate_solution> * 333);
+ChemicalReactor.addRecipe(<liquid:boron> * 72, <liquid:fluorine> * 750, <liquid:boron_trifluoride> * 500, null);
+ChemicalReactor.addRecipe(<liquid:boron_trifluoride> * 250, <liquid:hydrofluoric_acid> * 250, <liquid:fluoroboric_acid> * 250, null);
+ChemicalReactor.addRecipe(<liquid:nitrobenzene> * 250, <liquid:hydrogen> * 750, <liquid:aniline> * 250, <liquid:water> * 500);
+ChemicalReactor.addRecipe(<liquid:benzene> * 250, <liquid:nitric_acid> * 250, <liquid:nitrobenzene> * 250, <liquid:water> * 250);
+ChemicalReactor.addRecipe(<liquid:sodium_hydroxide_solution> * 333, <liquid:fluorine> * 500, <liquid:sodium_fluoride_solution> * 333, <liquid:oxygen_difluoride> * 250);
 
 Crystallizer.addRecipe(<liquid:iodine_carbon_tetrachloride_solution> * 200, <jaopca:dust.iodine>);
 Crystallizer.addRecipe(<liquid:chloroplatinic_acid_solution> * 666, <additions:chloroplatinic_acid>);
@@ -829,6 +837,7 @@ Centrifuge.removeRecipeWithInput(<liquid:arsenic_nak> * 144);
 
 Centrifuge.addRecipe(<liquid:arsenic_nak> * 144, <liquid:arsenic> * 288, <liquid:nak> * 144, null, null, null, null);
 Centrifuge.addRecipe(<liquid:trinitite_leachate> * 500, <liquid:fluorosilicic_acid_solution> * 450, <liquid:actinide_solution> * 50, null, null, null, null, 3.0d, 20.0d, number(20.0d, p));
+Centrifuge.addRecipe(<liquid:fso_vapor> * 250, <liquid:fluorine> * 250, <liquid:sulfur_trioxide> * 250, null, null, null, null);
 
 Supercooler.addRecipe(<liquid:bromine_gas> * 8000, <liquid:bromine> * 25, 0.9d, 1.0d, 0.0d);
 Supercooler.addRecipe(<liquid:hydrogen> * 8000, <liquid:liquid_hydrogen> * 25, 1.0d, 1.0d, 0.0d);

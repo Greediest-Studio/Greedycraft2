@@ -2178,6 +2178,7 @@ GameStagesUtil.stageEpicEngineer.addIngredients([
     <ore:dustAlphaHydroxyisobutyricAcid>,
     <ore:dustLacticAcid>,
     <ore:dustDTPA>,
+    <ore:dustBenzenediazoniumTetrafluoroborate>,
     <ore:oreZirconium>,
     <additions:pit_cf253>,
     <additions:pit_es254>

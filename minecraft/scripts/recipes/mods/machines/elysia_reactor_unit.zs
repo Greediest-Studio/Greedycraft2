@@ -34,6 +34,13 @@ MachineModifier.setMaxThreads("elysia_reactor", 8);
 MachineModifier.setInternalParallelism("elysia_reactor", 4);
 MachineModifier.setMaxParallelism("elysia_reactor", 65536);
 
+RecipeBuilder.newBuilder("sodium_nitrite_solution", "elysia_reactor", 120)
+    .addFluidInput(<liquid:nitrogen_oxide> * 250)
+    .addFluidInput(<liquid:nitrogen_dioxide> * 250)
+    .addFluidInput(<liquid:sodium_hydroxide_solution> * 333)
+    .addFluidOutput(<liquid:sodium_nitrite_solution> * 333)
+    .build();
+
 MMEvents.onControllerGUIRender("elysia_reactor", function(event as ControllerGUIRenderEvent) {
     var info as string[] = [
         "§e///大型反应单元控制面板///",

@@ -4775,3 +4775,69 @@ concentrated_plant_essence_precursor.color = Color.fromHex("1b5e20").getIntColor
 concentrated_plant_essence_precursor.stillLocation = "base:fluids/liquid";
 concentrated_plant_essence_precursor.flowingLocation = "base:fluids/liquid_flow";
 concentrated_plant_essence_precursor.register();
+
+val nitrobenzene = mods.contenttweaker.VanillaFactory.createFluid("nitrobenzene", Color.fromHex("7b2cbf").getIntColor());
+nitrobenzene.material = <blockmaterial:water>;
+nitrobenzene.viscosity = 500;
+nitrobenzene.density = 1200;
+nitrobenzene.colorize = true;
+nitrobenzene.temperature = 350;
+nitrobenzene.color = Color.fromHex("7b2cbf").getIntColor();
+nitrobenzene.stillLocation = "base:fluids/liquid";
+nitrobenzene.flowingLocation = "base:fluids/liquid_flow";
+nitrobenzene.register();
+
+val aniline = mods.contenttweaker.VanillaFactory.createFluid("aniline", Color.fromHex("00b4d8").getIntColor());
+aniline.material = <blockmaterial:water>;
+aniline.viscosity = 450;
+aniline.density = 1020;
+aniline.colorize = true;
+aniline.temperature = 330;
+aniline.color = Color.fromHex("00b4d8").getIntColor();
+aniline.stillLocation = "base:fluids/liquid";
+aniline.flowingLocation = "base:fluids/liquid_flow";
+aniline.register();
+
+val sodium_nitrite_solution = mods.contenttweaker.VanillaFactory.createFluid("sodium_nitrite_solution", Color.fromHex("f72585").getIntColor());
+sodium_nitrite_solution.material = <blockmaterial:water>;
+sodium_nitrite_solution.viscosity = 350;
+sodium_nitrite_solution.density = 1100;
+sodium_nitrite_solution.colorize = true;
+sodium_nitrite_solution.temperature = 320;
+sodium_nitrite_solution.color = Color.fromHex("f72585").getIntColor();
+sodium_nitrite_solution.stillLocation = "base:fluids/liquid";
+sodium_nitrite_solution.flowingLocation = "base:fluids/liquid_flow";
+sodium_nitrite_solution.register();
+
+val nitrous_acid_solution = mods.contenttweaker.VanillaFactory.createFluid("nitrous_acid_solution", Color.fromHex("90be6d").getIntColor());
+nitrous_acid_solution.material = <blockmaterial:water>;
+nitrous_acid_solution.viscosity = 320;
+nitrous_acid_solution.density = 1050;
+nitrous_acid_solution.colorize = true;
+nitrous_acid_solution.temperature = 310;
+nitrous_acid_solution.color = Color.fromHex("90be6d").getIntColor();
+nitrous_acid_solution.stillLocation = "base:fluids/liquid";
+nitrous_acid_solution.flowingLocation = "base:fluids/liquid_flow";
+nitrous_acid_solution.register();
+
+val boron_trifluoride = mods.contenttweaker.VanillaFactory.createFluid("boron_trifluoride", Color.fromHex("ff9f1c").getIntColor());
+boron_trifluoride.material = <blockmaterial:water>;
+boron_trifluoride.viscosity = 250;
+boron_trifluoride.density = 900;
+boron_trifluoride.colorize = true;
+boron_trifluoride.temperature = 280;
+boron_trifluoride.color = Color.fromHex("ff9f1c").getIntColor();
+boron_trifluoride.stillLocation = "base:fluids/liquid";
+boron_trifluoride.flowingLocation = "base:fluids/liquid_flow";
+boron_trifluoride.register();
+
+val fluoroboric_acid = mods.contenttweaker.VanillaFactory.createFluid("fluoroboric_acid", Color.fromHex("4361ee").getIntColor());
+fluoroboric_acid.material = <blockmaterial:water>;
+fluoroboric_acid.viscosity = 600;
+fluoroboric_acid.density = 1250;
+fluoroboric_acid.colorize = true;
+fluoroboric_acid.temperature = 340;
+fluoroboric_acid.color = Color.fromHex("4361ee").getIntColor();
+fluoroboric_acid.stillLocation = "base:fluids/liquid";
+fluoroboric_acid.flowingLocation = "base:fluids/liquid_flow";
+fluoroboric_acid.register();

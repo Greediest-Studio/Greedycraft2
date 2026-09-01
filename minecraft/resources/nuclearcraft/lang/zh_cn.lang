@@ -758,8 +758,8 @@ fluid.sulfuric_acid=硫酸
 tile.nuclearcraft.fluid_orthosilicic_acid.name=原硅酸
 fluid.orthosilicic_acid=原硅酸
 
-tile.nuclearcraft.fluid_fluorite_water.name=氟石溶液
-fluid.fluorite_water=氟石溶液
+tile.nuclearcraft.fluid_fluorite_water.name=氟化钙悬浊液
+fluid.fluorite_water=氟化钙悬浊液
 
 tile.nuclearcraft.fluid_calcium_sulfate_solution.name=硫酸钙溶液
 fluid.calcium_sulfate_solution=硫酸钙溶液
@@ -940,10 +940,10 @@ fluid.sodium_hydroquinone_solution=对苯二酚钠溶液
 
 tile.nuclearcraft.fluid_potassium_hydroquinone_solution.name=对苯二酚钾溶液
 fluid.potassium_hydroquinone_solution=对苯二酚钾溶液
-tile.nuclearcraft.fluid_dysprholminite_water.name=镝钬矿石溶液
-fluid.dysprholminite_water=镝钬矿石溶液
-tile.nuclearcraft.fluid_hodybeso_solution.name=钬镝二铍五硫酸盐溶液
-fluid.hodybeso_solution=钬镝二铍五硫酸盐溶液
+tile.nuclearcraft.fluid_dysprholminite_water.name=镝钬矿浆
+fluid.dysprholminite_water=镝钬矿浆
+tile.nuclearcraft.fluid_hodybeso_solution.name=铍镝钬矾溶液
+fluid.hodybeso_solution=铍镝钬矾溶液
 
 tile.nuclearcraft.fluid_naoh.name=熔融氢氧化钠
 fluid.naoh=熔融氢氧化钠
@@ -960,8 +960,8 @@ tile.nuclearcraft.fluid_barium_oxide.name=熔融氧化钡
 fluid.barium_oxide=熔融氧化钡
 tile.nuclearcraft.fluid_nickel_oxide.name=熔融氧化镍
 fluid.nickel_oxide=熔融氧化镍
-tile.nuclearcraft.fluid_bacro_nio.name=熔融钡镍铬酸盐混合物
-fluid.bacro_nio=熔融钡镍铬酸盐混合物
+tile.nuclearcraft.fluid_bacro_nio.name=熔融铬酸钡镍混合物
+fluid.bacro_nio=熔融铬酸钡镍混合物
 tile.nuclearcraft.fluid_bacro.name=熔融铬酸钡
 fluid.bacro=熔融铬酸钡
 tile.nuclearcraft.fluid_baalo.name=熔融铝酸钡
@@ -994,12 +994,12 @@ fluid.arsenic=砷蒸汽
 tile.nuclearcraft.fluid_bas.name=熔融砷化硼
 fluid.bas=熔融砷化硼
 
-tile.nuclearcraft.fluid_sic_vapor.name=碳化硅蒸汽
-fluid.sic_vapor=碳化硅蒸汽
-tile.nuclearcraft.fluid_fso_vapor.name=硫酸盐-氟化物蒸气
-fluid.fso_vapor=硫酸盐-氟化物蒸气
-tile.nuclearcraft.fluid_hodybef_vapor.name=钬镝二铍十二氟化物蒸气
-fluid.hodybef_vapor=钬镝二铍十二氟化物蒸气
+tile.nuclearcraft.fluid_sic_vapor.name=碳化硅蒸气
+fluid.sic_vapor=碳化硅蒸气
+tile.nuclearcraft.fluid_fso_vapor.name=含氟三氧化硫
+fluid.fso_vapor=含氟三氧化硫
+tile.nuclearcraft.fluid_hodybef_vapor.name=氟化钬镝铍蒸气
+fluid.hodybef_vapor=氟化钬镝铍蒸气
 
 tile.nuclearcraft.fluid_zirconium.name=熔融锆
 fluid.zirconium=熔融锆

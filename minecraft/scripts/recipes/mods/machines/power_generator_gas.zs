@@ -16,6 +16,8 @@ import crafttweaker.liquid.ILiquidStack;
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.MachineModifier;
 import mods.modularmachinery.RecipeAdapterBuilder;
+import mods.modularmachinery.FactoryRecipeTickEvent;
+import mods.modularmachinery.RecipeModifierBuilder;
 import mods.modularmachinery.MMEvents;
 import mods.modularmachinery.ControllerGUIRenderEvent;
 import mods.ctutils.utils.Math;
@@ -32,27 +34,86 @@ MachineModifier.setInternalParallelism(regName, 1);
 MachineModifier.setMaxParallelism(regName, 65536);
 
 MMEvents.onControllerGUIRender(regName, function(event as ControllerGUIRenderEvent) {
+    var hasOxidizeModule = event.controller.hasModule("oxidize");
+    var ModuleList as string[] = [];
+    if (hasOxidizeModule) ModuleList += "§e助燃模块";
+    if (ModuleList.length == 0) ModuleList += "§c无";
+    var showModule as string = "";
+    for Module in ModuleList {
+        if (Module != ModuleList[0]) {
+            showModule = showModule + " " + Module;
+        } else {
+            showModule = Module;
+        }
+    }
     var info as string[] = [
         "§a///燃气发电机控制面板///",
-        "§a机器名称：§eLV1 - 燃气发电机"
+        "§a机器名称：§eLV1 - 燃气发电机",
+        "§a附属模块：" + showModule
     ];
     event.extraInfo = info;
 });
 
 function addGasFuel(gas as ILiquidStack, energyPerTick as int, burnTime as int) {
     val regName = "gas_power_generator";
-    RecipeBuilder.newBuilder("gas_generation_" + gas.definition.name, regName, burnTime)
+    val oxidizerList as float[ILiquidStack] = {
+        <liquid:liquidchlorine> * 1000 : 1.5f,
+        <liquid:liquid_chlorine> * 10 : 2.0f,
+        <liquid:oxygen> * 1000 : 1.2f,
+        <liquid:liquid_oxygen> * 10 : 1.8f,
+        <liquid:fluorine> * 1000 : 2.0f,
+        <liquid:liquid_fluorine> * 10 : 2.5f,
+        <liquid:hydrogen_peroxide> * 1000 : 1.8f,
+        <liquid:oxygen_difluoride> * 1000 : 2.5f
+    };
+    RecipeBuilder.newBuilder("gas_generation_" + gas.definition.name, regName, burnTime, 1)
         .addFluidInput(gas * 1000)
         .addEnergyPerTickOutput(energyPerTick)
         .build();
+    var oxidizeRecipe = RecipeBuilder.newBuilder("gas_generation_" + gas.definition.name + "_ox", regName, burnTime, 0);
+    oxidizeRecipe.addFluidInput(gas * 1000);
+    oxidizeRecipe.addEnergyPerTickOutput(energyPerTick);
+    for oxidizer, mtp in oxidizerList {
+        oxidizeRecipe.addFluidCatalystInput(oxidizer, ["§e将产能提升为" + mtp as string + "倍", "§c不可叠加"],
+            [RecipeModifierBuilder.create("modularmachinery:energy", "output", mtp, 1, false).build()]
+        );
+    }
+    oxidizeRecipe.setMaxCatalyst(1);
+    oxidizeRecipe.withModule(["oxidize"]);
+    oxidizeRecipe.addRecipeTooltip("§a需要模块：助燃模块");
+    oxidizeRecipe.addRecipeTooltip("§c注意！助燃剂不可叠加使用！");
+    oxidizeRecipe.build();
 }
 
 function addGasFuelAsGas(gas as IGasStack, energyPerTick as int, burnTime as int) {
     val regName = "gas_power_generator";
-    RecipeBuilder.newBuilder("gas_generation_" + gas.definition.NAME + "_gas", regName, burnTime)
+    val oxidizerList as float[ILiquidStack] = {
+        <liquid:liquidchlorine> * 1000 : 1.5f,
+        <liquid:liquid_chlorine> * 10 : 2.0f,
+        <liquid:oxygen> * 1000 : 1.2f,
+        <liquid:liquid_oxygen> * 10 : 1.8f,
+        <liquid:fluorine> * 1000 : 2.0f,
+        <liquid:liquid_fluorine> * 10 : 2.5f,
+        <liquid:hydrogen_peroxide> * 1000 : 1.8f,
+        <liquid:oxygen_difluoride> * 1000 : 2.5f
+    };
+    RecipeBuilder.newBuilder("gas_generation_" + gas.definition.NAME + "_gas", regName, burnTime, 1)
         .addGasInput(gas * 1000)
         .addEnergyPerTickOutput(energyPerTick)
         .build();
+    var oxidizeRecipe = RecipeBuilder.newBuilder("gas_generation_" + gas.definition.NAME + "_ox_gas", regName, burnTime, 0);
+    oxidizeRecipe.addGasInput(gas * 1000);
+    oxidizeRecipe.addEnergyPerTickOutput(energyPerTick);
+    for oxidizer, mtp in oxidizerList {
+        oxidizeRecipe.addFluidCatalystInput(oxidizer, ["§e将产能提升为" + mtp as string + "倍", "§c不可叠加"],
+            [RecipeModifierBuilder.create("modularmachinery:energy", "output", mtp, 1, false).build()]
+        );
+    }
+    oxidizeRecipe.setMaxCatalyst(1);
+    oxidizeRecipe.withModule(["oxidize"]);
+    oxidizeRecipe.addRecipeTooltip("§a需要模块：助燃模块");
+    oxidizeRecipe.addRecipeTooltip("§c注意！助燃剂不可叠加使用！");
+    oxidizeRecipe.build();
 }
 
 addGasFuel(<liquid:liquidhydrogen>, 20480, 2);

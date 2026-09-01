@@ -28,6 +28,13 @@ import mods.modularmachinery.FactoryRecipeThread;
 import mod.mekanism.gas.IGasStack;
 
 MachineModifier.setMaxThreads("elysia_pyrolyzer", 8);
+
+RecipeBuilder.newBuilder("benzenediazonium_tetrafluoroborate", "elysia_pyrolyzer", 100)
+    .addItemInput(<ore:dustBenzenediazoniumTetrafluoroborate>)
+    .addFluidOutput(<liquid:fluorobenzene> * 1000)
+    .addFluidOutput(<liquid:boron_trifluoride> * 1000)
+    .addFluidOutput(<liquid:nitrogen> * 1000)
+    .build();
 MachineModifier.setInternalParallelism("elysia_pyrolyzer", 4);
 MachineModifier.setMaxParallelism("elysia_pyrolyzer", 65536);
 
