@@ -31,16 +31,13 @@ MMEvents.onControllerGUIRender("factory_atomic_acider", function(event as Contro
 });
 
 MachineModifier.setMaxThreads("factory_atomic_vibrator", 32);
-MachineModifier.setInternalParallelism("factory_atomic_vibrator", 32);
-MachineModifier.setMaxParallelism("factory_atomic_vibrator", 32);
+MachineModifier.setMaxParallelism("factory_atomic_vibrator", 1024);
 
 MachineModifier.setMaxThreads("factory_atomic_decayer", 32);
-MachineModifier.setInternalParallelism("factory_atomic_decayer", 32);
-MachineModifier.setMaxParallelism("factory_atomic_decayer", 32);
+MachineModifier.setMaxParallelism("factory_atomic_decayer", 1024);
 
 MachineModifier.setMaxThreads("factory_atomic_acider", 32);
-MachineModifier.setInternalParallelism("factory_atomic_acider", 32);
-MachineModifier.setMaxParallelism("factory_atomic_acider", 32);
+MachineModifier.setMaxParallelism("factory_atomic_acider", 1024);
 
 var Entries = JAOPCA.getMaterialsForType("INGOT");
 

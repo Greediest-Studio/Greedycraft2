@@ -15,7 +15,6 @@ import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.MachineModifier;
 
 MachineModifier.setMaxThreads("factory_4x", 32);
-MachineModifier.setInternalParallelism("factory_4x", 4);
 MachineModifier.setMaxParallelism("factory_4x", 1024);
 
 var Entries = JAOPCA.getMaterialsForType("INGOT");
