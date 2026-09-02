@@ -156,6 +156,9 @@ events.onPlayerInteractBlock(function(event as PlayerInteractBlockEvent) {
             ];
             if (ticToolList has event.player.currentItem.definition.id) {
                 var HarvestLevel as int = event.player.currentItem.getHarvestLevel("pickaxe");
+                if (player.currentItem.definition.id == "tcongreedyaddon:allinonetool") {
+                    HarvestLevel = event.player.currentItem.getHarvestLevel("allinonetool");
+                }
                 if (isNull(controller.customData.harvestLevel) || controller.customData.harvestLevel <= HarvestLevel) {
                     controller.customData = controller.customData.update({harvestLevel : HarvestLevel as int});
                     player.sendChat("§a已将采掘等级：" ~ HarvestLevel as string ~ " 绑定到坠星天矛！");
