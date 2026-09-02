@@ -17,19 +17,19 @@ import mods.modularmachinery.ControllerGUIRenderEvent;
 
 MMEvents.onControllerGUIRender("factory_arcanic_brewer", function(event as ControllerGUIRenderEvent) {
     var info as string[] = ["§a///自魔炼化工厂控制面板///", "§a机器名称：§eELYSIA工厂 - 自魔炼化工厂"];
-    info += ("§a附属模块：" + event.controller.hasModule("advanced") ? "§e升级模块" : "§c无");
+    info += ("§a附属模块：" ~ (event.controller.hasModule("advanced") ? "§e升级模块" : "§c无"));
     event.extraInfo = info;
 });
 
 MMEvents.onControllerGUIRender("factory_arcanic_infuser", function(event as ControllerGUIRenderEvent) {
     var info as string[] = ["§a///自魔注灵工厂控制面板///", "§a机器名称：§eELYSIA工厂 - 自魔注灵工厂"];
-    info += ("§a附属模块：" + event.controller.hasModule("advanced") ? "§e升级模块" : "§c无");
+    info += ("§a附属模块：" ~ (event.controller.hasModule("advanced") ? "§e升级模块" : "§c无"));
     event.extraInfo = info;
 });
 
 MMEvents.onControllerGUIRender("factory_arcanic_astrallizer", function(event as ControllerGUIRenderEvent) {
     var info as string[] = ["§a///自魔星引工厂控制面板///", "§a机器名称：§eELYSIA工厂 - 自魔星引工厂"];
-    info += ("§a附属模块：" + event.controller.hasModule("advanced") ? "§e升级模块" : "§c无");
+    info += ("§a附属模块：" ~ (event.controller.hasModule("advanced") ? "§e升级模块" : "§c无"));
     event.extraInfo = info;
 });
 
