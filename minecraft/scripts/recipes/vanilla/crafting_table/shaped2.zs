@@ -1548,15 +1548,75 @@ RecipeUtil.addShaped("myth_mana_storage_component_256m", <botania_applie:mana_st
     [<botania_applie:mana_storage_component_64m>, <botania:elfglass>, <botania_applie:mana_storage_component_64m>],
     [<ore:dustGorbite>, <botania_applie:mana_storage_component_64m>, <ore:dustGorbite>]
 ]);
-RecipeUtil.addShaped("myth_mana_storage_component_1b", <botania_applie:mana_storage_component_1g>, [
+RecipeUtil.addShaped("myth_mana_storage_component_1g", <botania_applie:mana_storage_component_1g>, [
     [<ore:dustGorbite>, <ore:ingotOrichalcos>, <ore:dustGorbite>],
     [<botania_applie:mana_storage_component_256m>, <botania:elfglass>, <botania_applie:mana_storage_component_256m>],
     [<ore:dustGorbite>, <botania_applie:mana_storage_component_256m>, <ore:dustGorbite>]
+]);
+RecipeUtil.addShaped("advanced_flux_storage_component_1k", <flux_applied:flux_storage_component_1k>, [
+    [<ore:nuggetVibrantAlloy>, <ore:dustGlowingSignalum>, <ore:nuggetVibrantAlloy>],
+    [<ore:dustGlowingSignalum>, <crazyae:material:36>, <ore:dustGlowingSignalum>],
+    [<ore:nuggetVibrantAlloy>, <ore:dustGlowingSignalum>, <ore:nuggetVibrantAlloy>]
+]);
+RecipeUtil.addShaped("advanced_flux_storage_component_4k", <flux_applied:flux_storage_component_4k>, [
+    [<ore:dustGlowingSignalum>, <appliedenergistics2:material:47>, <ore:dustGlowingSignalum>],
+    [<flux_applied:flux_storage_component_1k>, <ore:blockGlowingSignalum>, <flux_applied:flux_storage_component_1k>],
+    [<ore:dustGlowingSignalum>, <flux_applied:flux_storage_component_1k>, <ore:dustGlowingSignalum>]
+]);
+RecipeUtil.addShaped("advanced_flux_storage_component_16k", <flux_applied:flux_storage_component_16k>, [
+    [<ore:dustGlowingSignalum>, <appliedenergistics2:material:47>, <ore:dustGlowingSignalum>],
+    [<flux_applied:flux_storage_component_4k>, <ore:blockGlowingSignalum>, <flux_applied:flux_storage_component_4k>],
+    [<ore:dustGlowingSignalum>, <flux_applied:flux_storage_component_4k>, <ore:dustGlowingSignalum>]
+]);
+RecipeUtil.addShaped("advanced_flux_storage_component_64k", <flux_applied:flux_storage_component_64k>, [
+    [<ore:dustGlowingSignalum>, <appliedenergistics2:material:47>, <ore:dustGlowingSignalum>],
+    [<flux_applied:flux_storage_component_16k>, <ore:blockGlowingSignalum>, <flux_applied:flux_storage_component_16k>],
+    [<ore:dustGlowingSignalum>, <flux_applied:flux_storage_component_16k>, <ore:dustGlowingSignalum>]
+]);
+RecipeUtil.addShaped("advanced_flux_storage_component_256k", <flux_applied:flux_storage_component_256k>, [
+    [<ore:blockFluixRefined>, <appliedenergistics2:material:47>, <ore:blockFluixRefined>],
+    [<flux_applied:flux_storage_component_64k>, <ore:blockGlowingSignalum>, <flux_applied:flux_storage_component_64k>],
+    [<ore:blockFluixRefined>, <flux_applied:flux_storage_component_64k>, <ore:blockFluixRefined>]
+]);
+RecipeUtil.addShaped("advanced_flux_storage_component_1m", <flux_applied:flux_storage_component_1m>, [
+    [<ore:blockFluixRefined>, <appliedenergistics2:material:47>, <ore:blockFluixRefined>],
+    [<flux_applied:flux_storage_component_256k>, <ore:blockGlowingSignalum>, <flux_applied:flux_storage_component_256k>],
+    [<ore:blockFluixRefined>, <flux_applied:flux_storage_component_256k>, <ore:blockFluixRefined>]
+]);
+RecipeUtil.addShaped("advanced_flux_storage_component_4m", <flux_applied:flux_storage_component_4m>, [
+    [<ore:blockFluixRefined>, <appliedenergistics2:material:47>, <ore:blockFluixRefined>],
+    [<flux_applied:flux_storage_component_1m>, <ore:blockGlowingSignalum>, <flux_applied:flux_storage_component_1m>],
+    [<ore:blockFluixRefined>, <flux_applied:flux_storage_component_1m>, <ore:blockFluixRefined>]
+]);
+RecipeUtil.addShaped("advanced_flux_storage_component_16m", <flux_applied:flux_storage_component_16m>, [
+    [<ore:blockFluixRefined>, <appliedenergistics2:material:47>, <ore:blockFluixRefined>],
+    [<flux_applied:flux_storage_component_4m>, <ore:blockGlowingSignalum>, <flux_applied:flux_storage_component_4m>],
+    [<ore:blockFluixRefined>, <flux_applied:flux_storage_component_4m>, <ore:blockFluixRefined>]
+]);
+RecipeUtil.addShaped("advanced_flux_storage_component_64m", <flux_applied:flux_storage_component_64m>, [
+    [<ore:blockFluixRefined>, <appliedenergistics2:material:47>, <ore:blockFluixRefined>],
+    [<flux_applied:flux_storage_component_16m>, <ore:blockGlowingSignalum>, <flux_applied:flux_storage_component_16m>],
+    [<ore:blockFluixRefined>, <flux_applied:flux_storage_component_16m>, <ore:blockFluixRefined>]
+]);
+RecipeUtil.addShaped("advanced_flux_storage_component_256m", <flux_applied:flux_storage_component_256m>, [
+    [<ore:blockFluixRefined>, <appliedenergistics2:material:47>, <ore:blockFluixRefined>],
+    [<flux_applied:flux_storage_component_64m>, <ore:blockGlowingSignalum>, <flux_applied:flux_storage_component_64m>],
+    [<ore:blockFluixRefined>, <flux_applied:flux_storage_component_64m>, <ore:blockFluixRefined>]
+]);
+RecipeUtil.addShaped("advanced_flux_storage_component_1g", <flux_applied:flux_storage_component_1g>, [
+    [<ore:blockFluixRefined>, <appliedenergistics2:material:47>, <ore:blockFluixRefined>],
+    [<flux_applied:flux_storage_component_256m>, <ore:blockGlowingSignalum>, <flux_applied:flux_storage_component_256m>],
+    [<ore:blockFluixRefined>, <flux_applied:flux_storage_component_256m>, <ore:blockFluixRefined>]
 ]);
 RecipeUtil.addShaped("glowing_niflheim_wood", <botaniverse:morewood:4>, [
     [<botaniverse:morewood>, <ore:dustCerlinite>, null],
     [null, null, null],
     [null, null, null]
+]);
+RecipeUtil.addShaped("growth_accelerator", <mysticalagriculture:growth_accelerator>, [
+    [<ore:blockInsaniumEssence>, <ore:blockSupremiumEssence>, <ore:blockInsaniumEssence>],
+    [<ore:blockSupremiumEssence>, <ore:blockDiamond>, <ore:blockSupremiumEssence>],
+    [<ore:blockInsaniumEssence>, <ore:blockSupremiumEssence>, <ore:blockInsaniumEssence>]
 ]);
 /*
 RecipeUtil.addShaped("", , [

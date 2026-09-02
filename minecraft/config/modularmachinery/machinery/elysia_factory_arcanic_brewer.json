@@ -3041,6 +3041,906 @@
                 "naturesaura:infused_stone@0"
             ]
         }
-    ]}
+    ],
+    "modules": [{
+        "id": "advanced",
+        "parts": [{
+            "x": 4,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "jaopca:block.aurune@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "jaopca:block.impetusite@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "bloodmagic:demon_light@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "jaopca:block.impetusite@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "jaopca:block.impetusite@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "jaopca:block.impetusite@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "jaopca:block.impetusite@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "jaopca:block.aurune@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "jaopca:block.impetusite@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "jaopca:block.aurune@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "jaopca:block.impetusite@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "jaopca:block.impetusite@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "jaopca:block.impetusite@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "jaopca:block.aurune@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "jaopca:block.aurune@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "bloodmagic:demon_light@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "jaopca:block.aurune@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "jaopca:block.impetusite@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "casings_advanced"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "jaopca:block.aurune@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "bloodmagic:demon_light@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "jaopca:block.impetusite@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "jaopca:block.aurune@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "jaopca:block.aurune@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "jaopca:block.impetusite@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "jaopca:block.impetusite@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "jaopca:block.impetusite@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "jaopca:block.impetusite@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "casings_advanced"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "jaopca:block.aurune@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "jaopca:block.aurune@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "jaopca:block.aurune@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "bloodmagic:demon_light@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "jaopca:block.impetusite@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "bloodmagic:decorative_brick@2"
+            ]
+        }]
+    }]
+}
 
 

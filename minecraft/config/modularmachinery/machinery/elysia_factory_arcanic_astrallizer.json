@@ -2161,6 +2161,906 @@
                 "astralsorcery:blockmarble@0"
             ]
         }
-    ]}
+    ],
+    "modules": [{
+        "id": "advanced",
+        "parts": [{
+            "x": 4,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "jaopca:block.nasalum@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "jaopca:block.lunarine@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "astralsorcery:blockworldilluminator@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "jaopca:block.lunarine@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "jaopca:block.lunarine@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "jaopca:block.lunarine@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "jaopca:block.lunarine@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "jaopca:block.nasalum@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "jaopca:block.lunarine@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "jaopca:block.nasalum@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 9,
+            "elements": [
+                "jaopca:block.lunarine@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "jaopca:block.lunarine@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "jaopca:block.lunarine@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "jaopca:block.nasalum@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "jaopca:block.nasalum@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "astralsorcery:blockworldilluminator@0"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 9,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "jaopca:block.nasalum@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "jaopca:block.lunarine@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "casings_advanced"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "jaopca:block.nasalum@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "astralsorcery:blockworldilluminator@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "jaopca:block.lunarine@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 12,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "jaopca:block.nasalum@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 6,
+            "elements": [
+                "jaopca:block.nasalum@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "jaopca:block.lunarine@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "jaopca:block.lunarine@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 8,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 9,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "jaopca:block.lunarine@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 10,
+            "elements": [
+                "jaopca:block.lunarine@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "casings_advanced"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "jaopca:block.nasalum@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 10,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "jaopca:block.nasalum@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "jaopca:block.nasalum@0"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 11,
+            "elements": [
+                "astralsorcery:blockworldilluminator@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 10,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "jaopca:block.lunarine@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "gct_mobs:polarisite_brick@0"
+            ]
+        }]
+    }]
+}
 
 
