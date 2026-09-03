@@ -1256,15 +1256,30 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
 };
 
 var removeMap as IIngredient[][IOreDictEntry] = {
-    <ore:cobblestone> : [<quark:biome_cobblestone:1>]
+    <ore:cobblestone> : [<quark:biome_cobblestone:1>],
+    <ore:blockGlassHardened> : [
+        <enderio:block_fused_quartz:1>,
+        <enderio:block_fused_quartz:2>,
+        <enderio:block_fused_quartz:3>,
+        <enderio:block_fused_quartz:4>,
+        <enderio:block_fused_quartz:5>,
+        <enderio:block_fused_quartz:6>,
+        <enderio:block_fused_quartz:7>,
+        <enderio:block_fused_quartz:8>,
+        <enderio:block_fused_quartz:9>,
+        <enderio:block_fused_quartz:10>,
+        <enderio:block_fused_quartz:11>,
+        <enderio:block_fused_quartz:12>,
+        <enderio:block_fused_quartz:13>,
+        <enderio:block_fused_quartz:14>,
+        <enderio:block_fused_quartz:15>
+    ]
 };
 
-for oredict in oredictMap {
-    var ingredients as IIngredient[] = oredictMap[oredict];
-    OredictUtil.addOredictIngredients(oredict, ingredients);
+for oredict , list in oredictMap {
+    OredictUtil.addOredictIngredients(oredict, list);
 }
 
-for oredict in removeMap {
-    var ingredients as IIngredient[] = oredictMap[oredict];
-    OredictUtil.removeOredictIngredients(oredict, ingredients);
+for oredict , list in removeMap {
+    OredictUtil.removeOredictIngredients(oredict, list);
 }

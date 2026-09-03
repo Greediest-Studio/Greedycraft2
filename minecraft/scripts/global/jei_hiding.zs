@@ -30,6 +30,12 @@ JEI.hide(<forestry:refractory>);
 JEI.addItem(<thermalfoundation:material:132>);
 
 JEI.hideCategory("Painter");
+JEI.hideCategory("pe.collector");
+JEI.hideCategory("bloodarsenal:sanguineInfusion");
+JEI.hideCategory("bloodmagic:binding");
+JEI.hideCategory("bloodmagic:armourDowngrade");
+JEI.hideCategory("projectex.alchemy_table");
+
 
 JEI.hide(<liquid:brick_nether>);
 JEI.hide(<liquid:brick_nether_glazed>);
