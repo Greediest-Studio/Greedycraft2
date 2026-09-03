@@ -4361,5 +4361,1161 @@
                 "thermalfoundation:glass@3"
             ]
         }
-    ]}
+    ],
+    "modules": [{
+        "id": "advanced",
+        "parts": [{
+            "x": 0,
+            "y": 3,
+            "z": 15,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 18,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 16,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "chisel:blockinvar@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 18,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "casings_advanced"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 17,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 16,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 15,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 14,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "additions:aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 16,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 19,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 18,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 16,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 16,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 15,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 17,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 15,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "enderio:block_alloy_endergy@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 16,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "chisel:blockinvar@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "additions:aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 16,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 15,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 14,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 17,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "enderio:block_alloy_endergy@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "enderio:block_alloy@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 16,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 18,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "chisel:blockinvar@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "gct_ores:genite_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 17,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 15,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 18,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 16,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 13,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 19,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 19,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 15,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 17,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 18,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "casings_advanced"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 16,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 18,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 18,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "enderio:block_alloy@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "additions:aeonsteel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 18,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 17,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 19,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 18,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 15,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "chisel:blockinvar@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "gct_ores:genite_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 18,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 14,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 16,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "enderio:block_alloy_endergy@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 19,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 17,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 16,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 14,
+            "elements": [
+                "additions:durasteel_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 18,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 19,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 13,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 13,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 17,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 14,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 13,
+            "elements": [
+                "gct_ores:genite_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 18,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 16,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 13,
+            "elements": [
+                "thermalfoundation:glass@3"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 15,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 14,
+            "elements": [
+                "additions:stainless_steel_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 16,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 17,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 18,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 14,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 18,
+            "elements": [
+                "chisel:blockinvar@1"
+            ]
+        }]
+    }]
+}
 

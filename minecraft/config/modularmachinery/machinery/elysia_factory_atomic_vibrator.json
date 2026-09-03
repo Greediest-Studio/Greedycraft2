@@ -339,6 +339,474 @@
                 "avaritia:block_resource@0"
             ]
         }
-    ]}
+    ],
+    "modules": [{
+        "id": "advanced",
+        "parts": [{
+            "x": 0,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "thebetweenlands:tar_solid@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thebetweenlands:silt_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "tiths:block_imitatium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "thebetweenlands:tar_solid@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "thebetweenlands:tar_solid_stairs@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "thebetweenlands:tar_solid_stairs@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "thebetweenlands:valonite_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "additions:cosmilite_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "casings_advanced"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "casings_parallel"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thebetweenlands:syrmorite_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "thebetweenlands:tar_solid_stairs@5"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "thebetweenlands:valonite_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "thebetweenlands:tar_solid_stairs@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "thebetweenlands:tar_solid@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "thebetweenlands:tar_solid@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "tiths:block_imitatium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "thebetweenlands:valonite_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "tiths:block_imitatium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "thebetweenlands:valonite_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thebetweenlands:silt_glass@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thebetweenlands:silt_glass@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "casings_all"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thebetweenlands:silt_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "thebetweenlands:valonite_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "thebetweenlands:silt_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "additions:cosmilite_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "thebetweenlands:tar_solid_stairs@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "thebetweenlands:tar_solid_stairs@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -7,
+            "z": 1,
+            "elements": [
+                "thebetweenlands:valonite_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "tiths:block_imitatium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thebetweenlands:syrmorite_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "tiths:block_imitatium@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thebetweenlands:syrmorite_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "thebetweenlands:valonite_block@0"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thebetweenlands:syrmorite_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "thebetweenlands:valonite_block@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_advanced"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "thebetweenlands:tar_solid_stairs@5"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -7,
+            "z": 0,
+            "elements": [
+                "thebetweenlands:valonite_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -7,
+            "z": 2,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "thebetweenlands:valonite_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "thebetweenlands:tar_solid_stairs@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "thebetweenlands:valonite_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "thebetweenlands:valonite_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thebetweenlands:silt_glass@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "thebetweenlands:silt_glass@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "projecte:matter_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "tiths:block_imitatium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "thebetweenlands:silt_glass@0"
+            ]
+        }]
+    }]
+}
 
 

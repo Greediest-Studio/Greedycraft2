@@ -17,27 +17,30 @@ import mods.modularmachinery.ControllerGUIRenderEvent;
 
 MMEvents.onControllerGUIRender("factory_atomic_vibrator", function(event as ControllerGUIRenderEvent) {
     var info as string[] = ["§a///原子振荡工厂控制面板///", "§a机器名称：§eELYSIA工厂 - 原子振荡工厂"];
+    info += ("§a附属模块：" ~ (event.controller.hasModule("advanced") ? "§e升级模块" : "§c无"));
     event.extraInfo = info;
 });
 
 MMEvents.onControllerGUIRender("factory_atomic_decayer", function(event as ControllerGUIRenderEvent) {
     var info as string[] = ["§a///原子衰变工厂控制面板///", "§a机器名称：§eELYSIA工厂 - 原子衰变工厂"];
+    info += ("§a附属模块：" ~ (event.controller.hasModule("advanced") ? "§e升级模块" : "§c无"));
     event.extraInfo = info;
 });
 
 MMEvents.onControllerGUIRender("factory_atomic_acider", function(event as ControllerGUIRenderEvent) {
     var info as string[] = ["§a///原子酸腐工厂控制面板///", "§a机器名称：§eELYSIA工厂 - 原子酸腐工厂"];
+    info += ("§a附属模块：" ~ (event.controller.hasModule("advanced") ? "§e升级模块" : "§c无"));
     event.extraInfo = info;
 });
 
 MachineModifier.setMaxThreads("factory_atomic_vibrator", 32);
-MachineModifier.setMaxParallelism("factory_atomic_vibrator", 1024);
+MachineModifier.setMaxParallelism("factory_atomic_vibrator", 65536);
 
 MachineModifier.setMaxThreads("factory_atomic_decayer", 32);
-MachineModifier.setMaxParallelism("factory_atomic_decayer", 1024);
+MachineModifier.setMaxParallelism("factory_atomic_decayer", 65536);
 
 MachineModifier.setMaxThreads("factory_atomic_acider", 32);
-MachineModifier.setMaxParallelism("factory_atomic_acider", 1024);
+MachineModifier.setMaxParallelism("factory_atomic_acider", 65536);
 
 var Entries = JAOPCA.getMaterialsForType("INGOT");
 

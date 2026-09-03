@@ -13,9 +13,17 @@ import mods.jei.JEI;
 import mods.modularmachinery.RecipePrimer;
 import mods.modularmachinery.RecipeBuilder;
 import mods.modularmachinery.MachineModifier;
+import mods.modularmachinery.MMEvents;
+import mods.modularmachinery.ControllerGUIRenderEvent;
 
 MachineModifier.setMaxThreads("factory_5x", 32);
-MachineModifier.setMaxParallelism("factory_5x", 1024);
+MachineModifier.setMaxParallelism("factory_5x", 65536);
+
+MMEvents.onControllerGUIRender("factory_5x", function(event as ControllerGUIRenderEvent) {
+    var info as string[] = ["§a///化学液相联合工厂控制面板///", "§a机器名称：§eELYSIA工厂 - 化学液相联合工厂"];
+    info += ("§a附属模块：" ~ (event.controller.hasModule("advanced") ? "§e升级模块" : "§c无"));
+    event.extraInfo = info;
+});
 
 var Entries = JAOPCA.getMaterialsForType("INGOT");
 

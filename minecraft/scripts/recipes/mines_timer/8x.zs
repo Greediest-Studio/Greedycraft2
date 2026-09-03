@@ -34,13 +34,13 @@ MMEvents.onControllerGUIRender("factory_arcanic_astrallizer", function(event as 
 });
 
 MachineModifier.setMaxThreads("factory_arcanic_brewer", 512);
-MachineModifier.setMaxParallelism("factory_arcanic_brewer", 1024);
+MachineModifier.setMaxParallelism("factory_arcanic_brewer", 65536);
 
 MachineModifier.setMaxThreads("factory_arcanic_infuser", 512);
-MachineModifier.setMaxParallelism("factory_arcanic_infuser", 1024);
+MachineModifier.setMaxParallelism("factory_arcanic_infuser", 65536);
 
 MachineModifier.setMaxThreads("factory_arcanic_astrallizer", 512);
-MachineModifier.setMaxParallelism("factory_arcanic_astrallizer", 1024);
+MachineModifier.setMaxParallelism("factory_arcanic_astrallizer", 65536);
 
 var Entries = JAOPCA.getMaterialsForType("INGOT");
 
