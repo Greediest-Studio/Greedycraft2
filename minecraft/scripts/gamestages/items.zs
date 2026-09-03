@@ -2724,7 +2724,7 @@ GameStagesUtil.stageWyvern.addModId(["extendedcrafting"]);
 GameStagesUtil.stageGatekeeper.addModId(["gct_aby"]);
 GameStagesUtil.stageEpicEngineer.addModId(["nuclearcraft", "industrialforegoing", "teslacorelib", "trinity"]);
 GameStagesUtil.stageBetweenlandTraveller.addModId(["thebetweenlands"]);
-GameStagesUtil.stageWitherSlayer.addModId(["crazyae", "nae2", "ecoaeextension", "aewirelesschannel", "eco_expand", "flux_applied", "botania_applie"]);
+GameStagesUtil.stageWitherSlayer.addModId(["crazyae", "nae2", "ecoaeextension", "eco_expand", "flux_applied", "botania_applie"]);
 GameStagesUtil.stageEnderCharm.addModId(["elementalend"]);
 GameStagesUtil.stageDeepDream.addModId(["erebus", "atum"]);
 GameStagesUtil.stageLegendWizard.addModId(["embers", "soot"]);
