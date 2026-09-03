@@ -55,7 +55,7 @@ MachineModifier.addCoreThread("auto_soul_forge", FactoryRecipeThread.createCoreT
 
 MMEvents.onStructureUpdate("auto_soul_forge", function(event as MachineStructureUpdateEvent) {
     var ctrl as IMachineController = event.controller;
-    if (isNull(ctrl.customData.willList)) {
+    if (!ctrl.world.isRemote()) {
         var parallel = 1;
         parallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:0>) * 4;
         parallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:5>) * 8;
@@ -67,10 +67,21 @@ MMEvents.onStructureUpdate("auto_soul_forge", function(event as MachineStructure
         parallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:8>) * 512;
         parallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:4>) * 1024;
         parallel += ctrl.getBlocksInPattern(<modularmachinery:blockparallelcontroller:9>) * 2048;
+
+        var raw as int = 0;
+        var maxCapacity as int = 200000000;
+        if (!isNull(ctrl.customData.willList)) {
+            if (!isNull(ctrl.customData.willList.raw)) {
+                raw = ctrl.customData.willList.raw as int;
+            }
+            if (!isNull(ctrl.customData.willList.maxCapacity)) {
+                maxCapacity = ctrl.customData.willList.maxCapacity as int;
+            }
+        }
         ctrl.customData = ctrl.customData.update({willList : {
             parallel : parallel as int,
-            raw : 0 as int,
-            maxCapacity : 200000000 as int
+            raw : raw,
+            maxCapacity : maxCapacity
         }});
     }
 });
