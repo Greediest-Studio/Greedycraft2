@@ -34,7 +34,8 @@ jobs:
           cache: false
 
       - name: 3. 安装 packwiz
-        run: go install github.com/packwiz/packwiz@latest
+        # 锁定到无 replace 指令的最后一个稳定提交（上游 PR #407 引入了 replace 指令导致 go install @latest 报错）
+        run: go install github.com/packwiz/packwiz@dfd8b68a4796c763e25bad50265ea1f1233e24f1
 
       - name: 4. 打包前合并 submods
         run: |
