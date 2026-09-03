@@ -527,7 +527,13 @@ val removedRecipes as IIngredient[] = [
     <botaniverse:morewood:7>,
     <gctcore:gct_mana_wood:3>,
     <gctcore:gct_mana_wood:4>,
-    <gctcore:gct_mana_wood:5>
+    <gctcore:gct_mana_wood:5>,
+    <futuremc:oak_wood>,
+    <futuremc:birch_wood>,
+    <futuremc:spruce_wood>,
+    <futuremc:acacia_wood>,
+    <futuremc:jungle_wood>,
+    <futuremc:dark_oak_wood>
 ];
 
 val removedRecipeNames as string[] = [

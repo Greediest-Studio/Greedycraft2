@@ -44,7 +44,8 @@ RecipeBuilder.newBuilder("genite_build", "gene_builder", 1000, 0)
 MMEvents.onControllerGUIRender("gene_builder", function(event as ControllerGUIRenderEvent) {
     var info as string[] = [
         "§a///基因构造机控制面板///",
-        "§a机器名称：§eLV2 - 基因构造机"
+        "§a机器名称：§eLV2 - 基因构造机",
     ];
+    info += ("§a附属模块：" ~ (event.controller.hasModule("advanced") ? "§e升级模块" : "§c无"));
     event.extraInfo = info;
 });
