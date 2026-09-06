@@ -890,7 +890,7 @@ addBuilderRecipe(<modularmachinery:kabalah_builder_factory_controller>, [
     <ore:ingotPhotonium> * 24,
     <botania:dreamwood> * 64,
     <botaniverse:morewood> * 16,
-    <botaniverse:morewood:1> * 8
+    <gctcore:gct_mana_wood> * 8
 ], 4, 1800);
 
 addBuilderRecipe(<modularmachinery:builder_5_factory_controller>, [

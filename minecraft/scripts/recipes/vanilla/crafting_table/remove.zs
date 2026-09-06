@@ -533,7 +533,10 @@ val removedRecipes as IIngredient[] = [
     <futuremc:spruce_wood>,
     <futuremc:acacia_wood>,
     <futuremc:jungle_wood>,
-    <futuremc:dark_oak_wood>
+    <futuremc:dark_oak_wood>,
+    <botaniverse:morespreader:1>,
+    <botaniverse:morespreader:2>,
+    <botaniverse:morespreader:3>
 ];
 
 val removedRecipeNames as string[] = [

@@ -36,9 +36,9 @@ MachineModifier.addCoreThread("unitcell_builder", FactoryRecipeThread.createCore
 MMEvents.onControllerGUIRender("unitcell_builder", function(event as ControllerGUIRenderEvent) {
     var info as string[] = [
         "§a///晶胞重塑器控制面板///",
-        "§a机器名称：§eLV3 - 晶胞重塑器"
+        "§a机器名称：§eLV3 - 晶胞重塑器",
+        "§a附属模块：" ~ (event.controller.hasModule("advanced") ? "§e升级模块" : "§c无") as string
     ];
-
     info += "§a尺寸参数：§e" ~ (event.controller.getSize() as string) ~ "§a，输出后为 §e0";
     info += "§a纯度参数：§e" ~ (event.controller.getPurity() as string) ~ "§a，输出后为 §e" ~ (((event.controller.getPurity() - 10000 < 0) ? 0 : (event.controller.getPurity() - 10000)) as string);
     info += "§a抛光参数：§e" ~ (event.controller.getCollective() as string) ~ "§a，输出后为 §e" ~ (((event.controller.getCollective() - 10000 < 0) ? 0 : (event.controller.getCollective() - 10000)) as string);
