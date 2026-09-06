@@ -1,13 +1,12 @@
-filename = 'mysticalagriculture-ce-1.8.3.jar'
-name = 'Mystical Agriculture Community Edition'
-side = 'both'
+name = "Mystical Agriculture Community Edition"
+filename = "mysticalagriculture-ce-1.8.4.jar"
+side = "both"
 
 [download]
-hash = '283f9607b6db18e11c33e4bc520f8ab9b8478b34'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
+hash-format = "sha1"
+hash = "b0baa34a767eb6a19de33a63ee50f5f5dd0d5be3"
+mode = "metadata:curseforge"
 
-[update]
 [update.curseforge]
-file-id = 7476892
+file-id = 8719460
 project-id = 1417705

@@ -1,13 +1,12 @@
-filename = 'FunctionalStorageLegacy-1.1.1.jar'
-name = 'Functional Storage Legacy'
-side = 'both'
+name = "Functional Storage Legacy"
+filename = "FunctionalStorageLegacy-1.1.2.jar"
+side = "both"
 
 [download]
-hash = '1c0064bfe4c26268585e5b8982bb5a85ae2cc904'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
+hash-format = "sha1"
+hash = "79b9f9962611cd4321adc204f923b169fad374a8"
+mode = "metadata:curseforge"
 
-[update]
 [update.curseforge]
-file-id = 8463741
+file-id = 8766635
 project-id = 1481727
