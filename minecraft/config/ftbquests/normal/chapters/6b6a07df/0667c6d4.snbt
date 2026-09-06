@@ -1,0 +1,14 @@
+{
+	x: 4.5d,
+	y: -4.5d,
+	dependencies: [
+		"7a54f2f1"
+	],
+	tasks: [{
+		uid: "c9bccdc7",
+		type: "item",
+		items: [{
+			item: "modularmachinery:arcane_alchemical_pot_factory_controller"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -1.5d,
+	y: -7.5d,
+	dependencies: [
+		"fc971b40"
+	],
+	tasks: [{
+		uid: "f11b592a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:flux_melter_factory_controller"
+		}]
+	}]
+}

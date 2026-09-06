@@ -1,0 +1,14 @@
+{
+	x: 11.0d,
+	y: -9.5d,
+	dependencies: [
+		"92aaf401"
+	],
+	tasks: [{
+		uid: "3e51fc67",
+		type: "item",
+		items: [{
+			item: "modularmachinery:kabalah_builder_factory_controller"
+		}]
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	x: -19.0d,
+	y: -8.5d,
+	dependencies: [
+		"f691de21"
+	],
+	tasks: [{
+		uid: "68796770",
+		type: "item",
+		items: [{
+			item: "modularmachinery:mek_changer_factory_controller"
+		}],
+		consume_items: 0b,
+		ignore_nbt: 1b
+	}]
+}

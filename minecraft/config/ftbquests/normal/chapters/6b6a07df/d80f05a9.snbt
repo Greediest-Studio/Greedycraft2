@@ -1,0 +1,14 @@
+{
+	x: 10.0d,
+	y: -4.0d,
+	dependencies: [
+		"92aaf401"
+	],
+	tasks: [{
+		uid: "659bd644",
+		type: "item",
+		items: [{
+			item: "modularmachinery:loot_creater_factory_controller"
+		}]
+	}]
+}

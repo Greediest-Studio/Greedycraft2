@@ -1,0 +1,15 @@
+{
+	x: -10.5d,
+	y: -7.5d,
+	dependencies: [
+		"760d88a6"
+	],
+	tasks: [{
+		uid: "15d9994f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:exp_power_generator_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

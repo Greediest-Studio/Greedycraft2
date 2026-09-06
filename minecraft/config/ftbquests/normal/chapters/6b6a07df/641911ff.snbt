@@ -1,0 +1,14 @@
+{
+	x: -2.5d,
+	y: 1.0d,
+	dependencies: [
+		"9b86ebc6"
+	],
+	tasks: [{
+		uid: "5d50121f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:factory_5x_factory_controller"
+		}]
+	}]
+}

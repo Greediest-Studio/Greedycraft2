@@ -1,0 +1,14 @@
+{
+	x: 22.0d,
+	y: -7.5d,
+	dependencies: [
+		"d5adf43b"
+	],
+	tasks: [{
+		uid: "9732ec77",
+		type: "item",
+		items: [{
+			item: "modularmachinery:biotechnic_computer_factory_controller"
+		}]
+	}]
+}

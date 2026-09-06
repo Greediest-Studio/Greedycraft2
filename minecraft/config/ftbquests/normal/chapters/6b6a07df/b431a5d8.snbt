@@ -1,0 +1,16 @@
+{
+	x: -22.0d,
+	y: -8.5d,
+	dependencies: [
+		"f691de21"
+	],
+	tasks: [{
+		uid: "9e1a0f37",
+		type: "item",
+		items: [{
+			item: "modularmachinery:vethea_enchanter_factory_controller"
+		}],
+		consume_items: 0b,
+		ignore_nbt: 1b
+	}]
+}

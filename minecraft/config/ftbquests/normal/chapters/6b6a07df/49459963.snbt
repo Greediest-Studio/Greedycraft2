@@ -1,0 +1,14 @@
+{
+	x: 14.0d,
+	y: -5.0d,
+	dependencies: [
+		"92aaf401"
+	],
+	tasks: [{
+		uid: "82fca650",
+		type: "item",
+		items: [{
+			item: "modularmachinery:arcane_matrix_factory_controller"
+		}]
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: -13.5d,
+	y: -10.5d,
+	dependencies: [
+		"760d88a6"
+	],
+	tasks: [{
+		uid: "a6f72777",
+		type: "item",
+		items: [{
+			item: "modularmachinery:durasteel_forge_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

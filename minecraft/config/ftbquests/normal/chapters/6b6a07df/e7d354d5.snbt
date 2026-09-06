@@ -1,0 +1,14 @@
+{
+	x: -1.0d,
+	y: 1.0d,
+	dependencies: [
+		"641911ff"
+	],
+	tasks: [{
+		uid: "9cd5179f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:factory_atomic_vibrator_factory_controller"
+		}]
+	}]
+}

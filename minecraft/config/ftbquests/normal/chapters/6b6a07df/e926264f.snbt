@@ -1,0 +1,15 @@
+{
+	x: -14.5d,
+	y: -9.5d,
+	dependencies: [
+		"760d88a6"
+	],
+	tasks: [{
+		uid: "e417a586",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blood_altar_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

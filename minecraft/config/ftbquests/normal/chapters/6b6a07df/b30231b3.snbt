@@ -1,0 +1,14 @@
+{
+	x: -5.5d,
+	y: -3.5d,
+	dependencies: [
+		"fc971b40"
+	],
+	tasks: [{
+		uid: "0ff4e8c1",
+		type: "item",
+		items: [{
+			item: "modularmachinery:organic_infuser_factory_controller"
+		}]
+	}]
+}

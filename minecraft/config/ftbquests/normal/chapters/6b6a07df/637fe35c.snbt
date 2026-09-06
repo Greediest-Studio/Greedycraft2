@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: -9.5d,
+	dependencies: [
+		"fc971b40"
+	],
+	tasks: [{
+		uid: "a555f08f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:gene_builder_factory_controller"
+		}]
+	}]
+}

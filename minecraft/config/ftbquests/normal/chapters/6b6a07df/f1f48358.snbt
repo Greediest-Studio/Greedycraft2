@@ -1,0 +1,14 @@
+{
+	x: 18.5d,
+	y: -9.0d,
+	dependencies: [
+		"d5adf43b"
+	],
+	tasks: [{
+		uid: "67204ff4",
+		type: "item",
+		items: [{
+			item: "modularmachinery:nuclear_bomb_reactor_factory_controller"
+		}]
+	}]
+}

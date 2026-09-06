@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: -9.5d,
+	dependencies: [
+		"7a54f2f1"
+	],
+	tasks: [{
+		uid: "5e1aa7e9",
+		type: "item",
+		items: [{
+			item: "modularmachinery:chromasteel_forge_factory_controller"
+		}]
+	}]
+}

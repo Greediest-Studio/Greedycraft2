@@ -1,0 +1,14 @@
+{
+	x: 8.5d,
+	y: -6.0d,
+	dependencies: [
+		"92aaf401"
+	],
+	tasks: [{
+		uid: "cbeb9f3d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:aura_crafter_factory_controller"
+		}]
+	}]
+}

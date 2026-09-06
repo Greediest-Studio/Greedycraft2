@@ -1,0 +1,14 @@
+{
+	x: 1.5d,
+	y: -7.5d,
+	dependencies: [
+		"7a54f2f1"
+	],
+	tasks: [{
+		uid: "26d0decf",
+		type: "item",
+		items: [{
+			item: "modularmachinery:unitcell_builder_factory_controller"
+		}]
+	}]
+}

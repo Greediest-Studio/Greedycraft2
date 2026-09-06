@@ -1,0 +1,14 @@
+{
+	x: 18.5d,
+	y: -4.0d,
+	dependencies: [
+		"d5adf43b"
+	],
+	tasks: [{
+		uid: "ba12592d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:ion_exchange_column_factory_controller"
+		}]
+	}]
+}

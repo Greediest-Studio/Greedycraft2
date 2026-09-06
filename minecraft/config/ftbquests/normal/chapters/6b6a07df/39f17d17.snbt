@@ -1,0 +1,20 @@
+{
+	x: -20.5d,
+	y: -3.5d,
+	dependencies: [
+		"2b837d27",
+		"1005eb39"
+	],
+	tasks: [{
+		uid: "0f65a99a",
+		type: "item",
+		items: [{
+			id: "gctcore:mmce_builder_tool",
+			tag: {
+				gct_mmce_dynamic_length: 1
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 5.0d,
+	y: 1.0d,
+	dependencies: [
+		"ecde78c0"
+	],
+	tasks: [{
+		uid: "c282c6df",
+		type: "item",
+		items: [{
+			item: "modularmachinery:factory_arcanic_brewer_factory_controller"
+		}]
+	}]
+}

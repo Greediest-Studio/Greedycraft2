@@ -1,0 +1,14 @@
+{
+	x: -2.5d,
+	y: -4.5d,
+	dependencies: [
+		"fc971b40"
+	],
+	tasks: [{
+		uid: "2ca05cd3",
+		type: "item",
+		items: [{
+			item: "modularmachinery:auto_soul_forge_factory_controller"
+		}]
+	}]
+}

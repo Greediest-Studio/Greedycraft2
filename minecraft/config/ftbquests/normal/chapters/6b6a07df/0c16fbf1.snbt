@@ -1,0 +1,14 @@
+{
+	x: -7.5d,
+	y: -5.5d,
+	dependencies: [
+		"fc971b40"
+	],
+	tasks: [{
+		uid: "bbf355be",
+		type: "item",
+		items: [{
+			item: "modularmachinery:mana_powereducer_factory_controller"
+		}]
+	}]
+}

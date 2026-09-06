@@ -1,0 +1,14 @@
+{
+	x: -3.5d,
+	y: -3.5d,
+	dependencies: [
+		"fc971b40"
+	],
+	tasks: [{
+		uid: "467bb31a",
+		type: "item",
+		items: [{
+			item: "modularmachinery:solar_power_generator_factory_controller"
+		}]
+	}]
+}

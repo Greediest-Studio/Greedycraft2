@@ -1,0 +1,14 @@
+{
+	x: 8.5d,
+	y: -7.0d,
+	dependencies: [
+		"92aaf401"
+	],
+	tasks: [{
+		uid: "0b6a6a35",
+		type: "item",
+		items: [{
+			item: "modularmachinery:impetus_forge_factory_controller"
+		}]
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	title: "§b模块化，启动~",
+	x: -20.5d,
+	y: -6.5d,
+	shape: "gear",
+	description: "什么？不会玩？快去看《贪婪整合包 从入门到精通》",
+	text: [
+		"任务里也许会有一点指引，也许（"
+	],
+	dependencies: [
+		"2c76beab"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "d3e5cf4c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	}]
+}

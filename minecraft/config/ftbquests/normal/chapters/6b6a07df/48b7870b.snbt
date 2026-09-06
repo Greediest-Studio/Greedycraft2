@@ -1,0 +1,14 @@
+{
+	x: -6.5d,
+	y: -8.5d,
+	dependencies: [
+		"fc971b40"
+	],
+	tasks: [{
+		uid: "2e632050",
+		type: "item",
+		items: [{
+			item: "modularmachinery:end_forge_factory_controller"
+		}]
+	}]
+}

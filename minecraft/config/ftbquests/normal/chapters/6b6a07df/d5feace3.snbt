@@ -1,0 +1,14 @@
+{
+	x: -4.5d,
+	y: -10.5d,
+	dependencies: [
+		"fc971b40"
+	],
+	tasks: [{
+		uid: "551d1640",
+		type: "item",
+		items: [{
+			item: "modularmachinery:aeonsteel_forge_factory_controller"
+		}]
+	}]
+}

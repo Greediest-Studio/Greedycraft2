@@ -1,0 +1,14 @@
+{
+	x: 3.5d,
+	y: 1.0d,
+	dependencies: [
+		"accf3e86"
+	],
+	tasks: [{
+		uid: "f04ff714",
+		type: "item",
+		items: [{
+			item: "modularmachinery:factory_arcanic_infuser_factory_controller"
+		}]
+	}]
+}

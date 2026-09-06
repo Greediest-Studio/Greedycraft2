@@ -1,0 +1,14 @@
+{
+	x: -6.5d,
+	y: -4.5d,
+	dependencies: [
+		"fc971b40"
+	],
+	tasks: [{
+		uid: "86c8530f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:air_collector_factory_controller"
+		}]
+	}]
+}

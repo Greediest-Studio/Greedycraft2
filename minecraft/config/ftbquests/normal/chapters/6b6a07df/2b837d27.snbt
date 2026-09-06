@@ -1,0 +1,16 @@
+{
+	x: -22.0d,
+	y: -5.0d,
+	dependencies: [
+		"f691de21"
+	],
+	tasks: [{
+		uid: "b1685afa",
+		type: "item",
+		items: [{
+			item: "modularmachineryaddons:advancedmachinedisassembler"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

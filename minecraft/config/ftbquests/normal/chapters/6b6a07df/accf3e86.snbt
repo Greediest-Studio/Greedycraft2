@@ -1,0 +1,14 @@
+{
+	x: 2.0d,
+	y: 1.0d,
+	dependencies: [
+		"363cfeb7"
+	],
+	tasks: [{
+		uid: "89477bd6",
+		type: "item",
+		items: [{
+			item: "modularmachinery:factory_atomic_acider_factory_controller"
+		}]
+	}]
+}

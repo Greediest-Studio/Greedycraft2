@@ -1,0 +1,14 @@
+{
+	x: 13.0d,
+	y: -9.0d,
+	dependencies: [
+		"92aaf401"
+	],
+	tasks: [{
+		uid: "2cb28049",
+		type: "item",
+		items: [{
+			item: "modularmachinery:astral_collector_factory_controller"
+		}]
+	}]
+}

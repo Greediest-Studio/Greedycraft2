@@ -1,0 +1,14 @@
+{
+	x: 9.0d,
+	y: -8.0d,
+	dependencies: [
+		"92aaf401"
+	],
+	tasks: [{
+		uid: "e82d3422",
+		type: "item",
+		items: [{
+			item: "modularmachinery:bright_altar_factory_controller"
+		}]
+	}]
+}

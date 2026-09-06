@@ -1,0 +1,14 @@
+{
+	x: 22.0d,
+	y: -5.5d,
+	dependencies: [
+		"d5adf43b"
+	],
+	tasks: [{
+		uid: "0634eb47",
+		type: "item",
+		items: [{
+			item: "modularmachinery:crimson_extractor_factory_controller"
+		}]
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: -5.5d,
+	y: -9.5d,
+	dependencies: [
+		"fc971b40"
+	],
+	tasks: [{
+		uid: "f9ea19f7",
+		type: "item",
+		items: [{
+			item: "modularmachinery:matrix_fusioner_factory_controller"
+		}]
+	}]
+}

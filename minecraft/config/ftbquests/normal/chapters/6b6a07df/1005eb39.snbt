@@ -1,0 +1,16 @@
+{
+	x: -19.0d,
+	y: -5.0d,
+	dependencies: [
+		"f691de21"
+	],
+	tasks: [{
+		uid: "75334744",
+		type: "item",
+		items: [{
+			item: "additions:basic_assembler"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

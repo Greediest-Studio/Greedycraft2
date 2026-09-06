@@ -1,0 +1,14 @@
+{
+	x: 17.0d,
+	y: -7.5d,
+	dependencies: [
+		"d5adf43b"
+	],
+	tasks: [{
+		uid: "d32e338f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:wave_forge_factory_controller"
+		}]
+	}]
+}

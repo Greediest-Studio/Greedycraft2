@@ -1,0 +1,14 @@
+{
+	x: 6.5d,
+	y: 1.0d,
+	dependencies: [
+		"b0acb815"
+	],
+	tasks: [{
+		uid: "371410d8",
+		type: "item",
+		items: [{
+			item: "modularmachinery:factory_arcanic_astrallizer_factory_controller"
+		}]
+	}]
+}

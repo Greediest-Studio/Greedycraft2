@@ -1,0 +1,18 @@
+{
+	title: "§b误入深渊",
+	x: -25.0d,
+	y: -6.5d,
+	shape: "gear",
+	description: "染上模块化就别想走了",
+	text: [
+		""
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "d79b241b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:itemmodularium"
+		}]
+	}]
+}

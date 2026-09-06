@@ -1,0 +1,14 @@
+{
+	x: 14.5d,
+	y: -7.0d,
+	dependencies: [
+		"92aaf401"
+	],
+	tasks: [{
+		uid: "7c602cc3",
+		type: "item",
+		items: [{
+			item: "modularmachinery:arcane_melter_factory_controller"
+		}]
+	}]
+}

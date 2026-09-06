@@ -1,0 +1,14 @@
+{
+	x: -7.5d,
+	y: -7.5d,
+	dependencies: [
+		"fc971b40"
+	],
+	tasks: [{
+		uid: "eac3cd1c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:flux_reducer_factory_controller"
+		}]
+	}]
+}

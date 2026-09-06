@@ -1,0 +1,14 @@
+{
+	x: 9.0d,
+	y: -5.0d,
+	dependencies: [
+		"92aaf401"
+	],
+	tasks: [{
+		uid: "73b09b77",
+		type: "item",
+		items: [{
+			item: "modularmachinery:entropy_reverse_factory_controller"
+		}]
+	}]
+}

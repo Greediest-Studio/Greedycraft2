@@ -1,0 +1,14 @@
+{
+	x: 13.0d,
+	y: -4.0d,
+	dependencies: [
+		"92aaf401"
+	],
+	tasks: [{
+		uid: "3232e7eb",
+		type: "item",
+		items: [{
+			item: "modularmachinery:pe_collector_factory_controller"
+		}]
+	}]
+}

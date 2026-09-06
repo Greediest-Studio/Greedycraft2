@@ -1,0 +1,27 @@
+{
+	x: 3.5d,
+	y: -6.5d,
+	dependencies: [
+		"fc971b40"
+	],
+	tasks: [{
+		uid: "35c29724",
+		type: "item",
+		items: [{
+			item: "modularmachinery:builder_3_factory_controller"
+		}],
+		consume_items: 0b,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "95a56767",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:builder_3"
+			}
+		}],
+		consume_items: 0b
+	}]
+}

@@ -1,0 +1,14 @@
+{
+	x: 20.5d,
+	y: -9.0d,
+	dependencies: [
+		"d5adf43b"
+	],
+	tasks: [{
+		uid: "8f3016c9",
+		type: "item",
+		items: [{
+			item: "modularmachinery:great_laser_alloyer_factory_controller"
+		}]
+	}]
+}

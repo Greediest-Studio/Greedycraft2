@@ -1,0 +1,14 @@
+{
+	x: 0.5d,
+	y: 1.0d,
+	dependencies: [
+		"e7d354d5"
+	],
+	tasks: [{
+		uid: "87a5dc64",
+		type: "item",
+		items: [{
+			item: "modularmachinery:factory_atomic_decayer_factory_controller"
+		}]
+	}]
+}

@@ -2,9 +2,10 @@
 	title: "§b虚空挖矿？",
 	x: -8.0d,
 	y: 15.5d,
-	description: "合成基础采掘机集成控制器",
+	description: "合成简易采掘机集成控制器",
 	text: [
-		"如果你放的维度对了还显示维度错误，直接通电即可！",
+		"哦可恶的消声仓，让我的全自动幻想破灭...",
+		"如果显示维度错误，直接通电即可！",
 		"它还有更高级的版本！",
 		"有关采掘机的更多信息详见百科全书"
 	],
@@ -15,7 +16,7 @@
 		uid: "08e6ba96",
 		type: "item",
 		items: [{
-			item: "modularmachinery:basic_miner_factory_controller"
+			item: "modularmachinery:simple_miner_factory_controller"
 		}],
 		ignore_nbt: 1b
 	}],

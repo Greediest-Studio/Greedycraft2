@@ -1,0 +1,15 @@
+{
+	x: -1.0d,
+	y: -0.5d,
+	dependencies: [
+		"21bb2f06"
+	],
+	tasks: [{
+		uid: "1966ae9f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:advanced_miner_factory_controller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

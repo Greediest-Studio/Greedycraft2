@@ -1,0 +1,14 @@
+{
+	x: 10.0d,
+	y: -9.0d,
+	dependencies: [
+		"92aaf401"
+	],
+	tasks: [{
+		uid: "19b1e2ef",
+		type: "item",
+		items: [{
+			item: "modularmachinery:chaos_reactor_factory_controller"
+		}]
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "§bElysia计划的初次展现",
+	x: -13.5d,
+	y: -4.5d,
+	description: "Elysia系列可以应用一些更强大的模块化电容...",
+	text: [
+		""
+	],
+	dependencies: [
+		"760d88a6"
+	],
+	tasks: [{
+		uid: "2f04422e",
+		type: "checkmark",
+		title: "Elysia"
+	}]
+}

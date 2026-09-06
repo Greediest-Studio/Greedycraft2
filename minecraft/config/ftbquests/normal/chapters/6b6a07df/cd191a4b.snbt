@@ -1,0 +1,14 @@
+{
+	x: 20.5d,
+	y: -4.0d,
+	dependencies: [
+		"d5adf43b"
+	],
+	tasks: [{
+		uid: "fe6f9109",
+		type: "item",
+		items: [{
+			item: "modularmachinery:radiation_cleaner_factory_controller"
+		}]
+	}]
+}

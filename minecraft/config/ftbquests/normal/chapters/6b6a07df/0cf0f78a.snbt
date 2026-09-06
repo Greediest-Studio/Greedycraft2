@@ -1,0 +1,14 @@
+{
+	x: 14.0d,
+	y: -8.0d,
+	dependencies: [
+		"92aaf401"
+	],
+	tasks: [{
+		uid: "14ae9bc0",
+		type: "item",
+		items: [{
+			item: "modularmachinery:stratified_precipitator_factory_controller"
+		}]
+	}]
+}
