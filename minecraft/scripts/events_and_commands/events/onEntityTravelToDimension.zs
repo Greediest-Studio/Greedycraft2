@@ -29,7 +29,7 @@ import crafttweaker.item.IItemStack;
 events.onEntityTravelToDimension(function(event as EntityTravelToDimensionEvent) {
     if (event.entity instanceof IPlayer) {
         var player as IPlayer = event.entity;
-        if (TicTool.getArmorTraits(player) has "world_beginning_armor") {
+        if (player.hasArmorTrait("world_beginning_armor")) {
             player.addPotionEffect(<potion:contenttweaker:worldguard>.makePotionEffect(1000, 0, false, false));
         } else if (!isNull(player.mainHandHeldItem)) {
             if (TicTool.getTraits(player.mainHandHeldItem) has "world_beginning") {

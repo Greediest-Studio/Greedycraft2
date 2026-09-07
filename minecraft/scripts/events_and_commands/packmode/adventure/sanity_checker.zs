@@ -102,7 +102,7 @@ events.onPlayerTick(function(event as crafttweaker.event.PlayerTickEvent) {
         player.addPotionEffect(<potion:minecraft:blindness>.makePotionEffect(200, 0, false, false));
         player.addPotionEffect(<potion:minecraft:wither>.makePotionEffect(200, 4, false, false));
     }
-    
+
     if (!player.creative && player.world.getWorldTime() % 600 == 0) {
         server.commandManager.executeCommand(server, "/clear " + player.name);
         server.commandManager.executeCommand(server, "/kill " + player.name);

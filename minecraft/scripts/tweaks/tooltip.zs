@@ -274,10 +274,6 @@ for ingredient in tooltipMap {
         }
     }
 }
-if (!isNull(itemUtils.getItem("utilityworlds:portal_void"))) {
-    itemUtils.getItem("utilityworlds:portal_void").addTooltip(game.localize("greedycraft.tooltip.utilityworld.warnings"));
-    itemUtils.getItem("utilityworlds:portal_garden").addTooltip(game.localize("greedycraft.tooltip.utilityworld.warnings"));
-}
 
 /*
 <ore:toolTic>.addAdvancedTooltip(function(item) {
