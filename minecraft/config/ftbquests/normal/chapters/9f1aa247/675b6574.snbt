@@ -1,0 +1,21 @@
+{
+	x: 28.5d,
+	y: -0.5d,
+	dependencies: [
+		"b60a77bb"
+	],
+	tasks: [{
+		uid: "00090a43",
+		type: "item",
+		items: [{
+			id: "eco_expand:estorage_cell_universal_4096m",
+			tag: {
+				eco_expand_universal_uuidMost: 5506147909305058598L,
+				eco_expand_universal_uuidLeast: -9061423681144063474L,
+				eco_expand_universal_level: "le15"
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

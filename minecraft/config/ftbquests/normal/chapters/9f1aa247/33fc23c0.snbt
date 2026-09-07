@@ -1,0 +1,50 @@
+{
+	title: "§b封包的基础",
+	x: -21.0d,
+	y: 1.5d,
+	description: "搭建封包合成装置",
+	text: [
+		"合成那些无法直接通过me接口合成的东西"
+	],
+	dependencies: [
+		"bb69a736"
+	],
+	tasks: [{
+		uid: "04d97c82",
+		type: "item",
+		items: [{
+			item: "packagedauto:packager"
+		}]
+	},
+	{
+		uid: "b7d80e44",
+		type: "item",
+		items: [{
+			item: "packagedauto:unpackager"
+		}]
+	},
+	{
+		uid: "345689c7",
+		type: "item",
+		items: [{
+			item: "packagedauto:encoder"
+		}]
+	},
+	{
+		uid: "0af1371f",
+		type: "item",
+		items: [{
+			item: "packagedauto:recipe_holder"
+		}]
+	}],
+	rewards: [{
+		uid: "474092ec",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "8a260157",
+		type: "random",
+		table: 1
+	}]
+}

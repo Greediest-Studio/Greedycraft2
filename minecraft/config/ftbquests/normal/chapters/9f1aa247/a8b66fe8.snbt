@@ -1,0 +1,31 @@
+{
+	title: "§b万能的！",
+	x: 20.5d,
+	y: -0.5d,
+	text: [
+		"全都能存"
+	],
+	dependencies: [
+		"8f930911",
+		"3b107ba6",
+		"f48a9f7d",
+		"7e1b58e3",
+		"85eee747",
+		"7acf9085",
+		"642ffdb3"
+	],
+	tasks: [{
+		uid: "e688946e",
+		type: "item",
+		items: [{
+			id: "eco_expand:estorage_cell_universal_16m",
+			tag: {
+				eco_expand_universal_uuidMost: 5684421216860980188L,
+				eco_expand_universal_uuidLeast: -6608699383686373097L,
+				eco_expand_universal_level: "le4"
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

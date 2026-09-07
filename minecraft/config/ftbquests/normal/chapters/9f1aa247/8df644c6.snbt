@@ -1,0 +1,29 @@
+{
+	title: "§b前期够用",
+	x: -18.5d,
+	y: 12.5d,
+	description: "合成ME高级太阳能板",
+	text: [
+		""
+	],
+	dependencies: [
+		"af621026"
+	],
+	tasks: [{
+		uid: "a3d15563",
+		type: "item",
+		items: [{
+			item: "crazyae:advanced_solar_panel"
+		}]
+	}],
+	rewards: [{
+		uid: "f81ae21a",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "632f357d",
+		type: "xp",
+		xp: 2000
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "§b更简单的原子再构机的自动",
+	x: -14.0d,
+	y: 15.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "b0eafc50",
+		type: "item",
+		items: [{
+			item: "nae2:reconstruction_chamber"
+		}]
+	}],
+	rewards: [{
+		uid: "ee404843",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "8a12d575",
+		type: "random",
+		table: 1
+	}]
+}

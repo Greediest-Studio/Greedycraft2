@@ -1,0 +1,66 @@
+{
+	title: "§b抓住了！",
+	x: 12.5d,
+	y: 2.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"85eee747",
+		"d9196b5b"
+	],
+	tasks: [{
+		uid: "c8d0f89e",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:fluid_storage_cell_1k",
+			tag: {}
+		},
+		{
+			id: "appliedenergistics2:fluid_storage_cell_4k",
+			tag: {}
+		},
+		{
+			id: "appliedenergistics2:fluid_storage_cell_16k",
+			tag: {}
+		},
+		{
+			id: "appliedenergistics2:fluid_storage_cell_64k",
+			tag: {}
+		},
+		{
+			id: "crazyae:fluid_storage_cell_256k",
+			tag: {}
+		},
+		{
+			id: "crazyae:fluid_storage_cell_1mb",
+			tag: {}
+		},
+		{
+			id: "crazyae:fluid_storage_cell_4mb",
+			tag: {}
+		},
+		{
+			id: "crazyae:fluid_storage_cell_16mb",
+			tag: {}
+		},
+		{
+			id: "crazyae:fluid_storage_cell_64mb",
+			tag: {}
+		},
+		{
+			id: "crazyae:fluid_storage_cell_256mb",
+			tag: {}
+		},
+		{
+			id: "crazyae:fluid_storage_cell_1gb",
+			tag: {}
+		},
+		{
+			id: "crazyae:fluid_storage_cell_2gb",
+			tag: {}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

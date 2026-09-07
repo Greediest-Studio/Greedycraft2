@@ -1,0 +1,23 @@
+{
+	title: "§b包裹",
+	x: -9.5d,
+	y: 15.5d,
+	text: [
+		"将你的ae设备打包带走"
+	],
+	tasks: [{
+		uid: "5b2943c6",
+		type: "item",
+		items: [{
+			id: "ae2_utilix:packer",
+			tag: {}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3255c4e0",
+		type: "xp",
+		xp: 100
+	}]
+}

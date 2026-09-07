@@ -1,0 +1,32 @@
+{
+	title: "§b自动请求任务",
+	x: -14.5d,
+	y: -3.0d,
+	description: "合成ME缓存指令器",
+	text: [
+		""
+	],
+	dependencies: [
+		"ddad20c5"
+	],
+	tasks: [{
+		uid: "1f7fcd41",
+		type: "item",
+		items: [{
+			item: "threng:level_maintainer"
+		},
+		{
+			item: "ae2fc:fluid_level_maintainer"
+		}]
+	}],
+	rewards: [{
+		uid: "6528789b",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "42f9596b",
+		type: "random",
+		table: 1
+	}]
+}

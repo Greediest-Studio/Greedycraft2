@@ -1,0 +1,66 @@
+{
+	title: "§b无题",
+	x: 12.5d,
+	y: 12.0d,
+	text: [
+		""
+	],
+	dependencies: [
+		"8f930911",
+		"d9196b5b"
+	],
+	tasks: [{
+		uid: "521d9aa1",
+		type: "item",
+		items: [{
+			id: "crazyae:energy_cell_1k",
+			tag: {}
+		},
+		{
+			id: "crazyae:energy_cell_4k",
+			tag: {}
+		},
+		{
+			id: "crazyae:energy_cell_16k",
+			tag: {}
+		},
+		{
+			id: "crazyae:energy_cell_64k",
+			tag: {}
+		},
+		{
+			id: "crazyae:energy_cell_256k",
+			tag: {}
+		},
+		{
+			id: "crazyae:energy_cell_1mb",
+			tag: {}
+		},
+		{
+			id: "crazyae:energy_cell_4mb",
+			tag: {}
+		},
+		{
+			id: "crazyae:energy_cell_16mb",
+			tag: {}
+		},
+		{
+			id: "crazyae:energy_cell_64mb",
+			tag: {}
+		},
+		{
+			id: "crazyae:energy_cell_256mb",
+			tag: {}
+		},
+		{
+			id: "crazyae:energy_cell_1gb",
+			tag: {}
+		},
+		{
+			id: "crazyae:energy_cell_2gb",
+			tag: {}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "§b访问ae的魔力",
+	x: -11.0d,
+	y: 15.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "02964a8c",
+		type: "item",
+		items: [{
+			item: "botania_applie:fluix_mana_pool"
+		}]
+	}],
+	rewards: [{
+		uid: "f5c93728",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "be511836",
+		type: "random",
+		table: 1
+	}]
+}

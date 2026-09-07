@@ -1,0 +1,90 @@
+{
+	title: "§b类型貌似不够用",
+	x: 12.5d,
+	y: 9.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"642ffdb3",
+		"d9196b5b"
+	],
+	tasks: [{
+		uid: "b02881a7",
+		type: "item",
+		items: [{
+			id: "thaumicenergistics:essentia_cell_1k",
+			tag: {
+				filter: {}
+			}
+		},
+		{
+			id: "thaumicenergistics:essentia_cell_4k",
+			tag: {
+				filter: {}
+			}
+		},
+		{
+			id: "thaumicenergistics:essentia_cell_16k",
+			tag: {
+				filter: {}
+			}
+		},
+		{
+			id: "thaumicenergistics:essentia_cell_64k",
+			tag: {
+				filter: {}
+			}
+		},
+		{
+			id: "thaumicenergistics:essentia_cell_256k",
+			tag: {
+				filter: {}
+			}
+		},
+		{
+			id: "thaumicenergistics:essentia_cell_1m",
+			tag: {
+				filter: {}
+			}
+		},
+		{
+			id: "thaumicenergistics:essentia_cell_4m",
+			tag: {
+				filter: {}
+			}
+		},
+		{
+			id: "thaumicenergistics:essentia_cell_16m",
+			tag: {
+				filter: {}
+			}
+		},
+		{
+			id: "thaumicenergistics:essentia_cell_64m",
+			tag: {
+				filter: {}
+			}
+		},
+		{
+			id: "thaumicenergistics:essentia_cell_256m",
+			tag: {
+				filter: {}
+			}
+		},
+		{
+			id: "thaumicenergistics:essentia_cell_1g",
+			tag: {
+				filter: {}
+			}
+		},
+		{
+			id: "thaumicenergistics:essentia_cell_2g",
+			tag: {
+				filter: {}
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

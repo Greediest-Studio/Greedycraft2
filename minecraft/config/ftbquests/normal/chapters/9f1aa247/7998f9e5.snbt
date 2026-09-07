@@ -1,0 +1,44 @@
+{
+	title: "§b我什么都做的到",
+	x: 0.0d,
+	y: 13.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"4a991608",
+		"491fdbeb",
+		"c6404324",
+		"a1f776af",
+		"c1295c05",
+		"5dc40989",
+		"43d7922a",
+		"5a594454",
+		"eaaeeac0"
+	],
+	tasks: [{
+		uid: "7bf36727",
+		type: "item",
+		items: [{
+			id: "ae2wut:wireless_universal_terminal",
+			tag: {
+				internalCurrentPower: 1600000.0d,
+				internalMaxPower: 1600000.0d,
+				modes: [I;
+					1,
+					2,
+					3,
+					10,
+					5,
+					6,
+					7,
+					8,
+					9,
+					11
+				]
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

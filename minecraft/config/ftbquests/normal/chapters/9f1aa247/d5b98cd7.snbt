@@ -1,0 +1,17 @@
+{
+	x: 18.5d,
+	y: -3.0d,
+	dependencies: [
+		"d9196b5b"
+	],
+	tasks: [{
+		uid: "e8ed4a48",
+		type: "item",
+		items: [{
+			id: "cells:configurable_cell",
+			tag: {}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,31 @@
+{
+	title: "§b电子眼",
+	x: -17.0d,
+	y: -0.5d,
+	description: "合成高级网络可视化工具",
+	text: [
+		"希望你的ae网络不要像蜘蛛网一样........"
+	],
+	dependencies: [
+		"d22ff170"
+	],
+	tasks: [{
+		uid: "f4bb7677",
+		type: "item",
+		items: [{
+			item: "aenetvistool:net_visualizer"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "18a58b09",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "360e4691",
+		type: "xp",
+		xp: 300
+	}]
+}

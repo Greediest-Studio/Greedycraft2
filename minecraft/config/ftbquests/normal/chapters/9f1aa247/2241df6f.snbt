@@ -1,0 +1,60 @@
+{
+	title: "§b!cpu!",
+	x: 12.5d,
+	y: 14.5d,
+	text: [
+		"ps.直接放在工作台上可以直接把存储元件拆出来"
+	],
+	dependencies: [
+		"659b9a07"
+	],
+	tasks: [{
+		uid: "e0b5b71a",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_storage_1k"
+		},
+		{
+			item: "appliedenergistics2:crafting_storage_4k"
+		},
+		{
+			item: "appliedenergistics2:crafting_storage_16k"
+		},
+		{
+			item: "appliedenergistics2:crafting_storage_64k"
+		},
+		{
+			item: "crazyae:crafting_storage_256k"
+		},
+		{
+			item: "crazyae:crafting_storage_1mb"
+		},
+		{
+			item: "crazyae:crafting_storage_4mb"
+		},
+		{
+			item: "crazyae:crafting_storage_16mb"
+		},
+		{
+			item: "crazyae:crafting_storage_64mb"
+		},
+		{
+			item: "crazyae:crafting_storage_256mb"
+		},
+		{
+			item: "crazyae:crafting_storage_1gb"
+		},
+		{
+			item: "crazyae:crafting_storage_2gb"
+		},
+		{
+			item: "crazyae:crafting_storage_8gb"
+		},
+		{
+			item: "crazyae:crafting_storage_32gb"
+		},
+		{
+			item: "crazyae:crafting_storage_128gb"
+		}]
+	}]
+}

@@ -1,0 +1,62 @@
+{
+	title: "§b每个字节都比原本的存的更多",
+	x: 14.0d,
+	y: 12.0d,
+	text: [
+		"比前者存的更多"
+	],
+	dependencies: [
+		"8f930911",
+		"d9196b5b"
+	],
+	tasks: [{
+		uid: "f49af164",
+		type: "item",
+		items: [{
+			id: "flux_applied:flux_storage_cell_1k",
+			tag: {}
+		},
+		{
+			id: "flux_applied:flux_storage_cell_4k",
+			tag: {}
+		},
+		{
+			id: "flux_applied:flux_storage_cell_16k",
+			tag: {}
+		},
+		{
+			id: "flux_applied:flux_storage_cell_64k",
+			tag: {}
+		},
+		{
+			id: "flux_applied:flux_storage_cell_256k",
+			tag: {}
+		},
+		{
+			id: "flux_applied:flux_storage_cell_1m",
+			tag: {}
+		},
+		{
+			id: "flux_applied:flux_storage_cell_4m",
+			tag: {}
+		},
+		{
+			id: "flux_applied:flux_storage_cell_16m",
+			tag: {}
+		},
+		{
+			id: "flux_applied:flux_storage_cell_64m",
+			tag: {}
+		},
+		{
+			id: "flux_applied:flux_storage_cell_256m",
+			tag: {}
+		},
+		{
+			id: "flux_applied:flux_storage_cell_1g",
+			tag: {}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	title: "§b无限潜能",
+	x: 9.5d,
+	y: -4.5d,
+	text: [
+		"能访问相对应容器内部的存储",
+		"ps.一个接口和一个存储总线的碰撞会发生什么样的火花呢？"
+	],
+	dependencies: [
+		"d9196b5b"
+	],
+	tasks: [{
+		uid: "a2abfc22",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 220"
+		},
+		{
+			item: "appliedenergistics2:part 1 221"
+		},
+		{
+			item: "appliedenergistics2:part 1 222"
+		},
+		{
+			item: "flux_applied:energy_storage_bus"
+		},
+		{
+			item: "appliedenergistics2:part 1 220"
+		},
+		{
+			item: "thaumicenergistics:essentia_storage"
+		},
+		{
+			item: "mekeng:gas_storage_bus"
+		}]
+	}]
+}

@@ -1,0 +1,59 @@
+{
+	title: "§b你的第一个me网络",
+	x: 0.0d,
+	y: -0.5d,
+	description: "制作ME控制器，它的每个面可以传出32个频道！",
+	text: [
+		"AE网络的核心",
+		"ps.进行频道传输时智能线缆传输8频道，致密能传输32频道"
+	],
+	dependencies: [
+		"bb69a736"
+	],
+	size: 1.5d,
+	tasks: [{
+		uid: "5cf4b5dc",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:controller"
+		}]
+	},
+	{
+		uid: "5bd53542",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:drive"
+		}]
+	},
+	{
+		uid: "ee869706",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 56"
+		}]
+	},
+	{
+		uid: "1e40fbbe",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 360"
+		}]
+	}],
+	rewards: [{
+		uid: "a2c79dd0",
+		type: "item",
+		item: "appliedenergistics2:part 1 56",
+		count: 64
+	},
+	{
+		uid: "e3c8e849",
+		type: "item",
+		item: "appliedenergistics2:part 1 76",
+		count: 32
+	},
+	{
+		uid: "9a4bc5b8",
+		type: "xp",
+		xp: 100
+	}]
+}

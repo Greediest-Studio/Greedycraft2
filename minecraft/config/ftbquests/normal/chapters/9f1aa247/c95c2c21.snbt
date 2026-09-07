@@ -1,0 +1,66 @@
+{
+	title: "§b把物品存进去！",
+	x: 12.5d,
+	y: -0.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"7acf9085",
+		"d9196b5b"
+	],
+	tasks: [{
+		uid: "93196bc7",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:storage_cell_1k",
+			tag: {}
+		},
+		{
+			id: "appliedenergistics2:storage_cell_4k",
+			tag: {}
+		},
+		{
+			id: "appliedenergistics2:storage_cell_16k",
+			tag: {}
+		},
+		{
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {}
+		},
+		{
+			id: "crazyae:storage_cell_256k",
+			tag: {}
+		},
+		{
+			id: "crazyae:storage_cell_1mb",
+			tag: {}
+		},
+		{
+			id: "crazyae:storage_cell_4mb",
+			tag: {}
+		},
+		{
+			id: "crazyae:storage_cell_16mb",
+			tag: {}
+		},
+		{
+			id: "crazyae:storage_cell_2gb",
+			tag: {}
+		},
+		{
+			id: "crazyae:storage_cell_64mb",
+			tag: {}
+		},
+		{
+			id: "crazyae:storage_cell_1gb",
+			tag: {}
+		},
+		{
+			id: "crazyae:storage_cell_256mb",
+			tag: {}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

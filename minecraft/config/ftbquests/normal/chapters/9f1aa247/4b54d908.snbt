@@ -1,0 +1,35 @@
+{
+	title: "§b?!水水槽槽!？",
+	x: 14.0d,
+	y: -3.0d,
+	text: [
+		"或许算是一个接入ae的水槽"
+	],
+	dependencies: [
+		"d9196b5b"
+	],
+	tasks: [{
+		uid: "5a637775",
+		type: "item",
+		items: [{
+			id: "extendedae:infinity_cell",
+			tag: {
+				r: {
+					FluidName: "water",
+					Count: 0b,
+					Cnt: 1L,
+					Req: 0L,
+					Craft: 0b
+				},
+				t: "f"
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a051f82d",
+		type: "item",
+		item: "cookingforblockheads:sink"
+	}]
+}

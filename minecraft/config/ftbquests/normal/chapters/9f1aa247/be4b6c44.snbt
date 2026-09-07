@@ -1,0 +1,35 @@
+{
+	title: "§b万物起源",
+	x: 0.0d,
+	y: 4.5d,
+	text: [
+		"放入三个样板扩展卡即可体验满血接口"
+	],
+	dependencies: [
+		"99ed9ca3"
+	],
+	tasks: [{
+		uid: "bc8e60e9",
+		type: "item",
+		items: [{
+			item: "ae2fc:dual_interface"
+		},
+		{
+			item: "ae2fc:trio_interface"
+		},
+		{
+			item: "appliedenergistics2:interface"
+		}]
+	}],
+	rewards: [{
+		uid: "f39afe8b",
+		type: "item",
+		item: "ae2fc:dual_interface",
+		random_bonus: 4
+	},
+	{
+		uid: "68394762",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -1,0 +1,17 @@
+{
+	title: "§b打包带走！↑",
+	x: 11.0d,
+	y: -6.0d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "ea6b33d3",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:spatial_storage_cell_16_cubed"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

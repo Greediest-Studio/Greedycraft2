@@ -1,0 +1,22 @@
+{
+	title: "§b远程元件管理",
+	x: 2.0d,
+	y: 10.5d,
+	description: "合成无线元件终端",
+	text: [
+		""
+	],
+	dependencies: [
+		"1b61694a"
+	],
+	tasks: [{
+		uid: "2586ee44",
+		type: "item",
+		items: [{
+			id: "cellterminal:wireless_cell_terminal",
+			tag: {}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

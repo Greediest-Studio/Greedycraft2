@@ -1,0 +1,66 @@
+{
+	title: "§b魔力也能存！",
+	x: 12.5d,
+	y: 7.0d,
+	text: [
+		"或许后者存的更多一点"
+	],
+	dependencies: [
+		"3b107ba6",
+		"d9196b5b"
+	],
+	tasks: [{
+		uid: "5ec75fad",
+		type: "item",
+		items: [{
+			id: "crazyae:mana_cell_1k",
+			tag: {}
+		},
+		{
+			id: "crazyae:mana_cell_4k",
+			tag: {}
+		},
+		{
+			id: "crazyae:mana_cell_16k",
+			tag: {}
+		},
+		{
+			id: "crazyae:mana_cell_64k",
+			tag: {}
+		},
+		{
+			id: "crazyae:mana_cell_256k",
+			tag: {}
+		},
+		{
+			id: "crazyae:mana_cell_1mb",
+			tag: {}
+		},
+		{
+			id: "crazyae:mana_cell_4mb",
+			tag: {}
+		},
+		{
+			id: "crazyae:mana_cell_16mb",
+			tag: {}
+		},
+		{
+			id: "crazyae:mana_cell_64mb",
+			tag: {}
+		},
+		{
+			id: "crazyae:mana_cell_256mb",
+			tag: {}
+		},
+		{
+			id: "crazyae:mana_cell_1gb",
+			tag: {}
+		},
+		{
+			id: "crazyae:mana_cell_2gb",
+			tag: {}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

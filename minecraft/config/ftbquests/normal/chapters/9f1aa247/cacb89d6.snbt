@@ -1,0 +1,28 @@
+{
+	title: "§b转移你的元件",
+	x: 20.5d,
+	y: -3.0d,
+	text: [
+		"搭配超速卡食用更佳"
+	],
+	tasks: [{
+		uid: "df72d075",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:io_port"
+		},
+		{
+			item: "crazyae:improved_io_port"
+		}]
+	}],
+	rewards: [{
+		uid: "d401e4c6",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "42615076",
+		type: "random",
+		table: 1
+	}]
+}

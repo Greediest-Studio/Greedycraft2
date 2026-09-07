@@ -1,0 +1,25 @@
+{
+	title: "§b高级内存卡",
+	x: -19.0d,
+	y: -0.5d,
+	description: "合成高级内存卡",
+	text: [
+		"管理你的p2p设备"
+	],
+	dependencies: [
+		"adddb618"
+	],
+	tasks: [{
+		uid: "074d2c52",
+		type: "item",
+		items: [{
+			id: "betterp2p:advanced_memory_card",
+			tag: {
+				gui: 3b,
+				selectedIndex: {}
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

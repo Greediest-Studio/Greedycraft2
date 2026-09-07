@@ -1,0 +1,37 @@
+{
+	title: "§b强者从不.......",
+	x: 1.5d,
+	y: 4.5d,
+	text: [
+		"能放入9组升级卡，还能当扳手用"
+	],
+	dependencies: [
+		"be4b6c44"
+	],
+	tasks: [{
+		uid: "40093138",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:network_tool"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "16773661",
+		type: "item",
+		item: "appliedenergistics2:material 1 27",
+		random_bonus: 5
+	},
+	{
+		uid: "744efd40",
+		type: "item",
+		item: "appliedenergistics2:material 1 58",
+		random_bonus: 11
+	},
+	{
+		uid: "df31c848",
+		type: "xp",
+		xp: 1000
+	}]
+}

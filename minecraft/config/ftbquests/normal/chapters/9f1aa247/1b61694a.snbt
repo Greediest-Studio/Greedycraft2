@@ -1,0 +1,27 @@
+{
+	x: 0.0d,
+	y: 6.5d,
+	dependencies: [
+		"6f8b667f",
+		"be4b6c44"
+	],
+	tasks: [{
+		uid: "8ea4aeab",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:wireless_access_point"
+		}]
+	},
+	{
+		uid: "f1c758a0",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:security_station"
+		}]
+	}],
+	rewards: [{
+		uid: "4255110d",
+		type: "xp_levels",
+		xp_levels: 2
+	}]
+}

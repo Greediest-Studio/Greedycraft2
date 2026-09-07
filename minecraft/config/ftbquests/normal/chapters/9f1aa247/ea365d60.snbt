@@ -1,0 +1,66 @@
+{
+	title: "§b你也逃不掉！",
+	x: 12.5d,
+	y: 4.5d,
+	text: [
+		""
+	],
+	dependencies: [
+		"7e1b58e3",
+		"d9196b5b"
+	],
+	tasks: [{
+		uid: "345b40dd",
+		type: "item",
+		items: [{
+			id: "mekeng:gas_cell_1k",
+			tag: {}
+		},
+		{
+			id: "mekeng:gas_cell_4k",
+			tag: {}
+		},
+		{
+			id: "mekeng:gas_cell_16k",
+			tag: {}
+		},
+		{
+			id: "mekeng:gas_cell_64k",
+			tag: {}
+		},
+		{
+			id: "mekeng:gas_cell_256k",
+			tag: {}
+		},
+		{
+			id: "mekeng:gas_cell_1m",
+			tag: {}
+		},
+		{
+			id: "mekeng:gas_cell_4m",
+			tag: {}
+		},
+		{
+			id: "mekeng:gas_cell_16m",
+			tag: {}
+		},
+		{
+			id: "mekeng:gas_cell_64m",
+			tag: {}
+		},
+		{
+			id: "mekeng:gas_cell_256m",
+			tag: {}
+		},
+		{
+			id: "mekeng:gas_cell_1g",
+			tag: {}
+		},
+		{
+			id: "mekeng:gas_cell_2g",
+			tag: {}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,39 @@
+{
+	title: "§b自动化的开始",
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"关于上传样板",
+		"右键样板终端的编码样板按键即可进行上传样板",
+		"",
+		"在样板终端内编辑合成表放入与分子装配室相邻的ME接口即可自动合成"
+	],
+	dependencies: [
+		"6a11f04c"
+	],
+	tasks: [{
+		uid: "9271c18e",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 340"
+		}]
+	},
+	{
+		uid: "b4cb829f",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 52"
+		}]
+	}],
+	rewards: [{
+		uid: "842c1a12",
+		type: "item",
+		item: "appliedenergistics2:material 1 52",
+		count: 32
+	},
+	{
+		uid: "c85809b1",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "§b终极编码台老师我还记得你",
+	x: -17.0d,
+	y: 15.5d,
+	text: [
+		""
+	],
+	tasks: [{
+		uid: "ea9e079d",
+		type: "item",
+		items: [{
+			item: "ae2fc:ultimate_encoder"
+		}]
+	}],
+	rewards: [{
+		uid: "9e754cff",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "2a596abc",
+		type: "random",
+		table: 1
+	}]
+}

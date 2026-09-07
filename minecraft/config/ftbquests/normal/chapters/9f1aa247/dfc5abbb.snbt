@@ -1,0 +1,35 @@
+{
+	x: 12.5d,
+	y: -3.0d,
+	text: [
+		"希望你在看见这个之前就在使用这个生产圆石"
+	],
+	dependencies: [
+		"d9196b5b"
+	],
+	tasks: [{
+		uid: "a7546637",
+		type: "item",
+		items: [{
+			id: "extendedae:infinity_cell",
+			tag: {
+				r: {
+					Req: 0L,
+					Cnt: 1L,
+					Damage: 0s,
+					Count: 1,
+					id: "minecraft:cobblestone",
+					Craft: 0b
+				},
+				t: "i"
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e85d8e1",
+		type: "item",
+		item: "functionalstoragelegacy:stone_generation_upgrade_t4"
+	}]
+}

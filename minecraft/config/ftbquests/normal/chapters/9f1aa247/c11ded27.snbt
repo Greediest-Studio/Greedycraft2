@@ -1,0 +1,33 @@
+{
+	title: "§b修改样板",
+	x: -1.5d,
+	y: 2.0d,
+	description: "合成多功能样板工具",
+	text: [
+		"找一面包车样板给你丢里面",
+		"",
+		"放入三个样板容量卡即可放入四排样板"
+	],
+	dependencies: [
+		"99ed9ca3"
+	],
+	tasks: [{
+		uid: "e4e58383",
+		type: "item",
+		items: [{
+			item: "nae2:pattern_multiplier"
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b6698f34",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "f3a662ae",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "§b直接使用流体合成",
+	x: -15.5d,
+	y: 15.5d,
+	text: [
+		"需要使用流体样板终端编写出来的样板就可以直接使用流体合成了"
+	],
+	tasks: [{
+		uid: "abfda5c9",
+		type: "item",
+		items: [{
+			item: "ae2fc:fluid_assembler"
+		}]
+	}],
+	rewards: [{
+		uid: "688b029f",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "dde3ad2e",
+		type: "random",
+		table: 1
+	}]
+}

@@ -1,0 +1,22 @@
+{
+	x: 17.0d,
+	y: -3.0d,
+	dependencies: [
+		"d9196b5b"
+	],
+	tasks: [{
+		uid: "5c25d402",
+		type: "item",
+		items: [{
+			id: "nae2:fluid_storage_cell_void",
+			tag: {}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dda4e899",
+		type: "item",
+		item: "extrautils2:trashcanfluid"
+	}]
+}

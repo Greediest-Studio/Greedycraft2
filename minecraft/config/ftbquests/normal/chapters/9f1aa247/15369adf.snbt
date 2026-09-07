@@ -1,0 +1,25 @@
+{
+	title: "§b会有人存满吗........",
+	x: 30.5d,
+	y: -0.5d,
+	text: [
+		"近乎无限！"
+	],
+	dependencies: [
+		"675b6574"
+	],
+	tasks: [{
+		uid: "8ed720c9",
+		type: "item",
+		items: [{
+			id: "eco_expand:estorage_cell_universal_inf",
+			tag: {
+				eco_expand_universal_uuidMost: 1592599323643366993L,
+				eco_expand_universal_uuidLeast: -5193717007465864573L,
+				eco_expand_universal_level: "inf"
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}

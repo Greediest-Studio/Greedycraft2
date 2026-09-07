@@ -1,0 +1,62 @@
+{
+	title: "§b存的更多",
+	x: 14.0d,
+	y: 7.0d,
+	text: [
+		"但或许更贵"
+	],
+	dependencies: [
+		"3b107ba6",
+		"d9196b5b"
+	],
+	tasks: [{
+		uid: "a4ed9a2a",
+		type: "item",
+		items: [{
+			id: "botania_applie:mana_storage_cell_1k",
+			tag: {}
+		},
+		{
+			id: "botania_applie:mana_storage_cell_4k",
+			tag: {}
+		},
+		{
+			id: "botania_applie:mana_storage_cell_16k",
+			tag: {}
+		},
+		{
+			id: "botania_applie:mana_storage_cell_64k",
+			tag: {}
+		},
+		{
+			id: "botania_applie:mana_storage_cell_256k",
+			tag: {}
+		},
+		{
+			id: "botania_applie:mana_storage_cell_1m",
+			tag: {}
+		},
+		{
+			id: "botania_applie:mana_storage_cell_4m",
+			tag: {}
+		},
+		{
+			id: "botania_applie:mana_storage_cell_16m",
+			tag: {}
+		},
+		{
+			id: "botania_applie:mana_storage_cell_64m",
+			tag: {}
+		},
+		{
+			id: "botania_applie:mana_storage_cell_256m",
+			tag: {}
+		},
+		{
+			id: "botania_applie:mana_storage_cell_1g",
+			tag: {}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}]
+}
