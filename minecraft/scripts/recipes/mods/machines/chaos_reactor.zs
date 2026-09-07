@@ -32,6 +32,27 @@ import mods.modularmachinery.MachineModifier;
 import mods.modularmachinery.SmartInterfaceType;
 import mods.modularmachinery.FactoryRecipeThread;
 
+import mods.modularmachinery.GeoMachineModel;
+import mods.modularmachinery.ControllerModelAnimationEvent;
+
+mods.modularmachinery.GeoMachineModel.registerGeoMachineModel(
+    "chaos_reactor",
+    "modularmachinery:geo/chaos_reactor.geo.json",
+    "modularmachinery:textures/model/chaos_reactor.png",
+    "modularmachinery:animations/chaos_reactor.animation.json"
+);
+
+mods.modularmachinery.MachineModifier.setMachineGeoModel("chaos_reactor", "chaos_reactor");
+
+MMEvents.onControllerModelAnimation("chaos_reactor", function(event as ControllerModelAnimationEvent) {
+    var ctrl = event.controller;
+    if (ctrl.isWorking) {
+        event.setAnimation("working", true);
+    } else {
+        event.setAnimation("idle", true);
+    }
+});
+
 //数据接口
 MachineModifier.addSmartInterfaceType("chaos_reactor", 
     SmartInterfaceType.create("speed",1.0f)
