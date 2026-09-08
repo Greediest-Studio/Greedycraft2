@@ -1,11 +1,13 @@
 {
-	x: 12.5d,
-	y: -3.0d,
+	title: "§b超级叠叠乐",
+	x: -0.5d,
+	y: 7.0d,
+	description: "合成无限圆石元件",
 	text: [
-		"希望你在看见这个之前就在使用这个生产圆石"
+		""
 	],
 	dependencies: [
-		"d9196b5b"
+		"be0a9a5a"
 	],
 	tasks: [{
 		uid: "a7546637",
@@ -31,5 +33,15 @@
 		uid: "7e85d8e1",
 		type: "item",
 		item: "functionalstoragelegacy:stone_generation_upgrade_t4"
+	},
+	{
+		uid: "8852829a",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "fdeab3a5",
+		type: "xp",
+		xp: 1500
 	}]
 }

@@ -1,7 +1,8 @@
 {
 	title: "§b终极编码台老师我还记得你",
-	x: -17.0d,
-	y: 15.5d,
+	x: 1.5d,
+	y: 7.0d,
+	description: "合成终极编码台",
 	text: [
 		""
 	],
@@ -15,11 +16,11 @@
 	rewards: [{
 		uid: "9e754cff",
 		type: "xp",
-		xp: 100
+		xp: 5000
 	},
 	{
-		uid: "2a596abc",
+		uid: "dc236d39",
 		type: "random",
-		table: 1
+		table: 2
 	}]
 }

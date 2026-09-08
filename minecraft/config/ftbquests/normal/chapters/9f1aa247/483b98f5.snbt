@@ -1,8 +1,13 @@
 {
-	x: 17.0d,
-	y: -3.0d,
+	title: "§b销毁一切（流体版）",
+	x: -0.5d,
+	y: 8.0d,
+	description: "合成流体虚空存储元件",
+	text: [
+		""
+	],
 	dependencies: [
-		"d9196b5b"
+		"be0a9a5a"
 	],
 	tasks: [{
 		uid: "5c25d402",
@@ -18,5 +23,15 @@
 		uid: "dda4e899",
 		type: "item",
 		item: "extrautils2:trashcanfluid"
+	},
+	{
+		uid: "05600ae0",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "5140057d",
+		type: "xp",
+		xp: 1500
 	}]
 }

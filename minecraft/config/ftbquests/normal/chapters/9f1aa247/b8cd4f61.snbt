@@ -1,13 +1,14 @@
 {
 	title: "§bECO闪存晶阵",
-	x: 26.0d,
-	y: 9.0d,
+	x: -15.0d,
+	y: 5.0d,
 	description: "闪存晶阵shift右键放入增加cpu容量",
 	text: [
 		""
 	],
 	dependencies: [
-		"3eb7ae6f"
+		"3eb7ae6f",
+		"2241df6f"
 	],
 	tasks: [{
 		uid: "0b86a1d3",

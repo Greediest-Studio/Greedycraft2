@@ -1,0 +1,35 @@
+{
+	title: "§b网络材料",
+	x: -9.0d,
+	y: -5.5d,
+	description: "制作福鲁伊克斯钢",
+	text: [
+		""
+	],
+	dependencies: [
+		"ddad20c5"
+	],
+	tasks: [{
+		uid: "2889fb11",
+		type: "item",
+		items: [{
+			item: "threng:material"
+		}]
+	}],
+	rewards: [{
+		uid: "2514c208",
+		type: "item",
+		item: "threng:material",
+		count: 4
+	},
+	{
+		uid: "98b37b53",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "690bec14",
+		type: "xp",
+		xp: 500
+	}]
+}

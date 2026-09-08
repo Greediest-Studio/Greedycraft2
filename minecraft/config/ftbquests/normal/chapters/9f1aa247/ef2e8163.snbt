@@ -1,18 +1,19 @@
 {
 	title: "§bae的压缩抽屉？",
-	x: 15.5d,
-	y: -0.5d,
+	x: -2.0d,
+	y: 0.0d,
+	description: "合成压缩元件",
 	text: [
 		"使用元件工作台标记可3*3压缩或2*2压缩的物品",
 		"放入 压缩/解压等级卡 即可实现解压或压缩"
 	],
 	dependencies: [
-		"7acf9085",
-		"d9196b5b"
+		"be0a9a5a"
 	],
 	tasks: [{
 		uid: "052d5a85",
 		type: "item",
+		title: "任意压缩存储元件",
 		items: [{
 			id: "cells:compacting_cell",
 			tag: {}
@@ -73,5 +74,15 @@
 			tag: {}
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7d685433",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "71f90e5b",
+		type: "xp",
+		xp: 1500
 	}]
 }

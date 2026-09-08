@@ -1,7 +1,7 @@
 {
 	title: "§b管理你的样板！",
-	x: 1.0d,
-	y: 10.5d,
+	x: -5.0d,
+	y: 5.5d,
 	description: "合成无线接口终端",
 	text: [
 		""
@@ -18,5 +18,15 @@
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f1c50c44",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "7ececf20",
+		type: "random",
+		table: 1
 	}]
 }

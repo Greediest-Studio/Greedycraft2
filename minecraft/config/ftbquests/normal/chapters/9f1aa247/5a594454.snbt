@@ -1,7 +1,7 @@
 {
-	title: "§b倍矿狂魔",
-	x: 4.0d,
-	y: 10.5d,
+	title: "§b气体监控",
+	x: -4.0d,
+	y: 6.5d,
 	description: "制作无线气体终端",
 	text: [
 		""
@@ -20,11 +20,6 @@
 		ignore_nbt: 1b
 	}],
 	rewards: [{
-		uid: "710eec18",
-		type: "item",
-		item: "appliedenergistics2:material 1 42"
-	},
-	{
 		uid: "22859fa3",
 		type: "xp",
 		xp: 1000

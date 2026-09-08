@@ -1,13 +1,12 @@
 {
 	title: "§b超级超级CPU",
-	x: 24.0d,
-	y: 9.0d,
+	x: -15.0d,
+	y: 6.5d,
 	description: "你说这个CPU有多大？那你不用管，很大就对了",
 	text: [
 		""
 	],
 	dependencies: [
-		"2241df6f",
 		"f48a9f7d"
 	],
 	tasks: [{

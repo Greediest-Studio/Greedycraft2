@@ -1,17 +1,18 @@
 {
 	title: "§b魔力也能存！",
-	x: 12.5d,
-	y: 7.0d,
+	x: -2.0d,
+	y: 5.0d,
+	description: "合成魔力存储元件",
 	text: [
 		"或许后者存的更多一点"
 	],
 	dependencies: [
-		"3b107ba6",
-		"d9196b5b"
+		"be0a9a5a"
 	],
 	tasks: [{
 		uid: "5ec75fad",
 		type: "item",
+		title: "任意魔力存储元件",
 		items: [{
 			id: "crazyae:mana_cell_1k",
 			tag: {}
@@ -62,5 +63,15 @@
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4be9b302",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "5766dc45",
+		type: "xp",
+		xp: 1500
 	}]
 }

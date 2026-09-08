@@ -1,6 +1,11 @@
 {
+	title: "§b无尽终端",
 	x: -4.0d,
-	y: 10.5d,
+	y: 8.5d,
+	description: "合成无线终极拓展合成终端",
+	text: [
+		""
+	],
 	dependencies: [
 		"1b61694a"
 	],
@@ -13,5 +18,15 @@
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "848587eb",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "8e146f30",
+		type: "random",
+		table: 2
 	}]
 }

@@ -1,7 +1,18 @@
 {
-	title: "未来科技",
-	icon: "appliedenergistics2:controller",
+	title: "【AE2】",
+	icon: "chisel:futura 1 2",
 	always_invisible: 0b,
 	group: 0,
-	default_quest_shape: ""
+	default_quest_shape: "",
+	images: [{
+		x: 5.5d,
+		y: -2.5d,
+		width: 10.5d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "greedycraft:quests/ae.png",
+		hover: [],
+		click: "",
+		dev: 0b
+	}]
 }

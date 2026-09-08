@@ -1,17 +1,18 @@
 {
 	title: "§b类型貌似不够用",
-	x: 12.5d,
-	y: 9.5d,
+	x: -2.0d,
+	y: 4.0d,
+	description: "合成源质存储元件",
 	text: [
 		""
 	],
 	dependencies: [
-		"642ffdb3",
-		"d9196b5b"
+		"be0a9a5a"
 	],
 	tasks: [{
 		uid: "b02881a7",
 		type: "item",
+		title: "任意源质存储元件",
 		items: [{
 			id: "thaumicenergistics:essentia_cell_1k",
 			tag: {
@@ -86,5 +87,15 @@
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7f6c4405",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "ef5ec584",
+		type: "xp",
+		xp: 1500
 	}]
 }

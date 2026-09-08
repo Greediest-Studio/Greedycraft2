@@ -1,12 +1,13 @@
 {
-	title: "§b?!水水槽槽!？",
-	x: 14.0d,
-	y: -3.0d,
+	title: "§b？！水水槽槽！？",
+	x: -2.0d,
+	y: 7.0d,
+	description: "合成无限水元件",
 	text: [
 		"或许算是一个接入ae的水槽"
 	],
 	dependencies: [
-		"d9196b5b"
+		"be0a9a5a"
 	],
 	tasks: [{
 		uid: "5a637775",
@@ -31,5 +32,15 @@
 		uid: "a051f82d",
 		type: "item",
 		item: "cookingforblockheads:sink"
+	},
+	{
+		uid: "f1a34c89",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "7353d087",
+		type: "xp",
+		xp: 1500
 	}]
 }

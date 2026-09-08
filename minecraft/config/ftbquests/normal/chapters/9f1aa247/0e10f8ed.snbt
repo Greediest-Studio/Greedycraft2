@@ -1,0 +1,82 @@
+{
+	title: "§b这是何意味",
+	x: -0.5d,
+	y: 0.0d,
+	description: "合成高密度压缩元件",
+	text: [
+		""
+	],
+	dependencies: [
+		"ef2e8163"
+	],
+	tasks: [{
+		uid: "3efbbe9c",
+		type: "item",
+		title: "任意高密度压缩存储元件",
+		items: [{
+			id: "cells:hyper_density_compacting_cell",
+			tag: {}
+		},
+		{
+			id: "cells:hyper_density_compacting_cell",
+			Damage: 1s,
+			tag: {}
+		},
+		{
+			id: "cells:hyper_density_compacting_cell",
+			Damage: 2s,
+			tag: {}
+		},
+		{
+			id: "cells:hyper_density_compacting_cell",
+			Damage: 3s,
+			tag: {}
+		},
+		{
+			id: "cells:hyper_density_compacting_cell",
+			Damage: 4s,
+			tag: {}
+		},
+		{
+			id: "cells:hyper_density_compacting_cell",
+			Damage: 5s,
+			tag: {}
+		},
+		{
+			id: "cells:hyper_density_compacting_cell",
+			Damage: 6s,
+			tag: {}
+		},
+		{
+			id: "cells:hyper_density_compacting_cell",
+			Damage: 7s,
+			tag: {}
+		},
+		{
+			id: "cells:hyper_density_compacting_cell",
+			Damage: 8s,
+			tag: {}
+		},
+		{
+			id: "cells:hyper_density_compacting_cell",
+			Damage: 9s,
+			tag: {}
+		},
+		{
+			id: "cells:hyper_density_compacting_cell",
+			Damage: 10s,
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c123a34f",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "7c2fd3ab",
+		type: "xp",
+		xp: 3000
+	}]
+}

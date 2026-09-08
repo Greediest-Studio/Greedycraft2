@@ -1,22 +1,19 @@
 {
 	title: "§b自动请求任务",
-	x: -14.5d,
-	y: -3.0d,
+	x: -10.5d,
+	y: -5.0d,
 	description: "合成ME缓存指令器",
 	text: [
 		""
 	],
 	dependencies: [
-		"ddad20c5"
+		"91644a6d"
 	],
 	tasks: [{
 		uid: "1f7fcd41",
 		type: "item",
 		items: [{
 			item: "threng:level_maintainer"
-		},
-		{
-			item: "ae2fc:fluid_level_maintainer"
 		}]
 	}],
 	rewards: [{

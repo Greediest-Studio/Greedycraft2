@@ -1,9 +1,13 @@
 {
 	title: "§b转移你的元件",
-	x: 20.5d,
-	y: -3.0d,
+	x: -5.5d,
+	y: 0.5d,
+	description: "合成一个ME-IO端口",
 	text: [
 		"搭配超速卡食用更佳"
+	],
+	dependencies: [
+		"be0a9a5a"
 	],
 	tasks: [{
 		uid: "df72d075",

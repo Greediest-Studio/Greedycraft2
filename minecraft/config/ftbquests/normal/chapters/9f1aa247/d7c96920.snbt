@@ -1,12 +1,13 @@
 {
 	title: "§bECO样板总线",
-	x: 26.0d,
+	x: -13.0d,
 	y: 5.0d,
 	description: "在里面可以放入样板",
 	text: [
 		""
 	],
 	dependencies: [
+		"663562f7",
 		"eb3b482c"
 	],
 	tasks: [{

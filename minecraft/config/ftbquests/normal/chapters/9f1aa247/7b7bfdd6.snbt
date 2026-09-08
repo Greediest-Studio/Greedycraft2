@@ -1,17 +1,18 @@
 {
 	title: "§b每个字节都比原本的存的更多",
-	x: 14.0d,
-	y: 12.0d,
+	x: -0.5d,
+	y: 6.0d,
+	description: "合成高能通量存储元件，通量存储元件的升级版",
 	text: [
 		"比前者存的更多"
 	],
 	dependencies: [
-		"8f930911",
-		"d9196b5b"
+		"145059c3"
 	],
 	tasks: [{
 		uid: "f49af164",
 		type: "item",
+		title: "任意高能通量存储元件",
 		items: [{
 			id: "flux_applied:flux_storage_cell_1k",
 			tag: {}
@@ -58,5 +59,15 @@
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "91bb3047",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "ff81f09c",
+		type: "xp",
+		xp: 3000
 	}]
 }

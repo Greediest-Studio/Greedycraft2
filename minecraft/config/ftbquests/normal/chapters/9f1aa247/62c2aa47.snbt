@@ -1,17 +1,18 @@
 {
 	title: "§b抓住了！",
-	x: 12.5d,
+	x: -2.0d,
 	y: 2.0d,
+	description: "合成流体存储元件",
 	text: [
 		""
 	],
 	dependencies: [
-		"85eee747",
-		"d9196b5b"
+		"be0a9a5a"
 	],
 	tasks: [{
 		uid: "c8d0f89e",
 		type: "item",
+		title: "任意流体存储元件",
 		items: [{
 			id: "appliedenergistics2:fluid_storage_cell_1k",
 			tag: {}
@@ -62,5 +63,15 @@
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2ebac178",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "ed95b7bd",
+		type: "xp",
+		xp: 1500
 	}]
 }

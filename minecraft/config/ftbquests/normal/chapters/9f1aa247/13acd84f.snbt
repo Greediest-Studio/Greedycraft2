@@ -1,17 +1,18 @@
 {
-	title: "§b更耐存",
-	x: 14.0d,
+	title: "§b超压流体",
+	x: -0.5d,
 	y: 2.0d,
+	description: "合成高密度流体存储元件",
 	text: [
 		"每个字节都比原本的存的更多"
 	],
 	dependencies: [
-		"85eee747",
-		"d9196b5b"
+		"62c2aa47"
 	],
 	tasks: [{
 		uid: "2e5aed77",
 		type: "item",
+		title: "任意高密度流体存储元件",
 		items: [{
 			id: "cells:hyper_density_fluid_cell",
 			tag: {}
@@ -67,5 +68,15 @@
 			tag: {}
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9a284d42",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "c4166cb3",
+		type: "xp",
+		xp: 3000
 	}]
 }

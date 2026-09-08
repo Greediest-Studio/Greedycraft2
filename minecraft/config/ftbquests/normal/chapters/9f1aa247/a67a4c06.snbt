@@ -1,14 +1,14 @@
 {
 	title: "§b处理自动化",
-	x: -30.0d,
-	y: -5.5d,
+	x: -7.0d,
+	y: 4.5d,
 	description: "制作ME样板终端",
 	text: [
 		"你不需要流体样板终端了，它可以写流体样板！",
 		"并且它有81格输入，27格输出"
 	],
 	dependencies: [
-		"567bbf2e"
+		"9ad09ce0"
 	],
 	tasks: [{
 		uid: "8e7c1bbb",

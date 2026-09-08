@@ -1,0 +1,72 @@
+{
+	title: "§b更重要的是一起干活！",
+	x: -16.5d,
+	y: 1.5d,
+	description: "合成并行处理单元，为CPU提供并行数",
+	text: [
+		"不建议前期把所有并行处理单元塞到一个CPU里"
+	],
+	dependencies: [
+		"d712b186"
+	],
+	tasks: [{
+		uid: "ce317556",
+		type: "item",
+		title: "任意并行处理单元",
+		items: [{
+			item: "appliedenergistics2:crafting_accelerator"
+		},
+		{
+			item: "crazyae:crafting_accelerator_4x"
+		},
+		{
+			item: "crazyae:crafting_accelerator_16x"
+		},
+		{
+			item: "crazyae:crafting_accelerator_64x"
+		},
+		{
+			item: "crazyae:crafting_accelerator_256x"
+		},
+		{
+			item: "crazyae:crafting_accelerator_1024x"
+		},
+		{
+			item: "crazyae:crafting_accelerator_4096x"
+		},
+		{
+			item: "crazyae:crafting_accelerator_16384x"
+		},
+		{
+			item: "crazyae:crafting_accelerator_65536x"
+		},
+		{
+			item: "crazyae:crafting_accelerator_262144x"
+		},
+		{
+			item: "crazyae:crafting_accelerator_1048576x"
+		},
+		{
+			item: "crazyae:crafting_accelerator_4194304x"
+		},
+		{
+			item: "crazyae:crafting_accelerator_creative"
+		}]
+	}],
+	rewards: [{
+		uid: "1a406a3a",
+		type: "item",
+		item: "appliedenergistics2:crafting_accelerator",
+		count: 4
+	},
+	{
+		uid: "7be131c3",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "4c1251c2",
+		type: "xp",
+		xp: 1200
+	}]
+}

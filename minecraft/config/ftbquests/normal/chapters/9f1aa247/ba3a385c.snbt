@@ -1,13 +1,13 @@
 {
 	title: "§b最终的归宿",
-	x: -31.5d,
-	y: -5.5d,
+	x: 3.0d,
+	y: 7.0d,
 	description: "好好好好好大~",
 	text: [
 		""
 	],
 	dependencies: [
-		"a67a4c06"
+		"1db142ec"
 	],
 	tasks: [{
 		uid: "d90ac629",
@@ -25,7 +25,7 @@
 	{
 		uid: "d4b1c787",
 		type: "xp",
-		xp: 1000
+		xp: 5000
 	},
 	{
 		uid: "ae9e19dc",

@@ -1,17 +1,18 @@
 {
 	title: "§b更耐存！",
-	x: 14.0d,
-	y: -0.5d,
+	x: -0.5d,
+	y: 1.0d,
+	description: "合成高密度物品存储元件",
 	text: [
 		"每个字节都比原本的存的更多"
 	],
 	dependencies: [
-		"7acf9085",
-		"d9196b5b"
+		"c95c2c21"
 	],
 	tasks: [{
 		uid: "dd9e6b48",
 		type: "item",
+		title: "任意高密度存储元件",
 		items: [{
 			id: "cells:hyper_density_cell",
 			tag: {}
@@ -67,5 +68,15 @@
 			tag: {}
 		}],
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b6149081",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "b8017686",
+		type: "xp",
+		xp: 3000
 	}]
 }

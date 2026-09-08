@@ -1,6 +1,11 @@
 {
-	x: -2.0d,
-	y: 10.5d,
+	title: "§b随身5×5",
+	x: -4.0d,
+	y: 7.5d,
+	description: "合成无线高级拓展合成终端",
+	text: [
+		""
+	],
 	dependencies: [
 		"1b61694a"
 	],
@@ -13,5 +18,15 @@
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "db2f7a0d",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "a5cd9f1c",
+		type: "random",
+		table: 2
 	}]
 }

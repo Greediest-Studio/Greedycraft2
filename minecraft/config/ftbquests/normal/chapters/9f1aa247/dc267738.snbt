@@ -1,13 +1,13 @@
 {
 	title: "§b更方便的自动化",
-	x: -15.5d,
-	y: -3.0d,
+	x: -10.5d,
+	y: -4.0d,
 	description: "制作脉冲离心机",
 	text: [
 		"这将大大方便你的合成"
 	],
 	dependencies: [
-		"ddad20c5"
+		"91644a6d"
 	],
 	tasks: [{
 		uid: "e7f6c05d",

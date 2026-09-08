@@ -1,9 +1,11 @@
 {
-	title: "§b访问ae的魔力",
-	x: -11.0d,
-	y: 15.5d,
+	title: "§b访问AE的魔力？",
+	x: 9.0d,
+	y: 7.0d,
+	description: "合成福鲁伊克斯魔力池",
 	text: [
-		""
+		"我愿称之为最强魔力池",
+		"某种意义上来说比阿斯加德魔力池还能装"
 	],
 	tasks: [{
 		uid: "02964a8c",
@@ -15,11 +17,17 @@
 	rewards: [{
 		uid: "f5c93728",
 		type: "xp",
-		xp: 100
+		xp: 500
 	},
 	{
 		uid: "be511836",
 		type: "random",
 		table: 1
+	},
+	{
+		uid: "198bf0ee",
+		type: "item",
+		item: "botania:blacklotus",
+		count: 5
 	}]
 }

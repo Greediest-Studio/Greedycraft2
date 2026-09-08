@@ -1,8 +1,14 @@
 {
-	x: 18.5d,
-	y: -3.0d,
+	title: "§b智能分区",
+	x: -2.0d,
+	y: 9.0d,
+	description: "合成可配置ME存储元件",
+	text: [
+		"如果你觉得某些物品占区不合理，可以试试这个",
+		"支持物品、流体、气体、源质"
+	],
 	dependencies: [
-		"d9196b5b"
+		"be0a9a5a"
 	],
 	tasks: [{
 		uid: "e8ed4a48",
@@ -13,5 +19,15 @@
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9fe219d8",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "3be3565c",
+		type: "xp",
+		xp: 3000
 	}]
 }

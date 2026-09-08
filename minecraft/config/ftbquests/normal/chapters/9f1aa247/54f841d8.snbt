@@ -1,0 +1,30 @@
+{
+	title: "§b请插入移动磁盘",
+	x: -11.0d,
+	y: 3.0d,
+	description: "制作ME驱动器",
+	text: [
+		"把存储元件放进去就行了",
+		"还有一个升级版的！"
+	],
+	dependencies: [
+		"6a11f04c"
+	],
+	tasks: [{
+		uid: "84dc568f",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:drive"
+		}]
+	}],
+	rewards: [{
+		uid: "4b0f9444",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "541734a3",
+		type: "xp",
+		xp: 500
+	}]
+}

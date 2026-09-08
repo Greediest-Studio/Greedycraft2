@@ -1,0 +1,39 @@
+{
+	title: "§bCPU核心",
+	x: -15.0d,
+	y: 1.5d,
+	description: "制作合成单元",
+	text: [
+		"合成CPU的外壳",
+		"用任意数量的§a合成存储器§r和§a并行处理单元§r组成合成CPU",
+		"可以加入§3合成监控器§r作为可选部件，也可以拿§c合成单元§r占位",
+		"CPU必须是完整的长方体"
+	],
+	dependencies: [
+		"99ed9ca3"
+	],
+	tasks: [{
+		uid: "9cc10dfe",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_unit"
+		}]
+	}],
+	rewards: [{
+		uid: "8e80a9f4",
+		type: "item",
+		item: "appliedenergistics2:crafting_unit",
+		count: 2,
+		random_bonus: 2
+	},
+	{
+		uid: "2d0734fa",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "db276968",
+		type: "xp",
+		xp: 800
+	}]
+}

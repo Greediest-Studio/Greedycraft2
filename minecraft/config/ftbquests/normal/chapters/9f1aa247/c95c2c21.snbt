@@ -1,17 +1,18 @@
 {
 	title: "§b把物品存进去！",
-	x: 12.5d,
-	y: -0.5d,
+	x: -2.0d,
+	y: 1.0d,
+	description: "合成物品存储元件",
 	text: [
 		""
 	],
 	dependencies: [
-		"7acf9085",
-		"d9196b5b"
+		"be0a9a5a"
 	],
 	tasks: [{
 		uid: "93196bc7",
 		type: "item",
+		title: "任意物品存储元件",
 		items: [{
 			id: "appliedenergistics2:storage_cell_1k",
 			tag: {}
@@ -62,5 +63,15 @@
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "69d76beb",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "073dd713",
+		type: "xp",
+		xp: 1500
 	}]
 }

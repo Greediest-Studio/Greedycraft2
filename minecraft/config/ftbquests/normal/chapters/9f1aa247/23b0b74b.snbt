@@ -1,11 +1,10 @@
 {
 	title: "§b速度UPUP",
-	x: -17.0d,
-	y: 1.5d,
+	x: -14.0d,
+	y: -1.5d,
 	description: "制作封包加速卡和封包储能卡",
 	text: [
 		"手持卡片shift右键封包方块打开升级界面",
-		"",
 		"加速 otto ♿"
 	],
 	dependencies: [

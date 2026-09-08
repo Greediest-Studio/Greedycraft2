@@ -1,12 +1,13 @@
 {
 	title: "§bECO存储矩阵",
-	x: 26.0d,
-	y: 7.0d,
+	x: -11.0d,
+	y: 5.0d,
 	description: "需要在驱动器放入存储矩阵",
 	text: [
 		"shift右键放入存储矩阵"
 	],
 	dependencies: [
+		"54f841d8",
 		"45d360e6"
 	],
 	tasks: [{

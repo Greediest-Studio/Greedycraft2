@@ -1,7 +1,7 @@
 {
 	title: "§b远程元件管理",
-	x: 2.0d,
-	y: 10.5d,
+	x: -4.0d,
+	y: 5.5d,
 	description: "合成无线元件终端",
 	text: [
 		""
@@ -18,5 +18,15 @@
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0c6777de",
+		type: "xp",
+		xp: 1000
+	},
+	{
+		uid: "5e4ada09",
+		type: "random",
+		table: 1
 	}]
 }

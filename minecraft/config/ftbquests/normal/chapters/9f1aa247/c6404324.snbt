@@ -1,6 +1,11 @@
 {
-	x: -3.0d,
-	y: 10.5d,
+	title: "§b随身再进化",
+	x: -5.0d,
+	y: 8.5d,
+	description: "合成无线精英拓展合成终端",
+	text: [
+		""
+	],
 	dependencies: [
 		"1b61694a"
 	],
@@ -13,5 +18,15 @@
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "fc82d999",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "0eb88a75",
+		type: "random",
+		table: 2
 	}]
 }

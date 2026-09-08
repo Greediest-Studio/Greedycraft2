@@ -1,0 +1,29 @@
+{
+	title: "§bCan Can Need",
+	x: -15.0d,
+	y: 0.0d,
+	description: "制作合成监控器",
+	text: [
+		""
+	],
+	dependencies: [
+		"d712b186"
+	],
+	tasks: [{
+		uid: "7a13ba7b",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_monitor"
+		}]
+	}],
+	rewards: [{
+		uid: "383ee3a8",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "d690e6db",
+		type: "xp",
+		xp: 600
+	}]
+}

@@ -1,13 +1,13 @@
 {
 	title: "§b电路板工厂",
-	x: -14.5d,
-	y: -8.0d,
+	x: -4.5d,
+	y: -6.5d,
 	description: "合成大型蚀刻单元集成控制器",
 	text: [
 		"制作高级处理器需要升级你的设备呦"
 	],
 	dependencies: [
-		"ddad20c5"
+		"df353c31"
 	],
 	tasks: [{
 		uid: "3119df4e",

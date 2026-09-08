@@ -1,13 +1,13 @@
 {
 	title: "§b相信我你会需要他的",
-	x: -21.0d,
-	y: -0.5d,
+	x: -6.0d,
+	y: -2.0d,
 	description: "使用内存卡标记",
 	text: [
 		"或许理论传输频道没有上限"
 	],
 	dependencies: [
-		"bb69a736"
+		"6a11f04c"
 	],
 	tasks: [{
 		uid: "84890c3e",

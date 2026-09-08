@@ -1,6 +1,11 @@
 {
-	x: -1.0d,
-	y: 10.5d,
+	title: "§b最大的作用是补全终端列表",
+	x: -5.0d,
+	y: 7.5d,
+	description: "合成无线基础拓展合成终端",
+	text: [
+		""
+	],
 	dependencies: [
 		"1b61694a"
 	],
@@ -13,5 +18,15 @@
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "78be1ade",
+		type: "xp",
+		xp: 2000
+	},
+	{
+		uid: "68d3a328",
+		type: "random",
+		table: 2
 	}]
 }

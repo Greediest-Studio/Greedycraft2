@@ -1,9 +1,10 @@
 {
-	title: "§b包裹",
-	x: -9.5d,
-	y: 15.5d,
+	title: "§b纸箱：我复活辣！",
+	x: 10.5d,
+	y: 7.0d,
+	description: "合成打包器",
 	text: [
-		"将你的ae设备打包带走"
+		"将你的AE设备打包带走"
 	],
 	tasks: [{
 		uid: "5b2943c6",
@@ -18,6 +19,11 @@
 	rewards: [{
 		uid: "3255c4e0",
 		type: "xp",
-		xp: 100
+		xp: 2000
+	},
+	{
+		uid: "34fea70a",
+		type: "random",
+		table: 1
 	}]
 }

@@ -1,9 +1,10 @@
 {
-	title: "§b更简单的原子再构机的自动",
-	x: -14.0d,
-	y: 15.5d,
+	title: "§b原子再构机：自动化",
+	x: 6.0d,
+	y: 7.0d,
+	description: "合成原子再构室",
 	text: [
-		""
+		"不过我还是推荐你做§d晶胞重塑器"
 	],
 	tasks: [{
 		uid: "b0eafc50",
@@ -15,7 +16,7 @@
 	rewards: [{
 		uid: "ee404843",
 		type: "xp",
-		xp: 100
+		xp: 1000
 	},
 	{
 		uid: "8a12d575",

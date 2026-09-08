@@ -1,0 +1,35 @@
+{
+	title: "§b元件基底",
+	x: -4.5d,
+	y: 1.5d,
+	description: "合成ME存储外壳",
+	text: [
+		""
+	],
+	dependencies: [
+		"6a11f04c"
+	],
+	tasks: [{
+		uid: "3aa942f0",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:material 1 39"
+		}]
+	}],
+	rewards: [{
+		uid: "6b034b03",
+		type: "item",
+		item: "appliedenergistics2:material 1 39",
+		count: 8
+	},
+	{
+		uid: "35385f3d",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "d2792a61",
+		type: "xp",
+		xp: 400
+	}]
+}

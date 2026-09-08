@@ -1,0 +1,78 @@
+{
+	title: "§b我什么都能存！",
+	x: -11.0d,
+	y: 8.0d,
+	description: "合成通用存储矩阵，可以储存物品、流体、气体、源质、能量、魔力",
+	text: [
+		""
+	],
+	dependencies: [
+		"45d360e6",
+		"b245731c"
+	],
+	tasks: [{
+		uid: "4c4b6081",
+		type: "item",
+		title: "任意通用存储矩阵",
+		items: [{
+			id: "eco_expand:estorage_cell_universal_16m",
+			tag: {
+				eco_expand_universal_uuidMost: -4806260736516865017L,
+				eco_expand_universal_uuidLeast: -8128686922147187895L,
+				eco_expand_universal_level: "le4"
+			}
+		},
+		{
+			id: "eco_expand:estorage_cell_universal_64m",
+			tag: {
+				eco_expand_universal_uuidMost: -8249913723057060755L,
+				eco_expand_universal_uuidLeast: -9113738614867421745L,
+				eco_expand_universal_level: "le6"
+			}
+		},
+		{
+			id: "eco_expand:estorage_cell_universal_256m",
+			tag: {
+				eco_expand_universal_uuidMost: 1110025568697205935L,
+				eco_expand_universal_uuidLeast: -7581674254719730225L,
+				eco_expand_universal_level: "le9"
+			}
+		},
+		{
+			id: "eco_expand:estorage_cell_universal_1024m",
+			tag: {
+				eco_expand_universal_uuidMost: 5140105418403430909L,
+				eco_expand_universal_uuidLeast: -8116563295518216663L,
+				eco_expand_universal_level: "le12"
+			}
+		},
+		{
+			id: "eco_expand:estorage_cell_universal_4096m",
+			tag: {
+				eco_expand_universal_uuidMost: 8302221259631772512L,
+				eco_expand_universal_uuidLeast: -5234327660128011073L,
+				eco_expand_universal_level: "le15"
+			}
+		},
+		{
+			id: "eco_expand:estorage_cell_universal_inf",
+			tag: {
+				eco_expand_universal_uuidMost: -1839202950991690585L,
+				eco_expand_universal_uuidLeast: -6998815311982768090L,
+				eco_expand_universal_level: "inf"
+			}
+		}],
+		ignore_damage: 1b,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "93722eff",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "dbd662d4",
+		type: "xp",
+		xp: 5000
+	}]
+}

@@ -1,17 +1,18 @@
 {
 	title: "§b存的更多",
-	x: 14.0d,
-	y: 7.0d,
+	x: -0.5d,
+	y: 5.0d,
+	description: "合成神话魔力存储元件，魔力存储元件的升级版",
 	text: [
 		"但或许更贵"
 	],
 	dependencies: [
-		"3b107ba6",
-		"d9196b5b"
+		"235ec88a"
 	],
 	tasks: [{
 		uid: "a4ed9a2a",
 		type: "item",
+		title: "任意神话魔力存储元件",
 		items: [{
 			id: "botania_applie:mana_storage_cell_1k",
 			tag: {}
@@ -58,5 +59,15 @@
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e829d130",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "1f9f4774",
+		type: "xp",
+		xp: 3000
 	}]
 }

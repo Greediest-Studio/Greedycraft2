@@ -1,13 +1,13 @@
 {
 	title: "§b封包的基础",
-	x: -21.0d,
-	y: 1.5d,
+	x: -13.0d,
+	y: 0.0d,
 	description: "搭建封包合成装置",
 	text: [
 		"合成那些无法直接通过me接口合成的东西"
 	],
 	dependencies: [
-		"bb69a736"
+		"99ed9ca3"
 	],
 	tasks: [{
 		uid: "04d97c82",

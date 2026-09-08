@@ -1,0 +1,35 @@
+{
+	title: "§b等阶升级",
+	x: -11.0d,
+	y: 9.5d,
+	description: "合成ECO强化合金",
+	text: [
+		""
+	],
+	dependencies: [
+		"f48a9f7d"
+	],
+	tasks: [{
+		uid: "eab05019",
+		type: "item",
+		items: [{
+			item: "additions:eco_enhanced_alloy_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "ca709680",
+		type: "item",
+		item: "additions:eco_enhanced_alloy_ingot",
+		count: 4
+	},
+	{
+		uid: "9be29515",
+		type: "random",
+		table: 2
+	},
+	{
+		uid: "170981cb",
+		type: "xp",
+		xp: 6000
+	}]
+}

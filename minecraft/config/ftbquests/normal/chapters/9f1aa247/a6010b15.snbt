@@ -1,7 +1,8 @@
 {
 	title: "§b直接使用流体合成",
-	x: -15.5d,
-	y: 15.5d,
+	x: 4.5d,
+	y: 7.0d,
+	description: "合成流体装配室",
 	text: [
 		"需要使用流体样板终端编写出来的样板就可以直接使用流体合成了"
 	],
@@ -15,11 +16,11 @@
 	rewards: [{
 		uid: "688b029f",
 		type: "xp",
-		xp: 100
+		xp: 2000
 	},
 	{
-		uid: "dde3ad2e",
+		uid: "3416f7ec",
 		type: "random",
-		table: 1
+		table: 2
 	}]
 }

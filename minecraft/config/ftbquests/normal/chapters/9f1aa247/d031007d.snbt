@@ -1,12 +1,13 @@
 {
 	title: "§b强者从不.......",
-	x: 1.5d,
-	y: 4.5d,
+	x: -9.0d,
+	y: -1.5d,
+	description: "合成网络工具，一个神奇的小玩意",
 	text: [
 		"能放入9组升级卡，还能当扳手用"
 	],
 	dependencies: [
-		"be4b6c44"
+		"6a11f04c"
 	],
 	tasks: [{
 		uid: "40093138",
@@ -33,5 +34,10 @@
 		uid: "df31c848",
 		type: "xp",
 		xp: 1000
+	},
+	{
+		uid: "72eab781",
+		type: "random",
+		table: 1
 	}]
 }

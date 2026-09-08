@@ -1,14 +1,13 @@
 {
 	title: "§b开始了，自动化合成",
-	x: -21.0d,
-	y: 3.5d,
+	x: -13.0d,
+	y: 3.0d,
 	description: "制作分子装配室",
 	text: [
 		"与ME接口交叉放效果更佳"
 	],
 	dependencies: [
-		"be4b6c44",
-		"bb69a736"
+		"99ed9ca3"
 	],
 	tasks: [{
 		uid: "9d29c74c",

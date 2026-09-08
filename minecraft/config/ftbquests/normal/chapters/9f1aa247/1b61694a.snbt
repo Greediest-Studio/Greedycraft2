@@ -1,18 +1,17 @@
 {
-	x: 0.0d,
-	y: 6.5d,
+	title: "§b安全绑定",
+	x: -4.5d,
+	y: 3.5d,
+	description: "合成ME安全终端",
+	text: [
+		"使用无线终端的必须步骤",
+		"将想要绑定的终端放到安全终端里绑定"
+	],
 	dependencies: [
 		"6f8b667f",
-		"be4b6c44"
+		"6a11f04c"
 	],
 	tasks: [{
-		uid: "8ea4aeab",
-		type: "item",
-		items: [{
-			item: "appliedenergistics2:wireless_access_point"
-		}]
-	},
-	{
 		uid: "f1c758a0",
 		type: "item",
 		items: [{
@@ -20,8 +19,13 @@
 		}]
 	}],
 	rewards: [{
-		uid: "4255110d",
-		type: "xp_levels",
-		xp_levels: 2
+		uid: "9bed2f0e",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "47a94a50",
+		type: "xp",
+		xp: 500
 	}]
 }

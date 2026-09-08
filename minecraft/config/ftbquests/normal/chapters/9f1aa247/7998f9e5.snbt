@@ -1,14 +1,16 @@
 {
 	title: "§b我什么都做的到",
-	x: 0.0d,
-	y: 13.5d,
+	x: -4.5d,
+	y: 9.5d,
+	description: "合成无线通用终端",
 	text: [
-		""
+		"一即全，全即一。"
 	],
 	dependencies: [
 		"4a991608",
 		"491fdbeb",
 		"c6404324",
+		"b364c083",
 		"a1f776af",
 		"c1295c05",
 		"5dc40989",
@@ -40,5 +42,15 @@
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9e710d25",
+		type: "xp",
+		xp: 5000
+	},
+	{
+		uid: "a65617a6",
+		type: "random",
+		table: 2
 	}]
 }

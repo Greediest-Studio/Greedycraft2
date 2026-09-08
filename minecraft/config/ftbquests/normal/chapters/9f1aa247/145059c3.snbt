@@ -1,17 +1,18 @@
 {
-	title: "§b无题",
-	x: 12.5d,
-	y: 12.0d,
+	title: "§b如果它能与龙球相连……",
+	x: -2.0d,
+	y: 6.0d,
+	description: "合成通量存储元件",
 	text: [
 		""
 	],
 	dependencies: [
-		"8f930911",
-		"d9196b5b"
+		"be0a9a5a"
 	],
 	tasks: [{
 		uid: "521d9aa1",
 		type: "item",
+		title: "任意通量存储元件",
 		items: [{
 			id: "crazyae:energy_cell_1k",
 			tag: {}
@@ -62,5 +63,15 @@
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "eacb2ab8",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "abedd238",
+		type: "xp",
+		xp: 1500
 	}]
 }

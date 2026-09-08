@@ -1,17 +1,18 @@
 {
 	title: "§b你也逃不掉！",
-	x: 12.5d,
-	y: 4.5d,
+	x: -2.0d,
+	y: 3.0d,
+	description: "合成气体存储元件",
 	text: [
 		""
 	],
 	dependencies: [
-		"7e1b58e3",
-		"d9196b5b"
+		"be0a9a5a"
 	],
 	tasks: [{
 		uid: "345b40dd",
 		type: "item",
+		title: "任意气体存储元件",
 		items: [{
 			id: "mekeng:gas_cell_1k",
 			tag: {}
@@ -62,5 +63,15 @@
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8d67ec43",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "097ca2e0",
+		type: "xp",
+		xp: 1500
 	}]
 }

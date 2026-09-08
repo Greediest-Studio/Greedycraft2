@@ -1,13 +1,13 @@
 {
 	title: "§b我也支持一对多！",
-	x: -5.5d,
-	y: 8.5d,
+	x: -2.5d,
+	y: -2.0d,
 	description: "合成无线连接枢纽",
 	text: [
 		""
 	],
 	dependencies: [
-		"29b1605b"
+		"848e51e0"
 	],
 	tasks: [{
 		uid: "02e0e15d",

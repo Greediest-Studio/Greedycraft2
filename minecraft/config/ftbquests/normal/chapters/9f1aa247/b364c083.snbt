@@ -1,7 +1,7 @@
 {
 	title: "§b实用榜第一！",
-	x: 0.0d,
-	y: 8.5d,
+	x: -5.0d,
+	y: 4.5d,
 	description: "制作无线合成终端",
 	text: [
 		""
@@ -20,18 +20,13 @@
 		ignore_nbt: 2b
 	}],
 	rewards: [{
-		uid: "8014be1b",
-		type: "random",
-		table: 2
-	},
-	{
 		uid: "15ed08c3",
 		type: "xp",
 		xp: 2000
 	},
 	{
-		uid: "08fca108",
-		type: "item",
-		item: "appliedenergistics2:material 1 42"
+		uid: "abd40da6",
+		type: "random",
+		table: 2
 	}]
 }

@@ -1,9 +1,13 @@
 {
 	title: "§b看！的！见！",
-	x: 14.0d,
-	y: -6.0d,
+	x: -9.5d,
+	y: 0.5d,
+	description: "合成显示元件",
 	text: [
 		""
+	],
+	dependencies: [
+		"6a11f04c"
 	],
 	tasks: [{
 		uid: "77d12725",
@@ -14,5 +18,15 @@
 		}],
 		ignore_damage: 1b,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c11c4030",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "0d98dfac",
+		type: "xp",
+		xp: 300
 	}]
 }

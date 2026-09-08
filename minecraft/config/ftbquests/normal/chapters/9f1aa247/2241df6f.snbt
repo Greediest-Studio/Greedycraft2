@@ -1,16 +1,18 @@
 {
-	title: "§b!cpu!",
-	x: 12.5d,
-	y: 14.5d,
+	title: "§b不好，被CPU了",
+	x: -15.0d,
+	y: 3.0d,
+	description: "制作任意等级的合成存储器",
 	text: [
-		"ps.直接放在工作台上可以直接把存储元件拆出来"
+		"P.S.直接放在工作台上可以直接把存储元件拆出来"
 	],
 	dependencies: [
-		"659b9a07"
+		"d712b186"
 	],
 	tasks: [{
 		uid: "e0b5b71a",
 		type: "item",
+		title: "任意合成存储器",
 		items: [{
 			item: "appliedenergistics2:crafting_storage_1k"
 		},
@@ -55,6 +57,25 @@
 		},
 		{
 			item: "crazyae:crafting_storage_128gb"
+		},
+		{
+			item: "crazyae:crafting_storage_creative"
 		}]
+	}],
+	rewards: [{
+		uid: "c166a5a7",
+		type: "item",
+		item: "appliedenergistics2:crafting_storage_16k",
+		count: 2
+	},
+	{
+		uid: "3fc23d00",
+		type: "random",
+		table: 1
+	},
+	{
+		uid: "3df70982",
+		type: "xp",
+		xp: 1200
 	}]
 }

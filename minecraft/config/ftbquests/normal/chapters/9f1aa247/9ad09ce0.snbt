@@ -1,13 +1,13 @@
 {
 	title: "§b透明面板！",
-	x: -25.0d,
-	y: -5.5d,
+	x: -7.5d,
+	y: 3.5d,
 	description: "制作ME终端",
 	text: [
 		""
 	],
 	dependencies: [
-		"bb69a736"
+		"6a11f04c"
 	],
 	tasks: [{
 		uid: "2f625609",
