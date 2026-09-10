@@ -1618,6 +1618,11 @@ RecipeUtil.addShaped("growth_accelerator", <mysticalagriculture:growth_accelerat
     [<ore:blockSupremiumEssence>, <ore:blockDiamond>, <ore:blockSupremiumEssence>],
     [<ore:blockInsaniumEssence>, <ore:blockSupremiumEssence>, <ore:blockInsaniumEssence>]
 ]);
+RecipeUtil.addShaped("time_adjuster", <gctcore:time_adjuster>, [
+    [null, null, null],
+    [null, <contenttweaker:dim_item>, null],
+    [null, null, null]
+]);
 /*
 RecipeUtil.addShaped("", , [
     [null, null, null],
