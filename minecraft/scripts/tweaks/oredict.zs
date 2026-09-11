@@ -1082,7 +1082,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
     <ore:controllerLevel0> : [
         <modularmachinery:mek_changer_factory_controller>,
         <modularmachinery:builder_1_factory_controller>,
-        <modularmachinery:vethea_enchanter_factory_controller>
+        <modularmachinery:vethea_enchanter_factory_controller>,
+        <modularmachinery:simple_miner_factory_controller>
     ],
     <ore:controllerLevel1> : [
         <modularmachinery:durasteel_forge_factory_controller>,
@@ -1145,7 +1146,6 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <modularmachinery:builder_4_factory_controller>,
         <modularmachinery:thermal_evaporation_plant_factory_controller>,
         <modularmachinery:arcane_compressor_factory_controller>,
-        <modularmachinery:neutron_activator_factory_controller>,
         <modularmachinery:arcane_alchemical_pot_factory_controller>
     ],
     <ore:controllerLevel4> : [
@@ -1174,7 +1174,8 @@ var oredictMap as IIngredient[][IOreDictEntry] = {
         <modularmachinery:crimson_extractor_factory_controller>,
         <modularmachinery:radiation_cleaner_factory_controller>,
         <modularmachinery:ion_exchange_column_factory_controller>,
-        <modularmachinery:great_laser_alloyer_factory_controller>
+        <modularmachinery:great_laser_alloyer_factory_controller>,
+        <modularmachinery:nuclear_bomb_reactor_factory_controller>
     ],
     <ore:controllerLevel6> : [
         <modularmachinery:element_118_mixer_factory_controller>,

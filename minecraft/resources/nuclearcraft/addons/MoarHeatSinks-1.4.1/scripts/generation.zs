@@ -2,7 +2,7 @@
 Copyright Bob Bartsch, 2021
 
 This code is governed by the
-Creative Commons Attribution–NonCommercial License
+Creative Commons Attribution閳ユ彉onCommercial License
 https://creativecommons.org/licenses/by-nc/3.0/
 
 (Meaning: credit me if you modify and/or redistribute
@@ -25,11 +25,15 @@ var colorsNamed = ["676767","636363","171221","616161","151109","aaaa95","86a87f
 
 for i,name in nakNames{
 	var zsFluid = VanillaFactory.createFluid(name~"_nak", Color.fromHex(colorsNamed[i]));
+	zsFluid.stillLocation = "base:fluids/molten";
+	zsFluid.flowingLocation = "base:fluids/molten_flowing";
 	zsFluid.setDensity(4000);
 	zsFluid.setViscosity(1000);
 	zsFluid.setTemperature(300);
 	zsFluid.register();
 	zsFluid = VanillaFactory.createFluid(name~"_nak_hot", Color.fromHex(colorsNamed[i]));
+	zsFluid.stillLocation = "base:fluids/molten";
+	zsFluid.flowingLocation = "base:fluids/molten_flowing";
 	zsFluid.setDensity(4000);
 	zsFluid.setViscosity(1000);
 	zsFluid.setTemperature(700);
@@ -39,6 +43,8 @@ for i,name in nakNames{
 	   ((i==24) && !(loadedMods has "jaopca"))||
 	   ((i==20||i==21||i==26) && !(loadedMods has "tconstruct"))){
 	zsFluid = VanillaFactory.createFluid(name, Color.fromHex(colorsNamed[i]));
+	zsFluid.stillLocation = "base:fluids/molten";
+	zsFluid.flowingLocation = "base:fluids/molten_flowing";
 	zsFluid.setDensity(4000);
 	zsFluid.setViscosity(1000);
 	zsFluid.setTemperature(400);
@@ -47,6 +53,8 @@ for i,name in nakNames{
 }
 if(!(loadedMods has "qmd") && !(loadedMods has "jaopca")){
 	var zsFluid = VanillaFactory.createFluid("silicon", Color.fromHex("999999"));
+	zsFluid.stillLocation = "base:fluids/molten";
+	zsFluid.flowingLocation = "base:fluids/molten_flowing";
 	zsFluid.setDensity(4000);
 	zsFluid.setViscosity(1000);
 	zsFluid.setTemperature(400);
@@ -54,6 +62,8 @@ if(!(loadedMods has "qmd") && !(loadedMods has "jaopca")){
 }
 if(!(loadedMods has "tconstruct")){
 	var zsFluid = VanillaFactory.createFluid(nakNames[27], Color.fromHex(colorsNamed[26]));
+	zsFluid.stillLocation = "base:fluids/molten";
+	zsFluid.flowingLocation = "base:fluids/molten_flowing";
 	zsFluid.setDensity(4000);
 	zsFluid.setViscosity(1000);
 	zsFluid.setTemperature(400);
@@ -68,11 +78,15 @@ colorsNamed = ["e68123","fadf18","524951","cccf91","6ca4c6","afafc3","b0380f","e
 
 for i,name in nakNames{
 	var zsFluid = VanillaFactory.createFluid(name~"_nak", Color.fromHex(colorsNamed[i]));
+	zsFluid.stillLocation = "base:fluids/molten";
+	zsFluid.flowingLocation = "base:fluids/molten_flowing";
 	zsFluid.setDensity(4000);
 	zsFluid.setViscosity(1000);
 	zsFluid.setTemperature(300);
 	zsFluid.register();
 	zsFluid = VanillaFactory.createFluid(name~"_nak_hot", Color.fromHex(colorsNamed[i]));
+	zsFluid.stillLocation = "base:fluids/molten";
+	zsFluid.flowingLocation = "base:fluids/molten_flowing";
 	zsFluid.setDensity(4000);
 	zsFluid.setViscosity(1000);
 	zsFluid.setTemperature(700);
@@ -80,6 +94,8 @@ for i,name in nakNames{
 	if(!(loadedMods has "tconstruct")){
 		if(i==6||i==7||i==10||i==11){
 		zsFluid = VanillaFactory.createFluid(name, Color.fromHex(colorsNamed[i]));
+	zsFluid.stillLocation = "base:fluids/molten";
+	zsFluid.flowingLocation = "base:fluids/molten_flowing";
 		zsFluid.setDensity(4000);
 		zsFluid.setViscosity(1000);
 		zsFluid.setTemperature(400);
@@ -88,6 +104,8 @@ for i,name in nakNames{
 		if(!(loadedMods has "metallurgy")){
 		if(i==12||i==13){
 		zsFluid = VanillaFactory.createFluid(name, Color.fromHex(colorsNamed[i]));
+	zsFluid.stillLocation = "base:fluids/molten";
+	zsFluid.flowingLocation = "base:fluids/molten_flowing";
 		zsFluid.setDensity(4000);
 		zsFluid.setViscosity(1000);
 		zsFluid.setTemperature(400);
@@ -98,6 +116,8 @@ for i,name in nakNames{
 }
 if(!(loadedMods has "jaopca")&&!(loadedMods has "metallurgy")){
 	var zsFluid = VanillaFactory.createFluid(nakNames[9], Color.fromHex(colorsNamed[9]));
+	zsFluid.stillLocation = "base:fluids/molten";
+	zsFluid.flowingLocation = "base:fluids/molten_flowing";
 	zsFluid.setDensity(4000);
 	zsFluid.setViscosity(1000);
 	zsFluid.setTemperature(400);
@@ -111,16 +131,22 @@ if(loadedMods has "redstonearsenal"){
 	colorsNamed = ["ffcc66","ff5c33"] as string[];
 	for i,name in nakNames{
 		var zsFluid = VanillaFactory.createFluid(name~"_nak", Color.fromHex(colorsNamed[i]));
+	zsFluid.stillLocation = "base:fluids/molten";
+	zsFluid.flowingLocation = "base:fluids/molten_flowing";
 		zsFluid.setDensity(4000);
 		zsFluid.setViscosity(1000);
 		zsFluid.setTemperature(300);
 		zsFluid.register();
 		zsFluid = VanillaFactory.createFluid(name~"_nak_hot", Color.fromHex(colorsNamed[i]));
+	zsFluid.stillLocation = "base:fluids/molten";
+	zsFluid.flowingLocation = "base:fluids/molten_flowing";
 		zsFluid.setDensity(4000);
 		zsFluid.setViscosity(1000);
 		zsFluid.setTemperature(700);
 		zsFluid.register();
 		zsFluid = VanillaFactory.createFluid(name, Color.fromHex(colorsNamed[i]));
+	zsFluid.stillLocation = "base:fluids/molten";
+	zsFluid.flowingLocation = "base:fluids/molten_flowing";
 		zsFluid.setDensity(4000);
 		zsFluid.setViscosity(1000);
 		zsFluid.setTemperature(400);
@@ -136,16 +162,22 @@ colorsNamed = ["66c2ff","944dff","5c0099"] as string[];
 
 for i,name in nakNames{
 	var zsFluid = VanillaFactory.createFluid(name~"_nak", Color.fromHex(colorsNamed[i]));
+	zsFluid.stillLocation = "base:fluids/molten";
+	zsFluid.flowingLocation = "base:fluids/molten_flowing";
 	zsFluid.setDensity(4000);
 	zsFluid.setViscosity(1000);
 	zsFluid.setTemperature(300);
 	zsFluid.register();
 	zsFluid = VanillaFactory.createFluid(name~"_nak_hot", Color.fromHex(colorsNamed[i]));
+	zsFluid.stillLocation = "base:fluids/molten";
+	zsFluid.flowingLocation = "base:fluids/molten_flowing";
 	zsFluid.setDensity(4000);
 	zsFluid.setViscosity(1000);
 	zsFluid.setTemperature(700);
 	zsFluid.register();
 	zsFluid = VanillaFactory.createFluid(name, Color.fromHex(colorsNamed[i]));
+	zsFluid.stillLocation = "base:fluids/molten";
+	zsFluid.flowingLocation = "base:fluids/molten_flowing";
 	zsFluid.setDensity(4000);
 	zsFluid.setViscosity(1000);
 	zsFluid.setTemperature(400);
@@ -154,16 +186,22 @@ for i,name in nakNames{
 }
 if(loadedMods has "threng"){
 	var zsFluid = VanillaFactory.createFluid("fluix_steel_nak", Color.fromHex(colorsNamed[2]));
+	zsFluid.stillLocation = "base:fluids/molten";
+	zsFluid.flowingLocation = "base:fluids/molten_flowing";
 	zsFluid.setDensity(4000);
 	zsFluid.setViscosity(1000);
 	zsFluid.setTemperature(300);
 	zsFluid.register();
 	zsFluid = VanillaFactory.createFluid("fluix_steel_nak_hot", Color.fromHex(colorsNamed[2]));
+	zsFluid.stillLocation = "base:fluids/molten";
+	zsFluid.flowingLocation = "base:fluids/molten_flowing";
 	zsFluid.setDensity(4000);
 	zsFluid.setViscosity(1000);
 	zsFluid.setTemperature(700);
 	zsFluid.register();
 	zsFluid = VanillaFactory.createFluid("fluix_steel", Color.fromHex(colorsNamed[2]));
+	zsFluid.stillLocation = "base:fluids/molten";
+	zsFluid.flowingLocation = "base:fluids/molten_flowing";
 	zsFluid.setDensity(4000);
 	zsFluid.setViscosity(1000);
 	zsFluid.setTemperature(400);
@@ -172,8 +210,11 @@ if(loadedMods has "threng"){
 
 if(!(loadedMods has "trinity")){
 	var zsFluid = VanillaFactory.createFluid("tnt", Color.fromHex("ff3300"));
+	zsFluid.stillLocation = "base:fluids/molten";
+	zsFluid.flowingLocation = "base:fluids/molten_flowing";
 	zsFluid.setDensity(1654);
 	zsFluid.setViscosity(1000);
 	zsFluid.setTemperature(400);
 	zsFluid.register();
 }
+

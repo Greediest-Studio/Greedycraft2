@@ -391,6 +391,16 @@ for dimId, dimName in oreOutput.getDimList() {
         if (m == "dimensional_miner") {
             r.addRecipeTooltip("§d需使用§a维度放大镜§d来§a标记§d/§a解绑§d维度");
             r.addRecipeTooltip("§d仅在安装§a时空采掘升级§d时可跨维度采掘");
+
+            // The runtime recipe is dynamic, but JEI still needs representative
+            // outputs so the miner's ore contents are visible in its recipe page.
+            for upgrade in oreOutput.getUpgradeList(dimId) {
+                val list = oreOutput.getoreList(dimId,upgrade);
+                for o in list {
+                    var tooltip = upgradeTooltip(o);
+                    r.addItemOutput(o.ore * o.amount).setChance(o.chance).setPreViewNBT({display:{Lore:[tooltip,"§3请注意输出仓大小，超出容量的部分将被§d全部销毁"]}});
+                }
+            }
         }
         else {
             for upgrade in oreOutput.getUpgradeList(dimId) {

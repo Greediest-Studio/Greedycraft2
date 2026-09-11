@@ -41,6 +41,7 @@ val localizationMap as string[string][string] = {
         "item.thaumadditions:adaminite_robe.name": "铿金神秘使法袍",
         "item.thaumadditions:adaminite_belt.name": "铿金神秘使腰带",
         "item.thaumadditions:adaminite_boots.name": "铿金神秘使靴子",
+        "tile.nuclearcraft.heat_exchanger_controller.name": "热交换器控制器",
         "item.netherite_ingot.name": "熔岩锭",
         "tile.netherite_block.name": "熔岩块",
         "tile.BasicBlock.OsmiumBlock.name": "锇块",

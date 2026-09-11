@@ -16,11 +16,11 @@
 			id: "extendedae:infinity_cell",
 			tag: {
 				r: {
-					Req: 0L,
-					Cnt: 1L,
-					Damage: 0s,
-					Count: 1,
 					id: "minecraft:cobblestone",
+					Count: 1,
+					Damage: 0s,
+					Cnt: 1L,
+					Req: 0L,
 					Craft: 0b
 				},
 				t: "i"

@@ -574,20 +574,6 @@ addBuilderRecipe(<modularmachinery:arcane_compressor_factory_controller>, [
     <gct_mobs:primordial_stone> * 16
 ], 3, 4000);
 
-addBuilderRecipe(<modularmachinery:neutron_activator_factory_controller>, [
-    <additions:logic_processor_2> * 8,
-    <additions:calculation_processor_2> * 16,
-    <additions:engineering_processor_2> * 32,
-    <crazyae:material:16> * 8,
-    <crazyae:material:48> * 4,
-    <ore:ingotModularium> * 64,
-    <ore:ingotLithium> * 64,
-    <ore:ingotSteel> * 48,
-    <ore:ingotStainlessSteel> * 36,
-    <ore:ingotDurasteel> * 16,
-    <ore:ingotOsgloglas> * 12
-], 3, 3200);
-
 addBuilderRecipe(<modularmachinery:arcane_alchemical_pot_factory_controller>, [
     <additions:logic_processor_2> * 4,
     <additions:calculation_processor_2> * 20,
