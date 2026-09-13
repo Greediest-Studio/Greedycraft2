@@ -316,6 +316,16 @@ val tooltip as string[][IItemStack] = {
         "§e机械分类：§b等级2",
         "§e升级仓位：§b1个"
     ],
+    <modularmachinery:mana_powereducer_factory_controller> : [
+        "§f——————————————————————————————",
+        "§e希望你能有一个AE系统来接受这些魔力，",
+        "§e否则你就只能用你的火花网络了。",
+        "§e与魔力液化机完全对应，不过不巧的是，二者无法共用结构。",
+        "§a它可以快速将魔力液体还原为魔力，比例：1mB = 1000Mana",
+        "§f——————————————————————————————",
+        "§e机械分类：§b等级2",
+        "§e升级仓位：§b1个"
+    ],
     <modularmachinery:chromasteel_forge_factory_controller> : [
         "§f——————————————————————————————",
         "§e像高炉一样，继续提升机器高度！",
