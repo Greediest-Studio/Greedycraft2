@@ -1,0 +1,13 @@
+filename = 'tinkers_sort-1.0.1.jar'
+name = "Tinker's Sort"
+side = 'client'
+
+[download]
+hash = '25b3fa006720ecb346d18c653261b532141abcdd'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+
+[update]
+[update.curseforge]
+file-id = 8869436
+project-id = 1692298
